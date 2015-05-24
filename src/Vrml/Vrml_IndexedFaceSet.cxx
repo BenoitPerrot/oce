@@ -11,7 +11,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Vrml_IndexedFaceSet.ixx>
+#include <TColStd_HArray1OfInteger.hxx>
+#include <Vrml_IndexedFaceSet.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Vrml_IndexedFaceSet)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Vrml_IndexedFaceSet)
+IMPLEMENT_DOWNCAST(Vrml_IndexedFaceSet,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Vrml_IndexedFaceSet)
 
 Vrml_IndexedFaceSet::Vrml_IndexedFaceSet(const Handle(TColStd_HArray1OfInteger)& aCoordIndex, 
 					  const Handle(TColStd_HArray1OfInteger)& aMaterialIndex, 

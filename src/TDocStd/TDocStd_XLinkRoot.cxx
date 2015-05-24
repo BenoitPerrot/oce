@@ -21,7 +21,22 @@
 
 
 
-#include <TDocStd_XLinkRoot.ixx>
+#include <TDocStd_XLinkIterator.hxx>
+#include <Standard_GUID.hxx>
+#include <TDF_Data.hxx>
+#include <TDF_Attribute.hxx>
+#include <TDF_RelocationTable.hxx>
+#include <TDocStd_XLinkRoot.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(TDocStd_XLinkRoot)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(TDF_Attribute),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(TDocStd_XLinkRoot)
+IMPLEMENT_DOWNCAST(TDocStd_XLinkRoot,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(TDocStd_XLinkRoot)
 
 #include <TDocStd_XLink.hxx>
 

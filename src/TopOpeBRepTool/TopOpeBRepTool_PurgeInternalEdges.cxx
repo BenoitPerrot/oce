@@ -14,7 +14,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopOpeBRepTool_PurgeInternalEdges.ixx>
+#include <Standard_ConstructionError.hxx>
+#include <Standard_NullObject.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopTools_DataMapOfShapeListOfShape.hxx>
+#include <TopOpeBRepTool_PurgeInternalEdges.hxx>
 
 #include <TopTools_ListOfShape.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>

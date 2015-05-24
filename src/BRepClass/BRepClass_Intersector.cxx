@@ -14,7 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepClass_Intersector.ixx>
+#include <gp_Lin2d.hxx>
+#include <BRepClass_Edge.hxx>
+#include <gp_Dir2d.hxx>
+#include <BRepClass_Intersector.hxx>
 #include <BRep_Tool.hxx>
 #include <BRepAdaptor_Curve2d.hxx>
 #include <BRepAdaptor_Surface.hxx>

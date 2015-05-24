@@ -17,7 +17,25 @@
 //S4181 pdn 20.04.99 Modification of indirect rectangular trimming surfaces and taking
 // locations into account
 //szv 03.01.01 PositiveCones merged in
-#include <ShapeCustom_DirectModification.ixx>
+#include <TopoDS_Face.hxx>
+#include <Geom_Surface.hxx>
+#include <TopLoc_Location.hxx>
+#include <TopoDS_Edge.hxx>
+#include <Geom_Curve.hxx>
+#include <TopoDS_Vertex.hxx>
+#include <gp_Pnt.hxx>
+#include <Geom2d_Curve.hxx>
+#include <ShapeCustom_DirectModification.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(ShapeCustom_DirectModification)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(BRepTools_Modification),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(ShapeCustom_DirectModification)
+IMPLEMENT_DOWNCAST(ShapeCustom_DirectModification,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(ShapeCustom_DirectModification)
 
 #include <gp_Mat.hxx>
 #include <Geom_ConicalSurface.hxx>

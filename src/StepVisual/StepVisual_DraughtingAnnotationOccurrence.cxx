@@ -11,7 +11,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepVisual_DraughtingAnnotationOccurrence.ixx>
+#include <StepVisual_DraughtingAnnotationOccurrence.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepVisual_DraughtingAnnotationOccurrence)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepVisual_AnnotationOccurrence),
+  STANDARD_TYPE(StepVisual_StyledItem),
+  STANDARD_TYPE(StepRepr_RepresentationItem),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepVisual_DraughtingAnnotationOccurrence)
+IMPLEMENT_DOWNCAST(StepVisual_DraughtingAnnotationOccurrence,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepVisual_DraughtingAnnotationOccurrence)
 
 
 StepVisual_DraughtingAnnotationOccurrence::StepVisual_DraughtingAnnotationOccurrence ()  {}

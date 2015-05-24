@@ -13,7 +13,21 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <QABugs_PresentableObject.ixx>
+#include <SelectMgr_Selection.hxx>
+#include <Prs3d_Presentation.hxx>
+#include <QABugs_PresentableObject.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(QABugs_PresentableObject)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(AIS_InteractiveObject),
+  STANDARD_TYPE(SelectMgr_SelectableObject),
+  STANDARD_TYPE(PrsMgr_PresentableObject),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(QABugs_PresentableObject)
+IMPLEMENT_DOWNCAST(QABugs_PresentableObject,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(QABugs_PresentableObject)
 #include <QABugs_PresentableObject.hxx>
 
 #include <Graphic3d_Group.hxx>

@@ -14,7 +14,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Bisector_Bisec.ixx>
+#include <Geom2d_TrimmedCurve.hxx>
+#include <Geom2d_Curve.hxx>
+#include <gp_Pnt2d.hxx>
+#include <gp_Vec2d.hxx>
+#include <Geom2d_Point.hxx>
+#include <Bisector_Bisec.hxx>
 #include <Bisector.hxx>
 #include <Geom2d_Circle.hxx>
 #include <Geom2d_Line.hxx>

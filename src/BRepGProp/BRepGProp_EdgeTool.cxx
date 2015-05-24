@@ -12,7 +12,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepGProp_EdgeTool.ixx>
+#include <Standard_OutOfRange.hxx>
+#include <BRepAdaptor_Curve.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Vec.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <BRepGProp_EdgeTool.hxx>
 #include <GeomAdaptor_Curve.hxx>
 #include <Geom_Curve.hxx>
 #include <Geom_BezierCurve.hxx>

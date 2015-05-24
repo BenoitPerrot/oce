@@ -19,7 +19,9 @@
 //#endif
 
 #include <Standard_Failure.hxx>
-#include <math_FunctionRoot.ixx>
+#include <StdFail_NotDone.hxx>
+#include <math_FunctionWithDerivative.hxx>
+#include <math_FunctionRoot.hxx>
 #include <math_FunctionSetRoot.hxx>
 
 #include <math_FunctionSetWithDerivatives.hxx>

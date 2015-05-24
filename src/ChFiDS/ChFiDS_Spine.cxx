@@ -17,7 +17,26 @@
 // Modified by isg, Thu Mar 17 09:21:31 1994
 
 
-#include <ChFiDS_Spine.ixx>
+#include <TColStd_HArray1OfReal.hxx>
+#include <TopoDS_Edge.hxx>
+#include <ChFiDS_HElSpine.hxx>
+#include <ChFiDS_ListOfHElSpine.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Vec.hxx>
+#include <BRepAdaptor_Curve.hxx>
+#include <gp_Lin.hxx>
+#include <gp_Circ.hxx>
+#include <TopoDS_Vertex.hxx>
+#include <ChFiDS_Spine.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(ChFiDS_Spine)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(ChFiDS_Spine)
+IMPLEMENT_DOWNCAST(ChFiDS_Spine,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(ChFiDS_Spine)
 #include <ChFiDS_HElSpine.hxx>
 #include <ChFiDS_ErrorStatus.hxx> 
 #include <ChFiDS_ListIteratorOfListOfHElSpine.hxx>

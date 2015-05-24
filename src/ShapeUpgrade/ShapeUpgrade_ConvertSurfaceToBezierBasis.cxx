@@ -16,7 +16,18 @@
 
 //   svv  10.01.00 porting on DEC
 
-#include <ShapeUpgrade_ConvertSurfaceToBezierBasis.ixx>
+#include <ShapeExtend_CompositeSurface.hxx>
+#include <ShapeUpgrade_ConvertSurfaceToBezierBasis.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(ShapeUpgrade_ConvertSurfaceToBezierBasis)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(ShapeUpgrade_SplitSurface),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(ShapeUpgrade_ConvertSurfaceToBezierBasis)
+IMPLEMENT_DOWNCAST(ShapeUpgrade_ConvertSurfaceToBezierBasis,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_ConvertSurfaceToBezierBasis)
 #include <TColStd_HSequenceOfReal.hxx>
 #include <Precision.hxx>
 #include <Geom_RectangularTrimmedSurface.hxx>

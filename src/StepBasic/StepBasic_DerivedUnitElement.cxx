@@ -11,7 +11,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepBasic_DerivedUnitElement.ixx>
+#include <StepBasic_NamedUnit.hxx>
+#include <StepBasic_DerivedUnitElement.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepBasic_DerivedUnitElement)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepBasic_DerivedUnitElement)
+IMPLEMENT_DOWNCAST(StepBasic_DerivedUnitElement,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepBasic_DerivedUnitElement)
 
 StepBasic_DerivedUnitElement::StepBasic_DerivedUnitElement ()    {  }
 

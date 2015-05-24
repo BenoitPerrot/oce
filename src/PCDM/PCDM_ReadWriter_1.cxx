@@ -14,7 +14,23 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PCDM_ReadWriter_1.ixx>
+#include <TCollection_AsciiString.hxx>
+#include <Storage_Data.hxx>
+#include <CDM_Document.hxx>
+#include <TCollection_ExtendedString.hxx>
+#include <CDM_MessageDriver.hxx>
+#include <PCDM_SequenceOfReference.hxx>
+#include <TColStd_SequenceOfExtendedString.hxx>
+#include <PCDM_ReadWriter_1.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(PCDM_ReadWriter_1)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(PCDM_ReadWriter),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(PCDM_ReadWriter_1)
+IMPLEMENT_DOWNCAST(PCDM_ReadWriter_1,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(PCDM_ReadWriter_1)
 #include <UTL.hxx>
 #include <Storage_Data.hxx>
 #include <TCollection_AsciiString.hxx>

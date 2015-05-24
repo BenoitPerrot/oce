@@ -13,7 +13,19 @@
 
 //:r5 abv 06.04.99: ec_turbine-A.stp, #4313: protect against null curve
 //    abv 09.04.99  S4136: add parameter preci (to eliminate BRepAPI::Precision)
-#include <ShapeFix_EdgeProjAux.ixx>
+#include <TopoDS_Face.hxx>
+#include <TopoDS_Edge.hxx>
+#include <Geom2d_Curve.hxx>
+#include <ShapeFix_EdgeProjAux.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(ShapeFix_EdgeProjAux)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(ShapeFix_EdgeProjAux)
+IMPLEMENT_DOWNCAST(ShapeFix_EdgeProjAux,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(ShapeFix_EdgeProjAux)
 
 #include <Standard_ErrorHandler.hxx>
 #include <Standard_Failure.hxx>

@@ -14,10 +14,25 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Units_ShiftedUnit.ixx>
-#include <Units_ShiftedToken.hxx>
+#include <Standard_Type.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <TColStd_HSequenceOfHAsciiString.hxx>
+#include <Units_Quantity.hxx>
+#include <Units_ShiftedToken.hxx>
+#include <Units_ShiftedUnit.hxx>
+#include <Units_Token.hxx>
+
+IMPLEMENT_STANDARD_TYPE(Units_ShiftedUnit)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Units_Unit),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Units_ShiftedUnit)
+
+IMPLEMENT_DOWNCAST(Units_ShiftedUnit,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Units_ShiftedUnit)
 
 //=======================================================================
 //function : Units_ShiftedUnit

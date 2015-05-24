@@ -14,7 +14,25 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Expr_LogOf10.ixx>
+#include <Standard_NumericError.hxx>
+#include <Expr_NotEvaluable.hxx>
+#include <Expr_GeneralExpression.hxx>
+#include <Expr_NamedUnknown.hxx>
+#include <Expr_Array1OfNamedUnknown.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <Expr_LogOf10.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Expr_LogOf10)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Expr_UnaryExpression),
+  STANDARD_TYPE(Expr_GeneralExpression),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Expr_LogOf10)
+IMPLEMENT_DOWNCAST(Expr_LogOf10,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Expr_LogOf10)
 #include <Expr_NumericValue.hxx>
 #include <Expr_Division.hxx>
 #include <Expr_Product.hxx>

@@ -14,7 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <HLRTopoBRep_FaceData.ixx>
+#include <TopTools_ListOfShape.hxx>
+#include <HLRTopoBRep_FaceData.hxx>
 
 //=======================================================================
 //function : FaceData

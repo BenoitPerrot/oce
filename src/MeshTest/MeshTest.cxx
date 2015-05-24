@@ -18,7 +18,7 @@
 
 #include <stdio.h>
 
-#include <MeshTest.ixx>
+#include <MeshTest.hxx>
 
 #include <MeshTest_DrawableMesh.hxx>
 #include <TopAbs_ShapeEnum.hxx>

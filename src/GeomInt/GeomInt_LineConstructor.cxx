@@ -14,7 +14,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomInt_LineConstructor.ixx>
+#include <Adaptor3d_TopolTool.hxx>
+#include <GeomAdaptor_HSurface.hxx>
+#include <StdFail_NotDone.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <IntPatch_Line.hxx>
+#include <GeomInt_LineConstructor.hxx>
 
 #include <GeomInt_LineTool.hxx>
 #include <GeomInt_SequenceOfParameterAndOrientation.hxx>

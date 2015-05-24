@@ -13,7 +13,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <DNaming_PointDriver.ixx>
+#include <TFunction_Logbook.hxx>
+#include <DNaming_PointDriver.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(DNaming_PointDriver)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(TFunction_Driver),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(DNaming_PointDriver)
+IMPLEMENT_DOWNCAST(DNaming_PointDriver,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(DNaming_PointDriver)
 //OCCT
 #include <BRepBuilderAPI_MakeVertex.hxx>
 #include <TopLoc_Location.hxx>

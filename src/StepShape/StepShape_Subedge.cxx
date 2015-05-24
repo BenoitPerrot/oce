@@ -15,7 +15,22 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.1
 
-#include <StepShape_Subedge.ixx>
+#include <StepShape_Edge.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepShape_Vertex.hxx>
+#include <StepShape_Subedge.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepShape_Subedge)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepShape_Edge),
+  STANDARD_TYPE(StepShape_TopologicalRepresentationItem),
+  STANDARD_TYPE(StepRepr_RepresentationItem),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepShape_Subedge)
+IMPLEMENT_DOWNCAST(StepShape_Subedge,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepShape_Subedge)
 
 //=======================================================================
 //function : StepShape_Subedge

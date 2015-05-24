@@ -15,7 +15,17 @@
 // commercial license or contractual agreement.
 
 #include <TDF_LabelList.hxx>
-#include <TNaming_Tool.ixx>
+#include <TNaming_Localizer.hxx>
+#include <TNaming_NamedShape.hxx>
+#include <TNaming_OldShapeIterator.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TDF_LabelMap.hxx>
+#include <TDF_Label.hxx>
+#include <TNaming_MapOfNamedShape.hxx>
+#include <TDF_LabelList.hxx>
+#include <TNaming_UsedShapes.hxx>
+#include <TopTools_MapOfShape.hxx>
+#include <TNaming_Tool.hxx>
 #include <TNaming_NamedShape.hxx>
 #include <TNaming_NewShapeIterator.hxx>
 #include <TNaming_OldShapeIterator.hxx>

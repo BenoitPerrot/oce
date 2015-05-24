@@ -14,7 +14,15 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepFeat.ixx>
+#include <TopoDS_Shape.hxx>
+#include <TColgp_SequenceOfPnt.hxx>
+#include <gp_Pnt.hxx>
+#include <Geom_Curve.hxx>
+#include <TopoDS_Face.hxx>
+#include <BRepTopAdaptor_FClass2d.hxx>
+#include <Geom2dAdaptor_Curve.hxx>
+#include <TopoDS_Solid.hxx>
+#include <BRepFeat.hxx>
 
 //#include <BRepAlgo_Cut.hxx>
 

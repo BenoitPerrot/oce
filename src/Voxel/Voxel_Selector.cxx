@@ -13,7 +13,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Voxel_Selector.ixx>
+#include <V3d_View.hxx>
+#include <Voxel_BoolDS.hxx>
+#include <Voxel_ColorDS.hxx>
+#include <Voxel_ROctBoolDS.hxx>
+#include <Voxel_Selector.hxx>
 
 #include <gp_Pnt.hxx>
 #include <gp_Lin.hxx>

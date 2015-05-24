@@ -14,7 +14,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <QANewBRepNaming_Loader.ixx>
+#include <BRepBuilderAPI_MakeShape.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TNaming_Builder.hxx>
+#include <TopTools_DataMapOfShapeShape.hxx>
+#include <TDF_Label.hxx>
+#include <TopTools_MapOfShape.hxx>
+#include <QANewBRepNaming_Loader.hxx>
 
 #include <TNaming.hxx>
 #include <TDF_Label.hxx>

@@ -14,7 +14,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepCheck_Shell.ixx>
+#include <TopoDS_Shell.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopTools_ListOfShape.hxx>
+#include <BRepCheck_Shell.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(BRepCheck_Shell)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(BRepCheck_Result),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(BRepCheck_Shell)
+IMPLEMENT_DOWNCAST(BRepCheck_Shell,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(BRepCheck_Shell)
 
 #include <BRepCheck_ListOfStatus.hxx>
 #include <BRepCheck_ListIteratorOfListOfStatus.hxx>

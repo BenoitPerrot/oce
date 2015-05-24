@@ -15,7 +15,9 @@
 
 // modified     20.04.2009 Sergey Zaritchny
 
-#include <XmlMDataStd.ixx>
+#include <XmlMDF_ADriverTable.hxx>
+#include <CDM_MessageDriver.hxx>
+#include <XmlMDataStd.hxx>
 
 #include <XmlMDataStd_DirectoryDriver.hxx>
 #include <XmlMDataStd_UAttributeDriver.hxx>

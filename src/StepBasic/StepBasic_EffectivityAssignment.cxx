@@ -15,7 +15,17 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.1
 
-#include <StepBasic_EffectivityAssignment.ixx>
+#include <StepBasic_Effectivity.hxx>
+#include <StepBasic_EffectivityAssignment.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepBasic_EffectivityAssignment)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepBasic_EffectivityAssignment)
+IMPLEMENT_DOWNCAST(StepBasic_EffectivityAssignment,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepBasic_EffectivityAssignment)
 
 //=======================================================================
 //function : StepBasic_EffectivityAssignment

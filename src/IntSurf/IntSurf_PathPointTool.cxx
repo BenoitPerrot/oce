@@ -12,6 +12,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IntSurf_PathPointTool.ixx>
+#include <Standard_OutOfRange.hxx>
+#include <StdFail_UndefinedDerivative.hxx>
+#include <IntSurf_PathPoint.hxx>
+#include <IntSurf_PathPointTool.hxx>
 
 

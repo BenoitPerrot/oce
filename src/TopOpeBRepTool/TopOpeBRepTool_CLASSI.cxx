@@ -14,7 +14,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopOpeBRepTool_CLASSI.ixx>
+#include <TopoDS_Face.hxx>
+#include <TopoDS_Shape.hxx>
+#include <Bnd_Box2d.hxx>
+#include <TopOpeBRepTool_face.hxx>
+#include <TopTools_ListOfShape.hxx>
+#include <TopTools_DataMapOfShapeListOfShape.hxx>
+#include <TopOpeBRepTool_CLASSI.hxx>
 #include <TopOpeBRepTool_define.hxx>
 #include <TopOpeBRepTool_EXPORT.hxx>
 #include <TopOpeBRepTool_TOOL.hxx>

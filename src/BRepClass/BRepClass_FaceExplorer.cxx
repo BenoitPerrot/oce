@@ -17,7 +17,11 @@
 //  Modified by skv - Thu Jul 13 17:42:58 2006 OCC12627
 //  Total rewriting of the method Segment; add the method OtherSegment.
 
-#include <BRepClass_FaceExplorer.ixx>
+#include <TopoDS_Face.hxx>
+#include <gp_Pnt2d.hxx>
+#include <gp_Lin2d.hxx>
+#include <BRepClass_Edge.hxx>
+#include <BRepClass_FaceExplorer.hxx>
 #include <Precision.hxx>
 #include <Geom2d_Curve.hxx>
 #include <TopoDS.hxx>

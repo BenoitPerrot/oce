@@ -22,8 +22,12 @@
 #include <OSD_OSDError.hxx>
 #include <OSD_WhoAmI.hxx>
 #include <OSD_FromWhere.hxx>
-#include <OSD_File.ixx>
-
+#include <Standard_ProgramError.hxx>
+#include <OSD_Path.hxx>
+#include <OSD_Protection.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <OSD_Printer.hxx>
+#include <OSD_File.hxx>
 #include <Standard_PCharacter.hxx>
 
 const OSD_WhoAmI Iam = OSD_WFile;

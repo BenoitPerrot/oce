@@ -13,7 +13,21 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <XmlMXCAFDoc_LocationDriver.ixx>
+#include <CDM_MessageDriver.hxx>
+#include <TDF_Attribute.hxx>
+#include <XmlObjMgt_Persistent.hxx>
+#include <TopLoc_Location.hxx>
+#include <XmlMXCAFDoc_LocationDriver.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(XmlMXCAFDoc_LocationDriver)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(XmlMDF_ADriver),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(XmlMXCAFDoc_LocationDriver)
+IMPLEMENT_DOWNCAST(XmlMXCAFDoc_LocationDriver,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(XmlMXCAFDoc_LocationDriver)
 
 #include <XCAFDoc_Location.hxx>
 #include <XmlObjMgt_Document.hxx>

@@ -12,7 +12,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PPoly_Polygon3D.ixx>
+#include <PColgp_HArray1OfPnt.hxx>
+#include <PColStd_HArray1OfReal.hxx>
+#include <PPoly_Polygon3D.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(PPoly_Polygon3D)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Standard_Persistent),
+  STANDARD_TYPE(Standard_Storable),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(PPoly_Polygon3D)
+IMPLEMENT_DOWNCAST(PPoly_Polygon3D,Standard_Persistent)
+IMPLEMENT_STANDARD_RTTI(PPoly_Polygon3D)
 
 //=======================================================================
 //function :

@@ -14,7 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopOpeBRepBuild_Tools2d.ixx>
+#include <TopoDS_Wire.hxx>
+#include <TopOpeBRepBuild_IndexedDataMapOfShapeVertexInfo.hxx>
+#include <TopTools_ListOfShape.hxx>
+#include <TopOpeBRepBuild_Tools2d.hxx>
 #include <TopoDS_Wire.hxx>
 #include <TopExp_Explorer.hxx>
 #include <TopOpeBRepBuild_VertexInfo.hxx>

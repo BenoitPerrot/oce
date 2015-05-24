@@ -33,7 +33,18 @@
 //-Declarations
 
 // for the class
-#include <Aspect_AspectFillArea.ixx>
+#include <Aspect_AspectFillAreaDefinitionError.hxx>
+#include <Quantity_Color.hxx>
+#include <Aspect_AspectFillArea.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Aspect_AspectFillArea)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Aspect_AspectFillArea)
+IMPLEMENT_DOWNCAST(Aspect_AspectFillArea,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Aspect_AspectFillArea)
 
 //-Aliases
 

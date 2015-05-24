@@ -13,7 +13,23 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TFunction_Scope.ixx>
+#include <TDF_Label.hxx>
+#include <Standard_GUID.hxx>
+#include <TFunction_Logbook.hxx>
+#include <TDF_Attribute.hxx>
+#include <TDF_RelocationTable.hxx>
+#include <TFunction_DoubleMapOfIntegerLabel.hxx>
+#include <TFunction_Scope.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(TFunction_Scope)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(TDF_Attribute),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(TFunction_Scope)
+IMPLEMENT_DOWNCAST(TFunction_Scope,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(TFunction_Scope)
 #include <TDF_MapIteratorOfLabelMap.hxx>
 
 //=======================================================================

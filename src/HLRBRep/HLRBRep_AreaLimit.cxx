@@ -14,7 +14,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <HLRBRep_AreaLimit.ixx>
+#include <HLRBRep_AreaLimit.hxx>
+#include <HLRAlgo_Intersection.hxx>
+#include <HLRBRep_AreaLimit.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(HLRBRep_AreaLimit)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(HLRBRep_AreaLimit)
+IMPLEMENT_DOWNCAST(HLRBRep_AreaLimit,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(HLRBRep_AreaLimit)
 
 //=======================================================================
 //function : HLRBRep_AreaLimit

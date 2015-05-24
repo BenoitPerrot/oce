@@ -14,7 +14,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PCDM_ReferenceIterator.ixx>
+#include <CDM_MessageDriver.hxx>
+#include <CDM_Document.hxx>
+#include <CDM_MetaData.hxx>
+#include <CDM_Application.hxx>
+#include <PCDM_ReferenceIterator.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(PCDM_ReferenceIterator)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(PCDM_ReferenceIterator)
+IMPLEMENT_DOWNCAST(PCDM_ReferenceIterator,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(PCDM_ReferenceIterator)
 #include <Storage_Data.hxx>
 #include <UTL.hxx>
 #include <CDM_Document.hxx>

@@ -11,7 +11,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <RWStepBasic_RWDateRole.ixx>
+#include <StepData_StepReaderData.hxx>
+#include <Interface_Check.hxx>
+#include <StepBasic_DateRole.hxx>
+#include <StepData_StepWriter.hxx>
+#include <RWStepBasic_RWDateRole.hxx>
 
 
 RWStepBasic_RWDateRole::RWStepBasic_RWDateRole () {}

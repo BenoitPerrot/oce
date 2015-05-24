@@ -16,7 +16,19 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESDraw_ToolCircArraySubfigure.ixx>
+#include <Standard_DomainError.hxx>
+#include <IGESDraw_CircArraySubfigure.hxx>
+#include <IGESData_IGESReaderData.hxx>
+#include <IGESData_ParamReader.hxx>
+#include <IGESData_IGESWriter.hxx>
+#include <Interface_EntityIterator.hxx>
+#include <IGESData_DirChecker.hxx>
+#include <Interface_ShareTool.hxx>
+#include <Interface_Check.hxx>
+#include <Interface_CopyTool.hxx>
+#include <IGESData_IGESDumper.hxx>
+#include <Message_Messenger.hxx>
+#include <IGESDraw_ToolCircArraySubfigure.hxx>
 #include <IGESData_ParamCursor.hxx>
 #include <gp_XYZ.hxx>
 #include <IGESData_IGESEntity.hxx>

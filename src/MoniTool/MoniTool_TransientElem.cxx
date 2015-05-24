@@ -11,7 +11,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <MoniTool_TransientElem.ixx>
+#include <Standard_Transient.hxx>
+#include <MoniTool_Element.hxx>
+#include <Standard_Type.hxx>
+#include <MoniTool_TransientElem.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(MoniTool_TransientElem)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MoniTool_Element),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(MoniTool_TransientElem)
+IMPLEMENT_DOWNCAST(MoniTool_TransientElem,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(MoniTool_TransientElem)
 
 #include <Standard_Integer.hxx>
 #include <Standard_Transient.hxx>

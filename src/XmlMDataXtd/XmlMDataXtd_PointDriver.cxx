@@ -13,7 +13,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <XmlMDataXtd_PointDriver.ixx>
+#include <CDM_MessageDriver.hxx>
+#include <TDF_Attribute.hxx>
+#include <XmlObjMgt_Persistent.hxx>
+#include <XmlMDataXtd_PointDriver.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(XmlMDataXtd_PointDriver)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(XmlMDF_ADriver),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(XmlMDataXtd_PointDriver)
+IMPLEMENT_DOWNCAST(XmlMDataXtd_PointDriver,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(XmlMDataXtd_PointDriver)
 #include <TDataXtd_Point.hxx>
 
 //=======================================================================

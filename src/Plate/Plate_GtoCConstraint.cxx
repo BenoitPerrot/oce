@@ -19,7 +19,13 @@
 #include <math_Gauss.hxx>
 
 
-#include <Plate_GtoCConstraint.ixx>
+#include <gp_XY.hxx>
+#include <Plate_D1.hxx>
+#include <gp_XYZ.hxx>
+#include <Plate_D2.hxx>
+#include <Plate_D3.hxx>
+#include <Plate_PinpointConstraint.hxx>
+#include <Plate_GtoCConstraint.hxx>
 
 //alr le 12/11/96
 static const Standard_Real NORMIN = 1.e-10;

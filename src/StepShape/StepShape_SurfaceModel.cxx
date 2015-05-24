@@ -11,7 +11,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepShape_SurfaceModel.ixx>
+#include <Standard_Transient.hxx>
+#include <StepShape_ShellBasedSurfaceModel.hxx>
+#include <StepShape_SurfaceModel.hxx>
 #include <Interface_Macros.hxx>
 
 StepShape_SurfaceModel::StepShape_SurfaceModel () {  }

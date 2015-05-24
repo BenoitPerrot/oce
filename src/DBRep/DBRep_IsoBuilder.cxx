@@ -14,7 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <DBRep_IsoBuilder.ixx>
+#include <TopoDS_Face.hxx>
+#include <DBRep_Face.hxx>
+#include <DBRep_IsoBuilder.hxx>
 
 #include <Precision.hxx>
 #include <BRepTools.hxx>

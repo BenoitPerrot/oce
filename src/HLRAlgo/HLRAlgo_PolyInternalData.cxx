@@ -15,7 +15,22 @@
 // commercial license or contractual agreement.
 
 #include <Standard_Stream.hxx>
-#include <HLRAlgo_PolyInternalData.ixx>
+#include <HLRAlgo_HArray1OfTData.hxx>
+#include <HLRAlgo_HArray1OfPISeg.hxx>
+#include <HLRAlgo_HArray1OfPINod.hxx>
+#include <HLRAlgo_Array1OfTData.hxx>
+#include <HLRAlgo_Array1OfPISeg.hxx>
+#include <HLRAlgo_Array1OfPINod.hxx>
+#include <HLRAlgo_PolyInternalData.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(HLRAlgo_PolyInternalData)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(HLRAlgo_PolyInternalData)
+IMPLEMENT_DOWNCAST(HLRAlgo_PolyInternalData,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(HLRAlgo_PolyInternalData)
 #include <HLRAlgo_BiPoint.hxx>
 
 #define Tri1Node1 ((Standard_Integer*)Tri1Indices)[0]

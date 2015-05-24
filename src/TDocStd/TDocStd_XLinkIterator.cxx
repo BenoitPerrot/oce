@@ -21,7 +21,9 @@
 
 
 
-#include <TDocStd_XLinkIterator.ixx>
+#include <Standard_NoMoreObject.hxx>
+#include <TDocStd_Document.hxx>
+#include <TDocStd_XLinkIterator.hxx>
 #include <TDF_Data.hxx>
 #include <TDocStd_XLink.hxx>
 #include <TDocStd_XLinkRoot.hxx>

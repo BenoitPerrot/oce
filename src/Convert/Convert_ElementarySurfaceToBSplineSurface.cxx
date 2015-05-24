@@ -16,7 +16,9 @@
 
 
 
-#include <Convert_ElementarySurfaceToBSplineSurface.ixx>
+#include <Standard_OutOfRange.hxx>
+#include <gp_Pnt.hxx>
+#include <Convert_ElementarySurfaceToBSplineSurface.hxx>
 
 #include <Standard_OutOfRange.hxx>
 

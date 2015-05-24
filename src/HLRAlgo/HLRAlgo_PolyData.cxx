@@ -17,7 +17,23 @@
 #ifndef No_Exception
 //#define No_Exception
 #endif
-#include <HLRAlgo_PolyData.ixx>
+#include <TColgp_HArray1OfXYZ.hxx>
+#include <HLRAlgo_HArray1OfTData.hxx>
+#include <HLRAlgo_HArray1OfPHDat.hxx>
+#include <TColgp_Array1OfXYZ.hxx>
+#include <HLRAlgo_Array1OfTData.hxx>
+#include <HLRAlgo_Array1OfPHDat.hxx>
+#include <HLRAlgo_EdgeStatus.hxx>
+#include <HLRAlgo_PolyData.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(HLRAlgo_PolyData)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(HLRAlgo_PolyData)
+IMPLEMENT_DOWNCAST(HLRAlgo_PolyData,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(HLRAlgo_PolyData)
 
 #define EMskGrALin1  0x008u
 #define EMskGrALin2  0x010u

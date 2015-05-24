@@ -14,7 +14,21 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Geom_Vector.ixx>
+#include <Standard_ConstructionError.hxx>
+#include <Standard_DomainError.hxx>
+#include <gp_VectorWithNullMagnitude.hxx>
+#include <gp_Vec.hxx>
+#include <Geom_Vector.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Geom_Vector)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Geom_Geometry),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Geom_Vector)
+IMPLEMENT_DOWNCAST(Geom_Vector,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Geom_Vector)
 
 typedef Geom_Vector         Vector;
 typedef Handle(Geom_Vector) Handle(Vector);

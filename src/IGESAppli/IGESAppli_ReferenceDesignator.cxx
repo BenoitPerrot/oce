@@ -16,7 +16,18 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESAppli_ReferenceDesignator.ixx>
+#include <TCollection_HAsciiString.hxx>
+#include <IGESAppli_ReferenceDesignator.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESAppli_ReferenceDesignator)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IGESData_IGESEntity),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESAppli_ReferenceDesignator)
+IMPLEMENT_DOWNCAST(IGESAppli_ReferenceDesignator,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESAppli_ReferenceDesignator)
 #include <IGESData_LevelListEntity.hxx>
 
 

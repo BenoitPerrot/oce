@@ -43,7 +43,9 @@ Etapes du calcul:
 #define No_Standard_DimensionError
 //#endif
 
-#include <math_GaussSingleIntegration.ixx>
+#include <StdFail_NotDone.hxx>
+#include <math_Function.hxx>
+#include <math_GaussSingleIntegration.hxx>
 
 #include <math.hxx>
 #include <math_Vector.hxx>

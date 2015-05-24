@@ -14,7 +14,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopoDSToStep_MakeStepVertex.ixx>
+#include <StepShape_TopologicalRepresentationItem.hxx>
+#include <StdFail_NotDone.hxx>
+#include <TopoDS_Vertex.hxx>
+#include <TopoDSToStep_Tool.hxx>
+#include <Transfer_FinderProcess.hxx>
+#include <TopoDSToStep_MakeStepVertex.hxx>
 
 #include <GeomToStep_MakeCartesianPoint.hxx>
 

@@ -26,7 +26,8 @@
 //-Declarations
 
 // for the class
-#include <Aspect_Background.ixx>
+#include <Quantity_Color.hxx>
+#include <Aspect_Background.hxx>
 
 //-Aliases
 

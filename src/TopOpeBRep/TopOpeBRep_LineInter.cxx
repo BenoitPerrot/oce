@@ -14,7 +14,22 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopOpeBRep_LineInter.ixx>
+#include <IntPatch_Line.hxx>
+#include <IntPatch_ALine.hxx>
+#include <IntPatch_RLine.hxx>
+#include <IntPatch_WLine.hxx>
+#include <IntPatch_GLine.hxx>
+#include <TopOpeBRep_HArray1OfVPointInter.hxx>
+#include <BRepAdaptor_Surface.hxx>
+#include <TopoDS_Face.hxx>
+#include <TopOpeBRep_VPointInter.hxx>
+#include <TopOpeBRep_WPointInter.hxx>
+#include <Geom_Curve.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopOpeBRepDS_Transition.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <TopOpeBRep_Bipoint.hxx>
+#include <TopOpeBRep_LineInter.hxx>
 
 #include <TopOpeBRep.hxx>
 #include <TopOpeBRep_VPointInter.hxx>

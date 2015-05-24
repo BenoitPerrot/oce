@@ -14,7 +14,14 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepFeat_MakeRevol.ixx>
+#include <Geom_Curve.hxx>
+#include <Standard_ConstructionError.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopoDS_Face.hxx>
+#include <gp_Ax1.hxx>
+#include <TopoDS_Edge.hxx>
+#include <TColGeom_SequenceOfCurve.hxx>
+#include <BRepFeat_MakeRevol.hxx>
 
 #include <BRepFeat.hxx>
 #include <LocOpe.hxx>

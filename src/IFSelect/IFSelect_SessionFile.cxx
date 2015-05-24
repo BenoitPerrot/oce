@@ -11,7 +11,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IFSelect_SessionFile.ixx>
+#include <IFSelect_WorkSession.hxx>
+#include <TColStd_HArray1OfInteger.hxx>
+#include <Dico_DictionaryOfInteger.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <Standard_Transient.hxx>
+#include <IFSelect_SessionFile.hxx>
 #include <IFSelect_SessionDumper.hxx>
 #include <IFSelect_BasicDumper.hxx>
 #include <IFSelect_IntParam.hxx>

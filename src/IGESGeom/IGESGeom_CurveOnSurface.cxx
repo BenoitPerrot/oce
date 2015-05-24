@@ -16,7 +16,18 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESGeom_CurveOnSurface.ixx>
+#include <IGESData_IGESEntity.hxx>
+#include <IGESGeom_CurveOnSurface.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESGeom_CurveOnSurface)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IGESData_IGESEntity),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESGeom_CurveOnSurface)
+IMPLEMENT_DOWNCAST(IGESGeom_CurveOnSurface,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESGeom_CurveOnSurface)
 
 
 IGESGeom_CurveOnSurface::IGESGeom_CurveOnSurface ()    {  }

@@ -17,7 +17,10 @@
 //#53 rln 24.12.98 CCI60005
 //#57 rln 25.12.98 avoid code duplication
 
-#include <Geom2dToIGES_Geom2dCurve.ixx>
+#include <Geom2dToIGES_Geom2dEntity.hxx>
+#include <IGESData_IGESEntity.hxx>
+#include <Geom2d_Curve.hxx>
+#include <Geom2dToIGES_Geom2dCurve.hxx>
 
 #include <Geom2d_Curve.hxx>
 #include <Geom2d_BoundedCurve.hxx>

@@ -14,7 +14,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <ShapeUpgrade_ConvertCurve2dToBezier.ixx>
+#include <TColGeom2d_HSequenceOfCurve.hxx>
+#include <TColStd_HSequenceOfReal.hxx>
+#include <ShapeUpgrade_ConvertCurve2dToBezier.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(ShapeUpgrade_ConvertCurve2dToBezier)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(ShapeUpgrade_SplitCurve2d),
+  STANDARD_TYPE(ShapeUpgrade_SplitCurve),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(ShapeUpgrade_ConvertCurve2dToBezier)
+IMPLEMENT_DOWNCAST(ShapeUpgrade_ConvertCurve2dToBezier,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_ConvertCurve2dToBezier)
 #include <Precision.hxx>
 #include <Geom2d_TrimmedCurve.hxx>
 #include <Geom2d_BezierCurve.hxx>

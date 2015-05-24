@@ -16,7 +16,12 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.0
 
-#include <RWStepAP203_RWStartRequest.ixx>
+#include <StepData_StepReaderData.hxx>
+#include <Interface_Check.hxx>
+#include <StepAP203_StartRequest.hxx>
+#include <StepData_StepWriter.hxx>
+#include <Interface_EntityIterator.hxx>
+#include <RWStepAP203_RWStartRequest.hxx>
 #include <StepAP203_HArray1OfStartRequestItem.hxx>
 #include <StepAP203_StartRequestItem.hxx>
 

@@ -16,7 +16,18 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESSolid_SolidInstance.ixx>
+#include <IGESData_IGESEntity.hxx>
+#include <IGESSolid_SolidInstance.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESSolid_SolidInstance)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IGESData_IGESEntity),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESSolid_SolidInstance)
+IMPLEMENT_DOWNCAST(IGESSolid_SolidInstance,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESSolid_SolidInstance)
 
 
 IGESSolid_SolidInstance::IGESSolid_SolidInstance ()    {  }

@@ -14,7 +14,23 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IntPatch_ALine.ixx>
+#include <Standard_DomainError.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <IntAna_Curve.hxx>
+#include <IntPatch_Point.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Vec.hxx>
+#include <IntPatch_ALine.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IntPatch_ALine)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IntPatch_Line),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IntPatch_ALine)
+IMPLEMENT_DOWNCAST(IntPatch_ALine,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IntPatch_ALine)
 
 #define DEBUG 0
 

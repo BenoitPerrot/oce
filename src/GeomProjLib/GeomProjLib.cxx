@@ -18,7 +18,12 @@
 
 #include <stdio.h>
 
-#include <GeomProjLib.ixx>
+#include <Geom2d_Curve.hxx>
+#include <Geom_Curve.hxx>
+#include <Geom_Surface.hxx>
+#include <Geom_Plane.hxx>
+#include <gp_Dir.hxx>
+#include <GeomProjLib.hxx>
 
 #include <ProjLib_ProjectedCurve.hxx>
 #include <ProjLib_CompProjectedCurve.hxx>

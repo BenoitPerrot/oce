@@ -11,7 +11,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepShape_FaceOuterBound.ixx>
+#include <StepShape_FaceOuterBound.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepShape_FaceOuterBound)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepShape_FaceBound),
+  STANDARD_TYPE(StepShape_TopologicalRepresentationItem),
+  STANDARD_TYPE(StepRepr_RepresentationItem),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepShape_FaceOuterBound)
+IMPLEMENT_DOWNCAST(StepShape_FaceOuterBound,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepShape_FaceOuterBound)
 
 
 StepShape_FaceOuterBound::StepShape_FaceOuterBound ()  {}

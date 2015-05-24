@@ -11,7 +11,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <VrmlConverter_DeflectionCurve.ixx>
+#include <Adaptor3d_Curve.hxx>
+#include <VrmlConverter_Drawer.hxx>
+#include <VrmlConverter_DeflectionCurve.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Circ.hxx>
 #include <gp_Dir.hxx>

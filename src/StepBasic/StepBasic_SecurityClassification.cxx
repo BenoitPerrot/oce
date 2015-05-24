@@ -11,7 +11,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepBasic_SecurityClassification.ixx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepBasic_SecurityClassificationLevel.hxx>
+#include <StepBasic_SecurityClassification.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepBasic_SecurityClassification)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepBasic_SecurityClassification)
+IMPLEMENT_DOWNCAST(StepBasic_SecurityClassification,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepBasic_SecurityClassification)
 
 
 StepBasic_SecurityClassification::StepBasic_SecurityClassification ()  {}

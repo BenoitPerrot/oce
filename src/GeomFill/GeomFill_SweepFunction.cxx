@@ -21,7 +21,27 @@
 #endif
 
 
-#include <GeomFill_SweepFunction.ixx>
+#include <GeomFill_LocationLaw.hxx>
+#include <GeomFill_SectionLaw.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <TColgp_Array1OfPnt.hxx>
+#include <TColgp_Array1OfPnt2d.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <TColgp_Array1OfVec.hxx>
+#include <TColgp_Array1OfVec2d.hxx>
+#include <TColStd_Array1OfInteger.hxx>
+#include <gp_Pnt.hxx>
+#include <GeomFill_SweepFunction.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(GeomFill_SweepFunction)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Approx_SweepFunction),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(GeomFill_SweepFunction)
+IMPLEMENT_DOWNCAST(GeomFill_SweepFunction,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(GeomFill_SweepFunction)
 
 #include <TColStd_SequenceOfReal.hxx>
 #include <GeomLib.hxx>

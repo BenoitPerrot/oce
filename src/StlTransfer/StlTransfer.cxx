@@ -14,7 +14,9 @@
 // commercial license or contractual agreement.
 
 //=======================================================================
-#include <StlTransfer.ixx>
+#include <TopoDS_Shape.hxx>
+#include <StlMesh_Mesh.hxx>
+#include <StlTransfer.hxx>
 #include <Standard_ErrorHandler.hxx>
 #include <Standard_Failure.hxx>
 #include <TopoDS_Face.hxx>

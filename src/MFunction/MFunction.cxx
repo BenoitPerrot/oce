@@ -14,7 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <MFunction.ixx>
+#include <MDF_ASDriverHSequence.hxx>
+#include <CDM_MessageDriver.hxx>
+#include <MDF_ARDriverHSequence.hxx>
+#include <MFunction.hxx>
 
 #include <MDF_ARDriverHSequence.hxx>
 #include <MDF_ASDriverHSequence.hxx>

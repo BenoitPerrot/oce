@@ -13,7 +13,22 @@
 
 //:j4 gka 16.03.99 S4134
 //    gka 05.04.99 S4136: parameters definitions changed
-#include <STEPControl_Controller.ixx>
+#include <Interface_InterfaceModel.hxx>
+#include <Transfer_ActorOfTransientProcess.hxx>
+#include <XSControl_WorkSession.hxx>
+#include <TopoDS_Shape.hxx>
+#include <Transfer_FinderProcess.hxx>
+#include <STEPControl_Controller.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(STEPControl_Controller)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(XSControl_Controller),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(STEPControl_Controller)
+IMPLEMENT_DOWNCAST(STEPControl_Controller,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(STEPControl_Controller)
 #include <StepSelect_WorkLibrary.hxx>
 #include <IFSelect_Option.hxx>
 #include <IFSelect_Profile.hxx>

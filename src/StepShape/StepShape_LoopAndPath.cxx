@@ -11,7 +11,23 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepShape_LoopAndPath.ixx>
+#include <StepShape_Loop.hxx>
+#include <StepShape_Path.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepShape_HArray1OfOrientedEdge.hxx>
+#include <StepShape_OrientedEdge.hxx>
+#include <StepShape_LoopAndPath.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepShape_LoopAndPath)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepShape_TopologicalRepresentationItem),
+  STANDARD_TYPE(StepRepr_RepresentationItem),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepShape_LoopAndPath)
+IMPLEMENT_DOWNCAST(StepShape_LoopAndPath,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepShape_LoopAndPath)
 
 #include <StepShape_Loop.hxx>
 

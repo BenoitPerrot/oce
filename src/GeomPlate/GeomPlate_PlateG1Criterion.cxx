@@ -14,7 +14,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomPlate_PlateG1Criterion.ixx>
+#include <TColgp_SequenceOfXY.hxx>
+#include <TColgp_SequenceOfXYZ.hxx>
+#include <AdvApp2Var_Patch.hxx>
+#include <AdvApp2Var_Context.hxx>
+#include <GeomPlate_PlateG1Criterion.hxx>
 #include <AdvApp2Var_Criterion.hxx>
 #include <TColgp_SequenceOfXY.hxx>
 #include <TColgp_SequenceOfXYZ.hxx>

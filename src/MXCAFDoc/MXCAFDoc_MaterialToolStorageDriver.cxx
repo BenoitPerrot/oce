@@ -14,7 +14,22 @@
 // commercial license or contractual agreement.
 
 #include <MDF_SRelocationTable.hxx>
-#include <MXCAFDoc_MaterialToolStorageDriver.ixx>
+#include <CDM_MessageDriver.hxx>
+#include <Standard_Type.hxx>
+#include <PDF_Attribute.hxx>
+#include <TDF_Attribute.hxx>
+#include <MDF_SRelocationTable.hxx>
+#include <MXCAFDoc_MaterialToolStorageDriver.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(MXCAFDoc_MaterialToolStorageDriver)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MDF_ASDriver),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(MXCAFDoc_MaterialToolStorageDriver)
+IMPLEMENT_DOWNCAST(MXCAFDoc_MaterialToolStorageDriver,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(MXCAFDoc_MaterialToolStorageDriver)
 #include <PXCAFDoc_MaterialTool.hxx>
 #include <XCAFDoc_MaterialTool.hxx>
 

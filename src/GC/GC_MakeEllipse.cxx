@@ -14,7 +14,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GC_MakeEllipse.ixx>
+#include <Geom_Ellipse.hxx>
+#include <StdFail_NotDone.hxx>
+#include <gp_Elips.hxx>
+#include <gp_Ax2.hxx>
+#include <gp_Pnt.hxx>
+#include <GC_MakeEllipse.hxx>
 #include <gce_MakeElips.hxx>
 #include <StdFail_NotDone.hxx>
 

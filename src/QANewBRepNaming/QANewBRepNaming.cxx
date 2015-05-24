@@ -13,7 +13,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <QANewBRepNaming.ixx>
+#include <TDF_Label.hxx>
+#include <TNaming_Builder.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopLoc_Location.hxx>
+#include <QANewBRepNaming.hxx>
 
 #include <TopTools_ListOfShape.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>

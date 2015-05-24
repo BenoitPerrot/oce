@@ -14,7 +14,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StdPrs_WFDeflectionRestrictedFace.ixx>
+#include <Prs3d_Presentation.hxx>
+#include <BRepAdaptor_HSurface.hxx>
+#include <Prs3d_Drawer.hxx>
+#include <Bnd_Box.hxx>
+#include <StdPrs_WFDeflectionRestrictedFace.hxx>
 
 #include <Hatch_Hatcher.hxx>
 #include <Graphic3d_ArrayOfPolylines.hxx>

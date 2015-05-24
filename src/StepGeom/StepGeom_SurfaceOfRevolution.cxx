@@ -11,7 +11,23 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepGeom_SurfaceOfRevolution.ixx>
+#include <StepGeom_Axis1Placement.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepGeom_Curve.hxx>
+#include <StepGeom_SurfaceOfRevolution.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepGeom_SurfaceOfRevolution)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepGeom_SweptSurface),
+  STANDARD_TYPE(StepGeom_Surface),
+  STANDARD_TYPE(StepGeom_GeometricRepresentationItem),
+  STANDARD_TYPE(StepRepr_RepresentationItem),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepGeom_SurfaceOfRevolution)
+IMPLEMENT_DOWNCAST(StepGeom_SurfaceOfRevolution,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepGeom_SurfaceOfRevolution)
 
 
 StepGeom_SurfaceOfRevolution::StepGeom_SurfaceOfRevolution ()  {}

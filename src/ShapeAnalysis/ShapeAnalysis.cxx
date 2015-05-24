@@ -20,7 +20,12 @@
 //:s5 abv 22.04.99  Adding debug printouts in catch {} blocks
 //%21 pdn 15.04.99 CTS22655
 
-#include <ShapeAnalysis.ixx>
+#include <TopoDS_Wire.hxx>
+#include <TopoDS_Face.hxx>
+#include <ShapeExtend_WireData.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopoDS_Vertex.hxx>
+#include <ShapeAnalysis.hxx>
 
 // PLANTAGE IsOuterBound, 15-SEP-1998
 #include <Standard_ErrorHandler.hxx>

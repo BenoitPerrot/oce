@@ -15,7 +15,17 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
-#include <StepElement_CurveElementSectionDefinition.ixx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepElement_CurveElementSectionDefinition.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepElement_CurveElementSectionDefinition)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepElement_CurveElementSectionDefinition)
+IMPLEMENT_DOWNCAST(StepElement_CurveElementSectionDefinition,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepElement_CurveElementSectionDefinition)
 
 //=======================================================================
 //function : StepElement_CurveElementSectionDefinition

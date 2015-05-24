@@ -14,7 +14,25 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Approx_SweepFunction.ixx>
+#include <Standard_NotImplemented.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <TColgp_Array1OfPnt.hxx>
+#include <TColgp_Array1OfPnt2d.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <TColgp_Array1OfVec.hxx>
+#include <TColgp_Array1OfVec2d.hxx>
+#include <TColStd_Array1OfInteger.hxx>
+#include <gp_Pnt.hxx>
+#include <Approx_SweepFunction.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Approx_SweepFunction)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Approx_SweepFunction)
+IMPLEMENT_DOWNCAST(Approx_SweepFunction,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Approx_SweepFunction)
 
 // Standard_Boolean Approx_SweepFunction::D1(const Standard_Real Param,const Standard_Real First,const Standard_Real Last,TColgp_Array1OfPnt& Poles,TColgp_Array1OfVec& DPoles,TColgp_Array1OfPnt2d& Poles2d,TColgp_Array1OfVec2d& DPoles2d,TColStd_Array1OfReal& Weigths,TColStd_Array1OfReal& DWeigths) 
 Standard_Boolean Approx_SweepFunction::D1(const Standard_Real ,const Standard_Real ,const Standard_Real ,TColgp_Array1OfPnt& ,TColgp_Array1OfVec& ,TColgp_Array1OfPnt2d& ,TColgp_Array1OfVec2d& ,TColStd_Array1OfReal& ,TColStd_Array1OfReal& ) 

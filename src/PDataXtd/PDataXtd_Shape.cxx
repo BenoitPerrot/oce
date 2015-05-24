@@ -12,7 +12,17 @@
 // commercial license or contractual agreement.
 
 //modified     Sergey Zaritchny
-#include <PDataXtd_Shape.ixx>
+#include <PDataXtd_Shape.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(PDataXtd_Shape)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(PDF_Attribute),
+  STANDARD_TYPE(Standard_Persistent),
+  STANDARD_TYPE(Standard_Storable),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(PDataXtd_Shape)
+IMPLEMENT_DOWNCAST(PDataXtd_Shape,Standard_Persistent)
+IMPLEMENT_STANDARD_RTTI(PDataXtd_Shape)
 
 PDataXtd_Shape::PDataXtd_Shape() {}
 

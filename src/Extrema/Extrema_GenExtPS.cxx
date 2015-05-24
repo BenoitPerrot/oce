@@ -17,7 +17,17 @@
 //  Modified by skv - Thu Sep 30 15:21:07 2004 OCC593
 
 
-#include <Extrema_GenExtPS.ixx>
+#include <Extrema_HArray2OfPOnSurfParams.hxx>
+#include <Bnd_HArray1OfSphere.hxx>
+#include <TColStd_HArray1OfReal.hxx>
+#include <StdFail_NotDone.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Standard_TypeMismatch.hxx>
+#include <gp_Pnt.hxx>
+#include <Adaptor3d_Surface.hxx>
+#include <Extrema_POnSurf.hxx>
+#include <Extrema_POnSurfParams.hxx>
+#include <Extrema_GenExtPS.hxx>
 #include <StdFail_NotDone.hxx>
 #include <Standard_OutOfRange.hxx>
 #include <TColStd_Array2OfInteger.hxx>

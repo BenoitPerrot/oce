@@ -14,7 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IntPolyh_Point.ixx>
+#include <Adaptor3d_HSurface.hxx>
+#include <IntPolyh_Point.hxx>
 
 #include <stdio.h>
 

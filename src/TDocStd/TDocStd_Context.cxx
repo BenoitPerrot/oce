@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TDocStd_Context.ixx>
+#include <TDocStd_Context.hxx>
 
 //=======================================================================
 //function : TDocStd_Context

@@ -15,7 +15,19 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.1
 
-#include <StepAP214_RepItemGroup.ixx>
+#include <StepRepr_RepresentationItem.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepAP214_RepItemGroup.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepAP214_RepItemGroup)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepBasic_Group),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepAP214_RepItemGroup)
+IMPLEMENT_DOWNCAST(StepAP214_RepItemGroup,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepAP214_RepItemGroup)
 
 //=======================================================================
 //function : StepAP214_RepItemGroup

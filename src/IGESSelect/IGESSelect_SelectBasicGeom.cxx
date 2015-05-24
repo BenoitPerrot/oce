@@ -11,7 +11,24 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IGESSelect_SelectBasicGeom.ixx>
+#include <Standard_Transient.hxx>
+#include <Interface_Graph.hxx>
+#include <Interface_EntityIterator.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <IGESData_IGESEntity.hxx>
+#include <IGESSelect_SelectBasicGeom.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESSelect_SelectBasicGeom)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IFSelect_SelectExplore),
+  STANDARD_TYPE(IFSelect_SelectDeduct),
+  STANDARD_TYPE(IFSelect_Selection),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESSelect_SelectBasicGeom)
+IMPLEMENT_DOWNCAST(IGESSelect_SelectBasicGeom,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESSelect_SelectBasicGeom)
 #include <IGESData_IGESEntity.hxx>
 #include <IGESGeom_Plane.hxx>
 #include <IGESGeom_CompositeCurve.hxx>

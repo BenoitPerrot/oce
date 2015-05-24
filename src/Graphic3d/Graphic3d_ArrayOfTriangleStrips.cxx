@@ -12,7 +12,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Graphic3d_ArrayOfTriangleStrips.ixx>
+#include <Graphic3d_ArrayOfTriangleStrips.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Graphic3d_ArrayOfTriangleStrips)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Graphic3d_ArrayOfPrimitives),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Graphic3d_ArrayOfTriangleStrips)
+IMPLEMENT_DOWNCAST(Graphic3d_ArrayOfTriangleStrips,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Graphic3d_ArrayOfTriangleStrips)
 
 Graphic3d_ArrayOfTriangleStrips::Graphic3d_ArrayOfTriangleStrips (const Standard_Integer theMaxVertexs,
                                                                   const Standard_Integer theMaxStrips,

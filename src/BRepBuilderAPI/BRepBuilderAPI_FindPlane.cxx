@@ -14,7 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepBuilderAPI_FindPlane.ixx>
+#include <Geom_Plane.hxx>
+#include <Standard_NoSuchObject.hxx>
+#include <TopoDS_Shape.hxx>
+#include <BRepBuilderAPI_FindPlane.hxx>
 
 #include <Precision.hxx>
 #include <gp_Dir.hxx>

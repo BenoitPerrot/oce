@@ -11,7 +11,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepBasic_WeekOfYearAndDayDate.ixx>
+#include <StepBasic_WeekOfYearAndDayDate.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepBasic_WeekOfYearAndDayDate)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepBasic_Date),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepBasic_WeekOfYearAndDayDate)
+IMPLEMENT_DOWNCAST(StepBasic_WeekOfYearAndDayDate,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepBasic_WeekOfYearAndDayDate)
 
 
 StepBasic_WeekOfYearAndDayDate::StepBasic_WeekOfYearAndDayDate ()  {}

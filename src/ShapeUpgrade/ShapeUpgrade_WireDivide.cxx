@@ -19,7 +19,27 @@
 //    abv 14.07.99 dealing with edges without 3d curve
 //    svv 10.01.00 porting on DEC
 
-#include <ShapeUpgrade_WireDivide.ixx>
+#include <ShapeUpgrade_SplitCurve3d.hxx>
+#include <ShapeUpgrade_SplitCurve2d.hxx>
+#include <ShapeUpgrade_EdgeDivide.hxx>
+#include <ShapeAnalysis_TransferParameters.hxx>
+#include <ShapeUpgrade_FixSmallCurves.hxx>
+#include <TopoDS_Wire.hxx>
+#include <TopoDS_Face.hxx>
+#include <Geom_Surface.hxx>
+#include <TopoDS_Edge.hxx>
+#include <TopLoc_Location.hxx>
+#include <ShapeUpgrade_WireDivide.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(ShapeUpgrade_WireDivide)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(ShapeUpgrade_Tool),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(ShapeUpgrade_WireDivide)
+IMPLEMENT_DOWNCAST(ShapeUpgrade_WireDivide,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_WireDivide)
 #include <ShapeUpgrade.hxx>
 #include <BRep_Tool.hxx>
 #include <BRep_Builder.hxx>

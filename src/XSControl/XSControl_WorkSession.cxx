@@ -13,7 +13,29 @@
 
 //:i1 pdn 03.04.99  BUC60301  
 
-#include <XSControl_WorkSession.ixx>
+#include <XSControl_Controller.hxx>
+#include <XSControl_TransferReader.hxx>
+#include <XSControl_TransferWriter.hxx>
+#include <Dico_DictionaryOfTransient.hxx>
+#include <XSControl_Vars.hxx>
+#include <Message_Messenger.hxx>
+#include <Transfer_TransientProcess.hxx>
+#include <Standard_Transient.hxx>
+#include <Interface_InterfaceModel.hxx>
+#include <Transfer_FinderProcess.hxx>
+#include <TopoDS_Shape.hxx>
+#include <Interface_CheckIterator.hxx>
+#include <XSControl_WorkSession.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(XSControl_WorkSession)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IFSelect_WorkSession),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(XSControl_WorkSession)
+IMPLEMENT_DOWNCAST(XSControl_WorkSession,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(XSControl_WorkSession)
 #include <Standard_ErrorHandler.hxx>
 #include <Standard_Failure.hxx>
 #include <Interface_HGraph.hxx>

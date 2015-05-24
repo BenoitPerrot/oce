@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <XSDRAWSTLVRML.ixx>
+#include <XSDRAWSTLVRML.hxx>
 #include <Draw_Interpretor.hxx>
 #include <TopoDS_Shape.hxx>
 #include <VrmlAPI.hxx>

@@ -12,7 +12,12 @@
 // commercial license or contractual agreement.
 
 //szv#4 S4163
-#include <ShapeAnalysis_Geom.ixx>
+#include <Standard_OutOfRange.hxx>
+#include <TColgp_Array1OfPnt.hxx>
+#include <gp_Pln.hxx>
+#include <TColStd_HArray2OfReal.hxx>
+#include <gp_Trsf.hxx>
+#include <ShapeAnalysis_Geom.hxx>
 
 #include <GProp_PGProps.hxx>
 #include <GProp_PrincipalProps.hxx>

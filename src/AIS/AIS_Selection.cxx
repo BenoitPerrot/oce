@@ -12,7 +12,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <AIS_Selection.ixx>
+#include <Standard_NoSuchObject.hxx>
+#include <Standard_MultiplyDefined.hxx>
+#include <Standard_TypeMismatch.hxx>
+#include <Standard_Transient.hxx>
+#include <AIS_Selection.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(AIS_Selection)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(AIS_Selection)
+IMPLEMENT_DOWNCAST(AIS_Selection,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(AIS_Selection)
 #include <TCollection_AsciiString.hxx>
 #include <TColStd_SequenceOfTransient.hxx>
 

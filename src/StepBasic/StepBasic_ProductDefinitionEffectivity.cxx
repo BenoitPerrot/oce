@@ -11,7 +11,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepBasic_ProductDefinitionEffectivity.ixx>
+#include <StepBasic_ProductDefinitionRelationship.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepBasic_ProductDefinitionEffectivity.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepBasic_ProductDefinitionEffectivity)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepBasic_Effectivity),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepBasic_ProductDefinitionEffectivity)
+IMPLEMENT_DOWNCAST(StepBasic_ProductDefinitionEffectivity,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepBasic_ProductDefinitionEffectivity)
 
 StepBasic_ProductDefinitionEffectivity::StepBasic_ProductDefinitionEffectivity  ()    {  }
 

@@ -15,7 +15,12 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.0
 
-#include <RWStepRepr_RWShapeAspectTransition.ixx>
+#include <StepData_StepReaderData.hxx>
+#include <Interface_Check.hxx>
+#include <StepRepr_ShapeAspectTransition.hxx>
+#include <StepData_StepWriter.hxx>
+#include <Interface_EntityIterator.hxx>
+#include <RWStepRepr_RWShapeAspectTransition.hxx>
 
 //=======================================================================
 //function : RWStepRepr_RWShapeAspectTransition

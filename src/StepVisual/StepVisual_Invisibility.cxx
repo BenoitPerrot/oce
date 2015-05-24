@@ -11,7 +11,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepVisual_Invisibility.ixx>
+#include <StepVisual_HArray1OfInvisibleItem.hxx>
+#include <StepVisual_InvisibleItem.hxx>
+#include <StepVisual_Invisibility.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepVisual_Invisibility)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepVisual_Invisibility)
+IMPLEMENT_DOWNCAST(StepVisual_Invisibility,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepVisual_Invisibility)
 
 
 StepVisual_Invisibility::StepVisual_Invisibility ()  {}

@@ -16,7 +16,20 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESGeom_Point.ixx>
+#include <IGESBasic_SubfigureDef.hxx>
+#include <gp_XYZ.hxx>
+#include <gp_Pnt.hxx>
+#include <IGESGeom_Point.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESGeom_Point)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IGESData_IGESEntity),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESGeom_Point)
+IMPLEMENT_DOWNCAST(IGESGeom_Point,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESGeom_Point)
 #include <gp_GTrsf.hxx>
 
 

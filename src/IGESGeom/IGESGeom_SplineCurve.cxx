@@ -16,7 +16,21 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESGeom_SplineCurve.ixx>
+#include <TColStd_HArray1OfReal.hxx>
+#include <TColStd_HArray2OfReal.hxx>
+#include <Standard_DimensionMismatch.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <IGESGeom_SplineCurve.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESGeom_SplineCurve)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IGESData_IGESEntity),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESGeom_SplineCurve)
+IMPLEMENT_DOWNCAST(IGESGeom_SplineCurve,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESGeom_SplineCurve)
 
 
 IGESGeom_SplineCurve::IGESGeom_SplineCurve ()    {  }

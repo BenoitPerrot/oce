@@ -15,7 +15,18 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.0
 
-#include <StepRepr_ShapeAspectRelationship.ixx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepRepr_ShapeAspect.hxx>
+#include <StepRepr_ShapeAspectRelationship.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepRepr_ShapeAspectRelationship)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepRepr_ShapeAspectRelationship)
+IMPLEMENT_DOWNCAST(StepRepr_ShapeAspectRelationship,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepRepr_ShapeAspectRelationship)
 
 //=======================================================================
 //function : StepRepr_ShapeAspectRelationship

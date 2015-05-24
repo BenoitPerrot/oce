@@ -18,7 +18,23 @@
 
 #define No_Standard_OutOfRange
 
-#include <gp_Vec.ixx>
+#include <Standard_ConstructionError.hxx>
+#include <Standard_DomainError.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <gp_VectorWithNullMagnitude.hxx>
+#include <gp_Dir.hxx>
+#include <gp_XYZ.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Ax1.hxx>
+#include <gp_Ax2.hxx>
+#include <gp_Trsf.hxx>
+#include <gp_Vec.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(gp_Vec)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Standard_Storable),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(gp_Vec)
 #include <gp.hxx>
 
 Standard_Boolean gp_Vec::IsEqual

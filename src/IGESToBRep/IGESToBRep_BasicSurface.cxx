@@ -25,7 +25,23 @@
 //sln 29.12.2001 OCC90 : Method checkBSplineSurfaceStatus and varification of creation of bspline surfaces were added
 //=======================================================================
 
-#include <IGESToBRep_BasicSurface.ixx>
+#include <IGESToBRep_CurveAndSurface.hxx>
+#include <Geom_Surface.hxx>
+#include <IGESData_IGESEntity.hxx>
+#include <Geom_Plane.hxx>
+#include <IGESSolid_PlaneSurface.hxx>
+#include <Geom_CylindricalSurface.hxx>
+#include <IGESSolid_CylindricalSurface.hxx>
+#include <Geom_ConicalSurface.hxx>
+#include <IGESSolid_ConicalSurface.hxx>
+#include <Geom_SphericalSurface.hxx>
+#include <IGESSolid_SphericalSurface.hxx>
+#include <Geom_ToroidalSurface.hxx>
+#include <IGESSolid_ToroidalSurface.hxx>
+#include <Geom_BSplineSurface.hxx>
+#include <IGESGeom_SplineSurface.hxx>
+#include <IGESGeom_BSplineSurface.hxx>
+#include <IGESToBRep_BasicSurface.hxx>
 
 #include <IGESToBRep.hxx>
 #include <IGESToBRep_CurveAndSurface.hxx>

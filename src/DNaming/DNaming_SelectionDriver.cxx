@@ -13,7 +13,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <DNaming_SelectionDriver.ixx>
+#include <TFunction_Logbook.hxx>
+#include <DNaming_SelectionDriver.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(DNaming_SelectionDriver)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(TFunction_Driver),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(DNaming_SelectionDriver)
+IMPLEMENT_DOWNCAST(DNaming_SelectionDriver,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(DNaming_SelectionDriver)
 #include <TopAbs.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TDF_Label.hxx>

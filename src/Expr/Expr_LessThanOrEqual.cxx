@@ -14,7 +14,22 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Expr_LessThanOrEqual.ixx>
+#include <Standard_NumericError.hxx>
+#include <Expr_GeneralExpression.hxx>
+#include <Expr_GeneralRelation.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <Expr_LessThanOrEqual.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Expr_LessThanOrEqual)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Expr_SingleRelation),
+  STANDARD_TYPE(Expr_GeneralRelation),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Expr_LessThanOrEqual)
+IMPLEMENT_DOWNCAST(Expr_LessThanOrEqual,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Expr_LessThanOrEqual)
 #include <Expr_NumericValue.hxx>
 #include <Expr.hxx>
 

@@ -12,7 +12,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StdPrs_ToolRFace.ixx>
+#include <BRepAdaptor_HSurface.hxx>
+#include <StdPrs_ToolRFace.hxx>
 #include <Geom2d_TrimmedCurve.hxx>
 #include <BRep_Tool.hxx>
 #include <TopoDS.hxx>

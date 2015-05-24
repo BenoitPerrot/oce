@@ -16,7 +16,18 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.0
 
-#include <StepBasic_Action.ixx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepBasic_ActionMethod.hxx>
+#include <StepBasic_Action.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepBasic_Action)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepBasic_Action)
+IMPLEMENT_DOWNCAST(StepBasic_Action,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepBasic_Action)
 
 //=======================================================================
 //function : StepBasic_Action

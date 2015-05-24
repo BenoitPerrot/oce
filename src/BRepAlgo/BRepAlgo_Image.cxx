@@ -14,7 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepAlgo_Image.ixx>
+#include <Standard_ConstructionError.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopTools_ListOfShape.hxx>
+#include <BRepAlgo_Image.hxx>
 
 #include <Standard_ConstructionError.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>

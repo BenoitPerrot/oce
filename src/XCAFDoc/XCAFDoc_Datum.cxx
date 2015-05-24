@@ -11,7 +11,22 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <XCAFDoc_Datum.ixx>
+#include <TCollection_HAsciiString.hxx>
+#include <Standard_GUID.hxx>
+#include <TDF_Label.hxx>
+#include <TDF_Attribute.hxx>
+#include <TDF_RelocationTable.hxx>
+#include <XCAFDoc_Datum.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(XCAFDoc_Datum)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(TDF_Attribute),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(XCAFDoc_Datum)
+IMPLEMENT_DOWNCAST(XCAFDoc_Datum,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(XCAFDoc_Datum)
 
 #include <TDF_RelocationTable.hxx>
 

@@ -24,7 +24,12 @@
 #include <OSD_OSDError.hxx>
 #include <Standard_NullObject.hxx>
 #include <OSD_WhoAmI.hxx>
-#include <OSD_FileNode.ixx>
+#include <OSD_OSDError.hxx>
+#include <Standard_ProgramError.hxx>
+#include <OSD_Path.hxx>
+#include <OSD_Protection.hxx>
+#include <Quantity_Date.hxx>
+#include <OSD_FileNode.hxx>
 
 #include <stdlib.h>    // For "system"
 #include <errno.h>

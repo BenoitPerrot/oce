@@ -14,7 +14,14 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <MgtTopoDS.ixx>
+#include <PTopoDS_HShape.hxx>
+#include <TopoDS_Shape.hxx>
+#include <MgtTopoDS_TranslateTool.hxx>
+#include <PTColStd_TransientPersistentMap.hxx>
+#include <PTColStd_PersistentTransientMap.hxx>
+#include <MgtTopoDS_TranslateTool1.hxx>
+#include <PTopoDS_Shape1.hxx>
+#include <MgtTopoDS.hxx>
 #include <MgtTopLoc.hxx>
 
 #include <PTopoDS_HShape.hxx>

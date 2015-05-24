@@ -15,7 +15,9 @@
 // commercial license or contractual agreement.
 
 #include <Standard_Stream.hxx>
-#include <HatchGen_Domain.ixx>
+#include <Standard_DomainError.hxx>
+#include <HatchGen_PointOnHatching.hxx>
+#include <HatchGen_Domain.hxx>
 
 //=======================================================================
 // Function : HatchGen_Domain

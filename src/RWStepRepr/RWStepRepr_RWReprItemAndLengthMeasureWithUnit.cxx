@@ -11,7 +11,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <RWStepRepr_RWReprItemAndLengthMeasureWithUnit.ixx>
+#include <StepData_StepReaderData.hxx>
+#include <Interface_Check.hxx>
+#include <StepRepr_ReprItemAndLengthMeasureWithUnit.hxx>
+#include <StepData_StepWriter.hxx>
+#include <RWStepRepr_RWReprItemAndLengthMeasureWithUnit.hxx>
 
 #include <StepBasic_MeasureValueMember.hxx>
 #include <StepBasic_Unit.hxx>

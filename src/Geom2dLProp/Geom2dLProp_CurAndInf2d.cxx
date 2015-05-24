@@ -14,7 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Geom2dLProp_CurAndInf2d.ixx>
+#include <Geom2d_Curve.hxx>
+#include <Geom2dLProp_CurAndInf2d.hxx>
 #include <Geom2dLProp_NumericCurInf2d.hxx>
 #include <Geom2dAdaptor_Curve.hxx>
 #include <LProp_AnalyticCurInf.hxx>

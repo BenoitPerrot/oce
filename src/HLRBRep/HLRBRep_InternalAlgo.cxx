@@ -15,7 +15,23 @@
 // commercial license or contractual agreement.
 
 #include <Standard_Stream.hxx>
-#include <HLRBRep_InternalAlgo.ixx>
+#include <HLRBRep_Data.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <HLRAlgo_Projector.hxx>
+#include <HLRTopoBRep_OutLiner.hxx>
+#include <MMgt_TShared.hxx>
+#include <HLRBRep_SeqOfShapeBounds.hxx>
+#include <HLRBRep_ShapeBounds.hxx>
+#include <HLRBRep_InternalAlgo.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(HLRBRep_InternalAlgo)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(HLRBRep_InternalAlgo)
+IMPLEMENT_DOWNCAST(HLRBRep_InternalAlgo,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(HLRBRep_InternalAlgo)
 
 #include <Standard_ErrorHandler.hxx>
 #include <TColStd_Array1OfReal.hxx>

@@ -11,7 +11,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepData_Field.ixx>
+#include <Standard_Transient.hxx>
+#include <StepData_SelectMember.hxx>
+#include <StepData_Field.hxx>
 #include <Interface_Macros.hxx>
 #include <StepData_SelectMember.hxx>
 #include <StepData_SelectInt.hxx>

@@ -11,7 +11,23 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Interface_GeneralModule.ixx>
+#include <Interface_InterfaceModel.hxx>
+#include <Standard_Transient.hxx>
+#include <Interface_EntityIterator.hxx>
+#include <Interface_ShareTool.hxx>
+#include <Interface_Check.hxx>
+#include <Interface_CopyTool.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <Interface_GeneralModule.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Interface_GeneralModule)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Interface_GeneralModule)
+IMPLEMENT_DOWNCAST(Interface_GeneralModule,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Interface_GeneralModule)
 
 
 void  Interface_GeneralModule::FillShared

@@ -16,7 +16,20 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESDimen_CenterLine.ixx>
+#include <TColgp_HArray1OfXY.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <gp_Pnt.hxx>
+#include <IGESDimen_CenterLine.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESDimen_CenterLine)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IGESData_IGESEntity),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESDimen_CenterLine)
+IMPLEMENT_DOWNCAST(IGESDimen_CenterLine,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESDimen_CenterLine)
 #include <Standard_DimensionMismatch.hxx>
 #include <IGESData_LineFontEntity.hxx>
 #include <gp_GTrsf.hxx>

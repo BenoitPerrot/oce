@@ -14,7 +14,16 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TNaming_Localizer.ixx>
+#include <TNaming_UsedShapes.hxx>
+#include <TopTools_MapOfShape.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
+#include <TDF_Label.hxx>
+#include <TopTools_ListOfShape.hxx>
+#include <TNaming_ListOfNamedShape.hxx>
+#include <TNaming_NamedShape.hxx>
+#include <TNaming_MapOfNamedShape.hxx>
+#include <TNaming_Localizer.hxx>
 #include <TNaming_Identifier.hxx>
 #include <TNaming_ShapesSet.hxx>
 #include <TNaming_ListIteratorOfListOfMapOfShape.hxx>

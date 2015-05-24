@@ -11,7 +11,22 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepBasic_ConversionBasedUnitAndRatioUnit.ixx>
+#include <StepBasic_RatioUnit.hxx>
+#include <StepBasic_DimensionalExponents.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepBasic_MeasureWithUnit.hxx>
+#include <StepBasic_ConversionBasedUnitAndRatioUnit.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepBasic_ConversionBasedUnitAndRatioUnit)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepBasic_ConversionBasedUnit),
+  STANDARD_TYPE(StepBasic_NamedUnit),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepBasic_ConversionBasedUnitAndRatioUnit)
+IMPLEMENT_DOWNCAST(StepBasic_ConversionBasedUnitAndRatioUnit,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepBasic_ConversionBasedUnitAndRatioUnit)
 #include <StepBasic_ConversionBasedUnit.hxx>
 #include <StepBasic_RatioUnit.hxx>
 

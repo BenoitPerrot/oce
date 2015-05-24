@@ -11,7 +11,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepVisual_PresentedItemRepresentation.ixx>
+#include <StepVisual_PresentedItem.hxx>
+#include <StepVisual_PresentationRepresentationSelect.hxx>
+#include <StepVisual_PresentedItemRepresentation.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepVisual_PresentedItemRepresentation)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepVisual_PresentedItemRepresentation)
+IMPLEMENT_DOWNCAST(StepVisual_PresentedItemRepresentation,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepVisual_PresentedItemRepresentation)
 
 StepVisual_PresentedItemRepresentation::StepVisual_PresentedItemRepresentation  ()    {  }
 

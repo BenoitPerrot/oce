@@ -11,7 +11,21 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepVisual_CompositeText.ixx>
+#include <StepVisual_HArray1OfTextOrCharacter.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepVisual_TextOrCharacter.hxx>
+#include <StepVisual_CompositeText.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepVisual_CompositeText)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepGeom_GeometricRepresentationItem),
+  STANDARD_TYPE(StepRepr_RepresentationItem),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepVisual_CompositeText)
+IMPLEMENT_DOWNCAST(StepVisual_CompositeText,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepVisual_CompositeText)
 
 
 StepVisual_CompositeText::StepVisual_CompositeText ()  {}

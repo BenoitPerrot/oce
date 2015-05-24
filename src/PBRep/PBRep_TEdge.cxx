@@ -14,7 +14,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PBRep_TEdge.ixx>
+#include <PBRep_CurveRepresentation.hxx>
+#include <PBRep_TEdge.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(PBRep_TEdge)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(PTopoDS_TEdge),
+  STANDARD_TYPE(PTopoDS_TShape),
+  STANDARD_TYPE(Standard_Persistent),
+  STANDARD_TYPE(Standard_Storable),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(PBRep_TEdge)
+IMPLEMENT_DOWNCAST(PBRep_TEdge,Standard_Persistent)
+IMPLEMENT_STANDARD_RTTI(PBRep_TEdge)
 
 static const Standard_Integer ParameterMask       = 1;
 static const Standard_Integer RangeMask           = 2;

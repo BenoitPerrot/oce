@@ -14,7 +14,28 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepBlend_AppFuncRoot.ixx>
+#include <BRepBlend_Line.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Blend_AppFunction.hxx>
+#include <TColgp_Array1OfPnt.hxx>
+#include <TColgp_Array1OfPnt2d.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <TColgp_Array1OfVec.hxx>
+#include <TColgp_Array1OfVec2d.hxx>
+#include <TColStd_Array1OfInteger.hxx>
+#include <gp_Pnt.hxx>
+#include <Blend_Point.hxx>
+#include <BRepBlend_AppFuncRoot.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(BRepBlend_AppFuncRoot)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Approx_SweepFunction),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(BRepBlend_AppFuncRoot)
+IMPLEMENT_DOWNCAST(BRepBlend_AppFuncRoot,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(BRepBlend_AppFuncRoot)
 #include <Blend_AppFunction.hxx>
 
 #include <Blend_Point.hxx>

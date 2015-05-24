@@ -13,7 +13,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <STEPConstruct_ExternRefs.ixx>
+#include <StepBasic_ProductRelatedProductCategory.hxx>
+#include <StepBasic_DocumentType.hxx>
+#include <StepBasic_ProductDefinitionContext.hxx>
+#include <StepBasic_ProductContext.hxx>
+#include <StepBasic_ApplicationProtocolDefinition.hxx>
+#include <XSControl_WorkSession.hxx>
+#include <StepBasic_ProductDefinition.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepAP214_AppliedDocumentReference.hxx>
+#include <StepBasic_DocumentFile.hxx>
+#include <STEPConstruct_ExternRefs.hxx>
 
 #include <Interface_EntityIterator.hxx>
 

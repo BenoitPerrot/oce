@@ -14,7 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomAPI.ixx>
+#include <Geom2d_Curve.hxx>
+#include <Geom_Curve.hxx>
+#include <gp_Pln.hxx>
+#include <GeomAPI.hxx>
 
 #include <ProjLib_ProjectedCurve.hxx>
 #include <Adaptor3d_CurveOnSurface.hxx>

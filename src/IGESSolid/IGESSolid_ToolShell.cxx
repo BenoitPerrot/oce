@@ -16,7 +16,19 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESSolid_ToolShell.ixx>
+#include <Standard_DomainError.hxx>
+#include <IGESSolid_Shell.hxx>
+#include <IGESData_IGESReaderData.hxx>
+#include <IGESData_ParamReader.hxx>
+#include <IGESData_IGESWriter.hxx>
+#include <Interface_EntityIterator.hxx>
+#include <IGESData_DirChecker.hxx>
+#include <Interface_ShareTool.hxx>
+#include <Interface_Check.hxx>
+#include <Interface_CopyTool.hxx>
+#include <IGESData_IGESDumper.hxx>
+#include <Message_Messenger.hxx>
+#include <IGESSolid_ToolShell.hxx>
 #include <IGESData_ParamCursor.hxx>
 #include <IGESSolid_Face.hxx>
 #include <IGESSolid_HArray1OfFace.hxx>

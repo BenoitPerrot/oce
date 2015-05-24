@@ -14,7 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepAlgo_Fuse.ixx>
+#include <TopoDS_Shape.hxx>
+#include <BRepAlgo_Fuse.hxx>
 
 //=======================================================================
 //function : BRepAlgo_Fuse

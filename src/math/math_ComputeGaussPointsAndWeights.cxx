@@ -13,7 +13,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <math_ComputeGaussPointsAndWeights.ixx>
+#include <TColStd_HArray1OfReal.hxx>
+#include <math_ComputeGaussPointsAndWeights.hxx>
 
 #include <math_EigenValuesSearcher.hxx>
 #include <math_Array1OfValueAndWeight.hxx>

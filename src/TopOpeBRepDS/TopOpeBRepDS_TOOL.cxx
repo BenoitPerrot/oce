@@ -20,7 +20,12 @@
 #include <TopOpeBRepTool_EXPORT.hxx>
 #include <TopOpeBRepTool_TOOL.hxx>
 #include <TopOpeBRepDS.hxx>
-#include <TopOpeBRepDS_TOOL.ixx>
+#include <TopOpeBRepDS_HDataStructure.hxx>
+#include <TopoDS_Edge.hxx>
+#include <TopTools_ListOfShape.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopOpeBRepDS_DataMapOfShapeListOfShapeOn1State.hxx>
+#include <TopOpeBRepDS_TOOL.hxx>
 #include <TopOpeBRepDS_define.hxx>
 #include <TopOpeBRepDS_ProcessInterferencesTool.hxx>
 #include <TopOpeBRepDS_ListOfShapeOn1State.hxx>

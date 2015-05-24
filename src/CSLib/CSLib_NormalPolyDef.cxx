@@ -14,7 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <CSLib_NormalPolyDef.ixx>
+#include <TColStd_Array1OfReal.hxx>
+#include <CSLib_NormalPolyDef.hxx>
 #include <PLib.hxx>
 
 //=============================================================================

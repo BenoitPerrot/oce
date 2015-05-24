@@ -14,7 +14,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <HLRTopoBRep_FaceIsoLiner.ixx>
+#include <TopoDS_Face.hxx>
+#include <HLRTopoBRep_Data.hxx>
+#include <TopoDS_Vertex.hxx>
+#include <TopoDS_Edge.hxx>
+#include <gp_Pnt.hxx>
+#include <Geom2d_Line.hxx>
+#include <HLRTopoBRep_FaceIsoLiner.hxx>
 #include <TopAbs.hxx>
 #include <TopExp.hxx>
 #include <TopExp_Explorer.hxx>

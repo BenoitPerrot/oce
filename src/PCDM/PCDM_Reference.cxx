@@ -14,7 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PCDM_Reference.ixx>
+#include <TCollection_ExtendedString.hxx>
+#include <PCDM_Reference.hxx>
 
 PCDM_Reference::PCDM_Reference(){}
 PCDM_Reference::PCDM_Reference(const Standard_Integer aReferenceIdentifier, const TCollection_ExtendedString& aFileName, const Standard_Integer aDocumentVersion):myReferenceIdentifier(aReferenceIdentifier),myFileName(aFileName),myDocumentVersion(aDocumentVersion) {}

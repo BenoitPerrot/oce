@@ -11,7 +11,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <XSControl_FuncShape.ixx>
+#include <XSControl_WorkSession.hxx>
+#include <TopTools_HSequenceOfShape.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <XSControl_FuncShape.hxx>
 #include <Standard_ErrorHandler.hxx>
 #include <Standard_Failure.hxx>
 

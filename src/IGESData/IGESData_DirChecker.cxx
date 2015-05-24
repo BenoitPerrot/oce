@@ -11,7 +11,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IGESData_DirChecker.ixx>
+#include <Interface_Check.hxx>
+#include <IGESData_IGESEntity.hxx>
+#include <IGESData_DirChecker.hxx>
 #include <IGESData_DefList.hxx>
 #include <stdio.h>
 

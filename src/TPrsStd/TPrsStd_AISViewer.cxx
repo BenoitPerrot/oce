@@ -14,7 +14,23 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TPrsStd_AISViewer.ixx>
+#include <AIS_InteractiveContext.hxx>
+#include <Standard_GUID.hxx>
+#include <TDF_Label.hxx>
+#include <V3d_Viewer.hxx>
+#include <TDF_Attribute.hxx>
+#include <TDF_RelocationTable.hxx>
+#include <TPrsStd_AISViewer.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(TPrsStd_AISViewer)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(TDF_Attribute),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(TPrsStd_AISViewer)
+IMPLEMENT_DOWNCAST(TPrsStd_AISViewer,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(TPrsStd_AISViewer)
 #include <TDF_Label.hxx>
 
 //=======================================================================

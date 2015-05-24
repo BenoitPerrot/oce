@@ -11,7 +11,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Vrml_SpotLight.ixx>
+#include <Quantity_Color.hxx>
+#include <gp_Vec.hxx>
+#include <Vrml_SpotLight.hxx>
 
 Vrml_SpotLight::Vrml_SpotLight():
   myOnOff(Standard_True),

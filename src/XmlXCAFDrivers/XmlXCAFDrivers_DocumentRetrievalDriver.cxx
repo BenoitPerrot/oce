@@ -13,7 +13,21 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <XmlXCAFDrivers_DocumentRetrievalDriver.ixx>
+#include <XmlMDF_ADriverTable.hxx>
+#include <CDM_MessageDriver.hxx>
+#include <XmlXCAFDrivers_DocumentRetrievalDriver.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(XmlXCAFDrivers_DocumentRetrievalDriver)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(XmlDrivers_DocumentRetrievalDriver),
+  STANDARD_TYPE(XmlLDrivers_DocumentRetrievalDriver),
+  STANDARD_TYPE(PCDM_RetrievalDriver),
+  STANDARD_TYPE(PCDM_Reader),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(XmlXCAFDrivers_DocumentRetrievalDriver)
+IMPLEMENT_DOWNCAST(XmlXCAFDrivers_DocumentRetrievalDriver,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(XmlXCAFDrivers_DocumentRetrievalDriver)
 
 #include <XmlDrivers.hxx>
 #include <XmlMXCAFDoc.hxx>

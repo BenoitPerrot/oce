@@ -23,7 +23,23 @@
 //      abv 31.01.00 inheriting from BRepToIGES_BREntity to remove code duplication
 //eap: Tue Aug 29 11:02:56 2000: Shape Processing moved to upper levels
 
-#include <BRepToIGESBRep_Entity.ixx>
+#include <IGESSolid_EdgeList.hxx>
+#include <IGESSolid_VertexList.hxx>
+#include <TopoDS_Vertex.hxx>
+#include <TopoDS_Edge.hxx>
+#include <IGESData_IGESEntity.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopoDS_Face.hxx>
+#include <IGESSolid_Loop.hxx>
+#include <TopoDS_Wire.hxx>
+#include <IGESSolid_Face.hxx>
+#include <IGESSolid_Shell.hxx>
+#include <TopoDS_Shell.hxx>
+#include <IGESSolid_ManifoldSolid.hxx>
+#include <TopoDS_Solid.hxx>
+#include <TopoDS_CompSolid.hxx>
+#include <TopoDS_Compound.hxx>
+#include <BRepToIGESBRep_Entity.hxx>
 
 #include <BRepToIGES_BRWire.hxx>
 

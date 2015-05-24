@@ -16,7 +16,21 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESDefs_AssociativityDef.ixx>
+#include <TColStd_HArray1OfInteger.hxx>
+#include <IGESBasic_HArray1OfHArray1OfInteger.hxx>
+#include <Standard_DimensionMismatch.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <IGESDefs_AssociativityDef.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESDefs_AssociativityDef)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IGESData_IGESEntity),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESDefs_AssociativityDef)
+IMPLEMENT_DOWNCAST(IGESDefs_AssociativityDef,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESDefs_AssociativityDef)
 
 
 IGESDefs_AssociativityDef::IGESDefs_AssociativityDef ()    {  }

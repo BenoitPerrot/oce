@@ -12,7 +12,12 @@
 // commercial license or contractual agreement.
 
 #include <Standard_Stream.hxx>
-#include <VrmlAPI_Writer.ixx>
+#include <VrmlConverter_Drawer.hxx>
+#include <VrmlConverter_Projector.hxx>
+#include <Vrml_Material.hxx>
+#include <Quantity_HArray1OfColor.hxx>
+#include <TopoDS_Shape.hxx>
+#include <VrmlAPI_Writer.hxx>
 #include <Vrml_Material.hxx>
 #include <Quantity_HArray1OfColor.hxx>
 #include <TopoDS_Shape.hxx>

@@ -14,7 +14,25 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Approx_CurvlinFunc.ixx>
+#include <Adaptor3d_HCurve.hxx>
+#include <Adaptor2d_HCurve2d.hxx>
+#include <Adaptor3d_HSurface.hxx>
+#include <TColStd_HArray1OfReal.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Standard_DomainError.hxx>
+#include <Standard_ConstructionError.hxx>
+#include <Adaptor3d_Curve.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <Approx_CurvlinFunc.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Approx_CurvlinFunc)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Approx_CurvlinFunc)
+IMPLEMENT_DOWNCAST(Approx_CurvlinFunc,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Approx_CurvlinFunc)
 #include <Adaptor3d_CurveOnSurface.hxx>
 #include <Adaptor3d_HCurveOnSurface.hxx>
 #include <TColStd_SequenceOfReal.hxx>

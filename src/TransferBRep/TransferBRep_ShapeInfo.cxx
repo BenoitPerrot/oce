@@ -11,7 +11,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TransferBRep_ShapeInfo.ixx>
+#include <Standard_Type.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TransferBRep_ShapeInfo.hxx>
 #include <TopoDS_TShape.hxx>
 
 

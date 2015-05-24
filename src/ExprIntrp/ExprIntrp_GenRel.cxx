@@ -14,7 +14,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <ExprIntrp_GenRel.ixx>
+#include <Expr_GeneralRelation.hxx>
+#include <Standard_NoSuchObject.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <ExprIntrp_GenRel.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(ExprIntrp_GenRel)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(ExprIntrp_Generator),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(ExprIntrp_GenRel)
+IMPLEMENT_DOWNCAST(ExprIntrp_GenRel,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(ExprIntrp_GenRel)
 #include <ExprIntrp.hxx>
 #include <ExprIntrp_yaccanal.hxx>
 #include <Standard_NoSuchObject.hxx>

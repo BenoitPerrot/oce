@@ -11,7 +11,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IGESSolid.ixx>
+#include <IGESSolid_Protocol.hxx>
+#include <IGESSolid.hxx>
 #include <IGESSolid_Protocol.hxx>
 #include <IGESSolid_GeneralModule.hxx>
 #include <IGESSolid_ReadWriteModule.hxx>

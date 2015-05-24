@@ -11,7 +11,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IFGraph_Articulations.ixx>
+#include <TColStd_HSequenceOfInteger.hxx>
+#include <Interface_Graph.hxx>
+#include <Standard_Transient.hxx>
+#include <Interface_EntityIterator.hxx>
+#include <IFGraph_Articulations.hxx>
 #include <Interface_InterfaceModel.hxx>
 
 

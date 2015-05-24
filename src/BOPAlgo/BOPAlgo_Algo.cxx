@@ -15,7 +15,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BOPAlgo_Algo.ixx>
+#include <Message_ProgressIndicator.hxx>
+#include <BOPAlgo_Algo.hxx>
 
 #include <NCollection_BaseAllocator.hxx>
 

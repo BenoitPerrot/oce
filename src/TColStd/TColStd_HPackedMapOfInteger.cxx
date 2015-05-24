@@ -13,7 +13,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TColStd_HPackedMapOfInteger.ixx>
+#include <Standard_Type.hxx>
+#include <TColStd_HPackedMapOfInteger.hxx>
+
+IMPLEMENT_STANDARD_TYPE(TColStd_HPackedMapOfInteger)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(TColStd_HPackedMapOfInteger)
+
+IMPLEMENT_DOWNCAST(TColStd_HPackedMapOfInteger,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(TColStd_HPackedMapOfInteger)
 
 //! Constructor of empty map
 TColStd_HPackedMapOfInteger::TColStd_HPackedMapOfInteger (const Standard_Integer NbBuckets)

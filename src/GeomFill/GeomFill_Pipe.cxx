@@ -24,7 +24,16 @@
 
 #include <stdio.h>
 
-#include <GeomFill_Pipe.ixx>
+#include <Adaptor3d_HCurve.hxx>
+#include <Geom_Surface.hxx>
+#include <GeomFill_LocationLaw.hxx>
+#include <GeomFill_SectionLaw.hxx>
+#include <Standard_ConstructionError.hxx>
+#include <Geom_Curve.hxx>
+#include <Geom2d_Curve.hxx>
+#include <gp_Dir.hxx>
+#include <TColGeom_SequenceOfCurve.hxx>
+#include <GeomFill_Pipe.hxx>
 
 #include <GeomFill_Line.hxx>
 #include <GeomFill_SweepSectionGenerator.hxx>

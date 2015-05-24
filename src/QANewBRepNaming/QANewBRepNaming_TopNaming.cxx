@@ -14,7 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <QANewBRepNaming_TopNaming.ixx>
+#include <TDF_Label.hxx>
+#include <QANewBRepNaming_TopNaming.hxx>
 
 #include <TDF_Label.hxx>
 

@@ -14,7 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomLib_IsPlanarSurface.ixx>
+#include <StdFail_NotDone.hxx>
+#include <Geom_Surface.hxx>
+#include <gp_Pln.hxx>
+#include <GeomLib_IsPlanarSurface.hxx>
 
 #include <GeomLib.hxx>
 #include <GeomAbs_CurveType.hxx>

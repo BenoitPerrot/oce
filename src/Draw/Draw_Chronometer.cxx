@@ -14,7 +14,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Draw_Chronometer.ixx>
+#include <OSD_Timer.hxx>
+#include <Draw_Display.hxx>
+#include <Draw_Drawable3D.hxx>
+#include <Draw_Chronometer.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Draw_Chronometer)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Draw_Drawable3D),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Draw_Chronometer)
+IMPLEMENT_DOWNCAST(Draw_Chronometer,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Draw_Chronometer)
 
 //=======================================================================
 //function : Draw_Chronometer

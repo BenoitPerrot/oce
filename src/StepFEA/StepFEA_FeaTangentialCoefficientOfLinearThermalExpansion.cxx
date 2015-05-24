@@ -15,7 +15,20 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
-#include <StepFEA_FeaTangentialCoefficientOfLinearThermalExpansion.ixx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepFEA_SymmetricTensor23d.hxx>
+#include <StepFEA_FeaTangentialCoefficientOfLinearThermalExpansion.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepFEA_FeaTangentialCoefficientOfLinearThermalExpansion)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepFEA_FeaMaterialPropertyRepresentationItem),
+  STANDARD_TYPE(StepRepr_RepresentationItem),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepFEA_FeaTangentialCoefficientOfLinearThermalExpansion)
+IMPLEMENT_DOWNCAST(StepFEA_FeaTangentialCoefficientOfLinearThermalExpansion,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepFEA_FeaTangentialCoefficientOfLinearThermalExpansion)
 
 //=======================================================================
 //function : StepFEA_FeaTangentialCoefficientOfLinearThermalExpansion

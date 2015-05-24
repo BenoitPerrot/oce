@@ -15,7 +15,12 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
-#include <RWStepFEA_RWFreedomAndCoefficient.ixx>
+#include <StepData_StepReaderData.hxx>
+#include <Interface_Check.hxx>
+#include <StepFEA_FreedomAndCoefficient.hxx>
+#include <StepData_StepWriter.hxx>
+#include <Interface_EntityIterator.hxx>
+#include <RWStepFEA_RWFreedomAndCoefficient.hxx>
 
 //=======================================================================
 //function : RWStepFEA_RWFreedomAndCoefficient

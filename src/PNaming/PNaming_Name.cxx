@@ -14,7 +14,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PNaming_Name.ixx>
+#include <PNaming_HArray1OfNamedShape.hxx>
+#include <PNaming_NamedShape.hxx>
+#include <PNaming_Name.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(PNaming_Name)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Standard_Persistent),
+  STANDARD_TYPE(Standard_Storable),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(PNaming_Name)
+IMPLEMENT_DOWNCAST(PNaming_Name,Standard_Persistent)
+IMPLEMENT_STANDARD_RTTI(PNaming_Name)
 
 
 //=======================================================================

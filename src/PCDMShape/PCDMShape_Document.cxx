@@ -14,7 +14,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PCDMShape_Document.ixx>
+#include <PTopoDS_Shape1.hxx>
+#include <PCDMShape_Document.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(PCDMShape_Document)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(PCDM_Document),
+  STANDARD_TYPE(Standard_Persistent),
+  STANDARD_TYPE(Standard_Storable),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(PCDMShape_Document)
+IMPLEMENT_DOWNCAST(PCDMShape_Document,Standard_Persistent)
+IMPLEMENT_STANDARD_RTTI(PCDMShape_Document)
 
 
 //=======================================================================

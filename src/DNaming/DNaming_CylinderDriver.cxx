@@ -13,7 +13,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <DNaming_CylinderDriver.ixx>
+#include <TFunction_Logbook.hxx>
+#include <TDF_Label.hxx>
+#include <BRepPrimAPI_MakeCylinder.hxx>
+#include <DNaming_CylinderDriver.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(DNaming_CylinderDriver)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(TFunction_Driver),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(DNaming_CylinderDriver)
+IMPLEMENT_DOWNCAST(DNaming_CylinderDriver,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(DNaming_CylinderDriver)
 #include <TFunction_Function.hxx>
 #include <TDataStd_Real.hxx>
 #include <TDataStd_Integer.hxx>

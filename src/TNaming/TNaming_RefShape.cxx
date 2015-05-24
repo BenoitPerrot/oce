@@ -14,5 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TNaming_RefShape.ixx>
+#include <TopoDS_Shape.hxx>
+#include <TDF_Label.hxx>
+#include <TNaming_NamedShape.hxx>
+#include <TNaming_RefShape.hxx>
 // See methods'body in TNaming_NamedShape.cxx

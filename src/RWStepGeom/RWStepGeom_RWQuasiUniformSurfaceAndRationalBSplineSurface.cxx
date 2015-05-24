@@ -11,7 +11,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <RWStepGeom_RWQuasiUniformSurfaceAndRationalBSplineSurface.ixx>
+#include <StepData_StepReaderData.hxx>
+#include <Interface_Check.hxx>
+#include <StepGeom_QuasiUniformSurfaceAndRationalBSplineSurface.hxx>
+#include <StepData_StepWriter.hxx>
+#include <Interface_EntityIterator.hxx>
+#include <RWStepGeom_RWQuasiUniformSurfaceAndRationalBSplineSurface.hxx>
 #include <StepGeom_QuasiUniformSurface.hxx>
 #include <StepGeom_RationalBSplineSurface.hxx>
 #include <StepGeom_HArray2OfCartesianPoint.hxx>

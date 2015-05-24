@@ -14,7 +14,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Expr_NamedExpression.ixx>
+#include <TCollection_AsciiString.hxx>
+#include <Expr_GeneralExpression.hxx>
+#include <Expr_NamedExpression.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Expr_NamedExpression)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Expr_GeneralExpression),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Expr_NamedExpression)
+IMPLEMENT_DOWNCAST(Expr_NamedExpression,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Expr_NamedExpression)
 
 //=======================================================================
 //function : GetName

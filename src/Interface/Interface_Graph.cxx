@@ -11,7 +11,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Interface_Graph.ixx> 
+#include <Interface_InterfaceModel.hxx>
+#include <TColStd_HArray1OfInteger.hxx>
+#include <TColStd_HArray1OfListOfInteger.hxx>
+#include <Standard_DomainError.hxx>
+#include <Interface_GeneralLib.hxx>
+#include <Interface_Protocol.hxx>
+#include <Interface_GTool.hxx>
+#include <Standard_Transient.hxx>
+#include <Interface_BitMap.hxx>
+#include <Interface_EntityIterator.hxx>
+#include <TColStd_HSequenceOfTransient.hxx>
+#include <Standard_Type.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <Interface_Graph.hxx>
 #include <Interface_GeneralModule.hxx>
 #include <Interface_ReportEntity.hxx>
 #include <Standard_DomainError.hxx>

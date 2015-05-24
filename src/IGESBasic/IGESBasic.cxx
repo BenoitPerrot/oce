@@ -11,7 +11,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IGESBasic.ixx>
+#include <IGESBasic_Protocol.hxx>
+#include <IGESBasic.hxx>
 #include <IGESBasic_Protocol.hxx>
 #include <IGESBasic_GeneralModule.hxx>
 #include <IGESBasic_ReadWriteModule.hxx>

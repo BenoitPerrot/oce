@@ -15,7 +15,17 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
-#include <StepElement_SurfaceSection.ixx>
+#include <StepElement_MeasureOrUnspecifiedValue.hxx>
+#include <StepElement_SurfaceSection.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepElement_SurfaceSection)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepElement_SurfaceSection)
+IMPLEMENT_DOWNCAST(StepElement_SurfaceSection,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepElement_SurfaceSection)
 
 //=======================================================================
 //function : StepElement_SurfaceSection

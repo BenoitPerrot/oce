@@ -12,7 +12,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GProp_PEquation.ixx>
+#include <Standard_NoSuchObject.hxx>
+#include <TColgp_Array1OfPnt.hxx>
+#include <gp_Pln.hxx>
+#include <gp_Lin.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Vec.hxx>
+#include <GProp_PEquation.hxx>
 #include <GProp_PrincipalProps.hxx>
 #include <GProp_PGProps.hxx>
 

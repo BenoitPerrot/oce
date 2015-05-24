@@ -11,7 +11,21 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepShape_VertexPoint.ixx>
+#include <StepGeom_Point.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepShape_VertexPoint.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepShape_VertexPoint)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepShape_Vertex),
+  STANDARD_TYPE(StepShape_TopologicalRepresentationItem),
+  STANDARD_TYPE(StepRepr_RepresentationItem),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepShape_VertexPoint)
+IMPLEMENT_DOWNCAST(StepShape_VertexPoint,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepShape_VertexPoint)
 
 
 StepShape_VertexPoint::StepShape_VertexPoint ()  {}

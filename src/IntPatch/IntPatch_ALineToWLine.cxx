@@ -14,7 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IntPatch_ALineToWLine.ixx>
+#include <IntSurf_Quadric.hxx>
+#include <IntPatch_WLine.hxx>
+#include <IntPatch_ALine.hxx>
+#include <IntPatch_ALineToWLine.hxx>
 
 #include <IntSurf_LineOn2S.hxx>
 #include <IntSurf_PntOn2S.hxx>

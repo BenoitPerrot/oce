@@ -16,7 +16,11 @@
 
 #include <stdio.h>
 
-#include <BRepAlgo_Loop.ixx>
+#include <TopoDS_Face.hxx>
+#include <TopoDS_Edge.hxx>
+#include <TopTools_ListOfShape.hxx>
+#include <TopTools_DataMapOfShapeShape.hxx>
+#include <BRepAlgo_Loop.hxx>
 
 #include <BRep_Builder.hxx>
 #include <BRepAlgo_FaceRestrictor.hxx>

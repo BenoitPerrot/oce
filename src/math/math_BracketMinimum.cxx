@@ -12,7 +12,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <math_BracketMinimum.ixx>
+#include <StdFail_NotDone.hxx>
+#include <math_Function.hxx>
+#include <math_BracketMinimum.hxx>
 
 #include <StdFail_NotDone.hxx>   // waiting for NotDone Exception
 #include <math_Function.hxx>

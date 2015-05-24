@@ -11,7 +11,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepVisual_MarkerMember.ixx>
+#include <StepVisual_MarkerMember.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepVisual_MarkerMember)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepData_SelectInt),
+  STANDARD_TYPE(StepData_SelectMember),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepVisual_MarkerMember)
+IMPLEMENT_DOWNCAST(StepVisual_MarkerMember,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepVisual_MarkerMember)
 #include <StepData_EnumTool.hxx>
 #include <TCollection_AsciiString.hxx>
 

@@ -11,7 +11,22 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <MDataXtd_ConstraintRetrievalDriver.ixx>
+#include <CDM_MessageDriver.hxx>
+#include <Standard_Type.hxx>
+#include <TDF_Attribute.hxx>
+#include <PDF_Attribute.hxx>
+#include <MDF_RRelocationTable.hxx>
+#include <MDataXtd_ConstraintRetrievalDriver.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(MDataXtd_ConstraintRetrievalDriver)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MDF_ARDriver),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(MDataXtd_ConstraintRetrievalDriver)
+IMPLEMENT_DOWNCAST(MDataXtd_ConstraintRetrievalDriver,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(MDataXtd_ConstraintRetrievalDriver)
 #include <MDataXtd.hxx>
 #include <PDataXtd_Constraint.hxx>
 #include <TDataXtd_Constraint.hxx>

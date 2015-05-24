@@ -14,7 +14,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomFill_Boundary.ixx>
+#include <gp_Pnt.hxx>
+#include <gp_Vec.hxx>
+#include <GeomFill_Boundary.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(GeomFill_Boundary)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(GeomFill_Boundary)
+IMPLEMENT_DOWNCAST(GeomFill_Boundary,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(GeomFill_Boundary)
 
 
 //=======================================================================

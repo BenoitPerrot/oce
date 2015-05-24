@@ -16,7 +16,7 @@
 
 #include <stdio.h>
 
-#include <QANewDBRepNaming.ixx>
+#include <QANewDBRepNaming.hxx>
 
 #include <DDF.hxx>
 

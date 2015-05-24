@@ -14,7 +14,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepIntCurveSurface_Inter.ixx>
+#include <GeomAdaptor_HCurve.hxx>
+#include <BRepTopAdaptor_TopolTool.hxx>
+#include <Bnd_HArray1OfBox.hxx>
+#include <StdFail_NotDone.hxx>
+#include <TopoDS_Shape.hxx>
+#include <GeomAdaptor_Curve.hxx>
+#include <gp_Lin.hxx>
+#include <IntCurveSurface_IntersectionPoint.hxx>
+#include <gp_Pnt.hxx>
+#include <TopoDS_Face.hxx>
+#include <BRepIntCurveSurface_Inter.hxx>
 #include <Geom_Line.hxx>
 #include <TopAbs_ShapeEnum.hxx>
 #include <TopoDS.hxx>

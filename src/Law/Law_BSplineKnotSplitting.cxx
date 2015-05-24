@@ -14,10 +14,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Law_BSplineKnotSplitting.ixx>
+#include <TColStd_HArray1OfInteger.hxx>
+#include <Standard_DimensionError.hxx>
+#include <Standard_RangeError.hxx>
+#include <Law_BSpline.hxx>
+#include <TColStd_Array1OfInteger.hxx>
+#include <Law_BSplineKnotSplitting.hxx>
 
 
-#include <Law_BSplineKnotSplitting.ixx>
+#include <TColStd_HArray1OfInteger.hxx>
+#include <Standard_DimensionError.hxx>
+#include <Standard_RangeError.hxx>
+#include <Law_BSpline.hxx>
+#include <TColStd_Array1OfInteger.hxx>
+#include <Law_BSplineKnotSplitting.hxx>
 #include <Standard_RangeError.hxx>
 
 #include <BSplCLib.hxx>

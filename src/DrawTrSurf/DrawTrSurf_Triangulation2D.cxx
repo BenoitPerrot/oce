@@ -14,7 +14,22 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <DrawTrSurf_Triangulation2D.ixx>
+#include <Poly_Triangulation.hxx>
+#include <TColStd_HArray1OfInteger.hxx>
+#include <Draw_Display.hxx>
+#include <Draw_Drawable3D.hxx>
+#include <DrawTrSurf_Triangulation2D.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(DrawTrSurf_Triangulation2D)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Draw_Drawable2D),
+  STANDARD_TYPE(Draw_Drawable3D),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(DrawTrSurf_Triangulation2D)
+IMPLEMENT_DOWNCAST(DrawTrSurf_Triangulation2D,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(DrawTrSurf_Triangulation2D)
 #include <Poly_Connect.hxx>
 #include <Poly_Triangle.hxx>
 #include <Poly_Array1OfTriangle.hxx>

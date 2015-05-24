@@ -11,7 +11,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepVisual_PresentationLayerAssignment.ixx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepVisual_HArray1OfLayeredItem.hxx>
+#include <StepVisual_LayeredItem.hxx>
+#include <StepVisual_PresentationLayerAssignment.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepVisual_PresentationLayerAssignment)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepVisual_PresentationLayerAssignment)
+IMPLEMENT_DOWNCAST(StepVisual_PresentationLayerAssignment,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepVisual_PresentationLayerAssignment)
 
 
 StepVisual_PresentationLayerAssignment::StepVisual_PresentationLayerAssignment ()  {}

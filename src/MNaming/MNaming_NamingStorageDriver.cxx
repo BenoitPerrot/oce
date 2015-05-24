@@ -14,7 +14,22 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <MNaming_NamingStorageDriver.ixx>
+#include <CDM_MessageDriver.hxx>
+#include <Standard_Type.hxx>
+#include <PDF_Attribute.hxx>
+#include <TDF_Attribute.hxx>
+#include <MDF_SRelocationTable.hxx>
+#include <MNaming_NamingStorageDriver.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(MNaming_NamingStorageDriver)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MDF_ASDriver),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(MNaming_NamingStorageDriver)
+IMPLEMENT_DOWNCAST(MNaming_NamingStorageDriver,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(MNaming_NamingStorageDriver)
 #include <PNaming_Naming_2.hxx>
 #include <PCollection_HAsciiString.hxx>
 #include <Standard_NoSuchObject.hxx>

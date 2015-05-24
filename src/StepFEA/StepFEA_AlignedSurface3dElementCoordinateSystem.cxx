@@ -15,7 +15,20 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
-#include <StepFEA_AlignedSurface3dElementCoordinateSystem.ixx>
+#include <StepFEA_FeaAxis2Placement3d.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepFEA_AlignedSurface3dElementCoordinateSystem.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepFEA_AlignedSurface3dElementCoordinateSystem)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepFEA_FeaRepresentationItem),
+  STANDARD_TYPE(StepRepr_RepresentationItem),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepFEA_AlignedSurface3dElementCoordinateSystem)
+IMPLEMENT_DOWNCAST(StepFEA_AlignedSurface3dElementCoordinateSystem,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepFEA_AlignedSurface3dElementCoordinateSystem)
 
 //=======================================================================
 //function : StepFEA_AlignedSurface3dElementCoordinateSystem

@@ -14,7 +14,26 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomFill_GuideTrihedronPlan.ixx>
+#include <Adaptor3d_HCurve.hxx>
+#include <TColgp_HArray2OfPnt2d.hxx>
+#include <GeomFill_Frenet.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Standard_ConstructionError.hxx>
+#include <GeomFill_TrihedronLaw.hxx>
+#include <gp_Vec.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <GeomFill_GuideTrihedronPlan.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(GeomFill_GuideTrihedronPlan)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(GeomFill_TrihedronWithGuide),
+  STANDARD_TYPE(GeomFill_TrihedronLaw),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(GeomFill_GuideTrihedronPlan)
+IMPLEMENT_DOWNCAST(GeomFill_GuideTrihedronPlan,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(GeomFill_GuideTrihedronPlan)
 
 #include <gp_Pnt.hxx>
 #include <gp_Pnt2d.hxx>

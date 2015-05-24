@@ -13,7 +13,21 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TDF_Data.ixx>
+#include <Standard_NoMoreObject.hxx>
+#include <TDF_Transaction.hxx>
+#include <TDF_LabelNode.hxx>
+#include <TDF_Delta.hxx>
+#include <TDF_Label.hxx>
+#include <TDF_Data.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(TDF_Data)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(TDF_Data)
+IMPLEMENT_DOWNCAST(TDF_Data,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(TDF_Data)
 
 #include <TCollection_AsciiString.hxx>
 

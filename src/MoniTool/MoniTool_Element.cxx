@@ -11,7 +11,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <MoniTool_Element.ixx>
+#include <Standard_Type.hxx>
+#include <MoniTool_AttrList.hxx>
+#include <MoniTool_Element.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(MoniTool_Element)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(MoniTool_Element)
+IMPLEMENT_DOWNCAST(MoniTool_Element,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(MoniTool_Element)
 
 
 void  MoniTool_Element::SetHashCode (const Standard_Integer code)

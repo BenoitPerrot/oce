@@ -14,7 +14,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepFill_OffsetAncestors.ixx>
+#include <StdFail_NotDone.hxx>
+#include <BRepFill_OffsetWire.hxx>
+#include <TopoDS_Edge.hxx>
+#include <TopoDS_Shape.hxx>
+#include <BRepFill_OffsetAncestors.hxx>
 
 #include <TopExp_Explorer.hxx>
 #include <TopoDS_Face.hxx>

@@ -14,7 +14,24 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Poly_Triangulation.ixx>
+#include <TColgp_HArray1OfPnt2d.hxx>
+#include <TShort_HArray1OfShortReal.hxx>
+#include <Standard_DomainError.hxx>
+#include <Standard_NullObject.hxx>
+#include <TColgp_Array1OfPnt.hxx>
+#include <Poly_Array1OfTriangle.hxx>
+#include <TColgp_Array1OfPnt2d.hxx>
+#include <TShort_Array1OfShortReal.hxx>
+#include <Poly_Triangulation.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Poly_Triangulation)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Poly_Triangulation)
+IMPLEMENT_DOWNCAST(Poly_Triangulation,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Poly_Triangulation)
 #include <gp_Pnt.hxx>
 #include <Poly_Triangle.hxx>
 

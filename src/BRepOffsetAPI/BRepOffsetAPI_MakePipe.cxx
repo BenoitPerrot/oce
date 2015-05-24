@@ -14,7 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepOffsetAPI_MakePipe.ixx>
+#include <TopoDS_Wire.hxx>
+#include <TopoDS_Shape.hxx>
+#include <BRepFill_Pipe.hxx>
+#include <BRepOffsetAPI_MakePipe.hxx>
 
 #include <TopExp_Explorer.hxx>
 #include <TopoDS_Face.hxx>

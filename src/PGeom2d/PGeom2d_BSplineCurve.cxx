@@ -14,7 +14,22 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PGeom2d_BSplineCurve.ixx>
+#include <PColgp_HArray1OfPnt2d.hxx>
+#include <PColStd_HArray1OfReal.hxx>
+#include <PColStd_HArray1OfInteger.hxx>
+#include <PGeom2d_BSplineCurve.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(PGeom2d_BSplineCurve)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(PGeom2d_BoundedCurve),
+  STANDARD_TYPE(PGeom2d_Curve),
+  STANDARD_TYPE(PGeom2d_Geometry),
+  STANDARD_TYPE(Standard_Persistent),
+  STANDARD_TYPE(Standard_Storable),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(PGeom2d_BSplineCurve)
+IMPLEMENT_DOWNCAST(PGeom2d_BSplineCurve,Standard_Persistent)
+IMPLEMENT_STANDARD_RTTI(PGeom2d_BSplineCurve)
 
 //=======================================================================
 //function : PGeom2d_BSplineCurve

@@ -17,7 +17,9 @@
 #ifndef No_Exception
 #define No_Exception
 #endif
-#include <Intrv_Intervals.ixx>
+#include <Standard_OutOfRange.hxx>
+#include <Intrv_Interval.hxx>
+#include <Intrv_Intervals.hxx>
 
 //                   **---------****             Other
 //     ***-----*                                 IsBefore

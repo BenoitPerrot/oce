@@ -12,7 +12,23 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <DrawTrSurf_BSplineSurface.ixx>
+#include <Geom_BSplineSurface.hxx>
+#include <Draw_Color.hxx>
+#include <Draw_Display.hxx>
+#include <Draw_Drawable3D.hxx>
+#include <DrawTrSurf_BSplineSurface.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(DrawTrSurf_BSplineSurface)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(DrawTrSurf_Surface),
+  STANDARD_TYPE(DrawTrSurf_Drawable),
+  STANDARD_TYPE(Draw_Drawable3D),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(DrawTrSurf_BSplineSurface)
+IMPLEMENT_DOWNCAST(DrawTrSurf_BSplineSurface,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(DrawTrSurf_BSplineSurface)
 #include <DrawTrSurf_BSplineCurve.hxx>
 #include <Geom_BSplineSurface.hxx>
 #include <Draw_MarkerShape.hxx>

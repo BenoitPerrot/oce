@@ -11,7 +11,23 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <STEPSelections_SelectForTransfer.ixx>
+#include <XSControl_TransferReader.hxx>
+#include <Interface_EntityIterator.hxx>
+#include <Interface_Graph.hxx>
+#include <STEPSelections_SelectForTransfer.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(STEPSelections_SelectForTransfer)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(XSControl_SelectForTransfer),
+  STANDARD_TYPE(IFSelect_SelectExtract),
+  STANDARD_TYPE(IFSelect_SelectDeduct),
+  STANDARD_TYPE(IFSelect_Selection),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(STEPSelections_SelectForTransfer)
+IMPLEMENT_DOWNCAST(STEPSelections_SelectForTransfer,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(STEPSelections_SelectForTransfer)
 #include <Interface_EntityIterator.hxx>
 #include <TColStd_HSequenceOfTransient.hxx>
 #include <Transfer_TransientProcess.hxx>

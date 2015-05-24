@@ -11,7 +11,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepVisual_SurfaceStyleUsage.ixx>
+#include <StepVisual_SurfaceSideStyle.hxx>
+#include <StepVisual_SurfaceStyleUsage.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepVisual_SurfaceStyleUsage)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepVisual_SurfaceStyleUsage)
+IMPLEMENT_DOWNCAST(StepVisual_SurfaceStyleUsage,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepVisual_SurfaceStyleUsage)
 
 
 StepVisual_SurfaceStyleUsage::StepVisual_SurfaceStyleUsage ()  {}

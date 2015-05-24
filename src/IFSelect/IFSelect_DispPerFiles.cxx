@@ -11,7 +11,22 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IFSelect_DispPerFiles.ixx>
+#include <IFSelect_IntParam.hxx>
+#include <Interface_InterfaceError.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <Interface_Graph.hxx>
+#include <IFGraph_SubPartsIterator.hxx>
+#include <IFSelect_DispPerFiles.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IFSelect_DispPerFiles)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IFSelect_Dispatch),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IFSelect_DispPerFiles)
+IMPLEMENT_DOWNCAST(IFSelect_DispPerFiles,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IFSelect_DispPerFiles)
 #include <IFSelect_Selection.hxx>
 #include <IFGraph_SCRoots.hxx>
 #include <Interface_InterfaceModel.hxx>

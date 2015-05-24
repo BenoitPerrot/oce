@@ -11,7 +11,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <ShapeFix_SplitCommonVertex.ixx>
+#include <TopoDS_Shape.hxx>
+#include <ShapeFix_SplitCommonVertex.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(ShapeFix_SplitCommonVertex)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(ShapeFix_Root),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(ShapeFix_SplitCommonVertex)
+IMPLEMENT_DOWNCAST(ShapeFix_SplitCommonVertex,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(ShapeFix_SplitCommonVertex)
 
 #include <BRep_Tool.hxx>
 #include <BRep_Builder.hxx>

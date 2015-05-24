@@ -15,7 +15,17 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
-#include <StepFEA_FeaMaterialPropertyRepresentationItem.ixx>
+#include <StepFEA_FeaMaterialPropertyRepresentationItem.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepFEA_FeaMaterialPropertyRepresentationItem)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepRepr_RepresentationItem),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepFEA_FeaMaterialPropertyRepresentationItem)
+IMPLEMENT_DOWNCAST(StepFEA_FeaMaterialPropertyRepresentationItem,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepFEA_FeaMaterialPropertyRepresentationItem)
 
 //=======================================================================
 //function : StepFEA_FeaMaterialPropertyRepresentationItem

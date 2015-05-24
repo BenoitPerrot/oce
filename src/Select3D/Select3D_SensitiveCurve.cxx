@@ -14,7 +14,31 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Select3D_SensitiveCurve.ixx>
+#include <Geom_Curve.hxx>
+#include <Standard_ConstructionError.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <SelectBasics_EntityOwner.hxx>
+#include <TColgp_HArray1OfPnt.hxx>
+#include <TColgp_Array1OfPnt.hxx>
+#include <TColgp_Array1OfPnt2d.hxx>
+#include <Bnd_Box2d.hxx>
+#include <gp_Lin.hxx>
+#include <Select3D_SensitiveEntity.hxx>
+#include <TopLoc_Location.hxx>
+#include <gp_XYZ.hxx>
+#include <Select3D_SensitiveCurve.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Select3D_SensitiveCurve)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Select3D_SensitivePoly),
+  STANDARD_TYPE(Select3D_SensitiveEntity),
+  STANDARD_TYPE(SelectBasics_SensitiveEntity),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Select3D_SensitiveCurve)
+IMPLEMENT_DOWNCAST(Select3D_SensitiveCurve,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Select3D_SensitiveCurve)
 #include <SelectBasics_BasicTool.hxx>
 #include <gp_Lin2d.hxx>
 #include <Precision.hxx>

@@ -18,7 +18,19 @@
 //:l9 abv 15.01.99: CTS22023 and TEC0278: issue data fail on offset tapered flag 
 // only if type is not constant
 
-#include <IGESGeom_ToolOffsetCurve.ixx>
+#include <Standard_DomainError.hxx>
+#include <IGESGeom_OffsetCurve.hxx>
+#include <IGESData_IGESReaderData.hxx>
+#include <IGESData_ParamReader.hxx>
+#include <IGESData_IGESWriter.hxx>
+#include <Interface_EntityIterator.hxx>
+#include <IGESData_DirChecker.hxx>
+#include <Interface_ShareTool.hxx>
+#include <Interface_Check.hxx>
+#include <Interface_CopyTool.hxx>
+#include <IGESData_IGESDumper.hxx>
+#include <Message_Messenger.hxx>
+#include <IGESGeom_ToolOffsetCurve.hxx>
 #include <IGESData_ParamCursor.hxx>
 #include <gp_XYZ.hxx>
 #include <gp_Vec.hxx>

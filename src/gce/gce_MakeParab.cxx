@@ -14,7 +14,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <gce_MakeParab.ixx>
+#include <StdFail_NotDone.hxx>
+#include <gp_Ax2.hxx>
+#include <gp_Ax1.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Parab.hxx>
+#include <gce_MakeParab.hxx>
 #include <gp.hxx>
 #include <StdFail_NotDone.hxx>
 

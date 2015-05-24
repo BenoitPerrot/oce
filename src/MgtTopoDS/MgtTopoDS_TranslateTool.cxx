@@ -14,7 +14,21 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <MgtTopoDS_TranslateTool.ixx>
+#include <Standard_TypeMismatch.hxx>
+#include <TopoDS_Shape.hxx>
+#include <PTopoDS_HShape.hxx>
+#include <PTColStd_TransientPersistentMap.hxx>
+#include <PTColStd_PersistentTransientMap.hxx>
+#include <MgtTopoDS_TranslateTool.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(MgtTopoDS_TranslateTool)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(MgtTopoDS_TranslateTool)
+IMPLEMENT_DOWNCAST(MgtTopoDS_TranslateTool,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(MgtTopoDS_TranslateTool)
 #include <TopoDS_TShape.hxx>
 #include <PTopoDS_TShape.hxx>
 

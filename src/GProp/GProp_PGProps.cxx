@@ -12,7 +12,14 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GProp_PGProps.ixx>
+#include <Standard_DimensionError.hxx>
+#include <Standard_DomainError.hxx>
+#include <gp_Pnt.hxx>
+#include <TColgp_Array1OfPnt.hxx>
+#include <TColgp_Array2OfPnt.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <TColStd_Array2OfReal.hxx>
+#include <GProp_PGProps.hxx>
 #include <Standard_DomainError.hxx>
 #include <Standard_DimensionError.hxx>
 

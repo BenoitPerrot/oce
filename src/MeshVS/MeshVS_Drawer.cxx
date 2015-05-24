@@ -13,7 +13,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <MeshVS_Drawer.ixx>
+#include <Quantity_Color.hxx>
+#include <Graphic3d_MaterialAspect.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <MeshVS_Drawer.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(MeshVS_Drawer)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(MeshVS_Drawer)
+IMPLEMENT_DOWNCAST(MeshVS_Drawer,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(MeshVS_Drawer)
 
 //================================================================
 // Function : Assign

@@ -14,7 +14,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PDataXtd_PatternStd.ixx>
+#include <PNaming_NamedShape.hxx>
+#include <PDataStd_Real.hxx>
+#include <PDataStd_Integer.hxx>
+#include <PDataXtd_PatternStd.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(PDataXtd_PatternStd)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(PDF_Attribute),
+  STANDARD_TYPE(Standard_Persistent),
+  STANDARD_TYPE(Standard_Storable),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(PDataXtd_PatternStd)
+IMPLEMENT_DOWNCAST(PDataXtd_PatternStd,Standard_Persistent)
+IMPLEMENT_STANDARD_RTTI(PDataXtd_PatternStd)
 
 PDataXtd_PatternStd::PDataXtd_PatternStd() :
     mySignature(0),

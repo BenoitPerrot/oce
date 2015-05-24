@@ -14,7 +14,18 @@
 
 // pmn -> modified 17/01/1996 : utilisation de Curve() et SetCurve()
 
-#include <Law_S.ixx>
+#include <Law_S.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Law_S)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Law_BSpFunc),
+  STANDARD_TYPE(Law_Function),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Law_S)
+IMPLEMENT_DOWNCAST(Law_S,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Law_S)
 #include <TColStd_Array1OfReal.hxx>
 #include <TColStd_Array1OfInteger.hxx>
 #include <Law_BSpline.hxx>

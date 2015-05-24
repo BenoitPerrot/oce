@@ -11,7 +11,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepAP214_AutoDesignGroupAssignment.ixx>
+#include <StepAP214_HArray1OfAutoDesignGroupedItem.hxx>
+#include <StepBasic_Group.hxx>
+#include <StepAP214_AutoDesignGroupedItem.hxx>
+#include <StepAP214_AutoDesignGroupAssignment.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepAP214_AutoDesignGroupAssignment)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepBasic_GroupAssignment),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepAP214_AutoDesignGroupAssignment)
+IMPLEMENT_DOWNCAST(StepAP214_AutoDesignGroupAssignment,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepAP214_AutoDesignGroupAssignment)
 
 
 StepAP214_AutoDesignGroupAssignment::StepAP214_AutoDesignGroupAssignment ()  {}

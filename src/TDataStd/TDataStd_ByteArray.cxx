@@ -13,7 +13,24 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TDataStd_ByteArray.ixx>
+#include <TColStd_HArray1OfByte.hxx>
+#include <TDataStd_DeltaOnModificationOfByteArray.hxx>
+#include <Standard_GUID.hxx>
+#include <TDF_Label.hxx>
+#include <TDF_Attribute.hxx>
+#include <TDF_RelocationTable.hxx>
+#include <TDF_DeltaOnModification.hxx>
+#include <TDataStd_ByteArray.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(TDataStd_ByteArray)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(TDF_Attribute),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(TDataStd_ByteArray)
+IMPLEMENT_DOWNCAST(TDataStd_ByteArray,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(TDataStd_ByteArray)
 #include <TDataStd_DeltaOnModificationOfByteArray.hxx>
 #include <TDF_DefaultDeltaOnModification.hxx>
 

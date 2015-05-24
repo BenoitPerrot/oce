@@ -12,7 +12,10 @@
 // commercial license or contractual agreement.
 
 // Modified by rmi, Thu Dec  4 14:24:24 1997
-#include <CDF_Store.ixx>
+#include <CDF_StoreList.hxx>
+#include <CDM_Document.hxx>
+#include <TCollection_ExtendedString.hxx>
+#include <CDF_Store.hxx>
 #include <CDF_Session.hxx>
 #include <CDF_Application.hxx>
 #include <PCDM_StoreStatus.hxx>

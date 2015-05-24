@@ -13,7 +13,18 @@
 
 //    abv 28.04.99 S4137: ading method Apply for work on all types of shapes
 
-#include <ShapeBuild_ReShape.ixx>
+#include <TopoDS_Shape.hxx>
+#include <ShapeBuild_ReShape.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(ShapeBuild_ReShape)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(BRepTools_ReShape),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(ShapeBuild_ReShape)
+IMPLEMENT_DOWNCAST(ShapeBuild_ReShape,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(ShapeBuild_ReShape)
 
 #include <TopoDS_Shell.hxx>
 #include <TopoDS_Solid.hxx>

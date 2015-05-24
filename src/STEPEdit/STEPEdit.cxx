@@ -11,7 +11,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <STEPEdit.ixx>
+#include <Interface_Protocol.hxx>
+#include <StepData_StepModel.hxx>
+#include <IFSelect_Signature.hxx>
+#include <IFSelect_SelectSignature.hxx>
+#include <STEPEdit.hxx>
 //#include <StepData_FileProtocol.hxx>
 #include <StepAP214.hxx>
 //#include <HeaderSection.hxx>

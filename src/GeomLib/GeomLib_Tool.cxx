@@ -13,7 +13,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomLib_Tool.ixx>
+#include <Geom_Curve.hxx>
+#include <gp_Pnt.hxx>
+#include <Geom_Surface.hxx>
+#include <Geom2d_Curve.hxx>
+#include <gp_Pnt2d.hxx>
+#include <GeomLib_Tool.hxx>
 
 #include <Geom_Curve.hxx>
 #include <Geom_Line.hxx>

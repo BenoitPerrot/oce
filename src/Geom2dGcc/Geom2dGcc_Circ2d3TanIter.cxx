@@ -24,7 +24,13 @@
 //                                                  Courbes.              +
 //=========================================================================
 
-#include <Geom2dGcc_Circ2d3TanIter.ixx>
+#include <StdFail_NotDone.hxx>
+#include <GccEnt_QualifiedCirc.hxx>
+#include <Geom2dGcc_QCurve.hxx>
+#include <GccEnt_QualifiedLin.hxx>
+#include <gp_Pnt2d.hxx>
+#include <gp_Circ2d.hxx>
+#include <Geom2dGcc_Circ2d3TanIter.hxx>
 
 #include <gp_Dir2d.hxx>
 #include <gp_Ax2d.hxx>

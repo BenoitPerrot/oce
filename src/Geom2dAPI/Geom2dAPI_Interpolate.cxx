@@ -16,7 +16,16 @@
 
 // 8-Aug-95 : xab : interpolation uses BSplCLib::Interpolate
 
-#include <Geom2dAPI_Interpolate.ixx>
+#include <TColgp_HArray1OfPnt2d.hxx>
+#include <Geom2d_BSplineCurve.hxx>
+#include <TColgp_HArray1OfVec2d.hxx>
+#include <TColStd_HArray1OfBoolean.hxx>
+#include <TColStd_HArray1OfReal.hxx>
+#include <StdFail_NotDone.hxx>
+#include <Standard_ConstructionError.hxx>
+#include <gp_Vec2d.hxx>
+#include <TColgp_Array1OfVec2d.hxx>
+#include <Geom2dAPI_Interpolate.hxx>
 #include <Standard_ConstructionError.hxx>
 #include <PLib.hxx>
 #include <BSplCLib.hxx>

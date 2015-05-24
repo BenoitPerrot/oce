@@ -11,7 +11,24 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IFSelect_EditForm.ixx>
+#include <IFSelect_Editor.hxx>
+#include <Standard_Transient.hxx>
+#include <Interface_InterfaceModel.hxx>
+#include <TColStd_SequenceOfInteger.hxx>
+#include <IFSelect_ListEditor.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <TColStd_HSequenceOfHAsciiString.hxx>
+#include <Message_Messenger.hxx>
+#include <IFSelect_EditForm.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IFSelect_EditForm)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IFSelect_EditForm)
+IMPLEMENT_DOWNCAST(IFSelect_EditForm,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IFSelect_EditForm)
 #include <Interface_TypedValue.hxx>
 #include <Interface_MSG.hxx>
 #include <Message_Messenger.hxx>

@@ -14,7 +14,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PDataStd_TreeNode.ixx>
+#include <PDataStd_TreeNode.hxx>
+#include <Standard_GUID.hxx>
+#include <PDataStd_TreeNode.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(PDataStd_TreeNode)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(PDF_Attribute),
+  STANDARD_TYPE(Standard_Persistent),
+  STANDARD_TYPE(Standard_Storable),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(PDataStd_TreeNode)
+IMPLEMENT_DOWNCAST(PDataStd_TreeNode,Standard_Persistent)
+IMPLEMENT_STANDARD_RTTI(PDataStd_TreeNode)
 #include <Standard_GUID.hxx>
 
 PDataStd_TreeNode::PDataStd_TreeNode()

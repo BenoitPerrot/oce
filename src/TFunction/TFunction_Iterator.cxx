@@ -13,7 +13,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TFunction_Iterator.ixx>
+#include <TFunction_Scope.hxx>
+#include <TDF_Label.hxx>
+#include <TDF_LabelList.hxx>
+#include <TFunction_Iterator.hxx>
 #include <TFunction_IFunction.hxx>
 #include <TFunction_GraphNode.hxx>
 #include <TFunction_DoubleMapIteratorOfDoubleMapOfIntegerLabel.hxx>

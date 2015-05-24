@@ -14,7 +14,21 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <FEmTool_LinearTension.ixx>
+#include <Standard_NotImplemented.hxx>
+#include <Standard_DomainError.hxx>
+#include <TColStd_HArray2OfInteger.hxx>
+#include <math_Matrix.hxx>
+#include <FEmTool_LinearTension.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(FEmTool_LinearTension)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(FEmTool_ElementaryCriterion),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(FEmTool_LinearTension)
+IMPLEMENT_DOWNCAST(FEmTool_LinearTension,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(FEmTool_LinearTension)
 #include <PLib.hxx>
 #include <TColStd_HArray2OfInteger.hxx>
 #include <TColStd_HArray2OfReal.hxx>

@@ -11,7 +11,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepVisual_PreDefinedCurveFont.ixx>
+#include <StepVisual_PreDefinedCurveFont.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepVisual_PreDefinedCurveFont)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepVisual_PreDefinedItem),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepVisual_PreDefinedCurveFont)
+IMPLEMENT_DOWNCAST(StepVisual_PreDefinedCurveFont,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepVisual_PreDefinedCurveFont)
 
 
 StepVisual_PreDefinedCurveFont::StepVisual_PreDefinedCurveFont ()  {}

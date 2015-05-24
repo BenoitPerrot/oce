@@ -14,7 +14,21 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PGeom_SurfaceOfLinearExtrusion.ixx>
+#include <PGeom_Curve.hxx>
+#include <gp_Dir.hxx>
+#include <PGeom_SurfaceOfLinearExtrusion.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(PGeom_SurfaceOfLinearExtrusion)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(PGeom_SweptSurface),
+  STANDARD_TYPE(PGeom_Surface),
+  STANDARD_TYPE(PGeom_Geometry),
+  STANDARD_TYPE(Standard_Persistent),
+  STANDARD_TYPE(Standard_Storable),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(PGeom_SurfaceOfLinearExtrusion)
+IMPLEMENT_DOWNCAST(PGeom_SurfaceOfLinearExtrusion,Standard_Persistent)
+IMPLEMENT_STANDARD_RTTI(PGeom_SurfaceOfLinearExtrusion)
 
 //=======================================================================
 //function : PGeom_SurfaceOfLinearExtrusion

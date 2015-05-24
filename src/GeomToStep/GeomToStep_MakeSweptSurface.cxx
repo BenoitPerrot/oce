@@ -14,7 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomToStep_MakeSweptSurface.ixx>
+#include <StepGeom_SweptSurface.hxx>
+#include <StdFail_NotDone.hxx>
+#include <Geom_SweptSurface.hxx>
+#include <GeomToStep_MakeSweptSurface.hxx>
 #include <StdFail_NotDone.hxx>
 #include <StepGeom_SweptSurface.hxx>
 #include <GeomToStep_MakeSweptSurface.hxx>

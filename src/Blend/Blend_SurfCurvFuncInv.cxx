@@ -14,7 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Blend_SurfCurvFuncInv.ixx>
+#include <math_Matrix.hxx>
+#include <Adaptor2d_HCurve2d.hxx>
+#include <Blend_SurfCurvFuncInv.hxx>
 
 //=======================================================================
 //function : NbVariables

@@ -11,7 +11,14 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Transfer_TransferIterator.ixx>
+#include <Transfer_HSequenceOfBinder.hxx>
+#include <TColStd_HSequenceOfInteger.hxx>
+#include <Standard_NoSuchObject.hxx>
+#include <Transfer_Binder.hxx>
+#include <Standard_Type.hxx>
+#include <Standard_Transient.hxx>
+#include <Interface_Check.hxx>
+#include <Transfer_TransferIterator.hxx>
 #include <Transfer_SimpleBinderOfTransient.hxx>
 #include <Standard_NoSuchObject.hxx>
 

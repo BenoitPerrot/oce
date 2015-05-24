@@ -14,7 +14,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PBRep_PointOnCurve.ixx>
+#include <PGeom_Curve.hxx>
+#include <PTopLoc_Location.hxx>
+#include <PBRep_PointOnCurve.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(PBRep_PointOnCurve)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(PBRep_PointRepresentation),
+  STANDARD_TYPE(Standard_Persistent),
+  STANDARD_TYPE(Standard_Storable),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(PBRep_PointOnCurve)
+IMPLEMENT_DOWNCAST(PBRep_PointOnCurve,Standard_Persistent)
+IMPLEMENT_STANDARD_RTTI(PBRep_PointOnCurve)
 
 //=======================================================================
 //function : PBRep_PointOnCurve

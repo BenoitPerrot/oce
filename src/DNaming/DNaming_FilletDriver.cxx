@@ -13,7 +13,21 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <DNaming_FilletDriver.ixx>
+#include <TFunction_Logbook.hxx>
+#include <TDF_Label.hxx>
+#include <BRepFilletAPI_MakeFillet.hxx>
+#include <TopoDS_Shape.hxx>
+#include <DNaming_FilletDriver.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(DNaming_FilletDriver)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(TFunction_Driver),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(DNaming_FilletDriver)
+IMPLEMENT_DOWNCAST(DNaming_FilletDriver,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(DNaming_FilletDriver)
 #include <Precision.hxx>
 #include <Standard_GUID.hxx>
 #include <Standard_Real.hxx>

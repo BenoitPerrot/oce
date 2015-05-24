@@ -14,7 +14,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepFeat_SplitShape.ixx>
+#include <LocOpe_WiresOnShape.hxx>
+#include <StdFail_NotDone.hxx>
+#include <Standard_ConstructionError.hxx>
+#include <Standard_NoSuchObject.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopoDS_Wire.hxx>
+#include <TopoDS_Face.hxx>
+#include <TopoDS_Edge.hxx>
+#include <TopoDS_Compound.hxx>
+#include <TopTools_ListOfShape.hxx>
+#include <BRepFeat_SplitShape.hxx>
 
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 #include <Standard_Failure.hxx>

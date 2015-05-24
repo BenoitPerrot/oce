@@ -17,7 +17,11 @@
 // Modified by skv - Fri Mar  4 15:50:09 2005
 // Add methods for supporting history.
 
-#include <BRepPrimAPI_MakeRevol.ixx>
+#include <TopoDS_Shape.hxx>
+#include <gp_Ax1.hxx>
+#include <BRepSweep_Revol.hxx>
+#include <TopTools_ListOfShape.hxx>
+#include <BRepPrimAPI_MakeRevol.hxx>
 #include <BRepLib.hxx>
 #include <TopExp_Explorer.hxx>
 #include <BRep_TEdge.hxx>

@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <SWDRAW_ShapeProcess.ixx>
+#include <SWDRAW_ShapeProcess.hxx>
 #include <SWDRAW.hxx>
 
 #include <DBRep.hxx>

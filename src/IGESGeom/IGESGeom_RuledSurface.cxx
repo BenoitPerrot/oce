@@ -16,7 +16,18 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESGeom_RuledSurface.ixx>
+#include <IGESData_IGESEntity.hxx>
+#include <IGESGeom_RuledSurface.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESGeom_RuledSurface)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IGESData_IGESEntity),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESGeom_RuledSurface)
+IMPLEMENT_DOWNCAST(IGESGeom_RuledSurface,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESGeom_RuledSurface)
 
 
 IGESGeom_RuledSurface::IGESGeom_RuledSurface ()    {  }

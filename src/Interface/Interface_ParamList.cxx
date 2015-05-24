@@ -13,7 +13,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Interface_ParamList.ixx>
+#include <Standard_RangeError.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Standard_OutOfMemory.hxx>
+#include <Interface_FileParameter.hxx>
+#include <Interface_ParamList.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Interface_ParamList)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Interface_ParamList)
+IMPLEMENT_DOWNCAST(Interface_ParamList,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Interface_ParamList)
 
 //=======================================================================
 //function : Interface_ParamList

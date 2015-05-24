@@ -14,7 +14,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopOpeBRepBuild_Pave.ixx>
+#include <TopoDS_Shape.hxx>
+#include <TopOpeBRepBuild_Pave.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(TopOpeBRepBuild_Pave)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(TopOpeBRepBuild_Loop),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(TopOpeBRepBuild_Pave)
+IMPLEMENT_DOWNCAST(TopOpeBRepBuild_Pave,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(TopOpeBRepBuild_Pave)
 #include <TopAbs.hxx>
 
 //=======================================================================

@@ -12,10 +12,15 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
+#include <OSD_OSDError.hxx>
+#include <OSD_Printer.hxx>
+#include <Standard_ConstructionError.hxx>
+#include <Standard_NullObject.hxx>
+#include <TCollection_AsciiString.hxx>
+
 #ifndef WNT
 
 #include <Standard_ConstructionError.hxx>
-#include <OSD_Printer.ixx>
 #include <OSD_WhoAmI.hxx>
 
 //const OSD_WhoAmI Iam = OSD_WPrinter;
@@ -76,8 +81,6 @@ Standard_Integer OSD_Printer::Error()const{
 //------------------------------------------------------------------------
 //-------------------  Windows NT sources for OSD_Printer ----------------
 //------------------------------------------------------------------------
-
-#include <OSD_Printer.ixx>
 
 OSD_Printer :: OSD_Printer ( const TCollection_AsciiString& Name ) {
 

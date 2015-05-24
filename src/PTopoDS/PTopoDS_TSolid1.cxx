@@ -14,7 +14,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PTopoDS_TSolid1.ixx>
+#include <PTopoDS_TSolid1.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(PTopoDS_TSolid1)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(PTopoDS_TShape1),
+  STANDARD_TYPE(Standard_Persistent),
+  STANDARD_TYPE(Standard_Storable),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(PTopoDS_TSolid1)
+IMPLEMENT_DOWNCAST(PTopoDS_TSolid1,Standard_Persistent)
+IMPLEMENT_STANDARD_RTTI(PTopoDS_TSolid1)
 
 //=======================================================================
 //function : PTopoDS_TSolid1

@@ -16,7 +16,19 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESGeom_Direction.ixx>
+#include <gp_XYZ.hxx>
+#include <gp_Vec.hxx>
+#include <IGESGeom_Direction.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESGeom_Direction)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IGESData_IGESEntity),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESGeom_Direction)
+IMPLEMENT_DOWNCAST(IGESGeom_Direction,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESGeom_Direction)
 #include <gp_GTrsf.hxx>
 
 

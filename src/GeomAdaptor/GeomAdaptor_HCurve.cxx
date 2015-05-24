@@ -14,4 +14,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomAdaptor_HCurve.ixx>
+#include <Standard_ConstructionError.hxx>
+#include <GeomAdaptor_Curve.hxx>
+#include <Geom_Curve.hxx>
+#include <GeomAdaptor_HCurve.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(GeomAdaptor_HCurve)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(GeomAdaptor_GHCurve),
+  STANDARD_TYPE(Adaptor3d_HCurve),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(GeomAdaptor_HCurve)
+IMPLEMENT_DOWNCAST(GeomAdaptor_HCurve,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(GeomAdaptor_HCurve)

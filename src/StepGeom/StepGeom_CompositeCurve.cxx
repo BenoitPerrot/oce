@@ -11,7 +11,23 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepGeom_CompositeCurve.ixx>
+#include <StepGeom_HArray1OfCompositeCurveSegment.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepGeom_CompositeCurveSegment.hxx>
+#include <StepGeom_CompositeCurve.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepGeom_CompositeCurve)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepGeom_BoundedCurve),
+  STANDARD_TYPE(StepGeom_Curve),
+  STANDARD_TYPE(StepGeom_GeometricRepresentationItem),
+  STANDARD_TYPE(StepRepr_RepresentationItem),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepGeom_CompositeCurve)
+IMPLEMENT_DOWNCAST(StepGeom_CompositeCurve,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepGeom_CompositeCurve)
 
 
 StepGeom_CompositeCurve::StepGeom_CompositeCurve ()  {}

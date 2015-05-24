@@ -14,7 +14,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopOpeBRep_FFDumper.ixx>
+#include <TopOpeBRep_LineInter.hxx>
+#include <TopOpeBRep_VPointInter.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopOpeBRep_FFDumper.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(TopOpeBRep_FFDumper)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(TopOpeBRep_FFDumper)
+IMPLEMENT_DOWNCAST(TopOpeBRep_FFDumper,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(TopOpeBRep_FFDumper)
 #include <TopExp_Explorer.hxx>
 #include <TopAbs.hxx>
 #include <TopOpeBRep_FacesIntersector.hxx>

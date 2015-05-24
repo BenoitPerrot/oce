@@ -14,7 +14,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopoDS_TFace.ixx>
+#include <TopoDS_TShape.hxx>
+#include <TopoDS_TFace.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(TopoDS_TFace)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(TopoDS_TShape),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(TopoDS_TFace)
+IMPLEMENT_DOWNCAST(TopoDS_TFace,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(TopoDS_TFace)
 
 #include <TopAbs.hxx>
 

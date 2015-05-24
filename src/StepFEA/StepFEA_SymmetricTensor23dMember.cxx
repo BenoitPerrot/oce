@@ -15,7 +15,19 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V2.0
 
-#include <StepFEA_SymmetricTensor23dMember.ixx>
+#include <StepFEA_SymmetricTensor23dMember.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepFEA_SymmetricTensor23dMember)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepData_SelectArrReal),
+  STANDARD_TYPE(StepData_SelectNamed),
+  STANDARD_TYPE(StepData_SelectMember),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepFEA_SymmetricTensor23dMember)
+IMPLEMENT_DOWNCAST(StepFEA_SymmetricTensor23dMember,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepFEA_SymmetricTensor23dMember)
 #include <TCollection_HAsciiString.hxx>
 
 static Standard_CString IST = "ISOTROPIC_SYMMETRIC_TENSOR2_3D";

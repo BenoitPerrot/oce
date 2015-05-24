@@ -16,7 +16,21 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESDimen_DiameterDimension.ixx>
+#include <IGESDimen_GeneralNote.hxx>
+#include <IGESDimen_LeaderArrow.hxx>
+#include <gp_XY.hxx>
+#include <gp_Pnt2d.hxx>
+#include <IGESDimen_DiameterDimension.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESDimen_DiameterDimension)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IGESData_IGESEntity),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESDimen_DiameterDimension)
+IMPLEMENT_DOWNCAST(IGESDimen_DiameterDimension,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESDimen_DiameterDimension)
 #include <gp_XYZ.hxx>
 #include <gp_GTrsf.hxx>
 

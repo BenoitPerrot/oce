@@ -14,7 +14,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <DsgPrs_SymmetricPresentation.ixx>
+#include <Prs3d_Presentation.hxx>
+#include <Prs3d_Drawer.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Dir.hxx>
+#include <gp_Lin.hxx>
+#include <gp_Circ.hxx>
+#include <DsgPrs_SymmetricPresentation.hxx>
 
 #include <Precision.hxx>
 

@@ -13,7 +13,11 @@
 
 //:S4134: abv 03.03.99: implementation of PreDefinedColour modified
 
-#include <RWStepVisual_RWPreDefinedColour.ixx>
+#include <StepData_StepReaderData.hxx>
+#include <Interface_Check.hxx>
+#include <StepVisual_PreDefinedColour.hxx>
+#include <StepData_StepWriter.hxx>
+#include <RWStepVisual_RWPreDefinedColour.hxx>
 #include <StepVisual_PreDefinedItem.hxx>
 
 RWStepVisual_RWPreDefinedColour::RWStepVisual_RWPreDefinedColour () {}

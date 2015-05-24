@@ -15,7 +15,9 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
-#include <StepFEA_SymmetricTensor22d.ixx>
+#include <Standard_Transient.hxx>
+#include <TColStd_HArray1OfReal.hxx>
+#include <StepFEA_SymmetricTensor22d.hxx>
 
 #include <StepData_SelectArrReal.hxx>
 #include <TColStd_HSequenceOfReal.hxx>

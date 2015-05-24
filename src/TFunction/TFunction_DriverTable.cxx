@@ -14,7 +14,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TFunction_DriverTable.ixx>
+#include <TFunction_HArray1OfDataMapOfGUIDDriver.hxx>
+#include <Standard_GUID.hxx>
+#include <TFunction_Driver.hxx>
+#include <TFunction_DriverTable.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(TFunction_DriverTable)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(TFunction_DriverTable)
+IMPLEMENT_DOWNCAST(TFunction_DriverTable,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(TFunction_DriverTable)
 
 #include <TFunction_DataMapOfGUIDDriver.hxx>
 #include <TFunction_DataMapIteratorOfDataMapOfGUIDDriver.hxx>

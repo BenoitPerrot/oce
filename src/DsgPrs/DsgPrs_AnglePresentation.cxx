@@ -13,7 +13,14 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <DsgPrs_AnglePresentation.ixx>
+#include <Prs3d_Presentation.hxx>
+#include <Prs3d_Drawer.hxx>
+#include <TCollection_ExtendedString.hxx>
+#include <gp_Circ.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Dir.hxx>
+#include <gp_Ax1.hxx>
+#include <DsgPrs_AnglePresentation.hxx>
 #include <gp_Lin.hxx>
 #include <gp_Dir.hxx>
 #include <ElCLib.hxx>

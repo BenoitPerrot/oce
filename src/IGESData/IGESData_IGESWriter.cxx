@@ -11,7 +11,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IGESData_IGESWriter.ixx>
+#include <IGESData_IGESModel.hxx>
+#include <TColStd_HSequenceOfHAsciiString.hxx>
+#include <Interface_InterfaceMismatch.hxx>
+#include <Interface_FloatWriter.hxx>
+#include <IGESData_Protocol.hxx>
+#include <IGESData_GlobalSection.hxx>
+#include <IGESData_IGESEntity.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <gp_XY.hxx>
+#include <gp_XYZ.hxx>
+#include <IGESData_IGESWriter.hxx>
 #include <IGESData_DefType.hxx>
 #include <IGESData_DirPart.hxx>
 #include <Interface_ParamSet.hxx>

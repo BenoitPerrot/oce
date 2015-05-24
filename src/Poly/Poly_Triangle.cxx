@@ -14,7 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Poly_Triangle.ixx>
+#include <Standard_OutOfRange.hxx>
+#include <Poly_Triangle.hxx>
 
 //=======================================================================
 //function : Poly_Triangle

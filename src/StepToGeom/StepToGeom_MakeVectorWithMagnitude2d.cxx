@@ -16,7 +16,9 @@
 
 // sln 23.10.2001. CTS23496: Vector is not created if direction have not been succesfully created (StepToGeom_MakeVectorWithMagnitude2d(...) function)
 
-#include <StepToGeom_MakeVectorWithMagnitude2d.ixx>
+#include <StepGeom_Vector.hxx>
+#include <Geom2d_VectorWithMagnitude.hxx>
+#include <StepToGeom_MakeVectorWithMagnitude2d.hxx>
 #include <StepGeom_Vector.hxx>
 #include <StepGeom_Direction.hxx>
 #include <StepToGeom_MakeDirection2d.hxx>

@@ -12,7 +12,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PPoly_Triangulation.ixx>
+#include <PColgp_HArray1OfPnt.hxx>
+#include <PColgp_HArray1OfPnt2d.hxx>
+#include <PPoly_HArray1OfTriangle.hxx>
+#include <PPoly_Triangulation.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(PPoly_Triangulation)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Standard_Persistent),
+  STANDARD_TYPE(Standard_Storable),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(PPoly_Triangulation)
+IMPLEMENT_DOWNCAST(PPoly_Triangulation,Standard_Persistent)
+IMPLEMENT_STANDARD_RTTI(PPoly_Triangulation)
 
 //=======================================================================
 //function :

@@ -13,7 +13,32 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Graphic3d_Structure.ixx>
+#include <Graphic3d_PriorityDefinitionError.hxx>
+#include <Graphic3d_StructureDefinitionError.hxx>
+#include <Graphic3d_TransformError.hxx>
+#include <Graphic3d_Group.hxx>
+#include <Graphic3d_StructureManager.hxx>
+#include <Quantity_Color.hxx>
+#include <Graphic3d_AspectLine3d.hxx>
+#include <Graphic3d_AspectFillArea3d.hxx>
+#include <Graphic3d_AspectText3d.hxx>
+#include <Graphic3d_AspectMarker3d.hxx>
+#include <Graphic3d_DataStructureManager.hxx>
+#include <TColStd_Array2OfReal.hxx>
+#include <Bnd_Box.hxx>
+#include <Graphic3d_MapOfStructure.hxx>
+#include <gp_Pnt.hxx>
+#include <Graphic3d_Vector.hxx>
+#include <Graphic3d_Structure.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Graphic3d_Structure)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Graphic3d_Structure)
+IMPLEMENT_DOWNCAST(Graphic3d_Structure,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Graphic3d_Structure)
 #include <Graphic3d_Structure.pxx>
 
 #include <Graphic3d_GraphicDriver.hxx>

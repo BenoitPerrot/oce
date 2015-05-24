@@ -15,7 +15,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 //
-#include <BOPAlgo_BuilderSolid.ixx>
+#include <TopoDS_Solid.hxx>
+#include <BOPAlgo_BuilderSolid.hxx>
 //
 #include <NCollection_List.hxx>
 #include <NCollection_DataMap.hxx>

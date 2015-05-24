@@ -16,7 +16,25 @@
 
 //GER61351		//GG_171199     Enable to set an object RGB color instead a restricted object NameOfColor.
 
-#include <AIS_Circle.ixx>
+#include <Geom_Circle.hxx>
+#include <Prs3d_Presentation.hxx>
+#include <Prs3d_Projector.hxx>
+#include <Geom_Transformation.hxx>
+#include <SelectMgr_Selection.hxx>
+#include <Quantity_Color.hxx>
+#include <AIS_Circle.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(AIS_Circle)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(AIS_InteractiveObject),
+  STANDARD_TYPE(SelectMgr_SelectableObject),
+  STANDARD_TYPE(PrsMgr_PresentableObject),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(AIS_Circle)
+IMPLEMENT_DOWNCAST(AIS_Circle,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(AIS_Circle)
 #include <Aspect_TypeOfLine.hxx>
 #include <Prs3d_Drawer.hxx>
 #include <Prs3d_LineAspect.hxx>

@@ -11,7 +11,23 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepAP209_Construct.ixx>
+#include <XSControl_WorkSession.hxx>
+#include <StepBasic_ProductDefinitionFormation.hxx>
+#include <StepFEA_FeaModel.hxx>
+#include <StepBasic_Product.hxx>
+#include <StepFEA_FeaAxis2Placement3d.hxx>
+#include <StepShape_ShapeRepresentation.hxx>
+#include <StepElement_HSequenceOfElementMaterial.hxx>
+#include <StepFEA_HSequenceOfElementGeometricRelationship.hxx>
+#include <StepFEA_HSequenceOfElementRepresentation.hxx>
+#include <Standard_Type.hxx>
+#include <StepElement_HSequenceOfCurveElementSectionDefinition.hxx>
+#include <StepFEA_Curve3dElementRepresentation.hxx>
+#include <StepFEA_ElementRepresentation.hxx>
+#include <StepBasic_ProductDefinition.hxx>
+#include <StepData_StepModel.hxx>
+#include <StepRepr_ProductDefinitionShape.hxx>
+#include <StepAP209_Construct.hxx>
 
 #include <Interface_EntityIterator.hxx>
 #include <Interface_HArray1OfHAsciiString.hxx>

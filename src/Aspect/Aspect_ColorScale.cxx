@@ -13,7 +13,21 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Aspect_ColorScale.ixx>
+#include <Quantity_Color.hxx>
+#include <TCollection_ExtendedString.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <TColStd_SequenceOfExtendedString.hxx>
+#include <Aspect_SequenceOfColor.hxx>
+#include <Aspect_ColorScale.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Aspect_ColorScale)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Aspect_ColorScale)
+IMPLEMENT_DOWNCAST(Aspect_ColorScale,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Aspect_ColorScale)
 
 #include <Aspect_SequenceOfColor.hxx>
 #include <Aspect_TypeOfColorScaleData.hxx>

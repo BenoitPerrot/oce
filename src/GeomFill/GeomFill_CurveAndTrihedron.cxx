@@ -14,7 +14,27 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomFill_CurveAndTrihedron.ixx>
+#include <GeomFill_TrihedronLaw.hxx>
+#include <Adaptor3d_HCurve.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <gp_Mat.hxx>
+#include <GeomFill_LocationLaw.hxx>
+#include <gp_Vec.hxx>
+#include <TColgp_Array1OfPnt2d.hxx>
+#include <TColgp_Array1OfVec2d.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <gp_Pnt.hxx>
+#include <GeomFill_CurveAndTrihedron.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(GeomFill_CurveAndTrihedron)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(GeomFill_LocationLaw),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(GeomFill_CurveAndTrihedron)
+IMPLEMENT_DOWNCAST(GeomFill_CurveAndTrihedron,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(GeomFill_CurveAndTrihedron)
 #include <GeomLib.hxx>
 #include <gp_Circ.hxx>
 #include <TColStd_SequenceOfReal.hxx> 

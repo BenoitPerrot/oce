@@ -14,7 +14,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <ChFiDS_ChamfSpine.ixx>
+#include <ChFiDS_ChamfSpine.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(ChFiDS_ChamfSpine)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(ChFiDS_Spine),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(ChFiDS_ChamfSpine)
+IMPLEMENT_DOWNCAST(ChFiDS_ChamfSpine,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(ChFiDS_ChamfSpine)
 #include <TColStd_HArray1OfBoolean.hxx>
 
 //=======================================================================

@@ -13,7 +13,31 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <MeshVS_SensitivePolyhedron.ixx>
+#include <TColgp_HArray1OfPnt.hxx>
+#include <TColgp_HArray1OfPnt2d.hxx>
+#include <MeshVS_HArray1OfSequenceOfInteger.hxx>
+#include <SelectBasics_EntityOwner.hxx>
+#include <TColgp_Array1OfPnt.hxx>
+#include <Select3D_Projector.hxx>
+#include <Select3D_SensitiveEntity.hxx>
+#include <TopLoc_Location.hxx>
+#include <TColgp_Array1OfPnt2d.hxx>
+#include <Bnd_Box2d.hxx>
+#include <TColStd_SequenceOfInteger.hxx>
+#include <gp_Lin.hxx>
+#include <SelectBasics_ListOfBox2d.hxx>
+#include <MeshVS_SensitivePolyhedron.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(MeshVS_SensitivePolyhedron)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Select3D_SensitiveEntity),
+  STANDARD_TYPE(SelectBasics_SensitiveEntity),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(MeshVS_SensitivePolyhedron)
+IMPLEMENT_DOWNCAST(MeshVS_SensitivePolyhedron,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(MeshVS_SensitivePolyhedron)
 
 #include <MeshVS_Tool.hxx>
 #include <CSLib_Class2d.hxx>

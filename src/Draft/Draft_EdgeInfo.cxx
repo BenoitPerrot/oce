@@ -14,7 +14,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Draft_EdgeInfo.ixx>
+#include <Geom_Curve.hxx>
+#include <Geom2d_Curve.hxx>
+#include <Standard_DomainError.hxx>
+#include <TopoDS_Face.hxx>
+#include <gp_Pnt.hxx>
+#include <Draft_EdgeInfo.hxx>
 
 #include <Standard_DomainError.hxx>
 #include <BRep_Tool.hxx>

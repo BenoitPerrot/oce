@@ -13,7 +13,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <XmlMFunction_GraphNodeDriver.ixx>
+#include <CDM_MessageDriver.hxx>
+#include <TDF_Attribute.hxx>
+#include <XmlObjMgt_Persistent.hxx>
+#include <XmlMFunction_GraphNodeDriver.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(XmlMFunction_GraphNodeDriver)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(XmlMDF_ADriver),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(XmlMFunction_GraphNodeDriver)
+IMPLEMENT_DOWNCAST(XmlMFunction_GraphNodeDriver,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(XmlMFunction_GraphNodeDriver)
 #include <XmlObjMgt.hxx>
 
 #include <TFunction_GraphNode.hxx>

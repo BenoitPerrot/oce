@@ -16,7 +16,17 @@
 
 //=======================================================================
 
-#include <StlMesh_MeshTriangle.ixx>
+#include <Standard_NegativeValue.hxx>
+#include <StlMesh_MeshTriangle.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StlMesh_MeshTriangle)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StlMesh_MeshTriangle)
+IMPLEMENT_DOWNCAST(StlMesh_MeshTriangle,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StlMesh_MeshTriangle)
 #include <Precision.hxx>
 #include <gp_XYZ.hxx>
 

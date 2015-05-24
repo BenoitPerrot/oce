@@ -18,7 +18,11 @@
 // a point and non-infinite lines passing throught this point:
 #define OCC64 
 
-#include <StdPrs_Curve.ixx>
+#include <Prs3d_Presentation.hxx>
+#include <Adaptor3d_Curve.hxx>
+#include <Prs3d_Drawer.hxx>
+#include <TColgp_SequenceOfPnt.hxx>
+#include <StdPrs_Curve.hxx>
 
 #include <Graphic3d_ArrayOfSegments.hxx>
 #include <Graphic3d_ArrayOfPolylines.hxx>

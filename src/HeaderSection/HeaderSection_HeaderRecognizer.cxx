@@ -14,7 +14,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <HeaderSection_HeaderRecognizer.ixx>
+#include <TCollection_AsciiString.hxx>
+#include <HeaderSection_HeaderRecognizer.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(HeaderSection_HeaderRecognizer)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepData_FileRecognizer),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(HeaderSection_HeaderRecognizer)
+IMPLEMENT_DOWNCAST(HeaderSection_HeaderRecognizer,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(HeaderSection_HeaderRecognizer)
 
 #include <HeaderSection_FileName.hxx>
 #include <HeaderSection_FileSchema.hxx>

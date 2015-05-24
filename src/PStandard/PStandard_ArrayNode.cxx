@@ -12,7 +12,16 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PStandard_ArrayNode.ixx>
+#include <PStandard_ArrayNode.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(PStandard_ArrayNode)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Standard_Persistent),
+  STANDARD_TYPE(Standard_Storable),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(PStandard_ArrayNode)
+IMPLEMENT_DOWNCAST(PStandard_ArrayNode,Standard_Persistent)
+IMPLEMENT_STANDARD_RTTI(PStandard_ArrayNode)
 
 PStandard_ArrayNode::PStandard_ArrayNode()
 {

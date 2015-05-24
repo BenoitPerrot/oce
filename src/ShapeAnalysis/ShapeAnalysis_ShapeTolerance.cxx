@@ -13,7 +13,9 @@
 
 //#76 rln 11.03.99 S4135: compute average without weights according to tolerances
 //szv#4 S4163
-#include <ShapeAnalysis_ShapeTolerance.ixx>
+#include <TopoDS_Shape.hxx>
+#include <TopTools_HSequenceOfShape.hxx>
+#include <ShapeAnalysis_ShapeTolerance.hxx>
 
 #include <BRep_Tool.hxx>
 

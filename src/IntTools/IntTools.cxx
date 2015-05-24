@@ -13,7 +13,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IntTools.ixx>
+#include <TopoDS_Edge.hxx>
+#include <IntTools_SequenceOfRoots.hxx>
+#include <gp_Pnt.hxx>
+#include <Geom_Curve.hxx>
+#include <BRepAdaptor_Curve.hxx>
+#include <IntTools_CArray1OfReal.hxx>
+#include <IntTools.hxx>
 #include <GProp_GProps.hxx>
 #include <BRepGProp.hxx>
 #include <BRep_Tool.hxx>

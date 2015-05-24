@@ -17,7 +17,13 @@
 //                and MAKING ANGLE A with a STRAIGHT LINE.                   +
 //=========================================================================
 
-#include <GccAna_Lin2dTanObl.ixx>
+#include <Standard_OutOfRange.hxx>
+#include <GccEnt_BadQualifier.hxx>
+#include <StdFail_NotDone.hxx>
+#include <gp_Pnt2d.hxx>
+#include <gp_Lin2d.hxx>
+#include <GccEnt_QualifiedCirc.hxx>
+#include <GccAna_Lin2dTanObl.hxx>
 
 #include <ElCLib.hxx>
 #include <StdFail_NotDone.hxx>

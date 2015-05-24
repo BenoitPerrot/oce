@@ -16,7 +16,8 @@
 // Created: Thu Jan 16 08:33:50 2014
 // <pkv@PETREX>
 
-#include <BOPAlgo_ShellSplitter.ixx>
+#include <TopoDS_Shape.hxx>
+#include <BOPAlgo_ShellSplitter.hxx>
 //
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Shell.hxx>

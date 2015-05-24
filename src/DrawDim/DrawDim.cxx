@@ -14,7 +14,14 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <DrawDim.ixx>
+#include <TopoDS_Shape.hxx>
+#include <gp_Pnt.hxx>
+#include <TopoDS_Edge.hxx>
+#include <gp_Lin.hxx>
+#include <gp_Circ.hxx>
+#include <TopoDS_Face.hxx>
+#include <gp_Pln.hxx>
+#include <DrawDim.hxx>
 
 #include <Draw_Text3D.hxx>
 #include <gp_Pnt.hxx>  

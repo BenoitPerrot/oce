@@ -18,7 +18,10 @@
 
 
 
-#include <AIS_GraphicTool.ixx>
+#include <Prs3d_Drawer.hxx>
+#include <Quantity_Color.hxx>
+#include <Graphic3d_MaterialAspect.hxx>
+#include <AIS_GraphicTool.hxx>
 
 
 #include <Quantity_Color.hxx>

@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepAP214_SecurityClassificationItem.ixx>
+#include <StepAP214_SecurityClassificationItem.hxx>
 #include <Interface_Macros.hxx>
 
 StepAP214_SecurityClassificationItem::StepAP214_SecurityClassificationItem () {  }

@@ -55,7 +55,27 @@
  */
 
 // for the class
-#include <Visual3d_ViewManager.ixx>
+#include <Visual3d_Layer.hxx>
+#include <Graphic3d_GraphicDriver.hxx>
+#include <Visual3d_View.hxx>
+#include <Visual3d_HSequenceOfView.hxx>
+#include <Graphic3d_Structure.hxx>
+#include <TColStd_SequenceOfInteger.hxx>
+#include <Aspect_GenId.hxx>
+#include <TColStd_Array2OfReal.hxx>
+#include <Aspect_Window.hxx>
+#include <Graphic3d_DataStructureManager.hxx>
+#include <Visual3d_ViewManager.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Visual3d_ViewManager)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Graphic3d_StructureManager),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Visual3d_ViewManager)
+IMPLEMENT_DOWNCAST(Visual3d_ViewManager,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Visual3d_ViewManager)
 
 #include <Standard_ErrorHandler.hxx>
 

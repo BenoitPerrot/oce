@@ -14,7 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopOpeBRepTool_AncestorsTool.ixx>
+#include <TopoDS_Shape.hxx>
+#include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
+#include <TopOpeBRepTool_AncestorsTool.hxx>
 
 #include <TopAbs.hxx>
 #include <TopExp.hxx>

@@ -11,7 +11,24 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepData_Plex.ixx>
+#include <Interface_InterfaceMismatch.hxx>
+#include <StepData_ECDescr.hxx>
+#include <StepData_Simple.hxx>
+#include <StepData_Field.hxx>
+#include <TColStd_HSequenceOfAsciiString.hxx>
+#include <Interface_Check.hxx>
+#include <Interface_EntityIterator.hxx>
+#include <StepData_Plex.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepData_Plex)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepData_Described),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepData_Plex)
+IMPLEMENT_DOWNCAST(StepData_Plex,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepData_Plex)
 #include <TCollection_AsciiString.hxx>
 #include <Interface_InterfaceMismatch.hxx>
 

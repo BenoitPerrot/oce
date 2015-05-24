@@ -11,7 +11,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepData_DescrProtocol.ixx>
+#include <StepData_DescrProtocol.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepData_DescrProtocol)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepData_FileProtocol),
+  STANDARD_TYPE(StepData_Protocol),
+  STANDARD_TYPE(Interface_Protocol),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepData_DescrProtocol)
+IMPLEMENT_DOWNCAST(StepData_DescrProtocol,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepData_DescrProtocol)
 #include <StepData_DescrGeneral.hxx>
 #include <StepData_DescrReadWrite.hxx>
 #include <Interface_GeneralLib.hxx>

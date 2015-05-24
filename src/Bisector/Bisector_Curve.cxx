@@ -14,4 +14,16 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Bisector_Curve.ixx>
+#include <gp_Pnt2d.hxx>
+#include <Bisector_Curve.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Bisector_Curve)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Geom2d_Curve),
+  STANDARD_TYPE(Geom2d_Geometry),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Bisector_Curve)
+IMPLEMENT_DOWNCAST(Bisector_Curve,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Bisector_Curve)

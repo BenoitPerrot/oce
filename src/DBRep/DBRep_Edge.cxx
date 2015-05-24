@@ -14,7 +14,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <DBRep_Edge.ixx>
+#include <TopoDS_Edge.hxx>
+#include <Draw_Color.hxx>
+#include <DBRep_Edge.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(DBRep_Edge)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(DBRep_Edge)
+IMPLEMENT_DOWNCAST(DBRep_Edge,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(DBRep_Edge)
 
 //=======================================================================
 //function : DBRep_Edge

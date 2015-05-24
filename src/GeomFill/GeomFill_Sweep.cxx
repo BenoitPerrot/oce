@@ -16,7 +16,16 @@
 
 //  Modified by skv - Fri Feb  6 11:44:48 2004 OCC5073
 
-#include <GeomFill_Sweep.ixx>
+#include <GeomFill_LocationLaw.hxx>
+#include <GeomFill_SectionLaw.hxx>
+#include <Geom_Surface.hxx>
+#include <TColGeom2d_HArray1OfCurve.hxx>
+#include <TColStd_HArray2OfReal.hxx>
+#include <StdFail_NotDone.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Standard_ConstructionError.hxx>
+#include <Geom2d_Curve.hxx>
+#include <GeomFill_Sweep.hxx>
 #include <GeomFill_SweepFunction.hxx>
 #include <GeomFill_LocFunction.hxx>
 

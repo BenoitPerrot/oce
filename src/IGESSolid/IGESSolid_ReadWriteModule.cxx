@@ -11,7 +11,23 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IGESSolid_ReadWriteModule.ixx>
+#include <Standard_DomainError.hxx>
+#include <IGESData_IGESEntity.hxx>
+#include <IGESData_IGESReaderData.hxx>
+#include <IGESData_ParamReader.hxx>
+#include <IGESData_IGESWriter.hxx>
+#include <IGESSolid_ReadWriteModule.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESSolid_ReadWriteModule)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IGESData_ReadWriteModule),
+  STANDARD_TYPE(Interface_ReaderModule),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESSolid_ReadWriteModule)
+IMPLEMENT_DOWNCAST(IGESSolid_ReadWriteModule,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESSolid_ReadWriteModule)
 #include <Interface_Macros.hxx>
 
 #include <IGESSolid_Block.hxx>

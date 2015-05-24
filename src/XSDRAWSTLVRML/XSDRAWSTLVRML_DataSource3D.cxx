@@ -13,7 +13,23 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <XSDRAWSTLVRML_DataSource3D.ixx>
+#include <TColStd_HArray1OfInteger.hxx>
+#include <TColStd_HArray2OfReal.hxx>
+#include <TColStd_HArray2OfInteger.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <MeshVS_HArray1OfSequenceOfInteger.hxx>
+#include <TColStd_Array1OfInteger.hxx>
+#include <XSDRAWSTLVRML_DataSource3D.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(XSDRAWSTLVRML_DataSource3D)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MeshVS_DataSource),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(XSDRAWSTLVRML_DataSource3D)
+IMPLEMENT_DOWNCAST(XSDRAWSTLVRML_DataSource3D,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(XSDRAWSTLVRML_DataSource3D)
 
 #include <StlMesh_SequenceOfMeshTriangle.hxx>
 #include <StlMesh_MeshTriangle.hxx>

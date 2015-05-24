@@ -11,7 +11,23 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepShape_MeasureRepresentationItemAndQualifiedRepresentationItem.ixx>
+#include <StepBasic_MeasureWithUnit.hxx>
+#include <StepShape_HArray1OfValueQualifier.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepBasic_MeasureValueMember.hxx>
+#include <StepBasic_Unit.hxx>
+#include <StepShape_ValueQualifier.hxx>
+#include <StepShape_MeasureRepresentationItemAndQualifiedRepresentationItem.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepShape_MeasureRepresentationItemAndQualifiedRepresentationItem)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepRepr_RepresentationItem),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepShape_MeasureRepresentationItemAndQualifiedRepresentationItem)
+IMPLEMENT_DOWNCAST(StepShape_MeasureRepresentationItemAndQualifiedRepresentationItem,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepShape_MeasureRepresentationItemAndQualifiedRepresentationItem)
 
 StepShape_MeasureRepresentationItemAndQualifiedRepresentationItem::StepShape_MeasureRepresentationItemAndQualifiedRepresentationItem  ()
 {

@@ -17,7 +17,12 @@
 //:n3 abv 8 Feb 99: PRO17820: BRepTools::OuterWire() -> ShapeAnalysis::OuterWire
 //szv#4 S4163
 
-#include <BRepToIGES_BRShell.ixx>
+#include <BRepToIGES_BREntity.hxx>
+#include <IGESData_IGESEntity.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopoDS_Shell.hxx>
+#include <TopoDS_Face.hxx>
+#include <BRepToIGES_BRShell.hxx>
 #include <BRepToIGES_BRWire.hxx>
 
 #include <BRep_Tool.hxx>

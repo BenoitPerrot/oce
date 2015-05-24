@@ -11,7 +11,24 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IFSelect_ShareOut.ixx>
+#include <TCollection_HAsciiString.hxx>
+#include <Interface_InterfaceError.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Standard_Transient.hxx>
+#include <IFSelect_Dispatch.hxx>
+#include <IFSelect_GeneralModifier.hxx>
+#include <IFSelect_Modifier.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <IFSelect_ShareOut.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IFSelect_ShareOut)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IFSelect_ShareOut)
+IMPLEMENT_DOWNCAST(IFSelect_ShareOut,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IFSelect_ShareOut)
 #include <Interface_InterfaceError.hxx>
 #include <Interface_Macros.hxx>
 #include <stdio.h>

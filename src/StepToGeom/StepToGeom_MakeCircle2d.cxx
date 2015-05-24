@@ -14,7 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepToGeom_MakeCircle2d.ixx>
+#include <StepGeom_Circle.hxx>
+#include <Geom2d_Circle.hxx>
+#include <StepToGeom_MakeCircle2d.hxx>
 #include <StepGeom_Circle.hxx>
 #include <StepGeom_Axis2Placement2d.hxx>
 #include <Geom2d_AxisPlacement.hxx>

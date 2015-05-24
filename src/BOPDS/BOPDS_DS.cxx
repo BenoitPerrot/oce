@@ -12,7 +12,14 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BOPDS_DS.ixx>
+#include <BOPDS_IndexRange.hxx>
+#include <BOPDS_ShapeInfo.hxx>
+#include <TopoDS_Shape.hxx>
+#include <BOPDS_PaveBlock.hxx>
+#include <BOPDS_CommonBlock.hxx>
+#include <BOPDS_FaceInfo.hxx>
+#include <Bnd_Box.hxx>
+#include <BOPDS_DS.hxx>
 //
 #include <Standard_Assert.hxx>
 //

@@ -13,7 +13,36 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TDataStd_NamedData.ixx>
+#include <TDataStd_HDataMapOfStringInteger.hxx>
+#include <TDataStd_HDataMapOfStringReal.hxx>
+#include <TDataStd_HDataMapOfStringString.hxx>
+#include <TDataStd_HDataMapOfStringByte.hxx>
+#include <TDataStd_HDataMapOfStringHArray1OfInteger.hxx>
+#include <TDataStd_HDataMapOfStringHArray1OfReal.hxx>
+#include <Standard_GUID.hxx>
+#include <TDF_Label.hxx>
+#include <TCollection_ExtendedString.hxx>
+#include <TColStd_DataMapOfStringInteger.hxx>
+#include <TDataStd_DataMapOfStringReal.hxx>
+#include <TDataStd_DataMapOfStringString.hxx>
+#include <TDataStd_DataMapOfStringByte.hxx>
+#include <TColStd_HArray1OfInteger.hxx>
+#include <TDataStd_DataMapOfStringHArray1OfInteger.hxx>
+#include <TColStd_HArray1OfReal.hxx>
+#include <TDataStd_DataMapOfStringHArray1OfReal.hxx>
+#include <TDF_Attribute.hxx>
+#include <TDF_RelocationTable.hxx>
+#include <TDataStd_NamedData.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(TDataStd_NamedData)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(TDF_Attribute),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(TDataStd_NamedData)
+IMPLEMENT_DOWNCAST(TDataStd_NamedData,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(TDataStd_NamedData)
 
 #include <TColStd_DataMapIteratorOfDataMapOfStringInteger.hxx>
 #include <TDataStd_DataMapIteratorOfDataMapOfStringReal.hxx>

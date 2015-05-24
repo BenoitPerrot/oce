@@ -15,7 +15,28 @@
 // commercial license or contractual agreement.
 
 #include <GeomAbs_CurveType.hxx>
-#include <Geom_SurfaceOfLinearExtrusion.ixx>
+#include <Standard_RangeError.hxx>
+#include <Geom_UndefinedDerivative.hxx>
+#include <Geom_Curve.hxx>
+#include <gp_Dir.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Vec.hxx>
+#include <gp_Trsf.hxx>
+#include <gp_GTrsf2d.hxx>
+#include <Geom_Geometry.hxx>
+#include <Geom_SurfaceOfLinearExtrusion.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Geom_SurfaceOfLinearExtrusion)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Geom_SweptSurface),
+  STANDARD_TYPE(Geom_Surface),
+  STANDARD_TYPE(Geom_Geometry),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Geom_SurfaceOfLinearExtrusion)
+IMPLEMENT_DOWNCAST(Geom_SurfaceOfLinearExtrusion,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Geom_SurfaceOfLinearExtrusion)
 #include <Precision.hxx>
 #include <gp.hxx>
 #include <gp_Ax2d.hxx>

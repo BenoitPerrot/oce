@@ -16,7 +16,21 @@
 
 //    gka  01.06.99 S4205: changing order of splitting surface/curves for converting to bezier
 
-#include <ShapeUpgrade_FaceDivide.ixx>
+#include <ShapeUpgrade_SplitSurface.hxx>
+#include <ShapeUpgrade_WireDivide.hxx>
+#include <TopoDS_Face.hxx>
+#include <TopoDS_Shape.hxx>
+#include <ShapeUpgrade_FaceDivide.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(ShapeUpgrade_FaceDivide)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(ShapeUpgrade_Tool),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(ShapeUpgrade_FaceDivide)
+IMPLEMENT_DOWNCAST(ShapeUpgrade_FaceDivide,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_FaceDivide)
 #include <Precision.hxx>
 #include <ShapeExtend.hxx>
 #include <ShapeBuild_Edge.hxx>

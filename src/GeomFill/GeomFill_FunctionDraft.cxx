@@ -14,7 +14,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomFill_FunctionDraft.ixx>
+#include <Adaptor3d_HCurve.hxx>
+#include <Adaptor3d_HSurface.hxx>
+#include <math_Matrix.hxx>
+#include <gp_Vec.hxx>
+#include <GeomFill_Tensor.hxx>
+#include <GeomFill_FunctionDraft.hxx>
 #include <GeomAdaptor_HSurface.hxx>
 #include <GeomAdaptor_HCurve.hxx>
 //#include <Precision.hxx>

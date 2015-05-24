@@ -14,7 +14,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <LocalAnalysis_SurfaceContinuity.ixx>
+#include <StdFail_NotDone.hxx>
+#include <Geom_Surface.hxx>
+#include <Geom2d_Curve.hxx>
+#include <GeomLProp_SLProps.hxx>
+#include <LocalAnalysis_SurfaceContinuity.hxx>
 #include <GeomLProp_SLProps.hxx>
 #include <gp.hxx>
 #include <gp_Pnt.hxx>

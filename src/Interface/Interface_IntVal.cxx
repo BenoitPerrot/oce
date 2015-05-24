@@ -11,7 +11,16 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Interface_IntVal.ixx>
+#include <Interface_IntVal.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Interface_IntVal)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Interface_IntVal)
+IMPLEMENT_DOWNCAST(Interface_IntVal,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Interface_IntVal)
 
 Interface_IntVal::Interface_IntVal  ()    {  theval = 0;  }
 

@@ -14,7 +14,16 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <CDM_NullMessageDriver.ixx>
+#include <CDM_NullMessageDriver.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(CDM_NullMessageDriver)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(CDM_MessageDriver),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(CDM_NullMessageDriver)
+IMPLEMENT_DOWNCAST(CDM_NullMessageDriver,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(CDM_NullMessageDriver)
 #include <TCollection_ExtendedString.hxx>
 CDM_NullMessageDriver::CDM_NullMessageDriver() {}
 

@@ -11,7 +11,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepData_FieldListD.ixx>
+#include <StepData_HArray1OfField.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <StepData_Field.hxx>
+#include <StepData_FieldListD.hxx>
 #include <Standard_OutOfRange.hxx>
 
 

@@ -15,7 +15,12 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
-#include <RWStepBasic_RWDocumentProductEquivalence.ixx>
+#include <StepData_StepReaderData.hxx>
+#include <Interface_Check.hxx>
+#include <StepBasic_DocumentProductEquivalence.hxx>
+#include <StepData_StepWriter.hxx>
+#include <Interface_EntityIterator.hxx>
+#include <RWStepBasic_RWDocumentProductEquivalence.hxx>
 
 //=======================================================================
 //function : RWStepBasic_RWDocumentProductEquivalence

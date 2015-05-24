@@ -11,7 +11,25 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepData_ReadWriteModule.ixx>
+#include <Standard_DomainError.hxx>
+#include <Interface_FileReaderData.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <TColStd_SequenceOfAsciiString.hxx>
+#include <Interface_Check.hxx>
+#include <Standard_Transient.hxx>
+#include <StepData_StepReaderData.hxx>
+#include <StepData_StepWriter.hxx>
+#include <StepData_ReadWriteModule.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepData_ReadWriteModule)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Interface_ReaderModule),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepData_ReadWriteModule)
+IMPLEMENT_DOWNCAST(StepData_ReadWriteModule,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepData_ReadWriteModule)
 #include <StepData_StepReaderData.hxx>
 #include <Interface_Macros.hxx>
 

@@ -30,7 +30,25 @@
 #include <Geom2d_Circle.hxx>
 #endif
 
-#include <MAT2d_Circuit.ixx>
+#include <MAT2d_SequenceOfSequenceOfGeometry.hxx>
+#include <TColStd_SequenceOfBoolean.hxx>
+#include <Geom2d_Geometry.hxx>
+#include <MAT2d_Connexion.hxx>
+#include <TColGeom2d_SequenceOfGeometry.hxx>
+#include <MAT2d_BiInt.hxx>
+#include <MAT2d_SequenceOfConnexion.hxx>
+#include <MAT2d_MiniPath.hxx>
+#include <TColStd_SequenceOfInteger.hxx>
+#include <MAT2d_Circuit.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(MAT2d_Circuit)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(MAT2d_Circuit)
+IMPLEMENT_DOWNCAST(MAT2d_Circuit,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(MAT2d_Circuit)
 #include <Geom2d_TrimmedCurve.hxx>
 #include <Geom2d_CartesianPoint.hxx>
 #include <Geom2d_Geometry.hxx>      

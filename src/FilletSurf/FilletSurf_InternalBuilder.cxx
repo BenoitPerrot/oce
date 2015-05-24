@@ -12,7 +12,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <FilletSurf_InternalBuilder.ixx>
+#include <TopoDS_Shape.hxx>
+#include <TopTools_ListOfShape.hxx>
+#include <ChFiDS_SequenceOfSurfData.hxx>
+#include <ChFiDS_HElSpine.hxx>
+#include <ChFiDS_Spine.hxx>
+#include <BRepAdaptor_HSurface.hxx>
+#include <Adaptor3d_TopolTool.hxx>
+#include <BRepAdaptor_HCurve2d.hxx>
+#include <Geom_Surface.hxx>
+#include <TopoDS_Face.hxx>
+#include <Geom_Curve.hxx>
+#include <Geom2d_Curve.hxx>
+#include <Geom_TrimmedCurve.hxx>
+#include <FilletSurf_InternalBuilder.hxx>
 #include <FilletSurf_StatusDone.hxx>
 #include <FilletSurf_ErrorTypeStatus.hxx>
 #include <FilletSurf_StatusType.hxx>

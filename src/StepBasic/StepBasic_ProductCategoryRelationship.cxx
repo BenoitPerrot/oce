@@ -16,7 +16,18 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.0
 
-#include <StepBasic_ProductCategoryRelationship.ixx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepBasic_ProductCategory.hxx>
+#include <StepBasic_ProductCategoryRelationship.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepBasic_ProductCategoryRelationship)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepBasic_ProductCategoryRelationship)
+IMPLEMENT_DOWNCAST(StepBasic_ProductCategoryRelationship,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepBasic_ProductCategoryRelationship)
 
 //=======================================================================
 //function : StepBasic_ProductCategoryRelationship

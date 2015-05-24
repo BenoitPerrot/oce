@@ -21,7 +21,15 @@
 
 
 
-#include <TDF_Tool.ixx>
+#include <TDF_Label.hxx>
+#include <TDF_IDFilter.hxx>
+#include <TDF_AttributeMap.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <TColStd_ListOfInteger.hxx>
+#include <TDF_Data.hxx>
+#include <TDF_LabelList.hxx>
+#include <TDF_LabelIntegerMap.hxx>
+#include <TDF_Tool.hxx>
 
 #include <TDF_MapIteratorOfLabelMap.hxx>
 #include <TDF_MapIteratorOfAttributeMap.hxx>

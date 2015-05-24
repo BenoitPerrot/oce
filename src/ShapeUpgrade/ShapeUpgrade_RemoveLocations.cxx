@@ -11,7 +11,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <ShapeUpgrade_RemoveLocations.ixx>
+#include <TopoDS_Shape.hxx>
+#include <ShapeUpgrade_RemoveLocations.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(ShapeUpgrade_RemoveLocations)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(ShapeUpgrade_RemoveLocations)
+IMPLEMENT_DOWNCAST(ShapeUpgrade_RemoveLocations,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_RemoveLocations)
 #include <TopAbs_ShapeEnum.hxx>
 #include <TopLoc_Location.hxx>
 #include <TopoDS_Face.hxx>

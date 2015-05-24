@@ -15,7 +15,20 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.1
 
-#include <StepGeom_OrientedSurface.ixx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepGeom_OrientedSurface.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepGeom_OrientedSurface)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepGeom_Surface),
+  STANDARD_TYPE(StepGeom_GeometricRepresentationItem),
+  STANDARD_TYPE(StepRepr_RepresentationItem),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepGeom_OrientedSurface)
+IMPLEMENT_DOWNCAST(StepGeom_OrientedSurface,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepGeom_OrientedSurface)
 
 //=======================================================================
 //function : StepGeom_OrientedSurface

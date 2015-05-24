@@ -14,7 +14,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <LocOpe.ixx>
+#include <TopoDS_Wire.hxx>
+#include <TopoDS_Face.hxx>
+#include <TopoDS_Edge.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TColgp_SequenceOfPnt.hxx>
+#include <LocOpe.hxx>
 
 #include <TopExp_Explorer.hxx>
 #include <BRep_Tool.hxx>

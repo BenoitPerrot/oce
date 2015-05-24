@@ -13,7 +13,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Font_FontMgr.ixx>
+#include <TColStd_SequenceOfHAsciiString.hxx>
+#include <Font_SystemFont.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <Font_FontMgr.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Font_FontMgr)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Font_FontMgr)
+IMPLEMENT_DOWNCAST(Font_FontMgr,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Font_FontMgr)
 
 #include <Font_FTLibrary.hxx>
 #include <OSD_Environment.hxx>

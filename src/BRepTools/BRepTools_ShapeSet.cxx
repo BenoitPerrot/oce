@@ -18,7 +18,9 @@
 
 #include <Standard_Stream.hxx>
 #include <Precision.hxx>
-#include <BRepTools_ShapeSet.ixx>
+#include <BRep_Builder.hxx>
+#include <TopoDS_Shape.hxx>
+#include <BRepTools_ShapeSet.hxx>
 
 #include <BRepTools.hxx>
 #include <GeomTools.hxx>

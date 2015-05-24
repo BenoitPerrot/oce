@@ -11,7 +11,27 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Interface_Static.ixx>
+#include <Standard_Type.hxx>
+#include <Interface_Static.hxx>
+#include <TColStd_HArray1OfAsciiString.hxx>
+#include <Dico_DictionaryOfInteger.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <Standard_Transient.hxx>
+#include <Interface_InterfaceError.hxx>
+#include <Message_Messenger.hxx>
+#include <TColStd_HSequenceOfHAsciiString.hxx>
+#include <Interface_Static.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Interface_Static)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Interface_TypedValue),
+  STANDARD_TYPE(MoniTool_TypedValue),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Interface_Static)
+IMPLEMENT_DOWNCAST(Interface_Static,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Interface_Static)
 
 #include <Dico_DictionaryOfInteger.hxx>
 #include <Dico_DictionaryOfTransient.hxx>

@@ -14,7 +14,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GC_MakeSegment.ixx>
+#include <Geom_TrimmedCurve.hxx>
+#include <StdFail_NotDone.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Lin.hxx>
+#include <GC_MakeSegment.hxx>
 #include <GC_MakeLine.hxx>
 #include <Geom_Line.hxx>
 #include <StdFail_NotDone.hxx>

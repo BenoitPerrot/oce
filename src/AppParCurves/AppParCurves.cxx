@@ -15,7 +15,8 @@
 #define No_Standard_RangeError
 #define No_Standard_OutOfRange
 
-#include <AppParCurves.ixx>
+#include <math_Matrix.hxx>
+#include <AppParCurves.hxx>
 #include <BSplCLib.hxx>
 #include <TColStd_Array1OfReal.hxx>
 #include <gp_Pnt2d.hxx>

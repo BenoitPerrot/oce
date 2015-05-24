@@ -16,7 +16,12 @@
 //-- lbr : la methode avec les coefficients est catastrophique. 
 //--       Mise en place d'une vraie solution. 
 
-#include <IntAna_IntLinTorus.ixx>
+#include <StdFail_NotDone.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <gp_Lin.hxx>
+#include <gp_Torus.hxx>
+#include <gp_Pnt.hxx>
+#include <IntAna_IntLinTorus.hxx>
 #include <TColStd_Array1OfReal.hxx>
 #include <math_DirectPolynomialRoots.hxx>
 #include <gp_Dir.hxx>

@@ -16,7 +16,15 @@
 
 #include <TopOpeBRepTool.hxx>
 #include <TopOpeBRepTool_TOOL.hxx>
-#include <TopOpeBRepTool_CORRISO.ixx>
+#include <TopoDS_Face.hxx>
+#include <GeomAdaptor_Surface.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopTools_ListOfShape.hxx>
+#include <TopoDS_Edge.hxx>
+#include <TopTools_DataMapOfOrientedShapeInteger.hxx>
+#include <TopOpeBRepTool_C2DF.hxx>
+#include <TopoDS_Vertex.hxx>
+#include <TopOpeBRepTool_CORRISO.hxx>
 #include <TopOpeBRepTool_define.hxx>
 #include <TopOpeBRepTool_EXPORT.hxx>
 #include <TopOpeBRepTool_PURGE.hxx>

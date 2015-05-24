@@ -14,7 +14,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopoDSToStep_MakeManifoldSolidBrep.ixx>
+#include <StepShape_ManifoldSolidBrep.hxx>
+#include <StdFail_NotDone.hxx>
+#include <TopoDS_Shell.hxx>
+#include <Transfer_FinderProcess.hxx>
+#include <TopoDS_Solid.hxx>
+#include <TopoDSToStep_MakeManifoldSolidBrep.hxx>
 #include <StdFail_NotDone.hxx>
 #include <TopoDSToStep.hxx>
 #include <TopoDSToStep_Builder.hxx>

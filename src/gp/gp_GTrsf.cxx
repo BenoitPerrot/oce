@@ -14,7 +14,20 @@
 
 #define No_Standard_OutOfRange
 
-#include <gp_GTrsf.ixx>
+#include <Standard_ConstructionError.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <gp_Trsf.hxx>
+#include <gp_Mat.hxx>
+#include <gp_XYZ.hxx>
+#include <gp_Ax1.hxx>
+#include <gp_Ax2.hxx>
+#include <gp_GTrsf.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(gp_GTrsf)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Standard_Storable),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(gp_GTrsf)
 #include <gp_Mat.hxx>
 
 void gp_GTrsf::SetTranslationPart (const gp_XYZ& Coord)

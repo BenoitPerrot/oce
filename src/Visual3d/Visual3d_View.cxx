@@ -19,7 +19,33 @@
 # include <oce-config.h>
 #endif
 
-#include <Visual3d_View.ixx>
+#include <Aspect_Window.hxx>
+#include <Graphic3d_GraphicDriver.hxx>
+#include <Visual3d_TransformError.hxx>
+#include <Visual3d_ViewDefinitionError.hxx>
+#include <Visual3d_ViewManager.hxx>
+#include <Visual3d_Layer.hxx>
+#include <Aspect_Background.hxx>
+#include <Aspect_GradientBackground.hxx>
+#include <Visual3d_ContextView.hxx>
+#include <TCollection_ExtendedString.hxx>
+#include <Quantity_Color.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <Graphic3d_MapOfStructure.hxx>
+#include <Bnd_Box.hxx>
+#include <Graphic3d_Structure.hxx>
+#include <TColStd_Array2OfReal.hxx>
+#include <Visual3d_View.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Visual3d_View)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Graphic3d_DataStructureManager),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Visual3d_View)
+IMPLEMENT_DOWNCAST(Visual3d_View,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Visual3d_View)
 
 #include <Graphic3d_DataStructureManager.hxx>
 #include <Graphic3d_GraphicDriver.hxx>

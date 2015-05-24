@@ -26,7 +26,11 @@
 //math_FunctionSetRoot.cxx
 
 
-#include <math_FunctionSetRoot.ixx>
+#include <StdFail_NotDone.hxx>
+#include <Standard_DimensionError.hxx>
+#include <math_FunctionSetWithDerivatives.hxx>
+#include <math_Matrix.hxx>
+#include <math_FunctionSetRoot.hxx>
 #include <Standard_DimensionError.hxx>
 #include <math_Gauss.hxx>
 #include <math_SVD.hxx>

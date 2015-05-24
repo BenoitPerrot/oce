@@ -21,7 +21,15 @@
 
 
 
-#include <PTopoDS_Shape1.ixx>
+#include <PTopoDS_TShape1.hxx>
+#include <PTopLoc_Location.hxx>
+#include <PTopoDS_Shape1.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(PTopoDS_Shape1)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Standard_Storable),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(PTopoDS_Shape1)
 
 //=======================================================================
 //function : PTopoDS_Shape1

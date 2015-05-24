@@ -14,7 +14,23 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopOpeBRepTool_TOOL.ixx>
+#include <TopoDS_Shape.hxx>
+#include <TopoDS_Edge.hxx>
+#include <TopoDS_Vertex.hxx>
+#include <TopoDS_Face.hxx>
+#include <TopTools_Array1OfShape.hxx>
+#include <gp_Pnt2d.hxx>
+#include <TopOpeBRepTool_C2DF.hxx>
+#include <gp_Vec.hxx>
+#include <gp_Dir2d.hxx>
+#include <BRepAdaptor_Curve.hxx>
+#include <gp_Vec2d.hxx>
+#include <gp_Dir.hxx>
+#include <Geom2d_Curve.hxx>
+#include <gp_Pnt.hxx>
+#include <TopTools_ListOfShape.hxx>
+#include <TopTools_DataMapOfShapeListOfShape.hxx>
+#include <TopOpeBRepTool_TOOL.hxx>
 #include <BRepAdaptor_Curve.hxx>
 #include <BRepAdaptor_Surface.hxx>
 #include <TopExp.hxx>

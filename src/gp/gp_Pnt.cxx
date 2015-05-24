@@ -18,7 +18,19 @@
 
 #define No_Standard_OutOfRange
 
-#include <gp_Pnt.ixx>
+#include <Standard_OutOfRange.hxx>
+#include <gp_XYZ.hxx>
+#include <gp_Ax1.hxx>
+#include <gp_Ax2.hxx>
+#include <gp_Trsf.hxx>
+#include <gp_Vec.hxx>
+#include <gp_Pnt.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(gp_Pnt)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Standard_Storable),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(gp_Pnt)
 
 void gp_Pnt::Transform (const gp_Trsf& T)
 {

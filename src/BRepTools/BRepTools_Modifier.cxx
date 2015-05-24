@@ -16,7 +16,12 @@
 
 // IFV 04.06.99 - PRO18974 - processing of INTERNAL shapes.
 
-#include <BRepTools_Modifier.ixx>
+#include <Standard_NullObject.hxx>
+#include <Standard_NoSuchObject.hxx>
+#include <TopoDS_Shape.hxx>
+#include <BRepTools_Modification.hxx>
+#include <Message_ProgressIndicator.hxx>
+#include <BRepTools_Modifier.hxx>
 
 #include <TopoDS_Iterator.hxx>
 #include <TopoDS_Vertex.hxx>

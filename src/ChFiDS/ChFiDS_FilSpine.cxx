@@ -14,7 +14,23 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <ChFiDS_FilSpine.ixx>
+#include <TopoDS_Edge.hxx>
+#include <TopoDS_Vertex.hxx>
+#include <gp_XY.hxx>
+#include <Law_Function.hxx>
+#include <Law_Composite.hxx>
+#include <ChFiDS_HElSpine.hxx>
+#include <ChFiDS_FilSpine.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(ChFiDS_FilSpine)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(ChFiDS_Spine),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(ChFiDS_FilSpine)
+IMPLEMENT_DOWNCAST(ChFiDS_FilSpine,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(ChFiDS_FilSpine)
 #include <ChFiDS_ListIteratorOfListOfHElSpine.hxx>
 #include <Precision.hxx>
 #include <TColStd_HArray1OfBoolean.hxx>

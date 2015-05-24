@@ -13,7 +13,21 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <DNaming_RevolutionDriver.ixx>
+#include <TFunction_Logbook.hxx>
+#include <TDF_Label.hxx>
+#include <BRepPrimAPI_MakeRevol.hxx>
+#include <TopoDS_Shape.hxx>
+#include <DNaming_RevolutionDriver.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(DNaming_RevolutionDriver)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(TFunction_Driver),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(DNaming_RevolutionDriver)
+IMPLEMENT_DOWNCAST(DNaming_RevolutionDriver,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(DNaming_RevolutionDriver)
 
 #include <gp_Dir.hxx>
 #include <gp_Vec.hxx>

@@ -11,7 +11,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepAP214_AppliedSecurityClassificationAssignment.ixx>
+#include <StepAP214_HArray1OfSecurityClassificationItem.hxx>
+#include <StepBasic_SecurityClassification.hxx>
+#include <StepAP214_SecurityClassificationItem.hxx>
+#include <StepAP214_AppliedSecurityClassificationAssignment.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepAP214_AppliedSecurityClassificationAssignment)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepBasic_SecurityClassificationAssignment),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepAP214_AppliedSecurityClassificationAssignment)
+IMPLEMENT_DOWNCAST(StepAP214_AppliedSecurityClassificationAssignment,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepAP214_AppliedSecurityClassificationAssignment)
 
 
 StepAP214_AppliedSecurityClassificationAssignment::StepAP214_AppliedSecurityClassificationAssignment ()  {}

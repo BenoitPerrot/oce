@@ -15,7 +15,17 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
-#include <StepFEA_FeaModelDefinition.ixx>
+#include <StepFEA_FeaModelDefinition.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepFEA_FeaModelDefinition)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepRepr_ShapeAspect),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepFEA_FeaModelDefinition)
+IMPLEMENT_DOWNCAST(StepFEA_FeaModelDefinition,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepFEA_FeaModelDefinition)
 
 //=======================================================================
 //function : StepFEA_FeaModelDefinition

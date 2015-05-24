@@ -15,7 +15,20 @@
 
 //AGV 150202: Changed prototype XmlObjMgt::SetStringValue()
 
-#include <XmlMDataStd_IntegerArrayDriver.ixx>
+#include <CDM_MessageDriver.hxx>
+#include <TDF_Attribute.hxx>
+#include <XmlObjMgt_Persistent.hxx>
+#include <XmlMDataStd_IntegerArrayDriver.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(XmlMDataStd_IntegerArrayDriver)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(XmlMDF_ADriver),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(XmlMDataStd_IntegerArrayDriver)
+IMPLEMENT_DOWNCAST(XmlMDataStd_IntegerArrayDriver,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(XmlMDataStd_IntegerArrayDriver)
 #include <TDataStd_IntegerArray.hxx>
 #include <NCollection_LocalArray.hxx>
 #include <XmlObjMgt.hxx>

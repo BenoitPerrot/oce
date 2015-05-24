@@ -17,7 +17,13 @@
 //   through point.                                                        +
 //=========================================================================
 
-#include <GccAna_Lin2d2Tan.ixx>
+#include <Standard_OutOfRange.hxx>
+#include <GccEnt_BadQualifier.hxx>
+#include <StdFail_NotDone.hxx>
+#include <gp_Pnt2d.hxx>
+#include <GccEnt_QualifiedCirc.hxx>
+#include <gp_Lin2d.hxx>
+#include <GccAna_Lin2d2Tan.hxx>
 
 #include <ElCLib.hxx>
 #include <gp_XY.hxx>

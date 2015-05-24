@@ -19,7 +19,26 @@
 
 #include <Standard_NotImplemented.hxx>
 
-#include <AIS_EqualRadiusRelation.ixx>
+#include <TopoDS_Edge.hxx>
+#include <Geom_Plane.hxx>
+#include <Prs3d_Presentation.hxx>
+#include <Prs3d_Projector.hxx>
+#include <Geom_Transformation.hxx>
+#include <SelectMgr_Selection.hxx>
+#include <AIS_EqualRadiusRelation.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(AIS_EqualRadiusRelation)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(AIS_Relation),
+  STANDARD_TYPE(AIS_InteractiveObject),
+  STANDARD_TYPE(SelectMgr_SelectableObject),
+  STANDARD_TYPE(PrsMgr_PresentableObject),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(AIS_EqualRadiusRelation)
+IMPLEMENT_DOWNCAST(AIS_EqualRadiusRelation,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(AIS_EqualRadiusRelation)
 
 #include <AIS.hxx>
 #include <DsgPrs_EqualRadiusPresentation.hxx>

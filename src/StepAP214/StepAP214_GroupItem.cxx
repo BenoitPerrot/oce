@@ -11,7 +11,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepAP214_GroupItem.ixx>
+#include <Standard_Transient.hxx>
+#include <StepGeom_GeometricRepresentationItem.hxx>
+#include <StepAP214_GroupItem.hxx>
 #include <Interface_Macros.hxx>
 
 StepAP214_GroupItem::StepAP214_GroupItem () {  }

@@ -14,7 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopCnx_EdgeFaceTransition.ixx>
+#include <gp_Dir.hxx>
+#include <TopCnx_EdgeFaceTransition.hxx>
 
 
 //=======================================================================

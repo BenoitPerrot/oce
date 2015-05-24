@@ -11,7 +11,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepData_SelectType.ixx>
+#include <Standard_Transient.hxx>
+#include <Standard_TypeMismatch.hxx>
+#include <Standard_Type.hxx>
+#include <StepData_PDescr.hxx>
+#include <StepData_SelectMember.hxx>
+#include <StepData_SelectType.hxx>
 #include <Standard_TypeMismatch.hxx>
 #include <StepData_SelectNamed.hxx>
 #include <StepData_SelectReal.hxx>

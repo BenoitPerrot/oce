@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 //AGV 130202: Changed prototype LDOM_Node::getOwnerDocument()
-#include <XmlObjMgt_Array1.ixx>
+#include <XmlObjMgt_Array1.hxx>
 
 #include <XmlObjMgt.hxx>
 #include <XmlObjMgt_DOMString.hxx>

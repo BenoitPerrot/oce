@@ -11,7 +11,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <VrmlConverter_LineAspect.ixx>
+#include <Vrml_Material.hxx>
+#include <VrmlConverter_LineAspect.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(VrmlConverter_LineAspect)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(VrmlConverter_LineAspect)
+IMPLEMENT_DOWNCAST(VrmlConverter_LineAspect,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(VrmlConverter_LineAspect)
 
 VrmlConverter_LineAspect::VrmlConverter_LineAspect()
 {

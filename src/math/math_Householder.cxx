@@ -18,7 +18,12 @@
 #define No_Standard_DimensionError
 //#endif
 
-#include <math_Householder.ixx>
+#include <StdFail_NotDone.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Standard_DimensionError.hxx>
+#include <Standard_ConstructionError.hxx>
+#include <math_Matrix.hxx>
+#include <math_Householder.hxx>
 #include <Standard_DimensionError.hxx>
 #include <Standard_OutOfRange.hxx>
 

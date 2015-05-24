@@ -13,7 +13,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BinMXCAFDoc_CentroidDriver.ixx>
+#include <CDM_MessageDriver.hxx>
+#include <TDF_Attribute.hxx>
+#include <BinObjMgt_Persistent.hxx>
+#include <BinMXCAFDoc_CentroidDriver.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(BinMXCAFDoc_CentroidDriver)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(BinMDF_ADriver),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(BinMXCAFDoc_CentroidDriver)
+IMPLEMENT_DOWNCAST(BinMXCAFDoc_CentroidDriver,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(BinMXCAFDoc_CentroidDriver)
 #include <XCAFDoc_Centroid.hxx>
 
 //=======================================================================

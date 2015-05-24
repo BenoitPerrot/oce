@@ -14,7 +14,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomToStep_MakeBoundedCurve.ixx>
+#include <StepGeom_BoundedCurve.hxx>
+#include <StdFail_NotDone.hxx>
+#include <Geom_BoundedCurve.hxx>
+#include <Geom2d_BoundedCurve.hxx>
+#include <GeomToStep_MakeBoundedCurve.hxx>
 #include <StdFail_NotDone.hxx>
 #include <StepGeom_BoundedCurve.hxx>
 #include <GeomToStep_MakeBoundedCurve.hxx>

@@ -14,7 +14,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PTopoDS_TShape.ixx>
+#include <PTopoDS_HArray1OfHShape.hxx>
+#include <PTopoDS_HShape.hxx>
+#include <PTopoDS_TShape.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(PTopoDS_TShape)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Standard_Persistent),
+  STANDARD_TYPE(Standard_Storable),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(PTopoDS_TShape)
+IMPLEMENT_DOWNCAST(PTopoDS_TShape,Standard_Persistent)
+IMPLEMENT_STANDARD_RTTI(PTopoDS_TShape)
 
 // static const Standard_Integer FreeMask       = 1;
 // FreeMask has no sense in D.B. context; it is free for future use.

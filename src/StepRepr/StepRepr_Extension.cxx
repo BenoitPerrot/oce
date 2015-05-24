@@ -11,6 +11,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepRepr_Extension.ixx>
+#include <StepRepr_Extension.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepRepr_Extension)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepRepr_DerivedShapeAspect),
+  STANDARD_TYPE(StepRepr_ShapeAspect),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepRepr_Extension)
+IMPLEMENT_DOWNCAST(StepRepr_Extension,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepRepr_Extension)
 
 StepRepr_Extension::StepRepr_Extension ()    {  }

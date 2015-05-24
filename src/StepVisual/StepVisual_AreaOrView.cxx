@@ -11,7 +11,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepVisual_AreaOrView.ixx>
+#include <Standard_Transient.hxx>
+#include <StepVisual_PresentationArea.hxx>
+#include <StepVisual_PresentationView.hxx>
+#include <StepVisual_AreaOrView.hxx>
 #include <Interface_Macros.hxx>
 
 StepVisual_AreaOrView::StepVisual_AreaOrView () {  }

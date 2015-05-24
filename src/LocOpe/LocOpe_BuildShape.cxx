@@ -14,7 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <LocOpe_BuildShape.ixx>
+#include <TopTools_ListOfShape.hxx>
+#include <TopoDS_Shape.hxx>
+#include <LocOpe_BuildShape.hxx>
 
 
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>

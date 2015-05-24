@@ -14,7 +14,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomLib_DenominatorMultiplier.ixx>
+#include <Geom_BSplineSurface.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Standard_ConstructionError.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <GeomLib_DenominatorMultiplier.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Vec.hxx>
 #include <TColgp_Array2OfPnt.hxx>

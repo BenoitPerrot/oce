@@ -15,7 +15,20 @@
 
 // modified     13.04.2009 Sergey Zaritchny
 
-#include <BinMDataXtd_PatternStdDriver.ixx>
+#include <CDM_MessageDriver.hxx>
+#include <TDF_Attribute.hxx>
+#include <BinObjMgt_Persistent.hxx>
+#include <BinMDataXtd_PatternStdDriver.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(BinMDataXtd_PatternStdDriver)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(BinMDF_ADriver),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(BinMDataXtd_PatternStdDriver)
+IMPLEMENT_DOWNCAST(BinMDataXtd_PatternStdDriver,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(BinMDataXtd_PatternStdDriver)
 
 #include <TDataStd_Real.hxx>
 #include <TDataStd_Integer.hxx>

@@ -21,7 +21,19 @@
 
 
 
-#include <TDF_AttributeDelta.ixx>
+#include <TDF_Attribute.hxx>
+#include <TDF_Label.hxx>
+#include <Standard_GUID.hxx>
+#include <TDF_AttributeDelta.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(TDF_AttributeDelta)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(TDF_AttributeDelta)
+IMPLEMENT_DOWNCAST(TDF_AttributeDelta,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(TDF_AttributeDelta)
 
 #include <Standard_GUID.hxx>
 

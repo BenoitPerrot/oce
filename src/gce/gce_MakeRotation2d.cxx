@@ -14,7 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <gce_MakeRotation2d.ixx>
+#include <gp_Pnt2d.hxx>
+#include <gp_Trsf2d.hxx>
+#include <gce_MakeRotation2d.hxx>
 
 //=========================================================================
 //   Creation d une rotation 2d de gp d angle Angle par rapport a un      +

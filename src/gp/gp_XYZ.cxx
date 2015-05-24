@@ -12,7 +12,16 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <gp_XYZ.ixx>
+#include <Standard_ConstructionError.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <gp_Mat.hxx>
+#include <gp_XYZ.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(gp_XYZ)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Standard_Storable),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(gp_XYZ)
 
 Standard_Boolean gp_XYZ::IsEqual (const gp_XYZ& Other,
 				  const Standard_Real Tolerance) const {

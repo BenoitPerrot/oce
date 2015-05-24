@@ -14,4 +14,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopoDS_TShape.ixx>
+#include <Standard_ConstructionError.hxx>
+#include <TopoDS_Iterator.hxx>
+#include <TopoDS_Builder.hxx>
+#include <TopoDS_ListOfShape.hxx>
+#include <TopoDS_TShape.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(TopoDS_TShape)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(TopoDS_TShape)
+IMPLEMENT_DOWNCAST(TopoDS_TShape,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(TopoDS_TShape)

@@ -15,7 +15,17 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.1
 
-#include <StepBasic_IdentificationRole.ixx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepBasic_IdentificationRole.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepBasic_IdentificationRole)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepBasic_IdentificationRole)
+IMPLEMENT_DOWNCAST(StepBasic_IdentificationRole,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepBasic_IdentificationRole)
 
 //=======================================================================
 //function : StepBasic_IdentificationRole

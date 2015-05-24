@@ -18,7 +18,12 @@
 #define No_Standard_DimensionError
 //#endif
 
-#include <math_FunctionAllRoots.ixx>
+#include <Standard_OutOfRange.hxx>
+#include <StdFail_NotDone.hxx>
+#include <Standard_NumericError.hxx>
+#include <math_FunctionWithDerivative.hxx>
+#include <math_FunctionSample.hxx>
+#include <math_FunctionAllRoots.hxx>
 
 #include <Standard_NumericError.hxx>
 #include <Standard_OutOfRange.hxx>

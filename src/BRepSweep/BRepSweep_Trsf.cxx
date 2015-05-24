@@ -14,7 +14,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepSweep_Trsf.ixx>
+#include <BRep_Builder.hxx>
+#include <TopoDS_Shape.hxx>
+#include <Sweep_NumShape.hxx>
+#include <TopLoc_Location.hxx>
+#include <BRepSweep_Trsf.hxx>
 #include <Sweep_NumShapeIterator.hxx>
 #include <BRepSweep_Iterator.hxx>
 #include <BRepAdaptor_Curve.hxx>

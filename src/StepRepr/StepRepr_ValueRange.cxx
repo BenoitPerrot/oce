@@ -11,6 +11,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepRepr_ValueRange.ixx>
+#include <StepRepr_ValueRange.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepRepr_ValueRange)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepRepr_CompoundRepresentationItem),
+  STANDARD_TYPE(StepRepr_RepresentationItem),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepRepr_ValueRange)
+IMPLEMENT_DOWNCAST(StepRepr_ValueRange,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepRepr_ValueRange)
 
 StepRepr_ValueRange::StepRepr_ValueRange  ()    {  }

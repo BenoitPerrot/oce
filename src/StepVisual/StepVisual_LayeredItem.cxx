@@ -11,7 +11,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepVisual_LayeredItem.ixx>
+#include <Standard_Transient.hxx>
+#include <StepVisual_PresentationRepresentation.hxx>
+#include <StepRepr_RepresentationItem.hxx>
+#include <StepVisual_LayeredItem.hxx>
 #include <Interface_Macros.hxx>
 
 StepVisual_LayeredItem::StepVisual_LayeredItem () {  }

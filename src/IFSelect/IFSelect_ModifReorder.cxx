@@ -11,7 +11,23 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IFSelect_ModifReorder.ixx>
+#include <IFSelect_ContextModif.hxx>
+#include <Interface_InterfaceModel.hxx>
+#include <Interface_Protocol.hxx>
+#include <Interface_CopyTool.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <IFSelect_ModifReorder.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IFSelect_ModifReorder)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IFSelect_Modifier),
+  STANDARD_TYPE(IFSelect_GeneralModifier),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IFSelect_ModifReorder)
+IMPLEMENT_DOWNCAST(IFSelect_ModifReorder,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IFSelect_ModifReorder)
 #include <Interface_ShareTool.hxx>
 #include <Interface_EntityIterator.hxx>
 

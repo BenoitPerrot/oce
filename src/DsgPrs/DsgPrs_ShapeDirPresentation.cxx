@@ -14,7 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <DsgPrs_ShapeDirPresentation.ixx>
+#include <Prs3d_Presentation.hxx>
+#include <Prs3d_Drawer.hxx>
+#include <TopoDS_Shape.hxx>
+#include <DsgPrs_ShapeDirPresentation.hxx>
 
 #include <gp.hxx>
 #include <gp_Dir.hxx>

@@ -14,7 +14,15 @@
 
 // Lpa, le 3/12/91
 
-#include <AppDef_MultiLine.ixx>
+#include <AppDef_HArray1OfMultiPointConstraint.hxx>
+#include <Standard_ConstructionError.hxx>
+#include <Standard_DimensionError.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <AppDef_Array1OfMultiPointConstraint.hxx>
+#include <TColgp_Array1OfPnt.hxx>
+#include <TColgp_Array1OfPnt2d.hxx>
+#include <AppDef_MultiPointConstraint.hxx>
+#include <AppDef_MultiLine.hxx>
 #include <Standard_OutOfRange.hxx>
 #include <AppDef_Array1OfMultiPointConstraint.hxx>
 #include <Standard_ConstructionError.hxx>

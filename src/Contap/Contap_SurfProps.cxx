@@ -14,7 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Contap_SurfProps.ixx>
+#include <Adaptor3d_HSurface.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Vec.hxx>
+#include <Contap_SurfProps.hxx>
 
 #include <ElSLib.hxx>
 #include <Adaptor3d_HSurfaceTool.hxx>

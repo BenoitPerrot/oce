@@ -14,7 +14,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepPrimAPI_MakeWedge.ixx>
+#include <Standard_DomainError.hxx>
+#include <StdFail_NotDone.hxx>
+#include <gp_Ax2.hxx>
+#include <BRepPrim_Wedge.hxx>
+#include <TopoDS_Shell.hxx>
+#include <TopoDS_Solid.hxx>
+#include <BRepPrimAPI_MakeWedge.hxx>
 #include <TopoDS.hxx>
 
 

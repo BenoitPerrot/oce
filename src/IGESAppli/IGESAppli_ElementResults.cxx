@@ -17,7 +17,26 @@
 //--------------------------------------------------------------------
 
 // UNFINISHED & UNSTARTED
-#include <IGESAppli_ElementResults.ixx>
+#include <IGESDimen_GeneralNote.hxx>
+#include <TColStd_HArray1OfInteger.hxx>
+#include <IGESAppli_HArray1OfFiniteElement.hxx>
+#include <IGESBasic_HArray1OfHArray1OfInteger.hxx>
+#include <IGESBasic_HArray1OfHArray1OfReal.hxx>
+#include <Standard_DimensionMismatch.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <IGESAppli_FiniteElement.hxx>
+#include <TColStd_HArray1OfReal.hxx>
+#include <IGESAppli_ElementResults.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESAppli_ElementResults)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IGESData_IGESEntity),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESAppli_ElementResults)
+IMPLEMENT_DOWNCAST(IGESAppli_ElementResults,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESAppli_ElementResults)
 #include <Standard_OutOfRange.hxx>
 
 

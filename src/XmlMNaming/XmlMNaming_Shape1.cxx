@@ -13,7 +13,14 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <XmlMNaming_Shape1.ixx>
+#include <TopoDS_Shape.hxx>
+#include <XmlMNaming_Shape1.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(XmlMNaming_Shape1)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Standard_Storable),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(XmlMNaming_Shape1)
 
 #include <XmlObjMgt.hxx>
 #include <TCollection_AsciiString.hxx>

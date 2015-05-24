@@ -14,7 +14,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <STEPConstruct_ValidationProps.ixx>
+#include <StepBasic_ProductDefinition.hxx>
+#include <XSControl_WorkSession.hxx>
+#include <TopoDS_Shape.hxx>
+#include <StepRepr_RepresentationItem.hxx>
+#include <StepRepr_CharacterizedDefinition.hxx>
+#include <StepRepr_RepresentationContext.hxx>
+#include <gp_Pnt.hxx>
+#include <TColStd_SequenceOfTransient.hxx>
+#include <StepRepr_NextAssemblyUsageOccurrence.hxx>
+#include <StepRepr_PropertyDefinition.hxx>
+#include <STEPConstruct_ValidationProps.hxx>
 #include <STEPConstruct_UnitContext.hxx>
 
 #include <Message.hxx>

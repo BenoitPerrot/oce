@@ -13,12 +13,24 @@
 // commercial license or contractual agreement.
 
 #include <Standard_ErrorHandler.hxx>
-#include <Standard_Failure.ixx>
-#include <Standard_TypeMismatch.hxx>
-#include <Standard_Type.hxx>
+#include <Standard_Failure.hxx>
 #include <Standard_Macro.hxx>
-#include <string.h>
+#include <Standard_NoSuchObject.hxx>
 #include <Standard_PCharacter.hxx>
+#include <Standard_Type.hxx>
+#include <Standard_TypeMismatch.hxx>
+
+IMPLEMENT_STANDARD_TYPE(Standard_Failure)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Standard_Transient),
+
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Standard_Failure)
+
+IMPLEMENT_DOWNCAST(Standard_Failure,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Standard_Failure)
+
+#include <string.h>
 
 static Standard_CString allocate_message(const Standard_CString AString)
 {

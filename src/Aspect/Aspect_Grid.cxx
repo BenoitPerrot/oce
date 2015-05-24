@@ -14,7 +14,17 @@
 // Updated:     GG IMP230300 Add grid color parameters in constructor
 //              and add new methods SetColors() & Colors()
 
-#include <Aspect_Grid.ixx>
+#include <Quantity_Color.hxx>
+#include <Aspect_Grid.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Aspect_Grid)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Aspect_Grid)
+IMPLEMENT_DOWNCAST(Aspect_Grid,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Aspect_Grid)
 
 
 Aspect_Grid::Aspect_Grid(

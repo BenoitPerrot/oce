@@ -13,7 +13,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <DsgPrs_MidPointPresentation.ixx>
+#include <Prs3d_Presentation.hxx>
+#include <Prs3d_Drawer.hxx>
+#include <gp_Ax2.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Circ.hxx>
+#include <gp_Elips.hxx>
+#include <DsgPrs_MidPointPresentation.hxx>
 
 #include <Precision.hxx>
 

@@ -17,7 +17,13 @@
 #ifndef No_Exception
 #define No_Exception
 #endif
-#include <HLRBRep_Intersector.ixx>
+#include <StdFail_UndefinedDerivative.hxx>
+#include <gp_Lin.hxx>
+#include <IntRes2d_IntersectionPoint.hxx>
+#include <IntCurveSurface_IntersectionPoint.hxx>
+#include <IntRes2d_IntersectionSegment.hxx>
+#include <IntCurveSurface_IntersectionSegment.hxx>
+#include <HLRBRep_Intersector.hxx>
 #include <HLRBRep_EdgeData.hxx>
 #include <HLRBRep_Curve.hxx>
 #include <HLRBRep_SurfaceTool.hxx>

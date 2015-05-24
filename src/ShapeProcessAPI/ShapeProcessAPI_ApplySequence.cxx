@@ -14,7 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <ShapeProcessAPI_ApplySequence.ixx>
+#include <ShapeProcess_ShapeContext.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopTools_DataMapOfShapeShape.hxx>
+#include <ShapeProcessAPI_ApplySequence.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <TopoDS_Iterator.hxx>
 #include <TopTools_DataMapIteratorOfDataMapOfShapeShape.hxx>

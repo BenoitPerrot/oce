@@ -13,7 +13,15 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IntTools_FaceFace.ixx>
+#include <GeomAdaptor_HSurface.hxx>
+#include <IntTools_Context.hxx>
+#include <StdFail_NotDone.hxx>
+#include <TopoDS_Face.hxx>
+#include <IntTools_SequenceOfCurves.hxx>
+#include <IntTools_SequenceOfPntOn2Faces.hxx>
+#include <IntSurf_ListOfPntOn2S.hxx>
+#include <Adaptor3d_TopolTool.hxx>
+#include <IntTools_FaceFace.hxx>
 
 #include <Precision.hxx>
 

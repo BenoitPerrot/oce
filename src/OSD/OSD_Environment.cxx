@@ -18,7 +18,11 @@
 #include <Standard_ConstructionError.hxx>
 #include <Standard_Failure.hxx>
 #include <Standard_Mutex.hxx>
-#include <OSD_Environment.ixx>
+#include <Standard_ConstructionError.hxx>
+#include <Standard_NullObject.hxx>
+#include <OSD_OSDError.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <OSD_Environment.hxx>
 #include <OSD_WhoAmI.hxx>
 
 #include <stdlib.h>

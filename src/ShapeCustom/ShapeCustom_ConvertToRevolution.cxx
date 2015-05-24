@@ -11,7 +11,25 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <ShapeCustom_ConvertToRevolution.ixx>
+#include <TopoDS_Face.hxx>
+#include <Geom_Surface.hxx>
+#include <TopLoc_Location.hxx>
+#include <TopoDS_Edge.hxx>
+#include <Geom_Curve.hxx>
+#include <TopoDS_Vertex.hxx>
+#include <gp_Pnt.hxx>
+#include <Geom2d_Curve.hxx>
+#include <ShapeCustom_ConvertToRevolution.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(ShapeCustom_ConvertToRevolution)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(BRepTools_Modification),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(ShapeCustom_ConvertToRevolution)
+IMPLEMENT_DOWNCAST(ShapeCustom_ConvertToRevolution,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(ShapeCustom_ConvertToRevolution)
 #include <Geom_ElementarySurface.hxx>
 #include <BRep_Builder.hxx>
 #include <BRep_Tool.hxx>

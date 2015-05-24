@@ -13,7 +13,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <MXCAFDoc.ixx>
+#include <MDF_ASDriverHSequence.hxx>
+#include <CDM_MessageDriver.hxx>
+#include <MDF_ARDriverHSequence.hxx>
+#include <MXCAFDoc.hxx>
 #include <MXCAFDoc_ColorToolRetrievalDriver.hxx>
 #include <MXCAFDoc_ColorToolStorageDriver.hxx>
 #include <MXCAFDoc_DocumentToolRetrievalDriver.hxx>

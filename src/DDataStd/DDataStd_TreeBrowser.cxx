@@ -21,7 +21,22 @@
 
 
 
-#include <DDataStd_TreeBrowser.ixx>
+#include <TDF_Label.hxx>
+#include <Draw_Display.hxx>
+#include <Draw_Drawable3D.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <TDataStd_TreeNode.hxx>
+#include <DDataStd_TreeBrowser.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(DDataStd_TreeBrowser)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Draw_Drawable3D),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(DDataStd_TreeBrowser)
+IMPLEMENT_DOWNCAST(DDataStd_TreeBrowser,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(DDataStd_TreeBrowser)
 #include <DDataStd.hxx>
 #include <TDF_Tool.hxx>
 #include <TDataStd_Name.hxx>

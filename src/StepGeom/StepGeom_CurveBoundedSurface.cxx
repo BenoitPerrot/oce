@@ -16,7 +16,23 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.0
 
-#include <StepGeom_CurveBoundedSurface.ixx>
+#include <StepGeom_Surface.hxx>
+#include <StepGeom_HArray1OfSurfaceBoundary.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepGeom_CurveBoundedSurface.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepGeom_CurveBoundedSurface)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepGeom_BoundedSurface),
+  STANDARD_TYPE(StepGeom_Surface),
+  STANDARD_TYPE(StepGeom_GeometricRepresentationItem),
+  STANDARD_TYPE(StepRepr_RepresentationItem),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepGeom_CurveBoundedSurface)
+IMPLEMENT_DOWNCAST(StepGeom_CurveBoundedSurface,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepGeom_CurveBoundedSurface)
 
 //=======================================================================
 //function : StepGeom_CurveBoundedSurface

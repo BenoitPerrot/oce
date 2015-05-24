@@ -16,7 +16,26 @@
 //abv,gka 05.04.99: S4136: change parameters and update units
 // PTV    22.08.2002 OCC609 transfer solo vertices into step file.
 // PTV    16.09.2002 OCC725 transfer compound of vertices into one geometrical curve set.
-#include <STEPControl_ActorWrite.ixx>
+#include <Transfer_Finder.hxx>
+#include <Transfer_Binder.hxx>
+#include <Transfer_FinderProcess.hxx>
+#include <StepShape_ShapeDefinitionRepresentation.hxx>
+#include <StepGeom_Axis2Placement3d.hxx>
+#include <TopTools_HSequenceOfShape.hxx>
+#include <TopoDS_Shape.hxx>
+#include <StepShape_NonManifoldSurfaceShapeRepresentation.hxx>
+#include <STEPControl_ActorWrite.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(STEPControl_ActorWrite)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Transfer_ActorOfFinderProcess),
+  STANDARD_TYPE(Transfer_ActorOfProcessForFinder),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(STEPControl_ActorWrite)
+IMPLEMENT_DOWNCAST(STEPControl_ActorWrite,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(STEPControl_ActorWrite)
 #include <STEPControl_StepModelType.hxx>
 
 //  Transfer

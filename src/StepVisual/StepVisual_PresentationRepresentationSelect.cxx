@@ -11,7 +11,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepVisual_PresentationRepresentationSelect.ixx>
+#include <Standard_Transient.hxx>
+#include <StepVisual_PresentationRepresentation.hxx>
+#include <StepVisual_PresentationSet.hxx>
+#include <StepVisual_PresentationRepresentationSelect.hxx>
 #include <Interface_Macros.hxx>
 
 StepVisual_PresentationRepresentationSelect::StepVisual_PresentationRepresentationSelect () {  }

@@ -16,7 +16,9 @@
 
 // sln 23.10.2001. CTS23496: If problems with creation of direction occur default direction is used (StepToGeom_MakeTransformation2d(...) function)
 
-#include <StepToGeom_MakeTransformation2d.ixx>
+#include <StepGeom_CartesianTransformationOperator2d.hxx>
+#include <gp_Trsf2d.hxx>
+#include <StepToGeom_MakeTransformation2d.hxx>
 #include <StepToGeom_MakeCartesianPoint2d.hxx>
 #include <StepToGeom_MakeDirection2d.hxx>
 #include <StepGeom_CartesianPoint.hxx>

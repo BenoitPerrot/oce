@@ -21,7 +21,18 @@
 
 
 
-#include <PDF_Data.ixx>
+#include <PColStd_HArray1OfInteger.hxx>
+#include <PDF_HAttributeArray1.hxx>
+#include <PDF_Data.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(PDF_Data)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Standard_Persistent),
+  STANDARD_TYPE(Standard_Storable),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(PDF_Data)
+IMPLEMENT_DOWNCAST(PDF_Data,Standard_Persistent)
+IMPLEMENT_STANDARD_RTTI(PDF_Data)
 
 
 //=======================================================================

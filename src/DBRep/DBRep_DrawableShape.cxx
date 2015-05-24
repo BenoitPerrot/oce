@@ -14,7 +14,24 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <DBRep_DrawableShape.ixx>
+#include <Standard_DomainError.hxx>
+#include <TopoDS_Shape.hxx>
+#include <Draw_Color.hxx>
+#include <Draw_Display.hxx>
+#include <Poly_Triangulation.hxx>
+#include <gp_Trsf.hxx>
+#include <Draw_Drawable3D.hxx>
+#include <DBRep_DrawableShape.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(DBRep_DrawableShape)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Draw_Drawable3D),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(DBRep_DrawableShape)
+IMPLEMENT_DOWNCAST(DBRep_DrawableShape,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(DBRep_DrawableShape)
 
 
 #include <Draw_Appli.hxx>

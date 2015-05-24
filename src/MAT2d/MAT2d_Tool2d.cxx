@@ -29,7 +29,13 @@
 #include <DrawTrSurf.hxx>
 #endif
 
-#include <MAT2d_Tool2d.ixx>
+#include <MAT2d_Circuit.hxx>
+#include <MAT_Bisector.hxx>
+#include <Bisector_Bisec.hxx>
+#include <Geom2d_Geometry.hxx>
+#include <gp_Pnt2d.hxx>
+#include <gp_Vec2d.hxx>
+#include <MAT2d_Tool2d.hxx>
 #include <MAT2d_MiniPath.hxx>
 #include <MAT2d_Connexion.hxx>
 #include <MAT2d_SequenceOfSequenceOfGeometry.hxx>

@@ -13,7 +13,16 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IntTools_EdgeFace.ixx>
+#include <IntTools_Context.hxx>
+#include <TopoDS_Edge.hxx>
+#include <TopoDS_Face.hxx>
+#include <IntTools_Range.hxx>
+#include <IntTools_SequenceOfCommonPrts.hxx>
+#include <gp_Pnt.hxx>
+#include <BRepAdaptor_Surface.hxx>
+#include <IntTools_CArray1OfReal.hxx>
+#include <IntTools_CommonPrt.hxx>
+#include <IntTools_EdgeFace.hxx>
 
 
 

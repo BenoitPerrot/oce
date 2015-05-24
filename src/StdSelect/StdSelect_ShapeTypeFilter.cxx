@@ -14,7 +14,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StdSelect_ShapeTypeFilter.ixx>
+#include <SelectMgr_EntityOwner.hxx>
+#include <StdSelect_ShapeTypeFilter.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StdSelect_ShapeTypeFilter)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(SelectMgr_Filter),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StdSelect_ShapeTypeFilter)
+IMPLEMENT_DOWNCAST(StdSelect_ShapeTypeFilter,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StdSelect_ShapeTypeFilter)
 #include <StdSelect_BRepOwner.hxx>
 
 

@@ -11,7 +11,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <STEPControl_Reader.ixx>
+#include <XSControl_WorkSession.hxx>
+#include <StepData_StepModel.hxx>
+#include <TColStd_SequenceOfAsciiString.hxx>
+#include <StepRepr_RepresentationContext.hxx>
+#include <TColStd_Array1OfAsciiString.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <STEPControl_Reader.hxx>
 #include <STEPControl_Controller.hxx>
 #include <XSControl_Controller.hxx>
 #include <XSControl_TransferReader.hxx>

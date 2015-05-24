@@ -12,8 +12,22 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_Type.ixx>
+#include <Standard_AncestorIterator.hxx>
+#include <Standard_NoSuchObject.hxx>
+#include <Standard_OutOfRange.hxx>
 #include <Standard_Persistent.hxx>
+#include <Standard_Type.hxx>
+#include <Standard_TypeMismatch.hxx>
+
+IMPLEMENT_STANDARD_TYPE(Standard_Type)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Standard_Transient),
+
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Standard_Type)
+
+IMPLEMENT_DOWNCAST(Standard_Type,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Standard_Type)
 
 //============================================================================
 // The constructor for a imported Type 

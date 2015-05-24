@@ -17,7 +17,13 @@
 //                     and PARALLEL to a STRAIGHT DROITE.                        +
 //========================================================================
 
-#include <GccAna_Lin2dTanPar.ixx>
+#include <Standard_OutOfRange.hxx>
+#include <GccEnt_BadQualifier.hxx>
+#include <StdFail_NotDone.hxx>
+#include <gp_Pnt2d.hxx>
+#include <gp_Lin2d.hxx>
+#include <GccEnt_QualifiedCirc.hxx>
+#include <GccAna_Lin2dTanPar.hxx>
 
 #include <ElCLib.hxx>
 #include <StdFail_NotDone.hxx>

@@ -16,7 +16,20 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESGeom_CompositeCurve.ixx>
+#include <IGESData_HArray1OfIGESEntity.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <IGESData_IGESEntity.hxx>
+#include <IGESGeom_CompositeCurve.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESGeom_CompositeCurve)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IGESData_IGESEntity),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESGeom_CompositeCurve)
+IMPLEMENT_DOWNCAST(IGESGeom_CompositeCurve,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESGeom_CompositeCurve)
 #include <Standard_DimensionMismatch.hxx>
 
 

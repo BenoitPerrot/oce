@@ -12,7 +12,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepClass_FaceClassifier.ixx>
+#include <BRepClass_FaceExplorer.hxx>
+#include <gp_Pnt2d.hxx>
+#include <TopoDS_Face.hxx>
+#include <gp_Pnt.hxx>
+#include <BRepClass_FaceClassifier.hxx>
 #include <TopAbs_State.hxx>
 #include <Extrema_ExtPS.hxx>
 

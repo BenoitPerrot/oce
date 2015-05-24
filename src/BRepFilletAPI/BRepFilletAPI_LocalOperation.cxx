@@ -14,4 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepFilletAPI_LocalOperation.ixx>
+#include <TopoDS_Edge.hxx>
+#include <TopoDS_Vertex.hxx>
+#include <ChFiDS_SecHArray1.hxx>
+#include <BRepFilletAPI_LocalOperation.hxx>

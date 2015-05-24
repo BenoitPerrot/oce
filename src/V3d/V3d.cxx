@@ -30,7 +30,11 @@
 //-Declarations
 
 // for the class
-#include <V3d.ixx>
+#include <Graphic3d_Vector.hxx>
+#include <Graphic3d_Group.hxx>
+#include <V3d_View.hxx>
+#include <V3d_Viewer.hxx>
+#include <V3d.hxx>
 #include <V3d_View.hxx>
 
 #include <Quantity_NameOfColor.hxx>

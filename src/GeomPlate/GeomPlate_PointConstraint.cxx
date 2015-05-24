@@ -14,7 +14,22 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomPlate_PointConstraint.ixx>
+#include <Geom_Surface.hxx>
+#include <Standard_ConstructionError.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Vec.hxx>
+#include <gp_Pnt2d.hxx>
+#include <GeomLProp_SLProps.hxx>
+#include <GeomPlate_PointConstraint.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(GeomPlate_PointConstraint)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(GeomPlate_PointConstraint)
+IMPLEMENT_DOWNCAST(GeomPlate_PointConstraint,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(GeomPlate_PointConstraint)
 #include <GeomAPI_ProjectPointOnSurf.hxx>
 #include <gp_Ax3.hxx>
 #include <GeomAPI_ProjectPointOnSurf.hxx>

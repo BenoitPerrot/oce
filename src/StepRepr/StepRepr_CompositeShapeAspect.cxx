@@ -11,6 +11,16 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepRepr_CompositeShapeAspect.ixx>
+#include <StepRepr_CompositeShapeAspect.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepRepr_CompositeShapeAspect)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepRepr_ShapeAspect),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepRepr_CompositeShapeAspect)
+IMPLEMENT_DOWNCAST(StepRepr_CompositeShapeAspect,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepRepr_CompositeShapeAspect)
 
 StepRepr_CompositeShapeAspect::StepRepr_CompositeShapeAspect ()    {  }

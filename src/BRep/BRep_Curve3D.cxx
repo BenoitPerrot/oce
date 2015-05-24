@@ -14,7 +14,22 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRep_Curve3D.ixx>
+#include <Geom_Curve.hxx>
+#include <TopLoc_Location.hxx>
+#include <gp_Pnt.hxx>
+#include <BRep_CurveRepresentation.hxx>
+#include <BRep_Curve3D.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(BRep_Curve3D)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(BRep_GCurve),
+  STANDARD_TYPE(BRep_CurveRepresentation),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(BRep_Curve3D)
+IMPLEMENT_DOWNCAST(BRep_Curve3D,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(BRep_Curve3D)
 
 //=======================================================================
 //function : BRep_Curve3D

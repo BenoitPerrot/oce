@@ -21,7 +21,22 @@
 
 
 
-#include <TDF_Delta.ixx>
+#include <Standard_OutOfRange.hxx>
+#include <TDF_Data.hxx>
+#include <TDF_AttributeDelta.hxx>
+#include <TDF_LabelList.hxx>
+#include <TDF_AttributeDeltaList.hxx>
+#include <TCollection_ExtendedString.hxx>
+#include <TDF_Delta.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(TDF_Delta)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(TDF_Delta)
+IMPLEMENT_DOWNCAST(TDF_Delta,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(TDF_Delta)
 
 #include <TDF_LabelMap.hxx>
 #include <TDF_ListIteratorOfAttributeDeltaList.hxx>

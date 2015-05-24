@@ -11,7 +11,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <HeaderSection.ixx>
+#include <HeaderSection_Protocol.hxx>
+#include <HeaderSection.hxx>
 
 #include <Interface_Statics.hxx>
 #include <HeaderSection_Protocol.hxx>

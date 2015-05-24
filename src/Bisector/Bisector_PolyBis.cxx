@@ -14,7 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Bisector_PolyBis.ixx>
+#include <Bisector_PointOnBis.hxx>
+#include <gp_Trsf2d.hxx>
+#include <Bisector_PolyBis.hxx>
 #include <Bisector_PointOnBis.hxx>
 #include <Geom2d_Curve.hxx>
 #include <ElCLib.hxx>

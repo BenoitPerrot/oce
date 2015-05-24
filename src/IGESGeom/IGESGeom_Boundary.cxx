@@ -16,7 +16,23 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESGeom_Boundary.ixx>
+#include <IGESData_IGESEntity.hxx>
+#include <IGESData_HArray1OfIGESEntity.hxx>
+#include <TColStd_HArray1OfInteger.hxx>
+#include <IGESBasic_HArray1OfHArray1OfIGESEntity.hxx>
+#include <Standard_DimensionMismatch.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <IGESGeom_Boundary.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESGeom_Boundary)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IGESData_IGESEntity),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESGeom_Boundary)
+IMPLEMENT_DOWNCAST(IGESGeom_Boundary,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESGeom_Boundary)
 
 
 IGESGeom_Boundary::IGESGeom_Boundary ()    {  }

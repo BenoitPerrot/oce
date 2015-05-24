@@ -13,7 +13,25 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <MeshVS_SensitiveFace.ixx>
+#include <SelectBasics_EntityOwner.hxx>
+#include <TColgp_Array1OfPnt.hxx>
+#include <Select3D_Projector.hxx>
+#include <TColgp_Array1OfPnt2d.hxx>
+#include <Bnd_Box2d.hxx>
+#include <MeshVS_SensitiveFace.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(MeshVS_SensitiveFace)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Select3D_SensitiveFace),
+  STANDARD_TYPE(Select3D_SensitivePoly),
+  STANDARD_TYPE(Select3D_SensitiveEntity),
+  STANDARD_TYPE(SelectBasics_SensitiveEntity),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(MeshVS_SensitiveFace)
+IMPLEMENT_DOWNCAST(MeshVS_SensitiveFace,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(MeshVS_SensitiveFace)
 
 #include <TColgp_Array1OfPnt.hxx>
 #include <Select3D_Projector.hxx>

@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomInt_ParameterAndOrientation.ixx>
+#include <GeomInt_ParameterAndOrientation.hxx>
 
 
 //=======================================================================

@@ -11,7 +11,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Vrml_AsciiText.ixx>
+#include <TColStd_HArray1OfAsciiString.hxx>
+#include <Vrml_AsciiText.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Vrml_AsciiText)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Vrml_AsciiText)
+IMPLEMENT_DOWNCAST(Vrml_AsciiText,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Vrml_AsciiText)
 
 Vrml_AsciiText::Vrml_AsciiText()
 {

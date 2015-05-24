@@ -13,7 +13,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <ShapeUpgrade_FixSmallBezierCurves.ixx>
+#include <Geom_Curve.hxx>
+#include <Geom2d_Curve.hxx>
+#include <ShapeUpgrade_FixSmallBezierCurves.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(ShapeUpgrade_FixSmallBezierCurves)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(ShapeUpgrade_FixSmallCurves),
+  STANDARD_TYPE(ShapeUpgrade_Tool),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(ShapeUpgrade_FixSmallBezierCurves)
+IMPLEMENT_DOWNCAST(ShapeUpgrade_FixSmallBezierCurves,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_FixSmallBezierCurves)
 #include <TopoDS_Edge.hxx>
 #include <Geom_Curve.hxx>
 #include <Geom2d_Curve.hxx>

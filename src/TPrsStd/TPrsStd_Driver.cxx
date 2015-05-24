@@ -11,7 +11,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TPrsStd_Driver.ixx>
+#include <TDF_Label.hxx>
+#include <AIS_InteractiveObject.hxx>
+#include <TPrsStd_Driver.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(TPrsStd_Driver)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(TPrsStd_Driver)
+IMPLEMENT_DOWNCAST(TPrsStd_Driver,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(TPrsStd_Driver)
 
 TPrsStd_Driver::TPrsStd_Driver()
 {}

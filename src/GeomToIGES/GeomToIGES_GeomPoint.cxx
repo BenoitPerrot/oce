@@ -15,7 +15,11 @@
 // prise en compte de l'unite choisi par l'utilisateur
 // pour l'ecriture du fichier IGES.
 
-#include <GeomToIGES_GeomPoint.ixx>
+#include <GeomToIGES_GeomEntity.hxx>
+#include <IGESGeom_Point.hxx>
+#include <Geom_Point.hxx>
+#include <Geom_CartesianPoint.hxx>
+#include <GeomToIGES_GeomPoint.hxx>
 
 #include <gp_Pnt.hxx>
 #include <gp_XYZ.hxx>

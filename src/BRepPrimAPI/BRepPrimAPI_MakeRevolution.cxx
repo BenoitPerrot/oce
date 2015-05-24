@@ -14,7 +14,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepPrimAPI_MakeRevolution.ixx>
+#include <Standard_DomainError.hxx>
+#include <Geom_Curve.hxx>
+#include <gp_Ax2.hxx>
+#include <BRepPrim_Revolution.hxx>
+#include <BRepPrimAPI_MakeRevolution.hxx>
 #include <BRepBuilderAPI.hxx>
 #include <GeomProjLib.hxx>
 #include <Geom2d_Curve.hxx>

@@ -11,7 +11,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IGESGraph_Protocol.ixx>
+#include <Interface_Protocol.hxx>
+#include <Standard_Type.hxx>
+#include <IGESGraph_Protocol.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESGraph_Protocol)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IGESData_Protocol),
+  STANDARD_TYPE(Interface_Protocol),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESGraph_Protocol)
+IMPLEMENT_DOWNCAST(IGESGraph_Protocol,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESGraph_Protocol)
 
 #include <IGESGraph_LineFontDefPattern.hxx>
 #include <IGESGraph_Color.hxx>

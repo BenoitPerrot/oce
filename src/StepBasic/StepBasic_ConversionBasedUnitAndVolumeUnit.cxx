@@ -14,7 +14,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepBasic_ConversionBasedUnitAndVolumeUnit.ixx>
+#include <StepBasic_VolumeUnit.hxx>
+#include <StepBasic_ConversionBasedUnitAndVolumeUnit.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepBasic_ConversionBasedUnitAndVolumeUnit)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepBasic_ConversionBasedUnit),
+  STANDARD_TYPE(StepBasic_NamedUnit),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepBasic_ConversionBasedUnitAndVolumeUnit)
+IMPLEMENT_DOWNCAST(StepBasic_ConversionBasedUnitAndVolumeUnit,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepBasic_ConversionBasedUnitAndVolumeUnit)
 
 StepBasic_ConversionBasedUnitAndVolumeUnit::StepBasic_ConversionBasedUnitAndVolumeUnit()
 {

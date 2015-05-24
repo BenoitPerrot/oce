@@ -19,7 +19,10 @@
 #include <Standard_SStream.hxx>
 #include <Standard_Version.hxx>
 
-#include <Draw.ixx>
+#include <TCollection_AsciiString.hxx>
+#include <Draw_Drawable3D.hxx>
+#include <Draw_ProgressIndicator.hxx>
+#include <Draw.hxx>
 #include <Draw_Appli.hxx>
 #include <Draw_Chronometer.hxx>
 #include <Draw_Printer.hxx>

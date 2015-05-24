@@ -14,7 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Prs3d.ixx>
+#include <gp_Pnt.hxx>
+#include <TopoDS_Shape.hxx>
+#include <Prs3d_Drawer.hxx>
+#include <Prs3d.hxx>
 #include <Bnd_Box.hxx>
 #include <BRepBndLib.hxx>
 #include <Prs3d_Drawer.hxx>

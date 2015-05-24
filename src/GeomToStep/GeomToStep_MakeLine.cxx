@@ -14,7 +14,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomToStep_MakeLine.ixx>
+#include <StepGeom_Line.hxx>
+#include <StdFail_NotDone.hxx>
+#include <gp_Lin.hxx>
+#include <gp_Lin2d.hxx>
+#include <Geom_Line.hxx>
+#include <Geom2d_Line.hxx>
+#include <GeomToStep_MakeLine.hxx>
 #include <StdFail_NotDone.hxx>
 #include <StepGeom_Line.hxx>
 #include <StepGeom_CartesianPoint.hxx>

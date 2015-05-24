@@ -15,7 +15,21 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
-#include <StepDimTol_CommonDatum.ixx>
+#include <StepDimTol_Datum.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepRepr_ProductDefinitionShape.hxx>
+#include <StepDimTol_CommonDatum.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepDimTol_CommonDatum)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepRepr_CompositeShapeAspect),
+  STANDARD_TYPE(StepRepr_ShapeAspect),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepDimTol_CommonDatum)
+IMPLEMENT_DOWNCAST(StepDimTol_CommonDatum,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepDimTol_CommonDatum)
 
 //=======================================================================
 //function : StepDimTol_CommonDatum

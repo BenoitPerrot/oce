@@ -28,7 +28,27 @@
 
 #define OCC708          //SAV unsetting transformation correctly
 
-#include <AIS_InteractiveObject.ixx>
+#include <Standard_Transient.hxx>
+#include <AIS_Drawer.hxx>
+#include <AIS_InteractiveContext.hxx>
+#include <Quantity_Color.hxx>
+#include <TColStd_ListOfTransient.hxx>
+#include <Graphic3d_MaterialAspect.hxx>
+#include <TColStd_ListOfInteger.hxx>
+#include <Prs3d_Presentation.hxx>
+#include <Prs3d_BasicAspect.hxx>
+#include <AIS_InteractiveObject.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(AIS_InteractiveObject)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(SelectMgr_SelectableObject),
+  STANDARD_TYPE(PrsMgr_PresentableObject),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(AIS_InteractiveObject)
+IMPLEMENT_DOWNCAST(AIS_InteractiveObject,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(AIS_InteractiveObject)
 
 #include <Aspect_PolygonOffsetMode.hxx>
 #include <Prs3d_ShadingAspect.hxx>

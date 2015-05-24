@@ -13,7 +13,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IGESControl_ToolContainer.ixx>
+#include <IGESToBRep_IGESBoundary.hxx>
+#include <IGESControl_ToolContainer.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESControl_ToolContainer)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IGESToBRep_ToolContainer),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESControl_ToolContainer)
+IMPLEMENT_DOWNCAST(IGESControl_ToolContainer,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESControl_ToolContainer)
 #include <IGESControl_IGESBoundary.hxx>
 
 //=======================================================================

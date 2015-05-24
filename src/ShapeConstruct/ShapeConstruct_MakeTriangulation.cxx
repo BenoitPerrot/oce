@@ -11,7 +11,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <ShapeConstruct_MakeTriangulation.ixx>
+#include <TColgp_Array1OfPnt.hxx>
+#include <TopoDS_Wire.hxx>
+#include <ShapeConstruct_MakeTriangulation.hxx>
 
 #include <TColStd_SequenceOfInteger.hxx>
 #include <Precision.hxx>

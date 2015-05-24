@@ -11,7 +11,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Interface_ShareTool.ixx>
+#include <Interface_HGraph.hxx>
+#include <Standard_DomainError.hxx>
+#include <Interface_InterfaceError.hxx>
+#include <Interface_InterfaceModel.hxx>
+#include <Interface_GeneralLib.hxx>
+#include <Interface_GTool.hxx>
+#include <Interface_Protocol.hxx>
+#include <Interface_Graph.hxx>
+#include <Interface_EntityIterator.hxx>
+#include <Standard_Transient.hxx>
+#include <Standard_Type.hxx>
+#include <Message_Messenger.hxx>
+#include <Interface_ShareTool.hxx>
 #include <Interface_InterfaceError.hxx>
 #include <Interface_IntList.hxx>
 #include <Interface_GeneralModule.hxx>

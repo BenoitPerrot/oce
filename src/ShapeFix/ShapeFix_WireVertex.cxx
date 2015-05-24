@@ -12,7 +12,10 @@
 // commercial license or contractual agreement.
 
 //szv#4 S4163
-#include <ShapeFix_WireVertex.ixx>
+#include <TopoDS_Wire.hxx>
+#include <ShapeExtend_WireData.hxx>
+#include <ShapeAnalysis_WireVertex.hxx>
+#include <ShapeFix_WireVertex.hxx>
 
 #include <TopExp.hxx>
 #include <TopoDS.hxx>

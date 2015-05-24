@@ -11,7 +11,25 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TDocStd_Document.ixx>
+#include <TDF_Data.hxx>
+#include <TDF_Delta.hxx>
+#include <TDF_Label.hxx>
+#include <TCollection_ExtendedString.hxx>
+#include <TDF_LabelMap.hxx>
+#include <TDF_DeltaList.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <CDM_Document.hxx>
+#include <TDocStd_CompoundDelta.hxx>
+#include <TDocStd_Document.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(TDocStd_Document)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(CDM_Document),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(TDocStd_Document)
+IMPLEMENT_DOWNCAST(TDocStd_Document,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(TDocStd_Document)
 
 #include <TDocStd.hxx>
 

@@ -13,7 +13,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <MeshVS_MeshEntityOwner.ixx>
+#include <PrsMgr_PresentationManager.hxx>
+#include <MeshVS_MeshEntityOwner.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(MeshVS_MeshEntityOwner)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(SelectMgr_EntityOwner),
+  STANDARD_TYPE(SelectBasics_EntityOwner),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(MeshVS_MeshEntityOwner)
+IMPLEMENT_DOWNCAST(MeshVS_MeshEntityOwner,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(MeshVS_MeshEntityOwner)
 
 #include <SelectBasics_EntityOwner.hxx>
 #include <Graphic3d_Group.hxx>

@@ -14,7 +14,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <NLPlate_HPG1Constraint.ixx>
+#include <gp_XY.hxx>
+#include <Plate_D1.hxx>
+#include <NLPlate_HPG1Constraint.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(NLPlate_HPG1Constraint)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(NLPlate_HGPPConstraint),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(NLPlate_HPG1Constraint)
+IMPLEMENT_DOWNCAST(NLPlate_HPG1Constraint,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(NLPlate_HPG1Constraint)
 NLPlate_HPG1Constraint::NLPlate_HPG1Constraint(const gp_XY& UV,const Plate_D1& D1T)
 :myG1Target(D1T)
 {

@@ -15,7 +15,17 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
-#include <StepBasic_DocumentProductEquivalence.ixx>
+#include <StepBasic_DocumentProductEquivalence.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepBasic_DocumentProductEquivalence)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepBasic_DocumentProductAssociation),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepBasic_DocumentProductEquivalence)
+IMPLEMENT_DOWNCAST(StepBasic_DocumentProductEquivalence,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepBasic_DocumentProductEquivalence)
 
 //=======================================================================
 //function : StepBasic_DocumentProductEquivalence

@@ -16,9 +16,18 @@
 // C matra datavision 1993
 // Updated :
 // -------------------------------------------------------------
+#include <Quantity_Date.hxx>
 #include <Quantity_DateDefinitionError.hxx>
+#include <Quantity_Period.hxx>
 #include <Standard_OutOfRange.hxx>
-#include <Quantity_Date.ixx>
+#include <Standard_Type.hxx>
+
+IMPLEMENT_STANDARD_TYPE(Quantity_Date)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Standard_Storable),
+
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Quantity_Date)
 
 static int  month_table[12] = {
   31,     // January

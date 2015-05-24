@@ -13,7 +13,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <ShapeUpgrade_UnifySameDomain.ixx>
+#include <ShapeBuild_ReShape.hxx>
+#include <TopoDS_Shape.hxx>
+#include <ShapeUpgrade_UnifySameDomain.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(ShapeUpgrade_UnifySameDomain)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(ShapeUpgrade_UnifySameDomain)
+IMPLEMENT_DOWNCAST(ShapeUpgrade_UnifySameDomain,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_UnifySameDomain)
 #include <ShapeUpgrade_UnifySameDomain.hxx>
 #include <TopTools_SequenceOfShape.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>

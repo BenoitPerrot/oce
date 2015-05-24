@@ -14,7 +14,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomAPI_ExtremaCurveCurve.ixx>
+#include <Standard_OutOfRange.hxx>
+#include <StdFail_NotDone.hxx>
+#include <Geom_Curve.hxx>
+#include <gp_Pnt.hxx>
+#include <Extrema_ExtCC.hxx>
+#include <GeomAPI_ExtremaCurveCurve.hxx>
 
 #include <GeomAdaptor_Curve.hxx>
 //#include <Extrema_POnCurv.hxx>

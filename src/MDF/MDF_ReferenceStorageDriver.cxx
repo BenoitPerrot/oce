@@ -11,7 +11,22 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <MDF_ReferenceStorageDriver.ixx>
+#include <CDM_MessageDriver.hxx>
+#include <Standard_Type.hxx>
+#include <PDF_Attribute.hxx>
+#include <TDF_Attribute.hxx>
+#include <MDF_SRelocationTable.hxx>
+#include <MDF_ReferenceStorageDriver.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(MDF_ReferenceStorageDriver)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MDF_ASDriver),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(MDF_ReferenceStorageDriver)
+IMPLEMENT_DOWNCAST(MDF_ReferenceStorageDriver,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(MDF_ReferenceStorageDriver)
 #include <PCollection_HAsciiString.hxx>
 #include <PDF_Reference.hxx>
 #include <Standard_NoSuchObject.hxx>

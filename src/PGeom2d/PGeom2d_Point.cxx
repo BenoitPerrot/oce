@@ -14,4 +14,14 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PGeom2d_Point.ixx>
+#include <PGeom2d_Point.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(PGeom2d_Point)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(PGeom2d_Geometry),
+  STANDARD_TYPE(Standard_Persistent),
+  STANDARD_TYPE(Standard_Storable),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(PGeom2d_Point)
+IMPLEMENT_DOWNCAST(PGeom2d_Point,Standard_Persistent)
+IMPLEMENT_STANDARD_RTTI(PGeom2d_Point)

@@ -19,7 +19,8 @@
 // Purpose  : Magic Constructor.
 //=======================================================================
 
-#include <Geom2dHatch_Element.ixx>
+#include <Geom2dAdaptor_Curve.hxx>
+#include <Geom2dHatch_Element.hxx>
 
 #include <Geom2dAdaptor_Curve.hxx>
 

@@ -11,7 +11,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepData_SelectInt.ixx>
+#include <StepData_SelectInt.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepData_SelectInt)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepData_SelectMember),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepData_SelectInt)
+IMPLEMENT_DOWNCAST(StepData_SelectInt,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepData_SelectInt)
 
 StepData_SelectInt::StepData_SelectInt  ()    {  thekind = 0;  theval = 0;  }
 

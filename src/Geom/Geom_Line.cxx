@@ -14,7 +14,26 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Geom_Line.ixx>
+#include <Standard_RangeError.hxx>
+#include <gp_Ax1.hxx>
+#include <gp_Lin.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Dir.hxx>
+#include <gp_Vec.hxx>
+#include <gp_Trsf.hxx>
+#include <Geom_Geometry.hxx>
+#include <Geom_Line.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Geom_Line)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Geom_Curve),
+  STANDARD_TYPE(Geom_Geometry),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Geom_Line)
+IMPLEMENT_DOWNCAST(Geom_Line,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Geom_Line)
 
 #include <Precision.hxx>
 #include <gp_XYZ.hxx>

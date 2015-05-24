@@ -11,7 +11,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomToStep_MakeParabola.ixx>
+#include <StepGeom_Parabola.hxx>
+#include <StdFail_NotDone.hxx>
+#include <Geom2d_Parabola.hxx>
+#include <Geom_Parabola.hxx>
+#include <GeomToStep_MakeParabola.hxx>
 
 #include <StepGeom_Parabola.hxx>
 #include <gp_Parab.hxx>

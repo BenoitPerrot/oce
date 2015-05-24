@@ -14,7 +14,22 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <MPrsStd_AISPresentationRetrievalDriver.ixx>
+#include <CDM_MessageDriver.hxx>
+#include <Standard_Type.hxx>
+#include <TDF_Attribute.hxx>
+#include <PDF_Attribute.hxx>
+#include <MDF_RRelocationTable.hxx>
+#include <MPrsStd_AISPresentationRetrievalDriver.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(MPrsStd_AISPresentationRetrievalDriver)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MDF_ARDriver),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(MPrsStd_AISPresentationRetrievalDriver)
+IMPLEMENT_DOWNCAST(MPrsStd_AISPresentationRetrievalDriver,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(MPrsStd_AISPresentationRetrievalDriver)
 
 #include <PPrsStd_AISPresentation.hxx>
 #include <TPrsStd_AISPresentation.hxx>

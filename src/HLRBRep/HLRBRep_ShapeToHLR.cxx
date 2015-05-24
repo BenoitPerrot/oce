@@ -17,7 +17,13 @@
 #ifndef No_Exception
 // #define No_Exception
 #endif
-#include <HLRBRep_ShapeToHLR.ixx>
+#include <HLRBRep_Data.hxx>
+#include <HLRTopoBRep_OutLiner.hxx>
+#include <HLRAlgo_Projector.hxx>
+#include <BRepTopAdaptor_MapOfShapeTool.hxx>
+#include <TopTools_IndexedMapOfShape.hxx>
+#include <TopoDS_Face.hxx>
+#include <HLRBRep_ShapeToHLR.hxx>
 
 #include <TopAbs.hxx>
 #include <TopExp.hxx>

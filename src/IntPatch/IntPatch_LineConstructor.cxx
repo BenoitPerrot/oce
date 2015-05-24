@@ -14,7 +14,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IntPatch_LineConstructor.ixx>
+#include <IntPatch_SequenceOfLine.hxx>
+#include <IntPatch_Line.hxx>
+#include <Adaptor3d_HSurface.hxx>
+#include <Adaptor3d_TopolTool.hxx>
+#include <IntPatch_LineConstructor.hxx>
 
 #include <IntPatch_GLine.hxx>
 #include <IntPatch_ALine.hxx>

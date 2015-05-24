@@ -13,7 +13,7 @@
 // commercial license or contractual agreement.
 
 // Lpa, le 7/02/92
-#include <math_DoubleTab.ixx>
+#include <math_DoubleTab.hxx>
 
 #include <math_Memory.hxx>
 #include <Standard_OutOfRange.hxx>

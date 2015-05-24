@@ -17,7 +17,29 @@
 //  Modified by skv - Fri Jul  1 16:23:17 2005 IDEM(Airbus)
 //  Modified by skv - Wed Jul  7 17:21:09 2004 IDEM(Airbus)
 
-#include <Bisector_BisecAna.ixx>
+#include <Geom2d_TrimmedCurve.hxx>
+#include <Standard_DomainError.hxx>
+#include <Standard_RangeError.hxx>
+#include <Geom2d_Curve.hxx>
+#include <gp_Pnt2d.hxx>
+#include <gp_Vec2d.hxx>
+#include <Geom2d_Point.hxx>
+#include <GccInt_Bisec.hxx>
+#include <Geom2d_Geometry.hxx>
+#include <gp_Trsf2d.hxx>
+#include <Bisector_BisecAna.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Bisector_BisecAna)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Bisector_Curve),
+  STANDARD_TYPE(Geom2d_Curve),
+  STANDARD_TYPE(Geom2d_Geometry),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Bisector_BisecAna)
+IMPLEMENT_DOWNCAST(Bisector_BisecAna,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Bisector_BisecAna)
 #include <Geom2d_Line.hxx>
 #include <Geom2d_Circle.hxx>
 #include <Geom2d_Parabola.hxx>

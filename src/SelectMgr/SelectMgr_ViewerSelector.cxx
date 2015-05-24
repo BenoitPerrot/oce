@@ -18,7 +18,28 @@
 //              ROB JAN/07/98 : Improve Storage of detected entities
 //              AGV OCT/23/03 : Optimize the method SortResult() (OCC4201)
 
-#include <SelectMgr_ViewerSelector.ixx>
+#include <TColStd_HArray1OfInteger.hxx>
+#include <SelectMgr_SelectionManager.hxx>
+#include <SelectMgr_Selection.hxx>
+#include <SelectMgr_SelectableObject.hxx>
+#include <Bnd_Box2d.hxx>
+#include <TColgp_Array1OfPnt2d.hxx>
+#include <SelectMgr_EntityOwner.hxx>
+#include <TColStd_ListOfInteger.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <SelectBasics_SensitiveEntity.hxx>
+#include <SelectMgr_DataMapOfIntegerSensitive.hxx>
+#include <gp_Lin.hxx>
+#include <SelectMgr_ViewerSelector.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(SelectMgr_ViewerSelector)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(SelectMgr_ViewerSelector)
+IMPLEMENT_DOWNCAST(SelectMgr_ViewerSelector,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(SelectMgr_ViewerSelector)
 #include <SelectMgr_CompareResults.hxx>
 #include <gp_Pnt2d.hxx>
 #include <gp_Pnt.hxx>

@@ -16,7 +16,11 @@
 
 //    abv 24.05.99 S4174: methods Debug() commented
 
-#include <ShapeUpgrade.ixx>
+#include <Geom_BSplineCurve.hxx>
+#include <TColGeom_HSequenceOfBoundedCurve.hxx>
+#include <Geom2d_BSplineCurve.hxx>
+#include <TColGeom2d_HSequenceOfBoundedCurve.hxx>
+#include <ShapeUpgrade.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <TColStd_Array1OfReal.hxx>
 #include <BSplCLib.hxx>

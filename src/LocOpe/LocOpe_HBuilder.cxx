@@ -14,4 +14,15 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <LocOpe_HBuilder.ixx>
+#include <TopOpeBRepDS_BuildTool.hxx>
+#include <LocOpe_HBuilder.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(LocOpe_HBuilder)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(TopOpeBRepBuild_HBuilder),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(LocOpe_HBuilder)
+IMPLEMENT_DOWNCAST(LocOpe_HBuilder,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(LocOpe_HBuilder)

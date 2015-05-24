@@ -15,7 +15,26 @@
 // commercial license or contractual agreement.
 
 #include <ShapeAnalysis_Curve.hxx>
-#include <ShapeCustom_BSplineRestriction.ixx>
+#include <ShapeCustom_RestrictionParameters.hxx>
+#include <TopoDS_Face.hxx>
+#include <Geom_Surface.hxx>
+#include <TopLoc_Location.hxx>
+#include <TopoDS_Edge.hxx>
+#include <Geom_Curve.hxx>
+#include <Geom2d_Curve.hxx>
+#include <TopoDS_Vertex.hxx>
+#include <gp_Pnt.hxx>
+#include <ShapeCustom_BSplineRestriction.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(ShapeCustom_BSplineRestriction)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(BRepTools_Modification),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(ShapeCustom_BSplineRestriction)
+IMPLEMENT_DOWNCAST(ShapeCustom_BSplineRestriction,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(ShapeCustom_BSplineRestriction)
 #include <Geom_BSplineSurface.hxx>
 #include <GeomConvert_ApproxSurface.hxx>
 #include <Geom2dConvert_ApproxCurve.hxx>

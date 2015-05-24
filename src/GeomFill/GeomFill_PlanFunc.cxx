@@ -14,7 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomFill_PlanFunc.ixx>
+#include <Adaptor3d_HCurve.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Vec.hxx>
+#include <GeomFill_PlanFunc.hxx>
 
 
 GeomFill_PlanFunc::GeomFill_PlanFunc(const gp_Pnt& theP,

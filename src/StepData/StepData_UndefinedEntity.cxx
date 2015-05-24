@@ -11,7 +11,24 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepData_UndefinedEntity.ixx>
+#include <TCollection_HAsciiString.hxx>
+#include <Interface_UndefinedContent.hxx>
+#include <StepData_UndefinedEntity.hxx>
+#include <StepData_StepReaderData.hxx>
+#include <Interface_Check.hxx>
+#include <StepData_StepWriter.hxx>
+#include <Interface_CopyTool.hxx>
+#include <Interface_EntityIterator.hxx>
+#include <StepData_UndefinedEntity.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepData_UndefinedEntity)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepData_UndefinedEntity)
+IMPLEMENT_DOWNCAST(StepData_UndefinedEntity,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepData_UndefinedEntity)
 #include <Interface_ParamType.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <Interface_Macros.hxx>

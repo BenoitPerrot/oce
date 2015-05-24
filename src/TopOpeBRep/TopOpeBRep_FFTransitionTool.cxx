@@ -21,7 +21,11 @@
 #include <IntSurf_Transition.hxx>
 #include <IntSurf_TypeTrans.hxx>
 #include <IntSurf_Situation.hxx>
-#include <TopOpeBRep_FFTransitionTool.ixx>
+#include <TopOpeBRepDS_Transition.hxx>
+#include <TopOpeBRep_VPointInter.hxx>
+#include <TopOpeBRep_LineInter.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopOpeBRep_FFTransitionTool.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Face.hxx>
 #include <TopoDS.hxx>

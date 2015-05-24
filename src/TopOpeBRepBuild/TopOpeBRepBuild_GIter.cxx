@@ -14,7 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopOpeBRepBuild_GIter.ixx>
+#include <TopOpeBRepBuild_GTopo.hxx>
+#include <TopOpeBRepBuild_GIter.hxx>
 #include <TopOpeBRepBuild_GTopo.hxx>
 #define MYGTOPO (*((TopOpeBRepBuild_GTopo*)mypG))
 

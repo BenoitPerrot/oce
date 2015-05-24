@@ -11,7 +11,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepVisual_AnnotationTextOccurrence.ixx>
+#include <StepVisual_AnnotationTextOccurrence.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepVisual_AnnotationTextOccurrence)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepVisual_AnnotationOccurrence),
+  STANDARD_TYPE(StepVisual_StyledItem),
+  STANDARD_TYPE(StepRepr_RepresentationItem),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepVisual_AnnotationTextOccurrence)
+IMPLEMENT_DOWNCAST(StepVisual_AnnotationTextOccurrence,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepVisual_AnnotationTextOccurrence)
 
 
 StepVisual_AnnotationTextOccurrence::StepVisual_AnnotationTextOccurrence ()  {}

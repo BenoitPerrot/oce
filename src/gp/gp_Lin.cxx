@@ -16,7 +16,20 @@
 // JCV 1/10/90 Changement de nom du package vgeom -> gp
 // JCV 12/12/90 modifs suite a la premiere revue de projet
 
-#include <gp_Lin.ixx>
+#include <Standard_ConstructionError.hxx>
+#include <gp_Ax1.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Dir.hxx>
+#include <gp_Ax2.hxx>
+#include <gp_Trsf.hxx>
+#include <gp_Vec.hxx>
+#include <gp_Lin.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(gp_Lin)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Standard_Storable),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(gp_Lin)
 
 Standard_Real gp_Lin::Distance (const gp_Lin& Other) const
 {

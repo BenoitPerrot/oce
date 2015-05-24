@@ -11,7 +11,22 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepShape_PolyLoop.ixx>
+#include <StepGeom_HArray1OfCartesianPoint.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepGeom_CartesianPoint.hxx>
+#include <StepShape_PolyLoop.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepShape_PolyLoop)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepShape_Loop),
+  STANDARD_TYPE(StepShape_TopologicalRepresentationItem),
+  STANDARD_TYPE(StepRepr_RepresentationItem),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepShape_PolyLoop)
+IMPLEMENT_DOWNCAST(StepShape_PolyLoop,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepShape_PolyLoop)
 
 
 StepShape_PolyLoop::StepShape_PolyLoop ()  {}

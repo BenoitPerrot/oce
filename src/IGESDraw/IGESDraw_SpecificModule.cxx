@@ -11,7 +11,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IGESDraw_SpecificModule.ixx>
+#include <IGESData_IGESEntity.hxx>
+#include <IGESData_IGESDumper.hxx>
+#include <Message_Messenger.hxx>
+#include <IGESDraw_SpecificModule.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESDraw_SpecificModule)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IGESData_SpecificModule),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESDraw_SpecificModule)
+IMPLEMENT_DOWNCAST(IGESDraw_SpecificModule,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESDraw_SpecificModule)
 #include <Interface_Macros.hxx>
 
 #include <IGESDraw_CircArraySubfigure.hxx>

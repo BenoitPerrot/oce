@@ -12,7 +12,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IntSurf_LineOn2S.ixx>
+#include <Standard_OutOfRange.hxx>
+#include <IntSurf_PntOn2S.hxx>
+#include <IntSurf_LineOn2S.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IntSurf_LineOn2S)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IntSurf_LineOn2S)
+IMPLEMENT_DOWNCAST(IntSurf_LineOn2S,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IntSurf_LineOn2S)
 
 
 IntSurf_LineOn2S::IntSurf_LineOn2S (const IntSurf_Allocator& theAllocator) :

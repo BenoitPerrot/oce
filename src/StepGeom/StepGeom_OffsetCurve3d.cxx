@@ -11,7 +11,22 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepGeom_OffsetCurve3d.ixx>
+#include <StepGeom_Curve.hxx>
+#include <StepGeom_Direction.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepGeom_OffsetCurve3d.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepGeom_OffsetCurve3d)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepGeom_Curve),
+  STANDARD_TYPE(StepGeom_GeometricRepresentationItem),
+  STANDARD_TYPE(StepRepr_RepresentationItem),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepGeom_OffsetCurve3d)
+IMPLEMENT_DOWNCAST(StepGeom_OffsetCurve3d,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepGeom_OffsetCurve3d)
 
 
 StepGeom_OffsetCurve3d::StepGeom_OffsetCurve3d ()  {}

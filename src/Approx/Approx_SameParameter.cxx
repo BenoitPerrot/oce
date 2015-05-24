@@ -16,7 +16,16 @@
 
 //  Modified by skv - Wed Jun  2 11:49:59 2004 OCC5898
 
-#include <Approx_SameParameter.ixx>
+#include <Geom2d_BSplineCurve.hxx>
+#include <Adaptor2d_HCurve2d.hxx>
+#include <Adaptor3d_HCurve.hxx>
+#include <Adaptor3d_HSurface.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Standard_ConstructionError.hxx>
+#include <Geom_Curve.hxx>
+#include <Geom2d_Curve.hxx>
+#include <Geom_Surface.hxx>
+#include <Approx_SameParameter.hxx>
 #include <TColStd_Array1OfReal.hxx>
 #include <BSplCLib.hxx>
 #include <Adaptor3d_CurveOnSurface.hxx>

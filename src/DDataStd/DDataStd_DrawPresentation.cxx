@@ -14,7 +14,23 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <DDataStd_DrawPresentation.ixx>
+#include <Draw_Drawable3D.hxx>
+#include <TDF_Label.hxx>
+#include <Standard_GUID.hxx>
+#include <TDF_Attribute.hxx>
+#include <TDF_RelocationTable.hxx>
+#include <TDF_AttributeDelta.hxx>
+#include <DDataStd_DrawPresentation.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(DDataStd_DrawPresentation)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(TDF_Attribute),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(DDataStd_DrawPresentation)
+IMPLEMENT_DOWNCAST(DDataStd_DrawPresentation,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(DDataStd_DrawPresentation)
 #include <Draw_Drawable3D.hxx>
 #include <Draw.hxx>
 #include <Draw_Viewer.hxx>

@@ -13,7 +13,18 @@
 // commercial license or contractual agreement.
 
 #include <windows.h>
-#include <WNT_WClass.ixx>
+#include <WNT_ClassDefinitionError.hxx>
+#include <WNT_Window.hxx>
+#include <WNT_WClass.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(WNT_WClass)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(WNT_WClass)
+IMPLEMENT_DOWNCAST(WNT_WClass,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(WNT_WClass)
 
 #include <Standard_PCharacter.hxx>
 #include <InterfaceGraphic.hxx>

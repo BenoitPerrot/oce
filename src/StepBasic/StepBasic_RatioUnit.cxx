@@ -11,7 +11,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepBasic_RatioUnit.ixx>
+#include <StepBasic_RatioUnit.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepBasic_RatioUnit)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepBasic_NamedUnit),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepBasic_RatioUnit)
+IMPLEMENT_DOWNCAST(StepBasic_RatioUnit,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepBasic_RatioUnit)
 
 
 StepBasic_RatioUnit::StepBasic_RatioUnit ()  {}

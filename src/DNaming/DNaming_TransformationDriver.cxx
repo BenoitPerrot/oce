@@ -13,7 +13,21 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <DNaming_TransformationDriver.ixx>
+#include <TFunction_Logbook.hxx>
+#include <TDF_Label.hxx>
+#include <TNaming_NamedShape.hxx>
+#include <gp_Trsf.hxx>
+#include <DNaming_TransformationDriver.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(DNaming_TransformationDriver)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(TFunction_Driver),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(DNaming_TransformationDriver)
+IMPLEMENT_DOWNCAST(DNaming_TransformationDriver,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(DNaming_TransformationDriver)
 #include <Standard_NullObject.hxx>
 #include <TopAbs.hxx>
 #include <TopoDS.hxx>

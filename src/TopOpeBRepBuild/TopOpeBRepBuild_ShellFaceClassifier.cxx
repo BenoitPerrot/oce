@@ -14,7 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopOpeBRepBuild_ShellFaceClassifier.ixx>
+#include <TopOpeBRepBuild_BlockBuilder.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopOpeBRepBuild_ShellFaceClassifier.hxx>
 
 #include <Precision.hxx>
 #include <TopoDS.hxx>

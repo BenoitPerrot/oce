@@ -12,7 +12,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Blend_Point.ixx>
+#include <Standard_DomainError.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Vec.hxx>
+#include <gp_Vec2d.hxx>
+#include <Blend_Point.hxx>
 
 Blend_Point::Blend_Point ():istgt(Standard_True) {}
 

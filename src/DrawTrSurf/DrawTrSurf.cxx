@@ -17,7 +17,22 @@
 #include <Standard_Stream.hxx>
 
 #include <Draw_Color.hxx>
-#include <DrawTrSurf.ixx>
+#include <gp_Pnt.hxx>
+#include <gp_Pnt2d.hxx>
+#include <Geom_Geometry.hxx>
+#include <Geom2d_Curve.hxx>
+#include <Poly_Triangulation.hxx>
+#include <Poly_Polygon3D.hxx>
+#include <Poly_Polygon2D.hxx>
+#include <Geom_Curve.hxx>
+#include <Geom_BezierCurve.hxx>
+#include <Geom_BSplineCurve.hxx>
+#include <Geom2d_BezierCurve.hxx>
+#include <Geom2d_BSplineCurve.hxx>
+#include <Geom_Surface.hxx>
+#include <Geom_BezierSurface.hxx>
+#include <Geom_BSplineSurface.hxx>
+#include <DrawTrSurf.hxx>
 #include <DrawTrSurf_Point.hxx>
 #include <DrawTrSurf_BezierSurface.hxx>
 #include <DrawTrSurf_BSplineSurface.hxx>

@@ -11,7 +11,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <HeaderSection_Protocol.ixx>
+#include <Standard_Type.hxx>
+#include <HeaderSection_Protocol.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(HeaderSection_Protocol)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepData_Protocol),
+  STANDARD_TYPE(Interface_Protocol),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(HeaderSection_Protocol)
+IMPLEMENT_DOWNCAST(HeaderSection_Protocol,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(HeaderSection_Protocol)
 
 #include <HeaderSection_FileName.hxx>
 #include <HeaderSection_FileDescription.hxx>

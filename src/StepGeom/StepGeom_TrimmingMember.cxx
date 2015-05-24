@@ -11,7 +11,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepGeom_TrimmingMember.ixx>
+#include <StepGeom_TrimmingMember.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepGeom_TrimmingMember)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepData_SelectReal),
+  STANDARD_TYPE(StepData_SelectMember),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepGeom_TrimmingMember)
+IMPLEMENT_DOWNCAST(StepGeom_TrimmingMember,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepGeom_TrimmingMember)
 
 StepGeom_TrimmingMember::StepGeom_TrimmingMember  ()    {  }
 

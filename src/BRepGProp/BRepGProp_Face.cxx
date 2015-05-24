@@ -12,7 +12,15 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepGProp_Face.ixx>
+#include <TopoDS_Face.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Vec.hxx>
+#include <TopoDS_Edge.hxx>
+#include <gp_Pnt2d.hxx>
+#include <gp_Vec2d.hxx>
+#include <TColStd_HArray1OfReal.hxx>
+#include <BRepGProp_Face.hxx>
 
 #include <TopoDS.hxx>
 

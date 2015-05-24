@@ -11,7 +11,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepShape_Sphere.ixx>
+#include <StepGeom_Point.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepShape_Sphere.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepShape_Sphere)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepGeom_GeometricRepresentationItem),
+  STANDARD_TYPE(StepRepr_RepresentationItem),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepShape_Sphere)
+IMPLEMENT_DOWNCAST(StepShape_Sphere,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepShape_Sphere)
 
 
 StepShape_Sphere::StepShape_Sphere ()  {}

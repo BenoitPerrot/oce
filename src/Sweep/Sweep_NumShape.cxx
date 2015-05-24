@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Sweep_NumShape.ixx>
+#include <Sweep_NumShape.hxx>
 
 
 //=======================================================================

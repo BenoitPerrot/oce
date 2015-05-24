@@ -13,7 +13,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <XmlMDataStd_DirectoryDriver.ixx>
+#include <CDM_MessageDriver.hxx>
+#include <TDF_Attribute.hxx>
+#include <XmlObjMgt_Persistent.hxx>
+#include <XmlMDataStd_DirectoryDriver.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(XmlMDataStd_DirectoryDriver)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(XmlMDF_ADriver),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(XmlMDataStd_DirectoryDriver)
+IMPLEMENT_DOWNCAST(XmlMDataStd_DirectoryDriver,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(XmlMDataStd_DirectoryDriver)
 #include <TDataStd_Directory.hxx>
 
 //=======================================================================

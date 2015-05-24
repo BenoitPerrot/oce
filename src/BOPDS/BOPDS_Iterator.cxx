@@ -15,7 +15,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BOPDS_Iterator.ixx>
+#include <BOPDS_DS.hxx>
+#include <BOPDS_Iterator.hxx>
 //
 #include <Bnd_Box.hxx>
 //

@@ -16,7 +16,21 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESDimen_DimensionDisplayData.ixx>
+#include <TCollection_HAsciiString.hxx>
+#include <TColStd_HArray1OfInteger.hxx>
+#include <Standard_DimensionMismatch.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <IGESDimen_DimensionDisplayData.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESDimen_DimensionDisplayData)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IGESData_IGESEntity),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESDimen_DimensionDisplayData)
+IMPLEMENT_DOWNCAST(IGESDimen_DimensionDisplayData,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESDimen_DimensionDisplayData)
 
 
 IGESDimen_DimensionDisplayData::IGESDimen_DimensionDisplayData ()    {  }

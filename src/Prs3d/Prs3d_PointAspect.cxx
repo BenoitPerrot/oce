@@ -15,7 +15,20 @@
 #define GER61351		//GG_171199     Enable to set an object RGB color
 //						  instead a restricted object NameOfColor.
 
-#include <Prs3d_PointAspect.ixx>
+#include <Graphic3d_AspectMarker3d.hxx>
+#include <Quantity_Color.hxx>
+#include <TColStd_HArray1OfByte.hxx>
+#include <Prs3d_PointAspect.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Prs3d_PointAspect)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Prs3d_BasicAspect),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Prs3d_PointAspect)
+IMPLEMENT_DOWNCAST(Prs3d_PointAspect,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Prs3d_PointAspect)
 
 #ifdef GER61351
 Prs3d_PointAspect::Prs3d_PointAspect (const Aspect_TypeOfMarker aType,

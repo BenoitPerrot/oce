@@ -11,7 +11,34 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IGESData_IGESEntity.ixx>
+#include <IGESData_IGESEntity.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <Interface_InterfaceError.hxx>
+#include <IGESData_ReadWriteModule.hxx>
+#include <IGESData_GeneralModule.hxx>
+#include <IGESData_IGESReaderTool.hxx>
+#include <IGESData_DirChecker.hxx>
+#include <IGESData_IGESType.hxx>
+#include <IGESData_LineFontEntity.hxx>
+#include <IGESData_LevelListEntity.hxx>
+#include <IGESData_ViewKindEntity.hxx>
+#include <IGESData_TransfEntity.hxx>
+#include <IGESData_LabelDisplayEntity.hxx>
+#include <IGESData_ColorEntity.hxx>
+#include <gp_GTrsf.hxx>
+#include <Interface_EntityIterator.hxx>
+#include <Standard_Type.hxx>
+#include <Interface_EntityList.hxx>
+#include <IGESData_IGESEntity.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESData_IGESEntity)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESData_IGESEntity)
+IMPLEMENT_DOWNCAST(IGESData_IGESEntity,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESData_IGESEntity)
 #include <IGESData_NameEntity.hxx>
 #include <IGESData_SingleParentEntity.hxx>
 #include <Interface_InterfaceError.hxx>

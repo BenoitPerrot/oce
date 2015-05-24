@@ -12,7 +12,22 @@
 // commercial license or contractual agreement.
 
 //szv#9:PRO19565:04Oct99 loss of rotation matrix corrected
-#include <IGESData_ToolLocation.ixx>
+#include <IGESData_IGESModel.hxx>
+#include <Standard_DomainError.hxx>
+#include <IGESData_Protocol.hxx>
+#include <IGESData_IGESEntity.hxx>
+#include <gp_GTrsf.hxx>
+#include <gp_Trsf.hxx>
+#include <IGESData_ToolLocation.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESData_ToolLocation)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESData_ToolLocation)
+IMPLEMENT_DOWNCAST(IGESData_ToolLocation,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESData_ToolLocation)
 #include <Interface_EntityIterator.hxx>
 #include <Interface_Macros.hxx>
 #include <IGESData_TransfEntity.hxx>

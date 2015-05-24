@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Voxel_ROctBoolDS.ixx>
+#include <Voxel_ROctBoolDS.hxx>
 #include <Voxel_SplitData.hxx>
 
 #include <stdlib.h>

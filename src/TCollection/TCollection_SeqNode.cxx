@@ -12,4 +12,16 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TCollection_SeqNode.ixx>
+#include <Standard_Type.hxx>
+#include <TCollection_SeqNode.hxx>
+
+IMPLEMENT_STANDARD_TYPE(TCollection_SeqNode)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(TCollection_SeqNode)
+
+IMPLEMENT_DOWNCAST(TCollection_SeqNode,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(TCollection_SeqNode)

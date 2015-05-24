@@ -14,7 +14,14 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepAlgo_NormalProjection.ixx>
+#include <Standard_ConstructionError.hxx>
+#include <Standard_NoSuchObject.hxx>
+#include <StdFail_NotDone.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopoDS_Edge.hxx>
+#include <TopTools_ListOfShape.hxx>
+#include <Adaptor3d_Curve.hxx>
+#include <BRepAlgo_NormalProjection.hxx>
 #include <ProjLib_CompProjectedCurve.hxx>
 #include <TopTools_HSequenceOfShape.hxx>
 #include <TopExp_Explorer.hxx>

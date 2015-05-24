@@ -11,7 +11,21 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepAP214_AppliedOrganizationAssignment.ixx>
+#include <StepAP214_HArray1OfOrganizationItem.hxx>
+#include <StepBasic_Organization.hxx>
+#include <StepBasic_OrganizationRole.hxx>
+#include <StepAP214_OrganizationItem.hxx>
+#include <StepAP214_AppliedOrganizationAssignment.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepAP214_AppliedOrganizationAssignment)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepBasic_OrganizationAssignment),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepAP214_AppliedOrganizationAssignment)
+IMPLEMENT_DOWNCAST(StepAP214_AppliedOrganizationAssignment,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepAP214_AppliedOrganizationAssignment)
 
 
 StepAP214_AppliedOrganizationAssignment::StepAP214_AppliedOrganizationAssignment ()  {}

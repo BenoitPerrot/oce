@@ -14,7 +14,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Contap_HContTool.ixx>
+#include <Adaptor3d_HSurface.hxx>
+#include <Adaptor2d_HCurve2d.hxx>
+#include <gp_Pnt2d.hxx>
+#include <Adaptor3d_HVertex.hxx>
+#include <gp_Pnt.hxx>
+#include <Contap_HContTool.hxx>
 
 #include <Extrema_EPCOfExtPC2d.hxx>
 #include <Extrema_POnCurv2d.hxx>

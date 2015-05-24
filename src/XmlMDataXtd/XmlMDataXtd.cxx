@@ -15,7 +15,9 @@
 
 // modified     20.04.2009 Sergey Zaritchny
 
-#include <XmlMDataXtd.ixx>
+#include <XmlMDF_ADriverTable.hxx>
+#include <CDM_MessageDriver.hxx>
+#include <XmlMDataXtd.hxx>
 
 #include <XmlMDataXtd_ShapeDriver.hxx>
 #include <XmlMDataXtd_PointDriver.hxx>

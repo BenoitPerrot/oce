@@ -13,7 +13,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IntTools_CurveRangeLocalizeData.ixx>
+#include <IntTools_CurveRangeSample.hxx>
+#include <Bnd_Box.hxx>
+#include <IntTools_ListOfCurveRangeSample.hxx>
+#include <IntTools_CurveRangeLocalizeData.hxx>
 #include <IntTools_ListIteratorOfListOfCurveRangeSample.hxx>
 #include <IntTools_ListIteratorOfListOfBox.hxx>
 #include <IntTools_MapIteratorOfMapOfCurveSample.hxx>

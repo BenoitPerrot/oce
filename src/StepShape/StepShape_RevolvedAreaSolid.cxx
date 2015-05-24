@@ -11,7 +11,23 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepShape_RevolvedAreaSolid.ixx>
+#include <StepGeom_Axis1Placement.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepGeom_CurveBoundedSurface.hxx>
+#include <StepShape_RevolvedAreaSolid.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepShape_RevolvedAreaSolid)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepShape_SweptAreaSolid),
+  STANDARD_TYPE(StepShape_SolidModel),
+  STANDARD_TYPE(StepGeom_GeometricRepresentationItem),
+  STANDARD_TYPE(StepRepr_RepresentationItem),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepShape_RevolvedAreaSolid)
+IMPLEMENT_DOWNCAST(StepShape_RevolvedAreaSolid,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepShape_RevolvedAreaSolid)
 
 
 StepShape_RevolvedAreaSolid::StepShape_RevolvedAreaSolid ()  {}

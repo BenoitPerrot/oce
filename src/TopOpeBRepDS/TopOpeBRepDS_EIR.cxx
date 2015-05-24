@@ -12,7 +12,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopOpeBRepDS_EIR.ixx>
+#include <TopOpeBRepDS_HDataStructure.hxx>
+#include <TopOpeBRepDS_EIR.hxx>
 #include <BRep_Tool.hxx>
 #include <TopExp.hxx>
 #include <TopOpeBRepDS_CurvePointInterference.hxx>

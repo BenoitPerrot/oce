@@ -14,7 +14,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <gce_MakeLin2d.ixx>
+#include <StdFail_NotDone.hxx>
+#include <gp_Ax2d.hxx>
+#include <gp_Pnt2d.hxx>
+#include <gp_Dir2d.hxx>
+#include <gp_Lin2d.hxx>
+#include <gce_MakeLin2d.hxx>
 #include <gp.hxx>
 #include <StdFail_NotDone.hxx>
 

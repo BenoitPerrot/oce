@@ -11,7 +11,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepBasic_ProductDefinitionFormation.ixx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepBasic_Product.hxx>
+#include <StepBasic_ProductDefinitionFormation.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepBasic_ProductDefinitionFormation)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepBasic_ProductDefinitionFormation)
+IMPLEMENT_DOWNCAST(StepBasic_ProductDefinitionFormation,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepBasic_ProductDefinitionFormation)
 
 
 StepBasic_ProductDefinitionFormation::StepBasic_ProductDefinitionFormation ()  {}

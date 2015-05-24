@@ -15,7 +15,18 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V2.0
 
-#include <StepElement_VolumeElementPurposeMember.ixx>
+#include <StepElement_VolumeElementPurposeMember.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepElement_VolumeElementPurposeMember)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepData_SelectNamed),
+  STANDARD_TYPE(StepData_SelectMember),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepElement_VolumeElementPurposeMember)
+IMPLEMENT_DOWNCAST(StepElement_VolumeElementPurposeMember,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepElement_VolumeElementPurposeMember)
 #include <TCollection_HAsciiString.hxx>
 
 static Standard_CString EVEP = "ENUMERATED_VOLUME_ELEMENT_PURPOSE";

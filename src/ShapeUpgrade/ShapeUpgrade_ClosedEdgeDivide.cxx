@@ -13,7 +13,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <ShapeUpgrade_ClosedEdgeDivide.ixx>
+#include <TopoDS_Edge.hxx>
+#include <ShapeUpgrade_ClosedEdgeDivide.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(ShapeUpgrade_ClosedEdgeDivide)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(ShapeUpgrade_EdgeDivide),
+  STANDARD_TYPE(ShapeUpgrade_Tool),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(ShapeUpgrade_ClosedEdgeDivide)
+IMPLEMENT_DOWNCAST(ShapeUpgrade_ClosedEdgeDivide,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_ClosedEdgeDivide)
 #include <ShapeAnalysis_Edge.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <Geom_Curve.hxx>

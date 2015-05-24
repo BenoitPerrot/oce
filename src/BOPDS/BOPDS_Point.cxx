@@ -12,4 +12,6 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BOPDS_Point.ixx>
+#include <gp_Pnt.hxx>
+#include <gp_Pnt2d.hxx>
+#include <BOPDS_Point.hxx>

@@ -17,7 +17,8 @@
 //rln 06.01.98 new method SetUnit
 
 
-#include <GeomToIGES_GeomEntity.ixx>
+#include <IGESData_IGESModel.hxx>
+#include <GeomToIGES_GeomEntity.hxx>
 
 #include <IGESData_IGESModel.hxx>
 

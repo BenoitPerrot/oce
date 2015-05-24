@@ -17,7 +17,12 @@
 //abv 17.11.99: renamed from StepPDR_MakeUnitAndToleranceContext and merged with STEPControl_Unit
 //abv 30.02.00: ability to write file in units other than MM
 
-#include <STEPConstruct_UnitContext.ixx>
+#include <StepGeom_GeomRepContextAndGlobUnitAssCtxAndGlobUncertaintyAssCtx.hxx>
+#include <StepRepr_GlobalUnitAssignedContext.hxx>
+#include <StepBasic_NamedUnit.hxx>
+#include <StepRepr_GlobalUncertaintyAssignedContext.hxx>
+#include <StepBasic_SiUnit.hxx>
+#include <STEPConstruct_UnitContext.hxx>
 
 #include <TCollection_HAsciiString.hxx>
 

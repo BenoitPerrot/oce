@@ -11,7 +11,24 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IFSelect_ModifEditForm.ixx>
+#include <IFSelect_EditForm.hxx>
+#include <IFSelect_ContextModif.hxx>
+#include <Interface_InterfaceModel.hxx>
+#include <Interface_Protocol.hxx>
+#include <Interface_CopyTool.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <IFSelect_ModifEditForm.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IFSelect_ModifEditForm)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IFSelect_Modifier),
+  STANDARD_TYPE(IFSelect_GeneralModifier),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IFSelect_ModifEditForm)
+IMPLEMENT_DOWNCAST(IFSelect_ModifEditForm,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IFSelect_ModifEditForm)
 
 IFSelect_ModifEditForm::IFSelect_ModifEditForm
   (const Handle(IFSelect_EditForm)& editform)

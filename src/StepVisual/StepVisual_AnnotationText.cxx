@@ -11,7 +11,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepVisual_AnnotationText.ixx>
+#include <StepVisual_AnnotationText.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepVisual_AnnotationText)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepRepr_MappedItem),
+  STANDARD_TYPE(StepRepr_RepresentationItem),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepVisual_AnnotationText)
+IMPLEMENT_DOWNCAST(StepVisual_AnnotationText,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepVisual_AnnotationText)
 
 
 StepVisual_AnnotationText::StepVisual_AnnotationText ()  {}

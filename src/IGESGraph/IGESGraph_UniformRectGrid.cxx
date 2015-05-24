@@ -16,7 +16,20 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESGraph_UniformRectGrid.ixx>
+#include <gp_XY.hxx>
+#include <gp_Pnt2d.hxx>
+#include <gp_Vec2d.hxx>
+#include <IGESGraph_UniformRectGrid.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESGraph_UniformRectGrid)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IGESData_IGESEntity),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESGraph_UniformRectGrid)
+IMPLEMENT_DOWNCAST(IGESGraph_UniformRectGrid,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESGraph_UniformRectGrid)
 
 
 IGESGraph_UniformRectGrid::IGESGraph_UniformRectGrid ()    {  }

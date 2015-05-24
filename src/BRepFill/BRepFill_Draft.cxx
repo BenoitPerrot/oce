@@ -15,7 +15,17 @@
 // commercial license or contractual agreement.
 
 
-#include <BRepFill_Draft.ixx>
+#include <BRepFill_DraftLaw.hxx>
+#include <BRepFill_SectionLaw.hxx>
+#include <TopTools_HArray2OfShape.hxx>
+#include <StdFail_NotDone.hxx>
+#include <TopoDS_Shape.hxx>
+#include <gp_Dir.hxx>
+#include <Geom_Surface.hxx>
+#include <TopoDS_Shell.hxx>
+#include <TopTools_ListOfShape.hxx>
+#include <Bnd_Box.hxx>
+#include <BRepFill_Draft.hxx>
 
 #include <BRepFill_DraftLaw.hxx>
 #include <BRepFill_ShapeLaw.hxx>

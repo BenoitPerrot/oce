@@ -17,7 +17,28 @@
 #define GER61351		//GG_171199     Enable to set an object RGB color
 //						  instead a restricted object NameOfColor.
 
-#include <AIS_Plane.ixx>
+#include <Geom_Plane.hxx>
+#include <Geom_Axis2Placement.hxx>
+#include <gp_Pnt.hxx>
+#include <AIS_InteractiveContext.hxx>
+#include <Prs3d_Presentation.hxx>
+#include <Prs3d_Projector.hxx>
+#include <Geom_Transformation.hxx>
+#include <SelectMgr_Selection.hxx>
+#include <Quantity_Color.hxx>
+#include <AIS_Plane.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(AIS_Plane)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(AIS_InteractiveObject),
+  STANDARD_TYPE(SelectMgr_SelectableObject),
+  STANDARD_TYPE(PrsMgr_PresentableObject),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(AIS_Plane)
+IMPLEMENT_DOWNCAST(AIS_Plane,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(AIS_Plane)
 
 #include <TColgp_Array1OfPnt.hxx>
 #include <TColgp_HArray1OfPnt.hxx>

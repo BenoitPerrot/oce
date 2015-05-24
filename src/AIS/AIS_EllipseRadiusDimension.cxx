@@ -14,7 +14,24 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <AIS_EllipseRadiusDimension.ixx>
+#include <Geom_OffsetCurve.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TCollection_ExtendedString.hxx>
+#include <Geom_Surface.hxx>
+#include <AIS_EllipseRadiusDimension.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(AIS_EllipseRadiusDimension)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(AIS_Relation),
+  STANDARD_TYPE(AIS_InteractiveObject),
+  STANDARD_TYPE(SelectMgr_SelectableObject),
+  STANDARD_TYPE(PrsMgr_PresentableObject),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(AIS_EllipseRadiusDimension)
+IMPLEMENT_DOWNCAST(AIS_EllipseRadiusDimension,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(AIS_EllipseRadiusDimension)
 
 #include <TCollection_ExtendedString.hxx>
 

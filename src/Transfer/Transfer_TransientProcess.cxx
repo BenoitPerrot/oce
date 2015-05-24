@@ -11,7 +11,26 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Transfer_TransientProcess.ixx>
+#include <Interface_InterfaceModel.hxx>
+#include <Interface_HGraph.hxx>
+#include <Dico_DictionaryOfTransient.hxx>
+#include <TColStd_HSequenceOfTransient.hxx>
+#include <Interface_Graph.hxx>
+#include <Standard_Transient.hxx>
+#include <Standard_Type.hxx>
+#include <Message_Messenger.hxx>
+#include <Interface_EntityIterator.hxx>
+#include <Transfer_TransientProcess.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Transfer_TransientProcess)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Transfer_ProcessForTransient),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Transfer_TransientProcess)
+IMPLEMENT_DOWNCAST(Transfer_TransientProcess,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Transfer_TransientProcess)
 #include <Interface_Check.hxx>
 #include <Interface_MSG.hxx>
 #include <Transfer_Binder.hxx>

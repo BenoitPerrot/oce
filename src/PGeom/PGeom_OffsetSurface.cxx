@@ -14,7 +14,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PGeom_OffsetSurface.ixx>
+#include <PGeom_Surface.hxx>
+#include <PGeom_OffsetSurface.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(PGeom_OffsetSurface)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(PGeom_Surface),
+  STANDARD_TYPE(PGeom_Geometry),
+  STANDARD_TYPE(Standard_Persistent),
+  STANDARD_TYPE(Standard_Storable),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(PGeom_OffsetSurface)
+IMPLEMENT_DOWNCAST(PGeom_OffsetSurface,Standard_Persistent)
+IMPLEMENT_STANDARD_RTTI(PGeom_OffsetSurface)
 
 //=======================================================================
 //function : PGeom_OffsetSurface

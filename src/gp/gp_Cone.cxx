@@ -15,7 +15,20 @@
 // LPA, JCV  07/92 passage sur C1.
 // JCV 07/92 Introduction de la method Dump 
 
-#include <gp_Cone.ixx>
+#include <Standard_ConstructionError.hxx>
+#include <gp_Ax3.hxx>
+#include <gp_Ax1.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Ax2.hxx>
+#include <gp_Trsf.hxx>
+#include <gp_Vec.hxx>
+#include <gp_Cone.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(gp_Cone)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Standard_Storable),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(gp_Cone)
 
 void gp_Cone::Coefficients
 (Standard_Real& A1, Standard_Real& A2, Standard_Real& A3, 

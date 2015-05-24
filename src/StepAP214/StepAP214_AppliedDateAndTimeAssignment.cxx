@@ -11,7 +11,21 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepAP214_AppliedDateAndTimeAssignment.ixx>
+#include <StepAP214_HArray1OfDateAndTimeItem.hxx>
+#include <StepBasic_DateAndTime.hxx>
+#include <StepBasic_DateTimeRole.hxx>
+#include <StepAP214_DateAndTimeItem.hxx>
+#include <StepAP214_AppliedDateAndTimeAssignment.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepAP214_AppliedDateAndTimeAssignment)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepBasic_DateAndTimeAssignment),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepAP214_AppliedDateAndTimeAssignment)
+IMPLEMENT_DOWNCAST(StepAP214_AppliedDateAndTimeAssignment,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepAP214_AppliedDateAndTimeAssignment)
 
 
 StepAP214_AppliedDateAndTimeAssignment::StepAP214_AppliedDateAndTimeAssignment ()  {}

@@ -17,7 +17,19 @@
 //--------------------------------------------------------------------
 //pdn 20.04.99 STC22655 avoid of exceptions on empty loops
 
-#include <IGESSolid_ToolLoop.ixx>
+#include <Standard_DomainError.hxx>
+#include <IGESSolid_Loop.hxx>
+#include <IGESData_IGESReaderData.hxx>
+#include <IGESData_ParamReader.hxx>
+#include <IGESData_IGESWriter.hxx>
+#include <Interface_EntityIterator.hxx>
+#include <IGESData_DirChecker.hxx>
+#include <Interface_ShareTool.hxx>
+#include <Interface_Check.hxx>
+#include <Interface_CopyTool.hxx>
+#include <IGESData_IGESDumper.hxx>
+#include <Message_Messenger.hxx>
+#include <IGESSolid_ToolLoop.hxx>
 #include <IGESData_ParamCursor.hxx>
 #include <IGESData_IGESEntity.hxx>
 #include <IGESData_HArray1OfIGESEntity.hxx>

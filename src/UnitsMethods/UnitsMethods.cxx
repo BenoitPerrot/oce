@@ -11,7 +11,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <UnitsMethods.ixx>
+#include <Geom2d_Curve.hxx>
+#include <Geom_Surface.hxx>
+#include <UnitsMethods.hxx>
 
 #include <Geom_Plane.hxx>
 #include <Geom_Surface.hxx>

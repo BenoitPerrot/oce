@@ -13,7 +13,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <XCAFPrs_Driver.ixx>
+#include <TDF_Label.hxx>
+#include <AIS_InteractiveObject.hxx>
+#include <Standard_GUID.hxx>
+#include <XCAFPrs_Driver.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(XCAFPrs_Driver)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(TPrsStd_Driver),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(XCAFPrs_Driver)
+IMPLEMENT_DOWNCAST(XCAFPrs_Driver,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(XCAFPrs_Driver)
 #include <XCAFPrs_AISObject.hxx>
 #include <XCAFDoc_ShapeTool.hxx>
 

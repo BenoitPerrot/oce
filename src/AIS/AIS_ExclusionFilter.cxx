@@ -14,7 +14,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <AIS_ExclusionFilter.ixx>
+#include <SelectMgr_EntityOwner.hxx>
+#include <TColStd_ListOfInteger.hxx>
+#include <AIS_ExclusionFilter.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(AIS_ExclusionFilter)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(SelectMgr_Filter),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(AIS_ExclusionFilter)
+IMPLEMENT_DOWNCAST(AIS_ExclusionFilter,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(AIS_ExclusionFilter)
 #include <TColStd_ListOfInteger.hxx>
 #include <TColStd_ListIteratorOfListOfInteger.hxx>
 #include <TColStd_DataMapIteratorOfDataMapOfIntegerListOfInteger.hxx>

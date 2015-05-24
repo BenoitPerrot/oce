@@ -14,7 +14,28 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PrsMgr_PresentableObject.ixx>
+#include <Standard_NotImplemented.hxx>
+#include <PrsMgr_Presentation.hxx>
+#include <PrsMgr_PresentationManager.hxx>
+#include <Graphic3d_Structure.hxx>
+#include <Graphic3d_DataStructureManager.hxx>
+#include <Geom_Transformation.hxx>
+#include <Prs3d_Presentation.hxx>
+#include <Prs3d_Projector.hxx>
+#include <PrsMgr_Presentations.hxx>
+#include <gp_Pnt.hxx>
+#include <TColStd_ListOfInteger.hxx>
+#include <gp_Trsf.hxx>
+#include <PrsMgr_PresentableObject.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(PrsMgr_PresentableObject)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(PrsMgr_PresentableObject)
+IMPLEMENT_DOWNCAST(PrsMgr_PresentableObject,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(PrsMgr_PresentableObject)
 #include <PrsMgr_Presentation.hxx>
 #include <PrsMgr_ModedPresentation.hxx>
 #include <PrsMgr_PresentationManager.hxx>

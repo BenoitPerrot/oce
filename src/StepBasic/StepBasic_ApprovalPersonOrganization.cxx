@@ -11,7 +11,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepBasic_ApprovalPersonOrganization.ixx>
+#include <StepBasic_Approval.hxx>
+#include <StepBasic_ApprovalRole.hxx>
+#include <StepBasic_PersonOrganizationSelect.hxx>
+#include <StepBasic_ApprovalPersonOrganization.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepBasic_ApprovalPersonOrganization)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepBasic_ApprovalPersonOrganization)
+IMPLEMENT_DOWNCAST(StepBasic_ApprovalPersonOrganization,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepBasic_ApprovalPersonOrganization)
 
 
 StepBasic_ApprovalPersonOrganization::StepBasic_ApprovalPersonOrganization ()  {}

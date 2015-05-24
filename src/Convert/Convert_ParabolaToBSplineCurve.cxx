@@ -15,7 +15,8 @@
 //JCV 16/10/91
 
 
-#include <Convert_ParabolaToBSplineCurve.ixx>
+#include <gp_Parab2d.hxx>
+#include <Convert_ParabolaToBSplineCurve.hxx>
 
 #include <gp.hxx>
 #include <gp_Ax2d.hxx>

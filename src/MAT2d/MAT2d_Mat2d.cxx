@@ -14,7 +14,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <MAT2d_Mat2d.ixx>
+#include <MAT_ListOfEdge.hxx>
+#include <MAT_ListOfBisector.hxx>
+#include <MAT2d_Tool2d.hxx>
+#include <MAT_Bisector.hxx>
+#include <MAT2d_Mat2d.hxx>
 
 #include <MAT_Edge.hxx>
 #include <MAT_ListOfEdge.hxx>

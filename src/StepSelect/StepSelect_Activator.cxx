@@ -12,7 +12,18 @@
 // commercial license or contractual agreement.
 
 #include <Standard_ErrorHandler.hxx>
-#include <StepSelect_Activator.ixx>
+#include <IFSelect_SessionPilot.hxx>
+#include <StepSelect_Activator.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepSelect_Activator)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IFSelect_Activator),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepSelect_Activator)
+IMPLEMENT_DOWNCAST(StepSelect_Activator,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepSelect_Activator)
 #include <Interface_Macros.hxx>
 #include <Standard_Failure.hxx>
 

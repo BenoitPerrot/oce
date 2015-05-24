@@ -14,7 +14,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GC_MakeRotation.ixx>
+#include <Geom_Transformation.hxx>
+#include <gp_Lin.hxx>
+#include <gp_Ax1.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Dir.hxx>
+#include <GC_MakeRotation.hxx>
 #include <GC_MakeRotation.hxx>
 #include <StdFail_NotDone.hxx>
 

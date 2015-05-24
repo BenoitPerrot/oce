@@ -14,7 +14,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <ViewerTest_EventManager.ixx>
+#include <AIS_InteractiveContext.hxx>
+#include <V3d_View.hxx>
+#include <TColgp_Array1OfPnt2d.hxx>
+#include <ViewerTest_EventManager.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(ViewerTest_EventManager)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(ViewerTest_EventManager)
+IMPLEMENT_DOWNCAST(ViewerTest_EventManager,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(ViewerTest_EventManager)
 #include <AIS_InteractiveContext.hxx>
 #include <Aspect_Grid.hxx>
 #include <NIS_View.hxx>

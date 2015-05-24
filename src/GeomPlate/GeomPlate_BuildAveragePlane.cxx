@@ -23,7 +23,14 @@
 //              correction sur le tri des valeurs propres quand valeurs egales
 
 
-#include <GeomPlate_BuildAveragePlane.ixx>
+#include <TColgp_HArray1OfPnt.hxx>
+#include <Geom_Plane.hxx>
+#include <Geom_Line.hxx>
+#include <Standard_NoSuchObject.hxx>
+#include <TColgp_SequenceOfVec.hxx>
+#include <gp_Vec.hxx>
+#include <GeomPlate_SequenceOfAij.hxx>
+#include <GeomPlate_BuildAveragePlane.hxx>
 #include <TColgp_Array1OfVec.hxx>
 #include <math_Matrix.hxx>
 #include <gp_Pnt.hxx>

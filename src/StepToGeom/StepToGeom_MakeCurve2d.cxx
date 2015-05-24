@@ -17,7 +17,9 @@
 //:n7 abv 15.02.99: S4132: adding translation of curve_replica
 //:p0 abv 19.02.99: management of 'done' flag improved
 
-#include <StepToGeom_MakeCurve2d.ixx>
+#include <StepGeom_Curve.hxx>
+#include <Geom2d_Curve.hxx>
+#include <StepToGeom_MakeCurve2d.hxx>
 #include <StepGeom_Curve.hxx>
 #include <StepGeom_TrimmedCurve.hxx>
 #include <StepGeom_HArray1OfTrimmingSelect.hxx>

@@ -16,7 +16,18 @@
 
 #include <stdio.h>
 
-#include <BRepBlend_RstRstLineBuilder.ixx>
+#include <BRepBlend_Line.hxx>
+#include <Adaptor3d_HSurface.hxx>
+#include <Adaptor3d_TopolTool.hxx>
+#include <Adaptor2d_HCurve2d.hxx>
+#include <Blend_RstRstFunction.hxx>
+#include <Blend_SurfCurvFuncInv.hxx>
+#include <Blend_CurvPointFuncInv.hxx>
+#include <Adaptor3d_HVertex.hxx>
+#include <IntSurf_Transition.hxx>
+#include <BRepBlend_Extremity.hxx>
+#include <Blend_Point.hxx>
+#include <BRepBlend_RstRstLineBuilder.hxx>
 #include <BRepBlend_BlendTool.hxx>
 #include <TopAbs.hxx>
 #include <IntSurf.hxx>

@@ -14,7 +14,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PGeom_SphericalSurface.ixx>
+#include <gp_Ax3.hxx>
+#include <PGeom_SphericalSurface.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(PGeom_SphericalSurface)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(PGeom_ElementarySurface),
+  STANDARD_TYPE(PGeom_Surface),
+  STANDARD_TYPE(PGeom_Geometry),
+  STANDARD_TYPE(Standard_Persistent),
+  STANDARD_TYPE(Standard_Storable),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(PGeom_SphericalSurface)
+IMPLEMENT_DOWNCAST(PGeom_SphericalSurface,Standard_Persistent)
+IMPLEMENT_STANDARD_RTTI(PGeom_SphericalSurface)
 
 //=======================================================================
 //function : PGeom_SphericalSurface

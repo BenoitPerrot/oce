@@ -18,7 +18,14 @@
 //pdn 11.01.99 including <stdio.h> for compilation on NT
 
 #include <stdio.h>
-#include <APIHeaderSection_MakeHeader.ixx>
+#include <HeaderSection_FileName.hxx>
+#include <HeaderSection_FileSchema.hxx>
+#include <HeaderSection_FileDescription.hxx>
+#include <StepData_StepModel.hxx>
+#include <Interface_Protocol.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <Interface_HArray1OfHAsciiString.hxx>
+#include <APIHeaderSection_MakeHeader.hxx>
 #include <TCollection_HAsciiString.hxx>
 #include <Interface_EntityIterator.hxx>
 

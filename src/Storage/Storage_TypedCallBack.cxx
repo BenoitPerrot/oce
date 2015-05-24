@@ -12,7 +12,21 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Storage_TypedCallBack.ixx>
+#include <Standard_Type.hxx>
+#include <Storage_CallBack.hxx>
+#include <Storage_TypedCallBack.hxx>
+#include <TCollection_AsciiString.hxx>
+
+IMPLEMENT_STANDARD_TYPE(Storage_TypedCallBack)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Storage_TypedCallBack)
+
+IMPLEMENT_DOWNCAST(Storage_TypedCallBack,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Storage_TypedCallBack)
 
 Storage_TypedCallBack::Storage_TypedCallBack() : myIndex(0)
 {

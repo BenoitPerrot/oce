@@ -12,7 +12,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BOPAlgo_WireSplitter.ixx>
+#include <BOPAlgo_WireEdgeSet.hxx>
+#include <TopoDS_Wire.hxx>
+#include <TopoDS_Face.hxx>
+#include <BOPAlgo_WireSplitter.hxx>
 
 #include <Precision.hxx>
 

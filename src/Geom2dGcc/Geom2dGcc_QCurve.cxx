@@ -12,7 +12,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Geom2dGcc_QCurve.ixx>
+#include <Geom2dAdaptor_Curve.hxx>
+#include <Geom2dGcc_QCurve.hxx>
 
 //#include <Geom2dAdaptor_Curve.hxx>
 

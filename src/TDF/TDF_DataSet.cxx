@@ -21,7 +21,21 @@
 
 
 
-#include <TDF_DataSet.ixx>
+#include <TDF_Label.hxx>
+#include <TDF_LabelMap.hxx>
+#include <TDF_Attribute.hxx>
+#include <TDF_AttributeMap.hxx>
+#include <TDF_LabelList.hxx>
+#include <TDF_DataSet.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(TDF_DataSet)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(TDF_DataSet)
+IMPLEMENT_DOWNCAST(TDF_DataSet,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(TDF_DataSet)
 
 #include <TDF_MapIteratorOfAttributeMap.hxx>
 #include <TDF_ListIteratorOfLabelList.hxx>

@@ -14,7 +14,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Graphic3d_Texture2Dmanual.ixx>
+#include <TCollection_AsciiString.hxx>
+#include <Graphic3d_Texture2Dmanual.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Graphic3d_Texture2Dmanual)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Graphic3d_Texture2D),
+  STANDARD_TYPE(Graphic3d_TextureMap),
+  STANDARD_TYPE(Graphic3d_TextureRoot),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Graphic3d_Texture2Dmanual)
+IMPLEMENT_DOWNCAST(Graphic3d_Texture2Dmanual,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Graphic3d_Texture2Dmanual)
 #include <Graphic3d_TypeOfTextureMode.hxx>
 #include <Graphic3d_TextureParams.hxx>
 

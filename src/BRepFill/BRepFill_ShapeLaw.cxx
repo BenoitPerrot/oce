@@ -14,7 +14,24 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepFill_ShapeLaw.ixx>
+#include <TopTools_HArray1OfShape.hxx>
+#include <Law_Function.hxx>
+#include <TopoDS_Vertex.hxx>
+#include <TopoDS_Wire.hxx>
+#include <GeomFill_SectionLaw.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopoDS_Edge.hxx>
+#include <BRepFill_ShapeLaw.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(BRepFill_ShapeLaw)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(BRepFill_SectionLaw),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(BRepFill_ShapeLaw)
+IMPLEMENT_DOWNCAST(BRepFill_ShapeLaw,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(BRepFill_ShapeLaw)
 
 #include <BRepTools_WireExplorer.hxx>
 #include <BRep_Tool.hxx>

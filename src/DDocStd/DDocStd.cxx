@@ -13,7 +13,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <DDocStd.ixx>
+#include <TDocStd_Application.hxx>
+#include <TDocStd_Document.hxx>
+#include <TDF_Label.hxx>
+#include <Standard_GUID.hxx>
+#include <TDF_Attribute.hxx>
+#include <DDocStd.hxx>
 #include <DDocStd_DrawDocument.hxx>
 #include <TDocStd_Document.hxx>
 #include <Draw_Interpretor.hxx>

@@ -15,7 +15,17 @@
 
 // Updated:
 
-#include <Font_SystemFont.ixx>
+#include <TCollection_HAsciiString.hxx>
+#include <Font_SystemFont.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Font_SystemFont)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Font_SystemFont)
+IMPLEMENT_DOWNCAST(Font_SystemFont,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Font_SystemFont)
 #include <OSD_Path.hxx>
 #include <TCollection_HAsciiString.hxx>
 

@@ -15,7 +15,8 @@
 // commercial license or contractual agreement.
 
 // Modified: eap Mar 25 2002 (occ102,occ227), touch case
-#include <TopTrans_SurfaceTransition.ixx>
+#include <gp_Dir.hxx>
+#include <TopTrans_SurfaceTransition.hxx>
 
 #include <gp_Dir.hxx>
 #include <TopAbs.hxx>

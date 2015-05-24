@@ -11,7 +11,25 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <MDocStd_DocumentStorageDriver.ixx>
+#include <MDF_ASDriverTable.hxx>
+#include <PCDM_Document.hxx>
+#include <TDocStd_Document.hxx>
+#include <PDocStd_Document.hxx>
+#include <MDF_SRelocationTable.hxx>
+#include <CDM_Document.hxx>
+#include <TCollection_ExtendedString.hxx>
+#include <CDM_MessageDriver.hxx>
+#include <MDocStd_DocumentStorageDriver.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(MDocStd_DocumentStorageDriver)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(PCDM_StorageDriver),
+  STANDARD_TYPE(PCDM_Writer),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(MDocStd_DocumentStorageDriver)
+IMPLEMENT_DOWNCAST(MDocStd_DocumentStorageDriver,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(MDocStd_DocumentStorageDriver)
 
 #include <CDM_MessageDriver.hxx>
 #include <TDocStd_Application.hxx>

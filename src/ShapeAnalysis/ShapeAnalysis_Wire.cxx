@@ -32,7 +32,32 @@
 //:s1 abv 22.04.99: PRO7226 #489490: ensure fixing of degenerated edge
 //#9 smh 14.12.99 BUC60615 Using tolerance of verteces during checking degenerated edge.
 
-#include <ShapeAnalysis_Wire.ixx>
+#include <ShapeExtend_WireData.hxx>
+#include <ShapeAnalysis_Surface.hxx>
+#include <TopoDS_Wire.hxx>
+#include <TopoDS_Face.hxx>
+#include <Geom_Surface.hxx>
+#include <TopLoc_Location.hxx>
+#include <ShapeAnalysis_WireOrder.hxx>
+#include <Geom2d_Curve.hxx>
+#include <gp_Pnt2d.hxx>
+#include <IntRes2d_SequenceOfIntersectionPoint.hxx>
+#include <TColgp_SequenceOfPnt.hxx>
+#include <TColStd_SequenceOfReal.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopTools_IndexedMapOfShape.hxx>
+#include <TopTools_DataMapOfShapeListOfShape.hxx>
+#include <TopTools_MapOfShape.hxx>
+#include <ShapeAnalysis_Wire.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(ShapeAnalysis_Wire)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(ShapeAnalysis_Wire)
+IMPLEMENT_DOWNCAST(ShapeAnalysis_Wire,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(ShapeAnalysis_Wire)
 
 #include <Precision.hxx>
 

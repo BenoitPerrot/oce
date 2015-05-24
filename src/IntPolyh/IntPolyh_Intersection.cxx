@@ -17,7 +17,9 @@
 //  modified by Edward AGAPOV (eap) Tue Jan 22 12:29:55 2002 (occ53)
 //  Modified by skv - Thu Sep 25 18:24:29 2003 OCC567
 
-#include <IntPolyh_Intersection.ixx>
+#include <Adaptor3d_HSurface.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <IntPolyh_Intersection.hxx>
 #include <IntPolyh_SectionLine.hxx>
 #include <IntPolyh_StartPoint.hxx>
 #include <IntPolyh_MaillageAffinage.hxx>

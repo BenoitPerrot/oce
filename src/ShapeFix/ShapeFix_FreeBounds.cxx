@@ -17,7 +17,9 @@
 // 25.12.98 pdn: renaming methods GetWires and GetEdges to GetClosedWires
 //               and GetOpenWires respectively
 
-#include <ShapeFix_FreeBounds.ixx>
+#include <TopoDS_Shape.hxx>
+#include <TopoDS_Compound.hxx>
+#include <ShapeFix_FreeBounds.hxx>
 
 #include <BRep_Builder.hxx>
 

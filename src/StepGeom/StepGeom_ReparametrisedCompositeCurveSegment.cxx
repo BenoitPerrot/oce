@@ -11,7 +11,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepGeom_ReparametrisedCompositeCurveSegment.ixx>
+#include <StepGeom_Curve.hxx>
+#include <StepGeom_ReparametrisedCompositeCurveSegment.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepGeom_ReparametrisedCompositeCurveSegment)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepGeom_CompositeCurveSegment),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepGeom_ReparametrisedCompositeCurveSegment)
+IMPLEMENT_DOWNCAST(StepGeom_ReparametrisedCompositeCurveSegment,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepGeom_ReparametrisedCompositeCurveSegment)
 
 
 StepGeom_ReparametrisedCompositeCurveSegment::StepGeom_ReparametrisedCompositeCurveSegment ()  {}

@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <TCollection_AsciiString.hxx>
-#include <TopOpeBRepBuild_GTopo.ixx>
+#include <TopOpeBRepBuild_GTopo.hxx>
 
 #include <Standard_ProgramError.hxx>
 #include <TopOpeBRepDS.hxx>

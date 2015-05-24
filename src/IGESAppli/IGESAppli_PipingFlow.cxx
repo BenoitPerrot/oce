@@ -16,7 +16,26 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESAppli_PipingFlow.ixx>
+#include <IGESData_HArray1OfIGESEntity.hxx>
+#include <IGESDraw_HArray1OfConnectPoint.hxx>
+#include <Interface_HArray1OfHAsciiString.hxx>
+#include <IGESGraph_HArray1OfTextDisplayTemplate.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <IGESData_IGESEntity.hxx>
+#include <IGESDraw_ConnectPoint.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <IGESGraph_TextDisplayTemplate.hxx>
+#include <IGESAppli_PipingFlow.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESAppli_PipingFlow)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IGESData_IGESEntity),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESAppli_PipingFlow)
+IMPLEMENT_DOWNCAST(IGESAppli_PipingFlow,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESAppli_PipingFlow)
 #include <Standard_DimensionMismatch.hxx>
 
 

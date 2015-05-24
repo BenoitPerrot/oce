@@ -16,7 +16,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BOPAlgo_BuilderFace.ixx>
+#include <TopoDS_Face.hxx>
+#include <BOPAlgo_BuilderFace.hxx>
 //
 #include <NCollection_UBTreeFiller.hxx>
 #include <NCollection_DataMap.hxx>

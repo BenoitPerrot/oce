@@ -14,7 +14,23 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <STEPSelections_SelectInstances.ixx>
+#include <Interface_EntityIterator.hxx>
+#include <Interface_Graph.hxx>
+#include <Standard_Transient.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <STEPSelections_SelectInstances.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(STEPSelections_SelectInstances)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IFSelect_SelectExplore),
+  STANDARD_TYPE(IFSelect_SelectDeduct),
+  STANDARD_TYPE(IFSelect_Selection),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(STEPSelections_SelectInstances)
+IMPLEMENT_DOWNCAST(STEPSelections_SelectInstances,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(STEPSelections_SelectInstances)
 #include <Interface_Macros.hxx>
 #include <StepShape_ShapeDefinitionRepresentation.hxx>
 #include <StepShape_ContextDependentShapeRepresentation.hxx>

@@ -14,7 +14,22 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PGeom_SurfaceOfRevolution.ixx>
+#include <PGeom_Curve.hxx>
+#include <gp_Dir.hxx>
+#include <gp_Pnt.hxx>
+#include <PGeom_SurfaceOfRevolution.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(PGeom_SurfaceOfRevolution)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(PGeom_SweptSurface),
+  STANDARD_TYPE(PGeom_Surface),
+  STANDARD_TYPE(PGeom_Geometry),
+  STANDARD_TYPE(Standard_Persistent),
+  STANDARD_TYPE(Standard_Storable),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(PGeom_SurfaceOfRevolution)
+IMPLEMENT_DOWNCAST(PGeom_SurfaceOfRevolution,Standard_Persistent)
+IMPLEMENT_STANDARD_RTTI(PGeom_SurfaceOfRevolution)
 
 //=======================================================================
 //function : PGeom_SurfaceOfRevolution

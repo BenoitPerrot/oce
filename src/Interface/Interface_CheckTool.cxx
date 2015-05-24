@@ -12,7 +12,19 @@
 // commercial license or contractual agreement.
 
 #include <Standard_ErrorHandler.hxx>
-#include <Interface_CheckTool.ixx>
+#include <Interface_GTool.hxx>
+#include <Interface_CheckFailure.hxx>
+#include <Interface_InterfaceModel.hxx>
+#include <Interface_Protocol.hxx>
+#include <Interface_Graph.hxx>
+#include <Interface_HGraph.hxx>
+#include <Standard_Transient.hxx>
+#include <Interface_ShareTool.hxx>
+#include <Interface_Check.hxx>
+#include <Message_Messenger.hxx>
+#include <Interface_CheckIterator.hxx>
+#include <Interface_EntityIterator.hxx>
+#include <Interface_CheckTool.hxx>
 #include <Interface_Macros.hxx>
 #include <TCollection_HAsciiString.hxx>
 #include <Interface_Graph.hxx>

@@ -13,7 +13,22 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TDataXtd_Point.ixx>
+#include <Standard_GUID.hxx>
+#include <TDF_Label.hxx>
+#include <gp_Pnt.hxx>
+#include <TDF_Attribute.hxx>
+#include <TDF_RelocationTable.hxx>
+#include <TDataXtd_Point.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(TDataXtd_Point)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(TDF_Attribute),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(TDataXtd_Point)
+IMPLEMENT_DOWNCAST(TDataXtd_Point,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(TDataXtd_Point)
 #include <TDataStd.hxx>
 #include <TDataXtd.hxx>
 #include <TNaming_NamedShape.hxx>

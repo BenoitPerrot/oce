@@ -13,7 +13,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Graphic3d_AspectMarker3d.ixx>
+#include <Quantity_Color.hxx>
+#include <TColStd_HArray1OfByte.hxx>
+#include <Graphic3d_AspectMarker3d.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Graphic3d_AspectMarker3d)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Aspect_AspectMarker),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Graphic3d_AspectMarker3d)
+IMPLEMENT_DOWNCAST(Graphic3d_AspectMarker3d,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Graphic3d_AspectMarker3d)
 #include <TColStd_Array1OfByte.hxx>
 #include <Image_PixMap.hxx>
 #include <Graphic3d_MarkerImage.hxx>

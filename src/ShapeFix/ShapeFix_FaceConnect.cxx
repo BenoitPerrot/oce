@@ -14,7 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <ShapeFix_FaceConnect.ixx>
+#include <TopoDS_Face.hxx>
+#include <TopoDS_Shell.hxx>
+#include <ShapeFix_FaceConnect.hxx>
 
 #include <Standard_ErrorHandler.hxx>
 #include <Standard_Failure.hxx>

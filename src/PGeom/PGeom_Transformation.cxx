@@ -14,7 +14,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PGeom_Transformation.ixx>
+#include <gp_Trsf.hxx>
+#include <PGeom_Transformation.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(PGeom_Transformation)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Standard_Persistent),
+  STANDARD_TYPE(Standard_Storable),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(PGeom_Transformation)
+IMPLEMENT_DOWNCAST(PGeom_Transformation,Standard_Persistent)
+IMPLEMENT_STANDARD_RTTI(PGeom_Transformation)
 
 //=======================================================================
 //function : PGeom_Transformation

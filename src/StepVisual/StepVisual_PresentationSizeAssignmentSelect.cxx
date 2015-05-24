@@ -11,7 +11,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepVisual_PresentationSizeAssignmentSelect.ixx>
+#include <Standard_Transient.hxx>
+#include <StepVisual_PresentationView.hxx>
+#include <StepVisual_PresentationArea.hxx>
+#include <StepVisual_AreaInSet.hxx>
+#include <StepVisual_PresentationSizeAssignmentSelect.hxx>
 #include <Interface_Macros.hxx>
 
 StepVisual_PresentationSizeAssignmentSelect::StepVisual_PresentationSizeAssignmentSelect () {  }

@@ -15,7 +15,16 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BOPAlgo_PaveFiller.ixx>
+#include <IntTools_Context.hxx>
+#include <BOPDS_DS.hxx>
+#include <BOPAlgo_SectionAttribute.hxx>
+#include <BOPDS_PaveBlock.hxx>
+#include <TopoDS_Vertex.hxx>
+#include <gp_Pnt.hxx>
+#include <BOPDS_Curve.hxx>
+#include <TopoDS_Face.hxx>
+#include <IntSurf_ListOfPntOn2S.hxx>
+#include <BOPAlgo_PaveFiller.hxx>
 //
 #include <NCollection_IncAllocator.hxx>
 //

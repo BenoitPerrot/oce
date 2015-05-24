@@ -14,4 +14,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <LocOpe_GeneratedShape.ixx>
+#include <TopTools_ListOfShape.hxx>
+#include <TopoDS_Edge.hxx>
+#include <TopoDS_Vertex.hxx>
+#include <TopoDS_Face.hxx>
+#include <LocOpe_GeneratedShape.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(LocOpe_GeneratedShape)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(LocOpe_GeneratedShape)
+IMPLEMENT_DOWNCAST(LocOpe_GeneratedShape,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(LocOpe_GeneratedShape)

@@ -18,7 +18,11 @@
 //   CREATION of the BISSECTICE between two CIRCLES.                        +
 //=========================================================================
 
-#include <GccAna_Circ2dBisec.ixx>
+#include <Standard_OutOfRange.hxx>
+#include <StdFail_NotDone.hxx>
+#include <gp_Circ2d.hxx>
+#include <GccInt_Bisec.hxx>
+#include <GccAna_Circ2dBisec.hxx>
 
 #include <gp_XY.hxx>
 #include <gp_Dir2d.hxx>

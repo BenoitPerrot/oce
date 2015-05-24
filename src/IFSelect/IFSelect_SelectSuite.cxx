@@ -11,7 +11,24 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IFSelect_SelectSuite.ixx>
+#include <Interface_InterfaceError.hxx>
+#include <IFSelect_Selection.hxx>
+#include <IFSelect_SelectDeduct.hxx>
+#include <Interface_EntityIterator.hxx>
+#include <Interface_Graph.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <IFSelect_SelectSuite.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IFSelect_SelectSuite)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IFSelect_SelectDeduct),
+  STANDARD_TYPE(IFSelect_Selection),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IFSelect_SelectSuite)
+IMPLEMENT_DOWNCAST(IFSelect_SelectSuite,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IFSelect_SelectSuite)
 #include <IFSelect_SelectPointed.hxx>
 #include <stdio.h>
 

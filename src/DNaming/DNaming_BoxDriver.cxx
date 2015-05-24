@@ -13,7 +13,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <DNaming_BoxDriver.ixx>
+#include <TFunction_Logbook.hxx>
+#include <TDF_Label.hxx>
+#include <BRepPrimAPI_MakeBox.hxx>
+#include <DNaming_BoxDriver.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(DNaming_BoxDriver)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(TFunction_Driver),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(DNaming_BoxDriver)
+IMPLEMENT_DOWNCAST(DNaming_BoxDriver,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(DNaming_BoxDriver)
 #include <TFunction_Function.hxx>
 #include <TDataStd_Real.hxx>
 #include <TDataStd_Integer.hxx>

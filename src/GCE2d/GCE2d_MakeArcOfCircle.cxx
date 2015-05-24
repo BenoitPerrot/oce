@@ -14,7 +14,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GCE2d_MakeArcOfCircle.ixx>
+#include <Geom2d_TrimmedCurve.hxx>
+#include <StdFail_NotDone.hxx>
+#include <gp_Circ2d.hxx>
+#include <gp_Pnt2d.hxx>
+#include <gp_Vec2d.hxx>
+#include <GCE2d_MakeArcOfCircle.hxx>
 #include <gp_Vec2d.hxx>
 #include <Geom2d_Circle.hxx>
 #include <gce_MakeCirc2d.hxx>

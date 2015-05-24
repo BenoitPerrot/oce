@@ -12,7 +12,13 @@
 // commercial license or contractual agreement.
 
 // sln 04.10.2001. BUC61003. Correction of looking for items of complex entity
-#include <RWStepGeom_RWBSplineCurveWithKnotsAndRationalBSplineCurve.ixx>
+#include <StepData_StepReaderData.hxx>
+#include <Interface_Check.hxx>
+#include <StepGeom_BSplineCurveWithKnotsAndRationalBSplineCurve.hxx>
+#include <StepData_StepWriter.hxx>
+#include <Interface_EntityIterator.hxx>
+#include <Interface_ShareTool.hxx>
+#include <RWStepGeom_RWBSplineCurveWithKnotsAndRationalBSplineCurve.hxx>
 #include <StepGeom_BSplineCurveWithKnots.hxx>
 #include <StepGeom_RationalBSplineCurve.hxx>
 #include <StepGeom_HArray1OfCartesianPoint.hxx>

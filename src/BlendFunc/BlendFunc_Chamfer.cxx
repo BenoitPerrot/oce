@@ -17,7 +17,21 @@
 // Modified : 20/08/96 PMN Ajout des methodes (Nb)Intervals et IsRationnal
 // Modified : 30/12/96 PMN Ajout GetMinimalWeight, GetSectionSize;
 
-#include <BlendFunc_Chamfer.ixx>
+#include <Adaptor3d_HSurface.hxx>
+#include <Adaptor3d_HCurve.hxx>
+#include <math_Matrix.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Vec.hxx>
+#include <gp_Vec2d.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <TColStd_Array1OfInteger.hxx>
+#include <gp_Lin.hxx>
+#include <Blend_Point.hxx>
+#include <TColgp_Array1OfPnt.hxx>
+#include <TColgp_Array1OfVec.hxx>
+#include <TColgp_Array1OfPnt2d.hxx>
+#include <TColgp_Array1OfVec2d.hxx>
+#include <BlendFunc_Chamfer.hxx>
 
 #include <BlendFunc.hxx>
 #include <ElCLib.hxx>

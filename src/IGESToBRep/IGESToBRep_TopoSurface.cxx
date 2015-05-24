@@ -29,7 +29,22 @@
 //#12 smh 12.12.99 FRA62468 - Using conversion to B-Spline for Offset surface
 //=======================================================================
 
-#include <IGESToBRep_TopoSurface.ixx>
+#include <IGESToBRep_CurveAndSurface.hxx>
+#include <TopoDS_Shape.hxx>
+#include <IGESData_IGESEntity.hxx>
+#include <IGESGeom_RuledSurface.hxx>
+#include <IGESGeom_SurfaceOfRevolution.hxx>
+#include <IGESGeom_TabulatedCylinder.hxx>
+#include <IGESGeom_OffsetSurface.hxx>
+#include <IGESGeom_TrimmedSurface.hxx>
+#include <IGESGeom_BoundedSurface.hxx>
+#include <IGESGeom_Plane.hxx>
+#include <IGESSolid_PlaneSurface.hxx>
+#include <IGESBasic_SingleParent.hxx>
+#include <gp_Pln.hxx>
+#include <gp_Trsf.hxx>
+#include <gp_Trsf2d.hxx>
+#include <IGESToBRep_TopoSurface.hxx>
 
 #include <Standard_ErrorHandler.hxx>
 #include <IGESToBRep.hxx>

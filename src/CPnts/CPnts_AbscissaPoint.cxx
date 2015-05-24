@@ -23,7 +23,11 @@
 //  by succsessive iteration find the point and its associated parameter
 //  call to FunctionRoot
 
-#include <CPnts_AbscissaPoint.ixx>
+#include <StdFail_NotDone.hxx>
+#include <Standard_ConstructionError.hxx>
+#include <Adaptor3d_Curve.hxx>
+#include <Adaptor2d_Curve2d.hxx>
+#include <CPnts_AbscissaPoint.hxx>
 
 #include <math_GaussSingleIntegration.hxx>
 #include <math_FunctionRoot.hxx>

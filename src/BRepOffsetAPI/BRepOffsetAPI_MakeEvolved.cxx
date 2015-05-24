@@ -14,7 +14,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepOffsetAPI_MakeEvolved.ixx>
+#include <TopoDS_Wire.hxx>
+#include <TopoDS_Face.hxx>
+#include <BRepFill_Evolved.hxx>
+#include <TopTools_ListOfShape.hxx>
+#include <TopoDS_Shape.hxx>
+#include <BRepOffsetAPI_MakeEvolved.hxx>
 
 #include <gp_Ax3.hxx>
 #include <BRepFill.hxx>

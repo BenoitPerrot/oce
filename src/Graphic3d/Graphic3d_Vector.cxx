@@ -31,7 +31,8 @@
 //-Declarations
 
 // for the class
-#include <Graphic3d_Vector.ixx>
+#include <Graphic3d_VectorError.hxx>
+#include <Graphic3d_Vector.hxx>
 
 #include <Standard_Boolean.hxx>
 

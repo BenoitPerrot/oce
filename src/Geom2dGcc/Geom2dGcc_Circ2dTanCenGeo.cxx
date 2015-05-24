@@ -12,7 +12,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Geom2dGcc_Circ2dTanCenGeo.ixx>
+#include <Standard_OutOfRange.hxx>
+#include <GccEnt_BadQualifier.hxx>
+#include <StdFail_NotDone.hxx>
+#include <Geom2dGcc_QCurve.hxx>
+#include <gp_Pnt2d.hxx>
+#include <gp_Circ2d.hxx>
+#include <Geom2dGcc_Circ2dTanCenGeo.hxx>
 
 #include <StdFail_NotDone.hxx>
 #include <Standard_OutOfRange.hxx>

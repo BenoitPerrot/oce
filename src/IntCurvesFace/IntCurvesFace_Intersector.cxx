@@ -17,7 +17,16 @@
 #define OPTIMISATION 1 
 
 
-#include <IntCurvesFace_Intersector.ixx>
+#include <BRepTopAdaptor_TopolTool.hxx>
+#include <BRepAdaptor_HSurface.hxx>
+#include <TopoDS_Face.hxx>
+#include <gp_Lin.hxx>
+#include <Adaptor3d_HCurve.hxx>
+#include <gp_Pnt.hxx>
+#include <IntCurveSurface_HInter.hxx>
+#include <gp_Pnt2d.hxx>
+#include <Bnd_Box.hxx>
+#include <IntCurvesFace_Intersector.hxx>
 
 #include <IntCurveSurface_ThePolyhedronToolOfHInter.hxx>
 #include <Bnd_BoundSortBox.hxx>

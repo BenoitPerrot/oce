@@ -14,7 +14,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepFill_ACRLaw.ixx>
+#include <TColStd_HArray1OfReal.hxx>
+#include <TopoDS_Wire.hxx>
+#include <GeomFill_LocationGuide.hxx>
+#include <BRepFill_ACRLaw.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(BRepFill_ACRLaw)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(BRepFill_LocationLaw),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(BRepFill_ACRLaw)
+IMPLEMENT_DOWNCAST(BRepFill_ACRLaw,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(BRepFill_ACRLaw)
 
 #include <BRepTools_WireExplorer.hxx>
 #include <BRep_Tool.hxx>

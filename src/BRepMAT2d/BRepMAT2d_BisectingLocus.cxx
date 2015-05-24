@@ -14,7 +14,16 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-# include <BRepMAT2d_BisectingLocus.ixx>
+#include <MAT_Graph.hxx>
+#include <BRepMAT2d_Explorer.hxx>
+#include <MAT_BasicElt.hxx>
+#include <Geom2d_Geometry.hxx>
+#include <gp_Pnt2d.hxx>
+#include <MAT_Node.hxx>
+#include <Bisector_Bisec.hxx>
+#include <MAT_Arc.hxx>
+#include <MAT_DataMapOfIntegerBasicElt.hxx>
+#include <BRepMAT2d_BisectingLocus.hxx>
 
 # include <MAT2d_Mat2d.hxx>
 # include <MAT2d_Tool2d.hxx>

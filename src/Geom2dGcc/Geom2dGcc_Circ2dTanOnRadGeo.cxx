@@ -21,7 +21,18 @@
 //                  de rayon donne : Radius.                             +
 //========================================================================
 
-#include <Geom2dGcc_Circ2dTanOnRadGeo.ixx>
+#include <Standard_NegativeValue.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <GccEnt_BadQualifier.hxx>
+#include <StdFail_NotDone.hxx>
+#include <Geom2dGcc_QCurve.hxx>
+#include <gp_Lin2d.hxx>
+#include <gp_Circ2d.hxx>
+#include <GccEnt_QualifiedCirc.hxx>
+#include <Geom2dAdaptor_Curve.hxx>
+#include <GccEnt_QualifiedLin.hxx>
+#include <gp_Pnt2d.hxx>
+#include <Geom2dGcc_Circ2dTanOnRadGeo.hxx>
 
 #include <ElCLib.hxx>
 #include <math_DirectPolynomialRoots.hxx>

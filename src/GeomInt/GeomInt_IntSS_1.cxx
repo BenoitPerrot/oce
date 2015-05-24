@@ -14,7 +14,15 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomInt_IntSS.ixx>
+#include <GeomAdaptor_HSurface.hxx>
+#include <StdFail_NotDone.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Geom_Surface.hxx>
+#include <Geom_Curve.hxx>
+#include <Geom2d_Curve.hxx>
+#include <gp_Pnt2d.hxx>
+#include <Adaptor3d_TopolTool.hxx>
+#include <GeomInt_IntSS.hxx>
 
 #include <Precision.hxx>
 #include <gp_Pnt.hxx>

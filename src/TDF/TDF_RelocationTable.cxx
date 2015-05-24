@@ -21,7 +21,24 @@
 
 
 
-#include <TDF_RelocationTable.ixx>
+#include <TDF_Label.hxx>
+#include <TDF_Attribute.hxx>
+#include <Standard_Transient.hxx>
+#include <TDF_LabelMap.hxx>
+#include <TDF_AttributeMap.hxx>
+#include <TDF_LabelDataMap.hxx>
+#include <TDF_AttributeDataMap.hxx>
+#include <TColStd_IndexedDataMapOfTransientTransient.hxx>
+#include <TDF_RelocationTable.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(TDF_RelocationTable)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(TDF_RelocationTable)
+IMPLEMENT_DOWNCAST(TDF_RelocationTable,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(TDF_RelocationTable)
 
 #include <TDF_DataMapIteratorOfAttributeDataMap.hxx>
 #include <TDF_DataMapIteratorOfLabelDataMap.hxx>

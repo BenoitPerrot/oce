@@ -18,7 +18,9 @@
 //  --- limit infinite points and parameters in order to make
 //  --- arithmetic operation on them safe 
 
-#include <IntRes2d_Domain.ixx>
+#include <Standard_DomainError.hxx>
+#include <gp_Pnt2d.hxx>
+#include <IntRes2d_Domain.hxx>
 #include <Precision.hxx>
 
 const Standard_Real infVal = Precision::Infinite();

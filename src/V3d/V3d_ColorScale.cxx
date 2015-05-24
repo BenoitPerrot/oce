@@ -13,7 +13,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <V3d_ColorScale.ixx>
+#include <V3d_LayerMgr.hxx>
+#include <Quantity_Color.hxx>
+#include <TCollection_ExtendedString.hxx>
+#include <V3d_ColorScale.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(V3d_ColorScale)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Aspect_ColorScale),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(V3d_ColorScale)
+IMPLEMENT_DOWNCAST(V3d_ColorScale,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(V3d_ColorScale)
 
 #include <V3d_View.hxx>
 #include <V3d_LayerMgr.hxx>

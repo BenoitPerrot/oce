@@ -22,7 +22,40 @@
 // jct : 19-01-99 ; permutation de urational et vrational dans Rational.
 #define No_Standard_OutOfRange
 
-#include <Geom_BSplineSurface.ixx>
+#include <TColgp_HArray2OfPnt.hxx>
+#include <TColStd_HArray2OfReal.hxx>
+#include <TColStd_HArray1OfReal.hxx>
+#include <TColStd_HArray1OfInteger.hxx>
+#include <Standard_ConstructionError.hxx>
+#include <Standard_DimensionError.hxx>
+#include <Standard_DomainError.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Standard_NoSuchObject.hxx>
+#include <Standard_RangeError.hxx>
+#include <Geom_UndefinedDerivative.hxx>
+#include <TColgp_Array2OfPnt.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <TColStd_Array1OfInteger.hxx>
+#include <TColStd_Array2OfReal.hxx>
+#include <gp_Pnt.hxx>
+#include <TColgp_Array1OfPnt.hxx>
+#include <gp_Vec.hxx>
+#include <Geom_Curve.hxx>
+#include <gp_Trsf.hxx>
+#include <Geom_Geometry.hxx>
+#include <Geom_BSplineSurface.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Geom_BSplineSurface)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Geom_BoundedSurface),
+  STANDARD_TYPE(Geom_Surface),
+  STANDARD_TYPE(Geom_Geometry),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Geom_BSplineSurface)
+IMPLEMENT_DOWNCAST(Geom_BSplineSurface,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Geom_BSplineSurface)
 
 #include <gp.hxx>
 #include <BSplCLib.hxx>

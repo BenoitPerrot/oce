@@ -21,7 +21,18 @@
 
 
 
-#include <PTopoDS_TShape1.ixx>
+#include <PTopoDS_HArray1OfShape1.hxx>
+#include <PTopoDS_Shape1.hxx>
+#include <PTopoDS_TShape1.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(PTopoDS_TShape1)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Standard_Persistent),
+  STANDARD_TYPE(Standard_Storable),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(PTopoDS_TShape1)
+IMPLEMENT_DOWNCAST(PTopoDS_TShape1,Standard_Persistent)
+IMPLEMENT_STANDARD_RTTI(PTopoDS_TShape1)
 
 // Enum terms are better than statics, who need to be initialized.
 enum {

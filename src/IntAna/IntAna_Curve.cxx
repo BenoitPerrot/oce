@@ -39,7 +39,12 @@
 
 #include <Precision.hxx>
 
-#include <IntAna_Curve.ixx>
+#include <Standard_DomainError.hxx>
+#include <gp_Cylinder.hxx>
+#include <gp_Cone.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Vec.hxx>
+#include <IntAna_Curve.hxx>
 
 #include <Standard_DomainError.hxx>
 #include <math_DirectPolynomialRoots.hxx>

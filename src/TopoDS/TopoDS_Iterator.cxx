@@ -16,7 +16,10 @@
 
 #define No_Standard_NoSuchObject
 
-#include <TopoDS_Iterator.ixx>
+#include <Standard_NoMoreObject.hxx>
+#include <Standard_NoSuchObject.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopoDS_Iterator.hxx>
 
 
 //=======================================================================

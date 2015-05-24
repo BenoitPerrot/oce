@@ -16,7 +16,12 @@
 
 #include <Standard_Stream.hxx>
 
-#include <IGESControl_Writer.ixx>
+#include <Transfer_FinderProcess.hxx>
+#include <IGESData_IGESModel.hxx>
+#include <TopoDS_Shape.hxx>
+#include <Standard_Transient.hxx>
+#include <IGESData_IGESEntity.hxx>
+#include <IGESControl_Writer.hxx>
 #include <IGESControl_Controller.hxx>
 #include <IGESSelect_WorkLibrary.hxx>
 #include <BRepToIGES_BREntity.hxx>

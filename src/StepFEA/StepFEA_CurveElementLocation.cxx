@@ -15,7 +15,17 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
-#include <StepFEA_CurveElementLocation.ixx>
+#include <StepFEA_FeaParametricPoint.hxx>
+#include <StepFEA_CurveElementLocation.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepFEA_CurveElementLocation)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepFEA_CurveElementLocation)
+IMPLEMENT_DOWNCAST(StepFEA_CurveElementLocation,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepFEA_CurveElementLocation)
 
 //=======================================================================
 //function : StepFEA_CurveElementLocation

@@ -16,7 +16,19 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESSolid_Sphere.ixx>
+#include <gp_XYZ.hxx>
+#include <gp_Pnt.hxx>
+#include <IGESSolid_Sphere.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESSolid_Sphere)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IGESData_IGESEntity),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESSolid_Sphere)
+IMPLEMENT_DOWNCAST(IGESSolid_Sphere,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESSolid_Sphere)
 #include <gp_GTrsf.hxx>
 
 

@@ -15,7 +15,19 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.1
 
-#include <StepRepr_NextAssemblyUsageOccurrence.ixx>
+#include <StepRepr_NextAssemblyUsageOccurrence.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepRepr_NextAssemblyUsageOccurrence)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepRepr_AssemblyComponentUsage),
+  STANDARD_TYPE(StepRepr_ProductDefinitionUsage),
+  STANDARD_TYPE(StepBasic_ProductDefinitionRelationship),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepRepr_NextAssemblyUsageOccurrence)
+IMPLEMENT_DOWNCAST(StepRepr_NextAssemblyUsageOccurrence,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepRepr_NextAssemblyUsageOccurrence)
 
 //=======================================================================
 //function : StepRepr_NextAssemblyUsageOccurrence

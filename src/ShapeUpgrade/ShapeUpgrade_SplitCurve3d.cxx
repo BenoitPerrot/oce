@@ -14,7 +14,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <ShapeUpgrade_SplitCurve3d.ixx>
+#include <Geom_Curve.hxx>
+#include <TColGeom_HArray1OfCurve.hxx>
+#include <ShapeUpgrade_SplitCurve3d.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(ShapeUpgrade_SplitCurve3d)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(ShapeUpgrade_SplitCurve),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(ShapeUpgrade_SplitCurve3d)
+IMPLEMENT_DOWNCAST(ShapeUpgrade_SplitCurve3d,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_SplitCurve3d)
 #include <Geom_BSplineCurve.hxx>
 #include <Precision.hxx>
 #include <ShapeUpgrade.hxx>

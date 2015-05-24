@@ -14,7 +14,10 @@
 // commercial license or contractual agreement.
 
 #include <TDF_Label.hxx>
-#include <IGESCAFControl_Reader.ixx>
+#include <XSControl_WorkSession.hxx>
+#include <TDocStd_Document.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <IGESCAFControl_Reader.hxx>
 #include <TopoDS_Shape.hxx>
 #include <XCAFDoc_ShapeTool.hxx>
 #include <XSControl_TransferReader.hxx>

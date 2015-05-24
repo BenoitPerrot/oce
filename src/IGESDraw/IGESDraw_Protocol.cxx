@@ -11,7 +11,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IGESDraw_Protocol.ixx>
+#include <Interface_Protocol.hxx>
+#include <Standard_Type.hxx>
+#include <IGESDraw_Protocol.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESDraw_Protocol)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IGESData_Protocol),
+  STANDARD_TYPE(Interface_Protocol),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESDraw_Protocol)
+IMPLEMENT_DOWNCAST(IGESDraw_Protocol,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESDraw_Protocol)
 
 #include <IGESDraw_CircArraySubfigure.hxx>
 #include <IGESDraw_ConnectPoint.hxx>

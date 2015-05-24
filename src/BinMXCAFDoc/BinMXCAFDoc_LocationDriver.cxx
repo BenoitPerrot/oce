@@ -13,7 +13,21 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BinMXCAFDoc_LocationDriver.ixx>
+#include <CDM_MessageDriver.hxx>
+#include <TDF_Attribute.hxx>
+#include <BinObjMgt_Persistent.hxx>
+#include <TopLoc_Location.hxx>
+#include <BinMXCAFDoc_LocationDriver.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(BinMXCAFDoc_LocationDriver)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(BinMDF_ADriver),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(BinMXCAFDoc_LocationDriver)
+IMPLEMENT_DOWNCAST(BinMXCAFDoc_LocationDriver,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(BinMXCAFDoc_LocationDriver)
 #include <XCAFDoc_Location.hxx>
 
 #include <TopLoc_Datum3D.hxx>

@@ -14,7 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepToGeom_MakeSphericalSurface.ixx>
+#include <StepGeom_SphericalSurface.hxx>
+#include <Geom_SphericalSurface.hxx>
+#include <StepToGeom_MakeSphericalSurface.hxx>
 #include <StepGeom_SphericalSurface.hxx>
 #include <Geom_SphericalSurface.hxx>
 #include <StepGeom_Axis2Placement3d.hxx>

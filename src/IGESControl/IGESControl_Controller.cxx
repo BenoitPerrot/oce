@@ -14,7 +14,22 @@
 //#58 rln 28.12.98 changing default values for Global Section
 //sln 14.01.2002 OCC51 : verifying whether entry model of method ActorRead is IGESDatat_IGESModel 
 
-#include <IGESControl_Controller.ixx>
+#include <Interface_InterfaceModel.hxx>
+#include <Transfer_ActorOfTransientProcess.hxx>
+#include <TopoDS_Shape.hxx>
+#include <Transfer_FinderProcess.hxx>
+#include <XSControl_WorkSession.hxx>
+#include <IGESControl_Controller.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESControl_Controller)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(XSControl_Controller),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESControl_Controller)
+IMPLEMENT_DOWNCAST(IGESControl_Controller,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESControl_Controller)
 #include <IGESSelect_WorkLibrary.hxx>
 #include <IGESToBRep_Actor.hxx>
 #include <IGESData_IGESModel.hxx>

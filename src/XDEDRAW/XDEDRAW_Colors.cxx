@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <XDEDRAW_Colors.ixx>
+#include <XDEDRAW_Colors.hxx>
 
 #include <Draw.hxx>
 #include <DBRep.hxx>

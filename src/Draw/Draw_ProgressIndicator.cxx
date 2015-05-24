@@ -11,7 +11,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Draw_ProgressIndicator.ixx>
+#include <Draw_ProgressIndicator.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Draw_ProgressIndicator)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Message_ProgressIndicator),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Draw_ProgressIndicator)
+IMPLEMENT_DOWNCAST(Draw_ProgressIndicator,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Draw_ProgressIndicator)
 #include <Draw_Interpretor.hxx>
 #include <Draw.hxx>
 #include <Message_ProgressScale.hxx>

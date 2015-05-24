@@ -11,7 +11,16 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Interface_CopyTool.ixx>
+#include <Interface_InterfaceModel.hxx>
+#include <Interface_CopyControl.hxx>
+#include <Interface_CopyMap.hxx>
+#include <Standard_Transient.hxx>
+#include <Interface_GeneralModule.hxx>
+#include <Interface_InterfaceError.hxx>
+#include <Interface_GeneralLib.hxx>
+#include <Interface_Protocol.hxx>
+#include <Interface_EntityIterator.hxx>
+#include <Interface_CopyTool.hxx>
 #include <Interface_GeneralModule.hxx>
 #include <Interface_ReportEntity.hxx>
 #include <Interface_InterfaceError.hxx>

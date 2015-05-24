@@ -16,7 +16,25 @@
 
 #define IMP020200       //GG Add Transformation() method
 
-#include <Prs3d_Presentation.ixx>
+#include <Prs3d_Root.hxx>
+#include <Graphic3d_StructureManager.hxx>
+#include <Graphic3d_Structure.hxx>
+#include <Graphic3d_DataStructureManager.hxx>
+#include <TColStd_Array2OfReal.hxx>
+#include <Prs3d_ShadingAspect.hxx>
+#include <Geom_Transformation.hxx>
+#include <Graphic3d_Group.hxx>
+#include <Prs3d_Presentation.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Prs3d_Presentation)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Graphic3d_Structure),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Prs3d_Presentation)
+IMPLEMENT_DOWNCAST(Prs3d_Presentation,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Prs3d_Presentation)
 #include <TColStd_Array2OfReal.hxx>
 #include <Graphic3d_Structure.hxx>
 #include <Aspect_TypeOfHighlightMethod.hxx>

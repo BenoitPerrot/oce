@@ -11,7 +11,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Interface_ShareFlags.ixx>
+#include <Interface_InterfaceModel.hxx>
+#include <TColStd_HSequenceOfTransient.hxx>
+#include <Standard_DomainError.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Interface_GeneralLib.hxx>
+#include <Interface_GTool.hxx>
+#include <Interface_Protocol.hxx>
+#include <Interface_Graph.hxx>
+#include <Standard_Transient.hxx>
+#include <Interface_EntityIterator.hxx>
+#include <Interface_ShareFlags.hxx>
 #include <Interface_GeneralModule.hxx>
 #include <Interface_ReportEntity.hxx>
 #include <Interface_IntList.hxx>

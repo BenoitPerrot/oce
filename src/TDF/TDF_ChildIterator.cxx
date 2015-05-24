@@ -21,7 +21,8 @@
 
 
 
-#include <TDF_ChildIterator.ixx>
+#include <TDF_Label.hxx>
+#include <TDF_ChildIterator.hxx>
 
 #include <TDF_Label.hxx>
 #include <TDF_LabelNode.hxx>

@@ -17,7 +17,26 @@
 // Modified by rmi, Tue Nov 18 08:17:41 1997
 
 
-#include <CDM_Document.ixx>
+#include <CDM_MetaData.hxx>
+#include <CDM_Application.hxx>
+#include <Standard_NoSuchObject.hxx>
+#include <Standard_Failure.hxx>
+#include <Standard_DomainError.hxx>
+#include <CDM_Reference.hxx>
+#include <CDM_ReferenceIterator.hxx>
+#include <TCollection_ExtendedString.hxx>
+#include <TColStd_SequenceOfExtendedString.hxx>
+#include <Resource_Manager.hxx>
+#include <Standard_GUID.hxx>
+#include <CDM_Document.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(CDM_Document)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(CDM_Document)
+IMPLEMENT_DOWNCAST(CDM_Document,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(CDM_Document)
 
 #include <Standard_NullObject.hxx>
 

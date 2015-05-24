@@ -11,7 +11,23 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IGESData_UndefinedEntity.ixx>
+#include <Interface_UndefinedContent.hxx>
+#include <IGESData_IGESReaderData.hxx>
+#include <IGESData_DirPart.hxx>
+#include <Interface_Check.hxx>
+#include <IGESData_ParamReader.hxx>
+#include <IGESData_IGESWriter.hxx>
+#include <IGESData_UndefinedEntity.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESData_UndefinedEntity)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IGESData_IGESEntity),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESData_UndefinedEntity)
+IMPLEMENT_DOWNCAST(IGESData_UndefinedEntity,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESData_UndefinedEntity)
 #include <IGESData_LineFontEntity.hxx>
 #include <IGESData_LevelListEntity.hxx>
 #include <IGESData_ViewKindEntity.hxx>

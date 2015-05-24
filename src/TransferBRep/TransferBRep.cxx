@@ -12,7 +12,22 @@
 // commercial license or contractual agreement.
 
 #include <Standard_ErrorHandler.hxx>
-#include <TransferBRep.ixx>
+#include <TopoDS_Shape.hxx>
+#include <Transfer_Binder.hxx>
+#include <Transfer_TransientProcess.hxx>
+#include <Standard_Transient.hxx>
+#include <TopTools_HSequenceOfShape.hxx>
+#include <TColStd_HSequenceOfTransient.hxx>
+#include <Transfer_FinderProcess.hxx>
+#include <TransferBRep_ShapeMapper.hxx>
+#include <TransferBRep_HSequenceOfTransferResultInfo.hxx>
+#include <TColStd_HSequenceOfInteger.hxx>
+#include <Message_Printer.hxx>
+#include <Message_Msg.hxx>
+#include <TransferBRep_TransferResultInfo.hxx>
+#include <Interface_CheckIterator.hxx>
+#include <Interface_InterfaceModel.hxx>
+#include <TransferBRep.hxx>
 #include <Standard_Failure.hxx>
 #include <Interface_Macros.hxx>
 

@@ -21,7 +21,10 @@
 #include <StdFail_NotDone.hxx>
 #include <Standard_RangeError.hxx>  
 #include <math_DirectPolynomialRoots.hxx>
-#include <math_FunctionRoots.ixx>
+#include <Standard_RangeError.hxx>
+#include <StdFail_NotDone.hxx>
+#include <math_FunctionWithDerivative.hxx>
+#include <math_FunctionRoots.hxx>
 #include <math_FunctionWithDerivative.hxx>
 #include <TColStd_Array1OfReal.hxx>
 //#ifdef WNT

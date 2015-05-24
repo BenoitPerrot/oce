@@ -14,7 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <ShapeFix_EdgeConnect.ixx>
+#include <TopoDS_Edge.hxx>
+#include <TopoDS_Shape.hxx>
+#include <ShapeFix_EdgeConnect.hxx>
 
 #include <TopExp.hxx>
 #include <TopExp_Explorer.hxx>

@@ -13,13 +13,26 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Message_PrinterOStream.ixx>
 
+#include <Standard_Mutex.hxx>
+#include <Standard_Stream.hxx>
+#include <Standard_Type.hxx>
+#include <Message_PrinterOStream.hxx>
 #include <Message_Gravity.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <TCollection_ExtendedString.hxx>
-#include <Standard_Mutex.hxx>
-#include <Standard_Stream.hxx>
+
+IMPLEMENT_STANDARD_TYPE(Message_PrinterOStream)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Message_Printer),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Message_PrinterOStream)
+
+IMPLEMENT_DOWNCAST(Message_PrinterOStream,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Message_PrinterOStream)
 
 //=======================================================================
 //function : Constructor

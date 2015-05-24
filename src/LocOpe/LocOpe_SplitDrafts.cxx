@@ -14,7 +14,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <LocOpe_SplitDrafts.ixx>
+#include <StdFail_NotDone.hxx>
+#include <Standard_NoSuchObject.hxx>
+#include <Standard_ConstructionError.hxx>
+#include <Standard_NullObject.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopoDS_Face.hxx>
+#include <TopoDS_Wire.hxx>
+#include <gp_Dir.hxx>
+#include <gp_Pln.hxx>
+#include <TopTools_ListOfShape.hxx>
+#include <LocOpe_SplitDrafts.hxx>
 
 #include <TopExp_Explorer.hxx>
 #include <TopTools_DataMapIteratorOfDataMapOfShapeListOfShape.hxx>

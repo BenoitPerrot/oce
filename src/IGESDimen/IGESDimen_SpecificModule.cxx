@@ -11,7 +11,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IGESDimen_SpecificModule.ixx>
+#include <IGESData_IGESEntity.hxx>
+#include <IGESData_IGESDumper.hxx>
+#include <Message_Messenger.hxx>
+#include <IGESDimen_SpecificModule.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESDimen_SpecificModule)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IGESData_SpecificModule),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESDimen_SpecificModule)
+IMPLEMENT_DOWNCAST(IGESDimen_SpecificModule,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESDimen_SpecificModule)
 #include <Interface_Macros.hxx>
 
 #include <IGESDimen_AngularDimension.hxx>

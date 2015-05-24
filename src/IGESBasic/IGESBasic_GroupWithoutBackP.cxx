@@ -16,7 +16,19 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESBasic_GroupWithoutBackP.ixx>
+#include <Standard_OutOfRange.hxx>
+#include <IGESBasic_GroupWithoutBackP.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESBasic_GroupWithoutBackP)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IGESBasic_Group),
+  STANDARD_TYPE(IGESData_IGESEntity),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESBasic_GroupWithoutBackP)
+IMPLEMENT_DOWNCAST(IGESBasic_GroupWithoutBackP,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESBasic_GroupWithoutBackP)
 
 
 IGESBasic_GroupWithoutBackP::IGESBasic_GroupWithoutBackP ()

@@ -16,7 +16,20 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.0
 
-#include <StepAP203_CcDesignPersonAndOrganizationAssignment.ixx>
+#include <StepAP203_HArray1OfPersonOrganizationItem.hxx>
+#include <StepBasic_PersonAndOrganization.hxx>
+#include <StepBasic_PersonAndOrganizationRole.hxx>
+#include <StepAP203_CcDesignPersonAndOrganizationAssignment.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepAP203_CcDesignPersonAndOrganizationAssignment)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepBasic_PersonAndOrganizationAssignment),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepAP203_CcDesignPersonAndOrganizationAssignment)
+IMPLEMENT_DOWNCAST(StepAP203_CcDesignPersonAndOrganizationAssignment,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepAP203_CcDesignPersonAndOrganizationAssignment)
 
 //=======================================================================
 //function : StepAP203_CcDesignPersonAndOrganizationAssignment

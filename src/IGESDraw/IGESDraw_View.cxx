@@ -16,7 +16,23 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESDraw_View.ixx>
+#include <IGESGeom_Plane.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <IGESData_ViewKindEntity.hxx>
+#include <IGESData_TransfEntity.hxx>
+#include <gp_XYZ.hxx>
+#include <IGESDraw_View.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESDraw_View)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IGESData_ViewKindEntity),
+  STANDARD_TYPE(IGESData_IGESEntity),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESDraw_View)
+IMPLEMENT_DOWNCAST(IGESDraw_View,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESDraw_View)
 #include <gp_GTrsf.hxx>
 
 

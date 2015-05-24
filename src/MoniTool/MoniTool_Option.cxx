@@ -11,7 +11,22 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <MoniTool_Option.ixx>
+#include <Standard_Type.hxx>
+#include <MoniTool_TypedValue.hxx>
+#include <Dico_DictionaryOfTransient.hxx>
+#include <Standard_Transient.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <TColStd_HSequenceOfAsciiString.hxx>
+#include <MoniTool_Option.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(MoniTool_Option)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(MoniTool_Option)
+IMPLEMENT_DOWNCAST(MoniTool_Option,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(MoniTool_Option)
 #include <Dico_IteratorOfDictionaryOfTransient.hxx>
 #include <TCollection_HAsciiString.hxx>
 

@@ -14,7 +14,24 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Geom_Curve.ixx>
+#include <Standard_RangeError.hxx>
+#include <Standard_NoSuchObject.hxx>
+#include <Geom_UndefinedDerivative.hxx>
+#include <Geom_UndefinedValue.hxx>
+#include <gp_Trsf.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Vec.hxx>
+#include <Geom_Curve.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Geom_Curve)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Geom_Geometry),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Geom_Curve)
+IMPLEMENT_DOWNCAST(Geom_Curve,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Geom_Curve)
 
 typedef Geom_Curve         Curve;
 typedef Handle(Geom_Curve) Handle(Curve);

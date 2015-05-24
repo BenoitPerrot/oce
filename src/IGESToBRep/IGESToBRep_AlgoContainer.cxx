@@ -13,7 +13,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IGESToBRep_AlgoContainer.ixx>
+#include <IGESToBRep_ToolContainer.hxx>
+#include <IGESToBRep_AlgoContainer.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESToBRep_AlgoContainer)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESToBRep_AlgoContainer)
+IMPLEMENT_DOWNCAST(IGESToBRep_AlgoContainer,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESToBRep_AlgoContainer)
 
 //=======================================================================
 //function : IGESToBRep_AlgoContainer

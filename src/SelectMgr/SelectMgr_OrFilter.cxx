@@ -12,7 +12,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <SelectMgr_OrFilter.ixx>
+#include <SelectMgr_EntityOwner.hxx>
+#include <SelectMgr_OrFilter.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(SelectMgr_OrFilter)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(SelectMgr_CompositionFilter),
+  STANDARD_TYPE(SelectMgr_Filter),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(SelectMgr_OrFilter)
+IMPLEMENT_DOWNCAST(SelectMgr_OrFilter,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(SelectMgr_OrFilter)
 
 #include <SelectMgr_Filter.hxx>
 #include <SelectMgr_ListIteratorOfListOfFilter.hxx>

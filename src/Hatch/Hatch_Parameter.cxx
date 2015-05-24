@@ -14,7 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Hatch_Parameter.ixx>
+#include <Hatch_Line.hxx>
+#include <Hatch_Hatcher.hxx>
+#include <Hatch_Parameter.hxx>
 
 //=======================================================================
 //function : Hatch_Parameter

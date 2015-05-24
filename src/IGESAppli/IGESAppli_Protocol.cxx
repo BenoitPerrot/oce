@@ -11,7 +11,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IGESAppli_Protocol.ixx>
+#include <Interface_Protocol.hxx>
+#include <Standard_Type.hxx>
+#include <IGESAppli_Protocol.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESAppli_Protocol)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IGESData_Protocol),
+  STANDARD_TYPE(Interface_Protocol),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESAppli_Protocol)
+IMPLEMENT_DOWNCAST(IGESAppli_Protocol,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESAppli_Protocol)
 
 #include <IGESAppli_Node.hxx>
 #include <IGESAppli_FiniteElement.hxx>

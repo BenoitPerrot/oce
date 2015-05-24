@@ -14,7 +14,49 @@
 //#1 svv   10.01.00 : porting on DEC 
 //smh#14 17.03.2000 : FRA62479 Clearing of gtool
 #include <Standard_ErrorHandler.hxx>
-#include <IFSelect_WorkSession.ixx>
+#include <IFSelect_ShareOut.hxx>
+#include <IFSelect_WorkLibrary.hxx>
+#include <Interface_Protocol.hxx>
+#include <Interface_InterfaceModel.hxx>
+#include <Interface_HGraph.hxx>
+#include <Interface_GTool.hxx>
+#include <Dico_DictionaryOfTransient.hxx>
+#include <IFSelect_ModelCopier.hxx>
+#include <Standard_DomainError.hxx>
+#include <IFSelect_Signature.hxx>
+#include <Standard_Transient.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <Interface_Graph.hxx>
+#include <TColStd_HSequenceOfTransient.hxx>
+#include <Interface_CheckIterator.hxx>
+#include <TColStd_HSequenceOfInteger.hxx>
+#include <Standard_Type.hxx>
+#include <TColStd_HSequenceOfHAsciiString.hxx>
+#include <IFSelect_IntParam.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <IFSelect_Selection.hxx>
+#include <Interface_EntityIterator.hxx>
+#include <IFSelect_SelectionIterator.hxx>
+#include <IFSelect_SignCounter.hxx>
+#include <IFSelect_Dispatch.hxx>
+#include <IFSelect_GeneralModifier.hxx>
+#include <IFSelect_Modifier.hxx>
+#include <IFSelect_Transformer.hxx>
+#include <IFSelect_PacketList.hxx>
+#include <TColStd_SequenceOfTransient.hxx>
+#include <TColStd_SequenceOfInteger.hxx>
+#include <Message_Messenger.hxx>
+#include <IFSelect_SignatureList.hxx>
+#include <IFSelect_WorkSession.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IFSelect_WorkSession)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IFSelect_WorkSession)
+IMPLEMENT_DOWNCAST(IFSelect_WorkSession,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IFSelect_WorkSession)
 #include <IFSelect_DispPerOne.hxx>
 #include <IFSelect_DispPerCount.hxx>
 #include <IFSelect_DispGlobal.hxx>

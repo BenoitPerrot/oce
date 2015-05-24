@@ -11,7 +11,22 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IGESSelect_EditDirPart.ixx>
+#include <TCollection_AsciiString.hxx>
+#include <IFSelect_EditForm.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <Standard_Transient.hxx>
+#include <Interface_InterfaceModel.hxx>
+#include <IGESSelect_EditDirPart.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESSelect_EditDirPart)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IFSelect_Editor),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESSelect_EditDirPart)
+IMPLEMENT_DOWNCAST(IGESSelect_EditDirPart,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESSelect_EditDirPart)
 #include <Interface_TypedValue.hxx>
 #include <Interface_Static.hxx>
 #include <Interface_Macros.hxx>

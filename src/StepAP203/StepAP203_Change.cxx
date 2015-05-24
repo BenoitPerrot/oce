@@ -16,7 +16,19 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.0
 
-#include <StepAP203_Change.ixx>
+#include <StepAP203_HArray1OfWorkItem.hxx>
+#include <StepBasic_Action.hxx>
+#include <StepAP203_Change.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepAP203_Change)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepBasic_ActionAssignment),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepAP203_Change)
+IMPLEMENT_DOWNCAST(StepAP203_Change,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepAP203_Change)
 
 //=======================================================================
 //function : StepAP203_Change

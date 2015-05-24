@@ -13,7 +13,22 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <ShapeExtend_MsgRegistrator.ixx>
+#include <Standard_Transient.hxx>
+#include <Message_Msg.hxx>
+#include <TopoDS_Shape.hxx>
+#include <ShapeExtend_DataMapOfTransientListOfMsg.hxx>
+#include <ShapeExtend_DataMapOfShapeListOfMsg.hxx>
+#include <ShapeExtend_MsgRegistrator.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(ShapeExtend_MsgRegistrator)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(ShapeExtend_BasicMsgRegistrator),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(ShapeExtend_MsgRegistrator)
+IMPLEMENT_DOWNCAST(ShapeExtend_MsgRegistrator,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(ShapeExtend_MsgRegistrator)
 #include <Message_ListOfMsg.hxx>
 
 //=======================================================================

@@ -16,7 +16,10 @@
 
 //              .cxx
 
-#include <GeomToStep_MakeBSplineSurfaceWithKnotsAndRationalBSplineSurface.ixx>
+#include <StepGeom_BSplineSurfaceWithKnotsAndRationalBSplineSurface.hxx>
+#include <StdFail_NotDone.hxx>
+#include <Geom_BSplineSurface.hxx>
+#include <GeomToStep_MakeBSplineSurfaceWithKnotsAndRationalBSplineSurface.hxx>
 #include <StdFail_NotDone.hxx>
 #include <Geom_BSplineSurface.hxx>
 #include <StepGeom_BSplineSurfaceWithKnotsAndRationalBSplineSurface.hxx>

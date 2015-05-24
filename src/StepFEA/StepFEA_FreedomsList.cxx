@@ -15,7 +15,17 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
-#include <StepFEA_FreedomsList.ixx>
+#include <StepFEA_HArray1OfDegreeOfFreedom.hxx>
+#include <StepFEA_FreedomsList.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepFEA_FreedomsList)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepFEA_FreedomsList)
+IMPLEMENT_DOWNCAST(StepFEA_FreedomsList,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepFEA_FreedomsList)
 
 //=======================================================================
 //function : StepFEA_FreedomsList

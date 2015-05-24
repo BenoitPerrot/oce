@@ -14,7 +14,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopoDSToStep_MakeGeometricCurveSet.ixx>
+#include <StepShape_GeometricCurveSet.hxx>
+#include <StdFail_NotDone.hxx>
+#include <TopoDS_Shape.hxx>
+#include <Transfer_FinderProcess.hxx>
+#include <TopoDSToStep_MakeGeometricCurveSet.hxx>
 #include <TopoDSToStep.hxx>
 #include <TopoDSToStep_Builder.hxx>
 #include <TopoDSToStep_WireframeBuilder.hxx>

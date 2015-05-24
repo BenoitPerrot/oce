@@ -13,7 +13,22 @@
 
 #include <Standard_Stream.hxx>
 
-#include <IFSelect_SessionPilot.ixx>
+#include <IFSelect_WorkSession.hxx>
+#include <Standard_Transient.hxx>
+#include <IFSelect_WorkLibrary.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <IFSelect_SignCounter.hxx>
+#include <IFSelect_SessionPilot.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IFSelect_SessionPilot)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IFSelect_Activator),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IFSelect_SessionPilot)
+IMPLEMENT_DOWNCAST(IFSelect_SessionPilot,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IFSelect_SessionPilot)
 #include <IFSelect_Activator.hxx>
 #include <IFSelect_Selection.hxx>
 #include <Interface_EntityIterator.hxx>

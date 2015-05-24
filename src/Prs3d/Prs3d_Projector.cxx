@@ -12,7 +12,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Prs3d_Projector.ixx>
+#include <HLRAlgo_Projector.hxx>
+#include <Prs3d_Projector.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Prs3d_Projector)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Prs3d_Projector)
+IMPLEMENT_DOWNCAST(Prs3d_Projector,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Prs3d_Projector)
 #include <gp_Pnt.hxx>
 #include <gp_Dir.hxx>
 #include <gp_Trsf.hxx>

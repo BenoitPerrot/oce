@@ -11,7 +11,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepVisual_PointStyle.ixx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepVisual_Colour.hxx>
+#include <StepVisual_MarkerSelect.hxx>
+#include <StepBasic_SizeSelect.hxx>
+#include <StepVisual_PointStyle.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepVisual_PointStyle)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepVisual_PointStyle)
+IMPLEMENT_DOWNCAST(StepVisual_PointStyle,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepVisual_PointStyle)
 
 
 StepVisual_PointStyle::StepVisual_PointStyle ()  {}

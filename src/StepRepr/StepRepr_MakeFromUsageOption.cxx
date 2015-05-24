@@ -15,7 +15,21 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.1
 
-#include <StepRepr_MakeFromUsageOption.ixx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepBasic_MeasureWithUnit.hxx>
+#include <StepBasic_ProductDefinition.hxx>
+#include <StepRepr_MakeFromUsageOption.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepRepr_MakeFromUsageOption)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepRepr_ProductDefinitionUsage),
+  STANDARD_TYPE(StepBasic_ProductDefinitionRelationship),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepRepr_MakeFromUsageOption)
+IMPLEMENT_DOWNCAST(StepRepr_MakeFromUsageOption,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepRepr_MakeFromUsageOption)
 
 //=======================================================================
 //function : StepRepr_MakeFromUsageOption

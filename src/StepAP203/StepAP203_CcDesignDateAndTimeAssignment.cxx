@@ -16,7 +16,20 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.0
 
-#include <StepAP203_CcDesignDateAndTimeAssignment.ixx>
+#include <StepAP203_HArray1OfDateTimeItem.hxx>
+#include <StepBasic_DateAndTime.hxx>
+#include <StepBasic_DateTimeRole.hxx>
+#include <StepAP203_CcDesignDateAndTimeAssignment.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepAP203_CcDesignDateAndTimeAssignment)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepBasic_DateAndTimeAssignment),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepAP203_CcDesignDateAndTimeAssignment)
+IMPLEMENT_DOWNCAST(StepAP203_CcDesignDateAndTimeAssignment,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepAP203_CcDesignDateAndTimeAssignment)
 
 //=======================================================================
 //function : StepAP203_CcDesignDateAndTimeAssignment

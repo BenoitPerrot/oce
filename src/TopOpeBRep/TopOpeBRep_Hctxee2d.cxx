@@ -14,7 +14,21 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopOpeBRep_Hctxee2d.ixx>
+#include <TopoDS_Edge.hxx>
+#include <BRepAdaptor_Surface.hxx>
+#include <TopoDS_Shape.hxx>
+#include <Geom2dAdaptor_Curve.hxx>
+#include <IntRes2d_Domain.hxx>
+#include <TopOpeBRep_Hctxee2d.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(TopOpeBRep_Hctxee2d)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(TopOpeBRep_Hctxee2d)
+IMPLEMENT_DOWNCAST(TopOpeBRep_Hctxee2d,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(TopOpeBRep_Hctxee2d)
 #include <TopOpeBRep_define.hxx>
 #include <TopOpeBRepTool_CurveTool.hxx>
 #include <TopOpeBRepTool_ShapeTool.hxx>

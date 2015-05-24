@@ -16,7 +16,14 @@
 
 #include <Standard_NotImplemented.hxx>
 
-#include <ProjLib_Cylinder.ixx>
+#include <Standard_NoSuchObject.hxx>
+#include <gp_Cylinder.hxx>
+#include <gp_Lin.hxx>
+#include <gp_Circ.hxx>
+#include <gp_Elips.hxx>
+#include <gp_Parab.hxx>
+#include <gp_Hypr.hxx>
+#include <ProjLib_Cylinder.hxx>
 
 #include <Precision.hxx>
 #include <gp_Pln.hxx>

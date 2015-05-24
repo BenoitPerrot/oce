@@ -14,11 +14,27 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Units_UnitsLexicon.ixx>
-#include <Units.hxx>
-#include <Units_UnitsDictionary.hxx>
-#include <Units_Token.hxx>
+#include <Standard_Type.hxx>
+
+#include <TCollection_HAsciiString.hxx>
 #include <TCollection_AsciiString.hxx>
+
+#include <Units.hxx>
+#include <Units_Token.hxx>
+#include <Units_UnitsDictionary.hxx>
+#include <Units_UnitsLexicon.hxx>
+
+IMPLEMENT_STANDARD_TYPE(Units_UnitsLexicon)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Units_Lexicon),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Units_UnitsLexicon)
+
+IMPLEMENT_DOWNCAST(Units_UnitsLexicon,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Units_UnitsLexicon)
 
 #include <sys/types.h>
 #include <sys/stat.h>

@@ -12,7 +12,14 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_Storable.ixx>
+#include <Standard_Storable.hxx>
+#include <Standard_Type.hxx>
+
+IMPLEMENT_STANDARD_TYPE(Standard_Storable)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Standard_Storable)
 
 void Standard_Storable::Delete()
 {}

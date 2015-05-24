@@ -14,7 +14,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <MAT_Bisector.ixx>
+#include <MAT_Edge.hxx>
+#include <MAT_ListOfBisector.hxx>
+#include <MAT_Bisector.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(MAT_Bisector)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(MAT_Bisector)
+IMPLEMENT_DOWNCAST(MAT_Bisector,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(MAT_Bisector)
 #include <Precision.hxx>
 
 

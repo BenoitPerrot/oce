@@ -18,7 +18,13 @@
 #include <math_Vector.hxx>
 #include <math_Gauss.hxx>
 
-#include <Plate_FreeGtoCConstraint.ixx>
+#include <gp_XY.hxx>
+#include <Plate_D1.hxx>
+#include <Plate_D2.hxx>
+#include <Plate_D3.hxx>
+#include <Plate_PinpointConstraint.hxx>
+#include <Plate_LinearScalarConstraint.hxx>
+#include <Plate_FreeGtoCConstraint.hxx>
 
 #include <gp_Pnt.hxx>
 #include <gp_Dir.hxx>

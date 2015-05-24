@@ -14,7 +14,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PPrsStd_AISPresentation_1.ixx>
+#include <PCollection_HExtendedString.hxx>
+#include <PPrsStd_AISPresentation_1.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(PPrsStd_AISPresentation_1)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(PDF_Attribute),
+  STANDARD_TYPE(Standard_Persistent),
+  STANDARD_TYPE(Standard_Storable),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(PPrsStd_AISPresentation_1)
+IMPLEMENT_DOWNCAST(PPrsStd_AISPresentation_1,Standard_Persistent)
+IMPLEMENT_STANDARD_RTTI(PPrsStd_AISPresentation_1)
 
 
 //=======================================================================

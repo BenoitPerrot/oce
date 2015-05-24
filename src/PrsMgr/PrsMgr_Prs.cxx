@@ -12,7 +12,22 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PrsMgr_Prs.ixx>
+#include <Graphic3d_StructureManager.hxx>
+#include <Graphic3d_Structure.hxx>
+#include <Graphic3d_DataStructureManager.hxx>
+#include <TColStd_Array2OfReal.hxx>
+#include <PrsMgr_Prs.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(PrsMgr_Prs)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Prs3d_Presentation),
+  STANDARD_TYPE(Graphic3d_Structure),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(PrsMgr_Prs)
+IMPLEMENT_DOWNCAST(PrsMgr_Prs,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(PrsMgr_Prs)
 #include <PrsMgr_Presentation.hxx>
 #include <Precision.hxx>
 #include <gp_Trsf.hxx>

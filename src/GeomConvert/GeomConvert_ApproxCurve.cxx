@@ -14,7 +14,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomConvert_ApproxCurve.ixx>
+#include <Geom_Curve.hxx>
+#include <Geom_BSplineCurve.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Standard_ConstructionError.hxx>
+#include <GeomConvert_ApproxCurve.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Vec.hxx>
 #include <GeomAdaptor_HCurve.hxx>

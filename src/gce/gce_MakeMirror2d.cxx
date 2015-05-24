@@ -14,7 +14,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <gce_MakeMirror2d.ixx>
+#include <gp_Pnt2d.hxx>
+#include <gp_Ax2d.hxx>
+#include <gp_Lin2d.hxx>
+#include <gp_Dir2d.hxx>
+#include <gp_Trsf2d.hxx>
+#include <gce_MakeMirror2d.hxx>
 
 //=========================================================================
 //   Creation d une symetrie 2d de gp par rapport a un point.             +

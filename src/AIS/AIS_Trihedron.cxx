@@ -18,7 +18,32 @@
 
 #define IMP120100	// GG Add SetTextColor() and SetArrowColor() methods
 
-#include <AIS_Trihedron.ixx>
+#include <Geom_Axis2Placement.hxx>
+#include <AIS_InteractiveObject.hxx>
+#include <AIS_Axis.hxx>
+#include <AIS_Point.hxx>
+#include <AIS_Plane.hxx>
+#include <AIS_InteractiveContext.hxx>
+#include <Prs3d_Presentation.hxx>
+#include <Prs3d_Projector.hxx>
+#include <Geom_Transformation.hxx>
+#include <gp_Trsf.hxx>
+#include <SelectMgr_Selection.hxx>
+#include <Quantity_Color.hxx>
+#include <TColgp_Array1OfPnt.hxx>
+#include <AIS_Trihedron.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(AIS_Trihedron)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(AIS_InteractiveObject),
+  STANDARD_TYPE(SelectMgr_SelectableObject),
+  STANDARD_TYPE(PrsMgr_PresentableObject),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(AIS_Trihedron)
+IMPLEMENT_DOWNCAST(AIS_Trihedron,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(AIS_Trihedron)
 #include <DsgPrs_DatumPrs.hxx>
 #include <SelectBasics_EntityOwner.hxx>
 #include <SelectMgr_EntityOwner.hxx>

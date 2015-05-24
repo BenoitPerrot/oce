@@ -16,7 +16,22 @@
 
 //    pdn 13.07.99 Derivatives are scaled in accordance with local/global parameter transition
 
-#include <ShapeExtend_ComplexCurve.ixx>
+#include <Geom_Curve.hxx>
+#include <gp_Trsf.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Vec.hxx>
+#include <ShapeExtend_ComplexCurve.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(ShapeExtend_ComplexCurve)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Geom_Curve),
+  STANDARD_TYPE(Geom_Geometry),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(ShapeExtend_ComplexCurve)
+IMPLEMENT_DOWNCAST(ShapeExtend_ComplexCurve,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(ShapeExtend_ComplexCurve)
 #include <Precision.hxx>
 
 //=======================================================================

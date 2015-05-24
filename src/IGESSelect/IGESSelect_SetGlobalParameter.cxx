@@ -11,7 +11,24 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IGESSelect_SetGlobalParameter.ixx>
+#include <TCollection_HAsciiString.hxx>
+#include <IFSelect_ContextModif.hxx>
+#include <IGESData_IGESModel.hxx>
+#include <Interface_CopyTool.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <IGESSelect_SetGlobalParameter.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESSelect_SetGlobalParameter)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IGESSelect_ModelModifier),
+  STANDARD_TYPE(IFSelect_Modifier),
+  STANDARD_TYPE(IFSelect_GeneralModifier),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESSelect_SetGlobalParameter)
+IMPLEMENT_DOWNCAST(IGESSelect_SetGlobalParameter,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESSelect_SetGlobalParameter)
 #include <IGESData_GlobalSection.hxx>
 #include <Interface_ParamSet.hxx>
 #include <Interface_FileParameter.hxx>

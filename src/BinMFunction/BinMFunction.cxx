@@ -13,7 +13,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BinMFunction.ixx>
+#include <BinMDF_ADriverTable.hxx>
+#include <CDM_MessageDriver.hxx>
+#include <BinMFunction.hxx>
 #include <BinMDF_ADriverTable.hxx>
 #include <CDM_MessageDriver.hxx>
 #include <BinMFunction_FunctionDriver.hxx>

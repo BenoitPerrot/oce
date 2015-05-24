@@ -14,7 +14,21 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <DrawFairCurve_Batten.ixx>
+#include <gp_Pnt2d.hxx>
+#include <DrawFairCurve_Batten.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(DrawFairCurve_Batten)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(DrawTrSurf_BSplineCurve2d),
+  STANDARD_TYPE(DrawTrSurf_Curve2d),
+  STANDARD_TYPE(DrawTrSurf_Drawable),
+  STANDARD_TYPE(Draw_Drawable3D),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(DrawFairCurve_Batten)
+IMPLEMENT_DOWNCAST(DrawFairCurve_Batten,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(DrawFairCurve_Batten)
 
 #include <FairCurve_Batten.hxx>
 #include <FairCurve_AnalysisCode.hxx>

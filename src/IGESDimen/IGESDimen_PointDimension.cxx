@@ -16,7 +16,22 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESDimen_PointDimension.ixx>
+#include <IGESDimen_GeneralNote.hxx>
+#include <IGESDimen_LeaderArrow.hxx>
+#include <IGESData_IGESEntity.hxx>
+#include <IGESGeom_CircularArc.hxx>
+#include <IGESGeom_CompositeCurve.hxx>
+#include <IGESDimen_PointDimension.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESDimen_PointDimension)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IGESData_IGESEntity),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESDimen_PointDimension)
+IMPLEMENT_DOWNCAST(IGESDimen_PointDimension,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESDimen_PointDimension)
 #include <Interface_Macros.hxx>
 
 IGESDimen_PointDimension::IGESDimen_PointDimension ()    {  }

@@ -14,7 +14,21 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomFill_BoundWithSurf.ixx>
+#include <Law_Function.hxx>
+#include <Adaptor3d_CurveOnSurface.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Vec.hxx>
+#include <GeomFill_BoundWithSurf.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(GeomFill_BoundWithSurf)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(GeomFill_Boundary),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(GeomFill_BoundWithSurf)
+IMPLEMENT_DOWNCAST(GeomFill_BoundWithSurf,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(GeomFill_BoundWithSurf)
 #include <Law.hxx>
 #include <Law_BSpFunc.hxx>
 #include <Adaptor3d_HSurface.hxx>

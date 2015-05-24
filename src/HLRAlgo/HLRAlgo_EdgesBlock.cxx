@@ -17,7 +17,16 @@
 #ifndef No_Exception
 #define No_Exception
 #endif
-#include <HLRAlgo_EdgesBlock.ixx>
+#include <HLRAlgo_EdgesBlock.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(HLRAlgo_EdgesBlock)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(HLRAlgo_EdgesBlock)
+IMPLEMENT_DOWNCAST(HLRAlgo_EdgesBlock,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(HLRAlgo_EdgesBlock)
 
 //=======================================================================
 //function : HLRAlgo_EdgesBlock

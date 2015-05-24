@@ -12,7 +12,23 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PCollection_HExtendedString.ixx>
+#include <PCollection_HExtendedString.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Standard_NegativeValue.hxx>
+#include <Standard_NumericError.hxx>
+#include <TCollection_ExtendedString.hxx>
+#include <PCollection_HAsciiString.hxx>
+#include <DBC_VArrayOfExtCharacter.hxx>
+#include <PCollection_HExtendedString.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(PCollection_HExtendedString)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Standard_Persistent),
+  STANDARD_TYPE(Standard_Storable),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(PCollection_HExtendedString)
+IMPLEMENT_DOWNCAST(PCollection_HExtendedString,Standard_Persistent)
+IMPLEMENT_STANDARD_RTTI(PCollection_HExtendedString)
 #include <PCollection_HAsciiString.hxx>
 #include <Standard_ExtString.hxx>
 #include <Standard_NumericError.hxx>

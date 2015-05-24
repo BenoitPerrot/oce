@@ -14,7 +14,21 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepGeom_SurfaceCurveAndBoundedCurve.ixx>
+#include <StepGeom_BoundedCurve.hxx>
+#include <StepGeom_SurfaceCurveAndBoundedCurve.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepGeom_SurfaceCurveAndBoundedCurve)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepGeom_SurfaceCurve),
+  STANDARD_TYPE(StepGeom_Curve),
+  STANDARD_TYPE(StepGeom_GeometricRepresentationItem),
+  STANDARD_TYPE(StepRepr_RepresentationItem),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepGeom_SurfaceCurveAndBoundedCurve)
+IMPLEMENT_DOWNCAST(StepGeom_SurfaceCurveAndBoundedCurve,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepGeom_SurfaceCurveAndBoundedCurve)
 
 
 StepGeom_SurfaceCurveAndBoundedCurve::StepGeom_SurfaceCurveAndBoundedCurve () 

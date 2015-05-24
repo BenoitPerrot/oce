@@ -11,7 +11,21 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IGESSelect_IGESName.ixx>
+#include <Standard_Transient.hxx>
+#include <Interface_InterfaceModel.hxx>
+#include <IGESSelect_IGESName.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESSelect_IGESName)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IFSelect_Signature),
+  STANDARD_TYPE(Interface_SignType),
+  STANDARD_TYPE(MoniTool_SignText),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESSelect_IGESName)
+IMPLEMENT_DOWNCAST(IGESSelect_IGESName,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESSelect_IGESName)
 #include <IGESData_IGESEntity.hxx>
 #include <TCollection_HAsciiString.hxx>
 #include <Interface_Macros.hxx>

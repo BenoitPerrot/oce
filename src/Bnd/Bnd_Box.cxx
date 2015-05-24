@@ -14,7 +14,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Bnd_Box.ixx>
+#include <Standard_ConstructionError.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Dir.hxx>
+#include <gp_Trsf.hxx>
+#include <gp_Lin.hxx>
+#include <gp_Pln.hxx>
+#include <Bnd_Box.hxx>
 
 #define VoidMask  0x01
 #define XminMask  0x02

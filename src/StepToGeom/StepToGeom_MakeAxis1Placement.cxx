@@ -16,7 +16,9 @@
 
 // sln 22.10.2001. CTS23496: If problems with creation of axis's direction occur default direction is used (StepToGeom_MakeAxis1Placement(...) function)
 
-#include <StepToGeom_MakeAxis1Placement.ixx>
+#include <StepGeom_Axis1Placement.hxx>
+#include <Geom_Axis1Placement.hxx>
+#include <StepToGeom_MakeAxis1Placement.hxx>
 #include <StepGeom_Direction.hxx>
 #include <StepGeom_CartesianPoint.hxx>
 #include <StepToGeom_MakeDirection.hxx>

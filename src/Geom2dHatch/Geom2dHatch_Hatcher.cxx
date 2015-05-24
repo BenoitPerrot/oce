@@ -14,7 +14,16 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Geom2dHatch_Hatcher.ixx>
+#include <Standard_NoSuchObject.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <StdFail_NotDone.hxx>
+#include <Geom2dHatch_Intersector.hxx>
+#include <Geom2dHatch_Element.hxx>
+#include <Geom2dAdaptor_Curve.hxx>
+#include <Geom2dHatch_Hatching.hxx>
+#include <HatchGen_PointOnHatching.hxx>
+#include <HatchGen_Domain.hxx>
+#include <Geom2dHatch_Hatcher.hxx>
 
 #include <HatchGen_Domain.hxx>
 #include <HatchGen_Domains.hxx>

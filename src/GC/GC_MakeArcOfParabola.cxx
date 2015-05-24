@@ -14,7 +14,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GC_MakeArcOfParabola.ixx>
+#include <Geom_TrimmedCurve.hxx>
+#include <StdFail_NotDone.hxx>
+#include <gp_Parab.hxx>
+#include <gp_Pnt.hxx>
+#include <GC_MakeArcOfParabola.hxx>
 #include <Geom_Parabola.hxx>
 #include <StdFail_NotDone.hxx>
 #include <ElCLib.hxx>

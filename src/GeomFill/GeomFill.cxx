@@ -14,7 +14,15 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomFill.ixx>
+#include <Geom_Surface.hxx>
+#include <Geom_Curve.hxx>
+#include <gp_Vec.hxx>
+#include <gp_Pnt.hxx>
+#include <TColgp_Array1OfPnt.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <TColgp_Array1OfVec.hxx>
+#include <TColStd_Array1OfInteger.hxx>
+#include <GeomFill.hxx>
 #include <GeomFill_Generator.hxx>
 
 #include <Geom_RectangularTrimmedSurface.hxx>

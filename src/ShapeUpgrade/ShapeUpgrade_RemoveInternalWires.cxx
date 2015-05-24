@@ -11,7 +11,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <ShapeUpgrade_RemoveInternalWires.ixx>
+#include <TopoDS_Shape.hxx>
+#include <TopTools_SequenceOfShape.hxx>
+#include <ShapeUpgrade_RemoveInternalWires.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(ShapeUpgrade_RemoveInternalWires)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(ShapeUpgrade_Tool),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(ShapeUpgrade_RemoveInternalWires)
+IMPLEMENT_DOWNCAST(ShapeUpgrade_RemoveInternalWires,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_RemoveInternalWires)
 #include <TopExp_Explorer.hxx>
 #include <TopExp.hxx>
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>

@@ -15,7 +15,38 @@
 //:n4 abv 11.02.99 S4132: recognition of GeometricSet (instead of GeometricCurveSet)
 //    gka 05.04.99 S4136: eliminate parameter lastpreci
 //gka,abv 14.04.99 S4136: maintain unit context, precision and maxtolerance values
-#include <STEPControl_ActorRead.ixx>
+#include <StepRepr_Representation.hxx>
+#include <Standard_Transient.hxx>
+#include <Transfer_Binder.hxx>
+#include <Transfer_TransientProcess.hxx>
+#include <StepGeom_Axis2Placement3d.hxx>
+#include <gp_Trsf.hxx>
+#include <StepRepr_RepresentationRelationship.hxx>
+#include <TransferBRep_ShapeBinder.hxx>
+#include <StepBasic_ProductDefinition.hxx>
+#include <StepRepr_NextAssemblyUsageOccurrence.hxx>
+#include <StepShape_ShapeRepresentation.hxx>
+#include <StepShape_ContextDependentShapeRepresentation.hxx>
+#include <StepRepr_ShapeRepresentationRelationship.hxx>
+#include <StepGeom_GeometricRepresentationItem.hxx>
+#include <StepRepr_MappedItem.hxx>
+#include <StepShape_FaceSurface.hxx>
+#include <TopoDS_Shell.hxx>
+#include <TopTools_ListOfShape.hxx>
+#include <TopoDS_Compound.hxx>
+#include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
+#include <STEPControl_ActorRead.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(STEPControl_ActorRead)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Transfer_ActorOfTransientProcess),
+  STANDARD_TYPE(Transfer_ActorOfProcessForTransient),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(STEPControl_ActorRead)
+IMPLEMENT_DOWNCAST(STEPControl_ActorRead,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(STEPControl_ActorRead)
 #include <OSD_Timer.hxx>
 
 // #include <Interface_InterfaceModel.hxx>  // pour mise au point

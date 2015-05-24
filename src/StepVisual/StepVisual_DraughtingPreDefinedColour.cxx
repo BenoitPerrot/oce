@@ -11,7 +11,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepVisual_DraughtingPreDefinedColour.ixx>
+#include <StepVisual_DraughtingPreDefinedColour.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepVisual_DraughtingPreDefinedColour)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepVisual_PreDefinedColour),
+  STANDARD_TYPE(StepVisual_Colour),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepVisual_DraughtingPreDefinedColour)
+IMPLEMENT_DOWNCAST(StepVisual_DraughtingPreDefinedColour,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepVisual_DraughtingPreDefinedColour)
 
 
 StepVisual_DraughtingPreDefinedColour::StepVisual_DraughtingPreDefinedColour ()  {}

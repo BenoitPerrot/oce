@@ -14,7 +14,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Poly_Polygon2D.ixx>
+#include <Standard_NullObject.hxx>
+#include <TColgp_Array1OfPnt2d.hxx>
+#include <Poly_Polygon2D.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Poly_Polygon2D)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Poly_Polygon2D)
+IMPLEMENT_DOWNCAST(Poly_Polygon2D,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Poly_Polygon2D)
 #include <gp_Pnt2d.hxx>
 
 //=======================================================================

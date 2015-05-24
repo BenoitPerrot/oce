@@ -12,9 +12,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <FSD_BinaryFile.ixx>
+#include <FSD_BinaryFile.hxx>
 #include <OSD.hxx>
 #include <OSD_OpenFile.hxx>
+#include <Storage_BaseDriver.hxx>
+#include <Storage_StreamTypeMismatchError.hxx>
+#include <Storage_StreamFormatError.hxx>
+#include <Storage_StreamWriteError.hxx>
+#include <Storage_StreamExtCharParityError.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <TCollection_ExtendedString.hxx>
+#include <TColStd_SequenceOfAsciiString.hxx>
+#include <TColStd_SequenceOfExtendedString.hxx>
 
 const Standard_CString MAGICNUMBER = "BINFILE";
 

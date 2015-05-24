@@ -21,7 +21,11 @@
 
 
 
-#include <TDF_ComparisonTool.ixx>
+#include <TDF_DataSet.hxx>
+#include <TDF_IDFilter.hxx>
+#include <TDF_RelocationTable.hxx>
+#include <TDF_Label.hxx>
+#include <TDF_ComparisonTool.hxx>
 
 #include <TDF_Attribute.hxx>
 #include <TDF_AttributeDataMap.hxx>

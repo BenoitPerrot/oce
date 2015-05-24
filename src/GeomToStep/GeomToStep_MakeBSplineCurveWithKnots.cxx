@@ -14,7 +14,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomToStep_MakeBSplineCurveWithKnots.ixx>
+#include <StepGeom_BSplineCurveWithKnots.hxx>
+#include <StdFail_NotDone.hxx>
+#include <Geom_BSplineCurve.hxx>
+#include <Geom2d_BSplineCurve.hxx>
+#include <GeomToStep_MakeBSplineCurveWithKnots.hxx>
 #include <StdFail_NotDone.hxx>
 #include <Geom_BSplineCurve.hxx>
 #include <StepGeom_BSplineCurveWithKnots.hxx>

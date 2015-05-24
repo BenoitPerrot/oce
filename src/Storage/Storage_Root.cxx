@@ -12,7 +12,22 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Storage_Root.ixx>
+#include <Standard_Persistent.hxx>
+#include <Standard_Type.hxx>
+#include <Storage_Schema.hxx>
+#include <Storage_Root.hxx>
+#include <TCollection_AsciiString.hxx>
+
+IMPLEMENT_STANDARD_TYPE(Storage_Root)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Storage_Root)
+
+IMPLEMENT_DOWNCAST(Storage_Root,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Storage_Root)
 
 Storage_Root::Storage_Root() : myRef(0)
 {

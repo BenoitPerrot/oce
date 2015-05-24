@@ -16,7 +16,19 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESGeom_ToolBoundedSurface.ixx>
+#include <Standard_DomainError.hxx>
+#include <IGESGeom_BoundedSurface.hxx>
+#include <IGESData_IGESReaderData.hxx>
+#include <IGESData_ParamReader.hxx>
+#include <IGESData_IGESWriter.hxx>
+#include <Interface_EntityIterator.hxx>
+#include <IGESData_DirChecker.hxx>
+#include <Interface_ShareTool.hxx>
+#include <Interface_Check.hxx>
+#include <Interface_CopyTool.hxx>
+#include <IGESData_IGESDumper.hxx>
+#include <Message_Messenger.hxx>
+#include <IGESGeom_ToolBoundedSurface.hxx>
 #include <IGESData_ParamCursor.hxx>
 #include <IGESGeom_Boundary.hxx>
 #include <IGESData_IGESEntity.hxx>

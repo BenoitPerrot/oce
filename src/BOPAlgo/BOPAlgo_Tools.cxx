@@ -12,7 +12,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BOPAlgo_Tools.ixx>
+#include <BOPDS_PaveBlock.hxx>
+#include <BOPAlgo_Tools.hxx>
 #include <BOPDS_DS.hxx>
 #include <BOPDS_MapOfPaveBlock.hxx>
 #include <BOPDS_IndexedMapOfPaveBlock.hxx>

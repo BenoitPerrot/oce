@@ -17,7 +17,9 @@
 // 15.06 2000 gka fix against small edges ; merging ends pcurves and 3d curves
 
 
-#include <ShapeUpgrade_ShapeConvertToBezier.ixx>
+#include <TopoDS_Shape.hxx>
+#include <ShapeUpgrade_FaceDivide.hxx>
+#include <ShapeUpgrade_ShapeConvertToBezier.hxx>
 #include <ShapeUpgrade_WireDivide.hxx>
 #include <ShapeUpgrade_ConvertCurve3dToBezier.hxx>
 #include <ShapeUpgrade_ConvertCurve2dToBezier.hxx>

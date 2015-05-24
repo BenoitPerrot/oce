@@ -19,7 +19,9 @@
 //:s5 abv 22.04.99  Adding debug printouts in catch {} blocks
 //sln 03.10.01. BUC61003. creation of  offset surface is corrected
 
-#include <StepToGeom_MakeSurface.ixx>
+#include <StepGeom_Surface.hxx>
+#include <Geom_Surface.hxx>
+#include <StepToGeom_MakeSurface.hxx>
 #include <Standard_ErrorHandler.hxx>
 #include <Standard_Failure.hxx>
 #include <StepGeom_Surface.hxx>

@@ -17,7 +17,10 @@
 #ifndef No_Exception
 #define No_Exception
 #endif
-#include <HLRBRep_FaceIterator.ixx>
+#include <HLRAlgo_WiresBlock.hxx>
+#include <HLRAlgo_EdgesBlock.hxx>
+#include <HLRBRep_FaceData.hxx>
+#include <HLRBRep_FaceIterator.hxx>
 
 //=======================================================================
 //function : FaceIterator

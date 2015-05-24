@@ -12,7 +12,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Prs3d_PlaneAspect.ixx>
+#include <Prs3d_LineAspect.hxx>
+#include <Prs3d_PlaneAspect.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Prs3d_PlaneAspect)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Prs3d_BasicAspect),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Prs3d_PlaneAspect)
+IMPLEMENT_DOWNCAST(Prs3d_PlaneAspect,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Prs3d_PlaneAspect)
 
 Prs3d_PlaneAspect::Prs3d_PlaneAspect()
 {

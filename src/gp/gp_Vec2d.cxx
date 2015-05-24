@@ -16,7 +16,21 @@
 
 #define No_Standard_OutOfRange
 
-#include <gp_Vec2d.ixx>
+#include <Standard_ConstructionError.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <gp_VectorWithNullMagnitude.hxx>
+#include <gp_Dir2d.hxx>
+#include <gp_XY.hxx>
+#include <gp_Pnt2d.hxx>
+#include <gp_Ax2d.hxx>
+#include <gp_Trsf2d.hxx>
+#include <gp_Vec2d.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(gp_Vec2d)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Standard_Storable),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(gp_Vec2d)
 #include <gp.hxx>
 #include <gp_VectorWithNullMagnitude.hxx>
 

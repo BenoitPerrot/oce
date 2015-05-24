@@ -14,7 +14,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomLib_Interpolate.ixx>
+#include <Geom_BSplineCurve.hxx>
+#include <StdFail_NotDone.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <TColgp_Array1OfPnt.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <GeomLib_Interpolate.hxx>
 
 #include <Standard_ConstructionError.hxx>
 #include <PLib.hxx>

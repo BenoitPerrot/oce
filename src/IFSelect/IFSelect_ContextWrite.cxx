@@ -11,7 +11,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IFSelect_ContextWrite.ixx>
+#include <Interface_InterfaceModel.hxx>
+#include <Interface_Protocol.hxx>
+#include <IFSelect_AppliedModifiers.hxx>
+#include <Interface_HGraph.hxx>
+#include <IFSelect_GeneralModifier.hxx>
+#include <Standard_NoSuchObject.hxx>
+#include <Interface_Graph.hxx>
+#include <Standard_Transient.hxx>
+#include <Interface_Check.hxx>
+#include <Interface_CheckIterator.hxx>
+#include <IFSelect_ContextWrite.hxx>
 #include <Standard_NoSuchObject.hxx>
 
 

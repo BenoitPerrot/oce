@@ -15,7 +15,20 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
-#include <StepFEA_CurveElementIntervalLinearlyVarying.ixx>
+#include <StepElement_HArray1OfCurveElementSectionDefinition.hxx>
+#include <StepFEA_CurveElementLocation.hxx>
+#include <StepBasic_EulerAngles.hxx>
+#include <StepFEA_CurveElementIntervalLinearlyVarying.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepFEA_CurveElementIntervalLinearlyVarying)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepFEA_CurveElementInterval),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepFEA_CurveElementIntervalLinearlyVarying)
+IMPLEMENT_DOWNCAST(StepFEA_CurveElementIntervalLinearlyVarying,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepFEA_CurveElementIntervalLinearlyVarying)
 
 //=======================================================================
 //function : StepFEA_CurveElementIntervalLinearlyVarying

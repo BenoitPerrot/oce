@@ -14,7 +14,39 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <MgtGeom2d.ixx>
+#include <Geom2d_AxisPlacement.hxx>
+#include <PGeom2d_AxisPlacement.hxx>
+#include <Geom2d_BSplineCurve.hxx>
+#include <PGeom2d_BSplineCurve.hxx>
+#include <Geom2d_BezierCurve.hxx>
+#include <PGeom2d_BezierCurve.hxx>
+#include <Geom2d_CartesianPoint.hxx>
+#include <PGeom2d_CartesianPoint.hxx>
+#include <Geom2d_Circle.hxx>
+#include <PGeom2d_Circle.hxx>
+#include <Geom2d_Curve.hxx>
+#include <PGeom2d_Curve.hxx>
+#include <Geom2d_Direction.hxx>
+#include <PGeom2d_Direction.hxx>
+#include <Geom2d_Ellipse.hxx>
+#include <PGeom2d_Ellipse.hxx>
+#include <Geom2d_Hyperbola.hxx>
+#include <PGeom2d_Hyperbola.hxx>
+#include <Geom2d_Line.hxx>
+#include <PGeom2d_Line.hxx>
+#include <Geom2d_OffsetCurve.hxx>
+#include <PGeom2d_OffsetCurve.hxx>
+#include <Geom2d_Parabola.hxx>
+#include <PGeom2d_Parabola.hxx>
+#include <Geom2d_Point.hxx>
+#include <PGeom2d_Point.hxx>
+#include <Geom2d_Transformation.hxx>
+#include <PGeom2d_Transformation.hxx>
+#include <Geom2d_TrimmedCurve.hxx>
+#include <PGeom2d_TrimmedCurve.hxx>
+#include <Geom2d_VectorWithMagnitude.hxx>
+#include <PGeom2d_VectorWithMagnitude.hxx>
+#include <MgtGeom2d.hxx>
 
 #include <Standard_Type.hxx>
 

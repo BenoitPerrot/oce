@@ -19,7 +19,16 @@
 //    abv 14.05.99 S4174: Adding method for exact computing of the boundary box 
 //    gka 21.06.99 S4208: adding method NextProject(Adaptor_Curve)
 //    msv 30.05.00 correct IsPlanar for a conic curve
-#include <ShapeAnalysis_Curve.ixx>
+#include <Geom_Curve.hxx>
+#include <gp_Pnt.hxx>
+#include <Adaptor3d_Curve.hxx>
+#include <Geom2d_Curve.hxx>
+#include <Bnd_Box2d.hxx>
+#include <TColgp_Array1OfPnt.hxx>
+#include <gp_XYZ.hxx>
+#include <TColgp_SequenceOfPnt2d.hxx>
+#include <TColgp_SequenceOfPnt.hxx>
+#include <ShapeAnalysis_Curve.hxx>
 
 #include <ElCLib.hxx>
 

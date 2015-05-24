@@ -11,7 +11,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepVisual_MarkerSelect.ixx>
+#include <Standard_Transient.hxx>
+#include <StepData_SelectMember.hxx>
+#include <StepVisual_MarkerMember.hxx>
+#include <StepVisual_MarkerSelect.hxx>
 #include <Interface_Macros.hxx>
 
 StepVisual_MarkerSelect::StepVisual_MarkerSelect () {  }

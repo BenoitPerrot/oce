@@ -14,7 +14,14 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepSweep_NumLinearRegularSweep.ixx>
+#include <Standard_NoMoreObject.hxx>
+#include <Standard_NoSuchObject.hxx>
+#include <Standard_RangeError.hxx>
+#include <Standard_DomainError.hxx>
+#include <BRepSweep_Builder.hxx>
+#include <TopoDS_Shape.hxx>
+#include <Sweep_NumShape.hxx>
+#include <BRepSweep_NumLinearRegularSweep.hxx>
 
 #include <Standard_RangeError.hxx>
 #include <Standard_NoSuchObject.hxx>

@@ -11,7 +11,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StlAPI_Reader.ixx>
+#include <TopoDS_Shape.hxx>
+#include <StlAPI_Reader.hxx>
 #include <RWStl.hxx>
 #include <StlMesh_Mesh.hxx>
 #include <OSD_Path.hxx>

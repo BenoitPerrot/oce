@@ -16,7 +16,18 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESAppli_PartNumber.ixx>
+#include <TCollection_HAsciiString.hxx>
+#include <IGESAppli_PartNumber.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESAppli_PartNumber)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IGESData_IGESEntity),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESAppli_PartNumber)
+IMPLEMENT_DOWNCAST(IGESAppli_PartNumber,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESAppli_PartNumber)
 
 
 IGESAppli_PartNumber::IGESAppli_PartNumber ()    {  }

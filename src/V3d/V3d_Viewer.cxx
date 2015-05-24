@@ -14,7 +14,32 @@
 #include <V3d.hxx>
 #include <Visual3d_View.hxx>
 #include <Visual3d_Light.hxx>
-#include <V3d_Viewer.ixx>
+#include <Graphic3d_GraphicDriver.hxx>
+#include <Visual3d_ViewManager.hxx>
+#include <V3d_Light.hxx>
+#include <Graphic3d_Structure.hxx>
+#include <V3d_RectangularGrid.hxx>
+#include <V3d_CircularGrid.hxx>
+#include <Graphic3d_Group.hxx>
+#include <Graphic3d_AspectMarker3d.hxx>
+#include <V3d_BadValue.hxx>
+#include <V3d_View.hxx>
+#include <Quantity_Color.hxx>
+#include <gp_Ax3.hxx>
+#include <Aspect_Grid.hxx>
+#include <Aspect_Background.hxx>
+#include <Aspect_GradientBackground.hxx>
+#include <TColStd_SequenceOfInteger.hxx>
+#include <V3d_Viewer.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(V3d_Viewer)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(V3d_Viewer)
+IMPLEMENT_DOWNCAST(V3d_Viewer,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(V3d_Viewer)
 #include <V3d_View.hxx>
 #include <V3d_BadValue.hxx>
 

@@ -11,7 +11,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepAP214_DateAndTimeItem.ixx>
+#include <Standard_Transient.hxx>
+#include <StepBasic_ApprovalPersonOrganization.hxx>
+#include <StepAP214_AppliedPersonAndOrganizationAssignment.hxx>
+#include <StepAP214_AppliedOrganizationAssignment.hxx>
+#include <StepBasic_Effectivity.hxx>
+#include <StepAP214_DateAndTimeItem.hxx>
 #include <Interface_Macros.hxx>
 
 StepAP214_DateAndTimeItem::StepAP214_DateAndTimeItem () {  }

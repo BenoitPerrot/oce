@@ -14,7 +14,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PDataStd_RealArray.ixx>
+#include <PColStd_HArray1OfReal.hxx>
+#include <PDataStd_RealArray.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(PDataStd_RealArray)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(PDF_Attribute),
+  STANDARD_TYPE(Standard_Persistent),
+  STANDARD_TYPE(Standard_Storable),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(PDataStd_RealArray)
+IMPLEMENT_DOWNCAST(PDataStd_RealArray,Standard_Persistent)
+IMPLEMENT_STANDARD_RTTI(PDataStd_RealArray)
 
 //=======================================================================
 //function : PDataStd_RealArray

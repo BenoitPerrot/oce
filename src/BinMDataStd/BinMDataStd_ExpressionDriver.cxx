@@ -13,7 +13,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BinMDataStd_ExpressionDriver.ixx>
+#include <CDM_MessageDriver.hxx>
+#include <TDF_Attribute.hxx>
+#include <BinObjMgt_Persistent.hxx>
+#include <BinMDataStd_ExpressionDriver.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(BinMDataStd_ExpressionDriver)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(BinMDF_ADriver),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(BinMDataStd_ExpressionDriver)
+IMPLEMENT_DOWNCAST(BinMDataStd_ExpressionDriver,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(BinMDataStd_ExpressionDriver)
 #include <TDataStd_Expression.hxx>
 #include <TDataStd_Variable.hxx>
 #include <TDF_ListIteratorOfAttributeList.hxx>

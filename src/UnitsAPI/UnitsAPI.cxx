@@ -12,7 +12,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <UnitsAPI.ixx>
+#include <Units_Dimensions.hxx>
+#include <UnitsAPI.hxx>
 #include <Units.hxx>
 #include <Units_Unit.hxx>
 #include <Units_Quantity.hxx>

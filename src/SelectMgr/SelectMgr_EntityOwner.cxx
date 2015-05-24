@@ -14,7 +14,21 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <SelectMgr_EntityOwner.ixx>
+#include <Standard_NoSuchObject.hxx>
+#include <SelectMgr_SelectableObject.hxx>
+#include <PrsMgr_PresentationManager.hxx>
+#include <TopLoc_Location.hxx>
+#include <SelectMgr_EntityOwner.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(SelectMgr_EntityOwner)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(SelectBasics_EntityOwner),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(SelectMgr_EntityOwner)
+IMPLEMENT_DOWNCAST(SelectMgr_EntityOwner,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(SelectMgr_EntityOwner)
 
 
 

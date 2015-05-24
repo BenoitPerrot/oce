@@ -20,7 +20,11 @@
 #define No_Standard_DimensionError
 //#endif
 
-#include <math_Crout.ixx>
+#include <StdFail_NotDone.hxx>
+#include <math_NotSquare.hxx>
+#include <Standard_DimensionError.hxx>
+#include <math_Matrix.hxx>
+#include <math_Crout.hxx>
 #include <math_NotSquare.hxx>
 #include <StdFail_NotDone.hxx>
 #include <math_Vector.hxx>

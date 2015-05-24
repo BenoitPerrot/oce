@@ -17,7 +17,12 @@
 //              modified 12-january-98
 //              Sergey ZARITCHNY
 //              szy
-#include <DsgPrs_DiameterPresentation.ixx>
+#include <Prs3d_Presentation.hxx>
+#include <Prs3d_Drawer.hxx>
+#include <TCollection_ExtendedString.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Circ.hxx>
+#include <DsgPrs_DiameterPresentation.hxx>
 
 #include <Prs3d_LineAspect.hxx>
 #include <Prs3d_TextAspect.hxx>

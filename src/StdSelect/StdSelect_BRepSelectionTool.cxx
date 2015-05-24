@@ -14,7 +14,14 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StdSelect_BRepSelectionTool.ixx>
+#include <SelectMgr_Selection.hxx>
+#include <TopoDS_Shape.hxx>
+#include <SelectMgr_SelectableObject.hxx>
+#include <StdSelect_BRepOwner.hxx>
+#include <Select3D_SensitiveEntity.hxx>
+#include <TopoDS_Face.hxx>
+#include <Select3D_ListOfSensitive.hxx>
+#include <StdSelect_BRepSelectionTool.hxx>
 #include <GeomAdaptor_Curve.hxx>
 #include <BRepAdaptor_Curve.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>

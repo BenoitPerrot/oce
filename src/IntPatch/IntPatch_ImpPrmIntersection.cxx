@@ -14,7 +14,15 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IntPatch_ImpPrmIntersection.ixx>
+#include <StdFail_NotDone.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Standard_DomainError.hxx>
+#include <Standard_ConstructionError.hxx>
+#include <Adaptor3d_HSurface.hxx>
+#include <Adaptor3d_TopolTool.hxx>
+#include <IntPatch_Point.hxx>
+#include <IntPatch_Line.hxx>
+#include <IntPatch_ImpPrmIntersection.hxx>
 
 #include <Standard_ConstructionError.hxx>
 #include <IntPatch_SequenceOfLine.hxx>

@@ -14,7 +14,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomFill_QuasiAngularConvertor.ixx>
+#include <StdFail_NotDone.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Vec.hxx>
+#include <TColgp_Array1OfPnt.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <TColgp_Array1OfVec.hxx>
+#include <GeomFill_QuasiAngularConvertor.hxx>
 
 
 #include <PLib.hxx>

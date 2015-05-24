@@ -16,7 +16,22 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESGeom_Flash.ixx>
+#include <IGESData_IGESEntity.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <gp_XY.hxx>
+#include <gp_Pnt2d.hxx>
+#include <gp_Pnt.hxx>
+#include <IGESGeom_Flash.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESGeom_Flash)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IGESData_IGESEntity),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESGeom_Flash)
+IMPLEMENT_DOWNCAST(IGESGeom_Flash,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESGeom_Flash)
 #include <Standard_OutOfRange.hxx>
 #include <gp_GTrsf.hxx>
 

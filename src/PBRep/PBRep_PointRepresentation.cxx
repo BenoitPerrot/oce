@@ -14,7 +14,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PBRep_PointRepresentation.ixx>
+#include <PBRep_PointRepresentation.hxx>
+#include <PTopLoc_Location.hxx>
+#include <PBRep_PointRepresentation.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(PBRep_PointRepresentation)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Standard_Persistent),
+  STANDARD_TYPE(Standard_Storable),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(PBRep_PointRepresentation)
+IMPLEMENT_DOWNCAST(PBRep_PointRepresentation,Standard_Persistent)
+IMPLEMENT_STANDARD_RTTI(PBRep_PointRepresentation)
 
 //=======================================================================
 //function : PBRep_PointRepresentation

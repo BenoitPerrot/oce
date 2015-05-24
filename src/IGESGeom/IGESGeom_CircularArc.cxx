@@ -16,7 +16,21 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESGeom_CircularArc.ixx>
+#include <gp_XY.hxx>
+#include <gp_Pnt2d.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Dir.hxx>
+#include <IGESGeom_CircularArc.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESGeom_CircularArc)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IGESData_IGESEntity),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESGeom_CircularArc)
+IMPLEMENT_DOWNCAST(IGESGeom_CircularArc,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESGeom_CircularArc)
 #include <gp_Dir2d.hxx>
 #include <gp_GTrsf.hxx>
 

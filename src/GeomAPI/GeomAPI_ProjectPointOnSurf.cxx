@@ -14,7 +14,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomAPI_ProjectPointOnSurf.ixx>
+#include <Standard_OutOfRange.hxx>
+#include <StdFail_NotDone.hxx>
+#include <gp_Pnt.hxx>
+#include <Geom_Surface.hxx>
+#include <Extrema_ExtPS.hxx>
+#include <GeomAPI_ProjectPointOnSurf.hxx>
 
 #include <GeomAdaptor_Surface.hxx>
 

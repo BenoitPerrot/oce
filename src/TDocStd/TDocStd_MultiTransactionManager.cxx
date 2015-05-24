@@ -13,7 +13,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TDocStd_MultiTransactionManager.ixx>
+#include <TDocStd_SequenceOfApplicationDelta.hxx>
+#include <TCollection_ExtendedString.hxx>
+#include <TDocStd_Document.hxx>
+#include <TDocStd_SequenceOfDocument.hxx>
+#include <TDocStd_MultiTransactionManager.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(TDocStd_MultiTransactionManager)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(TDocStd_MultiTransactionManager)
+IMPLEMENT_DOWNCAST(TDocStd_MultiTransactionManager,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(TDocStd_MultiTransactionManager)
 #include <TDocStd_Document.hxx>
 #include <TDocStd_ApplicationDelta.hxx>
 

@@ -14,7 +14,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Units_Dimensions.ixx>
+#include <Standard_Type.hxx>
+#include <Units_Dimensions.hxx>
+
+IMPLEMENT_STANDARD_TYPE(Units_Dimensions)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Units_Dimensions)
+
+IMPLEMENT_DOWNCAST(Units_Dimensions,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Units_Dimensions)
+
 #include <Units_UnitsDictionary.hxx>
 #include <Units.hxx>
 #include <Units_Operators.hxx>

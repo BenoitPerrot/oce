@@ -11,7 +11,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <RWStepGeom_RWBoundedCurve.ixx>
+#include <StepData_StepReaderData.hxx>
+#include <Interface_Check.hxx>
+#include <StepGeom_BoundedCurve.hxx>
+#include <StepData_StepWriter.hxx>
+#include <RWStepGeom_RWBoundedCurve.hxx>
 
 
 RWStepGeom_RWBoundedCurve::RWStepGeom_RWBoundedCurve () {}

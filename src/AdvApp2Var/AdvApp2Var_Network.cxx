@@ -19,7 +19,11 @@
 //		G1135 : empty constructor
 
 
-#include <AdvApp2Var_Network.ixx>
+#include <Standard_NoSuchObject.hxx>
+#include <AdvApp2Var_SequenceOfPatch.hxx>
+#include <TColStd_SequenceOfReal.hxx>
+#include <AdvApp2Var_Patch.hxx>
+#include <AdvApp2Var_Network.hxx>
 #include <AdvApp2Var_Patch.hxx>
 #include <AdvApp2Var_SequenceOfPatch.hxx>
 #include <TColStd_SequenceOfReal.hxx>

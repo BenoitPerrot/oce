@@ -14,7 +14,21 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Graphic3d_GraphicDriver.ixx>
+#include <Graphic3d_TransformError.hxx>
+#include <Graphic3d_StructureManager.hxx>
+#include <Quantity_Color.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <TColStd_Array2OfReal.hxx>
+#include <Graphic3d_GraphicDriver.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Graphic3d_GraphicDriver)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Graphic3d_GraphicDriver)
+IMPLEMENT_DOWNCAST(Graphic3d_GraphicDriver,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Graphic3d_GraphicDriver)
 
 Graphic3d_GraphicDriver::Graphic3d_GraphicDriver (const Handle(Aspect_DisplayConnection)& theDisp)
 : MyTraceLevel        (0),

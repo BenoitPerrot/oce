@@ -43,7 +43,13 @@
 //              utilisation de BRepFill_CompatibleWires
 
 
-#include <BRepOffsetAPI_ThruSections.ixx>
+#include <Standard_DomainError.hxx>
+#include <TopoDS_Wire.hxx>
+#include <TopoDS_Vertex.hxx>
+#include <TopoDS_Shape.hxx>
+#include <Geom_BSplineSurface.hxx>
+#include <TopTools_Array1OfShape.hxx>
+#include <BRepOffsetAPI_ThruSections.hxx>
 
 #include <Precision.hxx>
 #include <Standard_DomainError.hxx>

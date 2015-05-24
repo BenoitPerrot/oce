@@ -14,7 +14,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TNaming_Selector.ixx>
+#include <TDF_Label.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TNaming_NamedShape.hxx>
+#include <TDF_LabelMap.hxx>
+#include <TDF_AttributeMap.hxx>
+#include <TNaming_Selector.hxx>
 #include <TNaming.hxx>
 #include <TNaming_Naming.hxx>
 #include <TNaming_Builder.hxx> 

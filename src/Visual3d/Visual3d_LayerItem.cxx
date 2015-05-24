@@ -17,7 +17,16 @@
 ************************************************************************/
 
 // for the class
-#include <Visual3d_LayerItem.ixx>
+#include <Visual3d_LayerItem.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Visual3d_LayerItem)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Visual3d_LayerItem)
+IMPLEMENT_DOWNCAST(Visual3d_LayerItem,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Visual3d_LayerItem)
 
 //
 //-Constructors

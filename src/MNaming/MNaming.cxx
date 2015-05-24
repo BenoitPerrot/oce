@@ -21,7 +21,10 @@
 
 
 
-#include <MNaming.ixx>
+#include <MDF_ASDriverHSequence.hxx>
+#include <CDM_MessageDriver.hxx>
+#include <MDF_ARDriverHSequence.hxx>
+#include <MNaming.hxx>
 
 #include <MNaming_NamedShapeStorageDriver.hxx>
 #include <MNaming_NamedShapeRetrievalDriver.hxx>

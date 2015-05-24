@@ -18,7 +18,29 @@
 // Modified by cma, Tue Apr  1 11:40:30 1997
 
 #include <Standard_Stream.hxx>
-#include <HLRBRep_PolyAlgo.ixx>
+#include <HLRAlgo_PolyAlgo.hxx>
+#include <Geom_Surface.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <TopoDS_Shape.hxx>
+#include <HLRAlgo_Projector.hxx>
+#include <TColStd_Array1OfTransient.hxx>
+#include <TColStd_Array1OfInteger.hxx>
+#include <TopTools_MapOfShape.hxx>
+#include <TopoDS_Edge.hxx>
+#include <HLRAlgo_ListOfBPoint.hxx>
+#include <TopTools_ListOfShape.hxx>
+#include <HLRAlgo_PolyInternalData.hxx>
+#include <HLRAlgo_EdgeStatus.hxx>
+#include <HLRBRep_PolyAlgo.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(HLRBRep_PolyAlgo)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(HLRBRep_PolyAlgo)
+IMPLEMENT_DOWNCAST(HLRBRep_PolyAlgo,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(HLRBRep_PolyAlgo)
 #include <Standard_ErrorHandler.hxx>
 #include <TColStd_HArray1OfTransient.hxx>
 #include <TColStd_HArray1OfInteger.hxx>

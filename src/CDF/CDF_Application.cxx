@@ -17,7 +17,24 @@
 // Modified by rmi, Wed Jan 14 08:17:35 1998
 
 
-#include <CDF_Application.ixx>
+#include <Standard_NoSuchObject.hxx>
+#include <CDF_Session.hxx>
+#include <Standard_GUID.hxx>
+#include <CDM_Document.hxx>
+#include <TCollection_ExtendedString.hxx>
+#include <TColStd_SequenceOfExtendedString.hxx>
+#include <PCDM_Reader.hxx>
+#include <CDM_MetaData.hxx>
+#include <CDF_Application.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(CDF_Application)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(CDM_Application),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(CDF_Application)
+IMPLEMENT_DOWNCAST(CDF_Application,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(CDF_Application)
 #include <Standard_ErrorHandler.hxx>
 #include <TCollection_ExtendedString.hxx>
 #include <Standard_ProgramError.hxx>

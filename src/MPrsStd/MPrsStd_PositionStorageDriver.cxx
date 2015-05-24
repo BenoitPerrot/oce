@@ -14,7 +14,22 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <MPrsStd_PositionStorageDriver.ixx>
+#include <CDM_MessageDriver.hxx>
+#include <Standard_Type.hxx>
+#include <PDF_Attribute.hxx>
+#include <TDF_Attribute.hxx>
+#include <MDF_SRelocationTable.hxx>
+#include <MPrsStd_PositionStorageDriver.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(MPrsStd_PositionStorageDriver)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MDF_ASDriver),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(MPrsStd_PositionStorageDriver)
+IMPLEMENT_DOWNCAST(MPrsStd_PositionStorageDriver,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(MPrsStd_PositionStorageDriver)
 
 #include <PDataXtd_Position.hxx>
 #include <TDataXtd_Position.hxx>

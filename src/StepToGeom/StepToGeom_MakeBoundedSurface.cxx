@@ -18,7 +18,9 @@
 //:j7 abv 05.04.99: S4136: ass-tol2.stp #9861: avoid using CheckSurfaceClosure
 //    rln 02.06.99 removing #include <StepToGeom_CheckSurfaceClosure.hxx>
 
-#include <StepToGeom_MakeBoundedSurface.ixx>
+#include <StepGeom_BoundedSurface.hxx>
+#include <Geom_BoundedSurface.hxx>
+#include <StepToGeom_MakeBoundedSurface.hxx>
 
 #include <Geom_BSplineSurface.hxx>
 

@@ -12,7 +12,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BOPAlgo_MakerVolume.ixx>
+#include <TopoDS_Solid.hxx>
+#include <BOPAlgo_PaveFiller.hxx>
+#include <BOPAlgo_MakerVolume.hxx>
 
 #include <NCollection_IncAllocator.hxx>
 

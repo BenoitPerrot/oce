@@ -13,7 +13,22 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <MXCAFDoc_DatumRetrievalDriver.ixx>
+#include <CDM_MessageDriver.hxx>
+#include <Standard_Type.hxx>
+#include <TDF_Attribute.hxx>
+#include <PDF_Attribute.hxx>
+#include <MDF_RRelocationTable.hxx>
+#include <MXCAFDoc_DatumRetrievalDriver.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(MXCAFDoc_DatumRetrievalDriver)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MDF_ARDriver),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(MXCAFDoc_DatumRetrievalDriver)
+IMPLEMENT_DOWNCAST(MXCAFDoc_DatumRetrievalDriver,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(MXCAFDoc_DatumRetrievalDriver)
 #include <PXCAFDoc_Datum.hxx>
 #include <XCAFDoc_Datum.hxx>
 

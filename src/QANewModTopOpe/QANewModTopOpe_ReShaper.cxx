@@ -13,7 +13,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <QANewModTopOpe_ReShaper.ixx>
+#include <TopoDS_Shape.hxx>
+#include <TopTools_MapOfShape.hxx>
+#include <TopTools_HSequenceOfShape.hxx>
+#include <QANewModTopOpe_ReShaper.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(QANewModTopOpe_ReShaper)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(QANewModTopOpe_ReShaper)
+IMPLEMENT_DOWNCAST(QANewModTopOpe_ReShaper,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(QANewModTopOpe_ReShaper)
 #include <TopTools_HSequenceOfShape.hxx>
 #include <TopoDS_Compound.hxx>
 #include <BRepBuilderAPI_Copy.hxx>

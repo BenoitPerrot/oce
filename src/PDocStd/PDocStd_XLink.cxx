@@ -21,7 +21,18 @@
 
 
 
-#include <PDocStd_XLink.ixx>
+#include <PCollection_HAsciiString.hxx>
+#include <PDocStd_XLink.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(PDocStd_XLink)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(PDF_Attribute),
+  STANDARD_TYPE(Standard_Persistent),
+  STANDARD_TYPE(Standard_Storable),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(PDocStd_XLink)
+IMPLEMENT_DOWNCAST(PDocStd_XLink,Standard_Persistent)
+IMPLEMENT_STANDARD_RTTI(PDocStd_XLink)
 
 
 //=======================================================================

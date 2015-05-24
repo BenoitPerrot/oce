@@ -12,7 +12,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomConvert_ApproxSurface.ixx>
+#include <Geom_Surface.hxx>
+#include <Geom_BSplineSurface.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <GeomConvert_ApproxSurface.hxx>
 
 #include <GeomAdaptor_HSurface.hxx>
 #include <Precision.hxx>

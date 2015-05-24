@@ -12,7 +12,20 @@
 // commercial license or contractual agreement.
 
 //szv#4 S4163
-#include <Interface_ParamSet.ixx>
+#include <Interface_ParamList.hxx>
+#include <Interface_ParamSet.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Interface_FileParameter.hxx>
+#include <Interface_ParamSet.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Interface_ParamSet)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Interface_ParamSet)
+IMPLEMENT_DOWNCAST(Interface_ParamSet,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Interface_ParamSet)
 
 
 Interface_ParamSet::Interface_ParamSet (const Standard_Integer nres, const Standard_Integer )//nst)

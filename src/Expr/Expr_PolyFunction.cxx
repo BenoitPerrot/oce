@@ -19,7 +19,28 @@
 #define No_Standard_OutOfRange
 #endif
 
-#include <Expr_PolyFunction.ixx>
+#include <Expr_GeneralFunction.hxx>
+#include <Standard_NumericError.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Expr_NotEvaluable.hxx>
+#include <Expr_Array1OfGeneralExpression.hxx>
+#include <Expr_GeneralExpression.hxx>
+#include <Expr_NamedUnknown.hxx>
+#include <Expr_Array1OfNamedUnknown.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <Expr_PolyFunction.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Expr_PolyFunction)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Expr_PolyExpression),
+  STANDARD_TYPE(Expr_GeneralExpression),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Expr_PolyFunction)
+IMPLEMENT_DOWNCAST(Expr_PolyFunction,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Expr_PolyFunction)
 #include <Expr_Array1OfNamedUnknown.hxx>
 #include <Expr_FunctionDerivative.hxx>
 #include <Expr_Product.hxx>

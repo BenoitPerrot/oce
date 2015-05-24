@@ -14,7 +14,15 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepOffset_Analyse.ixx>
+#include <TopoDS_Shape.hxx>
+#include <BRepOffset_ListOfInterval.hxx>
+#include <TopoDS_Edge.hxx>
+#include <TopoDS_Vertex.hxx>
+#include <TopTools_ListOfShape.hxx>
+#include <TopoDS_Face.hxx>
+#include <TopoDS_Compound.hxx>
+#include <TopTools_MapOfShape.hxx>
+#include <BRepOffset_Analyse.hxx>
 #include <BRepOffset_Interval.hxx>
 #include <BRepOffset_Tool.hxx>
 #include <BRepOffset_ListIteratorOfListOfInterval.hxx>

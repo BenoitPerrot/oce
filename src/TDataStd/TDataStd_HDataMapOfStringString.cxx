@@ -13,7 +13,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TDataStd_HDataMapOfStringString.ixx>
+#include <TDataStd_DataMapOfStringString.hxx>
+#include <TDataStd_HDataMapOfStringString.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(TDataStd_HDataMapOfStringString)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(TDataStd_HDataMapOfStringString)
+IMPLEMENT_DOWNCAST(TDataStd_HDataMapOfStringString,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(TDataStd_HDataMapOfStringString)
 
 //=======================================================================
 //function : TDataStd_HDataMapOfStringString

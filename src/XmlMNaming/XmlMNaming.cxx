@@ -13,7 +13,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <XmlMNaming.ixx>
+#include <XmlMDF_ADriverTable.hxx>
+#include <CDM_MessageDriver.hxx>
+#include <XmlMNaming.hxx>
 
 #include <XmlMNaming_NamedShapeDriver.hxx>
 #include <XmlMNaming_NamingDriver.hxx>

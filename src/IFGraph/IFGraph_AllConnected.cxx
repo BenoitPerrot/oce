@@ -11,7 +11,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IFGraph_AllConnected.ixx>
+#include <Interface_Graph.hxx>
+#include <Standard_Transient.hxx>
+#include <IFGraph_AllConnected.hxx>
 
 
 

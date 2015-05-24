@@ -13,7 +13,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <XmlMFunction_ScopeDriver.ixx>
+#include <CDM_MessageDriver.hxx>
+#include <TDF_Attribute.hxx>
+#include <XmlObjMgt_Persistent.hxx>
+#include <XmlMFunction_ScopeDriver.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(XmlMFunction_ScopeDriver)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(XmlMDF_ADriver),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(XmlMFunction_ScopeDriver)
+IMPLEMENT_DOWNCAST(XmlMFunction_ScopeDriver,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(XmlMFunction_ScopeDriver)
 #include <XmlObjMgt.hxx>
 #include <XmlObjMgt_Document.hxx>
 #include <LDOM_MemManager.hxx>

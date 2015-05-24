@@ -14,7 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <ChFiDS_CircSection.ixx>
+#include <gp_Circ.hxx>
+#include <gp_Lin.hxx>
+#include <ChFiDS_CircSection.hxx>
 
 //=======================================================================
 //function : ChFiDS_CircSection

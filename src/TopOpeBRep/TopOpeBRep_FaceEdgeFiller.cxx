@@ -14,7 +14,15 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopOpeBRep_FaceEdgeFiller.ixx>
+#include <TopoDS_Shape.hxx>
+#include <TopOpeBRep_FaceEdgeIntersector.hxx>
+#include <TopOpeBRepDS_HDataStructure.hxx>
+#include <TopOpeBRepDS_ListIteratorOfListOfInterference.hxx>
+#include <TopOpeBRepDS_Point.hxx>
+#include <TopOpeBRepDS_DataStructure.hxx>
+#include <TopOpeBRepDS_ListOfInterference.hxx>
+#include <TopOpeBRepDS_Interference.hxx>
+#include <TopOpeBRep_FaceEdgeFiller.hxx>
 
 #include <TopOpeBRep_PointGeomTool.hxx>
 #include <TopOpeBRepDS_InterferenceTool.hxx>

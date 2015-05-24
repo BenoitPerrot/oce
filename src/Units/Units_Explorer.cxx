@@ -14,12 +14,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Units_Explorer.ixx>
-#include <Units_UnitsDictionary.hxx>
-#include <Units_UnitsSystem.hxx>
-#include <Units_Unit.hxx>
+#include <TCollection_AsciiString.hxx>
 
+#include <TColStd_HSequenceOfInteger.hxx>
 #include <TColStd_HSequenceOfHAsciiString.hxx>
+
+#include <Units_Explorer.hxx>
+#include <Units_QuantitiesSequence.hxx>
+#include <Units_Unit.hxx>
+#include <Units_UnitsDictionary.hxx>
+#include <Units_UnitsSequence.hxx>
+#include <Units_UnitsSystem.hxx>
 
 //=======================================================================
 //function : Units_Explorer

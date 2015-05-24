@@ -17,7 +17,11 @@
 // 25.12.98 pdn renaming of ShapeAnalysis_FreeBounds and ShapeAnalysis_Wire methods
 //szv#4 S4163
 
-#include <ShapeAnalysis_FreeBoundsProperties.ixx>
+#include <ShapeAnalysis_HSequenceOfFreeBounds.hxx>
+#include <TopoDS_Shape.hxx>
+#include <ShapeAnalysis_FreeBoundData.hxx>
+#include <TopoDS_Wire.hxx>
+#include <ShapeAnalysis_FreeBoundsProperties.hxx>
 #include <ShapeAnalysis_FreeBounds.hxx>
 #include <ShapeAnalysis_Edge.hxx>
 #include <ShapeAnalysis_Wire.hxx>

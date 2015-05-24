@@ -14,7 +14,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepFill_DraftLaw.ixx>
+#include <TopoDS_Wire.hxx>
+#include <GeomFill_LocationDraft.hxx>
+#include <BRepFill_DraftLaw.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(BRepFill_DraftLaw)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(BRepFill_Edge3DLaw),
+  STANDARD_TYPE(BRepFill_LocationLaw),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(BRepFill_DraftLaw)
+IMPLEMENT_DOWNCAST(BRepFill_DraftLaw,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(BRepFill_DraftLaw)
 
 #include <GeomFill_LocationDraft.hxx>
 #include <GeomFill_LocationLaw.hxx>

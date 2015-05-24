@@ -12,7 +12,22 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <MDataStd_NoteBookRetrievalDriver.ixx>
+#include <CDM_MessageDriver.hxx>
+#include <Standard_Type.hxx>
+#include <TDF_Attribute.hxx>
+#include <PDF_Attribute.hxx>
+#include <MDF_RRelocationTable.hxx>
+#include <MDataStd_NoteBookRetrievalDriver.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(MDataStd_NoteBookRetrievalDriver)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MDF_ARDriver),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(MDataStd_NoteBookRetrievalDriver)
+IMPLEMENT_DOWNCAST(MDataStd_NoteBookRetrievalDriver,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(MDataStd_NoteBookRetrievalDriver)
 #include <PDataStd_NoteBook.hxx>
 #include <TDataStd_NoteBook.hxx>
 #include <CDM_MessageDriver.hxx>

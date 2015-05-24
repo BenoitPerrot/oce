@@ -11,7 +11,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Interface_SignType.ixx>
+#include <TCollection_AsciiString.hxx>
+#include <Standard_Transient.hxx>
+#include <Interface_InterfaceModel.hxx>
+#include <Interface_SignType.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Interface_SignType)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MoniTool_SignText),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Interface_SignType)
+IMPLEMENT_DOWNCAST(Interface_SignType,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Interface_SignType)
 
 TCollection_AsciiString  Interface_SignType::Text
   (const Handle(Standard_Transient)& ent,

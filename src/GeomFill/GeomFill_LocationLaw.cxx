@@ -14,7 +14,25 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomFill_LocationLaw.ixx>
+#include <Standard_NotImplemented.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Adaptor3d_HCurve.hxx>
+#include <gp_Mat.hxx>
+#include <gp_Vec.hxx>
+#include <TColgp_Array1OfPnt2d.hxx>
+#include <TColgp_Array1OfVec2d.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <gp_Pnt.hxx>
+#include <GeomFill_LocationLaw.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(GeomFill_LocationLaw)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(GeomFill_LocationLaw)
+IMPLEMENT_DOWNCAST(GeomFill_LocationLaw,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(GeomFill_LocationLaw)
 
 Standard_Boolean GeomFill_LocationLaw::D1(const Standard_Real, gp_Mat&, gp_Vec&,gp_Mat&, gp_Vec&,TColgp_Array1OfPnt2d&,TColgp_Array1OfVec2d&) 
 {

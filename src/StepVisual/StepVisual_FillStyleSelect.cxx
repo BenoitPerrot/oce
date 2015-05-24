@@ -11,7 +11,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepVisual_FillStyleSelect.ixx>
+#include <Standard_Transient.hxx>
+#include <StepVisual_FillAreaStyleColour.hxx>
+#include <StepVisual_FillStyleSelect.hxx>
 #include <Interface_Macros.hxx>
 
 StepVisual_FillStyleSelect::StepVisual_FillStyleSelect () {  }

@@ -14,7 +14,15 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomConvert_CompBezierSurfacesToBSplineSurface.ixx>
+#include <TColStd_HArray1OfInteger.hxx>
+#include <TColStd_HArray1OfReal.hxx>
+#include <TColgp_HArray2OfPnt.hxx>
+#include <Standard_DimensionError.hxx>
+#include <Standard_NotImplemented.hxx>
+#include <Standard_ConstructionError.hxx>
+#include <TColGeom_Array2OfBezierSurface.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <GeomConvert_CompBezierSurfacesToBSplineSurface.hxx>
 
 #include <Standard_ConstructionError.hxx>
 #include <Standard_NotImplemented.hxx>

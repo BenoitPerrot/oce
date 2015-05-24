@@ -13,7 +13,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepOffsetAPI_MiddlePath.ixx>
+#include <TopoDS_Shape.hxx>
+#include <BRepOffsetAPI_MiddlePath.hxx>
 #include <BRepOffsetAPI_MiddlePath.hxx>
 
 #include <ShapeUpgrade_UnifySameDomain.hxx>

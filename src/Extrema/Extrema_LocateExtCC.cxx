@@ -14,7 +14,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Extrema_LocateExtCC.ixx>
+#include <Standard_DomainError.hxx>
+#include <StdFail_NotDone.hxx>
+#include <Adaptor3d_Curve.hxx>
+#include <Extrema_POnCurv.hxx>
+#include <Extrema_LocateExtCC.hxx>
 
 #include <StdFail_NotDone.hxx>
 #include <Extrema_POnCurv.hxx>

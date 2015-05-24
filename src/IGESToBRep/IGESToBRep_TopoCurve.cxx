@@ -25,7 +25,22 @@
 //CAS.CADE surface)
 //szv#9:PRO19565:04Oct99 missing location for standalone vertices corrected
 
-#include <IGESToBRep_TopoCurve.ixx>
+#include <IGESToBRep_CurveAndSurface.hxx>
+#include <TopoDS_Shape.hxx>
+#include <IGESData_IGESEntity.hxx>
+#include <TopoDS_Face.hxx>
+#include <gp_Trsf2d.hxx>
+#include <TopoDS_Vertex.hxx>
+#include <IGESGeom_Point.hxx>
+#include <IGESGeom_CompositeCurve.hxx>
+#include <IGESGeom_OffsetCurve.hxx>
+#include <IGESGeom_CurveOnSurface.hxx>
+#include <IGESGeom_Boundary.hxx>
+#include <Geom_BSplineCurve.hxx>
+#include <Geom_Curve.hxx>
+#include <Geom2d_BSplineCurve.hxx>
+#include <Geom2d_Curve.hxx>
+#include <IGESToBRep_TopoCurve.hxx>
 
 #include <IGESToBRep.hxx>
 #include <IGESToBRep_BasicCurve.hxx>

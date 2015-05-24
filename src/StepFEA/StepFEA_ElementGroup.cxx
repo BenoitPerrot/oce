@@ -15,7 +15,21 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
-#include <StepFEA_ElementGroup.ixx>
+#include <StepFEA_HArray1OfElementRepresentation.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepFEA_FeaModel.hxx>
+#include <StepFEA_ElementGroup.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepFEA_ElementGroup)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepFEA_FeaGroup),
+  STANDARD_TYPE(StepBasic_Group),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepFEA_ElementGroup)
+IMPLEMENT_DOWNCAST(StepFEA_ElementGroup,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepFEA_ElementGroup)
 
 //=======================================================================
 //function : StepFEA_ElementGroup

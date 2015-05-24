@@ -14,7 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomToStep_MakeSurfaceOfLinearExtrusion.ixx>
+#include <StepGeom_SurfaceOfLinearExtrusion.hxx>
+#include <StdFail_NotDone.hxx>
+#include <Geom_SurfaceOfLinearExtrusion.hxx>
+#include <GeomToStep_MakeSurfaceOfLinearExtrusion.hxx>
 #include <GeomToStep_MakeVector.hxx>
 #include <GeomToStep_MakeCurve.hxx>
 #include <StdFail_NotDone.hxx>

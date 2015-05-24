@@ -14,7 +14,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TPrsStd_GeometryDriver.ixx>
+#include <TDF_Label.hxx>
+#include <AIS_InteractiveObject.hxx>
+#include <TPrsStd_GeometryDriver.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(TPrsStd_GeometryDriver)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(TPrsStd_Driver),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(TPrsStd_GeometryDriver)
+IMPLEMENT_DOWNCAST(TPrsStd_GeometryDriver,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(TPrsStd_GeometryDriver)
 #include <TDataXtd.hxx>
 #include <TDF_Label.hxx>
 #include <TNaming_NamedShape.hxx>

@@ -19,7 +19,18 @@
 #define No_Standard_ConstructionError
 #endif
 
-#include <gp_Mat.ixx>
+#include <Standard_ConstructionError.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <gp_XYZ.hxx>
+#include <gp_Trsf.hxx>
+#include <gp_GTrsf.hxx>
+#include <gp_Mat.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(gp_Mat)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Standard_Storable),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(gp_Mat)
 
 gp_Mat::gp_Mat (const gp_XYZ& Col1,
 		const gp_XYZ& Col2,

@@ -14,7 +14,21 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <HLRTest_DrawableEdgeTool.ixx>
+#include <HLRBRep_Algo.hxx>
+#include <Draw_Display.hxx>
+#include <HLRBRep_Data.hxx>
+#include <HLRBRep_EdgeData.hxx>
+#include <HLRTest_DrawableEdgeTool.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(HLRTest_DrawableEdgeTool)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Draw_Drawable3D),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(HLRTest_DrawableEdgeTool)
+IMPLEMENT_DOWNCAST(HLRTest_DrawableEdgeTool,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(HLRTest_DrawableEdgeTool)
 #include <HLRTest_ShapeData.hxx>
 #include <HLRBRep_Data.hxx>
 #include <HLRAlgo_EdgeIterator.hxx>

@@ -11,7 +11,21 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepAP214_AutoDesignDocumentReference.ixx>
+#include <StepAP214_HArray1OfAutoDesignReferencingItem.hxx>
+#include <StepBasic_Document.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepAP214_AutoDesignReferencingItem.hxx>
+#include <StepAP214_AutoDesignDocumentReference.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepAP214_AutoDesignDocumentReference)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepBasic_DocumentReference),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepAP214_AutoDesignDocumentReference)
+IMPLEMENT_DOWNCAST(StepAP214_AutoDesignDocumentReference,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepAP214_AutoDesignDocumentReference)
 
 
 StepAP214_AutoDesignDocumentReference::StepAP214_AutoDesignDocumentReference ()    {  }

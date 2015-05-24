@@ -12,7 +12,29 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TDataXtd_Geometry.ixx>
+#include <TDF_Label.hxx>
+#include <TNaming_NamedShape.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Ax1.hxx>
+#include <gp_Lin.hxx>
+#include <gp_Circ.hxx>
+#include <gp_Elips.hxx>
+#include <gp_Pln.hxx>
+#include <gp_Cylinder.hxx>
+#include <Standard_GUID.hxx>
+#include <TDF_Attribute.hxx>
+#include <TDF_RelocationTable.hxx>
+#include <TDataXtd_Geometry.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(TDataXtd_Geometry)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(TDF_Attribute),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(TDataXtd_Geometry)
+IMPLEMENT_DOWNCAST(TDataXtd_Geometry,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(TDataXtd_Geometry)
 #include <TDataStd.hxx>
 #include <TDataXtd.hxx>
 #include <TNaming_NamedShape.hxx>

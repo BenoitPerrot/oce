@@ -21,7 +21,20 @@
 
 #define OCC1174 //SAV_080103 Added back face interior color management
 
-#include <Prs3d_ShadingAspect.ixx>
+#include <Graphic3d_AspectFillArea3d.hxx>
+#include <Quantity_Color.hxx>
+#include <Graphic3d_MaterialAspect.hxx>
+#include <Prs3d_ShadingAspect.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Prs3d_ShadingAspect)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Prs3d_BasicAspect),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Prs3d_ShadingAspect)
+IMPLEMENT_DOWNCAST(Prs3d_ShadingAspect,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Prs3d_ShadingAspect)
 
 //=======================================================================
 //function : Prs3d_ShadingAspect

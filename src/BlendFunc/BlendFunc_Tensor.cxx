@@ -14,7 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BlendFunc_Tensor.ixx>
+#include <Standard_DimensionError.hxx>
+#include <Standard_RangeError.hxx>
+#include <math_Matrix.hxx>
+#include <BlendFunc_Tensor.hxx>
 
 #include <TColStd_Array1OfReal.hxx>
 #include <math_Vector.hxx>

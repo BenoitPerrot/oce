@@ -14,7 +14,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepFill_Filling.ixx>
+#include <StdFail_NotDone.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Standard_ConstructionError.hxx>
+#include <TopoDS_Face.hxx>
+#include <TopoDS_Edge.hxx>
+#include <gp_Pnt.hxx>
+#include <BRepFill_SequenceOfEdgeFaceAndOrder.hxx>
+#include <TopTools_ListOfShape.hxx>
+#include <TopTools_SequenceOfShape.hxx>
+#include <TopoDS_Shape.hxx>
+#include <BRepFill_Filling.hxx>
 #include <BRepFill_EdgeFaceAndOrder.hxx>
 #include <BRepFill_FaceAndOrder.hxx>
 #include <BRepAdaptor_HSurface.hxx>

@@ -16,7 +16,20 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESSolid_SolidOfLinearExtrusion.ixx>
+#include <IGESData_IGESEntity.hxx>
+#include <gp_XYZ.hxx>
+#include <gp_Dir.hxx>
+#include <IGESSolid_SolidOfLinearExtrusion.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESSolid_SolidOfLinearExtrusion)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IGESData_IGESEntity),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESSolid_SolidOfLinearExtrusion)
+IMPLEMENT_DOWNCAST(IGESSolid_SolidOfLinearExtrusion,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESSolid_SolidOfLinearExtrusion)
 #include <gp_GTrsf.hxx>
 
 

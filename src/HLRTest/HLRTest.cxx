@@ -14,7 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <HLRTest.ixx>
+#include <HLRAlgo_Projector.hxx>
+#include <TopoDS_Shape.hxx>
+#include <HLRTopoBRep_OutLiner.hxx>
+#include <HLRTest.hxx>
 #include <HLRTest_Projector.hxx>
 #include <HLRTest_OutLiner.hxx>
 #include <TColStd_ListIteratorOfListOfInteger.hxx>

@@ -14,7 +14,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <AIS_C0RegularityFilter.ixx>
+#include <TopoDS_Shape.hxx>
+#include <SelectMgr_EntityOwner.hxx>
+#include <AIS_C0RegularityFilter.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(AIS_C0RegularityFilter)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(SelectMgr_Filter),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(AIS_C0RegularityFilter)
+IMPLEMENT_DOWNCAST(AIS_C0RegularityFilter,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(AIS_C0RegularityFilter)
 
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>

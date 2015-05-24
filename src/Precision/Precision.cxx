@@ -16,5 +16,5 @@
 
 #define _Precision_SourceFile
 
-#include <Precision.ixx>
+#include <Precision.hxx>
 

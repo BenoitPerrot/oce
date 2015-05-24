@@ -14,7 +14,33 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomFill_LocationGuide.ixx>
+#include <GeomFill_TrihedronWithGuide.hxx>
+#include <GeomFill_SectionLaw.hxx>
+#include <Adaptor3d_HCurve.hxx>
+#include <TColgp_HArray2OfPnt2d.hxx>
+#include <Standard_NotImplemented.hxx>
+#include <Standard_ConstructionError.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <gp_Mat.hxx>
+#include <GeomFill_LocationLaw.hxx>
+#include <gp_Vec.hxx>
+#include <TColgp_Array1OfPnt2d.hxx>
+#include <TColgp_Array1OfVec2d.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <gp_Pnt.hxx>
+#include <Geom_Curve.hxx>
+#include <TColgp_HArray1OfPnt2d.hxx>
+#include <GeomFill_LocationGuide.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(GeomFill_LocationGuide)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(GeomFill_LocationLaw),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(GeomFill_LocationGuide)
+IMPLEMENT_DOWNCAST(GeomFill_LocationGuide,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(GeomFill_LocationGuide)
 #include <gp.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Vec.hxx>
@@ -44,7 +70,15 @@
 #include <GeomAdaptor_HCurve.hxx>
 
 
-#include <GeomFill_FunctionGuide.ixx>
+#include <Adaptor3d_HCurve.hxx>
+#include <GeomFill_SectionLaw.hxx>
+#include <Geom_Curve.hxx>
+#include <Geom_Surface.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_XYZ.hxx>
+#include <math_Matrix.hxx>
+#include <gp_Vec.hxx>
+#include <GeomFill_FunctionGuide.hxx>
 #include <GeomFill_UniformSection.hxx>
 #include <GeomFill_SectionPlacement.hxx>
 #include <Geom_TrimmedCurve.hxx>

@@ -11,7 +11,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <XSControl_Utils.ixx>
+#include <Standard_TypeMismatch.hxx>
+#include <Standard_Transient.hxx>
+#include <Standard_Type.hxx>
+#include <TColStd_HSequenceOfTransient.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <TCollection_HExtendedString.hxx>
+#include <TCollection_ExtendedString.hxx>
+#include <TColStd_HSequenceOfHAsciiString.hxx>
+#include <TColStd_HSequenceOfHExtendedString.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopTools_HSequenceOfShape.hxx>
+#include <TColStd_HSequenceOfInteger.hxx>
+#include <XSControl_Utils.hxx>
 #include <Message_Messenger.hxx>
 #include <Message.hxx>
 #include <Interface_Macros.hxx>

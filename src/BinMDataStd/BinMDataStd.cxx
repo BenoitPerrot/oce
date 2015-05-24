@@ -13,7 +13,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BinMDataStd.ixx>
+#include <BinMDF_ADriverTable.hxx>
+#include <CDM_MessageDriver.hxx>
+#include <BinMDataStd.hxx>
 #include <BinMDataStd_IntegerDriver.hxx>
 #include <BinMDataStd_RealDriver.hxx>
 #include <BinMDataStd_IntegerArrayDriver.hxx>

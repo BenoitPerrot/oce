@@ -14,7 +14,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GCE2d_MakeSegment.ixx>
+#include <Geom2d_TrimmedCurve.hxx>
+#include <StdFail_NotDone.hxx>
+#include <gp_Pnt2d.hxx>
+#include <gp_Dir2d.hxx>
+#include <gp_Lin2d.hxx>
+#include <GCE2d_MakeSegment.hxx>
 #include <GCE2d_MakeLine.hxx>
 #include <StdFail_NotDone.hxx>
 #include <Geom2d_Line.hxx>

@@ -14,7 +14,22 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <DrawDim_PlanarDiameter.ixx>
+#include <TopoDS_Face.hxx>
+#include <TopoDS_Shape.hxx>
+#include <Draw_Display.hxx>
+#include <DrawDim_PlanarDiameter.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(DrawDim_PlanarDiameter)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(DrawDim_PlanarDimension),
+  STANDARD_TYPE(DrawDim_Dimension),
+  STANDARD_TYPE(Draw_Drawable3D),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(DrawDim_PlanarDiameter)
+IMPLEMENT_DOWNCAST(DrawDim_PlanarDiameter,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(DrawDim_PlanarDiameter)
 
 #include <Geom_Curve.hxx>
 #include <Geom_Circle.hxx>

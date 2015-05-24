@@ -14,7 +14,23 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <DNaming.ixx>
+#include <TDataStd_Real.hxx>
+#include <TFunction_Function.hxx>
+#include <TDataStd_Integer.hxx>
+#include <TDataStd_Name.hxx>
+#include <TNaming_NamedShape.hxx>
+#include <gp_Ax1.hxx>
+#include <TDataStd_UAttribute.hxx>
+#include <TopoDS_Shape.hxx>
+#include <BRepBuilderAPI_MakeShape.hxx>
+#include <TNaming_Builder.hxx>
+#include <TopTools_DataMapOfShapeShape.hxx>
+#include <TDF_Label.hxx>
+#include <BRepAlgoAPI_BooleanOperation.hxx>
+#include <TDF_Data.hxx>
+#include <TopTools_ListOfShape.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <DNaming.hxx>
 
 #include <DDF.hxx>
 #include <DDF_Data.hxx>

@@ -14,7 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomFill_Stretch.ixx>
+#include <TColgp_Array1OfPnt.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <GeomFill_Stretch.hxx>
 
 #include <gp_Pnt.hxx>
 #include <TColStd_Array1OfReal.hxx>

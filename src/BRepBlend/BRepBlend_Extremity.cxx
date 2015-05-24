@@ -12,7 +12,15 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepBlend_Extremity.ixx>
+#include <Adaptor3d_HVertex.hxx>
+#include <Standard_DomainError.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Vec.hxx>
+#include <Adaptor2d_HCurve2d.hxx>
+#include <IntSurf_Transition.hxx>
+#include <BRepBlend_PointOnRst.hxx>
+#include <BRepBlend_Extremity.hxx>
 #include <BRepBlend_PointOnRst.hxx>
 
 BRepBlend_Extremity::BRepBlend_Extremity (): 

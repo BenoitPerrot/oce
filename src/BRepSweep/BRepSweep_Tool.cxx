@@ -14,7 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepSweep_Tool.ixx>
+#include <Standard_OutOfRange.hxx>
+#include <TopoDS_Shape.hxx>
+#include <BRepSweep_Tool.hxx>
 #include <TopExp.hxx>
 
 //=======================================================================

@@ -11,7 +11,22 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepGeom_CartesianTransformationOperator3d.ixx>
+#include <StepGeom_Direction.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepGeom_CartesianPoint.hxx>
+#include <StepGeom_CartesianTransformationOperator3d.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepGeom_CartesianTransformationOperator3d)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepGeom_CartesianTransformationOperator),
+  STANDARD_TYPE(StepGeom_GeometricRepresentationItem),
+  STANDARD_TYPE(StepRepr_RepresentationItem),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepGeom_CartesianTransformationOperator3d)
+IMPLEMENT_DOWNCAST(StepGeom_CartesianTransformationOperator3d,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepGeom_CartesianTransformationOperator3d)
 
 
 StepGeom_CartesianTransformationOperator3d::StepGeom_CartesianTransformationOperator3d ()  {}

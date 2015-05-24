@@ -14,7 +14,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TestTopOpeTools_Mesure.ixx>
+#include <TColgp_HArray1OfPnt.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <TColgp_Array1OfPnt.hxx>
+#include <gp_Pnt.hxx>
+#include <TestTopOpeTools_Mesure.hxx>
 #include <TestTopOpeTools_Mesure.hxx>
 
 #include <TColStd_HArray1OfInteger.hxx>

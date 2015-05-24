@@ -18,7 +18,9 @@
 //              JCT : Add WithRatio,MinM
 
 
-#include <GeomConvert_CompCurveToBSplineCurve.ixx>
+#include <Geom_BSplineCurve.hxx>
+#include <Geom_BoundedCurve.hxx>
+#include <GeomConvert_CompCurveToBSplineCurve.hxx>
 
 #include <Geom_BSplineCurve.hxx>
 #include <GeomConvert.hxx>

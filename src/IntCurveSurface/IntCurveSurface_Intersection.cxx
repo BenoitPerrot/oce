@@ -14,7 +14,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IntCurveSurface_Intersection.ixx>
+#include <StdFail_NotDone.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <IntCurveSurface_IntersectionPoint.hxx>
+#include <IntCurveSurface_IntersectionSegment.hxx>
+#include <IntCurveSurface_Intersection.hxx>
 
 #include <IntCurveSurface_IntersectionPoint.hxx>
 #include <IntCurveSurface_IntersectionSegment.hxx>

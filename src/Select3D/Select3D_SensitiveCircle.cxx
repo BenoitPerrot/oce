@@ -16,7 +16,32 @@
 
 // Modified    Tue Apr 14 1998 by rob : fix Bug : Case of Null Radius Circle...
 
-#include <Select3D_SensitiveCircle.ixx>
+#include <Geom_Circle.hxx>
+#include <Standard_ConstructionError.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <SelectBasics_EntityOwner.hxx>
+#include <TColgp_HArray1OfPnt.hxx>
+#include <TColgp_Array1OfPnt.hxx>
+#include <TColgp_Array1OfPnt2d.hxx>
+#include <Bnd_Box2d.hxx>
+#include <gp_Lin.hxx>
+#include <gp_Pnt.hxx>
+#include <Select3D_SensitiveEntity.hxx>
+#include <TopLoc_Location.hxx>
+#include <Select3D_Projector.hxx>
+#include <Select3D_SensitiveCircle.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Select3D_SensitiveCircle)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Select3D_SensitivePoly),
+  STANDARD_TYPE(Select3D_SensitiveEntity),
+  STANDARD_TYPE(SelectBasics_SensitiveEntity),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Select3D_SensitiveCircle)
+IMPLEMENT_DOWNCAST(Select3D_SensitiveCircle,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Select3D_SensitiveCircle)
 #include <Precision.hxx>
 #include <gp_Lin2d.hxx>
 

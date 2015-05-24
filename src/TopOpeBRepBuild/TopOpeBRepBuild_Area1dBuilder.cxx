@@ -14,7 +14,14 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopOpeBRepBuild_Area1dBuilder.ixx>
+#include <TopOpeBRepBuild_PaveSet.hxx>
+#include <TopOpeBRepBuild_PaveClassifier.hxx>
+#include <TopOpeBRepBuild_LoopSet.hxx>
+#include <TopOpeBRepBuild_LoopClassifier.hxx>
+#include <TopOpeBRepBuild_Loop.hxx>
+#include <TopOpeBRepBuild_ListOfLoop.hxx>
+#include <TopOpeBRepBuild_ListIteratorOfListOfLoop.hxx>
+#include <TopOpeBRepBuild_Area1dBuilder.hxx>
 
 #include <TopOpeBRepBuild_Pave.hxx>
 #include <TopOpeBRepBuild_LoopEnum.hxx>

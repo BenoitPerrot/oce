@@ -12,7 +12,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Visual3d_Light.ixx>
+#include <Visual3d_LightDefinitionError.hxx>
+#include <Visual3d_View.hxx>
+#include <Quantity_Color.hxx>
+#include <Graphic3d_Vector.hxx>
+#include <Visual3d_Light.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Visual3d_Light)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Visual3d_Light)
+IMPLEMENT_DOWNCAST(Visual3d_Light,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Visual3d_Light)
 
 #include <Graphic3d_GraphicDriver.hxx>
 

@@ -11,7 +11,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepRepr_CompoundRepresentationItem.ixx>
+#include <StepRepr_HArray1OfRepresentationItem.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepRepr_RepresentationItem.hxx>
+#include <StepRepr_CompoundRepresentationItem.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepRepr_CompoundRepresentationItem)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepRepr_RepresentationItem),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepRepr_CompoundRepresentationItem)
+IMPLEMENT_DOWNCAST(StepRepr_CompoundRepresentationItem,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepRepr_CompoundRepresentationItem)
 
 StepRepr_CompoundRepresentationItem::StepRepr_CompoundRepresentationItem  ()    {  }
 

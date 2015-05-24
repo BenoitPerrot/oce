@@ -21,7 +21,7 @@
 
 
 
-#include <TDF_ClosureMode.ixx>
+#include <TDF_ClosureMode.hxx>
 
 
 //=======================================================================

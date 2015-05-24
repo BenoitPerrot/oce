@@ -14,7 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepFill_FaceAndOrder.ixx>
+#include <BRepFill_Filling.hxx>
+#include <TopoDS_Face.hxx>
+#include <BRepFill_FaceAndOrder.hxx>
 
 BRepFill_FaceAndOrder::BRepFill_FaceAndOrder()
 {

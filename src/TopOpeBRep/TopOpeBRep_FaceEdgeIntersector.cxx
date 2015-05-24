@@ -14,7 +14,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopOpeBRep_FaceEdgeIntersector.ixx>
+#include <TopoDS_Shape.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Pnt2d.hxx>
+#include <TopOpeBRepDS_Transition.hxx>
+#include <TopoDS_Vertex.hxx>
+#include <TopOpeBRep_FaceEdgeIntersector.hxx>
 #include <TopoDS.hxx>
 #include <BRep_Tool.hxx>
 #include <Geom_Curve.hxx>

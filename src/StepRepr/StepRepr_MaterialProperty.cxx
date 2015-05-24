@@ -15,7 +15,17 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
-#include <StepRepr_MaterialProperty.ixx>
+#include <StepRepr_MaterialProperty.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepRepr_MaterialProperty)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepRepr_PropertyDefinition),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepRepr_MaterialProperty)
+IMPLEMENT_DOWNCAST(StepRepr_MaterialProperty,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepRepr_MaterialProperty)
 
 //=======================================================================
 //function : StepRepr_MaterialProperty

@@ -11,7 +11,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepShape_GeometricCurveSet.ixx>
+#include <StepShape_GeometricCurveSet.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepShape_GeometricCurveSet)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepShape_GeometricSet),
+  STANDARD_TYPE(StepGeom_GeometricRepresentationItem),
+  STANDARD_TYPE(StepRepr_RepresentationItem),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepShape_GeometricCurveSet)
+IMPLEMENT_DOWNCAST(StepShape_GeometricCurveSet,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepShape_GeometricCurveSet)
 
 
 StepShape_GeometricCurveSet::StepShape_GeometricCurveSet ()  {}

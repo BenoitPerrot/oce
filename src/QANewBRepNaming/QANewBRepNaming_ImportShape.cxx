@@ -14,7 +14,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <QANewBRepNaming_ImportShape.ixx>
+#include <TDF_Label.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TDF_TagSource.hxx>
+#include <TDF_LabelMap.hxx>
+#include <QANewBRepNaming_ImportShape.hxx>
 
 #include <Standard_NullObject.hxx>
 #include <BRepTools.hxx>

@@ -11,7 +11,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopoDSToStep_FacetedTool.ixx>
+#include <TopoDS_Shape.hxx>
+#include <TopoDSToStep_FacetedTool.hxx>
 
 #include <BRep_Tool.hxx>
 

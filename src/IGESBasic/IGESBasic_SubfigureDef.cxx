@@ -16,7 +16,22 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESBasic_SubfigureDef.ixx>
+#include <TCollection_HAsciiString.hxx>
+#include <IGESData_HArray1OfIGESEntity.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <IGESData_IGESEntity.hxx>
+#include <Standard_Transient.hxx>
+#include <IGESBasic_SubfigureDef.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESBasic_SubfigureDef)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IGESData_IGESEntity),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESBasic_SubfigureDef)
+IMPLEMENT_DOWNCAST(IGESBasic_SubfigureDef,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESBasic_SubfigureDef)
 #include <Standard_DimensionMismatch.hxx>
 
 

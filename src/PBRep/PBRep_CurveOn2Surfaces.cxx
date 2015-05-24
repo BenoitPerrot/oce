@@ -14,7 +14,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PBRep_CurveOn2Surfaces.ixx>
+#include <PGeom_Surface.hxx>
+#include <Standard_NullObject.hxx>
+#include <PTopLoc_Location.hxx>
+#include <PBRep_CurveOn2Surfaces.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(PBRep_CurveOn2Surfaces)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(PBRep_CurveRepresentation),
+  STANDARD_TYPE(Standard_Persistent),
+  STANDARD_TYPE(Standard_Storable),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(PBRep_CurveOn2Surfaces)
+IMPLEMENT_DOWNCAST(PBRep_CurveOn2Surfaces,Standard_Persistent)
+IMPLEMENT_STANDARD_RTTI(PBRep_CurveOn2Surfaces)
 
 
 //=======================================================================

@@ -11,7 +11,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepData_SelectNamed.ixx>
+#include <StepData_Field.hxx>
+#include <StepData_SelectNamed.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepData_SelectNamed)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepData_SelectMember),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepData_SelectNamed)
+IMPLEMENT_DOWNCAST(StepData_SelectNamed,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepData_SelectNamed)
 
 //  Definitions reprises de Field :
 #define KindInteger 1

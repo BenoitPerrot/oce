@@ -14,7 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepToGeom_MakeSurfaceOfRevolution.ixx>
+#include <StepGeom_SurfaceOfRevolution.hxx>
+#include <Geom_SurfaceOfRevolution.hxx>
+#include <StepToGeom_MakeSurfaceOfRevolution.hxx>
 #include <StepGeom_SurfaceOfRevolution.hxx>
 #include <Geom_SurfaceOfRevolution.hxx>
 #include <Geom_Axis1Placement.hxx>

@@ -14,7 +14,22 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <DrawDim_PlanarAngle.ixx>
+#include <TopoDS_Face.hxx>
+#include <TopoDS_Shape.hxx>
+#include <Draw_Display.hxx>
+#include <DrawDim_PlanarAngle.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(DrawDim_PlanarAngle)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(DrawDim_PlanarDimension),
+  STANDARD_TYPE(DrawDim_Dimension),
+  STANDARD_TYPE(Draw_Drawable3D),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(DrawDim_PlanarAngle)
+IMPLEMENT_DOWNCAST(DrawDim_PlanarAngle,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(DrawDim_PlanarAngle)
 #include <TCollection_AsciiString.hxx>
 #include <DrawDim.hxx>
 #include <Draw.hxx>

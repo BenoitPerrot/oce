@@ -11,7 +11,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepShape_BooleanOperand.ixx>
+#include <StepShape_SolidModel.hxx>
+#include <StepShape_HalfSpaceSolid.hxx>
+#include <StepShape_BooleanResult.hxx>
+#include <StepShape_CsgPrimitive.hxx>
+#include <StepShape_BooleanOperand.hxx>
 #include <Interface_Macros.hxx>
 
 StepShape_BooleanOperand::StepShape_BooleanOperand () {  }

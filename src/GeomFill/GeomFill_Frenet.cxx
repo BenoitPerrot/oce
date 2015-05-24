@@ -14,7 +14,24 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomFill_Frenet.ixx>
+#include <TColStd_HArray1OfReal.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Standard_ConstructionError.hxx>
+#include <GeomFill_TrihedronLaw.hxx>
+#include <Adaptor3d_HCurve.hxx>
+#include <gp_Vec.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <GeomFill_Frenet.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(GeomFill_Frenet)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(GeomFill_TrihedronLaw),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(GeomFill_Frenet)
+IMPLEMENT_DOWNCAST(GeomFill_Frenet,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(GeomFill_Frenet)
 #include <GeomAbs_CurveType.hxx>
 #include <Adaptor3d_HCurve.hxx>
 #include <Precision.hxx>

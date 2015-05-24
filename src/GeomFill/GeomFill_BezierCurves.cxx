@@ -14,7 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomFill_BezierCurves.ixx>
+#include <Geom_BezierSurface.hxx>
+#include <Standard_ConstructionError.hxx>
+#include <Geom_BezierCurve.hxx>
+#include <GeomFill_BezierCurves.hxx>
 
 #include <GeomFill_Filling.hxx>
 #include <GeomFill_Stretch.hxx>

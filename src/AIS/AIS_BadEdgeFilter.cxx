@@ -17,7 +17,19 @@
 //		<g_design>
 
 
-#include <AIS_BadEdgeFilter.ixx>
+#include <SelectMgr_EntityOwner.hxx>
+#include <TopoDS_Edge.hxx>
+#include <AIS_BadEdgeFilter.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(AIS_BadEdgeFilter)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(SelectMgr_Filter),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(AIS_BadEdgeFilter)
+IMPLEMENT_DOWNCAST(AIS_BadEdgeFilter,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(AIS_BadEdgeFilter)
 
 #include <StdSelect_BRepOwner.hxx>
 #include <TopTools_ListOfShape.hxx>

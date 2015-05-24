@@ -18,7 +18,10 @@
 #define No_Standard_DimensionError
 //#endif
 
-#include <math_GaussSetIntegration.ixx>
+#include <StdFail_NotDone.hxx>
+#include <Standard_NotImplemented.hxx>
+#include <math_FunctionSet.hxx>
+#include <math_GaussSetIntegration.hxx>
 #include <math.hxx>
 #include <math_Vector.hxx>
 #include <math_FunctionSet.hxx>

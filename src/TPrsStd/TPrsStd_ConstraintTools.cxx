@@ -17,7 +17,12 @@
 // Modified     Mon 30 10:15:43 1998 by SZY
 
 
-#include <TPrsStd_ConstraintTools.ixx>
+#include <TDataXtd_Constraint.hxx>
+#include <AIS_InteractiveObject.hxx>
+#include <TCollection_ExtendedString.hxx>
+#include <TopoDS_Shape.hxx>
+#include <Geom_Geometry.hxx>
+#include <TPrsStd_ConstraintTools.hxx>
 
 #include <stdio.h>
 #include <UnitsAPI.hxx>

@@ -14,7 +14,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PTopoDS_Shell.ixx>
+#include <PTopoDS_Shell.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(PTopoDS_Shell)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(PTopoDS_HShape),
+  STANDARD_TYPE(ObjMgt_ExternShareable),
+  STANDARD_TYPE(Standard_Persistent),
+  STANDARD_TYPE(Standard_Storable),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(PTopoDS_Shell)
+IMPLEMENT_DOWNCAST(PTopoDS_Shell,Standard_Persistent)
+IMPLEMENT_STANDARD_RTTI(PTopoDS_Shell)
 
 PTopoDS_Shell::PTopoDS_Shell()
 {}

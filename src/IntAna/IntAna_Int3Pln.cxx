@@ -17,7 +17,11 @@
 #define No_Standard_OutOfRange
 #endif
 
-#include <IntAna_Int3Pln.ixx>
+#include <StdFail_NotDone.hxx>
+#include <Standard_DomainError.hxx>
+#include <gp_Pln.hxx>
+#include <gp_Pnt.hxx>
+#include <IntAna_Int3Pln.hxx>
 #include <StdFail_NotDone.hxx>
 #include <Standard_DomainError.hxx>
 #include <math_Gauss.hxx>

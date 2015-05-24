@@ -15,7 +15,17 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
-#include <StepDimTol_PositionTolerance.ixx>
+#include <StepDimTol_PositionTolerance.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepDimTol_PositionTolerance)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepDimTol_GeometricTolerance),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepDimTol_PositionTolerance)
+IMPLEMENT_DOWNCAST(StepDimTol_PositionTolerance,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepDimTol_PositionTolerance)
 
 //=======================================================================
 //function : StepDimTol_PositionTolerance

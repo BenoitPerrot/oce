@@ -14,7 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepPrimAPI_MakeCylinder.ixx>
+#include <Standard_DomainError.hxx>
+#include <gp_Ax2.hxx>
+#include <BRepPrim_Cylinder.hxx>
+#include <BRepPrimAPI_MakeCylinder.hxx>
 #include <BRepBuilderAPI.hxx>
 
 

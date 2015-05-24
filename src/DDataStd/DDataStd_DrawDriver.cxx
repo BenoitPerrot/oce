@@ -14,7 +14,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <DDataStd_DrawDriver.ixx>
+#include <Draw_Drawable3D.hxx>
+#include <TDF_Label.hxx>
+#include <TDataXtd_Constraint.hxx>
+#include <TopoDS_Shape.hxx>
+#include <DDataStd_DrawDriver.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(DDataStd_DrawDriver)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(DDataStd_DrawDriver)
+IMPLEMENT_DOWNCAST(DDataStd_DrawDriver,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(DDataStd_DrawDriver)
 
 #include <Draw.hxx>
 #include <Draw_Drawable3D.hxx>

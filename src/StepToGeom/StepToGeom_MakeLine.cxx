@@ -16,7 +16,9 @@
 
 // sln 22.10.2001. CTS23496: Line is not created if direction have not been succesfully created (StepToGeom_MakeLine(...) function)
 
-#include <StepToGeom_MakeLine.ixx>
+#include <StepGeom_Line.hxx>
+#include <Geom_Line.hxx>
+#include <StepToGeom_MakeLine.hxx>
 #include <StepGeom_Line.hxx>
 #include <StepGeom_Vector.hxx>
 #include <StepGeom_CartesianPoint.hxx>

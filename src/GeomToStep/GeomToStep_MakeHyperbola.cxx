@@ -11,7 +11,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomToStep_MakeHyperbola.ixx>
+#include <StepGeom_Hyperbola.hxx>
+#include <StdFail_NotDone.hxx>
+#include <Geom2d_Hyperbola.hxx>
+#include <Geom_Hyperbola.hxx>
+#include <GeomToStep_MakeHyperbola.hxx>
 
 #include <StepGeom_Hyperbola.hxx>
 #include <gp_Hypr.hxx>

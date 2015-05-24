@@ -16,7 +16,19 @@
 
 // Modified by cma, Mon Oct 23 16:11:46 1995
 
-#include <HLRTest_DrawablePolyEdgeTool.ixx>
+#include <HLRBRep_PolyAlgo.hxx>
+#include <Draw_Display.hxx>
+#include <HLRTest_DrawablePolyEdgeTool.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(HLRTest_DrawablePolyEdgeTool)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Draw_Drawable3D),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(HLRTest_DrawablePolyEdgeTool)
+IMPLEMENT_DOWNCAST(HLRTest_DrawablePolyEdgeTool,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(HLRTest_DrawablePolyEdgeTool)
 #include <HLRBRep_BiPoint.hxx>
 #include <HLRBRep_ListIteratorOfListOfBPoint.hxx>
 #include <HLRAlgo_EdgeStatus.hxx>

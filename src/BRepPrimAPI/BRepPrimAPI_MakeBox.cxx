@@ -14,7 +14,16 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepPrimAPI_MakeBox.ixx>
+#include <Standard_DomainError.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <StdFail_NotDone.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Ax2.hxx>
+#include <BRepPrim_Wedge.hxx>
+#include <TopoDS_Shell.hxx>
+#include <TopoDS_Solid.hxx>
+#include <TopoDS_Face.hxx>
+#include <BRepPrimAPI_MakeBox.hxx>
 #include <BRepBuilderAPI.hxx>
 #include <TopoDS.hxx>
 #include <BRepPrim_Direction.hxx>

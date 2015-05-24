@@ -16,7 +16,19 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESDefs_ToolAttributeDef.ixx>
+#include <Standard_DomainError.hxx>
+#include <IGESDefs_AttributeDef.hxx>
+#include <IGESData_IGESReaderData.hxx>
+#include <IGESData_ParamReader.hxx>
+#include <IGESData_IGESWriter.hxx>
+#include <Interface_EntityIterator.hxx>
+#include <IGESData_DirChecker.hxx>
+#include <Interface_ShareTool.hxx>
+#include <Interface_Check.hxx>
+#include <Interface_CopyTool.hxx>
+#include <IGESData_IGESDumper.hxx>
+#include <Message_Messenger.hxx>
+#include <IGESDefs_ToolAttributeDef.hxx>
 #include <IGESData_ParamCursor.hxx>
 #include <IGESGraph_TextDisplayTemplate.hxx>
 #include <TColStd_HArray1OfTransient.hxx>

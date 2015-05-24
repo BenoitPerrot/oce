@@ -11,7 +11,24 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IFSelect_SelectSignedShared.ixx>
+#include <IFSelect_Signature.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <Standard_Transient.hxx>
+#include <Interface_Graph.hxx>
+#include <Interface_EntityIterator.hxx>
+#include <IFSelect_SelectSignedShared.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IFSelect_SelectSignedShared)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IFSelect_SelectExplore),
+  STANDARD_TYPE(IFSelect_SelectDeduct),
+  STANDARD_TYPE(IFSelect_Selection),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IFSelect_SelectSignedShared)
+IMPLEMENT_DOWNCAST(IFSelect_SelectSignedShared,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IFSelect_SelectSignedShared)
 
 
 IFSelect_SelectSignedShared::IFSelect_SelectSignedShared

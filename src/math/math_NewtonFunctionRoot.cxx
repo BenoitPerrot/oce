@@ -12,7 +12,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <math_NewtonFunctionRoot.ixx>
+#include <StdFail_NotDone.hxx>
+#include <math_FunctionWithDerivative.hxx>
+#include <math_NewtonFunctionRoot.hxx>
 #include <math_FunctionWithDerivative.hxx>
 
 

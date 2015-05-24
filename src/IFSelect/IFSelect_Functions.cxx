@@ -13,7 +13,11 @@
 
 //#58 rln 28.12.98 Versioning
 
-#include <IFSelect_Functions.ixx>
+#include <Standard_Transient.hxx>
+#include <IFSelect_WorkSession.hxx>
+#include <TColStd_HSequenceOfTransient.hxx>
+#include <IFSelect_Dispatch.hxx>
+#include <IFSelect_Functions.hxx>
 #include <IFSelect_Act.hxx>
 #include <IFSelect_SessionPilot.hxx>
 

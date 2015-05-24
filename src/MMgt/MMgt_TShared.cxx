@@ -12,7 +12,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <MMgt_TShared.ixx>
+#include <Standard_OutOfMemory.hxx>
+#include <Standard_Type.hxx>
+#include <MMgt_TShared.hxx>
+
+IMPLEMENT_STANDARD_TYPE(MMgt_TShared)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Standard_Transient),
+
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(MMgt_TShared)
+
+IMPLEMENT_DOWNCAST(MMgt_TShared,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(MMgt_TShared)
 
 //=======================================================================
 //function : Delete

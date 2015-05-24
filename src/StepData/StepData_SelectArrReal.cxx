@@ -11,7 +11,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepData_SelectArrReal.ixx>
+#include <TColStd_HArray1OfReal.hxx>
+#include <StepData_SelectArrReal.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepData_SelectArrReal)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepData_SelectNamed),
+  STANDARD_TYPE(StepData_SelectMember),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepData_SelectArrReal)
+IMPLEMENT_DOWNCAST(StepData_SelectArrReal,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepData_SelectArrReal)
 
 //  Definitions : cf Field
 #define myKindArrReal 8

@@ -16,7 +16,12 @@
 
 //:   gka 09.04.99: S4136: improving tolerance management
 
-#include <StepToTopoDS_TranslateShell.ixx>
+#include <StdFail_NotDone.hxx>
+#include <StepShape_ConnectedFaceSet.hxx>
+#include <StepToTopoDS_Tool.hxx>
+#include <StepToTopoDS_NMTool.hxx>
+#include <TopoDS_Shape.hxx>
+#include <StepToTopoDS_TranslateShell.hxx>
 
 #include <StepToTopoDS_TranslateFace.hxx>
 

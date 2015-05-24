@@ -14,7 +14,16 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Intf_Tool.ixx>
+#include <Standard_OutOfRange.hxx>
+#include <gp_Lin2d.hxx>
+#include <Bnd_Box2d.hxx>
+#include <gp_Hypr2d.hxx>
+#include <gp_Parab2d.hxx>
+#include <gp_Lin.hxx>
+#include <Bnd_Box.hxx>
+#include <gp_Hypr.hxx>
+#include <gp_Parab.hxx>
+#include <Intf_Tool.hxx>
 #include <gp_XY.hxx>
 #include <gp_Pln.hxx>
 #include <IntAna2d_Conic.hxx>

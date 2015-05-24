@@ -14,7 +14,14 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GC_MakeMirror.ixx>
+#include <Geom_Transformation.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Ax1.hxx>
+#include <gp_Lin.hxx>
+#include <gp_Dir.hxx>
+#include <gp_Pln.hxx>
+#include <gp_Ax2.hxx>
+#include <GC_MakeMirror.hxx>
 #include <GC_MakeMirror.hxx>
 #include <gp_Ax3.hxx>
 #include <StdFail_NotDone.hxx>

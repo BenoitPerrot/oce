@@ -13,7 +13,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepGProp_TFunction.ixx>
+#include <BRepGProp_Face.hxx>
+#include <gp_Pnt.hxx>
+#include <BRepGProp_TFunction.hxx>
 
 #include <TColStd_HArray1OfReal.hxx>
 #include <math_KronrodSingleIntegration.hxx>

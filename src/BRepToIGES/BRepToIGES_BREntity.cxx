@@ -17,7 +17,12 @@
 //szv#4 S4163
 //eap: Tue Aug 29 11:02:56 2000: Shape Processing moved to upper levels
 
-#include <BRepToIGES_BREntity.ixx>
+#include <IGESData_IGESModel.hxx>
+#include <Transfer_FinderProcess.hxx>
+#include <IGESData_IGESEntity.hxx>
+#include <TopoDS_Shape.hxx>
+#include <Standard_Transient.hxx>
+#include <BRepToIGES_BREntity.hxx>
 
 #include <BRepToIGES_BRWire.hxx>
 #include <BRepToIGES_BRShell.hxx>

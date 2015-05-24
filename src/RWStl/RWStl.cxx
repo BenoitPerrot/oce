@@ -14,7 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <RWStl.ixx>
+#include <StlMesh_Mesh.hxx>
+#include <OSD_Path.hxx>
+#include <Message_ProgressIndicator.hxx>
+#include <RWStl.hxx>
 #include <OSD_Protection.hxx>
 #include <OSD_File.hxx>
 #include <Message_ProgressSentry.hxx>

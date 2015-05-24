@@ -14,7 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomToStep_MakeConicalSurface.ixx>
+#include <StepGeom_ConicalSurface.hxx>
+#include <StdFail_NotDone.hxx>
+#include <Geom_ConicalSurface.hxx>
+#include <GeomToStep_MakeConicalSurface.hxx>
 #include <StepGeom_Axis2Placement3d.hxx>
 #include <GeomToStep_MakeAxis2Placement3d.hxx>
 #include <StdFail_NotDone.hxx>

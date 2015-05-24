@@ -14,7 +14,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Geom2dToIGES_Geom2dPoint.ixx>
+#include <Geom2dToIGES_Geom2dEntity.hxx>
+#include <IGESGeom_Point.hxx>
+#include <Geom2d_Point.hxx>
+#include <Geom2d_CartesianPoint.hxx>
+#include <Geom2dToIGES_Geom2dPoint.hxx>
 
 #include <gp_XYZ.hxx>
 

@@ -14,7 +14,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopoDS_TCompSolid.ixx>
+#include <TopoDS_TShape.hxx>
+#include <TopoDS_TCompSolid.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(TopoDS_TCompSolid)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(TopoDS_TShape),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(TopoDS_TCompSolid)
+IMPLEMENT_DOWNCAST(TopoDS_TCompSolid,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(TopoDS_TCompSolid)
 
 #include <TopAbs.hxx>
 

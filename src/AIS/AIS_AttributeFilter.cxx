@@ -14,7 +14,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <AIS_AttributeFilter.ixx>
+#include <SelectMgr_EntityOwner.hxx>
+#include <AIS_AttributeFilter.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(AIS_AttributeFilter)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(SelectMgr_Filter),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(AIS_AttributeFilter)
+IMPLEMENT_DOWNCAST(AIS_AttributeFilter,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(AIS_AttributeFilter)
 
 #include <AIS_InteractiveObject.hxx>
 

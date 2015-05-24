@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <SWDRAW_ShapeExtend.ixx>
+#include <SWDRAW_ShapeExtend.hxx>
 #include <DBRep.hxx>
 #include <SWDRAW.hxx>
 #include <TopTools_HSequenceOfShape.hxx>

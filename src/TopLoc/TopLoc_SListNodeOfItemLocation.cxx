@@ -12,5 +12,16 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopLoc_SListNodeOfItemLocation.ixx>
+#include <TopLoc_ItemLocation.hxx>
+#include <TopLoc_SListOfItemLocation.hxx>
+#include <TopLoc_SListNodeOfItemLocation.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(TopLoc_SListNodeOfItemLocation)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(TopLoc_SListNodeOfItemLocation)
+IMPLEMENT_DOWNCAST(TopLoc_SListNodeOfItemLocation,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(TopLoc_SListNodeOfItemLocation)
 

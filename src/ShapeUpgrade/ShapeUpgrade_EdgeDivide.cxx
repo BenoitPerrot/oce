@@ -13,7 +13,22 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <ShapeUpgrade_EdgeDivide.ixx>
+#include <TColStd_HSequenceOfReal.hxx>
+#include <ShapeUpgrade_SplitCurve3d.hxx>
+#include <ShapeUpgrade_SplitCurve2d.hxx>
+#include <TopoDS_Face.hxx>
+#include <TopoDS_Edge.hxx>
+#include <ShapeUpgrade_EdgeDivide.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(ShapeUpgrade_EdgeDivide)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(ShapeUpgrade_Tool),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(ShapeUpgrade_EdgeDivide)
+IMPLEMENT_DOWNCAST(ShapeUpgrade_EdgeDivide,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_EdgeDivide)
 #include <BRep_Tool.hxx>
 #include <ShapeAnalysis_Edge.hxx>
 

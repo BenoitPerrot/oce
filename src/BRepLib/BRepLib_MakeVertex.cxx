@@ -14,7 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepLib_MakeVertex.ixx>
+#include <gp_Pnt.hxx>
+#include <TopoDS_Vertex.hxx>
+#include <BRepLib_MakeVertex.hxx>
 #include <BRepLib.hxx>
 #include <BRep_Builder.hxx>
 #include <TopoDS.hxx>

@@ -18,7 +18,9 @@
 
 #define No_Standard_OutOfRange
 
-#include <BRepTopAdaptor_FClass2d.ixx>
+#include <TopoDS_Face.hxx>
+#include <gp_Pnt2d.hxx>
+#include <BRepTopAdaptor_FClass2d.hxx>
 
 #include <TopoDS_Edge.hxx>
 #include <TopoDS.hxx>

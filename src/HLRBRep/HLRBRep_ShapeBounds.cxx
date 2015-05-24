@@ -14,7 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <HLRBRep_ShapeBounds.ixx>
+#include <HLRTopoBRep_OutLiner.hxx>
+#include <MMgt_TShared.hxx>
+#include <HLRBRep_ShapeBounds.hxx>
 
 //=======================================================================
 //function : HLRBRep_ShapeBounds

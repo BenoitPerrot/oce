@@ -11,7 +11,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PDataXtd_Constraint.ixx>
+#include <PDataStd_Real.hxx>
+#include <PDF_HAttributeArray1.hxx>
+#include <PNaming_NamedShape.hxx>
+#include <PDataXtd_Constraint.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(PDataXtd_Constraint)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(PDF_Attribute),
+  STANDARD_TYPE(Standard_Persistent),
+  STANDARD_TYPE(Standard_Storable),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(PDataXtd_Constraint)
+IMPLEMENT_DOWNCAST(PDataXtd_Constraint,Standard_Persistent)
+IMPLEMENT_STANDARD_RTTI(PDataXtd_Constraint)
 
 
 

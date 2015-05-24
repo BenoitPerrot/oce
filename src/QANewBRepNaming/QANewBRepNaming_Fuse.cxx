@@ -13,7 +13,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <QANewBRepNaming_Fuse.ixx>
+#include <TDF_Label.hxx>
+#include <BRepAlgoAPI_BooleanOperation.hxx>
+#include <QANewBRepNaming_Fuse.hxx>
 #include <TNaming_Builder.hxx>
 #include <QANewBRepNaming_Loader.hxx>
 #include <TopExp_Explorer.hxx>

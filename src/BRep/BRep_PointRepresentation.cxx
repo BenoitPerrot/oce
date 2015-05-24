@@ -14,7 +14,21 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRep_PointRepresentation.ixx>
+#include <Standard_DomainError.hxx>
+#include <TopLoc_Location.hxx>
+#include <Geom_Curve.hxx>
+#include <Geom2d_Curve.hxx>
+#include <Geom_Surface.hxx>
+#include <BRep_PointRepresentation.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(BRep_PointRepresentation)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(BRep_PointRepresentation)
+IMPLEMENT_DOWNCAST(BRep_PointRepresentation,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(BRep_PointRepresentation)
 
 //=======================================================================
 //function : BRep_PointRepresentation

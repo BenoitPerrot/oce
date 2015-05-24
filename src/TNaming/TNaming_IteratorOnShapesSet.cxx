@@ -14,4 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TNaming_IteratorOnShapesSet.ixx>
+#include <Standard_NoMoreObject.hxx>
+#include <Standard_NoSuchObject.hxx>
+#include <TNaming_ShapesSet.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TNaming_IteratorOnShapesSet.hxx>

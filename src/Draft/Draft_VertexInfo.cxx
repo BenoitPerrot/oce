@@ -14,7 +14,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Draft_VertexInfo.ixx>
+#include <Standard_DomainError.hxx>
+#include <Standard_NoMoreObject.hxx>
+#include <TopoDS_Edge.hxx>
+#include <gp_Pnt.hxx>
+#include <Draft_VertexInfo.hxx>
 
 #include <TColStd_ListIteratorOfListOfReal.hxx>
 #include <TopoDS.hxx>

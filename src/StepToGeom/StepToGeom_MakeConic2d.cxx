@@ -16,7 +16,9 @@
 
 //:p0 abv 19.02.99: management of 'done' flag improved
 
-#include <StepToGeom_MakeConic2d.ixx>
+#include <StepGeom_Conic.hxx>
+#include <Geom2d_Conic.hxx>
+#include <StepToGeom_MakeConic2d.hxx>
 #include <StepGeom_Conic.hxx>
 #include <StepGeom_Circle.hxx>
 #include <StepGeom_Ellipse.hxx>

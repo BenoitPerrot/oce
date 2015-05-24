@@ -16,7 +16,20 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESDimen_OrdinateDimension.ixx>
+#include <IGESDimen_GeneralNote.hxx>
+#include <IGESDimen_WitnessLine.hxx>
+#include <IGESDimen_LeaderArrow.hxx>
+#include <IGESDimen_OrdinateDimension.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESDimen_OrdinateDimension)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IGESData_IGESEntity),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESDimen_OrdinateDimension)
+IMPLEMENT_DOWNCAST(IGESDimen_OrdinateDimension,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESDimen_OrdinateDimension)
 
 
 IGESDimen_OrdinateDimension::IGESDimen_OrdinateDimension ()    {  }

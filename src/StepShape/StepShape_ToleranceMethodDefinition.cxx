@@ -11,7 +11,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepShape_ToleranceMethodDefinition.ixx>
+#include <Standard_Transient.hxx>
+#include <StepShape_ToleranceValue.hxx>
+#include <StepShape_LimitsAndFits.hxx>
+#include <StepShape_ToleranceMethodDefinition.hxx>
 
 StepShape_ToleranceMethodDefinition::StepShape_ToleranceMethodDefinition  ()    {  }
 

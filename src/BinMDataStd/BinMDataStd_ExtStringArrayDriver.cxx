@@ -13,7 +13,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BinMDataStd_ExtStringArrayDriver.ixx>
+#include <CDM_MessageDriver.hxx>
+#include <TDF_Attribute.hxx>
+#include <BinObjMgt_Persistent.hxx>
+#include <BinMDataStd_ExtStringArrayDriver.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(BinMDataStd_ExtStringArrayDriver)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(BinMDF_ADriver),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(BinMDataStd_ExtStringArrayDriver)
+IMPLEMENT_DOWNCAST(BinMDataStd_ExtStringArrayDriver,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(BinMDataStd_ExtStringArrayDriver)
 #include <TDataStd_ExtStringArray.hxx>
 #include <BinObjMgt_Persistent.hxx>
 #include <TColStd_Array1OfExtendedString.hxx>

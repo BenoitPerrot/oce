@@ -14,4 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomAPI_IntSS.ixx>
+#include <StdFail_NotDone.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Geom_Surface.hxx>
+#include <Geom_Curve.hxx>
+#include <GeomAPI_IntSS.hxx>

@@ -14,7 +14,14 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <FEmTool_Assembly.ixx>
+#include <FEmTool_HAssemblyTable.hxx>
+#include <FEmTool_ProfileMatrix.hxx>
+#include <StdFail_NotDone.hxx>
+#include <Standard_DimensionError.hxx>
+#include <Standard_DomainError.hxx>
+#include <TColStd_Array2OfInteger.hxx>
+#include <math_Matrix.hxx>
+#include <FEmTool_Assembly.hxx>
 #include <FEmTool_ListIteratorOfListOfVectors.hxx>
 #include <FEmTool_ListOfVectors.hxx>
 #include <TColStd_HArray1OfReal.hxx>

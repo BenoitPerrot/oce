@@ -13,7 +13,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <XCAFDrivers_DocumentStorageDriver.ixx>
+#include <MDF_ASDriverTable.hxx>
+#include <CDM_MessageDriver.hxx>
+#include <XCAFDrivers_DocumentStorageDriver.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(XCAFDrivers_DocumentStorageDriver)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MDocStd_DocumentStorageDriver),
+  STANDARD_TYPE(PCDM_StorageDriver),
+  STANDARD_TYPE(PCDM_Writer),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(XCAFDrivers_DocumentStorageDriver)
+IMPLEMENT_DOWNCAST(XCAFDrivers_DocumentStorageDriver,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(XCAFDrivers_DocumentStorageDriver)
 #include <MDF.hxx>
 #include <MDF_ASDriverHSequence.hxx>
 #include <MDF_ASDriverTable.hxx>

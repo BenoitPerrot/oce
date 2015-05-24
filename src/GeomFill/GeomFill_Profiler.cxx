@@ -14,7 +14,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomFill_Profiler.ixx>
+#include <StdFail_NotDone.hxx>
+#include <Standard_DomainError.hxx>
+#include <Geom_Curve.hxx>
+#include <TColgp_Array1OfPnt.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <TColStd_Array1OfInteger.hxx>
+#include <GeomFill_Profiler.hxx>
 #include <GeomConvert.hxx>
 #include <BSplCLib.hxx>
 #include <Geom_BSplineCurve.hxx>

@@ -11,7 +11,22 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepGeom_Line.ixx>
+#include <StepGeom_CartesianPoint.hxx>
+#include <StepGeom_Vector.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepGeom_Line.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepGeom_Line)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepGeom_Curve),
+  STANDARD_TYPE(StepGeom_GeometricRepresentationItem),
+  STANDARD_TYPE(StepRepr_RepresentationItem),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepGeom_Line)
+IMPLEMENT_DOWNCAST(StepGeom_Line,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepGeom_Line)
 
 
 StepGeom_Line::StepGeom_Line ()  {}

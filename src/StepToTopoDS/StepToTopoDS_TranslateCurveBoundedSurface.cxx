@@ -17,7 +17,10 @@
 //#4  szv          S4163: optimization
 //:   abv 07.04.99 S4136: turn off fixing intersection of non-adjacent edges
 
-#include <StepToTopoDS_TranslateCurveBoundedSurface.ixx>
+#include <StepGeom_CurveBoundedSurface.hxx>
+#include <Transfer_TransientProcess.hxx>
+#include <TopoDS_Face.hxx>
+#include <StepToTopoDS_TranslateCurveBoundedSurface.hxx>
 
 #include <Precision.hxx>
 

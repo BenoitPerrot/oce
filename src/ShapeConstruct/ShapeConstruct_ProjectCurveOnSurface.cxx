@@ -28,7 +28,27 @@
 //szv#4 S4163
 //:s5 abv 22.04.99  Adding debug printouts in catch {} blocks
 //#1  svv 11.01.00  Porting on DEC
-#include <ShapeConstruct_ProjectCurveOnSurface.ixx>
+#include <ShapeAnalysis_Surface.hxx>
+#include <Geom_Surface.hxx>
+#include <Geom_Curve.hxx>
+#include <Geom2d_Curve.hxx>
+#include <TColgp_Array1OfPnt.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <TColgp_Array1OfPnt2d.hxx>
+#include <TColgp_HArray1OfPnt2d.hxx>
+#include <TColStd_HArray1OfReal.hxx>
+#include <TColgp_HArray1OfPnt.hxx>
+#include <gp_Pnt2d.hxx>
+#include <ShapeConstruct_ProjectCurveOnSurface.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(ShapeConstruct_ProjectCurveOnSurface)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(ShapeConstruct_ProjectCurveOnSurface)
+IMPLEMENT_DOWNCAST(ShapeConstruct_ProjectCurveOnSurface,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(ShapeConstruct_ProjectCurveOnSurface)
 
 #include <Standard_ErrorHandler.hxx>
 #include <Standard_Failure.hxx>

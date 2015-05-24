@@ -14,7 +14,28 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Geom2d_Circle.ixx>
+#include <Standard_ConstructionError.hxx>
+#include <Standard_RangeError.hxx>
+#include <gp_Circ2d.hxx>
+#include <gp_Ax2d.hxx>
+#include <gp_Ax22d.hxx>
+#include <gp_Pnt2d.hxx>
+#include <gp_Vec2d.hxx>
+#include <gp_Trsf2d.hxx>
+#include <Geom2d_Geometry.hxx>
+#include <Geom2d_Circle.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Geom2d_Circle)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Geom2d_Conic),
+  STANDARD_TYPE(Geom2d_Curve),
+  STANDARD_TYPE(Geom2d_Geometry),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Geom2d_Circle)
+IMPLEMENT_DOWNCAST(Geom2d_Circle,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Geom2d_Circle)
 #include <ElCLib.hxx>
 #include <gp_XY.hxx>
 #include <Standard_RangeError.hxx>

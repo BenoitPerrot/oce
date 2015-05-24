@@ -14,7 +14,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <LocOpe_CurveShapeIntersector.ixx>
+#include <StdFail_NotDone.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <gp_Ax1.hxx>
+#include <TopoDS_Shape.hxx>
+#include <gp_Circ.hxx>
+#include <LocOpe_PntFace.hxx>
+#include <LocOpe_CurveShapeIntersector.hxx>
 
 #include <BRepIntCurveSurface_Inter.hxx>
 #include <Geom_Circle.hxx>

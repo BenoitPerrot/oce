@@ -14,7 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <ChFi3d_SearchSing.ixx>
+#include <Geom_Curve.hxx>
+#include <ChFi3d_SearchSing.hxx>
 
 #include <gp_Pnt.hxx>
 #include <gp_Vec.hxx>

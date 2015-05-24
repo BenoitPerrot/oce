@@ -11,7 +11,22 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <XSControl_TransferWriter.ixx>
+#include <XSControl_Controller.hxx>
+#include <Transfer_FinderProcess.hxx>
+#include <Standard_Transient.hxx>
+#include <Interface_InterfaceModel.hxx>
+#include <TopoDS_Shape.hxx>
+#include <Interface_CheckIterator.hxx>
+#include <XSControl_TransferWriter.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(XSControl_TransferWriter)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(XSControl_TransferWriter)
+IMPLEMENT_DOWNCAST(XSControl_TransferWriter,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(XSControl_TransferWriter)
 #include <Standard_ErrorHandler.hxx>
 #include <Standard_Failure.hxx>
 #include <Transfer_SimpleBinderOfTransient.hxx>

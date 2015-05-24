@@ -21,7 +21,11 @@
 //              de la distance au carre)
 
 
-#include <GeomPlate_PlateG0Criterion.ixx>
+#include <TColgp_SequenceOfXY.hxx>
+#include <TColgp_SequenceOfXYZ.hxx>
+#include <AdvApp2Var_Patch.hxx>
+#include <AdvApp2Var_Context.hxx>
+#include <GeomPlate_PlateG0Criterion.hxx>
 #include <AdvApp2Var_Criterion.hxx>
 #include <TColgp_SequenceOfXY.hxx>
 #include <TColgp_SequenceOfXYZ.hxx>

@@ -14,7 +14,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepCheck_Analyzer.ixx>
+#include <Standard_NullObject.hxx>
+#include <Standard_NoSuchObject.hxx>
+#include <TopoDS_Shape.hxx>
+#include <BRepCheck_Result.hxx>
+#include <BRepCheck_Analyzer.hxx>
 
 #include <BRepCheck_Vertex.hxx>
 #include <BRepCheck_Edge.hxx>

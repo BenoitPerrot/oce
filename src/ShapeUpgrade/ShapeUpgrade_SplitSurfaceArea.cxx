@@ -11,7 +11,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <ShapeUpgrade_SplitSurfaceArea.ixx>
+#include <ShapeUpgrade_SplitSurfaceArea.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(ShapeUpgrade_SplitSurfaceArea)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(ShapeUpgrade_SplitSurface),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(ShapeUpgrade_SplitSurfaceArea)
+IMPLEMENT_DOWNCAST(ShapeUpgrade_SplitSurfaceArea,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_SplitSurfaceArea)
 #include <TColStd_HSequenceOfReal.hxx>
 #include <GeomAdaptor_Surface.hxx>
 

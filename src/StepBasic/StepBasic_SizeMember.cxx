@@ -11,7 +11,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepBasic_SizeMember.ixx>
+#include <StepBasic_SizeMember.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepBasic_SizeMember)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepData_SelectReal),
+  STANDARD_TYPE(StepData_SelectMember),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepBasic_SizeMember)
+IMPLEMENT_DOWNCAST(StepBasic_SizeMember,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepBasic_SizeMember)
 
 StepBasic_SizeMember::StepBasic_SizeMember  ()    {  }
 

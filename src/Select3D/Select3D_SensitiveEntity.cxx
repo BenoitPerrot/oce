@@ -14,7 +14,22 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Select3D_SensitiveEntity.ixx>
+#include <SelectBasics_EntityOwner.hxx>
+#include <Select3D_Projector.hxx>
+#include <TopLoc_Location.hxx>
+#include <TColgp_Array1OfPnt2d.hxx>
+#include <Bnd_Box2d.hxx>
+#include <Select3D_SensitiveEntity.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Select3D_SensitiveEntity)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(SelectBasics_SensitiveEntity),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Select3D_SensitiveEntity)
+IMPLEMENT_DOWNCAST(Select3D_SensitiveEntity,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Select3D_SensitiveEntity)
 #include <Precision.hxx>
 #include <SelectBasics_EntityOwner.hxx>
 #include <Select3D_Macro.hxx>

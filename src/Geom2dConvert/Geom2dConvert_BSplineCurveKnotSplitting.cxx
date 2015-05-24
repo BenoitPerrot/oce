@@ -15,7 +15,12 @@
 //Jean-Claude Vauthier 27 November 1991
 //Passage sur C1 Aout 1992
 
-#include <Geom2dConvert_BSplineCurveKnotSplitting.ixx>
+#include <TColStd_HArray1OfInteger.hxx>
+#include <Standard_DimensionError.hxx>
+#include <Standard_RangeError.hxx>
+#include <Geom2d_BSplineCurve.hxx>
+#include <TColStd_Array1OfInteger.hxx>
+#include <Geom2dConvert_BSplineCurveKnotSplitting.hxx>
 #include <Standard_RangeError.hxx>
 
 #include <BSplCLib.hxx>

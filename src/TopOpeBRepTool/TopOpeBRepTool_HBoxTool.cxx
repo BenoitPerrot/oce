@@ -14,7 +14,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopOpeBRepTool_HBoxTool.ixx>
+#include <TopoDS_Shape.hxx>
+#include <Bnd_Box.hxx>
+#include <TopOpeBRepTool_IndexedDataMapOfShapeBox.hxx>
+#include <TopOpeBRepTool_HBoxTool.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(TopOpeBRepTool_HBoxTool)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(TopOpeBRepTool_HBoxTool)
+IMPLEMENT_DOWNCAST(TopOpeBRepTool_HBoxTool,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(TopOpeBRepTool_HBoxTool)
 
 #include <TopAbs.hxx>
 #include <TopExp_Explorer.hxx>

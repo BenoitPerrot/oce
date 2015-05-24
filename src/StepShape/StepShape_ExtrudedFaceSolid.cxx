@@ -11,7 +11,23 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepShape_ExtrudedFaceSolid.ixx>
+#include <StepGeom_Direction.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepShape_FaceSurface.hxx>
+#include <StepShape_ExtrudedFaceSolid.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepShape_ExtrudedFaceSolid)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepShape_SweptFaceSolid),
+  STANDARD_TYPE(StepShape_SolidModel),
+  STANDARD_TYPE(StepGeom_GeometricRepresentationItem),
+  STANDARD_TYPE(StepRepr_RepresentationItem),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepShape_ExtrudedFaceSolid)
+IMPLEMENT_DOWNCAST(StepShape_ExtrudedFaceSolid,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepShape_ExtrudedFaceSolid)
 
 
 StepShape_ExtrudedFaceSolid::StepShape_ExtrudedFaceSolid ()  {}

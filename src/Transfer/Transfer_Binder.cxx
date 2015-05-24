@@ -11,7 +11,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Transfer_Binder.ixx>
+#include <Interface_Check.hxx>
+#include <Transfer_Binder.hxx>
+#include <Transfer_TransferFailure.hxx>
+#include <Standard_Type.hxx>
+#include <Transfer_Binder.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Transfer_Binder)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Transfer_Binder)
+IMPLEMENT_DOWNCAST(Transfer_Binder,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Transfer_Binder)
 #include <Transfer_VoidBinder.hxx>
 #include <Transfer_TransferFailure.hxx>
 

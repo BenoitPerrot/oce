@@ -14,4 +14,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomAdaptor_HSurface.ixx>
+#include <Standard_ConstructionError.hxx>
+#include <GeomAdaptor_Surface.hxx>
+#include <Geom_Surface.hxx>
+#include <GeomAdaptor_HSurface.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(GeomAdaptor_HSurface)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(GeomAdaptor_GHSurface),
+  STANDARD_TYPE(Adaptor3d_HSurface),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(GeomAdaptor_HSurface)
+IMPLEMENT_DOWNCAST(GeomAdaptor_HSurface,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(GeomAdaptor_HSurface)

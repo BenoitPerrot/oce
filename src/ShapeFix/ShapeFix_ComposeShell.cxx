@@ -25,7 +25,30 @@
 #pragma option -x-
 #endif
 
-#include <ShapeFix_ComposeShell.ixx>
+#include <ShapeExtend_CompositeSurface.hxx>
+#include <ShapeAnalysis_TransferParameters.hxx>
+#include <TopLoc_Location.hxx>
+#include <TopoDS_Face.hxx>
+#include <TopoDS_Shape.hxx>
+#include <ShapeFix_SequenceOfWireSegment.hxx>
+#include <ShapeExtend_WireData.hxx>
+#include <gp_Lin2d.hxx>
+#include <ShapeFix_WireSegment.hxx>
+#include <TColStd_SequenceOfInteger.hxx>
+#include <TColStd_SequenceOfReal.hxx>
+#include <TopTools_SequenceOfShape.hxx>
+#include <Geom_Surface.hxx>
+#include <ShapeFix_ComposeShell.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(ShapeFix_ComposeShell)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(ShapeFix_Root),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(ShapeFix_ComposeShell)
+IMPLEMENT_DOWNCAST(ShapeFix_ComposeShell,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(ShapeFix_ComposeShell)
 
 #include <Precision.hxx>
 #include <gp_Pnt2d.hxx>

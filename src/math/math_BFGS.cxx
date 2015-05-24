@@ -18,7 +18,10 @@
 #define No_Standard_DimensionError
 //#endif
 
-#include <math_BFGS.ixx>
+#include <StdFail_NotDone.hxx>
+#include <Standard_DimensionError.hxx>
+#include <math_MultipleVarFunctionWithGradient.hxx>
+#include <math_BFGS.hxx>
 
 #include <math_BracketMinimum.hxx>
 #include <math_BrentMinimum.hxx>

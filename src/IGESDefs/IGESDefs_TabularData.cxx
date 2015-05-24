@@ -19,7 +19,22 @@
 // UNFINISHED
 // The last field (theDependentValues) not resolved. Queried to mdtv
 
-#include <IGESDefs_TabularData.ixx>
+#include <TColStd_HArray1OfInteger.hxx>
+#include <IGESBasic_HArray1OfHArray1OfReal.hxx>
+#include <Standard_DimensionMismatch.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <TColStd_HArray1OfReal.hxx>
+#include <IGESDefs_TabularData.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESDefs_TabularData)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IGESData_IGESEntity),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESDefs_TabularData)
+IMPLEMENT_DOWNCAST(IGESDefs_TabularData,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESDefs_TabularData)
 #include <Standard_DimensionMismatch.hxx>
 #include <TColStd_HArray1OfReal.hxx>
 

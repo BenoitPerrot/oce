@@ -16,7 +16,20 @@
 
 #include <Standard_Stream.hxx>
 
-#include <BRepTools.ixx>
+#include <TopoDS_Face.hxx>
+#include <TopoDS_Wire.hxx>
+#include <TopoDS_Edge.hxx>
+#include <Bnd_Box2d.hxx>
+#include <TopoDS_Vertex.hxx>
+#include <TopoDS_Shell.hxx>
+#include <TopoDS_Solid.hxx>
+#include <TopoDS_CompSolid.hxx>
+#include <TopoDS_Compound.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopTools_IndexedMapOfShape.hxx>
+#include <Message_ProgressIndicator.hxx>
+#include <BRep_Builder.hxx>
+#include <BRepTools.hxx>
 #include <BRepTools_ShapeSet.hxx>
 #include <BRep_Tool.hxx>
 #include <TopExp.hxx>

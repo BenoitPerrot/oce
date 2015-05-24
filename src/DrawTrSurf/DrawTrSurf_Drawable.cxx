@@ -14,7 +14,21 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <DrawTrSurf_Drawable.ixx>
+#include <Adaptor2d_Curve2d.hxx>
+#include <Draw_Display.hxx>
+#include <Adaptor3d_Curve.hxx>
+#include <Adaptor3d_IsoCurve.hxx>
+#include <DrawTrSurf_Drawable.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(DrawTrSurf_Drawable)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Draw_Drawable3D),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(DrawTrSurf_Drawable)
+IMPLEMENT_DOWNCAST(DrawTrSurf_Drawable,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(DrawTrSurf_Drawable)
 #include <GCPnts_UniformDeflection.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Pnt2d.hxx>

@@ -14,7 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TNaming_Translator.ixx>
+#include <TopoDS_Shape.hxx>
+#include <TopTools_DataMapOfShapeShape.hxx>
+#include <TNaming_Translator.hxx>
 
 #include <TopoDS_Shape.hxx>
 #include <TCollection_AsciiString.hxx>

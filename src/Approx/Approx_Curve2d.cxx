@@ -14,7 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Approx_Curve2d.ixx>
+#include <Geom2d_BSplineCurve.hxx>
+#include <Adaptor2d_HCurve2d.hxx>
+#include <Approx_Curve2d.hxx>
 #include <AdvApprox_PrefAndRec.hxx>
 #include <AdvApprox_ApproxAFunction.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>

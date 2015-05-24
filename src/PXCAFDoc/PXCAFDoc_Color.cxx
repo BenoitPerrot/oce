@@ -13,7 +13,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PXCAFDoc_Color.ixx>
+#include <Quantity_Color.hxx>
+#include <PXCAFDoc_Color.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(PXCAFDoc_Color)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(PDF_Attribute),
+  STANDARD_TYPE(Standard_Persistent),
+  STANDARD_TYPE(Standard_Storable),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(PXCAFDoc_Color)
+IMPLEMENT_DOWNCAST(PXCAFDoc_Color,Standard_Persistent)
+IMPLEMENT_STANDARD_RTTI(PXCAFDoc_Color)
 
 //=======================================================================
 //function : Constructor

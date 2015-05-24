@@ -14,7 +14,14 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GC_MakeConicalSurface.ixx>
+#include <Geom_ConicalSurface.hxx>
+#include <StdFail_NotDone.hxx>
+#include <gp_Ax2.hxx>
+#include <gp_Cone.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Ax1.hxx>
+#include <gp_Lin.hxx>
+#include <GC_MakeConicalSurface.hxx>
 #include <gce_MakeCone.hxx>
 #include <gp.hxx>
 #include <StdFail_NotDone.hxx>

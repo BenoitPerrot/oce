@@ -16,7 +16,23 @@
 
 // pdn 17.12.98 ie_exhaust-A.stp
 
-#include <ShapeFix_Shell.ixx>
+#include <ShapeFix_Face.hxx>
+#include <TopoDS_Shell.hxx>
+#include <Message_ProgressIndicator.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopoDS_Compound.hxx>
+#include <ShapeExtend_BasicMsgRegistrator.hxx>
+#include <ShapeFix_Shell.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(ShapeFix_Shell)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(ShapeFix_Root),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(ShapeFix_Shell)
+IMPLEMENT_DOWNCAST(ShapeFix_Shell,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(ShapeFix_Shell)
 
 #include <Precision.hxx>
 #include <TopAbs.hxx>

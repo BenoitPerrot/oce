@@ -14,7 +14,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopOpeBRepDS_SurfaceCurveInterference.ixx>
+#include <Geom2d_Curve.hxx>
+#include <TopOpeBRepDS_Transition.hxx>
+#include <TopOpeBRepDS_Interference.hxx>
+#include <TopOpeBRepDS_SurfaceCurveInterference.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(TopOpeBRepDS_SurfaceCurveInterference)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(TopOpeBRepDS_Interference),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(TopOpeBRepDS_SurfaceCurveInterference)
+IMPLEMENT_DOWNCAST(TopOpeBRepDS_SurfaceCurveInterference,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(TopOpeBRepDS_SurfaceCurveInterference)
 
 #ifdef OCCT_DEBUG
 #include <TopOpeBRepDS_Dumper.hxx>

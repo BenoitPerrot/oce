@@ -13,7 +13,26 @@
 
 #define No_Standard_OutOfRange
 
-#include <Adaptor3d_CurveOnSurface.ixx>
+#include <Adaptor3d_HSurface.hxx>
+#include <Adaptor2d_HCurve2d.hxx>
+#include <TColStd_HSequenceOfReal.hxx>
+#include <Standard_NoSuchObject.hxx>
+#include <Standard_DomainError.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <Adaptor3d_HCurve.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Vec.hxx>
+#include <gp_Lin.hxx>
+#include <gp_Circ.hxx>
+#include <gp_Elips.hxx>
+#include <gp_Hypr.hxx>
+#include <gp_Parab.hxx>
+#include <Geom_BezierCurve.hxx>
+#include <Geom_BSplineCurve.hxx>
+#include <gp_Pnt2d.hxx>
+#include <gp_Vec2d.hxx>
+#include <Adaptor3d_CurveOnSurface.hxx>
 
 #include <Adaptor3d_HCurveOnSurface.hxx>
 #include <gp_Pnt2d.hxx>

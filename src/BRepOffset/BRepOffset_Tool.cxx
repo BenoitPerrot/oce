@@ -16,7 +16,21 @@
 
 #include <stdio.h>
 
-#include <BRepOffset_Tool.ixx>
+#include <TopoDS_Edge.hxx>
+#include <TopoDS_Vertex.hxx>
+#include <TopoDS_Face.hxx>
+#include <TopTools_ListOfShape.hxx>
+#include <BRepOffset_Analyse.hxx>
+#include <TopTools_DataMapOfShapeShape.hxx>
+#include <TopoDS_Wire.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopTools_DataMapOfShapeListOfShape.hxx>
+#include <TopTools_MapOfShape.hxx>
+#include <TopTools_IndexedMapOfShape.hxx>
+#include <BRepAlgo_AsDes.hxx>
+#include <BRepAlgo_Image.hxx>
+#include <Geom_Curve.hxx>
+#include <BRepOffset_Tool.hxx>
 
 #include <BRepAlgo_Tool.hxx>
 

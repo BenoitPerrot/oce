@@ -14,7 +14,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Expr_RelationIterator.ixx>
+#include <Standard_NoMoreObject.hxx>
+#include <Standard_NoSuchObject.hxx>
+#include <Expr_GeneralRelation.hxx>
+#include <Expr_SingleRelation.hxx>
+#include <Expr_RelationIterator.hxx>
 #include <Standard_NoMoreObject.hxx>
 #include <Standard_NoSuchObject.hxx>
 #include <Expr_SystemRelation.hxx>

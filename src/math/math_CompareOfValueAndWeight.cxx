@@ -13,7 +13,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <math_CompareOfValueAndWeight.ixx>
+#include <math_ValueAndWeight.hxx>
+#include <math_CompareOfValueAndWeight.hxx>
 
 // -----------
 // Create :

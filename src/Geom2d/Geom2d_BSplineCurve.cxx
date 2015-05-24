@@ -28,7 +28,36 @@
 
 #define No_Standard_OutOfRange
 
-#include <Geom2d_BSplineCurve.ixx>
+#include <TColgp_HArray1OfPnt2d.hxx>
+#include <TColStd_HArray1OfReal.hxx>
+#include <TColStd_HArray1OfInteger.hxx>
+#include <Standard_ConstructionError.hxx>
+#include <Standard_DimensionError.hxx>
+#include <Standard_DomainError.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Standard_RangeError.hxx>
+#include <Standard_NoSuchObject.hxx>
+#include <Geom2d_UndefinedDerivative.hxx>
+#include <TColgp_Array1OfPnt2d.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <TColStd_Array1OfInteger.hxx>
+#include <gp_Pnt2d.hxx>
+#include <gp_Vec2d.hxx>
+#include <gp_Trsf2d.hxx>
+#include <Geom2d_Geometry.hxx>
+#include <Geom2d_BSplineCurve.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Geom2d_BSplineCurve)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Geom2d_BoundedCurve),
+  STANDARD_TYPE(Geom2d_Curve),
+  STANDARD_TYPE(Geom2d_Geometry),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Geom2d_BSplineCurve)
+IMPLEMENT_DOWNCAST(Geom2d_BSplineCurve,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Geom2d_BSplineCurve)
 #include <gp.hxx>
 #include <BSplCLib.hxx>
 #include <BSplCLib_KnotDistribution.hxx>

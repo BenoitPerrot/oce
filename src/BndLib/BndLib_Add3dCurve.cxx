@@ -12,7 +12,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BndLib_Add3dCurve.ixx>
+#include <Adaptor3d_Curve.hxx>
+#include <Bnd_Box.hxx>
+#include <BndLib_Add3dCurve.hxx>
 #include <GeomAbs_CurveType.hxx>
 #include <BndLib.hxx>
 #include <TColgp_Array1OfPnt.hxx>

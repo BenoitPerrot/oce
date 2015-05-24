@@ -12,7 +12,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Extrema_ExtElSS.ixx>
+#include <TColStd_HArray1OfReal.hxx>
+#include <Extrema_HArray1OfPOnSurf.hxx>
+#include <StdFail_InfiniteSolutions.hxx>
+#include <StdFail_NotDone.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <gp_Pln.hxx>
+#include <gp_Sphere.hxx>
+#include <gp_Cylinder.hxx>
+#include <gp_Cone.hxx>
+#include <gp_Torus.hxx>
+#include <Extrema_POnSurf.hxx>
+#include <Extrema_ExtElSS.hxx>
 #include <Extrema_ExtPElS.hxx>
 #include <Standard_NotImplemented.hxx>
 #include <StdFail_NotDone.hxx>

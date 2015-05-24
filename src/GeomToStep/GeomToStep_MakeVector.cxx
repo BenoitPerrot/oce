@@ -14,7 +14,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomToStep_MakeVector.ixx>
+#include <StepGeom_Vector.hxx>
+#include <StdFail_NotDone.hxx>
+#include <gp_Vec.hxx>
+#include <gp_Vec2d.hxx>
+#include <Geom_Vector.hxx>
+#include <Geom2d_Vector.hxx>
+#include <GeomToStep_MakeVector.hxx>
 #include <StdFail_NotDone.hxx>
 #include <gp_Dir.hxx>
 #include <gp_Dir2d.hxx>

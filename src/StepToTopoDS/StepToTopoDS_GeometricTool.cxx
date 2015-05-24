@@ -17,7 +17,13 @@
 //pdn 11.01.99 #144 bm1_pe_t4 protection of exceptions in draw
 //    abv 13.04.99 S4136: eliminate BRepAPI::Precision()
 
-#include <StepToTopoDS_GeometricTool.ixx>
+#include <StepGeom_SurfaceCurve.hxx>
+#include <StepGeom_Surface.hxx>
+#include <StepGeom_Pcurve.hxx>
+#include <StepShape_Edge.hxx>
+#include <StepShape_EdgeLoop.hxx>
+#include <Geom_Curve.hxx>
+#include <StepToTopoDS_GeometricTool.hxx>
 #include <Standard_ErrorHandler.hxx>
 #include <Standard_Failure.hxx>
 

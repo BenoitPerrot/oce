@@ -11,7 +11,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepData_FreeFormEntity.ixx>
+#include <StepData_HArray1OfField.hxx>
+#include <StepData_FreeFormEntity.hxx>
+#include <TColStd_HSequenceOfAsciiString.hxx>
+#include <StepData_Field.hxx>
+#include <StepData_FreeFormEntity.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepData_FreeFormEntity)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepData_FreeFormEntity)
+IMPLEMENT_DOWNCAST(StepData_FreeFormEntity,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepData_FreeFormEntity)
 #include <Dico_DictionaryOfTransient.hxx>
 #include <Dico_IteratorOfDictionaryOfTransient.hxx>
 #include <Interface_Macros.hxx>

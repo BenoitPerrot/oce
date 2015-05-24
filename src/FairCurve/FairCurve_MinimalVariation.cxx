@@ -19,7 +19,12 @@
 #define No_Standard_OutOfRange
 #endif
 
-#include <FairCurve_MinimalVariation.ixx>
+#include <Standard_NegativeValue.hxx>
+#include <Standard_NullValue.hxx>
+#include <Standard_DomainError.hxx>
+#include <gp_Pnt2d.hxx>
+#include <gp_Vec2d.hxx>
+#include <FairCurve_MinimalVariation.hxx>
 
 #include <BSplCLib.hxx>
 #include <PLib.hxx>

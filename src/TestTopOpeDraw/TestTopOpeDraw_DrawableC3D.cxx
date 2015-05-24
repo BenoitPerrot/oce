@@ -14,7 +14,24 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TestTopOpeDraw_DrawableC3D.ixx>
+#include <Draw_Text3D.hxx>
+#include <Geom_Curve.hxx>
+#include <Draw_Color.hxx>
+#include <gp_Pnt.hxx>
+#include <Draw_Display.hxx>
+#include <TestTopOpeDraw_DrawableC3D.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(TestTopOpeDraw_DrawableC3D)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(DrawTrSurf_Curve),
+  STANDARD_TYPE(DrawTrSurf_Drawable),
+  STANDARD_TYPE(Draw_Drawable3D),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(TestTopOpeDraw_DrawableC3D)
+IMPLEMENT_DOWNCAST(TestTopOpeDraw_DrawableC3D,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(TestTopOpeDraw_DrawableC3D)
 #include <Draw_Interpretor.hxx>
 #include <TopOpeBRepTool_define.hxx>
 

@@ -16,7 +16,10 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.0
 
-#include <StepAP203_SpecifiedItem.ixx>
+#include <Standard_Transient.hxx>
+#include <StepBasic_ProductDefinition.hxx>
+#include <StepRepr_ShapeAspect.hxx>
+#include <StepAP203_SpecifiedItem.hxx>
 
 //=======================================================================
 //function : StepAP203_SpecifiedItem

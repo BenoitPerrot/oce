@@ -13,7 +13,23 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <MeshVS_DeformedDataSource.ixx>
+#include <MeshVS_DataSource.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <MeshVS_HArray1OfSequenceOfInteger.hxx>
+#include <TColStd_Array1OfInteger.hxx>
+#include <MeshVS_DataMapOfIntegerVector.hxx>
+#include <gp_Vec.hxx>
+#include <MeshVS_DeformedDataSource.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(MeshVS_DeformedDataSource)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MeshVS_DataSource),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(MeshVS_DeformedDataSource)
+IMPLEMENT_DOWNCAST(MeshVS_DeformedDataSource,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(MeshVS_DeformedDataSource)
 #include <MeshVS_Buffer.hxx>
 
 //================================================================

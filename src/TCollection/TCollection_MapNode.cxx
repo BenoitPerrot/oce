@@ -12,4 +12,16 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TCollection_MapNode.ixx>
+#include <Standard_Type.hxx>
+#include <TCollection_MapNode.hxx>
+
+IMPLEMENT_STANDARD_TYPE(TCollection_MapNode)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(TCollection_MapNode)
+
+IMPLEMENT_DOWNCAST(TCollection_MapNode,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(TCollection_MapNode)

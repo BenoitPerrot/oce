@@ -14,7 +14,27 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Bisector_BisecPC.ixx>
+#include <Geom2d_Curve.hxx>
+#include <Standard_DomainError.hxx>
+#include <Standard_RangeError.hxx>
+#include <gp_Pnt2d.hxx>
+#include <Geom2d_Geometry.hxx>
+#include <gp_Trsf2d.hxx>
+#include <gp_Vec2d.hxx>
+#include <TColStd_SequenceOfReal.hxx>
+#include <Bisector_BisecPC.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Bisector_BisecPC)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Bisector_Curve),
+  STANDARD_TYPE(Geom2d_Curve),
+  STANDARD_TYPE(Geom2d_Geometry),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Bisector_BisecPC)
+IMPLEMENT_DOWNCAST(Bisector_BisecPC,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Bisector_BisecPC)
 #include <Bisector.hxx>
 #include <Geom2dAdaptor_Curve.hxx>
 #include <Geom2d_Curve.hxx>

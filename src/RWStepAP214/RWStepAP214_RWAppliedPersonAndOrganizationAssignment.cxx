@@ -11,7 +11,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <RWStepAP214_RWAppliedPersonAndOrganizationAssignment.ixx>
+#include <StepData_StepReaderData.hxx>
+#include <Interface_Check.hxx>
+#include <StepAP214_AppliedPersonAndOrganizationAssignment.hxx>
+#include <StepData_StepWriter.hxx>
+#include <Interface_EntityIterator.hxx>
+#include <RWStepAP214_RWAppliedPersonAndOrganizationAssignment.hxx>
 #include <StepAP214_HArray1OfPersonAndOrganizationItem.hxx>
 #include <StepAP214_PersonAndOrganizationItem.hxx>
 #include <StepBasic_PersonAndOrganization.hxx>

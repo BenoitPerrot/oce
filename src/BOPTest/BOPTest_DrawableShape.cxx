@@ -13,7 +13,23 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BOPTest_DrawableShape.ixx>
+#include <Draw_Text3D.hxx>
+#include <TopoDS_Shape.hxx>
+#include <Draw_Color.hxx>
+#include <gp_Pnt.hxx>
+#include <Draw_Display.hxx>
+#include <BOPTest_DrawableShape.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(BOPTest_DrawableShape)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(DBRep_DrawableShape),
+  STANDARD_TYPE(Draw_Drawable3D),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(BOPTest_DrawableShape)
+IMPLEMENT_DOWNCAST(BOPTest_DrawableShape,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(BOPTest_DrawableShape)
 #include <stdio.h>
 
 #include <TopoDS.hxx>

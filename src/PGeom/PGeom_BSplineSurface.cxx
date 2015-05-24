@@ -14,7 +14,23 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PGeom_BSplineSurface.ixx>
+#include <PColgp_HArray2OfPnt.hxx>
+#include <PColStd_HArray2OfReal.hxx>
+#include <PColStd_HArray1OfReal.hxx>
+#include <PColStd_HArray1OfInteger.hxx>
+#include <PGeom_BSplineSurface.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(PGeom_BSplineSurface)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(PGeom_BoundedSurface),
+  STANDARD_TYPE(PGeom_Surface),
+  STANDARD_TYPE(PGeom_Geometry),
+  STANDARD_TYPE(Standard_Persistent),
+  STANDARD_TYPE(Standard_Storable),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(PGeom_BSplineSurface)
+IMPLEMENT_DOWNCAST(PGeom_BSplineSurface,Standard_Persistent)
+IMPLEMENT_STANDARD_RTTI(PGeom_BSplineSurface)
 
 //=======================================================================
 //function : PGeom_BSplineSurface

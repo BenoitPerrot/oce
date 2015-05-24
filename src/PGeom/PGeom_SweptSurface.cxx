@@ -14,7 +14,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PGeom_SweptSurface.ixx>
+#include <PGeom_Curve.hxx>
+#include <gp_Dir.hxx>
+#include <PGeom_SweptSurface.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(PGeom_SweptSurface)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(PGeom_Surface),
+  STANDARD_TYPE(PGeom_Geometry),
+  STANDARD_TYPE(Standard_Persistent),
+  STANDARD_TYPE(Standard_Storable),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(PGeom_SweptSurface)
+IMPLEMENT_DOWNCAST(PGeom_SweptSurface,Standard_Persistent)
+IMPLEMENT_STANDARD_RTTI(PGeom_SweptSurface)
 
 //=======================================================================
 //function : PGeom_SweptSurface

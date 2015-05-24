@@ -14,7 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <ProjLib_PrjFunc.ixx>
+#include <Standard_ConstructionError.hxx>
+#include <math_Matrix.hxx>
+#include <gp_Pnt2d.hxx>
+#include <ProjLib_PrjFunc.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Vec.hxx>
 #include <Adaptor3d_Surface.hxx>

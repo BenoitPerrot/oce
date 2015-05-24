@@ -12,7 +12,14 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GccEnt_QualifiedCirc.ixx>
+#include <gp_Circ2d.hxx>
+#include <GccEnt_QualifiedCirc.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(GccEnt_QualifiedCirc)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Standard_Storable),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(GccEnt_QualifiedCirc)
 
 
 gp_Circ2d GccEnt_QualifiedCirc::

@@ -14,7 +14,16 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepOffsetAPI_DraftAngle.ixx>
+#include <StdFail_NotDone.hxx>
+#include <Standard_NullObject.hxx>
+#include <Standard_NoSuchObject.hxx>
+#include <Standard_ConstructionError.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopoDS_Face.hxx>
+#include <gp_Dir.hxx>
+#include <gp_Pln.hxx>
+#include <TopTools_ListOfShape.hxx>
+#include <BRepOffsetAPI_DraftAngle.hxx>
 
 #include <Draft_Modification.hxx>
 #include <TopoDS.hxx>

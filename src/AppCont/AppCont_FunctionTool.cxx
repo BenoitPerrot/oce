@@ -12,7 +12,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <AppCont_FunctionTool.ixx>
+#include <AppCont_Function.hxx>
+#include <TColgp_Array1OfPnt.hxx>
+#include <TColgp_Array1OfVec.hxx>
+#include <TColgp_Array1OfPnt2d.hxx>
+#include <TColgp_Array1OfVec2d.hxx>
+#include <AppCont_FunctionTool.hxx>
 
 #include <AppCont_Function.hxx>
 #include <TColgp_Array1OfPnt.hxx>

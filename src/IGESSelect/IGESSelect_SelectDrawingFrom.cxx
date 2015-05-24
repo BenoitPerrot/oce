@@ -11,7 +11,22 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IGESSelect_SelectDrawingFrom.ixx>
+#include <Interface_InterfaceError.hxx>
+#include <Interface_EntityIterator.hxx>
+#include <Interface_Graph.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <IGESSelect_SelectDrawingFrom.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESSelect_SelectDrawingFrom)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IFSelect_SelectDeduct),
+  STANDARD_TYPE(IFSelect_Selection),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESSelect_SelectDrawingFrom)
+IMPLEMENT_DOWNCAST(IGESSelect_SelectDrawingFrom,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESSelect_SelectDrawingFrom)
 #include <IGESSelect_ViewSorter.hxx>
 #include <IGESData_IGESModel.hxx>
 #include <Interface_Macros.hxx>

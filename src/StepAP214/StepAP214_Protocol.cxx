@@ -14,7 +14,20 @@
 //:n5 abv 15 Feb 99: S4132: added complex type bounded_curve + surface_curve
 //:j4 gka 11 Mar 99 S4134 :  added new types for DIS
 //    gka 09.04.99: S4136: new name of parameter write.step.schema 
-#include <StepAP214_Protocol.ixx>
+#include <Standard_Type.hxx>
+#include <Interface_Protocol.hxx>
+#include <StepAP214_Protocol.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepAP214_Protocol)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepData_Protocol),
+  STANDARD_TYPE(Interface_Protocol),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepAP214_Protocol)
+IMPLEMENT_DOWNCAST(StepAP214_Protocol,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepAP214_Protocol)
 
 static Standard_CString schemaAP214CD  = "AUTOMOTIVE_DESIGN_CC2 { 1 2 10303 214 -1 1 5 4 }";
 static Standard_CString schemaAP214DIS = "AUTOMOTIVE_DESIGN { 1 2 10303 214 0 1 1 1 }";

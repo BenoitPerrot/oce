@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IGESData_IGESType.ixx>
+#include <IGESData_IGESType.hxx>
 
 
 

@@ -11,7 +11,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <RWStepRepr_RWGlobalUnitAssignedContext.ixx>
+#include <StepData_StepReaderData.hxx>
+#include <Interface_Check.hxx>
+#include <StepRepr_GlobalUnitAssignedContext.hxx>
+#include <StepData_StepWriter.hxx>
+#include <Interface_EntityIterator.hxx>
+#include <RWStepRepr_RWGlobalUnitAssignedContext.hxx>
 #include <StepBasic_HArray1OfNamedUnit.hxx>
 #include <StepBasic_NamedUnit.hxx>
 

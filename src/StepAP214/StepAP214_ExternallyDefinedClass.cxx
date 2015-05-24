@@ -15,7 +15,22 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.1
 
-#include <StepAP214_ExternallyDefinedClass.ixx>
+#include <StepBasic_ExternallyDefinedItem.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepBasic_SourceItem.hxx>
+#include <StepBasic_ExternalSource.hxx>
+#include <StepAP214_ExternallyDefinedClass.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepAP214_ExternallyDefinedClass)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepAP214_Class),
+  STANDARD_TYPE(StepBasic_Group),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepAP214_ExternallyDefinedClass)
+IMPLEMENT_DOWNCAST(StepAP214_ExternallyDefinedClass,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepAP214_ExternallyDefinedClass)
 
 //=======================================================================
 //function : StepAP214_ExternallyDefinedClass

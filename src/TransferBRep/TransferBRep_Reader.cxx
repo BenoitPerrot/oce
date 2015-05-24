@@ -11,7 +11,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TransferBRep_Reader.ixx>
+#include <Interface_Protocol.hxx>
+#include <Transfer_ActorOfTransientProcess.hxx>
+#include <Interface_InterfaceModel.hxx>
+#include <Transfer_TransientProcess.hxx>
+#include <TopTools_HSequenceOfShape.hxx>
+#include <TColStd_HSequenceOfTransient.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Interface_CheckIterator.hxx>
+#include <TopoDS_Shape.hxx>
+#include <Standard_Transient.hxx>
+#include <TransferBRep_Reader.hxx>
 
 #include <Interface_Macros.hxx>
 #include <Interface_CheckTool.hxx>

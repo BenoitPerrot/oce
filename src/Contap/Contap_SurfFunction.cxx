@@ -16,7 +16,14 @@
 
 // jag 940616 #define Tolpetit 1.e-16
 
-#include <Contap_SurfFunction.ixx>
+#include <Adaptor3d_HSurface.hxx>
+#include <StdFail_UndefinedDerivative.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Dir.hxx>
+#include <math_Matrix.hxx>
+#include <gp_Vec.hxx>
+#include <gp_Dir2d.hxx>
+#include <Contap_SurfFunction.hxx>
 
 #include <Contap_SurfProps.hxx>
 #include <Contap_HContTool.hxx>

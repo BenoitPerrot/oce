@@ -17,7 +17,22 @@
 //====================================================================
 #include <Standard_ErrorHandler.hxx>
 #include <Standard_Failure.hxx>
-#include <Interface_FileReaderData.ixx>
+#include <Interface_ParamSet.hxx>
+#include <Standard_NoSuchObject.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <Interface_FileParameter.hxx>
+#include <Interface_ParamList.hxx>
+#include <Standard_Transient.hxx>
+#include <Interface_FileReaderData.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Interface_FileReaderData)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Interface_FileReaderData)
+IMPLEMENT_DOWNCAST(Interface_FileReaderData,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Interface_FileReaderData)
 
 
 //  Stoque les Donnees issues d un Fichier (Conservees sous forme Litterale)

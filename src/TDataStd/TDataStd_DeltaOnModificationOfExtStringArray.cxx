@@ -13,7 +13,21 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TDataStd_DeltaOnModificationOfExtStringArray.ixx>
+#include <TColStd_HArray1OfInteger.hxx>
+#include <TColStd_HArray1OfExtendedString.hxx>
+#include <TDataStd_ExtStringArray.hxx>
+#include <TDataStd_DeltaOnModificationOfExtStringArray.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(TDataStd_DeltaOnModificationOfExtStringArray)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(TDF_DeltaOnModification),
+  STANDARD_TYPE(TDF_AttributeDelta),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(TDataStd_DeltaOnModificationOfExtStringArray)
+IMPLEMENT_DOWNCAST(TDataStd_DeltaOnModificationOfExtStringArray,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(TDataStd_DeltaOnModificationOfExtStringArray)
 #include <TDataStd_ExtStringArray.hxx>
 #include <TDF_DeltaOnModification.hxx>
 #include <TDF_Label.hxx>

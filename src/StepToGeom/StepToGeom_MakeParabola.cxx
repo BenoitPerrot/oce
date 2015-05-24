@@ -14,7 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepToGeom_MakeParabola.ixx>
+#include <StepGeom_Parabola.hxx>
+#include <Geom_Parabola.hxx>
+#include <StepToGeom_MakeParabola.hxx>
 #include <StepGeom_Parabola.hxx>
 #include <StepGeom_Axis2Placement3d.hxx>
 #include <Geom_Axis2Placement.hxx>

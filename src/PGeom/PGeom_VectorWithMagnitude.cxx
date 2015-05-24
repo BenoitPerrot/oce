@@ -14,7 +14,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PGeom_VectorWithMagnitude.ixx>
+#include <gp_Vec.hxx>
+#include <PGeom_VectorWithMagnitude.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(PGeom_VectorWithMagnitude)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(PGeom_Vector),
+  STANDARD_TYPE(PGeom_Geometry),
+  STANDARD_TYPE(Standard_Persistent),
+  STANDARD_TYPE(Standard_Storable),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(PGeom_VectorWithMagnitude)
+IMPLEMENT_DOWNCAST(PGeom_VectorWithMagnitude,Standard_Persistent)
+IMPLEMENT_STANDARD_RTTI(PGeom_VectorWithMagnitude)
 
 //=======================================================================
 //function : PGeom_VectorWithMagnitude

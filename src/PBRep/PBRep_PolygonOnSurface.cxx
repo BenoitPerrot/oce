@@ -12,7 +12,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PBRep_PolygonOnSurface.ixx>
+#include <PGeom_Surface.hxx>
+#include <PPoly_Polygon2D.hxx>
+#include <PTopLoc_Location.hxx>
+#include <PBRep_PolygonOnSurface.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(PBRep_PolygonOnSurface)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(PBRep_CurveRepresentation),
+  STANDARD_TYPE(Standard_Persistent),
+  STANDARD_TYPE(Standard_Storable),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(PBRep_PolygonOnSurface)
+IMPLEMENT_DOWNCAST(PBRep_PolygonOnSurface,Standard_Persistent)
+IMPLEMENT_STANDARD_RTTI(PBRep_PolygonOnSurface)
 
 
 //=======================================================================

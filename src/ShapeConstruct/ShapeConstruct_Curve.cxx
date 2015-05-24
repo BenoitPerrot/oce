@@ -11,7 +11,15 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <ShapeConstruct_Curve.ixx>
+#include <Geom_Curve.hxx>
+#include <gp_Pnt.hxx>
+#include <Geom2d_Curve.hxx>
+#include <gp_Pnt2d.hxx>
+#include <Geom_BSplineCurve.hxx>
+#include <Geom2d_BSplineCurve.hxx>
+#include <TColStd_HArray1OfReal.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <ShapeConstruct_Curve.hxx>
 
 #include <Standard_ErrorHandler.hxx>
 #include <Standard_Failure.hxx>

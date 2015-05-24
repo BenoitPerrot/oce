@@ -30,7 +30,27 @@
 //-Declarations
 
 // for the class
-#include <Graphic3d_StructureManager.ixx>
+#include <Graphic3d_AspectLine3d.hxx>
+#include <Graphic3d_AspectText3d.hxx>
+#include <Graphic3d_AspectMarker3d.hxx>
+#include <Graphic3d_AspectFillArea3d.hxx>
+#include <Graphic3d_GraphicDriver.hxx>
+#include <Graphic3d_InitialisationError.hxx>
+#include <Graphic3d_Structure.hxx>
+#include <Graphic3d_MapOfStructure.hxx>
+#include <TColStd_SequenceOfInteger.hxx>
+#include <Graphic3d_DataStructureManager.hxx>
+#include <TColStd_Array2OfReal.hxx>
+#include <Graphic3d_StructureManager.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Graphic3d_StructureManager)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Graphic3d_StructureManager)
+IMPLEMENT_DOWNCAST(Graphic3d_StructureManager,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Graphic3d_StructureManager)
 #include <Graphic3d_StructureManager.pxx>
 static Standard_Boolean Initialisation = Standard_True;
 static int StructureManager_ArrayId[StructureManager_MAX];

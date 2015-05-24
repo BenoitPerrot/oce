@@ -29,7 +29,11 @@
 
 #include <NLPlate_ListIteratorOfStackOfPlate.hxx>
 
-#include <NLPlate_NLPlate.ixx>
+#include <Geom_Surface.hxx>
+#include <NLPlate_HGPPConstraint.hxx>
+#include <gp_XYZ.hxx>
+#include <gp_XY.hxx>
+#include <NLPlate_NLPlate.hxx>
 
 
 NLPlate_NLPlate::NLPlate_NLPlate(const Handle(Geom_Surface)& InitialSurface) :

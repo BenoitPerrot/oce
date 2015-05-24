@@ -14,7 +14,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopOpeBRepDS_FaceInterferenceTool.ixx>
+#include <TopoDS_Shape.hxx>
+#include <TopOpeBRepDS_Interference.hxx>
+#include <TopOpeBRepDS_Curve.hxx>
+#include <gp_Pnt.hxx>
+#include <TopOpeBRepDS_FaceInterferenceTool.hxx>
 
 #include <Extrema_ExtPS.hxx>
 #include <BRep_Tool.hxx>

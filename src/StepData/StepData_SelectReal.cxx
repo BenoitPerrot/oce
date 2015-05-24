@@ -11,7 +11,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepData_SelectReal.ixx>
+#include <StepData_SelectReal.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepData_SelectReal)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepData_SelectMember),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepData_SelectReal)
+IMPLEMENT_DOWNCAST(StepData_SelectReal,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepData_SelectReal)
 
 //  Definitions : cf Field
 #define KindReal 5

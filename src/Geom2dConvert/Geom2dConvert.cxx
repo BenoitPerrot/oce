@@ -16,7 +16,13 @@
 //Passage sur C1 Aout 1992 et ajout transformation Bezier->BSpline
 
 
-#include <Geom2dConvert.ixx>
+#include <Geom2d_BSplineCurve.hxx>
+#include <Geom2d_Curve.hxx>
+#include <TColGeom2d_Array1OfBSplineCurve.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <TColGeom2d_HArray1OfBSplineCurve.hxx>
+#include <TColStd_HArray1OfInteger.hxx>
+#include <Geom2dConvert.hxx>
 
 #include <Convert_ConicToBSplineCurve.hxx>
 #include <Convert_CircleToBSplineCurve.hxx>

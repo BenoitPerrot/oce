@@ -14,7 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepAlgo_Section.ixx>
+#include <TopoDS_Shape.hxx>
+#include <gp_Pln.hxx>
+#include <Geom_Surface.hxx>
+#include <BRepAlgo_Section.hxx>
 #include <BRepBuilderAPI_MakeShell.hxx>
 #include <BRepBuilderAPI_MakeFace.hxx>
 #include <TopoDS.hxx>

@@ -42,7 +42,21 @@
  * Includes
  */
 
-#include <V3d_RectangularGrid.ixx>
+#include <Graphic3d_Structure.hxx>
+#include <Graphic3d_Group.hxx>
+#include <Quantity_Color.hxx>
+#include <V3d_RectangularGrid.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(V3d_RectangularGrid)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Aspect_RectangularGrid),
+  STANDARD_TYPE(Aspect_Grid),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(V3d_RectangularGrid)
+IMPLEMENT_DOWNCAST(V3d_RectangularGrid,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(V3d_RectangularGrid)
 
 #include <TColStd_Array2OfReal.hxx>
 #include <Graphic3d_AspectLine3d.hxx>

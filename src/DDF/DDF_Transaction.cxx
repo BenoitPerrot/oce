@@ -21,7 +21,20 @@
 
 
 
-#include <DDF_Transaction.ixx>
+#include <Standard_DomainError.hxx>
+#include <Standard_NullObject.hxx>
+#include <TDF_Data.hxx>
+#include <TDF_Delta.hxx>
+#include <DDF_Transaction.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(DDF_Transaction)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(DDF_Transaction)
+IMPLEMENT_DOWNCAST(DDF_Transaction,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(DDF_Transaction)
 
 
 //=======================================================================

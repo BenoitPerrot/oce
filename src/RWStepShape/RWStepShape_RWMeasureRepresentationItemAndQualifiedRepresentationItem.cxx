@@ -11,7 +11,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <RWStepShape_RWMeasureRepresentationItemAndQualifiedRepresentationItem.ixx>
+#include <StepData_StepReaderData.hxx>
+#include <Interface_Check.hxx>
+#include <StepShape_MeasureRepresentationItemAndQualifiedRepresentationItem.hxx>
+#include <StepData_StepWriter.hxx>
+#include <Interface_EntityIterator.hxx>
+#include <RWStepShape_RWMeasureRepresentationItemAndQualifiedRepresentationItem.hxx>
 #include <StepBasic_MeasureValueMember.hxx>
 #include <StepBasic_Unit.hxx>
 #include <StepBasic_MeasureWithUnit.hxx>

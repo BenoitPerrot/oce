@@ -13,7 +13,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <ShapeProcess.ixx>
+#include <ShapeProcess_Operator.hxx>
+#include <ShapeProcess_Context.hxx>
+#include <ShapeProcess.hxx>
 
 #include <Standard_ErrorHandler.hxx>
 #include <Standard_Failure.hxx>

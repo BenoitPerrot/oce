@@ -14,7 +14,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomToStep_MakeCartesianPoint.ixx>
+#include <StepGeom_CartesianPoint.hxx>
+#include <StdFail_NotDone.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Pnt2d.hxx>
+#include <Geom_CartesianPoint.hxx>
+#include <Geom2d_CartesianPoint.hxx>
+#include <GeomToStep_MakeCartesianPoint.hxx>
 #include <StdFail_NotDone.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Pnt2d.hxx>

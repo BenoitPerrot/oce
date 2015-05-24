@@ -14,7 +14,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepLib_FindSurface.ixx>
+#include <Geom_Surface.hxx>
+#include <Standard_NoSuchObject.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopLoc_Location.hxx>
+#include <BRepLib_FindSurface.hxx>
 
 #include <Precision.hxx>
 #include <math_Matrix.hxx>

@@ -11,7 +11,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <RWStepShape_RWLoop.ixx>
+#include <StepData_StepReaderData.hxx>
+#include <Interface_Check.hxx>
+#include <StepShape_Loop.hxx>
+#include <StepData_StepWriter.hxx>
+#include <RWStepShape_RWLoop.hxx>
 
 
 RWStepShape_RWLoop::RWStepShape_RWLoop () {}

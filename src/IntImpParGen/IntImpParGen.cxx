@@ -14,7 +14,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IntImpParGen.ixx>
+#include <gp_Vec2d.hxx>
+#include <IntRes2d_Transition.hxx>
+#include <IntRes2d_Domain.hxx>
+#include <gp_Pnt2d.hxx>
+#include <IntImpParGen.hxx>
 #include <IntRes2d_Domain.hxx>
 #include <IntRes2d_Position.hxx>
 #include <IntRes2d_Transition.hxx>

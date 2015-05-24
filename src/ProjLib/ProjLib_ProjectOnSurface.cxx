@@ -14,7 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <ProjLib_ProjectOnSurface.ixx>
+#include <Adaptor3d_HCurve.hxx>
+#include <Adaptor3d_HSurface.hxx>
+#include <Geom_BSplineCurve.hxx>
+#include <ProjLib_ProjectOnSurface.hxx>
 
 #include <AppCont_Function.hxx>
 #include <Approx_FitAndDivide.hxx>

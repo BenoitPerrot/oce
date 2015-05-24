@@ -14,7 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <HLRBRep_FaceData.ixx>
+#include <HLRAlgo_WiresBlock.hxx>
+#include <TopoDS_Face.hxx>
+#include <HLRBRep_Surface.hxx>
+#include <HLRBRep_FaceData.hxx>
 #include <HLRAlgo_EdgesBlock.hxx>
 #include <BRep_Tool.hxx>
 

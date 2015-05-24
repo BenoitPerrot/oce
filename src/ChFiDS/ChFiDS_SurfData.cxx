@@ -14,7 +14,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <ChFiDS_SurfData.ixx>
+#include <MMgt_TShared.hxx>
+#include <ChFiDS_FaceInterference.hxx>
+#include <ChFiDS_CommonPoint.hxx>
+#include <gp_Pnt2d.hxx>
+#include <ChFiDS_SurfData.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(ChFiDS_SurfData)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(ChFiDS_SurfData)
+IMPLEMENT_DOWNCAST(ChFiDS_SurfData,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(ChFiDS_SurfData)
 
 ChFiDS_SurfData::ChFiDS_SurfData () : 
 indexOfS1(0),indexOfS2(0),indexOfConge(0),

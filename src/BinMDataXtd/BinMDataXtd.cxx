@@ -15,7 +15,9 @@
 
 // modified   13.04.2009 Sergey Zaritchny
 
-#include <BinMDataXtd.ixx>
+#include <BinMDF_ADriverTable.hxx>
+#include <CDM_MessageDriver.hxx>
+#include <BinMDataXtd.hxx>
 #include <BinMDataXtd_ConstraintDriver.hxx>
 #include <BinMDataXtd_GeometryDriver.hxx>
 #include <BinMDataXtd_PatternStdDriver.hxx>

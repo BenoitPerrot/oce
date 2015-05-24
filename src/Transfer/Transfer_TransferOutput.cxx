@@ -12,7 +12,16 @@
 // commercial license or contractual agreement.
 
 //szv#4 S4163
-#include <Transfer_TransferOutput.ixx>
+#include <Transfer_TransientProcess.hxx>
+#include <Interface_InterfaceModel.hxx>
+#include <Standard_NoSuchObject.hxx>
+#include <Transfer_TransferFailure.hxx>
+#include <Transfer_ActorOfTransientProcess.hxx>
+#include <Standard_Transient.hxx>
+#include <Interface_Protocol.hxx>
+#include <Interface_Graph.hxx>
+#include <Interface_EntityIterator.hxx>
+#include <Transfer_TransferOutput.hxx>
 #include <Transfer_Binder.hxx>
 #include <Interface_ShareFlags.hxx>
 #include <Interface_EntityIterator.hxx>

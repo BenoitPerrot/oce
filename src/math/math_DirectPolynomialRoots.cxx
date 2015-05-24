@@ -18,7 +18,9 @@
 #define No_Standard_DimensionError
 //#endif
 
-#include <math_DirectPolynomialRoots.ixx>
+#include <Standard_RangeError.hxx>
+#include <StdFail_InfiniteSolutions.hxx>
+#include <math_DirectPolynomialRoots.hxx>
 
 #include <Standard_RangeError.hxx>
 #include <StdFail_InfiniteSolutions.hxx> 

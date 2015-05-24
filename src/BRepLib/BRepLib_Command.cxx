@@ -14,7 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepLib_Command.ixx>
+#include <StdFail_NotDone.hxx>
+#include <BRepLib_Command.hxx>
 
 //=======================================================================
 //function : BRepLib_Command

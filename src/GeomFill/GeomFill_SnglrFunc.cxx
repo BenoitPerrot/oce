@@ -14,7 +14,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomFill_SnglrFunc.ixx>
+#include <Adaptor3d_HCurve.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Standard_DomainError.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Vec.hxx>
+#include <GeomFill_SnglrFunc.hxx>
 #include <Standard_NotImplemented.hxx>
 #include <Precision.hxx>
 

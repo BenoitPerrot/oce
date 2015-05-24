@@ -11,7 +11,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepBasic_PersonAndOrganization.ixx>
+#include <StepBasic_Person.hxx>
+#include <StepBasic_Organization.hxx>
+#include <StepBasic_PersonAndOrganization.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepBasic_PersonAndOrganization)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepBasic_PersonAndOrganization)
+IMPLEMENT_DOWNCAST(StepBasic_PersonAndOrganization,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepBasic_PersonAndOrganization)
 
 
 StepBasic_PersonAndOrganization::StepBasic_PersonAndOrganization ()  {}

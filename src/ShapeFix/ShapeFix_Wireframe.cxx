@@ -14,7 +14,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <ShapeFix_Wireframe.ixx>
+#include <TopoDS_Shape.hxx>
+#include <TopTools_MapOfShape.hxx>
+#include <TopTools_DataMapOfShapeListOfShape.hxx>
+#include <ShapeFix_Wireframe.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(ShapeFix_Wireframe)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(ShapeFix_Root),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(ShapeFix_Wireframe)
+IMPLEMENT_DOWNCAST(ShapeFix_Wireframe,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(ShapeFix_Wireframe)
 
 #include <Standard_Failure.hxx>
 #include <Standard_ErrorHandler.hxx>

@@ -14,7 +14,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepMAT2d_LinkTopoBilo.ixx>
+#include <Standard_ConstructionError.hxx>
+#include <BRepMAT2d_Explorer.hxx>
+#include <BRepMAT2d_BisectingLocus.hxx>
+#include <TopoDS_Shape.hxx>
+#include <MAT_BasicElt.hxx>
+#include <TopoDS_Wire.hxx>
+#include <BRepMAT2d_LinkTopoBilo.hxx>
 #include <TopAbs.hxx>
 #include <TopExp_Explorer.hxx>
 #include <TopExp.hxx>

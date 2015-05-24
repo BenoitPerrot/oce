@@ -13,7 +13,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Voxel_Reader.ixx>
+#include <TCollection_ExtendedString.hxx>
+#include <Voxel_Reader.hxx>
 #include <Voxel_BoolDS.hxx>
 #include <Voxel_ColorDS.hxx>
 #include <Voxel_FloatDS.hxx>

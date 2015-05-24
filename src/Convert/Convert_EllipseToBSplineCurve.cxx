@@ -15,7 +15,9 @@
 //JCV 16/10/91
 
 
-#include <Convert_EllipseToBSplineCurve.ixx>
+#include <Standard_DomainError.hxx>
+#include <gp_Elips2d.hxx>
+#include <Convert_EllipseToBSplineCurve.hxx>
 
 #include <TColgp_HArray1OfPnt2d.hxx>
 #include <TColStd_HArray1OfReal.hxx>

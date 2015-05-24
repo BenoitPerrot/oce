@@ -18,7 +18,11 @@
 #define No_Standard_DimensionError
 //#endif
 
-#include <math_NewtonFunctionSetRoot.ixx>
+#include <StdFail_NotDone.hxx>
+#include <Standard_DimensionError.hxx>
+#include <math_FunctionSetWithDerivatives.hxx>
+#include <math_Matrix.hxx>
+#include <math_NewtonFunctionSetRoot.hxx>
 #include <math_Recipes.hxx>
 #include <math_FunctionSetWithDerivatives.hxx>
 

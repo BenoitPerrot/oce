@@ -14,4 +14,4 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopoDS_Solid.ixx>
+#include <TopoDS_Solid.hxx>

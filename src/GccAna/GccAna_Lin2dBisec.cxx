@@ -16,7 +16,11 @@
 //   CREATION of the BISSECTICE between two STRAIGHT LINES.                        +
 //=========================================================================
 
-#include <GccAna_Lin2dBisec.ixx>
+#include <Standard_OutOfRange.hxx>
+#include <StdFail_NotDone.hxx>
+#include <gp_Lin2d.hxx>
+#include <gp_Pnt2d.hxx>
+#include <GccAna_Lin2dBisec.hxx>
 
 #include <ElCLib.hxx>
 #include <gp_XY.hxx>

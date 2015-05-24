@@ -14,7 +14,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <AIS_TypeFilter.ixx>
+#include <SelectMgr_EntityOwner.hxx>
+#include <AIS_TypeFilter.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(AIS_TypeFilter)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(SelectMgr_Filter),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(AIS_TypeFilter)
+IMPLEMENT_DOWNCAST(AIS_TypeFilter,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(AIS_TypeFilter)
 #include <AIS_InteractiveObject.hxx>
 
 AIS_TypeFilter::AIS_TypeFilter(const AIS_KindOfInteractive TheKind):

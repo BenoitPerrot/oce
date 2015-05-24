@@ -16,7 +16,20 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.0
 
-#include <StepAP203_CcDesignSpecificationReference.ixx>
+#include <StepAP203_HArray1OfSpecifiedItem.hxx>
+#include <StepBasic_Document.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepAP203_CcDesignSpecificationReference.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepAP203_CcDesignSpecificationReference)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepBasic_DocumentReference),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepAP203_CcDesignSpecificationReference)
+IMPLEMENT_DOWNCAST(StepAP203_CcDesignSpecificationReference,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepAP203_CcDesignSpecificationReference)
 
 //=======================================================================
 //function : StepAP203_CcDesignSpecificationReference

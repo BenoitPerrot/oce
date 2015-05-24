@@ -14,7 +14,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepAlgo_EdgeConnector.ixx>
+#include <TopoDS_Edge.hxx>
+#include <TopTools_ListOfShape.hxx>
+#include <TopoDS_Shape.hxx>
+#include <BRepAlgo_EdgeConnector.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(BRepAlgo_EdgeConnector)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(BRepAlgo_EdgeConnector)
+IMPLEMENT_DOWNCAST(BRepAlgo_EdgeConnector,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(BRepAlgo_EdgeConnector)
 
 #include <TopoDS_Shape.hxx>
 #include <TopTools_ListOfShape.hxx>

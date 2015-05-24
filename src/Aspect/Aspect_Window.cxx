@@ -30,7 +30,21 @@
 //-Declarations
 
 // for the class
-#include <Aspect_Window.ixx>
+#include <Aspect_WindowDefinitionError.hxx>
+#include <Aspect_WindowError.hxx>
+#include <Aspect_Background.hxx>
+#include <Quantity_Color.hxx>
+#include <Aspect_GradientBackground.hxx>
+#include <Aspect_Window.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Aspect_Window)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Aspect_Window)
+IMPLEMENT_DOWNCAST(Aspect_Window,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Aspect_Window)
 
 //-Aliases
 

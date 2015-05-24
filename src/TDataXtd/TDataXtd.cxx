@@ -13,8 +13,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TDataXtd.ixx>
-#include <TDataXtd.ixx>
+#include <TDF_IDList.hxx>
+#include <TDataXtd.hxx>
+#include <TDF_IDList.hxx>
+#include <TDataXtd.hxx>
 #include <TDataXtd_Axis.hxx>
 #include <TDataXtd_Constraint.hxx>
 #include <TDataXtd_Geometry.hxx>

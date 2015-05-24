@@ -11,7 +11,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepVisual_PreDefinedTextFont.ixx>
+#include <StepVisual_PreDefinedTextFont.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepVisual_PreDefinedTextFont)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepVisual_PreDefinedItem),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepVisual_PreDefinedTextFont)
+IMPLEMENT_DOWNCAST(StepVisual_PreDefinedTextFont,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepVisual_PreDefinedTextFont)
 
 
 StepVisual_PreDefinedTextFont::StepVisual_PreDefinedTextFont ()  {}

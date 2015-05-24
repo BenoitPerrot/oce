@@ -11,7 +11,24 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <RWHeaderSection_ReadWriteModule.ixx>
+#include <TCollection_AsciiString.hxx>
+#include <TColStd_SequenceOfAsciiString.hxx>
+#include <StepData_StepReaderData.hxx>
+#include <Interface_Check.hxx>
+#include <Standard_Transient.hxx>
+#include <StepData_StepWriter.hxx>
+#include <RWHeaderSection_ReadWriteModule.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(RWHeaderSection_ReadWriteModule)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepData_ReadWriteModule),
+  STANDARD_TYPE(Interface_ReaderModule),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(RWHeaderSection_ReadWriteModule)
+IMPLEMENT_DOWNCAST(RWHeaderSection_ReadWriteModule,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(RWHeaderSection_ReadWriteModule)
 #include <Interface_ReaderLib.hxx>
 #include <StepData_WriterLib.hxx>
 #include <HeaderSection_Protocol.hxx>

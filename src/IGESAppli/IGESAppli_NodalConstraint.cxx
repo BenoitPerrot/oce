@@ -16,7 +16,21 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESAppli_NodalConstraint.ixx>
+#include <IGESAppli_Node.hxx>
+#include <IGESDefs_HArray1OfTabularData.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <IGESDefs_TabularData.hxx>
+#include <IGESAppli_NodalConstraint.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESAppli_NodalConstraint)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IGESData_IGESEntity),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESAppli_NodalConstraint)
+IMPLEMENT_DOWNCAST(IGESAppli_NodalConstraint,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESAppli_NodalConstraint)
 #include <Standard_DimensionMismatch.hxx>
 
 

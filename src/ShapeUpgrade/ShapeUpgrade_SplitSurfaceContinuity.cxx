@@ -14,7 +14,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <ShapeUpgrade_SplitSurfaceContinuity.ixx>
+#include <ShapeUpgrade_SplitSurfaceContinuity.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(ShapeUpgrade_SplitSurfaceContinuity)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(ShapeUpgrade_SplitSurface),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(ShapeUpgrade_SplitSurfaceContinuity)
+IMPLEMENT_DOWNCAST(ShapeUpgrade_SplitSurfaceContinuity,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_SplitSurfaceContinuity)
 #include <Geom_BSplineSurface.hxx>
 #include <Precision.hxx>
 #include <ShapeUpgrade.hxx>

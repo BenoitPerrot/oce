@@ -14,7 +14,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomToStep_MakeConic.ixx>
+#include <StepGeom_Conic.hxx>
+#include <StdFail_NotDone.hxx>
+#include <Geom_Conic.hxx>
+#include <Geom2d_Conic.hxx>
+#include <GeomToStep_MakeConic.hxx>
 #include <StdFail_NotDone.hxx>
 #include <StepGeom_Conic.hxx>
 #include <GeomToStep_MakeConic.hxx>

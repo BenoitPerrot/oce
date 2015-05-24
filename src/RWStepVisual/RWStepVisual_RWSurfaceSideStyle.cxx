@@ -11,7 +11,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <RWStepVisual_RWSurfaceSideStyle.ixx>
+#include <StepData_StepReaderData.hxx>
+#include <Interface_Check.hxx>
+#include <StepVisual_SurfaceSideStyle.hxx>
+#include <StepData_StepWriter.hxx>
+#include <Interface_EntityIterator.hxx>
+#include <RWStepVisual_RWSurfaceSideStyle.hxx>
 #include <StepVisual_HArray1OfSurfaceStyleElementSelect.hxx>
 #include <StepVisual_SurfaceStyleElementSelect.hxx>
 

@@ -14,7 +14,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopOpeBRepDS_Marker.ixx>
+#include <TColStd_HArray1OfBoolean.hxx>
+#include <TopOpeBRepDS_Marker.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(TopOpeBRepDS_Marker)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(TopOpeBRepDS_Marker)
+IMPLEMENT_DOWNCAST(TopOpeBRepDS_Marker,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(TopOpeBRepDS_Marker)
 #include <TopOpeBRepDS_define.hxx>
 //#include <TopExp.hxx>
 //#include <TopTools_IndexedMapOfShape.hxx>

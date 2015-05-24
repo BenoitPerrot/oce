@@ -14,7 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <CSLib.ixx>
+#include <gp_Vec.hxx>
+#include <gp_Dir.hxx>
+#include <TColgp_Array2OfVec.hxx>
+#include <CSLib.hxx>
 
 #include <gp.hxx>
 #include <gp_Vec.hxx>

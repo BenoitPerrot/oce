@@ -14,7 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <ChFi3d.ixx>
+#include <BRepAdaptor_Surface.hxx>
+#include <TopoDS_Edge.hxx>
+#include <ChFi3d.hxx>
 #include <ChFi3d_Builder_0.hxx>
 #include <BRepAdaptor_Surface.hxx>
 #include <BRepAdaptor_Curve2d.hxx>

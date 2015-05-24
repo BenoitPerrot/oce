@@ -16,7 +16,22 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESDimen_SectionedArea.ixx>
+#include <IGESData_IGESEntity.hxx>
+#include <IGESData_HArray1OfIGESEntity.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <gp_XYZ.hxx>
+#include <gp_Pnt.hxx>
+#include <IGESDimen_SectionedArea.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESDimen_SectionedArea)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IGESData_IGESEntity),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESDimen_SectionedArea)
+IMPLEMENT_DOWNCAST(IGESDimen_SectionedArea,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESDimen_SectionedArea)
 #include <Standard_DimensionMismatch.hxx>
 #include <gp_GTrsf.hxx>
 

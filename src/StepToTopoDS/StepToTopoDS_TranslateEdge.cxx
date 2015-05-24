@@ -17,7 +17,20 @@
 //:o0 abv 16.02.99: POLYLINE allowed as 3d curve of edge
 //gka,abv 05.04.99: S4136: improving tolerance management, eliminate BRepAPI::Precision()
 
-#include <StepToTopoDS_TranslateEdge.ixx>
+#include <StdFail_NotDone.hxx>
+#include <StepShape_Edge.hxx>
+#include <StepToTopoDS_Tool.hxx>
+#include <StepToTopoDS_NMTool.hxx>
+#include <StepGeom_Curve.hxx>
+#include <StepShape_EdgeCurve.hxx>
+#include <StepShape_Vertex.hxx>
+#include <TopoDS_Edge.hxx>
+#include <TopoDS_Vertex.hxx>
+#include <Geom2d_Curve.hxx>
+#include <StepGeom_Pcurve.hxx>
+#include <Geom_Surface.hxx>
+#include <TopoDS_Shape.hxx>
+#include <StepToTopoDS_TranslateEdge.hxx>
 
 #include <StepToTopoDS.hxx>
 #include <StepToTopoDS_TranslateVertex.hxx>

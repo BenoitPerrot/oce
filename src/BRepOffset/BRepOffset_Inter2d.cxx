@@ -18,7 +18,12 @@
 
 #include <stdio.h>
 
-#include <BRepOffset_Inter2d.ixx>
+#include <BRepAlgo_AsDes.hxx>
+#include <TopoDS_Face.hxx>
+#include <TopTools_IndexedMapOfShape.hxx>
+#include <BRepOffset_Offset.hxx>
+#include <TopTools_DataMapOfShapeShape.hxx>
+#include <BRepOffset_Inter2d.hxx>
 #include <BRepAlgo_AsDes.hxx>
 #include <BRepOffset_Offset.hxx>
 #include <BRepOffset_Tool.hxx>

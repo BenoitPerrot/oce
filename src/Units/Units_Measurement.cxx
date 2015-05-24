@@ -14,10 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Units_Measurement.ixx>
+#include <Units_Token.hxx>
+#include <Units_Measurement.hxx>
 #include <Units_UnitSentence.hxx>
 #include <Units_TokensSequence.hxx>
-#include <Units_Token.hxx>
 #include <Units_Dimensions.hxx>
 #include <Units.hxx>
 #include <Units_Operators.hxx>

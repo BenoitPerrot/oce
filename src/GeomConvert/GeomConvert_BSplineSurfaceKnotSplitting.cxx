@@ -16,7 +16,12 @@
 //Passage sur C1 Aout 1992
 
 
-#include <GeomConvert_BSplineSurfaceKnotSplitting.ixx>
+#include <TColStd_HArray1OfInteger.hxx>
+#include <Standard_DimensionError.hxx>
+#include <Standard_RangeError.hxx>
+#include <Geom_BSplineSurface.hxx>
+#include <TColStd_Array1OfInteger.hxx>
+#include <GeomConvert_BSplineSurfaceKnotSplitting.hxx>
 
 #include <Standard_RangeError.hxx>
 

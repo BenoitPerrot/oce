@@ -11,7 +11,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <RWStepVisual_RWColourSpecification.ixx>
+#include <StepData_StepReaderData.hxx>
+#include <Interface_Check.hxx>
+#include <StepVisual_ColourSpecification.hxx>
+#include <StepData_StepWriter.hxx>
+#include <RWStepVisual_RWColourSpecification.hxx>
 
 
 RWStepVisual_RWColourSpecification::RWStepVisual_RWColourSpecification () {}

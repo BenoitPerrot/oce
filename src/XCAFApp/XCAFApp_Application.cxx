@@ -13,7 +13,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <XCAFApp_Application.ixx>
+#include <TColStd_SequenceOfExtendedString.hxx>
+#include <TDocStd_Document.hxx>
+#include <XCAFApp_Application.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(XCAFApp_Application)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(TDocStd_Application),
+  STANDARD_TYPE(CDF_Application),
+  STANDARD_TYPE(CDM_Application),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(XCAFApp_Application)
+IMPLEMENT_DOWNCAST(XCAFApp_Application,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(XCAFApp_Application)
 #include <TPrsStd_DriverTable.hxx>
 #include <XCAFPrs_Driver.hxx>
 #include <XCAFDoc_DocumentTool.hxx>

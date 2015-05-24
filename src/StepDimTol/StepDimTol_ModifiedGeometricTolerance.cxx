@@ -15,7 +15,20 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
-#include <StepDimTol_ModifiedGeometricTolerance.ixx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepBasic_MeasureWithUnit.hxx>
+#include <StepRepr_ShapeAspect.hxx>
+#include <StepDimTol_ModifiedGeometricTolerance.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepDimTol_ModifiedGeometricTolerance)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepDimTol_GeometricTolerance),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepDimTol_ModifiedGeometricTolerance)
+IMPLEMENT_DOWNCAST(StepDimTol_ModifiedGeometricTolerance,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepDimTol_ModifiedGeometricTolerance)
 
 //=======================================================================
 //function : StepDimTol_ModifiedGeometricTolerance

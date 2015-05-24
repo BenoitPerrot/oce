@@ -14,7 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomLProp_CurveTool.ixx>
+#include <Geom_Curve.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Vec.hxx>
+#include <GeomLProp_CurveTool.hxx>
 #include <Geom_Curve.hxx>
 #include <GeomAbs_Shape.hxx>
 

@@ -14,7 +14,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TNaming_TranslateTool.ixx>
+#include <Standard_TypeMismatch.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TColStd_IndexedDataMapOfTransientTransient.hxx>
+#include <TNaming_TranslateTool.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(TNaming_TranslateTool)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(TNaming_TranslateTool)
+IMPLEMENT_DOWNCAST(TNaming_TranslateTool,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(TNaming_TranslateTool)
 #include <BRep_Builder.hxx>
 #include <TopoDS.hxx>
 #include <BRep_TVertex.hxx>

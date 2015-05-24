@@ -17,7 +17,23 @@
 #define BUC60876	//GG_050401 Enable to highlight something
 //			with a specific hilight mode
 
-#include <StdSelect_BRepOwner.ixx>
+#include <StdSelect_Shape.hxx>
+#include <TopoDS_Shape.hxx>
+#include <SelectMgr_SelectableObject.hxx>
+#include <PrsMgr_PresentationManager.hxx>
+#include <TopLoc_Location.hxx>
+#include <StdSelect_BRepOwner.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StdSelect_BRepOwner)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(SelectMgr_EntityOwner),
+  STANDARD_TYPE(SelectBasics_EntityOwner),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StdSelect_BRepOwner)
+IMPLEMENT_DOWNCAST(StdSelect_BRepOwner,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StdSelect_BRepOwner)
 #include <SelectBasics_EntityOwner.hxx>
 
 #include <StdPrs_WFShape.hxx>

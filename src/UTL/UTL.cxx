@@ -14,7 +14,15 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <UTL.ixx>
+#include <TCollection_ExtendedString.hxx>
+#include <Storage_BaseDriver.hxx>
+#include <Storage_Data.hxx>
+#include <OSD_Path.hxx>
+#include <OSD_FileIterator.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <Standard_GUID.hxx>
+#include <Resource_Manager.hxx>
+#include <UTL.hxx>
 #include <OSD_Host.hxx>
 #include <OSD_Path.hxx>
 #include <TCollection_ExtendedString.hxx>

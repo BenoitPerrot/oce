@@ -14,7 +14,26 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Approx_SweepApproximation.ixx>
+#include <Approx_SweepFunction.hxx>
+#include <TColgp_HArray2OfPnt.hxx>
+#include <TColStd_HArray2OfReal.hxx>
+#include <TColStd_HArray1OfReal.hxx>
+#include <TColStd_HArray1OfInteger.hxx>
+#include <Approx_HArray1OfGTrsf2d.hxx>
+#include <TColgp_HArray1OfPnt.hxx>
+#include <TColgp_HArray1OfPnt2d.hxx>
+#include <TColgp_HArray1OfVec.hxx>
+#include <TColgp_HArray1OfVec2d.hxx>
+#include <StdFail_NotDone.hxx>
+#include <Standard_DomainError.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <AdvApprox_Cutting.hxx>
+#include <TColgp_Array2OfPnt.hxx>
+#include <TColStd_Array2OfReal.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <TColStd_Array1OfInteger.hxx>
+#include <TColgp_Array1OfPnt2d.hxx>
+#include <Approx_SweepApproximation.hxx>
 #include <gp_XYZ.hxx>
 #include <BSplCLib.hxx>
 

@@ -11,7 +11,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IGESData_IGESDumper.ixx>
+#include <IGESData_IGESModel.hxx>
+#include <Interface_InterfaceError.hxx>
+#include <IGESData_Protocol.hxx>
+#include <IGESData_IGESEntity.hxx>
+#include <Message_Messenger.hxx>
+#include <IGESData_IGESDumper.hxx>
 #include <Interface_InterfaceError.hxx>
 #include <Interface_Macros.hxx>
 #include <Interface_MSG.hxx>

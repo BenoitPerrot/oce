@@ -13,7 +13,21 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BinXCAFDrivers_DocumentStorageDriver.ixx>
+#include <BinMDF_ADriverTable.hxx>
+#include <CDM_MessageDriver.hxx>
+#include <BinXCAFDrivers_DocumentStorageDriver.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(BinXCAFDrivers_DocumentStorageDriver)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(BinDrivers_DocumentStorageDriver),
+  STANDARD_TYPE(BinLDrivers_DocumentStorageDriver),
+  STANDARD_TYPE(PCDM_StorageDriver),
+  STANDARD_TYPE(PCDM_Writer),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(BinXCAFDrivers_DocumentStorageDriver)
+IMPLEMENT_DOWNCAST(BinXCAFDrivers_DocumentStorageDriver,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(BinXCAFDrivers_DocumentStorageDriver)
 #include <BinXCAFDrivers.hxx>
 
 //=======================================================================

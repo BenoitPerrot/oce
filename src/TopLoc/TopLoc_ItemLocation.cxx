@@ -14,7 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopLoc_ItemLocation.ixx>
+#include <TopLoc_Datum3D.hxx>
+#include <TopLoc_Location.hxx>
+#include <TopLoc_ItemLocation.hxx>
 
 //=======================================================================
 //function : TopLoc_ItemLocation

@@ -14,7 +14,22 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TDocStd_Modified.ixx>
+#include <TDF_Label.hxx>
+#include <TDF_LabelMap.hxx>
+#include <Standard_GUID.hxx>
+#include <TDF_Attribute.hxx>
+#include <TDF_RelocationTable.hxx>
+#include <TDocStd_Modified.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(TDocStd_Modified)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(TDF_Attribute),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(TDocStd_Modified)
+IMPLEMENT_DOWNCAST(TDocStd_Modified,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(TDocStd_Modified)
 #include <Standard_DomainError.hxx>
 #include <TDF_Data.hxx>
 

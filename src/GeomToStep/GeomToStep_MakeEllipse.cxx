@@ -14,7 +14,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomToStep_MakeEllipse.ixx>
+#include <StepGeom_Ellipse.hxx>
+#include <StdFail_NotDone.hxx>
+#include <gp_Elips.hxx>
+#include <Geom_Ellipse.hxx>
+#include <Geom2d_Ellipse.hxx>
+#include <GeomToStep_MakeEllipse.hxx>
 #include <GeomToStep_MakeAxis2Placement3d.hxx>
 #include <GeomToStep_MakeAxis2Placement2d.hxx>
 #include <StdFail_NotDone.hxx>

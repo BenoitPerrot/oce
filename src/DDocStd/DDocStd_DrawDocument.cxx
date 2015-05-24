@@ -11,7 +11,21 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <DDocStd_DrawDocument.ixx>
+#include <TDocStd_Document.hxx>
+#include <Draw_Display.hxx>
+#include <Draw_Drawable3D.hxx>
+#include <DDocStd_DrawDocument.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(DDocStd_DrawDocument)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(DDF_Data),
+  STANDARD_TYPE(Draw_Drawable3D),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(DDocStd_DrawDocument)
+IMPLEMENT_DOWNCAST(DDocStd_DrawDocument,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(DDocStd_DrawDocument)
 
 #include <TDocStd_Document.hxx>
 #include <TDF_Tool.hxx>

@@ -14,7 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <DDataStd.ixx>
+#include <TDataXtd_Constraint.hxx>
+#include <DDataStd.hxx>
 #include <DDF.hxx>
 
 #include <Draw.hxx>

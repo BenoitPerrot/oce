@@ -15,7 +15,18 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
-#include <StepElement_SurfaceSectionFieldVarying.ixx>
+#include <StepElement_HArray1OfSurfaceSection.hxx>
+#include <StepElement_SurfaceSectionFieldVarying.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepElement_SurfaceSectionFieldVarying)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepElement_SurfaceSectionField),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepElement_SurfaceSectionFieldVarying)
+IMPLEMENT_DOWNCAST(StepElement_SurfaceSectionFieldVarying,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepElement_SurfaceSectionFieldVarying)
 
 //=======================================================================
 //function : StepElement_SurfaceSectionFieldVarying

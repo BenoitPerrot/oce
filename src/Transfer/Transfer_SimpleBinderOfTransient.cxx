@@ -11,7 +11,21 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Transfer_SimpleBinderOfTransient.ixx>
+#include <Standard_Transient.hxx>
+#include <Transfer_TransferFailure.hxx>
+#include <Standard_Type.hxx>
+#include <Transfer_Binder.hxx>
+#include <Transfer_SimpleBinderOfTransient.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Transfer_SimpleBinderOfTransient)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Transfer_Binder),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Transfer_SimpleBinderOfTransient)
+IMPLEMENT_DOWNCAST(Transfer_SimpleBinderOfTransient,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Transfer_SimpleBinderOfTransient)
 
 //  "Handle(Standard_Transient)" : la classe de base pour le Resultat
 

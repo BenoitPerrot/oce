@@ -11,7 +11,23 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IFSelect_WorkLibrary.ixx>
+#include <Interface_HArray1OfHAsciiString.hxx>
+#include <Interface_InterfaceModel.hxx>
+#include <Interface_Protocol.hxx>
+#include <IFSelect_ContextWrite.hxx>
+#include <Interface_EntityIterator.hxx>
+#include <Interface_CopyTool.hxx>
+#include <Standard_Transient.hxx>
+#include <Message_Messenger.hxx>
+#include <IFSelect_WorkLibrary.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IFSelect_WorkLibrary)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IFSelect_WorkLibrary)
+IMPLEMENT_DOWNCAST(IFSelect_WorkLibrary,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IFSelect_WorkLibrary)
 #include <TCollection_HAsciiString.hxx>
 
 #include <Message_Messenger.hxx>

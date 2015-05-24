@@ -17,7 +17,18 @@
 
 
 #include <V3d.hxx>
-#include <V3d_AmbientLight.ixx>
+#include <V3d_Viewer.hxx>
+#include <V3d_AmbientLight.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(V3d_AmbientLight)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(V3d_Light),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(V3d_AmbientLight)
+IMPLEMENT_DOWNCAST(V3d_AmbientLight,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(V3d_AmbientLight)
 #include <Visual3d_Light.hxx>
 
 V3d_AmbientLight::V3d_AmbientLight(const Handle(V3d_Viewer)& VM, const Quantity_NameOfColor Name):V3d_Light(VM) { 

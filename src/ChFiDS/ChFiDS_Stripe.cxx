@@ -14,7 +14,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <ChFiDS_Stripe.ixx>
+#include <ChFiDS_Spine.hxx>
+#include <ChFiDS_HData.hxx>
+#include <Geom2d_Curve.hxx>
+#include <ChFiDS_Stripe.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(ChFiDS_Stripe)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(ChFiDS_Stripe)
+IMPLEMENT_DOWNCAST(ChFiDS_Stripe,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(ChFiDS_Stripe)
 
 ChFiDS_Stripe::ChFiDS_Stripe ():
        begfilled(/*Standard_False*/0), // eap, Apr 29 2002, occ293

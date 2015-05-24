@@ -13,7 +13,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <XmlMDF.ixx>
+#include <TDF_Data.hxx>
+#include <XmlMDF_ADriverTable.hxx>
+#include <TDF_Label.hxx>
+#include <XmlMDF_MapOfDriver.hxx>
+#include <CDM_MessageDriver.hxx>
+#include <XmlMDF.hxx>
 #include <XmlMDF_ADriver.hxx>
 #include <XmlMDF_TagSourceDriver.hxx>
 #include <XmlMDF_ReferenceDriver.hxx>

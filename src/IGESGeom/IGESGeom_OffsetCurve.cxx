@@ -16,7 +16,20 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESGeom_OffsetCurve.ixx>
+#include <IGESData_IGESEntity.hxx>
+#include <gp_XYZ.hxx>
+#include <gp_Vec.hxx>
+#include <IGESGeom_OffsetCurve.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESGeom_OffsetCurve)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IGESData_IGESEntity),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESGeom_OffsetCurve)
+IMPLEMENT_DOWNCAST(IGESGeom_OffsetCurve,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESGeom_OffsetCurve)
 #include <gp_GTrsf.hxx>
 
 

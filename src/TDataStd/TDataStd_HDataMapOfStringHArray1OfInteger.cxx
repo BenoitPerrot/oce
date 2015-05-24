@@ -13,7 +13,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TDataStd_HDataMapOfStringHArray1OfInteger.ixx>
+#include <TDataStd_DataMapOfStringHArray1OfInteger.hxx>
+#include <TDataStd_HDataMapOfStringHArray1OfInteger.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(TDataStd_HDataMapOfStringHArray1OfInteger)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(TDataStd_HDataMapOfStringHArray1OfInteger)
+IMPLEMENT_DOWNCAST(TDataStd_HDataMapOfStringHArray1OfInteger,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(TDataStd_HDataMapOfStringHArray1OfInteger)
 
 //=======================================================================
 //function : TDataStd_HDataMapOfStringHArray1OfInteger

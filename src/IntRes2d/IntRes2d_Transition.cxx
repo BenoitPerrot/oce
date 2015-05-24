@@ -14,7 +14,14 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IntRes2d_Transition.ixx>
+#include <Standard_DomainError.hxx>
+#include <IntRes2d_Transition.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IntRes2d_Transition)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Standard_Storable),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IntRes2d_Transition)
 
 
 IntRes2d_Transition::IntRes2d_Transition() : tangent(Standard_True),

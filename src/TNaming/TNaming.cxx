@@ -14,7 +14,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TNaming.ixx>
+#include <TDF_Label.hxx>
+#include <TopTools_DataMapOfShapeShape.hxx>
+#include <TopLoc_Location.hxx>
+#include <gp_Trsf.hxx>
+#include <TNaming_NamedShape.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopTools_MapOfShape.hxx>
+#include <TopTools_HArray1OfShape.hxx>
+#include <TopoDS_Face.hxx>
+#include <TopoDS_Wire.hxx>
+#include <TopoDS_Solid.hxx>
+#include <TopoDS_Shell.hxx>
+#include <TDF_IDList.hxx>
+#include <TNaming.hxx>
 
 #include <BRep_Builder.hxx>
 #include <BRep_Tool.hxx>

@@ -17,7 +17,17 @@
 #ifndef No_Exception
 #define No_Exception
 #endif
-#include <HLRAlgo_WiresBlock.ixx>
+#include <HLRAlgo_EdgesBlock.hxx>
+#include <HLRAlgo_WiresBlock.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(HLRAlgo_WiresBlock)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(HLRAlgo_WiresBlock)
+IMPLEMENT_DOWNCAST(HLRAlgo_WiresBlock,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(HLRAlgo_WiresBlock)
 
 //=======================================================================
 //function : HLRAlgo_WiresBlock

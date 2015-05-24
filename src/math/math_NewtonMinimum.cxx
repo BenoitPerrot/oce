@@ -20,7 +20,10 @@
 #define No_Standard_DimensionError
 //#endif
 
-#include <math_NewtonMinimum.ixx>
+#include <StdFail_NotDone.hxx>
+#include <Standard_DimensionError.hxx>
+#include <math_MultipleVarFunctionWithHessian.hxx>
+#include <math_NewtonMinimum.hxx>
 
 #include <math_Gauss.hxx>
 #include <math_Jacobi.hxx>

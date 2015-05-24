@@ -19,7 +19,15 @@
 //                            tri des solutions pour eviter de rendre plusieurs
 //                            fois la meme solution 
 
-#include <Extrema_ExtCC.ixx>
+#include <StdFail_InfiniteSolutions.hxx>
+#include <StdFail_NotDone.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Adaptor3d_Curve.hxx>
+#include <Extrema_POnCurv.hxx>
+#include <gp_Pnt.hxx>
+#include <Extrema_ExtElC.hxx>
+#include <Extrema_ECC.hxx>
+#include <Extrema_ExtCC.hxx>
 
 #include <StdFail_NotDone.hxx>
 #include <Extrema_ExtElC.hxx>

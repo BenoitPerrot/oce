@@ -13,7 +13,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <QANewBRepNaming_Fillet.ixx>
+#include <TDF_Label.hxx>
+#include <TopoDS_Shape.hxx>
+#include <BRepFilletAPI_MakeFillet.hxx>
+#include <QANewBRepNaming_Fillet.hxx>
 #include <Standard_NullObject.hxx>
 #include <BRepFilletAPI_MakeFillet.hxx>
 #include <TopoDS_Iterator.hxx>

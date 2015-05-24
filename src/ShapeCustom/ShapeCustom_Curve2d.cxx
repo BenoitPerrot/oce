@@ -15,7 +15,11 @@
 
 // Last modification:
 
-#include <ShapeCustom_Curve2d.ixx>
+#include <TColgp_Array1OfPnt2d.hxx>
+#include <Geom2d_Line.hxx>
+#include <Geom2d_Curve.hxx>
+#include <Geom2d_BSplineCurve.hxx>
+#include <ShapeCustom_Curve2d.hxx>
 
 #include <Standard_ErrorHandler.hxx>
 #include <gp_Vec2d.hxx>

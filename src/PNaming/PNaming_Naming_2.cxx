@@ -13,7 +13,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PNaming_Naming_2.ixx>
+#include <PNaming_Name_2.hxx>
+#include <PNaming_Naming_2.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(PNaming_Naming_2)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(PDF_Attribute),
+  STANDARD_TYPE(Standard_Persistent),
+  STANDARD_TYPE(Standard_Storable),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(PNaming_Naming_2)
+IMPLEMENT_DOWNCAST(PNaming_Naming_2,Standard_Persistent)
+IMPLEMENT_STANDARD_RTTI(PNaming_Naming_2)
 
 //=======================================================================
 //function : PNaming_Naming_2

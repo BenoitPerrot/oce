@@ -16,7 +16,18 @@
 
 
 
-#include <TDocStd_CompoundDelta.ixx>
+#include <TDocStd_Document.hxx>
+#include <TDocStd_CompoundDelta.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(TDocStd_CompoundDelta)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(TDF_Delta),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(TDocStd_CompoundDelta)
+IMPLEMENT_DOWNCAST(TDocStd_CompoundDelta,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(TDocStd_CompoundDelta)
 
 //=======================================================================
 //function : TDocStd_CompoundDelta

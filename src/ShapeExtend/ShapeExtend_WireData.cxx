@@ -15,7 +15,22 @@
 //    abv 28.04.99  S4137: added method Add(WireData), method SetLast fixed
 //    abv 05.05.99  S4174: protection against INTERNAL/EXTERNAL edges
 
-#include <ShapeExtend_WireData.ixx>
+#include <TopTools_HSequenceOfShape.hxx>
+#include <TColStd_HSequenceOfInteger.hxx>
+#include <TopoDS_Wire.hxx>
+#include <TopoDS_Edge.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopoDS_Face.hxx>
+#include <ShapeExtend_WireData.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(ShapeExtend_WireData)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(ShapeExtend_WireData)
+IMPLEMENT_DOWNCAST(ShapeExtend_WireData,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(ShapeExtend_WireData)
 #include <Geom2d_Curve.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Vertex.hxx>

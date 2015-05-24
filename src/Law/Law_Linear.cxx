@@ -16,7 +16,20 @@
 
 // pmn -> 17/01/1996 added : Continuity, (Nb)Interals, D2, Trim
 
-#include <Law_Linear.ixx>
+#include <Standard_OutOfRange.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <Law_Function.hxx>
+#include <Law_Linear.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Law_Linear)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Law_Function),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Law_Linear)
+IMPLEMENT_DOWNCAST(Law_Linear,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Law_Linear)
 
 
 Law_Linear::Law_Linear () {}

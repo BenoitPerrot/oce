@@ -14,7 +14,23 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepBlend_AppFuncRst.ixx>
+#include <Standard_OutOfRange.hxx>
+#include <BRepBlend_Line.hxx>
+#include <Blend_SurfRstFunction.hxx>
+#include <Blend_AppFunction.hxx>
+#include <Blend_Point.hxx>
+#include <BRepBlend_AppFuncRst.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(BRepBlend_AppFuncRst)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(BRepBlend_AppFuncRoot),
+  STANDARD_TYPE(Approx_SweepFunction),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(BRepBlend_AppFuncRst)
+IMPLEMENT_DOWNCAST(BRepBlend_AppFuncRst,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(BRepBlend_AppFuncRst)
 
 BRepBlend_AppFuncRst::BRepBlend_AppFuncRst (Handle(BRepBlend_Line)& Line,
 					    Blend_SurfRstFunction& Func,

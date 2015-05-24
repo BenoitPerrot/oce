@@ -14,7 +14,28 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopOpeBRepDS_HDataStructure.ixx>
+#include <TopoDS_Shape.hxx>
+#include <TopOpeBRepDS_DataStructure.hxx>
+#include <TopOpeBRepDS_Surface.hxx>
+#include <TopOpeBRepDS_CurveIterator.hxx>
+#include <TopOpeBRepDS_Curve.hxx>
+#include <TopOpeBRepDS_PointIterator.hxx>
+#include <TopOpeBRepDS_Point.hxx>
+#include <TopTools_ListIteratorOfListOfShape.hxx>
+#include <TopOpeBRepDS_SurfaceIterator.hxx>
+#include <TopOpeBRepDS_ListOfInterference.hxx>
+#include <TopOpeBRepDS_ListIteratorOfListOfInterference.hxx>
+#include <TopOpeBRepDS_Interference.hxx>
+#include <TopOpeBRepDS_HDataStructure.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(TopOpeBRepDS_HDataStructure)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(TopOpeBRepDS_HDataStructure)
+IMPLEMENT_DOWNCAST(TopOpeBRepDS_HDataStructure,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(TopOpeBRepDS_HDataStructure)
 
 #include <TopOpeBRepDS_EdgeInterferenceTool.hxx>
 #include <BRep_Tool.hxx>

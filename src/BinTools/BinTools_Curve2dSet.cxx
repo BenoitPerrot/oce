@@ -13,7 +13,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BinTools_Curve2dSet.ixx>
+#include <Standard_OutOfRange.hxx>
+#include <Geom2d_Curve.hxx>
+#include <BinTools_Curve2dSet.hxx>
 #include <Standard_Stream.hxx>
 #include <Geom2d_Circle.hxx>
 #include <Geom2d_Line.hxx>

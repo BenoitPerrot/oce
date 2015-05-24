@@ -14,7 +14,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PBRep_PointOnSurface.ixx>
+#include <PGeom_Surface.hxx>
+#include <PTopLoc_Location.hxx>
+#include <PBRep_PointOnSurface.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(PBRep_PointOnSurface)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(PBRep_PointsOnSurface),
+  STANDARD_TYPE(PBRep_PointRepresentation),
+  STANDARD_TYPE(Standard_Persistent),
+  STANDARD_TYPE(Standard_Storable),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(PBRep_PointOnSurface)
+IMPLEMENT_DOWNCAST(PBRep_PointOnSurface,Standard_Persistent)
+IMPLEMENT_STANDARD_RTTI(PBRep_PointOnSurface)
 
 
 //=======================================================================

@@ -15,7 +15,11 @@
 // commercial license or contractual agreement.
 
 #include <Standard_Stream.hxx>
-#include <Poly.ixx>
+#include <Poly_Triangulation.hxx>
+#include <Poly_Polygon3D.hxx>
+#include <Poly_Polygon2D.hxx>
+#include <gp_XY.hxx>
+#include <Poly.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Pnt2d.hxx>
 #include <Poly_Triangle.hxx>

@@ -18,7 +18,12 @@
 //   CREATION of the BISSECTICE between a CIRCLE and a POINT.               +
 //=========================================================================
 
-#include <GccAna_CircPnt2dBisec.ixx>
+#include <Standard_OutOfRange.hxx>
+#include <StdFail_NotDone.hxx>
+#include <gp_Circ2d.hxx>
+#include <gp_Pnt2d.hxx>
+#include <GccInt_Bisec.hxx>
+#include <GccAna_CircPnt2dBisec.hxx>
 
 #include <gp_XY.hxx>
 #include <gp_Dir2d.hxx>

@@ -14,7 +14,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <LocOpe_RevolutionForm.ixx>
+#include <Standard_NoSuchObject.hxx>
+#include <StdFail_NotDone.hxx>
+#include <TopoDS_Shape.hxx>
+#include <gp_Ax1.hxx>
+#include <TopTools_ListOfShape.hxx>
+#include <LocOpe_RevolutionForm.hxx>
 
 #include <BRepSweep_Revol.hxx>
 

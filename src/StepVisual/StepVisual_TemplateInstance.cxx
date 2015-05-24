@@ -11,7 +11,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepVisual_TemplateInstance.ixx>
+#include <StepVisual_TemplateInstance.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepVisual_TemplateInstance)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepRepr_MappedItem),
+  STANDARD_TYPE(StepRepr_RepresentationItem),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepVisual_TemplateInstance)
+IMPLEMENT_DOWNCAST(StepVisual_TemplateInstance,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepVisual_TemplateInstance)
 
 
 StepVisual_TemplateInstance::StepVisual_TemplateInstance ()  {}

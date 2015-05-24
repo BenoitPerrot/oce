@@ -13,7 +13,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Draw_Printer.ixx>
+#include <TCollection_ExtendedString.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <Draw_Printer.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Draw_Printer)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Message_Printer),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Draw_Printer)
+IMPLEMENT_DOWNCAST(Draw_Printer,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Draw_Printer)
 
 #include <TCollection_AsciiString.hxx>
 #include <TCollection_ExtendedString.hxx>

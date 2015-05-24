@@ -14,4 +14,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <HLRAlgo_PolyInternalNode.ixx>
+#include <HLRAlgo_PolyInternalNode.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(HLRAlgo_PolyInternalNode)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(HLRAlgo_PolyInternalNode)
+IMPLEMENT_DOWNCAST(HLRAlgo_PolyInternalNode,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(HLRAlgo_PolyInternalNode)

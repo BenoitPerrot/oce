@@ -11,7 +11,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IGESDraw.ixx>
+#include <IGESDraw_Protocol.hxx>
+#include <IGESDraw.hxx>
 #include <IGESDraw_Protocol.hxx>
 #include <IGESDraw_GeneralModule.hxx>
 #include <IGESDraw_ReadWriteModule.hxx>

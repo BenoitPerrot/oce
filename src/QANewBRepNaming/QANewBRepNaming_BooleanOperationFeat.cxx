@@ -14,7 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <QANewBRepNaming_BooleanOperationFeat.ixx>
+#include <TDF_Label.hxx>
+#include <BRepAlgoAPI_BooleanOperation.hxx>
+#include <TopoDS_Shape.hxx>
+#include <QANewBRepNaming_BooleanOperationFeat.hxx>
 #include <Standard_NullObject.hxx>
 #include <Precision.hxx>
 #include <TColgp_Array1OfPnt.hxx>

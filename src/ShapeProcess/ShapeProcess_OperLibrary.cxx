@@ -13,7 +13,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <ShapeProcess_OperLibrary.ixx>
+#include <TopoDS_Shape.hxx>
+#include <ShapeProcess_ShapeContext.hxx>
+#include <BRepTools_Modification.hxx>
+#include <TopTools_DataMapOfShapeShape.hxx>
+#include <ShapeProcess_OperLibrary.hxx>
 
 #include <Precision.hxx>
 #include <TopoDS_Shape.hxx>

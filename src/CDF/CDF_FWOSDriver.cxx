@@ -11,7 +11,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <CDF_FWOSDriver.ixx>
+#include <TCollection_ExtendedString.hxx>
+#include <CDM_MetaData.hxx>
+#include <CDM_Document.hxx>
+#include <CDF_FWOSDriver.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(CDF_FWOSDriver)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(CDF_MetaDataDriver),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(CDF_FWOSDriver)
+IMPLEMENT_DOWNCAST(CDF_FWOSDriver,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(CDF_FWOSDriver)
 #include <TCollection_ExtendedString.hxx>
 #include <OSD_Path.hxx>
 #include <OSD_Directory.hxx>

@@ -16,7 +16,20 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESSolid_VertexList.ixx>
+#include <TColgp_HArray1OfXYZ.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <gp_Pnt.hxx>
+#include <IGESSolid_VertexList.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESSolid_VertexList)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IGESData_IGESEntity),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESSolid_VertexList)
+IMPLEMENT_DOWNCAST(IGESSolid_VertexList,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESSolid_VertexList)
 #include <Standard_DimensionMismatch.hxx>
 
 

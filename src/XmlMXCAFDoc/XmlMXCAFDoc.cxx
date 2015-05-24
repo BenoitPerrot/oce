@@ -13,7 +13,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <XmlMXCAFDoc.ixx>
+#include <XmlMDF_ADriverTable.hxx>
+#include <CDM_MessageDriver.hxx>
+#include <XmlMXCAFDoc.hxx>
 
 #include <XmlMXCAFDoc_AreaDriver.hxx>
 #include <XmlMXCAFDoc_CentroidDriver.hxx>

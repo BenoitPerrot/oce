@@ -14,7 +14,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IntPatch_PolyArc.ixx>
+#include <Standard_ConstructionError.hxx>
+#include <Adaptor2d_HCurve2d.hxx>
+#include <Bnd_Box2d.hxx>
+#include <gp_Pnt2d.hxx>
+#include <IntPatch_PolyArc.hxx>
 
 #include <Standard_ConstructionError.hxx>
 

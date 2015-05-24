@@ -14,7 +14,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GccInt_BPoint.ixx>
+#include <gp_Pnt2d.hxx>
+#include <GccInt_BPoint.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(GccInt_BPoint)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(GccInt_Bisec),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(GccInt_BPoint)
+IMPLEMENT_DOWNCAST(GccInt_BPoint,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(GccInt_BPoint)
 #include <Standard_DomainError.hxx>
 #include <gp_Pnt2d.hxx>
 

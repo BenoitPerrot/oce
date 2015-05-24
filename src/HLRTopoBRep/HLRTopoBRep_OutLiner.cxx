@@ -14,7 +14,21 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <HLRTopoBRep_OutLiner.ixx>
+#include <TopoDS_Shape.hxx>
+#include <HLRTopoBRep_Data.hxx>
+#include <HLRAlgo_Projector.hxx>
+#include <BRepTopAdaptor_MapOfShapeTool.hxx>
+#include <TopoDS_Face.hxx>
+#include <HLRTopoBRep_OutLiner.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(HLRTopoBRep_OutLiner)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(HLRTopoBRep_OutLiner)
+IMPLEMENT_DOWNCAST(HLRTopoBRep_OutLiner,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(HLRTopoBRep_OutLiner)
 #include <HLRTopoBRep_DSFiller.hxx>
 #include <Contap_Contour.hxx>
 #include <BRep_Builder.hxx>

@@ -17,7 +17,15 @@
 // - fixed trimming of circles and ellipses (radians used instead of degrees)
 //szv#4 S4163
 
-#include <TopoDSToStep_WireframeBuilder.ixx>
+#include <TColStd_HSequenceOfTransient.hxx>
+#include <StdFail_NotDone.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopoDSToStep_Tool.hxx>
+#include <Transfer_FinderProcess.hxx>
+#include <TopoDS_Edge.hxx>
+#include <TopoDS_Face.hxx>
+#include <MoniTool_DataMapOfShapeTransient.hxx>
+#include <TopoDSToStep_WireframeBuilder.hxx>
 #include <TopoDSToStep_Tool.hxx>
 
 #include <TColgp_Array1OfPnt.hxx>

@@ -15,7 +15,18 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
-#include <StepRepr_PropertyDefinitionRelationship.ixx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepRepr_PropertyDefinition.hxx>
+#include <StepRepr_PropertyDefinitionRelationship.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepRepr_PropertyDefinitionRelationship)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepRepr_PropertyDefinitionRelationship)
+IMPLEMENT_DOWNCAST(StepRepr_PropertyDefinitionRelationship,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepRepr_PropertyDefinitionRelationship)
 
 //=======================================================================
 //function : StepRepr_PropertyDefinitionRelationship

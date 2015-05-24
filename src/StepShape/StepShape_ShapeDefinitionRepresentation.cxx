@@ -16,7 +16,17 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.0
 
-#include <StepShape_ShapeDefinitionRepresentation.ixx>
+#include <StepShape_ShapeDefinitionRepresentation.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepShape_ShapeDefinitionRepresentation)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepRepr_PropertyDefinitionRepresentation),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepShape_ShapeDefinitionRepresentation)
+IMPLEMENT_DOWNCAST(StepShape_ShapeDefinitionRepresentation,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepShape_ShapeDefinitionRepresentation)
 
 //=======================================================================
 //function : StepShape_ShapeDefinitionRepresentation

@@ -11,7 +11,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Vrml_PerspectiveCamera.ixx>
+#include <gp_Vec.hxx>
+#include <Vrml_SFRotation.hxx>
+#include <Vrml_PerspectiveCamera.hxx>
 
 Vrml_PerspectiveCamera::Vrml_PerspectiveCamera():
   myFocalDistance(5),

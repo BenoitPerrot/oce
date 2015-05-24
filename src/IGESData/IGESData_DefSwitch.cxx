@@ -11,7 +11,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IGESData_DefSwitch.ixx>
+#include <IGESData_DefSwitch.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESData_DefSwitch)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Standard_Storable),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESData_DefSwitch)
 
 //  DefSwitch : represente une definition, soit vide (-> valeur = 0),
 //  soit comme rang dans une table (-> valeur > 0 ce rang),

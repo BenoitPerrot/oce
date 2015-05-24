@@ -14,7 +14,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <STEPSelections_AssemblyLink.ixx>
+#include <StepRepr_NextAssemblyUsageOccurrence.hxx>
+#include <Standard_Transient.hxx>
+#include <STEPSelections_AssemblyComponent.hxx>
+#include <STEPSelections_AssemblyLink.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(STEPSelections_AssemblyLink)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(STEPSelections_AssemblyLink)
+IMPLEMENT_DOWNCAST(STEPSelections_AssemblyLink,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(STEPSelections_AssemblyLink)
 
 STEPSelections_AssemblyLink::STEPSelections_AssemblyLink()
 {

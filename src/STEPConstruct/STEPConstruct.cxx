@@ -13,7 +13,15 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <STEPConstruct.ixx>
+#include <StepRepr_RepresentationItem.hxx>
+#include <Transfer_FinderProcess.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopLoc_Location.hxx>
+#include <Transfer_TransientProcess.hxx>
+#include <Transfer_Binder.hxx>
+#include <StepShape_ShapeDefinitionRepresentation.hxx>
+#include <StepShape_ContextDependentShapeRepresentation.hxx>
+#include <STEPConstruct.hxx>
 #include <TransferBRep.hxx>
 #include <TransferBRep_ShapeMapper.hxx>
 #include <Transfer_Binder.hxx>

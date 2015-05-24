@@ -15,7 +15,12 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
-#include <RWStepDimTol_RWModifiedGeometricTolerance.ixx>
+#include <StepData_StepReaderData.hxx>
+#include <Interface_Check.hxx>
+#include <StepDimTol_ModifiedGeometricTolerance.hxx>
+#include <StepData_StepWriter.hxx>
+#include <Interface_EntityIterator.hxx>
+#include <RWStepDimTol_RWModifiedGeometricTolerance.hxx>
 
 //=======================================================================
 //function : RWStepDimTol_RWModifiedGeometricTolerance

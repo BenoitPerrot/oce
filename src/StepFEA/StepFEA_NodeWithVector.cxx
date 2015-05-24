@@ -15,7 +15,19 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
-#include <StepFEA_NodeWithVector.ixx>
+#include <StepFEA_NodeWithVector.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepFEA_NodeWithVector)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepFEA_Node),
+  STANDARD_TYPE(StepFEA_NodeRepresentation),
+  STANDARD_TYPE(StepRepr_Representation),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepFEA_NodeWithVector)
+IMPLEMENT_DOWNCAST(StepFEA_NodeWithVector,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepFEA_NodeWithVector)
 
 //=======================================================================
 //function : StepFEA_NodeWithVector

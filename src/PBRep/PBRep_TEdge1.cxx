@@ -14,7 +14,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PBRep_TEdge1.ixx>
+#include <PBRep_CurveRepresentation.hxx>
+#include <PBRep_TEdge1.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(PBRep_TEdge1)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(PTopoDS_TEdge1),
+  STANDARD_TYPE(PTopoDS_TShape1),
+  STANDARD_TYPE(Standard_Persistent),
+  STANDARD_TYPE(Standard_Storable),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(PBRep_TEdge1)
+IMPLEMENT_DOWNCAST(PBRep_TEdge1,Standard_Persistent)
+IMPLEMENT_STANDARD_RTTI(PBRep_TEdge1)
 
 // Enum terms are better than statics who must be intialized.
 enum {

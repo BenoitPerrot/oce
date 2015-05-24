@@ -11,6 +11,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepRepr_PromissoryUsageOccurrence.ixx>
+#include <StepRepr_PromissoryUsageOccurrence.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepRepr_PromissoryUsageOccurrence)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepRepr_AssemblyComponentUsage),
+  STANDARD_TYPE(StepRepr_ProductDefinitionUsage),
+  STANDARD_TYPE(StepBasic_ProductDefinitionRelationship),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepRepr_PromissoryUsageOccurrence)
+IMPLEMENT_DOWNCAST(StepRepr_PromissoryUsageOccurrence,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepRepr_PromissoryUsageOccurrence)
 
 StepRepr_PromissoryUsageOccurrence::StepRepr_PromissoryUsageOccurrence ()    {  }

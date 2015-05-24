@@ -15,7 +15,20 @@
 // commercial license or contractual agreement.
 
 #include <TCollection_AsciiString.hxx>
-#include <TopOpeBRepDS_Check.ixx>
+#include <TopOpeBRepDS_HDataStructure.hxx>
+#include <TopOpeBRepDS_ListOfInterference.hxx>
+#include <TopTools_ListOfShape.hxx>
+#include <TopOpeBRepDS_DataMapOfCheckStatus.hxx>
+#include <TopOpeBRepDS_Check.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(TopOpeBRepDS_Check)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(TopOpeBRepDS_Check)
+IMPLEMENT_DOWNCAST(TopOpeBRepDS_Check,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(TopOpeBRepDS_Check)
 #include <TopOpeBRepDS_Kind.hxx>
 #include <TopOpeBRepDS_CheckStatus.hxx>
 #include <TopOpeBRepDS_PointExplorer.hxx>

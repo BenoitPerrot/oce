@@ -23,7 +23,19 @@
 //pdn 20.04.99 CTS22655 avoid of exceptions in case of empty loops
 
 #include <Standard_ErrorHandler.hxx>
-#include <IGESToBRep_BRepEntity.ixx>
+#include <IGESToBRep_CurveAndSurface.hxx>
+#include <TopoDS_Shape.hxx>
+#include <IGESData_IGESEntity.hxx>
+#include <TopoDS_Vertex.hxx>
+#include <IGESSolid_VertexList.hxx>
+#include <IGESSolid_EdgeList.hxx>
+#include <IGESSolid_Loop.hxx>
+#include <TopoDS_Face.hxx>
+#include <gp_Trsf2d.hxx>
+#include <IGESSolid_Face.hxx>
+#include <IGESSolid_Shell.hxx>
+#include <IGESSolid_ManifoldSolid.hxx>
+#include <IGESToBRep_BRepEntity.hxx>
 #include <IGESToBRep.hxx>
 #include <IGESToBRep_BasicCurve.hxx>
 #include <IGESToBRep_BasicSurface.hxx>

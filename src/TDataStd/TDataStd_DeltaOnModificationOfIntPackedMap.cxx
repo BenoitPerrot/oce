@@ -13,7 +13,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TDataStd_DeltaOnModificationOfIntPackedMap.ixx>
+#include <TColStd_HPackedMapOfInteger.hxx>
+#include <TDataStd_IntPackedMap.hxx>
+#include <TDataStd_DeltaOnModificationOfIntPackedMap.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(TDataStd_DeltaOnModificationOfIntPackedMap)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(TDF_DeltaOnModification),
+  STANDARD_TYPE(TDF_AttributeDelta),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(TDataStd_DeltaOnModificationOfIntPackedMap)
+IMPLEMENT_DOWNCAST(TDataStd_DeltaOnModificationOfIntPackedMap,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(TDataStd_DeltaOnModificationOfIntPackedMap)
 #include <TDF_DeltaOnModification.hxx>
 #include <TDF_Label.hxx>
 #include <TColStd_PackedMapOfInteger.hxx>

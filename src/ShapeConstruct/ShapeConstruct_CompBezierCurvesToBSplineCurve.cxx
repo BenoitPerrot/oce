@@ -19,7 +19,11 @@
 //  cf BUG PRO4481) 
 //rln 20.06.99 work-around
 
-#include <ShapeConstruct_CompBezierCurvesToBSplineCurve.ixx>
+#include <Standard_ConstructionError.hxx>
+#include <TColgp_Array1OfPnt.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <TColStd_Array1OfInteger.hxx>
+#include <ShapeConstruct_CompBezierCurvesToBSplineCurve.hxx>
 
 #include <Precision.hxx>
 #include <BSplCLib.hxx>

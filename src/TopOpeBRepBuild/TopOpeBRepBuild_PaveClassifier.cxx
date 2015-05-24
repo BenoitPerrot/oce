@@ -14,7 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopOpeBRepBuild_PaveClassifier.ixx>
+#include <TopoDS_Shape.hxx>
+#include <TopOpeBRepBuild_Loop.hxx>
+#include <TopOpeBRepBuild_PaveClassifier.hxx>
 #include <TopOpeBRepBuild_Pave.hxx>
 
 #include <TopoDS.hxx>

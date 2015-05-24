@@ -14,7 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomFill_BSplineCurves.ixx>
+#include <Geom_BSplineSurface.hxx>
+#include <Standard_ConstructionError.hxx>
+#include <Geom_BSplineCurve.hxx>
+#include <GeomFill_BSplineCurves.hxx>
 
 #include <GeomFill_Filling.hxx>
 #include <GeomFill_Stretch.hxx>

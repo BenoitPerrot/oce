@@ -14,7 +14,9 @@
 
 #ifndef WNT
 
-#include <OSD_Directory.ixx>
+#include <OSD_Path.hxx>
+#include <OSD_Protection.hxx>
+#include <OSD_Directory.hxx>
 #include <OSD_WhoAmI.hxx>
 #include <OSD_Protection.hxx>
 

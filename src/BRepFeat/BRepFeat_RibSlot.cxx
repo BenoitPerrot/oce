@@ -14,7 +14,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepFeat_RibSlot.ixx>
+#include <TopoDS_Shape.hxx>
+#include <TopTools_ListOfShape.hxx>
+#include <gp_Pnt.hxx>
+#include <TopoDS_Edge.hxx>
+#include <Geom_Plane.hxx>
+#include <gp_Dir.hxx>
+#include <TopoDS_Face.hxx>
+#include <Geom_Curve.hxx>
+#include <TopoDS_Vertex.hxx>
+#include <LocOpe_Gluer.hxx>
+#include <TopOpeBRepBuild_HBuilder.hxx>
+#include <BRepAlgoAPI_BooleanOperation.hxx>
+#include <BRepFeat_RibSlot.hxx>
 #include <BRepFeat.hxx>
 
 #include <LocOpe.hxx>

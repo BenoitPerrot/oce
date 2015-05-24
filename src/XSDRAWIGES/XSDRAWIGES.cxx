@@ -13,7 +13,7 @@
 
 //gka 06.01.99 S3767 new function TPSTAT (first version)
 //pdn 11.01.99 putting "return" statement for compilation on NT
-#include <XSDRAWIGES.ixx>
+#include <XSDRAWIGES.hxx>
 
 #include <Standard_ErrorHandler.hxx>
 #include <Standard_Failure.hxx>

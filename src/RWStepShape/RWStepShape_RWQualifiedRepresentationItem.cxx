@@ -11,7 +11,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <RWStepShape_RWQualifiedRepresentationItem.ixx>
+#include <StepData_StepReaderData.hxx>
+#include <Interface_Check.hxx>
+#include <StepShape_QualifiedRepresentationItem.hxx>
+#include <StepData_StepWriter.hxx>
+#include <Interface_EntityIterator.hxx>
+#include <RWStepShape_RWQualifiedRepresentationItem.hxx>
 #include <TCollection_HAsciiString.hxx>
 #include <StepShape_ValueQualifier.hxx>
 #include <StepShape_HArray1OfValueQualifier.hxx>

@@ -14,7 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomPlate_MakeApprox.ixx>
+#include <GeomPlate_Surface.hxx>
+#include <Geom_BSplineSurface.hxx>
+#include <AdvApp2Var_Criterion.hxx>
+#include <GeomPlate_MakeApprox.hxx>
 #include <GeomPlate_Surface.hxx>
 #include <GeomPlate_PlateG0Criterion.hxx>
 #include <GeomPlate_PlateG1Criterion.hxx>

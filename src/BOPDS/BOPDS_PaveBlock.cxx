@@ -12,7 +12,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BOPDS_PaveBlock.ixx>
+#include <BOPDS_Pave.hxx>
+#include <Bnd_Box.hxx>
+#include <BOPDS_PaveBlock.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(BOPDS_PaveBlock)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(BOPDS_PaveBlock)
+IMPLEMENT_DOWNCAST(BOPDS_PaveBlock,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(BOPDS_PaveBlock)
 #include <BOPDS_ListOfPave.hxx>
 #include <BOPDS_VectorOfPave.hxx>
 

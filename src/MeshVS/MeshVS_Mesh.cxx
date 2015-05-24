@@ -13,7 +13,28 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <MeshVS_Mesh.ixx>
+#include <MeshVS_PrsBuilder.hxx>
+#include <TColStd_HPackedMapOfInteger.hxx>
+#include <MeshVS_DataSource.hxx>
+#include <MeshVS_Drawer.hxx>
+#include <SelectMgr_EntityOwner.hxx>
+#include <Prs3d_Presentation.hxx>
+#include <SelectMgr_Selection.hxx>
+#include <SelectMgr_SequenceOfOwner.hxx>
+#include <MeshVS_DataMapOfIntegerOwner.hxx>
+#include <MeshVS_Mesh.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(MeshVS_Mesh)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(AIS_InteractiveObject),
+  STANDARD_TYPE(SelectMgr_SelectableObject),
+  STANDARD_TYPE(PrsMgr_PresentableObject),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(MeshVS_Mesh)
+IMPLEMENT_DOWNCAST(MeshVS_Mesh,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(MeshVS_Mesh)
 
 #include <AIS_InteractiveContext.hxx>
 

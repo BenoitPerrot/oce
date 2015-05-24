@@ -11,7 +11,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <VrmlConverter_Drawer.ixx>
+#include <VrmlConverter_IsoAspect.hxx>
+#include <VrmlConverter_LineAspect.hxx>
+#include <VrmlConverter_ShadingAspect.hxx>
+#include <VrmlConverter_PointAspect.hxx>
+#include <VrmlConverter_Drawer.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(VrmlConverter_Drawer)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(VrmlConverter_Drawer)
+IMPLEMENT_DOWNCAST(VrmlConverter_Drawer,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(VrmlConverter_Drawer)
 #include <Vrml_Material.hxx>
 
 VrmlConverter_Drawer::VrmlConverter_Drawer():

@@ -14,7 +14,24 @@
 
 #include <Standard_NotImplemented.hxx>
 
-#include <BRepTopAdaptor_TopolTool.ixx>
+#include <BRepAdaptor_HCurve2d.hxx>
+#include <Standard_DomainError.hxx>
+#include <Adaptor3d_HSurface.hxx>
+#include <Adaptor2d_HCurve2d.hxx>
+#include <Adaptor3d_HVertex.hxx>
+#include <gp_Pnt2d.hxx>
+#include <gp_Pnt.hxx>
+#include <BRepTopAdaptor_TopolTool.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(BRepTopAdaptor_TopolTool)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Adaptor3d_TopolTool),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(BRepTopAdaptor_TopolTool)
+IMPLEMENT_DOWNCAST(BRepTopAdaptor_TopolTool,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(BRepTopAdaptor_TopolTool)
 
 #include <Standard_ConstructionError.hxx>
 #include <Standard_DomainError.hxx>

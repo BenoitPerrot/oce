@@ -14,7 +14,9 @@
 
 // Robert Boehne 30 May 2000 : Dec Osf
 
-#include <TopOpeBRepDS_FIR.ixx>
+#include <TopOpeBRepDS_HDataStructure.hxx>
+#include <TopOpeBRepDS_DataMapOfShapeListOfShapeOn1State.hxx>
+#include <TopOpeBRepDS_FIR.hxx>
 #include <TopOpeBRepDS_define.hxx>
 #include <TopOpeBRepTool_EXPORT.hxx>
 #include <TopOpeBRepTool_SC.hxx>

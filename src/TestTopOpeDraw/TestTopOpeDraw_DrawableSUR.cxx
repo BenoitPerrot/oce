@@ -14,7 +14,25 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TestTopOpeDraw_DrawableSUR.ixx>
+#include <Draw_Text3D.hxx>
+#include <Geom_Surface.hxx>
+#include <Draw_Color.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Pnt2d.hxx>
+#include <Draw_Display.hxx>
+#include <TestTopOpeDraw_DrawableSUR.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(TestTopOpeDraw_DrawableSUR)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(DrawTrSurf_Surface),
+  STANDARD_TYPE(DrawTrSurf_Drawable),
+  STANDARD_TYPE(Draw_Drawable3D),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(TestTopOpeDraw_DrawableSUR)
+IMPLEMENT_DOWNCAST(TestTopOpeDraw_DrawableSUR,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(TestTopOpeDraw_DrawableSUR)
 #include <Geom_RectangularTrimmedSurface.hxx>
 #include <BRepAdaptor_Surface.hxx>
 #include <BRepTools.hxx>

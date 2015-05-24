@@ -13,7 +13,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Voxel_FastConverter.ixx>
+#include <TopoDS_Shape.hxx>
+#include <Voxel_BoolDS.hxx>
+#include <Voxel_ColorDS.hxx>
+#include <Voxel_ROctBoolDS.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Pln.hxx>
+#include <Voxel_FastConverter.hxx>
 
 #include <Bnd_Box.hxx>
 #include <BRep_Tool.hxx>

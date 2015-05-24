@@ -13,7 +13,16 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IGESCAFControl_Writer.ixx>
+#include <XSControl_WorkSession.hxx>
+#include <TDocStd_Document.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <TDF_LabelSequence.hxx>
+#include <TopoDS_Shape.hxx>
+#include <XCAFPrs_DataMapOfShapeStyle.hxx>
+#include <XCAFPrs_DataMapOfStyleTransient.hxx>
+#include <TopTools_MapOfShape.hxx>
+#include <XCAFPrs_Style.hxx>
+#include <IGESCAFControl_Writer.hxx>
 #include <XCAFDoc_ShapeTool.hxx>
 #include <TDF_LabelSequence.hxx>
 #include <TopoDS_Shape.hxx>

@@ -11,7 +11,21 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepAP214_AppliedDocumentReference.ixx>
+#include <StepAP214_HArray1OfDocumentReferenceItem.hxx>
+#include <StepBasic_Document.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepAP214_DocumentReferenceItem.hxx>
+#include <StepAP214_AppliedDocumentReference.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepAP214_AppliedDocumentReference)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepBasic_DocumentReference),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepAP214_AppliedDocumentReference)
+IMPLEMENT_DOWNCAST(StepAP214_AppliedDocumentReference,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepAP214_AppliedDocumentReference)
 
 
 StepAP214_AppliedDocumentReference::StepAP214_AppliedDocumentReference ()    {  }

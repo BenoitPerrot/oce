@@ -15,7 +15,17 @@
 //    sln 29.11.01 Bug24: correction iteration through map in method 'Status'
 //    sln 29.11.01 Bug22: correction of methods Replace and Value for case when mode myConsiderLocation is on
 
-#include <BRepTools_ReShape.ixx>
+#include <TopoDS_Shape.hxx>
+#include <BRepTools_ReShape.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(BRepTools_ReShape)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(BRepTools_ReShape)
+IMPLEMENT_DOWNCAST(BRepTools_ReShape,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(BRepTools_ReShape)
 #include <TopoDS_Shell.hxx>
 #include <TopoDS_Solid.hxx>
 #include <TopoDS_Compound.hxx>

@@ -14,7 +14,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Geom2dAPI_PointsToBSpline.ixx>
+#include <Geom2d_BSplineCurve.hxx>
+#include <StdFail_NotDone.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <TColgp_Array1OfPnt2d.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <Geom2dAPI_PointsToBSpline.hxx>
 
 #include <AppDef_BSplineCompute.hxx>
 #include <AppDef_MultiLine.hxx>

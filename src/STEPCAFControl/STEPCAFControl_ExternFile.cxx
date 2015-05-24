@@ -13,7 +13,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <STEPCAFControl_ExternFile.ixx>
+#include <XSControl_WorkSession.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <TDF_Label.hxx>
+#include <STEPCAFControl_ExternFile.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(STEPCAFControl_ExternFile)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(STEPCAFControl_ExternFile)
+IMPLEMENT_DOWNCAST(STEPCAFControl_ExternFile,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(STEPCAFControl_ExternFile)
 
 //=======================================================================
 //function : STEPCAFControl_ExternFile

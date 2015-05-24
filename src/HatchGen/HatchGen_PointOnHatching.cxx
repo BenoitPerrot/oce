@@ -15,7 +15,10 @@
 // commercial license or contractual agreement.
 
 #include <Standard_Stream.hxx>
-#include <HatchGen_PointOnHatching.ixx>
+#include <Standard_OutOfRange.hxx>
+#include <IntRes2d_IntersectionPoint.hxx>
+#include <HatchGen_PointOnElement.hxx>
+#include <HatchGen_PointOnHatching.hxx>
 
 #define RAISE_IF_NOSUCHOBJECT 0
 

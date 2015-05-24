@@ -12,8 +12,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_AncestorIterator.ixx>
+#include <Standard_AncestorIterator.hxx>
 #include <Standard_NoMoreObject.hxx>
+#include <Standard_Type.hxx>
 
 //============================================================================
 Standard_AncestorIterator::Standard_AncestorIterator

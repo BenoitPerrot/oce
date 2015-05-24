@@ -11,7 +11,25 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IGESData_GeneralModule.ixx>
+#include <Standard_Transient.hxx>
+#include <Interface_EntityIterator.hxx>
+#include <IGESData_IGESEntity.hxx>
+#include <Interface_ShareTool.hxx>
+#include <Interface_Check.hxx>
+#include <IGESData_DirChecker.hxx>
+#include <Interface_CopyTool.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <IGESData_GeneralModule.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESData_GeneralModule)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Interface_GeneralModule),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESData_GeneralModule)
+IMPLEMENT_DOWNCAST(IGESData_GeneralModule,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESData_GeneralModule)
 #include <Interface_GeneralLib.hxx>
 #include <IGESData.hxx>
 #include <IGESData_Protocol.hxx>

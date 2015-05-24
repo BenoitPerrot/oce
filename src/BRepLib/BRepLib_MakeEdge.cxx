@@ -17,7 +17,19 @@
 // Modified:	Wed Oct 23 09:17:47 1996
 //		check ponctuallity (PRO4896)
 
-#include <BRepLib_MakeEdge.ixx>
+#include <StdFail_NotDone.hxx>
+#include <TopoDS_Vertex.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Lin.hxx>
+#include <gp_Circ.hxx>
+#include <gp_Elips.hxx>
+#include <gp_Hypr.hxx>
+#include <gp_Parab.hxx>
+#include <Geom_Curve.hxx>
+#include <Geom2d_Curve.hxx>
+#include <Geom_Surface.hxx>
+#include <TopoDS_Edge.hxx>
+#include <BRepLib_MakeEdge.hxx>
 #include <BRepLib.hxx>
 #include <BRep_Tool.hxx>
 #include <BRep_Builder.hxx>

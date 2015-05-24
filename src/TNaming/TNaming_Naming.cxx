@@ -14,7 +14,28 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TNaming_Naming.ixx>
+#include <Standard_GUID.hxx>
+#include <TDF_Label.hxx>
+#include <TNaming_NamedShape.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TNaming_Name.hxx>
+#include <TDF_LabelMap.hxx>
+#include <TDF_Attribute.hxx>
+#include <TDF_RelocationTable.hxx>
+#include <TDF_DataSet.hxx>
+#include <TDF_IDFilter.hxx>
+#include <TDF_AttributeIndexedMap.hxx>
+#include <TNaming_Naming.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(TNaming_Naming)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(TDF_Attribute),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(TNaming_Naming)
+IMPLEMENT_DOWNCAST(TNaming_Naming,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(TNaming_Naming)
 
 #include <TNaming_Builder.hxx>
 #include <TNaming_Tool.hxx>

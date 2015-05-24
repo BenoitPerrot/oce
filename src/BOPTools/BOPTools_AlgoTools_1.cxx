@@ -12,7 +12,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BOPTools_AlgoTools.ixx>
+#include <TopoDS_Vertex.hxx>
+#include <gp_Pnt.hxx>
+#include <IntTools_Curve.hxx>
+#include <TopoDS_Edge.hxx>
+#include <TopoDS_Face.hxx>
+#include <TopoDS_Shape.hxx>
+#include <IntTools_Context.hxx>
+#include <TopoDS_Solid.hxx>
+#include <IntTools_Range.hxx>
+#include <TopoDS_Shell.hxx>
+#include <Geom_Curve.hxx>
+#include <Geom2d_Curve.hxx>
+#include <Geom_Surface.hxx>
+#include <BOPTools_AlgoTools.hxx>
 //
 #include <gp_Pnt.hxx>
 #include <gp_Pnt2d.hxx>

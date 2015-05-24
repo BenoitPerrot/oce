@@ -14,7 +14,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PGeom2d_Ellipse.ixx>
+#include <gp_Ax22d.hxx>
+#include <PGeom2d_Ellipse.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(PGeom2d_Ellipse)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(PGeom2d_Conic),
+  STANDARD_TYPE(PGeom2d_Curve),
+  STANDARD_TYPE(PGeom2d_Geometry),
+  STANDARD_TYPE(Standard_Persistent),
+  STANDARD_TYPE(Standard_Storable),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(PGeom2d_Ellipse)
+IMPLEMENT_DOWNCAST(PGeom2d_Ellipse,Standard_Persistent)
+IMPLEMENT_STANDARD_RTTI(PGeom2d_Ellipse)
 
 //=======================================================================
 //function : PGeom2d_Ellipse

@@ -11,7 +11,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Vrml_IndexedLineSet.ixx>
+#include <TColStd_HArray1OfInteger.hxx>
+#include <Vrml_IndexedLineSet.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Vrml_IndexedLineSet)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Vrml_IndexedLineSet)
+IMPLEMENT_DOWNCAST(Vrml_IndexedLineSet,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Vrml_IndexedLineSet)
 
 Vrml_IndexedLineSet::Vrml_IndexedLineSet(const Handle(TColStd_HArray1OfInteger)& aCoordIndex, 
 					  const Handle(TColStd_HArray1OfInteger)& aMaterialIndex, 

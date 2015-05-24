@@ -11,7 +11,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepRepr_ParametricRepresentationContext.ixx>
+#include <StepRepr_ParametricRepresentationContext.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepRepr_ParametricRepresentationContext)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepRepr_RepresentationContext),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepRepr_ParametricRepresentationContext)
+IMPLEMENT_DOWNCAST(StepRepr_ParametricRepresentationContext,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepRepr_ParametricRepresentationContext)
 
 
 StepRepr_ParametricRepresentationContext::StepRepr_ParametricRepresentationContext ()  {}

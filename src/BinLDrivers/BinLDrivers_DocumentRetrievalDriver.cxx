@@ -13,7 +13,27 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BinLDrivers_DocumentRetrievalDriver.ixx>
+#include <BinMDF_ADriverTable.hxx>
+#include <CDM_MessageDriver.hxx>
+#include <TCollection_ExtendedString.hxx>
+#include <PCDM_Document.hxx>
+#include <CDM_Document.hxx>
+#include <CDM_Application.hxx>
+#include <TDF_Label.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <Storage_HeaderData.hxx>
+#include <BinLDrivers_DocumentSection.hxx>
+#include <BinLDrivers_DocumentRetrievalDriver.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(BinLDrivers_DocumentRetrievalDriver)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(PCDM_RetrievalDriver),
+  STANDARD_TYPE(PCDM_Reader),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(BinLDrivers_DocumentRetrievalDriver)
+IMPLEMENT_DOWNCAST(BinLDrivers_DocumentRetrievalDriver,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(BinLDrivers_DocumentRetrievalDriver)
 #include <BinLDrivers.hxx>
 #include <BinLDrivers_Marker.hxx>
 #include <BinMDF_ADriver.hxx>

@@ -12,7 +12,23 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Storage_DefaultCallBack.ixx>
+#include <Standard_Persistent.hxx>
+#include <Standard_Type.hxx>
+#include <Storage_BaseDriver.hxx>
+#include <Storage_DefaultCallBack.hxx>
+#include <Storage_Schema.hxx>
+
+IMPLEMENT_STANDARD_TYPE(Storage_DefaultCallBack)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Storage_CallBack),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Storage_DefaultCallBack)
+
+IMPLEMENT_DOWNCAST(Storage_DefaultCallBack,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Storage_DefaultCallBack)
 
 Storage_DefaultCallBack::Storage_DefaultCallBack()
 {

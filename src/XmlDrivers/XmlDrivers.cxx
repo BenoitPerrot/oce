@@ -13,7 +13,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <XmlDrivers.ixx>
+#include <Standard_Transient.hxx>
+#include <Standard_GUID.hxx>
+#include <XmlMDF_ADriverTable.hxx>
+#include <CDM_MessageDriver.hxx>
+#include <XmlDrivers.hxx>
 
 #include <XmlDrivers_DocumentStorageDriver.hxx>
 #include <XmlDrivers_DocumentRetrievalDriver.hxx>

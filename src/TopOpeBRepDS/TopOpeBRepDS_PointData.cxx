@@ -14,7 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopOpeBRepDS_PointData.ixx>
+#include <TopOpeBRepDS_DataStructure.hxx>
+#include <TopOpeBRepDS_Point.hxx>
+#include <TopOpeBRepDS_PointData.hxx>
 #include <TopOpeBRepDS_define.hxx>
 
 //=======================================================================

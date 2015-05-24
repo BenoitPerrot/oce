@@ -15,7 +15,21 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
-#include <StepFEA_NodeRepresentation.ixx>
+#include <StepFEA_FeaModel.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepRepr_HArray1OfRepresentationItem.hxx>
+#include <StepRepr_RepresentationContext.hxx>
+#include <StepFEA_NodeRepresentation.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepFEA_NodeRepresentation)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepRepr_Representation),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepFEA_NodeRepresentation)
+IMPLEMENT_DOWNCAST(StepFEA_NodeRepresentation,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepFEA_NodeRepresentation)
 
 //=======================================================================
 //function : StepFEA_NodeRepresentation

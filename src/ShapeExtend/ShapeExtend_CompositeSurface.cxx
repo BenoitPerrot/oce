@@ -14,7 +14,29 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <ShapeExtend_CompositeSurface.ixx>
+#include <TColGeom_HArray2OfSurface.hxx>
+#include <TColStd_HArray1OfReal.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <Geom_Surface.hxx>
+#include <gp_Pnt2d.hxx>
+#include <gp_Trsf2d.hxx>
+#include <gp_Trsf.hxx>
+#include <Geom_Geometry.hxx>
+#include <Geom_Curve.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Vec.hxx>
+#include <ShapeExtend_CompositeSurface.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(ShapeExtend_CompositeSurface)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Geom_Surface),
+  STANDARD_TYPE(Geom_Geometry),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(ShapeExtend_CompositeSurface)
+IMPLEMENT_DOWNCAST(ShapeExtend_CompositeSurface,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(ShapeExtend_CompositeSurface)
 #include <Precision.hxx>
 
 //=======================================================================

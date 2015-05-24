@@ -14,7 +14,9 @@
 
 #ifndef WNT
 
-#include <OSD_Error.ixx>
+#include <OSD_OSDError.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <OSD_Error.hxx>
 #include <OSD_ErrorList.hxx>
 #include <stdio.h>
 

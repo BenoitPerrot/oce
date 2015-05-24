@@ -14,7 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomFill_Tensor.ixx>
+#include <Standard_DimensionError.hxx>
+#include <Standard_RangeError.hxx>
+#include <math_Matrix.hxx>
+#include <GeomFill_Tensor.hxx>
 
 
 GeomFill_Tensor::GeomFill_Tensor(const Standard_Integer NbRow, 

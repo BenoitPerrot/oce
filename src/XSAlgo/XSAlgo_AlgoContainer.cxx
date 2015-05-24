@@ -13,7 +13,24 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <XSAlgo_AlgoContainer.ixx>
+#include <XSAlgo_ToolContainer.hxx>
+#include <TopoDS_Shape.hxx>
+#include <Standard_Transient.hxx>
+#include <Message_ProgressIndicator.hxx>
+#include <TopoDS_Edge.hxx>
+#include <TopoDS_Face.hxx>
+#include <Transfer_TransientProcess.hxx>
+#include <Transfer_FinderProcess.hxx>
+#include <XSAlgo_AlgoContainer.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(XSAlgo_AlgoContainer)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(XSAlgo_AlgoContainer)
+IMPLEMENT_DOWNCAST(XSAlgo_AlgoContainer,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(XSAlgo_AlgoContainer)
 
 #include <Standard_ErrorHandler.hxx>
 #include <Standard_Failure.hxx>

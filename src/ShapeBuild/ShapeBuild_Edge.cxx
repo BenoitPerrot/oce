@@ -14,7 +14,15 @@
 //#4  szv          S4163: optimizing
 //    pdn 20.04.99 S4181  Moving algorithm for transforming pcurves from IGES processor
 //    abv 05.05.99 S4137: adding methods for copying ranges, reassigning pcurves etc.
-#include <ShapeBuild_Edge.ixx>
+#include <TopoDS_Edge.hxx>
+#include <TopoDS_Vertex.hxx>
+#include <TopoDS_Face.hxx>
+#include <Geom_Surface.hxx>
+#include <TopLoc_Location.hxx>
+#include <Geom2d_Curve.hxx>
+#include <gp_Trsf2d.hxx>
+#include <Geom_Curve.hxx>
+#include <ShapeBuild_Edge.hxx>
 #include <Standard_ErrorHandler.hxx>
 #include <Standard_Failure.hxx>
 

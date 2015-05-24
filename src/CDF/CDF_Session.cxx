@@ -14,7 +14,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <CDF_Session.ixx>
+#include <CDF_Directory.hxx>
+#include <CDF_Application.hxx>
+#include <CDF_MetaDataDriver.hxx>
+#include <Standard_NoSuchObject.hxx>
+#include <Standard_MultiplyDefined.hxx>
+#include <CDF_Session.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(CDF_Session)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(CDF_Session)
+IMPLEMENT_DOWNCAST(CDF_Session,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(CDF_Session)
 #include <TCollection_ExtendedString.hxx>
 #include <CDF_MetaDataDriverFactory.hxx>
 #include <CDF_FWOSDriver.hxx>

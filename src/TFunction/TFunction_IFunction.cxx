@@ -13,7 +13,14 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TFunction_IFunction.ixx>
+#include <TDF_Label.hxx>
+#include <Standard_GUID.hxx>
+#include <TDF_LabelList.hxx>
+#include <TFunction_DoubleMapOfIntegerLabel.hxx>
+#include <TFunction_Logbook.hxx>
+#include <TFunction_Driver.hxx>
+#include <TFunction_GraphNode.hxx>
+#include <TFunction_IFunction.hxx>
 #include <TFunction_Function.hxx>
 #include <TFunction_GraphNode.hxx>
 #include <TFunction_DriverTable.hxx>

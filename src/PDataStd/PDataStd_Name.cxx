@@ -12,7 +12,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PDataStd_Name.ixx>
+#include <PCollection_HExtendedString.hxx>
+#include <PDataStd_Name.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(PDataStd_Name)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(PDF_Attribute),
+  STANDARD_TYPE(Standard_Persistent),
+  STANDARD_TYPE(Standard_Storable),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(PDataStd_Name)
+IMPLEMENT_DOWNCAST(PDataStd_Name,Standard_Persistent)
+IMPLEMENT_STANDARD_RTTI(PDataStd_Name)
 
 PDataStd_Name::PDataStd_Name() {}
 

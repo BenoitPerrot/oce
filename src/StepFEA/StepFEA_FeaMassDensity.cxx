@@ -15,7 +15,19 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
-#include <StepFEA_FeaMassDensity.ixx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepFEA_FeaMassDensity.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepFEA_FeaMassDensity)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepFEA_FeaMaterialPropertyRepresentationItem),
+  STANDARD_TYPE(StepRepr_RepresentationItem),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepFEA_FeaMassDensity)
+IMPLEMENT_DOWNCAST(StepFEA_FeaMassDensity,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepFEA_FeaMassDensity)
 
 //=======================================================================
 //function : StepFEA_FeaMassDensity

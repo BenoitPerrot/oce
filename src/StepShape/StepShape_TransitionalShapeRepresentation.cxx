@@ -11,7 +11,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepShape_TransitionalShapeRepresentation.ixx>
+#include <StepShape_TransitionalShapeRepresentation.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepShape_TransitionalShapeRepresentation)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepShape_ShapeRepresentation),
+  STANDARD_TYPE(StepRepr_Representation),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepShape_TransitionalShapeRepresentation)
+IMPLEMENT_DOWNCAST(StepShape_TransitionalShapeRepresentation,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepShape_TransitionalShapeRepresentation)
 
 
 StepShape_TransitionalShapeRepresentation::StepShape_TransitionalShapeRepresentation ()  {}

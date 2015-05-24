@@ -13,7 +13,9 @@
 
 //gka 06.01.99 S3767
 //abv 10.04.99 S4136: eliminate using BRepAPI::Precision()
-#include <IGESControl_Reader.ixx>
+#include <XSControl_WorkSession.hxx>
+#include <IGESData_IGESModel.hxx>
+#include <IGESControl_Reader.hxx>
 #include <IGESControl_Controller.hxx>
 #include <XSControl_Controller.hxx>
 #include <XSControl_TransferReader.hxx>

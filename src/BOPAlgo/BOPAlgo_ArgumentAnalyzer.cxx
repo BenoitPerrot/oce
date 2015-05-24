@@ -12,7 +12,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BOPAlgo_ArgumentAnalyzer.ixx>
+#include <TopoDS_Shape.hxx>
+#include <BOPAlgo_ArgumentAnalyzer.hxx>
 
 #include <Standard_ErrorHandler.hxx>
 #include <Standard_Failure.hxx>

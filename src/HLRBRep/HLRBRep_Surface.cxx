@@ -14,7 +14,16 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <HLRBRep_Surface.ixx>
+#include <Standard_OutOfRange.hxx>
+#include <Standard_NoSuchObject.hxx>
+#include <Standard_DomainError.hxx>
+#include <BRepAdaptor_Surface.hxx>
+#include <TopoDS_Face.hxx>
+#include <TColgp_Array2OfPnt.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Vec.hxx>
+#include <gp_Pln.hxx>
+#include <HLRBRep_Surface.hxx>
 #include <HLRBRep_BSurfaceTool.hxx>
 #include <gp_Pln.hxx>
 #include <GProp_PEquation.hxx>

@@ -21,7 +21,33 @@
 
 
 
-#include <TDF_Attribute.ixx>
+#include <TDF_Attribute.hxx>
+#include <Standard_DomainError.hxx>
+#include <TDF_Data.hxx>
+#include <TDF_Label.hxx>
+#include <TDF_LabelNode.hxx>
+#include <TDF_AttributeIterator.hxx>
+#include <TDF_DeltaOnForget.hxx>
+#include <Standard_GUID.hxx>
+#include <TDF_AttributeDelta.hxx>
+#include <TDF_DeltaOnAddition.hxx>
+#include <TDF_DeltaOnResume.hxx>
+#include <TDF_DeltaOnModification.hxx>
+#include <TDF_DeltaOnRemoval.hxx>
+#include <TDF_RelocationTable.hxx>
+#include <TDF_DataSet.hxx>
+#include <TDF_IDFilter.hxx>
+#include <TDF_AttributeIndexedMap.hxx>
+#include <TDF_Attribute.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(TDF_Attribute)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(TDF_Attribute)
+IMPLEMENT_DOWNCAST(TDF_Attribute,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(TDF_Attribute)
 
 #include <TCollection_AsciiString.hxx>
 #include <TDF_DefaultDeltaOnModification.hxx>

@@ -15,7 +15,21 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
-#include <StepFEA_FeaParametricPoint.ixx>
+#include <TColStd_HArray1OfReal.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepFEA_FeaParametricPoint.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepFEA_FeaParametricPoint)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepGeom_Point),
+  STANDARD_TYPE(StepGeom_GeometricRepresentationItem),
+  STANDARD_TYPE(StepRepr_RepresentationItem),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepFEA_FeaParametricPoint)
+IMPLEMENT_DOWNCAST(StepFEA_FeaParametricPoint,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepFEA_FeaParametricPoint)
 
 //=======================================================================
 //function : StepFEA_FeaParametricPoint

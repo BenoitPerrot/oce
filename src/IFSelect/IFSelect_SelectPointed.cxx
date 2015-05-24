@@ -11,7 +11,26 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IFSelect_SelectPointed.ixx>
+#include <Interface_InterfaceError.hxx>
+#include <Standard_Transient.hxx>
+#include <TColStd_HSequenceOfTransient.hxx>
+#include <Interface_CopyControl.hxx>
+#include <IFSelect_Transformer.hxx>
+#include <Interface_EntityIterator.hxx>
+#include <Interface_Graph.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <IFSelect_SelectPointed.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IFSelect_SelectPointed)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IFSelect_SelectBase),
+  STANDARD_TYPE(IFSelect_Selection),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IFSelect_SelectPointed)
+IMPLEMENT_DOWNCAST(IFSelect_SelectPointed,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IFSelect_SelectPointed)
 #include <TColStd_MapOfTransient.hxx>
 
 

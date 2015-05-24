@@ -13,7 +13,21 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BinMNaming_NamedShapeDriver.ixx>
+#include <CDM_MessageDriver.hxx>
+#include <TDF_Attribute.hxx>
+#include <BinObjMgt_Persistent.hxx>
+#include <BinTools_LocationSet.hxx>
+#include <BinMNaming_NamedShapeDriver.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(BinMNaming_NamedShapeDriver)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(BinMDF_ADriver),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(BinMNaming_NamedShapeDriver)
+IMPLEMENT_DOWNCAST(BinMNaming_NamedShapeDriver,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(BinMNaming_NamedShapeDriver)
 #include <Standard_DomainError.hxx>
 #include <TNaming_NamedShape.hxx>
 #include <TNaming_Evolution.hxx>

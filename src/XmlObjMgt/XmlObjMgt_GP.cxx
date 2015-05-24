@@ -13,7 +13,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <XmlObjMgt_GP.ixx>
+#include <gp_Trsf.hxx>
+#include <gp_Mat.hxx>
+#include <gp_XYZ.hxx>
+#include <XmlObjMgt_GP.hxx>
 #include <stdio.h>
 #include <errno.h>
 

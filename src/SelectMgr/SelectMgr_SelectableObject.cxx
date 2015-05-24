@@ -16,7 +16,23 @@
 
 #include <Standard_NotImplemented.hxx>
 
-#include <SelectMgr_SelectableObject.ixx>
+#include <Prs3d_Presentation.hxx>
+#include <Standard_NotImplemented.hxx>
+#include <SelectMgr_Selection.hxx>
+#include <SelectMgr_SequenceOfOwner.hxx>
+#include <SelectMgr_EntityOwner.hxx>
+#include <PrsMgr_PresentationManager.hxx>
+#include <SelectMgr_SelectableObject.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(SelectMgr_SelectableObject)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(PrsMgr_PresentableObject),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(SelectMgr_SelectableObject)
+IMPLEMENT_DOWNCAST(SelectMgr_SelectableObject,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(SelectMgr_SelectableObject)
 #include <Standard_NoSuchObject.hxx>
 #include <SelectMgr_Selection.hxx>
 #include <Select3D_SensitiveEntity.hxx>

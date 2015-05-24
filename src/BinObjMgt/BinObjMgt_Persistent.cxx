@@ -13,7 +13,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BinObjMgt_Persistent.ixx>
+#include <TCollection_AsciiString.hxx>
+#include <TCollection_ExtendedString.hxx>
+#include <TDF_Label.hxx>
+#include <Standard_GUID.hxx>
+#include <TDF_Data.hxx>
+#include <BinObjMgt_Persistent.hxx>
 #include <TColStd_ListOfInteger.hxx>
 #include <TDF_Tool.hxx>
 #include <TColStd_ListIteratorOfListOfInteger.hxx>

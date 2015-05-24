@@ -14,7 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomFill_Generator.ixx>
+#include <Geom_Surface.hxx>
+#include <StdFail_NotDone.hxx>
+#include <Standard_DomainError.hxx>
+#include <GeomFill_Generator.hxx>
 
 #include <TColgp_Array1OfPnt.hxx>
 #include <TColgp_Array2OfPnt.hxx>

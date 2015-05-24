@@ -14,7 +14,15 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <HLRTopoBRep_DSFiller.ixx>
+#include <TopoDS_Shape.hxx>
+#include <Contap_Contour.hxx>
+#include <HLRTopoBRep_Data.hxx>
+#include <BRepTopAdaptor_MapOfShapeTool.hxx>
+#include <TopoDS_Face.hxx>
+#include <TopoDS_Vertex.hxx>
+#include <Contap_Point.hxx>
+#include <TopoDS_Edge.hxx>
+#include <HLRTopoBRep_DSFiller.hxx>
 
 #include <TopoDS.hxx>
 #include <TopExp.hxx>

@@ -19,7 +19,21 @@
 ************************************************************************/
 
 #include <V3d.hxx>
-#include <V3d_PositionLight.ixx>
+#include <V3d_BadValue.hxx>
+#include <V3d_Viewer.hxx>
+#include <V3d_View.hxx>
+#include <Graphic3d_Group.hxx>
+#include <V3d_PositionLight.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(V3d_PositionLight)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(V3d_Light),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(V3d_PositionLight)
+IMPLEMENT_DOWNCAST(V3d_PositionLight,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(V3d_PositionLight)
 #include <Graphic3d_Vector.hxx>
 #include <Graphic3d_Vertex.hxx>
 #include <Graphic3d_Structure.hxx>

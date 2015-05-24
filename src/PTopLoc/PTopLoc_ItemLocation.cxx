@@ -14,7 +14,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PTopLoc_ItemLocation.ixx>
+#include <PTopLoc_Datum3D.hxx>
+#include <PTopLoc_Location.hxx>
+#include <PTopLoc_ItemLocation.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(PTopLoc_ItemLocation)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Standard_Persistent),
+  STANDARD_TYPE(Standard_Storable),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(PTopLoc_ItemLocation)
+IMPLEMENT_DOWNCAST(PTopLoc_ItemLocation,Standard_Persistent)
+IMPLEMENT_STANDARD_RTTI(PTopLoc_ItemLocation)
 
 //=======================================================================
 //function : PTopLoc_ItemLocation

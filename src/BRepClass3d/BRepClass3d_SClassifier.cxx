@@ -16,7 +16,11 @@
 
 //  Modified by skv - Thu Sep  4 11:22:05 2003 OCC578
 
-#include <BRepClass3d_SClassifier.ixx>
+#include <Standard_DomainError.hxx>
+#include <BRepClass3d_SolidExplorer.hxx>
+#include <gp_Pnt.hxx>
+#include <TopoDS_Face.hxx>
+#include <BRepClass3d_SClassifier.hxx>
 
 #include <gp_Pnt.hxx>
 #include <gp_Lin.hxx>

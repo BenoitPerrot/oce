@@ -14,7 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <HLRBRep_EdgeFaceTool.ixx>
+#include <gp_Dir.hxx>
+#include <HLRBRep_EdgeFaceTool.hxx>
 #include <HLRBRep_Curve.hxx>
 #include <HLRBRep_Surface.hxx>
 #include <BRepExtrema_ExtPF.hxx>

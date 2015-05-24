@@ -15,7 +15,11 @@
 // commercial license or contractual agreement.
 
 #include <Interface_Macros.hxx>
-#include <STEPSelections_Counter.ixx>
+#include <Interface_Graph.hxx>
+#include <Standard_Transient.hxx>
+#include <StepShape_ConnectedFaceSet.hxx>
+#include <StepGeom_CompositeCurve.hxx>
+#include <STEPSelections_Counter.hxx>
 #include <StepShape_ShapeDefinitionRepresentation.hxx>
 #include <Interface_EntityIterator.hxx>
 #include <Interface_Graph.hxx>

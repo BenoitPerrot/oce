@@ -15,18 +15,35 @@
 
 // The original implementation copyright (c) RINA S.p.A.
 
-#include <Message_Algorithm.ixx>
-
 #include <Message.hxx>
+#include <Message_Algorithm.hxx>
+#include <Message_Messenger.hxx>
 #include <Message_Msg.hxx>
 #include <Message_MsgFile.hxx>
-#include <Message_Messenger.hxx>
 #include <Standard_AncestorIterator.hxx>
+#include <Standard_Type.hxx>
 #include <TCollection_AsciiString.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <TCollection_ExtendedString.hxx>
+#include <TCollection_HExtendedString.hxx>
+#include <TColStd_HArray1OfTransient.hxx>
+#include <TColStd_HPackedMapOfInteger.hxx>
+#include <TColStd_HSequenceOfHExtendedString.hxx>
+#include <TColStd_SequenceOfHExtendedString.hxx>
 #include <TColStd_SequenceOfInteger.hxx>
 #include <TColStd_HSequenceOfInteger.hxx>
-#include <TColStd_HSequenceOfHExtendedString.hxx>
 #include <TColStd_MapIteratorOfPackedMapOfInteger.hxx>
+
+IMPLEMENT_STANDARD_TYPE(Message_Algorithm)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Message_Algorithm)
+
+IMPLEMENT_DOWNCAST(Message_Algorithm,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Message_Algorithm)
 
 //=======================================================================
 //function : SetMessenger

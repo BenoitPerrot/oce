@@ -34,7 +34,18 @@
 //-Declarations
 
 // for the class
-#include <Graphic3d_AspectText3d.ixx>
+#include <Graphic3d_AspectTextDefinitionError.hxx>
+#include <Quantity_Color.hxx>
+#include <Graphic3d_AspectText3d.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Graphic3d_AspectText3d)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Graphic3d_AspectText3d)
+IMPLEMENT_DOWNCAST(Graphic3d_AspectText3d,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Graphic3d_AspectText3d)
 
 #include <TCollection_AsciiString.hxx>
 #include <OSD_Environment.hxx>

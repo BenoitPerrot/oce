@@ -11,7 +11,23 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IGESSelect_RemoveCurves.ixx>
+#include <IFSelect_ContextModif.hxx>
+#include <IGESData_IGESModel.hxx>
+#include <Interface_CopyTool.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <IGESSelect_RemoveCurves.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESSelect_RemoveCurves)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IGESSelect_ModelModifier),
+  STANDARD_TYPE(IFSelect_Modifier),
+  STANDARD_TYPE(IFSelect_GeneralModifier),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESSelect_RemoveCurves)
+IMPLEMENT_DOWNCAST(IGESSelect_RemoveCurves,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESSelect_RemoveCurves)
 #include <Interface_Macros.hxx>
 #include <IGESGeom_TrimmedSurface.hxx>
 #include <IGESGeom_BoundedSurface.hxx>

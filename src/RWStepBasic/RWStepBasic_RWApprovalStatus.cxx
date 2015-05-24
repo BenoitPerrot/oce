@@ -11,7 +11,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <RWStepBasic_RWApprovalStatus.ixx>
+#include <StepData_StepReaderData.hxx>
+#include <Interface_Check.hxx>
+#include <StepBasic_ApprovalStatus.hxx>
+#include <StepData_StepWriter.hxx>
+#include <RWStepBasic_RWApprovalStatus.hxx>
 
 
 RWStepBasic_RWApprovalStatus::RWStepBasic_RWApprovalStatus () {}

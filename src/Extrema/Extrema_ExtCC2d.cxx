@@ -14,7 +14,15 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Extrema_ExtCC2d.ixx>
+#include <StdFail_InfiniteSolutions.hxx>
+#include <StdFail_NotDone.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Adaptor2d_Curve2d.hxx>
+#include <Extrema_POnCurv2d.hxx>
+#include <gp_Pnt2d.hxx>
+#include <Extrema_ExtElC2d.hxx>
+#include <Extrema_ECC2d.hxx>
+#include <Extrema_ExtCC2d.hxx>
 
 #include <Extrema_ExtElC2d.hxx>
 #include <StdFail_NotDone.hxx>

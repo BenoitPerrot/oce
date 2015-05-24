@@ -11,7 +11,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IGESData_SpecificModule.ixx>
+#include <IGESData_IGESEntity.hxx>
+#include <IGESData_IGESDumper.hxx>
+#include <Message_Messenger.hxx>
+#include <IGESData_SpecificModule.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESData_SpecificModule)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESData_SpecificModule)
+IMPLEMENT_DOWNCAST(IGESData_SpecificModule,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESData_SpecificModule)
 
 
 Standard_Boolean  IGESData_SpecificModule::OwnCorrect

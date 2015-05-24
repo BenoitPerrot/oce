@@ -14,7 +14,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopOpeBRep_EdgesIntersector.ixx>
+#include <BRepAdaptor_HSurface.hxx>
+#include <TopoDS_Shape.hxx>
+#include <Bnd_Box.hxx>
+#include <Geom2dAdaptor_Curve.hxx>
+#include <BRepAdaptor_Surface.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <TopOpeBRep_SequenceOfPoint2d.hxx>
+#include <TopOpeBRep_Point2d.hxx>
+#include <IntRes2d_IntersectionSegment.hxx>
+#include <IntRes2d_IntersectionPoint.hxx>
+#include <TopOpeBRepDS_Transition.hxx>
+#include <gp_Pnt.hxx>
+#include <TopOpeBRep_EdgesIntersector.hxx>
 
 #include <TopoDS.hxx>
 #include <BRep_Tool.hxx>

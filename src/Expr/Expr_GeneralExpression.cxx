@@ -14,7 +14,24 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Expr_GeneralExpression.ixx>
+#include <Standard_OutOfRange.hxx>
+#include <Standard_NumericError.hxx>
+#include <Expr_NotEvaluable.hxx>
+#include <Expr_InvalidOperand.hxx>
+#include <Expr_NamedUnknown.hxx>
+#include <Expr_Array1OfNamedUnknown.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <Expr_GeneralExpression.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Expr_GeneralExpression)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Expr_GeneralExpression)
+IMPLEMENT_DOWNCAST(Expr_GeneralExpression,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Expr_GeneralExpression)
 #include <Expr_NotEvaluable.hxx>
 #include <Standard_OutOfRange.hxx>
 

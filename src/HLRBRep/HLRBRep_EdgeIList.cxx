@@ -17,7 +17,10 @@
 #ifndef No_Exception
 #define No_Exception
 #endif
-#include <HLRBRep_EdgeIList.ixx>
+#include <HLRAlgo_InterferenceList.hxx>
+#include <HLRAlgo_Interference.hxx>
+#include <HLRBRep_EdgeInterferenceTool.hxx>
+#include <HLRBRep_EdgeIList.hxx>
 
 #include <TopCnx_EdgeFaceTransition.hxx>
 #include <HLRAlgo_ListIteratorOfInterferenceList.hxx>

@@ -35,7 +35,22 @@
  */
 
 #include <V3d.hxx>
-#include <V3d_DirectionalLight.ixx>
+#include <V3d_BadValue.hxx>
+#include <V3d_Viewer.hxx>
+#include <V3d_View.hxx>
+#include <Graphic3d_Group.hxx>
+#include <V3d_DirectionalLight.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(V3d_DirectionalLight)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(V3d_PositionLight),
+  STANDARD_TYPE(V3d_Light),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(V3d_DirectionalLight)
+IMPLEMENT_DOWNCAST(V3d_DirectionalLight,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(V3d_DirectionalLight)
 #include <Graphic3d_Vector.hxx>
 #include <Graphic3d_Vertex.hxx>
 #include <Graphic3d_Structure.hxx>

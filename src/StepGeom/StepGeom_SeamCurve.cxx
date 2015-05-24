@@ -11,7 +11,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepGeom_SeamCurve.ixx>
+#include <StepGeom_SeamCurve.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepGeom_SeamCurve)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepGeom_SurfaceCurve),
+  STANDARD_TYPE(StepGeom_Curve),
+  STANDARD_TYPE(StepGeom_GeometricRepresentationItem),
+  STANDARD_TYPE(StepRepr_RepresentationItem),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepGeom_SeamCurve)
+IMPLEMENT_DOWNCAST(StepGeom_SeamCurve,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepGeom_SeamCurve)
 
 
 StepGeom_SeamCurve::StepGeom_SeamCurve ()  {}

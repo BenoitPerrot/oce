@@ -17,7 +17,10 @@
 #define G005    //ATS,GG 04/01/01 Use PrimitiveArray instead Sets of primitives
 //              for performance improvment
 
-#include <StdPrs_ShadedSurface.ixx>
+#include <Prs3d_Presentation.hxx>
+#include <Adaptor3d_Surface.hxx>
+#include <Prs3d_Drawer.hxx>
+#include <StdPrs_ShadedSurface.hxx>
 
 #include <Graphic3d_ArrayOfTriangleStrips.hxx>
 #include <Graphic3d_AspectFillArea3d.hxx>

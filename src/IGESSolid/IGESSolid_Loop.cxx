@@ -17,7 +17,24 @@
 //--------------------------------------------------------------------
 //pdn 20.04.99 CTS22655 avoid of exceptions on empty loops
 
-#include <IGESSolid_Loop.ixx>
+#include <TColStd_HArray1OfInteger.hxx>
+#include <IGESData_HArray1OfIGESEntity.hxx>
+#include <IGESBasic_HArray1OfHArray1OfInteger.hxx>
+#include <IGESBasic_HArray1OfHArray1OfIGESEntity.hxx>
+#include <Standard_DimensionMismatch.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <IGESData_IGESEntity.hxx>
+#include <IGESSolid_Loop.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESSolid_Loop)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IGESData_IGESEntity),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESSolid_Loop)
+IMPLEMENT_DOWNCAST(IGESSolid_Loop,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESSolid_Loop)
 #include <IGESSolid_EdgeList.hxx>
 #include <IGESSolid_VertexList.hxx>
 

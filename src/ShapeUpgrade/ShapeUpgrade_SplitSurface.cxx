@@ -16,7 +16,19 @@
 
 //    gka 30.04.99 S4137: extended for all types of surfaces
 
-#include <ShapeUpgrade_SplitSurface.ixx>
+#include <TColStd_HSequenceOfReal.hxx>
+#include <Geom_Surface.hxx>
+#include <ShapeExtend_CompositeSurface.hxx>
+#include <ShapeUpgrade_SplitSurface.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(ShapeUpgrade_SplitSurface)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(ShapeUpgrade_SplitSurface)
+IMPLEMENT_DOWNCAST(ShapeUpgrade_SplitSurface,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_SplitSurface)
 #include <ShapeUpgrade.hxx>
 #include <Geom_BSplineSurface.hxx>
 #include <Geom_RectangularTrimmedSurface.hxx>

@@ -11,7 +11,16 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IFGraph_SubPartsIterator.ixx> 
+#include <TColStd_HSequenceOfInteger.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Standard_NoSuchObject.hxx>
+#include <Interface_InterfaceError.hxx>
+#include <Interface_Graph.hxx>
+#include <Interface_InterfaceModel.hxx>
+#include <Standard_Transient.hxx>
+#include <Interface_EntityIterator.hxx>
+#include <Interface_GraphContent.hxx>
+#include <IFGraph_SubPartsIterator.hxx>
 #include <TColStd_Array1OfInteger.hxx>
 #include <Interface_InterfaceError.hxx>
 #include <Standard_NoSuchObject.hxx>

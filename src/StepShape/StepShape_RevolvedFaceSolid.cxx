@@ -11,7 +11,23 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepShape_RevolvedFaceSolid.ixx>
+#include <StepGeom_Axis1Placement.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepShape_FaceSurface.hxx>
+#include <StepShape_RevolvedFaceSolid.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepShape_RevolvedFaceSolid)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepShape_SweptFaceSolid),
+  STANDARD_TYPE(StepShape_SolidModel),
+  STANDARD_TYPE(StepGeom_GeometricRepresentationItem),
+  STANDARD_TYPE(StepRepr_RepresentationItem),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepShape_RevolvedFaceSolid)
+IMPLEMENT_DOWNCAST(StepShape_RevolvedFaceSolid,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepShape_RevolvedFaceSolid)
 
 
 StepShape_RevolvedFaceSolid::StepShape_RevolvedFaceSolid ()  {}

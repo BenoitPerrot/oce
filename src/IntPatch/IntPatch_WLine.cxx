@@ -14,7 +14,25 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IntPatch_WLine.ixx>
+#include <IntSurf_LineOn2S.hxx>
+#include <Adaptor2d_HCurve2d.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Standard_DomainError.hxx>
+#include <IntPatch_Point.hxx>
+#include <IntSurf_PntOn2S.hxx>
+#include <gp_Pnt2d.hxx>
+#include <gp_Pnt.hxx>
+#include <IntPatch_WLine.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IntPatch_WLine)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IntPatch_Line),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IntPatch_WLine)
+IMPLEMENT_DOWNCAST(IntPatch_WLine,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IntPatch_WLine)
 
 #define DEBUG 0
 #define DEBUGV 0

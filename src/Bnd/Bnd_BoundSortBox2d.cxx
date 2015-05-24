@@ -14,7 +14,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Bnd_BoundSortBox2d.ixx>
+#include <Bnd_HArray1OfBox2d.hxx>
+#include <TColStd_HArray1OfListOfInteger.hxx>
+#include <Standard_NullValue.hxx>
+#include <Standard_MultiplyDefined.hxx>
+#include <Bnd_Box2d.hxx>
+#include <TColStd_ListOfInteger.hxx>
+#include <Bnd_BoundSortBox2d.hxx>
 #include <Standard_NullValue.hxx>
 #include <Bnd_Array1OfBox.hxx>
 #include <TColStd_ListIteratorOfListOfInteger.hxx>

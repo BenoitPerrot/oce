@@ -25,7 +25,21 @@
 //S4181 pdn 15.04.99 implementing of reading IGES elementary surfaces. (instead of shift, reverce and 
 //scale factors the transformation matrix and scale factor used)
 
-#include <IGESControl_IGESBoundary.ixx>
+#include <IGESToBRep_CurveAndSurface.hxx>
+#include <IGESData_IGESEntity.hxx>
+#include <ShapeExtend_WireData.hxx>
+#include <IGESData_HArray1OfIGESEntity.hxx>
+#include <IGESControl_IGESBoundary.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESControl_IGESBoundary)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IGESToBRep_IGESBoundary),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESControl_IGESBoundary)
+IMPLEMENT_DOWNCAST(IGESControl_IGESBoundary,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESControl_IGESBoundary)
 #include <TColStd_HSequenceOfTransient.hxx>
 #include <Geom2d_Curve.hxx>
 #include <Geom_Curve.hxx>

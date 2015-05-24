@@ -11,7 +11,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <XSControl.ixx>
+#include <XSControl_WorkSession.hxx>
+#include <IFSelect_SessionPilot.hxx>
+#include <XSControl_Vars.hxx>
+#include <XSControl.hxx>
 
 Handle(XSControl_WorkSession)  XSControl::Session
   (const Handle(IFSelect_SessionPilot)& pilot)

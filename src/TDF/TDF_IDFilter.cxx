@@ -21,7 +21,10 @@
 
 
 
-#include <TDF_IDFilter.ixx>
+#include <Standard_GUID.hxx>
+#include <TDF_IDList.hxx>
+#include <TDF_Attribute.hxx>
+#include <TDF_IDFilter.hxx>
 
 #include <TDF_IDList.hxx>
 #include <TDF_ListIteratorOfIDList.hxx>

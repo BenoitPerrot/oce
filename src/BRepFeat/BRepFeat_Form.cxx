@@ -14,7 +14,14 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepFeat_Form.ixx>
+#include <TopTools_ListOfShape.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TColGeom_SequenceOfCurve.hxx>
+#include <Geom_Curve.hxx>
+#include <LocOpe_Gluer.hxx>
+#include <BRepAlgoAPI_BooleanOperation.hxx>
+#include <TopOpeBRepBuild_HBuilder.hxx>
+#include <BRepFeat_Form.hxx>
 
 #include <LocOpe.hxx>
 #include <LocOpe_Gluer.hxx>

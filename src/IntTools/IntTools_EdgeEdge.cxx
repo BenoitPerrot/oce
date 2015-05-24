@@ -12,7 +12,14 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IntTools_EdgeEdge.ixx> 
+#include <Geom_Curve.hxx>
+#include <TopoDS_Edge.hxx>
+#include <IntTools_Range.hxx>
+#include <IntTools_SequenceOfRanges.hxx>
+#include <Bnd_Box.hxx>
+#include <BRepAdaptor_Curve.hxx>
+#include <IntTools_SequenceOfCommonPrts.hxx>
+#include <IntTools_EdgeEdge.hxx>
 
 #include <gp_Dir.hxx>
 #include <gp_Lin.hxx>

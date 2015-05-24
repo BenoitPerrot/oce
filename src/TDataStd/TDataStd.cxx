@@ -14,7 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TDataStd.ixx>
+#include <TDF_IDList.hxx>
+#include <TDataStd.hxx>
 
 #include <TDF_AttributeIterator.hxx>
 #include <TDF_AttributeList.hxx>

@@ -15,7 +15,21 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
-#include <StepDimTol_GeometricToleranceWithDatumReference.ixx>
+#include <StepDimTol_HArray1OfDatumReference.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepBasic_MeasureWithUnit.hxx>
+#include <StepRepr_ShapeAspect.hxx>
+#include <StepDimTol_GeometricToleranceWithDatumReference.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepDimTol_GeometricToleranceWithDatumReference)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepDimTol_GeometricTolerance),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepDimTol_GeometricToleranceWithDatumReference)
+IMPLEMENT_DOWNCAST(StepDimTol_GeometricToleranceWithDatumReference,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepDimTol_GeometricToleranceWithDatumReference)
 
 //=======================================================================
 //function : StepDimTol_GeometricToleranceWithDatumReference

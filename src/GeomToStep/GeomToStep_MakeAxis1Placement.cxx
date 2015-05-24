@@ -14,7 +14,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomToStep_MakeAxis1Placement.ixx>
+#include <StepGeom_Axis1Placement.hxx>
+#include <StdFail_NotDone.hxx>
+#include <gp_Ax1.hxx>
+#include <gp_Ax2d.hxx>
+#include <Geom_Axis1Placement.hxx>
+#include <Geom2d_AxisPlacement.hxx>
+#include <GeomToStep_MakeAxis1Placement.hxx>
 #include <GeomToStep_MakeDirection.hxx>
 #include <StdFail_NotDone.hxx>
 #include <gp_Ax1.hxx>

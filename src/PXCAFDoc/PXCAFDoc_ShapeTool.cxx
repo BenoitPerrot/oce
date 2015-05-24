@@ -13,7 +13,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PXCAFDoc_ShapeTool.ixx>
+#include <PXCAFDoc_ShapeTool.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(PXCAFDoc_ShapeTool)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(PDF_Attribute),
+  STANDARD_TYPE(Standard_Persistent),
+  STANDARD_TYPE(Standard_Storable),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(PXCAFDoc_ShapeTool)
+IMPLEMENT_DOWNCAST(PXCAFDoc_ShapeTool,Standard_Persistent)
+IMPLEMENT_STANDARD_RTTI(PXCAFDoc_ShapeTool)
 
 
 PXCAFDoc_ShapeTool::PXCAFDoc_ShapeTool() {}

@@ -14,7 +14,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepFill_CurveConstraint.ixx>
+#include <Standard_ConstructionError.hxx>
+#include <Adaptor3d_HCurveOnSurface.hxx>
+#include <Adaptor3d_HCurve.hxx>
+#include <BRepFill_CurveConstraint.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(BRepFill_CurveConstraint)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(GeomPlate_CurveConstraint),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(BRepFill_CurveConstraint)
+IMPLEMENT_DOWNCAST(BRepFill_CurveConstraint,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(BRepFill_CurveConstraint)
 #include <GeomPlate_CurveConstraint.hxx>
 #include <GCPnts_AbscissaPoint.hxx>
 #include <Adaptor2d_HCurve2d.hxx>

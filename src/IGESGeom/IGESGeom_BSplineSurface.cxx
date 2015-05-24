@@ -16,7 +16,23 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESGeom_BSplineSurface.ixx>
+#include <TColStd_HArray1OfReal.hxx>
+#include <TColStd_HArray2OfReal.hxx>
+#include <TColgp_HArray2OfXYZ.hxx>
+#include <Standard_DimensionMismatch.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <gp_Pnt.hxx>
+#include <IGESGeom_BSplineSurface.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESGeom_BSplineSurface)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IGESData_IGESEntity),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESGeom_BSplineSurface)
+IMPLEMENT_DOWNCAST(IGESGeom_BSplineSurface,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESGeom_BSplineSurface)
 #include <Standard_OutOfRange.hxx>
 #include <gp_GTrsf.hxx>
 

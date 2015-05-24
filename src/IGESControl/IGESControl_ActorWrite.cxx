@@ -11,7 +11,21 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IGESControl_ActorWrite.ixx>
+#include <Transfer_Finder.hxx>
+#include <Transfer_Binder.hxx>
+#include <Transfer_FinderProcess.hxx>
+#include <IGESControl_ActorWrite.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESControl_ActorWrite)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Transfer_ActorOfFinderProcess),
+  STANDARD_TYPE(Transfer_ActorOfProcessForFinder),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESControl_ActorWrite)
+IMPLEMENT_DOWNCAST(IGESControl_ActorWrite,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESControl_ActorWrite)
 #include <TransferBRep_ShapeMapper.hxx>
 #include <Interface_Macros.hxx>
 #include <IGESData_IGESModel.hxx>

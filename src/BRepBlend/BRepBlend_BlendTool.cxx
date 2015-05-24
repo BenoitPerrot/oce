@@ -14,7 +14,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepBlend_BlendTool.ixx>
+#include <gp_Pnt2d.hxx>
+#include <Adaptor3d_HSurface.hxx>
+#include <Adaptor2d_HCurve2d.hxx>
+#include <Adaptor3d_HVertex.hxx>
+#include <BRepBlend_BlendTool.hxx>
 
 #include <BRepClass_FaceClassifier.hxx>
 #include <Extrema_EPCOfExtPC2d.hxx>

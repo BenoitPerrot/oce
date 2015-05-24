@@ -11,7 +11,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepData_HeaderTool.ixx>
+#include <StepData_StepReaderData.hxx>
+#include <TColStd_SequenceOfAsciiString.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <StepData_Protocol.hxx>
+#include <StepData_FileProtocol.hxx>
+#include <StepData_HeaderTool.hxx>
 #include <Interface_ReaderLib.hxx>
 #include <Interface_Protocol.hxx>
 

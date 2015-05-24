@@ -11,7 +11,23 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IGESSelect_SetLabel.ixx>
+#include <IFSelect_ContextModif.hxx>
+#include <IGESData_IGESModel.hxx>
+#include <Interface_CopyTool.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <IGESSelect_SetLabel.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESSelect_SetLabel)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IGESSelect_ModelModifier),
+  STANDARD_TYPE(IFSelect_Modifier),
+  STANDARD_TYPE(IFSelect_GeneralModifier),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESSelect_SetLabel)
+IMPLEMENT_DOWNCAST(IGESSelect_SetLabel,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESSelect_SetLabel)
 #include <Interface_Macros.hxx>
 #include <IGESData_IGESEntity.hxx>
 #include <TCollection_HAsciiString.hxx>

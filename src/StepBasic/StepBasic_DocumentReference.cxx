@@ -11,7 +11,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepBasic_DocumentReference.ixx>
+#include <StepBasic_Document.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepBasic_DocumentReference.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepBasic_DocumentReference)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepBasic_DocumentReference)
+IMPLEMENT_DOWNCAST(StepBasic_DocumentReference,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepBasic_DocumentReference)
 
 void  StepBasic_DocumentReference::Init0
   (const Handle(StepBasic_Document)& aAssignedDocument,

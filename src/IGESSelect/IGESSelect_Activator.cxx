@@ -14,7 +14,18 @@
 #include <Standard_ErrorHandler.hxx>
 #include <Standard_Failure.hxx>
 
-#include <IGESSelect_Activator.ixx>
+#include <IFSelect_SessionPilot.hxx>
+#include <IGESSelect_Activator.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESSelect_Activator)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IFSelect_Activator),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESSelect_Activator)
+IMPLEMENT_DOWNCAST(IGESSelect_Activator,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESSelect_Activator)
 #include <Interface_EntityIterator.hxx>
 #include <Interface_Macros.hxx>
 #include <IFSelect_WorkSession.hxx>

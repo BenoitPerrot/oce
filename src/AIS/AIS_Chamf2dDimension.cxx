@@ -19,7 +19,28 @@
 
 #include <Standard_NotImplemented.hxx>
 
-#include <AIS_Chamf2dDimension.ixx>
+#include <TopoDS_Shape.hxx>
+#include <Geom_Plane.hxx>
+#include <TCollection_ExtendedString.hxx>
+#include <gp_Pnt.hxx>
+#include <Prs3d_Presentation.hxx>
+#include <Prs3d_Projector.hxx>
+#include <Geom_Transformation.hxx>
+#include <SelectMgr_Selection.hxx>
+#include <AIS_Chamf2dDimension.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(AIS_Chamf2dDimension)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(AIS_Relation),
+  STANDARD_TYPE(AIS_InteractiveObject),
+  STANDARD_TYPE(SelectMgr_SelectableObject),
+  STANDARD_TYPE(PrsMgr_PresentableObject),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(AIS_Chamf2dDimension)
+IMPLEMENT_DOWNCAST(AIS_Chamf2dDimension,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(AIS_Chamf2dDimension)
 
 #include <DsgPrs_Chamf2dPresentation.hxx>
 

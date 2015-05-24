@@ -14,7 +14,21 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepCheck_Edge.ixx>
+#include <BRep_CurveRepresentation.hxx>
+#include <Adaptor3d_HCurve.hxx>
+#include <TopoDS_Edge.hxx>
+#include <TopoDS_Shape.hxx>
+#include <BRepCheck_Edge.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(BRepCheck_Edge)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(BRepCheck_Result),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(BRepCheck_Edge)
+IMPLEMENT_DOWNCAST(BRepCheck_Edge,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(BRepCheck_Edge)
 #include <TColStd_Array1OfTransient.hxx>
 #include <TColStd_HArray1OfReal.hxx>
 

@@ -17,7 +17,16 @@
 #include <Standard_NullObject.hxx>
 #include <Standard_NotImplemented.hxx>
 //#include <DBC_DBVArray.hxx>
-#include <DBC_BaseArray.ixx>
+#include <Standard_NullObject.hxx>
+#include <Standard_NegativeValue.hxx>
+#include <Standard_DimensionMismatch.hxx>
+#include <DBC_BaseArray.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(DBC_BaseArray)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Standard_Storable),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(DBC_BaseArray)
 
 #ifdef OBJS
 #include <Standard_Persistent.hxx>

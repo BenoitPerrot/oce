@@ -11,7 +11,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepGeom_GeometricRepresentationItem.ixx>
+#include <StepGeom_GeometricRepresentationItem.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepGeom_GeometricRepresentationItem)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepRepr_RepresentationItem),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepGeom_GeometricRepresentationItem)
+IMPLEMENT_DOWNCAST(StepGeom_GeometricRepresentationItem,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepGeom_GeometricRepresentationItem)
 
 
 StepGeom_GeometricRepresentationItem::StepGeom_GeometricRepresentationItem ()  {}

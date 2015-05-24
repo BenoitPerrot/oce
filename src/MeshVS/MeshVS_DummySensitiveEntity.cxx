@@ -13,7 +13,21 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <MeshVS_DummySensitiveEntity.ixx>
+#include <SelectBasics_EntityOwner.hxx>
+#include <SelectBasics_ListOfBox2d.hxx>
+#include <TColgp_Array1OfPnt2d.hxx>
+#include <Bnd_Box2d.hxx>
+#include <MeshVS_DummySensitiveEntity.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(MeshVS_DummySensitiveEntity)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(SelectBasics_SensitiveEntity),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(MeshVS_DummySensitiveEntity)
+IMPLEMENT_DOWNCAST(MeshVS_DummySensitiveEntity,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(MeshVS_DummySensitiveEntity)
 
 //================================================================
 // Function : Constructor MeshVS_DummySensitiveEntity

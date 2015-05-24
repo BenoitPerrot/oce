@@ -15,7 +15,21 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.1
 
-#include <StepAP214_ExternallyDefinedGeneralProperty.ixx>
+#include <StepBasic_ExternallyDefinedItem.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepBasic_SourceItem.hxx>
+#include <StepBasic_ExternalSource.hxx>
+#include <StepAP214_ExternallyDefinedGeneralProperty.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepAP214_ExternallyDefinedGeneralProperty)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepBasic_GeneralProperty),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepAP214_ExternallyDefinedGeneralProperty)
+IMPLEMENT_DOWNCAST(StepAP214_ExternallyDefinedGeneralProperty,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepAP214_ExternallyDefinedGeneralProperty)
 
 //=======================================================================
 //function : StepAP214_ExternallyDefinedGeneralProperty

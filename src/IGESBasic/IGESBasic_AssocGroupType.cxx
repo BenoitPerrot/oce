@@ -16,7 +16,18 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESBasic_AssocGroupType.ixx>
+#include <TCollection_HAsciiString.hxx>
+#include <IGESBasic_AssocGroupType.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESBasic_AssocGroupType)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IGESData_IGESEntity),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESBasic_AssocGroupType)
+IMPLEMENT_DOWNCAST(IGESBasic_AssocGroupType,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESBasic_AssocGroupType)
 
 
 IGESBasic_AssocGroupType::IGESBasic_AssocGroupType ()    {  }

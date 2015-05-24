@@ -11,5 +11,15 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IGESData_ColorEntity.ixx>
+#include <IGESData_ColorEntity.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESData_ColorEntity)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IGESData_IGESEntity),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESData_ColorEntity)
+IMPLEMENT_DOWNCAST(IGESData_ColorEntity,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESData_ColorEntity)
 // ColorEntity ne sert qu'au controle de type (entite Color du directory part)

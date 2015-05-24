@@ -13,7 +13,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TDataStd_DeltaOnModificationOfIntArray.ixx>
+#include <TColStd_HArray1OfInteger.hxx>
+#include <TDataStd_IntegerArray.hxx>
+#include <TDataStd_DeltaOnModificationOfIntArray.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(TDataStd_DeltaOnModificationOfIntArray)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(TDF_DeltaOnModification),
+  STANDARD_TYPE(TDF_AttributeDelta),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(TDataStd_DeltaOnModificationOfIntArray)
+IMPLEMENT_DOWNCAST(TDataStd_DeltaOnModificationOfIntArray,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(TDataStd_DeltaOnModificationOfIntArray)
 #include <TDataStd_IntegerArray.hxx>
 #include <TDF_DeltaOnModification.hxx>
 #include <TDF_Label.hxx>

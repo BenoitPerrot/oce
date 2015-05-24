@@ -16,7 +16,13 @@
 
 #define No_Standard_OutOfRange
 
-#include <Convert_ConicToBSplineCurve.ixx>
+#include <TColgp_HArray1OfPnt2d.hxx>
+#include <TColStd_HArray1OfReal.hxx>
+#include <TColStd_HArray1OfInteger.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Standard_ConstructionError.hxx>
+#include <gp_Pnt2d.hxx>
+#include <Convert_ConicToBSplineCurve.hxx>
 #include <Convert_CosAndSinEvalFunction.hxx>
 #include <Convert_PolynomialCosAndSin.hxx>
 #include <TColStd_Array1OfReal.hxx>

@@ -17,7 +17,10 @@
 // Modified by vro, Thu Dec 21 10:34:49 2000
 // Modified by vro, Thu Dec 21 10:34:59 2000
 
-#include <QANewBRepNaming_Prism.ixx>
+#include <TDF_Label.hxx>
+#include <BRepPrimAPI_MakePrism.hxx>
+#include <TopoDS_Shape.hxx>
+#include <QANewBRepNaming_Prism.hxx>
 #include <QANewBRepNaming_Loader.hxx>
 #include <TNaming_Builder.hxx>
 #include <TopExp_Explorer.hxx>

@@ -17,22 +17,41 @@
 #define PRO8619 //GG_160697
 //              Convertir correctement les unites translatees
 
-#include <Units_UnitsSystem.ixx>
+#include <Resource_Manager.hxx>
+
+#include <TCollection_AsciiString.hxx>
+
+#include <TColStd_HSequenceOfHAsciiString.hxx>
+#include <TColStd_HSequenceOfInteger.hxx>
+
+#include <Standard_Type.hxx>
+
 #include <Units.hxx>
-#include <Units_UnitsDictionary.hxx>
-#include <Units_QuantitiesSequence.hxx>
 #include <Units_Explorer.hxx>
+#include <Units_NoSuchUnit.hxx>
+#include <Units_NoSuchType.hxx>
 #include <Units_Quantity.hxx>
+#include <Units_QuantitiesSequence.hxx>
+#include <Units_UnitsSystem.hxx>
+#include <Units_UnitsDictionary.hxx>
 #include <Units_UnitsSequence.hxx>
 #include <Units_UnitSentence.hxx>
 #include <Units_Unit.hxx>
 #include <Units_ShiftedUnit.hxx>
 #include <Units_Token.hxx>
 #include <Units_ShiftedToken.hxx>
-#include <Resource_Manager.hxx>
-#include <TCollection_AsciiString.hxx>
-#include <TColStd_HSequenceOfHAsciiString.hxx>
 #include <Units_Operators.hxx>
+
+IMPLEMENT_STANDARD_TYPE(Units_UnitsSystem)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Units_UnitsSystem)
+
+IMPLEMENT_DOWNCAST(Units_UnitsSystem,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Units_UnitsSystem)
 
 
 //=======================================================================

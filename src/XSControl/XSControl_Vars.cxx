@@ -11,7 +11,25 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <XSControl_Vars.ixx>
+#include <Dico_DictionaryOfTransient.hxx>
+#include <Standard_Transient.hxx>
+#include <Geom_Geometry.hxx>
+#include <Geom2d_Curve.hxx>
+#include <Geom_Curve.hxx>
+#include <Geom_Surface.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Pnt2d.hxx>
+#include <TopoDS_Shape.hxx>
+#include <XSControl_Vars.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(XSControl_Vars)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(XSControl_Vars)
+IMPLEMENT_DOWNCAST(XSControl_Vars,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(XSControl_Vars)
 #include <Geom_CartesianPoint.hxx>
 #include <Geom2d_CartesianPoint.hxx>
 #include <TopoDS_HShape.hxx>

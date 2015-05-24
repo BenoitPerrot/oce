@@ -14,6 +14,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TNaming_SameShapeIterator.ixx>
+#include <Standard_NoMoreObject.hxx>
+#include <Standard_NoSuchObject.hxx>
+#include <TNaming_Tool.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TNaming_UsedShapes.hxx>
+#include <TDF_Label.hxx>
+#include <TNaming_SameShapeIterator.hxx>
 
 // See methods'body in TNaming_NamedShape.cxx

@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TCollection.ixx>
+#include <TCollection.hxx>
 
 // The array of prime numbers used as consequtive steps for 
 // size of array of buckets in the map.

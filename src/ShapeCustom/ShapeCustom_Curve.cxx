@@ -11,7 +11,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <ShapeCustom_Curve.ixx>
+#include <Geom_Curve.hxx>
+#include <ShapeCustom_Curve.hxx>
 #include <Geom_BSplineCurve.hxx>
 #include <TColStd_Array1OfReal.hxx>
 #include <TColgp_Array1OfPnt.hxx>

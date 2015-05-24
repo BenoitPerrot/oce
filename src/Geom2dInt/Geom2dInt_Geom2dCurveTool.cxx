@@ -14,7 +14,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Geom2dInt_Geom2dCurveTool.ixx>
+#include <Adaptor2d_Curve2d.hxx>
+#include <gp_Pnt2d.hxx>
+#include <gp_Vec2d.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <Geom2dInt_Geom2dCurveTool.hxx>
 
 #include <GeomAbs_CurveType.hxx>
 #include <Geom2d_BezierCurve.hxx>

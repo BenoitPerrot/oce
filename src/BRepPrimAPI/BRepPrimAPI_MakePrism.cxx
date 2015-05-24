@@ -17,7 +17,12 @@
 // Modified by skv - Fri Mar  4 15:50:09 2005
 // Add methods for supporting history.
 
-#include <BRepPrimAPI_MakePrism.ixx>
+#include <TopoDS_Shape.hxx>
+#include <gp_Vec.hxx>
+#include <gp_Dir.hxx>
+#include <BRepSweep_Prism.hxx>
+#include <TopTools_ListOfShape.hxx>
+#include <BRepPrimAPI_MakePrism.hxx>
 #include <BRepLib.hxx>
 
 // perform checks on the argument

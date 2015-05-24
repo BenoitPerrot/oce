@@ -17,7 +17,18 @@
 #define BUC60576	//GG_5/10/99 Adds Cone to enum TypeOfFace
 
 
-#include <StdSelect_FaceFilter.ixx>
+#include <SelectMgr_EntityOwner.hxx>
+#include <StdSelect_FaceFilter.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StdSelect_FaceFilter)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(SelectMgr_Filter),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StdSelect_FaceFilter)
+IMPLEMENT_DOWNCAST(StdSelect_FaceFilter,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StdSelect_FaceFilter)
 #include <BRepAdaptor_Surface.hxx>
 #include <TopoDS_Face.hxx>
 #include <TopoDS_Shape.hxx>

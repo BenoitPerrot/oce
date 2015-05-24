@@ -17,7 +17,10 @@
 #define TRC 0 
 #define MODIF 1 
 
-#include <BRepAlgo_BooleanOperation.ixx>
+#include <TopOpeBRepBuild_HBuilder.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopTools_ListOfShape.hxx>
+#include <BRepAlgo_BooleanOperation.hxx>
 #include <TopOpeBRep_DSFiller.hxx>
 #include <TopOpeBRepDS_HDataStructure.hxx>
 #include <TopOpeBRepDS_BuildTool.hxx>

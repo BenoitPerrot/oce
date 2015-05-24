@@ -14,7 +14,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <SelectMgr_Filter.ixx>
+#include <SelectMgr_EntityOwner.hxx>
+#include <SelectMgr_Filter.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(SelectMgr_Filter)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(SelectMgr_Filter)
+IMPLEMENT_DOWNCAST(SelectMgr_Filter,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(SelectMgr_Filter)
 
 
 Standard_Boolean SelectMgr_Filter::ActsOn(const TopAbs_ShapeEnum /*aStandardMode*/) const 

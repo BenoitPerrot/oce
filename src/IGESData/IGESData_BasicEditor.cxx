@@ -12,7 +12,10 @@
 // commercial license or contractual agreement.
 
 //#73 rln 10.03.99 S4135: "read.scale.unit" does not affect GlobalSection
-#include <IGESData_BasicEditor.ixx>
+#include <IGESData_Protocol.hxx>
+#include <IGESData_IGESModel.hxx>
+#include <IGESData_IGESEntity.hxx>
+#include <IGESData_BasicEditor.hxx>
 
 #include <Interface_Graph.hxx>
 #include <Interface_EntityIterator.hxx>

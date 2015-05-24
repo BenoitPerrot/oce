@@ -11,7 +11,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepAP214_AppliedApprovalAssignment.ixx>
+#include <StepAP214_HArray1OfApprovalItem.hxx>
+#include <StepBasic_Approval.hxx>
+#include <StepAP214_ApprovalItem.hxx>
+#include <StepAP214_AppliedApprovalAssignment.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepAP214_AppliedApprovalAssignment)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepBasic_ApprovalAssignment),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepAP214_AppliedApprovalAssignment)
+IMPLEMENT_DOWNCAST(StepAP214_AppliedApprovalAssignment,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepAP214_AppliedApprovalAssignment)
 
 
 StepAP214_AppliedApprovalAssignment::StepAP214_AppliedApprovalAssignment ()  {}

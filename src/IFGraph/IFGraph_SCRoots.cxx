@@ -11,7 +11,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IFGraph_SCRoots.ixx>
+#include <Interface_Graph.hxx>
+#include <IFGraph_StrongComponants.hxx>
+#include <IFGraph_SCRoots.hxx>
 //#include <Interface_GraphContent.hxx>
 #include <IFGraph_StrongComponants.hxx>
 #include <IFGraph_ExternalSources.hxx>

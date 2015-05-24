@@ -14,7 +14,28 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TestTopOpeDraw_DrawableMesure.ixx>
+#include <TColgp_HArray1OfPnt.hxx>
+#include <TestTopOpeDraw_DrawableC3D.hxx>
+#include <TestTopOpeDraw_HArray1OfDrawableP3D.hxx>
+#include <TestTopOpeTools_Mesure.hxx>
+#include <Draw_Color.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <gp_Pnt.hxx>
+#include <Draw_Display.hxx>
+#include <TestTopOpeDraw_DrawableMesure.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(TestTopOpeDraw_DrawableMesure)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(TestTopOpeDraw_DrawableC3D),
+  STANDARD_TYPE(DrawTrSurf_Curve),
+  STANDARD_TYPE(DrawTrSurf_Drawable),
+  STANDARD_TYPE(Draw_Drawable3D),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(TestTopOpeDraw_DrawableMesure)
+IMPLEMENT_DOWNCAST(TestTopOpeDraw_DrawableMesure,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(TestTopOpeDraw_DrawableMesure)
 #include <TestTopOpeDraw_DrawableMesure.hxx>
 #include <TestTopOpeDraw_DrawableP3D.hxx>
 #include <TestTopOpeTools_Mesure.hxx>

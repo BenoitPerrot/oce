@@ -14,7 +14,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomFill_TgtOnCoons.ixx>
+#include <GeomFill_CoonsAlgPatch.hxx>
+#include <gp_Vec.hxx>
+#include <GeomFill_TgtOnCoons.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(GeomFill_TgtOnCoons)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(GeomFill_TgtField),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(GeomFill_TgtOnCoons)
+IMPLEMENT_DOWNCAST(GeomFill_TgtOnCoons,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(GeomFill_TgtOnCoons)
 #include <GeomFill_Boundary.hxx>
 
 //=======================================================================

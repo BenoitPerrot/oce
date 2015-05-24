@@ -20,7 +20,13 @@
 //		0.0	Sep  8 1998	Creation
 
 
-#include <TDF_ClosureTool.ixx>
+#include <TDF_DataSet.hxx>
+#include <TDF_IDFilter.hxx>
+#include <TDF_ClosureMode.hxx>
+#include <TDF_Label.hxx>
+#include <TDF_LabelMap.hxx>
+#include <TDF_AttributeMap.hxx>
+#include <TDF_ClosureTool.hxx>
 
 //#include <TDF_Reference.hxx>
 #include <TDF_Attribute.hxx>

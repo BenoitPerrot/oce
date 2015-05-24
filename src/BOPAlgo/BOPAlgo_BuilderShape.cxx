@@ -15,7 +15,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BOPAlgo_BuilderShape.ixx>
+#include <TopoDS_Shape.hxx>
+#include <TopTools_ListOfShape.hxx>
+#include <BOPAlgo_BuilderShape.hxx>
 //=======================================================================
 //function : 
 //purpose  : 

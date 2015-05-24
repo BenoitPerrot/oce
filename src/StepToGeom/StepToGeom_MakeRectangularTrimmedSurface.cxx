@@ -14,7 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepToGeom_MakeRectangularTrimmedSurface.ixx>
+#include <StepGeom_RectangularTrimmedSurface.hxx>
+#include <Geom_RectangularTrimmedSurface.hxx>
+#include <StepToGeom_MakeRectangularTrimmedSurface.hxx>
 
 #include <StepToGeom_MakeSurface.hxx>
 #include <Geom_CylindricalSurface.hxx>

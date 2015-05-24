@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <MeshTest.ixx>
+#include <MeshTest.hxx>
 #include <Draw_Interpretor.hxx>
 #include <TColStd_MapOfAsciiString.hxx>
 #include <BRepMesh_DiscretFactory.hxx>

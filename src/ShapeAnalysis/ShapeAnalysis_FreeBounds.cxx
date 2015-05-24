@@ -19,7 +19,11 @@
 //szv#4 S4163
 // 11.01.00 svv #1: porting on DEC  
 
-#include <ShapeAnalysis_FreeBounds.ixx>
+#include <TopoDS_Shape.hxx>
+#include <TopoDS_Compound.hxx>
+#include <TopTools_HSequenceOfShape.hxx>
+#include <TopTools_DataMapOfShapeShape.hxx>
+#include <ShapeAnalysis_FreeBounds.hxx>
 
 #include <BRep_Builder.hxx>
 #include <BRep_Tool.hxx>

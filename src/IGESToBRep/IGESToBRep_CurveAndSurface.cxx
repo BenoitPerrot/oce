@@ -17,7 +17,13 @@
 // sln 13.06.2002 OCC448 : Correction in  method TransferGeometry to avoid transfering invisiable sub entities
 
 #include <Standard_ErrorHandler.hxx>
-#include <IGESToBRep_CurveAndSurface.ixx>
+#include <Geom_Surface.hxx>
+#include <IGESData_IGESModel.hxx>
+#include <Transfer_TransientProcess.hxx>
+#include <TopoDS_Shape.hxx>
+#include <IGESData_IGESEntity.hxx>
+#include <Message_Msg.hxx>
+#include <IGESToBRep_CurveAndSurface.hxx>
 #include <Standard_Failure.hxx>
 
 #include <IGESToBRep.hxx>

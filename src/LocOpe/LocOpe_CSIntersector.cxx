@@ -14,7 +14,14 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <LocOpe_CSIntersector.ixx>
+#include <StdFail_NotDone.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <TopoDS_Shape.hxx>
+#include <LocOpe_SequenceOfLin.hxx>
+#include <LocOpe_SequenceOfCirc.hxx>
+#include <TColGeom_SequenceOfCurve.hxx>
+#include <LocOpe_PntFace.hxx>
+#include <LocOpe_CSIntersector.hxx>
 
 #include <LocOpe_PntFace.hxx>
 #include <LocOpe_SequenceOfPntFace.hxx>

@@ -11,7 +11,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Vrml_SFImage.ixx>
+#include <TColStd_HArray1OfInteger.hxx>
+#include <Vrml_SFImage.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Vrml_SFImage)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Vrml_SFImage)
+IMPLEMENT_DOWNCAST(Vrml_SFImage,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Vrml_SFImage)
 
 Vrml_SFImage::Vrml_SFImage()
 {

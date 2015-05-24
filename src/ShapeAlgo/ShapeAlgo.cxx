@@ -13,7 +13,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <ShapeAlgo.ixx>
+#include <ShapeAlgo_AlgoContainer.hxx>
+#include <ShapeAlgo.hxx>
 #include <ShapeExtend.hxx>
 
 static Handle(ShapeAlgo_AlgoContainer) theContainer;

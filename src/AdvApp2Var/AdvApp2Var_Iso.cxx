@@ -14,7 +14,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <AdvApp2Var_Iso.ixx>
+#include <TColStd_HArray1OfReal.hxx>
+#include <TColStd_HArray2OfReal.hxx>
+#include <AdvApp2Var_Context.hxx>
+#include <AdvApp2Var_Node.hxx>
+#include <AdvApp2Var_Iso.hxx>
 #include <TColStd_HArray1OfInteger.hxx>
 #include <TColStd_HArray2OfReal.hxx>
 #include <TColStd_HArray1OfReal.hxx>

@@ -14,7 +14,16 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Contap_Line.ixx>
+#include <IntSurf_LineOn2S.hxx>
+#include <Contap_TheHSequenceOfPoint.hxx>
+#include <Adaptor2d_HCurve2d.hxx>
+#include <Standard_DomainError.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <IntSurf_PntOn2S.hxx>
+#include <gp_Lin.hxx>
+#include <gp_Circ.hxx>
+#include <Contap_Point.hxx>
+#include <Contap_Line.hxx>
 
 Contap_Line::Contap_Line () {
   svtx = new Contap_TheHSequenceOfPoint ();

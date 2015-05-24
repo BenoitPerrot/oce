@@ -16,7 +16,29 @@
 
 #include <stdio.h>
 
-#include <GeomFill_CorrectedFrenet.ixx>
+#include <GeomFill_Frenet.hxx>
+#include <Law_Function.hxx>
+#include <TColStd_HArray1OfReal.hxx>
+#include <TColgp_HArray1OfVec.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Standard_ConstructionError.hxx>
+#include <GeomFill_TrihedronLaw.hxx>
+#include <gp_Vec.hxx>
+#include <TColStd_SequenceOfReal.hxx>
+#include <TColgp_SequenceOfVec.hxx>
+#include <Adaptor3d_HCurve.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <GeomFill_CorrectedFrenet.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(GeomFill_CorrectedFrenet)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(GeomFill_TrihedronLaw),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(GeomFill_CorrectedFrenet)
+IMPLEMENT_DOWNCAST(GeomFill_CorrectedFrenet,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(GeomFill_CorrectedFrenet)
 #include <GeomAbs_CurveType.hxx>
 #include <Adaptor3d_HCurve.hxx>
 #include <gp_Trsf.hxx>

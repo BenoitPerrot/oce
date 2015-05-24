@@ -14,7 +14,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TNaming_DeltaOnRemoval.ixx>
+#include <TNaming_DeltaOnModification.hxx>
+#include <TNaming_NamedShape.hxx>
+#include <TNaming_DeltaOnRemoval.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(TNaming_DeltaOnRemoval)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(TDF_DeltaOnRemoval),
+  STANDARD_TYPE(TDF_AttributeDelta),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(TNaming_DeltaOnRemoval)
+IMPLEMENT_DOWNCAST(TNaming_DeltaOnRemoval,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(TNaming_DeltaOnRemoval)
 #include <TNaming_DeltaOnModification.hxx>
 #include <TDF_DeltaOnRemoval.hxx>
 

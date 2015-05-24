@@ -16,7 +16,7 @@
 
 // Modifed:     Portage NT 7-5-97 DPF (strcasecmp)
 
-#include <TopOpeBRep.ixx>
+#include <TopOpeBRep.hxx>
 
 //#ifdef WNT
 //#define strcasecmp strcmp Already defined

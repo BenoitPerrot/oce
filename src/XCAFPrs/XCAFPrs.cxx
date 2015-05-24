@@ -13,7 +13,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <XCAFPrs.ixx>
+#include <TDF_Label.hxx>
+#include <TopLoc_Location.hxx>
+#include <XCAFPrs_DataMapOfShapeStyle.hxx>
+#include <TopoDS_Shape.hxx>
+#include <XCAFPrs_DataMapOfStyleShape.hxx>
+#include <XCAFPrs_Style.hxx>
+#include <XCAFPrs.hxx>
 #include <XCAFDoc_ShapeTool.hxx>
 #include <XCAFDoc_ColorTool.hxx>
 #include <TDF_LabelSequence.hxx>

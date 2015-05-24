@@ -11,7 +11,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IGESGraph_SpecificModule.ixx>
+#include <IGESData_IGESEntity.hxx>
+#include <IGESData_IGESDumper.hxx>
+#include <Message_Messenger.hxx>
+#include <IGESGraph_SpecificModule.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESGraph_SpecificModule)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IGESData_SpecificModule),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESGraph_SpecificModule)
+IMPLEMENT_DOWNCAST(IGESGraph_SpecificModule,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESGraph_SpecificModule)
 #include <Interface_Macros.hxx>
 
 #include <IGESGraph_Color.hxx>

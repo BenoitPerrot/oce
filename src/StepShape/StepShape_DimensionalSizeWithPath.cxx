@@ -15,7 +15,19 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.0
 
-#include <StepShape_DimensionalSizeWithPath.ixx>
+#include <StepRepr_ShapeAspect.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepShape_DimensionalSizeWithPath.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepShape_DimensionalSizeWithPath)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepShape_DimensionalSize),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepShape_DimensionalSizeWithPath)
+IMPLEMENT_DOWNCAST(StepShape_DimensionalSizeWithPath,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepShape_DimensionalSizeWithPath)
 
 //=======================================================================
 //function : StepShape_DimensionalSizeWithPath

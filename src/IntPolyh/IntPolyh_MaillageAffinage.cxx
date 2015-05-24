@@ -26,7 +26,14 @@
 //  modified by ofv Thu Apr  8 14:58:13 2004 fip
 
 
-#include <IntPolyh_MaillageAffinage.ixx>
+#include <Adaptor3d_HSurface.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <Bnd_Box.hxx>
+#include <IntPolyh_Point.hxx>
+#include <IntPolyh_StartPoint.hxx>
+#include <IntPolyh_Triangle.hxx>
+#include <IntPolyh_SectionLine.hxx>
+#include <IntPolyh_MaillageAffinage.hxx>
 
 #include <Precision.hxx>
 #include <gp_Pnt.hxx>

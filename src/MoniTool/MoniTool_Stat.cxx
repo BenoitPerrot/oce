@@ -11,7 +11,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <MoniTool_Stat.ixx>
+#include <TCollection_HAsciiString.hxx>
+#include <TColStd_HArray1OfInteger.hxx>
+#include <MoniTool_Stat.hxx>
 #include <TCollection_AsciiString.hxx>
 
 //static MoniTool_Stat Statvoid("");

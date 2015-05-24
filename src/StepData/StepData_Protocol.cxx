@@ -11,7 +11,27 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepData_Protocol.ixx>
+#include <Dico_DictionaryOfTransient.hxx>
+#include <Interface_Protocol.hxx>
+#include <Standard_Transient.hxx>
+#include <Standard_Type.hxx>
+#include <Interface_InterfaceModel.hxx>
+#include <StepData_EDescr.hxx>
+#include <StepData_ESDescr.hxx>
+#include <StepData_ECDescr.hxx>
+#include <TColStd_SequenceOfAsciiString.hxx>
+#include <StepData_PDescr.hxx>
+#include <StepData_Protocol.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepData_Protocol)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Interface_Protocol),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepData_Protocol)
+IMPLEMENT_DOWNCAST(StepData_Protocol,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepData_Protocol)
 #include <StepData_StepModel.hxx>
 #include <StepData_UndefinedEntity.hxx>
 #include <StepData_Described.hxx>

@@ -14,7 +14,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <STEPSelections_AssemblyExplorer.ixx>
+#include <Interface_Graph.hxx>
+#include <StepShape_ShapeDefinitionRepresentation.hxx>
+#include <StepBasic_ProductDefinition.hxx>
+#include <STEPSelections_AssemblyComponent.hxx>
+#include <Standard_Transient.hxx>
+#include <StepRepr_NextAssemblyUsageOccurrence.hxx>
+#include <STEPSelections_AssemblyExplorer.hxx>
 #include <Interface_Macros.hxx>
 #include <StepRepr_ProductDefinitionShape.hxx>
 #include <Interface_EntityIterator.hxx>

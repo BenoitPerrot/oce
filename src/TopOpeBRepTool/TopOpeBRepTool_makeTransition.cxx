@@ -16,7 +16,10 @@
 
 #include <TopOpeBRepTool_TOOL.hxx>
 #include <TopOpeBRepTool_EXPORT.hxx>
-#include <TopOpeBRepTool_makeTransition.ixx>
+#include <TopoDS_Edge.hxx>
+#include <TopoDS_Face.hxx>
+#include <gp_Pnt2d.hxx>
+#include <TopOpeBRepTool_makeTransition.hxx>
 #include <TopOpeBRepTool_define.hxx>
 #include <BRep_Tool.hxx>
 #include <Precision.hxx>

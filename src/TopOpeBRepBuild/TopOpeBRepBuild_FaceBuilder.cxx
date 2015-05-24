@@ -14,7 +14,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopOpeBRepBuild_FaceBuilder.ixx>
+#include <TopOpeBRepBuild_WireEdgeSet.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopTools_IndexedDataMapOfShapeShape.hxx>
+#include <TopTools_IndexedMapOfShape.hxx>
+#include <TopOpeBRepBuild_ShapeSet.hxx>
+#include <TopOpeBRepBuild_FaceBuilder.hxx>
 
 #include <gp_Pnt.hxx>
 #include <gp_Pnt2d.hxx>

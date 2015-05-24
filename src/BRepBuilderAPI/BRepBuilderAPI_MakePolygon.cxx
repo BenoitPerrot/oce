@@ -14,7 +14,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepBuilderAPI_MakePolygon.ixx>
+#include <StdFail_NotDone.hxx>
+#include <gp_Pnt.hxx>
+#include <TopoDS_Vertex.hxx>
+#include <TopoDS_Edge.hxx>
+#include <TopoDS_Wire.hxx>
+#include <BRepBuilderAPI_MakePolygon.hxx>
 
 //=======================================================================
 //function : BRepBuilderAPI_MakePolygon

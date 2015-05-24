@@ -12,7 +12,14 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepProj_Projection.ixx>
+#include <TopTools_HSequenceOfShape.hxx>
+#include <Standard_NoSuchObject.hxx>
+#include <Standard_ConstructionError.hxx>
+#include <Standard_NullObject.hxx>
+#include <TopoDS_Shape.hxx>
+#include <gp_Dir.hxx>
+#include <gp_Pnt.hxx>
+#include <BRepProj_Projection.hxx>
 
 #include <BRepAlgo_Section.hxx>
 

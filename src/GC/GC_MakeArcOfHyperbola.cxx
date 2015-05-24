@@ -14,7 +14,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GC_MakeArcOfHyperbola.ixx>
+#include <Geom_TrimmedCurve.hxx>
+#include <StdFail_NotDone.hxx>
+#include <gp_Hypr.hxx>
+#include <gp_Pnt.hxx>
+#include <GC_MakeArcOfHyperbola.hxx>
 #include <Geom_Hyperbola.hxx>
 #include <StdFail_NotDone.hxx>
 #include <ElCLib.hxx>

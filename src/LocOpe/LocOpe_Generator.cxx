@@ -16,7 +16,14 @@
 
 // Modifed:     Portage NT 7-5-97 DPF (return NewParameter)
 
-#include <LocOpe_Generator.ixx>
+#include <LocOpe_GeneratedShape.hxx>
+#include <StdFail_NotDone.hxx>
+#include <Standard_NullObject.hxx>
+#include <Standard_NoSuchObject.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopTools_ListOfShape.hxx>
+#include <TopoDS_Face.hxx>
+#include <LocOpe_Generator.hxx>
 
 #include <TopTools_MapOfShape.hxx>
 #include <TopTools_DataMapOfShapeShape.hxx>

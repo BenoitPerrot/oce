@@ -15,7 +15,11 @@
 //#70 rln 03.03.99 syntax correction
 // sln 11.06.2002 OCC448 : Initialize "read.onlyvisiable" parameter  to control transfering invisiable sub entities which logicaly depend on the grouping entities
 #include <stdio.h>
-#include <IGESToBRep_Reader.ixx>
+#include <IGESData_IGESModel.hxx>
+#include <IGESToBRep_Actor.hxx>
+#include <Transfer_TransientProcess.hxx>
+#include <TopoDS_Shape.hxx>
+#include <IGESToBRep_Reader.hxx>
 #include <Standard_ErrorHandler.hxx>
 #include <Standard_Failure.hxx>
 #include <OSD_Timer.hxx>

@@ -14,7 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomPlate_Aij.ixx>
+#include <GeomPlate_BuildAveragePlane.hxx>
+#include <gp_Vec.hxx>
+#include <GeomPlate_Aij.hxx>
 
 GeomPlate_Aij::GeomPlate_Aij()
 {

@@ -14,7 +14,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <gce_MakeElips.ixx>
+#include <StdFail_NotDone.hxx>
+#include <gp_Ax2.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Elips.hxx>
+#include <gce_MakeElips.hxx>
 #include <gp.hxx>
 #include <gp_Lin.hxx>
 #include <StdFail_NotDone.hxx>

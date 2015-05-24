@@ -17,7 +17,11 @@
 // modified by Michael KLOKOV  Wed Mar  6 15:01:25 2002
 // modified by  Eugeny MALTCHIKOV Wed Jul 04 11:13:01 2012 
 
-#include <BRepAlgoAPI_Section.ixx>
+#include <TopoDS_Shape.hxx>
+#include <BOPAlgo_PaveFiller.hxx>
+#include <gp_Pln.hxx>
+#include <Geom_Surface.hxx>
+#include <BRepAlgoAPI_Section.hxx>
 
 
 #include <BRepBuilderAPI_MakeFace.hxx>

@@ -11,7 +11,14 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepAP214_AutoDesignPresentedItemSelect.ixx>
+#include <Standard_Transient.hxx>
+#include <StepBasic_ProductDefinitionRelationship.hxx>
+#include <StepBasic_ProductDefinition.hxx>
+#include <StepRepr_ProductDefinitionShape.hxx>
+#include <StepRepr_RepresentationRelationship.hxx>
+#include <StepRepr_ShapeAspect.hxx>
+#include <StepBasic_DocumentRelationship.hxx>
+#include <StepAP214_AutoDesignPresentedItemSelect.hxx>
 #include <Interface_Macros.hxx>
 
 StepAP214_AutoDesignPresentedItemSelect::StepAP214_AutoDesignPresentedItemSelect ()    {  }

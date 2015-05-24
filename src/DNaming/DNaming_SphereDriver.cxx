@@ -13,7 +13,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <DNaming_SphereDriver.ixx>
+#include <TFunction_Logbook.hxx>
+#include <TDF_Label.hxx>
+#include <BRepPrimAPI_MakeSphere.hxx>
+#include <DNaming_SphereDriver.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(DNaming_SphereDriver)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(TFunction_Driver),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(DNaming_SphereDriver)
+IMPLEMENT_DOWNCAST(DNaming_SphereDriver,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(DNaming_SphereDriver)
 
 #include <gp_Ax2.hxx>
 #include <gp_Dir.hxx>

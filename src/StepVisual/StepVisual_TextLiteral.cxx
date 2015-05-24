@@ -11,7 +11,21 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepVisual_TextLiteral.ixx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepGeom_Axis2Placement.hxx>
+#include <StepVisual_FontSelect.hxx>
+#include <StepVisual_TextLiteral.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepVisual_TextLiteral)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepGeom_GeometricRepresentationItem),
+  STANDARD_TYPE(StepRepr_RepresentationItem),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepVisual_TextLiteral)
+IMPLEMENT_DOWNCAST(StepVisual_TextLiteral,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepVisual_TextLiteral)
 
 
 StepVisual_TextLiteral::StepVisual_TextLiteral ()  {}

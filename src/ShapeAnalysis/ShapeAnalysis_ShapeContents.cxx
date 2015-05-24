@@ -16,7 +16,9 @@
 
 //szv#4 S4163
 
-#include <ShapeAnalysis_ShapeContents.ixx>
+#include <TopTools_HSequenceOfShape.hxx>
+#include <TopoDS_Shape.hxx>
+#include <ShapeAnalysis_ShapeContents.hxx>
 #include <ShapeExtend_WireData.hxx>
 #include <ShapeAnalysis_Wire.hxx>
 #include <TopExp_Explorer.hxx>

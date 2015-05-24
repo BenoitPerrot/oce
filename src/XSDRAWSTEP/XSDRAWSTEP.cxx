@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 //:k8 abv 6 Jan 98: using parameter "step.group" for writing assemblies/shapes
-#include <XSDRAWSTEP.ixx>
+#include <XSDRAWSTEP.hxx>
 #include <STEPControl_Controller.hxx>
 #include <STEPControl_ActorWrite.hxx>
 #include <STEPControl_Reader.hxx>

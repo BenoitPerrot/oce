@@ -12,7 +12,26 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Prs3d_Drawer.ixx>
+#include <Prs3d_IsoAspect.hxx>
+#include <Prs3d_LineAspect.hxx>
+#include <Prs3d_TextAspect.hxx>
+#include <Prs3d_ShadingAspect.hxx>
+#include <Prs3d_PointAspect.hxx>
+#include <Prs3d_PlaneAspect.hxx>
+#include <Prs3d_ArrowAspect.hxx>
+#include <Prs3d_DatumAspect.hxx>
+#include <Prs3d_DimensionAspect.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <Prs3d_Drawer.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Prs3d_Drawer)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Prs3d_Drawer)
+IMPLEMENT_DOWNCAST(Prs3d_Drawer,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Prs3d_Drawer)
 
 // =======================================================================
 // function : Prs3d_Drawer

@@ -14,7 +14,16 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Contap_Contour.ixx>
+#include <StdFail_NotDone.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Standard_ConstructionError.hxx>
+#include <gp_Vec.hxx>
+#include <gp_Pnt.hxx>
+#include <Adaptor3d_HSurface.hxx>
+#include <Adaptor3d_TopolTool.hxx>
+#include <Contap_Line.hxx>
+#include <Contap_SurfFunction.hxx>
+#include <Contap_Contour.hxx>
 
 #include <ElCLib.hxx>
 #include <ElSLib.hxx>

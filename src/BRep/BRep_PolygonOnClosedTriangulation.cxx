@@ -14,7 +14,22 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRep_PolygonOnClosedTriangulation.ixx>
+#include <Poly_PolygonOnTriangulation.hxx>
+#include <Poly_Triangulation.hxx>
+#include <TopLoc_Location.hxx>
+#include <BRep_CurveRepresentation.hxx>
+#include <BRep_PolygonOnClosedTriangulation.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(BRep_PolygonOnClosedTriangulation)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(BRep_PolygonOnTriangulation),
+  STANDARD_TYPE(BRep_CurveRepresentation),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(BRep_PolygonOnClosedTriangulation)
+IMPLEMENT_DOWNCAST(BRep_PolygonOnClosedTriangulation,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(BRep_PolygonOnClosedTriangulation)
 
 //=======================================================================
 //function : BRep_PolygonOnClosedTriangulation

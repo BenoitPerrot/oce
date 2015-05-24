@@ -21,7 +21,20 @@
 
 
 
-#include <DDF_Data.ixx>
+#include <TDF_Data.hxx>
+#include <Draw_Display.hxx>
+#include <Draw_Drawable3D.hxx>
+#include <DDF_Data.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(DDF_Data)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Draw_Drawable3D),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(DDF_Data)
+IMPLEMENT_DOWNCAST(DDF_Data,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(DDF_Data)
 #include <DDF.hxx>
 
 #include <Standard_GUID.hxx>

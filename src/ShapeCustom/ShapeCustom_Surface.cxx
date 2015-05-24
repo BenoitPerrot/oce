@@ -13,7 +13,8 @@
 
 //abv 06.01.99 fix of misprint
 //:p6 abv 26.02.99: make ConvertToPeriodic() return Null if nothing done
-#include <ShapeCustom_Surface.ixx>
+#include <Geom_Surface.hxx>
+#include <ShapeCustom_Surface.hxx>
 
 #include <gp_Ax3.hxx>
 #include <gp_Pnt.hxx>

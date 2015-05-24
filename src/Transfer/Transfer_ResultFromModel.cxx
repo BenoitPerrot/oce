@@ -11,7 +11,22 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Transfer_ResultFromModel.ixx>
+#include <Interface_InterfaceModel.hxx>
+#include <Transfer_ResultFromTransient.hxx>
+#include <Transfer_TransientProcess.hxx>
+#include <Standard_Transient.hxx>
+#include <TColStd_HSequenceOfTransient.hxx>
+#include <Interface_CheckIterator.hxx>
+#include <Transfer_ResultFromModel.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Transfer_ResultFromModel)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Transfer_ResultFromModel)
+IMPLEMENT_DOWNCAST(Transfer_ResultFromModel,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Transfer_ResultFromModel)
 #include <TColStd_IndexedMapOfTransient.hxx>
 #include <Interface_Check.hxx>
 #include <Interface_Macros.hxx>

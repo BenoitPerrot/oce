@@ -16,7 +16,31 @@
 
 #include <stdio.h>
 
-#include <BRepFill_PipeShell.ixx>
+#include <Law_Function.hxx>
+#include <BRepFill_LocationLaw.hxx>
+#include <BRepFill_SectionLaw.hxx>
+#include <TopTools_HArray2OfShape.hxx>
+#include <Standard_DomainError.hxx>
+#include <StdFail_NotDone.hxx>
+#include <TopoDS_Wire.hxx>
+#include <gp_Ax2.hxx>
+#include <gp_Dir.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopoDS_Vertex.hxx>
+#include <TopTools_ListOfShape.hxx>
+#include <BRepFill_Section.hxx>
+#include <gp_Trsf.hxx>
+#include <BRepFill_Sweep.hxx>
+#include <BRepFill_PipeShell.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(BRepFill_PipeShell)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(BRepFill_PipeShell)
+IMPLEMENT_DOWNCAST(BRepFill_PipeShell,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(BRepFill_PipeShell)
 
 #include <BRep_Builder.hxx>
 #include <BRep_Tool.hxx>

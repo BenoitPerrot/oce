@@ -11,7 +11,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepVisual_TextOrCharacter.ixx>
+#include <Standard_Transient.hxx>
+#include <StepVisual_AnnotationText.hxx>
+#include <StepVisual_CompositeText.hxx>
+#include <StepVisual_TextLiteral.hxx>
+#include <StepVisual_TextOrCharacter.hxx>
 #include <Interface_Macros.hxx>
 
 StepVisual_TextOrCharacter::StepVisual_TextOrCharacter () {  }

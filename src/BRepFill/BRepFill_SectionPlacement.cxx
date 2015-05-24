@@ -14,7 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepFill_SectionPlacement.ixx>
+#include <BRepFill_LocationLaw.hxx>
+#include <TopoDS_Shape.hxx>
+#include <gp_Trsf.hxx>
+#include <BRepFill_SectionPlacement.hxx>
 
 #include <TopExp_Explorer.hxx>
 #include <TopExp.hxx>

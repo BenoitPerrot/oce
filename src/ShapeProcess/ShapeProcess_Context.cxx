@@ -13,7 +13,21 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <ShapeProcess_Context.ixx>
+#include <Resource_Manager.hxx>
+#include <TColStd_HSequenceOfHAsciiString.hxx>
+#include <Message_Messenger.hxx>
+#include <Message_ProgressIndicator.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <ShapeProcess_Context.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(ShapeProcess_Context)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(ShapeProcess_Context)
+IMPLEMENT_DOWNCAST(ShapeProcess_Context,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(ShapeProcess_Context)
 
 #include <Standard_ErrorHandler.hxx>
 #include <Standard_Failure.hxx>

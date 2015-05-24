@@ -15,7 +15,23 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
-#include <StepFEA_FeaAxis2Placement3d.ixx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepGeom_CartesianPoint.hxx>
+#include <StepGeom_Direction.hxx>
+#include <StepFEA_FeaAxis2Placement3d.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepFEA_FeaAxis2Placement3d)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepGeom_Axis2Placement3d),
+  STANDARD_TYPE(StepGeom_Placement),
+  STANDARD_TYPE(StepGeom_GeometricRepresentationItem),
+  STANDARD_TYPE(StepRepr_RepresentationItem),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepFEA_FeaAxis2Placement3d)
+IMPLEMENT_DOWNCAST(StepFEA_FeaAxis2Placement3d,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepFEA_FeaAxis2Placement3d)
 
 //=======================================================================
 //function : StepFEA_FeaAxis2Placement3d

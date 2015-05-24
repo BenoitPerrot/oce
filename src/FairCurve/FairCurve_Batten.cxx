@@ -19,7 +19,15 @@
 #define No_Standard_OutOfRange
 #endif
 
-#include <FairCurve_Batten.ixx>
+#include <TColgp_HArray1OfPnt2d.hxx>
+#include <TColStd_HArray1OfReal.hxx>
+#include <TColStd_HArray1OfInteger.hxx>
+#include <Standard_NegativeValue.hxx>
+#include <Standard_NullValue.hxx>
+#include <gp_Pnt2d.hxx>
+#include <gp_Vec2d.hxx>
+#include <Geom2d_BSplineCurve.hxx>
+#include <FairCurve_Batten.hxx>
 
 #include <BSplCLib.hxx>
 #include <PLib.hxx>

@@ -14,7 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <ExprIntrp.ixx>
+#include <ExprIntrp_Generator.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <ExprIntrp.hxx>
 #include <ExprIntrp_yaccintrf.hxx>
 #include <ExprIntrp_yaccanal.hxx>
 #include <Standard_ErrorHandler.hxx>

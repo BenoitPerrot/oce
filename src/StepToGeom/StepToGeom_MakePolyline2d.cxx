@@ -14,7 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepToGeom_MakePolyline2d.ixx>
+#include <StepGeom_Polyline.hxx>
+#include <Geom2d_BSplineCurve.hxx>
+#include <StepToGeom_MakePolyline2d.hxx>
 #include <StepToGeom_MakeCartesianPoint2d.hxx>
 #include <StepGeom_CartesianPoint.hxx>
 #include <Geom2d_CartesianPoint.hxx>

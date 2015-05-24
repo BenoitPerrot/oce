@@ -12,6 +12,16 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepRepr_ShapeRepresentationRelationship.ixx>
+#include <StepRepr_ShapeRepresentationRelationship.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepRepr_ShapeRepresentationRelationship)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepRepr_RepresentationRelationship),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepRepr_ShapeRepresentationRelationship)
+IMPLEMENT_DOWNCAST(StepRepr_ShapeRepresentationRelationship,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepRepr_ShapeRepresentationRelationship)
 
 StepRepr_ShapeRepresentationRelationship::StepRepr_ShapeRepresentationRelationship ()    {  }

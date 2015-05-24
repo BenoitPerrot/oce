@@ -21,7 +21,12 @@
 
 
 
-#include <TDF_Transaction.ixx>
+#include <TDF_Data.hxx>
+#include <Standard_DomainError.hxx>
+#include <Standard_NullObject.hxx>
+#include <TDF_Delta.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <TDF_Transaction.hxx>
 
 #undef DEB_TRANSACTION
 #ifdef OCCT_DEBUG

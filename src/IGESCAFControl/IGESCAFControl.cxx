@@ -13,7 +13,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IGESCAFControl.ixx>
+#include <Quantity_Color.hxx>
+#include <IGESCAFControl.hxx>
 
 //=======================================================================
 //function : DecodeColor

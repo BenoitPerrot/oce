@@ -17,7 +17,10 @@
 #define No_Standard_NoMoreObject
 #define No_Standard_NoSuchObject
 
-#include <TopExp_Explorer.ixx>
+#include <Standard_NoMoreObject.hxx>
+#include <Standard_NoSuchObject.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopExp_Explorer.hxx>
 #include <TopoDS_Iterator.hxx>
 #include <TopAbs.hxx>
 #include <Standard.hxx>

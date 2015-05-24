@@ -14,7 +14,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomFill_PolynomialConvertor.ixx>
+#include <StdFail_NotDone.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Vec.hxx>
+#include <TColgp_Array1OfPnt.hxx>
+#include <TColgp_Array1OfVec.hxx>
+#include <GeomFill_PolynomialConvertor.hxx>
 
 
 #include <PLib.hxx>

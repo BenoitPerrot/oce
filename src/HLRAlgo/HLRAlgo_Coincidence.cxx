@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <HLRAlgo_Coincidence.ixx>
+#include <HLRAlgo_Coincidence.hxx>
 
 //=======================================================================
 //function : HLRAlgo_Coincidence

@@ -40,7 +40,14 @@
  * Includes
  */
 
-#include <Visual3d_ContextView.ixx>
+#include <Graphic3d_TextureEnv.hxx>
+#include <Visual3d_ClipDefinitionError.hxx>
+#include <Visual3d_DepthCueingDefinitionError.hxx>
+#include <Visual3d_LightDefinitionError.hxx>
+#include <Visual3d_ZClippingDefinitionError.hxx>
+#include <Visual3d_Light.hxx>
+#include <Visual3d_HSequenceOfLight.hxx>
+#include <Visual3d_ContextView.hxx>
 
 /*----------------------------------------------------------------------*/
 

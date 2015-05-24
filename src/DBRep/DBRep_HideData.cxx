@@ -14,7 +14,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <DBRep_HideData.ixx>
+#include <gp_Trsf.hxx>
+#include <TopoDS_Shape.hxx>
+#include <Draw_Display.hxx>
+#include <Draw_Color.hxx>
+#include <DBRep_HideData.hxx>
 #include <HLRBRep_PolyAlgo.hxx>
 #include <HLRAlgo_EdgeIterator.hxx>
 #include <HLRBRep_BiPoint.hxx>

@@ -12,7 +12,8 @@
 // commercial license or contractual agreement.
 
 //szv#4 S4163
-#include <Interface_IntList.ixx>
+#include <TColStd_HArray1OfInteger.hxx>
+#include <Interface_IntList.hxx>
 
 //   Organisation des donnees :
 //   theents vaut : 0 pas de reference

@@ -12,5 +12,16 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Law_Function.ixx>
+#include <Standard_OutOfRange.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <Law_Function.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Law_Function)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Law_Function)
+IMPLEMENT_DOWNCAST(Law_Function,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Law_Function)
 

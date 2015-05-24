@@ -14,7 +14,15 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <LocOpe_Pipe.ixx>
+#include <Standard_NoSuchObject.hxx>
+#include <Standard_DomainError.hxx>
+#include <TopoDS_Wire.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopTools_ListOfShape.hxx>
+#include <TColGeom_SequenceOfCurve.hxx>
+#include <TColgp_SequenceOfPnt.hxx>
+#include <Geom_Curve.hxx>
+#include <LocOpe_Pipe.hxx>
 
 #include <LocOpe.hxx>
 

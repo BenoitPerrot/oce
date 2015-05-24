@@ -14,12 +14,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Plugin.ixx>
-#include <Plugin_MapOfFunctions.hxx>
 #include <OSD_SharedLibrary.hxx>
-#include <Resource_Manager.hxx>
+#include <Plugin.hxx>
+#include <Plugin_MapOfFunctions.hxx>
 #include <Plugin_Failure.hxx>
-
+#include <Resource_Manager.hxx>
+#include <Standard_Transient.hxx>
+#include <Standard_GUID.hxx>
 #include <TCollection_AsciiString.hxx>
 
 #ifdef HAVE_OCE_PATHS_H

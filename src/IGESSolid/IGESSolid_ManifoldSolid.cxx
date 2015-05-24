@@ -16,7 +16,22 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESSolid_ManifoldSolid.ixx>
+#include <IGESSolid_Shell.hxx>
+#include <IGESSolid_HArray1OfShell.hxx>
+#include <TColStd_HArray1OfInteger.hxx>
+#include <Standard_DimensionMismatch.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <IGESSolid_ManifoldSolid.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESSolid_ManifoldSolid)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IGESData_IGESEntity),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESSolid_ManifoldSolid)
+IMPLEMENT_DOWNCAST(IGESSolid_ManifoldSolid,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESSolid_ManifoldSolid)
 
 
 IGESSolid_ManifoldSolid::IGESSolid_ManifoldSolid ()    {  }

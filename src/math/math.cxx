@@ -18,7 +18,7 @@
 #define No_Standard_DimensionError
 //#endif
 
-#include <math.ixx>
+#include <math.hxx>
 
 #include <math_ComputeGaussPointsAndWeights.hxx>
 

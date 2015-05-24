@@ -13,7 +13,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PDataStd_ByteArray.ixx>
+#include <PColStd_HArray1OfInteger.hxx>
+#include <PDataStd_ByteArray.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(PDataStd_ByteArray)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(PDF_Attribute),
+  STANDARD_TYPE(Standard_Persistent),
+  STANDARD_TYPE(Standard_Storable),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(PDataStd_ByteArray)
+IMPLEMENT_DOWNCAST(PDataStd_ByteArray,Standard_Persistent)
+IMPLEMENT_STANDARD_RTTI(PDataStd_ByteArray)
 
 //=======================================================================
 //function : PDataStd_ByteArray

@@ -15,7 +15,12 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.1
 
-#include <RWStepShape_RWEdgeBasedWireframeModel.ixx>
+#include <StepData_StepReaderData.hxx>
+#include <Interface_Check.hxx>
+#include <StepShape_EdgeBasedWireframeModel.hxx>
+#include <StepData_StepWriter.hxx>
+#include <Interface_EntityIterator.hxx>
+#include <RWStepShape_RWEdgeBasedWireframeModel.hxx>
 #include <StepShape_HArray1OfConnectedEdgeSet.hxx>
 #include <StepShape_ConnectedEdgeSet.hxx>
 

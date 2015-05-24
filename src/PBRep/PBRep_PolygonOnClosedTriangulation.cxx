@@ -12,7 +12,21 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PBRep_PolygonOnClosedTriangulation.ixx>
+#include <PPoly_PolygonOnTriangulation.hxx>
+#include <PPoly_Triangulation.hxx>
+#include <PTopLoc_Location.hxx>
+#include <PBRep_PolygonOnClosedTriangulation.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(PBRep_PolygonOnClosedTriangulation)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(PBRep_PolygonOnTriangulation),
+  STANDARD_TYPE(PBRep_CurveRepresentation),
+  STANDARD_TYPE(Standard_Persistent),
+  STANDARD_TYPE(Standard_Storable),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(PBRep_PolygonOnClosedTriangulation)
+IMPLEMENT_DOWNCAST(PBRep_PolygonOnClosedTriangulation,Standard_Persistent)
+IMPLEMENT_STANDARD_RTTI(PBRep_PolygonOnClosedTriangulation)
 
 
 //=======================================================================

@@ -11,7 +11,21 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IntTools_TopolTool.ixx>
+#include <Standard_DomainError.hxx>
+#include <Adaptor3d_HSurface.hxx>
+#include <gp_Pnt2d.hxx>
+#include <gp_Pnt.hxx>
+#include <IntTools_TopolTool.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IntTools_TopolTool)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Adaptor3d_TopolTool),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IntTools_TopolTool)
+IMPLEMENT_DOWNCAST(IntTools_TopolTool,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IntTools_TopolTool)
 
 #include <Standard_NotImplemented.hxx>
 #include <Precision.hxx>

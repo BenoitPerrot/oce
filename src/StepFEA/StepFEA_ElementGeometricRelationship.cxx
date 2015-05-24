@@ -15,7 +15,19 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
-#include <StepFEA_ElementGeometricRelationship.ixx>
+#include <StepElement_AnalysisItemWithinRepresentation.hxx>
+#include <StepFEA_ElementOrElementGroup.hxx>
+#include <StepElement_ElementAspect.hxx>
+#include <StepFEA_ElementGeometricRelationship.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepFEA_ElementGeometricRelationship)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepFEA_ElementGeometricRelationship)
+IMPLEMENT_DOWNCAST(StepFEA_ElementGeometricRelationship,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepFEA_ElementGeometricRelationship)
 
 //=======================================================================
 //function : StepFEA_ElementGeometricRelationship

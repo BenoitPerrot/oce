@@ -16,7 +16,18 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.0
 
-#include <StepBasic_Certification.ixx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepBasic_CertificationType.hxx>
+#include <StepBasic_Certification.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepBasic_Certification)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepBasic_Certification)
+IMPLEMENT_DOWNCAST(StepBasic_Certification,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepBasic_Certification)
 
 //=======================================================================
 //function : StepBasic_Certification

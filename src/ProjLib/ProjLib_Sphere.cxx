@@ -18,7 +18,14 @@
 
 #include <Standard_NotImplemented.hxx>
 
-#include <ProjLib_Sphere.ixx>
+#include <Standard_NoSuchObject.hxx>
+#include <gp_Sphere.hxx>
+#include <gp_Circ.hxx>
+#include <gp_Lin.hxx>
+#include <gp_Elips.hxx>
+#include <gp_Parab.hxx>
+#include <gp_Hypr.hxx>
+#include <ProjLib_Sphere.hxx>
 
 #include <ElCLib.hxx>
 #include <Precision.hxx>

@@ -14,7 +14,20 @@
 
 #define IMP120100	//GG 01/01/00 Add SetColor() methods
 
-#include <Prs3d_ArrowAspect.ixx>
+#include <Graphic3d_AspectLine3d.hxx>
+#include <Prs3d_InvalidAngle.hxx>
+#include <Quantity_Color.hxx>
+#include <Prs3d_ArrowAspect.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Prs3d_ArrowAspect)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Prs3d_BasicAspect),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Prs3d_ArrowAspect)
+IMPLEMENT_DOWNCAST(Prs3d_ArrowAspect,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Prs3d_ArrowAspect)
 
 Prs3d_ArrowAspect::Prs3d_ArrowAspect () 
      : myAngle(M_PI/180.*10), myLength(1.) {

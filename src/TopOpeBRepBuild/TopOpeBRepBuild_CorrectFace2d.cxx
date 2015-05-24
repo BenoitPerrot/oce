@@ -13,7 +13,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopOpeBRepBuild_CorrectFace2d.ixx>
+#include <TopoDS_Face.hxx>
+#include <TopTools_IndexedMapOfOrientedShape.hxx>
+#include <TopTools_IndexedDataMapOfShapeShape.hxx>
+#include <TopoDS_Edge.hxx>
+#include <gp_Pnt2d.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopTools_ListOfShape.hxx>
+#include <gp_Vec2d.hxx>
+#include <Geom2d_Curve.hxx>
+#include <TopoDS_Wire.hxx>
+#include <Bnd_Box2d.hxx>
+#include <TopOpeBRepBuild_CorrectFace2d.hxx>
 
 #include <TopoDS.hxx>
 #include <TopoDS_Shape.hxx>

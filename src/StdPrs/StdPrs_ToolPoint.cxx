@@ -14,7 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StdPrs_ToolPoint.ixx>
+#include <Geom_Point.hxx>
+#include <StdPrs_ToolPoint.hxx>
 
 
 void StdPrs_ToolPoint::Coord (const Handle(Geom_Point)& aPoint,

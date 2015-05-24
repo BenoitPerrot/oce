@@ -14,7 +14,22 @@
 // commercial license or contractual agreement.
 
 #include <MDF_RRelocationTable.hxx>
-#include <MXCAFDoc_DimTolToolRetrievalDriver.ixx>
+#include <CDM_MessageDriver.hxx>
+#include <Standard_Type.hxx>
+#include <TDF_Attribute.hxx>
+#include <PDF_Attribute.hxx>
+#include <MDF_RRelocationTable.hxx>
+#include <MXCAFDoc_DimTolToolRetrievalDriver.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(MXCAFDoc_DimTolToolRetrievalDriver)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MDF_ARDriver),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(MXCAFDoc_DimTolToolRetrievalDriver)
+IMPLEMENT_DOWNCAST(MXCAFDoc_DimTolToolRetrievalDriver,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(MXCAFDoc_DimTolToolRetrievalDriver)
 #include <PXCAFDoc_DimTolTool.hxx>
 #include <XCAFDoc_DimTolTool.hxx>
 

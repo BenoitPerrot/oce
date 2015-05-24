@@ -11,7 +11,22 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Transfer_MultipleBinder.ixx>
+#include <TColStd_HSequenceOfTransient.hxx>
+#include <Transfer_TransferFailure.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Standard_Type.hxx>
+#include <Standard_Transient.hxx>
+#include <Transfer_MultipleBinder.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Transfer_MultipleBinder)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Transfer_Binder),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Transfer_MultipleBinder)
+IMPLEMENT_DOWNCAST(Transfer_MultipleBinder,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Transfer_MultipleBinder)
 #include <Transfer_TransferFailure.hxx>
 
 

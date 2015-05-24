@@ -11,7 +11,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IGESData_ViewKindEntity.ixx>
+#include <Standard_OutOfRange.hxx>
+#include <IGESData_ViewKindEntity.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESData_ViewKindEntity)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IGESData_IGESEntity),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESData_ViewKindEntity)
+IMPLEMENT_DOWNCAST(IGESData_ViewKindEntity,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESData_ViewKindEntity)
 // ViewKindEntity ne sert qu'au controle de type (entite View du directory part
 // qui peut etre une Vue Simple ou une Liste de Vue
 // Vue Simple doit implementer IsSingle a Standard_True, Liste de Vue a Standard_False

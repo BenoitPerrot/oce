@@ -12,7 +12,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BndLib_Add2dCurve.ixx>
+#include <Adaptor2d_Curve2d.hxx>
+#include <Bnd_Box2d.hxx>
+#include <Geom2d_Curve.hxx>
+#include <BndLib_Add2dCurve.hxx>
 
 
 #include <Precision.hxx>

@@ -14,7 +14,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GCE2d_MakeHyperbola.ixx>
+#include <Geom2d_Hyperbola.hxx>
+#include <StdFail_NotDone.hxx>
+#include <gp_Hypr2d.hxx>
+#include <gp_Ax2d.hxx>
+#include <gp_Ax22d.hxx>
+#include <gp_Pnt2d.hxx>
+#include <GCE2d_MakeHyperbola.hxx>
 #include <gce_MakeHypr2d.hxx>
 #include <StdFail_NotDone.hxx>
 

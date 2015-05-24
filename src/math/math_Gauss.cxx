@@ -18,7 +18,11 @@
 #define No_Standard_DimensionError
 //#endif
 
-#include <math_Gauss.ixx>
+#include <math_NotSquare.hxx>
+#include <Standard_DimensionError.hxx>
+#include <StdFail_NotDone.hxx>
+#include <math_Matrix.hxx>
+#include <math_Gauss.hxx>
 #include <math_Recipes.hxx>
 
 #include <math_NotSquare.hxx> 

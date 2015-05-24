@@ -14,7 +14,21 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <STEPConstruct_Styles.ixx>
+#include <XSControl_WorkSession.hxx>
+#include <StepVisual_StyledItem.hxx>
+#include <StepRepr_RepresentationItem.hxx>
+#include <StepVisual_PresentationStyleAssignment.hxx>
+#include <TopoDS_Shape.hxx>
+#include <StepRepr_RepresentationContext.hxx>
+#include <StepVisual_MechanicalDesignGeometricPresentationRepresentation.hxx>
+#include <StepShape_ContextDependentShapeRepresentation.hxx>
+#include <StepRepr_ProductDefinitionShape.hxx>
+#include <TColStd_HSequenceOfTransient.hxx>
+#include <StepVisual_Colour.hxx>
+#include <Quantity_Color.hxx>
+#include <STEPConstruct_DataMapOfAsciiStringTransient.hxx>
+#include <STEPConstruct_DataMapOfPointTransient.hxx>
+#include <STEPConstruct_Styles.hxx>
 #include <STEPConstruct.hxx>
 
 #include <TCollection_HAsciiString.hxx>

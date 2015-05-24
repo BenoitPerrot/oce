@@ -14,7 +14,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Hatch_Hatcher.ixx>
+#include <Standard_OutOfRange.hxx>
+#include <gp_Lin2d.hxx>
+#include <gp_Dir2d.hxx>
+#include <gp_Pnt2d.hxx>
+#include <Hatch_Hatcher.hxx>
 #include <Hatch_Line.hxx>
 #include <IntAna2d_IntPoint.hxx>
 #include <IntAna2d_AnaIntersection.hxx>

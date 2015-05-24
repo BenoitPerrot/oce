@@ -19,7 +19,27 @@
 #define No_Standard_OutOfRange
 #endif
 
-#include <Expr_UnaryFunction.ixx>
+#include <Expr_GeneralFunction.hxx>
+#include <Expr_InvalidFunction.hxx>
+#include <Standard_NumericError.hxx>
+#include <Expr_NotEvaluable.hxx>
+#include <Expr_GeneralExpression.hxx>
+#include <Expr_NamedUnknown.hxx>
+#include <Expr_Array1OfNamedUnknown.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <Expr_UnaryFunction.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Expr_UnaryFunction)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Expr_UnaryExpression),
+  STANDARD_TYPE(Expr_GeneralExpression),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Expr_UnaryFunction)
+IMPLEMENT_DOWNCAST(Expr_UnaryFunction,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Expr_UnaryFunction)
 #include <Expr_InvalidFunction.hxx>
 #include <Expr_Array1OfNamedUnknown.hxx>
 #include <Expr_Array1OfGeneralExpression.hxx>

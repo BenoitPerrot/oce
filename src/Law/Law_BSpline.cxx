@@ -20,7 +20,26 @@
 //            bon appel a LocateParameter (PRO6973) et mise en conformite avec
 //            le cdl de LocateU, lorsque U est un noeud (PRO6988)
 
-#include <Law_BSpline.ixx>
+#include <TColStd_HArray1OfReal.hxx>
+#include <TColStd_HArray1OfInteger.hxx>
+#include <Standard_ConstructionError.hxx>
+#include <Standard_DimensionError.hxx>
+#include <Standard_DomainError.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Standard_RangeError.hxx>
+#include <Standard_NoSuchObject.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <TColStd_Array1OfInteger.hxx>
+#include <Law_BSpline.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Law_BSpline)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Law_BSpline)
+IMPLEMENT_DOWNCAST(Law_BSpline,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Law_BSpline)
 #include <gp.hxx>
 #include <BSplCLib.hxx>
 #include <BSplCLib_KnotDistribution.hxx>

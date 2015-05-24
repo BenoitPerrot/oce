@@ -14,7 +14,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepAlgo_AsDes.ixx>
+#include <Standard_ConstructionError.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopTools_ListOfShape.hxx>
+#include <BRepAlgo_AsDes.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(BRepAlgo_AsDes)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(BRepAlgo_AsDes)
+IMPLEMENT_DOWNCAST(BRepAlgo_AsDes,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(BRepAlgo_AsDes)
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 
 //=======================================================================

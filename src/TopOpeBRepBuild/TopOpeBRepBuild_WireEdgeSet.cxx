@@ -20,7 +20,14 @@
 static TCollection_AsciiString PRODINS("dins ");
 #endif
 
-#include <TopOpeBRepBuild_WireEdgeSet.ixx>
+#include <TopoDS_Shape.hxx>
+#include <TopoDS_Face.hxx>
+#include <TopTools_ListOfShape.hxx>
+#include <gp_Pnt2d.hxx>
+#include <gp_Vec2d.hxx>
+#include <TopoDS_Edge.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <TopOpeBRepBuild_WireEdgeSet.hxx>
 #include <TopoDS.hxx>
 #include <BRep_Tool.hxx>
 #include <gp_Vec.hxx>

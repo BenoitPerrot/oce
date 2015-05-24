@@ -12,7 +12,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IntTools_ShrunkRange.ixx>
+#include <IntTools_Context.hxx>
+#include <TopoDS_Edge.hxx>
+#include <TopoDS_Vertex.hxx>
+#include <Bnd_Box.hxx>
+#include <IntTools_ShrunkRange.hxx>
 
 #include <Precision.hxx>
 

@@ -14,4 +14,14 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <FEmTool_SparseMatrix.ixx>
+#include <StdFail_NotDone.hxx>
+#include <FEmTool_SparseMatrix.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(FEmTool_SparseMatrix)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(FEmTool_SparseMatrix)
+IMPLEMENT_DOWNCAST(FEmTool_SparseMatrix,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(FEmTool_SparseMatrix)

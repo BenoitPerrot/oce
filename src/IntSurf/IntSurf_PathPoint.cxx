@@ -12,7 +12,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IntSurf_PathPoint.ixx>
+#include <TColgp_HSequenceOfXY.hxx>
+#include <StdFail_UndefinedDerivative.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Vec.hxx>
+#include <gp_Dir2d.hxx>
+#include <IntSurf_PathPoint.hxx>
 
 
 IntSurf_PathPoint::IntSurf_PathPoint ():

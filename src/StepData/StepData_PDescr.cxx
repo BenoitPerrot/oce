@@ -11,7 +11,21 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepData_PDescr.ixx>
+#include <StepData_PDescr.hxx>
+#include <Standard_Type.hxx>
+#include <StepData_EDescr.hxx>
+#include <StepData_Field.hxx>
+#include <Interface_Check.hxx>
+#include <StepData_PDescr.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepData_PDescr)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepData_PDescr)
+IMPLEMENT_DOWNCAST(StepData_PDescr,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepData_PDescr)
 
 #define KindInteger 1
 #define KindBoolean 2

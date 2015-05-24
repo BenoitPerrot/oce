@@ -14,7 +14,22 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IGESToBRep_IGESBoundary.ixx>
+#include <IGESData_IGESEntity.hxx>
+#include <ShapeExtend_WireData.hxx>
+#include <IGESToBRep_CurveAndSurface.hxx>
+#include <TopoDS_Face.hxx>
+#include <gp_Trsf2d.hxx>
+#include <IGESData_HArray1OfIGESEntity.hxx>
+#include <IGESToBRep_IGESBoundary.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESToBRep_IGESBoundary)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESToBRep_IGESBoundary)
+IMPLEMENT_DOWNCAST(IGESToBRep_IGESBoundary,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESToBRep_IGESBoundary)
 #include <TColStd_HSequenceOfTransient.hxx>
 #include <Geom2d_Curve.hxx>
 #include <Geom_Curve.hxx>

@@ -11,7 +11,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepAP214_OrganizationItem.ixx>
+#include <Standard_Transient.hxx>
+#include <StepAP214_AppliedOrganizationAssignment.hxx>
+#include <StepBasic_Approval.hxx>
+#include <StepAP214_OrganizationItem.hxx>
 #include <Interface_Macros.hxx>
 
 StepAP214_OrganizationItem::StepAP214_OrganizationItem ()  {  }

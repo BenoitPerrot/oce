@@ -16,7 +16,20 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESSolid_SelectedComponent.ixx>
+#include <IGESSolid_BooleanTree.hxx>
+#include <gp_XYZ.hxx>
+#include <gp_Pnt.hxx>
+#include <IGESSolid_SelectedComponent.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESSolid_SelectedComponent)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IGESData_IGESEntity),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESSolid_SelectedComponent)
+IMPLEMENT_DOWNCAST(IGESSolid_SelectedComponent,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESSolid_SelectedComponent)
 #include <gp_GTrsf.hxx>
 
 

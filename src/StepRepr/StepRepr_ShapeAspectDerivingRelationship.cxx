@@ -11,6 +11,16 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepRepr_ShapeAspectDerivingRelationship.ixx>
+#include <StepRepr_ShapeAspectDerivingRelationship.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepRepr_ShapeAspectDerivingRelationship)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepRepr_ShapeAspectRelationship),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepRepr_ShapeAspectDerivingRelationship)
+IMPLEMENT_DOWNCAST(StepRepr_ShapeAspectDerivingRelationship,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepRepr_ShapeAspectDerivingRelationship)
 
 StepRepr_ShapeAspectDerivingRelationship::StepRepr_ShapeAspectDerivingRelationship  ()    {  }

@@ -22,7 +22,28 @@
 
 #include <stdio.h>
 
-#include <GeomFill_NSections.ixx>
+#include <Geom_BSplineSurface.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <TColGeom_SequenceOfCurve.hxx>
+#include <TColStd_SequenceOfReal.hxx>
+#include <GeomFill_SequenceOfTrsf.hxx>
+#include <TColgp_Array1OfPnt.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <TColgp_Array1OfVec.hxx>
+#include <TColStd_Array1OfInteger.hxx>
+#include <gp_Pnt.hxx>
+#include <Geom_Curve.hxx>
+#include <GeomFill_NSections.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(GeomFill_NSections)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(GeomFill_SectionLaw),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(GeomFill_NSections)
+IMPLEMENT_DOWNCAST(GeomFill_NSections,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(GeomFill_NSections)
 #include <GeomFill_SectionGenerator.hxx>
 #include <GeomFill_Line.hxx>
 #include <GeomFill_AppSurf.hxx>

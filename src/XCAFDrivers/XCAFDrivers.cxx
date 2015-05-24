@@ -13,7 +13,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <XCAFDrivers.ixx>
+#include <Standard_Transient.hxx>
+#include <Standard_GUID.hxx>
+#include <XCAFDrivers.hxx>
 #include <XCAFDrivers_DocumentStorageDriver.hxx>
 #include <XCAFDrivers_DocumentRetrievalDriver.hxx>
 #include <XCAFSchema.hxx>

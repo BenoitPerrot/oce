@@ -12,7 +12,25 @@
 // commercial license or contractual agreement.
 
 #include <Standard_NotImplemented.hxx>
-#include <Adaptor3d_TopolTool.ixx>
+#include <Adaptor2d_HLine2d.hxx>
+#include <Adaptor3d_HVertex.hxx>
+#include <Adaptor3d_HSurface.hxx>
+#include <TColStd_HArray1OfReal.hxx>
+#include <Standard_DomainError.hxx>
+#include <Adaptor2d_HCurve2d.hxx>
+#include <gp_Pnt2d.hxx>
+#include <gp_Pnt.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <Adaptor3d_TopolTool.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Adaptor3d_TopolTool)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Adaptor3d_TopolTool)
+IMPLEMENT_DOWNCAST(Adaptor3d_TopolTool,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Adaptor3d_TopolTool)
 #include <Precision.hxx>
 
 #include <gp_Cone.hxx>

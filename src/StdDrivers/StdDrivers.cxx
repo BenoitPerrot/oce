@@ -13,7 +13,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StdDrivers.ixx>
+#include <Standard_Transient.hxx>
+#include <Standard_GUID.hxx>
+#include <StdDrivers.hxx>
 #include <StdDrivers_DocumentStorageDriver.hxx>
 #include <StdDrivers_DocumentRetrievalDriver.hxx>
 #include <StdSchema.hxx>

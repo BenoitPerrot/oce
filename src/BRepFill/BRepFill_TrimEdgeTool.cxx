@@ -14,7 +14,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepFill_TrimEdgeTool.ixx>
+#include <Geom2d_Curve.hxx>
+#include <Bisector_Bisec.hxx>
+#include <Geom2d_Geometry.hxx>
+#include <TopoDS_Edge.hxx>
+#include <TColgp_SequenceOfPnt.hxx>
+#include <gp_Pnt2d.hxx>
+#include <BRepFill_TrimEdgeTool.hxx>
 #include <BRep_Tool.hxx>
 #include <Bisector_BisecAna.hxx>
 #include <Geom2d_Curve.hxx>

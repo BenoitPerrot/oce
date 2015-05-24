@@ -14,7 +14,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepFill_ApproxSeewing.ixx>
+#include <Geom_Curve.hxx>
+#include <Geom2d_Curve.hxx>
+#include <StdFail_NotDone.hxx>
+#include <BRepFill_MultiLine.hxx>
+#include <BRepFill_ApproxSeewing.hxx>
 
 #include <AppParCurves_MultiCurve.hxx>
 #include <AppDef_Compute.hxx>

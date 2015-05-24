@@ -14,7 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <DBRep.ixx>
+#include <TopoDS_Shape.hxx>
+#include <DBRep.hxx>
 #include <DBRep_DrawableShape.hxx>
 #include <Draw_Appli.hxx>
 #include <Draw.hxx>

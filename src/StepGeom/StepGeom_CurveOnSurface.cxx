@@ -11,7 +11,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepGeom_CurveOnSurface.ixx>
+#include <Standard_Transient.hxx>
+#include <StepGeom_Pcurve.hxx>
+#include <StepGeom_SurfaceCurve.hxx>
+#include <StepGeom_CompositeCurveOnSurface.hxx>
+#include <StepGeom_CurveOnSurface.hxx>
 #include <Interface_Macros.hxx>
 
 StepGeom_CurveOnSurface::StepGeom_CurveOnSurface () {  }

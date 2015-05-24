@@ -15,7 +15,19 @@
 #define GER61351		//GG_171199     Enable to set an object RGB color
 //						  instead a restricted object NameOfColor.
 
-#include <Prs3d_LineAspect.ixx>
+#include <Graphic3d_AspectLine3d.hxx>
+#include <Quantity_Color.hxx>
+#include <Prs3d_LineAspect.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Prs3d_LineAspect)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Prs3d_BasicAspect),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Prs3d_LineAspect)
+IMPLEMENT_DOWNCAST(Prs3d_LineAspect,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Prs3d_LineAspect)
 
 #ifdef GER61351
 Prs3d_LineAspect::Prs3d_LineAspect (const Quantity_Color &aColor,

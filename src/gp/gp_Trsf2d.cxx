@@ -16,7 +16,22 @@
 
 #define No_Standard_OutOfRange
 
-#include <gp_Trsf2d.ixx>
+#include <Standard_ConstructionError.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <gp_GTrsf2d.hxx>
+#include <gp_Trsf.hxx>
+#include <gp_Pnt2d.hxx>
+#include <gp_Ax2d.hxx>
+#include <gp_Vec2d.hxx>
+#include <gp_XY.hxx>
+#include <gp_Mat2d.hxx>
+#include <gp_Trsf2d.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(gp_Trsf2d)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Standard_Storable),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(gp_Trsf2d)
 #include <gp.hxx>
 #include <Standard_ConstructionError.hxx>
 

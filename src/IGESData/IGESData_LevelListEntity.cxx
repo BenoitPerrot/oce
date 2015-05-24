@@ -11,7 +11,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IGESData_LevelListEntity.ixx>
+#include <Standard_OutOfRange.hxx>
+#include <IGESData_LevelListEntity.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESData_LevelListEntity)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IGESData_IGESEntity),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESData_LevelListEntity)
+IMPLEMENT_DOWNCAST(IGESData_LevelListEntity,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESData_LevelListEntity)
 // LevelListEntity ne sert qu'au controle de type (pour le directory part)
 
 

@@ -16,7 +16,18 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESBasic_ExternalRefFile.ixx>
+#include <TCollection_HAsciiString.hxx>
+#include <IGESBasic_ExternalRefFile.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESBasic_ExternalRefFile)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IGESData_IGESEntity),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESBasic_ExternalRefFile)
+IMPLEMENT_DOWNCAST(IGESBasic_ExternalRefFile,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESBasic_ExternalRefFile)
 
 
 IGESBasic_ExternalRefFile::IGESBasic_ExternalRefFile ()    {  }

@@ -14,7 +14,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Geom2d_Vector.ixx>
+#include <Standard_DomainError.hxx>
+#include <gp_VectorWithNullMagnitude.hxx>
+#include <gp_Vec2d.hxx>
+#include <Geom2d_Vector.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Geom2d_Vector)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Geom2d_Geometry),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Geom2d_Vector)
+IMPLEMENT_DOWNCAST(Geom2d_Vector,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Geom2d_Vector)
 
 typedef Geom2d_Vector         Vector;
 typedef Handle(Geom2d_Vector) Handle(Vector);

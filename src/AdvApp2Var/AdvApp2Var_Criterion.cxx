@@ -14,7 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <AdvApp2Var_Criterion.ixx>
+#include <AdvApp2Var_Patch.hxx>
+#include <AdvApp2Var_Context.hxx>
+#include <AdvApp2Var_Criterion.hxx>
 
 
 void AdvApp2Var_Criterion::Delete()

@@ -15,7 +15,18 @@
 // commercial license or contractual agreement.
 
 #include <Precision.hxx>
-#include <BRepFilletAPI_MakeFillet.ixx>
+#include <StdFail_NotDone.hxx>
+#include <Standard_NoSuchObject.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopoDS_Edge.hxx>
+#include <Law_Function.hxx>
+#include <TColgp_Array1OfPnt2d.hxx>
+#include <TopoDS_Vertex.hxx>
+#include <TopOpeBRepBuild_HBuilder.hxx>
+#include <TopTools_ListOfShape.hxx>
+#include <ChFiDS_SecHArray1.hxx>
+#include <Geom_Surface.hxx>
+#include <BRepFilletAPI_MakeFillet.hxx>
 #include <TopExp_Explorer.hxx>
 #include <TopOpeBRepDS_HDataStructure.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>

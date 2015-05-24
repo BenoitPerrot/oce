@@ -14,8 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Units_MathSentence.ixx>
 #include <Units.hxx>
+#include <Units_MathSentence.hxx>
 
 //=======================================================================
 //function : Units_MathSentence

@@ -12,21 +12,38 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Resource_Manager.hxx>
-#include <Resource_Manager.ixx>
+#include <Resource_DataMapOfAsciiStringAsciiString.hxx>
 #include <Resource_DataMapIteratorOfDataMapOfAsciiStringAsciiString.hxx>
-#include <Resource_QuickSortOfArray1.hxx>
 #include <Resource_LexicalCompare.hxx>
+#include <Resource_Manager.hxx>
+#include <Resource_NoSuchResource.hxx>
+#include <Resource_QuickSortOfArray1.hxx>
+#include <Resource_Unicode.hxx>
 
-#include <OSD_Path.hxx>
-#include <OSD_File.hxx>
 #include <OSD_Directory.hxx>
+#include <OSD_File.hxx>
+#include <OSD_Path.hxx>
 #include <OSD_Protection.hxx>
 
 #include <Standard_ErrorHandler.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Standard_Type.hxx>
+#include <Standard_TypeMismatch.hxx>
+
+#include <TCollection_AsciiString.hxx>
 #include <TCollection_ExtendedString.hxx>
-#include <Resource_Unicode.hxx>
 #include <TColStd_Array1OfAsciiString.hxx>
+
+IMPLEMENT_STANDARD_TYPE(Resource_Manager)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Resource_Manager)
+
+IMPLEMENT_DOWNCAST(Resource_Manager,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Resource_Manager)
 
 #include <errno.h>
 

@@ -14,7 +14,16 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <ShapeConstruct.ixx>
+#include <Geom_BSplineCurve.hxx>
+#include <Geom_Curve.hxx>
+#include <Geom2d_BSplineCurve.hxx>
+#include <Geom2d_Curve.hxx>
+#include <Geom_BSplineSurface.hxx>
+#include <Geom_Surface.hxx>
+#include <TopTools_HSequenceOfShape.hxx>
+#include <TopoDS_Face.hxx>
+#include <TopoDS_Edge.hxx>
+#include <ShapeConstruct.hxx>
 #include <Standard_Failure.hxx>
 #include <Standard_ErrorHandler.hxx>
 #include <Geom_Conic.hxx>

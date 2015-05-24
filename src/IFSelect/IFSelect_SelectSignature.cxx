@@ -11,7 +11,25 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IFSelect_SelectSignature.ixx>
+#include <IFSelect_Signature.hxx>
+#include <IFSelect_SignCounter.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <Standard_Transient.hxx>
+#include <Interface_Graph.hxx>
+#include <Interface_InterfaceModel.hxx>
+#include <IFSelect_SelectSignature.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IFSelect_SelectSignature)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IFSelect_SelectExtract),
+  STANDARD_TYPE(IFSelect_SelectDeduct),
+  STANDARD_TYPE(IFSelect_Selection),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IFSelect_SelectSignature)
+IMPLEMENT_DOWNCAST(IFSelect_SelectSignature,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IFSelect_SelectSignature)
 
 
 //  theexact : -1  OUI   0  NON une seule valeur  > 0 NON nb de valeurs

@@ -13,7 +13,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <XmlMXCAFDoc_DimTolDriver.ixx>
+#include <CDM_MessageDriver.hxx>
+#include <TDF_Attribute.hxx>
+#include <XmlObjMgt_Persistent.hxx>
+#include <XmlMXCAFDoc_DimTolDriver.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(XmlMXCAFDoc_DimTolDriver)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(XmlMDF_ADriver),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(XmlMXCAFDoc_DimTolDriver)
+IMPLEMENT_DOWNCAST(XmlMXCAFDoc_DimTolDriver,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(XmlMXCAFDoc_DimTolDriver)
 #include <XmlObjMgt.hxx>
 #include <XCAFDoc_DimTol.hxx>
 #include <TCollection_HAsciiString.hxx>

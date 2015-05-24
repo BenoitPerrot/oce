@@ -14,7 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Draw.ixx>
+#include <TCollection_AsciiString.hxx>
+#include <Draw_Drawable3D.hxx>
+#include <Draw_ProgressIndicator.hxx>
+#include <Draw.hxx>
 
 #include <Standard_Stream.hxx>
 #include <Standard_SStream.hxx>

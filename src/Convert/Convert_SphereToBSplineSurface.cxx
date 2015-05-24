@@ -14,7 +14,9 @@
 
 //JCV 16/10/91
 
-#include <Convert_SphereToBSplineSurface.ixx>
+#include <Standard_DomainError.hxx>
+#include <gp_Sphere.hxx>
+#include <Convert_SphereToBSplineSurface.hxx>
 
 #include <gp.hxx>
 #include <gp_Trsf.hxx>

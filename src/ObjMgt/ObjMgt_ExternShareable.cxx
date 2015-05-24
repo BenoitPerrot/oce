@@ -11,5 +11,15 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <ObjMgt_ExternShareable.ixx>
+#include <PCollection_HAsciiString.hxx>
+#include <ObjMgt_ExternShareable.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(ObjMgt_ExternShareable)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Standard_Persistent),
+  STANDARD_TYPE(Standard_Storable),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(ObjMgt_ExternShareable)
+IMPLEMENT_DOWNCAST(ObjMgt_ExternShareable,Standard_Persistent)
+IMPLEMENT_STANDARD_RTTI(ObjMgt_ExternShareable)
 

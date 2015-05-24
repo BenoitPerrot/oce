@@ -13,7 +13,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <MeshVS_DataSource3D.ixx>
+#include <MeshVS_HArray1OfSequenceOfInteger.hxx>
+#include <MeshVS_DataSource3D.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(MeshVS_DataSource3D)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MeshVS_DataSource),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(MeshVS_DataSource3D)
+IMPLEMENT_DOWNCAST(MeshVS_DataSource3D,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(MeshVS_DataSource3D)
 
 //================================================================
 // Function : GetPrismTopology

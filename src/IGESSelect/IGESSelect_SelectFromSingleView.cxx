@@ -11,7 +11,22 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IGESSelect_SelectFromSingleView.ixx>
+#include <Interface_InterfaceError.hxx>
+#include <Interface_EntityIterator.hxx>
+#include <Interface_Graph.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <IGESSelect_SelectFromSingleView.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESSelect_SelectFromSingleView)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IFSelect_SelectDeduct),
+  STANDARD_TYPE(IFSelect_Selection),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESSelect_SelectFromSingleView)
+IMPLEMENT_DOWNCAST(IGESSelect_SelectFromSingleView,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESSelect_SelectFromSingleView)
 #include <IGESData_IGESEntity.hxx>
 #include <Interface_Macros.hxx>
 

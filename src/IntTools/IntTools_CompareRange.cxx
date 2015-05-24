@@ -13,7 +13,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IntTools_CompareRange.ixx>
+#include <IntTools_Range.hxx>
+#include <IntTools_CompareRange.hxx>
 //=======================================================================
 //function :IntTools_CompareRange::IntTools_CompareRange
 //purpose  : 

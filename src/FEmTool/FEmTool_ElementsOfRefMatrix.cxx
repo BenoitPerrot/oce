@@ -14,7 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <FEmTool_ElementsOfRefMatrix.ixx>
+#include <PLib_Base.hxx>
+#include <Standard_ConstructionError.hxx>
+#include <FEmTool_ElementsOfRefMatrix.hxx>
 #include <PLib_Base.hxx>
 #include <TColStd_Array1OfReal.hxx>
 

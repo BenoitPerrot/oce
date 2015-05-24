@@ -16,7 +16,11 @@
 
 #include <stdio.h>
 
-#include <BRepOffset_MakeLoops.ixx>
+#include <TopTools_ListOfShape.hxx>
+#include <BRepAlgo_AsDes.hxx>
+#include <BRepAlgo_Image.hxx>
+#include <BRepOffset_Analyse.hxx>
+#include <BRepOffset_MakeLoops.hxx>
 #include <BRepAlgo_Loop.hxx>
 
 

@@ -14,7 +14,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Graphic3d_TextureRoot.ixx>
+#include <Graphic3d_TextureParams.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <OSD_Path.hxx>
+#include <Graphic3d_TextureRoot.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Graphic3d_TextureRoot)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Graphic3d_TextureRoot)
+IMPLEMENT_DOWNCAST(Graphic3d_TextureRoot,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Graphic3d_TextureRoot)
 #include <Graphic3d_GraphicDriver.hxx>
 
 #include <Image_AlienPixMap.hxx>

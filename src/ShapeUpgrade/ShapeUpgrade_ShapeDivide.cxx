@@ -17,7 +17,10 @@
 //    abv 16.06.99 returning ReShape context; processing shared subshapes in compounds
 //    sln 29.11.01 Bug21: in method Perform(..) nullify location of compound's faces only if mode myConsiderLocation is on
 
-#include <ShapeUpgrade_ShapeDivide.ixx>
+#include <ShapeUpgrade_FaceDivide.hxx>
+#include <ShapeBuild_ReShape.hxx>
+#include <TopoDS_Shape.hxx>
+#include <ShapeUpgrade_ShapeDivide.hxx>
 #include <Precision.hxx>
 #include <ShapeExtend.hxx>
 #include <ShapeBuild_ReShape.hxx>

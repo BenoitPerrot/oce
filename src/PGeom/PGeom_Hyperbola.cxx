@@ -14,7 +14,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PGeom_Hyperbola.ixx>
+#include <gp_Ax2.hxx>
+#include <PGeom_Hyperbola.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(PGeom_Hyperbola)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(PGeom_Conic),
+  STANDARD_TYPE(PGeom_Curve),
+  STANDARD_TYPE(PGeom_Geometry),
+  STANDARD_TYPE(Standard_Persistent),
+  STANDARD_TYPE(Standard_Storable),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(PGeom_Hyperbola)
+IMPLEMENT_DOWNCAST(PGeom_Hyperbola,Standard_Persistent)
+IMPLEMENT_STANDARD_RTTI(PGeom_Hyperbola)
 
 //=======================================================================
 //function : PGeom_Hyperbola

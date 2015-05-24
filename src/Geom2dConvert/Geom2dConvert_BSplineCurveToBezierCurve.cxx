@@ -14,7 +14,14 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Geom2dConvert_BSplineCurveToBezierCurve.ixx>
+#include <Geom2d_BSplineCurve.hxx>
+#include <Standard_DimensionError.hxx>
+#include <Standard_DomainError.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Geom2d_BezierCurve.hxx>
+#include <TColGeom2d_Array1OfBezierCurve.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <Geom2dConvert_BSplineCurveToBezierCurve.hxx>
 
 #include <TColgp_Array1OfPnt2d.hxx>
 #include <TColStd_Array1OfReal.hxx>

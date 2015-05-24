@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <RWStepAP214.ixx>
+#include <RWStepAP214.hxx>
 #include <RWHeaderSection.hxx>
 
 #include <StepAP214_Protocol.hxx>

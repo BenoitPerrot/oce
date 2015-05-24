@@ -11,7 +11,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IGESData_IGESReaderTool.ixx>
+#include <Interface_ParamList.hxx>
+#include <IGESData_FileRecognizer.hxx>
+#include <Interface_Check.hxx>
+#include <IGESData_IGESReaderData.hxx>
+#include <IGESData_Protocol.hxx>
+#include <Standard_Transient.hxx>
+#include <Interface_InterfaceModel.hxx>
+#include <IGESData_IGESEntity.hxx>
+#include <IGESData_DirPart.hxx>
+#include <IGESData_ParamReader.hxx>
+#include <IGESData_IGESReaderTool.hxx>
 #include <IGESData_IGESReaderData.hxx>
 #include <IGESData_ParamCursor.hxx>
 #include <Interface_ReaderModule.hxx>

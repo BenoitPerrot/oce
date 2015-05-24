@@ -18,7 +18,20 @@
 #define OCC6010 // vro 09.06.2004
 
 #include <stdio.h>
-#include <XmlMDataStd_RealDriver.ixx>
+#include <CDM_MessageDriver.hxx>
+#include <TDF_Attribute.hxx>
+#include <XmlObjMgt_Persistent.hxx>
+#include <XmlMDataStd_RealDriver.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(XmlMDataStd_RealDriver)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(XmlMDF_ADriver),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(XmlMDataStd_RealDriver)
+IMPLEMENT_DOWNCAST(XmlMDataStd_RealDriver,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(XmlMDataStd_RealDriver)
 #include <TDataStd_Real.hxx>
 #include <XmlObjMgt.hxx>
 

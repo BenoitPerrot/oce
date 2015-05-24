@@ -21,7 +21,8 @@
 
 // Declarations:	
 
-#include <TDocStd.ixx>
+#include <TDF_IDList.hxx>
+#include <TDocStd.hxx>
 #include <CDF.hxx>
 //#include <LCTLOFF.h>
 #include <OSD_Environment.hxx>

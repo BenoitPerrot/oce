@@ -14,7 +14,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRep_GCurve.ixx>
+#include <TopLoc_Location.hxx>
+#include <gp_Pnt.hxx>
+#include <BRep_GCurve.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(BRep_GCurve)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(BRep_CurveRepresentation),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(BRep_GCurve)
+IMPLEMENT_DOWNCAST(BRep_GCurve,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(BRep_GCurve)
 
 //=======================================================================
 //function : BRep_GCurve

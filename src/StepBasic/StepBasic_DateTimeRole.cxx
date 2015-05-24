@@ -11,7 +11,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepBasic_DateTimeRole.ixx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepBasic_DateTimeRole.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepBasic_DateTimeRole)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepBasic_DateTimeRole)
+IMPLEMENT_DOWNCAST(StepBasic_DateTimeRole,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepBasic_DateTimeRole)
 
 
 StepBasic_DateTimeRole::StepBasic_DateTimeRole ()  {}

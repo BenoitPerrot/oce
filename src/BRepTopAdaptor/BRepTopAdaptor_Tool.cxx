@@ -14,7 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepTopAdaptor_Tool.ixx>
+#include <BRepTopAdaptor_TopolTool.hxx>
+#include <Adaptor3d_HSurface.hxx>
+#include <TopoDS_Face.hxx>
+#include <BRepTopAdaptor_Tool.hxx>
 
 #include <BRepTopAdaptor_TopolTool.hxx>
 #include <BRepAdaptor_HSurface.hxx>

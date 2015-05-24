@@ -11,7 +11,14 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <ShapeAnalysis_CheckSmallFace.ixx>
+#include <TopoDS_Face.hxx>
+#include <gp_Pnt.hxx>
+#include <TopoDS_Edge.hxx>
+#include <TopTools_DataMapOfShapeListOfShape.hxx>
+#include <ShapeAnalysis_DataMapOfShapeListOfReal.hxx>
+#include <TopoDS_Compound.hxx>
+#include <TopTools_DataMapOfShapeShape.hxx>
+#include <ShapeAnalysis_CheckSmallFace.hxx>
 #include <Standard_ErrorHandler.hxx>  
 #include <TopTools_ListOfShape.hxx>
 #include <TColStd_ListOfReal.hxx>

@@ -17,7 +17,15 @@
 #ifndef No_Exception
 // #define No_Exception
 #endif
-#include <HLRAlgo_Projector.ixx>
+#include <Standard_NoSuchObject.hxx>
+#include <gp_Ax2.hxx>
+#include <gp_Trsf.hxx>
+#include <gp_Vec2d.hxx>
+#include <gp_Vec.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Pnt2d.hxx>
+#include <gp_Lin.hxx>
+#include <HLRAlgo_Projector.hxx>
 #include <Precision.hxx>
 #include <gp_Ax3.hxx>
 #include <gp_Vec.hxx>

@@ -15,7 +15,20 @@
 
 // modified     13.04.2009 Sergey ZARITCHNY
 
-#include <BinMPrsStd_PositionDriver.ixx>
+#include <CDM_MessageDriver.hxx>
+#include <TDF_Attribute.hxx>
+#include <BinObjMgt_Persistent.hxx>
+#include <BinMPrsStd_PositionDriver.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(BinMPrsStd_PositionDriver)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(BinMDF_ADriver),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(BinMPrsStd_PositionDriver)
+IMPLEMENT_DOWNCAST(BinMPrsStd_PositionDriver,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(BinMPrsStd_PositionDriver)
 #include <gp_Pnt.hxx>
 #include <TDataXtd_Position.hxx>
 #include <CDM_MessageDriver.hxx>

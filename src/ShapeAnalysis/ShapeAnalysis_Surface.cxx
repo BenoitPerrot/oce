@@ -26,7 +26,24 @@
 //#4  szv           S4163: optimizations
 //:r9 abv 09.04.99: id_turbine-C.stp #3865: check degenerated 2d point by recomputing to 3d instead of Resolution
 //:s5 abv 22.04.99  Adding debug printouts in catch {} blocks
-#include <ShapeAnalysis_Surface.ixx>
+#include <Geom_Surface.hxx>
+#include <GeomAdaptor_HSurface.hxx>
+#include <Geom_Curve.hxx>
+#include <gp_Pnt2d.hxx>
+#include <gp_Pnt.hxx>
+#include <TColgp_Array1OfPnt.hxx>
+#include <TColgp_Array1OfPnt2d.hxx>
+#include <Bnd_Box.hxx>
+#include <ShapeAnalysis_Surface.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(ShapeAnalysis_Surface)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(ShapeAnalysis_Surface)
+IMPLEMENT_DOWNCAST(ShapeAnalysis_Surface,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(ShapeAnalysis_Surface)
 
 #include <Geom_BoundedSurface.hxx>
 #include <Geom_BSplineSurface.hxx>

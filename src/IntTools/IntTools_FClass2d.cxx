@@ -14,7 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IntTools_FClass2d.ixx>
+#include <TopoDS_Face.hxx>
+#include <gp_Pnt2d.hxx>
+#include <IntTools_FClass2d.hxx>
 
 #include <stdio.h>
 

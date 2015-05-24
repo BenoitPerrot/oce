@@ -11,7 +11,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepBasic_PersonalAddress.ixx>
+#include <StepBasic_HArray1OfPerson.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepBasic_Person.hxx>
+#include <StepBasic_PersonalAddress.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepBasic_PersonalAddress)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepBasic_Address),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepBasic_PersonalAddress)
+IMPLEMENT_DOWNCAST(StepBasic_PersonalAddress,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepBasic_PersonalAddress)
 
 
 StepBasic_PersonalAddress::StepBasic_PersonalAddress ()  {}

@@ -14,7 +14,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PCDM.ixx>
+#include <CDM_Document.hxx>
+#include <PCDM_StorageDriver.hxx>
+#include <Storage_Schema.hxx>
+#include <TCollection_ExtendedString.hxx>
+#include <CDM_Application.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <PCDM.hxx>
 #include <Plugin.hxx>
 #include <Standard_SStream.hxx>
 #include <Standard_NoSuchObject.hxx>

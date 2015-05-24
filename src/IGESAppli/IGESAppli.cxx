@@ -11,7 +11,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IGESAppli.ixx>
+#include <IGESAppli_Protocol.hxx>
+#include <IGESAppli.hxx>
 #include <IGESAppli_Protocol.hxx>
 #include <IGESAppli_GeneralModule.hxx>
 #include <IGESAppli_ReadWriteModule.hxx>

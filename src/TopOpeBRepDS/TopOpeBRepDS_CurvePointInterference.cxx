@@ -14,7 +14,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopOpeBRepDS_CurvePointInterference.ixx>
+#include <TopOpeBRepDS_Transition.hxx>
+#include <TopOpeBRepDS_CurvePointInterference.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(TopOpeBRepDS_CurvePointInterference)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(TopOpeBRepDS_Interference),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(TopOpeBRepDS_CurvePointInterference)
+IMPLEMENT_DOWNCAST(TopOpeBRepDS_CurvePointInterference,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(TopOpeBRepDS_CurvePointInterference)
 
 //=======================================================================
 //function : TopOpeBRepDS_CurvePointInterference

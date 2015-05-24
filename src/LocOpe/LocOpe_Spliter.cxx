@@ -16,7 +16,13 @@
 
 //  Modified by skv - Mon May 31 12:34:09 2004 OCC5865
 
-#include <LocOpe_Spliter.ixx>
+#include <StdFail_NotDone.hxx>
+#include <Standard_NullObject.hxx>
+#include <Standard_NoSuchObject.hxx>
+#include <TopoDS_Shape.hxx>
+#include <LocOpe_WiresOnShape.hxx>
+#include <TopTools_ListOfShape.hxx>
+#include <LocOpe_Spliter.hxx>
 
 //#include <LocOpe_ProjectedWires.hxx>
 

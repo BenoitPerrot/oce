@@ -14,7 +14,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopOpeBRepDS_BuildTool.ixx>
+#include <TopOpeBRepTool_GeomTool.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopOpeBRepDS_Point.hxx>
+#include <TopOpeBRepDS_Curve.hxx>
+#include <TopOpeBRepDS_DataStructure.hxx>
+#include <Geom_Curve.hxx>
+#include <TopOpeBRepDS_Surface.hxx>
+#include <TopoDS_Edge.hxx>
+#include <TopoDS_Vertex.hxx>
+#include <TopoDS_Face.hxx>
+#include <TopOpeBRepDS_HDataStructure.hxx>
+#include <Geom2d_Curve.hxx>
+#include <Geom_Surface.hxx>
+#include <TopOpeBRepDS_BuildTool.hxx>
 
 #include <TopoDS.hxx>
 #include <TopExp_Explorer.hxx>

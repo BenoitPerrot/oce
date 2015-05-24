@@ -16,7 +16,27 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESDraw_Drawing.ixx>
+#include <IGESDraw_HArray1OfViewKindEntity.hxx>
+#include <TColgp_HArray1OfXY.hxx>
+#include <IGESData_HArray1OfIGESEntity.hxx>
+#include <Standard_DimensionMismatch.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <IGESData_ViewKindEntity.hxx>
+#include <gp_Pnt2d.hxx>
+#include <IGESData_IGESEntity.hxx>
+#include <gp_XY.hxx>
+#include <gp_XYZ.hxx>
+#include <IGESDraw_Drawing.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESDraw_Drawing)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IGESData_IGESEntity),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESDraw_Drawing)
+IMPLEMENT_DOWNCAST(IGESDraw_Drawing,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESDraw_Drawing)
 #include <IGESDraw_View.hxx>
 #include <IGESDraw_PerspectiveView.hxx>
 

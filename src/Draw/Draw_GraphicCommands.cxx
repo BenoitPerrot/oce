@@ -18,7 +18,10 @@
 
 
 // Modif : DFO 05/11/96
-#include <Draw.ixx>
+#include <TCollection_AsciiString.hxx>
+#include <Draw_Drawable3D.hxx>
+#include <Draw_ProgressIndicator.hxx>
+#include <Draw.hxx>
 #include <Draw_Appli.hxx>
 
 #include <Draw_Drawable3D.hxx>

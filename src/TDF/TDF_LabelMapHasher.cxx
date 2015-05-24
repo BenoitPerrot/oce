@@ -21,4 +21,5 @@
 
 
 
-#include <TDF_LabelMapHasher.ixx>
+#include <TDF_Label.hxx>
+#include <TDF_LabelMapHasher.hxx>

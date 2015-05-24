@@ -19,7 +19,27 @@
 #define No_Standard_OutOfRange
 #endif
 
-#include <Expr_BinaryFunction.ixx>
+#include <Expr_GeneralFunction.hxx>
+#include <Expr_InvalidFunction.hxx>
+#include <Standard_NumericError.hxx>
+#include <Expr_NotEvaluable.hxx>
+#include <Expr_GeneralExpression.hxx>
+#include <Expr_NamedUnknown.hxx>
+#include <Expr_Array1OfNamedUnknown.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <Expr_BinaryFunction.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Expr_BinaryFunction)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Expr_BinaryExpression),
+  STANDARD_TYPE(Expr_GeneralExpression),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Expr_BinaryFunction)
+IMPLEMENT_DOWNCAST(Expr_BinaryFunction,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Expr_BinaryFunction)
 #include <Expr_InvalidFunction.hxx>
 #include <Expr_Array1OfNamedUnknown.hxx>
 #include <Expr_Array1OfGeneralExpression.hxx>

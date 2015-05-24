@@ -12,7 +12,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BOPDS_ShapeInfo.ixx>
+#include <TopoDS_Shape.hxx>
+#include <Bnd_Box.hxx>
+#include <BOPDS_ShapeInfo.hxx>
 
 #include <stdio.h>
 #include <BOPCol_ListOfInteger.hxx>

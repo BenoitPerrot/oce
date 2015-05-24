@@ -31,7 +31,18 @@
 //-Declarations
 
 // for the class
-#include <Graphic3d_AspectLine3d.ixx>
+#include <Quantity_Color.hxx>
+#include <Graphic3d_AspectLine3d.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Graphic3d_AspectLine3d)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Aspect_AspectLine),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Graphic3d_AspectLine3d)
+IMPLEMENT_DOWNCAST(Graphic3d_AspectLine3d,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Graphic3d_AspectLine3d)
 
 //-Aliases
 

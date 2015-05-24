@@ -11,7 +11,23 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IFSelect_SignMultiple.ixx>
+#include <IFSelect_Signature.hxx>
+#include <Standard_Transient.hxx>
+#include <Interface_InterfaceModel.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <IFSelect_SignMultiple.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IFSelect_SignMultiple)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IFSelect_Signature),
+  STANDARD_TYPE(Interface_SignType),
+  STANDARD_TYPE(MoniTool_SignText),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IFSelect_SignMultiple)
+IMPLEMENT_DOWNCAST(IFSelect_SignMultiple,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IFSelect_SignMultiple)
 #include <TCollection_AsciiString.hxx>
 
 

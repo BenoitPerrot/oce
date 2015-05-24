@@ -14,7 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepToGeom_MakeBSplineSurface.ixx>
+#include <StepGeom_BSplineSurface.hxx>
+#include <Geom_BSplineSurface.hxx>
+#include <StepToGeom_MakeBSplineSurface.hxx>
 #include <StepGeom_BSplineSurfaceWithKnots.hxx>
 #include <StepGeom_BSplineSurfaceWithKnotsAndRationalBSplineSurface.hxx>
 #include <TColStd_Array1OfInteger.hxx>

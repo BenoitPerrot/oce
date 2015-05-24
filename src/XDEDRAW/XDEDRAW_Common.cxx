@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <XDEDRAW_Common.ixx>
+#include <XDEDRAW_Common.hxx>
 #include <TCollection_ExtendedString.hxx>
 
 #include <Interface_Macros.hxx>

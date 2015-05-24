@@ -14,7 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopOpeBRepBuild_ShellToSolid.ixx>
+#include <TopoDS_Shell.hxx>
+#include <TopoDS_Solid.hxx>
+#include <TopTools_ListOfShape.hxx>
+#include <TopOpeBRepBuild_ShellToSolid.hxx>
 #include <TopOpeBRepBuild_ShellFaceSet.hxx>
 #include <TopOpeBRepBuild_SolidBuilder.hxx>
 #include <TopOpeBRepBuild_Builder.hxx>

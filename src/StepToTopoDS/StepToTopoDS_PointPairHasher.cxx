@@ -14,7 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepToTopoDS_PointPairHasher.ixx>
+#include <StepToTopoDS_PointPair.hxx>
+#include <StepToTopoDS_PointPairHasher.hxx>
 
 //=======================================================================
 //function : HashCode

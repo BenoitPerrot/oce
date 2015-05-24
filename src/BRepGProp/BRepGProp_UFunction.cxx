@@ -13,7 +13,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepGProp_UFunction.ixx>
+#include <BRepGProp_Face.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_XYZ.hxx>
+#include <BRepGProp_UFunction.hxx>
 
 //=======================================================================
 //function : Constructor.

@@ -21,7 +21,22 @@
 
 
 
-#include <MDF_ASDriver.ixx>
+#include <CDM_MessageDriver.hxx>
+#include <Standard_Type.hxx>
+#include <PDF_Attribute.hxx>
+#include <TDF_Attribute.hxx>
+#include <MDF_SRelocationTable.hxx>
+#include <TCollection_ExtendedString.hxx>
+#include <MDF_ASDriver.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(MDF_ASDriver)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(MDF_ASDriver)
+IMPLEMENT_DOWNCAST(MDF_ASDriver,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(MDF_ASDriver)
 #include <TCollection_ExtendedString.hxx>
 #include <CDM_MessageDriver.hxx>
 //=======================================================================

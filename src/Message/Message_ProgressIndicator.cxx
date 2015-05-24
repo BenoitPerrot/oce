@@ -11,7 +11,21 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Message_ProgressIndicator.ixx>
+#include <Standard_Type.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <Message_ProgressScale.hxx>
+#include <Message_ProgressIndicator.hxx>
+
+IMPLEMENT_STANDARD_TYPE(Message_ProgressIndicator)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Message_ProgressIndicator)
+
+IMPLEMENT_DOWNCAST(Message_ProgressIndicator,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Message_ProgressIndicator)
 
 //=======================================================================
 //function : Message_ProgressIndicator

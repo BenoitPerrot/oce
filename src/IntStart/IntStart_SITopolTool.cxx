@@ -12,4 +12,14 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IntStart_SITopolTool.ixx>
+#include <gp_Pnt2d.hxx>
+#include <IntStart_SITopolTool.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IntStart_SITopolTool)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IntStart_SITopolTool)
+IMPLEMENT_DOWNCAST(IntStart_SITopolTool,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IntStart_SITopolTool)

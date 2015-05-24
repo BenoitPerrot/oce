@@ -14,7 +14,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <CDM_Reference.ixx>
+#include <CDM_Document.hxx>
+#include <CDM_Application.hxx>
+#include <CDM_MetaData.hxx>
+#include <CDM_Reference.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(CDM_Reference)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(CDM_Reference)
+IMPLEMENT_DOWNCAST(CDM_Reference,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(CDM_Reference)
 
 
 CDM_Reference::CDM_Reference(const Handle(CDM_Document)& aFromDocument, const Handle(CDM_Document)& aToDocument, const Standard_Integer aReferenceIdentifier, const Standard_Integer aToDocumentVersion):

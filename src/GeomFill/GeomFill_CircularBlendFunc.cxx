@@ -14,7 +14,26 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomFill_CircularBlendFunc.ixx>
+#include <Adaptor3d_HCurve.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <TColgp_Array1OfPnt.hxx>
+#include <TColgp_Array1OfPnt2d.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <TColgp_Array1OfVec.hxx>
+#include <TColgp_Array1OfVec2d.hxx>
+#include <TColStd_Array1OfInteger.hxx>
+#include <gp_Pnt.hxx>
+#include <GeomFill_CircularBlendFunc.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(GeomFill_CircularBlendFunc)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Approx_SweepFunction),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(GeomFill_CircularBlendFunc)
+IMPLEMENT_DOWNCAST(GeomFill_CircularBlendFunc,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(GeomFill_CircularBlendFunc)
 #include <GeomFill.hxx>
 
 #include <GCPnts_QuasiUniformDeflection.hxx>

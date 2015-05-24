@@ -14,7 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <QANewBRepNaming_Sphere.ixx>
+#include <TDF_Label.hxx>
+#include <BRepPrimAPI_MakeSphere.hxx>
+#include <QANewBRepNaming_Sphere.hxx>
 #include <QANewBRepNaming_Loader.hxx>
 #include <TNaming_Builder.hxx>
 #include <TDF_Label.hxx>

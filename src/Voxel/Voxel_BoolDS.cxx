@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Voxel_BoolDS.ixx>
+#include <Voxel_BoolDS.hxx>
 
 #include <stdlib.h>
 

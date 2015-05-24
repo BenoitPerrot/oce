@@ -14,7 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepSweep_Builder.ixx>
+#include <BRep_Builder.hxx>
+#include <TopoDS_Shape.hxx>
+#include <BRepSweep_Builder.hxx>
 #include <TopoDS.hxx>
 
 //=======================================================================

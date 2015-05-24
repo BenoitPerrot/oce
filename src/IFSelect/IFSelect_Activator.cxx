@@ -11,7 +11,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IFSelect_Activator.ixx>
+#include <Standard_DomainError.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <TColStd_HSequenceOfAsciiString.hxx>
+#include <IFSelect_SessionPilot.hxx>
+#include <IFSelect_Activator.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IFSelect_Activator)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IFSelect_Activator)
+IMPLEMENT_DOWNCAST(IFSelect_Activator,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IFSelect_Activator)
 #include <Dico_DictionaryOfInteger.hxx>
 #include <Dico_IteratorOfDictionaryOfInteger.hxx>
 #include <TColStd_SequenceOfInteger.hxx>

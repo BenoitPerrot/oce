@@ -11,7 +11,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepVisual_PresentationStyleByContext.ixx>
+#include <StepVisual_HArray1OfPresentationStyleSelect.hxx>
+#include <StepVisual_StyleContextSelect.hxx>
+#include <StepVisual_PresentationStyleByContext.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepVisual_PresentationStyleByContext)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepVisual_PresentationStyleAssignment),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepVisual_PresentationStyleByContext)
+IMPLEMENT_DOWNCAST(StepVisual_PresentationStyleByContext,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepVisual_PresentationStyleByContext)
 
 
 StepVisual_PresentationStyleByContext::StepVisual_PresentationStyleByContext ()  {}

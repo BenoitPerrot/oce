@@ -11,7 +11,14 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepOffsetAPI_MakeDraft.ixx>
+#include <StdFail_NotDone.hxx>
+#include <Standard_NoSuchObject.hxx>
+#include <TopoDS_Shape.hxx>
+#include <gp_Dir.hxx>
+#include <Geom_Surface.hxx>
+#include <TopoDS_Shell.hxx>
+#include <TopTools_ListOfShape.hxx>
+#include <BRepOffsetAPI_MakeDraft.hxx>
 
 
 BRepOffsetAPI_MakeDraft::BRepOffsetAPI_MakeDraft(const TopoDS_Shape& Shape,

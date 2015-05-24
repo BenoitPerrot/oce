@@ -14,7 +14,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <MDocStd.ixx>
+#include <MDF_ASDriverHSequence.hxx>
+#include <CDM_MessageDriver.hxx>
+#include <MDF_ARDriverHSequence.hxx>
+#include <Standard_Transient.hxx>
+#include <Standard_GUID.hxx>
+#include <MDocStd.hxx>
 #include <MDocStd_DocumentStorageDriver.hxx>
 #include <MDocStd_DocumentRetrievalDriver.hxx>
 #include <Standard_Failure.hxx>

@@ -14,5 +14,14 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PCDM_Document.ixx>
+#include <PCDM_Document.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(PCDM_Document)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Standard_Persistent),
+  STANDARD_TYPE(Standard_Storable),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(PCDM_Document)
+IMPLEMENT_DOWNCAST(PCDM_Document,Standard_Persistent)
+IMPLEMENT_STANDARD_RTTI(PCDM_Document)
 

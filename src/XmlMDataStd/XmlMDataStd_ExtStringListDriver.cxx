@@ -13,7 +13,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <XmlMDataStd_ExtStringListDriver.ixx>
+#include <CDM_MessageDriver.hxx>
+#include <TDF_Attribute.hxx>
+#include <XmlObjMgt_Persistent.hxx>
+#include <XmlMDataStd_ExtStringListDriver.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(XmlMDataStd_ExtStringListDriver)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(XmlMDF_ADriver),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(XmlMDataStd_ExtStringListDriver)
+IMPLEMENT_DOWNCAST(XmlMDataStd_ExtStringListDriver,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(XmlMDataStd_ExtStringListDriver)
 #include <TDataStd_ExtStringList.hxx>
 #include <TDataStd_ListIteratorOfListOfExtendedString.hxx>
 #include <XmlObjMgt.hxx>

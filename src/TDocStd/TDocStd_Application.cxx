@@ -14,7 +14,22 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TDocStd_Application.ixx>
+#include <Resource_Manager.hxx>
+#include <Standard_NoSuchObject.hxx>
+#include <TDocStd_Document.hxx>
+#include <TColStd_SequenceOfExtendedString.hxx>
+#include <TCollection_ExtendedString.hxx>
+#include <TDocStd_Application.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(TDocStd_Application)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(CDF_Application),
+  STANDARD_TYPE(CDM_Application),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(TDocStd_Application)
+IMPLEMENT_DOWNCAST(TDocStd_Application,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(TDocStd_Application)
 
 #include <CDF_Session.hxx>
 #include <CDF_DirectoryIterator.hxx>

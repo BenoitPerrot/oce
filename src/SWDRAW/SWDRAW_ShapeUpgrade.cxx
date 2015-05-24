@@ -18,7 +18,7 @@
 //abv,pdn 05.05.99 S4174: new commands for testing ShapeDivide added, some removed
 //pdn,gka 10.06.99 S4189: command DT_ShapeConvertRev added
 
-#include <SWDRAW_ShapeUpgrade.ixx>
+#include <SWDRAW_ShapeUpgrade.hxx>
 //#include <SWDRAW_ShapeUpgrade.hxx>
 
 #include <Draw.hxx>

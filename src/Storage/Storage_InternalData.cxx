@@ -12,7 +12,21 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Storage_InternalData.ixx>
+#include <Standard_Type.hxx>
+#include <Storage_HPArray.hxx>
+#include <Storage_InternalData.hxx>
+#include <Storage_Schema.hxx>
+
+IMPLEMENT_STANDARD_TYPE(Storage_InternalData)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Storage_InternalData)
+
+IMPLEMENT_DOWNCAST(Storage_InternalData,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Storage_InternalData)
 
 Storage_InternalData::Storage_InternalData() : myObjId(1), myTypeId(1)
 {

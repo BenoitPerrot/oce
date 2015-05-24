@@ -13,7 +13,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BinTools_ShapeSet.ixx>
+#include <TopoDS_Shape.hxx>
+#include <BinTools_LocationSet.hxx>
+#include <BinTools_ShapeSet.hxx>
 #include <Standard_ErrorHandler.hxx>
 #include <Precision.hxx>
 #include <TColStd_HArray1OfReal.hxx>

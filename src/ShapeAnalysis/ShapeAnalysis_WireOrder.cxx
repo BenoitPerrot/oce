@@ -15,7 +15,12 @@
 // pdn 11.03.99 S4135 changing reordering algorithm in order to make it independent on tolerance
 //szv#4 S4163
 //    pdn 09.05.99: S4174: preserve order of edges for complete torus
-#include <ShapeAnalysis_WireOrder.ixx>
+#include <TColStd_HArray1OfInteger.hxx>
+#include <TColgp_HSequenceOfXYZ.hxx>
+#include <Standard_TypeMismatch.hxx>
+#include <gp_XYZ.hxx>
+#include <gp_XY.hxx>
+#include <ShapeAnalysis_WireOrder.hxx>
 
 #include <Precision.hxx>
 

@@ -22,7 +22,29 @@
 #include <AIS.hxx>
 #include <Graphic3d_Group.hxx>
 
-#include <AIS_Relation.ixx>
+#include <Geom_Plane.hxx>
+#include <Geom_Surface.hxx>
+#include <Quantity_Color.hxx>
+#include <TopoDS_Shape.hxx>
+#include <gp_Pnt.hxx>
+#include <TCollection_ExtendedString.hxx>
+#include <Prs3d_Presentation.hxx>
+#include <TopoDS_Edge.hxx>
+#include <Geom_Curve.hxx>
+#include <TopoDS_Vertex.hxx>
+#include <AIS_Relation.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(AIS_Relation)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(AIS_InteractiveObject),
+  STANDARD_TYPE(SelectMgr_SelectableObject),
+  STANDARD_TYPE(PrsMgr_PresentableObject),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(AIS_Relation)
+IMPLEMENT_DOWNCAST(AIS_Relation,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(AIS_Relation)
 
 #include <AIS_Drawer.hxx>
 #include <AIS_GraphicTool.hxx>

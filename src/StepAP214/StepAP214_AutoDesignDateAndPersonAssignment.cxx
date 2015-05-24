@@ -11,7 +11,21 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepAP214_AutoDesignDateAndPersonAssignment.ixx>
+#include <StepAP214_HArray1OfAutoDesignDateAndPersonItem.hxx>
+#include <StepBasic_PersonAndOrganization.hxx>
+#include <StepBasic_PersonAndOrganizationRole.hxx>
+#include <StepAP214_AutoDesignDateAndPersonItem.hxx>
+#include <StepAP214_AutoDesignDateAndPersonAssignment.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepAP214_AutoDesignDateAndPersonAssignment)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepBasic_PersonAndOrganizationAssignment),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepAP214_AutoDesignDateAndPersonAssignment)
+IMPLEMENT_DOWNCAST(StepAP214_AutoDesignDateAndPersonAssignment,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepAP214_AutoDesignDateAndPersonAssignment)
 
 
 StepAP214_AutoDesignDateAndPersonAssignment::StepAP214_AutoDesignDateAndPersonAssignment ()  {}

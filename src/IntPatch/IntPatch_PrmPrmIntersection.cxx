@@ -17,7 +17,16 @@
 // modified by Edward AGAPOV (eap) Tue Jan 22 12:29:55 2002
 // modified by Oleg FEDYAED  (ofv) Fri Nov 29 16:08:02 2002
 
-#include <IntPatch_PrmPrmIntersection.ixx>
+#include <Standard_OutOfRange.hxx>
+#include <StdFail_NotDone.hxx>
+#include <Adaptor3d_HSurface.hxx>
+#include <IntPatch_Polyhedron.hxx>
+#include <Adaptor3d_TopolTool.hxx>
+#include <IntSurf_ListOfPntOn2S.hxx>
+#include <IntPatch_Line.hxx>
+#include <IntPatch_PrmPrmIntersection_T3Bits.hxx>
+#include <IntSurf_LineOn2S.hxx>
+#include <IntPatch_PrmPrmIntersection.hxx>
 
 #include <IntPatch_InterferencePolyhedron.hxx>
 #include <IntWalk_PWalking.hxx>

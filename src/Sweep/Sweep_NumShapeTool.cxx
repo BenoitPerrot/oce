@@ -14,7 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Sweep_NumShapeTool.ixx>
+#include <Standard_OutOfRange.hxx>
+#include <Sweep_NumShape.hxx>
+#include <Sweep_NumShapeTool.hxx>
 #include <Standard_ConstructionError.hxx>
 
 //=======================================================================

@@ -16,7 +16,16 @@
 
 //  Modified by skv - Fri Jun 18 12:52:54 2004 OCC6129
 
-#include <GeomFill_ConstrainedFilling.ixx>
+#include <GeomFill_CoonsAlgPatch.hxx>
+#include <GeomFill_TgtField.hxx>
+#include <TColgp_HArray1OfPnt.hxx>
+#include <TColStd_HArray1OfInteger.hxx>
+#include <TColStd_HArray1OfReal.hxx>
+#include <TColgp_HArray2OfPnt.hxx>
+#include <Geom_BSplineSurface.hxx>
+#include <GeomFill_Boundary.hxx>
+#include <GeomFill_BoundWithSurf.hxx>
+#include <GeomFill_ConstrainedFilling.hxx>
 
 #include <Standard_Failure.hxx>
 #include <Standard_NotImplemented.hxx>

@@ -12,7 +12,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepBlend_Line.ixx>
+#include <Standard_OutOfRange.hxx>
+#include <Blend_Point.hxx>
+#include <BRepBlend_Extremity.hxx>
+#include <BRepBlend_Line.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(BRepBlend_Line)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(BRepBlend_Line)
+IMPLEMENT_DOWNCAST(BRepBlend_Line,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(BRepBlend_Line)
 
 BRepBlend_Line::BRepBlend_Line ():
   tras1(IntSurf_Undecided),tras2(IntSurf_Undecided),

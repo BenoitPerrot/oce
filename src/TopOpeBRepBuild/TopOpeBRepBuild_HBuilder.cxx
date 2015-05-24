@@ -14,7 +14,23 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopOpeBRepBuild_HBuilder.ixx>
+#include <Standard_NoSuchObject.hxx>
+#include <TopOpeBRepDS_BuildTool.hxx>
+#include <TopOpeBRepDS_HDataStructure.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopTools_ListOfShape.hxx>
+#include <TColStd_ListOfInteger.hxx>
+#include <TopOpeBRepBuild_Builder.hxx>
+#include <TopOpeBRepBuild_HBuilder.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(TopOpeBRepBuild_HBuilder)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(TopOpeBRepBuild_HBuilder)
+IMPLEMENT_DOWNCAST(TopOpeBRepBuild_HBuilder,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(TopOpeBRepBuild_HBuilder)
 #include <TopOpeBRepDS_ListOfShapeOn1State.hxx>
 #include <TopOpeBRepDS_DataMapIteratorOfDataMapOfShapeListOfShapeOn1State.hxx>
 #include <TopOpeBRepDS_CurveIterator.hxx>

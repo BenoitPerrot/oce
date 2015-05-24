@@ -14,7 +14,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <ChFiKPart_ComputeData.ixx>
+#include <TopOpeBRepDS_DataStructure.hxx>
+#include <ChFiDS_SurfData.hxx>
+#include <Adaptor3d_HSurface.hxx>
+#include <ChFiDS_Spine.hxx>
+#include <gp_Pnt2d.hxx>
+#include <ChFiKPart_ComputeData.hxx>
 #include <Precision.hxx>
 #include <gp.hxx>
 #include <gp_Pnt2d.hxx>

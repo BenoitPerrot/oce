@@ -11,7 +11,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Interface_FileParameter.ixx>
+#include <TCollection_AsciiString.hxx>
+#include <Interface_FileParameter.hxx>
 
 //=======================================================================
 //function : Interface_FileParameter

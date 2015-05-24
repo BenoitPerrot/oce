@@ -11,7 +11,23 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IGESGeom_ReadWriteModule.ixx>
+#include <Standard_DomainError.hxx>
+#include <IGESData_IGESEntity.hxx>
+#include <IGESData_IGESReaderData.hxx>
+#include <IGESData_ParamReader.hxx>
+#include <IGESData_IGESWriter.hxx>
+#include <IGESGeom_ReadWriteModule.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESGeom_ReadWriteModule)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IGESData_ReadWriteModule),
+  STANDARD_TYPE(Interface_ReaderModule),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESGeom_ReadWriteModule)
+IMPLEMENT_DOWNCAST(IGESGeom_ReadWriteModule,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESGeom_ReadWriteModule)
 #include <Interface_Macros.hxx>
 
 #include <IGESGeom_BSplineCurve.hxx>

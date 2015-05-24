@@ -14,7 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopOpeBRep_VPointInterClassifier.ixx>
+#include <TopoDS_Shape.hxx>
+#include <TopOpeBRep_VPointInter.hxx>
+#include <TopOpeBRep_PointClassifier.hxx>
+#include <TopOpeBRep_VPointInterClassifier.hxx>
 
 #include <gp_Pnt2d.hxx>
 #include <Precision.hxx>

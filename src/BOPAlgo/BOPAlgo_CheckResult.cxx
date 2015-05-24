@@ -13,7 +13,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BOPAlgo_CheckResult.ixx>
+#include <TopoDS_Shape.hxx>
+#include <BOPAlgo_CheckResult.hxx>
 
 //=======================================================================
 // function:  BOPAlgo_CheckResult()

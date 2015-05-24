@@ -16,7 +16,21 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.0
 
-#include <StepRepr_ConfigurationEffectivity.ixx>
+#include <StepRepr_ConfigurationDesign.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepBasic_ProductDefinitionRelationship.hxx>
+#include <StepRepr_ConfigurationEffectivity.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepRepr_ConfigurationEffectivity)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepBasic_ProductDefinitionEffectivity),
+  STANDARD_TYPE(StepBasic_Effectivity),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepRepr_ConfigurationEffectivity)
+IMPLEMENT_DOWNCAST(StepRepr_ConfigurationEffectivity,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepRepr_ConfigurationEffectivity)
 
 //=======================================================================
 //function : StepRepr_ConfigurationEffectivity

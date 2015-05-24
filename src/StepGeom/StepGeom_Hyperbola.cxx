@@ -11,7 +11,22 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepGeom_Hyperbola.ixx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepGeom_Axis2Placement.hxx>
+#include <StepGeom_Hyperbola.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepGeom_Hyperbola)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepGeom_Conic),
+  STANDARD_TYPE(StepGeom_Curve),
+  STANDARD_TYPE(StepGeom_GeometricRepresentationItem),
+  STANDARD_TYPE(StepRepr_RepresentationItem),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepGeom_Hyperbola)
+IMPLEMENT_DOWNCAST(StepGeom_Hyperbola,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepGeom_Hyperbola)
 
 
 StepGeom_Hyperbola::StepGeom_Hyperbola ()  {}

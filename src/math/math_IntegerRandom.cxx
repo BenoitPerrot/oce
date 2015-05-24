@@ -12,7 +12,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <math_IntegerRandom.ixx>
+#include <math_IntegerRandom.hxx>
 
 #include <math_Recipes.hxx>
 

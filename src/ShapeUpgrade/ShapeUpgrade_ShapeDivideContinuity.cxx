@@ -14,7 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <ShapeUpgrade_ShapeDivideContinuity.ixx>
+#include <TopoDS_Shape.hxx>
+#include <ShapeUpgrade_FaceDivide.hxx>
+#include <ShapeUpgrade_ShapeDivideContinuity.hxx>
 
 #include <Precision.hxx>
 #include <ShapeUpgrade_SplitCurve2dContinuity.hxx>

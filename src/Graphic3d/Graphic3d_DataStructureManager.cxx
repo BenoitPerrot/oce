@@ -32,7 +32,16 @@
 //-Declarations
 
 // for the class
-#include <Graphic3d_DataStructureManager.ixx>
+#include <Graphic3d_DataStructureManager.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Graphic3d_DataStructureManager)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Graphic3d_DataStructureManager)
+IMPLEMENT_DOWNCAST(Graphic3d_DataStructureManager,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Graphic3d_DataStructureManager)
 
 //-Aliases
 

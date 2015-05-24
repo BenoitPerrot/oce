@@ -21,7 +21,12 @@
 //szv#4 S4163
 // abv 30.11.99: fix %30 pdn changed to produce SurfaceOfRevolution instead of DegenerateToroidalSurface
 
-#include <TopoDSToStep_MakeStepFace.ixx>
+#include <StepShape_TopologicalRepresentationItem.hxx>
+#include <StdFail_NotDone.hxx>
+#include <TopoDS_Face.hxx>
+#include <TopoDSToStep_Tool.hxx>
+#include <Transfer_FinderProcess.hxx>
+#include <TopoDSToStep_MakeStepFace.hxx>
 
 #include <TopoDSToStep_MakeStepWire.hxx>
 #include <TopoDSToStep.hxx>

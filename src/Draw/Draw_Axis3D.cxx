@@ -14,7 +14,21 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Draw_Axis3D.ixx>
+#include <Draw_Color.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Ax3.hxx>
+#include <Draw_Display.hxx>
+#include <Draw_Axis3D.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Draw_Axis3D)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Draw_Drawable3D),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Draw_Axis3D)
+IMPLEMENT_DOWNCAST(Draw_Axis3D,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Draw_Axis3D)
 #include <gp_Vec.hxx>
 #include <gp.hxx>
 

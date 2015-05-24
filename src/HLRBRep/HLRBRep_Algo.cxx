@@ -16,7 +16,19 @@
 
 #define No_Standard_OutOfRange
 
-#include <HLRBRep_Algo.ixx>
+#include <TopoDS_Shape.hxx>
+#include <MMgt_TShared.hxx>
+#include <HLRBRep_Algo.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(HLRBRep_Algo)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(HLRBRep_InternalAlgo),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(HLRBRep_Algo)
+IMPLEMENT_DOWNCAST(HLRBRep_Algo,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(HLRBRep_Algo)
 #include <HLRBRep_ShapeBounds.hxx>
 #include <HLRTopoBRep_OutLiner.hxx>
 

@@ -15,7 +15,17 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
-#include <StepDimTol_RoundnessTolerance.ixx>
+#include <StepDimTol_RoundnessTolerance.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepDimTol_RoundnessTolerance)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepDimTol_GeometricTolerance),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepDimTol_RoundnessTolerance)
+IMPLEMENT_DOWNCAST(StepDimTol_RoundnessTolerance,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepDimTol_RoundnessTolerance)
 
 //=======================================================================
 //function : StepDimTol_RoundnessTolerance

@@ -19,7 +19,16 @@
 
 //  Modified by skv - Mon Jan 12 11:50:02 2004 OCC4455
 
-#include <BRepOffset_MakeOffset.ixx>
+#include <BRepAlgo_AsDes.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopoDS_Face.hxx>
+#include <BRepOffset_Analyse.hxx>
+#include <BRepAlgo_Image.hxx>
+#include <TopTools_IndexedMapOfShape.hxx>
+#include <TopTools_MapOfShape.hxx>
+#include <BRepOffset_Inter3d.hxx>
+#include <BRepOffset_DataMapOfShapeOffset.hxx>
+#include <BRepOffset_MakeOffset.hxx>
 #include <BRepOffset_Analyse.hxx>
 #include <BRepOffset_DataMapOfShapeOffset.hxx> 
 #include <BRepOffset_DataMapOfShapeMapOfShape.hxx>

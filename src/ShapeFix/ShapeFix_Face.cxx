@@ -28,7 +28,28 @@
 // abv 19.10.2001  FixAddNaturalBound improved and extracted as separate fix
 // skl,pdn 14.05.2002  OCC55 (correction precision for small faces)
 
-#include <ShapeFix_Face.ixx>
+#include <ShapeAnalysis_Surface.hxx>
+#include <ShapeFix_Wire.hxx>
+#include <TopoDS_Face.hxx>
+#include <Geom_Surface.hxx>
+#include <ShapeExtend_BasicMsgRegistrator.hxx>
+#include <TopoDS_Wire.hxx>
+#include <TopTools_DataMapOfShapeListOfShape.hxx>
+#include <TopTools_SequenceOfShape.hxx>
+#include <ShapeExtend_WireData.hxx>
+#include <TopoDS_Vertex.hxx>
+#include <ShapeFix_DataMapOfShapeBox2d.hxx>
+#include <ShapeFix_Face.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(ShapeFix_Face)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(ShapeFix_Root),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(ShapeFix_Face)
+IMPLEMENT_DOWNCAST(ShapeFix_Face,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(ShapeFix_Face)
 
 #include <Standard_Failure.hxx>
 #include <Standard_ErrorHandler.hxx>

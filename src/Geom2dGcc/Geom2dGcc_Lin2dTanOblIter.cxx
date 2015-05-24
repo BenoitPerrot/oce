@@ -18,7 +18,13 @@
 // CREATION D UNE LIGNE TANGENTE A UNE COURBE ET PARALLELE A UNE DROITE. +
 //========================================================================
 
-#include <Geom2dGcc_Lin2dTanOblIter.ixx>
+#include <GccEnt_BadQualifier.hxx>
+#include <StdFail_NotDone.hxx>
+#include <Geom2dGcc_IsParallel.hxx>
+#include <Geom2dGcc_QCurve.hxx>
+#include <gp_Lin2d.hxx>
+#include <gp_Pnt2d.hxx>
+#include <Geom2dGcc_Lin2dTanOblIter.hxx>
 
 #include <IntAna2d_AnaIntersection.hxx>
 #include <IntAna2d_IntPoint.hxx>

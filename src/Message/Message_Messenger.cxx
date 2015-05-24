@@ -13,8 +13,25 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Message_Messenger.ixx>
+#include <Standard_Type.hxx>
+#include <Message_Messenger.hxx>
+#include <Message_Printer.hxx>
 #include <Message_PrinterOStream.hxx>
+#include <Message_SequenceOfPrinters.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <TCollection_ExtendedString.hxx>
+
+IMPLEMENT_STANDARD_TYPE(Message_Messenger)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Message_Messenger)
+
+IMPLEMENT_DOWNCAST(Message_Messenger,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Message_Messenger)
+
 
 //=======================================================================
 //function : Message_Messenger

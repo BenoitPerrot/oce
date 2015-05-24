@@ -19,7 +19,29 @@
 // 19-09-97  : JPI correction derivee seconde
 
 
-#include <Geom_OffsetCurve.ixx>
+#include <Geom_Curve.hxx>
+#include <Standard_ConstructionError.hxx>
+#include <Standard_RangeError.hxx>
+#include <Standard_NoSuchObject.hxx>
+#include <Geom_UndefinedDerivative.hxx>
+#include <Geom_UndefinedValue.hxx>
+#include <gp_Dir.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Vec.hxx>
+#include <gp_Trsf.hxx>
+#include <Geom_Geometry.hxx>
+#include <Geom_OffsetCurve.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Geom_OffsetCurve)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Geom_Curve),
+  STANDARD_TYPE(Geom_Geometry),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Geom_OffsetCurve)
+IMPLEMENT_DOWNCAST(Geom_OffsetCurve,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Geom_OffsetCurve)
 
 
 #include <gp.hxx>

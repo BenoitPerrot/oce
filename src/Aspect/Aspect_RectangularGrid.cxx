@@ -18,7 +18,20 @@
 
 #define xTRACE
 
-#include <Aspect_RectangularGrid.ixx>
+#include <Standard_NegativeValue.hxx>
+#include <Standard_NullValue.hxx>
+#include <Standard_NumericError.hxx>
+#include <Aspect_RectangularGrid.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Aspect_RectangularGrid)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Aspect_Grid),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Aspect_RectangularGrid)
+IMPLEMENT_DOWNCAST(Aspect_RectangularGrid,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Aspect_RectangularGrid)
 
 
 Aspect_RectangularGrid::Aspect_RectangularGrid(

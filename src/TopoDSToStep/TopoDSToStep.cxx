@@ -14,7 +14,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopoDSToStep.ixx>
+#include <TCollection_HAsciiString.hxx>
+#include <Transfer_FinderProcess.hxx>
+#include <TopoDS_Shape.hxx>
+#include <Standard_Transient.hxx>
+#include <TopoDSToStep_Tool.hxx>
+#include <TopoDSToStep.hxx>
 #include <BRepTools_Modifier.hxx>
 //#include <TopoDSToStep_DirectModification.hxx>
 //#include <TopoDSToStep_ConicalSurfModif.hxx>

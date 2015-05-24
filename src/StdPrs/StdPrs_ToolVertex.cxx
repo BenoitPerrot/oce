@@ -13,7 +13,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StdPrs_ToolVertex.ixx>
+#include <TopoDS_Vertex.hxx>
+#include <StdPrs_ToolVertex.hxx>
 #include <BRep_Tool.hxx>
 #include <gp_Pnt.hxx>
 

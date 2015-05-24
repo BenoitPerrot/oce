@@ -14,7 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomLib_LogSample.ixx>
+#include <Standard_OutOfRange.hxx>
+#include <GeomLib_LogSample.hxx>
 
 #include <Standard_OutOfRange.hxx>
 

@@ -13,7 +13,31 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <ShapeAlgo_AlgoContainer.ixx>
+#include <ShapeAlgo_ToolContainer.hxx>
+#include <ShapeAnalysis_Wire.hxx>
+#include <ShapeExtend_WireData.hxx>
+#include <Geom_BSplineCurve.hxx>
+#include <TColGeom_SequenceOfCurve.hxx>
+#include <Geom2d_BSplineCurve.hxx>
+#include <TColGeom2d_SequenceOfCurve.hxx>
+#include <TColGeom_HSequenceOfBoundedCurve.hxx>
+#include <TColGeom2d_HSequenceOfBoundedCurve.hxx>
+#include <TopoDS_Shape.hxx>
+#include <Geom_BSplineSurface.hxx>
+#include <Geom_Surface.hxx>
+#include <TopoDS_Wire.hxx>
+#include <TopoDS_Face.hxx>
+#include <Geom_Curve.hxx>
+#include <ShapeAlgo_AlgoContainer.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(ShapeAlgo_AlgoContainer)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(ShapeAlgo_AlgoContainer)
+IMPLEMENT_DOWNCAST(ShapeAlgo_AlgoContainer,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(ShapeAlgo_AlgoContainer)
 
 #include <GeomInt_WLApprox.hxx>
 #include <IntSurf_LineOn2S.hxx>

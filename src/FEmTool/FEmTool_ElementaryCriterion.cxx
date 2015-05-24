@@ -14,7 +14,21 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <FEmTool_ElementaryCriterion.ixx>
+#include <TColStd_HArray2OfReal.hxx>
+#include <Standard_NotImplemented.hxx>
+#include <Standard_DomainError.hxx>
+#include <TColStd_HArray2OfInteger.hxx>
+#include <math_Matrix.hxx>
+#include <FEmTool_ElementaryCriterion.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(FEmTool_ElementaryCriterion)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(FEmTool_ElementaryCriterion)
+IMPLEMENT_DOWNCAST(FEmTool_ElementaryCriterion,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(FEmTool_ElementaryCriterion)
 
 void FEmTool_ElementaryCriterion::Set(const Handle(TColStd_HArray2OfReal)& Coeff) 
 {

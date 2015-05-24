@@ -13,7 +13,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <ShapeAlgo_ToolContainer.ixx>
+#include <ShapeFix_Shape.hxx>
+#include <ShapeFix_EdgeProjAux.hxx>
+#include <ShapeAlgo_ToolContainer.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(ShapeAlgo_ToolContainer)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(ShapeAlgo_ToolContainer)
+IMPLEMENT_DOWNCAST(ShapeAlgo_ToolContainer,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(ShapeAlgo_ToolContainer)
 
 //=======================================================================
 //function : ShapeAlgo_ToolContainer

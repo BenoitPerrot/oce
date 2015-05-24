@@ -16,7 +16,8 @@
 
 #include <TopOpeBRepDS_Interference.hxx>
 
-#include <TopOpeBRepDS_SurfaceIterator.ixx>
+#include <TopOpeBRepDS_ListOfInterference.hxx>
+#include <TopOpeBRepDS_SurfaceIterator.hxx>
 
 //=======================================================================
 //function : TopOpeBRepDS_SurfaceIterator

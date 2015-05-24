@@ -16,7 +16,22 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESDimen_LeaderArrow.ixx>
+#include <TColgp_HArray1OfXY.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <gp_XY.hxx>
+#include <gp_Pnt2d.hxx>
+#include <gp_Pnt.hxx>
+#include <IGESDimen_LeaderArrow.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESDimen_LeaderArrow)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IGESData_IGESEntity),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESDimen_LeaderArrow)
+IMPLEMENT_DOWNCAST(IGESDimen_LeaderArrow,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESDimen_LeaderArrow)
 #include <Standard_DimensionMismatch.hxx>
 #include <Standard_OutOfRange.hxx>
 #include <gp_GTrsf.hxx>

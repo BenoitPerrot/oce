@@ -12,7 +12,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Approx_MCurvesToBSpCurve.ixx>
+#include <AppParCurves_MultiCurve.hxx>
+#include <AppParCurves_SequenceOfMultiCurve.hxx>
+#include <AppParCurves_MultiBSpCurve.hxx>
+#include <Approx_MCurvesToBSpCurve.hxx>
 #include <Convert_CompBezierCurvesToBSplineCurve.hxx>
 #include <Convert_CompBezierCurves2dToBSplineCurve2d.hxx>
 #include <TColgp_Array1OfPnt.hxx>

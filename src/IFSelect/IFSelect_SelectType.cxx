@@ -11,7 +11,22 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IFSelect_SelectType.ixx>
+#include <Standard_Type.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <IFSelect_SelectType.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IFSelect_SelectType)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IFSelect_SelectAnyType),
+  STANDARD_TYPE(IFSelect_SelectExtract),
+  STANDARD_TYPE(IFSelect_SelectDeduct),
+  STANDARD_TYPE(IFSelect_Selection),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IFSelect_SelectType)
+IMPLEMENT_DOWNCAST(IFSelect_SelectType,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IFSelect_SelectType)
 
 
 IFSelect_SelectType::IFSelect_SelectType ()

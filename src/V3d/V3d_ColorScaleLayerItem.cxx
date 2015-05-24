@@ -17,7 +17,18 @@
 ************************************************************************/
 
 // for the class
-#include <V3d_ColorScaleLayerItem.ixx>
+#include <V3d_ColorScale.hxx>
+#include <V3d_ColorScaleLayerItem.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(V3d_ColorScaleLayerItem)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Visual3d_LayerItem),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(V3d_ColorScaleLayerItem)
+IMPLEMENT_DOWNCAST(V3d_ColorScaleLayerItem,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(V3d_ColorScaleLayerItem)
 
 //
 //-Constructors

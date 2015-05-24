@@ -14,8 +14,35 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TNaming_NamedShape.ixx>
-#include <TNaming_Builder.ixx>
+#include <TNaming_Builder.hxx>
+#include <TNaming_Iterator.hxx>
+#include <TNaming_NewShapeIterator.hxx>
+#include <TNaming_OldShapeIterator.hxx>
+#include <Standard_GUID.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TDF_Attribute.hxx>
+#include <TDF_DeltaOnModification.hxx>
+#include <TDF_DeltaOnRemoval.hxx>
+#include <TDF_RelocationTable.hxx>
+#include <TDF_DataSet.hxx>
+#include <TDF_AttributeDelta.hxx>
+#include <TNaming_NamedShape.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(TNaming_NamedShape)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(TDF_Attribute),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(TNaming_NamedShape)
+IMPLEMENT_DOWNCAST(TNaming_NamedShape,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(TNaming_NamedShape)
+#include <TNaming_UsedShapes.hxx>
+#include <TNaming_NamedShape.hxx>
+#include <Standard_ConstructionError.hxx>
+#include <TDF_Label.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TNaming_Builder.hxx>
 
 #include <TDF_Label.hxx>
 #include <TDF_Data.hxx>

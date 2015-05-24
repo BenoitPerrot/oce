@@ -15,7 +15,24 @@
 //:n5 abv 15 Feb 99: S4132 complex type bounded_curve + surface_curve -> surface_curve
 // :j4 gka 15.03.99 S4134
 // sln 03.10.2001. BUC61003. Correction of alphabetic order of complex entity's items 
-#include <RWStepAP214_ReadWriteModule.ixx>
+#include <TCollection_AsciiString.hxx>
+#include <TColStd_SequenceOfAsciiString.hxx>
+#include <StepData_StepReaderData.hxx>
+#include <Interface_Check.hxx>
+#include <Standard_Transient.hxx>
+#include <StepData_StepWriter.hxx>
+#include <RWStepAP214_ReadWriteModule.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(RWStepAP214_ReadWriteModule)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepData_ReadWriteModule),
+  STANDARD_TYPE(Interface_ReaderModule),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(RWStepAP214_ReadWriteModule)
+IMPLEMENT_DOWNCAST(RWStepAP214_ReadWriteModule,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(RWStepAP214_ReadWriteModule)
 #include <Interface_ReaderLib.hxx>
 #include <StepData_WriterLib.hxx>
 #include <StepAP214_Protocol.hxx>

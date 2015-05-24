@@ -21,7 +21,22 @@
 
 
 
-#include <MDocStd_XLinkStorageDriver.ixx>
+#include <CDM_MessageDriver.hxx>
+#include <Standard_Type.hxx>
+#include <PDF_Attribute.hxx>
+#include <TDF_Attribute.hxx>
+#include <MDF_SRelocationTable.hxx>
+#include <MDocStd_XLinkStorageDriver.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(MDocStd_XLinkStorageDriver)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MDF_ASDriver),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(MDocStd_XLinkStorageDriver)
+IMPLEMENT_DOWNCAST(MDocStd_XLinkStorageDriver,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(MDocStd_XLinkStorageDriver)
 
 #include <TDF_Label.hxx>
 #include <TDocStd_XLink.hxx>

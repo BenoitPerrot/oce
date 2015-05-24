@@ -14,7 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <MAT2d_CutCurve.ixx>
+#include <Standard_OutOfRange.hxx>
+#include <Geom2d_Curve.hxx>
+#include <Geom2d_TrimmedCurve.hxx>
+#include <MAT2d_CutCurve.hxx>
 #include <Geom2dLProp_CurAndInf2d.hxx>
 #include <Precision.hxx>
 #include <gp_Pnt2d.hxx>

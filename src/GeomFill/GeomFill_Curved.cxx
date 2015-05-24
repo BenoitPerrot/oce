@@ -14,7 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomFill_Curved.ixx>
+#include <TColgp_Array1OfPnt.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <GeomFill_Curved.hxx>
 
 #include <gp_Pnt.hxx>
 #include <gp_Vec.hxx>

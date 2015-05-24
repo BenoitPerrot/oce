@@ -15,7 +15,17 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
-#include <StepBasic_ThermodynamicTemperatureUnit.ixx>
+#include <StepBasic_ThermodynamicTemperatureUnit.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepBasic_ThermodynamicTemperatureUnit)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepBasic_NamedUnit),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepBasic_ThermodynamicTemperatureUnit)
+IMPLEMENT_DOWNCAST(StepBasic_ThermodynamicTemperatureUnit,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepBasic_ThermodynamicTemperatureUnit)
 
 //=======================================================================
 //function : StepBasic_ThermodynamicTemperatureUnit

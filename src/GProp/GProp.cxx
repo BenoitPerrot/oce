@@ -12,7 +12,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GProp.ixx>
+#include <gp_Pnt.hxx>
+#include <gp_Mat.hxx>
+#include <GProp.hxx>
 
 #include <Standard_DimensionError.hxx>
 

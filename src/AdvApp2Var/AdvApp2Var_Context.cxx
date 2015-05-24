@@ -14,7 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <AdvApp2Var_Context.ixx>
+#include <TColStd_HArray1OfReal.hxx>
+#include <TColStd_HArray2OfReal.hxx>
+#include <AdvApp2Var_Context.hxx>
 #include <Standard_ConstructionError.hxx>
 #include <AdvApp2Var_ApproxF2var.hxx>
 

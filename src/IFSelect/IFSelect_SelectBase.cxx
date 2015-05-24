@@ -11,7 +11,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IFSelect_SelectBase.ixx>
+#include <IFSelect_SelectionIterator.hxx>
+#include <IFSelect_SelectBase.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IFSelect_SelectBase)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IFSelect_Selection),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IFSelect_SelectBase)
+IMPLEMENT_DOWNCAST(IFSelect_SelectBase,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IFSelect_SelectBase)
 
 
 

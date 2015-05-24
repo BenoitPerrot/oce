@@ -16,7 +16,26 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESDraw_PerspectiveView.ixx>
+#include <Standard_OutOfRange.hxx>
+#include <gp_XYZ.hxx>
+#include <gp_XY.hxx>
+#include <IGESData_ViewKindEntity.hxx>
+#include <gp_Vec.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Pnt2d.hxx>
+#include <IGESData_TransfEntity.hxx>
+#include <IGESDraw_PerspectiveView.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESDraw_PerspectiveView)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IGESData_ViewKindEntity),
+  STANDARD_TYPE(IGESData_IGESEntity),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESDraw_PerspectiveView)
+IMPLEMENT_DOWNCAST(IGESDraw_PerspectiveView,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESDraw_PerspectiveView)
 #include <gp_GTrsf.hxx>
 
 

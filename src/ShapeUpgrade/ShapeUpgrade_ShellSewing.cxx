@@ -12,7 +12,9 @@
 // commercial license or contractual agreement.
 
 //szv#4 S4163
-#include <ShapeUpgrade_ShellSewing.ixx>
+#include <ShapeBuild_ReShape.hxx>
+#include <TopoDS_Shape.hxx>
+#include <ShapeUpgrade_ShellSewing.hxx>
 
 #include <TopoDS.hxx>
 #include <TopoDS_Shell.hxx>

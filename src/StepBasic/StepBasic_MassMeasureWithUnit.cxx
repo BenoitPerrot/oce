@@ -11,7 +11,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepBasic_MassMeasureWithUnit.ixx>
+#include <StepBasic_MassMeasureWithUnit.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepBasic_MassMeasureWithUnit)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepBasic_MeasureWithUnit),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepBasic_MassMeasureWithUnit)
+IMPLEMENT_DOWNCAST(StepBasic_MassMeasureWithUnit,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepBasic_MassMeasureWithUnit)
 
 StepBasic_MassMeasureWithUnit::StepBasic_MassMeasureWithUnit()  {}
 

@@ -14,7 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopOpeBRepBuild_SolidAreaBuilder.ixx>
+#include <TopOpeBRepBuild_LoopSet.hxx>
+#include <TopOpeBRepBuild_LoopClassifier.hxx>
+#include <TopOpeBRepBuild_SolidAreaBuilder.hxx>
 
 //=======================================================================
 //function : TopOpeBRepBuild_SolidAreaBuilder

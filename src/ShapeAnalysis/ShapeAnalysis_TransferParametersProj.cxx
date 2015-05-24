@@ -11,7 +11,23 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <ShapeAnalysis_TransferParametersProj.ixx>
+#include <Geom_Curve.hxx>
+#include <Geom2d_Curve.hxx>
+#include <TopoDS_Edge.hxx>
+#include <TopoDS_Face.hxx>
+#include <TColStd_HSequenceOfReal.hxx>
+#include <TopoDS_Vertex.hxx>
+#include <ShapeAnalysis_TransferParametersProj.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(ShapeAnalysis_TransferParametersProj)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(ShapeAnalysis_TransferParameters),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(ShapeAnalysis_TransferParametersProj)
+IMPLEMENT_DOWNCAST(ShapeAnalysis_TransferParametersProj,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(ShapeAnalysis_TransferParametersProj)
 #include <Geom2dAdaptor_HCurve.hxx>
 #include <Geom2d_Curve.hxx>
 #include <Adaptor3d_CurveOnSurface.hxx>

@@ -21,7 +21,20 @@
 
 #define xTRACE
 
-#include <Aspect_CircularGrid.ixx>
+#include <Standard_NegativeValue.hxx>
+#include <Standard_NullValue.hxx>
+#include <Standard_NumericError.hxx>
+#include <Aspect_CircularGrid.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Aspect_CircularGrid)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Aspect_Grid),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Aspect_CircularGrid)
+IMPLEMENT_DOWNCAST(Aspect_CircularGrid,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Aspect_CircularGrid)
 #include <Aspect_Grid.hxx>
 #include <Standard_NumericError.hxx>
 Aspect_CircularGrid::Aspect_CircularGrid

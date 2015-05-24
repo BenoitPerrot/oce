@@ -14,7 +14,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomToStep_MakeDirection.ixx>
+#include <StepGeom_Direction.hxx>
+#include <StdFail_NotDone.hxx>
+#include <gp_Dir.hxx>
+#include <gp_Dir2d.hxx>
+#include <Geom_Direction.hxx>
+#include <Geom2d_Direction.hxx>
+#include <GeomToStep_MakeDirection.hxx>
 #include <StdFail_NotDone.hxx>
 #include <gp_Dir.hxx>
 #include <gp_Dir2d.hxx>

@@ -18,7 +18,10 @@
 #define No_Standard_OutOfRange
 #endif
 
-#include <FairCurve_DistributionOfSagging.ixx>
+#include <TColStd_HArray1OfReal.hxx>
+#include <TColgp_HArray1OfPnt2d.hxx>
+#include <FairCurve_BattenLaw.hxx>
+#include <FairCurve_DistributionOfSagging.hxx>
 
 
 #include <gp_XY.hxx>

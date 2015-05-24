@@ -11,7 +11,16 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IFSelect_ShareOutResult.ixx>
+#include <IFSelect_ShareOut.hxx>
+#include <IFSelect_Dispatch.hxx>
+#include <Standard_NoSuchObject.hxx>
+#include <Interface_InterfaceError.hxx>
+#include <Interface_InterfaceModel.hxx>
+#include <Interface_Graph.hxx>
+#include <IFSelect_PacketList.hxx>
+#include <Interface_EntityIterator.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <IFSelect_ShareOutResult.hxx>
 #include <IFSelect_Dispatch.hxx>
 #include <IFGraph_AllShared.hxx>
 #include <Interface_GraphContent.hxx>

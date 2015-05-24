@@ -29,7 +29,10 @@
 #define No_Standard_DimensionError
 //#endif
 
-#include <math_Uzawa.ixx>
+#include <StdFail_NotDone.hxx>
+#include <Standard_ConstructionError.hxx>
+#include <math_Matrix.hxx>
+#include <math_Uzawa.hxx>
 #include <math_Crout.hxx>
 #include <Standard_DimensionError.hxx>
 

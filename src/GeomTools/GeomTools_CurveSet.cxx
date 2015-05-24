@@ -15,7 +15,10 @@
 // commercial license or contractual agreement.
 
 #include <Standard_Stream.hxx>
-#include <GeomTools_CurveSet.ixx>
+#include <Message_ProgressIndicator.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Geom_Curve.hxx>
+#include <GeomTools_CurveSet.hxx>
 #include <GeomTools.hxx>
 #include <GeomTools_UndefinedTypeHandler.hxx>
 

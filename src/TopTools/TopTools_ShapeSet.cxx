@@ -22,7 +22,11 @@
 //                authentification we cut last '\r' in the line (which will
 //                be present if file is in DOS coding)
 
-#include <TopTools_ShapeSet.ixx>
+#include <Message_ProgressIndicator.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopTools_LocationSet.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <TopTools_ShapeSet.hxx>
 
 #include <TopoDS_Iterator.hxx>
 #include <TopoDS_Shape.hxx>

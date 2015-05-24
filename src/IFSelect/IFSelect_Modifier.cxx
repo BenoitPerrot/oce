@@ -11,7 +11,21 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IFSelect_Modifier.ixx>
+#include <IFSelect_ContextModif.hxx>
+#include <Interface_InterfaceModel.hxx>
+#include <Interface_Protocol.hxx>
+#include <Interface_CopyTool.hxx>
+#include <IFSelect_Modifier.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IFSelect_Modifier)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IFSelect_GeneralModifier),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IFSelect_Modifier)
+IMPLEMENT_DOWNCAST(IFSelect_Modifier,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IFSelect_Modifier)
 
 
 IFSelect_Modifier::IFSelect_Modifier (const Standard_Boolean grf)

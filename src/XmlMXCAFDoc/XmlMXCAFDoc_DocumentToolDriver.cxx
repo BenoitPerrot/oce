@@ -13,7 +13,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <XmlMXCAFDoc_DocumentToolDriver.ixx>
+#include <CDM_MessageDriver.hxx>
+#include <TDF_Attribute.hxx>
+#include <XmlObjMgt_Persistent.hxx>
+#include <XmlMXCAFDoc_DocumentToolDriver.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(XmlMXCAFDoc_DocumentToolDriver)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(XmlMDF_ADriver),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(XmlMXCAFDoc_DocumentToolDriver)
+IMPLEMENT_DOWNCAST(XmlMXCAFDoc_DocumentToolDriver,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(XmlMXCAFDoc_DocumentToolDriver)
 #include <XCAFDoc_DocumentTool.hxx>
 
 //=======================================================================

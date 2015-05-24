@@ -11,7 +11,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <VrmlConverter_WFShape.ixx>
+#include <TopoDS_Shape.hxx>
+#include <VrmlConverter_Drawer.hxx>
+#include <VrmlConverter_WFShape.hxx>
 #include <Bnd_Box.hxx>
 #include <gp_Pnt.hxx>
 #include <Prs3d_ShapeTool.hxx>

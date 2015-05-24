@@ -11,7 +11,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Vrml_Rotation.ixx>
+#include <Vrml_SFRotation.hxx>
+#include <Vrml_Rotation.hxx>
 
 Vrml_Rotation::Vrml_Rotation()
 {

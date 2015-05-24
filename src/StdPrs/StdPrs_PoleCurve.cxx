@@ -14,7 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StdPrs_PoleCurve.ixx>
+#include <Prs3d_Presentation.hxx>
+#include <Adaptor3d_Curve.hxx>
+#include <Prs3d_Drawer.hxx>
+#include <StdPrs_PoleCurve.hxx>
 
 #include <Graphic3d_ArrayOfPolylines.hxx>
 #include <Graphic3d_Group.hxx>

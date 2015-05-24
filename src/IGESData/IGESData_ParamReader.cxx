@@ -12,7 +12,23 @@
 // commercial license or contractual agreement.
 
 //pdn S4135 05.04.99 comment uninitialized Interface_Static::IVal("iges.convert.read");
-#include <IGESData_ParamReader.ixx>
+#include <Interface_ParamList.hxx>
+#include <Interface_Check.hxx>
+#include <Interface_InterfaceError.hxx>
+#include <IGESData_IGESEntity.hxx>
+#include <IGESData_IGESReaderData.hxx>
+#include <IGESData_ParamCursor.hxx>
+#include <Message_Msg.hxx>
+#include <gp_XY.hxx>
+#include <gp_XYZ.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <Standard_Type.hxx>
+#include <TColStd_HArray1OfInteger.hxx>
+#include <TColStd_HArray1OfReal.hxx>
+#include <Interface_HArray1OfHAsciiString.hxx>
+#include <IGESData_HArray1OfIGESEntity.hxx>
+#include <Interface_EntityList.hxx>
+#include <IGESData_ParamReader.hxx>
 #include <IGESData_IGESType.hxx>
 #include <Interface_FileParameter.hxx>
 #include <Interface_FileReaderData.hxx>

@@ -12,7 +12,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepGProp_Cinert.ixx>
+#include <BRepAdaptor_Curve.hxx>
+#include <gp_Pnt.hxx>
+#include <BRepGProp_Cinert.hxx>
 
 #include <math.hxx>
 #include <TColStd_Array1OfReal.hxx>

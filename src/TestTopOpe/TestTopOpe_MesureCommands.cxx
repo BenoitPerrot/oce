@@ -14,7 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TestTopOpe.ixx>
+#include <TopOpeBRepBuild_HBuilder.hxx>
+#include <TopOpeBRepDS_HDataStructure.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TestTopOpe.hxx>
 
 #include <Draw_Appli.hxx>
 #include <Draw_Interpretor.hxx>

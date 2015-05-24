@@ -16,7 +16,21 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESAppli_FiniteElement.ixx>
+#include <IGESAppli_HArray1OfNode.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <IGESAppli_Node.hxx>
+#include <IGESAppli_FiniteElement.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESAppli_FiniteElement)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IGESData_IGESEntity),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESAppli_FiniteElement)
+IMPLEMENT_DOWNCAST(IGESAppli_FiniteElement,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESAppli_FiniteElement)
 #include <Standard_DimensionMismatch.hxx>
 #include <IGESAppli.hxx>
 

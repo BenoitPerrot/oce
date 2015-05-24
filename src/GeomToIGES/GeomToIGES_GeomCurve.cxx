@@ -21,7 +21,21 @@
 //:l5 abv 14.01.99: CTS22022-1: protection against exceptions in Segment()
 //:q3 abv 17.03.99: PRO17828: using GeomConvert_ApproxCurve for converting circle to bspline
 
-#include <GeomToIGES_GeomCurve.ixx>
+#include <GeomToIGES_GeomEntity.hxx>
+#include <IGESData_IGESEntity.hxx>
+#include <Geom_Curve.hxx>
+#include <Geom_BoundedCurve.hxx>
+#include <Geom_BSplineCurve.hxx>
+#include <Geom_BezierCurve.hxx>
+#include <Geom_TrimmedCurve.hxx>
+#include <Geom_Conic.hxx>
+#include <Geom_Circle.hxx>
+#include <Geom_Ellipse.hxx>
+#include <Geom_Hyperbola.hxx>
+#include <Geom_Line.hxx>
+#include <Geom_Parabola.hxx>
+#include <Geom_OffsetCurve.hxx>
+#include <GeomToIGES_GeomCurve.hxx>
 
 #include <Standard_ErrorHandler.hxx>
 #include <Standard_Failure.hxx>

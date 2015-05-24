@@ -13,7 +13,27 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TDataXtd_PatternStd.ixx>
+#include <TNaming_NamedShape.hxx>
+#include <TDataStd_Real.hxx>
+#include <TDataStd_Integer.hxx>
+#include <Standard_GUID.hxx>
+#include <TDF_Label.hxx>
+#include <TDataXtd_Array1OfTrsf.hxx>
+#include <TDF_Attribute.hxx>
+#include <TDF_RelocationTable.hxx>
+#include <TDF_DataSet.hxx>
+#include <TDataXtd_PatternStd.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(TDataXtd_PatternStd)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(TDataXtd_Pattern),
+  STANDARD_TYPE(TDF_Attribute),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(TDataXtd_PatternStd)
+IMPLEMENT_DOWNCAST(TDataXtd_PatternStd,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(TDataXtd_PatternStd)
 #include <TDataStd.hxx>
 #include <TDataXtd_Geometry.hxx>
 #include <TDF_Label.hxx>

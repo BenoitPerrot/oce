@@ -16,7 +16,15 @@
 //    Creation of a circle tangent to an element and having center in a point    +
 //================================================================================
 
-#include <GccAna_Circ2dTanCen.ixx>
+#include <Standard_NegativeValue.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <StdFail_NotDone.hxx>
+#include <GccEnt_BadQualifier.hxx>
+#include <GccEnt_QualifiedCirc.hxx>
+#include <gp_Pnt2d.hxx>
+#include <gp_Lin2d.hxx>
+#include <gp_Circ2d.hxx>
+#include <GccAna_Circ2dTanCen.hxx>
 
 #include <ElCLib.hxx>
 #include <gp_Circ2d.hxx>

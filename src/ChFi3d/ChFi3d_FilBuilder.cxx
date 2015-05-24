@@ -17,7 +17,23 @@
 // Modified:    MPS :  (10-04-97) portage WNT pour GetFilletShape
 
 
-#include <ChFi3d_FilBuilder.ixx>
+#include <TopoDS_Shape.hxx>
+#include <TopoDS_Edge.hxx>
+#include <Law_Function.hxx>
+#include <TopoDS_Vertex.hxx>
+#include <gp_XY.hxx>
+#include <ChFiDS_SecHArray1.hxx>
+#include <ChFiDS_SurfData.hxx>
+#include <ChFiDS_HElSpine.hxx>
+#include <ChFiDS_Spine.hxx>
+#include <BRepAdaptor_HSurface.hxx>
+#include <Adaptor3d_TopolTool.hxx>
+#include <BRepAdaptor_HCurve2d.hxx>
+#include <ChFiDS_SequenceOfSurfData.hxx>
+#include <BRepBlend_Line.hxx>
+#include <ChFiDS_Stripe.hxx>
+#include <ChFiDS_ListOfStripe.hxx>
+#include <ChFi3d_FilBuilder.hxx>
 #include <ChFi3d_Builder_0.hxx>
 #include <ChFi3d_SearchSing.hxx>
 

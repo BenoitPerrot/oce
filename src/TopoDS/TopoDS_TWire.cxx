@@ -14,7 +14,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopoDS_TWire.ixx>
+#include <TopoDS_TShape.hxx>
+#include <TopoDS_TWire.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(TopoDS_TWire)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(TopoDS_TShape),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(TopoDS_TWire)
+IMPLEMENT_DOWNCAST(TopoDS_TWire,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(TopoDS_TWire)
 
 #include <TopAbs.hxx>
 

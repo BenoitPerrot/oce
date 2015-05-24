@@ -11,7 +11,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Vrml_Coordinate3.ixx>
+#include <TColgp_HArray1OfVec.hxx>
+#include <Vrml_Coordinate3.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Vrml_Coordinate3)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Vrml_Coordinate3)
+IMPLEMENT_DOWNCAST(Vrml_Coordinate3,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Vrml_Coordinate3)
 
 Vrml_Coordinate3::Vrml_Coordinate3(const Handle(TColgp_HArray1OfVec)& aPoint)
 {

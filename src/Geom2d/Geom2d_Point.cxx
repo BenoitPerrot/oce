@@ -14,7 +14,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Geom2d_Point.ixx>
+#include <gp_Pnt2d.hxx>
+#include <Geom2d_Point.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Geom2d_Point)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Geom2d_Geometry),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Geom2d_Point)
+IMPLEMENT_DOWNCAST(Geom2d_Point,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Geom2d_Point)
 
 typedef Geom2d_Point Point;
 typedef Handle(Geom2d_Point) Handle(Point);

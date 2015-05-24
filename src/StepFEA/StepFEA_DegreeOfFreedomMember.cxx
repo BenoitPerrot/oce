@@ -15,7 +15,18 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V2.0
 
-#include <StepFEA_DegreeOfFreedomMember.ixx>
+#include <StepFEA_DegreeOfFreedomMember.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepFEA_DegreeOfFreedomMember)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepData_SelectNamed),
+  STANDARD_TYPE(StepData_SelectMember),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepFEA_DegreeOfFreedomMember)
+IMPLEMENT_DOWNCAST(StepFEA_DegreeOfFreedomMember,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepFEA_DegreeOfFreedomMember)
 #include <TCollection_HAsciiString.hxx>
 
 static Standard_CString anEnumeratedCurveElementFreedom = "ENUMERATED_DEGREE_OF_FREEDOM";

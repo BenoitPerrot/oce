@@ -11,7 +11,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <XSDRAWSTLVRML_ToVRML.ixx>
+#include <TCollection_AsciiString.hxx>
+#include <TopoDS_Shape.hxx>
+#include <XSDRAWSTLVRML_ToVRML.hxx>
 
 #include <Standard_Stream.hxx>
 #include <Bnd_Box.hxx>

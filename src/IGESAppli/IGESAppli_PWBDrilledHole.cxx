@@ -16,7 +16,17 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESAppli_PWBDrilledHole.ixx>
+#include <IGESAppli_PWBDrilledHole.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESAppli_PWBDrilledHole)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IGESData_IGESEntity),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESAppli_PWBDrilledHole)
+IMPLEMENT_DOWNCAST(IGESAppli_PWBDrilledHole,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESAppli_PWBDrilledHole)
 
 IGESAppli_PWBDrilledHole::IGESAppli_PWBDrilledHole ()    {  }
 

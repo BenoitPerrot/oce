@@ -11,7 +11,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IGESData_ParamCursor.ixx>
+#include <Interface_InterfaceError.hxx>
+#include <IGESData_ParamCursor.hxx>
 #include <Interface_InterfaceError.hxx>
 
 

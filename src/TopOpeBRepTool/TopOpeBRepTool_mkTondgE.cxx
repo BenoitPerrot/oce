@@ -24,7 +24,11 @@
 #include <TopExp_Explorer.hxx>
 #include <TopOpeBRepTool_EXPORT.hxx>
 #include <TopOpeBRepTool_TOOL.hxx>
-#include <TopOpeBRepTool_mkTondgE.ixx>
+#include <TopoDS_Edge.hxx>
+#include <TopoDS_Face.hxx>
+#include <gp_Pnt2d.hxx>
+#include <TopTools_ListOfShape.hxx>
+#include <TopOpeBRepTool_mkTondgE.hxx>
 #include <TopOpeBRepTool_define.hxx>
 
 #define M_FORWARD(sta)  (sta == TopAbs_FORWARD)

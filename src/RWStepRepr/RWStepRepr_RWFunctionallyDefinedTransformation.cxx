@@ -12,7 +12,11 @@
 // commercial license or contractual agreement.
 
 //gka 05.03.99 S4134 upgrade from CD to DIS
-#include <RWStepRepr_RWFunctionallyDefinedTransformation.ixx>
+#include <StepData_StepReaderData.hxx>
+#include <Interface_Check.hxx>
+#include <StepRepr_FunctionallyDefinedTransformation.hxx>
+#include <StepData_StepWriter.hxx>
+#include <RWStepRepr_RWFunctionallyDefinedTransformation.hxx>
 
 
 RWStepRepr_RWFunctionallyDefinedTransformation::RWStepRepr_RWFunctionallyDefinedTransformation () {}

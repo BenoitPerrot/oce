@@ -16,7 +16,13 @@
 
 //  Modified by skv - Mon May  5 15:06:39 2003 OCC616
 
-#include <Bisector_Inter.ixx>
+#include <Standard_ConstructionError.hxx>
+#include <Bisector_Bisec.hxx>
+#include <IntRes2d_Domain.hxx>
+#include <Geom2d_Curve.hxx>
+#include <Bisector_BisecCC.hxx>
+#include <Geom2d_Line.hxx>
+#include <Bisector_Inter.hxx>
 #include <IntRes2d_Intersection.hxx>
 #include <Bisector_Curve.hxx>
 #include <Bisector_BisecAna.hxx>

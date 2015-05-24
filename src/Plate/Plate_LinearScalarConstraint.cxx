@@ -14,7 +14,16 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Plate_LinearScalarConstraint.ixx>
+#include <Plate_HArray1OfPinpointConstraint.hxx>
+#include <TColgp_HArray2OfXYZ.hxx>
+#include <Standard_DimensionMismatch.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Plate_PinpointConstraint.hxx>
+#include <gp_XYZ.hxx>
+#include <Plate_Array1OfPinpointConstraint.hxx>
+#include <TColgp_Array1OfXYZ.hxx>
+#include <TColgp_Array2OfXYZ.hxx>
+#include <Plate_LinearScalarConstraint.hxx>
 #include <Standard_DimensionMismatch.hxx>
 
 

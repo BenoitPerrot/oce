@@ -14,7 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepGProp_Domain.ixx>
+#include <TopoDS_Face.hxx>
+#include <TopoDS_Edge.hxx>
+#include <BRepGProp_Domain.hxx>
 
 //=======================================================================
 //function : Next

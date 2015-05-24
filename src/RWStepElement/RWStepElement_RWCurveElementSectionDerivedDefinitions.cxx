@@ -15,7 +15,12 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
-#include <RWStepElement_RWCurveElementSectionDerivedDefinitions.ixx>
+#include <StepData_StepReaderData.hxx>
+#include <Interface_Check.hxx>
+#include <StepElement_CurveElementSectionDerivedDefinitions.hxx>
+#include <StepData_StepWriter.hxx>
+#include <Interface_EntityIterator.hxx>
+#include <RWStepElement_RWCurveElementSectionDerivedDefinitions.hxx>
 #include <StepElement_HArray1OfMeasureOrUnspecifiedValue.hxx>
 #include <StepElement_MeasureOrUnspecifiedValue.hxx>
 #include <TColStd_HArray1OfReal.hxx>

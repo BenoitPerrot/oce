@@ -14,7 +14,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepSweep_Rotation.ixx>
+#include <Standard_ConstructionError.hxx>
+#include <TopoDS_Shape.hxx>
+#include <Sweep_NumShape.hxx>
+#include <TopLoc_Location.hxx>
+#include <gp_Ax1.hxx>
+#include <BRepSweep_Rotation.hxx>
 #include <BRepTools_Quilt.hxx>
 #include <BRepAdaptor_Curve.hxx>
 #include <BRepAdaptor_Surface.hxx>

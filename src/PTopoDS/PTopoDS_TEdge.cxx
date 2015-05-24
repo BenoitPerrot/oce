@@ -14,7 +14,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PTopoDS_TEdge.ixx>
+#include <PTopoDS_TEdge.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(PTopoDS_TEdge)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(PTopoDS_TShape),
+  STANDARD_TYPE(Standard_Persistent),
+  STANDARD_TYPE(Standard_Storable),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(PTopoDS_TEdge)
+IMPLEMENT_DOWNCAST(PTopoDS_TEdge,Standard_Persistent)
+IMPLEMENT_STANDARD_RTTI(PTopoDS_TEdge)
 
 //=======================================================================
 //function : ShapeType 

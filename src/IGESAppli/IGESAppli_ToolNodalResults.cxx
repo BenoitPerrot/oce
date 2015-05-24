@@ -16,7 +16,19 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESAppli_ToolNodalResults.ixx>
+#include <Standard_DomainError.hxx>
+#include <IGESAppli_NodalResults.hxx>
+#include <IGESData_IGESReaderData.hxx>
+#include <IGESData_ParamReader.hxx>
+#include <IGESData_IGESWriter.hxx>
+#include <Interface_EntityIterator.hxx>
+#include <IGESData_DirChecker.hxx>
+#include <Interface_ShareTool.hxx>
+#include <Interface_Check.hxx>
+#include <Interface_CopyTool.hxx>
+#include <IGESData_IGESDumper.hxx>
+#include <Message_Messenger.hxx>
+#include <IGESAppli_ToolNodalResults.hxx>
 #include <IGESData_ParamCursor.hxx>
 #include <IGESDimen_GeneralNote.hxx>
 #include <IGESAppli_Node.hxx>

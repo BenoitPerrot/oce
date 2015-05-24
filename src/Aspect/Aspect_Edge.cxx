@@ -28,7 +28,8 @@
 //-Declarations
 
 // for the class
-#include <Aspect_Edge.ixx>
+#include <Aspect_EdgeDefinitionError.hxx>
+#include <Aspect_Edge.hxx>
 
 //-Aliases
 

@@ -11,7 +11,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IFSelect.ixx>
+#include <IFSelect_WorkSession.hxx>
+#include <IFSelect.hxx>
 #include <IFSelect_SessionFile.hxx>
 
 

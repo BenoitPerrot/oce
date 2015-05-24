@@ -12,8 +12,25 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TCollection_HAsciiString.ixx>
+#include <Standard_NegativeValue.hxx>
+#include <Standard_NullObject.hxx>
+#include <Standard_NumericError.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Standard_Type.hxx>
+#include <TCollection_AsciiString.hxx>
 #include <TCollection_HExtendedString.hxx>
+#include <TCollection_HAsciiString.hxx>
+
+IMPLEMENT_STANDARD_TYPE(TCollection_HAsciiString)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(TCollection_HAsciiString)
+
+IMPLEMENT_DOWNCAST(TCollection_HAsciiString,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(TCollection_HAsciiString)
 
 // ----------------------------------------------------------------------------
 // Create

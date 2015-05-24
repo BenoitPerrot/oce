@@ -11,7 +11,15 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <ShapeFix_IntersectionTool.ixx>
+#include <ShapeBuild_ReShape.hxx>
+#include <TopoDS_Edge.hxx>
+#include <TopoDS_Vertex.hxx>
+#include <TopoDS_Face.hxx>
+#include <ShapeExtend_WireData.hxx>
+#include <ShapeFix_DataMapOfShapeBox2d.hxx>
+#include <Bnd_Box2d.hxx>
+#include <Geom2d_Curve.hxx>
+#include <ShapeFix_IntersectionTool.hxx>
 
 #include <BRep_Builder.hxx>
 #include <BRep_Tool.hxx>

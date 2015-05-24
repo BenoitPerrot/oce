@@ -11,7 +11,16 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <MoniTool_RealVal.ixx>
+#include <MoniTool_RealVal.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(MoniTool_RealVal)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(MoniTool_RealVal)
+IMPLEMENT_DOWNCAST(MoniTool_RealVal,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(MoniTool_RealVal)
 
 MoniTool_RealVal::MoniTool_RealVal  (const Standard_Real val)    {  theval = val;  }
 

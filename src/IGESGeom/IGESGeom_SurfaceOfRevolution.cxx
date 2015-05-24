@@ -16,7 +16,19 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESGeom_SurfaceOfRevolution.ixx>
+#include <IGESGeom_Line.hxx>
+#include <IGESData_IGESEntity.hxx>
+#include <IGESGeom_SurfaceOfRevolution.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESGeom_SurfaceOfRevolution)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IGESData_IGESEntity),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESGeom_SurfaceOfRevolution)
+IMPLEMENT_DOWNCAST(IGESGeom_SurfaceOfRevolution,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESGeom_SurfaceOfRevolution)
 
 
 IGESGeom_SurfaceOfRevolution::IGESGeom_SurfaceOfRevolution ()    {  }

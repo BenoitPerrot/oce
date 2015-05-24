@@ -11,7 +11,22 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <MDF_TagSourceRetrievalDriver.ixx>
+#include <CDM_MessageDriver.hxx>
+#include <Standard_Type.hxx>
+#include <TDF_Attribute.hxx>
+#include <PDF_Attribute.hxx>
+#include <MDF_RRelocationTable.hxx>
+#include <MDF_TagSourceRetrievalDriver.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(MDF_TagSourceRetrievalDriver)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MDF_ARDriver),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(MDF_TagSourceRetrievalDriver)
+IMPLEMENT_DOWNCAST(MDF_TagSourceRetrievalDriver,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(MDF_TagSourceRetrievalDriver)
 #include <PDF_TagSource.hxx>
 #include <TDF_TagSource.hxx>
 #include <CDM_MessageDriver.hxx>

@@ -14,7 +14,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepTools_Quilt.ixx>
+#include <Standard_NoSuchObject.hxx>
+#include <TopoDS_Edge.hxx>
+#include <TopoDS_Vertex.hxx>
+#include <TopoDS_Shape.hxx>
+#include <BRepTools_Quilt.hxx>
 
 #include <TopoDS.hxx>
 #include <TopoDS_Face.hxx>

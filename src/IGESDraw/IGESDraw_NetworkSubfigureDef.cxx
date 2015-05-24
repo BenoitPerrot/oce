@@ -16,7 +16,24 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESDraw_NetworkSubfigureDef.ixx>
+#include <TCollection_HAsciiString.hxx>
+#include <IGESData_HArray1OfIGESEntity.hxx>
+#include <IGESGraph_TextDisplayTemplate.hxx>
+#include <IGESDraw_HArray1OfConnectPoint.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <IGESData_IGESEntity.hxx>
+#include <IGESDraw_ConnectPoint.hxx>
+#include <IGESDraw_NetworkSubfigureDef.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESDraw_NetworkSubfigureDef)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IGESData_IGESEntity),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESDraw_NetworkSubfigureDef)
+IMPLEMENT_DOWNCAST(IGESDraw_NetworkSubfigureDef,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESDraw_NetworkSubfigureDef)
 #include <Standard_DimensionMismatch.hxx>
 
 

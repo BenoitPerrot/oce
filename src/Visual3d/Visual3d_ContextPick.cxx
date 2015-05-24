@@ -30,7 +30,8 @@
 //-Declarations
 
 // for the class
-#include <Visual3d_ContextPick.ixx>
+#include <Visual3d_ContextPickDefinitionError.hxx>
+#include <Visual3d_ContextPick.hxx>
 
 //-Aliases
 

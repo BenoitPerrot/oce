@@ -20,7 +20,14 @@
 #include <Precision.hxx>
 #include <TopExp_Explorer.hxx>
 #include <TopOpeBRepTool_C2DF.hxx>
-#include <TopOpeBRepTool_REGUW.ixx>
+#include <TopoDS_Face.hxx>
+#include <TopTools_DataMapOfShapeListOfShape.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopTools_ListOfShape.hxx>
+#include <TopoDS_Edge.hxx>
+#include <TopoDS_Vertex.hxx>
+#include <TopOpeBRepTool_connexity.hxx>
+#include <TopOpeBRepTool_REGUW.hxx>
 #include <TopOpeBRepTool_EXPORT.hxx>
 #include <TopOpeBRepTool_TOOL.hxx>
 #include <TopOpeBRepTool_define.hxx>

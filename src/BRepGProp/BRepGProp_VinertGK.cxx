@@ -13,7 +13,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepGProp_VinertGK.ixx>
+#include <BRepGProp_Face.hxx>
+#include <gp_Pnt.hxx>
+#include <BRepGProp_Domain.hxx>
+#include <gp_Pln.hxx>
+#include <BRepGProp_VinertGK.hxx>
 
 #include <TColStd_HArray1OfReal.hxx>
 #include <TColStd_Array1OfBoolean.hxx>

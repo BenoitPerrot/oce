@@ -14,7 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <MPrsStd.ixx>
+#include <MDF_ASDriverHSequence.hxx>
+#include <CDM_MessageDriver.hxx>
+#include <MDF_ARDriverHSequence.hxx>
+#include <MPrsStd.hxx>
 #include <MDF_ASDriverHSequence.hxx>
 #include <MDF_ARDriverHSequence.hxx>
 #include <MPrsStd_AISPresentationStorageDriver.hxx>

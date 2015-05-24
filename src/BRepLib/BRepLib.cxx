@@ -17,7 +17,13 @@
 //pmn 26/09/97 Add parameters of approximation in BuildCurve3d
 //  Modified by skv - Thu Jun  3 12:39:19 2004 OCC5898
 
-#include <BRepLib.ixx>
+#include <Geom_Plane.hxx>
+#include <TopoDS_Edge.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopoDS_Solid.hxx>
+#include <TopoDS_Face.hxx>
+#include <TopTools_ListOfShape.hxx>
+#include <BRepLib.hxx>
 #include <BRepAdaptor_Surface.hxx>
 #include <BRepAdaptor_HSurface.hxx>
 #include <BRepAdaptor_HCurve2d.hxx>

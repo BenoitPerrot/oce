@@ -14,7 +14,14 @@
 //:k8 abv 06.01.99: TR10: writing unique names for NAUOs
 // :j4 16.03.99 gka S4134
 // abv 18.11.99 renamed from StepPDR_MakeItem
-#include <STEPConstruct_Assembly.ixx>
+#include <StepShape_ShapeDefinitionRepresentation.hxx>
+#include <StepShape_ShapeRepresentation.hxx>
+#include <Standard_Transient.hxx>
+#include <StepGeom_Axis2Placement3d.hxx>
+#include <StepRepr_NextAssemblyUsageOccurrence.hxx>
+#include <Interface_InterfaceModel.hxx>
+#include <StepShape_ContextDependentShapeRepresentation.hxx>
+#include <STEPConstruct_Assembly.hxx>
 
 #include <TCollection_HAsciiString.hxx>
 

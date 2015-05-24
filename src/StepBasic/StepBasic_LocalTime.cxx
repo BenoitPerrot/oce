@@ -11,7 +11,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepBasic_LocalTime.ixx>
+#include <StepBasic_CoordinatedUniversalTimeOffset.hxx>
+#include <StepBasic_LocalTime.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepBasic_LocalTime)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepBasic_LocalTime)
+IMPLEMENT_DOWNCAST(StepBasic_LocalTime,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepBasic_LocalTime)
 
 
 StepBasic_LocalTime::StepBasic_LocalTime ()  {}

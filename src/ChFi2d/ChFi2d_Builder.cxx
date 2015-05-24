@@ -45,7 +45,11 @@
 
 
 #include <ChFi2d.hxx>
-#include <ChFi2d_Builder.ixx>
+#include <TopoDS_Face.hxx>
+#include <TopoDS_Edge.hxx>
+#include <TopoDS_Vertex.hxx>
+#include <TopTools_SequenceOfShape.hxx>
+#include <ChFi2d_Builder.hxx>
 
 #include <BRepAdaptor_Surface.hxx>
 #include <BRepLib.hxx>

@@ -14,7 +14,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomToStep_MakePlane.ixx>
+#include <StepGeom_Plane.hxx>
+#include <StdFail_NotDone.hxx>
+#include <gp_Pln.hxx>
+#include <Geom_Plane.hxx>
+#include <GeomToStep_MakePlane.hxx>
 #include <GeomToStep_MakePlane.hxx>
 #include <StdFail_NotDone.hxx>
 #include <gp_Dir.hxx>

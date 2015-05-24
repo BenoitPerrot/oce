@@ -11,7 +11,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <RWStepAP214_RWAutoDesignNominalDateAssignment.ixx>
+#include <StepData_StepReaderData.hxx>
+#include <Interface_Check.hxx>
+#include <StepAP214_AutoDesignNominalDateAssignment.hxx>
+#include <StepData_StepWriter.hxx>
+#include <Interface_EntityIterator.hxx>
+#include <RWStepAP214_RWAutoDesignNominalDateAssignment.hxx>
 #include <StepAP214_HArray1OfAutoDesignDatedItem.hxx>
 #include <StepAP214_AutoDesignDatedItem.hxx>
 #include <StepBasic_Date.hxx>

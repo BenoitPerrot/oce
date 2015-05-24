@@ -14,7 +14,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <MAT_BasicElt.ixx>
+#include <MAT_Arc.hxx>
+#include <MAT_BasicElt.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(MAT_BasicElt)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(MAT_BasicElt)
+IMPLEMENT_DOWNCAST(MAT_BasicElt,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(MAT_BasicElt)
 #include <MAT_SequenceOfArc.hxx>
 #include <MAT_Node.hxx>
 

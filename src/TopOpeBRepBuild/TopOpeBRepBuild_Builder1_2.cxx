@@ -13,7 +13,21 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopOpeBRepBuild_Builder1.ixx>
+#include <TopOpeBRepBuild_HBuilder.hxx>
+#include <TopOpeBRepDS_BuildTool.hxx>
+#include <TopOpeBRepDS_HDataStructure.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopTools_ListOfShape.hxx>
+#include <TopOpeBRepBuild_GTopo.hxx>
+#include <TopOpeBRepBuild_ShellFaceSet.hxx>
+#include <TopOpeBRepBuild_WireEdgeSet.hxx>
+#include <TopTools_IndexedMapOfShape.hxx>
+#include <TopOpeBRepDS_DataMapOfShapeState.hxx>
+#include <TopOpeBRepBuild_PaveSet.hxx>
+#include <TopoDS_Edge.hxx>
+#include <TopoDS_Face.hxx>
+#include <TopTools_SequenceOfShape.hxx>
+#include <TopOpeBRepBuild_Builder1.hxx>
 
 #include <TopExp.hxx>
 #include <TopExp_Explorer.hxx>

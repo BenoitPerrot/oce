@@ -12,7 +12,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PMMgt_PManaged.ixx>
+#include <Standard_OutOfMemory.hxx>
+#include <PMMgt_PManaged.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(PMMgt_PManaged)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Standard_Persistent),
+  STANDARD_TYPE(Standard_Storable),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(PMMgt_PManaged)
+IMPLEMENT_DOWNCAST(PMMgt_PManaged,Standard_Persistent)
+IMPLEMENT_STANDARD_RTTI(PMMgt_PManaged)
 #include <Standard_TypeMismatch.hxx>
 
 PMMgt_PManaged::PMMgt_PManaged()

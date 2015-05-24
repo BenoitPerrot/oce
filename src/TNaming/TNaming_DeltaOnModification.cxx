@@ -14,7 +14,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TNaming_DeltaOnModification.ixx>
+#include <TopTools_HArray1OfShape.hxx>
+#include <TNaming_NamedShape.hxx>
+#include <TNaming_DeltaOnModification.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(TNaming_DeltaOnModification)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(TDF_DeltaOnModification),
+  STANDARD_TYPE(TDF_AttributeDelta),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(TNaming_DeltaOnModification)
+IMPLEMENT_DOWNCAST(TNaming_DeltaOnModification,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(TNaming_DeltaOnModification)
 #include <TNaming_Iterator.hxx>
 #include <TNaming_Builder.hxx>
 #include <TNaming_Evolution.hxx>

@@ -14,7 +14,11 @@
 
 #ifndef WNT
 
-#include <OSD_Process.ixx>
+#include <OSD_OSDError.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <Quantity_Date.hxx>
+#include <OSD_Path.hxx>
+#include <OSD_Process.hxx>
 #include <OSD_WhoAmI.hxx>
 #include <OSD_Environment.hxx>
 

@@ -14,7 +14,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Extrema_GenLocateExtPS.ixx>
+#include <Standard_DomainError.hxx>
+#include <StdFail_NotDone.hxx>
+#include <gp_Pnt.hxx>
+#include <Adaptor3d_Surface.hxx>
+#include <Extrema_POnSurf.hxx>
+#include <Extrema_GenLocateExtPS.hxx>
 #include <Extrema_FuncExtPS.hxx>
 #include <StdFail_NotDone.hxx>
 #include <gp.hxx>

@@ -12,7 +12,30 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IntTools_Context.ixx>
+#include <IntTools_FClass2d.hxx>
+#include <TopoDS_Face.hxx>
+#include <GeomAPI_ProjectPointOnSurf.hxx>
+#include <GeomAPI_ProjectPointOnCurve.hxx>
+#include <TopoDS_Edge.hxx>
+#include <Geom_Curve.hxx>
+#include <IntTools_SurfaceRangeLocalizeData.hxx>
+#include <BRepClass3d_SolidClassifier.hxx>
+#include <TopoDS_Solid.hxx>
+#include <Geom2dHatch_Hatcher.hxx>
+#include <gp_Pnt.hxx>
+#include <TopoDS_Vertex.hxx>
+#include <gp_Pnt2d.hxx>
+#include <IntTools_Curve.hxx>
+#include <IntTools_Context.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IntTools_Context)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IntTools_Context)
+IMPLEMENT_DOWNCAST(IntTools_Context,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IntTools_Context)
 
 #include <Precision.hxx>
 

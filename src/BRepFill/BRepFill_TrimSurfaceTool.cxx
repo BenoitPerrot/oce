@@ -16,7 +16,14 @@
 
 #include <stdio.h>
 
-#include <BRepFill_TrimSurfaceTool.ixx>
+#include <Geom2d_Curve.hxx>
+#include <Standard_NoSuchObject.hxx>
+#include <TopoDS_Face.hxx>
+#include <TopoDS_Edge.hxx>
+#include <TColgp_SequenceOfPnt.hxx>
+#include <gp_Pnt2d.hxx>
+#include <Geom_Curve.hxx>
+#include <BRepFill_TrimSurfaceTool.hxx>
 
 #include <Precision.hxx>
 

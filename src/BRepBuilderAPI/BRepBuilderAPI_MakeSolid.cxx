@@ -14,7 +14,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepBuilderAPI_MakeSolid.ixx>
+#include <StdFail_NotDone.hxx>
+#include <TopoDS_CompSolid.hxx>
+#include <TopoDS_Shell.hxx>
+#include <TopoDS_Solid.hxx>
+#include <TopoDS_Shape.hxx>
+#include <BRepBuilderAPI_MakeSolid.hxx>
 #include <TopoDS.hxx>
 
 

@@ -14,7 +14,28 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PCDM_RetrievalDriver.ixx>
+#include <Standard_NoSuchObject.hxx>
+#include <PCDM_DriverError.hxx>
+#include <CDM_MetaData.hxx>
+#include <TCollection_ExtendedString.hxx>
+#include <CDM_Document.hxx>
+#include <CDM_Application.hxx>
+#include <PCDM_Document.hxx>
+#include <Storage_Schema.hxx>
+#include <TColStd_SequenceOfExtendedString.hxx>
+#include <CDM_MessageDriver.hxx>
+#include <PCDM_SequenceOfReference.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <PCDM_RetrievalDriver.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(PCDM_RetrievalDriver)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(PCDM_Reader),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(PCDM_RetrievalDriver)
+IMPLEMENT_DOWNCAST(PCDM_RetrievalDriver,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(PCDM_RetrievalDriver)
 #include <PCDM_BaseDriverPointer.hxx>
 #include <PCDM.hxx>
 #include <PCDM_TypeOfFileDriver.hxx>

@@ -15,7 +15,11 @@
 // commercial license or contractual agreement.
 
 //=======================================================================
-#include <StlMesh_MeshExplorer.ixx>
+#include <StlMesh_Mesh.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Standard_NoMoreObject.hxx>
+#include <Standard_NoSuchObject.hxx>
+#include <StlMesh_MeshExplorer.hxx>
 #include <StlMesh_MeshTriangle.hxx>
 
 //=======================================================================

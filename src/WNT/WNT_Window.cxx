@@ -15,7 +15,20 @@
 // include windows.h first to have all definitions available
 #include <windows.h>
 
-#include <WNT_Window.ixx>
+#include <WNT_WClass.hxx>
+#include <Aspect_WindowDefinitionError.hxx>
+#include <Aspect_WindowError.hxx>
+#include <WNT_Window.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(WNT_Window)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Aspect_Window),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(WNT_Window)
+IMPLEMENT_DOWNCAST(WNT_Window,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(WNT_Window)
 
 #include <Image_AlienPixMap.hxx>
 #include <Aspect_Convert.hxx>

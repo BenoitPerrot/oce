@@ -14,7 +14,26 @@
 //pdn 11.01.99 modification for linking on NT
 //#73 rln 10.03.99 S4135: "read.scale.unit" does not affect GlobalSection
 //#13 smh 13.01.2000 : Parsing long year date
-#include <IGESData_IGESModel.ixx>
+#include <TColStd_HSequenceOfHAsciiString.hxx>
+#include <Interface_InterfaceError.hxx>
+#include <Message_Messenger.hxx>
+#include <IGESData_GlobalSection.hxx>
+#include <IGESData_IGESEntity.hxx>
+#include <Interface_InterfaceModel.hxx>
+#include <Interface_Check.hxx>
+#include <Standard_Transient.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <IGESData_IGESModel.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESData_IGESModel)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Interface_InterfaceModel),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESData_IGESModel)
+IMPLEMENT_DOWNCAST(IGESData_IGESModel,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESData_IGESModel)
 #include <TCollection_HAsciiString.hxx>
 #include <IGESData_Protocol.hxx>
 #include <IGESData_BasicEditor.hxx>

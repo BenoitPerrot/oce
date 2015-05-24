@@ -13,7 +13,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <HLRBRep_BSurfaceTool.ixx>
+#include <Standard_NoSuchObject.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <BRepAdaptor_Surface.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <Adaptor3d_HSurface.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Vec.hxx>
+#include <Geom_BezierSurface.hxx>
+#include <Geom_BSplineSurface.hxx>
+#include <Adaptor3d_HCurve.hxx>
+#include <HLRBRep_BSurfaceTool.hxx>
 #include <BRepAdaptor_Surface.hxx>
 
 //=======================================================================

@@ -14,7 +14,8 @@
 #include <Standard_Stream.hxx>
 
 
-#include <Interface_MSG.ixx>
+#include <Standard_DomainError.hxx>
+#include <Interface_MSG.hxx>
 #include <TCollection_HAsciiString.hxx>
 #include <Dico_DictionaryOfTransient.hxx>
 #include <Dico_DictionaryOfInteger.hxx>

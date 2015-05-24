@@ -14,7 +14,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepPrim_Cone.ixx>
+#include <Standard_DomainError.hxx>
+#include <gp_Ax2.hxx>
+#include <gp_Pnt.hxx>
+#include <TopoDS_Face.hxx>
+#include <BRepPrim_Cone.hxx>
 #include <gp.hxx>
 #include <gp_Vec.hxx>
 #include <Precision.hxx>

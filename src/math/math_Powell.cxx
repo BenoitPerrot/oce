@@ -18,7 +18,11 @@
 #define No_Standard_DimensionError
 //#endif
 
-#include <math_Powell.ixx>
+#include <StdFail_NotDone.hxx>
+#include <Standard_DimensionError.hxx>
+#include <math_MultipleVarFunction.hxx>
+#include <math_Matrix.hxx>
+#include <math_Powell.hxx>
 #include <math_BracketMinimum.hxx>
 #include <math_BrentMinimum.hxx>
 #include <math_Function.hxx>

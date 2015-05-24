@@ -15,7 +15,22 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.1
 
-#include <StepShape_Subface.ixx>
+#include <StepShape_Face.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepShape_HArray1OfFaceBound.hxx>
+#include <StepShape_Subface.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepShape_Subface)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepShape_Face),
+  STANDARD_TYPE(StepShape_TopologicalRepresentationItem),
+  STANDARD_TYPE(StepRepr_RepresentationItem),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepShape_Subface)
+IMPLEMENT_DOWNCAST(StepShape_Subface,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepShape_Subface)
 
 //=======================================================================
 //function : StepShape_Subface

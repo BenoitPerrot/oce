@@ -14,7 +14,24 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TestTopOpeDraw_DrawableSHA.ixx>
+#include <Draw_Text3D.hxx>
+#include <Draw_Marker3D.hxx>
+#include <TopoDS_Shape.hxx>
+#include <Draw_Color.hxx>
+#include <gp_Pnt.hxx>
+#include <Draw_Display.hxx>
+#include <TestTopOpeDraw_DrawableSHA.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(TestTopOpeDraw_DrawableSHA)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(DBRep_DrawableShape),
+  STANDARD_TYPE(Draw_Drawable3D),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(TestTopOpeDraw_DrawableSHA)
+IMPLEMENT_DOWNCAST(TestTopOpeDraw_DrawableSHA,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(TestTopOpeDraw_DrawableSHA)
 #include <TestTopOpeDraw_DrawableSUR.hxx>
 #include <TestTopOpeDraw_DrawableC3D.hxx>
 #include <TestTopOpeDraw_DrawableP3D.hxx>

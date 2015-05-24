@@ -19,7 +19,9 @@
 //:o5 abv 17.02.99: bm4_sd_seal_c.stp #58720: translate surface_curve (3d only)
 //:p0 abv 19.02.99: management of 'done' flag improved
 
-#include <StepToGeom_MakeCurve.ixx>
+#include <StepGeom_Curve.hxx>
+#include <Geom_Curve.hxx>
+#include <StepToGeom_MakeCurve.hxx>
 
 #include <Geom_OffsetCurve.hxx>
 #include <Geom_Direction.hxx>

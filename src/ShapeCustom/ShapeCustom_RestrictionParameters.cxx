@@ -13,7 +13,16 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <ShapeCustom_RestrictionParameters.ixx>
+#include <ShapeCustom_RestrictionParameters.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(ShapeCustom_RestrictionParameters)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(ShapeCustom_RestrictionParameters)
+IMPLEMENT_DOWNCAST(ShapeCustom_RestrictionParameters,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(ShapeCustom_RestrictionParameters)
 
 //=======================================================================
 //function : ShapeCustom_RestrictionParameters

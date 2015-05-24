@@ -28,7 +28,15 @@
 //== I n t e r s e c t i o n   C O N E           Q U A D R I Q U E   
 //==                           C Y L I N D R E   Q U A D R I Q U E
 //======================================================================
-#include <IntAna_IntQuadQuad.ixx>
+#include <Standard_OutOfRange.hxx>
+#include <StdFail_NotDone.hxx>
+#include <Standard_DomainError.hxx>
+#include <gp_Cylinder.hxx>
+#include <IntAna_Quadric.hxx>
+#include <gp_Cone.hxx>
+#include <IntAna_Curve.hxx>
+#include <gp_Pnt.hxx>
+#include <IntAna_IntQuadQuad.hxx>
 
 #include <Standard_DomainError.hxx>
 #include <Standard_OutOfRange.hxx>

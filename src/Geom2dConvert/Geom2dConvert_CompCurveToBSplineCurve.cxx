@@ -14,7 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Geom2dConvert_CompCurveToBSplineCurve.ixx>
+#include <Geom2d_BSplineCurve.hxx>
+#include <Geom2d_BoundedCurve.hxx>
+#include <Geom2dConvert_CompCurveToBSplineCurve.hxx>
 
 #include <Geom2d_BSplineCurve.hxx>
 #include <Geom2dConvert.hxx>

@@ -14,7 +14,21 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomFill_TrihedronWithGuide.ixx>
+#include <Adaptor3d_HCurve.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Standard_NotImplemented.hxx>
+#include <gp_Pnt.hxx>
+#include <GeomFill_TrihedronWithGuide.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(GeomFill_TrihedronWithGuide)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(GeomFill_TrihedronLaw),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(GeomFill_TrihedronWithGuide)
+IMPLEMENT_DOWNCAST(GeomFill_TrihedronWithGuide,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(GeomFill_TrihedronWithGuide)
 
 
 Handle(Adaptor3d_HCurve) GeomFill_TrihedronWithGuide::Guide()const

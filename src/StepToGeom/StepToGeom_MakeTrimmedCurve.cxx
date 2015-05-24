@@ -20,7 +20,9 @@
 //:p3 abv 23.02.99: bm4_id_punch_d.stp #1313: shift of parameters on ellipse with R1 < R2
 //    abv 09.02.99: S4136: eliminate using BRepAPI::Precision()
 
-#include <StepToGeom_MakeTrimmedCurve.ixx>
+#include <StepGeom_TrimmedCurve.hxx>
+#include <Geom_TrimmedCurve.hxx>
+#include <StepToGeom_MakeTrimmedCurve.hxx>
 #include <gp_Pnt.hxx>
 #include <Geom_CartesianPoint.hxx>
 #include <Geom_Curve.hxx>

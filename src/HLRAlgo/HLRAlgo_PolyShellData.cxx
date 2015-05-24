@@ -17,7 +17,19 @@
 #ifndef No_Exception
 //#define No_Exception
 #endif
-#include <HLRAlgo_PolyShellData.ixx>
+#include <TColStd_HArray1OfTransient.hxx>
+#include <TColStd_Array1OfTransient.hxx>
+#include <HLRAlgo_ListOfBPoint.hxx>
+#include <HLRAlgo_PolyShellData.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(HLRAlgo_PolyShellData)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(HLRAlgo_PolyShellData)
+IMPLEMENT_DOWNCAST(HLRAlgo_PolyShellData,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(HLRAlgo_PolyShellData)
 #include <HLRAlgo_ListIteratorOfListOfBPoint.hxx>
 #include <HLRAlgo_BiPoint.hxx>
 #include <HLRAlgo_PolyData.hxx>

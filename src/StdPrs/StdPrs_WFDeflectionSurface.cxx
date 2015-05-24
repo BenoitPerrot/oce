@@ -14,7 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StdPrs_WFDeflectionSurface.ixx>
+#include <Prs3d_Presentation.hxx>
+#include <Adaptor3d_HSurface.hxx>
+#include <Prs3d_Drawer.hxx>
+#include <StdPrs_WFDeflectionSurface.hxx>
 #include <Graphic3d_Group.hxx>
 #include <GeomAbs_IsoType.hxx>
 #include <Prs3d_IsoAspect.hxx>

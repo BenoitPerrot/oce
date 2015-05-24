@@ -16,7 +16,7 @@
 
 // sln 19.11.2001. Bug 2: Correction of output of 'statshape' draw function.
 
-#include <SWDRAW_ShapeAnalysis.ixx>
+#include <SWDRAW_ShapeAnalysis.hxx>
 #include <stdio.h>
 #include <Draw.hxx>
 #include <DBRep.hxx>

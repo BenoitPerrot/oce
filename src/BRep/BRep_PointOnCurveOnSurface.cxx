@@ -14,7 +14,21 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRep_PointOnCurveOnSurface.ixx>
+#include <Geom2d_Curve.hxx>
+#include <Geom_Surface.hxx>
+#include <TopLoc_Location.hxx>
+#include <BRep_PointOnCurveOnSurface.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(BRep_PointOnCurveOnSurface)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(BRep_PointsOnSurface),
+  STANDARD_TYPE(BRep_PointRepresentation),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(BRep_PointOnCurveOnSurface)
+IMPLEMENT_DOWNCAST(BRep_PointOnCurveOnSurface,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(BRep_PointOnCurveOnSurface)
 
 
 //=======================================================================

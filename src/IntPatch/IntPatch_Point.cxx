@@ -14,7 +14,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IntPatch_Point.ixx>
+#include <Adaptor3d_HVertex.hxx>
+#include <Adaptor2d_HCurve2d.hxx>
+#include <Standard_DomainError.hxx>
+#include <gp_Pnt.hxx>
+#include <IntSurf_Transition.hxx>
+#include <IntSurf_PntOn2S.hxx>
+#include <IntPatch_Point.hxx>
 
 #include <Standard_DomainError.hxx>
 #include <stdio.h>

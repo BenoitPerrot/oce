@@ -16,7 +16,17 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESAppli_LineWidening.ixx>
+#include <IGESAppli_LineWidening.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESAppli_LineWidening)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IGESData_IGESEntity),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESAppli_LineWidening)
+IMPLEMENT_DOWNCAST(IGESAppli_LineWidening,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESAppli_LineWidening)
 #include <IGESData_LevelListEntity.hxx>
 
 

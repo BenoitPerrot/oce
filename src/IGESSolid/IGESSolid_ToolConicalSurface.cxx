@@ -16,7 +16,19 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESSolid_ToolConicalSurface.ixx>
+#include <Standard_DomainError.hxx>
+#include <IGESSolid_ConicalSurface.hxx>
+#include <IGESData_IGESReaderData.hxx>
+#include <IGESData_ParamReader.hxx>
+#include <IGESData_IGESWriter.hxx>
+#include <Interface_EntityIterator.hxx>
+#include <IGESData_DirChecker.hxx>
+#include <Interface_ShareTool.hxx>
+#include <Interface_Check.hxx>
+#include <Interface_CopyTool.hxx>
+#include <IGESData_IGESDumper.hxx>
+#include <Message_Messenger.hxx>
+#include <IGESSolid_ToolConicalSurface.hxx>
 #include <IGESData_ParamCursor.hxx>
 #include <IGESGeom_Point.hxx>
 #include <IGESGeom_Direction.hxx>

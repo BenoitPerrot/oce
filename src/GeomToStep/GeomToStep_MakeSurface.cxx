@@ -14,7 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomToStep_MakeSurface.ixx>
+#include <StepGeom_Surface.hxx>
+#include <StdFail_NotDone.hxx>
+#include <Geom_Surface.hxx>
+#include <GeomToStep_MakeSurface.hxx>
 #include <StdFail_NotDone.hxx>
 #include <StepGeom_Surface.hxx>
 #include <GeomToStep_MakeSurface.hxx>

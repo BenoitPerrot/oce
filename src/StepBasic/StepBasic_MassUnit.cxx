@@ -15,7 +15,17 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
-#include <StepBasic_MassUnit.ixx>
+#include <StepBasic_MassUnit.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepBasic_MassUnit)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepBasic_NamedUnit),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepBasic_MassUnit)
+IMPLEMENT_DOWNCAST(StepBasic_MassUnit,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepBasic_MassUnit)
 
 //=======================================================================
 //function : StepBasic_MassUnit

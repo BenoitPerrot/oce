@@ -16,7 +16,12 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.0
 
-#include <RWStepAP203_RWCcDesignSecurityClassification.ixx>
+#include <StepData_StepReaderData.hxx>
+#include <Interface_Check.hxx>
+#include <StepAP203_CcDesignSecurityClassification.hxx>
+#include <StepData_StepWriter.hxx>
+#include <Interface_EntityIterator.hxx>
+#include <RWStepAP203_RWCcDesignSecurityClassification.hxx>
 #include <StepAP203_HArray1OfClassifiedItem.hxx>
 #include <StepAP203_ClassifiedItem.hxx>
 

@@ -13,7 +13,15 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <MeshVS_Tool.ixx>
+#include <Graphic3d_AspectFillArea3d.hxx>
+#include <MeshVS_Drawer.hxx>
+#include <Graphic3d_MaterialAspect.hxx>
+#include <Graphic3d_AspectLine3d.hxx>
+#include <Graphic3d_AspectMarker3d.hxx>
+#include <Graphic3d_AspectText3d.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <gp_Vec.hxx>
+#include <MeshVS_Tool.hxx>
 
 #include <MeshVS_DrawerAttribute.hxx>
 #include <Precision.hxx>

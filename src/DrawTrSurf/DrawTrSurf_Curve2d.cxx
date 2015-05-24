@@ -12,7 +12,22 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <DrawTrSurf_Curve2d.ixx>
+#include <Geom2d_Curve.hxx>
+#include <Draw_Color.hxx>
+#include <Draw_Display.hxx>
+#include <Draw_Drawable3D.hxx>
+#include <DrawTrSurf_Curve2d.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(DrawTrSurf_Curve2d)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(DrawTrSurf_Drawable),
+  STANDARD_TYPE(Draw_Drawable3D),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(DrawTrSurf_Curve2d)
+IMPLEMENT_DOWNCAST(DrawTrSurf_Curve2d,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(DrawTrSurf_Curve2d)
 #include <Geom2d_Curve.hxx>
 #include <Geom2d_OffsetCurve.hxx>
 #include <Geom2d_Line.hxx>

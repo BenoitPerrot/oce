@@ -14,7 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Geom2dGcc_FunctionTanCirCu.ixx>
+#include <gp_Circ2d.hxx>
+#include <Geom2dAdaptor_Curve.hxx>
+#include <Geom2dGcc_FunctionTanCirCu.hxx>
 
 #include <gp_Vec2d.hxx>
 #include <gp_Pnt2d.hxx>

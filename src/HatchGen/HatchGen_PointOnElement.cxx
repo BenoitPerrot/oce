@@ -15,7 +15,8 @@
 // commercial license or contractual agreement.
 
 #include <Standard_Stream.hxx>
-#include <HatchGen_PointOnElement.ixx>
+#include <IntRes2d_IntersectionPoint.hxx>
+#include <HatchGen_PointOnElement.hxx>
 
 //=======================================================================
 // Function : HatchGen_PointOnElement

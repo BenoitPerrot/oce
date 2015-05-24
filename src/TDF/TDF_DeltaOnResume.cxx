@@ -21,7 +21,18 @@
 
 
 
-#include <TDF_DeltaOnResume.ixx>
+#include <TDF_Attribute.hxx>
+#include <TDF_DeltaOnResume.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(TDF_DeltaOnResume)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(TDF_AttributeDelta),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(TDF_DeltaOnResume)
+IMPLEMENT_DOWNCAST(TDF_DeltaOnResume,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(TDF_DeltaOnResume)
 #include <TDF_Label.hxx>
 
 

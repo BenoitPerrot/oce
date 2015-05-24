@@ -18,7 +18,10 @@
 #define No_Standard_DimensionError
 //#endif
 
-#include <math_SVD.ixx>
+#include <StdFail_NotDone.hxx>
+#include <Standard_DimensionError.hxx>
+#include <math_Matrix.hxx>
+#include <math_SVD.hxx>
 #include <math_Recipes.hxx>
 
 

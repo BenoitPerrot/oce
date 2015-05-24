@@ -13,7 +13,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <XmlMXCAFDoc_ColorToolDriver.ixx>
+#include <CDM_MessageDriver.hxx>
+#include <TDF_Attribute.hxx>
+#include <XmlObjMgt_Persistent.hxx>
+#include <XmlMXCAFDoc_ColorToolDriver.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(XmlMXCAFDoc_ColorToolDriver)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(XmlMDF_ADriver),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(XmlMXCAFDoc_ColorToolDriver)
+IMPLEMENT_DOWNCAST(XmlMXCAFDoc_ColorToolDriver,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(XmlMXCAFDoc_ColorToolDriver)
 #include <XCAFDoc_ColorTool.hxx>
 
 //=======================================================================

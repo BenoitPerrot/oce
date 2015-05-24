@@ -14,7 +14,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <SelectMgr_Selection.ixx>
+#include <Standard_NullObject.hxx>
+#include <SelectBasics_SensitiveEntity.hxx>
+#include <SelectMgr_Selection.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(SelectMgr_Selection)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(SelectMgr_Selection)
+IMPLEMENT_DOWNCAST(SelectMgr_Selection,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(SelectMgr_Selection)
 
 
 //==================================================

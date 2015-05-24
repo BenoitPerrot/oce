@@ -14,7 +14,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopOpeBRepTool_CurveTool.ixx>
+#include <TopOpeBRepTool_GeomTool.hxx>
+#include <Geom_Curve.hxx>
+#include <Geom2d_Curve.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TColgp_Array1OfPnt.hxx>
+#include <TColgp_Array1OfPnt2d.hxx>
+#include <TopOpeBRepTool_CurveTool.hxx>
 
 #include <ProjLib_ProjectedCurve.hxx>
 #include <BRepApprox_Approx.hxx>

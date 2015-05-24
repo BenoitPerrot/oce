@@ -14,7 +14,25 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <ShapeFix_Shape.ixx>
+#include <ShapeFix_Solid.hxx>
+#include <TopoDS_Shape.hxx>
+#include <Message_ProgressIndicator.hxx>
+#include <ShapeFix_Shell.hxx>
+#include <ShapeFix_Face.hxx>
+#include <ShapeFix_Wire.hxx>
+#include <ShapeFix_Edge.hxx>
+#include <ShapeExtend_BasicMsgRegistrator.hxx>
+#include <ShapeFix_Shape.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(ShapeFix_Shape)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(ShapeFix_Root),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(ShapeFix_Shape)
+IMPLEMENT_DOWNCAST(ShapeFix_Shape,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(ShapeFix_Shape)
 
 #include <Precision.hxx>
 

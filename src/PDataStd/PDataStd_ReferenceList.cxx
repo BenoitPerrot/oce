@@ -13,7 +13,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PDataStd_ReferenceList.ixx>
+#include <PCollection_HExtendedString.hxx>
+#include <PColStd_HArray1OfExtendedString.hxx>
+#include <PDataStd_ReferenceList.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(PDataStd_ReferenceList)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(PDF_Attribute),
+  STANDARD_TYPE(Standard_Persistent),
+  STANDARD_TYPE(Standard_Storable),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(PDataStd_ReferenceList)
+IMPLEMENT_DOWNCAST(PDataStd_ReferenceList,Standard_Persistent)
+IMPLEMENT_STANDARD_RTTI(PDataStd_ReferenceList)
 
 //=======================================================================
 //function : PDataStd_ReferenceList

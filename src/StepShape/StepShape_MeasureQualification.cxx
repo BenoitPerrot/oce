@@ -11,7 +11,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepShape_MeasureQualification.ixx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepBasic_MeasureWithUnit.hxx>
+#include <StepShape_HArray1OfValueQualifier.hxx>
+#include <StepShape_ValueQualifier.hxx>
+#include <StepShape_MeasureQualification.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepShape_MeasureQualification)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepShape_MeasureQualification)
+IMPLEMENT_DOWNCAST(StepShape_MeasureQualification,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepShape_MeasureQualification)
 
 StepShape_MeasureQualification::StepShape_MeasureQualification  ()    {  }
 

@@ -12,7 +12,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GProp_GProps.ixx>
+#include <Standard_DomainError.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Mat.hxx>
+#include <gp_Ax1.hxx>
+#include <GProp_PrincipalProps.hxx>
+#include <GProp_GProps.hxx>
 #include <GProp.hxx>
 #include <math_Jacobi.hxx>
 #include <gp.hxx>

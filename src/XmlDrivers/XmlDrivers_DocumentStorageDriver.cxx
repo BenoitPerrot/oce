@@ -13,7 +13,21 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <XmlDrivers_DocumentStorageDriver.ixx>
+#include <TCollection_ExtendedString.hxx>
+#include <XmlMDF_ADriverTable.hxx>
+#include <CDM_MessageDriver.hxx>
+#include <XmlDrivers_DocumentStorageDriver.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(XmlDrivers_DocumentStorageDriver)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(XmlLDrivers_DocumentStorageDriver),
+  STANDARD_TYPE(PCDM_StorageDriver),
+  STANDARD_TYPE(PCDM_Writer),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(XmlDrivers_DocumentStorageDriver)
+IMPLEMENT_DOWNCAST(XmlDrivers_DocumentStorageDriver,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(XmlDrivers_DocumentStorageDriver)
 #include <XmlDrivers.hxx>
 #include <XmlMNaming_NamedShapeDriver.hxx>
 #include <TNaming_NamedShape.hxx>

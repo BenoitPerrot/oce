@@ -12,7 +12,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PrsMgr_ModedPresentation.ixx>
+#include <PrsMgr_Presentation.hxx>
+#include <PrsMgr_ModedPresentation.hxx>
 
 PrsMgr_ModedPresentation::PrsMgr_ModedPresentation()
 : myMode (0) {}

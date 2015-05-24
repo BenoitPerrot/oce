@@ -12,7 +12,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BOPAlgo_Section.ixx>
+#include <BOPAlgo_PaveFiller.hxx>
+#include <TopTools_ListOfShape.hxx>
+#include <TopoDS_Shape.hxx>
+#include <BOPAlgo_Section.hxx>
 
 #include <NCollection_IncAllocator.hxx>
 

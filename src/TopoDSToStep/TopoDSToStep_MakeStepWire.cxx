@@ -16,7 +16,12 @@
 
 //szv#4 S4163
 
-#include <TopoDSToStep_MakeStepWire.ixx>
+#include <StepShape_TopologicalRepresentationItem.hxx>
+#include <StdFail_NotDone.hxx>
+#include <TopoDS_Wire.hxx>
+#include <TopoDSToStep_Tool.hxx>
+#include <Transfer_FinderProcess.hxx>
+#include <TopoDSToStep_MakeStepWire.hxx>
 
 #include <TopoDSToStep_MakeStepVertex.hxx>
 #include <TopoDSToStep_MakeStepEdge.hxx>

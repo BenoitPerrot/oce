@@ -16,7 +16,21 @@
 
 // pmn -> 17/01/1996 added : Continuity, (Nb)Intervals, D2, Trim
 
-#include <Law_Composite.ixx>
+#include <Law_Function.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <Law_Laws.hxx>
+#include <Law_Composite.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Law_Composite)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Law_Function),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Law_Composite)
+IMPLEMENT_DOWNCAST(Law_Composite,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Law_Composite)
 #include <ElCLib.hxx>
 #include <Law_ListIteratorOfLaws.hxx>
 #include <Law_Laws.hxx>

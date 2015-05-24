@@ -14,7 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <DsgPrs_XYZPlanePresentation.ixx>
+#include <Prs3d_Presentation.hxx>
+#include <Prs3d_Drawer.hxx>
+#include <gp_Pnt.hxx>
+#include <DsgPrs_XYZPlanePresentation.hxx>
 #include <Prs3d_Root.hxx>
 #include <Prs3d_PlaneAspect.hxx>
 #include <Prs3d_LineAspect.hxx>

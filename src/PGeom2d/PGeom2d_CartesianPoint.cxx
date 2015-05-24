@@ -14,7 +14,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PGeom2d_CartesianPoint.ixx>
+#include <gp_Pnt2d.hxx>
+#include <PGeom2d_CartesianPoint.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(PGeom2d_CartesianPoint)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(PGeom2d_Point),
+  STANDARD_TYPE(PGeom2d_Geometry),
+  STANDARD_TYPE(Standard_Persistent),
+  STANDARD_TYPE(Standard_Storable),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(PGeom2d_CartesianPoint)
+IMPLEMENT_DOWNCAST(PGeom2d_CartesianPoint,Standard_Persistent)
+IMPLEMENT_STANDARD_RTTI(PGeom2d_CartesianPoint)
 
 //=======================================================================
 //function : PGeom2d_CartesianPoint

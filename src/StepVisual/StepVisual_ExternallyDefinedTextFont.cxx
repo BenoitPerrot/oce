@@ -15,7 +15,17 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.1
 
-#include <StepVisual_ExternallyDefinedTextFont.ixx>
+#include <StepVisual_ExternallyDefinedTextFont.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepVisual_ExternallyDefinedTextFont)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepBasic_ExternallyDefinedItem),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepVisual_ExternallyDefinedTextFont)
+IMPLEMENT_DOWNCAST(StepVisual_ExternallyDefinedTextFont,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepVisual_ExternallyDefinedTextFont)
 
 //=======================================================================
 //function : StepVisual_ExternallyDefinedTextFont

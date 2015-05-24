@@ -18,7 +18,12 @@
 //   CREATION of the BISSECTICE between a CIRCLE and a STRAIGHT LINE.             +
 //=========================================================================
 
-#include <GccAna_CircLin2dBisec.ixx>
+#include <Standard_OutOfRange.hxx>
+#include <StdFail_NotDone.hxx>
+#include <gp_Circ2d.hxx>
+#include <gp_Lin2d.hxx>
+#include <GccInt_Bisec.hxx>
+#include <GccAna_CircLin2dBisec.hxx>
 
 #include <gp_XY.hxx>
 #include <gp_Dir2d.hxx>

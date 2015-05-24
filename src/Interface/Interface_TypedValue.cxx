@@ -11,7 +11,23 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Interface_TypedValue.ixx>
+#include <Standard_Type.hxx>
+#include <TColStd_HArray1OfAsciiString.hxx>
+#include <Dico_DictionaryOfInteger.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <Standard_Transient.hxx>
+#include <Interface_InterfaceError.hxx>
+#include <Interface_TypedValue.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Interface_TypedValue)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MoniTool_TypedValue),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Interface_TypedValue)
+IMPLEMENT_DOWNCAST(Interface_TypedValue,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Interface_TypedValue)
 
 #include <Dico_DictionaryOfInteger.hxx>
 #include <Dico_IteratorOfDictionaryOfInteger.hxx>

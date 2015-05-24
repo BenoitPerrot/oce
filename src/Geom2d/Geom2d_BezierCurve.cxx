@@ -27,7 +27,31 @@
 #define No_Standard_OutOfRange
 #define No_Standard_DimensionError
 
-#include <Geom2d_BezierCurve.ixx>
+#include <TColgp_HArray1OfPnt2d.hxx>
+#include <TColStd_HArray1OfReal.hxx>
+#include <Standard_ConstructionError.hxx>
+#include <Standard_DimensionError.hxx>
+#include <Standard_RangeError.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <TColgp_Array1OfPnt2d.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <gp_Pnt2d.hxx>
+#include <gp_Vec2d.hxx>
+#include <gp_Trsf2d.hxx>
+#include <Geom2d_Geometry.hxx>
+#include <Geom2d_BezierCurve.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Geom2d_BezierCurve)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Geom2d_BoundedCurve),
+  STANDARD_TYPE(Geom2d_Curve),
+  STANDARD_TYPE(Geom2d_Geometry),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Geom2d_BezierCurve)
+IMPLEMENT_DOWNCAST(Geom2d_BezierCurve,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Geom2d_BezierCurve)
 #include <PLib.hxx>
 #include <BSplCLib.hxx>
 #include <gp.hxx>

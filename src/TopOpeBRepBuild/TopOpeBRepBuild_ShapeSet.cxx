@@ -14,7 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopOpeBRepBuild_ShapeSet.ixx>
+#include <TopoDS_Shape.hxx>
+#include <TopTools_ListOfShape.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <TopOpeBRepBuild_ShapeSet.hxx>
 #include <TopOpeBRepBuild_define.hxx>
 #include <Standard_ProgramError.hxx>
 #include <BRepCheck_Analyzer.hxx>

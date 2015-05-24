@@ -14,7 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepToGeom_MakeToroidalSurface.ixx>
+#include <StepGeom_ToroidalSurface.hxx>
+#include <Geom_ToroidalSurface.hxx>
+#include <StepToGeom_MakeToroidalSurface.hxx>
 #include <StepGeom_ToroidalSurface.hxx>
 #include <StepGeom_Axis2Placement3d.hxx>
 #include <StepToGeom_MakeAxis2Placement.hxx>

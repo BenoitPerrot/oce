@@ -21,7 +21,14 @@
 // pmn  07-10-96 : Correction de DN dans le cas rationnal.
 // pmn  06-02-97 : Correction des poids dans RationalDerivative. (PRO700)
 
-#include <BSplSLib.ixx>
+#include <TColgp_Array2OfPnt.hxx>
+#include <TColStd_Array2OfReal.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <TColStd_Array1OfInteger.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Vec.hxx>
+#include <TColgp_Array1OfPnt.hxx>
+#include <BSplSLib.hxx>
 #include <PLib.hxx>
 #include <NCollection_LocalArray.hxx>
 #include <BSplCLib.hxx>

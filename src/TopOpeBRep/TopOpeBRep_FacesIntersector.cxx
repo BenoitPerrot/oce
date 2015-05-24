@@ -14,7 +14,14 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopOpeBRep_FacesIntersector.ixx>
+#include <TopOpeBRep_HArray1OfLineInter.hxx>
+#include <BRepAdaptor_HSurface.hxx>
+#include <BRepTopAdaptor_TopolTool.hxx>
+#include <TopoDS_Shape.hxx>
+#include <Bnd_Box.hxx>
+#include <TopTools_IndexedMapOfShape.hxx>
+#include <TopOpeBRep_LineInter.hxx>
+#include <TopOpeBRep_FacesIntersector.hxx>
 
 #ifdef DRAW
 #include <TopOpeBRep_DRAW.hxx>

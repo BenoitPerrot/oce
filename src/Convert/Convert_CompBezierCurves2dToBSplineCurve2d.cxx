@@ -14,7 +14,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Convert_CompBezierCurves2dToBSplineCurve2d.ixx>
+#include <Standard_ConstructionError.hxx>
+#include <TColgp_Array1OfPnt2d.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <TColStd_Array1OfInteger.hxx>
+#include <Convert_CompBezierCurves2dToBSplineCurve2d.hxx>
 
 #include <Precision.hxx>
 #include <BSplCLib.hxx>

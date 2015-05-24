@@ -14,7 +14,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <DsgPrs_IdenticPresentation.ixx>
+#include <Prs3d_Presentation.hxx>
+#include <Prs3d_Drawer.hxx>
+#include <TCollection_ExtendedString.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Ax2.hxx>
+#include <gp_Elips.hxx>
+#include <DsgPrs_IdenticPresentation.hxx>
 
 #include <Graphic3d_Group.hxx>
 #include <Graphic3d_ArrayOfSegments.hxx>

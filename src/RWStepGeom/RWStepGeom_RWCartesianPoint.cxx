@@ -11,7 +11,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <RWStepGeom_RWCartesianPoint.ixx>
+#include <StepData_StepReaderData.hxx>
+#include <Interface_Check.hxx>
+#include <StepGeom_CartesianPoint.hxx>
+#include <StepData_StepWriter.hxx>
+#include <RWStepGeom_RWCartesianPoint.hxx>
 //#include <TColStd_HArray1OfReal.hxx>
 #include <TCollection_HAsciiString.hxx>
 

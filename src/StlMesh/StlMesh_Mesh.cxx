@@ -16,7 +16,22 @@
 
 //=======================================================================
 
-#include <StlMesh_Mesh.ixx>
+#include <Standard_NegativeValue.hxx>
+#include <Standard_NullValue.hxx>
+#include <Standard_NoSuchObject.hxx>
+#include <gp_XYZ.hxx>
+#include <StlMesh_SequenceOfMeshTriangle.hxx>
+#include <TColgp_SequenceOfXYZ.hxx>
+#include <StlMesh_Mesh.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StlMesh_Mesh)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StlMesh_Mesh)
+IMPLEMENT_DOWNCAST(StlMesh_Mesh,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StlMesh_Mesh)
 #include <StlMesh_MeshDomain.hxx>
 #include <Precision.hxx>
 

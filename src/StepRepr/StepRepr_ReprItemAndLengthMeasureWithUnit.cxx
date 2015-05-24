@@ -11,7 +11,21 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepRepr_ReprItemAndLengthMeasureWithUnit.ixx>
+#include <StepBasic_LengthMeasureWithUnit.hxx>
+#include <StepRepr_MeasureRepresentationItem.hxx>
+#include <StepBasic_MeasureWithUnit.hxx>
+#include <StepRepr_RepresentationItem.hxx>
+#include <StepRepr_ReprItemAndLengthMeasureWithUnit.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepRepr_ReprItemAndLengthMeasureWithUnit)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepRepr_RepresentationItem),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepRepr_ReprItemAndLengthMeasureWithUnit)
+IMPLEMENT_DOWNCAST(StepRepr_ReprItemAndLengthMeasureWithUnit,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepRepr_ReprItemAndLengthMeasureWithUnit)
 
 
 //=======================================================================

@@ -16,7 +16,21 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESGraph_LineFontDefPattern.ixx>
+#include <TColStd_HArray1OfReal.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <IGESGraph_LineFontDefPattern.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESGraph_LineFontDefPattern)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IGESData_LineFontEntity),
+  STANDARD_TYPE(IGESData_IGESEntity),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESGraph_LineFontDefPattern)
+IMPLEMENT_DOWNCAST(IGESGraph_LineFontDefPattern,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESGraph_LineFontDefPattern)
 #include <Standard_DimensionMismatch.hxx>
 
 

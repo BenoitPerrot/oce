@@ -15,7 +15,27 @@
 // commercial license or contractual agreement.
 
 
-#include <BRepFill_LocationLaw.ixx>
+#include <GeomFill_HArray1OfLocationLaw.hxx>
+#include <TColStd_HArray1OfReal.hxx>
+#include <TopTools_HArray1OfShape.hxx>
+#include <TColStd_HArray1OfInteger.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <TopoDS_Wire.hxx>
+#include <TColStd_Array1OfInteger.hxx>
+#include <GeomFill_LocationLaw.hxx>
+#include <TopoDS_Edge.hxx>
+#include <TopoDS_Vertex.hxx>
+#include <TopoDS_Shape.hxx>
+#include <BRepFill_LocationLaw.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(BRepFill_LocationLaw)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(BRepFill_LocationLaw)
+IMPLEMENT_DOWNCAST(BRepFill_LocationLaw,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(BRepFill_LocationLaw)
 
 #include <BRepTools_WireExplorer.hxx>
 #include <BRep_Tool.hxx>

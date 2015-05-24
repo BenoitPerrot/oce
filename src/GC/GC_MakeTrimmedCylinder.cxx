@@ -14,7 +14,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GC_MakeTrimmedCylinder.ixx>
+#include <Geom_RectangularTrimmedSurface.hxx>
+#include <StdFail_NotDone.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Circ.hxx>
+#include <gp_Ax1.hxx>
+#include <gp_Cylinder.hxx>
+#include <GC_MakeTrimmedCylinder.hxx>
 #include <GC_MakeCylindricalSurface.hxx>
 #include <StdFail_NotDone.hxx>
 #include <Standard_NotImplemented.hxx>

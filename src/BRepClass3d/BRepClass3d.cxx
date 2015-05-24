@@ -19,7 +19,9 @@
 // Author:	
 //		<pkv@PETREX>
 
-#include <BRepClass3d.ixx>
+#include <TopoDS_Shell.hxx>
+#include <TopoDS_Solid.hxx>
+#include <BRepClass3d.hxx>
 
 
 #include <TopAbs_State.hxx>

@@ -12,8 +12,32 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Storage_Data.ixx>
+#include <Standard_Persistent.hxx>
+#include <Standard_Type.hxx>
+#include <Storage_Data.hxx>
+#include <Storage_HeaderData.hxx>
+#include <Storage_HSeqOfRoot.hxx>
+#include <Storage_InternalData.hxx>
 #include <Storage_Root.hxx>
+#include <Storage_RootData.hxx>
+#include <Storage_Schema.hxx>
+#include <Storage_TypeData.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <TCollection_ExtendedString.hxx>
+#include <TColStd_SequenceOfAsciiString.hxx>
+#include <TColStd_SequenceOfExtendedString.hxx>
+#include <TColStd_HSequenceOfAsciiString.hxx>
+
+IMPLEMENT_STANDARD_TYPE(Storage_Data)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Storage_Data)
+
+IMPLEMENT_DOWNCAST(Storage_Data,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Storage_Data)
 
 Storage_Data::Storage_Data()
 {

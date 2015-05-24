@@ -14,11 +14,29 @@
 
 //Modified: C. LEYNADIER Nov,21 1997 (Token et ChangeString)
 
-#include <TCollection_AsciiString.hxx>
-#include <TCollection_HExtendedString.ixx>
-#include <TCollection_HAsciiString.hxx>
 #include <Standard_ExtCharacter.hxx>
 #include <Standard_ExtString.hxx>
+#include <Standard_NullObject.hxx>
+#include <Standard_NumericError.hxx>
+#include <Standard_NegativeValue.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Standard_Type.hxx>
+
+#include <TCollection_AsciiString.hxx>
+#include <TCollection_ExtendedString.hxx>
+#include <TCollection_HExtendedString.hxx>
+#include <TCollection_HAsciiString.hxx>
+
+IMPLEMENT_STANDARD_TYPE(TCollection_HExtendedString)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(TCollection_HExtendedString)
+
+IMPLEMENT_DOWNCAST(TCollection_HExtendedString,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(TCollection_HExtendedString)
 
 // ----------------------------------------------------------------------------
 // Create

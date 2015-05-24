@@ -16,7 +16,12 @@
 
 //:   gka 09.04.99: S4136: eliminate BRepAPI::Precision()
 
-#include <StepToTopoDS_TranslateVertex.ixx>
+#include <StdFail_NotDone.hxx>
+#include <StepShape_Vertex.hxx>
+#include <StepToTopoDS_Tool.hxx>
+#include <StepToTopoDS_NMTool.hxx>
+#include <TopoDS_Shape.hxx>
+#include <StepToTopoDS_TranslateVertex.hxx>
 #include <StepToGeom_MakeCartesianPoint.hxx>
 #include <TopoDS.hxx>
 

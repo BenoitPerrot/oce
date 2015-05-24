@@ -13,7 +13,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PXCAFDoc_DimTolTool.ixx>
+#include <PXCAFDoc_DimTolTool.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(PXCAFDoc_DimTolTool)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(PDF_Attribute),
+  STANDARD_TYPE(Standard_Persistent),
+  STANDARD_TYPE(Standard_Storable),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(PXCAFDoc_DimTolTool)
+IMPLEMENT_DOWNCAST(PXCAFDoc_DimTolTool,Standard_Persistent)
+IMPLEMENT_STANDARD_RTTI(PXCAFDoc_DimTolTool)
 
 //=======================================================================
 //function : PXCAFDoc_DimTolTool

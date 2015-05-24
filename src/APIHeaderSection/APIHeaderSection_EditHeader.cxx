@@ -11,7 +11,22 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <APIHeaderSection_EditHeader.ixx>
+#include <TCollection_AsciiString.hxx>
+#include <IFSelect_EditForm.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <Standard_Transient.hxx>
+#include <Interface_InterfaceModel.hxx>
+#include <APIHeaderSection_EditHeader.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(APIHeaderSection_EditHeader)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IFSelect_Editor),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(APIHeaderSection_EditHeader)
+IMPLEMENT_DOWNCAST(APIHeaderSection_EditHeader,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(APIHeaderSection_EditHeader)
 #include <Interface_TypedValue.hxx>
 
 #include <APIHeaderSection_MakeHeader.hxx>

@@ -15,7 +15,31 @@
 //svv#1 11.01.00 : porting on DEC
 //svv#2 21.02.00 : porting on SIL
 //smh#14 17.03.2000 : FRA62479 Clearing of gtool.
-#include <Interface_InterfaceModel.ixx>
+#include <Interface_Check.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <Interface_GTool.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Standard_NoSuchObject.hxx>
+#include <Interface_InterfaceMismatch.hxx>
+#include <Interface_Protocol.hxx>
+#include <Standard_Transient.hxx>
+#include <Standard_Type.hxx>
+#include <Interface_ReportEntity.hxx>
+#include <Interface_CheckIterator.hxx>
+#include <Interface_GeneralLib.hxx>
+#include <Interface_EntityIterator.hxx>
+#include <Message_Messenger.hxx>
+#include <TColStd_HSequenceOfHAsciiString.hxx>
+#include <Interface_InterfaceModel.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Interface_InterfaceModel)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Interface_InterfaceModel)
+IMPLEMENT_DOWNCAST(Interface_InterfaceModel,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Interface_InterfaceModel)
 #include <Interface_GeneralModule.hxx>
 #include <TColStd_Array1OfTransient.hxx>
 #include <TColStd_Array1OfInteger.hxx>

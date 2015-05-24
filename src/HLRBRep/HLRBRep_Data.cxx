@@ -18,7 +18,29 @@
 
 #define OCC191 // jfa 26/02/2002 Bug of cone display
 
-#include <HLRBRep_Data.ixx>
+#include <BRepTopAdaptor_TopolTool.hxx>
+#include <StdFail_UndefinedDerivative.hxx>
+#include <HLRBRep_Array1OfEData.hxx>
+#include <HLRBRep_Array1OfFData.hxx>
+#include <HLRAlgo_Projector.hxx>
+#include <TopTools_IndexedMapOfShape.hxx>
+#include <BRepTopAdaptor_MapOfShapeTool.hxx>
+#include <HLRAlgo_Interference.hxx>
+#include <gp_Dir2d.hxx>
+#include <HLRBRep_EdgeData.hxx>
+#include <HLRAlgo_InterferenceList.hxx>
+#include <HLRBRep_FaceData.hxx>
+#include <IntRes2d_IntersectionPoint.hxx>
+#include <HLRBRep_Data.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(HLRBRep_Data)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(HLRBRep_Data)
+IMPLEMENT_DOWNCAST(HLRBRep_Data,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(HLRBRep_Data)
 
 #include <StdFail_UndefinedDerivative.hxx>
 #include <Precision.hxx>

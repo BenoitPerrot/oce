@@ -13,7 +13,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepFill_TrimShellCorner.ixx>
+#include <TopTools_HArray2OfShape.hxx>
+#include <gp_Ax2.hxx>
+#include <TopoDS_Face.hxx>
+#include <TopoDS_Wire.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopTools_ListOfShape.hxx>
+#include <BRepFill_TrimShellCorner.hxx>
 
 #include <BRepAlgoAPI_Section.hxx>
 #include <BRep_Builder.hxx>

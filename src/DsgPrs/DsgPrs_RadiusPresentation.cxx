@@ -17,7 +17,12 @@
 //modified      20-feb-98 by <SZY>
 //              Sergei Zaritchny
 
-#include <DsgPrs_RadiusPresentation.ixx>
+#include <Prs3d_Presentation.hxx>
+#include <Prs3d_Drawer.hxx>
+#include <TCollection_ExtendedString.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Circ.hxx>
+#include <DsgPrs_RadiusPresentation.hxx>
 #include <gp_Lin.hxx>
 #include <gp_Dir.hxx>
 #include <gp_Circ.hxx>

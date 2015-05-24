@@ -14,7 +14,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <DrawTrSurf_Polygon3D.ixx>
+#include <Poly_Polygon3D.hxx>
+#include <Draw_Display.hxx>
+#include <Draw_Drawable3D.hxx>
+#include <DrawTrSurf_Polygon3D.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(DrawTrSurf_Polygon3D)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Draw_Drawable3D),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(DrawTrSurf_Polygon3D)
+IMPLEMENT_DOWNCAST(DrawTrSurf_Polygon3D,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(DrawTrSurf_Polygon3D)
 #include <Poly.hxx>
 #include <Draw_Color.hxx>
 #include <Draw_MarkerShape.hxx>

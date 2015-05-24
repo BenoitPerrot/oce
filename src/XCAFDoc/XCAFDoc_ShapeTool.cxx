@@ -13,7 +13,28 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <XCAFDoc_ShapeTool.ixx>
+#include <Standard_GUID.hxx>
+#include <TDF_Label.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TDF_LabelSequence.hxx>
+#include <TopLoc_Location.hxx>
+#include <TDF_Attribute.hxx>
+#include <TDF_RelocationTable.hxx>
+#include <TColStd_SequenceOfHAsciiString.hxx>
+#include <XCAFDoc_GraphNode.hxx>
+#include <TDF_AttributeSequence.hxx>
+#include <TopTools_SequenceOfShape.hxx>
+#include <XCAFDoc_ShapeTool.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(XCAFDoc_ShapeTool)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(TDF_Attribute),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(XCAFDoc_ShapeTool)
+IMPLEMENT_DOWNCAST(XCAFDoc_ShapeTool,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(XCAFDoc_ShapeTool)
 #include <XCAFDoc.hxx>
 
 #include <TDF_Tool.hxx>

@@ -17,7 +17,19 @@
 #ifndef No_Exception
 //#define No_Exception
 #endif
-#include <HLRAlgo_PolyAlgo.ixx>
+#include <TColStd_HArray1OfTransient.hxx>
+#include <TColStd_Array1OfTransient.hxx>
+#include <HLRAlgo_EdgeStatus.hxx>
+#include <HLRAlgo_PolyAlgo.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(HLRAlgo_PolyAlgo)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(HLRAlgo_PolyAlgo)
+IMPLEMENT_DOWNCAST(HLRAlgo_PolyAlgo,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(HLRAlgo_PolyAlgo)
 #include <HLRAlgo_PolyShellData.hxx>
 #include <HLRAlgo_PolyData.hxx>
 #include <HLRAlgo_ListOfBPoint.hxx>

@@ -16,7 +16,25 @@
 // Creted:	Tue Jun 23 15:39:24 1998
 
 
-#include <GeomFill_GuideTrihedronAC.ixx>
+#include <Approx_CurvlinFunc.hxx>
+#include <Adaptor3d_HCurve.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Standard_ConstructionError.hxx>
+#include <GeomFill_TrihedronLaw.hxx>
+#include <gp_Vec.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <GeomFill_GuideTrihedronAC.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(GeomFill_GuideTrihedronAC)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(GeomFill_TrihedronWithGuide),
+  STANDARD_TYPE(GeomFill_TrihedronLaw),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(GeomFill_GuideTrihedronAC)
+IMPLEMENT_DOWNCAST(GeomFill_GuideTrihedronAC,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(GeomFill_GuideTrihedronAC)
 
 #include <gp_Pnt.hxx>
 #include <gp_Dir.hxx>

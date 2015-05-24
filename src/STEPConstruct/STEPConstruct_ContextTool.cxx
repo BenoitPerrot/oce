@@ -16,7 +16,15 @@
 
 // :j4 16.03.99 gka S4134
 // abv 18.11.99 renamed from StepPDR_ContextTool
-#include <STEPConstruct_ContextTool.ixx>
+#include <StepBasic_ApplicationProtocolDefinition.hxx>
+#include <StepGeom_Axis2Placement3d.hxx>
+#include <StepData_StepModel.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <STEPConstruct_AP203Context.hxx>
+#include <TColStd_HSequenceOfTransient.hxx>
+#include <STEPConstruct_Part.hxx>
+#include <STEPConstruct_Assembly.hxx>
+#include <STEPConstruct_ContextTool.hxx>
 #include <StepData_StepModel.hxx>
 
 #include <Interface_Macros.hxx>

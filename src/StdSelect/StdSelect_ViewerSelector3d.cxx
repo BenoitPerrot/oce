@@ -14,7 +14,25 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StdSelect_ViewerSelector3d.ixx>
+#include <Select3D_Projector.hxx>
+#include <Graphic3d_Group.hxx>
+#include <Graphic3d_Structure.hxx>
+#include <SelectMgr_Selection.hxx>
+#include <V3d_View.hxx>
+#include <TColgp_Array1OfPnt2d.hxx>
+#include <gp_Lin.hxx>
+#include <SelectMgr_EntityOwner.hxx>
+#include <StdSelect_ViewerSelector3d.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StdSelect_ViewerSelector3d)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(SelectMgr_ViewerSelector),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StdSelect_ViewerSelector3d)
+IMPLEMENT_DOWNCAST(StdSelect_ViewerSelector3d,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StdSelect_ViewerSelector3d)
 #include <StdSelect.hxx>
 #include <SelectBasics_SensitiveEntity.hxx>
 #include <Graphic3d_AspectLine3d.hxx>

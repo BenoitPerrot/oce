@@ -18,7 +18,23 @@
 #define No_Standard_OutOfRange
 #define No_Standard_DimensionError
 
-#include <FEmTool_ProfileMatrix.ixx>
+#include <TColStd_HArray1OfReal.hxx>
+#include <TColStd_HArray1OfInteger.hxx>
+#include <StdFail_NotDone.hxx>
+#include <Standard_NotImplemented.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <TColStd_Array1OfInteger.hxx>
+#include <FEmTool_ProfileMatrix.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(FEmTool_ProfileMatrix)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(FEmTool_SparseMatrix),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(FEmTool_ProfileMatrix)
+IMPLEMENT_DOWNCAST(FEmTool_ProfileMatrix,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(FEmTool_ProfileMatrix)
 #include <gp.hxx>
 
 

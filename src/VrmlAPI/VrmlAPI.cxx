@@ -13,7 +13,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <VrmlAPI.ixx>
+#include <TopoDS_Shape.hxx>
+#include <VrmlAPI.hxx>
 #include <VrmlAPI_Writer.hxx>
 #include <TopoDS_Shape.hxx>
 

@@ -14,7 +14,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <AdvApp2Var_Node.ixx>
+#include <TColgp_HArray2OfPnt.hxx>
+#include <TColStd_HArray2OfReal.hxx>
+#include <gp_XY.hxx>
+#include <gp_Pnt.hxx>
+#include <AdvApp2Var_Node.hxx>
 #include <TColgp_HArray2OfPnt.hxx>
 #include <TColStd_HArray2OfReal.hxx>
 

@@ -17,7 +17,9 @@
 //:p0 abv 19.02.99: management of 'done' flag improved
 //:p3 abv 23.02.99: bm4_id_punch_d.stp #1313: shift of parameters on ellipse with R1 < R2
 
-#include <StepToGeom_MakeTrimmedCurve2d.ixx>
+#include <StepGeom_TrimmedCurve.hxx>
+#include <Geom2d_BSplineCurve.hxx>
+#include <StepToGeom_MakeTrimmedCurve2d.hxx>
 #include <gp_Pnt2d.hxx>
 #include <Geom2dConvert.hxx>
 #include <Geom2d_CartesianPoint.hxx>

@@ -14,7 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <HLRBRep.ixx>
+#include <TopoDS_Edge.hxx>
+#include <HLRBRep_Curve.hxx>
+#include <HLRBRep.hxx>
 #include <BRepLib_MakeEdge2d.hxx>
 #include <Geom2d_BezierCurve.hxx>
 #include <Geom2d_BSplineCurve.hxx>

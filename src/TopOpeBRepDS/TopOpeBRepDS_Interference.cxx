@@ -17,7 +17,18 @@
 #include <TCollection_AsciiString.hxx>
 #include <TopOpeBRepDS.hxx>
 #include <TopAbs.hxx>
-#include <TopOpeBRepDS_Interference.ixx>
+#include <TopOpeBRepDS_Transition.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <TopOpeBRepDS_Interference.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(TopOpeBRepDS_Interference)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(TopOpeBRepDS_Interference)
+IMPLEMENT_DOWNCAST(TopOpeBRepDS_Interference,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(TopOpeBRepDS_Interference)
 
 
 //=======================================================================

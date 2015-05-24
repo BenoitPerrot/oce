@@ -14,7 +14,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StdPrs_HLRPolyShape.ixx>
+#include <Prs3d_Presentation.hxx>
+#include <TopoDS_Shape.hxx>
+#include <Prs3d_Drawer.hxx>
+#include <Prs3d_Projector.hxx>
+#include <StdPrs_HLRPolyShape.hxx>
 
 #include <StdPrs_WFShape.hxx>
 #include <TopAbs.hxx>

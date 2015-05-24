@@ -15,7 +15,18 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
-#include <StepFEA_CurveElementEndRelease.ixx>
+#include <StepElement_HArray1OfCurveElementEndReleasePacket.hxx>
+#include <StepFEA_CurveElementEndCoordinateSystem.hxx>
+#include <StepFEA_CurveElementEndRelease.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepFEA_CurveElementEndRelease)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepFEA_CurveElementEndRelease)
+IMPLEMENT_DOWNCAST(StepFEA_CurveElementEndRelease,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepFEA_CurveElementEndRelease)
 
 //=======================================================================
 //function : StepFEA_CurveElementEndRelease

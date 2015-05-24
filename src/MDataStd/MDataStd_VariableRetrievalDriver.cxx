@@ -14,7 +14,22 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <MDataStd_VariableRetrievalDriver.ixx>
+#include <CDM_MessageDriver.hxx>
+#include <Standard_Type.hxx>
+#include <TDF_Attribute.hxx>
+#include <PDF_Attribute.hxx>
+#include <MDF_RRelocationTable.hxx>
+#include <MDataStd_VariableRetrievalDriver.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(MDataStd_VariableRetrievalDriver)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MDF_ARDriver),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(MDataStd_VariableRetrievalDriver)
+IMPLEMENT_DOWNCAST(MDataStd_VariableRetrievalDriver,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(MDataStd_VariableRetrievalDriver)
 #include <TDataStd_Variable.hxx>
 #include <PDataStd_Variable.hxx>
 #include <MDataStd.hxx>

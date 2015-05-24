@@ -13,7 +13,24 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Voxel_Prs.ixx>
+#include <Poly_Triangulation.hxx>
+#include <Quantity_Color.hxx>
+#include <Quantity_HArray1OfColor.hxx>
+#include <Prs3d_Presentation.hxx>
+#include <SelectMgr_Selection.hxx>
+#include <Voxel_Prs.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Voxel_Prs)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(AIS_InteractiveObject),
+  STANDARD_TYPE(SelectMgr_SelectableObject),
+  STANDARD_TYPE(PrsMgr_PresentableObject),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Voxel_Prs)
+IMPLEMENT_DOWNCAST(Voxel_Prs,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Voxel_Prs)
 #include "Voxel_VisData.h"
 
 #include <Prs3d_Root.hxx>

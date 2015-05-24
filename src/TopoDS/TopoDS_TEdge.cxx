@@ -14,7 +14,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopoDS_TEdge.ixx>
+#include <TopoDS_TEdge.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(TopoDS_TEdge)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(TopoDS_TShape),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(TopoDS_TEdge)
+IMPLEMENT_DOWNCAST(TopoDS_TEdge,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(TopoDS_TEdge)
 
 #include <TopAbs.hxx>
 

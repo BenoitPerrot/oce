@@ -14,7 +14,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <DBRep_Face.ixx>
+#include <TopoDS_Face.hxx>
+#include <Draw_Color.hxx>
+#include <DBRep_Face.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(DBRep_Face)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(DBRep_Face)
+IMPLEMENT_DOWNCAST(DBRep_Face,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(DBRep_Face)
 
 //=======================================================================
 //function : DBRep_Face

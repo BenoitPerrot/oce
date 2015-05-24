@@ -14,7 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Blend_SurfPointFuncInv.ixx>
+#include <math_Matrix.hxx>
+#include <gp_Pnt.hxx>
+#include <Blend_SurfPointFuncInv.hxx>
 
 //=======================================================================
 //function : NbVariables

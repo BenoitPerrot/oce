@@ -15,7 +15,20 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.1
 
-#include <StepShape_FaceBasedSurfaceModel.ixx>
+#include <StepShape_HArray1OfConnectedFaceSet.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepShape_FaceBasedSurfaceModel.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepShape_FaceBasedSurfaceModel)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepGeom_GeometricRepresentationItem),
+  STANDARD_TYPE(StepRepr_RepresentationItem),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepShape_FaceBasedSurfaceModel)
+IMPLEMENT_DOWNCAST(StepShape_FaceBasedSurfaceModel,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepShape_FaceBasedSurfaceModel)
 
 //=======================================================================
 //function : StepShape_FaceBasedSurfaceModel

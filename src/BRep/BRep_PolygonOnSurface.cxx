@@ -14,7 +14,22 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRep_PolygonOnSurface.ixx>
+#include <Poly_Polygon2D.hxx>
+#include <Geom_Surface.hxx>
+#include <Standard_DomainError.hxx>
+#include <TopLoc_Location.hxx>
+#include <BRep_CurveRepresentation.hxx>
+#include <BRep_PolygonOnSurface.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(BRep_PolygonOnSurface)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(BRep_CurveRepresentation),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(BRep_PolygonOnSurface)
+IMPLEMENT_DOWNCAST(BRep_PolygonOnSurface,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(BRep_PolygonOnSurface)
 
 
 

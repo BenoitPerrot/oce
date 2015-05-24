@@ -16,7 +16,15 @@
 // Passage sur C1 Aout 1992 et ajout transformation Bezier->BSpline + Debug
 // Modif JCV correction bug le 2/08/1993
 
-#include <GeomConvert.ixx>
+#include <Geom_BSplineCurve.hxx>
+#include <Geom_BSplineSurface.hxx>
+#include <Geom_Curve.hxx>
+#include <Geom_Surface.hxx>
+#include <TColGeom_Array1OfBSplineCurve.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <TColGeom_HArray1OfBSplineCurve.hxx>
+#include <TColStd_HArray1OfInteger.hxx>
+#include <GeomConvert.hxx>
 
 #include <BSplCLib.hxx>
 #include <Convert_ConicToBSplineCurve.hxx>

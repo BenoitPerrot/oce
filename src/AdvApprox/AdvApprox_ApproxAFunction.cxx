@@ -22,7 +22,19 @@
 // Modified     PMN 15/04/1997 : Gestion fine de la continuite aux lieux de decoupes 
 
 #include <math_Vector.hxx>
-#include <AdvApprox_ApproxAFunction.ixx>
+#include <TColStd_HArray1OfReal.hxx>
+#include <TColStd_HArray2OfReal.hxx>
+#include <TColgp_HArray2OfPnt2d.hxx>
+#include <TColgp_HArray2OfPnt.hxx>
+#include <TColStd_HArray1OfInteger.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Standard_ConstructionError.hxx>
+#include <AdvApprox_Cutting.hxx>
+#include <TColStd_Array1OfInteger.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <TColgp_Array1OfPnt2d.hxx>
+#include <TColgp_Array1OfPnt.hxx>
+#include <AdvApprox_ApproxAFunction.hxx>
 #include <AdvApprox_EvaluatorFunction.hxx>
 #include <AdvApprox_DichoCutting.hxx>
 #include <AdvApprox_SimpleApprox.hxx>

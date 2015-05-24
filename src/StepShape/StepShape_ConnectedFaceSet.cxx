@@ -11,7 +11,21 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepShape_ConnectedFaceSet.ixx>
+#include <StepShape_HArray1OfFace.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepShape_Face.hxx>
+#include <StepShape_ConnectedFaceSet.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepShape_ConnectedFaceSet)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(StepShape_TopologicalRepresentationItem),
+  STANDARD_TYPE(StepRepr_RepresentationItem),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepShape_ConnectedFaceSet)
+IMPLEMENT_DOWNCAST(StepShape_ConnectedFaceSet,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepShape_ConnectedFaceSet)
 
 
 StepShape_ConnectedFaceSet::StepShape_ConnectedFaceSet ()  {}

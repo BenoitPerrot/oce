@@ -15,7 +15,13 @@
 // commercial license or contractual agreement.
 
 #include <Precision.hxx>
-#include <Approx_CurveOnSurface.ixx>
+#include <Geom2d_BSplineCurve.hxx>
+#include <Geom_BSplineCurve.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Standard_ConstructionError.hxx>
+#include <Adaptor2d_HCurve2d.hxx>
+#include <Adaptor3d_HSurface.hxx>
+#include <Approx_CurveOnSurface.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Vec.hxx>
 #include <GeomAdaptor_HSurface.hxx>

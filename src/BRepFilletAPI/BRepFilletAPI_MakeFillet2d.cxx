@@ -14,7 +14,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepFilletAPI_MakeFillet2d.ixx>
+#include <TopoDS_Face.hxx>
+#include <TopoDS_Edge.hxx>
+#include <TopoDS_Vertex.hxx>
+#include <TopTools_SequenceOfShape.hxx>
+#include <TopTools_ListOfShape.hxx>
+#include <TopoDS_Shape.hxx>
+#include <BRepFilletAPI_MakeFillet2d.hxx>
 
 //=======================================================================
 //function : BRepFilletAPI_MakeFillet2d

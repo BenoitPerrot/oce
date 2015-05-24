@@ -14,7 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <gce_MakeTranslation2d.ixx>
+#include <gp_Vec2d.hxx>
+#include <gp_Pnt2d.hxx>
+#include <gp_Trsf2d.hxx>
+#include <gce_MakeTranslation2d.hxx>
 
 //=========================================================================
 //   Creation d une translation 2d de gp de vecteur de tanslation Vec.    +

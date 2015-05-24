@@ -14,7 +14,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepMAT2d_Explorer.ixx>
+#include <TopoDS_Face.hxx>
+#include <TopoDS_Wire.hxx>
+#include <Geom2d_Curve.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TColGeom2d_SequenceOfCurve.hxx>
+#include <TColStd_SequenceOfBoolean.hxx>
+#include <BRepMAT2d_Explorer.hxx>
 #include <MAT2d_SequenceOfSequenceOfCurve.hxx>
 #include <TColGeom2d_SequenceOfCurve.hxx>
 #include <TopoDS_Wire.hxx>

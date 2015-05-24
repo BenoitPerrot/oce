@@ -11,7 +11,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <RWStepAP214_RWAutoDesignSecurityClassificationAssignment.ixx>
+#include <StepData_StepReaderData.hxx>
+#include <Interface_Check.hxx>
+#include <StepAP214_AutoDesignSecurityClassificationAssignment.hxx>
+#include <StepData_StepWriter.hxx>
+#include <Interface_EntityIterator.hxx>
+#include <RWStepAP214_RWAutoDesignSecurityClassificationAssignment.hxx>
 #include <StepBasic_HArray1OfApproval.hxx>
 #include <StepBasic_Approval.hxx>
 #include <StepBasic_SecurityClassification.hxx>

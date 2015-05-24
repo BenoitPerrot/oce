@@ -12,7 +12,18 @@
 // commercial license or contractual agreement.
 
 // dce 21/01/99 S3767 : Suppression of general messages
-#include <Interface_FileReaderTool.ixx>
+#include <Interface_Protocol.hxx>
+#include <Interface_FileReaderData.hxx>
+#include <Interface_InterfaceModel.hxx>
+#include <Message_Messenger.hxx>
+#include <TColStd_HArray1OfTransient.hxx>
+#include <Standard_DomainError.hxx>
+#include <Standard_NoSuchObject.hxx>
+#include <Interface_Check.hxx>
+#include <Standard_Transient.hxx>
+#include <Interface_GeneralLib.hxx>
+#include <Interface_ReaderLib.hxx>
+#include <Interface_FileReaderTool.hxx>
 #include <Interface_ReportEntity.hxx>
 #include <Interface_InterfaceMismatch.hxx>
 #include <Interface_CheckFailure.hxx>

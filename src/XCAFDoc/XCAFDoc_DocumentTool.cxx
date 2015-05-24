@@ -13,7 +13,27 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <XCAFDoc_DocumentTool.ixx>
+#include <Standard_GUID.hxx>
+#include <TDF_Label.hxx>
+#include <TDocStd_Document.hxx>
+#include <XCAFDoc_ShapeTool.hxx>
+#include <XCAFDoc_ColorTool.hxx>
+#include <XCAFDoc_LayerTool.hxx>
+#include <XCAFDoc_DimTolTool.hxx>
+#include <XCAFDoc_MaterialTool.hxx>
+#include <TDF_Attribute.hxx>
+#include <TDF_RelocationTable.hxx>
+#include <XCAFDoc_DocumentTool.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(XCAFDoc_DocumentTool)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(TDF_Attribute),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(XCAFDoc_DocumentTool)
+IMPLEMENT_DOWNCAST(XCAFDoc_DocumentTool,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(XCAFDoc_DocumentTool)
 #include <TDataStd_Name.hxx>
 #include <TDF_Data.hxx>
 #include <TDF_Tool.hxx>

@@ -16,7 +16,21 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESBasic_SingleParent.ixx>
+#include <IGESData_IGESEntity.hxx>
+#include <IGESData_HArray1OfIGESEntity.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <IGESBasic_SingleParent.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESBasic_SingleParent)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IGESData_SingleParentEntity),
+  STANDARD_TYPE(IGESData_IGESEntity),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESBasic_SingleParent)
+IMPLEMENT_DOWNCAST(IGESBasic_SingleParent,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESBasic_SingleParent)
 #include <Standard_DimensionMismatch.hxx>
 
 

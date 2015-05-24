@@ -12,7 +12,9 @@
 // commercial license or contractual agreement.
 
 //szv#4 S4163
-#include <ShapeAnalysis_Shell.ixx>
+#include <TopoDS_Shape.hxx>
+#include <TopoDS_Compound.hxx>
+#include <ShapeAnalysis_Shell.hxx>
 
 #include <BRep_Builder.hxx>
 #include <BRep_Tool.hxx>

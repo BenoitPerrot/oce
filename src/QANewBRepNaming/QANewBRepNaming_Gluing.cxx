@@ -13,7 +13,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <QANewBRepNaming_Gluing.ixx>
+#include <Standard_NullObject.hxx>
+#include <TDF_Label.hxx>
+#include <QANewModTopOpe_Glue.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TDF_LabelMap.hxx>
+#include <TopTools_DataMapOfShapeInteger.hxx>
+#include <QANewBRepNaming_Gluing.hxx>
 
 #include <TopAbs.hxx>
 #include <BRep_Builder.hxx>

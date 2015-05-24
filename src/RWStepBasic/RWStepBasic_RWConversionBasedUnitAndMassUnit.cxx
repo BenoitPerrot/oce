@@ -11,7 +11,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <RWStepBasic_RWConversionBasedUnitAndMassUnit.ixx>
+#include <StepData_StepReaderData.hxx>
+#include <Interface_Check.hxx>
+#include <StepBasic_ConversionBasedUnitAndMassUnit.hxx>
+#include <StepData_StepWriter.hxx>
+#include <Interface_EntityIterator.hxx>
+#include <RWStepBasic_RWConversionBasedUnitAndMassUnit.hxx>
 
 #include <StepBasic_ConversionBasedUnit.hxx>
 #include <StepBasic_MassUnit.hxx>

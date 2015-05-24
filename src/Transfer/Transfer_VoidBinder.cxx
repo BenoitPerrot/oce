@@ -16,7 +16,18 @@
 
 //		<design>
 
-#include <Transfer_VoidBinder.ixx>
+#include <Standard_Type.hxx>
+#include <Transfer_VoidBinder.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Transfer_VoidBinder)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(Transfer_Binder),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Transfer_VoidBinder)
+IMPLEMENT_DOWNCAST(Transfer_VoidBinder,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Transfer_VoidBinder)
 
 Transfer_VoidBinder::Transfer_VoidBinder ()    {  }
 

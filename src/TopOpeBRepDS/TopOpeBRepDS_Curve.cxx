@@ -14,7 +14,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopOpeBRepDS_Curve.ixx>
+#include <Geom_Curve.hxx>
+#include <TopOpeBRepDS_Interference.hxx>
+#include <TopoDS_Shape.hxx>
+#include <Geom2d_Curve.hxx>
+#include <TopOpeBRepDS_Curve.hxx>
 #include <TopOpeBRepDS_SurfaceCurveInterference.hxx>
 #include <TopOpeBRepDS_Dumper.hxx>
 #include <Precision.hxx>

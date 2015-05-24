@@ -18,7 +18,23 @@
 // +---------------------------------------------------------------------------+
 // !      ivan ! SetMode                                 ! 5-04-2001! 3.0-00-1!
 // +---------------------------------------------------------------------------+
-#include <TPrsStd_AISPresentation.ixx>
+#include <AIS_InteractiveObject.hxx>
+#include <Standard_GUID.hxx>
+#include <TDF_Label.hxx>
+#include <TDF_Attribute.hxx>
+#include <TDF_RelocationTable.hxx>
+#include <TDF_AttributeDelta.hxx>
+#include <TPrsStd_AISPresentation.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(TPrsStd_AISPresentation)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(TDF_Attribute),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(TPrsStd_AISPresentation)
+IMPLEMENT_DOWNCAST(TPrsStd_AISPresentation,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(TPrsStd_AISPresentation)
 
 #include <TDF_DefaultDeltaOnRemoval.hxx>
 #include <TDF_DefaultDeltaOnModification.hxx>

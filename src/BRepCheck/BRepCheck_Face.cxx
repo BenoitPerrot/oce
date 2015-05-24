@@ -14,7 +14,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepCheck_Face.ixx>
+#include <TopoDS_Face.hxx>
+#include <TopoDS_Shape.hxx>
+#include <BRepCheck_Face.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(BRepCheck_Face)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(BRepCheck_Result),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(BRepCheck_Face)
+IMPLEMENT_DOWNCAST(BRepCheck_Face,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(BRepCheck_Face)
 
 #include <BRepCheck_ListOfStatus.hxx>
 #include <BRepCheck_ListIteratorOfListOfStatus.hxx>

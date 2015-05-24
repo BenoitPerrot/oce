@@ -11,7 +11,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <VrmlConverter_WFRestrictedFace.ixx>
+#include <BRepAdaptor_HSurface.hxx>
+#include <VrmlConverter_Drawer.hxx>
+#include <VrmlConverter_WFRestrictedFace.hxx>
 #include <Hatch_Hatcher.hxx>
 #include <gp_Pnt.hxx>
 #include <VrmlConverter_IsoAspect.hxx>

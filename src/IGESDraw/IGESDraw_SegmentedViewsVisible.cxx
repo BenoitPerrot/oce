@@ -16,7 +16,28 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESDraw_SegmentedViewsVisible.ixx>
+#include <IGESDraw_HArray1OfViewKindEntity.hxx>
+#include <TColStd_HArray1OfReal.hxx>
+#include <TColStd_HArray1OfInteger.hxx>
+#include <IGESGraph_HArray1OfColor.hxx>
+#include <IGESBasic_HArray1OfLineFontEntity.hxx>
+#include <Standard_DimensionMismatch.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <IGESData_ViewKindEntity.hxx>
+#include <IGESGraph_Color.hxx>
+#include <IGESData_LineFontEntity.hxx>
+#include <IGESDraw_SegmentedViewsVisible.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESDraw_SegmentedViewsVisible)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IGESData_ViewKindEntity),
+  STANDARD_TYPE(IGESData_IGESEntity),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESDraw_SegmentedViewsVisible)
+IMPLEMENT_DOWNCAST(IGESDraw_SegmentedViewsVisible,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESDraw_SegmentedViewsVisible)
 
 
 IGESDraw_SegmentedViewsVisible::IGESDraw_SegmentedViewsVisible ()    {  }

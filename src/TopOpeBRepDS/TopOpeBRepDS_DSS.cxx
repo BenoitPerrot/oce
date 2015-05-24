@@ -14,4 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopOpeBRepDS_DSS.ixx>
+#include <TopoDS_Shape.hxx>
+#include <TopOpeBRepDS_ListOfInterference.hxx>
+#include <TopTools_ListOfShape.hxx>
+#include <TopOpeBRepDS_MapOfIntegerShapeData.hxx>
+#include <TopOpeBRepDS_Interference.hxx>
+#include <TopOpeBRepDS_DSS.hxx>

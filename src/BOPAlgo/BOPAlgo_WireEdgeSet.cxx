@@ -15,4 +15,6 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BOPAlgo_WireEdgeSet.ixx>
+#include <TopoDS_Face.hxx>
+#include <TopoDS_Shape.hxx>
+#include <BOPAlgo_WireEdgeSet.hxx>

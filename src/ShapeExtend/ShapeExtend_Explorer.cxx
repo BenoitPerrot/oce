@@ -12,7 +12,11 @@
 // commercial license or contractual agreement.
 
 //szv#4 S4163
-#include <ShapeExtend_Explorer.ixx>
+#include <Standard_TypeMismatch.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopTools_HSequenceOfShape.hxx>
+#include <TopTools_ListOfShape.hxx>
+#include <ShapeExtend_Explorer.hxx>
 #include <TopoDS_Wire.hxx>
 #include <TopoDS_Shell.hxx>
 #include <TopoDS_Compound.hxx>

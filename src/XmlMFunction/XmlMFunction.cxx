@@ -13,7 +13,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <XmlMFunction.ixx>
+#include <XmlMDF_ADriverTable.hxx>
+#include <CDM_MessageDriver.hxx>
+#include <XmlMFunction.hxx>
 
 #include <XmlMFunction_FunctionDriver.hxx>
 #include <XmlMFunction_ScopeDriver.hxx>

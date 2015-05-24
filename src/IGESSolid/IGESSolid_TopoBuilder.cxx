@@ -11,7 +11,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IGESSolid_TopoBuilder.ixx>
+#include <IGESSolid_ManifoldSolid.hxx>
+#include <IGESSolid_Shell.hxx>
+#include <TColStd_HSequenceOfTransient.hxx>
+#include <TColStd_HSequenceOfInteger.hxx>
+#include <IGESSolid_Face.hxx>
+#include <IGESData_IGESEntity.hxx>
+#include <IGESSolid_Loop.hxx>
+#include <IGESSolid_EdgeList.hxx>
+#include <IGESSolid_VertexList.hxx>
+#include <TColgp_HSequenceOfXYZ.hxx>
+#include <Standard_DomainError.hxx>
+#include <gp_XYZ.hxx>
+#include <IGESSolid_TopoBuilder.hxx>
 #include <Standard_DomainError.hxx>
 #include <TColgp_HArray1OfXYZ.hxx>
 #include <IGESData_HArray1OfIGESEntity.hxx>

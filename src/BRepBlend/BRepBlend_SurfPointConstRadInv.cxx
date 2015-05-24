@@ -14,7 +14,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepBlend_SurfPointConstRadInv.ixx>
+#include <Adaptor3d_HSurface.hxx>
+#include <Adaptor3d_HCurve.hxx>
+#include <math_Matrix.hxx>
+#include <gp_Pnt.hxx>
+#include <BRepBlend_SurfPointConstRadInv.hxx>
 
 //=======================================================================
 //function : BRepBlend_SurfPointConstRadInv

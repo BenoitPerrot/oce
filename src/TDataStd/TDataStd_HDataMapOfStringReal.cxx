@@ -13,7 +13,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TDataStd_HDataMapOfStringReal.ixx>
+#include <TDataStd_DataMapOfStringReal.hxx>
+#include <TDataStd_HDataMapOfStringReal.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(TDataStd_HDataMapOfStringReal)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(TDataStd_HDataMapOfStringReal)
+IMPLEMENT_DOWNCAST(TDataStd_HDataMapOfStringReal,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(TDataStd_HDataMapOfStringReal)
 //=======================================================================
 //function : TDataStd_HDataMapOfStringReal
 //purpose  : Constructor of empty map

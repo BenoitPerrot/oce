@@ -16,7 +16,20 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESSolid_Torus.ixx>
+#include <gp_XYZ.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Dir.hxx>
+#include <IGESSolid_Torus.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(IGESSolid_Torus)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(IGESData_IGESEntity),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(IGESSolid_Torus)
+IMPLEMENT_DOWNCAST(IGESSolid_Torus,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(IGESSolid_Torus)
 #include <gp_GTrsf.hxx>
 
 

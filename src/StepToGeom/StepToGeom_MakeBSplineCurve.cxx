@@ -14,7 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepToGeom_MakeBSplineCurve.ixx>
+#include <StepGeom_BSplineCurve.hxx>
+#include <Geom_BSplineCurve.hxx>
+#include <StepToGeom_MakeBSplineCurve.hxx>
 #include <gp_Pnt.hxx>
 #include <StepGeom_HArray1OfCartesianPoint.hxx>
 #include <TColStd_HArray1OfInteger.hxx>

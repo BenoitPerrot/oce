@@ -11,7 +11,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Vrml_Material.ixx>
+#include <Quantity_HArray1OfColor.hxx>
+#include <TColStd_HArray1OfReal.hxx>
+#include <Vrml_Material.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Vrml_Material)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Vrml_Material)
+IMPLEMENT_DOWNCAST(Vrml_Material,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Vrml_Material)
 
 Vrml_Material::Vrml_Material(const Handle(Quantity_HArray1OfColor)& aAmbientColor, 
 			      const Handle(Quantity_HArray1OfColor)& aDiffuseColor, 

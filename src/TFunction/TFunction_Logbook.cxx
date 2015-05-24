@@ -14,7 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TFunction_Logbook.ixx>
+#include <TDF_Label.hxx>
+#include <TDF_LabelMap.hxx>
+#include <TFunction_Logbook.hxx>
 
 #include <TDF_Tool.hxx>
 #include <TDF_Label.hxx>

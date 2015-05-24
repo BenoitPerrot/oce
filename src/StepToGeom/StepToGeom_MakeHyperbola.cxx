@@ -14,7 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepToGeom_MakeHyperbola.ixx>
+#include <StepGeom_Hyperbola.hxx>
+#include <Geom_Hyperbola.hxx>
+#include <StepToGeom_MakeHyperbola.hxx>
 #include <StepGeom_Hyperbola.hxx>
 #include <StepGeom_Axis2Placement3d.hxx>
 #include <Geom_Axis2Placement.hxx>

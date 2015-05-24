@@ -14,7 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepAlgo_FaceRestrictor.ixx>
+#include <TopoDS_Face.hxx>
+#include <TopoDS_Wire.hxx>
+#include <BRepAlgo_FaceRestrictor.hxx>
 
 #include <BRepTopAdaptor_FClass2d.hxx>
 #include <TopoDS.hxx>

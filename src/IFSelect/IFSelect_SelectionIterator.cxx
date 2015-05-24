@@ -11,7 +11,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IFSelect_SelectionIterator.ixx>
+#include <IFSelect_HSeqOfSelection.hxx>
+#include <Standard_NoSuchObject.hxx>
+#include <IFSelect_Selection.hxx>
+#include <IFSelect_TSeqOfSelection.hxx>
+#include <IFSelect_SelectionIterator.hxx>
 
 
 IFSelect_SelectionIterator::IFSelect_SelectionIterator ()

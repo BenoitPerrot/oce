@@ -14,7 +14,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <SelectMgr_CompositionFilter.ixx>
+#include <SelectMgr_Filter.hxx>
+#include <SelectMgr_ListOfFilter.hxx>
+#include <SelectMgr_CompositionFilter.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(SelectMgr_CompositionFilter)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(SelectMgr_Filter),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(SelectMgr_CompositionFilter)
+IMPLEMENT_DOWNCAST(SelectMgr_CompositionFilter,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(SelectMgr_CompositionFilter)
 #include <SelectMgr_ListIteratorOfListOfFilter.hxx>
 
 void SelectMgr_CompositionFilter::Add(const Handle(SelectMgr_Filter)& afilter)

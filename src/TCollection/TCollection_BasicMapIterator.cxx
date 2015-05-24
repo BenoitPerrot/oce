@@ -14,8 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TCollection_BasicMapIterator.ixx>
 #include <TCollection_BasicMap.hxx>
+#include <TCollection_BasicMapIterator.hxx>
 #include <TCollection_MapNode.hxx>
 
 //=======================================================================

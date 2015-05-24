@@ -14,7 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Bisector_PointOnBis.ixx>
+#include <gp_Pnt2d.hxx>
+#include <Bisector_PointOnBis.hxx>
 
 
 //=============================================================================

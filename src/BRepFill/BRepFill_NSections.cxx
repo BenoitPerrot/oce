@@ -16,7 +16,25 @@
 
 #include <stdio.h>
 
-#include <BRepFill_NSections.ixx>
+#include <TopTools_HArray2OfShape.hxx>
+#include <Geom_BSplineSurface.hxx>
+#include <TopTools_SequenceOfShape.hxx>
+#include <GeomFill_SequenceOfTrsf.hxx>
+#include <TColStd_SequenceOfReal.hxx>
+#include <GeomFill_SectionLaw.hxx>
+#include <TopoDS_Vertex.hxx>
+#include <TopoDS_Shape.hxx>
+#include <BRepFill_NSections.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(BRepFill_NSections)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(BRepFill_SectionLaw),
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(BRepFill_NSections)
+IMPLEMENT_DOWNCAST(BRepFill_NSections,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(BRepFill_NSections)
 
 #include <BRepFill.hxx>
 #include <BRepTools_WireExplorer.hxx>

@@ -14,7 +14,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <ShapeAnalysis_FreeBoundData.ixx>
+#include <TopTools_HSequenceOfShape.hxx>
+#include <TopoDS_Wire.hxx>
+#include <ShapeAnalysis_FreeBoundData.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(ShapeAnalysis_FreeBoundData)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(ShapeAnalysis_FreeBoundData)
+IMPLEMENT_DOWNCAST(ShapeAnalysis_FreeBoundData,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(ShapeAnalysis_FreeBoundData)
 #include <TopTools_HSequenceOfShape.hxx>
 #include <TopoDS.hxx>
 

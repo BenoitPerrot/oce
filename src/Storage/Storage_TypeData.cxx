@@ -12,7 +12,23 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Storage_TypeData.ixx>
+#include <Standard_NoSuchObject.hxx>
+#include <Standard_Type.hxx>
+#include <Storage_Schema.hxx>
+#include <Storage_TypeData.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <TColStd_HSequenceOfAsciiString.hxx>
+
+IMPLEMENT_STANDARD_TYPE(Storage_TypeData)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Storage_TypeData)
+
+IMPLEMENT_DOWNCAST(Storage_TypeData,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Storage_TypeData)
 
 Storage_TypeData::Storage_TypeData() : myErrorStatus(Storage_VSOk)
 {

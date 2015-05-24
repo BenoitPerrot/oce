@@ -16,7 +16,18 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.0
 
-#include <StepRepr_ConfigurationDesign.ixx>
+#include <StepRepr_ConfigurationItem.hxx>
+#include <StepRepr_ConfigurationDesignItem.hxx>
+#include <StepRepr_ConfigurationDesign.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(StepRepr_ConfigurationDesign)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(StepRepr_ConfigurationDesign)
+IMPLEMENT_DOWNCAST(StepRepr_ConfigurationDesign,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(StepRepr_ConfigurationDesign)
 
 //=======================================================================
 //function : StepRepr_ConfigurationDesign

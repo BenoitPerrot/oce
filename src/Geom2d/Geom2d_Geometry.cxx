@@ -14,7 +14,21 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Geom2d_Geometry.ixx>
+#include <Standard_ConstructionError.hxx>
+#include <gp_Pnt2d.hxx>
+#include <gp_Ax2d.hxx>
+#include <gp_Vec2d.hxx>
+#include <gp_Trsf2d.hxx>
+#include <Geom2d_Geometry.hxx>
+#include <Standard_Type.hxx>
+IMPLEMENT_STANDARD_TYPE(Geom2d_Geometry)
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
+  STANDARD_TYPE(MMgt_TShared),
+  STANDARD_TYPE(Standard_Transient),
+IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
+IMPLEMENT_STANDARD_TYPE_END(Geom2d_Geometry)
+IMPLEMENT_DOWNCAST(Geom2d_Geometry,Standard_Transient)
+IMPLEMENT_STANDARD_RTTI(Geom2d_Geometry)
 #include <Standard_ConstructionError.hxx>
 
 typedef Handle(Geom2d_Geometry) Handle(Geometry);
