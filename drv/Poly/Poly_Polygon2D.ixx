@@ -3,7 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Poly_Polygon2D.jxx>
+#include <Standard_NullObject.hxx>
+#include <TColgp_Array1OfPnt2d.hxx>
+#include <Poly_Polygon2D.hxx>
 
 #include <Standard_Type.hxx>
 

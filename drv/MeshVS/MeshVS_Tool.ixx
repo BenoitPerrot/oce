@@ -3,7 +3,15 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <MeshVS_Tool.jxx>
+#include <Graphic3d_AspectFillArea3d.hxx>
+#include <MeshVS_Drawer.hxx>
+#include <Graphic3d_MaterialAspect.hxx>
+#include <Graphic3d_AspectLine3d.hxx>
+#include <Graphic3d_AspectMarker3d.hxx>
+#include <Graphic3d_AspectText3d.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <gp_Vec.hxx>
+#include <MeshVS_Tool.hxx>
 
  
 

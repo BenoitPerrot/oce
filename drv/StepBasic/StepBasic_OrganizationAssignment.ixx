@@ -3,7 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepBasic_OrganizationAssignment.jxx>
+#include <StepBasic_Organization.hxx>
+#include <StepBasic_OrganizationRole.hxx>
+#include <StepBasic_OrganizationAssignment.hxx>
 
 #include <Standard_Type.hxx>
 

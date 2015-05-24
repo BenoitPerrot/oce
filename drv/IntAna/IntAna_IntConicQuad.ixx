@@ -3,7 +3,18 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IntAna_IntConicQuad.jxx>
+#include <StdFail_NotDone.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Standard_DomainError.hxx>
+#include <gp_Lin.hxx>
+#include <IntAna_Quadric.hxx>
+#include <gp_Circ.hxx>
+#include <gp_Elips.hxx>
+#include <gp_Parab.hxx>
+#include <gp_Hypr.hxx>
+#include <gp_Pln.hxx>
+#include <gp_Pnt.hxx>
+#include <IntAna_IntConicQuad.hxx>
 
  
 

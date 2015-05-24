@@ -3,7 +3,16 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Interface_CheckIterator.jxx>
+#include <Interface_HSequenceOfCheck.hxx>
+#include <TColStd_HSequenceOfInteger.hxx>
+#include <Interface_InterfaceModel.hxx>
+#include <Interface_IntVal.hxx>
+#include <Standard_NoSuchObject.hxx>
+#include <Interface_Check.hxx>
+#include <Standard_Transient.hxx>
+#include <TColStd_HSequenceOfTransient.hxx>
+#include <Message_Messenger.hxx>
+#include <Interface_CheckIterator.hxx>
 
  
 

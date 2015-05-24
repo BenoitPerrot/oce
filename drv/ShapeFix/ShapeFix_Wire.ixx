@@ -3,7 +3,15 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <ShapeFix_Wire.jxx>
+#include <ShapeFix_Edge.hxx>
+#include <ShapeAnalysis_Wire.hxx>
+#include <TopoDS_Wire.hxx>
+#include <TopoDS_Face.hxx>
+#include <ShapeExtend_WireData.hxx>
+#include <Geom_Surface.hxx>
+#include <TopLoc_Location.hxx>
+#include <ShapeAnalysis_WireOrder.hxx>
+#include <ShapeFix_Wire.hxx>
 
 #include <Standard_Type.hxx>
 

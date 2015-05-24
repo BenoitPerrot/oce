@@ -3,7 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepBasic_MeasureWithUnit.jxx>
+#include <StepBasic_MeasureValueMember.hxx>
+#include <StepBasic_Unit.hxx>
+#include <StepBasic_MeasureWithUnit.hxx>
 
 #include <Standard_Type.hxx>
 

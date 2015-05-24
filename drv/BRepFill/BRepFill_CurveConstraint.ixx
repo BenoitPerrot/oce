@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <BRepFill_CurveConstraint.jxx>
+#include <Standard_ConstructionError.hxx>
+#include <Adaptor3d_HCurveOnSurface.hxx>
+#include <Adaptor3d_HCurve.hxx>
+#include <BRepFill_CurveConstraint.hxx>
 
 #include <Standard_Type.hxx>
 

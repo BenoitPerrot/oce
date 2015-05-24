@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <MAT2d_MiniPath.jxx>
+#include <MAT2d_SequenceOfSequenceOfGeometry.hxx>
+#include <MAT2d_SequenceOfConnexion.hxx>
+#include <MAT2d_Connexion.hxx>
+#include <MAT2d_MiniPath.hxx>
 
  
 

@@ -3,7 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <GeomToStep_MakeLine.jxx>
+#include <StepGeom_Line.hxx>
+#include <StdFail_NotDone.hxx>
+#include <gp_Lin.hxx>
+#include <gp_Lin2d.hxx>
+#include <Geom_Line.hxx>
+#include <Geom2d_Line.hxx>
+#include <GeomToStep_MakeLine.hxx>
 
  
 

@@ -3,7 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <XmlMDF_ADriver.jxx>
+#include <CDM_MessageDriver.hxx>
+#include <TDF_Attribute.hxx>
+#include <Standard_Type.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <XmlObjMgt_Persistent.hxx>
+#include <TCollection_ExtendedString.hxx>
+#include <XmlMDF_ADriver.hxx>
 
 #include <Standard_Type.hxx>
 

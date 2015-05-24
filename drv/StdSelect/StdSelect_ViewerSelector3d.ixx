@@ -3,7 +3,15 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StdSelect_ViewerSelector3d.jxx>
+#include <Select3D_Projector.hxx>
+#include <Graphic3d_Group.hxx>
+#include <Graphic3d_Structure.hxx>
+#include <SelectMgr_Selection.hxx>
+#include <V3d_View.hxx>
+#include <TColgp_Array1OfPnt2d.hxx>
+#include <gp_Lin.hxx>
+#include <SelectMgr_EntityOwner.hxx>
+#include <StdSelect_ViewerSelector3d.hxx>
 
 #include <Standard_Type.hxx>
 

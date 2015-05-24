@@ -3,7 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TopOpeBRep_Hctxee2d.jxx>
+#include <TopoDS_Edge.hxx>
+#include <BRepAdaptor_Surface.hxx>
+#include <TopoDS_Shape.hxx>
+#include <Geom2dAdaptor_Curve.hxx>
+#include <IntRes2d_Domain.hxx>
+#include <TopOpeBRep_Hctxee2d.hxx>
 
 #include <Standard_Type.hxx>
 

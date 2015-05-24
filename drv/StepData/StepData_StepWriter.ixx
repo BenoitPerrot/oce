@@ -3,7 +3,24 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepData_StepWriter.jxx>
+#include <StepData_StepModel.hxx>
+#include <TColStd_HSequenceOfHAsciiString.hxx>
+#include <TColStd_HArray1OfInteger.hxx>
+#include <Interface_InterfaceMismatch.hxx>
+#include <Interface_FloatWriter.hxx>
+#include <StepData_Protocol.hxx>
+#include <StepData_WriterLib.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepData_Field.hxx>
+#include <StepData_PDescr.hxx>
+#include <StepData_SelectMember.hxx>
+#include <StepData_FieldList.hxx>
+#include <StepData_ESDescr.hxx>
+#include <Standard_Transient.hxx>
+#include <TColStd_HArray1OfReal.hxx>
+#include <Interface_CheckIterator.hxx>
+#include <StepData_StepWriter.hxx>
 
  
 

@@ -3,7 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IFSelect_SelectControl.jxx>
+#include <IFSelect_Selection.hxx>
+#include <IFSelect_SelectionIterator.hxx>
+#include <IFSelect_SelectControl.hxx>
 
 #include <Standard_Type.hxx>
 

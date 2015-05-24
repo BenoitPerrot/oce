@@ -3,7 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepDimTol_GeoTolAndGeoTolWthDatRefAndModGeoTolAndPosTol.jxx>
+#include <StepDimTol_GeometricToleranceWithDatumReference.hxx>
+#include <StepDimTol_ModifiedGeometricTolerance.hxx>
+#include <StepDimTol_PositionTolerance.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepBasic_MeasureWithUnit.hxx>
+#include <StepRepr_ShapeAspect.hxx>
+#include <StepDimTol_GeoTolAndGeoTolWthDatRefAndModGeoTolAndPosTol.hxx>
 
 #include <Standard_Type.hxx>
 

@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepAP214_AppliedSecurityClassificationAssignment.jxx>
+#include <StepAP214_HArray1OfSecurityClassificationItem.hxx>
+#include <StepBasic_SecurityClassification.hxx>
+#include <StepAP214_SecurityClassificationItem.hxx>
+#include <StepAP214_AppliedSecurityClassificationAssignment.hxx>
 
 #include <Standard_Type.hxx>
 

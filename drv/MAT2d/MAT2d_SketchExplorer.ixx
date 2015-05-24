@@ -3,7 +3,8 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <MAT2d_SketchExplorer.jxx>
+#include <Geom2d_Curve.hxx>
+#include <MAT2d_SketchExplorer.hxx>
 
  
 

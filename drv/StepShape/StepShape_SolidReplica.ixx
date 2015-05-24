@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepShape_SolidReplica.jxx>
+#include <StepShape_SolidModel.hxx>
+#include <StepGeom_CartesianTransformationOperator3d.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepShape_SolidReplica.hxx>
 
 #include <Standard_Type.hxx>
 

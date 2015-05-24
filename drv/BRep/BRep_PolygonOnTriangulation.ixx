@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <BRep_PolygonOnTriangulation.jxx>
+#include <Poly_PolygonOnTriangulation.hxx>
+#include <Poly_Triangulation.hxx>
+#include <TopLoc_Location.hxx>
+#include <BRep_CurveRepresentation.hxx>
+#include <BRep_PolygonOnTriangulation.hxx>
 
 #include <Standard_Type.hxx>
 

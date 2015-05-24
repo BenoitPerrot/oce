@@ -3,7 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TDocStd_Owner.jxx>
+#include <TDocStd_Document.hxx>
+#include <Standard_GUID.hxx>
+#include <TDF_Data.hxx>
+#include <TDF_Attribute.hxx>
+#include <TDF_RelocationTable.hxx>
+#include <TDocStd_Owner.hxx>
 
 #include <Standard_Type.hxx>
 

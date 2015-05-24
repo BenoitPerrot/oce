@@ -3,7 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <HLRBRep_InternalAlgo.jxx>
+#include <HLRBRep_Data.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <HLRAlgo_Projector.hxx>
+#include <HLRTopoBRep_OutLiner.hxx>
+#include <MMgt_TShared.hxx>
+#include <HLRBRep_SeqOfShapeBounds.hxx>
+#include <HLRBRep_ShapeBounds.hxx>
+#include <HLRBRep_InternalAlgo.hxx>
 
 #include <Standard_Type.hxx>
 

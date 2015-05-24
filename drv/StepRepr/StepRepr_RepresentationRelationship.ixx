@@ -3,7 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepRepr_RepresentationRelationship.jxx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepRepr_Representation.hxx>
+#include <StepRepr_RepresentationRelationship.hxx>
 
 #include <Standard_Type.hxx>
 

@@ -3,7 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <PNaming_Name.jxx>
+#include <PNaming_HArray1OfNamedShape.hxx>
+#include <PNaming_NamedShape.hxx>
+#include <PNaming_Name.hxx>
 
 #include <Standard_Type.hxx>
 

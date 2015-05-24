@@ -3,7 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IFSelect_SessionPilot.jxx>
+#include <IFSelect_WorkSession.hxx>
+#include <Standard_Transient.hxx>
+#include <IFSelect_WorkLibrary.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <IFSelect_SignCounter.hxx>
+#include <IFSelect_SessionPilot.hxx>
 
 #include <Standard_Type.hxx>
 

@@ -3,7 +3,23 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TopOpeBRepTool_TOOL.jxx>
+#include <TopoDS_Shape.hxx>
+#include <TopoDS_Edge.hxx>
+#include <TopoDS_Vertex.hxx>
+#include <TopoDS_Face.hxx>
+#include <TopTools_Array1OfShape.hxx>
+#include <gp_Pnt2d.hxx>
+#include <TopOpeBRepTool_C2DF.hxx>
+#include <gp_Vec.hxx>
+#include <gp_Dir2d.hxx>
+#include <BRepAdaptor_Curve.hxx>
+#include <gp_Vec2d.hxx>
+#include <gp_Dir.hxx>
+#include <Geom2d_Curve.hxx>
+#include <gp_Pnt.hxx>
+#include <TopTools_ListOfShape.hxx>
+#include <TopTools_DataMapOfShapeListOfShape.hxx>
+#include <TopOpeBRepTool_TOOL.hxx>
 
  
 

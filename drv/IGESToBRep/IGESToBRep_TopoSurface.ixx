@@ -3,7 +3,22 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IGESToBRep_TopoSurface.jxx>
+#include <IGESToBRep_CurveAndSurface.hxx>
+#include <TopoDS_Shape.hxx>
+#include <IGESData_IGESEntity.hxx>
+#include <IGESGeom_RuledSurface.hxx>
+#include <IGESGeom_SurfaceOfRevolution.hxx>
+#include <IGESGeom_TabulatedCylinder.hxx>
+#include <IGESGeom_OffsetSurface.hxx>
+#include <IGESGeom_TrimmedSurface.hxx>
+#include <IGESGeom_BoundedSurface.hxx>
+#include <IGESGeom_Plane.hxx>
+#include <IGESSolid_PlaneSurface.hxx>
+#include <IGESBasic_SingleParent.hxx>
+#include <gp_Pln.hxx>
+#include <gp_Trsf.hxx>
+#include <gp_Trsf2d.hxx>
+#include <IGESToBRep_TopoSurface.hxx>
 
  
 

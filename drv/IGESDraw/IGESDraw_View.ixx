@@ -3,7 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IGESDraw_View.jxx>
+#include <IGESGeom_Plane.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <IGESData_ViewKindEntity.hxx>
+#include <IGESData_TransfEntity.hxx>
+#include <gp_XYZ.hxx>
+#include <IGESDraw_View.hxx>
 
 #include <Standard_Type.hxx>
 

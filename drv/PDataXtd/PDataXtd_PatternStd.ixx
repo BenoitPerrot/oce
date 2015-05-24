@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <PDataXtd_PatternStd.jxx>
+#include <PNaming_NamedShape.hxx>
+#include <PDataStd_Real.hxx>
+#include <PDataStd_Integer.hxx>
+#include <PDataXtd_PatternStd.hxx>
 
 #include <Standard_Type.hxx>
 

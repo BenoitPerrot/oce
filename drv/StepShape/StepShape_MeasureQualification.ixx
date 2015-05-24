@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepShape_MeasureQualification.jxx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepBasic_MeasureWithUnit.hxx>
+#include <StepShape_HArray1OfValueQualifier.hxx>
+#include <StepShape_ValueQualifier.hxx>
+#include <StepShape_MeasureQualification.hxx>
 
 #include <Standard_Type.hxx>
 

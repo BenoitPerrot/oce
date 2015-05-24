@@ -3,7 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <CDM_MetaData.jxx>
+#include <Standard_NoSuchObject.hxx>
+#include <CDM_Reference.hxx>
+#include <CDM_MetaData.hxx>
+#include <CDM_Document.hxx>
+#include <TCollection_ExtendedString.hxx>
+#include <CDM_MetaDataLookUpTable.hxx>
+#include <CDM_Application.hxx>
+#include <CDM_MetaData.hxx>
 
 #include <Standard_Type.hxx>
 

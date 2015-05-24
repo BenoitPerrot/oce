@@ -3,7 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <math_Matrix.jxx>
+#include <Standard_DimensionError.hxx>
+#include <Standard_RangeError.hxx>
+#include <Standard_DivideByZero.hxx>
+#include <math_NotSquare.hxx>
+#include <math_SingularMatrix.hxx>
+#include <math_Vector.hxx>
+#include <math_Matrix.hxx>
 
  
 

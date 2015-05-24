@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <GCPnts_AbscissaPoint.jxx>
+#include <StdFail_NotDone.hxx>
+#include <Standard_ConstructionError.hxx>
+#include <Adaptor3d_Curve.hxx>
+#include <Adaptor2d_Curve2d.hxx>
+#include <GCPnts_AbscissaPoint.hxx>
 
  
 

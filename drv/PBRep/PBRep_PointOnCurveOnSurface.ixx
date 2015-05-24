@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <PBRep_PointOnCurveOnSurface.jxx>
+#include <PGeom2d_Curve.hxx>
+#include <PGeom_Surface.hxx>
+#include <PTopLoc_Location.hxx>
+#include <PBRep_PointOnCurveOnSurface.hxx>
 
 #include <Standard_Type.hxx>
 

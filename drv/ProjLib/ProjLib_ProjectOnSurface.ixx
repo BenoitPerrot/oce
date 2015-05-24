@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <ProjLib_ProjectOnSurface.jxx>
+#include <Adaptor3d_HCurve.hxx>
+#include <Adaptor3d_HSurface.hxx>
+#include <Geom_BSplineCurve.hxx>
+#include <ProjLib_ProjectOnSurface.hxx>
 
  
 

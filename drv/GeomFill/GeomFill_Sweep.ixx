@@ -3,7 +3,16 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <GeomFill_Sweep.jxx>
+#include <GeomFill_LocationLaw.hxx>
+#include <GeomFill_SectionLaw.hxx>
+#include <Geom_Surface.hxx>
+#include <TColGeom2d_HArray1OfCurve.hxx>
+#include <TColStd_HArray2OfReal.hxx>
+#include <StdFail_NotDone.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Standard_ConstructionError.hxx>
+#include <Geom2d_Curve.hxx>
+#include <GeomFill_Sweep.hxx>
 
  
 

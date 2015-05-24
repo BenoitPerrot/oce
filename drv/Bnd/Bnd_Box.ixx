@@ -3,7 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Bnd_Box.jxx>
+#include <Standard_ConstructionError.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Dir.hxx>
+#include <gp_Trsf.hxx>
+#include <gp_Lin.hxx>
+#include <gp_Pln.hxx>
+#include <Bnd_Box.hxx>
 
  
 

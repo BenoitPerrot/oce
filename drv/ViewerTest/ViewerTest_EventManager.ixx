@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <ViewerTest_EventManager.jxx>
+#include <AIS_InteractiveContext.hxx>
+#include <V3d_View.hxx>
+#include <TColgp_Array1OfPnt2d.hxx>
+#include <ViewerTest_EventManager.hxx>
 
 #include <Standard_Type.hxx>
 

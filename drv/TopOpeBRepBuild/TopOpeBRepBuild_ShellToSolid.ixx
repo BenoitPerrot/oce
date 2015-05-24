@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TopOpeBRepBuild_ShellToSolid.jxx>
+#include <TopoDS_Shell.hxx>
+#include <TopoDS_Solid.hxx>
+#include <TopTools_ListOfShape.hxx>
+#include <TopOpeBRepBuild_ShellToSolid.hxx>
 
  
 

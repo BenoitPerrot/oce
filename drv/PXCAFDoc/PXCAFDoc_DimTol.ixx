@@ -3,7 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <PXCAFDoc_DimTol.jxx>
+#include <PColStd_HArray1OfReal.hxx>
+#include <PCollection_HAsciiString.hxx>
+#include <PXCAFDoc_DimTol.hxx>
 
 #include <Standard_Type.hxx>
 

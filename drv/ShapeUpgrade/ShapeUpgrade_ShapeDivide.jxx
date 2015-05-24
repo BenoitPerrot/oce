@@ -1,4 +1,0 @@
-#include <ShapeUpgrade_FaceDivide.hxx>
-#include <ShapeBuild_ReShape.hxx>
-#include <TopoDS_Shape.hxx>
-#include <ShapeUpgrade_ShapeDivide.hxx>

@@ -3,7 +3,16 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Contap_Contour.jxx>
+#include <StdFail_NotDone.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Standard_ConstructionError.hxx>
+#include <gp_Vec.hxx>
+#include <gp_Pnt.hxx>
+#include <Adaptor3d_HSurface.hxx>
+#include <Adaptor3d_TopolTool.hxx>
+#include <Contap_Line.hxx>
+#include <Contap_SurfFunction.hxx>
+#include <Contap_Contour.hxx>
 
  
 

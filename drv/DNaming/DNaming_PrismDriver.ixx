@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <DNaming_PrismDriver.jxx>
+#include <TFunction_Logbook.hxx>
+#include <TDF_Label.hxx>
+#include <BRepPrimAPI_MakePrism.hxx>
+#include <TopoDS_Shape.hxx>
+#include <DNaming_PrismDriver.hxx>
 
 #include <Standard_Type.hxx>
 

@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <PrsMgr_Prs.jxx>
+#include <Graphic3d_StructureManager.hxx>
+#include <Graphic3d_Structure.hxx>
+#include <Graphic3d_DataStructureManager.hxx>
+#include <TColStd_Array2OfReal.hxx>
+#include <PrsMgr_Prs.hxx>
 
 #include <Standard_Type.hxx>
 

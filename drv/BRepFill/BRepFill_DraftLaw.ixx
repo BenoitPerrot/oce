@@ -3,7 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <BRepFill_DraftLaw.jxx>
+#include <TopoDS_Wire.hxx>
+#include <GeomFill_LocationDraft.hxx>
+#include <BRepFill_DraftLaw.hxx>
 
 #include <Standard_Type.hxx>
 

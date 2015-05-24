@@ -3,7 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IFSelect_PacketList.jxx>
+#include <Interface_InterfaceModel.hxx>
+#include <Interface_InterfaceError.hxx>
+#include <Standard_Transient.hxx>
+#include <TColStd_HSequenceOfTransient.hxx>
+#include <Interface_EntityIterator.hxx>
+#include <IFSelect_PacketList.hxx>
 
 #include <Standard_Type.hxx>
 

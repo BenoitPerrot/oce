@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <BRepBlend_SurfPointConstRadInv.jxx>
+#include <Adaptor3d_HSurface.hxx>
+#include <Adaptor3d_HCurve.hxx>
+#include <math_Matrix.hxx>
+#include <gp_Pnt.hxx>
+#include <BRepBlend_SurfPointConstRadInv.hxx>
 
  
 

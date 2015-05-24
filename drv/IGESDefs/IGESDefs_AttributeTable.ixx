@@ -3,7 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IGESDefs_AttributeTable.jxx>
+#include <TColStd_HArray2OfTransient.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Standard_NullObject.hxx>
+#include <IGESDefs_AttributeDef.hxx>
+#include <Standard_Transient.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <IGESData_IGESEntity.hxx>
+#include <IGESDefs_AttributeTable.hxx>
 
 #include <Standard_Type.hxx>
 

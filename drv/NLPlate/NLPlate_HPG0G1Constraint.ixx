@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <NLPlate_HPG0G1Constraint.jxx>
+#include <gp_XY.hxx>
+#include <gp_XYZ.hxx>
+#include <Plate_D1.hxx>
+#include <NLPlate_HPG0G1Constraint.hxx>
 
 #include <Standard_Type.hxx>
 

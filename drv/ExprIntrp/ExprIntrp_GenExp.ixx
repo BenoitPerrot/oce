@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <ExprIntrp_GenExp.jxx>
+#include <Expr_GeneralExpression.hxx>
+#include <Standard_NoSuchObject.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <ExprIntrp_GenExp.hxx>
 
 #include <Standard_Type.hxx>
 

@@ -3,7 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <FEmTool_Assembly.jxx>
+#include <FEmTool_HAssemblyTable.hxx>
+#include <FEmTool_ProfileMatrix.hxx>
+#include <StdFail_NotDone.hxx>
+#include <Standard_DimensionError.hxx>
+#include <Standard_DomainError.hxx>
+#include <TColStd_Array2OfInteger.hxx>
+#include <math_Matrix.hxx>
+#include <FEmTool_Assembly.hxx>
 
  
 

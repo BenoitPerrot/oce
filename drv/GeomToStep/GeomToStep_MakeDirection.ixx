@@ -3,7 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <GeomToStep_MakeDirection.jxx>
+#include <StepGeom_Direction.hxx>
+#include <StdFail_NotDone.hxx>
+#include <gp_Dir.hxx>
+#include <gp_Dir2d.hxx>
+#include <Geom_Direction.hxx>
+#include <Geom2d_Direction.hxx>
+#include <GeomToStep_MakeDirection.hxx>
 
  
 

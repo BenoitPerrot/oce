@@ -3,7 +3,31 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <AIS_InteractiveContext.jxx>
+#include <SelectMgr_SelectionManager.hxx>
+#include <V3d_Viewer.hxx>
+#include <StdSelect_ViewerSelector3d.hxx>
+#include <AIS_InteractiveObject.hxx>
+#include <SelectMgr_OrFilter.hxx>
+#include <Prs3d_Drawer.hxx>
+#include <V3d_View.hxx>
+#include <AIS_LocalContext.hxx>
+#include <TopLoc_Location.hxx>
+#include <Quantity_Color.hxx>
+#include <AIS_Drawer.hxx>
+#include <TColStd_ListOfInteger.hxx>
+#include <TCollection_ExtendedString.hxx>
+#include <Prs3d_LineAspect.hxx>
+#include <Prs3d_BasicAspect.hxx>
+#include <TColgp_Array1OfPnt2d.hxx>
+#include <TopoDS_Shape.hxx>
+#include <SelectMgr_EntityOwner.hxx>
+#include <SelectMgr_IndexedMapOfOwner.hxx>
+#include <Standard_Transient.hxx>
+#include <SelectMgr_Filter.hxx>
+#include <SelectMgr_ListOfFilter.hxx>
+#include <AIS_ListOfInteractive.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <AIS_InteractiveContext.hxx>
 
 #include <Standard_Type.hxx>
 

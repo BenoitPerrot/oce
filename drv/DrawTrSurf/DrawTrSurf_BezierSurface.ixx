@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <DrawTrSurf_BezierSurface.jxx>
+#include <Geom_BezierSurface.hxx>
+#include <Draw_Color.hxx>
+#include <Draw_Display.hxx>
+#include <Draw_Drawable3D.hxx>
+#include <DrawTrSurf_BezierSurface.hxx>
 
 #include <Standard_Type.hxx>
 

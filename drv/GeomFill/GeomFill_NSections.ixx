@@ -3,7 +3,18 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <GeomFill_NSections.jxx>
+#include <Geom_BSplineSurface.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <TColGeom_SequenceOfCurve.hxx>
+#include <TColStd_SequenceOfReal.hxx>
+#include <GeomFill_SequenceOfTrsf.hxx>
+#include <TColgp_Array1OfPnt.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <TColgp_Array1OfVec.hxx>
+#include <TColStd_Array1OfInteger.hxx>
+#include <gp_Pnt.hxx>
+#include <Geom_Curve.hxx>
+#include <GeomFill_NSections.hxx>
 
 #include <Standard_Type.hxx>
 

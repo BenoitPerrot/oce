@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepVisual_PointStyle.jxx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepVisual_Colour.hxx>
+#include <StepVisual_MarkerSelect.hxx>
+#include <StepBasic_SizeSelect.hxx>
+#include <StepVisual_PointStyle.hxx>
 
 #include <Standard_Type.hxx>
 

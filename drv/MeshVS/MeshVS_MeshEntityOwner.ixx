@@ -3,7 +3,8 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <MeshVS_MeshEntityOwner.jxx>
+#include <PrsMgr_PresentationManager.hxx>
+#include <MeshVS_MeshEntityOwner.hxx>
 
 #include <Standard_Type.hxx>
 

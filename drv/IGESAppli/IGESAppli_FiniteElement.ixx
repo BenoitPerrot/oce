@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IGESAppli_FiniteElement.jxx>
+#include <IGESAppli_HArray1OfNode.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <IGESAppli_Node.hxx>
+#include <IGESAppli_FiniteElement.hxx>
 
 #include <Standard_Type.hxx>
 

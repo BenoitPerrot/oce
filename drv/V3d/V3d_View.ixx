@@ -3,7 +3,31 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <V3d_View.jxx>
+#include <Visual3d_View.hxx>
+#include <Aspect_Window.hxx>
+#include <Aspect_Grid.hxx>
+#include <V3d_LayerMgr.hxx>
+#include <Graphic3d_Structure.hxx>
+#include <Graphic3d_Group.hxx>
+#include <V3d_BadValue.hxx>
+#include <Standard_TypeMismatch.hxx>
+#include <Standard_MultiplyDefined.hxx>
+#include <V3d_UnMapped.hxx>
+#include <V3d_View.hxx>
+#include <V3d_Viewer.hxx>
+#include <Quantity_Color.hxx>
+#include <Graphic3d_TextureEnv.hxx>
+#include <V3d_Light.hxx>
+#include <TCollection_ExtendedString.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <Aspect_ColorScale.hxx>
+#include <Aspect_GradientBackground.hxx>
+#include <gp_Dir.hxx>
+#include <Graphic3d_Vector.hxx>
+#include <TColStd_Array2OfReal.hxx>
+#include <gp_Ax3.hxx>
+#include <Bnd_Box.hxx>
+#include <V3d_View.hxx>
 
 #include <Standard_Type.hxx>
 

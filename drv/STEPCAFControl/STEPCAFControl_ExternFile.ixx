@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <STEPCAFControl_ExternFile.jxx>
+#include <XSControl_WorkSession.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <TDF_Label.hxx>
+#include <STEPCAFControl_ExternFile.hxx>
 
 #include <Standard_Type.hxx>
 

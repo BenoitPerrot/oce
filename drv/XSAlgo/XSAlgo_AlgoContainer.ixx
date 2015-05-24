@@ -3,7 +3,15 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <XSAlgo_AlgoContainer.jxx>
+#include <XSAlgo_ToolContainer.hxx>
+#include <TopoDS_Shape.hxx>
+#include <Standard_Transient.hxx>
+#include <Message_ProgressIndicator.hxx>
+#include <TopoDS_Edge.hxx>
+#include <TopoDS_Face.hxx>
+#include <Transfer_TransientProcess.hxx>
+#include <Transfer_FinderProcess.hxx>
+#include <XSAlgo_AlgoContainer.hxx>
 
 #include <Standard_Type.hxx>
 

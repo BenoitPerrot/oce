@@ -3,7 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <PCollection_HAsciiString.jxx>
+#include <PCollection_HAsciiString.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Standard_NegativeValue.hxx>
+#include <Standard_NumericError.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <PCollection_HExtendedString.hxx>
+#include <DBC_VArrayOfCharacter.hxx>
+#include <PCollection_HAsciiString.hxx>
 
 #include <Standard_Type.hxx>
 

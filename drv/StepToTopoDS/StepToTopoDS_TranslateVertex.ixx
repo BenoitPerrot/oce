@@ -3,7 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepToTopoDS_TranslateVertex.jxx>
+#include <StdFail_NotDone.hxx>
+#include <StepShape_Vertex.hxx>
+#include <StepToTopoDS_Tool.hxx>
+#include <StepToTopoDS_NMTool.hxx>
+#include <TopoDS_Shape.hxx>
+#include <StepToTopoDS_TranslateVertex.hxx>
 
  
 

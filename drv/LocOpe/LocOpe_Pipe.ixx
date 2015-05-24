@@ -3,7 +3,15 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <LocOpe_Pipe.jxx>
+#include <Standard_NoSuchObject.hxx>
+#include <Standard_DomainError.hxx>
+#include <TopoDS_Wire.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopTools_ListOfShape.hxx>
+#include <TColGeom_SequenceOfCurve.hxx>
+#include <TColgp_SequenceOfPnt.hxx>
+#include <Geom_Curve.hxx>
+#include <LocOpe_Pipe.hxx>
 
  
 

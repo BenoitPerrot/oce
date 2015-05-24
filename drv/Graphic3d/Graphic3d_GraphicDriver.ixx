@@ -3,7 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Graphic3d_GraphicDriver.jxx>
+#include <Graphic3d_TransformError.hxx>
+#include <Graphic3d_StructureManager.hxx>
+#include <Quantity_Color.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <TColStd_Array2OfReal.hxx>
+#include <Graphic3d_GraphicDriver.hxx>
 
 #include <Standard_Type.hxx>
 

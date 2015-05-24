@@ -3,7 +3,20 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <AIS_IdenticRelation.jxx>
+#include <TopoDS_Shape.hxx>
+#include <Geom_Plane.hxx>
+#include <Prs3d_Presentation.hxx>
+#include <Prs3d_Projector.hxx>
+#include <Geom_Transformation.hxx>
+#include <SelectMgr_Selection.hxx>
+#include <Geom_Line.hxx>
+#include <gp_Pnt.hxx>
+#include <Geom_Circle.hxx>
+#include <Geom_Ellipse.hxx>
+#include <TopoDS_Wire.hxx>
+#include <TopoDS_Vertex.hxx>
+#include <gp_Dir.hxx>
+#include <AIS_IdenticRelation.hxx>
 
 #include <Standard_Type.hxx>
 

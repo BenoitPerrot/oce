@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <BRepFill_EdgeFaceAndOrder.jxx>
+#include <BRepFill_Filling.hxx>
+#include <TopoDS_Edge.hxx>
+#include <TopoDS_Face.hxx>
+#include <BRepFill_EdgeFaceAndOrder.hxx>
 
  
 

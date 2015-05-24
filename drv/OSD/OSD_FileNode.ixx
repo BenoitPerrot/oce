@@ -3,7 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <OSD_FileNode.jxx>
+#include <OSD_OSDError.hxx>
+#include <Standard_ProgramError.hxx>
+#include <OSD_Path.hxx>
+#include <OSD_Protection.hxx>
+#include <Quantity_Date.hxx>
+#include <OSD_FileNode.hxx>
 
  
 

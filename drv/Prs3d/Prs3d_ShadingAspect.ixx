@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Prs3d_ShadingAspect.jxx>
+#include <Graphic3d_AspectFillArea3d.hxx>
+#include <Quantity_Color.hxx>
+#include <Graphic3d_MaterialAspect.hxx>
+#include <Prs3d_ShadingAspect.hxx>
 
 #include <Standard_Type.hxx>
 

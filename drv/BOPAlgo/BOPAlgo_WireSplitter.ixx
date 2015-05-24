@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <BOPAlgo_WireSplitter.jxx>
+#include <BOPAlgo_WireEdgeSet.hxx>
+#include <TopoDS_Wire.hxx>
+#include <TopoDS_Face.hxx>
+#include <BOPAlgo_WireSplitter.hxx>
 
  
 

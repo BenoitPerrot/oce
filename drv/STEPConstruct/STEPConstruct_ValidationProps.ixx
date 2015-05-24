@@ -3,7 +3,17 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <STEPConstruct_ValidationProps.jxx>
+#include <StepBasic_ProductDefinition.hxx>
+#include <XSControl_WorkSession.hxx>
+#include <TopoDS_Shape.hxx>
+#include <StepRepr_RepresentationItem.hxx>
+#include <StepRepr_CharacterizedDefinition.hxx>
+#include <StepRepr_RepresentationContext.hxx>
+#include <gp_Pnt.hxx>
+#include <TColStd_SequenceOfTransient.hxx>
+#include <StepRepr_NextAssemblyUsageOccurrence.hxx>
+#include <StepRepr_PropertyDefinition.hxx>
+#include <STEPConstruct_ValidationProps.hxx>
 
  
 

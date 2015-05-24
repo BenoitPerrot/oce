@@ -16,7 +16,14 @@
 
 // a modifier le cas de 2 points confondus ( Insert a la place d'append ? ) 
 
-#include <IntCurve_IntConicConic.jxx>
+#include <Standard_ConstructionError.hxx>
+#include <gp_Lin2d.hxx>
+#include <IntRes2d_Domain.hxx>
+#include <gp_Circ2d.hxx>
+#include <gp_Elips2d.hxx>
+#include <gp_Parab2d.hxx>
+#include <gp_Hypr2d.hxx>
+#include <IntCurve_IntConicConic.hxx>
 
 #include <IntCurve_IConicTool.hxx>
 #include <IntCurve_PConic.hxx>

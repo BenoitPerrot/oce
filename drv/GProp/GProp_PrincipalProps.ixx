@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <GProp_PrincipalProps.jxx>
+#include <GProp_UndefinedAxis.hxx>
+#include <GProp_PrincipalProps.hxx>
+#include <gp_Vec.hxx>
+#include <gp_Pnt.hxx>
+#include <GProp_PrincipalProps.hxx>
 
  
 

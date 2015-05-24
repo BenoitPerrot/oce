@@ -3,7 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IGESControl_Reader.jxx>
+#include <XSControl_WorkSession.hxx>
+#include <IGESData_IGESModel.hxx>
+#include <IGESControl_Reader.hxx>
 
  
 

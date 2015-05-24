@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepAP214_AutoDesignNominalDateAssignment.jxx>
+#include <StepAP214_HArray1OfAutoDesignDatedItem.hxx>
+#include <StepBasic_Date.hxx>
+#include <StepBasic_DateRole.hxx>
+#include <StepAP214_AutoDesignDatedItem.hxx>
+#include <StepAP214_AutoDesignNominalDateAssignment.hxx>
 
 #include <Standard_Type.hxx>
 

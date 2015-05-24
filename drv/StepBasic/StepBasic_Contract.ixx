@@ -3,7 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepBasic_Contract.jxx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepBasic_ContractType.hxx>
+#include <StepBasic_Contract.hxx>
 
 #include <Standard_Type.hxx>
 

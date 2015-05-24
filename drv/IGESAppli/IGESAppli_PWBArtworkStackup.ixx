@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IGESAppli_PWBArtworkStackup.jxx>
+#include <TCollection_HAsciiString.hxx>
+#include <TColStd_HArray1OfInteger.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <IGESAppli_PWBArtworkStackup.hxx>
 
 #include <Standard_Type.hxx>
 

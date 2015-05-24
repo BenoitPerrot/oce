@@ -3,7 +3,19 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Storage_Schema.jxx>
+#include <Storage_CallBack.hxx>
+#include <Storage_HArrayOfSchema.hxx>
+#include <Storage_StreamFormatError.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <Storage_BaseDriver.hxx>
+#include <Storage_Data.hxx>
+#include <Storage_HeaderData.hxx>
+#include <Storage_TypeData.hxx>
+#include <Storage_RootData.hxx>
+#include <TColStd_SequenceOfAsciiString.hxx>
+#include <TColStd_HSequenceOfAsciiString.hxx>
+#include <Standard_Persistent.hxx>
+#include <Storage_Schema.hxx>
 
 #include <Standard_Type.hxx>
 

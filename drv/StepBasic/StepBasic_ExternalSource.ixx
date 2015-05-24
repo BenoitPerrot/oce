@@ -3,7 +3,8 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepBasic_ExternalSource.jxx>
+#include <StepBasic_SourceItem.hxx>
+#include <StepBasic_ExternalSource.hxx>
 
 #include <Standard_Type.hxx>
 

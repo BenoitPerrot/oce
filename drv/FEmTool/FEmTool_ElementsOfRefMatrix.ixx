@@ -3,7 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <FEmTool_ElementsOfRefMatrix.jxx>
+#include <PLib_Base.hxx>
+#include <Standard_ConstructionError.hxx>
+#include <FEmTool_ElementsOfRefMatrix.hxx>
 
  
 

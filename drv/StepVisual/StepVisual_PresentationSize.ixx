@@ -3,7 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepVisual_PresentationSize.jxx>
+#include <StepVisual_PlanarBox.hxx>
+#include <StepVisual_PresentationSizeAssignmentSelect.hxx>
+#include <StepVisual_PresentationSize.hxx>
 
 #include <Standard_Type.hxx>
 

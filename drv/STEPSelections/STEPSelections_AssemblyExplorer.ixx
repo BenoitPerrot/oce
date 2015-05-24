@@ -3,7 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <STEPSelections_AssemblyExplorer.jxx>
+#include <Interface_Graph.hxx>
+#include <StepShape_ShapeDefinitionRepresentation.hxx>
+#include <StepBasic_ProductDefinition.hxx>
+#include <STEPSelections_AssemblyComponent.hxx>
+#include <Standard_Transient.hxx>
+#include <StepRepr_NextAssemblyUsageOccurrence.hxx>
+#include <STEPSelections_AssemblyExplorer.hxx>
 
  
 

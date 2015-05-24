@@ -3,7 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <GProp_GProps.jxx>
+#include <Standard_DomainError.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Mat.hxx>
+#include <gp_Ax1.hxx>
+#include <GProp_PrincipalProps.hxx>
+#include <GProp_GProps.hxx>
 
  
 

@@ -3,7 +3,17 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepAP214_AutoDesignDateAndPersonItem.jxx>
+#include <Standard_Transient.hxx>
+#include <StepAP214_AutoDesignOrganizationAssignment.hxx>
+#include <StepBasic_Product.hxx>
+#include <StepBasic_ProductDefinition.hxx>
+#include <StepBasic_ProductDefinitionFormation.hxx>
+#include <StepRepr_Representation.hxx>
+#include <StepAP214_AutoDesignDocumentReference.hxx>
+#include <StepRepr_ExternallyDefinedRepresentation.hxx>
+#include <StepBasic_ProductDefinitionRelationship.hxx>
+#include <StepBasic_ProductDefinitionWithAssociatedDocuments.hxx>
+#include <StepAP214_AutoDesignDateAndPersonItem.hxx>
 
  
 

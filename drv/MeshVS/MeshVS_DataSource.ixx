@@ -3,7 +3,16 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <MeshVS_DataSource.jxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <MeshVS_HArray1OfSequenceOfInteger.hxx>
+#include <TColStd_Array1OfInteger.hxx>
+#include <TColStd_HArray1OfReal.hxx>
+#include <Bnd_Box.hxx>
+#include <MeshVS_Mesh.hxx>
+#include <TColStd_HPackedMapOfInteger.hxx>
+#include <TColgp_Array1OfPnt2d.hxx>
+#include <Bnd_Box2d.hxx>
+#include <MeshVS_DataSource.hxx>
 
 #include <Standard_Type.hxx>
 

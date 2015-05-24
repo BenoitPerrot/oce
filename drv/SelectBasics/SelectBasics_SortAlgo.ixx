@@ -3,7 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <SelectBasics_SortAlgo.jxx>
+#include <Bnd_Box2d.hxx>
+#include <Bnd_HArray1OfBox2d.hxx>
+#include <SelectBasics_SortAlgo.hxx>
 
  
 

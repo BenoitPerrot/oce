@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepShape_ToleranceMethodDefinition.jxx>
+#include <Standard_Transient.hxx>
+#include <StepShape_ToleranceValue.hxx>
+#include <StepShape_LimitsAndFits.hxx>
+#include <StepShape_ToleranceMethodDefinition.hxx>
 
  
 

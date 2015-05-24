@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepBasic_ProductRelatedProductCategory.jxx>
+#include <StepBasic_HArray1OfProduct.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepBasic_Product.hxx>
+#include <StepBasic_ProductRelatedProductCategory.hxx>
 
 #include <Standard_Type.hxx>
 

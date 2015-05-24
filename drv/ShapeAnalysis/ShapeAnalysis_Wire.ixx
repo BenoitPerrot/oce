@@ -3,7 +3,23 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <ShapeAnalysis_Wire.jxx>
+#include <ShapeExtend_WireData.hxx>
+#include <ShapeAnalysis_Surface.hxx>
+#include <TopoDS_Wire.hxx>
+#include <TopoDS_Face.hxx>
+#include <Geom_Surface.hxx>
+#include <TopLoc_Location.hxx>
+#include <ShapeAnalysis_WireOrder.hxx>
+#include <Geom2d_Curve.hxx>
+#include <gp_Pnt2d.hxx>
+#include <IntRes2d_SequenceOfIntersectionPoint.hxx>
+#include <TColgp_SequenceOfPnt.hxx>
+#include <TColStd_SequenceOfReal.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopTools_IndexedMapOfShape.hxx>
+#include <TopTools_DataMapOfShapeListOfShape.hxx>
+#include <TopTools_MapOfShape.hxx>
+#include <ShapeAnalysis_Wire.hxx>
 
 #include <Standard_Type.hxx>
 

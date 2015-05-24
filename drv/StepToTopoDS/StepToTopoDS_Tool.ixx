@@ -3,7 +3,18 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepToTopoDS_Tool.jxx>
+#include <Transfer_TransientProcess.hxx>
+#include <StepToTopoDS_DataMapOfTRI.hxx>
+#include <StepShape_TopologicalRepresentationItem.hxx>
+#include <TopoDS_Shape.hxx>
+#include <StepToTopoDS_PointPair.hxx>
+#include <TopoDS_Edge.hxx>
+#include <StepGeom_CartesianPoint.hxx>
+#include <TopoDS_Vertex.hxx>
+#include <Geom_Surface.hxx>
+#include <Geom_Curve.hxx>
+#include <Geom2d_Curve.hxx>
+#include <StepToTopoDS_Tool.hxx>
 
  
 

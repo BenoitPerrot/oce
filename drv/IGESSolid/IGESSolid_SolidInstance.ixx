@@ -3,7 +3,8 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IGESSolid_SolidInstance.jxx>
+#include <IGESData_IGESEntity.hxx>
+#include <IGESSolid_SolidInstance.hxx>
 
 #include <Standard_Type.hxx>
 

@@ -3,7 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <PTopoDS_Shape1.jxx>
+#include <PTopoDS_TShape1.hxx>
+#include <PTopLoc_Location.hxx>
+#include <PTopoDS_Shape1.hxx>
 
 #include <Standard_Type.hxx>
 

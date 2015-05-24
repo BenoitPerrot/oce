@@ -3,7 +3,19 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TopOpeBRepDS_Dumper.jxx>
+#include <TopOpeBRepDS_HDataStructure.hxx>
+#include <Geom_Curve.hxx>
+#include <Geom2d_Curve.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Pnt2d.hxx>
+#include <Geom_BSplineCurve.hxx>
+#include <Geom2d_BSplineCurve.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopOpeBRepDS_ListOfInterference.hxx>
+#include <TopOpeBRepDS_Interference.hxx>
+#include <TopTools_ListOfShape.hxx>
+#include <TopOpeBRepDS_Dumper.hxx>
 
  
 

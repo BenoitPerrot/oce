@@ -3,7 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepShape_FacetedBrepAndBrepWithVoids.jxx>
+#include <StepShape_FacetedBrep.hxx>
+#include <StepShape_BrepWithVoids.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepShape_ClosedShell.hxx>
+#include <StepShape_HArray1OfOrientedClosedShell.hxx>
+#include <StepShape_OrientedClosedShell.hxx>
+#include <StepShape_FacetedBrepAndBrepWithVoids.hxx>
 
 #include <Standard_Type.hxx>
 

@@ -3,7 +3,8 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepBasic_ConversionBasedUnitAndAreaUnit.jxx>
+#include <StepBasic_AreaUnit.hxx>
+#include <StepBasic_ConversionBasedUnitAndAreaUnit.hxx>
 
 #include <Standard_Type.hxx>
 

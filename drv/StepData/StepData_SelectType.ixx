@@ -3,7 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepData_SelectType.jxx>
+#include <Standard_Transient.hxx>
+#include <Standard_TypeMismatch.hxx>
+#include <Standard_Type.hxx>
+#include <StepData_PDescr.hxx>
+#include <StepData_SelectMember.hxx>
+#include <StepData_SelectType.hxx>
 
  
 

@@ -3,7 +3,19 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <MgtPoly.jxx>
+#include <Poly_Triangle.hxx>
+#include <PPoly_Triangle.hxx>
+#include <Poly_Triangulation.hxx>
+#include <PPoly_Triangulation.hxx>
+#include <PTColStd_PersistentTransientMap.hxx>
+#include <PTColStd_TransientPersistentMap.hxx>
+#include <Poly_Polygon3D.hxx>
+#include <PPoly_Polygon3D.hxx>
+#include <Poly_Polygon2D.hxx>
+#include <PPoly_Polygon2D.hxx>
+#include <Poly_PolygonOnTriangulation.hxx>
+#include <PPoly_PolygonOnTriangulation.hxx>
+#include <MgtPoly.hxx>
 
  
 

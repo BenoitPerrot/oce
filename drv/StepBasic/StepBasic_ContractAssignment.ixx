@@ -3,7 +3,8 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepBasic_ContractAssignment.jxx>
+#include <StepBasic_Contract.hxx>
+#include <StepBasic_ContractAssignment.hxx>
 
 #include <Standard_Type.hxx>
 

@@ -3,7 +3,8 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IntTools_SurfaceRangeSampleMapHasher.jxx>
+#include <IntTools_SurfaceRangeSample.hxx>
+#include <IntTools_SurfaceRangeSampleMapHasher.hxx>
 
  
 

@@ -3,7 +3,17 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <AppDef_LinearCriteria.jxx>
+#include <TColStd_HArray1OfReal.hxx>
+#include <FEmTool_ElementaryCriterion.hxx>
+#include <FEmTool_Curve.hxx>
+#include <Standard_NotImplemented.hxx>
+#include <Standard_DomainError.hxx>
+#include <AppDef_MultiLine.hxx>
+#include <FEmTool_HAssemblyTable.hxx>
+#include <TColStd_HArray2OfInteger.hxx>
+#include <math_Matrix.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <AppDef_LinearCriteria.hxx>
 
 #include <Standard_Type.hxx>
 

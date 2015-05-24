@@ -3,7 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TDataXtd_Pattern.jxx>
+#include <Standard_GUID.hxx>
+#include <TDataXtd_Array1OfTrsf.hxx>
+#include <TDataXtd_Pattern.hxx>
 
 #include <Standard_Type.hxx>
 

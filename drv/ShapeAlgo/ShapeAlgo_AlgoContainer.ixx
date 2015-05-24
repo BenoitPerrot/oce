@@ -3,7 +3,22 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <ShapeAlgo_AlgoContainer.jxx>
+#include <ShapeAlgo_ToolContainer.hxx>
+#include <ShapeAnalysis_Wire.hxx>
+#include <ShapeExtend_WireData.hxx>
+#include <Geom_BSplineCurve.hxx>
+#include <TColGeom_SequenceOfCurve.hxx>
+#include <Geom2d_BSplineCurve.hxx>
+#include <TColGeom2d_SequenceOfCurve.hxx>
+#include <TColGeom_HSequenceOfBoundedCurve.hxx>
+#include <TColGeom2d_HSequenceOfBoundedCurve.hxx>
+#include <TopoDS_Shape.hxx>
+#include <Geom_BSplineSurface.hxx>
+#include <Geom_Surface.hxx>
+#include <TopoDS_Wire.hxx>
+#include <TopoDS_Face.hxx>
+#include <Geom_Curve.hxx>
+#include <ShapeAlgo_AlgoContainer.hxx>
 
 #include <Standard_Type.hxx>
 

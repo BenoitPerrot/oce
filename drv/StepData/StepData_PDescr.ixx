@@ -3,7 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepData_PDescr.jxx>
+#include <StepData_PDescr.hxx>
+#include <Standard_Type.hxx>
+#include <StepData_EDescr.hxx>
+#include <StepData_Field.hxx>
+#include <Interface_Check.hxx>
+#include <StepData_PDescr.hxx>
 
 #include <Standard_Type.hxx>
 

@@ -3,7 +3,15 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <STEPConstruct_ContextTool.jxx>
+#include <StepBasic_ApplicationProtocolDefinition.hxx>
+#include <StepGeom_Axis2Placement3d.hxx>
+#include <StepData_StepModel.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <STEPConstruct_AP203Context.hxx>
+#include <TColStd_HSequenceOfTransient.hxx>
+#include <STEPConstruct_Part.hxx>
+#include <STEPConstruct_Assembly.hxx>
+#include <STEPConstruct_ContextTool.hxx>
 
  
 

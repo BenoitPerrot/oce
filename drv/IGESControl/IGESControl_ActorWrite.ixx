@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IGESControl_ActorWrite.jxx>
+#include <Transfer_Finder.hxx>
+#include <Transfer_Binder.hxx>
+#include <Transfer_FinderProcess.hxx>
+#include <IGESControl_ActorWrite.hxx>
 
 #include <Standard_Type.hxx>
 

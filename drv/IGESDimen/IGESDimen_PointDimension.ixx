@@ -3,7 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IGESDimen_PointDimension.jxx>
+#include <IGESDimen_GeneralNote.hxx>
+#include <IGESDimen_LeaderArrow.hxx>
+#include <IGESData_IGESEntity.hxx>
+#include <IGESGeom_CircularArc.hxx>
+#include <IGESGeom_CompositeCurve.hxx>
+#include <IGESDimen_PointDimension.hxx>
 
 #include <Standard_Type.hxx>
 

@@ -3,7 +3,20 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepToTopoDS_Builder.jxx>
+#include <StdFail_NotDone.hxx>
+#include <StepShape_ManifoldSolidBrep.hxx>
+#include <Transfer_TransientProcess.hxx>
+#include <StepShape_BrepWithVoids.hxx>
+#include <StepShape_FacetedBrep.hxx>
+#include <StepShape_FacetedBrepAndBrepWithVoids.hxx>
+#include <StepShape_ShellBasedSurfaceModel.hxx>
+#include <StepToTopoDS_NMTool.hxx>
+#include <StepShape_GeometricSet.hxx>
+#include <StepShape_EdgeBasedWireframeModel.hxx>
+#include <StepShape_FaceBasedSurfaceModel.hxx>
+#include <Transfer_ActorOfTransientProcess.hxx>
+#include <TopoDS_Shape.hxx>
+#include <StepToTopoDS_Builder.hxx>
 
  
 

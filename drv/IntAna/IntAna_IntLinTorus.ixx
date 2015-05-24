@@ -3,7 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IntAna_IntLinTorus.jxx>
+#include <StdFail_NotDone.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <gp_Lin.hxx>
+#include <gp_Torus.hxx>
+#include <gp_Pnt.hxx>
+#include <IntAna_IntLinTorus.hxx>
 
  
 

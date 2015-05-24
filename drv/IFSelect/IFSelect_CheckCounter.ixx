@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IFSelect_CheckCounter.jxx>
+#include <MoniTool_SignText.hxx>
+#include <Interface_CheckIterator.hxx>
+#include <Interface_InterfaceModel.hxx>
+#include <IFSelect_CheckCounter.hxx>
 
 #include <Standard_Type.hxx>
 

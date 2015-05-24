@@ -3,7 +3,16 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IntCurvesFace_Intersector.jxx>
+#include <BRepTopAdaptor_TopolTool.hxx>
+#include <BRepAdaptor_HSurface.hxx>
+#include <TopoDS_Face.hxx>
+#include <gp_Lin.hxx>
+#include <Adaptor3d_HCurve.hxx>
+#include <gp_Pnt.hxx>
+#include <IntCurveSurface_HInter.hxx>
+#include <gp_Pnt2d.hxx>
+#include <Bnd_Box.hxx>
+#include <IntCurvesFace_Intersector.hxx>
 
  
 

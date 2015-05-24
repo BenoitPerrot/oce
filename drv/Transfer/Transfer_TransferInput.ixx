@@ -3,7 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Transfer_TransferInput.jxx>
+#include <Transfer_TransferFailure.hxx>
+#include <Interface_EntityIterator.hxx>
+#include <Transfer_TransferIterator.hxx>
+#include <Transfer_TransientProcess.hxx>
+#include <Interface_InterfaceModel.hxx>
+#include <Interface_Protocol.hxx>
+#include <Transfer_FinderProcess.hxx>
+#include <Transfer_TransferInput.hxx>
 
  
 

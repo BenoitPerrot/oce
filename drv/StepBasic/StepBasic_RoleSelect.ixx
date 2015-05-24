@@ -3,7 +3,19 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepBasic_RoleSelect.jxx>
+#include <Standard_Transient.hxx>
+#include <StepBasic_ActionAssignment.hxx>
+#include <StepBasic_ActionRequestAssignment.hxx>
+#include <StepBasic_ApprovalAssignment.hxx>
+#include <StepBasic_ApprovalDateTime.hxx>
+#include <StepBasic_CertificationAssignment.hxx>
+#include <StepBasic_ContractAssignment.hxx>
+#include <StepBasic_DocumentReference.hxx>
+#include <StepBasic_EffectivityAssignment.hxx>
+#include <StepBasic_GroupAssignment.hxx>
+#include <StepBasic_NameAssignment.hxx>
+#include <StepBasic_SecurityClassificationAssignment.hxx>
+#include <StepBasic_RoleSelect.hxx>
 
  
 

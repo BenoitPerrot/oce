@@ -3,7 +3,17 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TopoDS_Builder.jxx>
+#include <Standard_NullObject.hxx>
+#include <TopoDS_FrozenShape.hxx>
+#include <TopoDS_UnCompatibleShapes.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopoDS_TShape.hxx>
+#include <TopoDS_Wire.hxx>
+#include <TopoDS_Shell.hxx>
+#include <TopoDS_Solid.hxx>
+#include <TopoDS_CompSolid.hxx>
+#include <TopoDS_Compound.hxx>
+#include <TopoDS_Builder.hxx>
 
  
 

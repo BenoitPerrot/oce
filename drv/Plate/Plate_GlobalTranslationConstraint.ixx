@@ -3,7 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Plate_GlobalTranslationConstraint.jxx>
+#include <TColgp_SequenceOfXY.hxx>
+#include <Plate_LinearXYZConstraint.hxx>
+#include <Plate_GlobalTranslationConstraint.hxx>
 
  
 

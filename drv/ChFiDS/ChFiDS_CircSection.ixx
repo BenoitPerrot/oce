@@ -3,7 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <ChFiDS_CircSection.jxx>
+#include <gp_Circ.hxx>
+#include <gp_Lin.hxx>
+#include <ChFiDS_CircSection.hxx>
 
  
 

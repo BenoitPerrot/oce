@@ -3,7 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <HLRAlgo_PolyInternalData.jxx>
+#include <HLRAlgo_HArray1OfTData.hxx>
+#include <HLRAlgo_HArray1OfPISeg.hxx>
+#include <HLRAlgo_HArray1OfPINod.hxx>
+#include <HLRAlgo_Array1OfTData.hxx>
+#include <HLRAlgo_Array1OfPISeg.hxx>
+#include <HLRAlgo_Array1OfPINod.hxx>
+#include <HLRAlgo_PolyInternalData.hxx>
 
 #include <Standard_Type.hxx>
 

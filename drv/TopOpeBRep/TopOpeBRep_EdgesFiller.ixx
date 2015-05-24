@@ -3,7 +3,16 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TopOpeBRep_EdgesFiller.jxx>
+#include <TopOpeBRepDS_HDataStructure.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopOpeBRep_EdgesIntersector.hxx>
+#include <TopOpeBRepDS_ListIteratorOfListOfInterference.hxx>
+#include <TopOpeBRep_Point2d.hxx>
+#include <TopOpeBRepDS_Transition.hxx>
+#include <TopOpeBRepDS_Interference.hxx>
+#include <TopoDS_Edge.hxx>
+#include <TopOpeBRepDS_ListOfInterference.hxx>
+#include <TopOpeBRep_EdgesFiller.hxx>
 
  
 

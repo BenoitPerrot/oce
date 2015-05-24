@@ -3,7 +3,8 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TDocStd_CompoundDelta.jxx>
+#include <TDocStd_Document.hxx>
+#include <TDocStd_CompoundDelta.hxx>
 
 #include <Standard_Type.hxx>
 

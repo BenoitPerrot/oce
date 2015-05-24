@@ -3,7 +3,17 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Prs3d_Drawer.jxx>
+#include <Prs3d_IsoAspect.hxx>
+#include <Prs3d_LineAspect.hxx>
+#include <Prs3d_TextAspect.hxx>
+#include <Prs3d_ShadingAspect.hxx>
+#include <Prs3d_PointAspect.hxx>
+#include <Prs3d_PlaneAspect.hxx>
+#include <Prs3d_ArrowAspect.hxx>
+#include <Prs3d_DatumAspect.hxx>
+#include <Prs3d_DimensionAspect.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <Prs3d_Drawer.hxx>
 
 #include <Standard_Type.hxx>
 

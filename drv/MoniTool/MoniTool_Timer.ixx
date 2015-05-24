@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <MoniTool_Timer.jxx>
+#include <MoniTool_Timer.hxx>
+#include <OSD_Timer.hxx>
+#include <MoniTool_DataMapOfTimer.hxx>
+#include <MoniTool_Timer.hxx>
 
 #include <Standard_Type.hxx>
 

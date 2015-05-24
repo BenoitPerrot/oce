@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepGeom_Axis2Placement.jxx>
+#include <Standard_Transient.hxx>
+#include <StepGeom_Axis2Placement2d.hxx>
+#include <StepGeom_Axis2Placement3d.hxx>
+#include <StepGeom_Axis2Placement.hxx>
 
  
 

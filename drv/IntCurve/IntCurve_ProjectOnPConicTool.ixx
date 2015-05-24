@@ -3,7 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IntCurve_ProjectOnPConicTool.jxx>
+#include <IntCurve_PConic.hxx>
+#include <gp_Pnt2d.hxx>
+#include <IntCurve_ProjectOnPConicTool.hxx>
 
  
 

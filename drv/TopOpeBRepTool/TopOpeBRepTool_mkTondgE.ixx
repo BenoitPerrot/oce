@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TopOpeBRepTool_mkTondgE.jxx>
+#include <TopoDS_Edge.hxx>
+#include <TopoDS_Face.hxx>
+#include <gp_Pnt2d.hxx>
+#include <TopTools_ListOfShape.hxx>
+#include <TopOpeBRepTool_mkTondgE.hxx>
 
  
 

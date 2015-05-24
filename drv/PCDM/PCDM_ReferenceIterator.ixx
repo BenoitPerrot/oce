@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <PCDM_ReferenceIterator.jxx>
+#include <CDM_MessageDriver.hxx>
+#include <CDM_Document.hxx>
+#include <CDM_MetaData.hxx>
+#include <CDM_Application.hxx>
+#include <PCDM_ReferenceIterator.hxx>
 
 #include <Standard_Type.hxx>
 

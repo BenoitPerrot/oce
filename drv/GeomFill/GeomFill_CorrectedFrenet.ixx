@@ -3,7 +3,19 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <GeomFill_CorrectedFrenet.jxx>
+#include <GeomFill_Frenet.hxx>
+#include <Law_Function.hxx>
+#include <TColStd_HArray1OfReal.hxx>
+#include <TColgp_HArray1OfVec.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Standard_ConstructionError.hxx>
+#include <GeomFill_TrihedronLaw.hxx>
+#include <gp_Vec.hxx>
+#include <TColStd_SequenceOfReal.hxx>
+#include <TColgp_SequenceOfVec.hxx>
+#include <Adaptor3d_HCurve.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <GeomFill_CorrectedFrenet.hxx>
 
 #include <Standard_Type.hxx>
 

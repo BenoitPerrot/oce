@@ -3,7 +3,18 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <ShapeExtend_CompositeSurface.jxx>
+#include <TColGeom_HArray2OfSurface.hxx>
+#include <TColStd_HArray1OfReal.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <Geom_Surface.hxx>
+#include <gp_Pnt2d.hxx>
+#include <gp_Trsf2d.hxx>
+#include <gp_Trsf.hxx>
+#include <Geom_Geometry.hxx>
+#include <Geom_Curve.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Vec.hxx>
+#include <ShapeExtend_CompositeSurface.hxx>
 
 #include <Standard_Type.hxx>
 

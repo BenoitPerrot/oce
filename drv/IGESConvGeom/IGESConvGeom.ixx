@@ -3,7 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IGESConvGeom.jxx>
+#include <IGESGeom_SplineCurve.hxx>
+#include <Geom_BSplineCurve.hxx>
+#include <Geom2d_BSplineCurve.hxx>
+#include <IGESGeom_SplineSurface.hxx>
+#include <Geom_BSplineSurface.hxx>
+#include <IGESConvGeom.hxx>
 
  
 

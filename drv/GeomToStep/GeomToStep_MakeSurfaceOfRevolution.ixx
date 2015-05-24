@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <GeomToStep_MakeSurfaceOfRevolution.jxx>
+#include <StepGeom_SurfaceOfRevolution.hxx>
+#include <StdFail_NotDone.hxx>
+#include <Geom_SurfaceOfRevolution.hxx>
+#include <GeomToStep_MakeSurfaceOfRevolution.hxx>
 
  
 

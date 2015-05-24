@@ -3,7 +3,16 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Geom_Parabola.jxx>
+#include <Standard_ConstructionError.hxx>
+#include <Standard_RangeError.hxx>
+#include <gp_Parab.hxx>
+#include <gp_Ax2.hxx>
+#include <gp_Ax1.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Vec.hxx>
+#include <gp_Trsf.hxx>
+#include <Geom_Geometry.hxx>
+#include <Geom_Parabola.hxx>
 
 #include <Standard_Type.hxx>
 

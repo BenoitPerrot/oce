@@ -3,7 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Law_Interpolate.jxx>
+#include <TColStd_HArray1OfReal.hxx>
+#include <Law_BSpline.hxx>
+#include <TColStd_HArray1OfBoolean.hxx>
+#include <StdFail_NotDone.hxx>
+#include <Standard_ConstructionError.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <Law_Interpolate.hxx>
 
  
 

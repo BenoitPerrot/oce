@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IntCurveSurface_Intersection.jxx>
+#include <StdFail_NotDone.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <IntCurveSurface_IntersectionPoint.hxx>
+#include <IntCurveSurface_IntersectionSegment.hxx>
+#include <IntCurveSurface_Intersection.hxx>
 
  
 

@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IGESSolid_VertexList.jxx>
+#include <TColgp_HArray1OfXYZ.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <gp_Pnt.hxx>
+#include <IGESSolid_VertexList.hxx>
 
 #include <Standard_Type.hxx>
 

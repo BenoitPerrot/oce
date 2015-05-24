@@ -3,7 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TDF_Transaction.jxx>
+#include <TDF_Data.hxx>
+#include <Standard_DomainError.hxx>
+#include <Standard_NullObject.hxx>
+#include <TDF_Delta.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <TDF_Transaction.hxx>
 
  
 

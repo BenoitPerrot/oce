@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Quantity_Date.jxx>
+#include <Quantity_DateDefinitionError.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Quantity_Period.hxx>
+#include <Quantity_Date.hxx>
 
 #include <Standard_Type.hxx>
 

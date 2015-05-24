@@ -3,7 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IntSurf_LineOn2S.jxx>
+#include <Standard_OutOfRange.hxx>
+#include <IntSurf_PntOn2S.hxx>
+#include <IntSurf_LineOn2S.hxx>
 
 #include <Standard_Type.hxx>
 

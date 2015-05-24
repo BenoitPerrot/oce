@@ -3,7 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepToGeom_MakeAxisPlacement.jxx>
+#include <StepGeom_Axis2Placement2d.hxx>
+#include <Geom2d_AxisPlacement.hxx>
+#include <StepToGeom_MakeAxisPlacement.hxx>
 
  
 

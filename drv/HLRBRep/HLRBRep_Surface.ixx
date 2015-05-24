@@ -3,7 +3,16 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <HLRBRep_Surface.jxx>
+#include <Standard_OutOfRange.hxx>
+#include <Standard_NoSuchObject.hxx>
+#include <Standard_DomainError.hxx>
+#include <BRepAdaptor_Surface.hxx>
+#include <TopoDS_Face.hxx>
+#include <TColgp_Array2OfPnt.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Vec.hxx>
+#include <gp_Pln.hxx>
+#include <HLRBRep_Surface.hxx>
 
  
 

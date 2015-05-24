@@ -3,7 +3,27 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <STEPControl_ActorRead.jxx>
+#include <StepRepr_Representation.hxx>
+#include <Standard_Transient.hxx>
+#include <Transfer_Binder.hxx>
+#include <Transfer_TransientProcess.hxx>
+#include <StepGeom_Axis2Placement3d.hxx>
+#include <gp_Trsf.hxx>
+#include <StepRepr_RepresentationRelationship.hxx>
+#include <TransferBRep_ShapeBinder.hxx>
+#include <StepBasic_ProductDefinition.hxx>
+#include <StepRepr_NextAssemblyUsageOccurrence.hxx>
+#include <StepShape_ShapeRepresentation.hxx>
+#include <StepShape_ContextDependentShapeRepresentation.hxx>
+#include <StepRepr_ShapeRepresentationRelationship.hxx>
+#include <StepGeom_GeometricRepresentationItem.hxx>
+#include <StepRepr_MappedItem.hxx>
+#include <StepShape_FaceSurface.hxx>
+#include <TopoDS_Shell.hxx>
+#include <TopTools_ListOfShape.hxx>
+#include <TopoDS_Compound.hxx>
+#include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
+#include <STEPControl_ActorRead.hxx>
 
 #include <Standard_Type.hxx>
 

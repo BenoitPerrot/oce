@@ -3,7 +3,8 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StdPrs_ToolRFace.jxx>
+#include <BRepAdaptor_HSurface.hxx>
+#include <StdPrs_ToolRFace.hxx>
 
  
 

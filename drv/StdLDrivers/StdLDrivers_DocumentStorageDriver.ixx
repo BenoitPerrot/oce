@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StdLDrivers_DocumentStorageDriver.jxx>
+#include <CDM_Document.hxx>
+#include <PCDM_SequenceOfDocument.hxx>
+#include <MDF_ASDriverTable.hxx>
+#include <CDM_MessageDriver.hxx>
+#include <StdLDrivers_DocumentStorageDriver.hxx>
 
 #include <Standard_Type.hxx>
 

@@ -3,7 +3,17 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Prs3d_ShapeTool.jxx>
+#include <TopoDS_Shape.hxx>
+#include <TopoDS_Face.hxx>
+#include <Bnd_Box.hxx>
+#include <TopoDS_Edge.hxx>
+#include <TopTools_HSequenceOfShape.hxx>
+#include <TopoDS_Vertex.hxx>
+#include <Poly_Triangulation.hxx>
+#include <TopLoc_Location.hxx>
+#include <Poly_PolygonOnTriangulation.hxx>
+#include <Poly_Polygon3D.hxx>
+#include <Prs3d_ShapeTool.hxx>
 
  
 

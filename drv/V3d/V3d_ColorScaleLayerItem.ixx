@@ -3,7 +3,8 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <V3d_ColorScaleLayerItem.jxx>
+#include <V3d_ColorScale.hxx>
+#include <V3d_ColorScaleLayerItem.hxx>
 
 #include <Standard_Type.hxx>
 

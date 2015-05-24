@@ -3,7 +3,15 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IFSelect_EditForm.jxx>
+#include <IFSelect_Editor.hxx>
+#include <Standard_Transient.hxx>
+#include <Interface_InterfaceModel.hxx>
+#include <TColStd_SequenceOfInteger.hxx>
+#include <IFSelect_ListEditor.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <TColStd_HSequenceOfHAsciiString.hxx>
+#include <Message_Messenger.hxx>
+#include <IFSelect_EditForm.hxx>
 
 #include <Standard_Type.hxx>
 

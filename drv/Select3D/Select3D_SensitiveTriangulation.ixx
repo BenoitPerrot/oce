@@ -3,7 +3,20 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Select3D_SensitiveTriangulation.jxx>
+#include <Poly_Triangulation.hxx>
+#include <TColStd_HArray1OfInteger.hxx>
+#include <SelectBasics_EntityOwner.hxx>
+#include <TopLoc_Location.hxx>
+#include <gp_Pnt.hxx>
+#include <Select3D_Projector.hxx>
+#include <SelectBasics_ListOfBox2d.hxx>
+#include <Select3D_SensitiveEntity.hxx>
+#include <TColgp_Array1OfPnt2d.hxx>
+#include <Bnd_Box2d.hxx>
+#include <gp_Lin.hxx>
+#include <gp_Pnt2d.hxx>
+#include <gp_XY.hxx>
+#include <Select3D_SensitiveTriangulation.hxx>
 
 #include <Standard_Type.hxx>
 

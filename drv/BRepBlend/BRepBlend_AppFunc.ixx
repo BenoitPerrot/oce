@@ -3,7 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <BRepBlend_AppFunc.jxx>
+#include <Standard_OutOfRange.hxx>
+#include <BRepBlend_Line.hxx>
+#include <Blend_Function.hxx>
+#include <Blend_AppFunction.hxx>
+#include <Blend_Point.hxx>
+#include <BRepBlend_AppFunc.hxx>
 
 #include <Standard_Type.hxx>
 

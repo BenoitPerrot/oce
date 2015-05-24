@@ -3,7 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepShape_AngularLocation.jxx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepRepr_ShapeAspect.hxx>
+#include <StepShape_AngularLocation.hxx>
 
 #include <Standard_Type.hxx>
 

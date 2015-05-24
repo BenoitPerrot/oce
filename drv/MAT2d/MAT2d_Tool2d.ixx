@@ -3,7 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <MAT2d_Tool2d.jxx>
+#include <MAT2d_Circuit.hxx>
+#include <MAT_Bisector.hxx>
+#include <Bisector_Bisec.hxx>
+#include <Geom2d_Geometry.hxx>
+#include <gp_Pnt2d.hxx>
+#include <gp_Vec2d.hxx>
+#include <MAT2d_Tool2d.hxx>
 
  
 

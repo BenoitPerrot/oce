@@ -3,7 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepToGeom_MakeBoundedCurve2d.jxx>
+#include <StepGeom_BoundedCurve.hxx>
+#include <Geom2d_BoundedCurve.hxx>
+#include <StepToGeom_MakeBoundedCurve2d.hxx>
 
  
 

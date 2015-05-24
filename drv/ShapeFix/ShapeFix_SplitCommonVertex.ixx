@@ -3,7 +3,8 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <ShapeFix_SplitCommonVertex.jxx>
+#include <TopoDS_Shape.hxx>
+#include <ShapeFix_SplitCommonVertex.hxx>
 
 #include <Standard_Type.hxx>
 

@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <BOPTest_Objects.jxx>
+#include <BOPAlgo_PaveFiller.hxx>
+#include <BOPAlgo_Builder.hxx>
+#include <BOPAlgo_BOP.hxx>
+#include <BOPAlgo_Section.hxx>
+#include <BOPTest_Objects.hxx>
 
  
 

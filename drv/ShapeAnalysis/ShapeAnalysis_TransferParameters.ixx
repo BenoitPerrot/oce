@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <ShapeAnalysis_TransferParameters.jxx>
+#include <TopoDS_Edge.hxx>
+#include <TopoDS_Face.hxx>
+#include <TColStd_HSequenceOfReal.hxx>
+#include <ShapeAnalysis_TransferParameters.hxx>
 
 #include <Standard_Type.hxx>
 

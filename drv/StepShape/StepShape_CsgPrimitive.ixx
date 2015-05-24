@@ -3,7 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepShape_CsgPrimitive.jxx>
+#include <Standard_Transient.hxx>
+#include <StepShape_Sphere.hxx>
+#include <StepShape_Block.hxx>
+#include <StepShape_RightAngularWedge.hxx>
+#include <StepShape_Torus.hxx>
+#include <StepShape_RightCircularCone.hxx>
+#include <StepShape_RightCircularCylinder.hxx>
+#include <StepShape_CsgPrimitive.hxx>
 
  
 

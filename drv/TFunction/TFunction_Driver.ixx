@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TFunction_Driver.jxx>
+#include <TDF_Label.hxx>
+#include <TFunction_Logbook.hxx>
+#include <TDF_LabelList.hxx>
+#include <TFunction_Driver.hxx>
 
 #include <Standard_Type.hxx>
 

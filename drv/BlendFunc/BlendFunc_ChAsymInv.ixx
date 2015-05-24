@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <BlendFunc_ChAsymInv.jxx>
+#include <Adaptor3d_HSurface.hxx>
+#include <Adaptor3d_HCurve.hxx>
+#include <Adaptor2d_HCurve2d.hxx>
+#include <math_Matrix.hxx>
+#include <BlendFunc_ChAsymInv.hxx>
 
  
 

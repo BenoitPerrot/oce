@@ -3,7 +3,19 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TDataXtd_Geometry.jxx>
+#include <TDF_Label.hxx>
+#include <TNaming_NamedShape.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Ax1.hxx>
+#include <gp_Lin.hxx>
+#include <gp_Circ.hxx>
+#include <gp_Elips.hxx>
+#include <gp_Pln.hxx>
+#include <gp_Cylinder.hxx>
+#include <Standard_GUID.hxx>
+#include <TDF_Attribute.hxx>
+#include <TDF_RelocationTable.hxx>
+#include <TDataXtd_Geometry.hxx>
 
 #include <Standard_Type.hxx>
 

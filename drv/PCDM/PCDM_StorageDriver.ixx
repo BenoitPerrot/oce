@@ -3,7 +3,15 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <PCDM_StorageDriver.jxx>
+#include <Standard_NoSuchObject.hxx>
+#include <PCDM_DriverError.hxx>
+#include <PCDM_Document.hxx>
+#include <CDM_Document.hxx>
+#include <PCDM_SequenceOfDocument.hxx>
+#include <TCollection_ExtendedString.hxx>
+#include <Storage_Schema.hxx>
+#include <TColStd_SequenceOfExtendedString.hxx>
+#include <PCDM_StorageDriver.hxx>
 
 #include <Standard_Type.hxx>
 

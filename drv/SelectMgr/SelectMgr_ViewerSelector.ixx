@@ -3,7 +3,19 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <SelectMgr_ViewerSelector.jxx>
+#include <TColStd_HArray1OfInteger.hxx>
+#include <SelectMgr_SelectionManager.hxx>
+#include <SelectMgr_Selection.hxx>
+#include <SelectMgr_SelectableObject.hxx>
+#include <Bnd_Box2d.hxx>
+#include <TColgp_Array1OfPnt2d.hxx>
+#include <SelectMgr_EntityOwner.hxx>
+#include <TColStd_ListOfInteger.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <SelectBasics_SensitiveEntity.hxx>
+#include <SelectMgr_DataMapOfIntegerSensitive.hxx>
+#include <gp_Lin.hxx>
+#include <SelectMgr_ViewerSelector.hxx>
 
 #include <Standard_Type.hxx>
 

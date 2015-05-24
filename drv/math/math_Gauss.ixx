@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <math_Gauss.jxx>
+#include <math_NotSquare.hxx>
+#include <Standard_DimensionError.hxx>
+#include <StdFail_NotDone.hxx>
+#include <math_Matrix.hxx>
+#include <math_Gauss.hxx>
 
  
 

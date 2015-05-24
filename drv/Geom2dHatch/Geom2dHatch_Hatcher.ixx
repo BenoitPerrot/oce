@@ -3,7 +3,16 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Geom2dHatch_Hatcher.jxx>
+#include <Standard_NoSuchObject.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <StdFail_NotDone.hxx>
+#include <Geom2dHatch_Intersector.hxx>
+#include <Geom2dHatch_Element.hxx>
+#include <Geom2dAdaptor_Curve.hxx>
+#include <Geom2dHatch_Hatching.hxx>
+#include <HatchGen_PointOnHatching.hxx>
+#include <HatchGen_Domain.hxx>
+#include <Geom2dHatch_Hatcher.hxx>
 
  
 

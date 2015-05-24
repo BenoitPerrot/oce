@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <FairCurve_Energy.jxx>
+#include <TColgp_HArray1OfPnt2d.hxx>
+#include <math_Matrix.hxx>
+#include <gp_Pnt2d.hxx>
+#include <FairCurve_Energy.hxx>
 
  
 

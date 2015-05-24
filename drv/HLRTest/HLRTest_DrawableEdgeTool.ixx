@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <HLRTest_DrawableEdgeTool.jxx>
+#include <HLRBRep_Algo.hxx>
+#include <Draw_Display.hxx>
+#include <HLRBRep_Data.hxx>
+#include <HLRBRep_EdgeData.hxx>
+#include <HLRTest_DrawableEdgeTool.hxx>
 
 #include <Standard_Type.hxx>
 

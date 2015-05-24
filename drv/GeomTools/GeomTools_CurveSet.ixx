@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <GeomTools_CurveSet.jxx>
+#include <Message_ProgressIndicator.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Geom_Curve.hxx>
+#include <GeomTools_CurveSet.hxx>
 
  
 

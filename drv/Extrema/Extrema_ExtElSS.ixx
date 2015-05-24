@@ -3,7 +3,18 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Extrema_ExtElSS.jxx>
+#include <TColStd_HArray1OfReal.hxx>
+#include <Extrema_HArray1OfPOnSurf.hxx>
+#include <StdFail_InfiniteSolutions.hxx>
+#include <StdFail_NotDone.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <gp_Pln.hxx>
+#include <gp_Sphere.hxx>
+#include <gp_Cylinder.hxx>
+#include <gp_Cone.hxx>
+#include <gp_Torus.hxx>
+#include <Extrema_POnSurf.hxx>
+#include <Extrema_ExtElSS.hxx>
 
  
 

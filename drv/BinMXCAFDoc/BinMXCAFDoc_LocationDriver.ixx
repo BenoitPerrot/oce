@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <BinMXCAFDoc_LocationDriver.jxx>
+#include <CDM_MessageDriver.hxx>
+#include <TDF_Attribute.hxx>
+#include <BinObjMgt_Persistent.hxx>
+#include <TopLoc_Location.hxx>
+#include <BinMXCAFDoc_LocationDriver.hxx>
 
 #include <Standard_Type.hxx>
 

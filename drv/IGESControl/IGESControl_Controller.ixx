@@ -3,7 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IGESControl_Controller.jxx>
+#include <Interface_InterfaceModel.hxx>
+#include <Transfer_ActorOfTransientProcess.hxx>
+#include <TopoDS_Shape.hxx>
+#include <Transfer_FinderProcess.hxx>
+#include <XSControl_WorkSession.hxx>
+#include <IGESControl_Controller.hxx>
 
 #include <Standard_Type.hxx>
 

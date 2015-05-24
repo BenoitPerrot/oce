@@ -3,7 +3,16 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <STEPCAFControl_Writer.jxx>
+#include <STEPCAFControl_DictionaryOfExternFile.hxx>
+#include <XSControl_WorkSession.hxx>
+#include <TDocStd_Document.hxx>
+#include <TDF_Label.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <STEPCAFControl_ExternFile.hxx>
+#include <STEPControl_Writer.hxx>
+#include <TDF_LabelSequence.hxx>
+#include <TopoDS_Shape.hxx>
+#include <STEPCAFControl_Writer.hxx>
 
  
 

@@ -3,7 +3,17 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Interface_ShareFlags.jxx>
+#include <Interface_InterfaceModel.hxx>
+#include <TColStd_HSequenceOfTransient.hxx>
+#include <Standard_DomainError.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Interface_GeneralLib.hxx>
+#include <Interface_GTool.hxx>
+#include <Interface_Protocol.hxx>
+#include <Interface_Graph.hxx>
+#include <Standard_Transient.hxx>
+#include <Interface_EntityIterator.hxx>
+#include <Interface_ShareFlags.hxx>
 
  
 

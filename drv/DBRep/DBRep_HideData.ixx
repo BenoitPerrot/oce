@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <DBRep_HideData.jxx>
+#include <gp_Trsf.hxx>
+#include <TopoDS_Shape.hxx>
+#include <Draw_Display.hxx>
+#include <Draw_Color.hxx>
+#include <DBRep_HideData.hxx>
 
  
 

@@ -3,7 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <ShapeExtend_WireData.jxx>
+#include <TopTools_HSequenceOfShape.hxx>
+#include <TColStd_HSequenceOfInteger.hxx>
+#include <TopoDS_Wire.hxx>
+#include <TopoDS_Edge.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopoDS_Face.hxx>
+#include <ShapeExtend_WireData.hxx>
 
 #include <Standard_Type.hxx>
 

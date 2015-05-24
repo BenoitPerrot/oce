@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <XmlMXCAFDoc_VolumeDriver.jxx>
+#include <CDM_MessageDriver.hxx>
+#include <TDF_Attribute.hxx>
+#include <XmlObjMgt_Persistent.hxx>
+#include <XmlMXCAFDoc_VolumeDriver.hxx>
 
 #include <Standard_Type.hxx>
 

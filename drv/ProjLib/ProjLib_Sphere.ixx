@@ -3,7 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <ProjLib_Sphere.jxx>
+#include <Standard_NoSuchObject.hxx>
+#include <gp_Sphere.hxx>
+#include <gp_Circ.hxx>
+#include <gp_Lin.hxx>
+#include <gp_Elips.hxx>
+#include <gp_Parab.hxx>
+#include <gp_Hypr.hxx>
+#include <ProjLib_Sphere.hxx>
 
  
 

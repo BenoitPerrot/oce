@@ -3,7 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepGeom_BSplineSurfaceWithKnotsAndRationalBSplineSurface.jxx>
+#include <StepGeom_BSplineSurfaceWithKnots.hxx>
+#include <StepGeom_RationalBSplineSurface.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepGeom_HArray2OfCartesianPoint.hxx>
+#include <TColStd_HArray1OfInteger.hxx>
+#include <TColStd_HArray1OfReal.hxx>
+#include <TColStd_HArray2OfReal.hxx>
+#include <StepGeom_BSplineSurfaceWithKnotsAndRationalBSplineSurface.hxx>
 
 #include <Standard_Type.hxx>
 

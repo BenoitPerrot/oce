@@ -3,7 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Transfer_FinderProcess.jxx>
+#include <Interface_InterfaceModel.hxx>
+#include <Transfer_TransientMapper.hxx>
+#include <Standard_Transient.hxx>
+#include <Transfer_Finder.hxx>
+#include <Message_Messenger.hxx>
+#include <Transfer_FinderProcess.hxx>
 
 #include <Standard_Type.hxx>
 

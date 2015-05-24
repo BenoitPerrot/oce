@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Extrema_FuncExtSS.jxx>
+#include <Standard_OutOfRange.hxx>
+#include <Adaptor3d_Surface.hxx>
+#include <math_Matrix.hxx>
+#include <Extrema_POnSurf.hxx>
+#include <Extrema_FuncExtSS.hxx>
 
  
 

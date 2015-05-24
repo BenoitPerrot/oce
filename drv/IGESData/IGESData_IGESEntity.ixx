@@ -3,7 +3,25 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IGESData_IGESEntity.jxx>
+#include <IGESData_IGESEntity.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <Interface_InterfaceError.hxx>
+#include <IGESData_ReadWriteModule.hxx>
+#include <IGESData_GeneralModule.hxx>
+#include <IGESData_IGESReaderTool.hxx>
+#include <IGESData_DirChecker.hxx>
+#include <IGESData_IGESType.hxx>
+#include <IGESData_LineFontEntity.hxx>
+#include <IGESData_LevelListEntity.hxx>
+#include <IGESData_ViewKindEntity.hxx>
+#include <IGESData_TransfEntity.hxx>
+#include <IGESData_LabelDisplayEntity.hxx>
+#include <IGESData_ColorEntity.hxx>
+#include <gp_GTrsf.hxx>
+#include <Interface_EntityIterator.hxx>
+#include <Standard_Type.hxx>
+#include <Interface_EntityList.hxx>
+#include <IGESData_IGESEntity.hxx>
 
 #include <Standard_Type.hxx>
 

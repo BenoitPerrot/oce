@@ -3,7 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepGeom_BezierSurfaceAndRationalBSplineSurface.jxx>
+#include <StepGeom_BezierSurface.hxx>
+#include <StepGeom_RationalBSplineSurface.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepGeom_HArray2OfCartesianPoint.hxx>
+#include <TColStd_HArray2OfReal.hxx>
+#include <StepGeom_BezierSurfaceAndRationalBSplineSurface.hxx>
 
 #include <Standard_Type.hxx>
 

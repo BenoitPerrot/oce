@@ -3,7 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StdSelect_BRepSelectionTool.jxx>
+#include <SelectMgr_Selection.hxx>
+#include <TopoDS_Shape.hxx>
+#include <SelectMgr_SelectableObject.hxx>
+#include <StdSelect_BRepOwner.hxx>
+#include <Select3D_SensitiveEntity.hxx>
+#include <TopoDS_Face.hxx>
+#include <Select3D_ListOfSensitive.hxx>
+#include <StdSelect_BRepSelectionTool.hxx>
 
  
 

@@ -3,7 +3,20 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepData_StepReaderData.jxx>
+#include <Interface_Check.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <TColStd_SequenceOfAsciiString.hxx>
+#include <StepData_PDescr.hxx>
+#include <Standard_Transient.hxx>
+#include <StepData_SelectMember.hxx>
+#include <StepData_Field.hxx>
+#include <StepData_ESDescr.hxx>
+#include <StepData_FieldList.hxx>
+#include <Standard_Type.hxx>
+#include <StepData_SelectType.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepData_EnumTool.hxx>
+#include <StepData_StepReaderData.hxx>
 
 #include <Standard_Type.hxx>
 

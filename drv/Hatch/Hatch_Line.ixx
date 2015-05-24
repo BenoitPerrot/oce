@@ -3,7 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Hatch_Line.jxx>
+#include <Hatch_Hatcher.hxx>
+#include <gp_Lin2d.hxx>
+#include <Hatch_Line.hxx>
 
  
 

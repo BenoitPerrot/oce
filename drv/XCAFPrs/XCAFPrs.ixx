@@ -3,7 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <XCAFPrs.jxx>
+#include <TDF_Label.hxx>
+#include <TopLoc_Location.hxx>
+#include <XCAFPrs_DataMapOfShapeStyle.hxx>
+#include <TopoDS_Shape.hxx>
+#include <XCAFPrs_DataMapOfStyleShape.hxx>
+#include <XCAFPrs_Style.hxx>
+#include <XCAFPrs.hxx>
 
  
 

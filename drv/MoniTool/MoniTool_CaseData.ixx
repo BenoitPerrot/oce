@@ -3,7 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <MoniTool_CaseData.jxx>
+#include <Standard_Transient.hxx>
+#include <TopoDS_Shape.hxx>
+#include <gp_XYZ.hxx>
+#include <gp_XY.hxx>
+#include <Standard_Type.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <Message_Msg.hxx>
+#include <MoniTool_CaseData.hxx>
 
 #include <Standard_Type.hxx>
 

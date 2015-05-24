@@ -3,7 +3,23 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IGESToBRep_BasicSurface.jxx>
+#include <IGESToBRep_CurveAndSurface.hxx>
+#include <Geom_Surface.hxx>
+#include <IGESData_IGESEntity.hxx>
+#include <Geom_Plane.hxx>
+#include <IGESSolid_PlaneSurface.hxx>
+#include <Geom_CylindricalSurface.hxx>
+#include <IGESSolid_CylindricalSurface.hxx>
+#include <Geom_ConicalSurface.hxx>
+#include <IGESSolid_ConicalSurface.hxx>
+#include <Geom_SphericalSurface.hxx>
+#include <IGESSolid_SphericalSurface.hxx>
+#include <Geom_ToroidalSurface.hxx>
+#include <IGESSolid_ToroidalSurface.hxx>
+#include <Geom_BSplineSurface.hxx>
+#include <IGESGeom_SplineSurface.hxx>
+#include <IGESGeom_BSplineSurface.hxx>
+#include <IGESToBRep_BasicSurface.hxx>
 
  
 

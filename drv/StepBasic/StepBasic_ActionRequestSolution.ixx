@@ -3,7 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepBasic_ActionRequestSolution.jxx>
+#include <StepBasic_ActionMethod.hxx>
+#include <StepBasic_VersionedActionRequest.hxx>
+#include <StepBasic_ActionRequestSolution.hxx>
 
 #include <Standard_Type.hxx>
 

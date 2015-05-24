@@ -3,7 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IGESData_FreeFormatEntity.jxx>
+#include <TColStd_HSequenceOfInteger.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Interface_InterfaceError.hxx>
+#include <IGESData_IGESEntity.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <IGESData_HArray1OfIGESEntity.hxx>
+#include <IGESData_IGESWriter.hxx>
+#include <IGESData_FreeFormatEntity.hxx>
 
 #include <Standard_Type.hxx>
 

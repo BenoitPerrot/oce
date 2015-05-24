@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IFSelect_Functions.jxx>
+#include <Standard_Transient.hxx>
+#include <IFSelect_WorkSession.hxx>
+#include <TColStd_HSequenceOfTransient.hxx>
+#include <IFSelect_Dispatch.hxx>
+#include <IFSelect_Functions.hxx>
 
  
 

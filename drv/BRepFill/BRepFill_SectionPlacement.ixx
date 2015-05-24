@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <BRepFill_SectionPlacement.jxx>
+#include <BRepFill_LocationLaw.hxx>
+#include <TopoDS_Shape.hxx>
+#include <gp_Trsf.hxx>
+#include <BRepFill_SectionPlacement.hxx>
 
  
 

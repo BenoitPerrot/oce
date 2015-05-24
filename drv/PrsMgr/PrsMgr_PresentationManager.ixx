@@ -3,7 +3,15 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <PrsMgr_PresentationManager.jxx>
+#include <Graphic3d_StructureManager.hxx>
+#include <V3d_View.hxx>
+#include <Standard_NoSuchObject.hxx>
+#include <PrsMgr_PresentableObject.hxx>
+#include <Prs3d_Presentation.hxx>
+#include <Geom_Transformation.hxx>
+#include <Prs3d_ShadingAspect.hxx>
+#include <PrsMgr_Presentation.hxx>
+#include <PrsMgr_PresentationManager.hxx>
 
 #include <Standard_Type.hxx>
 

@@ -3,7 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <STEPConstruct_Assembly.jxx>
+#include <StepShape_ShapeDefinitionRepresentation.hxx>
+#include <StepShape_ShapeRepresentation.hxx>
+#include <Standard_Transient.hxx>
+#include <StepGeom_Axis2Placement3d.hxx>
+#include <StepRepr_NextAssemblyUsageOccurrence.hxx>
+#include <Interface_InterfaceModel.hxx>
+#include <StepShape_ContextDependentShapeRepresentation.hxx>
+#include <STEPConstruct_Assembly.hxx>
 
  
 

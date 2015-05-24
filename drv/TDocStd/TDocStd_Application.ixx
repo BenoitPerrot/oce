@@ -3,7 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TDocStd_Application.jxx>
+#include <Resource_Manager.hxx>
+#include <Standard_NoSuchObject.hxx>
+#include <TDocStd_Document.hxx>
+#include <TColStd_SequenceOfExtendedString.hxx>
+#include <TCollection_ExtendedString.hxx>
+#include <TDocStd_Application.hxx>
 
 #include <Standard_Type.hxx>
 

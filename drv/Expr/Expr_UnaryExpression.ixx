@@ -3,7 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Expr_UnaryExpression.jxx>
+#include <Expr_GeneralExpression.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Standard_NumericError.hxx>
+#include <Expr_InvalidOperand.hxx>
+#include <Expr_NamedUnknown.hxx>
+#include <Expr_UnaryExpression.hxx>
 
 #include <Standard_Type.hxx>
 

@@ -3,7 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Geom2dToIGES_Geom2dVector.jxx>
+#include <Geom2dToIGES_Geom2dEntity.hxx>
+#include <IGESGeom_Direction.hxx>
+#include <Geom2d_Vector.hxx>
+#include <Geom2d_VectorWithMagnitude.hxx>
+#include <Geom2d_Direction.hxx>
+#include <Geom2dToIGES_Geom2dVector.hxx>
 
  
 

@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <GeomFill_BSplineCurves.jxx>
+#include <Geom_BSplineSurface.hxx>
+#include <Standard_ConstructionError.hxx>
+#include <Geom_BSplineCurve.hxx>
+#include <GeomFill_BSplineCurves.hxx>
 
  
 

@@ -3,7 +3,24 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TopOpeBRep_FacesFiller.jxx>
+#include <TopOpeBRepDS_HDataStructure.hxx>
+#include <TopOpeBRep_FFDumper.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopOpeBRep_FacesIntersector.hxx>
+#include <TopOpeBRep_PointClassifier.hxx>
+#include <TopOpeBRep_LineInter.hxx>
+#include <TopOpeBRep_VPointInter.hxx>
+#include <TopOpeBRep_VPointInterClassifier.hxx>
+#include <TopTools_ListOfShape.hxx>
+#include <TopOpeBRep_VPointInterIterator.hxx>
+#include <TopOpeBRepDS_Transition.hxx>
+#include <TopOpeBRepDS_Interference.hxx>
+#include <TopOpeBRepDS_ListIteratorOfListOfInterference.hxx>
+#include <TopOpeBRepDS_Point.hxx>
+#include <TopoDS_Face.hxx>
+#include <gp_Pnt.hxx>
+#include <TopOpeBRepDS_DataStructure.hxx>
+#include <TopOpeBRep_FacesFiller.hxx>
 
  
 

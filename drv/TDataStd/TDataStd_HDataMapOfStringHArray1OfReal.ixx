@@ -3,7 +3,8 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TDataStd_HDataMapOfStringHArray1OfReal.jxx>
+#include <TDataStd_DataMapOfStringHArray1OfReal.hxx>
+#include <TDataStd_HDataMapOfStringHArray1OfReal.hxx>
 
 #include <Standard_Type.hxx>
 

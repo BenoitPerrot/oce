@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <AIS_EllipseRadiusDimension.jxx>
+#include <Geom_OffsetCurve.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TCollection_ExtendedString.hxx>
+#include <Geom_Surface.hxx>
+#include <AIS_EllipseRadiusDimension.hxx>
 
 #include <Standard_Type.hxx>
 

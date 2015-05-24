@@ -3,7 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <BRepFill_SectionLaw.jxx>
+#include <GeomFill_HArray1OfSectionLaw.hxx>
+#include <GeomFill_SectionLaw.hxx>
+#include <TopoDS_Vertex.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopoDS_Wire.hxx>
+#include <TopoDS_Edge.hxx>
+#include <BRepFill_SectionLaw.hxx>
 
 #include <Standard_Type.hxx>
 

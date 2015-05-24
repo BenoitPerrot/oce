@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Units_Unit.jxx>
+#include <TCollection_HAsciiString.hxx>
+#include <TColStd_HSequenceOfHAsciiString.hxx>
+#include <Units_Quantity.hxx>
+#include <Units_Token.hxx>
+#include <Units_Unit.hxx>
 
 #include <Standard_Type.hxx>
 

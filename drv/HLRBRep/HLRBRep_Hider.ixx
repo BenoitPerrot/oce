@@ -3,7 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <HLRBRep_Hider.jxx>
+#include <HLRBRep_Data.hxx>
+#include <BRepTopAdaptor_MapOfShapeTool.hxx>
+#include <HLRBRep_Hider.hxx>
 
  
 

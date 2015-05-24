@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Expr_LessThan.jxx>
+#include <Standard_NumericError.hxx>
+#include <Expr_GeneralExpression.hxx>
+#include <Expr_GeneralRelation.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <Expr_LessThan.hxx>
 
 #include <Standard_Type.hxx>
 

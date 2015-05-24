@@ -3,7 +3,19 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TNaming_NamedShape.jxx>
+#include <TNaming_Builder.hxx>
+#include <TNaming_Iterator.hxx>
+#include <TNaming_NewShapeIterator.hxx>
+#include <TNaming_OldShapeIterator.hxx>
+#include <Standard_GUID.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TDF_Attribute.hxx>
+#include <TDF_DeltaOnModification.hxx>
+#include <TDF_DeltaOnRemoval.hxx>
+#include <TDF_RelocationTable.hxx>
+#include <TDF_DataSet.hxx>
+#include <TDF_AttributeDelta.hxx>
+#include <TNaming_NamedShape.hxx>
 
 #include <Standard_Type.hxx>
 

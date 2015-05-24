@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TopOpeBRepBuild_VertexInfo.jxx>
+#include <TopoDS_Vertex.hxx>
+#include <TopoDS_Edge.hxx>
+#include <TopTools_IndexedMapOfOrientedShape.hxx>
+#include <TopTools_ListOfShape.hxx>
+#include <TopOpeBRepBuild_VertexInfo.hxx>
 
  
 

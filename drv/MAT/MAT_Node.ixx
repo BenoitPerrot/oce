@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <MAT_Node.jxx>
+#include <MAT_Arc.hxx>
+#include <MAT_SequenceOfArc.hxx>
+#include <MAT_SequenceOfBasicElt.hxx>
+#include <MAT_Node.hxx>
 
 #include <Standard_Type.hxx>
 

@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Font_FontMgr.jxx>
+#include <TColStd_SequenceOfHAsciiString.hxx>
+#include <Font_SystemFont.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <Font_FontMgr.hxx>
 
 #include <Standard_Type.hxx>
 

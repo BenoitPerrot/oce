@@ -3,7 +3,22 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TopOpeBRep_LineInter.jxx>
+#include <IntPatch_Line.hxx>
+#include <IntPatch_ALine.hxx>
+#include <IntPatch_RLine.hxx>
+#include <IntPatch_WLine.hxx>
+#include <IntPatch_GLine.hxx>
+#include <TopOpeBRep_HArray1OfVPointInter.hxx>
+#include <BRepAdaptor_Surface.hxx>
+#include <TopoDS_Face.hxx>
+#include <TopOpeBRep_VPointInter.hxx>
+#include <TopOpeBRep_WPointInter.hxx>
+#include <Geom_Curve.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopOpeBRepDS_Transition.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <TopOpeBRep_Bipoint.hxx>
+#include <TopOpeBRep_LineInter.hxx>
 
  
 

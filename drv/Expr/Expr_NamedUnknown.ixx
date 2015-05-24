@@ -3,7 +3,17 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Expr_NamedUnknown.jxx>
+#include <Expr_GeneralExpression.hxx>
+#include <Expr_NotAssigned.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Standard_NumericError.hxx>
+#include <Expr_InvalidAssignment.hxx>
+#include <Expr_InvalidOperand.hxx>
+#include <Expr_NotEvaluable.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <Expr_Array1OfNamedUnknown.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <Expr_NamedUnknown.hxx>
 
 #include <Standard_Type.hxx>
 

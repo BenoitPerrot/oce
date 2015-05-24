@@ -3,7 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepSelect_StepType.jxx>
+#include <StepData_Protocol.hxx>
+#include <Interface_InterfaceError.hxx>
+#include <Interface_Protocol.hxx>
+#include <Standard_Transient.hxx>
+#include <Interface_InterfaceModel.hxx>
+#include <StepSelect_StepType.hxx>
 
 #include <Standard_Type.hxx>
 

@@ -3,7 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Law.jxx>
+#include <Law_BSpFunc.hxx>
+#include <Law_Linear.hxx>
+#include <TColStd_HArray1OfReal.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <TColStd_Array1OfInteger.hxx>
+#include <Law_BSpline.hxx>
+#include <Adaptor3d_Curve.hxx>
+#include <Law.hxx>
 
  
 

@@ -3,7 +3,15 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <BRepFill_NSections.jxx>
+#include <TopTools_HArray2OfShape.hxx>
+#include <Geom_BSplineSurface.hxx>
+#include <TopTools_SequenceOfShape.hxx>
+#include <GeomFill_SequenceOfTrsf.hxx>
+#include <TColStd_SequenceOfReal.hxx>
+#include <GeomFill_SectionLaw.hxx>
+#include <TopoDS_Vertex.hxx>
+#include <TopoDS_Shape.hxx>
+#include <BRepFill_NSections.hxx>
 
 #include <Standard_Type.hxx>
 

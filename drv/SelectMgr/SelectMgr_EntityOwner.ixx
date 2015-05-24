@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <SelectMgr_EntityOwner.jxx>
+#include <Standard_NoSuchObject.hxx>
+#include <SelectMgr_SelectableObject.hxx>
+#include <PrsMgr_PresentationManager.hxx>
+#include <TopLoc_Location.hxx>
+#include <SelectMgr_EntityOwner.hxx>
 
 #include <Standard_Type.hxx>
 

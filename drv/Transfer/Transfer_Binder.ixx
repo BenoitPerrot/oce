@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Transfer_Binder.jxx>
+#include <Interface_Check.hxx>
+#include <Transfer_Binder.hxx>
+#include <Transfer_TransferFailure.hxx>
+#include <Standard_Type.hxx>
+#include <Transfer_Binder.hxx>
 
 #include <Standard_Type.hxx>
 

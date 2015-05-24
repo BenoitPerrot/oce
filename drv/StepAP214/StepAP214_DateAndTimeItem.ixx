@@ -3,7 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepAP214_DateAndTimeItem.jxx>
+#include <Standard_Transient.hxx>
+#include <StepBasic_ApprovalPersonOrganization.hxx>
+#include <StepAP214_AppliedPersonAndOrganizationAssignment.hxx>
+#include <StepAP214_AppliedOrganizationAssignment.hxx>
+#include <StepBasic_Effectivity.hxx>
+#include <StepAP214_DateAndTimeItem.hxx>
 
  
 

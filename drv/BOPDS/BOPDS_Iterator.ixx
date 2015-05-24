@@ -3,7 +3,8 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <BOPDS_Iterator.jxx>
+#include <BOPDS_DS.hxx>
+#include <BOPDS_Iterator.hxx>
 
  
 

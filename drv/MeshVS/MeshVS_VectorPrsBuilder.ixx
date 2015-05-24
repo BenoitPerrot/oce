@@ -3,7 +3,16 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <MeshVS_VectorPrsBuilder.jxx>
+#include <MeshVS_Mesh.hxx>
+#include <Quantity_Color.hxx>
+#include <MeshVS_DataSource.hxx>
+#include <Prs3d_Presentation.hxx>
+#include <gp_Trsf.hxx>
+#include <TColgp_Array1OfPnt.hxx>
+#include <Graphic3d_ArrayOfPrimitives.hxx>
+#include <MeshVS_DataMapOfIntegerVector.hxx>
+#include <gp_Vec.hxx>
+#include <MeshVS_VectorPrsBuilder.hxx>
 
 #include <Standard_Type.hxx>
 

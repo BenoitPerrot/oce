@@ -3,7 +3,23 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Graphic3d_Structure.jxx>
+#include <Graphic3d_PriorityDefinitionError.hxx>
+#include <Graphic3d_StructureDefinitionError.hxx>
+#include <Graphic3d_TransformError.hxx>
+#include <Graphic3d_Group.hxx>
+#include <Graphic3d_StructureManager.hxx>
+#include <Quantity_Color.hxx>
+#include <Graphic3d_AspectLine3d.hxx>
+#include <Graphic3d_AspectFillArea3d.hxx>
+#include <Graphic3d_AspectText3d.hxx>
+#include <Graphic3d_AspectMarker3d.hxx>
+#include <Graphic3d_DataStructureManager.hxx>
+#include <TColStd_Array2OfReal.hxx>
+#include <Bnd_Box.hxx>
+#include <Graphic3d_MapOfStructure.hxx>
+#include <gp_Pnt.hxx>
+#include <Graphic3d_Vector.hxx>
+#include <Graphic3d_Structure.hxx>
 
 #include <Standard_Type.hxx>
 

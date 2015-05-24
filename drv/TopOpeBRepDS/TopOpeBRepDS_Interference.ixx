@@ -3,7 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TopOpeBRepDS_Interference.jxx>
+#include <TopOpeBRepDS_Transition.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <TopOpeBRepDS_Interference.hxx>
 
 #include <Standard_Type.hxx>
 

@@ -3,7 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Voxel_DS.jxx>
+#include <Voxel_Writer.hxx>
+#include <Voxel_Reader.hxx>
+#include <Voxel_DS.hxx>
 
  
 

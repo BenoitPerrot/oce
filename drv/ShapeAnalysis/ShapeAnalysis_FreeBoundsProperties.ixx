@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <ShapeAnalysis_FreeBoundsProperties.jxx>
+#include <ShapeAnalysis_HSequenceOfFreeBounds.hxx>
+#include <TopoDS_Shape.hxx>
+#include <ShapeAnalysis_FreeBoundData.hxx>
+#include <TopoDS_Wire.hxx>
+#include <ShapeAnalysis_FreeBoundsProperties.hxx>
 
  
 

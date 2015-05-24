@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <PTopLoc_Location.jxx>
+#include <PTopLoc_ItemLocation.hxx>
+#include <Standard_NoSuchObject.hxx>
+#include <PTopLoc_Datum3D.hxx>
+#include <PTopLoc_Location.hxx>
 
 #include <Standard_Type.hxx>
 

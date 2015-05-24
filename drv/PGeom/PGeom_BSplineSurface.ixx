@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <PGeom_BSplineSurface.jxx>
+#include <PColgp_HArray2OfPnt.hxx>
+#include <PColStd_HArray2OfReal.hxx>
+#include <PColStd_HArray1OfReal.hxx>
+#include <PColStd_HArray1OfInteger.hxx>
+#include <PGeom_BSplineSurface.hxx>
 
 #include <Standard_Type.hxx>
 

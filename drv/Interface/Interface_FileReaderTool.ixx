@@ -3,7 +3,18 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Interface_FileReaderTool.jxx>
+#include <Interface_Protocol.hxx>
+#include <Interface_FileReaderData.hxx>
+#include <Interface_InterfaceModel.hxx>
+#include <Message_Messenger.hxx>
+#include <TColStd_HArray1OfTransient.hxx>
+#include <Standard_DomainError.hxx>
+#include <Standard_NoSuchObject.hxx>
+#include <Interface_Check.hxx>
+#include <Standard_Transient.hxx>
+#include <Interface_GeneralLib.hxx>
+#include <Interface_ReaderLib.hxx>
+#include <Interface_FileReaderTool.hxx>
 
  
 

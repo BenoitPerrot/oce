@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <SelectMgr_SelectionManager.jxx>
+#include <SelectMgr_ViewerSelector.hxx>
+#include <SelectMgr_SelectableObject.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <SelectMgr_SelectionManager.hxx>
 
 #include <Standard_Type.hxx>
 

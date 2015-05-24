@@ -3,7 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IntSurf_QuadricTool.jxx>
+#include <IntSurf_Quadric.hxx>
+#include <gp_Vec.hxx>
+#include <IntSurf_QuadricTool.hxx>
 
  
 

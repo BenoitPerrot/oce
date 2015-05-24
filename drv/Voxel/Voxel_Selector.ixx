@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Voxel_Selector.jxx>
+#include <V3d_View.hxx>
+#include <Voxel_BoolDS.hxx>
+#include <Voxel_ColorDS.hxx>
+#include <Voxel_ROctBoolDS.hxx>
+#include <Voxel_Selector.hxx>
 
  
 

@@ -3,7 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Convert_GridPolynomialToPoles.jxx>
+#include <TColStd_HArray1OfReal.hxx>
+#include <TColStd_HArray1OfInteger.hxx>
+#include <TColgp_HArray2OfPnt.hxx>
+#include <Standard_DomainError.hxx>
+#include <StdFail_NotDone.hxx>
+#include <TColStd_HArray2OfInteger.hxx>
+#include <Convert_GridPolynomialToPoles.hxx>
 
  
 

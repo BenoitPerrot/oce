@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <FEmTool_LinearTension.jxx>
+#include <Standard_NotImplemented.hxx>
+#include <Standard_DomainError.hxx>
+#include <TColStd_HArray2OfInteger.hxx>
+#include <math_Matrix.hxx>
+#include <FEmTool_LinearTension.hxx>
 
 #include <Standard_Type.hxx>
 

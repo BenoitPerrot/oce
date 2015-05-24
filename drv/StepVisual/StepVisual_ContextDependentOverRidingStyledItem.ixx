@@ -3,7 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepVisual_ContextDependentOverRidingStyledItem.jxx>
+#include <StepVisual_HArray1OfStyleContextSelect.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepVisual_HArray1OfPresentationStyleAssignment.hxx>
+#include <StepRepr_RepresentationItem.hxx>
+#include <StepVisual_StyledItem.hxx>
+#include <StepVisual_StyleContextSelect.hxx>
+#include <StepVisual_ContextDependentOverRidingStyledItem.hxx>
 
 #include <Standard_Type.hxx>
 

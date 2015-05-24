@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepRepr_MeasureRepresentationItem.jxx>
+#include <StepBasic_MeasureWithUnit.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepBasic_MeasureValueMember.hxx>
+#include <StepBasic_Unit.hxx>
+#include <StepRepr_MeasureRepresentationItem.hxx>
 
 #include <Standard_Type.hxx>
 

@@ -3,7 +3,20 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <AIS_Trihedron.jxx>
+#include <Geom_Axis2Placement.hxx>
+#include <AIS_InteractiveObject.hxx>
+#include <AIS_Axis.hxx>
+#include <AIS_Point.hxx>
+#include <AIS_Plane.hxx>
+#include <AIS_InteractiveContext.hxx>
+#include <Prs3d_Presentation.hxx>
+#include <Prs3d_Projector.hxx>
+#include <Geom_Transformation.hxx>
+#include <gp_Trsf.hxx>
+#include <SelectMgr_Selection.hxx>
+#include <Quantity_Color.hxx>
+#include <TColgp_Array1OfPnt.hxx>
+#include <AIS_Trihedron.hxx>
 
 #include <Standard_Type.hxx>
 

@@ -3,7 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TopOpeBRep_VPointInter.jxx>
+#include <Standard_DomainError.hxx>
+#include <IntPatch_Point.hxx>
+#include <gp_Pnt.hxx>
+#include <TopoDS_Shape.hxx>
+#include <gp_Pnt2d.hxx>
+#include <TopoDS_Edge.hxx>
+#include <TopoDS_Face.hxx>
+#include <TopOpeBRep_VPointInter.hxx>
 
  
 

@@ -3,7 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IFSelect_SelectDeduct.jxx>
+#include <IFSelect_Selection.hxx>
+#include <IFSelect_SelectPointed.hxx>
+#include <Interface_InterfaceError.hxx>
+#include <Interface_EntityIterator.hxx>
+#include <Interface_Graph.hxx>
+#include <IFSelect_SelectionIterator.hxx>
+#include <IFSelect_SelectDeduct.hxx>
 
 #include <Standard_Type.hxx>
 

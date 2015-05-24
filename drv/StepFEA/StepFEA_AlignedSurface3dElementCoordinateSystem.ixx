@@ -3,7 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepFEA_AlignedSurface3dElementCoordinateSystem.jxx>
+#include <StepFEA_FeaAxis2Placement3d.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepFEA_AlignedSurface3dElementCoordinateSystem.hxx>
 
 #include <Standard_Type.hxx>
 

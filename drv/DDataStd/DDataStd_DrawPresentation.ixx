@@ -3,7 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <DDataStd_DrawPresentation.jxx>
+#include <Draw_Drawable3D.hxx>
+#include <TDF_Label.hxx>
+#include <Standard_GUID.hxx>
+#include <TDF_Attribute.hxx>
+#include <TDF_RelocationTable.hxx>
+#include <TDF_AttributeDelta.hxx>
+#include <DDataStd_DrawPresentation.hxx>
 
 #include <Standard_Type.hxx>
 

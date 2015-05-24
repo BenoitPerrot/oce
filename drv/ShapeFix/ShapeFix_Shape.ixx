@@ -3,7 +3,15 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <ShapeFix_Shape.jxx>
+#include <ShapeFix_Solid.hxx>
+#include <TopoDS_Shape.hxx>
+#include <Message_ProgressIndicator.hxx>
+#include <ShapeFix_Shell.hxx>
+#include <ShapeFix_Face.hxx>
+#include <ShapeFix_Wire.hxx>
+#include <ShapeFix_Edge.hxx>
+#include <ShapeExtend_BasicMsgRegistrator.hxx>
+#include <ShapeFix_Shape.hxx>
 
 #include <Standard_Type.hxx>
 

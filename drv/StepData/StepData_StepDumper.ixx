@@ -3,7 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepData_StepDumper.jxx>
+#include <StepData_StepModel.hxx>
+#include <Interface_InterfaceMismatch.hxx>
+#include <StepData_Protocol.hxx>
+#include <StepData_StepWriter.hxx>
+#include <Message_Messenger.hxx>
+#include <Standard_Transient.hxx>
+#include <StepData_StepDumper.hxx>
 
  
 

@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <CDF_DirectoryIterator.jxx>
+#include <Standard_NoSuchObject.hxx>
+#include <CDF_Directory.hxx>
+#include <CDM_Document.hxx>
+#include <CDF_DirectoryIterator.hxx>
 
  
 

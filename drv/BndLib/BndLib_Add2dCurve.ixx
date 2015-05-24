@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <BndLib_Add2dCurve.jxx>
+#include <Adaptor2d_Curve2d.hxx>
+#include <Bnd_Box2d.hxx>
+#include <Geom2d_Curve.hxx>
+#include <BndLib_Add2dCurve.hxx>
 
  
 

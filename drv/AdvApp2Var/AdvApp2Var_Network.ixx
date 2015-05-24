@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <AdvApp2Var_Network.jxx>
+#include <Standard_NoSuchObject.hxx>
+#include <AdvApp2Var_SequenceOfPatch.hxx>
+#include <TColStd_SequenceOfReal.hxx>
+#include <AdvApp2Var_Patch.hxx>
+#include <AdvApp2Var_Network.hxx>
 
  
 

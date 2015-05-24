@@ -3,7 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <ShapeProcess_ShapeContext.jxx>
+#include <ShapeExtend_MsgRegistrator.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopTools_DataMapOfShapeShape.hxx>
+#include <ShapeBuild_ReShape.hxx>
+#include <BRepTools_Modifier.hxx>
+#include <Message_Msg.hxx>
+#include <ShapeProcess_ShapeContext.hxx>
 
 #include <Standard_Type.hxx>
 

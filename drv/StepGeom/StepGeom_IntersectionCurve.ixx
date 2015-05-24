@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepGeom_IntersectionCurve.jxx>
+#include <StepGeom_IntersectionCurve.hxx>
 
 #include <Standard_Type.hxx>
 

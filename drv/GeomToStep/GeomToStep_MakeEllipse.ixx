@@ -3,7 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <GeomToStep_MakeEllipse.jxx>
+#include <StepGeom_Ellipse.hxx>
+#include <StdFail_NotDone.hxx>
+#include <gp_Elips.hxx>
+#include <Geom_Ellipse.hxx>
+#include <Geom2d_Ellipse.hxx>
+#include <GeomToStep_MakeEllipse.hxx>
 
  
 

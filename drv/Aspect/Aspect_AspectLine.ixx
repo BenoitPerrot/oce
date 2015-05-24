@@ -3,7 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Aspect_AspectLine.jxx>
+#include <Aspect_AspectLineDefinitionError.hxx>
+#include <Quantity_Color.hxx>
+#include <Aspect_AspectLine.hxx>
 
 #include <Standard_Type.hxx>
 

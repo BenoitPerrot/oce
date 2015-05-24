@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IFSelect_GraphCounter.jxx>
+#include <IFSelect_SelectDeduct.hxx>
+#include <TColStd_HSequenceOfTransient.hxx>
+#include <Interface_Graph.hxx>
+#include <IFSelect_GraphCounter.hxx>
 
 #include <Standard_Type.hxx>
 

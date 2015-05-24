@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <PPoly_Triangulation.jxx>
+#include <PColgp_HArray1OfPnt.hxx>
+#include <PColgp_HArray1OfPnt2d.hxx>
+#include <PPoly_HArray1OfTriangle.hxx>
+#include <PPoly_Triangulation.hxx>
 
 #include <Standard_Type.hxx>
 

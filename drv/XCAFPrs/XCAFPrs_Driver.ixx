@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <XCAFPrs_Driver.jxx>
+#include <TDF_Label.hxx>
+#include <AIS_InteractiveObject.hxx>
+#include <Standard_GUID.hxx>
+#include <XCAFPrs_Driver.hxx>
 
 #include <Standard_Type.hxx>
 

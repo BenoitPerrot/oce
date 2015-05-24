@@ -3,7 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <HLRBRep_EdgeBuilder.jxx>
+#include <HLRBRep_AreaLimit.hxx>
+#include <Standard_NoMoreObject.hxx>
+#include <Standard_NoSuchObject.hxx>
+#include <Standard_DomainError.hxx>
+#include <HLRBRep_VertexList.hxx>
+#include <HLRAlgo_Intersection.hxx>
+#include <HLRBRep_EdgeBuilder.hxx>
 
  
 

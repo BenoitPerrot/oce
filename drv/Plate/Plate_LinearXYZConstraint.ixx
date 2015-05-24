@@ -3,7 +3,15 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Plate_LinearXYZConstraint.jxx>
+#include <Plate_HArray1OfPinpointConstraint.hxx>
+#include <TColStd_HArray2OfReal.hxx>
+#include <Standard_DimensionMismatch.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Plate_Array1OfPinpointConstraint.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <TColStd_Array2OfReal.hxx>
+#include <Plate_PinpointConstraint.hxx>
+#include <Plate_LinearXYZConstraint.hxx>
 
  
 

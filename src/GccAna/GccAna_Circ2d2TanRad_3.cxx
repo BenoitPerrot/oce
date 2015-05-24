@@ -17,7 +17,15 @@
 // Modified:	Thu Jun 18 15:45:00 1998
 //		PRO10310 : cas ou le point est sur la droite
 
-#include <GccAna_Circ2d2TanRad.jxx>
+#include <Standard_NegativeValue.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <GccEnt_BadQualifier.hxx>
+#include <StdFail_NotDone.hxx>
+#include <GccEnt_QualifiedCirc.hxx>
+#include <GccEnt_QualifiedLin.hxx>
+#include <gp_Pnt2d.hxx>
+#include <gp_Circ2d.hxx>
+#include <GccAna_Circ2d2TanRad.hxx>
 
 #include <ElCLib.hxx>
 #include <gp_Circ2d.hxx>

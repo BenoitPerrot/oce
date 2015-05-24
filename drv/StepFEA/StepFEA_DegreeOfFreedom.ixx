@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepFEA_DegreeOfFreedom.jxx>
+#include <Standard_Transient.hxx>
+#include <StepData_SelectMember.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepFEA_DegreeOfFreedom.hxx>
 
  
 

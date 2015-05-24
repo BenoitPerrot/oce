@@ -3,7 +3,15 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepToTopoDS_TranslateEdgeLoop.jxx>
+#include <StdFail_NotDone.hxx>
+#include <StepShape_FaceBound.hxx>
+#include <TopoDS_Face.hxx>
+#include <Geom_Surface.hxx>
+#include <StepGeom_Surface.hxx>
+#include <StepToTopoDS_Tool.hxx>
+#include <StepToTopoDS_NMTool.hxx>
+#include <TopoDS_Shape.hxx>
+#include <StepToTopoDS_TranslateEdgeLoop.hxx>
 
  
 

@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <STEPSelections_SelectForTransfer.jxx>
+#include <XSControl_TransferReader.hxx>
+#include <Interface_EntityIterator.hxx>
+#include <Interface_Graph.hxx>
+#include <STEPSelections_SelectForTransfer.hxx>
 
 #include <Standard_Type.hxx>
 

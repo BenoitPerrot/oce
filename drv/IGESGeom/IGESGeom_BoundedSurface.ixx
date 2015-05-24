@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IGESGeom_BoundedSurface.jxx>
+#include <IGESData_IGESEntity.hxx>
+#include <IGESGeom_HArray1OfBoundary.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <IGESGeom_Boundary.hxx>
+#include <IGESGeom_BoundedSurface.hxx>
 
 #include <Standard_Type.hxx>
 

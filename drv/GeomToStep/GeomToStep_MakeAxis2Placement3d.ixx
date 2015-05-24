@@ -3,7 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <GeomToStep_MakeAxis2Placement3d.jxx>
+#include <StepGeom_Axis2Placement3d.hxx>
+#include <StdFail_NotDone.hxx>
+#include <gp_Ax2.hxx>
+#include <gp_Ax3.hxx>
+#include <gp_Trsf.hxx>
+#include <Geom_Axis2Placement.hxx>
+#include <GeomToStep_MakeAxis2Placement3d.hxx>
 
  
 

@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <V3d.jxx>
+#include <Graphic3d_Vector.hxx>
+#include <Graphic3d_Group.hxx>
+#include <V3d_View.hxx>
+#include <V3d_Viewer.hxx>
+#include <V3d.hxx>
 
  
 

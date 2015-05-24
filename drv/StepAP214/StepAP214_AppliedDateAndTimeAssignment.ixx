@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepAP214_AppliedDateAndTimeAssignment.jxx>
+#include <StepAP214_HArray1OfDateAndTimeItem.hxx>
+#include <StepBasic_DateAndTime.hxx>
+#include <StepBasic_DateTimeRole.hxx>
+#include <StepAP214_DateAndTimeItem.hxx>
+#include <StepAP214_AppliedDateAndTimeAssignment.hxx>
 
 #include <Standard_Type.hxx>
 

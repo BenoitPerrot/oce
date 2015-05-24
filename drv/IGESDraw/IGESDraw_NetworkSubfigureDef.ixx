@@ -3,7 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IGESDraw_NetworkSubfigureDef.jxx>
+#include <TCollection_HAsciiString.hxx>
+#include <IGESData_HArray1OfIGESEntity.hxx>
+#include <IGESGraph_TextDisplayTemplate.hxx>
+#include <IGESDraw_HArray1OfConnectPoint.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <IGESData_IGESEntity.hxx>
+#include <IGESDraw_ConnectPoint.hxx>
+#include <IGESDraw_NetworkSubfigureDef.hxx>
 
 #include <Standard_Type.hxx>
 

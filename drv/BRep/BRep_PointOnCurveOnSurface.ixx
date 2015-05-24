@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <BRep_PointOnCurveOnSurface.jxx>
+#include <Geom2d_Curve.hxx>
+#include <Geom_Surface.hxx>
+#include <TopLoc_Location.hxx>
+#include <BRep_PointOnCurveOnSurface.hxx>
 
 #include <Standard_Type.hxx>
 

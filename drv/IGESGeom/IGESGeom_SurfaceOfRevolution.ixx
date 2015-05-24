@@ -3,7 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IGESGeom_SurfaceOfRevolution.jxx>
+#include <IGESGeom_Line.hxx>
+#include <IGESData_IGESEntity.hxx>
+#include <IGESGeom_SurfaceOfRevolution.hxx>
 
 #include <Standard_Type.hxx>
 

@@ -3,7 +3,16 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <MDF_Tool.jxx>
+#include <TDF_Data.hxx>
+#include <PDF_Data.hxx>
+#include <MDF_TypeASDriverMap.hxx>
+#include <MDF_SRelocationTable.hxx>
+#include <TDF_Label.hxx>
+#include <PColStd_HArray1OfInteger.hxx>
+#include <PDF_HAttributeArray1.hxx>
+#include <MDF_TypeARDriverMap.hxx>
+#include <MDF_RRelocationTable.hxx>
+#include <MDF_Tool.hxx>
 
  
 

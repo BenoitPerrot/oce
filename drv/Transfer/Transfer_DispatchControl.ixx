@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Transfer_DispatchControl.jxx>
+#include <Transfer_TransientProcess.hxx>
+#include <Interface_InterfaceModel.hxx>
+#include <Interface_InterfaceError.hxx>
+#include <Standard_Transient.hxx>
+#include <Transfer_DispatchControl.hxx>
 
 #include <Standard_Type.hxx>
 

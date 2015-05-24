@@ -3,7 +3,15 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepRepr_CharacterizedDefinition.jxx>
+#include <Standard_Transient.hxx>
+#include <StepBasic_CharacterizedObject.hxx>
+#include <StepBasic_ProductDefinition.hxx>
+#include <StepBasic_ProductDefinitionRelationship.hxx>
+#include <StepRepr_ProductDefinitionShape.hxx>
+#include <StepRepr_ShapeAspect.hxx>
+#include <StepRepr_ShapeAspectRelationship.hxx>
+#include <StepBasic_DocumentFile.hxx>
+#include <StepRepr_CharacterizedDefinition.hxx>
 
  
 

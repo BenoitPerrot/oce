@@ -3,7 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <PCDM.jxx>
+#include <CDM_Document.hxx>
+#include <PCDM_StorageDriver.hxx>
+#include <Storage_Schema.hxx>
+#include <TCollection_ExtendedString.hxx>
+#include <CDM_Application.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <PCDM.hxx>
 
  
 

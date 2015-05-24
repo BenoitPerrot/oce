@@ -3,7 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepFEA_FreedomAndCoefficient.jxx>
+#include <StepFEA_DegreeOfFreedom.hxx>
+#include <StepElement_MeasureOrUnspecifiedValue.hxx>
+#include <StepFEA_FreedomAndCoefficient.hxx>
 
 #include <Standard_Type.hxx>
 

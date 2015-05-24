@@ -3,7 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Units_ShiftedToken.jxx>
+#include <Units_Dimensions.hxx>
+#include <Units_Token.hxx>
+#include <Units_ShiftedToken.hxx>
 
 #include <Standard_Type.hxx>
 

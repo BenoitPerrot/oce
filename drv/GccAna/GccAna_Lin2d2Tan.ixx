@@ -3,7 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <GccAna_Lin2d2Tan.jxx>
+#include <Standard_OutOfRange.hxx>
+#include <GccEnt_BadQualifier.hxx>
+#include <StdFail_NotDone.hxx>
+#include <gp_Pnt2d.hxx>
+#include <GccEnt_QualifiedCirc.hxx>
+#include <gp_Lin2d.hxx>
+#include <GccAna_Lin2d2Tan.hxx>
 
  
 

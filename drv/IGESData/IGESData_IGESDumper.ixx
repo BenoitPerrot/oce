@@ -3,7 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IGESData_IGESDumper.jxx>
+#include <IGESData_IGESModel.hxx>
+#include <Interface_InterfaceError.hxx>
+#include <IGESData_Protocol.hxx>
+#include <IGESData_IGESEntity.hxx>
+#include <Message_Messenger.hxx>
+#include <IGESData_IGESDumper.hxx>
 
  
 

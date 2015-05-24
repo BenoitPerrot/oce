@@ -3,7 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TopoDSToStep_MakeFacetedBrep.jxx>
+#include <StepShape_FacetedBrep.hxx>
+#include <StdFail_NotDone.hxx>
+#include <TopoDS_Shell.hxx>
+#include <Transfer_FinderProcess.hxx>
+#include <TopoDS_Solid.hxx>
+#include <TopoDSToStep_MakeFacetedBrep.hxx>
 
  
 

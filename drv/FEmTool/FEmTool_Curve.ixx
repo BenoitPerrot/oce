@@ -3,7 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <FEmTool_Curve.jxx>
+#include <PLib_Base.hxx>
+#include <TColStd_HArray1OfReal.hxx>
+#include <Standard_DimensionError.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <TColStd_Array2OfReal.hxx>
+#include <FEmTool_Curve.hxx>
 
 #include <Standard_Type.hxx>
 

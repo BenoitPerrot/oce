@@ -3,7 +3,8 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Prs3d_IsoAspect.jxx>
+#include <Quantity_Color.hxx>
+#include <Prs3d_IsoAspect.hxx>
 
 #include <Standard_Type.hxx>
 

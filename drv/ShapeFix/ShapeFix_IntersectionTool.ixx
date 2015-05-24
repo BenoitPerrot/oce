@@ -3,7 +3,15 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <ShapeFix_IntersectionTool.jxx>
+#include <ShapeBuild_ReShape.hxx>
+#include <TopoDS_Edge.hxx>
+#include <TopoDS_Vertex.hxx>
+#include <TopoDS_Face.hxx>
+#include <ShapeExtend_WireData.hxx>
+#include <ShapeFix_DataMapOfShapeBox2d.hxx>
+#include <Bnd_Box2d.hxx>
+#include <Geom2d_Curve.hxx>
+#include <ShapeFix_IntersectionTool.hxx>
 
  
 

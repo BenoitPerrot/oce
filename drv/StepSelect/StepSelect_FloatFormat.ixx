@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepSelect_FloatFormat.jxx>
+#include <TCollection_AsciiString.hxx>
+#include <IFSelect_ContextWrite.hxx>
+#include <StepData_StepWriter.hxx>
+#include <StepSelect_FloatFormat.hxx>
 
 #include <Standard_Type.hxx>
 

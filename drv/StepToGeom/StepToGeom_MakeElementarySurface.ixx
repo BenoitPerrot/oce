@@ -3,7 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepToGeom_MakeElementarySurface.jxx>
+#include <StepGeom_ElementarySurface.hxx>
+#include <Geom_ElementarySurface.hxx>
+#include <StepToGeom_MakeElementarySurface.hxx>
 
  
 

@@ -3,7 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <DBRep_Face.jxx>
+#include <TopoDS_Face.hxx>
+#include <Draw_Color.hxx>
+#include <DBRep_Face.hxx>
 
 #include <Standard_Type.hxx>
 

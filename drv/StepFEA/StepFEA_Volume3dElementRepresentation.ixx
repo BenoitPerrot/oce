@@ -3,7 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepFEA_Volume3dElementRepresentation.jxx>
+#include <StepFEA_FeaModel3d.hxx>
+#include <StepElement_Volume3dElementDescriptor.hxx>
+#include <StepElement_ElementMaterial.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepRepr_HArray1OfRepresentationItem.hxx>
+#include <StepRepr_RepresentationContext.hxx>
+#include <StepFEA_HArray1OfNodeRepresentation.hxx>
+#include <StepFEA_Volume3dElementRepresentation.hxx>
 
 #include <Standard_Type.hxx>
 

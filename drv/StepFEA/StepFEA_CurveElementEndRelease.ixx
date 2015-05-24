@@ -3,7 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepFEA_CurveElementEndRelease.jxx>
+#include <StepElement_HArray1OfCurveElementEndReleasePacket.hxx>
+#include <StepFEA_CurveElementEndCoordinateSystem.hxx>
+#include <StepFEA_CurveElementEndRelease.hxx>
 
 #include <Standard_Type.hxx>
 

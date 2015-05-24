@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <DrawDim_Dimension.jxx>
+#include <Draw_Color.hxx>
+#include <gp_Pnt.hxx>
+#include <Draw_Display.hxx>
+#include <DrawDim_Dimension.hxx>
 
 #include <Standard_Type.hxx>
 

@@ -3,7 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TDataStd_IntegerArray.jxx>
+#include <TColStd_HArray1OfInteger.hxx>
+#include <TDataStd_DeltaOnModificationOfIntArray.hxx>
+#include <Standard_GUID.hxx>
+#include <TDF_Label.hxx>
+#include <TDF_Attribute.hxx>
+#include <TDF_RelocationTable.hxx>
+#include <TDF_DeltaOnModification.hxx>
+#include <TDataStd_IntegerArray.hxx>
 
 #include <Standard_Type.hxx>
 

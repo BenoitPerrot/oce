@@ -3,7 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <math_Householder.jxx>
+#include <StdFail_NotDone.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Standard_DimensionError.hxx>
+#include <Standard_ConstructionError.hxx>
+#include <math_Matrix.hxx>
+#include <math_Householder.hxx>
 
  
 

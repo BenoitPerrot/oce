@@ -3,7 +3,16 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TDataXtd_PatternStd.jxx>
+#include <TNaming_NamedShape.hxx>
+#include <TDataStd_Real.hxx>
+#include <TDataStd_Integer.hxx>
+#include <Standard_GUID.hxx>
+#include <TDF_Label.hxx>
+#include <TDataXtd_Array1OfTrsf.hxx>
+#include <TDF_Attribute.hxx>
+#include <TDF_RelocationTable.hxx>
+#include <TDF_DataSet.hxx>
+#include <TDataXtd_PatternStd.hxx>
 
 #include <Standard_Type.hxx>
 

@@ -3,7 +3,20 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <ShapeFix_ComposeShell.jxx>
+#include <ShapeExtend_CompositeSurface.hxx>
+#include <ShapeAnalysis_TransferParameters.hxx>
+#include <TopLoc_Location.hxx>
+#include <TopoDS_Face.hxx>
+#include <TopoDS_Shape.hxx>
+#include <ShapeFix_SequenceOfWireSegment.hxx>
+#include <ShapeExtend_WireData.hxx>
+#include <gp_Lin2d.hxx>
+#include <ShapeFix_WireSegment.hxx>
+#include <TColStd_SequenceOfInteger.hxx>
+#include <TColStd_SequenceOfReal.hxx>
+#include <TopTools_SequenceOfShape.hxx>
+#include <Geom_Surface.hxx>
+#include <ShapeFix_ComposeShell.hxx>
 
 #include <Standard_Type.hxx>
 

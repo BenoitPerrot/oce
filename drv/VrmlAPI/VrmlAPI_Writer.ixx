@@ -3,7 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <VrmlAPI_Writer.jxx>
+#include <VrmlConverter_Drawer.hxx>
+#include <VrmlConverter_Projector.hxx>
+#include <Vrml_Material.hxx>
+#include <Quantity_HArray1OfColor.hxx>
+#include <TopoDS_Shape.hxx>
+#include <VrmlAPI_Writer.hxx>
 
  
 

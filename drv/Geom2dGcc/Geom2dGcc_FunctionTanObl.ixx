@@ -3,7 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Geom2dGcc_FunctionTanObl.jxx>
+#include <Geom2dAdaptor_Curve.hxx>
+#include <gp_Dir2d.hxx>
+#include <Geom2dGcc_FunctionTanObl.hxx>
 
  
 

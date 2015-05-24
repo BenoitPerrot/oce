@@ -3,7 +3,22 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Interface_InterfaceModel.jxx>
+#include <Interface_Check.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <Interface_GTool.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Standard_NoSuchObject.hxx>
+#include <Interface_InterfaceMismatch.hxx>
+#include <Interface_Protocol.hxx>
+#include <Standard_Transient.hxx>
+#include <Standard_Type.hxx>
+#include <Interface_ReportEntity.hxx>
+#include <Interface_CheckIterator.hxx>
+#include <Interface_GeneralLib.hxx>
+#include <Interface_EntityIterator.hxx>
+#include <Message_Messenger.hxx>
+#include <TColStd_HSequenceOfHAsciiString.hxx>
+#include <Interface_InterfaceModel.hxx>
 
 #include <Standard_Type.hxx>
 

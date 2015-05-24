@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Expr_SingleRelation.jxx>
+#include <Expr_GeneralExpression.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Expr_GeneralRelation.hxx>
+#include <Expr_NamedUnknown.hxx>
+#include <Expr_SingleRelation.hxx>
 
 #include <Standard_Type.hxx>
 

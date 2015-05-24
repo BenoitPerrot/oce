@@ -3,7 +3,8 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepShape_ToleranceValue.jxx>
+#include <StepBasic_MeasureWithUnit.hxx>
+#include <StepShape_ToleranceValue.hxx>
 
 #include <Standard_Type.hxx>
 

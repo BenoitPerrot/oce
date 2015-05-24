@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Draft_VertexInfo.jxx>
+#include <Standard_DomainError.hxx>
+#include <Standard_NoMoreObject.hxx>
+#include <TopoDS_Edge.hxx>
+#include <gp_Pnt.hxx>
+#include <Draft_VertexInfo.hxx>
 
  
 

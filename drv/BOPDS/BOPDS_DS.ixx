@@ -3,7 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <BOPDS_DS.jxx>
+#include <BOPDS_IndexRange.hxx>
+#include <BOPDS_ShapeInfo.hxx>
+#include <TopoDS_Shape.hxx>
+#include <BOPDS_PaveBlock.hxx>
+#include <BOPDS_CommonBlock.hxx>
+#include <BOPDS_FaceInfo.hxx>
+#include <Bnd_Box.hxx>
+#include <BOPDS_DS.hxx>
 
  
 

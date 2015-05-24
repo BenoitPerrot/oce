@@ -3,7 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <MAT_Graph.jxx>
+#include <MAT_ListOfBisector.hxx>
+#include <MAT_Arc.hxx>
+#include <MAT_BasicElt.hxx>
+#include <MAT_Node.hxx>
+#include <MAT_DataMapOfIntegerBasicElt.hxx>
+#include <MAT_Graph.hxx>
 
 #include <Standard_Type.hxx>
 

@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <BRep_TVertex.jxx>
+#include <gp_Pnt.hxx>
+#include <BRep_ListOfPointRepresentation.hxx>
+#include <TopoDS_TShape.hxx>
+#include <BRep_TVertex.hxx>
 
 #include <Standard_Type.hxx>
 

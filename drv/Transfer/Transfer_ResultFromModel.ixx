@@ -3,7 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Transfer_ResultFromModel.jxx>
+#include <Interface_InterfaceModel.hxx>
+#include <Transfer_ResultFromTransient.hxx>
+#include <Transfer_TransientProcess.hxx>
+#include <Standard_Transient.hxx>
+#include <TColStd_HSequenceOfTransient.hxx>
+#include <Interface_CheckIterator.hxx>
+#include <Transfer_ResultFromModel.hxx>
 
 #include <Standard_Type.hxx>
 

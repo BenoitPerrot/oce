@@ -3,7 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <HLRBRep_BiPoint.jxx>
+#include <TopoDS_Shape.hxx>
+#include <gp_Pnt.hxx>
+#include <HLRBRep_BiPoint.hxx>
 
  
 

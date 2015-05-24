@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Plate_D1.jxx>
+#include <Plate_GtoCConstraint.hxx>
+#include <Plate_FreeGtoCConstraint.hxx>
+#include <gp_XYZ.hxx>
+#include <Plate_D1.hxx>
 
  
 

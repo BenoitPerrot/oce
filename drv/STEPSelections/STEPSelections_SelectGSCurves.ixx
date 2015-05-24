@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <STEPSelections_SelectGSCurves.jxx>
+#include <Standard_Transient.hxx>
+#include <Interface_Graph.hxx>
+#include <Interface_EntityIterator.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <STEPSelections_SelectGSCurves.hxx>
 
 #include <Standard_Type.hxx>
 

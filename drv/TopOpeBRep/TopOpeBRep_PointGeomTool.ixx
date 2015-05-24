@@ -3,7 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TopOpeBRep_PointGeomTool.jxx>
+#include <TopOpeBRepDS_Point.hxx>
+#include <TopOpeBRep_VPointInter.hxx>
+#include <TopOpeBRep_Point2d.hxx>
+#include <TopOpeBRep_FaceEdgeIntersector.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopOpeBRep_PointGeomTool.hxx>
 
  
 

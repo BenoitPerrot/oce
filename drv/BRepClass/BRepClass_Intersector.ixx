@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <BRepClass_Intersector.jxx>
+#include <gp_Lin2d.hxx>
+#include <BRepClass_Edge.hxx>
+#include <gp_Dir2d.hxx>
+#include <BRepClass_Intersector.hxx>
 
  
 

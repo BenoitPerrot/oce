@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Voxel_BooleanOperation.jxx>
+#include <Voxel_BoolDS.hxx>
+#include <Voxel_ColorDS.hxx>
+#include <Voxel_FloatDS.hxx>
+#include <Voxel_DS.hxx>
+#include <Voxel_BooleanOperation.hxx>
 
  
 

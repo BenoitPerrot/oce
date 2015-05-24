@@ -3,7 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <HeaderSection_FileSchema.jxx>
+#include <Interface_HArray1OfHAsciiString.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <HeaderSection_FileSchema.hxx>
 
 #include <Standard_Type.hxx>
 

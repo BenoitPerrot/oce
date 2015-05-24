@@ -3,7 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <ShapeAnalysis_WireOrder.jxx>
+#include <TColStd_HArray1OfInteger.hxx>
+#include <TColgp_HSequenceOfXYZ.hxx>
+#include <Standard_TypeMismatch.hxx>
+#include <gp_XYZ.hxx>
+#include <gp_XY.hxx>
+#include <ShapeAnalysis_WireOrder.hxx>
 
  
 

@@ -3,7 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <GeomToStep_MakeVector.jxx>
+#include <StepGeom_Vector.hxx>
+#include <StdFail_NotDone.hxx>
+#include <gp_Vec.hxx>
+#include <gp_Vec2d.hxx>
+#include <Geom_Vector.hxx>
+#include <Geom2d_Vector.hxx>
+#include <GeomToStep_MakeVector.hxx>
 
  
 

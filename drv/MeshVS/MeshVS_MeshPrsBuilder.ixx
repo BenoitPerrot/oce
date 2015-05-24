@@ -3,7 +3,17 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <MeshVS_MeshPrsBuilder.jxx>
+#include <MeshVS_Mesh.hxx>
+#include <MeshVS_DataSource.hxx>
+#include <Prs3d_Presentation.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <Graphic3d_ArrayOfSegments.hxx>
+#include <Graphic3d_ArrayOfTriangles.hxx>
+#include <MeshVS_HArray1OfSequenceOfInteger.hxx>
+#include <Graphic3d_ArrayOfPrimitives.hxx>
+#include <Graphic3d_AspectFillArea3d.hxx>
+#include <Graphic3d_AspectLine3d.hxx>
+#include <MeshVS_MeshPrsBuilder.hxx>
 
 #include <Standard_Type.hxx>
 

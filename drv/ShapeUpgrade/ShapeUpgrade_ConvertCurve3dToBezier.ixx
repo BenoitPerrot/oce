@@ -3,7 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <ShapeUpgrade_ConvertCurve3dToBezier.jxx>
+#include <TColGeom_HSequenceOfCurve.hxx>
+#include <TColStd_HSequenceOfReal.hxx>
+#include <ShapeUpgrade_ConvertCurve3dToBezier.hxx>
 
 #include <Standard_Type.hxx>
 

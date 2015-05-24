@@ -3,7 +3,17 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <XCAFDoc_DocumentTool.jxx>
+#include <Standard_GUID.hxx>
+#include <TDF_Label.hxx>
+#include <TDocStd_Document.hxx>
+#include <XCAFDoc_ShapeTool.hxx>
+#include <XCAFDoc_ColorTool.hxx>
+#include <XCAFDoc_LayerTool.hxx>
+#include <XCAFDoc_DimTolTool.hxx>
+#include <XCAFDoc_MaterialTool.hxx>
+#include <TDF_Attribute.hxx>
+#include <TDF_RelocationTable.hxx>
+#include <XCAFDoc_DocumentTool.hxx>
 
 #include <Standard_Type.hxx>
 

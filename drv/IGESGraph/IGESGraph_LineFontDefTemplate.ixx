@@ -3,7 +3,8 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IGESGraph_LineFontDefTemplate.jxx>
+#include <IGESBasic_SubfigureDef.hxx>
+#include <IGESGraph_LineFontDefTemplate.hxx>
 
 #include <Standard_Type.hxx>
 

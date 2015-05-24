@@ -3,7 +3,16 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepData_StepModel.jxx>
+#include <TColStd_HArray1OfInteger.hxx>
+#include <Standard_NoSuchObject.hxx>
+#include <Standard_Transient.hxx>
+#include <Interface_InterfaceModel.hxx>
+#include <Interface_EntityIterator.hxx>
+#include <Standard_Type.hxx>
+#include <Interface_Check.hxx>
+#include <Message_Messenger.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepData_StepModel.hxx>
 
 #include <Standard_Type.hxx>
 

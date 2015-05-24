@@ -3,7 +3,15 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <STEPControl_ActorWrite.jxx>
+#include <Transfer_Finder.hxx>
+#include <Transfer_Binder.hxx>
+#include <Transfer_FinderProcess.hxx>
+#include <StepShape_ShapeDefinitionRepresentation.hxx>
+#include <StepGeom_Axis2Placement3d.hxx>
+#include <TopTools_HSequenceOfShape.hxx>
+#include <TopoDS_Shape.hxx>
+#include <StepShape_NonManifoldSurfaceShapeRepresentation.hxx>
+#include <STEPControl_ActorWrite.hxx>
 
 #include <Standard_Type.hxx>
 

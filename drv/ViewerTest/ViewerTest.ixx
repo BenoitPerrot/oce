@@ -3,7 +3,17 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <ViewerTest.jxx>
+#include <TCollection_AsciiString.hxx>
+#include <V3d_View.hxx>
+#include <MMgt_TShared.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopTools_HArray1OfShape.hxx>
+#include <AIS_InteractiveObject.hxx>
+#include <TColStd_HArray1OfTransient.hxx>
+#include <V3d_Viewer.hxx>
+#include <AIS_InteractiveContext.hxx>
+#include <ViewerTest_EventManager.hxx>
+#include <ViewerTest.hxx>
 
  
 

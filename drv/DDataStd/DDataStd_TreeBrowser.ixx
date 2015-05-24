@@ -3,7 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <DDataStd_TreeBrowser.jxx>
+#include <TDF_Label.hxx>
+#include <Draw_Display.hxx>
+#include <Draw_Drawable3D.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <TDataStd_TreeNode.hxx>
+#include <DDataStd_TreeBrowser.hxx>
 
 #include <Standard_Type.hxx>
 

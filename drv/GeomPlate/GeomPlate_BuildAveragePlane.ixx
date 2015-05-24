@@ -3,7 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <GeomPlate_BuildAveragePlane.jxx>
+#include <TColgp_HArray1OfPnt.hxx>
+#include <Geom_Plane.hxx>
+#include <Geom_Line.hxx>
+#include <Standard_NoSuchObject.hxx>
+#include <TColgp_SequenceOfVec.hxx>
+#include <gp_Vec.hxx>
+#include <GeomPlate_SequenceOfAij.hxx>
+#include <GeomPlate_BuildAveragePlane.hxx>
 
  
 

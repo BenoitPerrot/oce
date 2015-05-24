@@ -3,7 +3,15 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TestTopOpeDraw_DrawableMesure.jxx>
+#include <TColgp_HArray1OfPnt.hxx>
+#include <TestTopOpeDraw_DrawableC3D.hxx>
+#include <TestTopOpeDraw_HArray1OfDrawableP3D.hxx>
+#include <TestTopOpeTools_Mesure.hxx>
+#include <Draw_Color.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <gp_Pnt.hxx>
+#include <Draw_Display.hxx>
+#include <TestTopOpeDraw_DrawableMesure.hxx>
 
 #include <Standard_Type.hxx>
 

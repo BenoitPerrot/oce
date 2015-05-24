@@ -3,7 +3,15 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TDataXtd_Constraint.jxx>
+#include <TDataStd_Real.hxx>
+#include <TDF_Attribute.hxx>
+#include <Standard_GUID.hxx>
+#include <TDF_Label.hxx>
+#include <TNaming_NamedShape.hxx>
+#include <TDF_LabelList.hxx>
+#include <TDF_RelocationTable.hxx>
+#include <TDF_DataSet.hxx>
+#include <TDataXtd_Constraint.hxx>
 
 #include <Standard_Type.hxx>
 

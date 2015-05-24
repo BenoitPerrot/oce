@@ -3,7 +3,15 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IGESDefs_GenericData.jxx>
+#include <TCollection_HAsciiString.hxx>
+#include <TColStd_HArray1OfInteger.hxx>
+#include <TColStd_HArray1OfTransient.hxx>
+#include <Standard_DimensionMismatch.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Standard_NullObject.hxx>
+#include <Standard_Transient.hxx>
+#include <IGESData_IGESEntity.hxx>
+#include <IGESDefs_GenericData.hxx>
 
 #include <Standard_Type.hxx>
 

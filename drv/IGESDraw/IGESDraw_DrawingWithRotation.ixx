@@ -3,7 +3,18 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IGESDraw_DrawingWithRotation.jxx>
+#include <IGESDraw_HArray1OfViewKindEntity.hxx>
+#include <TColgp_HArray1OfXY.hxx>
+#include <TColStd_HArray1OfReal.hxx>
+#include <IGESData_HArray1OfIGESEntity.hxx>
+#include <Standard_DimensionMismatch.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <IGESData_ViewKindEntity.hxx>
+#include <gp_Pnt2d.hxx>
+#include <IGESData_IGESEntity.hxx>
+#include <gp_XY.hxx>
+#include <gp_XYZ.hxx>
+#include <IGESDraw_DrawingWithRotation.hxx>
 
 #include <Standard_Type.hxx>
 

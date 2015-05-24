@@ -3,7 +3,17 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <BinLDrivers_DocumentRetrievalDriver.jxx>
+#include <BinMDF_ADriverTable.hxx>
+#include <CDM_MessageDriver.hxx>
+#include <TCollection_ExtendedString.hxx>
+#include <PCDM_Document.hxx>
+#include <CDM_Document.hxx>
+#include <CDM_Application.hxx>
+#include <TDF_Label.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <Storage_HeaderData.hxx>
+#include <BinLDrivers_DocumentSection.hxx>
+#include <BinLDrivers_DocumentRetrievalDriver.hxx>
 
 #include <Standard_Type.hxx>
 

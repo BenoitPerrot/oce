@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TDocStd_MultiTransactionManager.jxx>
+#include <TDocStd_SequenceOfApplicationDelta.hxx>
+#include <TCollection_ExtendedString.hxx>
+#include <TDocStd_Document.hxx>
+#include <TDocStd_SequenceOfDocument.hxx>
+#include <TDocStd_MultiTransactionManager.hxx>
 
 #include <Standard_Type.hxx>
 

@@ -3,7 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepData_Plex.jxx>
+#include <Interface_InterfaceMismatch.hxx>
+#include <StepData_ECDescr.hxx>
+#include <StepData_Simple.hxx>
+#include <StepData_Field.hxx>
+#include <TColStd_HSequenceOfAsciiString.hxx>
+#include <Interface_Check.hxx>
+#include <Interface_EntityIterator.hxx>
+#include <StepData_Plex.hxx>
 
 #include <Standard_Type.hxx>
 

@@ -3,7 +3,16 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <PDataStd_NamedData.jxx>
+#include <PCollection_HExtendedString.hxx>
+#include <PColStd_HArray1OfInteger.hxx>
+#include <PColStd_HArray1OfReal.hxx>
+#include <PColStd_HArray2OfInteger.hxx>
+#include <PColStd_HArray1OfExtendedString.hxx>
+#include <PDataStd_HArray1OfByte.hxx>
+#include <PDataStd_HArray1OfHArray1OfInteger.hxx>
+#include <PDataStd_HArray1OfHArray1OfReal.hxx>
+#include <TColStd_HArray2OfInteger.hxx>
+#include <PDataStd_NamedData.hxx>
 
 #include <Standard_Type.hxx>
 

@@ -3,7 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IGESData_IGESReaderData.jxx>
+#include <TColStd_HSequenceOfHAsciiString.hxx>
+#include <Interface_ParamSet.hxx>
+#include <Interface_Check.hxx>
+#include <IGESData_GlobalSection.hxx>
+#include <IGESData_DirPart.hxx>
+#include <IGESData_IGESType.hxx>
+#include <IGESData_IGESReaderData.hxx>
 
 #include <Standard_Type.hxx>
 

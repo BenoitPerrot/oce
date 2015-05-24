@@ -3,7 +3,15 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TDF_RelocationTable.jxx>
+#include <TDF_Label.hxx>
+#include <TDF_Attribute.hxx>
+#include <Standard_Transient.hxx>
+#include <TDF_LabelMap.hxx>
+#include <TDF_AttributeMap.hxx>
+#include <TDF_LabelDataMap.hxx>
+#include <TDF_AttributeDataMap.hxx>
+#include <TColStd_IndexedDataMapOfTransientTransient.hxx>
+#include <TDF_RelocationTable.hxx>
 
 #include <Standard_Type.hxx>
 

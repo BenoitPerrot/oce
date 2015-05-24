@@ -3,7 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <DBRep_Edge.jxx>
+#include <TopoDS_Edge.hxx>
+#include <Draw_Color.hxx>
+#include <DBRep_Edge.hxx>
 
 #include <Standard_Type.hxx>
 

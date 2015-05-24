@@ -3,7 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <BRepFeat_MakePrism.jxx>
+#include <Geom_Curve.hxx>
+#include <Standard_ConstructionError.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopoDS_Face.hxx>
+#include <gp_Dir.hxx>
+#include <TopoDS_Edge.hxx>
+#include <TColGeom_SequenceOfCurve.hxx>
+#include <BRepFeat_MakePrism.hxx>
 
  
 

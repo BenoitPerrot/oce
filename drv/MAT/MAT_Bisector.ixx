@@ -3,7 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <MAT_Bisector.jxx>
+#include <MAT_Edge.hxx>
+#include <MAT_ListOfBisector.hxx>
+#include <MAT_Bisector.hxx>
 
 #include <Standard_Type.hxx>
 

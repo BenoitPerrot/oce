@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepAP203_ClassifiedItem.jxx>
+#include <Standard_Transient.hxx>
+#include <StepBasic_ProductDefinitionFormation.hxx>
+#include <StepRepr_AssemblyComponentUsage.hxx>
+#include <StepAP203_ClassifiedItem.hxx>
 
  
 

@@ -3,7 +3,18 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <ShapeFix_Face.jxx>
+#include <ShapeAnalysis_Surface.hxx>
+#include <ShapeFix_Wire.hxx>
+#include <TopoDS_Face.hxx>
+#include <Geom_Surface.hxx>
+#include <ShapeExtend_BasicMsgRegistrator.hxx>
+#include <TopoDS_Wire.hxx>
+#include <TopTools_DataMapOfShapeListOfShape.hxx>
+#include <TopTools_SequenceOfShape.hxx>
+#include <ShapeExtend_WireData.hxx>
+#include <TopoDS_Vertex.hxx>
+#include <ShapeFix_DataMapOfShapeBox2d.hxx>
+#include <ShapeFix_Face.hxx>
 
 #include <Standard_Type.hxx>
 

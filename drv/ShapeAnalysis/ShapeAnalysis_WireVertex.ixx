@@ -3,7 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <ShapeAnalysis_WireVertex.jxx>
+#include <ShapeExtend_WireData.hxx>
+#include <TColStd_HArray1OfInteger.hxx>
+#include <TColgp_HArray1OfXYZ.hxx>
+#include <TColStd_HArray1OfReal.hxx>
+#include <TopoDS_Wire.hxx>
+#include <gp_XYZ.hxx>
+#include <ShapeAnalysis_WireVertex.hxx>
 
  
 

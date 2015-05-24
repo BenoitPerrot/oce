@@ -3,7 +3,15 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepData_UndefinedEntity.jxx>
+#include <TCollection_HAsciiString.hxx>
+#include <Interface_UndefinedContent.hxx>
+#include <StepData_UndefinedEntity.hxx>
+#include <StepData_StepReaderData.hxx>
+#include <Interface_Check.hxx>
+#include <StepData_StepWriter.hxx>
+#include <Interface_CopyTool.hxx>
+#include <Interface_EntityIterator.hxx>
+#include <StepData_UndefinedEntity.hxx>
 
 #include <Standard_Type.hxx>
 

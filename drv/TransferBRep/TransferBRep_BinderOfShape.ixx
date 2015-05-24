@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TransferBRep_BinderOfShape.jxx>
+#include <Transfer_TransferFailure.hxx>
+#include <TopoDS_Shape.hxx>
+#include <Standard_Type.hxx>
+#include <TransferBRep_BinderOfShape.hxx>
 
 #include <Standard_Type.hxx>
 

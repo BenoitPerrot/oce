@@ -3,7 +3,8 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Graphic3d_ArrayOfQuadrangles.jxx>
+#include <Standard_OutOfRange.hxx>
+#include <Graphic3d_ArrayOfQuadrangles.hxx>
 
 #include <Standard_Type.hxx>
 

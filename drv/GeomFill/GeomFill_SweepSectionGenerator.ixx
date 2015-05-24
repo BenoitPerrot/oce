@@ -3,7 +3,18 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <GeomFill_SweepSectionGenerator.jxx>
+#include <Geom_BSplineCurve.hxx>
+#include <Adaptor3d_HCurve.hxx>
+#include <Standard_RangeError.hxx>
+#include <Geom_Curve.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <TColStd_Array1OfInteger.hxx>
+#include <TColgp_Array1OfPnt.hxx>
+#include <TColgp_Array1OfVec.hxx>
+#include <TColgp_Array1OfPnt2d.hxx>
+#include <TColgp_Array1OfVec2d.hxx>
+#include <gp_Trsf.hxx>
+#include <GeomFill_SweepSectionGenerator.hxx>
 
  
 

@@ -3,7 +3,8 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <PXCAFDoc_Centroid.jxx>
+#include <gp_Pnt.hxx>
+#include <PXCAFDoc_Centroid.hxx>
 
 #include <Standard_Type.hxx>
 

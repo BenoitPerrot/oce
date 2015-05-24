@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Expr_RelationIterator.jxx>
+#include <Standard_NoMoreObject.hxx>
+#include <Standard_NoSuchObject.hxx>
+#include <Expr_GeneralRelation.hxx>
+#include <Expr_SingleRelation.hxx>
+#include <Expr_RelationIterator.hxx>
 
  
 

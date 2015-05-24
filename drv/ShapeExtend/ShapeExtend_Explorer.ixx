@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <ShapeExtend_Explorer.jxx>
+#include <Standard_TypeMismatch.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopTools_HSequenceOfShape.hxx>
+#include <TopTools_ListOfShape.hxx>
+#include <ShapeExtend_Explorer.hxx>
 
  
 

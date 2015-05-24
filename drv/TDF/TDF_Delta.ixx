@@ -3,7 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TDF_Delta.jxx>
+#include <Standard_OutOfRange.hxx>
+#include <TDF_Data.hxx>
+#include <TDF_AttributeDelta.hxx>
+#include <TDF_LabelList.hxx>
+#include <TDF_AttributeDeltaList.hxx>
+#include <TCollection_ExtendedString.hxx>
+#include <TDF_Delta.hxx>
 
 #include <Standard_Type.hxx>
 

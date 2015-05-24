@@ -3,7 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Draft.jxx>
+#include <TopoDS_Face.hxx>
+#include <gp_Dir.hxx>
+#include <Draft.hxx>
 
  
 

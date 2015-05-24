@@ -3,7 +3,18 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <MgtBRep_TranslateTool.jxx>
+#include <Standard_TypeMismatch.hxx>
+#include <PGeom_Curve.hxx>
+#include <Geom_Curve.hxx>
+#include <PTColStd_TransientPersistentMap.hxx>
+#include <PTColStd_PersistentTransientMap.hxx>
+#include <PGeom2d_Curve.hxx>
+#include <Geom2d_Curve.hxx>
+#include <PGeom_Surface.hxx>
+#include <Geom_Surface.hxx>
+#include <TopoDS_Shape.hxx>
+#include <PTopoDS_HShape.hxx>
+#include <MgtBRep_TranslateTool.hxx>
 
 #include <Standard_Type.hxx>
 

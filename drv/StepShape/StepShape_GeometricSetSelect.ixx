@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepShape_GeometricSetSelect.jxx>
+#include <Standard_Transient.hxx>
+#include <StepGeom_Point.hxx>
+#include <StepGeom_Curve.hxx>
+#include <StepGeom_Surface.hxx>
+#include <StepShape_GeometricSetSelect.hxx>
 
  
 

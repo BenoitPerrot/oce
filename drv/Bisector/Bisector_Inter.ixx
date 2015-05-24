@@ -3,7 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Bisector_Inter.jxx>
+#include <Standard_ConstructionError.hxx>
+#include <Bisector_Bisec.hxx>
+#include <IntRes2d_Domain.hxx>
+#include <Geom2d_Curve.hxx>
+#include <Bisector_BisecCC.hxx>
+#include <Geom2d_Line.hxx>
+#include <Bisector_Inter.hxx>
 
  
 

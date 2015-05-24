@@ -3,7 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IGESDraw_RectArraySubfigure.jxx>
+#include <IGESData_IGESEntity.hxx>
+#include <TColStd_HArray1OfInteger.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <gp_XYZ.hxx>
+#include <gp_Pnt.hxx>
+#include <IGESDraw_RectArraySubfigure.hxx>
 
 #include <Standard_Type.hxx>
 

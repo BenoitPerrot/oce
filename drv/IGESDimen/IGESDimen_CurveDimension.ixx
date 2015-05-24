@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IGESDimen_CurveDimension.jxx>
+#include <IGESDimen_GeneralNote.hxx>
+#include <IGESData_IGESEntity.hxx>
+#include <IGESDimen_LeaderArrow.hxx>
+#include <IGESDimen_WitnessLine.hxx>
+#include <IGESDimen_CurveDimension.hxx>
 
 #include <Standard_Type.hxx>
 

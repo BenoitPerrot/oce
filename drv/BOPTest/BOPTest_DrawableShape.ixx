@@ -3,7 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <BOPTest_DrawableShape.jxx>
+#include <Draw_Text3D.hxx>
+#include <TopoDS_Shape.hxx>
+#include <Draw_Color.hxx>
+#include <gp_Pnt.hxx>
+#include <Draw_Display.hxx>
+#include <BOPTest_DrawableShape.hxx>
 
 #include <Standard_Type.hxx>
 

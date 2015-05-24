@@ -3,7 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepToGeom_MakeTrimmedCurve.jxx>
+#include <StepGeom_TrimmedCurve.hxx>
+#include <Geom_TrimmedCurve.hxx>
+#include <StepToGeom_MakeTrimmedCurve.hxx>
 
  
 

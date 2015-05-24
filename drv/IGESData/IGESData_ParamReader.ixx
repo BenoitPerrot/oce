@@ -3,7 +3,23 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IGESData_ParamReader.jxx>
+#include <Interface_ParamList.hxx>
+#include <Interface_Check.hxx>
+#include <Interface_InterfaceError.hxx>
+#include <IGESData_IGESEntity.hxx>
+#include <IGESData_IGESReaderData.hxx>
+#include <IGESData_ParamCursor.hxx>
+#include <Message_Msg.hxx>
+#include <gp_XY.hxx>
+#include <gp_XYZ.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <Standard_Type.hxx>
+#include <TColStd_HArray1OfInteger.hxx>
+#include <TColStd_HArray1OfReal.hxx>
+#include <Interface_HArray1OfHAsciiString.hxx>
+#include <IGESData_HArray1OfIGESEntity.hxx>
+#include <Interface_EntityList.hxx>
+#include <IGESData_ParamReader.hxx>
 
  
 

@@ -3,7 +3,15 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TopOpeBRepTool_CORRISO.jxx>
+#include <TopoDS_Face.hxx>
+#include <GeomAdaptor_Surface.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopTools_ListOfShape.hxx>
+#include <TopoDS_Edge.hxx>
+#include <TopTools_DataMapOfOrientedShapeInteger.hxx>
+#include <TopOpeBRepTool_C2DF.hxx>
+#include <TopoDS_Vertex.hxx>
+#include <TopOpeBRepTool_CORRISO.hxx>
 
  
 

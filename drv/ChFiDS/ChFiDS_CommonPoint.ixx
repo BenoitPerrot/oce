@@ -3,7 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <ChFiDS_CommonPoint.jxx>
+#include <Standard_DomainError.hxx>
+#include <Standard_TypeMismatch.hxx>
+#include <TopoDS_Vertex.hxx>
+#include <TopoDS_Edge.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Vec.hxx>
+#include <ChFiDS_CommonPoint.hxx>
 
  
 

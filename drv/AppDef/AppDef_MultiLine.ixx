@@ -3,7 +3,15 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <AppDef_MultiLine.jxx>
+#include <AppDef_HArray1OfMultiPointConstraint.hxx>
+#include <Standard_ConstructionError.hxx>
+#include <Standard_DimensionError.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <AppDef_Array1OfMultiPointConstraint.hxx>
+#include <TColgp_Array1OfPnt.hxx>
+#include <TColgp_Array1OfPnt2d.hxx>
+#include <AppDef_MultiPointConstraint.hxx>
+#include <AppDef_MultiLine.hxx>
 
  
 

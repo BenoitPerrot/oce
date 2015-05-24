@@ -3,7 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepAP214_PersonAndOrganizationItem.jxx>
+#include <Standard_Transient.hxx>
+#include <StepAP214_AppliedOrganizationAssignment.hxx>
+#include <StepAP214_PersonAndOrganizationItem.hxx>
 
  
 

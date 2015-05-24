@@ -3,7 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepToTopoDS_TranslateCompositeCurve.jxx>
+#include <StepGeom_CompositeCurve.hxx>
+#include <Transfer_TransientProcess.hxx>
+#include <StepGeom_Surface.hxx>
+#include <Geom_Surface.hxx>
+#include <TopoDS_Wire.hxx>
+#include <StepToTopoDS_TranslateCompositeCurve.hxx>
 
  
 

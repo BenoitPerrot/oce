@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <GeomFill_CoonsAlgPatch.jxx>
+#include <GeomFill_Boundary.hxx>
+#include <Law_Function.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Vec.hxx>
+#include <GeomFill_CoonsAlgPatch.hxx>
 
 #include <Standard_Type.hxx>
 

@@ -3,7 +3,24 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <AppDef_Variational.jxx>
+#include <TColStd_HArray1OfReal.hxx>
+#include <AppParCurves_HArray1OfConstraintCouple.hxx>
+#include <TColStd_HArray1OfInteger.hxx>
+#include <AppDef_SmoothCriterion.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Standard_DimensionError.hxx>
+#include <Standard_DomainError.hxx>
+#include <Standard_ConstructionError.hxx>
+#include <StdFail_NotDone.hxx>
+#include <gp_VectorWithNullMagnitude.hxx>
+#include <AppDef_MultiLine.hxx>
+#include <AppParCurves_MultiBSpCurve.hxx>
+#include <math_Matrix.hxx>
+#include <FEmTool_Curve.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <FEmTool_Assembly.hxx>
+#include <PLib_Base.hxx>
+#include <AppDef_Variational.hxx>
 
  
 

@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <BRepPrimAPI_MakeCone.jxx>
+#include <Standard_DomainError.hxx>
+#include <gp_Ax2.hxx>
+#include <BRepPrim_Cone.hxx>
+#include <BRepPrimAPI_MakeCone.hxx>
 
  
 

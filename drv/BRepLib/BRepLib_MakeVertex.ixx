@@ -3,7 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <BRepLib_MakeVertex.jxx>
+#include <gp_Pnt.hxx>
+#include <TopoDS_Vertex.hxx>
+#include <BRepLib_MakeVertex.hxx>
 
  
 

@@ -3,7 +3,18 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <STEPConstruct_Part.jxx>
+#include <StepShape_ShapeDefinitionRepresentation.hxx>
+#include <StepBasic_ProductRelatedProductCategory.hxx>
+#include <StepShape_ShapeRepresentation.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepBasic_ApplicationContext.hxx>
+#include <StepBasic_ProductContext.hxx>
+#include <StepBasic_ProductDefinitionContext.hxx>
+#include <StepBasic_Product.hxx>
+#include <StepBasic_ProductDefinitionFormation.hxx>
+#include <StepBasic_ProductDefinition.hxx>
+#include <StepRepr_ProductDefinitionShape.hxx>
+#include <STEPConstruct_Part.hxx>
 
  
 

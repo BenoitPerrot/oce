@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Interface_CopyMap.jxx>
+#include <Interface_InterfaceModel.hxx>
+#include <Interface_InterfaceError.hxx>
+#include <Standard_Transient.hxx>
+#include <Interface_CopyMap.hxx>
 
 #include <Standard_Type.hxx>
 

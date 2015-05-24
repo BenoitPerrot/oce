@@ -3,7 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IntPatch_RLine.jxx>
+#include <Adaptor2d_HCurve2d.hxx>
+#include <IntSurf_LineOn2S.hxx>
+#include <Standard_DomainError.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <IntPatch_Point.hxx>
+#include <IntSurf_PntOn2S.hxx>
+#include <IntPatch_RLine.hxx>
 
 #include <Standard_Type.hxx>
 

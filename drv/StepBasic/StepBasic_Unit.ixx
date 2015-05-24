@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepBasic_Unit.jxx>
+#include <Standard_Transient.hxx>
+#include <StepBasic_NamedUnit.hxx>
+#include <StepBasic_DerivedUnit.hxx>
+#include <StepBasic_Unit.hxx>
 
  
 

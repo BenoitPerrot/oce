@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <GeomToStep_MakeSweptSurface.jxx>
+#include <StepGeom_SweptSurface.hxx>
+#include <StdFail_NotDone.hxx>
+#include <Geom_SweptSurface.hxx>
+#include <GeomToStep_MakeSweptSurface.hxx>
 
  
 

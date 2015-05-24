@@ -3,7 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IGESBasic_SubfigureDef.jxx>
+#include <TCollection_HAsciiString.hxx>
+#include <IGESData_HArray1OfIGESEntity.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <IGESData_IGESEntity.hxx>
+#include <Standard_Transient.hxx>
+#include <IGESBasic_SubfigureDef.hxx>
 
 #include <Standard_Type.hxx>
 

@@ -3,7 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepFEA_ParametricCurve3dElementCoordinateDirection.jxx>
+#include <StepGeom_Direction.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepFEA_ParametricCurve3dElementCoordinateDirection.hxx>
 
 #include <Standard_Type.hxx>
 

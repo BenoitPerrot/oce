@@ -3,7 +3,15 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <BRepAlgo_DSAccess.jxx>
+#include <TopOpeBRepDS_HDataStructure.hxx>
+#include <TopOpeBRepBuild_HBuilder.hxx>
+#include <BRepAlgo_EdgeConnector.hxx>
+#include <BRepAlgo_BooleanOperations.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopTools_ListOfShape.hxx>
+#include <TopoDS_Vertex.hxx>
+#include <TColStd_ListOfInteger.hxx>
+#include <BRepAlgo_DSAccess.hxx>
 
  
 

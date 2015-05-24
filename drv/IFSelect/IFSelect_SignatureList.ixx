@@ -3,7 +3,15 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IFSelect_SignatureList.jxx>
+#include <TCollection_HAsciiString.hxx>
+#include <Dico_DictionaryOfInteger.hxx>
+#include <Dico_DictionaryOfTransient.hxx>
+#include <Standard_Transient.hxx>
+#include <TColStd_HSequenceOfHAsciiString.hxx>
+#include <TColStd_HSequenceOfTransient.hxx>
+#include <Message_Messenger.hxx>
+#include <Interface_InterfaceModel.hxx>
+#include <IFSelect_SignatureList.hxx>
 
 #include <Standard_Type.hxx>
 

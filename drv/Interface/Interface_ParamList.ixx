@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Interface_ParamList.jxx>
+#include <Standard_RangeError.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Standard_OutOfMemory.hxx>
+#include <Interface_FileParameter.hxx>
+#include <Interface_ParamList.hxx>
 
 #include <Standard_Type.hxx>
 

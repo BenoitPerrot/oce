@@ -3,7 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <ShapeAlgo_ToolContainer.jxx>
+#include <ShapeFix_Shape.hxx>
+#include <ShapeFix_EdgeProjAux.hxx>
+#include <ShapeAlgo_ToolContainer.hxx>
 
 #include <Standard_Type.hxx>
 

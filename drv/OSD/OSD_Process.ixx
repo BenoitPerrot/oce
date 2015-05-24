@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <OSD_Process.jxx>
+#include <OSD_OSDError.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <Quantity_Date.hxx>
+#include <OSD_Path.hxx>
+#include <OSD_Process.hxx>
 
  
 

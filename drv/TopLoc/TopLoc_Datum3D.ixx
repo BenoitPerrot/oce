@@ -3,7 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TopLoc_Datum3D.jxx>
+#include <Standard_ConstructionError.hxx>
+#include <gp_Trsf.hxx>
+#include <TopLoc_Datum3D.hxx>
 
 #include <Standard_Type.hxx>
 

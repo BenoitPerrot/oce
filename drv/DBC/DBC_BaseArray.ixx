@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <DBC_BaseArray.jxx>
+#include <Standard_NullObject.hxx>
+#include <Standard_NegativeValue.hxx>
+#include <Standard_DimensionMismatch.hxx>
+#include <DBC_BaseArray.hxx>
 
 #include <Standard_Type.hxx>
 

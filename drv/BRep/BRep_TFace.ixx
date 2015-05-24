@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <BRep_TFace.jxx>
+#include <Geom_Surface.hxx>
+#include <Poly_Triangulation.hxx>
+#include <TopLoc_Location.hxx>
+#include <TopoDS_TShape.hxx>
+#include <BRep_TFace.hxx>
 
 #include <Standard_Type.hxx>
 

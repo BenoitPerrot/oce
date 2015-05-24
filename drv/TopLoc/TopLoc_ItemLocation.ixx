@@ -3,7 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TopLoc_ItemLocation.jxx>
+#include <TopLoc_Datum3D.hxx>
+#include <TopLoc_Location.hxx>
+#include <TopLoc_ItemLocation.hxx>
 
  
 

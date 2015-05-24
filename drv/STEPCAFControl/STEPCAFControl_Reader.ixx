@@ -3,7 +3,27 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <STEPCAFControl_Reader.jxx>
+#include <STEPCAFControl_DictionaryOfExternFile.hxx>
+#include <XSControl_WorkSession.hxx>
+#include <TDocStd_Document.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <STEPCAFControl_ExternFile.hxx>
+#include <STEPControl_Reader.hxx>
+#include <TDF_LabelSequence.hxx>
+#include <TDF_Label.hxx>
+#include <TopoDS_Shape.hxx>
+#include <XCAFDoc_ShapeTool.hxx>
+#include <TopTools_MapOfShape.hxx>
+#include <STEPCAFControl_DataMapOfShapePD.hxx>
+#include <STEPCAFControl_DataMapOfPDExternFile.hxx>
+#include <XCAFDoc_DataMapOfShapeLabel.hxx>
+#include <TColStd_HSequenceOfTransient.hxx>
+#include <StepRepr_RepresentationItem.hxx>
+#include <Transfer_TransientProcess.hxx>
+#include <StepShape_ConnectedFaceSet.hxx>
+#include <StepRepr_NextAssemblyUsageOccurrence.hxx>
+#include <STEPConstruct_Tool.hxx>
+#include <STEPCAFControl_Reader.hxx>
 
  
 

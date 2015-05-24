@@ -3,7 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TFunction_GraphNode.jxx>
+#include <TDF_Label.hxx>
+#include <Standard_GUID.hxx>
+#include <TColStd_MapOfInteger.hxx>
+#include <TDF_Attribute.hxx>
+#include <TDF_RelocationTable.hxx>
+#include <TDF_DataSet.hxx>
+#include <TFunction_GraphNode.hxx>
 
 #include <Standard_Type.hxx>
 

@@ -3,7 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IFSelect_SelectSignature.jxx>
+#include <IFSelect_Signature.hxx>
+#include <IFSelect_SignCounter.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <Standard_Transient.hxx>
+#include <Interface_Graph.hxx>
+#include <Interface_InterfaceModel.hxx>
+#include <IFSelect_SelectSignature.hxx>
 
 #include <Standard_Type.hxx>
 

@@ -3,7 +3,22 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <XSControl_Controller.jxx>
+#include <IFSelect_WorkLibrary.hxx>
+#include <Interface_Protocol.hxx>
+#include <IFSelect_Signature.hxx>
+#include <Transfer_ActorOfTransientProcess.hxx>
+#include <Transfer_ActorOfFinderProcess.hxx>
+#include <Dico_DictionaryOfTransient.hxx>
+#include <TColStd_HSequenceOfHAsciiString.hxx>
+#include <Interface_HArray1OfHAsciiString.hxx>
+#include <Standard_DomainError.hxx>
+#include <XSControl_WorkSession.hxx>
+#include <Interface_InterfaceModel.hxx>
+#include <Standard_Transient.hxx>
+#include <Transfer_FinderProcess.hxx>
+#include <TopoDS_Shape.hxx>
+#include <Interface_CheckIterator.hxx>
+#include <XSControl_Controller.hxx>
 
 #include <Standard_Type.hxx>
 

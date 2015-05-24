@@ -3,7 +3,18 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IFSelect_ContextModif.jxx>
+#include <Interface_Protocol.hxx>
+#include <Interface_CopyControl.hxx>
+#include <Standard_NoSuchObject.hxx>
+#include <Interface_Graph.hxx>
+#include <Interface_CopyTool.hxx>
+#include <Interface_EntityIterator.hxx>
+#include <Interface_InterfaceModel.hxx>
+#include <Standard_Transient.hxx>
+#include <IFSelect_GeneralModifier.hxx>
+#include <Interface_Check.hxx>
+#include <Interface_CheckIterator.hxx>
+#include <IFSelect_ContextModif.hxx>
 
  
 

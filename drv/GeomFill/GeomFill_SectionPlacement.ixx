@@ -3,7 +3,15 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <GeomFill_SectionPlacement.jxx>
+#include <GeomFill_LocationLaw.hxx>
+#include <Geom_Curve.hxx>
+#include <StdFail_NotDone.hxx>
+#include <Geom_Geometry.hxx>
+#include <Adaptor3d_HCurve.hxx>
+#include <gp_Trsf.hxx>
+#include <gp_Mat.hxx>
+#include <gp_Vec.hxx>
+#include <GeomFill_SectionPlacement.hxx>
 
  
 

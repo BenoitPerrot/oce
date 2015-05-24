@@ -3,7 +3,17 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <ElSLib.jxx>
+#include <gp_Pnt.hxx>
+#include <gp_Pln.hxx>
+#include <gp_Cone.hxx>
+#include <gp_Cylinder.hxx>
+#include <gp_Sphere.hxx>
+#include <gp_Torus.hxx>
+#include <gp_Vec.hxx>
+#include <gp_Ax3.hxx>
+#include <gp_Lin.hxx>
+#include <gp_Circ.hxx>
+#include <ElSLib.hxx>
 
  
 

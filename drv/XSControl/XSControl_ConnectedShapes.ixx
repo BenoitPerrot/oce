@@ -3,7 +3,15 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <XSControl_ConnectedShapes.jxx>
+#include <XSControl_TransferReader.hxx>
+#include <Standard_Transient.hxx>
+#include <Interface_Graph.hxx>
+#include <Interface_EntityIterator.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <TColStd_HSequenceOfTransient.hxx>
+#include <TopoDS_Shape.hxx>
+#include <Transfer_TransientProcess.hxx>
+#include <XSControl_ConnectedShapes.hxx>
 
 #include <Standard_Type.hxx>
 

@@ -3,7 +3,8 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Poly_Connect.jxx>
+#include <Poly_Triangulation.hxx>
+#include <Poly_Connect.hxx>
 
  
 

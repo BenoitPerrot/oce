@@ -3,7 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepToTopoDS_GeometricTool.jxx>
+#include <StepGeom_SurfaceCurve.hxx>
+#include <StepGeom_Surface.hxx>
+#include <StepGeom_Pcurve.hxx>
+#include <StepShape_Edge.hxx>
+#include <StepShape_EdgeLoop.hxx>
+#include <Geom_Curve.hxx>
+#include <StepToTopoDS_GeometricTool.hxx>
 
  
 

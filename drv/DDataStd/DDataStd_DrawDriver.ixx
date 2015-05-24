@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <DDataStd_DrawDriver.jxx>
+#include <Draw_Drawable3D.hxx>
+#include <TDF_Label.hxx>
+#include <TDataXtd_Constraint.hxx>
+#include <TopoDS_Shape.hxx>
+#include <DDataStd_DrawDriver.hxx>
 
 #include <Standard_Type.hxx>
 

@@ -3,7 +3,20 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <BRepBlend_SurfRstLineBuilder.jxx>
+#include <BRepBlend_Line.hxx>
+#include <Adaptor3d_HSurface.hxx>
+#include <Adaptor3d_TopolTool.hxx>
+#include <Adaptor2d_HCurve2d.hxx>
+#include <Blend_SurfRstFunction.hxx>
+#include <Blend_FuncInv.hxx>
+#include <Blend_SurfPointFuncInv.hxx>
+#include <Blend_SurfCurvFuncInv.hxx>
+#include <gp_Pnt2d.hxx>
+#include <Adaptor3d_HVertex.hxx>
+#include <IntSurf_Transition.hxx>
+#include <BRepBlend_Extremity.hxx>
+#include <Blend_Point.hxx>
+#include <BRepBlend_SurfRstLineBuilder.hxx>
 
  
 

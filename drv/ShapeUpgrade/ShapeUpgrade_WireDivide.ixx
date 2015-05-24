@@ -3,7 +3,17 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <ShapeUpgrade_WireDivide.jxx>
+#include <ShapeUpgrade_SplitCurve3d.hxx>
+#include <ShapeUpgrade_SplitCurve2d.hxx>
+#include <ShapeUpgrade_EdgeDivide.hxx>
+#include <ShapeAnalysis_TransferParameters.hxx>
+#include <ShapeUpgrade_FixSmallCurves.hxx>
+#include <TopoDS_Wire.hxx>
+#include <TopoDS_Face.hxx>
+#include <Geom_Surface.hxx>
+#include <TopoDS_Edge.hxx>
+#include <TopLoc_Location.hxx>
+#include <ShapeUpgrade_WireDivide.hxx>
 
 #include <Standard_Type.hxx>
 

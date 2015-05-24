@@ -3,7 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IntTools_SurfaceRangeSample.jxx>
+#include <IntTools_CurveRangeSample.hxx>
+#include <IntTools_Range.hxx>
+#include <IntTools_SurfaceRangeSample.hxx>
 
  
 

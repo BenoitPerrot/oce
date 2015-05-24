@@ -3,7 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepElement_Volume3dElementDescriptor.jxx>
+#include <StepElement_HArray1OfVolumeElementPurposeMember.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepElement_Volume3dElementDescriptor.hxx>
 
 #include <Standard_Type.hxx>
 

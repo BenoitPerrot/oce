@@ -3,7 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <GeomInt_LineTool.jxx>
+#include <IntPatch_Line.hxx>
+#include <IntPatch_Point.hxx>
+#include <GeomInt_LineTool.hxx>
 
  
 

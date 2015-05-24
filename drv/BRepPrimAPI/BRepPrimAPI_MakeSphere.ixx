@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <BRepPrimAPI_MakeSphere.jxx>
+#include <Standard_DomainError.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Ax2.hxx>
+#include <BRepPrim_Sphere.hxx>
+#include <BRepPrimAPI_MakeSphere.hxx>
 
  
 

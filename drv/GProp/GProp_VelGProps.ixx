@@ -3,7 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <GProp_VelGProps.jxx>
+#include <gp_Cylinder.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Cone.hxx>
+#include <gp_Sphere.hxx>
+#include <gp_Torus.hxx>
+#include <GProp_VelGProps.hxx>
 
  
 

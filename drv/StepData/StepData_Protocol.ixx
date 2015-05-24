@@ -3,7 +3,17 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepData_Protocol.jxx>
+#include <Dico_DictionaryOfTransient.hxx>
+#include <Interface_Protocol.hxx>
+#include <Standard_Transient.hxx>
+#include <Standard_Type.hxx>
+#include <Interface_InterfaceModel.hxx>
+#include <StepData_EDescr.hxx>
+#include <StepData_ESDescr.hxx>
+#include <StepData_ECDescr.hxx>
+#include <TColStd_SequenceOfAsciiString.hxx>
+#include <StepData_PDescr.hxx>
+#include <StepData_Protocol.hxx>
 
 #include <Standard_Type.hxx>
 

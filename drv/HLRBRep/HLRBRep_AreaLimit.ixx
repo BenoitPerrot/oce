@@ -3,7 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <HLRBRep_AreaLimit.jxx>
+#include <HLRBRep_AreaLimit.hxx>
+#include <HLRAlgo_Intersection.hxx>
+#include <HLRBRep_AreaLimit.hxx>
 
 #include <Standard_Type.hxx>
 

@@ -3,7 +3,15 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Select3D_SensitivePoly.jxx>
+#include <Standard_ConstructionError.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <SelectBasics_EntityOwner.hxx>
+#include <TColgp_Array1OfPnt.hxx>
+#include <TColgp_HArray1OfPnt.hxx>
+#include <Select3D_Projector.hxx>
+#include <SelectBasics_ListOfBox2d.hxx>
+#include <TColgp_Array1OfPnt2d.hxx>
+#include <Select3D_SensitivePoly.hxx>
 
 #include <Standard_Type.hxx>
 

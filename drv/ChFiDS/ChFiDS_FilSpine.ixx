@@ -3,7 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <ChFiDS_FilSpine.jxx>
+#include <TopoDS_Edge.hxx>
+#include <TopoDS_Vertex.hxx>
+#include <gp_XY.hxx>
+#include <Law_Function.hxx>
+#include <Law_Composite.hxx>
+#include <ChFiDS_HElSpine.hxx>
+#include <ChFiDS_FilSpine.hxx>
 
 #include <Standard_Type.hxx>
 

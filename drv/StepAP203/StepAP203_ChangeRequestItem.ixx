@@ -3,7 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepAP203_ChangeRequestItem.jxx>
+#include <Standard_Transient.hxx>
+#include <StepBasic_ProductDefinitionFormation.hxx>
+#include <StepAP203_ChangeRequestItem.hxx>
 
  
 

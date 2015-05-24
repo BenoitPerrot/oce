@@ -3,7 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepShape_EdgeBasedWireframeModel.jxx>
+#include <StepShape_HArray1OfConnectedEdgeSet.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepShape_EdgeBasedWireframeModel.hxx>
 
 #include <Standard_Type.hxx>
 

@@ -3,7 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Visual3d_ContextView.jxx>
+#include <Graphic3d_TextureEnv.hxx>
+#include <Visual3d_ClipDefinitionError.hxx>
+#include <Visual3d_DepthCueingDefinitionError.hxx>
+#include <Visual3d_LightDefinitionError.hxx>
+#include <Visual3d_ZClippingDefinitionError.hxx>
+#include <Visual3d_Light.hxx>
+#include <Visual3d_HSequenceOfLight.hxx>
+#include <Visual3d_ContextView.hxx>
 
  
 

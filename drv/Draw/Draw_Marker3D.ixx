@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Draw_Marker3D.jxx>
+#include <gp_Pnt.hxx>
+#include <Draw_Color.hxx>
+#include <Draw_Display.hxx>
+#include <Draw_Marker3D.hxx>
 
 #include <Standard_Type.hxx>
 

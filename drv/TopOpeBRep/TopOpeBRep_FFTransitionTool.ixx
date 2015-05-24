@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TopOpeBRep_FFTransitionTool.jxx>
+#include <TopOpeBRepDS_Transition.hxx>
+#include <TopOpeBRep_VPointInter.hxx>
+#include <TopOpeBRep_LineInter.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopOpeBRep_FFTransitionTool.hxx>
 
  
 

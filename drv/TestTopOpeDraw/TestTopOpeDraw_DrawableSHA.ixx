@@ -3,7 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TestTopOpeDraw_DrawableSHA.jxx>
+#include <Draw_Text3D.hxx>
+#include <Draw_Marker3D.hxx>
+#include <TopoDS_Shape.hxx>
+#include <Draw_Color.hxx>
+#include <gp_Pnt.hxx>
+#include <Draw_Display.hxx>
+#include <TestTopOpeDraw_DrawableSHA.hxx>
 
 #include <Standard_Type.hxx>
 

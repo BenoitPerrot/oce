@@ -3,7 +3,17 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IGESConvGeom_GeomBuilder.jxx>
+#include <TColgp_HSequenceOfXYZ.hxx>
+#include <Standard_DomainError.hxx>
+#include <gp_XY.hxx>
+#include <gp_XYZ.hxx>
+#include <IGESGeom_CopiousData.hxx>
+#include <gp_Trsf.hxx>
+#include <gp_Ax3.hxx>
+#include <gp_Ax2.hxx>
+#include <gp_Ax1.hxx>
+#include <IGESGeom_TransformationMatrix.hxx>
+#include <IGESConvGeom_GeomBuilder.hxx>
 
  
 

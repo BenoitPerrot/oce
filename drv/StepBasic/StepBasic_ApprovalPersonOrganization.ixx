@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepBasic_ApprovalPersonOrganization.jxx>
+#include <StepBasic_Approval.hxx>
+#include <StepBasic_ApprovalRole.hxx>
+#include <StepBasic_PersonOrganizationSelect.hxx>
+#include <StepBasic_ApprovalPersonOrganization.hxx>
 
 #include <Standard_Type.hxx>
 

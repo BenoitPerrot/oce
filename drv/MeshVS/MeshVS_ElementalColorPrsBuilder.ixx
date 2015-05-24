@@ -3,7 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <MeshVS_ElementalColorPrsBuilder.jxx>
+#include <MeshVS_Mesh.hxx>
+#include <MeshVS_DataSource.hxx>
+#include <Prs3d_Presentation.hxx>
+#include <MeshVS_DataMapOfIntegerColor.hxx>
+#include <Quantity_Color.hxx>
+#include <MeshVS_DataMapOfIntegerTwoColors.hxx>
+#include <MeshVS_ElementalColorPrsBuilder.hxx>
 
 #include <Standard_Type.hxx>
 

@@ -3,7 +3,20 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TopOpeBRepBuild_Tools.jxx>
+#include <TopOpeBRepDS_IndexedDataMapOfShapeWithState.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
+#include <TopTools_MapOfShape.hxx>
+#include <TopOpeBRepDS_DataMapOfShapeState.hxx>
+#include <TopTools_IndexedMapOfShape.hxx>
+#include <TopOpeBRepTool_ShapeClassifier.hxx>
+#include <TopoDS_Face.hxx>
+#include <TopoDS_Edge.hxx>
+#include <gp_Vec.hxx>
+#include <TopoDS_Wire.hxx>
+#include <TopTools_IndexedMapOfOrientedShape.hxx>
+#include <TopTools_IndexedDataMapOfShapeShape.hxx>
+#include <TopOpeBRepBuild_Tools.hxx>
 
  
 

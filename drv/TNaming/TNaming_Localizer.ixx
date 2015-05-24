@@ -3,7 +3,16 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TNaming_Localizer.jxx>
+#include <TNaming_UsedShapes.hxx>
+#include <TopTools_MapOfShape.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
+#include <TDF_Label.hxx>
+#include <TopTools_ListOfShape.hxx>
+#include <TNaming_ListOfNamedShape.hxx>
+#include <TNaming_NamedShape.hxx>
+#include <TNaming_MapOfNamedShape.hxx>
+#include <TNaming_Localizer.hxx>
 
  
 

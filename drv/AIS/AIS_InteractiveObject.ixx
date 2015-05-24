@@ -3,7 +3,16 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <AIS_InteractiveObject.jxx>
+#include <Standard_Transient.hxx>
+#include <AIS_Drawer.hxx>
+#include <AIS_InteractiveContext.hxx>
+#include <Quantity_Color.hxx>
+#include <TColStd_ListOfTransient.hxx>
+#include <Graphic3d_MaterialAspect.hxx>
+#include <TColStd_ListOfInteger.hxx>
+#include <Prs3d_Presentation.hxx>
+#include <Prs3d_BasicAspect.hxx>
+#include <AIS_InteractiveObject.hxx>
 
 #include <Standard_Type.hxx>
 

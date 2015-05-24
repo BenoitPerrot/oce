@@ -3,7 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepToGeom_MakeHyperbola2d.jxx>
+#include <StepGeom_Hyperbola.hxx>
+#include <Geom2d_Hyperbola.hxx>
+#include <StepToGeom_MakeHyperbola2d.hxx>
 
  
 

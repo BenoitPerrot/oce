@@ -3,7 +3,15 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TDF_Tool.jxx>
+#include <TDF_Label.hxx>
+#include <TDF_IDFilter.hxx>
+#include <TDF_AttributeMap.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <TColStd_ListOfInteger.hxx>
+#include <TDF_Data.hxx>
+#include <TDF_LabelList.hxx>
+#include <TDF_LabelIntegerMap.hxx>
+#include <TDF_Tool.hxx>
 
  
 

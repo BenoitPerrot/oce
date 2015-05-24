@@ -3,7 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepToGeom_MakeTransformation2d.jxx>
+#include <StepGeom_CartesianTransformationOperator2d.hxx>
+#include <gp_Trsf2d.hxx>
+#include <StepToGeom_MakeTransformation2d.hxx>
 
  
 

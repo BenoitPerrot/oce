@@ -3,7 +3,18 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TDF_Label.jxx>
+#include <Standard_DomainError.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Standard_NullObject.hxx>
+#include <TDF_ChildIterator.hxx>
+#include <TDF_Attribute.hxx>
+#include <TDF_AttributeIterator.hxx>
+#include <TDF_Data.hxx>
+#include <TDF_LabelMapHasher.hxx>
+#include <Standard_GUID.hxx>
+#include <TDF_IDFilter.hxx>
+#include <TDF_AttributeIndexedMap.hxx>
+#include <TDF_Label.hxx>
 
  
 

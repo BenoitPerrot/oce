@@ -3,7 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IGESSolid_ManifoldSolid.jxx>
+#include <IGESSolid_Shell.hxx>
+#include <IGESSolid_HArray1OfShell.hxx>
+#include <TColStd_HArray1OfInteger.hxx>
+#include <Standard_DimensionMismatch.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <IGESSolid_ManifoldSolid.hxx>
 
 #include <Standard_Type.hxx>
 

@@ -3,7 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <ShapeExtend_MsgRegistrator.jxx>
+#include <Standard_Transient.hxx>
+#include <Message_Msg.hxx>
+#include <TopoDS_Shape.hxx>
+#include <ShapeExtend_DataMapOfTransientListOfMsg.hxx>
+#include <ShapeExtend_DataMapOfShapeListOfMsg.hxx>
+#include <ShapeExtend_MsgRegistrator.hxx>
 
 #include <Standard_Type.hxx>
 

@@ -3,7 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <ShapeAnalysis_TransferParametersProj.jxx>
+#include <Geom_Curve.hxx>
+#include <Geom2d_Curve.hxx>
+#include <TopoDS_Edge.hxx>
+#include <TopoDS_Face.hxx>
+#include <TColStd_HSequenceOfReal.hxx>
+#include <TopoDS_Vertex.hxx>
+#include <ShapeAnalysis_TransferParametersProj.hxx>
 
 #include <Standard_Type.hxx>
 

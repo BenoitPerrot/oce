@@ -3,7 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Storage_RootData.jxx>
+#include <Standard_NoSuchObject.hxx>
+#include <Storage_Schema.hxx>
+#include <Storage_Root.hxx>
+#include <Storage_HSeqOfRoot.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <Standard_Persistent.hxx>
+#include <Storage_RootData.hxx>
 
 #include <Standard_Type.hxx>
 

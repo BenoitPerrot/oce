@@ -3,7 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepToTopoDS_TranslatePolyLoop.jxx>
+#include <StdFail_NotDone.hxx>
+#include <StepShape_PolyLoop.hxx>
+#include <StepToTopoDS_Tool.hxx>
+#include <Geom_Surface.hxx>
+#include <TopoDS_Face.hxx>
+#include <TopoDS_Shape.hxx>
+#include <StepToTopoDS_TranslatePolyLoop.hxx>
 
  
 

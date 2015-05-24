@@ -3,7 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Units_UnitsSystem.jxx>
+#include <Units_QuantitiesSequence.hxx>
+#include <TColStd_HSequenceOfInteger.hxx>
+#include <Units_NoSuchUnit.hxx>
+#include <Units_NoSuchType.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <Units_UnitsSystem.hxx>
 
 #include <Standard_Type.hxx>
 

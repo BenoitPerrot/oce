@@ -3,7 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TestTopOpeDraw_DrawableC3D.jxx>
+#include <Draw_Text3D.hxx>
+#include <Geom_Curve.hxx>
+#include <Draw_Color.hxx>
+#include <gp_Pnt.hxx>
+#include <Draw_Display.hxx>
+#include <TestTopOpeDraw_DrawableC3D.hxx>
 
 #include <Standard_Type.hxx>
 

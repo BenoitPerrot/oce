@@ -3,7 +3,20 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <BRepFill_OffsetWire.jxx>
+#include <Standard_ConstructionError.hxx>
+#include <Standard_NoSuchObject.hxx>
+#include <TopoDS_Face.hxx>
+#include <BRepMAT2d_BisectingLocus.hxx>
+#include <BRepMAT2d_LinkTopoBilo.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopTools_ListOfShape.hxx>
+#include <BRepFill_IndexedDataMapOfOrientedShapeListOfShape.hxx>
+#include <BRepFill_DataMapOfOrientedShapeListOfShape.hxx>
+#include <TopTools_SequenceOfShape.hxx>
+#include <TColgp_SequenceOfPnt.hxx>
+#include <Bisector_Bisec.hxx>
+#include <BRepFill_TrimEdgeTool.hxx>
+#include <BRepFill_OffsetWire.hxx>
 
  
 

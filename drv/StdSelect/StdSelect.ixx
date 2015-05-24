@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StdSelect.jxx>
+#include <Select3D_Projector.hxx>
+#include <V3d_View.hxx>
+#include <SelectMgr_Selection.hxx>
+#include <Prs3d_Drawer.hxx>
+#include <StdSelect.hxx>
 
  
 

@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IGESSolid_SolidOfLinearExtrusion.jxx>
+#include <IGESData_IGESEntity.hxx>
+#include <gp_XYZ.hxx>
+#include <gp_Dir.hxx>
+#include <IGESSolid_SolidOfLinearExtrusion.hxx>
 
 #include <Standard_Type.hxx>
 

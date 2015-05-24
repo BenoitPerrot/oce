@@ -3,7 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <AppParCurves_MultiPoint.jxx>
+#include <MMgt_TShared.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Standard_DimensionError.hxx>
+#include <TColgp_Array1OfPnt.hxx>
+#include <TColgp_Array1OfPnt2d.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Pnt2d.hxx>
+#include <AppParCurves_MultiPoint.hxx>
 
  
 

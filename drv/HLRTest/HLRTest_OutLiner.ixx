@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <HLRTest_OutLiner.jxx>
+#include <HLRTopoBRep_OutLiner.hxx>
+#include <TopoDS_Shape.hxx>
+#include <Draw_Display.hxx>
+#include <Draw_Drawable3D.hxx>
+#include <HLRTest_OutLiner.hxx>
 
 #include <Standard_Type.hxx>
 

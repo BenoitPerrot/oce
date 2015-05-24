@@ -3,7 +3,17 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Expr_NamedFunction.jxx>
+#include <Expr_GeneralExpression.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Standard_DimensionMismatch.hxx>
+#include <Standard_NumericError.hxx>
+#include <Expr_NotEvaluable.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <Expr_Array1OfNamedUnknown.hxx>
+#include <Expr_NamedUnknown.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <Expr_GeneralFunction.hxx>
+#include <Expr_NamedFunction.hxx>
 
 #include <Standard_Type.hxx>
 

@@ -3,7 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <MeshVS_SensitiveSegment.jxx>
+#include <SelectBasics_EntityOwner.hxx>
+#include <gp_Pnt.hxx>
+#include <Select3D_Projector.hxx>
+#include <TColgp_Array1OfPnt2d.hxx>
+#include <Bnd_Box2d.hxx>
+#include <MeshVS_SensitiveSegment.hxx>
 
 #include <Standard_Type.hxx>
 

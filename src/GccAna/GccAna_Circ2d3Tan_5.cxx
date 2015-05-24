@@ -14,7 +14,14 @@
 
 // init. de MinRad et MaxRad (PRO15604), JCT 09/10/98
 
-#include <GccAna_Circ2d3Tan.jxx>
+#include <Standard_OutOfRange.hxx>
+#include <StdFail_NotDone.hxx>
+#include <GccEnt_BadQualifier.hxx>
+#include <GccEnt_QualifiedCirc.hxx>
+#include <GccEnt_QualifiedLin.hxx>
+#include <gp_Pnt2d.hxx>
+#include <gp_Circ2d.hxx>
+#include <GccAna_Circ2d3Tan.hxx>
 
 #include <ElCLib.hxx>
 #include <IntAna2d_AnaIntersection.hxx>

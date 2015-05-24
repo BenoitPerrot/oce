@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <GeomToStep_MakeRectangularTrimmedSurface.jxx>
+#include <StepGeom_RectangularTrimmedSurface.hxx>
+#include <StdFail_NotDone.hxx>
+#include <Geom_RectangularTrimmedSurface.hxx>
+#include <GeomToStep_MakeRectangularTrimmedSurface.hxx>
 
  
 

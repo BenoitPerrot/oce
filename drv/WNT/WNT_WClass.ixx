@@ -3,7 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <WNT_WClass.jxx>
+#include <WNT_ClassDefinitionError.hxx>
+#include <WNT_Window.hxx>
+#include <WNT_WClass.hxx>
 
 #include <Standard_Type.hxx>
 

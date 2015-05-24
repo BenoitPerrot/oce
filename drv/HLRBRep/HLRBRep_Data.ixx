@@ -3,7 +3,20 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <HLRBRep_Data.jxx>
+#include <BRepTopAdaptor_TopolTool.hxx>
+#include <StdFail_UndefinedDerivative.hxx>
+#include <HLRBRep_Array1OfEData.hxx>
+#include <HLRBRep_Array1OfFData.hxx>
+#include <HLRAlgo_Projector.hxx>
+#include <TopTools_IndexedMapOfShape.hxx>
+#include <BRepTopAdaptor_MapOfShapeTool.hxx>
+#include <HLRAlgo_Interference.hxx>
+#include <gp_Dir2d.hxx>
+#include <HLRBRep_EdgeData.hxx>
+#include <HLRAlgo_InterferenceList.hxx>
+#include <HLRBRep_FaceData.hxx>
+#include <IntRes2d_IntersectionPoint.hxx>
+#include <HLRBRep_Data.hxx>
 
 #include <Standard_Type.hxx>
 

@@ -3,7 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Message_Messenger.jxx>
+#include <Message_Printer.hxx>
+#include <Standard_Type.hxx>
+#include <Message_SequenceOfPrinters.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <TCollection_ExtendedString.hxx>
+#include <Message_Messenger.hxx>
 
 #include <Standard_Type.hxx>
 

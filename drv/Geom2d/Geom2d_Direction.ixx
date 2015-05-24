@@ -3,7 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Geom2d_Direction.jxx>
+#include <Standard_ConstructionError.hxx>
+#include <gp_Dir2d.hxx>
+#include <Geom2d_Vector.hxx>
+#include <gp_Trsf2d.hxx>
+#include <Geom2d_Geometry.hxx>
+#include <Geom2d_Direction.hxx>
 
 #include <Standard_Type.hxx>
 

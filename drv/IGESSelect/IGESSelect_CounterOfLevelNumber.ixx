@@ -3,7 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IGESSelect_CounterOfLevelNumber.jxx>
+#include <TColStd_HArray1OfInteger.hxx>
+#include <Standard_Transient.hxx>
+#include <Interface_InterfaceModel.hxx>
+#include <TColStd_HSequenceOfInteger.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <Message_Messenger.hxx>
+#include <IGESSelect_CounterOfLevelNumber.hxx>
 
 #include <Standard_Type.hxx>
 

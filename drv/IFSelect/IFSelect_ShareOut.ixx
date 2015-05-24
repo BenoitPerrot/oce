@@ -3,7 +3,15 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IFSelect_ShareOut.jxx>
+#include <TCollection_HAsciiString.hxx>
+#include <Interface_InterfaceError.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Standard_Transient.hxx>
+#include <IFSelect_Dispatch.hxx>
+#include <IFSelect_GeneralModifier.hxx>
+#include <IFSelect_Modifier.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <IFSelect_ShareOut.hxx>
 
 #include <Standard_Type.hxx>
 

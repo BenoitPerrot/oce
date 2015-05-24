@@ -3,7 +3,16 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <ShapeAnalysis_Curve.jxx>
+#include <Geom_Curve.hxx>
+#include <gp_Pnt.hxx>
+#include <Adaptor3d_Curve.hxx>
+#include <Geom2d_Curve.hxx>
+#include <Bnd_Box2d.hxx>
+#include <TColgp_Array1OfPnt.hxx>
+#include <gp_XYZ.hxx>
+#include <TColgp_SequenceOfPnt2d.hxx>
+#include <TColgp_SequenceOfPnt.hxx>
+#include <ShapeAnalysis_Curve.hxx>
 
  
 

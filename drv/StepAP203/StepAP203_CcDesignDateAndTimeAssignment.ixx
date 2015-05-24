@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepAP203_CcDesignDateAndTimeAssignment.jxx>
+#include <StepAP203_HArray1OfDateTimeItem.hxx>
+#include <StepBasic_DateAndTime.hxx>
+#include <StepBasic_DateTimeRole.hxx>
+#include <StepAP203_CcDesignDateAndTimeAssignment.hxx>
 
 #include <Standard_Type.hxx>
 

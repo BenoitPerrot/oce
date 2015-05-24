@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TFunction_Iterator.jxx>
+#include <TFunction_Scope.hxx>
+#include <TDF_Label.hxx>
+#include <TDF_LabelList.hxx>
+#include <TFunction_Iterator.hxx>
 
  
 

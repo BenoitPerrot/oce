@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <VrmlConverter_Drawer.jxx>
+#include <VrmlConverter_IsoAspect.hxx>
+#include <VrmlConverter_LineAspect.hxx>
+#include <VrmlConverter_ShadingAspect.hxx>
+#include <VrmlConverter_PointAspect.hxx>
+#include <VrmlConverter_Drawer.hxx>
 
 #include <Standard_Type.hxx>
 

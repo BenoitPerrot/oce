@@ -3,7 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IntTools_EdgeEdge.jxx>
+#include <Geom_Curve.hxx>
+#include <TopoDS_Edge.hxx>
+#include <IntTools_Range.hxx>
+#include <IntTools_SequenceOfRanges.hxx>
+#include <Bnd_Box.hxx>
+#include <BRepAdaptor_Curve.hxx>
+#include <IntTools_SequenceOfCommonPrts.hxx>
+#include <IntTools_EdgeEdge.hxx>
 
  
 

@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <MeshVS_MeshOwner.jxx>
+#include <MeshVS_DataSource.hxx>
+#include <TColStd_HPackedMapOfInteger.hxx>
+#include <PrsMgr_PresentationManager.hxx>
+#include <MeshVS_MeshOwner.hxx>
 
 #include <Standard_Type.hxx>
 

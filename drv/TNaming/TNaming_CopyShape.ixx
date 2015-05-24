@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TNaming_CopyShape.jxx>
+#include <TopoDS_Shape.hxx>
+#include <TColStd_IndexedDataMapOfTransientTransient.hxx>
+#include <TNaming_TranslateTool.hxx>
+#include <TopLoc_Location.hxx>
+#include <TNaming_CopyShape.hxx>
 
  
 

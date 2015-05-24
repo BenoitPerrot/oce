@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IFSelect_SelectionIterator.jxx>
+#include <IFSelect_HSeqOfSelection.hxx>
+#include <Standard_NoSuchObject.hxx>
+#include <IFSelect_Selection.hxx>
+#include <IFSelect_TSeqOfSelection.hxx>
+#include <IFSelect_SelectionIterator.hxx>
 
  
 

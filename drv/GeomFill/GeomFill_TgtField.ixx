@@ -3,7 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <GeomFill_TgtField.jxx>
+#include <Law_BSpline.hxx>
+#include <gp_Vec.hxx>
+#include <GeomFill_TgtField.hxx>
 
 #include <Standard_Type.hxx>
 

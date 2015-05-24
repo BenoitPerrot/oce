@@ -3,7 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepVisual_PresentedItemRepresentation.jxx>
+#include <StepVisual_PresentedItem.hxx>
+#include <StepVisual_PresentationRepresentationSelect.hxx>
+#include <StepVisual_PresentedItemRepresentation.hxx>
 
 #include <Standard_Type.hxx>
 

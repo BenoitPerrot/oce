@@ -3,7 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Geom2dGcc_FunctionTanCuCuCu.jxx>
+#include <Standard_ConstructionError.hxx>
+#include <Geom2dAdaptor_Curve.hxx>
+#include <gp_Circ2d.hxx>
+#include <gp_Lin2d.hxx>
+#include <gp_Pnt2d.hxx>
+#include <gp_Vec2d.hxx>
+#include <math_Matrix.hxx>
+#include <Geom2dGcc_FunctionTanCuCuCu.hxx>
 
  
 

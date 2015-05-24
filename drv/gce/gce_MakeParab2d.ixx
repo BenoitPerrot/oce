@@ -3,7 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <gce_MakeParab2d.jxx>
+#include <StdFail_NotDone.hxx>
+#include <gp_Ax2d.hxx>
+#include <gp_Ax22d.hxx>
+#include <gp_Pnt2d.hxx>
+#include <gp_Parab2d.hxx>
+#include <gce_MakeParab2d.hxx>
 
  
 

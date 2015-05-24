@@ -3,7 +3,20 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <HLRBRep_PolyAlgo.jxx>
+#include <HLRAlgo_PolyAlgo.hxx>
+#include <Geom_Surface.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <TopoDS_Shape.hxx>
+#include <HLRAlgo_Projector.hxx>
+#include <TColStd_Array1OfTransient.hxx>
+#include <TColStd_Array1OfInteger.hxx>
+#include <TopTools_MapOfShape.hxx>
+#include <TopoDS_Edge.hxx>
+#include <HLRAlgo_ListOfBPoint.hxx>
+#include <TopTools_ListOfShape.hxx>
+#include <HLRAlgo_PolyInternalData.hxx>
+#include <HLRAlgo_EdgeStatus.hxx>
+#include <HLRBRep_PolyAlgo.hxx>
 
 #include <Standard_Type.hxx>
 

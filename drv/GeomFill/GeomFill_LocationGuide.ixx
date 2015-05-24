@@ -3,7 +3,23 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <GeomFill_LocationGuide.jxx>
+#include <GeomFill_TrihedronWithGuide.hxx>
+#include <GeomFill_SectionLaw.hxx>
+#include <Adaptor3d_HCurve.hxx>
+#include <TColgp_HArray2OfPnt2d.hxx>
+#include <Standard_NotImplemented.hxx>
+#include <Standard_ConstructionError.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <gp_Mat.hxx>
+#include <GeomFill_LocationLaw.hxx>
+#include <gp_Vec.hxx>
+#include <TColgp_Array1OfPnt2d.hxx>
+#include <TColgp_Array1OfVec2d.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <gp_Pnt.hxx>
+#include <Geom_Curve.hxx>
+#include <TColgp_HArray1OfPnt2d.hxx>
+#include <GeomFill_LocationGuide.hxx>
 
 #include <Standard_Type.hxx>
 

@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepAP214_PresentedItemSelect.jxx>
+#include <Standard_Transient.hxx>
+#include <StepBasic_ProductDefinitionRelationship.hxx>
+#include <StepBasic_ProductDefinition.hxx>
+#include <StepAP214_PresentedItemSelect.hxx>
 
  
 

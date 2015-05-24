@@ -3,7 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Geom2dConvert_BSplineCurveToBezierCurve.jxx>
+#include <Geom2d_BSplineCurve.hxx>
+#include <Standard_DimensionError.hxx>
+#include <Standard_DomainError.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Geom2d_BezierCurve.hxx>
+#include <TColGeom2d_Array1OfBezierCurve.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <Geom2dConvert_BSplineCurveToBezierCurve.hxx>
 
  
 

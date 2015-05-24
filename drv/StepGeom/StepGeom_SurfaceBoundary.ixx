@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepGeom_SurfaceBoundary.jxx>
+#include <Standard_Transient.hxx>
+#include <StepGeom_BoundaryCurve.hxx>
+#include <StepGeom_DegeneratePcurve.hxx>
+#include <StepGeom_SurfaceBoundary.hxx>
 
  
 

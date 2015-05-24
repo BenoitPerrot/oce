@@ -3,7 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepVisual_Invisibility.jxx>
+#include <StepVisual_HArray1OfInvisibleItem.hxx>
+#include <StepVisual_InvisibleItem.hxx>
+#include <StepVisual_Invisibility.hxx>
 
 #include <Standard_Type.hxx>
 

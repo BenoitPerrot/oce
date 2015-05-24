@@ -3,7 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Graphic3d_ArrayOfPrimitives.jxx>
+#include <Standard_OutOfRange.hxx>
+#include <Graphic3d_InitialisationError.hxx>
+#include <Graphic3d_Group.hxx>
+#include <gp_Pnt.hxx>
+#include <Quantity_Color.hxx>
+#include <gp_Dir.hxx>
+#include <gp_Pnt2d.hxx>
+#include <Graphic3d_ArrayOfPrimitives.hxx>
 
 #include <Standard_Type.hxx>
 

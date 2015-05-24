@@ -3,7 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Interface_GTool.jxx>
+#include <Interface_Protocol.hxx>
+#include <Interface_SignType.hxx>
+#include <Standard_Transient.hxx>
+#include <Interface_InterfaceModel.hxx>
+#include <Interface_GeneralLib.hxx>
+#include <Interface_GeneralModule.hxx>
+#include <Interface_GTool.hxx>
 
 #include <Standard_Type.hxx>
 

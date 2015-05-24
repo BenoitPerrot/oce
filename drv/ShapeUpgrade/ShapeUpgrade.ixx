@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <ShapeUpgrade.jxx>
+#include <Geom_BSplineCurve.hxx>
+#include <TColGeom_HSequenceOfBoundedCurve.hxx>
+#include <Geom2d_BSplineCurve.hxx>
+#include <TColGeom2d_HSequenceOfBoundedCurve.hxx>
+#include <ShapeUpgrade.hxx>
 
  
 

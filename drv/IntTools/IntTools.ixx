@@ -3,7 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IntTools.jxx>
+#include <TopoDS_Edge.hxx>
+#include <IntTools_SequenceOfRoots.hxx>
+#include <gp_Pnt.hxx>
+#include <Geom_Curve.hxx>
+#include <BRepAdaptor_Curve.hxx>
+#include <IntTools_CArray1OfReal.hxx>
+#include <IntTools.hxx>
 
  
 

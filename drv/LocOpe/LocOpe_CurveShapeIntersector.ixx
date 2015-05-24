@@ -3,7 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <LocOpe_CurveShapeIntersector.jxx>
+#include <StdFail_NotDone.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <gp_Ax1.hxx>
+#include <TopoDS_Shape.hxx>
+#include <gp_Circ.hxx>
+#include <LocOpe_PntFace.hxx>
+#include <LocOpe_CurveShapeIntersector.hxx>
 
  
 

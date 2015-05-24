@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <GccEnt.jxx>
+#include <GccEnt_QualifiedLin.hxx>
+#include <gp_Lin2d.hxx>
+#include <GccEnt_QualifiedCirc.hxx>
+#include <gp_Circ2d.hxx>
+#include <GccEnt.hxx>
 
  
 

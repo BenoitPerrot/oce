@@ -3,7 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepToTopoDS_NMTool.jxx>
+#include <StepToTopoDS_DataMapOfRI.hxx>
+#include <StepToTopoDS_DataMapOfRINames.hxx>
+#include <StepRepr_RepresentationItem.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <TopoDS_Shape.hxx>
+#include <StepToTopoDS_NMTool.hxx>
 
  
 

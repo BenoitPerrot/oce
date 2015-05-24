@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <DrawTrSurf_BSplineCurve2d.jxx>
+#include <Geom2d_BSplineCurve.hxx>
+#include <Draw_Color.hxx>
+#include <Draw_Display.hxx>
+#include <Draw_Drawable3D.hxx>
+#include <DrawTrSurf_BSplineCurve2d.hxx>
 
 #include <Standard_Type.hxx>
 

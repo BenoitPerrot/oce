@@ -3,7 +3,8 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <PGeom_ConicalSurface.jxx>
+#include <gp_Ax3.hxx>
+#include <PGeom_ConicalSurface.hxx>
 
 #include <Standard_Type.hxx>
 

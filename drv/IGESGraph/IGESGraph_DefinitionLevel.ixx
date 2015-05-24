@@ -3,7 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IGESGraph_DefinitionLevel.jxx>
+#include <TColStd_HArray1OfInteger.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <IGESGraph_DefinitionLevel.hxx>
 
 #include <Standard_Type.hxx>
 

@@ -3,7 +3,8 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepData_SelectNamed.jxx>
+#include <StepData_Field.hxx>
+#include <StepData_SelectNamed.hxx>
 
 #include <Standard_Type.hxx>
 

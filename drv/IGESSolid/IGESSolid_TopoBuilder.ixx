@@ -3,7 +3,19 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IGESSolid_TopoBuilder.jxx>
+#include <IGESSolid_ManifoldSolid.hxx>
+#include <IGESSolid_Shell.hxx>
+#include <TColStd_HSequenceOfTransient.hxx>
+#include <TColStd_HSequenceOfInteger.hxx>
+#include <IGESSolid_Face.hxx>
+#include <IGESData_IGESEntity.hxx>
+#include <IGESSolid_Loop.hxx>
+#include <IGESSolid_EdgeList.hxx>
+#include <IGESSolid_VertexList.hxx>
+#include <TColgp_HSequenceOfXYZ.hxx>
+#include <Standard_DomainError.hxx>
+#include <gp_XYZ.hxx>
+#include <IGESSolid_TopoBuilder.hxx>
 
  
 

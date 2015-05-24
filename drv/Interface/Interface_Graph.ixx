@@ -3,7 +3,20 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Interface_Graph.jxx>
+#include <Interface_InterfaceModel.hxx>
+#include <TColStd_HArray1OfInteger.hxx>
+#include <TColStd_HArray1OfListOfInteger.hxx>
+#include <Standard_DomainError.hxx>
+#include <Interface_GeneralLib.hxx>
+#include <Interface_Protocol.hxx>
+#include <Interface_GTool.hxx>
+#include <Standard_Transient.hxx>
+#include <Interface_BitMap.hxx>
+#include <Interface_EntityIterator.hxx>
+#include <TColStd_HSequenceOfTransient.hxx>
+#include <Standard_Type.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <Interface_Graph.hxx>
 
  
 

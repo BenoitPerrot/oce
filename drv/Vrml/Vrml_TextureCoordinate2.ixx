@@ -3,7 +3,8 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Vrml_TextureCoordinate2.jxx>
+#include <TColgp_HArray1OfVec2d.hxx>
+#include <Vrml_TextureCoordinate2.hxx>
 
 #include <Standard_Type.hxx>
 

@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <BRepClass3d_SolidClassifier.jxx>
+#include <Standard_DomainError.hxx>
+#include <TopoDS_Shape.hxx>
+#include <gp_Pnt.hxx>
+#include <BRepClass3d_SolidClassifier.hxx>
 
  
 

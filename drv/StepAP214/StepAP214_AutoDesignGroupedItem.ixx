@@ -3,7 +3,19 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepAP214_AutoDesignGroupedItem.jxx>
+#include <Standard_Transient.hxx>
+#include <StepShape_AdvancedBrepShapeRepresentation.hxx>
+#include <StepShape_CsgShapeRepresentation.hxx>
+#include <StepShape_FacetedBrepShapeRepresentation.hxx>
+#include <StepShape_GeometricallyBoundedSurfaceShapeRepresentation.hxx>
+#include <StepShape_GeometricallyBoundedWireframeShapeRepresentation.hxx>
+#include <StepShape_ManifoldSurfaceShapeRepresentation.hxx>
+#include <StepRepr_Representation.hxx>
+#include <StepRepr_RepresentationItem.hxx>
+#include <StepRepr_ShapeAspect.hxx>
+#include <StepShape_ShapeRepresentation.hxx>
+#include <StepVisual_TemplateInstance.hxx>
+#include <StepAP214_AutoDesignGroupedItem.hxx>
 
  
 

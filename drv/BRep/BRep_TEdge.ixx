@@ -3,7 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <BRep_TEdge.jxx>
+#include <BRep_ListOfCurveRepresentation.hxx>
+#include <TopoDS_TShape.hxx>
+#include <BRep_TEdge.hxx>
 
 #include <Standard_Type.hxx>
 

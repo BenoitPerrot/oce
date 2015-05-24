@@ -3,7 +3,15 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <GeomFill_GuideTrihedronPlan.jxx>
+#include <Adaptor3d_HCurve.hxx>
+#include <TColgp_HArray2OfPnt2d.hxx>
+#include <GeomFill_Frenet.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Standard_ConstructionError.hxx>
+#include <GeomFill_TrihedronLaw.hxx>
+#include <gp_Vec.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <GeomFill_GuideTrihedronPlan.hxx>
 
 #include <Standard_Type.hxx>
 

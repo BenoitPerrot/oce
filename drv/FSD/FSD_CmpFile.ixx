@@ -3,7 +3,17 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <FSD_CmpFile.jxx>
+#include <Storage_StreamTypeMismatchError.hxx>
+#include <Storage_StreamFormatError.hxx>
+#include <Storage_StreamWriteError.hxx>
+#include <Storage_StreamExtCharParityError.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <TCollection_ExtendedString.hxx>
+#include <TColStd_SequenceOfAsciiString.hxx>
+#include <TColStd_SequenceOfExtendedString.hxx>
+#include <Storage_BaseDriver.hxx>
+#include <Standard_Type.hxx>
+#include <FSD_CmpFile.hxx>
 
  
 

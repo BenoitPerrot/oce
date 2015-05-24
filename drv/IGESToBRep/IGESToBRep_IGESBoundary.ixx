@@ -3,7 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IGESToBRep_IGESBoundary.jxx>
+#include <IGESData_IGESEntity.hxx>
+#include <ShapeExtend_WireData.hxx>
+#include <IGESToBRep_CurveAndSurface.hxx>
+#include <TopoDS_Face.hxx>
+#include <gp_Trsf2d.hxx>
+#include <IGESData_HArray1OfIGESEntity.hxx>
+#include <IGESToBRep_IGESBoundary.hxx>
 
 #include <Standard_Type.hxx>
 

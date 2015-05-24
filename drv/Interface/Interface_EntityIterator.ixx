@@ -3,7 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Interface_EntityIterator.jxx>
+#include <Interface_IntVal.hxx>
+#include <TColStd_HSequenceOfTransient.hxx>
+#include <Standard_NoMoreObject.hxx>
+#include <Standard_NoSuchObject.hxx>
+#include <Standard_Transient.hxx>
+#include <Standard_Type.hxx>
+#include <Interface_EntityIterator.hxx>
 
  
 

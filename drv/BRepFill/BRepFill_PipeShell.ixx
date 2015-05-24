@@ -3,7 +3,22 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <BRepFill_PipeShell.jxx>
+#include <Law_Function.hxx>
+#include <BRepFill_LocationLaw.hxx>
+#include <BRepFill_SectionLaw.hxx>
+#include <TopTools_HArray2OfShape.hxx>
+#include <Standard_DomainError.hxx>
+#include <StdFail_NotDone.hxx>
+#include <TopoDS_Wire.hxx>
+#include <gp_Ax2.hxx>
+#include <gp_Dir.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopoDS_Vertex.hxx>
+#include <TopTools_ListOfShape.hxx>
+#include <BRepFill_Section.hxx>
+#include <gp_Trsf.hxx>
+#include <BRepFill_Sweep.hxx>
+#include <BRepFill_PipeShell.hxx>
 
 #include <Standard_Type.hxx>
 

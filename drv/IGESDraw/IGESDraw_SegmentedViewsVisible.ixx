@@ -3,7 +3,17 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IGESDraw_SegmentedViewsVisible.jxx>
+#include <IGESDraw_HArray1OfViewKindEntity.hxx>
+#include <TColStd_HArray1OfReal.hxx>
+#include <TColStd_HArray1OfInteger.hxx>
+#include <IGESGraph_HArray1OfColor.hxx>
+#include <IGESBasic_HArray1OfLineFontEntity.hxx>
+#include <Standard_DimensionMismatch.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <IGESData_ViewKindEntity.hxx>
+#include <IGESGraph_Color.hxx>
+#include <IGESData_LineFontEntity.hxx>
+#include <IGESDraw_SegmentedViewsVisible.hxx>
 
 #include <Standard_Type.hxx>
 

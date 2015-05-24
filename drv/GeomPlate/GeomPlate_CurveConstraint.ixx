@@ -3,7 +3,16 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <GeomPlate_CurveConstraint.jxx>
+#include <Adaptor3d_HCurveOnSurface.hxx>
+#include <Adaptor3d_HCurve.hxx>
+#include <Geom2d_Curve.hxx>
+#include <Adaptor2d_HCurve2d.hxx>
+#include <Law_Function.hxx>
+#include <Standard_ConstructionError.hxx>
+#include <GeomLProp_SLProps.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Vec.hxx>
+#include <GeomPlate_CurveConstraint.hxx>
 
 #include <Standard_Type.hxx>
 

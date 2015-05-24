@@ -3,7 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <AdvApp2Var_Framework.jxx>
+#include <Standard_NoSuchObject.hxx>
+#include <AdvApp2Var_SequenceOfNode.hxx>
+#include <AdvApp2Var_SequenceOfStrip.hxx>
+#include <AdvApp2Var_Iso.hxx>
+#include <AdvApp2Var_Node.hxx>
+#include <TColStd_HArray1OfReal.hxx>
+#include <AdvApp2Var_Framework.hxx>
 
  
 

@@ -3,7 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <MgtTopLoc.jxx>
+#include <PTopLoc_Datum3D.hxx>
+#include <TopLoc_Datum3D.hxx>
+#include <PTColStd_TransientPersistentMap.hxx>
+#include <PTColStd_PersistentTransientMap.hxx>
+#include <PTopLoc_Location.hxx>
+#include <TopLoc_Location.hxx>
+#include <MgtTopLoc.hxx>
 
  
 

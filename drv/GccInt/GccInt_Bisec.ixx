@@ -3,7 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <GccInt_Bisec.jxx>
+#include <Standard_DomainError.hxx>
+#include <gp_Pnt2d.hxx>
+#include <gp_Lin2d.hxx>
+#include <gp_Circ2d.hxx>
+#include <gp_Hypr2d.hxx>
+#include <gp_Parab2d.hxx>
+#include <gp_Elips2d.hxx>
+#include <GccInt_Bisec.hxx>
 
 #include <Standard_Type.hxx>
 

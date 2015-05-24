@@ -3,7 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <MeshVS_DeformedDataSource.jxx>
+#include <MeshVS_DataSource.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <MeshVS_HArray1OfSequenceOfInteger.hxx>
+#include <TColStd_Array1OfInteger.hxx>
+#include <MeshVS_DataMapOfIntegerVector.hxx>
+#include <gp_Vec.hxx>
+#include <MeshVS_DeformedDataSource.hxx>
 
 #include <Standard_Type.hxx>
 

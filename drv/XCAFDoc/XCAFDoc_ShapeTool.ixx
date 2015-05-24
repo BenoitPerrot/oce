@@ -3,7 +3,18 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <XCAFDoc_ShapeTool.jxx>
+#include <Standard_GUID.hxx>
+#include <TDF_Label.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TDF_LabelSequence.hxx>
+#include <TopLoc_Location.hxx>
+#include <TDF_Attribute.hxx>
+#include <TDF_RelocationTable.hxx>
+#include <TColStd_SequenceOfHAsciiString.hxx>
+#include <XCAFDoc_GraphNode.hxx>
+#include <TDF_AttributeSequence.hxx>
+#include <TopTools_SequenceOfShape.hxx>
+#include <XCAFDoc_ShapeTool.hxx>
 
 #include <Standard_Type.hxx>
 

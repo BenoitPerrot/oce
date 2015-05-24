@@ -3,7 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <DrawDim.jxx>
+#include <TopoDS_Shape.hxx>
+#include <gp_Pnt.hxx>
+#include <TopoDS_Edge.hxx>
+#include <gp_Lin.hxx>
+#include <gp_Circ.hxx>
+#include <TopoDS_Face.hxx>
+#include <gp_Pln.hxx>
+#include <DrawDim.hxx>
 
  
 

@@ -3,7 +3,17 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <MoniTool_TypedValue.jxx>
+#include <Standard_Type.hxx>
+#include <TColStd_HArray1OfAsciiString.hxx>
+#include <Dico_DictionaryOfInteger.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <Standard_Transient.hxx>
+#include <Standard_ConstructionError.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <Message_Messenger.hxx>
+#include <TColStd_HSequenceOfAsciiString.hxx>
+#include <Dico_DictionaryOfTransient.hxx>
+#include <MoniTool_TypedValue.hxx>
 
 #include <Standard_Type.hxx>
 

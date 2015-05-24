@@ -3,7 +3,15 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <AdvApp2Var_ApproxAFunc2Var.jxx>
+#include <TColStd_HArray1OfReal.hxx>
+#include <TColStd_HArray2OfReal.hxx>
+#include <TColGeom_HArray1OfSurface.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Standard_ConstructionError.hxx>
+#include <AdvApprox_Cutting.hxx>
+#include <AdvApp2Var_Criterion.hxx>
+#include <Geom_BSplineSurface.hxx>
+#include <AdvApp2Var_ApproxAFunc2Var.hxx>
 
  
 

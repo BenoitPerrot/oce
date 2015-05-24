@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <GCE2d_MakeTranslation.jxx>
+#include <Geom2d_Transformation.hxx>
+#include <gp_Vec2d.hxx>
+#include <gp_Pnt2d.hxx>
+#include <GCE2d_MakeTranslation.hxx>
 
  
 

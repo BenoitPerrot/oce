@@ -3,7 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IGESData_ToolLocation.jxx>
+#include <IGESData_IGESModel.hxx>
+#include <Standard_DomainError.hxx>
+#include <IGESData_Protocol.hxx>
+#include <IGESData_IGESEntity.hxx>
+#include <gp_GTrsf.hxx>
+#include <gp_Trsf.hxx>
+#include <IGESData_ToolLocation.hxx>
 
 #include <Standard_Type.hxx>
 

@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <GeomToStep_MakePlane.jxx>
+#include <StepGeom_Plane.hxx>
+#include <StdFail_NotDone.hxx>
+#include <gp_Pln.hxx>
+#include <Geom_Plane.hxx>
+#include <GeomToStep_MakePlane.hxx>
 
  
 

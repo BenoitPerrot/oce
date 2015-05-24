@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IGESGeom_Point.jxx>
+#include <IGESBasic_SubfigureDef.hxx>
+#include <gp_XYZ.hxx>
+#include <gp_Pnt.hxx>
+#include <IGESGeom_Point.hxx>
 
 #include <Standard_Type.hxx>
 

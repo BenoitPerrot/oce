@@ -3,7 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IFSelect_SelectAnyList.jxx>
+#include <IFSelect_IntParam.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Interface_InterfaceError.hxx>
+#include <Interface_EntityIterator.hxx>
+#include <Standard_Transient.hxx>
+#include <Interface_Graph.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <IFSelect_SelectAnyList.hxx>
 
 #include <Standard_Type.hxx>
 

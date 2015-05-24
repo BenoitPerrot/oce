@@ -3,7 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IGESGeom_BSplineCurve.jxx>
+#include <TColStd_HArray1OfReal.hxx>
+#include <TColgp_HArray1OfXYZ.hxx>
+#include <Standard_DimensionMismatch.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <gp_XYZ.hxx>
+#include <gp_Pnt.hxx>
+#include <IGESGeom_BSplineCurve.hxx>
 
 #include <Standard_Type.hxx>
 

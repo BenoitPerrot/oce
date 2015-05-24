@@ -3,7 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <RWStepFEA_RWParametricCurve3dElementCoordinateDirection.jxx>
+#include <StepData_StepReaderData.hxx>
+#include <Interface_Check.hxx>
+#include <StepFEA_ParametricCurve3dElementCoordinateDirection.hxx>
+#include <StepData_StepWriter.hxx>
+#include <Interface_EntityIterator.hxx>
+#include <RWStepFEA_RWParametricCurve3dElementCoordinateDirection.hxx>
 
  
 

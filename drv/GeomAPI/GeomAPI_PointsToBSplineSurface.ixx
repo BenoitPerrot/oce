@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <GeomAPI_PointsToBSplineSurface.jxx>
+#include <Geom_BSplineSurface.hxx>
+#include <StdFail_NotDone.hxx>
+#include <TColgp_Array2OfPnt.hxx>
+#include <TColStd_Array2OfReal.hxx>
+#include <GeomAPI_PointsToBSplineSurface.hxx>
 
  
 

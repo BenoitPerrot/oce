@@ -3,7 +3,22 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IntTools_Tools.jxx>
+#include <TopoDS_Vertex.hxx>
+#include <TopoDS_Wire.hxx>
+#include <TopoDS_Face.hxx>
+#include <gp_Pnt2d.hxx>
+#include <TopoDS_Edge.hxx>
+#include <IntTools_CommonPrt.hxx>
+#include <gp_Pnt.hxx>
+#include <IntTools_Curve.hxx>
+#include <IntTools_SequenceOfCurves.hxx>
+#include <gp_Dir.hxx>
+#include <Geom_Curve.hxx>
+#include <Bnd_Box.hxx>
+#include <IntTools_Range.hxx>
+#include <gp_Lin.hxx>
+#include <gp_Pln.hxx>
+#include <IntTools_Tools.hxx>
 
  
 

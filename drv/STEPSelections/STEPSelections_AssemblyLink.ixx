@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <STEPSelections_AssemblyLink.jxx>
+#include <StepRepr_NextAssemblyUsageOccurrence.hxx>
+#include <Standard_Transient.hxx>
+#include <STEPSelections_AssemblyComponent.hxx>
+#include <STEPSelections_AssemblyLink.hxx>
 
 #include <Standard_Type.hxx>
 

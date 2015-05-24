@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IFSelect_GeneralModifier.jxx>
+#include <IFSelect_Selection.hxx>
+#include <IFSelect_Dispatch.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <IFSelect_GeneralModifier.hxx>
 
 #include <Standard_Type.hxx>
 

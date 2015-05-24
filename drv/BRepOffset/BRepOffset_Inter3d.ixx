@@ -3,7 +3,16 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <BRepOffset_Inter3d.jxx>
+#include <BRepAlgo_AsDes.hxx>
+#include <TopTools_ListOfShape.hxx>
+#include <BRepAlgo_Image.hxx>
+#include <TopoDS_Face.hxx>
+#include <TopoDS_Shape.hxx>
+#include <BRepOffset_Analyse.hxx>
+#include <BRepOffset_DataMapOfShapeOffset.hxx>
+#include <TopTools_DataMapOfShapeShape.hxx>
+#include <TopTools_IndexedMapOfShape.hxx>
+#include <BRepOffset_Inter3d.hxx>
 
  
 

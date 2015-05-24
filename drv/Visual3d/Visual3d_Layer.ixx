@@ -3,7 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Visual3d_Layer.jxx>
+#include <Graphic3d_GraphicDriver.hxx>
+#include <Visual3d_LayerDefinitionError.hxx>
+#include <Visual3d_ViewManager.hxx>
+#include <Quantity_Color.hxx>
+#include <Visual3d_LayerItem.hxx>
+#include <Visual3d_Layer.hxx>
 
 #include <Standard_Type.hxx>
 

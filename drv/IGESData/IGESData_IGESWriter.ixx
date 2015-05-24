@@ -3,7 +3,17 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IGESData_IGESWriter.jxx>
+#include <IGESData_IGESModel.hxx>
+#include <TColStd_HSequenceOfHAsciiString.hxx>
+#include <Interface_InterfaceMismatch.hxx>
+#include <Interface_FloatWriter.hxx>
+#include <IGESData_Protocol.hxx>
+#include <IGESData_GlobalSection.hxx>
+#include <IGESData_IGESEntity.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <gp_XY.hxx>
+#include <gp_XYZ.hxx>
+#include <IGESData_IGESWriter.hxx>
 
  
 

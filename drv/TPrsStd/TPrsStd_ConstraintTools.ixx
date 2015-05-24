@@ -3,7 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TPrsStd_ConstraintTools.jxx>
+#include <TDataXtd_Constraint.hxx>
+#include <AIS_InteractiveObject.hxx>
+#include <TCollection_ExtendedString.hxx>
+#include <TopoDS_Shape.hxx>
+#include <Geom_Geometry.hxx>
+#include <TPrsStd_ConstraintTools.hxx>
 
  
 

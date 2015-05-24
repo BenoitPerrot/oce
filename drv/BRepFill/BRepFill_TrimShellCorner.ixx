@@ -3,7 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <BRepFill_TrimShellCorner.jxx>
+#include <TopTools_HArray2OfShape.hxx>
+#include <gp_Ax2.hxx>
+#include <TopoDS_Face.hxx>
+#include <TopoDS_Wire.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopTools_ListOfShape.hxx>
+#include <BRepFill_TrimShellCorner.hxx>
 
  
 

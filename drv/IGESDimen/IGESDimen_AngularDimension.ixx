@@ -3,7 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IGESDimen_AngularDimension.jxx>
+#include <IGESDimen_GeneralNote.hxx>
+#include <IGESDimen_WitnessLine.hxx>
+#include <IGESDimen_LeaderArrow.hxx>
+#include <gp_XY.hxx>
+#include <gp_Pnt2d.hxx>
+#include <IGESDimen_AngularDimension.hxx>
 
 #include <Standard_Type.hxx>
 

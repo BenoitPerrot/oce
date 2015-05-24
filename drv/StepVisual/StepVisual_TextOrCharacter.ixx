@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepVisual_TextOrCharacter.jxx>
+#include <Standard_Transient.hxx>
+#include <StepVisual_AnnotationText.hxx>
+#include <StepVisual_CompositeText.hxx>
+#include <StepVisual_TextLiteral.hxx>
+#include <StepVisual_TextOrCharacter.hxx>
 
  
 

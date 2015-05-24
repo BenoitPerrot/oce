@@ -3,7 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Bisector_Bisec.jxx>
+#include <Geom2d_TrimmedCurve.hxx>
+#include <Geom2d_Curve.hxx>
+#include <gp_Pnt2d.hxx>
+#include <gp_Vec2d.hxx>
+#include <Geom2d_Point.hxx>
+#include <Bisector_Bisec.hxx>
 
  
 

@@ -3,7 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <BRepToIGES_BREntity.jxx>
+#include <IGESData_IGESModel.hxx>
+#include <Transfer_FinderProcess.hxx>
+#include <IGESData_IGESEntity.hxx>
+#include <TopoDS_Shape.hxx>
+#include <Standard_Transient.hxx>
+#include <BRepToIGES_BREntity.hxx>
 
  
 

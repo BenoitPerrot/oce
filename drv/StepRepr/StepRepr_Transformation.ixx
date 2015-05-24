@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepRepr_Transformation.jxx>
+#include <Standard_Transient.hxx>
+#include <StepRepr_ItemDefinedTransformation.hxx>
+#include <StepRepr_FunctionallyDefinedTransformation.hxx>
+#include <StepRepr_Transformation.hxx>
 
  
 

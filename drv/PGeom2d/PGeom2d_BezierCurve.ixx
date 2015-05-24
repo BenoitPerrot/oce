@@ -3,7 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <PGeom2d_BezierCurve.jxx>
+#include <PColgp_HArray1OfPnt2d.hxx>
+#include <PColStd_HArray1OfReal.hxx>
+#include <PGeom2d_BezierCurve.hxx>
 
 #include <Standard_Type.hxx>
 

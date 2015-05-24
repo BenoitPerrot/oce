@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepBasic_DateTimeSelect.jxx>
+#include <Standard_Transient.hxx>
+#include <StepBasic_Date.hxx>
+#include <StepBasic_LocalTime.hxx>
+#include <StepBasic_DateAndTime.hxx>
+#include <StepBasic_DateTimeSelect.hxx>
 
  
 

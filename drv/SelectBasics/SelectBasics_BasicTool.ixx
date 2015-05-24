@@ -3,7 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <SelectBasics_BasicTool.jxx>
+#include <gp_Pnt2d.hxx>
+#include <TColgp_Array1OfPnt2d.hxx>
+#include <SelectBasics_BasicTool.hxx>
 
  
 

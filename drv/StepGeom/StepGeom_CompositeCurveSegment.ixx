@@ -3,7 +3,8 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepGeom_CompositeCurveSegment.jxx>
+#include <StepGeom_Curve.hxx>
+#include <StepGeom_CompositeCurveSegment.hxx>
 
 #include <Standard_Type.hxx>
 

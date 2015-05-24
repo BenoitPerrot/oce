@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepGeom_DegeneratePcurve.jxx>
+#include <StepGeom_Surface.hxx>
+#include <StepRepr_DefinitionalRepresentation.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepGeom_DegeneratePcurve.hxx>
 
 #include <Standard_Type.hxx>
 

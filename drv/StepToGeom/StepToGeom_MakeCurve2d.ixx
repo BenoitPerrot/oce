@@ -3,7 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepToGeom_MakeCurve2d.jxx>
+#include <StepGeom_Curve.hxx>
+#include <Geom2d_Curve.hxx>
+#include <StepToGeom_MakeCurve2d.hxx>
 
  
 

@@ -3,7 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <XmlLDrivers_DocumentRetrievalDriver.jxx>
+#include <XmlMDF_ADriverTable.hxx>
+#include <TCollection_ExtendedString.hxx>
+#include <PCDM_Document.hxx>
+#include <CDM_Document.hxx>
+#include <CDM_Application.hxx>
+#include <CDM_MessageDriver.hxx>
+#include <XmlMDF_ADriver.hxx>
+#include <XmlLDrivers_DocumentRetrievalDriver.hxx>
 
 #include <Standard_Type.hxx>
 

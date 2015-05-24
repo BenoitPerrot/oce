@@ -3,7 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <ShapeAnalysis_Geom.jxx>
+#include <Standard_OutOfRange.hxx>
+#include <TColgp_Array1OfPnt.hxx>
+#include <gp_Pln.hxx>
+#include <TColStd_HArray2OfReal.hxx>
+#include <gp_Trsf.hxx>
+#include <ShapeAnalysis_Geom.hxx>
 
  
 

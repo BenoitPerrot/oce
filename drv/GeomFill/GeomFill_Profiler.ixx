@@ -3,7 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <GeomFill_Profiler.jxx>
+#include <StdFail_NotDone.hxx>
+#include <Standard_DomainError.hxx>
+#include <Geom_Curve.hxx>
+#include <TColgp_Array1OfPnt.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <TColStd_Array1OfInteger.hxx>
+#include <GeomFill_Profiler.hxx>
 
  
 

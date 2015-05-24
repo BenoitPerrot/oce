@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepGeom_CurveReplica.jxx>
+#include <StepGeom_Curve.hxx>
+#include <StepGeom_CartesianTransformationOperator.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <StepGeom_CurveReplica.hxx>
 
 #include <Standard_Type.hxx>
 

@@ -3,7 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Resource_Manager.jxx>
+#include <Standard_TypeMismatch.hxx>
+#include <Resource_NoSuchResource.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <Resource_DataMapOfAsciiStringAsciiString.hxx>
+#include <Resource_Manager.hxx>
 
 #include <Standard_Type.hxx>
 

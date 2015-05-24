@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <GeomPlate_MakeApprox.jxx>
+#include <GeomPlate_Surface.hxx>
+#include <Geom_BSplineSurface.hxx>
+#include <AdvApp2Var_Criterion.hxx>
+#include <GeomPlate_MakeApprox.hxx>
 
  
 

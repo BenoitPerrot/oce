@@ -3,7 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Contap_SurfFunction.jxx>
+#include <Adaptor3d_HSurface.hxx>
+#include <StdFail_UndefinedDerivative.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Dir.hxx>
+#include <math_Matrix.hxx>
+#include <gp_Vec.hxx>
+#include <gp_Dir2d.hxx>
+#include <Contap_SurfFunction.hxx>
 
  
 

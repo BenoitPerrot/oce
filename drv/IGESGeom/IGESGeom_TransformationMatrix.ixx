@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IGESGeom_TransformationMatrix.jxx>
+#include <TColStd_HArray2OfReal.hxx>
+#include <Standard_DimensionMismatch.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <gp_GTrsf.hxx>
+#include <IGESGeom_TransformationMatrix.hxx>
 
 #include <Standard_Type.hxx>
 

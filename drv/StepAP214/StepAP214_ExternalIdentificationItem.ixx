@@ -3,7 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepAP214_ExternalIdentificationItem.jxx>
+#include <Standard_Transient.hxx>
+#include <StepBasic_DocumentFile.hxx>
+#include <StepAP214_ExternallyDefinedClass.hxx>
+#include <StepAP214_ExternallyDefinedGeneralProperty.hxx>
+#include <StepBasic_ProductDefinition.hxx>
+#include <StepAP214_ExternalIdentificationItem.hxx>
 
  
 

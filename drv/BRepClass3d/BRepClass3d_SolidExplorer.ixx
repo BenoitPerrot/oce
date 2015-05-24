@@ -3,7 +3,16 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <BRepClass3d_SolidExplorer.jxx>
+#include <TopoDS_Shape.hxx>
+#include <gp_Pnt.hxx>
+#include <TopoDS_Face.hxx>
+#include <gp_Vec.hxx>
+#include <BRepAdaptor_HSurface.hxx>
+#include <TopoDS_Shell.hxx>
+#include <gp_Lin.hxx>
+#include <Bnd_Box.hxx>
+#include <IntCurvesFace_Intersector.hxx>
+#include <BRepClass3d_SolidExplorer.hxx>
 
  
 

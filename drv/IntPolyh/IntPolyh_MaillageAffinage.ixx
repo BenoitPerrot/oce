@@ -3,7 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IntPolyh_MaillageAffinage.jxx>
+#include <Adaptor3d_HSurface.hxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <Bnd_Box.hxx>
+#include <IntPolyh_Point.hxx>
+#include <IntPolyh_StartPoint.hxx>
+#include <IntPolyh_Triangle.hxx>
+#include <IntPolyh_SectionLine.hxx>
+#include <IntPolyh_MaillageAffinage.hxx>
 
  
 

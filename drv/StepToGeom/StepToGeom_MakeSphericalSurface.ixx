@@ -3,7 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepToGeom_MakeSphericalSurface.jxx>
+#include <StepGeom_SphericalSurface.hxx>
+#include <Geom_SphericalSurface.hxx>
+#include <StepToGeom_MakeSphericalSurface.hxx>
 
  
 

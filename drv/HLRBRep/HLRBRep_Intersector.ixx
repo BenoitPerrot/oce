@@ -3,7 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <HLRBRep_Intersector.jxx>
+#include <StdFail_UndefinedDerivative.hxx>
+#include <gp_Lin.hxx>
+#include <IntRes2d_IntersectionPoint.hxx>
+#include <IntCurveSurface_IntersectionPoint.hxx>
+#include <IntRes2d_IntersectionSegment.hxx>
+#include <IntCurveSurface_IntersectionSegment.hxx>
+#include <HLRBRep_Intersector.hxx>
 
  
 

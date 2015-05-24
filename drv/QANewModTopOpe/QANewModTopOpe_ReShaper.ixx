@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <QANewModTopOpe_ReShaper.jxx>
+#include <TopoDS_Shape.hxx>
+#include <TopTools_MapOfShape.hxx>
+#include <TopTools_HSequenceOfShape.hxx>
+#include <QANewModTopOpe_ReShaper.hxx>
 
 #include <Standard_Type.hxx>
 

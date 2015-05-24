@@ -3,7 +3,17 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IFSelect_TransformStandard.jxx>
+#include <IFSelect_Selection.hxx>
+#include <Interface_CopyControl.hxx>
+#include <IFSelect_Modifier.hxx>
+#include <Interface_Graph.hxx>
+#include <Interface_Protocol.hxx>
+#include <Interface_CheckIterator.hxx>
+#include <Interface_InterfaceModel.hxx>
+#include <Interface_CopyTool.hxx>
+#include <Standard_Transient.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <IFSelect_TransformStandard.hxx>
 
 #include <Standard_Type.hxx>
 

@@ -3,7 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <XSControl_TransferWriter.jxx>
+#include <XSControl_Controller.hxx>
+#include <Transfer_FinderProcess.hxx>
+#include <Standard_Transient.hxx>
+#include <Interface_InterfaceModel.hxx>
+#include <TopoDS_Shape.hxx>
+#include <Interface_CheckIterator.hxx>
+#include <XSControl_TransferWriter.hxx>
 
 #include <Standard_Type.hxx>
 

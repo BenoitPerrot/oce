@@ -15,7 +15,14 @@
 // cas de 2 cercles concentriques JCT 28/11/97
 
 #include <ElCLib.hxx>
-#include <GccAna_Circ2d3Tan.jxx>
+#include <Standard_OutOfRange.hxx>
+#include <StdFail_NotDone.hxx>
+#include <GccEnt_BadQualifier.hxx>
+#include <GccEnt_QualifiedCirc.hxx>
+#include <GccEnt_QualifiedLin.hxx>
+#include <gp_Pnt2d.hxx>
+#include <gp_Circ2d.hxx>
+#include <GccAna_Circ2d3Tan.hxx>
 #include <IntAna2d_AnaIntersection.hxx>
 #include <IntAna2d_IntPoint.hxx>
 #include <gp_Lin2d.hxx>

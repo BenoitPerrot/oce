@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IGESSelect_Dumper.jxx>
+#include <IFSelect_SessionFile.hxx>
+#include <Standard_Transient.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <IGESSelect_Dumper.hxx>
 
 #include <Standard_Type.hxx>
 

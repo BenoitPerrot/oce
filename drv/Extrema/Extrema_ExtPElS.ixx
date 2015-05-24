@@ -3,7 +3,16 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Extrema_ExtPElS.jxx>
+#include <StdFail_NotDone.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <gp_Pnt.hxx>
+#include <gp_Cylinder.hxx>
+#include <gp_Pln.hxx>
+#include <gp_Cone.hxx>
+#include <gp_Torus.hxx>
+#include <gp_Sphere.hxx>
+#include <Extrema_POnSurf.hxx>
+#include <Extrema_ExtPElS.hxx>
 
  
 

@@ -3,7 +3,18 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <BRepFill_LocationLaw.jxx>
+#include <GeomFill_HArray1OfLocationLaw.hxx>
+#include <TColStd_HArray1OfReal.hxx>
+#include <TopTools_HArray1OfShape.hxx>
+#include <TColStd_HArray1OfInteger.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <TopoDS_Wire.hxx>
+#include <TColStd_Array1OfInteger.hxx>
+#include <GeomFill_LocationLaw.hxx>
+#include <TopoDS_Edge.hxx>
+#include <TopoDS_Vertex.hxx>
+#include <TopoDS_Shape.hxx>
+#include <BRepFill_LocationLaw.hxx>
 
 #include <Standard_Type.hxx>
 

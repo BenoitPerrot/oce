@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <GeomAdaptor.jxx>
+#include <Geom_Curve.hxx>
+#include <Adaptor3d_Curve.hxx>
+#include <Geom_Surface.hxx>
+#include <Adaptor3d_Surface.hxx>
+#include <GeomAdaptor.hxx>
 
  
 

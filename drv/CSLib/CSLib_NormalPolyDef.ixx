@@ -3,7 +3,8 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <CSLib_NormalPolyDef.jxx>
+#include <TColStd_Array1OfReal.hxx>
+#include <CSLib_NormalPolyDef.hxx>
 
  
 

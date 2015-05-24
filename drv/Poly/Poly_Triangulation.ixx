@@ -3,7 +3,15 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Poly_Triangulation.jxx>
+#include <TColgp_HArray1OfPnt2d.hxx>
+#include <TShort_HArray1OfShortReal.hxx>
+#include <Standard_DomainError.hxx>
+#include <Standard_NullObject.hxx>
+#include <TColgp_Array1OfPnt.hxx>
+#include <Poly_Array1OfTriangle.hxx>
+#include <TColgp_Array1OfPnt2d.hxx>
+#include <TShort_Array1OfShortReal.hxx>
+#include <Poly_Triangulation.hxx>
 
 #include <Standard_Type.hxx>
 

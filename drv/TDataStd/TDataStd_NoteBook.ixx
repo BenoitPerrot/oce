@@ -3,7 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TDataStd_NoteBook.jxx>
+#include <TDF_Label.hxx>
+#include <Standard_GUID.hxx>
+#include <TDataStd_Real.hxx>
+#include <TDataStd_Integer.hxx>
+#include <TDF_Attribute.hxx>
+#include <TDF_RelocationTable.hxx>
+#include <TDataStd_NoteBook.hxx>
 
 #include <Standard_Type.hxx>
 

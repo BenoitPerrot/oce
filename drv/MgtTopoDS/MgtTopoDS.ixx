@@ -3,7 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <MgtTopoDS.jxx>
+#include <PTopoDS_HShape.hxx>
+#include <TopoDS_Shape.hxx>
+#include <MgtTopoDS_TranslateTool.hxx>
+#include <PTColStd_TransientPersistentMap.hxx>
+#include <PTColStd_PersistentTransientMap.hxx>
+#include <MgtTopoDS_TranslateTool1.hxx>
+#include <PTopoDS_Shape1.hxx>
+#include <MgtTopoDS.hxx>
 
  
 

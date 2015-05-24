@@ -3,7 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <PXCAFDoc_GraphNode.jxx>
+#include <PXCAFDoc_GraphNode.hxx>
+#include <PXCAFDoc_GraphNodeSequence.hxx>
+#include <Standard_GUID.hxx>
+#include <PXCAFDoc_GraphNode.hxx>
 
 #include <Standard_Type.hxx>
 

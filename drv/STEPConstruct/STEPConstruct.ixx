@@ -3,7 +3,15 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <STEPConstruct.jxx>
+#include <StepRepr_RepresentationItem.hxx>
+#include <Transfer_FinderProcess.hxx>
+#include <TopoDS_Shape.hxx>
+#include <TopLoc_Location.hxx>
+#include <Transfer_TransientProcess.hxx>
+#include <Transfer_Binder.hxx>
+#include <StepShape_ShapeDefinitionRepresentation.hxx>
+#include <StepShape_ContextDependentShapeRepresentation.hxx>
+#include <STEPConstruct.hxx>
 
  
 

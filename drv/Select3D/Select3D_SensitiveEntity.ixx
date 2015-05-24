@@ -3,7 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Select3D_SensitiveEntity.jxx>
+#include <SelectBasics_EntityOwner.hxx>
+#include <Select3D_Projector.hxx>
+#include <TopLoc_Location.hxx>
+#include <TColgp_Array1OfPnt2d.hxx>
+#include <Bnd_Box2d.hxx>
+#include <Select3D_SensitiveEntity.hxx>
 
 #include <Standard_Type.hxx>
 

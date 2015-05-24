@@ -3,7 +3,27 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <GeomPlate_BuildPlateSurface.jxx>
+#include <GeomPlate_HSequenceOfCurveConstraint.hxx>
+#include <GeomPlate_HArray1OfSequenceOfReal.hxx>
+#include <GeomPlate_HSequenceOfPointConstraint.hxx>
+#include <Geom_Surface.hxx>
+#include <GeomPlate_Surface.hxx>
+#include <TColStd_HArray1OfInteger.hxx>
+#include <Standard_ConstructionError.hxx>
+#include <Standard_RangeError.hxx>
+#include <GeomPlate_HArray1OfHCurveOnSurface.hxx>
+#include <GeomPlate_CurveConstraint.hxx>
+#include <GeomPlate_PointConstraint.hxx>
+#include <TColgp_SequenceOfXY.hxx>
+#include <TColgp_SequenceOfXYZ.hxx>
+#include <TColGeom2d_HArray1OfCurve.hxx>
+#include <TColStd_HArray1OfReal.hxx>
+#include <gp_Pnt2d.hxx>
+#include <gp_Pnt.hxx>
+#include <Geom2d_Curve.hxx>
+#include <Adaptor3d_HCurve.hxx>
+#include <Adaptor2d_HCurve2d.hxx>
+#include <GeomPlate_BuildPlateSurface.hxx>
 
  
 

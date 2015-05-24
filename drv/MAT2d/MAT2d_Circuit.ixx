@@ -3,7 +3,16 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <MAT2d_Circuit.jxx>
+#include <MAT2d_SequenceOfSequenceOfGeometry.hxx>
+#include <TColStd_SequenceOfBoolean.hxx>
+#include <Geom2d_Geometry.hxx>
+#include <MAT2d_Connexion.hxx>
+#include <TColGeom2d_SequenceOfGeometry.hxx>
+#include <MAT2d_BiInt.hxx>
+#include <MAT2d_SequenceOfConnexion.hxx>
+#include <MAT2d_MiniPath.hxx>
+#include <TColStd_SequenceOfInteger.hxx>
+#include <MAT2d_Circuit.hxx>
 
 #include <Standard_Type.hxx>
 

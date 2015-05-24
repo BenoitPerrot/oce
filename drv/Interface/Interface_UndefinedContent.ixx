@@ -3,7 +3,17 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Interface_UndefinedContent.jxx>
+#include <TColStd_HArray1OfInteger.hxx>
+#include <Interface_HArray1OfHAsciiString.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Standard_NoSuchObject.hxx>
+#include <Interface_InterfaceMismatch.hxx>
+#include <Interface_InterfaceError.hxx>
+#include <Standard_Transient.hxx>
+#include <TCollection_HAsciiString.hxx>
+#include <Interface_EntityList.hxx>
+#include <Interface_CopyTool.hxx>
+#include <Interface_UndefinedContent.hxx>
 
 #include <Standard_Type.hxx>
 

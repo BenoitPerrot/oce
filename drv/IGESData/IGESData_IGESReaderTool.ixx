@@ -3,7 +3,17 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IGESData_IGESReaderTool.jxx>
+#include <Interface_ParamList.hxx>
+#include <IGESData_FileRecognizer.hxx>
+#include <Interface_Check.hxx>
+#include <IGESData_IGESReaderData.hxx>
+#include <IGESData_Protocol.hxx>
+#include <Standard_Transient.hxx>
+#include <Interface_InterfaceModel.hxx>
+#include <IGESData_IGESEntity.hxx>
+#include <IGESData_DirPart.hxx>
+#include <IGESData_ParamReader.hxx>
+#include <IGESData_IGESReaderTool.hxx>
 
  
 

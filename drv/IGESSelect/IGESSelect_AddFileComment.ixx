@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IGESSelect_AddFileComment.jxx>
+#include <TColStd_HSequenceOfHAsciiString.hxx>
+#include <IFSelect_ContextWrite.hxx>
+#include <IGESData_IGESWriter.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <IGESSelect_AddFileComment.hxx>
 
 #include <Standard_Type.hxx>
 

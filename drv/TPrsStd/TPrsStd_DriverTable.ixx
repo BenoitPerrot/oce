@@ -3,7 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TPrsStd_DriverTable.jxx>
+#include <Standard_GUID.hxx>
+#include <TPrsStd_Driver.hxx>
+#include <TPrsStd_DriverTable.hxx>
 
 #include <Standard_Type.hxx>
 

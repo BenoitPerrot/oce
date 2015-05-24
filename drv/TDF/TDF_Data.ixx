@@ -3,7 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TDF_Data.jxx>
+#include <Standard_NoMoreObject.hxx>
+#include <TDF_Transaction.hxx>
+#include <TDF_LabelNode.hxx>
+#include <TDF_Delta.hxx>
+#include <TDF_Label.hxx>
+#include <TDF_Data.hxx>
 
 #include <Standard_Type.hxx>
 

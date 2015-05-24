@@ -3,7 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <STEPConstruct_UnitContext.jxx>
+#include <StepGeom_GeomRepContextAndGlobUnitAssCtxAndGlobUncertaintyAssCtx.hxx>
+#include <StepRepr_GlobalUnitAssignedContext.hxx>
+#include <StepBasic_NamedUnit.hxx>
+#include <StepRepr_GlobalUncertaintyAssignedContext.hxx>
+#include <StepBasic_SiUnit.hxx>
+#include <STEPConstruct_UnitContext.hxx>
 
  
 

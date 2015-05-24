@@ -3,7 +3,8 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <PGeom_Circle.jxx>
+#include <gp_Ax2.hxx>
+#include <PGeom_Circle.hxx>
 
 #include <Standard_Type.hxx>
 

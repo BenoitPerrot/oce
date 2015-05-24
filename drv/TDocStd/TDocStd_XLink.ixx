@@ -3,7 +3,16 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TDocStd_XLink.jxx>
+#include <TDocStd_XLinkRoot.hxx>
+#include <TDocStd_XLinkIterator.hxx>
+#include <TDF_Label.hxx>
+#include <TDF_Reference.hxx>
+#include <Standard_GUID.hxx>
+#include <TCollection_AsciiString.hxx>
+#include <TDF_AttributeDelta.hxx>
+#include <TDF_Attribute.hxx>
+#include <TDF_RelocationTable.hxx>
+#include <TDocStd_XLink.hxx>
 
 #include <Standard_Type.hxx>
 

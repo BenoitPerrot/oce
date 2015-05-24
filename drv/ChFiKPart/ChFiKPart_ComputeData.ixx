@@ -3,7 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <ChFiKPart_ComputeData.jxx>
+#include <TopOpeBRepDS_DataStructure.hxx>
+#include <ChFiDS_SurfData.hxx>
+#include <Adaptor3d_HSurface.hxx>
+#include <ChFiDS_Spine.hxx>
+#include <gp_Pnt2d.hxx>
+#include <ChFiKPart_ComputeData.hxx>
 
  
 

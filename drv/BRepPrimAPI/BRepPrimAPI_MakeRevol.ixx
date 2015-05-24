@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <BRepPrimAPI_MakeRevol.jxx>
+#include <TopoDS_Shape.hxx>
+#include <gp_Ax1.hxx>
+#include <BRepSweep_Revol.hxx>
+#include <TopTools_ListOfShape.hxx>
+#include <BRepPrimAPI_MakeRevol.hxx>
 
  
 

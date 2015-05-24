@@ -3,7 +3,15 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <AIS_ConnectedInteractive.jxx>
+#include <AIS_InteractiveObject.hxx>
+#include <Standard_NotImplemented.hxx>
+#include <gp_Trsf.hxx>
+#include <Prs3d_Presentation.hxx>
+#include <Prs3d_Projector.hxx>
+#include <Geom_Transformation.hxx>
+#include <SelectMgr_Selection.hxx>
+#include <TopoDS_Shape.hxx>
+#include <AIS_ConnectedInteractive.hxx>
 
 #include <Standard_Type.hxx>
 

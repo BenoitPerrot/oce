@@ -3,7 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TDataStd_ByteArray.jxx>
+#include <TColStd_HArray1OfByte.hxx>
+#include <TDataStd_DeltaOnModificationOfByteArray.hxx>
+#include <Standard_GUID.hxx>
+#include <TDF_Label.hxx>
+#include <TDF_Attribute.hxx>
+#include <TDF_RelocationTable.hxx>
+#include <TDF_DeltaOnModification.hxx>
+#include <TDataStd_ByteArray.hxx>
 
 #include <Standard_Type.hxx>
 

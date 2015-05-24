@@ -3,7 +3,8 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <GccInt_BLine.jxx>
+#include <gp_Lin2d.hxx>
+#include <GccInt_BLine.hxx>
 
 #include <Standard_Type.hxx>
 

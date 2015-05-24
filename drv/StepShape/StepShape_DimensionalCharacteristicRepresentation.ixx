@@ -3,7 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepShape_DimensionalCharacteristicRepresentation.jxx>
+#include <StepShape_ShapeDimensionRepresentation.hxx>
+#include <StepShape_DimensionalCharacteristic.hxx>
+#include <StepShape_DimensionalCharacteristicRepresentation.hxx>
 
 #include <Standard_Type.hxx>
 

@@ -3,7 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <DBRep_DrawableShape.jxx>
+#include <Standard_DomainError.hxx>
+#include <TopoDS_Shape.hxx>
+#include <Draw_Color.hxx>
+#include <Draw_Display.hxx>
+#include <Poly_Triangulation.hxx>
+#include <gp_Trsf.hxx>
+#include <Draw_Drawable3D.hxx>
+#include <DBRep_DrawableShape.hxx>
 
 #include <Standard_Type.hxx>
 

@@ -3,7 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Standard_Type.jxx>
+#include <Standard_TypeMismatch.hxx>
+#include <Standard_NoSuchObject.hxx>
+#include <Standard_OutOfRange.hxx>
+#include <Standard_AncestorIterator.hxx>
+#include <Standard_Type.hxx>
 
 #include <Standard_Type.hxx>
 
