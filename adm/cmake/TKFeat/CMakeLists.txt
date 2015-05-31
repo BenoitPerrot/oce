@@ -1,8 +1,8 @@
 set(TOOLKIT TKFeat)
 
 set(TOOLKIT_MODULES
-	LocOpe
-	BRepFeat
+	ModelingAlgorithms/LocOpe
+	ModelingAlgorithms/BRepFeat
 )
 set(TOOLKIT_DEPENDS
 	TKBRep

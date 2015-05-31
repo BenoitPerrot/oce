@@ -1,15 +1,15 @@
 set(TOOLKIT TKFillet)
 
 set(TOOLKIT_MODULES
-	ChFiDS
-	ChFi2d
-	ChFi3d
-	ChFiKPart
-	Blend
-	BRepBlend
-	BlendFunc
-	BRepFilletAPI
-	FilletSurf
+	ModelingAlgorithms/ChFiDS
+	ModelingAlgorithms/ChFi2d
+	ModelingAlgorithms/ChFi3d
+	ModelingAlgorithms/ChFiKPart
+	ModelingAlgorithms/Blend
+	ModelingAlgorithms/BRepBlend
+	ModelingAlgorithms/BlendFunc
+	ModelingAlgorithms/BRepFilletAPI
+	ModelingAlgorithms/FilletSurf
 )
 set(TOOLKIT_DEPENDS
 	TKBRep

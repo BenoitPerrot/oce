@@ -1,13 +1,13 @@
 set(TOOLKIT TKBO)
 
 set(TOOLKIT_MODULES
-	IntTools
-	BRepAlgoAPI
-	BOPCol
-	BOPInt
-	BOPDS
-	BOPAlgo
-	BOPTools
+	ModelingAlgorithms/IntTools
+	ModelingAlgorithms/BRepAlgoAPI
+	ModelingAlgorithms/BOPCol
+	ModelingAlgorithms/BOPInt
+	ModelingAlgorithms/BOPDS
+	ModelingAlgorithms/BOPAlgo
+	ModelingAlgorithms/BOPTools
 )
 set(TOOLKIT_DEPENDS
 	TKBRep

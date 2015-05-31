@@ -1,13 +1,13 @@
 set(TOOLKIT TKBool)
 
 set(TOOLKIT_MODULES
-	TopOpeBRep
-	TopOpeBRepDS
-	TopOpeBRepBuild
-	TopOpeBRepTool
-	BRepAlgo
-	BRepFill
-	BRepProj
+	ModelingAlgorithms/TopOpeBRep
+	ModelingAlgorithms/TopOpeBRepDS
+	ModelingAlgorithms/TopOpeBRepBuild
+	ModelingAlgorithms/TopOpeBRepTool
+	ModelingAlgorithms/BRepAlgo
+	ModelingAlgorithms/BRepFill
+	ModelingAlgorithms/BRepProj
 )
 set(TOOLKIT_DEPENDS
 	TKBRep

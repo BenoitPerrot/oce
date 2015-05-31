@@ -1,7 +1,7 @@
 set(TOOLKIT TKMesh)
 
 set(TOOLKIT_MODULES
-	BRepMesh
+	ModelingAlgorithms/BRepMesh
 )
 set(TOOLKIT_DEPENDS
 	TKBRep

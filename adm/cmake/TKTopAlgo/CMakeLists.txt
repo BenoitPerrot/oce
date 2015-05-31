@@ -1,22 +1,22 @@
 set(TOOLKIT TKTopAlgo)
 
 set(TOOLKIT_MODULES
-	IntCurvesFace
-	MAT
-	MAT2d
-	Bisector
-	BRepMAT2d
-	BRepCheck
-	BRepBndLib
-	BRepExtrema
-	BRepClass
-	BRepClass3d
-	BRepLib
-	BRepGProp
-	BRepIntCurveSurface
-	BRepTopAdaptor
-	BRepBuilderAPI
-	BRepApprox
+	ModelingAlgorithms/IntCurvesFace
+	ModelingAlgorithms/MAT
+	ModelingAlgorithms/MAT2d
+	ModelingAlgorithms/Bisector
+	ModelingAlgorithms/BRepMAT2d
+	ModelingAlgorithms/BRepCheck
+	ModelingAlgorithms/BRepBndLib
+	ModelingAlgorithms/BRepExtrema
+	ModelingAlgorithms/BRepClass
+	ModelingAlgorithms/BRepClass3d
+	ModelingAlgorithms/BRepLib
+	ModelingAlgorithms/BRepGProp
+	ModelingAlgorithms/BRepIntCurveSurface
+	ModelingAlgorithms/BRepTopAdaptor
+	ModelingAlgorithms/BRepBuilderAPI
+	ModelingAlgorithms/BRepApprox
 )
 set(TOOLKIT_DEPENDS
 	TKMath

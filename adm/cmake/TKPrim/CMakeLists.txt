@@ -1,11 +1,11 @@
 set(TOOLKIT TKPrim)
 
 set(TOOLKIT_MODULES
-	BRepPrim
-	Primitives
-	BRepSweep
-	Sweep
-	BRepPrimAPI
+	ModelingAlgorithms/BRepPrim
+	ModelingAlgorithms/Primitives
+	ModelingAlgorithms/BRepSweep
+	ModelingAlgorithms/Sweep
+	ModelingAlgorithms/BRepPrimAPI
 )
 set(TOOLKIT_DEPENDS
 	TKBRep

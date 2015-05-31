@@ -1,10 +1,10 @@
 set(TOOLKIT TKOffset)
 
 set(TOOLKIT_MODULES
-	BRepOffsetAPI
-	Draft
-	BRepOffset
-	BiTgte
+	ModelingAlgorithms/BRepOffsetAPI
+	ModelingAlgorithms/Draft
+	ModelingAlgorithms/BRepOffset
+	ModelingAlgorithms/BiTgte
 )
 set(TOOLKIT_DEPENDS
 	TKFillet

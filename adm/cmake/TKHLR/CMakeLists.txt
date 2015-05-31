@@ -1,14 +1,14 @@
 set(TOOLKIT TKHLR)
 
 set(TOOLKIT_MODULES
-	HLRTopoBRep
-	HLRBRep
-	HLRAlgo
-	HLRAppli
-	Intrv
-	TopBas
-	TopCnx
-	Contap
+	ModelingAlgorithms/HLRTopoBRep
+	ModelingAlgorithms/HLRBRep
+	ModelingAlgorithms/HLRAlgo
+	ModelingAlgorithms/HLRAppli
+	ModelingAlgorithms/Intrv
+	ModelingAlgorithms/TopBas
+	ModelingAlgorithms/TopCnx
+	ModelingAlgorithms/Contap
 )
 set(TOOLKIT_DEPENDS
 	TKBRep
