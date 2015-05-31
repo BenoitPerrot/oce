@@ -1,10 +1,10 @@
 set(TOOLKIT TKSTEPAttr)
 
 set(TOOLKIT_MODULES
-	StepVisual
-	RWStepVisual
-	StepDimTol
-	RWStepDimTol
+	DataExchange/StepVisual
+	DataExchange/RWStepVisual
+	DataExchange/StepDimTol
+	DataExchange/RWStepDimTol
 )
 set(TOOLKIT_DEPENDS
 	TKernel

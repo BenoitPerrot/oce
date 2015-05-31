@@ -1,9 +1,9 @@
 set(TOOLKIT TKXCAF)
 
 set(TOOLKIT_MODULES
-	XCAFApp
-	XCAFDoc
-	XCAFPrs
+	DataExchange/XCAFApp
+	DataExchange/XCAFDoc
+	DataExchange/XCAFPrs
 )
 set(TOOLKIT_DEPENDS
 	TKBRep

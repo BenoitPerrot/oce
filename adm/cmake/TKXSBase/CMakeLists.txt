@@ -1,22 +1,22 @@
 set(TOOLKIT TKXSBase)
 
 set(TOOLKIT_MODULES
-	Interface
-	Transfer
-	IFGraph
-	IFSelect
-	TransferBRep
-	XSControl
-	StepData
-	StepFile
-	HeaderSection
-	RWHeaderSection
-	APIHeaderSection
-	StepSelect
-	UnitsMethods
-	XSAlgo
-	LibCtl
-	MoniTool
+	DataExchange/Interface
+	DataExchange/Transfer
+	DataExchange/IFGraph
+	DataExchange/IFSelect
+	DataExchange/TransferBRep
+	DataExchange/XSControl
+	DataExchange/StepData
+	DataExchange/StepFile
+	DataExchange/HeaderSection
+	DataExchange/RWHeaderSection
+	DataExchange/APIHeaderSection
+	DataExchange/StepSelect
+	DataExchange/UnitsMethods
+	DataExchange/XSAlgo
+	DataExchange/LibCtl
+	DataExchange/MoniTool
 )
 set(TOOLKIT_DEPENDS
 	TKBRep

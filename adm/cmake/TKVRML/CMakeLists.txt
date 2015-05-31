@@ -1,10 +1,10 @@
 set(TOOLKIT TKVRML)
 
 set(TOOLKIT_MODULES
-	VrmlConverter
-	VrmlAPI
-	Vrml
-	VrmlData
+	DataExchange/VrmlConverter
+	DataExchange/VrmlAPI
+	DataExchange/Vrml
+	DataExchange/VrmlData
 )
 set(TOOLKIT_DEPENDS
 	TKBRep

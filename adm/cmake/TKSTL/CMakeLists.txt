@@ -1,10 +1,10 @@
 set(TOOLKIT TKSTL)
 
 set(TOOLKIT_MODULES
-	StlMesh
-	StlAPI
-	StlTransfer
-	RWStl
+	DataExchange/StlMesh
+	DataExchange/StlAPI
+	DataExchange/StlTransfer
+	DataExchange/RWStl
 )
 set(TOOLKIT_DEPENDS
 	TKernel

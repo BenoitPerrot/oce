@@ -1,24 +1,24 @@
 set(TOOLKIT TKIGES)
 
 set(TOOLKIT_MODULES
-	IGESData
-	IGESFile
-	IGESBasic
-	IGESGraph
-	IGESGeom
-	IGESDimen
-	IGESDraw
-	IGESSolid
-	IGESDefs
-	IGESAppli
-	IGESConvGeom
-	IGESSelect
-	IGESToBRep
-	GeomToIGES
-	Geom2dToIGES
-	BRepToIGES
-	BRepToIGESBRep
-	IGESControl
+	DataExchange/IGESData
+	DataExchange/IGESFile
+	DataExchange/IGESBasic
+	DataExchange/IGESGraph
+	DataExchange/IGESGeom
+	DataExchange/IGESDimen
+	DataExchange/IGESDraw
+	DataExchange/IGESSolid
+	DataExchange/IGESDefs
+	DataExchange/IGESAppli
+	DataExchange/IGESConvGeom
+	DataExchange/IGESSelect
+	DataExchange/IGESToBRep
+	DataExchange/GeomToIGES
+	DataExchange/Geom2dToIGES
+	DataExchange/BRepToIGES
+	DataExchange/BRepToIGESBRep
+	DataExchange/IGESControl
 )
 set(TOOLKIT_DEPENDS
 	TKBRep

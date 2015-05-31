@@ -1,10 +1,10 @@
 set(TOOLKIT TKXCAFSchema)
 
 set(TOOLKIT_MODULES
-	MXCAFDoc
-	PXCAFDoc
-	XCAFDrivers
-	XCAFSchema
+	DataExchange/MXCAFDoc
+	DataExchange/PXCAFDoc
+	DataExchange/XCAFDrivers
+	DataExchange/XCAFSchema
 )
 set(TOOLKIT_DEPENDS
 	TKPLCAF

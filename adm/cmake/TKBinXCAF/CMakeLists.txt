@@ -1,8 +1,8 @@
 set(TOOLKIT TKBinXCAF)
 
 set(TOOLKIT_MODULES
-	BinXCAFDrivers
-	BinMXCAFDoc
+	DataExchange/BinXCAFDrivers
+	DataExchange/BinMXCAFDoc
 )
 set(TOOLKIT_DEPENDS
 	TKBRep

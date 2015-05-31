@@ -1,7 +1,7 @@
 set(TOOLKIT TKXDEIGES)
 
 set(TOOLKIT_MODULES
-	IGESCAFControl
+	DataExchange/IGESCAFControl
 )
 set(TOOLKIT_DEPENDS
 	TKBRep

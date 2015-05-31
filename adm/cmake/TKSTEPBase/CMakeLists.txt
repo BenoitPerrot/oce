@@ -1,14 +1,14 @@
 set(TOOLKIT TKSTEPBase)
 
 set(TOOLKIT_MODULES
-	StepBasic
-	RWStepBasic
-	StepRepr
-	RWStepRepr
-	StepGeom
-	RWStepGeom
-	StepShape
-	RWStepShape
+	DataExchange/StepBasic
+	DataExchange/RWStepBasic
+	DataExchange/StepRepr
+	DataExchange/RWStepRepr
+	DataExchange/StepGeom
+	DataExchange/RWStepGeom
+	DataExchange/StepShape
+	DataExchange/RWStepShape
 )
 set(TOOLKIT_DEPENDS
 	TKernel

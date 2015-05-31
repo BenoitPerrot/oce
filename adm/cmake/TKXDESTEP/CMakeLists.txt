@@ -1,7 +1,7 @@
 set(TOOLKIT TKXDESTEP)
 
 set(TOOLKIT_MODULES
-	STEPCAFControl
+	DataExchange/STEPCAFControl
 )
 set(TOOLKIT_DEPENDS
 	TKBRep

@@ -1,10 +1,10 @@
 set(TOOLKIT TKSTEP209)
 
 set(TOOLKIT_MODULES
-	StepElement
-	StepFEA
-	RWStepElement
-	RWStepFEA
+	DataExchange/StepElement
+	DataExchange/StepFEA
+	DataExchange/RWStepElement
+	DataExchange/RWStepFEA
 )
 set(TOOLKIT_DEPENDS
 	TKernel

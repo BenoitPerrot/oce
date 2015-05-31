@@ -1,8 +1,8 @@
 set(TOOLKIT TKXmlXCAF)
 
 set(TOOLKIT_MODULES
-	XmlXCAFDrivers
-	XmlMXCAFDoc
+	DataExchange/XmlXCAFDrivers
+	DataExchange/XmlMXCAFDoc
 )
 set(TOOLKIT_DEPENDS
 	TKXmlL

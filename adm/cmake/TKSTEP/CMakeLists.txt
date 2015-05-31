@@ -1,19 +1,19 @@
 set(TOOLKIT TKSTEP)
 
 set(TOOLKIT_MODULES
-	StepAP214
-	RWStepAP214
-	StepAP203
-	RWStepAP203
-	STEPConstruct
-	STEPEdit
-	GeomToStep
-	StepToGeom
-	StepToTopoDS
-	TopoDSToStep
-	STEPControl
-	STEPSelections
-	StepAP209
+	DataExchange/StepAP214
+	DataExchange/RWStepAP214
+	DataExchange/StepAP203
+	DataExchange/RWStepAP203
+	DataExchange/STEPConstruct
+	DataExchange/STEPEdit
+	DataExchange/GeomToStep
+	DataExchange/StepToGeom
+	DataExchange/StepToTopoDS
+	DataExchange/TopoDSToStep
+	DataExchange/STEPControl
+	DataExchange/STEPSelections
+	DataExchange/StepAP209
 )
 set(TOOLKIT_DEPENDS
 	TKernel
