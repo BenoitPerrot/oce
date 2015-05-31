@@ -1,25 +1,25 @@
 set(TOOLKIT TKernel)
 
 set(TOOLKIT_MODULES
-	FSD
-	MMgt
-	OSD
-	Plugin
-	Quantity
-	Resource
-	SortTools
-	Standard
-	StdFail
-	Storage
-	TColStd
-	TCollection
-	TShort
-	Units
-	UnitsAPI
-	IncludeLibrary
-	Dico
-	NCollection
-	Message
+	Foundation/FSD
+	Foundation/MMgt
+	Foundation/OSD
+	Foundation/Plugin
+	Foundation/Quantity
+	Foundation/Resource
+	Foundation/SortTools
+	Foundation/Standard
+	Foundation/StdFail
+	Foundation/Storage
+	Foundation/TColStd
+	Foundation/TCollection
+	Foundation/TShort
+	Foundation/Units
+	Foundation/UnitsAPI
+	Foundation/IncludeLibrary
+	Foundation/Dico
+	Foundation/NCollection
+	Foundation/Message
 )
 if(CMAKE_THREAD_LIBS_INIT)
 	set(TOOLKIT_LIBS ${CMAKE_THREAD_LIBS_INIT})

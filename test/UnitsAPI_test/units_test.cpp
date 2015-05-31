@@ -22,6 +22,7 @@ TEST(UnitsAPITestSuite, testMDTVCurrentUnits)
 	OSD_Environment v2("CSF_MDTVCurrentUnitsUserDefaults", SRC_RESOURCE); v2.Build();
 	
 	UnitsAPI::SetLocalSystem(UnitsAPI_MDTV);
+	std::cout << UnitsAPI::CurrentUnit("LENGTH") << std::endl;
 	ASSERT_TRUE(0 == strcmp(UnitsAPI::CurrentUnit("LENGTH"), "mm"));
 }
 

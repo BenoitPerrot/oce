@@ -1,24 +1,24 @@
 set(TOOLKIT TKMath)
 
 set(TOOLKIT_MODULES
-	math
-	ElCLib
-	ElSLib
-	BSplCLib
-	BSplSLib
-	PLib
-	Precision
-	GeomAbs
-	Poly
-	CSLib
-	Convert
-	Bnd
-	BVH
-	gp
-	TColgp
-	TopLoc
-	Expr
-	ExprIntrp
+	Foundation/math
+	Foundation/ElCLib
+	Foundation/ElSLib
+	Foundation/BSplCLib
+	Foundation/BSplSLib
+	Foundation/PLib
+	Foundation/Precision
+	Foundation/GeomAbs
+	Foundation/Poly
+	Foundation/CSLib
+	Foundation/Convert
+	Foundation/Bnd
+	Foundation/BVH
+	Foundation/gp
+	Foundation/TColgp
+	Foundation/TopLoc
+	Foundation/Expr
+	Foundation/ExprIntrp
 )
 set(TOOLKIT_DEPENDS
 	TKernel
