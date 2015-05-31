@@ -1,7 +1,7 @@
 set(TOOLKIT TKMeshVS)
 
 set(TOOLKIT_MODULES
-	MeshVS
+	Visualization/MeshVS
 )
 set(TOOLKIT_DEPENDS
 	TKV3d

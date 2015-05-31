@@ -1,10 +1,10 @@
 set(TOOLKIT TKIVtk)
 
 set(TOOLKIT_MODULES
-	IVtk
-	IVtkOCC
-	IVtkVTK
-	IVtkTools
+	Visualisation/IVtk
+	Visualisation/IVtkOCC
+	Visualisation/IVtkVTK
+	Visualisation/IVtkTools
 )
 set(TOOLKIT_DEPENDS
 	TKernel

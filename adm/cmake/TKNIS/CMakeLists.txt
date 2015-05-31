@@ -1,7 +1,7 @@
 set(TOOLKIT TKNIS)
 
 set(TOOLKIT_MODULES
-	NIS
+	Visualization/NIS
 )
 set(TOOLKIT_DEPENDS
 	TKBRep

@@ -1,7 +1,7 @@
 set(TOOLKIT TKOpenGl)
 
 set(TOOLKIT_MODULES
-	OpenGl
+	Visualization/OpenGl
 )
 set(TOOLKIT_DEPENDS
 	TKernel

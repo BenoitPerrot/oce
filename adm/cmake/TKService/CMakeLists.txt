@@ -1,32 +1,32 @@
 set(TOOLKIT TKService)
 
 set(TOOLKIT_MODULES
-	Aspect
-	SelectBasics
-	Image
-	InterfaceGraphic
-	TColQuantity
+	Visualization/Aspect
+	Visualization/SelectBasics
+	Visualization/Image
+	Visualization/InterfaceGraphic
+	Visualization/TColQuantity
 )
 
 if(NOT OCE_DISABLE_TKSERVICE_FONT)
-	set(TOOLKIT_MODULES ${TOOLKIT_MODULES} Font)
+	set(TOOLKIT_MODULES ${TOOLKIT_MODULES} Visualization/Font)
 else()
-	set(TOOLKIT_INCLUDE_DIRECTORIES ${TOOLKIT_INCLUDE_DIRECTORIES} "${OCE_SOURCE_DIR}/src/Font/")
+	set(TOOLKIT_INCLUDE_DIRECTORIES ${TOOLKIT_INCLUDE_DIRECTORIES} "${OCE_SOURCE_DIR}/src/Visualization/Font/")
 endif()
 
 if (WIN32)
 	set(TOOLKIT_MODULES ${TOOLKIT_MODULES}
-		WNT
+		Visualization/WNT
 	)
 else(WIN32)
 	if (APPLE AND OCE_OSX_USE_COCOA)
 		set(TOOLKIT_MODULES ${TOOLKIT_MODULES}
-			Cocoa
+			Visualization/Cocoa
 		)
 		set(TOOLKIT_LIBS /System/Library/Frameworks/Cocoa.framework)
 	else(APPLE AND OCE_OSX_USE_COCOA)
 		set(TOOLKIT_MODULES ${TOOLKIT_MODULES}
-			Xw
+			Visualization/Xw
 		)
 		set(TOOLKIT_LIBS ${X11_LIBRARIES} ${OPENGL_LIBRARIES})
 	endif(APPLE AND OCE_OSX_USE_COCOA)

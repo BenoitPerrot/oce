@@ -1,17 +1,17 @@
 set(TOOLKIT TKV3d)
 
 set(TOOLKIT_MODULES
-	V3d
-	Graphic3d
-	Visual3d
-	Select3D
-	Prs3d
-	StdPrs
-	SelectMgr
-	PrsMgr
-	AIS
-	DsgPrs
-	StdSelect
+	Visualization/V3d
+	Visualization/Graphic3d
+	Visualization/Visual3d
+	Visualization/Select3D
+	Visualization/Prs3d
+	Visualization/StdPrs
+	Visualization/SelectMgr
+	Visualization/PrsMgr
+	Visualization/AIS
+	Visualization/DsgPrs
+	Visualization/StdSelect
 )
 set(TOOLKIT_DEPENDS
 	TKBRep

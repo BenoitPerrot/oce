@@ -1,7 +1,7 @@
 set(TOOLKIT TKVoxel)
 
 set(TOOLKIT_MODULES
-	Voxel
+	Visualization/Voxel
 )
 set(TOOLKIT_DEPENDS
 	TKBRep
