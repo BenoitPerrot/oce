@@ -1,14 +1,14 @@
 set(TOOLKIT TKG3d)
 
 set(TOOLKIT_MODULES
-	Geom
-	TColGeom
-	GeomAdaptor
-	AdvApprox
-	GeomLProp
-	Adaptor3d
-	LProp3d
-	TopAbs
+	ModelingData/Geom
+	ModelingData/TColGeom
+	ModelingData/GeomAdaptor
+	ModelingData/AdvApprox
+	ModelingData/GeomLProp
+	ModelingData/Adaptor3d
+	ModelingData/LProp3d
+	ModelingData/TopAbs
 )
 set(TOOLKIT_DEPENDS
 	TKMath

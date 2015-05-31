@@ -1,13 +1,13 @@
 set(TOOLKIT TKG2d)
 
 set(TOOLKIT_MODULES
-	Geom2d
-	LProp
-	TColGeom2d
-	Adaptor2d
-	Geom2dLProp
-	Geom2dAdaptor
-	GProp
+	ModelingData/Geom2d
+	ModelingData/LProp
+	ModelingData/TColGeom2d
+	ModelingData/Adaptor2d
+	ModelingData/Geom2dLProp
+	ModelingData/Geom2dAdaptor
+	ModelingData/GProp
 )
 set(TOOLKIT_DEPENDS
 	TKernel

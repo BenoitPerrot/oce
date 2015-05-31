@@ -1,13 +1,13 @@
 set(TOOLKIT TKBRep)
 
 set(TOOLKIT_MODULES
-	TopoDS
-	TopExp
-	TopTools
-	BRep
-	BRepLProp
-	BRepAdaptor
-	BRepTools
+	ModelingData/TopoDS
+	ModelingData/TopExp
+	ModelingData/TopTools
+	ModelingData/BRep
+	ModelingData/BRepLProp
+	ModelingData/BRepAdaptor
+	ModelingData/BRepTools
 )
 set(TOOLKIT_DEPENDS
 	TKMath
