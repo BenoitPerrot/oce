@@ -1,17 +1,17 @@
 set(TOOLKIT TKTopTest)
 
 set(TOOLKIT_MODULES
-	TestTopOpeDraw
-	TestTopOpeTools
-	TestTopOpe
-	BRepTest
-	GeometryTest
-	HLRTest
-	MeshTest
-	GeomliteTest
-	DrawFairCurve
-	BOPTest
-	SWDRAW
+	Viewer/TestTopOpeDraw
+	Viewer/TestTopOpeTools
+	Viewer/TestTopOpe
+	Viewer/BRepTest
+	Viewer/GeometryTest
+	Viewer/HLRTest
+	Viewer/MeshTest
+	Viewer/GeomliteTest
+	Viewer/DrawFairCurve
+	Viewer/BOPTest
+	Viewer/SWDRAW
 )
 set(TOOLKIT_DEPENDS
 	TKBRep
@@ -38,4 +38,3 @@ set(TOOLKIT_DEPENDS
 set(TOOLKIT_IS_PRIVATE TRUE)
 
 include(../BuildToolkit.cmake)
-

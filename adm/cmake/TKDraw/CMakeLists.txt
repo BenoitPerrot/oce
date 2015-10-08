@@ -1,9 +1,9 @@
 set(TOOLKIT TKDraw)
 
 set(TOOLKIT_MODULES
-	Draw
-	DBRep
-	DrawTrSurf
+	Viewer/Draw
+	Viewer/DBRep
+	Viewer/DrawTrSurf
 )
 set(TOOLKIT_DEPENDS
 	TKernel
@@ -33,4 +33,3 @@ endif()
 set(TOOLKIT_IS_PRIVATE TRUE)
 
 include(../BuildToolkit.cmake)
-

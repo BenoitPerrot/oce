@@ -1,12 +1,12 @@
 set(TOOLKIT TKDCAF)
 
 set(TOOLKIT_MODULES
-	DDF
-	DDocStd
-	DNaming
-	DDataStd
-	DPrsStd
-	DrawDim
+	Viewer/DDF
+	Viewer/DDocStd
+	Viewer/DNaming
+	Viewer/DDataStd
+	Viewer/DPrsStd
+	Viewer/DrawDim
 )
 set(TOOLKIT_DEPENDS TKCAF
 	TKGeomBase
@@ -34,4 +34,3 @@ set(TOOLKIT_DEPENDS TKCAF
 set(TOOLKIT_IS_PRIVATE TRUE)
 
 include(../BuildToolkit.cmake)
-

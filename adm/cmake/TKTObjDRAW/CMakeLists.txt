@@ -1,7 +1,7 @@
 set(TOOLKIT TKTObjDRAW)
 
 set(TOOLKIT_MODULES
-	TObjDRAW
+	Viewer/TObjDRAW
 )
 set(TOOLKIT_DEPENDS
 	TKernel
@@ -16,4 +16,3 @@ set(TOOLKIT_DEPENDS
 set(TOOLKIT_IS_PRIVATE TRUE)
 
 include(../BuildToolkit.cmake)
-

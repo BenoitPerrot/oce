@@ -1,13 +1,13 @@
 set(TOOLKIT TKQADraw)
 
 set(TOOLKIT_MODULES
-	QABugs
-	QADNaming
-	QADraw
-	QANCollection
-	QANewBRepNaming
-	QANewDBRepNaming
-	QANewModTopOpe
+	Viewer/QABugs
+	Viewer/QADNaming
+	Viewer/QADraw
+	Viewer/QANCollection
+	Viewer/QANewBRepNaming
+	Viewer/QANewDBRepNaming
+	Viewer/QANewModTopOpe
 )
 set(TOOLKIT_DEPENDS
 	TKBRep
@@ -59,4 +59,3 @@ endif(NOT WIN32 AND NOT OCE_OSX_USE_COCOA)
 set(TOOLKIT_IS_PRIVATE TRUE)
 
 include(../BuildToolkit.cmake)
-

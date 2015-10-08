@@ -1,7 +1,7 @@
 set(TOOLKIT_APP DRAWEXE)
 
 set(TOOLKIT_APP_MODULES
-	DRAWEXE
+	Viewer/DRAWEXE
 )
 set(TOOLKIT_APP_LIBS
 	TKDraw
@@ -38,7 +38,7 @@ foreach(MODULE ${TOOLKIT_APP_MODULES})
 	# append these source files to the list of source files of the toolkit
 	set(TOOLKIT_APP_SOURCE_FILES ${TOOLKIT_APP_SOURCE_FILES} ${source_files})
 	# required include paths
-	set(OCE_${TOOLKIT_APP}_INCLUDE_DIRECTORIES ${OCE_${TOOLKIT_APP}_INCLUDE_DIRECTORIES} 
+	set(OCE_${TOOLKIT_APP}_INCLUDE_DIRECTORIES ${OCE_${TOOLKIT_APP}_INCLUDE_DIRECTORIES}
 	    ${OCE_SOURCE_DIR}/src/${MODULE}
 	    ${OCE_SOURCE_DIR}/drv/${MODULE})
 endforeach(MODULE ${TOOLKIT_APP_MODULES})
@@ -63,7 +63,7 @@ endif(NOT OCE_NO_LIBRARY_VERSION)
 
 add_executable(${TOOLKIT_APP} ${TOOLKIT_APP_SOURCE_FILES} ${TOOLKIT_RESOURCES} )
 
-#if cmake is new enough, set include directories per-target 
+#if cmake is new enough, set include directories per-target
 #to avoid accumulating unnecessary directories
 if(${CMAKE_VERSION} VERSION_GREATER "2.8.7")
 	set_property(TARGET ${TOOLKIT_APP} APPEND PROPERTY
@@ -90,4 +90,3 @@ install(TARGETS ${TOOLKIT_APP}
 	LIBRARY DESTINATION ${OCE_INSTALL_PACKAGE_LIB_DIR} COMPONENT RuntimeLibraries
 	ARCHIVE DESTINATION ${OCE_INSTALL_PACKAGE_LIB_DIR} COMPONENT Development
 )
-

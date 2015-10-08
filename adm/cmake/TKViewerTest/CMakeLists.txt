@@ -1,7 +1,7 @@
 set(TOOLKIT TKViewerTest)
 
 set(TOOLKIT_MODULES
-	ViewerTest
+	Viewer/ViewerTest
 )
 set(TOOLKIT_DEPENDS
 	TKGeomBase
@@ -51,4 +51,3 @@ set(TOOLKIT_INCLUDE_DIRECTORIES ${TOOLKIT_INCLUDE_DIRECTORIES} ${FREETYPE_INCLUD
 set(TOOLKIT_IS_PRIVATE TRUE)
 
 include(../BuildToolkit.cmake)
-

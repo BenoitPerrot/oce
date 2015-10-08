@@ -1,7 +1,7 @@
 set(TOOLKIT TKIVtkDraw)
 
 set(TOOLKIT_MODULES
-	IVtkDraw
+	Viewer/IVtkDraw
 )
 set(TOOLKIT_DEPENDS
 	TKernel
@@ -32,4 +32,3 @@ else()
 endif()
 
 include(../BuildToolkit.cmake)
-

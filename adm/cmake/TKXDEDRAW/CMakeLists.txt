@@ -1,7 +1,7 @@
 set(TOOLKIT TKXDEDRAW)
 
 set(TOOLKIT_MODULES
-	XDEDRAW
+	Viewer/XDEDRAW
 )
 set(TOOLKIT_DEPENDS
 	TKCDF
@@ -33,4 +33,3 @@ set(TOOLKIT_DEPENDS
 set(TOOLKIT_IS_PRIVATE TRUE)
 
 include(../BuildToolkit.cmake)
-
