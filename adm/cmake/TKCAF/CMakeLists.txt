@@ -1,10 +1,10 @@
 set(TOOLKIT TKCAF)
 
 set(TOOLKIT_MODULES
-	TDataXtd
-	TNaming
-	TPrsStd
-	AppStd
+	OCAF/TDataXtd
+	OCAF/TNaming
+	OCAF/TPrsStd
+	OCAF/AppStd
 )
 set(TOOLKIT_DEPENDS
 	TKernel
@@ -22,4 +22,3 @@ set(TOOLKIT_DEPENDS
 )
 
 include(../BuildToolkit.cmake)
-

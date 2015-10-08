@@ -1,11 +1,11 @@
 set(TOOLKIT TKLCAF)
 
 set(TOOLKIT_MODULES
-	TDF
-	TDataStd
-	TFunction
-	TDocStd
-	AppStdL
+	OCAF/TDF
+	OCAF/TDataStd
+	OCAF/TFunction
+	OCAF/TDocStd
+	OCAF/AppStdL
 )
 set(TOOLKIT_DEPENDS
 	TKCDF
@@ -13,4 +13,3 @@ set(TOOLKIT_DEPENDS
 )
 
 include(../BuildToolkit.cmake)
-

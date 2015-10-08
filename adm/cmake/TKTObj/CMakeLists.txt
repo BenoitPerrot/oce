@@ -1,7 +1,7 @@
 set(TOOLKIT TKTObj)
 
 set(TOOLKIT_MODULES
-	TObj
+	OCAF/TObj
 )
 set(TOOLKIT_DEPENDS
 	TKCDF
@@ -11,4 +11,3 @@ set(TOOLKIT_DEPENDS
 )
 
 include(../BuildToolkit.cmake)
-

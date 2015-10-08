@@ -1,12 +1,12 @@
 set(TOOLKIT TKPCAF)
 
 set(TOOLKIT_MODULES
-	PDataXtd
-	PNaming
-	PPrsStd
-	MDataXtd
-	MPrsStd
-	MNaming
+	OCAF/PDataXtd
+	OCAF/PNaming
+	OCAF/PPrsStd
+	OCAF/MDataXtd
+	OCAF/MPrsStd
+	OCAF/MNaming
 )
 set(TOOLKIT_DEPENDS
 	PTKernel
@@ -25,4 +25,3 @@ set(TOOLKIT_DEPENDS
 )
 
 include(../BuildToolkit.cmake)
-

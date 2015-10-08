@@ -1,8 +1,8 @@
 set(TOOLKIT TKShapeSchema)
 
 set(TOOLKIT_MODULES
-	ShapeSchema
-	PCDMShape
+	OCAF/ShapeSchema
+	OCAF/PCDMShape
 )
 set(TOOLKIT_DEPENDS
 	TKernel
@@ -14,4 +14,3 @@ set(TOOLKIT_DEPENDS
 )
 
 include(../BuildToolkit.cmake)
-

@@ -1,14 +1,14 @@
 set(TOOLKIT TKPLCAF)
 
 set(TOOLKIT_MODULES
-	PDF
-	PDataStd
-	PFunction
-	PDocStd
-	MDF
-	MDataStd
-	MFunction
-	MDocStd
+	OCAF/PDF
+	OCAF/PDataStd
+	OCAF/PFunction
+	OCAF/PDocStd
+	OCAF/MDF
+	OCAF/MDataStd
+	OCAF/MFunction
+	OCAF/MDocStd
 )
 set(TOOLKIT_DEPENDS
 	TKCDF
@@ -18,4 +18,3 @@ set(TOOLKIT_DEPENDS
 )
 
 include(../BuildToolkit.cmake)
-

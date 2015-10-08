@@ -1,21 +1,21 @@
 set(TOOLKIT TKPShape)
 
 set(TOOLKIT_MODULES
-	PBRep
-	PTopoDS
-	PGeom
-	PGeom2d
-	PPoly
-	PColgp
-	PTopLoc
-	PColPGeom
-	PColPGeom2d
-	MgtBRep
-	MgtGeom
-	MgtGeom2d
-	MgtPoly
-	MgtTopLoc
-	MgtTopoDS
+	OCAF/PBRep
+	OCAF/PTopoDS
+	OCAF/PGeom
+	OCAF/PGeom2d
+	OCAF/PPoly
+	OCAF/PColgp
+	OCAF/PTopLoc
+	OCAF/PColPGeom
+	OCAF/PColPGeom2d
+	OCAF/MgtBRep
+	OCAF/MgtGeom
+	OCAF/MgtGeom2d
+	OCAF/MgtPoly
+	OCAF/MgtTopLoc
+	OCAF/MgtTopoDS
 )
 set(TOOLKIT_DEPENDS
 	TKMath
@@ -27,4 +27,3 @@ set(TOOLKIT_DEPENDS
 )
 
 include(../BuildToolkit.cmake)
-

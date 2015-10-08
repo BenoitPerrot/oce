@@ -1,15 +1,14 @@
 set(TOOLKIT TKCDF)
 
 set(TOOLKIT_MODULES
-	CDM
-	PCDM
-	CDF
-	UTL
-	LDOM
+	OCAF/CDM
+	OCAF/PCDM
+	OCAF/CDF
+	OCAF/UTL
+	OCAF/LDOM
 )
 set(TOOLKIT_DEPENDS
 	TKernel
 )
 
 include(../BuildToolkit.cmake)
-

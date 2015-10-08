@@ -1,8 +1,8 @@
 set(TOOLKIT TKStdLSchema)
 
 set(TOOLKIT_MODULES
-	StdLSchema
-	StdLDrivers
+	OCAF/StdLSchema
+	OCAF/StdLDrivers
 )
 set(TOOLKIT_DEPENDS
 	TKCDF
@@ -14,4 +14,3 @@ set(TOOLKIT_DEPENDS
 )
 
 include(../BuildToolkit.cmake)
-

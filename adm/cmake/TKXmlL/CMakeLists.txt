@@ -1,12 +1,12 @@
 set(TOOLKIT TKXmlL)
 
 set(TOOLKIT_MODULES
-	XmlLDrivers
-	XmlMDF
-	XmlMDataStd
-	XmlMDocStd
-	XmlMFunction
-	XmlObjMgt
+	OCAF/XmlLDrivers
+	OCAF/XmlMDF
+	OCAF/XmlMDataStd
+	OCAF/XmlMDocStd
+	OCAF/XmlMFunction
+	OCAF/XmlObjMgt
 )
 set(TOOLKIT_DEPENDS
 	TKCDF
@@ -16,4 +16,3 @@ set(TOOLKIT_DEPENDS
 )
 
 include(../BuildToolkit.cmake)
-

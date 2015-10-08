@@ -1,7 +1,7 @@
 set(TOOLKIT TKBinTObj)
 
 set(TOOLKIT_MODULES
-	BinTObjDrivers
+	OCAF/BinTObjDrivers
 )
 set(TOOLKIT_DEPENDS
 	TKCDF
@@ -13,4 +13,3 @@ set(TOOLKIT_DEPENDS
 )
 
 include(../BuildToolkit.cmake)
-

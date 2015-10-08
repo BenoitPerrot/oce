@@ -1,12 +1,12 @@
 set(TOOLKIT TKBinL)
 
 set(TOOLKIT_MODULES
-	BinMDF
-	BinMDataStd
-	BinMFunction
-	BinMDocStd
-	BinObjMgt
-	BinLDrivers
+	OCAF/BinMDF
+	OCAF/BinMDataStd
+	OCAF/BinMFunction
+	OCAF/BinMDocStd
+	OCAF/BinObjMgt
+	OCAF/BinLDrivers
 )
 set(TOOLKIT_DEPENDS
 	TKCDF
@@ -15,4 +15,3 @@ set(TOOLKIT_DEPENDS
 )
 
 include(../BuildToolkit.cmake)
-

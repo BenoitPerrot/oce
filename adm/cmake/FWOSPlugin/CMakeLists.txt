@@ -1,7 +1,7 @@
 set(TOOLKIT FWOSPlugin)
 
 set(TOOLKIT_MODULES
-	FWOSDriver
+	OCAF/FWOSDriver
 )
 set(TOOLKIT_DEPENDS
 	TKernel
@@ -9,4 +9,3 @@ set(TOOLKIT_DEPENDS
 )
 
 include(../BuildToolkit.cmake)
-

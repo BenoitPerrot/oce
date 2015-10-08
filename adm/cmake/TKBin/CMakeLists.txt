@@ -1,11 +1,11 @@
 set(TOOLKIT TKBin)
 
 set(TOOLKIT_MODULES
-	BinDrivers
-	BinMDataXtd
-	BinMPrsStd
-	BinMNaming
-	BinTools
+	OCAF/BinDrivers
+	OCAF/BinMDataXtd
+	OCAF/BinMPrsStd
+	OCAF/BinMNaming
+	OCAF/BinTools
 )
 set(TOOLKIT_DEPENDS
 	TKBRep
@@ -21,4 +21,3 @@ set(TOOLKIT_DEPENDS
 )
 
 include(../BuildToolkit.cmake)
-
