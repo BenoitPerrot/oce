@@ -72,7 +72,6 @@
 #define  VKNOTS   (vknots->Array1())
 #define  UFKNOTS  (ufknots->Array1())
 #define  VFKNOTS  (vfknots->Array1())
-#define  FMULTS   (BSplCLib::NoMults())
 
 //=======================================================================
 //function : IsCNu
@@ -156,7 +155,7 @@ void Geom_BSplineSurface::D0(const Standard_Real U,
 		     uspanlenght_11,
 		     vspanlenght_11,
 		     cachepoles->Array2(),
-		     *((TColStd_Array2OfReal*) NULL),
+		     nullptr,
 		     P) ;
  }
  else {
@@ -169,7 +168,7 @@ void Geom_BSplineSurface::D0(const Standard_Real U,
 		     uspanlenght_11,
 		     vspanlenght_11,
 		     cachepoles->Array2(),
-		     cacheweights->Array2(),
+		     &cacheweights->Array2(),
 		     P) ;
  }
 }
@@ -210,7 +209,7 @@ void Geom_BSplineSurface::D1(const Standard_Real U,
 		      uspanlenght_11,
 		      vspanlenght_11,
 		      cachepoles->Array2(),
-		      *((TColStd_Array2OfReal*) NULL),
+		      nullptr,
 		      P,
 		      D1U,
 		      D1V) ;
@@ -226,7 +225,7 @@ void Geom_BSplineSurface::D1(const Standard_Real U,
 		      uspanlenght_11,
 		      vspanlenght_11,
 		      cachepoles->Array2(),
-		      cacheweights->Array2(),
+		      &cacheweights->Array2(),
 		      P,
 		      D1U,
 		      D1V) ;
@@ -270,7 +269,7 @@ void Geom_BSplineSurface::D2 (const Standard_Real U,
 			uspanlenght_11,
 			vspanlenght_11,
 			cachepoles->Array2(),
-			*((TColStd_Array2OfReal*) NULL),
+			nullptr,
 			P,
 			D1U,
 			D1V,
@@ -288,7 +287,7 @@ void Geom_BSplineSurface::D2 (const Standard_Real U,
 			uspanlenght_11,
 			vspanlenght_11,
 			cachepoles->Array2(),
-			cacheweights->Array2(),
+			&cacheweights->Array2(),
 			P,
 			D1U,
 			D1V,
@@ -316,7 +315,7 @@ void Geom_BSplineSurface::D3 (const Standard_Real U,
 			            gp_Vec&       D3UUV,
 			            gp_Vec&       D3UVV) const
 {
-  BSplSLib::D3(U,V,0,0,POLES,WEIGHTS,UFKNOTS,VFKNOTS,FMULTS,FMULTS,
+  BSplSLib::D3(U,V,0,0,POLES,&WEIGHTS,UFKNOTS,VFKNOTS,nullptr,nullptr,
 	       udeg,vdeg,urational,vrational,uperiodic,vperiodic,
 	       P,D1U,D1V,D2U,D2V,D2UV,D3U,D3V,D3UUV,D3UVV);
   }
@@ -332,7 +331,7 @@ gp_Vec Geom_BSplineSurface::DN (const Standard_Real    U,
 				const Standard_Integer Nv ) const
 {
   gp_Vec Vn;
-  BSplSLib::DN(U,V,Nu,Nv,0,0,POLES,WEIGHTS,UFKNOTS,VFKNOTS,FMULTS,FMULTS,
+  BSplSLib::DN(U,V,Nu,Nv,0,0,POLES,&WEIGHTS,UFKNOTS,VFKNOTS,nullptr,nullptr,
 	       udeg,vdeg,urational,vrational,uperiodic,vperiodic,
 	       Vn);
   return Vn;
@@ -382,8 +381,7 @@ void Geom_BSplineSurface::LocalD0 (const Standard_Real    U,
 			    vindex,v);
   vindex = BSplCLib::FlatIndex(vdeg,vindex,vmults->Array1(),vperiodic);
 
-//  BSplSLib::D0(U,V,uindex,vindex,POLES,WEIGHTS,UFKNOTS,VFKNOTS,FMULTS,FMULTS,
-  BSplSLib::D0(u,v,uindex,vindex,POLES,WEIGHTS,UFKNOTS,VFKNOTS,FMULTS,FMULTS,
+  BSplSLib::D0(u,v,uindex,vindex,POLES,&WEIGHTS,UFKNOTS,VFKNOTS,nullptr,nullptr,
 	       udeg,vdeg,urational,vrational,uperiodic,vperiodic,
 	       P);
 }
@@ -417,7 +415,7 @@ void Geom_BSplineSurface::LocalD1 (const Standard_Real    U,
 			    vindex,v);
   vindex = BSplCLib::FlatIndex(vdeg,vindex,vmults->Array1(),vperiodic);
 
-  BSplSLib::D1(u,v,uindex,vindex,POLES,WEIGHTS,UFKNOTS,VFKNOTS,FMULTS,FMULTS,
+  BSplSLib::D1(u,v,uindex,vindex,POLES,&WEIGHTS,UFKNOTS,VFKNOTS,nullptr,nullptr,
 	       udeg,vdeg,urational,vrational,uperiodic,vperiodic,
 	       P,D1U,D1V);
 }
@@ -454,7 +452,7 @@ void Geom_BSplineSurface::LocalD2 (const Standard_Real    U,
 			    vindex,v);
   vindex = BSplCLib::FlatIndex(vdeg,vindex,vmults->Array1(),vperiodic);
 
-  BSplSLib::D2(u,v,uindex,vindex,POLES,WEIGHTS,UFKNOTS,VFKNOTS,FMULTS,FMULTS,
+  BSplSLib::D2(u,v,uindex,vindex,POLES,&WEIGHTS,UFKNOTS,VFKNOTS,nullptr,nullptr,
 	       udeg,vdeg,urational,vrational,uperiodic,vperiodic,
 	       P,D1U,D1V,D2U,D2V,D2UV);
 }
@@ -495,7 +493,7 @@ void Geom_BSplineSurface::LocalD3 (const Standard_Real    U,
 			    vindex,v);
   vindex = BSplCLib::FlatIndex(vdeg,vindex,vmults->Array1(),vperiodic);
 
-  BSplSLib::D3(u,v,uindex,vindex,POLES,WEIGHTS,UFKNOTS,VFKNOTS,FMULTS,FMULTS,
+  BSplSLib::D3(u,v,uindex,vindex,POLES,&WEIGHTS,UFKNOTS,VFKNOTS,nullptr,nullptr,
 	       udeg,vdeg,urational,vrational,uperiodic,vperiodic,
 	       P,D1U,D1V,D2U,D2V,D2UV,D3U,D3V,D3UUV,D3UVV);
 }
@@ -530,7 +528,7 @@ gp_Vec Geom_BSplineSurface::LocalDN  (const Standard_Real    U,
 
   gp_Vec Vn;
   BSplSLib::DN(u,v,Nu,Nv,uindex,vindex,
-	       POLES,WEIGHTS,UFKNOTS,VFKNOTS,FMULTS,FMULTS,
+	       POLES,&WEIGHTS,UFKNOTS,VFKNOTS,nullptr,nullptr,
 	       udeg,vdeg,urational,vrational,uperiodic,vperiodic,
 	       Vn);
   return Vn;
@@ -576,8 +574,8 @@ Handle(Geom_Curve) Geom_BSplineSurface::UIso (const Standard_Real U) const
   Handle(Geom_BSplineCurve) C;
 
   if ( urational || vrational) {
-    BSplSLib::Iso(U,Standard_True,POLES,WEIGHTS,UFKNOTS,FMULTS,udeg,uperiodic,
-		  cpoles,cweights);
+    BSplSLib::Iso(U,Standard_True,POLES,&WEIGHTS,UFKNOTS,nullptr,udeg,uperiodic,
+		  cpoles,&cweights);
     C = new Geom_BSplineCurve(cpoles,cweights,
 			      vknots->Array1(),
 			      vmults->Array1(),
@@ -585,9 +583,9 @@ Handle(Geom_Curve) Geom_BSplineSurface::UIso (const Standard_Real U) const
   }
   else {
     BSplSLib::Iso(U,Standard_True,POLES,
-		  *((TColStd_Array2OfReal*) NULL),
-		  UFKNOTS,FMULTS,udeg,uperiodic,
-		  cpoles,cweights);
+		  nullptr,
+		  UFKNOTS,nullptr,udeg,uperiodic,
+		  cpoles,&cweights);
     C = new Geom_BSplineCurve(cpoles,
 			      vknots->Array1(),
 			      vmults->Array1(),
@@ -611,8 +609,8 @@ Handle(Geom_Curve) Geom_BSplineSurface::UIso (const Standard_Real U,
   Handle(Geom_BSplineCurve) C;
 
   if ( urational || vrational) {
-    BSplSLib::Iso(U,Standard_True,POLES,WEIGHTS,UFKNOTS,FMULTS,udeg,uperiodic,
-		  cpoles,cweights);
+    BSplSLib::Iso(U,Standard_True,POLES,&WEIGHTS,UFKNOTS,nullptr,udeg,uperiodic,
+		  cpoles,&cweights);
     C = new Geom_BSplineCurve(cpoles,cweights,
 			      vknots->Array1(),
 			      vmults->Array1(),
@@ -621,9 +619,9 @@ Handle(Geom_Curve) Geom_BSplineSurface::UIso (const Standard_Real U,
   }
   else {
     BSplSLib::Iso(U,Standard_True,POLES,
-		  *((TColStd_Array2OfReal*) NULL),
-		  UFKNOTS,FMULTS,udeg,uperiodic,
-		  cpoles,cweights);
+		  nullptr,
+		  UFKNOTS,nullptr,udeg,uperiodic,
+		  cpoles,&cweights);
     C = new Geom_BSplineCurve(cpoles,
 			      vknots->Array1(),
 			      vmults->Array1(),
@@ -736,9 +734,9 @@ Handle(Geom_Curve) Geom_BSplineSurface::VIso (const Standard_Real V) const
 
   if ( urational || vrational) {
     BSplSLib::Iso(V,Standard_False,POLES,
-		  WEIGHTS,
-		  VFKNOTS,FMULTS,vdeg,vperiodic,
-		  cpoles,cweights);
+		  &WEIGHTS,
+		  VFKNOTS,nullptr,vdeg,vperiodic,
+		  cpoles,&cweights);
     C = new Geom_BSplineCurve(cpoles,cweights,
 			      uknots->Array1(),
 			      umults->Array1(),
@@ -746,9 +744,9 @@ Handle(Geom_Curve) Geom_BSplineSurface::VIso (const Standard_Real V) const
   }
   else {
     BSplSLib::Iso(V,Standard_False,POLES,
-		  *((TColStd_Array2OfReal*) NULL),
-		  VFKNOTS,FMULTS,vdeg,vperiodic,
-		  cpoles,cweights);
+		  nullptr,
+		  VFKNOTS,nullptr,vdeg,vperiodic,
+		  cpoles,&cweights);
     C = new Geom_BSplineCurve(cpoles,
 			      uknots->Array1(),
 			      umults->Array1(),
@@ -773,9 +771,9 @@ Handle(Geom_Curve) Geom_BSplineSurface::VIso (const Standard_Real V,
 
   if ( urational || vrational) {
     BSplSLib::Iso(V,Standard_False,POLES,
-		  WEIGHTS,
-		  VFKNOTS,FMULTS,vdeg,vperiodic,
-		  cpoles,cweights);
+		  &WEIGHTS,
+		  VFKNOTS,nullptr,vdeg,vperiodic,
+		  cpoles,&cweights);
     C = new Geom_BSplineCurve(cpoles,cweights,
 			      uknots->Array1(),
 			      umults->Array1(),
@@ -784,9 +782,9 @@ Handle(Geom_Curve) Geom_BSplineSurface::VIso (const Standard_Real V,
   }
   else {
     BSplSLib::Iso(V,Standard_False,POLES,
-		  *((TColStd_Array2OfReal*) NULL),
-		  VFKNOTS,FMULTS,vdeg,vperiodic,
-		  cpoles,cweights);
+		  nullptr,
+		  VFKNOTS,nullptr,vdeg,vperiodic,
+		  cpoles,&cweights);
     C = new Geom_BSplineCurve(cpoles,
 			      uknots->Array1(),
 			      umults->Array1(),
@@ -1211,7 +1209,7 @@ void Geom_BSplineSurface::SetUNotPeriodic ()
 
       BSplSLib::Unperiodize(Standard_True         , udeg, 
 			    umults->Array1()      , uknots->Array1(),
-			    poles->Array2()       , weights->Array2(),
+			    poles->Array2()       , &weights->Array2(),
 			    nmults->ChangeArray1(), nknots->ChangeArray1(),
 			    npoles->ChangeArray2(),
 			    nweights->ChangeArray2());
@@ -1220,7 +1218,7 @@ void Geom_BSplineSurface::SetUNotPeriodic ()
 
       BSplSLib::Unperiodize(Standard_True         , udeg, 
 			    umults->Array1()      , uknots->Array1(),
-			    poles->Array2()       , BSplSLib::NoWeights(),
+			    poles->Array2()       , nullptr,
 			    nmults->ChangeArray1(), nknots->ChangeArray1(),
 			    npoles->ChangeArray2(),
 			    *((TColStd_Array2OfReal*) NULL));
@@ -1263,7 +1261,7 @@ void Geom_BSplineSurface::SetVNotPeriodic ()
 
       BSplSLib::Unperiodize(Standard_False        , vdeg, 
 			    vmults->Array1()      , vknots->Array1(),
-			    poles->Array2()       , weights->Array2(),
+			    poles->Array2()       , &weights->Array2(),
 			    nmults->ChangeArray1(), nknots->ChangeArray1(),
 			    npoles->ChangeArray2(),
 			    nweights->ChangeArray2());
@@ -1272,7 +1270,7 @@ void Geom_BSplineSurface::SetVNotPeriodic ()
 
       BSplSLib::Unperiodize(Standard_False        , vdeg, 
 			    vmults->Array1()      , vknots->Array1(),
-			    poles->Array2()       , BSplSLib::NoWeights(),
+			    poles->Array2()       , nullptr,
 			    nmults->ChangeArray1(), nknots->ChangeArray1(),
 			    npoles->ChangeArray2(),
 			    *((TColStd_Array2OfReal*) NULL));
@@ -1844,7 +1842,7 @@ GeomAbs_BSplKnotDistribution Geom_BSplineSurface::VKnotDistribution() const
 
 void  Geom_BSplineSurface::InsertUKnots
   (const TColStd_Array1OfReal&    Knots, 
-   const TColStd_Array1OfInteger& Mults,
+   const TColStd_Array1OfInteger* Mults,
    const Standard_Real            ParametricTolerance,
    const Standard_Boolean         Add)
 {
@@ -1876,7 +1874,7 @@ void  Geom_BSplineSurface::InsertUKnots
   if ( urational || vrational) {
     BSplSLib::InsertKnots(Standard_True,
 			  udeg, uperiodic,
-			  poles->Array2() , weights->Array2(),
+			  poles->Array2() , &weights->Array2(),
 			  uknots->Array1(), umults->Array1(),
 			  Knots, Mults,
 			  npoles->ChangeArray2(),
@@ -1887,7 +1885,7 @@ void  Geom_BSplineSurface::InsertUKnots
   else {
     BSplSLib::InsertKnots(Standard_True,
 			  udeg, uperiodic,
-			  poles->Array2() , BSplSLib::NoWeights(),
+			  poles->Array2() , nullptr,
 			  uknots->Array1(), umults->Array1(),
 			  Knots, Mults,
 			  npoles->ChangeArray2(),
@@ -1911,7 +1909,7 @@ void  Geom_BSplineSurface::InsertUKnots
 
 void  Geom_BSplineSurface::InsertVKnots
   (const TColStd_Array1OfReal& Knots, 
-   const TColStd_Array1OfInteger& Mults, 
+   const TColStd_Array1OfInteger* Mults, 
    const Standard_Real ParametricTolerance,
    const Standard_Boolean Add)
 {
@@ -1943,7 +1941,7 @@ void  Geom_BSplineSurface::InsertVKnots
   if ( urational || vrational) {
     BSplSLib::InsertKnots(Standard_False,
 			  vdeg, vperiodic,
-			  poles->Array2() , weights->Array2(),
+			  poles->Array2() , &weights->Array2(),
 			  vknots->Array1(), vmults->Array1(),
 			  Knots, Mults,
 			  npoles->ChangeArray2(),
@@ -1954,7 +1952,7 @@ void  Geom_BSplineSurface::InsertVKnots
   else {
     BSplSLib::InsertKnots(Standard_False,
 			  vdeg, vperiodic,
-			  poles->Array2() , BSplSLib::NoWeights(),
+			  poles->Array2() , nullptr,
 			  vknots->Array1(), vmults->Array1(),
 			  Knots, Mults,
 			  npoles->ChangeArray2(),
@@ -2015,7 +2013,7 @@ Standard_Boolean  Geom_BSplineSurface::RemoveUKnot
 				1, npoles->RowLength());
     if (!BSplSLib::RemoveKnot(Standard_True,
 			      Index,M,udeg,uperiodic,
-			      poles->Array2(),weights->Array2(),
+			      poles->Array2(),&weights->Array2(),
 			      uknots->Array1(),umults->Array1(),
 			      npoles->ChangeArray2(),
 			      nweights->ChangeArray2(),
@@ -2033,7 +2031,7 @@ Standard_Boolean  Geom_BSplineSurface::RemoveUKnot
 				1.0e0 );
     if (!BSplSLib::RemoveKnot(Standard_True,
 			      Index,M,udeg,uperiodic,
-			      poles->Array2(),BSplSLib::NoWeights(),
+			      poles->Array2(),nullptr,
 			      uknots->Array1(),umults->Array1(),
 			      npoles->ChangeArray2(),
 			      *((TColStd_Array2OfReal*) NULL),
@@ -2098,7 +2096,7 @@ Standard_Boolean  Geom_BSplineSurface::RemoveVKnot
 
     if (!BSplSLib::RemoveKnot(Standard_False,
 			      Index,M,vdeg,vperiodic,
-			      poles->Array2(),weights->Array2(),
+			      poles->Array2(),&weights->Array2(),
 			      vknots->Array1(),vmults->Array1(),
 			      npoles->ChangeArray2(),
 			      nweights->ChangeArray2(),
@@ -2116,7 +2114,7 @@ Standard_Boolean  Geom_BSplineSurface::RemoveVKnot
 				1.0e0 );
     if (!BSplSLib::RemoveKnot(Standard_False,
 			      Index,M,vdeg,vperiodic,
-			      poles->Array2(),BSplSLib::NoWeights(),
+			      poles->Array2(),nullptr,
 			      vknots->Array1(),vmults->Array1(),
 			      npoles->ChangeArray2(),
 			      *((TColStd_Array2OfReal*) NULL),

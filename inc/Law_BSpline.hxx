@@ -162,7 +162,7 @@ public:
   //!
   //! The  tolerance criterion  for  knots  equality  is
   //! the max of Epsilon(U) and ParametricTolerance.
-  Standard_EXPORT   void InsertKnots (const TColStd_Array1OfReal& Knots, const TColStd_Array1OfInteger& Mults, const Standard_Real ParametricTolerance = 0.0, const Standard_Boolean Add = Standard_False) ;
+  Standard_EXPORT   void InsertKnots (const TColStd_Array1OfReal& Knots, const TColStd_Array1OfInteger* Mults, const Standard_Real ParametricTolerance = 0.0, const Standard_Boolean Add = Standard_False) ;
   
   //! Decrement the knots multiplicity to <M>. If  M is
   //! 0 the knot   is  removed. The  Poles  sequence   is

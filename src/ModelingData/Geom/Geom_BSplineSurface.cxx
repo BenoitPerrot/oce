@@ -439,7 +439,7 @@ void Geom_BSplineSurface::IncreaseDegree (const Standard_Integer UDegree,
       
       BSplSLib::IncreaseDegree
 	(Standard_True, udeg, UDegree, uperiodic,
-	 poles->Array2(),weights->Array2(),
+	 poles->Array2(),&weights->Array2(),
 	 uknots->Array1(),umults->Array1(),
 	 npoles->ChangeArray2(),nweights->ChangeArray2(),
 	 nknots->ChangeArray1(),nmults->ChangeArray1());
@@ -448,7 +448,7 @@ void Geom_BSplineSurface::IncreaseDegree (const Standard_Integer UDegree,
 
       BSplSLib::IncreaseDegree
 	(Standard_True, udeg, UDegree, uperiodic,
-	 poles->Array2(),BSplSLib::NoWeights(),
+	 poles->Array2(),nullptr,
 	 uknots->Array1(),umults->Array1(),
 	 npoles->ChangeArray2(),*((TColStd_Array2OfReal*) NULL),
 	 nknots->ChangeArray1(),nmults->ChangeArray1());
@@ -491,7 +491,7 @@ void Geom_BSplineSurface::IncreaseDegree (const Standard_Integer UDegree,
       
       BSplSLib::IncreaseDegree
 	(Standard_False, vdeg, VDegree, vperiodic,
-	 poles->Array2(),weights->Array2(),
+	 poles->Array2(),&weights->Array2(),
 	 vknots->Array1(),vmults->Array1(),
 	 npoles->ChangeArray2(),nweights->ChangeArray2(),
 	 nknots->ChangeArray1(),nmults->ChangeArray1());
@@ -500,7 +500,7 @@ void Geom_BSplineSurface::IncreaseDegree (const Standard_Integer UDegree,
 
       BSplSLib::IncreaseDegree
 	(Standard_False, vdeg, VDegree, vperiodic,
-	 poles->Array2(),BSplSLib::NoWeights(),
+	 poles->Array2(),nullptr,
 	 vknots->Array1(),vmults->Array1(),
 	 npoles->ChangeArray2(),*((TColStd_Array2OfReal*) NULL),
 	 nknots->ChangeArray1(),nmults->ChangeArray1());
@@ -527,7 +527,7 @@ void Geom_BSplineSurface::IncreaseUMultiplicity
   k(1) = uknots->Value(UIndex);
   TColStd_Array1OfInteger m(1,1);
   m(1) = M - umults->Value(UIndex);
-  InsertUKnots(k,m,Epsilon(1.),Standard_True);
+  InsertUKnots(k,&m,Epsilon(1.),Standard_True);
 }
 
 //=======================================================================
@@ -545,7 +545,7 @@ void Geom_BSplineSurface::IncreaseUMultiplicity
   TColStd_Array1OfInteger m(FromI1, ToI2);
   for (Standard_Integer i = FromI1; i <= ToI2; i++) 
     m(i) = M - umults->Value(i);
-  InsertUKnots(k,m,Epsilon(1.),Standard_True);
+  InsertUKnots(k,&m,Epsilon(1.),Standard_True);
 }
 
 //=======================================================================
@@ -561,7 +561,7 @@ void Geom_BSplineSurface::IncreaseVMultiplicity
   k(1) = vknots->Value(VIndex);
   TColStd_Array1OfInteger m(1,1);
   m(1) = M - vmults->Value(VIndex);
-  InsertVKnots(k,m,Epsilon(1.),Standard_True);
+  InsertVKnots(k,&m,Epsilon(1.),Standard_True);
 }
 
 //=======================================================================
@@ -579,7 +579,7 @@ void Geom_BSplineSurface::IncreaseVMultiplicity
   TColStd_Array1OfInteger m(FromI1,ToI2);
   for (Standard_Integer i = FromI1; i <= ToI2; i++)
     m(i) = M - vmults->Value(i);
-  InsertVKnots(k,m,Epsilon(1.),Standard_True);
+  InsertVKnots(k,&m,Epsilon(1.),Standard_True);
 }
 
 //=======================================================================
@@ -622,7 +622,7 @@ void Geom_BSplineSurface::Segment(const Standard_Real U1,
   UKnots( 1) = Min( NewU1, NewU2);
   UKnots( 2) = Max( NewU1, NewU2);
   UMults( 1) = UMults( 2) = udeg;
-  InsertUKnots( UKnots, UMults, EpsU);
+  InsertUKnots( UKnots, &UMults, EpsU);
 
   // Inserting the VKnots
   TColStd_Array1OfReal    VKnots(1,2);
@@ -639,7 +639,7 @@ void Geom_BSplineSurface::Segment(const Standard_Real U1,
   VKnots( 1) = Min( NewV1, NewV2);
   VKnots( 2) = Max( NewV1, NewV2);
   VMults( 1) = VMults( 2) = vdeg;
-  InsertVKnots( VKnots, VMults, EpsV);
+  InsertVKnots( VKnots, &VMults, EpsV);
 
 
   if (uperiodic) { // set the origine at NewU1
@@ -838,7 +838,7 @@ void Geom_BSplineSurface::CheckAndSegment(const Standard_Real U1,
     UKnots( 2) = Max( NewU1, NewU2);
     UMults( 1) = UMults( 2) = udeg;
     
-    InsertUKnots( UKnots, UMults, EpsU);
+    InsertUKnots( UKnots, &UMults, EpsU);
   }
 
   indexV = 0;
@@ -857,7 +857,7 @@ void Geom_BSplineSurface::CheckAndSegment(const Standard_Real U1,
     VKnots( 1) = Min( NewV1, NewV2);
     VKnots( 2) = Max( NewV1, NewV2);
     VMults( 1) = VMults( 2) = vdeg;
-    InsertVKnots( VKnots, VMults, EpsV);
+    InsertVKnots( VKnots, &VMults, EpsV);
   }
 
   if (uperiodic && segment_in_U) { // set the origine at NewU1
@@ -1197,7 +1197,7 @@ void Geom_BSplineSurface::InsertUKnot
   k(1) = U;
   TColStd_Array1OfInteger m(1,1);
   m(1) = M;
-  InsertUKnots(k,m,ParametricTolerance,Add);
+  InsertUKnots(k,&m,ParametricTolerance,Add);
 }
 
 //=======================================================================
@@ -1215,7 +1215,7 @@ void Geom_BSplineSurface::InsertVKnot
   k(1) = V;
   TColStd_Array1OfInteger m(1,1);
   m(1) = M;
-  InsertVKnots(k,m,ParametricTolerance,Add);
+  InsertVKnots(k,&m,ParametricTolerance,Add);
 }
 
 //=======================================================================
@@ -1232,7 +1232,7 @@ void  Geom_BSplineSurface::IncrementUMultiplicity
   TColStd_Array1OfReal k( (uknots->Array1())(FromI1), FromI1, ToI2);
   TColStd_Array1OfInteger m( FromI1, ToI2) ;
   m.Init(Step);
-  InsertUKnots( k, m, Epsilon(1.));
+  InsertUKnots( k, &m, Epsilon(1.));
 }
 
 //=======================================================================
@@ -1251,7 +1251,7 @@ void  Geom_BSplineSurface::IncrementVMultiplicity
   TColStd_Array1OfInteger m( FromI1, ToI2) ;
   m.Init(Step);
   
-  InsertVKnots( k, m, Epsilon(1.));
+  InsertVKnots( k, &m, Epsilon(1.));
 }
 
 //=======================================================================
@@ -1437,7 +1437,7 @@ void Geom_BSplineSurface::ValidateCache(const Standard_Real  Uparameter,
 
   BSplCLib::LocateParameter(udeg,
 			    (ufknots->Array1()),
-			    (BSplCLib::NoMults()),
+                            nullptr,
 			    Uparameter,
 			    uperiodic,
 			    LocalIndex,
@@ -1471,7 +1471,7 @@ void Geom_BSplineSurface::ValidateCache(const Standard_Real  Uparameter,
   LocalIndex = 0 ;   
   BSplCLib::LocateParameter(vdeg,
 			    (vfknots->Array1()),
-			    (BSplCLib::NoMults()),
+                            nullptr,
 			    Vparameter,
 			    vperiodic,
 			    LocalIndex,
@@ -1519,9 +1519,9 @@ void Geom_BSplineSurface::ValidateCache(const Standard_Real  Uparameter,
 			 (ufknots->Array1()),
 			 (vfknots->Array1()),
 			 poles->Array2(),
-		         weights->Array2(),
+		         &weights->Array2(),
 		         cachepoles->ChangeArray2(),
-		         cacheweights->ChangeArray2()) ;
+		         &cacheweights->ChangeArray2()) ;
   }
   else {
     BSplSLib::BuildCache(uparameter_11,
@@ -1537,9 +1537,9 @@ void Geom_BSplineSurface::ValidateCache(const Standard_Real  Uparameter,
 			 (ufknots->Array1()),
 			 (vfknots->Array1()),
 			 poles->Array2(),
-			 *((TColStd_Array2OfReal*) NULL),
+			 nullptr,
 			 cachepoles->ChangeArray2(),
-			 *((TColStd_Array2OfReal*) NULL)) ;
+			 nullptr) ;
   }
   validcache = 1 ;
 }

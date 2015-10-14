@@ -148,7 +148,7 @@ void GeomFill_Profiler::Perform(const Standard_Real PTol)
     TColStd_Array1OfInteger Mi(1,Ci->NbKnots());
     Ci->Multiplicities(Mi);
 
-    C->InsertKnots( Ki, Mi, PTol, Standard_False);
+    C->InsertKnots( Ki, &Mi, PTol, Standard_False);
   }
 
   TColStd_Array1OfReal NewKnots(1,C->NbKnots());
@@ -158,7 +158,7 @@ void GeomFill_Profiler::Perform(const Standard_Real PTol)
   for ( i = 2; i <= mySequence.Length(); i++) {
     Handle(Geom_BSplineCurve) Ci = 
       Handle(Geom_BSplineCurve)::DownCast(mySequence(i));
-    Ci->InsertKnots(NewKnots, NewMults, PTol, Standard_False);
+    Ci->InsertKnots(NewKnots, &NewMults, PTol, Standard_False);
   }
 
   // essai : tentative mise des poids sur chaque section a une moyenne 1

@@ -99,11 +99,11 @@ FairCurve_Batten::FairCurve_Batten(const gp_Pnt2d& P1,
     
   BSplCLib::IncreaseDegree (1, Degree, Standard_False,
                             Ipoles->Array1(),
-			    BSplCLib::NoWeights(),
+			    nullptr,
 			    Iknots->Array1(), 
 			    Imults->Array1(), 
 			    Npoles->ChangeArray1(),
-			    Nweight->ChangeArray1(),
+			    &Nweight->ChangeArray1(),
 			    Nknots->ChangeArray1(),
 			    Nmults->ChangeArray1() );
 
@@ -279,8 +279,8 @@ Standard_Boolean FairCurve_Batten::Compute(const gp_Vec2d& DeltaP1,
       Interpolation(ii).SetXY(AuxXY);
   }
 // Conversion into BSpline of the same structure as the current batten.
-  PLib::CoefficientsPoles( Interpolation, PLib::NoWeights(), 
-                           HermitePoles,  PLib::NoWeights() ); 
+  PLib::CoefficientsPoles( Interpolation, nullptr, 
+                           HermitePoles, nullptr); 
 
   mults.Init(L);
 
@@ -290,7 +290,7 @@ Standard_Boolean FairCurve_Batten::Compute(const gp_Vec2d& DeltaP1,
 
   DeltaCurve->IncreaseDegree(Degree);
   if (Mults->Length()>2) {
-     DeltaCurve->InsertKnots(Knots->Array1(), Mults->Array1(), 1.e-10);
+    DeltaCurve->InsertKnots(Knots->Array1(), &Mults->Array1(), 1.e-10); // FIXME: inelegant
   }
 
 // Summing
@@ -431,7 +431,7 @@ Standard_Boolean FairCurve_Batten::Compute(const gp_Vec2d& DeltaP1,
        NKnots->ChangeValue(ii) = (double) (ii-1) / (NbKnots-1);
    } 
 
-   NewBS -> InsertKnots(NKnots->Array1(), NMults->Array1(), 1.e-10);
+   NewBS -> InsertKnots(NKnots->Array1(), &NMults->Array1(), 1.e-10); // FIXME: inelegant
    Handle(TColgp_HArray1OfPnt2d) NPoles = 
       new  TColgp_HArray1OfPnt2d(1, NewBS->NbPoles());
    NewBS -> Poles( NPoles->ChangeArray1() );

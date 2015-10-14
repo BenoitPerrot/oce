@@ -55,7 +55,6 @@ IMPLEMENT_STANDARD_RTTI(Law_BSpline)
 #define  POLES    (poles->Array1())
 #define  KNOTS    (knots->Array1())
 #define  FKNOTS   (flatknots->Array1())
-#define  FMULTS   (BSplCLib::NoMults())
 
 //=======================================================================
 //function : SetPoles
@@ -402,7 +401,7 @@ void Law_BSpline::IncreaseMultiplicity  (const Standard_Integer Index,
   k(1) = knots->Value(Index);
   TColStd_Array1OfInteger m(1,1);
   m(1) = M - mults->Value(Index);
-  InsertKnots(k,m,Epsilon(1.));
+  InsertKnots(k,&m,Epsilon(1.));
 }
 
 
@@ -421,7 +420,7 @@ void Law_BSpline::IncreaseMultiplicity  (const Standard_Integer I1,
   Standard_Integer i;
   for (i = I1; i <= I2; i++)
     m(i) = M - mults->Value(i);
-  InsertKnots(k,m,Epsilon(1.));
+  InsertKnots(k,&m,Epsilon(1.));
 }
 
 //=======================================================================
@@ -438,7 +437,7 @@ void Law_BSpline::IncrementMultiplicity
   TColStd_Array1OfReal    k((knots->Array1())(I1),I1,I2);
   TColStd_Array1OfInteger m(I1,I2) ;
   m.Init(Step);
-  InsertKnots(k,m,Epsilon(1.));
+  InsertKnots(k,&m,Epsilon(1.));
 }
 
 
@@ -457,7 +456,7 @@ void Law_BSpline::InsertKnot
   k(1) = U;
   TColStd_Array1OfInteger m(1,1);
   m(1) = M;
-  InsertKnots(k,m,ParametricTolerance,Add);
+  InsertKnots(k,&m,ParametricTolerance,Add);
 }
 
 //=======================================================================
@@ -466,7 +465,7 @@ void Law_BSpline::InsertKnot
 //=======================================================================
 
 void  Law_BSpline::InsertKnots(const TColStd_Array1OfReal& Knots, 
-			       const TColStd_Array1OfInteger& Mults,
+			       const TColStd_Array1OfInteger* Mults,
 			       const Standard_Real Epsilon,
 			       const Standard_Boolean Add)
 {
@@ -881,7 +880,7 @@ void Law_BSpline::Segment(const Standard_Real U1,
   Knots( 1) = Min( NewU1, NewU2);
   Knots( 2) = Max( NewU1, NewU2);
   Mults( 1) = Mults( 2) = deg;
-  InsertKnots( Knots, Mults, Eps);
+  InsertKnots( Knots, &Mults, Eps);
   
   if (periodic) { // set the origine at NewU1
     Standard_Integer index = 0;
@@ -1421,10 +1420,10 @@ void Law_BSpline::D0 (const Standard_Real U,
   Standard_Real  NewU = U ;
   PeriodicNormalization(NewU) ;
   if (rational) {
-    BSplCLib::D0(NewU,0,deg,periodic,POLES, weights->Array1(),FKNOTS,FMULTS,P);
+    BSplCLib::D0(NewU,0,deg,periodic,POLES, &weights->Array1(),FKNOTS,nullptr,P);
   }
   else {
-    BSplCLib::D0(NewU,0,deg,periodic,POLES,BSplCLib::NoWeights(),FKNOTS,FMULTS,P);
+    BSplCLib::D0(NewU,0,deg,periodic,POLES,nullptr,FKNOTS,nullptr,P);
   }
 }
 
@@ -1443,11 +1442,11 @@ void Law_BSpline::D1 (const Standard_Real U,
   Standard_Real  NewU = U ;
   PeriodicNormalization(NewU) ;
   if (rational) {
-    BSplCLib::D1(NewU,0,deg,periodic,POLES, weights->Array1(),FKNOTS,FMULTS,
+    BSplCLib::D1(NewU,0,deg,periodic,POLES, &weights->Array1(),FKNOTS,nullptr,
 		 P,V1) ;
   }
   else {
-    BSplCLib::D1(NewU,0,deg,periodic,POLES,BSplCLib::NoWeights(),FKNOTS,FMULTS,
+    BSplCLib::D1(NewU,0,deg,periodic,POLES,nullptr,FKNOTS,nullptr,
 		 P,V1) ;
   }
 }
@@ -1467,11 +1466,11 @@ void Law_BSpline::D2(const Standard_Real U ,
   Standard_Real  NewU = U ;
   PeriodicNormalization(NewU) ;
   if (rational) {
-    BSplCLib::D2(NewU,0,deg,periodic,POLES,weights->Array1(),FKNOTS,FMULTS,
+    BSplCLib::D2(NewU,0,deg,periodic,POLES,&weights->Array1(),FKNOTS,nullptr,
 		 P, V1, V2) ;
   }
   else {
-    BSplCLib::D2(NewU,0,deg,periodic,POLES,BSplCLib::NoWeights(),FKNOTS,FMULTS,
+    BSplCLib::D2(NewU,0,deg,periodic,POLES,nullptr,FKNOTS,nullptr,
 		 P, V1, V2) ;
   }
 }
@@ -1492,11 +1491,11 @@ void Law_BSpline::D3(const Standard_Real U ,
   Standard_Real  NewU = U ;
   PeriodicNormalization(NewU) ;
   if (rational) {
-    BSplCLib::D3(NewU,0,deg,periodic,POLES,weights->Array1(),FKNOTS,FMULTS,
+    BSplCLib::D3(NewU,0,deg,periodic,POLES,&weights->Array1(),FKNOTS,nullptr,
 		 P, V1, V2, V3) ;
   }
   else {
-    BSplCLib::D3(NewU,0,deg,periodic,POLES,BSplCLib::NoWeights(),FKNOTS,FMULTS,
+    BSplCLib::D3(NewU,0,deg,periodic,POLES,nullptr,FKNOTS,nullptr,
 		 P, V1, V2, V3) ;
   }
 }
@@ -1513,10 +1512,10 @@ Standard_Real Law_BSpline::DN(const Standard_Real    U,
 {
   Standard_Real V;
   if (rational) {
-    BSplCLib::DN(U,N,0,deg,periodic,POLES,weights->Array1(),FKNOTS,FMULTS,V);
+    BSplCLib::DN(U,N,0,deg,periodic,POLES,&weights->Array1(),FKNOTS,nullptr,V);
   }
   else {
-    BSplCLib::DN(U,N,0,deg,periodic,POLES,BSplCLib::NoWeights(),FKNOTS,FMULTS,V);
+    BSplCLib::DN(U,N,0,deg,periodic,POLES,nullptr,FKNOTS,nullptr,V);
   }
   return V;
 }
@@ -1668,10 +1667,10 @@ void  Law_BSpline::LocalD0
   BSplCLib::LocateParameter(deg, FKNOTS, U, periodic,FromK1,ToK2, index,u);
   index = BSplCLib::FlatIndex(deg,index,mults->Array1(),periodic);
   if (rational) {
-    BSplCLib::D0(u,index,deg,periodic,POLES,weights->Array1(),FKNOTS,FMULTS,P);
+    BSplCLib::D0(u,index,deg,periodic,POLES,&weights->Array1(),FKNOTS,nullptr,P);
   }
   else {
-    BSplCLib::D0(u,index,deg,periodic,POLES,BSplCLib::NoWeights(),FKNOTS,FMULTS,P);
+    BSplCLib::D0(u,index,deg,periodic,POLES,nullptr,FKNOTS,nullptr,P);
   }
 }
 
@@ -1693,10 +1692,10 @@ void Law_BSpline::LocalD1 (const Standard_Real    U,
   BSplCLib::LocateParameter(deg, FKNOTS, U, periodic, FromK1,ToK2, index, u);
   index = BSplCLib::FlatIndex(deg,index,mults->Array1(),periodic);
   if (rational) {
-    BSplCLib::D1(u,index,deg,periodic,POLES,weights->Array1(),FKNOTS,FMULTS,P,V1);
+    BSplCLib::D1(u,index,deg,periodic,POLES,&weights->Array1(),FKNOTS,nullptr,P,V1);
   }
   else {
-    BSplCLib::D1(u,index,deg,periodic,POLES,BSplCLib::NoWeights(),FKNOTS,FMULTS,P,V1);
+    BSplCLib::D1(u,index,deg,periodic,POLES,nullptr,FKNOTS,nullptr,P,V1);
   }
 }
 
@@ -1721,10 +1720,10 @@ void Law_BSpline::LocalD2
   BSplCLib::LocateParameter(deg, FKNOTS, U, periodic, FromK1,ToK2, index, u);
   index = BSplCLib::FlatIndex(deg,index,mults->Array1(),periodic);
   if (rational) {
-    BSplCLib::D2(u,index,deg,periodic,POLES, weights->Array1(),FKNOTS,FMULTS,P,V1,V2);
+    BSplCLib::D2(u,index,deg,periodic,POLES, &weights->Array1(),FKNOTS,nullptr,P,V1,V2);
   }
   else {
-    BSplCLib::D2(u,index,deg,periodic,POLES,BSplCLib::NoWeights(),FKNOTS,FMULTS,P,V1,V2);
+    BSplCLib::D2(u,index,deg,periodic,POLES,nullptr,FKNOTS,nullptr,P,V1,V2);
   }
 }
 
@@ -1750,10 +1749,10 @@ void Law_BSpline::LocalD3
   BSplCLib::LocateParameter(deg, FKNOTS, U, periodic, FromK1,ToK2, index, u);
   index = BSplCLib::FlatIndex(deg,index,mults->Array1(),periodic);
   if (rational) {
-    BSplCLib::D3(u,index,deg,periodic,POLES,weights->Array1(),FKNOTS,FMULTS,P,V1,V2,V3);
+    BSplCLib::D3(u,index,deg,periodic,POLES,&weights->Array1(),FKNOTS,nullptr,P,V1,V2,V3);
   }
   else {
-    BSplCLib::D3(u,index,deg,periodic,POLES,BSplCLib::NoWeights(),FKNOTS,FMULTS,P,V1,V2,V3);
+    BSplCLib::D3(u,index,deg,periodic,POLES,nullptr,FKNOTS,nullptr,P,V1,V2,V3);
   }
 }
 
@@ -1779,10 +1778,10 @@ Standard_Real Law_BSpline::LocalDN
   
   Standard_Real V;
   if (rational) {
-    BSplCLib::DN(u,N,index,deg,periodic,POLES,weights->Array1(),FKNOTS,FMULTS,V);
+    BSplCLib::DN(u,N,index,deg,periodic,POLES,&weights->Array1(),FKNOTS,nullptr,V);
   }
   else {
-    BSplCLib::DN(u,N,index,deg,periodic,POLES,BSplCLib::NoWeights(),FKNOTS,FMULTS,V);
+    BSplCLib::DN(u,N,index,deg,periodic,POLES,nullptr,FKNOTS,nullptr,V);
   }
   return V;
 }
@@ -2030,14 +2029,14 @@ void Law_BSpline::Resolution(const Standard_Real Tolerance3D,
   Standard_Real* bidr = (Standard_Real*)bid;
   if (rational) {
     BSplCLib::Resolution(*bidr,1,poles->Length(),
-			 weights->Array1(),FKNOTS,deg,
+			 &weights->Array1(),FKNOTS,deg, // FIXME: inelegant
 			 Tolerance3D,
 			 UTolerance) ;
   }
   else {
 
     BSplCLib::Resolution(*bidr,1,poles->Length(),
-			 BSplCLib::NoWeights(),FKNOTS,deg,
+			 nullptr,FKNOTS,deg,
 			 Tolerance3D,
 			 UTolerance) ;
   } 

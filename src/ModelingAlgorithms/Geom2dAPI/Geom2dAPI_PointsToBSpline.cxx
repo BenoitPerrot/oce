@@ -271,7 +271,7 @@ void Geom2dAPI_PointsToBSpline::Init
   // insert the Knots
   BSplCLib::InsertKnots(Degree,Standard_False,1,
 			NewTempPoles,NewTempKnots,NewTempMults,
-			TheCurve.Knots(),TheCurve.Multiplicities(),
+			TheCurve.Knots(),&TheCurve.Multiplicities(), // FIXME: inelegant
 			XPoles,Knots,Mults,
 			Epsilon(1));
   

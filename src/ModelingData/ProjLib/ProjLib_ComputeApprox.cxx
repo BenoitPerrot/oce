@@ -986,9 +986,9 @@ ProjLib_ComputeApprox::ProjLib_ComputeApprox
 		   Conv.Degree(), 
 		   Standard_False,
 		   NewPoles, 
-		   BSplCLib::NoWeights(), 
+		   nullptr, 
 		   NewKnots, 
-		   NewMults,
+		   &NewMults,
 		   P);
       NewPoles.SetValue(1,P);
       U = C->LastParameter() + 1.e-9;
@@ -997,9 +997,9 @@ ProjLib_ComputeApprox::ProjLib_ComputeApprox
 		   Conv.Degree(), 
 		   Standard_False,
 		   NewPoles, 
-		   BSplCLib::NoWeights(), 
+		   nullptr, 
 		   NewKnots, 
-		   NewMults,
+		   &NewMults,
 		   P);
       NewPoles.SetValue(NbPoles,P);
       myBSpline = new Geom2d_BSplineCurve (NewPoles,

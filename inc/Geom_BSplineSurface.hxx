@@ -335,7 +335,7 @@ public:
   //! Geom_BSplineSurface::MaxDegree().
   Standard_EXPORT   void IncreaseDegree (const Standard_Integer UDegree, const Standard_Integer VDegree) ;
   
-  Standard_EXPORT   void InsertUKnots (const TColStd_Array1OfReal& Knots, const TColStd_Array1OfInteger& Mults, const Standard_Real ParametricTolerance = 0.0, const Standard_Boolean Add = Standard_True) ;
+  Standard_EXPORT   void InsertUKnots (const TColStd_Array1OfReal& Knots, const TColStd_Array1OfInteger* Mults, const Standard_Real ParametricTolerance = 0.0, const Standard_Boolean Add = Standard_True) ;
   
   //! Inserts into the knots table for the corresponding
   //! parametric direction of this BSpline surface:
@@ -357,7 +357,7 @@ public:
   //! insert is outside the bounds of this BSpline surface in
   //! the specified parametric direction. The comparison
   //! uses the precision criterion ParametricTolerance.
-  Standard_EXPORT   void InsertVKnots (const TColStd_Array1OfReal& Knots, const TColStd_Array1OfInteger& Mults, const Standard_Real ParametricTolerance = 0.0, const Standard_Boolean Add = Standard_True) ;
+  Standard_EXPORT   void InsertVKnots (const TColStd_Array1OfReal& Knots, const TColStd_Array1OfInteger* Mults, const Standard_Real ParametricTolerance = 0.0, const Standard_Boolean Add = Standard_True) ;
   
   Standard_EXPORT   Standard_Boolean RemoveUKnot (const Standard_Integer Index, const Standard_Integer M, const Standard_Real Tolerance) ;
   

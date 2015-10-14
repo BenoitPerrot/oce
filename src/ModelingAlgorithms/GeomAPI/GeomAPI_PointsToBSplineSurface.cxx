@@ -566,7 +566,7 @@ void GeomAPI_PointsToBSplineSurface::Init(const TColStd_Array2OfReal& ZPoints,
   // insert the Knots
   BSplCLib::InsertKnots(VDegree,Standard_False,1,
 			NewTempPoles,NewTempKnots,NewTempMults,
-			TheCurve.Knots(),TheCurve.Multiplicities(),
+			TheCurve.Knots(),&TheCurve.Multiplicities(), // FIXME: inelegant
 			YPoles,VKnots,VMults,
 			Epsilon(1));
   
@@ -632,7 +632,7 @@ void GeomAPI_PointsToBSplineSurface::Init(const TColStd_Array2OfReal& ZPoints,
   // insert the Knots
   BSplCLib::InsertKnots(UDegree,Standard_False,1,
 			NewTempPoles2,NewTempKnots,NewTempMults,
-			TheCurve2.Knots(),TheCurve2.Multiplicities(),
+			TheCurve2.Knots(),&TheCurve2.Multiplicities(), // FIXME: inelegant
 			XPoles,UKnots,UMults,
 			Epsilon(1));
   

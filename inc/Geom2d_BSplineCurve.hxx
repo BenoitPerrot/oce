@@ -279,7 +279,7 @@ public:
   //! null, nothing is done.
   //! - The multiplicity of a knot is limited to the degree of
   //! this BSpline curve.
-  Standard_EXPORT   void InsertKnots (const TColStd_Array1OfReal& Knots, const TColStd_Array1OfInteger& Mults, const Standard_Real ParametricTolerance = 0.0, const Standard_Boolean Add = Standard_False) ;
+  Standard_EXPORT   void InsertKnots (const TColStd_Array1OfReal& Knots, const TColStd_Array1OfInteger* Mults, const Standard_Real ParametricTolerance = 0.0, const Standard_Boolean Add = Standard_False) ;
   
   //! Reduces the multiplicity of the knot of index Index
   //! to M. If M is equal to 0, the knot is removed.

@@ -1233,8 +1233,8 @@ void GeomLib::AdjustExtremity(Handle(Geom_BoundedCurve)& Curve,
     Coeffs(jj).SetXYZ(aux);
   }
 
-  PLib::CoefficientsPoles(Coeffs, PLib::NoWeights(),
-			  PolesDef,  PLib::NoWeights());
+  PLib::CoefficientsPoles(Coeffs, nullptr,
+			  PolesDef, nullptr);
 
   // Ajout de la deformation
   TColStd_Array1OfReal K(1, 2);
@@ -1363,8 +1363,8 @@ void GeomLib::ExtendCurveToPoint(Handle(Geom_BoundedCurve)& Curve,
   }
 
   // Convertion Dans la Base de Bernstein
-  PLib::CoefficientsPoles(ExtraCoeffs,  PLib::NoWeights(),
-			  ExtrapPoles,  PLib::NoWeights());
+  PLib::CoefficientsPoles(ExtraCoeffs, nullptr,
+			  ExtrapPoles, nullptr);
   
   Handle(Geom_BezierCurve) Bezier = new (Geom_BezierCurve) (ExtrapPoles);
 
@@ -2216,10 +2216,10 @@ static void FunctionMultiply(Handle(Geom_BSplineSurface)&          BSurf,
 			    BSurf->VDegree(),
 			    surface_u_knots,
 			    surface_v_knots,
-			    surface_u_mults,
-			    surface_v_mults,
+			    &surface_u_mults,
+			    &surface_v_mults,
 			    surface_poles,
-			    surface_weights,
+			    &surface_weights,
 			    newuflatknots,
 			    newvflatknots,
 			    BSurf->UDegree()+3,
