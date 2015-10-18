@@ -328,35 +328,44 @@ void BSplCLib::Trimming(const Standard_Integer         Degree,
 //purpose  : builds the local array for evaluation
 //=======================================================================
 
-void  BSplCLib::BuildEval(const Standard_Integer         Degree,
-			  const Standard_Integer         Index,
-			  const Array1OfPoints&          Poles, 
-			  const TColStd_Array1OfReal*    Weights,
-			  Standard_Real&                 LP)
-{
-  Standard_Real w, *pole = &LP;
+void  BSplCLib::BuildEval(const Standard_Integer Degree,
+			  const Standard_Integer Index,
+			  const Array1OfPoints& Poles,
+			  Standard_Real& LP) {
   Standard_Integer PLower = Poles.Lower();
   Standard_Integer PUpper = Poles.Upper();
-  Standard_Integer i;
+
   Standard_Integer ip = PLower + Index - 1;
-  if (Weights == nullptr) {
-    for (i = 0; i <= Degree; i++) {
-      ip++;
-      if (ip > PUpper) ip = PLower;
-      const Point& P = Poles(ip);
-      PointToCoords (pole,P,+0);
-      pole += Dimension_gen;
-    }
+  Standard_Real* pole = &LP;
+
+  for (auto i = 0; i <= Degree; i++) {
+    ip++;
+    if (ip > PUpper) ip = PLower;
+    const Point& P = Poles(ip);
+    PointToCoords (pole,P,+0);
+    pole += Dimension_gen;
   }
-  else {
-    for (i = 0; i <= Degree; i++) {
-      ip++;
-      if (ip > PUpper) ip = PLower;
-      const Point& P = Poles(ip);
-      pole[Dimension_gen] = w = (*Weights)(ip);
-      PointToCoords (pole, P, * w);
-      pole += Dimension_gen + 1;
-    }
+}
+
+void  BSplCLib::BuildEval(const Standard_Integer Degree,
+			  const Standard_Integer Index,
+			  const Array1OfPoints& Poles,
+			  const TColStd_Array1OfReal& Weights,
+			  Standard_Real& LP) {
+  Standard_Integer PLower = Poles.Lower();
+  Standard_Integer PUpper = Poles.Upper();
+
+  Standard_Integer ip = PLower + Index - 1;
+  Standard_Real* pole = &LP;
+
+  for (auto i = 0; i <= Degree; i++) {
+    ip++;
+    if (ip > PUpper) ip = PLower;
+    const Point& P = Poles(ip);
+    Standard_Real w = Weights(ip);
+    pole[Dimension_gen] = w;
+    PointToCoords (pole, P, * w);
+    pole += Dimension_gen + 1;
   }
 }
 
@@ -399,11 +408,11 @@ static void PrepareEval
   // make the poles
   if (rational) {
     dim = Dimension_gen + 1;
-    BSplCLib::BuildEval(Degree, index, Poles, Weights              , *dc.poles);
+    BSplCLib::BuildEval(Degree, index, Poles, *Weights, *dc.poles);
   }
   else {
     dim = Dimension_gen; 
-    BSplCLib::BuildEval(Degree, index, Poles, nullptr, *dc.poles);
+    BSplCLib::BuildEval(Degree, index, Poles, *dc.poles);
   }
 }
 

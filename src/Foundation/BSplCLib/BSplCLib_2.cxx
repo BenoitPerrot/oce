@@ -61,28 +61,39 @@ struct BSplCLib_DataContainer {
 void BSplCLib::BuildEval(const Standard_Integer Degree,
                          const Standard_Integer Index,
                          const TColStd_Array1OfReal& Poles,
-                         const TColStd_Array1OfReal* Weights,
+			 Standard_Real& LP) {
+  Standard_Integer PLower = Poles.Lower();
+  Standard_Integer PUpper = Poles.Upper();
+
+  Standard_Integer ip = PLower + Index - 1;
+  Standard_Real* pole = &LP;
+
+  for (auto i = 0; i <= Degree; i++) {
+    ip++;
+    if (ip > PUpper) ip = PLower;
+    pole[0] = Poles(ip);
+    pole += 1;
+  }
+}
+
+void BSplCLib::BuildEval(const Standard_Integer Degree,
+                         const Standard_Integer Index,
+                         const TColStd_Array1OfReal& Poles,
+                         const TColStd_Array1OfReal& Weights,
                          Standard_Real& LP) {
   Standard_Integer PLower = Poles.Lower();
   Standard_Integer PUpper = Poles.Upper();
-  Standard_Integer i;
+
   Standard_Integer ip = PLower + Index - 1;
-  Standard_Real w, * pole = &LP;
-  if (Weights == nullptr) {
-    for (i = 0; i <= Degree; i++) {
-      ip++;
-      if (ip > PUpper) ip = PLower;
-      pole[0] = Poles(ip);
-      pole += 1;
-    }
-  } else {
-    for (i = 0; i <= Degree; i++) {
-      ip++;
-      if (ip > PUpper) ip = PLower;
-      pole[1] = w = (*Weights)(ip);
-      pole[0] = Poles(ip) * w;
-      pole += 2;
-    }
+  Standard_Real* pole = &LP;
+
+  for (auto i = 0; i <= Degree; i++) {
+    ip++;
+    if (ip > PUpper) ip = PLower;
+    Standard_Real w = Weights(ip);
+    pole[1] = w;
+    pole[0] = Poles(ip) * w;
+    pole += 2;
   }
 }
 
@@ -118,10 +129,10 @@ static void PrepareEval(
   // make the poles
   if (rational) {
     dim = 2;
-    BSplCLib::BuildEval(Degree, index, Poles, Weights, *dc.poles);
+    BSplCLib::BuildEval(Degree, index, Poles, *Weights, *dc.poles);
   } else {
     dim = 1;
-    BSplCLib::BuildEval(Degree, index, Poles, nullptr, *dc.poles);
+    BSplCLib::BuildEval(Degree, index, Poles, *dc.poles);
   }
 }
 
