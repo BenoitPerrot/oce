@@ -58,10 +58,10 @@ struct BSplCLib_DataContainer {
 // purpose  : builds the local array for evaluation
 //=======================================================================
 
-void BSplCLib::BuildEval(const Standard_Integer Degree,
-                         const Standard_Integer Index,
-                         const TColStd_Array1OfReal& Poles,
-			 Standard_Real& LP) {
+static void BuildEval(const Standard_Integer Degree,
+		      const Standard_Integer Index,
+		      const TColStd_Array1OfReal& Poles,
+		      Standard_Real& LP) {
   Standard_Integer PLower = Poles.Lower();
   Standard_Integer PUpper = Poles.Upper();
 
@@ -76,11 +76,11 @@ void BSplCLib::BuildEval(const Standard_Integer Degree,
   }
 }
 
-void BSplCLib::BuildEval(const Standard_Integer Degree,
-                         const Standard_Integer Index,
-                         const TColStd_Array1OfReal& Poles,
-                         const TColStd_Array1OfReal& Weights,
-                         Standard_Real& LP) {
+static void BuildEval(const Standard_Integer Degree,
+		      const Standard_Integer Index,
+		      const TColStd_Array1OfReal& Poles,
+		      const TColStd_Array1OfReal& Weights,
+		      Standard_Real& LP) {
   Standard_Integer PLower = Poles.Lower();
   Standard_Integer PUpper = Poles.Upper();
 
@@ -129,10 +129,10 @@ static void PrepareEval(
   // make the poles
   if (rational) {
     dim = 2;
-    BSplCLib::BuildEval(Degree, index, Poles, *Weights, *dc.poles);
+    BuildEval(Degree, index, Poles, *Weights, *dc.poles);
   } else {
     dim = 1;
-    BSplCLib::BuildEval(Degree, index, Poles, *dc.poles);
+    BuildEval(Degree, index, Poles, *dc.poles);
   }
 }
 

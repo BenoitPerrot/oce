@@ -382,17 +382,6 @@ public:
   //! must be added to Poles.Lower().
   Standard_EXPORT static   Standard_Integer PoleIndex (const Standard_Integer Degree, const Standard_Integer Index, const Standard_Boolean Periodic, const TColStd_Array1OfInteger& Mults) ;
   
-  Standard_EXPORT static void BuildEval(const Standard_Integer Degree, const Standard_Integer Index, const TColStd_Array1OfReal& Poles, Standard_Real& LP);
-  Standard_EXPORT static void BuildEval(const Standard_Integer Degree, const Standard_Integer Index, const TColStd_Array1OfReal& Poles, const TColStd_Array1OfReal& Weights, Standard_Real& LP);
-  
-  Standard_EXPORT static void BuildEval(const Standard_Integer Degree, const Standard_Integer Index, const TColgp_Array1OfPnt& Poles, Standard_Real& LP);
-  Standard_EXPORT static void BuildEval(const Standard_Integer Degree, const Standard_Integer Index, const TColgp_Array1OfPnt& Poles, const TColStd_Array1OfReal& Weights, Standard_Real& LP);
-  
-  //! Copy in <LP>  the poles and  weights for  the Eval
-  //! scheme. starting from  Poles(Poles.Lower()+Index)
-  Standard_EXPORT static void BuildEval(const Standard_Integer Degree, const Standard_Integer Index, const TColgp_Array1OfPnt2d& Poles, Standard_Real& LP);
-  Standard_EXPORT static void BuildEval(const Standard_Integer Degree, const Standard_Integer Index, const TColgp_Array1OfPnt2d& Poles, const TColStd_Array1OfReal& Weights, Standard_Real& LP);
-  
   //! Copy in <LP>  poles for <Dimension>  Boor  scheme.
   //! Starting  from    <Index>     *  <Dimension>, copy
   //! <Length+1> poles.
