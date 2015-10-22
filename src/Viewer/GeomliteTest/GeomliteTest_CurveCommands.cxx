@@ -718,9 +718,9 @@ static Standard_Integer cinsertknot (Draw_Interpretor& , Standard_Integer n, con
     }
 
     if (!GBs.IsNull())
-      GBs->InsertKnots(knots,mults,Precision::PConfusion());
+      GBs->InsertKnots(knots,&mults,Precision::PConfusion());
     else
-      GBs2d->InsertKnots(knots,mults,Precision::PConfusion());
+      GBs2d->InsertKnots(knots,&mults,Precision::PConfusion());
 
   }
 
