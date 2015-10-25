@@ -1,24 +1,17 @@
 set(TOOLKIT TKMath)
 
 set(TOOLKIT_MODULES
-	Mathematics/math
-	Mathematics/ElCLib
-	Mathematics/ElSLib
-	Mathematics/BSplCLib
-	Mathematics/BSplSLib
-	Mathematics/PLib
+	Mathematics/Optimization
+	Mathematics/BetaSpline
+	Mathematics/Polynomial
 	Mathematics/Precision
-	Mathematics/GeomAbs
-	Mathematics/Poly
-	Mathematics/CSLib
+	Mathematics/Polyhedral
 	Mathematics/Convert
-	Mathematics/Bnd
-	Mathematics/BVH
-	Mathematics/gp
-	Mathematics/TColgp
+	Mathematics/BoundingVolumes
+	Mathematics/Primitives
+	Mathematics/Collections
 	Mathematics/TopLoc
-	Mathematics/Expr
-	Mathematics/ExprIntrp
+	Mathematics/Expressions
 )
 set(TOOLKIT_DEPENDS
 	TKernel
