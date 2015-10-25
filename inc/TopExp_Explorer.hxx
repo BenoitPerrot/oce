@@ -6,15 +6,17 @@
 #ifndef _TopExp_Explorer_HeaderFile
 #define _TopExp_Explorer_HeaderFile
 
+#include <vector>
+
 #include <Standard.hxx>
 #include <Standard_DefineAlloc.hxx>
 #include <Standard_Macro.hxx>
 
-#include <TopExp_Stack.hxx>
 #include <Standard_Integer.hxx>
 #include <TopoDS_Shape.hxx>
 #include <Standard_Boolean.hxx>
 #include <TopAbs_ShapeEnum.hxx>
+#include <TopoDS_Iterator.hxx>
 class Standard_NoMoreObject;
 class Standard_NoSuchObject;
 class TopoDS_Shape;
@@ -151,9 +153,8 @@ private:
 
 
 
-  TopExp_Stack myStack;
-  Standard_Integer myTop;
-  Standard_Integer mySizeOfStack;
+  std::vector<TopoDS_Iterator> myStack;
+
   TopoDS_Shape myShape;
   Standard_Boolean hasMore;
   TopAbs_ShapeEnum toFind;

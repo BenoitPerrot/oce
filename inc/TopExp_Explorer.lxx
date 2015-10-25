@@ -34,7 +34,7 @@ inline Standard_Boolean  TopExp_Explorer::More()const
 
 inline Standard_Integer  TopExp_Explorer::Depth()const 
 {
-  return myTop;
+  return myStack.size() - 1;
 }
 
 
@@ -46,9 +46,5 @@ inline Standard_Integer  TopExp_Explorer::Depth()const
 inline void  TopExp_Explorer::Clear()
 {
   hasMore = Standard_False;
-  if(myTop >0) {
-    for(int i=1;i<= myTop; i++)
-      myStack[i].~TopoDS_Iterator();
-  }
-  myTop = 0;
+  myStack.clear();
 }
