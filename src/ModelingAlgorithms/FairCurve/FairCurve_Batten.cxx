@@ -93,17 +93,14 @@ FairCurve_Batten::FairCurve_Batten(const gp_Pnt2d& P1,
 //  Increase the degree
   
   Handle(TColgp_HArray1OfPnt2d) Npoles = new  TColgp_HArray1OfPnt2d(1, Degree+1);
-  Handle(TColStd_HArray1OfReal) Nweight = new TColStd_HArray1OfReal(1, 2);
   Handle(TColStd_HArray1OfReal) Nknots = new TColStd_HArray1OfReal(1, 2);
   Handle(TColStd_HArray1OfInteger) Nmults = new TColStd_HArray1OfInteger(1, 2);
     
   BSplCLib::IncreaseDegree (1, Degree, Standard_False,
                             Ipoles->Array1(),
-			    nullptr,
 			    Iknots->Array1(), 
 			    Imults->Array1(), 
 			    Npoles->ChangeArray1(),
-			    &Nweight->ChangeArray1(),
 			    Nknots->ChangeArray1(),
 			    Nmults->ChangeArray1() );
 

@@ -156,13 +156,11 @@ void BuildPolynomialCosAndSin
 		     the_knots,
 		     the_mults,
 		     TPoles,
-		     nullptr,
 		     trim_min,
 		     trim_max,
 		     the_new_knots,
 		     the_new_mults,
-		     NewTPoles,
-		     nullptr);
+		     NewTPoles);
 
   // readjustment is obviously redundant
   Standard_Real SinD = Sin(Delta), CosD = Cos(Delta);

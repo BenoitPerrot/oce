@@ -334,8 +334,8 @@ static void  PerformApprox (const Handle(Adaptor3d_HCurve)& C,
     //Augmentation eventuelle du degre
     Standard_Integer Inc = MaxDeg - MC.Degree();
     if ( Inc > 0) {
-      BSplCLib::IncreaseDegree(Inc, Poles, nullptr,
-			       TempPoles, nullptr);
+      BSplCLib::IncreaseDegree(Inc, Poles,
+			       TempPoles);
       //mise a jour des poles de la PCurve
       for (Standard_Integer j = 1 ; j <= MaxDeg + 1; j++) {
 	Poles.SetValue( Compt, TempPoles( j));

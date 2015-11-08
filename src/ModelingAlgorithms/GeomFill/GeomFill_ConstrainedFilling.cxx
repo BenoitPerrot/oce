@@ -703,37 +703,37 @@ void GeomFill_ConstrainedFilling::MatchKnots()
       ncpol[1] = new TColgp_HArray1OfPnt(1,nbnp);
       ncpol[3] = new TColgp_HArray1OfPnt(1,nbnp);
       BSplCLib::InsertKnots(degree[1],0,
-			    curvpol[1]->Array1(),nullptr,
+			    curvpol[1]->Array1(),
 			    knots[1]->Array1(),mults[1]->Array1(),
 			    addk,&addm,
-			    ncpol[1]->ChangeArray1(),nullptr,
+			    ncpol[1]->ChangeArray1(),
 			    nk[1]->ChangeArray1(),nm[1]->ChangeArray1(),
 			    tolk,0);
 
       BSplCLib::InsertKnots(degree[1],0,
-			    curvpol[3]->Array1(),nullptr,
+			    curvpol[3]->Array1(),
 			    knots[1]->Array1(),mults[1]->Array1(),
 			    addk,&addm,
-			    ncpol[3]->ChangeArray1(),nullptr,
+			    ncpol[3]->ChangeArray1(),
 			    nk[1]->ChangeArray1(),nm[1]->ChangeArray1(),
 			    tolk,0);
       if(!tgtepol[1].IsNull()){
 	ntpol[1] = new TColgp_HArray1OfPnt(1,nbnp);
 	BSplCLib::InsertKnots(degree[1],0,
-			      tgtepol[1]->Array1(),nullptr,
+			      tgtepol[1]->Array1(),
 			      knots[1]->Array1(),mults[1]->Array1(),
 			      addk,&addm,
-			      ntpol[1]->ChangeArray1(),nullptr,
+			      ntpol[1]->ChangeArray1(),
 			      nk[1]->ChangeArray1(),nm[1]->ChangeArray1(),
 			      tolk,0);
       }
       if(!tgtepol[3].IsNull()){
 	ntpol[3] = new TColgp_HArray1OfPnt(1,nbnp);
 	BSplCLib::InsertKnots(degree[1],0,
-			      tgtepol[3]->Array1(),nullptr,
+			      tgtepol[3]->Array1(),
 			      knots[1]->Array1(),mults[1]->Array1(),
 			      addk,&addm,
-			      ntpol[3]->ChangeArray1(),nullptr,
+			      ntpol[3]->ChangeArray1(),
 			      nk[1]->ChangeArray1(),nm[1]->ChangeArray1(),
 			      tolk,0);
       }
@@ -770,37 +770,37 @@ void GeomFill_ConstrainedFilling::MatchKnots()
       ncpol[0] = new TColgp_HArray1OfPnt(1,nbnp);
       ncpol[2] = new TColgp_HArray1OfPnt(1,nbnp);
       BSplCLib::InsertKnots(degree[0],0,
-			    curvpol[0]->Array1(),nullptr,
+			    curvpol[0]->Array1(),
 			    knots[0]->Array1(),mults[0]->Array1(),
 			    addk,&addm,
-			    ncpol[0]->ChangeArray1(),nullptr,
+			    ncpol[0]->ChangeArray1(),
 			    nk[0]->ChangeArray1(),nm[0]->ChangeArray1(),
 			    tolk,0);
 
       BSplCLib::InsertKnots(degree[0],0,
-			    curvpol[2]->Array1(),nullptr,
+			    curvpol[2]->Array1(),
 			    knots[0]->Array1(),mults[0]->Array1(),
 			    addk,&addm,
-			    ncpol[2]->ChangeArray1(),nullptr,
+			    ncpol[2]->ChangeArray1(),
 			    nk[0]->ChangeArray1(),nm[0]->ChangeArray1(),
 			    tolk,0);
       if(!tgtepol[0].IsNull()){
 	ntpol[0] = new TColgp_HArray1OfPnt(1,nbnp);
 	BSplCLib::InsertKnots(degree[0],0,
-			      tgtepol[0]->Array1(),nullptr,
+			      tgtepol[0]->Array1(),
 			      knots[0]->Array1(),mults[0]->Array1(),
 			      addk,&addm,
-			      ntpol[0]->ChangeArray1(),nullptr,
+			      ntpol[0]->ChangeArray1(),
 			      nk[0]->ChangeArray1(),nm[0]->ChangeArray1(),
 			      tolk,0);
       }
       if(!tgtepol[2].IsNull()){
 	ntpol[2] = new TColgp_HArray1OfPnt(1,nbnp);
 	BSplCLib::InsertKnots(degree[0],0,
-			      tgtepol[2]->Array1(),nullptr,
+			      tgtepol[2]->Array1(),
 			      knots[0]->Array1(),mults[0]->Array1(),
 			      addk,&addm,
-			      ntpol[2]->ChangeArray1(),nullptr,
+			      ntpol[2]->ChangeArray1(),
 			      nk[0]->ChangeArray1(),nm[0]->ChangeArray1(),
 			      tolk,0);
       }

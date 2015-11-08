@@ -174,18 +174,16 @@ void Geom2d_BezierCurve::Increase (const Standard_Integer Deg)
   if (IsRational()) {
     nweights = new TColStd_HArray1OfReal(1,Deg+1);
     BSplCLib::IncreaseDegree(Degree(), Deg, 0,
-			     poles->Array1(),&weights->Array1(),// FIXME: inelegant
+			     poles->Array1(),weights->Array1(),
 			     bidknots, bidmults,
-			     npoles->ChangeArray1(),&nweights->ChangeArray1(),
+			     npoles->ChangeArray1(),nweights->ChangeArray1(),
 			     bidknots, bidmults);
   }
   else {
     BSplCLib::IncreaseDegree(Degree(), Deg, 0,
 			     poles->Array1(),
-			     nullptr,
 			     bidknots, bidmults,
 			     npoles->ChangeArray1(),
-			     nullptr,
 			     bidknots, bidmults);
   }
   

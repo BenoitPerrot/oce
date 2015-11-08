@@ -294,18 +294,17 @@ void Geom_BSplineCurve::IncreaseDegree  (const Standard_Integer Degree)
     
     BSplCLib::IncreaseDegree
       (deg,Degree, periodic,
-       poles->Array1(),&weights->Array1(), // FIXME: inelegant
+       poles->Array1(),weights->Array1(),
        knots->Array1(),mults->Array1(),
-       npoles->ChangeArray1(),&nweights->ChangeArray1(),
+       npoles->ChangeArray1(),nweights->ChangeArray1(),
        nknots->ChangeArray1(),nmults->ChangeArray1());
   }
   else {
     BSplCLib::IncreaseDegree
       (deg,Degree, periodic,
-       poles->Array1(),nullptr,
+       poles->Array1(),
        knots->Array1(),mults->Array1(),
        npoles->ChangeArray1(),
-       nullptr,
        nknots->ChangeArray1(),nmults->ChangeArray1());
   }
 
@@ -416,24 +415,22 @@ void  Geom_BSplineCurve::InsertKnots(const TColStd_Array1OfReal& Knots,
   }
 
   if (rational) {
-    Handle(TColStd_HArray1OfReal) nweights = 
-      new TColStd_HArray1OfReal(1,nbpoles);
+    Handle(TColStd_HArray1OfReal) nweights = new TColStd_HArray1OfReal(1,nbpoles);
     BSplCLib::InsertKnots(deg,periodic,
-			  poles->Array1(), &weights->Array1(), // FIXME: inelegant
+			  poles->Array1(), weights->Array1(),
 			  knots->Array1(), mults->Array1(),
 			  Knots, Mults,
-			  npoles->ChangeArray1(), &nweights->ChangeArray1(),
+			  npoles->ChangeArray1(), nweights->ChangeArray1(),
 			  nknots->ChangeArray1(), nmults->ChangeArray1(),
 			  Epsilon, Add);
     weights = nweights;
   }
   else {
     BSplCLib::InsertKnots(deg,periodic,
-			  poles->Array1(), nullptr,
+			  poles->Array1(),
 			  knots->Array1(), mults->Array1(),
 			  Knots, Mults,
 			  npoles->ChangeArray1(),
-			  nullptr,
 			  nknots->ChangeArray1(), nmults->ChangeArray1(),
 			  Epsilon, Add);
   }
@@ -487,7 +484,7 @@ Standard_Boolean  Geom_BSplineCurve::RemoveKnot(const Standard_Integer Index,
       new TColStd_HArray1OfReal(1,npoles->Length());
     if (!BSplCLib::RemoveKnot
 	(Index, M, deg, periodic,
-	 poles->Array1(),&weights->Array1(), // FIXME: inelegant
+	 poles->Array1(),weights->Array1(),
 	 knots->Array1(),mults->Array1(),
 	 npoles->ChangeArray1(), nweights->ChangeArray1(),
 	 nknots->ChangeArray1(),nmults->ChangeArray1(),
@@ -498,10 +495,9 @@ Standard_Boolean  Geom_BSplineCurve::RemoveKnot(const Standard_Integer Index,
   else {
     if (!BSplCLib::RemoveKnot
 	(Index, M, deg, periodic,
-	 poles->Array1(), nullptr,
+	 poles->Array1(),
 	 knots->Array1(),mults->Array1(),
 	 npoles->ChangeArray1(),
-	 *((TColStd_Array1OfReal*) NULL),
 	 nknots->ChangeArray1(),nmults->ChangeArray1(),
 	 Tolerance))
       return Standard_False;
@@ -968,7 +964,7 @@ void Geom_BSplineCurve::SetNotPeriodic ()
       
       BSplCLib::Unperiodize
 	(deg,mults->Array1(),knots->Array1(),poles->Array1(),
-	 &weights->Array1(),nmults->ChangeArray1(), // FIXME: inelegant
+	 weights->Array1(),nmults->ChangeArray1(),
 	 nknots->ChangeArray1(),npoles->ChangeArray1(),
 	 nweights->ChangeArray1());
       
@@ -977,9 +973,8 @@ void Geom_BSplineCurve::SetNotPeriodic ()
       
       BSplCLib::Unperiodize
 	(deg,mults->Array1(),knots->Array1(),poles->Array1(),
-	 nullptr,nmults->ChangeArray1(),
-	 nknots->ChangeArray1(),npoles->ChangeArray1(),
-	 *((TColStd_Array1OfReal*) NULL));
+	 nmults->ChangeArray1(),
+	 nknots->ChangeArray1(),npoles->ChangeArray1());
       
     }
     poles   = npoles;

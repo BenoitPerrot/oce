@@ -416,7 +416,8 @@ public:
   
   Standard_EXPORT static   void InsertKnots (const Standard_Integer Degree, const Standard_Boolean Periodic, const Standard_Integer Dimension, const TColStd_Array1OfReal& Poles, const TColStd_Array1OfReal& Knots, const TColStd_Array1OfInteger& Mults, const TColStd_Array1OfReal& AddKnots, const TColStd_Array1OfInteger* AddMults, TColStd_Array1OfReal& NewPoles, TColStd_Array1OfReal& NewKnots, TColStd_Array1OfInteger& NewMults, const Standard_Real Epsilon, const Standard_Boolean Add = Standard_True) ;
   
-  Standard_EXPORT static   void InsertKnots (const Standard_Integer Degree, const Standard_Boolean Periodic, const TColgp_Array1OfPnt& Poles, const TColStd_Array1OfReal* Weights, const TColStd_Array1OfReal& Knots, const TColStd_Array1OfInteger& Mults, const TColStd_Array1OfReal& AddKnots, const TColStd_Array1OfInteger* AddMults, TColgp_Array1OfPnt& NewPoles, TColStd_Array1OfReal* NewWeights, TColStd_Array1OfReal& NewKnots, TColStd_Array1OfInteger& NewMults, const Standard_Real Epsilon, const Standard_Boolean Add = Standard_True) ;
+  Standard_EXPORT static   void InsertKnots (const Standard_Integer Degree, const Standard_Boolean Periodic, const TColgp_Array1OfPnt& Poles, const TColStd_Array1OfReal& Knots, const TColStd_Array1OfInteger& Mults, const TColStd_Array1OfReal& AddKnots, const TColStd_Array1OfInteger* AddMults, TColgp_Array1OfPnt& NewPoles, TColStd_Array1OfReal& NewKnots, TColStd_Array1OfInteger& NewMults, const Standard_Real Epsilon, const Standard_Boolean Add = Standard_True) ;
+  Standard_EXPORT static   void InsertKnots (const Standard_Integer Degree, const Standard_Boolean Periodic, const TColgp_Array1OfPnt& Poles, const TColStd_Array1OfReal& Weights, const TColStd_Array1OfReal& Knots, const TColStd_Array1OfInteger& Mults, const TColStd_Array1OfReal& AddKnots, const TColStd_Array1OfInteger* AddMults, TColgp_Array1OfPnt& NewPoles, TColStd_Array1OfReal& NewWeights, TColStd_Array1OfReal& NewKnots, TColStd_Array1OfInteger& NewMults, const Standard_Real Epsilon, const Standard_Boolean Add = Standard_True) ;
   
   //! Insert   a  sequence  of  knots <AddKnots> with
   //! multiplicities   <AddMults>. <AddKnots>   must  be a   non
@@ -444,9 +445,11 @@ public:
   //! When all  the new knots  are existing knots, i.e. only the
   //! multiplicities  will  change it is   safe to  use the same
   //! arrays as input and output.
-  Standard_EXPORT static   void InsertKnots (const Standard_Integer Degree, const Standard_Boolean Periodic, const TColgp_Array1OfPnt2d& Poles, const TColStd_Array1OfReal* Weights, const TColStd_Array1OfReal& Knots, const TColStd_Array1OfInteger& Mults, const TColStd_Array1OfReal& AddKnots, const TColStd_Array1OfInteger* AddMults, TColgp_Array1OfPnt2d& NewPoles, TColStd_Array1OfReal* NewWeights, TColStd_Array1OfReal& NewKnots, TColStd_Array1OfInteger& NewMults, const Standard_Real Epsilon, const Standard_Boolean Add = Standard_True) ;
-  
-  Standard_EXPORT static   void InsertKnot (const Standard_Integer UIndex, const Standard_Real U, const Standard_Integer UMult, const Standard_Integer Degree, const Standard_Boolean Periodic, const TColgp_Array1OfPnt& Poles, const TColStd_Array1OfReal* Weights, const TColStd_Array1OfReal& Knots, const TColStd_Array1OfInteger& Mults, TColgp_Array1OfPnt& NewPoles, TColStd_Array1OfReal* NewWeights) ;
+  Standard_EXPORT static   void InsertKnots (const Standard_Integer Degree, const Standard_Boolean Periodic, const TColgp_Array1OfPnt2d& Poles, const TColStd_Array1OfReal& Knots, const TColStd_Array1OfInteger& Mults, const TColStd_Array1OfReal& AddKnots, const TColStd_Array1OfInteger* AddMults, TColgp_Array1OfPnt2d& NewPoles, TColStd_Array1OfReal& NewKnots, TColStd_Array1OfInteger& NewMults, const Standard_Real Epsilon, const Standard_Boolean Add = Standard_True) ;
+  Standard_EXPORT static   void InsertKnots (const Standard_Integer Degree, const Standard_Boolean Periodic, const TColgp_Array1OfPnt2d& Poles, const TColStd_Array1OfReal& Weights, const TColStd_Array1OfReal& Knots, const TColStd_Array1OfInteger& Mults, const TColStd_Array1OfReal& AddKnots, const TColStd_Array1OfInteger* AddMults, TColgp_Array1OfPnt2d& NewPoles, TColStd_Array1OfReal& NewWeights, TColStd_Array1OfReal& NewKnots, TColStd_Array1OfInteger& NewMults, const Standard_Real Epsilon, const Standard_Boolean Add = Standard_True) ;
+
+  Standard_EXPORT static   void InsertKnot (const Standard_Integer UIndex, const Standard_Real U, const Standard_Integer UMult, const Standard_Integer Degree, const Standard_Boolean Periodic, const TColgp_Array1OfPnt& Poles, const TColStd_Array1OfReal& Knots, const TColStd_Array1OfInteger& Mults, TColgp_Array1OfPnt& NewPoles) ;
+  Standard_EXPORT static   void InsertKnot (const Standard_Integer UIndex, const Standard_Real U, const Standard_Integer UMult, const Standard_Integer Degree, const Standard_Boolean Periodic, const TColgp_Array1OfPnt& Poles, const TColStd_Array1OfReal& Weights, const TColStd_Array1OfReal& Knots, const TColStd_Array1OfInteger& Mults, TColgp_Array1OfPnt& NewPoles, TColStd_Array1OfReal& NewWeights) ;
   
   //! Insert a new knot U of multiplicity UMult in the
   //! knot sequence.
@@ -457,19 +460,23 @@ public:
   //!
   //! The new control points corresponding to this insertion are
   //! returned. Knots and Mults are not updated.
-  Standard_EXPORT static   void InsertKnot (const Standard_Integer UIndex, const Standard_Real U, const Standard_Integer UMult, const Standard_Integer Degree, const Standard_Boolean Periodic, const TColgp_Array1OfPnt2d& Poles, const TColStd_Array1OfReal* Weights, const TColStd_Array1OfReal& Knots, const TColStd_Array1OfInteger& Mults, TColgp_Array1OfPnt2d& NewPoles, TColStd_Array1OfReal* NewWeights) ;
+  Standard_EXPORT static   void InsertKnot (const Standard_Integer UIndex, const Standard_Real U, const Standard_Integer UMult, const Standard_Integer Degree, const Standard_Boolean Periodic, const TColgp_Array1OfPnt2d& Poles, const TColStd_Array1OfReal& Knots, const TColStd_Array1OfInteger& Mults, TColgp_Array1OfPnt2d& NewPoles) ;
+  Standard_EXPORT static   void InsertKnot (const Standard_Integer UIndex, const Standard_Real U, const Standard_Integer UMult, const Standard_Integer Degree, const Standard_Boolean Periodic, const TColgp_Array1OfPnt2d& Poles, const TColStd_Array1OfReal& Weights, const TColStd_Array1OfReal& Knots, const TColStd_Array1OfInteger& Mults, TColgp_Array1OfPnt2d& NewPoles, TColStd_Array1OfReal& NewWeights) ;
   
-  Standard_EXPORT static   void RaiseMultiplicity (const Standard_Integer KnotIndex, const Standard_Integer Mult, const Standard_Integer Degree, const Standard_Boolean Periodic, const TColgp_Array1OfPnt& Poles, const TColStd_Array1OfReal* Weights, const TColStd_Array1OfReal& Knots, const TColStd_Array1OfInteger& Mults, TColgp_Array1OfPnt& NewPoles, TColStd_Array1OfReal* NewWeights) ;
+  Standard_EXPORT static   void RaiseMultiplicity (const Standard_Integer KnotIndex, const Standard_Integer Mult, const Standard_Integer Degree, const Standard_Boolean Periodic, const TColgp_Array1OfPnt& Poles, const TColStd_Array1OfReal& Knots, const TColStd_Array1OfInteger& Mults, TColgp_Array1OfPnt& NewPoles) ;
+  Standard_EXPORT static   void RaiseMultiplicity (const Standard_Integer KnotIndex, const Standard_Integer Mult, const Standard_Integer Degree, const Standard_Boolean Periodic, const TColgp_Array1OfPnt& Poles, const TColStd_Array1OfReal& Weights, const TColStd_Array1OfReal& Knots, const TColStd_Array1OfInteger& Mults, TColgp_Array1OfPnt& NewPoles, TColStd_Array1OfReal& NewWeights) ;
   
   //! Raise the multiplicity of knot to <UMult>.
   //!
   //! The new control points  are  returned. Knots and Mults are
   //! not updated.
-  Standard_EXPORT static   void RaiseMultiplicity (const Standard_Integer KnotIndex, const Standard_Integer Mult, const Standard_Integer Degree, const Standard_Boolean Periodic, const TColgp_Array1OfPnt2d& Poles, const TColStd_Array1OfReal* Weights, const TColStd_Array1OfReal& Knots, const TColStd_Array1OfInteger& Mults, TColgp_Array1OfPnt2d& NewPoles, TColStd_Array1OfReal* NewWeights) ;
+  Standard_EXPORT static   void RaiseMultiplicity (const Standard_Integer KnotIndex, const Standard_Integer Mult, const Standard_Integer Degree, const Standard_Boolean Periodic, const TColgp_Array1OfPnt2d& Poles, const TColStd_Array1OfReal& Knots, const TColStd_Array1OfInteger& Mults, TColgp_Array1OfPnt2d& NewPoles) ;
+  Standard_EXPORT static   void RaiseMultiplicity (const Standard_Integer KnotIndex, const Standard_Integer Mult, const Standard_Integer Degree, const Standard_Boolean Periodic, const TColgp_Array1OfPnt2d& Poles, const TColStd_Array1OfReal& Weights, const TColStd_Array1OfReal& Knots, const TColStd_Array1OfInteger& Mults, TColgp_Array1OfPnt2d& NewPoles, TColStd_Array1OfReal& NewWeights) ;
   
   Standard_EXPORT static   Standard_Boolean RemoveKnot (const Standard_Integer Index, const Standard_Integer Mult, const Standard_Integer Degree, const Standard_Boolean Periodic, const Standard_Integer Dimension, const TColStd_Array1OfReal& Poles, const TColStd_Array1OfReal& Knots, const TColStd_Array1OfInteger& Mults, TColStd_Array1OfReal& NewPoles, TColStd_Array1OfReal& NewKnots, TColStd_Array1OfInteger& NewMults, const Standard_Real Tolerance) ;
   
-  Standard_EXPORT static   Standard_Boolean RemoveKnot (const Standard_Integer Index, const Standard_Integer Mult, const Standard_Integer Degree, const Standard_Boolean Periodic, const TColgp_Array1OfPnt& Poles, const TColStd_Array1OfReal* Weights, const TColStd_Array1OfReal& Knots, const TColStd_Array1OfInteger& Mults, TColgp_Array1OfPnt& NewPoles, TColStd_Array1OfReal& NewWeights, TColStd_Array1OfReal& NewKnots, TColStd_Array1OfInteger& NewMults, const Standard_Real Tolerance) ;
+  Standard_EXPORT static   Standard_Boolean RemoveKnot (const Standard_Integer Index, const Standard_Integer Mult, const Standard_Integer Degree, const Standard_Boolean Periodic, const TColgp_Array1OfPnt& Poles, const TColStd_Array1OfReal& Knots, const TColStd_Array1OfInteger& Mults, TColgp_Array1OfPnt& NewPoles, TColStd_Array1OfReal& NewKnots, TColStd_Array1OfInteger& NewMults, const Standard_Real Tolerance) ;
+  Standard_EXPORT static   Standard_Boolean RemoveKnot (const Standard_Integer Index, const Standard_Integer Mult, const Standard_Integer Degree, const Standard_Boolean Periodic, const TColgp_Array1OfPnt& Poles, const TColStd_Array1OfReal& Weights, const TColStd_Array1OfReal& Knots, const TColStd_Array1OfInteger& Mults, TColgp_Array1OfPnt& NewPoles, TColStd_Array1OfReal& NewWeights, TColStd_Array1OfReal& NewKnots, TColStd_Array1OfInteger& NewMults, const Standard_Real Tolerance) ;
   
   //! Decrement the  multiplicity  of <Knots(Index)>
   //! to <Mult>. If <Mult>   is  null the   knot  is
@@ -489,7 +496,8 @@ public:
   //!
   //! A high tolerance  can be used  to "smooth" the
   //! curve.
-  Standard_EXPORT static   Standard_Boolean RemoveKnot (const Standard_Integer Index, const Standard_Integer Mult, const Standard_Integer Degree, const Standard_Boolean Periodic, const TColgp_Array1OfPnt2d& Poles, const TColStd_Array1OfReal* Weights, const TColStd_Array1OfReal& Knots, const TColStd_Array1OfInteger& Mults, TColgp_Array1OfPnt2d& NewPoles, TColStd_Array1OfReal& NewWeights, TColStd_Array1OfReal& NewKnots, TColStd_Array1OfInteger& NewMults, const Standard_Real Tolerance) ;
+  Standard_EXPORT static   Standard_Boolean RemoveKnot (const Standard_Integer Index, const Standard_Integer Mult, const Standard_Integer Degree, const Standard_Boolean Periodic, const TColgp_Array1OfPnt2d& Poles, const TColStd_Array1OfReal& Knots, const TColStd_Array1OfInteger& Mults, TColgp_Array1OfPnt2d& NewPoles, TColStd_Array1OfReal& NewKnots, TColStd_Array1OfInteger& NewMults, const Standard_Real Tolerance) ;
+  Standard_EXPORT static   Standard_Boolean RemoveKnot (const Standard_Integer Index, const Standard_Integer Mult, const Standard_Integer Degree, const Standard_Boolean Periodic, const TColgp_Array1OfPnt2d& Poles, const TColStd_Array1OfReal& Weights, const TColStd_Array1OfReal& Knots, const TColStd_Array1OfInteger& Mults, TColgp_Array1OfPnt2d& NewPoles, TColStd_Array1OfReal& NewWeights, TColStd_Array1OfReal& NewKnots, TColStd_Array1OfInteger& NewMults, const Standard_Real Tolerance) ;
   
   //! Returns the   number   of  knots   of  a  curve   with
   //! multiplicities <Mults> after elevating the degree from
@@ -499,11 +507,14 @@ public:
   
   Standard_EXPORT static   void IncreaseDegree (const Standard_Integer Degree, const Standard_Integer NewDegree, const Standard_Boolean Periodic, const Standard_Integer Dimension, const TColStd_Array1OfReal& Poles, const TColStd_Array1OfReal& Knots, const TColStd_Array1OfInteger& Mults, TColStd_Array1OfReal& NewPoles, TColStd_Array1OfReal& NewKnots, TColStd_Array1OfInteger& NewMults) ;
   
-  Standard_EXPORT static   void IncreaseDegree (const Standard_Integer Degree, const Standard_Integer NewDegree, const Standard_Boolean Periodic, const TColgp_Array1OfPnt& Poles, const TColStd_Array1OfReal* Weights, const TColStd_Array1OfReal& Knots, const TColStd_Array1OfInteger& Mults, TColgp_Array1OfPnt& NewPoles, TColStd_Array1OfReal* NewWeights, TColStd_Array1OfReal& NewKnots, TColStd_Array1OfInteger& NewMults) ;
+  Standard_EXPORT static   void IncreaseDegree (const Standard_Integer Degree, const Standard_Integer NewDegree, const Standard_Boolean Periodic, const TColgp_Array1OfPnt& Poles, const TColStd_Array1OfReal& Knots, const TColStd_Array1OfInteger& Mults, TColgp_Array1OfPnt& NewPoles, TColStd_Array1OfReal& NewKnots, TColStd_Array1OfInteger& NewMults) ;
+  Standard_EXPORT static   void IncreaseDegree (const Standard_Integer Degree, const Standard_Integer NewDegree, const Standard_Boolean Periodic, const TColgp_Array1OfPnt& Poles, const TColStd_Array1OfReal& Weights, const TColStd_Array1OfReal& Knots, const TColStd_Array1OfInteger& Mults, TColgp_Array1OfPnt& NewPoles, TColStd_Array1OfReal& NewWeights, TColStd_Array1OfReal& NewKnots, TColStd_Array1OfInteger& NewMults) ;
+
+  Standard_EXPORT static   void IncreaseDegree (const Standard_Integer Degree, const Standard_Integer NewDegree, const Standard_Boolean Periodic, const TColgp_Array1OfPnt2d& Poles, const TColStd_Array1OfReal& Knots, const TColStd_Array1OfInteger& Mults, TColgp_Array1OfPnt2d& NewPoles, TColStd_Array1OfReal& NewKnots, TColStd_Array1OfInteger& NewMults) ;
+  Standard_EXPORT static   void IncreaseDegree (const Standard_Integer Degree, const Standard_Integer NewDegree, const Standard_Boolean Periodic, const TColgp_Array1OfPnt2d& Poles, const TColStd_Array1OfReal& Weights, const TColStd_Array1OfReal& Knots, const TColStd_Array1OfInteger& Mults, TColgp_Array1OfPnt2d& NewPoles, TColStd_Array1OfReal& NewWeights, TColStd_Array1OfReal& NewKnots, TColStd_Array1OfInteger& NewMults) ;
   
-  Standard_EXPORT static   void IncreaseDegree (const Standard_Integer Degree, const Standard_Integer NewDegree, const Standard_Boolean Periodic, const TColgp_Array1OfPnt2d& Poles, const TColStd_Array1OfReal* Weights, const TColStd_Array1OfReal& Knots, const TColStd_Array1OfInteger& Mults, TColgp_Array1OfPnt2d& NewPoles, TColStd_Array1OfReal* NewWeights, TColStd_Array1OfReal& NewKnots, TColStd_Array1OfInteger& NewMults) ;
-  
-  Standard_EXPORT static   void IncreaseDegree (const Standard_Integer NewDegree, const TColgp_Array1OfPnt& Poles, const TColStd_Array1OfReal* Weights, TColgp_Array1OfPnt& NewPoles, TColStd_Array1OfReal* NewWeights) ;
+  Standard_EXPORT static   void IncreaseDegree (const Standard_Integer NewDegree, const TColgp_Array1OfPnt& Poles, TColgp_Array1OfPnt& NewPoles) ;
+  Standard_EXPORT static   void IncreaseDegree (const Standard_Integer NewDegree, const TColgp_Array1OfPnt& Poles, const TColStd_Array1OfReal& Weights, TColgp_Array1OfPnt& NewPoles, TColStd_Array1OfReal& NewWeights) ;
   
   //! Increase the degree of a bspline (or bezier) curve
   //! of   dimension  <Dimension>  form <Degree>      to
@@ -562,8 +573,9 @@ public:
   //!
   //! The method IncreaseDegreeCountKnots can be used to
   //! compute the new number of knots.
-  Standard_EXPORT static   void IncreaseDegree (const Standard_Integer NewDegree, const TColgp_Array1OfPnt2d& Poles, const TColStd_Array1OfReal* Weights, TColgp_Array1OfPnt2d& NewPoles, TColStd_Array1OfReal* NewWeights) ;
-  
+  Standard_EXPORT static   void IncreaseDegree (const Standard_Integer NewDegree, const TColgp_Array1OfPnt2d& Poles, TColgp_Array1OfPnt2d& NewPoles) ;
+  Standard_EXPORT static   void IncreaseDegree (const Standard_Integer NewDegree, const TColgp_Array1OfPnt2d& Poles, const TColStd_Array1OfReal& Weights, TColgp_Array1OfPnt2d& NewPoles, TColStd_Array1OfReal& NewWeights) ;
+
   //! Set in <NbKnots> and <NbPolesToAdd> the number of Knots and
   //! Poles   of  the NotPeriodic  Curve   identical  at the
   //! periodic     curve with    a  degree    <Degree>  ,  a
@@ -572,9 +584,11 @@ public:
   
   Standard_EXPORT static   void Unperiodize (const Standard_Integer Degree, const Standard_Integer Dimension, const TColStd_Array1OfInteger& Mults, const TColStd_Array1OfReal& Knots, const TColStd_Array1OfReal& Poles, TColStd_Array1OfInteger& NewMults, TColStd_Array1OfReal& NewKnots, TColStd_Array1OfReal& NewPoles) ;
   
-  Standard_EXPORT static   void Unperiodize (const Standard_Integer Degree, const TColStd_Array1OfInteger& Mults, const TColStd_Array1OfReal& Knots, const TColgp_Array1OfPnt& Poles, const TColStd_Array1OfReal* Weights, TColStd_Array1OfInteger& NewMults, TColStd_Array1OfReal& NewKnots, TColgp_Array1OfPnt& NewPoles, TColStd_Array1OfReal& NewWeights) ;
+  Standard_EXPORT static   void Unperiodize (const Standard_Integer Degree, const TColStd_Array1OfInteger& Mults, const TColStd_Array1OfReal& Knots, const TColgp_Array1OfPnt& Poles, TColStd_Array1OfInteger& NewMults, TColStd_Array1OfReal& NewKnots, TColgp_Array1OfPnt& NewPoles) ;
+  Standard_EXPORT static   void Unperiodize (const Standard_Integer Degree, const TColStd_Array1OfInteger& Mults, const TColStd_Array1OfReal& Knots, const TColgp_Array1OfPnt& Poles, const TColStd_Array1OfReal& Weights, TColStd_Array1OfInteger& NewMults, TColStd_Array1OfReal& NewKnots, TColgp_Array1OfPnt& NewPoles, TColStd_Array1OfReal& NewWeights) ;
   
-  Standard_EXPORT static   void Unperiodize (const Standard_Integer Degree, const TColStd_Array1OfInteger& Mults, const TColStd_Array1OfReal& Knots, const TColgp_Array1OfPnt2d& Poles, const TColStd_Array1OfReal* Weights, TColStd_Array1OfInteger& NewMults, TColStd_Array1OfReal& NewKnots, TColgp_Array1OfPnt2d& NewPoles, TColStd_Array1OfReal& NewWeights) ;
+  Standard_EXPORT static   void Unperiodize (const Standard_Integer Degree, const TColStd_Array1OfInteger& Mults, const TColStd_Array1OfReal& Knots, const TColgp_Array1OfPnt2d& Poles, TColStd_Array1OfInteger& NewMults, TColStd_Array1OfReal& NewKnots, TColgp_Array1OfPnt2d& NewPoles) ;
+  Standard_EXPORT static   void Unperiodize (const Standard_Integer Degree, const TColStd_Array1OfInteger& Mults, const TColStd_Array1OfReal& Knots, const TColgp_Array1OfPnt2d& Poles, const TColStd_Array1OfReal& Weights, TColStd_Array1OfInteger& NewMults, TColStd_Array1OfReal& NewKnots, TColgp_Array1OfPnt2d& NewPoles, TColStd_Array1OfReal& NewWeights) ;
   
   //! Set in <NbKnots> and <NbPoles> the number of Knots and
   //! Poles of the  curve resulting  of  the trimming of the
@@ -583,9 +597,11 @@ public:
   
   Standard_EXPORT static   void Trimming (const Standard_Integer Degree, const Standard_Boolean Periodic, const Standard_Integer Dimension, const TColStd_Array1OfReal& Knots, const TColStd_Array1OfInteger& Mults, const TColStd_Array1OfReal& Poles, const Standard_Real U1, const Standard_Real U2, TColStd_Array1OfReal& NewKnots, TColStd_Array1OfInteger& NewMults, TColStd_Array1OfReal& NewPoles) ;
   
-  Standard_EXPORT static   void Trimming (const Standard_Integer Degree, const Standard_Boolean Periodic, const TColStd_Array1OfReal& Knots, const TColStd_Array1OfInteger& Mults, const TColgp_Array1OfPnt& Poles, const TColStd_Array1OfReal* Weights, const Standard_Real U1, const Standard_Real U2, TColStd_Array1OfReal& NewKnots, TColStd_Array1OfInteger& NewMults, TColgp_Array1OfPnt& NewPoles, TColStd_Array1OfReal* NewWeights) ;
+  Standard_EXPORT static   void Trimming (const Standard_Integer Degree, const Standard_Boolean Periodic, const TColStd_Array1OfReal& Knots, const TColStd_Array1OfInteger& Mults, const TColgp_Array1OfPnt& Poles, const Standard_Real U1, const Standard_Real U2, TColStd_Array1OfReal& NewKnots, TColStd_Array1OfInteger& NewMults, TColgp_Array1OfPnt& NewPoles) ;
+  Standard_EXPORT static   void Trimming (const Standard_Integer Degree, const Standard_Boolean Periodic, const TColStd_Array1OfReal& Knots, const TColStd_Array1OfInteger& Mults, const TColgp_Array1OfPnt& Poles, const TColStd_Array1OfReal& Weights, const Standard_Real U1, const Standard_Real U2, TColStd_Array1OfReal& NewKnots, TColStd_Array1OfInteger& NewMults, TColgp_Array1OfPnt& NewPoles, TColStd_Array1OfReal& NewWeights) ;
   
-  Standard_EXPORT static   void Trimming (const Standard_Integer Degree, const Standard_Boolean Periodic, const TColStd_Array1OfReal& Knots, const TColStd_Array1OfInteger& Mults, const TColgp_Array1OfPnt2d& Poles, const TColStd_Array1OfReal* Weights, const Standard_Real U1, const Standard_Real U2, TColStd_Array1OfReal& NewKnots, TColStd_Array1OfInteger& NewMults, TColgp_Array1OfPnt2d& NewPoles, TColStd_Array1OfReal* NewWeights) ;
+  Standard_EXPORT static   void Trimming (const Standard_Integer Degree, const Standard_Boolean Periodic, const TColStd_Array1OfReal& Knots, const TColStd_Array1OfInteger& Mults, const TColgp_Array1OfPnt2d& Poles, const Standard_Real U1, const Standard_Real U2, TColStd_Array1OfReal& NewKnots, TColStd_Array1OfInteger& NewMults, TColgp_Array1OfPnt2d& NewPoles) ;
+  Standard_EXPORT static   void Trimming (const Standard_Integer Degree, const Standard_Boolean Periodic, const TColStd_Array1OfReal& Knots, const TColStd_Array1OfInteger& Mults, const TColgp_Array1OfPnt2d& Poles, const TColStd_Array1OfReal& Weights, const Standard_Real U1, const Standard_Real U2, TColStd_Array1OfReal& NewKnots, TColStd_Array1OfInteger& NewMults, TColgp_Array1OfPnt2d& NewPoles, TColStd_Array1OfReal& NewWeights) ;
   
   Standard_EXPORT static   void D0 (const Standard_Real U, const Standard_Integer Index, const Standard_Integer Degree, const Standard_Boolean Periodic, const TColStd_Array1OfReal& Poles, const TColStd_Array1OfReal* Weights, const TColStd_Array1OfReal& Knots, const TColStd_Array1OfInteger* Mults, Standard_Real& P) ;
   

@@ -54,9 +54,20 @@ class BSplCLib_BezierArrays
 
 void BSplCLib::IncreaseDegree(const Standard_Integer      NewDegree, 
 			      const TColgp_Array1OfPnt&   Poles, 
-			      const TColStd_Array1OfReal* Weights, 
+			      TColgp_Array1OfPnt&         NewPoles)
+{
+  Standard_Integer deg = Poles.Length() - 1;
+  BSplCLib_BezierArrays bzarr(deg);
+  BSplCLib::IncreaseDegree(deg, NewDegree, 0,
+			   Poles, bzarr.knots, bzarr.mults,
+			   NewPoles, bzarr.knots, bzarr.mults);
+}
+
+void BSplCLib::IncreaseDegree(const Standard_Integer      NewDegree, 
+			      const TColgp_Array1OfPnt&   Poles, 
+			      const TColStd_Array1OfReal& Weights, 
 			      TColgp_Array1OfPnt&         NewPoles, 
-			      TColStd_Array1OfReal*       NewWeights)
+			      TColStd_Array1OfReal&       NewWeights)
 {
   Standard_Integer deg = Poles.Length() - 1;
   BSplCLib_BezierArrays bzarr(deg);
@@ -72,9 +83,20 @@ void BSplCLib::IncreaseDegree(const Standard_Integer      NewDegree,
 
 void BSplCLib::IncreaseDegree(const Standard_Integer      NewDegree, 
 			      const TColgp_Array1OfPnt2d& Poles, 
-			      const TColStd_Array1OfReal* Weights, 
+			      TColgp_Array1OfPnt2d&       NewPoles)
+{
+  Standard_Integer deg = Poles.Length() - 1;
+  BSplCLib_BezierArrays bzarr(deg);
+  BSplCLib::IncreaseDegree(deg, NewDegree, 0,
+			   Poles, bzarr.knots, bzarr.mults,
+			   NewPoles, bzarr.knots, bzarr.mults);
+}
+
+void BSplCLib::IncreaseDegree(const Standard_Integer      NewDegree, 
+			      const TColgp_Array1OfPnt2d& Poles, 
+			      const TColStd_Array1OfReal& Weights, 
 			      TColgp_Array1OfPnt2d&       NewPoles, 
-			      TColStd_Array1OfReal*       NewWeights)
+			      TColStd_Array1OfReal&       NewWeights)
 {
   Standard_Integer deg = Poles.Length() - 1;
   BSplCLib_BezierArrays bzarr(deg);
