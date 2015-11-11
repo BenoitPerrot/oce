@@ -49,61 +49,6 @@ struct BSplCLib_DataContainer
 // CURVES MODIFICATIONS
 //
 
-//=======================================================================
-//function : Trimming
-//purpose  : 
-//=======================================================================
-
-void BSplCLib::Trimming(const Standard_Integer         Degree, 
-			const Standard_Boolean         Periodic,
-			const TColStd_Array1OfReal&    Knots, 
-			const TColStd_Array1OfInteger& Mults,
-			const Array1OfPoints&          Poles,
-			const Standard_Real            U1,
-			const Standard_Real            U2, 
-			TColStd_Array1OfReal&    NewKnots,
-			TColStd_Array1OfInteger& NewMults,
-			Array1OfPoints&          NewPoles)
-{
-  Standard_Integer dim = Dimension_gen;
-  
-  TColStd_Array1OfReal poles(1,dim*Poles.Length());
-  TColStd_Array1OfReal newpoles(1,dim*NewPoles.Length());
-  
-  PLib::SetPoles(Poles,poles);
-  
-  Trimming(Degree, Periodic, dim, Knots, Mults, poles, U1, U2,
-	   NewKnots, NewMults, newpoles);
-  
-  PLib::GetPoles(newpoles,NewPoles);
-}
-
-void BSplCLib::Trimming(const Standard_Integer         Degree, 
-			const Standard_Boolean         Periodic,
-			const TColStd_Array1OfReal&    Knots, 
-			const TColStd_Array1OfInteger& Mults,
-			const Array1OfPoints&          Poles,
-			const TColStd_Array1OfReal&    Weights, 
-			const Standard_Real            U1,
-			const Standard_Real            U2, 
-			TColStd_Array1OfReal&    NewKnots,
-			TColStd_Array1OfInteger& NewMults,
-			Array1OfPoints&          NewPoles,
-			TColStd_Array1OfReal&    NewWeights)
-{
-  Standard_Integer dim = Dimension_gen + 1;
-  
-  TColStd_Array1OfReal poles(1,dim*Poles.Length());
-  TColStd_Array1OfReal newpoles(1,dim*NewPoles.Length());
-  
-  PLib::SetPoles(Poles,Weights,poles);
-  
-  Trimming(Degree, Periodic, dim, Knots, Mults, poles, U1, U2,
-	   NewKnots, NewMults, newpoles);
-
-  PLib::GetPoles(newpoles,NewPoles,NewWeights);
-}
-
 //--------------------------------------------------------------------------
 //ELEMENTARY COMPUTATIONS
 //--------------------------------------------------------------------------
