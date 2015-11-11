@@ -820,7 +820,7 @@ public:
   //! of the matrix that was inverted to compute the multiplied
   //! BSpline : the method used is interpolation at Schoenenberg
   //! points of F(a(t))
-  Standard_EXPORT static   void FunctionReparameterise (const BSplCLib_EvaluatorFunction& Function, const Standard_Integer BSplineDegree, const TColStd_Array1OfReal& BSplineFlatKnots, const Standard_Integer PolesDimension, Standard_Real& Poles, const TColStd_Array1OfReal& FlatKnots, const Standard_Integer NewDegree, Standard_Real& NewPoles, Standard_Integer& Status) ;
+  Standard_EXPORT static   void FunctionReparameterize (const BSplCLib_EvaluatorFunction& Function, const Standard_Integer BSplineDegree, const TColStd_Array1OfReal& BSplineFlatKnots, const Standard_Integer PolesDimension, Standard_Real& Poles, const TColStd_Array1OfReal& FlatKnots, const Standard_Integer NewDegree, Standard_Real& NewPoles, Standard_Integer& Status) ;
   
   //! This function will compose  a given Vectorial BSpline F(t)
   //! defined  by its  BSplineDegree and BSplineFlatKnotsl,
@@ -847,7 +847,7 @@ public:
   //! of the matrix that was inverted to compute the multiplied
   //! BSpline : the method used is interpolation at Schoenenberg
   //! points of F(a(t))
-  Standard_EXPORT static   void FunctionReparameterise (const BSplCLib_EvaluatorFunction& Function, const Standard_Integer BSplineDegree, const TColStd_Array1OfReal& BSplineFlatKnots, const TColStd_Array1OfReal& Poles, const TColStd_Array1OfReal& FlatKnots, const Standard_Integer NewDegree, TColStd_Array1OfReal& NewPoles, Standard_Integer& Status) ;
+  Standard_EXPORT static   void FunctionReparameterize (const BSplCLib_EvaluatorFunction& Function, const Standard_Integer BSplineDegree, const TColStd_Array1OfReal& BSplineFlatKnots, const TColStd_Array1OfReal& Poles, const TColStd_Array1OfReal& FlatKnots, const Standard_Integer NewDegree, TColStd_Array1OfReal& NewPoles, Standard_Integer& Status) ;
   
   //! this will compose  a given Vectorial BSpline F(t)
   //! defined  by its  BSplineDegree and BSplineFlatKnotsl,
@@ -869,7 +869,7 @@ public:
   //! of the matrix that was inverted to compute the multiplied
   //! BSpline : the method used is interpolation at Schoenenberg
   //! points of F(a(t))
-  Standard_EXPORT static   void FunctionReparameterise (const BSplCLib_EvaluatorFunction& Function, const Standard_Integer BSplineDegree, const TColStd_Array1OfReal& BSplineFlatKnots, const TColgp_Array1OfPnt& Poles, const TColStd_Array1OfReal& FlatKnots, const Standard_Integer NewDegree, TColgp_Array1OfPnt& NewPoles, Standard_Integer& Status) ;
+  Standard_EXPORT static   void FunctionReparameterize (const BSplCLib_EvaluatorFunction& Function, const Standard_Integer BSplineDegree, const TColStd_Array1OfReal& BSplineFlatKnots, const TColgp_Array1OfPnt& Poles, const TColStd_Array1OfReal& FlatKnots, const Standard_Integer NewDegree, TColgp_Array1OfPnt& NewPoles, Standard_Integer& Status) ;
   
   //! this will compose  a given Vectorial BSpline F(t)
   //! defined  by its  BSplineDegree and BSplineFlatKnotsl,
@@ -891,7 +891,7 @@ public:
   //! of the matrix that was inverted to compute the multiplied
   //! BSpline : the method used is interpolation at Schoenenberg
   //! points of F(a(t))
-  Standard_EXPORT static   void FunctionReparameterise (const BSplCLib_EvaluatorFunction& Function, const Standard_Integer BSplineDegree, const TColStd_Array1OfReal& BSplineFlatKnots, const TColgp_Array1OfPnt2d& Poles, const TColStd_Array1OfReal& FlatKnots, const Standard_Integer NewDegree, TColgp_Array1OfPnt2d& NewPoles, Standard_Integer& Status) ;
+  Standard_EXPORT static   void FunctionReparameterize (const BSplCLib_EvaluatorFunction& Function, const Standard_Integer BSplineDegree, const TColStd_Array1OfReal& BSplineFlatKnots, const TColgp_Array1OfPnt2d& Poles, const TColStd_Array1OfReal& FlatKnots, const Standard_Integer NewDegree, TColgp_Array1OfPnt2d& NewPoles, Standard_Integer& Status) ;
   
   //! this will  multiply a given Vectorial BSpline F(t)
   //! defined  by its  BSplineDegree and BSplineFlatKnotsl,

@@ -931,7 +931,7 @@ private:
 //POP pour WNT
        GeomConvert_reparameterise_evaluator ev (aPolynomialCoefficient);
 //       BSplCLib::FunctionReparameterise(reparameterise_evaluator,
-       BSplCLib::FunctionReparameterise(ev,
+       BSplCLib::FunctionReparameterize(ev,
 					Curve1->Degree(),
 					Curve1FlatKnots,
 					Curve1Poles,
@@ -942,7 +942,7 @@ private:
 					);
        TColStd_Array1OfReal NewWeights(1,FlatKnots.Length()-(2*Curve1->Degree()+1));
 //       BSplCLib::FunctionReparameterise(reparameterise_evaluator,
-       BSplCLib::FunctionReparameterise(ev,
+       BSplCLib::FunctionReparameterize(ev,
 					Curve1->Degree(),
 					Curve1FlatKnots,
 					Curve1Weights,
@@ -1166,7 +1166,7 @@ void  GeomConvert::ConcatC1(TColGeom_Array1OfBSplineCurve&           ArrayOfCurv
 //POP pour WNT
 	 GeomConvert_reparameterise_evaluator ev (aPolynomialCoefficient);
 
-	 BSplCLib::FunctionReparameterise(ev,
+	 BSplCLib::FunctionReparameterize(ev,
 					  Curve1->Degree(),
 					  Curve1FlatKnots,
 					  Curve1Poles,
@@ -1177,7 +1177,7 @@ void  GeomConvert::ConcatC1(TColGeom_Array1OfBSplineCurve&           ArrayOfCurv
 					  );
 	 TColStd_Array1OfReal NewWeights(1,FlatKnots.Length()-(2*Curve1->Degree()+1));
 
-	 BSplCLib::FunctionReparameterise(ev,
+	 BSplCLib::FunctionReparameterize(ev,
 					  Curve1->Degree(),
 					  Curve1FlatKnots,
 					  Curve1Weights,
