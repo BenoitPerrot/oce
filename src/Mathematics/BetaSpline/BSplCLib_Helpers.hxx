@@ -20,12 +20,29 @@ struct DimensionTrait {};
 template <>
 struct DimensionTrait<TColgp_Array1OfPnt2d> {
   static const int d = 2;
+  typedef gp_Pnt2d Point;
 };
 
 template <>
 struct DimensionTrait<TColgp_Array1OfPnt> {
   static const int d = 3;
+  typedef gp_Pnt Point;
 };
+
+template <>
+struct DimensionTrait<gp_Pnt2d> {
+  static const int d = 2;
+  typedef TColgp_Array1OfPnt2d Array;
+  typedef gp_Vec2d Vector;
+};
+
+template <>
+struct DimensionTrait<gp_Pnt> {
+  static const int d = 3;
+  typedef TColgp_Array1OfPnt Array;
+  typedef gp_Vec Vector;
+};
+
 
 void BSplCLib_Copy(const Standard_Integer NbPoles,
                    Standard_Integer& OldFirst,
