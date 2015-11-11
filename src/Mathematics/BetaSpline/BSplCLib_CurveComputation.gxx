@@ -50,61 +50,6 @@ struct BSplCLib_DataContainer
 //
 
 //=======================================================================
-//function : IncreaseDegree
-//purpose  : 
-//=======================================================================
-
-void BSplCLib::IncreaseDegree 
-(const Standard_Integer          Degree,
- const Standard_Integer          NewDegree,
- const Standard_Boolean          Periodic,
- const Array1OfPoints&           Poles,
- const TColStd_Array1OfReal&     Knots,
- const TColStd_Array1OfInteger&  Mults,
- Array1OfPoints&                 NewPoles,
- TColStd_Array1OfReal&           NewKnots,
- TColStd_Array1OfInteger&        NewMults) 
-{
-  Standard_Integer dim = Dimension_gen;
-  
-  TColStd_Array1OfReal poles(1,dim*Poles.Length());
-  TColStd_Array1OfReal newpoles(1,dim*NewPoles.Length());
-
-  PLib::SetPoles(Poles,poles);
-  
-  IncreaseDegree(Degree,NewDegree,Periodic,dim,poles,Knots,Mults,
-		 newpoles,NewKnots,NewMults);
-
-  PLib::GetPoles(newpoles,NewPoles);
-}
-
-void BSplCLib::IncreaseDegree 
-(const Standard_Integer          Degree,
- const Standard_Integer          NewDegree,
- const Standard_Boolean          Periodic,
- const Array1OfPoints&           Poles,
- const TColStd_Array1OfReal&     Weights,
- const TColStd_Array1OfReal&     Knots,
- const TColStd_Array1OfInteger&  Mults,
- Array1OfPoints&                 NewPoles,
- TColStd_Array1OfReal&           NewWeights,
- TColStd_Array1OfReal&           NewKnots,
- TColStd_Array1OfInteger&        NewMults) 
-{
-  Standard_Integer dim = Dimension_gen + 1;
-  
-  TColStd_Array1OfReal poles(1,dim*Poles.Length());
-  TColStd_Array1OfReal newpoles(1,dim*NewPoles.Length());
-  
-  PLib::SetPoles(Poles,Weights,poles);
-
-  IncreaseDegree(Degree,NewDegree,Periodic,dim,poles,Knots,Mults,
-		 newpoles,NewKnots,NewMults);
-
-  PLib::GetPoles(newpoles,NewPoles,NewWeights);
-}
-
-//=======================================================================
 //function : Unperiodize
 //purpose  : 
 //=======================================================================
