@@ -50,57 +50,6 @@ struct BSplCLib_DataContainer
 //
 
 //=======================================================================
-//function : Unperiodize
-//purpose  : 
-//=======================================================================
-
-void  BSplCLib::Unperiodize
-(const Standard_Integer         Degree, 
- const TColStd_Array1OfInteger& Mults,
- const TColStd_Array1OfReal&    Knots,
- const Array1OfPoints&          Poles,
- TColStd_Array1OfInteger& NewMults,
- TColStd_Array1OfReal&    NewKnots,
- Array1OfPoints&          NewPoles)
-{
-  Standard_Integer dim = Dimension_gen;
-  
-  TColStd_Array1OfReal poles(1,dim*Poles.Length());
-  TColStd_Array1OfReal newpoles(1,dim*NewPoles.Length());
-  
-  PLib::SetPoles(Poles,poles);
-  
-  Unperiodize(Degree, dim, Mults, Knots, poles,
-	      NewMults,NewKnots, newpoles);
-
-  PLib::GetPoles(newpoles,NewPoles);
-}
-
-void  BSplCLib::Unperiodize
-(const Standard_Integer         Degree, 
- const TColStd_Array1OfInteger& Mults,
- const TColStd_Array1OfReal&    Knots,
- const Array1OfPoints&          Poles,
- const TColStd_Array1OfReal&    Weights,
- TColStd_Array1OfInteger& NewMults,
- TColStd_Array1OfReal&    NewKnots,
- Array1OfPoints&          NewPoles,
- TColStd_Array1OfReal&    NewWeights)
-{
-  Standard_Integer dim = Dimension_gen + 1;
-  
-  TColStd_Array1OfReal poles(1,dim*Poles.Length());
-  TColStd_Array1OfReal newpoles(1,dim*NewPoles.Length());
-  
-  PLib::SetPoles(Poles,Weights,poles);
-  
-  Unperiodize(Degree, dim, Mults, Knots, poles,
-	      NewMults,NewKnots, newpoles);
-  
-  PLib::GetPoles(newpoles,NewPoles,NewWeights);
-}
-
-//=======================================================================
 //function : Trimming
 //purpose  : 
 //=======================================================================
