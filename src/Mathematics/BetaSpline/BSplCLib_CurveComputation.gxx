@@ -718,59 +718,6 @@ void BSplCLib::BuildCache
 }
 
 //=======================================================================
-//function : Interpolate
-//purpose  : 
-//=======================================================================
-
-void  BSplCLib::Interpolate(const Standard_Integer         Degree,
-			    const TColStd_Array1OfReal&    FlatKnots,
-			    const TColStd_Array1OfReal&    Parameters,
-			    const TColStd_Array1OfInteger& ContactOrderArray,
-			    Array1OfPoints&                Poles,
-			    Standard_Integer&              InversionProblem) 
-     
-{
-  Standard_Real *PArray ;
-  
-  PArray = (Standard_Real *) &Poles(Poles.Lower()) ;
-  
-  BSplCLib::Interpolate(Degree,
-			FlatKnots,
-			Parameters,
-			ContactOrderArray,
-			Dimension_gen,
-			PArray[0],
-			InversionProblem) ;
-}
-
-//=======================================================================
-//function : Interpolate
-//purpose  : 
-//=======================================================================
-
-void  BSplCLib::Interpolate(const Standard_Integer         Degree,
-			    const TColStd_Array1OfReal&    FlatKnots,
-			    const TColStd_Array1OfReal&    Parameters,
-			    const TColStd_Array1OfInteger& ContactOrderArray,
-			    Array1OfPoints&                Poles,
-                            TColStd_Array1OfReal&          Weights,
-			    Standard_Integer&              InversionProblem) 
-{
-  Standard_Real *PArray,
-  * WArray ;
-  PArray = (Standard_Real *) &Poles(Poles.Lower()) ;
-  WArray = (Standard_Real *) &Weights(Weights.Lower()) ;
-  BSplCLib::Interpolate(Degree,
-			FlatKnots,
-			Parameters,
-			ContactOrderArray,
-			Dimension_gen,
-			PArray[0],
-                        WArray[0],
-			InversionProblem) ;
-}
-
-//=======================================================================
 //function : MovePoint
 //purpose  : Find the new poles which allows  an old point (with a
 //           given  u as parameter) to reach a new position
