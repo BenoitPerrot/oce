@@ -341,57 +341,6 @@ void BSplCLib::DN
 }
 
 //=======================================================================
-//function : Solves a LU factored Matrix 
-//purpose  : 
-//=======================================================================
-
-Standard_Integer 
-BSplCLib::SolveBandedSystem(const math_Matrix&  Matrix,
-			    const Standard_Integer UpperBandWidth,
-			    const Standard_Integer LowerBandWidth,
-			    Array1OfPoints&   PolesArray) 
-{
-  Standard_Real *PArray ;
-  PArray = (Standard_Real *) &PolesArray(PolesArray.Lower()) ;
-  
-  return BSplCLib::SolveBandedSystem(Matrix,
-				     UpperBandWidth,
-				     LowerBandWidth,
-				     Dimension_gen,
-				     PArray[0]) ;
-}
-
-//=======================================================================
-//function : Solves a LU factored Matrix 
-//purpose  : if HomogeneousFlag is 1 then the input and the output
-//           will be homogeneous that is no division or multiplication
-//           by weigths will happen. On the contrary if HomogeneousFlag
-//           is 0 then the poles will be multiplied first by the weights
-//           and after interpolation they will be devided by the weights
-//=======================================================================
-
-Standard_Integer 
-BSplCLib::SolveBandedSystem(const math_Matrix&  Matrix,
-			    const Standard_Integer UpperBandWidth,
-			    const Standard_Integer LowerBandWidth,
-                            const Standard_Boolean HomogeneousFlag,
-			    Array1OfPoints&        PolesArray,
-                            TColStd_Array1OfReal&  WeightsArray) 
-{
-  Standard_Real *PArray,
-  * WArray ;
-  PArray = (Standard_Real *) &PolesArray(PolesArray.Lower()) ;
-  WArray = (Standard_Real *) &WeightsArray(WeightsArray.Lower()) ;
-  return BSplCLib::SolveBandedSystem(Matrix,
-				     UpperBandWidth,
-				     LowerBandWidth,
-				     HomogeneousFlag,
-				     Dimension_gen,
-				     PArray[0],
-				     WArray[0]) ;
-}
-
-//=======================================================================
 //function : Evaluates a Bspline function : uses the ExtrapMode 
 //purpose  : the function is extrapolated using the Taylor expansion
 //           of degree ExtrapMode[0] to the left and the Taylor
