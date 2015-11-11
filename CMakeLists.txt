@@ -153,7 +153,7 @@ endif(NOT MSVC AND NOT OCE_OSX_USE_COCOA)
 option_with_default( OCE_MODEL "Build model components" ON )
 option_with_default( OCE_OCAF "Build application framework" ON )
 option_with_default( OCE_DATAEXCHANGE "Build data exchange" ON )
-option_with_default( OCE_DRAW "Build test harness \(DRAW\)" OFF )
+option_with_default( OCE_DRAW "Build test harness \(DRAW\)" ON )
 option_with_default( OCE_VISUALISATION "Build visualisation component" ON )
 option_with_default( OCE_WITH_OPENCL "OpenCL support for shaders and raytracing" OFF )
 option_with_default( OCE_WITH_GL2PS "Build with GL2PS" OFF )
@@ -180,7 +180,7 @@ endif (NOT WIN32)
 # header files in a temporary location so that dependent applications can be built
 option_with_default( OCE_COPY_HEADERS_BUILD "Copy header files when building OCE" OFF )
 
-option_with_default( OCE_USE_TCL_TEST_FRAMEWORK "Add occt-tests target" OFF )
+option_with_default( OCE_USE_TCL_TEST_FRAMEWORK "Add occt-tests target" ON )
 
 #
 # By default, OSX uses X11 OpenGl implementation
