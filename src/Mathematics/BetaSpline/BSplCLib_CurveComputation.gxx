@@ -896,28 +896,3 @@ void BSplCLib::MovePointAndTangent (const Standard_Real      U,
 		      new_poles_array[0],
 		      ErrorStatus) ;
 }
-
-//=======================================================================
-//function : Resolution
-//purpose  : 
-//=======================================================================
-
-void BSplCLib::Resolution(const Array1OfPoints&          Poles,  
-			  const TColStd_Array1OfReal*    Weights,
-			  const Standard_Integer         NumPoles,
-			  const TColStd_Array1OfReal&    FlatKnots, 
-			  const Standard_Integer         Degree,
-			  const Standard_Real            Tolerance3D,
-			  Standard_Real&                 UTolerance) 
-{
-  Standard_Real *PolesArray ;
-  PolesArray = (Standard_Real *) &Poles(Poles.Lower()) ;
-  BSplCLib::Resolution(PolesArray[0],
-		       Dimension_gen,
-		       NumPoles,
-		       Weights,
-		       FlatKnots,
-		       Degree,
-		       Tolerance3D,
-		       UTolerance) ;
-}
