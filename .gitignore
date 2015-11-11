@@ -1,1 +1,4 @@
 oce-win-bundle/
+*~
+*.pyc
+diffs.patch
