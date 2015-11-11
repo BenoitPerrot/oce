@@ -45,29 +45,6 @@ struct BSplCLib_DataContainer
   Standard_Real ders[Dimension_gen*4];
 };
 
-//=======================================================================
-//function : Reverse
-//purpose  : 
-//=======================================================================
-
-void  BSplCLib::Reverse(Array1OfPoints& Poles,
-			const Standard_Integer L)
-{
-  Standard_Integer i, l = L;
-  l = Poles.Lower() + (l-Poles.Lower()) % (Poles.Upper()-Poles.Lower()+1);
-  
-  Array1OfPoints temp(0,Poles.Length()-1);
-  
-  for (i = Poles.Lower(); i <= l; i++)
-    temp(l-i) = Poles(i);
-  
-  for (i = l+1; i <= Poles.Upper(); i++)
-    temp(l-Poles.Lower()+Poles.Upper()-i+1) = Poles(i);
-  
-  for (i = Poles.Lower(); i <= Poles.Upper(); i++)
-    Poles(i) = temp(i-Poles.Lower());
-}
-
 //
 // CURVES MODIFICATIONS
 //
