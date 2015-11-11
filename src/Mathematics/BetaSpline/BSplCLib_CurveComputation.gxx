@@ -50,51 +50,6 @@ struct BSplCLib_DataContainer
 //
 
 //=======================================================================
-//function : RaiseMultiplicity
-//purpose  : 
-//=======================================================================
-
-void  BSplCLib::RaiseMultiplicity(const Standard_Integer KnotIndex,
-				  const Standard_Integer Mult,
-				  const Standard_Integer Degree, 
-				  const Standard_Boolean Periodic,
-				  const Array1OfPoints& Poles,
-				  const TColStd_Array1OfReal& Knots, 
-				  const TColStd_Array1OfInteger& Mults, 
-				  Array1OfPoints& NewPoles)
-{
-  TColStd_Array1OfReal k(1,1);
-  k(1) = Knots(KnotIndex);
-  TColStd_Array1OfInteger m(1,1);
-  m(1) = Mult - Mults(KnotIndex);
-  TColStd_Array1OfReal    nk(1,Knots.Length());
-  TColStd_Array1OfInteger nm(1,Knots.Length());
-  InsertKnots(Degree,Periodic,Poles,Knots,Mults,
-	      k,&m,NewPoles,nk,nm,Epsilon(k(1)));
-}
-
-void  BSplCLib::RaiseMultiplicity(const Standard_Integer KnotIndex,
-				  const Standard_Integer Mult,
-				  const Standard_Integer Degree, 
-				  const Standard_Boolean Periodic,
-				  const Array1OfPoints& Poles,
-				  const TColStd_Array1OfReal& Weights, 
-				  const TColStd_Array1OfReal& Knots, 
-				  const TColStd_Array1OfInteger& Mults, 
-				  Array1OfPoints& NewPoles,
-				  TColStd_Array1OfReal& NewWeights)
-{
-  TColStd_Array1OfReal k(1,1);
-  k(1) = Knots(KnotIndex);
-  TColStd_Array1OfInteger m(1,1);
-  m(1) = Mult - Mults(KnotIndex);
-  TColStd_Array1OfReal    nk(1,Knots.Length());
-  TColStd_Array1OfInteger nm(1,Knots.Length());
-  InsertKnots(Degree,Periodic,Poles,Weights,Knots,Mults,
-	      k,&m,NewPoles,NewWeights,nk,nm,Epsilon(k(1)));
-}
-
-//=======================================================================
 //function : IncreaseDegree
 //purpose  : 
 //=======================================================================
