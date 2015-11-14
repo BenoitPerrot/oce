@@ -18,7 +18,7 @@
 #include <OSD_Path.hxx>
 #include <BRep_Builder.hxx>
 #include <BRepLib_MakeVertex.hxx>
-#include <BRepBuilderAPI_MakePolygon.hxx>
+#include <BRepLib_MakePolygon.hxx>
 #include <BRepLib_MakeFace.hxx>
 #include <BRepBuilderAPI_Sewing.hxx>
 #include <gp_Pnt.hxx>
@@ -73,7 +73,7 @@ void StlAPI_Reader::Read(TopoDS_Shape& aShape, const Standard_CString aFileName)
         Vertex2 = BRepLib_MakeVertex(p2);
         Vertex3 = BRepLib_MakeVertex(p3);
         
-        AktWire = BRepBuilderAPI_MakePolygon( Vertex1, Vertex2, Vertex3, Standard_True);
+        AktWire = BRepLib_MakePolygon( Vertex1, Vertex2, Vertex3, Standard_True);
         
         if( !AktWire.IsNull())
         {

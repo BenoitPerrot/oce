@@ -78,7 +78,7 @@
 #include <AIS_ListIteratorOfListOfInteractive.hxx>
 #include <ViewerTest_DoubleMapOfInteractiveAndName.hxx>
 #include <ViewerTest_DoubleMapIteratorOfDoubleMapOfInteractiveAndName.hxx>
-#include <BRepBuilderAPI_MakePolygon.hxx>
+#include <BRepLib_MakePolygon.hxx>
 #include <gp_GTrsf.hxx>
 #include <Poly_Triangulation.hxx>
 #include <IGESControl_Reader.hxx>
@@ -549,7 +549,7 @@ Standard_Integer  OCC165(Draw_Interpretor& di ,
 		yA = 0.0, yB = 0.0, yC = 200.0, yD = 200.0,
 		zA = 0.0, zB = 0.0, zC = 0.0, zD = 0.0;
 
-	BRepBuilderAPI_MakePolygon theSquare;
+	BRepLib_MakePolygon theSquare;
 	TopoDS_Vertex theA = BRepLib_MakeVertex(gp_Pnt(xA, yA, zA));
 	theSquare.Add(theA);
 	TopoDS_Vertex theB = BRepLib_MakeVertex(gp_Pnt(xB, yB, zB));
@@ -3148,7 +3148,7 @@ static Standard_Integer OCC11457 (Draw_Interpretor& di, Standard_Integer argc, c
     return 1;
   }
   Standard_Integer i, j, np = (argc-3) / 3;
-  BRepBuilderAPI_MakePolygon W;
+  BRepLib_MakePolygon W;
   j = 3;
   for (i = 1; i <= np; i ++) {
     W.Add(gp_Pnt(Draw::Atof(argv[j]),Draw::Atof(argv[j+1]),Draw::Atof(argv[j+2])));
@@ -4904,7 +4904,7 @@ static Standard_Integer OCC20627 (Draw_Interpretor& di, Standard_Integer argc, c
 
   for (Standard_Integer i=0;i<aMaxNbr;i++)
     {
-      BRepBuilderAPI_MakePolygon w(gp_Pnt(0,0,0),gp_Pnt(0,100,0),gp_Pnt(20,100,0),gp_Pnt(20,0,0));
+      BRepLib_MakePolygon w(gp_Pnt(0,0,0),gp_Pnt(0,100,0),gp_Pnt(20,100,0),gp_Pnt(20,0,0));
       w.Close();
       TopoDS_Wire wireShape( w.Wire());
       BRepLib_MakeFace faceBuilder(wireShape);

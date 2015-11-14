@@ -29,7 +29,7 @@
 #include <BRepLib_MakeEdge2d.hxx>
 #include <BRepLib_MakeFace.hxx>
 #include <BRepLib_MakeWire.hxx>
-#include <BRepBuilderAPI_MakePolygon.hxx>
+#include <BRepLib_MakePolygon.hxx>
 #include <BRepOffsetAPI_MakeOffset.hxx>
 #include <BRepLib.hxx>
 #include <BRepAlgo.hxx>
@@ -186,7 +186,7 @@ static Standard_Integer polyline(Draw_Interpretor& , Standard_Integer n, const c
   if (n < 8) return 1;
   if (((n-2) % 3) != 0) return 1;
   Standard_Integer i, j, np = (n-2) / 3;
-  BRepBuilderAPI_MakePolygon W;
+  BRepLib_MakePolygon W;
   j = 2;
   for (i = 1; i <= np; i ++) {
     W.Add(gp_Pnt(Draw::Atof(a[j]),Draw::Atof(a[j+1]),Draw::Atof(a[j+2])));
@@ -204,7 +204,7 @@ static Standard_Integer polyvertex(Draw_Interpretor& , Standard_Integer n, const
 {
   if (n < 4) return 1;
   Standard_Integer i;
-  BRepBuilderAPI_MakePolygon W;
+  BRepLib_MakePolygon W;
   for (i = 2; i < n; i ++) {
     TopoDS_Shape S = DBRep::Get(a[i]);
     if (S.IsNull()) return 1;

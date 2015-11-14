@@ -24,7 +24,7 @@
 #include <AIS_Shape.hxx>
 #include <TopoDS_Shape.hxx>
 
-#include <BRepBuilderAPI_MakePolygon.hxx>
+#include <BRepLib_MakePolygon.hxx>
 #include <TopoDS_Face.hxx>
 #include <BRepLib_MakeFace.hxx>
 #include <gp_Pnt.hxx>
@@ -65,7 +65,7 @@ static Standard_Integer OCC426 (Draw_Interpretor& di, Standard_Integer argc, con
     }
   }
 
-  BRepBuilderAPI_MakePolygon W1;
+  BRepLib_MakePolygon W1;
   W1.Add(gp_Pnt(10, 0, 0));
   W1.Add(gp_Pnt(20, 0, 0));
   W1.Add(gp_Pnt(20, 0, 10));
@@ -81,7 +81,7 @@ static Standard_Integer OCC426 (Draw_Interpretor& di, Standard_Integer argc, con
   Standard_Real angle1 = 360 * (M_PI / 180.0);
   TopoDS_Shape rs1 = BRepPrimAPI_MakeRevol(F1, A1, angle1);
 
-  BRepBuilderAPI_MakePolygon W2;
+  BRepLib_MakePolygon W2;
   Standard_Real f1 =  7.0710678118654752440;
   Standard_Real f2 = 14.1421356237309504880;
   W2.Add(gp_Pnt(f1, f1, 10));
@@ -99,7 +99,7 @@ static Standard_Integer OCC426 (Draw_Interpretor& di, Standard_Integer argc, con
   Standard_Real angle2 = 270 * (M_PI / 180.0);
   TopoDS_Shape rs2 = BRepPrimAPI_MakeRevol(F2, A2, angle2);
 
-  BRepBuilderAPI_MakePolygon W3;
+  BRepLib_MakePolygon W3;
   W3.Add(gp_Pnt(10, 0, 20));
   W3.Add(gp_Pnt(20, 0, 20));
   W3.Add(gp_Pnt(20, 0, 30));
@@ -873,7 +873,7 @@ static Standard_Integer OCC826 (Draw_Interpretor& di,Standard_Integer argc, cons
   Standard_Real y1 = 31.011970;
   Standard_Real y2 = 123.06856;
 
-  BRepBuilderAPI_MakePolygon W1;
+  BRepLib_MakePolygon W1;
   W1.Add(gp_Pnt(x1, y1, 0));
   W1.Add(gp_Pnt(x2, y1, 0));
   W1.Add(gp_Pnt(x2, y2, 0));
@@ -947,7 +947,7 @@ static Standard_Integer OCC827 (Draw_Interpretor& di,Standard_Integer argc, cons
   }
   int index = 1;
 
-  BRepBuilderAPI_MakePolygon W1;
+  BRepLib_MakePolygon W1;
   W1.Add(gp_Pnt(10, 0, 0));
   W1.Add(gp_Pnt(20, 0, 0));
   W1.Add(gp_Pnt(20, 0, 50));

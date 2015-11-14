@@ -84,7 +84,7 @@
 
 
 //epa Memory leaks test
-#include <BRepBuilderAPI_MakePolygon.hxx>
+#include <BRepLib_MakePolygon.hxx>
 #include <TopoDS_Wire.hxx>
 #include <BRepLib_MakeFace.hxx>
 #include <BRepTools.hxx>
@@ -221,7 +221,7 @@ static Standard_Integer MemLeakTest(Draw_Interpretor&, Standard_Integer /*nbarg*
 {
   for(int i=0;i<10000;i++)
   {
-    BRepBuilderAPI_MakePolygon w(gp_Pnt(0,0,0),gp_Pnt(0,100,0),gp_Pnt(20,100,0),gp_Pnt(20,0,0));
+    BRepLib_MakePolygon w(gp_Pnt(0,0,0),gp_Pnt(0,100,0),gp_Pnt(20,100,0),gp_Pnt(20,0,0));
     w.Close();     
     TopoDS_Wire wireShape( w.Wire());
     BRepLib_MakeFace faceBuilder(wireShape);          

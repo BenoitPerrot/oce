@@ -847,7 +847,7 @@ static int BUC60825(Draw_Interpretor& di, Standard_Integer argc, const char ** a
 	return 0;
 }
 
-#include <BRepBuilderAPI_MakePolygon.hxx>
+#include <BRepLib_MakePolygon.hxx>
 #include <BRepOffsetAPI_ThruSections.hxx>
 
 static int OCC10006(Draw_Interpretor& di, Standard_Integer argc, const char ** argv)
@@ -872,7 +872,7 @@ static int OCC10006(Draw_Interpretor& di, Standard_Integer argc, const char ** a
   double toppoints1[12] = { 0, 0, 10, 100, 0, 10, 100, -100, 10, 0, -100, 10};
   double bottompoints2[12] = { 0, 0, 10.00, 100, 0, 10.00, 100, -100, 10.00, 0, -100, 10.00};
   double toppoints2[12] = { 0, 0, 250, 100, 0, 250, 100, -100, 250, 0, -100, 250};
-  BRepBuilderAPI_MakePolygon bottompolygon1, toppolygon1, bottompolygon2, toppolygon2;
+  BRepLib_MakePolygon bottompolygon1, toppolygon1, bottompolygon2, toppolygon2;
   gp_Pnt tmppnt;
   for (int i=0;i<4;i++) {
     tmppnt.SetCoord(bottompoints1[3*i], bottompoints1[3*i+1], bottompoints1[3*i+2]);

@@ -33,7 +33,7 @@
 #include <BRep_Tool.hxx>
 #include <BRep_Builder.hxx>
 #include <TopTools_HSequenceOfShape.hxx>
-#include <BRepBuilderAPI_MakePolygon.hxx>
+#include <BRepLib_MakePolygon.hxx>
 #include <BRepLib_MakeEdge.hxx>
 #include <ShapeAnalysis_Edge.hxx>
 #include <ShapeAnalysis_Wire.hxx>
@@ -58,7 +58,7 @@ Standard_Boolean IsRightContour (const TColgp_SequenceOfPnt& pts, const Standard
   if (ShapeAnalysis_Curve::IsPlanar(thePts,Norm,prec)) {
 
     // Make polygonal wire from points
-    BRepBuilderAPI_MakePolygon mkPoly;
+    BRepLib_MakePolygon mkPoly;
     for (i = 1; i <= len; i++) mkPoly.Add(thePts(i));
     mkPoly.Close();
     mkPoly.Build();
@@ -119,7 +119,7 @@ ShapeConstruct_MakeTriangulation::ShapeConstruct_MakeTriangulation (const TColgp
 {
   myPrecision = (prec > 0.0)? prec : Precision::Confusion();
   // Make polygonal wire from points
-  BRepBuilderAPI_MakePolygon mkPoly;
+  BRepLib_MakePolygon mkPoly;
   for (Standard_Integer i = pnts.Lower(); i <= pnts.Upper(); i++) mkPoly.Add(pnts(i));
   mkPoly.Close();
   mkPoly.Build();
