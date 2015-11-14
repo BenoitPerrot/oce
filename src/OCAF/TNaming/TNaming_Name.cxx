@@ -64,7 +64,7 @@
 #include <TopoDS_Iterator.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
-#include <BRepBuilderAPI_MakeSolid.hxx>
+#include <BRepLib_MakeSolid.hxx>
 #include <TopTools_HArray2OfShape.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <TopTools_DataMapOfShapeListOfShape.hxx>
@@ -481,7 +481,7 @@ static TopoDS_Shape ShapeWithType(const TopoDS_Shape     theShape,
     case TopAbs_SHELL: {// make solids from shells (one per one)
       TopTools_ListOfShape aSolids;
       for(;aListIter.More();aListIter.Next()) {
-	BRepBuilderAPI_MakeSolid aMakeSolid(TopoDS::Shell(aListIter.Value()));
+	BRepLib_MakeSolid aMakeSolid(TopoDS::Shell(aListIter.Value()));
 	if (aMakeSolid.IsDone()) aSolids.Append(aMakeSolid.Solid());
       }
       if (theType == TopAbs_SOLID) {

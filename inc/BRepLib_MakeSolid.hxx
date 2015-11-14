@@ -20,7 +20,16 @@ class TopoDS_Solid;
 class TopoDS_Face;
 
 
-//! Makes a solid from compsolid  or  shells.
+//! Describes functions to build a solid from shells.
+//! A solid is made of one shell, or a series of shells, which
+//! do not intersect each other. One of these shells
+//! constitutes the outside skin of the solid. It may be closed
+//! (a finite solid) or open (an infinite solid). Other shells
+//! form hollows (cavities) in these previous ones. Each
+//! must bound a closed volume.
+//! A MakeSolid object provides a framework for:
+//! -   defining and implementing the construction of a solid, and
+//! -   consulting the result.
 class BRepLib_MakeSolid  : public BRepLib_MakeShape
 {
 public:
@@ -28,7 +37,9 @@ public:
   DEFINE_STANDARD_ALLOC
 
   
-  //! Solid covers whole space.
+  //! Initializes the construction of a solid. An empty solid is
+  //! considered to cover the whole space. The Add function
+  //! is used to define shells to bound it.
   Standard_EXPORT BRepLib_MakeSolid();
   
   //! Make a solid from a CompSolid.
@@ -41,21 +52,57 @@ public:
   Standard_EXPORT BRepLib_MakeSolid(const TopoDS_Shell& S1, const TopoDS_Shell& S2);
   
   //! Make a solid from three shells.
+  //! Constructs a solid
+  //! -   covering the whole space, or
+  //! -   from shell S, or
+  //! -   from two shells S1 and S2, or
+  //! -   from three shells S1, S2 and S3, or
+  //! Warning
+  //! No check is done to verify the conditions of coherence
+  //! of the resulting solid. In particular, S1, S2 (and S3) must
+  //! not intersect each other.
+  //! Besides, after all shells have been added using the Add
+  //! function, one of these shells should constitute the outside
+  //! skin of the solid; it may be closed (a finite solid) or open
+  //! (an infinite solid). Other shells form hollows (cavities) in
+  //! these previous ones. Each must bound a closed volume.
   Standard_EXPORT BRepLib_MakeSolid(const TopoDS_Shell& S1, const TopoDS_Shell& S2, const TopoDS_Shell& S3);
   
   //! Make a solid from a solid. Usefull for adding later.
   Standard_EXPORT BRepLib_MakeSolid(const TopoDS_Solid& So);
   
   //! Add a shell to a solid.
+  //!
+  //! Constructs a solid:
+  //! -   from the solid So, to which shells can be added, or
+  //! -   by adding the shell S to the solid So.
+  //! Warning
+  //! No check is done to verify the conditions of coherence
+  //! of the resulting solid. In particular S must not intersect the solid S0.
+  //! Besides, after all shells have been added using the Add
+  //! function, one of these shells should constitute the outside
+  //! skin of the solid. It may be closed (a finite solid) or open
+  //! (an infinite solid). Other shells form hollows (cavities) in
+  //! the previous ones. Each must bound a closed volume.
   Standard_EXPORT BRepLib_MakeSolid(const TopoDS_Solid& So, const TopoDS_Shell& S);
   
-  //! Add the shell to the current solid.
+  //! Adds the shell to the current solid.
+  //! Warning
+  //! No check is done to verify the conditions of coherence
+  //! of the resulting solid. In particular, S must not intersect
+  //! other shells of the solid under construction.
+  //! Besides, after all shells have been added, one of
+  //! these shells should constitute the outside skin of the
+  //! solid. It may be closed (a finite solid) or open (an
+  //! infinite solid). Other shells form hollows (cavities) in
+  //! these previous ones. Each must bound a closed volume.
   Standard_EXPORT   void Add (const TopoDS_Shell& S) ;
   
   //! Returns the new Solid.
   Standard_EXPORT  const  TopoDS_Solid& Solid()  const;
 Standard_EXPORT operator TopoDS_Solid() const;
   
+
   //! returns the status of the Face after
   //! the shape creation.
   Standard_EXPORT virtual   BRepLib_ShapeModification FaceStatus (const TopoDS_Face& F)  const;
