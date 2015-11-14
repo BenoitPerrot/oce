@@ -20,7 +20,7 @@
 #include <TopTools_ListOfShape.hxx>
 #include <TopoDS_Shape.hxx>
 #include <BRepOffsetAPI_MakeOffset.hxx>
-#include <BRepBuilderAPI_MakeFace.hxx>
+#include <BRepLib_MakeFace.hxx>
 #include <BRep_Builder.hxx>
 #include <BRep_Tool.hxx>
 #include <BRepAlgo_FaceRestrictor.hxx>
@@ -142,7 +142,7 @@ static void BuildDomains(TopoDS_Face&               myFace,
   BRep_Builder             B;
 
   if (myFace.IsNull()) {
-    myFace   = BRepBuilderAPI_MakeFace(TopoDS::Wire(WorkWires.First()),Standard_True);
+    myFace   = BRepLib_MakeFace(TopoDS::Wire(WorkWires.First()),Standard_True);
     if (myFace.IsNull())
       StdFail_NotDone::Raise ("BRepOffsetAPI_MakeOffset : the wire is not planar");
   }

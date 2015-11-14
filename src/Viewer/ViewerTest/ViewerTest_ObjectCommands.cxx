@@ -101,7 +101,7 @@
 #include <AIS_Circle.hxx>
 #include <AIS_Drawer.hxx>
 #include <BRepLib_MakeEdge.hxx>
-#include <BRepBuilderAPI_MakeFace.hxx>
+#include <BRepLib_MakeFace.hxx>
 #include <BRepLib_MakeWire.hxx>
 #include <Geom_Circle.hxx>
 #include <GC_MakeCircle.hxx>
@@ -1982,7 +1982,7 @@ TopoDS_Face FilledCircle::ComputeFace()
   TopoDS_Wire aWire = aWireMaker.Wire();
 
   // Create face from aWire
-  BRepBuilderAPI_MakeFace aFaceMaker(aWire);
+  BRepLib_MakeFace aFaceMaker(aWire);
   TopoDS_Face aFace = aFaceMaker.Face();
 
   return aFace;
@@ -4313,7 +4313,7 @@ void Triangle::Compute(const Handle(PrsMgr_PresentationManager3d)& /*thePresenta
   TopoDS_Wire aWire = aWireMaker.Wire();
   if(aWire.IsNull()) return;
 
-  BRepBuilderAPI_MakeFace aFaceMaker(aWire);
+  BRepLib_MakeFace aFaceMaker(aWire);
   TopoDS_Face aFace = aFaceMaker.Face();
   if(aFace.IsNull()) return;
 

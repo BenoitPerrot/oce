@@ -24,7 +24,7 @@
 #include <BRepAlgoAPI_Section.hxx>
 
 
-#include <BRepBuilderAPI_MakeFace.hxx>
+#include <BRepLib_MakeFace.hxx>
 #include <BRepBuilderAPI_MakeShell.hxx>
 #include <Geom_Plane.hxx>
 #include <Geom2d_TrimmedCurve.hxx>
@@ -43,7 +43,7 @@
 static TopoDS_Shape MakeShape(const Handle(Geom_Surface)& S)
 {
   GeomAbs_Shape c = S->Continuity();
-  if (c >= GeomAbs_C2) return BRepBuilderAPI_MakeFace(S, Precision::Confusion());
+  if (c >= GeomAbs_C2) return BRepLib_MakeFace(S, Precision::Confusion());
   else return BRepBuilderAPI_MakeShell(S);
 }
 

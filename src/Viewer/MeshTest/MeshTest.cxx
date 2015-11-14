@@ -86,7 +86,7 @@
 //epa Memory leaks test
 #include <BRepBuilderAPI_MakePolygon.hxx>
 #include <TopoDS_Wire.hxx>
-#include <BRepBuilderAPI_MakeFace.hxx>
+#include <BRepLib_MakeFace.hxx>
 #include <BRepTools.hxx>
 
 //OAN: for triepoints
@@ -224,7 +224,7 @@ static Standard_Integer MemLeakTest(Draw_Interpretor&, Standard_Integer /*nbarg*
     BRepBuilderAPI_MakePolygon w(gp_Pnt(0,0,0),gp_Pnt(0,100,0),gp_Pnt(20,100,0),gp_Pnt(20,0,0));
     w.Close();     
     TopoDS_Wire wireShape( w.Wire());
-    BRepBuilderAPI_MakeFace faceBuilder(wireShape);          
+    BRepLib_MakeFace faceBuilder(wireShape);          
     TopoDS_Face f( faceBuilder.Face());
     BRepMesh_IncrementalMesh im(f,1);
     BRepTools::Clean(f);      

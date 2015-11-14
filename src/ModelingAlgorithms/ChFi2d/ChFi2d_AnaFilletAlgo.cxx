@@ -22,7 +22,7 @@
 
 #include <BRepLib_MakeEdge.hxx>
 #include <BRepLib_MakeWire.hxx>
-#include <BRepBuilderAPI_MakeFace.hxx>
+#include <BRepLib_MakeFace.hxx>
 
 #include <GeomAPI_ExtremaCurveCurve.hxx>
 #include <IntAna2d_AnaIntersection.hxx>
@@ -261,7 +261,7 @@ Standard_Boolean ChFi2d_AnaFilletAlgo::Perform(const Standard_Real radius)
     if (mkWire.IsDone())
     {
       const TopoDS_Wire& W = mkWire.Wire();
-      BRepBuilderAPI_MakeFace mkFace(plane);
+      BRepLib_MakeFace mkFace(plane);
       if (mkFace.IsDone())
       {
         const TopoDS_Face& F = mkFace.Face();

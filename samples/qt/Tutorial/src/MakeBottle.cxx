@@ -3,7 +3,7 @@
 #include <BRepAlgoAPI_Fuse.hxx>
 
 #include <BRepLib_MakeEdge.hxx>
-#include <BRepBuilderAPI_MakeFace.hxx>
+#include <BRepLib_MakeFace.hxx>
 #include <BRepLib_MakeWire.hxx>
 #include <BRepBuilderAPI_Transform.hxx>
 
@@ -90,7 +90,7 @@ MakeBottle(const Standard_Real myWidth, const Standard_Real myHeight,
   TopoDS_Wire myWireProfile = mkWire.Wire();
 
   // Body : Prism the Profile
-  TopoDS_Face myFaceProfile = BRepBuilderAPI_MakeFace(myWireProfile);
+  TopoDS_Face myFaceProfile = BRepLib_MakeFace(myWireProfile);
   gp_Vec aPrismVec(0, 0, myHeight);
   TopoDS_Shape myBody = BRepPrimAPI_MakePrism(myFaceProfile, aPrismVec);
 

@@ -459,7 +459,7 @@ Standard_Integer  OCC125(Draw_Interpretor& di ,
 }
 
 #include <BRepLib_FindSurface.hxx>
-#include <BRepBuilderAPI_MakeFace.hxx>
+#include <BRepLib_MakeFace.hxx>
 Standard_Integer  OCC157(Draw_Interpretor& di,
 			 Standard_Integer n,
 			 const char ** a)
@@ -482,7 +482,7 @@ Standard_Integer  OCC157(Draw_Interpretor& di,
   if(FS.Found()) {
     di<<"OCC157: OK; Planar surface is found"<<"\n";
     Handle(Geom_Surface) aSurf = FS.Surface();
-    BRepBuilderAPI_MakeFace aMakeFace(aSurf,aWire,Standard_True);
+    BRepLib_MakeFace aMakeFace(aSurf,aWire,Standard_True);
     if(aMakeFace.IsDone()) {
       TopoDS_Face aFace = aMakeFace.Face();
       DBRep::Set(a[1],aFace);
@@ -568,7 +568,7 @@ Standard_Integer  OCC165(Draw_Interpretor& di ,
 #endif /* _OFFSET_TELCO_ */
 
 
-	TopoDS_Face theFace = BRepBuilderAPI_MakeFace(theWire).Face();
+	TopoDS_Face theFace = BRepLib_MakeFace(theWire).Face();
 	DBRep::Set("face", theFace);
 
 
@@ -596,7 +596,7 @@ Standard_Integer  OCC165(Draw_Interpretor& di ,
 
 #include <BRepLib_MakeEdge.hxx>
 #include <BRepLib_MakeWire.hxx>
-#include <BRepBuilderAPI_MakeFace.hxx>
+#include <BRepLib_MakeFace.hxx>
 
 static Standard_Integer OCC297 (Draw_Interpretor& di,Standard_Integer /*argc*/, const char ** argv )
 
@@ -619,7 +619,7 @@ static Standard_Integer OCC297 (Draw_Interpretor& di,Standard_Integer /*argc*/, 
     BRepLib_MakeEdge edg4_(pt4_, pt1_);
 
     BRepLib_MakeWire wire_(edg1_, edg2_, edg3_, edg4_);
-    BRepBuilderAPI_MakeFace face_(wire_);
+    BRepLib_MakeFace face_(wire_);
     TopoDS_Face sh_ = face_.Face();
 
     int up = 1;
@@ -4907,7 +4907,7 @@ static Standard_Integer OCC20627 (Draw_Interpretor& di, Standard_Integer argc, c
       BRepBuilderAPI_MakePolygon w(gp_Pnt(0,0,0),gp_Pnt(0,100,0),gp_Pnt(20,100,0),gp_Pnt(20,0,0));
       w.Close();
       TopoDS_Wire wireShape( w.Wire());
-      BRepBuilderAPI_MakeFace faceBuilder(wireShape);
+      BRepLib_MakeFace faceBuilder(wireShape);
       TopoDS_Face f( faceBuilder.Face());
       BRepMesh_IncrementalMesh im(f,1);
       BRepTools::Clean(f);

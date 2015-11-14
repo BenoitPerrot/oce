@@ -55,7 +55,7 @@
 #include <BRepGProp.hxx>
 #include <BRepTopAdaptor_FClass2d.hxx>
 #include <ShapeAnalysis_ShapeContents.hxx>
-#include <BRepBuilderAPI_MakeFace.hxx>
+#include <BRepLib_MakeFace.hxx>
 
 #include <TopoDS_Compound.hxx>
 #include <BRep_Builder.hxx>
@@ -880,7 +880,7 @@ static Standard_Integer checkselfintersection
   // If the face is null, make a plane inside the wire.
   if (face.IsNull())
   {
-      BRepBuilderAPI_MakeFace mkFace(TopoDS::Wire(wire), true);
+      BRepLib_MakeFace mkFace(TopoDS::Wire(wire), true);
       if (mkFace.IsDone())
           face = mkFace.Face();
       else

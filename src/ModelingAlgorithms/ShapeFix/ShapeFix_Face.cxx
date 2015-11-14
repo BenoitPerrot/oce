@@ -76,7 +76,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Face)
 #include <BRep_Builder.hxx>
 #include <BRepTopAdaptor_FClass2d.hxx>
 #include <BRepTools.hxx>
-#include <BRepBuilderAPI_MakeFace.hxx>
+#include <BRepLib_MakeFace.hxx>
 #include <BRepLib_MakeVertex.hxx>
 #include <BRepLib_MakeWire.hxx>
 
@@ -848,7 +848,7 @@ Standard_Boolean ShapeFix_Face::FixAddNaturalBound()
   // deal with the case of an empty face: just create a new face by a standard tool
   if (ws.IsEmpty() && !IsSurfaceUVInfinite (mySurf->Surface()))
   {
-    BRepBuilderAPI_MakeFace aFaceBuilder (mySurf->Surface(), Precision::Confusion());
+    BRepLib_MakeFace aFaceBuilder (mySurf->Surface(), Precision::Confusion());
 
     TopoDS_Face aNewFace = aFaceBuilder.Face();
     aNewFace.Orientation (myFace.Orientation());
@@ -949,7 +949,7 @@ Standard_Boolean ShapeFix_Face::FixAddNaturalBound()
 /* variant 2 */
   TopLoc_Location L;
   Handle(Geom_Surface) surf = BRep_Tool::Surface ( myFace, L );
-  BRepBuilderAPI_MakeFace mf (surf, Precision::Confusion());
+  BRepLib_MakeFace mf (surf, Precision::Confusion());
   TopoDS_Face ftmp = mf.Face();
   ftmp.Location ( L );
   for (wi.Initialize (ftmp,Standard_False); wi.More(); wi.Next()) {

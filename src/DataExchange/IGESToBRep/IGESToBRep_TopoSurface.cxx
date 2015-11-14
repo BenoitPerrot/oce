@@ -164,7 +164,7 @@
 #include <Geom_BSplineSurface.hxx>
 #include <ShapeAlgo.hxx>
 #include <ShapeAlgo_AlgoContainer.hxx>
-#include <BRepBuilderAPI_MakeFace.hxx>
+#include <BRepLib_MakeFace.hxx>
 #include <Geom_SurfaceOfRevolution.hxx>
 
 //=======================================================================
@@ -783,7 +783,7 @@ TopoDS_Shape IGESToBRep_TopoSurface::TransferSurfaceOfRevolution
       OCC_CATCH_SIGNALS
       if (extractCurve3d(generatrix, aBasisCurve))
       {
-        BRepBuilderAPI_MakeFace aMakeF;
+        BRepLib_MakeFace aMakeF;
         Handle(Geom_Surface) aResultSurf = 
                 new Geom_SurfaceOfRevolution(aBasisCurve, revolAxis);
 
@@ -935,7 +935,7 @@ TopoDS_Shape IGESToBRep_TopoSurface::TransferTabulatedCylinder
         //                                     aBasisCurve->FirstParameter(),
         //                                     aBasisCurve->LastParameter(),
         //                                     0., dir.Magnitude() );
-        BRepBuilderAPI_MakeFace aMakeF(aResultSurf, aBasisCurve->FirstParameter(),
+        BRepLib_MakeFace aMakeF(aResultSurf, aBasisCurve->FirstParameter(),
                                              aBasisCurve->LastParameter(),
                                              0., dir.Magnitude(),
                                              Precision::Confusion());

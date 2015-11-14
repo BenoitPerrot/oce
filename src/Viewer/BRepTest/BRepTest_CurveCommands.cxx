@@ -27,7 +27,7 @@
 #include <BRepLib_MakeVertex.hxx>
 #include <BRepLib_MakeEdge.hxx>
 #include <BRepLib_MakeEdge2d.hxx>
-#include <BRepBuilderAPI_MakeFace.hxx>
+#include <BRepLib_MakeFace.hxx>
 #include <BRepLib_MakeWire.hxx>
 #include <BRepBuilderAPI_MakePolygon.hxx>
 #include <BRepOffsetAPI_MakeOffset.hxx>
@@ -897,9 +897,9 @@ again:
 
   if (face) {
     if ( isplanar)
-      S = BRepBuilderAPI_MakeFace(P,MW.Wire());
+      S = BRepLib_MakeFace(P,MW.Wire());
     else {
-      BRepBuilderAPI_MakeFace MFace;
+      BRepLib_MakeFace MFace;
       MFace.Init(Surface,Standard_False,Precision::Confusion());
       MFace.Add(MW.Wire());
       S = MFace.Face();
@@ -1139,9 +1139,9 @@ static Standard_Integer bsplineprof(Draw_Interpretor& di,
   }
   if (face) {
     if ( isplanar)
-      S = BRepBuilderAPI_MakeFace(P,MW.Wire());
+      S = BRepLib_MakeFace(P,MW.Wire());
     else {
-      BRepBuilderAPI_MakeFace MFace;
+      BRepLib_MakeFace MFace;
       MFace.Init(Surface,Standard_False,Precision::Confusion());
       MFace.Add(MW.Wire());
       S = MFace.Face();

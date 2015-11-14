@@ -26,7 +26,7 @@
 
 #include <BRepBuilderAPI_MakePolygon.hxx>
 #include <TopoDS_Face.hxx>
-#include <BRepBuilderAPI_MakeFace.hxx>
+#include <BRepLib_MakeFace.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Dir.hxx>
 #include <gp_Ax1.hxx>
@@ -73,7 +73,7 @@ static Standard_Integer OCC426 (Draw_Interpretor& di, Standard_Integer argc, con
   W1.Add(gp_Pnt(10, 0, 0));
 
   Standard_Boolean OnlyPlane1 = Standard_False;
-  TopoDS_Face F1 = (TopoDS_Face) BRepBuilderAPI_MakeFace(W1.Wire(), OnlyPlane1);
+  TopoDS_Face F1 = (TopoDS_Face) BRepLib_MakeFace(W1.Wire(), OnlyPlane1);
 
   gp_Pnt P1(0, 0, 0);
   gp_Dir D1(0, 0, 30);
@@ -91,7 +91,7 @@ static Standard_Integer OCC426 (Draw_Interpretor& di, Standard_Integer argc, con
   W2.Add(gp_Pnt(f1, f1, 10));
 
   Standard_Boolean OnlyPlane2 = Standard_False;
-  TopoDS_Face F2 = (TopoDS_Face) BRepBuilderAPI_MakeFace(W2.Wire(), OnlyPlane2);
+  TopoDS_Face F2 = (TopoDS_Face) BRepLib_MakeFace(W2.Wire(), OnlyPlane2);
 
   gp_Pnt P2(0, 0, 0);
   gp_Dir D2(0, 0, 30);
@@ -107,7 +107,7 @@ static Standard_Integer OCC426 (Draw_Interpretor& di, Standard_Integer argc, con
   W3.Add(gp_Pnt(10, 0, 20));
 
   Standard_Boolean OnlyPlane3 = Standard_False;
-  TopoDS_Face F3 = (TopoDS_Face) BRepBuilderAPI_MakeFace(W3.Wire(), OnlyPlane3);
+  TopoDS_Face F3 = (TopoDS_Face) BRepLib_MakeFace(W3.Wire(), OnlyPlane3);
 
   gp_Pnt P3(0, 0, 0);
   gp_Dir D3(0, 0, 30);
@@ -278,7 +278,7 @@ static Standard_Integer OCC486(Draw_Interpretor& di, Standard_Integer argc, cons
 #include <BRepLib_MakeEdge.hxx>
 #include <BRepLib_MakeWire.hxx>
 #include <TopoDS_Wire.hxx>
-#include <BRepBuilderAPI_MakeFace.hxx>
+#include <BRepLib_MakeFace.hxx>
 #include <Geom_Plane.hxx>
 #include <gp_Pln.hxx>
 #include <BRepPrimAPI_MakePrism.hxx>
@@ -335,7 +335,7 @@ static Standard_Integer OCC712 (Draw_Interpretor& di, Standard_Integer argc, con
     }
   TopoDS_Wire W = MW.Wire();
 
-  TopoDS_Face F = (TopoDS_Face) BRepBuilderAPI_MakeFace(W);
+  TopoDS_Face F = (TopoDS_Face) BRepLib_MakeFace(W);
   if ( F.IsNull())
     {
       di << " Error in Face creation " << "\n";
@@ -772,7 +772,7 @@ static Standard_Integer OCC825 (Draw_Interpretor& di,Standard_Integer argc, cons
 
   Handle(Geom_BezierSurface) BezSurf = new Geom_BezierSurface(poles);
   Handle(Geom_BSplineSurface) BSpSurf = GeomConvert::SurfaceToBSplineSurface(BezSurf);
-  BRepBuilderAPI_MakeFace faceMaker(BSpSurf, Precision::Confusion());
+  BRepLib_MakeFace faceMaker(BSpSurf, Precision::Confusion());
   TopoDS_Face face = faceMaker.Face();
 
   gp_Pnt pnt(0, size, 0);
@@ -881,7 +881,7 @@ static Standard_Integer OCC826 (Draw_Interpretor& di,Standard_Integer argc, cons
   W1.Add(gp_Pnt(x1, y1, 0));
 
   Standard_Boolean myFalse = Standard_False;
-  TopoDS_Face F1 = (TopoDS_Face) BRepBuilderAPI_MakeFace(W1.Wire(), myFalse);
+  TopoDS_Face F1 = (TopoDS_Face) BRepLib_MakeFace(W1.Wire(), myFalse);
 
   gp_Pnt P1(0, 0, 0);
   gp_Dir D1(0, 30, 0);
@@ -955,7 +955,7 @@ static Standard_Integer OCC827 (Draw_Interpretor& di,Standard_Integer argc, cons
   W1.Add(gp_Pnt(10, 0, 0));
 
   Standard_Boolean myFalse = Standard_False;
-  TopoDS_Face F1 = (TopoDS_Face) BRepBuilderAPI_MakeFace(W1.Wire(), myFalse);
+  TopoDS_Face F1 = (TopoDS_Face) BRepLib_MakeFace(W1.Wire(), myFalse);
 
   gp_Pnt P1(0, 0, 0);
   gp_Dir D1(0, 0, 30);
@@ -1120,7 +1120,7 @@ static Standard_Integer OCC828 (Draw_Interpretor& di,Standard_Integer argc, cons
     }
 
   TopoDS_Wire W = MW.Wire();
-  TopoDS_Face F = (TopoDS_Face) BRepBuilderAPI_MakeFace(W);
+  TopoDS_Face F = (TopoDS_Face) BRepLib_MakeFace(W);
   if ( F.IsNull())
     {
       di << " Error in Face creation " << "\n";

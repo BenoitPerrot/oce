@@ -69,7 +69,7 @@
 #include <BRepLib_MakeEdge.hxx>
 #include <BRepLib_MakeWire.hxx>
 #include <BRepBuilderAPI_WireError.hxx>
-#include <BRepBuilderAPI_MakeFace.hxx>
+#include <BRepLib_MakeFace.hxx>
 #include <TColGeom2d_HArray1OfCurve.hxx>
 
 #include <AdvApp2Var_ApproxAFunc2Var.hxx>
@@ -211,7 +211,7 @@ static Standard_Integer plate (Draw_Interpretor & di,Standard_Integer n,const ch
   TopoDS_Wire W;
   W=MW.Wire();
   if (!(W.Closed())) Standard_Failure::Raise("Wire is not closed");
-  BRepBuilderAPI_MakeFace MF(Henri.Surface(),W,Standard_True);
+  BRepLib_MakeFace MF(Henri.Surface(),W,Standard_True);
   DBRep::Set(a[1],MF.Face());
   return 0;
 }
@@ -321,7 +321,7 @@ static Standard_Integer gplate (Draw_Interpretor & ,Standard_Integer n,const cha
   
   Henri.Surface()->Bounds( Umin, Umax, Vmin, Vmax);
   
-  BRepBuilderAPI_MakeFace MF(Surf, Umin, Umax, Vmin, Vmax, Precision::Confusion());
+  BRepLib_MakeFace MF(Surf, Umin, Umax, Vmin, Vmax, Precision::Confusion());
   
   DBRep::Set(a[1],MF.Face());
   return 0;
@@ -442,7 +442,7 @@ static Standard_Integer approxplate (Draw_Interpretor & di,Standard_Integer n,co
   TopoDS_Wire W;
   W=MW.Wire();
   if (!(W.Closed())) Standard_Failure::Raise("Wire is not closed");
-  BRepBuilderAPI_MakeFace MF(support,W,Standard_True);
+  BRepLib_MakeFace MF(support,W,Standard_True);
   DBRep::Set(a[1],MF.Face());
 
   return 0;

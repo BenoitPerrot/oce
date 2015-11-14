@@ -100,7 +100,7 @@
 #include <BRepFill_Generator.hxx>
 #include <BRepFill_CompatibleWires.hxx>
 
-#include <BRepBuilderAPI_MakeFace.hxx>
+#include <BRepLib_MakeFace.hxx>
 #include <BRepBuilderAPI_FindPlane.hxx>
 
 
@@ -151,12 +151,12 @@ static Standard_Boolean PerformPlan(const TopoDS_Wire& W,
     BRepBuilderAPI_FindPlane Searcher( W, presPln );
     if (Searcher.Found())
     {
-      theFace = BRepBuilderAPI_MakeFace(Searcher.Plane(), W);
+      theFace = BRepLib_MakeFace(Searcher.Plane(), W);
       Ok = Standard_True;
     }
     else // try to find another surface
     {
-      BRepBuilderAPI_MakeFace MF( W );
+      BRepLib_MakeFace MF( W );
       if (MF.IsDone())
       {
         theFace = MF.Face();

@@ -19,7 +19,7 @@
 #include <BRep_Builder.hxx>
 #include <BRepLib_MakeVertex.hxx>
 #include <BRepBuilderAPI_MakePolygon.hxx>
-#include <BRepBuilderAPI_MakeFace.hxx>
+#include <BRepLib_MakeFace.hxx>
 #include <BRepBuilderAPI_Sewing.hxx>
 #include <gp_Pnt.hxx>
 #include <TopoDS_Compound.hxx>
@@ -77,7 +77,7 @@ void StlAPI_Reader::Read(TopoDS_Shape& aShape, const Standard_CString aFileName)
         
         if( !AktWire.IsNull())
         {
-          AktFace = BRepBuilderAPI_MakeFace( AktWire);
+          AktFace = BRepLib_MakeFace( AktWire);
           if(!AktFace.IsNull())
             BuildTool.Add( aComp, AktFace );
         }

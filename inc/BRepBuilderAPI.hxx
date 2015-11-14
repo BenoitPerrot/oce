@@ -16,7 +16,6 @@ class Geom_Plane;
 class BRepBuilderAPI_Command;
 class BRepBuilderAPI_MakeShape;
 class BRepBuilderAPI_MakePolygon;
-class BRepBuilderAPI_MakeFace;
 class BRepBuilderAPI_FindPlane;
 class BRepBuilderAPI_Sewing;
 class BRepBuilderAPI_MakeShell;
@@ -124,7 +123,6 @@ private:
 friend class BRepBuilderAPI_Command;
 friend class BRepBuilderAPI_MakeShape;
 friend class BRepBuilderAPI_MakePolygon;
-friend class BRepBuilderAPI_MakeFace;
 friend class BRepBuilderAPI_FindPlane;
 friend class BRepBuilderAPI_Sewing;
 friend class BRepBuilderAPI_MakeShell;

@@ -30,7 +30,7 @@
 #include <BRep_Builder.hxx>
 #include <BRepLib_MakeWire.hxx>
 #include <BRepLib_MakeEdge.hxx>
-#include <BRepBuilderAPI_MakeFace.hxx>
+#include <BRepLib_MakeFace.hxx>
 #include <BRepCheck_Analyzer.hxx>
 #include <BRepGProp.hxx>
 #include <BRepOffsetAPI_MakePipeShell.hxx>
@@ -188,7 +188,7 @@ static Standard_Integer OCC332bug (Draw_Interpretor& di, Standard_Integer argc, 
   myLaw2->Set(SpineCurve->FirstParameter(),1.0,
               SpineCurve->LastParameter(),(radius_r+wall_thickness)/(radius_l+wall_thickness));
 
-  BRepBuilderAPI_MakeFace mkFace;
+  BRepLib_MakeFace mkFace;
 
   BRepLib_MakeEdge mkEdge;
 
@@ -499,7 +499,7 @@ static Standard_Integer OCC544 (Draw_Interpretor& di, Standard_Integer argc, con
   TopoDS_Edge Eout2_2 = (TopoDS_Edge) BRepLib_MakeEdge(outFaceCircle2, M_PI, 2.*M_PI);
   TopoDS_Wire outerWire2_ = (TopoDS_Wire) BRepLib_MakeWire(Eout2_1, Eout2_2);
 
-  BRepBuilderAPI_MakeFace mkFace;
+  BRepLib_MakeFace mkFace;
 
   Handle(Geom_Curve) SpineCurve = GC_MakeArcOfCircle(circle,
 						     endPoint,

@@ -41,7 +41,7 @@
 #include <StepToGeom_MakeTransformation3d.hxx>
 #include <UnitsMethods.hxx>
 
-#include <BRepBuilderAPI_MakeFace.hxx>
+#include <BRepLib_MakeFace.hxx>
 #include <TopoDS_Face.hxx>
 #include <ShapeAlgo.hxx>
 #include <ShapeAlgo_AlgoContainer.hxx>
@@ -87,7 +87,7 @@ Standard_Boolean StepToGeom_MakeSurface::Convert (const Handle(StepGeom_Surface)
         const Standard_Real anOffset = OS->Distance() * UnitsMethods::LengthFactor();
         if (aBasisSurface->Continuity() == GeomAbs_C0)
         {
-          const BRepBuilderAPI_MakeFace aBFace(aBasisSurface, Precision::Confusion());
+          const BRepLib_MakeFace aBFace(aBasisSurface, Precision::Confusion());
           if (aBFace.IsDone())
           {
             const TopoDS_Shape aResult = ShapeAlgo::AlgoContainer()->C0ShapeToC1Shape(aBFace.Face(), Abs(anOffset));

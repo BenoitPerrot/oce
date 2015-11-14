@@ -55,7 +55,7 @@ IMPLEMENT_STANDARD_RTTI(DNaming_PrismDriver)
 #include <TopoDS_Solid.hxx>
 #include <Standard_GUID.hxx>
 #include <Standard_Real.hxx>
-#include <BRepBuilderAPI_MakeFace.hxx>
+#include <BRepLib_MakeFace.hxx>
 #include <TopTools_DataMapOfShapeShape.hxx>
 
 // OCAF
@@ -136,7 +136,7 @@ Standard_Integer DNaming_PrismDriver::Execute(TFunction_Logbook& theLog) const {
   if(aBasis.ShapeType() == TopAbs_WIRE) {
     Handle(BRepCheck_Wire) aCheck = new BRepCheck_Wire(TopoDS::Wire(aBasis));
     if(aCheck->Closed(Standard_True) == BRepCheck_NoError) {
-      BRepBuilderAPI_MakeFace aMaker (TopoDS::Wire(aBasis), Standard_True); //Makes planar face
+      BRepLib_MakeFace aMaker (TopoDS::Wire(aBasis), Standard_True); //Makes planar face
       if(aMaker.IsDone()) 
 	aBASIS = aMaker.Face();//aMaker.Face();           
     }

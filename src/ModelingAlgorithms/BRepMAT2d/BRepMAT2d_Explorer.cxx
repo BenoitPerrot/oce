@@ -40,7 +40,7 @@
 #include <Precision.hxx>
 #include <Geom2d_BSplineCurve.hxx>
 #include <Geom2dConvert.hxx>
-#include <BRepBuilderAPI_MakeFace.hxx>
+#include <BRepLib_MakeFace.hxx>
 #include <TopExp.hxx>
 #include <BRep_Builder.hxx>
 #include <BRepLib.hxx>
@@ -87,7 +87,7 @@ void BRepMAT2d_Explorer::Perform(const TopoDS_Face& aFace)
   TopExp_Explorer Exp (F,TopAbs_WIRE);
 //  Modified by Sergey KHROMOV - Tue Nov 26 16:10:37 2002 Begin
   Handle(Geom_Surface) aSurf = BRep_Tool::Surface(F);
-  TopoDS_Face          aNewF = (TopoDS_Face) BRepBuilderAPI_MakeFace(aSurf, Precision::Confusion());
+  TopoDS_Face          aNewF = (TopoDS_Face) BRepLib_MakeFace(aSurf, Precision::Confusion());
 
   while (Exp.More()) {
     Add (TopoDS::Wire (Exp.Current()),F, aNewF);

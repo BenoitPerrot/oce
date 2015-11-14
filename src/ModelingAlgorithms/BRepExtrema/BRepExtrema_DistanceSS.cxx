@@ -46,7 +46,7 @@
 #include <TColStd_Array1OfReal.hxx>
 #include <BRepLib_MakeVertex.hxx>
 #include <BRepLib_MakeEdge.hxx>
-#include <BRepBuilderAPI_MakeFace.hxx>
+#include <BRepLib_MakeFace.hxx>
 #include <Geom_Surface.hxx>
 #include <GeomAPI_ProjectPointOnSurf.hxx>
 #include <GeomAPI_ProjectPointOnCurve.hxx>
@@ -380,7 +380,7 @@ static void TRIM_INFINIT_FACE(const TopoDS_Shape& S1, const TopoDS_Shape& S2,
     }
 
     Handle(Geom_Surface) result = new Geom_RectangularTrimmedSurface(pSurf, Umin, Umax, Vmin, Vmax);
-    aResFace = BRepBuilderAPI_MakeFace(result, Precision::Confusion());
+    aResFace = BRepLib_MakeFace(result, Precision::Confusion());
 
     bIsInfinit = Standard_True;
   }

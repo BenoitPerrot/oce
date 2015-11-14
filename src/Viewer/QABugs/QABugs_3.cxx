@@ -675,7 +675,7 @@ static Standard_Integer BUC60792(Draw_Interpretor& di, Standard_Integer /*argc*/
 
 #include <TColgp_Array2OfPnt.hxx>
 #include <Geom_BezierSurface.hxx>
-#include <BRepBuilderAPI_MakeFace.hxx>
+#include <BRepLib_MakeFace.hxx>
 #include <BRepLib_MakeWire.hxx>
 #include <Geom_OffsetSurface.hxx>
 #include <BRepFilletAPI_MakeFillet2d.hxx>
@@ -724,7 +724,7 @@ static Standard_Integer BUC60811(Draw_Interpretor& di, Standard_Integer argc, co
   array1.SetValue(3,2,gp_Pnt(200,300,0)); 
   array1.SetValue(3,3,gp_Pnt(400,300,0)); 
   BZ1 = new Geom_BezierSurface(array1);
-  BRepBuilderAPI_MakeFace bzf1( BZ1, Precision::Confusion() );
+  BRepLib_MakeFace bzf1( BZ1, Precision::Confusion() );
   TopoDS_Face F1= bzf1.Face();
   ais1 = new AIS_Shape(F1);
   DBRep::Set("F1",F1);
@@ -763,7 +763,7 @@ static Standard_Integer BUC60811(Draw_Interpretor& di, Standard_Integer argc, co
   p2 = gp_Pnt(150., 150.0, 260.); 
   BRepLib_MakeEdge* E6 = new BRepLib_MakeEdge(p1,p2);
   mkw.Add(*E6); 
-  FP = BRepBuilderAPI_MakeFace(mkw.Wire()); 
+  FP = BRepLib_MakeFace(mkw.Wire()); 
   ais2 = new AIS_Shape( FP ); 
   aContext->SetMaterial(ais2,Graphic3d_NOM_ALUMINIUM,Standard_False); 
   aContext->Display( ais2 );
@@ -773,7 +773,7 @@ static Standard_Integer BUC60811(Draw_Interpretor& di, Standard_Integer argc, co
 //step 2. offseting the surface. 
   Handle(Geom_OffsetSurface) offsurf; 
   offsurf = new Geom_OffsetSurface(BZ1, -100); 
-  BRepBuilderAPI_MakeFace bzf2( offsurf, Precision::Confusion() ); 
+  BRepLib_MakeFace bzf2( offsurf, Precision::Confusion() ); 
   TopoDS_Face F2= bzf2.Face(); 
   Handle(AIS_Shape) ais22 = new AIS_Shape(F2); 
   aContext->Display(ais22); 
@@ -940,13 +940,13 @@ static Standard_Integer BUC60856(Draw_Interpretor& di, Standard_Integer /*argc*/
   gp_Pnt P0(0,0,0),                                                              
   P1(0,0,20), P2(0,0,45);                                                        
   Handle(Geom_RectangularTrimmedSurface) S = GC_MakeTrimmedCone (P1, P2, R1, R2).Value();
-  TopoDS_Shape myshape = BRepBuilderAPI_MakeFace(S, Precision::Confusion()).Shape();
+  TopoDS_Shape myshape = BRepLib_MakeFace(S, Precision::Confusion()).Shape();
   Handle(AIS_Shape) ais1 = new AIS_Shape(myshape);
   aContext->Display(ais1);
   aContext->SetColor(ais1, Quantity_NOC_BLUE1);
   
   Handle(Geom_RectangularTrimmedSurface) S2 = GC_MakeTrimmedCone (P1, P2,R1, 0).Value();
-  TopoDS_Shape myshape2 = BRepBuilderAPI_MakeFace(S2, Precision::Confusion()).Shape();
+  TopoDS_Shape myshape2 = BRepLib_MakeFace(S2, Precision::Confusion()).Shape();
   Handle(AIS_Shape) ais2 = new AIS_Shape(myshape2);
   aContext->Display(ais2);
   aContext->SetColor(ais2, Quantity_NOC_RED);
@@ -1009,7 +1009,7 @@ static Standard_Integer coordload (Draw_Interpretor& theDi,
     return 0;
   }
 
-  BRepBuilderAPI_MakeFace aMakeFace (aMakeWire.Wire());
+  BRepLib_MakeFace aMakeFace (aMakeWire.Wire());
   TopoDS_Face aFace;
   if (aMakeFace.IsDone())
     aFace = aMakeFace.Face();

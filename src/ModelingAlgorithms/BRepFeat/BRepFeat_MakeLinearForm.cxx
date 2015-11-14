@@ -96,7 +96,6 @@
 
 #include <BRepBuilderAPI.hxx>
 #include <BRepPrimAPI_MakeBox.hxx>
-#include <BRepBuilderAPI_MakeFace.hxx>
 
 //modified by NIZNHY-PKV Fri Mar 22 16:51:33 2002 f
 //#include <BRepAlgo_Section.hxx>

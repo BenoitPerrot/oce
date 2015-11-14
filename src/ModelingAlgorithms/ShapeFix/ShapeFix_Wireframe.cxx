@@ -477,7 +477,6 @@ ShapeFix_Wireframe::ShapeFix_Wireframe(const TopoDS_Shape& shape)
 //function : CheckSmallEdges
 //purpose  : 
 //=======================================================================
-#include <BRepBuilderAPI_MakeFace.hxx>
 #include <TopExp.hxx>
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 Standard_Boolean ShapeFix_Wireframe::CheckSmallEdges(TopTools_MapOfShape& theSmallEdges,

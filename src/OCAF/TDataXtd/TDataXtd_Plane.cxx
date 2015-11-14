@@ -40,7 +40,7 @@ IMPLEMENT_STANDARD_RTTI(TDataXtd_Plane)
 #include <TopoDS_Face.hxx>
 #include <TopAbs.hxx>
 #include <BRep_Tool.hxx>
-#include <BRepBuilderAPI_MakeFace.hxx>
+#include <BRepLib_MakeFace.hxx>
 #include <Geom_RectangularTrimmedSurface.hxx>
 #include <Geom_Plane.hxx>
 #include <GeomLib_IsPlanarSurface.hxx>
@@ -112,7 +112,7 @@ Handle(TDataXtd_Plane) TDataXtd_Plane::Set (const TDF_Label& L, const gp_Pln& P)
 #endif
 
   TNaming_Builder B(L);
-  B.Generated(BRepBuilderAPI_MakeFace(P));
+  B.Generated(BRepLib_MakeFace(P));
   return A;
 }
 

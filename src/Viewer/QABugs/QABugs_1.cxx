@@ -48,7 +48,7 @@ Standard_IMPORT Draw_Viewer dout;
 #include <BRep_Builder.hxx>
 #include <BRepTools.hxx>
 #include <TopoDS_Wire.hxx>
-#include <BRepBuilderAPI_MakeFace.hxx>
+#include <BRepLib_MakeFace.hxx>
 #include <TopoDS.hxx>
 
 #if ! defined(WNT)
@@ -244,7 +244,7 @@ static Standard_Integer OCC145bug (Draw_Interpretor& di, Standard_Integer argc, 
   TopoDS_Wire      aWire   = TopoDS::Wire(aShape);
   
   for (i = 1; i <= aMaxNbr; i++) {
-    BRepBuilderAPI_MakeFace aMF(aWire);
+    BRepLib_MakeFace aMF(aWire);
     if (!aMF.IsDone()) {
       di << "ERROR : Could not make a face" << "\n";
       return 1;

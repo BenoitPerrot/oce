@@ -66,7 +66,7 @@
 #include <Geom_Curve.hxx>
 #include <Geom_CartesianPoint.hxx>
 
-#include <BRepBuilderAPI_MakeFace.hxx>
+#include <BRepLib_MakeFace.hxx>
 #include <BRepLib_MakeEdge.hxx>
 #include <BRepLib_MakeVertex.hxx>
 #include <BRepLib.hxx>
@@ -718,7 +718,7 @@ static TopoDS_Face TranslateBoundedSurf (const Handle(StepGeom_Surface) &surf,
   if (!StepToGeom_MakeSurface::Convert(surf,theSurf) || //:i6: protection
       !theSurf->IsKind(STANDARD_TYPE(Geom_BoundedSurface))) return res;
 
-  BRepBuilderAPI_MakeFace myMkFace;
+  BRepLib_MakeFace myMkFace;
   Handle(Geom_RectangularTrimmedSurface) RS = 
                     Handle(Geom_RectangularTrimmedSurface)::DownCast(theSurf);
 

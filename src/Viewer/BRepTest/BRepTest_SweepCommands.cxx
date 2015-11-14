@@ -50,7 +50,7 @@ static BRepOffsetAPI_MakePipeShell* Sweep= 0;
 #include <GeomAdaptor_HCurve.hxx>
 #include <GeomFill_Pipe.hxx>
 #include <Geom_Surface.hxx>
-#include <BRepBuilderAPI_MakeFace.hxx>
+#include <BRepLib_MakeFace.hxx>
 #include <BRep_Tool.hxx>
 #include <gp_Pnt.hxx>
 //#endi#include <gp_Vec.hxx>
@@ -205,7 +205,7 @@ static Standard_Integer geompipe(Draw_Interpretor& ,
   Handle(Geom_Surface) Sur=aPipe.Surface();
   TopoDS_Face F;
   if(!Sur.IsNull())
-    F = BRepBuilderAPI_MakeFace(Sur, Precision::Confusion());
+    F = BRepLib_MakeFace(Sur, Precision::Confusion());
   DBRep::Set(a[1],F);
   return 0;
 }

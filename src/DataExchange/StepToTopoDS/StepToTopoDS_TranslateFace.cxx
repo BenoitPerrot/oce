@@ -74,7 +74,7 @@
 
 #include <TopoDS_Wire.hxx>
 #include <BRepTools.hxx>
-#include <BRepBuilderAPI_MakeFace.hxx>
+#include <BRepLib_MakeFace.hxx>
 #include <BRep_Builder.hxx>//rln 28/01/98
 #include <BRep_Tool.hxx>
 #include <Transfer_TransientProcess.hxx>
@@ -249,7 +249,7 @@ void StepToTopoDS_TranslateFace::Init
       if (GeomSurf->IsKind (STANDARD_TYPE(Geom_SphericalSurface)) ||
           GeomSurf->IsKind (STANDARD_TYPE(Geom_BSplineSurface)) )
       {
-        BRepBuilderAPI_MakeFace mf (GeomSurf, Precision());
+        BRepLib_MakeFace mf (GeomSurf, Precision());
         for (TopoDS_Iterator it(mf); it.More(); it.Next()) 
           B.Add (F, it.Value());
 
@@ -347,7 +347,7 @@ void StepToTopoDS_TranslateFace::Init
 	//GeomSurf->Bounds(su1, su2, sv1, sv2);
 	//if(sv1 == -Precision::Infinite()) sv1 = 0.;
 	//if(sv2 ==  Precision::Infinite()) sv2 = 1.;
-	//BRepBuilderAPI_MakeFace mkf(GeomSurf,su1,su2,sv1,sv2);
+	//BRepLib_MakeFace mkf(GeomSurf,su1,su2,sv1,sv2);
 	//if (mkf.IsDone()) {
 	// done shall be standard false but no recipient to
 	// to store uncompletally mapped topology

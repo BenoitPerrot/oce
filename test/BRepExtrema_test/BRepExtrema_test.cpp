@@ -7,7 +7,7 @@
 #include <gp_Pln.hxx>
 #include <BRepLib_MakeVertex.hxx>
 #include <BRepLib_MakeEdge.hxx>
-#include <BRepBuilderAPI_MakeFace.hxx>
+#include <BRepLib_MakeFace.hxx>
 
 #include <gtest/gtest.h>
 

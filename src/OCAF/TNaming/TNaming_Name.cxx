@@ -54,7 +54,7 @@
 
 // mpv modifications 08.04.2002
 #include <BRepLib_MakeWire.hxx>
-#include <BRepBuilderAPI_MakeFace.hxx>
+#include <BRepLib_MakeFace.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Solid.hxx>
@@ -456,7 +456,7 @@ static TopoDS_Shape ShapeWithType(const TopoDS_Shape     theShape,
       if (theType < TopAbs_SOLID) break;
       TopTools_ListOfShape aFaces;
       for(;aListIter.More();aListIter.Next()) {
-	BRepBuilderAPI_MakeFace aMakeFace(TopoDS::Wire(aListIter.Value()));
+	BRepLib_MakeFace aMakeFace(TopoDS::Wire(aListIter.Value()));
 	if (!aMakeFace.IsDone()) aFaces.Append(aMakeFace.Face());
       }
       if (theType == TopAbs_FACE) {

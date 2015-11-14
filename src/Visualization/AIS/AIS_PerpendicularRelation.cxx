@@ -39,7 +39,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_PerpendicularRelation)
 
 #include <AIS.hxx>
 
-#include <BRepBuilderAPI_MakeFace.hxx>
+#include <BRepLib_MakeFace.hxx>
 #include <BRepAdaptor_Surface.hxx>
 #include <BRep_Tool.hxx>
 
@@ -267,7 +267,7 @@ void AIS_PerpendicularRelation::ComputeTwoEdgesPerpendicular(const Handle(Prs3d_
   else return;
 
   // current face
-  BRepBuilderAPI_MakeFace makeface (myPlane->Pln());
+  BRepLib_MakeFace makeface (myPlane->Pln());
   TopoDS_Face face (makeface.Face());  
   BRepAdaptor_Surface adp (makeface.Face());
   

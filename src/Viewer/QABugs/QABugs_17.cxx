@@ -938,7 +938,7 @@ static Standard_Integer BUILDEVOL(Draw_Interpretor& di,
 #include <TColGeom_SequenceOfCurve.hxx>
 #include <Geom_TrimmedCurve.hxx>
 #include <GeomFill_NSections.hxx>
-#include <BRepBuilderAPI_MakeFace.hxx>
+#include <BRepLib_MakeFace.hxx>
 //=======================================================================
 //function : OCC606
 //purpose  : 
@@ -986,7 +986,7 @@ static Standard_Integer OCC606 ( Draw_Interpretor& di, Standard_Integer n, const
       Handle(Geom_BSplineSurface) result_surf1 = b_surface1.BSplineSurface();
       if (!result_surf1.IsNull())
       {
-        BRepBuilderAPI_MakeFace b_face1(result_surf1, Precision::Confusion());
+        BRepLib_MakeFace b_face1(result_surf1, Precision::Confusion());
         TopoDS_Face bsp_face1 = b_face1.Face();
         DBRep::Set(a[1],bsp_face1);
       }
@@ -1167,7 +1167,7 @@ static Standard_Integer OCC884 (Draw_Interpretor& di, Standard_Integer argc, con
   builder.Add(wire, TopoDS::Edge(exp.Current()));
 
   // HelpDesk: Create planar face if possible
-  TopoDS_Face face = (TopoDS_Face) BRepBuilderAPI_MakeFace(wire,Standard_True);
+  TopoDS_Face face = (TopoDS_Face) BRepLib_MakeFace(wire,Standard_True);
 
   Handle(ShapeAnalysis_Wire) advWA = new ShapeAnalysis_Wire;
   advWA->Load(wire);
@@ -1455,7 +1455,7 @@ static Standard_Integer OCCN1 (Draw_Interpretor& di, Standard_Integer argc, cons
   BRepLib_MakeWire wire(ted1, ted2, ted3, ted4);
   TopoDS_Wire twire = wire.Wire();
 
-  BRepBuilderAPI_MakeFace face(twire);
+  BRepLib_MakeFace face(twire);
   TopoDS_Face tface = face.Face();
   ////////Handle(AIS_Shape) face_ais = new AIS_Shape( tface );
   ////////aContext->Display(face_ais);
@@ -1601,7 +1601,7 @@ static Standard_Integer OCC1642 (Draw_Interpretor& di, Standard_Integer argc, co
   DBRep::Set(argv[3],wire);
 
   TopoDS_Face face = 
-    (TopoDS_Face) BRepBuilderAPI_MakeFace(TopoDS::Wire(wire),Standard_True);
+    (TopoDS_Face) BRepLib_MakeFace(TopoDS::Wire(wire),Standard_True);
 
   DBRep::Set(argv[4],face);
 
@@ -1727,7 +1727,7 @@ static Standard_Integer OCC1642 (Draw_Interpretor& di, Standard_Integer argc, co
   advWA->Load(TopoDS::Wire(finalwire));
 
   TopoDS_Face fface =
-    (TopoDS_Face) BRepBuilderAPI_MakeFace(TopoDS::Wire(finalwire),Standard_True);
+    (TopoDS_Face) BRepLib_MakeFace(TopoDS::Wire(finalwire),Standard_True);
 
   DBRep::Set(argv[2],fface);
 

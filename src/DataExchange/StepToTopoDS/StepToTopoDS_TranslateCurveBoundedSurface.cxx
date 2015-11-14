@@ -34,7 +34,7 @@
 #include <TopoDS_Iterator.hxx>
 #include <BRep_Builder.hxx>
 
-#include <BRepBuilderAPI_MakeFace.hxx>
+#include <BRepLib_MakeFace.hxx>
 #include <StepGeom_BSplineSurface.hxx>
 #include <ShapeAlgo.hxx>
 #include <ShapeAlgo_AlgoContainer.hxx>
@@ -105,7 +105,7 @@ Standard_Boolean StepToTopoDS_TranslateCurveBoundedSurface::Init (
   // add natural bound if implicit
   if ( CBS->ImplicitOuter() ) { 
     if ( Surf->IsKind(STANDARD_TYPE(Geom_BoundedSurface)) ) {
-      BRepBuilderAPI_MakeFace mf (Surf, Precision::Confusion());
+      BRepLib_MakeFace mf (Surf, Precision::Confusion());
       myFace = mf.Face();
     }
     else TP->AddWarning ( CBS, "Cannot make natural bounds on infinite surface" );

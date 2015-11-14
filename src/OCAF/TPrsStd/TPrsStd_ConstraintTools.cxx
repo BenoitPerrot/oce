@@ -68,7 +68,7 @@
 
 #include <BRep_Tool.hxx>
 #include <BRep_Builder.hxx>
-#include <BRepBuilderAPI_MakeFace.hxx>
+#include <BRepLib_MakeFace.hxx>
 #include <BRepAdaptor_Curve.hxx>
 #include <BRepAdaptor_Surface.hxx>
 
@@ -903,7 +903,7 @@ void TPrsStd_ConstraintTools::ComputeAngle (const Handle(TDataXtd_Constraint)& a
     
     TopoDS_Face  aFace;
     if (shape1.ShapeType() == TopAbs_WIRE)  {
-      BRepBuilderAPI_MakeFace MkF (TopoDS::Wire(shape1),Standard_True);
+      BRepLib_MakeFace MkF (TopoDS::Wire(shape1),Standard_True);
       if (MkF.IsDone())  {
 	aFace = MkF.Face();
 	shape1 = aFace;
@@ -950,7 +950,7 @@ void TPrsStd_ConstraintTools::ComputeAngle (const Handle(TDataXtd_Constraint)& a
     gp_Ax1 anax1aFace2;
     gp_Pln aPlnaFace2;
     if (shape2.ShapeType() == TopAbs_WIRE)  {
-      BRepBuilderAPI_MakeFace MkF (TopoDS::Wire(shape2),Standard_True);
+      BRepLib_MakeFace MkF (TopoDS::Wire(shape2),Standard_True);
       if (MkF.IsDone())  {
 	aFace = MkF.Face();
 	shape2 = aFace;
@@ -1906,7 +1906,7 @@ void TPrsStd_ConstraintTools::ComputeOffset (const Handle(TDataXtd_Constraint)& 
       for (;exp.More();exp.Next())
 	B.Add (w1,exp.Current());
 
-      BRepBuilderAPI_MakeFace MkF (w1,Standard_True);
+      BRepLib_MakeFace MkF (w1,Standard_True);
       if (MkF.IsDone())  {
 //#ifndef OCCT_DEBUG
         Handle(Geom_Surface) aGeomSurface = BRep_Tool::Surface(MkF.Face());

@@ -48,7 +48,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_TangentRelation)
 #include <TopoDS_Edge.hxx>
 #include <TopExp_Explorer.hxx>
 #include <BRepAdaptor_Surface.hxx>
-#include <BRepBuilderAPI_MakeFace.hxx>
+#include <BRepLib_MakeFace.hxx>
 #include <TopAbs_ShapeEnum.hxx>
 
 
@@ -281,7 +281,7 @@ void AIS_TangentRelation::ComputeTwoEdgesTangent(const Handle(Prs3d_Presentation
 
   aPresentation->SetInfiniteState(isInfinite1 || isInfinite2);
   // current face  
-  BRepBuilderAPI_MakeFace makeface(myPlane->Pln());
+  BRepLib_MakeFace makeface(myPlane->Pln());
   TopoDS_Face face(makeface.Face());  
   BRepAdaptor_Surface adp(makeface.Face());
     

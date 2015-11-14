@@ -108,7 +108,6 @@
 #include <BRepTools.hxx>
 
 #include <BRepPrimAPI_MakeBox.hxx>
-#include <BRepBuilderAPI_MakeFace.hxx>
 
 #include <BRepAlgo.hxx>
 
@@ -1332,7 +1331,6 @@ Standard_Boolean BRepFeat_MakeRevolutionForm::Propagate(TopTools_ListOfShape& Sl
   TopoDS_Face CurrentFace, saveFace;
   CurrentFace = TopoDS::Face(SliList.First());
   saveFace = CurrentFace;
-  //  BRepBuilderAPI_MakeFace fac(myPln);
   Standard_Boolean LastOK = Standard_False, FirstOK= Standard_False;
   TopoDS_Vertex v1, v2, v3, v4, Vert;
   //modified by NIZNHY-PKV Fri Mar 22 16:54:09 2002 f

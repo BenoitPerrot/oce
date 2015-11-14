@@ -61,7 +61,6 @@
 #include <Standard_Assert.hxx>
 
 #include <BRepLib_MakeEdge.hxx>
-#include <BRepBuilderAPI_MakeFace.hxx>
 
 #include <BRepLib.hxx>
 

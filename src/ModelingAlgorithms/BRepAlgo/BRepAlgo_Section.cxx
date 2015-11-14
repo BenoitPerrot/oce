@@ -19,7 +19,7 @@
 #include <Geom_Surface.hxx>
 #include <BRepAlgo_Section.hxx>
 #include <BRepBuilderAPI_MakeShell.hxx>
-#include <BRepBuilderAPI_MakeFace.hxx>
+#include <BRepLib_MakeFace.hxx>
 #include <TopoDS.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 #include <TopOpeBRepDS_HDataStructure.hxx>
@@ -349,6 +349,6 @@ static TopoDS_Shape MakeShape(const Handle(Geom_Surface)& );
 TopoDS_Shape MakeShape(const Handle(Geom_Surface)& S)
 {
   GeomAbs_Shape c = S->Continuity();
-  if (c >= GeomAbs_C2) return BRepBuilderAPI_MakeFace(S, Precision::Confusion());
+  if (c >= GeomAbs_C2) return BRepLib_MakeFace(S, Precision::Confusion());
   else return BRepBuilderAPI_MakeShell(S);
 }
