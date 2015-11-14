@@ -25,7 +25,7 @@
 #include <TColgp_Array1OfPnt2d.hxx>
 #include <BRepBuilderAPI.hxx>
 #include <BRepLib_MakeVertex.hxx>
-#include <BRepBuilderAPI_MakeEdge.hxx>
+#include <BRepLib_MakeEdge.hxx>
 #include <BRepBuilderAPI_MakeEdge2d.hxx>
 #include <BRepBuilderAPI_MakeFace.hxx>
 #include <BRepBuilderAPI_MakeWire.hxx>
@@ -163,7 +163,7 @@ static Standard_Integer trim(Draw_Interpretor& di, Standard_Integer n, const cha
       v1 = TopoDS_Shape();
     }
   }
-  BRepBuilderAPI_MakeEdge ME(C,TopoDS::Vertex(v1),TopoDS::Vertex(v2));
+  BRepLib_MakeEdge ME(C,TopoDS::Vertex(v1),TopoDS::Vertex(v2));
   if (ME.IsDone()) {
     ne = ME;
     ne.Move(L);
@@ -262,7 +262,7 @@ static Standard_Integer mkedge(Draw_Interpretor& di, Standard_Integer n, const c
   TopoDS_Edge edge;
 
   if (n == 3) {
-    if (!C.IsNull())   edge = BRepBuilderAPI_MakeEdge(C);
+    if (!C.IsNull())   edge = BRepLib_MakeEdge(C);
     else               edge = BRepBuilderAPI_MakeEdge2d(C2d);
   }
   else {
@@ -278,22 +278,22 @@ static Standard_Integer mkedge(Draw_Interpretor& di, Standard_Integer n, const c
     if (n == 5+i) {
       if (V1.IsNull()) {
         if (!C.IsNull())   
-          edge = BRepBuilderAPI_MakeEdge(C,Draw::Atof(a[3]),Draw::Atof(a[4]));
+          edge = BRepLib_MakeEdge(C,Draw::Atof(a[3]),Draw::Atof(a[4]));
         else if (S.IsNull())              
           edge = BRepBuilderAPI_MakeEdge2d(C2d,Draw::Atof(a[3]),Draw::Atof(a[4]));
         else
-          edge = BRepBuilderAPI_MakeEdge(C2d,S,Draw::Atof(a[4]),Draw::Atof(a[5]));
+          edge = BRepLib_MakeEdge(C2d,S,Draw::Atof(a[4]),Draw::Atof(a[5]));
       }
       else {
         aLocalShape = DBRep::Get(a[4+i],TopAbs_VERTEX);
         TopoDS_Vertex V2 = TopoDS::Vertex(aLocalShape);
 //  TopoDS_Vertex V2 = TopoDS::Vertex(DBRep::Get(a[4+i],TopAbs_VERTEX));
         if (!C.IsNull())   
-          edge = BRepBuilderAPI_MakeEdge(C,V1,V2);
+          edge = BRepLib_MakeEdge(C,V1,V2);
         else if (S.IsNull())              
           edge = BRepBuilderAPI_MakeEdge2d(C2d,V1,V2);
         else
-          edge = BRepBuilderAPI_MakeEdge(C2d,S,V1,V2);
+          edge = BRepLib_MakeEdge(C2d,S,V1,V2);
       }
     }  
     else if (n == 7+i) {
@@ -301,11 +301,11 @@ static Standard_Integer mkedge(Draw_Interpretor& di, Standard_Integer n, const c
       TopoDS_Vertex V2 = TopoDS::Vertex(aLocalShape);
 //      TopoDS_Vertex V2 = TopoDS::Vertex(DBRep::Get(a[5+i],TopAbs_VERTEX));
       if (!C.IsNull())   
-        edge = BRepBuilderAPI_MakeEdge(C,V1,V2,Draw::Atof(a[4]),Draw::Atof(a[6]));
+        edge = BRepLib_MakeEdge(C,V1,V2,Draw::Atof(a[4]),Draw::Atof(a[6]));
       else if (S.IsNull())         
         edge = BRepBuilderAPI_MakeEdge2d(C2d,V1,V2,Draw::Atof(a[4]),Draw::Atof(a[6]));
       else              
-        edge = BRepBuilderAPI_MakeEdge(C2d,S,V1,V2,Draw::Atof(a[5]),Draw::Atof(a[7]));
+        edge = BRepLib_MakeEdge(C2d,S,V1,V2,Draw::Atof(a[5]),Draw::Atof(a[7]));
     }
     else
       return 1;
@@ -449,7 +449,7 @@ static Standard_Integer edge(Draw_Interpretor& , Standard_Integer n, const char*
   TopoDS_Shape V1 = DBRep::Get(a[2],TopAbs_VERTEX);
   TopoDS_Shape V2 = DBRep::Get(a[3],TopAbs_VERTEX);
   if (V1.IsNull() || V2.IsNull()) return 1;
-  TopoDS_Edge E = (TopoDS_Edge) BRepBuilderAPI_MakeEdge(TopoDS::Vertex(V1),
+  TopoDS_Edge E = (TopoDS_Edge) BRepLib_MakeEdge(TopoDS::Vertex(V1),
     TopoDS::Vertex(V2));
   DBRep::Set(a[1],E);
   return 0;
@@ -494,7 +494,7 @@ static Standard_Integer isoedge(Draw_Interpretor& , Standard_Integer n, const ch
     L = new Geom2d_Line(gp_Pnt2d(0,p),gp_Dir2d(1,0));
   }
 
-  TopoDS_Edge E = (TopoDS_Edge) BRepBuilderAPI_MakeEdge(C,p1,p2);
+  TopoDS_Edge E = (TopoDS_Edge) BRepLib_MakeEdge(C,p1,p2);
   E.Location(Loc);
   BRep_Builder B;
   B.UpdateEdge(E,L,TopoDS::Face(Sh),0.);
@@ -831,9 +831,9 @@ again:
         Handle(Geom2d_Line) l = 
           new Geom2d_Line(gp_Pnt2d(x,y),gp_Dir2d(dx,dy));
         if (isplanar)
-          MW.Add(BRepBuilderAPI_MakeEdge(GeomAPI::To3d(l,P),0,length));
+          MW.Add(BRepLib_MakeEdge(GeomAPI::To3d(l,P),0,length));
         else 
-          MW.Add(BRepBuilderAPI_MakeEdge(l,Surface,0,length));
+          MW.Add(BRepLib_MakeEdge(l,Surface,0,length));
         x += length*dx;
         y += length*dy;
       }
@@ -855,9 +855,9 @@ again:
         }
         Handle(Geom2d_Circle) c = new Geom2d_Circle(ax,radius,sense);
         if (isplanar)
-          MW.Add(BRepBuilderAPI_MakeEdge(GeomAPI::To3d(c,P),0,angle));
+          MW.Add(BRepLib_MakeEdge(GeomAPI::To3d(c,P),0,angle));
         else
-          MW.Add(BRepBuilderAPI_MakeEdge(c,Surface,0,angle));
+          MW.Add(BRepLib_MakeEdge(c,Surface,0,angle));
         gp_Pnt2d p;
         gp_Vec2d v;
         c->D1(angle,p,v);
@@ -1087,21 +1087,21 @@ static Standard_Integer bsplineprof(Draw_Interpretor& di,
         Handle(Geom2d_Line) l = 
           new Geom2d_Line(gp_Pnt2d(x,y),gp_Dir2d(dx,dy));
         if (isplanar) {
-          MW.Add(BRepBuilderAPI_MakeEdge(GeomAPI::To3d(l,P),0,length));
+          MW.Add(BRepLib_MakeEdge(GeomAPI::To3d(l,P),0,length));
         }
         else { 
-          MW.Add(BRepBuilderAPI_MakeEdge(l,Surface,0,length));
+          MW.Add(BRepLib_MakeEdge(l,Surface,0,length));
         }
 
       }
       else if (num_points > 2) {
         if (isplanar) {
-          MW.Add(BRepBuilderAPI_MakeEdge(curve3d_ptr,
+          MW.Add(BRepLib_MakeEdge(curve3d_ptr,
             curve3d_ptr->FirstParameter(),
             curve3d_ptr->LastParameter()));
         }
         else { 
-          MW.Add(BRepBuilderAPI_MakeEdge(C,
+          MW.Add(BRepLib_MakeEdge(C,
             Surface,
             C->FirstParameter(),
             C->LastParameter()));
@@ -1133,9 +1133,9 @@ static Standard_Integer bsplineprof(Draw_Interpretor& di,
     Handle(Geom2d_Line) l = 
       new Geom2d_Line(gp_Pnt2d(x,y),gp_Dir2d(dx,dy));
     if (isplanar)
-      MW.Add(BRepBuilderAPI_MakeEdge(GeomAPI::To3d(l,P),0,length));
+      MW.Add(BRepLib_MakeEdge(GeomAPI::To3d(l,P),0,length));
     else 
-      MW.Add(BRepBuilderAPI_MakeEdge(l,Surface,0,length));
+      MW.Add(BRepLib_MakeEdge(l,Surface,0,length));
   }
   if (face) {
     if ( isplanar)

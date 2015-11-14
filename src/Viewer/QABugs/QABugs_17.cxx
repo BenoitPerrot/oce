@@ -37,7 +37,7 @@
 #include <Geom2dGcc_QualifiedCurve.hxx>
 #include <Geom2dGcc_Lin2d2Tan.hxx>
 #include <Geom2d_Line.hxx>
-#include <BRepBuilderAPI_MakeEdge.hxx>
+#include <BRepLib_MakeEdge.hxx>
 #include <TopoDS_Edge.hxx>
 #include <Precision.hxx>
 #include <Geom2d_Circle.hxx>
@@ -93,7 +93,7 @@ static Standard_Integer BUC60842 (Draw_Interpretor& di, Standard_Integer /*argc*
   DrawTrSurf::Set(st,curve2d);
   if(!aContext.IsNull()) {
     Handle(AIS_Shape) aisp = 
-      new AIS_Shape (BRepBuilderAPI_MakeEdge(GeomAPI::To3d(curve2d, pln)).Edge());
+      new AIS_Shape (BRepLib_MakeEdge(GeomAPI::To3d(curve2d, pln)).Edge());
     aContext->Display (aisp);
   }
 
@@ -102,7 +102,7 @@ static Standard_Integer BUC60842 (Draw_Interpretor& di, Standard_Integer /*argc*
   DrawTrSurf::Set(st,fromcurve2d);
   if(!aContext.IsNull()) {
     Handle(AIS_Shape) aisp = 
-      new AIS_Shape (BRepBuilderAPI_MakeEdge(GeomAPI::To3d(fromcurve2d, pln)).Edge());
+      new AIS_Shape (BRepLib_MakeEdge(GeomAPI::To3d(fromcurve2d, pln)).Edge());
     aContext->Display (aisp);
   }
 
@@ -117,7 +117,7 @@ static Standard_Integer BUC60842 (Draw_Interpretor& di, Standard_Integer /*argc*
     DrawTrSurf::Set(st,glin);
     if(!aContext.IsNull()) {
       Handle(AIS_Shape) aisp = 
-        new AIS_Shape (BRepBuilderAPI_MakeEdge(GeomAPI::To3d(glin, pln)).Edge());      aContext->Display (aisp);
+        new AIS_Shape (BRepLib_MakeEdge(GeomAPI::To3d(glin, pln)).Edge());      aContext->Display (aisp);
     }
   }
   di << " Is Done = \n" << (Standard_Integer) lintan.IsDone();
@@ -224,7 +224,7 @@ static Standard_Integer BUC60970 (Draw_Interpretor& di, Standard_Integer argc, c
   gp_Dir tanDir(tanVec.X(), tanVec.Y(), tanVec.Z()); 
   gp_Ax2 gpAx2(firstPnt, tanDir); 
   gp_Circ gpCirc(gpAx2, 2.5); 
-  BRepBuilderAPI_MakeWire aMWire(BRepBuilderAPI_MakeEdge(new Geom_Circle(gpCirc)).Edge());
+  BRepBuilderAPI_MakeWire aMWire(BRepLib_MakeEdge(new Geom_Circle(gpCirc)).Edge());
   TopoDS_Wire topoWire(aMWire); 
   aContext->Display(new AIS_Shape(topoWire));
 
@@ -352,7 +352,7 @@ static Standard_Integer BUC60915_1(Draw_Interpretor& di, Standard_Integer argc, 
   //dimension "R 88.58"
   /***************************************/
   gp_Circ cir = gp_Circ(gp_Ax2(gp_Pnt(191.09, -88.58, 0), gp_Dir(0, 0, 1)), 88.58);
-  TopoDS_Edge E1 = (TopoDS_Edge) BRepBuilderAPI_MakeEdge(cir,gp_Pnt(191.09,0,0.),gp_Pnt(191.09,-177.16,0.) );
+  TopoDS_Edge E1 = (TopoDS_Edge) BRepLib_MakeEdge(cir,gp_Pnt(191.09,0,0.),gp_Pnt(191.09,-177.16,0.) );
   Handle(AIS_RadiusDimension) dim1 = new AIS_RadiusDimension(E1);
   dim1->SetDimensionAspect (anAspect);
   context->Display(dim1);
@@ -360,7 +360,7 @@ static Standard_Integer BUC60915_1(Draw_Interpretor& di, Standard_Integer argc, 
   //dimension "R 43.80"
   /***************************************/
   gp_Circ cir1 = gp_Circ(gp_Ax2(gp_Pnt(191.09, -88.58, 0), gp_Dir(0, 0, 1)), 43.80);
-  TopoDS_Edge E_cir1 = (TopoDS_Edge) BRepBuilderAPI_MakeEdge(cir1);
+  TopoDS_Edge E_cir1 = (TopoDS_Edge) BRepLib_MakeEdge(cir1);
   dim1 = new AIS_RadiusDimension(E_cir1);
   anAspect->ArrowAspect()->SetLength (60.0);
   dim1->SetDimensionAspect (anAspect);
@@ -369,7 +369,7 @@ static Standard_Integer BUC60915_1(Draw_Interpretor& di, Standard_Integer argc, 
   //dimension "R 17.86"
   /***************************************/
   gp_Circ cir2 = gp_Circ(gp_Ax2(gp_Pnt(566.11, -88.58, 0), gp_Dir(0, 0, -1)), 17.86);
-  TopoDS_Edge E_cir2 = (TopoDS_Edge) BRepBuilderAPI_MakeEdge(cir2);
+  TopoDS_Edge E_cir2 = (TopoDS_Edge) BRepLib_MakeEdge(cir2);
   dim1 = new AIS_RadiusDimension(E_cir2);
   anAspect->ArrowAspect()->SetLength (40.0);
   dim1->SetDimensionAspect (anAspect);
@@ -1040,7 +1040,7 @@ static Standard_Integer OCC813 (Draw_Interpretor& di, Standard_Integer argc,cons
   str = "OCC813_ell"; DrawTrSurf::Set(str,curve2d);
   if(!aContext.IsNull()) {
     Handle(AIS_Shape) aisp = 
-      new AIS_Shape (BRepBuilderAPI_MakeEdge(GeomAPI::To3d(curve2d, pln)).Edge());
+      new AIS_Shape (BRepLib_MakeEdge(GeomAPI::To3d(curve2d, pln)).Edge());
     aContext->Display (aisp);
   }
 
@@ -1058,7 +1058,7 @@ static Standard_Integer OCC813 (Draw_Interpretor& di, Standard_Integer argc,cons
     DrawTrSurf::Set(st,glin);
     if(!aContext.IsNull()) {
       Handle(AIS_Shape) aisp = 
-        new AIS_Shape (BRepBuilderAPI_MakeEdge(GeomAPI::To3d(glin, pln)).Edge());      aContext->Display (aisp);
+        new AIS_Shape (BRepLib_MakeEdge(GeomAPI::To3d(glin, pln)).Edge());      aContext->Display (aisp);
     }
   }
 
@@ -1101,12 +1101,12 @@ static Standard_Integer OCC814 (Draw_Interpretor& di, Standard_Integer argc,cons
   str = "OCC814_ell"; DrawTrSurf::Set(str,fromcurve2d);
   if(!aContext.IsNull()) {
     Handle(AIS_Shape) aisp = 
-      new AIS_Shape (BRepBuilderAPI_MakeEdge(GeomAPI::To3d(curve2d, pln)).Edge());
+      new AIS_Shape (BRepLib_MakeEdge(GeomAPI::To3d(curve2d, pln)).Edge());
     aContext->Display (aisp);
   }
   if(!aContext.IsNull()) {
     Handle(AIS_Shape) aisp = 
-      new AIS_Shape (BRepBuilderAPI_MakeEdge(GeomAPI::To3d(fromcurve2d, pln)).Edge());
+      new AIS_Shape (BRepLib_MakeEdge(GeomAPI::To3d(fromcurve2d, pln)).Edge());
     aContext->Display (aisp);
   }
 
@@ -1129,7 +1129,7 @@ static Standard_Integer OCC814 (Draw_Interpretor& di, Standard_Integer argc,cons
     DrawTrSurf::Set(st,glin);
     if(!aContext.IsNull()) {
       Handle(AIS_Shape) aisp = 
-        new AIS_Shape (BRepBuilderAPI_MakeEdge(GeomAPI::To3d(glin, pln)).Edge());      aContext->Display (aisp);
+        new AIS_Shape (BRepLib_MakeEdge(GeomAPI::To3d(glin, pln)).Edge());      aContext->Display (aisp);
     }
   }
 
@@ -1443,10 +1443,10 @@ static Standard_Integer OCCN1 (Draw_Interpretor& di, Standard_Integer argc, cons
   Standard_Integer fuse   = Draw::Atoi(argv[2]);
   Standard_Real    length = Draw::Atof(argv[3]);
 
-  BRepBuilderAPI_MakeEdge edge1(gp_Pnt(0, 0, 0), gp_Pnt(50, 0, 0));
-  BRepBuilderAPI_MakeEdge edge2(gp_Pnt(50, 0, 0), gp_Pnt(50, 50, 0));
-  BRepBuilderAPI_MakeEdge edge3(gp_Pnt(50, 50, 0), gp_Pnt(0, 50, 0));
-  BRepBuilderAPI_MakeEdge edge4(gp_Pnt(0, 50, 0), gp_Pnt(0, 0, 0));
+  BRepLib_MakeEdge edge1(gp_Pnt(0, 0, 0), gp_Pnt(50, 0, 0));
+  BRepLib_MakeEdge edge2(gp_Pnt(50, 0, 0), gp_Pnt(50, 50, 0));
+  BRepLib_MakeEdge edge3(gp_Pnt(50, 50, 0), gp_Pnt(0, 50, 0));
+  BRepLib_MakeEdge edge4(gp_Pnt(0, 50, 0), gp_Pnt(0, 0, 0));
   TopoDS_Edge ted1 = edge1.Edge();
   TopoDS_Edge ted2 = edge2.Edge();
   TopoDS_Edge ted3 = edge3.Edge();
@@ -1573,7 +1573,7 @@ static Standard_Integer OCC2569 (Draw_Interpretor& di, Standard_Integer argc, co
   } else {
     di << "\n Degree = " << bez->Degree() << "\n";   
   }
-  TopoDS_Edge sh = BRepBuilderAPI_MakeEdge(bez).Edge(); 
+  TopoDS_Edge sh = BRepLib_MakeEdge(bez).Edge(); 
   Handle(AIS_Shape) ais = new AIS_Shape(sh); 
   aContext->Display(ais); 
   DrawTrSurf::Set(argv[2],bez);

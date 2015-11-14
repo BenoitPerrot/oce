@@ -67,7 +67,7 @@
 #include <Geom_CartesianPoint.hxx>
 
 #include <BRepBuilderAPI_MakeFace.hxx>
-#include <BRepBuilderAPI_MakeEdge.hxx>
+#include <BRepLib_MakeEdge.hxx>
 #include <BRepLib_MakeVertex.hxx>
 #include <BRepLib.hxx>
 #include <BRep_Builder.hxx>
@@ -814,7 +814,7 @@ void StepToTopoDS_Builder::Init
 	  sout<<Standard_Failure::Caught()->GetMessageString() << endl;
 	}
 	if ( ! aGeomCrv.IsNull() ) {
-	  BRepBuilderAPI_MakeEdge anEdge(aGeomCrv, aGeomCrv->FirstParameter(), aGeomCrv->LastParameter());
+	  BRepLib_MakeEdge anEdge(aGeomCrv, aGeomCrv->FirstParameter(), aGeomCrv->LastParameter());
 	  if ( anEdge.IsDone() ) res = anEdge.Edge();
 	}
       }

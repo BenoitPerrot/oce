@@ -45,7 +45,7 @@ IMPLEMENT_STANDARD_RTTI(TPrsStd_GeometryDriver)
 #include <gp_Lin.hxx>
 #include <gp_Circ.hxx>
 #include <gp_Elips.hxx>
-#include <BRepBuilderAPI_MakeEdge.hxx>
+#include <BRepLib_MakeEdge.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Edge.hxx>
 
@@ -156,7 +156,7 @@ Standard_Boolean TPrsStd_GeometryDriver::Update(const TDF_Label& aLabel,
     {
       gp_Elips elp; 
       if (!TDataXtd_Geometry::Ellipse(aLabel, elp)) return Standard_False;
-      BRepBuilderAPI_MakeEdge mkEdge(elp);
+      BRepLib_MakeEdge mkEdge(elp);
       if( !mkEdge.IsDone() ) return Standard_False;
       Handle(AIS_Shape) ais;
       if (anAISObject.IsNull()) ais = new AIS_Shape(mkEdge);

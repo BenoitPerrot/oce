@@ -31,7 +31,7 @@
 #include <gce_MakeCirc.hxx>
 #include <gp_Circ.hxx>
 #include <GC_MakeArcOfCircle.hxx>
-#include <BRepBuilderAPI_MakeEdge.hxx>
+#include <BRepLib_MakeEdge.hxx>
 #include <TopoDS_Edge.hxx>
 #include <BRepBuilderAPI_MakeWire.hxx>
 #include <TopoDS_Wire.hxx>
@@ -72,7 +72,7 @@ static Standard_Integer OCC895 (Draw_Interpretor& di, Standard_Integer argc, con
   Handle(Geom_TrimmedCurve) arc1 = makeArc1.Value();
 
   // Create wire 1
-  BRepBuilderAPI_MakeEdge makeEdge1(arc1, arc1->StartPoint(), arc1->EndPoint());
+  BRepLib_MakeEdge makeEdge1(arc1, arc1->StartPoint(), arc1->EndPoint());
   if(!makeEdge1.IsDone()) return 1;
   TopoDS_Edge edge1 = makeEdge1.Edge();
   BRepBuilderAPI_MakeWire makeWire1;
@@ -92,7 +92,7 @@ static Standard_Integer OCC895 (Draw_Interpretor& di, Standard_Integer argc, con
   Handle(Geom_TrimmedCurve) arc2 = makeArc2.Value();
 
   // Create wire 2
-  BRepBuilderAPI_MakeEdge makeEdge2(arc2, arc2->StartPoint(), arc2->EndPoint());
+  BRepLib_MakeEdge makeEdge2(arc2, arc2->StartPoint(), arc2->EndPoint());
   if(!makeEdge2.IsDone()) return 1;
   TopoDS_Edge edge2 = makeEdge2.Edge();
   BRepBuilderAPI_MakeWire makeWire2;

@@ -15,7 +15,6 @@
 class Geom_Plane;
 class BRepBuilderAPI_Command;
 class BRepBuilderAPI_MakeShape;
-class BRepBuilderAPI_MakeEdge;
 class BRepBuilderAPI_MakeEdge2d;
 class BRepBuilderAPI_MakePolygon;
 class BRepBuilderAPI_MakeFace;
@@ -126,7 +125,6 @@ private:
 
 friend class BRepBuilderAPI_Command;
 friend class BRepBuilderAPI_MakeShape;
-friend class BRepBuilderAPI_MakeEdge;
 friend class BRepBuilderAPI_MakeEdge2d;
 friend class BRepBuilderAPI_MakePolygon;
 friend class BRepBuilderAPI_MakeFace;

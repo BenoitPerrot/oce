@@ -20,7 +20,7 @@
 
 #include <Standard_TypeMismatch.hxx>
 
-#include <BRepBuilderAPI_MakeEdge.hxx>
+#include <BRepLib_MakeEdge.hxx>
 #include <BRepBuilderAPI_MakeWire.hxx>
 #include <BRepBuilderAPI_MakeFace.hxx>
 
@@ -390,7 +390,7 @@ Standard_Boolean ChFi2d_AnaFilletAlgo::Perform(const Standard_Real radius)
     }
 
     // Make arc.
-    BRepBuilderAPI_MakeEdge mkEdge(circ, pstart, pend);
+    BRepLib_MakeEdge mkEdge(circ, pstart, pend);
     bRet = mkEdge.IsDone();
     if (bRet)
     {
@@ -412,14 +412,14 @@ Standard_Boolean ChFi2d_AnaFilletAlgo::Perform(const Standard_Real radius)
       }
       if (segment1)
       {
-        BRepBuilderAPI_MakeEdge mkSegment1;
+        BRepLib_MakeEdge mkSegment1;
         mkSegment1.Init(AC1.Curve().Curve(), p1, p2);
         if (mkSegment1.IsDone())
           shrinke1 = mkSegment1.Edge();
       }
       else
       {
-        BRepBuilderAPI_MakeEdge mkCirc1;
+        BRepLib_MakeEdge mkCirc1;
         mkCirc1.Init(AC1.Curve().Curve(), p1, p2);
         if (mkCirc1.IsDone())
           shrinke1 = mkCirc1.Edge();
@@ -439,14 +439,14 @@ Standard_Boolean ChFi2d_AnaFilletAlgo::Perform(const Standard_Real radius)
       }
       if (segment2)
       {
-        BRepBuilderAPI_MakeEdge mkSegment2;
+        BRepLib_MakeEdge mkSegment2;
         mkSegment2.Init(AC2.Curve().Curve(), p1, p2);
         if (mkSegment2.IsDone())
           shrinke2 = mkSegment2.Edge();
       }
       else
       {
-        BRepBuilderAPI_MakeEdge mkCirc2;
+        BRepLib_MakeEdge mkCirc2;
         mkCirc2.Init(AC2.Curve().Curve(), p1, p2);
         if (mkCirc2.IsDone())
           shrinke2 = mkCirc2.Edge();
@@ -904,12 +904,12 @@ Standard_Boolean ChFi2d_AnaFilletAlgo::Cut(const gp_Pln& thePlane, TopoDS_Edge& 
 
   if (found)
   {
-    BRepBuilderAPI_MakeEdge mkEdge1(c1, f1, param1);
+    BRepLib_MakeEdge mkEdge1(c1, f1, param1);
     if (mkEdge1.IsDone())
     {
       theE1 = mkEdge1.Edge();
 
-      BRepBuilderAPI_MakeEdge mkEdge2(c2, param2, l2);
+      BRepLib_MakeEdge mkEdge2(c2, param2, l2);
       if (mkEdge2.IsDone())
       {
         theE2 = mkEdge2.Edge();

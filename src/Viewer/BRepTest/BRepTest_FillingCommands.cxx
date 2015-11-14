@@ -66,7 +66,7 @@
 #include <Geom_Surface.hxx>
 
 #include <TopoDS_Wire.hxx>
-#include <BRepBuilderAPI_MakeEdge.hxx>
+#include <BRepLib_MakeEdge.hxx>
 #include <BRepBuilderAPI_MakeWire.hxx>
 #include <BRepBuilderAPI_WireError.hxx>
 #include <BRepBuilderAPI_MakeFace.hxx>
@@ -182,7 +182,7 @@ static Standard_Integer plate (Draw_Interpretor & di,Standard_Integer n,const ch
     Standard_Integer iInOrder=Henri.Order()->Value(i);
     TopoDS_Edge E;
     if (Henri.Sense()->Value(iInOrder)==1) { 
-      BRepBuilderAPI_MakeEdge ME(Henri.Curves2d()->Value(iInOrder),
+      BRepLib_MakeEdge ME(Henri.Curves2d()->Value(iInOrder),
                           Henri.Surface(),
                           Fronts->Value(iInOrder)->LastParameter(),
                           Fronts->Value(iInOrder)->FirstParameter());
@@ -190,7 +190,7 @@ static Standard_Integer plate (Draw_Interpretor & di,Standard_Integer n,const ch
       
     }
     else {
-      BRepBuilderAPI_MakeEdge ME(Henri.Curves2d()->Value(iInOrder),
+      BRepLib_MakeEdge ME(Henri.Curves2d()->Value(iInOrder),
                           Henri.Surface(),
                           Fronts->Value(iInOrder)->FirstParameter(),
                           Fronts->Value(iInOrder)->LastParameter());
@@ -418,14 +418,14 @@ static Standard_Integer approxplate (Draw_Interpretor & di,Standard_Integer n,co
     Standard_Integer iInOrder=Henri.Order()->Value(i);
     TopoDS_Edge E;
     if (Henri.Sense()->Value(iInOrder)==1) { 
-      BRepBuilderAPI_MakeEdge ME(Henri.Curves2d()->Value(iInOrder),
+      BRepLib_MakeEdge ME(Henri.Curves2d()->Value(iInOrder),
                           support,
                           Fronts->Value(iInOrder)->LastParameter(),
                           Fronts->Value(iInOrder)->FirstParameter());
       E = ME.Edge();
     }
     else {
-      BRepBuilderAPI_MakeEdge ME(Henri.Curves2d()->Value(iInOrder),
+      BRepLib_MakeEdge ME(Henri.Curves2d()->Value(iInOrder),
                           support,
                           Fronts->Value(iInOrder)->FirstParameter(),
                           Fronts->Value(iInOrder)->LastParameter());

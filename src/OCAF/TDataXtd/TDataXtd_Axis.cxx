@@ -40,7 +40,7 @@ IMPLEMENT_STANDARD_RTTI(TDataXtd_Axis)
 #include <gp_Lin.hxx>
 #include <BRep_Tool.hxx>
 #include <TopLoc_Location.hxx>
-#include <BRepBuilderAPI_MakeEdge.hxx>
+#include <BRepLib_MakeEdge.hxx>
 #include <Geom_Line.hxx>
 #include <Geom_Curve.hxx>
 #include <Geom_TrimmedCurve.hxx>
@@ -110,7 +110,7 @@ Handle(TDataXtd_Axis) TDataXtd_Axis::Set (const TDF_Label& L, const gp_Lin& line
   }
 #endif
   TNaming_Builder B (L);
-  B.Generated (BRepBuilderAPI_MakeEdge(line));
+  B.Generated (BRepLib_MakeEdge(line));
   return A;
 }
 

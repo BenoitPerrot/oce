@@ -35,7 +35,7 @@
 #include <BRep_ListIteratorOfListOfCurveRepresentation.hxx>
 #include <BRep_GCurve.hxx>
 #include <BRepLib.hxx>
-#include <BRepBuilderAPI_MakeEdge.hxx>
+#include <BRepLib_MakeEdge.hxx>
 
 #include <gp_Pnt.hxx>
 #include <gp_Lin2d.hxx>
@@ -668,7 +668,7 @@ void ShapeBuild_Edge::MakeEdge(TopoDS_Edge& edge,const Handle(Geom_Curve)& curve
 
 void ShapeBuild_Edge::MakeEdge(TopoDS_Edge& edge,const Handle(Geom_Curve)& curve,const TopLoc_Location& L,const Standard_Real p1,const Standard_Real p2) const
 {
-  BRepBuilderAPI_MakeEdge ME (curve, p1, p2);
+  BRepLib_MakeEdge ME (curve, p1, p2);
   if (!ME.IsDone()) {
 #ifdef OCCT_DEBUG
     cout << "\nWarning: ShapeBuild_Edge::MakeEdge BRepAPI_NotDone";
@@ -733,7 +733,7 @@ void ShapeBuild_Edge::MakeEdge(TopoDS_Edge& edge,const Handle(Geom2d_Curve)& pcu
   const Handle(Geom_Surface)& S,const TopLoc_Location& L,
   const Standard_Real p1,const Standard_Real p2) const
 {
-  BRepBuilderAPI_MakeEdge ME (pcurve, S, p1, p2);
+  BRepLib_MakeEdge ME (pcurve, S, p1, p2);
   if (!ME.IsDone()) {
 #ifdef OCCT_DEBUG
     cout << "\nWarning: ShapeBuild_Edge::MakeEdge BRepAPI_NotDone";

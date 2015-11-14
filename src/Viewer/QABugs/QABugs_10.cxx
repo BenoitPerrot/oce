@@ -275,7 +275,7 @@ static Standard_Integer OCC486(Draw_Interpretor& di, Standard_Integer argc, cons
 }
 
 #include <GC_MakeArcOfCircle.hxx>
-#include <BRepBuilderAPI_MakeEdge.hxx>
+#include <BRepLib_MakeEdge.hxx>
 #include <BRepBuilderAPI_MakeWire.hxx>
 #include <TopoDS_Wire.hxx>
 #include <BRepBuilderAPI_MakeFace.hxx>
@@ -317,10 +317,10 @@ static Standard_Integer OCC712 (Draw_Interpretor& di, Standard_Integer argc, con
   GC_MakeArcOfCircle arc3(p5, p6, p7);
   GC_MakeArcOfCircle arc4(p7, p8, p1);
 
-  TopoDS_Edge e1 = (TopoDS_Edge) BRepBuilderAPI_MakeEdge(arc1.Value());
-  TopoDS_Edge e2 = (TopoDS_Edge) BRepBuilderAPI_MakeEdge(arc2.Value());
-  TopoDS_Edge e3 = (TopoDS_Edge) BRepBuilderAPI_MakeEdge(arc3.Value());
-  TopoDS_Edge e4 = (TopoDS_Edge) BRepBuilderAPI_MakeEdge(arc4.Value());
+  TopoDS_Edge e1 = (TopoDS_Edge) BRepLib_MakeEdge(arc1.Value());
+  TopoDS_Edge e2 = (TopoDS_Edge) BRepLib_MakeEdge(arc2.Value());
+  TopoDS_Edge e3 = (TopoDS_Edge) BRepLib_MakeEdge(arc3.Value());
+  TopoDS_Edge e4 = (TopoDS_Edge) BRepLib_MakeEdge(arc4.Value());
 
   BRepBuilderAPI_MakeWire MW;
   MW.Add(e1);
@@ -1097,13 +1097,13 @@ static Standard_Integer OCC828 (Draw_Interpretor& di,Standard_Integer argc, cons
   GC_MakeSegment ln2(p23, p31);
   GC_MakeSegment ln3(p33, p11);
 
-  TopoDS_Edge e1 = (TopoDS_Edge) BRepBuilderAPI_MakeEdge(arc1.Value());
-  TopoDS_Edge e2 = (TopoDS_Edge) BRepBuilderAPI_MakeEdge(arc2.Value());
-  TopoDS_Edge e3 = (TopoDS_Edge) BRepBuilderAPI_MakeEdge(arc3.Value());
+  TopoDS_Edge e1 = (TopoDS_Edge) BRepLib_MakeEdge(arc1.Value());
+  TopoDS_Edge e2 = (TopoDS_Edge) BRepLib_MakeEdge(arc2.Value());
+  TopoDS_Edge e3 = (TopoDS_Edge) BRepLib_MakeEdge(arc3.Value());
 
-  TopoDS_Edge e4 = (TopoDS_Edge) BRepBuilderAPI_MakeEdge(ln1.Value());
-  TopoDS_Edge e5 = (TopoDS_Edge) BRepBuilderAPI_MakeEdge(ln2.Value());
-  TopoDS_Edge e6 = (TopoDS_Edge) BRepBuilderAPI_MakeEdge(ln3.Value());
+  TopoDS_Edge e4 = (TopoDS_Edge) BRepLib_MakeEdge(ln1.Value());
+  TopoDS_Edge e5 = (TopoDS_Edge) BRepLib_MakeEdge(ln2.Value());
+  TopoDS_Edge e6 = (TopoDS_Edge) BRepLib_MakeEdge(ln3.Value());
 
   BRepBuilderAPI_MakeWire MW;
   MW.Add(e1);

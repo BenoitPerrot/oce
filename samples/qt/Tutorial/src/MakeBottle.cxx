@@ -2,7 +2,7 @@
 
 #include <BRepAlgoAPI_Fuse.hxx>
 
-#include <BRepBuilderAPI_MakeEdge.hxx>
+#include <BRepLib_MakeEdge.hxx>
 #include <BRepBuilderAPI_MakeFace.hxx>
 #include <BRepBuilderAPI_MakeWire.hxx>
 #include <BRepBuilderAPI_Transform.hxx>
@@ -70,9 +70,9 @@ MakeBottle(const Standard_Real myWidth, const Standard_Real myHeight,
   Handle(Geom_TrimmedCurve) aSegment2 = GC_MakeSegment(aPnt4, aPnt5);
 
   // Profile : Define the Topology
-  TopoDS_Edge anEdge1 = BRepBuilderAPI_MakeEdge(aSegment1);
-  TopoDS_Edge anEdge2 = BRepBuilderAPI_MakeEdge(anArcOfCircle);
-  TopoDS_Edge anEdge3 = BRepBuilderAPI_MakeEdge(aSegment2);
+  TopoDS_Edge anEdge1 = BRepLib_MakeEdge(aSegment1);
+  TopoDS_Edge anEdge2 = BRepLib_MakeEdge(anArcOfCircle);
+  TopoDS_Edge anEdge3 = BRepLib_MakeEdge(aSegment2);
   TopoDS_Wire aWire  = BRepBuilderAPI_MakeWire(anEdge1, anEdge2, anEdge3);
 
   // Complete Profile
@@ -162,10 +162,10 @@ MakeBottle(const Standard_Real myWidth, const Standard_Real myHeight,
 
   Handle(Geom2d_TrimmedCurve) aSegment = GCE2d_MakeSegment(anEllipsePnt1, anEllipsePnt2);
   // Threading : Build Edges and Wires
-  TopoDS_Edge anEdge1OnSurf1 = BRepBuilderAPI_MakeEdge(anArc1, aCyl1);
-  TopoDS_Edge anEdge2OnSurf1 = BRepBuilderAPI_MakeEdge(aSegment, aCyl1);
-  TopoDS_Edge anEdge1OnSurf2 = BRepBuilderAPI_MakeEdge(anArc2, aCyl2);
-  TopoDS_Edge anEdge2OnSurf2 = BRepBuilderAPI_MakeEdge(aSegment, aCyl2);
+  TopoDS_Edge anEdge1OnSurf1 = BRepLib_MakeEdge(anArc1, aCyl1);
+  TopoDS_Edge anEdge2OnSurf1 = BRepLib_MakeEdge(aSegment, aCyl1);
+  TopoDS_Edge anEdge1OnSurf2 = BRepLib_MakeEdge(anArc2, aCyl2);
+  TopoDS_Edge anEdge2OnSurf2 = BRepLib_MakeEdge(aSegment, aCyl2);
   TopoDS_Wire threadingWire1 = BRepBuilderAPI_MakeWire(anEdge1OnSurf1, anEdge2OnSurf1);
   TopoDS_Wire threadingWire2 = BRepBuilderAPI_MakeWire(anEdge1OnSurf2, anEdge2OnSurf2);
   BRepLib::BuildCurves3d(threadingWire1);

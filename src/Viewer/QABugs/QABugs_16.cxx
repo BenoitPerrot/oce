@@ -27,7 +27,7 @@
 #include <GProp_GProps.hxx>
 #include <BRepGProp.hxx>
 #include <TopoDS_Edge.hxx>
-#include <BRepBuilderAPI_MakeEdge.hxx>
+#include <BRepLib_MakeEdge.hxx>
 #include <AIS_Trihedron.hxx>
 #include <Geom_Axis2Placement.hxx>
 #include <gp_Ax2.hxx>
@@ -50,7 +50,7 @@
 #include <BRep_Tool.hxx>
 #include <Geom_BSplineCurve.hxx>
 #include <GeomConvert_CompCurveToBSplineCurve.hxx>
-#include <BRepBuilderAPI_MakeEdge.hxx>
+#include <BRepLib_MakeEdge.hxx>
 #include <Precision.hxx>
 
 #include <GProp_PrincipalProps.hxx>
@@ -67,7 +67,7 @@
 #include <ShapeFix_Wireframe.hxx>
 #include <ShapeBuild_ReShape.hxx>
 
-#include <BRepBuilderAPI_MakeEdge.hxx>
+#include <BRepLib_MakeEdge.hxx>
 
 //#include <QAModTopOpe_ReShaper.hxx>
 #include <QANewModTopOpe_ReShaper.hxx>
@@ -113,7 +113,7 @@ static Standard_Integer BUC60848 (Draw_Interpretor& di, Standard_Integer argc, c
 
 static Standard_Integer BUC60828 (Draw_Interpretor& di, Standard_Integer /*argc*/, const char ** /*argv*/)
 {
-  TopoDS_Edge anEdge = (TopoDS_Edge) BRepBuilderAPI_MakeEdge(gp_Pnt(0.,0.,0.), gp_Pnt(0.,0.,1.)); 
+  TopoDS_Edge anEdge = (TopoDS_Edge) BRepLib_MakeEdge(gp_Pnt(0.,0.,0.), gp_Pnt(0.,0.,1.)); 
   Standard_Boolean aValue; 
   aValue=anEdge.Infinite(); 
   di << "Initial flag : " << (Standard_Integer) aValue << "\n";
@@ -367,7 +367,7 @@ static Standard_Integer OCC295(Draw_Interpretor& di, Standard_Integer argc, cons
   bsplc2->SetPole(1, pmid);
   GeomConvert_CompCurveToBSplineCurve connect3d(bsplc1);
   if(!connect3d.Add(bsplc2,Precision::Confusion(), After, Standard_False)) return 1;
-  BRepBuilderAPI_MakeEdge MkEdge(connect3d.BSplineCurve());
+  BRepLib_MakeEdge MkEdge(connect3d.BSplineCurve());
   if(MkEdge.IsDone()) {
     TopoDS_Edge nedge = MkEdge.Edge();
     DBRep::Set ( argv[1], nedge );
@@ -502,7 +502,7 @@ static Standard_Integer OCC405 (Draw_Interpretor& di, Standard_Integer argc, con
   bsplc2->SetPole(1, pmid);
   GeomConvert_CompCurveToBSplineCurve connect3d(bsplc1);
   if(!connect3d.Add(bsplc2,Precision::Confusion(), After, Standard_False)) return 1;
-  BRepBuilderAPI_MakeEdge MkEdge(connect3d.BSplineCurve());
+  BRepLib_MakeEdge MkEdge(connect3d.BSplineCurve());
   if(MkEdge.IsDone()) {
     TopoDS_Edge nedge = MkEdge.Edge();
     DBRep::Set ( argv[1], nedge );
@@ -619,7 +619,7 @@ static Standard_Integer OCC395 (Draw_Interpretor& di, Standard_Integer argc, con
   bsplc2->SetPole(1, pmid);
   GeomConvert_CompCurveToBSplineCurve connect3d(bsplc1);
   if(!connect3d.Add(bsplc2,Precision::Confusion(), After, Standard_False)) return 1;
-  BRepBuilderAPI_MakeEdge MkEdge(connect3d.BSplineCurve());
+  BRepLib_MakeEdge MkEdge(connect3d.BSplineCurve());
   if(MkEdge.IsDone()) {
     TopoDS_Edge nedge = MkEdge.Edge();
     DBRep::Set ( argv[1], nedge );
@@ -688,8 +688,8 @@ static Standard_Integer OCC301 (Draw_Interpretor& di, Standard_Integer argc, con
   gp_Pnt p2 = gp_Pnt(50.,10.,0.);
   gp_Pnt p3 = gp_Pnt(50.,50.,0.);
 
-  TopoDS_Edge E1 = (TopoDS_Edge) BRepBuilderAPI_MakeEdge(p1, p2);
-  TopoDS_Edge E2 = (TopoDS_Edge) BRepBuilderAPI_MakeEdge(p2, p3);
+  TopoDS_Edge E1 = (TopoDS_Edge) BRepLib_MakeEdge(p1, p2);
+  TopoDS_Edge E2 = (TopoDS_Edge) BRepLib_MakeEdge(p2, p3);
 
   context->Display(new AIS_Shape(E1)); 
   context->Display(new AIS_Shape(E2)); 

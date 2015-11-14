@@ -46,7 +46,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeAlgo_AlgoContainer)
 
 #include <BRep_Builder.hxx>
 #include <BRep_Tool.hxx>
-#include <BRepBuilderAPI_MakeEdge.hxx>
+#include <BRepLib_MakeEdge.hxx>
 #include <BRepBuilderAPI_MakeWire.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Edge.hxx>
@@ -538,7 +538,7 @@ void ShapeAlgo_AlgoContainer::ApproxBSplineCurve (const Handle(Geom2d_BSplineCur
   while (nbCreatedEdges < (nEdges1 + nEdges2-1)) {  /*just a security. */
 
     if ((delta1*ratio - delta2) > epsilon) {
-      BRepBuilderAPI_MakeEdge makeEdge1;
+      BRepLib_MakeEdge makeEdge1;
       if(!IsToReverse1) {
 	makeEdge1.Init(crv1, first1, first1 + delta2/ratio);
 	first1+= delta2/ratio;
@@ -547,7 +547,7 @@ void ShapeAlgo_AlgoContainer::ApproxBSplineCurve (const Handle(Geom2d_BSplineCur
 	makeEdge1.Init(crv1, last1 - delta2/ratio , last1);
 	last1 -= delta2/ratio;
       }
-      BRepBuilderAPI_MakeEdge makeEdge2(crv2, first2, last2);
+      BRepLib_MakeEdge makeEdge2(crv2, first2, last2);
       edge1 = makeEdge1.Edge();
       edge2 = makeEdge2.Edge();
 // essai mjm du 22/05/97
@@ -558,8 +558,8 @@ void ShapeAlgo_AlgoContainer::ApproxBSplineCurve (const Handle(Geom2d_BSplineCur
       nbCreatedEdges++;
     }
     else if (Abs(delta1*ratio - delta2) <= epsilon) {
-      BRepBuilderAPI_MakeEdge makeEdge1(crv1, first1, last1);
-      BRepBuilderAPI_MakeEdge makeEdge2(crv2, first2, last2);
+      BRepLib_MakeEdge makeEdge1(crv1, first1, last1);
+      BRepLib_MakeEdge makeEdge2(crv2, first2, last2);
       edge1 = makeEdge1.Edge();
       edge2 = makeEdge2.Edge();
       iterCook  = Standard_True;
@@ -567,9 +567,9 @@ void ShapeAlgo_AlgoContainer::ApproxBSplineCurve (const Handle(Geom2d_BSplineCur
       nbCreatedEdges += 2;
     }
     else /*((delta1*ratio - delta2) < -epsilon)*/ {
-      BRepBuilderAPI_MakeEdge makeEdge1(crv1, first1, last1);
+      BRepLib_MakeEdge makeEdge1(crv1, first1, last1);
       edge1 = makeEdge1.Edge();
-      BRepBuilderAPI_MakeEdge makeEdge2;
+      BRepLib_MakeEdge makeEdge2;
       if(!IsToReverse2) {
 	makeEdge2.Init(crv2, first2, first2 + delta1*ratio);
 	first2   += delta1*ratio;

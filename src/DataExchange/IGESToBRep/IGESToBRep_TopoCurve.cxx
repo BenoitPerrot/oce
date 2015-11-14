@@ -52,7 +52,7 @@
 #include <BRep_Builder.hxx>
 #include <BRep_Tool.hxx>
 
-#include <BRepBuilderAPI_MakeEdge.hxx>
+#include <BRepLib_MakeEdge.hxx>
 #include <BRepLib_MakeFace.hxx>
 #include <BRepTools.hxx>
 
@@ -661,7 +661,7 @@ TopoDS_Shape  IGESToBRep_TopoCurve::TransferOffsetCurve
     Standard_Real  a, b;
     Crv = BRep_Tool::Curve(TopoDS::Edge(Sh), aLoc, a, b);
     OffCrv = new Geom_OffsetCurve(Crv,Offset,NrmDir);
-    BRepBuilderAPI_MakeEdge  ME(OffCrv,start->StartParameter(),start->EndParameter());
+    BRepLib_MakeEdge  ME(OffCrv,start->StartParameter(),start->EndParameter());
     if (!ME.IsDone()) {
       
       Message_Msg Msg1005("IGES_1005"); //"Edge construction error"
@@ -698,7 +698,7 @@ TopoDS_Shape  IGESToBRep_TopoCurve::TransferOffsetCurve
 	break;
       }
       OffCrv = new Geom_OffsetCurve(Crv,Offset,NrmDir);
-      BRepBuilderAPI_MakeEdge  ME(OffCrv, staPar - length, endPar - length);
+      BRepLib_MakeEdge  ME(OffCrv, staPar - length, endPar - length);
 	
       if (!ME.IsDone()) {
 	 Message_Msg Msg1005("IGES_1005"); //"Edge construction error"
@@ -990,7 +990,7 @@ TopoDS_Shape  IGESToBRep_TopoCurve::TransferTopoBasicCurve
       ShapeAlgo::AlgoContainer()->C0BSplineToSequenceOfC1BSplineCurve (BSplineC, seqBS);
       Standard_Integer NbC0 = seqBS->Length();
       for (Standard_Integer i = 1; i <= NbC0; i++) {
-	BRepBuilderAPI_MakeEdge ME (seqBS->Value (i));
+	BRepLib_MakeEdge ME (seqBS->Value (i));
 	if (!ME.IsDone()) {
 	  Message_Msg Msg1005("IGES_1005");
 	  SendFail(start,Msg1005);
@@ -1007,7 +1007,7 @@ TopoDS_Shape  IGESToBRep_TopoCurve::TransferTopoBasicCurve
 	Handle(Geom_TrimmedCurve) tmp = Handle(Geom_TrimmedCurve)::DownCast (mycurve);
 	mycurve = tmp->BasisCurve();
       }
-      BRepBuilderAPI_MakeEdge ME (mycurve, a, b);
+      BRepLib_MakeEdge ME (mycurve, a, b);
       if (!ME.IsDone() || (Precision::IsInfinite(a) || Precision::IsInfinite(b))) {
 	Message_Msg Msg1005("IGES_1005");
 	SendFail(start,Msg1005);
@@ -1185,7 +1185,7 @@ TopoDS_Shape  IGESToBRep_TopoCurve::Transfer2dTopoBasicCurve
       Standard_Integer NbC0 = seqBS->Length();
       for (Standard_Integer i = 1; i <= NbC0; i++) {
 	ShapeBuild_Edge().MakeEdge (myedge, seqBS->Value (i), face);
-//	BRepBuilderAPI_MakeEdge ME (seqBS->Value (i), mysurf);
+//	BRepLib_MakeEdge ME (seqBS->Value (i), mysurf);
 	if (myedge.IsNull()/*!ME.IsDone()*/) {
 	  Message_Msg Msg1005("IGES_1005"); //"Edge construction error"
 	  SendFail(start,Msg1005);
@@ -1204,7 +1204,7 @@ TopoDS_Shape  IGESToBRep_TopoCurve::Transfer2dTopoBasicCurve
 	mycurve2d = tmp->BasisCurve();
       }
       ShapeBuild_Edge().MakeEdge (myedge, mycurve2d, face, a, b);
-//      BRepBuilderAPI_MakeEdge ME (mycurve2d, mysurf);
+//      BRepLib_MakeEdge ME (mycurve2d, mysurf);
       if (myedge.IsNull()/*!ME.IsDone()*/) {
 	Message_Msg Msg1005("IGES_1005"); //"Edge construction error"
 	SendFail(start,Msg1005);

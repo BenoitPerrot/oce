@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_RTTI(DNaming_Line3DDriver)
 #include <Precision.hxx>
 #include <Standard_GUID.hxx>
 #include <BRepBuilderAPI_MakeWire.hxx>
-#include <BRepBuilderAPI_MakeEdge.hxx>
+#include <BRepLib_MakeEdge.hxx>
 #include <BRepAlgo.hxx>
 #include <Geom_BSplineCurve.hxx>
 #include <GeomAPI_Interpolate.hxx>
@@ -156,7 +156,7 @@ Standard_Integer DNaming_Line3DDriver::Execute(TFunction_Logbook& theLog) const
       aFunction->SetFailure(WRONG_ARGUMENT);
       return -1;
     }
-    BRepBuilderAPI_MakeEdge aMakeEdge(TopoDS::Vertex(aShape1), TopoDS::Vertex(aShape2));
+    BRepLib_MakeEdge aMakeEdge(TopoDS::Vertex(aShape1), TopoDS::Vertex(aShape2));
     if(aMakeEdge.IsDone()) {
       anArV.SetValue(aCounter,   aShape1);
       anArV.SetValue(aCounter+1, aShape2);
@@ -168,7 +168,7 @@ Standard_Integer DNaming_Line3DDriver::Execute(TFunction_Logbook& theLog) const
     Handle(TDataStd_UAttribute) aRefP1 = DNaming::GetObjectArg(aFunction, (LINE3D_TYPE + 1));
     aNS1 = DNaming::GetObjectValue(aRefP1);
     aShape1 = aNS1->Get();
-    BRepBuilderAPI_MakeEdge aMakeEdge(TopoDS::Vertex(aShape2), TopoDS::Vertex(aShape1));
+    BRepLib_MakeEdge aMakeEdge(TopoDS::Vertex(aShape2), TopoDS::Vertex(aShape1));
     if(aMakeEdge.IsDone()) aMakeWire.Add(aMakeEdge.Edge());
   }
   if(aMakeWire.IsDone()) aWire = aMakeWire.Wire(); 

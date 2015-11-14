@@ -29,7 +29,7 @@
 #include <gp_Pln.hxx>
 #include <BRep_Builder.hxx>
 #include <BRepBuilderAPI_MakeWire.hxx>
-#include <BRepBuilderAPI_MakeEdge.hxx>
+#include <BRepLib_MakeEdge.hxx>
 #include <BRepBuilderAPI_MakeFace.hxx>
 #include <BRepCheck_Analyzer.hxx>
 #include <BRepGProp.hxx>
@@ -134,24 +134,24 @@ static Standard_Integer OCC332bug (Draw_Interpretor& di, Standard_Integer argc, 
   //gp_Circ faceCircle2(circ2axis,radius_r);
   //gp_Circ outFaceCircle2(circ2axis,radius_r+wall_thickness);
 
-  TopoDS_Edge E1 = (TopoDS_Edge) BRepBuilderAPI_MakeEdge(faceCircle);
+  TopoDS_Edge E1 = (TopoDS_Edge) BRepLib_MakeEdge(faceCircle);
   TopoDS_Wire Wire1_ = BRepBuilderAPI_MakeWire(E1).Wire();
   
   // Create the face at the near end for the wall solid, an annular ring.
-  TopoDS_Edge Eout1 = (TopoDS_Edge) BRepBuilderAPI_MakeEdge(outFaceCircle);
+  TopoDS_Edge Eout1 = (TopoDS_Edge) BRepLib_MakeEdge(outFaceCircle);
   TopoDS_Wire outerWire1_ = BRepBuilderAPI_MakeWire(Eout1).Wire();
 
   // SUPPORT:
   // - There is no need to create 2nd circles -
   //   they will be created by MakePipeShell
-  //TopoDS_Edge E2 = BRepBuilderAPI_MakeEdge(faceCircle2);
+  //TopoDS_Edge E2 = BRepLib_MakeEdge(faceCircle2);
   //TopoDS_Wire Wire2_ = BRepBuilderAPI_MakeWire(E2).Wire();
   
   // Create the face at the far end for the wall solid, an annular ring.
   // SUPPORT:
   // - There is no need to create 2nd circles -
   //   they will be created by MakePipeShell
-  //TopoDS_Edge Eout2 = BRepBuilderAPI_MakeEdge(outFaceCircle2);
+  //TopoDS_Edge Eout2 = BRepLib_MakeEdge(outFaceCircle2);
   //TopoDS_Wire outerWire2_ = BRepBuilderAPI_MakeWire(Eout2).Wire();
 
   // SUPPORT:
@@ -190,7 +190,7 @@ static Standard_Integer OCC332bug (Draw_Interpretor& di, Standard_Integer argc, 
 
   BRepBuilderAPI_MakeFace mkFace;
 
-  BRepBuilderAPI_MakeEdge mkEdge;
+  BRepLib_MakeEdge mkEdge;
 
   mkEdge.Init(SpineCurve);
   if (!mkEdge.IsDone()) return 0;
@@ -481,22 +481,22 @@ static Standard_Integer OCC544 (Draw_Interpretor& di, Standard_Integer argc, con
   gp_Circ faceCircle2(circ2axis,radius_r);
   gp_Circ outFaceCircle2(circ2axis,radius_r+wall_thickness);
 
-  TopoDS_Edge E1_1 = (TopoDS_Edge) BRepBuilderAPI_MakeEdge(faceCircle, 0, M_PI);
-  TopoDS_Edge E1_2 = (TopoDS_Edge) BRepBuilderAPI_MakeEdge(faceCircle, M_PI, 2.*M_PI);
+  TopoDS_Edge E1_1 = (TopoDS_Edge) BRepLib_MakeEdge(faceCircle, 0, M_PI);
+  TopoDS_Edge E1_2 = (TopoDS_Edge) BRepLib_MakeEdge(faceCircle, M_PI, 2.*M_PI);
   TopoDS_Wire Wire1_ = (TopoDS_Wire) BRepBuilderAPI_MakeWire(E1_1, E1_2);
   
   // Create the face at the near end for the wall solid, an annular ring.
-  TopoDS_Edge Eout1_1 = (TopoDS_Edge) BRepBuilderAPI_MakeEdge(outFaceCircle, 0, M_PI);
-  TopoDS_Edge Eout1_2 = (TopoDS_Edge) BRepBuilderAPI_MakeEdge(outFaceCircle, M_PI, 2.*M_PI);
+  TopoDS_Edge Eout1_1 = (TopoDS_Edge) BRepLib_MakeEdge(outFaceCircle, 0, M_PI);
+  TopoDS_Edge Eout1_2 = (TopoDS_Edge) BRepLib_MakeEdge(outFaceCircle, M_PI, 2.*M_PI);
   TopoDS_Wire outerWire1_ = (TopoDS_Wire) BRepBuilderAPI_MakeWire(Eout1_1, Eout1_2);
  
-  TopoDS_Edge E2_1 = (TopoDS_Edge) BRepBuilderAPI_MakeEdge(faceCircle2, 0, M_PI);
-  TopoDS_Edge E2_2 = (TopoDS_Edge) BRepBuilderAPI_MakeEdge(faceCircle2, M_PI, 2.*M_PI);
+  TopoDS_Edge E2_1 = (TopoDS_Edge) BRepLib_MakeEdge(faceCircle2, 0, M_PI);
+  TopoDS_Edge E2_2 = (TopoDS_Edge) BRepLib_MakeEdge(faceCircle2, M_PI, 2.*M_PI);
   TopoDS_Wire Wire2_ = (TopoDS_Wire) BRepBuilderAPI_MakeWire(E2_1, E2_2);
   
   // Create the face at the far end for the wall solid, an annular ring.
-  TopoDS_Edge Eout2_1 = (TopoDS_Edge) BRepBuilderAPI_MakeEdge(outFaceCircle2, 0, M_PI);
-  TopoDS_Edge Eout2_2 = (TopoDS_Edge) BRepBuilderAPI_MakeEdge(outFaceCircle2, M_PI, 2.*M_PI);
+  TopoDS_Edge Eout2_1 = (TopoDS_Edge) BRepLib_MakeEdge(outFaceCircle2, 0, M_PI);
+  TopoDS_Edge Eout2_2 = (TopoDS_Edge) BRepLib_MakeEdge(outFaceCircle2, M_PI, 2.*M_PI);
   TopoDS_Wire outerWire2_ = (TopoDS_Wire) BRepBuilderAPI_MakeWire(Eout2_1, Eout2_2);
 
   BRepBuilderAPI_MakeFace mkFace;
@@ -524,7 +524,7 @@ static Standard_Integer OCC544 (Draw_Interpretor& di, Standard_Integer argc, con
   di << "Law1 Value at LastParameter() is " << myLaw->Value(SpineCurve->LastParameter()) << "\n";
   di << "radius_r / radius_l is " << radius_r/radius_l << "\n";
 
-  BRepBuilderAPI_MakeEdge mkEdge;
+  BRepLib_MakeEdge mkEdge;
 
   mkEdge.Init(SpineCurve);
   if (!mkEdge.IsDone()) 

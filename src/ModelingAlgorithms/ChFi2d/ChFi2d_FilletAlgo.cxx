@@ -31,7 +31,7 @@
 #include <Geom_Circle.hxx>
 #include <Geom2d_Line.hxx>
 
-#include <BRepBuilderAPI_MakeEdge.hxx>
+#include <BRepLib_MakeEdge.hxx>
 #include <BRepAdaptor_Curve.hxx>
 
 ChFi2d_FilletAlgo::ChFi2d_FilletAlgo()
@@ -561,7 +561,7 @@ TopoDS_Edge ChFi2d_FilletAlgo::Result(const gp_Pnt& thePoint, TopoDS_Edge& theEd
   Standard_Boolean aIsOut = ((aParam1 < aTargetParam && aParam2 < aTargetParam) || (aParam1 > aTargetParam && aParam2 > aTargetParam));
   if (aParam1 > aParam2) 
     aIsOut = !aIsOut;
-  BRepBuilderAPI_MakeEdge aBuilder(aCircle->Circ(), aIsOut ? aParam2 : aParam1, aIsOut? aParam1 : aParam2);
+  BRepLib_MakeEdge aBuilder(aCircle->Circ(), aIsOut ? aParam2 : aParam1, aIsOut? aParam1 : aParam2);
   aResult = aBuilder.Edge();
 
   // divide edges
@@ -584,7 +584,7 @@ TopoDS_Edge ChFi2d_FilletAlgo::Result(const gp_Pnt& thePoint, TopoDS_Edge& theEd
   if (fabs(aStart - anEnd) < Precision::Confusion())
     anEnd = aStart + Precision::Confusion();
   //Divide edge
-  BRepBuilderAPI_MakeEdge aDivider1(aCurve, aStart, anEnd);
+  BRepLib_MakeEdge aDivider1(aCurve, aStart, anEnd);
   if (myEdgesExchnged) 
     theEdge2 = aDivider1.Edge();
   else 
@@ -605,7 +605,7 @@ TopoDS_Edge ChFi2d_FilletAlgo::Result(const gp_Pnt& thePoint, TopoDS_Edge& theEd
   //cases. So we are again bug compatible
   if (fabs(aStart - anEnd) < Precision::Confusion())
     anEnd = aStart + Precision::Confusion();
-  BRepBuilderAPI_MakeEdge aDivider2(aCurve, aStart, anEnd);
+  BRepLib_MakeEdge aDivider2(aCurve, aStart, anEnd);
   if (myEdgesExchnged) 
     theEdge1 = aDivider2.Edge();
   else 

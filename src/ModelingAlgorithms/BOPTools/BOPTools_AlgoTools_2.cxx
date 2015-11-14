@@ -37,7 +37,7 @@
 
 #include <Geom_Curve.hxx>
 #include <IntTools_Curve.hxx>
-#include <BRepBuilderAPI_MakeEdge.hxx>
+#include <BRepLib_MakeEdge.hxx>
 #include <BRepAdaptor_Curve.hxx>
 #include <GeomAbs_CurveType.hxx>
 
@@ -131,7 +131,7 @@ void BOPTools_AlgoTools::MakeSectEdge(const IntTools_Curve& aIC,
 {
   Handle(Geom_Curve) aC=aIC.Curve ();
   
-  BRepBuilderAPI_MakeEdge aMakeEdge(aC, aV1, aV2, aP1, aP2);
+  BRepLib_MakeEdge aMakeEdge(aC, aV1, aV2, aP1, aP2);
   
   const TopoDS_Edge& aE=TopoDS::Edge(aMakeEdge.Shape());
   //

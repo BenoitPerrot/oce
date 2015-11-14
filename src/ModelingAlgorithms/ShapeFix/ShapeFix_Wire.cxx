@@ -108,7 +108,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Wire)
 #include <BRep_ListIteratorOfListOfCurveRepresentation.hxx>
 #include <BRep_TEdge.hxx>
 #include <BRep_GCurve.hxx>
-#include <BRepBuilderAPI_MakeEdge.hxx>
+#include <BRepLib_MakeEdge.hxx>
 #include <BRepLib_MakeVertex.hxx>
 #include <BRepTools.hxx>
 
@@ -1684,7 +1684,7 @@ static Standard_Boolean TryNewPCurve (const TopoDS_Edge &E, const TopoDS_Face &f
   if ( crv.IsNull() ) return Standard_False;
 
   // make temp edge and compute tolerance
-  BRepBuilderAPI_MakeEdge mkedge ( crv, f, l );
+  BRepLib_MakeEdge mkedge ( crv, f, l );
 
   ShapeBuild_Edge SBE;        //skl 17.07.2001
   SBE.SetRange3d(mkedge,f,l); //skl 17.07.2001

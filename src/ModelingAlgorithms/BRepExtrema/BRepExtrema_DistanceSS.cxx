@@ -45,7 +45,7 @@
 #include <GeomAdaptor_Curve.hxx>
 #include <TColStd_Array1OfReal.hxx>
 #include <BRepLib_MakeVertex.hxx>
-#include <BRepBuilderAPI_MakeEdge.hxx>
+#include <BRepLib_MakeEdge.hxx>
 #include <BRepBuilderAPI_MakeFace.hxx>
 #include <Geom_Surface.hxx>
 #include <GeomAPI_ProjectPointOnSurf.hxx>
@@ -210,7 +210,7 @@ static void TRIM_INFINIT_EDGE(const TopoDS_Edge& S1, const TopoDS_Edge& S2, Topo
     }
 
     Handle(Geom_Curve) result = new Geom_TrimmedCurve(pCurv, Umin, Umax);
-    aResEdge = BRepBuilderAPI_MakeEdge(result);
+    aResEdge = BRepLib_MakeEdge(result);
   }
 }
 

@@ -49,7 +49,7 @@ IMPLEMENT_STANDARD_RTTI(XSAlgo_AlgoContainer)
 #include <TopExp.hxx>
 #include <BRep_Tool.hxx>
 #include <BRep_Builder.hxx>
-#include <BRepBuilderAPI_MakeEdge.hxx>
+#include <BRepLib_MakeEdge.hxx>
 #include <TopTools_DataMapOfShapeShape.hxx>
 #include <TopTools_DataMapIteratorOfDataMapOfShapeShape.hxx>
 
@@ -277,7 +277,7 @@ static TopoDS_Edge MakeEdgeOnCurve(const TopoDS_Edge edge)
     return result;
   gp_Pnt PV1 = C3d->Value(cf);
   gp_Pnt PV2 = C3d->Value(cl);
-  BRepBuilderAPI_MakeEdge mkEdge(C3d, PV1, PV2, cf, cl);
+  BRepLib_MakeEdge mkEdge(C3d, PV1, PV2, cf, cl);
 //:S4136  Standard_Real tol = BRep_Tool::Tolerance (edge);
   ShapeBuild_Edge SBE;          //skl 10.07.2001
   SBE.SetRange3d(mkEdge,cf,cl); //skl 10.07.2001

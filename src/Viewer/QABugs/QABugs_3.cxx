@@ -23,7 +23,7 @@
 #include <Geom_Surface.hxx>
 #include <BRep_Tool.hxx>
 #include <GeomInt_IntSS.hxx>
-#include <BRepBuilderAPI_MakeEdge.hxx>
+#include <BRepLib_MakeEdge.hxx>
 #include <Standard_ErrorHandler.hxx>
 #include <Graphic3d_ClipPlane.hxx>
 
@@ -56,7 +56,7 @@ static int BUC60623(Draw_Interpretor& di, Standard_Integer argc, const char ** a
   }
   Handle(Geom_Curve) Sol = Inter.Line(1);
   if(!Sol.IsNull()) {
-    DBRep::Set(a[1], BRepBuilderAPI_MakeEdge(Sol));
+    DBRep::Set(a[1], BRepLib_MakeEdge(Sol));
       return 0;
     } else di << "The first solution is Null!"   << "\n";
 
@@ -634,7 +634,7 @@ static Standard_Integer BUC60792(Draw_Interpretor& di, Standard_Integer /*argc*/
   Handle(Geom_Circle) gcir = new Geom_Circle(circ); 
   Handle(Geom_Plane) pln = new Geom_Plane(gp_Ax3(gp_Pnt(0, 0, 0), gp_Dir(1, 0, 0))); 
   Handle(Geom2d_Curve) gcir1 = GeomAPI::To2d(gcir, pln->Pln()); 
-  TopoDS_Shape sh1 = BRepBuilderAPI_MakeEdge(gcir1, pln).Shape(); 
+  TopoDS_Shape sh1 = BRepLib_MakeEdge(gcir1, pln).Shape(); 
   Handle(AIS_Shape) ais1 = new AIS_Shape(sh1); 
   aContext->SetColor(ais1, Quantity_NOC_INDIANRED); 
   aContext->Display(ais1); 
@@ -652,7 +652,7 @@ static Standard_Integer BUC60792(Draw_Interpretor& di, Standard_Integer /*argc*/
     for( int i = 1; i<=cirtanrad.NbSolutions(); i++) { 
       gp_Circ2d ccc = cirtanrad.ThisSolution(i); 
       gccc = new Geom2d_Circle(ccc); 
-      TopoDS_Shape sh = BRepBuilderAPI_MakeEdge(gccc, pln).Shape();
+      TopoDS_Shape sh = BRepLib_MakeEdge(gccc, pln).Shape();
       Standard_Character aStr[5];
       Sprintf(aStr,"sh%d",i);
       DBRep::Set(aStr,sh);
@@ -695,7 +695,7 @@ static Standard_Integer BUC60811(Draw_Interpretor& di, Standard_Integer argc, co
     Handle(Geom_Curve) projCurve = GeomProjLib::Project(GC,GS); 
     BRepBuilderAPI_MakeWire *myWire; 
     myWire = new BRepBuilderAPI_MakeWire(); 
-    myWire->Add((BRepBuilderAPI_MakeEdge(projCurve)).Edge());
+    myWire->Add((BRepLib_MakeEdge(projCurve)).Edge());
     DBRep::Set(argv[1],myWire->Wire());
     return  0;
   }
@@ -741,27 +741,27 @@ static Standard_Integer BUC60811(Draw_Interpretor& di, Standard_Integer argc, co
   BRepBuilderAPI_MakeWire mkw; 
   gp_Pnt p1 = gp_Pnt(150., 150.0, 260.);
   gp_Pnt p2 = gp_Pnt(350., 150., 260.); 
-  BRepBuilderAPI_MakeEdge* E1 = new BRepBuilderAPI_MakeEdge(p1,p2); 
+  BRepLib_MakeEdge* E1 = new BRepLib_MakeEdge(p1,p2); 
   mkw.Add(*E1); 
   p1 = gp_Pnt(350., 150., 260.); 
   p2 = gp_Pnt(350., 250., 260.); 
-  BRepBuilderAPI_MakeEdge* E2 = new BRepBuilderAPI_MakeEdge(p1,p2); 
+  BRepLib_MakeEdge* E2 = new BRepLib_MakeEdge(p1,p2); 
   mkw.Add(*E2); 
   p1 = gp_Pnt(350., 250., 260.); 
   p2 = gp_Pnt(300., 250.0, 260.); 
-  BRepBuilderAPI_MakeEdge* E3 = new BRepBuilderAPI_MakeEdge(p1,p2);
+  BRepLib_MakeEdge* E3 = new BRepLib_MakeEdge(p1,p2);
   mkw.Add(*E3); 
   p1 = gp_Pnt(300., 250.0, 260.); 
   p2 = gp_Pnt(200., 200.0, 260.); 
-  BRepBuilderAPI_MakeEdge* E4 = new BRepBuilderAPI_MakeEdge(p1,p2); 
+  BRepLib_MakeEdge* E4 = new BRepLib_MakeEdge(p1,p2); 
   mkw.Add(*E4); 
   p1 = gp_Pnt(200., 200.0, 260.); 
   p2 = gp_Pnt(150., 200.0, 260.); 
-  BRepBuilderAPI_MakeEdge* E5 = new BRepBuilderAPI_MakeEdge(p1,p2);
+  BRepLib_MakeEdge* E5 = new BRepLib_MakeEdge(p1,p2);
   mkw.Add(*E5); 
   p1 = gp_Pnt(150., 200.0, 260.); 
   p2 = gp_Pnt(150., 150.0, 260.); 
-  BRepBuilderAPI_MakeEdge* E6 = new BRepBuilderAPI_MakeEdge(p1,p2);
+  BRepLib_MakeEdge* E6 = new BRepLib_MakeEdge(p1,p2);
   mkw.Add(*E6); 
   FP = BRepBuilderAPI_MakeFace(mkw.Wire()); 
   ais2 = new AIS_Shape( FP ); 
@@ -812,7 +812,7 @@ static Standard_Integer BUC60811(Draw_Interpretor& di, Standard_Integer argc, co
       Handle(Geom_Curve) newBSplin = BRep_Tool::Curve(e1, f, l);
       newBSplin = new Geom_TrimmedCurve(newBSplin, f, l); 
       Handle(Geom_Curve) projCurve = GeomProjLib::Project(newBSplin,offsurf); 
-      myWire->Add((BRepBuilderAPI_MakeEdge(projCurve)).Edge()); 
+      myWire->Add((BRepLib_MakeEdge(projCurve)).Edge()); 
     } 
   Handle(AIS_Shape) ais33 = new AIS_Shape( myWire->Wire() ); 
   aContext->Display(ais33);
@@ -998,7 +998,7 @@ static Standard_Integer coordload (Draw_Interpretor& theDi,
     aLine[20] = '\0';
     aPnt.SetX (Draw::Atof (aLine));
     TopoDS_Vertex aVert2 = BRepLib_MakeVertex (aPnt);
-    aMakeWire.Add (BRepBuilderAPI_MakeEdge (aVert1, aVert2));
+    aMakeWire.Add (BRepLib_MakeEdge (aVert1, aVert2));
     aVert1 = aVert2;
   }
   aFile.close();

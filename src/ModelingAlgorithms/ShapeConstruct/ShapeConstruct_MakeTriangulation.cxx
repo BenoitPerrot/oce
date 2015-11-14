@@ -34,7 +34,7 @@
 #include <BRep_Builder.hxx>
 #include <TopTools_HSequenceOfShape.hxx>
 #include <BRepBuilderAPI_MakePolygon.hxx>
-#include <BRepBuilderAPI_MakeEdge.hxx>
+#include <BRepLib_MakeEdge.hxx>
 #include <ShapeAnalysis_Edge.hxx>
 #include <ShapeAnalysis_Wire.hxx>
 #include <ShapeAnalysis_Curve.hxx>
@@ -311,7 +311,7 @@ ShapeConstruct_MakeTriangulation::ShapeConstruct_MakeTriangulation (const TopoDS
 	    TopoDS_Vertex v2 = sae.FirstVertex(TopoDS::Edge(theEdges->Value(rindex)));
 	    v1.Orientation(TopAbs_FORWARD);
 	    v2.Orientation(TopAbs_REVERSED);
-	    theLEdge = BRepBuilderAPI_MakeEdge(v1,v2);
+	    theLEdge = BRepLib_MakeEdge(v1,v2);
 	    theSLEdge = theLEdge;
 	  }
 	  // Create new facet wire

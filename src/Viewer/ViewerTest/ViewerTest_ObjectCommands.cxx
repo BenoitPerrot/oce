@@ -100,7 +100,7 @@
 
 #include <AIS_Circle.hxx>
 #include <AIS_Drawer.hxx>
-#include <BRepBuilderAPI_MakeEdge.hxx>
+#include <BRepLib_MakeEdge.hxx>
 #include <BRepBuilderAPI_MakeFace.hxx>
 #include <BRepBuilderAPI_MakeWire.hxx>
 #include <Geom_Circle.hxx>
@@ -1974,7 +1974,7 @@ FilledCircle::FilledCircle(Handle(Geom_Circle) theCircle)
 TopoDS_Face FilledCircle::ComputeFace() 
 {
   // Create edge from myCircle 
-  BRepBuilderAPI_MakeEdge anEdgeMaker(myCircle->Circ());
+  BRepLib_MakeEdge anEdgeMaker(myCircle->Circ());
   TopoDS_Edge anEdge = anEdgeMaker.Edge(); 
 
   // Create wire from anEdge 
@@ -4299,7 +4299,7 @@ void Triangle::Compute(const Handle(PrsMgr_PresentationManager3d)& /*thePresenta
 {
   thePresentation->Clear();
 
-  BRepBuilderAPI_MakeEdge anEdgeMaker1(myPoint1, myPoint2),
+  BRepLib_MakeEdge anEdgeMaker1(myPoint1, myPoint2),
                           anEdgeMaker2(myPoint2, myPoint3),
                           anEdgeMaker3(myPoint3, myPoint1);
 
@@ -4487,7 +4487,7 @@ void SegmentObject::Compute (const Handle(PrsMgr_PresentationManager3d) &/*thePr
                              const Standard_Integer /*theMode*/)
 {
   thePresentation->Clear();
-  BRepBuilderAPI_MakeEdge anEdgeMaker(myPoint1, myPoint2);
+  BRepLib_MakeEdge anEdgeMaker(myPoint1, myPoint2);
   TopoDS_Edge anEdge = anEdgeMaker.Edge();
   if (anEdge.IsNull())
     return;

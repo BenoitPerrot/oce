@@ -37,7 +37,7 @@
 #include <StepToGeom_MakeCurve.hxx>
 #include <StepToTopoDS_TranslateEdge.hxx>
 
-#include <BRepBuilderAPI_MakeEdge.hxx>
+#include <BRepLib_MakeEdge.hxx>
 #include <BRep_Builder.hxx>
 
 #include <TopoDS.hxx>
@@ -184,7 +184,7 @@ Standard_Boolean StepToTopoDS_TranslateCompositeCurve::Init (const Handle(StepGe
         OCC_CATCH_SIGNALS
         Handle(Geom_Curve) c3d;
         if (StepToGeom_MakeCurve::Convert(crv,c3d)) {
-          BRepBuilderAPI_MakeEdge MkEdge ( c3d, c3d->FirstParameter(), c3d->LastParameter() );
+          BRepLib_MakeEdge MkEdge ( c3d, c3d->FirstParameter(), c3d->LastParameter() );
           if (MkEdge.IsDone())
           {
             if (Precision::IsNegativeInfinite (c3d->FirstParameter()) || Precision::IsPositiveInfinite (c3d->LastParameter()))
@@ -212,7 +212,7 @@ Standard_Boolean StepToTopoDS_TranslateCompositeCurve::Init (const Handle(StepGe
 	Handle(Geom2d_Curve) c2d = TrE.MakePCurve ( pcurve, Surf );
 	if ( ! c2d.IsNull() ) {
 	  if ( edge.IsNull() ) {
-	    BRepBuilderAPI_MakeEdge MkEdge ( c2d, Surf, c2d->FirstParameter(), c2d->LastParameter() );
+	    BRepLib_MakeEdge MkEdge ( c2d, Surf, c2d->FirstParameter(), c2d->LastParameter() );
 	    if (MkEdge.IsDone())
 	    {
 	      if (Precision::IsNegativeInfinite (c2d->FirstParameter()) || Precision::IsPositiveInfinite (c2d->LastParameter()))

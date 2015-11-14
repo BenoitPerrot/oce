@@ -594,7 +594,7 @@ Standard_Integer  OCC165(Draw_Interpretor& di ,
 #include<Geom_CartesianPoint.hxx>
 #include<AIS_Point.hxx>
 
-#include <BRepBuilderAPI_MakeEdge.hxx>
+#include <BRepLib_MakeEdge.hxx>
 #include <BRepBuilderAPI_MakeWire.hxx>
 #include <BRepBuilderAPI_MakeFace.hxx>
 
@@ -613,10 +613,10 @@ static Standard_Integer OCC297 (Draw_Interpretor& di,Standard_Integer /*argc*/, 
     gp_Pnt pt2_(-250.,250.,0.);
     gp_Pnt pt3_(-250.,-250.,0.);
     gp_Pnt pt4_(250.,-250.,0.);
-    BRepBuilderAPI_MakeEdge edg1_(pt1_, pt2_);
-    BRepBuilderAPI_MakeEdge edg2_(pt2_, pt3_);
-    BRepBuilderAPI_MakeEdge edg3_(pt3_, pt4_);
-    BRepBuilderAPI_MakeEdge edg4_(pt4_, pt1_);
+    BRepLib_MakeEdge edg1_(pt1_, pt2_);
+    BRepLib_MakeEdge edg2_(pt2_, pt3_);
+    BRepLib_MakeEdge edg3_(pt3_, pt4_);
+    BRepLib_MakeEdge edg4_(pt4_, pt1_);
 
     BRepBuilderAPI_MakeWire wire_(edg1_, edg2_, edg3_, edg4_);
     BRepBuilderAPI_MakeFace face_(wire_);
@@ -3099,7 +3099,7 @@ static Standard_Integer OCC8797 (Draw_Interpretor& di, Standard_Integer argc, co
   cout<<"Length Spline(abcissa_Pnt): "<<l_abcissa<<endl;
 
   //length!! 2.
-  TopoDS_Edge edge = (TopoDS_Edge) BRepBuilderAPI_MakeEdge (spline);
+  TopoDS_Edge edge = (TopoDS_Edge) BRepLib_MakeEdge (spline);
   GProp_GProps prop;
   BRepGProp::LinearProperties(edge,prop);
   l_gprop=prop.Mass();

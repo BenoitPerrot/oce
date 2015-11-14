@@ -17,7 +17,7 @@
 #include <gp_Pnt.hxx>
 #include <GC_MakeLine.hxx>
 #include <BRep_Tool.hxx>
-#include <BRepBuilderAPI_MakeEdge.hxx>
+#include <BRepLib_MakeEdge.hxx>
 #include <TopoDS_Iterator.hxx>
 #include <TopoDS.hxx>
 
@@ -126,13 +126,13 @@ TopoDS_Edge ChFi2d_ChamferAPI::Result(TopoDS_Edge& theEdge1, TopoDS_Edge& theEdg
 
   // make chamfer edge
   GC_MakeLine aML(myCurve1->Value(aCommon1), myCurve2->Value(aCommon2));
-  BRepBuilderAPI_MakeEdge aBuilder(aML.Value(), myCurve1->Value(aCommon1), myCurve2->Value(aCommon2));
+  BRepLib_MakeEdge aBuilder(aML.Value(), myCurve1->Value(aCommon1), myCurve2->Value(aCommon2));
   aResult = aBuilder.Edge();
   // divide first edge
-  BRepBuilderAPI_MakeEdge aDivider1(myCurve1, aCommon1, (myCommonStart1?myEnd1:myStart1));
+  BRepLib_MakeEdge aDivider1(myCurve1, aCommon1, (myCommonStart1?myEnd1:myStart1));
   theEdge1 = aDivider1.Edge();
   // divide second edge
-  BRepBuilderAPI_MakeEdge aDivider2(myCurve2, aCommon2, (myCommonStart2?myEnd2:myStart2));
+  BRepLib_MakeEdge aDivider2(myCurve2, aCommon2, (myCommonStart2?myEnd2:myStart2));
   theEdge2 = aDivider2.Edge();
 
   return aResult;

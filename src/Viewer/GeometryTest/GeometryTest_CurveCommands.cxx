@@ -122,7 +122,7 @@
 #include <TColStd_HArray1OfReal.hxx>
 
 //epa test
-#include <BRepBuilderAPI_MakeEdge.hxx>
+#include <BRepLib_MakeEdge.hxx>
 #include <AIS_Shape.hxx>
 #include <TopoDS_Edge.hxx>
 #include <GeomLProp_CLProps.hxx>
@@ -1083,7 +1083,7 @@ static Standard_Integer EllipsUniformAbscissa (Draw_Interpretor& di, Standard_In
     mainaxis.SetXDirection(x_direction);
     ellip = new Geom_Ellipse(mainaxis,R1, R2);
 
-    BRepBuilderAPI_MakeEdge curve_edge(ellip);
+    BRepLib_MakeEdge curve_edge(ellip);
     TopoDS_Edge edge_curve = curve_edge.Edge();
 
     DBRep::Set("Ellipse",edge_curve);

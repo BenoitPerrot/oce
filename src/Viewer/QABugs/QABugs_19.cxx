@@ -519,7 +519,7 @@ static Standard_Integer OCC23683 (Draw_Interpretor& di, Standard_Integer argc,co
 #include <Geom_Plane.hxx>
 #include <Geom2d_Circle.hxx>
 #include <Geom2d_TrimmedCurve.hxx>
-#include <BRepBuilderAPI_MakeEdge.hxx>
+#include <BRepLib_MakeEdge.hxx>
 #include <BRepPrimAPI_MakeRevol.hxx>
 #include <Geom2d_OffsetCurve.hxx>
 
@@ -542,7 +542,7 @@ static int test_offset(Draw_Interpretor& di, Standard_Integer argc, const char**
 
   Handle(Geom2d_Circle) C2d1 = new Geom2d_Circle(Ax2, 1.0);
   Handle(Geom2d_TrimmedCurve) C2d1Trimmed = new Geom2d_TrimmedCurve(C2d1, 0.0, M_PI/2.0);
-  TopoDS_Edge E1 = BRepBuilderAPI_MakeEdge(C2d1Trimmed, Plane);
+  TopoDS_Edge E1 = BRepLib_MakeEdge(C2d1Trimmed, Plane);
 
   DBRep::Set("e1", E1);
 
@@ -557,7 +557,7 @@ static int test_offset(Draw_Interpretor& di, Standard_Integer argc, const char**
   di << "-----------------------------------------------------------------------" << "\n";
 
   Handle(Geom2d_OffsetCurve) C2d2Offset = new Geom2d_OffsetCurve(C2d1Trimmed, -0.5);
-  TopoDS_Edge E2 = BRepBuilderAPI_MakeEdge(C2d2Offset, Plane);
+  TopoDS_Edge E2 = BRepLib_MakeEdge(C2d2Offset, Plane);
 
   DBRep::Set("e2", E2);
 

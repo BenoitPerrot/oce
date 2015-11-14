@@ -16,7 +16,7 @@
 
 #include <BRepMesh_DataStructureOfDelaun.hxx>
 #include <BRepMesh_PairOfIndex.hxx>
-#include <BRepBuilderAPI_MakeEdge.hxx>
+#include <BRepLib_MakeEdge.hxx>
 #include <BRepLib_MakeVertex.hxx>
 
 #include <TopoDS_Compound.hxx>
@@ -563,7 +563,7 @@ Standard_CString BRepMesh_Dump(void*            theMeshHandlePtr,
         if (aPnt[0].SquareDistance(aPnt[1]) < Precision::SquareConfusion())
           continue;
 
-        aBuilder.Add(aMesh, BRepBuilderAPI_MakeEdge(aPnt[0], aPnt[1]));
+        aBuilder.Add(aMesh, BRepLib_MakeEdge(aPnt[0], aPnt[1]));
       }
     }
 
