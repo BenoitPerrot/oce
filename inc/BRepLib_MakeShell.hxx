@@ -20,11 +20,29 @@ class Geom_Surface;
 class TopoDS_Shell;
 
 
-//! Provides methos to build shells.
-//!
-//! Build a shell from a set of faces.
-//! Build untied shell from a non C2 surface
-//! splitting it into C2-continuous parts.
+//! Describes functions to build a
+//! shape corresponding to the skin of a surface.
+//! Note that the term shell in the class name has the same definition
+//! as that of a shell in STEP, in other words the skin of a shape,
+//! and not a solid model defined by surface and thickness. If you want
+//! to build the second sort of shell, you must use
+//! BRepOffsetAPI_MakeOffsetShape. A shell is made of a series of
+//! faces connected by their common edges.
+//! If the underlying surface of a face is not C2 continuous and
+//! the flag Segment is True, MakeShell breaks the surface down into
+//! several faces which are all C2 continuous and which are
+//! connected along the non-regular curves on the surface.
+//! The resulting shell contains all these faces.
+//! Construction of a Shell from a non-C2 continuous Surface
+//! A MakeShell object provides a framework for:
+//! -      defining the construction of a shell,
+//! -      implementing the construction algorithm, and
+//! -      consulting the result.
+//! Warning
+//! The connected C2 faces in the shell resulting from a decomposition of
+//! the surface are not sewn. For a sewn result, you need to use
+//! BRepOffsetAPI_Sewing. For a shell with thickness, you need to use
+//! BRepOffsetAPI_MakeOffsetShape.
 class BRepLib_MakeShell  : public BRepLib_MakeShape
 {
 public:
@@ -32,17 +50,40 @@ public:
   DEFINE_STANDARD_ALLOC
 
   
-  //! Not done.
+  //! Constructs an empty shell framework. The Init
+  //! function is used to define the construction arguments.
+  //! Warning
+  //! The function Error will return
+  //! BRepBuilderAPI_EmptyShell if it is called before the function Init.
   Standard_EXPORT BRepLib_MakeShell();
   
+  //! Constructs a shell from the surface S.
   Standard_EXPORT BRepLib_MakeShell(const Handle(Geom_Surface)& S, const Standard_Boolean Segment = Standard_False);
   
+  //! Constructs a shell from the surface S,
+  //! limited in the u parametric direction by the two
+  //! parameter values UMin and UMax, and limited in the v
+  //! parametric direction by the two parameter values VMin and VMax.
   Standard_EXPORT BRepLib_MakeShell(const Handle(Geom_Surface)& S, const Standard_Real UMin, const Standard_Real UMax, const Standard_Real VMin, const Standard_Real VMax, const Standard_Boolean Segment = Standard_False);
   
-  //! Creates the shell from the surface  and the min-max
-  //! values.
+  //! Defines or redefines the arguments
+  //! for the construction of a shell. The construction is initialized
+  //! with the surface S, limited in the u parametric direction by the
+  //! two parameter values UMin and UMax, and in the v parametric
+  //! direction by the two parameter values VMin and VMax.
+  //! Warning
+  //! The function Error returns:
+  //! -      BRepBuilderAPI_ShellParametersOutOfRange
+  //! when the given parameters are outside the bounds of the
+  //! surface or the basis surface if S is trimmed
   Standard_EXPORT   void Init (const Handle(Geom_Surface)& S, const Standard_Real UMin, const Standard_Real UMax, const Standard_Real VMin, const Standard_Real VMax, const Standard_Boolean Segment = Standard_False) ;
   
+  //! Returns the construction status:
+  //! -   BRepBuilderAPI_ShellDone if the shell is built, or
+  //! -   another value of the BRepBuilderAPI_ShellError
+  //! enumeration indicating why the construction failed.
+  //! This is frequently BRepBuilderAPI_ShellParametersOutOfRange
+  //! indicating that the given parameters are outside the bounds of the surface.
   Standard_EXPORT   BRepLib_ShellError Error()  const;
   
   //! Returns the new Shell.

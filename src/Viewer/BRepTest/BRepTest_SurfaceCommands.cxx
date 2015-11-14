@@ -29,7 +29,7 @@
 #include <BRepTools_Quilt.hxx>
 #include <BRepAdaptor_Curve.hxx>
 #include <BRepLib_MakeFace.hxx>
-#include <BRepBuilderAPI_MakeShell.hxx>
+#include <BRepLib_MakeShell.hxx>
 #include <BRepBuilderAPI.hxx>
 #include <BRepBuilderAPI_Sewing.hxx>
 #include <BRepOffsetAPI_FindContigousEdges.hxx>
@@ -88,7 +88,7 @@ static Standard_Integer mkface(Draw_Interpretor& , Standard_Integer n, const cha
     if (mkface)
       res = BRepLib_MakeFace(S, Precision::Confusion());
     else
-      res = BRepBuilderAPI_MakeShell(S,Segment);
+      res = BRepLib_MakeShell(S,Segment);
   }
   else if (n <= 5) {
     if (!mkface) return 1;
@@ -101,7 +101,7 @@ static Standard_Integer mkface(Draw_Interpretor& , Standard_Integer n, const cha
     if (mkface)
       res = BRepLib_MakeFace(S,Draw::Atof(a[3]),Draw::Atof(a[4]),Draw::Atof(a[5]),Draw::Atof(a[6]),Precision::Confusion());
     else
-      res = BRepBuilderAPI_MakeShell(S,Draw::Atof(a[3]),Draw::Atof(a[4]),Draw::Atof(a[5]),Draw::Atof(a[6]),
+      res = BRepLib_MakeShell(S,Draw::Atof(a[3]),Draw::Atof(a[4]),Draw::Atof(a[5]),Draw::Atof(a[6]),
 			      Segment);
   }
   

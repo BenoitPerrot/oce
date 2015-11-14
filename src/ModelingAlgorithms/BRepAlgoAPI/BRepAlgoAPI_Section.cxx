@@ -25,7 +25,7 @@
 
 
 #include <BRepLib_MakeFace.hxx>
-#include <BRepBuilderAPI_MakeShell.hxx>
+#include <BRepLib_MakeShell.hxx>
 #include <Geom_Plane.hxx>
 #include <Geom2d_TrimmedCurve.hxx>
 
@@ -44,7 +44,7 @@ static TopoDS_Shape MakeShape(const Handle(Geom_Surface)& S)
 {
   GeomAbs_Shape c = S->Continuity();
   if (c >= GeomAbs_C2) return BRepLib_MakeFace(S, Precision::Confusion());
-  else return BRepBuilderAPI_MakeShell(S);
+  else return BRepLib_MakeShell(S);
 }
 
 static Standard_Boolean HasAncestorFaces(const BOPAlgo_PPaveFiller& theDSFiller, 
