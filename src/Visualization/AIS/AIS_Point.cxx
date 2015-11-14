@@ -50,7 +50,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_Point)
 #include <Select3D_SensitivePoint.hxx>
 #include <StdPrs_Point.hxx>
 #include <Geom_Point.hxx>
-#include <BRepBuilderAPI_MakeVertex.hxx>
+#include <BRepLib_MakeVertex.hxx>
 #include <AIS_Drawer.hxx>
 
 #include <AIS_InteractiveContext.hxx>
@@ -180,7 +180,7 @@ void AIS_Point::UnsetColor()
 TopoDS_Vertex AIS_Point::Vertex() const
 {
   gp_Pnt P = myComponent->Pnt();
-  return (TopoDS_Vertex) BRepBuilderAPI_MakeVertex(P);
+  return (TopoDS_Vertex) BRepLib_MakeVertex(P);
 }
 
 

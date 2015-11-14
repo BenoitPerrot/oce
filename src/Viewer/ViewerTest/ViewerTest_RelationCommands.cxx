@@ -1410,7 +1410,7 @@ static int VIdenticRelation(Draw_Interpretor& di, Standard_Integer argc, const c
 #include <BRepExtrema_DistShapeShape.hxx>
 #include <gce_MakePln.hxx>
 #include <TopExp_Explorer.hxx>
-#include <BRepBuilderAPI_MakeVertex.hxx>
+#include <BRepLib_MakeVertex.hxx>
 
 static int VLenghtDimension(Draw_Interpretor& di, Standard_Integer argc, const char** argv) 
 {
@@ -1607,7 +1607,7 @@ static int VLenghtDimension(Draw_Interpretor& di, Standard_Integer argc, const c
       gp_Pnt C = BRep_Tool::Pnt (aVertex2);
 
       gp_Pnt aProjA = aDeltaVertexFace.Point(1);
-      BRepBuilderAPI_MakeVertex aVertexMaker (aProjA);
+      BRepLib_MakeVertex aVertexMaker (aProjA);
       TopoDS_Vertex aVertexAProj = aVertexMaker.Vertex();
 
       // Create working plane for the dimension.
@@ -1662,7 +1662,7 @@ static int VLenghtDimension(Draw_Interpretor& di, Standard_Integer argc, const c
 #endif
 
       gp_Pnt aProjB = aDeltaVertexFace.Point(1);
-      BRepBuilderAPI_MakeVertex aVertexMaker (aProjB);
+      BRepLib_MakeVertex aVertexMaker (aProjB);
       TopoDS_Vertex aVertexBProj = aVertexMaker.Vertex();
       gce_MakePln aMakePlane (A, B, aProjB);
       gp_Pln aPlane= aMakePlane.Value();

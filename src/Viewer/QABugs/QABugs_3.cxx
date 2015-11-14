@@ -225,7 +225,7 @@ static int BUC60609(Draw_Interpretor& di, Standard_Integer argc, const char ** a
   return 0;
 }
 
-#include<BRepBuilderAPI_MakeVertex.hxx>
+#include<BRepLib_MakeVertex.hxx>
 #include<TCollection_ExtendedString.hxx>
 #include<AIS_LengthDimension.hxx>
 
@@ -239,8 +239,8 @@ static Standard_Integer BUC60632(Draw_Interpretor& di, Standard_Integer /*n*/, c
   }
   myAIScontext->EraseAll();
   
-  TopoDS_Vertex V1 = (TopoDS_Vertex) BRepBuilderAPI_MakeVertex(gp_Pnt(0,0,0)); 
-  TopoDS_Vertex V2 = (TopoDS_Vertex) BRepBuilderAPI_MakeVertex(gp_Pnt(10,10,0)); 
+  TopoDS_Vertex V1 = (TopoDS_Vertex) BRepLib_MakeVertex(gp_Pnt(0,0,0)); 
+  TopoDS_Vertex V2 = (TopoDS_Vertex) BRepLib_MakeVertex(gp_Pnt(10,10,0)); 
   
   Handle(AIS_Shape) Ve1 = new AIS_Shape(V1);
   Handle(AIS_Shape) Ve2 = new AIS_Shape(V2);
@@ -982,7 +982,7 @@ static Standard_Integer coordload (Draw_Interpretor& theDi,
   aPnt.SetY (Draw::Atof (&aLine[20]));
   aLine[20] = '\0';
   aPnt.SetX (Draw::Atof (aLine));
-  TopoDS_Vertex aVert1 = BRepBuilderAPI_MakeVertex (aPnt);
+  TopoDS_Vertex aVert1 = BRepLib_MakeVertex (aPnt);
   BRepBuilderAPI_MakeWire aMakeWire;
   for (;;)
   {
@@ -997,7 +997,7 @@ static Standard_Integer coordload (Draw_Interpretor& theDi,
     aPnt.SetY (Draw::Atof (&aLine[20]));
     aLine[20] = '\0';
     aPnt.SetX (Draw::Atof (aLine));
-    TopoDS_Vertex aVert2 = BRepBuilderAPI_MakeVertex (aPnt);
+    TopoDS_Vertex aVert2 = BRepLib_MakeVertex (aPnt);
     aMakeWire.Add (BRepBuilderAPI_MakeEdge (aVert1, aVert2));
     aVert1 = aVert2;
   }

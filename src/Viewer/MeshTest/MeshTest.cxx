@@ -90,7 +90,7 @@
 #include <BRepTools.hxx>
 
 //OAN: for triepoints
-#include <BRepBuilderAPI_MakeVertex.hxx>
+#include <BRepLib_MakeVertex.hxx>
 #include <Poly_PolygonOnTriangulation.hxx>
 #include <TopTools_MapIteratorOfMapOfShape.hxx>
 
@@ -1555,7 +1555,7 @@ Standard_Integer triedgepoints(Draw_Interpretor& di, Standard_Integer nbarg, con
           Sprintf(p,"%d_%d",nbEdge,j);
         else
           Sprintf(p,"%d",j);
-	      DBRep::Set( newname, BRepBuilderAPI_MakeVertex(P3d) );
+	      DBRep::Set( newname, BRepLib_MakeVertex(P3d) );
 	      di.AppendElement(newname);
       }
       nbEdge++;

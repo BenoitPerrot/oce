@@ -54,7 +54,7 @@
 #include <AIS_Trihedron.hxx>
 #include <Geom_Axis2Placement.hxx>
 #include <V3d_View.hxx>
-#include <BRepBuilderAPI_MakeVertex.hxx>
+#include <BRepLib_MakeVertex.hxx>
 #include <AIS_LengthDimension.hxx>
 #include <AIS_RadiusDimension.hxx>
 #include <BRepPrimAPI_MakeBox.hxx>
@@ -313,14 +313,14 @@ static Standard_Integer BUC60915_1(Draw_Interpretor& di, Standard_Integer argc, 
   gp_Pnt p6 = gp_Pnt(502.51,80.,0.);
   gp_Pnt p7 = gp_Pnt(102.51,80.,0.);
   gp_Pnt p8 = gp_Pnt(102.51,50.,0.);
-  TopoDS_Vertex V1 = (TopoDS_Vertex) BRepBuilderAPI_MakeVertex(p1);
-  TopoDS_Vertex V2 = (TopoDS_Vertex) BRepBuilderAPI_MakeVertex(p2);
-  TopoDS_Vertex V3 = (TopoDS_Vertex) BRepBuilderAPI_MakeVertex(p3);
-  TopoDS_Vertex V4 = (TopoDS_Vertex) BRepBuilderAPI_MakeVertex(p4);
-  TopoDS_Vertex V5 = (TopoDS_Vertex) BRepBuilderAPI_MakeVertex(p5);
-  TopoDS_Vertex V6 = (TopoDS_Vertex) BRepBuilderAPI_MakeVertex(p6);
-  TopoDS_Vertex V7 = (TopoDS_Vertex) BRepBuilderAPI_MakeVertex(p7);
-  TopoDS_Vertex V8 = (TopoDS_Vertex) BRepBuilderAPI_MakeVertex(p8);
+  TopoDS_Vertex V1 = (TopoDS_Vertex) BRepLib_MakeVertex(p1);
+  TopoDS_Vertex V2 = (TopoDS_Vertex) BRepLib_MakeVertex(p2);
+  TopoDS_Vertex V3 = (TopoDS_Vertex) BRepLib_MakeVertex(p3);
+  TopoDS_Vertex V4 = (TopoDS_Vertex) BRepLib_MakeVertex(p4);
+  TopoDS_Vertex V5 = (TopoDS_Vertex) BRepLib_MakeVertex(p5);
+  TopoDS_Vertex V6 = (TopoDS_Vertex) BRepLib_MakeVertex(p6);
+  TopoDS_Vertex V7 = (TopoDS_Vertex) BRepLib_MakeVertex(p7);
+  TopoDS_Vertex V8 = (TopoDS_Vertex) BRepLib_MakeVertex(p8);
   gp_Pnt plnpt(0, 0, 0);
   gp_Dir plndir(0, 0, 1);
   Handle(Geom_Plane) pln = new Geom_Plane(plnpt,plndir);

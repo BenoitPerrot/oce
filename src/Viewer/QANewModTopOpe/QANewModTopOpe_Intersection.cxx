@@ -23,7 +23,7 @@
 #include <TopExp_Explorer.hxx>
 #include <BRepExtrema_SupportType.hxx>
 #include <BRepExtrema_DistShapeShape.hxx>
-#include <BRepBuilderAPI_MakeVertex.hxx>
+#include <BRepLib_MakeVertex.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <gp_Pnt.hxx>
 #include <BRepAlgo_EdgeConnector.hxx>
@@ -98,7 +98,7 @@ QANewModTopOpe_Intersection::QANewModTopOpe_Intersection( const TopoDS_Shape& th
 	    }
 	    else {
 	      gp_Pnt p(.5*(p1.XYZ()+p2.XYZ()));
-	      BRepBuilderAPI_MakeVertex mkV(p);
+	      BRepLib_MakeVertex mkV(p);
 	      BB.Add(myShape, mkV.Vertex());
 
 	      if (!myMapGener.IsBound(DSS. SupportOnShape1(i))) {

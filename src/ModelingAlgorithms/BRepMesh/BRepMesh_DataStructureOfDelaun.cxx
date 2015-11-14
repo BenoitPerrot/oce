@@ -17,7 +17,7 @@
 #include <BRepMesh_DataStructureOfDelaun.hxx>
 #include <BRepMesh_PairOfIndex.hxx>
 #include <BRepBuilderAPI_MakeEdge.hxx>
-#include <BRepBuilderAPI_MakeVertex.hxx>
+#include <BRepLib_MakeVertex.hxx>
 
 #include <TopoDS_Compound.hxx>
 #include <BRep_Builder.hxx>
@@ -541,7 +541,7 @@ Standard_CString BRepMesh_Dump(void*            theMeshHandlePtr,
       {
         const gp_XY& aNode = aMeshData->GetNode(i).Coord();
         gp_Pnt aPnt(aNode.X(), aNode.Y(), 0.);
-        aBuilder.Add(aMesh, BRepBuilderAPI_MakeVertex(aPnt));
+        aBuilder.Add(aMesh, BRepLib_MakeVertex(aPnt));
       }
     }
     else

@@ -17,7 +17,7 @@
 #include <StlMesh_Mesh.hxx>
 #include <OSD_Path.hxx>
 #include <BRep_Builder.hxx>
-#include <BRepBuilderAPI_MakeVertex.hxx>
+#include <BRepLib_MakeVertex.hxx>
 #include <BRepBuilderAPI_MakePolygon.hxx>
 #include <BRepBuilderAPI_MakeFace.hxx>
 #include <BRepBuilderAPI_Sewing.hxx>
@@ -69,9 +69,9 @@ void StlAPI_Reader::Read(TopoDS_Shape& aShape, const Standard_CString aFileName)
       
       if ((!(p1.IsEqual(p2,0.0))) && (!(p1.IsEqual(p3,0.0))))
       {
-        Vertex1 = BRepBuilderAPI_MakeVertex(p1);
-        Vertex2 = BRepBuilderAPI_MakeVertex(p2);
-        Vertex3 = BRepBuilderAPI_MakeVertex(p3);
+        Vertex1 = BRepLib_MakeVertex(p1);
+        Vertex2 = BRepLib_MakeVertex(p2);
+        Vertex3 = BRepLib_MakeVertex(p3);
         
         AktWire = BRepBuilderAPI_MakePolygon( Vertex1, Vertex2, Vertex3, Standard_True);
         

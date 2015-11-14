@@ -35,7 +35,7 @@
 #include <Adaptor3d_HSurface.hxx>
 
 #include <BRepBuilderAPI_MakeEdge.hxx>
-#include <BRepBuilderAPI_MakeVertex.hxx>
+#include <BRepLib_MakeVertex.hxx>
 #include <BRepAdaptor_Curve.hxx>
 #include <BRepAdaptor_HSurface.hxx>
 #include <BRepAdaptor_Surface.hxx>
@@ -1481,7 +1481,7 @@ void AIS::ComputeProjEdgePresentation( const Handle( Prs3d_Presentation )& aPres
       }
     else
       {
-	BRepBuilderAPI_MakeVertex MakVert1( FirstP );
+	BRepLib_MakeVertex MakVert1( FirstP );
 	StdPrs_WFDeflectionShape::Add(aPresentation, MakVert1.Vertex(), aDrawer);
       }
     if (LastP.SquareDistance( ppl ) > SquareTolerance)
@@ -1491,7 +1491,7 @@ void AIS::ComputeProjEdgePresentation( const Handle( Prs3d_Presentation )& aPres
       }
     else
       {
-	BRepBuilderAPI_MakeVertex MakVert2( LastP );
+	BRepLib_MakeVertex MakVert2( LastP );
 	StdPrs_WFDeflectionShape::Add(aPresentation, MakVert2.Vertex(), aDrawer);
       }
 /*

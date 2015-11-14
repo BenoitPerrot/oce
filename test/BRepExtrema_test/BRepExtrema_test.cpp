@@ -5,7 +5,7 @@
 #include <gp_Vec.hxx>
 #include <gp_Dir.hxx>
 #include <gp_Pln.hxx>
-#include <BRepBuilderAPI_MakeVertex.hxx>
+#include <BRepLib_MakeVertex.hxx>
 #include <BRepBuilderAPI_MakeEdge.hxx>
 #include <BRepBuilderAPI_MakeFace.hxx>
 
@@ -61,7 +61,7 @@ TEST(BRepExtremaTestSuite, testDistSphereVertex)
     Standard_Real c = 20.0;
 
     gp_Pnt point(a,b,c);
-    TopoDS_Vertex V=BRepBuilderAPI_MakeVertex(point).Vertex();
+    TopoDS_Vertex V=BRepLib_MakeVertex(point).Vertex();
     BRepExtrema_DistShapeShape distSS;
     distSS.LoadS1(sphere1_shp);
     distSS.LoadS2(V);
@@ -81,12 +81,12 @@ TEST(BRepExtremaTestSuite, testDistSphereVertex)
 TEST(BRepExtremaTestSuite, testDistVertexEdge)
 {
     gp_Pnt point(0.0, 0.0, 0.0);
-    TopoDS_Vertex V=BRepBuilderAPI_MakeVertex(point).Vertex();
+    TopoDS_Vertex V=BRepLib_MakeVertex(point).Vertex();
     gp_Pnt point1(-1.0, 1.0, 0.0);
-    TopoDS_Vertex V1 = BRepBuilderAPI_MakeVertex(point1).Vertex();
+    TopoDS_Vertex V1 = BRepLib_MakeVertex(point1).Vertex();
     gp_Pnt point2( 1.0, 1.0, 0.0);
-    TopoDS_Vertex V2 = BRepBuilderAPI_MakeVertex(point2).Vertex();
-    TopoDS_Edge edge = BRepBuilderAPI_MakeEdge(V1, V2);
+    TopoDS_Vertex V2 = BRepLib_MakeVertex(point2).Vertex();
+    TopoDS_Edge edge = BRepLib_MakeEdge(V1, V2);
 
     BRepExtrema_DistShapeShape distSS(V, edge);
 
@@ -103,12 +103,12 @@ TEST(BRepExtremaTestSuite, testDistVertexEdge)
 TEST(BRepExtremaTestSuite, testDistEdgeVertex)
 {
     gp_Pnt point(0.0, 0.0, 0.0);
-    TopoDS_Vertex V=BRepBuilderAPI_MakeVertex(point).Vertex();
+    TopoDS_Vertex V=BRepLib_MakeVertex(point).Vertex();
     gp_Pnt point1(-1.0, 1.0, 0.0);
-    TopoDS_Vertex V1 = BRepBuilderAPI_MakeVertex(point1).Vertex();
+    TopoDS_Vertex V1 = BRepLib_MakeVertex(point1).Vertex();
     gp_Pnt point2( 1.0, 1.0, 0.0);
-    TopoDS_Vertex V2 = BRepBuilderAPI_MakeVertex(point2).Vertex();
-    TopoDS_Edge edge = BRepBuilderAPI_MakeEdge(V1, V2);
+    TopoDS_Vertex V2 = BRepLib_MakeVertex(point2).Vertex();
+    TopoDS_Edge edge = BRepLib_MakeEdge(V1, V2);
 
     BRepExtrema_DistShapeShape distSS(edge, V);
 
@@ -124,12 +124,12 @@ TEST(BRepExtremaTestSuite, testDistEdgeVertex)
 TEST(BRepExtremaTestSuite, testDistVertexFace)
 {
     gp_Pnt point(0.0, 0.0, 0.0);
-    TopoDS_Vertex V=BRepBuilderAPI_MakeVertex(point).Vertex();
+    TopoDS_Vertex V=BRepLib_MakeVertex(point).Vertex();
 
     gp_Pnt pointF(0.0, 0.0, 1.0);
     gp_Dir dirF(0.0, 0.0, 1.0);
     gp_Pln Plane(pointF, dirF);
-    TopoDS_Face F = BRepBuilderAPI_MakeFace(Plane, -1.0, 1.0, -1.0, 1.0);
+    TopoDS_Face F = BRepLib_MakeFace(Plane, -1.0, 1.0, -1.0, 1.0);
 
     BRepExtrema_DistShapeShape distSS(V, F);
 
@@ -146,12 +146,12 @@ TEST(BRepExtremaTestSuite, testDistVertexFace)
 TEST(BRepExtremaTestSuite, testDistFaceVertex)
 {
     gp_Pnt point(0.0, 0.0, 0.0);
-    TopoDS_Vertex V=BRepBuilderAPI_MakeVertex(point).Vertex();
+    TopoDS_Vertex V=BRepLib_MakeVertex(point).Vertex();
 
     gp_Pnt pointF(0.0, 0.0, 1.0);
     gp_Dir dirF(0.0, 0.0, 1.0);
     gp_Pln Plane(pointF, dirF);
-    TopoDS_Face F = BRepBuilderAPI_MakeFace(Plane, -1.0, 1.0, -1.0, 1.0);
+    TopoDS_Face F = BRepLib_MakeFace(Plane, -1.0, 1.0, -1.0, 1.0);
 
     BRepExtrema_DistShapeShape distSS(F, V);
 

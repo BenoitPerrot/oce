@@ -68,7 +68,7 @@
 
 #include <BRepBuilderAPI_MakeFace.hxx>
 #include <BRepBuilderAPI_MakeEdge.hxx>
-#include <BRepBuilderAPI_MakeVertex.hxx>
+#include <BRepLib_MakeVertex.hxx>
 #include <BRepLib.hxx>
 #include <BRep_Builder.hxx>
 #include <Precision.hxx>
@@ -824,7 +824,7 @@ void StepToTopoDS_Builder::Init
       Handle(StepGeom_CartesianPoint) aPnt = Handle(StepGeom_CartesianPoint)::DownCast ( ent );
       Handle(Geom_CartesianPoint) thePnt;
       if (StepToGeom_MakeCartesianPoint::Convert(aPnt,thePnt)) {
-        BRepBuilderAPI_MakeVertex myMkVtx(thePnt->Pnt());
+        BRepLib_MakeVertex myMkVtx(thePnt->Pnt());
         if ( myMkVtx.IsDone() ) res = myMkVtx.Vertex();
       }
     }

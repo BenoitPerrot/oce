@@ -26,7 +26,7 @@ IMPLEMENT_STANDARD_TYPE_END(DNaming_PointDriver)
 IMPLEMENT_DOWNCAST(DNaming_PointDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(DNaming_PointDriver)
 //OCCT
-#include <BRepBuilderAPI_MakeVertex.hxx>
+#include <BRepLib_MakeVertex.hxx>
 #include <TopLoc_Location.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Vertex.hxx>
@@ -111,7 +111,7 @@ Standard_Integer DNaming_PointDriver::Execute(TFunction_Logbook& theLog) const
   } else 
     aPoint = gp_Pnt(aDX, aDY, aDZ);
 
-  BRepBuilderAPI_MakeVertex aMakeVertex(aPoint);
+  BRepLib_MakeVertex aMakeVertex(aPoint);
 
   if(!aMakeVertex.IsDone()) {
     aFunction->SetFailure(ALGO_FAILED);

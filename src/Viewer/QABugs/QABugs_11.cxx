@@ -550,13 +550,13 @@ Standard_Integer  OCC165(Draw_Interpretor& di ,
 		zA = 0.0, zB = 0.0, zC = 0.0, zD = 0.0;
 
 	BRepBuilderAPI_MakePolygon theSquare;
-	TopoDS_Vertex theA = BRepBuilderAPI_MakeVertex(gp_Pnt(xA, yA, zA));
+	TopoDS_Vertex theA = BRepLib_MakeVertex(gp_Pnt(xA, yA, zA));
 	theSquare.Add(theA);
-	TopoDS_Vertex theB = BRepBuilderAPI_MakeVertex(gp_Pnt(xB, yB, zB));
+	TopoDS_Vertex theB = BRepLib_MakeVertex(gp_Pnt(xB, yB, zB));
 	theSquare.Add(theB);
-	TopoDS_Vertex theC = BRepBuilderAPI_MakeVertex(gp_Pnt(xC, yC, zC));
+	TopoDS_Vertex theC = BRepLib_MakeVertex(gp_Pnt(xC, yC, zC));
 	theSquare.Add(theC);
-	TopoDS_Vertex theD = BRepBuilderAPI_MakeVertex(gp_Pnt(xD, yD, zD));
+	TopoDS_Vertex theD = BRepLib_MakeVertex(gp_Pnt(xD, yD, zD));
 	theSquare.Add(theD);
 
 	theSquare.Close();

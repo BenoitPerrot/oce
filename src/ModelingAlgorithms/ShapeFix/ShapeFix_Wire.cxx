@@ -109,7 +109,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Wire)
 #include <BRep_TEdge.hxx>
 #include <BRep_GCurve.hxx>
 #include <BRepBuilderAPI_MakeEdge.hxx>
-#include <BRepBuilderAPI_MakeVertex.hxx>
+#include <BRepLib_MakeVertex.hxx>
 #include <BRepTools.hxx>
 
 #include <Message_Msg.hxx>
@@ -2875,9 +2875,9 @@ Standard_Boolean ShapeFix_Wire::FixLacking (const Standard_Integer num,
     // construct new vertices
     TopoDS_Vertex newV1, newV2;
     if ( doAddLong ) {
-      newV1 = BRepBuilderAPI_MakeVertex ( p3d1 );
+      newV1 = BRepLib_MakeVertex ( p3d1 );
       newV1.Reverse();
-      newV2 = BRepBuilderAPI_MakeVertex ( p3d2 );
+      newV2 = BRepLib_MakeVertex ( p3d2 );
       B.UpdateVertex ( newV1, 1.001 * tol1 );
       B.UpdateVertex ( newV2, 1.001 * tol2 );
     }

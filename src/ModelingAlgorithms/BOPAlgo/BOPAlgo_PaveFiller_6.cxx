@@ -96,7 +96,6 @@
 #include <BOPDS_CommonBlock.hxx>
 
 #include <BOPAlgo_Tools.hxx>
-#include <BRepBuilderAPI_MakeVertex.hxx>
 #include <TopExp.hxx>
 #include <IntTools_ShrunkRange.hxx>
 #include <BOPDS_DataMapOfPaveBlockListOfPaveBlock.hxx>

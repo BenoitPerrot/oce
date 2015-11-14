@@ -22,7 +22,7 @@
 #include <BRepPrimAPI_MakeHalfSpace.hxx>
 
 #include <BRep_Builder.hxx>
-#include <BRepBuilderAPI_MakeVertex.hxx>
+#include <BRepLib_MakeVertex.hxx>
 #include <BRepExtrema_ExtPF.hxx>
 #include <BRepLProp_SLProps.hxx>
 #include <gp.hxx>
@@ -52,7 +52,7 @@ static Standard_Real FindExtrema(const gp_Pnt&        aPnt,
 {
   Standard_Integer intvalue=0;
   Dist = RealLast();
-  TopoDS_Vertex RefVertex = (TopoDS_Vertex) BRepBuilderAPI_MakeVertex(aPnt);
+  TopoDS_Vertex RefVertex = (TopoDS_Vertex) BRepLib_MakeVertex(aPnt);
   
   BRepExtrema_ExtPF ext(RefVertex,aFace);
   

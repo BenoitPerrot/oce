@@ -181,7 +181,6 @@ static Standard_Integer DrawDim_CENTER (Draw_Interpretor& di,
       gp_Pnt center = circle.Location ();
 //:abv: avoid dependence on TKTopAlgo
       TopoDS_Vertex vc;
-//      = BRepBuilderAPI_MakeVertex (center);
       BRep_Builder B;
       B.MakeVertex(vc,center,Precision::Confusion());
       DBRep::Set(arg[1],vc);

@@ -24,7 +24,7 @@
 #include <TColgp_HArray1OfPnt2d.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>
 #include <BRepBuilderAPI.hxx>
-#include <BRepBuilderAPI_MakeVertex.hxx>
+#include <BRepLib_MakeVertex.hxx>
 #include <BRepBuilderAPI_MakeEdge.hxx>
 #include <BRepBuilderAPI_MakeEdge2d.hxx>
 #include <BRepBuilderAPI_MakeFace.hxx>
@@ -82,7 +82,7 @@ static Standard_Integer vertex(Draw_Interpretor& , Standard_Integer n, const cha
   if (n < 3) return 1;
   if (n >= 5) {
     DBRep::Set(a[1],
-      BRepBuilderAPI_MakeVertex(gp_Pnt(Draw::Atof(a[2]),Draw::Atof(a[3]),Draw::Atof(a[4]))));
+      BRepLib_MakeVertex(gp_Pnt(Draw::Atof(a[2]),Draw::Atof(a[3]),Draw::Atof(a[4]))));
   }
   else if (n == 4)
   {
@@ -92,13 +92,13 @@ static Standard_Integer vertex(Draw_Interpretor& , Standard_Integer n, const cha
     BRepAdaptor_Curve C(TopoDS::Edge(S));
     gp_Pnt P;
     C.D0(Draw::Atof(a[2]),P);
-    DBRep::Set(a[1], BRepBuilderAPI_MakeVertex(P));
+    DBRep::Set(a[1], BRepLib_MakeVertex(P));
   }
   else
   {
     Handle(DrawTrSurf_Point) aP =
       Handle(DrawTrSurf_Point)::DownCast(Draw::Get(a[2]));
-    DBRep::Set(a[1], BRepBuilderAPI_MakeVertex(aP->Point()));
+    DBRep::Set(a[1], BRepLib_MakeVertex(aP->Point()));
   }
   return 0;
 }

@@ -1417,7 +1417,7 @@ static Standard_Integer OCC24945 (Draw_Interpretor& di, Standard_Integer argc, c
 #include <Extrema_FuncExtPS.hxx>
 #include <math_FunctionSetRoot.hxx>
 #include <math_Vector.hxx>
-#include <BRepBuilderAPI_MakeVertex.hxx>
+#include <BRepLib_MakeVertex.hxx>
 static Standard_Integer OCC24137 (Draw_Interpretor& theDI, Standard_Integer theNArg, const char** theArgv) 
 {
   Standard_Integer anArgIter = 1;
@@ -1473,7 +1473,7 @@ static Standard_Integer OCC24137 (Draw_Interpretor& theDI, Standard_Integer theN
   theDI << aRoot.Root()(1) << " " << aRoot.Root()(2) << "\n";
   
   aSurf.D0 (aRoot.Root()(1), aRoot.Root()(2), aRes);
-  DBRep::Set ("result", BRepBuilderAPI_MakeVertex (aRes));
+  DBRep::Set ("result", BRepLib_MakeVertex (aRes));
   return 0;
 }
 
@@ -1813,7 +1813,7 @@ static Standard_Integer OCC23950 (Draw_Interpretor& di, Standard_Integer argc, c
   }
 
   Handle(TDocStd_Document) aDoc = new TDocStd_Document ("dummy");
-  TopoDS_Shape s6 = BRepBuilderAPI_MakeVertex (gp_Pnt (75, 0, 0));
+  TopoDS_Shape s6 = BRepLib_MakeVertex (gp_Pnt (75, 0, 0));
   gp_Trsf t0;
   TopLoc_Location location0 (t0);
 

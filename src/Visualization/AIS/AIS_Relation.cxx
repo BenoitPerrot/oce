@@ -72,7 +72,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_Relation)
 
 
 #include <Precision.hxx>
-#include <BRepBuilderAPI_MakeVertex.hxx>
+#include <BRepLib_MakeVertex.hxx>
 
 //=======================================================================
 //function : AIS_Relation
@@ -166,7 +166,7 @@ void AIS_Relation::ComputeProjEdgePresentation(const Handle(Prs3d_Presentation)&
       }
     else
       {
-	BRepBuilderAPI_MakeVertex MakVert1( FirstP );
+	BRepLib_MakeVertex MakVert1( FirstP );
 	StdPrs_WFDeflectionShape::Add(aPrs, MakVert1.Vertex(), myDrawer);
       }
     if (LastP.Distance( ppl ) > gp::Resolution())
@@ -176,7 +176,7 @@ void AIS_Relation::ComputeProjEdgePresentation(const Handle(Prs3d_Presentation)&
       }
     else
       {
-	BRepBuilderAPI_MakeVertex MakVert2( LastP );
+	BRepLib_MakeVertex MakVert2( LastP );
 	StdPrs_WFDeflectionShape::Add(aPrs, MakVert2.Vertex(), myDrawer);
       }
 /*

@@ -77,7 +77,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Face)
 #include <BRepTopAdaptor_FClass2d.hxx>
 #include <BRepTools.hxx>
 #include <BRepBuilderAPI_MakeFace.hxx>
-#include <BRepBuilderAPI_MakeVertex.hxx>
+#include <BRepLib_MakeVertex.hxx>
 #include <BRepBuilderAPI_MakeWire.hxx>
 
 #include <Message_Msg.hxx>  
@@ -2597,7 +2597,7 @@ Standard_Boolean ShapeFix_Face::FixPeriodicDegenerated()
   Standard_Real anApexV = -aConeBaseH;
 
   // Get apex vertex
-  TopoDS_Vertex anApex = (TopoDS_Vertex) BRepBuilderAPI_MakeVertex( aConeSurf->Apex() );
+  TopoDS_Vertex anApex = (TopoDS_Vertex) BRepLib_MakeVertex( aConeSurf->Apex() );
 
   // ====================================
   //  Build degenerated edge in the apex

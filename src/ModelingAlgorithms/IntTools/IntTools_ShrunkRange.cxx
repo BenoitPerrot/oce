@@ -26,7 +26,7 @@
 #include <Geom_Curve.hxx>
 
 #include <BRep_Tool.hxx>
-#include <BRepBuilderAPI_MakeVertex.hxx>
+#include <BRepLib_MakeVertex.hxx>
 #include <BRepAdaptor_Curve.hxx>
 #include <BndLib_Add3dCurve.hxx>
 #include <IntTools_Context.hxx>
@@ -347,7 +347,7 @@ void IntTools_ShrunkRange::Perform()
                        aP1.Y()+d1*aD11.Y(),
                        aP1.Z()+d1*aD11.Z());
 
-        BRepBuilderAPI_MakeVertex aMV1(aP1L);
+        BRepLib_MakeVertex aMV1(aP1L);
         const TopoDS_Vertex& aV1L=aMV1.Vertex();
         //
         pri=myCtx->ComputeVE (aV1L, myEdge, t1C);
@@ -447,7 +447,7 @@ void IntTools_ShrunkRange::Perform()
                        aP2.Y()+d2*aD12.Y(),
                        aP2.Z()+d2*aD12.Z());
 
-        BRepBuilderAPI_MakeVertex aMV2(aP2L);
+        BRepLib_MakeVertex aMV2(aP2L);
         const TopoDS_Vertex& aV2L=aMV2.Vertex();
         //
         pri=myCtx->ComputeVE (aV2L, myEdge, t2C);

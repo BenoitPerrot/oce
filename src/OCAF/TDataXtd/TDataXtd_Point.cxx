@@ -38,7 +38,7 @@ IMPLEMENT_STANDARD_RTTI(TDataXtd_Point)
 #include <TopoDS.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <TopAbs.hxx>
-#include <BRepBuilderAPI_MakeVertex.hxx>
+#include <BRepLib_MakeVertex.hxx>
 
 #include <Geom_CartesianPoint.hxx>
 
@@ -98,7 +98,7 @@ Handle(TDataXtd_Point) TDataXtd_Point::Set (const TDF_Label& L, const gp_Pnt& P)
 #endif
 
   TNaming_Builder B(L);
-  B.Generated(BRepBuilderAPI_MakeVertex(P));
+  B.Generated(BRepLib_MakeVertex(P));
   return A;
 }
 

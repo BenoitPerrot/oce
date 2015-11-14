@@ -28,7 +28,6 @@
 #include <BRepAlgo_Section.hxx>
 
 #include <BRepFilletAPI_MakeFillet.hxx>
-#include <BRepBuilderAPI_MakeVertex.hxx>
 #include <BRepPrimAPI_MakeHalfSpace.hxx>
 #include <BRepAlgo_FaceRestrictor.hxx>
 #include <BRepExtrema_ExtPF.hxx>
