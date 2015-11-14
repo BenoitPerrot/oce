@@ -26,7 +26,7 @@
 #include <BRepBuilderAPI.hxx>
 #include <BRepLib_MakeVertex.hxx>
 #include <BRepLib_MakeEdge.hxx>
-#include <BRepBuilderAPI_MakeEdge2d.hxx>
+#include <BRepLib_MakeEdge2d.hxx>
 #include <BRepBuilderAPI_MakeFace.hxx>
 #include <BRepBuilderAPI_MakeWire.hxx>
 #include <BRepBuilderAPI_MakePolygon.hxx>
@@ -263,7 +263,7 @@ static Standard_Integer mkedge(Draw_Interpretor& di, Standard_Integer n, const c
 
   if (n == 3) {
     if (!C.IsNull())   edge = BRepLib_MakeEdge(C);
-    else               edge = BRepBuilderAPI_MakeEdge2d(C2d);
+    else               edge = BRepLib_MakeEdge2d(C2d);
   }
   else {
     Handle(Geom_Surface) S;
@@ -280,7 +280,7 @@ static Standard_Integer mkedge(Draw_Interpretor& di, Standard_Integer n, const c
         if (!C.IsNull())   
           edge = BRepLib_MakeEdge(C,Draw::Atof(a[3]),Draw::Atof(a[4]));
         else if (S.IsNull())              
-          edge = BRepBuilderAPI_MakeEdge2d(C2d,Draw::Atof(a[3]),Draw::Atof(a[4]));
+          edge = BRepLib_MakeEdge2d(C2d,Draw::Atof(a[3]),Draw::Atof(a[4]));
         else
           edge = BRepLib_MakeEdge(C2d,S,Draw::Atof(a[4]),Draw::Atof(a[5]));
       }
@@ -291,7 +291,7 @@ static Standard_Integer mkedge(Draw_Interpretor& di, Standard_Integer n, const c
         if (!C.IsNull())   
           edge = BRepLib_MakeEdge(C,V1,V2);
         else if (S.IsNull())              
-          edge = BRepBuilderAPI_MakeEdge2d(C2d,V1,V2);
+          edge = BRepLib_MakeEdge2d(C2d,V1,V2);
         else
           edge = BRepLib_MakeEdge(C2d,S,V1,V2);
       }
@@ -303,7 +303,7 @@ static Standard_Integer mkedge(Draw_Interpretor& di, Standard_Integer n, const c
       if (!C.IsNull())   
         edge = BRepLib_MakeEdge(C,V1,V2,Draw::Atof(a[4]),Draw::Atof(a[6]));
       else if (S.IsNull())         
-        edge = BRepBuilderAPI_MakeEdge2d(C2d,V1,V2,Draw::Atof(a[4]),Draw::Atof(a[6]));
+        edge = BRepLib_MakeEdge2d(C2d,V1,V2,Draw::Atof(a[4]),Draw::Atof(a[6]));
       else              
         edge = BRepLib_MakeEdge(C2d,S,V1,V2,Draw::Atof(a[5]),Draw::Atof(a[7]));
     }
