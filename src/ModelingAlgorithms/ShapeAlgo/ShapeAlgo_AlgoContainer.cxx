@@ -47,7 +47,6 @@ IMPLEMENT_STANDARD_RTTI(ShapeAlgo_AlgoContainer)
 #include <BRep_Builder.hxx>
 #include <BRep_Tool.hxx>
 #include <BRepLib_MakeEdge.hxx>
-#include <BRepBuilderAPI_MakeWire.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Wire.hxx>
@@ -450,7 +449,6 @@ void ShapeAlgo_AlgoContainer::ApproxBSplineCurve (const Handle(Geom2d_BSplineCur
   TopoDS_Iterator  Cook,      Perry;
   TopoDS_Edge      edge1,     edge2;
   TopLoc_Location  loc1,      loc2;
-//  BRepBuilderAPI_MakeWire makeWire1, makeWire2;
   ShapeExtend_WireData makeWire1, makeWire2;
   Standard_Boolean iterCook,  iterPerry;
   Standard_Integer nEdges1,   nEdges2;

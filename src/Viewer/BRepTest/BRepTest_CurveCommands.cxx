@@ -28,7 +28,7 @@
 #include <BRepLib_MakeEdge.hxx>
 #include <BRepLib_MakeEdge2d.hxx>
 #include <BRepBuilderAPI_MakeFace.hxx>
-#include <BRepBuilderAPI_MakeWire.hxx>
+#include <BRepLib_MakeWire.hxx>
 #include <BRepBuilderAPI_MakePolygon.hxx>
 #include <BRepOffsetAPI_MakeOffset.hxx>
 #include <BRepLib.hxx>
@@ -223,7 +223,7 @@ static Standard_Integer wire(Draw_Interpretor& di, Standard_Integer n, const cha
 {
   if (n < 3) return 1;
   Standard_Integer i;
-  BRepBuilderAPI_MakeWire MW;
+  BRepLib_MakeWire MW;
   for (i = 2; i < n; i ++) {
     TopoDS_Shape S = DBRep::Get(a[i]);
     if (S.IsNull()) continue;
@@ -598,7 +598,7 @@ static Standard_Integer profile(Draw_Interpretor& di,
 
   Standard_Integer i = 2;
   Standard_Real x0 = 0, y0 = 0, x = 0, y = 0, dx = 1, dy = 0;
-  BRepBuilderAPI_MakeWire MW;
+  BRepLib_MakeWire MW;
   gp_Ax3 DummyHP(gp::XOY());
   gp_Pln P(DummyHP);
   enum {line , circle, none} move;
@@ -969,7 +969,7 @@ static Standard_Integer bsplineprof(Draw_Interpretor& di,
     wait = 1 ;
 //  Standard_Real x0 = 0, y0 = 0, x = 0, y = 0, dx = 1, dy = 0;
   Standard_Real x = 0, y = 0, dx = 1, dy = 0;
-  BRepBuilderAPI_MakeWire MW;
+  BRepLib_MakeWire MW;
   gp_Ax3 DummyHP(gp::XOY());
   gp_Pln P(DummyHP);
   Standard_Boolean face  = Standard_True;

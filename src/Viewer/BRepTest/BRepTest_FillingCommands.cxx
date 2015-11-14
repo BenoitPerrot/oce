@@ -67,7 +67,7 @@
 
 #include <TopoDS_Wire.hxx>
 #include <BRepLib_MakeEdge.hxx>
-#include <BRepBuilderAPI_MakeWire.hxx>
+#include <BRepLib_MakeWire.hxx>
 #include <BRepBuilderAPI_WireError.hxx>
 #include <BRepBuilderAPI_MakeFace.hxx>
 #include <TColGeom2d_HArray1OfCurve.hxx>
@@ -177,7 +177,7 @@ static Standard_Integer plate (Draw_Interpretor & di,Standard_Integer n,const ch
   //cout<<" dist. max = "<<Henri.G0Error()<<" ; angle max = "<<Henri.G1Error()<<endl;
   di<<" dist. max = "<<Henri.G0Error()<<" ; angle max = "<<Henri.G1Error()<<"\n";
 
-  BRepBuilderAPI_MakeWire MW;
+  BRepLib_MakeWire MW;
   for (i=1 ; i<=NbCurFront ; i++) {
     Standard_Integer iInOrder=Henri.Order()->Value(i);
     TopoDS_Edge E;
@@ -412,7 +412,7 @@ static Standard_Integer approxplate (Draw_Interpretor & di,Standard_Integer n,co
     }
   }
 
-  BRepBuilderAPI_MakeWire MW;
+  BRepLib_MakeWire MW;
   BRep_Builder B;
   for (i=1 ; i<=NbCurFront ; i++) {
     Standard_Integer iInOrder=Henri.Order()->Value(i);

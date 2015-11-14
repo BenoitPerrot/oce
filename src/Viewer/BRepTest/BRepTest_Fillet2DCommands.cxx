@@ -37,7 +37,7 @@
 #include <ChFi2d_FilletAPI.hxx>
 #include <ChFi2d_ChamferAPI.hxx>
 
-#include <BRepBuilderAPI_MakeWire.hxx>
+#include <BRepLib_MakeWire.hxx>
 #include <BRepBuilderAPI_FindPlane.hxx>
 #include <BRep_Builder.hxx>
 
@@ -340,7 +340,7 @@ static Standard_Integer fillet2d(Draw_Interpretor& di, Standard_Integer n, const
   }
   else // recreate the wire using the fillet
   {
-    BRepBuilderAPI_MakeWire mkWire(M1, fillet, M2);
+    BRepLib_MakeWire mkWire(M1, fillet, M2);
     if (mkWire.IsDone())
       DBRep::Set(a[1], mkWire.Wire());
     else
@@ -417,7 +417,7 @@ static Standard_Integer chamfer2d(Draw_Interpretor& di, Standard_Integer n, cons
   }
   else // recreate the wire using the chamfer
   {
-    BRepBuilderAPI_MakeWire mkWire(M1, chamfer, M2);
+    BRepLib_MakeWire mkWire(M1, chamfer, M2);
     if (mkWire.IsDone())
       DBRep::Set(a[1], mkWire.Wire());
     else

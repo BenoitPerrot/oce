@@ -78,7 +78,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Face)
 #include <BRepTools.hxx>
 #include <BRepBuilderAPI_MakeFace.hxx>
 #include <BRepLib_MakeVertex.hxx>
-#include <BRepBuilderAPI_MakeWire.hxx>
+#include <BRepLib_MakeWire.hxx>
 
 #include <Message_Msg.hxx>  
 #include <ShapeBuild_ReShape.hxx>
@@ -2638,7 +2638,7 @@ Standard_Boolean ShapeFix_Face::FixPeriodicDegenerated()
   aBuilder.Add( anApexEdge, anApex.Reversed() );
   aBuilder.Degenerated(anApexEdge, Standard_True);
   aBuilder.Range( anApexEdge, 0, fabs(aMaxLoopU - aMinLoopU) );
-  TopoDS_Wire anApexWire = (TopoDS_Wire) BRepBuilderAPI_MakeWire(anApexEdge);
+  TopoDS_Wire anApexWire = (TopoDS_Wire) BRepLib_MakeWire(anApexEdge);
 
   // ===============================================================
   //  Finalize the fix building new face and setting up the results

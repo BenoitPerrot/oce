@@ -30,7 +30,7 @@
 #include <IntCurveSurface_IntersectionPoint.hxx>
 #include <TopoDS_Edge.hxx>
 #include <BRepLib_MakeEdge.hxx>
-#include <BRepBuilderAPI_MakeWire.hxx>
+#include <BRepLib_MakeWire.hxx>
 #include <Standard_ErrorHandler.hxx>
 
 #include <stdio.h>
@@ -93,7 +93,7 @@ static Standard_Integer OCC5696 (Draw_Interpretor& di, Standard_Integer argc, co
     return 1;
   }
   TopoDS_Edge edge = (TopoDS_Edge) BRepLib_MakeEdge(gp_Pnt(0,0,0),gp_Pnt(2,0,0));
-  TopoDS_Wire wire = (TopoDS_Wire) BRepBuilderAPI_MakeWire(edge);
+  TopoDS_Wire wire = (TopoDS_Wire) BRepLib_MakeWire(edge);
   BRepAdaptor_CompCurve curve(wire);
   Standard_Real first = curve.FirstParameter();
   Standard_Real last = curve.LastParameter();

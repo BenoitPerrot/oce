@@ -53,7 +53,7 @@
 #include <TopoDS_Shell.hxx>
 
 // mpv modifications 08.04.2002
-#include <BRepBuilderAPI_MakeWire.hxx>
+#include <BRepLib_MakeWire.hxx>
 #include <BRepBuilderAPI_MakeFace.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Shape.hxx>
@@ -444,7 +444,7 @@ static TopoDS_Shape ShapeWithType(const TopoDS_Shape     theShape,
       break;
     case TopAbs_EDGE: {// make wire from edges
       if (theType <= TopAbs_SOLID) break;
-      BRepBuilderAPI_MakeWire aMakeWire;
+      BRepLib_MakeWire aMakeWire;
       aMakeWire.Add(aShapes);
       if (!aMakeWire.IsDone()) return theShape;
       if (theType == TopAbs_WIRE) return aMakeWire.Wire();

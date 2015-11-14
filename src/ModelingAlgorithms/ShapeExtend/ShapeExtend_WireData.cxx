@@ -39,7 +39,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeExtend_WireData)
 #include <TopTools_IndexedMapOfShape.hxx>
 #include <BRep_Tool.hxx>
 #include <BRep_Builder.hxx>
-#include <BRepBuilderAPI_MakeWire.hxx>
+#include <BRepLib_MakeWire.hxx>
 #include <BRepTools_WireExplorer.hxx>
 
 //=======================================================================
@@ -607,7 +607,7 @@ TopoDS_Wire ShapeExtend_WireData::Wire() const
 TopoDS_Wire ShapeExtend_WireData::WireAPIMake() const
 {
   TopoDS_Wire W;
-  BRepBuilderAPI_MakeWire MW;
+  BRepLib_MakeWire MW;
   Standard_Integer i, nb = NbEdges();
   for (i = 1; i <= nb; i ++)  MW.Add (Edge(i));
   if(myManifoldMode) {

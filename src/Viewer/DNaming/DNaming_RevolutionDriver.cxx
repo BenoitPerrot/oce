@@ -61,7 +61,7 @@ IMPLEMENT_STANDARD_RTTI(DNaming_RevolutionDriver)
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 #include <TopTools_MapIteratorOfMapOfShape.hxx>
 #include <TopExp.hxx>
-#include <BRepBuilderAPI_MakeWire.hxx>
+#include <BRepLib_MakeWire.hxx>
 
 // OCAF
 #include <TDataStd_Integer.hxx>
@@ -408,7 +408,7 @@ void DNaming_RevolutionDriver::LoadNamingDS (const TDF_Label& theResultLabel,
       TopExp::Vertices(TopoDS::Wire(Basis), Vfirst, Vlast);
     }
   } else if(Basis.ShapeType() == TopAbs_EDGE) {
-    BRepBuilderAPI_MakeWire aMakeWire;
+    BRepLib_MakeWire aMakeWire;
     aMakeWire.Add(TopoDS::Edge(Basis));
     if(aMakeWire.IsDone()) {
       Handle(BRepCheck_Wire) aCheck = new BRepCheck_Wire(aMakeWire.Wire());

@@ -4,7 +4,7 @@
 
 #include <BRepLib_MakeEdge.hxx>
 #include <BRepBuilderAPI_MakeFace.hxx>
-#include <BRepBuilderAPI_MakeWire.hxx>
+#include <BRepLib_MakeWire.hxx>
 #include <BRepBuilderAPI_Transform.hxx>
 
 #include <BRepFilletAPI_MakeFillet.hxx>
@@ -73,7 +73,7 @@ MakeBottle(const Standard_Real myWidth, const Standard_Real myHeight,
   TopoDS_Edge anEdge1 = BRepLib_MakeEdge(aSegment1);
   TopoDS_Edge anEdge2 = BRepLib_MakeEdge(anArcOfCircle);
   TopoDS_Edge anEdge3 = BRepLib_MakeEdge(aSegment2);
-  TopoDS_Wire aWire  = BRepBuilderAPI_MakeWire(anEdge1, anEdge2, anEdge3);
+  TopoDS_Wire aWire  = BRepLib_MakeWire(anEdge1, anEdge2, anEdge3);
 
   // Complete Profile
   gp_Ax1 xAxis = gp::OX();
@@ -84,7 +84,7 @@ MakeBottle(const Standard_Real myWidth, const Standard_Real myHeight,
   TopoDS_Shape aMirroredShape = aBRepTrsf.Shape();
   TopoDS_Wire aMirroredWire = TopoDS::Wire(aMirroredShape);
 
-  BRepBuilderAPI_MakeWire mkWire;
+  BRepLib_MakeWire mkWire;
   mkWire.Add(aWire);
   mkWire.Add(aMirroredWire);
   TopoDS_Wire myWireProfile = mkWire.Wire();
@@ -166,8 +166,8 @@ MakeBottle(const Standard_Real myWidth, const Standard_Real myHeight,
   TopoDS_Edge anEdge2OnSurf1 = BRepLib_MakeEdge(aSegment, aCyl1);
   TopoDS_Edge anEdge1OnSurf2 = BRepLib_MakeEdge(anArc2, aCyl2);
   TopoDS_Edge anEdge2OnSurf2 = BRepLib_MakeEdge(aSegment, aCyl2);
-  TopoDS_Wire threadingWire1 = BRepBuilderAPI_MakeWire(anEdge1OnSurf1, anEdge2OnSurf1);
-  TopoDS_Wire threadingWire2 = BRepBuilderAPI_MakeWire(anEdge1OnSurf2, anEdge2OnSurf2);
+  TopoDS_Wire threadingWire1 = BRepLib_MakeWire(anEdge1OnSurf1, anEdge2OnSurf1);
+  TopoDS_Wire threadingWire2 = BRepLib_MakeWire(anEdge1OnSurf2, anEdge2OnSurf2);
   BRepLib::BuildCurves3d(threadingWire1);
   BRepLib::BuildCurves3d(threadingWire2);
 

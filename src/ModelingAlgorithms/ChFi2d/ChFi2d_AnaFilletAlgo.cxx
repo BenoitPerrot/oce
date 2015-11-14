@@ -21,7 +21,7 @@
 #include <Standard_TypeMismatch.hxx>
 
 #include <BRepLib_MakeEdge.hxx>
-#include <BRepBuilderAPI_MakeWire.hxx>
+#include <BRepLib_MakeWire.hxx>
 #include <BRepBuilderAPI_MakeFace.hxx>
 
 #include <GeomAPI_ExtremaCurveCurve.hxx>
@@ -219,7 +219,7 @@ void ChFi2d_AnaFilletAlgo::Init(const TopoDS_Edge& theEdge1, const TopoDS_Edge& 
     is2ndReversed = Standard_True;
 
   // Make a wire.
-  BRepBuilderAPI_MakeWire mkWire;
+  BRepLib_MakeWire mkWire;
   if (is1stReversed)
     mkWire.Add(TopoDS::Edge(theEdge1.Reversed()));
   else
@@ -257,7 +257,7 @@ Standard_Boolean ChFi2d_AnaFilletAlgo::Perform(const Standard_Real radius)
   Standard_Boolean isCut(Standard_False);
   if (!segment1 || !segment2)
   {
-    BRepBuilderAPI_MakeWire mkWire(e1, e2);
+    BRepLib_MakeWire mkWire(e1, e2);
     if (mkWire.IsDone())
     {
       const TopoDS_Wire& W = mkWire.Wire();

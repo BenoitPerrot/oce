@@ -16,7 +16,7 @@
 
 #include <BRep_Tool.hxx>
 #include <BRepBuilderAPI_MakeFace.hxx>
-#include <BRepBuilderAPI_MakeWire.hxx>
+#include <BRepLib_MakeWire.hxx>
 #include <BRepLib_MakeEdge.hxx>
 #include <GCE2d_MakeSegment.hxx>
 #include <GC_MakeSegment.hxx>
@@ -265,7 +265,7 @@ Standard_Boolean Font_BRepFont::renderGlyph (const Standard_Utf32Char theChar,
       continue;
     }
 
-    BRepBuilderAPI_MakeWire aWireMaker;
+    BRepLib_MakeWire aWireMaker;
 
     gp_XY aPntPrev;
     gp_XY aPntCurr = readFTVec (aPntList[aPntsNb - 1]);

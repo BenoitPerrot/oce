@@ -595,7 +595,7 @@ Standard_Integer  OCC165(Draw_Interpretor& di ,
 #include<AIS_Point.hxx>
 
 #include <BRepLib_MakeEdge.hxx>
-#include <BRepBuilderAPI_MakeWire.hxx>
+#include <BRepLib_MakeWire.hxx>
 #include <BRepBuilderAPI_MakeFace.hxx>
 
 static Standard_Integer OCC297 (Draw_Interpretor& di,Standard_Integer /*argc*/, const char ** argv )
@@ -618,7 +618,7 @@ static Standard_Integer OCC297 (Draw_Interpretor& di,Standard_Integer /*argc*/, 
     BRepLib_MakeEdge edg3_(pt3_, pt4_);
     BRepLib_MakeEdge edg4_(pt4_, pt1_);
 
-    BRepBuilderAPI_MakeWire wire_(edg1_, edg2_, edg3_, edg4_);
+    BRepLib_MakeWire wire_(edg1_, edg2_, edg3_, edg4_);
     BRepBuilderAPI_MakeFace face_(wire_);
     TopoDS_Face sh_ = face_.Face();
 

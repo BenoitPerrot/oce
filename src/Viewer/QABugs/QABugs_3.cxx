@@ -676,7 +676,7 @@ static Standard_Integer BUC60792(Draw_Interpretor& di, Standard_Integer /*argc*/
 #include <TColgp_Array2OfPnt.hxx>
 #include <Geom_BezierSurface.hxx>
 #include <BRepBuilderAPI_MakeFace.hxx>
-#include <BRepBuilderAPI_MakeWire.hxx>
+#include <BRepLib_MakeWire.hxx>
 #include <Geom_OffsetSurface.hxx>
 #include <BRepFilletAPI_MakeFillet2d.hxx>
 #include <GeomProjLib.hxx>
@@ -693,8 +693,8 @@ static Standard_Integer BUC60811(Draw_Interpretor& di, Standard_Integer argc, co
     Handle(Geom_Surface) GS = BRep_Tool::Surface(aFace, L1);
     GC = new Geom_TrimmedCurve(GC, f, l); 
     Handle(Geom_Curve) projCurve = GeomProjLib::Project(GC,GS); 
-    BRepBuilderAPI_MakeWire *myWire; 
-    myWire = new BRepBuilderAPI_MakeWire(); 
+    BRepLib_MakeWire *myWire; 
+    myWire = new BRepLib_MakeWire(); 
     myWire->Add((BRepLib_MakeEdge(projCurve)).Edge());
     DBRep::Set(argv[1],myWire->Wire());
     return  0;
@@ -738,7 +738,7 @@ static Standard_Integer BUC60811(Draw_Interpretor& di, Standard_Integer argc, co
   B.MakeSolid(solid);
   B.Add(solid,shell); 
   gp_Dir D(0, 0, 1.0f); 
-  BRepBuilderAPI_MakeWire mkw; 
+  BRepLib_MakeWire mkw; 
   gp_Pnt p1 = gp_Pnt(150., 150.0, 260.);
   gp_Pnt p2 = gp_Pnt(350., 150., 260.); 
   BRepLib_MakeEdge* E1 = new BRepLib_MakeEdge(p1,p2); 
@@ -803,8 +803,8 @@ static Standard_Integer BUC60811(Draw_Interpretor& di, Standard_Integer argc, co
   
 //step 4. Projecting the wire of this patch on offsetted surface. 
 //  TopExp_Explorer Ex; 
-  BRepBuilderAPI_MakeWire *myWire; 
-  myWire = new BRepBuilderAPI_MakeWire(); 
+  BRepLib_MakeWire *myWire; 
+  myWire = new BRepLib_MakeWire(); 
   for (Ex.Init( FP1, TopAbs_EDGE); Ex.More(); Ex.Next()) 
     { 
       TopoDS_Edge e1 = TopoDS::Edge(Ex.Current()); 
@@ -983,7 +983,7 @@ static Standard_Integer coordload (Draw_Interpretor& theDi,
   aLine[20] = '\0';
   aPnt.SetX (Draw::Atof (aLine));
   TopoDS_Vertex aVert1 = BRepLib_MakeVertex (aPnt);
-  BRepBuilderAPI_MakeWire aMakeWire;
+  BRepLib_MakeWire aMakeWire;
   for (;;)
   {
     memset (aLine, 0, 40);

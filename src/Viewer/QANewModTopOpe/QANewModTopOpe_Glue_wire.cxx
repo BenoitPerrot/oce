@@ -41,7 +41,7 @@
 #include <BRepExtrema_DistShapeShape.hxx>
 //#include <BRepClass_FaceClassifier.hxx>
 #include <BRepAlgo_EdgeConnector.hxx>
-#include <BRepBuilderAPI_MakeWire.hxx>
+#include <BRepLib_MakeWire.hxx>
 #include <TopoDS_Iterator.hxx>
 #include <BRepTopAdaptor_FClass2d.hxx>
 #include <TColStd_SequenceOfReal.hxx>
@@ -595,7 +595,7 @@ QANewModTopOpe_Glue::PerformShellWire()
   }
 
   if(myS2.ShapeType() == TopAbs_EDGE) {
-    myS2 = BRepBuilderAPI_MakeWire(TopoDS::Edge(myS2));
+    myS2 = BRepLib_MakeWire(TopoDS::Edge(myS2));
   }
 
   TopoDS_Shape aS1F = myS1.Oriented(TopAbs_FORWARD);
@@ -1269,11 +1269,11 @@ QANewModTopOpe_Glue::PerformWires()
 {
   Standard_Boolean S1IsEdge = Standard_False, S2IsEdge = Standard_False;
   if(myS1.ShapeType() == TopAbs_EDGE) {
-    myS1 = BRepBuilderAPI_MakeWire(TopoDS::Edge(myS1));
+    myS1 = BRepLib_MakeWire(TopoDS::Edge(myS1));
     S1IsEdge = Standard_True;
   }
   if(myS2.ShapeType() == TopAbs_EDGE) {
-    myS2 = BRepBuilderAPI_MakeWire(TopoDS::Edge(myS2));
+    myS2 = BRepLib_MakeWire(TopoDS::Edge(myS2));
     S2IsEdge = Standard_True;
   }
 

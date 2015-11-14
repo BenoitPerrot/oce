@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(DNaming_Line3DDriver)
 #include <gp_Trsf.hxx>
 #include <Precision.hxx>
 #include <Standard_GUID.hxx>
-#include <BRepBuilderAPI_MakeWire.hxx>
+#include <BRepLib_MakeWire.hxx>
 #include <BRepLib_MakeEdge.hxx>
 #include <BRepAlgo.hxx>
 #include <Geom_BSplineCurve.hxx>
@@ -115,7 +115,7 @@ Standard_Integer DNaming_Line3DDriver::Execute(TFunction_Logbook& theLog) const
   }
 
   Handle(TNaming_NamedShape) aNS1, aNS2;
-  BRepBuilderAPI_MakeWire aMakeWire;
+  BRepLib_MakeWire aMakeWire;
   TopoDS_Wire aWire;
   TopoDS_Shape aShape1, aShape2;
   

@@ -116,7 +116,7 @@
 
 #include <Standard_ConstructionError.hxx>
 #include <Precision.hxx>
-#include <BRepBuilderAPI_MakeWire.hxx>
+#include <BRepLib_MakeWire.hxx>
 
 #include <BRepTools_Substitution.hxx>
 #include <TopTools_DataMapIteratorOfDataMapOfShapeShape.hxx>
@@ -462,7 +462,7 @@ static void BuildFace(const Handle(Geom_Surface)& S,
   TopoDS_Edge e1, e2, E;
   TopoDS_Wire WW;
   BRep_Builder BB;
-  BRepBuilderAPI_MakeWire B;
+  BRepLib_MakeWire B;
   TopoDS_Iterator Iter;
   //gp_Pnt2d P;
 

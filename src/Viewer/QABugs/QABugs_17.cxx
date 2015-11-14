@@ -44,7 +44,7 @@
 #include <Geom2dGcc_QCurve.hxx>
 #include <GccEnt_QualifiedCirc.hxx>
 #include <Geom2dGcc_Lin2d2TanIter.hxx>
-#include <BRepBuilderAPI_MakeWire.hxx>
+#include <BRepLib_MakeWire.hxx>
 #include <TopExp_Explorer.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Wire.hxx>
@@ -197,7 +197,7 @@ static Standard_Integer BUC60970 (Draw_Interpretor& di, Standard_Integer argc, c
 
   TopoDS_Shape aResult = DBRep::Get(argv[1]);
 
-  BRepBuilderAPI_MakeWire bRepSpineWire; 
+  BRepLib_MakeWire bRepSpineWire; 
   TopExp_Explorer exp_(aResult, TopAbs_WIRE); 
 
   Standard_Integer i = 0; 
@@ -224,7 +224,7 @@ static Standard_Integer BUC60970 (Draw_Interpretor& di, Standard_Integer argc, c
   gp_Dir tanDir(tanVec.X(), tanVec.Y(), tanVec.Z()); 
   gp_Ax2 gpAx2(firstPnt, tanDir); 
   gp_Circ gpCirc(gpAx2, 2.5); 
-  BRepBuilderAPI_MakeWire aMWire(BRepLib_MakeEdge(new Geom_Circle(gpCirc)).Edge());
+  BRepLib_MakeWire aMWire(BRepLib_MakeEdge(new Geom_Circle(gpCirc)).Edge());
   TopoDS_Wire topoWire(aMWire); 
   aContext->Display(new AIS_Shape(topoWire));
 
@@ -1452,7 +1452,7 @@ static Standard_Integer OCCN1 (Draw_Interpretor& di, Standard_Integer argc, cons
   TopoDS_Edge ted3 = edge3.Edge();
   TopoDS_Edge ted4 = edge4.Edge();
 
-  BRepBuilderAPI_MakeWire wire(ted1, ted2, ted3, ted4);
+  BRepLib_MakeWire wire(ted1, ted2, ted3, ted4);
   TopoDS_Wire twire = wire.Wire();
 
   BRepBuilderAPI_MakeFace face(twire);
