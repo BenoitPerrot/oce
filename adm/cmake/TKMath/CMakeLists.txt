@@ -4,7 +4,6 @@ set(TOOLKIT_MODULES
 	Mathematics/Optimization
 	Mathematics/BetaSpline
 	Mathematics/Polynomial
-	Mathematics/Precision
 	Mathematics/Polyhedral
 	Mathematics/Convert
 	Mathematics/BoundingVolumes
