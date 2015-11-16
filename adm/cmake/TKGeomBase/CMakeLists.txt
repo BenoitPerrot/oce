@@ -1,28 +1,28 @@
 set(TOOLKIT TKGeomBase)
 
 set(TOOLKIT_MODULES
-	ModelingData/ProjLib
-	ModelingData/GeomProjLib
-	ModelingData/GCPnts
-	ModelingData/CPnts
-	ModelingData/Approx
-	ModelingData/AppParCurves
-	ModelingData/FEmTool
-	ModelingData/AppCont
-	ModelingData/Extrema
-	ModelingData/IntAna
-	ModelingData/IntAna2d
-	ModelingData/GeomConvert
-	ModelingData/AdvApp2Var
-	ModelingData/GeomLib
-	ModelingData/Geom2dConvert
-	ModelingData/Hermit
-	ModelingData/BndLib
-	ModelingData/AppDef
-	ModelingData/GeomTools
-	ModelingData/GC
-	ModelingData/GCE2d
-	ModelingData/gce
+	Geometry/ProjLib
+	Geometry/GeomProjLib
+	Geometry/GCPnts
+	Geometry/CPnts
+	Geometry/Approx
+	Geometry/AppParCurves
+	Geometry/FEmTool
+	Geometry/AppCont
+	Geometry/Extrema
+	Geometry/IntAna
+	Geometry/IntAna2d
+	Geometry/GeomConvert
+	Geometry/AdvApp2Var
+	Geometry/GeomLib
+	Geometry/Geom2dConvert
+	Geometry/Hermit
+	Geometry/BndLib
+	Geometry/AppDef
+	Geometry/GeomTools
+	Geometry/GC
+	Geometry/GCE2d
+	Geometry/gce
 )
 set(TOOLKIT_DEPENDS
 	TKernel
