@@ -127,8 +127,8 @@ set "CSF_StandardLiteDefaults=%CASROOT%\src\StdResource"
 
 set "CSF_UnitsLexicon=%CASROOT%\src\UnitsAPI\Lexi_Expr.dat"
 set "CSF_UnitsDefinition=%CASROOT%\src\UnitsAPI\Units.dat"
-set "CSF_IGESDefaults=%CASROOT%\src\XSTEPResource"
-set "CSF_STEPDefaults=%CASROOT%\src\XSTEPResource"
+set "CSF_IGESDefaults=%CASROOT%\src\DataExchange\XSTEPResource"
+set "CSF_STEPDefaults=%CASROOT%\src\DataExchange\XSTEPResource"
 set "CSF_XmlOcafResource=%CASROOT%\src\XmlOcafResource"
 set "CSF_MIGRATION_TYPES=%CASROOT%\src\StdResource\MigrationSheet.txt"
 

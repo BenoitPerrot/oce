@@ -27,7 +27,7 @@ proc DataExchange:ressources { } {
 	    [list both r DataExchange/IGESMessages {} ] \
 	    [list both r DataExchange/XSTEPMessages {} ] \
 	    [list both r SHMessage {} ] \
-	    [list both r XSTEPResource {} ] \
+	    [list both r DataExchange/XSTEPResource {} ] \
 	    ]
 }
 ;#
