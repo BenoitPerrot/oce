@@ -24,6 +24,7 @@ proc DataExchange:toolkits { } {
 ;#
 proc DataExchange:ressources { } {
     return [list  \
+	    [list both r DataExchange/IGESMessages {} ] \
 	    [list both r XSMessage {} ] \
 	    [list both r SHMessage {} ] \
 	    [list both r XSTEPResource {} ] \

@@ -528,8 +528,8 @@ if(OCE_DATAEXCHANGE)
 	set(INSTALL_RESOURCE_FILES ${INSTALL_RESOURCE_FILES}
 		src/SHMessage/SHAPE.fr
 		src/SHMessage/SHAPE.us
-		src/XSMessage/IGES.fr
-		src/XSMessage/IGES.us
+		src/DataExchange/IGESMessages/IGES.fr
+		src/DataExchange/IGESMessages/IGES.us
 		src/XSMessage/XSTEP.fr
 		src/XSMessage/XSTEP.us
 		src/XSTEPResource/IGES

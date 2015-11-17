@@ -114,6 +114,7 @@ OcctJni_Viewer::OcctJni_Viewer()
   setResourceEnv ("CSF_UnitsLexicon",     aResRoot + "/UnitsAPI",  "Lexi_Expr.dat",     Standard_True);
   setResourceEnv ("CSF_UnitsDefinition",  aResRoot + "/UnitsAPI",  "Units.dat",         Standard_True);
   setResourceEnv ("CSF_ShadersDirectory", aResRoot + "/Shaders",   "Declarations.glsl", Standard_False);
+  setResourceEnv ("CSF_IGESMessages",     aResRoot + "/IGESMessages", "IGES.us",        Standard_False);
   setResourceEnv ("CSF_XSMessage",        aResRoot + "/XSMessage", "XSTEP.us",          Standard_False);
   setResourceEnv ("CSF_SHMessage",        aResRoot + "/XSMessage", "SHAPE.us",          Standard_False);
   //setResourceEnv ("CSF_PluginDefaults",   "Plugin",            Standard_False);

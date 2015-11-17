@@ -139,7 +139,7 @@ static Handle(IGESData_DefaultSpecific)   speci;
   // Message File for IGES
   // -----------------
 
-  Message_MsgFile::LoadFromEnv ("CSF_XSMessage","IGES");
+  Message_MsgFile::LoadFromEnv ("CSF_IGESMessages","IGES");
 
   // Creating the Global Section
   //----------------------------
