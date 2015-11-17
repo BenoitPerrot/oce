@@ -530,8 +530,8 @@ if(OCE_DATAEXCHANGE)
 		src/SHMessage/SHAPE.us
 		src/DataExchange/IGESMessages/IGES.fr
 		src/DataExchange/IGESMessages/IGES.us
-		src/XSMessage/XSTEP.fr
-		src/XSMessage/XSTEP.us
+		src/DataExchange/XSTEPMessages/XSTEP.fr
+		src/DataExchange/XSTEPMessages/XSTEP.us
 		src/XSTEPResource/IGES
 		src/XSTEPResource/STEP )
 endif(OCE_DATAEXCHANGE)

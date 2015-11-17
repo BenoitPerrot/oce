@@ -32,10 +32,10 @@ $(ASSETDIR)/IGESMessages: $(ASSETDIR)
 	-mkdir -p $(ASSETDIR)/IGESMessages
 	cp -f -r $(OCCT_ROOT)/src/DataExchange/IGESMessages/*.* $(ASSETDIR)/IGESMessages
 
-$(ASSETDIR)/XSMessage: $(ASSETDIR)
+$(ASSETDIR)/XSTEPMessages: $(ASSETDIR)
 	-mkdir -p $(ASSETDIR)
-	-mkdir -p $(ASSETDIR)/XSMessage
-	cp -f -r $(OCCT_ROOT)/src/XSMessage/*.* $(ASSETDIR)/XSMessage
+	-mkdir -p $(ASSETDIR)/XSTEPMessages
+	cp -f -r $(OCCT_ROOT)/src/DataExchange/XSTEPMessages/*.* $(ASSETDIR)/XSTEPMessages
 
 $(ASSETDIR)/TObj: $(ASSETDIR)
 	-mkdir -p $(ASSETDIR)
@@ -47,7 +47,7 @@ $(ASSETDIR)/UnitsAPI: $(ASSETDIR)
 	-mkdir -p $(ASSETDIR)/UnitsAPI
 	cp -f -r $(OCCT_ROOT)/src/UnitsAPI/*.dat $(ASSETDIR)/UnitsAPI
 
-pre_all: $(ASSETDIR)/Shaders $(ASSETDIR)/SHMessage $(ASSETDIR)/IGESMessages $(ASSETDIR)/XSMessage $(ASSETDIR)/TObj $(ASSETDIR)/UnitsAPI
+pre_all: $(ASSETDIR)/Shaders $(ASSETDIR)/SHMessage $(ASSETDIR)/IGESMessages $(ASSETDIR)/XSTEPMessages $(ASSETDIR)/TObj $(ASSETDIR)/UnitsAPI
 
 jniall: pre_all all
 

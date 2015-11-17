@@ -116,5 +116,5 @@ void  Interface_Static::Standards ()
   Message_MsgFile::AddMsg ("XSTEP_26","Number of warning in memory loading : %d.");
 
 //  Chargement du vrai fichier langue
-  Message_MsgFile::LoadFromEnv ("CSF_XSMessage","XSTEP");
+  Message_MsgFile::LoadFromEnv ("CSF_XSTEPMessages","XSTEP");
 }
