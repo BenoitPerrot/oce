@@ -22,10 +22,10 @@ $(ASSETDIR)/Shaders: $(ASSETDIR)
 	-mkdir -p $(ASSETDIR)/Shaders
 	cp -f -r $(OCCT_ROOT)/src/Visualization/Shaders/*.* $(ASSETDIR)/Shaders
 
-$(ASSETDIR)/SHMessage: $(ASSETDIR)
+$(ASSETDIR)/ShapeMessages: $(ASSETDIR)
 	-mkdir -p $(ASSETDIR)
-	-mkdir -p $(ASSETDIR)/SHMessage
-	cp -f -r $(OCCT_ROOT)/src/SHMessage/*.* $(ASSETDIR)/SHMessage
+	-mkdir -p $(ASSETDIR)/ShapeMessages
+	cp -f -r $(OCCT_ROOT)/src/ModelingAlgorithms/ShapeMessages/*.* $(ASSETDIR)/ShapeMessages
 
 $(ASSETDIR)/IGESMessages: $(ASSETDIR)
 	-mkdir -p $(ASSETDIR)
@@ -47,7 +47,7 @@ $(ASSETDIR)/UnitsAPI: $(ASSETDIR)
 	-mkdir -p $(ASSETDIR)/UnitsAPI
 	cp -f -r $(OCCT_ROOT)/src/UnitsAPI/*.dat $(ASSETDIR)/UnitsAPI
 
-pre_all: $(ASSETDIR)/Shaders $(ASSETDIR)/SHMessage $(ASSETDIR)/IGESMessages $(ASSETDIR)/XSTEPMessages $(ASSETDIR)/TObj $(ASSETDIR)/UnitsAPI
+pre_all: $(ASSETDIR)/Shaders $(ASSETDIR)/ShapeMessages $(ASSETDIR)/IGESMessages $(ASSETDIR)/XSTEPMessages $(ASSETDIR)/TObj $(ASSETDIR)/UnitsAPI
 
 jniall: pre_all all
 

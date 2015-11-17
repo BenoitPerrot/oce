@@ -526,8 +526,8 @@ endif(OCE_OCAF)
 
 if(OCE_DATAEXCHANGE)
 	set(INSTALL_RESOURCE_FILES ${INSTALL_RESOURCE_FILES}
-		src/SHMessage/SHAPE.fr
-		src/SHMessage/SHAPE.us
+		src/ModelingAlgorithms/ShapeMessages/SHAPE.fr
+		src/ModelingAlgorithms/ShapeMessages/SHAPE.us
 		src/DataExchange/IGESMessages/IGES.fr
 		src/DataExchange/IGESMessages/IGES.us
 		src/DataExchange/XSTEPMessages/XSTEP.fr

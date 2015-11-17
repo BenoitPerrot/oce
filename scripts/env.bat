@@ -113,7 +113,7 @@ rem ----- Set envoronment variables used by OCCT -----
 set CSF_LANGUAGE=us
 set MMGT_CLEAR=1
 set CSF_EXCEPTION_PROMPT=1
-set "CSF_SHMessage=%CASROOT%\src\SHMessage"
+set "CSF_ShapeMessages=%CASROOT%\src\ModelingAlgorithms\ShapeMessages"
 set "CSF_MDTVTexturesDirectory=%CASROOT%\src\Visualization\Textures"
 set "CSF_ShadersDirectory=%CASROOT%\src\Visualization\Shaders"
 set "CSF_IGESMessages=%CASROOT%\src\DataExchange\IGESMessages"

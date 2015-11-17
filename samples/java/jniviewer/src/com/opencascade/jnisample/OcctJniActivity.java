@@ -111,7 +111,7 @@ public class OcctJniActivity extends Activity implements OnClickListener
     // copy OCCT resources
     String aResFolder = getFilesDir().getAbsolutePath();
     copyAssetFolder (getAssets(), "Shaders",   aResFolder + "/Shaders");
-    copyAssetFolder (getAssets(), "SHMessage", aResFolder + "/SHMessage");
+    copyAssetFolder (getAssets(), "ShapeMessages", aResFolder + "/ShapeMessages");
     copyAssetFolder (getAssets(), "XSTEPMessages", aResFolder + "/XSTEPMessages");
     copyAssetFolder (getAssets(), "TObj",      aResFolder + "/TObj");
     copyAssetFolder (getAssets(), "UnitsAPI",  aResFolder + "/UnitsAPI");

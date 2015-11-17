@@ -30,7 +30,7 @@ void ShapeExtend::Init()
   init = Standard_True;
   
   // load Message File for Shape Healing
-  Message_MsgFile::LoadFromEnv ("CSF_SHMessage", "SHAPE");
+  Message_MsgFile::LoadFromEnv ("CSF_ShapeMessages", "SHAPE");
 }
 
 //=======================================================================

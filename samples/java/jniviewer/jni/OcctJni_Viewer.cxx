@@ -116,7 +116,7 @@ OcctJni_Viewer::OcctJni_Viewer()
   setResourceEnv ("CSF_ShadersDirectory", aResRoot + "/Shaders",   "Declarations.glsl", Standard_False);
   setResourceEnv ("CSF_IGESMessages",     aResRoot + "/IGESMessages", "IGES.us",        Standard_False);
   setResourceEnv ("CSF_XSTEPMessages",    aResRoot + "/XSTEPMessages", "XSTEP.us",          Standard_False);
-  setResourceEnv ("CSF_SHMessage",        aResRoot + "/XSMessage", "SHAPE.us",          Standard_False);
+  setResourceEnv ("CSF_ShapeMessages",    aResRoot + "/ShapeMessages", "SHAPE.us",          Standard_False);
   //setResourceEnv ("CSF_PluginDefaults",   "Plugin",            Standard_False);
 
   // make sure OCCT loads the dictionary

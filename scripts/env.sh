@@ -172,7 +172,7 @@ fi
 export CSF_LANGUAGE="us"
 export MMGT_CLEAR="1"
 export CSF_EXCEPTION_PROMPT="1"
-export CSF_SHMessage="${CASROOT}/src/SHMessage"
+export CSF_ShapeMessages="${CASROOT}/src/ModelingAlgorithms/ShapeMessage"
 export CSF_MDTVTexturesDirectory="${CASROOT}/src/Visualization/Textures"
 export CSF_ShadersDirectory="${CASROOT}/src/Visualization/Shaders"
 export CSF_IGESMessages="${CASROOT}/src/DataExchange/IGESMessages"

@@ -48,7 +48,7 @@ the libraries location:
 LIBS += -L/occt/libs/armeabi-v7a
 ~~~~
 
-OCCT resources (Shaders, SHMessage, StdResource, TObj, UnitsAPI folder) should be copied to androidqt_dir/android/assets/opencascade/shared/ directory. Current sample requires at least Shaders folder.
+OCCT resources (Shaders, StdResource, TObj, UnitsAPI folder) should be copied to androidqt_dir/android/assets/opencascade/shared/ directory. Current sample requires at least Shaders folder.
 
 Select build configuration: Debug or Release and click Build->Build Project "AndroidQt" or (Ctrl + B).
 After successful build the application can be deployed to device or emulator.
