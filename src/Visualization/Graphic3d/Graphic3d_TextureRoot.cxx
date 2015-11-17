@@ -71,7 +71,7 @@ TCollection_AsciiString Graphic3d_TextureRoot::TexturesFolder()
 #endif
       if (!VarName.IsEmpty())
       {
-        VarName += "/src/Textures";
+        VarName += "/src/Visualization/Textures";
       }
     }
 
