@@ -34,7 +34,7 @@ proc Visualization:toolkits { } {
 proc Visualization:ressources { } {
     return [list \
 	   [list both r Visualization/Textures {}] \
-	   [list both r Shaders {}] \
+	   [list both r Visualization/Shaders {}] \
 	    ]
 }
 ;#

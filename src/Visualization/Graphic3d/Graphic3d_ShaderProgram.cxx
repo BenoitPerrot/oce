@@ -60,7 +60,7 @@ const TCollection_AsciiString& Graphic3d_ShaderProgram::ShadersFolder()
 #endif
       if (!THE_SHADERS_FOLDER.IsEmpty())
       {
-        THE_SHADERS_FOLDER += "/src/Shaders";
+        THE_SHADERS_FOLDER += "/src/Visualization/Shaders";
       }
     }
 

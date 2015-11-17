@@ -20,7 +20,7 @@ ASSETDIR := $(LOCAL_PATH)/../assets
 $(ASSETDIR)/Shaders: $(ASSETDIR)
 	-mkdir -p $(ASSETDIR)
 	-mkdir -p $(ASSETDIR)/Shaders
-	cp -f -r $(OCCT_ROOT)/src/Shaders/*.* $(ASSETDIR)/Shaders
+	cp -f -r $(OCCT_ROOT)/src/Visualization/Shaders/*.* $(ASSETDIR)/Shaders
 
 $(ASSETDIR)/SHMessage: $(ASSETDIR)
 	-mkdir -p $(ASSETDIR)
