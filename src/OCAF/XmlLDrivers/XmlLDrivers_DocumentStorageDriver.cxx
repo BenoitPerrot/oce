@@ -212,7 +212,7 @@ Standard_Boolean XmlLDrivers_DocumentStorageDriver::WriteToDomDocument
     }
 #endif
     if ( !aResourceDir.IsEmpty() ) {
-      aResourceDir += "/src/XmlOcafResource" ;
+      aResourceDir += "/src/OCAF/XmlOcafResource" ;
       aToSetCSFVariable = Standard_True; //CSF variable to be set later
     }
 #ifdef OCCT_DEBUG

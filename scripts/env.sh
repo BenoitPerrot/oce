@@ -187,7 +187,7 @@ export CSF_UnitsLexicon="${CASROOT}/src/UnitsAPI/Lexi_Expr.dat"
 export CSF_UnitsDefinition="${CASROOT}/src/UnitsAPI/Units.dat"
 export CSF_IGESDefaults="${CASROOT}/src/DataExchange/XSTEPResource"
 export CSF_STEPDefaults="${CASROOT}/src/DataExchange/XSTEPResource"
-export CSF_XmlOcafResource="${CASROOT}/src/XmlOcafResource"
+export CSF_XmlOcafResource="${CASROOT}/src/OCAF/XmlOcafResource"
 export CSF_MIGRATION_TYPES="${CASROOT}/src/StdResource/MigrationSheet.txt"
 
 # Draw Harness special stuff
