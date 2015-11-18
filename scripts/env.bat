@@ -133,8 +133,8 @@ set "CSF_XmlOcafResource=%CASROOT%\src\OCAF\XmlOcafResource"
 set "CSF_MIGRATION_TYPES=%CASROOT%\src\StdResource\MigrationSheet.txt"
 
 rem Draw Harness special stuff
-if exist "%CASROOT%\src\DrawResources" (
-  set "DRAWHOME=%CASROOT%\src\DrawResources"
+if exist "%CASROOT%\src\Viewer\DrawResources" (
+  set "DRAWHOME=%CASROOT%\src\Viewer\DrawResources"
   set "CSF_DrawPluginDefaults=%DRAWHOME%"
 )
 if exist "%SCRIPTROOT%\src\DrawResourcesProducts" (

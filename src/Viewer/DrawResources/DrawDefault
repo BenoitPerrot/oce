@@ -15,13 +15,13 @@
 #
 # For that to happen, either environment DRAWDEFAULT should be set pointing
 # to this file, or CASROOT variable should be set, so that the script is
-# found as $CASROOT/src/DrawResources/DrawDefault
+# found as $CASROOT/src/Viewer/DrawResources/DrawDefault
 
 # indicate that DRAW is interactive environment
 set tcl_interactive 1
 
 # define location of standard DRAW scripts; normally it is 
-# $CASROOT/src/DrawResources
+# $CASROOT/src/Viewer/DrawResources
 set dir ""
 if { [info exists env(DRAWHOME) ] } { 
   set dir $env(DRAWHOME)  

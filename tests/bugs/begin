@@ -2,7 +2,7 @@
 if { [array get Draw_Groups "TOPOLOGY Check commands"] == "" } {
     pload TOPTEST
     pload VISUALIZATION
-#    set env(CSF_DrawPluginQADefaults) $env(CASROOT)/src/DrawResources/.
+#    set env(CSF_DrawPluginQADefaults) $env(CASROOT)/src/Viewer/DrawResources/.
 #    pload QAcommands
 #    pload -DrawPluginQA QAcommands
 }

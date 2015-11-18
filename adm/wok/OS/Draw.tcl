@@ -32,7 +32,7 @@ proc Draw:toolkits { } {
 ;#
 proc Draw:ressources { } {
     return [list \
-	    [list both r DrawResources {}] \
+	    [list both r Viewer/DrawResources {}] \
 	    [list both x DRAWEXE {}] \
 	    ]
 }

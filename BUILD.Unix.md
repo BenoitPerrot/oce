@@ -118,7 +118,7 @@ Launch $INSTALL_DIR/bin/DRAWEXE executable; on prompt, type
 
 In order to load DRAW commands, you can then run demos
 
-    > source $INSTALL_DIR/src/DrawResources/ModelingDemo.tcl
-    > source $INSTALL_DIR/src/DrawResources/VisualizationDemo.tcl
+    > source $INSTALL_DIR/src/Viewer/DrawResources/ModelingDemo.tcl
+    > source $INSTALL_DIR/src/Viewer/DrawResources/VisualizationDemo.tcl
 
 Installation is succesful. Enjoy!

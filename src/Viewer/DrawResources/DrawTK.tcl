@@ -29,7 +29,7 @@ if { [info exists tk_library] } {
 
 #fills menu "Load" with submenus
 proc fillloadmenu {} {
-  set chan [open [file nativename $::env(CASROOT)/src/DrawResources/DrawPlugin]]
+  set chan [open [file nativename $::env(CASROOT)/src/Viewer/DrawResources/DrawPlugin]]
   while {[gets $chan line] >= 0} {
     if {[lindex [split $line ""] 0] != "!"} {
       if {[lindex [split $line ""] 0] == ""} {continue}
@@ -394,7 +394,7 @@ proc about {} {
   set screenheight [expr {int([winfo screenheight .]*0.5-200)}]
   set screenwidth [expr {int([winfo screenwidth .]*0.5-200)}]
   wm geometry .about 400x200+$screenwidth+$screenheight
-  image create photo occlogo -file $::env(CASROOT)/src/DrawResources/OCC_logo.png -format png
+  image create photo occlogo -file $::env(CASROOT)/src/Viewer/DrawResources/OCC_logo.png -format png
   frame .about.logo -bg red
   frame .about.links -bg blue
   frame .about.copyright

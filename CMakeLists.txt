@@ -553,12 +553,12 @@ if(OCE_DRAW)
 	endif(APPLE AND NOT OCE_OSX_USE_COCOA)
 	message(STATUS "TCL LIB: ${TCL_LIBRARY}")
 	message(STATUS "TK LIB: ${TK_LIBRARY}")
-	file(GLOB DRAWRESOURCES_TCL_FILES RELATIVE ${OCE_SOURCE_DIR} src/DrawResources/*.tcl)
+	file(GLOB DRAWRESOURCES_TCL_FILES RELATIVE ${OCE_SOURCE_DIR} src/Viewer/DrawResources/*.tcl)
 	set(INSTALL_RESOURCE_FILES ${INSTALL_RESOURCE_FILES}
 		${DRAWRESOURCES_TCL_FILES}
-		src/DrawResources/DrawDefault
-		src/DrawResources/DrawPlugin
-		src/DrawResources/lamp.ico
+		src/Viewer/DrawResources/DrawDefault
+		src/Viewer/DrawResources/DrawPlugin
+		src/Viewer/DrawResources/lamp.ico
 		src/TObj/TObj.msg )
 endif(OCE_DRAW)
 

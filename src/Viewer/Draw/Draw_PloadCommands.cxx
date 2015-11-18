@@ -35,7 +35,7 @@ static Handle(Resource_Manager) myResources;
 //           - if thePluginName is empty then it defaults to DrawPlugin
 //           - the search directory is defined according to the variable
 //             CSF_<filename>Defaults (if it is omitted then it defaults to
-//             $CASROOT/src/DrawResources)
+//             $CASROOT/src/Viewer/DrawResources)
 //           - finally existence of the file is verified in the search directory
 //           - if the file exists but corresponding variable (CSF_...) has not been
 //             explicitly set, it is forced to (for further reuse by Resource_Manager)
@@ -74,7 +74,7 @@ static Standard_Boolean FindPluginFile (TCollection_AsciiString& thePluginName, 
     }
 #endif
     if ( !aPluginDir.IsEmpty() ) {
-      aPluginDir +="/src/DrawResources" ;
+      aPluginDir +="/src/Viewer/DrawResources" ;
       aToSetCSFVariable = Standard_True; //CSF variable to be set later
     } else {
       aResult = aDirFound = Standard_False;

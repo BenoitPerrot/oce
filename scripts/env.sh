@@ -191,8 +191,8 @@ export CSF_XmlOcafResource="${CASROOT}/src/OCAF/XmlOcafResource"
 export CSF_MIGRATION_TYPES="${CASROOT}/src/StdResource/MigrationSheet.txt"
 
 # Draw Harness special stuff
-if [ -e "${CASROOT}/src/DrawResources" ]; then
-  export DRAWHOME="${CASROOT}/src/DrawResources"
+if [ -e "${CASROOT}/src/Viewer/DrawResources" ]; then
+  export DRAWHOME="${CASROOT}/src/Viewer/DrawResources"
   export CSF_DrawPluginDefaults="${DRAWHOME}"
 fi
 if [ -e "${aScriptPath}/src/DrawResourcesProducts" ]; then

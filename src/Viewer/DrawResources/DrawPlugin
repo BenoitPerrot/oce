@@ -20,7 +20,7 @@
 !                         According to the Open CASCADE resource file management rules
 !                         the environment variable CSF_<PluginFileName>Defaults must
 !                         be set and point to the directory storing the file. If it is
-!                         omitted then it defaults to $CASROOT/src/DrawResources.
+!                         omitted then it defaults to $CASROOT/src/Viewer/DrawResources.
 !     [Key]             - Defines the key(s) enumerating plugins to be loaded.
 !                         If no keys are specified then the key named DEFAULT is used
 !                         (if there is no such in the file then no plugins are loaded).
