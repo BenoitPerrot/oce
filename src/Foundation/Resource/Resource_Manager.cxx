@@ -111,7 +111,7 @@ Resource_Manager::Resource_Manager(const Standard_CString aName,
     if ( Name.IsEqual("STEP") || Name.IsEqual("IGES"))
       DefaultVar = OCE_INSTALL_DATA_DIR "/src/DataExchange/XSTEPResource";
     else
-      DefaultVar = OCE_INSTALL_DATA_DIR "/src/StdResource";
+      DefaultVar = OCE_INSTALL_DATA_DIR "/src/Foundation/StdResource";
     Load(DefaultVar,myName,myRefMap);
 #else
     if (myVerbose)

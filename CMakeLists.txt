@@ -514,14 +514,14 @@ if(OCE_OCAF)
 	file(GLOB XMLOCAFRESOURCE_XSD_FILES RELATIVE ${OCE_SOURCE_DIR} src/OCAF/XmlOcafResource/*.xsd)
 	set(INSTALL_RESOURCE_FILES ${INSTALL_RESOURCE_FILES}
 		${XMLOCAFRESOURCE_XSD_FILES}
-		src/StdResource/MigrationSheet.txt
-		src/StdResource/MDTV-Standard.xwd
-		src/StdResource/Plugin
-		src/StdResource/Standard
-		src/StdResource/Standard.us
-		src/StdResource/StandardLite
-		src/StdResource/TObj
-		src/StdResource/XCAF )
+		src/Foundation/StdResource/MigrationSheet.txt
+		src/Foundation/StdResource/MDTV-Standard.xwd
+		src/Foundation/StdResource/Plugin
+		src/Foundation/StdResource/Standard
+		src/Foundation/StdResource/Standard.us
+		src/Foundation/StdResource/StandardLite
+		src/Foundation/StdResource/TObj
+		src/Foundation/StdResource/XCAF )
 endif(OCE_OCAF)
 
 if(OCE_DATAEXCHANGE)
@@ -934,7 +934,7 @@ foreach(RESOURCE_FILE ${INSTALL_RESOURCE_FILES})
 		DESTINATION ${OCE_INSTALL_DATA_DIR}/${RESOURCE_PATH})
 endforeach(RESOURCE_FILE ${INSTALL_RESOURCE_FILES})
 install(FILES ${INSTALL_STDRESOURCE_FILES}
-	DESTINATION ${OCE_INSTALL_DATA_DIR}/src/StdResource)
+	DESTINATION ${OCE_INSTALL_DATA_DIR}/src/Foundation/StdResource)
 
 if(WIN32)
 	set(ENV_SCRIPTS

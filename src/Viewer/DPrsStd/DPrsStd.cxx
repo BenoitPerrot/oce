@@ -81,7 +81,7 @@ static Standard_Boolean FoundCAFPlugin () {
 #endif
     if ( casroot ) {
       PluginName = TCollection_AsciiString (casroot);
-      PluginName+="/src/StdResource" ;
+      PluginName+="/src/Foundation/StdResource" ;
       hasPlugin = Standard_True ;
     }
   } else {

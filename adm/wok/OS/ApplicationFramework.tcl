@@ -41,7 +41,7 @@ proc ApplicationFramework:toolkits { } {
 ;#
 proc ApplicationFramework:ressources { } {
     return [list  \
-		[list both r StdResource {}] \
+		[list both r Foundation/StdResource {}] \
                 [list both r OCAF/XmlOcafResource {}] \
 	       ]
 }
