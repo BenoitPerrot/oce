@@ -364,12 +364,12 @@ set(INSTALL_RESOURCE_FILES)
 file(GLOB OS_TCL_SCRIPTS RELATIVE ${OCE_SOURCE_DIR} src/OS/*.tcl)
 set(INSTALL_RESOURCE_FILES ${INSTALL_RESOURCE_FILES}
 	${OS_TCL_SCRIPTS}
-	src/UnitsAPI/Lexi_Expr.dat
-	src/UnitsAPI/Units.dat )
+	src/Foundation/UnitsAPI/Lexi_Expr.dat
+	src/Foundation/UnitsAPI/Units.dat )
 set(INSTALL_STDRESOURCE_FILES ${INSTALL_STDRESOURCE_FILES}
-	src/UnitsAPI/CurrentUnits
-	src/UnitsAPI/MDTVBaseUnits
-	src/UnitsAPI/MDTVCurrentUnits )
+	src/Foundation/UnitsAPI/CurrentUnits
+	src/Foundation/UnitsAPI/MDTVBaseUnits
+	src/Foundation/UnitsAPI/MDTVCurrentUnits )
 
 find_package(Threads)
 if(OCE_MULTITHREAD_LIBRARY STREQUAL "TBB")

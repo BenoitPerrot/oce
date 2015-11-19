@@ -23,7 +23,7 @@ proc FoundationClasses:toolkits { } {
 proc FoundationClasses:ressources { } {
         return [list \
 	       [list both r OS {} ] \
-	       [list both r UnitsAPI {} ] \
+	       [list both r Foundation/UnitsAPI {} ] \
 	       ]
 }
 ;
@@ -113,5 +113,5 @@ proc FoundationClasses:Export { } {
 }
 
 proc FoundationClasses:install { } {
-        return [list UnitsAPI]
+        return [list Foundation/UnitsAPI]
 }

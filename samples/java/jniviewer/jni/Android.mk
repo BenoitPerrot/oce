@@ -45,7 +45,7 @@ $(ASSETDIR)/TObj: $(ASSETDIR)
 $(ASSETDIR)/UnitsAPI: $(ASSETDIR)
 	-mkdir -p $(ASSETDIR)
 	-mkdir -p $(ASSETDIR)/UnitsAPI
-	cp -f -r $(OCCT_ROOT)/src/UnitsAPI/*.dat $(ASSETDIR)/UnitsAPI
+	cp -f -r $(OCCT_ROOT)/src/Foundation/UnitsAPI/*.dat $(ASSETDIR)/UnitsAPI
 
 pre_all: $(ASSETDIR)/Shaders $(ASSETDIR)/ShapeMessages $(ASSETDIR)/IGESMessages $(ASSETDIR)/XSTEPMessages $(ASSETDIR)/TObj $(ASSETDIR)/UnitsAPI
 
