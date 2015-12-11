@@ -428,7 +428,6 @@ class Parser:
 def main(args):
     exit_code = 0
     for n in args[1:]:
-        print(n)
         f = open(n)
         # try:
         p = Parser(Lexer(f.read()))
