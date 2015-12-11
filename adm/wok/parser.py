@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 import os, sys
 import re, string
 
@@ -428,8 +428,8 @@ class Parser:
 def main(args):
     exit_code = 0
     for n in args[1:]:
-        print n
-        f = file(n)
+        print(n)
+        f = open(n)
         # try:
         p = Parser(Lexer(f.read()))
         d = p.parse()

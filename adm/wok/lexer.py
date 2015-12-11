@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 import os, sys
 import re, string
 
@@ -129,10 +129,10 @@ class Lexer:
 
 def main(args):
     for n in args[1:]:
-        f = file(n)
+        f = open(n)
         l = Lexer(f.read())
         while l.peek():
-            print l.get()
+            print(l.get())
         f.close()
     return 0
 
