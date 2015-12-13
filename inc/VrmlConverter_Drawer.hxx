@@ -15,7 +15,7 @@
 #include <Standard_Boolean.hxx>
 #include <Handle_VrmlConverter_LineAspect.hxx>
 #include <Handle_VrmlConverter_ShadingAspect.hxx>
-#include <Quantity_Length.hxx>
+#include <Foundation/Quantity/Quantity_Length.hxx>
 #include <Aspect_TypeOfDeflection.hxx>
 #include <Standard_Real.hxx>
 #include <Handle_VrmlConverter_PointAspect.hxx>

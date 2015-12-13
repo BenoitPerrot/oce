@@ -99,7 +99,7 @@
 #include <MoniTool_DataMapIteratorOfDataMapOfShapeTransient.hxx>
 #include <StepRepr_Representation.hxx>
 #include <StepVisual_MechanicalDesignGeometricPresentationRepresentation.hxx>
-#include <Quantity_TypeOfColor.hxx>
+#include <Foundation/Quantity/Quantity_TypeOfColor.hxx>
 #include <StepVisual_HArray1OfPresentationStyleAssignment.hxx>
 #include <StepVisual_PresentationStyleAssignment.hxx>
 #include <StepVisual_StyledItem.hxx>

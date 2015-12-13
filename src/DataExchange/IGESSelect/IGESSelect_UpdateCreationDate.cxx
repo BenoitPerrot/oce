@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_TYPE_END(IGESSelect_UpdateCreationDate)
 IMPLEMENT_DOWNCAST(IGESSelect_UpdateCreationDate,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESSelect_UpdateCreationDate)
 #include <Foundation/OSD/OSD_Process.hxx>
-#include <Quantity_Date.hxx>
+#include <Foundation/Quantity/Quantity_Date.hxx>
 #include <IGESData_GlobalSection.hxx>
 #include <TCollection_HAsciiString.hxx>
 #include <Interface_Check.hxx>

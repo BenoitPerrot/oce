@@ -34,8 +34,8 @@
 #include <Standard_ErrorHandler.hxx>
 
 // for the class
-#include <Quantity_ColorDefinitionError.hxx>
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_ColorDefinitionError.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Standard_Type.hxx>
 
 
@@ -48,7 +48,7 @@ IMPLEMENT_STANDARD_TYPE_END(Quantity_Color)
  
 
 
-#include <Quantity_Color_1.hxx>
+#include <Foundation/Quantity/Quantity_Color_1.hxx>
 #include <Standard_OutOfRange.hxx>
 #include <TCollection_AsciiString.hxx>
 

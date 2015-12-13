@@ -14,7 +14,7 @@
 #include <XCAFDoc_ShapeTool.hxx>
 #include <TDF_Label.hxx>
 #include <Standard_GUID.hxx>
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 #include <TDF_LabelSequence.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TDF_Attribute.hxx>

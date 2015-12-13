@@ -12,7 +12,7 @@
 
 #include <V3d_Light.hxx>
 #include <Handle_V3d_Viewer.hxx>
-#include <Quantity_NameOfColor.hxx>
+#include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 class V3d_Viewer;
 
 

@@ -35,7 +35,7 @@
 #include <Aspect_GraphicCallbackProc.hxx>
 #include <Standard_Address.hxx>
 #include <Aspect_TypeOfUpdate.hxx>
-#include <Quantity_NameOfColor.hxx>
+#include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Aspect_TypeOfTriedronPosition.hxx>
 #include <Aspect_TypeOfTriedronEcho.hxx>
 #include <Font_FontAspect.hxx>

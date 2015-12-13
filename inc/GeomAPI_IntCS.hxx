@@ -15,7 +15,7 @@
 #include <Handle_Geom_Surface.hxx>
 #include <Standard_Boolean.hxx>
 #include <Standard_Integer.hxx>
-#include <Quantity_Parameter.hxx>
+#include <Foundation/Quantity/Quantity_Parameter.hxx>
 class Geom_Curve;
 class StdFail_NotDone;
 class Standard_OutOfRange;

@@ -31,7 +31,7 @@
 
 // for the class
 #include <Aspect_AspectMarkerDefinitionError.hxx>
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Aspect_AspectMarker.hxx>
 #include <Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Aspect_AspectMarker)

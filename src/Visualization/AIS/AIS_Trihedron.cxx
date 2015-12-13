@@ -29,7 +29,7 @@
 #include <Geom_Transformation.hxx>
 #include <gp_Trsf.hxx>
 #include <SelectMgr_Selection.hxx>
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <AIS_Trihedron.hxx>
 #include <Standard_Type.hxx>

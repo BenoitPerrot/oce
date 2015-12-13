@@ -19,7 +19,7 @@
 #include <gp_Dir.hxx>
 #include <Geom_Plane.hxx>
 #include <gce_MakePln.hxx>
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Aspect_TypeOfLine.hxx>
 #include <Graphic3d_CUserDraw.hxx>
 

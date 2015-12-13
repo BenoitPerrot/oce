@@ -14,7 +14,7 @@
 #include <Handle_BRepAdaptor_HSurface.hxx>
 #include <Handle_VrmlConverter_Drawer.hxx>
 #include <Standard_Boolean.hxx>
-#include <Quantity_Length.hxx>
+#include <Foundation/Quantity/Quantity_Length.hxx>
 #include <Standard_Integer.hxx>
 class BRepAdaptor_HSurface;
 class VrmlConverter_Drawer;

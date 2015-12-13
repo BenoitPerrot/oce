@@ -18,7 +18,7 @@
 #include <PrsMgr_TypeOfPresentation3d.hxx>
 #include <Handle_SelectMgr_Selection.hxx>
 #include <PrsMgr_PresentationManager3d.hxx>
-#include <Quantity_NameOfColor.hxx>
+#include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Handle_SelectMgr_EntityOwner.hxx>
 #include <Handle_PrsMgr_PresentationManager.hxx>
 class Prs3d_Presentation;

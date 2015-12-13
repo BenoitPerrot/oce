@@ -35,7 +35,7 @@
 #include <AIS_StatusOfPick.hxx>
 #include <Handle_SelectMgr_EntityOwner.hxx>
 #include <Handle_Standard_Transient.hxx>
-#include <Quantity_NameOfColor.hxx>
+#include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <StdSelect_SensitivityMode.hxx>
 #include <Standard_Real.hxx>
 #include <Handle_AIS_LocalStatus.hxx>

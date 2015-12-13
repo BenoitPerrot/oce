@@ -19,7 +19,7 @@
 
 
 #include <Graphic3d_AspectText3d.hxx>
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Prs3d_TextAspect.hxx>
 #include <Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Prs3d_TextAspect)
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(Prs3d_TextAspect)
 IMPLEMENT_DOWNCAST(Prs3d_TextAspect,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Prs3d_TextAspect)
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Font_NameOfFont.hxx>
 
 Prs3d_TextAspect::Prs3d_TextAspect () 

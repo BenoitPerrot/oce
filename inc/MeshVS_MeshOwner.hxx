@@ -16,7 +16,7 @@
 #include <SelectMgr_EntityOwner.hxx>
 #include <SelectMgr_SOPtr.hxx>
 #include <PrsMgr_PresentationManager3d.hxx>
-#include <Quantity_NameOfColor.hxx>
+#include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Handle_PrsMgr_PresentationManager.hxx>
 #include <Standard_Boolean.hxx>
 class MeshVS_DataSource;

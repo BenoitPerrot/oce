@@ -21,7 +21,7 @@
 #include <Prs3d_Drawer.hxx>
 #include <Prs3d_PointAspect.hxx>
 #include <Prs3d_Root.hxx>
-#include <Quantity_Length.hxx>
+#include <Foundation/Quantity/Quantity_Length.hxx>
 
 template <class AnyPoint, class PointTool>
 class Prs3d_Point : Prs3d_Root

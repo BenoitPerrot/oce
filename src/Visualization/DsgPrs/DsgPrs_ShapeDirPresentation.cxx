@@ -48,7 +48,7 @@
 #include <Prs3d_Arrow.hxx>
 #include <Prs3d_LineAspect.hxx>
 
-#include <Quantity_Length.hxx>
+#include <Foundation/Quantity/Quantity_Length.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>
 
 

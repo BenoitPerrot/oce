@@ -14,8 +14,8 @@
 // commercial license or contractual agreement.
 
 #include <Poly_Triangulation.hxx>
-#include <Quantity_Color.hxx>
-#include <Quantity_HArray1OfColor.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_HArray1OfColor.hxx>
 #include <Prs3d_Presentation.hxx>
 #include <SelectMgr_Selection.hxx>
 #include <Voxel_Prs.hxx>

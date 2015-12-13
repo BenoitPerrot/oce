@@ -15,11 +15,11 @@
 #include <VrmlConverter_Drawer.hxx>
 #include <VrmlConverter_Projector.hxx>
 #include <Vrml_Material.hxx>
-#include <Quantity_HArray1OfColor.hxx>
+#include <Foundation/Quantity/Quantity_HArray1OfColor.hxx>
 #include <TopoDS_Shape.hxx>
 #include <VrmlAPI_Writer.hxx>
 #include <Vrml_Material.hxx>
-#include <Quantity_HArray1OfColor.hxx>
+#include <Foundation/Quantity/Quantity_HArray1OfColor.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TColStd_HArray1OfReal.hxx>
 #include <Foundation/OSD/OSD_Path.hxx>

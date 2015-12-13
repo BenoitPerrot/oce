@@ -35,7 +35,7 @@
 #include <TColStd_HArray1OfAsciiString.hxx>
 #include <TColStd_HArray1OfReal.hxx>
 #include <Foundation/OSD/OSD_Process.hxx>
-#include <Quantity_Date.hxx>
+#include <Foundation/Quantity/Quantity_Date.hxx>
 
 #include <HeaderSection_FileName.hxx>
 #include <HeaderSection_FileSchema.hxx>

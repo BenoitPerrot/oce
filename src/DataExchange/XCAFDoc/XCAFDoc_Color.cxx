@@ -16,7 +16,7 @@
 #include <TDF_RelocationTable.hxx>
 #include <Standard_GUID.hxx>
 #include <TDF_Label.hxx>
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 #include <TDF_Attribute.hxx>
 #include <TDF_RelocationTable.hxx>
 #include <XCAFDoc_Color.hxx>

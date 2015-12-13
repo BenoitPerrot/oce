@@ -17,7 +17,7 @@
 #include <Handle_SelectMgr_SelectableObject.hxx>
 #include <Handle_PrsMgr_PresentationManager.hxx>
 #include <PrsMgr_PresentationManager3d.hxx>
-#include <Quantity_NameOfColor.hxx>
+#include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 class Standard_NoSuchObject;
 class SelectMgr_SelectableObject;
 class PrsMgr_PresentationManager;

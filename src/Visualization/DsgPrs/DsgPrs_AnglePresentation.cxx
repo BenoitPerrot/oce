@@ -43,7 +43,7 @@
 #include <Aspect_TypeOfLine.hxx>
 #include <Aspect_TypeOfMarker.hxx>
 #include <Aspect_AspectMarker.hxx>
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 #include <DsgPrs.hxx>
 #include <Precision.hxx>
 

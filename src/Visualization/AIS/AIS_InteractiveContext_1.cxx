@@ -34,7 +34,7 @@
 #include <V3d_View.hxx>
 #include <AIS_LocalContext.hxx>
 #include <TopLoc_Location.hxx>
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 #include <AIS_Drawer.hxx>
 #include <TColStd_ListOfInteger.hxx>
 #include <TCollection_ExtendedString.hxx>

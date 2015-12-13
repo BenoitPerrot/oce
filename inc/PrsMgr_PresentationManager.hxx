@@ -18,7 +18,7 @@
 #include <Handle_PrsMgr_PresentableObject.hxx>
 #include <Standard_Boolean.hxx>
 #include <Handle_Prs3d_Presentation.hxx>
-#include <Quantity_NameOfColor.hxx>
+#include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Handle_Geom_Transformation.hxx>
 #include <Graphic3d_NameOfMaterial.hxx>
 #include <Handle_Prs3d_ShadingAspect.hxx>

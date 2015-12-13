@@ -13,7 +13,7 @@
 #include <Standard_Integer.hxx>
 #include <Standard_Boolean.hxx>
 #include <Standard_Address.hxx>
-#include <Quantity_Length.hxx>
+#include <Foundation/Quantity/Quantity_Length.hxx>
 class Standard_RangeError;
 class Standard_OutOfRange;
 class Standard_OutOfMemory;
@@ -100,7 +100,7 @@ private:
 };
 
 #define Array2Item Quantity_Length
-#define Array2Item_hxx <Quantity_Length.hxx>
+#define Array2Item_hxx <Foundation/Quantity/Quantity_Length.hxx>
 #define TCollection_Array2 TColQuantity_Array2OfLength
 #define TCollection_Array2_hxx <TColQuantity_Array2OfLength.hxx>
 

@@ -11,7 +11,7 @@
 #include <Handle_Prs3d_PlaneSet.hxx>
 
 #include <gp_Pln.hxx>
-#include <Quantity_Length.hxx>
+#include <Foundation/Quantity/Quantity_Length.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Real.hxx>
 class gp_Pln;

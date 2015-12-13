@@ -17,9 +17,9 @@
 #include <Standard_Integer.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_PrsMgr_PresentableObject.hxx>
-#include <Quantity_NameOfColor.hxx>
+#include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Handle_Geom_Transformation.hxx>
-#include <Quantity_Length.hxx>
+#include <Foundation/Quantity/Quantity_Length.hxx>
 #include <Handle_Prs3d_ShadingAspect.hxx>
 #include <Handle_Prs3d_Presentation.hxx>
 #include <Handle_Graphic3d_Structure.hxx>

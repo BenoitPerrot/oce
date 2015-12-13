@@ -13,7 +13,7 @@
 #include <Standard_Boolean.hxx>
 #include <Standard_Integer.hxx>
 #include <TColStd_ListOfInteger.hxx>
-#include <Quantity_NameOfColor.hxx>
+#include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class Standard_Transient;

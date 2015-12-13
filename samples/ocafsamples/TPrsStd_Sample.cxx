@@ -22,7 +22,7 @@
 #include <AIS_InteractiveContext.hxx>
 #include <AIS_InteractiveObject.hxx>
 #include <V3d_Viewer.hxx>
-#include <Quantity_NameOfColor.hxx>
+#include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <TPrsStd_DriverTable.hxx>
 #include <TPrsStd_NamedShapeDriver.hxx>
 #include <TPrsStd_PlaneDriver.hxx>

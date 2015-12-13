@@ -12,7 +12,7 @@
 
 #include <Standard_CString.hxx>
 #include <Aspect_FormatOfSheetPaper.hxx>
-#include <Quantity_Length.hxx>
+#include <Foundation/Quantity/Quantity_Length.hxx>
 #include <Standard_Boolean.hxx>
 class TCollection_ExtendedString;
 class TColStd_Array2OfReal;

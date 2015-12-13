@@ -22,7 +22,7 @@
 #include <TColStd_Array2OfReal.hxx>
 #include <Foundation/NCollection/NCollection_List.hxx>
 
-#include <Quantity_NameOfColor.hxx>
+#include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Aspect_FillMethod.hxx>
 #include <Aspect_GradientFillMethod.hxx>
 #include <Aspect_TypeOfTriedronPosition.hxx>

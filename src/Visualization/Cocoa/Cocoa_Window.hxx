@@ -33,9 +33,9 @@
 #include <Aspect_GradientFillMethod.hxx>
 #include <Aspect_Handle.hxx>
 #include <Aspect_TypeOfResize.hxx>
-#include <Quantity_NameOfColor.hxx>
-#include <Quantity_Parameter.hxx>
-#include <Quantity_Ratio.hxx>
+#include <Foundation/Quantity/Quantity_NameOfColor.hxx>
+#include <Foundation/Quantity/Quantity_Parameter.hxx>
+#include <Foundation/Quantity/Quantity_Ratio.hxx>
 
 class Aspect_WindowDefinitionError;
 class Aspect_WindowError;

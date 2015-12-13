@@ -22,8 +22,8 @@
 #include <XSDRAW.hxx>
 #include <DBRep.hxx>
 #include <VrmlAPI_Writer.hxx>
-#include <Quantity_Color.hxx>
-#include <Quantity_HArray1OfColor.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_HArray1OfColor.hxx>
 #include <StlAPI_Writer.hxx>
 #include <Draw_PluginMacro.hxx>
 #include <XSDRAW.hxx>
@@ -34,7 +34,7 @@
 #include <Draw.hxx>
 #include <Draw_ProgressIndicator.hxx>
 #include <RWStl.hxx>
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 #include <V3d_View.hxx>
 #include <TCollection_AsciiString.hxx>
 
@@ -63,7 +63,7 @@
 #include <XSDRAWSTLVRML_DataSource3D.hxx>
 #include <XSDRAWSTLVRML_DrawableMesh.hxx>
 
-#include <Quantity_NameOfColor.hxx>
+#include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <TColgp_SequenceOfXYZ.hxx>
 #include <TColStd_HPackedMapOfInteger.hxx>
 #include <TColStd_MapIteratorOfPackedMapOfInteger.hxx>

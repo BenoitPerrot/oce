@@ -29,7 +29,7 @@ IMPLEMENT_DOWNCAST(BinMPrsStd_AISPresentationDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinMPrsStd_AISPresentationDriver)
 #include <TPrsStd_AISPresentation.hxx>
 #include <Graphic3d_NameOfMaterial.hxx>
-#include <Quantity_NameOfColor.hxx>
+#include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <CDM_MessageDriver.hxx>
 //=======================================================================
 //function : BinMDataStd_AISPresentationDriver

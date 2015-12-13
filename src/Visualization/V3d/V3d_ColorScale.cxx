@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <V3d_LayerMgr.hxx>
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 #include <TCollection_ExtendedString.hxx>
 #include <V3d_ColorScale.hxx>
 #include <Standard_Type.hxx>

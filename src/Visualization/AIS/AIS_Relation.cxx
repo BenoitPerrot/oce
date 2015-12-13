@@ -24,7 +24,7 @@
 
 #include <Geom_Plane.hxx>
 #include <Geom_Surface.hxx>
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 #include <TopoDS_Shape.hxx>
 #include <gp_Pnt.hxx>
 #include <TCollection_ExtendedString.hxx>

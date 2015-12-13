@@ -13,7 +13,7 @@
 #include <HLRAlgo_Projector.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Boolean.hxx>
-#include <Quantity_Length.hxx>
+#include <Foundation/Quantity/Quantity_Length.hxx>
 class HLRAlgo_Projector;
 
 

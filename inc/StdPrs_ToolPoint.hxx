@@ -11,7 +11,7 @@
 #include <Standard_Macro.hxx>
 
 #include <Handle_Geom_Point.hxx>
-#include <Quantity_Length.hxx>
+#include <Foundation/Quantity/Quantity_Length.hxx>
 class Geom_Point;
 
 

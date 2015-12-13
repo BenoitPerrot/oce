@@ -11,7 +11,7 @@
 #include <Standard_Macro.hxx>
 
 #include <Standard_Boolean.hxx>
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Standard_Integer.hxx>
 class Quantity_Color;
 

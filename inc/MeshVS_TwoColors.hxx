@@ -16,7 +16,7 @@
 #ifndef MeshVS_TwoColors_HeaderFile
 #define MeshVS_TwoColors_HeaderFile
 
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 
 typedef struct {
   unsigned int r1 : 8;

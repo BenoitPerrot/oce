@@ -21,7 +21,7 @@
 #include <Handle_Geom_Transformation.hxx>
 #include <Handle_SelectMgr_Selection.hxx>
 #include <AIS_KindOfInteractive.hxx>
-#include <Quantity_NameOfColor.hxx>
+#include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Standard_Real.hxx>
 class Geom_Line;
 class Geom_Point;

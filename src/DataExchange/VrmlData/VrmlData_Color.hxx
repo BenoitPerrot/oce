@@ -17,7 +17,7 @@
 #define VrmlData_Color_HeaderFile
 
 #include <VrmlData_ArrayVec3d.hxx>
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 #include <gp_XYZ.hxx>
 
 /**

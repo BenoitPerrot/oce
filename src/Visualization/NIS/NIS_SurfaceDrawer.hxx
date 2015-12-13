@@ -18,7 +18,7 @@
 
 #include <NIS_Drawer.hxx>
 #include <gp_Trsf.hxx>
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 
 class NIS_Surface;
 

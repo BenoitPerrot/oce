@@ -33,7 +33,7 @@
 #include <Aspect_WindowDefinitionError.hxx>
 #include <Aspect_WindowError.hxx>
 #include <Aspect_Background.hxx>
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Aspect_GradientBackground.hxx>
 #include <Aspect_Window.hxx>
 #include <Standard_Type.hxx>

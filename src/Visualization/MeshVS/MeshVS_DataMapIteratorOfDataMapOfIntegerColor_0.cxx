@@ -6,7 +6,7 @@
 #include <MeshVS_DataMapIteratorOfDataMapOfIntegerColor.hxx>
 
 #include <Standard_NoSuchObject.hxx>
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 #include <TColStd_MapIntegerHasher.hxx>
 #include <MeshVS_DataMapOfIntegerColor.hxx>
 #include <MeshVS_DataMapNodeOfDataMapOfIntegerColor.hxx>
@@ -15,7 +15,7 @@
 #define TheKey Standard_Integer
 #define TheKey_hxx <Standard_Integer.hxx>
 #define TheItem Quantity_Color
-#define TheItem_hxx <Quantity_Color.hxx>
+#define TheItem_hxx <Foundation/Quantity/Quantity_Color.hxx>
 #define Hasher TColStd_MapIntegerHasher
 #define Hasher_hxx <TColStd_MapIntegerHasher.hxx>
 #define TCollection_DataMapNode MeshVS_DataMapNodeOfDataMapOfIntegerColor

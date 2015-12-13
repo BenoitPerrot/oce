@@ -12,7 +12,7 @@
 
 #include <Standard_GUID.hxx>
 #include <Standard_Real.hxx>
-#include <Quantity_NameOfColor.hxx>
+#include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Graphic3d_NameOfMaterial.hxx>
 #include <Standard_Integer.hxx>
 #include <Standard_Boolean.hxx>

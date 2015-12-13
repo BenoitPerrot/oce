@@ -20,7 +20,7 @@
 #include <AIS_InteractiveObject.hxx>
 #include <Bnd_Box.hxx>
 #include <Graphic3d_ArrayOfPoints.hxx>
-#include <Quantity_HArray1OfColor.hxx>
+#include <Foundation/Quantity/Quantity_HArray1OfColor.hxx>
 #include <Standard.hxx>
 #include <Standard_DefineHandle.hxx>
 #include <Standard_Macro.hxx>

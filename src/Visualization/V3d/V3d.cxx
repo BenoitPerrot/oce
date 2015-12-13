@@ -37,7 +37,7 @@
 #include <V3d.hxx>
 #include <V3d_View.hxx>
 
-#include <Quantity_NameOfColor.hxx>
+#include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Aspect_Grid.hxx>
 #include <Aspect_Window.hxx>
 #include <Graphic3d_ArrayOfPolylines.hxx>

@@ -15,7 +15,7 @@
 #define GER61351		//GG_171199     Enable to set an object RGB color
 //						  instead a restricted object NameOfColor.
 
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Prs3d_IsoAspect.hxx>
 #include <Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Prs3d_IsoAspect)

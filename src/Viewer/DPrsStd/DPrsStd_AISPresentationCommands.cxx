@@ -42,7 +42,7 @@
 #include <ViewerTest.hxx>
 #include <V3d_View.hxx>
 #include <TCollection_ExtendedString.hxx>
-#include <Quantity_NameOfColor.hxx>
+#include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Graphic3d_NameOfMaterial.hxx>
 
 #include <TDataXtd_Axis.hxx>

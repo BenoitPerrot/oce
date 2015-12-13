@@ -11,15 +11,15 @@
 #include <Handle_Prs3d_TextAspect.hxx>
 
 #include <Handle_Graphic3d_AspectText3d.hxx>
-#include <Quantity_PlaneAngle.hxx>
+#include <Foundation/Quantity/Quantity_PlaneAngle.hxx>
 #include <Standard_Real.hxx>
 #include <Graphic3d_HorizontalTextAlignment.hxx>
 #include <Graphic3d_VerticalTextAlignment.hxx>
 #include <Graphic3d_TextPath.hxx>
 #include <Prs3d_BasicAspect.hxx>
-#include <Quantity_NameOfColor.hxx>
+#include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Standard_CString.hxx>
-#include <Quantity_Length.hxx>
+#include <Foundation/Quantity/Quantity_Length.hxx>
 class Graphic3d_AspectText3d;
 class Quantity_Color;
 

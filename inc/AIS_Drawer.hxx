@@ -15,7 +15,7 @@
 #include <Standard_Real.hxx>
 #include <Prs3d_Drawer.hxx>
 #include <Aspect_TypeOfDeflection.hxx>
-#include <Quantity_Length.hxx>
+#include <Foundation/Quantity/Quantity_Length.hxx>
 #include <Prs3d_TypeOfHLR.hxx>
 #include <Standard_Integer.hxx>
 #include <Handle_Prs3d_IsoAspect.hxx>

@@ -26,7 +26,7 @@
 
 // for the class
 #include <Graphic3d_TextureMap.hxx>
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Graphic3d_MaterialAspect.hxx>
 #include <Graphic3d_AspectFillArea3d.hxx>
 #include <Standard_Type.hxx>

@@ -20,7 +20,7 @@
 
 #include <TColStd_HArray1OfByte.hxx>
 #include <Image_PixMap_Handle.hxx>
-#include <Quantity_Parameter.hxx>
+#include <Foundation/Quantity/Quantity_Parameter.hxx>
 #include <TCollection_AsciiString.hxx>
 
 //! This class is used to store bitmaps and images for markers rendering.

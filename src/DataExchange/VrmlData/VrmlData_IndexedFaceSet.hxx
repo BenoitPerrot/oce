@@ -22,7 +22,7 @@
 #include <VrmlData_Color.hxx>
 #include <VrmlData_TextureCoordinate.hxx>
 #include <gp_XYZ.hxx>
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 
 /**
  *  Implementation of IndexedFaceSet node

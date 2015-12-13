@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Quantity_Array1OfCoefficient.hxx>
+#include <Foundation/Quantity/Quantity_Array1OfCoefficient.hxx>
 
 #include <Standard_RangeError.hxx>
 #include <Standard_DimensionMismatch.hxx>
@@ -12,8 +12,8 @@
  
 
 #define Array1Item Quantity_Coefficient
-#define Array1Item_hxx <Quantity_Coefficient.hxx>
+#define Array1Item_hxx <Foundation/Quantity/Quantity_Coefficient.hxx>
 #define TCollection_Array1 Quantity_Array1OfCoefficient
-#define TCollection_Array1_hxx <Quantity_Array1OfCoefficient.hxx>
+#define TCollection_Array1_hxx <Foundation/Quantity/Quantity_Array1OfCoefficient.hxx>
 #include <TCollection_Array1.gxx>
 

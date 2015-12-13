@@ -15,7 +15,7 @@
 #define _Aspect_Convert_HeaderFile
 
 #include <Standard.hxx>
-#include <Quantity_Parameter.hxx>
+#include <Foundation/Quantity/Quantity_Parameter.hxx>
 
 //! Auxiliary functions for DCU <-> Pixels conversions.
 namespace Aspect_Convert

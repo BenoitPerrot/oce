@@ -47,7 +47,7 @@
 #include <Aspect_TypeOfMarker.hxx>
 #include <Aspect_AspectMarker.hxx>
 
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 
 #include <Prs3d_Text.hxx>
 #include <Precision.hxx>

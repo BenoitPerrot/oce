@@ -19,7 +19,7 @@
 #include <VrmlData_Geometry.hxx>
 #include <VrmlData_Coordinate.hxx>
 #include <VrmlData_Color.hxx>
-//#include <Quantity_Color.hxx>
+//#include <Foundation/Quantity/Quantity_Color.hxx>
 
 /**
  * Data type to store a set of polygons.

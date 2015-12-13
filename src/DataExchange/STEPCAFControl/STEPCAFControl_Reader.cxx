@@ -35,7 +35,7 @@
 #include <STEPConstruct_Tool.hxx>
 #include <STEPCAFControl_Reader.hxx>
 
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 #include <TCollection_HAsciiString.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Iterator.hxx>

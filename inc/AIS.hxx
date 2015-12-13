@@ -19,7 +19,7 @@
 #include <AIS_KindOfSurface.hxx>
 #include <Handle_Prs3d_Presentation.hxx>
 #include <Handle_AIS_Drawer.hxx>
-#include <Quantity_NameOfColor.hxx>
+#include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Aspect_TypeOfLine.hxx>
 #include <Aspect_TypeOfMarker.hxx>
 class gp_Pnt;

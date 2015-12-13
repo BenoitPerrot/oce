@@ -14,7 +14,7 @@
 #include <Standard_Boolean.hxx>
 #include <Aspect_SequenceOfColor.hxx>
 #include <TColStd_DataMapOfIntegerReal.hxx>
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 #include <MeshVS_PrsBuilder.hxx>
 #include <Handle_MeshVS_Mesh.hxx>
 #include <MeshVS_DisplayModeFlags.hxx>

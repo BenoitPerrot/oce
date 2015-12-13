@@ -14,10 +14,10 @@
 #include <Handle_Graphic3d_Group.hxx>
 #include <V3d_Coordinate.hxx>
 #include <V3d_Parameter.hxx>
-#include <Quantity_PlaneAngle.hxx>
+#include <Foundation/Quantity/Quantity_PlaneAngle.hxx>
 #include <Handle_V3d_View.hxx>
 #include <Handle_V3d_Viewer.hxx>
-#include <Quantity_Length.hxx>
+#include <Foundation/Quantity/Quantity_Length.hxx>
 class Graphic3d_Vector;
 class Graphic3d_Group;
 class V3d_View;

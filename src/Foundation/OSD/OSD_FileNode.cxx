@@ -28,7 +28,7 @@
 #include <Standard_ProgramError.hxx>
 #include <Foundation/OSD/OSD_Path.hxx>
 #include <Foundation/OSD/OSD_Protection.hxx>
-#include <Quantity_Date.hxx>
+#include <Foundation/Quantity/Quantity_Date.hxx>
 #include <Foundation/OSD/OSD_FileNode.hxx>
 
 #include <stdlib.h>    // For "system"
@@ -414,7 +414,7 @@ Standard_Integer OSD_FileNode::Error()const{
 #define STRICT
 #include <Foundation/OSD/OSD_FileNode.hxx>
 #include <Foundation/OSD/OSD_Protection.hxx>
-#include <Quantity_Date.hxx>
+#include <Foundation/Quantity/Quantity_Date.hxx>
 #include <Standard_ProgramError.hxx>
 #include <TCollection_ExtendedString.hxx>
 

@@ -18,7 +18,7 @@
 #include <SelectMgr_SOPtr.hxx>
 #include <Handle_PrsMgr_PresentationManager.hxx>
 #include <PrsMgr_PresentationManager3d.hxx>
-#include <Quantity_NameOfColor.hxx>
+#include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 class PrsMgr_PresentationManager;
 
 

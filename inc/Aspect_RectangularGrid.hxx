@@ -10,8 +10,8 @@
 #include <Standard_DefineHandle.hxx>
 #include <Handle_Aspect_RectangularGrid.hxx>
 
-#include <Quantity_Length.hxx>
-#include <Quantity_PlaneAngle.hxx>
+#include <Foundation/Quantity/Quantity_Length.hxx>
+#include <Foundation/Quantity/Quantity_PlaneAngle.hxx>
 #include <Standard_Real.hxx>
 #include <Aspect_Grid.hxx>
 #include <Standard_Boolean.hxx>

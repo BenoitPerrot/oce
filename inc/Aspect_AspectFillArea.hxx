@@ -11,7 +11,7 @@
 #include <Handle_Aspect_AspectFillArea.hxx>
 
 #include <Aspect_InteriorStyle.hxx>
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Aspect_TypeOfLine.hxx>
 #include <Standard_Real.hxx>
 #include <Aspect_HatchStyle.hxx>

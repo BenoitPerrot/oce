@@ -26,7 +26,7 @@
 #include <Handle_Prs3d_Projector.hxx>
 #include <Handle_Geom_Transformation.hxx>
 #include <Handle_SelectMgr_Selection.hxx>
-#include <Quantity_NameOfColor.hxx>
+#include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 class Geom_Plane;
 class Geom_Axis2Placement;
 class gp_Pnt;

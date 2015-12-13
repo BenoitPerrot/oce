@@ -12,7 +12,7 @@
 
 #include <TColQuantity_Array2OfLength.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Quantity_Length.hxx>
+#include <Foundation/Quantity/Quantity_Length.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_OutOfRange;
@@ -75,7 +75,7 @@ private:
 };
 
 #define ItemHArray2 Quantity_Length
-#define ItemHArray2_hxx <Quantity_Length.hxx>
+#define ItemHArray2_hxx <Foundation/Quantity/Quantity_Length.hxx>
 #define TheArray2 TColQuantity_Array2OfLength
 #define TheArray2_hxx <TColQuantity_Array2OfLength.hxx>
 #define TCollection_HArray2 TColQuantity_HArray2OfLength

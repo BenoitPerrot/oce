@@ -35,7 +35,7 @@
 
 // for the class
 #include <Graphic3d_AspectTextDefinitionError.hxx>
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Graphic3d_AspectText3d.hxx>
 #include <Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Graphic3d_AspectText3d)

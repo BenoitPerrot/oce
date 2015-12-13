@@ -17,10 +17,10 @@
 #include <Aspect_Window.hxx>
 #include <Standard_CString.hxx>
 #include <WNT_Dword.hxx>
-#include <Quantity_NameOfColor.hxx>
+#include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Standard_Address.hxx>
 #include <Aspect_TypeOfResize.hxx>
-#include <Quantity_Ratio.hxx>
+#include <Foundation/Quantity/Quantity_Ratio.hxx>
 #include <Aspect_Drawable.hxx>
 class WNT_WClass;
 class Aspect_WindowDefinitionError;

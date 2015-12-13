@@ -15,8 +15,8 @@
 #include <Extrema_ExtCC2d.hxx>
 #include <Geom2dAdaptor_Curve.hxx>
 #include <Handle_Geom2d_Curve.hxx>
-#include <Quantity_Parameter.hxx>
-#include <Quantity_Length.hxx>
+#include <Foundation/Quantity/Quantity_Parameter.hxx>
+#include <Foundation/Quantity/Quantity_Length.hxx>
 class Standard_OutOfRange;
 class StdFail_NotDone;
 class Geom2d_Curve;

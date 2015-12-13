@@ -17,7 +17,7 @@
 #define NIS_TriangulatedDrawer_HeaderFile
 
 #include <NIS_Drawer.hxx>
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 
 class NIS_Triangulated;
 

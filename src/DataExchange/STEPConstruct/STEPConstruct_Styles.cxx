@@ -25,7 +25,7 @@
 #include <StepRepr_ProductDefinitionShape.hxx>
 #include <TColStd_HSequenceOfTransient.hxx>
 #include <StepVisual_Colour.hxx>
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 #include <STEPConstruct_DataMapOfAsciiStringTransient.hxx>
 #include <STEPConstruct_DataMapOfPointTransient.hxx>
 #include <STEPConstruct_Styles.hxx>

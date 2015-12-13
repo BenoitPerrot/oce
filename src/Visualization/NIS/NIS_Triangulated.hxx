@@ -17,7 +17,7 @@
 #define NIS_Triangulated_HeaderFile
 
 #include <NIS_InteractiveObject.hxx>
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 
 class Handle(NIS_TriangulatedDrawer);
 class NCollection_BaseAllocator;

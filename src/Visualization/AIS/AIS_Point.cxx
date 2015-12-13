@@ -22,7 +22,7 @@
 #include <Prs3d_Projector.hxx>
 #include <Geom_Transformation.hxx>
 #include <SelectMgr_Selection.hxx>
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <AIS_Point.hxx>
 #include <Standard_Type.hxx>
@@ -42,7 +42,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_Point)
 #include <Prs3d_PointAspect.hxx>
 #include <Graphic3d_Structure.hxx>
 #include <Graphic3d_Group.hxx>
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Graphic3d_ArrayOfPoints.hxx>
 #include <Graphic3d_AspectMarker3d.hxx>
 #include <SelectMgr_EntityOwner.hxx>

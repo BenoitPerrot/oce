@@ -14,7 +14,7 @@
 #include <Prs3d_BasicAspect.hxx>
 #include <Aspect_TypeOfMarker.hxx>
 #include <Standard_Real.hxx>
-#include <Quantity_NameOfColor.hxx>
+#include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Standard_Integer.hxx>
 #include <Handle_TColStd_HArray1OfByte.hxx>
 #include <Graphic3d_MarkerImage_Handle.hxx>

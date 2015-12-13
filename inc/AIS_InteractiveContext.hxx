@@ -20,7 +20,7 @@
 #include <Standard_Boolean.hxx>
 #include <Handle_SelectMgr_OrFilter.hxx>
 #include <Handle_Prs3d_Drawer.hxx>
-#include <Quantity_NameOfColor.hxx>
+#include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Standard_Integer.hxx>
 #include <AIS_DataMapOfILC.hxx>
 #include <Handle_V3d_View.hxx>

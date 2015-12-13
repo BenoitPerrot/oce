@@ -29,7 +29,7 @@
 #include <Aspect_GradientBackground.hxx>
 #include <Visual3d_ContextView.hxx>
 #include <TCollection_ExtendedString.hxx>
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <Graphic3d_MapOfStructure.hxx>
 #include <Bnd_Box.hxx>

@@ -19,7 +19,7 @@
 #include <BRepTools.hxx>
 #include <BRep_Builder.hxx>
 #include <OpenGl_GraphicDriver.hxx>
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Standard_ErrorHandler.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Face.hxx>

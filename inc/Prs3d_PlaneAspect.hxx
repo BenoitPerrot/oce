@@ -11,8 +11,8 @@
 #include <Handle_Prs3d_PlaneAspect.hxx>
 
 #include <Handle_Prs3d_LineAspect.hxx>
-#include <Quantity_Length.hxx>
-#include <Quantity_PlaneAngle.hxx>
+#include <Foundation/Quantity/Quantity_Length.hxx>
+#include <Foundation/Quantity/Quantity_PlaneAngle.hxx>
 #include <Standard_Boolean.hxx>
 #include <Prs3d_BasicAspect.hxx>
 class Prs3d_LineAspect;

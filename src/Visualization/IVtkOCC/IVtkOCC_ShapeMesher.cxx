@@ -37,7 +37,7 @@
 #include <Precision.hxx>
 #include <Prs3d.hxx>
 #include <Prs3d_Drawer.hxx>
-#include <Quantity_Length.hxx>
+#include <Foundation/Quantity/Quantity_Length.hxx>
 #include <Standard_ErrorHandler.hxx>
 #include <TColgp_SequenceOfPnt2d.hxx>
 #include <TColStd_Array1OfReal.hxx>

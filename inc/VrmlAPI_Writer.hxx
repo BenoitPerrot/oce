@@ -15,7 +15,7 @@
 #include <Standard_Real.hxx>
 #include <Handle_VrmlConverter_Projector.hxx>
 #include <Handle_Vrml_Material.hxx>
-#include <Quantity_Length.hxx>
+#include <Foundation/Quantity/Quantity_Length.hxx>
 #include <Handle_Quantity_HArray1OfColor.hxx>
 #include <Standard_CString.hxx>
 class VrmlConverter_Drawer;

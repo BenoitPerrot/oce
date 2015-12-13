@@ -10,11 +10,11 @@
 #include <Standard_DefineHandle.hxx>
 #include <Handle_Aspect_CircularGrid.hxx>
 
-#include <Quantity_Length.hxx>
+#include <Foundation/Quantity/Quantity_Length.hxx>
 #include <Standard_Integer.hxx>
 #include <Standard_Real.hxx>
 #include <Aspect_Grid.hxx>
-#include <Quantity_PlaneAngle.hxx>
+#include <Foundation/Quantity/Quantity_PlaneAngle.hxx>
 class Standard_NegativeValue;
 class Standard_NullValue;
 class Standard_NumericError;

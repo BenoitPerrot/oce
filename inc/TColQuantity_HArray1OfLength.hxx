@@ -12,7 +12,7 @@
 
 #include <TColQuantity_Array1OfLength.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Quantity_Length.hxx>
+#include <Foundation/Quantity/Quantity_Length.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_DimensionMismatch;
@@ -69,7 +69,7 @@ private:
 };
 
 #define ItemHArray1 Quantity_Length
-#define ItemHArray1_hxx <Quantity_Length.hxx>
+#define ItemHArray1_hxx <Foundation/Quantity/Quantity_Length.hxx>
 #define TheArray1 TColQuantity_Array1OfLength
 #define TheArray1_hxx <TColQuantity_Array1OfLength.hxx>
 #define TCollection_HArray1 TColQuantity_HArray1OfLength

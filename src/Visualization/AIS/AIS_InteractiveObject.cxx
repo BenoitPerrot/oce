@@ -31,7 +31,7 @@
 #include <Standard_Transient.hxx>
 #include <AIS_Drawer.hxx>
 #include <AIS_InteractiveContext.hxx>
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 #include <TColStd_ListOfTransient.hxx>
 #include <Graphic3d_MaterialAspect.hxx>
 #include <TColStd_ListOfInteger.hxx>

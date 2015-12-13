@@ -15,10 +15,10 @@
 #include <Aspect_FillMethod.hxx>
 #include <Standard_Boolean.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Quantity_NameOfColor.hxx>
+#include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Aspect_GradientFillMethod.hxx>
 #include <Aspect_TypeOfResize.hxx>
-#include <Quantity_Ratio.hxx>
+#include <Foundation/Quantity/Quantity_Ratio.hxx>
 #include <Standard_Integer.hxx>
 #include <Aspect_Drawable.hxx>
 class Aspect_WindowDefinitionError;

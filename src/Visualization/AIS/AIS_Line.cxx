@@ -22,7 +22,7 @@
 #include <Prs3d_Projector.hxx>
 #include <Geom_Transformation.hxx>
 #include <SelectMgr_Selection.hxx>
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 #include <AIS_Line.hxx>
 #include <Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_Line)
@@ -51,7 +51,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_Line)
 #include <AIS_Drawer.hxx>
 #include <GC_MakeSegment.hxx>
 #include <Geom_Line.hxx>
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 #include <AIS_GraphicTool.hxx>
 #include <UnitsAPI.hxx>
 

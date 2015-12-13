@@ -45,7 +45,7 @@
 #include <V3d_UnMapped.hxx>
 #include <V3d_View.hxx>
 #include <V3d_Viewer.hxx>
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Graphic3d_TextureEnv.hxx>
 #include <V3d_Light.hxx>
 #include <TCollection_ExtendedString.hxx>

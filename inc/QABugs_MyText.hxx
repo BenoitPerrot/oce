@@ -12,7 +12,7 @@
 
 #include <gp_Pnt.hxx>
 #include <TCollection_ExtendedString.hxx>
-#include <Quantity_NameOfColor.hxx>
+#include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Standard_CString.hxx>
 #include <Standard_Real.hxx>
 #include <AIS_InteractiveObject.hxx>

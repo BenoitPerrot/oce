@@ -43,7 +43,7 @@
 
 #include <Graphic3d_Structure.hxx>
 #include <Graphic3d_Group.hxx>
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 #include <V3d_CircularGrid.hxx>
 #include <Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(V3d_CircularGrid)

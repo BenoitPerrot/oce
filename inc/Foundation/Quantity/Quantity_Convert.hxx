@@ -10,8 +10,8 @@
 #include <Standard_DefineAlloc.hxx>
 #include <Standard_Macro.hxx>
 
-#include <Quantity_PhysicalQuantity.hxx>
-#include <Quantity_Coefficient.hxx>
+#include <Foundation/Quantity/Quantity_PhysicalQuantity.hxx>
+#include <Foundation/Quantity/Quantity_Coefficient.hxx>
 #include <Standard_Real.hxx>
 #include <Standard_Boolean.hxx>
 class TCollection_AsciiString;
@@ -69,7 +69,7 @@ private:
 };
 
 
-#include <Quantity_Convert.lxx>
+#include <Foundation/Quantity/Quantity_Convert.lxx>
 
 
 

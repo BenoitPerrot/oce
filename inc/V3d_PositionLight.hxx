@@ -15,7 +15,7 @@
 #include <V3d_Light.hxx>
 #include <Handle_V3d_Viewer.hxx>
 #include <V3d_Coordinate.hxx>
-#include <Quantity_Parameter.hxx>
+#include <Foundation/Quantity/Quantity_Parameter.hxx>
 #include <Handle_V3d_View.hxx>
 #include <V3d_TypeOfPickLight.hxx>
 #include <Standard_Integer.hxx>

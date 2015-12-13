@@ -20,7 +20,7 @@
 #include <TCollection_AsciiString.hxx>
 #include <TColStd_HSequenceOfExtendedString.hxx>
 #include <TCollection_HAsciiString.hxx>
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 
 #include <TopoDS_Shape.hxx>
 

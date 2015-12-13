@@ -16,8 +16,8 @@
 #ifndef _VOXEL_VISDATA_H_
 #define _VOXEL_VISDATA_H_
 
-#include <Quantity_Color.hxx>
-#include <Quantity_HArray1OfColor.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_HArray1OfColor.hxx>
 #include <TShort_HArray1OfShortReal.hxx>
 #include <TColStd_HArray1OfReal.hxx>
 #include <TColgp_HArray1OfDir.hxx>

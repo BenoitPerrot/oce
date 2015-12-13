@@ -27,7 +27,7 @@
 #include <Standard_Real.hxx>
 #include <Standard_CString.hxx>
 #include <Graphic3d_Vertex.hxx>
-#include <Quantity_PlaneAngle.hxx>
+#include <Foundation/Quantity/Quantity_PlaneAngle.hxx>
 #include <Graphic3d_TextPath.hxx>
 #include <Graphic3d_HorizontalTextAlignment.hxx>
 #include <Graphic3d_VerticalTextAlignment.hxx>

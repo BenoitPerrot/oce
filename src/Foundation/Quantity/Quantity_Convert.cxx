@@ -12,8 +12,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Quantity_Convert.hxx>
-#include <Quantity_Array1OfCoefficient.hxx>
+#include <Foundation/Quantity/Quantity_Convert.hxx>
+#include <Foundation/Quantity/Quantity_Array1OfCoefficient.hxx>
 #include <TCollection_AsciiString.hxx>
 
 Standard_EXPORT Quantity_Array1OfCoefficient ConvertTable(1,68);

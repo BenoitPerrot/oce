@@ -17,7 +17,7 @@
 #include <MeshVS_DataSource.hxx>
 #include <Prs3d_Presentation.hxx>
 #include <MeshVS_DataMapOfIntegerColor.hxx>
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 #include <MeshVS_DataMapOfIntegerTwoColors.hxx>
 #include <MeshVS_ElementalColorPrsBuilder.hxx>
 #include <Standard_Type.hxx>

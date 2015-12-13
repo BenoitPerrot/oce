@@ -7,7 +7,7 @@
 
 #include <Standard_Type.hxx>
 
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Aspect_SequenceOfColor.hxx>
 
  
@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_RTTI(Aspect_SequenceNodeOfSequenceOfColor)
 
 
 #define SeqItem Quantity_Color
-#define SeqItem_hxx <Quantity_Color.hxx>
+#define SeqItem_hxx <Foundation/Quantity/Quantity_Color.hxx>
 #define TCollection_SequenceNode Aspect_SequenceNodeOfSequenceOfColor
 #define TCollection_SequenceNode_hxx <Aspect_SequenceNodeOfSequenceOfColor.hxx>
 #define Handle_TCollection_SequenceNode Handle_Aspect_SequenceNodeOfSequenceOfColor

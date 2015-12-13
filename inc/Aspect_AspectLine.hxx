@@ -10,7 +10,7 @@
 #include <Standard_DefineHandle.hxx>
 #include <Handle_Aspect_AspectLine.hxx>
 
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Aspect_TypeOfLine.hxx>
 #include <Standard_Real.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

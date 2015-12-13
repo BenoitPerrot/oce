@@ -12,10 +12,10 @@
 
 #include <Standard_ShortReal.hxx>
 #include <Standard_Storable.hxx>
-#include <Quantity_NameOfColor.hxx>
-#include <Quantity_Parameter.hxx>
-#include <Quantity_TypeOfColor.hxx>
-#include <Quantity_Rate.hxx>
+#include <Foundation/Quantity/Quantity_NameOfColor.hxx>
+#include <Foundation/Quantity/Quantity_Parameter.hxx>
+#include <Foundation/Quantity/Quantity_TypeOfColor.hxx>
+#include <Foundation/Quantity/Quantity_Rate.hxx>
 #include <Standard_Real.hxx>
 #include <Standard_Boolean.hxx>
 #include <Standard_CString.hxx>

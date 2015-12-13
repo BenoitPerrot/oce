@@ -16,7 +16,7 @@
 
 #include <Graphic3d_AspectLine3d.hxx>
 #include <Prs3d_InvalidAngle.hxx>
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Prs3d_ArrowAspect.hxx>
 #include <Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Prs3d_ArrowAspect)

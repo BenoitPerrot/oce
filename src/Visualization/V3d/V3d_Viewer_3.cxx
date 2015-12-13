@@ -46,7 +46,7 @@
 #include <Graphic3d_AspectMarker3d.hxx>
 #include <V3d_BadValue.hxx>
 #include <V3d_View.hxx>
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 #include <gp_Ax3.hxx>
 #include <Aspect_Grid.hxx>
 #include <Aspect_Background.hxx>

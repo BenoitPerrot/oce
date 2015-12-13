@@ -12,7 +12,7 @@
 
 #include <Handle_Graphic3d_AspectLine3d.hxx>
 #include <Prs3d_BasicAspect.hxx>
-#include <Quantity_NameOfColor.hxx>
+#include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Aspect_TypeOfLine.hxx>
 #include <Standard_Real.hxx>
 class Graphic3d_AspectLine3d;

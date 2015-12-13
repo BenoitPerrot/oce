@@ -28,7 +28,7 @@
 #include <Handle_Geom_Transformation.hxx>
 #include <Handle_SelectMgr_Selection.hxx>
 #include <AIS_KindOfInteractive.hxx>
-#include <Quantity_NameOfColor.hxx>
+#include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 class Geom_Line;
 class Geom_Axis2Placement;
 class Prs3d_LineAspect;

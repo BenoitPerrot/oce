@@ -16,7 +16,7 @@
 //-----------------------------------------------------------------------------
 // inline methods for Convert from Quantity
 //-----------------------------------------------------------------------------
-#include <Quantity_Array1OfCoefficient.hxx>
+#include <Foundation/Quantity/Quantity_Array1OfCoefficient.hxx>
 
 
 #ifndef __Quantity_API

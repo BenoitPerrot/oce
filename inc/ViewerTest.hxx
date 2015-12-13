@@ -25,7 +25,7 @@
 #include <Handle_AIS_InteractiveContext.hxx>
 #include <NIS_InteractiveContext.hxx>
 #include <Handle_ViewerTest_EventManager.hxx>
-#include <Quantity_NameOfColor.hxx>
+#include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 class TCollection_AsciiString;
 class V3d_View;
 class MMgt_TShared;

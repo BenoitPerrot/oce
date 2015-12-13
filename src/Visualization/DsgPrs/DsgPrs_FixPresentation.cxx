@@ -40,7 +40,7 @@
 #include <gp_Pnt.hxx>
 #include <gp_Ax1.hxx>
 
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 
 
 //=======================================================================

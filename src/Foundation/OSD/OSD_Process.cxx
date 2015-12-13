@@ -16,7 +16,7 @@
 
 #include <Foundation/OSD/OSD_OSDError.hxx>
 #include <TCollection_AsciiString.hxx>
-#include <Quantity_Date.hxx>
+#include <Foundation/Quantity/Quantity_Date.hxx>
 #include <Foundation/OSD/OSD_Path.hxx>
 #include <Foundation/OSD/OSD_Process.hxx>
 #include <Foundation/OSD/OSD_WhoAmI.hxx>
@@ -210,7 +210,7 @@ Standard_Integer OSD_Process::Error()const{
 #include <Foundation/OSD/OSD_Process.hxx>
 
 #include <Foundation/OSD/OSD_Path.hxx>
-#include <Quantity_Date.hxx>
+#include <Foundation/Quantity/Quantity_Date.hxx>
 #include <Standard_PExtCharacter.hxx>
 #include <TCollection_ExtendedString.hxx>
 

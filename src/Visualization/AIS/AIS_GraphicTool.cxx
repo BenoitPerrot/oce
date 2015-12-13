@@ -19,12 +19,12 @@
 
 
 #include <Prs3d_Drawer.hxx>
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Graphic3d_MaterialAspect.hxx>
 #include <AIS_GraphicTool.hxx>
 
 
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Prs3d_LineAspect.hxx>
 #include <Aspect_AspectLine.hxx>
 #include <Graphic3d_AspectLine3d.hxx>

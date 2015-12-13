@@ -11,7 +11,7 @@
 #include <Handle_Graphic3d_AspectText3d.hxx>
 
 #include <TCollection_AsciiString.hxx>
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Standard_Real.hxx>
 #include <Aspect_TypeOfStyleText.hxx>
 #include <Aspect_TypeOfDisplayText.hxx>

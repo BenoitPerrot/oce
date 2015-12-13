@@ -14,10 +14,10 @@
 #include <V3d_PositionLight.hxx>
 #include <Handle_V3d_Viewer.hxx>
 #include <V3d_TypeOfOrientation.hxx>
-#include <Quantity_NameOfColor.hxx>
+#include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Standard_Boolean.hxx>
 #include <V3d_Coordinate.hxx>
-#include <Quantity_Parameter.hxx>
+#include <Foundation/Quantity/Quantity_Parameter.hxx>
 #include <Handle_V3d_View.hxx>
 #include <V3d_TypeOfRepresentation.hxx>
 #include <Handle_Graphic3d_Group.hxx>

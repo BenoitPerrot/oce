@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(TColQuantity_HArray1OfLength)
 
 
 #define ItemHArray1 Quantity_Length
-#define ItemHArray1_hxx <Quantity_Length.hxx>
+#define ItemHArray1_hxx <Foundation/Quantity/Quantity_Length.hxx>
 #define TheArray1 TColQuantity_Array1OfLength
 #define TheArray1_hxx <TColQuantity_Array1OfLength.hxx>
 #define TCollection_HArray1 TColQuantity_HArray1OfLength

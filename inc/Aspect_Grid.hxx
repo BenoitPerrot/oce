@@ -10,9 +10,9 @@
 #include <Standard_DefineHandle.hxx>
 #include <Handle_Aspect_Grid.hxx>
 
-#include <Quantity_PlaneAngle.hxx>
-#include <Quantity_Length.hxx>
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_PlaneAngle.hxx>
+#include <Foundation/Quantity/Quantity_Length.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Standard_Boolean.hxx>
 #include <Aspect_GridDrawMode.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

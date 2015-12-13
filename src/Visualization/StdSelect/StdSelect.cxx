@@ -27,7 +27,7 @@
 #include <Select3D_SensitiveFace.hxx>
 #include <Graphic3d_AspectLine3d.hxx>
 #include <Graphic3d_Structure.hxx>
-#include <Quantity_NameOfColor.hxx>
+#include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Aspect_TypeOfLine.hxx>
 #include <TColgp_HArray1OfPnt.hxx>
 #include <gp_Pnt.hxx>

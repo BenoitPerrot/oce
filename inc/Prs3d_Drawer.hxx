@@ -16,7 +16,7 @@
 #include <Handle_Prs3d_LineAspect.hxx>
 #include <Handle_Prs3d_TextAspect.hxx>
 #include <Handle_Prs3d_ShadingAspect.hxx>
-#include <Quantity_Length.hxx>
+#include <Foundation/Quantity/Quantity_Length.hxx>
 #include <Aspect_TypeOfDeflection.hxx>
 #include <Standard_Real.hxx>
 #include <Handle_Prs3d_PointAspect.hxx>

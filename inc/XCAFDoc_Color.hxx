@@ -10,9 +10,9 @@
 #include <Standard_DefineHandle.hxx>
 #include <Handle_XCAFDoc_Color.hxx>
 
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 #include <TDF_Attribute.hxx>
-#include <Quantity_NameOfColor.hxx>
+#include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Standard_Real.hxx>
 #include <Handle_TDF_Attribute.hxx>
 #include <Handle_TDF_RelocationTable.hxx>

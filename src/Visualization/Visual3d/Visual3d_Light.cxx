@@ -14,7 +14,7 @@
 
 #include <Visual3d_LightDefinitionError.hxx>
 #include <Visual3d_View.hxx>
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Graphic3d_Vector.hxx>
 #include <Visual3d_Light.hxx>
 #include <Standard_Type.hxx>

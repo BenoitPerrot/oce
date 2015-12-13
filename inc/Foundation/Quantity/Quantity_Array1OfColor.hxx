@@ -92,9 +92,9 @@ private:
 };
 
 #define Array1Item Quantity_Color
-#define Array1Item_hxx <Quantity_Color.hxx>
+#define Array1Item_hxx <Foundation/Quantity/Quantity_Color.hxx>
 #define TCollection_Array1 Quantity_Array1OfColor
-#define TCollection_Array1_hxx <Quantity_Array1OfColor.hxx>
+#define TCollection_Array1_hxx <Foundation/Quantity/Quantity_Array1OfColor.hxx>
 
 #include <TCollection_Array1.lxx>
 

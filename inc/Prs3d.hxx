@@ -11,7 +11,7 @@
 #include <Standard_Macro.hxx>
 
 #include <Standard_Boolean.hxx>
-#include <Quantity_Length.hxx>
+#include <Foundation/Quantity/Quantity_Length.hxx>
 #include <Standard_Real.hxx>
 #include <Handle_Prs3d_Drawer.hxx>
 class gp_Pnt;

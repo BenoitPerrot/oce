@@ -25,7 +25,7 @@
 #include <Handle_Geom_Transformation.hxx>
 #include <Handle_SelectMgr_Selection.hxx>
 #include <AIS_KindOfInteractive.hxx>
-#include <Quantity_NameOfColor.hxx>
+#include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 class Geom_Plane;
 class AIS_InteractiveObject;
 class AIS_Line;

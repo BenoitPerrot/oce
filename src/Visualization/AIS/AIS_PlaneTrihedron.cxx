@@ -35,7 +35,7 @@
 #include <Prs3d_Projector.hxx>
 #include <Geom_Transformation.hxx>
 #include <SelectMgr_Selection.hxx>
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <AIS_PlaneTrihedron.hxx>
 #include <Standard_Type.hxx>

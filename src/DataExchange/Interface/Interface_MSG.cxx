@@ -23,7 +23,7 @@
 #include <Foundation/Dico/Dico_IteratorOfDictionaryOfTransient.hxx>
 #include <TColStd_HSequenceOfHAsciiString.hxx>
 #include <Foundation/OSD/OSD_Process.hxx>
-#include <Quantity_Date.hxx>
+#include <Foundation/Quantity/Quantity_Date.hxx>
 
 #include <Standard_DomainError.hxx>
 #include <stdio.h>

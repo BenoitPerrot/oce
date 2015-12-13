@@ -36,7 +36,7 @@
 #include <Foundation/OSD/OSD_Process.hxx>
 
 #include <Interface_Version.hxx>
-#include <Quantity_Date.hxx>
+#include <Foundation/Quantity/Quantity_Date.hxx>
 
 
 static Handle(IGESData_Protocol) proto;

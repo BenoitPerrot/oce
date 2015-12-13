@@ -12,7 +12,7 @@
 
 #include <Standard_Integer.hxx>
 #include <Prs3d_LineAspect.hxx>
-#include <Quantity_NameOfColor.hxx>
+#include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Aspect_TypeOfLine.hxx>
 #include <Standard_Real.hxx>
 class Quantity_Color;

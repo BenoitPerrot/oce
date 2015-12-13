@@ -25,8 +25,8 @@
 
 #include <Handle_TColStd_HArray1OfByte.hxx>
 #include <Handle_TColStd_HArray1OfReal.hxx>
-#include <Quantity_PlaneAngle.hxx>
-#include <Quantity_NameOfColor.hxx>
+#include <Foundation/Quantity/Quantity_PlaneAngle.hxx>
+#include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Handle_OpenGl_View.hxx>
 #include <Handle_OpenGl_Workspace.hxx>
 

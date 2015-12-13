@@ -3,18 +3,18 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Quantity_Array2OfColor.hxx>
+#include <Foundation/Quantity/Quantity_Array2OfColor.hxx>
 
 #include <Standard_RangeError.hxx>
 #include <Standard_OutOfRange.hxx>
 #include <Standard_OutOfMemory.hxx>
 #include <Standard_DimensionMismatch.hxx>
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
  
 
 #define Array2Item Quantity_Color
-#define Array2Item_hxx <Quantity_Color.hxx>
+#define Array2Item_hxx <Foundation/Quantity/Quantity_Color.hxx>
 #define TCollection_Array2 Quantity_Array2OfColor
-#define TCollection_Array2_hxx <Quantity_Array2OfColor.hxx>
+#define TCollection_Array2_hxx <Foundation/Quantity/Quantity_Array2OfColor.hxx>
 #include <TCollection_Array2.gxx>
 

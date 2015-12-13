@@ -14,7 +14,7 @@
 #include <TColStd_ListOfInteger.hxx>
 #include <Standard_Integer.hxx>
 #include <Standard_Boolean.hxx>
-#include <Quantity_NameOfColor.hxx>
+#include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class TColStd_ListOfInteger;
 

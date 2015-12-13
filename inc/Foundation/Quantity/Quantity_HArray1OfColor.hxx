@@ -10,7 +10,7 @@
 #include <Standard_DefineHandle.hxx>
 #include <Handle_Quantity_HArray1OfColor.hxx>
 
-#include <Quantity_Array1OfColor.hxx>
+#include <Foundation/Quantity/Quantity_Array1OfColor.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;
@@ -69,11 +69,11 @@ private:
 };
 
 #define ItemHArray1 Quantity_Color
-#define ItemHArray1_hxx <Quantity_Color.hxx>
+#define ItemHArray1_hxx <Foundation/Quantity/Quantity_Color.hxx>
 #define TheArray1 Quantity_Array1OfColor
-#define TheArray1_hxx <Quantity_Array1OfColor.hxx>
+#define TheArray1_hxx <Foundation/Quantity/Quantity_Array1OfColor.hxx>
 #define TCollection_HArray1 Quantity_HArray1OfColor
-#define TCollection_HArray1_hxx <Quantity_HArray1OfColor.hxx>
+#define TCollection_HArray1_hxx <Foundation/Quantity/Quantity_HArray1OfColor.hxx>
 #define Handle_TCollection_HArray1 Handle_Quantity_HArray1OfColor
 #define TCollection_HArray1_Type_() Quantity_HArray1OfColor_Type_()
 

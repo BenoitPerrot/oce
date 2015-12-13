@@ -17,8 +17,8 @@
 #include <Standard_Real.hxx>
 #include <gp_Pnt.hxx>
 #include <Handle_Geom_Curve.hxx>
-#include <Quantity_Parameter.hxx>
-#include <Quantity_Length.hxx>
+#include <Foundation/Quantity/Quantity_Parameter.hxx>
+#include <Foundation/Quantity/Quantity_Length.hxx>
 class Standard_OutOfRange;
 class StdFail_NotDone;
 class Geom_Curve;

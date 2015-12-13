@@ -14,7 +14,7 @@
 #include <Handle_Prs3d_Presentation.hxx>
 #include <Handle_Prs3d_Drawer.hxx>
 #include <Standard_Boolean.hxx>
-#include <Quantity_Length.hxx>
+#include <Foundation/Quantity/Quantity_Length.hxx>
 class Prs3d_Presentation;
 class Adaptor3d_Surface;
 class Prs3d_Drawer;

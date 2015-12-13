@@ -17,7 +17,7 @@
 #define VrmlData_Material_HeaderFile
 
 #include <VrmlData_Node.hxx>
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 
 /**
  *  Implementation of the Material node

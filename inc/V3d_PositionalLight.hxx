@@ -13,8 +13,8 @@
 #include <V3d_PositionLight.hxx>
 #include <Handle_V3d_Viewer.hxx>
 #include <V3d_Coordinate.hxx>
-#include <Quantity_NameOfColor.hxx>
-#include <Quantity_Coefficient.hxx>
+#include <Foundation/Quantity/Quantity_NameOfColor.hxx>
+#include <Foundation/Quantity/Quantity_Coefficient.hxx>
 #include <Handle_V3d_View.hxx>
 #include <V3d_TypeOfRepresentation.hxx>
 #include <Handle_Graphic3d_Group.hxx>

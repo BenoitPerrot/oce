@@ -19,7 +19,7 @@
 #include <Image_PixMapData.hxx>
 #include <Image_PixMap_Handle.hxx>
 #include <Standard_Transient.hxx>
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 
 //! Class represents packed image plane.
 class Image_PixMap : public Standard_Transient

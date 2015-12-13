@@ -25,7 +25,7 @@
 #include <IGESData_IGESEntity.hxx>
 #include <Transfer_Binder.hxx>
 #include <TransferBRep.hxx>
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 #include <IGESCAFControl.hxx>
 #include <IGESGraph_Color.hxx>
 #include <Interface_InterfaceModel.hxx>

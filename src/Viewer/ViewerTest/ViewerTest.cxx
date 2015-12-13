@@ -88,8 +88,8 @@
 
 extern int ViewerMainLoop(Standard_Integer argc, const char** argv);
 
-#include <Quantity_Color.hxx>
-#include <Quantity_NameOfColor.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 
 #include <Graphic3d_NameOfMaterial.hxx>
 

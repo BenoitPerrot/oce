@@ -16,7 +16,7 @@
 
 #include <ViewerTest.hxx>
 
-#include <Quantity_NameOfColor.hxx>
+#include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Draw_Interpretor.hxx>
 #include <Draw.hxx>
 #include <Draw_Appli.hxx>
@@ -2423,8 +2423,8 @@ static int VCircleBuilder(Draw_Interpretor& /*di*/, Standard_Integer argc, const
 #include <TCollection_AsciiString.hxx>
 
 #include <gp_Pnt.hxx>
-#include <Quantity_NameOfColor.hxx>
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_NameOfColor.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 
 
 DEFINE_STANDARD_HANDLE(MyTextClass, AIS_InteractiveObject)

@@ -16,7 +16,7 @@
 #include <Graphic3d_InitialisationError.hxx>
 #include <Graphic3d_Group.hxx>
 #include <gp_Pnt.hxx>
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 #include <gp_Dir.hxx>
 #include <gp_Pnt2d.hxx>
 #include <Graphic3d_ArrayOfPrimitives.hxx>

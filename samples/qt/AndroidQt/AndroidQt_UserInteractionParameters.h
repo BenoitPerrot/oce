@@ -14,7 +14,7 @@
 #ifndef ANDROIDQT_USERINTERACTIONPARAMETERS_H
 #define ANDROIDQT_USERINTERACTIONPARAMETERS_H
 
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 
 namespace AndroidQt_UserInteractionParameters
 {

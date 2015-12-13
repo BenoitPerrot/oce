@@ -10,7 +10,7 @@
 #include <Standard_DefineHandle.hxx>
 #include <Handle_AIS_AttributeFilter.hxx>
 
-#include <Quantity_NameOfColor.hxx>
+#include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Standard_Real.hxx>
 #include <Standard_Boolean.hxx>
 #include <SelectMgr_Filter.hxx>

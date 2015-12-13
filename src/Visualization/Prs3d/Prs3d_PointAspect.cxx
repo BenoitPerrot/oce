@@ -16,7 +16,7 @@
 //						  instead a restricted object NameOfColor.
 
 #include <Graphic3d_AspectMarker3d.hxx>
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 #include <TColStd_HArray1OfByte.hxx>
 #include <Prs3d_PointAspect.hxx>
 #include <Standard_Type.hxx>

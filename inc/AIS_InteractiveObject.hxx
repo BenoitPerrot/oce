@@ -15,7 +15,7 @@
 #include <TColStd_ListOfTransient.hxx>
 #include <Handle_AIS_Drawer.hxx>
 #include <Standard_Real.hxx>
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Graphic3d_NameOfMaterial.hxx>
 #include <Standard_Integer.hxx>
 #include <Standard_Boolean.hxx>
@@ -24,7 +24,7 @@
 #include <SelectMgr_SelectableObject.hxx>
 #include <PrsMgr_TypeOfPresentation3d.hxx>
 #include <AIS_KindOfInteractive.hxx>
-#include <Quantity_NameOfColor.hxx>
+#include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Handle_AIS_InteractiveContext.hxx>
 #include <Handle_Prs3d_Presentation.hxx>
 #include <Handle_Prs3d_BasicAspect.hxx>

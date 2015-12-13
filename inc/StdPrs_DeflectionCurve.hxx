@@ -15,7 +15,7 @@
 #include <Handle_Prs3d_Drawer.hxx>
 #include <Standard_Boolean.hxx>
 #include <Standard_Real.hxx>
-#include <Quantity_Length.hxx>
+#include <Foundation/Quantity/Quantity_Length.hxx>
 class Prs3d_Presentation;
 class Adaptor3d_Curve;
 class Prs3d_Drawer;

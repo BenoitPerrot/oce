@@ -17,8 +17,8 @@
 #include <Handle_Geom_Surface.hxx>
 #include <Extrema_ExtAlgo.hxx>
 #include <Standard_Real.hxx>
-#include <Quantity_Parameter.hxx>
-#include <Quantity_Length.hxx>
+#include <Foundation/Quantity/Quantity_Parameter.hxx>
+#include <Foundation/Quantity/Quantity_Length.hxx>
 class Standard_OutOfRange;
 class StdFail_NotDone;
 class gp_Pnt;

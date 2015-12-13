@@ -24,7 +24,7 @@
 #include <Bnd_Box.hxx>
 #include <AIS_InteractiveObject.hxx>
 #include <PrsMgr_TypeOfPresentation3d.hxx>
-#include <Quantity_NameOfColor.hxx>
+#include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <AIS_KindOfInteractive.hxx>
 #include <AIS_KindOfDimension.hxx>
 #include <Handle_Prs3d_Presentation.hxx>

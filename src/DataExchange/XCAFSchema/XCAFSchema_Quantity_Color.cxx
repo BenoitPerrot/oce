@@ -2,7 +2,7 @@
 #include <XCAFSchema_Quantity_Color.hxx>
 #endif
 #ifndef _Quantity_Color_HeaderFile
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Storage_Schema.hxx>

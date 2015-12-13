@@ -11,7 +11,7 @@
 #include <Standard_Macro.hxx>
 
 #include <Standard_ShortReal.hxx>
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Standard_Boolean.hxx>
 #include <Graphic3d_TypeOfMaterial.hxx>
 #include <Graphic3d_NameOfMaterial.hxx>

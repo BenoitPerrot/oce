@@ -22,7 +22,7 @@
 #define OCC1174 //SAV_080103 Added back face interior color management
 
 #include <Graphic3d_AspectFillArea3d.hxx>
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Graphic3d_MaterialAspect.hxx>
 #include <Prs3d_ShadingAspect.hxx>
 #include <Standard_Type.hxx>

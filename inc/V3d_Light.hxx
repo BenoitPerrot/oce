@@ -17,9 +17,9 @@
 #include <Handle_V3d_Light.hxx>
 #include <V3d_View.hxx>
 #include <Handle_V3d_Viewer.hxx>
-#include <Quantity_TypeOfColor.hxx>
-#include <Quantity_Parameter.hxx>
-#include <Quantity_NameOfColor.hxx>
+#include <Foundation/Quantity/Quantity_TypeOfColor.hxx>
+#include <Foundation/Quantity/Quantity_Parameter.hxx>
+#include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Standard_Boolean.hxx>
 #include <Handle_V3d_View.hxx>
 #include <Graphic3d_Vertex.hxx>

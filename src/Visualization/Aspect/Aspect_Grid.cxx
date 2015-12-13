@@ -14,7 +14,7 @@
 // Updated:     GG IMP230300 Add grid color parameters in constructor
 //              and add new methods SetColors() & Colors()
 
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Aspect_Grid.hxx>
 #include <Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Aspect_Grid)

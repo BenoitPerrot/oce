@@ -14,7 +14,7 @@
 
 #include <Graphic3d_MaterialDefinitionError.hxx>
 #include <Standard_OutOfRange.hxx>
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Graphic3d_MaterialAspect.hxx>
 #include <Standard_Assert.hxx>
 

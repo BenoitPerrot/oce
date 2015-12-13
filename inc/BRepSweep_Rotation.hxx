@@ -13,7 +13,7 @@
 #include <Standard_Real.hxx>
 #include <gp_Ax1.hxx>
 #include <BRepSweep_Trsf.hxx>
-#include <Quantity_PlaneAngle.hxx>
+#include <Foundation/Quantity/Quantity_PlaneAngle.hxx>
 #include <Standard_Boolean.hxx>
 #include <TopAbs_Orientation.hxx>
 class Standard_ConstructionError;

@@ -23,7 +23,7 @@
 #include <Handle_Prs3d_Projector.hxx>
 #include <Handle_Geom_Transformation.hxx>
 #include <Handle_SelectMgr_Selection.hxx>
-#include <Quantity_NameOfColor.hxx>
+#include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Graphic3d_NameOfMaterial.hxx>
 #include <TopAbs_ShapeEnum.hxx>
 #include <Handle_AIS_Drawer.hxx>

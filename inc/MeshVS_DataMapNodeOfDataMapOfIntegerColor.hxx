@@ -11,7 +11,7 @@
 #include <Handle_MeshVS_DataMapNodeOfDataMapOfIntegerColor.hxx>
 
 #include <Standard_Integer.hxx>
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 #include <TCollection_MapNode.hxx>
 #include <TCollection_MapNodePtr.hxx>
 class Quantity_Color;
@@ -55,7 +55,7 @@ private:
 #define TheKey Standard_Integer
 #define TheKey_hxx <Standard_Integer.hxx>
 #define TheItem Quantity_Color
-#define TheItem_hxx <Quantity_Color.hxx>
+#define TheItem_hxx <Foundation/Quantity/Quantity_Color.hxx>
 #define Hasher TColStd_MapIntegerHasher
 #define Hasher_hxx <TColStd_MapIntegerHasher.hxx>
 #define TCollection_DataMapNode MeshVS_DataMapNodeOfDataMapOfIntegerColor

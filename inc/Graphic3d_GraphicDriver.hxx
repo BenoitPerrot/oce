@@ -23,7 +23,7 @@
 #include <Aspect_FillMethod.hxx>
 #include <Aspect_CLayer2d.hxx>
 #include <Standard_Size.hxx>
-#include <Quantity_NameOfColor.hxx>
+#include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Standard_Real.hxx>
 #include <Aspect_TypeOfTriedronPosition.hxx>
 #include <Aspect_TypeOfTriedronEcho.hxx>

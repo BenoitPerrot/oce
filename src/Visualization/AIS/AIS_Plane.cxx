@@ -25,7 +25,7 @@
 #include <Prs3d_Projector.hxx>
 #include <Geom_Transformation.hxx>
 #include <SelectMgr_Selection.hxx>
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 #include <AIS_Plane.hxx>
 #include <Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_Plane)

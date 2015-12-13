@@ -18,7 +18,7 @@
 #include <Prs3d_Presentation.hxx>
 #include <Prs3d_Drawer.hxx>
 #include <TopTools_HSequenceOfShape.hxx>
-#include <Quantity_Length.hxx>
+#include <Foundation/Quantity/Quantity_Length.hxx>
 #include <Prs3d_WFShape.hxx>
 #include <StdPrs_WFRestrictedFace.hxx>
 #include <StdPrs_Curve.hxx>

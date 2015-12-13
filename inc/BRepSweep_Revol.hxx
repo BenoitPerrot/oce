@@ -11,7 +11,7 @@
 #include <Standard_Macro.hxx>
 
 #include <BRepSweep_Rotation.hxx>
-#include <Quantity_PlaneAngle.hxx>
+#include <Foundation/Quantity/Quantity_PlaneAngle.hxx>
 #include <Standard_Boolean.hxx>
 #include <Standard_Real.hxx>
 class Standard_ConstructionError;

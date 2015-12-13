@@ -193,7 +193,7 @@ private:
 };
 
 
-#include <Quantity_Date.lxx>
+#include <Foundation/Quantity/Quantity_Date.lxx>
 
 
 

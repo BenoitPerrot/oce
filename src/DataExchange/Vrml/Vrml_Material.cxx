@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Quantity_HArray1OfColor.hxx>
+#include <Foundation/Quantity/Quantity_HArray1OfColor.hxx>
 #include <TColStd_HArray1OfReal.hxx>
 #include <Vrml_Material.hxx>
 #include <Standard_Type.hxx>

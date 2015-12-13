@@ -28,7 +28,7 @@ Novembre 1998 : CAL : Creation.
 #include <Graphic3d_GraphicDriver.hxx>
 #include <Visual3d_LayerDefinitionError.hxx>
 #include <Visual3d_ViewManager.hxx>
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Visual3d_LayerItem.hxx>
 #include <Visual3d_Layer.hxx>
 #include <Standard_Type.hxx>

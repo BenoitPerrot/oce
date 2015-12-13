@@ -11,10 +11,10 @@
 #include <Handle_Prs3d_ArrowAspect.hxx>
 
 #include <Handle_Graphic3d_AspectLine3d.hxx>
-#include <Quantity_PlaneAngle.hxx>
-#include <Quantity_Length.hxx>
+#include <Foundation/Quantity/Quantity_PlaneAngle.hxx>
+#include <Foundation/Quantity/Quantity_Length.hxx>
 #include <Prs3d_BasicAspect.hxx>
-#include <Quantity_NameOfColor.hxx>
+#include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 class Graphic3d_AspectLine3d;
 class Prs3d_InvalidAngle;
 class Quantity_Color;

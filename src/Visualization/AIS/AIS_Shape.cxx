@@ -19,7 +19,7 @@
 #include <Prs3d_Projector.hxx>
 #include <Geom_Transformation.hxx>
 #include <SelectMgr_Selection.hxx>
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Graphic3d_MaterialAspect.hxx>
 #include <Bnd_Box.hxx>
 #include <AIS_Drawer.hxx>
@@ -42,7 +42,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_Shape)
 #include <Foundation/OSD/OSD_Timer.hxx>
 #include <TColStd_ListIteratorOfListOfInteger.hxx>
 
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 
 #include <gp_Pnt.hxx>
 #include <Bnd_Box.hxx>

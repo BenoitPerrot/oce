@@ -12,7 +12,7 @@
  
 
 #define Array1Item Quantity_Length
-#define Array1Item_hxx <Quantity_Length.hxx>
+#define Array1Item_hxx <Foundation/Quantity/Quantity_Length.hxx>
 #define TCollection_Array1 TColQuantity_Array1OfLength
 #define TCollection_Array1_hxx <TColQuantity_Array1OfLength.hxx>
 #include <TCollection_Array1.gxx>

@@ -15,10 +15,10 @@
 #include <Standard_Boolean.hxx>
 #include <Handle_Graphic3d_Structure.hxx>
 #include <Handle_Graphic3d_DataStructureManager.hxx>
-#include <Quantity_NameOfColor.hxx>
+#include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Handle_Prs3d_ShadingAspect.hxx>
 #include <Handle_Geom_Transformation.hxx>
-#include <Quantity_Length.hxx>
+#include <Foundation/Quantity/Quantity_Length.hxx>
 #include <Handle_Graphic3d_Group.hxx>
 class Prs3d_Root;
 class Graphic3d_StructureManager;

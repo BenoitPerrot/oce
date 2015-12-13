@@ -17,7 +17,7 @@
 #include <Prs3d_Root.hxx>
 #include <Prs3d_NListOfSequenceOfPnt.hxx>
 #include <TopTools_HSequenceOfShape.hxx>
-#include <Quantity_Length.hxx>
+#include <Foundation/Quantity/Quantity_Length.hxx>
 
 class Adaptor3d_Curve;
 class TopoDS_Edge;

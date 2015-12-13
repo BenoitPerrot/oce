@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <MeshVS_Mesh.hxx>
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 #include <MeshVS_DataSource.hxx>
 #include <Prs3d_Presentation.hxx>
 #include <MeshVS_DataMapOfIntegerAsciiString.hxx>

@@ -24,7 +24,7 @@
 #include <Handle_Prs3d_Presentation.hxx>
 #include <Standard_Integer.hxx>
 #include <Handle_SelectMgr_Selection.hxx>
-#include <Quantity_NameOfColor.hxx>
+#include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Standard_CString.hxx>
 class MeshVS_PrsBuilder;
 class TColStd_HPackedMapOfInteger;

@@ -12,7 +12,7 @@
 
 #include <Graphic3d_CStructure_Handle.hxx>
 #include <TColStd_SequenceOfAddress.hxx>
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Aspect_TypeOfHighlightMethod.hxx>
 #include <Graphic3d_StructureManagerPtr.hxx>
 #include <Standard_Address.hxx>

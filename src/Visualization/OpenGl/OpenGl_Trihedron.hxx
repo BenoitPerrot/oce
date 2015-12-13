@@ -25,7 +25,7 @@
 #include <OpenGl_Disk.hxx>
 #include <OpenGl_Sphere.hxx>
 #include <OpenGl_Text.hxx>
-#include <Quantity_NameOfColor.hxx>
+#include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 
 //! Class render trihedron
 class OpenGl_Trihedron : public OpenGl_Element

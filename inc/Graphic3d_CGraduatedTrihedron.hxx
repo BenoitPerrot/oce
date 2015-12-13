@@ -18,7 +18,7 @@
 
 #include <Standard_Boolean.hxx>
 #include <Standard_Integer.hxx>
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <TCollection_ExtendedString.hxx>
 #include <Font_FontAspect.hxx>

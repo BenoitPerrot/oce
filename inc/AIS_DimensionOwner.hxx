@@ -15,7 +15,7 @@
 #include <Handle_SelectMgr_SelectableObject.hxx>
 #include <Standard_Integer.hxx>
 #include <PrsMgr_PresentationManager3d.hxx>
-#include <Quantity_NameOfColor.hxx>
+#include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Standard_Boolean.hxx>
 #include <Handle_PrsMgr_PresentationManager.hxx>
 class SelectMgr_SelectableObject;

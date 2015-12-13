@@ -13,7 +13,7 @@
 #include <Handle_Geom_Axis2Placement.hxx>
 #include <Handle_AIS_InteractiveObject.hxx>
 #include <Standard_Boolean.hxx>
-#include <Quantity_NameOfColor.hxx>
+#include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <AIS_InteractiveObject.hxx>
 #include <Standard_Real.hxx>
 #include <Handle_AIS_Axis.hxx>

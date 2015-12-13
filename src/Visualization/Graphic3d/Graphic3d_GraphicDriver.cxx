@@ -16,7 +16,7 @@
 
 #include <Graphic3d_TransformError.hxx>
 #include <Graphic3d_StructureManager.hxx>
-#include <Quantity_Color.hxx>
+#include <Foundation/Quantity/Quantity_Color.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <TColStd_Array2OfReal.hxx>
 #include <Graphic3d_GraphicDriver.hxx>
