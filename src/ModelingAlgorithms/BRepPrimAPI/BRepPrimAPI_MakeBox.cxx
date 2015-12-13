@@ -16,7 +16,7 @@
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Ax2.hxx>
 #include <BRepPrim_Wedge.hxx>

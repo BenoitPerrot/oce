@@ -17,7 +17,7 @@
 #ifndef No_Exception
 #define No_Exception
 #endif
-#include <StdFail_UndefinedDerivative.hxx>
+#include <Foundation/StdFail/StdFail_UndefinedDerivative.hxx>
 #include <gp_Lin.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>
 #include <IntCurveSurface_IntersectionPoint.hxx>

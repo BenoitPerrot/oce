@@ -16,7 +16,7 @@
 
 //  Modified by skv - Mon May 31 12:58:34 2004 OCC5865
 
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <LocOpe_WiresOnShape.hxx>
 #include <LocOpe_BuildWires.hxx>

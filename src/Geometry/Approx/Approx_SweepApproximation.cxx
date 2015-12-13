@@ -24,7 +24,7 @@
 #include <TColgp_HArray1OfPnt2d.hxx>
 #include <TColgp_HArray1OfVec.hxx>
 #include <TColgp_HArray1OfVec2d.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <AdvApprox_Cutting.hxx>
@@ -48,7 +48,7 @@
 
 #include <TColStd_Array1OfReal.hxx>
 
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 
 //=======================================================================
 //class : Approx_SweepApproximation_Eval

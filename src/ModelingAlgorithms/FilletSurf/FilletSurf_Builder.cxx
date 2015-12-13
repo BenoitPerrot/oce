@@ -14,7 +14,7 @@
 
 // Modifed:     Portage NT 7-5-97 DPF (return)
 
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopTools_ListOfShape.hxx>
@@ -31,7 +31,7 @@
 #include <Geom2d_Curve.hxx>
 #include <ChFi3d_FilletShape.hxx>
 #include <Geom_TrimmedCurve.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <FilletSurf_ErrorTypeStatus.hxx>
 
 //=======================================================================

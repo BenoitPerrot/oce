@@ -17,7 +17,7 @@
 //=========================================================================
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <gp_Lin2d.hxx>
 #include <gp_Pnt2d.hxx>
 #include <GccAna_Lin2dBisec.hxx>
@@ -29,7 +29,7 @@
 #include <gp.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <GccEnt_BadQualifier.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <IntAna2d_AnaIntersection.hxx>
 #include <IntAna2d_IntPoint.hxx>
 

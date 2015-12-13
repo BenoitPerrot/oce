@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <StepShape_TopologicalRepresentationItem.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopoDSToStep_Tool.hxx>
 #include <Transfer_FinderProcess.hxx>

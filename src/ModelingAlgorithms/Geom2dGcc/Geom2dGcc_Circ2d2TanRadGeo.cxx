@@ -14,7 +14,7 @@
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <GccEnt_BadQualifier.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_NegativeValue.hxx>
 #include <GccEnt_QualifiedCirc.hxx>
 #include <Geom2dGcc_QCurve.hxx>
@@ -29,7 +29,7 @@
 #include <gp_Lin2d.hxx>
 #include <Foundation/Standard/Standard_NegativeValue.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <TColStd_Array1OfReal.hxx>
 #include <GccEnt_BadQualifier.hxx>
 #include <IntRes2d_Domain.hxx>

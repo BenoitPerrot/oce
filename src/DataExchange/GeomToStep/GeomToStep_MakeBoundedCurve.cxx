@@ -15,11 +15,11 @@
 // commercial license or contractual agreement.
 
 #include <StepGeom_BoundedCurve.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geom_BoundedCurve.hxx>
 #include <Geom2d_BoundedCurve.hxx>
 #include <GeomToStep_MakeBoundedCurve.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <StepGeom_BoundedCurve.hxx>
 #include <GeomToStep_MakeBoundedCurve.hxx>
 #include <Geom_BSplineCurve.hxx>

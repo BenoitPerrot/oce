@@ -5,7 +5,7 @@
 
 #include <IntPatch_TheSurfFunction.hxx>
 
-#include <StdFail_UndefinedDerivative.hxx>
+#include <Foundation/StdFail/StdFail_UndefinedDerivative.hxx>
 #include <Adaptor3d_HSurface.hxx>
 #include <Adaptor3d_HSurfaceTool.hxx>
 #include <IntSurf_Quadric.hxx>

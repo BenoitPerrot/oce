@@ -19,7 +19,7 @@
 //=========================================================================
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <gp_Circ2d.hxx>
 #include <GccInt_Bisec.hxx>
 #include <GccAna_Circ2dBisec.hxx>
@@ -38,7 +38,7 @@
 #include <GccInt_BCirc.hxx>
 #include <GccInt_BHyper.hxx>
 #include <GccEnt_BadQualifier.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <IntAna2d_AnaIntersection.hxx>
 #include <Precision.hxx>
 //=========================================================================

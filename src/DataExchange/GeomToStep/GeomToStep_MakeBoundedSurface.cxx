@@ -15,10 +15,10 @@
 // commercial license or contractual agreement.
 
 #include <StepGeom_BoundedSurface.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geom_BoundedSurface.hxx>
 #include <GeomToStep_MakeBoundedSurface.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <StepGeom_BoundedSurface.hxx>
 #include <GeomToStep_MakeBoundedSurface.hxx>
 #include <Geom_BSplineSurface.hxx>

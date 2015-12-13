@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Adaptor3d_Surface.hxx>
 #include <Extrema_POnSurf.hxx>
 #include <Extrema_GenLocateExtSS.hxx>

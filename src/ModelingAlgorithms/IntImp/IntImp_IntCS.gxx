@@ -18,7 +18,7 @@
 #endif
 
 
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <IntImp_ComputeTangence.hxx>
 #include <math_FunctionSetRoot.hxx>

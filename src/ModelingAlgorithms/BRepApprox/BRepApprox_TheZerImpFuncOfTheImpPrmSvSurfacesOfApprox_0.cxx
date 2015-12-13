@@ -5,7 +5,7 @@
 
 #include <BRepApprox_TheZerImpFuncOfTheImpPrmSvSurfacesOfApprox.hxx>
 
-#include <StdFail_UndefinedDerivative.hxx>
+#include <Foundation/StdFail/StdFail_UndefinedDerivative.hxx>
 #include <BRepAdaptor_Surface.hxx>
 #include <BRepApprox_SurfaceTool.hxx>
 #include <IntSurf_Quadric.hxx>

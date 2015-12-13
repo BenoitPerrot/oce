@@ -15,14 +15,14 @@
 // commercial license or contractual agreement.
 
 #include <Geom2d_Ellipse.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <gp_Elips2d.hxx>
 #include <gp_Ax2d.hxx>
 #include <gp_Ax22d.hxx>
 #include <gp_Pnt2d.hxx>
 #include <GCE2d_MakeEllipse.hxx>
 #include <gce_MakeElips2d.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 
 GCE2d_MakeEllipse::GCE2d_MakeEllipse(const gp_Elips2d& E)
 {

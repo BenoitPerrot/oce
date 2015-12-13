@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Precision.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Edge.hxx>

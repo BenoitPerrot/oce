@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Geom_BSplineSurface.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <TColgp_Array2OfPnt.hxx>
 #include <TColStd_Array2OfReal.hxx>
 #include <GeomAPI_PointsToBSplineSurface.hxx>

@@ -19,8 +19,8 @@
 //                            tri des solutions pour eviter de rendre plusieurs
 //                            fois la meme solution 
 
-#include <StdFail_InfiniteSolutions.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_InfiniteSolutions.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Adaptor3d_Curve.hxx>
 #include <Extrema_POnCurv.hxx>
@@ -29,7 +29,7 @@
 #include <Extrema_ECC.hxx>
 #include <Extrema_ExtCC.hxx>
 
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Extrema_ExtElC.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <GeomAbs_CurveType.hxx>

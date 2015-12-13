@@ -15,12 +15,12 @@
 // commercial license or contractual agreement.
 
 #include <Geom_TrimmedCurve.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <gp_Parab.hxx>
 #include <gp_Pnt.hxx>
 #include <GC_MakeArcOfParabola.hxx>
 #include <Geom_Parabola.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <ElCLib.hxx>
 
 GC_MakeArcOfParabola::GC_MakeArcOfParabola(const gp_Parab& Parab ,

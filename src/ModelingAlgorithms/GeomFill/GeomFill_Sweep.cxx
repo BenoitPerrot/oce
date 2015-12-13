@@ -21,7 +21,7 @@
 #include <Geom_Surface.hxx>
 #include <TColGeom2d_HArray1OfCurve.hxx>
 #include <TColStd_HArray2OfReal.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Geom2d_Curve.hxx>

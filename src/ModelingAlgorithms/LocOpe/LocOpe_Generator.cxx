@@ -17,7 +17,7 @@
 // Modifed:     Portage NT 7-5-97 DPF (return NewParameter)
 
 #include <LocOpe_GeneratedShape.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_NullObject.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopoDS_Shape.hxx>

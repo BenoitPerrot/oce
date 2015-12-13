@@ -21,7 +21,7 @@
 #include <TColgp_HArray1OfVec2d.hxx>
 #include <TColStd_HArray1OfBoolean.hxx>
 #include <TColStd_HArray1OfReal.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <gp_Vec2d.hxx>
 #include <TColgp_Array1OfVec2d.hxx>

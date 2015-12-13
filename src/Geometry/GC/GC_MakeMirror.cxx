@@ -24,7 +24,7 @@
 #include <GC_MakeMirror.hxx>
 #include <GC_MakeMirror.hxx>
 #include <gp_Ax3.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 
 //=========================================================================
 //   Creation d une symetrie de Geom par rapport a un point.              +

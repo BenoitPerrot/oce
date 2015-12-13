@@ -20,7 +20,7 @@
 #include <Extrema_HArray2OfPOnSurfParams.hxx>
 #include <Bnd_HArray1OfSphere.hxx>
 #include <TColStd_HArray1OfReal.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_TypeMismatch.hxx>
 #include <gp_Pnt.hxx>
@@ -28,7 +28,7 @@
 #include <Extrema_POnSurf.hxx>
 #include <Extrema_POnSurfParams.hxx>
 #include <Extrema_GenExtPS.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <TColStd_Array2OfInteger.hxx>
 #include <TColStd_Array2OfReal.hxx>

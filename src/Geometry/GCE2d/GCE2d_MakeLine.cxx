@@ -15,14 +15,14 @@
 // commercial license or contractual agreement.
 
 #include <Geom2d_Line.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <gp_Ax2d.hxx>
 #include <gp_Lin2d.hxx>
 #include <gp_Pnt2d.hxx>
 #include <gp_Dir2d.hxx>
 #include <GCE2d_MakeLine.hxx>
 #include <gce_MakeLin2d.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 
 //=========================================================================
 //   Constructions of 2d geometrical elements from Geom2d.

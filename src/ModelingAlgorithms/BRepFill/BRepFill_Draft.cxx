@@ -18,7 +18,7 @@
 #include <BRepFill_DraftLaw.hxx>
 #include <BRepFill_SectionLaw.hxx>
 #include <TopTools_HArray2OfShape.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <TopoDS_Shape.hxx>
 #include <gp_Dir.hxx>
 #include <Geom_Surface.hxx>
@@ -90,7 +90,7 @@
 #include <TColStd_Array1OfReal.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 
 #ifdef DRAW
 #include <Geom_Circle.hxx>

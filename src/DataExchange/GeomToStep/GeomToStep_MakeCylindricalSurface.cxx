@@ -15,12 +15,12 @@
 // commercial license or contractual agreement.
 
 #include <StepGeom_CylindricalSurface.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geom_CylindricalSurface.hxx>
 #include <GeomToStep_MakeCylindricalSurface.hxx>
 #include <StepGeom_Axis2Placement3d.hxx>
 #include <GeomToStep_MakeAxis2Placement3d.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geom_CylindricalSurface.hxx>
 #include <StepGeom_CylindricalSurface.hxx>
 #include <TCollection_HAsciiString.hxx>

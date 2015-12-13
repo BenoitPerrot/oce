@@ -29,7 +29,7 @@
 //==                           C Y L I N D R E   Q U A D R I Q U E
 //======================================================================
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <gp_Cylinder.hxx>
 #include <IntAna_Quadric.hxx>
@@ -40,7 +40,7 @@
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <math_TrigonometricFunctionRoots.hxx>
 	
 #include <gp_Ax2.hxx>

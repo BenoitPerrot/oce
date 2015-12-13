@@ -31,7 +31,7 @@
 
 #include <AppParCurves_Constraint.hxx>
 #include <math_BFGS.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <AppParCurves_MultiPoint.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Pnt2d.hxx>

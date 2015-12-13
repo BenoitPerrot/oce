@@ -23,7 +23,7 @@
 //  by succsessive iteration find the point and its associated parameter
 //  call to FunctionRoot
 
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Adaptor3d_Curve.hxx>
 #include <Adaptor2d_Curve2d.hxx>
@@ -31,7 +31,7 @@
 
 #include <math_GaussSingleIntegration.hxx>
 #include <math_FunctionRoot.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 
 #include <gp_Vec.hxx>

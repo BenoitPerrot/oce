@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Geom2d_TrimmedCurve.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <gp_Circ2d.hxx>
 #include <gp_Pnt2d.hxx>
 #include <gp_Vec2d.hxx>
@@ -25,7 +25,7 @@
 #include <gce_MakeCirc2d.hxx>
 #include <gce_MakeLin2d.hxx>
 #include <ElCLib.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <IntAna2d_AnaIntersection.hxx>
 
 

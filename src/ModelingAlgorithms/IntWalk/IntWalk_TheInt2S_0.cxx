@@ -5,10 +5,10 @@
 
 #include <IntWalk_TheInt2S.hxx>
 
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <StdFail_UndefinedDerivative.hxx>
+#include <Foundation/StdFail/StdFail_UndefinedDerivative.hxx>
 #include <Adaptor3d_HSurface.hxx>
 #include <Adaptor3d_HSurfaceTool.hxx>
 #include <IntWalk_TheFunctionOfTheInt2S.hxx>

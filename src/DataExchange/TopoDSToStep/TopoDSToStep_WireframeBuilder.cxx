@@ -18,7 +18,7 @@
 //szv#4 S4163
 
 #include <TColStd_HSequenceOfTransient.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopoDSToStep_Tool.hxx>
 #include <Transfer_FinderProcess.hxx>

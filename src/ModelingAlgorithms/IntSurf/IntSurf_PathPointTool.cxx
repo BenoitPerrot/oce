@@ -13,7 +13,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <StdFail_UndefinedDerivative.hxx>
+#include <Foundation/StdFail/StdFail_UndefinedDerivative.hxx>
 #include <IntSurf_PathPoint.hxx>
 #include <IntSurf_PathPointTool.hxx>
 

@@ -19,7 +19,7 @@
 #include <TColStd_HArray1OfReal.hxx>
 #include <Law_BSpline.hxx>
 #include <TColStd_HArray1OfBoolean.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <TColStd_Array1OfReal.hxx>
 #include <Law_Interpolate.hxx>

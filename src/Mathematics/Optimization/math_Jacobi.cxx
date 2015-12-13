@@ -18,7 +18,7 @@
 #define No_Standard_DimensionError
 //#endif
 
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <math_Matrix.hxx>
 #include <math_Jacobi.hxx>
 

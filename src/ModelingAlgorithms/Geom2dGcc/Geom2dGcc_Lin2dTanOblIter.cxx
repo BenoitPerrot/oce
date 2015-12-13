@@ -19,7 +19,7 @@
 //========================================================================
 
 #include <GccEnt_BadQualifier.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geom2dGcc_IsParallel.hxx>
 #include <Geom2dGcc_QCurve.hxx>
 #include <gp_Lin2d.hxx>
@@ -29,7 +29,7 @@
 #include <IntAna2d_AnaIntersection.hxx>
 #include <IntAna2d_IntPoint.hxx>
 #include <Geom2dGcc_IsParallel.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <GccEnt_BadQualifier.hxx>
 #include <math_FunctionRoot.hxx>
 #include <gp_XY.hxx>

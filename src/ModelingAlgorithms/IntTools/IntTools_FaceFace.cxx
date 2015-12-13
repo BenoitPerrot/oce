@@ -15,7 +15,7 @@
 
 #include <GeomAdaptor_HSurface.hxx>
 #include <IntTools_Context.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <TopoDS_Face.hxx>
 #include <IntTools_SequenceOfCurves.hxx>
 #include <IntTools_SequenceOfPntOn2Faces.hxx>

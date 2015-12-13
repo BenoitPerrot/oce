@@ -17,7 +17,7 @@
 //szv#4 S4163
 
 #include <StepShape_TopologicalRepresentationItem.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <TopoDS_Wire.hxx>
 #include <TopoDSToStep_Tool.hxx>
 #include <Transfer_FinderProcess.hxx>

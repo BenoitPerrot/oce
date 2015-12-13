@@ -14,16 +14,16 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_TypeMismatch.hxx>
 #include <Adaptor3d_Surface.hxx>
 #include <Extrema_POnSurf.hxx>
 #include <Extrema_ExtSS.hxx>
 
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
-#include <StdFail_InfiniteSolutions.hxx>
+#include <Foundation/StdFail/StdFail_InfiniteSolutions.hxx>
 #include <Precision.hxx>
 #include <GeomAbs_SurfaceType.hxx>
 #include <gp_Pnt.hxx>

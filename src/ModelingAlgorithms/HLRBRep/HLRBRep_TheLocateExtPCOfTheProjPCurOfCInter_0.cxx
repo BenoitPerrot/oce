@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_TypeMismatch.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <HLRBRep_CurveTool.hxx>
 #include <Extrema_POnCurv2d.hxx>
 #include <gp_Pnt2d.hxx>

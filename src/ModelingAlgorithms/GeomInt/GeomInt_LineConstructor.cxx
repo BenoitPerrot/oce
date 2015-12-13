@@ -16,7 +16,7 @@
 
 #include <Adaptor3d_TopolTool.hxx>
 #include <GeomAdaptor_HSurface.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <IntPatch_Line.hxx>
 #include <GeomInt_LineConstructor.hxx>

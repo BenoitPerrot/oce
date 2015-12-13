@@ -6,7 +6,7 @@
 #include <BRepApprox_Approx.hxx>
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <BRepAdaptor_Surface.hxx>
 #include <BRepApprox_SurfaceTool.hxx>
 #include <IntSurf_Quadric.hxx>

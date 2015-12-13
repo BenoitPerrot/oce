@@ -18,7 +18,7 @@
 #include <math_GlobOptMin.hxx>
 #include <Foundation/Standard/Standard_NullObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <TColStd_Array1OfReal.hxx>
 #include <Precision.hxx>
 

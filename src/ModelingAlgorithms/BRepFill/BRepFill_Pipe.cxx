@@ -17,7 +17,7 @@
 #include <BRepFill_LocationLaw.hxx>
 #include <TopTools_HArray2OfShape.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <TopoDS_Wire.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Face.hxx>

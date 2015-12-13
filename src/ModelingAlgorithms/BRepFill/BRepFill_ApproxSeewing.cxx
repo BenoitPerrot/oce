@@ -16,7 +16,7 @@
 
 #include <Geom_Curve.hxx>
 #include <Geom2d_Curve.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <BRepFill_MultiLine.hxx>
 #include <BRepFill_ApproxSeewing.hxx>
 

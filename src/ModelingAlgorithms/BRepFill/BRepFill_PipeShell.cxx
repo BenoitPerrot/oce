@@ -21,7 +21,7 @@
 #include <BRepFill_SectionLaw.hxx>
 #include <TopTools_HArray2OfShape.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <TopoDS_Wire.hxx>
 #include <gp_Ax2.hxx>
 #include <gp_Dir.hxx>
@@ -91,7 +91,7 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_PipeShell)
 
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 
 #include <BRepBuilderAPI_Copy.hxx>
 #include <BRepBuilderAPI_Transform.hxx>

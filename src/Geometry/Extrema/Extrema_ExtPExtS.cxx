@@ -16,7 +16,7 @@
 
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Adaptor3d_HCurve.hxx>
 #include <ElCLib.hxx>
 #include <Extrema_ExtPElC.hxx>

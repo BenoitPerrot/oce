@@ -15,7 +15,7 @@
 
 #include <TColStd_HArray1OfReal.hxx>
 #include <TColStd_HArray2OfReal.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <TColStd_Array1OfReal.hxx>
 #include <math_EigenValuesSearcher.hxx>
 

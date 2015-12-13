@@ -15,12 +15,12 @@
 // commercial license or contractual agreement.
 
 #include <StepGeom_SurfaceOfLinearExtrusion.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geom_SurfaceOfLinearExtrusion.hxx>
 #include <GeomToStep_MakeSurfaceOfLinearExtrusion.hxx>
 #include <GeomToStep_MakeVector.hxx>
 #include <GeomToStep_MakeCurve.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geom_SurfaceOfLinearExtrusion.hxx>
 #include <gp_Vec.hxx>
 #include <StepGeom_SurfaceOfLinearExtrusion.hxx>

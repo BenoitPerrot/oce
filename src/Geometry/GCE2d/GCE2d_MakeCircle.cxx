@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Geom2d_Circle.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <gp_Circ2d.hxx>
 #include <gp_Ax2d.hxx>
 #include <gp_Ax22d.hxx>
@@ -23,7 +23,7 @@
 #include <GCE2d_MakeCircle.hxx>
 #include <gce_MakeCirc2d.hxx>
 #include <Geom2d_Circle.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 
 GCE2d_MakeCircle::GCE2d_MakeCircle(const gp_Circ2d& C)
 {

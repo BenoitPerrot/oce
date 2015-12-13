@@ -14,7 +14,7 @@
 
 // math_GaussMultipleIntegration.lxx
 
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 
 inline Standard_Boolean math_GaussMultipleIntegration::IsDone() const 
                                                        { return Done; }

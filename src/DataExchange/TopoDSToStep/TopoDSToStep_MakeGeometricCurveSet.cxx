@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <StepShape_GeometricCurveSet.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <TopoDS_Shape.hxx>
 #include <Transfer_FinderProcess.hxx>
 #include <TopoDSToStep_MakeGeometricCurveSet.hxx>
@@ -32,7 +32,7 @@
 #include <StepShape_HArray1OfGeometricSetSelect.hxx>
 
 #include <TColStd_HSequenceOfTransient.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Transfer_FinderProcess.hxx>
 #include <TransferBRep_ShapeMapper.hxx>
 

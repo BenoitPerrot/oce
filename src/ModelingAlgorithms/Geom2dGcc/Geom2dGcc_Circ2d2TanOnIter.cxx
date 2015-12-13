@@ -24,7 +24,7 @@
 //                                                  Courbes.              +
 //=========================================================================
 
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <GccEnt_QualifiedCirc.hxx>
 #include <Geom2dGcc_QCurve.hxx>
 #include <gp_Lin2d.hxx>
@@ -37,7 +37,7 @@
 #include <gp_Dir2d.hxx>
 #include <gp_Ax2d.hxx>
 #include <gp.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <GccEnt_BadQualifier.hxx>
 #include <math_FunctionSetRoot.hxx>
 #include <ElCLib.hxx>

@@ -10,7 +10,7 @@
 #include <Adaptor3d_HCurve.hxx>
 #include <Adaptor3d_TopolTool.hxx>
 #include <TColStd_HArray1OfReal.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Adaptor3d_HVertex.hxx>
 #include <Adaptor2d_HCurve2d.hxx>
 #include <BRepBlend_HCurve2dTool.hxx>

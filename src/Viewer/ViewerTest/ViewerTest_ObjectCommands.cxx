@@ -109,7 +109,7 @@
 #include <Select3D_SensitiveCircle.hxx>
 #include <SelectMgr_EntityOwner.hxx>
 #include <SelectMgr_Selection.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <StdPrs_ShadedShape.hxx>
 #include <TopoDS_Wire.hxx>
 

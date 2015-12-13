@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Adaptor3d_HSurfaceOfRevolution.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <gp_Pnt.hxx>
 #include <Extrema_POnSurf.hxx>

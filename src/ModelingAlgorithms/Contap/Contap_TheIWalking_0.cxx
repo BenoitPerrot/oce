@@ -5,7 +5,7 @@
 
 #include <Contap_TheIWalking.hxx>
 
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <IntSurf_PathPoint.hxx>
 #include <IntSurf_PathPointTool.hxx>

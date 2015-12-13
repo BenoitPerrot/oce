@@ -5,7 +5,7 @@
 
 #include <Approx_MyLeastSquareOfFitAndDivide.hxx>
 
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_DimensionError.hxx>
 #include <AppCont_Function.hxx>

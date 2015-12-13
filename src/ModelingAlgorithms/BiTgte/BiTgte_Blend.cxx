@@ -18,7 +18,7 @@
 
 #include <BRepAlgo_AsDes.hxx>
 #include <TColStd_HArray1OfInteger.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Face.hxx>

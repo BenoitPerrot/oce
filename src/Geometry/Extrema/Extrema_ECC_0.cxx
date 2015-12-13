@@ -5,8 +5,8 @@
 
 #include <Extrema_ECC.hxx>
 
-#include <StdFail_InfiniteSolutions.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_InfiniteSolutions.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Adaptor3d_Curve.hxx>
 #include <Extrema_CurveTool.hxx>

@@ -15,12 +15,12 @@
 // commercial license or contractual agreement.
 
 #include <Geom_TrimmedCurve.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <gp_Hypr.hxx>
 #include <gp_Pnt.hxx>
 #include <GC_MakeArcOfHyperbola.hxx>
 #include <Geom_Hyperbola.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <ElCLib.hxx>
 
 GC_MakeArcOfHyperbola::

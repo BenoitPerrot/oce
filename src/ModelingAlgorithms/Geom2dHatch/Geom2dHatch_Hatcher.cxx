@@ -16,7 +16,7 @@
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geom2dHatch_Intersector.hxx>
 #include <Geom2dHatch_Element.hxx>
 #include <Geom2dAdaptor_Curve.hxx>

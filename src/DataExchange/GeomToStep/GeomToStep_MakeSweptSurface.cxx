@@ -15,10 +15,10 @@
 // commercial license or contractual agreement.
 
 #include <StepGeom_SweptSurface.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geom_SweptSurface.hxx>
 #include <GeomToStep_MakeSweptSurface.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <StepGeom_SweptSurface.hxx>
 #include <GeomToStep_MakeSweptSurface.hxx>
 #include <Geom_SurfaceOfLinearExtrusion.hxx>

@@ -58,7 +58,7 @@ IMPLEMENT_STANDARD_RTTI(Bisector_BisecAna)
 #include <gp.hxx>
 #include <gp_Pnt2d.hxx>
 #include <ElCLib.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <IntAna2d_AnaIntersection.hxx>
 #include <IntAna2d_IntPoint.hxx>
 #include <IntRes2d_Domain.hxx>

@@ -15,14 +15,14 @@
 // commercial license or contractual agreement.
 
 #include <StepGeom_Axis1Placement.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <gp_Ax1.hxx>
 #include <gp_Ax2d.hxx>
 #include <Geom_Axis1Placement.hxx>
 #include <Geom2d_AxisPlacement.hxx>
 #include <GeomToStep_MakeAxis1Placement.hxx>
 #include <GeomToStep_MakeDirection.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <gp_Ax1.hxx>
 #include <gp_Ax2d.hxx>
 #include <Geom_Axis1Placement.hxx>

@@ -19,14 +19,14 @@
 //========================================================================
 
 #include <GccEnt_BadQualifier.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geom2dGcc_QCurve.hxx>
 #include <gp_Pnt2d.hxx>
 #include <GccEnt_QualifiedCirc.hxx>
 #include <gp_Lin2d.hxx>
 #include <Geom2dGcc_Lin2d2TanIter.hxx>
 
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <GccEnt_BadQualifier.hxx>
 #include <gp_XY.hxx>
 #include <gp_Dir2d.hxx>

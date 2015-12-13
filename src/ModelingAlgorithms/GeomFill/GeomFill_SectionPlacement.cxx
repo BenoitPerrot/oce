@@ -16,7 +16,7 @@
 
 #include <GeomFill_LocationLaw.hxx>
 #include <Geom_Curve.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geom_Geometry.hxx>
 #include <Adaptor3d_HCurve.hxx>
 #include <gp_Trsf.hxx>

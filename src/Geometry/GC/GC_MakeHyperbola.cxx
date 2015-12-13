@@ -15,13 +15,13 @@
 // commercial license or contractual agreement.
 
 #include <Geom_Hyperbola.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <gp_Hypr.hxx>
 #include <gp_Ax2.hxx>
 #include <gp_Pnt.hxx>
 #include <GC_MakeHyperbola.hxx>
 #include <gce_MakeHypr.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 
 GC_MakeHyperbola::GC_MakeHyperbola(const gp_Hypr& H)
 {

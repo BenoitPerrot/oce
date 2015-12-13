@@ -15,13 +15,13 @@
 // commercial license or contractual agreement.
 
 #include <StepGeom_Line.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <gp_Lin.hxx>
 #include <gp_Lin2d.hxx>
 #include <Geom_Line.hxx>
 #include <Geom2d_Line.hxx>
 #include <GeomToStep_MakeLine.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <StepGeom_Line.hxx>
 #include <StepGeom_CartesianPoint.hxx>
 #include <StepGeom_Vector.hxx>

@@ -15,13 +15,13 @@
 // commercial license or contractual agreement.
 
 #include <Geom_TrimmedCurve.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Lin.hxx>
 #include <GC_MakeSegment.hxx>
 #include <GC_MakeLine.hxx>
 #include <Geom_Line.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <ElCLib.hxx>
 
 GC_MakeSegment::GC_MakeSegment(const gp_Pnt& P1 ,

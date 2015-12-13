@@ -15,12 +15,12 @@
 // commercial license or contractual agreement.
 
 #include <StepGeom_ConicalSurface.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geom_ConicalSurface.hxx>
 #include <GeomToStep_MakeConicalSurface.hxx>
 #include <StepGeom_Axis2Placement3d.hxx>
 #include <GeomToStep_MakeAxis2Placement3d.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geom_ConicalSurface.hxx>
 #include <StepGeom_ConicalSurface.hxx>
 #include <TCollection_HAsciiString.hxx>

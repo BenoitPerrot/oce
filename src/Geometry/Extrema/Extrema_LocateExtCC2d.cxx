@@ -17,7 +17,7 @@
 #include <Extrema_LocateExtCC2d.hxx>
 
 #include <GeomAbs_CurveType.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Extrema_POnCurv2d.hxx>
 #include <Precision.hxx>
 

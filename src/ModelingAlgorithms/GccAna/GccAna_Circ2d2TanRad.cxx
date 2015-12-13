@@ -15,7 +15,7 @@
 #include <Foundation/Standard/Standard_NegativeValue.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <GccEnt_BadQualifier.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <GccEnt_QualifiedCirc.hxx>
 #include <GccEnt_QualifiedLin.hxx>
 #include <gp_Pnt2d.hxx>
@@ -30,7 +30,7 @@
 #include <IntAna2d_IntPoint.hxx>
 #include <Foundation/Standard/Standard_NegativeValue.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <GccEnt_BadQualifier.hxx>
 #include <Precision.hxx>
 

@@ -16,7 +16,7 @@
 
 //:   gka 09.04.99: S4136: improving tolerance management
 
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <StepShape_ConnectedFaceSet.hxx>
 #include <StepToTopoDS_Tool.hxx>
 #include <StepToTopoDS_NMTool.hxx>

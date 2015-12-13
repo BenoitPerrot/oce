@@ -37,7 +37,7 @@
 #include <Geom2d_BSplineCurve.hxx>
 #include <Geom2d_BezierCurve.hxx>
 #include <gp_Vec2d.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <gp_XY.hxx>
 #include <TColgp_HArray1OfPnt2d.hxx>
 #include <TColStd_HArray1OfReal.hxx>

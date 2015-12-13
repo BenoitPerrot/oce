@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Geom_Plane.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <gp_Ax2.hxx>
 #include <gp_Pln.hxx>
 #include <gp_Pnt.hxx>
@@ -26,7 +26,7 @@
 #include <gp.hxx>
 #include <gp_Ax3.hxx>
 #include <TColgp_Array1OfPnt.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 
 

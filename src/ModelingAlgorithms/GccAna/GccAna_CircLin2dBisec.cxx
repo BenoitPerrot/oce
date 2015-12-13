@@ -19,7 +19,7 @@
 //=========================================================================
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <gp_Circ2d.hxx>
 #include <gp_Lin2d.hxx>
 #include <GccInt_Bisec.hxx>
@@ -31,7 +31,7 @@
 #include <GccInt_BParab.hxx>
 #include <GccInt_BLine.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <gp.hxx>
 
 //=========================================================================

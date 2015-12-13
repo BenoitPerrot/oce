@@ -16,7 +16,7 @@
 //-- lbr : la methode avec les coefficients est catastrophique. 
 //--       Mise en place d'une vraie solution. 
 
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <gp_Lin.hxx>
 #include <gp_Torus.hxx>

@@ -15,13 +15,13 @@
 // commercial license or contractual agreement.
 
 #include <Geom2d_TrimmedCurve.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <gp_Elips2d.hxx>
 #include <gp_Pnt2d.hxx>
 #include <GCE2d_MakeArcOfEllipse.hxx>
 #include <Geom2d_Ellipse.hxx>
 #include <ElCLib.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 
 GCE2d_MakeArcOfEllipse::GCE2d_MakeArcOfEllipse(const gp_Elips2d&      Elips ,
 					       const gp_Pnt2d&        P1    ,

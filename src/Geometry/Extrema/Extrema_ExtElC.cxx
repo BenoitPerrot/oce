@@ -14,8 +14,8 @@
 
 #include <stdio.h>
 
-#include <StdFail_InfiniteSolutions.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_InfiniteSolutions.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <gp_Lin.hxx>
 #include <gp_Circ.hxx>
@@ -24,8 +24,8 @@
 #include <gp_Parab.hxx>
 #include <Extrema_POnCurv.hxx>
 #include <Extrema_ExtElC.hxx>
-#include <StdFail_InfiniteSolutions.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_InfiniteSolutions.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <ElCLib.hxx>
 #include <math_TrigonometricFunctionRoots.hxx>
 #include <math_DirectPolynomialRoots.hxx>

@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <StepGeom_Hyperbola.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geom2d_Hyperbola.hxx>
 #include <Geom_Hyperbola.hxx>
 #include <GeomToStep_MakeHyperbola.hxx>
@@ -23,7 +23,7 @@
 #include <Geom_Hyperbola.hxx>
 #include <GeomToStep_MakeAxis2Placement2d.hxx>
 #include <GeomToStep_MakeAxis2Placement3d.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <TCollection_HAsciiString.hxx>
 #include <UnitsMethods.hxx>
 

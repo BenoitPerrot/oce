@@ -15,14 +15,14 @@
 // commercial license or contractual agreement.
 
 #include <Geom_Line.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <gp_Ax1.hxx>
 #include <gp_Lin.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Dir.hxx>
 #include <GC_MakeLine.hxx>
 #include <gce_MakeLin.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 
 //=========================================================================
 //   Constructions of 3d geometrical elements from Geom.

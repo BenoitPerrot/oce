@@ -14,7 +14,7 @@
 
 #include <IntSurf_LineOn2S.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Adaptor3d_HSurface.hxx>
 #include <TColStd_Array1OfReal.hxx>
 #include <IntSurf_PntOn2S.hxx>

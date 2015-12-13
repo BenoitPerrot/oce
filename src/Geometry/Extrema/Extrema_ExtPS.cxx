@@ -16,7 +16,7 @@
 
 #include <Extrema_ExtPExtS.hxx>
 #include <Extrema_ExtPRevS.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_TypeMismatch.hxx>
 #include <gp_Pnt.hxx>
@@ -24,7 +24,7 @@
 #include <Extrema_POnSurf.hxx>
 #include <Extrema_ExtPS.hxx>
 #include <Extrema_GenExtPS.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Precision.hxx>
 #include <GeomAbs_CurveType.hxx>

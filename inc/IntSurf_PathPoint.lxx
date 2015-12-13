@@ -12,7 +12,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StdFail_UndefinedDerivative.hxx>
+#include <Foundation/StdFail/StdFail_UndefinedDerivative.hxx>
 #include <TColgp_HSequenceOfXY.hxx>
 
 inline void IntSurf_PathPoint::AddUV(const Standard_Real U,

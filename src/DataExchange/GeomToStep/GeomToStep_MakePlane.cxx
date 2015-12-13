@@ -15,12 +15,12 @@
 // commercial license or contractual agreement.
 
 #include <StepGeom_Plane.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <gp_Pln.hxx>
 #include <Geom_Plane.hxx>
 #include <GeomToStep_MakePlane.hxx>
 #include <GeomToStep_MakePlane.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <gp_Dir.hxx>
 #include <Geom_Plane.hxx>
 #include <StepGeom_Plane.hxx>

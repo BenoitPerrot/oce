@@ -24,7 +24,7 @@
 //                                                  Courbes.              +
 //=========================================================================
 
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <GccEnt_BadQualifier.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <GccEnt_QualifiedCirc.hxx>
@@ -46,7 +46,7 @@
 #include <IntRes2d_IntersectionPoint.hxx>
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 
 #include <Adaptor3d_OffsetCurve.hxx>
 #include <Geom2dAdaptor_HCurve.hxx>

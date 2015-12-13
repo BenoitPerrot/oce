@@ -15,13 +15,13 @@
 // commercial license or contractual agreement.
 
 #include <StepGeom_Direction.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <gp_Dir.hxx>
 #include <gp_Dir2d.hxx>
 #include <Geom_Direction.hxx>
 #include <Geom2d_Direction.hxx>
 #include <GeomToStep_MakeDirection.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <gp_Dir.hxx>
 #include <gp_Dir2d.hxx>
 #include <Geom_Direction.hxx>

@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Geom_Curve.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Geom_Surface.hxx>
 #include <gp_Pnt.hxx>

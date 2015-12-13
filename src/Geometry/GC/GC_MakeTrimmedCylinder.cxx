@@ -15,14 +15,14 @@
 // commercial license or contractual agreement.
 
 #include <Geom_RectangularTrimmedSurface.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Circ.hxx>
 #include <gp_Ax1.hxx>
 #include <gp_Cylinder.hxx>
 #include <GC_MakeTrimmedCylinder.hxx>
 #include <GC_MakeCylindricalSurface.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 
 //=========================================================================

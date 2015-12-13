@@ -14,8 +14,8 @@
 
 #include <TColStd_HArray1OfReal.hxx>
 #include <Extrema_HArray1OfPOnSurf.hxx>
-#include <StdFail_InfiniteSolutions.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_InfiniteSolutions.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <gp_Pln.hxx>
 #include <gp_Sphere.hxx>
@@ -26,8 +26,8 @@
 #include <Extrema_ExtElSS.hxx>
 #include <Extrema_ExtPElS.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
-#include <StdFail_NotDone.hxx>
-#include <StdFail_InfiniteSolutions.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_InfiniteSolutions.hxx>
 #include <Precision.hxx>
 
 

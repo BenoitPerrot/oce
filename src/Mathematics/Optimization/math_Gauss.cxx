@@ -20,13 +20,13 @@
 
 #include <math_NotSquare.hxx>
 #include <Foundation/Standard/Standard_DimensionError.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <math_Matrix.hxx>
 #include <math_Gauss.hxx>
 #include <math_Recipes.hxx>
 
 #include <math_NotSquare.hxx> 
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_DimensionError.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 

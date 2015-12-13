@@ -39,7 +39,7 @@
 #include <TColStd_Array1OfReal.hxx>
 #include <AppParCurves_Constraint.hxx>
 #include <AppParCurves_MultiPoint.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TColStd_Array1OfReal.hxx>
 #include <math_Recipes.hxx>

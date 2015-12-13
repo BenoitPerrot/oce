@@ -35,7 +35,7 @@
 #include <ChFi3d.hxx>
 #include <ChFi3d_Builder_0.hxx>
 
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 

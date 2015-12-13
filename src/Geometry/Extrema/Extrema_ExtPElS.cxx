@@ -12,7 +12,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Cylinder.hxx>
@@ -22,7 +22,7 @@
 #include <gp_Sphere.hxx>
 #include <Extrema_POnSurf.hxx>
 #include <Extrema_ExtPElS.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <ElSLib.hxx>

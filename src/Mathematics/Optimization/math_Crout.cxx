@@ -20,13 +20,13 @@
 #define No_Standard_DimensionError
 //#endif
 
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <math_NotSquare.hxx>
 #include <Foundation/Standard/Standard_DimensionError.hxx>
 #include <math_Matrix.hxx>
 #include <math_Crout.hxx>
 #include <math_NotSquare.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <math_Vector.hxx>
 
 math_Crout::math_Crout(const math_Matrix& A, const Standard_Real MinPivot):

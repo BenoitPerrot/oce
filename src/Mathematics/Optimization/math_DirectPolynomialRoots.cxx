@@ -19,11 +19,11 @@
 //#endif
 
 #include <Foundation/Standard/Standard_RangeError.hxx>
-#include <StdFail_InfiniteSolutions.hxx>
+#include <Foundation/StdFail/StdFail_InfiniteSolutions.hxx>
 #include <math_DirectPolynomialRoots.hxx>
 
 #include <Foundation/Standard/Standard_RangeError.hxx>
-#include <StdFail_InfiniteSolutions.hxx> 
+#include <Foundation/StdFail/StdFail_InfiniteSolutions.hxx> 
 
 
 

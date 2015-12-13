@@ -12,7 +12,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <gp_Lin2d.hxx>
 #include <gp_Circ2d.hxx>
@@ -24,7 +24,7 @@
 #include <IntAna2d_AnaIntersection.hxx>
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 
 IntAna2d_AnaIntersection::IntAna2d_AnaIntersection () {
 

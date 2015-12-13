@@ -13,7 +13,7 @@
 // commercial license or contractual agreement.
 
 #include <TColgp_HSequenceOfXY.hxx>
-#include <StdFail_UndefinedDerivative.hxx>
+#include <Foundation/StdFail/StdFail_UndefinedDerivative.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Vec.hxx>

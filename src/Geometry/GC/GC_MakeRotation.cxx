@@ -21,7 +21,7 @@
 #include <gp_Dir.hxx>
 #include <GC_MakeRotation.hxx>
 #include <GC_MakeRotation.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 
 //=========================================================================
 //   Creation d une rotation 3d de gp d angle Angle par rapport a une     +

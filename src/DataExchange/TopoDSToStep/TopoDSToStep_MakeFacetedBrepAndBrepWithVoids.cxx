@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <StepShape_FacetedBrepAndBrepWithVoids.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <TopoDS_Solid.hxx>
 #include <Transfer_FinderProcess.hxx>
 #include <TopoDSToStep_MakeFacetedBrepAndBrepWithVoids.hxx>
@@ -32,7 +32,7 @@
 #include <TopoDS.hxx>
 #include <TColStd_SequenceOfTransient.hxx>
 #include <BRepClass3d.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Transfer_FinderProcess.hxx>
 #include <TransferBRep_ShapeMapper.hxx>
 #include <TCollection_HAsciiString.hxx>

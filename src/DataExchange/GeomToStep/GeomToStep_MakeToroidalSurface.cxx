@@ -15,11 +15,11 @@
 // commercial license or contractual agreement.
 
 #include <StepGeom_ToroidalSurface.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geom_ToroidalSurface.hxx>
 #include <GeomToStep_MakeToroidalSurface.hxx>
 #include <GeomToStep_MakeAxis2Placement3d.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geom_ToroidalSurface.hxx>
 #include <StepGeom_ToroidalSurface.hxx>
 #include <TCollection_HAsciiString.hxx>

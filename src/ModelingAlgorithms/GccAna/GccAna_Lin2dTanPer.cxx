@@ -20,7 +20,7 @@
 #include <GccEnt_BadQualifier.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <gp_Pnt2d.hxx>
 #include <gp_Lin2d.hxx>
 #include <gp_Circ2d.hxx>
@@ -28,7 +28,7 @@
 #include <GccAna_Lin2dTanPer.hxx>
 
 #include <ElCLib.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <gp_XY.hxx>
 #include <gp_Dir2d.hxx>
 #include <gp_Vec2d.hxx>

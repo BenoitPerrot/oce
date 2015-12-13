@@ -17,7 +17,7 @@
 // Modified:	Wed Oct 23 09:17:47 1996
 //		check ponctuallity (PRO4896)
 
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Lin.hxx>

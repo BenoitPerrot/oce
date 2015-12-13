@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Approx_SweepFunction.hxx>
@@ -31,7 +31,7 @@
 #include <TColgp_Array1OfVec2d.hxx>
 #include <TColStd_Array1OfReal.hxx>
 
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 
 
 BRepBlend_AppSurface::BRepBlend_AppSurface(

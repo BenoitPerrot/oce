@@ -17,7 +17,7 @@
 #include <GeomAdaptor_HCurve.hxx>
 #include <BRepTopAdaptor_TopolTool.hxx>
 #include <Bnd_HArray1OfBox.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <TopoDS_Shape.hxx>
 #include <GeomAdaptor_Curve.hxx>
 #include <gp_Lin.hxx>

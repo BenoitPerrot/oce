@@ -15,12 +15,12 @@
 // commercial license or contractual agreement.
 
 #include <StepShape_FacetedBrep.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <TopoDS_Shell.hxx>
 #include <Transfer_FinderProcess.hxx>
 #include <TopoDS_Solid.hxx>
 #include <TopoDSToStep_MakeFacetedBrep.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <StepShape_TopologicalRepresentationItem.hxx>
 #include <TopoDSToStep.hxx>
 #include <TopoDSToStep_Builder.hxx>

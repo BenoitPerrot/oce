@@ -15,11 +15,11 @@
 // commercial license or contractual agreement.
 
 #include <StepGeom_Conic.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geom_Conic.hxx>
 #include <Geom2d_Conic.hxx>
 #include <GeomToStep_MakeConic.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <StepGeom_Conic.hxx>
 #include <GeomToStep_MakeConic.hxx>
 #include <Geom_Circle.hxx>

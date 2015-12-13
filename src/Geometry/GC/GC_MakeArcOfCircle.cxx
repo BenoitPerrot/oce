@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Geom_TrimmedCurve.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <gp_Circ.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Vec.hxx>
@@ -25,7 +25,7 @@
 #include <Geom_Circle.hxx>
 #include <Extrema_ExtElC.hxx>
 #include <Extrema_POnCurv.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <ElCLib.hxx>
 
 //=======================================================================

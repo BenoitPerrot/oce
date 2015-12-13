@@ -6,7 +6,7 @@
 #include <AppDef_MyBSplGradientOfBSplineCompute.hxx>
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <AppDef_MultiLine.hxx>
 #include <AppDef_MyLineTool.hxx>
 #include <AppDef_BSpParLeastSquareOfMyBSplGradientOfBSplineCompute.hxx>

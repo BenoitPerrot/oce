@@ -16,7 +16,7 @@
 
 #include <BRepFill_PipeShell.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <TopoDS_Wire.hxx>
 #include <gp_Ax2.hxx>
 #include <gp_Dir.hxx>
@@ -28,7 +28,7 @@
 
 #include <GeomFill_PipeError.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 
 //=======================================================================
 //function :

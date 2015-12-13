@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <StepGeom_Axis2Placement2d.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <gp_Ax2.hxx>
 #include <gp_Ax22d.hxx>
 #include <GeomToStep_MakeAxis2Placement2d.hxx>
@@ -23,7 +23,7 @@
 #include <GeomToStep_MakeDirection.hxx>
 #include <StepGeom_CartesianPoint.hxx>
 #include <GeomToStep_MakeCartesianPoint.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <gp_Ax2.hxx>
 #include <gp_Ax22d.hxx>
 

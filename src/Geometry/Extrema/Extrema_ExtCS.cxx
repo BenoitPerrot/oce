@@ -16,7 +16,7 @@
 
 //  Modified by skv - Thu Jul  7 12:29:34 2005 OCC9134
 
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_TypeMismatch.hxx>
 #include <Adaptor3d_Curve.hxx>
@@ -26,9 +26,9 @@
 #include <gp_Pnt.hxx>
 #include <Extrema_ExtCS.hxx>
 #include <Extrema_GenExtCS.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
-#include <StdFail_InfiniteSolutions.hxx>
+#include <Foundation/StdFail/StdFail_InfiniteSolutions.hxx>
 #include <Precision.hxx>
 #include <GeomAbs_CurveType.hxx>
 #include <gp_Pnt.hxx>

@@ -19,7 +19,7 @@
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <GccEnt_BadQualifier.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <gp_Pnt2d.hxx>
 #include <GccEnt_QualifiedCirc.hxx>
 #include <gp_Lin2d.hxx>
@@ -31,7 +31,7 @@
 #include <gp_Vec2d.hxx>
 #include <gp_Circ2d.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <GccEnt_BadQualifier.hxx>
 
 //=========================================================================

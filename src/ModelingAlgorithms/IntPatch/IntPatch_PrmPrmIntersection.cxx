@@ -18,7 +18,7 @@
 // modified by Oleg FEDYAED  (ofv) Fri Nov 29 16:08:02 2002
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Adaptor3d_HSurface.hxx>
 #include <IntPatch_Polyhedron.hxx>
 #include <Adaptor3d_TopolTool.hxx>

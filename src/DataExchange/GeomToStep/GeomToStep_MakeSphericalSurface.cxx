@@ -15,12 +15,12 @@
 // commercial license or contractual agreement.
 
 #include <StepGeom_SphericalSurface.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geom_SphericalSurface.hxx>
 #include <GeomToStep_MakeSphericalSurface.hxx>
 #include <GeomToStep_MakeAxis2Placement3d.hxx>
 #include <StepGeom_Axis2Placement3d.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geom_SphericalSurface.hxx>
 #include <StepGeom_SphericalSurface.hxx>
 #include <TCollection_HAsciiString.hxx>

@@ -13,7 +13,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <GccEnt_BadQualifier.hxx>
 #include <GccEnt_QualifiedCirc.hxx>
 #include <gp_Lin2d.hxx>
@@ -34,7 +34,7 @@
 #include <GccInt_BCirc.hxx>
 #include <GccInt_BLine.hxx>
 #include <IntAna2d_Conic.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <GccEnt_BadQualifier.hxx>
 #include <GccAna_Circ2dBisec.hxx>
 

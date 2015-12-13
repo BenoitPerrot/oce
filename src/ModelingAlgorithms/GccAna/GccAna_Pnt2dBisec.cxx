@@ -18,7 +18,7 @@
 //   CREATION of the BISSECTRICE between two POINTS.                         +
 //=========================================================================
 
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <gp_Pnt2d.hxx>
 #include <gp_Lin2d.hxx>
 #include <GccAna_Pnt2dBisec.hxx>
@@ -26,7 +26,7 @@
 #include <gp_XY.hxx>
 #include <gp_Dir2d.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <GccAna_NoSolution.hxx>
 #include <gp.hxx>
 

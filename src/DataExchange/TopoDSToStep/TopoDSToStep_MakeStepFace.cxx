@@ -22,7 +22,7 @@
 // abv 30.11.99: fix %30 pdn changed to produce SurfaceOfRevolution instead of DegenerateToroidalSurface
 
 #include <StepShape_TopologicalRepresentationItem.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <TopoDS_Face.hxx>
 #include <TopoDSToStep_Tool.hxx>
 #include <Transfer_FinderProcess.hxx>

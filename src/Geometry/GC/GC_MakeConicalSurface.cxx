@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Geom_ConicalSurface.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <gp_Ax2.hxx>
 #include <gp_Cone.hxx>
 #include <gp_Pnt.hxx>
@@ -24,7 +24,7 @@
 #include <GC_MakeConicalSurface.hxx>
 #include <gce_MakeCone.hxx>
 #include <gp.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 
 GC_MakeConicalSurface::GC_MakeConicalSurface(const gp_Ax2&       A2    ,

@@ -15,11 +15,11 @@
 // commercial license or contractual agreement.
 
 #include <StepGeom_BSplineCurveWithKnots.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geom_BSplineCurve.hxx>
 #include <Geom2d_BSplineCurve.hxx>
 #include <GeomToStep_MakeBSplineCurveWithKnots.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geom_BSplineCurve.hxx>
 #include <StepGeom_BSplineCurveWithKnots.hxx>
 #include <StepGeom_CartesianPoint.hxx>

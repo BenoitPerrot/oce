@@ -19,7 +19,7 @@
 #define OCC191 // jfa 26/02/2002 Bug of cone display
 
 #include <BRepTopAdaptor_TopolTool.hxx>
-#include <StdFail_UndefinedDerivative.hxx>
+#include <Foundation/StdFail/StdFail_UndefinedDerivative.hxx>
 #include <HLRBRep_Array1OfEData.hxx>
 #include <HLRBRep_Array1OfFData.hxx>
 #include <HLRAlgo_Projector.hxx>
@@ -42,7 +42,7 @@ IMPLEMENT_STANDARD_TYPE_END(HLRBRep_Data)
 IMPLEMENT_DOWNCAST(HLRBRep_Data,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(HLRBRep_Data)
 
-#include <StdFail_UndefinedDerivative.hxx>
+#include <Foundation/StdFail/StdFail_UndefinedDerivative.hxx>
 #include <Precision.hxx>
 #include <gp_Dir.hxx>
 #include <Geom2d_Curve.hxx>

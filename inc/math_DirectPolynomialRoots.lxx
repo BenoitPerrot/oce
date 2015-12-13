@@ -13,7 +13,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_RangeError.hxx>
-#include <StdFail_InfiniteSolutions.hxx>
+#include <Foundation/StdFail/StdFail_InfiniteSolutions.hxx>
 
 
 inline Standard_Boolean math_DirectPolynomialRoots::IsDone() const 

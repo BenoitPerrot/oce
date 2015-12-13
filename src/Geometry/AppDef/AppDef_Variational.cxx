@@ -25,7 +25,7 @@
 #include <Foundation/Standard/Standard_DimensionError.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <gp_VectorWithNullMagnitude.hxx>
 #include <AppDef_MultiLine.hxx>
 #include <AppParCurves_MultiBSpCurve.hxx>
@@ -64,7 +64,7 @@
 #include <TColStd_Array1OfReal.hxx>
 #include <TColStd_HArray1OfReal.hxx>
 #include <TColStd_HArray2OfReal.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_SStream.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Precision.hxx>

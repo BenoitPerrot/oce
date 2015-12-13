@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <GccEnt_BadQualifier.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Geom2dGcc_QualifiedCurve.hxx>
@@ -35,7 +35,7 @@
 #include <Geom2d_Line.hxx>
 #include <GccEnt_QualifiedCirc.hxx>
 #include <GccEnt_QualifiedLin.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 
 Geom2dGcc_Circ2d2TanOn::
    Geom2dGcc_Circ2d2TanOn (const Geom2dGcc_QualifiedCurve&    Qualified1 , 

@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Geom_Surface.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <GeomFill_Generator.hxx>
 

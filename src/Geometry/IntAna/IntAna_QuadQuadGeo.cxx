@@ -24,7 +24,7 @@
 #define No_Standard_OutOfRange
 #endif
 
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <gp_Pln.hxx>
@@ -41,7 +41,7 @@
 #include <IntAna_QuadQuadGeo.hxx>
 
 #include <IntAna_IntConicQuad.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <math_DirectPolynomialRoots.hxx>

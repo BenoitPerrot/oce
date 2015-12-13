@@ -69,7 +69,7 @@
 #include <gp_Vec2d.hxx>
 #include <TColStd_Array1OfReal.hxx>
 #include <ElCLib.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Precision.hxx>
 

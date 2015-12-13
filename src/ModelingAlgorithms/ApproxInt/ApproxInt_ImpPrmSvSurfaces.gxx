@@ -16,7 +16,7 @@
 
 #include <TColStd_Array1OfReal.hxx>
 #include <math_FunctionSetRoot.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <GeomAbs_SurfaceType.hxx>
 #include <Precision.hxx>
 

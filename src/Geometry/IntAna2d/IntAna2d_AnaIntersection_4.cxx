@@ -14,7 +14,7 @@
 
 //============================================ IntAna2d_AnaIntersection_4.cxx
 //============================================================================
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <gp_Lin2d.hxx>
 #include <gp_Circ2d.hxx>

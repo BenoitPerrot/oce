@@ -15,11 +15,11 @@
 // commercial license or contractual agreement.
 
 #include <Geom_RectangularTrimmedSurface.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <gp_Pnt.hxx>
 #include <GC_MakeTrimmedCone.hxx>
 #include <GC_MakeConicalSurface.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geom_ConicalSurface.hxx>
 #include <gp_Dir.hxx>
 #include <gp_Lin.hxx>

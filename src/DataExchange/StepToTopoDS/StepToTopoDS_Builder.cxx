@@ -21,7 +21,7 @@
 //abv,gka 05.04.99 S4136: parameter names changed; avoid extra call to FixSameParameter
 
 #include <stdio.h>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <StepShape_ManifoldSolidBrep.hxx>
 #include <Transfer_TransientProcess.hxx>
 #include <StepShape_BrepWithVoids.hxx>

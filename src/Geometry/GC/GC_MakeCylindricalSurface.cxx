@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Geom_CylindricalSurface.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <gp_Ax2.hxx>
 #include <gp_Cylinder.hxx>
 #include <gp_Pnt.hxx>
@@ -24,7 +24,7 @@
 #include <GC_MakeCylindricalSurface.hxx>
 #include <gce_MakeCylinder.hxx>
 #include <gp_Lin.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 
 GC_MakeCylindricalSurface::GC_MakeCylindricalSurface(const gp_Cylinder& C)
 {

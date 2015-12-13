@@ -21,7 +21,7 @@
 //:   abv 07.04.99: S4136: improve tolerance management and dealing with pcurves
 //    rln 02.06.99 removing #include <StepToTopoDS_DegeneratedTool.hxx>
 //    smh 31.01.01 BUC60810 : IsNull protection
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <StepShape_FaceBound.hxx>
 #include <TopoDS_Face.hxx>
 #include <Geom_Surface.hxx>

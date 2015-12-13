@@ -38,7 +38,7 @@
 #include <Foundation/NCollection/NCollection_Comparator.hxx>
 #include <Foundation/NCollection/NCollection_QuickSort.hxx>
 #include <Foundation/NCollection/NCollection_Vector.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 
 namespace
 {

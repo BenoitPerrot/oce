@@ -5,7 +5,7 @@
 
 #include <IntWalk_TheFunctionOfTheInt2S.hxx>
 
-#include <StdFail_UndefinedDerivative.hxx>
+#include <Foundation/StdFail/StdFail_UndefinedDerivative.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Adaptor3d_HSurface.hxx>
 #include <Adaptor3d_HSurfaceTool.hxx>

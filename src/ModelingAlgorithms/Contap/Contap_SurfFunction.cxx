@@ -17,7 +17,7 @@
 // jag 940616 #define Tolpetit 1.e-16
 
 #include <Adaptor3d_HSurface.hxx>
-#include <StdFail_UndefinedDerivative.hxx>
+#include <Foundation/StdFail/StdFail_UndefinedDerivative.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Dir.hxx>
 #include <math_Matrix.hxx>

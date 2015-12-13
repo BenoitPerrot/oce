@@ -15,11 +15,11 @@
 // commercial license or contractual agreement.
 
 #include <StepGeom_Curve.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geom_Curve.hxx>
 #include <Geom2d_Curve.hxx>
 #include <GeomToStep_MakeCurve.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <StepGeom_Curve.hxx>
 #include <GeomToStep_MakeCurve.hxx>
 #include <Geom_Line.hxx>

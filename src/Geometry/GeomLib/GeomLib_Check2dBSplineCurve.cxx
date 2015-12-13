@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Geom2d_BSplineCurve.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <GeomLib_Check2dBSplineCurve.hxx>
 #include <Geom_BSplineCurve.hxx>

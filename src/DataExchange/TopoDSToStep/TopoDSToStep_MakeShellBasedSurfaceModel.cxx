@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <StepShape_ShellBasedSurfaceModel.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <TopoDS_Face.hxx>
 #include <Transfer_FinderProcess.hxx>
 #include <TopoDS_Shell.hxx>
@@ -40,7 +40,7 @@
 #include <TopoDS_Iterator.hxx>
 
 #include <TColStd_SequenceOfTransient.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Transfer_FinderProcess.hxx>
 #include <TransferBRep_ShapeMapper.hxx>
 #include <TCollection_HAsciiString.hxx>

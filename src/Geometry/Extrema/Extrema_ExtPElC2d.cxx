@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Precision.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <gp_Pnt2d.hxx>
 #include <gp_Lin2d.hxx>
@@ -25,7 +25,7 @@
 #include <gp_Parab2d.hxx>
 #include <Extrema_POnCurv2d.hxx>
 #include <Extrema_ExtPElC2d.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <math_DirectPolynomialRoots.hxx>
 #include <math_TrigonometricFunctionRoots.hxx>
 #include <ElCLib.hxx>

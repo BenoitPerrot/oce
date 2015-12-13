@@ -24,11 +24,11 @@
 #include <TColStd_HArray1OfInteger.hxx>
 #include <TColgp_HArray2OfPnt.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <TColStd_HArray2OfInteger.hxx>
 #include <Convert_GridPolynomialToPoles.hxx>
 
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <PLib.hxx>
 #include <BSplSLib.hxx>

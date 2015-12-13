@@ -19,7 +19,7 @@
 #include <gp_Pnt.hxx>
 #include <GC_MakeTranslation.hxx>
 #include <GC_MakeTranslation.hxx>
-#include <StdFail_NotDone.hxx>
+#include <Foundation/StdFail/StdFail_NotDone.hxx>
 
 //=========================================================================
 //   Creation of a 3D Geom translation of tanslation vector Vec.  +
