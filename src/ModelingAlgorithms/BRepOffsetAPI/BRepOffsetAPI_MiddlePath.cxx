@@ -52,16 +52,16 @@
 #include <BRepAdaptor_Curve.hxx>
 #include <TopTools_Array1OfShape.hxx>
 #include <BRepLib_MakeFace.hxx>
-#include <TColgp_Array1OfPnt.hxx>
-#include <TColgp_HArray1OfPnt.hxx>
-#include <TColgp_Array1OfVec.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfVec.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfBoolean.hxx>
 #include <GProp_GProps.hxx>
 #include <BRepGProp.hxx>
 #include <Geom_Circle.hxx>
 #include <gp_Circ.hxx>
 #include <GC_MakeCircle.hxx>
-#include <TColgp_SequenceOfPnt.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <GeomLib.hxx>
 #include <GeomAPI_Interpolate.hxx>
 

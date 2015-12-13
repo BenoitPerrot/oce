@@ -50,8 +50,8 @@
 
 #include <Select3D_ListIteratorOfListOfSensitive.hxx>
 #include <Select3D_ListOfSensitiveTriangle.hxx>
-#include <TColgp_HArray1OfPnt.hxx>
-#include <TColgp_SequenceOfPnt.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <BRep_Tool.hxx>
 #include <BRepTools.hxx>

@@ -1,5 +1,5 @@
 #include <gp_Pnt.hxx>
-#include <TColgp_SequenceOfPnt.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <gtest/gtest.h>
 
 TEST(TCollectionTestSuite, testSequenceOfPnt)

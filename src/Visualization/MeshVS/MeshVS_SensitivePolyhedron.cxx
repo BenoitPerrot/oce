@@ -13,15 +13,15 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TColgp_HArray1OfPnt.hxx>
-#include <TColgp_HArray1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfPnt2d.hxx>
 #include <MeshVS_HArray1OfSequenceOfInteger.hxx>
 #include <SelectBasics_EntityOwner.hxx>
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Select3D_Projector.hxx>
 #include <Select3D_SensitiveEntity.hxx>
 #include <TopLoc_Location.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <gp_Lin.hxx>

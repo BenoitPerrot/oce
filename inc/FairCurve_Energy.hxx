@@ -13,7 +13,7 @@
 #include <Handle_TColgp_HArray1OfPnt2d.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <TColgp_Array1OfXY.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfXY.hxx>
 #include <math_Vector.hxx>
 #include <math_MultipleVarFunctionWithHessian.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

@@ -32,7 +32,7 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
-#include <TColgp_Array2OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
 #include <math_FunctionSetRoot.hxx>
 #include <math_Vector.hxx>
 #include <math_NewtonFunctionSetRoot.hxx>

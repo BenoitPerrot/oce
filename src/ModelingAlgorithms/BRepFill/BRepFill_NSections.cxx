@@ -69,7 +69,7 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_NSections)
 #include <Geom_BSplineSurface.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 
-#include <TColgp_HArray1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Geom_BezierCurve.hxx>

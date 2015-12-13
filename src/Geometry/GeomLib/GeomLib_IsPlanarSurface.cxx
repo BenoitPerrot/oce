@@ -33,8 +33,8 @@
 #include <GeomAdaptor_Surface.hxx>
 #include <GeomAdaptor_Curve.hxx>
 
-#include <TColgp_HArray1OfPnt.hxx>
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 
 
 static Standard_Boolean Controle(const TColgp_Array1OfPnt& P,

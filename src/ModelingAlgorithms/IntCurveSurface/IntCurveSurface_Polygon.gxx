@@ -16,7 +16,7 @@
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <gp_Lin.hxx>
 #include <gp_Vec.hxx>
 #include <gp_Dir.hxx>

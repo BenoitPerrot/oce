@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_NullObject.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Poly_Polygon2D.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Poly_Polygon2D)

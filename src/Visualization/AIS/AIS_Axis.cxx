@@ -44,7 +44,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_Axis)
 #include <Prs3d_DatumAspect.hxx>
 #include <Graphic3d_AspectLine3d.hxx>
 #include <Graphic3d_Structure.hxx>
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <SelectMgr_EntityOwner.hxx>
 #include <SelectBasics_EntityOwner.hxx>
 #include <Select3D_SensitiveSegment.hxx>

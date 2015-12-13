@@ -3,14 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TColgp_HSequenceOfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_HSequenceOfPnt2d.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <gp_Pnt2d.hxx>
-#include <TColgp_SequenceOfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfPnt2d.hxx>
 
  
 
@@ -31,9 +31,9 @@ IMPLEMENT_STANDARD_RTTI(TColgp_HSequenceOfPnt2d)
 #define Item gp_Pnt2d
 #define Item_hxx <gp_Pnt2d.hxx>
 #define TheSequence TColgp_SequenceOfPnt2d
-#define TheSequence_hxx <TColgp_SequenceOfPnt2d.hxx>
+#define TheSequence_hxx <Mathematics/Collections/TColgp_SequenceOfPnt2d.hxx>
 #define TCollection_HSequence TColgp_HSequenceOfPnt2d
-#define TCollection_HSequence_hxx <TColgp_HSequenceOfPnt2d.hxx>
+#define TCollection_HSequence_hxx <Mathematics/Collections/TColgp_HSequenceOfPnt2d.hxx>
 #define Handle_TCollection_HSequence Handle_TColgp_HSequenceOfPnt2d
 #define TCollection_HSequence_Type_() TColgp_HSequenceOfPnt2d_Type_()
 #include <Foundation/TCollection/TCollection_HSequence.gxx>

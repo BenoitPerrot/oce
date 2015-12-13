@@ -74,7 +74,7 @@
 
 #include <ViewerTest_EventManager.hxx>
 
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 
 #include <DDocStd.hxx>
 #include <TDocStd_Document.hxx>

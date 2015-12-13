@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

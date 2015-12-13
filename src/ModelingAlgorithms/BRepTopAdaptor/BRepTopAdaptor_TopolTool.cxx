@@ -46,7 +46,7 @@ IMPLEMENT_STANDARD_RTTI(BRepTopAdaptor_TopolTool)
 #include <BRepTopAdaptor_FClass2d.hxx>
 #include <BRep_Tool.hxx>
 
-#include <TColgp_Array2OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
 #include <Geom_BezierSurface.hxx>
 #include <Geom_BSplineSurface.hxx>
 

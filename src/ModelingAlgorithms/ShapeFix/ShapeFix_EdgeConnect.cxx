@@ -34,7 +34,7 @@
 #include <BRep_Tool.hxx>
 #include <gp_XYZ.hxx>
 #include <gp_Pnt.hxx>
-#include <TColgp_SequenceOfXYZ.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfXYZ.hxx>
 
 //#define POSITION_USES_MEAN_POINT
 

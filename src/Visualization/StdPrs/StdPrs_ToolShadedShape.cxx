@@ -24,14 +24,14 @@
 #include <Poly_Connect.hxx>
 #include <Poly_Triangulation.hxx>
 #include <Precision.hxx>
-#include <TColgp_HArray1OfPnt.hxx>
-#include <TColgp_Array1OfPnt.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <TopAbs_Orientation.hxx>
 #include <TopLoc_Location.hxx>
 #include <Foundation/TShort/TShort_HArray1OfShortReal.hxx>
 #include <Foundation/TShort/TShort_Array1OfShortReal.hxx>
-#include <TColgp_Array1OfDir.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfDir.hxx>
 #include <TopExp_Explorer.hxx>
 #include <TopoDS.hxx>
 

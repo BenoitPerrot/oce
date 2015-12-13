@@ -24,16 +24,16 @@
 #include <math_Vector.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
-#include <TColgp_HArray2OfPnt2d.hxx>
-#include <TColgp_HArray2OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_HArray2OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_HArray2OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <AdvApprox_Cutting.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <AdvApprox_ApproxAFunction.hxx>
 #include <AdvApprox_EvaluatorFunction.hxx>
 #include <AdvApprox_DichoCutting.hxx>
@@ -53,12 +53,12 @@
 #include <gp_Vec.hxx>
 #include <gp_Vec2d.hxx>
 
-#include <TColgp_Array1OfPnt2d.hxx>
-#include <TColgp_Array1OfPnt.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
-#include <TColgp_Array1OfPnt.hxx>
-#include <TColgp_HArray2OfPnt2d.hxx>
-#include <TColgp_HArray2OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_HArray2OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_HArray2OfPnt.hxx>
 
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>

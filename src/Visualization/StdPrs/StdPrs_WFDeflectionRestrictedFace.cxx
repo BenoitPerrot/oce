@@ -39,7 +39,7 @@
 #include <Geom_Curve.hxx>
 #include <GeomAbs_SurfaceType.hxx>
 #include <Geom_Surface.hxx>
-#include <TColgp_SequenceOfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfPnt2d.hxx>
 
 
 

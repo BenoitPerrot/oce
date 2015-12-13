@@ -28,10 +28,10 @@
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Blend_Point.hxx>
-#include <TColgp_Array1OfPnt.hxx>
-#include <TColgp_Array1OfVec.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
-#include <TColgp_Array1OfVec2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfVec.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfVec2d.hxx>
 #include <gp_Ax1.hxx>
 #include <BlendFunc_ConstRad.hxx>
 

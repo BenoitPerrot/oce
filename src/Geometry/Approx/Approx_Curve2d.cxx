@@ -19,7 +19,7 @@
 #include <Approx_Curve2d.hxx>
 #include <AdvApprox_PrefAndRec.hxx>
 #include <AdvApprox_ApproxAFunction.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Precision.hxx>
 
 //=======================================================================

@@ -3,14 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TColgp_HSequenceOfXY.hxx>
+#include <Mathematics/Collections/TColgp_HSequenceOfXY.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <gp_XY.hxx>
-#include <TColgp_SequenceOfXY.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfXY.hxx>
 
  
 
@@ -31,9 +31,9 @@ IMPLEMENT_STANDARD_RTTI(TColgp_HSequenceOfXY)
 #define Item gp_XY
 #define Item_hxx <gp_XY.hxx>
 #define TheSequence TColgp_SequenceOfXY
-#define TheSequence_hxx <TColgp_SequenceOfXY.hxx>
+#define TheSequence_hxx <Mathematics/Collections/TColgp_SequenceOfXY.hxx>
 #define TCollection_HSequence TColgp_HSequenceOfXY
-#define TCollection_HSequence_hxx <TColgp_HSequenceOfXY.hxx>
+#define TCollection_HSequence_hxx <Mathematics/Collections/TColgp_HSequenceOfXY.hxx>
 #define Handle_TCollection_HSequence Handle_TColgp_HSequenceOfXY
 #define TCollection_HSequence_Type_() TColgp_HSequenceOfXY_Type_()
 #include <Foundation/TCollection/TCollection_HSequence.gxx>

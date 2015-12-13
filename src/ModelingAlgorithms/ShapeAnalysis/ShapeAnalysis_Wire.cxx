@@ -42,7 +42,7 @@
 #include <Geom2d_Curve.hxx>
 #include <gp_Pnt2d.hxx>
 #include <IntRes2d_SequenceOfIntersectionPoint.hxx>
-#include <TColgp_SequenceOfPnt.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>
@@ -84,7 +84,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeAnalysis_Wire)
 
 #include <TopoDS.hxx>
 #include <Precision.hxx>
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Array1OfBox2d.hxx>
 #include <BndLib_Add2dCurve.hxx>
@@ -93,7 +93,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeAnalysis_Wire)
 //szvsh addition
 #include <Geom2dAdaptor_HCurve.hxx>
 #include <Adaptor3d_CurveOnSurface.hxx>
-#include <TColgp_SequenceOfPnt.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <ShapeAnalysis_Surface.hxx>
 #include <TopoDS_Wire.hxx>
 #include <ShapeAnalysis.hxx>

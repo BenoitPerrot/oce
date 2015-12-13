@@ -64,7 +64,7 @@
 
 #include <BRepLib.hxx>
 
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 
 #include <GCE2d_MakeLine.hxx>
 

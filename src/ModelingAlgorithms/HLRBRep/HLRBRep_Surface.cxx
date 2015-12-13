@@ -19,7 +19,7 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <BRepAdaptor_Surface.hxx>
 #include <TopoDS_Face.hxx>
-#include <TColgp_Array2OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Vec.hxx>
 #include <gp_Pln.hxx>
@@ -27,7 +27,7 @@
 #include <HLRBRep_BSurfaceTool.hxx>
 #include <gp_Pln.hxx>
 #include <GProp_PEquation.hxx>
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <BRepClass_FaceClassifier.hxx>
 #include <HLRAlgo_Projector.hxx>
 #include <HLRBRep_Curve.hxx>

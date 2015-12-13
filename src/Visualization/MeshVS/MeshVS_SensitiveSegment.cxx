@@ -16,7 +16,7 @@
 #include <SelectBasics_EntityOwner.hxx>
 #include <gp_Pnt.hxx>
 #include <Select3D_Projector.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <MeshVS_SensitiveSegment.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

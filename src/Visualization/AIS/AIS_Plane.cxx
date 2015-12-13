@@ -40,8 +40,8 @@ IMPLEMENT_STANDARD_TYPE_END(AIS_Plane)
 IMPLEMENT_DOWNCAST(AIS_Plane,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(AIS_Plane)
 
-#include <TColgp_Array1OfPnt.hxx>
-#include <TColgp_HArray1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
 
 #include <Precision.hxx>
 #include <gp_Pnt.hxx>

@@ -20,10 +20,10 @@
 
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
-#include <TColgp_Array1OfPnt.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <math_Matrix.hxx>
-#include <TColgp_Array2OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
 #include <PLib.hxx>
 #include <Foundation/NCollection/NCollection_LocalArray.hxx>
 #include <math_Matrix.hxx> 

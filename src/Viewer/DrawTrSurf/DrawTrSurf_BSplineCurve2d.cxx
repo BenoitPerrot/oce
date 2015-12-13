@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_RTTI(DrawTrSurf_BSplineCurve2d)
 #include <Draw_MarkerShape.hxx>
 #include <Geom2d_BSplineCurve.hxx>
 #include <gp_Pnt.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 
 

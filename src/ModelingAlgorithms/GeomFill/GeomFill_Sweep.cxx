@@ -42,9 +42,9 @@
 #include <gp_Ax2.hxx>
 #include <gp_Sphere.hxx>
 
-#include <TColgp_Array1OfPnt.hxx>
-#include <TColgp_Array2OfPnt.hxx>
-#include <TColgp_HArray2OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_HArray2OfPnt.hxx>
 //#include <GeomLib_Array1OfMat.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>

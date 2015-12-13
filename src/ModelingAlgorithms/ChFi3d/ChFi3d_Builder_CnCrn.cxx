@@ -122,11 +122,11 @@
 #include <PLib.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
-#include <TColgp_SequenceOfXY.hxx>
-#include <TColgp_SequenceOfXYZ.hxx>
-#include <TColgp_Array1OfXYZ.hxx>
-#include <TColgp_Array1OfPnt.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfXY.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfXYZ.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfXYZ.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>

@@ -16,7 +16,7 @@
 
 #include <Geom_BSplineSurface.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <TColgp_Array2OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <GeomAPI_PointsToBSplineSurface.hxx>
 
@@ -31,7 +31,7 @@
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Precision.hxx>
 #include <gp_Pnt.hxx>
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <math_Vector.hxx>
 #include <AppParCurves_HArray1OfConstraintCouple.hxx>
 #include <AppParCurves_ConstraintCouple.hxx>

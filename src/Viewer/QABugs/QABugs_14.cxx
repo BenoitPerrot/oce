@@ -26,7 +26,7 @@
 #include <TopoDS_Shape.hxx>
 
 #include <Geom2d_Line.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Geom2d_BezierCurve.hxx>
 #include <Geom2dAdaptor_Curve.hxx>
 #include <Geom2dGcc_QualifiedCurve.hxx>
@@ -45,7 +45,7 @@
 #include <TopoDS_Vertex.hxx>
 #include <BRepLib_MakeVertex.hxx>
 #include <BRepLib_MakeEdge.hxx>
-#include <TColgp_HArray1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
 #include <GeomAPI_Interpolate.hxx>
 #include <Precision.hxx>
 #include <Geom_BSplineCurve.hxx>

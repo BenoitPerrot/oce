@@ -43,7 +43,7 @@
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <TopTools_DataMapOfShapeReal.hxx>
 
 #include <TopExp_Explorer.hxx>

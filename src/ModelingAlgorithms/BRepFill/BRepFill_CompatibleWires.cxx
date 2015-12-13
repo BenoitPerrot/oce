@@ -62,8 +62,8 @@
 #include <gp_Pln.hxx>
 #include <gp_Circ.hxx>
 #include <gp_Elips.hxx>
-#include <TColgp_HArray1OfVec.hxx>
-#include <TColgp_HArray1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfVec.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
 
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>

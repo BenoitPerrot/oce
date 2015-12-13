@@ -33,7 +33,7 @@
 #include <Precision.hxx>
 #include <TopOpeBRepDS_connex.hxx>
 #include <TopOpeBRepDS_Point.hxx>
-#include <TColgp_SequenceOfPnt.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <Foundation/TColStd/TColStd_MapOfTransient.hxx>
 
 #include <BRepAdaptor_Curve.hxx>

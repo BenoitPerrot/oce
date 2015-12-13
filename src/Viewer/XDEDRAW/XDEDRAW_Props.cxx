@@ -46,7 +46,7 @@
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <gp_Pln.hxx>
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Poly_Triangulation.hxx>
 #include <TopoDS_Compound.hxx>
 #include <TopExp_Explorer.hxx>
@@ -57,7 +57,7 @@
 #include <TopoDS_Vertex.hxx>
 #include <Foundation/Standard/Standard_Stream.hxx>
 #include <stdio.h>
-#include <TColgp_Array1OfXYZ.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfXYZ.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <TDataStd_TreeNode.hxx>
 #include <XCAFDoc.hxx>

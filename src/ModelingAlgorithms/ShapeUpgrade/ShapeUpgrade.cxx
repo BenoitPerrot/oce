@@ -21,7 +21,7 @@
 #include <Geom2d_BSplineCurve.hxx>
 #include <TColGeom2d_HSequenceOfBoundedCurve.hxx>
 #include <ShapeUpgrade.hxx>
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>

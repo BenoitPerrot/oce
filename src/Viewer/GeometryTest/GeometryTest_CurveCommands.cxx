@@ -76,8 +76,8 @@
 
 #include <Law_BSpline.hxx>
 
-#include <TColgp_Array1OfPnt.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 
@@ -116,7 +116,7 @@
 #include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>
 #include <GeomAdaptor_HSurface.hxx>
 #include <Adaptor3d_TopolTool.hxx>
-#include <TColgp_Array2OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
 #include <Geom_BSplineSurface.hxx>
 #include <DrawTrSurf_BSplineSurface.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>

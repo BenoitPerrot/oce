@@ -27,9 +27,9 @@
 #include <TColGeom_SequenceOfCurve.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <GeomFill_SequenceOfTrsf.hxx>
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <TColgp_Array1OfVec.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfVec.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <gp_Pnt.hxx>
 #include <Geom_Curve.hxx>
@@ -61,7 +61,7 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_NSections)
 #include <Geom_TrimmedCurve.hxx>
 
 #include <GCPnts_AbscissaPoint.hxx>
-#include <TColgp_Array2OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
 #include <TColGeom_Array1OfCurve.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>

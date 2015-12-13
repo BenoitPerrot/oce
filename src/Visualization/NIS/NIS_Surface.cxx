@@ -26,7 +26,7 @@
 #include <Poly_PolygonOnTriangulation.hxx>
 #include <Poly_Triangulation.hxx>
 #include <Precision.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <TopExp.hxx>
 #include <TopExp_Explorer.hxx>
 #include <TopLoc_Location.hxx>

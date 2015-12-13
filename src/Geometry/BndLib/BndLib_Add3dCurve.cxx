@@ -17,7 +17,7 @@
 #include <BndLib_Add3dCurve.hxx>
 #include <GeomAbs_CurveType.hxx>
 #include <BndLib.hxx>
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <gp_Pnt.hxx>
 #include <Geom_BezierCurve.hxx>
 #include <Geom_BSplineCurve.hxx>

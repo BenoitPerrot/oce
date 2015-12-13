@@ -27,7 +27,7 @@
 #include <gp_Pnt.hxx>
 #include <gp_Dir.hxx>
 #include <gp_Vec.hxx>
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Geom_BezierCurve.hxx>
 #include <Geom_BSplineCurve.hxx>
 

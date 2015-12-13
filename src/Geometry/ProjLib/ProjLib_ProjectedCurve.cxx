@@ -39,13 +39,13 @@
 #include <gp_Vec2d.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <gp_XY.hxx>
-#include <TColgp_HArray1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfPnt2d.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Geom2dConvert_CompCurveToBSplineCurve.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
-#include <TColgp_HArray1OfVec2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfVec2d.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfBoolean.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <GeomAbs_IsoType.hxx>

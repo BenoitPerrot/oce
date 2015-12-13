@@ -41,8 +41,8 @@
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Mathematics/BetaSpline/BSplSLib.hxx>
 #include <Precision.hxx>
-#include <TColgp_Array1OfPnt.hxx>
-#include <TColgp_Array2OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
 
 
 //=======================================================================

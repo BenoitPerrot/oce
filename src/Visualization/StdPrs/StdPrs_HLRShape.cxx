@@ -21,7 +21,7 @@
 #include <StdPrs_HLRToolShape.hxx>
 #include <StdPrs_DeflectionCurve.hxx>
 #include <TopoDS_Shape.hxx>
-#include <TColgp_SequenceOfPnt.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 
 //=======================================================================
 //function : Add

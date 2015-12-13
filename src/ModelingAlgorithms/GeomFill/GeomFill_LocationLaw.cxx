@@ -19,8 +19,8 @@
 #include <Adaptor3d_HCurve.hxx>
 #include <gp_Mat.hxx>
 #include <gp_Vec.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
-#include <TColgp_Array1OfVec2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfVec2d.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <gp_Pnt.hxx>
 #include <GeomFill_LocationLaw.hxx>

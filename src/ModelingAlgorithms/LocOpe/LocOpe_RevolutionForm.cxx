@@ -39,7 +39,7 @@
 #include <BRepLib_MakeVertex.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
-#include <TColgp_SequenceOfPnt.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 
 #include <LocOpe.hxx>
 #include <TopoDS.hxx>

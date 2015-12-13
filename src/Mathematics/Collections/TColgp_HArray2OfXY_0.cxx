@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TColgp_HArray2OfXY.hxx>
+#include <Mathematics/Collections/TColgp_HArray2OfXY.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -12,7 +12,7 @@
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <gp_XY.hxx>
-#include <TColgp_Array2OfXY.hxx>
+#include <Mathematics/Collections/TColgp_Array2OfXY.hxx>
 
  
 
@@ -33,9 +33,9 @@ IMPLEMENT_STANDARD_RTTI(TColgp_HArray2OfXY)
 #define ItemHArray2 gp_XY
 #define ItemHArray2_hxx <gp_XY.hxx>
 #define TheArray2 TColgp_Array2OfXY
-#define TheArray2_hxx <TColgp_Array2OfXY.hxx>
+#define TheArray2_hxx <Mathematics/Collections/TColgp_Array2OfXY.hxx>
 #define TCollection_HArray2 TColgp_HArray2OfXY
-#define TCollection_HArray2_hxx <TColgp_HArray2OfXY.hxx>
+#define TCollection_HArray2_hxx <Mathematics/Collections/TColgp_HArray2OfXY.hxx>
 #define Handle_TCollection_HArray2 Handle_TColgp_HArray2OfXY
 #define TCollection_HArray2_Type_() TColgp_HArray2OfXY_Type_()
 #include <Foundation/TCollection/TCollection_HArray2.gxx>

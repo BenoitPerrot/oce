@@ -113,7 +113,7 @@
 //#include <ShapeAnalysis.hxx>
 //#include <ShapeCustom.hxx>
 
-#include <TColgp_HArray1OfXYZ.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfXYZ.hxx>
 
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>

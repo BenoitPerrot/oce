@@ -21,7 +21,7 @@
 #include <Geom2d_BezierCurve.hxx>
 #include <Geom2d_BSplineCurve.hxx>
 #include <Geom2d_Line.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 
 #include <TopOpeBRepDS_Curve.hxx>
 #include <TopOpeBRepDS_Surface.hxx>

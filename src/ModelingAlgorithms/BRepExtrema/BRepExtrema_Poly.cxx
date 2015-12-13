@@ -22,7 +22,7 @@
 #include <TopExp_Explorer.hxx>
 #include <Precision.hxx>
 #include <Poly_Triangulation.hxx>
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 
 //=======================================================================
 //function : Distance

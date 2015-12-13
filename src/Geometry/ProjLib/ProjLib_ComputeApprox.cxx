@@ -34,8 +34,8 @@
 #include <AppParCurves_MultiCurve.hxx>
 #include <Adaptor3d_HCurve.hxx>
 #include <Adaptor3d_HSurface.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Geom_BSplineCurve.hxx>

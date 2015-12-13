@@ -30,7 +30,7 @@
 #include <Geom2dAPI_InterCurveCurve.hxx>
 #include <Geom2d_Line.hxx>
 #include <Geom2d_TrimmedCurve.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <gp_Pnt.hxx>
 #include <Draw_Marker2D.hxx>
 #include <Draw_Color.hxx>

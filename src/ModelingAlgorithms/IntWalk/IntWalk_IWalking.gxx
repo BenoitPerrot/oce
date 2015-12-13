@@ -16,7 +16,7 @@
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <math_FunctionSetRoot.hxx>
 
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 
 #include <IntWalk_IWalking_1.gxx>
 #include <IntWalk_IWalking_2.gxx>

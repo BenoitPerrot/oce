@@ -57,8 +57,8 @@
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <ShapeAnalysis_Curve.hxx>
 
-#include <TColgp_SequenceOfPnt2d.hxx>
-#include <TColgp_SequenceOfPnt.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <Precision.hxx>
 
 #include <BRepTools.hxx>

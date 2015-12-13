@@ -20,7 +20,7 @@
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Edge.hxx>
 #include <Law_Function.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <TopOpeBRepBuild_HBuilder.hxx>
 #include <TopTools_ListOfShape.hxx>

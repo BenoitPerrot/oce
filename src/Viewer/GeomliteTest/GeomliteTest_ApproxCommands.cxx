@@ -27,12 +27,12 @@
 #include <Precision.hxx>
 #include <Draw_Marker3D.hxx>
 #include <Draw_Marker2D.hxx>
-#include <TColgp_HArray1OfPnt.hxx>
-#include <TColgp_SequenceOfPnt.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <Geom_BSplineCurve.hxx>
 #include <Geom_BezierCurve.hxx>
-#include <TColgp_HArray1OfPnt2d.hxx>
-#include <TColgp_SequenceOfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfPnt2d.hxx>
 
 #include <Geom2d_BSplineCurve.hxx>
 #include <Geom2d_BezierCurve.hxx>
@@ -40,11 +40,11 @@
 #include <DrawTrSurf_BezierCurve.hxx>
 #include <DrawTrSurf_BSplineCurve2d.hxx>
 #include <DrawTrSurf_BezierCurve2d.hxx>
-#include <TColgp_HArray1OfPnt.hxx>
-#include <TColgp_Array1OfPnt.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
-#include <TColgp_HArray1OfVec.hxx>
-#include <TColgp_Array1OfVec.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfVec.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfVec.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfBoolean.hxx>

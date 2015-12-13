@@ -12,8 +12,8 @@
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <TColgp_Array1OfLin2d.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfLin2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class Standard_OutOfRange;

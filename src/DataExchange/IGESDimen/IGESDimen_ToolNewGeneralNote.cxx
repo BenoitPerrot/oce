@@ -33,7 +33,7 @@
 #include <gp_XYZ.hxx>
 #include <IGESData_IGESEntity.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <TColgp_HArray1OfXYZ.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfXYZ.hxx>
 #include <IGESData_HArray1OfIGESEntity.hxx>
 #include <Interface_HArray1OfHAsciiString.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>

@@ -3,14 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TColgp_HSequenceOfVec2d.hxx>
+#include <Mathematics/Collections/TColgp_HSequenceOfVec2d.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <gp_Vec2d.hxx>
-#include <TColgp_SequenceOfVec2d.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfVec2d.hxx>
 
  
 
@@ -31,9 +31,9 @@ IMPLEMENT_STANDARD_RTTI(TColgp_HSequenceOfVec2d)
 #define Item gp_Vec2d
 #define Item_hxx <gp_Vec2d.hxx>
 #define TheSequence TColgp_SequenceOfVec2d
-#define TheSequence_hxx <TColgp_SequenceOfVec2d.hxx>
+#define TheSequence_hxx <Mathematics/Collections/TColgp_SequenceOfVec2d.hxx>
 #define TCollection_HSequence TColgp_HSequenceOfVec2d
-#define TCollection_HSequence_hxx <TColgp_HSequenceOfVec2d.hxx>
+#define TCollection_HSequence_hxx <Mathematics/Collections/TColgp_HSequenceOfVec2d.hxx>
 #define Handle_TCollection_HSequence Handle_TColgp_HSequenceOfVec2d
 #define TCollection_HSequence_Type_() TColgp_HSequenceOfVec2d_Type_()
 #include <Foundation/TCollection/TCollection_HSequence.gxx>

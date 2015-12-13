@@ -28,7 +28,7 @@
 #include <TopoDSToStep_WireframeBuilder.hxx>
 #include <TopoDSToStep_Tool.hxx>
 
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfTransient.hxx>

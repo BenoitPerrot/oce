@@ -96,7 +96,7 @@
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Convert_CompBezierCurvesToBSplineCurve.hxx>
 #include <Precision.hxx>
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 

@@ -29,7 +29,7 @@
 #include <gp_Pnt.hxx>
 #include <gp_Dir.hxx>
 #include <gp_Ax2.hxx>
-#include <TColgp_Array2OfVec.hxx>
+#include <Mathematics/Collections/TColgp_Array2OfVec.hxx>
 
 #include <Geom_TrimmedCurve.hxx>
 #include <Geom_BSplineCurve.hxx>

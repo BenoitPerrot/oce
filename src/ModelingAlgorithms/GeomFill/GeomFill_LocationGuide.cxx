@@ -17,19 +17,19 @@
 #include <GeomFill_TrihedronWithGuide.hxx>
 #include <GeomFill_SectionLaw.hxx>
 #include <Adaptor3d_HCurve.hxx>
-#include <TColgp_HArray2OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_HArray2OfPnt2d.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <gp_Mat.hxx>
 #include <GeomFill_LocationLaw.hxx>
 #include <gp_Vec.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
-#include <TColgp_Array1OfVec2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfVec2d.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <gp_Pnt.hxx>
 #include <Geom_Curve.hxx>
-#include <TColgp_HArray1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfPnt2d.hxx>
 #include <GeomFill_LocationGuide.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(GeomFill_LocationGuide)
@@ -87,7 +87,7 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_LocationGuide)
 
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
-#include <TColgp_HArray1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
 
 #include <Extrema_ExtCS.hxx>
 #include <Extrema_POnSurf.hxx>

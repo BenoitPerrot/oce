@@ -23,8 +23,8 @@
 #include <gp_Pnt.hxx>
 #include <gp_Pnt2d.hxx>
 #include <Poly_Triangle.hxx>
-#include <TColgp_Array1OfPnt.hxx>
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Poly_Array1OfTriangle.hxx>
 #include <Poly_ListOfTriangulation.hxx>

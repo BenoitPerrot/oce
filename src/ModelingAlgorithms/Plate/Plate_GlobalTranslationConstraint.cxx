@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TColgp_SequenceOfXY.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfXY.hxx>
 #include <Plate_LinearXYZConstraint.hxx>
 #include <Plate_GlobalTranslationConstraint.hxx>
 

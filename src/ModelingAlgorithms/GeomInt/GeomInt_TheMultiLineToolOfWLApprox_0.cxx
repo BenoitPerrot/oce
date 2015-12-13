@@ -7,10 +7,10 @@
 
 #include <GeomInt_TheMultiLineOfWLApprox.hxx>
 #include <ApproxInt_SvSurfaces.hxx>
-#include <TColgp_Array1OfPnt.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
-#include <TColgp_Array1OfVec.hxx>
-#include <TColgp_Array1OfVec2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfVec.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfVec2d.hxx>
  
 
 #define TheMultiLine GeomInt_TheMultiLineOfWLApprox

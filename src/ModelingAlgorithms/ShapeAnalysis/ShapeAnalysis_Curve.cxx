@@ -24,10 +24,10 @@
 #include <Adaptor3d_Curve.hxx>
 #include <Geom2d_Curve.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <gp_XYZ.hxx>
-#include <TColgp_SequenceOfPnt2d.hxx>
-#include <TColgp_SequenceOfPnt.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <ShapeAnalysis_Curve.hxx>
 
 #include <ElCLib.hxx>
@@ -44,7 +44,7 @@
 #include <Adaptor3d_Curve.hxx>
 #include <Extrema_ExtPC.hxx>
 #include <ShapeAnalysis.hxx>
-#include <TColgp_SequenceOfPnt.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <Geom_Line.hxx>
 #include <Geom_Conic.hxx>
 #include <Geom_TrimmedCurve.hxx>

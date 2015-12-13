@@ -35,7 +35,7 @@
 #include <gp_Pnt.hxx>
 #include <gp_Vec.hxx>
 #include <Geom_Geometry.hxx>
-#include <TColgp_SequenceOfXY.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfXY.hxx>
 #include <GeomPlate_Surface.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(GeomPlate_Surface)

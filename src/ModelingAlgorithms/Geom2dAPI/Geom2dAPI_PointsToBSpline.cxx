@@ -17,7 +17,7 @@
 #include <Geom2d_BSplineCurve.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Geom2dAPI_PointsToBSpline.hxx>
 
@@ -27,7 +27,7 @@
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <math_Vector.hxx>
 #include <AppDef_MultiPointConstraint.hxx>
 #include <AppParCurves_HArray1OfConstraintCouple.hxx>

@@ -26,8 +26,8 @@
 #include <TopOpeBRep_TypeLineCurve.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
-#include <TColgp_Array1OfPnt.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <TopOpeBRep_WPointInter.hxx>
 #include <TopOpeBRep_WPointInterIterator.hxx>

@@ -30,7 +30,7 @@
 #include <gp_Trsf.hxx>
 #include <SelectMgr_Selection.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <AIS_Trihedron.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_Trihedron)
@@ -78,7 +78,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_Trihedron)
 
 #include <Select3D_SensitiveBox.hxx>
 #include <Select3D_SensitiveTriangle.hxx>
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 
 
 

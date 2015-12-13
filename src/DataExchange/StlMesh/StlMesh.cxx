@@ -18,7 +18,7 @@
 #include <StlMesh.hxx>
 #include <StlMesh_SequenceOfMeshTriangle.hxx>
 #include <StlMesh_MeshTriangle.hxx>
-#include <TColgp_SequenceOfXYZ.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfXYZ.hxx>
 
 //=======================================================================
 //function : Merge

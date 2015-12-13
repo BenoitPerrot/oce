@@ -18,10 +18,10 @@
 
 #include <GeomFill_CoonsAlgPatch.hxx>
 #include <GeomFill_TgtField.hxx>
-#include <TColgp_HArray1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
-#include <TColgp_HArray2OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_HArray2OfPnt.hxx>
 #include <Geom_BSplineSurface.hxx>
 #include <GeomFill_Boundary.hxx>
 #include <GeomFill_BoundWithSurf.hxx>
@@ -30,7 +30,7 @@
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <gp_XYZ.hxx>
 #include <PLib.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>

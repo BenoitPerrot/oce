@@ -18,7 +18,7 @@
 #include <TopoDS_Face.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Shape.hxx>
-#include <TColgp_SequenceOfPnt.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <LocOpe.hxx>
 
 #include <TopExp_Explorer.hxx>

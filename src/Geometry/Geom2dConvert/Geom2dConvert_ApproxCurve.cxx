@@ -24,7 +24,7 @@
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <AdvApprox_PrefAndRec.hxx>
 #include <AdvApprox_ApproxAFunction.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Precision.hxx>
 
 //=======================================================================

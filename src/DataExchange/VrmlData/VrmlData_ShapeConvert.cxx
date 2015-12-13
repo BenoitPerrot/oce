@@ -30,7 +30,7 @@
 #include <Poly_PolygonOnTriangulation.hxx>
 #include <Poly_Polygon3D.hxx>
 #include <Precision.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <TopExp_Explorer.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Edge.hxx>

@@ -57,8 +57,8 @@ IMPLEMENT_STANDARD_RTTI(ShapeAlgo_AlgoContainer)
 
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
-#include <TColgp_Array1OfPnt.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 
 #include <ShapeBuild_Edge.hxx>
 #include <ShapeConstruct.hxx>

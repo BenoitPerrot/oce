@@ -12,7 +12,7 @@
 
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Handle_TColgp_HArray1OfPnt2d.hxx>
 #include <Poly_Array1OfTriangle.hxx>
 #include <Handle_TShort_HArray1OfShortReal.hxx>

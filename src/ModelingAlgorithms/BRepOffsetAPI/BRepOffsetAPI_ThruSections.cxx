@@ -57,7 +57,7 @@
 #include <gp_Pnt.hxx>
 #include <gp_Pnt2d.hxx>
 #include <gp_Dir2d.hxx>
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 
 #include <GeomAbs_Shape.hxx>
 #include <Geom_Curve.hxx>

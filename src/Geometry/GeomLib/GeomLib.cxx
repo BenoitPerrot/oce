@@ -52,7 +52,7 @@
 #include <gp_Pnt.hxx>
 #include <gp_Vec.hxx>
 #include <Geom_BoundedSurface.hxx>
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <gp_Dir.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
@@ -120,12 +120,12 @@
 #include <math_FunctionSample.hxx>
 
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
-#include <TColgp_Array1OfPnt.hxx>
-#include <TColgp_Array1OfVec.hxx>
-#include <TColgp_Array2OfPnt.hxx>
-#include <TColgp_HArray2OfPnt.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
-#include <TColgp_Array1OfXYZ.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfVec.hxx>
+#include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_HArray2OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfXYZ.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>

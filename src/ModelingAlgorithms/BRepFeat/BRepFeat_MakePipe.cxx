@@ -36,7 +36,7 @@
 #include <gp_Vec.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Pnt2d.hxx>
-#include <TColgp_SequenceOfPnt.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <Geom_Curve.hxx>
 #include <Geom_Line.hxx>
 

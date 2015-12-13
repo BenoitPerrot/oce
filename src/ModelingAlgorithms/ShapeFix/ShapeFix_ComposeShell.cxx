@@ -59,7 +59,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_ComposeShell)
 #include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
-#include <TColgp_SequenceOfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfPnt2d.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 
 #include <IntRes2d_IntersectionSegment.hxx>

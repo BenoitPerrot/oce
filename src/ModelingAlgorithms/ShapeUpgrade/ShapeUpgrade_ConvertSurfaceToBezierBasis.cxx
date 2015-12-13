@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_ConvertSurfaceToBezierBasis)
 #include <Geom_RectangularTrimmedSurface.hxx>
 #include <Geom_OffsetSurface.hxx>
 #include <Geom_Plane.hxx>
-#include <TColgp_Array2OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
 #include <Geom_BezierSurface.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <TColGeom_HArray2OfSurface.hxx>
@@ -49,7 +49,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_ConvertSurfaceToBezierBasis)
 #include <ShapeUpgrade_ConvertCurve3dToBezier.hxx>
 #include <Geom_SurfaceOfLinearExtrusion.hxx>
 #include <Geom_BezierCurve.hxx>
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>
 

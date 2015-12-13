@@ -83,8 +83,8 @@
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
 
-#include <TColgp_SequenceOfXY.hxx>
-#include <TColgp_SequenceOfXYZ.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfXY.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfXYZ.hxx>
 
 #include <BRepAdaptor_HCurve.hxx>
 #include <Adaptor3d_HIsoCurve.hxx>

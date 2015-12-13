@@ -36,7 +36,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESAppli_NodalDisplAndRot)
 IMPLEMENT_DOWNCAST(IGESAppli_NodalDisplAndRot,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESAppli_NodalDisplAndRot)
-#include <TColgp_HArray1OfXYZ.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfXYZ.hxx>
 
 
 IGESAppli_NodalDisplAndRot::IGESAppli_NodalDisplAndRot ()    {  }

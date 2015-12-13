@@ -47,9 +47,9 @@
 #include <TopoDS_Compound.hxx>
 #include <TopoDS_Face.hxx>
 #include <TopoDS_Shape.hxx>
-#include <TColgp_Array1OfDir.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
-#include <TColgp_HArray1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfDir.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 

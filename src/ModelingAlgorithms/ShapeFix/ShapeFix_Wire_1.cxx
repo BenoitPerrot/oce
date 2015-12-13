@@ -24,7 +24,7 @@
 
 #include <IntRes2d_SequenceOfIntersectionPoint.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>
-#include <TColgp_SequenceOfPnt.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 
 #include <TopoDS.hxx>
 #include <TopoDS_Vertex.hxx>
@@ -45,7 +45,7 @@
 #include <Geom_TrimmedCurve.hxx>
 #include <gp_Pln.hxx>
 #include <GeomAPI.hxx>
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Geom_BSplineCurve.hxx>
@@ -64,7 +64,7 @@
 #include <ShapeBuild_ReShape.hxx>
 
 //szv
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Geom2d_Circle.hxx>
 #include <Geom2d_Ellipse.hxx>
 #include <Geom2d_Parabola.hxx>

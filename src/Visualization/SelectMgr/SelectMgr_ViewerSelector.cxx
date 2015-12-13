@@ -23,7 +23,7 @@
 #include <SelectMgr_Selection.hxx>
 #include <SelectMgr_SelectableObject.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <SelectMgr_EntityOwner.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>

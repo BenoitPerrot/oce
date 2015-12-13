@@ -49,7 +49,7 @@
 #include <Prs3d_LineAspect.hxx>
 
 #include <Foundation/Quantity/Quantity_Length.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 
 
 //=======================================================================

@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_RTTI(DrawTrSurf_BSplineCurve)
 #include <gp_Pnt2d.hxx>
 
 
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 
 

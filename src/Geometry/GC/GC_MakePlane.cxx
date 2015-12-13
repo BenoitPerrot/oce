@@ -25,7 +25,7 @@
 #include <gce_MakePln.hxx>
 #include <gp.hxx>
 #include <gp_Ax3.hxx>
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 

@@ -42,7 +42,7 @@ IMPLEMENT_STANDARD_RTTI(DNaming_Line3DDriver)
 #include <BRep_Builder.hxx>
 #include <TopLoc_Location.hxx>
 #include <TopTools_HSequenceOfShape.hxx>
-#include <TColgp_HArray1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
 #include <TopTools_Array1OfShape.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Shape.hxx>

@@ -17,10 +17,10 @@
 #ifndef No_Exception
 //#define No_Exception
 #endif
-#include <TColgp_HArray1OfXYZ.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfXYZ.hxx>
 #include <HLRAlgo_HArray1OfTData.hxx>
 #include <HLRAlgo_HArray1OfPHDat.hxx>
-#include <TColgp_Array1OfXYZ.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfXYZ.hxx>
 #include <HLRAlgo_Array1OfTData.hxx>
 #include <HLRAlgo_Array1OfPHDat.hxx>
 #include <HLRAlgo_EdgeStatus.hxx>

@@ -58,8 +58,8 @@
 #include <Precision.hxx>
 #include <BRepLib.hxx>
 
-#include <TColgp_Array1OfPnt.hxx> 
-#include <TColgp_Array1OfPnt2d.hxx> 
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx> 
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx> 
 #include <Geom_BSplineCurve.hxx> 
 #include <gp_Vec.hxx>
 #include <GeomConvert.hxx>

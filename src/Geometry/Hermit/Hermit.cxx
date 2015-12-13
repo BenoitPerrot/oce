@@ -27,7 +27,7 @@
 #include <PLib.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <gp_Pnt2d.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Foundation/Standard/Standard_DimensionError.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/TCollection/TCollection_CompareOfReal.hxx>

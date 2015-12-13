@@ -17,7 +17,7 @@
 #include <Handle_TColStd_HArray2OfReal.hxx>
 #include <Handle_TColStd_HArray1OfReal.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>
-#include <TColgp_SequenceOfArray1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfArray1OfPnt2d.hxx>
 #include <Handle_Approx_HArray1OfGTrsf2d.hxx>
 #include <gp_Vec.hxx>
 #include <Handle_TColgp_HArray1OfPnt.hxx>

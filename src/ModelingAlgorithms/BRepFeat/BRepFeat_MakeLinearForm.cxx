@@ -58,7 +58,7 @@
 #include <Geom2d_Curve.hxx>
 #include <Geom2d_Curve.hxx>
 
-#include <TColgp_SequenceOfPnt.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>
@@ -80,7 +80,7 @@
 #include <TopOpeBRepBuild_HBuilder.hxx>
 #include <TopTools_DataMapIteratorOfDataMapOfShapeShape.hxx>
 
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 
 #include <TColGeom_Array1OfCurve.hxx>
 

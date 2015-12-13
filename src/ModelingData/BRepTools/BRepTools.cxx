@@ -45,7 +45,7 @@
 #include <BRep_CurveRepresentation.hxx>
 #include <BRep_ListIteratorOfListOfCurveRepresentation.hxx>
 #include <BRep_TEdge.hxx>
-#include <TColgp_SequenceOfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfPnt2d.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <TColGeom2d_SequenceOfCurve.hxx>

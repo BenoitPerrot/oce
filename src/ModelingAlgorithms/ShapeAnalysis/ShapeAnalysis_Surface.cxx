@@ -31,8 +31,8 @@
 #include <Geom_Curve.hxx>
 #include <gp_Pnt2d.hxx>
 #include <gp_Pnt.hxx>
-#include <TColgp_Array1OfPnt.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <ShapeAnalysis_Surface.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

@@ -40,12 +40,12 @@
 #include <TopExp.hxx>
 #include <TopAbs_Orientation.hxx>
 #include <TopExp_Explorer.hxx>
-#include <TColgp_SequenceOfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfPnt2d.hxx>
 
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <TopoDS_Wire.hxx>
 #include <Foundation/TColStd/TColStd_DataMapOfIntegerInteger.hxx>
-#include <TColgp_SequenceOfVec2d.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfVec2d.hxx>
 #include <IntTools_Tools.hxx>
 #include <GeomInt.hxx>
 

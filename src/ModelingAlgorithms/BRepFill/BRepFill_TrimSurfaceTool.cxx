@@ -20,7 +20,7 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopoDS_Face.hxx>
 #include <TopoDS_Edge.hxx>
-#include <TColgp_SequenceOfPnt.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <gp_Pnt2d.hxx>
 #include <Geom_Curve.hxx>
 #include <BRepFill_TrimSurfaceTool.hxx>
@@ -59,7 +59,7 @@
 #include <Precision.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <TopAbs_State.hxx>

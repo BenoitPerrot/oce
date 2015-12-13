@@ -18,7 +18,7 @@
 #include <MeshVS_DataSource.hxx>
 #include <Prs3d_Presentation.hxx>
 #include <gp_Trsf.hxx>
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Graphic3d_ArrayOfPrimitives.hxx>
 #include <MeshVS_DataMapOfIntegerVector.hxx>
 #include <gp_Vec.hxx>
@@ -48,7 +48,7 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_VectorPrsBuilder)
 
 #include <Foundation/TColStd/TColStd_MapIteratorOfPackedMapOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_HPackedMapOfInteger.hxx>
 
 #include <Precision.hxx>

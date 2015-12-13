@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_GeomFill_LocationLaw.hxx>
-#include <TColgp_Array1OfVec.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfVec.hxx>
 #include <gp_Mat.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

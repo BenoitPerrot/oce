@@ -20,10 +20,10 @@
 #include <QANewBRepNaming_BooleanOperationFeat.hxx>
 #include <Foundation/Standard/Standard_NullObject.hxx>
 #include <Precision.hxx>
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <TopTools_Array1OfShape.hxx>
-#include <TColgp_Array1OfDir.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfDir.hxx>
 #include <BRep_Tool.hxx>
 #include <BRepGProp.hxx>
 #include <GProp_GProps.hxx>

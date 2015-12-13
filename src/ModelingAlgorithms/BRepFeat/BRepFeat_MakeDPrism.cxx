@@ -44,7 +44,7 @@
 #include <Geom2d_Curve.hxx>
 #include <Geom_Plane.hxx>
 #include <Geom_RectangularTrimmedSurface.hxx>
-#include <TColgp_SequenceOfPnt.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <TColGeom_SequenceOfCurve.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 

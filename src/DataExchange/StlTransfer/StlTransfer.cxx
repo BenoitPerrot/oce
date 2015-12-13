@@ -21,7 +21,7 @@
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <TopoDS_Face.hxx>
 #include <Poly_Connect.hxx>
-#include <TColgp_Array1OfDir.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfDir.hxx>
 #include <Poly_Triangulation.hxx>
 #include <BRepAdaptor_Surface.hxx>
 #include <TopLoc_Location.hxx>
@@ -30,7 +30,7 @@
 #include <gp_Vec.hxx>
 #include <gp_Pnt.hxx>
 #include <CSLib.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <CSLib.hxx>
 #include <gp_Dir.hxx>
 #include <gp_XYZ.hxx>
@@ -39,7 +39,7 @@
 #include <Precision.hxx>
 #include <TopExp_Explorer.hxx>
 #include <TopoDS.hxx>
-#include <TColgp_SequenceOfXYZ.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfXYZ.hxx>
 //function computes normals for surface
 
 static void Normal(const TopoDS_Face&  aFace,

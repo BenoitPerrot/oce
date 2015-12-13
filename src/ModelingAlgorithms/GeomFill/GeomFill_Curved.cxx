@@ -14,14 +14,14 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <GeomFill_Curved.hxx>
 
 #include <gp_Pnt.hxx>
 #include <gp_Vec.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <TColgp_HArray2OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_HArray2OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
 
 #include <Foundation/Standard/Standard_NotImplemented.hxx>

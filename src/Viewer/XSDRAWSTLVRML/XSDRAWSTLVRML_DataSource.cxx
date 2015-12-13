@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_RTTI(XSDRAWSTLVRML_DataSource)
 
 #include <StlMesh_SequenceOfMeshTriangle.hxx>
 #include <StlMesh_MeshTriangle.hxx>
-#include <TColgp_SequenceOfXYZ.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfXYZ.hxx>
 #include <Foundation/TColStd/TColStd_DataMapOfIntegerReal.hxx>
 #include <Foundation/TColStd/TColStd_DataMapOfIntegerInteger.hxx>
 

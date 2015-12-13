@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TColgp_HArray1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
 #include <TestTopOpeDraw_DrawableC3D.hxx>
 #include <TestTopOpeDraw_HArray1OfDrawableP3D.hxx>
 #include <TestTopOpeTools_Mesure.hxx>
@@ -42,8 +42,8 @@ IMPLEMENT_STANDARD_RTTI(TestTopOpeDraw_DrawableMesure)
 #include <Geom_Curve.hxx>
 #include <TopOpeBRepTool_CurveTool.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <TColgp_Array1OfPnt.hxx>
-#include <TColgp_HArray1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
 #include <string.h>
 #include <Draw_Interpretor.hxx>
 

@@ -20,7 +20,7 @@
 #include <gp_Vec.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Precision.hxx>
-#include <TColgp_HArray1OfVec.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfVec.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Vrml_Material.hxx>
 #include <VrmlConverter_LineAspect.hxx>

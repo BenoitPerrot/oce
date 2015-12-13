@@ -40,7 +40,7 @@
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Prs3d_LineAspect.hxx>
 #include <Prs3d_BasicAspect.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <TopoDS_Shape.hxx>
 #include <SelectMgr_EntityOwner.hxx>
 #include <SelectMgr_IndexedMapOfOwner.hxx>

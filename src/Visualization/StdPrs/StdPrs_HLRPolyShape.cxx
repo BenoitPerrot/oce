@@ -33,7 +33,7 @@
 #include <HLRAlgo_EdgeStatus.hxx>
 #include <HLRAlgo_EdgeIterator.hxx>
 #include <HLRBRep_ListIteratorOfListOfBPoint.hxx>
-#include <TColgp_SequenceOfPnt.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 
 #define PntX1 ((Standard_Real*)Coordinates)[0]
 #define PntY1 ((Standard_Real*)Coordinates)[1]

@@ -36,7 +36,7 @@
 #include <gp_XY.hxx>
 #include <gp_Pnt2d.hxx>
 #include <gp_Pnt.hxx>
-#include <TColgp_HArray2OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_HArray2OfPnt.hxx>
 
 #include <Convert_GridPolynomialToPoles.hxx>
 

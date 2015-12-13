@@ -19,7 +19,7 @@
 #include <Foundation/Standard/Standard_NegativeValue.hxx>
 #include <Foundation/Standard/Standard_NullValue.hxx>
 #include <StlMesh_SequenceOfMeshTriangle.hxx>
-#include <TColgp_SequenceOfXYZ.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfXYZ.hxx>
 #include <StlMesh_MeshDomain.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StlMesh_MeshDomain)

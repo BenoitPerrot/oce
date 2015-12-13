@@ -2624,14 +2624,14 @@ static int VDrawText (Draw_Interpretor& di, Standard_Integer argc, const char** 
 #include <Poly_Array1OfTriangle.hxx>
 #include <Poly_Triangle.hxx>
 #include <Poly_Triangulation.hxx>
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Foundation/TShort/TShort_Array1OfShortReal.hxx>
 #include <Foundation/TShort/TShort_HArray1OfShortReal.hxx>
 
 #include <AIS_Triangulation.hxx>
 #include <StdPrs_ToolShadedShape.hxx>
 #include <Poly_Connect.hxx>
-#include <TColgp_Array1OfDir.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfDir.hxx>
 #include <Graphic3d_GraphicDriver.hxx>
 
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>

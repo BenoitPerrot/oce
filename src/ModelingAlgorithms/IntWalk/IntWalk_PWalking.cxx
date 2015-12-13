@@ -24,7 +24,7 @@
 
 #include <IntWalk_StatusDeflection.hxx>
 
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 
 #include <IntImp_ComputeTangence.hxx>

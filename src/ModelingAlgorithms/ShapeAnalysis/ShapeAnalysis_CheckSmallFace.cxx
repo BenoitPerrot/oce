@@ -48,12 +48,12 @@
 #include <gp_Dir.hxx>
 #include <gp_Vec.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <TopTools_Array1OfShape.hxx>
 
-#include <TColgp_Array2OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
 
-#include <TColgp_SequenceOfXYZ.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfXYZ.hxx>
 #include <BRep_Builder.hxx>
 #include <BRepTools.hxx>
 #include <Precision.hxx>

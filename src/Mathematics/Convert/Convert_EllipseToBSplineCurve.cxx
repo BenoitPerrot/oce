@@ -19,11 +19,11 @@
 #include <gp_Elips2d.hxx>
 #include <Convert_EllipseToBSplineCurve.hxx>
 
-#include <TColgp_HArray1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfPnt2d.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 
 #include <gp.hxx>
 #include <gp_Ax2d.hxx>

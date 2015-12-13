@@ -40,7 +40,7 @@
 #include <gp_Ax1.hxx>
 #include <gp_Ax2.hxx>
 #include <gp_Pnt2d.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 
 static BRepOffsetAPI_MakePipeShell* Sweep= 0;
 

@@ -19,8 +19,8 @@
 
 #include <gp_Mat.hxx>
 #include <gp_Vec.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
-#include <TColgp_Array1OfVec2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfVec2d.hxx>
 
 GeomFill_LocFunction::GeomFill_LocFunction(const Handle(GeomFill_LocationLaw)& Law) 
                                           :V(1,4), DV(1,4), D2V(1,4)

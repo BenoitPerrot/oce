@@ -27,13 +27,13 @@
 #include <AdvApp2Var_Context.hxx>
 #include <AdvApp2Var_Framework.hxx>
 #include <AdvApp2Var_Criterion.hxx>
-#include <TColgp_HArray2OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_HArray2OfPnt.hxx>
 #include <AdvApp2Var_Patch.hxx>
 #include <AdvApp2Var_Node.hxx>
 #include <AdvApp2Var_Iso.hxx>
 #include <gp_Pnt.hxx>
-#include <TColgp_HArray2OfPnt.hxx>
-#include <TColgp_Array2OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_HArray2OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>

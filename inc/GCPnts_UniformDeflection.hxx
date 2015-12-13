@@ -13,7 +13,7 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
-#include <TColgp_SequenceOfPnt.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_DomainError;
 class Standard_ConstructionError;

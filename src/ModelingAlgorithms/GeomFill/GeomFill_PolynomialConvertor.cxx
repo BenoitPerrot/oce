@@ -17,8 +17,8 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Vec.hxx>
-#include <TColgp_Array1OfPnt.hxx>
-#include <TColgp_Array1OfVec.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfVec.hxx>
 #include <GeomFill_PolynomialConvertor.hxx>
 
 

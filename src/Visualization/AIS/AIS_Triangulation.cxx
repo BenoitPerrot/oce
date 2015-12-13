@@ -20,7 +20,7 @@
 #include <Prs3d_Root.hxx>
 #include <Prs3d_ShadingAspect.hxx>
 #include <Foundation/TShort/TShort_Array1OfShortReal.hxx>
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/TShort/TShort_HArray1OfShortReal.hxx>
 #include <Graphic3d_Group.hxx>

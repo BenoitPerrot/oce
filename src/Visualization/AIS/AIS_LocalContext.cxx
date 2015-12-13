@@ -41,7 +41,7 @@
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <SelectMgr_ListOfFilter.hxx>
 #include <V3d_View.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <TopoDS_Shape.hxx>
 #include <SelectMgr_EntityOwner.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>

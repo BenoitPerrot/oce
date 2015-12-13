@@ -6,7 +6,7 @@
 #ifndef _Convert_SequenceOfArray1OfPoles2d_HeaderFile
 #define _Convert_SequenceOfArray1OfPoles2d_HeaderFile
 
-#include <TColgp_SequenceOfArray1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfArray1OfPnt2d.hxx>
 
 typedef TColgp_SequenceOfArray1OfPnt2d Convert_SequenceOfArray1OfPoles2d;
 

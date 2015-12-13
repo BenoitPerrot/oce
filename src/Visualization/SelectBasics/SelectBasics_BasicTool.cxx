@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <gp_Pnt2d.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <SelectBasics_BasicTool.hxx>
 #include <Precision.hxx>
 #include <gp_Vec2d.hxx>

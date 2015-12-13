@@ -90,7 +90,7 @@
 #include <Adaptor3d_HCurveOnSurface.hxx>
 #include <Geom2dAdaptor_HCurve.hxx>
 #include <GeomAdaptor_HSurface.hxx>
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <TColGeom_SequenceOfCurve.hxx>
 
 #ifdef OCCT_DEBUG

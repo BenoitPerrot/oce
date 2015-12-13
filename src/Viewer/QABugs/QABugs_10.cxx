@@ -734,7 +734,7 @@ static Standard_Integer OCC824 (Draw_Interpretor& di,Standard_Integer argc, cons
   return 0;
 }
 
-#include <TColgp_Array2OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
 #include <GeomConvert.hxx>
 #include <Geom_BezierSurface.hxx>
 #include <BRepPrimAPI_MakeHalfSpace.hxx>

@@ -20,9 +20,9 @@
 #include <Law_Function.hxx>
 #include <Geom_BSplineCurve.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <TColgp_Array1OfVec.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfVec.hxx>
 #include <Geom_BSplineSurface.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <gp_Pnt.hxx>
@@ -47,7 +47,7 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_EvolvedSection)
 #include <GeomAdaptor_Curve.hxx>
 
 #include <GCPnts_AbscissaPoint.hxx>
-#include <TColgp_Array2OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Precision.hxx>

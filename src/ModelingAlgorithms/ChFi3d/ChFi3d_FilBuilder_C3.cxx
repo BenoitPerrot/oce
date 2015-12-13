@@ -52,7 +52,7 @@
 #include <ElCLib.hxx>
 #include <ElSLib.hxx>
 
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 
 #include <Geom_Plane.hxx>
 #include <Geom_Circle.hxx>

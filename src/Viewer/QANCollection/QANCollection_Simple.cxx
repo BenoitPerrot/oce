@@ -18,8 +18,8 @@
 
 #include <Foundation/OSD/OSD_PerfMeter.hxx>
 
-#include <TColgp_Array1OfPnt.hxx>
-#include <TColgp_SequenceOfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 
 #include <Foundation/NCollection/NCollection_Sequence.hxx>
 #include <Foundation/NCollection/NCollection_Array1.hxx>

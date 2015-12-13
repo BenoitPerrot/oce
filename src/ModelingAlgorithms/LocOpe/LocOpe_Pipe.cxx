@@ -20,7 +20,7 @@
 #include <TopoDS_Shape.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <TColGeom_SequenceOfCurve.hxx>
-#include <TColgp_SequenceOfPnt.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <Geom_Curve.hxx>
 #include <LocOpe_Pipe.hxx>
 
@@ -43,7 +43,7 @@
 
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 
 #include <Geom_Surface.hxx>
 #include <Geom_RectangularTrimmedSurface.hxx>

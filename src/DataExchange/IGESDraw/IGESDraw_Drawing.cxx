@@ -17,7 +17,7 @@
 //--------------------------------------------------------------------
 
 #include <IGESDraw_HArray1OfViewKindEntity.hxx>
-#include <TColgp_HArray1OfXY.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfXY.hxx>
 #include <IGESData_HArray1OfIGESEntity.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>

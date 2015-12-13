@@ -28,7 +28,7 @@
 #include <PLib.hxx>
 #include <Geom_BSplineCurve.hxx>
 #include <Geom_BezierCurve.hxx>
-#include <TColgp_HArray1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Precision.hxx>

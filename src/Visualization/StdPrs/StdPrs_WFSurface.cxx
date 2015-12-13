@@ -29,7 +29,7 @@
 #include <BndLib_AddSurface.hxx>
 #include <Adaptor3d_IsoCurve.hxx>
 #include <StdPrs_Curve.hxx>
-#include <TColgp_SequenceOfPnt.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 
 #include <Prs3d_NListOfSequenceOfPnt.hxx>
 #include <Prs3d_NListIteratorOfListOfSequenceOfPnt.hxx>

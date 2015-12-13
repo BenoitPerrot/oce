@@ -37,7 +37,7 @@ IMPLEMENT_STANDARD_RTTI(DrawTrSurf_BSplineSurface)
 #include <Adaptor3d_IsoCurve.hxx>
 #include <gp_Pnt2d.hxx>
 
-#include <TColgp_Array2OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 
 

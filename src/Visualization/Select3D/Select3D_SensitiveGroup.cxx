@@ -20,7 +20,7 @@
 #include <Select3D_Projector.hxx>
 #include <SelectBasics_ListOfBox2d.hxx>
 #include <TopLoc_Location.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Select3D_SensitiveGroup.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

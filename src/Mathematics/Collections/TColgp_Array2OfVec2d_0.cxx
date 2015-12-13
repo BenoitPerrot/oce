@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TColgp_Array2OfVec2d.hxx>
+#include <Mathematics/Collections/TColgp_Array2OfVec2d.hxx>
 
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
@@ -15,6 +15,6 @@
 #define Array2Item gp_Vec2d
 #define Array2Item_hxx <gp_Vec2d.hxx>
 #define TCollection_Array2 TColgp_Array2OfVec2d
-#define TCollection_Array2_hxx <TColgp_Array2OfVec2d.hxx>
+#define TCollection_Array2_hxx <Mathematics/Collections/TColgp_Array2OfVec2d.hxx>
 #include <Foundation/TCollection/TCollection_Array2.gxx>
 

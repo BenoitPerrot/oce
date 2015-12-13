@@ -38,7 +38,7 @@
 #include <TopTools_MapIteratorOfMapOfShape.hxx>
 #include <TopTools_DataMapIteratorOfDataMapOfShapeListOfShape.hxx>
 #include <TopTools_DataMapIteratorOfDataMapOfShapeShape.hxx>
-#include <TColgp_SequenceOfPnt.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Precision.hxx>
 

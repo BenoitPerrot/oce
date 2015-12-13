@@ -59,7 +59,7 @@
 #include <Interface_Static.hxx>
 #include <IFSelect_ReturnStatus.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
-#include <TColgp_HArray1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfPnt2d.hxx>
 #include <Geom2dAPI_Interpolate.hxx>
 #include <Geom2d_BSplineCurve.hxx>
 #include <Geom2dConvert_BSplineCurveToBezierCurve.hxx>
@@ -73,7 +73,7 @@
 #include <Foundation/NCollection/NCollection_Vector.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Geom_BSplineCurve.hxx>
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <AIS_ListOfInteractive.hxx>
 #include <AIS_ListIteratorOfListOfInteractive.hxx>
 #include <ViewerTest_DoubleMapOfInteractiveAndName.hxx>

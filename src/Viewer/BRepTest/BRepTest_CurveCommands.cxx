@@ -21,8 +21,8 @@
 #include <gp_Ax2.hxx>
 #include <gp_Vec.hxx>
 #include <gp_Vec2d.hxx>
-#include <TColgp_HArray1OfPnt2d.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <BRepBuilderAPI.hxx>
 #include <BRepLib_MakeVertex.hxx>
 #include <BRepLib_MakeEdge.hxx>

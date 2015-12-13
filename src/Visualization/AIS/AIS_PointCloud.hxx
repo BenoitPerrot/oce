@@ -24,8 +24,8 @@
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
-#include <TColgp_HArray1OfDir.hxx>
-#include <TColgp_HArray1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfDir.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
 
 DEFINE_STANDARD_HANDLE(AIS_PointCloud, AIS_InteractiveObject)
 

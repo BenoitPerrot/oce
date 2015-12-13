@@ -102,7 +102,7 @@ private:
 };
 
 #define SeqItem Handle(TColgp_HSequenceOfPnt)
-#define SeqItem_hxx <TColgp_HSequenceOfPnt.hxx>
+#define SeqItem_hxx <Mathematics/Collections/TColgp_HSequenceOfPnt.hxx>
 #define TCollection_SequenceNode ProjLib_SequenceNodeOfSequenceOfHSequenceOfPnt
 #define TCollection_SequenceNode_hxx <ProjLib_SequenceNodeOfSequenceOfHSequenceOfPnt.hxx>
 #define Handle_TCollection_SequenceNode Handle_ProjLib_SequenceNodeOfSequenceOfHSequenceOfPnt

@@ -14,8 +14,8 @@
 
 #include <math_FunctionSetRoot.hxx>
 #include <math_Gauss.hxx>
-#include <TColgp_Array1OfPnt.hxx>
-#include <TColgp_Array2OfVec.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array2OfVec.hxx>
 
 #include <IntSurf.hxx>
 #include <Adaptor2d_HCurve2d.hxx>
@@ -26,7 +26,7 @@
 #ifdef OCCT_DEBUG
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Geom_BSplineCurve.hxx>
 #ifdef DRAW
 #include <Draw.hxx>

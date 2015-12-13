@@ -19,8 +19,8 @@
 #include <Foundation/NCollection/NCollection_List.hxx>
 #include <Precision.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
-#include <TColgp_Array1OfPnt.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Foundation/TShort/TShort_Array1OfShortReal.hxx> 
 #include <Foundation/TShort/TShort_HArray1OfShortReal.hxx> 
 

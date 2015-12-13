@@ -26,7 +26,7 @@
 #define No_Standard_OutOfRange
 #define No_Standard_DimensionError
 
-#include <TColgp_HArray2OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_HArray2OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
@@ -37,12 +37,12 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Geom_UndefinedDerivative.hxx>
-#include <TColgp_Array2OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <gp_Pnt.hxx>
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <gp_Vec.hxx>
 #include <Geom_Curve.hxx>
 #include <gp_Trsf.hxx>
@@ -53,7 +53,7 @@
 #include <Mathematics/BetaSpline/BSplSLib.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Precision.hxx>
-#include <TColgp_Array1OfXYZ.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfXYZ.hxx>
 
 #include <Geom_BSplineCurve.hxx>
 

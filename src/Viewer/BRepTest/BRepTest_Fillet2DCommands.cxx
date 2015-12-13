@@ -20,7 +20,7 @@
 //              lines or circles  (BUC60288) + partial_result
 
 
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <BRepTest.hxx>
 #include <DBRep.hxx>
 #include <Draw_Interpretor.hxx>

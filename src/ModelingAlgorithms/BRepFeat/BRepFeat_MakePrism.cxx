@@ -40,7 +40,7 @@
 
 #include <BRepLib_MakeFace.hxx>
 
-#include <TColgp_SequenceOfPnt.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <TColGeom_SequenceOfCurve.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 

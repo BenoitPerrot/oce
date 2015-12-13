@@ -40,8 +40,8 @@
 #include <Plate_FreeGtoCConstraint.hxx>
 #include <gp_XYZ.hxx>
 #include <gp_XY.hxx>
-#include <TColgp_HArray2OfXYZ.hxx>
-#include <TColgp_SequenceOfXY.hxx>
+#include <Mathematics/Collections/TColgp_HArray2OfXYZ.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfXY.hxx>
 #include <math_Matrix.hxx>
 #include <Plate_Plate.hxx>
 

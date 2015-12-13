@@ -59,8 +59,8 @@
 #include <gp_GTrsf.hxx>
 #include <gp_Trsf.hxx>
 
-#include <TColgp_Array2OfPnt.hxx>
-#include <TColgp_HArray2OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_HArray2OfPnt.hxx>
 
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>

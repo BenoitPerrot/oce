@@ -23,7 +23,7 @@
 #include <gp_Vec.hxx>
 #include <Geom_BezierCurve.hxx>
 #include <Geom_BSplineCurve.hxx>
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <HLRBRep_LineTool.hxx>

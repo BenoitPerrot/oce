@@ -62,17 +62,17 @@
 #include <BRepTools.hxx>
 #include <BRep_Builder.hxx>
 #include <BRepLib.hxx>
-#include <TColgp_SequenceOfPnt.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 #include <BRepTools_WireExplorer.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <TColGeom2d_HArray1OfCurve.hxx>
 
 #include <Geom2d_BezierCurve.hxx>
 #include <Geom2d_TrimmedCurve.hxx>
 #include <Geom_Surface.hxx>
 
-#include <TColgp_SequenceOfXY.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfXY.hxx>
 #include <GeomPlate_PlateG0Criterion.hxx>
 #include <BRep_TVertex.hxx>
 

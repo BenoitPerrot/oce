@@ -20,7 +20,7 @@
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <MeshVS_Mesh.hxx>
 #include <Foundation/TColStd/TColStd_HPackedMapOfInteger.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <MeshVS_DataSource.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -37,7 +37,7 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_DataSource)
 
 #include <gp.hxx>
 #include <gp_Vec.hxx>
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_MapIteratorOfPackedMapOfInteger.hxx>
 
 //================================================================

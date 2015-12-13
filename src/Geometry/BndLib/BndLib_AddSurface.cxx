@@ -28,7 +28,7 @@
 #include <gp_Pnt.hxx>
 #include <gp_Pln.hxx>
 #include <ElSLib.hxx>
-#include <TColgp_Array2OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
 #include <Geom_BSplineSurface.hxx>
 #include <Geom_BezierSurface.hxx>
 

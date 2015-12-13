@@ -26,8 +26,8 @@
 #include <gp_Vec.hxx>
 #include <gp_Vec2d.hxx>
 #include <AppParCurves_MultiBSpCurve.hxx>
-#include <TColgp_Array1OfPnt.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <AppParCurves_HArray1OfMultiPoint.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>

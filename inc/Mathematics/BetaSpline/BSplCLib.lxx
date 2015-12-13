@@ -15,8 +15,8 @@
 // commercial license or contractual agreement.
 
 #include <PLib.hxx>
-#include <TColgp_Array1OfPnt.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 
 //=======================================================================
 //function : MaxDegree

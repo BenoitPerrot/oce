@@ -10,8 +10,8 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <TColgp_SequenceOfXY.hxx>
-#include <TColgp_SequenceOfXYZ.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfXY.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfXYZ.hxx>
 #include <AdvApp2Var_Criterion.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <AdvApp2Var_CriterionType.hxx>

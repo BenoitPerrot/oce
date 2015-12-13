@@ -25,8 +25,8 @@
 #include <Geom_BSplineSurface.hxx>
 #include <Geom_Surface.hxx>
 
-#include <TColgp_SequenceOfXY.hxx>
-#include <TColgp_SequenceOfXYZ.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfXY.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfXYZ.hxx>
 #include <gp_Vec.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_XY.hxx>

@@ -91,10 +91,10 @@
 
 #include <Precision.hxx>  
 
-#include <TColgp_Array1OfPnt2d.hxx>
-#include <TColgp_HArray1OfPnt.hxx>
-#include <TColgp_HArray2OfPnt.hxx>
-#include <TColgp_HArray1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_HArray2OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfPnt2d.hxx>
 
 #include <TColGeom_SequenceOfCurve.hxx>
 

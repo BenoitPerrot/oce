@@ -20,7 +20,7 @@
 #include <SelectBasics_ListOfBox2d.hxx>
 #include <Select3D_SensitiveEntity.hxx>
 #include <TopLoc_Location.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <gp_Lin.hxx>
 #include <Select3D_SensitiveSegment.hxx>
@@ -45,7 +45,7 @@ IMPLEMENT_STANDARD_RTTI(Select3D_SensitiveSegment)
 #include <ElCLib.hxx>
 #include <Extrema_ExtElC.hxx>
 #include <Extrema_POnCurv.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Precision.hxx>
 #include <SelectBasics_ListIteratorOfListOfBox2d.hxx>
 

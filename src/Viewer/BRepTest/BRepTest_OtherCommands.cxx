@@ -34,7 +34,7 @@
 
 #include <ElCLib.hxx>
 
-#include <TColgp_SequenceOfPnt.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 
 #include <GeomAbs_JoinType.hxx>
 #include <Geom_Line.hxx>

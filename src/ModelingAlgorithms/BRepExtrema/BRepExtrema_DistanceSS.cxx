@@ -54,7 +54,7 @@
 #include <Geom_TrimmedCurve.hxx>
 #include <BRepBndLib.hxx>
 #include <BRepTools.hxx>
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 
 
 /*********************************************************************************/

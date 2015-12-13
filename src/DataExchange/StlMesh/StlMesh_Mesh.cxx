@@ -21,7 +21,7 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <gp_XYZ.hxx>
 #include <StlMesh_SequenceOfMeshTriangle.hxx>
-#include <TColgp_SequenceOfXYZ.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfXYZ.hxx>
 #include <StlMesh_Mesh.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StlMesh_Mesh)

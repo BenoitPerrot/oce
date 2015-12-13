@@ -80,8 +80,8 @@
 #include <GeomAdaptor_HSurface.hxx>
 #include <GeomLib.hxx>
 #include <GeomProjLib.hxx>
-#include <TColgp_SequenceOfPnt.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BndLib_Add3dCurve.hxx>
 #include <BRepTools.hxx>

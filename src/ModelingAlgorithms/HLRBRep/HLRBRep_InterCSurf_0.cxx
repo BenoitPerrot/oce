@@ -23,7 +23,7 @@
 #include <gp_Parab.hxx>
 #include <gp_Hypr.hxx>
 #include <IntAna_IntConicQuad.hxx>
-#include <TColgp_Array2OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
  

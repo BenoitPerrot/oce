@@ -30,8 +30,8 @@ IMPLEMENT_STANDARD_RTTI(VrmlConverter_Projector)
 #include <gp_Ax3.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BRepBndLib.hxx>
-#include <TColgp_Array1OfPnt.hxx>
-#include <TColgp_Array1OfVec.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfVec.hxx>
 #include <Vrml_SFRotation.hxx>
 #include <Precision.hxx>
 #include <Vrml_MatrixTransform.hxx>

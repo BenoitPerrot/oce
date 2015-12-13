@@ -14,10 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TColgp_HArray2OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_HArray2OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <TColgp_Array2OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <GeomFill_Filling.hxx>
 

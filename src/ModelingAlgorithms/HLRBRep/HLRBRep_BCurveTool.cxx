@@ -23,14 +23,14 @@
 #include <gp_Vec.hxx>
 #include <Geom_BezierCurve.hxx>
 #include <Geom_BSplineCurve.hxx>
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <HLRBRep_BCurveTool.hxx>
 #include <GeomAbs_CurveType.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <Geom_BezierCurve.hxx>
 #include <Geom_BSplineCurve.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 
 
 //=======================================================================

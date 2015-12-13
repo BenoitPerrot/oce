@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
-#include <TColgp_HArray1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfPnt2d.hxx>
 #include <FairCurve_DistributionOfEnergy.hxx>
 
 Standard_Integer FairCurve_DistributionOfEnergy::NbVariables() const 

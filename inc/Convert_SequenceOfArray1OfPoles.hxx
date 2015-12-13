@@ -102,7 +102,7 @@ private:
 };
 
 #define SeqItem Handle(TColgp_HArray1OfPnt)
-#define SeqItem_hxx <TColgp_HArray1OfPnt.hxx>
+#define SeqItem_hxx <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
 #define TCollection_SequenceNode Convert_SequenceNodeOfSequenceOfArray1OfPoles
 #define TCollection_SequenceNode_hxx <Convert_SequenceNodeOfSequenceOfArray1OfPoles.hxx>
 #define Handle_TCollection_SequenceNode Handle_Convert_SequenceNodeOfSequenceOfArray1OfPoles

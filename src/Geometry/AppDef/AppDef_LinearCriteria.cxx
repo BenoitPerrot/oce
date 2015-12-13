@@ -44,8 +44,8 @@ IMPLEMENT_STANDARD_RTTI(AppDef_LinearCriteria)
 #include <FEmTool_LinearTension.hxx>
 #include <FEmTool_LinearFlexion.hxx>
 #include <FEmTool_LinearJerk.hxx>
-#include <TColgp_Array1OfPnt.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <gp_Pnt2d.hxx>
 #include <gp_Pnt.hxx>
 #include <math_Matrix.hxx>

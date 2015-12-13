@@ -16,7 +16,7 @@
 
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/Standard/Standard_NullObject.hxx>
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Poly_Polygon3D.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

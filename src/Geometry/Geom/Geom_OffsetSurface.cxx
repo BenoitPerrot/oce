@@ -77,15 +77,15 @@ IMPLEMENT_STANDARD_RTTI(Geom_OffsetSurface)
 #include <Geom_Circle.hxx>
 #include <Geom_Ellipse.hxx>
 
-#include <TColgp_Array1OfPnt.hxx>
-#include <TColgp_Array2OfVec.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array2OfVec.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 
 #include <AdvApprox_ApproxAFunction.hxx>
-#include <TColgp_HArray2OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_HArray2OfPnt.hxx>
 #include <Mathematics/BetaSpline/BSplSLib.hxx>
 #include <Convert_GridPolynomialToPoles.hxx>
 #include <Foundation/TColStd/TColStd_HArray2OfInteger.hxx>

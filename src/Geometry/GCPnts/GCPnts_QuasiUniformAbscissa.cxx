@@ -22,9 +22,9 @@
 #include <GCPnts_UniformAbscissa.hxx>
 #include <Adaptor3d_Curve.hxx>
 #include <Adaptor2d_Curve2d.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <gp_Pnt2d.hxx>
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <gp_Pnt.hxx>
 
 #ifdef OCCT_DEBUG

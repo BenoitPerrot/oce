@@ -18,7 +18,7 @@
 
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
-#include <TColgp_HArray2OfXYZ.hxx>
+#include <Mathematics/Collections/TColgp_HArray2OfXYZ.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <gp_Pnt.hxx>

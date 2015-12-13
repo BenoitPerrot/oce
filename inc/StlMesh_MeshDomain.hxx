@@ -12,7 +12,7 @@
 
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <TColgp_SequenceOfXYZ.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfXYZ.hxx>
 #include <StlMesh_SequenceOfMeshTriangle.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

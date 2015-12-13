@@ -48,7 +48,7 @@
 
 #include <LocOpe_BuildShape.hxx>
 #include <LocOpe.hxx>
-#include <TColgp_SequenceOfPnt.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 
 #include <gp_Ax3.hxx>
 #include <gp_Pln.hxx>

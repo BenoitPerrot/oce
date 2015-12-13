@@ -173,9 +173,9 @@ void IntPatch_Intersection::Perform(const Handle(Adaptor3d_HSurface)&  S1,
 //  c.) OffsetSurface.                                                     //
 //                                                                         //
 /////////////////////////////////////////////////////////////////////////////
-#include <TColgp_Array1OfXYZ.hxx>
-#include <TColgp_Array1OfPnt.hxx>
-#include <TColgp_SequenceOfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfXYZ.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <Extrema_ExtPS.hxx>
 #include <Extrema_POnSurf.hxx>
 #include <Geom2d_Curve.hxx>

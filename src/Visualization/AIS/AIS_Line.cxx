@@ -42,7 +42,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_Line)
 #include <Prs3d_LineAspect.hxx>
 #include <Graphic3d_AspectLine3d.hxx>
 #include <Graphic3d_Structure.hxx>
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <SelectMgr_EntityOwner.hxx>
 #include <Select3D_SensitiveSegment.hxx>
 #include <StdPrs_Curve.hxx>

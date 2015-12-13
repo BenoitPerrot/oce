@@ -37,7 +37,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeAnalysis_TransferParametersProj)
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <TopLoc_Location.hxx>
 #include <ShapeAnalysis_Edge.hxx>
-#include <TColgp_SequenceOfPnt.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <ShapeAnalysis_Curve.hxx>
 #include <BRep_ListIteratorOfListOfCurveRepresentation.hxx>
 #include <BRep_TEdge.hxx>

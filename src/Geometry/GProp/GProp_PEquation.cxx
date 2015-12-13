@@ -13,7 +13,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <gp_Pln.hxx>
 #include <gp_Lin.hxx>
 #include <gp_Pnt.hxx>

@@ -64,8 +64,8 @@
 #include <gp_Vec.hxx>
 #include <gp_Pnt2d.hxx>
 #include <gp_Pln.hxx>
-#include <TColgp_Array1OfPnt.hxx>
-#include <TColgp_Array1OfVec.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfVec.hxx>
 #include <ElCLib.hxx>
 
 #include <Geom_BSplineCurve.hxx>

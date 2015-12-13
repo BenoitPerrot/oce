@@ -26,15 +26,15 @@
 #define No_Standard_OutOfRange
 #define No_Standard_DimensionError
 
-#include <TColgp_HArray2OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_HArray2OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/Standard/Standard_DimensionError.hxx>
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <TColgp_Array2OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Vec.hxx>

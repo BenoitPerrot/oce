@@ -65,7 +65,7 @@
 #include <gp_Trsf.hxx>
 #include <Poly_Triangulation.hxx>
 #include <Poly_Connect.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <TopExp_Explorer.hxx>
 #include <gp_Pln.hxx>

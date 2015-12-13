@@ -8,7 +8,7 @@
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TopoDS_Shape.hxx>
-#include <TColgp_SequenceOfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfPnt2d.hxx>
 #include <TopTools_ShapeMapHasher.hxx>
 #include <BRepTools_MapOfVertexPnt2d.hxx>
 #include <BRepTools_DataMapIteratorOfMapOfVertexPnt2d.hxx>
@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(BRepTools_DataMapNodeOfMapOfVertexPnt2d)
 #define TheKey TopoDS_Shape
 #define TheKey_hxx <TopoDS_Shape.hxx>
 #define TheItem TColgp_SequenceOfPnt2d
-#define TheItem_hxx <TColgp_SequenceOfPnt2d.hxx>
+#define TheItem_hxx <Mathematics/Collections/TColgp_SequenceOfPnt2d.hxx>
 #define Hasher TopTools_ShapeMapHasher
 #define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode BRepTools_DataMapNodeOfMapOfVertexPnt2d

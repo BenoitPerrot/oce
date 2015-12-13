@@ -66,8 +66,8 @@
 #include <gp_Pnt2d.hxx>
 #include <gp_Vec2d.hxx>
 #include <gp_Dir2d.hxx>
-#include <TColgp_Array1OfPnt.hxx>
-#include <TColgp_Array1OfVec.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfVec.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <TopTools_Array1OfShape.hxx>

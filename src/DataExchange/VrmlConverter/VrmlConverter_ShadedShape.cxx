@@ -19,8 +19,8 @@
 #include <TopoDS.hxx>
 #include <TopAbs.hxx>
 #include <Poly_Connect.hxx>
-#include <TColgp_Array1OfDir.hxx>
-#include <TColgp_HArray1OfVec.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfDir.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfVec.hxx>
 #include <Poly_Triangle.hxx>
 #include <Poly_Triangulation.hxx>
 #include <BRepTools.hxx>
@@ -29,7 +29,7 @@
 #include <gp_Vec.hxx>
 #include <TopExp_Explorer.hxx>
 #include <TopLoc_Location.hxx>
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Poly_Array1OfTriangle.hxx>
 #include <Vrml_IndexedFaceSet.hxx>
 #include <Vrml_Coordinate3.hxx>
@@ -42,7 +42,7 @@
 #include <CSLib_NormalStatus.hxx>
 #include <CSLib.hxx>
 #include <BRepAdaptor_Surface.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Precision.hxx>
 #include <Vrml_Material.hxx>
 #include <VrmlConverter_ShadingAspect.hxx>

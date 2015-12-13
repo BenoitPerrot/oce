@@ -16,7 +16,7 @@
 #include <Contap_TFunction.hxx>
 #include <gp_Dir.hxx>
 #include <gp_Pnt.hxx>
-#include <TColgp_SequenceOfPnt.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <IntSurf_Quadric.hxx>
 #include <math_FunctionWithDerivative.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

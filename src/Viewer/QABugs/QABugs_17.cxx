@@ -1138,7 +1138,7 @@ static Standard_Integer OCC814 (Draw_Interpretor& di, Standard_Integer argc,cons
 
 #include <ShapeAnalysis_Wire.hxx>
 #include <IntRes2d_SequenceOfIntersectionPoint.hxx>
-#include <TColgp_SequenceOfPnt.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <ShapeFix_Wire.hxx>
 //=======================================================================
 //function : OCC884
@@ -1545,7 +1545,7 @@ static Standard_Integer OCCN2 (Draw_Interpretor& di, Standard_Integer argc, cons
   return 0;
 }
 
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Geom_BezierCurve.hxx>
 
 static Standard_Integer OCC2569 (Draw_Interpretor& di, Standard_Integer argc, const char ** argv)

@@ -3,14 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TColgp_HSequenceOfPnt.hxx>
+#include <Mathematics/Collections/TColgp_HSequenceOfPnt.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <gp_Pnt.hxx>
-#include <TColgp_SequenceOfPnt.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 
  
 
@@ -31,9 +31,9 @@ IMPLEMENT_STANDARD_RTTI(TColgp_HSequenceOfPnt)
 #define Item gp_Pnt
 #define Item_hxx <gp_Pnt.hxx>
 #define TheSequence TColgp_SequenceOfPnt
-#define TheSequence_hxx <TColgp_SequenceOfPnt.hxx>
+#define TheSequence_hxx <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #define TCollection_HSequence TColgp_HSequenceOfPnt
-#define TCollection_HSequence_hxx <TColgp_HSequenceOfPnt.hxx>
+#define TCollection_HSequence_hxx <Mathematics/Collections/TColgp_HSequenceOfPnt.hxx>
 #define Handle_TCollection_HSequence Handle_TColgp_HSequenceOfPnt
 #define TCollection_HSequence_Type_() TColgp_HSequenceOfPnt_Type_()
 #include <Foundation/TCollection/TCollection_HSequence.gxx>

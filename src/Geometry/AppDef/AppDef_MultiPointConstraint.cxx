@@ -18,20 +18,20 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/Standard/Standard_DimensionError.hxx>
-#include <TColgp_Array1OfPnt.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
-#include <TColgp_Array1OfVec.hxx>
-#include <TColgp_Array1OfVec2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfVec.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfVec2d.hxx>
 #include <gp_Vec.hxx>
 #include <gp_Vec2d.hxx>
 #include <AppDef_MultiPointConstraint.hxx>
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <TColgp_HArray1OfPnt.hxx>
-#include <TColgp_HArray1OfPnt2d.hxx>
-#include <TColgp_HArray1OfVec.hxx>
-#include <TColgp_HArray1OfVec2d.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfVec.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfVec2d.hxx>
 
 
 #define tabTang (*(Handle(TColgp_HArray1OfVec)*)&ttabTang)

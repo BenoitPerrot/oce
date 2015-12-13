@@ -19,7 +19,7 @@
 #include <Prs3d_Presentation.hxx>
 #include <Adaptor3d_Curve.hxx>
 #include <Prs3d_Drawer.hxx>
-#include <TColgp_SequenceOfPnt.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <StdPrs_DeflectionCurve.hxx>
 
 #include <Graphic3d_ArrayOfSegments.hxx>
@@ -38,7 +38,7 @@
 #include <Precision.hxx>
 #include <GCPnts_QuasiUniformDeflection.hxx>
 #include <GCPnts_TangentialDeflection.hxx>
-#include <TColgp_SequenceOfPnt.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 
 

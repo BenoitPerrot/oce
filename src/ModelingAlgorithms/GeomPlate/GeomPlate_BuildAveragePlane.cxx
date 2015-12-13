@@ -23,19 +23,19 @@
 //              correction sur le tri des valeurs propres quand valeurs egales
 
 
-#include <TColgp_HArray1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
 #include <Geom_Plane.hxx>
 #include <Geom_Line.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <TColgp_SequenceOfVec.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfVec.hxx>
 #include <gp_Vec.hxx>
 #include <GeomPlate_SequenceOfAij.hxx>
 #include <GeomPlate_BuildAveragePlane.hxx>
-#include <TColgp_Array1OfVec.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfVec.hxx>
 #include <math_Matrix.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Pln.hxx>
-#include <TColgp_HArray1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
 #include <math_Jacobi.hxx>
 #include <gp_Vec.hxx>
 #include <gp_Ax1.hxx>
@@ -43,7 +43,7 @@
 #include <gp_Dir.hxx>
 #include <ElSLib.hxx>
 #include <Geom_Line.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <gp_Lin2d.hxx>
 #include <ElCLib.hxx>

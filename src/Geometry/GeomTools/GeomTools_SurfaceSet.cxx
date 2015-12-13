@@ -43,9 +43,9 @@
 
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
-#include <TColgp_Array2OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Message/Message_ProgressSentry.hxx>

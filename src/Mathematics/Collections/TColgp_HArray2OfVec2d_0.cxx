@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TColgp_HArray2OfVec2d.hxx>
+#include <Mathematics/Collections/TColgp_HArray2OfVec2d.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -12,7 +12,7 @@
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <gp_Vec2d.hxx>
-#include <TColgp_Array2OfVec2d.hxx>
+#include <Mathematics/Collections/TColgp_Array2OfVec2d.hxx>
 
  
 
@@ -33,9 +33,9 @@ IMPLEMENT_STANDARD_RTTI(TColgp_HArray2OfVec2d)
 #define ItemHArray2 gp_Vec2d
 #define ItemHArray2_hxx <gp_Vec2d.hxx>
 #define TheArray2 TColgp_Array2OfVec2d
-#define TheArray2_hxx <TColgp_Array2OfVec2d.hxx>
+#define TheArray2_hxx <Mathematics/Collections/TColgp_Array2OfVec2d.hxx>
 #define TCollection_HArray2 TColgp_HArray2OfVec2d
-#define TCollection_HArray2_hxx <TColgp_HArray2OfVec2d.hxx>
+#define TCollection_HArray2_hxx <Mathematics/Collections/TColgp_HArray2OfVec2d.hxx>
 #define Handle_TCollection_HArray2 Handle_TColgp_HArray2OfVec2d
 #define TCollection_HArray2_Type_() TColgp_HArray2OfVec2d_Type_()
 #include <Foundation/TCollection/TCollection_HArray2.gxx>

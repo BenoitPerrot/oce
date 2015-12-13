@@ -36,7 +36,7 @@
 #include <BRep_Tool.hxx>
 #include <TopoDS.hxx>
 #include <MeshTest_CheckTopology.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Poly_Polygon3D.hxx>
 #include <Poly_Polygon2D.hxx>
 #include <Foundation/Standard/Standard.hxx>

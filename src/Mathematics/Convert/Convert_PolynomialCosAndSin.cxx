@@ -16,7 +16,7 @@
 
 #include <Convert_PolynomialCosAndSin.hxx>
 
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <gp_Trsf2d.hxx>
 #include <gp_Pnt2d.hxx>
 #include <gp_Vec2d.hxx>

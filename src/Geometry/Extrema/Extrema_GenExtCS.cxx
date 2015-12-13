@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TColgp_HArray2OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_HArray2OfPnt.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_TypeMismatch.hxx>
@@ -36,7 +36,7 @@
 #include <math_PSOParticlesPool.hxx>
 #include <math_Vector.hxx>
 #include <Precision.hxx>
-#include <TColgp_HArray1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
 
 const Standard_Real aMaxParamVal = 1.0e+10;
 const Standard_Real aBorderDivisor = 1.0e+4;

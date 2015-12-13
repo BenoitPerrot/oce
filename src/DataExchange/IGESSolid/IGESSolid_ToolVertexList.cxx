@@ -32,7 +32,7 @@
 #include <IGESData_ParamCursor.hxx>
 #include <gp_XYZ.hxx>
 #include <gp_Pnt.hxx>
-#include <TColgp_HArray1OfXYZ.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfXYZ.hxx>
 #include <IGESData_Dump.hxx>
 #include <Interface_Macros.hxx>
 

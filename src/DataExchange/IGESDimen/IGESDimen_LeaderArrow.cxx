@@ -16,7 +16,7 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <TColgp_HArray1OfXY.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfXY.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <gp_XY.hxx>
 #include <gp_Pnt2d.hxx>

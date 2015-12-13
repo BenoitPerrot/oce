@@ -36,7 +36,7 @@ IMPLEMENT_STANDARD_RTTI(ChFiDS_FilSpine)
 #include <Foundation/TColStd/TColStd_HArray1OfBoolean.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <gp_XY.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <ElCLib.hxx>
 #include <Law_ListIteratorOfLaws.hxx>
 #include <Law_Constant.hxx>

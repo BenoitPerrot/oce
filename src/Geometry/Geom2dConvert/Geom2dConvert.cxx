@@ -71,7 +71,7 @@
 #include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>

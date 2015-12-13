@@ -34,7 +34,7 @@
 #include <Geom_BSplineCurve.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <GeomAdaptor_HCurve.hxx>
 #include <GeomAdaptor_HSurface.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
@@ -42,7 +42,7 @@
 #include <Adaptor3d_CurveOnSurface.hxx>
 #include <Precision.hxx>
 #include <Geom2d_BSplineCurve.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <math_Vector.hxx>
 #include <CPnts_AbscissaPoint.hxx>
 #include <Approx_CurvlinFunc.hxx>

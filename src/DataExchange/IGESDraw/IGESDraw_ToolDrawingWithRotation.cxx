@@ -36,7 +36,7 @@
 #include <gp_Pnt2d.hxx>
 #include <IGESData_HArray1OfIGESEntity.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
-#include <TColgp_HArray1OfXY.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfXY.hxx>
 #include <IGESDraw_HArray1OfViewKindEntity.hxx>
 #include <IGESData_Dump.hxx>
 #include <IGESDraw_View.hxx>

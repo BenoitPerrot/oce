@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TColgp_Array1OfCirc2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfCirc2d.hxx>
 
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
@@ -15,6 +15,6 @@
 #define Array1Item gp_Circ2d
 #define Array1Item_hxx <gp_Circ2d.hxx>
 #define TCollection_Array1 TColgp_Array1OfCirc2d
-#define TCollection_Array1_hxx <TColgp_Array1OfCirc2d.hxx>
+#define TCollection_Array1_hxx <Mathematics/Collections/TColgp_Array1OfCirc2d.hxx>
 #include <Foundation/TCollection/TCollection_Array1.gxx>
 

@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Adaptor3d_HCurve.hxx>
-#include <TColgp_HArray2OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_HArray2OfPnt2d.hxx>
 #include <GeomFill_Frenet.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>

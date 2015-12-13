@@ -33,10 +33,10 @@
 #include <gp_Ax2.hxx>
 #include <gp_Ax3.hxx>
 #include <gp_Vec.hxx>
-#include <TColgp_SequenceOfPnt.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
-#include <TColgp_Array1OfPnt.hxx>
-#include <TColgp_HArray1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
 #include <Geom_Plane.hxx>
 
 #include <BRepAdaptor_Curve.hxx>

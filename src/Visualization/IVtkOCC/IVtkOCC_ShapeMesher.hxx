@@ -19,8 +19,8 @@
 #include <BRepAdaptor_HSurface.hxx>
 #include <IVtkOCC_Shape.hxx>
 #include <IVtk_IShapeMesher.hxx>
-#include <TColgp_Array1OfPnt.hxx>
-#include <TColgp_SequenceOfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Edge.hxx>

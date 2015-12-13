@@ -16,14 +16,14 @@
 
 #include <gp_Vec.hxx>
 #include <gp_Dir.hxx>
-#include <TColgp_Array2OfVec.hxx>
+#include <Mathematics/Collections/TColgp_Array2OfVec.hxx>
 #include <CSLib.hxx>
 
 #include <gp.hxx>
 #include <gp_Vec.hxx>
 #include <PLib.hxx>
 #include <Precision.hxx>
-#include <TColgp_Array2OfVec.hxx>
+#include <Mathematics/Collections/TColgp_Array2OfVec.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <math_FunctionRoots.hxx>

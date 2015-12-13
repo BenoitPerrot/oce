@@ -11,7 +11,7 @@
 #include <Handle_Poly_Polygon3D.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Handle_TColStd_HArray1OfReal.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

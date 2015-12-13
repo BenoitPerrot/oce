@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_RTTI(DrawTrSurf_BezierCurve2d)
 
 #include <Geom2d_BezierCurve.hxx>
 #include <gp_Pnt.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 
 

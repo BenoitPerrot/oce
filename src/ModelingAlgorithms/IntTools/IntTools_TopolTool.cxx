@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_RTTI(IntTools_TopolTool)
 
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Precision.hxx>
-#include <TColgp_Array2OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
 #include <Geom_BSplineSurface.hxx>
 #include <Geom_BezierSurface.hxx>
 #include <gp_Circ.hxx>

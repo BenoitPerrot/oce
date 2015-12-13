@@ -33,8 +33,8 @@
 
 #include <IntSurf.hxx>
 
-#include <TColgp_SequenceOfPnt.hxx>
-#include <TColgp_SequenceOfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfPnt2d.hxx>
 #include <Intf_SectionPoint.hxx>
 #include <Intf_TangentZone.hxx>
 #include <gp_Pnt2d.hxx>

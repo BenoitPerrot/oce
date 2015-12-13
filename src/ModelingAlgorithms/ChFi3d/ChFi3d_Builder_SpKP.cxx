@@ -24,7 +24,7 @@
 #include <gp_Dir2d.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Circ.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <ElCLib.hxx>
 #include <ElSLib.hxx>
 #include <Geom2d_Curve.hxx>

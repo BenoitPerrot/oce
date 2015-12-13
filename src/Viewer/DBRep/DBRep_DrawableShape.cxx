@@ -72,7 +72,7 @@ IMPLEMENT_STANDARD_RTTI(DBRep_DrawableShape)
 #include <Poly_Triangulation.hxx>
 #include <Poly_PolygonOnTriangulation.hxx>
 #include <Poly_Connect.hxx>
-#include <TColgp_HArray1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 
 #include <Precision.hxx>

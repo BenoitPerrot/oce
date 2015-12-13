@@ -16,22 +16,22 @@
 
 // 08-Aug-95 : xab : interpolation uses BSplCLib::Interpolate
 
-#include <TColgp_HArray1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
 #include <Geom_BSplineCurve.hxx>
-#include <TColgp_HArray1OfVec.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfVec.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfBoolean.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <gp_Vec.hxx>
-#include <TColgp_Array1OfVec.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfVec.hxx>
 #include <GeomAPI_Interpolate.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <PLib.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <gp_Vec.hxx>
-#include <TColgp_Array1OfPnt.hxx>
-#include <TColgp_Array1OfVec.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfVec.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>

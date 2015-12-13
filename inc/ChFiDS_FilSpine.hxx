@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ChFiDS_FilSpine.hxx>
 
-#include <TColgp_SequenceOfXY.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfXY.hxx>
 #include <Law_Laws.hxx>
 #include <ChFiDS_Spine.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

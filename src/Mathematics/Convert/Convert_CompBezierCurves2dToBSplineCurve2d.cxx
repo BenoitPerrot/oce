@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Convert_CompBezierCurves2dToBSplineCurve2d.hxx>
@@ -26,7 +26,7 @@
 #include <gp_Pnt2d.hxx>
 #include <gp_Vec2d.hxx>
 #include <gp.hxx>
-#include <TColgp_HArray1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfPnt2d.hxx>
 
 
 //=======================================================================

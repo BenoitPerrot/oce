@@ -19,11 +19,11 @@
 #include <Draw.hxx>
 #include <Draw_Interpretor.hxx>
 
-#include <TColgp_Array1OfPnt.hxx>
-#include <TColgp_Array2OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_MapOfReal.hxx>
 #include <Foundation/TColStd/TColStd_IndexedMapOfReal.hxx>
-#include <TColgp_SequenceOfPnt.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 
 #include <QANCollection_DataMapOfRealPnt.hxx>
 #include <QANCollection_DoubleMapOfRealInteger.hxx>

@@ -18,17 +18,17 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Approx_SweepFunction.hxx>
-#include <TColgp_Array2OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <BRepBlend_AppSurface.hxx>
 
-#include <TColgp_Array1OfPnt.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
-#include <TColgp_Array1OfVec.hxx>
-#include <TColgp_Array1OfVec2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfVec.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfVec2d.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>

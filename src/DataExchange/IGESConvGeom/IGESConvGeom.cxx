@@ -38,8 +38,8 @@
 #include <GeomConvert_CompCurveToBSplineCurve.hxx>
 #include <PLib.hxx>
 
-#include <TColgp_HArray1OfPnt.hxx>
-#include <TColgp_HArray2OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_HArray2OfPnt.hxx>
 
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>

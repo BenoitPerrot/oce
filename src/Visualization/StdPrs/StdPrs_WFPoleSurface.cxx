@@ -20,7 +20,7 @@
 #include <StdPrs_WFPoleSurface.hxx>
 
 #include <Graphic3d_Group.hxx>
-#include <TColgp_Array2OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
 #include <Prs3d_IsoAspect.hxx>
 #include <Graphic3d_ArrayOfPolylines.hxx>
 

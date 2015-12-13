@@ -29,7 +29,7 @@
 #include <Graphic3d_Structure.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Aspect_TypeOfLine.hxx>
-#include <TColgp_HArray1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Dir.hxx>
 #include <gp_Ax3.hxx>

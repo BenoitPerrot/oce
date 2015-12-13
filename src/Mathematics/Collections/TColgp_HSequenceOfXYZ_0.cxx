@@ -3,14 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TColgp_HSequenceOfXYZ.hxx>
+#include <Mathematics/Collections/TColgp_HSequenceOfXYZ.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <gp_XYZ.hxx>
-#include <TColgp_SequenceOfXYZ.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfXYZ.hxx>
 
  
 
@@ -31,9 +31,9 @@ IMPLEMENT_STANDARD_RTTI(TColgp_HSequenceOfXYZ)
 #define Item gp_XYZ
 #define Item_hxx <gp_XYZ.hxx>
 #define TheSequence TColgp_SequenceOfXYZ
-#define TheSequence_hxx <TColgp_SequenceOfXYZ.hxx>
+#define TheSequence_hxx <Mathematics/Collections/TColgp_SequenceOfXYZ.hxx>
 #define TCollection_HSequence TColgp_HSequenceOfXYZ
-#define TCollection_HSequence_hxx <TColgp_HSequenceOfXYZ.hxx>
+#define TCollection_HSequence_hxx <Mathematics/Collections/TColgp_HSequenceOfXYZ.hxx>
 #define Handle_TCollection_HSequence Handle_TColgp_HSequenceOfXYZ
 #define TCollection_HSequence_Type_() TColgp_HSequenceOfXYZ_Type_()
 #include <Foundation/TCollection/TCollection_HSequence.gxx>

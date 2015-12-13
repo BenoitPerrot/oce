@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TColgp_HArray1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -12,7 +12,7 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
 #include <gp_Pnt.hxx>
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 
  
 
@@ -33,9 +33,9 @@ IMPLEMENT_STANDARD_RTTI(TColgp_HArray1OfPnt)
 #define ItemHArray1 gp_Pnt
 #define ItemHArray1_hxx <gp_Pnt.hxx>
 #define TheArray1 TColgp_Array1OfPnt
-#define TheArray1_hxx <TColgp_Array1OfPnt.hxx>
+#define TheArray1_hxx <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #define TCollection_HArray1 TColgp_HArray1OfPnt
-#define TCollection_HArray1_hxx <TColgp_HArray1OfPnt.hxx>
+#define TCollection_HArray1_hxx <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
 #define Handle_TCollection_HArray1 Handle_TColgp_HArray1OfPnt
 #define TCollection_HArray1_Type_() TColgp_HArray1OfPnt_Type_()
 #include <Foundation/TCollection/TCollection_HArray1.gxx>

@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TColgp_HArray2OfDir.hxx>
+#include <Mathematics/Collections/TColgp_HArray2OfDir.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -12,7 +12,7 @@
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <gp_Dir.hxx>
-#include <TColgp_Array2OfDir.hxx>
+#include <Mathematics/Collections/TColgp_Array2OfDir.hxx>
 
  
 
@@ -33,9 +33,9 @@ IMPLEMENT_STANDARD_RTTI(TColgp_HArray2OfDir)
 #define ItemHArray2 gp_Dir
 #define ItemHArray2_hxx <gp_Dir.hxx>
 #define TheArray2 TColgp_Array2OfDir
-#define TheArray2_hxx <TColgp_Array2OfDir.hxx>
+#define TheArray2_hxx <Mathematics/Collections/TColgp_Array2OfDir.hxx>
 #define TCollection_HArray2 TColgp_HArray2OfDir
-#define TCollection_HArray2_hxx <TColgp_HArray2OfDir.hxx>
+#define TCollection_HArray2_hxx <Mathematics/Collections/TColgp_HArray2OfDir.hxx>
 #define Handle_TCollection_HArray2 Handle_TColgp_HArray2OfDir
 #define TCollection_HArray2_Type_() TColgp_HArray2OfDir_Type_()
 #include <Foundation/TCollection/TCollection_HArray2.gxx>

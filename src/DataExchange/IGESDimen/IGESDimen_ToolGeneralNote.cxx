@@ -34,7 +34,7 @@
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <gp_XYZ.hxx>
 #include <gp_Pnt.hxx>
-#include <TColgp_HArray1OfXYZ.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfXYZ.hxx>
 #include <Interface_HArray1OfHAsciiString.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>

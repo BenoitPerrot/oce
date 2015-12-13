@@ -11,7 +11,7 @@
 #include <Handle_Poly_Polygon2D.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NullObject;

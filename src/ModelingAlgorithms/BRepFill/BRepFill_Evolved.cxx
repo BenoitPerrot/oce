@@ -124,7 +124,7 @@
 #include <gp_Vec2d.hxx>
 #include <gp_Circ2d.hxx>
 
-#include <TColgp_SequenceOfPnt.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <BRepFill_TrimSurfaceTool.hxx>
 #include <BRepFill_DataMapOfNodeDataMapOfShapeShape.hxx>

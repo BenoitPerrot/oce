@@ -31,7 +31,7 @@
 #include <gp_Elips2d.hxx>
 #include <gp_Hypr2d.hxx>
 #include <gp_Parab2d.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Geom_BSplineCurve.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <HLRBRep_Curve.hxx>
@@ -40,7 +40,7 @@
 #include <gp_Pln.hxx>
 #include <Precision.hxx>
 #include <ProjLib.hxx>
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <HLRAlgo.hxx>
 #include <HLRAlgo_Projector.hxx>
 #include <HLRBRep_CLProps.hxx>

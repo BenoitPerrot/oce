@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <TopoDS_Wire.hxx>
 #include <ShapeConstruct_MakeTriangulation.hxx>
 
@@ -22,8 +22,8 @@
 #include <gp_Vec.hxx>
 #include <Geom_Plane.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
-#include <TColgp_HArray1OfPnt.hxx>
-#include <TColgp_SequenceOfPnt.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 
 #include <TopoDS.hxx>
 #include <TopoDS_Shell.hxx>

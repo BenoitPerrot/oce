@@ -45,7 +45,7 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_SectionLaw)
 #include <Geom_BSplineCurve.hxx>
 #include <GeomFill_UniformSection.hxx>
 
-#include <TColgp_HArray1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 

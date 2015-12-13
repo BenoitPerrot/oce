@@ -28,7 +28,7 @@
 #include <BRepFill_IndexedDataMapOfOrientedShapeListOfShape.hxx>
 #include <BRepFill_DataMapOfOrientedShapeListOfShape.hxx>
 #include <TopTools_SequenceOfShape.hxx>
-#include <TColgp_SequenceOfPnt.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <Bisector_Bisec.hxx>
 #include <BRepFill_TrimEdgeTool.hxx>
 #include <BRepFill_OffsetWire.hxx>
@@ -76,7 +76,7 @@
 #include <MAT2d_CutCurve.hxx>
 #include <Precision.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
-#include <TColgp_SequenceOfPnt.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx> 
 #include <TopAbs.hxx> 
 #include <TopExp.hxx>
@@ -105,7 +105,7 @@
 #include <BRep_TVertex.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>
 #include <Geom2d_BSplineCurve.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <BRepTools_Substitution.hxx>

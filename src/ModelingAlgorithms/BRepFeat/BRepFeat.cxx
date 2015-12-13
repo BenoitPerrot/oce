@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <TopoDS_Shape.hxx>
-#include <TColgp_SequenceOfPnt.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <gp_Pnt.hxx>
 #include <Geom_Curve.hxx>
 #include <TopoDS_Face.hxx>

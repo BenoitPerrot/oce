@@ -19,7 +19,7 @@
 #include <Graphic3d_Structure.hxx>
 #include <SelectMgr_Selection.hxx>
 #include <V3d_View.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <gp_Lin.hxx>
 #include <SelectMgr_EntityOwner.hxx>
 #include <StdSelect_ViewerSelector3d.hxx>
@@ -49,9 +49,9 @@ IMPLEMENT_STANDARD_RTTI(StdSelect_ViewerSelector3d)
 #include <SelectMgr_SelectableObject.hxx>
 #include <SelectMgr_DataMapIteratorOfDataMapOfIntegerSensitive.hxx>
 #include <SelectBasics_ListOfBox2d.hxx>
-#include <TColgp_HArray1OfPnt.hxx>
-#include <TColgp_Array1OfPnt.hxx>
-#include <TColgp_HArray1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfPnt2d.hxx>
 #include <Select3D_SensitiveCurve.hxx>
 #include <Select3D_SensitiveSegment.hxx>
 #include <Select3D_SensitiveFace.hxx>
@@ -80,7 +80,7 @@ IMPLEMENT_STANDARD_RTTI(StdSelect_ViewerSelector3d)
 #include <V3d.hxx>
 #include <V3d_View.hxx>
 #include <V3d_Viewer.hxx>
-#include <TColgp_SequenceOfPnt.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 
 static Standard_Integer StdSel_NumberOfFreeEdges (const Handle(Poly_Triangulation)& Trg)
 {

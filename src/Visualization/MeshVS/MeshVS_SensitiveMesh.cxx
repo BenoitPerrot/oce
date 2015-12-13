@@ -16,7 +16,7 @@
 #include <SelectBasics_EntityOwner.hxx>
 #include <Select3D_SensitiveEntity.hxx>
 #include <TopLoc_Location.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Select3D_Projector.hxx>
 #include <SelectBasics_ListOfBox2d.hxx>
@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_TYPE_END(MeshVS_SensitiveMesh)
 IMPLEMENT_DOWNCAST(MeshVS_SensitiveMesh,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MeshVS_SensitiveMesh)
 
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HPackedMapOfInteger.hxx>
 #include <Select3D_Projector.hxx>

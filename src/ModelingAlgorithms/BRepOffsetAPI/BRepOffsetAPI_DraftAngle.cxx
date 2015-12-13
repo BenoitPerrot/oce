@@ -39,7 +39,7 @@
 #include <TopoDS_Iterator.hxx>
 #include <TopExp_Explorer.hxx>
 #include <BRepTools.hxx>
-#include <TColgp_SequenceOfPnt.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <TopOpeBRep_EdgesIntersector.hxx>
 #include <TopOpeBRep_Point2d.hxx>

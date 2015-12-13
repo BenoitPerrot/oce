@@ -24,7 +24,7 @@
 #include <Geom_TrimmedCurve.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <BRep_Tool.hxx>
 #include <TopoDS.hxx>
 #include <TopExp.hxx>

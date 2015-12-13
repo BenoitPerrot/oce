@@ -34,7 +34,7 @@
 #include <FairCurve_Newton.hxx>
 #include <math_Matrix.hxx>
 #include <Precision.hxx>
-#include <TColgp_HArray1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfPnt2d.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 

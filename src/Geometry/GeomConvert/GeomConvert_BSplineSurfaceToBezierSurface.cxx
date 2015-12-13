@@ -23,7 +23,7 @@
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <GeomConvert_BSplineSurfaceToBezierSurface.hxx>
 
-#include <TColgp_Array2OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 
 

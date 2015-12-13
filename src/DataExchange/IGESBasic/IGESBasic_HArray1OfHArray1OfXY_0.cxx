@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <TColgp_HArray1OfXY.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfXY.hxx>
 
  
 
@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_RTTI(IGESBasic_HArray1OfHArray1OfXY)
 
 #define Handle_TheKey Handle_TColgp_HArray1OfXY
 #define TheKey TColgp_HArray1OfXY
-#define TheKey_hxx <TColgp_HArray1OfXY.hxx>
+#define TheKey_hxx <Mathematics/Collections/TColgp_HArray1OfXY.hxx>
 #define Interface_JaggedArray IGESBasic_HArray1OfHArray1OfXY
 #define Interface_JaggedArray_hxx <IGESBasic_HArray1OfHArray1OfXY.hxx>
 #define Handle_Interface_JaggedArray Handle_IGESBasic_HArray1OfHArray1OfXY

@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TColgp_HArray1OfVec2d.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfVec2d.hxx>
 #include <Vrml_TextureCoordinate2.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Vrml_TextureCoordinate2)

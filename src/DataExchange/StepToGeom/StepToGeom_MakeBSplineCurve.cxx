@@ -23,7 +23,7 @@
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <StepGeom_BSplineCurveWithKnots.hxx>
 #include <StepGeom_BSplineCurveWithKnotsAndRationalBSplineCurve.hxx>
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <StepGeom_CartesianPoint.hxx>

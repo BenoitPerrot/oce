@@ -63,7 +63,7 @@
 #include <BRepAdaptor_Surface.hxx>
 #include <BRep_Tool.hxx>
 #include <gp_Pnt.hxx>
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <TopOpeBRepBuild_define.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <TopOpeBRepTool_FuseEdges.hxx>

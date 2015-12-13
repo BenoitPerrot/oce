@@ -41,10 +41,10 @@
 #include <Geom_BezierCurve.hxx>
 #include <Geom_TrimmedCurve.hxx>
 
-#include <TColgp_Array1OfPnt2d.hxx>
-#include <TColgp_Array2OfPnt2d.hxx>
-#include <TColgp_Array1OfPnt.hxx>
-#include <TColgp_SequenceOfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array2OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfPnt2d.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
@@ -62,7 +62,7 @@
 #include <GeomAdaptor_HCurve.hxx>
 #include <GeomAdaptor.hxx>
 #include <GeomAdaptor_Surface.hxx>
-#include <TColgp_SequenceOfPnt.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 
 #include <gp_Pnt.hxx>
 #include <gp_Pnt2d.hxx>

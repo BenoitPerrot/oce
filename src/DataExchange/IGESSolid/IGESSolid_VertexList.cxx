@@ -16,7 +16,7 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <TColgp_HArray1OfXYZ.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfXYZ.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <gp_Pnt.hxx>
 #include <IGESSolid_VertexList.hxx>

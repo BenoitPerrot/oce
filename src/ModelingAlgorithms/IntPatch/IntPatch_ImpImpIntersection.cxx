@@ -28,7 +28,7 @@
 #include <IntPatch_SequenceOfLine.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
-#include <TColgp_SequenceOfPnt.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 
 #include <IntSurf_Quadric.hxx>
 

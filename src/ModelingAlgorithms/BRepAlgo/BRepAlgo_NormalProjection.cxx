@@ -50,7 +50,7 @@
 #include <BRepAlgo_SequenceOfSequenceOfInteger.hxx>
 #include <TopExp.hxx>
 #include <BRepTools.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Geom2d_TrimmedCurve.hxx>

@@ -101,7 +101,7 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_PipeShell)
 #include <GeomAdaptor_HSurface.hxx>
 #include <IntCurveSurface_HInter.hxx>
 #include <IntCurveSurface_IntersectionPoint.hxx>
-#include <TColgp_HArray1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfPnt2d.hxx>
 #include <Law_Interpol.hxx>
 
 #ifdef DRAW

@@ -39,7 +39,7 @@
 #include <Prs3d_Drawer.hxx>
 #include <Foundation/Quantity/Quantity_Length.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
-#include <TColgp_SequenceOfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfPnt2d.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <TopExp.hxx>
 #include <TopExp_Explorer.hxx>

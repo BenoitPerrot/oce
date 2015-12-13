@@ -18,7 +18,7 @@
 #include <Bisector_Bisec.hxx>
 #include <Geom2d_Geometry.hxx>
 #include <TopoDS_Edge.hxx>
-#include <TColgp_SequenceOfPnt.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <gp_Pnt2d.hxx>
 #include <BRepFill_TrimEdgeTool.hxx>
 #include <BRep_Tool.hxx>

@@ -3,14 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TColgp_HSequenceOfDir.hxx>
+#include <Mathematics/Collections/TColgp_HSequenceOfDir.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <gp_Dir.hxx>
-#include <TColgp_SequenceOfDir.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfDir.hxx>
 
  
 
@@ -31,9 +31,9 @@ IMPLEMENT_STANDARD_RTTI(TColgp_HSequenceOfDir)
 #define Item gp_Dir
 #define Item_hxx <gp_Dir.hxx>
 #define TheSequence TColgp_SequenceOfDir
-#define TheSequence_hxx <TColgp_SequenceOfDir.hxx>
+#define TheSequence_hxx <Mathematics/Collections/TColgp_SequenceOfDir.hxx>
 #define TCollection_HSequence TColgp_HSequenceOfDir
-#define TCollection_HSequence_hxx <TColgp_HSequenceOfDir.hxx>
+#define TCollection_HSequence_hxx <Mathematics/Collections/TColgp_HSequenceOfDir.hxx>
 #define Handle_TCollection_HSequence Handle_TColgp_HSequenceOfDir
 #define TCollection_HSequence_Type_() TColgp_HSequenceOfDir_Type_()
 #include <Foundation/TCollection/TCollection_HSequence.gxx>

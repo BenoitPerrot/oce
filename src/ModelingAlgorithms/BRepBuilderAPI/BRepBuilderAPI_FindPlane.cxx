@@ -23,7 +23,7 @@
 #include <gp_Dir.hxx>
 #include <gp_Vec.hxx>
 #include <gp_Pln.hxx>
-#include <TColgp_SequenceOfPnt.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <TopoDS.hxx>
 #include <TopLoc_Location.hxx>
 #include <TopExp_Explorer.hxx>

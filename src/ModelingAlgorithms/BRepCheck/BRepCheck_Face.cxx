@@ -69,7 +69,7 @@ IMPLEMENT_STANDARD_RTTI(BRepCheck_Face)
 #include <BndLib_Add2dCurve.hxx>
 #include <TopTools_MapOfShape.hxx>
 #include <TopTools_SequenceOfShape.hxx>
-#include <TColgp_SequenceOfPnt.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>
 #include <IntRes2d_IntersectionSegment.hxx>

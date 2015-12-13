@@ -148,7 +148,7 @@
 
 #include <BRepOffset_ListOfInterval.hxx>
 #include <BRepOffset_Interval.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <ShapeCustom_Curve2d.hxx>
 #include <GeomAPI_ExtremaCurveCurve.hxx>
 

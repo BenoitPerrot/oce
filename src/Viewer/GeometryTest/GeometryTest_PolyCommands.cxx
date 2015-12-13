@@ -18,8 +18,8 @@
 #include <Poly_Triangulation.hxx>
 #include <Poly_Array1OfTriangle.hxx>
 #include <Poly_Triangle.hxx>
-#include <TColgp_Array1OfPnt.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <DrawTrSurf.hxx>
 #include <Draw_Appli.hxx>
 #include <DrawTrSurf_Triangulation.hxx>

@@ -19,7 +19,7 @@
 #define No_Standard_OutOfRange
 #endif
 
-#include <TColgp_HArray1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfPnt2d.hxx>
 #include <math_Matrix.hxx>
 #include <gp_Pnt2d.hxx>
 #include <FairCurve_Energy.hxx>

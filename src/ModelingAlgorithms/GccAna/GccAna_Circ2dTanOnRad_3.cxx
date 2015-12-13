@@ -28,7 +28,7 @@
 #include <IntAna2d_IntPoint.hxx>
 #include <Foundation/Standard/Standard_NegativeValue.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <TColgp_Array1OfDir2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfDir2d.hxx>
 #include <gp_Dir2d.hxx>
 #include <GccEnt_BadQualifier.hxx>
 

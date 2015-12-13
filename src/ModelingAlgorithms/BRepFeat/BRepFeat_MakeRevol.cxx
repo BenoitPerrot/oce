@@ -37,7 +37,7 @@
 #include <gp_Pnt.hxx>
 #include <gp_Ax1.hxx>
 #include <gp_Pnt2d.hxx>
-#include <TColgp_SequenceOfPnt.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <Geom_Surface.hxx>
 #include <Geom_Curve.hxx>
 #include <Geom_Circle.hxx>

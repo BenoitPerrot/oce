@@ -16,7 +16,7 @@
 //szv#4 S4163
 //    pdn 09.05.99: S4174: preserve order of edges for complete torus
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
-#include <TColgp_HSequenceOfXYZ.hxx>
+#include <Mathematics/Collections/TColgp_HSequenceOfXYZ.hxx>
 #include <Foundation/Standard/Standard_TypeMismatch.hxx>
 #include <gp_XYZ.hxx>
 #include <gp_XY.hxx>
@@ -26,7 +26,7 @@
 
 #include <Foundation/Standard/Standard_TypeMismatch.hxx>
 
-#include <TColgp_Array1OfXYZ.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfXYZ.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>

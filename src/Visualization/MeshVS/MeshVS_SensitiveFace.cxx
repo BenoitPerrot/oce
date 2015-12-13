@@ -14,9 +14,9 @@
 // commercial license or contractual agreement.
 
 #include <SelectBasics_EntityOwner.hxx>
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Select3D_Projector.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <MeshVS_SensitiveFace.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_TYPE_END(MeshVS_SensitiveFace)
 IMPLEMENT_DOWNCAST(MeshVS_SensitiveFace,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MeshVS_SensitiveFace)
 
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Select3D_Projector.hxx>
 #include <CSLib_Class2d.hxx>
 #include <TopLoc_Location.hxx>

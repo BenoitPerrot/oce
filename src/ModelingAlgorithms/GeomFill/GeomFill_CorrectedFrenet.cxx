@@ -19,13 +19,13 @@
 #include <GeomFill_Frenet.hxx>
 #include <Law_Function.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
-#include <TColgp_HArray1OfVec.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfVec.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <GeomFill_TrihedronLaw.hxx>
 #include <gp_Vec.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
-#include <TColgp_SequenceOfVec.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfVec.hxx>
 #include <Adaptor3d_HCurve.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <GeomFill_CorrectedFrenet.hxx>
@@ -59,7 +59,7 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_CorrectedFrenet)
 #include <Geom_Plane.hxx>
 #include <Geom_BezierCurve.hxx>
 #include <Geom_BSplineCurve.hxx>
-#include <TColgp_HArray1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
 
 
 #ifdef OCCT_DEBUG
@@ -72,7 +72,7 @@ static Standard_Integer CorrNumber = 0;
 #include <DrawTrSurf.hxx>
 #include <Draw_Segment2D.hxx>
 //#include <Draw.hxx>
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #endif

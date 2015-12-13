@@ -24,7 +24,7 @@
 #include <VrmlConverter_LineAspect.hxx>
 #include <VrmlConverter_WFDeflectionRestrictedFace.hxx>
 #include <VrmlConverter_DeflectionCurve.hxx>
-#include <TColgp_HArray1OfVec.hxx> 
+#include <Mathematics/Collections/TColgp_HArray1OfVec.hxx> 
 #include <BRep_Tool.hxx> 
 #include <VrmlConverter_PointAspect.hxx> 
 #include <Vrml_Separator.hxx>

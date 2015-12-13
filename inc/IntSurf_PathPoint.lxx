@@ -13,7 +13,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/StdFail/StdFail_UndefinedDerivative.hxx>
-#include <TColgp_HSequenceOfXY.hxx>
+#include <Mathematics/Collections/TColgp_HSequenceOfXY.hxx>
 
 inline void IntSurf_PathPoint::AddUV(const Standard_Real U,
 				     const Standard_Real V) {

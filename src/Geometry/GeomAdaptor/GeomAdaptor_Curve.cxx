@@ -44,7 +44,7 @@
 #include <Adaptor3d_HCurve.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <GeomAbs_Shape.hxx>
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>

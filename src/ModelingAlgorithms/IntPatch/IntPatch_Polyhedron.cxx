@@ -26,7 +26,7 @@
 
 #include <gp_Pnt.hxx>
 #include <gp_Vec.hxx>
-#include <TColgp_Array2OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Array1OfBox.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>

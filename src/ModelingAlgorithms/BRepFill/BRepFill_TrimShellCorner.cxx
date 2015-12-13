@@ -51,9 +51,9 @@
 
 #include <gp_Pln.hxx>
 #include <TopoDS_Iterator.hxx>
-#include <TColgp_Array1OfPnt.hxx>
-#include <TColgp_Array2OfPnt.hxx>
-#include <TColgp_Array1OfDir.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfDir.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 #include <GCPnts_UniformAbscissa.hxx>
@@ -61,7 +61,7 @@
 #include <BRepLib_MakeWire.hxx>
 #include <TopTools_SequenceOfShape.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>
-#include <TColgp_SequenceOfPnt.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <gce_MakeLin.hxx>
 
 #include <IntTools_Tools.hxx>

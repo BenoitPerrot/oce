@@ -21,7 +21,7 @@
 #include <BRep_Tool.hxx>
 #include <TopExp_Explorer.hxx>
 #include <BRepAdaptor_HSurface.hxx>
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Poly_Triangulation.hxx>
 #include <BRep_Builder.hxx>
 #include <TopExp.hxx>

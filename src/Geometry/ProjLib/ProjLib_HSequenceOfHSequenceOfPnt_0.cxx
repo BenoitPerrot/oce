@@ -9,7 +9,7 @@
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <TColgp_HSequenceOfPnt.hxx>
+#include <Mathematics/Collections/TColgp_HSequenceOfPnt.hxx>
 #include <ProjLib_SequenceOfHSequenceOfPnt.hxx>
 
  
@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_RTTI(ProjLib_HSequenceOfHSequenceOfPnt)
 
 
 #define Item Handle(TColgp_HSequenceOfPnt)
-#define Item_hxx <TColgp_HSequenceOfPnt.hxx>
+#define Item_hxx <Mathematics/Collections/TColgp_HSequenceOfPnt.hxx>
 #define TheSequence ProjLib_SequenceOfHSequenceOfPnt
 #define TheSequence_hxx <ProjLib_SequenceOfHSequenceOfPnt.hxx>
 #define TCollection_HSequence ProjLib_HSequenceOfHSequenceOfPnt

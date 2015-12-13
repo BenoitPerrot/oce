@@ -34,8 +34,8 @@
 #include <Draw_Marker3D.hxx>
 #include <Draw_Color.hxx>
 #include <Draw_MarkerShape.hxx>
-#include <TColgp_Array1OfPnt.hxx>
-#include <TColgp_Array2OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <Precision.hxx>
 #include <stdio.h>

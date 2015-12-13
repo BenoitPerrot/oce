@@ -22,7 +22,7 @@
 
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
-#include <TColgp_HArray2OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_HArray2OfPnt.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/TColStd/TColStd_HArray2OfInteger.hxx>

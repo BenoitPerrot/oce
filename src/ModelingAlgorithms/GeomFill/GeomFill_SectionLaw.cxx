@@ -17,9 +17,9 @@
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <TColgp_Array1OfVec.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfVec.hxx>
 #include <Geom_BSplineSurface.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <gp_Pnt.hxx>

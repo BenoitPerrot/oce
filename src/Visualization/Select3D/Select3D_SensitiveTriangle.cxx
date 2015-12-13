@@ -18,7 +18,7 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <SelectBasics_EntityOwner.hxx>
 #include <gp_Pnt.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <gp_Lin.hxx>
 #include <gp_XY.hxx>

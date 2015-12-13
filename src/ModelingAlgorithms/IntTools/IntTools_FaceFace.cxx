@@ -41,10 +41,10 @@
 
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 
-#include <TColgp_HArray1OfPnt2d.hxx>
-#include <TColgp_SequenceOfPnt2d.hxx>
-#include <TColgp_Array1OfPnt.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 
 #include <IntAna_QuadQuadGeo.hxx>
 

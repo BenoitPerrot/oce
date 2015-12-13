@@ -15,7 +15,7 @@
 
 #include <SelectBasics_EntityOwner.hxx>
 #include <SelectBasics_ListOfBox2d.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <MeshVS_DummySensitiveEntity.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

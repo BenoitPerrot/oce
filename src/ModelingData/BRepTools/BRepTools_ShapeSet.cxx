@@ -49,8 +49,8 @@
 
 #include <TopoDS_Vertex.hxx>
 
-#include <TColgp_HArray1OfPnt.hxx>
-#include <TColgp_HArray1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfPnt2d.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Poly_Triangulation.hxx>
 #include <Poly_PolygonOnTriangulation.hxx>

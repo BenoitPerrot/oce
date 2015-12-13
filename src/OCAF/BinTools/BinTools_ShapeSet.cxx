@@ -20,7 +20,7 @@
 #include <Precision.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <gp_Trsf.hxx>
 #include <Poly_PolygonOnTriangulation.hxx>
 #include <Poly_Polygon3D.hxx>

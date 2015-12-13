@@ -57,7 +57,7 @@
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 
-#include <TColgp_SequenceOfPnt.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 
 
 

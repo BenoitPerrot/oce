@@ -19,7 +19,7 @@
 #endif
 
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
-#include <TColgp_HArray1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfPnt2d.hxx>
 #include <FairCurve_BattenLaw.hxx>
 #include <FairCurve_DistributionOfSagging.hxx>
 

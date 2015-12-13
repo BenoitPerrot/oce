@@ -13,7 +13,7 @@
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_TColStd_HArray1OfReal.hxx>
 #include <Handle_Adaptor3d_HCurve.hxx>

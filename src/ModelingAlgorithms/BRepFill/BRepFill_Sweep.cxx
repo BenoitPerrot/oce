@@ -101,7 +101,7 @@
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <TColGeom_Array2OfSurface.hxx>
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>
 
 #include <TopTools_Array1OfShape.hxx>

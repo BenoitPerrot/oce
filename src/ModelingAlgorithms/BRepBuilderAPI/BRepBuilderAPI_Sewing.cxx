@@ -58,7 +58,7 @@
 #include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Geom2d_Curve.hxx>
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Geom_Curve.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
@@ -108,8 +108,8 @@ IMPLEMENT_STANDARD_RTTI(BRepBuilderAPI_Sewing)
 #include <Precision.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
-#include <TColgp_Array1OfVec.hxx>
-#include <TColgp_SequenceOfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfVec.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_DataMapIteratorOfDataMapOfIntegerListOfInteger.hxx>

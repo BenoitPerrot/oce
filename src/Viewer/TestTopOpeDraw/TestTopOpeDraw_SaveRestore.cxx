@@ -29,8 +29,8 @@
 #include <TopoDS.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Edge.hxx>
-#include <TColgp_HArray1OfPnt.hxx>
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <TestTopOpeTools_Mesure.hxx>
 
 // pour sauver un DrawableSHA

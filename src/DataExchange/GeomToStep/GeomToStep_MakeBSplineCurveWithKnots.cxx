@@ -27,8 +27,8 @@
 #include <StepGeom_HArray1OfCartesianPoint.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
-#include <TColgp_Array1OfPnt.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <GeomAbs_BSplKnotDistribution.hxx>
 #include <StepGeom_KnotType.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>

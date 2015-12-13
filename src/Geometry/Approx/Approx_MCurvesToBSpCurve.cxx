@@ -18,8 +18,8 @@
 #include <Approx_MCurvesToBSpCurve.hxx>
 #include <Convert_CompBezierCurvesToBSplineCurve.hxx>
 #include <Convert_CompBezierCurves2dToBSplineCurve2d.hxx>
-#include <TColgp_Array1OfPnt.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <AppParCurves_MultiCurve.hxx>
 #include <AppParCurves_MultiPoint.hxx>
 #include <AppParCurves_Array1OfMultiPoint.hxx>

@@ -26,9 +26,9 @@
 #include <PPoly_PolygonOnTriangulation.hxx>
 #include <MgtPoly.hxx>
 
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <PColgp_HArray1OfPnt.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <PColgp_HArray1OfPnt2d.hxx>
 
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>

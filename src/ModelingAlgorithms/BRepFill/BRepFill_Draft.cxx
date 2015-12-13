@@ -41,7 +41,7 @@
 #include <gp_Ax3.hxx>
 #include <gp_Lin.hxx>
 #include <gp_Mat.hxx>
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 
 #include <GeomAdaptor_Surface.hxx>
 #include <BRepAdaptor_Surface.hxx>

@@ -40,7 +40,7 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_Mesh)
 
 #include <Prs3d_Root.hxx>
 #include <gp_Pnt.hxx>
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 
 #include <Select3D_SensitivePoint.hxx>
 #include <SelectMgr_Selection.hxx>

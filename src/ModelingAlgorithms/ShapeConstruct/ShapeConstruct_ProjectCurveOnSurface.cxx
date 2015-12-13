@@ -32,12 +32,12 @@
 #include <Geom_Surface.hxx>
 #include <Geom_Curve.hxx>
 #include <Geom2d_Curve.hxx>
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
-#include <TColgp_HArray1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfPnt2d.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
-#include <TColgp_HArray1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
 #include <gp_Pnt2d.hxx>
 #include <ShapeConstruct_ProjectCurveOnSurface.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -55,7 +55,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeConstruct_ProjectCurveOnSurface)
 
 #include <Precision.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 
 #include <GeomAPI_PointsToBSpline.hxx>
 #include <Geom2dAPI_Interpolate.hxx>

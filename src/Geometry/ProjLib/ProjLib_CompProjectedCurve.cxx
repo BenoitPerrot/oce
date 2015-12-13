@@ -34,7 +34,7 @@
 #include <Extrema_ExtPS.hxx>
 #include <Precision.hxx>
 #include <Extrema_ExtCS.hxx>
-#include <TColgp_HSequenceOfPnt.hxx>
+#include <Mathematics/Collections/TColgp_HSequenceOfPnt.hxx>
 #include <Extrema_GenLocateExtPS.hxx>
 #include <Extrema_POnSurf.hxx>
 #include <Extrema_POnCurv.hxx>

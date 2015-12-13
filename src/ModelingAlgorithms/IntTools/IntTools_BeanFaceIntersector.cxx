@@ -45,7 +45,7 @@
 #include <IntTools_ListIteratorOfListOfCurveRangeSample.hxx>
 #include <IntTools_ListIteratorOfListOfSurfaceRangeSample.hxx>
 #include <IntTools_MapIteratorOfMapOfCurveSample.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 
 #include <Geom_Curve.hxx>
 #include <Geom_Surface.hxx>

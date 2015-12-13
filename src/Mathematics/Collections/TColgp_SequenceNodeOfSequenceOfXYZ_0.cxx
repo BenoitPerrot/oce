@@ -3,12 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TColgp_SequenceNodeOfSequenceOfXYZ.hxx>
+#include <Mathematics/Collections/TColgp_SequenceNodeOfSequenceOfXYZ.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <gp_XYZ.hxx>
-#include <TColgp_SequenceOfXYZ.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfXYZ.hxx>
 
  
 
@@ -30,10 +30,10 @@ IMPLEMENT_STANDARD_RTTI(TColgp_SequenceNodeOfSequenceOfXYZ)
 #define SeqItem gp_XYZ
 #define SeqItem_hxx <gp_XYZ.hxx>
 #define TCollection_SequenceNode TColgp_SequenceNodeOfSequenceOfXYZ
-#define TCollection_SequenceNode_hxx <TColgp_SequenceNodeOfSequenceOfXYZ.hxx>
+#define TCollection_SequenceNode_hxx <Mathematics/Collections/TColgp_SequenceNodeOfSequenceOfXYZ.hxx>
 #define Handle_TCollection_SequenceNode Handle_TColgp_SequenceNodeOfSequenceOfXYZ
 #define TCollection_SequenceNode_Type_() TColgp_SequenceNodeOfSequenceOfXYZ_Type_()
 #define TCollection_Sequence TColgp_SequenceOfXYZ
-#define TCollection_Sequence_hxx <TColgp_SequenceOfXYZ.hxx>
+#define TCollection_Sequence_hxx <Mathematics/Collections/TColgp_SequenceOfXYZ.hxx>
 #include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

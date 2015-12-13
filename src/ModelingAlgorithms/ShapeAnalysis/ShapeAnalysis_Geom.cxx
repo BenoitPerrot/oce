@@ -13,7 +13,7 @@
 
 //szv#4 S4163
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <TColgp_Array1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <gp_Pln.hxx>
 #include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
 #include <gp_Trsf.hxx>

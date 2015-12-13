@@ -65,7 +65,7 @@ IMPLEMENT_STANDARD_RTTI(V3d_RectangularGrid)
 #include <Graphic3d_ArrayOfPoints.hxx>
 #include <Visual3d_ViewManager.hxx>
 #include <V3d_Viewer.hxx>
-#include <TColgp_SequenceOfPnt.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <Graphic3d_ArrayOfSegments.hxx>
 
 /*----------------------------------------------------------------------*/

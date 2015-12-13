@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TColgp_HSequenceOfXYZ.hxx>
+#include <Mathematics/Collections/TColgp_HSequenceOfXYZ.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <gp_XY.hxx>
 #include <gp_XYZ.hxx>

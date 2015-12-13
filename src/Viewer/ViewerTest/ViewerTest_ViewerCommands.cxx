@@ -58,7 +58,7 @@
 #include <Foundation/TColStd/TColStd_HSequenceOfAsciiString.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Foundation/TColStd/TColStd_MapOfAsciiString.hxx>
 #include <Visual3d_LayerItem.hxx>
 #include <Aspect_TypeOfLine.hxx>

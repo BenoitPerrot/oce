@@ -14,7 +14,7 @@
 
 // pmn -> modified 17/01/1996 : utilisation de Curve() et SetCurve()
 
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Law_Interpol.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Law_Interpol)

@@ -17,9 +17,9 @@
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfBoolean.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
-#include <TColgp_HArray1OfPnt.hxx>
-#include <TColgp_HArray1OfPnt2d.hxx>
-#include <TColgp_HArray1OfDir.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfDir.hxx>
 #include <HLRAlgo_HArray1OfTData.hxx>
 #include <HLRAlgo_HArray1OfPISeg.hxx>
 #include <HLRAlgo_HArray1OfPINod.hxx>

@@ -27,7 +27,7 @@
 #include <Foundation/NCollection/NCollection_String.hxx>
 #include <Foundation/Standard/Standard_Mutex.hxx>
 #include <ShapeFix_Face.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Face.hxx>
 

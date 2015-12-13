@@ -33,8 +33,8 @@
 #include <GeomPlate_HArray1OfHCurveOnSurface.hxx>
 #include <GeomPlate_CurveConstraint.hxx>
 #include <GeomPlate_PointConstraint.hxx>
-#include <TColgp_SequenceOfXY.hxx>
-#include <TColgp_SequenceOfXYZ.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfXY.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfXYZ.hxx>
 #include <TColGeom2d_HArray1OfCurve.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <gp_Pnt2d.hxx>
@@ -45,7 +45,7 @@
 #include <GeomPlate_BuildPlateSurface.hxx>
 
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
-#include <TColgp_HArray1OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
 
 #include <gp_Pnt.hxx>
 #include <gp_Pnt2d.hxx>
@@ -87,11 +87,11 @@
 #include <GeomAdaptor_HSurface.hxx>
 #include <GeomLProp_SLProps.hxx>
 #include <Geom2d_BezierCurve.hxx>
-#include <TColgp_Array1OfPnt2d.hxx>
+#include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
-#include <TColgp_SequenceOfVec.hxx>
-#include <TColgp_HArray2OfPnt.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfVec.hxx>
+#include <Mathematics/Collections/TColgp_HArray2OfPnt.hxx>
 #include <Geom_BSplineSurface.hxx>
 #include <GeomPlate_SequenceOfAij.hxx>
 #include <GeomPlate_MakeApprox.hxx>
