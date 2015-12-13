@@ -13,7 +13,7 @@
 
 #include <Standard_Type.hxx>
 #include <TColStd_HArray1OfAsciiString.hxx>
-#include <Dico_DictionaryOfInteger.hxx>
+#include <Foundation/Dico/Dico_DictionaryOfInteger.hxx>
 #include <TCollection_HAsciiString.hxx>
 #include <Standard_Transient.hxx>
 #include <Interface_InterfaceError.hxx>
@@ -29,8 +29,8 @@ IMPLEMENT_STANDARD_TYPE_END(Interface_TypedValue)
 IMPLEMENT_DOWNCAST(Interface_TypedValue,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Interface_TypedValue)
 
-#include <Dico_DictionaryOfInteger.hxx>
-#include <Dico_IteratorOfDictionaryOfInteger.hxx>
+#include <Foundation/Dico/Dico_DictionaryOfInteger.hxx>
+#include <Foundation/Dico/Dico_IteratorOfDictionaryOfInteger.hxx>
 
 #include <OSD_Path.hxx>
 #include <stdio.h>

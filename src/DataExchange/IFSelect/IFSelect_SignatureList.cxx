@@ -12,8 +12,8 @@
 // commercial license or contractual agreement.
 
 #include <TCollection_HAsciiString.hxx>
-#include <Dico_DictionaryOfInteger.hxx>
-#include <Dico_DictionaryOfTransient.hxx>
+#include <Foundation/Dico/Dico_DictionaryOfInteger.hxx>
+#include <Foundation/Dico/Dico_DictionaryOfTransient.hxx>
 #include <Standard_Transient.hxx>
 #include <TColStd_HSequenceOfHAsciiString.hxx>
 #include <TColStd_HSequenceOfTransient.hxx>
@@ -29,8 +29,8 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IFSelect_SignatureList)
 IMPLEMENT_DOWNCAST(IFSelect_SignatureList,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IFSelect_SignatureList)
-#include <Dico_IteratorOfDictionaryOfInteger.hxx>
-#include <Dico_IteratorOfDictionaryOfTransient.hxx>
+#include <Foundation/Dico/Dico_IteratorOfDictionaryOfInteger.hxx>
+#include <Foundation/Dico/Dico_IteratorOfDictionaryOfTransient.hxx>
 #include <TColStd_HSequenceOfTransient.hxx>
 #include <Interface_MSG.hxx>
 #include <Interface_Macros.hxx>

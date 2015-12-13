@@ -31,7 +31,7 @@ IMPLEMENT_DOWNCAST(IGESSelect_CounterOfLevelNumber,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESSelect_CounterOfLevelNumber)
 #include <IGESData_IGESEntity.hxx>
 #include <IGESGraph_DefinitionLevel.hxx>
-#include <Dico_DictionaryOfInteger.hxx>
+#include <Foundation/Dico/Dico_DictionaryOfInteger.hxx>
 #include <Interface_Macros.hxx>
 #include <stdio.h>
 

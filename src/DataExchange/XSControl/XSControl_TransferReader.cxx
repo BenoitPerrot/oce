@@ -16,7 +16,7 @@
 #include <XSControl_Controller.hxx>
 #include <Interface_InterfaceModel.hxx>
 #include <Interface_HGraph.hxx>
-#include <Dico_DictionaryOfTransient.hxx>
+#include <Foundation/Dico/Dico_DictionaryOfTransient.hxx>
 #include <Transfer_ActorOfTransientProcess.hxx>
 #include <Transfer_TransientProcess.hxx>
 #include <TopTools_HSequenceOfShape.hxx>

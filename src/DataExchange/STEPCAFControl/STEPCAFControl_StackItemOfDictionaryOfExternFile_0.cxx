@@ -40,5 +40,5 @@ IMPLEMENT_STANDARD_RTTI(STEPCAFControl_StackItemOfDictionaryOfExternFile)
 #define Dico_Dictionary_hxx <STEPCAFControl_DictionaryOfExternFile.hxx>
 #define Handle_Dico_Dictionary Handle_STEPCAFControl_DictionaryOfExternFile
 #define Dico_Dictionary_Type_() STEPCAFControl_DictionaryOfExternFile_Type_()
-#include <Dico_StackItem.gxx>
+#include <Foundation/Dico/Dico_StackItem.gxx>
 

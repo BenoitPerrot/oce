@@ -3,14 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Dico_DictionaryOfInteger.hxx>
+#include <Foundation/Dico/Dico_DictionaryOfInteger.hxx>
 
 #include <Standard_Type.hxx>
 
-#include <Dico_DictionaryOfInteger.hxx>
+#include <Foundation/Dico/Dico_DictionaryOfInteger.hxx>
 #include <Standard_NoSuchObject.hxx>
-#include <Dico_IteratorOfDictionaryOfInteger.hxx>
-#include <Dico_StackItemOfDictionaryOfInteger.hxx>
+#include <Foundation/Dico/Dico_IteratorOfDictionaryOfInteger.hxx>
+#include <Foundation/Dico/Dico_StackItemOfDictionaryOfInteger.hxx>
 #include <TCollection_AsciiString.hxx>
 
  
@@ -32,14 +32,14 @@ IMPLEMENT_STANDARD_RTTI(Dico_DictionaryOfInteger)
 #define TheItem Standard_Integer
 #define TheItem_hxx <Standard_Integer.hxx>
 #define Dico_Iterator Dico_IteratorOfDictionaryOfInteger
-#define Dico_Iterator_hxx <Dico_IteratorOfDictionaryOfInteger.hxx>
+#define Dico_Iterator_hxx <Foundation/Dico/Dico_IteratorOfDictionaryOfInteger.hxx>
 #define Dico_StackItem Dico_StackItemOfDictionaryOfInteger
-#define Dico_StackItem_hxx <Dico_StackItemOfDictionaryOfInteger.hxx>
+#define Dico_StackItem_hxx <Foundation/Dico/Dico_StackItemOfDictionaryOfInteger.hxx>
 #define Handle_Dico_StackItem Handle_Dico_StackItemOfDictionaryOfInteger
 #define Dico_StackItem_Type_() Dico_StackItemOfDictionaryOfInteger_Type_()
 #define Dico_Dictionary Dico_DictionaryOfInteger
-#define Dico_Dictionary_hxx <Dico_DictionaryOfInteger.hxx>
+#define Dico_Dictionary_hxx <Foundation/Dico/Dico_DictionaryOfInteger.hxx>
 #define Handle_Dico_Dictionary Handle_Dico_DictionaryOfInteger
 #define Dico_Dictionary_Type_() Dico_DictionaryOfInteger_Type_()
-#include <Dico_Dictionary.gxx>
+#include <Foundation/Dico/Dico_Dictionary.gxx>
 

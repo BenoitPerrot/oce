@@ -42,5 +42,5 @@ IMPLEMENT_STANDARD_RTTI(ShapeProcess_DictionaryOfOperator)
 #define Dico_Dictionary_hxx <ShapeProcess_DictionaryOfOperator.hxx>
 #define Handle_Dico_Dictionary Handle_ShapeProcess_DictionaryOfOperator
 #define Dico_Dictionary_Type_() ShapeProcess_DictionaryOfOperator_Type_()
-#include <Dico_Dictionary.gxx>
+#include <Foundation/Dico/Dico_Dictionary.gxx>
 

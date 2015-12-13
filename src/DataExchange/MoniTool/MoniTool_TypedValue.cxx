@@ -13,14 +13,14 @@
 
 #include <Standard_Type.hxx>
 #include <TColStd_HArray1OfAsciiString.hxx>
-#include <Dico_DictionaryOfInteger.hxx>
+#include <Foundation/Dico/Dico_DictionaryOfInteger.hxx>
 #include <TCollection_HAsciiString.hxx>
 #include <Standard_Transient.hxx>
 #include <Standard_ConstructionError.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <Message_Messenger.hxx>
 #include <TColStd_HSequenceOfAsciiString.hxx>
-#include <Dico_DictionaryOfTransient.hxx>
+#include <Foundation/Dico/Dico_DictionaryOfTransient.hxx>
 #include <MoniTool_TypedValue.hxx>
 #include <Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MoniTool_TypedValue)
@@ -32,10 +32,10 @@ IMPLEMENT_STANDARD_TYPE_END(MoniTool_TypedValue)
 IMPLEMENT_DOWNCAST(MoniTool_TypedValue,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MoniTool_TypedValue)
 
-#include <Dico_DictionaryOfInteger.hxx>
-#include <Dico_IteratorOfDictionaryOfInteger.hxx>
-#include <Dico_DictionaryOfTransient.hxx>
-#include <Dico_IteratorOfDictionaryOfTransient.hxx>
+#include <Foundation/Dico/Dico_DictionaryOfInteger.hxx>
+#include <Foundation/Dico/Dico_IteratorOfDictionaryOfInteger.hxx>
+#include <Foundation/Dico/Dico_DictionaryOfTransient.hxx>
+#include <Foundation/Dico/Dico_IteratorOfDictionaryOfTransient.hxx>
 #include <MoniTool_Element.hxx>
 #include <Message_Messenger.hxx>
 

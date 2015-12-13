@@ -24,5 +24,5 @@
 #define Dico_Dictionary_hxx <STEPCAFControl_DictionaryOfExternFile.hxx>
 #define Handle_Dico_Dictionary Handle_STEPCAFControl_DictionaryOfExternFile
 #define Dico_Dictionary_Type_() STEPCAFControl_DictionaryOfExternFile_Type_()
-#include <Dico_Iterator.gxx>
+#include <Foundation/Dico/Dico_Iterator.gxx>
 

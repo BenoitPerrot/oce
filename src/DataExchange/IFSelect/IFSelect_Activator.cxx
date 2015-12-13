@@ -25,8 +25,8 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IFSelect_Activator)
 IMPLEMENT_DOWNCAST(IFSelect_Activator,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IFSelect_Activator)
-#include <Dico_DictionaryOfInteger.hxx>
-#include <Dico_IteratorOfDictionaryOfInteger.hxx>
+#include <Foundation/Dico/Dico_DictionaryOfInteger.hxx>
+#include <Foundation/Dico/Dico_IteratorOfDictionaryOfInteger.hxx>
 #include <TColStd_SequenceOfInteger.hxx>
 #include <TColStd_SequenceOfTransient.hxx>
 #include <Standard_DomainError.hxx>

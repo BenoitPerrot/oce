@@ -37,10 +37,10 @@
 #include <Interface_CheckIterator.hxx>
 #include <Transfer_IteratorOfProcessForTransient.hxx>
 #include <IFSelect_CheckCounter.hxx>//Transfer_Iterator.hxx>
-#include <Dico_DictionaryOfTransient.hxx>
-#include <Dico_DictionaryOfInteger.hxx>
-#include <Dico_IteratorOfDictionaryOfInteger.hxx>
-#include <Dico_IteratorOfDictionaryOfTransient.hxx>
+#include <Foundation/Dico/Dico_DictionaryOfTransient.hxx>
+#include <Foundation/Dico/Dico_DictionaryOfInteger.hxx>
+#include <Foundation/Dico/Dico_IteratorOfDictionaryOfInteger.hxx>
+#include <Foundation/Dico/Dico_IteratorOfDictionaryOfTransient.hxx>
 #include <Interface_Macros.hxx>
 #include <IGESData_IGESEntity.hxx>
 #include <TColStd_HSequenceOfInteger.hxx>

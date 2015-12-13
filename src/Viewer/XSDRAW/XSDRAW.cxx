@@ -24,7 +24,7 @@
 #include <TCollection_AsciiString.hxx>
 #include <TopTools_HSequenceOfShape.hxx>
 #include <XSDRAW.hxx>
-#include <Dico_DictionaryOfInteger.hxx>
+#include <Foundation/Dico/Dico_DictionaryOfInteger.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <TColStd_HSequenceOfAsciiString.hxx>
 #include <IFSelect_Functions.hxx>

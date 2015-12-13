@@ -16,7 +16,7 @@
 #include <XSControl_Controller.hxx>
 #include <XSControl_TransferReader.hxx>
 #include <XSControl_TransferWriter.hxx>
-#include <Dico_DictionaryOfTransient.hxx>
+#include <Foundation/Dico/Dico_DictionaryOfTransient.hxx>
 #include <XSControl_Vars.hxx>
 #include <Message_Messenger.hxx>
 #include <Transfer_TransientProcess.hxx>
@@ -56,8 +56,8 @@ IMPLEMENT_STANDARD_RTTI(XSControl_WorkSession)
 // tpent
 #include <Interface_IntVal.hxx>
 #include <Geom2d_Point.hxx>
-#include <Dico_DictionaryOfTransient.hxx>
-#include <Dico_IteratorOfDictionaryOfTransient.hxx>
+#include <Foundation/Dico/Dico_DictionaryOfTransient.hxx>
+#include <Foundation/Dico/Dico_IteratorOfDictionaryOfTransient.hxx>
 
 #include <Interface_Macros.hxx>
 #include <Interface_Check.hxx>

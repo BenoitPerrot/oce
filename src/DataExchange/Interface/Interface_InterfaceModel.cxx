@@ -44,8 +44,8 @@ IMPLEMENT_STANDARD_RTTI(Interface_InterfaceModel)
 #include <TColStd_Array1OfTransient.hxx>
 #include <TColStd_Array1OfInteger.hxx>
 #include <Interface_InterfaceMismatch.hxx>
-#include <Dico_DictionaryOfTransient.hxx>
-#include <Dico_IteratorOfDictionaryOfTransient.hxx>
+#include <Foundation/Dico/Dico_DictionaryOfTransient.hxx>
+#include <Foundation/Dico/Dico_IteratorOfDictionaryOfTransient.hxx>
 #include <TColStd_DataMapIteratorOfDataMapOfIntegerTransient.hxx>
 #include <Standard_OutOfRange.hxx>
 #include <Interface_SignType.hxx>

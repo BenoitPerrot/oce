@@ -25,8 +25,8 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(StepData_FreeFormEntity)
 IMPLEMENT_DOWNCAST(StepData_FreeFormEntity,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(StepData_FreeFormEntity)
-#include <Dico_DictionaryOfTransient.hxx>
-#include <Dico_IteratorOfDictionaryOfTransient.hxx>
+#include <Foundation/Dico/Dico_DictionaryOfTransient.hxx>
+#include <Foundation/Dico/Dico_IteratorOfDictionaryOfTransient.hxx>
 #include <Interface_Macros.hxx>
 
 

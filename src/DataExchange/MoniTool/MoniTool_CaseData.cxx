@@ -43,8 +43,8 @@ IMPLEMENT_STANDARD_RTTI(MoniTool_CaseData)
 #include <OSD_Timer.hxx>
 
 // definitions
-#include <Dico_DictionaryOfInteger.hxx>
-#include <Dico_DictionaryOfTransient.hxx>
+#include <Foundation/Dico/Dico_DictionaryOfInteger.hxx>
+#include <Foundation/Dico/Dico_DictionaryOfTransient.hxx>
 
 static Handle(Dico_DictionaryOfInteger)& defchecks()
 {

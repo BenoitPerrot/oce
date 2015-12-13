@@ -563,7 +563,8 @@ if(OCE_DRAW)
 endif(OCE_DRAW)
 
 include_directories(${CMAKE_CURRENT_BINARY_DIR}/build_inc
-	${CMAKE_CURRENT_SOURCE_DIR}/inc)
+  ${CMAKE_CURRENT_SOURCE_DIR}/inc
+  ${CMAKE_CURRENT_SOURCE_DIR}/src)
 
 if(OCE_COPY_HEADERS_BUILD)
 	include_directories(${CMAKE_CURRENT_BINARY_DIR}/include)

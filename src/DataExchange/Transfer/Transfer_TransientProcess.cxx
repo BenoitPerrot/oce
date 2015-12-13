@@ -13,7 +13,7 @@
 
 #include <Interface_InterfaceModel.hxx>
 #include <Interface_HGraph.hxx>
-#include <Dico_DictionaryOfTransient.hxx>
+#include <Foundation/Dico/Dico_DictionaryOfTransient.hxx>
 #include <TColStd_HSequenceOfTransient.hxx>
 #include <Interface_Graph.hxx>
 #include <Standard_Transient.hxx>

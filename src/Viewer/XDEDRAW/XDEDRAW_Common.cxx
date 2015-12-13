@@ -40,11 +40,11 @@
 #include <STEPCAFControl_Reader.hxx>
 #include <STEPCAFControl_Writer.hxx>
 
-#include <Dico_DictionaryOfTransient.hxx>
+#include <Foundation/Dico/Dico_DictionaryOfTransient.hxx>
 #include <STEPCAFControl_DictionaryOfExternFile.hxx>
 #include <STEPCAFControl_ExternFile.hxx>
 #include <IFSelect_SessionPilot.hxx>
-#include <Dico_IteratorOfDictionaryOfTransient.hxx>
+#include <Foundation/Dico/Dico_IteratorOfDictionaryOfTransient.hxx>
 #include <STEPCAFControl_IteratorOfDictionaryOfExternFile.hxx>
 #include <XSDRAW_Vars.hxx>
 #include <stdio.h>

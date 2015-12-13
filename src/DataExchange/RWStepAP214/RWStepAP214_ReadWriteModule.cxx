@@ -38,7 +38,7 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_ReadWriteModule)
 #include <StepAP214_Protocol.hxx>
 //#include <Interface_Macros.hxx>
 #include <Interface_ParamType.hxx>
-#include <Dico_DictionaryOfInteger.hxx>
+#include <Foundation/Dico/Dico_DictionaryOfInteger.hxx>
 
 
 #define DeclareAndCast(atype,result,start) \

@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Dico_DictionaryOfInteger.hxx>
+#include <Foundation/Dico/Dico_DictionaryOfInteger.hxx>
 #include <Standard_OutOfRange.hxx>
 #include <Interface_TypedValue.hxx>
 #include <Message_Messenger.hxx>

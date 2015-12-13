@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Dico_DictionaryOfTransient.hxx>
+#include <Foundation/Dico/Dico_DictionaryOfTransient.hxx>
 #include <MoniTool_Option.hxx>
 #include <TColStd_HSequenceOfAsciiString.hxx>
 #include <TCollection_AsciiString.hxx>
@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_TYPE_END(MoniTool_Profile)
 IMPLEMENT_DOWNCAST(MoniTool_Profile,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MoniTool_Profile)
 #include <TCollection_HAsciiString.hxx>
-#include <Dico_IteratorOfDictionaryOfTransient.hxx>
+#include <Foundation/Dico/Dico_IteratorOfDictionaryOfTransient.hxx>
 #include <MoniTool_TypedValue.hxx>
 
 

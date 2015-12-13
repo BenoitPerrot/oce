@@ -37,7 +37,7 @@
 #include <Transfer_TransferIterator.hxx>
 #include <Transfer_IteratorOfProcessForTransient.hxx>
 
-#include <Dico_IteratorOfDictionaryOfInteger.hxx>
+#include <Foundation/Dico/Dico_IteratorOfDictionaryOfInteger.hxx>
 
 //#include <TransferBRep_ShapeBinder.hxx>
 //#include <TransferBRep_ShapeListBinder.hxx>

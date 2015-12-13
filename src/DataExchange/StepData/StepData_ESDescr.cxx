@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <TColStd_HArray1OfTransient.hxx>
-#include <Dico_DictionaryOfInteger.hxx>
+#include <Foundation/Dico/Dico_DictionaryOfInteger.hxx>
 #include <StepData_ESDescr.hxx>
 #include <StepData_PDescr.hxx>
 #include <TCollection_AsciiString.hxx>

@@ -17,10 +17,10 @@
 #include <Standard_DomainError.hxx>
 #include <Interface_MSG.hxx>
 #include <TCollection_HAsciiString.hxx>
-#include <Dico_DictionaryOfTransient.hxx>
-#include <Dico_DictionaryOfInteger.hxx>
-#include <Dico_IteratorOfDictionaryOfInteger.hxx>
-#include <Dico_IteratorOfDictionaryOfTransient.hxx>
+#include <Foundation/Dico/Dico_DictionaryOfTransient.hxx>
+#include <Foundation/Dico/Dico_DictionaryOfInteger.hxx>
+#include <Foundation/Dico/Dico_IteratorOfDictionaryOfInteger.hxx>
+#include <Foundation/Dico/Dico_IteratorOfDictionaryOfTransient.hxx>
 #include <TColStd_HSequenceOfHAsciiString.hxx>
 #include <OSD_Process.hxx>
 #include <Quantity_Date.hxx>

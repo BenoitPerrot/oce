@@ -16,7 +16,7 @@
 #include <IFSelect_Signature.hxx>
 #include <Transfer_ActorOfTransientProcess.hxx>
 #include <Transfer_ActorOfFinderProcess.hxx>
-#include <Dico_DictionaryOfTransient.hxx>
+#include <Foundation/Dico/Dico_DictionaryOfTransient.hxx>
 #include <TColStd_HSequenceOfHAsciiString.hxx>
 #include <Interface_HArray1OfHAsciiString.hxx>
 #include <Standard_DomainError.hxx>
@@ -37,8 +37,8 @@ IMPLEMENT_STANDARD_TYPE_END(XSControl_Controller)
 IMPLEMENT_DOWNCAST(XSControl_Controller,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XSControl_Controller)
 #include <IFSelect_GeneralModifier.hxx>
-#include <Dico_IteratorOfDictionaryOfTransient.hxx>
-#include <Dico_IteratorOfDictionaryOfInteger.hxx>
+#include <Foundation/Dico/Dico_IteratorOfDictionaryOfTransient.hxx>
+#include <Foundation/Dico/Dico_IteratorOfDictionaryOfInteger.hxx>
 #include <TColStd_IndexedMapOfTransient.hxx>
 #include <IFSelect_Option.hxx>
 

@@ -1154,7 +1154,7 @@ static int TestCMD(Draw_Interpretor& di, Standard_Integer argc, const char ** ar
   return 0;
 }
 
-#include <Dico_DictionaryOfInteger.hxx>
+#include <Foundation/Dico/Dico_DictionaryOfInteger.hxx>
 #include <TColStd_HSequenceOfAsciiString.hxx>
 #include <TopExp.hxx>
 #include <TopoDS_Iterator.hxx>

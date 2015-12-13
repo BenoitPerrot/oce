@@ -20,7 +20,7 @@
 #include <Interface_InterfaceModel.hxx>
 #include <Interface_HGraph.hxx>
 #include <Interface_GTool.hxx>
-#include <Dico_DictionaryOfTransient.hxx>
+#include <Foundation/Dico/Dico_DictionaryOfTransient.hxx>
 #include <IFSelect_ModelCopier.hxx>
 #include <Standard_DomainError.hxx>
 #include <IFSelect_Signature.hxx>
@@ -76,8 +76,8 @@ IMPLEMENT_STANDARD_RTTI(IFSelect_WorkSession)
 #include <Interface_ShareFlags.hxx>
 #include <Interface_GeneralLib.hxx>
 #include <Interface_GeneralModule.hxx>
-#include <Dico_IteratorOfDictionaryOfTransient.hxx>
-#include <Dico_IteratorOfDictionaryOfInteger.hxx>
+#include <Foundation/Dico/Dico_IteratorOfDictionaryOfTransient.hxx>
+#include <Foundation/Dico/Dico_IteratorOfDictionaryOfInteger.hxx>
 #include <Interface_CopyTool.hxx>
 #include <Interface_CopyControl.hxx>
 
