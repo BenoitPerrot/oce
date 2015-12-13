@@ -18,8 +18,8 @@
 
 #include <Standard_TypeDef.hxx>
 #include <Standard_OutOfRange.hxx>
-#include <NCollection_BaseAllocator.hxx>
-#include <NCollection_DefineAlloc.hxx>
+#include <Foundation/NCollection/NCollection_BaseAllocator.hxx>
+#include <Foundation/NCollection/NCollection_DefineAlloc.hxx>
 
 #include <stddef.h>
 

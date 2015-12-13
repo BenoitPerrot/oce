@@ -18,7 +18,7 @@
 #ifndef NMTDS_BoxBndTree_HeaderFile
 #define NMTDS_BoxBndTree_HeaderFile
 
-#include <NCollection_UBTree.hxx>
+#include <Foundation/NCollection/NCollection_UBTree.hxx>
 #include <Bnd_Box.hxx>
 #include <BOPCol_ListOfInteger.hxx>
 /**

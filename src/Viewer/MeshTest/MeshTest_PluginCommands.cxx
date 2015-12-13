@@ -45,7 +45,7 @@
 #include <Poly_PolygonOnTriangulation.hxx>
 #include <TopoDS_Face.hxx>
 #include <BRepMesh_Edge.hxx>
-#include <NCollection_Map.hxx>
+#include <Foundation/NCollection/NCollection_Map.hxx>
 
 #include <stdio.h>
 

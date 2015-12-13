@@ -14,7 +14,7 @@
 #ifndef _Graphic3d_Vec2_HeaderFile
 #define _Graphic3d_Vec2_HeaderFile
 
-#include <NCollection_Vec2.hxx>
+#include <Foundation/NCollection/NCollection_Vec2.hxx>
 #include <Standard_TypeDef.hxx>
 
 typedef NCollection_Vec2<Standard_ShortReal> Graphic3d_Vec2;

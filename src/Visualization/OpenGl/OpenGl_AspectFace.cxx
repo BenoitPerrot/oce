@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <Aspect_PolygonOffsetMode.hxx>
-#include <NCollection_Vec3.hxx>
+#include <Foundation/NCollection/NCollection_Vec3.hxx>
 
 #include <OpenGl_AspectFace.hxx>
 #include <OpenGl_Context.hxx>

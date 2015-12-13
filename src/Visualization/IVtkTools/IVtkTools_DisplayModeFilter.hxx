@@ -19,7 +19,7 @@
 #include <IVtkTools.hxx>
 #include <IVtkTools_SubPolyDataFilter.hxx>
 #include <IVtk_Types.hxx>
-#include <NCollection_DataMap.hxx>
+#include <Foundation/NCollection/NCollection_DataMap.hxx>
 
 //! @class IVtkTools_DisplayModeFilter 
 //! @brief Cells filter according to the selected display mode by mesh parts types.

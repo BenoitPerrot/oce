@@ -19,7 +19,7 @@
 #include <TopTools_ShapeMapHasher.hxx>
 #include <BOPCol_ListOfShape.hxx>
 
-#include <NCollection_DataMap.hxx>
+#include <Foundation/NCollection/NCollection_DataMap.hxx>
 
 typedef NCollection_DataMap<TopoDS_Shape, BOPCol_ListOfShape, TopTools_ShapeMapHasher> BOPCol_DataMapOfShapeListOfShape; 
 typedef BOPCol_DataMapOfShapeListOfShape::Iterator BOPCol_DataMapIteratorOfDataMapOfShapeListOfShape; 

@@ -69,8 +69,8 @@
 #include <Poly_Polygon2D.hxx>
 #include <Poly_PolygonOnTriangulation.hxx>
 
-#include <NCollection_Map.hxx>
-#include <NCollection_IncAllocator.hxx>
+#include <Foundation/NCollection/NCollection_Map.hxx>
+#include <Foundation/NCollection/NCollection_IncAllocator.hxx>
 #include <TopTools_ShapeMapHasher.hxx>
 
 //modified by NIZNHY-PKV Fri Oct 17 14:13:29 2008f

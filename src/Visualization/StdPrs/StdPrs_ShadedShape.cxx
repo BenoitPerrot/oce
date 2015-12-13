@@ -29,7 +29,7 @@
 #include <gp_Dir.hxx>
 #include <gp_Vec.hxx>
 #include <gp_Pnt.hxx>
-#include <NCollection_List.hxx>
+#include <Foundation/NCollection/NCollection_List.hxx>
 #include <Precision.hxx>
 #include <Prs3d.hxx>
 #include <Prs3d_Drawer.hxx>

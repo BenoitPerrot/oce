@@ -65,9 +65,9 @@
 #include <BRep_Builder.hxx>
 #include <BRepTools.hxx>
 #include <DBRep.hxx>
-#include <NCollection_DoubleMap.hxx>
-#include <NCollection_List.hxx>
-#include <NCollection_DataMap.hxx>
+#include <Foundation/NCollection/NCollection_DoubleMap.hxx>
+#include <Foundation/NCollection/NCollection_List.hxx>
+#include <Foundation/NCollection/NCollection_DataMap.hxx>
 #include <TopTools_DataMapOfIntegerShape.hxx>
 #include <OpenGl_GraphicDriver.hxx>
 #include <Aspect_DisplayConnection.hxx>

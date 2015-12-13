@@ -13,8 +13,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <NCollection_AlignedAllocator.hxx>
-#include <NCollection_Buffer.hxx>
+#include <Foundation/NCollection/NCollection_AlignedAllocator.hxx>
+#include <Foundation/NCollection/NCollection_Buffer.hxx>
 
 IMPLEMENT_STANDARD_HANDLE  (NCollection_AlignedAllocator, NCollection_BaseAllocator)
 IMPLEMENT_STANDARD_RTTIEXT (NCollection_AlignedAllocator, NCollection_BaseAllocator)

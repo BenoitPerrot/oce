@@ -30,7 +30,7 @@
 #include <OpenGl_Vec.hxx>
 #include <OpenGl_Workspace.hxx>
 
-#include <NCollection_List.hxx>
+#include <Foundation/NCollection/NCollection_List.hxx>
 #include <InterfaceGraphic_Graphic3d.hxx>
 
 class OpenGl_Structure;

@@ -16,8 +16,8 @@
 #ifndef _OpenGl_PriorityList_Header
 #define _OpenGl_PriorityList_Header
 
-#include <NCollection_Sequence.hxx>
-#include <NCollection_Array1.hxx>
+#include <Foundation/NCollection/NCollection_Sequence.hxx>
+#include <Foundation/NCollection/NCollection_Array1.hxx>
 
 #include <InterfaceGraphic_telem.hxx>
 

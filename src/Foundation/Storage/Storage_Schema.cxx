@@ -66,7 +66,7 @@ IMPLEMENT_STANDARD_RTTI(Storage_Schema)
 #define DATATYPE_MIGRATION
 
 #ifdef DATATYPE_MIGRATION
-#include <NCollection_DataMap.hxx>
+#include <Foundation/NCollection/NCollection_DataMap.hxx>
 #include <OSD_File.hxx>
 #include <OSD_Path.hxx>
 #include <OSD_Protection.hxx>

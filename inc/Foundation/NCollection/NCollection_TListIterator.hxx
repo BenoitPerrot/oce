@@ -16,8 +16,8 @@
 #ifndef NCollection_TListIterator_HeaderFile
 #define NCollection_TListIterator_HeaderFile
 
-#include <NCollection_BaseList.hxx>
-#include <NCollection_TListNode.hxx>
+#include <Foundation/NCollection/NCollection_BaseList.hxx>
+#include <Foundation/NCollection/NCollection_TListNode.hxx>
 
 /**
  * Purpose:     This Iterator class iterates on BaseList of TListNode and is 

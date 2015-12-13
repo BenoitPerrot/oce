@@ -19,7 +19,7 @@
 #include <Standard_Macro.hxx>
 #include <Standard_TypeDef.hxx>
 #include <Standard_Transient.hxx>
-#include <NCollection_Vec4.hxx>
+#include <Foundation/NCollection/NCollection_Vec4.hxx>
 #include <Graphic3d_MaterialAspect.hxx>
 #include <Graphic3d_TextureMap.hxx>
 #include <Aspect_HatchStyle.hxx>

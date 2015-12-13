@@ -17,7 +17,7 @@
 #define IntWalk_VectorOfWalkingData_HeaderFile
 
 #include <vector>
-#include <NCollection_StdAllocator.hxx>
+#include <Foundation/NCollection/NCollection_StdAllocator.hxx>
 
 // Defines a dynamic vector of work data.
 

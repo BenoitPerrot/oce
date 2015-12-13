@@ -16,7 +16,7 @@
 #define BOPCol_SequenceOfPnt2d_HeaderFile
 
 
-#include <NCollection_Sequence.hxx>   
+#include <Foundation/NCollection/NCollection_Sequence.hxx>   
 #include <gp_Pnt2d.hxx>
 
 typedef NCollection_Sequence<gp_Pnt2d> BOPCol_SequenceOfPnt2d; 

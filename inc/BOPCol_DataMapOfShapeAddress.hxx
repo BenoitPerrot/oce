@@ -18,7 +18,7 @@
 #include <TopoDS_Shape.hxx>  
 #include <TopTools_ShapeMapHasher.hxx>
   
-#include <NCollection_DataMap.hxx>
+#include <Foundation/NCollection/NCollection_DataMap.hxx>
 
 typedef NCollection_DataMap<TopoDS_Shape, Standard_Address, TopTools_ShapeMapHasher> BOPCol_DataMapOfShapeAddress; 
 typedef BOPCol_DataMapOfShapeAddress::Iterator BOPCol_DataMapIteratorOfDataMapOfShapeAddress; 

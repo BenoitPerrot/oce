@@ -16,7 +16,7 @@
 #ifndef _OpenGl_SetOfShaderPrograms_HeaderFile
 #define _OpenGl_SetOfShaderPrograms_HeaderFile
 
-#include <NCollection_DataMap.hxx>
+#include <Foundation/NCollection/NCollection_DataMap.hxx>
 #include <OpenGl_ShaderProgram.hxx>
 
 //! Standard GLSL program combination bits.

@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_RTTI(BOPDS_PaveBlock)
 #include <BOPDS_VectorOfPave.hxx>
 
 #include <Standard.hxx>
-#include <NCollection_BaseAllocator.hxx>
+#include <Foundation/NCollection/NCollection_BaseAllocator.hxx>
 
 #include <algorithm>
 

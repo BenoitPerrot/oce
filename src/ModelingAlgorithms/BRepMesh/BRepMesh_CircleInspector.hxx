@@ -21,7 +21,7 @@
 #include <Precision.hxx>
 #include <gp_XY.hxx>
 #include <gp_XYZ.hxx>
-#include <NCollection_CellFilter.hxx>
+#include <Foundation/NCollection/NCollection_CellFilter.hxx>
 
 //! Auxilary class to find circles shot by the given point.
 class BRepMesh_CircleInspector : public NCollection_CellFilter_InspectorXY

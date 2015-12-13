@@ -19,8 +19,8 @@
 //
 #include <Precision.hxx>
 //
-#include <NCollection_IncAllocator.hxx>
-#include <NCollection_UBTreeFiller.hxx>
+#include <Foundation/NCollection/NCollection_IncAllocator.hxx>
+#include <Foundation/NCollection/NCollection_UBTreeFiller.hxx>
 //
 #include <Bnd_Box.hxx>
 #include <TopAbs_State.hxx>
@@ -65,7 +65,7 @@
 #include <BOPTools_Set.hxx>
 //
 #include <BOPAlgo_BuilderSolid.hxx>
-#include <NCollection_Array1.hxx>
+#include <Foundation/NCollection/NCollection_Array1.hxx>
 
 #include <algorithm>
 

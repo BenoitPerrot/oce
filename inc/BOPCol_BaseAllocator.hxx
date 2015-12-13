@@ -15,7 +15,7 @@
 #ifndef BOPCol_BaseAllocator_HeaderFile
 #define BOPCol_BaseAllocator_HeaderFile
 
-#include <NCollection_BaseAllocator.hxx>
+#include <Foundation/NCollection/NCollection_BaseAllocator.hxx>
 
 typedef Handle(NCollection_BaseAllocator) BOPCol_BaseAllocator;
 

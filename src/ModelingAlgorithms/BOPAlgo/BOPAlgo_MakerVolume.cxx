@@ -16,7 +16,7 @@
 #include <BOPAlgo_PaveFiller.hxx>
 #include <BOPAlgo_MakerVolume.hxx>
 
-#include <NCollection_IncAllocator.hxx>
+#include <Foundation/NCollection/NCollection_IncAllocator.hxx>
 
 #include <Bnd_Box.hxx>
 

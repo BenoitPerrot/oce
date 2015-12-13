@@ -15,7 +15,7 @@
 #ifndef BOPCol_DataMapOfIntegerListOfShape_HeaderFile
 #define BOPCol_DataMapOfIntegerListOfShape_HeaderFile
 
-#include <NCollection_DataMap.hxx>
+#include <Foundation/NCollection/NCollection_DataMap.hxx>
 
 #include <TColStd_MapIntegerHasher.hxx>
 #include <BOPCol_ListOfShape.hxx>

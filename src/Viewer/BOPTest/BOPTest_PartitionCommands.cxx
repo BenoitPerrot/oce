@@ -17,7 +17,7 @@
 #include <stdio.h>
 #include <string.h>
 
-#include <NCollection_IncAllocator.hxx>
+#include <Foundation/NCollection/NCollection_IncAllocator.hxx>
 
 #include <DBRep.hxx>
 #include <Draw.hxx>

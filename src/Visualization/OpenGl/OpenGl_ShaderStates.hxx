@@ -22,7 +22,7 @@
 #include <OpenGl_Light.hxx>
 #include <OpenGl_Vec.hxx>
 
-#include <NCollection_List.hxx>
+#include <Foundation/NCollection/NCollection_List.hxx>
 
 //! Defines interface for OpenGL state.
 class OpenGl_StateInterface

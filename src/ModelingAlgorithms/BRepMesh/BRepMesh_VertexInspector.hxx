@@ -20,7 +20,7 @@
 #include <gp_XY.hxx>
 #include <gp_XYZ.hxx>
 #include <BRepMesh.hxx>
-#include <NCollection_CellFilter.hxx>
+#include <Foundation/NCollection/NCollection_CellFilter.hxx>
 #include <BRepMesh_Vertex.hxx>
 
 //! Class intended for fast searching of the coincidence points.

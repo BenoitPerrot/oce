@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <NCollection_SparseArrayBase.hxx>
+#include <Foundation/NCollection/NCollection_SparseArrayBase.hxx>
 #include <Standard_ProgramError.hxx>
 
 //=======================================================================

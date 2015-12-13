@@ -49,7 +49,7 @@ IMPLEMENT_STANDARD_RTTI(SelectMgr_ViewerSelector)
 #include <Precision.hxx>
 #include <TColStd_Array1OfInteger.hxx>
 #include <TCollection_AsciiString.hxx>
-#include <NCollection_DataMap.hxx>
+#include <Foundation/NCollection/NCollection_DataMap.hxx>
 #include <SelectBasics_EntityOwner.hxx>
 #include <SelectBasics_ListIteratorOfListOfBox2d.hxx>
 #include <SelectBasics_SensitiveEntity.hxx>

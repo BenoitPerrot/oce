@@ -16,12 +16,12 @@
 #ifndef Poly_MakeLoops_HeaderFile
 #define Poly_MakeLoops_HeaderFile
 
-#include <NCollection_Sequence.hxx>
-#include <NCollection_IndexedMap.hxx>
+#include <Foundation/NCollection/NCollection_Sequence.hxx>
+#include <Foundation/NCollection/NCollection_IndexedMap.hxx>
 #include <TColStd_PackedMapOfInteger.hxx>
 #include <TColStd_MapIteratorOfPackedMapOfInteger.hxx>
-#include <NCollection_BaseAllocator.hxx>
-#include <NCollection_List.hxx>
+#include <Foundation/NCollection/NCollection_BaseAllocator.hxx>
+#include <Foundation/NCollection/NCollection_List.hxx>
 
 class Handle(NCollection_IncAllocator);
 

@@ -17,7 +17,7 @@
 #ifndef _TestTopOpeTools_Trace_HeaderFile
 #define _TestTopOpeTools_Trace_HeaderFile
 
-#include <NCollection_Vector.hxx>
+#include <Foundation/NCollection/NCollection_Vector.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <TColStd_Array1OfAsciiString.hxx>
 #include <TColStd_Array1OfInteger.hxx>

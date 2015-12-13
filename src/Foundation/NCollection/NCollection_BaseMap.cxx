@@ -15,7 +15,7 @@
 
 // Purpose:     Implementation of the BaseMap class
 
-#include <NCollection_BaseMap.hxx>
+#include <Foundation/NCollection/NCollection_BaseMap.hxx>
 #include <TCollection.hxx>
 
 //=======================================================================

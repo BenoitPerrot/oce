@@ -16,7 +16,7 @@
 #ifndef NCollection_SparseArray_HeaderFile
 #define NCollection_SparseArray_HeaderFile
 
-#include <NCollection_SparseArrayBase.hxx>
+#include <Foundation/NCollection/NCollection_SparseArrayBase.hxx>
 
 /**
 * Dynamically resizable sparse array of objects

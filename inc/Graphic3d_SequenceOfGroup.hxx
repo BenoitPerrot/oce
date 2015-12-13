@@ -17,7 +17,7 @@
 #define _Graphic3d_SequenceOfGroup_HeaderFile
 
 #include <Graphic3d_Group.hxx>
-#include <NCollection_Sequence.hxx>
+#include <Foundation/NCollection/NCollection_Sequence.hxx>
 
 typedef NCollection_Sequence<Handle(Graphic3d_Group)> Graphic3d_SequenceOfGroup;
 

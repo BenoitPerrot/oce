@@ -13,7 +13,7 @@
 
 #include <OSD_OpenFile.hxx>
 #include <TCollection_ExtendedString.hxx>
-#include <NCollection_UtfString.hxx>
+#include <Foundation/NCollection/NCollection_UtfString.hxx>
 
 // ==============================================
 // function : OSD_OpenFile

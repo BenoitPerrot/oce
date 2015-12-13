@@ -65,7 +65,7 @@
 #define DeclareConstAndSpeedCast(V,T,Vdown) const Handle(T)& Vdown = (Handle(T)&) V
 #define SpeedCast(V,T,Vdown) Vdown = *((Handle(T)*)& V)
 
-#include <NCollection_List.hxx>
+#include <Foundation/NCollection/NCollection_List.hxx>
 typedef struct {
 	Handle(PDF_Attribute) pAtt;
 	Handle(TDF_Attribute) tAtt;

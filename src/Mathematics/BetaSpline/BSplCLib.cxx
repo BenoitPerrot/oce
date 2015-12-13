@@ -40,7 +40,7 @@
 #include <TColStd_HArray1OfInteger.hxx>
 #include <BSplCLib.hxx>
 #include <PLib.hxx>
-#include <NCollection_LocalArray.hxx>
+#include <Foundation/NCollection/NCollection_LocalArray.hxx>
 #include <Precision.hxx>
 #include <Standard_NotImplemented.hxx>
 

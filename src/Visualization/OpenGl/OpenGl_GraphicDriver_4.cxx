@@ -15,7 +15,7 @@
 
 #include <OpenGl_GraphicDriver.hxx>
 
-#include <NCollection_DataMap.hxx>
+#include <Foundation/NCollection/NCollection_DataMap.hxx>
 #include <OpenGl_Structure.hxx>
 #include <OpenGl_CView.hxx>
 

@@ -23,8 +23,8 @@
 //
 #include <Standard_Assert.hxx>
 //
-#include <NCollection_IncAllocator.hxx>
-#include <NCollection_BaseAllocator.hxx>
+#include <Foundation/NCollection/NCollection_IncAllocator.hxx>
+#include <Foundation/NCollection/NCollection_BaseAllocator.hxx>
 
 #include <gp_Pnt.hxx>
 #include <Bnd_Box.hxx>

@@ -18,7 +18,7 @@
 
 #include <BVH_Geometry.hxx>
 #include <BVH_Triangulation.hxx>
-#include <NCollection_StdAllocator.hxx>
+#include <Foundation/NCollection/NCollection_StdAllocator.hxx>
 #include <OpenGl_TextureBufferArb.hxx>
 #include <OpenGl_Texture.hxx>
 

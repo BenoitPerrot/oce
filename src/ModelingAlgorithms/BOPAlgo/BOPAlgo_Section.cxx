@@ -17,7 +17,7 @@
 #include <TopoDS_Shape.hxx>
 #include <BOPAlgo_Section.hxx>
 
-#include <NCollection_IncAllocator.hxx>
+#include <Foundation/NCollection/NCollection_IncAllocator.hxx>
 
 #include <TopAbs_ShapeEnum.hxx>
 

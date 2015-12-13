@@ -15,7 +15,7 @@
 #ifndef BOPDS_DataMapOfPassKeyListOfPaveBlock_HeaderFile
 #define BOPDS_DataMapOfPassKeyListOfPaveBlock_HeaderFile
 
-#include <NCollection_DataMap.hxx>
+#include <Foundation/NCollection/NCollection_DataMap.hxx>
 
 #include <BOPDS_PassKey.hxx>
 #include <BOPDS_PassKeyMapHasher.hxx>

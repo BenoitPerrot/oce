@@ -153,7 +153,7 @@ IMPLEMENT_STANDARD_RTTI(BRepBuilderAPI_Sewing)
 #include <BRepBuilderAPI_VertexInspector.hxx>
 #include <BRepBuilderAPI_CellFilter.hxx>
 #include <BRepBuilderAPI_BndBoxTreeSelector.hxx>
-#include <NCollection_UBTreeFiller.hxx>
+#include <Foundation/NCollection/NCollection_UBTreeFiller.hxx>
 
 //=======================================================================
 //function : SameRange

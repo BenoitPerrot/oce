@@ -104,7 +104,7 @@
 #include <Select3D_SensitiveTriangulation.hxx>
 #include <SelectBasics_SensitiveEntity.hxx>
 #include <TCollection_AsciiString.hxx>
-#include <NCollection_Map.hxx>
+#include <Foundation/NCollection/NCollection_Map.hxx>
 
 #ifdef OCC9026
 #include <SelectMgr_DataMapIteratorOfDataMapOfIntegerSensitive.hxx>

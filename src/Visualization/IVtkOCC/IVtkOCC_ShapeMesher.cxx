@@ -30,7 +30,7 @@
 #include <gp_Dir2d.hxx>
 #include <gp_Pnt2d.hxx>
 #include <IVtkOCC_ShapeMesher.hxx>
-#include <NCollection_Array1.hxx>
+#include <Foundation/NCollection/NCollection_Array1.hxx>
 #include <Poly_Polygon3D.hxx>
 #include <Poly_PolygonOnTriangulation.hxx>
 #include <Poly_Triangulation.hxx>

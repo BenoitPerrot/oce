@@ -17,7 +17,7 @@
 #define _math_GlobOptMin_HeaderFile
 
 #include <math_MultipleVarFunction.hxx>
-#include <NCollection_Sequence.hxx>
+#include <Foundation/NCollection/NCollection_Sequence.hxx>
 #include <Standard_Type.hxx>
 
 //! This class represents Evtushenko's algorithm of global optimization based on nonuniform mesh.<br>

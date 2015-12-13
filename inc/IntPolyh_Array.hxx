@@ -16,7 +16,7 @@
 #ifndef IntPolyh_Array_HeaderFile
 #define IntPolyh_Array_HeaderFile
 
-#include <NCollection_Vector.hxx>
+#include <Foundation/NCollection/NCollection_Vector.hxx>
 #include <stdio.h>
 
 /**

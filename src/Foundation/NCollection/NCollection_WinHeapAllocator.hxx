@@ -16,7 +16,7 @@
 #ifndef NCollection_WinHeapAllocator_HeaderFile
 #define NCollection_WinHeapAllocator_HeaderFile
 
-#include <NCollection_BaseAllocator.hxx>
+#include <Foundation/NCollection/NCollection_BaseAllocator.hxx>
 
 //! This memory allocator creates dedicated heap for allocations.
 //! This technics available only on Windows platform

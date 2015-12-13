@@ -35,7 +35,7 @@
 #include <VrmlData_TextureCoordinate.hxx>
 #include <VrmlData_UnknownNode.hxx>
 //#include <VrmlData_WorldInfo.hxx>
-#include <NCollection_Vector.hxx>
+#include <Foundation/NCollection/NCollection_Vector.hxx>
 #include <TopoDS_TFace.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Face.hxx>

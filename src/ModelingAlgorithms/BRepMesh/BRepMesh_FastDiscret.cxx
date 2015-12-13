@@ -64,7 +64,7 @@
 
 #include <Standard_ErrorHandler.hxx>
 #include <Standard_Failure.hxx>
-#include <NCollection_IncAllocator.hxx>
+#include <Foundation/NCollection/NCollection_IncAllocator.hxx>
 
 #include <BRep_ListIteratorOfListOfPointRepresentation.hxx>
 #include <BRep_PointRepresentation.hxx>

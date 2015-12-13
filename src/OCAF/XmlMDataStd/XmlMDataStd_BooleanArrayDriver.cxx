@@ -29,7 +29,7 @@ IMPLEMENT_DOWNCAST(XmlMDataStd_BooleanArrayDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlMDataStd_BooleanArrayDriver)
 #include <TDataStd_BooleanArray.hxx>
 #include <TColStd_HArray1OfByte.hxx>
-#include <NCollection_LocalArray.hxx>
+#include <Foundation/NCollection/NCollection_LocalArray.hxx>
 #include <XmlObjMgt.hxx>
 
 IMPLEMENT_DOMSTRING (FirstIndexString, "first")

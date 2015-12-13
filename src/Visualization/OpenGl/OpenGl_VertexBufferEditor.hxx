@@ -18,7 +18,7 @@
 #include <OpenGl_VertexBuffer.hxx>
 #include <OpenGl_Context.hxx>
 
-#include <NCollection_Array1.hxx>
+#include <Foundation/NCollection/NCollection_Array1.hxx>
 
 //! Auxiliary class to iteratively modify data of existing VBO.
 //! It provides iteration interface with delayed CPU->GPU memory transfer to avoid slow per-element data transfer.

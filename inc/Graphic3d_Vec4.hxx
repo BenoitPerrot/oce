@@ -14,7 +14,7 @@
 #ifndef _Graphic3d_Vec4_HeaderFile
 #define _Graphic3d_Vec4_HeaderFile
 
-#include <NCollection_Vec4.hxx>
+#include <Foundation/NCollection/NCollection_Vec4.hxx>
 #include <Standard_TypeDef.hxx>
 
 typedef NCollection_Vec4<Standard_ShortReal> Graphic3d_Vec4;

@@ -18,7 +18,7 @@
 
 #include <Handle_NIS_View.hxx>
 #include <Handle_NIS_InteractiveObject.hxx>
-#include <NCollection_List.hxx>
+#include <Foundation/NCollection/NCollection_List.hxx>
 
 class NIS_InteractiveContext;
 /**

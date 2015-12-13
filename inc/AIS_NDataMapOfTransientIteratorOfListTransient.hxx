@@ -17,7 +17,7 @@
 #define _AIS_NDataMapOfTransientIteratorOfListTransient_HeaderFile
 
 #include <AIS_NListIteratorOfListTransient.hxx>
-#include <NCollection_DataMap.hxx>
+#include <Foundation/NCollection/NCollection_DataMap.hxx>
 
 typedef NCollection_DataMap<Handle(Standard_Transient), AIS_NListIteratorOfListTransient> 
         AIS_NDataMapOfTransientIteratorOfListTransient;

@@ -16,8 +16,8 @@
 #ifndef NCollection_UBTree_HeaderFile
 #define NCollection_UBTree_HeaderFile
 
-#include <NCollection_BaseAllocator.hxx>
-#include <NCollection_DefineAlloc.hxx>
+#include <Foundation/NCollection/NCollection_BaseAllocator.hxx>
+#include <Foundation/NCollection/NCollection_DefineAlloc.hxx>
 
 /**
  * The algorithm of unbalanced binary tree of overlapped bounding boxes.

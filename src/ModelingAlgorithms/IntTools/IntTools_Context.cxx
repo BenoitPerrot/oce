@@ -61,7 +61,7 @@ IMPLEMENT_STANDARD_RTTI(IntTools_Context)
 #include <Extrema_LocateExtPC.hxx>
 
 #include <Geom2d_Curve.hxx>
-#include <NCollection_IncAllocator.hxx>
+#include <Foundation/NCollection/NCollection_IncAllocator.hxx>
 #include <IntTools_SurfaceRangeLocalizeData.hxx>
 
 

@@ -16,7 +16,7 @@
 #ifndef _PrsMgr_ListOfPresentations_H__
 #define _PrsMgr_ListOfPresentations_H__
 
-#include <NCollection_List.hxx>
+#include <Foundation/NCollection/NCollection_List.hxx>
 #include <Prs3d_Presentation.hxx>
 
 typedef NCollection_List<Handle(Prs3d_Presentation)> PrsMgr_ListOfPresentations;

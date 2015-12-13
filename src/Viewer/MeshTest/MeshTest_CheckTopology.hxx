@@ -17,7 +17,7 @@
 #define MeshTest_CheckTopology_HeaderFile
 
 #include <TopoDS_Shape.hxx>
-#include <NCollection_IndexedDataMap.hxx>
+#include <Foundation/NCollection/NCollection_IndexedDataMap.hxx>
 #include <TColStd_HSequenceOfInteger.hxx>
 #include <TColStd_SequenceOfReal.hxx>
 #include <Draw_Interpretor.hxx>

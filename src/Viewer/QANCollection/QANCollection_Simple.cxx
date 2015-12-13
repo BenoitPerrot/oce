@@ -21,9 +21,9 @@
 #include <TColgp_Array1OfPnt.hxx>
 #include <TColgp_SequenceOfPnt.hxx>
 
-#include <NCollection_Sequence.hxx>
-#include <NCollection_Array1.hxx>
-#include <NCollection_IncAllocator.hxx>
+#include <Foundation/NCollection/NCollection_Sequence.hxx>
+#include <Foundation/NCollection/NCollection_Array1.hxx>
+#include <Foundation/NCollection/NCollection_IncAllocator.hxx>
 
 typedef NCollection_Array1<gp_Pnt> MyArray1;
 typedef NCollection_Sequence<gp_Pnt> MySequence;

@@ -22,7 +22,7 @@
 #include <Image_AlienPixMap.hxx>
 #include <Visual3d_Layer.hxx>
 
-#include <NCollection_Mat4.hxx>
+#include <Foundation/NCollection/NCollection_Mat4.hxx>
 
 #include <OpenGl_AspectLine.hxx>
 #include <OpenGl_Context.hxx>

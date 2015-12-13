@@ -44,7 +44,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_MultipleConnectedInteractive)
 #include <SelectMgr_EntityOwner.hxx>
 #include <Select3D_SensitiveEntity.hxx>
 #include <TopLoc_Location.hxx>
-#include <NCollection_DataMap.hxx>
+#include <Foundation/NCollection/NCollection_DataMap.hxx>
 
 namespace
 {

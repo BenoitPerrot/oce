@@ -27,7 +27,7 @@
 #include <BOPAlgo_PaveFiller.hxx>
 //
 #include <Precision.hxx>
-#include <NCollection_IncAllocator.hxx>
+#include <Foundation/NCollection/NCollection_IncAllocator.hxx>
 #include <Bnd_Box.hxx>
 
 #include <Geom_Curve.hxx>

@@ -18,7 +18,7 @@
 
 #include <BVH_Builder.hxx>
 
-#include <NCollection_Vector.hxx>
+#include <Foundation/NCollection/NCollection_Vector.hxx>
 
 //! Abstract BVH builder based on the concept of work queue.
 template<class T, int N>

@@ -16,7 +16,7 @@
 #ifndef NIS_ObjectsIterator_HeaderFile
 #define NIS_ObjectsIterator_HeaderFile
 
-#include <NCollection_SparseArray.hxx>
+#include <Foundation/NCollection/NCollection_SparseArray.hxx>
 #include <Handle_NIS_InteractiveObject.hxx>
 
 class Handle(NIS_InteractiveContext);

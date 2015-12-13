@@ -17,11 +17,11 @@
 #define NCollection_CellFilter_HeaderFile
 
 #include <Standard_Real.hxx>
-#include <NCollection_List.hxx>
-#include <NCollection_Map.hxx>
-#include <NCollection_DataMap.hxx>
-#include <NCollection_IncAllocator.hxx>
-#include <NCollection_TypeDef.hxx>
+#include <Foundation/NCollection/NCollection_List.hxx>
+#include <Foundation/NCollection/NCollection_Map.hxx>
+#include <Foundation/NCollection/NCollection_DataMap.hxx>
+#include <Foundation/NCollection/NCollection_IncAllocator.hxx>
+#include <Foundation/NCollection/NCollection_TypeDef.hxx>
 
 //! Auxiliary enumeration serving as responce from method Inspect
 enum NCollection_CellFilter_Action 

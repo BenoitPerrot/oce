@@ -31,7 +31,7 @@
 #ifndef NCollection_DefineIndexedDataMap_HeaderFile
 #define NCollection_DefineIndexedDataMap_HeaderFile
 
-#include <NCollection_IndexedDataMap.hxx>
+#include <Foundation/NCollection/NCollection_IndexedDataMap.hxx>
 
 // *********************************************** Class IndexedDataMap ******
 

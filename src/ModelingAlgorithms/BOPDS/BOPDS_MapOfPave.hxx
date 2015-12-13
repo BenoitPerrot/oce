@@ -15,7 +15,7 @@
 #ifndef BOPDS_MapOfPave_HeaderFile
 #define BOPDS_MapOfPave_HeaderFile
 
-#include <NCollection_Map.hxx>   
+#include <Foundation/NCollection/NCollection_Map.hxx>   
 #include <BOPDS_PaveMapHasher.hxx>
 #include <BOPDS_Pave.hxx>
 

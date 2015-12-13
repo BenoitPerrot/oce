@@ -15,7 +15,7 @@
 
 // Purpose:   Implementation of the BaseSequence class
 
-#include <NCollection_BaseSequence.hxx>
+#include <Foundation/NCollection/NCollection_BaseSequence.hxx>
 #include <Standard_NoSuchObject.hxx>
 #include <Standard_OutOfRange.hxx>
 #include <Standard_DomainError.hxx>

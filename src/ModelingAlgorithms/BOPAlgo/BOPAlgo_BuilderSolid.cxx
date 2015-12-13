@@ -18,9 +18,9 @@
 #include <TopoDS_Solid.hxx>
 #include <BOPAlgo_BuilderSolid.hxx>
 //
-#include <NCollection_List.hxx>
-#include <NCollection_DataMap.hxx>
-#include <NCollection_UBTreeFiller.hxx>
+#include <Foundation/NCollection/NCollection_List.hxx>
+#include <Foundation/NCollection/NCollection_DataMap.hxx>
+#include <Foundation/NCollection/NCollection_UBTreeFiller.hxx>
 //
 #include <gp_Pnt2d.hxx>
 #include <gp_Pln.hxx>

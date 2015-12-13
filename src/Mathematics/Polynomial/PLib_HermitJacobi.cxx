@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_TYPE_END(PLib_HermitJacobi)
 IMPLEMENT_DOWNCAST(PLib_HermitJacobi,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(PLib_HermitJacobi)
 #include <PLib.hxx>
-#include <NCollection_LocalArray.hxx>
+#include <Foundation/NCollection/NCollection_LocalArray.hxx>
 #include <TColStd_HArray1OfReal.hxx>
 
 //=======================================================================

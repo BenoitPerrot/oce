@@ -20,7 +20,7 @@
 #include <Graphic3d_Mat4.hxx>
 #include <Graphic3d_Vec3.hxx>
 
-#include <NCollection_Handle.hxx>
+#include <Foundation/NCollection/NCollection_Handle.hxx>
 
 #include <gp_Dir.hxx>
 #include <gp_Pnt.hxx>

@@ -113,7 +113,7 @@ static Standard_Integer  DNaming_AddObject(Draw_Interpretor& di,
   return 1;
 }
 
-#include <NCollection_DataMap.hxx>
+#include <Foundation/NCollection/NCollection_DataMap.hxx>
 typedef NCollection_DataMap <TCollection_AsciiString, 
   Standard_GUID> DataMapOfAStringGUID;
   static Standard_Boolean isBuilt(Standard_False);

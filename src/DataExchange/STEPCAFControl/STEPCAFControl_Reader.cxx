@@ -177,7 +177,7 @@
 #include <StepShape_ShellBasedSurfaceModel.hxx>
 #include <StepShape_GeometricSet.hxx>
 #include <StepBasic_ProductDefinition.hxx>
-#include <NCollection_DataMap.hxx>
+#include <Foundation/NCollection/NCollection_DataMap.hxx>
 #include <StepShape_ManifoldSolidBrep.hxx>
 #include <Interface_Static.hxx>
 #include <TColStd_MapOfTransient.hxx>

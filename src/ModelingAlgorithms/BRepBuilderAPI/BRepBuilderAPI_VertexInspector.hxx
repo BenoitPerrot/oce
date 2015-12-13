@@ -17,10 +17,10 @@
 #define _BRepBuilderAPI_VertexInspector_Header
 
 #include <TColStd_ListOfInteger.hxx>
-#include <NCollection_Vector.hxx>
+#include <Foundation/NCollection/NCollection_Vector.hxx>
 #include <gp_XY.hxx>
 #include <gp_XYZ.hxx>
-#include <NCollection_CellFilter.hxx>
+#include <Foundation/NCollection/NCollection_CellFilter.hxx>
 
 typedef NCollection_Vector<gp_XYZ> VectorOfPoint;
 

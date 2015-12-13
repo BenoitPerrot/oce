@@ -19,8 +19,8 @@
 #include <TopoDS_Face.hxx>
 #include <BOPAlgo_BuilderFace.hxx>
 //
-#include <NCollection_UBTreeFiller.hxx>
-#include <NCollection_DataMap.hxx>
+#include <Foundation/NCollection/NCollection_UBTreeFiller.hxx>
+#include <Foundation/NCollection/NCollection_DataMap.hxx>
 //
 #include <TColStd_MapIntegerHasher.hxx>
 //

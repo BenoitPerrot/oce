@@ -40,8 +40,8 @@
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Face.hxx>
 #include <TopoDS_Shape.hxx>
-#include <NCollection_Sequence.hxx>
-#include <NCollection_Handle.hxx>
+#include <Foundation/NCollection/NCollection_Sequence.hxx>
+#include <Foundation/NCollection/NCollection_Handle.hxx>
 
 DEFINE_STANDARD_HANDLE(AIS_Dimension, AIS_InteractiveObject)
 

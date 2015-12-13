@@ -29,7 +29,7 @@
 #include <BRepPrim_Cylinder.hxx>
 #include <BRepPrim_Sphere.hxx>
 #include <BRepPrim_Builder.hxx>
-#include <NCollection_Vector.hxx>
+#include <Foundation/NCollection/NCollection_Vector.hxx>
 #include <Standard_ErrorHandler.hxx>
 
 #ifdef _MSC_VER

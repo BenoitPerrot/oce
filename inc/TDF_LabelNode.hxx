@@ -20,7 +20,7 @@
 #include <TDF_Attribute.hxx>
 #include <TDF_LabelNodePtr.hxx>
 #include <TDF_HAllocator.hxx>
-#include <NCollection_DefineAlloc.hxx>
+#include <Foundation/NCollection/NCollection_DefineAlloc.hxx>
 
 class TDF_Attribute;
 class TDF_AttributeIterator;

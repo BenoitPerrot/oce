@@ -17,7 +17,7 @@
 #define _OpenGl_Utils_H__
 
 #include <OpenGl_Vec.hxx>
-#include <NCollection_Vector.hxx>
+#include <Foundation/NCollection/NCollection_Vector.hxx>
 
 //! Helper class that implements some functionality of GLU library.
 namespace OpenGl_Utils

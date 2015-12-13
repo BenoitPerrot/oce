@@ -22,7 +22,7 @@
 #include <Standard_Atomic.hxx>
 #include <Standard_Assert.hxx>
 
-#include <NCollection_Sequence.hxx>
+#include <Foundation/NCollection/NCollection_Sequence.hxx>
 
 IMPLEMENT_STANDARD_HANDLE(Graphic3d_Camera, Standard_Transient)
 IMPLEMENT_STANDARD_RTTIEXT(Graphic3d_Camera, Standard_Transient)

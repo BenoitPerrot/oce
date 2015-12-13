@@ -16,14 +16,14 @@
 #include <QANCollection.hxx>
 #include <Draw_Interpretor.hxx>
 
-#include <NCollection_Array1.hxx>
-#include <NCollection_List.hxx>
-#include <NCollection_Sequence.hxx>
-#include <NCollection_Vector.hxx>
-#include <NCollection_Map.hxx>
-#include <NCollection_DataMap.hxx>
-#include <NCollection_IndexedMap.hxx>
-#include <NCollection_IndexedDataMap.hxx>
+#include <Foundation/NCollection/NCollection_Array1.hxx>
+#include <Foundation/NCollection/NCollection_List.hxx>
+#include <Foundation/NCollection/NCollection_Sequence.hxx>
+#include <Foundation/NCollection/NCollection_Vector.hxx>
+#include <Foundation/NCollection/NCollection_Map.hxx>
+#include <Foundation/NCollection/NCollection_DataMap.hxx>
+#include <Foundation/NCollection/NCollection_IndexedMap.hxx>
+#include <Foundation/NCollection/NCollection_IndexedDataMap.hxx>
 #include <Standard_Assert.hxx>
 #include <OSD_Timer.hxx>
 

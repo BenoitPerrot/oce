@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_RTTI(XmlMDataStd_RealArrayDriver)
 #include <XmlObjMgt.hxx>
 #include <XmlMDataStd.hxx>
 #include <TColStd_HArray1OfReal.hxx>
-#include <NCollection_LocalArray.hxx>
+#include <Foundation/NCollection/NCollection_LocalArray.hxx>
 #include <Standard_ErrorHandler.hxx>
 #include <Standard_OutOfMemory.hxx>
 

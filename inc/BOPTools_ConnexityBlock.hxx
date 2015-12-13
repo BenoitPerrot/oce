@@ -15,7 +15,7 @@
 #ifndef BOPTools_ConnexityBlock_HeaderFile
 #define BOPTools_ConnexityBlock_HeaderFile
 
-#include <NCollection_BaseAllocator.hxx>
+#include <Foundation/NCollection/NCollection_BaseAllocator.hxx>
 #include <BOPCol_ListOfShape.hxx>
 
 //=======================================================================

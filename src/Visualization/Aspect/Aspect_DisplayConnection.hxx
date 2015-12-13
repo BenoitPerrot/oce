@@ -19,7 +19,7 @@
 #include <Aspect_XAtom.hxx>
 
 #include <TCollection_AsciiString.hxx>
-#include <NCollection_DataMap.hxx>
+#include <Foundation/NCollection/NCollection_DataMap.hxx>
 
 #if !defined(_WIN32) && (!defined(__APPLE__) || defined(MACOSX_USE_GLX)) && !defined(__ANDROID__)
   #include <X11/Xlib.h>

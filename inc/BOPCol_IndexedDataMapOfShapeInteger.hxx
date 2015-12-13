@@ -18,7 +18,7 @@
 #include <TopoDS_Shape.hxx>  
 #include <TopTools_ShapeMapHasher.hxx>
   
-#include <NCollection_IndexedDataMap.hxx>
+#include <Foundation/NCollection/NCollection_IndexedDataMap.hxx>
 
 typedef NCollection_IndexedDataMap<TopoDS_Shape, Standard_Integer, TopTools_ShapeMapHasher> BOPCol_IndexedDataMapOfShapeInteger; 
  

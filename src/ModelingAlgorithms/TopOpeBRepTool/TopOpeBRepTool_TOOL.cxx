@@ -57,7 +57,7 @@
 #include <TopTools_DataMapOfIntegerShape.hxx>
 #include <TColStd_Array1OfReal.hxx>
 #include <TColStd_IndexedMapOfReal.hxx>
-#include <NCollection_Array1.hxx>
+#include <Foundation/NCollection/NCollection_Array1.hxx>
 #include <BRepLProp_CLProps.hxx>
 #include <GeomLProp_SLProps.hxx>
 #include <gp_Torus.hxx>

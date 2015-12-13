@@ -16,15 +16,15 @@
 #ifndef NCollection_DoubleMap_HeaderFile
 #define NCollection_DoubleMap_HeaderFile
 
-#include <NCollection_TypeDef.hxx>
-#include <NCollection_BaseMap.hxx>
-#include <NCollection_TListNode.hxx>
+#include <Foundation/NCollection/NCollection_TypeDef.hxx>
+#include <Foundation/NCollection/NCollection_BaseMap.hxx>
+#include <Foundation/NCollection/NCollection_TListNode.hxx>
 #include <Standard_TypeMismatch.hxx>
 #include <Standard_MultiplyDefined.hxx>
 #include <Standard_ImmutableObject.hxx>
 #include <Standard_NoSuchObject.hxx>
 
-#include <NCollection_DefaultHasher.hxx>
+#include <Foundation/NCollection/NCollection_DefaultHasher.hxx>
 
 /**
 * Purpose:     The DoubleMap  is used to  bind  pairs (Key1,Key2)

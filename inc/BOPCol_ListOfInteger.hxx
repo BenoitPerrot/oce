@@ -15,7 +15,7 @@
 #ifndef BOPCol_ListOfInteger_HeaderFile
 #define BOPCol_ListOfInteger_HeaderFile
 
-#include <NCollection_List.hxx>   
+#include <Foundation/NCollection/NCollection_List.hxx>   
 
 typedef NCollection_List<Standard_Integer> BOPCol_ListOfInteger; 
 typedef BOPCol_ListOfInteger::Iterator BOPCol_ListIteratorOfListOfInteger;  

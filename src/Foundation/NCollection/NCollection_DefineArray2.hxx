@@ -26,7 +26,7 @@
 #ifndef NCollection_DefineArray2_HeaderFile
 #define NCollection_DefineArray2_HeaderFile
 
-#include <NCollection_Array2.hxx>
+#include <Foundation/NCollection/NCollection_Array2.hxx>
 
 // *********************************************** Template for Array2 class
 

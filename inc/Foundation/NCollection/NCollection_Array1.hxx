@@ -20,8 +20,8 @@
 #include <Standard_OutOfMemory.hxx>
 #include <Standard_OutOfRange.hxx>
 
-#include <NCollection_DefineAlloc.hxx>
-#include <NCollection_StlIterator.hxx>
+#include <Foundation/NCollection/NCollection_DefineAlloc.hxx>
+#include <Foundation/NCollection/NCollection_StlIterator.hxx>
 
 // *********************************************** Template for Array1 class
 

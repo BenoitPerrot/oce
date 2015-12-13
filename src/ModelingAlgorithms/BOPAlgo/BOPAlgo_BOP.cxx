@@ -40,11 +40,11 @@
 #include <BOPAlgo_BuilderSolid.hxx>
 
 #include <BRep_Tool.hxx>
-#include <NCollection_IncAllocator.hxx>
+#include <Foundation/NCollection/NCollection_IncAllocator.hxx>
 //
 #include <BOPTools_Set.hxx>
 #include <BOPTools_SetMapHasher.hxx>
-#include <NCollection_DataMap.hxx>
+#include <Foundation/NCollection/NCollection_DataMap.hxx>
 
 typedef NCollection_DataMap  
   <BOPTools_Set, 

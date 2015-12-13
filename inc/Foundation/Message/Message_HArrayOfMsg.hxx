@@ -15,8 +15,8 @@
 #define _Message_HArrayOfMsg_HeaderFile
 
 #include <Foundation/Message/Message_Msg.hxx>
-#include <NCollection_Array1.hxx>
-#include <NCollection_Handle.hxx>
+#include <Foundation/NCollection/NCollection_Array1.hxx>
+#include <Foundation/NCollection/NCollection_Handle.hxx>
 
 typedef NCollection_Handle<Message_Msg>         Handle(Message_Msg);
 typedef NCollection_Array1<Handle(Message_Msg)> Message_ArrayOfMsg;

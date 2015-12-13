@@ -17,7 +17,7 @@
 #define VrmlData_Node_HeaderFile
 
 #include <Standard_Type.hxx>
-#include <NCollection_List.hxx>
+#include <Foundation/NCollection/NCollection_List.hxx>
 #include <Standard_DefineHandle.hxx>
 #include <Standard_TypeDef.hxx>
 #include <TCollection_AsciiString.hxx> 

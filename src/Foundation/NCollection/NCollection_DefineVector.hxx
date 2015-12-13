@@ -19,7 +19,7 @@
 #ifndef NCollection_DefineVector_HeaderFile
 #define NCollection_DefineVector_HeaderFile
 
-#include <NCollection_Vector.hxx>
+#include <Foundation/NCollection/NCollection_Vector.hxx>
 
 //  Class NCollection_Vector (dynamic array of objects)
 // This class is similar to NCollection_Array1  though the indices always start

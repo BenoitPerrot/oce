@@ -38,7 +38,7 @@
 //for vrml export
 #include <VrmlAPI_Writer.hxx>
 //wrapper of pure C++ classes to ref classes
-#include <NCollection_Haft.h>
+#include <Foundation/NCollection/NCollection_Haft.h>
 
 // list of required OCCT libraries
 #pragma comment(lib, "TKernel.lib")

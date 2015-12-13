@@ -16,7 +16,7 @@
 #ifndef NCollection_HeapAllocator_HeaderFile
 #define NCollection_HeapAllocator_HeaderFile
 
-#include <NCollection_BaseAllocator.hxx>
+#include <Foundation/NCollection/NCollection_BaseAllocator.hxx>
 
 class Handle(NCollection_HeapAllocator);
 

@@ -56,7 +56,7 @@
 #include <TopTools_MapIteratorOfMapOfShape.hxx>
 #include <TopoDS_Shell.hxx>
 #include <ShapeAnalysis_BoxBndTree.hxx>
-#include <NCollection_UBTreeFiller.hxx>
+#include <Foundation/NCollection/NCollection_UBTreeFiller.hxx>
 #include <TColStd_ListIteratorOfListOfInteger.hxx>
 #include <TopTools_HArray1OfShape.hxx>
 #include <TopExp.hxx>

@@ -17,10 +17,10 @@
 #define __IVTK_TYPES_H__
 
 #include <gp_XY.hxx>
-#include <NCollection_List.hxx>
-#include <NCollection_TListIterator.hxx>
-#include <NCollection_DataMap.hxx>
-#include <NCollection_Map.hxx>
+#include <Foundation/NCollection/NCollection_List.hxx>
+#include <Foundation/NCollection/NCollection_TListIterator.hxx>
+#include <Foundation/NCollection/NCollection_DataMap.hxx>
+#include <Foundation/NCollection/NCollection_Map.hxx>
 #include <Standard_Integer.hxx>
 #include <Standard_Boolean.hxx>
 

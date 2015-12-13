@@ -16,7 +16,7 @@
 #include <Poly_CoherentTriangulation.hxx>
 #include <Poly_Triangulation.hxx>
 #include <Poly_Array1OfTriangle.hxx>
-#include <NCollection_List.hxx>
+#include <Foundation/NCollection/NCollection_List.hxx>
 #include <Precision.hxx>
 #include <Standard_ProgramError.hxx>
 #include <TColgp_Array1OfPnt.hxx>

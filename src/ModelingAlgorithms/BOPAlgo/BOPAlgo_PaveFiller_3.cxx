@@ -27,8 +27,8 @@
 #include <BOPAlgo_PaveFiller.hxx>
 
 #include <Precision.hxx>
-#include <NCollection_IncAllocator.hxx>
-#include <NCollection_UBTreeFiller.hxx>
+#include <Foundation/NCollection/NCollection_IncAllocator.hxx>
+#include <Foundation/NCollection/NCollection_UBTreeFiller.hxx>
 
 #include <Bnd_Box.hxx>
 

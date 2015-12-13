@@ -20,7 +20,7 @@
 #include <Standard_DefineHandle.hxx>
 
 #include <TColStd_Array2OfReal.hxx>
-#include <NCollection_List.hxx>
+#include <Foundation/NCollection/NCollection_List.hxx>
 
 #include <Quantity_NameOfColor.hxx>
 #include <Aspect_FillMethod.hxx>

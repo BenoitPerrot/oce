@@ -16,8 +16,8 @@
 #ifndef NCollection_HSequence_HeaderFile
 #define NCollection_HSequence_HeaderFile
 
-#include <NCollection_DefineHSequence.hxx>
-#include <NCollection_Sequence.hxx>
+#include <Foundation/NCollection/NCollection_DefineHSequence.hxx>
+#include <Foundation/NCollection/NCollection_Sequence.hxx>
 
 //      Declaration of Sequence class managed by Handle
 

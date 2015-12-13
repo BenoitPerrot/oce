@@ -15,7 +15,7 @@
 
 #include <BVH_Sorter.hxx>
 
-#include <NCollection_Array1.hxx>
+#include <Foundation/NCollection/NCollection_Array1.hxx>
 
 // =======================================================================
 // function : BVH_SweepPlaneBuilder

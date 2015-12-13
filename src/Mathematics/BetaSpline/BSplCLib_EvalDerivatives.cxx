@@ -19,7 +19,7 @@
 #include <PLib.hxx>
 #include <BSplCLib_Helpers.hxx>
 #include <math_Matrix.hxx>
-#include <NCollection_LocalArray.hxx>
+#include <Foundation/NCollection/NCollection_LocalArray.hxx>
 
 //
 

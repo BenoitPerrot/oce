@@ -16,8 +16,8 @@
 #ifndef _Font_FTFont_H__
 #define _Font_FTFont_H__
 
-#include <NCollection_Vec2.hxx>
-#include <NCollection_String.hxx>
+#include <Foundation/NCollection/NCollection_Vec2.hxx>
+#include <Foundation/NCollection/NCollection_String.hxx>
 #include <Font_FTLibrary.hxx>
 #include <Image_PixMap.hxx>
 #include <Font_FontAspect.hxx>

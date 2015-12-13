@@ -16,7 +16,7 @@
 #ifndef _Graphic3d_SequenceOfHClipPlane_HeaderFile
 #define _Graphic3d_SequenceOfHClipPlane_HeaderFile
 
-#include <NCollection_Sequence.hxx>
+#include <Foundation/NCollection/NCollection_Sequence.hxx>
 #include <Graphic3d_ClipPlane.hxx>
 
 // CDL-header shortcut for sequence of graphical clipping planes.

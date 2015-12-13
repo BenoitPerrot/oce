@@ -21,8 +21,8 @@
 
 #include <InterfaceGraphic_telem.hxx>
 
-#include <NCollection_Sequence.hxx>
-#include <NCollection_DataMap.hxx>
+#include <Foundation/NCollection/NCollection_Sequence.hxx>
+#include <Foundation/NCollection/NCollection_DataMap.hxx>
 
 class OpenGl_Structure;
 class Handle(OpenGl_Workspace);

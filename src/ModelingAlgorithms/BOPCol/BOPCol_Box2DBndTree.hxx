@@ -19,7 +19,7 @@
 #ifndef BOPCol_Box2DBndTree_HeaderFile
 #define BOPCol_Box2DBndTree_HeaderFile
 
-#include <NCollection_UBTree.hxx>
+#include <Foundation/NCollection/NCollection_UBTree.hxx>
 #include <Bnd_Box2d.hxx>
 #include <BOPCol_ListOfInteger.hxx>
 /**

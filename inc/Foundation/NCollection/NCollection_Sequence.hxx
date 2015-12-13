@@ -16,8 +16,8 @@
 #ifndef NCollection_Sequence_HeaderFile
 #define NCollection_Sequence_HeaderFile
 
-#include <NCollection_BaseSequence.hxx>
-#include <NCollection_StlIterator.hxx>
+#include <Foundation/NCollection/NCollection_BaseSequence.hxx>
+#include <Foundation/NCollection/NCollection_StlIterator.hxx>
 
 #include <Standard_OutOfRange.hxx>
 #include <Standard_NoSuchObject.hxx>

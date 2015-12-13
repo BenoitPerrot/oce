@@ -16,8 +16,8 @@
 #include <QANCollection.hxx>
 #include <Draw_Interpretor.hxx>
 
-#include <NCollection_StdAllocator.hxx>
-#include <NCollection_IncAllocator.hxx>
+#include <Foundation/NCollection/NCollection_StdAllocator.hxx>
+#include <Foundation/NCollection/NCollection_IncAllocator.hxx>
 #include <Standard_Assert.hxx>
 
 #include <list>

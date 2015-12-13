@@ -16,7 +16,7 @@
 #ifndef Poly_ListOfTriangulation_HeaderFile
 #define Poly_ListOfTriangulation_HeaderFile
 
-#include <NCollection_List.hxx>
+#include <Foundation/NCollection/NCollection_List.hxx>
 #include <Poly_Triangulation.hxx>
 
 /**

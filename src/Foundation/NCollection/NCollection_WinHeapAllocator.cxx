@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <NCollection_WinHeapAllocator.hxx>
+#include <Foundation/NCollection/NCollection_WinHeapAllocator.hxx>
 #include <Standard_OutOfMemory.hxx>
 
 #if(defined(_WIN32) || defined(__WIN32__))

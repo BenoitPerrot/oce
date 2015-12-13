@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <Image_PixMap.hxx>
-#include <NCollection_AlignedAllocator.hxx>
+#include <Foundation/NCollection/NCollection_AlignedAllocator.hxx>
 
 #include <algorithm>
 

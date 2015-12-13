@@ -19,7 +19,7 @@
 #include <BVH_Box.hxx>
 #include <BVH_Properties.hxx>
 
-#include <NCollection_Handle.hxx>
+#include <Foundation/NCollection/NCollection_Handle.hxx>
 
 //! Abstract geometric object bounded by BVH box.
 //! \tparam T Numeric data type

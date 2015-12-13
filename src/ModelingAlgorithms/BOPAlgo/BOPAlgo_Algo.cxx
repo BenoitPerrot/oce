@@ -18,7 +18,7 @@
 #include <Foundation/Message/Message_ProgressIndicator.hxx>
 #include <BOPAlgo_Algo.hxx>
 
-#include <NCollection_BaseAllocator.hxx>
+#include <Foundation/NCollection/NCollection_BaseAllocator.hxx>
 
 #include <Standard_ProgramError.hxx>
 #include <Standard_NotImplemented.hxx>

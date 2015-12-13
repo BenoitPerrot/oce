@@ -14,7 +14,7 @@
 #ifndef _Graphic3d_Mat4d_HeaderFile
 #define _Graphic3d_Mat4d_HeaderFile
 
-#include <NCollection_Mat4.hxx>
+#include <Foundation/NCollection/NCollection_Mat4.hxx>
 #include <Standard_TypeDef.hxx>
 
 typedef NCollection_Mat4<Standard_Real> Graphic3d_Mat4d;

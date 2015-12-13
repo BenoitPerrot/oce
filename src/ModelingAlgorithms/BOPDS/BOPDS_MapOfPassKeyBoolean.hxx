@@ -15,7 +15,7 @@
 #ifndef BOPDS_MapOfPassKeyBoolean_HeaderFile
 #define BOPDS_MapOfPassKeyBoolean_HeaderFile
 
-#include <NCollection_Map.hxx>   
+#include <Foundation/NCollection/NCollection_Map.hxx>   
 #include <BOPDS_PassKeyMapHasher.hxx>
 #include <BOPDS_PassKeyBoolean.hxx>
 

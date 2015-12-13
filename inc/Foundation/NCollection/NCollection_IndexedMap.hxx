@@ -16,13 +16,13 @@
 #ifndef NCollection_IndexedMap_HeaderFile
 #define NCollection_IndexedMap_HeaderFile
 
-#include <NCollection_BaseMap.hxx>
-#include <NCollection_TListNode.hxx>
-#include <NCollection_StlIterator.hxx>
+#include <Foundation/NCollection/NCollection_BaseMap.hxx>
+#include <Foundation/NCollection/NCollection_TListNode.hxx>
+#include <Foundation/NCollection/NCollection_StlIterator.hxx>
 #include <Standard_NoSuchObject.hxx>
 #include <Standard_ImmutableObject.hxx>
 
-#include <NCollection_DefaultHasher.hxx>
+#include <Foundation/NCollection/NCollection_DefaultHasher.hxx>
 
 #include <Standard_OutOfRange.hxx>
 

@@ -37,7 +37,7 @@ IMPLEMENT_STANDARD_RTTI(XmlMDataStd_IntPackedMapDriver)
 #include <XmlMDF_ADriver.hxx>
 #include <TDF_Attribute.hxx>
 #include <TDataStd_IntPackedMap.hxx>
-#include <NCollection_LocalArray.hxx>
+#include <Foundation/NCollection/NCollection_LocalArray.hxx>
 #include <XmlMDataStd.hxx>
 
 IMPLEMENT_DOMSTRING (IntPackedMapSize, "mapsize")

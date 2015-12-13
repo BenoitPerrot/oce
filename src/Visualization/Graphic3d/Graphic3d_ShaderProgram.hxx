@@ -19,7 +19,7 @@
 #include <Graphic3d_ShaderObject_Handle.hxx>
 #include <Graphic3d_ShaderProgram_Handle.hxx>
 #include <Graphic3d_ShaderVariable.hxx>
-#include <NCollection_Sequence.hxx>
+#include <Foundation/NCollection/NCollection_Sequence.hxx>
 
 //! List of shader objects.
 typedef NCollection_Sequence<Handle(Graphic3d_ShaderObject)> Graphic3d_ShaderObjectList;

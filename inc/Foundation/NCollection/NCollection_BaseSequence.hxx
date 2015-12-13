@@ -17,8 +17,8 @@
 #define NCollection_BaseSequence_HeaderFile
 
 #include <Standard.hxx>
-#include <NCollection_BaseAllocator.hxx>
-#include <NCollection_DefineAlloc.hxx>
+#include <Foundation/NCollection/NCollection_BaseAllocator.hxx>
+#include <Foundation/NCollection/NCollection_DefineAlloc.hxx>
 
 // **************************************** Class SeqNode ********************
 

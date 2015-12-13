@@ -21,10 +21,10 @@
 
 #include <vector>
 
-#include <NCollection_Mat4.hxx>
-#include <NCollection_Vec2.hxx>
-#include <NCollection_Vec3.hxx>
-#include <NCollection_Vector.hxx>
+#include <Foundation/NCollection/NCollection_Mat4.hxx>
+#include <Foundation/NCollection/NCollection_Vec2.hxx>
+#include <Foundation/NCollection/NCollection_Vec3.hxx>
+#include <Foundation/NCollection/NCollection_Vector.hxx>
 
 namespace BVH
 {

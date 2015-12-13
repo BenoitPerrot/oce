@@ -18,7 +18,7 @@
 
 #include <VrmlData_Geometry.hxx>
 #include <VrmlData_Appearance.hxx>
-#include <NCollection_List.hxx>
+#include <Foundation/NCollection/NCollection_List.hxx>
 #include <TopoDS_Shape.hxx>
 
 class VrmlData_Scene;

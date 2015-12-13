@@ -37,7 +37,7 @@
 #ifndef NCollection_DefineMap_HeaderFile
 #define NCollection_DefineMap_HeaderFile
 
-#include <NCollection_Map.hxx>
+#include <Foundation/NCollection/NCollection_Map.hxx>
 
 // *********************************************** Class Map *****************
 

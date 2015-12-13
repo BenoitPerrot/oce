@@ -25,7 +25,7 @@
 #include <math_Matrix.hxx>
 #include <TColgp_Array2OfPnt.hxx>
 #include <PLib.hxx>
-#include <NCollection_LocalArray.hxx>
+#include <Foundation/NCollection/NCollection_LocalArray.hxx>
 #include <math_Matrix.hxx> 
 #include <math_Gauss.hxx> 
 #include <Standard_ConstructionError.hxx>

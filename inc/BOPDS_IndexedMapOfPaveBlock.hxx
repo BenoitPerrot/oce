@@ -15,7 +15,7 @@
 #ifndef BOPDS_IndexedMapOfPaveBlock_HeaderFile
 #define BOPDS_IndexedMapOfPaveBlock_HeaderFile
 
-#include <NCollection_IndexedMap.hxx>   
+#include <Foundation/NCollection/NCollection_IndexedMap.hxx>   
 #include <TColStd_MapTransientHasher.hxx>
 #include <BOPDS_PaveBlock.hxx>   
 

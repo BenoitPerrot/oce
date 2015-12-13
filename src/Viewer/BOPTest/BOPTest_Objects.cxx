@@ -18,8 +18,8 @@
 #include <BOPAlgo_Section.hxx>
 #include <BOPTest_Objects.hxx>
 
-#include <NCollection_BaseAllocator.hxx>
-#include <NCollection_IncAllocator.hxx>
+#include <Foundation/NCollection/NCollection_BaseAllocator.hxx>
+#include <Foundation/NCollection/NCollection_IncAllocator.hxx>
 
 static Handle(NCollection_BaseAllocator)& Allocator1();
 

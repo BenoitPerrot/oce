@@ -29,7 +29,7 @@ IMPLEMENT_DOWNCAST(XmlMDataStd_ByteArrayDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlMDataStd_ByteArrayDriver)
 #include <TDataStd_ByteArray.hxx>
 #include <TColStd_HArray1OfByte.hxx>
-#include <NCollection_LocalArray.hxx>
+#include <Foundation/NCollection/NCollection_LocalArray.hxx>
 #include <XmlObjMgt.hxx>
 #include <XmlMDataStd.hxx>
 

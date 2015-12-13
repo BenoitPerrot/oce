@@ -27,7 +27,7 @@
 #include <Draw_Appli.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <Image_AlienPixMap.hxx>
-#include <NCollection_List.hxx>
+#include <Foundation/NCollection/NCollection_List.hxx>
 
 extern Draw_Interpretor theCommands;
 extern Standard_Boolean Draw_VirtualWindows;

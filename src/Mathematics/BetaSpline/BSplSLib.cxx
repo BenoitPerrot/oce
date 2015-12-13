@@ -30,7 +30,7 @@
 #include <TColgp_Array1OfPnt.hxx>
 #include <BSplSLib.hxx>
 #include <PLib.hxx>
-#include <NCollection_LocalArray.hxx>
+#include <Foundation/NCollection/NCollection_LocalArray.hxx>
 #include <BSplCLib.hxx>
 #include <TColgp_Array2OfXYZ.hxx>
 #include <TColgp_Array1OfXYZ.hxx>

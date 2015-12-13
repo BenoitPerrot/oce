@@ -29,7 +29,7 @@
 #ifndef NCollection_DefineDataMap_HeaderFile
 #define NCollection_DefineDataMap_HeaderFile
 
-#include <NCollection_DataMap.hxx>
+#include <Foundation/NCollection/NCollection_DataMap.hxx>
 
 // *********************************************** Class DataMap *************
 

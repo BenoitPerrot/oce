@@ -29,7 +29,7 @@
 
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_DefineHandle.hxx>
-#include <NCollection_TypeDef.hxx>
+#include <Foundation/NCollection/NCollection_TypeDef.hxx>
 
 class Handle(NCollection_BaseAllocator);
 

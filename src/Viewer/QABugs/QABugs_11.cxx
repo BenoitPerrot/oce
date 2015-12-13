@@ -70,7 +70,7 @@
 #include <IntRes2d_IntersectionSegment.hxx>
 #include <TDataStd_RealArray.hxx>
 #include <TDF_CopyLabel.hxx>
-#include <NCollection_Vector.hxx>
+#include <Foundation/NCollection/NCollection_Vector.hxx>
 #include <TColStd_Array1OfInteger.hxx>
 #include <Geom_BSplineCurve.hxx>
 #include <TColgp_Array1OfPnt.hxx>
@@ -5039,7 +5039,7 @@ Standard_Integer OCC22586 (Draw_Interpretor& di, Standard_Integer argc, const ch
 
 }
 
-#include <NCollection_DataMap.hxx>
+#include <Foundation/NCollection/NCollection_DataMap.hxx>
 Standard_Integer OCC22744 (Draw_Interpretor& di, Standard_Integer argc, const char ** argv)
 {
 	

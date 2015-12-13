@@ -26,8 +26,8 @@
 #include <Handle_MMgt_TShared.hxx>
 #endif
 
-#include <NCollection_DataMap.hxx>
-#include <NCollection_Handle.hxx>
+#include <Foundation/NCollection/NCollection_DataMap.hxx>
+#include <Foundation/NCollection/NCollection_Handle.hxx>
 #include <Standard_Transient.hxx>
 #include <TopoDS_Shape.hxx>
 

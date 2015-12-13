@@ -16,7 +16,7 @@
 #ifndef _Font_NListOfSystemFont_HeaderFile
 #define _Font_NListOfSystemFont_HeaderFile
 
-#include <NCollection_List.hxx>
+#include <Foundation/NCollection/NCollection_List.hxx>
 #include <Font_SystemFont.hxx>
 
 typedef NCollection_List<Handle(Font_SystemFont)> Font_NListOfSystemFont;

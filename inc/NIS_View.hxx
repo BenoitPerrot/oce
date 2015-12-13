@@ -19,8 +19,8 @@
 #include <Handle_NIS_InteractiveObject.hxx>
 #include <V3d_View.hxx>
 #include <Standard_DefineHandle.hxx>
-#include <NCollection_List.hxx>
-#include <NCollection_Vector.hxx>
+#include <Foundation/NCollection/NCollection_List.hxx>
+#include <Foundation/NCollection/NCollection_Vector.hxx>
 #include <Bnd_B3f.hxx>
 #include <TColStd_PackedMapOfInteger.hxx>
 #include <gp_XY.hxx>

@@ -29,7 +29,7 @@
 #include <Standard_ErrorHandler.hxx>
 #include <Standard_Failure.hxx>
 
-#include <NCollection_BaseAllocator.hxx>
+#include <Foundation/NCollection/NCollection_BaseAllocator.hxx>
 
 #include <IntTools_Context.hxx>
 #include <BOPDS_DS.hxx>

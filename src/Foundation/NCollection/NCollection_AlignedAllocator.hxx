@@ -16,7 +16,7 @@
 #ifndef NCollection_AlignedAllocator_HeaderFile
 #define NCollection_AlignedAllocator_HeaderFile
 
-#include <NCollection_BaseAllocator.hxx>
+#include <Foundation/NCollection/NCollection_BaseAllocator.hxx>
 #include <Standard.hxx>
 
 //! NCollection allocator with managed memory alignment capabilities.

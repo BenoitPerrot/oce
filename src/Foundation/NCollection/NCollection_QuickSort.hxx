@@ -16,7 +16,7 @@
 #ifndef _NCollection_QuickSort_HeaderFile
 #define _NCollection_QuickSort_HeaderFile
 
-#include <NCollection_Comparator.hxx>
+#include <Foundation/NCollection/NCollection_Comparator.hxx>
 #include <Standard_Integer.hxx>
 
 /**

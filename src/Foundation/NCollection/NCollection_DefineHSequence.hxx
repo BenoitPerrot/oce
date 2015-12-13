@@ -19,7 +19,7 @@
 #define NCollection_DefineHSequence_HeaderFile
 
 #include <Standard_DefineHandle.hxx>
-#include <NCollection_DefineSequence.hxx>
+#include <Foundation/NCollection/NCollection_DefineSequence.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 
 //      Declaration of Sequence class managed by Handle

@@ -16,8 +16,8 @@
 #ifndef NCollection_ListNode_HeaderFile
 #define NCollection_ListNode_HeaderFile
 
-#include <NCollection_BaseAllocator.hxx>
-#include <NCollection_DefineAlloc.hxx>
+#include <Foundation/NCollection/NCollection_BaseAllocator.hxx>
+#include <Foundation/NCollection/NCollection_DefineAlloc.hxx>
 
 /**
  * Purpose:     This class is used to  represent a node  in the BaseList and

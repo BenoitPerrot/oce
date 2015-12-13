@@ -18,7 +18,7 @@
 #include <TopoDS_Shape.hxx>  
 #include <TColStd_MapIntegerHasher.hxx>
   
-#include <NCollection_DataMap.hxx>
+#include <Foundation/NCollection/NCollection_DataMap.hxx>
 
 typedef NCollection_DataMap<Standard_Integer, TopoDS_Shape, TColStd_MapIntegerHasher> BOPCol_DataMapOfIntegerShape; 
 typedef BOPCol_DataMapOfIntegerShape::Iterator BOPCol_DataMapIteratorOfDataMapOfIntegerShape; 

@@ -16,7 +16,7 @@
 #ifndef ShapeAnalysis_BoxBndTree_HeaderFile
 #define ShapeAnalysis_BoxBndTree_HeaderFile
 
-#include <NCollection_UBTree.hxx>
+#include <Foundation/NCollection/NCollection_UBTree.hxx>
 #include <Bnd_Box.hxx>
 #include <gp_Pnt.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

@@ -26,8 +26,8 @@
 #include <IntSurf_ListOfPntOn2S.hxx>
 #include <BOPAlgo_PaveFiller.hxx>
 
-#include <NCollection_IncAllocator.hxx>
-#include <NCollection_BaseAllocator.hxx>
+#include <Foundation/NCollection/NCollection_IncAllocator.hxx>
+#include <Foundation/NCollection/NCollection_BaseAllocator.hxx>
 
 #include <Bnd_Box.hxx>
 

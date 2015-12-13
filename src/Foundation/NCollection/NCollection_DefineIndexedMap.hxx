@@ -25,7 +25,7 @@
 #ifndef NCollection_DefineIndexedMap_HeaderFile
 #define NCollection_DefineIndexedMap_HeaderFile
 
-#include <NCollection_IndexedMap.hxx>
+#include <Foundation/NCollection/NCollection_IndexedMap.hxx>
 
 // *********************************************** Class IndexedMap ***********
 

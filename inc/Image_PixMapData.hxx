@@ -17,7 +17,7 @@
 #define _Image_PixMapData_H__
 
 #include <Image_Color.hxx>
-#include <NCollection_Buffer.hxx>
+#include <Foundation/NCollection/NCollection_Buffer.hxx>
 
 //! Structure to manage image buffer.
 class Image_PixMapData : public NCollection_Buffer

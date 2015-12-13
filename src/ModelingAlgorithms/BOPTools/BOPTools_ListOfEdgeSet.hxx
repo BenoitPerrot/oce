@@ -15,7 +15,7 @@
 #ifndef BOPTools_ListOfEdgeSet_HeaderFile
 #define BOPTools_ListOfEdgeSet_HeaderFile
 
-#include <NCollection_List.hxx>   
+#include <Foundation/NCollection/NCollection_List.hxx>   
 #include <BOPTools_EdgeSet.hxx>
 
 typedef NCollection_List<BOPTools_EdgeSet> BOPTools_ListOfEdgeSet; 

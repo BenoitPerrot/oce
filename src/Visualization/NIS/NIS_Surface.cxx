@@ -22,7 +22,7 @@
 #include <BRep_TEdge.hxx>
 #include <BRep_Tool.hxx>
 #include <Geom_Surface.hxx>
-#include <NCollection_Map.hxx>
+#include <Foundation/NCollection/NCollection_Map.hxx>
 #include <Poly_PolygonOnTriangulation.hxx>
 #include <Poly_Triangulation.hxx>
 #include <Precision.hxx>

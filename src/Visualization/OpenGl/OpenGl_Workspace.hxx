@@ -39,7 +39,7 @@
 #include <InterfaceGraphic_Graphic3d.hxx>
 #include <InterfaceGraphic_Visual3d.hxx>
 
-#include <NCollection_Sequence.hxx>
+#include <Foundation/NCollection/NCollection_Sequence.hxx>
 
 #include <OpenGl_AspectFace.hxx>
 #include <OpenGl_FrameBuffer.hxx>

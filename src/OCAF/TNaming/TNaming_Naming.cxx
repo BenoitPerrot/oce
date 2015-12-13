@@ -76,8 +76,8 @@ IMPLEMENT_STANDARD_RTTI(TNaming_Naming)
 #include <TopoDS_Shell.hxx>
 #include <TopoDS_Solid.hxx>
 // #include <TNaming_NCollections.hxx>
-#include <NCollection_Map.hxx>   
-#include <NCollection_DataMap.hxx>
+#include <Foundation/NCollection/NCollection_Map.hxx>   
+#include <Foundation/NCollection/NCollection_DataMap.hxx>
 typedef NCollection_Map<TopoDS_Shape> TNaming_MapOfShape; 
 typedef TNaming_MapOfShape::Iterator TNaming_MapIteratorOfMapOfShape;
 typedef NCollection_DataMap<TopoDS_Shape, TNaming_MapOfShape> TNaming_DataMapOfShapeMapOfShape; 

@@ -16,7 +16,7 @@
 #define BOPCol_DataMapOfIntegerMapOfInteger_HeaderFile
 
 
-#include <NCollection_DataMap.hxx>
+#include <Foundation/NCollection/NCollection_DataMap.hxx>
 
 #include <TColStd_MapIntegerHasher.hxx>
 #include <BOPCol_MapOfInteger.hxx>

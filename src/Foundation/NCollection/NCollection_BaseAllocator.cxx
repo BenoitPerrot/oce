@@ -15,11 +15,11 @@
 
 // Purpose:     Implementation of the BaseAllocator class
 
-#include <NCollection_BaseAllocator.hxx>
-#include <NCollection_IncAllocator.hxx>
-#include <NCollection_DataMap.hxx>
-#include <NCollection_Map.hxx>
-#include <NCollection_List.hxx>
+#include <Foundation/NCollection/NCollection_BaseAllocator.hxx>
+#include <Foundation/NCollection/NCollection_IncAllocator.hxx>
+#include <Foundation/NCollection/NCollection_DataMap.hxx>
+#include <Foundation/NCollection/NCollection_Map.hxx>
+#include <Foundation/NCollection/NCollection_List.hxx>
 #include <Standard_Mutex.hxx>
 #include <fstream>
 #include <iomanip>

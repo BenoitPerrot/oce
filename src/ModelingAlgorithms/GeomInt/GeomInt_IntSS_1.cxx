@@ -46,10 +46,10 @@
 #include <IntPatch_RLine.hxx>
 #include <IntPatch_ALineToWLine.hxx>
 #include <IntPatch_IType.hxx>
-#include <NCollection_IncAllocator.hxx>
-#include <NCollection_List.hxx>
-#include <NCollection_LocalArray.hxx>
-#include <NCollection_StdAllocator.hxx>
+#include <Foundation/NCollection/NCollection_IncAllocator.hxx>
+#include <Foundation/NCollection/NCollection_List.hxx>
+#include <Foundation/NCollection/NCollection_LocalArray.hxx>
+#include <Foundation/NCollection/NCollection_StdAllocator.hxx>
 #include <vector>
 
 #include <AppParCurves_MultiBSpCurve.hxx>

@@ -16,7 +16,7 @@
 #ifndef _NCollection_Mat4_HeaderFile
 #define _NCollection_Mat4_HeaderFile
 
-#include <NCollection_Vec4.hxx>
+#include <Foundation/NCollection/NCollection_Vec4.hxx>
 
 //! Generic matrix of 4 x 4 elements.
 //! To be used in conjunction with NCollection_Vec4 entities.

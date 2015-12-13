@@ -24,8 +24,8 @@
 #include <VrmlData_TextureCoordinate.hxx>
 #include <VrmlData_Scene.hxx>
 #include <Precision.hxx>
-#include <NCollection_Vector.hxx>
-#include <NCollection_DataMap.hxx>
+#include <Foundation/NCollection/NCollection_Vector.hxx>
+#include <Foundation/NCollection/NCollection_DataMap.hxx>
 #include <Poly.hxx>
 #include <TShort_HArray1OfShortReal.hxx>
 

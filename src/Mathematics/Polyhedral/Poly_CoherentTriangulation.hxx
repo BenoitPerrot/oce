@@ -20,7 +20,7 @@
 #include <Poly_CoherentNode.hxx>
 #include <Poly_CoherentTriangle.hxx>
 #include <Poly_CoherentLink.hxx>
-#include <NCollection_Vector.hxx>
+#include <Foundation/NCollection/NCollection_Vector.hxx>
 
 class Handle(Poly_CoherentTriangulation);
 class Poly_CoherentTriangulation;

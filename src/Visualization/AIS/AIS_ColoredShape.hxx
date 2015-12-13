@@ -19,8 +19,8 @@
 #include <AIS_Drawer.hxx>
 #include <AIS_Shape.hxx>
 
-#include <NCollection_DataMap.hxx>
-#include <NCollection_IndexedDataMap.hxx>
+#include <Foundation/NCollection/NCollection_DataMap.hxx>
+#include <Foundation/NCollection/NCollection_IndexedDataMap.hxx>
 #include <TopTools_ShapeMapHasher.hxx>
 #include <TopoDS_Compound.hxx>
 

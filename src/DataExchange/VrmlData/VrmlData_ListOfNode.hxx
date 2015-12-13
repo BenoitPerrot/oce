@@ -16,7 +16,7 @@
 #ifndef VrmlData_ListOfNode_HeaderFile
 #define VrmlData_ListOfNode_HeaderFile
 
-#include <NCollection_List.hxx>
+#include <Foundation/NCollection/NCollection_List.hxx>
 #include <VrmlData_Node.hxx>
 
 /**

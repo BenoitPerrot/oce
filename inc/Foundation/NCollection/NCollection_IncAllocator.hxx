@@ -16,7 +16,7 @@
 #ifndef NCollection_IncAllocator_HeaderFile
 #define NCollection_IncAllocator_HeaderFile
 
-#include <NCollection_BaseAllocator.hxx>
+#include <Foundation/NCollection/NCollection_BaseAllocator.hxx>
 
 #if defined(_MSC_VER) && (_MSC_VER < 1600)
  typedef unsigned __int64 uint64_t;

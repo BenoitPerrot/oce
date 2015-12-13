@@ -15,9 +15,9 @@
 #ifndef BOPCol_Array1_HeaderFile
 #define BOPCol_Array1_HeaderFile
 
-#include <NCollection_List.hxx>
+#include <Foundation/NCollection/NCollection_List.hxx>
 #include <Standard.hxx>
-#include <NCollection_BaseAllocator.hxx>
+#include <Foundation/NCollection/NCollection_BaseAllocator.hxx>
 
 /**
 * Class BOPCol_Array1 (dynamic array of objects)

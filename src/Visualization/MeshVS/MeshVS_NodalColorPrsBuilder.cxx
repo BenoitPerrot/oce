@@ -82,8 +82,8 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_NodalColorPrsBuilder)
 #include <Quantity_Array1OfColor.hxx>
 #include <Aspect_SequenceOfColor.hxx>
 
-#include <NCollection_Map.hxx>
-#include <NCollection_Vector.hxx>
+#include <Foundation/NCollection/NCollection_Map.hxx>
+#include <Foundation/NCollection/NCollection_Vector.hxx>
 
 /*
   Class       : MeshVS_ImageTexture2D

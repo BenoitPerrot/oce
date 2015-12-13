@@ -124,7 +124,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Face)
 #include <ShapeFix_SplitTool.hxx>
 #include <TColStd_MapOfInteger.hxx>
 #include <TopTools_DataMapOfShapeShape.hxx>
-#include <NCollection_Array1.hxx>
+#include <Foundation/NCollection/NCollection_Array1.hxx>
 
 #ifdef OCCT_DEBUG
 #define DEBUG

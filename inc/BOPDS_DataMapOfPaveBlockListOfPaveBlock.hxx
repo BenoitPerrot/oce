@@ -15,7 +15,7 @@
 #ifndef BOPDS_DataMapOfPaveBlockListOfPaveBlock_HeaderFile
 #define BOPDS_DataMapOfPaveBlockListOfPaveBlock_HeaderFile
 
-#include <NCollection_DataMap.hxx>
+#include <Foundation/NCollection/NCollection_DataMap.hxx>
 #include <TColStd_MapTransientHasher.hxx>
 #include <BOPDS_PaveBlock.hxx>   
 #include <BOPDS_ListOfPaveBlock.hxx>

@@ -5,7 +5,7 @@
 #ifndef _NCollection_StdAllocator_HeaderFile
 #define _NCollection_StdAllocator_HeaderFile
 
-#include <NCollection_BaseAllocator.hxx>
+#include <Foundation/NCollection/NCollection_BaseAllocator.hxx>
 
 #if _MSC_VER
   //Workaround for false "unreferenced parameter" warning in destroy().

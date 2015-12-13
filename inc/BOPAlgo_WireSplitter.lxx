@@ -69,11 +69,11 @@ class BOPAlgo_EdgeInfo {
 };
 
 
-#include <NCollection_List.hxx> 
+#include <Foundation/NCollection/NCollection_List.hxx> 
 typedef NCollection_List<BOPAlgo_EdgeInfo> BOPAlgo_ListOfEdgeInfo; 
 typedef BOPAlgo_ListOfEdgeInfo::Iterator BOPAlgo_ListIteratorOfListOfEdgeInfo;  
 
-#include <NCollection_IndexedDataMap.hxx>
+#include <Foundation/NCollection/NCollection_IndexedDataMap.hxx>
 #include <TopTools_ShapeMapHasher.hxx>
 
 typedef NCollection_IndexedDataMap<TopoDS_Shape, \

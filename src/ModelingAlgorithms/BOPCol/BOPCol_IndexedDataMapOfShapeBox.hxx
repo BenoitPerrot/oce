@@ -19,7 +19,7 @@
 #include <TopTools_ShapeMapHasher.hxx>
 #include <Bnd_Box.hxx>
 
-#include <NCollection_IndexedDataMap.hxx>
+#include <Foundation/NCollection/NCollection_IndexedDataMap.hxx>
 
 typedef NCollection_IndexedDataMap<TopoDS_Shape, Bnd_Box, TopTools_ShapeMapHasher> BOPCol_IndexedDataMapOfShapeBox; 
  

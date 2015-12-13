@@ -16,7 +16,7 @@
 #ifndef NCollection_TListNode_HeaderFile
 #define NCollection_TListNode_HeaderFile
 
-#include <NCollection_ListNode.hxx>
+#include <Foundation/NCollection/NCollection_ListNode.hxx>
 
 /**
  * Purpose:     Abstract list node class. Used by BaseList

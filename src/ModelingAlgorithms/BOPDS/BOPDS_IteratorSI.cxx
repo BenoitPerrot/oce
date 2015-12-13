@@ -23,8 +23,8 @@
 #include <TopoDS.hxx>
 #include <BRep_Tool.hxx>
 
-#include <NCollection_UBTreeFiller.hxx>
-#include <NCollection_IncAllocator.hxx>
+#include <Foundation/NCollection/NCollection_UBTreeFiller.hxx>
+#include <Foundation/NCollection/NCollection_IncAllocator.hxx>
 
 #include <BOPCol_BoxBndTree.hxx>
 #include <BOPDS_IndexRange.hxx>

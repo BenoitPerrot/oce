@@ -32,7 +32,7 @@
 #include <Draw_SequenceOfDrawable3D.hxx>
 #include <Draw_ProgressIndicator.hxx>
 
-#include <NCollection_Map.hxx>
+#include <Foundation/NCollection/NCollection_Map.hxx>
 
 #include <ios>
 

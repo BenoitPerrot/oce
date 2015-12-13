@@ -16,12 +16,12 @@
 #ifndef NCollection_EBTree_HeaderFile
 #define NCollection_EBTree_HeaderFile
 
-#include <NCollection_UBTree.hxx>
+#include <Foundation/NCollection/NCollection_UBTree.hxx>
 #include <Standard_DefineHandle.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <NCollection_List.hxx>
+#include <Foundation/NCollection/NCollection_List.hxx>
 #include <TColStd_SequenceOfInteger.hxx>
-#include <NCollection_DataMap.hxx>
+#include <Foundation/NCollection/NCollection_DataMap.hxx>
 
 /**
  * The algorithm of unbalanced binary  tree of overlapped bounding boxes with

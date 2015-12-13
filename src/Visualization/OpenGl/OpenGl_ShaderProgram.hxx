@@ -16,8 +16,8 @@
 #ifndef _OpenGl_ShaderProgram_Header
 #define _OpenGl_ShaderProgram_Header
 
-#include <NCollection_DataMap.hxx>
-#include <NCollection_Sequence.hxx>
+#include <Foundation/NCollection/NCollection_DataMap.hxx>
+#include <Foundation/NCollection/NCollection_Sequence.hxx>
 #include <TCollection_AsciiString.hxx>
 
 #include <Graphic3d_ShaderObject.hxx>

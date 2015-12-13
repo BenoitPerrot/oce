@@ -20,7 +20,7 @@
 
 #include <BOPCol_ListOfShape.hxx>
 #include <TopoDS_Shape.hxx>
-#include <NCollection_BaseAllocator.hxx>
+#include <Foundation/NCollection/NCollection_BaseAllocator.hxx>
 
 //=======================================================================
 //function : 

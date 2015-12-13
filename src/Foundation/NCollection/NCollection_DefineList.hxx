@@ -22,7 +22,7 @@
 #ifndef NCollection_DefineList_HeaderFile
 #define NCollection_DefineList_HeaderFile
 
-#include <NCollection_List.hxx>
+#include <Foundation/NCollection/NCollection_List.hxx>
 
 // **************************************** Template for  List   class ********
 

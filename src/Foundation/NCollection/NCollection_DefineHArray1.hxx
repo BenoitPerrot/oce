@@ -19,7 +19,7 @@
 #define NCollection_DefineHArray1_HeaderFile
 
 #include <Standard_DefineHandle.hxx>
-#include <NCollection_DefineArray1.hxx>
+#include <Foundation/NCollection/NCollection_DefineArray1.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 
 //      Declaration of Array1 class managed by Handle

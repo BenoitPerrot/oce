@@ -18,8 +18,8 @@
 
 #include <BVH_PrimitiveSet.hxx>
 
-#include <NCollection_Array1.hxx>
-#include <NCollection_Sequence.hxx>
+#include <Foundation/NCollection/NCollection_Array1.hxx>
+#include <Foundation/NCollection/NCollection_Sequence.hxx>
 
 #include <OpenGl_Vec.hxx>
 #include <OpenGl_Structure.hxx>

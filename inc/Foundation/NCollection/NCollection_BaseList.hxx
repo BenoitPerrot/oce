@@ -26,8 +26,8 @@
 #define NCollection_BaseList_HeaderFile
 
 #include <Standard_NoSuchObject.hxx>
-#include <NCollection_DefineAlloc.hxx>
-#include <NCollection_ListNode.hxx>
+#include <Foundation/NCollection/NCollection_DefineAlloc.hxx>
+#include <Foundation/NCollection/NCollection_ListNode.hxx>
 
 typedef void (* NCollection_DelListNode) 
      (NCollection_ListNode*, Handle(NCollection_BaseAllocator)& theAl);

@@ -76,7 +76,7 @@ IMPLEMENT_STANDARD_RTTI(BRepCheck_Face)
 #include <BRepAdaptor_HSurface.hxx>
 
 #include <TopTools_OrientedShapeMapHasher.hxx>
-#include <NCollection_DataMap.hxx>
+#include <Foundation/NCollection/NCollection_DataMap.hxx>
 
 typedef NCollection_DataMap<TopoDS_Shape, Bnd_Box2d, TopTools_OrientedShapeMapHasher> DataMapOfShapeBox2d;
 

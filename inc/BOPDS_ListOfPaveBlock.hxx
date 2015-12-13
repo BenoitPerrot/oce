@@ -15,7 +15,7 @@
 #ifndef BOPDS_ListOfPaveBlock_HeaderFile
 #define BOPDS_ListOfPaveBlock_HeaderFile
 
-#include <NCollection_List.hxx>   
+#include <Foundation/NCollection/NCollection_List.hxx>   
 class Handle_BOPDS_PaveBlock;
 
 typedef NCollection_List<Handle(BOPDS_PaveBlock)> BOPDS_ListOfPaveBlock; 

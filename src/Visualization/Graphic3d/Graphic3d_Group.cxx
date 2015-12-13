@@ -42,7 +42,7 @@ IMPLEMENT_STANDARD_RTTI(Graphic3d_Group)
 #include <Graphic3d_TextureMap.hxx>
 #include <Foundation/Message/Message.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
-#include <NCollection_String.hxx>
+#include <Foundation/NCollection/NCollection_String.hxx>
 #include <TCollection_AsciiString.hxx>
 
 #include <Graphic3d_CStructure.hxx>

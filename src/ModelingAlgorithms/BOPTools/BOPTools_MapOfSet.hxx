@@ -18,7 +18,7 @@
 #include <BOPTools_Set.hxx>  
 #include <BOPTools_SetMapHasher.hxx>
 
-#include <NCollection_Map.hxx>   
+#include <Foundation/NCollection/NCollection_Map.hxx>   
 
 typedef NCollection_Map<BOPTools_Set, BOPTools_SetMapHasher> BOPTools_MapOfSet; 
 typedef BOPTools_MapOfSet::Iterator BOPTools_MapIteratorOfMapOfSet;

@@ -14,8 +14,8 @@
 // commercial license or contractual agreement.
 
 #include <Poly_MakeLoops.hxx>
-#include <NCollection_IncAllocator.hxx>
-#include <NCollection_DataMap.hxx>
+#include <Foundation/NCollection/NCollection_IncAllocator.hxx>
+#include <Foundation/NCollection/NCollection_DataMap.hxx>
 #include <gp_Dir.hxx>
 #include <gp_Dir2d.hxx>
 

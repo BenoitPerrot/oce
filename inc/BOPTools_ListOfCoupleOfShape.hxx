@@ -15,7 +15,7 @@
 #ifndef BOPTools_ListOfCoupleOfShape_HeaderFile
 #define BOPTools_ListOfCoupleOfShape_HeaderFile
 
-#include <NCollection_List.hxx>  
+#include <Foundation/NCollection/NCollection_List.hxx>  
 #include <BOPTools_CoupleOfShape.hxx>
 
 typedef NCollection_List<BOPTools_CoupleOfShape> BOPTools_ListOfCoupleOfShape; 

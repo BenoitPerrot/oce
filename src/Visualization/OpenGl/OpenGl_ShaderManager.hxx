@@ -18,8 +18,8 @@
 
 #include <Graphic3d_ShaderProgram_Handle.hxx>
 
-#include <NCollection_DataMap.hxx>
-#include <NCollection_Sequence.hxx>
+#include <Foundation/NCollection/NCollection_DataMap.hxx>
+#include <Foundation/NCollection/NCollection_Sequence.hxx>
 
 #include <Handle_OpenGl_ShaderManager.hxx>
 #include <OpenGl_SetOfShaderPrograms.hxx>

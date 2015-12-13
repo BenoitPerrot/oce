@@ -20,7 +20,7 @@
 #include <OpenGl_telem_util.hxx>
 
 #if (defined(_WIN32) || defined(__WIN32__)) && defined(HAVE_FREEIMAGE)
-  #include <NCollection_Handle.hxx>
+  #include <Foundation/NCollection/NCollection_Handle.hxx>
   #include <FreeImagePlus.h>
   typedef NCollection_Handle<fipImage> FipHandle;
 #endif

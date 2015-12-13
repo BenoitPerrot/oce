@@ -15,7 +15,7 @@
 #define _Graphic3d_Buffer_HeaderFile
 
 #include <Graphic3d_Vec.hxx>
-#include <NCollection_Buffer.hxx>
+#include <Foundation/NCollection/NCollection_Buffer.hxx>
 
 //! Type of attribute in Vertex Buffer
 enum Graphic3d_TypeOfAttribute

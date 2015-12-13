@@ -17,7 +17,7 @@
 
 #include <Standard_Assert.hxx>
 
-#include <NCollection_Array1.hxx>
+#include <Foundation/NCollection/NCollection_Array1.hxx>
 
 #ifdef HAVE_TBB
   // On Windows, function TryEnterCriticalSection has appeared in Windows NT

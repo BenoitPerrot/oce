@@ -73,8 +73,8 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_MeshPrsBuilder)
 #include <MeshVS_Buffer.hxx>
 #include <MeshVS_SymmetricPairHasher.hxx>
 
-#include <NCollection_Map.hxx>
-#include <NCollection_Vector.hxx>
+#include <Foundation/NCollection/NCollection_Map.hxx>
+#include <Foundation/NCollection/NCollection_Vector.hxx>
 
 #if defined(__MINGW32__)
   #ifndef alloca

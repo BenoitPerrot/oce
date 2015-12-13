@@ -30,8 +30,8 @@
 #include <QANCollection_IndexedDataMapOfRealPnt.hxx>
 #include <QANCollection_ListOfPnt.hxx>
 
-#include <NCollection_SparseArray.hxx>
-#include <NCollection_SparseArrayBase.hxx>
+#include <Foundation/NCollection/NCollection_SparseArray.hxx>
+#include <Foundation/NCollection/NCollection_SparseArrayBase.hxx>
 
 #define PERF_ENABLE_METERS
 #include <OSD_PerfMeter.hxx>
@@ -45,27 +45,27 @@
 // These are: TheItemType, TheKey1Type, TheKey2Type
 // So must be defined ::HashCode and ::IsEqual too
 
-#include <NCollection_DefineArray1.hxx>
-#include <NCollection_DefineHArray1.hxx>
+#include <Foundation/NCollection/NCollection_DefineArray1.hxx>
+#include <Foundation/NCollection/NCollection_DefineHArray1.hxx>
 ////////////////////////////////DEFINE_ARRAY1(QANCollection_Array1,QANCollection_BaseCol,ItemType)
 ////////////////////////////////DEFINE_HARRAY1(QANCollection_HArray1,QANCollection_Array1)
 DEFINE_ARRAY1(QANCollection_Array1Perf,QANCollection_BaseColPerf,ItemType)
 DEFINE_HARRAY1(QANCollection_HArray1Perf,QANCollection_Array1Perf)
 IMPLEMENT_HARRAY1(QANCollection_HArray1Perf)
 
-#include <NCollection_DefineArray2.hxx>
-#include <NCollection_DefineHArray2.hxx>
+#include <Foundation/NCollection/NCollection_DefineArray2.hxx>
+#include <Foundation/NCollection/NCollection_DefineHArray2.hxx>
 ////////////////////////////////DEFINE_ARRAY2(QANCollection_Array2,QANCollection_BaseCol,ItemType)
 ////////////////////////////////DEFINE_HARRAY2(QANCollection_HArray2,QANCollection_Array2)
 DEFINE_ARRAY2(QANCollection_Array2Perf,QANCollection_BaseColPerf,ItemType)
 DEFINE_HARRAY2(QANCollection_HArray2Perf,QANCollection_Array2Perf)
 IMPLEMENT_HARRAY2(QANCollection_HArray2Perf)
 
-#include <NCollection_DefineMap.hxx>
-#include <NCollection_DefineDataMap.hxx>
-#include <NCollection_DefineDoubleMap.hxx>
-#include <NCollection_DefineIndexedMap.hxx>
-#include <NCollection_DefineIndexedDataMap.hxx>
+#include <Foundation/NCollection/NCollection_DefineMap.hxx>
+#include <Foundation/NCollection/NCollection_DefineDataMap.hxx>
+#include <Foundation/NCollection/NCollection_DefineDoubleMap.hxx>
+#include <Foundation/NCollection/NCollection_DefineIndexedMap.hxx>
+#include <Foundation/NCollection/NCollection_DefineIndexedDataMap.hxx>
 ////////////////////////////////DEFINE_MAP(QANCollection_Map,QANCollection_Key1BaseCol,Key1Type)
 ////////////////////////////////DEFINE_DATAMAP(QANCollection_DataMap,QANCollection_BaseCol,Key1Type,ItemType)
 ////////////////////////////////DEFINE_DOUBLEMAP(QANCollection_DoubleMap,QANCollection_Key2BaseCol,Key1Type,Key2Type)
@@ -77,12 +77,12 @@ DEFINE_DOUBLEMAP(QANCollection_DoubleMapPerf,QANCollection_Key2BaseColPerf,Key1T
 DEFINE_INDEXEDMAP(QANCollection_IndexedMapPerf,QANCollection_Key1BaseColPerf,Key1Type)
 DEFINE_INDEXEDDATAMAP(QANCollection_IDMapPerf,QANCollection_BaseColPerf,Key1Type,ItemType)
 
-#include <NCollection_DefineList.hxx>
+#include <Foundation/NCollection/NCollection_DefineList.hxx>
 ////////////////////////////////DEFINE_LIST(QANCollection_List,QANCollection_BaseCol,ItemType)
 DEFINE_LIST(QANCollection_ListPerf,QANCollection_BaseColPerf,ItemType)
 
-#include <NCollection_DefineSequence.hxx>
-#include <NCollection_DefineHSequence.hxx>
+#include <Foundation/NCollection/NCollection_DefineSequence.hxx>
+#include <Foundation/NCollection/NCollection_DefineHSequence.hxx>
 ////////////////////////////////DEFINE_SEQUENCE(QANCollection_Sequence,QANCollection_BaseCol,ItemType)
 ////////////////////////////////DEFINE_HSEQUENCE(QANCollection_HSequence,QANCollection_Sequence)
 DEFINE_SEQUENCE(QANCollection_SequencePerf,QANCollection_BaseColPerf,ItemType)

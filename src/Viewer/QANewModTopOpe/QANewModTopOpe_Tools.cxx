@@ -49,7 +49,7 @@
 #include <BOPDS_CommonBlock.hxx>
 #include <BOPTools_AlgoTools3D.hxx>
 
-#include <NCollection_Array1.hxx>
+#include <Foundation/NCollection/NCollection_Array1.hxx>
 #include <algorithm>
 
 static Standard_Boolean AddShapeToHistoryMap(const TopoDS_Shape& theOldShape,

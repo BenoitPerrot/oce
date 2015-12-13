@@ -18,7 +18,7 @@
 #include <TopoDS_Shape.hxx>  
 #include <TopTools_OrientedShapeMapHasher.hxx>
 
-#include <NCollection_Map.hxx>   
+#include <Foundation/NCollection/NCollection_Map.hxx>   
 
 typedef NCollection_Map<TopoDS_Shape, TopTools_OrientedShapeMapHasher> BOPCol_MapOfOrientedShape; 
 typedef BOPCol_MapOfOrientedShape::Iterator BOPCol_MapIteratorOfMapOfOrientedShape;  

@@ -29,8 +29,8 @@ IMPLEMENT_STANDARD_RTTI(Font_FontMgr)
 
 #include <Font_FTLibrary.hxx>
 #include <OSD_Environment.hxx>
-#include <NCollection_List.hxx>
-#include <NCollection_Map.hxx>
+#include <Foundation/NCollection/NCollection_List.hxx>
+#include <Foundation/NCollection/NCollection_Map.hxx>
 #include <Standard_Stream.hxx>
 #include <TCollection_HAsciiString.hxx>
 

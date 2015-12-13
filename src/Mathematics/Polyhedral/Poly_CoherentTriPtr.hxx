@@ -16,8 +16,8 @@
 #ifndef Poly_CoherentTriPtr_HeaderFile
 #define Poly_CoherentTriPtr_HeaderFile
 
-#include <NCollection_BaseAllocator.hxx>
-#include <NCollection_DefineAlloc.hxx>
+#include <Foundation/NCollection/NCollection_BaseAllocator.hxx>
+#include <Foundation/NCollection/NCollection_DefineAlloc.hxx>
 
 class Poly_CoherentTriangle;
 

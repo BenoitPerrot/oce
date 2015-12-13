@@ -26,7 +26,7 @@
 #include <AIS_InteractiveContext.hxx>
 #include <NIS_View.hxx>
 #include <TCollection_AsciiString.hxx>
-#include <NCollection_DoubleMap.hxx>
+#include <Foundation/NCollection/NCollection_DoubleMap.hxx>
 
 //! Custom Cocoa view to handle events
 @interface ViewerTest_CocoaEventManagerView : NSView

@@ -16,8 +16,8 @@
 #ifndef NCollection_UBTreeFiller_HeaderFile
 #define NCollection_UBTreeFiller_HeaderFile
 
-#include <NCollection_UBTree.hxx>
-#include <NCollection_Vector.hxx>
+#include <Foundation/NCollection/NCollection_UBTree.hxx>
+#include <Foundation/NCollection/NCollection_Vector.hxx>
 #include <stdlib.h>
 #include <stdio.h>
 

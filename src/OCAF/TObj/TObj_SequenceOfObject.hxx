@@ -18,8 +18,8 @@
 #ifndef TObj_SequenceOfObject_HeaderFile
 #define TObj_SequenceOfObject_HeaderFile
 
-#include <NCollection_Sequence.hxx>
-#include <NCollection_DefineHSequence.hxx>
+#include <Foundation/NCollection/NCollection_Sequence.hxx>
+#include <Foundation/NCollection/NCollection_DefineHSequence.hxx>
 
 #include <TObj_Common.hxx>
 #include <Handle_TObj_Object.hxx>

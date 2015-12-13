@@ -16,8 +16,8 @@
 #ifndef NCollection_HArray1_HeaderFile
 #define NCollection_HArray1_HeaderFile
 
-#include <NCollection_Array1.hxx>
-#include <NCollection_DefineHArray1.hxx>
+#include <Foundation/NCollection/NCollection_Array1.hxx>
+#include <Foundation/NCollection/NCollection_DefineHArray1.hxx>
 
 //      Declaration of Array1 class managed by Handle
 

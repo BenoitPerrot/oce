@@ -15,7 +15,7 @@
 #ifndef BOPDS_ListOfPassKeyBoolean_HeaderFile
 #define BOPDS_ListOfPassKeyBoolean_HeaderFile
 
-#include <NCollection_List.hxx>   
+#include <Foundation/NCollection/NCollection_List.hxx>   
 #include <BOPDS_PassKeyBoolean.hxx>   
 
 typedef NCollection_List<BOPDS_PassKeyBoolean> BOPDS_ListOfPassKeyBoolean; 

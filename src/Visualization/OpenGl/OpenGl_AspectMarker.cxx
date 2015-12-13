@@ -24,7 +24,7 @@
 #include <Image_PixMap.hxx>
 #include <Graphic3d_MarkerImage.hxx>
 #include <Graphic3d_ShaderProgram.hxx>
-#include <NCollection_Vec4.hxx>
+#include <Foundation/NCollection/NCollection_Vec4.hxx>
 #include <TColStd_HArray1OfByte.hxx>
 
 namespace

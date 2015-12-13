@@ -29,7 +29,7 @@ IMPLEMENT_DOWNCAST(XmlMDataStd_RealListDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlMDataStd_RealListDriver)
 #include <TDataStd_RealList.hxx>
 #include <TColStd_ListIteratorOfListOfReal.hxx>
-#include <NCollection_LocalArray.hxx>
+#include <Foundation/NCollection/NCollection_LocalArray.hxx>
 #include <XmlObjMgt.hxx>
 
 IMPLEMENT_DOMSTRING (FirstIndexString, "first")

@@ -24,10 +24,10 @@
 #include <Handle_OpenGl_Sampler.hxx>
 #include <Handle_OpenGl_ShaderManager.hxx>
 #include <Handle_OpenGl_ShaderProgram.hxx>
-#include <NCollection_DataMap.hxx>
-#include <NCollection_Map.hxx>
-#include <NCollection_Handle.hxx>
-#include <NCollection_List.hxx>
+#include <Foundation/NCollection/NCollection_DataMap.hxx>
+#include <Foundation/NCollection/NCollection_Map.hxx>
+#include <Foundation/NCollection/NCollection_Handle.hxx>
+#include <Foundation/NCollection/NCollection_List.hxx>
 #include <Foundation/Message/Message.hxx>
 #include <OpenGl_Caps.hxx>
 #include <OpenGl_Vec.hxx>

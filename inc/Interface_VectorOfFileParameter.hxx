@@ -17,7 +17,7 @@
 #define Interface_VectorOfFileParameter_HeaderFile
 
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <NCollection_Vector.hxx>
+#include <Foundation/NCollection/NCollection_Vector.hxx>
 #include <Interface_FileParameter.hxx>
 
 /**

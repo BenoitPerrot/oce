@@ -36,7 +36,7 @@ inline Standard_Boolean IsEqual(const iXYZ& one, const iXYZ& two)
   return one.ix == two.ix && one.iy == two.iy && one.iz == two.iz;
 }
 
-#include <NCollection_DataMap.hxx>
+#include <Foundation/NCollection/NCollection_DataMap.hxx>
 
 typedef NCollection_DataMap<iXYZ, Standard_Integer> iXYZIndex;
 typedef NCollection_DataMap<iXYZ, Standard_Byte> iXYZBool;

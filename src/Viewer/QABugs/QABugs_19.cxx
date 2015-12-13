@@ -44,8 +44,8 @@
 #include <BRepPrimAPI_MakeBox.hxx>
 #include <BRepPrimAPI_MakeSphere.hxx>
 #include <BRepAlgo_Cut.hxx>
-#include <NCollection_Map.hxx>
-#include <NCollection_Handle.hxx>
+#include <Foundation/NCollection/NCollection_Map.hxx>
+#include <Foundation/NCollection/NCollection_Handle.hxx>
 #include <TCollection_HAsciiString.hxx>
 #include <GeomFill_Trihedron.hxx>
 #include <BRepOffsetAPI_MakePipe.hxx>

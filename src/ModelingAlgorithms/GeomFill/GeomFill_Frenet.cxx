@@ -40,7 +40,7 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_Frenet)
 #include <Extrema_ExtPC.hxx>
 #include <TColStd_HArray1OfBoolean.hxx>
 #include <TColgp_SequenceOfPnt2d.hxx>
-#include <NCollection_Array1.hxx>
+#include <Foundation/NCollection/NCollection_Array1.hxx>
 #include <algorithm>
 
 static const Standard_Real NullTol = 1.e-10;

@@ -846,7 +846,7 @@ static Standard_Integer OCC1919_set (Draw_Interpretor& di, Standard_Integer argc
 #include <DDF.hxx>
 #include <TDF_Label.hxx>
 #include <TDataStd_Real.hxx>
-#include <NCollection_BaseMap.hxx>
+#include <Foundation/NCollection/NCollection_BaseMap.hxx>
 static Standard_Integer OCC1919_real (Draw_Interpretor& di, Standard_Integer argc, const char ** argv)
 {
   if (argc == 4) {

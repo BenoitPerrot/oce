@@ -62,7 +62,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_ConnectedInteractive)
 
 #include <AIS_Shape.hxx>
 
-#include <NCollection_DataMap.hxx>
+#include <Foundation/NCollection/NCollection_DataMap.hxx>
 
 
 //=======================================================================

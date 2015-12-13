@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(XmlMDataStd_TreeNodeDriver)
 IMPLEMENT_DOWNCAST(XmlMDataStd_TreeNodeDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlMDataStd_TreeNodeDriver)
-#include <NCollection_LocalArray.hxx>
+#include <Foundation/NCollection/NCollection_LocalArray.hxx>
 #include <TDataStd_TreeNode.hxx>
 #include <XmlObjMgt.hxx>
 

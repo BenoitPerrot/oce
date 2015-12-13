@@ -51,7 +51,7 @@
 #include <TopoDS_Vertex.hxx>
 #include <TopExp.hxx>
 
-#include <NCollection_Map.hxx>
+#include <Foundation/NCollection/NCollection_Map.hxx>
 #include <Bnd_Box2d.hxx>
 
 #include <algorithm>

@@ -15,7 +15,7 @@
 #ifndef BOPDS_MapOfCommonBlock_HeaderFile
 #define BOPDS_MapOfCommonBlock_HeaderFile
 
-#include <NCollection_Map.hxx>   
+#include <Foundation/NCollection/NCollection_Map.hxx>   
 #include <TColStd_MapTransientHasher.hxx>
 #include <BOPDS_CommonBlock.hxx>   
 

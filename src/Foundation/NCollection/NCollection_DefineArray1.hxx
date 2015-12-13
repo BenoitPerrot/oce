@@ -37,7 +37,7 @@
 #ifndef NCollection_DefineArray1_HeaderFile
 #define NCollection_DefineArray1_HeaderFile
 
-#include <NCollection_Array1.hxx>
+#include <Foundation/NCollection/NCollection_Array1.hxx>
 
 // *********************************************** Template for Array1 class
 

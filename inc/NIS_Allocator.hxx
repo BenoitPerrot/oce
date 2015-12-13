@@ -16,7 +16,7 @@
 #ifndef NIS_Allocator_HeaderFile
 #define NIS_Allocator_HeaderFile
 
-#include <NCollection_IncAllocator.hxx>
+#include <Foundation/NCollection/NCollection_IncAllocator.hxx>
 
 /**
  * Subclass of Incremental Allocator. It is aware of the total

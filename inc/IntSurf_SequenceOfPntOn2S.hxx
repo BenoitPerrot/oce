@@ -15,7 +15,7 @@
 #define IntSurf_SequenceOfPntOn2S_HeaderFile
 
 #include <IntSurf_PntOn2S.hxx>
-#include <NCollection_Sequence.hxx>
+#include <Foundation/NCollection/NCollection_Sequence.hxx>
 
 typedef NCollection_Sequence<IntSurf_PntOn2S> IntSurf_SequenceOfPntOn2S;
 

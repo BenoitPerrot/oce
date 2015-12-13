@@ -60,7 +60,7 @@ IMPLEMENT_STANDARD_RTTI(DNaming_TransformationDriver)
 #include <gp_Ax2.hxx>
 #include <gp_Pln.hxx>
 #include <GeomLib_IsPlanarSurface.hxx>
-#include <NCollection_Handle.hxx>
+#include <Foundation/NCollection/NCollection_Handle.hxx>
 #include <ModelDefinitions.hxx>
 
 #ifdef WNT

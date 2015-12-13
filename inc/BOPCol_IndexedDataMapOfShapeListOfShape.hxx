@@ -20,7 +20,7 @@
 #include <TopTools_ShapeMapHasher.hxx>
 #include <BOPCol_ListOfShape.hxx>
 
-#include <NCollection_IndexedDataMap.hxx>
+#include <Foundation/NCollection/NCollection_IndexedDataMap.hxx>
 
 typedef NCollection_IndexedDataMap<TopoDS_Shape, BOPCol_ListOfShape, TopTools_ShapeMapHasher> BOPCol_IndexedDataMapOfShapeListOfShape; 
 

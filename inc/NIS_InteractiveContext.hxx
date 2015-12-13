@@ -23,8 +23,8 @@
 # include <Handle_NIS_InteractiveObject.hxx>
 # include <Handle_NIS_View.hxx>
 #endif
-#include <NCollection_Map.hxx>
-#include <NCollection_SparseArray.hxx>
+#include <Foundation/NCollection/NCollection_Map.hxx>
+#include <Foundation/NCollection/NCollection_SparseArray.hxx>
 #include <NIS_Allocator.hxx>
 #include <NIS_Drawer.hxx>
 #include <NIS_SelectFilter.hxx>

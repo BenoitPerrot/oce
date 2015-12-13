@@ -32,7 +32,7 @@
 //          and current element of sequence,
 //          also it has methods for the sequence management.
 
-#include <NCollection_BaseAllocator.hxx>
+#include <Foundation/NCollection/NCollection_BaseAllocator.hxx>
 #include <Standard_OStream.hxx>
 #include <Standard_Boolean.hxx>
 

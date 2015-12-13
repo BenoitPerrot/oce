@@ -24,7 +24,7 @@
 #include <BRep_Builder.hxx>
 #include <BRep_Tool.hxx>
 #include <Geom_Surface.hxx>
-#include <NCollection_DataMap.hxx>
+#include <Foundation/NCollection/NCollection_DataMap.hxx>
 #include <Poly_Triangulation.hxx>
 #include <Poly_Connect.hxx>
 #include <Poly_PolygonOnTriangulation.hxx>

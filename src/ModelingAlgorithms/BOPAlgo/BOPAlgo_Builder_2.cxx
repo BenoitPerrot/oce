@@ -21,7 +21,7 @@
 #include <TopTools_ListOfShape.hxx>
 #include <BOPAlgo_Builder.hxx>
 //
-#include <NCollection_IncAllocator.hxx>
+#include <Foundation/NCollection/NCollection_IncAllocator.hxx>
 //
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Face.hxx>

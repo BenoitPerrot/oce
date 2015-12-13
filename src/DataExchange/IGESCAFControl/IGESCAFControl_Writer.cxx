@@ -52,7 +52,7 @@
 #include <IGESData_NameEntity.hxx>
 #include <TopTools_SequenceOfShape.hxx>
 #include <TColStd_HSequenceOfExtendedString.hxx>
-#include <NCollection_DataMap.hxx>
+#include <Foundation/NCollection/NCollection_DataMap.hxx>
 
 namespace
 {

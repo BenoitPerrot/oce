@@ -18,7 +18,7 @@ OSD_Chronometer Chronrsnld;
 
 #endif
 
-#include <NCollection_IncAllocator.hxx>
+#include <Foundation/NCollection/NCollection_IncAllocator.hxx>
 #include <Precision.hxx>
 
 IntWalk_IWalking::IntWalk_IWalking (const Standard_Real Epsilon,

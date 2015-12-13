@@ -17,8 +17,8 @@
 #ifndef NCollection_AccAllocator_HeaderFile
 #define NCollection_AccAllocator_HeaderFile
 
-#include <NCollection_BaseAllocator.hxx>
-#include <NCollection_DataMap.hxx>
+#include <Foundation/NCollection/NCollection_BaseAllocator.hxx>
+#include <Foundation/NCollection/NCollection_DataMap.hxx>
 
 //!
 //! Class  NCollection_AccAllocator  -  accumulating  memory  allocator.  This

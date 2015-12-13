@@ -31,7 +31,7 @@
 
 #include <Foundation/Message/Message_Messenger.hxx>
 
-#include <NCollection_Vector.hxx>
+#include <Foundation/NCollection/NCollection_Vector.hxx>
 
 #include <Standard_ProgramError.hxx>
 

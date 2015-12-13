@@ -20,7 +20,7 @@
 #include <Graphic3d_Group.hxx>
 #include <Graphic3d_Structure.hxx>
 
-#include <NCollection_List.hxx>
+#include <Foundation/NCollection/NCollection_List.hxx>
 #include <OpenGl_AspectLine.hxx>
 #include <OpenGl_AspectFace.hxx>
 #include <OpenGl_AspectMarker.hxx>

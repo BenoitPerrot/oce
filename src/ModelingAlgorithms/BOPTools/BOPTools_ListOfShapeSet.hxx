@@ -16,7 +16,7 @@
 #define BOPTools_ListOfShapeSet_HeaderFile
 
 
-#include <NCollection_List.hxx>   
+#include <Foundation/NCollection/NCollection_List.hxx>   
 #include <BOPTools_ShapeSet.hxx>
 
 typedef NCollection_List<BOPTools_ShapeSet> BOPTools_ListOfShapeSet; 

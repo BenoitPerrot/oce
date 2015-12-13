@@ -15,7 +15,7 @@
 #ifndef BOPCol_ListOfShape_HeaderFile
 #define BOPCol_ListOfShape_HeaderFile
 
-#include <NCollection_List.hxx>   
+#include <Foundation/NCollection/NCollection_List.hxx>   
 #include <TopoDS_Shape.hxx>
 
 typedef NCollection_List<TopoDS_Shape> BOPCol_ListOfShape; 

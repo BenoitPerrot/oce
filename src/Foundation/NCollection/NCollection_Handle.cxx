@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <NCollection_Handle.hxx>
+#include <Foundation/NCollection/NCollection_Handle.hxx>
 
 // NOTE: OCCT type information functions are defined explicitly
 // instead of using macros from Standard_DefineHandle.hxx,

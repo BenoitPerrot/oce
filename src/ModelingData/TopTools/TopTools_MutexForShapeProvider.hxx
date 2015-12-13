@@ -17,7 +17,7 @@
 #define _TopTools_MutexForShapeProvider_HeaderFile
 
 #include <TopoDS_TShape.hxx>
-#include <NCollection_DataMap.hxx>
+#include <Foundation/NCollection/NCollection_DataMap.hxx>
 #include <TopAbs_ShapeEnum.hxx>
 
 class Standard_Mutex;

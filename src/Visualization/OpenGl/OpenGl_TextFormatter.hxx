@@ -22,7 +22,7 @@
 #include <Graphic3d_HorizontalTextAlignment.hxx>
 #include <Graphic3d_VerticalTextAlignment.hxx>
 
-#include <NCollection_String.hxx>
+#include <Foundation/NCollection/NCollection_String.hxx>
 
 //! This class intended to prepare formatted text.
 class OpenGl_TextFormatter : public Standard_Transient

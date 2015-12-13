@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <NCollection_Mat4.hxx>
+#include <Foundation/NCollection/NCollection_Mat4.hxx>
 
 #include <OpenGl_ShaderStates.hxx>
 

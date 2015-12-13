@@ -55,7 +55,7 @@
 #include <Graphic3d_Array1OfVertex.hxx>
 #include <Graphic3d_Array2OfVertex.hxx>
 #include <Graphic3d_BufferType.hxx>
-#include <NCollection_DataMap.hxx>
+#include <Foundation/NCollection/NCollection_DataMap.hxx>
 
 class TColStd_Array1OfInteger;
 class TColStd_Array1OfReal;

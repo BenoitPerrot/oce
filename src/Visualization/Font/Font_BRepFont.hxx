@@ -23,8 +23,8 @@
 #include <gp_Ax3.hxx>
 #include <gp_XY.hxx>
 #include <gp_XYZ.hxx>
-#include <NCollection_DataMap.hxx>
-#include <NCollection_String.hxx>
+#include <Foundation/NCollection/NCollection_DataMap.hxx>
+#include <Foundation/NCollection/NCollection_String.hxx>
 #include <Standard_Mutex.hxx>
 #include <ShapeFix_Face.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>

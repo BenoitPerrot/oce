@@ -41,9 +41,9 @@
 #include <V3d_LayerMgrPointer.hxx>
 #include <V3d_PositionalLight.hxx>
 #include <V3d_SpotLight.hxx>
-#include <NCollection_DoubleMap.hxx>
-#include <NCollection_List.hxx>
-#include <NCollection_Vector.hxx>
+#include <Foundation/NCollection/NCollection_DoubleMap.hxx>
+#include <Foundation/NCollection/NCollection_List.hxx>
+#include <Foundation/NCollection/NCollection_Vector.hxx>
 #include <NIS_View.hxx>
 #include <NIS_Triangulated.hxx>
 #include <NIS_InteractiveContext.hxx>
@@ -69,7 +69,7 @@
 #include <gp_Pln.hxx>
 #include <PrsMgr_PresentableObject.hxx>
 #include <Graphic3d_ClipPlane.hxx>
-#include <NCollection_DataMap.hxx>
+#include <Foundation/NCollection/NCollection_DataMap.hxx>
 #include <Graphic3d_Texture2Dmanual.hxx>
 #include <Prs3d_ShadingAspect.hxx>
 

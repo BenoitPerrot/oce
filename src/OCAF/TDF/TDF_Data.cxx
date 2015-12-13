@@ -50,7 +50,7 @@ IMPLEMENT_STANDARD_RTTI(TDF_Data)
 #include <Standard_NoMoreObject.hxx>
 #include <Standard_NullObject.hxx>
 
-#include <NCollection_IncAllocator.hxx>
+#include <Foundation/NCollection/NCollection_IncAllocator.hxx>
 
 #undef DEB_DELTA_CREATION
 #undef TDF_DATA_COMMIT_OPTIMIZED

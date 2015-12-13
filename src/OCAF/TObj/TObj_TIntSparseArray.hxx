@@ -20,7 +20,7 @@
 
 #include <TObj_Common.hxx>
 
-#include <NCollection_SparseArray.hxx>
+#include <Foundation/NCollection/NCollection_SparseArray.hxx>
 #include <TDF_Attribute.hxx>
 #include <TDF_Label.hxx>
 

@@ -28,7 +28,7 @@
 
 #include <Precision.hxx>
 
-#include <NCollection_IncAllocator.hxx>
+#include <Foundation/NCollection/NCollection_IncAllocator.hxx>
 
 #include <gp_Pnt2d.hxx>
 #include <gp_Lin2d.hxx>

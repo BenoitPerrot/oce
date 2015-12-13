@@ -16,7 +16,7 @@
 #ifndef _math_PSOParticlesPool_HeaderFile
 #define _math_PSOParticlesPool_HeaderFile
 
-#include <NCollection_Array1.hxx>
+#include <Foundation/NCollection/NCollection_Array1.hxx>
 
 //! Describes particle pool for using in PSO algorithm.
 //! Indexes:

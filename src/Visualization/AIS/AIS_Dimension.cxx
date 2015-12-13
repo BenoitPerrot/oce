@@ -40,7 +40,7 @@
 #include <Graphic3d_AspectFillArea3d.hxx>
 #include <Graphic3d_AspectText3d.hxx>
 #include <Graphic3d_Group.hxx>
-#include <NCollection_UtfString.hxx>
+#include <Foundation/NCollection/NCollection_UtfString.hxx>
 #include <PrsMgr_PresentationManager3d.hxx>
 #include <Prs3d_Arrow.hxx>
 #include <Prs3d_ArrowAspect.hxx>

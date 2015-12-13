@@ -17,7 +17,7 @@
 #define _PrsMgr_ListOfPresentableObjects_HeaderFile
 
 #include <PrsMgr_PresentableObject.hxx>
-#include <NCollection_List.hxx>
+#include <Foundation/NCollection/NCollection_List.hxx>
 
 typedef NCollection_List<Handle(PrsMgr_PresentableObject)> PrsMgr_ListOfPresentableObjects;
 typedef NCollection_List<Handle(PrsMgr_PresentableObject)>::Iterator PrsMgr_ListOfPresentableObjectsIter;

@@ -16,8 +16,8 @@
 #ifndef NCollection_List_HeaderFile
 #define NCollection_List_HeaderFile
 
-#include <NCollection_TListIterator.hxx>
-#include <NCollection_StlIterator.hxx>
+#include <Foundation/NCollection/NCollection_TListIterator.hxx>
+#include <Foundation/NCollection/NCollection_StlIterator.hxx>
 
 #include <Standard_NoSuchObject.hxx>
 

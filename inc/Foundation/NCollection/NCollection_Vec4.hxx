@@ -15,7 +15,7 @@
 #ifndef _NCollection_Vec4_H__
 #define _NCollection_Vec4_H__
 
-#include <NCollection_Vec3.hxx>
+#include <Foundation/NCollection/NCollection_Vec3.hxx>
 
 //! Generic 4-components vector.
 //! To be used as RGBA color vector or XYZW 3D-point with special W-component

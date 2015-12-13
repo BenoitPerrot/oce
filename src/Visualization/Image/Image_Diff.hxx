@@ -19,8 +19,8 @@
 #include <Image_PixMap.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <TColStd_MapOfInteger.hxx>
-#include <NCollection_List.hxx>
-#include <NCollection_Vector.hxx>
+#include <Foundation/NCollection/NCollection_List.hxx>
+#include <Foundation/NCollection/NCollection_Vector.hxx>
 
 //! This class compares two images pixel-by-pixel.
 //! It uses the following methods to ignore the difference between images:

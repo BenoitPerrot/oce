@@ -23,7 +23,7 @@
 #include <BRepTopAdaptor_SeqOfPtr.hxx>
 #include <TColStd_SequenceOfBoolean.hxx>
 #include <TopAbs_State.hxx>
-#include <NCollection_Sequence.hxx>
+#include <Foundation/NCollection/NCollection_Sequence.hxx>
 #include <gp_Pnt2d.hxx>
 
 //! Auxilary class contains information about correctness of discretized 

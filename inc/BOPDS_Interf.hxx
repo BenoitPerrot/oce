@@ -16,7 +16,7 @@
 #define BOPDS_Interf_HeaderFile
 
 #include <IntTools_CommonPrt.hxx>
-#include <NCollection_BaseAllocator.hxx>
+#include <Foundation/NCollection/NCollection_BaseAllocator.hxx>
 #include <BOPDS_VectorOfCurve.hxx>
 #include <BOPDS_VectorOfPoint.hxx>
 

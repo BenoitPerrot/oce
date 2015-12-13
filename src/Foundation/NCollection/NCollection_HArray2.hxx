@@ -16,8 +16,8 @@
 #ifndef NCollection_HArray2_HeaderFile
 #define NCollection_HArray2_HeaderFile
 
-#include <NCollection_Array2.hxx>
-#include <NCollection_DefineHArray2.hxx>
+#include <Foundation/NCollection/NCollection_Array2.hxx>
+#include <Foundation/NCollection/NCollection_DefineHArray2.hxx>
 
 //      Declaration of Array2 class managed by Handle
 

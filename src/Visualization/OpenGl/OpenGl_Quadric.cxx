@@ -15,7 +15,7 @@
 
 #include <OpenGl_Quadric.hxx>
 
-#include <NCollection_AlignedAllocator.hxx>
+#include <Foundation/NCollection/NCollection_AlignedAllocator.hxx>
 
 // =======================================================================
 // function : OpenGl_Quadric

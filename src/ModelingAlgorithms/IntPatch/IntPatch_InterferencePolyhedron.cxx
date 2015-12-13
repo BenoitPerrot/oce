@@ -36,7 +36,7 @@
 #include <TColStd_ListIteratorOfListOfInteger.hxx>
 #include <Bnd_BoundSortBox.hxx>
 
-#include <NCollection_LocalArray.hxx>
+#include <Foundation/NCollection/NCollection_LocalArray.hxx>
 
 static const int Pourcent3[9] = {0, 1, 2, 0, 1, 2, 0, 1, 2};
 

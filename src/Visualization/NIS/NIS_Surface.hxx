@@ -17,7 +17,7 @@
 #define NIS_Surface_HeaderFile
 
 #include <NIS_InteractiveObject.hxx>
-#include <NCollection_BaseAllocator.hxx>
+#include <Foundation/NCollection/NCollection_BaseAllocator.hxx>
 #include <gp_XYZ.hxx>
 
 class Quantity_Color;

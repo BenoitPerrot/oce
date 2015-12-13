@@ -16,8 +16,8 @@
 #ifndef NCollection_Vector_HeaderFile
 #define NCollection_Vector_HeaderFile
 
-#include <NCollection_BaseVector.hxx>
-#include <NCollection_StlIterator.hxx>
+#include <Foundation/NCollection/NCollection_BaseVector.hxx>
+#include <Foundation/NCollection/NCollection_StlIterator.hxx>
 
 //! Class NCollection_Vector (dynamic array of objects)
 //!

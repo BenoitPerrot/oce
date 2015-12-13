@@ -21,8 +21,8 @@
 
 #include <Font_FTFont.hxx>
 
-#include <NCollection_DataMap.hxx>
-#include <NCollection_Vector.hxx>
+#include <Foundation/NCollection/NCollection_DataMap.hxx>
+#include <Foundation/NCollection/NCollection_Vector.hxx>
 #include <TCollection_AsciiString.hxx>
 
 //! Texture font.

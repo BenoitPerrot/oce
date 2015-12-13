@@ -15,7 +15,7 @@
 #ifndef BOPCol_SequenceOfReal_HeaderFile
 #define BOPCol_SequenceOfReal_HeaderFile
 
-#include <NCollection_Sequence.hxx>   
+#include <Foundation/NCollection/NCollection_Sequence.hxx>   
 #include <Standard_Real.hxx>
 
 typedef NCollection_Sequence<Standard_Real> BOPCol_SequenceOfReal; 
