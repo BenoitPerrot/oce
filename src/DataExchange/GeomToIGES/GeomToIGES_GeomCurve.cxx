@@ -97,7 +97,7 @@
 
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <GeomConvert_ApproxCurve.hxx>
 
 #include <ShapeCustom_BSplineRestriction.hxx>

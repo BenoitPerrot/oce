@@ -61,9 +61,9 @@ IMPLEMENT_DOWNCAST(Geom_BSplineCurve,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Geom_BSplineCurve)
 #include <gp.hxx>
 #include <ElCLib.hxx>
-#include <BSplCLib.hxx>
-#include <BSplCLib_KnotDistribution.hxx>
-#include <BSplCLib_MultDistribution.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib_KnotDistribution.hxx>
+#include <Mathematics/BetaSpline/BSplCLib_MultDistribution.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>

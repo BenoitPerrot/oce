@@ -21,7 +21,7 @@
 #define No_Standard_OutOfRange
 
 #include <BSplSLib.hxx>
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 
 //=======================================================================

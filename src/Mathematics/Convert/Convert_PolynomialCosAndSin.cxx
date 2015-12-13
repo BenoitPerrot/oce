@@ -25,7 +25,7 @@
 #include <gp.hxx>
 #include <Precision.hxx>
 #include <PLib.hxx>
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 

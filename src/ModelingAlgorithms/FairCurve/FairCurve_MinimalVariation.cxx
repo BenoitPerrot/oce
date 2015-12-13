@@ -26,7 +26,7 @@
 #include <gp_Vec2d.hxx>
 #include <FairCurve_MinimalVariation.hxx>
 
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <PLib.hxx>
 #include <Geom2d_BSplineCurve.hxx>
 #include <FairCurve_BattenLaw.hxx>

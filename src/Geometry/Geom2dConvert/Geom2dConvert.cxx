@@ -43,7 +43,7 @@
 #include <gp_Vec2d.hxx>
 #include <gp_Dir2d.hxx>
 
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 
 #include <Geom2d_Curve.hxx>
 #include <Geom2d_Line.hxx>

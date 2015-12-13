@@ -49,7 +49,7 @@ IMPLEMENT_STANDARD_RTTI(Geom_OffsetSurface)
 #include <gp_Dir.hxx>
 #include <gp_XYZ.hxx>
 #include <BSplSLib.hxx>
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <CSLib.hxx>
 #include <Precision.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>

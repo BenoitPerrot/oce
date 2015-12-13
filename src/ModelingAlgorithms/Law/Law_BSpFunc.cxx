@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_TYPE_END(Law_BSpFunc)
 IMPLEMENT_DOWNCAST(Law_BSpFunc,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Law_BSpFunc)
 
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Precision.hxx>
 #include <Law_BSplineKnotSplitting.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>

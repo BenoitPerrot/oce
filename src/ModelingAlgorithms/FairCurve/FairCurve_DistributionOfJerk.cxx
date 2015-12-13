@@ -31,7 +31,7 @@
 #include <gp_Pnt2d.hxx>
 #include <math_Vector.hxx>
 #include <math_Matrix.hxx>
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 
 
 FairCurve_DistributionOfJerk::FairCurve_DistributionOfJerk(const Standard_Integer BSplOrder, 

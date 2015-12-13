@@ -41,7 +41,7 @@
 #include <Geom2d_OffsetCurve.hxx>
 #include <Geom2dAdaptor_HCurve.hxx>
 #include <Adaptor2d_HCurve2d.hxx>
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>

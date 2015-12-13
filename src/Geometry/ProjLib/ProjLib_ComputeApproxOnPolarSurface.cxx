@@ -17,7 +17,7 @@
 #include <AppCont_Function2d.hxx>
 #include <ElSLib.hxx>
 #include <ElCLib.hxx>
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <PLib.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Geom_UndefinedDerivative.hxx>

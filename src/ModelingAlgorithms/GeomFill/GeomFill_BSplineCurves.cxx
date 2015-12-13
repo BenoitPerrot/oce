@@ -31,7 +31,7 @@
 #include <TColgp_Array2OfPnt.hxx>
 
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Precision.hxx>
 
 

@@ -35,7 +35,7 @@
 #include <TColgp_Array1OfPnt2d.hxx>
 #include <Approx_SweepApproximation.hxx>
 #include <gp_XYZ.hxx>
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 
 #include <AdvApprox_ApproxAFunction.hxx>
 #include <AdvApprox_DichoCutting.hxx>

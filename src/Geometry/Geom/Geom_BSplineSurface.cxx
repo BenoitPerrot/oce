@@ -58,7 +58,7 @@ IMPLEMENT_DOWNCAST(Geom_BSplineSurface,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Geom_BSplineSurface)
 
 #include <gp.hxx>
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <BSplSLib.hxx>
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>

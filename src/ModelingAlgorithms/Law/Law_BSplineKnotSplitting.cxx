@@ -30,7 +30,7 @@
 #include <Law_BSplineKnotSplitting.hxx>
 #include <Foundation/Standard/Standard_RangeError.hxx>
 
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 
 typedef Handle(Law_BSpline)             Handle(BSplineCurve);
 typedef TColStd_Array1OfInteger         Array1OfInteger;

@@ -28,7 +28,7 @@
 #include <Geom2dAPI_Interpolate.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <PLib.hxx>
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <gp_Vec2d.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>

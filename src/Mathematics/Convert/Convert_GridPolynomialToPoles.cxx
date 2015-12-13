@@ -32,7 +32,7 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <PLib.hxx>
 #include <BSplSLib.hxx>
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 
 
 Convert_GridPolynomialToPoles::

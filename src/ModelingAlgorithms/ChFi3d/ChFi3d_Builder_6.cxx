@@ -62,7 +62,7 @@
 
 #include <Precision.hxx>
 #include <math_Vector.hxx>
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 
 #include <gp_Pnt.hxx>
 #include <gp_Vec.hxx>

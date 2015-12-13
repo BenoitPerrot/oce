@@ -51,7 +51,7 @@
 
 #include <gp.hxx>
 #include <BSplSLib.hxx>
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Precision.hxx>
 #include <TColgp_Array1OfXYZ.hxx>
 

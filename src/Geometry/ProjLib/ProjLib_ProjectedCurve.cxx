@@ -47,7 +47,7 @@
 #include <TColgp_Array1OfPnt2d.hxx>
 #include <TColgp_HArray1OfVec2d.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfBoolean.hxx>
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <GeomAbs_IsoType.hxx>
 #include <Geom2d_Line.hxx>
 #include <Geom2d_TrimmedCurve.hxx>

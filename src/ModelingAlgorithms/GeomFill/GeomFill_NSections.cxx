@@ -65,7 +65,7 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_NSections)
 #include <TColGeom_Array1OfCurve.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Precision.hxx>
 
 #include <gp_Lin.hxx>

@@ -39,7 +39,7 @@
 #include <gp_Trsf.hxx>
 #include <Geom_Geometry.hxx>
 #include <Geom_BSplineCurve.hxx>
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <gp.hxx>
 
 #include <Geom_UndefinedDerivative.hxx>

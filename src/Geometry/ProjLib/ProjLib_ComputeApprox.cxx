@@ -24,7 +24,7 @@
 #include <Convert_CompBezierCurves2dToBSplineCurve2d.hxx>
 #include <ElSLib.hxx>
 #include <ElCLib.hxx>
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Geom_UndefinedDerivative.hxx>
 #include <gp.hxx>

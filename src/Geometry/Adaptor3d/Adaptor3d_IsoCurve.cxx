@@ -38,7 +38,7 @@
 #include <gp_Ax2.hxx>
 #include <ElCLib.hxx>
 #include <ElSLib.hxx>
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <BSplSLib.hxx>
 #include <Precision.hxx>
 #include <TColgp_Array1OfPnt.hxx>

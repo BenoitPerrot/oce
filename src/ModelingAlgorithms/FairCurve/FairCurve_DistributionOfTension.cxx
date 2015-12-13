@@ -28,7 +28,7 @@
 #include <gp_Pnt2d.hxx>
 #include <math_Matrix.hxx>
 #include <math_Vector.hxx>
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 
 
 

@@ -26,7 +26,7 @@
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <GeomConvert.hxx>
 
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Convert_ConicToBSplineCurve.hxx>
 #include <Convert_CircleToBSplineCurve.hxx>
 #include <Convert_EllipseToBSplineCurve.hxx>

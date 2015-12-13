@@ -40,7 +40,7 @@ IMPLEMENT_STANDARD_TYPE_END(Geom_SurfaceOfRevolution)
 IMPLEMENT_DOWNCAST(Geom_SurfaceOfRevolution,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Geom_SurfaceOfRevolution)
 #include <BSplSLib.hxx>
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Geom_Circle.hxx>
 #include <gp.hxx>
 #include <gp_Ax2d.hxx>

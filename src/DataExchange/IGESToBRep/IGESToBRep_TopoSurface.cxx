@@ -151,7 +151,7 @@
 #include <Geom_TrimmedCurve.hxx>
 #include <GeomConvert.hxx>
 #include <GeomLib.hxx>
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 //S3767
 #include <Foundation/Message/Message_Msg.hxx>
 #include <IGESData_IGESModel.hxx>

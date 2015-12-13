@@ -13,11 +13,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <PLib.hxx>
-#include <BSplCLib_Helpers.hxx>
+#include <Mathematics/BetaSpline/BSplCLib_Helpers.hxx>
 #include <math_Matrix.hxx>
 
 //=======================================================================

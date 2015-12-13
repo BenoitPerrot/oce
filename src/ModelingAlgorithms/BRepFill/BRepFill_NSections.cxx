@@ -67,7 +67,7 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_NSections)
 #include <GeomConvert_ApproxCurve.hxx>
 #include <GeomConvert_CompCurveToBSplineCurve.hxx>
 #include <Geom_BSplineSurface.hxx>
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 
 #include <TColgp_HArray1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>

@@ -33,7 +33,7 @@
 #include <TColgp_Array1OfPnt.hxx>
 #include <gp_XYZ.hxx>
 #include <PLib.hxx>
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <AdvApprox_ApproxAFunction.hxx>
 #include <Law.hxx>
 #include <Law_Linear.hxx>

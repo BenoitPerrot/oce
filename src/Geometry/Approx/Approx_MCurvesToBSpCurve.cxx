@@ -25,7 +25,7 @@
 #include <AppParCurves_Array1OfMultiPoint.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <PLib.hxx>
 
 #ifdef OCCT_DEBUG

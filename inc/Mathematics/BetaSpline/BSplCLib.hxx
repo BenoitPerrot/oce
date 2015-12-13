@@ -13,12 +13,12 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <BSplCLib_KnotDistribution.hxx>
-#include <BSplCLib_MultDistribution.hxx>
+#include <Mathematics/BetaSpline/BSplCLib_KnotDistribution.hxx>
+#include <Mathematics/BetaSpline/BSplCLib_MultDistribution.hxx>
 #include <GeomAbs_BSplKnotDistribution.hxx>
 #include <Handle_TColStd_HArray1OfReal.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>
-#include <BSplCLib_EvaluatorFunction.hxx>
+#include <Mathematics/BetaSpline/BSplCLib_EvaluatorFunction.hxx>
 class TColStd_Array1OfReal;
 class TColStd_Array1OfInteger;
 class TColgp_Array1OfPnt;
@@ -1457,7 +1457,7 @@ private:
 };
 
 
-#include <BSplCLib.lxx>
+#include <Mathematics/BetaSpline/BSplCLib.lxx>
 
 
 

@@ -24,7 +24,7 @@
 #include <AppDef_BSplineCompute.hxx>
 #include <AppDef_MultiLine.hxx>
 #include <AppParCurves_MultiBSpCurve.hxx>
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>

@@ -28,7 +28,7 @@
 #include <GeomConvert.hxx>
 
 
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>

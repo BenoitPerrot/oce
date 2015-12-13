@@ -23,7 +23,7 @@
 #include <GeomConvert_BSplineCurveKnotSplitting.hxx>
 #include <Foundation/Standard/Standard_RangeError.hxx>
 
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 
 typedef Handle(Geom_BSplineCurve)        Handle(BSplineCurve);
 typedef TColStd_Array1OfInteger      Array1OfInteger;

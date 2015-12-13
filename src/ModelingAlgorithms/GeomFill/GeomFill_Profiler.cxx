@@ -22,7 +22,7 @@
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <GeomFill_Profiler.hxx>
 #include <GeomConvert.hxx>
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Geom_BSplineCurve.hxx>
 #include <Geom_TrimmedCurve.hxx>
 #include <Geom_Conic.hxx>

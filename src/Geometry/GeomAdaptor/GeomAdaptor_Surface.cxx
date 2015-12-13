@@ -69,7 +69,7 @@
 #include <gp_Circ.hxx>
 #include <gp_Lin.hxx>
 #include <gp_Trsf.hxx>
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Precision.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_NullObject.hxx>

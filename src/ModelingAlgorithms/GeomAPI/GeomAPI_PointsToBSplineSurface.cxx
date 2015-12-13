@@ -28,7 +28,7 @@
 #include <AppDef_BSplineCompute.hxx>
 #include <AppDef_MultiLine.hxx>
 #include <AppDef_MultiPointConstraint.hxx>
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Precision.hxx>
 #include <gp_Pnt.hxx>
 #include <TColgp_Array1OfPnt.hxx>

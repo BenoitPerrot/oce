@@ -18,7 +18,7 @@
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <GeomFill_Coons.hxx>
 
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <PLib.hxx>
 #include <TColgp_HArray2OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>

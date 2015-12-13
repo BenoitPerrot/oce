@@ -77,7 +77,7 @@
 #include <Geom2dAdaptor.hxx>
 #include <Geom2dConvert.hxx>
 #include <GCPnts_QuasiUniformDeflection.hxx>
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <ElSLib.hxx>
 #include <Adaptor3d_CurveOnSurface.hxx>
 #include <Extrema_LocateExtPC.hxx>

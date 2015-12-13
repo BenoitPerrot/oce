@@ -52,7 +52,7 @@ IMPLEMENT_STANDARD_RTTI(Geom_SurfaceOfLinearExtrusion)
 #include <Geom_TrimmedCurve.hxx>
 #include <Geom_OffsetCurve.hxx>
 #include <BSplSLib.hxx>
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Foundation/Standard/Standard_RangeError.hxx>
 
 #define  POLES    (poles->Array2())

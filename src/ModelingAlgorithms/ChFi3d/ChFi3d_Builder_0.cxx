@@ -33,7 +33,7 @@
 #include <gp_Lin2d.hxx>
 #include <ElCLib.hxx>
 #include <ElSLib.hxx>
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <GeomLib.hxx>
 
 #include <TColgp_Array1OfPnt2d.hxx>

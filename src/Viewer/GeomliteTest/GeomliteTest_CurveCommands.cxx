@@ -34,7 +34,7 @@
 #include <Draw_Color.hxx>
 #include <Draw_Display.hxx>
 
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 
 #include <gp.hxx>
 #include <gp_Pln.hxx>

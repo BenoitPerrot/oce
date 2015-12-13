@@ -23,7 +23,7 @@
 #include <ShapeUpgrade.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 
 /*

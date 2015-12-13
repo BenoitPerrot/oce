@@ -52,7 +52,7 @@ IMPLEMENT_STANDARD_TYPE_END(Geom_BezierCurve)
 IMPLEMENT_DOWNCAST(Geom_BezierCurve,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Geom_BezierCurve)
 #include <PLib.hxx>
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <gp.hxx>
 #include <gp_XYZ.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>

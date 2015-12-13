@@ -109,7 +109,7 @@
 #include <Geom_BezierSurface.hxx>
 #include <Geom_BSplineSurface.hxx>
 
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <BSplSLib.hxx>
 #include <PLib.hxx>
 #include <math_Matrix.hxx>

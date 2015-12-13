@@ -30,7 +30,7 @@
 #include <TColgp_Array1OfPnt2d.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <AppParCurves_HArray1OfMultiPoint.hxx>
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 
 //=======================================================================
 //function : ComputeDegree

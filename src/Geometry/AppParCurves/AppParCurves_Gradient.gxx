@@ -41,7 +41,7 @@
 #include <TColgp_Array1OfPnt2d.hxx>
 #include <TColgp_Array1OfVec.hxx>
 #include <TColgp_Array1OfVec2d.hxx>
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <PLib.hxx>
 
 // #define AppParCurves_Gradient_BFGS BFGS_/**/AppParCurves_Gradient

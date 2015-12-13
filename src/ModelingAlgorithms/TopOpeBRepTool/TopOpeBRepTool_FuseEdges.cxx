@@ -81,7 +81,7 @@
 
 #include <Geom2dConvert_CompCurveToBSplineCurve.hxx>
 #include <Geom2d_BSplineCurve.hxx>
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 
 #ifdef OCCT_DEBUG
 extern Standard_Boolean TopOpeBRepBuild_GettraceFE();

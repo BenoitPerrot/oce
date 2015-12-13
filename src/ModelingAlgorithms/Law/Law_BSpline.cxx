@@ -41,9 +41,9 @@ IMPLEMENT_STANDARD_TYPE_END(Law_BSpline)
 IMPLEMENT_DOWNCAST(Law_BSpline,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Law_BSpline)
 #include <gp.hxx>
-#include <BSplCLib.hxx>
-#include <BSplCLib_KnotDistribution.hxx>
-#include <BSplCLib_MultDistribution.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib_KnotDistribution.hxx>
+#include <Mathematics/BetaSpline/BSplCLib_MultDistribution.hxx>
 
 #include <Foundation/Standard/Standard_DimensionError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>

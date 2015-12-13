@@ -25,7 +25,7 @@
 #include <AppDef_MultiLine.hxx>
 #include <AppParCurves_MultiBSpCurve.hxx>
 #include <math_Vector.hxx>
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <AppDef_MultiLine.hxx>
 #include <AppDef_MultiPointConstraint.hxx>
 #include <AppParCurves_HArray1OfConstraintCouple.hxx>

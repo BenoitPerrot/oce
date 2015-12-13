@@ -35,7 +35,7 @@
 #include <BRepFill_ApproxSeewing.hxx>
 #include <BRep_Tool.hxx>
 #include <ElCLib.hxx>
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <PLib.hxx>
 #include <gp.hxx>
 #include <gp_Sphere.hxx>

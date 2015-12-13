@@ -42,7 +42,7 @@
 #include <Precision.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <Convert_CompPolynomialToPoles.hxx>
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>

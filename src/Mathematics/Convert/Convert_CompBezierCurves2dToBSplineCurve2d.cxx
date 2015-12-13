@@ -21,7 +21,7 @@
 #include <Convert_CompBezierCurves2dToBSplineCurve2d.hxx>
 
 #include <Precision.hxx>
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <PLib.hxx>
 #include <gp_Pnt2d.hxx>
 #include <gp_Vec2d.hxx>

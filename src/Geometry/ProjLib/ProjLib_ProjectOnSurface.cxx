@@ -25,7 +25,7 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Extrema_POnSurf.hxx>
 #include <Precision.hxx>
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <PLib.hxx>
 #include <Adaptor3d_HCurve.hxx>
 #include <Geom_BSplineCurve.hxx>

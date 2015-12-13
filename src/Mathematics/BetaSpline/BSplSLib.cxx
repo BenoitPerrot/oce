@@ -31,7 +31,7 @@
 #include <BSplSLib.hxx>
 #include <PLib.hxx>
 #include <Foundation/NCollection/NCollection_LocalArray.hxx>
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <TColgp_Array2OfXYZ.hxx>
 #include <TColgp_Array1OfXYZ.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>

@@ -21,7 +21,7 @@
 #include <CPnts_UniformDeflection.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <gp_Circ.hxx>
 #include <gp_Circ2d.hxx>
 #include <Precision.hxx>

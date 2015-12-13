@@ -28,7 +28,7 @@
 #include <GeomAPI_Interpolate.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <PLib.hxx>
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <gp_Vec.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <TColgp_Array1OfVec.hxx>

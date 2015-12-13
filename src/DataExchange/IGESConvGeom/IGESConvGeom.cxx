@@ -29,7 +29,7 @@
 
 #include <IGESData_ToolLocation.hxx>
 
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 
 #include <BSplSLib.hxx>
 

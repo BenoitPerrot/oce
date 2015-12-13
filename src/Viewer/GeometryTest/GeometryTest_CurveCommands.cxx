@@ -38,7 +38,7 @@
 
 //#include <GeomLProp.hxx>
 #include <GeomProjLib.hxx>
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 
 #include <gp.hxx>
 #include <gp_Pln.hxx>
@@ -105,7 +105,7 @@
 #include <Geom_Surface.hxx>
 #include <Adaptor2d_HCurve2d.hxx>
 #include <stdio.h>
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Geom_BSplineSurface.hxx>
 #include <Geom_BSplineCurve.hxx>
 #include <GCPnts_QuasiUniformDeflection.hxx>

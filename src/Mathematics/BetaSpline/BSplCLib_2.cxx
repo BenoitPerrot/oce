@@ -21,7 +21,7 @@
 
 #include <Foundation/Standard/Standard_Stream.hxx>
 
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <gp_Mat2d.hxx>
 #include <PLib.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>

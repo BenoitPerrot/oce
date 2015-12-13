@@ -26,7 +26,7 @@
 #include <ShapeConstruct_CompBezierCurvesToBSplineCurve.hxx>
 
 #include <Precision.hxx>
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <PLib.hxx>
 #include <gp_Pnt.hxx>
 #include <gp.hxx>

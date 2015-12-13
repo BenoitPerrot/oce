@@ -42,7 +42,7 @@
 
 #include <GeomAdaptor_HCurve.hxx>
 #include <Adaptor3d_HCurve.hxx>
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>

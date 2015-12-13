@@ -29,7 +29,7 @@
 #include <Geom2d_BSplineCurve.hxx>
 #include <FairCurve_Batten.hxx>
 
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <PLib.hxx>
 #include <Geom2d_BSplineCurve.hxx>
 #include <FairCurve_BattenLaw.hxx>

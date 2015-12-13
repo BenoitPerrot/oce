@@ -65,7 +65,7 @@
 #include <TopoDS.hxx>
 #include <TopExp.hxx>
 #include <Precision.hxx>
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <gp.hxx>
 #include <BRepTools.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>

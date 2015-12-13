@@ -56,7 +56,7 @@ IMPLEMENT_STANDARD_RTTI(BRepTools_NurbsConvertModification)
 #include <GeomAdaptor_HCurve.hxx>
 #include <GeomAdaptor_HSurface.hxx>
 
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Approx_SameParameter.hxx>
 #include <BRep_Tool.hxx>
 #include <Extrema_LocateExtPC.hxx>
@@ -70,7 +70,7 @@ IMPLEMENT_STANDARD_RTTI(BRepTools_NurbsConvertModification)
 #include <ProjLib_ComputeApprox.hxx>
 #include <ProjLib_ComputeApproxOnPolarSurface.hxx>
 #include <ElSLib.hxx>
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Geom_Circle.hxx>
 #include <Geom_Ellipse.hxx>
 #include <Geom_CylindricalSurface.hxx>

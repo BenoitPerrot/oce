@@ -35,7 +35,7 @@
 #include <TColgp_HArray1OfPnt2d.hxx>
 
 #include <PLib.hxx>
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Precision.hxx>
 #include <gp.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>

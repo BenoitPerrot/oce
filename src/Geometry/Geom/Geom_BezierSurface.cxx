@@ -59,7 +59,7 @@ IMPLEMENT_STANDARD_RTTI(Geom_BezierSurface)
 #include <gp.hxx>
 #include <gp_XYZ.hxx>
 #include <PLib.hxx>
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <BSplSLib.hxx>
 #include <Precision.hxx>
 

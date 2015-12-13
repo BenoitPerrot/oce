@@ -24,7 +24,7 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Precision.hxx>
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <PLib.hxx>
 #include <Geom_BSplineCurve.hxx>
 #include <Geom_BezierCurve.hxx>
@@ -38,7 +38,7 @@
 #include <GeomAdaptor_HCurve.hxx>
 #include <Geom_Line.hxx>
 #include <GeomConvert.hxx>
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Geom_TrimmedCurve.hxx>
 #include <Geom_Circle.hxx>
 #include <Geom_Parabola.hxx>

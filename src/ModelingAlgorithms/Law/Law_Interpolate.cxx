@@ -25,7 +25,7 @@
 #include <Law_Interpolate.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <PLib.hxx>
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <gp_Pnt.hxx>

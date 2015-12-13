@@ -93,7 +93,7 @@
 #include <AppCont_Function.hxx>
 #include <Approx_FitAndDivide.hxx>
 #include <AppParCurves_MultiCurve.hxx>
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Convert_CompBezierCurvesToBSplineCurve.hxx>
 #include <Precision.hxx>
 #include <TColgp_Array1OfPnt.hxx>

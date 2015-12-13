@@ -73,7 +73,7 @@
 #include <GeomConvert.hxx>
 #include <GeomConvert_ApproxCurve.hxx>
 #include <Geom_BSplineCurve.hxx>
-#include <BSplCLib.hxx>
+#include <Mathematics/BetaSpline/BSplCLib.hxx>
 
 #include <TopAbs.hxx>
 #include <TopoDS.hxx>
