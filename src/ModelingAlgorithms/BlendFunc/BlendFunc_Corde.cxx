@@ -17,13 +17,13 @@
 #include <Adaptor3d_HSurface.hxx>
 #include <Adaptor3d_HCurve.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <math_Matrix.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Vec.hxx>
 #include <gp_Vec2d.hxx>
 #include <BlendFunc_Corde.hxx>
 
-#include <math_Gauss.hxx>
+#include <Mathematics/Optimization/math_Gauss.hxx>
 
 #include <ElCLib.hxx>
 #include <gp.hxx>

@@ -11,7 +11,7 @@
 #include <GeomInt_ParLeastSquareOfMyGradientOfTheComputeLineBezierOfWLApprox.hxx>
 #include <GeomInt_ResConstraintOfMyGradientOfTheComputeLineBezierOfWLApprox.hxx>
 #include <GeomInt_ParFunctionOfMyGradientOfTheComputeLineBezierOfWLApprox.hxx>
-#include <math_MultipleVarFunctionWithGradient.hxx>
+#include <Mathematics/Optimization/math_MultipleVarFunctionWithGradient.hxx>
  
 
 #define MultiLine GeomInt_TheMultiLineOfWLApprox

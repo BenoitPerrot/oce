@@ -18,8 +18,8 @@
 #ifndef IntAna2d_Outil_HeaderFile
 #define IntAna2d_Outil_HeaderFile
 
-#include <math_DirectPolynomialRoots.hxx>
-#include <math_TrigonometricFunctionRoots.hxx>
+#include <Mathematics/Optimization/math_DirectPolynomialRoots.hxx>
+#include <Mathematics/Optimization/math_TrigonometricFunctionRoots.hxx>
 #include <IntAna2d_IntPoint.hxx>
 #include <gp_Ax2d.hxx>
 

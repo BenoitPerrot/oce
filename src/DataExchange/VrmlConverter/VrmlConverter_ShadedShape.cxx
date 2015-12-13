@@ -35,7 +35,7 @@
 #include <Vrml_Coordinate3.hxx>
 #include <BRepBndLib.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <math.hxx>
+#include <Mathematics/Optimization/math.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Geom_Surface.hxx>
 #include <CSLib_DerivativeStatus.hxx>

@@ -25,9 +25,9 @@
 
 #include <gp_XY.hxx>
 #include <gp_XYZ.hxx>
-#include <math_Matrix.hxx>
-#include <math_Vector.hxx>
-#include <math_Gauss.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
+#include <Mathematics/Optimization/math_Gauss.hxx>
 
 #include <Plate_PinpointConstraint.hxx>
 #include <Plate_LinearXYZConstraint.hxx>
@@ -42,7 +42,7 @@
 #include <gp_XY.hxx>
 #include <Mathematics/Collections/TColgp_HArray2OfXYZ.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfXY.hxx>
-#include <math_Matrix.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
 #include <Plate_Plate.hxx>
 
 

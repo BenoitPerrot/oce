@@ -21,9 +21,9 @@
 #include <BRepLib_FindSurface.hxx>
 
 #include <Precision.hxx>
-#include <math_Matrix.hxx>
-#include <math_Vector.hxx>
-#include <math_Gauss.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
+#include <Mathematics/Optimization/math_Gauss.hxx>
 
 #include <gp_Lin.hxx>
 #include <gp_Circ.hxx>

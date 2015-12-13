@@ -6,7 +6,7 @@
 #include <HLRBRep_TheDistBetweenPCurvesOfTheIntPCurvePCurveOfCInter.hxx>
 
 #include <HLRBRep_CurveTool.hxx>
-#include <math_Matrix.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
  
 
 #define TheCurve Standard_Address

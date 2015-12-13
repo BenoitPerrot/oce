@@ -21,15 +21,15 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_NumericError.hxx>
-#include <math_FunctionWithDerivative.hxx>
-#include <math_FunctionSample.hxx>
-#include <math_FunctionAllRoots.hxx>
+#include <Mathematics/Optimization/math_FunctionWithDerivative.hxx>
+#include <Mathematics/Optimization/math_FunctionSample.hxx>
+#include <Mathematics/Optimization/math_FunctionAllRoots.hxx>
 
 #include <Foundation/Standard/Standard_NumericError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <math_FunctionRoots.hxx>
-#include <math_FunctionWithDerivative.hxx>
-#include <math_FunctionSample.hxx>
+#include <Mathematics/Optimization/math_FunctionRoots.hxx>
+#include <Mathematics/Optimization/math_FunctionWithDerivative.hxx>
+#include <Mathematics/Optimization/math_FunctionSample.hxx>
 
 math_FunctionAllRoots::math_FunctionAllRoots (
                            math_FunctionWithDerivative& F,

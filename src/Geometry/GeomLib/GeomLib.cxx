@@ -112,12 +112,12 @@
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Mathematics/BetaSpline/BSplSLib.hxx>
 #include <PLib.hxx>
-#include <math_Matrix.hxx>
-#include <math_Vector.hxx>
-#include <math_Jacobi.hxx>
-#include <math.hxx>
-#include <math_FunctionAllRoots.hxx>
-#include <math_FunctionSample.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
+#include <Mathematics/Optimization/math_Jacobi.hxx>
+#include <Mathematics/Optimization/math.hxx>
+#include <Mathematics/Optimization/math_FunctionAllRoots.hxx>
+#include <Mathematics/Optimization/math_FunctionSample.hxx>
 
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>

@@ -17,7 +17,7 @@
 #include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <math_EigenValuesSearcher.hxx>
+#include <Mathematics/Optimization/math_EigenValuesSearcher.hxx>
 
 //==========================================================================
 //function : pythag

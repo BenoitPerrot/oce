@@ -13,7 +13,7 @@
 #include <gp_Vec2d.hxx>
 #include <Extrema_SeqPOnCOfCCLocFOfLocECC2d.hxx>
 #include <Extrema_SequenceNodeOfSeqPOnCOfCCLocFOfLocECC2d.hxx>
-#include <math_Matrix.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
  
 
 #define Curve1 Adaptor2d_Curve2d

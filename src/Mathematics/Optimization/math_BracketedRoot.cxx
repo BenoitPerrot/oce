@@ -13,9 +13,9 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <math_Function.hxx>
-#include <math_BracketedRoot.hxx>
-#include <math_Function.hxx>
+#include <Mathematics/Optimization/math_Function.hxx>
+#include <Mathematics/Optimization/math_BracketedRoot.hxx>
+#include <Mathematics/Optimization/math_Function.hxx>
 
 // reference algorithme:  
 //                   Brent method 

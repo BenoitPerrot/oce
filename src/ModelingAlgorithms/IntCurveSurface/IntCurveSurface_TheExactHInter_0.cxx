@@ -12,7 +12,7 @@
 #include <Adaptor3d_HCurve.hxx>
 #include <IntCurveSurface_TheHCurveTool.hxx>
 #include <IntCurveSurface_TheCSFunctionOfHInter.hxx>
-#include <math_FunctionSetRoot.hxx>
+#include <Mathematics/Optimization/math_FunctionSetRoot.hxx>
 #include <gp_Pnt.hxx>
  
 

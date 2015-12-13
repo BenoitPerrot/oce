@@ -19,11 +19,11 @@
 //#endif
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <math_Matrix.hxx>
-#include <math_Jacobi.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
+#include <Mathematics/Optimization/math_Jacobi.hxx>
 
-#include <math_Recipes.hxx>
-#include <math_NotSquare.hxx>
+#include <Mathematics/Optimization/math_Recipes.hxx>
+#include <Mathematics/Optimization/math_NotSquare.hxx>
 
 math_Jacobi::math_Jacobi(const math_Matrix& A) : AA(1, A.RowNumber(), 
 						      1, A.RowNumber()),

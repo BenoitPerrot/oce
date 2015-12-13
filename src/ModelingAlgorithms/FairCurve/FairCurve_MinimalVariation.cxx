@@ -32,7 +32,7 @@
 #include <FairCurve_BattenLaw.hxx>
 #include <FairCurve_EnergyOfMVC.hxx>
 #include <FairCurve_Newton.hxx>
-#include <math_Matrix.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
 #include <Precision.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt2d.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>

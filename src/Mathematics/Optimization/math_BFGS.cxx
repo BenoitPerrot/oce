@@ -20,14 +20,14 @@
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_DimensionError.hxx>
-#include <math_MultipleVarFunctionWithGradient.hxx>
-#include <math_BFGS.hxx>
+#include <Mathematics/Optimization/math_MultipleVarFunctionWithGradient.hxx>
+#include <Mathematics/Optimization/math_BFGS.hxx>
 
-#include <math_BracketMinimum.hxx>
-#include <math_BrentMinimum.hxx>
-#include <math_FunctionWithDerivative.hxx>
-#include <math_MultipleVarFunctionWithGradient.hxx>
-#include <math_Matrix.hxx>
+#include <Mathematics/Optimization/math_BracketMinimum.hxx>
+#include <Mathematics/Optimization/math_BrentMinimum.hxx>
+#include <Mathematics/Optimization/math_FunctionWithDerivative.hxx>
+#include <Mathematics/Optimization/math_MultipleVarFunctionWithGradient.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
 
 #define R 0.61803399
 #define C (1.0-R)

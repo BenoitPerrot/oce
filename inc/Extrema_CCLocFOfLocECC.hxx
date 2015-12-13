@@ -17,10 +17,10 @@
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <Extrema_SeqPOnCOfCCLocFOfLocECC.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <math_FunctionSetWithDerivatives.hxx>
+#include <Mathematics/Optimization/math_FunctionSetWithDerivatives.hxx>
 #include <Handle_Extrema_SequenceNodeOfSeqPOnCOfCCLocFOfLocECC.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <math_Vector.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
 class Standard_OutOfRange;
 class Adaptor3d_Curve;
 class Extrema_CurveTool;

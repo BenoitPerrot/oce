@@ -15,7 +15,7 @@
 #include <Handle_Adaptor2d_HCurve2d.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Blend_FuncInv.hxx>
-#include <math_Vector.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Adaptor3d_HSurface;

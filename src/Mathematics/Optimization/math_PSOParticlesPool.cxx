@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <math_PSOParticlesPool.hxx>
+#include <Mathematics/Optimization/math_PSOParticlesPool.hxx>
 #include <algorithm>
 
 

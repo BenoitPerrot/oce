@@ -16,9 +16,9 @@
 #ifndef _math_PSO_HeaderFile
 #define _math_PSO_HeaderFile
 
-#include <math_BullardGenerator.hxx>
-#include <math_MultipleVarFunction.hxx>
-#include <math_Vector.hxx>
+#include <Mathematics/Optimization/math_BullardGenerator.hxx>
+#include <Mathematics/Optimization/math_MultipleVarFunction.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
 
 class math_PSOParticlesPool;
 

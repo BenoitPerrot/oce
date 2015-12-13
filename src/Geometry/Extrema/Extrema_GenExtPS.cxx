@@ -33,9 +33,9 @@
 #include <Foundation/TColStd/TColStd_Array2OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
-#include <math_FunctionSetRoot.hxx>
-#include <math_Vector.hxx>
-#include <math_NewtonFunctionSetRoot.hxx>
+#include <Mathematics/Optimization/math_FunctionSetRoot.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
+#include <Mathematics/Optimization/math_NewtonFunctionSetRoot.hxx>
 #include <GeomAbs_IsoType.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Sphere.hxx>
 #include <Extrema_HUBTreeOfSphere.hxx>

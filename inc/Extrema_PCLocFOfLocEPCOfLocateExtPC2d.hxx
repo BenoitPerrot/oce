@@ -18,7 +18,7 @@
 #include <Extrema_SeqPCOfPCLocFOfLocEPCOfLocateExtPC2d.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <math_FunctionWithDerivative.hxx>
+#include <Mathematics/Optimization/math_FunctionWithDerivative.hxx>
 #include <Handle_Extrema_SequenceNodeOfSeqPCOfPCLocFOfLocEPCOfLocateExtPC2d.hxx>
 class Standard_OutOfRange;
 class Standard_TypeMismatch;

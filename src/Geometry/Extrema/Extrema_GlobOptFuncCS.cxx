@@ -17,7 +17,7 @@
 
 #include <gp_Pnt.hxx>
 #include <gp_Vec.hxx>
-#include <math_Vector.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 

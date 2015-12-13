@@ -12,9 +12,9 @@
 
 #include <Handle_PLib_Base.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <math_FunctionSet.hxx>
+#include <Mathematics/Optimization/math_FunctionSet.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <math_Vector.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
 class PLib_Base;
 class Standard_ConstructionError;
 

@@ -14,7 +14,7 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <HLRBRep_TheDistBetweenPCurvesOfTheIntPCurvePCurveOfCInter.hxx>
-#include <math_Vector.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 class HLRBRep_CurveTool;
 class HLRBRep_TheProjPCurOfCInter;

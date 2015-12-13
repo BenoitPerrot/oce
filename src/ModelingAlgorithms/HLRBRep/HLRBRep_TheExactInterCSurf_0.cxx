@@ -11,7 +11,7 @@
 #include <gp_Lin.hxx>
 #include <HLRBRep_LineTool.hxx>
 #include <HLRBRep_TheCSFunctionOfInterCSurf.hxx>
-#include <math_FunctionSetRoot.hxx>
+#include <Mathematics/Optimization/math_FunctionSetRoot.hxx>
 #include <gp_Pnt.hxx>
  
 

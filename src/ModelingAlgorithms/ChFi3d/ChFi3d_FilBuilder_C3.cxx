@@ -40,7 +40,7 @@
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 
-#include <math_Vector.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
 
 #include <gp_Pnt.hxx>
 #include <gp_Vec.hxx>

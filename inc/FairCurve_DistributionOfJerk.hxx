@@ -16,7 +16,7 @@
 #include <Handle_TColStd_HArray1OfReal.hxx>
 #include <Handle_TColgp_HArray1OfPnt2d.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <math_Vector.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
 class TColStd_HArray1OfReal;
 class TColgp_HArray1OfPnt2d;
 class FairCurve_BattenLaw;

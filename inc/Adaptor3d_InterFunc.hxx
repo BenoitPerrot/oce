@@ -13,7 +13,7 @@
 #include <Handle_Adaptor2d_HCurve2d.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <math_FunctionWithDerivative.hxx>
+#include <Mathematics/Optimization/math_FunctionWithDerivative.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Adaptor2d_HCurve2d;
 class Standard_ConstructionError;

@@ -16,7 +16,7 @@
 #define No_Standard_OutOfRange
 #define No_Standard_DimensionError
 
-#include <math_IntegerVector.hxx>
+#include <Mathematics/Optimization/math_IntegerVector.hxx>
 
 #include <Foundation/Standard/Standard_DimensionError.hxx>
 #include <Foundation/Standard/Standard_RangeError.hxx>

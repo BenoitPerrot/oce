@@ -11,10 +11,10 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Address.hxx>
-#include <math_FunctionSetWithDerivatives.hxx>
+#include <Mathematics/Optimization/math_FunctionSetWithDerivatives.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <math_Vector.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
 class Adaptor2d_Curve2d;
 class Geom2dInt_Geom2dCurveTool;
 class math_Matrix;

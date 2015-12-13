@@ -12,7 +12,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <math_MultipleVarFunctionWithGradient.hxx>
+#include <Mathematics/Optimization/math_MultipleVarFunctionWithGradient.hxx>
 
 void math_MultipleVarFunctionWithGradient::Delete()
 {}

@@ -23,8 +23,8 @@
 #include <Extrema_POnCurv.hxx>
 #include <Extrema_ExtPElC.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <math_DirectPolynomialRoots.hxx>
-#include <math_TrigonometricFunctionRoots.hxx>
+#include <Mathematics/Optimization/math_DirectPolynomialRoots.hxx>
+#include <Mathematics/Optimization/math_TrigonometricFunctionRoots.hxx>
 #include <ElCLib.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>

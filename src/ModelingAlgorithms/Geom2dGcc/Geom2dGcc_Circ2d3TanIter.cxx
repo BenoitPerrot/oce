@@ -38,8 +38,8 @@
 #include <gp.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <GccEnt_BadQualifier.hxx>
-#include <math_FunctionSetRoot.hxx>
-#include <math_NewtonFunctionSetRoot.hxx>
+#include <Mathematics/Optimization/math_FunctionSetRoot.hxx>
+#include <Mathematics/Optimization/math_NewtonFunctionSetRoot.hxx>
 #include <GccAna_Circ2d3Tan.hxx>
 
 #include <Geom2dGcc_CurveTool.hxx>

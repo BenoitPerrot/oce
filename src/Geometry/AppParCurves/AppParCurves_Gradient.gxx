@@ -30,7 +30,7 @@
 #define No_Standard_OutOfRange
 
 #include <AppParCurves_Constraint.hxx>
-#include <math_BFGS.hxx>
+#include <Mathematics/Optimization/math_BFGS.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <AppParCurves_MultiPoint.hxx>
 #include <gp_Pnt.hxx>

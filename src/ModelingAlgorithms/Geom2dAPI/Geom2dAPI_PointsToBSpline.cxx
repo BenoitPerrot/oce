@@ -28,7 +28,7 @@
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
-#include <math_Vector.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
 #include <AppDef_MultiPointConstraint.hxx>
 #include <AppParCurves_HArray1OfConstraintCouple.hxx>
 #include <AppDef_Variational.hxx>

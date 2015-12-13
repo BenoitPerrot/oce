@@ -20,12 +20,12 @@
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_RangeError.hxx>  
-#include <math_DirectPolynomialRoots.hxx>
+#include <Mathematics/Optimization/math_DirectPolynomialRoots.hxx>
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <math_FunctionWithDerivative.hxx>
-#include <math_FunctionRoots.hxx>
-#include <math_FunctionWithDerivative.hxx>
+#include <Mathematics/Optimization/math_FunctionWithDerivative.hxx>
+#include <Mathematics/Optimization/math_FunctionRoots.hxx>
+#include <Mathematics/Optimization/math_FunctionWithDerivative.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 //#ifdef WNT
 #include <stdio.h>

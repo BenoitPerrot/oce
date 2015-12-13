@@ -12,7 +12,7 @@
 
 #include <Blend_Point.hxx>
 #include <Handle_BRepBlend_Line.hxx>
-#include <math_Vector.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
 #include <Blend_SequenceOfPoint.hxx>
 #include <Handle_Adaptor3d_HSurface.hxx>
 #include <Handle_Adaptor3d_TopolTool.hxx>

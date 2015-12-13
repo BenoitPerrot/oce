@@ -22,7 +22,7 @@
 #include <AppDef_MultiLine.hxx>
 #include <FEmTool_HAssemblyTable.hxx>
 #include <Foundation/TColStd/TColStd_HArray2OfInteger.hxx>
-#include <math_Matrix.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <AppDef_LinearCriteria.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -48,8 +48,8 @@ IMPLEMENT_STANDARD_RTTI(AppDef_LinearCriteria)
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <gp_Pnt2d.hxx>
 #include <gp_Pnt.hxx>
-#include <math_Matrix.hxx>
-#include <math_Gauss.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
+#include <Mathematics/Optimization/math_Gauss.hxx>
 #include <AppDef_MyLineTool.hxx>
 
 static Standard_Integer order(const Handle(PLib_Base)& B)

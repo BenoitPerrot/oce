@@ -17,7 +17,7 @@
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <PLib.hxx>
-#include <math_Matrix.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
 #include <Mathematics/BetaSpline/BSplCLib_Helpers.hxx>
 
 //=======================================================================

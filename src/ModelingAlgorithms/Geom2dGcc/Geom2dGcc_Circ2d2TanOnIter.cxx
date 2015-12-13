@@ -39,7 +39,7 @@
 #include <gp.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <GccEnt_BadQualifier.hxx>
-#include <math_FunctionSetRoot.hxx>
+#include <Mathematics/Optimization/math_FunctionSetRoot.hxx>
 #include <ElCLib.hxx>
 
 #include <Geom2dGcc_CurveTool.hxx>

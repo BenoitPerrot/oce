@@ -17,7 +17,7 @@
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/TColStd/TColStd_HArray2OfInteger.hxx>
-#include <math_Matrix.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
 #include <FEmTool_LinearFlexion.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(FEmTool_LinearFlexion)
@@ -35,10 +35,10 @@ IMPLEMENT_STANDARD_RTTI(FEmTool_LinearFlexion)
 #include <PLib_JacobiPolynomial.hxx>
 #include <PLib_HermitJacobi.hxx>
 #include <FEmTool_ElementsOfRefMatrix.hxx>
-#include <math_IntegerVector.hxx>
-#include <math_Vector.hxx>
-#include <math_GaussSetIntegration.hxx>
-#include <math.hxx>
+#include <Mathematics/Optimization/math_IntegerVector.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
+#include <Mathematics/Optimization/math_GaussSetIntegration.hxx>
+#include <Mathematics/Optimization/math.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 
 //=======================================================================

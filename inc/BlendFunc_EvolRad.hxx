@@ -19,8 +19,8 @@
 #include <gp_Vec2d.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <math_Vector.hxx>
-#include <math_Matrix.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
 #include <BlendFunc_Tensor.hxx>
 #include <BlendFunc_SectionShape.hxx>
 #include <Mathematics/Convert/Convert_ParameterisationType.hxx>

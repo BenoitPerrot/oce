@@ -32,7 +32,7 @@
 #include <Precision.hxx>
 #include <gp_Pnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
-#include <math_Vector.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
 #include <AppParCurves_HArray1OfConstraintCouple.hxx>
 #include <AppParCurves_ConstraintCouple.hxx>
 #include <AppDef_Variational.hxx>

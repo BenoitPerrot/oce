@@ -20,7 +20,7 @@
 #include <AppDef_SmoothCriterion.hxx>
 #include <Handle_FEmTool_HAssemblyTable.hxx>
 #include <Handle_TColStd_HArray2OfInteger.hxx>
-#include <math_Vector.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
 class TColStd_HArray1OfReal;
 class FEmTool_ElementaryCriterion;
 class FEmTool_Curve;

@@ -19,7 +19,7 @@
 #include <GProp_PrincipalProps.hxx>
 #include <GProp_GProps.hxx>
 #include <GProp.hxx>
-#include <math_Jacobi.hxx>
+#include <Mathematics/Optimization/math_Jacobi.hxx>
 #include <gp.hxx>
 #include <gp.hxx>
 #include <gp_XYZ.hxx>

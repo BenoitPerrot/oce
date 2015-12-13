@@ -20,12 +20,12 @@
 #include <Foundation/Standard/Standard_DimensionError.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfInteger.hxx>
-#include <math_Matrix.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
 #include <FEmTool_Assembly.hxx>
 #include <FEmTool_ListIteratorOfListOfVectors.hxx>
 #include <FEmTool_ListOfVectors.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
-#include <math_Matrix.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
 
 //----------------------------------------------------------------------------
 // Purpose - to find min index of global variables and define

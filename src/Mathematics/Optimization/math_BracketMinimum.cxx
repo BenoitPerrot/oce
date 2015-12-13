@@ -13,11 +13,11 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <math_Function.hxx>
-#include <math_BracketMinimum.hxx>
+#include <Mathematics/Optimization/math_Function.hxx>
+#include <Mathematics/Optimization/math_BracketMinimum.hxx>
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>   // waiting for NotDone Exception
-#include <math_Function.hxx>
+#include <Mathematics/Optimization/math_Function.hxx>
 
 #define GOLD           1.618034
 #define CGOLD          0.3819660

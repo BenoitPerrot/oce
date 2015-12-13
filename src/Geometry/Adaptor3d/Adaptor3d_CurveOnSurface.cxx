@@ -60,7 +60,7 @@
 #include <ElCLib.hxx>
 #include <ElSLib.hxx>
 #include <Adaptor3d_InterFunc.hxx>
-#include <math_FunctionRoots.hxx>
+#include <Mathematics/Optimization/math_FunctionRoots.hxx>
 #include <ElSLib.hxx>
 
 static gp_Pnt to3d(const gp_Pln& Pl, const gp_Pnt2d& P)

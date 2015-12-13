@@ -28,17 +28,17 @@
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_DimensionError.hxx>
-#include <math_FunctionSetWithDerivatives.hxx>
-#include <math_Matrix.hxx>
-#include <math_FunctionSetRoot.hxx>
+#include <Mathematics/Optimization/math_FunctionSetWithDerivatives.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
+#include <Mathematics/Optimization/math_FunctionSetRoot.hxx>
 #include <Foundation/Standard/Standard_DimensionError.hxx>
-#include <math_Gauss.hxx>
-#include <math_SVD.hxx>
-#include <math_GaussLeastSquare.hxx>
-#include <math_IntegerVector.hxx>
-#include <math_Function.hxx>
-#include <math_BrentMinimum.hxx>
-#include <math_FunctionSetWithDerivatives.hxx>
+#include <Mathematics/Optimization/math_Gauss.hxx>
+#include <Mathematics/Optimization/math_SVD.hxx>
+#include <Mathematics/Optimization/math_GaussLeastSquare.hxx>
+#include <Mathematics/Optimization/math_IntegerVector.hxx>
+#include <Mathematics/Optimization/math_Function.hxx>
+#include <Mathematics/Optimization/math_BrentMinimum.hxx>
+#include <Mathematics/Optimization/math_FunctionSetWithDerivatives.hxx>
 #include <Precision.hxx>
 
 

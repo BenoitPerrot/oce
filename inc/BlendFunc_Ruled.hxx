@@ -19,7 +19,7 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Blend_Function.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <math_Vector.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
 #include <GeomAbs_Shape.hxx>
 class Adaptor3d_HSurface;
 class Adaptor3d_HCurve;

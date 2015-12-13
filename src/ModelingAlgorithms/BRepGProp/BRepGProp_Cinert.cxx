@@ -16,7 +16,7 @@
 #include <gp_Pnt.hxx>
 #include <BRepGProp_Cinert.hxx>
 
-#include <math.hxx>
+#include <Mathematics/Optimization/math.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <BRepGProp_EdgeTool.hxx>
 

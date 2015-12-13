@@ -18,7 +18,7 @@
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <PLib.hxx>
 #include <Mathematics/BetaSpline/BSplCLib_Helpers.hxx>
-#include <math_Matrix.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
 #include <Foundation/NCollection/NCollection_LocalArray.hxx>
 
 //

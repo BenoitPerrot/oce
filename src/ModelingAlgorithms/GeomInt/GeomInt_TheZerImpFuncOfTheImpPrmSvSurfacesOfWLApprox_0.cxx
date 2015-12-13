@@ -10,7 +10,7 @@
 #include <Adaptor3d_HSurfaceTool.hxx>
 #include <IntSurf_Quadric.hxx>
 #include <IntSurf_QuadricTool.hxx>
-#include <math_Matrix.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Vec.hxx>
 #include <gp_Dir2d.hxx>

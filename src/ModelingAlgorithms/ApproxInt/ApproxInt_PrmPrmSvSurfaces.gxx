@@ -18,7 +18,7 @@
 
 
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <math_FunctionSetRoot.hxx>
+#include <Mathematics/Optimization/math_FunctionSetRoot.hxx>
 #include <Precision.hxx>
 
 #define Debug(expr)  cout<<" expr :"<<expr;

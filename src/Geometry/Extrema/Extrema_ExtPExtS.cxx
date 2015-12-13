@@ -31,8 +31,8 @@
 #include <gp_Pln.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Vec.hxx>
-#include <math_FunctionSetRoot.hxx>
-#include <math_Vector.hxx>
+#include <Mathematics/Optimization/math_FunctionSetRoot.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
 #include <Adaptor3d_HSurfaceOfLinearExtrusion.hxx>
 
 IMPLEMENT_STANDARD_HANDLE (Extrema_ExtPExtS, Standard_Transient)

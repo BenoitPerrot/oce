@@ -28,8 +28,8 @@
 #include <Foundation/StdFail/StdFail_InfiniteSolutions.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <ElCLib.hxx>
-#include <math_TrigonometricFunctionRoots.hxx>
-#include <math_DirectPolynomialRoots.hxx>
+#include <Mathematics/Optimization/math_TrigonometricFunctionRoots.hxx>
+#include <Mathematics/Optimization/math_DirectPolynomialRoots.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Precision.hxx>

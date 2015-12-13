@@ -28,7 +28,7 @@
 #include <ElCLib.hxx>
 #include <ElSLib.hxx>
 
-#include <math_FunctionSetRoot.hxx>
+#include <Mathematics/Optimization/math_FunctionSetRoot.hxx>
 
 #include <IntSurf.hxx>
 #include <IntSurf_InteriorPoint.hxx>

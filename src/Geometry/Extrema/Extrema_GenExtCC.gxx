@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Extrema_GlobOptFuncCC.hxx>
-#include <math_GlobOptMin.hxx>
+#include <Mathematics/Optimization/math_GlobOptMin.hxx>
 #include <Foundation/Standard/Standard_NullObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>

@@ -13,9 +13,9 @@
 // commercial license or contractual agreement.
 
 // Lpa, le 7/02/92
-#include <math_DoubleTab.hxx>
+#include <Mathematics/Optimization/math_DoubleTab.hxx>
 
-#include <math_Memory.hxx>
+#include <Mathematics/Optimization/math_Memory.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

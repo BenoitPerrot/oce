@@ -11,7 +11,7 @@
 #include <BRepApprox_ParLeastSquareOfMyGradientbisOfTheComputeLineOfApprox.hxx>
 #include <BRepApprox_ResConstraintOfMyGradientbisOfTheComputeLineOfApprox.hxx>
 #include <BRepApprox_ParFunctionOfMyGradientbisOfTheComputeLineOfApprox.hxx>
-#include <math_MultipleVarFunctionWithGradient.hxx>
+#include <Mathematics/Optimization/math_MultipleVarFunctionWithGradient.hxx>
  
 
 #define MultiLine BRepApprox_TheMultiLineOfApprox

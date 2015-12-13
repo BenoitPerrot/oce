@@ -27,9 +27,9 @@
 #include <AppParCurves_HArray1OfConstraintCouple.hxx>
 #include <AppParCurves_MultiPoint.hxx>
 #include <Precision.hxx>
-#include <math_IntegerVector.hxx>
-#include <math_Gauss.hxx>
-#include <math_Uzawa.hxx>
+#include <Mathematics/Optimization/math_IntegerVector.hxx>
+#include <Mathematics/Optimization/math_Gauss.hxx>
+#include <Mathematics/Optimization/math_Uzawa.hxx>
 #include <Approx_MCurvesToBSpCurve.hxx>
 #include <AppParCurves_ConstraintCouple.hxx>
 

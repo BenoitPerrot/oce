@@ -20,11 +20,11 @@
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
-#include <math_FunctionSet.hxx>
-#include <math_GaussSetIntegration.hxx>
-#include <math.hxx>
-#include <math_Vector.hxx>
-#include <math_FunctionSet.hxx>
+#include <Mathematics/Optimization/math_FunctionSet.hxx>
+#include <Mathematics/Optimization/math_GaussSetIntegration.hxx>
+#include <Mathematics/Optimization/math.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
+#include <Mathematics/Optimization/math_FunctionSet.hxx>
 
 
 math_GaussSetIntegration::math_GaussSetIntegration(math_FunctionSet& F, 

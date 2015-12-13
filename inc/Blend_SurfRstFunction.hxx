@@ -13,7 +13,7 @@
 #include <Blend_AppFunction.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <math_Vector.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <GeomAbs_Shape.hxx>
 class Standard_DomainError;

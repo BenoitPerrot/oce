@@ -22,8 +22,8 @@
 #include <Geom2dLProp_FuncCurNul.hxx>
 
 #include <Geom2dLProp_Curve2dTool.hxx>
-#include <math_FunctionRoots.hxx>
-#include <math_BracketedRoot.hxx>
+#include <Mathematics/Optimization/math_FunctionRoots.hxx>
+#include <Mathematics/Optimization/math_BracketedRoot.hxx>
 #include <Precision.hxx>
 
 //=======================================================================

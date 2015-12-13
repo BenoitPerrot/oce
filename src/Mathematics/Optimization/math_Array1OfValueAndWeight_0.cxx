@@ -3,18 +3,18 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <math_Array1OfValueAndWeight.hxx>
+#include <Mathematics/Optimization/math_Array1OfValueAndWeight.hxx>
 
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <math_ValueAndWeight.hxx>
+#include <Mathematics/Optimization/math_ValueAndWeight.hxx>
  
 
 #define Array1Item math_ValueAndWeight
-#define Array1Item_hxx <math_ValueAndWeight.hxx>
+#define Array1Item_hxx <Mathematics/Optimization/math_ValueAndWeight.hxx>
 #define TCollection_Array1 math_Array1OfValueAndWeight
-#define TCollection_Array1_hxx <math_Array1OfValueAndWeight.hxx>
+#define TCollection_Array1_hxx <Mathematics/Optimization/math_Array1OfValueAndWeight.hxx>
 #include <Foundation/TCollection/TCollection_Array1.gxx>
 

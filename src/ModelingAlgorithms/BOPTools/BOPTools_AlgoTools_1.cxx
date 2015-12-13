@@ -329,9 +329,9 @@ typedef BOPCol_TBBCnt
 //class    : BOPTools_CheckCurveOnSurface
 //purpose  : it is used to check the curve on the surface
 //=======================================================================
-#include <math_GlobOptMin.hxx>
-#include <math_MultipleVarFunctionWithHessian.hxx>
-#include <math_Matrix.hxx>
+#include <Mathematics/Optimization/math_GlobOptMin.hxx>
+#include <Mathematics/Optimization/math_MultipleVarFunctionWithHessian.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
 #include <Geom2d_TrimmedCurve.hxx>
 
 class BOPTools_CheckCurveOnSurface : 

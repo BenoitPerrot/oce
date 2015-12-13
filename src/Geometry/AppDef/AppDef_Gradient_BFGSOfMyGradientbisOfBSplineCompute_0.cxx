@@ -11,7 +11,7 @@
 #include <AppDef_ParLeastSquareOfMyGradientbisOfBSplineCompute.hxx>
 #include <AppDef_ResConstraintOfMyGradientbisOfBSplineCompute.hxx>
 #include <AppDef_ParFunctionOfMyGradientbisOfBSplineCompute.hxx>
-#include <math_MultipleVarFunctionWithGradient.hxx>
+#include <Mathematics/Optimization/math_MultipleVarFunctionWithGradient.hxx>
  
 
 #define MultiLine AppDef_MultiLine

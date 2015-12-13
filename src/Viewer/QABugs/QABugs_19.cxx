@@ -1415,8 +1415,8 @@ static Standard_Integer OCC24945 (Draw_Interpretor& di, Standard_Integer argc, c
 }
 
 #include <Extrema_FuncExtPS.hxx>
-#include <math_FunctionSetRoot.hxx>
-#include <math_Vector.hxx>
+#include <Mathematics/Optimization/math_FunctionSetRoot.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
 #include <BRepLib_MakeVertex.hxx>
 static Standard_Integer OCC24137 (Draw_Interpretor& theDI, Standard_Integer theNArg, const char** theArgv) 
 {
@@ -2400,8 +2400,8 @@ static Standard_Integer OCC24889 (Draw_Interpretor& theDI,
   return 0;
 }
 
-#include <math_GlobOptMin.hxx>
-#include <math_MultipleVarFunctionWithHessian.hxx>
+#include <Mathematics/Optimization/math_GlobOptMin.hxx>
+#include <Mathematics/Optimization/math_MultipleVarFunctionWithHessian.hxx>
 //=======================================================================
 //function : OCC25004
 //purpose  : Check extremaCC on Branin function.

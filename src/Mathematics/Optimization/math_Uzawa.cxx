@@ -31,9 +31,9 @@
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <math_Matrix.hxx>
-#include <math_Uzawa.hxx>
-#include <math_Crout.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
+#include <Mathematics/Optimization/math_Uzawa.hxx>
+#include <Mathematics/Optimization/math_Crout.hxx>
 #include <Foundation/Standard/Standard_DimensionError.hxx>
 
 

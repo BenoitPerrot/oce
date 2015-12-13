@@ -33,7 +33,7 @@
 #include <BRepBlend_BlendTool.hxx>
 #include <TopAbs.hxx>
 #include <IntSurf.hxx>
-#include <math_FunctionSetRoot.hxx>
+#include <Mathematics/Optimization/math_FunctionSetRoot.hxx>
 #include <gp_Pnt2d.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Vec2d.hxx>

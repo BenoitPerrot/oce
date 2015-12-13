@@ -13,7 +13,7 @@
 #include <Handle_Geom2d_Curve.hxx>
 #include <gp_Pnt2d.hxx>
 #include <gp_Vec2d.hxx>
-#include <math_FunctionWithDerivative.hxx>
+#include <Mathematics/Optimization/math_FunctionWithDerivative.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class Geom2d_Curve;

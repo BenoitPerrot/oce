@@ -10,7 +10,7 @@
 #include <GeomInt_MyBSplGradientOfTheComputeLineOfWLApprox.hxx>
 #include <GeomInt_BSpParLeastSquareOfMyBSplGradientOfTheComputeLineOfWLApprox.hxx>
 #include <GeomInt_BSpParFunctionOfMyBSplGradientOfTheComputeLineOfWLApprox.hxx>
-#include <math_MultipleVarFunctionWithGradient.hxx>
+#include <Mathematics/Optimization/math_MultipleVarFunctionWithGradient.hxx>
  
 
 #define MultiLine GeomInt_TheMultiLineOfWLApprox

@@ -17,7 +17,7 @@
 #include <Adaptor3d_HSurface.hxx>
 #include <Adaptor3d_HCurve.hxx>
 #include <Adaptor2d_HCurve2d.hxx>
-#include <math_Matrix.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
 #include <BlendFunc_RuledInv.hxx>
 
 #include <Precision.hxx>

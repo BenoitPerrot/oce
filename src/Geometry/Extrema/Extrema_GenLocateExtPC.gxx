@@ -16,7 +16,7 @@
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <math_FunctionRoot.hxx>
+#include <Mathematics/Optimization/math_FunctionRoot.hxx>
 
 //=======================================================================
 //function : Extrema_GenLocateExtPC

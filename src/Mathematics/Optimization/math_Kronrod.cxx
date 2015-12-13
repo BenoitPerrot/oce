@@ -13,9 +13,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <math.hxx>
+#include <Mathematics/Optimization/math.hxx>
 
-#include <math_ComputeKronrodPointsAndWeights.hxx>
+#include <Mathematics/Optimization/math_ComputeKronrodPointsAndWeights.hxx>
 
 Standard_Integer math::KronrodPointsMax()
 {

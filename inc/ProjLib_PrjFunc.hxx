@@ -14,9 +14,9 @@
 #include <Adaptor3d_SurfacePtr.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <math_FunctionSetWithDerivatives.hxx>
+#include <Mathematics/Optimization/math_FunctionSetWithDerivatives.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <math_Vector.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
 class Standard_ConstructionError;
 class math_Matrix;
 class gp_Pnt2d;

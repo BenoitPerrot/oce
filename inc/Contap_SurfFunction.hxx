@@ -18,9 +18,9 @@
 #include <gp_Dir2d.hxx>
 #include <gp_Vec.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <math_FunctionSetWithDerivatives.hxx>
+#include <Mathematics/Optimization/math_FunctionSetWithDerivatives.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <math_Vector.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
 class Adaptor3d_HSurface;
 class StdFail_UndefinedDerivative;
 class gp_Pnt;

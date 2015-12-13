@@ -16,7 +16,7 @@
 
 #include <GeomLib_PolyFunc.hxx>
 #include <PLib.hxx>
-#include <math_Vector.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
 
 GeomLib_PolyFunc::GeomLib_PolyFunc(const math_Vector& Coeffs) 
                                   :myCoeffs(1, Coeffs.Length()-1)

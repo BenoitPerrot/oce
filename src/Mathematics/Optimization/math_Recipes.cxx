@@ -29,14 +29,14 @@
 
 #include <math.h>
 
-#include <math_Recipes.hxx>
+#include <Mathematics/Optimization/math_Recipes.hxx>
 
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 
-#include <math_Vector.hxx>
-#include <math_IntegerVector.hxx>
-#include <math_Matrix.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
+#include <Mathematics/Optimization/math_IntegerVector.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
 
 namespace {
 static inline Standard_Real PYTHAG (const Standard_Real a, const Standard_Real b)

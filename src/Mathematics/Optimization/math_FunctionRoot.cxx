@@ -20,12 +20,12 @@
 
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <math_FunctionWithDerivative.hxx>
-#include <math_FunctionRoot.hxx>
-#include <math_FunctionSetRoot.hxx>
+#include <Mathematics/Optimization/math_FunctionWithDerivative.hxx>
+#include <Mathematics/Optimization/math_FunctionRoot.hxx>
+#include <Mathematics/Optimization/math_FunctionSetRoot.hxx>
 
-#include <math_FunctionSetWithDerivatives.hxx>
-#include <math_FunctionWithDerivative.hxx>
+#include <Mathematics/Optimization/math_FunctionSetWithDerivatives.hxx>
+#include <Mathematics/Optimization/math_FunctionWithDerivative.hxx>
 
 
 class math_MyFunctionSetWithDerivatives : public math_FunctionSetWithDerivatives {

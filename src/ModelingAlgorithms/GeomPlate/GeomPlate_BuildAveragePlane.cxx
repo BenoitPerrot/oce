@@ -32,11 +32,11 @@
 #include <GeomPlate_SequenceOfAij.hxx>
 #include <GeomPlate_BuildAveragePlane.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfVec.hxx>
-#include <math_Matrix.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Pln.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
-#include <math_Jacobi.hxx>
+#include <Mathematics/Optimization/math_Jacobi.hxx>
 #include <gp_Vec.hxx>
 #include <gp_Ax1.hxx>
 #include <gp_Ax3.hxx>

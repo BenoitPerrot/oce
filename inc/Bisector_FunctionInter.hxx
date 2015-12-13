@@ -12,7 +12,7 @@
 
 #include <Handle_Geom2d_Curve.hxx>
 #include <Handle_Bisector_Curve.hxx>
-#include <math_FunctionWithDerivative.hxx>
+#include <Mathematics/Optimization/math_FunctionWithDerivative.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class Geom2d_Curve;

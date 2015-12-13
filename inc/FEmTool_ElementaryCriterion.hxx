@@ -15,7 +15,7 @@
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_TColStd_HArray2OfInteger.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <math_Vector.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
 class TColStd_HArray2OfReal;
 class Standard_NotImplemented;
 class Standard_DomainError;

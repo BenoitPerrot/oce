@@ -13,8 +13,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <math_PSO.hxx>
-#include <math_PSOParticlesPool.hxx>
+#include <Mathematics/Optimization/math_PSO.hxx>
+#include <Mathematics/Optimization/math_PSOParticlesPool.hxx>
 
 const Standard_Real aBorderDivisor = 1.0e+4;
 

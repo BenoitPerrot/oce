@@ -29,7 +29,7 @@
 #include <TopoDS_Face.hxx>
 #include <TopExp.hxx>
 #include <TopTools_DataMapOfShapeInteger.hxx>
-#include <math_Matrix.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 #include <BRepTools_Substitution.hxx>
 #include <BRepCheck_ListIteratorOfListOfStatus.hxx>

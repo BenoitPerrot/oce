@@ -18,7 +18,7 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <gp_Mat.hxx>
-#include <math_Vector.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
 #include <GeomFill_PipeError.hxx>
 #include <GeomFill_LocationLaw.hxx>
 #include <Handle_GeomFill_LocationLaw.hxx>

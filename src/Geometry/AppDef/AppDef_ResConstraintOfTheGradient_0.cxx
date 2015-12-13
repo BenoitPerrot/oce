@@ -10,7 +10,7 @@
 #include <AppDef_MyLineTool.hxx>
 #include <AppParCurves_MultiCurve.hxx>
 #include <AppParCurves_HArray1OfConstraintCouple.hxx>
-#include <math_Matrix.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
  
 
 #define MultiLine AppDef_MultiLine

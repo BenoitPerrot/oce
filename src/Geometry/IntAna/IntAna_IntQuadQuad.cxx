@@ -41,7 +41,7 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <math_TrigonometricFunctionRoots.hxx>
+#include <Mathematics/Optimization/math_TrigonometricFunctionRoots.hxx>
 	
 #include <gp_Ax2.hxx>
 #include <gp_Ax3.hxx>

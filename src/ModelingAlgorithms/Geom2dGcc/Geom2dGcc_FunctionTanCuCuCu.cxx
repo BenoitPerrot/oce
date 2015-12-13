@@ -20,7 +20,7 @@
 #include <gp_Lin2d.hxx>
 #include <gp_Pnt2d.hxx>
 #include <gp_Vec2d.hxx>
-#include <math_Matrix.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
 #include <Geom2dGcc_FunctionTanCuCuCu.hxx>
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>

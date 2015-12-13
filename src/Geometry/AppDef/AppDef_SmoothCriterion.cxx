@@ -20,7 +20,7 @@
 #include <FEmTool_Curve.hxx>
 #include <FEmTool_HAssemblyTable.hxx>
 #include <Foundation/TColStd/TColStd_HArray2OfInteger.hxx>
-#include <math_Matrix.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <AppDef_SmoothCriterion.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

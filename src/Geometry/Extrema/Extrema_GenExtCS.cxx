@@ -31,10 +31,10 @@
 #include <Extrema_POnCurv.hxx>
 #include <Geom_Line.hxx>
 #include <GeomAdaptor_Curve.hxx>
-#include <math_FunctionSetRoot.hxx>
-#include <math_PSO.hxx>
-#include <math_PSOParticlesPool.hxx>
-#include <math_Vector.hxx>
+#include <Mathematics/Optimization/math_FunctionSetRoot.hxx>
+#include <Mathematics/Optimization/math_PSO.hxx>
+#include <Mathematics/Optimization/math_PSOParticlesPool.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
 #include <Precision.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
 

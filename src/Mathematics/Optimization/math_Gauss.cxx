@@ -18,14 +18,14 @@
 #define No_Standard_DimensionError
 //#endif
 
-#include <math_NotSquare.hxx>
+#include <Mathematics/Optimization/math_NotSquare.hxx>
 #include <Foundation/Standard/Standard_DimensionError.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <math_Matrix.hxx>
-#include <math_Gauss.hxx>
-#include <math_Recipes.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
+#include <Mathematics/Optimization/math_Gauss.hxx>
+#include <Mathematics/Optimization/math_Recipes.hxx>
 
-#include <math_NotSquare.hxx> 
+#include <Mathematics/Optimization/math_NotSquare.hxx> 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_DimensionError.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>

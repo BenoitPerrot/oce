@@ -20,7 +20,7 @@
 #include <Geom_Surface.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_XYZ.hxx>
-#include <math_Matrix.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
 #include <gp_Vec.hxx>
 #include <GeomFill_FunctionGuide.hxx>
 

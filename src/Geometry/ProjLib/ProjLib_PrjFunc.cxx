@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <math_Matrix.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
 #include <gp_Pnt2d.hxx>
 #include <ProjLib_PrjFunc.hxx>
 #include <gp_Pnt.hxx>

@@ -20,8 +20,8 @@
 #include <FairCurve_BattenLaw.hxx>
 #include <FairCurve_EnergyOfMVC.hxx>
 
-#include <math_IntegerVector.hxx>
-#include <math_GaussSetIntegration.hxx>
+#include <Mathematics/Optimization/math_IntegerVector.hxx>
+#include <Mathematics/Optimization/math_GaussSetIntegration.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt2d.hxx>
 
 //=====================================================================================

@@ -12,7 +12,7 @@
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <math_Matrix.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class StdFail_NotDone;
 class gp_Pnt;

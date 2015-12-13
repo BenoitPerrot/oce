@@ -18,7 +18,7 @@
 #include <Adaptor3d_HCurve.hxx>
 #include <Adaptor2d_HCurve2d.hxx>
 #include <Law_Function.hxx>
-#include <math_Matrix.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
 #include <BlendFunc_EvolRadInv.hxx>
 
 #include <Precision.hxx>

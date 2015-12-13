@@ -48,8 +48,8 @@
 #include <gp_Circ2d.hxx>
 #include <gp_Ax3.hxx>
 
-#include <math_DirectPolynomialRoots.hxx>
-#include <math_TrigonometricFunctionRoots.hxx>
+#include <Mathematics/Optimization/math_DirectPolynomialRoots.hxx>
+#include <Mathematics/Optimization/math_TrigonometricFunctionRoots.hxx>
 #include <ElCLib.hxx>
 
 

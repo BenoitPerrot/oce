@@ -15,7 +15,7 @@
 #include <CPnts_MyRootFunction.hxx>
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <math_GaussSingleIntegration.hxx>
+#include <Mathematics/Optimization/math_GaussSingleIntegration.hxx>
 
 
 

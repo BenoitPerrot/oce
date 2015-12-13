@@ -20,7 +20,7 @@
 
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/StdFail/StdFail_InfiniteSolutions.hxx>
-#include <math_DirectPolynomialRoots.hxx>
+#include <Mathematics/Optimization/math_DirectPolynomialRoots.hxx>
 
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/StdFail/StdFail_InfiniteSolutions.hxx> 

@@ -12,9 +12,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <math_IntegerRandom.hxx>
+#include <Mathematics/Optimization/math_IntegerRandom.hxx>
 
-#include <math_Recipes.hxx>
+#include <Mathematics/Optimization/math_Recipes.hxx>
 
 math_IntegerRandom::math_IntegerRandom(const Standard_Integer Lower, 
                                         const Standard_Integer Upper) {

@@ -44,12 +44,12 @@ Etapes du calcul:
 //#endif
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <math_Function.hxx>
-#include <math_GaussSingleIntegration.hxx>
+#include <Mathematics/Optimization/math_Function.hxx>
+#include <Mathematics/Optimization/math_GaussSingleIntegration.hxx>
 
-#include <math.hxx>
-#include <math_Vector.hxx>
-#include <math_Function.hxx>
+#include <Mathematics/Optimization/math.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
+#include <Mathematics/Optimization/math_Function.hxx>
 
 math_GaussSingleIntegration::math_GaussSingleIntegration() : Done(Standard_False)  
 {

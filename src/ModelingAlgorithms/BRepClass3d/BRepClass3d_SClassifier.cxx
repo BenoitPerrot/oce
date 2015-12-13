@@ -34,7 +34,7 @@
 #include <ElCLib.hxx>
 #include <Geom_Surface.hxx>
 #include <BRep_Tool.hxx>
-#include <math_RealRandom.hxx>
+#include <Mathematics/Optimization/math_RealRandom.hxx>
 #include <BRepTopAdaptor_FClass2d.hxx>
 
 static

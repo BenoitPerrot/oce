@@ -19,7 +19,7 @@
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <PLib_DoubleJacobiPolynomial.hxx>
 #include <PLib_JacobiPolynomial.hxx>
-#include <math_Vector.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
 
 //=======================================================================
 //function : PLib_DoubleJacobiPolynomial

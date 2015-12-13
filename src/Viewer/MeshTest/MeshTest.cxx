@@ -72,9 +72,9 @@
 
 #include <PLib.hxx>
 #include <AppCont_ContMatrices.hxx>
-#include <math_Vector.hxx>
-#include <math_Matrix.hxx>
-#include <math.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
+#include <Mathematics/Optimization/math.hxx>
 
 #include <CSLib_DerivativeStatus.hxx>
 #include <CSLib.hxx>

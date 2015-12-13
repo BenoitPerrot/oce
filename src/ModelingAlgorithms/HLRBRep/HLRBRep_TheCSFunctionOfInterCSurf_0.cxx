@@ -8,7 +8,7 @@
 #include <HLRBRep_SurfaceTool.hxx>
 #include <gp_Lin.hxx>
 #include <HLRBRep_LineTool.hxx>
-#include <math_Matrix.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
 #include <gp_Pnt.hxx>
  
 

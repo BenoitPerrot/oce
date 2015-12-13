@@ -19,7 +19,7 @@
 
 #include <Adaptor3d_HSurface.hxx>
 #include <Adaptor3d_HCurve.hxx>
-#include <math_Matrix.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Vec.hxx>
 #include <gp_Vec2d.hxx>

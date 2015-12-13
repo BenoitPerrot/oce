@@ -47,7 +47,7 @@
 #include <IntAna_Curve.hxx>
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <math_DirectPolynomialRoots.hxx>
+#include <Mathematics/Optimization/math_DirectPolynomialRoots.hxx>
 #include <ElSLib.hxx>
 #include <gp_XYZ.hxx>
 

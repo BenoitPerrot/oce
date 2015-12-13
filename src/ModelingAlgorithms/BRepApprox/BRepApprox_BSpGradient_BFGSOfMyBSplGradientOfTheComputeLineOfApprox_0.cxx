@@ -10,7 +10,7 @@
 #include <BRepApprox_MyBSplGradientOfTheComputeLineOfApprox.hxx>
 #include <BRepApprox_BSpParLeastSquareOfMyBSplGradientOfTheComputeLineOfApprox.hxx>
 #include <BRepApprox_BSpParFunctionOfMyBSplGradientOfTheComputeLineOfApprox.hxx>
-#include <math_MultipleVarFunctionWithGradient.hxx>
+#include <Mathematics/Optimization/math_MultipleVarFunctionWithGradient.hxx>
  
 
 #define MultiLine BRepApprox_TheMultiLineOfApprox

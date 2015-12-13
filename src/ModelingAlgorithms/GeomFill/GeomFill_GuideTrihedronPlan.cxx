@@ -53,10 +53,10 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_GuideTrihedronPlan)
 #include <GeomFill_Frenet.hxx>
 #include <GeomFill_PlanFunc.hxx>
 
-#include <math_Vector.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
 
-#include <math_FunctionRoot.hxx>
-#include <math_Matrix.hxx>
+#include <Mathematics/Optimization/math_FunctionRoot.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
 
 #include <Precision.hxx>
 

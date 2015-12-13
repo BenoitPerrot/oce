@@ -13,7 +13,7 @@
 #include <gp_Circ2d.hxx>
 #include <Geom2dAdaptor_Curve.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <math_FunctionWithDerivative.hxx>
+#include <Mathematics/Optimization/math_FunctionWithDerivative.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class gp_Circ2d;
 class Geom2dAdaptor_Curve;

@@ -18,7 +18,7 @@
 #include <BRepGProp_TFunction.hxx>
 
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
-#include <math_KronrodSingleIntegration.hxx>
+#include <Mathematics/Optimization/math_KronrodSingleIntegration.hxx>
 #include <Precision.hxx>
 
 //=======================================================================

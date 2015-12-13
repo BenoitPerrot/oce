@@ -15,7 +15,7 @@
 #define No_Standard_RangeError
 #define No_Standard_OutOfRange
 
-#include <math_Matrix.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
 #include <AppParCurves.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>

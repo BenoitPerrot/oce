@@ -12,7 +12,7 @@
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_BRepBlend_Line.hxx>
-#include <math_Vector.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
 #include <Handle_Adaptor3d_HSurface.hxx>
 #include <Handle_Adaptor3d_TopolTool.hxx>
 #include <Handle_Adaptor2d_HCurve2d.hxx>

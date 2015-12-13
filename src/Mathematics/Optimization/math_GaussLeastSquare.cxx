@@ -20,9 +20,9 @@
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_DimensionError.hxx>
-#include <math_Matrix.hxx>
-#include <math_GaussLeastSquare.hxx>
-#include <math_Recipes.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
+#include <Mathematics/Optimization/math_GaussLeastSquare.hxx>
+#include <Mathematics/Optimization/math_Recipes.hxx>
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx> 
 #include <Foundation/Standard/Standard_DimensionError.hxx>

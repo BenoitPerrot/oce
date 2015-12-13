@@ -16,14 +16,14 @@
 
 #include <Foundation/Standard/Standard_DimensionError.hxx>
 #include <Foundation/Standard/Standard_RangeError.hxx>
-#include <math_Matrix.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
 #include <BlendFunc_Tensor.hxx>
 
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <math_Vector.hxx>
-#include <math_Matrix.hxx>
-//#include <math_StackMemoryManager.hxx>
-//#include <math_Memory.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
+//#include <Mathematics/Optimization/math_StackMemoryManager.hxx>
+//#include <Mathematics/Optimization/math_Memory.hxx>
 
 BlendFunc_Tensor::BlendFunc_Tensor(const Standard_Integer NbRow, 
 				   const Standard_Integer NbCol, 

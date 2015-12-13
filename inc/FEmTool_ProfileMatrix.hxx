@@ -17,7 +17,7 @@
 #include <FEmTool_SparseMatrix.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <math_Vector.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
 class TColStd_HArray1OfReal;
 class TColStd_HArray1OfInteger;
 class StdFail_NotDone;

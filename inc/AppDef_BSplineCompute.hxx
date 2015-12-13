@@ -19,7 +19,7 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <AppParCurves_Constraint.hxx>
-#include <math_Vector.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
 class TColStd_HArray1OfReal;
 class TColStd_HArray1OfInteger;
 class AppParCurves_HArray1OfConstraintCouple;

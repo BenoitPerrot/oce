@@ -44,7 +44,7 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <math_DirectPolynomialRoots.hxx>
+#include <Mathematics/Optimization/math_DirectPolynomialRoots.hxx>
 
 #include <gp.hxx>
 #include <gp_Pln.hxx>

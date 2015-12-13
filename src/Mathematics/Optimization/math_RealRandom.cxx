@@ -12,8 +12,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <math_RealRandom.hxx>
-#include <math_Recipes.hxx>
+#include <Mathematics/Optimization/math_RealRandom.hxx>
+#include <Mathematics/Optimization/math_Recipes.hxx>
 
 math_RealRandom::math_RealRandom(const Standard_Real Lower,
 				 const Standard_Real Upper) {

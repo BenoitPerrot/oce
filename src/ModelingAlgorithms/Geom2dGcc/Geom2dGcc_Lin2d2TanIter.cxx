@@ -32,10 +32,10 @@
 #include <gp_Dir2d.hxx>
 #include <gp_Vec2d.hxx>
 #include <gp_Circ2d.hxx>
-#include <math_Vector.hxx>
-#include <math_Matrix.hxx>
-#include <math_FunctionSetRoot.hxx>
-#include <math_FunctionRoot.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
+#include <Mathematics/Optimization/math_FunctionSetRoot.hxx>
+#include <Mathematics/Optimization/math_FunctionRoot.hxx>
 
 #include <Geom2dGcc_CurveTool.hxx>
 

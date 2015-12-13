@@ -21,7 +21,7 @@
 //                               facilement approchable ont de petites erreurs.
 // Modified     PMN 15/04/1997 : Gestion fine de la continuite aux lieux de decoupes 
 
-#include <math_Vector.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
 #include <Mathematics/Collections/TColgp_HArray2OfPnt2d.hxx>

@@ -15,18 +15,18 @@
 #include <Foundation/Standard/Standard_DimensionError.hxx>
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/Standard/Standard_DivideByZero.hxx>
-#include <math_NotSquare.hxx>
-#include <math_SingularMatrix.hxx>
-#include <math_Vector.hxx>
-#include <math_Matrix.hxx>
-#include <math_Vector.hxx>
+#include <Mathematics/Optimization/math_NotSquare.hxx>
+#include <Mathematics/Optimization/math_SingularMatrix.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
 
 #include <Foundation/Standard/Standard_DimensionError.hxx>
 #include <Foundation/Standard/Standard_DivideByZero.hxx>
 #include <Foundation/Standard/Standard_RangeError.hxx>
-#include <math_SingularMatrix.hxx> 
-#include <math_NotSquare.hxx>
-#include <math_Gauss.hxx>
+#include <Mathematics/Optimization/math_SingularMatrix.hxx> 
+#include <Mathematics/Optimization/math_NotSquare.hxx>
+#include <Mathematics/Optimization/math_Gauss.hxx>
 
 
 void math_Matrix::SetLowerRow(const Standard_Integer LowerRow) {

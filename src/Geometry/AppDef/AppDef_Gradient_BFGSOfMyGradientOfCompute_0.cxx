@@ -11,7 +11,7 @@
 #include <AppDef_ParLeastSquareOfMyGradientOfCompute.hxx>
 #include <AppDef_ResConstraintOfMyGradientOfCompute.hxx>
 #include <AppDef_ParFunctionOfMyGradientOfCompute.hxx>
-#include <math_MultipleVarFunctionWithGradient.hxx>
+#include <Mathematics/Optimization/math_MultipleVarFunctionWithGradient.hxx>
  
 
 #define MultiLine AppDef_MultiLine

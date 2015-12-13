@@ -37,7 +37,7 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <GccEnt_BadQualifier.hxx>
-#include <math_DirectPolynomialRoots.hxx>
+#include <Mathematics/Optimization/math_DirectPolynomialRoots.hxx>
 
 //=========================================================================
 //   Creation of a circle tangent to three circles.                        +

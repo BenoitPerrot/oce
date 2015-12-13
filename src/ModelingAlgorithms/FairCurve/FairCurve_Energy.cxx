@@ -20,11 +20,11 @@
 #endif
 
 #include <Mathematics/Collections/TColgp_HArray1OfPnt2d.hxx>
-#include <math_Matrix.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
 #include <gp_Pnt2d.hxx>
 #include <FairCurve_Energy.hxx>
 
-#include <math_IntegerVector.hxx>
+#include <Mathematics/Optimization/math_IntegerVector.hxx>
 #include <gp_Vec2d.hxx>
 
 //=======================================================================

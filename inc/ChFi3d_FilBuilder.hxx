@@ -23,7 +23,7 @@
 #include <Handle_ChFiDS_Spine.hxx>
 #include <Handle_BRepAdaptor_HSurface.hxx>
 #include <Handle_Adaptor3d_TopolTool.hxx>
-#include <math_Vector.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
 #include <Handle_BRepAdaptor_HCurve2d.hxx>
 #include <TopAbs_Orientation.hxx>
 #include <TopAbs_State.hxx>

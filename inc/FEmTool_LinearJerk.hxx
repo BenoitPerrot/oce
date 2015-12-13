@@ -10,13 +10,13 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_FEmTool_LinearJerk.hxx>
 
-#include <math_Matrix.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <FEmTool_ElementaryCriterion.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <Handle_TColStd_HArray2OfInteger.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <math_Vector.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
 class Standard_NotImplemented;
 class Standard_DomainError;
 class TColStd_HArray2OfInteger;

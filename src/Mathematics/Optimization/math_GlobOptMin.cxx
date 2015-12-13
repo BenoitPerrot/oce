@@ -13,14 +13,14 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement
 
-#include <math_GlobOptMin.hxx>
+#include <Mathematics/Optimization/math_GlobOptMin.hxx>
 
-#include <math_BFGS.hxx>
-#include <math_Matrix.hxx>
-#include <math_MultipleVarFunctionWithGradient.hxx>
-#include <math_MultipleVarFunctionWithHessian.hxx>
-#include <math_NewtonMinimum.hxx>
-#include <math_Powell.hxx>
+#include <Mathematics/Optimization/math_BFGS.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
+#include <Mathematics/Optimization/math_MultipleVarFunctionWithGradient.hxx>
+#include <Mathematics/Optimization/math_MultipleVarFunctionWithHessian.hxx>
+#include <Mathematics/Optimization/math_NewtonMinimum.hxx>
+#include <Mathematics/Optimization/math_Powell.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 

@@ -22,17 +22,17 @@
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
-#include <math_Matrix.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
 #include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
 #include <PLib.hxx>
 #include <Foundation/NCollection/NCollection_LocalArray.hxx>
-#include <math_Matrix.hxx> 
-#include <math_Gauss.hxx> 
+#include <Mathematics/Optimization/math_Matrix.hxx> 
+#include <Mathematics/Optimization/math_Gauss.hxx> 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <GeomAbs_Shape.hxx>
 
-#include <math_Gauss.hxx>
-#include <math.hxx>
+#include <Mathematics/Optimization/math_Gauss.hxx>
+#include <Mathematics/Optimization/math.hxx>
 
 // To convert points array into Real ..
 // *********************************

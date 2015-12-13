@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_PLib_HermitJacobi.hxx>
 
-#include <math_Matrix.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
 #include <Handle_PLib_JacobiPolynomial.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <PLib_Base.hxx>

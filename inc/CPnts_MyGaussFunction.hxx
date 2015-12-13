@@ -12,7 +12,7 @@
 
 #include <CPnts_RealFunction.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
-#include <math_Function.hxx>
+#include <Mathematics/Optimization/math_Function.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 

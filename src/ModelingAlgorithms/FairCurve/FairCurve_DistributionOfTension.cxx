@@ -26,8 +26,8 @@
 
 #include <gp_XY.hxx>
 #include <gp_Pnt2d.hxx>
-#include <math_Matrix.hxx>
-#include <math_Vector.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 
 

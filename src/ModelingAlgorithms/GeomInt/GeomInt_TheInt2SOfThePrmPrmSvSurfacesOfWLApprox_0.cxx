@@ -13,7 +13,7 @@
 #include <Adaptor3d_HSurfaceTool.hxx>
 #include <GeomInt_TheFunctionOfTheInt2SOfThePrmPrmSvSurfacesOfWLApprox.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <math_FunctionSetRoot.hxx>
+#include <Mathematics/Optimization/math_FunctionSetRoot.hxx>
 #include <IntSurf_PntOn2S.hxx>
 #include <gp_Dir.hxx>
 #include <gp_Dir2d.hxx>

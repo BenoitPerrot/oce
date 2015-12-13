@@ -16,7 +16,7 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <GProp_ValueType.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <math_Function.hxx>
+#include <Mathematics/Optimization/math_Function.hxx>
 class BRepGProp_Face;
 class gp_Pnt;
 class gp_XYZ;

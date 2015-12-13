@@ -13,12 +13,12 @@
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <gp_Pnt.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <math_FunctionSetWithDerivatives.hxx>
+#include <Mathematics/Optimization/math_FunctionSetWithDerivatives.hxx>
 #include <Handle_Adaptor3d_HSurface.hxx>
 #include <Handle_Adaptor2d_HCurve2d.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <math_Vector.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
 class Adaptor3d_HSurface;
 class Adaptor2d_HCurve2d;
 class math_Matrix;

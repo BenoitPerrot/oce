@@ -25,7 +25,7 @@
 #include <Mathematics/Convert/Convert_ParameterisationType.hxx>
 #include <Handle_Law_Function.hxx>
 #include <Blend_RstRstFunction.hxx>
-#include <math_Vector.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
 #include <Blend_DecrochStatus.hxx>
 #include <GeomAbs_Shape.hxx>
 class Adaptor3d_HSurface;

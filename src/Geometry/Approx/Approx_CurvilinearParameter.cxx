@@ -43,7 +43,7 @@
 #include <Precision.hxx>
 #include <Geom2d_BSplineCurve.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
-#include <math_Vector.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
 #include <CPnts_AbscissaPoint.hxx>
 #include <Approx_CurvlinFunc.hxx>
 

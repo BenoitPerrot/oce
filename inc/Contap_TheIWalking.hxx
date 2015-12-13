@@ -13,7 +13,7 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <IntSurf_SequenceOfPathPoint.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <math_Vector.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
 #include <IntWalk_VectorOfWalkingData.hxx>
 #include <IntWalk_VectorOfInteger.hxx>
 #include <IntSurf_PntOn2S.hxx>

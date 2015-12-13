@@ -22,14 +22,14 @@
 #define No_Standard_RangeError
 #define No_Standard_OutOfRange
 
-#include <math_Vector.hxx>
-#include <math_Matrix.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
 #include <AppParCurves_Constraint.hxx>
 #include <AppParCurves_ConstraintCouple.hxx>
 #include <AppParCurves_MultiPoint.hxx>
 #include <AppParCurves.hxx>
 #include <Foundation/Standard/Standard_DimensionError.hxx>
-#include <math_Uzawa.hxx>
+#include <Mathematics/Optimization/math_Uzawa.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfInteger.hxx>
 #include <gp_Pnt.hxx>

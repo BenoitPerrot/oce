@@ -18,7 +18,7 @@
 #include <BRepGProp_Domain.hxx>
 #include <BRepGProp_Vinert.hxx>
 
-#include <math.hxx>
+#include <Mathematics/Optimization/math.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 
 class HMath_Vector{

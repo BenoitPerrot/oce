@@ -10,7 +10,7 @@
 #include <AppDef_MyBSplGradientOfBSplineCompute.hxx>
 #include <AppDef_BSpParLeastSquareOfMyBSplGradientOfBSplineCompute.hxx>
 #include <AppDef_BSpParFunctionOfMyBSplGradientOfBSplineCompute.hxx>
-#include <math_MultipleVarFunctionWithGradient.hxx>
+#include <Mathematics/Optimization/math_MultipleVarFunctionWithGradient.hxx>
  
 
 #define MultiLine AppDef_MultiLine

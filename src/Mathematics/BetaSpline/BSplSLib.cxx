@@ -37,7 +37,7 @@
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <math_Matrix.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
 
 // for null derivatives
 static Standard_Real BSplSLib_zero[3] = {0.0, 0.0, 0.0};

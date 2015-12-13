@@ -13,9 +13,9 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <math_FunctionWithDerivative.hxx>
-#include <math_NewtonFunctionRoot.hxx>
-#include <math_FunctionWithDerivative.hxx>
+#include <Mathematics/Optimization/math_FunctionWithDerivative.hxx>
+#include <Mathematics/Optimization/math_NewtonFunctionRoot.hxx>
+#include <Mathematics/Optimization/math_FunctionWithDerivative.hxx>
 
 
 math_NewtonFunctionRoot::math_NewtonFunctionRoot (math_FunctionWithDerivative& F, 

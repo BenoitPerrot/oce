@@ -14,10 +14,10 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <math_Function.hxx>
-#include <math_KronrodSingleIntegration.hxx>
-#include <math_Vector.hxx>
-#include <math.hxx>
+#include <Mathematics/Optimization/math_Function.hxx>
+#include <Mathematics/Optimization/math_KronrodSingleIntegration.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
+#include <Mathematics/Optimization/math.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 
 

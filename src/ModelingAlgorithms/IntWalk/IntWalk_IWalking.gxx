@@ -14,7 +14,7 @@
 
 #include <IntWalk_StatusDeflection.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <math_FunctionSetRoot.hxx>
+#include <Mathematics/Optimization/math_FunctionSetRoot.hxx>
 
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 

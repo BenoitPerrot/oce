@@ -13,7 +13,7 @@
 #include <BRepBlend_AppFuncRoot.hxx>
 #include <Handle_BRepBlend_Line.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <math_Vector.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
 class Standard_OutOfRange;
 class BRepBlend_Line;
 class Blend_SurfRstFunction;

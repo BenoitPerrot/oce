@@ -22,7 +22,7 @@
 #include <AppParCurves_MultiBSpCurve.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 #include <Handle_FEmTool_Curve.hxx>
-#include <math_Vector.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
 #include <Handle_PLib_Base.hxx>
 #include <AppParCurves_Constraint.hxx>
 class TColStd_HArray1OfReal;

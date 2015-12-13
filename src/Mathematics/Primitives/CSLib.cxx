@@ -26,7 +26,7 @@
 #include <Mathematics/Collections/TColgp_Array2OfVec.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <math_FunctionRoots.hxx>
+#include <Mathematics/Optimization/math_FunctionRoots.hxx>
 #include <CSLib_NormalPolyDef.hxx>
 
 

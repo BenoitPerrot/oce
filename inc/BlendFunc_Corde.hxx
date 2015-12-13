@@ -18,7 +18,7 @@
 #include <gp_Vec.hxx>
 #include <gp_Vec2d.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <math_Vector.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
 class Adaptor3d_HSurface;
 class Adaptor3d_HCurve;
 class Standard_DomainError;

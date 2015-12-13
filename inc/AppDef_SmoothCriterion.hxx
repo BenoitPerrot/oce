@@ -17,7 +17,7 @@
 #include <Handle_FEmTool_HAssemblyTable.hxx>
 #include <Handle_TColStd_HArray2OfInteger.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <math_Vector.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
 class Standard_NotImplemented;
 class Standard_DomainError;
 class TColStd_HArray1OfReal;

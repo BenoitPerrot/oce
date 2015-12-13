@@ -16,7 +16,7 @@
 #ifndef _math_GlobOptMin_HeaderFile
 #define _math_GlobOptMin_HeaderFile
 
-#include <math_MultipleVarFunction.hxx>
+#include <Mathematics/Optimization/math_MultipleVarFunction.hxx>
 #include <Foundation/NCollection/NCollection_Sequence.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 

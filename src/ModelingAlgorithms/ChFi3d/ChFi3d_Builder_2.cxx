@@ -58,7 +58,7 @@
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 
-#include <math_Vector.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_XYZ.hxx>
 #include <gp_Vec.hxx>

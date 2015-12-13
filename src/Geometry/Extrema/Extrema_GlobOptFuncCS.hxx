@@ -19,9 +19,9 @@
 
 #include <Adaptor3d_Curve.hxx>
 #include <Adaptor3d_Surface.hxx>
-#include <math_Matrix.hxx>
-#include <math_Vector.hxx>
-#include <math_MultipleVarFunctionWithHessian.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
+#include <Mathematics/Optimization/math_MultipleVarFunctionWithHessian.hxx>
 
 //! This class implements function which calculate square Eucluidean distance
 //! between point on curve and point on surface in case of continuity is C2.

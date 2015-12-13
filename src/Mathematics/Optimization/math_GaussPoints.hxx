@@ -14,7 +14,7 @@
 
 #ifndef math_GaussPoints_HeaderFile
 #define math_GaussPoints_HeaderFile
-#include <math_Vector.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 
 

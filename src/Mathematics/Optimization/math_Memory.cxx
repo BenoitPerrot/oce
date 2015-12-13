@@ -12,7 +12,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <math_Memory.hxx>
+#include <Mathematics/Optimization/math_Memory.hxx>
 
 void *reverse_move(void *s1, void *s2, int size) {
 

@@ -58,7 +58,7 @@
 #include <AppParCurves_ConstraintCouple.hxx>
 #include <AppDef_HArray1OfMultiPointConstraint.hxx>
 #include <AppDef_Array1OfMultiPointConstraint.hxx>
-#include <math_Vector.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
 
 #ifdef WNT
 #include <stdio.h>

@@ -28,8 +28,8 @@ IMPLEMENT_STANDARD_TYPE_END(PLib_JacobiPolynomial)
 IMPLEMENT_DOWNCAST(PLib_JacobiPolynomial,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(PLib_JacobiPolynomial)
 
-#include <math.hxx>
-#include <math_Vector.hxx>
+#include <Mathematics/Optimization/math.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx> 
 #include <PLib.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>

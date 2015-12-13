@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <math_MultipleVarFunctionWithHessian.hxx>
+#include <Mathematics/Optimization/math_MultipleVarFunctionWithHessian.hxx>
 #include <FairCurve_Newton.hxx>
 
 FairCurve_Newton::FairCurve_Newton(math_MultipleVarFunctionWithHessian& F, 

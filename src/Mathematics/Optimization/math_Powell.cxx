@@ -20,13 +20,13 @@
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_DimensionError.hxx>
-#include <math_MultipleVarFunction.hxx>
-#include <math_Matrix.hxx>
-#include <math_Powell.hxx>
-#include <math_BracketMinimum.hxx>
-#include <math_BrentMinimum.hxx>
-#include <math_Function.hxx>
-#include <math_MultipleVarFunction.hxx>
+#include <Mathematics/Optimization/math_MultipleVarFunction.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
+#include <Mathematics/Optimization/math_Powell.hxx>
+#include <Mathematics/Optimization/math_BracketMinimum.hxx>
+#include <Mathematics/Optimization/math_BrentMinimum.hxx>
+#include <Mathematics/Optimization/math_Function.hxx>
+#include <Mathematics/Optimization/math_MultipleVarFunction.hxx>
 
 
 namespace {

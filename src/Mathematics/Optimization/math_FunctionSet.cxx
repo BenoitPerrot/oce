@@ -13,7 +13,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <math_FunctionSet.hxx>
+#include <Mathematics/Optimization/math_FunctionSet.hxx>
 
 Standard_Integer math_FunctionSet::GetStateNumber() { return 0; }
 

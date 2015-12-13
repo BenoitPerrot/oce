@@ -24,11 +24,11 @@
 #define No_Standard_DimensionError
 //#endif
 
-#include <math_TrigonometricFunctionRoots.hxx>
-#include <math_DirectPolynomialRoots.hxx>
+#include <Mathematics/Optimization/math_TrigonometricFunctionRoots.hxx>
+#include <Mathematics/Optimization/math_DirectPolynomialRoots.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <math_FunctionWithDerivative.hxx>
-#include <math_NewtonFunctionRoot.hxx>
+#include <Mathematics/Optimization/math_FunctionWithDerivative.hxx>
+#include <Mathematics/Optimization/math_NewtonFunctionRoot.hxx>
 
 
 class MyTrigoFunction: public math_FunctionWithDerivative {

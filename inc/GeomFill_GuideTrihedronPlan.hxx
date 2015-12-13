@@ -12,7 +12,7 @@
 
 #include <Handle_Adaptor3d_HCurve.hxx>
 #include <Handle_TColgp_HArray2OfPnt2d.hxx>
-#include <math_Vector.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
 #include <Handle_GeomFill_Frenet.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <GeomFill_PipeError.hxx>

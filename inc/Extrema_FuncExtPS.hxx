@@ -16,9 +16,9 @@
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <Extrema_SequenceOfPOnSurf.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <math_FunctionSetWithDerivatives.hxx>
+#include <Mathematics/Optimization/math_FunctionSetWithDerivatives.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <math_Vector.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
 class Standard_OutOfRange;
 class gp_Pnt;
 class Adaptor3d_Surface;

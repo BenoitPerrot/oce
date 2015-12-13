@@ -25,8 +25,8 @@
 
 #include <IntImpParGen.hxx>
 
-#include <math_FunctionSample.hxx>
-#include <math_FunctionAllRoots.hxx>
+#include <Mathematics/Optimization/math_FunctionSample.hxx>
+#include <Mathematics/Optimization/math_FunctionAllRoots.hxx>
 
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <gp.hxx>

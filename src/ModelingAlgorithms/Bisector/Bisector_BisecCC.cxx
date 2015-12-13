@@ -57,9 +57,9 @@ IMPLEMENT_STANDARD_RTTI(Bisector_BisecCC)
 #include <gp.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>
 #include <Precision.hxx>
-#include <math_FunctionRoot.hxx>
-#include <math_FunctionRoots.hxx>
-#include <math_BissecNewton.hxx>
+#include <Mathematics/Optimization/math_FunctionRoot.hxx>
+#include <Mathematics/Optimization/math_FunctionRoots.hxx>
+#include <Mathematics/Optimization/math_BissecNewton.hxx>
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_DivideByZero.hxx>

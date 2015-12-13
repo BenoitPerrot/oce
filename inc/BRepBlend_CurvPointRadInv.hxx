@@ -15,7 +15,7 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Blend_CurvPointFuncInv.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <math_Vector.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class Adaptor3d_HCurve;
 class math_Matrix;

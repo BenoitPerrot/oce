@@ -21,7 +21,7 @@
 #include <Handle_Adaptor3d_HVertex.hxx>
 #include <Handle_Adaptor2d_HCurve2d.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <math_Vector.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
 #include <Blend_Status.hxx>
 class BRepBlend_Line;
 class Adaptor3d_HSurface;

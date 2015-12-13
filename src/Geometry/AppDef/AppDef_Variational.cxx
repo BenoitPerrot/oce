@@ -29,7 +29,7 @@
 #include <gp_VectorWithNullMagnitude.hxx>
 #include <AppDef_MultiLine.hxx>
 #include <AppParCurves_MultiBSpCurve.hxx>
-#include <math_Matrix.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
 #include <FEmTool_Curve.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <FEmTool_Assembly.hxx>
@@ -79,8 +79,8 @@
 #include <FEmTool_Assembly.hxx>
 #include <FEmTool_AssemblyTable.hxx>
 #include <FEmTool_Curve.hxx>
-#include <math_Matrix.hxx>
-#include <math_Vector.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
 #include <PLib_Base.hxx>
 #include <PLib_JacobiPolynomial.hxx>
 #include <PLib_HermitJacobi.hxx>

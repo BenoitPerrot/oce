@@ -24,7 +24,7 @@
 #include <GccAna_Circ2dTanOnRad.hxx>
 
 #include <ElCLib.hxx>
-#include <math_DirectPolynomialRoots.hxx>
+#include <Mathematics/Optimization/math_DirectPolynomialRoots.hxx>
 #include <Foundation/Standard/Standard_NegativeValue.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <gp_Dir2d.hxx>

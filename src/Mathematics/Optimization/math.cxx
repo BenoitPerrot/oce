@@ -18,9 +18,9 @@
 #define No_Standard_DimensionError
 //#endif
 
-#include <math.hxx>
+#include <Mathematics/Optimization/math.hxx>
 
-#include <math_ComputeGaussPointsAndWeights.hxx>
+#include <Mathematics/Optimization/math_ComputeGaussPointsAndWeights.hxx>
 
 Standard_Integer math::GaussPointsMax()
 {

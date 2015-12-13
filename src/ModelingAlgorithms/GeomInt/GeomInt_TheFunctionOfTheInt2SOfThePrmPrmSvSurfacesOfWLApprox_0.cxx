@@ -9,7 +9,7 @@
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Adaptor3d_HSurface.hxx>
 #include <Adaptor3d_HSurfaceTool.hxx>
-#include <math_Matrix.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
  
 

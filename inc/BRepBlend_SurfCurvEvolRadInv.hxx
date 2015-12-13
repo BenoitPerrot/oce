@@ -18,7 +18,7 @@
 #include <Handle_Law_Function.hxx>
 #include <Blend_SurfCurvFuncInv.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <math_Vector.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
 class Adaptor3d_HSurface;
 class Adaptor3d_HCurve;
 class Adaptor2d_HCurve2d;

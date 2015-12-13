@@ -14,8 +14,8 @@
 #include <gp_Circ2d.hxx>
 #include <gp_Lin2d.hxx>
 #include <Geom2dGcc_Type1.hxx>
-#include <math_FunctionSetWithDerivatives.hxx>
-#include <math_Vector.hxx>
+#include <Mathematics/Optimization/math_FunctionSetWithDerivatives.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_ConstructionError;

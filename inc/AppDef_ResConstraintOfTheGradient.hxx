@@ -12,8 +12,8 @@
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <math_Matrix.hxx>
-#include <math_Vector.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Handle_AppParCurves_HArray1OfConstraintCouple.hxx>

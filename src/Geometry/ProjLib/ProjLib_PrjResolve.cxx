@@ -22,8 +22,8 @@
 #include <gp_Pnt2d.hxx>
 #include <ProjLib_PrjResolve.hxx>
 #include <ProjLib_PrjFunc.hxx>
-#include <math_FunctionSetRoot.hxx>
-#include <math_NewtonFunctionSetRoot.hxx>
+#include <Mathematics/Optimization/math_FunctionSetRoot.hxx>
+#include <Mathematics/Optimization/math_NewtonFunctionSetRoot.hxx>
 
 ProjLib_PrjResolve::ProjLib_PrjResolve(const Adaptor3d_Curve& C,const Adaptor3d_Surface& S,const Standard_Integer Fix) : myFix(Fix)
 {

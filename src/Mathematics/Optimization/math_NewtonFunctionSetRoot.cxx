@@ -20,11 +20,11 @@
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_DimensionError.hxx>
-#include <math_FunctionSetWithDerivatives.hxx>
-#include <math_Matrix.hxx>
-#include <math_NewtonFunctionSetRoot.hxx>
-#include <math_Recipes.hxx>
-#include <math_FunctionSetWithDerivatives.hxx>
+#include <Mathematics/Optimization/math_FunctionSetWithDerivatives.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
+#include <Mathematics/Optimization/math_NewtonFunctionSetRoot.hxx>
+#include <Mathematics/Optimization/math_Recipes.hxx>
+#include <Mathematics/Optimization/math_FunctionSetWithDerivatives.hxx>
 
 Standard_Boolean math_NewtonFunctionSetRoot::IsSolutionReached
 //                              (math_FunctionSetWithDerivatives& F) 

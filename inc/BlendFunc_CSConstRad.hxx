@@ -22,7 +22,7 @@
 #include <BlendFunc_SectionShape.hxx>
 #include <Mathematics/Convert/Convert_ParameterisationType.hxx>
 #include <Blend_CSFunction.hxx>
-#include <math_Vector.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
 #include <GeomAbs_Shape.hxx>
 class Adaptor3d_HSurface;
 class Adaptor3d_HCurve;

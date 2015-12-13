@@ -51,9 +51,9 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_LocationGuide)
 #include <gp_Ax1.hxx>
 #include <gp_Pnt2d.hxx>
 
-#include <math_Vector.hxx>
-#include <math_Gauss.hxx>
-#include <math_FunctionSetRoot.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
+#include <Mathematics/Optimization/math_Gauss.hxx>
+#include <Mathematics/Optimization/math_FunctionSetRoot.hxx>
 #include <Precision.hxx>
 
 #include <Geom_SurfaceOfRevolution.hxx>
@@ -76,7 +76,7 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_LocationGuide)
 #include <Geom_Surface.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_XYZ.hxx>
-#include <math_Matrix.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
 #include <gp_Vec.hxx>
 #include <GeomFill_FunctionGuide.hxx>
 #include <GeomFill_UniformSection.hxx>

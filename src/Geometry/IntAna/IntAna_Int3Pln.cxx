@@ -24,9 +24,9 @@
 #include <IntAna_Int3Pln.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <math_Gauss.hxx>
-#include <math_Matrix.hxx>
-#include <math_Vector.hxx>
+#include <Mathematics/Optimization/math_Gauss.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
 #include <gp.hxx>
 
 IntAna_Int3Pln::IntAna_Int3Pln () : done(Standard_False) {}

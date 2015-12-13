@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <math_FunctionSample.hxx>
+#include <Mathematics/Optimization/math_FunctionSample.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_OutOfRange;
 

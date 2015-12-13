@@ -21,7 +21,7 @@
 
 
 #include <AppCont_ContMatrices.hxx>
-#include <math_Matrix.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
 #include <Foundation/Standard/Standard_DimensionError.hxx>
 
 static const Standard_Real IMatrix[] = {

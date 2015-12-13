@@ -9,7 +9,7 @@
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <BRepAdaptor_Surface.hxx>
 #include <BRepApprox_SurfaceTool.hxx>
-#include <math_Matrix.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
  
 

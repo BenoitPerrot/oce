@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Adaptor3d_HCurve.hxx>
-#include <math_Matrix.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
 #include <gp_Pnt.hxx>
 #include <BRepBlend_CurvPointRadInv.hxx>
 

@@ -14,12 +14,12 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
-#include <math_ComputeGaussPointsAndWeights.hxx>
+#include <Mathematics/Optimization/math_ComputeGaussPointsAndWeights.hxx>
 
-#include <math_EigenValuesSearcher.hxx>
-#include <math_Array1OfValueAndWeight.hxx>
-#include <math_CompareOfValueAndWeight.hxx>
-#include <math_QuickSortOfValueAndWeight.hxx>
+#include <Mathematics/Optimization/math_EigenValuesSearcher.hxx>
+#include <Mathematics/Optimization/math_Array1OfValueAndWeight.hxx>
+#include <Mathematics/Optimization/math_CompareOfValueAndWeight.hxx>
+#include <Mathematics/Optimization/math_QuickSortOfValueAndWeight.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 
 math_ComputeGaussPointsAndWeights::math_ComputeGaussPointsAndWeights(const Standard_Integer Number)

@@ -11,9 +11,9 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <math_Vector.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <math_IntegerVector.hxx>
+#include <Mathematics/Optimization/math_IntegerVector.hxx>
 class math_Matrix;
 class AppParCurves_MultiPoint;
 class AppParCurves_MultiCurve;

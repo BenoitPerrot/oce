@@ -20,7 +20,7 @@
 #include <CSLib_DerivativeStatus.hxx>
 #include <CSLib_NormalStatus.hxx>
 #include <Mathematics/Collections/TColgp_Array2OfVec.hxx>
-#include <math_DirectPolynomialRoots.hxx>
+#include <Mathematics/Optimization/math_DirectPolynomialRoots.hxx>
 
 static const Standard_Real MinStep   = 1.0e-7;
 

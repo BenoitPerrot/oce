@@ -17,7 +17,7 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <BlendFunc_Corde.hxx>
 #include <Blend_FuncInv.hxx>
-#include <math_Vector.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class Adaptor3d_HSurface;
 class Adaptor3d_HCurve;

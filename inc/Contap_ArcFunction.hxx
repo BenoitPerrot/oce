@@ -18,7 +18,7 @@
 #include <gp_Pnt.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <IntSurf_Quadric.hxx>
-#include <math_FunctionWithDerivative.hxx>
+#include <Mathematics/Optimization/math_FunctionWithDerivative.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Adaptor2d_HCurve2d;

@@ -12,7 +12,7 @@
 
 #include <IntSurf_Quadric.hxx>
 #include <gp_Lin.hxx>
-#include <math_FunctionWithDerivative.hxx>
+#include <Mathematics/Optimization/math_FunctionWithDerivative.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class IntSurf_Quadric;

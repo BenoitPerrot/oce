@@ -14,8 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <math_Matrix.hxx>
-#include <math_MultipleVarFunctionWithHessian.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
+#include <Mathematics/Optimization/math_MultipleVarFunctionWithHessian.hxx>
 
 void math_MultipleVarFunctionWithHessian::Delete()
 {}

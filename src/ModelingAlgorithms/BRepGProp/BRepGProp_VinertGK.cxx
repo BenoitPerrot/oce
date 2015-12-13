@@ -21,7 +21,7 @@
 
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>
-#include <math_KronrodSingleIntegration.hxx>
+#include <Mathematics/Optimization/math_KronrodSingleIntegration.hxx>
 
 #include <BRepGProp_TFunction.hxx>
 

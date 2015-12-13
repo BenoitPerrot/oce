@@ -21,7 +21,7 @@
 #include <Adaptor3d_HSurface.hxx>
 #include <Adaptor3d_HCurve.hxx>
 #include <Law_Function.hxx>
-#include <math_Matrix.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Pnt2d.hxx>
 #include <gp_Vec.hxx>
@@ -36,7 +36,7 @@
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <BlendFunc_CSCircular.hxx>
 
-#include <math_Gauss.hxx>
+#include <Mathematics/Optimization/math_Gauss.hxx>
 
 #include <ElCLib.hxx>
 #include <gp.hxx>

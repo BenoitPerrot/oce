@@ -17,7 +17,7 @@
 #include <BRepGProp_Domain.hxx>
 #include <BRepGProp_Sinert.hxx>
 
-#include <math.hxx>
+#include <Mathematics/Optimization/math.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Precision.hxx>
 

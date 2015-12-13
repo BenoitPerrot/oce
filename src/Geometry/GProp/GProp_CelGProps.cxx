@@ -22,9 +22,9 @@
 #include <gp.hxx>
 #include <ElCLib.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
-#include <math_Matrix.hxx>
-#include <math_Vector.hxx>
-#include <math_Jacobi.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
+#include <Mathematics/Optimization/math_Jacobi.hxx>
 
 GProp_CelGProps::GProp_CelGProps(){}
 

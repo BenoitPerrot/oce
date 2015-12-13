@@ -22,11 +22,11 @@
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_DimensionError.hxx>
-#include <math_MultipleVarFunctionWithHessian.hxx>
-#include <math_NewtonMinimum.hxx>
+#include <Mathematics/Optimization/math_MultipleVarFunctionWithHessian.hxx>
+#include <Mathematics/Optimization/math_NewtonMinimum.hxx>
 
-#include <math_Gauss.hxx>
-#include <math_Jacobi.hxx>
+#include <Mathematics/Optimization/math_Gauss.hxx>
+#include <Mathematics/Optimization/math_Jacobi.hxx>
 
 //============================================================================
 math_NewtonMinimum::math_NewtonMinimum(math_MultipleVarFunctionWithHessian& F, 

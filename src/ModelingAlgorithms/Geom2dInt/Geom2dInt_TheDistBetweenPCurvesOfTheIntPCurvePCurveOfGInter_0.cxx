@@ -7,7 +7,7 @@
 
 #include <Adaptor2d_Curve2d.hxx>
 #include <Geom2dInt_Geom2dCurveTool.hxx>
-#include <math_Matrix.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
  
 
 #define TheCurve Adaptor2d_Curve2d

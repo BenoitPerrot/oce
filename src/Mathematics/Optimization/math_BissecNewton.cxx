@@ -13,9 +13,9 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <math_FunctionWithDerivative.hxx>
-#include <math_BissecNewton.hxx>
-#include <math_FunctionWithDerivative.hxx>
+#include <Mathematics/Optimization/math_FunctionWithDerivative.hxx>
+#include <Mathematics/Optimization/math_BissecNewton.hxx>
+#include <Mathematics/Optimization/math_FunctionWithDerivative.hxx>
 
 
 void math_BissecNewton::Perform(math_FunctionWithDerivative& F,

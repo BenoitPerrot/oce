@@ -19,7 +19,7 @@
 //#endif
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <math_FunctionSample.hxx>
+#include <Mathematics/Optimization/math_FunctionSample.hxx>
 
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>

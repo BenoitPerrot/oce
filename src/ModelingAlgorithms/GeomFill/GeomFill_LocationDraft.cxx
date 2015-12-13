@@ -55,11 +55,11 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_LocationDraft)
 #include <IntCurveSurface_Intersection.hxx>
 #include <IntCurveSurface_HInter.hxx>
 
-#include <math_FunctionSetWithDerivatives.hxx>
-#include <math_Vector.hxx>
-#include <math_NewtonFunctionSetRoot.hxx>
-#include <math_Matrix.hxx>
-#include <math_Gauss.hxx>
+#include <Mathematics/Optimization/math_FunctionSetWithDerivatives.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
+#include <Mathematics/Optimization/math_NewtonFunctionSetRoot.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
+#include <Mathematics/Optimization/math_Gauss.hxx>
 
 
 //==================================================================

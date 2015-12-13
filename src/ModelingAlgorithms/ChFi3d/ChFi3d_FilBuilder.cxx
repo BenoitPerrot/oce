@@ -69,7 +69,7 @@
 #include <TopOpeBRepDS_Curve.hxx>
 #include <TopOpeBRepBuild_HBuilder.hxx>
 #include <ElSLib.hxx>
-#include <math_FunctionRoot.hxx>
+#include <Mathematics/Optimization/math_FunctionRoot.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <Precision.hxx>
 

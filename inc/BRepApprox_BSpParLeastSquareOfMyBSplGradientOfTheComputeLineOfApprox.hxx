@@ -14,9 +14,9 @@
 #include <AppParCurves_MultiBSpCurve.hxx>
 #include <Handle_TColStd_HArray1OfReal.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>
-#include <math_Matrix.hxx>
-#include <math_Vector.hxx>
-#include <math_IntegerVector.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
+#include <Mathematics/Optimization/math_IntegerVector.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

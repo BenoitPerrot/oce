@@ -37,7 +37,7 @@
 #include <IntRes2d_Transition.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>
 #include <Precision.hxx>
-#include <math_BissecNewton.hxx>
+#include <Mathematics/Optimization/math_BissecNewton.hxx>
 #include <ElCLib.hxx>
 
 #ifdef DRAW

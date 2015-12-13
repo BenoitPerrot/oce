@@ -181,7 +181,7 @@ extern void ChFi3d_InitChron(OSD_Chronometer& ch);
 extern void ChFi3d_ResultChron(OSD_Chronometer & ch,Standard_Real& time);
 #endif
 #include <Geom2dAPI_ProjectPointOnCurve.hxx>
-#include <math_FunctionSample.hxx>
+#include <Mathematics/Optimization/math_FunctionSample.hxx>
 #include <Geom2dAdaptor_Curve.hxx>
 #include <IntRes2d_IntersectionSegment.hxx>
 //  Modified by Sergey KHROMOV - Fri Dec 21 17:08:19 2001 Begin

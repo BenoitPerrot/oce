@@ -19,9 +19,9 @@
 #include <gp_Torus.hxx>
 #include <GProp_SelGProps.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
-#include <math_Matrix.hxx>
-#include <math_Vector.hxx>
-#include <math_Jacobi.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
+#include <Mathematics/Optimization/math_Jacobi.hxx>
 #include <GProp.hxx>
 
 GProp_SelGProps::GProp_SelGProps(){};

@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <math_ValueAndWeight.hxx>
+#include <Mathematics/Optimization/math_ValueAndWeight.hxx>
 
 math_ValueAndWeight::math_ValueAndWeight()
 {

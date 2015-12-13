@@ -61,7 +61,7 @@
 #include <ChFi3d_Builder_0.hxx>
 
 #include <Precision.hxx>
-#include <math_Vector.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 
 #include <gp_Pnt.hxx>

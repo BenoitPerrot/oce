@@ -41,7 +41,7 @@ IMPLEMENT_STANDARD_RTTI(BRepBlend_AppFuncRoot)
 #include <Blend_Point.hxx>
 #include <BRepBlend_Line.hxx>
 
-#include <math_FunctionSetRoot.hxx>
+#include <Mathematics/Optimization/math_FunctionSetRoot.hxx>
 
 #include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt2d.hxx>

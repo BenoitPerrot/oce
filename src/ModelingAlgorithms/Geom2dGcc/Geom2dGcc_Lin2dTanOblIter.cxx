@@ -31,7 +31,7 @@
 #include <Geom2dGcc_IsParallel.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <GccEnt_BadQualifier.hxx>
-#include <math_FunctionRoot.hxx>
+#include <Mathematics/Optimization/math_FunctionRoot.hxx>
 #include <gp_XY.hxx>
 #include <gp_Dir2d.hxx>
 #include <gp_Vec2d.hxx>

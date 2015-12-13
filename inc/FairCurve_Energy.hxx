@@ -14,8 +14,8 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfXY.hxx>
-#include <math_Vector.hxx>
-#include <math_MultipleVarFunctionWithHessian.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
+#include <Mathematics/Optimization/math_MultipleVarFunctionWithHessian.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class TColgp_HArray1OfPnt2d;
 class math_Matrix;

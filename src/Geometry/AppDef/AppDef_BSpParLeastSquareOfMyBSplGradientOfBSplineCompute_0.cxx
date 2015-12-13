@@ -17,7 +17,7 @@
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <AppParCurves_MultiCurve.hxx>
 #include <AppParCurves_MultiBSpCurve.hxx>
-#include <math_Matrix.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
  
 
 #define MultiLine AppDef_MultiLine

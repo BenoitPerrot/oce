@@ -40,13 +40,13 @@ de Gauss.
 //#endif
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <math_MultipleVarFunction.hxx>
-#include <math_GaussMultipleIntegration.hxx>
-#include <math.hxx>
-#include <math_Matrix.hxx>
-#include <math_Vector.hxx>
-#include <math_IntegerVector.hxx>
-#include <math_MultipleVarFunction.hxx>
+#include <Mathematics/Optimization/math_MultipleVarFunction.hxx>
+#include <Mathematics/Optimization/math_GaussMultipleIntegration.hxx>
+#include <Mathematics/Optimization/math.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
+#include <Mathematics/Optimization/math_IntegerVector.hxx>
+#include <Mathematics/Optimization/math_MultipleVarFunction.hxx>
 
 class IntegrationFunction {
 

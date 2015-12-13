@@ -15,8 +15,8 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <gp_Vec.hxx>
 #include <gp_Pnt.hxx>
-#include <math_Vector.hxx>
-#include <math_Matrix.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
+#include <Mathematics/Optimization/math_Matrix.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <gp_Vec2d.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

@@ -12,7 +12,7 @@
 #include <Adaptor2d_HCurve2d.hxx>
 #include <IntPatch_HCurve2dTool.hxx>
 #include <IntPatch_CSFunction.hxx>
-#include <math_FunctionSetRoot.hxx>
+#include <Mathematics/Optimization/math_FunctionSetRoot.hxx>
 #include <gp_Pnt.hxx>
  
 

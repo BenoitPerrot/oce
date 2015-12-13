@@ -13,9 +13,9 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <math_Function.hxx>
-#include <math_BrentMinimum.hxx>
-#include <math_Function.hxx>
+#include <Mathematics/Optimization/math_Function.hxx>
+#include <Mathematics/Optimization/math_BrentMinimum.hxx>
+#include <Mathematics/Optimization/math_Function.hxx>
 
 #define CGOLD         0.3819660
 #ifdef MAX

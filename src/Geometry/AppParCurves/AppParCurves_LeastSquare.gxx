@@ -24,8 +24,8 @@
 #define No_Standard_OutOfRange
 #define No_Standard_DimensionError
 
-#include <math_Householder.hxx>
-#include <math_Crout.hxx>
+#include <Mathematics/Optimization/math_Householder.hxx>
+#include <Mathematics/Optimization/math_Crout.hxx>
 #include <AppParCurves.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Pnt2d.hxx>
@@ -42,8 +42,8 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <math_Recipes.hxx>
-#include <math_Crout.hxx>
+#include <Mathematics/Optimization/math_Recipes.hxx>
+#include <Mathematics/Optimization/math_Crout.hxx>
 
 
 
