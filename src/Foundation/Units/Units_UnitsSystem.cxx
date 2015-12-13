@@ -26,21 +26,21 @@
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <Units.hxx>
-#include <Units_Explorer.hxx>
-#include <Units_NoSuchUnit.hxx>
-#include <Units_NoSuchType.hxx>
-#include <Units_Quantity.hxx>
-#include <Units_QuantitiesSequence.hxx>
-#include <Units_UnitsSystem.hxx>
-#include <Units_UnitsDictionary.hxx>
-#include <Units_UnitsSequence.hxx>
-#include <Units_UnitSentence.hxx>
-#include <Units_Unit.hxx>
-#include <Units_ShiftedUnit.hxx>
-#include <Units_Token.hxx>
-#include <Units_ShiftedToken.hxx>
-#include <Units_Operators.hxx>
+#include <Foundation/Units/Units.hxx>
+#include <Foundation/Units/Units_Explorer.hxx>
+#include <Foundation/Units/Units_NoSuchUnit.hxx>
+#include <Foundation/Units/Units_NoSuchType.hxx>
+#include <Foundation/Units/Units_Quantity.hxx>
+#include <Foundation/Units/Units_QuantitiesSequence.hxx>
+#include <Foundation/Units/Units_UnitsSystem.hxx>
+#include <Foundation/Units/Units_UnitsDictionary.hxx>
+#include <Foundation/Units/Units_UnitsSequence.hxx>
+#include <Foundation/Units/Units_UnitSentence.hxx>
+#include <Foundation/Units/Units_Unit.hxx>
+#include <Foundation/Units/Units_ShiftedUnit.hxx>
+#include <Foundation/Units/Units_Token.hxx>
+#include <Foundation/Units/Units_ShiftedToken.hxx>
+#include <Foundation/Units/Units_Operators.hxx>
 
 IMPLEMENT_STANDARD_TYPE(Units_UnitsSystem)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

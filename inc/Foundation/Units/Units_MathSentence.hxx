@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Units_Sentence.hxx>
+#include <Foundation/Units/Units_Sentence.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 
 

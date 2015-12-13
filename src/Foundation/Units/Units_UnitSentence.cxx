@@ -15,15 +15,15 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Units.hxx>
-#include <Units_Operators.hxx>
-#include <Units_QuantitiesSequence.hxx>
-#include <Units_Quantity.hxx>
-#include <Units_Token.hxx>
-#include <Units_TokensSequence.hxx>
-#include <Units_Unit.hxx>
-#include <Units_UnitSentence.hxx>
-#include <Units_UnitsDictionary.hxx>
+#include <Foundation/Units/Units.hxx>
+#include <Foundation/Units/Units_Operators.hxx>
+#include <Foundation/Units/Units_QuantitiesSequence.hxx>
+#include <Foundation/Units/Units_Quantity.hxx>
+#include <Foundation/Units/Units_Token.hxx>
+#include <Foundation/Units/Units_TokensSequence.hxx>
+#include <Foundation/Units/Units_Unit.hxx>
+#include <Foundation/Units/Units_UnitSentence.hxx>
+#include <Foundation/Units/Units_UnitsDictionary.hxx>
 
 //=======================================================================
 //function : Units_UnitSentence

@@ -16,9 +16,9 @@
 
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Units_Dimensions.hxx>
-#include <Units_ShiftedToken.hxx>
-#include <Units_Token.hxx>
+#include <Foundation/Units/Units_Dimensions.hxx>
+#include <Foundation/Units/Units_ShiftedToken.hxx>
+#include <Foundation/Units/Units_Token.hxx>
 
 IMPLEMENT_STANDARD_TYPE(Units_ShiftedToken)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -19,10 +19,10 @@
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
-#include <Units.hxx>
-#include <Units_Token.hxx>
-#include <Units_UnitsDictionary.hxx>
-#include <Units_UnitsLexicon.hxx>
+#include <Foundation/Units/Units.hxx>
+#include <Foundation/Units/Units_Token.hxx>
+#include <Foundation/Units/Units_UnitsDictionary.hxx>
+#include <Foundation/Units/Units_UnitsLexicon.hxx>
 
 IMPLEMENT_STANDARD_TYPE(Units_UnitsLexicon)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

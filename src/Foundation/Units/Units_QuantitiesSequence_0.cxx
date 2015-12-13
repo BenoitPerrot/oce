@@ -3,14 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Units_QuantitiesSequence.hxx>
+#include <Foundation/Units/Units_QuantitiesSequence.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <Units_Quantity.hxx>
-#include <Units_QtsSequence.hxx>
+#include <Foundation/Units/Units_Quantity.hxx>
+#include <Foundation/Units/Units_QtsSequence.hxx>
 
  
 
@@ -29,11 +29,11 @@ IMPLEMENT_STANDARD_RTTI(Units_QuantitiesSequence)
 
 
 #define Item Handle(Units_Quantity)
-#define Item_hxx <Units_Quantity.hxx>
+#define Item_hxx <Foundation/Units/Units_Quantity.hxx>
 #define TheSequence Units_QtsSequence
-#define TheSequence_hxx <Units_QtsSequence.hxx>
+#define TheSequence_hxx <Foundation/Units/Units_QtsSequence.hxx>
 #define TCollection_HSequence Units_QuantitiesSequence
-#define TCollection_HSequence_hxx <Units_QuantitiesSequence.hxx>
+#define TCollection_HSequence_hxx <Foundation/Units/Units_QuantitiesSequence.hxx>
 #define Handle_TCollection_HSequence Handle_Units_QuantitiesSequence
 #define TCollection_HSequence_Type_() Units_QuantitiesSequence_Type_()
 #include <Foundation/TCollection/TCollection_HSequence.gxx>

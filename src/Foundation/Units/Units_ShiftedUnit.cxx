@@ -17,10 +17,10 @@
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfHAsciiString.hxx>
-#include <Units_Quantity.hxx>
-#include <Units_ShiftedToken.hxx>
-#include <Units_ShiftedUnit.hxx>
-#include <Units_Token.hxx>
+#include <Foundation/Units/Units_Quantity.hxx>
+#include <Foundation/Units/Units_ShiftedToken.hxx>
+#include <Foundation/Units/Units_ShiftedUnit.hxx>
+#include <Foundation/Units/Units_Token.hxx>
 
 IMPLEMENT_STANDARD_TYPE(Units_ShiftedUnit)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

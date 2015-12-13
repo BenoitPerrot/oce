@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Units_UnitsSequence.hxx>
 
-#include <Units_UtsSequence.hxx>
+#include <Foundation/Units/Units_UtsSequence.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Units_Unit.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
@@ -93,11 +93,11 @@ private:
 };
 
 #define Item Handle(Units_Unit)
-#define Item_hxx <Units_Unit.hxx>
+#define Item_hxx <Foundation/Units/Units_Unit.hxx>
 #define TheSequence Units_UtsSequence
-#define TheSequence_hxx <Units_UtsSequence.hxx>
+#define TheSequence_hxx <Foundation/Units/Units_UtsSequence.hxx>
 #define TCollection_HSequence Units_UnitsSequence
-#define TCollection_HSequence_hxx <Units_UnitsSequence.hxx>
+#define TCollection_HSequence_hxx <Foundation/Units/Units_UnitsSequence.hxx>
 #define Handle_TCollection_HSequence Handle_Units_UnitsSequence
 #define TCollection_HSequence_Type_() Units_UnitsSequence_Type_()
 

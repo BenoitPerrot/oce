@@ -73,8 +73,8 @@
 #include <TopoDS.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Vertex.hxx>
-#include <Units.hxx>
-#include <Units_UnitsDictionary.hxx>
+#include <Foundation/Units/Units.hxx>
+#include <Foundation/Units/Units_UnitsDictionary.hxx>
 #include <UnitsAPI.hxx>
 #include <UnitsAPI_SystemUnits.hxx>
 

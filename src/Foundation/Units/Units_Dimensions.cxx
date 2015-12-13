@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_Type.hxx>
-#include <Units_Dimensions.hxx>
+#include <Foundation/Units/Units_Dimensions.hxx>
 
 IMPLEMENT_STANDARD_TYPE(Units_Dimensions)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -28,9 +28,9 @@ IMPLEMENT_STANDARD_TYPE_END(Units_Dimensions)
 IMPLEMENT_DOWNCAST(Units_Dimensions,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Units_Dimensions)
 
-#include <Units_UnitsDictionary.hxx>
-#include <Units.hxx>
-#include <Units_Operators.hxx>
+#include <Foundation/Units/Units_UnitsDictionary.hxx>
+#include <Foundation/Units/Units.hxx>
+#include <Foundation/Units/Units_Operators.hxx>
 
 //=======================================================================
 //function : Units_Dimensions

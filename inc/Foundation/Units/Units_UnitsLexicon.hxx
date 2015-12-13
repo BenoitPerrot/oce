@@ -12,7 +12,7 @@
 
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Foundation/Standard/Standard_Time.hxx>
-#include <Units_Lexicon.hxx>
+#include <Foundation/Units/Units_Lexicon.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class TCollection_HAsciiString;
@@ -68,7 +68,7 @@ private:
 };
 
 
-#include <Units_UnitsLexicon.lxx>
+#include <Foundation/Units/Units_UnitsLexicon.lxx>
 
 
 

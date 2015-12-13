@@ -19,12 +19,12 @@
 #include <Foundation/TColStd/TColStd_HSequenceOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfHAsciiString.hxx>
 
-#include <Units_Explorer.hxx>
-#include <Units_QuantitiesSequence.hxx>
-#include <Units_Unit.hxx>
-#include <Units_UnitsDictionary.hxx>
-#include <Units_UnitsSequence.hxx>
-#include <Units_UnitsSystem.hxx>
+#include <Foundation/Units/Units_Explorer.hxx>
+#include <Foundation/Units/Units_QuantitiesSequence.hxx>
+#include <Foundation/Units/Units_Unit.hxx>
+#include <Foundation/Units/Units_UnitsDictionary.hxx>
+#include <Foundation/Units/Units_UnitsSequence.hxx>
+#include <Foundation/Units/Units_UnitsSystem.hxx>
 
 //=======================================================================
 //function : Units_Explorer

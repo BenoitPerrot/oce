@@ -15,9 +15,9 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <Units_Dimensions.hxx>
-#include <Units_UnitsSequence.hxx>
-#include <Units_Quantity.hxx>
+#include <Foundation/Units/Units_Dimensions.hxx>
+#include <Foundation/Units/Units_UnitsSequence.hxx>
+#include <Foundation/Units/Units_Quantity.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 
 IMPLEMENT_STANDARD_TYPE(Units_Quantity)
@@ -31,8 +31,8 @@ IMPLEMENT_STANDARD_TYPE_END(Units_Quantity)
 IMPLEMENT_DOWNCAST(Units_Quantity,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Units_Quantity)
 
-#include <Units_Unit.hxx>
-#include <Units_Operators.hxx>
+#include <Foundation/Units/Units_Unit.hxx>
+#include <Foundation/Units/Units_Operators.hxx>
 
 
 //=======================================================================

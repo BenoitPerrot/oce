@@ -102,13 +102,13 @@ private:
 };
 
 #define SeqItem Handle(Units_Unit)
-#define SeqItem_hxx <Units_Unit.hxx>
+#define SeqItem_hxx <Foundation/Units/Units_Unit.hxx>
 #define TCollection_SequenceNode Units_SequenceNodeOfUtsSequence
-#define TCollection_SequenceNode_hxx <Units_SequenceNodeOfUtsSequence.hxx>
+#define TCollection_SequenceNode_hxx <Foundation/Units/Units_SequenceNodeOfUtsSequence.hxx>
 #define Handle_TCollection_SequenceNode Handle_Units_SequenceNodeOfUtsSequence
 #define TCollection_SequenceNode_Type_() Units_SequenceNodeOfUtsSequence_Type_()
 #define TCollection_Sequence Units_UtsSequence
-#define TCollection_Sequence_hxx <Units_UtsSequence.hxx>
+#define TCollection_Sequence_hxx <Foundation/Units/Units_UtsSequence.hxx>
 
 #include <Foundation/TCollection/TCollection_Sequence.lxx>
 

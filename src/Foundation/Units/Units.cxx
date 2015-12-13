@@ -26,20 +26,20 @@
 #include <sys/types.h>
 #include <sys/stat.h>
 
-#include <Units.hxx>
-#include <Units_Measurement.hxx>
-#include <Units_Quantity.hxx>
-#include <Units_Dimensions.hxx>
-#include <Units_Unit.hxx>
-#include <Units_Lexicon.hxx>
-#include <Units_UnitsLexicon.hxx>
-#include <Units_UnitsDictionary.hxx>
-#include <Units_UnitsSystem.hxx>
-#include <Units_UnitSentence.hxx>
-#include <Units_ShiftedToken.hxx>
+#include <Foundation/Units/Units.hxx>
+#include <Foundation/Units/Units_Measurement.hxx>
+#include <Foundation/Units/Units_Quantity.hxx>
+#include <Foundation/Units/Units_Dimensions.hxx>
+#include <Foundation/Units/Units_Unit.hxx>
+#include <Foundation/Units/Units_Lexicon.hxx>
+#include <Foundation/Units/Units_UnitsLexicon.hxx>
+#include <Foundation/Units/Units_UnitsDictionary.hxx>
+#include <Foundation/Units/Units_UnitsSystem.hxx>
+#include <Foundation/Units/Units_UnitSentence.hxx>
+#include <Foundation/Units/Units_ShiftedToken.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfHAsciiString.hxx>
-#include <Units_Operators.hxx>
+#include <Foundation/Units/Units_Operators.hxx>
 
 static Handle(Units_Dimensions) nulldimensions;
 static Handle(Units_UnitsLexicon) lexiconunits;

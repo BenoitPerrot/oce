@@ -14,8 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Units_TokensSequence.hxx>
-#include <Units_Token.hxx>
+#include <Foundation/Units/Units_TokensSequence.hxx>
+#include <Foundation/Units/Units_Token.hxx>
 
 //=======================================================================
 //function : Sequence

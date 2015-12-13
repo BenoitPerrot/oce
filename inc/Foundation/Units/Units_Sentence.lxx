@@ -14,50 +14,52 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Units_UnitsSequence.hxx>
-#include <Units_Dimensions.hxx>
-#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-
-//=======================================================================
-//function : Units_Quantity
-//purpose  : 
-//=======================================================================
-
-inline Units_Quantity::Units_Quantity(const Standard_CString aname,
-				      const Handle(Units_Dimensions)& adimensions,
-				      const Handle(Units_UnitsSequence)& aunitssequence)
-{
-  thename       = new TCollection_HAsciiString(aname);
-  thedimensions = adimensions;
-  theunitssequence  = aunitssequence;
-}
-
-//=======================================================================
-//function : Name
-//purpose  : 
-//=======================================================================
-
-inline TCollection_AsciiString Units_Quantity::Name() const
-{
-  return thename->String();
-}
-
-//=======================================================================
-//function : Dimensions
-//purpose  : 
-//=======================================================================
-
-inline Handle(Units_Dimensions) Units_Quantity::Dimensions() const
-{
-  return thedimensions;
-}
+#include <Foundation/Units/Units_TokensSequence.hxx>
+#include <Foundation/Units/Units_Token.hxx>
 
 //=======================================================================
 //function : Sequence
 //purpose  : 
 //=======================================================================
 
-inline Handle(Units_UnitsSequence) Units_Quantity::Sequence() const
+inline Handle(Units_TokensSequence) Units_Sentence::Sequence() const
 {
-  return theunitssequence;
+  return thesequenceoftokens;
+}
+
+//=======================================================================
+//function : Sequence
+
+//purpose  : 
+//=======================================================================
+
+inline void Units_Sentence::Sequence
+  (const Handle(Units_TokensSequence)& asequenceoftokens)
+{
+  thesequenceoftokens=asequenceoftokens;
+}
+
+
+//=======================================================================
+//function : IsDone
+//purpose  : 
+//=======================================================================
+
+inline Standard_Boolean Units_Sentence::IsDone() const
+{
+  return thesequenceoftokens->Length()>0;
+}
+
+
+//=======================================================================
+//function : Dump
+//purpose  : 
+//=======================================================================
+
+inline void Units_Sentence::Dump() const
+{
+  Standard_Integer index;
+  cout<<" UNIT SENTENCE with : "<<endl;
+  for(index=1;index<=thesequenceoftokens->Length();index++)
+    thesequenceoftokens->Value(index)->Dump(1,1);
 }

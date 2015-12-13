@@ -24,20 +24,20 @@
 
 #include <Foundation/TColStd/TColStd_HSequenceOfHAsciiString.hxx>
 
-#include <Units.hxx>
-#include <Units_Dimensions.hxx>
-#include <Units_MathSentence.hxx>
-#include <Units_Operators.hxx>
-#include <Units_QuantitiesSequence.hxx>
-#include <Units_Quantity.hxx>
-#include <Units_ShiftedUnit.hxx>
-#include <Units_Token.hxx>
-#include <Units_TokensSequence.hxx>
-#include <Units_Unit.hxx>
-#include <Units_UnitSentence.hxx>
-#include <Units_UnitsLexicon.hxx>
-#include <Units_UnitsSequence.hxx>
-#include <Units_UnitsDictionary.hxx>
+#include <Foundation/Units/Units.hxx>
+#include <Foundation/Units/Units_Dimensions.hxx>
+#include <Foundation/Units/Units_MathSentence.hxx>
+#include <Foundation/Units/Units_Operators.hxx>
+#include <Foundation/Units/Units_QuantitiesSequence.hxx>
+#include <Foundation/Units/Units_Quantity.hxx>
+#include <Foundation/Units/Units_ShiftedUnit.hxx>
+#include <Foundation/Units/Units_Token.hxx>
+#include <Foundation/Units/Units_TokensSequence.hxx>
+#include <Foundation/Units/Units_Unit.hxx>
+#include <Foundation/Units/Units_UnitSentence.hxx>
+#include <Foundation/Units/Units_UnitsLexicon.hxx>
+#include <Foundation/Units/Units_UnitsSequence.hxx>
+#include <Foundation/Units/Units_UnitsDictionary.hxx>
 
 IMPLEMENT_STANDARD_TYPE(Units_UnitsDictionary)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

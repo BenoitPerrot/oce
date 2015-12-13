@@ -26,8 +26,8 @@
 //		Mauvaise construction d'un token par copie
 //		plantatoire sur HP.
 
-#include <Units_Dimensions.hxx>
-#include <Units_Token.hxx>
+#include <Foundation/Units/Units_Dimensions.hxx>
+#include <Foundation/Units/Units_Token.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -43,7 +43,7 @@ IMPLEMENT_DOWNCAST(Units_Token,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Units_Token)
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Units_Operators.hxx>
+#include <Foundation/Units/Units_Operators.hxx>
 
 #define XTRACE 1
 

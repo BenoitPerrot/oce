@@ -16,9 +16,9 @@
 #ifndef Units_Operators_HeaderFile
 #define Units_Operators_HeaderFile
 
-#include <Units_Token.hxx>
-#include <Units_Unit.hxx>
-#include <Units_Quantity.hxx>
+#include <Foundation/Units/Units_Token.hxx>
+#include <Foundation/Units/Units_Unit.hxx>
+#include <Foundation/Units/Units_Quantity.hxx>
 
 Standard_EXPORT Standard_Boolean operator ==(const Handle(Units_Quantity)&,const Standard_CString);
 Standard_EXPORT Standard_Boolean operator ==(const Handle(Units_Token)&,const Standard_CString);

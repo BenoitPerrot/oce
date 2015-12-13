@@ -11,7 +11,7 @@
 #include <Handle_Units_ShiftedUnit.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Units_Unit.hxx>
+#include <Foundation/Units/Units_Unit.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_Units_Quantity.hxx>
 #include <Handle_Units_Token.hxx>

@@ -21,11 +21,11 @@
 
 #include <Foundation/TColStd/TColStd_HSequenceOfHAsciiString.hxx>
 
-#include <Units.hxx>
-#include <Units_Quantity.hxx>
-#include <Units_Token.hxx>
-#include <Units_Unit.hxx>
-#include <Units_UnitsDictionary.hxx>
+#include <Foundation/Units/Units.hxx>
+#include <Foundation/Units/Units_Quantity.hxx>
+#include <Foundation/Units/Units_Token.hxx>
+#include <Foundation/Units/Units_Unit.hxx>
+#include <Foundation/Units/Units_UnitsDictionary.hxx>
 
 IMPLEMENT_STANDARD_TYPE(Units_Unit)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

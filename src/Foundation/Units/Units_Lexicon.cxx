@@ -17,9 +17,9 @@
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <Units_Lexicon.hxx>
-#include <Units_Token.hxx>
-#include <Units_TokensSequence.hxx>
+#include <Foundation/Units/Units_Lexicon.hxx>
+#include <Foundation/Units/Units_Token.hxx>
+#include <Foundation/Units/Units_TokensSequence.hxx>
 
 IMPLEMENT_STANDARD_TYPE(Units_Lexicon)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

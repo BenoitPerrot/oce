@@ -3,21 +3,21 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Units_TksSequence.hxx>
+#include <Foundation/Units/Units_TksSequence.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <Units_Token.hxx>
-#include <Units_SequenceNodeOfTksSequence.hxx>
+#include <Foundation/Units/Units_Token.hxx>
+#include <Foundation/Units/Units_SequenceNodeOfTksSequence.hxx>
  
 
 #define SeqItem Handle(Units_Token)
-#define SeqItem_hxx <Units_Token.hxx>
+#define SeqItem_hxx <Foundation/Units/Units_Token.hxx>
 #define TCollection_SequenceNode Units_SequenceNodeOfTksSequence
-#define TCollection_SequenceNode_hxx <Units_SequenceNodeOfTksSequence.hxx>
+#define TCollection_SequenceNode_hxx <Foundation/Units/Units_SequenceNodeOfTksSequence.hxx>
 #define Handle_TCollection_SequenceNode Handle_Units_SequenceNodeOfTksSequence
 #define TCollection_SequenceNode_Type_() Units_SequenceNodeOfTksSequence_Type_()
 #define TCollection_Sequence Units_TksSequence
-#define TCollection_Sequence_hxx <Units_TksSequence.hxx>
+#define TCollection_Sequence_hxx <Foundation/Units/Units_TksSequence.hxx>
 #include <Foundation/TCollection/TCollection_Sequence.gxx>
 
