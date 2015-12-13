@@ -16,10 +16,10 @@
 
 #include <Mathematics/Expressions/Expr_NamedFunction.hxx>
 #include <Mathematics/Expressions/Expr_NamedExpression.hxx>
-#include <ExprIntrp_SequenceOfNamedExpression.hxx>
-#include <ExprIntrp_SequenceOfNamedFunction.hxx>
+#include <Mathematics/Expressions/ExprIntrp_SequenceOfNamedExpression.hxx>
+#include <Mathematics/Expressions/ExprIntrp_SequenceOfNamedFunction.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <ExprIntrp_Generator.hxx>
+#include <Mathematics/Expressions/ExprIntrp_Generator.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ExprIntrp_Generator)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -29,8 +29,8 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(ExprIntrp_Generator)
 IMPLEMENT_DOWNCAST(ExprIntrp_Generator,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ExprIntrp_Generator)
-//#include <ExprIntrp_yaccanal.hxx>
-#include <ExprIntrp_Analysis.hxx>
+//#include <Mathematics/Expressions/ExprIntrp_yaccanal.hxx>
+#include <Mathematics/Expressions/ExprIntrp_Analysis.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 Standard_EXPORT ExprIntrp_Analysis ExprIntrp_Recept;

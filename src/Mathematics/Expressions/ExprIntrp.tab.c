@@ -78,7 +78,7 @@
 /* Line 189 of yacc.c  */
 #line 17 "/misc/dn63/LocalWOK/wok_entities/LOC/dev/IR-2014-11-07-master-occt/src/ExprIntrp/ExprIntrp.yacc"
 
-#include <ExprIntrp_yaccintrf.hxx>
+#include <Mathematics/Expressions/ExprIntrp_yaccintrf.hxx>
 
 extern void ExprIntrp_EndOfFuncDef();
 extern void ExprIntrp_EndOfRelation();

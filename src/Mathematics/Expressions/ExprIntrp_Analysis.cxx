@@ -16,14 +16,14 @@
 
 #define _ExprIntrp_Analysis_SourceFile
 
-#include <ExprIntrp_Generator.hxx>
+#include <Mathematics/Expressions/ExprIntrp_Generator.hxx>
 #include <Mathematics/Expressions/Expr_GeneralExpression.hxx>
 #include <Mathematics/Expressions/Expr_GeneralRelation.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Mathematics/Expressions/Expr_GeneralFunction.hxx>
 #include <Mathematics/Expressions/Expr_NamedFunction.hxx>
 #include <Mathematics/Expressions/Expr_NamedExpression.hxx>
-#include <ExprIntrp_Analysis.hxx>
+#include <Mathematics/Expressions/ExprIntrp_Analysis.hxx>
 #include <Mathematics/Expressions/Expr_NamedUnknown.hxx>
 
 ExprIntrp_Analysis::ExprIntrp_Analysis() {}

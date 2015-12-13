@@ -17,7 +17,7 @@
 #ifndef ExprIntrp_yaccanal_HeaderFile
 #define ExprIntrp_yaccanal_HeaderFile
 
-#include <ExprIntrp_Analysis.hxx>
+#include <Mathematics/Expressions/ExprIntrp_Analysis.hxx>
 
 #ifndef _ExprIntrp_API
 # if !defined(WNT) || defined(__ExprIntrp_DLL) || defined(__Expr_DLL) || defined(__ExprIntrp_DLL) || defined(__math_DLL) || defined(__MathBase_DLL) || defined(__ElCLib_DLL) || defined(__ElSLib_DLL) || defined(__BSplCLib_DLL) || defined(__BSplSLib_DLL) || defined(__Smoothing_DLL) || defined(__SysBase_DLL) || defined(__Data_DLL) || defined(__PLib_DLL) || defined(__GeomAbs_DLL) || defined(__Poly_DLL) || defined(__CSLib_DLL) || defined(__Convert_DLL) || defined(__Bnd_DLL) || defined(__gp_DLL) || defined(__TColgp_DLL)

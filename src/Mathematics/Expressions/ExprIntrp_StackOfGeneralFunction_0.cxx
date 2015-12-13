@@ -3,23 +3,23 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <ExprIntrp_StackOfGeneralFunction.hxx>
+#include <Mathematics/Expressions/ExprIntrp_StackOfGeneralFunction.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <ExprIntrp_ListIteratorOfStackOfGeneralFunction.hxx>
+#include <Mathematics/Expressions/ExprIntrp_ListIteratorOfStackOfGeneralFunction.hxx>
 #include <Mathematics/Expressions/Expr_GeneralFunction.hxx>
-#include <ExprIntrp_ListNodeOfStackOfGeneralFunction.hxx>
+#include <Mathematics/Expressions/ExprIntrp_ListNodeOfStackOfGeneralFunction.hxx>
  
 
 #define Item Handle(Expr_GeneralFunction)
 #define Item_hxx <Mathematics/Expressions/Expr_GeneralFunction.hxx>
 #define TCollection_ListNode ExprIntrp_ListNodeOfStackOfGeneralFunction
-#define TCollection_ListNode_hxx <ExprIntrp_ListNodeOfStackOfGeneralFunction.hxx>
+#define TCollection_ListNode_hxx <Mathematics/Expressions/ExprIntrp_ListNodeOfStackOfGeneralFunction.hxx>
 #define TCollection_ListIterator ExprIntrp_ListIteratorOfStackOfGeneralFunction
-#define TCollection_ListIterator_hxx <ExprIntrp_ListIteratorOfStackOfGeneralFunction.hxx>
+#define TCollection_ListIterator_hxx <Mathematics/Expressions/ExprIntrp_ListIteratorOfStackOfGeneralFunction.hxx>
 #define Handle_TCollection_ListNode Handle_ExprIntrp_ListNodeOfStackOfGeneralFunction
 #define TCollection_ListNode_Type_() ExprIntrp_ListNodeOfStackOfGeneralFunction_Type_()
 #define TCollection_List ExprIntrp_StackOfGeneralFunction
-#define TCollection_List_hxx <ExprIntrp_StackOfGeneralFunction.hxx>
+#define TCollection_List_hxx <Mathematics/Expressions/ExprIntrp_StackOfGeneralFunction.hxx>
 #include <Foundation/TCollection/TCollection_List.gxx>
 

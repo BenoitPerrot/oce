@@ -14,13 +14,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <ExprIntrp_Generator.hxx>
+#include <Mathematics/Expressions/ExprIntrp_Generator.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <ExprIntrp.hxx>
-#include <ExprIntrp_yaccintrf.hxx>
-#include <ExprIntrp_yaccanal.hxx>
+#include <Mathematics/Expressions/ExprIntrp.hxx>
+#include <Mathematics/Expressions/ExprIntrp_yaccintrf.hxx>
+#include <Mathematics/Expressions/ExprIntrp_yaccanal.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
-#include <ExprIntrp_SyntaxError.hxx>
+#include <Mathematics/Expressions/ExprIntrp_SyntaxError.hxx>
 
 static TCollection_AsciiString ExprIntrp_thestring;
 

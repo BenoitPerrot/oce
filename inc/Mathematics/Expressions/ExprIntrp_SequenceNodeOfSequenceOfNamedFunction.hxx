@@ -49,11 +49,11 @@ private:
 #define SeqItem Handle(Expr_NamedFunction)
 #define SeqItem_hxx <Mathematics/Expressions/Expr_NamedFunction.hxx>
 #define TCollection_SequenceNode ExprIntrp_SequenceNodeOfSequenceOfNamedFunction
-#define TCollection_SequenceNode_hxx <ExprIntrp_SequenceNodeOfSequenceOfNamedFunction.hxx>
+#define TCollection_SequenceNode_hxx <Mathematics/Expressions/ExprIntrp_SequenceNodeOfSequenceOfNamedFunction.hxx>
 #define Handle_TCollection_SequenceNode Handle_ExprIntrp_SequenceNodeOfSequenceOfNamedFunction
 #define TCollection_SequenceNode_Type_() ExprIntrp_SequenceNodeOfSequenceOfNamedFunction_Type_()
 #define TCollection_Sequence ExprIntrp_SequenceOfNamedFunction
-#define TCollection_Sequence_hxx <ExprIntrp_SequenceOfNamedFunction.hxx>
+#define TCollection_Sequence_hxx <Mathematics/Expressions/ExprIntrp_SequenceOfNamedFunction.hxx>
 
 #include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 

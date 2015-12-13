@@ -50,13 +50,13 @@ private:
 #define Item Handle(Expr_GeneralExpression)
 #define Item_hxx <Mathematics/Expressions/Expr_GeneralExpression.hxx>
 #define TCollection_ListNode ExprIntrp_ListNodeOfStackOfGeneralExpression
-#define TCollection_ListNode_hxx <ExprIntrp_ListNodeOfStackOfGeneralExpression.hxx>
+#define TCollection_ListNode_hxx <Mathematics/Expressions/ExprIntrp_ListNodeOfStackOfGeneralExpression.hxx>
 #define TCollection_ListIterator ExprIntrp_ListIteratorOfStackOfGeneralExpression
-#define TCollection_ListIterator_hxx <ExprIntrp_ListIteratorOfStackOfGeneralExpression.hxx>
+#define TCollection_ListIterator_hxx <Mathematics/Expressions/ExprIntrp_ListIteratorOfStackOfGeneralExpression.hxx>
 #define Handle_TCollection_ListNode Handle_ExprIntrp_ListNodeOfStackOfGeneralExpression
 #define TCollection_ListNode_Type_() ExprIntrp_ListNodeOfStackOfGeneralExpression_Type_()
 #define TCollection_List ExprIntrp_StackOfGeneralExpression
-#define TCollection_List_hxx <ExprIntrp_StackOfGeneralExpression.hxx>
+#define TCollection_List_hxx <Mathematics/Expressions/ExprIntrp_StackOfGeneralExpression.hxx>
 
 #include <Foundation/TCollection/TCollection_ListNode.lxx>
 

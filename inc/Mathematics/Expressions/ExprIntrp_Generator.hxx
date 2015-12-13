@@ -10,8 +10,8 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ExprIntrp_Generator.hxx>
 
-#include <ExprIntrp_SequenceOfNamedFunction.hxx>
-#include <ExprIntrp_SequenceOfNamedExpression.hxx>
+#include <Mathematics/Expressions/ExprIntrp_SequenceOfNamedFunction.hxx>
+#include <Mathematics/Expressions/ExprIntrp_SequenceOfNamedExpression.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Expr_NamedFunction.hxx>
 #include <Handle_Expr_NamedExpression.hxx>

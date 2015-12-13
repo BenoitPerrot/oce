@@ -11,7 +11,7 @@
 #include <Handle_ExprIntrp_GenFct.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <ExprIntrp_Generator.hxx>
+#include <Mathematics/Expressions/ExprIntrp_Generator.hxx>
 class Standard_NoSuchObject;
 class TCollection_AsciiString;
 

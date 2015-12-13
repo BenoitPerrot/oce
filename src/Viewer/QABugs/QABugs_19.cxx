@@ -260,7 +260,7 @@ static Standard_Integer OCC23595 (Draw_Interpretor& di, Standard_Integer /*argc*
   return 0;
 }
 
-#include <ExprIntrp_GenExp.hxx>
+#include <Mathematics/Expressions/ExprIntrp_GenExp.hxx>
 Standard_Integer OCC22611 (Draw_Interpretor& di, Standard_Integer argc, const char ** argv)
 {
 

@@ -15,7 +15,7 @@
 */ 
 
 %{
-#include <ExprIntrp_yaccintrf.hxx>
+#include <Mathematics/Expressions/ExprIntrp_yaccintrf.hxx>
 
 extern void ExprIntrp_EndOfFuncDef();
 extern void ExprIntrp_EndOfRelation();

@@ -10,13 +10,13 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <ExprIntrp_StackOfGeneralExpression.hxx>
-#include <ExprIntrp_StackOfGeneralRelation.hxx>
-#include <ExprIntrp_StackOfGeneralFunction.hxx>
+#include <Mathematics/Expressions/ExprIntrp_StackOfGeneralExpression.hxx>
+#include <Mathematics/Expressions/ExprIntrp_StackOfGeneralRelation.hxx>
+#include <Mathematics/Expressions/ExprIntrp_StackOfGeneralFunction.hxx>
 #include <Foundation/TColStd/TColStd_ListOfAsciiString.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
-#include <ExprIntrp_SequenceOfNamedFunction.hxx>
-#include <ExprIntrp_SequenceOfNamedExpression.hxx>
+#include <Mathematics/Expressions/ExprIntrp_SequenceOfNamedFunction.hxx>
+#include <Mathematics/Expressions/ExprIntrp_SequenceOfNamedExpression.hxx>
 #include <Handle_ExprIntrp_Generator.hxx>
 #include <Handle_Expr_GeneralExpression.hxx>
 #include <Handle_Expr_GeneralRelation.hxx>

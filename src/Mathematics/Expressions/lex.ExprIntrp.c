@@ -2153,9 +2153,9 @@ char *ExprIntrptext;
  Alternatively, this file may be used under the terms of Open CASCADE
  commercial license or contractual agreement.
 */ 
-#include <ExprIntrp.tab.h>
+#include <Mathematics/Expressions/ExprIntrp.tab.h>
 
-#include <ExprIntrp_yaccintrf.hxx>
+#include <Mathematics/Expressions/ExprIntrp_yaccintrf.hxx>
 
 #define YY_SKIP_YYWRAP
 

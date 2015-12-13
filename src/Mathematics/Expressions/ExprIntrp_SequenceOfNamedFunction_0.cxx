@@ -3,21 +3,21 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <ExprIntrp_SequenceOfNamedFunction.hxx>
+#include <Mathematics/Expressions/ExprIntrp_SequenceOfNamedFunction.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Mathematics/Expressions/Expr_NamedFunction.hxx>
-#include <ExprIntrp_SequenceNodeOfSequenceOfNamedFunction.hxx>
+#include <Mathematics/Expressions/ExprIntrp_SequenceNodeOfSequenceOfNamedFunction.hxx>
  
 
 #define SeqItem Handle(Expr_NamedFunction)
 #define SeqItem_hxx <Mathematics/Expressions/Expr_NamedFunction.hxx>
 #define TCollection_SequenceNode ExprIntrp_SequenceNodeOfSequenceOfNamedFunction
-#define TCollection_SequenceNode_hxx <ExprIntrp_SequenceNodeOfSequenceOfNamedFunction.hxx>
+#define TCollection_SequenceNode_hxx <Mathematics/Expressions/ExprIntrp_SequenceNodeOfSequenceOfNamedFunction.hxx>
 #define Handle_TCollection_SequenceNode Handle_ExprIntrp_SequenceNodeOfSequenceOfNamedFunction
 #define TCollection_SequenceNode_Type_() ExprIntrp_SequenceNodeOfSequenceOfNamedFunction_Type_()
 #define TCollection_Sequence ExprIntrp_SequenceOfNamedFunction
-#define TCollection_Sequence_hxx <ExprIntrp_SequenceOfNamedFunction.hxx>
+#define TCollection_Sequence_hxx <Mathematics/Expressions/ExprIntrp_SequenceOfNamedFunction.hxx>
 #include <Foundation/TCollection/TCollection_Sequence.gxx>
 

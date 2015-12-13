@@ -17,7 +17,7 @@
 #include <Mathematics/Expressions/Expr_GeneralExpression.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <ExprIntrp_GenExp.hxx>
+#include <Mathematics/Expressions/ExprIntrp_GenExp.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ExprIntrp_GenExp)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -28,8 +28,8 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(ExprIntrp_GenExp)
 IMPLEMENT_DOWNCAST(ExprIntrp_GenExp,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ExprIntrp_GenExp)
-#include <ExprIntrp.hxx>
-#include <ExprIntrp_yaccanal.hxx>
+#include <Mathematics/Expressions/ExprIntrp.hxx>
+#include <Mathematics/Expressions/ExprIntrp_yaccanal.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 
 ExprIntrp_GenExp::ExprIntrp_GenExp ()

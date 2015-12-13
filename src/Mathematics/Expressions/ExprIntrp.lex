@@ -17,9 +17,9 @@
 
 %option yywrap
 %{
-#include <ExprIntrp.tab.h>
+#include <Mathematics/Expressions/ExprIntrp.tab.h>
 
-#include <ExprIntrp_yaccintrf.hxx>
+#include <Mathematics/Expressions/ExprIntrp_yaccintrf.hxx>
 
 #define YY_SKIP_YYWRAP
 

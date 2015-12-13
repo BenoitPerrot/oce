@@ -12,8 +12,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <ExprIntrp_yaccintrf.hxx>
-#include <ExprIntrp_yaccanal.hxx>
+#include <Mathematics/Expressions/ExprIntrp_yaccintrf.hxx>
+#include <Mathematics/Expressions/ExprIntrp_yaccanal.hxx>
 #include <Mathematics/Expressions/Expr_GeneralExpression.hxx>
 #include <Mathematics/Expressions/Expr_NamedExpression.hxx>
 #include <Mathematics/Expressions/Expr_NamedUnknown.hxx>
@@ -49,7 +49,7 @@
 #include <Mathematics/Expressions/Expr.hxx>
 #include <Mathematics/Expressions/Expr_SequenceOfGeneralExpression.hxx>
 #include <Mathematics/Expressions/Expr_Operators.hxx>
-#include <ExprIntrp_SyntaxError.hxx>
+#include <Mathematics/Expressions/ExprIntrp_SyntaxError.hxx>
 #include <Mathematics/Expressions/Expr_Array1OfNamedUnknown.hxx>
 #include <Mathematics/Expressions/Expr_Array1OfGeneralExpression.hxx>
 
