@@ -2621,16 +2621,16 @@ static int VDrawText (Draw_Interpretor& di, Standard_Integer argc, const char** 
 #include <Graphic3d_ArrayOfPoints.hxx>
 #include <Graphic3d_ArrayOfPrimitives.hxx>
 #include <Graphic3d_ArrayOfTriangles.hxx>
-#include <Poly_Array1OfTriangle.hxx>
-#include <Poly_Triangle.hxx>
-#include <Poly_Triangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_Array1OfTriangle.hxx>
+#include <Mathematics/Polyhedral/Poly_Triangle.hxx>
+#include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Foundation/TShort/TShort_Array1OfShortReal.hxx>
 #include <Foundation/TShort/TShort_HArray1OfShortReal.hxx>
 
 #include <AIS_Triangulation.hxx>
 #include <StdPrs_ToolShadedShape.hxx>
-#include <Poly_Connect.hxx>
+#include <Mathematics/Polyhedral/Poly_Connect.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfDir.hxx>
 #include <Graphic3d_GraphicDriver.hxx>
 

@@ -20,9 +20,9 @@
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <TopoDS_Face.hxx>
-#include <Poly_Connect.hxx>
+#include <Mathematics/Polyhedral/Poly_Connect.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfDir.hxx>
-#include <Poly_Triangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <BRepAdaptor_Surface.hxx>
 #include <TopLoc_Location.hxx>
 #include <Geom_Surface.hxx>

@@ -15,9 +15,9 @@
 // commercial license or contractual agreement.
 
 #include <GeometryTest.hxx>
-#include <Poly_Triangulation.hxx>
-#include <Poly_Array1OfTriangle.hxx>
-#include <Poly_Triangle.hxx>
+#include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_Array1OfTriangle.hxx>
+#include <Mathematics/Polyhedral/Poly_Triangle.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <DrawTrSurf.hxx>
@@ -26,8 +26,8 @@
 #include <DrawTrSurf_Polygon3D.hxx>
 #include <DrawTrSurf_Polygon2D.hxx>
 
-#include <Poly_Polygon3D.hxx>
-#include <Poly_Polygon2D.hxx>
+#include <Mathematics/Polyhedral/Poly_Polygon3D.hxx>
+#include <Mathematics/Polyhedral/Poly_Polygon2D.hxx>
 
 #ifdef WNT
 Standard_IMPORT Draw_Viewer dout;

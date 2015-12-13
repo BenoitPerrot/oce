@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Geom_Surface.hxx>
-#include <Poly_Triangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <TopLoc_Location.hxx>
 #include <TopoDS_TShape.hxx>
 #include <BRep_TFace.hxx>

@@ -16,10 +16,10 @@
 #ifndef Poly_CoherentTriangulation_HeaderFile
 #define Poly_CoherentTriangulation_HeaderFile
 
-#include <Poly_Triangulation.hxx>
-#include <Poly_CoherentNode.hxx>
-#include <Poly_CoherentTriangle.hxx>
-#include <Poly_CoherentLink.hxx>
+#include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_CoherentNode.hxx>
+#include <Mathematics/Polyhedral/Poly_CoherentTriangle.hxx>
+#include <Mathematics/Polyhedral/Poly_CoherentLink.hxx>
 #include <Foundation/NCollection/NCollection_Vector.hxx>
 
 class Handle(Poly_CoherentTriangulation);
@@ -388,6 +388,6 @@ DEFINE_STANDARD_RTTI (Poly_CoherentTriangulation)
   friend class IteratorOfLink;
 };
 
-#include <Poly_CoherentTriangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_CoherentTriangulation.hxx>
 
 #endif

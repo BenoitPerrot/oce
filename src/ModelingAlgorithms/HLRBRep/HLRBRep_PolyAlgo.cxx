@@ -59,9 +59,9 @@ IMPLEMENT_STANDARD_RTTI(HLRBRep_PolyAlgo)
 #include <TopTools_Array1OfShape.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
-#include <Poly_Triangulation.hxx>
-#include <Poly_Polygon3D.hxx>
-#include <Poly_PolygonOnTriangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_Polygon3D.hxx>
+#include <Mathematics/Polyhedral/Poly_PolygonOnTriangulation.hxx>
 #include <BRep_Builder.hxx>
 #include <BRep_Tool.hxx>
 #include <BRepLib_MakeEdge.hxx>

@@ -22,7 +22,7 @@
 #include <TopExp_Explorer.hxx>
 #include <BRepAdaptor_HSurface.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
-#include <Poly_Triangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <BRep_Builder.hxx>
 #include <TopExp.hxx>
 #include <BRepAdaptor_Curve.hxx>

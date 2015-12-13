@@ -36,8 +36,8 @@
 #include <BRepTools.hxx>
 #include <BRepBndLib.hxx>
 #include <BndLib_Add3dCurve.hxx>
-#include <Poly_Triangulation.hxx>
-#include <Poly_PolygonOnTriangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_PolygonOnTriangulation.hxx>
 
 #include <Precision.hxx>
 #include <Geom2d_Curve.hxx>

@@ -15,8 +15,8 @@
 #include <AIS_Triangulation.hxx>
 #include <AIS_InteractiveObject.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Poly_Array1OfTriangle.hxx>
-#include <Poly_Triangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_Array1OfTriangle.hxx>
+#include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <Prs3d_Root.hxx>
 #include <Prs3d_ShadingAspect.hxx>
 #include <Foundation/TShort/TShort_Array1OfShortReal.hxx>

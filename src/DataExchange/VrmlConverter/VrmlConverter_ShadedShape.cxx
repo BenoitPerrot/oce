@@ -18,11 +18,11 @@
 #include <TopoDS_Face.hxx>
 #include <TopoDS.hxx>
 #include <TopAbs.hxx>
-#include <Poly_Connect.hxx>
+#include <Mathematics/Polyhedral/Poly_Connect.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfDir.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfVec.hxx>
-#include <Poly_Triangle.hxx>
-#include <Poly_Triangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_Triangle.hxx>
+#include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <BRepTools.hxx>
 #include <BRep_Tool.hxx>
 #include <gp_Pnt.hxx>
@@ -30,7 +30,7 @@
 #include <TopExp_Explorer.hxx>
 #include <TopLoc_Location.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
-#include <Poly_Array1OfTriangle.hxx>
+#include <Mathematics/Polyhedral/Poly_Array1OfTriangle.hxx>
 #include <Vrml_IndexedFaceSet.hxx>
 #include <Vrml_Coordinate3.hxx>
 #include <BRepBndLib.hxx>

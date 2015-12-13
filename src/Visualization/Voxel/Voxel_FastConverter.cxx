@@ -33,7 +33,7 @@
 #include <gce_MakePln.hxx>
 
 #include <ElSLib.hxx>
-#include <Poly_Triangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <IntAna2d_AnaIntersection.hxx>
 #include <BRepClass3d_SolidClassifier.hxx>
 #include <BRepMesh_IncrementalMesh.hxx>

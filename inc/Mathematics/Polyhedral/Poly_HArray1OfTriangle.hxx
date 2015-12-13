@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Poly_HArray1OfTriangle.hxx>
 
-#include <Poly_Array1OfTriangle.hxx>
+#include <Mathematics/Polyhedral/Poly_Array1OfTriangle.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
@@ -69,11 +69,11 @@ private:
 };
 
 #define ItemHArray1 Poly_Triangle
-#define ItemHArray1_hxx <Poly_Triangle.hxx>
+#define ItemHArray1_hxx <Mathematics/Polyhedral/Poly_Triangle.hxx>
 #define TheArray1 Poly_Array1OfTriangle
-#define TheArray1_hxx <Poly_Array1OfTriangle.hxx>
+#define TheArray1_hxx <Mathematics/Polyhedral/Poly_Array1OfTriangle.hxx>
 #define TCollection_HArray1 Poly_HArray1OfTriangle
-#define TCollection_HArray1_hxx <Poly_HArray1OfTriangle.hxx>
+#define TCollection_HArray1_hxx <Mathematics/Polyhedral/Poly_HArray1OfTriangle.hxx>
 #define Handle_TCollection_HArray1 Handle_Poly_HArray1OfTriangle
 #define TCollection_HArray1_Type_() Poly_HArray1OfTriangle_Type_()
 

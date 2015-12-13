@@ -25,10 +25,10 @@
 #include <BRep_Tool.hxx>
 #include <Geom_Surface.hxx>
 #include <Foundation/NCollection/NCollection_DataMap.hxx>
-#include <Poly_Triangulation.hxx>
-#include <Poly_Connect.hxx>
-#include <Poly_PolygonOnTriangulation.hxx>
-#include <Poly_Polygon3D.hxx>
+#include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_Connect.hxx>
+#include <Mathematics/Polyhedral/Poly_PolygonOnTriangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_Polygon3D.hxx>
 #include <Precision.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <TopExp_Explorer.hxx>

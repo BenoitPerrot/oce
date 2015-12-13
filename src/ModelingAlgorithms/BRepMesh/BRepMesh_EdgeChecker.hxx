@@ -18,10 +18,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_Mutex.hxx>
-#include <Poly_Triangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <TopLoc_Location.hxx>
 #include <TopoDS_Edge.hxx>
-#include <Poly_PolygonOnTriangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_PolygonOnTriangulation.hxx>
 #include <BRep_Tool.hxx>
 
 //! Auxilary class implementing functionality for checking consistency 

@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Poly_Triangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Draw_Display.hxx>
 #include <Draw_Drawable3D.hxx>
@@ -30,14 +30,14 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(DrawTrSurf_Triangulation2D)
 IMPLEMENT_DOWNCAST(DrawTrSurf_Triangulation2D,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(DrawTrSurf_Triangulation2D)
-#include <Poly_Connect.hxx>
-#include <Poly_Triangle.hxx>
-#include <Poly_Array1OfTriangle.hxx>
+#include <Mathematics/Polyhedral/Poly_Connect.hxx>
+#include <Mathematics/Polyhedral/Poly_Triangle.hxx>
+#include <Mathematics/Polyhedral/Poly_Array1OfTriangle.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <gp_Pnt2d.hxx>
 #include <Draw_Color.hxx>
-#include <Poly.hxx>
+#include <Mathematics/Polyhedral/Poly.hxx>
 
 #ifdef WNT
 #include <stdio.h>

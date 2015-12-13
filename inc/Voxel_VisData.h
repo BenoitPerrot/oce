@@ -21,7 +21,7 @@
 #include <Foundation/TShort/TShort_HArray1OfShortReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfDir.hxx>
-#include <Poly_Triangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 
 #include <Voxel_BoolDS.hxx>
 #include <Voxel_ColorDS.hxx>

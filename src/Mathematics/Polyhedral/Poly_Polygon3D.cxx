@@ -18,7 +18,7 @@
 #include <Foundation/Standard/Standard_NullObject.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <Poly_Polygon3D.hxx>
+#include <Mathematics/Polyhedral/Poly_Polygon3D.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Poly_Polygon3D)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -15,22 +15,22 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_Stream.hxx>
-#include <Poly_Triangulation.hxx>
-#include <Poly_Polygon3D.hxx>
-#include <Poly_Polygon2D.hxx>
+#include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_Polygon3D.hxx>
+#include <Mathematics/Polyhedral/Poly_Polygon2D.hxx>
 #include <gp_XY.hxx>
-#include <Poly.hxx>
+#include <Mathematics/Polyhedral/Poly.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Pnt2d.hxx>
-#include <Poly_Triangle.hxx>
+#include <Mathematics/Polyhedral/Poly_Triangle.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <Poly_Array1OfTriangle.hxx>
-#include <Poly_ListOfTriangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_Array1OfTriangle.hxx>
+#include <Mathematics/Polyhedral/Poly_ListOfTriangulation.hxx>
 
-#include <Poly_Polygon3D.hxx>
-#include <Poly_Polygon2D.hxx>
+#include <Mathematics/Polyhedral/Poly_Polygon3D.hxx>
+#include <Mathematics/Polyhedral/Poly_Polygon2D.hxx>
 #include <Precision.hxx>
 #include <Foundation/TShort/TShort_Array1OfShortReal.hxx>
 #include <Foundation/TShort/TShort_HArray1OfShortReal.hxx>

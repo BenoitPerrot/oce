@@ -47,7 +47,7 @@
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <gp_Pln.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
-#include <Poly_Triangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <TopoDS_Compound.hxx>
 #include <TopExp_Explorer.hxx>
 #include <TopoDS_Face.hxx>

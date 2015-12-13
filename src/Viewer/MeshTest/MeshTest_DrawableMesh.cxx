@@ -21,7 +21,7 @@
 #include <Draw_Color.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
-#include <Poly_Triangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <BRepMesh_DegreeOfFreedom.hxx>
 #include <BRepMesh_Edge.hxx>

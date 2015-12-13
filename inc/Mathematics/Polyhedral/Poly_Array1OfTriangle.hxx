@@ -92,9 +92,9 @@ private:
 };
 
 #define Array1Item Poly_Triangle
-#define Array1Item_hxx <Poly_Triangle.hxx>
+#define Array1Item_hxx <Mathematics/Polyhedral/Poly_Triangle.hxx>
 #define TCollection_Array1 Poly_Array1OfTriangle
-#define TCollection_Array1_hxx <Poly_Array1OfTriangle.hxx>
+#define TCollection_Array1_hxx <Mathematics/Polyhedral/Poly_Array1OfTriangle.hxx>
 
 #include <Foundation/TCollection/TCollection_Array1.lxx>
 

@@ -18,7 +18,7 @@
 #include <VrmlData_InBuffer.hxx>
 #include <VrmlData_UnknownNode.hxx>
 #include <BRep_Builder.hxx>
-#include <Poly_Polygon3D.hxx>
+#include <Mathematics/Polyhedral/Poly_Polygon3D.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <TopoDS_Edge.hxx>

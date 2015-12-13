@@ -13,8 +13,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Poly_CoherentNode.hxx>
-#include <Poly_CoherentTriangle.hxx>
+#include <Mathematics/Polyhedral/Poly_CoherentNode.hxx>
+#include <Mathematics/Polyhedral/Poly_CoherentTriangle.hxx>
 
 #include <stdio.h>
 

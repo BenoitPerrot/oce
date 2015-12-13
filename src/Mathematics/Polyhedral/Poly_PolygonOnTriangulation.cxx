@@ -18,7 +18,7 @@
 #include <Foundation/Standard/Standard_NullObject.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <Poly_PolygonOnTriangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_PolygonOnTriangulation.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Poly_PolygonOnTriangulation)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

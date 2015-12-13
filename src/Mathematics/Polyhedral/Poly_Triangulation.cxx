@@ -19,10 +19,10 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_NullObject.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
-#include <Poly_Array1OfTriangle.hxx>
+#include <Mathematics/Polyhedral/Poly_Array1OfTriangle.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Foundation/TShort/TShort_Array1OfShortReal.hxx>
-#include <Poly_Triangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Poly_Triangulation)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_TYPE_END(Poly_Triangulation)
 IMPLEMENT_DOWNCAST(Poly_Triangulation,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Poly_Triangulation)
 #include <gp_Pnt.hxx>
-#include <Poly_Triangle.hxx>
+#include <Mathematics/Polyhedral/Poly_Triangle.hxx>
 
 
 //=======================================================================

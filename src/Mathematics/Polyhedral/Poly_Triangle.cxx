@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <Poly_Triangle.hxx>
+#include <Mathematics/Polyhedral/Poly_Triangle.hxx>
 
 //=======================================================================
 //function : Poly_Triangle

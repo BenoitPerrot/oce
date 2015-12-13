@@ -80,7 +80,7 @@
 #include <ViewerTest_DoubleMapIteratorOfDoubleMapOfInteractiveAndName.hxx>
 #include <BRepLib_MakePolygon.hxx>
 #include <gp_GTrsf.hxx>
-#include <Poly_Triangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <IGESControl_Reader.hxx>
 #include <IGESData_IGESModel.hxx>
 #include <IGESData_IGESEntity.hxx>

@@ -77,8 +77,8 @@ IMPLEMENT_STANDARD_RTTI(BRepCheck_Edge)
 #include <TopoDS_Face.hxx>
 #include <Precision.hxx>
 
-#include <Poly_PolygonOnTriangulation.hxx>
-#include <Poly_Triangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_PolygonOnTriangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 
 //modified by NIZNHY-PKV Thu May 05 09:01:57 2011f
 static 

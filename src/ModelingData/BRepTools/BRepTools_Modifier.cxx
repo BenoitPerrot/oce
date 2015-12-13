@@ -37,8 +37,8 @@
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfTransient.hxx>
 
 #if 0
-#include <Poly_Triangulation.hxx>
-#include <Poly_Polygon3D.hxx>
+#include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_Polygon3D.hxx>
 #include <BRepMesh_IncrementalMesh.hxx>
 #endif
 

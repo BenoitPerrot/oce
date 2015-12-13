@@ -17,7 +17,7 @@
 #define Poly_ListOfTriangulation_HeaderFile
 
 #include <Foundation/NCollection/NCollection_List.hxx>
-#include <Poly_Triangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 
 /**
  * List of Poly_Triangulation instances.

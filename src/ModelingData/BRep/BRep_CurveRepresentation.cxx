@@ -17,12 +17,12 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <TopLoc_Location.hxx>
 #include <Geom_Surface.hxx>
-#include <Poly_Triangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <Geom_Curve.hxx>
 #include <Geom2d_Curve.hxx>
-#include <Poly_Polygon3D.hxx>
-#include <Poly_Polygon2D.hxx>
-#include <Poly_PolygonOnTriangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_Polygon3D.hxx>
+#include <Mathematics/Polyhedral/Poly_Polygon2D.hxx>
+#include <Mathematics/Polyhedral/Poly_PolygonOnTriangulation.hxx>
 #include <BRep_CurveRepresentation.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BRep_CurveRepresentation)

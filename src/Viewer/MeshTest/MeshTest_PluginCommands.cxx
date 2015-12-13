@@ -28,7 +28,7 @@
 #include <DBRep.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>
 #include <TopExp.hxx>
-#include <Poly_Triangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <gp_Vec.hxx>
 #include <GProp_GProps.hxx>
 #include <BRepGProp.hxx>
@@ -37,12 +37,12 @@
 #include <TopoDS.hxx>
 #include <MeshTest_CheckTopology.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
-#include <Poly_Polygon3D.hxx>
-#include <Poly_Polygon2D.hxx>
+#include <Mathematics/Polyhedral/Poly_Polygon3D.hxx>
+#include <Mathematics/Polyhedral/Poly_Polygon2D.hxx>
 #include <Foundation/Standard/Standard.hxx>
 #include <TopExp_Explorer.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
-#include <Poly_PolygonOnTriangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_PolygonOnTriangulation.hxx>
 #include <TopoDS_Face.hxx>
 #include <BRepMesh_Edge.hxx>
 #include <Foundation/NCollection/NCollection_Map.hxx>

@@ -60,10 +60,10 @@
 #include <gp_Circ.hxx>
 #include <GCPnts_TangentialDeflection.hxx>
 #include <TopoDS_Wire.hxx>
-#include <Poly_Array1OfTriangle.hxx>
-#include <Poly_Polygon3D.hxx>
-#include <Poly_PolygonOnTriangulation.hxx>
-#include <Poly_Triangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_Array1OfTriangle.hxx>
+#include <Mathematics/Polyhedral/Poly_Polygon3D.hxx>
+#include <Mathematics/Polyhedral/Poly_PolygonOnTriangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <BRepMesh_IncrementalMesh.hxx>
 #include <Foundation/Standard/Standard_NullObject.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>

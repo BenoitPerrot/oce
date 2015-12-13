@@ -17,7 +17,7 @@
 #define Poly_CoherentNode_HeaderFile
 
 #include <gp_XYZ.hxx>
-#include <Poly_CoherentTriPtr.hxx>
+#include <Mathematics/Polyhedral/Poly_CoherentTriPtr.hxx>
 #include <Precision.hxx>
 
 class NCollection_BaseAllocator;

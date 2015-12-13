@@ -21,7 +21,7 @@
 #include <BRep_Tool.hxx>
 #include <BRepTools.hxx>
 #include <BRepMesh_DiscretFactory.hxx>
-#include <Poly_Triangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <TopExp_Explorer.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Face.hxx>

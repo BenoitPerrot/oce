@@ -98,7 +98,7 @@ private:
 };
 
 
-#include <Poly_Polygon3D.lxx>
+#include <Mathematics/Polyhedral/Poly_Polygon3D.lxx>
 
 
 

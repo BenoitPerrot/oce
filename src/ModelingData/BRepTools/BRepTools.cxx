@@ -52,8 +52,8 @@
 #include <TopTools_SequenceOfShape.hxx>
 #include <Precision.hxx>
 
-#include <Poly_Triangulation.hxx>
-#include <Poly_PolygonOnTriangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_PolygonOnTriangulation.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_MapOfTransient.hxx>
 

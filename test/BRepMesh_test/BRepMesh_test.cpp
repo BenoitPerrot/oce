@@ -10,7 +10,7 @@
 #include <TopExp_Explorer.hxx>
 #include <BRep_Tool.hxx>
 #include <TopLoc_Location.hxx>
-#include <Poly_Triangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <BRepMesh_IncrementalMesh.hxx>
 #include <BRepBuilderAPI_NurbsConvert.hxx>
 

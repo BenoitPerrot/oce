@@ -12,17 +12,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Poly_Triangle.hxx>
+#include <Mathematics/Polyhedral/Poly_Triangle.hxx>
 #include <PPoly_Triangle.hxx>
-#include <Poly_Triangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <PPoly_Triangulation.hxx>
 #include <PTColStd_PersistentTransientMap.hxx>
 #include <PTColStd_TransientPersistentMap.hxx>
-#include <Poly_Polygon3D.hxx>
+#include <Mathematics/Polyhedral/Poly_Polygon3D.hxx>
 #include <PPoly_Polygon3D.hxx>
-#include <Poly_Polygon2D.hxx>
+#include <Mathematics/Polyhedral/Poly_Polygon2D.hxx>
 #include <PPoly_Polygon2D.hxx>
-#include <Poly_PolygonOnTriangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_PolygonOnTriangulation.hxx>
 #include <PPoly_PolygonOnTriangulation.hxx>
 #include <MgtPoly.hxx>
 
@@ -37,7 +37,7 @@
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <PColStd_HArray1OfInteger.hxx>
 
-#include <Poly_Array1OfTriangle.hxx>
+#include <Mathematics/Polyhedral/Poly_Array1OfTriangle.hxx>
 #include <PPoly_HArray1OfTriangle.hxx>
 
 #define MgtBRepSpeedDownCast

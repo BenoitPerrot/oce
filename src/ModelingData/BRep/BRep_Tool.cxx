@@ -20,13 +20,13 @@
 #include <Geom_Surface.hxx>
 #include <TopoDS_Face.hxx>
 #include <TopLoc_Location.hxx>
-#include <Poly_Triangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <TopoDS_Edge.hxx>
 #include <Geom_Curve.hxx>
-#include <Poly_Polygon3D.hxx>
+#include <Mathematics/Polyhedral/Poly_Polygon3D.hxx>
 #include <Geom2d_Curve.hxx>
-#include <Poly_Polygon2D.hxx>
-#include <Poly_PolygonOnTriangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_Polygon2D.hxx>
+#include <Mathematics/Polyhedral/Poly_PolygonOnTriangulation.hxx>
 #include <gp_Pnt2d.hxx>
 #include <gp_Pnt.hxx>
 #include <TopoDS_Vertex.hxx>
@@ -64,10 +64,10 @@
 #include <GeomAdaptor_HCurve.hxx>
 #include <GeomAdaptor_HSurface.hxx>
 #include <Precision.hxx>
-#include <Poly_Triangulation.hxx>
-#include <Poly_Polygon3D.hxx>
-#include <Poly_Polygon2D.hxx>
-#include <Poly_PolygonOnTriangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_Polygon3D.hxx>
+#include <Mathematics/Polyhedral/Poly_Polygon2D.hxx>
+#include <Mathematics/Polyhedral/Poly_PolygonOnTriangulation.hxx>
 
 #include <Foundation/NCollection/NCollection_Map.hxx>
 #include <Foundation/NCollection/NCollection_IncAllocator.hxx>

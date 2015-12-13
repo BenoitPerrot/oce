@@ -21,9 +21,9 @@
 #include <gp_Pnt2d.hxx>
 #include <Geom_Geometry.hxx>
 #include <Geom2d_Curve.hxx>
-#include <Poly_Triangulation.hxx>
-#include <Poly_Polygon3D.hxx>
-#include <Poly_Polygon2D.hxx>
+#include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_Polygon3D.hxx>
+#include <Mathematics/Polyhedral/Poly_Polygon2D.hxx>
 #include <Geom_Curve.hxx>
 #include <Geom_BezierCurve.hxx>
 #include <Geom_BSplineCurve.hxx>
@@ -54,7 +54,7 @@
 #include <gp_Ax2d.hxx>
 #include <gp_Ax2.hxx>
 #include <gp_Trsf2d.hxx>
-#include <Poly.hxx>
+#include <Mathematics/Polyhedral/Poly.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 static Draw_Color       PntColor(Draw_rouge);

@@ -31,9 +31,9 @@
 #include <gp_Pnt2d.hxx>
 #include <IVtkOCC_ShapeMesher.hxx>
 #include <Foundation/NCollection/NCollection_Array1.hxx>
-#include <Poly_Polygon3D.hxx>
-#include <Poly_PolygonOnTriangulation.hxx>
-#include <Poly_Triangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_Polygon3D.hxx>
+#include <Mathematics/Polyhedral/Poly_PolygonOnTriangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <Precision.hxx>
 #include <Prs3d.hxx>
 #include <Prs3d_Drawer.hxx>

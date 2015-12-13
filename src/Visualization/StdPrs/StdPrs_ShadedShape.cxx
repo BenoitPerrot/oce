@@ -36,9 +36,9 @@
 #include <Prs3d_LineAspect.hxx>
 #include <Prs3d_Presentation.hxx>
 #include <Prs3d_ShadingAspect.hxx>
-#include <Poly_Connect.hxx>
-#include <Poly_PolygonOnTriangulation.hxx>
-#include <Poly_Triangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_Connect.hxx>
+#include <Mathematics/Polyhedral/Poly_PolygonOnTriangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <StdPrs_ToolShadedShape.hxx>
 #include <StdPrs_WFShape.hxx>
 #include <TopExp.hxx>

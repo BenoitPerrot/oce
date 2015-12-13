@@ -22,7 +22,7 @@
 #include <TopoDS_Face.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopLoc_Location.hxx>
-#include <Poly_Triangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <TopExp_Explorer.hxx>
 #include <BRepMesh_EdgeChecker.hxx>
 

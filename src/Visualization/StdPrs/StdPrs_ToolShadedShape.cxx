@@ -21,8 +21,8 @@
 #include <GeomAbs_SurfaceType.hxx>
 #include <GeomLib.hxx>
 #include <gp_Vec.hxx>
-#include <Poly_Connect.hxx>
-#include <Poly_Triangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_Connect.hxx>
+#include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <Precision.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>

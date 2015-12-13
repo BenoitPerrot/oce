@@ -108,7 +108,7 @@ private:
 };
 
 
-#include <Poly_PolygonOnTriangulation.lxx>
+#include <Mathematics/Polyhedral/Poly_PolygonOnTriangulation.lxx>
 
 
 

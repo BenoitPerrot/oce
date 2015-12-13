@@ -24,7 +24,7 @@
 
 #include <BRepTools.hxx>
 #include <GeomTools.hxx>
-#include <Poly.hxx>
+#include <Mathematics/Polyhedral/Poly.hxx>
 #include <TopoDS.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <BRep_TFace.hxx>
@@ -32,7 +32,7 @@
 #include <BRep_TVertex.hxx>
 #include <BRep_Tool.hxx>
 #include <BRep_CurveRepresentation.hxx>
-#include <Poly_Polygon3D.hxx>
+#include <Mathematics/Polyhedral/Poly_Polygon3D.hxx>
 #include <BRep_Polygon3D.hxx>
 #include <BRep_PolygonOnSurface.hxx>
 #include <BRep_PolygonOnClosedSurface.hxx>
@@ -52,8 +52,8 @@
 #include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt2d.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
-#include <Poly_Triangulation.hxx>
-#include <Poly_PolygonOnTriangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_PolygonOnTriangulation.hxx>
 
 #include <Foundation/Message/Message_ProgressIndicator.hxx>
 #include <Foundation/Message/Message_ProgressSentry.hxx>

@@ -16,7 +16,7 @@
 #include <VrmlData_IndexedFaceSet.hxx>
 #include <VrmlData_InBuffer.hxx>
 #include <VrmlData_UnknownNode.hxx>
-#include <Poly_Triangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <BRep_TFace.hxx>
 #include <VrmlData_Coordinate.hxx>
 #include <VrmlData_Color.hxx>
@@ -26,7 +26,7 @@
 #include <Precision.hxx>
 #include <Foundation/NCollection/NCollection_Vector.hxx>
 #include <Foundation/NCollection/NCollection_DataMap.hxx>
-#include <Poly.hxx>
+#include <Mathematics/Polyhedral/Poly.hxx>
 #include <Foundation/TShort/TShort_HArray1OfShortReal.hxx>
 
 #ifdef _MSC_VER

@@ -24,9 +24,9 @@
 #include <BndLib_AddSurface.hxx>
 #include <Geom_Surface.hxx>
 #include <TopLoc_Location.hxx>
-#include <Poly_Triangulation.hxx>
-#include <Poly_PolygonOnTriangulation.hxx>
-#include <Poly_Polygon3D.hxx>
+#include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_PolygonOnTriangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_Polygon3D.hxx>
 #include <BRep_Polygon3D.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>

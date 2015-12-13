@@ -33,7 +33,7 @@
 #include <BRepAdaptor_Surface.hxx>
 #include <BRep_TEdge.hxx>
 #include <Precision.hxx>
-#include <Poly_Triangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <gp_Ax2.hxx>
 
 #include <TopExp.hxx>

@@ -21,7 +21,7 @@
 #define BUC60858	//GG 27/03/01 Avoid to crash when selecting
 //			a triangle containing confused or aligned points.
 
-#include <Poly_Triangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <SelectBasics_EntityOwner.hxx>
 #include <TopLoc_Location.hxx>
@@ -47,8 +47,8 @@ IMPLEMENT_STANDARD_TYPE_END(Select3D_SensitiveTriangulation)
 IMPLEMENT_DOWNCAST(Select3D_SensitiveTriangulation,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Select3D_SensitiveTriangulation)
 #include <gp_Pnt2d.hxx>
-#include <Poly.hxx>
-#include <Poly_Connect.hxx>
+#include <Mathematics/Polyhedral/Poly.hxx>
+#include <Mathematics/Polyhedral/Poly_Connect.hxx>
 #include <CSLib_Class2d.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Select3D_SensitiveTriangle.hxx>

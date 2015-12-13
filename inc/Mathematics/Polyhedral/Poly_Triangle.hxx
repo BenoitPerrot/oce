@@ -80,7 +80,7 @@ private:
 };
 
 
-#include <Poly_Triangle.lxx>
+#include <Mathematics/Polyhedral/Poly_Triangle.lxx>
 
 
 

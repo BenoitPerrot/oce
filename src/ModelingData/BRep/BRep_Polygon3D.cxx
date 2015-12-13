@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Poly_Polygon3D.hxx>
+#include <Mathematics/Polyhedral/Poly_Polygon3D.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <TopLoc_Location.hxx>
 #include <BRep_CurveRepresentation.hxx>

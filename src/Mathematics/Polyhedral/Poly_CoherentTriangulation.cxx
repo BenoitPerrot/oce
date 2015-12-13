@@ -13,9 +13,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Poly_CoherentTriangulation.hxx>
-#include <Poly_Triangulation.hxx>
-#include <Poly_Array1OfTriangle.hxx>
+#include <Mathematics/Polyhedral/Poly_CoherentTriangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_Array1OfTriangle.hxx>
 #include <Foundation/NCollection/NCollection_List.hxx>
 #include <Precision.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>

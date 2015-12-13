@@ -32,9 +32,9 @@
 #include <BRepBndLib.hxx>
 #include <BRepAdaptor_Curve.hxx>
 
-#include <Poly_Triangulation.hxx>
-#include <Poly_Polygon3D.hxx>
-#include <Poly_PolygonOnTriangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_Polygon3D.hxx>
+#include <Mathematics/Polyhedral/Poly_PolygonOnTriangulation.hxx>
 
 #include <TopoDS.hxx>
 #include <TopoDS_Edge.hxx>

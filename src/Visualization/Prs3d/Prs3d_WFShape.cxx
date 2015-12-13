@@ -23,11 +23,11 @@
 #include <Graphic3d_ArrayOfPolylines.hxx>
 #include <Graphic3d_ArrayOfPoints.hxx>
 #include <gp_Pnt.hxx>
-#include <Poly_Connect.hxx>
-#include <Poly_Triangulation.hxx>
-#include <Poly_Array1OfTriangle.hxx>
-#include <Poly_Polygon3D.hxx>
-#include <Poly_PolygonOnTriangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_Connect.hxx>
+#include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_Array1OfTriangle.hxx>
+#include <Mathematics/Polyhedral/Poly_Polygon3D.hxx>
+#include <Mathematics/Polyhedral/Poly_PolygonOnTriangulation.hxx>
 #include <Prs3d.hxx>
 #include <Prs3d_Drawer.hxx>
 #include <Prs3d_IsoAspect.hxx>

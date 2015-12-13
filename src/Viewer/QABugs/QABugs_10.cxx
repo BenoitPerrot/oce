@@ -41,7 +41,7 @@
 #include <TopoDS.hxx>
 #include <BRepMesh_IncrementalMesh.hxx>
 #include <BRep_Tool.hxx>
-#include <Poly_Triangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <TopExp.hxx>
 #include <ChFi3d_FilletShape.hxx>
 #include <BRepFilletAPI_MakeFillet.hxx>

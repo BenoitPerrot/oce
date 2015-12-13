@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Poly_HArray1OfTriangle.hxx>
+#include <Mathematics/Polyhedral/Poly_HArray1OfTriangle.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <Poly_Triangle.hxx>
-#include <Poly_Array1OfTriangle.hxx>
+#include <Mathematics/Polyhedral/Poly_Triangle.hxx>
+#include <Mathematics/Polyhedral/Poly_Array1OfTriangle.hxx>
 
  
 
@@ -31,11 +31,11 @@ IMPLEMENT_STANDARD_RTTI(Poly_HArray1OfTriangle)
 
 
 #define ItemHArray1 Poly_Triangle
-#define ItemHArray1_hxx <Poly_Triangle.hxx>
+#define ItemHArray1_hxx <Mathematics/Polyhedral/Poly_Triangle.hxx>
 #define TheArray1 Poly_Array1OfTriangle
-#define TheArray1_hxx <Poly_Array1OfTriangle.hxx>
+#define TheArray1_hxx <Mathematics/Polyhedral/Poly_Array1OfTriangle.hxx>
 #define TCollection_HArray1 Poly_HArray1OfTriangle
-#define TCollection_HArray1_hxx <Poly_HArray1OfTriangle.hxx>
+#define TCollection_HArray1_hxx <Mathematics/Polyhedral/Poly_HArray1OfTriangle.hxx>
 #define Handle_TCollection_HArray1 Handle_Poly_HArray1OfTriangle
 #define TCollection_HArray1_Type_() Poly_HArray1OfTriangle_Type_()
 #include <Foundation/TCollection/TCollection_HArray1.gxx>

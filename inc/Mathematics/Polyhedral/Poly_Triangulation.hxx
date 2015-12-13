@@ -14,7 +14,7 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Handle_TColgp_HArray1OfPnt2d.hxx>
-#include <Poly_Array1OfTriangle.hxx>
+#include <Mathematics/Polyhedral/Poly_Array1OfTriangle.hxx>
 #include <Handle_TShort_HArray1OfShortReal.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
@@ -173,7 +173,7 @@ private:
 };
 
 
-#include <Poly_Triangulation.lxx>
+#include <Mathematics/Polyhedral/Poly_Triangulation.lxx>
 
 
 

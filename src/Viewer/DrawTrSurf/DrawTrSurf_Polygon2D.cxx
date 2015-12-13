@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Poly_Polygon2D.hxx>
+#include <Mathematics/Polyhedral/Poly_Polygon2D.hxx>
 #include <Draw_Display.hxx>
 #include <Draw_Drawable3D.hxx>
 #include <DrawTrSurf_Polygon2D.hxx>
@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(DrawTrSurf_Polygon2D)
 IMPLEMENT_DOWNCAST(DrawTrSurf_Polygon2D,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(DrawTrSurf_Polygon2D)
-#include <Poly.hxx>
+#include <Mathematics/Polyhedral/Poly.hxx>
 #include <Draw_Color.hxx>
 #include <Draw_MarkerShape.hxx>
 

@@ -14,9 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Poly_Triangulation.hxx>
-#include <Poly_Connect.hxx>
-#include <Poly_Triangle.hxx>
+#include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_Connect.hxx>
+#include <Mathematics/Polyhedral/Poly_Triangle.hxx>
 
 #include <Foundation/Standard/Standard.hxx>
 

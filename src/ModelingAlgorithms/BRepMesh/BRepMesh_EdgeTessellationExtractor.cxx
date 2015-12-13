@@ -15,8 +15,8 @@
 
 #include <BRepMesh_EdgeTessellationExtractor.hxx>
 #include <Geom2d_Curve.hxx>
-#include <Poly_PolygonOnTriangulation.hxx>
-#include <Poly_Triangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_PolygonOnTriangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <BRepMesh_ShapeTool.hxx>
 
 IMPLEMENT_STANDARD_HANDLE (BRepMesh_EdgeTessellationExtractor, BRepMesh_IEdgeTool)

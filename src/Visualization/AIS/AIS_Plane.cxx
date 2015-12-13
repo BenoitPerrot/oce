@@ -75,7 +75,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_Plane)
 #include <SelectMgr_EntityOwner.hxx>
 #include <StdPrs_ShadedShape.hxx>
 
-#include <Poly_Triangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 
 #include <AIS_Drawer.hxx>
 

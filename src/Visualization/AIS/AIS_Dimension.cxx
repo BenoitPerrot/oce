@@ -61,8 +61,8 @@
 #include <Select3D_SensitiveSegment.hxx>
 #include <Select3D_SensitiveTriangle.hxx>
 #include <Select3D_SensitiveTriangulation.hxx>
-#include <Poly_Array1OfTriangle.hxx>
-#include <Poly_Triangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_Array1OfTriangle.hxx>
+#include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <StdPrs_ShadedShape.hxx>

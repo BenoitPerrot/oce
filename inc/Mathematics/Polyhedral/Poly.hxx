@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_Poly_Triangulation.hxx>
-#include <Poly_ListOfTriangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_ListOfTriangulation.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Poly_Polygon3D.hxx>

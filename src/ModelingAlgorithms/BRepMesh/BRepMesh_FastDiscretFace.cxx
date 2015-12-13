@@ -16,8 +16,8 @@
 
 #include <BRepMesh_PairOfPolygon.hxx>
 #include <BRepMesh_ShapeTool.hxx>
-#include <Poly_PolygonOnTriangulation.hxx>
-#include <Poly_Triangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_PolygonOnTriangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 
 #include <BRepAdaptor_Surface.hxx>
 #include <BRepAdaptor_HSurface.hxx>

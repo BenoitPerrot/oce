@@ -18,7 +18,7 @@
 #include <TopoDS_Shape.hxx>
 #include <Draw_Color.hxx>
 #include <Draw_Display.hxx>
-#include <Poly_Triangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <gp_Trsf.hxx>
 #include <Draw_Drawable3D.hxx>
 #include <DBRep_DrawableShape.hxx>
@@ -68,10 +68,10 @@ IMPLEMENT_STANDARD_RTTI(DBRep_DrawableShape)
 #include <gp_Lin2d.hxx>
 #include <gp_Trsf.hxx>
 
-#include <Poly_Polygon3D.hxx>
-#include <Poly_Triangulation.hxx>
-#include <Poly_PolygonOnTriangulation.hxx>
-#include <Poly_Connect.hxx>
+#include <Mathematics/Polyhedral/Poly_Polygon3D.hxx>
+#include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_PolygonOnTriangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_Connect.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 

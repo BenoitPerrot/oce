@@ -16,7 +16,7 @@
 
 #include <Foundation/Standard/Standard_NullObject.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
-#include <Poly_Polygon2D.hxx>
+#include <Mathematics/Polyhedral/Poly_Polygon2D.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Poly_Polygon2D)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

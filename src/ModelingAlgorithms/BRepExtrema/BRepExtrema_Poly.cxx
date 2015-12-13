@@ -21,7 +21,7 @@
 #include <TopoDS.hxx>
 #include <TopExp_Explorer.hxx>
 #include <Precision.hxx>
-#include <Poly_Triangulation.hxx>
+#include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 
 //=======================================================================

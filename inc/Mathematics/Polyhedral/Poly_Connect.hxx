@@ -147,7 +147,7 @@ private:
 };
 
 
-#include <Poly_Connect.lxx>
+#include <Mathematics/Polyhedral/Poly_Connect.lxx>
 
 
 
