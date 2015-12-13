@@ -20,9 +20,9 @@
 #include <Draw.hxx>
 
 #include <Draw_Appli.hxx>
-#include <OSD.hxx>
-#include <OSD_Environment.hxx>
-#include <OSD_Timer.hxx>
+#include <Foundation/OSD/OSD.hxx>
+#include <Foundation/OSD/OSD_Environment.hxx>
+#include <Foundation/OSD/OSD_Timer.hxx>
 
 #include <Draw_Window.hxx>
 #include <gp_Pnt2d.hxx>
@@ -35,7 +35,7 @@
 #include <Draw_ProgressIndicator.hxx>
 
 #include <Plugin_MapOfFunctions.hxx>
-#include <OSD_SharedLibrary.hxx>
+#include <Foundation/OSD/OSD_SharedLibrary.hxx>
 #include <Resource_Manager.hxx>
 #include <Draw_Failure.hxx>
 #include <TCollection_AsciiString.hxx>

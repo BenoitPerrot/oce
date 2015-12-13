@@ -85,7 +85,7 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_Mesh)
 #include <MeshVS_SelectionModeFlags.hxx>
 #include <MeshVS_Buffer.hxx>
 
-#include <OSD_Timer.hxx>
+#include <Foundation/OSD/OSD_Timer.hxx>
 
 //================================================================
 // Function : Constructor MeshVS_Mesh

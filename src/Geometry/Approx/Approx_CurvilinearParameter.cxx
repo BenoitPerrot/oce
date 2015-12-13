@@ -48,7 +48,7 @@
 #include <Approx_CurvlinFunc.hxx>
 
 #ifdef OCCT_DEBUG_CHRONO
-#include <OSD_Timer.hxx>
+#include <Foundation/OSD/OSD_Timer.hxx>
 static OSD_Chronometer chr_total, chr_init, chr_approx;
 
 Standard_Real t_total, t_init, t_approx;

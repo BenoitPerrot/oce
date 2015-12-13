@@ -156,7 +156,7 @@
 #include <Precision.hxx>
 // performances 
 #ifdef OCCT_DEBUG
-#include <OSD_Chronometer.hxx>
+#include <Foundation/OSD/OSD_Chronometer.hxx>
 extern Standard_Real  t_plate ,t_approxplate,t_batten; 
 extern void ChFi3d_InitChron(OSD_Chronometer& ch);
 extern void ChFi3d_ResultChron(OSD_Chronometer & ch,Standard_Real& time);

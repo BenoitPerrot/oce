@@ -44,7 +44,7 @@
 #include <Interface_Macros.hxx>
 #include <IGESData_IGESEntity.hxx>
 #include <TColStd_HSequenceOfInteger.hxx>
-#include <OSD_Timer.hxx>
+#include <Foundation/OSD/OSD_Timer.hxx>
 #include <Transfer_TransferOutput.hxx>
 #include <ShapeExtend_Explorer.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>

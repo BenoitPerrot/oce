@@ -25,7 +25,7 @@
 #include <Foundation/NCollection/NCollection_IndexedMap.hxx>
 #include <Foundation/NCollection/NCollection_IndexedDataMap.hxx>
 #include <Standard_Assert.hxx>
-#include <OSD_Timer.hxx>
+#include <Foundation/OSD/OSD_Timer.hxx>
 
 #ifdef HAVE_TBB
   // On Windows, function TryEnterCriticalSection has appeared in Windows NT

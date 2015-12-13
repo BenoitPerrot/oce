@@ -44,7 +44,7 @@ IMPLEMENT_STANDARD_RTTI(PCDM_ReadWriter_1)
 #include <TColStd_SequenceOfAsciiString.hxx>
 #include <PCDM_Reference.hxx>
 #include <Standard_ErrorHandler.hxx>
-#include <OSD_Path.hxx>
+#include <Foundation/OSD/OSD_Path.hxx>
 #include <PCDM_BaseDriverPointer.hxx>
 #include <PCDM.hxx>
 #include <PCDM_TypeOfFileDriver.hxx>

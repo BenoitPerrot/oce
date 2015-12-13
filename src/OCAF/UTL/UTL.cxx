@@ -17,22 +17,22 @@
 #include <TCollection_ExtendedString.hxx>
 #include <Storage_BaseDriver.hxx>
 #include <Storage_Data.hxx>
-#include <OSD_Path.hxx>
-#include <OSD_FileIterator.hxx>
+#include <Foundation/OSD/OSD_Path.hxx>
+#include <Foundation/OSD/OSD_FileIterator.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <Standard_GUID.hxx>
 #include <Resource_Manager.hxx>
 #include <UTL.hxx>
-#include <OSD_Host.hxx>
-#include <OSD_Path.hxx>
+#include <Foundation/OSD/OSD_Host.hxx>
+#include <Foundation/OSD/OSD_Path.hxx>
 #include <TCollection_ExtendedString.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <Resource_Unicode.hxx>
-#include <OSD_Environment.hxx>
-#include <OSD_FileIterator.hxx>
-#include <OSD_File.hxx>
-#include <OSD_Protection.hxx>
-#include <OSD_SingleProtection.hxx>
+#include <Foundation/OSD/OSD_Environment.hxx>
+#include <Foundation/OSD/OSD_FileIterator.hxx>
+#include <Foundation/OSD/OSD_File.hxx>
+#include <Foundation/OSD/OSD_Protection.hxx>
+#include <Foundation/OSD/OSD_SingleProtection.hxx>
 
 TCollection_ExtendedString UTL::xgetenv(const Standard_CString aCString) {
   TCollection_ExtendedString x;

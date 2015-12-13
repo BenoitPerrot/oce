@@ -16,7 +16,7 @@
 
 #include <Graphic3d_TextureParams.hxx>
 #include <TCollection_AsciiString.hxx>
-#include <OSD_Path.hxx>
+#include <Foundation/OSD/OSD_Path.hxx>
 #include <Graphic3d_TextureRoot.hxx>
 #include <Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Graphic3d_TextureRoot)
@@ -31,11 +31,11 @@ IMPLEMENT_STANDARD_RTTI(Graphic3d_TextureRoot)
 
 #include <Image_AlienPixMap.hxx>
 
-#include <OSD_Directory.hxx>
-#include <OSD_Environment.hxx>
-#include <OSD_Path.hxx>
-#include <OSD_Protection.hxx>
-#include <OSD_File.hxx>
+#include <Foundation/OSD/OSD_Directory.hxx>
+#include <Foundation/OSD/OSD_Environment.hxx>
+#include <Foundation/OSD/OSD_Path.hxx>
+#include <Foundation/OSD/OSD_Protection.hxx>
+#include <Foundation/OSD/OSD_File.hxx>
 #include <Standard_Atomic.hxx>
 
 #ifdef HAVE_OCE_PATHS_H

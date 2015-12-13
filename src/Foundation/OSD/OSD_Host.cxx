@@ -18,10 +18,10 @@
 #include <Standard_ConstructionError.hxx>
 #include <Standard_ConstructionError.hxx>
 #include <Standard_NullObject.hxx>
-#include <OSD_OSDError.hxx>
+#include <Foundation/OSD/OSD_OSDError.hxx>
 #include <TCollection_AsciiString.hxx>
-#include <OSD_Host.hxx>
-#include <OSD_WhoAmI.hxx>
+#include <Foundation/OSD/OSD_Host.hxx>
+#include <Foundation/OSD/OSD_WhoAmI.hxx>
 
 const OSD_WhoAmI Iam = OSD_WHost;
 
@@ -186,7 +186,7 @@ Standard_Integer OSD_Host::Error()const{
 #define STRICT
 #include <windows.h>
 
-#include <OSD_Host.hxx>
+#include <Foundation/OSD/OSD_Host.hxx>
 
 #if defined(_MSC_VER) || defined(__BORLANDC__)
 #pragma comment( lib, "WSOCK32.LIB" )

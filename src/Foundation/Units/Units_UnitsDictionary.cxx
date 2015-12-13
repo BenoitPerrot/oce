@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <OSD.hxx>
+#include <Foundation/OSD/OSD.hxx>
 
 #include <Standard_Stream.hxx>
 #include <Standard_Type.hxx>

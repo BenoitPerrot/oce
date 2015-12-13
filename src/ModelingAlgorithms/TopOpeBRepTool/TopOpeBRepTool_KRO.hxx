@@ -17,7 +17,7 @@
 #ifndef _TopOpeBRepTool_KRO_HeaderFile
 #define _TopOpeBRepTool_KRO_HeaderFile
 #ifdef OCCT_DEBUG
-#include <OSD_Chronometer.hxx>
+#include <Foundation/OSD/OSD_Chronometer.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <Standard_OStream.hxx>
 

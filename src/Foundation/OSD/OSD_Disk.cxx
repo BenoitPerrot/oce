@@ -12,13 +12,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <OSD_Disk.hxx>
-#include <OSD_OSDError.hxx>
-#include <OSD_Path.hxx>
+#include <Foundation/OSD/OSD_Disk.hxx>
+#include <Foundation/OSD/OSD_OSDError.hxx>
+#include <Foundation/OSD/OSD_Path.hxx>
 
 #ifndef _WIN32
 
-#include <OSD_WhoAmI.hxx>
+#include <Foundation/OSD/OSD_WhoAmI.hxx>
 
 const OSD_WhoAmI Iam = OSD_WDisk;
 

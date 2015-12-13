@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <OSD_SharedLibrary.hxx>
+#include <Foundation/OSD/OSD_SharedLibrary.hxx>
 #include <Plugin.hxx>
 #include <Plugin_MapOfFunctions.hxx>
 #include <Plugin_Failure.hxx>

@@ -28,7 +28,7 @@ IMPLEMENT_DOWNCAST(Font_FontMgr,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Font_FontMgr)
 
 #include <Font_FTLibrary.hxx>
-#include <OSD_Environment.hxx>
+#include <Foundation/OSD/OSD_Environment.hxx>
 #include <Foundation/NCollection/NCollection_List.hxx>
 #include <Foundation/NCollection/NCollection_Map.hxx>
 #include <Standard_Stream.hxx>
@@ -100,11 +100,11 @@ static const Font_FontMgr_FontAliasMapNode Font_FontMgr_MapOfFontsAliases[] =
 
 #else
 
-  #include <OSD_DirectoryIterator.hxx>
-  #include <OSD_Path.hxx>
-  #include <OSD_File.hxx>
-  #include <OSD_OpenMode.hxx>
-  #include <OSD_Protection.hxx>
+  #include <Foundation/OSD/OSD_DirectoryIterator.hxx>
+  #include <Foundation/OSD/OSD_Path.hxx>
+  #include <Foundation/OSD/OSD_File.hxx>
+  #include <Foundation/OSD/OSD_OpenMode.hxx>
+  #include <Foundation/OSD/OSD_Protection.hxx>
 
   namespace
   {

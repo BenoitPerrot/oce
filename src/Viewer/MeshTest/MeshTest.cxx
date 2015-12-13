@@ -107,7 +107,7 @@ Standard_IMPORT Draw_Viewer dout;
 #define TWOTHIRD 0.666666666666666666666666666666666666666666666666666666666666
 
 #ifdef OCCT_DEBUG_MESH_CHRONO
-#include <OSD_Chronometer.hxx>
+#include <Foundation/OSD/OSD_Chronometer.hxx>
 Standard_Integer D0Control, D0Internal, D0Unif, D0Edges, NbControls;
 OSD_Chronometer chTotal, chInternal, chControl, chUnif, chAddPoint;
 OSD_Chronometer chEdges, chMaillEdges, chEtuInter, chLastControl, chStock;

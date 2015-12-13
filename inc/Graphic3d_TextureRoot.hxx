@@ -13,7 +13,7 @@
 #include <Handle_Graphic3d_TextureParams.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <Image_PixMap_Handle.hxx>
-#include <OSD_Path.hxx>
+#include <Foundation/OSD/OSD_Path.hxx>
 #include <Graphic3d_TypeOfTexture.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Boolean.hxx>

@@ -125,7 +125,7 @@
 
 #ifdef OCCT_DEBUG
 // For measurements.
-#include <OSD_Chronometer.hxx>
+#include <Foundation/OSD/OSD_Chronometer.hxx>
 //static OSD_Chronometer appclock;
 #endif
 

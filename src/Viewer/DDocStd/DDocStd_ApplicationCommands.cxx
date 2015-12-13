@@ -31,7 +31,7 @@
 #include <TDF_ChildIterator.hxx>
 #include <TDF_Tool.hxx> 
 
-#include <OSD_Path.hxx>
+#include <Foundation/OSD/OSD_Path.hxx>
 #include <TDocStd_PathParser.hxx>
 
 #include <AIS_InteractiveContext.hxx>

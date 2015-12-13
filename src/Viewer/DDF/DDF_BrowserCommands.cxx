@@ -31,7 +31,7 @@
 
 #include <TCollection_AsciiString.hxx>
 #include <TCollection_HAsciiString.hxx>
-#include <OSD_File.hxx>
+#include <Foundation/OSD/OSD_File.hxx>
 
 #ifdef WNT
 #include <stdio.h>

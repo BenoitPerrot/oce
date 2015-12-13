@@ -13,8 +13,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <OSD_File.hxx>
-#include <OSD_Protection.hxx>
+#include <Foundation/OSD/OSD_File.hxx>
+#include <Foundation/OSD/OSD_Protection.hxx>
 
 #include <Graphic3d_Buffer.hxx>
 #include <Standard_Assert.hxx>

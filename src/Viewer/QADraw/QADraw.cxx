@@ -36,7 +36,7 @@
 #include <BRepLib_MakeVertex.hxx>
 #include <TopTools_SequenceOfShape.hxx>
 #include <TColgp_SequenceOfXYZ.hxx>
-#include <OSD_Timer.hxx>
+#include <Foundation/OSD/OSD_Timer.hxx>
 #include <stdio.h>
 
 #if defined(_WIN32) || defined(__WIN32__)

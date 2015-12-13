@@ -13,7 +13,7 @@
 // commercial license or contractual agreement.
 
 #ifdef CHRONO
-#include <OSD_Chronometer.hxx>
+#include <Foundation/OSD/OSD_Chronometer.hxx>
 OSD_Chronometer Chronrsnld;
 
 #endif

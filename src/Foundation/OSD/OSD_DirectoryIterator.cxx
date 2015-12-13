@@ -12,15 +12,15 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <OSD_Directory.hxx>
-#include <OSD_DirectoryIterator.hxx>
-#include <OSD_OSDError.hxx>
-#include <OSD_Path.hxx>
+#include <Foundation/OSD/OSD_Directory.hxx>
+#include <Foundation/OSD/OSD_DirectoryIterator.hxx>
+#include <Foundation/OSD/OSD_OSDError.hxx>
+#include <Foundation/OSD/OSD_Path.hxx>
 #include <TCollection_AsciiString.hxx>
 
 #ifndef WNT
 
-#include <OSD_WhoAmI.hxx>
+#include <Foundation/OSD/OSD_WhoAmI.hxx>
 
 #include <stdio.h>
 #include <dirent.h>

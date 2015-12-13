@@ -26,10 +26,10 @@
 //#include <AppStdL_Application.hxx>
 #include <AppStd_Application.hxx>
 #include <TCollection_AsciiString.hxx>
-#include <OSD_Path.hxx>
-#include <OSD_Environment.hxx>
-#include <OSD_Directory.hxx>
-#include <OSD_File.hxx>
+#include <Foundation/OSD/OSD_Path.hxx>
+#include <Foundation/OSD/OSD_Environment.hxx>
+#include <Foundation/OSD/OSD_Directory.hxx>
+#include <Foundation/OSD/OSD_File.hxx>
 
 #ifdef HAVE_OCE_PATHS_H
 # include "oce-paths.h"

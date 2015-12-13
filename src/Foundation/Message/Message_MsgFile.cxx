@@ -16,11 +16,11 @@
 #include <Foundation/Message/Message_MsgFile.hxx>
 
 #include <Foundation/NCollection/NCollection_DataMap.hxx>
-#include <OSD_Environment.hxx>
+#include <Foundation/OSD/OSD_Environment.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <TCollection_ExtendedString.hxx>
 #include <Standard_Mutex.hxx>
-#include <OSD_OpenFile.hxx>
+#include <Foundation/OSD/OSD_OpenFile.hxx>
 
 #include <stdlib.h>
 #include <stdio.h>

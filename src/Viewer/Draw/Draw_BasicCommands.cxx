@@ -30,11 +30,11 @@
 #include <Foundation/Message/Message.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 
-#include <OSD_MemInfo.hxx>
-#include <OSD_MAllocHook.hxx>
-#include <OSD_Chronometer.hxx>
-#include <OSD.hxx>
-#include <OSD_Exception_CTRL_BREAK.hxx>
+#include <Foundation/OSD/OSD_MemInfo.hxx>
+#include <Foundation/OSD/OSD_MAllocHook.hxx>
+#include <Foundation/OSD/OSD_Chronometer.hxx>
+#include <Foundation/OSD/OSD.hxx>
+#include <Foundation/OSD/OSD_Exception_CTRL_BREAK.hxx>
 
 #ifdef _WIN32
 

@@ -16,7 +16,7 @@
 /*  Regroupement des sources "C" pour compilation   */ 
 #include <stdio.h>
 #include "igesread.h"
-#include <OSD_OpenFile.hxx>
+#include <Foundation/OSD/OSD_OpenFile.hxx>
 
 /*
 void IGESFile_Check21 (int mode,char * code, int num, char * str);

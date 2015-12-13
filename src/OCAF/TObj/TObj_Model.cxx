@@ -17,7 +17,7 @@
 
 #include <TObj_Model.hxx>
 
-#include <OSD_File.hxx>
+#include <Foundation/OSD/OSD_File.hxx>
 #include <Precision.hxx>
 #include <Standard_ErrorHandler.hxx>
 #include <TCollection_ExtendedString.hxx>
@@ -41,7 +41,7 @@
 #include <TObj_TModel.hxx>
 #include <TObj_TNameContainer.hxx>
 #include <Foundation/Message/Message_Msg.hxx>
-#include <OSD_OpenFile.hxx>
+#include <Foundation/OSD/OSD_OpenFile.hxx>
 
 #ifdef WNT
   #include <io.h>

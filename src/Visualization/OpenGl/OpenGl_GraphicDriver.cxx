@@ -27,7 +27,7 @@
 
 #include <Aspect_GraphicDeviceDefinitionError.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
-#include <OSD_Environment.hxx>
+#include <Foundation/OSD/OSD_Environment.hxx>
 #include <Standard_NotImplemented.hxx>
 
 #if !defined(_WIN32) && !defined(__ANDROID__) && (!defined(__APPLE__) || defined(MACOSX_USE_GLX))

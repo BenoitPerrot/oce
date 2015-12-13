@@ -20,10 +20,10 @@
 #include <Standard_Mutex.hxx>
 #include <Standard_ConstructionError.hxx>
 #include <Standard_NullObject.hxx>
-#include <OSD_OSDError.hxx>
+#include <Foundation/OSD/OSD_OSDError.hxx>
 #include <TCollection_AsciiString.hxx>
-#include <OSD_Environment.hxx>
-#include <OSD_WhoAmI.hxx>
+#include <Foundation/OSD/OSD_Environment.hxx>
+#include <Foundation/OSD/OSD_WhoAmI.hxx>
 
 #include <stdlib.h>
 #include <stdio.h>
@@ -236,9 +236,9 @@ Standard_Integer OSD_Environment::Error() const
 //------------------------------------------------------------------------
 
 #define STRICT
-#include <OSD_Environment.hxx>
+#include <Foundation/OSD/OSD_Environment.hxx>
 
-#include <OSD_WNT.hxx>
+#include <Foundation/OSD/OSD_WNT.hxx>
 
 #include <windows.h>
 

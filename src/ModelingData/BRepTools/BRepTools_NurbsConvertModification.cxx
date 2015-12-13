@@ -60,7 +60,7 @@ IMPLEMENT_STANDARD_RTTI(BRepTools_NurbsConvertModification)
 #include <Approx_SameParameter.hxx>
 #include <BRep_Tool.hxx>
 #include <Extrema_LocateExtPC.hxx>
-#include <OSD_Chronometer.hxx>
+#include <Foundation/OSD/OSD_Chronometer.hxx>
 #include <gp_GTrsf2d.hxx>
 #include <gp_TrsfForm.hxx>
 #include <TopAbs.hxx>

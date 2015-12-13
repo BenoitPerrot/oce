@@ -45,7 +45,7 @@
 #define FuncTol 1.e-10
 
 #ifdef OCCT_DEBUG_CHRONO
-#include <OSD_Timer.hxx>
+#include <Foundation/OSD/OSD_Timer.hxx>
 
 static OSD_Chronometer chr_init_point, chr_dicho_bound;
 

@@ -17,7 +17,7 @@
 #include <Draw_Interpretor.hxx>
 #include <TopoDS_Shape.hxx>
 #include <VrmlAPI.hxx>
-#include <OSD_Path.hxx>
+#include <Foundation/OSD/OSD_Path.hxx>
 #include <StlAPI.hxx>
 #include <XSDRAW.hxx>
 #include <DBRep.hxx>

@@ -31,7 +31,7 @@ IMPLEMENT_DOWNCAST(Graphic3d_ArrayOfPrimitives,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Graphic3d_ArrayOfPrimitives)
 #include <Standard.hxx>
 #include <TCollection_AsciiString.hxx>
-#include <OSD_Environment.hxx>
+#include <Foundation/OSD/OSD_Environment.hxx>
 #include <Foundation/NCollection/NCollection_AlignedAllocator.hxx>
 
 #include <stdio.h>

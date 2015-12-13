@@ -100,7 +100,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_InteractiveContext)
 
 #include <AIS_Trihedron.hxx>
 #include <Geom_Axis2Placement.hxx>
-#include <OSD_Environment.hxx>
+#include <Foundation/OSD/OSD_Environment.hxx>
 
 #include <AIS_ListIteratorOfListOfInteractive.hxx>
 

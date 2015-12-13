@@ -16,7 +16,7 @@
 # define __OSD_WNT_BREAK_HXX
 
 # ifdef WNT
-#  include <OSD.hxx>
+#  include <Foundation/OSD/OSD.hxx>
 #  define _TSTBRK() OSD :: ControlBreak ()
 # endif  // WNT
 

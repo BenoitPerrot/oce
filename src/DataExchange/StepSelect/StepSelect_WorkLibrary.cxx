@@ -54,7 +54,7 @@ IMPLEMENT_STANDARD_RTTI(StepSelect_WorkLibrary)
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <Interface_Macros.hxx>
 #include <Interface_Check.hxx>
-#include <OSD_OpenFile.hxx>
+#include <Foundation/OSD/OSD_OpenFile.hxx>
 
 StepSelect_WorkLibrary::StepSelect_WorkLibrary
   (const Standard_Boolean copymode)

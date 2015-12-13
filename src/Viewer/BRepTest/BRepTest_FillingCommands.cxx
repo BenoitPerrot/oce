@@ -103,7 +103,7 @@
 
 // pour mes tests
 #ifdef OCCT_DEBUG
-#include <OSD_Chronometer.hxx>
+#include <Foundation/OSD/OSD_Chronometer.hxx>
 #include <Geom_Line.hxx>
 #endif
 

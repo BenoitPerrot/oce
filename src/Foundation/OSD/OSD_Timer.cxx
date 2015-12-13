@@ -19,7 +19,7 @@
 //         system call gettimeofday. This function is portable and give us
 //         elapsed time in seconds and microseconds.
 
-#include <OSD_Timer.hxx>
+#include <Foundation/OSD/OSD_Timer.hxx>
 
 #ifndef WNT
 

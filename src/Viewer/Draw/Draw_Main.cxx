@@ -49,7 +49,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <Draw_Appli.hxx>
-#include <OSD.hxx>
+#include <Foundation/OSD/OSD.hxx>
 
 #include <tcl.h>
 

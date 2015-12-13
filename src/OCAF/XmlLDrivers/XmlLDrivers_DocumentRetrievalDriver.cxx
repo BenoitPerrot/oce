@@ -49,7 +49,7 @@ IMPLEMENT_STANDARD_RTTI(XmlLDrivers_DocumentRetrievalDriver)
 #include <CDM_MetaData.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <UTL.hxx>
-#include <OSD_Path.hxx>
+#include <Foundation/OSD/OSD_Path.hxx>
 
 #ifdef WNT
 # include <tchar.h>

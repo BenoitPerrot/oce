@@ -13,7 +13,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/FSD/FSD_CmpFile.hxx>
-#include <OSD.hxx>
+#include <Foundation/OSD/OSD.hxx>
 #include <Standard_PCharacter.hxx>
 #include <Standard_Type.hxx>
 #include <Storage_BaseDriver.hxx>

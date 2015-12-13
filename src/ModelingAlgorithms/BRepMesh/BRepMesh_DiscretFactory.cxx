@@ -15,8 +15,8 @@
 
 #include <BRepMesh_DiscretFactory.hxx>
 
-#include <OSD_SharedLibrary.hxx>
-#include <OSD_Function.hxx>
+#include <Foundation/OSD/OSD_SharedLibrary.hxx>
+#include <Foundation/OSD/OSD_Function.hxx>
 #include <BRepMesh_IncrementalMesh.hxx>
 #include <BRepMesh_DiscretRoot.hxx>
 

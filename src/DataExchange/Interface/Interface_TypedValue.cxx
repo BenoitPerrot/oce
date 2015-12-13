@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_RTTI(Interface_TypedValue)
 #include <Foundation/Dico/Dico_DictionaryOfInteger.hxx>
 #include <Foundation/Dico/Dico_IteratorOfDictionaryOfInteger.hxx>
 
-#include <OSD_Path.hxx>
+#include <Foundation/OSD/OSD_Path.hxx>
 #include <stdio.h>
 
 

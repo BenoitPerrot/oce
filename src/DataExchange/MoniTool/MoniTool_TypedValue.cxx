@@ -39,7 +39,7 @@ IMPLEMENT_STANDARD_RTTI(MoniTool_TypedValue)
 #include <MoniTool_Element.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 
-#include <OSD_Path.hxx>
+#include <Foundation/OSD/OSD_Path.hxx>
 #include <stdio.h>
 
 

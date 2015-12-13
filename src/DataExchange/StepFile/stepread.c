@@ -24,7 +24,7 @@
 #include <stdio.h>
 #include <string.h>
 #include "recfile.ph"
-#include <OSD_OpenFile.hxx>
+#include <Foundation/OSD/OSD_OpenFile.hxx>
 
 /*    StepFile_Error.c
 

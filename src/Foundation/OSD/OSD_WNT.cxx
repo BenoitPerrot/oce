@@ -21,7 +21,7 @@
 /*            ones ) and other convinient functions.                          */
 /******************************************************************************/
 /***/
-#include <OSD_WNT_1.hxx>
+#include <Foundation/OSD/OSD_WNT_1.hxx>
 
 #include <wchar.h>
 #include <stdlib.h>

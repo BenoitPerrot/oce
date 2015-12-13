@@ -48,7 +48,7 @@
 #include <ElSLib.hxx>
 #include <Standard_NotImplemented.hxx>
 #include <Standard_ProgramError.hxx>
-#include <OSD_Chronometer.hxx>
+#include <Foundation/OSD/OSD_Chronometer.hxx>
 
 #include <GeomTools_Curve2dSet.hxx>
 #include <TColStd_Array1OfBoolean.hxx>

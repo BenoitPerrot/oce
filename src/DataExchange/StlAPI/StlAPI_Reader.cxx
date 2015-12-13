@@ -15,7 +15,7 @@
 #include <StlAPI_Reader.hxx>
 #include <RWStl.hxx>
 #include <StlMesh_Mesh.hxx>
-#include <OSD_Path.hxx>
+#include <Foundation/OSD/OSD_Path.hxx>
 #include <BRep_Builder.hxx>
 #include <BRepLib_MakeVertex.hxx>
 #include <BRepLib_MakePolygon.hxx>

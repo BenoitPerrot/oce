@@ -93,7 +93,7 @@
 #include <HeaderSection_FileSchema.hxx>
 #include <StepData_StepModel.hxx>
 #include <StepAP214_Protocol.hxx>
-#include <OSD_Path.hxx>
+#include <Foundation/OSD/OSD_Path.hxx>
 #include <XSControl_WorkSession.hxx>
 #include <StepRepr_HArray1OfRepresentationItem.hxx>
 #include <MoniTool_DataMapIteratorOfDataMapOfShapeTransient.hxx>

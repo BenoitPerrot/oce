@@ -25,12 +25,12 @@ IMPLEMENT_STANDARD_TYPE_END(CDF_FWOSDriver)
 IMPLEMENT_DOWNCAST(CDF_FWOSDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(CDF_FWOSDriver)
 #include <TCollection_ExtendedString.hxx>
-#include <OSD_Path.hxx>
-#include <OSD_Directory.hxx>
-#include <OSD_Protection.hxx>
-#include <OSD_SingleProtection.hxx>
-#include <OSD_File.hxx>
-#include <OSD_FileNode.hxx>
+#include <Foundation/OSD/OSD_Path.hxx>
+#include <Foundation/OSD/OSD_Directory.hxx>
+#include <Foundation/OSD/OSD_Protection.hxx>
+#include <Foundation/OSD/OSD_SingleProtection.hxx>
+#include <Foundation/OSD/OSD_File.hxx>
+#include <Foundation/OSD/OSD_FileNode.hxx>
 #include <UTL.hxx>
 #include <TCollection_ExtendedString.hxx>
 #ifdef WNT

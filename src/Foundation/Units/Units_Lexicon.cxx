@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_TYPE_END(Units_Lexicon)
 IMPLEMENT_DOWNCAST(Units_Lexicon,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Units_Lexicon)
 
-#include <OSD.hxx>
+#include <Foundation/OSD/OSD.hxx>
 
 #include <sys/types.h>
 #include <sys/stat.h>

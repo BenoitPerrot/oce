@@ -30,7 +30,7 @@
 #include <OpenGl_ArbTexBindless.hxx>
 #include <OpenGl_PrimitiveArray.hxx>
 #include <OpenGl_Structure.hxx>
-#include <OSD_Timer.hxx>
+#include <Foundation/OSD/OSD_Timer.hxx>
 #include <Standard_Assert.hxx>
 
 //! Use this macro to output BVH profiling info

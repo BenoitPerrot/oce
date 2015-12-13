@@ -115,7 +115,7 @@ defaultPrompt:
 
 #if !defined(_WIN32) && !defined(__WIN32__)
 
-#include <OSD_Timer.hxx>
+#include <Foundation/OSD/OSD_Timer.hxx>
 #include <Draw_Window.hxx>
 #include <unistd.h>
 
@@ -1271,7 +1271,7 @@ prompt:
 #include "init.h"
 
 #include <Draw_Appli.hxx>
-#include <OSD.hxx>
+#include <Foundation/OSD/OSD.hxx>
 
 #ifdef _TK
 # include <tk.h>

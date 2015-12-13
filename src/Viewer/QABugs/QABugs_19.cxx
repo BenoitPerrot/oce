@@ -39,8 +39,8 @@
 #include <cstdio>
 #include <cmath>
 #include <iostream>
-#include <OSD_PerfMeter.hxx>
-#include <OSD_Timer.hxx>
+#include <Foundation/OSD/OSD_PerfMeter.hxx>
+#include <Foundation/OSD/OSD_Timer.hxx>
 #include <BRepPrimAPI_MakeBox.hxx>
 #include <BRepPrimAPI_MakeSphere.hxx>
 #include <BRepAlgo_Cut.hxx>
@@ -394,7 +394,7 @@ static Standard_Integer OCC23774(Draw_Interpretor& di, Standard_Integer n, const
 #include <GeomConvert_ApproxSurface.hxx>
 #include <Geom_BSplineSurface.hxx>
 #include <Draw.hxx>
-#include <OSD_Thread.hxx>
+#include <Foundation/OSD/OSD_Thread.hxx>
 static void GeomConvertTest (Draw_Interpretor& di, Standard_Integer theTargetNbUPoles, Standard_CString theFileName)
 {
 	Handle(Geom_Surface) aSurf = DrawTrSurf::GetSurface(theFileName);
@@ -2549,7 +2549,7 @@ static Standard_Integer OCC25004 (Draw_Interpretor& theDI,
   return 0;
 }
 
-#include <OSD_Environment.hxx>
+#include <Foundation/OSD/OSD_Environment.hxx>
 #include <Plugin.hxx>
 #include <Plugin_Macro.hxx>
 #include <Resource_Manager.hxx>

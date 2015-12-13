@@ -12,15 +12,15 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <OSD_OSDError.hxx>
-#include <OSD_Environment.hxx>
-#include <OSD_EnvironmentIterator.hxx>
+#include <Foundation/OSD/OSD_OSDError.hxx>
+#include <Foundation/OSD/OSD_Environment.hxx>
+#include <Foundation/OSD/OSD_EnvironmentIterator.hxx>
 
 #ifndef WNT
 
 //---------- All Systems except windowsNT : ----------------------------------
 
-#include <OSD_WhoAmI.hxx>
+#include <Foundation/OSD/OSD_WhoAmI.hxx>
 
 //const OSD_WhoAmI Iam = OSD_WEnvironmentIterator;
 #ifdef __APPLE__

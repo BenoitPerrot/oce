@@ -49,7 +49,7 @@
 #include <GeomAPI_Interpolate.hxx>
 #include <Precision.hxx>
 #include <Geom_BSplineCurve.hxx>
-#include <OSD_Path.hxx>
+#include <Foundation/OSD/OSD_Path.hxx>
 #include <ShapeBuild_ReShape.hxx>
 #include <ShapeExtend_WireData.hxx>
 #include <TopoDS_Wire.hxx>

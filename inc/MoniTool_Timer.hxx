@@ -10,7 +10,7 @@
 #include <Standard_DefineHandle.hxx>
 #include <Handle_MoniTool_Timer.hxx>
 
-#include <OSD_Timer.hxx>
+#include <Foundation/OSD/OSD_Timer.hxx>
 #include <Standard_Integer.hxx>
 #include <Standard_Real.hxx>
 #include <Handle_MoniTool_Timer.hxx>

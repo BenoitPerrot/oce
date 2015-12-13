@@ -38,9 +38,9 @@
 #include <Standard_Failure.hxx>
 #include <Standard_TypeMismatch.hxx>
 #ifdef WNT
-#include <OSD_Exception.hxx>
+#include <Foundation/OSD/OSD_Exception.hxx>
 #else
-#include <OSD_Signal.hxx>
+#include <Foundation/OSD/OSD_Signal.hxx>
 #endif
 #include <stdio.h>
 

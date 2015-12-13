@@ -101,7 +101,7 @@ IMPLEMENT_STANDARD_RTTI(IFSelect_WorkSession)
 #include <IFSelect_TransformStandard.hxx>
 
 #include <TColStd_MapOfInteger.hxx>
-#include <OSD_Path.hxx>
+#include <Foundation/OSD/OSD_Path.hxx>
 #include <Interface_Macros.hxx>
 #include <Interface_MSG.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>

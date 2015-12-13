@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESSelect_UpdateLastChange)
 IMPLEMENT_DOWNCAST(IGESSelect_UpdateLastChange,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESSelect_UpdateLastChange)
-#include <OSD_Process.hxx>
+#include <Foundation/OSD/OSD_Process.hxx>
 #include <Quantity_Date.hxx>
 #include <IGESData_GlobalSection.hxx>
 #include <TCollection_HAsciiString.hxx>

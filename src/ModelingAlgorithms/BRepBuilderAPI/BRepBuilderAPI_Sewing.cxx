@@ -1806,7 +1806,7 @@ void BRepBuilderAPI_Sewing::Add(const TopoDS_Shape& aShape)
 //=======================================================================
 
 #ifdef OCCT_DEBUG
-#include <OSD_Timer.hxx>
+#include <Foundation/OSD/OSD_Timer.hxx>
 #endif
 
 void BRepBuilderAPI_Sewing::Perform(const Handle(Message_ProgressIndicator)& thePI)

@@ -41,9 +41,9 @@
 // pour propagate
 #include <TDocStd_XLinkTool.hxx>
 
-#include <OSD_Function.hxx>
-#include <OSD_SharedLibrary.hxx>
-#include <OSD_LoadMode.hxx>
+#include <Foundation/OSD/OSD_Function.hxx>
+#include <Foundation/OSD/OSD_SharedLibrary.hxx>
+#include <Foundation/OSD/OSD_LoadMode.hxx>
 
 //typedef Standard_Integer (* DFBROWSER_CALL)(const Handle(TDocStd_Document)&);
 //static DFBROWSER_CALL gDFunc = 0;

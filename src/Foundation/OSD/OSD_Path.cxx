@@ -12,8 +12,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <OSD_OSDError.hxx>
-#include <OSD_Path.hxx>
+#include <Foundation/OSD/OSD_OSDError.hxx>
+#include <Foundation/OSD/OSD_Path.hxx>
 #include <Standard_ConstructionError.hxx>
 #include <Standard_NullObject.hxx>
 #include <Standard_NumericError.hxx>
@@ -59,7 +59,7 @@ static OSD_SysType whereAmI(){
 #include <Standard_NullObject.hxx>
 #include <Standard_ProgramError.hxx>
 #include <Standard_ConstructionError.hxx>
-#include <OSD_WhoAmI.hxx>
+#include <Foundation/OSD/OSD_WhoAmI.hxx>
 
 OSD_Path::OSD_Path(){
  mySysDep = whereAmI();

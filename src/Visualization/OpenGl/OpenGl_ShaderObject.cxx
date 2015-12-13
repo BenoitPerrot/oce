@@ -16,7 +16,7 @@
 #include <Graphic3d_ShaderObject.hxx>
 #include <OpenGl_Context.hxx>
 #include <OpenGl_ShaderObject.hxx>
-#include <OSD_Path.hxx>
+#include <Foundation/OSD/OSD_Path.hxx>
 #include <Standard_Assert.hxx>
 #include <TCollection_AsciiString.hxx>
 

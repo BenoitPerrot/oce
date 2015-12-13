@@ -36,7 +36,7 @@ IMPLEMENT_STANDARD_RTTI(SelectMgr_SelectionManager)
 #include <TColStd_ListOfInteger.hxx>
 #include <TColStd_ListIteratorOfListOfInteger.hxx>
 #include <SelectMgr_DataMapIteratorOfDataMapOfObjectSelectors.hxx>
-#include <OSD_Environment.hxx>
+#include <Foundation/OSD/OSD_Environment.hxx>
 
 
 static Standard_Boolean SelectDebugModeOnSM()

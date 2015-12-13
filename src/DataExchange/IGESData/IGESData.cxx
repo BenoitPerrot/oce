@@ -33,7 +33,7 @@
 #include <Foundation/Message/Message_MsgFile.hxx>
 #include <Standard_Integer.hxx>
 #include <Standard_Real.hxx>
-#include <OSD_Process.hxx>
+#include <Foundation/OSD/OSD_Process.hxx>
 
 #include <Interface_Version.hxx>
 #include <Quantity_Date.hxx>

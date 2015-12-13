@@ -24,7 +24,7 @@
 
 #include <Font_BRepFont.hxx>
 #include <Font_FontMgr.hxx>
-#include <OSD_Chronometer.hxx>
+#include <Foundation/OSD/OSD_Chronometer.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <Visual3d_View.hxx>
 #include <V3d_Viewer.hxx>

@@ -19,10 +19,10 @@
 #include <Graphic3d_GraphicDriver.hxx>
 #include <Graphic3d_ShaderObject.hxx>
 #include <Graphic3d_ShaderProgram.hxx>
-#include <OSD_Directory.hxx>
-#include <OSD_Environment.hxx>
-#include <OSD_File.hxx>
-#include <OSD_Path.hxx>
+#include <Foundation/OSD/OSD_Directory.hxx>
+#include <Foundation/OSD/OSD_Environment.hxx>
+#include <Foundation/OSD/OSD_File.hxx>
+#include <Foundation/OSD/OSD_Path.hxx>
 
 #ifdef HAVE_OCE_PATHS_H
 # include "oce-paths.h"

@@ -59,7 +59,7 @@ IMPLEMENT_STANDARD_RTTI(Visual3d_View)
 #include <Visual3d_Light.hxx>
 #include <Visual3d_HSequenceOfView.hxx>
 #include <Visual3d_ZClippingDefinitionError.hxx>
-#include <OSD.hxx>
+#include <Foundation/OSD/OSD.hxx>
 #include <TColStd_HArray2OfReal.hxx>
 
 #if defined(_WIN32)

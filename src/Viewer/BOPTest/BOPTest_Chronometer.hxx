@@ -47,7 +47,7 @@ class BOPTime_Chronometer {
 };
 ////////////////////////////////////////////////////////////////////////
 #else
-#include <OSD_Chronometer.hxx>
+#include <Foundation/OSD/OSD_Chronometer.hxx>
 //=======================================================================
 //class    : BOPTime_Chronometer
 //purpose  : 

@@ -28,7 +28,7 @@
 #define MgtTopLocSpeedDownCast
 
 #ifdef chrono
-#include<OSD_Timer.hxx>
+#include<Foundation/OSD/OSD_Timer.hxx>
 extern OSD_Timer LocTimer;
 #endif
 

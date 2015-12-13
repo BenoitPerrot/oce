@@ -21,15 +21,15 @@
 #include <errno.h>
 
 #include <Standard_ProgramError.hxx>
-#include <OSD_OSDError.hxx>
+#include <Foundation/OSD/OSD_OSDError.hxx>
 #include <Standard_NullObject.hxx>
-#include <OSD_WhoAmI.hxx>
-#include <OSD_OSDError.hxx>
+#include <Foundation/OSD/OSD_WhoAmI.hxx>
+#include <Foundation/OSD/OSD_OSDError.hxx>
 #include <Standard_ProgramError.hxx>
-#include <OSD_Path.hxx>
-#include <OSD_Protection.hxx>
+#include <Foundation/OSD/OSD_Path.hxx>
+#include <Foundation/OSD/OSD_Protection.hxx>
 #include <Quantity_Date.hxx>
-#include <OSD_FileNode.hxx>
+#include <Foundation/OSD/OSD_FileNode.hxx>
 
 #include <stdlib.h>    // For "system"
 #include <errno.h>
@@ -412,13 +412,13 @@ Standard_Integer OSD_FileNode::Error()const{
 //----------------------------------------------------------------------------
 
 #define STRICT
-#include <OSD_FileNode.hxx>
-#include <OSD_Protection.hxx>
+#include <Foundation/OSD/OSD_FileNode.hxx>
+#include <Foundation/OSD/OSD_Protection.hxx>
 #include <Quantity_Date.hxx>
 #include <Standard_ProgramError.hxx>
 #include <TCollection_ExtendedString.hxx>
 
-#include <OSD_WNT_1.hxx>
+#include <Foundation/OSD/OSD_WNT_1.hxx>
 
 #ifndef _INC_TCHAR
 # include <tchar.h>

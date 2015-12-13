@@ -19,7 +19,7 @@
 #include <stdio.h>
 #include <TCollection_AsciiString.hxx>
 #include <BRepTools.hxx>
-#include <OSD_File.hxx>
+#include <Foundation/OSD/OSD_File.hxx>
 
 //=======================================================================
 //function : dumpOper

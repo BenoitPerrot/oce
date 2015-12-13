@@ -38,7 +38,7 @@ IMPLEMENT_STANDARD_RTTI(IFSelect_SessionPilot)
 #include <Interface_Macros.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <Foundation/Message/Message.hxx>
-#include <OSD_OpenFile.hxx>
+#include <Foundation/OSD/OSD_OpenFile.hxx>
 
 #include <stdio.h>
 

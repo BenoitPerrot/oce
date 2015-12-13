@@ -11,7 +11,7 @@
 #include <Standard_Macro.hxx>
 
 #include <TCollection_BasicMap.hxx>
-#include <OSD_Function.hxx>
+#include <Foundation/OSD/OSD_Function.hxx>
 #include <Handle_Plugin_DataMapNodeOfMapOfFunctions.hxx>
 #include <Standard_Integer.hxx>
 #include <Standard_Boolean.hxx>

@@ -40,7 +40,7 @@ IMPLEMENT_STANDARD_RTTI(MoniTool_CaseData)
 #include <Geom2d_Curve.hxx>
 #include <Geom_Curve.hxx>
 #include <Geom_Surface.hxx>
-#include <OSD_Timer.hxx>
+#include <Foundation/OSD/OSD_Timer.hxx>
 
 // definitions
 #include <Foundation/Dico/Dico_DictionaryOfInteger.hxx>

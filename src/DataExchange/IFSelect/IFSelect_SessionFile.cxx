@@ -38,7 +38,7 @@
 #include <Interface_Macros.hxx>
 #include <stdio.h>
 
-#include <OSD_OpenFile.hxx>
+#include <Foundation/OSD/OSD_OpenFile.hxx>
 
 
 static int deja = 0;

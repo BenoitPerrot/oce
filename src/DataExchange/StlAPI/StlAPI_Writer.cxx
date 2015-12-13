@@ -19,7 +19,7 @@
 #include <Bnd_Box.hxx>
 #include <RWStl.hxx>
 #include <BRepBndLib.hxx>
-#include <OSD_Path.hxx>
+#include <Foundation/OSD/OSD_Path.hxx>
 
 #define MAX2(X, Y)      (  Abs(X) > Abs(Y)? Abs(X) : Abs(Y) )
 #define MAX3(X, Y, Z)   ( MAX2 ( MAX2(X,Y) , Z) )

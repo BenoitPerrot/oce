@@ -96,7 +96,7 @@ IMPLEMENT_STANDARD_RTTI(MgtBRep_TranslateTool)
 #define MgtBRepSpeedDownCast
 
 #ifdef chrono
-#include <OSD_Timer.hxx>
+#include <Foundation/OSD/OSD_Timer.hxx>
 extern OSD_Timer CurveTimer;
 extern OSD_Timer Curve2dTimer;
 extern OSD_Timer SurfaceTimer;

@@ -25,7 +25,7 @@
 #include <TDocStd.hxx>
 #include <CDF.hxx>
 //#include <LCTLOFF.h>
-#include <OSD_Environment.hxx>
+#include <Foundation/OSD/OSD_Environment.hxx>
 
 #include <TDocStd_XLink.hxx>
 

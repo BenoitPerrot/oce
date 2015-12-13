@@ -26,7 +26,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(Font_SystemFont)
 IMPLEMENT_DOWNCAST(Font_SystemFont,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Font_SystemFont)
-#include <OSD_Path.hxx>
+#include <Foundation/OSD/OSD_Path.hxx>
 #include <TCollection_HAsciiString.hxx>
 
 #include <stdio.h>

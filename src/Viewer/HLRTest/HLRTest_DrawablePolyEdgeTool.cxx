@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_RTTI(HLRTest_DrawablePolyEdgeTool)
 #include <HLRAlgo_EdgeStatus.hxx>
 #include <HLRAlgo_EdgeIterator.hxx>
 #include <Draw_Color.hxx>
-#include <OSD_Chronometer.hxx>
+#include <Foundation/OSD/OSD_Chronometer.hxx>
 
 #define PntX1 ((Standard_Real*)Coordinates)[0]
 #define PntY1 ((Standard_Real*)Coordinates)[1]

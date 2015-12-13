@@ -50,10 +50,10 @@
 #include <Standard_Overflow.hxx>
 #include <Standard_Underflow.hxx>
 #include <Standard_DivideByZero.hxx>
-#include <OSD_SIGSEGV.hxx>
-#include <OSD_Exception_ACCESS_VIOLATION.hxx>
-#include <OSD_Exception_STACK_OVERFLOW.hxx>
-#include <OSD.hxx>
+#include <Foundation/OSD/OSD_SIGSEGV.hxx>
+#include <Foundation/OSD/OSD_Exception_ACCESS_VIOLATION.hxx>
+#include <Foundation/OSD/OSD_Exception_STACK_OVERFLOW.hxx>
+#include <Foundation/OSD/OSD.hxx>
 #include <STEPCAFControl_Writer.hxx>
 #include <STEPControl_StepModelType.hxx>
 #include <Interface_Static.hxx>
@@ -903,8 +903,8 @@ Standard_Integer OCC299bug (Draw_Interpretor& theDi,
   }
 }
 
-#include <OSD_Process.hxx>
-#include <OSD_Path.hxx>
+#include <Foundation/OSD/OSD_Process.hxx>
+#include <Foundation/OSD/OSD_Path.hxx>
 
 static Standard_Integer OCC309bug (Draw_Interpretor& di, Standard_Integer nb, const char ** a)
 {

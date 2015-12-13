@@ -14,13 +14,13 @@
 
 #ifndef WNT
 
-#include <OSD_OSDError.hxx>
+#include <Foundation/OSD/OSD_OSDError.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <Quantity_Date.hxx>
-#include <OSD_Path.hxx>
-#include <OSD_Process.hxx>
-#include <OSD_WhoAmI.hxx>
-#include <OSD_Environment.hxx>
+#include <Foundation/OSD/OSD_Path.hxx>
+#include <Foundation/OSD/OSD_Process.hxx>
+#include <Foundation/OSD/OSD_WhoAmI.hxx>
+#include <Foundation/OSD/OSD_Environment.hxx>
 
 const OSD_WhoAmI Iam = OSD_WProcess;
 
@@ -205,16 +205,16 @@ Standard_Integer OSD_Process::Error()const{
 #include <windows.h>
 
 #ifdef SetCurrentDirectory
-# undef SetCurrentDirectory /* undefine SetCurrentDirectory from <winbase.h> to correctly include <OSD_Process.hxx> */
+# undef SetCurrentDirectory /* undefine SetCurrentDirectory from <winbase.h> to correctly include <Foundation/OSD/OSD_Process.hxx> */
 #endif
-#include <OSD_Process.hxx>
+#include <Foundation/OSD/OSD_Process.hxx>
 
-#include <OSD_Path.hxx>
+#include <Foundation/OSD/OSD_Path.hxx>
 #include <Quantity_Date.hxx>
 #include <Standard_PExtCharacter.hxx>
 #include <TCollection_ExtendedString.hxx>
 
-#include <OSD_WNT_1.hxx>
+#include <Foundation/OSD/OSD_WNT_1.hxx>
 #include <lmcons.h> /// pour UNLEN  ( see MSDN about GetUserName() )
 #if !defined (_MSC_VER) || (_MSC_VER >= 1600)
 #include <stdint.h>

@@ -21,7 +21,7 @@
 #include <gp.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <TCollection_ExtendedString.hxx>
-#include <OSD_OpenFile.hxx>
+#include <Foundation/OSD/OSD_OpenFile.hxx>
 #include <fstream>
 #include <algorithm>
 #include <stdio.h>

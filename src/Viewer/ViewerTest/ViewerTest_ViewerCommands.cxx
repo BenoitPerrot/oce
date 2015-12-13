@@ -54,7 +54,7 @@
 #include <Aspect_PrintAlgo.hxx>
 #include <Image_AlienPixMap.hxx>
 #include <OpenGl_GraphicDriver.hxx>
-#include <OSD_Timer.hxx>
+#include <Foundation/OSD/OSD_Timer.hxx>
 #include <TColStd_HSequenceOfAsciiString.hxx>
 #include <TColStd_SequenceOfInteger.hxx>
 #include <TColStd_HSequenceOfReal.hxx>

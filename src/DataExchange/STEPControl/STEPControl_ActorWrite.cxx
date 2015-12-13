@@ -97,7 +97,7 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_ActorWrite)
 #include <Transfer_FinderProcess.hxx>
 #include <TransferBRep_ShapeMapper.hxx>
 #include <TransferBRep.hxx>
-#include <OSD_Timer.hxx>
+#include <Foundation/OSD/OSD_Timer.hxx>
 
 #include <ShapeExtend_Explorer.hxx>  
 #include <ShapeAnalysis_ShapeTolerance.hxx>

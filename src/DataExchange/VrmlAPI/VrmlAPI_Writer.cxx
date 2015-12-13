@@ -22,7 +22,7 @@
 #include <Quantity_HArray1OfColor.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TColStd_HArray1OfReal.hxx>
-#include <OSD_Path.hxx>
+#include <Foundation/OSD/OSD_Path.hxx>
 #include <VrmlConverter_IsoAspect.hxx>
 #include <VrmlConverter_LineAspect.hxx>
 #include <VrmlConverter_PointAspect.hxx>
@@ -35,7 +35,7 @@
 #include <Vrml_Instancing.hxx>
 #include <Vrml_Separator.hxx>
 #include <VrmlConverter_WFDeflectionShape.hxx>
-#include <OSD_OpenFile.hxx>
+#include <Foundation/OSD/OSD_OpenFile.hxx>
 
 VrmlAPI_Writer::VrmlAPI_Writer()
 {

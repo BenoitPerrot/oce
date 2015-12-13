@@ -14,11 +14,11 @@
 
 #ifndef WNT
 
-#include <OSD_WhoAmI.hxx>
-#include <OSD_FileNode.hxx>
-#include <OSD_File.hxx>
-#include <OSD_Directory.hxx>
-#include <OSD_Protection.hxx>
+#include <Foundation/OSD/OSD_WhoAmI.hxx>
+#include <Foundation/OSD/OSD_FileNode.hxx>
+#include <Foundation/OSD/OSD_File.hxx>
+#include <Foundation/OSD/OSD_Directory.hxx>
+#include <Foundation/OSD/OSD_Protection.hxx>
 
 #include <sys/stat.h>
 // Ci-joint le tableau de gestion des protection (Ajout et Retrait). Les 
@@ -226,7 +226,7 @@ Standard_Integer internal_prot = 0;
 //-------------------  WNT Sources of OSD_Protection ---------------------
 //------------------------------------------------------------------------
 
-#include <OSD_Protection.hxx>
+#include <Foundation/OSD/OSD_Protection.hxx>
 
 #define FLAG_READ    0x00000001
 #define FLAG_WRITE   0x00000002

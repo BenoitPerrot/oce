@@ -54,7 +54,7 @@ IMPLEMENT_STANDARD_RTTI(IGESSelect_WorkLibrary)
 #include <Interface_Check.hxx>
 
 #include <Interface_Macros.hxx>
-#include <OSD_OpenFile.hxx>
+#include <Foundation/OSD/OSD_OpenFile.hxx>
 #include <errno.h>
 
 static int deja = 0;

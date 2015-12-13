@@ -102,7 +102,7 @@
 #include <TestTopOpe.hxx>
 #endif
 #ifdef OCCT_DEBUG
-#include <OSD_Chronometer.hxx>
+#include <Foundation/OSD/OSD_Chronometer.hxx>
 
 
 

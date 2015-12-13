@@ -175,7 +175,7 @@ IMPLEMENT_STANDARD_RTTI(V3d_View)
 #define V3d_FLAG_COMPUTATION   0x00000004
 
 // Perspective
-#include <OSD_Environment.hxx>
+#include <Foundation/OSD/OSD_Environment.hxx>
 
 /*----------------------------------------------------------------------*/
 /*

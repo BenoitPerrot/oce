@@ -116,7 +116,7 @@
 #include <Geom_TrimmedCurve.hxx>
 extern Standard_Boolean ChFi3d_GettraceDRAWSPINE();
 extern Standard_Boolean ChFi3d_GetcontextFORCEFILLING();
-#include <OSD_Chronometer.hxx>
+#include <Foundation/OSD/OSD_Chronometer.hxx>
 
 extern Standard_Real  t_t2cornerinit ,t_perf2cornerbyinter,t_chfikpartcompdata,
                      t_cheminement,t_remplissage,t_t2cornerDS;

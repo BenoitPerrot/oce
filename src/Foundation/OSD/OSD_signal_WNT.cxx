@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <OSD.hxx>
+#include <Foundation/OSD/OSD.hxx>
 
 #ifdef _WIN32
 
@@ -29,27 +29,27 @@
 #endif
 #include <windows.h>
 
-#include <OSD_Exception_ACCESS_VIOLATION.hxx>
-#include <OSD_Exception_ARRAY_BOUNDS_EXCEEDED.hxx>
-#include <OSD_Exception_ILLEGAL_INSTRUCTION.hxx>
-#include <OSD_Exception_IN_PAGE_ERROR.hxx>
-#include <OSD_Exception_INT_DIVIDE_BY_ZERO.hxx>
-#include <OSD_Exception_INT_OVERFLOW.hxx>
-#include <OSD_Exception_INVALID_DISPOSITION.hxx>
-#include <OSD_Exception_NONCONTINUABLE_EXCEPTION.hxx>
-#include <OSD_Exception_PRIV_INSTRUCTION.hxx>
-#include <OSD_Exception_STACK_OVERFLOW.hxx>
-#include <OSD_Exception_STATUS_NO_MEMORY.hxx>
-#include <OSD_Exception_CTRL_BREAK.hxx>
+#include <Foundation/OSD/OSD_Exception_ACCESS_VIOLATION.hxx>
+#include <Foundation/OSD/OSD_Exception_ARRAY_BOUNDS_EXCEEDED.hxx>
+#include <Foundation/OSD/OSD_Exception_ILLEGAL_INSTRUCTION.hxx>
+#include <Foundation/OSD/OSD_Exception_IN_PAGE_ERROR.hxx>
+#include <Foundation/OSD/OSD_Exception_INT_DIVIDE_BY_ZERO.hxx>
+#include <Foundation/OSD/OSD_Exception_INT_OVERFLOW.hxx>
+#include <Foundation/OSD/OSD_Exception_INVALID_DISPOSITION.hxx>
+#include <Foundation/OSD/OSD_Exception_NONCONTINUABLE_EXCEPTION.hxx>
+#include <Foundation/OSD/OSD_Exception_PRIV_INSTRUCTION.hxx>
+#include <Foundation/OSD/OSD_Exception_STACK_OVERFLOW.hxx>
+#include <Foundation/OSD/OSD_Exception_STATUS_NO_MEMORY.hxx>
+#include <Foundation/OSD/OSD_Exception_CTRL_BREAK.hxx>
 
-#include <OSD_Environment.hxx>
+#include <Foundation/OSD/OSD_Environment.hxx>
 #include <Standard_Underflow.hxx>
 #include <Standard_DivideByZero.hxx>
 #include <Standard_Overflow.hxx>
 #include <Standard_ProgramError.hxx>
 #include <Standard_Mutex.hxx>
 
-#include <OSD_WNT_1.hxx>
+#include <Foundation/OSD/OSD_WNT_1.hxx>
 
 #ifdef _MSC_VER
 #include <eh.h>

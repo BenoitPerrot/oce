@@ -51,7 +51,7 @@ extern "C" void recfile_modeprint (int mode);  // controle trace recfile
 #ifdef OCCT_DEBUG
 #define CHRONOMESURE
 #ifdef CHRONOMESURE
-# include <OSD_Timer.hxx>
+# include <Foundation/OSD/OSD_Timer.hxx>
 #endif
 #endif
 

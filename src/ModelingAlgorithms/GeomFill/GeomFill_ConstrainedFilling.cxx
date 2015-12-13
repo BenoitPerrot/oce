@@ -67,7 +67,7 @@ Standard_IMPORT void Law_draw1dcurve(const Handle(Law_BSpline)&     bs,
 
 
 // Pour les mesures.
-#include <OSD_Chronometer.hxx>
+#include <Foundation/OSD/OSD_Chronometer.hxx>
 static OSD_Chronometer totclock, parclock, appclock, cstclock;
 #endif
 

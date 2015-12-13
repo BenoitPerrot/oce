@@ -21,7 +21,7 @@
 #include <Resource_Manager.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <Standard_NoSuchObject.hxx>
-#include <OSD_Environment.hxx>
+#include <Foundation/OSD/OSD_Environment.hxx>
 
 #ifdef HAVE_OCE_PATHS_H
 # include "oce-paths.h"

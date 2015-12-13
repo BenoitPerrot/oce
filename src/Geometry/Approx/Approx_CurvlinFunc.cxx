@@ -41,7 +41,7 @@ IMPLEMENT_STANDARD_RTTI(Approx_CurvlinFunc)
 #include <Precision.hxx>
 
 #ifdef OCCT_DEBUG_CHRONO
-#include <OSD_Timer.hxx>
+#include <Foundation/OSD/OSD_Timer.hxx>
 static OSD_Chronometer chr_uparam;
 Standard_EXPORT Standard_Integer uparam_count;
 Standard_EXPORT Standard_Real t_uparam;

@@ -45,7 +45,7 @@
 
 
 #ifdef OCCT_DEBUG_MESH
-#include <OSD_Chronometer.hxx>
+#include <Foundation/OSD/OSD_Chronometer.hxx>
 extern OSD_Chronometer FFaceTimer1,FFaceTimer2,FFaceTimer3,FFaceTimer4;
 #endif
 

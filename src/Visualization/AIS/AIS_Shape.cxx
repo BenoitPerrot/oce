@@ -39,7 +39,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_Shape)
 
 
 #include <Standard_ErrorHandler.hxx>
-#include <OSD_Timer.hxx>
+#include <Foundation/OSD/OSD_Timer.hxx>
 #include <TColStd_ListIteratorOfListOfInteger.hxx>
 
 #include <Quantity_Color.hxx>

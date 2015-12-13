@@ -33,8 +33,8 @@
 #include <stdlib.h>
 #include <limits.h>
 #include <time.h>
-#include <OSD_Chronometer.hxx>
-#include <OSD_PerfMeter.h>
+#include <Foundation/OSD/OSD_Chronometer.hxx>
+#include <Foundation/OSD/OSD_PerfMeter.h>
 
 
 /*======================================================================

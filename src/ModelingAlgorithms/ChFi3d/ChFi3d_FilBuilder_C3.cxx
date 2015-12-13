@@ -122,7 +122,7 @@ extern Standard_Boolean ChFi3d_GetcontextSPINEBEZIER();
 extern Standard_Boolean ChFi3d_GetcontextSPINECIRCLE();
 extern Standard_Boolean ChFi3d_GetcontextSPINECE();
 extern Standard_Boolean ChFi3d_GetcontextFORCEFILLING();
-#include <OSD_Chronometer.hxx>
+#include <Foundation/OSD/OSD_Chronometer.hxx>
 
 extern Standard_Real  t_t3cornerinit ,t_spherique,t_torique,
 t_notfilling,t_filling,t_t3cornerDS;

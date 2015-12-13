@@ -56,9 +56,9 @@ IMPLEMENT_STANDARD_RTTI(XmlLDrivers_DocumentStorageDriver)
 #include <Standard_Failure.hxx>
 #include <Standard_ErrorHandler.hxx>
 
-#include <OSD_File.hxx>
-#include <OSD_Environment.hxx>
-#include <OSD_OpenFile.hxx>
+#include <Foundation/OSD/OSD_File.hxx>
+#include <Foundation/OSD/OSD_Environment.hxx>
+#include <Foundation/OSD/OSD_OpenFile.hxx>
 
 #ifdef HAVE_OCE_PATHS_H
 # include "oce-paths.h"

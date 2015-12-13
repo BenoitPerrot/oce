@@ -42,7 +42,7 @@
 
 #include <stdio.h>
 
-#include <OSD_Process.hxx>
+#include <Foundation/OSD/OSD_Process.hxx>
 #include <Quantity_Date.hxx>
 
 #include <TCollection_HAsciiString.hxx>

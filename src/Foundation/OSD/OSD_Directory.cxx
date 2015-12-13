@@ -14,11 +14,11 @@
 
 #ifndef WNT
 
-#include <OSD_Path.hxx>
-#include <OSD_Protection.hxx>
-#include <OSD_Directory.hxx>
-#include <OSD_WhoAmI.hxx>
-#include <OSD_Protection.hxx>
+#include <Foundation/OSD/OSD_Path.hxx>
+#include <Foundation/OSD/OSD_Protection.hxx>
+#include <Foundation/OSD/OSD_Directory.hxx>
+#include <Foundation/OSD/OSD_WhoAmI.hxx>
+#include <Foundation/OSD/OSD_Protection.hxx>
 
 #include <sys/stat.h>
 #include <errno.h>
@@ -85,12 +85,12 @@ char dirfmt[] = "/tmp/oceXXXXXX";
 //-------------------  WNT Sources of OSD_Diretory -----------------------
 //------------------------------------------------------------------------
 
-#include <OSD_Directory.hxx>
-#include <OSD_Protection.hxx>
+#include <Foundation/OSD/OSD_Directory.hxx>
+#include <Foundation/OSD/OSD_Protection.hxx>
 #include <Standard_ProgramError.hxx>
 #include <TCollection_ExtendedString.hxx>
 
-#include <OSD_WNT_1.hxx>
+#include <Foundation/OSD/OSD_WNT_1.hxx>
 
 #include <stdio.h>
 

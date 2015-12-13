@@ -33,7 +33,7 @@
 #include <gp_Vec.hxx>
 #include <gp_Vec2d.hxx>
 #include <gp_Ax1.hxx>
-#include <OSD_Chronometer.hxx>
+#include <Foundation/OSD/OSD_Chronometer.hxx>
 
 #ifdef DRAW
 #include <DBRep.hxx>

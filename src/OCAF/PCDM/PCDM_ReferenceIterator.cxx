@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(PCDM_ReferenceIterator)
 #include <CDM_Application.hxx>
 #include <PCDM_RetrievalDriver.hxx>
 #include <PCDM_Reference.hxx>
-#include <OSD_Path.hxx>
+#include <Foundation/OSD/OSD_Path.hxx>
 
 #ifdef WNT
 # include <tchar.h>

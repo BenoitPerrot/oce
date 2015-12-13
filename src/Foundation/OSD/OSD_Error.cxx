@@ -14,10 +14,10 @@
 
 #ifndef WNT
 
-#include <OSD_OSDError.hxx>
+#include <Foundation/OSD/OSD_OSDError.hxx>
 #include <TCollection_AsciiString.hxx>
-#include <OSD_Error.hxx>
-#include <OSD_ErrorList.hxx>
+#include <Foundation/OSD/OSD_Error.hxx>
+#include <Foundation/OSD/OSD_ErrorList.hxx>
 #include <stdio.h>
 
 /* Created by Stephan GARNAUD (ARM) 1992 for Matra Datavision */
@@ -444,8 +444,8 @@ void OSD_Error::Perror() {
 //------------------------------------------------------------------------
 
 #define STRICT
-#include <OSD_Error.hxx>
-#include <OSD_ErrorList.hxx>
+#include <Foundation/OSD/OSD_Error.hxx>
+#include <Foundation/OSD/OSD_ErrorList.hxx>
 #include <TCollection_ExtendedString.hxx>
 
 #include <windows.h>

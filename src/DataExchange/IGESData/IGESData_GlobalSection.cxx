@@ -25,7 +25,7 @@
 #include <Interface_FloatWriter.hxx>
 #include <Interface_FileReaderData.hxx>
 #include <Interface_FileParameter.hxx>
-#include <OSD_Process.hxx>
+#include <Foundation/OSD/OSD_Process.hxx>
 #include <Quantity_Date.hxx>
 #include <Interface_Static.hxx>
 #include <IGESData_BasicEditor.hxx>

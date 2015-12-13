@@ -20,10 +20,10 @@
 #include <Resource_QuickSortOfArray1.hxx>
 #include <Resource_Unicode.hxx>
 
-#include <OSD_Directory.hxx>
-#include <OSD_File.hxx>
-#include <OSD_Path.hxx>
-#include <OSD_Protection.hxx>
+#include <Foundation/OSD/OSD_Directory.hxx>
+#include <Foundation/OSD/OSD_File.hxx>
+#include <Foundation/OSD/OSD_Path.hxx>
+#include <Foundation/OSD/OSD_Protection.hxx>
 
 #include <Standard_ErrorHandler.hxx>
 #include <Standard_OutOfRange.hxx>

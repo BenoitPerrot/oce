@@ -95,7 +95,7 @@
 #include <StepVisual_Invisibility.hxx>
 #include <TDataStd_UAttribute.hxx>
 #include <XCAFDoc.hxx>
-#include <OSD_Path.hxx>
+#include <Foundation/OSD/OSD_Path.hxx>
 #include <TColStd_SequenceOfHAsciiString.hxx>
 
 #include <TDataStd_TreeNode.hxx>

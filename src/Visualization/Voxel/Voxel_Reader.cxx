@@ -22,7 +22,7 @@
 #include <Voxel_TypeDef.hxx>
 
 #include <TCollection_AsciiString.hxx>
-#include <OSD_OpenFile.hxx>
+#include <Foundation/OSD/OSD_OpenFile.hxx>
 
 #include <stdio.h>
 

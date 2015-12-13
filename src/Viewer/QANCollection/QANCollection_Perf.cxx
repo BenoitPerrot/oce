@@ -34,7 +34,7 @@
 #include <Foundation/NCollection/NCollection_SparseArrayBase.hxx>
 
 #define PERF_ENABLE_METERS
-#include <OSD_PerfMeter.hxx>
+#include <Foundation/OSD/OSD_PerfMeter.hxx>
 
 #define ItemType gp_Pnt
 #define Key1Type Standard_Real

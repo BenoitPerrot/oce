@@ -20,8 +20,8 @@
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <Foundation/Message/Message_MsgFile.hxx>
 #include <OpenGl_GraphicDriver.hxx>
-#include <OSD_Environment.hxx>
-#include <OSD_Timer.hxx>
+#include <Foundation/OSD/OSD_Environment.hxx>
+#include <Foundation/OSD/OSD_Timer.hxx>
 #include <Standard_Version.hxx>
 
 #include <BRepPrimAPI_MakeBox.hxx>

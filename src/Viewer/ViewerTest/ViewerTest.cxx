@@ -32,7 +32,7 @@
 #include <TColStd_SequenceOfAsciiString.hxx>
 #include <TColStd_HSequenceOfAsciiString.hxx>
 #include <TColStd_MapOfTransient.hxx>
-#include <OSD_Timer.hxx>
+#include <Foundation/OSD/OSD_Timer.hxx>
 #include <Geom_Axis2Placement.hxx>
 #include <Geom_Axis1Placement.hxx>
 #include <gp_Trsf.hxx>
@@ -4704,7 +4704,7 @@ void ViewerTest::Commands(Draw_Interpretor& theCommands)
 #include <BRepOffsetAPI_DraftAngle.hxx>
 #include <Precision.hxx>
 #include <BRepAlgo.hxx>
-#include <OSD_Environment.hxx>
+#include <Foundation/OSD/OSD_Environment.hxx>
 #include <DrawTrSurf.hxx>
 //#include <DbgTools.hxx>
 //#include <FeatAlgo_MakeLinearForm.hxx>

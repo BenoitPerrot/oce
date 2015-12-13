@@ -111,7 +111,7 @@
 #endif
 #include <SelectMgr_Selection.hxx>
 #include <SelectMgr_SequenceOfOwner.hxx>
-#include <OSD_Environment.hxx>
+#include <Foundation/OSD/OSD_Environment.hxx>
 
 #include <Geom_Transformation.hxx>
 #include <AIS_Selection.hxx>

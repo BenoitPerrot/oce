@@ -67,10 +67,10 @@ IMPLEMENT_STANDARD_RTTI(Storage_Schema)
 
 #ifdef DATATYPE_MIGRATION
 #include <Foundation/NCollection/NCollection_DataMap.hxx>
-#include <OSD_File.hxx>
-#include <OSD_Path.hxx>
-#include <OSD_Protection.hxx>
-#include <OSD_Environment.hxx>
+#include <Foundation/OSD/OSD_File.hxx>
+#include <Foundation/OSD/OSD_Path.hxx>
+#include <Foundation/OSD/OSD_Protection.hxx>
+#include <Foundation/OSD/OSD_Environment.hxx>
 
 typedef NCollection_DataMap <TCollection_AsciiString, 
   TCollection_AsciiString> DataMapOfAStringAString;

@@ -15,24 +15,24 @@
 // commercial license or contractual agreement.
 
 #include <StlMesh_Mesh.hxx>
-#include <OSD_Path.hxx>
+#include <Foundation/OSD/OSD_Path.hxx>
 #include <Foundation/Message/Message_ProgressIndicator.hxx>
 #include <RWStl.hxx>
-#include <OSD_Protection.hxx>
-#include <OSD_File.hxx>
+#include <Foundation/OSD/OSD_Protection.hxx>
+#include <Foundation/OSD/OSD_File.hxx>
 #include <Foundation/Message/Message_ProgressSentry.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <Standard_NoMoreObject.hxx>
 #include <Standard_TypeMismatch.hxx>
 #include <Precision.hxx>
 #include <StlMesh_MeshExplorer.hxx>
-#include <OSD.hxx>
-#include <OSD_Host.hxx>
+#include <Foundation/OSD/OSD.hxx>
+#include <Foundation/OSD/OSD_Host.hxx>
 #include <gp_XYZ.hxx>
 #include <gp.hxx>
 #include <stdio.h>
 #include <gp_Vec.hxx>
-#include <OSD_OpenFile.hxx>
+#include <Foundation/OSD/OSD_OpenFile.hxx>
 
 #include <BRepBuilderAPI_CellFilter.hxx>
 #include <BRepBuilderAPI_VertexInspector.hxx>

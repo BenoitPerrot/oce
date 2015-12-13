@@ -49,7 +49,7 @@
 #include <TopExp_Explorer.hxx>
 #include <Foundation/Message/Message_ProgressIndicator.hxx>
 #include <errno.h>
-#include <OSD_OpenFile.hxx>
+#include <Foundation/OSD/OSD_OpenFile.hxx>
 
 IGESControl_Writer::IGESControl_Writer ()
     :  theTP (new Transfer_FinderProcess(10000)) ,

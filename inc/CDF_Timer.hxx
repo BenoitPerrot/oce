@@ -10,7 +10,7 @@
 #include <Standard_DefineAlloc.hxx>
 #include <Standard_Macro.hxx>
 
-#include <OSD_Timer.hxx>
+#include <Foundation/OSD/OSD_Timer.hxx>
 #include <Standard_CString.hxx>
 #include <Standard_Boolean.hxx>
 

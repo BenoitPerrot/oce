@@ -131,7 +131,7 @@
 #include <DBRep.hxx>
 #endif
 #ifdef OCCT_DEBUG
-#include <OSD_Chronometer.hxx>
+#include <Foundation/OSD/OSD_Chronometer.hxx>
 //#define DEB_VERB
   Standard_Boolean AffichInt2d = Standard_False;       
   Standard_Boolean AffichOffC  = Standard_False;       

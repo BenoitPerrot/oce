@@ -14,10 +14,10 @@
 // commercial license or contractual agreement.
 
 #include <TCollection_AsciiString.hxx>
-#include <OSD_Path.hxx>
-#include <OSD_Directory.hxx>
-#include <OSD_File.hxx>
-#include <OSD_Environment.hxx>
+#include <Foundation/OSD/OSD_Path.hxx>
+#include <Foundation/OSD/OSD_Directory.hxx>
+#include <Foundation/OSD/OSD_File.hxx>
+#include <Foundation/OSD/OSD_Environment.hxx>
 #include <Resource_Manager.hxx>
 #include <Draw_Interpretor.hxx>
 #include <Draw_MapOfAsciiString.hxx>

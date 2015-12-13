@@ -55,7 +55,7 @@
 
 #include <GProp_PrincipalProps.hxx>
 
-#include <OSD_Path.hxx>
+#include <Foundation/OSD/OSD_Path.hxx>
 #include <Standard_ProgramError.hxx>
 
 //#include <QAModTopOpe_Limitation.hxx>
@@ -808,7 +808,7 @@ static Standard_Integer OCC261 (Draw_Interpretor& di, Standard_Integer argc, con
     return 1;
 }
 
-#include <OSD_File.hxx>
+#include <Foundation/OSD/OSD_File.hxx>
 static Standard_Integer OCC710 (Draw_Interpretor& di, Standard_Integer argc, const char ** argv)
 {
   if(argc != 2) {

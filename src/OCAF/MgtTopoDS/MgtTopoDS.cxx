@@ -42,7 +42,7 @@
 #include <PTColStd_PersistentTransientMap.hxx>
 
 #ifdef chrono
-#include <OSD_Timer.hxx>
+#include <Foundation/OSD/OSD_Timer.hxx>
 extern OSD_Timer VertexTimer;
 extern OSD_Timer EdgeTimer;
 extern OSD_Timer WireTimer;

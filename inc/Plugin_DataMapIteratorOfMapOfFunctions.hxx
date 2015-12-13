@@ -11,7 +11,7 @@
 #include <Standard_Macro.hxx>
 
 #include <TCollection_BasicMapIterator.hxx>
-#include <OSD_Function.hxx>
+#include <Foundation/OSD/OSD_Function.hxx>
 #include <Handle_Plugin_DataMapNodeOfMapOfFunctions.hxx>
 class Standard_NoSuchObject;
 class TCollection_AsciiString;

@@ -39,7 +39,7 @@
 #include <sstream>
 #include <fstream>
 
-#include <OSD_MemInfo.hxx>
+#include <Foundation/OSD/OSD_MemInfo.hxx>
 
 // =======================================================================
 // function : OSD_MemInfo

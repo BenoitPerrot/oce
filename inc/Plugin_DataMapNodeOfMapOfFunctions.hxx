@@ -11,7 +11,7 @@
 #include <Handle_Plugin_DataMapNodeOfMapOfFunctions.hxx>
 
 #include <TCollection_AsciiString.hxx>
-#include <OSD_Function.hxx>
+#include <Foundation/OSD/OSD_Function.hxx>
 #include <TCollection_MapNode.hxx>
 #include <TCollection_MapNodePtr.hxx>
 class TCollection_AsciiString;
@@ -54,7 +54,7 @@ private:
 #define TheKey TCollection_AsciiString
 #define TheKey_hxx <TCollection_AsciiString.hxx>
 #define TheItem OSD_Function
-#define TheItem_hxx <OSD_Function.hxx>
+#define TheItem_hxx <Foundation/OSD/OSD_Function.hxx>
 #define Hasher TCollection_AsciiString
 #define Hasher_hxx <TCollection_AsciiString.hxx>
 #define TCollection_DataMapNode Plugin_DataMapNodeOfMapOfFunctions

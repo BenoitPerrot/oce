@@ -108,7 +108,7 @@
 #include <TopoDS.hxx>
 #include <TopExp.hxx>
 
-#include <OSD_Chronometer.hxx>
+#include <Foundation/OSD/OSD_Chronometer.hxx>
 // variables for performance 
 Standard_Real t_mkcurve;
 extern void ChFi3d_InitChron(OSD_Chronometer& ch);

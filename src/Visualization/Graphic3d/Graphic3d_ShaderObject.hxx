@@ -16,7 +16,7 @@
 #ifndef _Graphic3d_ShaderObject_HeaderFile
 #define _Graphic3d_ShaderObject_HeaderFile
 
-#include <OSD_Path.hxx>
+#include <Foundation/OSD/OSD_Path.hxx>
 
 #include <Graphic3d_TypeOfShaderObject.hxx>
 #include <Graphic3d_ShaderObject_Handle.hxx>

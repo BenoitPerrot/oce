@@ -12,8 +12,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <OSD_OSDError.hxx>
-#include <OSD_Printer.hxx>
+#include <Foundation/OSD/OSD_OSDError.hxx>
+#include <Foundation/OSD/OSD_Printer.hxx>
 #include <Standard_ConstructionError.hxx>
 #include <Standard_NullObject.hxx>
 #include <TCollection_AsciiString.hxx>
@@ -21,7 +21,7 @@
 #ifndef WNT
 
 #include <Standard_ConstructionError.hxx>
-#include <OSD_WhoAmI.hxx>
+#include <Foundation/OSD/OSD_WhoAmI.hxx>
 
 //const OSD_WhoAmI Iam = OSD_WPrinter;
 

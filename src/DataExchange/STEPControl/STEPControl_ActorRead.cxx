@@ -47,7 +47,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(STEPControl_ActorRead)
 IMPLEMENT_DOWNCAST(STEPControl_ActorRead,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(STEPControl_ActorRead)
-#include <OSD_Timer.hxx>
+#include <Foundation/OSD/OSD_Timer.hxx>
 
 // #include <Interface_InterfaceModel.hxx>  // pour mise au point
 

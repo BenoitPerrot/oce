@@ -27,7 +27,7 @@
 
 #include <Draw_Axis3D.hxx>
 #include <Precision.hxx>
-#include <OSD_Chronometer.hxx>
+#include <Foundation/OSD/OSD_Chronometer.hxx>
 #include <Geom_Surface.hxx>
 #include <DrawTrSurf.hxx>
 #include <Geom_Plane.hxx>

@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <OSD_MAllocHook.hxx>
+#include <Foundation/OSD/OSD_MAllocHook.hxx>
 
 #if !defined(WNT) || defined(__MINGW32__) || defined(__BORLANDC__)
 #if !defined __STDC_LIMIT_MACROS

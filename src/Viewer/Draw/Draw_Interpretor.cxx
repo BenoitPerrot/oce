@@ -23,9 +23,9 @@
 
 #include <TCollection_AsciiString.hxx>
 #include <TCollection_ExtendedString.hxx>
-#include <OSD_Process.hxx>
-#include <OSD_Path.hxx>
-#include <OSD.hxx>
+#include <Foundation/OSD/OSD_Process.hxx>
+#include <Foundation/OSD/OSD_Path.hxx>
+#include <Foundation/OSD/OSD.hxx>
 
 #include <string.h>
 #include <tcl.h>

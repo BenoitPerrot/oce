@@ -14,7 +14,7 @@
 #define TheKey TCollection_AsciiString
 #define TheKey_hxx <TCollection_AsciiString.hxx>
 #define TheItem OSD_Function
-#define TheItem_hxx <OSD_Function.hxx>
+#define TheItem_hxx <Foundation/OSD/OSD_Function.hxx>
 #define Hasher TCollection_AsciiString
 #define Hasher_hxx <TCollection_AsciiString.hxx>
 #define TCollection_DataMapNode Plugin_DataMapNodeOfMapOfFunctions

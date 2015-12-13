@@ -131,7 +131,7 @@
 #ifdef DRAW
 #include <DrawTrSurf.hxx>
 #endif
-#include <OSD_Chronometer.hxx>
+#include <Foundation/OSD/OSD_Chronometer.hxx>
 extern Standard_Real  t_perfsetofkpart,t_perfsetofkgen,t_makextremities,t_performsurf,t_startsol;
 extern Standard_Boolean ChFi3d_GettraceCHRON();
 extern void ChFi3d_InitChron(OSD_Chronometer& ch);

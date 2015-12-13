@@ -58,7 +58,7 @@
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 
 #ifdef OCCT_DEBUG_CHRONO
-#include <OSD_Timer.hxx>
+#include <Foundation/OSD/OSD_Timer.hxx>
 
 OSD_Chronometer chr_total, chr_init, chr_approx, chr_booltool;
 

@@ -1,8 +1,8 @@
 #include <AppStd_Application.hxx>
 #include <TDocStd_Document.hxx>
 #include <TDocStd_Application.hxx>
-#include <OSD_File.hxx>
-#include <OSD_Path.hxx>
+#include <Foundation/OSD/OSD_File.hxx>
+#include <Foundation/OSD/OSD_Path.hxx>
 #include <TCollection_ExtendedString.hxx>
 #include <LDOM_OSStream.hxx>
 #include <iostream>

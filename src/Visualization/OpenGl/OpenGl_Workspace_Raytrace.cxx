@@ -20,8 +20,8 @@
 #include <OpenGl_PrimitiveArray.hxx>
 #include <OpenGl_VertexBuffer.hxx>
 #include <OpenGl_View.hxx>
-#include <OSD_File.hxx>
-#include <OSD_Protection.hxx>
+#include <Foundation/OSD/OSD_File.hxx>
+#include <Foundation/OSD/OSD_Protection.hxx>
 
 using namespace OpenGl_Raytrace;
 
@@ -29,7 +29,7 @@ using namespace OpenGl_Raytrace;
 // #define RAY_TRACE_PRINT_INFO
 
 #ifdef RAY_TRACE_PRINT_INFO
-  #include <OSD_Timer.hxx>
+  #include <Foundation/OSD/OSD_Timer.hxx>
 #endif
 
 // =======================================================================

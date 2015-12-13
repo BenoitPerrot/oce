@@ -16,7 +16,7 @@
 #ifndef OSD_PerfMeter_HeaderFile
 #define OSD_PerfMeter_HeaderFile
 
-#include <OSD_PerfMeter.h>
+#include <Foundation/OSD/OSD_PerfMeter.h>
 
 //! This class enables measuring the CPU time between two points of code execution, regardless of the scope of these points of code.
 //! A meter is identified by its name (string). So multiple objects in various places of user code may point to the same meter.

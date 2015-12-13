@@ -76,7 +76,7 @@ IMPLEMENT_STANDARD_RTTI(StdSelect_ViewerSelector3d)
 
 #include <Poly_Array1OfTriangle.hxx>
 #include <Poly_Triangulation.hxx>
-#include <OSD_Environment.hxx>
+#include <Foundation/OSD/OSD_Environment.hxx>
 #include <V3d.hxx>
 #include <V3d_View.hxx>
 #include <V3d_Viewer.hxx>

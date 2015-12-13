@@ -43,7 +43,7 @@ extern Draw_Viewer dout;
 #include <tcl.h>
 #include <errno.h>
 
-#include <OSD_Environment.hxx>
+#include <Foundation/OSD/OSD_Environment.hxx>
 
 // for intptr_t
 #if defined(_MSC_VER)

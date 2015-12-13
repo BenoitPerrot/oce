@@ -13,7 +13,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/FSD/FSD_File.hxx>
-#include <OSD.hxx>
+#include <Foundation/OSD/OSD.hxx>
 #include <Storage_BaseDriver.hxx>
 #include <Storage_StreamExtCharParityError.hxx>
 #include <Storage_StreamFormatError.hxx>

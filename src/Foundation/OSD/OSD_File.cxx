@@ -19,15 +19,15 @@
 #ifndef _WIN32
 
 #include <Standard_ProgramError.hxx>
-#include <OSD_OSDError.hxx>
-#include <OSD_WhoAmI.hxx>
-#include <OSD_FromWhere.hxx>
+#include <Foundation/OSD/OSD_OSDError.hxx>
+#include <Foundation/OSD/OSD_WhoAmI.hxx>
+#include <Foundation/OSD/OSD_FromWhere.hxx>
 #include <Standard_ProgramError.hxx>
-#include <OSD_Path.hxx>
-#include <OSD_Protection.hxx>
+#include <Foundation/OSD/OSD_Path.hxx>
+#include <Foundation/OSD/OSD_Protection.hxx>
 #include <TCollection_AsciiString.hxx>
-#include <OSD_Printer.hxx>
-#include <OSD_File.hxx>
+#include <Foundation/OSD/OSD_Printer.hxx>
+#include <Foundation/OSD/OSD_File.hxx>
 #include <Standard_PCharacter.hxx>
 
 const OSD_WhoAmI Iam = OSD_WFile;
@@ -821,12 +821,12 @@ Standard_Boolean OSD_File::IsExecutable()
 
 #include <windows.h>
 
-#include <OSD_File.hxx>
-#include <OSD_Protection.hxx>
-#include <OSD_Printer.hxx>
+#include <Foundation/OSD/OSD_File.hxx>
+#include <Foundation/OSD/OSD_Protection.hxx>
+#include <Foundation/OSD/OSD_Printer.hxx>
 #include <Standard_ProgramError.hxx>
 
-#include <OSD_WNT_1.hxx>
+#include <Foundation/OSD/OSD_WNT_1.hxx>
 
 #include <stdio.h>
 #include <io.h>
@@ -2878,7 +2878,7 @@ Standard_Boolean OSD_File::IsExecutable()
 // Each line is terminated with a <nl>.
 // ---------------------------------------------------------------------
 
-#include <OSD.hxx>
+#include <Foundation/OSD/OSD.hxx>
 
 Standard_Boolean OSD_File::ReadLastLine(TCollection_AsciiString& aLine,const Standard_Integer aDelay,const Standard_Integer aNbTries)
 {

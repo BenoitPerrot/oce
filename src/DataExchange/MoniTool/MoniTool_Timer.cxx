@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <MoniTool_Timer.hxx>
-#include <OSD_Timer.hxx>
+#include <Foundation/OSD/OSD_Timer.hxx>
 #include <MoniTool_DataMapOfTimer.hxx>
 #include <MoniTool_Timer.hxx>
 #include <Standard_Type.hxx>
@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_RTTI(MoniTool_Timer)
 
 #include <MoniTool_DataMapOfTimer.hxx>
 #include <MoniTool_DataMapIteratorOfDataMapOfTimer.hxx>
-#include <OSD_Timer.hxx>
+#include <Foundation/OSD/OSD_Timer.hxx>
 #include <MoniTool_TimerSentry.hxx>
 #include <stdio.h>
 

@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <OSD.hxx>
+#include <Foundation/OSD/OSD.hxx>
 
 #ifndef _WIN32
 
@@ -19,16 +19,16 @@
 
 # include <stdio.h>
 
-#include <OSD_WhoAmI.hxx>
-#include <OSD_SIGHUP.hxx>
-#include <OSD_SIGINT.hxx>
-#include <OSD_SIGQUIT.hxx>
-#include <OSD_SIGILL.hxx>
-#include <OSD_SIGKILL.hxx>
-#include <OSD_SIGBUS.hxx>
-#include <OSD_SIGSEGV.hxx>
-#include <OSD_SIGSYS.hxx>
-#include <OSD_Exception_CTRL_BREAK.hxx>
+#include <Foundation/OSD/OSD_WhoAmI.hxx>
+#include <Foundation/OSD/OSD_SIGHUP.hxx>
+#include <Foundation/OSD/OSD_SIGINT.hxx>
+#include <Foundation/OSD/OSD_SIGQUIT.hxx>
+#include <Foundation/OSD/OSD_SIGILL.hxx>
+#include <Foundation/OSD/OSD_SIGKILL.hxx>
+#include <Foundation/OSD/OSD_SIGBUS.hxx>
+#include <Foundation/OSD/OSD_SIGSEGV.hxx>
+#include <Foundation/OSD/OSD_SIGSYS.hxx>
+#include <Foundation/OSD/OSD_Exception_CTRL_BREAK.hxx>
 #include <Standard_NumericError.hxx>
 #include <Standard_DivideByZero.hxx>
 #include <Standard_Overflow.hxx>

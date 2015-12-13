@@ -12,12 +12,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <OSD_SharedLibrary.hxx>
+#include <Foundation/OSD/OSD_SharedLibrary.hxx>
 
 #ifndef WNT
 
-#include <OSD_LoadMode.hxx>
-#include <OSD_Function.hxx>
+#include <Foundation/OSD/OSD_LoadMode.hxx>
+#include <Foundation/OSD/OSD_Function.hxx>
 
 #include <stdio.h>
 
@@ -188,7 +188,7 @@ void OSD_SharedLibrary::Destroy() {
 #endif
 #include <windows.h>
 
-#include <OSD_Path.hxx>
+#include <Foundation/OSD/OSD_Path.hxx>
 
 #include <TCollection_AsciiString.hxx>
 
