@@ -16,7 +16,7 @@
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
-#include <PLib_JacobiPolynomial.hxx>
+#include <Mathematics/Polynomial/PLib_JacobiPolynomial.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PLib_JacobiPolynomial)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -31,10 +31,10 @@ IMPLEMENT_STANDARD_RTTI(PLib_JacobiPolynomial)
 #include <Mathematics/Optimization/math.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx> 
-#include <PLib.hxx>
+#include <Mathematics/Polynomial/PLib.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 
-#include <PLib_JacobiPolynomial_0.hxx>
+#include <Mathematics/Polynomial/PLib_JacobiPolynomial_0.hxx>
 
 // The possible values for NbGaussPoints
 const Standard_Integer NDEG8=8,   NDEG10=10, NDEG15=15, NDEG20=20, NDEG25=25, 

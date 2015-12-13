@@ -27,7 +27,7 @@
 
 #include <Precision.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
-#include <PLib.hxx>
+#include <Mathematics/Polynomial/PLib.hxx>
 #include <gp_Pnt.hxx>
 #include <gp.hxx>
 #include <gp_Vec.hxx>

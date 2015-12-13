@@ -74,7 +74,7 @@
 
 #include <Hermit.hxx>
 
-#include <PLib.hxx>
+#include <Mathematics/Polynomial/PLib.hxx>
 
 #include <Precision.hxx>
 

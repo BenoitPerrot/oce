@@ -30,7 +30,7 @@
 #include <gp_Vec.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_XY.hxx>
-#include <PLib.hxx>
+#include <Mathematics/Polynomial/PLib.hxx>
 
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>

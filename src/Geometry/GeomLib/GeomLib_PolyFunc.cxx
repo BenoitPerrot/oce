@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <GeomLib_PolyFunc.hxx>
-#include <PLib.hxx>
+#include <Mathematics/Polynomial/PLib.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>
 
 GeomLib_PolyFunc::GeomLib_PolyFunc(const math_Vector& Coeffs) 

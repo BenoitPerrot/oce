@@ -27,7 +27,7 @@
 #include <FairCurve_MinimalVariation.hxx>
 
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
-#include <PLib.hxx>
+#include <Mathematics/Polynomial/PLib.hxx>
 #include <Geom2d_BSplineCurve.hxx>
 #include <FairCurve_BattenLaw.hxx>
 #include <FairCurve_EnergyOfMVC.hxx>

@@ -33,7 +33,7 @@
 #include <FEmTool_Curve.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <FEmTool_Assembly.hxx>
-#include <PLib_Base.hxx>
+#include <Mathematics/Polynomial/PLib_Base.hxx>
 #include <AppDef_Variational.hxx>
 
 #define No_Standard_RangeError
@@ -81,9 +81,9 @@
 #include <FEmTool_Curve.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>
-#include <PLib_Base.hxx>
-#include <PLib_JacobiPolynomial.hxx>
-#include <PLib_HermitJacobi.hxx>
+#include <Mathematics/Polynomial/PLib_Base.hxx>
+#include <Mathematics/Polynomial/PLib_JacobiPolynomial.hxx>
+#include <Mathematics/Polynomial/PLib_HermitJacobi.hxx>
 #include <FEmTool_HAssemblyTable.hxx>
 
 #if defined(WNT)

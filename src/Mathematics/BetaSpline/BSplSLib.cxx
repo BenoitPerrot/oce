@@ -29,7 +29,7 @@
 #include <gp_Vec.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/BetaSpline/BSplSLib.hxx>
-#include <PLib.hxx>
+#include <Mathematics/Polynomial/PLib.hxx>
 #include <Foundation/NCollection/NCollection_LocalArray.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Mathematics/Collections/TColgp_Array2OfXYZ.hxx>

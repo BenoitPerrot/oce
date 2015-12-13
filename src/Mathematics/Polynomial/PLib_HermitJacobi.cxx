@@ -14,10 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PLib_JacobiPolynomial.hxx>
+#include <Mathematics/Polynomial/PLib_JacobiPolynomial.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <PLib_HermitJacobi.hxx>
+#include <Mathematics/Polynomial/PLib_HermitJacobi.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PLib_HermitJacobi)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(PLib_HermitJacobi)
 IMPLEMENT_DOWNCAST(PLib_HermitJacobi,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(PLib_HermitJacobi)
-#include <PLib.hxx>
+#include <Mathematics/Polynomial/PLib.hxx>
 #include <Foundation/NCollection/NCollection_LocalArray.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 

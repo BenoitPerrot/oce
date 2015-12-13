@@ -65,7 +65,7 @@
 
 #include <Precision.hxx>
 
-#include <PLib.hxx>
+#include <Mathematics/Polynomial/PLib.hxx>
 
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>

@@ -39,7 +39,7 @@
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
-#include <PLib.hxx>
+#include <Mathematics/Polynomial/PLib.hxx>
 #include <Foundation/NCollection/NCollection_LocalArray.hxx>
 #include <Precision.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>

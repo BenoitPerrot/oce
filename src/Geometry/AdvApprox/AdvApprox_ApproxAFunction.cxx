@@ -64,8 +64,8 @@
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 
-#include <PLib.hxx>
-#include <PLib_JacobiPolynomial.hxx>
+#include <Mathematics/Polynomial/PLib.hxx>
+#include <Mathematics/Polynomial/PLib_JacobiPolynomial.hxx>
 
 
 #ifdef OCCT_DEBUG

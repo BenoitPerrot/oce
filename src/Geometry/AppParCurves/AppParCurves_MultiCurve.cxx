@@ -29,7 +29,7 @@
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
-#include <PLib.hxx>
+#include <Mathematics/Polynomial/PLib.hxx>
 
 
 AppParCurves_MultiCurve::AppParCurves_MultiCurve() {}

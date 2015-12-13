@@ -16,7 +16,7 @@
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <PLib.hxx>
+#include <Mathematics/Polynomial/PLib.hxx>
 #include <Mathematics/BetaSpline/BSplCLib_Helpers.hxx>
 
 Standard_Boolean BSplCLib::RemoveKnot(const Standard_Integer Index,

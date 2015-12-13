@@ -36,7 +36,7 @@
 #include <gp_GTrsf.hxx>
 #include <gp_Trsf.hxx>
 #include <GeomConvert_CompCurveToBSplineCurve.hxx>
-#include <PLib.hxx>
+#include <Mathematics/Polynomial/PLib.hxx>
 
 #include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_HArray2OfPnt.hxx>

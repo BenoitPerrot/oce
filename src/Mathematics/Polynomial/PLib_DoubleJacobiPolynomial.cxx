@@ -14,11 +14,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PLib_JacobiPolynomial.hxx>
+#include <Mathematics/Polynomial/PLib_JacobiPolynomial.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <PLib_DoubleJacobiPolynomial.hxx>
-#include <PLib_JacobiPolynomial.hxx>
+#include <Mathematics/Polynomial/PLib_DoubleJacobiPolynomial.hxx>
+#include <Mathematics/Polynomial/PLib_JacobiPolynomial.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>
 
 //=======================================================================

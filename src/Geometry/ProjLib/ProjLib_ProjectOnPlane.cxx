@@ -25,7 +25,7 @@
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Precision.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
-#include <PLib.hxx>
+#include <Mathematics/Polynomial/PLib.hxx>
 #include <Geom_BSplineCurve.hxx>
 #include <Geom_BezierCurve.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>

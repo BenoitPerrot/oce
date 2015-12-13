@@ -13,7 +13,7 @@
 #include <Mathematics/Optimization/math_Matrix.hxx>
 #include <Handle_PLib_JacobiPolynomial.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <PLib_Base.hxx>
+#include <Mathematics/Polynomial/PLib_Base.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
@@ -128,7 +128,7 @@ private:
 };
 
 
-#include <PLib_HermitJacobi.lxx>
+#include <Mathematics/Polynomial/PLib_HermitJacobi.lxx>
 
 
 

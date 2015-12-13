@@ -24,7 +24,7 @@
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
-#include <PLib.hxx>
+#include <Mathematics/Polynomial/PLib.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <gp_Pnt2d.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>

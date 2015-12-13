@@ -16,7 +16,7 @@
 
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <CSLib_NormalPolyDef.hxx>
-#include <PLib.hxx>
+#include <Mathematics/Polynomial/PLib.hxx>
 
 //=============================================================================
 CSLib_NormalPolyDef::CSLib_NormalPolyDef(const Standard_Integer k0,

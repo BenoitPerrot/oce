@@ -30,7 +30,7 @@
 #include <Mathematics/BetaSpline/BSplSLib.hxx>
 #include <Mathematics/Convert/Convert_GridPolynomialToPoles.hxx>
 #include <Precision.hxx>
-#include <PLib.hxx>
+#include <Mathematics/Polynomial/PLib.hxx>
 
 //=======================================================================
 //function : Geom_OffsetOsculatingSurface

@@ -24,7 +24,7 @@
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
 #include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
-#include <PLib.hxx>
+#include <Mathematics/Polynomial/PLib.hxx>
 #include <Foundation/NCollection/NCollection_LocalArray.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx> 
 #include <Mathematics/Optimization/math_Gauss.hxx> 

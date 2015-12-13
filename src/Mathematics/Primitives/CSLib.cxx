@@ -21,7 +21,7 @@
 
 #include <gp.hxx>
 #include <gp_Vec.hxx>
-#include <PLib.hxx>
+#include <Mathematics/Polynomial/PLib.hxx>
 #include <Precision.hxx>
 #include <Mathematics/Collections/TColgp_Array2OfVec.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>

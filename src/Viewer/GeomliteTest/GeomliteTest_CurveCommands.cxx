@@ -93,7 +93,7 @@
 #include <CPnts_AbscissaPoint.hxx>
 #include <GCPnts_AbscissaPoint.hxx>
 
-#include <PLib.hxx> 
+#include <Mathematics/Polynomial/PLib.hxx> 
 #include <GeomAbs_Shape.hxx>
 #include <Geom_Curve.hxx>
 #include <GeomConvert.hxx>

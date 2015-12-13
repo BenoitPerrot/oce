@@ -70,7 +70,7 @@
 #include <TopExp_Explorer.hxx>
 #include <gp_Pln.hxx>
 
-#include <PLib.hxx>
+#include <Mathematics/Polynomial/PLib.hxx>
 #include <AppCont_ContMatrices.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>

@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <PLib_Base.hxx>
+#include <Mathematics/Polynomial/PLib_Base.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PLib_Base)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

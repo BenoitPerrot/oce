@@ -23,7 +23,7 @@
 #include <GeomFill_QuasiAngularConvertor.hxx>
 
 
-#include <PLib.hxx>
+#include <Mathematics/Polynomial/PLib.hxx>
 #include <gp_Mat.hxx>
 #include <gp_Ax1.hxx>
 

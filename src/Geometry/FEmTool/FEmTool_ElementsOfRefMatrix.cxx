@@ -14,10 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PLib_Base.hxx>
+#include <Mathematics/Polynomial/PLib_Base.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <FEmTool_ElementsOfRefMatrix.hxx>
-#include <PLib_Base.hxx>
+#include <Mathematics/Polynomial/PLib_Base.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 
 

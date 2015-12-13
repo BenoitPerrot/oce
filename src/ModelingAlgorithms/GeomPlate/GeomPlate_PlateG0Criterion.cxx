@@ -33,7 +33,7 @@
 #include <gp_XY.hxx>
 #include <gp_Pnt.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
-#include <PLib.hxx>
+#include <Mathematics/Polynomial/PLib.hxx>
 
 
 

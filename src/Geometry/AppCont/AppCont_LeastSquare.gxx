@@ -34,7 +34,7 @@
 #include <Mathematics/Collections/TColgp_Array1OfVec2d.hxx>
 #include <AppParCurves_MultiPoint.hxx>
 #include <AppCont_ContMatrices.hxx>
-#include <PLib.hxx>
+#include <Mathematics/Polynomial/PLib.hxx>
 
 
 

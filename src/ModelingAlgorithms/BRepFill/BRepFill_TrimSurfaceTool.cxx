@@ -36,7 +36,7 @@
 #include <BRep_Tool.hxx>
 #include <ElCLib.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
-#include <PLib.hxx>
+#include <Mathematics/Polynomial/PLib.hxx>
 #include <gp.hxx>
 #include <gp_Sphere.hxx>
 #include <gp_Cone.hxx>

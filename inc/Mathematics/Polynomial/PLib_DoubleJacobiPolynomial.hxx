@@ -77,7 +77,7 @@ private:
 };
 
 
-#include <PLib_DoubleJacobiPolynomial.lxx>
+#include <Mathematics/Polynomial/PLib_DoubleJacobiPolynomial.lxx>
 
 
 

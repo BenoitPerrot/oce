@@ -51,7 +51,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(Geom_BezierCurve)
 IMPLEMENT_DOWNCAST(Geom_BezierCurve,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Geom_BezierCurve)
-#include <PLib.hxx>
+#include <Mathematics/Polynomial/PLib.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <gp.hxx>
 #include <gp_XYZ.hxx>

@@ -17,7 +17,7 @@
 #define No_Standard_RangeError
 #define No_Standard_OutOfRange
 
-#include <PLib_Base.hxx>
+#include <Mathematics/Polynomial/PLib_Base.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/Standard/Standard_DimensionError.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
@@ -32,9 +32,9 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(FEmTool_Curve)
 IMPLEMENT_DOWNCAST(FEmTool_Curve,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(FEmTool_Curve)
-#include <PLib.hxx>
-#include <PLib_JacobiPolynomial.hxx>
-#include <PLib_HermitJacobi.hxx>
+#include <Mathematics/Polynomial/PLib.hxx>
+#include <Mathematics/Polynomial/PLib_JacobiPolynomial.hxx>
+#include <Mathematics/Polynomial/PLib_HermitJacobi.hxx>
 
 //=======================================================================
 //function : FEmTool_Curve

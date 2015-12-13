@@ -23,7 +23,7 @@
 
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <gp_Mat2d.hxx>
-#include <PLib.hxx>
+#include <Mathematics/Polynomial/PLib.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>

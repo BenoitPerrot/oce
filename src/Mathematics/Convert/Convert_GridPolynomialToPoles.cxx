@@ -30,7 +30,7 @@
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <PLib.hxx>
+#include <Mathematics/Polynomial/PLib.hxx>
 #include <Mathematics/BetaSpline/BSplSLib.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 

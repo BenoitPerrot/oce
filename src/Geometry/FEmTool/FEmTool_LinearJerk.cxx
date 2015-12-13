@@ -29,11 +29,11 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(FEmTool_LinearJerk)
 IMPLEMENT_DOWNCAST(FEmTool_LinearJerk,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(FEmTool_LinearJerk)
-#include <PLib.hxx>
+#include <Mathematics/Polynomial/PLib.hxx>
 #include <Foundation/TColStd/TColStd_HArray2OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
-#include <PLib_JacobiPolynomial.hxx>
-#include <PLib_HermitJacobi.hxx>
+#include <Mathematics/Polynomial/PLib_JacobiPolynomial.hxx>
+#include <Mathematics/Polynomial/PLib_HermitJacobi.hxx>
 #include <FEmTool_ElementsOfRefMatrix.hxx>
 #include <Mathematics/Optimization/math_IntegerVector.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>

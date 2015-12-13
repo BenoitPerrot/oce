@@ -22,7 +22,7 @@
 #include <GeomFill_PolynomialConvertor.hxx>
 
 
-#include <PLib.hxx>
+#include <Mathematics/Polynomial/PLib.hxx>
 #include <gp_Mat.hxx>
 
 #include <Mathematics/Convert/Convert_CompPolynomialToPoles.hxx>

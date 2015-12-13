@@ -34,7 +34,7 @@
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt2d.hxx>
 
-#include <PLib.hxx>
+#include <Mathematics/Polynomial/PLib.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Precision.hxx>
 #include <gp.hxx>

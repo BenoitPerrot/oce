@@ -26,7 +26,7 @@
 #include <Extrema_POnSurf.hxx>
 #include <Precision.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
-#include <PLib.hxx>
+#include <Mathematics/Polynomial/PLib.hxx>
 #include <Adaptor3d_HCurve.hxx>
 #include <Geom_BSplineCurve.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>

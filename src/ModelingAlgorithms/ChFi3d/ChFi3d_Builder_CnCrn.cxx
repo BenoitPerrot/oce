@@ -119,7 +119,7 @@
 #include <gp_Pnt2d.hxx>
 #include <gp_Dir2d.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
-#include <PLib.hxx>
+#include <Mathematics/Polynomial/PLib.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfXY.hxx>

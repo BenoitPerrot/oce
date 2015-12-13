@@ -18,7 +18,7 @@
 #include <ElSLib.hxx>
 #include <ElCLib.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
-#include <PLib.hxx>
+#include <Mathematics/Polynomial/PLib.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Geom_UndefinedDerivative.hxx>
 #include <gp_Trsf.hxx>

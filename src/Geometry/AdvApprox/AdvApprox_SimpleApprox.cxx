@@ -15,7 +15,7 @@
 #define No_Standard_RangeError
 #define No_Standard_OutOfRange
 
-#include <PLib_JacobiPolynomial.hxx>
+#include <Mathematics/Polynomial/PLib_JacobiPolynomial.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
@@ -32,8 +32,8 @@
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>
-#include <PLib.hxx>
-#include <PLib_JacobiPolynomial.hxx>
+#include <Mathematics/Polynomial/PLib.hxx>
+#include <Mathematics/Polynomial/PLib_JacobiPolynomial.hxx>
 
 //=======================================================================
 //function : AdvApprox_SimpleApprox

@@ -36,9 +36,9 @@ IMPLEMENT_STANDARD_TYPE_END(AppDef_LinearCriteria)
 IMPLEMENT_DOWNCAST(AppDef_LinearCriteria,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(AppDef_LinearCriteria)
 
-#include <PLib_Base.hxx>
-#include <PLib_JacobiPolynomial.hxx>
-#include <PLib_HermitJacobi.hxx>
+#include <Mathematics/Polynomial/PLib_Base.hxx>
+#include <Mathematics/Polynomial/PLib_JacobiPolynomial.hxx>
+#include <Mathematics/Polynomial/PLib_HermitJacobi.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
 #include <FEmTool_LinearTension.hxx>

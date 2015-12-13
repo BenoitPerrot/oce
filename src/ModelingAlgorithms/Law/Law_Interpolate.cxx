@@ -24,7 +24,7 @@
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Law_Interpolate.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <PLib.hxx>
+#include <Mathematics/Polynomial/PLib.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>

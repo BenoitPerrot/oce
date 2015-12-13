@@ -111,7 +111,7 @@
 
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Mathematics/BetaSpline/BSplSLib.hxx>
-#include <PLib.hxx>
+#include <Mathematics/Polynomial/PLib.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>
 #include <Mathematics/Optimization/math_Jacobi.hxx>

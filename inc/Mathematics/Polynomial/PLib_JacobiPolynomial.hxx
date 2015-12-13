@@ -12,7 +12,7 @@
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TColStd_HArray1OfReal.hxx>
-#include <PLib_Base.hxx>
+#include <Mathematics/Polynomial/PLib_Base.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class TColStd_HArray1OfReal;
@@ -162,7 +162,7 @@ private:
 };
 
 
-#include <PLib_JacobiPolynomial.lxx>
+#include <Mathematics/Polynomial/PLib_JacobiPolynomial.lxx>
 
 
 
