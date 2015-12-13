@@ -18,11 +18,11 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_NumericError.hxx>
-#include <Expr_GeneralRelation.hxx>
-#include <Expr_GeneralExpression.hxx>
-#include <Expr_NamedUnknown.hxx>
+#include <Mathematics/Expressions/Expr_GeneralRelation.hxx>
+#include <Mathematics/Expressions/Expr_GeneralExpression.hxx>
+#include <Mathematics/Expressions/Expr_NamedUnknown.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Expr_SystemRelation.hxx>
+#include <Mathematics/Expressions/Expr_SystemRelation.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Expr_SystemRelation)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

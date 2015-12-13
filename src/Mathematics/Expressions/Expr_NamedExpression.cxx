@@ -15,8 +15,8 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Expr_GeneralExpression.hxx>
-#include <Expr_NamedExpression.hxx>
+#include <Mathematics/Expressions/Expr_GeneralExpression.hxx>
+#include <Mathematics/Expressions/Expr_NamedExpression.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Expr_NamedExpression)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -15,12 +15,12 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <Expr_GeneralExpression.hxx>
-#include <Expr_NamedUnknown.hxx>
-#include <Expr_Array1OfNamedUnknown.hxx>
+#include <Mathematics/Expressions/Expr_GeneralExpression.hxx>
+#include <Mathematics/Expressions/Expr_NamedUnknown.hxx>
+#include <Mathematics/Expressions/Expr_Array1OfNamedUnknown.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Expr_NumericValue.hxx>
+#include <Mathematics/Expressions/Expr_NumericValue.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Expr_NumericValue)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

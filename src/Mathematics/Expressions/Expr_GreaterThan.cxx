@@ -15,10 +15,10 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_NumericError.hxx>
-#include <Expr_GeneralExpression.hxx>
-#include <Expr_GeneralRelation.hxx>
+#include <Mathematics/Expressions/Expr_GeneralExpression.hxx>
+#include <Mathematics/Expressions/Expr_GeneralRelation.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Expr_GreaterThan.hxx>
+#include <Mathematics/Expressions/Expr_GreaterThan.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Expr_GreaterThan)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -30,8 +30,8 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(Expr_GreaterThan)
 IMPLEMENT_DOWNCAST(Expr_GreaterThan,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Expr_GreaterThan)
-#include <Expr_NumericValue.hxx>
-#include <Expr.hxx>
+#include <Mathematics/Expressions/Expr_NumericValue.hxx>
+#include <Mathematics/Expressions/Expr.hxx>
 
 Expr_GreaterThan::Expr_GreaterThan (const Handle(Expr_GeneralExpression)& exp1, const Handle(Expr_GeneralExpression)& exp2)
 {

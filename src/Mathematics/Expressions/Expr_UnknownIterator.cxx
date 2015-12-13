@@ -16,12 +16,12 @@
 
 #include <Foundation/Standard/Standard_NoMoreObject.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <Expr_GeneralExpression.hxx>
-#include <Expr_NamedUnknown.hxx>
-#include <Expr_UnknownIterator.hxx>
+#include <Mathematics/Expressions/Expr_GeneralExpression.hxx>
+#include <Mathematics/Expressions/Expr_NamedUnknown.hxx>
+#include <Mathematics/Expressions/Expr_UnknownIterator.hxx>
 #include <Foundation/Standard/Standard_NoMoreObject.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <Expr.hxx>
+#include <Mathematics/Expressions/Expr.hxx>
 
 Expr_UnknownIterator::Expr_UnknownIterator (const Handle(Expr_GeneralExpression)& exp)
 {

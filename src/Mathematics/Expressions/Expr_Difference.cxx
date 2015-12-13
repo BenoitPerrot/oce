@@ -16,13 +16,13 @@
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_NumericError.hxx>
-#include <Expr_NotEvaluable.hxx>
-#include <Expr_GeneralExpression.hxx>
-#include <Expr_NamedUnknown.hxx>
-#include <Expr_Array1OfNamedUnknown.hxx>
+#include <Mathematics/Expressions/Expr_NotEvaluable.hxx>
+#include <Mathematics/Expressions/Expr_GeneralExpression.hxx>
+#include <Mathematics/Expressions/Expr_NamedUnknown.hxx>
+#include <Mathematics/Expressions/Expr_Array1OfNamedUnknown.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Expr_Difference.hxx>
+#include <Mathematics/Expressions/Expr_Difference.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Expr_Difference)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -34,11 +34,11 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(Expr_Difference)
 IMPLEMENT_DOWNCAST(Expr_Difference,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Expr_Difference)
-#include <Expr_UnaryMinus.hxx>
-#include <Expr_NumericValue.hxx>
-#include <Expr_Sum.hxx>
-#include <Expr_Operators.hxx>
-#include <Expr.hxx>
+#include <Mathematics/Expressions/Expr_UnaryMinus.hxx>
+#include <Mathematics/Expressions/Expr_NumericValue.hxx>
+#include <Mathematics/Expressions/Expr_Sum.hxx>
+#include <Mathematics/Expressions/Expr_Operators.hxx>
+#include <Mathematics/Expressions/Expr.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 
 Expr_Difference::Expr_Difference (const Handle(Expr_GeneralExpression)& exp1, const Handle(Expr_GeneralExpression)& exp2)

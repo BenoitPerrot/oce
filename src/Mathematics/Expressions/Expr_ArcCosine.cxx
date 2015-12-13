@@ -15,13 +15,13 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_NumericError.hxx>
-#include <Expr_NotEvaluable.hxx>
-#include <Expr_GeneralExpression.hxx>
-#include <Expr_NamedUnknown.hxx>
-#include <Expr_Array1OfNamedUnknown.hxx>
+#include <Mathematics/Expressions/Expr_NotEvaluable.hxx>
+#include <Mathematics/Expressions/Expr_GeneralExpression.hxx>
+#include <Mathematics/Expressions/Expr_NamedUnknown.hxx>
+#include <Mathematics/Expressions/Expr_Array1OfNamedUnknown.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Expr_ArcCosine.hxx>
+#include <Mathematics/Expressions/Expr_ArcCosine.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Expr_ArcCosine)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -33,16 +33,16 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(Expr_ArcCosine)
 IMPLEMENT_DOWNCAST(Expr_ArcCosine,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Expr_ArcCosine)
-#include <Expr_NumericValue.hxx>
-#include <Expr_Cosine.hxx>
-#include <Expr_Division.hxx>
-#include <Expr_Square.hxx>
-#include <Expr_Difference.hxx>
-#include <Expr_SquareRoot.hxx>
-#include <Expr_UnaryMinus.hxx>
-#include <Expr_Product.hxx>
-#include <Expr_Operators.hxx>
-#include <Expr.hxx>
+#include <Mathematics/Expressions/Expr_NumericValue.hxx>
+#include <Mathematics/Expressions/Expr_Cosine.hxx>
+#include <Mathematics/Expressions/Expr_Division.hxx>
+#include <Mathematics/Expressions/Expr_Square.hxx>
+#include <Mathematics/Expressions/Expr_Difference.hxx>
+#include <Mathematics/Expressions/Expr_SquareRoot.hxx>
+#include <Mathematics/Expressions/Expr_UnaryMinus.hxx>
+#include <Mathematics/Expressions/Expr_Product.hxx>
+#include <Mathematics/Expressions/Expr_Operators.hxx>
+#include <Mathematics/Expressions/Expr.hxx>
 
 Expr_ArcCosine::Expr_ArcCosine (const Handle(Expr_GeneralExpression)& exp)
 {

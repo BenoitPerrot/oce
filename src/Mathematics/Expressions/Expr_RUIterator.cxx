@@ -16,15 +16,15 @@
 
 #include <Foundation/Standard/Standard_NoMoreObject.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <Expr_GeneralRelation.hxx>
-#include <Expr_NamedUnknown.hxx>
-#include <Expr_RUIterator.hxx>
+#include <Mathematics/Expressions/Expr_GeneralRelation.hxx>
+#include <Mathematics/Expressions/Expr_NamedUnknown.hxx>
+#include <Mathematics/Expressions/Expr_RUIterator.hxx>
 #include <Foundation/Standard/Standard_NoMoreObject.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <Expr_RelationIterator.hxx>
-#include <Expr_UnknownIterator.hxx>
-#include <Expr_SingleRelation.hxx>
-#include <Expr.hxx>
+#include <Mathematics/Expressions/Expr_RelationIterator.hxx>
+#include <Mathematics/Expressions/Expr_UnknownIterator.hxx>
+#include <Mathematics/Expressions/Expr_SingleRelation.hxx>
+#include <Mathematics/Expressions/Expr.hxx>
 
 Expr_RUIterator::Expr_RUIterator (const Handle(Expr_GeneralRelation)& rel)
 {

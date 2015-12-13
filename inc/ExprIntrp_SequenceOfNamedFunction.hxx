@@ -102,7 +102,7 @@ private:
 };
 
 #define SeqItem Handle(Expr_NamedFunction)
-#define SeqItem_hxx <Expr_NamedFunction.hxx>
+#define SeqItem_hxx <Mathematics/Expressions/Expr_NamedFunction.hxx>
 #define TCollection_SequenceNode ExprIntrp_SequenceNodeOfSequenceOfNamedFunction
 #define TCollection_SequenceNode_hxx <ExprIntrp_SequenceNodeOfSequenceOfNamedFunction.hxx>
 #define Handle_TCollection_SequenceNode Handle_ExprIntrp_SequenceNodeOfSequenceOfNamedFunction

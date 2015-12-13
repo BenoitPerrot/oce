@@ -14,12 +14,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Expr_GeneralExpression.hxx>
+#include <Mathematics/Expressions/Expr_GeneralExpression.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_NumericError.hxx>
-#include <Expr_InvalidOperand.hxx>
-#include <Expr_NamedUnknown.hxx>
-#include <Expr_BinaryExpression.hxx>
+#include <Mathematics/Expressions/Expr_InvalidOperand.hxx>
+#include <Mathematics/Expressions/Expr_NamedUnknown.hxx>
+#include <Mathematics/Expressions/Expr_BinaryExpression.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Expr_BinaryExpression)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -30,8 +30,8 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(Expr_BinaryExpression)
 IMPLEMENT_DOWNCAST(Expr_BinaryExpression,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Expr_BinaryExpression)
-#include <Expr_NamedUnknown.hxx>
-#include <Expr_InvalidOperand.hxx>
+#include <Mathematics/Expressions/Expr_NamedUnknown.hxx>
+#include <Mathematics/Expressions/Expr_InvalidOperand.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 
 

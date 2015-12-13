@@ -16,10 +16,10 @@
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_NumericError.hxx>
-#include <Expr_InvalidOperand.hxx>
-#include <Expr_GeneralExpression.hxx>
-#include <Expr_NamedUnknown.hxx>
-#include <Expr_PolyExpression.hxx>
+#include <Mathematics/Expressions/Expr_InvalidOperand.hxx>
+#include <Mathematics/Expressions/Expr_GeneralExpression.hxx>
+#include <Mathematics/Expressions/Expr_NamedUnknown.hxx>
+#include <Mathematics/Expressions/Expr_PolyExpression.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Expr_PolyExpression)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -30,8 +30,8 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(Expr_PolyExpression)
 IMPLEMENT_DOWNCAST(Expr_PolyExpression,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Expr_PolyExpression)
-#include <Expr_NamedUnknown.hxx>
-#include <Expr_InvalidOperand.hxx>
+#include <Mathematics/Expressions/Expr_NamedUnknown.hxx>
+#include <Mathematics/Expressions/Expr_InvalidOperand.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 

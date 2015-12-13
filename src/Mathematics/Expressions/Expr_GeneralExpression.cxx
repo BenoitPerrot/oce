@@ -16,13 +16,13 @@
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_NumericError.hxx>
-#include <Expr_NotEvaluable.hxx>
-#include <Expr_InvalidOperand.hxx>
-#include <Expr_NamedUnknown.hxx>
-#include <Expr_Array1OfNamedUnknown.hxx>
+#include <Mathematics/Expressions/Expr_NotEvaluable.hxx>
+#include <Mathematics/Expressions/Expr_InvalidOperand.hxx>
+#include <Mathematics/Expressions/Expr_NamedUnknown.hxx>
+#include <Mathematics/Expressions/Expr_Array1OfNamedUnknown.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Expr_GeneralExpression.hxx>
+#include <Mathematics/Expressions/Expr_GeneralExpression.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Expr_GeneralExpression)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(Expr_GeneralExpression)
 IMPLEMENT_DOWNCAST(Expr_GeneralExpression,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Expr_GeneralExpression)
-#include <Expr_NotEvaluable.hxx>
+#include <Mathematics/Expressions/Expr_NotEvaluable.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 
 Standard_Boolean Expr_GeneralExpression::IsShareable() const

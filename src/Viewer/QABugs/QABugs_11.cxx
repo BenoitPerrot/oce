@@ -1789,9 +1789,9 @@ static Standard_Integer OCC921 (Draw_Interpretor& di, Standard_Integer argc, con
   return 0;
 }
 
-#include <Expr_NamedUnknown.hxx>
-#include <Expr_GeneralExpression.hxx>
-#include <Expr_Exponential.hxx>
+#include <Mathematics/Expressions/Expr_NamedUnknown.hxx>
+#include <Mathematics/Expressions/Expr_GeneralExpression.hxx>
+#include <Mathematics/Expressions/Expr_Exponential.hxx>
 //=======================================================================
 //function :  OCC902
 //purpose  : 

@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <Expr_GeneralRelation.hxx>
+#include <Mathematics/Expressions/Expr_GeneralRelation.hxx>
 #include <ExprIntrp_StackOfGeneralRelation.hxx>
 #include <ExprIntrp_ListIteratorOfStackOfGeneralRelation.hxx>
 
@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_RTTI(ExprIntrp_ListNodeOfStackOfGeneralRelation)
 
 
 #define Item Handle(Expr_GeneralRelation)
-#define Item_hxx <Expr_GeneralRelation.hxx>
+#define Item_hxx <Mathematics/Expressions/Expr_GeneralRelation.hxx>
 #define TCollection_ListNode ExprIntrp_ListNodeOfStackOfGeneralRelation
 #define TCollection_ListNode_hxx <ExprIntrp_ListNodeOfStackOfGeneralRelation.hxx>
 #define TCollection_ListIterator ExprIntrp_ListIteratorOfStackOfGeneralRelation

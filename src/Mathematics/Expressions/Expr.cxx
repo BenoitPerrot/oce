@@ -14,12 +14,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Expr.hxx>
-#include <Expr_NamedUnknown.hxx>
-#include <Expr_GeneralExpression.hxx>
-#include <Expr_GeneralRelation.hxx>
-#include <Expr_UnknownIterator.hxx>
-#include <Expr_RUIterator.hxx>
+#include <Mathematics/Expressions/Expr.hxx>
+#include <Mathematics/Expressions/Expr_NamedUnknown.hxx>
+#include <Mathematics/Expressions/Expr_GeneralExpression.hxx>
+#include <Mathematics/Expressions/Expr_GeneralRelation.hxx>
+#include <Mathematics/Expressions/Expr_UnknownIterator.hxx>
+#include <Mathematics/Expressions/Expr_RUIterator.hxx>
 
 Handle(Expr_GeneralExpression) Expr::CopyShare(const Handle(Expr_GeneralExpression)& exp)
 {

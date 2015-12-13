@@ -7,12 +7,12 @@
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <Expr_NamedExpression.hxx>
+#include <Mathematics/Expressions/Expr_NamedExpression.hxx>
 #include <ExprIntrp_SequenceNodeOfSequenceOfNamedExpression.hxx>
  
 
 #define SeqItem Handle(Expr_NamedExpression)
-#define SeqItem_hxx <Expr_NamedExpression.hxx>
+#define SeqItem_hxx <Mathematics/Expressions/Expr_NamedExpression.hxx>
 #define TCollection_SequenceNode ExprIntrp_SequenceNodeOfSequenceOfNamedExpression
 #define TCollection_SequenceNode_hxx <ExprIntrp_SequenceNodeOfSequenceOfNamedExpression.hxx>
 #define Handle_TCollection_SequenceNode Handle_ExprIntrp_SequenceNodeOfSequenceOfNamedExpression

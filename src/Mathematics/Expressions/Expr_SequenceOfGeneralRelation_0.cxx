@@ -3,21 +3,21 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Expr_SequenceOfGeneralRelation.hxx>
+#include <Mathematics/Expressions/Expr_SequenceOfGeneralRelation.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <Expr_GeneralRelation.hxx>
-#include <Expr_SequenceNodeOfSequenceOfGeneralRelation.hxx>
+#include <Mathematics/Expressions/Expr_GeneralRelation.hxx>
+#include <Mathematics/Expressions/Expr_SequenceNodeOfSequenceOfGeneralRelation.hxx>
  
 
 #define SeqItem Handle(Expr_GeneralRelation)
-#define SeqItem_hxx <Expr_GeneralRelation.hxx>
+#define SeqItem_hxx <Mathematics/Expressions/Expr_GeneralRelation.hxx>
 #define TCollection_SequenceNode Expr_SequenceNodeOfSequenceOfGeneralRelation
-#define TCollection_SequenceNode_hxx <Expr_SequenceNodeOfSequenceOfGeneralRelation.hxx>
+#define TCollection_SequenceNode_hxx <Mathematics/Expressions/Expr_SequenceNodeOfSequenceOfGeneralRelation.hxx>
 #define Handle_TCollection_SequenceNode Handle_Expr_SequenceNodeOfSequenceOfGeneralRelation
 #define TCollection_SequenceNode_Type_() Expr_SequenceNodeOfSequenceOfGeneralRelation_Type_()
 #define TCollection_Sequence Expr_SequenceOfGeneralRelation
-#define TCollection_Sequence_hxx <Expr_SequenceOfGeneralRelation.hxx>
+#define TCollection_Sequence_hxx <Mathematics/Expressions/Expr_SequenceOfGeneralRelation.hxx>
 #include <Foundation/TCollection/TCollection_Sequence.gxx>
 

@@ -17,13 +17,13 @@
 #ifndef Expr_Operators_HeaderFile
 #define Expr_Operators_HeaderFile
 
-#include <Expr_GeneralExpression.hxx>
-#include <Expr_NumericValue.hxx>
-#include <Expr_Sum.hxx>
-#include <Expr_UnaryMinus.hxx>
-#include <Expr_Difference.hxx>
-#include <Expr_Product.hxx>
-#include <Expr_Division.hxx>
+#include <Mathematics/Expressions/Expr_GeneralExpression.hxx>
+#include <Mathematics/Expressions/Expr_NumericValue.hxx>
+#include <Mathematics/Expressions/Expr_Sum.hxx>
+#include <Mathematics/Expressions/Expr_UnaryMinus.hxx>
+#include <Mathematics/Expressions/Expr_Difference.hxx>
+#include <Mathematics/Expressions/Expr_Product.hxx>
+#include <Mathematics/Expressions/Expr_Division.hxx>
 
 #ifndef __Expr_API
 # if defined(WNT) && !defined(HAVE_NO_DLL)

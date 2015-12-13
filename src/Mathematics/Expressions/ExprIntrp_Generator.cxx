@@ -14,8 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Expr_NamedFunction.hxx>
-#include <Expr_NamedExpression.hxx>
+#include <Mathematics/Expressions/Expr_NamedFunction.hxx>
+#include <Mathematics/Expressions/Expr_NamedExpression.hxx>
 #include <ExprIntrp_SequenceOfNamedExpression.hxx>
 #include <ExprIntrp_SequenceOfNamedFunction.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>

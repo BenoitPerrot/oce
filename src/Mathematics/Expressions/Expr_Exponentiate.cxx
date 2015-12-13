@@ -15,13 +15,13 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_NumericError.hxx>
-#include <Expr_NotEvaluable.hxx>
-#include <Expr_GeneralExpression.hxx>
-#include <Expr_NamedUnknown.hxx>
-#include <Expr_Array1OfNamedUnknown.hxx>
+#include <Mathematics/Expressions/Expr_NotEvaluable.hxx>
+#include <Mathematics/Expressions/Expr_GeneralExpression.hxx>
+#include <Mathematics/Expressions/Expr_NamedUnknown.hxx>
+#include <Mathematics/Expressions/Expr_Array1OfNamedUnknown.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Expr_Exponentiate.hxx>
+#include <Mathematics/Expressions/Expr_Exponentiate.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Expr_Exponentiate)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -33,14 +33,14 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(Expr_Exponentiate)
 IMPLEMENT_DOWNCAST(Expr_Exponentiate,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Expr_Exponentiate)
-#include <Expr_NumericValue.hxx>
-#include <Expr_SequenceOfGeneralExpression.hxx>
-#include <Expr_Difference.hxx>
-#include <Expr_Product.hxx>
-#include <Expr_LogOfe.hxx>
-#include <Expr_Sum.hxx>
-#include <Expr_Operators.hxx>
-#include <Expr.hxx>
+#include <Mathematics/Expressions/Expr_NumericValue.hxx>
+#include <Mathematics/Expressions/Expr_SequenceOfGeneralExpression.hxx>
+#include <Mathematics/Expressions/Expr_Difference.hxx>
+#include <Mathematics/Expressions/Expr_Product.hxx>
+#include <Mathematics/Expressions/Expr_LogOfe.hxx>
+#include <Mathematics/Expressions/Expr_Sum.hxx>
+#include <Mathematics/Expressions/Expr_Operators.hxx>
+#include <Mathematics/Expressions/Expr.hxx>
 
 Expr_Exponentiate::Expr_Exponentiate (const Handle(Expr_GeneralExpression)& exp1, const Handle(Expr_GeneralExpression)& exp2)
 {

@@ -14,17 +14,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Expr_GeneralExpression.hxx>
+#include <Mathematics/Expressions/Expr_GeneralExpression.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_NumericError.hxx>
-#include <Expr_NotEvaluable.hxx>
+#include <Mathematics/Expressions/Expr_NotEvaluable.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Expr_Array1OfNamedUnknown.hxx>
-#include <Expr_NamedUnknown.hxx>
+#include <Mathematics/Expressions/Expr_Array1OfNamedUnknown.hxx>
+#include <Mathematics/Expressions/Expr_NamedUnknown.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <Expr_GeneralFunction.hxx>
-#include <Expr_NamedFunction.hxx>
+#include <Mathematics/Expressions/Expr_GeneralFunction.hxx>
+#include <Mathematics/Expressions/Expr_NamedFunction.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Expr_NamedFunction)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -35,11 +35,11 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(Expr_NamedFunction)
 IMPLEMENT_DOWNCAST(Expr_NamedFunction,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Expr_NamedFunction)
-#include <Expr_NamedConstant.hxx>
+#include <Mathematics/Expressions/Expr_NamedConstant.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <Expr_FunctionDerivative.hxx>
-#include <Expr_NumericValue.hxx>
-#include <Expr.hxx>
+#include <Mathematics/Expressions/Expr_FunctionDerivative.hxx>
+#include <Mathematics/Expressions/Expr_NumericValue.hxx>
+#include <Mathematics/Expressions/Expr.hxx>
 
 Expr_NamedFunction::Expr_NamedFunction (const TCollection_AsciiString& name, const Handle(Expr_GeneralExpression)& exp, const Expr_Array1OfNamedUnknown& vars) : 
                                  myVariables(vars.Lower(),vars.Upper())

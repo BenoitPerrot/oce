@@ -21,14 +21,14 @@
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_NumericError.hxx>
-#include <Expr_NotEvaluable.hxx>
-#include <Expr_SequenceOfGeneralExpression.hxx>
-#include <Expr_GeneralExpression.hxx>
-#include <Expr_NamedUnknown.hxx>
-#include <Expr_Array1OfNamedUnknown.hxx>
+#include <Mathematics/Expressions/Expr_NotEvaluable.hxx>
+#include <Mathematics/Expressions/Expr_SequenceOfGeneralExpression.hxx>
+#include <Mathematics/Expressions/Expr_GeneralExpression.hxx>
+#include <Mathematics/Expressions/Expr_NamedUnknown.hxx>
+#include <Mathematics/Expressions/Expr_Array1OfNamedUnknown.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Expr_Sum.hxx>
+#include <Mathematics/Expressions/Expr_Sum.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Expr_Sum)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -42,8 +42,8 @@ IMPLEMENT_DOWNCAST(Expr_Sum,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Expr_Sum)
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
-#include <Expr_NumericValue.hxx>
-#include <Expr.hxx>
+#include <Mathematics/Expressions/Expr_NumericValue.hxx>
+#include <Mathematics/Expressions/Expr.hxx>
 
 Expr_Sum::Expr_Sum (const Expr_SequenceOfGeneralExpression& exps)
 {

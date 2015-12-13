@@ -3,24 +3,24 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Expr_MapOfNamedUnknown.hxx>
+#include <Mathematics/Expressions/Expr_MapOfNamedUnknown.hxx>
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <Expr_NamedUnknown.hxx>
+#include <Mathematics/Expressions/Expr_NamedUnknown.hxx>
 #include <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
-#include <Expr_IndexedMapNodeOfMapOfNamedUnknown.hxx>
+#include <Mathematics/Expressions/Expr_IndexedMapNodeOfMapOfNamedUnknown.hxx>
  
 
 #define TheKey Handle(Expr_NamedUnknown)
-#define TheKey_hxx <Expr_NamedUnknown.hxx>
+#define TheKey_hxx <Mathematics/Expressions/Expr_NamedUnknown.hxx>
 #define Hasher TColStd_MapTransientHasher
 #define Hasher_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define TCollection_IndexedMapNode Expr_IndexedMapNodeOfMapOfNamedUnknown
-#define TCollection_IndexedMapNode_hxx <Expr_IndexedMapNodeOfMapOfNamedUnknown.hxx>
+#define TCollection_IndexedMapNode_hxx <Mathematics/Expressions/Expr_IndexedMapNodeOfMapOfNamedUnknown.hxx>
 #define Handle_TCollection_IndexedMapNode Handle_Expr_IndexedMapNodeOfMapOfNamedUnknown
 #define TCollection_IndexedMapNode_Type_() Expr_IndexedMapNodeOfMapOfNamedUnknown_Type_()
 #define TCollection_IndexedMap Expr_MapOfNamedUnknown
-#define TCollection_IndexedMap_hxx <Expr_MapOfNamedUnknown.hxx>
+#define TCollection_IndexedMap_hxx <Mathematics/Expressions/Expr_MapOfNamedUnknown.hxx>
 #include <Foundation/TCollection/TCollection_IndexedMap.gxx>
 

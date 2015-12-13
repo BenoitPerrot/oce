@@ -14,11 +14,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Expr_GeneralExpression.hxx>
+#include <Mathematics/Expressions/Expr_GeneralExpression.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <Expr_GeneralRelation.hxx>
-#include <Expr_NamedUnknown.hxx>
-#include <Expr_SingleRelation.hxx>
+#include <Mathematics/Expressions/Expr_GeneralRelation.hxx>
+#include <Mathematics/Expressions/Expr_NamedUnknown.hxx>
+#include <Mathematics/Expressions/Expr_SingleRelation.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Expr_SingleRelation)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -98,7 +98,7 @@ private:
 };
 
 #define Item Handle(Expr_GeneralFunction)
-#define Item_hxx <Expr_GeneralFunction.hxx>
+#define Item_hxx <Mathematics/Expressions/Expr_GeneralFunction.hxx>
 #define TCollection_ListNode ExprIntrp_ListNodeOfStackOfGeneralFunction
 #define TCollection_ListNode_hxx <ExprIntrp_ListNodeOfStackOfGeneralFunction.hxx>
 #define TCollection_ListIterator ExprIntrp_ListIteratorOfStackOfGeneralFunction

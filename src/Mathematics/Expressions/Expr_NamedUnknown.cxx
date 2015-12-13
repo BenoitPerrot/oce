@@ -14,17 +14,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Expr_GeneralExpression.hxx>
-#include <Expr_NotAssigned.hxx>
+#include <Mathematics/Expressions/Expr_GeneralExpression.hxx>
+#include <Mathematics/Expressions/Expr_NotAssigned.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_NumericError.hxx>
-#include <Expr_InvalidAssignment.hxx>
-#include <Expr_InvalidOperand.hxx>
-#include <Expr_NotEvaluable.hxx>
+#include <Mathematics/Expressions/Expr_InvalidAssignment.hxx>
+#include <Mathematics/Expressions/Expr_InvalidOperand.hxx>
+#include <Mathematics/Expressions/Expr_NotEvaluable.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Expr_Array1OfNamedUnknown.hxx>
+#include <Mathematics/Expressions/Expr_Array1OfNamedUnknown.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <Expr_NamedUnknown.hxx>
+#include <Mathematics/Expressions/Expr_NamedUnknown.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Expr_NamedUnknown)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -36,12 +36,12 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(Expr_NamedUnknown)
 IMPLEMENT_DOWNCAST(Expr_NamedUnknown,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Expr_NamedUnknown)
-#include <Expr_NumericValue.hxx>
-#include <Expr.hxx>
-#include <Expr_NotAssigned.hxx>
-#include <Expr_NotEvaluable.hxx>
-#include <Expr_InvalidOperand.hxx>
-#include <Expr_InvalidAssignment.hxx>
+#include <Mathematics/Expressions/Expr_NumericValue.hxx>
+#include <Mathematics/Expressions/Expr.hxx>
+#include <Mathematics/Expressions/Expr_NotAssigned.hxx>
+#include <Mathematics/Expressions/Expr_NotEvaluable.hxx>
+#include <Mathematics/Expressions/Expr_InvalidOperand.hxx>
+#include <Mathematics/Expressions/Expr_InvalidAssignment.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 
 Expr_NamedUnknown::Expr_NamedUnknown(const TCollection_AsciiString& name)
