@@ -25,7 +25,7 @@
 #include <TPrsStd_ConstraintTools.hxx>
 
 #include <stdio.h>
-#include <UnitsAPI.hxx>
+#include <Foundation/UnitsAPI/UnitsAPI.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 
 #include <TNaming_Tool.hxx>

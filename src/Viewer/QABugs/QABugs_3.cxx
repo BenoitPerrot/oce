@@ -600,7 +600,7 @@ static Standard_Integer BUC60724(Draw_Interpretor& di, Standard_Integer /*argc*/
   return 0;
 }
 
-#include <UnitsAPI.hxx>
+#include <Foundation/UnitsAPI/UnitsAPI.hxx>
 
 static Standard_Integer BUC60727(Draw_Interpretor& di, Standard_Integer /*argc*/, const char ** /*argv*/ )
 {

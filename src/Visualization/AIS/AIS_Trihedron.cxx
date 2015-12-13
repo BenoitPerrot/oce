@@ -74,7 +74,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_Trihedron)
 #include <AIS_Plane.hxx>
 #include <AIS_Axis.hxx>
 #include <AIS_Point.hxx>
-#include <UnitsAPI.hxx>
+#include <Foundation/UnitsAPI/UnitsAPI.hxx>
 
 #include <Select3D_SensitiveBox.hxx>
 #include <Select3D_SensitiveTriangle.hxx>

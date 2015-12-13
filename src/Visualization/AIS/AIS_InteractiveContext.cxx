@@ -96,7 +96,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_InteractiveContext)
 #include <Prs3d_PlaneAspect.hxx>
 #include <PrsMgr_PresentableObject.hxx>
 #include <Foundation/Standard/Standard_Atomic.hxx>
-#include <UnitsAPI.hxx>
+#include <Foundation/UnitsAPI/UnitsAPI.hxx>
 
 #include <AIS_Trihedron.hxx>
 #include <Geom_Axis2Placement.hxx>

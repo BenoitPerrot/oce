@@ -23,7 +23,7 @@
 #include <Foundation/Units/Units_Token.hxx>
 #include <Foundation/Units/Units_UnitSentence.hxx>
 #include <Foundation/Units/Units_TokensSequence.hxx>
-#include <UnitsAPI.hxx>
+#include <Foundation/UnitsAPI/UnitsAPI.hxx>
 #include <Foundation/Units/Units.hxx>
 #include <Foundation/Units/Units_UnitsDictionary.hxx>
 

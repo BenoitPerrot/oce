@@ -71,7 +71,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_PlaneTrihedron)
 #include <Graphic3d_AspectFillArea3d.hxx>
 #include <Aspect_TypeOfLine.hxx>
 #include <AIS_Drawer.hxx>
-#include <UnitsAPI.hxx>
+#include <Foundation/UnitsAPI/UnitsAPI.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 
 #include <Select3D_SensitiveFace.hxx>

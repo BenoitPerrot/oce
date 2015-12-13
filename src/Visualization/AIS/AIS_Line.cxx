@@ -53,7 +53,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_Line)
 #include <Geom_Line.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <AIS_GraphicTool.hxx>
-#include <UnitsAPI.hxx>
+#include <Foundation/UnitsAPI/UnitsAPI.hxx>
 
 //==================================================================
 // function: FindLimits

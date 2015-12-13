@@ -13,7 +13,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Units/Units_Dimensions.hxx>
-#include <UnitsAPI.hxx>
+#include <Foundation/UnitsAPI/UnitsAPI.hxx>
 #include <Foundation/Units/Units.hxx>
 #include <Foundation/Units/Units_Unit.hxx>
 #include <Foundation/Units/Units_Quantity.hxx>

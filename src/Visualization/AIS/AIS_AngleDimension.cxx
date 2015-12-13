@@ -49,7 +49,7 @@
 #include <Select3D_SensitiveSegment.hxx>
 #include <SelectMgr_Selection.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
-#include <UnitsAPI.hxx>
+#include <Foundation/UnitsAPI/UnitsAPI.hxx>
 
 IMPLEMENT_STANDARD_HANDLE (AIS_AngleDimension, AIS_Dimension)
 IMPLEMENT_STANDARD_RTTIEXT (AIS_AngleDimension, AIS_Dimension)

@@ -68,7 +68,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_Plane)
 
 #include <DsgPrs_XYZPlanePresentation.hxx>
 #include <DsgPrs_ShadedPlanePresentation.hxx>
-#include <UnitsAPI.hxx>
+#include <Foundation/UnitsAPI/UnitsAPI.hxx>
 
 #include <Select3D_SensitiveTriangulation.hxx>
 #include <SelectBasics_EntityOwner.hxx>

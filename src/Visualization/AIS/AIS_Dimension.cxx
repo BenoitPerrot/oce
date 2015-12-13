@@ -75,8 +75,8 @@
 #include <TopoDS_Vertex.hxx>
 #include <Foundation/Units/Units.hxx>
 #include <Foundation/Units/Units_UnitsDictionary.hxx>
-#include <UnitsAPI.hxx>
-#include <UnitsAPI_SystemUnits.hxx>
+#include <Foundation/UnitsAPI/UnitsAPI.hxx>
+#include <Foundation/UnitsAPI/UnitsAPI_SystemUnits.hxx>
 
 IMPLEMENT_STANDARD_HANDLE(AIS_Dimension, AIS_InteractiveObject)
 IMPLEMENT_STANDARD_RTTIEXT(AIS_Dimension, AIS_InteractiveObject)

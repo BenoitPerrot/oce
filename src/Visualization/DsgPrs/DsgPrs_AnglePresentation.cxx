@@ -53,7 +53,7 @@
 #include <GC_MakeCircle.hxx>
 #include <gce_MakePln.hxx>
 
-#include <UnitsAPI.hxx>
+#include <Foundation/UnitsAPI/UnitsAPI.hxx>
 
 #include <stdio.h>
 
