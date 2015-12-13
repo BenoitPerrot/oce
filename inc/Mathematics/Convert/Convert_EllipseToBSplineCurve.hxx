@@ -10,8 +10,8 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Convert_ConicToBSplineCurve.hxx>
-#include <Convert_ParameterisationType.hxx>
+#include <Mathematics/Convert/Convert_ConicToBSplineCurve.hxx>
+#include <Mathematics/Convert/Convert_ParameterisationType.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class Standard_DomainError;
 class gp_Elips2d;

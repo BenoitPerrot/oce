@@ -38,7 +38,7 @@
 #include <gp_Pnt.hxx>
 #include <Mathematics/Collections/TColgp_HArray2OfPnt.hxx>
 
-#include <Convert_GridPolynomialToPoles.hxx>
+#include <Mathematics/Convert/Convert_GridPolynomialToPoles.hxx>
 
 #include <Geom_BezierSurface.hxx>
 

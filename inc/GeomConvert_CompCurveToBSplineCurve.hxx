@@ -12,7 +12,7 @@
 
 #include <Handle_Geom_BSplineCurve.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Convert_ParameterisationType.hxx>
+#include <Mathematics/Convert/Convert_ParameterisationType.hxx>
 #include <Handle_Geom_BoundedCurve.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

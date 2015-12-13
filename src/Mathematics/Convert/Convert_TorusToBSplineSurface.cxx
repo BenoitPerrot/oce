@@ -16,7 +16,7 @@
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <gp_Torus.hxx>
-#include <Convert_TorusToBSplineSurface.hxx>
+#include <Mathematics/Convert/Convert_TorusToBSplineSurface.hxx>
 
 #include <gp.hxx>
 #include <gp_Trsf.hxx>

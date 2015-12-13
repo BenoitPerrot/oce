@@ -17,7 +17,7 @@
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <gp_Cylinder.hxx>
-#include <Convert_CylinderToBSplineSurface.hxx>
+#include <Mathematics/Convert/Convert_CylinderToBSplineSurface.hxx>
 
 #include <gp.hxx>
 #include <gp_Trsf.hxx>

@@ -18,7 +18,7 @@
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
-#include <Convert_CompBezierCurves2dToBSplineCurve2d.hxx>
+#include <Mathematics/Convert/Convert_CompBezierCurves2dToBSplineCurve2d.hxx>
 
 #include <Precision.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>

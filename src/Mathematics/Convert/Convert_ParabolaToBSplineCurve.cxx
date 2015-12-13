@@ -16,7 +16,7 @@
 
 
 #include <gp_Parab2d.hxx>
-#include <Convert_ParabolaToBSplineCurve.hxx>
+#include <Mathematics/Convert/Convert_ParabolaToBSplineCurve.hxx>
 
 #include <gp.hxx>
 #include <gp_Ax2d.hxx>

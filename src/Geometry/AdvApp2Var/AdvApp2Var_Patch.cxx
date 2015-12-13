@@ -38,7 +38,7 @@
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
-#include <Convert_GridPolynomialToPoles.hxx>
+#include <Mathematics/Convert/Convert_GridPolynomialToPoles.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 
 #include <AdvApp2Var_ApproxF2var.hxx>

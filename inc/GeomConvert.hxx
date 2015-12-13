@@ -16,7 +16,7 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Geom_BSplineSurface.hxx>
 #include <Handle_Geom_Curve.hxx>
-#include <Convert_ParameterisationType.hxx>
+#include <Mathematics/Convert/Convert_ParameterisationType.hxx>
 #include <Handle_Geom_Surface.hxx>
 #include <Handle_TColGeom_HArray1OfBSplineCurve.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>

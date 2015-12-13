@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Convert_ConicToBSplineCurve.hxx>
+#include <Mathematics/Convert/Convert_ConicToBSplineCurve.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class gp_Parab2d;
 

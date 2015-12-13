@@ -16,7 +16,7 @@
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <gp_Cone.hxx>
-#include <Convert_ConeToBSplineSurface.hxx>
+#include <Mathematics/Convert/Convert_ConeToBSplineSurface.hxx>
 
 #include <gp.hxx>
 #include <gp_Trsf.hxx>

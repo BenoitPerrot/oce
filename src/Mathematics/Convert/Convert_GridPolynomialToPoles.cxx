@@ -26,7 +26,7 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/TColStd/TColStd_HArray2OfInteger.hxx>
-#include <Convert_GridPolynomialToPoles.hxx>
+#include <Mathematics/Convert/Convert_GridPolynomialToPoles.hxx>
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>

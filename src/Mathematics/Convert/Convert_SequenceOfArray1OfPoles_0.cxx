@@ -3,21 +3,21 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Convert_SequenceOfArray1OfPoles.hxx>
+#include <Mathematics/Convert/Convert_SequenceOfArray1OfPoles.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
-#include <Convert_SequenceNodeOfSequenceOfArray1OfPoles.hxx>
+#include <Mathematics/Convert/Convert_SequenceNodeOfSequenceOfArray1OfPoles.hxx>
  
 
 #define SeqItem Handle(TColgp_HArray1OfPnt)
 #define SeqItem_hxx <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
 #define TCollection_SequenceNode Convert_SequenceNodeOfSequenceOfArray1OfPoles
-#define TCollection_SequenceNode_hxx <Convert_SequenceNodeOfSequenceOfArray1OfPoles.hxx>
+#define TCollection_SequenceNode_hxx <Mathematics/Convert/Convert_SequenceNodeOfSequenceOfArray1OfPoles.hxx>
 #define Handle_TCollection_SequenceNode Handle_Convert_SequenceNodeOfSequenceOfArray1OfPoles
 #define TCollection_SequenceNode_Type_() Convert_SequenceNodeOfSequenceOfArray1OfPoles_Type_()
 #define TCollection_Sequence Convert_SequenceOfArray1OfPoles
-#define TCollection_Sequence_hxx <Convert_SequenceOfArray1OfPoles.hxx>
+#define TCollection_Sequence_hxx <Mathematics/Convert/Convert_SequenceOfArray1OfPoles.hxx>
 #include <Foundation/TCollection/TCollection_Sequence.gxx>
 

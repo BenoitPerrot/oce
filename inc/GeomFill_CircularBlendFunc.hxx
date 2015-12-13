@@ -14,7 +14,7 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Adaptor3d_HCurve.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Convert_ParameterisationType.hxx>
+#include <Mathematics/Convert/Convert_ParameterisationType.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Approx_SweepFunction.hxx>
 #include <GeomAbs_Shape.hxx>

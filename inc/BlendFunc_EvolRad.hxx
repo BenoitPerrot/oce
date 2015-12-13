@@ -23,7 +23,7 @@
 #include <math_Matrix.hxx>
 #include <BlendFunc_Tensor.hxx>
 #include <BlendFunc_SectionShape.hxx>
-#include <Convert_ParameterisationType.hxx>
+#include <Mathematics/Convert/Convert_ParameterisationType.hxx>
 #include <Blend_Function.hxx>
 #include <GeomAbs_Shape.hxx>
 class Adaptor3d_HSurface;

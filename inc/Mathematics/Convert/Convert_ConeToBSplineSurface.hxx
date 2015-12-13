@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Convert_ElementarySurfaceToBSplineSurface.hxx>
+#include <Mathematics/Convert/Convert_ElementarySurfaceToBSplineSurface.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class Standard_DomainError;
 class gp_Cone;

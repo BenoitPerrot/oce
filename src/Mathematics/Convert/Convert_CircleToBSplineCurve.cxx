@@ -16,7 +16,7 @@
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <gp_Circ2d.hxx>
-#include <Convert_CircleToBSplineCurve.hxx>
+#include <Mathematics/Convert/Convert_CircleToBSplineCurve.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt2d.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>

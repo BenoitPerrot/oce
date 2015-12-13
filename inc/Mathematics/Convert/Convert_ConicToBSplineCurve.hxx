@@ -16,7 +16,7 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Convert_ParameterisationType.hxx>
+#include <Mathematics/Convert/Convert_ParameterisationType.hxx>
 class TColgp_HArray1OfPnt2d;
 class TColStd_HArray1OfReal;
 class TColStd_HArray1OfInteger;

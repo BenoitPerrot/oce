@@ -15,7 +15,7 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Geom2d_Curve.hxx>
-#include <Convert_ParameterisationType.hxx>
+#include <Mathematics/Convert/Convert_ParameterisationType.hxx>
 #include <Handle_TColGeom2d_HArray1OfBSplineCurve.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>
 class Geom2d_BSplineCurve;

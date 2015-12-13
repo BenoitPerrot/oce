@@ -3,31 +3,36 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#ifndef _Convert_CompBezierCurves2dToBSplineCurve2d_HeaderFile
-#define _Convert_CompBezierCurves2dToBSplineCurve2d_HeaderFile
+#ifndef _Convert_CompBezierCurvesToBSplineCurve_HeaderFile
+#define _Convert_CompBezierCurvesToBSplineCurve_HeaderFile
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Convert_SequenceOfArray1OfPoles2d.hxx>
-#include <Mathematics/Collections/TColgp_SequenceOfPnt2d.hxx>
+#include <Mathematics/Convert/Convert_SequenceOfArray1OfPoles.hxx>
+#include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_ConstructionError;
-class TColgp_Array1OfPnt2d;
+class TColgp_Array1OfPnt;
 class TColStd_Array1OfReal;
 class TColStd_Array1OfInteger;
 
 
-//! Converts a list  of connecting Bezier Curves 2d to  a
-//! BSplineCurve 2d.
-//! if possible, the continuity of the BSpline will be
-//! increased to more than C0.
-class Convert_CompBezierCurves2dToBSplineCurve2d 
+//! An algorithm to convert a sequence of adjacent
+//! non-rational Bezier curves into a BSpline curve.
+//! A CompBezierCurvesToBSplineCurve object provides a framework for:
+//! -   defining the sequence of adjacent non-rational Bezier
+//! curves to be converted into a BSpline curve,
+//! -   implementing the computation algorithm, and
+//! -   consulting the results.
+//! Warning
+//! Do not attempt to convert rational Bezier curves using this type of algorithm.
+class Convert_CompBezierCurvesToBSplineCurve 
 {
 public:
 
@@ -49,7 +54,7 @@ public:
   //! -   Perform to compute the data needed to build the BSpline curve,
   //! -   and the available consultation functions to access the
   //! computed data. This data may be used to construct the BSpline curve.
-  Standard_EXPORT Convert_CompBezierCurves2dToBSplineCurve2d(const Standard_Real AngularTolerance = 1.0e-4);
+  Standard_EXPORT Convert_CompBezierCurvesToBSplineCurve(const Standard_Real AngularTolerance = 1.0e-4);
   
   //! Adds the Bezier curve defined by the table of poles Poles, to
   //! the sequence (still contained in this framework) of adjacent
@@ -57,40 +62,40 @@ public:
   //! Only polynomial (i.e. non-rational) Bezier curves are
   //! converted using this framework.
   //! If this is not the first call to the function (i.e. if this framework
-  //! still contains data in its sequence of Bezier curves), the
-  //! degree of continuity of the BSpline curve will be increased at
-  //! the time of computation at the first point of the added Bezier
+  //! still contains data in its Bezier curve sequence), the degree
+  //! of continuity of the BSpline curve will be increased at the
+  //! time of computation at the first point of the added Bezier
   //! curve (i.e. the first point of the Poles table). This will be the
   //! case if the tangent vector of the curve at this point is
   //! parallel to the tangent vector at the end point of the
-  //! preceding Bezier curve in the sequence of Bezier curves still
+  //! preceding Bezier curve in the Bezier curve sequence still
   //! contained in this framework. An angular tolerance given at
-  //! the time of construction of this framework, will be used to
+  //! the time of construction of this framework will be used to
   //! check the parallelism of the two tangent vectors. This
-  //! checking procedure, and all the relative computations will be
-  //! performed by the function Perform.
-  //! When the sequence of adjacent Bezier curves is complete,
-  //! use the following functions:
+  //! checking procedure and all related computations will be
+  //! performed by the Perform function.
+  //! When the adjacent Bezier curve sequence is complete, use
+  //! the following functions:
   //! -   Perform to compute the data needed to build the BSpline curve,
   //! -   and the available consultation functions to access the
   //! computed data. This data may be used to construct the BSpline curve.
   //! Warning
-  //! The sequence of Bezier curves treated by this framework is
+  //! The Bezier curve sequence treated by this framework is
   //! automatically initialized with the first Bezier curve when the
   //! function is first called. During subsequent use of this function,
   //! ensure that the first point of the added Bezier curve (i.e. the
   //! first point of the Poles table) is coincident with the last point
-  //! of the sequence (i.e. the last point of the preceding Bezier
-  //! curve in the sequence) of Bezier curves still contained in
+  //! of the Bezier curve sequence (i.e. the last point of the
+  //! preceding Bezier curve in the sequence) still contained in
   //! this framework. An error may occur at the time of
   //! computation if this condition is not satisfied. Particular care
   //! must be taken with respect to the above, as this condition is
-  //! not checked either when defining the sequence of Bezier
-  //! curves or at the time of computation.
-  Standard_EXPORT   void AddCurve (const TColgp_Array1OfPnt2d& Poles) ;
+  //! not checked either when defining the Bezier curve
+  //! sequence or at the time of computation.
+  Standard_EXPORT   void AddCurve (const TColgp_Array1OfPnt& Poles) ;
   
   //! Computes all the data needed to build a BSpline curve
-  //! equivalent to the sequence of adjacent Bezier curves still
+  //! equivalent to the adjacent Bezier curve sequence still
   //! contained in this framework.
   //! A knot is inserted on the computed BSpline curve at the
   //! junction point of two consecutive Bezier curves. The
@@ -104,7 +109,7 @@ public:
   //! computed data. This data may then be used to construct
   //! the BSpline curve.
   //! Warning
-  //! Ensure that the curves in the sequence of Bezier curves
+  //! Make sure that the curves in the Bezier curve sequence
   //! contained in this framework are adjacent. An error may
   //! occur at the time of computation if this condition is not
   //! satisfied. Particular care must be taken with respect to the
@@ -117,7 +122,7 @@ public:
   //! Warning
   //! Take particular care not to use this function before the
   //! computation is performed (Perform function), as this
-  //! condition is not checked and an error may therefore occur.
+  //! condition is not checked and an error may  therefore occur.
   Standard_EXPORT   Standard_Integer Degree()  const;
   
   //! Returns the number of poles of the BSpline curve whose
@@ -138,7 +143,7 @@ public:
   //! computed in this framework.
   //! Particular care must be taken with respect to the above, as
   //! these conditions are not checked, and an error may occur.
-  Standard_EXPORT   void Poles (TColgp_Array1OfPnt2d& Poles)  const;
+  Standard_EXPORT   void Poles (TColgp_Array1OfPnt& Poles)  const;
   
   //! Returns the number of knots of the BSpline curve whose
   //! data is computed in this framework.
@@ -148,8 +153,9 @@ public:
   //! condition is not checked and an error may therefore occur.
   Standard_EXPORT   Standard_Integer NbKnots()  const;
   
-  //! Loads the Knots table with the knots
-  //! and the Mults table with the corresponding multiplicities
+
+  //! -   loads the Knots table with the knots,
+  //! -   and loads the Mults table with the corresponding multiplicities
   //! of the BSpline curve whose data is computed in this framework.
   //! Warning
   //! -   Do not use this function before the computation is
@@ -174,8 +180,8 @@ private:
 
 
 
-  Convert_SequenceOfArray1OfPoles2d mySequence;
-  TColgp_SequenceOfPnt2d CurvePoles;
+  Convert_SequenceOfArray1OfPoles mySequence;
+  TColgp_SequenceOfPnt CurvePoles;
   TColStd_SequenceOfReal CurveKnots;
   TColStd_SequenceOfInteger KnotsMultiplicities;
   Standard_Integer myDegree;
@@ -191,4 +197,4 @@ private:
 
 
 
-#endif // _Convert_CompBezierCurves2dToBSplineCurve2d_HeaderFile
+#endif // _Convert_CompBezierCurvesToBSplineCurve_HeaderFile

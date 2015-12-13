@@ -33,11 +33,11 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 
-#include <Convert_ElementarySurfaceToBSplineSurface.hxx>
-#include <Convert_ConeToBSplineSurface.hxx>
-#include <Convert_CylinderToBSplineSurface.hxx>
-#include <Convert_SphereToBSplineSurface.hxx>
-#include <Convert_TorusToBSplineSurface.hxx>
+#include <Mathematics/Convert/Convert_ElementarySurfaceToBSplineSurface.hxx>
+#include <Mathematics/Convert/Convert_ConeToBSplineSurface.hxx>
+#include <Mathematics/Convert/Convert_CylinderToBSplineSurface.hxx>
+#include <Mathematics/Convert/Convert_SphereToBSplineSurface.hxx>
+#include <Mathematics/Convert/Convert_TorusToBSplineSurface.hxx>
 #include <GeomConvert_ApproxSurface.hxx>
 
 #include <Geom_OffsetSurface.hxx>

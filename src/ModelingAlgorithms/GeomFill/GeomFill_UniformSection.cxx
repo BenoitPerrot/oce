@@ -38,7 +38,7 @@ IMPLEMENT_DOWNCAST(GeomFill_UniformSection,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(GeomFill_UniformSection)
 
 #include <GeomConvert.hxx>
-#include <Convert_ParameterisationType.hxx>
+#include <Mathematics/Convert/Convert_ParameterisationType.hxx>
 
 #include <Geom_Geometry.hxx>
 #include <Geom_Surface.hxx>

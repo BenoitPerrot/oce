@@ -16,7 +16,7 @@
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <gp_Sphere.hxx>
-#include <Convert_SphereToBSplineSurface.hxx>
+#include <Mathematics/Convert/Convert_SphereToBSplineSurface.hxx>
 
 #include <gp.hxx>
 #include <gp_Trsf.hxx>

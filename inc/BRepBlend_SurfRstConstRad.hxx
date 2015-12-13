@@ -22,7 +22,7 @@
 #include <gp_Vec2d.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <BlendFunc_SectionShape.hxx>
-#include <Convert_ParameterisationType.hxx>
+#include <Mathematics/Convert/Convert_ParameterisationType.hxx>
 #include <Blend_SurfRstFunction.hxx>
 #include <math_Vector.hxx>
 #include <GeomAbs_Shape.hxx>

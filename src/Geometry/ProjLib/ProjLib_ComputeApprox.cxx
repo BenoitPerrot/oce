@@ -21,7 +21,7 @@
 #include <GeomAbs_SurfaceType.hxx>
 #include <GeomAbs_CurveType.hxx>
 #include <AppCont_Function2d.hxx>
-#include <Convert_CompBezierCurves2dToBSplineCurve2d.hxx>
+#include <Mathematics/Convert/Convert_CompBezierCurves2dToBSplineCurve2d.hxx>
 #include <ElSLib.hxx>
 #include <ElCLib.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>

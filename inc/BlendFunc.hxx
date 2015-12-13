@@ -13,7 +13,7 @@
 #include <BlendFunc_SectionShape.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Convert_ParameterisationType.hxx>
+#include <Mathematics/Convert/Convert_ParameterisationType.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Adaptor3d_HSurface.hxx>

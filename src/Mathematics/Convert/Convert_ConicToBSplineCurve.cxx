@@ -22,9 +22,9 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <gp_Pnt2d.hxx>
-#include <Convert_ConicToBSplineCurve.hxx>
-#include <Convert_CosAndSinEvalFunction.hxx>
-#include <Convert_PolynomialCosAndSin.hxx>
+#include <Mathematics/Convert/Convert_ConicToBSplineCurve.hxx>
+#include <Mathematics/Convert/Convert_CosAndSinEvalFunction.hxx>
+#include <Mathematics/Convert/Convert_PolynomialCosAndSin.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>

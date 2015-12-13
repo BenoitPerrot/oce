@@ -89,7 +89,7 @@
 
 #include <TColGeom_HArray1OfBSplineCurve.hxx>
 #include <TColGeom2d_HArray1OfBSplineCurve.hxx>
-#include <Convert_CompPolynomialToPoles.hxx>
+#include <Mathematics/Convert/Convert_CompPolynomialToPoles.hxx>
 #include <CPnts_AbscissaPoint.hxx>
 #include <GCPnts_AbscissaPoint.hxx>
 

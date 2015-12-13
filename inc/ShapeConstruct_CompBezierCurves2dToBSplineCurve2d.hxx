@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Convert_SequenceOfArray1OfPoles2d.hxx>
+#include <Mathematics/Convert/Convert_SequenceOfArray1OfPoles2d.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt2d.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>

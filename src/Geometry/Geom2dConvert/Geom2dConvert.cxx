@@ -24,11 +24,11 @@
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Geom2dConvert.hxx>
 
-#include <Convert_ConicToBSplineCurve.hxx>
-#include <Convert_CircleToBSplineCurve.hxx>
-#include <Convert_EllipseToBSplineCurve.hxx>
-#include <Convert_HyperbolaToBSplineCurve.hxx>
-#include <Convert_ParabolaToBSplineCurve.hxx>
+#include <Mathematics/Convert/Convert_ConicToBSplineCurve.hxx>
+#include <Mathematics/Convert/Convert_CircleToBSplineCurve.hxx>
+#include <Mathematics/Convert/Convert_EllipseToBSplineCurve.hxx>
+#include <Mathematics/Convert/Convert_HyperbolaToBSplineCurve.hxx>
+#include <Mathematics/Convert/Convert_ParabolaToBSplineCurve.hxx>
 
 
 #include <gp.hxx>

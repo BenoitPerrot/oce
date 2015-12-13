@@ -64,7 +64,7 @@
 #include <ElSLib.hxx>
 #include <ElCLib.hxx>
 #include <Precision.hxx>
-#include <Convert_CompBezierCurvesToBSplineCurve.hxx>
+#include <Mathematics/Convert/Convert_CompBezierCurvesToBSplineCurve.hxx>
 #include <GeomConvert.hxx>
 #include <GeomConvert_BSplineCurveToBezierCurve.hxx>
 #include <GeomConvert_BSplineSurfaceToBezierSurface.hxx>

@@ -70,7 +70,7 @@
 
 #include <FairCurve_Batten.hxx>
 #include <FairCurve_AnalysisCode.hxx>
-#include <Convert_ParameterisationType.hxx>
+#include <Mathematics/Convert/Convert_ParameterisationType.hxx>
 #include <GeomConvert_CompCurveToBSplineCurve.hxx>
 #include <GeomConvert.hxx>
 #include <GeomLib_Interpolate.hxx>

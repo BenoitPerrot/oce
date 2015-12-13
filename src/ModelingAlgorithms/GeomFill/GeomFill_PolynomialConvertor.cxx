@@ -25,7 +25,7 @@
 #include <PLib.hxx>
 #include <gp_Mat.hxx>
 
-#include <Convert_CompPolynomialToPoles.hxx>
+#include <Mathematics/Convert/Convert_CompPolynomialToPoles.hxx>
 
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>

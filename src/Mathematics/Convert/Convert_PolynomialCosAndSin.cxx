@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Convert_PolynomialCosAndSin.hxx>
+#include <Mathematics/Convert/Convert_PolynomialCosAndSin.hxx>
 
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <gp_Trsf2d.hxx>

@@ -50,7 +50,7 @@
 #include <AppParCurves_MultiPoint.hxx>
 #include <AppParCurves_MultiBSpCurve.hxx>
 #include <AppDef_LinearCriteria.hxx>
-#include <Convert_CompPolynomialToPoles.hxx>
+#include <Mathematics/Convert/Convert_CompPolynomialToPoles.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Pnt2d.hxx>
 #include <gp_Vec.hxx>

@@ -16,8 +16,8 @@
 #include <AppParCurves_SequenceOfMultiCurve.hxx>
 #include <AppParCurves_MultiBSpCurve.hxx>
 #include <Approx_MCurvesToBSpCurve.hxx>
-#include <Convert_CompBezierCurvesToBSplineCurve.hxx>
-#include <Convert_CompBezierCurves2dToBSplineCurve2d.hxx>
+#include <Mathematics/Convert/Convert_CompBezierCurvesToBSplineCurve.hxx>
+#include <Mathematics/Convert/Convert_CompBezierCurves2dToBSplineCurve2d.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <AppParCurves_MultiCurve.hxx>

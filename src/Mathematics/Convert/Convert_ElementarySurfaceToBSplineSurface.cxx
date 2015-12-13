@@ -18,7 +18,7 @@
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <gp_Pnt.hxx>
-#include <Convert_ElementarySurfaceToBSplineSurface.hxx>
+#include <Mathematics/Convert/Convert_ElementarySurfaceToBSplineSurface.hxx>
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 
