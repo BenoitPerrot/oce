@@ -38,8 +38,8 @@ IMPLEMENT_STANDARD_RTTI(BinLDrivers_DocumentStorageDriver)
 #include <BinMDF_ADriver.hxx>
 #include <BinObjMgt_Persistent.hxx>
 #include <CDM_Application.hxx>
-#include <FSD_BinaryFile.hxx>
-#include <FSD_FileHeader.hxx>
+#include <Foundation/FSD/FSD_BinaryFile.hxx>
+#include <Foundation/FSD/FSD_FileHeader.hxx>
 #include <PCDM_ReadWriter.hxx>
 #include <Standard_ErrorHandler.hxx>
 #include <Storage_Schema.hxx>

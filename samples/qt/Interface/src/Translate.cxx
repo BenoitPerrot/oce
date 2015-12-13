@@ -20,7 +20,7 @@
 #include <AIS_Shape.hxx>
 #include <AIS_InteractiveObject.hxx>
 
-#include <FSD_File.hxx>
+#include <Foundation/FSD/FSD_File.hxx>
 
 #include <ShapeSchema.hxx>
 #include <Storage_Data.hxx>

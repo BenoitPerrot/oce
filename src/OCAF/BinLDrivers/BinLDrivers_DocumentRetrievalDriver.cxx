@@ -39,8 +39,8 @@ IMPLEMENT_STANDARD_RTTI(BinLDrivers_DocumentRetrievalDriver)
 #include <BinMDF_ADriver.hxx>
 #include <BinMDataStd.hxx>
 #include <BinObjMgt_Persistent.hxx>
-#include <FSD_BinaryFile.hxx>
-#include <FSD_FileHeader.hxx>
+#include <Foundation/FSD/FSD_BinaryFile.hxx>
+#include <Foundation/FSD/FSD_FileHeader.hxx>
 #include <Standard_ErrorHandler.hxx>
 #include <Standard_Stream.hxx>
 #include <Storage_Schema.hxx>

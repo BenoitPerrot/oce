@@ -12,7 +12,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <FSD_BinaryFile.hxx>
+#include <Foundation/FSD/FSD_BinaryFile.hxx>
 #include <OSD.hxx>
 #include <OSD_OpenFile.hxx>
 #include <Storage_BaseDriver.hxx>

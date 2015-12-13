@@ -22,7 +22,7 @@
 #include <TColStd_ListOfInteger.hxx>
 #include <TDF_Tool.hxx>
 #include <TColStd_ListIteratorOfListOfInteger.hxx>
-#include <FSD_FileHeader.hxx>
+#include <Foundation/FSD/FSD_FileHeader.hxx>
 
 #define BP_INTSIZE         ((Standard_Integer)sizeof(Standard_Integer))
 #define BP_EXTCHARSIZE     ((Standard_Integer)sizeof(Standard_ExtCharacter))

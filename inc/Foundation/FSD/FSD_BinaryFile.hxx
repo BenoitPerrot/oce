@@ -3,14 +3,15 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#ifndef _FSD_CmpFile_HeaderFile
-#define _FSD_CmpFile_HeaderFile
+#ifndef _FSD_BinaryFile_HeaderFile
+#define _FSD_BinaryFile_HeaderFile
 
 #include <Standard.hxx>
 #include <Standard_DefineAlloc.hxx>
 #include <Standard_Macro.hxx>
 
-#include <FSD_FStream.hxx>
+#include <Foundation/FSD/FSD_BStream.hxx>
+#include <Foundation/FSD/FSD_FileHeader.hxx>
 #include <Storage_BaseDriver.hxx>
 #include <Storage_Error.hxx>
 #include <Storage_OpenMode.hxx>
@@ -21,9 +22,8 @@
 #include <Standard_ExtCharacter.hxx>
 #include <Standard_Real.hxx>
 #include <Standard_ShortReal.hxx>
-#include <Standard_Size.hxx>
 #include <Standard_CString.hxx>
-#include <Handle_Standard_Type.hxx>
+#include <Standard_Size.hxx>
 class Storage_StreamTypeMismatchError;
 class Storage_StreamFormatError;
 class Storage_StreamWriteError;
@@ -33,18 +33,17 @@ class TCollection_ExtendedString;
 class TColStd_SequenceOfAsciiString;
 class TColStd_SequenceOfExtendedString;
 class Storage_BaseDriver;
-class Standard_Type;
 
 
 
-class FSD_CmpFile  : public Storage_BaseDriver
+class FSD_BinaryFile  : public Storage_BaseDriver
 {
 public:
 
   DEFINE_STANDARD_ALLOC
 
   
-  Standard_EXPORT FSD_CmpFile();
+  Standard_EXPORT FSD_BinaryFile();
   
   Standard_EXPORT   Storage_Error Open (const TCollection_AsciiString& aName, const Storage_OpenMode aMode) ;
   
@@ -236,7 +235,7 @@ public:
   Standard_EXPORT   Storage_Error Close() ;
   
   Standard_EXPORT   void Destroy() ;
-~FSD_CmpFile()
+~FSD_BinaryFile()
 {
   Destroy();
 }
@@ -247,27 +246,20 @@ public:
 protected:
 
   
-  //! read from the current position to the end of line.
-  Standard_EXPORT   void ReadLine (TCollection_AsciiString& buffer) ;
-  
-  //! read from the current position to the next white space or end of line.
-  Standard_EXPORT   void ReadWord (TCollection_AsciiString& buffer) ;
-  
-  //! read extended chars (unicode) from the current position to the end of line.
-  Standard_EXPORT   void ReadExtendedLine (TCollection_ExtendedString& buffer) ;
-  
-  //! write from the current position to the end of line.
-  Standard_EXPORT   void WriteExtendedLine (const TCollection_ExtendedString& buffer) ;
-  
   //! read <rsize> character from the current position.
   Standard_EXPORT   void ReadChar (TCollection_AsciiString& buffer, const Standard_Size rsize) ;
   
-  //! read from the first none space character position to the end of line.
+  //! read string from the current position.
   Standard_EXPORT   void ReadString (TCollection_AsciiString& buffer) ;
   
-  Standard_EXPORT   void FlushEndOfLine() ;
+  //! write string at the current position.
+  Standard_EXPORT   void WriteString (const TCollection_AsciiString& buffer) ;
   
-  Standard_EXPORT   Storage_Error FindTag (const Standard_CString aTag) ;
+  //! read string from the current position.
+  Standard_EXPORT   void ReadExtendedString (TCollection_ExtendedString& buffer) ;
+  
+  //! write string at the current position.
+  Standard_EXPORT   void WriteExtendedString (const TCollection_ExtendedString& buffer) ;
 
 
 
@@ -275,12 +267,15 @@ protected:
 private:
 
   
-  Standard_EXPORT static  Standard_CString MagicNumber() ;
+  Standard_EXPORT   void WriteHeader() ;
   
-  Standard_EXPORT   void RaiseError (const Handle(Standard_Type)& theFailure) ;
+  Standard_EXPORT   void ReadHeader() ;
+  
+  Standard_EXPORT static  Standard_CString  MagicNumber() ;
 
 
-  FSD_FStream myStream;
+  FSD_BStream myStream;
+  FSD_FileHeader myHeader;
 
 
 };
@@ -291,4 +286,4 @@ private:
 
 
 
-#endif // _FSD_CmpFile_HeaderFile
+#endif // _FSD_BinaryFile_HeaderFile

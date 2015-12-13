@@ -27,9 +27,9 @@
 #include <Resource_Manager.hxx>
 #include <Standard_GUID.hxx>
 #include <UTL.hxx>
-#include <FSD_CmpFile.hxx>
-#include <FSD_File.hxx>
-#include <FSD_BinaryFile.hxx>
+#include <Foundation/FSD/FSD_CmpFile.hxx>
+#include <Foundation/FSD/FSD_File.hxx>
+#include <Foundation/FSD/FSD_BinaryFile.hxx>
 
 //=======================================================================
 //function : StorageDriver

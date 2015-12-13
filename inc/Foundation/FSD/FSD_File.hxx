@@ -10,7 +10,7 @@
 #include <Standard_DefineAlloc.hxx>
 #include <Standard_Macro.hxx>
 
-#include <FSD_FStream.hxx>
+#include <Foundation/FSD/FSD_FStream.hxx>
 #include <Storage_BaseDriver.hxx>
 #include <Storage_Error.hxx>
 #include <Storage_OpenMode.hxx>

@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <BinTools.hxx>
-#include <FSD_FileHeader.hxx>
+#include <Foundation/FSD/FSD_FileHeader.hxx>
 #include <Storage_StreamTypeMismatchError.hxx>
 
 //=======================================================================

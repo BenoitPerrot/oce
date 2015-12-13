@@ -26,7 +26,7 @@
 #include <MgtBRep.hxx>
 #include <PTColStd_PersistentTransientMap.hxx>
 //csfdb I/E
-#include <FSD_File.hxx>
+#include <Foundation/FSD/FSD_File.hxx>
 #include <ShapeSchema.hxx>
 #include <Storage_Data.hxx>
 #include <Storage_HSeqOfRoot.hxx>

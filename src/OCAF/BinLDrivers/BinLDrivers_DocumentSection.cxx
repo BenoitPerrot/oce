@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <BinLDrivers_DocumentSection.hxx>
-#include <FSD_FileHeader.hxx>
+#include <Foundation/FSD/FSD_FileHeader.hxx>
 
 //=======================================================================
 //function : BinLDrivers_DocumentSection

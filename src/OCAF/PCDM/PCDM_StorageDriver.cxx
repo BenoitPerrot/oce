@@ -36,7 +36,7 @@ IMPLEMENT_STANDARD_RTTI(PCDM_StorageDriver)
 #include <Storage_OpenMode.hxx>
 #include <Storage_Schema.hxx>
 #include <TColStd_SequenceOfExtendedString.hxx>
-#include <FSD_CmpFile.hxx>
+#include <Foundation/FSD/FSD_CmpFile.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <Standard_ErrorHandler.hxx>
 #include <PCDM_ReadWriter.hxx>
