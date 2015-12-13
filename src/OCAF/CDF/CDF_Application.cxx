@@ -50,7 +50,7 @@ IMPLEMENT_STANDARD_RTTI(CDF_Application)
 #include <PCDM_StorageDriver.hxx>
 
 
-#include <Plugin.hxx>
+#include <Foundation/Plugin/Plugin.hxx>
 #include <UTL.hxx>
 
 #include <CDF_Timer.hxx>

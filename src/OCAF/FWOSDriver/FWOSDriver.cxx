@@ -19,7 +19,7 @@
 #include <FWOSDriver.hxx>
 #include <FWOSDriver_DriverFactory.hxx>
 
-#include <Plugin_Macro.hxx>
+#include <Foundation/Plugin/Plugin_Macro.hxx>
 
 #ifdef _MSC_VER
 #pragma warning(disable:4190) /* disable warning on C++ type returned by C function; should be OK for C++ usage */

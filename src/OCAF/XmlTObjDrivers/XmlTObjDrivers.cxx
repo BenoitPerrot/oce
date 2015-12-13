@@ -26,7 +26,7 @@
 #include <XmlTObjDrivers_XYZDriver.hxx>
 #include <XmlTObjDrivers_IntSparseArrayDriver.hxx>
 
-#include <Plugin_Macro.hxx>
+#include <Foundation/Plugin/Plugin_Macro.hxx>
 
 static Standard_GUID XmlStorageDriver  ("f78ff4a0-a779-11d5-aab4-0050044b1af1");
 static Standard_GUID XmlRetrievalDriver("f78ff4a1-a779-11d5-aab4-0050044b1af1");

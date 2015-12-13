@@ -25,7 +25,7 @@
 #include <BinTObjDrivers_ObjectDriver.hxx>
 #include <BinTObjDrivers_ReferenceDriver.hxx>
 #include <BinTObjDrivers_XYZDriver.hxx>
-#include <Plugin_Macro.hxx>
+#include <Foundation/Plugin/Plugin_Macro.hxx>
 
 static Standard_GUID BinStorageDriver  ("f78ff4a2-a779-11d5-aab4-0050044b1af1");
 static Standard_GUID BinRetrievalDriver("f78ff4a3-a779-11d5-aab4-0050044b1af1");

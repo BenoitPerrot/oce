@@ -33,7 +33,7 @@
 #include <Draw.hxx>
 #include <Draw_Interpretor.hxx>
 #include <TDF_MapIteratorOfLabelMap.hxx>
-#include <Plugin.hxx>
+#include <Foundation/Plugin/Plugin.hxx>
 #include <TCollection_ExtendedString.hxx>
 #include <TDF_Tool.hxx>
 #include <TDF_ChildIterator.hxx>

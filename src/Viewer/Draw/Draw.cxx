@@ -34,7 +34,7 @@
 #include <Draw_Interpretor.hxx>
 #include <Draw_ProgressIndicator.hxx>
 
-#include <Plugin_MapOfFunctions.hxx>
+#include <Foundation/Plugin/Plugin_MapOfFunctions.hxx>
 #include <Foundation/OSD/OSD_SharedLibrary.hxx>
 #include <Resource_Manager.hxx>
 #include <Draw_Failure.hxx>

@@ -22,7 +22,7 @@
 #include <Standard_Failure.hxx>
 #include <Standard_GUID.hxx>
 #include <XmlDrivers.hxx>
-#include <Plugin_Macro.hxx>
+#include <Foundation/Plugin/Plugin_Macro.hxx>
 
 static Standard_GUID XSStorageDriver  ("f78ff496-a779-11d5-aab4-0050044b1af1");
 static Standard_GUID XSRetrievalDriver("f78ff497-a779-11d5-aab4-0050044b1af1");

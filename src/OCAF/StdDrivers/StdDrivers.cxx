@@ -25,7 +25,7 @@
 
 #include <Standard_Failure.hxx>
 #include <Standard_GUID.hxx>
-#include <Plugin_Macro.hxx>
+#include <Foundation/Plugin/Plugin_Macro.hxx>
 
 static Standard_GUID StdStorageDriver     ("ad696000-5b34-11d1-b5ba-00a0c9064368");
 static Standard_GUID StdRetrievalDriver   ("ad696001-5b34-11d1-b5ba-00a0c9064368");

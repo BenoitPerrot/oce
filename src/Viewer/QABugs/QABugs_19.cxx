@@ -2550,8 +2550,8 @@ static Standard_Integer OCC25004 (Draw_Interpretor& theDI,
 }
 
 #include <Foundation/OSD/OSD_Environment.hxx>
-#include <Plugin.hxx>
-#include <Plugin_Macro.hxx>
+#include <Foundation/Plugin/Plugin.hxx>
+#include <Foundation/Plugin/Plugin_Macro.hxx>
 #include <Resource_Manager.hxx>
 
 #define THE_QATEST_DOC_FORMAT       "My Proprietary Format"

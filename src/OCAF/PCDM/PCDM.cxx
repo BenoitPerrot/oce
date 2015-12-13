@@ -21,7 +21,7 @@
 #include <CDM_Application.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <PCDM.hxx>
-#include <Plugin.hxx>
+#include <Foundation/Plugin/Plugin.hxx>
 #include <Standard_SStream.hxx>
 #include <Standard_NoSuchObject.hxx>
 #include <Resource_Manager.hxx>

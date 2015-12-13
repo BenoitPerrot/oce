@@ -28,7 +28,7 @@
 #include <StdLSchema.hxx>
 #include <ShapeSchema.hxx>
 
-#include <Plugin_Macro.hxx>
+#include <Foundation/Plugin/Plugin_Macro.hxx>
 
 static Standard_GUID XSStorageDriver  ("ed8793f8-3142-11d4-b9b5-0060b0ee281b");
 static Standard_GUID XSRetrievalDriver("ed8793f9-3142-11d4-b9b5-0060b0ee281b");

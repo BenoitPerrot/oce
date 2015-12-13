@@ -58,13 +58,13 @@ private:
 #define Hasher TCollection_AsciiString
 #define Hasher_hxx <TCollection_AsciiString.hxx>
 #define TCollection_DataMapNode Plugin_DataMapNodeOfMapOfFunctions
-#define TCollection_DataMapNode_hxx <Plugin_DataMapNodeOfMapOfFunctions.hxx>
+#define TCollection_DataMapNode_hxx <Foundation/Plugin/Plugin_DataMapNodeOfMapOfFunctions.hxx>
 #define TCollection_DataMapIterator Plugin_DataMapIteratorOfMapOfFunctions
-#define TCollection_DataMapIterator_hxx <Plugin_DataMapIteratorOfMapOfFunctions.hxx>
+#define TCollection_DataMapIterator_hxx <Foundation/Plugin/Plugin_DataMapIteratorOfMapOfFunctions.hxx>
 #define Handle_TCollection_DataMapNode Handle_Plugin_DataMapNodeOfMapOfFunctions
 #define TCollection_DataMapNode_Type_() Plugin_DataMapNodeOfMapOfFunctions_Type_()
 #define TCollection_DataMap Plugin_MapOfFunctions
-#define TCollection_DataMap_hxx <Plugin_MapOfFunctions.hxx>
+#define TCollection_DataMap_hxx <Foundation/Plugin/Plugin_MapOfFunctions.hxx>
 
 #include <TCollection_DataMapNode.lxx>
 

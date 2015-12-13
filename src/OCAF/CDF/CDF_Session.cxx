@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(CDF_Session)
 #include <TCollection_ExtendedString.hxx>
 #include <CDF_MetaDataDriverFactory.hxx>
 #include <CDF_FWOSDriver.hxx>
-#include <Plugin.hxx>
+#include <Foundation/Plugin/Plugin.hxx>
 #include <Standard_GUID.hxx>
 #include <PCDM.hxx>
 #include <PCDM_Reader.hxx>

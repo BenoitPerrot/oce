@@ -3,13 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Plugin_MapOfFunctions.hxx>
+#include <Foundation/Plugin/Plugin_MapOfFunctions.hxx>
 
 #include <Standard_DomainError.hxx>
 #include <Standard_NoSuchObject.hxx>
 #include <TCollection_AsciiString.hxx>
-#include <Plugin_DataMapNodeOfMapOfFunctions.hxx>
-#include <Plugin_DataMapIteratorOfMapOfFunctions.hxx>
+#include <Foundation/Plugin/Plugin_DataMapNodeOfMapOfFunctions.hxx>
+#include <Foundation/Plugin/Plugin_DataMapIteratorOfMapOfFunctions.hxx>
  
 
 #define TheKey TCollection_AsciiString
@@ -19,12 +19,12 @@
 #define Hasher TCollection_AsciiString
 #define Hasher_hxx <TCollection_AsciiString.hxx>
 #define TCollection_DataMapNode Plugin_DataMapNodeOfMapOfFunctions
-#define TCollection_DataMapNode_hxx <Plugin_DataMapNodeOfMapOfFunctions.hxx>
+#define TCollection_DataMapNode_hxx <Foundation/Plugin/Plugin_DataMapNodeOfMapOfFunctions.hxx>
 #define TCollection_DataMapIterator Plugin_DataMapIteratorOfMapOfFunctions
-#define TCollection_DataMapIterator_hxx <Plugin_DataMapIteratorOfMapOfFunctions.hxx>
+#define TCollection_DataMapIterator_hxx <Foundation/Plugin/Plugin_DataMapIteratorOfMapOfFunctions.hxx>
 #define Handle_TCollection_DataMapNode Handle_Plugin_DataMapNodeOfMapOfFunctions
 #define TCollection_DataMapNode_Type_() Plugin_DataMapNodeOfMapOfFunctions_Type_()
 #define TCollection_DataMap Plugin_MapOfFunctions
-#define TCollection_DataMap_hxx <Plugin_MapOfFunctions.hxx>
+#define TCollection_DataMap_hxx <Foundation/Plugin/Plugin_MapOfFunctions.hxx>
 #include <TCollection_DataMap.gxx>
 

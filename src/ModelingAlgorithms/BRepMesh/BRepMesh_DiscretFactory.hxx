@@ -21,7 +21,7 @@
 #include <BRepMesh_FactoryError.hxx>
 #include <TColStd_MapOfAsciiString.hxx>
 #include <TCollection_AsciiString.hxx>
-#include <Plugin_MapOfFunctions.hxx>
+#include <Foundation/Plugin/Plugin_MapOfFunctions.hxx>
 #include <BRepMesh_DiscretRoot.hxx>
 
 class TColStd_MapOfAsciiString;

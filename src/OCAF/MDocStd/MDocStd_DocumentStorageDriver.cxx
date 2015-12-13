@@ -43,7 +43,7 @@ IMPLEMENT_STANDARD_RTTI(MDocStd_DocumentStorageDriver)
 #include <TDF_Tool.hxx>
 #include <UTL.hxx>
 #include <Resource_Manager.hxx>
-#include <Plugin.hxx>
+#include <Foundation/Plugin/Plugin.hxx>
 
 
 #include <CDF_Application.hxx>

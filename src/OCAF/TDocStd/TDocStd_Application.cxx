@@ -38,7 +38,7 @@ IMPLEMENT_STANDARD_RTTI(TDocStd_Application)
 #include <Standard_ErrorHandler.hxx>
 #include <Standard_NotImplemented.hxx>
 #include <Standard_DomainError.hxx>
-#include <Plugin_Failure.hxx>
+#include <Foundation/Plugin/Plugin_Failure.hxx>
 #include <TDF_Label.hxx>
 #include <CDF_Store.hxx>
 #include <TDocStd_PathParser.hxx>
