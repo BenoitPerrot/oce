@@ -17,7 +17,7 @@
 
 #include <TopoDS_Shape.hxx>  
 #include <TopTools_ShapeMapHasher.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 
 #include <Foundation/NCollection/NCollection_IndexedDataMap.hxx>
 

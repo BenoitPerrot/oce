@@ -10,9 +10,9 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Bnd_Box2d.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Bnd_BoundSortBox2d.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_BoundSortBox2d.hxx>
 #include <Foundation/TColStd/TColStd_MapOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_MapIteratorOfMapOfInteger.hxx>
 #include <Handle_Bnd_HArray1OfBox2d.hxx>

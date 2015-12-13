@@ -104,7 +104,7 @@
 
 
 #include <GeomAbs_Shape.hxx>
-#include <Bnd_Box2d.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 
 //#include <math_FunctionSample.hxx>
 //#include <math_FunctionAllRoots.hxx>

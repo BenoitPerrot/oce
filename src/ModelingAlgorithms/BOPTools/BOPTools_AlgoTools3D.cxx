@@ -22,7 +22,7 @@
 #include <TopoDS_Shape.hxx>
 #include <BOPTools_AlgoTools3D.hxx>
 
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Poly_Triangulation.hxx>
 
 #include <gp_Vec2d.hxx>

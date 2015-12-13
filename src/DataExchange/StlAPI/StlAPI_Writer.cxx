@@ -16,7 +16,7 @@
 #include <StlAPI_Writer.hxx>
 #include <StlTransfer.hxx>
 #include <TopoDS_Shape.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <RWStl.hxx>
 #include <BRepBndLib.hxx>
 #include <Foundation/OSD/OSD_Path.hxx>

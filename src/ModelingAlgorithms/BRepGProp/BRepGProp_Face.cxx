@@ -34,7 +34,7 @@
 
 #include <math.hxx>
 
-#include <Bnd_Box2d.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <BndLib_Add2dCurve.hxx>
 #include <GeomAdaptor_Curve.hxx>
 

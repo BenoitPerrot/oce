@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <TopoDS_Shape.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <TopOpeBRepTool_IndexedDataMapOfShapeBox.hxx>
 #include <TopOpeBRepTool_HBoxTool.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

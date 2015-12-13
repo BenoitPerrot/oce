@@ -21,7 +21,7 @@
 #include <Intf_InterferencePolygon2d.hxx>
 
 #include <gp_Pnt2d.hxx>
-#include <Bnd_Box2d.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Intf_SectionPoint.hxx>
 #include <Intf_SeqOfSectionPoint.hxx>
 #include <Intf_TangentZone.hxx>

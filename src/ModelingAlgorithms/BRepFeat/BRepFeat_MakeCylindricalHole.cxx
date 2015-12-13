@@ -24,7 +24,7 @@
 #include <LocOpe_CurveShapeIntersector.hxx>
 #include <LocOpe_PntFace.hxx>
 
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BRep_Builder.hxx>
 #include <BRep_Tool.hxx>
 #include <BRepPrim_Cylinder.hxx>

@@ -25,11 +25,11 @@
 #include <gp_Pnt.hxx>
 #include <IntCurveSurface_HInter.hxx>
 #include <gp_Pnt2d.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <IntCurvesFace_Intersector.hxx>
 
 #include <IntCurveSurface_ThePolyhedronToolOfHInter.hxx>
-#include <Bnd_BoundSortBox.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_BoundSortBox.hxx>
 
 #include <IntCurveSurface_IntersectionPoint.hxx>
 #include <gp_Lin.hxx>
@@ -53,7 +53,7 @@
 #include <Adaptor3d_HSurfaceTool.hxx>
 #include <IntCurveSurface_TheHCurveTool.hxx>
 #include <Adaptor3d_HCurve.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Intf_Tool.hxx>
 #include <IntCurveSurface_ThePolyhedronOfHInter.hxx>
 #include <IntCurveSurface_ThePolygonOfHInter.hxx>

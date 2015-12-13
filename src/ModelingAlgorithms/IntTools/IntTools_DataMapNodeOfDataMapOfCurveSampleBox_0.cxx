@@ -8,7 +8,7 @@
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <IntTools_CurveRangeSample.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <IntTools_CurveRangeSampleMapHasher.hxx>
 #include <IntTools_DataMapOfCurveSampleBox.hxx>
 #include <IntTools_DataMapIteratorOfDataMapOfCurveSampleBox.hxx>
@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(IntTools_DataMapNodeOfDataMapOfCurveSampleBox)
 #define TheKey IntTools_CurveRangeSample
 #define TheKey_hxx <IntTools_CurveRangeSample.hxx>
 #define TheItem Bnd_Box
-#define TheItem_hxx <Bnd_Box.hxx>
+#define TheItem_hxx <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #define Hasher IntTools_CurveRangeSampleMapHasher
 #define Hasher_hxx <IntTools_CurveRangeSampleMapHasher.hxx>
 #define TCollection_DataMapNode IntTools_DataMapNodeOfDataMapOfCurveSampleBox

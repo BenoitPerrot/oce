@@ -65,7 +65,7 @@
 #include <gp_Pnt.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <TopOpeBRepBuild_define.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <TopOpeBRepTool_FuseEdges.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 #ifdef OCCT_DEBUG

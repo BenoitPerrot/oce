@@ -30,7 +30,7 @@
 #include <HLRBRep_ThePolyhedronOfInterCSurf.hxx>
 #include <HLRBRep_ThePolygonOfInterCSurf.hxx>
 #include <gp.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <ElCLib.hxx>
 
 #include <IntImpParGen.hxx>

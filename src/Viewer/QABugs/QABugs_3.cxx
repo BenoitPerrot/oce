@@ -555,7 +555,7 @@ static Standard_Integer BUC60726 (Draw_Interpretor& di,Standard_Integer argc, co
 }
 
 #include <BRepBndLib.hxx>
-#include <Bnd_HArray1OfBox.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_HArray1OfBox.hxx>
   
 static Standard_Integer BUC60729 (Draw_Interpretor& /*di*/,Standard_Integer /*argc*/, const char ** /*argv*/ )
 {

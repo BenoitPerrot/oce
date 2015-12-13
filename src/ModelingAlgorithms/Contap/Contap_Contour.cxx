@@ -39,7 +39,7 @@
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 
 #include <BndLib_AddSurface.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 
 #include <Adaptor3d_HSurfaceTool.hxx>
 

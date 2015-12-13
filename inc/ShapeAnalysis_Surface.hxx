@@ -20,7 +20,7 @@
 #include <gp_Pnt.hxx>
 #include <gp_Pnt2d.hxx>
 #include <Handle_Geom_Curve.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class Geom_Surface;
 class GeomAdaptor_HSurface;

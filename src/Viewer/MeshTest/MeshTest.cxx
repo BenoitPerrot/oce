@@ -47,7 +47,7 @@
 #include <BRepMesh_IncrementalMesh.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_MapIteratorOfMapOfInteger.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Precision.hxx>
 #include <Draw_Interpretor.hxx>
 #include <Geom_Plane.hxx>
@@ -79,7 +79,7 @@
 #include <CSLib_DerivativeStatus.hxx>
 #include <CSLib.hxx>
 #include <BRepAdaptor_Surface.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BRepBndLib.hxx>
 
 

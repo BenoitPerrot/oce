@@ -18,7 +18,7 @@
 #include <BOPDS_PaveBlock.hxx>
 #include <BOPDS_CommonBlock.hxx>
 #include <BOPDS_FaceInfo.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BOPDS_DS.hxx>
 //
 #include <Foundation/Standard/Standard_Assert.hxx>
@@ -27,7 +27,7 @@
 #include <Foundation/NCollection/NCollection_BaseAllocator.hxx>
 
 #include <gp_Pnt.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 //
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Iterator.hxx>

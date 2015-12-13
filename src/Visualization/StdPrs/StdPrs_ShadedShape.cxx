@@ -16,7 +16,7 @@
 
 #include <StdPrs_ShadedShape.hxx>
 
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BRep_Builder.hxx>
 #include <BRepBndLib.hxx>
 #include <BRepMesh_DiscretFactory.hxx>

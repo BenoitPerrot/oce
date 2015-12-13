@@ -13,7 +13,7 @@
 // commercial license or contractual agreement.
 
 #include <Adaptor2d_Curve2d.hxx>
-#include <Bnd_Box2d.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Geom2d_Curve.hxx>
 #include <BndLib_Add2dCurve.hxx>
 

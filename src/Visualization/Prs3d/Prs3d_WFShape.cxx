@@ -13,7 +13,7 @@
 
 #include <Prs3d_WFShape.hxx>
 
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BRepAdaptor_HSurface.hxx>
 #include <BRepAdaptor_Curve.hxx>
 #include <BRepBndLib.hxx>

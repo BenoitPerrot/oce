@@ -15,7 +15,7 @@
 
 #include <Adaptor3d_HCurve.hxx>
 #include <Adaptor3d_IsoCurve.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BRep_Tool.hxx>
 #include <BRepMesh_IncrementalMesh.hxx>
 #include <BRepBndLib.hxx>

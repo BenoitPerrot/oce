@@ -10,8 +10,8 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Bnd_Box.hxx>
-#include <Bnd_BoundSortBox.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_BoundSortBox.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 #include <TopoDS_Shape.hxx>
 #include <Handle_TopOpeBRepTool_HBoxTool.hxx>

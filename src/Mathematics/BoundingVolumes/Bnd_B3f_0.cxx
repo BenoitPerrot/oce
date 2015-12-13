@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Bnd_B3f.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_B3f.hxx>
 
 #include <gp_XYZ.hxx>
 #include <gp_Pnt.hxx>
@@ -15,6 +15,6 @@
 #define RealType Standard_ShortReal
 #define RealType_hxx <Foundation/Standard/Standard_ShortReal.hxx>
 #define Bnd_B3x Bnd_B3f
-#define Bnd_B3x_hxx <Bnd_B3f.hxx>
-#include <Bnd_B3x.gxx>
+#define Bnd_B3x_hxx <Mathematics/BoundingVolumes/Bnd_B3f.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_B3x.gxx>
 

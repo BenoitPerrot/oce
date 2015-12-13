@@ -21,7 +21,7 @@
 #include <Select3D_SensitiveEntity.hxx>
 #include <TopLoc_Location.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>
-#include <Bnd_Box2d.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <gp_Lin.hxx>
 #include <Select3D_SensitivePoint.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -37,7 +37,7 @@ IMPLEMENT_DOWNCAST(Select3D_SensitivePoint,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Select3D_SensitivePoint)
 
 #include <Select3D_Projector.hxx>
-#include <Bnd_Box2d.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <ElCLib.hxx>
 #include <CSLib_Class2d.hxx>
 

@@ -63,7 +63,7 @@
 #include <gp_Torus.hxx>
 #include <gp_Cone.hxx>
 #include <gp_Sphere.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BRepBndLib.hxx>
 #include <ElCLib.hxx>
 #include <algorithm>

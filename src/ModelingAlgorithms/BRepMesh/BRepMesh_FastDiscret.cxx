@@ -32,7 +32,7 @@
 #include <BRepAdaptor_Surface.hxx>
 #include <BRepAdaptor_HSurface.hxx>
 
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BRepTools.hxx>
 #include <BRepBndLib.hxx>
 #include <BndLib_Add3dCurve.hxx>

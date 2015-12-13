@@ -21,7 +21,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/NCollection/NCollection_List.hxx>
 #include <Foundation/NCollection/NCollection_Vector.hxx>
-#include <Bnd_B3f.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_B3f.hxx>
 #include <Foundation/TColStd/TColStd_PackedMapOfInteger.hxx>
 #include <gp_XY.hxx>
 

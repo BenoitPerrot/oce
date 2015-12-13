@@ -18,8 +18,8 @@
 #include <Geom_TrimmedCurve.hxx>
 #include <Geom_Surface.hxx>
 #include <GeomAdaptor_Surface.hxx>
-#include <Bnd_Box2d.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BRepBndLib.hxx>
 #include <BndLib_Add2dCurve.hxx>
 #include <BRepAdaptor_Surface.hxx>

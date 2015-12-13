@@ -35,7 +35,7 @@
 #include <gp_Dir.hxx>
 #include <gp_Vec.hxx>
 #include <Prs3d.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Precision.hxx>
 #include <TColgp_SequenceOfPnt.hxx>
 

@@ -11,7 +11,7 @@
 #include <Handle_IntTools_DataMapNodeOfDataMapOfCurveSampleBox.hxx>
 
 #include <IntTools_CurveRangeSample.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class IntTools_CurveRangeSample;
@@ -56,7 +56,7 @@ private:
 #define TheKey IntTools_CurveRangeSample
 #define TheKey_hxx <IntTools_CurveRangeSample.hxx>
 #define TheItem Bnd_Box
-#define TheItem_hxx <Bnd_Box.hxx>
+#define TheItem_hxx <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #define Hasher IntTools_CurveRangeSampleMapHasher
 #define Hasher_hxx <IntTools_CurveRangeSampleMapHasher.hxx>
 #define TCollection_DataMapNode IntTools_DataMapNodeOfDataMapOfCurveSampleBox

@@ -24,7 +24,7 @@
 #include <Geom_Surface.hxx>
 #include <TopoDS_Shell.hxx>
 #include <TopTools_ListOfShape.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BRepFill_Draft.hxx>
 
 #include <BRepFill_DraftLaw.hxx>
@@ -34,7 +34,7 @@
 
 #include <BndLib_Add3dCurve.hxx>
 #include <BndLib_AddSurface.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <gp_Dir.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Trsf.hxx>

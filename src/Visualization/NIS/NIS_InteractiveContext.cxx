@@ -18,7 +18,7 @@
 #include <NIS_View.hxx>
 #include <Foundation/TColStd/TColStd_MapIteratorOfPackedMapOfInteger.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <Bnd_B2f.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_B2f.hxx>
 
 IMPLEMENT_STANDARD_HANDLE  (NIS_InteractiveContext, Standard_Transient)
 IMPLEMENT_STANDARD_RTTIEXT (NIS_InteractiveContext, Standard_Transient)

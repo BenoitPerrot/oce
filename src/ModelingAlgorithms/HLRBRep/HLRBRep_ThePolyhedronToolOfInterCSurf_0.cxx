@@ -7,8 +7,8 @@
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <HLRBRep_ThePolyhedronOfInterCSurf.hxx>
-#include <Bnd_Box.hxx>
-#include <Bnd_HArray1OfBox.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_HArray1OfBox.hxx>
 #include <gp_Pnt.hxx>
  
 

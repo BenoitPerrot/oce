@@ -33,7 +33,7 @@
 #include <TopoDS_Shell.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Solid.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <gp.hxx>
 #include <gp_Pnt.hxx>
 #include <BRepBndLib.hxx>

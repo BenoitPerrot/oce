@@ -16,7 +16,7 @@
 #include <XSDRAWSTLVRML_ToVRML.hxx>
 
 #include <Foundation/Standard/Standard_Stream.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BRepBndLib.hxx>
 #include <BRep_Tool.hxx>
 #include <BRepTools.hxx>

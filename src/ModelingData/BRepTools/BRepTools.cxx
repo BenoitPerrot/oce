@@ -19,7 +19,7 @@
 #include <TopoDS_Face.hxx>
 #include <TopoDS_Wire.hxx>
 #include <TopoDS_Edge.hxx>
-#include <Bnd_Box2d.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <TopoDS_Shell.hxx>
 #include <TopoDS_Solid.hxx>

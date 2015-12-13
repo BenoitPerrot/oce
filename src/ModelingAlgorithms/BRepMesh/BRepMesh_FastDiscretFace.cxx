@@ -52,7 +52,7 @@
 #include <TopExp.hxx>
 
 #include <Foundation/NCollection/NCollection_Map.hxx>
-#include <Bnd_Box2d.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 
 #include <algorithm>
 

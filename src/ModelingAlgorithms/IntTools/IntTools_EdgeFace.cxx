@@ -51,7 +51,7 @@
 
 #include <Precision.hxx>
 
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BndLib_AddSurface.hxx>
 
 #include <gp_Cylinder.hxx>

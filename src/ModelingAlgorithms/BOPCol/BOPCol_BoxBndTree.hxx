@@ -19,7 +19,7 @@
 #define NMTDS_BoxBndTree_HeaderFile
 
 #include <Foundation/NCollection/NCollection_UBTree.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BOPCol_ListOfInteger.hxx>
 /**
  * The instantiation of the algorithm of unbalanced binary tree 

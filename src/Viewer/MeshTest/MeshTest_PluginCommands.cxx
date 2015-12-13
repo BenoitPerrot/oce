@@ -22,7 +22,7 @@
 #include <BRepMesh_FactoryError.hxx>
 #include <BRepMesh_DiscretRoot.hxx>
 #include <BRepMesh_IncrementalMesh.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BRepMesh_DiscretRoot.hxx>
 #include <Draw.hxx>
 #include <DBRep.hxx>

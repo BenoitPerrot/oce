@@ -23,7 +23,7 @@
 #include <gp_Vec2d.hxx>
 #include <Geom2d_Curve.hxx>
 #include <TopoDS_Wire.hxx>
-#include <Bnd_Box2d.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <TopOpeBRepBuild_CorrectFace2d.hxx>
 
 #include <TopoDS.hxx>
@@ -54,7 +54,7 @@
 #include <BRep_Tool.hxx>
 #include <BRep_Builder.hxx>
 
-#include <Bnd_Box2d.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <BndLib_Add2dCurve.hxx>
 
 #include <gp_Pnt.hxx>

@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(BRepCheck_Edge)
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 
 #include <BRepAdaptor_Curve.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 
 #include <BRepCheck_ListOfStatus.hxx>
 #include <BRepCheck_ListIteratorOfListOfStatus.hxx>

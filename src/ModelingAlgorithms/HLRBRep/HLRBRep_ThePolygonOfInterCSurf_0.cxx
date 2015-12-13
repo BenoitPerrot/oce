@@ -10,7 +10,7 @@
 #include <gp_Lin.hxx>
 #include <HLRBRep_LineTool.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <gp_Pnt.hxx>
  
 

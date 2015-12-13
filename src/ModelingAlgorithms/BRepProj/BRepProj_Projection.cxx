@@ -31,7 +31,7 @@
 #include <BRepLib_MakeEdge.hxx>
 #include <BRepLib_MakeWire.hxx>
 #include <BRep_Tool.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 
 #include <BRepSweep_Prism.hxx>
 #include <BRepFill_Generator.hxx>

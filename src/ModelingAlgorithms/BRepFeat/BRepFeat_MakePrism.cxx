@@ -42,7 +42,7 @@
 
 #include <TColgp_SequenceOfPnt.hxx>
 #include <TColGeom_SequenceOfCurve.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 
 #include <BRep_Tool.hxx>
 

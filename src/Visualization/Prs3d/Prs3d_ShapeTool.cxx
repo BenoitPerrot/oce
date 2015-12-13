@@ -16,7 +16,7 @@
 
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Face.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopTools_HSequenceOfShape.hxx>
 #include <TopoDS_Vertex.hxx>
@@ -36,7 +36,7 @@
 #include <BRepBndLib.hxx>
 #include <BRepAdaptor_Surface.hxx>
 #include <BRepAdaptor_Curve.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BRep_Tool.hxx>
 #include <Geom_Surface.hxx>
 #include <Geom_RectangularTrimmedSurface.hxx>

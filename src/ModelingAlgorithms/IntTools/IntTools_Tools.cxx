@@ -24,7 +24,7 @@
 #include <IntTools_SequenceOfCurves.hxx>
 #include <gp_Dir.hxx>
 #include <Geom_Curve.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <IntTools_Range.hxx>
 #include <gp_Lin.hxx>
 #include <gp_Pln.hxx>

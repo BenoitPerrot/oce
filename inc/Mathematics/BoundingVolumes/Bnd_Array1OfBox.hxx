@@ -3,8 +3,8 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#ifndef _Bnd_Array1OfSphere_HeaderFile
-#define _Bnd_Array1OfSphere_HeaderFile
+#ifndef _Bnd_Array1OfBox_HeaderFile
+#define _Bnd_Array1OfBox_HeaderFile
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
@@ -17,33 +17,33 @@ class Standard_RangeError;
 class Standard_DimensionMismatch;
 class Standard_OutOfRange;
 class Standard_OutOfMemory;
-class Bnd_Sphere;
+class Bnd_Box;
 
 
 
-class Bnd_Array1OfSphere 
+class Bnd_Array1OfBox 
 {
 public:
 
   DEFINE_STANDARD_ALLOC
 
   
-    Bnd_Array1OfSphere(const Standard_Integer Low, const Standard_Integer Up);
+    Bnd_Array1OfBox(const Standard_Integer Low, const Standard_Integer Up);
   
-    Bnd_Array1OfSphere(const Bnd_Sphere& Item, const Standard_Integer Low, const Standard_Integer Up);
+    Bnd_Array1OfBox(const Bnd_Box& Item, const Standard_Integer Low, const Standard_Integer Up);
   
-  Standard_EXPORT   void Init (const Bnd_Sphere& V) ;
+  Standard_EXPORT   void Init (const Bnd_Box& V) ;
   
       void Destroy() ;
-~Bnd_Array1OfSphere()
+~Bnd_Array1OfBox()
 {
   Destroy();
 }
   
       Standard_Boolean IsAllocated()  const;
   
-  Standard_EXPORT  const  Bnd_Array1OfSphere& Assign (const Bnd_Array1OfSphere& Other) ;
- const  Bnd_Array1OfSphere& operator = (const Bnd_Array1OfSphere& Other) 
+  Standard_EXPORT  const  Bnd_Array1OfBox& Assign (const Bnd_Array1OfBox& Other) ;
+ const  Bnd_Array1OfBox& operator = (const Bnd_Array1OfBox& Other) 
 {
   return Assign(Other);
 }
@@ -54,16 +54,16 @@ public:
   
       Standard_Integer Upper()  const;
   
-      void SetValue (const Standard_Integer Index, const Bnd_Sphere& Value) ;
+      void SetValue (const Standard_Integer Index, const Bnd_Box& Value) ;
   
-     const  Bnd_Sphere& Value (const Standard_Integer Index)  const;
-   const  Bnd_Sphere& operator () (const Standard_Integer Index)  const
+     const  Bnd_Box& Value (const Standard_Integer Index)  const;
+   const  Bnd_Box& operator () (const Standard_Integer Index)  const
 {
   return Value(Index);
 }
   
-      Bnd_Sphere& ChangeValue (const Standard_Integer Index) ;
-    Bnd_Sphere& operator () (const Standard_Integer Index) 
+      Bnd_Box& ChangeValue (const Standard_Integer Index) ;
+    Bnd_Box& operator () (const Standard_Integer Index) 
 {
   return ChangeValue(Index);
 }
@@ -80,7 +80,7 @@ protected:
 private:
 
   
-  Standard_EXPORT Bnd_Array1OfSphere(const Bnd_Array1OfSphere& AnArray);
+  Standard_EXPORT Bnd_Array1OfBox(const Bnd_Array1OfBox& AnArray);
 
 
   Standard_Integer myLowerBound;
@@ -91,10 +91,10 @@ private:
 
 };
 
-#define Array1Item Bnd_Sphere
-#define Array1Item_hxx <Bnd_Sphere.hxx>
-#define TCollection_Array1 Bnd_Array1OfSphere
-#define TCollection_Array1_hxx <Bnd_Array1OfSphere.hxx>
+#define Array1Item Bnd_Box
+#define Array1Item_hxx <Mathematics/BoundingVolumes/Bnd_Box.hxx>
+#define TCollection_Array1 Bnd_Array1OfBox
+#define TCollection_Array1_hxx <Mathematics/BoundingVolumes/Bnd_Array1OfBox.hxx>
 
 #include <Foundation/TCollection/TCollection_Array1.lxx>
 
@@ -106,4 +106,4 @@ private:
 
 
 
-#endif // _Bnd_Array1OfSphere_HeaderFile
+#endif // _Bnd_Array1OfBox_HeaderFile

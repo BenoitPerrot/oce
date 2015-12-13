@@ -73,9 +73,9 @@ IMPLEMENT_STANDARD_TYPE_END(BRepBuilderAPI_Sewing)
 IMPLEMENT_DOWNCAST(BRepBuilderAPI_Sewing,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BRepBuilderAPI_Sewing)
 
-#include <Bnd_Box.hxx>
-#include <Bnd_Box2d.hxx>
-#include <Bnd_HArray1OfBox.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_HArray1OfBox.hxx>
 #include <BndLib_Add2dCurve.hxx>
 #include <BndLib_Add3dCurve.hxx>
 #include <BRep_Builder.hxx>

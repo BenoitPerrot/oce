@@ -20,7 +20,7 @@
 #include <gp_Trsf.hxx>
 #include <gp_Lin.hxx>
 #include <gp_Pln.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 
 #define VoidMask  0x01
 #define XminMask  0x02

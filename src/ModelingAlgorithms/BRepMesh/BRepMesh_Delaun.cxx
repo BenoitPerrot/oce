@@ -22,8 +22,8 @@
 #include <gp_Vec2d.hxx>
 
 #include <Precision.hxx>
-#include <Bnd_Box2d.hxx>
-#include <Bnd_B2d.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_B2d.hxx>
 
 #include <BRepMesh_SelectorOfDataStructureOfDelaun.hxx>
 

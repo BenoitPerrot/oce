@@ -13,7 +13,7 @@
 // commercial license or contractual agreement.
 
 #include <Adaptor3d_Curve.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BndLib_Add3dCurve.hxx>
 #include <GeomAbs_CurveType.hxx>
 #include <BndLib.hxx>

@@ -32,7 +32,7 @@
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Graphic3d_MapOfStructure.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Graphic3d_Structure.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <Visual3d_View.hxx>

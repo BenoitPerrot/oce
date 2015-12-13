@@ -13,6 +13,6 @@
 // commercial license or contractual agreement.
 
 #include <IntTools_Curve.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BOPDS_PaveBlock.hxx>
 #include <BOPDS_Curve.hxx>

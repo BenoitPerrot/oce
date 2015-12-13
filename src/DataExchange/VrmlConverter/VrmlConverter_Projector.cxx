@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_RTTI(VrmlConverter_Projector)
 #include <gp_Vec.hxx>
 #include <gp_Trsf.hxx>
 #include <gp_Ax3.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BRepBndLib.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <TColgp_Array1OfVec.hxx>

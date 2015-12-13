@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <TopoDS_Shape.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Voxel_BoolDS.hxx>
 #include <Voxel_CollisionDetection.hxx>
 #include <Voxel_FastConverter.hxx>

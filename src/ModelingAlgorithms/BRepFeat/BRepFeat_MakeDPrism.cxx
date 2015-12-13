@@ -46,7 +46,7 @@
 #include <Geom_RectangularTrimmedSurface.hxx>
 #include <TColgp_SequenceOfPnt.hxx>
 #include <TColGeom_SequenceOfCurve.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 
 #include <BRepBndLib.hxx>
 #include <BRep_Builder.hxx>

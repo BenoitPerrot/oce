@@ -140,7 +140,7 @@ To solve the problem (for lack of a better solution) I make 2 passes.
 #include <Graphic3d_Vector.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <gp_Ax3.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <V3d_View.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(V3d_View)
@@ -161,7 +161,7 @@ IMPLEMENT_STANDARD_RTTI(V3d_View)
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfInteger.hxx>
 
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 
 #include <Precision.hxx>
 

@@ -28,7 +28,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_TypeDef.hxx>
 
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 
 DEFINE_STANDARD_HANDLE (Graphic3d_Camera, Standard_Transient)
 

@@ -8,7 +8,7 @@
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TopoDS_Shape.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <TopTools_OrientedShapeMapHasher.hxx>
 #include <TopOpeBRepTool_IndexedDataMapOfShapeBox.hxx>
 
@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_RTTI(TopOpeBRepTool_IndexedDataMapNodeOfIndexedDataMapOfShape
 #define TheKey TopoDS_Shape
 #define TheKey_hxx <TopoDS_Shape.hxx>
 #define TheItem Bnd_Box
-#define TheItem_hxx <Bnd_Box.hxx>
+#define TheItem_hxx <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #define Hasher TopTools_OrientedShapeMapHasher
 #define Hasher_hxx <TopTools_OrientedShapeMapHasher.hxx>
 #define TCollection_IndexedDataMapNode TopOpeBRepTool_IndexedDataMapNodeOfIndexedDataMapOfShapeBox

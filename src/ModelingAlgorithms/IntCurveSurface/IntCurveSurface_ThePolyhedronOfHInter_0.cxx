@@ -5,13 +5,13 @@
 
 #include <IntCurveSurface_ThePolyhedronOfHInter.hxx>
 
-#include <Bnd_HArray1OfBox.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_HArray1OfBox.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Adaptor3d_HSurface.hxx>
 #include <Adaptor3d_HSurfaceTool.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <gp_Pnt.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <gp_XYZ.hxx>
  
 

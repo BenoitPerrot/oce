@@ -11,8 +11,8 @@
 #include <Handle_MeshVS_SensitiveMesh.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Bnd_Box.hxx>
-#include <Bnd_Box2d.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Select3D_SensitiveEntity.hxx>
 #include <Handle_SelectBasics_EntityOwner.hxx>
 #include <Handle_Select3D_SensitiveEntity.hxx>

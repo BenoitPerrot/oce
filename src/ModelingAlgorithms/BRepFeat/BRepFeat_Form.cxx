@@ -56,7 +56,7 @@
 #include <BRepCheck_Analyzer.hxx>
 #include <TopoDS.hxx>
 
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BRepBndLib.hxx>
 #include <BRepLib.hxx>
 

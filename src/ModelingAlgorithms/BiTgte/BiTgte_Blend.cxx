@@ -39,7 +39,7 @@
 #include <BiTgte_DataMapOfShapeBox.hxx>
 #include <BiTgte_CurveOnEdge.hxx>
 
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BRepBndLib.hxx>
 #include <BRepTools.hxx>
 #include <BRepTools_Quilt.hxx>

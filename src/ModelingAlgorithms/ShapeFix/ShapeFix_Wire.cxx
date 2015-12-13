@@ -87,8 +87,8 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Wire)
 #include <Geom2dAdaptor_Curve.hxx>
 #include <Geom2dConvert.hxx>
 
-#include <Bnd_Box2d.hxx>
-#include <Bnd_Array1OfBox2d.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Array1OfBox2d.hxx>
 #include <BndLib_Add2dCurve.hxx>
 #include <IntRes2d_SequenceOfIntersectionPoint.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>

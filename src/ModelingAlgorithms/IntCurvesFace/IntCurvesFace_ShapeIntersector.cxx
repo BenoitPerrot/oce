@@ -24,8 +24,8 @@
 #include <TopExp_Explorer.hxx>
 #include <TopoDS.hxx>
 #include <IntCurvesFace_Intersector.hxx>
-#include <Bnd_BoundSortBox.hxx>
-#include <Bnd_HArray1OfBox.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_BoundSortBox.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_HArray1OfBox.hxx>
 #include <ElCLib.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>

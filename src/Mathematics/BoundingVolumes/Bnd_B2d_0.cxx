@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Bnd_B2d.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_B2d.hxx>
 
 #include <gp_XY.hxx>
 #include <gp_Pnt2d.hxx>
@@ -14,6 +14,6 @@
 #define RealType Standard_Real
 #define RealType_hxx <Foundation/Standard/Standard_Real.hxx>
 #define Bnd_B2x Bnd_B2d
-#define Bnd_B2x_hxx <Bnd_B2d.hxx>
-#include <Bnd_B2x.gxx>
+#define Bnd_B2x_hxx <Mathematics/BoundingVolumes/Bnd_B2d.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_B2x.gxx>
 

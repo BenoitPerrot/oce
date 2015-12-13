@@ -15,7 +15,7 @@
 #include <BOPDS_Pave.hxx>
 #include <BOPDS_ListOfPave.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BOPCol_MapOfInteger.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

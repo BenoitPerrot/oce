@@ -14,7 +14,7 @@
 
 #include <BRepMesh_ShapeTool.hxx>
 
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <TopoDS_Edge.hxx>
 #include <BRepBndLib.hxx>
 #include <TopoDS.hxx>

@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Bnd_HArray1OfBox.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_HArray1OfBox.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <Bnd_Box.hxx>
-#include <Bnd_Array1OfBox.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Array1OfBox.hxx>
 
  
 
@@ -31,11 +31,11 @@ IMPLEMENT_STANDARD_RTTI(Bnd_HArray1OfBox)
 
 
 #define ItemHArray1 Bnd_Box
-#define ItemHArray1_hxx <Bnd_Box.hxx>
+#define ItemHArray1_hxx <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #define TheArray1 Bnd_Array1OfBox
-#define TheArray1_hxx <Bnd_Array1OfBox.hxx>
+#define TheArray1_hxx <Mathematics/BoundingVolumes/Bnd_Array1OfBox.hxx>
 #define TCollection_HArray1 Bnd_HArray1OfBox
-#define TCollection_HArray1_hxx <Bnd_HArray1OfBox.hxx>
+#define TCollection_HArray1_hxx <Mathematics/BoundingVolumes/Bnd_HArray1OfBox.hxx>
 #define Handle_TCollection_HArray1 Handle_Bnd_HArray1OfBox
 #define TCollection_HArray1_Type_() Bnd_HArray1OfBox_Type_()
 #include <Foundation/TCollection/TCollection_HArray1.gxx>

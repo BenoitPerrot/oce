@@ -23,7 +23,7 @@
 #include <gp_Pnt.hxx>
 #include <Adaptor3d_Curve.hxx>
 #include <Geom2d_Curve.hxx>
-#include <Bnd_Box2d.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <gp_XYZ.hxx>
 #include <TColgp_SequenceOfPnt2d.hxx>

@@ -13,7 +13,7 @@
 // commercial license or contractual agreement.
 
 #include <TopoDS_Shape.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BRepBndLib.hxx>
 #include <TopExp_Explorer.hxx>
 #include <BRepAdaptor_Surface.hxx>

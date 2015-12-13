@@ -30,7 +30,7 @@
 #include <Aspect_Window.hxx>
 #include <Aspect_DisplayConnection.hxx>
 #include <DBRep.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BRepBndLib.hxx>
 #include <BRepExtrema_DistShapeShape.hxx>
 #include <BRepLib_MakeVertex.hxx>

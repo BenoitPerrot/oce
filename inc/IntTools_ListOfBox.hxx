@@ -97,7 +97,7 @@ private:
 };
 
 #define Item Bnd_Box
-#define Item_hxx <Bnd_Box.hxx>
+#define Item_hxx <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #define TCollection_ListNode IntTools_ListNodeOfListOfBox
 #define TCollection_ListNode_hxx <IntTools_ListNodeOfListOfBox.hxx>
 #define TCollection_ListIterator IntTools_ListIteratorOfListOfBox

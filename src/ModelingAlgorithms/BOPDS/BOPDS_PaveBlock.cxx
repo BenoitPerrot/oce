@@ -13,7 +13,7 @@
 // commercial license or contractual agreement.
 
 #include <BOPDS_Pave.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BOPDS_PaveBlock.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BOPDS_PaveBlock)

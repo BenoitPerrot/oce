@@ -65,7 +65,7 @@ IMPLEMENT_STANDARD_RTTI(BRepCheck_Face)
 #include <BRepTopAdaptor_FClass2d.hxx>
 #include <TopAbs_State.hxx>
 
-#include <Bnd_Box2d.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <BndLib_Add2dCurve.hxx>
 #include <TopTools_MapOfShape.hxx>
 #include <TopTools_SequenceOfShape.hxx>

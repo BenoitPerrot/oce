@@ -48,7 +48,7 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_CorrectedFrenet)
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <gp_Vec2d.hxx>
 #include <BndLib_Add3dCurve.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <GeomLib.hxx>
 #include <Law_Composite.hxx>
 #include <Law_Constant.hxx>

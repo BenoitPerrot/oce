@@ -59,7 +59,7 @@
 #include <Adaptor3d_HSurface.hxx>
 #include <Extrema_LocateExtCC.hxx>
 #include <Extrema_POnCurv.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Vec.hxx>

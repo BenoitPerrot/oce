@@ -18,7 +18,7 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>
 #include <gp_Pnt2d.hxx>
-#include <Bnd_Box2d.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Select3D_SensitiveEntity.hxx>
 #include <Handle_SelectBasics_EntityOwner.hxx>

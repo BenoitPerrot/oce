@@ -21,7 +21,7 @@
 #include <SelectMgr_Selection.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Graphic3d_MaterialAspect.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <AIS_Drawer.hxx>
 #include <AIS_Shape.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -45,7 +45,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_Shape)
 #include <Foundation/Quantity/Quantity_Color.hxx>
 
 #include <gp_Pnt.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BRep_Builder.hxx>
 #include <BRepTools_ShapeSet.hxx>
 #include <BRepTools.hxx>

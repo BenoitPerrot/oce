@@ -33,7 +33,7 @@
 #include <BRepAdaptor_HSurface.hxx>
 #include <TopoDS_Shell.hxx>
 #include <gp_Lin.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <IntCurvesFace_Intersector.hxx>
 #include <BRepClass3d_SolidExplorer.hxx>
 #include <gp.hxx>
@@ -49,7 +49,7 @@
 #include <TopExp_Explorer.hxx>
 #include <BRepClass_Edge.hxx>
 
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BRepBndLib.hxx>
 
 #include <BRepAdaptor_HSurface.hxx>

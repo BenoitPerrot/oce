@@ -17,7 +17,7 @@
 #include <Select3D_SensitiveEntity.hxx>
 #include <TopLoc_Location.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>
-#include <Bnd_Box2d.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Select3D_Projector.hxx>
 #include <SelectBasics_ListOfBox2d.hxx>
 #include <MeshVS_SensitiveMesh.hxx>

@@ -18,7 +18,7 @@
 
 #include <Foundation/NCollection/NCollection_IncAllocator.hxx>
 
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 
 #include <TopoDS_Solid.hxx>
 

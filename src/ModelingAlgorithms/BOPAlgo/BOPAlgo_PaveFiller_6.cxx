@@ -28,7 +28,7 @@
 //
 #include <Precision.hxx>
 #include <Foundation/NCollection/NCollection_IncAllocator.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 
 #include <Geom_Curve.hxx>
 #include <Geom2d_Curve.hxx>

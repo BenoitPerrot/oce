@@ -29,7 +29,7 @@
 #include <Foundation/NCollection/NCollection_IncAllocator.hxx>
 #include <Foundation/NCollection/NCollection_BaseAllocator.hxx>
 
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 
 #include <TopoDS_Vertex.hxx>
 #include <BRepBndLib.hxx>

@@ -32,7 +32,7 @@
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 #include <Geom_Surface.hxx>
 #include <TopLoc_Location.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BRepBndLib.hxx>
 
 //=======================================================================

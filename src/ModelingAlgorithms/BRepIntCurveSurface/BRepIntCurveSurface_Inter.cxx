@@ -16,7 +16,7 @@
 
 #include <GeomAdaptor_HCurve.hxx>
 #include <BRepTopAdaptor_TopolTool.hxx>
-#include <Bnd_HArray1OfBox.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_HArray1OfBox.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <TopoDS_Shape.hxx>
 #include <GeomAdaptor_Curve.hxx>
@@ -35,7 +35,7 @@
 #include <BRepTopAdaptor_TopolTool.hxx>
 #include <BRepAdaptor_HSurface.hxx>
 #include <BRepBndLib.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BndLib_Add3dCurve.hxx>
 
 

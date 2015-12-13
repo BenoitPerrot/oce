@@ -66,7 +66,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_TangentRelation)
 #include <AIS.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfTransient.hxx>
 #include <AIS_Shape.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Precision.hxx>
 #include <Geom_Ellipse.hxx>
 #include <GeomAPI_ExtremaCurveCurve.hxx>

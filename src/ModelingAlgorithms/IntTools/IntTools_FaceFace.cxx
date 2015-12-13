@@ -39,7 +39,7 @@
 #include <gp_Torus.hxx>
 #include <gp_Cylinder.hxx>
 
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 
 #include <TColgp_HArray1OfPnt2d.hxx>
 #include <TColgp_SequenceOfPnt2d.hxx>

@@ -76,7 +76,7 @@
 #include <BRepLib_MakeFace.hxx>
 #include <BRepLib.hxx>
 
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>

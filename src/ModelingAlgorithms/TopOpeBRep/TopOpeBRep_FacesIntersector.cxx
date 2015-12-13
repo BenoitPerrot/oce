@@ -18,7 +18,7 @@
 #include <BRepAdaptor_HSurface.hxx>
 #include <BRepTopAdaptor_TopolTool.hxx>
 #include <TopoDS_Shape.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>
 #include <TopOpeBRep_LineInter.hxx>
 #include <TopOpeBRep_FacesIntersector.hxx>

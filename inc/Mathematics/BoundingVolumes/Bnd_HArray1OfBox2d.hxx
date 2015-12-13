@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Bnd_HArray1OfBox2d.hxx>
 
-#include <Bnd_Array1OfBox2d.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Array1OfBox2d.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
@@ -69,11 +69,11 @@ private:
 };
 
 #define ItemHArray1 Bnd_Box2d
-#define ItemHArray1_hxx <Bnd_Box2d.hxx>
+#define ItemHArray1_hxx <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #define TheArray1 Bnd_Array1OfBox2d
-#define TheArray1_hxx <Bnd_Array1OfBox2d.hxx>
+#define TheArray1_hxx <Mathematics/BoundingVolumes/Bnd_Array1OfBox2d.hxx>
 #define TCollection_HArray1 Bnd_HArray1OfBox2d
-#define TCollection_HArray1_hxx <Bnd_HArray1OfBox2d.hxx>
+#define TCollection_HArray1_hxx <Mathematics/BoundingVolumes/Bnd_HArray1OfBox2d.hxx>
 #define Handle_TCollection_HArray1 Handle_Bnd_HArray1OfBox2d
 #define TCollection_HArray1_Type_() Bnd_HArray1OfBox2d_Type_()
 

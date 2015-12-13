@@ -70,7 +70,7 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_Mesh)
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 
 #include <MeshVS_DataSource.hxx>
 #include <MeshVS_MeshEntityOwner.hxx>

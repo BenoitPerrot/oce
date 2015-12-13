@@ -92,9 +92,9 @@ private:
 };
 
 #define Array1Item Bnd_Box2d
-#define Array1Item_hxx <Bnd_Box2d.hxx>
+#define Array1Item_hxx <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #define TCollection_Array1 Bnd_Array1OfBox2d
-#define TCollection_Array1_hxx <Bnd_Array1OfBox2d.hxx>
+#define TCollection_Array1_hxx <Mathematics/BoundingVolumes/Bnd_Array1OfBox2d.hxx>
 
 #include <Foundation/TCollection/TCollection_Array1.lxx>
 

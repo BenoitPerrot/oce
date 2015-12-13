@@ -14,8 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Bnd_Box2d.hxx>
-#include <Bnd_HArray1OfBox2d.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_HArray1OfBox2d.hxx>
 #include <SelectBasics_SortAlgo.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_MapOfInteger.hxx>

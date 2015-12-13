@@ -16,7 +16,7 @@
 
 #include <TopAbs_ShapeEnum.hxx>
 #include <gp_Pnt.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 //
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Vertex.hxx>

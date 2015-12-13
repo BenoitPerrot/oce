@@ -50,7 +50,7 @@
 #include <Graphic3d_Vector.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <gp_Ax3.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <V3d_View.hxx>
 
 //BUC61044 25/10/01 SAV ; added functionality to control gl depth testing from higher API

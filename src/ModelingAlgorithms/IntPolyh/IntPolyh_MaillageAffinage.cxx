@@ -28,7 +28,7 @@
 
 #include <Adaptor3d_HSurface.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <IntPolyh_Point.hxx>
 #include <IntPolyh_StartPoint.hxx>
 #include <IntPolyh_Triangle.hxx>
@@ -41,8 +41,8 @@
 
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 
-#include <Bnd_BoundSortBox.hxx>
-#include <Bnd_HArray1OfBox.hxx> 
+#include <Mathematics/BoundingVolumes/Bnd_BoundSortBox.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_HArray1OfBox.hxx> 
 
 #include <IntCurveSurface_ThePolyhedronOfHInter.hxx>
 

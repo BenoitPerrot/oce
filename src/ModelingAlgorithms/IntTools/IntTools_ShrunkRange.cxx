@@ -15,7 +15,7 @@
 #include <IntTools_Context.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Vertex.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <IntTools_ShrunkRange.hxx>
 
 #include <Precision.hxx>

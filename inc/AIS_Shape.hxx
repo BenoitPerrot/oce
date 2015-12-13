@@ -11,7 +11,7 @@
 #include <Handle_AIS_Shape.hxx>
 
 #include <TopoDS_Shape.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <AIS_InteractiveObject.hxx>

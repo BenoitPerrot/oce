@@ -31,7 +31,7 @@
 #include <Foundation/Standard/Standard_Integer.hxx> 
 #include <TopAbs_ShapeEnum.hxx>
 #include <TopoDS.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BRepExtrema_ExtPC.hxx>
 #include <BRepExtrema_ExtPF.hxx>
 #include <Extrema_ExtFlag.hxx>

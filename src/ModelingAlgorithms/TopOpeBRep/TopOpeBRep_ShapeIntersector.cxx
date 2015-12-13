@@ -24,7 +24,7 @@
 #include <TopOpeBRep_ShapeIntersector.hxx>
 
 #include <TopAbs.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <TopOpeBRepTool_box.hxx>
 #include <TopOpeBRep_define.hxx>
 

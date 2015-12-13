@@ -25,7 +25,7 @@
 #include <gp_Pln.hxx>
 #include <Geom_Surface.hxx>
 #include <gp_Dir.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <gp_Elips.hxx>
 #include <Prs3d_Presentation.hxx>
 #include <AIS_Drawer.hxx>
@@ -42,7 +42,7 @@
 #include <BRepTopAdaptor_FClass2d.hxx>
 #include <BRep_Tool.hxx>
 #include <BRepTools.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 
 #include <ElCLib.hxx>
 #include <ElSLib.hxx>

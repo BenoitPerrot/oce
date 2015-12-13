@@ -87,7 +87,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Face)
 #include <ShapeFix_Wire.hxx>
 #include <ShapeFix_Edge.hxx>
 #include <ShapeAnalysis_Edge.hxx>
-#include <Bnd_Box2d.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Geom_Circle.hxx>
 #include <Geom_SphericalSurface.hxx>
 #include <Geom_RectangularTrimmedSurface.hxx>
@@ -100,7 +100,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Face)
 #include <TColGeom_HArray2OfSurface.hxx>
 #include <ShapeBuild_Edge.hxx>
 #include <TColgp_SequenceOfPnt2d.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>
 #include <TopTools_DataMapOfShapeListOfShape.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>

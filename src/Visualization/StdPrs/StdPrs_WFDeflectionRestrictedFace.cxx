@@ -17,7 +17,7 @@
 #include <Prs3d_Presentation.hxx>
 #include <BRepAdaptor_HSurface.hxx>
 #include <Prs3d_Drawer.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <StdPrs_WFDeflectionRestrictedFace.hxx>
 
 #include <Hatch_Hatcher.hxx>
@@ -32,7 +32,7 @@
 #include <Adaptor3d_IsoCurve.hxx>
 #include <StdPrs_DeflectionCurve.hxx>
 #include <StdPrs_ToolRFace.hxx>
-#include <Bnd_Box2d.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <BndLib_Add2dCurve.hxx>
 #include <Precision.hxx>
 #include <GeomAdaptor_Curve.hxx>

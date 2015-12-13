@@ -8,7 +8,7 @@
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TopoDS_Shape.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <TopTools_ShapeMapHasher.hxx>
 #include <BiTgte_DataMapOfShapeBox.hxx>
 #include <BiTgte_DataMapIteratorOfDataMapOfShapeBox.hxx>
@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(BiTgte_DataMapNodeOfDataMapOfShapeBox)
 #define TheKey TopoDS_Shape
 #define TheKey_hxx <TopoDS_Shape.hxx>
 #define TheItem Bnd_Box
-#define TheItem_hxx <Bnd_Box.hxx>
+#define TheItem_hxx <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #define Hasher TopTools_ShapeMapHasher
 #define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode BiTgte_DataMapNodeOfDataMapOfShapeBox

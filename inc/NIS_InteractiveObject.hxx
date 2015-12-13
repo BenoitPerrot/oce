@@ -17,7 +17,7 @@
 #define NIS_InteractiveObject_HeaderFile
 
 #include <NIS_Drawer.hxx>
-#include <Bnd_B3f.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_B3f.hxx>
 
 /**
  * Abstract base type for presentable and selectable object in NIS architecture.

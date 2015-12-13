@@ -21,7 +21,7 @@
 #include <Foundation/Standard/Standard_OStream.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>
 #include <BRepBndLib.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <TopExp.hxx>
 #include <BRepExtrema_DistanceSS.hxx>
 #include <TopoDS.hxx>
@@ -31,7 +31,7 @@
 #include <TopoDS_Face.hxx>
 #include <TopAbs_ShapeEnum.hxx>
 #include <Precision.hxx>
-#include <Bnd_SeqOfBox.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_SeqOfBox.hxx>
 #include <BRepExtrema_UnCompatibleShape.hxx>
 #include <BRep_Tool.hxx>
 #include <BRepClass3d_SolidClassifier.hxx>

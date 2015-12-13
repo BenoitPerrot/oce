@@ -86,9 +86,9 @@ IMPLEMENT_STANDARD_RTTI(ShapeAnalysis_Wire)
 #include <Precision.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <Bnd_Array1OfBox2d.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Array1OfBox2d.hxx>
 #include <BndLib_Add2dCurve.hxx>
-#include <Bnd_Box2d.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 
 //szvsh addition
 #include <Geom2dAdaptor_HCurve.hxx>

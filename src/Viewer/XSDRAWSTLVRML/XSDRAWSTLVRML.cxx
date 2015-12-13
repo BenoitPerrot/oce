@@ -72,7 +72,7 @@
 #include <VrmlData_ShapeConvert.hxx>
 #include <VrmlData_DataMapOfShapeAppearance.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 
 #include <XSDRAWSTLVRML_ToVRML.hxx>
 

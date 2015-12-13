@@ -21,7 +21,7 @@
 #include <BRepAdaptor_Curve.hxx>
 #include <BRepAdaptor_Surface.hxx>
 #include <BRepBndLib.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <ElCLib.hxx>
 #ifndef OCE_DISABLE_TKSERVICE_FONT
 #include <Font_BRepFont.hxx>

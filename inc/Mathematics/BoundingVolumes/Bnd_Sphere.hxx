@@ -99,7 +99,7 @@ private:
 };
 
 
-#include <Bnd_Sphere.lxx>
+#include <Mathematics/BoundingVolumes/Bnd_Sphere.lxx>
 
 
 

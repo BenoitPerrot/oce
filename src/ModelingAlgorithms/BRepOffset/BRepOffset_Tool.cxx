@@ -41,7 +41,7 @@
 
 #include <BRepBndLib.hxx>
 
-#include <Bnd_Box2d.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <BndLib_Add3dCurve.hxx>
 #include <BRep_Tool.hxx>
 #include <BRepLib.hxx>

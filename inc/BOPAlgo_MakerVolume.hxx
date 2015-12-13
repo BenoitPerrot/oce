@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <TopoDS_Solid.hxx>
 #include <BOPCol_ListOfShape.hxx>
 #include <BOPAlgo_Builder.hxx>

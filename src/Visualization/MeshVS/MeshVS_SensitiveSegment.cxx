@@ -17,7 +17,7 @@
 #include <gp_Pnt.hxx>
 #include <Select3D_Projector.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>
-#include <Bnd_Box2d.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <MeshVS_SensitiveSegment.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MeshVS_SensitiveSegment)
@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_TYPE_END(MeshVS_SensitiveSegment)
 IMPLEMENT_DOWNCAST(MeshVS_SensitiveSegment,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MeshVS_SensitiveSegment)
 #include <Select3D_Projector.hxx>
-#include <Bnd_Box2d.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <CSLib_Class2d.hxx>
 #include <TopLoc_Location.hxx>
 

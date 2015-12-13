@@ -38,7 +38,7 @@
 #include <ShapeAnalysis_ShapeTolerance.hxx>
 
 #include <gp_XYZ.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BRepBndLib.hxx>
 #include <GeomAdaptor_Curve.hxx>
 #include <GeomAdaptor_Surface.hxx>

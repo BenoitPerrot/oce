@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <IntTools_SurfaceRangeSample.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <IntTools_SurfaceRangeSampleMapHasher.hxx>
 #include <IntTools_DataMapOfSurfaceSampleBox.hxx>
 #include <IntTools_DataMapNodeOfDataMapOfSurfaceSampleBox.hxx>
@@ -16,7 +16,7 @@
 #define TheKey IntTools_SurfaceRangeSample
 #define TheKey_hxx <IntTools_SurfaceRangeSample.hxx>
 #define TheItem Bnd_Box
-#define TheItem_hxx <Bnd_Box.hxx>
+#define TheItem_hxx <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #define Hasher IntTools_SurfaceRangeSampleMapHasher
 #define Hasher_hxx <IntTools_SurfaceRangeSampleMapHasher.hxx>
 #define TCollection_DataMapNode IntTools_DataMapNodeOfDataMapOfSurfaceSampleBox

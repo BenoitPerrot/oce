@@ -30,7 +30,7 @@
 //
 #include <GeomAPI_ProjectPointOnSurf.hxx>
 //
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 //
 #include <TopoDS_Vertex.hxx>
 #include <TopoDS_Edge.hxx>

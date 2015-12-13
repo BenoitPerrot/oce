@@ -12,7 +12,7 @@
 
 #include <TopoDS_Shape.hxx>
 #include <TopAbs_ShapeEnum.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BOPCol_ListOfInteger.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <BOPCol_BaseAllocator.hxx>

@@ -18,7 +18,7 @@
 
 
 #include <Extrema_HArray2OfPOnSurfParams.hxx>
-#include <Bnd_HArray1OfSphere.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_HArray1OfSphere.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
@@ -37,11 +37,11 @@
 #include <math_Vector.hxx>
 #include <math_NewtonFunctionSetRoot.hxx>
 #include <GeomAbs_IsoType.hxx>
-#include <Bnd_Sphere.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Sphere.hxx>
 #include <Extrema_HUBTreeOfSphere.hxx>
 #include <Extrema_ExtFlag.hxx>
-#include <Bnd_Array1OfSphere.hxx>
-#include <Bnd_HArray1OfSphere.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Array1OfSphere.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_HArray1OfSphere.hxx>
 #include <Precision.hxx>
 #include <Geom_OffsetSurface.hxx>
 #include <Geom_RectangularTrimmedSurface.hxx>

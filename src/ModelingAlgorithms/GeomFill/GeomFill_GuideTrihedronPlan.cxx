@@ -38,7 +38,7 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_GuideTrihedronPlan)
 #include <gp_Pnt.hxx>
 #include <gp_Pnt2d.hxx>
 //#include <gp_Trsf2d.hxx>
-//#include <Bnd_Box2d.hxx>
+//#include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <ElCLib.hxx>
 
 #include <Adaptor3d_Curve.hxx>

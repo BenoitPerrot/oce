@@ -21,7 +21,7 @@
 
 #include <gp.hxx>
 #include <gp_Dir.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 
 #include <Geom2d_Line.hxx>
 #include <Geom_Curve.hxx>

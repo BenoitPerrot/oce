@@ -21,7 +21,7 @@
 #include <Select3D_SensitiveEntity.hxx>
 #include <TopLoc_Location.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>
-#include <Bnd_Box2d.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <gp_Lin.hxx>
 #include <Select3D_SensitiveSegment.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -38,7 +38,7 @@ IMPLEMENT_STANDARD_RTTI(Select3D_SensitiveSegment)
 #include <SelectBasics_BasicTool.hxx>
 #include <gp_Vec.hxx>
 #include <gp_Vec2d.hxx>
-#include <Bnd_Box2d.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <gp_Pnt2d.hxx>
 #include <gp_Dir2d.hxx>
 #include <gp_Lin2d.hxx>

@@ -14,15 +14,15 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Bnd_HArray1OfBox2d.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_HArray1OfBox2d.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfListOfInteger.hxx>
 #include <Foundation/Standard/Standard_NullValue.hxx>
 #include <Foundation/Standard/Standard_MultiplyDefined.hxx>
-#include <Bnd_Box2d.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
-#include <Bnd_BoundSortBox2d.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_BoundSortBox2d.hxx>
 #include <Foundation/Standard/Standard_NullValue.hxx>
-#include <Bnd_Array1OfBox.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Array1OfBox.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_DataMapIteratorOfDataMapOfIntegerInteger.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfListOfInteger.hxx>

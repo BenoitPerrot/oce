@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopoDS_Shape.hxx>
-#include <Bnd_Box2d.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <TopTools_ShapeMapHasher.hxx>
 #include <ShapeFix_DataMapOfShapeBox2d.hxx>
 #include <ShapeFix_DataMapNodeOfDataMapOfShapeBox2d.hxx>
@@ -16,7 +16,7 @@
 #define TheKey TopoDS_Shape
 #define TheKey_hxx <TopoDS_Shape.hxx>
 #define TheItem Bnd_Box2d
-#define TheItem_hxx <Bnd_Box2d.hxx>
+#define TheItem_hxx <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #define Hasher TopTools_ShapeMapHasher
 #define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode ShapeFix_DataMapNodeOfDataMapOfShapeBox2d

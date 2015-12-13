@@ -18,7 +18,7 @@
 
 
 #include <Adaptor3d_Surface.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BndLib_AddSurface.hxx>
 
 

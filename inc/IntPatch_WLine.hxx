@@ -14,8 +14,8 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <IntPatch_SequenceOfPoint.hxx>
-#include <Bnd_Box2d.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Adaptor2d_HCurve2d.hxx>
 #include <IntPatch_Line.hxx>

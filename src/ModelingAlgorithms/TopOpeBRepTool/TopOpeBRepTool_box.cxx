@@ -17,7 +17,7 @@
 #include <TopOpeBRepTool_box.hxx>
 
 #include <TopOpeBRepTool_HBoxTool.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 
 Standard_EXPORT void FBOX_Prepare() 
 {

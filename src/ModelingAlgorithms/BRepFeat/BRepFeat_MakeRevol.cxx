@@ -43,7 +43,7 @@
 #include <Geom_Circle.hxx>
 #include <Geom2d_Curve.hxx>
 #include <Geom_RectangularTrimmedSurface.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 
 #include <BRepSweep_Revol.hxx>
 #include <BRep_Builder.hxx>

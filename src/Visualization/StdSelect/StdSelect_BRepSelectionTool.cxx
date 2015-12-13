@@ -35,7 +35,7 @@
 #include <BRepAdaptor_Surface.hxx>
 #include <GeomAbs_SurfaceType.hxx>
 #include <BRepBndLib.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BRep_Tool.hxx>
 #include <Geom_Circle.hxx>
 #include <Select3D_SensitiveCircle.hxx>

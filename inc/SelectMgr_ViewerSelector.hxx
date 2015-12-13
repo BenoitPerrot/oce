@@ -15,7 +15,7 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <SelectBasics_SortAlgo.hxx>
-#include <Bnd_Box2d.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <SelectMgr_IndexedDataMapOfOwnerCriterion.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>

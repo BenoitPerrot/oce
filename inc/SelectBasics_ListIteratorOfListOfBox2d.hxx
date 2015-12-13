@@ -61,7 +61,7 @@ private:
 };
 
 #define Item Bnd_Box2d
-#define Item_hxx <Bnd_Box2d.hxx>
+#define Item_hxx <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #define TCollection_ListNode SelectBasics_ListNodeOfListOfBox2d
 #define TCollection_ListNode_hxx <SelectBasics_ListNodeOfListOfBox2d.hxx>
 #define TCollection_ListIterator SelectBasics_ListIteratorOfListOfBox2d

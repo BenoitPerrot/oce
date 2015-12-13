@@ -23,12 +23,12 @@
 #include <Adaptor3d_IsoCurve.hxx>
 #include <VrmlConverter_DeflectionCurve.hxx>
 #include <StdPrs_ToolRFace.hxx>
-#include <Bnd_Box2d.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <BndLib_Add2dCurve.hxx>
 #include <Precision.hxx>
 #include <Vrml_Separator.hxx>
 #include <Vrml_Material.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BndLib_AddSurface.hxx>
 
 //==================================================================

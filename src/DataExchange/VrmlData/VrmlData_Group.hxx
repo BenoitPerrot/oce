@@ -17,7 +17,7 @@
 #define VrmlData_Group_HeaderFile
 
 #include <VrmlData_ListOfNode.hxx>
-#include <Bnd_B3f.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_B3f.hxx>
 #include <gp_Trsf.hxx>
 
 class TopoDS_Shape;

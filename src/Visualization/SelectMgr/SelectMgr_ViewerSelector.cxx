@@ -22,7 +22,7 @@
 #include <SelectMgr_SelectionManager.hxx>
 #include <SelectMgr_Selection.hxx>
 #include <SelectMgr_SelectableObject.hxx>
-#include <Bnd_Box2d.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>
 #include <SelectMgr_EntityOwner.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
@@ -44,8 +44,8 @@ IMPLEMENT_STANDARD_RTTI(SelectMgr_ViewerSelector)
 #include <gp_Pnt2d.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Lin.hxx>
-#include <Bnd_HArray1OfBox2d.hxx>
-#include <Bnd_Array1OfBox2d.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_HArray1OfBox2d.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Array1OfBox2d.hxx>
 #include <Precision.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>

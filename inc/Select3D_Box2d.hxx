@@ -14,7 +14,7 @@
 #ifndef _Select3D_Box2d_HeaderFile
 #define _Select3D_Box2d_HeaderFile
 
-#include<Bnd_Box2d.hxx>
+#include<Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include<Foundation/Standard/Standard_ShortReal.hxx>
 #include<Select3D_Macro.hxx>
 

@@ -23,8 +23,8 @@
 #include <GeomAPI_ProjectPointOnSurf.hxx>
 #include <BRepLib_MakeVertex.hxx>
 #include <BRepExtrema_ExtPF.hxx>
-#include <Bnd_Box2d.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BRepBndLib.hxx>
 #include <BndLib_Add2dCurve.hxx>
 #include <BRepAdaptor_Curve.hxx>

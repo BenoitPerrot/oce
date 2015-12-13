@@ -20,7 +20,7 @@
 #define BOPCol_Box2DBndTree_HeaderFile
 
 #include <Foundation/NCollection/NCollection_UBTree.hxx>
-#include <Bnd_Box2d.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <BOPCol_ListOfInteger.hxx>
 /**
  * The instantiation of the algorithm of unbalanced binary tree 

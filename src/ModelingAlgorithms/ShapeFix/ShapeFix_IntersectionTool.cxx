@@ -17,14 +17,14 @@
 #include <TopoDS_Face.hxx>
 #include <ShapeExtend_WireData.hxx>
 #include <ShapeFix_DataMapOfShapeBox2d.hxx>
-#include <Bnd_Box2d.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Geom2d_Curve.hxx>
 #include <ShapeFix_IntersectionTool.hxx>
 
 #include <BRep_Builder.hxx>
 #include <BRep_Tool.hxx>
 #include <BRepTools.hxx>
-#include <Bnd_Box2d.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <BndLib_Add2dCurve.hxx>
 #include <Geom_Curve.hxx>
 #include <Geom_Surface.hxx>

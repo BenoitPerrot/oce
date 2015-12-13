@@ -15,7 +15,7 @@
 #include <BOPDS_DS.hxx>
 #include <BOPDS_SubIterator.hxx>
 //
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 //
 #include <Foundation/NCollection/NCollection_IncAllocator.hxx>
 #include <Foundation/NCollection/NCollection_UBTreeFiller.hxx>

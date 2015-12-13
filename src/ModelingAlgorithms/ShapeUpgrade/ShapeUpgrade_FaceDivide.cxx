@@ -44,7 +44,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_FaceDivide)
 #include <BRepTools.hxx>
 #include <ShapeExtend_CompositeSurface.hxx>
 #include <TopExp_Explorer.hxx>
-#include <Bnd_Box2d.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <ShapeAnalysis.hxx>
 #include <ShapeAnalysis_Edge.hxx>
 #include <ShapeBuild_ReShape.hxx>

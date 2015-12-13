@@ -63,7 +63,7 @@ private:
 #define ThePolygon HLRBRep_ThePolygonOfInterCSurf
 #define ThePolygon_hxx <HLRBRep_ThePolygonOfInterCSurf.hxx>
 #define TheBoundingBox Bnd_Box
-#define TheBoundingBox_hxx <Bnd_Box.hxx>
+#define TheBoundingBox_hxx <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #define IntCurveSurface_PolygonTool HLRBRep_ThePolygonToolOfInterCSurf
 #define IntCurveSurface_PolygonTool_hxx <HLRBRep_ThePolygonToolOfInterCSurf.hxx>
 

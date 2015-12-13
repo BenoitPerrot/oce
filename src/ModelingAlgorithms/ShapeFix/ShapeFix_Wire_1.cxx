@@ -17,7 +17,7 @@
 #include <Foundation/Standard/Standard_Failure.hxx>
 
 #include <Precision.hxx>
-#include <Bnd_Box2d.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Geom_Curve.hxx>
 #include <Geom2d_Curve.hxx>
 #include <Geom2d_Line.hxx>
@@ -56,7 +56,7 @@
 #include <GeomAdaptor_Surface.hxx>  
 #include <TopTools_Array1OfShape.hxx>
 #include <BRepTools.hxx>
-#include <Bnd_Array1OfBox2d.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Array1OfBox2d.hxx>
 #include <BndLib_Add2dCurve.hxx>
 #include <Geom2dAdaptor_Curve.hxx>
 #include <Geom2dConvert.hxx>

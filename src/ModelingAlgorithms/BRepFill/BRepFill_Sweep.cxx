@@ -46,7 +46,7 @@
 
 #include <gp_Pnt2d.hxx>
 #include <gp_Vec2d.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 
 #include <Geom_Surface.hxx>
 #include <Geom_SurfaceOfRevolution.hxx>

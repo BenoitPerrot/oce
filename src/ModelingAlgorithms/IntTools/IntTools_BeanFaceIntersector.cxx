@@ -19,7 +19,7 @@
 #include <BRepAdaptor_Surface.hxx>
 #include <IntTools_SequenceOfRanges.hxx>
 #include <IntTools_CurveRangeSample.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <IntTools_SurfaceRangeSample.hxx>
 #include <IntTools_CurveRangeLocalizeData.hxx>
 #include <IntTools_SurfaceRangeLocalizeData.hxx>
@@ -66,7 +66,7 @@
 #include <BRepAdaptor_HSurface.hxx>
 #include <Extrema_GenLocateExtPS.hxx>
 #include <Extrema_GenExtCS.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BndLib_AddSurface.hxx>
 #include <BndLib_Add3dCurve.hxx>
 #include <ElCLib.hxx>

@@ -23,7 +23,7 @@
 #include <IntSurf_ListOfPntOn2S.hxx>
 #include <BOPAlgo_PaveFiller.hxx>
 //
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Vertex.hxx>

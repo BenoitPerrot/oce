@@ -52,7 +52,7 @@
 #include <gp_Vec2d.hxx>
 #include <BRepTools.hxx>
 #include <Geom_Surface.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BRepBndLib.hxx>
 #include <BRepLib_MakeFace.hxx>
 #include <Geom_RectangularTrimmedSurface.hxx>

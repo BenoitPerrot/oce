@@ -14,7 +14,7 @@
 #include <TopoDS_Shape.hxx>
 #include <VrmlConverter_Drawer.hxx>
 #include <VrmlConverter_WFShape.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <gp_Pnt.hxx>
 #include <Prs3d_ShapeTool.hxx>
 #include <BRepAdaptor_HSurface.hxx>

@@ -193,7 +193,7 @@ private:
 };
 
 
-#include <Bnd_Box2d.lxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box2d.lxx>
 
 
 

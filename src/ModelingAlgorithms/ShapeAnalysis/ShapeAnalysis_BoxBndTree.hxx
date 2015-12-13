@@ -17,7 +17,7 @@
 #define ShapeAnalysis_BoxBndTree_HeaderFile
 
 #include <Foundation/NCollection/NCollection_UBTree.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <gp_Pnt.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <TopTools_HArray1OfShape.hxx>

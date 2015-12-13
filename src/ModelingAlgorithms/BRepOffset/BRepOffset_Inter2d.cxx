@@ -82,7 +82,7 @@
 #include <GeomProjLib.hxx>
 #include <TColgp_SequenceOfPnt.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BndLib_Add3dCurve.hxx>
 #include <BRepTools.hxx>
 

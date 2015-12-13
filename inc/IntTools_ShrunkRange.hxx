@@ -13,7 +13,7 @@
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Handle_IntTools_Context.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class IntTools_Context;

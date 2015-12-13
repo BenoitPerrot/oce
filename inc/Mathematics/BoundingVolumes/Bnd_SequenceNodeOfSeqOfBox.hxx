@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Bnd_SequenceNodeOfSeqOfBox.hxx>
 
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>
 #include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class Bnd_Box;
@@ -47,13 +47,13 @@ private:
 };
 
 #define SeqItem Bnd_Box
-#define SeqItem_hxx <Bnd_Box.hxx>
+#define SeqItem_hxx <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #define TCollection_SequenceNode Bnd_SequenceNodeOfSeqOfBox
-#define TCollection_SequenceNode_hxx <Bnd_SequenceNodeOfSeqOfBox.hxx>
+#define TCollection_SequenceNode_hxx <Mathematics/BoundingVolumes/Bnd_SequenceNodeOfSeqOfBox.hxx>
 #define Handle_TCollection_SequenceNode Handle_Bnd_SequenceNodeOfSeqOfBox
 #define TCollection_SequenceNode_Type_() Bnd_SequenceNodeOfSeqOfBox_Type_()
 #define TCollection_Sequence Bnd_SeqOfBox
-#define TCollection_Sequence_hxx <Bnd_SeqOfBox.hxx>
+#define TCollection_Sequence_hxx <Mathematics/BoundingVolumes/Bnd_SeqOfBox.hxx>
 
 #include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 

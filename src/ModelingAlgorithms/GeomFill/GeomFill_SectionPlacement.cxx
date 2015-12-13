@@ -36,7 +36,7 @@
 #include <gp_Dir.hxx>
 #include <gp_Trsf.hxx>
 #include <TColgp_HArray1OfPnt.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BndLib_Add3dCurve.hxx>
 
 #include <Precision.hxx>

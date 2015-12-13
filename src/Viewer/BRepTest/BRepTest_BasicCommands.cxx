@@ -37,7 +37,7 @@
 #include <BRepLib.hxx>
 #include <BRep_Builder.hxx>
 #include <BRepBndLib.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <TopExp_Explorer.hxx>
 #include <TopoDS.hxx>
 #include <BRepTools_WireExplorer.hxx>

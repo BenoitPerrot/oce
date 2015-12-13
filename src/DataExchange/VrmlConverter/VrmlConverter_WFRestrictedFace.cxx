@@ -18,7 +18,7 @@
 #include <gp_Pnt.hxx>
 #include <VrmlConverter_IsoAspect.hxx>
 #include <Adaptor3d_IsoCurve.hxx>
-#include <Bnd_Box2d.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <BndLib_Add2dCurve.hxx>
 #include <Precision.hxx>
 #include <StdPrs_ToolRFace.hxx>

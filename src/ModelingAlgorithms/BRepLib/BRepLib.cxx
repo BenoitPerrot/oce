@@ -83,7 +83,7 @@
 #include <Extrema_LocateExtPC.hxx>
 #include <ProjLib_ProjectedCurve.hxx>
 #include <BRepClass3d_SolidClassifier.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BRepBndLib.hxx>
 #include <Approx_CurvilinearParameter.hxx>
 #include <Geom_BSplineSurface.hxx>

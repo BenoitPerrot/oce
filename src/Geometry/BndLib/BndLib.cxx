@@ -13,9 +13,9 @@
 // commercial license or contractual agreement.
 
 #include <gp_Lin.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <gp_Lin2d.hxx>
-#include <Bnd_Box2d.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <gp_Circ.hxx>
 #include <gp_Circ2d.hxx>
 #include <gp_Elips.hxx>

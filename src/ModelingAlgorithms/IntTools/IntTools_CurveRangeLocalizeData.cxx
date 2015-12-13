@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <IntTools_CurveRangeSample.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <IntTools_ListOfCurveRangeSample.hxx>
 #include <IntTools_CurveRangeLocalizeData.hxx>
 #include <IntTools_ListIteratorOfListOfCurveRangeSample.hxx>

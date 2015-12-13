@@ -24,7 +24,7 @@
 #include <BRepMesh_Edge.hxx>
 #include <BRepMesh_PluginMacro.hxx>
 
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BRep_Builder.hxx>
 #include <BRep_Tool.hxx>
 #include <BRepTools.hxx>

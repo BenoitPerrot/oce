@@ -16,7 +16,7 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_BRepTopAdaptor_TopolTool.hxx>
 #include <TopAbs_State.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <TopTools_SequenceOfShape.hxx>
 #include <Handle_Bnd_HArray1OfBox.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

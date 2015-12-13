@@ -22,7 +22,7 @@
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <TopAbs.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <TopOpeBRepTool_box.hxx>
 
 #ifdef OCCT_DEBUG

@@ -25,7 +25,7 @@
 #include <Graphic3d_AspectMarker3d.hxx>
 #include <Graphic3d_DataStructureManager.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Graphic3d_MapOfStructure.hxx>
 #include <gp_Pnt.hxx>
 #include <Graphic3d_Vector.hxx>

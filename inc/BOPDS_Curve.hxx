@@ -14,7 +14,7 @@
 #include <IntTools_Curve.hxx>
 #include <BOPDS_ListOfPaveBlock.hxx>
 #include <BOPCol_ListOfInteger.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Handle_BOPDS_PaveBlock.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <BOPDS_PaveBlock.hxx>

@@ -57,7 +57,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_Chamf2dDimension)
 
 #include <TopAbs_Orientation.hxx>
 
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BRepBndLib.hxx>
 
 #include <gp_Dir.hxx>

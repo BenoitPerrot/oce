@@ -17,8 +17,8 @@
 #include <gp_Pnt.hxx>
 #include <gp_XYZ.hxx>
 #include <gp_XY.hxx>
-#include <Bnd_B2d.hxx>
-#include <Bnd_Box2d.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_B2d.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/NCollection/NCollection_List.hxx>
 #include <Foundation/NCollection/NCollection_Map.hxx>

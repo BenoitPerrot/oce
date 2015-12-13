@@ -21,7 +21,7 @@
 #include <gp_Pln.hxx>
 #include <Voxel_FastConverter.hxx>
 
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BRep_Tool.hxx>
 #include <BRepBndLib.hxx>
 

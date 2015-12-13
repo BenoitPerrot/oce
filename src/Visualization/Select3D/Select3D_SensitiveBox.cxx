@@ -15,13 +15,13 @@
 // commercial license or contractual agreement.
 
 #include <SelectBasics_EntityOwner.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Select3D_Projector.hxx>
 #include <SelectBasics_ListOfBox2d.hxx>
 #include <Select3D_SensitiveEntity.hxx>
 #include <TopLoc_Location.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>
-#include <Bnd_Box2d.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <gp_Lin.hxx>
 #include <Select3D_SensitiveBox.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -37,7 +37,7 @@ IMPLEMENT_DOWNCAST(Select3D_SensitiveBox,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Select3D_SensitiveBox)
 #include <gp_Pnt2d.hxx>
 #include <gp_Pnt.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <ElCLib.hxx>
 
 

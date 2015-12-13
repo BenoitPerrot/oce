@@ -18,7 +18,7 @@
 #include <TopoDS_Shape.hxx>
 #include <Prs3d_Drawer.hxx>
 #include <Prs3d.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BRepBndLib.hxx>
 #include <Prs3d_Drawer.hxx>
 #include <TopoDS_Shape.hxx>

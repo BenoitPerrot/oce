@@ -21,7 +21,7 @@
 #include <gp_Pln.hxx>
 #include <Handle_Geom_Surface.hxx>
 #include <AIS_KindOfSurface.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <AIS_InteractiveObject.hxx>
 #include <PrsMgr_TypeOfPresentation3d.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>

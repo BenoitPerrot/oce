@@ -3,18 +3,18 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Bnd_Array1OfBox.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Array1OfBox.hxx>
 
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
  
 
 #define Array1Item Bnd_Box
-#define Array1Item_hxx <Bnd_Box.hxx>
+#define Array1Item_hxx <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #define TCollection_Array1 Bnd_Array1OfBox
-#define TCollection_Array1_hxx <Bnd_Array1OfBox.hxx>
+#define TCollection_Array1_hxx <Mathematics/BoundingVolumes/Bnd_Array1OfBox.hxx>
 #include <Foundation/TCollection/TCollection_Array1.gxx>
 

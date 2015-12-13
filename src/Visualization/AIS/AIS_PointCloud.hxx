@@ -18,7 +18,7 @@
 
 #include <AIS.hxx>
 #include <AIS_InteractiveObject.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Graphic3d_ArrayOfPoints.hxx>
 #include <Foundation/Quantity/Quantity_HArray1OfColor.hxx>
 #include <Foundation/Standard/Standard.hxx>

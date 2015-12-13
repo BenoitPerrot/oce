@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Adaptor3d_HSurface.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <IntPolyh_StartPoint.hxx>
 #include <IntPolyh_Triangle.hxx>
 #include <Adaptor3d_HSurface.hxx>

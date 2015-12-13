@@ -24,7 +24,7 @@
 #include <Graphic3d_ArrayOfPolylines.hxx>
 #include <GeomAbs_IsoType.hxx>
 #include <Prs3d_IsoAspect.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Precision.hxx>
 #include <BndLib_AddSurface.hxx>
 #include <Adaptor3d_IsoCurve.hxx>

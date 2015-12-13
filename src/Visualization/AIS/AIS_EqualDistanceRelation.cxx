@@ -24,7 +24,7 @@
 #include <SelectMgr_Selection.hxx>
 #include <AIS_Drawer.hxx>
 #include <TopoDS_Edge.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <gp_Pnt.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <AIS_EqualDistanceRelation.hxx>

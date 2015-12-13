@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Bnd_Sphere.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Sphere.hxx>
 
 Bnd_Sphere::Bnd_Sphere()
   : myCenter (0., 0., 0.),

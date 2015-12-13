@@ -264,7 +264,7 @@ private:
 };
 
 
-#include <Bnd_Box.lxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.lxx>
 
 
 

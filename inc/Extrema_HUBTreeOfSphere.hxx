@@ -19,7 +19,7 @@
 #include <Foundation/NCollection/NCollection_UBTree.hxx>
 #include <Foundation/NCollection/NCollection_UBTreeFiller.hxx>
 #include <Foundation/NCollection/NCollection_Handle.hxx>
-#include <Bnd_Sphere.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Sphere.hxx>
 
 typedef NCollection_UBTree<Standard_Integer,Bnd_Sphere> Extrema_UBTreeOfSphere;
 typedef NCollection_UBTreeFiller<Standard_Integer,Bnd_Sphere> Extrema_UBTreeFillerOfSphere;

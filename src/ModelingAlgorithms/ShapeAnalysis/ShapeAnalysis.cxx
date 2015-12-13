@@ -54,7 +54,7 @@
 #include <Precision.hxx>
 #include <Geom_Surface.hxx>
 #include <Geom_Plane.hxx>
-#include <Bnd_Box2d.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <ShapeAnalysis_Curve.hxx>
 
 #include <TColgp_SequenceOfPnt2d.hxx>

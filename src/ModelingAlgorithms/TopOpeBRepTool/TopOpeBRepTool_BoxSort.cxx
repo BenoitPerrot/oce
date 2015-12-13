@@ -15,10 +15,10 @@
 // commercial license or contractual agreement.
 
 #include <TopOpeBRepTool_HBoxTool.hxx>
-#include <Bnd_HArray1OfBox.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_HArray1OfBox.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <TopoDS_Shape.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 #include <TopOpeBRepTool_BoxSort.hxx>
 

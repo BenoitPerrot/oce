@@ -53,7 +53,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Solid)
 #include <TopExp.hxx>
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <gp_Pnt.hxx>
-#include <Bnd_Box2d.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <ShapeAnalysis.hxx>
 #include <TopoDS_Edge.hxx>
 #include <BRep_Tool.hxx>

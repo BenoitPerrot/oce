@@ -11,7 +11,7 @@
 #include <Handle_ShapeFix_DataMapNodeOfDataMapOfShapeBox2d.hxx>
 
 #include <TopoDS_Shape.hxx>
-#include <Bnd_Box2d.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class TopoDS_Shape;
@@ -56,7 +56,7 @@ private:
 #define TheKey TopoDS_Shape
 #define TheKey_hxx <TopoDS_Shape.hxx>
 #define TheItem Bnd_Box2d
-#define TheItem_hxx <Bnd_Box2d.hxx>
+#define TheItem_hxx <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #define Hasher TopTools_ShapeMapHasher
 #define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode ShapeFix_DataMapNodeOfDataMapOfShapeBox2d

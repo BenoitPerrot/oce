@@ -33,7 +33,7 @@
 #include <gp_Dir.hxx>
 #include <gp_Vec.hxx>
 #include <Prs3d.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BndLib_Add3dCurve.hxx>
 #include <Precision.hxx>
 #include <GCPnts_QuasiUniformDeflection.hxx>

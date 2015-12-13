@@ -8,7 +8,7 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <HLRBRep_CurveTool.hxx>
 #include <IntRes2d_Domain.hxx>
-#include <Bnd_Box2d.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <gp_Pnt2d.hxx>
  
 

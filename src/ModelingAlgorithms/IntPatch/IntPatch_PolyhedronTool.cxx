@@ -15,8 +15,8 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <IntPatch_Polyhedron.hxx>
-#include <Bnd_HArray1OfBox.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_HArray1OfBox.hxx>
 #include <gp_Pnt.hxx>
 #include <IntPatch_PolyhedronTool.hxx>

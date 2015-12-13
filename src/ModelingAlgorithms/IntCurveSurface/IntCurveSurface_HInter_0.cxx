@@ -18,7 +18,7 @@
 #include <IntCurveSurface_TheExactHInter.hxx>
 #include <IntCurveSurface_TheQuadCurvExactHInter.hxx>
 #include <IntCurveSurface_TheQuadCurvFuncOfTheQuadCurvExactHInter.hxx>
-#include <Bnd_BoundSortBox.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_BoundSortBox.hxx>
 #include <gp_Lin.hxx>
 #include <gp_Circ.hxx>
 #include <gp_Elips.hxx>
@@ -26,7 +26,7 @@
 #include <gp_Hypr.hxx>
 #include <IntAna_IntConicQuad.hxx>
 #include <TColgp_Array2OfPnt.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
  
 

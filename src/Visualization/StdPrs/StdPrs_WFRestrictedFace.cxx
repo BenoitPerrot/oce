@@ -16,7 +16,7 @@
 #include <gp_Pnt.hxx>
 #include <Prs3d_IsoAspect.hxx>
 #include <Adaptor3d_IsoCurve.hxx>
-#include <Bnd_Box2d.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <BndLib_Add2dCurve.hxx>
 #include <Precision.hxx>
 #include <GeomAdaptor_Curve.hxx>

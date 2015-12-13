@@ -14,7 +14,7 @@
 #ifndef _BRepExtrema_DistShapeShape_HeaderFile
 #define _BRepExtrema_DistShapeShape_HeaderFile
 
-#include <Bnd_SeqOfBox.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_SeqOfBox.hxx>
 #include <BRepExtrema_SeqOfSolution.hxx>
 #include <BRepExtrema_SolutionElem.hxx>
 #include <BRepExtrema_SupportType.hxx>

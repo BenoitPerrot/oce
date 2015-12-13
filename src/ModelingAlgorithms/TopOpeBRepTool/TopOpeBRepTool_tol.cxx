@@ -21,7 +21,7 @@
 #include <Precision.hxx>
 #include <BRep_Tool.hxx>
 #include <TopOpeBRepTool_HBoxTool.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <TopOpeBRepTool_box.hxx>
 #include <TopOpeBRepTool_define.hxx>
 

@@ -69,9 +69,9 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Shell)
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <Foundation/TColStd/TColStd_DataMapOfIntegerListOfInteger.hxx>
-#include <Bnd_Box.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BRepBndLib.hxx>
-#include <Bnd_Array1OfBox.hxx>
+#include <Mathematics/BoundingVolumes/Bnd_Array1OfBox.hxx>
 #include <Foundation/TColStd/TColStd_MapOfInteger.hxx>
 #include <TopTools_DataMapIteratorOfDataMapOfShapeInteger.hxx>
 #include <TopoDS_Iterator.hxx>
