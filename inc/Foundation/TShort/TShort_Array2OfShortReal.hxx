@@ -102,7 +102,7 @@ private:
 #define Array2Item Standard_ShortReal
 #define Array2Item_hxx <Foundation/Standard/Standard_ShortReal.hxx>
 #define TCollection_Array2 TShort_Array2OfShortReal
-#define TCollection_Array2_hxx <TShort_Array2OfShortReal.hxx>
+#define TCollection_Array2_hxx <Foundation/TShort/TShort_Array2OfShortReal.hxx>
 
 #include <Foundation/TCollection/TCollection_Array2.lxx>
 

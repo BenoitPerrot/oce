@@ -32,8 +32,8 @@
 #include <Poly_Polygon3D.hxx>
 #include <Poly_Polygon2D.hxx>
 #include <Precision.hxx>
-#include <TShort_Array1OfShortReal.hxx>
-#include <TShort_HArray1OfShortReal.hxx>
+#include <Foundation/TShort/TShort_Array1OfShortReal.hxx>
+#include <Foundation/TShort/TShort_HArray1OfShortReal.hxx>
 
 //=======================================================================
 //function : Catenate

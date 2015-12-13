@@ -29,8 +29,8 @@
 #include <TColgp_Array1OfPnt2d.hxx>
 #include <TopAbs_Orientation.hxx>
 #include <TopLoc_Location.hxx>
-#include <TShort_HArray1OfShortReal.hxx>
-#include <TShort_Array1OfShortReal.hxx>
+#include <Foundation/TShort/TShort_HArray1OfShortReal.hxx>
+#include <Foundation/TShort/TShort_Array1OfShortReal.hxx>
 #include <TColgp_Array1OfDir.hxx>
 #include <TopExp_Explorer.hxx>
 #include <TopoDS.hxx>

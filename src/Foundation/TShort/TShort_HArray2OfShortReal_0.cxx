@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TShort_HArray2OfShortReal.hxx>
+#include <Foundation/TShort/TShort_HArray2OfShortReal.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
-#include <TShort_Array2OfShortReal.hxx>
+#include <Foundation/TShort/TShort_Array2OfShortReal.hxx>
 
  
 
@@ -32,9 +32,9 @@ IMPLEMENT_STANDARD_RTTI(TShort_HArray2OfShortReal)
 #define ItemHArray2 Standard_ShortReal
 #define ItemHArray2_hxx <Foundation/Standard/Standard_ShortReal.hxx>
 #define TheArray2 TShort_Array2OfShortReal
-#define TheArray2_hxx <TShort_Array2OfShortReal.hxx>
+#define TheArray2_hxx <Foundation/TShort/TShort_Array2OfShortReal.hxx>
 #define TCollection_HArray2 TShort_HArray2OfShortReal
-#define TCollection_HArray2_hxx <TShort_HArray2OfShortReal.hxx>
+#define TCollection_HArray2_hxx <Foundation/TShort/TShort_HArray2OfShortReal.hxx>
 #define Handle_TCollection_HArray2 Handle_TShort_HArray2OfShortReal
 #define TCollection_HArray2_Type_() TShort_HArray2OfShortReal_Type_()
 #include <Foundation/TCollection/TCollection_HArray2.gxx>

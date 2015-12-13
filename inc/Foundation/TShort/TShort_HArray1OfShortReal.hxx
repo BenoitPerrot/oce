@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TShort_HArray1OfShortReal.hxx>
 
-#include <TShort_Array1OfShortReal.hxx>
+#include <Foundation/TShort/TShort_Array1OfShortReal.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_ShortReal.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
@@ -71,9 +71,9 @@ private:
 #define ItemHArray1 Standard_ShortReal
 #define ItemHArray1_hxx <Foundation/Standard/Standard_ShortReal.hxx>
 #define TheArray1 TShort_Array1OfShortReal
-#define TheArray1_hxx <TShort_Array1OfShortReal.hxx>
+#define TheArray1_hxx <Foundation/TShort/TShort_Array1OfShortReal.hxx>
 #define TCollection_HArray1 TShort_HArray1OfShortReal
-#define TCollection_HArray1_hxx <TShort_HArray1OfShortReal.hxx>
+#define TCollection_HArray1_hxx <Foundation/TShort/TShort_HArray1OfShortReal.hxx>
 #define Handle_TCollection_HArray1 Handle_TShort_HArray1OfShortReal
 #define TCollection_HArray1_Type_() TShort_HArray1OfShortReal_Type_()
 

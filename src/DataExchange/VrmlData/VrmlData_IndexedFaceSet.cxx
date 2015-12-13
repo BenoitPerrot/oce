@@ -27,7 +27,7 @@
 #include <Foundation/NCollection/NCollection_Vector.hxx>
 #include <Foundation/NCollection/NCollection_DataMap.hxx>
 #include <Poly.hxx>
-#include <TShort_HArray1OfShortReal.hxx>
+#include <Foundation/TShort/TShort_HArray1OfShortReal.hxx>
 
 #ifdef _MSC_VER
 #define _CRT_SECURE_NO_DEPRECATE

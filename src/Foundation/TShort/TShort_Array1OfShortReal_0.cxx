@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TShort_Array1OfShortReal.hxx>
+#include <Foundation/TShort/TShort_Array1OfShortReal.hxx>
 
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
@@ -14,6 +14,6 @@
 #define Array1Item Standard_ShortReal
 #define Array1Item_hxx <Foundation/Standard/Standard_ShortReal.hxx>
 #define TCollection_Array1 TShort_Array1OfShortReal
-#define TCollection_Array1_hxx <TShort_Array1OfShortReal.hxx>
+#define TCollection_Array1_hxx <Foundation/TShort/TShort_Array1OfShortReal.hxx>
 #include <Foundation/TCollection/TCollection_Array1.gxx>
 

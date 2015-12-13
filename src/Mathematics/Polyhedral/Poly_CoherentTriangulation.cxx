@@ -21,8 +21,8 @@
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>
-#include <TShort_Array1OfShortReal.hxx> 
-#include <TShort_HArray1OfShortReal.hxx> 
+#include <Foundation/TShort/TShort_Array1OfShortReal.hxx> 
+#include <Foundation/TShort/TShort_HArray1OfShortReal.hxx> 
 
 IMPLEMENT_STANDARD_HANDLE  (Poly_CoherentTriangulation, Standard_Transient)
 IMPLEMENT_STANDARD_RTTIEXT (Poly_CoherentTriangulation, Standard_Transient)

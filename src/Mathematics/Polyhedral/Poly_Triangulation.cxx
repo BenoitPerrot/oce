@@ -15,13 +15,13 @@
 // commercial license or contractual agreement.
 
 #include <TColgp_HArray1OfPnt2d.hxx>
-#include <TShort_HArray1OfShortReal.hxx>
+#include <Foundation/TShort/TShort_HArray1OfShortReal.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_NullObject.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <Poly_Array1OfTriangle.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>
-#include <TShort_Array1OfShortReal.hxx>
+#include <Foundation/TShort/TShort_Array1OfShortReal.hxx>
 #include <Poly_Triangulation.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Poly_Triangulation)

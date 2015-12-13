@@ -2625,8 +2625,8 @@ static int VDrawText (Draw_Interpretor& di, Standard_Integer argc, const char** 
 #include <Poly_Triangle.hxx>
 #include <Poly_Triangulation.hxx>
 #include <TColgp_Array1OfPnt.hxx>
-#include <TShort_Array1OfShortReal.hxx>
-#include <TShort_HArray1OfShortReal.hxx>
+#include <Foundation/TShort/TShort_Array1OfShortReal.hxx>
+#include <Foundation/TShort/TShort_HArray1OfShortReal.hxx>
 
 #include <AIS_Triangulation.hxx>
 #include <StdPrs_ToolShadedShape.hxx>

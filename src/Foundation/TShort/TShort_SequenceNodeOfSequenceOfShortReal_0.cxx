@@ -3,11 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TShort_SequenceNodeOfSequenceOfShortReal.hxx>
+#include <Foundation/TShort/TShort_SequenceNodeOfSequenceOfShortReal.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <TShort_SequenceOfShortReal.hxx>
+#include <Foundation/TShort/TShort_SequenceOfShortReal.hxx>
 
  
 
@@ -29,10 +29,10 @@ IMPLEMENT_STANDARD_RTTI(TShort_SequenceNodeOfSequenceOfShortReal)
 #define SeqItem Standard_ShortReal
 #define SeqItem_hxx <Foundation/Standard/Standard_ShortReal.hxx>
 #define TCollection_SequenceNode TShort_SequenceNodeOfSequenceOfShortReal
-#define TCollection_SequenceNode_hxx <TShort_SequenceNodeOfSequenceOfShortReal.hxx>
+#define TCollection_SequenceNode_hxx <Foundation/TShort/TShort_SequenceNodeOfSequenceOfShortReal.hxx>
 #define Handle_TCollection_SequenceNode Handle_TShort_SequenceNodeOfSequenceOfShortReal
 #define TCollection_SequenceNode_Type_() TShort_SequenceNodeOfSequenceOfShortReal_Type_()
 #define TCollection_Sequence TShort_SequenceOfShortReal
-#define TCollection_Sequence_hxx <TShort_SequenceOfShortReal.hxx>
+#define TCollection_Sequence_hxx <Foundation/TShort/TShort_SequenceOfShortReal.hxx>
 #include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

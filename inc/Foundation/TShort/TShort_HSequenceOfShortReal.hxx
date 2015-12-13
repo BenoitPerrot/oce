@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TShort_HSequenceOfShortReal.hxx>
 
-#include <TShort_SequenceOfShortReal.hxx>
+#include <Foundation/TShort/TShort_SequenceOfShortReal.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_ShortReal.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
@@ -94,9 +94,9 @@ private:
 #define Item Standard_ShortReal
 #define Item_hxx <Foundation/Standard/Standard_ShortReal.hxx>
 #define TheSequence TShort_SequenceOfShortReal
-#define TheSequence_hxx <TShort_SequenceOfShortReal.hxx>
+#define TheSequence_hxx <Foundation/TShort/TShort_SequenceOfShortReal.hxx>
 #define TCollection_HSequence TShort_HSequenceOfShortReal
-#define TCollection_HSequence_hxx <TShort_HSequenceOfShortReal.hxx>
+#define TCollection_HSequence_hxx <Foundation/TShort/TShort_HSequenceOfShortReal.hxx>
 #define Handle_TCollection_HSequence Handle_TShort_HSequenceOfShortReal
 #define TCollection_HSequence_Type_() TShort_HSequenceOfShortReal_Type_()
 

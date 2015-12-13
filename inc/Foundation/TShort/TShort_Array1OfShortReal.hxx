@@ -94,7 +94,7 @@ private:
 #define Array1Item Standard_ShortReal
 #define Array1Item_hxx <Foundation/Standard/Standard_ShortReal.hxx>
 #define TCollection_Array1 TShort_Array1OfShortReal
-#define TCollection_Array1_hxx <TShort_Array1OfShortReal.hxx>
+#define TCollection_Array1_hxx <Foundation/TShort/TShort_Array1OfShortReal.hxx>
 
 #include <Foundation/TCollection/TCollection_Array1.lxx>
 
