@@ -11,7 +11,7 @@
 #include <Handle_IGESBasic_HArray1OfHArray1OfInteger.hxx>
 
 #include <TColStd_Array1OfTransient.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>
 #include <Standard_Integer.hxx>
 class TColStd_HArray1OfInteger;

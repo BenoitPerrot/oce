@@ -13,7 +13,7 @@
 #include <Quantity_Color.hxx>
 #include <Aspect_TypeOfLine.hxx>
 #include <Standard_Real.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class Aspect_AspectLineDefinitionError;
 class Quantity_Color;
 

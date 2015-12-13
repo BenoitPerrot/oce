@@ -16,7 +16,7 @@
 #ifndef Interface_VectorOfFileParameter_HeaderFile
 #define Interface_VectorOfFileParameter_HeaderFile
 
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <NCollection_Vector.hxx>
 #include <Interface_FileParameter.hxx>
 

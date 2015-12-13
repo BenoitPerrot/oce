@@ -12,7 +12,7 @@
 
 #include <Handle_MAT_TListNodeOfListOfEdge.hxx>
 #include <Standard_Integer.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_MAT_Edge.hxx>
 #include <Standard_Boolean.hxx>
 class MAT_TListNodeOfListOfEdge;

@@ -15,7 +15,7 @@
 #include <HLRBRep_SeqOfShapeBounds.hxx>
 #include <BRepTopAdaptor_MapOfShapeTool.hxx>
 #include <Standard_Boolean.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_HLRTopoBRep_OutLiner.hxx>
 #include <Handle_MMgt_TShared.hxx>
 #include <Standard_Integer.hxx>

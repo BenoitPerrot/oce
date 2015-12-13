@@ -11,7 +11,7 @@
 #include <Handle_IGESGeom_HArray1OfCurveOnSurface.hxx>
 
 #include <IGESGeom_Array1OfCurveOnSurface.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_IGESGeom_CurveOnSurface.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;

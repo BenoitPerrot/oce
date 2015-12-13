@@ -13,7 +13,7 @@
 #include <Handle_GeomFill_Boundary.hxx>
 #include <gp_Pnt.hxx>
 #include <Handle_Law_Function.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Real.hxx>
 #include <Standard_Integer.hxx>
 class GeomFill_Boundary;

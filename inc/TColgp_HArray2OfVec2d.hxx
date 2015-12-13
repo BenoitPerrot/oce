@@ -11,7 +11,7 @@
 #include <Handle_TColgp_HArray2OfVec2d.hxx>
 
 #include <TColgp_Array2OfVec2d.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_OutOfRange;

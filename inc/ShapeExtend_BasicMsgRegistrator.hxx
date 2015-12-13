@@ -10,7 +10,7 @@
 #include <Standard_DefineHandle.hxx>
 #include <Handle_ShapeExtend_BasicMsgRegistrator.hxx>
 
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Foundation/Message/Message_Gravity.hxx>
 class Standard_Transient;

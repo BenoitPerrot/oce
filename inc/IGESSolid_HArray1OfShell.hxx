@@ -11,7 +11,7 @@
 #include <Handle_IGESSolid_HArray1OfShell.hxx>
 
 #include <IGESSolid_Array1OfShell.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_IGESSolid_Shell.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;

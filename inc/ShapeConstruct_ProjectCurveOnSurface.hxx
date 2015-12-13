@@ -16,7 +16,7 @@
 #include <Standard_Integer.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Pnt2d.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Geom_Surface.hxx>
 #include <ShapeExtend_Status.hxx>
 #include <Handle_Geom_Curve.hxx>

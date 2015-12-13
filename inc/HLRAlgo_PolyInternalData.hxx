@@ -15,7 +15,7 @@
 #include <Handle_HLRAlgo_HArray1OfTData.hxx>
 #include <Handle_HLRAlgo_HArray1OfPISeg.hxx>
 #include <Handle_HLRAlgo_HArray1OfPINod.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Address.hxx>
 #include <Standard_Real.hxx>
 class HLRAlgo_HArray1OfTData;

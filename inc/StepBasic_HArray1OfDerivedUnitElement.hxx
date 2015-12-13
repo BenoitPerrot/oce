@@ -11,7 +11,7 @@
 #include <Handle_StepBasic_HArray1OfDerivedUnitElement.hxx>
 
 #include <StepBasic_Array1OfDerivedUnitElement.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_StepBasic_DerivedUnitElement.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;

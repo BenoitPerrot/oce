@@ -12,7 +12,7 @@
 
 #include <StepRepr_RepresentedDefinition.hxx>
 #include <Handle_StepRepr_Representation.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepRepr_Representation;
 class StepRepr_RepresentedDefinition;
 

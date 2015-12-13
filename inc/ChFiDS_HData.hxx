@@ -11,7 +11,7 @@
 #include <Handle_ChFiDS_HData.hxx>
 
 #include <ChFiDS_SequenceOfSurfData.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_ChFiDS_SurfData.hxx>
 #include <Standard_Boolean.hxx>
 #include <Standard_Integer.hxx>

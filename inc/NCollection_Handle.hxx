@@ -16,7 +16,7 @@
 #ifndef NCollection_Handle_HeaderFile
 #define NCollection_Handle_HeaderFile
 
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 
 //! Standard type function allowing to check that contained object is Handle
 Standard_EXPORT const Handle(Standard_Type)& STANDARD_TYPE(NCollection_Handle);

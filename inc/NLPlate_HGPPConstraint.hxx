@@ -12,7 +12,7 @@
 
 #include <gp_XY.hxx>
 #include <Standard_Integer.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Boolean.hxx>
 #include <Standard_Real.hxx>
 class gp_XY;

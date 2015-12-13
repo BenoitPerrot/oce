@@ -19,7 +19,7 @@
 #include <Handle_Transfer_ActorOfProcessForFinder.hxx>
 #include <Transfer_TransferMapOfProcessForFinder.hxx>
 #include <Handle_Message_ProgressIndicator.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Transfer_HSequenceOfFinder.hxx>
 #include <Handle_Transfer_IndexedDataMapNodeOfTransferMapOfProcessForFinder.hxx>
 #include <Standard_CString.hxx>

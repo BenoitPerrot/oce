@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <HLRTopoBRep_OutLiner.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <HLRBRep_ShapeBounds.hxx>
 
 //=======================================================================

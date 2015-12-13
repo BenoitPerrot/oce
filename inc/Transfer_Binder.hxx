@@ -14,7 +14,7 @@
 #include <Transfer_StatusExec.hxx>
 #include <Handle_Interface_Check.hxx>
 #include <Handle_Transfer_Binder.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Boolean.hxx>
 #include <Handle_Standard_Type.hxx>
 #include <Standard_CString.hxx>

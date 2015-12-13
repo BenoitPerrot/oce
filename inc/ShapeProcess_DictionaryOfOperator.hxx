@@ -13,7 +13,7 @@
 #include <Standard_Character.hxx>
 #include <Handle_ShapeProcess_DictionaryOfOperator.hxx>
 #include <Handle_ShapeProcess_Operator.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_ShapeProcess_StackItemOfDictionaryOfOperator.hxx>
 #include <Standard_Boolean.hxx>
 #include <Standard_CString.hxx>

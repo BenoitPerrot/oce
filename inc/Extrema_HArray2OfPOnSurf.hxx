@@ -11,7 +11,7 @@
 #include <Handle_Extrema_HArray2OfPOnSurf.hxx>
 
 #include <Extrema_Array2OfPOnSurf.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_OutOfRange;

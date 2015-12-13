@@ -11,7 +11,7 @@
 #include <Handle_HLRTest_ShapeData.hxx>
 
 #include <Draw_Color.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class Draw_Color;
 
 

@@ -14,7 +14,7 @@
 #include <Handle_IGESData_IGESModel.hxx>
 #include <Interface_GeneralLib.hxx>
 #include <TColStd_Array1OfInteger.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_IGESData_Protocol.hxx>
 #include <Handle_IGESData_IGESEntity.hxx>
 #include <Standard_Boolean.hxx>

@@ -11,7 +11,7 @@
 #include <Handle_StepBasic_EffectivityAssignment.hxx>
 
 #include <Handle_StepBasic_Effectivity.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepBasic_Effectivity;
 
 

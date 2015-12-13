@@ -15,7 +15,7 @@
 #include <Standard_Real.hxx>
 #include <Standard_Boolean.hxx>
 #include <Handle_StepVisual_PlanarBox.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepGeom_CartesianPoint;
 class StepVisual_PlanarBox;
 

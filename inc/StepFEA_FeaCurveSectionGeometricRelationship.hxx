@@ -12,7 +12,7 @@
 
 #include <Handle_StepElement_CurveElementSectionDefinition.hxx>
 #include <Handle_StepElement_AnalysisItemWithinRepresentation.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepElement_CurveElementSectionDefinition;
 class StepElement_AnalysisItemWithinRepresentation;
 

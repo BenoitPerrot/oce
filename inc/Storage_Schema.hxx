@@ -15,7 +15,7 @@
 #include <Handle_Storage_CallBack.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <Handle_Storage_HArrayOfSchema.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Storage_Data.hxx>
 #include <Handle_Storage_HeaderData.hxx>
 #include <Handle_Storage_TypeData.hxx>

@@ -11,7 +11,7 @@
 #include <Handle_Units_QuantitiesSequence.hxx>
 
 #include <Units_QtsSequence.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Units_Quantity.hxx>
 #include <Standard_Boolean.hxx>
 #include <Standard_Integer.hxx>

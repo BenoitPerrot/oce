@@ -14,7 +14,7 @@
 #include <Aspect_GradientBackground.hxx>
 #include <Aspect_FillMethod.hxx>
 #include <Standard_Boolean.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Quantity_NameOfColor.hxx>
 #include <Aspect_GradientFillMethod.hxx>
 #include <Aspect_TypeOfResize.hxx>

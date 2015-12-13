@@ -11,7 +11,7 @@
 #include <Handle_IGESData_HArray1OfIGESEntity.hxx>
 
 #include <IGESData_Array1OfIGESEntity.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_IGESData_IGESEntity.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;

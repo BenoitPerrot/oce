@@ -12,7 +12,7 @@
 
 #include <Handle_Quantity_HArray1OfColor.hxx>
 #include <Handle_TColStd_HArray1OfReal.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_OStream.hxx>
 class Quantity_HArray1OfColor;
 class TColStd_HArray1OfReal;

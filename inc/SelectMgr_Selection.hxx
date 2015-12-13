@@ -14,7 +14,7 @@
 #include <SelectBasics_ListIteratorOfListOfSensitive.hxx>
 #include <Standard_Integer.hxx>
 #include <SelectMgr_TypeOfUpdate.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_SelectBasics_SensitiveEntity.hxx>
 #include <Standard_Boolean.hxx>
 class Standard_NullObject;

@@ -11,7 +11,7 @@
 #include <Handle_StepGeom_HArray1OfBoundaryCurve.hxx>
 
 #include <StepGeom_Array1OfBoundaryCurve.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_StepGeom_BoundaryCurve.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;

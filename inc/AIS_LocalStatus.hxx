@@ -15,7 +15,7 @@
 #include <TColStd_ListOfInteger.hxx>
 #include <Quantity_NameOfColor.hxx>
 #include <Handle_Standard_Transient.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class Standard_Transient;
 class TColStd_ListOfInteger;
 

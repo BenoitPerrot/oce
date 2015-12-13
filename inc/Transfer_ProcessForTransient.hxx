@@ -19,7 +19,7 @@
 #include <Handle_Transfer_ActorOfProcessForTransient.hxx>
 #include <Transfer_TransferMapOfProcessForTransient.hxx>
 #include <Handle_Message_ProgressIndicator.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_TColStd_HSequenceOfTransient.hxx>
 #include <Handle_Transfer_IndexedDataMapNodeOfTransferMapOfProcessForTransient.hxx>
 #include <Standard_CString.hxx>

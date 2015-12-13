@@ -11,7 +11,7 @@
 #include <Handle_StepElement_HArray1OfVolumeElementPurposeMember.hxx>
 
 #include <StepElement_Array1OfVolumeElementPurposeMember.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_StepElement_VolumeElementPurposeMember.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;

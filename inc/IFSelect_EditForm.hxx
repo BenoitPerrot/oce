@@ -18,7 +18,7 @@
 #include <Handle_Standard_Transient.hxx>
 #include <Handle_Interface_InterfaceModel.hxx>
 #include <Standard_Integer.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_CString.hxx>
 #include <Handle_IFSelect_ListEditor.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>

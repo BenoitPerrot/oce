@@ -12,7 +12,7 @@
 
 #include <TopoDS_Shape.hxx>
 #include <HLRTopoBRep_Data.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Integer.hxx>
 class TopoDS_Shape;
 class HLRTopoBRep_Data;

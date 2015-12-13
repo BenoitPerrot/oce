@@ -14,7 +14,7 @@
 #include <Handle_StepFEA_HArray1OfCurveElementInterval.hxx>
 #include <Handle_StepFEA_HArray1OfCurveElementEndOffset.hxx>
 #include <Handle_StepFEA_HArray1OfCurveElementEndRelease.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class TCollection_HAsciiString;
 class StepFEA_HArray1OfCurveElementInterval;
 class StepFEA_HArray1OfCurveElementEndOffset;

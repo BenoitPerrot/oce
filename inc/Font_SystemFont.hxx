@@ -14,7 +14,7 @@
 #include <Font_FontAspect.hxx>
 #include <Standard_Integer.hxx>
 #include <Standard_Boolean.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class TCollection_HAsciiString;
 
 

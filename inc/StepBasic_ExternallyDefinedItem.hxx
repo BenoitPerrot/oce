@@ -12,7 +12,7 @@
 
 #include <StepBasic_SourceItem.hxx>
 #include <Handle_StepBasic_ExternalSource.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepBasic_ExternalSource;
 class StepBasic_SourceItem;
 

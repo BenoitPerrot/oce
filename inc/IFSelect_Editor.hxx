@@ -15,7 +15,7 @@
 #include <TColStd_Array1OfTransient.hxx>
 #include <TColStd_Array1OfAsciiString.hxx>
 #include <TColStd_Array1OfInteger.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Interface_TypedValue.hxx>
 #include <Standard_CString.hxx>
 #include <IFSelect_EditValue.hxx>

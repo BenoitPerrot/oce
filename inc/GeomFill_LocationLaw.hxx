@@ -10,7 +10,7 @@
 #include <Standard_DefineHandle.hxx>
 #include <Handle_GeomFill_LocationLaw.hxx>
 
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Adaptor3d_HCurve.hxx>
 #include <Standard_Boolean.hxx>
 #include <Standard_Real.hxx>

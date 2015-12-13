@@ -12,7 +12,7 @@
 
 #include <Handle_TDF_Attribute.hxx>
 #include <TDF_Label.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_OStream.hxx>
 class TDF_Attribute;
 class TDF_Label;

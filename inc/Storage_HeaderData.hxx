@@ -16,7 +16,7 @@
 #include <TColStd_SequenceOfAsciiString.hxx>
 #include <TColStd_SequenceOfExtendedString.hxx>
 #include <Storage_Error.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class Storage_Schema;
 class TCollection_AsciiString;
 class TCollection_ExtendedString;

@@ -10,7 +10,7 @@
 #include <Standard_DefineHandle.hxx>
 #include <Handle_GccInt_Bisec.hxx>
 
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <GccInt_IType.hxx>
 class Standard_DomainError;
 class gp_Pnt2d;

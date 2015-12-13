@@ -11,7 +11,7 @@
 #include <Handle_XSAlgo_AlgoContainer.hxx>
 
 #include <Handle_XSAlgo_ToolContainer.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Real.hxx>
 #include <Standard_CString.hxx>
 #include <Handle_Standard_Transient.hxx>

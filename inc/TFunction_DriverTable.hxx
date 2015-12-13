@@ -12,7 +12,7 @@
 
 #include <TFunction_DataMapOfGUIDDriver.hxx>
 #include <Handle_TFunction_HArray1OfDataMapOfGUIDDriver.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Boolean.hxx>
 #include <Handle_TFunction_Driver.hxx>
 #include <Standard_Integer.hxx>

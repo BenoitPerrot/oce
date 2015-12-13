@@ -11,7 +11,7 @@
 #include <Handle_StepGeom_HArray1OfPcurveOrSurface.hxx>
 
 #include <StepGeom_Array1OfPcurveOrSurface.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_DimensionMismatch;

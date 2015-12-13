@@ -11,7 +11,7 @@
 #include <Handle_StepElement_HSequenceOfCurveElementSectionDefinition.hxx>
 
 #include <StepElement_SequenceOfCurveElementSectionDefinition.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_StepElement_CurveElementSectionDefinition.hxx>
 #include <Standard_Boolean.hxx>
 #include <Standard_Integer.hxx>

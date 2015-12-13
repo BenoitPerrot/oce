@@ -11,7 +11,7 @@
 #include <Handle_LocOpe_GeneratedShape.hxx>
 
 #include <TopTools_ListOfShape.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class TopTools_ListOfShape;
 class TopoDS_Edge;
 class TopoDS_Vertex;

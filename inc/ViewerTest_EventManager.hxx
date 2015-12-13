@@ -13,7 +13,7 @@
 #include <Handle_AIS_InteractiveContext.hxx>
 #include <Handle_V3d_View.hxx>
 #include <Standard_Integer.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class AIS_InteractiveContext;
 class V3d_View;
 class TColgp_Array1OfPnt2d;

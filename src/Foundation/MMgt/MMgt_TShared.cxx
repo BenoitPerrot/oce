@@ -14,7 +14,7 @@
 
 #include <Standard_OutOfMemory.hxx>
 #include <Standard_Type.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 
 IMPLEMENT_STANDARD_TYPE(MMgt_TShared)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

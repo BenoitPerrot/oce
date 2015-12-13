@@ -13,7 +13,7 @@
 #include <Handle_TopOpeBRepDS_HDataStructure.hxx>
 #include <TopOpeBRepDS_DataMapOfIntegerListOfInterference.hxx>
 #include <TopOpeBRepDS_DataMapOfInterferenceShape.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Integer.hxx>
 #include <Handle_TopOpeBRepDS_Interference.hxx>
 #include <Standard_Boolean.hxx>

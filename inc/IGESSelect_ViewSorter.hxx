@@ -13,7 +13,7 @@
 #include <Handle_IGESData_IGESModel.hxx>
 #include <TColStd_IndexedMapOfTransient.hxx>
 #include <TColStd_SequenceOfInteger.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Boolean.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Handle_IGESData_IGESEntity.hxx>

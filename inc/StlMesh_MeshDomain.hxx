@@ -14,7 +14,7 @@
 #include <Standard_Integer.hxx>
 #include <TColgp_SequenceOfXYZ.hxx>
 #include <StlMesh_SequenceOfMeshTriangle.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Boolean.hxx>
 class Standard_NegativeValue;
 class Standard_NullValue;

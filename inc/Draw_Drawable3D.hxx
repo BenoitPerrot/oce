@@ -13,7 +13,7 @@
 #include <Standard_Real.hxx>
 #include <Standard_Boolean.hxx>
 #include <Standard_CString.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_OStream.hxx>
 #include <Draw_Interpretor.hxx>
 class Draw_Display;

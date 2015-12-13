@@ -10,7 +10,7 @@
 #include <Standard_DefineHandle.hxx>
 #include <Handle_StepElement_SurfaceSectionField.hxx>
 
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 
 
 //! Representation of STEP entity SurfaceSectionField

@@ -16,7 +16,7 @@
 #include <Handle_TColgp_HArray1OfPnt2d.hxx>
 #include <Poly_Array1OfTriangle.hxx>
 #include <Handle_TShort_HArray1OfShortReal.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Boolean.hxx>
 class TColgp_HArray1OfPnt2d;
 class TShort_HArray1OfShortReal;

@@ -12,7 +12,7 @@
 
 #include <StepVisual_PresentationSizeAssignmentSelect.hxx>
 #include <Handle_StepVisual_PlanarBox.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepVisual_PlanarBox;
 class StepVisual_PresentationSizeAssignmentSelect;
 

@@ -12,7 +12,7 @@
 
 #include <Handle_IGESData_GlobalNodeOfWriterLib.hxx>
 #include <Handle_IGESData_NodeOfWriterLib.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_IGESData_IGESEntity.hxx>
 #include <Handle_IGESData_ReadWriteModule.hxx>
 #include <Handle_IGESData_Protocol.hxx>

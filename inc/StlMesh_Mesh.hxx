@@ -13,7 +13,7 @@
 #include <Standard_Integer.hxx>
 #include <StlMesh_SequenceOfMeshDomain.hxx>
 #include <gp_XYZ.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Real.hxx>
 #include <Standard_Boolean.hxx>
 class Standard_NegativeValue;

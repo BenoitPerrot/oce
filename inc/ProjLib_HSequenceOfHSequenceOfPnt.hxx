@@ -11,7 +11,7 @@
 #include <Handle_ProjLib_HSequenceOfHSequenceOfPnt.hxx>
 
 #include <ProjLib_SequenceOfHSequenceOfPnt.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_TColgp_HSequenceOfPnt.hxx>
 #include <Standard_Boolean.hxx>
 #include <Standard_Integer.hxx>

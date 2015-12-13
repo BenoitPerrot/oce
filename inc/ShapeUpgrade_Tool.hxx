@@ -12,7 +12,7 @@
 
 #include <Handle_ShapeBuild_ReShape.hxx>
 #include <Standard_Real.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class ShapeBuild_ReShape;
 
 

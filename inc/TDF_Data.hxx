@@ -15,7 +15,7 @@
 #include <Standard_Boolean.hxx>
 #include <TColStd_ListOfInteger.hxx>
 #include <TDF_HAllocator.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <TDF_Label.hxx>
 #include <Handle_TDF_Delta.hxx>
 #include <Standard_OStream.hxx>

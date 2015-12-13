@@ -19,7 +19,7 @@
 #include <Handle_Transfer_TransientProcess.hxx>
 #include <TColStd_DataMapOfIntegerTransient.hxx>
 #include <Handle_TopTools_HSequenceOfShape.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_CString.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Standard_Boolean.hxx>

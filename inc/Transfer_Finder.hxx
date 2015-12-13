@@ -12,7 +12,7 @@
 
 #include <Standard_Integer.hxx>
 #include <Handle_Dico_DictionaryOfTransient.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Boolean.hxx>
 #include <Handle_Standard_Type.hxx>
 #include <Standard_CString.hxx>

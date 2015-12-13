@@ -13,7 +13,7 @@
 #include <Standard_Real.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <Handle_TColStd_HArray1OfReal.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Integer.hxx>
 #include <Standard_Boolean.hxx>
 class TColStd_HArray1OfReal;

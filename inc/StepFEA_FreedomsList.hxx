@@ -11,7 +11,7 @@
 #include <Handle_StepFEA_FreedomsList.hxx>
 
 #include <Handle_StepFEA_HArray1OfDegreeOfFreedom.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepFEA_HArray1OfDegreeOfFreedom;
 
 

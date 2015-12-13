@@ -11,7 +11,7 @@
 #include <Handle_IGESBasic_HArray1OfHArray1OfIGESEntity.hxx>
 
 #include <TColStd_Array1OfTransient.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_IGESData_HArray1OfIGESEntity.hxx>
 #include <Standard_Integer.hxx>
 class IGESData_HArray1OfIGESEntity;

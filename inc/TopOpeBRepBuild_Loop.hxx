@@ -13,7 +13,7 @@
 #include <Standard_Boolean.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopOpeBRepBuild_BlockIterator.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class TopoDS_Shape;
 class TopOpeBRepBuild_BlockIterator;
 

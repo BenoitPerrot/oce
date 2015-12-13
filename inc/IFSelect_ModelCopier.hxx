@@ -16,7 +16,7 @@
 #include <Handle_IFSelect_ShareOut.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>
 #include <Handle_TColStd_HSequenceOfHAsciiString.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Boolean.hxx>
 #include <Handle_Interface_InterfaceModel.hxx>
 #include <Standard_Integer.hxx>

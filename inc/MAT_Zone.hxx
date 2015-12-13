@@ -12,7 +12,7 @@
 
 #include <MAT_SequenceOfArc.hxx>
 #include <Standard_Boolean.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_MAT_BasicElt.hxx>
 #include <Standard_Integer.hxx>
 #include <Handle_MAT_Arc.hxx>

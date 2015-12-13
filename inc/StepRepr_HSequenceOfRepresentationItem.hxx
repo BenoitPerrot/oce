@@ -11,7 +11,7 @@
 #include <Handle_StepRepr_HSequenceOfRepresentationItem.hxx>
 
 #include <StepRepr_SequenceOfRepresentationItem.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_StepRepr_RepresentationItem.hxx>
 #include <Standard_Boolean.hxx>
 #include <Standard_Integer.hxx>

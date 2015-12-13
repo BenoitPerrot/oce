@@ -11,7 +11,7 @@
 #include <Handle_StepElement_HArray1OfCurveElementSectionDefinition.hxx>
 
 #include <StepElement_Array1OfCurveElementSectionDefinition.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_StepElement_CurveElementSectionDefinition.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;

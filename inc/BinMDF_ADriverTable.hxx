@@ -12,7 +12,7 @@
 
 #include <BinMDF_TypeADriverMap.hxx>
 #include <BinMDF_TypeIdMap.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_BinMDF_ADriver.hxx>
 #include <Handle_Standard_Type.hxx>
 #include <Standard_Integer.hxx>

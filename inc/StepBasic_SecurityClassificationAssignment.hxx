@@ -11,7 +11,7 @@
 #include <Handle_StepBasic_SecurityClassificationAssignment.hxx>
 
 #include <Handle_StepBasic_SecurityClassification.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepBasic_SecurityClassification;
 
 

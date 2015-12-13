@@ -11,7 +11,7 @@
 #include <Handle_Transfer_HSequenceOfFinder.hxx>
 
 #include <Transfer_SequenceOfFinder.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Transfer_Finder.hxx>
 #include <Standard_Boolean.hxx>
 #include <Standard_Integer.hxx>

@@ -14,7 +14,7 @@
 #include <TColStd_Array1OfTransient.hxx>
 #include <Handle_TColStd_HArray1OfTransient.hxx>
 #include <HLRAlgo_ListOfBPoint.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Address.hxx>
 #include <Standard_Boolean.hxx>
 class TColStd_HArray1OfTransient;

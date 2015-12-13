@@ -14,7 +14,7 @@
 #include <TopoDS_Face.hxx>
 #include <TopTools_DataMapOfShapeInteger.hxx>
 #include <Standard_Integer.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <TopOpeBRepDS_Kind.hxx>
 #include <Standard_Boolean.hxx>
 class TopOpeBRep_LineInter;

@@ -12,7 +12,7 @@
 
 #include <Handle_StepVisual_CurveStyle.hxx>
 #include <Handle_StepVisual_HArray1OfDirectionCountSelect.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Integer.hxx>
 class StepVisual_CurveStyle;
 class StepVisual_HArray1OfDirectionCountSelect;

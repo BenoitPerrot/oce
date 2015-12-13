@@ -11,7 +11,7 @@
 #include <Handle_ShapeAnalysis_HSequenceOfFreeBounds.hxx>
 
 #include <ShapeAnalysis_SequenceOfFreeBounds.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_ShapeAnalysis_FreeBoundData.hxx>
 #include <Standard_Boolean.hxx>
 #include <Standard_Integer.hxx>

@@ -18,7 +18,7 @@
 
 #include <Standard.hxx>
 #include <Standard_Macro.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 
 #ifdef _WIN32
 #include <windows.h>

@@ -11,7 +11,7 @@
 #include <Handle_StepVisual_TextStyleForDefinedFont.hxx>
 
 #include <Handle_StepVisual_Colour.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepVisual_Colour;
 
 

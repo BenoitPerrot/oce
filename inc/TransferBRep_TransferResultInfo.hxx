@@ -11,7 +11,7 @@
 #include <Handle_TransferBRep_TransferResultInfo.hxx>
 
 #include <Standard_Integer.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 
 
 //! Data structure for storing information on transfer result.

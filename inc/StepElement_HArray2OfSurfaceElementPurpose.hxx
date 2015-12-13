@@ -11,7 +11,7 @@
 #include <Handle_StepElement_HArray2OfSurfaceElementPurpose.hxx>
 
 #include <StepElement_Array2OfSurfaceElementPurpose.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_OutOfRange;

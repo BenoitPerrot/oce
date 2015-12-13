@@ -11,7 +11,7 @@
 #include <Handle_IGESGeom_HArray1OfBoundary.hxx>
 
 #include <IGESGeom_Array1OfBoundary.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_IGESGeom_Boundary.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;

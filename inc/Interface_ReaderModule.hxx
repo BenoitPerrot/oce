@@ -10,7 +10,7 @@
 #include <Standard_DefineHandle.hxx>
 #include <Handle_Interface_ReaderModule.hxx>
 
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Integer.hxx>
 #include <Handle_Interface_FileReaderData.hxx>
 #include <Handle_Interface_Check.hxx>

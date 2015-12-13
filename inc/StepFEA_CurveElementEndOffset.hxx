@@ -12,7 +12,7 @@
 
 #include <StepFEA_CurveElementEndCoordinateSystem.hxx>
 #include <Handle_TColStd_HArray1OfReal.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class TColStd_HArray1OfReal;
 class StepFEA_CurveElementEndCoordinateSystem;
 

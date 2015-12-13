@@ -14,7 +14,7 @@
 #include <Handle_TColStd_HArray1OfInteger.hxx>
 #include <Handle_Interface_HArray1OfHAsciiString.hxx>
 #include <Interface_EntityList.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Boolean.hxx>
 #include <Interface_ParamType.hxx>
 #include <Handle_Standard_Transient.hxx>

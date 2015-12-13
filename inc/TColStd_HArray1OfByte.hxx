@@ -11,7 +11,7 @@
 #include <Handle_TColStd_HArray1OfByte.hxx>
 
 #include <TColStd_Array1OfByte.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Byte.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;

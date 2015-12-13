@@ -14,7 +14,7 @@
 #include <BOPCol_DataMapOfShapeAddress.hxx>
 #include <BOPCol_DataMapOfTransientAddress.hxx>
 #include <Standard_Integer.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Geom_Curve.hxx>
 #include <Standard_Real.hxx>
 #include <TopAbs_State.hxx>

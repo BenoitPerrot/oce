@@ -15,7 +15,7 @@
 #include <Quantity_Color.hxx>
 #include <Standard_Boolean.hxx>
 #include <Aspect_GridDrawMode.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class Quantity_Color;
 
 

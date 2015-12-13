@@ -11,7 +11,7 @@
 #include <Handle_GeomPlate_HSequenceOfCurveConstraint.hxx>
 
 #include <GeomPlate_SequenceOfCurveConstraint.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_GeomPlate_CurveConstraint.hxx>
 #include <Standard_Boolean.hxx>
 #include <Standard_Integer.hxx>

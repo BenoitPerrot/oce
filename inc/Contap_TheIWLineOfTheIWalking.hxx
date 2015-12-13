@@ -16,7 +16,7 @@
 #include <Standard_Integer.hxx>
 #include <IntSurf_PathPoint.hxx>
 #include <gp_Vec.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <IntSurf_Allocator.hxx>
 class IntSurf_LineOn2S;
 class Standard_OutOfRange;

@@ -12,7 +12,7 @@
 
 #include <StepShape_ToleranceMethodDefinition.hxx>
 #include <StepShape_DimensionalCharacteristic.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepShape_ToleranceMethodDefinition;
 class StepShape_DimensionalCharacteristic;
 

@@ -11,7 +11,7 @@
 #include <Handle_TDF_HAttributeArray1.hxx>
 
 #include <TDF_AttributeArray1.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_TDF_Attribute.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;

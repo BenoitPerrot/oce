@@ -11,7 +11,7 @@
 #include <Handle_HLRAlgo_HArray1OfPHDat.hxx>
 
 #include <HLRAlgo_Array1OfPHDat.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_DimensionMismatch;

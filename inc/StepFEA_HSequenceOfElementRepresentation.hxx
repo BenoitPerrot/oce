@@ -11,7 +11,7 @@
 #include <Handle_StepFEA_HSequenceOfElementRepresentation.hxx>
 
 #include <StepFEA_SequenceOfElementRepresentation.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_StepFEA_ElementRepresentation.hxx>
 #include <Standard_Boolean.hxx>
 #include <Standard_Integer.hxx>

@@ -17,7 +17,7 @@
 #include <gp_Trsf2d.hxx>
 #include <Standard_Real.hxx>
 #include <Standard_Integer.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Boolean.hxx>
 #include <Handle_IGESData_HArray1OfIGESEntity.hxx>
 class IGESData_IGESEntity;

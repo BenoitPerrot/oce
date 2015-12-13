@@ -20,7 +20,7 @@
 
 #include <Standard_DefineHandle.hxx>
 #include <NCollection_DefineArray2.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 
 //      Declaration of Array2 class managed by Handle
 

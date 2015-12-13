@@ -12,7 +12,7 @@
 
 #include <StepFEA_CurveElementEndCoordinateSystem.hxx>
 #include <Handle_StepElement_HArray1OfCurveElementEndReleasePacket.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepElement_HArray1OfCurveElementEndReleasePacket;
 class StepFEA_CurveElementEndCoordinateSystem;
 

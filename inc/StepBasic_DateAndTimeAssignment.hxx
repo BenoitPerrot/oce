@@ -12,7 +12,7 @@
 
 #include <Handle_StepBasic_DateAndTime.hxx>
 #include <Handle_StepBasic_DateTimeRole.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepBasic_DateAndTime;
 class StepBasic_DateTimeRole;
 

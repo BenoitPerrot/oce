@@ -15,7 +15,7 @@
 #include <GeomAbs_SurfaceType.hxx>
 #include <Standard_Boolean.hxx>
 #include <Standard_Real.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Integer.hxx>
 class BRepAdaptor_HSurface;
 class TopoDS_Face;

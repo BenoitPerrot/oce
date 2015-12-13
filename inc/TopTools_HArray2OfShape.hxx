@@ -11,7 +11,7 @@
 #include <Handle_TopTools_HArray2OfShape.hxx>
 
 #include <TopTools_Array2OfShape.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_OutOfRange;

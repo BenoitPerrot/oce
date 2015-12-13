@@ -12,7 +12,7 @@
 
 #include <Handle_StepRepr_ShapeAspect.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepRepr_ShapeAspect;
 class TCollection_HAsciiString;
 

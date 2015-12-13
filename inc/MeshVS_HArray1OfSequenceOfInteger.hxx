@@ -11,7 +11,7 @@
 #include <Handle_MeshVS_HArray1OfSequenceOfInteger.hxx>
 
 #include <MeshVS_Array1OfSequenceOfInteger.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_DimensionMismatch;

@@ -17,7 +17,7 @@
 #include <TColStd_SequenceOfInteger.hxx>
 #include <GeomAbs_JoinType.hxx>
 #include <Standard_Boolean.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Integer.hxx>
 #include <Handle_Geom2d_Geometry.hxx>
 #include <Handle_MAT2d_Connexion.hxx>

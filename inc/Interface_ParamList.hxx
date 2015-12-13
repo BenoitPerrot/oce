@@ -11,7 +11,7 @@
 #include <Handle_Interface_ParamList.hxx>
 
 #include <Interface_VectorOfFileParameter.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_OutOfRange;

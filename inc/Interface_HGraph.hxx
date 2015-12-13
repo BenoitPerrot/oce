@@ -11,7 +11,7 @@
 #include <Handle_Interface_HGraph.hxx>
 
 #include <Interface_Graph.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Interface_InterfaceModel.hxx>
 #include <Standard_Boolean.hxx>
 #include <Handle_Interface_Protocol.hxx>

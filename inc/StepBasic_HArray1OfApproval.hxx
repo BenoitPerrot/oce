@@ -11,7 +11,7 @@
 #include <Handle_StepBasic_HArray1OfApproval.hxx>
 
 #include <StepBasic_Array1OfApproval.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_StepBasic_Approval.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;

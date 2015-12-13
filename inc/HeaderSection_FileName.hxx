@@ -12,7 +12,7 @@
 
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Handle_Interface_HArray1OfHAsciiString.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Integer.hxx>
 class TCollection_HAsciiString;
 class Interface_HArray1OfHAsciiString;

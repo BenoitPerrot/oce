@@ -12,7 +12,7 @@
 
 #include <gp_Pln.hxx>
 #include <Quantity_Length.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Real.hxx>
 class gp_Pln;
 

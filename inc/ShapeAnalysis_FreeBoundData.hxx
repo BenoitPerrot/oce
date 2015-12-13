@@ -14,7 +14,7 @@
 #include <Standard_Real.hxx>
 #include <Handle_TopTools_HSequenceOfShape.hxx>
 #include <TopTools_DataMapOfShapeReal.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Integer.hxx>
 class TopTools_HSequenceOfShape;
 class TopoDS_Wire;

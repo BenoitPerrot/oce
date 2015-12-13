@@ -14,7 +14,7 @@
 #include <Standard_Integer.hxx>
 #include <Handle_Storage_HPArray.hxx>
 #include <Storage_MapOfCallBack.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class Storage_HPArray;
 class Storage_Schema;
 

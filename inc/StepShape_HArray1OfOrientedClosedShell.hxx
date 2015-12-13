@@ -11,7 +11,7 @@
 #include <Handle_StepShape_HArray1OfOrientedClosedShell.hxx>
 
 #include <StepShape_Array1OfOrientedClosedShell.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_StepShape_OrientedClosedShell.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;

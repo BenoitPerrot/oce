@@ -11,7 +11,7 @@
 #include <Handle_GeomPlate_HSequenceOfPointConstraint.hxx>
 
 #include <GeomPlate_SequenceOfPointConstraint.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_GeomPlate_PointConstraint.hxx>
 #include <Standard_Boolean.hxx>
 #include <Standard_Integer.hxx>

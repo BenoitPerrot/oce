@@ -20,7 +20,7 @@
 
 #include <Standard_DefineHandle.hxx>
 #include <NCollection_DefineSequence.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 
 //      Declaration of Sequence class managed by Handle
 

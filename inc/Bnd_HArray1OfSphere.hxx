@@ -11,7 +11,7 @@
 #include <Handle_Bnd_HArray1OfSphere.hxx>
 
 #include <Bnd_Array1OfSphere.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_DimensionMismatch;

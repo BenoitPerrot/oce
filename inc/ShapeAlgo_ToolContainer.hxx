@@ -10,7 +10,7 @@
 #include <Standard_DefineHandle.hxx>
 #include <Handle_ShapeAlgo_ToolContainer.hxx>
 
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_ShapeFix_Shape.hxx>
 #include <Handle_ShapeFix_EdgeProjAux.hxx>
 class ShapeFix_Shape;

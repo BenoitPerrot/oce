@@ -11,7 +11,7 @@
 #include <Handle_StepBasic_HArray1OfProductDefinition.hxx>
 
 #include <StepBasic_Array1OfProductDefinition.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_StepBasic_ProductDefinition.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;

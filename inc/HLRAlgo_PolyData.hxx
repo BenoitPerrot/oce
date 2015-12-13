@@ -14,7 +14,7 @@
 #include <Handle_TColgp_HArray1OfXYZ.hxx>
 #include <Handle_HLRAlgo_HArray1OfTData.hxx>
 #include <Handle_HLRAlgo_HArray1OfPHDat.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Address.hxx>
 #include <Standard_Boolean.hxx>
 class TColgp_HArray1OfXYZ;

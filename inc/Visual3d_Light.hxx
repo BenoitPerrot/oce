@@ -11,7 +11,7 @@
 #include <Handle_Visual3d_Light.hxx>
 
 #include <Graphic3d_CLight.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Boolean.hxx>
 #include <Graphic3d_Vertex.hxx>
 #include <Standard_Real.hxx>

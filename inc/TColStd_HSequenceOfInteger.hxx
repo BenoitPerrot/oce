@@ -11,7 +11,7 @@
 #include <Handle_TColStd_HSequenceOfInteger.hxx>
 
 #include <TColStd_SequenceOfInteger.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Integer.hxx>
 #include <Standard_Boolean.hxx>
 class Standard_NoSuchObject;

@@ -11,7 +11,7 @@
 #include <Handle_BRepAlgo_AsDes.hxx>
 
 #include <TopTools_DataMapOfShapeListOfShape.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Boolean.hxx>
 class Standard_ConstructionError;
 class TopoDS_Shape;

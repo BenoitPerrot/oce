@@ -19,7 +19,7 @@
 #include <Standard_OutOfRange.hxx>
 #include <HLRAlgo_Projector.hxx>
 #include <HLRTopoBRep_OutLiner.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <HLRBRep_SeqOfShapeBounds.hxx>
 #include <HLRBRep_ShapeBounds.hxx>
 #include <HLRBRep_InternalAlgo.hxx>

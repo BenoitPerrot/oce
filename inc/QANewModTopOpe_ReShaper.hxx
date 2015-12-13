@@ -12,7 +12,7 @@
 
 #include <TopoDS_Shape.hxx>
 #include <TopTools_MapOfShape.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_TopTools_HSequenceOfShape.hxx>
 class TopoDS_Shape;
 class TopTools_MapOfShape;

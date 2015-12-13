@@ -11,7 +11,7 @@
 #include <Handle_TDataStd_HDataMapOfStringInteger.hxx>
 
 #include <TColStd_DataMapOfStringInteger.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Integer.hxx>
 class TColStd_DataMapOfStringInteger;
 

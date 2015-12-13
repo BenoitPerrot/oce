@@ -11,7 +11,7 @@
 #include <Handle_StepVisual_HArray1OfPresentationStyleAssignment.hxx>
 
 #include <StepVisual_Array1OfPresentationStyleAssignment.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_StepVisual_PresentationStyleAssignment.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;

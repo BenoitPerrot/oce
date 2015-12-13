@@ -11,7 +11,7 @@
 #include <Handle_Transfer_HSequenceOfBinder.hxx>
 
 #include <Transfer_SequenceOfBinder.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Transfer_Binder.hxx>
 #include <Standard_Boolean.hxx>
 #include <Standard_Integer.hxx>

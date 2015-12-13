@@ -11,7 +11,7 @@
 #include <Handle_MDF_ARDriverHSequence.hxx>
 
 #include <MDF_ARDriverSequence.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_MDF_ARDriver.hxx>
 #include <Standard_Boolean.hxx>
 #include <Standard_Integer.hxx>

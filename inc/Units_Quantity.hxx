@@ -13,7 +13,7 @@
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Handle_Units_Dimensions.hxx>
 #include <Handle_Units_UnitsSequence.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_CString.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <Standard_Boolean.hxx>

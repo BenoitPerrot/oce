@@ -11,7 +11,7 @@
 #include <Handle_TColGeom_HArray1OfCurve.hxx>
 
 #include <TColGeom_Array1OfCurve.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Geom_Curve.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;

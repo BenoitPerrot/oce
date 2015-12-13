@@ -11,7 +11,7 @@
 #include <Handle_TColGeom_HArray1OfSurface.hxx>
 
 #include <TColGeom_Array1OfSurface.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Geom_Surface.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;

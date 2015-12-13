@@ -12,7 +12,7 @@
 
 #include <Handle_StepBasic_Organization.hxx>
 #include <Handle_StepBasic_OrganizationRole.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepBasic_Organization;
 class StepBasic_OrganizationRole;
 

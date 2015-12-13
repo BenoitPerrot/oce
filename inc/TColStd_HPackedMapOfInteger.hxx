@@ -11,7 +11,7 @@
 #include <Handle_TColStd_HPackedMapOfInteger.hxx>
 
 #include <TColStd_PackedMapOfInteger.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Integer.hxx>
 
 

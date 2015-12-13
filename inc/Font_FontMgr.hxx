@@ -11,7 +11,7 @@
 #include <Handle_Font_FontMgr.hxx>
 
 #include <Font_NListOfSystemFont.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Font_SystemFont.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Font_FontAspect.hxx>

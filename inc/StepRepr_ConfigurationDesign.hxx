@@ -12,7 +12,7 @@
 
 #include <Handle_StepRepr_ConfigurationItem.hxx>
 #include <StepRepr_ConfigurationDesignItem.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepRepr_ConfigurationItem;
 class StepRepr_ConfigurationDesignItem;
 

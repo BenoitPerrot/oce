@@ -13,7 +13,7 @@
 #include <V3d_TypeOfLight.hxx>
 #include <Handle_Visual3d_Light.hxx>
 #include <Handle_Graphic3d_Structure.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_V3d_Light.hxx>
 #include <V3d_View.hxx>
 #include <Handle_V3d_Viewer.hxx>

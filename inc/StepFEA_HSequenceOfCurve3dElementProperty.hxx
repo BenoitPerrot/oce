@@ -11,7 +11,7 @@
 #include <Handle_StepFEA_HSequenceOfCurve3dElementProperty.hxx>
 
 #include <StepFEA_SequenceOfCurve3dElementProperty.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_StepFEA_Curve3dElementProperty.hxx>
 #include <Standard_Boolean.hxx>
 #include <Standard_Integer.hxx>

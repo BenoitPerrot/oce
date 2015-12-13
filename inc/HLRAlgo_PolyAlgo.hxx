@@ -15,7 +15,7 @@
 #include <HLRAlgo_ListIteratorOfListOfBPoint.hxx>
 #include <Standard_Integer.hxx>
 #include <Standard_Boolean.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Address.hxx>
 class TColStd_HArray1OfTransient;
 class TColStd_Array1OfTransient;

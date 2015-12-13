@@ -12,7 +12,7 @@
 
 #include <Standard_Real.hxx>
 #include <Foundation/Message/Message_SequenceOfProgressScale.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_CString.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Standard_Boolean.hxx>

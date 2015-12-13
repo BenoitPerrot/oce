@@ -19,7 +19,7 @@
 #include <Aspect_SequenceOfColor.hxx>
 #include <TColStd_SequenceOfExtendedString.hxx>
 #include <Aspect_TypeOfColorScalePosition.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class Quantity_Color;
 class TCollection_ExtendedString;
 class TCollection_AsciiString;

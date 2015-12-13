@@ -12,7 +12,7 @@
 
 #include <StepVisual_SurfaceSide.hxx>
 #include <Handle_StepVisual_SurfaceSideStyle.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepVisual_SurfaceSideStyle;
 
 

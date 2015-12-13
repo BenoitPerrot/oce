@@ -21,7 +21,7 @@
 #include <Handle_TColStd_HArray1OfInteger.hxx>
 #include <TColStd_SequenceOfInteger.hxx>
 #include <SelectBasics_PickArgs.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_SelectMgr_Selection.hxx>
 #include <Handle_SelectMgr_SelectableObject.hxx>
 #include <Handle_SelectMgr_EntityOwner.hxx>

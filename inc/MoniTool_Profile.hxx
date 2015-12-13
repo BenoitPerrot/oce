@@ -12,7 +12,7 @@
 
 #include <Handle_Dico_DictionaryOfTransient.hxx>
 #include <TCollection_AsciiString.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_MoniTool_Option.hxx>
 #include <Standard_CString.hxx>
 #include <Handle_TColStd_HSequenceOfAsciiString.hxx>

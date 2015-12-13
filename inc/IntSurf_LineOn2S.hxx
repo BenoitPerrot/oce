@@ -11,7 +11,7 @@
 #include <Handle_IntSurf_LineOn2S.hxx>
 
 #include <IntSurf_SequenceOfPntOn2S.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <IntSurf_Allocator.hxx>
 #include <Standard_Integer.hxx>
 #include <Standard_Boolean.hxx>

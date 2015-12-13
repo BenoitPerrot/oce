@@ -14,7 +14,7 @@
 #include <BRepAlgo_DataMapOfShapeBoolean.hxx>
 #include <TopOpeBRepBuild_BlockBuilder.hxx>
 #include <Standard_Boolean.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class TopoDS_Edge;
 class TopTools_ListOfShape;
 class TopoDS_Shape;

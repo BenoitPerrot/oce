@@ -11,7 +11,7 @@
 #include <Handle_Contap_TheHSequenceOfPoint.hxx>
 
 #include <Contap_TheSequenceOfPoint.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Boolean.hxx>
 #include <Standard_Integer.hxx>
 class Standard_NoSuchObject;

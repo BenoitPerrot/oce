@@ -11,7 +11,7 @@
 #include <Handle_TCollection_SeqNode.hxx>
 
 #include <TCollection_SeqNodePtr.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 
 
 

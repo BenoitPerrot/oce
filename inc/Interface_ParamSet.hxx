@@ -14,7 +14,7 @@
 #include <Standard_Integer.hxx>
 #include <Handle_Interface_ParamList.hxx>
 #include <Handle_Interface_ParamSet.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_CString.hxx>
 #include <Interface_ParamType.hxx>
 class Interface_ParamList;

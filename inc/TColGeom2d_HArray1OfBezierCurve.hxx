@@ -11,7 +11,7 @@
 #include <Handle_TColGeom2d_HArray1OfBezierCurve.hxx>
 
 #include <TColGeom2d_Array1OfBezierCurve.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Geom2d_BezierCurve.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;

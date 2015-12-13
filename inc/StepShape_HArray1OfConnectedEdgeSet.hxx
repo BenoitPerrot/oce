@@ -11,7 +11,7 @@
 #include <Handle_StepShape_HArray1OfConnectedEdgeSet.hxx>
 
 #include <StepShape_Array1OfConnectedEdgeSet.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_StepShape_ConnectedEdgeSet.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;

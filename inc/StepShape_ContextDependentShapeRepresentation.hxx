@@ -12,7 +12,7 @@
 
 #include <Handle_StepRepr_ShapeRepresentationRelationship.hxx>
 #include <Handle_StepRepr_ProductDefinitionShape.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepRepr_ShapeRepresentationRelationship;
 class StepRepr_ProductDefinitionShape;
 

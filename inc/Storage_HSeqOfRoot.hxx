@@ -11,7 +11,7 @@
 #include <Handle_Storage_HSeqOfRoot.hxx>
 
 #include <Storage_SeqOfRoot.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Storage_Root.hxx>
 #include <Standard_Boolean.hxx>
 #include <Standard_Integer.hxx>

@@ -14,7 +14,7 @@
 #include <TDocStd_SequenceOfApplicationDelta.hxx>
 #include <Standard_Integer.hxx>
 #include <Standard_Boolean.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_OStream.hxx>
 #include <Handle_TDocStd_Document.hxx>
 class TDocStd_SequenceOfApplicationDelta;

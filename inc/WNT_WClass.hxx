@@ -13,7 +13,7 @@
 #include <Standard_CString.hxx>
 #include <Aspect_Handle.hxx>
 #include <Standard_Address.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <WNT_Uint.hxx>
 #include <Standard_Integer.hxx>
 class WNT_ClassDefinitionError;

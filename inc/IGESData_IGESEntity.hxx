@@ -17,7 +17,7 @@
 #include <Standard_Character.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Interface_EntityList.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Boolean.hxx>
 #include <IGESData_DefType.hxx>
 #include <Handle_IGESData_LineFontEntity.hxx>

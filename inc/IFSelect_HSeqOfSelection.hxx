@@ -11,7 +11,7 @@
 #include <Handle_IFSelect_HSeqOfSelection.hxx>
 
 #include <IFSelect_TSeqOfSelection.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_IFSelect_Selection.hxx>
 #include <Standard_Boolean.hxx>
 #include <Standard_Integer.hxx>

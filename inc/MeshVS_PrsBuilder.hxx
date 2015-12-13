@@ -16,7 +16,7 @@
 #include <Handle_MeshVS_Drawer.hxx>
 #include <Standard_Integer.hxx>
 #include <PrsMgr_PresentationManager3d.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_MeshVS_Mesh.hxx>
 #include <MeshVS_DisplayModeFlags.hxx>
 #include <MeshVS_BuilderPriority.hxx>

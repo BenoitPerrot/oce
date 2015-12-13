@@ -12,7 +12,7 @@
 
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Handle_StepDimTol_GeometricTolerance.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class TCollection_HAsciiString;
 class StepDimTol_GeometricTolerance;
 

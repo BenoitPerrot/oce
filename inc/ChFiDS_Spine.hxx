@@ -21,7 +21,7 @@
 #include <gp_Pnt.hxx>
 #include <gp_Vec.hxx>
 #include <ChFiDS_ErrorStatus.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_ChFiDS_HElSpine.hxx>
 #include <GeomAbs_CurveType.hxx>
 class TColStd_HArray1OfReal;

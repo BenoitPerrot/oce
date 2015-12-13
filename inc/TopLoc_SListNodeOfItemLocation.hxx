@@ -12,7 +12,7 @@
 
 #include <TopLoc_SListOfItemLocation.hxx>
 #include <TopLoc_ItemLocation.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Integer.hxx>
 class TopLoc_ItemLocation;
 class TopLoc_SListOfItemLocation;

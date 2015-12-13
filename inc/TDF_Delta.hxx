@@ -13,7 +13,7 @@
 #include <Standard_Integer.hxx>
 #include <TDF_AttributeDeltaList.hxx>
 #include <TCollection_ExtendedString.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_TDF_AttributeDelta.hxx>
 #include <Standard_Boolean.hxx>
 #include <Standard_OStream.hxx>

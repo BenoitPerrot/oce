@@ -11,7 +11,7 @@
 #include <Handle_StepBasic_ApprovalAssignment.hxx>
 
 #include <Handle_StepBasic_Approval.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepBasic_Approval;
 
 

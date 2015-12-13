@@ -11,7 +11,7 @@
 #include <Handle_Interface_IntVal.hxx>
 
 #include <Standard_Integer.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 
 
 //! An Integer through a Handle (i.e. managed as TShared)

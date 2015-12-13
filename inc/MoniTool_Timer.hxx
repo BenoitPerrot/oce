@@ -14,7 +14,7 @@
 #include <Standard_Integer.hxx>
 #include <Standard_Real.hxx>
 #include <Handle_MoniTool_Timer.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_OStream.hxx>
 #include <Standard_CString.hxx>
 class OSD_Timer;

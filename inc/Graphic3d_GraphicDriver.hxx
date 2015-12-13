@@ -13,7 +13,7 @@
 #include <Standard_Integer.hxx>
 #include <Aspect_DisplayConnection_Handle.hxx>
 #include <Standard_Boolean.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Graphic3d_CView.hxx>
 #include <Graphic3d_CStructure.hxx>
 #include <Graphic3d_CStructure_Handle.hxx>

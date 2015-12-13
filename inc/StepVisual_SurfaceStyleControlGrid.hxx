@@ -11,7 +11,7 @@
 #include <Handle_StepVisual_SurfaceStyleControlGrid.hxx>
 
 #include <Handle_StepVisual_CurveStyle.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepVisual_CurveStyle;
 
 

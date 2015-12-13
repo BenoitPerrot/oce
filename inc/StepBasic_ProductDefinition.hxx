@@ -13,7 +13,7 @@
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Handle_StepBasic_ProductDefinitionFormation.hxx>
 #include <Handle_StepBasic_ProductDefinitionContext.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class TCollection_HAsciiString;
 class StepBasic_ProductDefinitionFormation;
 class StepBasic_ProductDefinitionContext;

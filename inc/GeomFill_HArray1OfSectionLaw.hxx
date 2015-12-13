@@ -11,7 +11,7 @@
 #include <Handle_GeomFill_HArray1OfSectionLaw.hxx>
 
 #include <GeomFill_Array1OfSectionLaw.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_GeomFill_SectionLaw.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;

@@ -12,7 +12,7 @@
 
 #include <Handle_Transfer_ActorOfProcessForFinder.hxx>
 #include <Standard_Boolean.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Transfer_Finder.hxx>
 #include <Handle_Transfer_HSequenceOfFinder.hxx>
 #include <Handle_Transfer_ProcessForFinder.hxx>

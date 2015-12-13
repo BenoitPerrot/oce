@@ -15,7 +15,7 @@
 #include <Handle_TColStd_HSequenceOfHAsciiString.hxx>
 #include <Handle_TColStd_HSequenceOfInteger.hxx>
 #include <Handle_Interface_InterfaceModel.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Boolean.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 class Interface_TypedValue;

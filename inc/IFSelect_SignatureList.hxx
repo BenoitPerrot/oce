@@ -16,7 +16,7 @@
 #include <TCollection_AsciiString.hxx>
 #include <Handle_Dico_DictionaryOfInteger.hxx>
 #include <Handle_Dico_DictionaryOfTransient.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Standard_CString.hxx>
 #include <Handle_TColStd_HSequenceOfHAsciiString.hxx>

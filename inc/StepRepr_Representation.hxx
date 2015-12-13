@@ -13,7 +13,7 @@
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Handle_StepRepr_HArray1OfRepresentationItem.hxx>
 #include <Handle_StepRepr_RepresentationContext.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_StepRepr_RepresentationItem.hxx>
 #include <Standard_Integer.hxx>
 class TCollection_HAsciiString;

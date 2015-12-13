@@ -12,7 +12,7 @@
 
 #include <Handle_Interface_GlobalNodeOfReaderLib.hxx>
 #include <Handle_Interface_NodeOfReaderLib.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Handle_Interface_ReaderModule.hxx>
 #include <Handle_Interface_Protocol.hxx>

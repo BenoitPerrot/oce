@@ -12,7 +12,7 @@
 
 #include <Handle_StepElement_SurfaceSection.hxx>
 #include <Handle_StepElement_AnalysisItemWithinRepresentation.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepElement_SurfaceSection;
 class StepElement_AnalysisItemWithinRepresentation;
 

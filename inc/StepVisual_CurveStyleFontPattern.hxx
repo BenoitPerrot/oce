@@ -11,7 +11,7 @@
 #include <Handle_StepVisual_CurveStyleFontPattern.hxx>
 
 #include <Standard_Real.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 
 
 

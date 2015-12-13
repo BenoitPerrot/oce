@@ -13,7 +13,7 @@
 #include <IFSelect_SequenceOfGeneralModifier.hxx>
 #include <Interface_IntList.hxx>
 #include <Standard_Integer.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Boolean.hxx>
 #include <Handle_IFSelect_GeneralModifier.hxx>
 #include <Handle_TColStd_HSequenceOfInteger.hxx>

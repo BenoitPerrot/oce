@@ -15,7 +15,7 @@
 #include <AIS_NListIteratorOfListTransient.hxx>
 #include <AIS_NDataMapOfTransientIteratorOfListTransient.hxx>
 #include <Standard_Integer.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_CString.hxx>
 #include <Standard_Boolean.hxx>
 #include <AIS_SelectStatus.hxx>

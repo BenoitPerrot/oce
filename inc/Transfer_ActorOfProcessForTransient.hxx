@@ -12,7 +12,7 @@
 
 #include <Handle_Transfer_ActorOfProcessForTransient.hxx>
 #include <Standard_Boolean.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Handle_TColStd_HSequenceOfTransient.hxx>
 #include <Handle_Transfer_ProcessForTransient.hxx>

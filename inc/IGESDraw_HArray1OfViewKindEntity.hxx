@@ -11,7 +11,7 @@
 #include <Handle_IGESDraw_HArray1OfViewKindEntity.hxx>
 
 #include <IGESDraw_Array1OfViewKindEntity.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_IGESData_ViewKindEntity.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;

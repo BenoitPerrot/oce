@@ -11,7 +11,7 @@
 #include <Handle_StepFEA_HArray1OfCurveElementEndOffset.hxx>
 
 #include <StepFEA_Array1OfCurveElementEndOffset.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_StepFEA_CurveElementEndOffset.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;

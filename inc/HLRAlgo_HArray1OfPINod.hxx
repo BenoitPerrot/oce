@@ -11,7 +11,7 @@
 #include <Handle_HLRAlgo_HArray1OfPINod.hxx>
 
 #include <HLRAlgo_Array1OfPINod.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_HLRAlgo_PolyInternalNode.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;

@@ -11,7 +11,7 @@
 #include <Handle_TestTopOpeDraw_HArray1OfDrawableMesure.hxx>
 
 #include <TestTopOpeDraw_Array1OfDrawableMesure.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_TestTopOpeDraw_DrawableMesure.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;

@@ -12,7 +12,7 @@
 
 #include <Handle_MAT_TListNodeOfListOfBisector.hxx>
 #include <Standard_Integer.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_MAT_Bisector.hxx>
 #include <Standard_Boolean.hxx>
 class MAT_TListNodeOfListOfBisector;

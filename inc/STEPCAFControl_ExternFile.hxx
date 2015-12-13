@@ -15,7 +15,7 @@
 #include <Standard_Boolean.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <TDF_Label.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class XSControl_WorkSession;
 class TCollection_HAsciiString;
 class TDF_Label;

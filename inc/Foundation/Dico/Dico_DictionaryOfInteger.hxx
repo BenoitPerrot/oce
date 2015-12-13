@@ -13,7 +13,7 @@
 #include <Standard_Character.hxx>
 #include <Handle_Dico_DictionaryOfInteger.hxx>
 #include <Standard_Integer.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Dico_StackItemOfDictionaryOfInteger.hxx>
 #include <Standard_Boolean.hxx>
 #include <Standard_CString.hxx>

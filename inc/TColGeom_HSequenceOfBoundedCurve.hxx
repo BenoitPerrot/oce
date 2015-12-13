@@ -11,7 +11,7 @@
 #include <Handle_TColGeom_HSequenceOfBoundedCurve.hxx>
 
 #include <TColGeom_SequenceOfBoundedCurve.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Geom_BoundedCurve.hxx>
 #include <Standard_Boolean.hxx>
 #include <Standard_Integer.hxx>

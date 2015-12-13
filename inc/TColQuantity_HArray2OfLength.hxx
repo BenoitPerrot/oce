@@ -11,7 +11,7 @@
 #include <Handle_TColQuantity_HArray2OfLength.hxx>
 
 #include <TColQuantity_Array2OfLength.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Quantity_Length.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;

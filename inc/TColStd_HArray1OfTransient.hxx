@@ -11,7 +11,7 @@
 #include <Handle_TColStd_HArray1OfTransient.hxx>
 
 #include <TColStd_Array1OfTransient.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;

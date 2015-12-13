@@ -15,7 +15,7 @@
 #include <Handle_ShapeAnalysis_Surface.hxx>
 #include <Standard_Real.hxx>
 #include <Standard_Integer.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Geom_Surface.hxx>
 #include <Standard_Boolean.hxx>
 #include <Handle_Geom2d_Curve.hxx>

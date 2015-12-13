@@ -12,7 +12,7 @@
 
 #include <Handle_TColStd_HArray2OfReal.hxx>
 #include <Standard_Real.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_TColStd_HArray2OfInteger.hxx>
 #include <Standard_Integer.hxx>
 #include <math_Vector.hxx>

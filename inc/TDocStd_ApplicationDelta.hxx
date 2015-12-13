@@ -12,7 +12,7 @@
 
 #include <TDocStd_SequenceOfDocument.hxx>
 #include <TCollection_ExtendedString.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_OStream.hxx>
 class TDocStd_SequenceOfDocument;
 class TCollection_ExtendedString;

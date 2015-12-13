@@ -10,7 +10,7 @@
 #include <Standard_DefineHandle.hxx>
 #include <Handle_Storage_CallBack.hxx>
 
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Standard_Persistent.hxx>
 #include <Handle_Storage_Schema.hxx>
 class Standard_Persistent;

@@ -19,7 +19,7 @@
 #include <VrmlConverter_TypeOfCamera.hxx>
 #include <VrmlConverter_TypeOfLight.hxx>
 #include <Vrml_MatrixTransform.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Quantity_Length.hxx>
 #include <Standard_OStream.hxx>
 class TopTools_Array1OfShape;

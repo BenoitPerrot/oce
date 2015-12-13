@@ -12,7 +12,7 @@
 
 #include <Handle_StepBasic_MeasureValueMember.hxx>
 #include <StepBasic_Unit.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Real.hxx>
 class StepBasic_MeasureValueMember;
 class StepBasic_Unit;

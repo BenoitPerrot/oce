@@ -11,7 +11,7 @@
 #include <Handle_TDataStd_HDataMapOfStringReal.hxx>
 
 #include <TDataStd_DataMapOfStringReal.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Integer.hxx>
 class TDataStd_DataMapOfStringReal;
 

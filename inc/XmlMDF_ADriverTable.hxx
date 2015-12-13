@@ -11,7 +11,7 @@
 #include <Handle_XmlMDF_ADriverTable.hxx>
 
 #include <XmlMDF_TypeADriverMap.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_XmlMDF_ADriver.hxx>
 #include <Standard_Boolean.hxx>
 #include <Handle_Standard_Type.hxx>

@@ -11,7 +11,7 @@
 #include <Handle_Visual3d_HSequenceOfView.hxx>
 
 #include <Visual3d_SequenceOfView.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Visual3d_View.hxx>
 #include <Standard_Boolean.hxx>
 #include <Standard_Integer.hxx>

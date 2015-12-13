@@ -11,7 +11,7 @@
 #include <Handle_IGESDefs_HArray1OfTabularData.hxx>
 
 #include <IGESDefs_Array1OfTabularData.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_IGESDefs_TabularData.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;

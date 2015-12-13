@@ -12,7 +12,7 @@
 
 #include <StepFEA_DegreeOfFreedom.hxx>
 #include <StepElement_MeasureOrUnspecifiedValue.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepFEA_DegreeOfFreedom;
 class StepElement_MeasureOrUnspecifiedValue;
 

@@ -11,7 +11,7 @@
 #include <Handle_GeomFill_Boundary.hxx>
 
 #include <Standard_Real.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Boolean.hxx>
 class gp_Pnt;
 class gp_Vec;

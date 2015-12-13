@@ -18,7 +18,7 @@
 #include <Standard_Real.hxx>
 #include <Standard_Integer.hxx>
 #include <Standard_Boolean.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class Geom_Surface;
 class Standard_ConstructionError;
 class gp_Pnt;

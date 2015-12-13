@@ -11,7 +11,7 @@
 #include <Handle_IGESSolid_HArray1OfVertexList.hxx>
 
 #include <IGESSolid_Array1OfVertexList.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_IGESSolid_VertexList.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;

@@ -11,7 +11,7 @@
 #include <Handle_TopOpeBRepDS_Association.hxx>
 
 #include <TopOpeBRepDS_DataMapOfInterferenceListOfInterference.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_TopOpeBRepDS_Interference.hxx>
 #include <Standard_Boolean.hxx>
 class TopOpeBRepDS_Interference;

@@ -11,7 +11,7 @@
 #include <Handle_TColgp_HArray2OfPnt.hxx>
 
 #include <TColgp_Array2OfPnt.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_OutOfRange;

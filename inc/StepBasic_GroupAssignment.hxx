@@ -11,7 +11,7 @@
 #include <Handle_StepBasic_GroupAssignment.hxx>
 
 #include <Handle_StepBasic_Group.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepBasic_Group;
 
 

@@ -12,7 +12,7 @@
 
 #include <Handle_Interface_GlobalNodeOfGeneralLib.hxx>
 #include <Handle_Interface_NodeOfGeneralLib.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Handle_Interface_GeneralModule.hxx>
 #include <Handle_Interface_Protocol.hxx>

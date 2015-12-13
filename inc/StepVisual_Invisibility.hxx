@@ -11,7 +11,7 @@
 #include <Handle_StepVisual_Invisibility.hxx>
 
 #include <Handle_StepVisual_HArray1OfInvisibleItem.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Integer.hxx>
 class StepVisual_HArray1OfInvisibleItem;
 class StepVisual_InvisibleItem;

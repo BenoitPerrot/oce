@@ -11,7 +11,7 @@
 #include <Handle_TFunction_HArray1OfDataMapOfGUIDDriver.hxx>
 
 #include <TFunction_Array1OfDataMapOfGUIDDriver.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_DimensionMismatch;

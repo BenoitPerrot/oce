@@ -12,7 +12,7 @@
 
 #include <Handle_StepBasic_ObjectRole.hxx>
 #include <StepBasic_RoleSelect.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepBasic_ObjectRole;
 class StepBasic_RoleSelect;
 

@@ -14,7 +14,7 @@
 #include <Standard_Real.hxx>
 #include <Handle_StepBasic_CoordinatedUniversalTimeOffset.hxx>
 #include <Standard_Boolean.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepBasic_CoordinatedUniversalTimeOffset;
 
 

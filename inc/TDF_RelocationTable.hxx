@@ -14,7 +14,7 @@
 #include <TDF_LabelDataMap.hxx>
 #include <TDF_AttributeDataMap.hxx>
 #include <TColStd_IndexedDataMapOfTransientTransient.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_TDF_Attribute.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Standard_OStream.hxx>

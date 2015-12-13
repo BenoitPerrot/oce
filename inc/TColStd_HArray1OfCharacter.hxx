@@ -11,7 +11,7 @@
 #include <Handle_TColStd_HArray1OfCharacter.hxx>
 
 #include <TColStd_Array1OfCharacter.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Character.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;

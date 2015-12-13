@@ -12,7 +12,7 @@
 
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Handle_StepVisual_HArray1OfCurveStyleFontPattern.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_StepVisual_CurveStyleFontPattern.hxx>
 #include <Standard_Integer.hxx>
 class TCollection_HAsciiString;

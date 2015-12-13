@@ -11,7 +11,7 @@
 #include <Handle_IGESDimen_HArray1OfGeneralNote.hxx>
 
 #include <IGESDimen_Array1OfGeneralNote.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_IGESDimen_GeneralNote.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;

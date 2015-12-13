@@ -12,7 +12,7 @@
 
 #include <ExprIntrp_SequenceOfNamedFunction.hxx>
 #include <ExprIntrp_SequenceOfNamedExpression.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Expr_NamedFunction.hxx>
 #include <Handle_Expr_NamedExpression.hxx>
 class Expr_NamedFunction;

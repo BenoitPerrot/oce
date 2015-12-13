@@ -11,7 +11,7 @@
 #include <Handle_StepBasic_ContractAssignment.hxx>
 
 #include <Handle_StepBasic_Contract.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepBasic_Contract;
 
 

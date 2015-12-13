@@ -18,7 +18,7 @@
 #include <PrsMgr_PresentableObjectPointer.hxx>
 #include <gp_Trsf.hxx>
 #include <PrsMgr_ListOfPresentableObjects.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Graphic3d_Structure.hxx>
 #include <Handle_Graphic3d_DataStructureManager.hxx>
 #include <PrsMgr_Presentation.hxx>

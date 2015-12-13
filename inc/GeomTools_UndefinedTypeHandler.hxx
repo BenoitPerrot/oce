@@ -10,7 +10,7 @@
 #include <Standard_DefineHandle.hxx>
 #include <Handle_GeomTools_UndefinedTypeHandler.hxx>
 
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Geom_Curve.hxx>
 #include <Standard_OStream.hxx>
 #include <Standard_Boolean.hxx>

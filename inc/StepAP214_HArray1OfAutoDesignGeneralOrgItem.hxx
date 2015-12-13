@@ -11,7 +11,7 @@
 #include <Handle_StepAP214_HArray1OfAutoDesignGeneralOrgItem.hxx>
 
 #include <StepAP214_Array1OfAutoDesignGeneralOrgItem.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_DimensionMismatch;

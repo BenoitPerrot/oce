@@ -11,7 +11,7 @@
 #include <Handle_Storage_HArrayOfCallBack.hxx>
 
 #include <Storage_ArrayOfCallBack.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Storage_CallBack.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;

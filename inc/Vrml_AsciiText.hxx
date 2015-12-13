@@ -13,7 +13,7 @@
 #include <Handle_TColStd_HArray1OfAsciiString.hxx>
 #include <Standard_Real.hxx>
 #include <Vrml_AsciiTextJustification.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_OStream.hxx>
 class TColStd_HArray1OfAsciiString;
 

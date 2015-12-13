@@ -11,7 +11,7 @@
 #include <Handle_StepShape_HArray1OfShell.hxx>
 
 #include <StepShape_Array1OfShell.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_DimensionMismatch;

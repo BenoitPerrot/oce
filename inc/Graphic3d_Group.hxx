@@ -18,7 +18,7 @@
 #include <Graphic3d_CAspectFillArea.hxx>
 #include <Graphic3d_CAspectMarker.hxx>
 #include <Graphic3d_CAspectText.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Graphic3d_Structure.hxx>
 #include <Handle_Graphic3d_AspectLine3d.hxx>
 #include <Handle_Graphic3d_AspectFillArea3d.hxx>

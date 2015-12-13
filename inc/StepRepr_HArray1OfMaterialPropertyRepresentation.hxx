@@ -11,7 +11,7 @@
 #include <Handle_StepRepr_HArray1OfMaterialPropertyRepresentation.hxx>
 
 #include <StepRepr_Array1OfMaterialPropertyRepresentation.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_StepRepr_MaterialPropertyRepresentation.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;

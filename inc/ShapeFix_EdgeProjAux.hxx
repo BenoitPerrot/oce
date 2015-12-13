@@ -14,7 +14,7 @@
 #include <TopoDS_Edge.hxx>
 #include <Standard_Real.hxx>
 #include <Standard_Boolean.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Geom2d_Curve.hxx>
 class TopoDS_Face;
 class TopoDS_Edge;

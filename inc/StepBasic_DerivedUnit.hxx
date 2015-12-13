@@ -11,7 +11,7 @@
 #include <Handle_StepBasic_DerivedUnit.hxx>
 
 #include <Handle_StepBasic_HArray1OfDerivedUnitElement.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Integer.hxx>
 #include <Handle_StepBasic_DerivedUnitElement.hxx>
 class StepBasic_HArray1OfDerivedUnitElement;

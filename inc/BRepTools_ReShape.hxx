@@ -13,7 +13,7 @@
 #include <TopTools_DataMapOfShapeShape.hxx>
 #include <Standard_Integer.hxx>
 #include <Standard_Boolean.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <TopAbs_ShapeEnum.hxx>
 class TopoDS_Shape;
 

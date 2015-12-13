@@ -11,7 +11,7 @@
 #include <Handle_Transfer_MapContainer.hxx>
 
 #include <TColStd_DataMapOfTransientTransient.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class TColStd_DataMapOfTransientTransient;
 
 

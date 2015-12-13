@@ -11,7 +11,7 @@
 #include <Handle_IGESDefs_HArray1OfHArray1OfTextDisplayTemplate.hxx>
 
 #include <TColStd_Array1OfTransient.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_IGESGraph_HArray1OfTextDisplayTemplate.hxx>
 #include <Standard_Integer.hxx>
 class IGESGraph_HArray1OfTextDisplayTemplate;

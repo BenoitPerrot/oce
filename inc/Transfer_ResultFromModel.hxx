@@ -15,7 +15,7 @@
 #include <Handle_Transfer_ResultFromTransient.hxx>
 #include <Standard_Integer.hxx>
 #include <Interface_CheckStatus.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_CString.hxx>
 #include <Standard_Boolean.hxx>
 #include <Handle_Transfer_TransientProcess.hxx>

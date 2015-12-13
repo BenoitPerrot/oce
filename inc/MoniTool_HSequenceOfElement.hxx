@@ -11,7 +11,7 @@
 #include <Handle_MoniTool_HSequenceOfElement.hxx>
 
 #include <MoniTool_SequenceOfElement.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_MoniTool_Element.hxx>
 #include <Standard_Boolean.hxx>
 #include <Standard_Integer.hxx>

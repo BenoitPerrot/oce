@@ -11,7 +11,7 @@
 #include <Handle_StepShape_ToleranceValue.hxx>
 
 #include <Handle_StepBasic_MeasureWithUnit.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepBasic_MeasureWithUnit;
 
 

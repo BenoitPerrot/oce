@@ -14,7 +14,7 @@
 #include <Handle_Interface_ParamSet.hxx>
 #include <TColStd_Array1OfInteger.hxx>
 #include <TColStd_Array1OfTransient.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_CString.hxx>
 #include <Interface_ParamType.hxx>
 #include <Handle_Interface_ParamList.hxx>

@@ -11,7 +11,7 @@
 #include <Handle_StepShape_PrecisionQualifier.hxx>
 
 #include <Standard_Integer.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 
 
 //! Added for Dimensional Tolerances

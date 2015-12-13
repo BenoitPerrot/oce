@@ -13,7 +13,7 @@
 #include <TopoDS_Edge.hxx>
 #include <Geom2dAdaptor_Curve.hxx>
 #include <IntRes2d_Domain.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Integer.hxx>
 class TopoDS_Edge;
 class BRepAdaptor_Surface;

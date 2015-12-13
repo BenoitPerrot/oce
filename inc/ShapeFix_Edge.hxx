@@ -12,7 +12,7 @@
 
 #include <Standard_Integer.hxx>
 #include <Handle_ShapeConstruct_ProjectCurveOnSurface.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Boolean.hxx>
 #include <Handle_Geom_Surface.hxx>
 #include <Standard_Real.hxx>

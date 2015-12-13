@@ -24,7 +24,7 @@
 #include <Standard_Integer.hxx>
 #include <TColStd_SequenceOfInteger.hxx>
 #include <AIS_SequenceOfInteractive.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_AIS_InteractiveObject.hxx>
 #include <AIS_InteractiveContext.hxx>
 #include <Handle_Select3D_Projector.hxx>

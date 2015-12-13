@@ -11,7 +11,7 @@
 #include <Handle_TCollection_HExtendedString.hxx>
 
 #include <TCollection_ExtendedString.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_CString.hxx>
 #include <Standard_ExtString.hxx>
 #include <Standard_ExtCharacter.hxx>

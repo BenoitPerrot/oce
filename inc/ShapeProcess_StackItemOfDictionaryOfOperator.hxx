@@ -12,7 +12,7 @@
 
 #include <Handle_ShapeProcess_DictionaryOfOperator.hxx>
 #include <Handle_ShapeProcess_StackItemOfDictionaryOfOperator.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_ShapeProcess_Operator.hxx>
 class ShapeProcess_DictionaryOfOperator;
 class ShapeProcess_Operator;

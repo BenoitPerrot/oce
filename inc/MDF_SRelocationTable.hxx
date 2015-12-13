@@ -12,7 +12,7 @@
 
 #include <PTColStd_TransientPersistentMap.hxx>
 #include <Standard_Boolean.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_TDF_Attribute.hxx>
 #include <Handle_PDF_Attribute.hxx>
 #include <Handle_Standard_Transient.hxx>

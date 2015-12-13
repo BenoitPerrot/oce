@@ -13,7 +13,7 @@
 #include <Standard_Integer.hxx>
 #include <Standard_Address.hxx>
 #include <Standard_Real.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_MAT_Arc.hxx>
 #include <Standard_Boolean.hxx>
 class MAT_Arc;

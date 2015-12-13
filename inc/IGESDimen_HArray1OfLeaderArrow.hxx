@@ -11,7 +11,7 @@
 #include <Handle_IGESDimen_HArray1OfLeaderArrow.hxx>
 
 #include <IGESDimen_Array1OfLeaderArrow.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_IGESDimen_LeaderArrow.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;

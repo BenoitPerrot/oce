@@ -14,7 +14,7 @@
 #include <IntSurf_TypeTrans.hxx>
 #include <BRepBlend_Extremity.hxx>
 #include <Standard_Boolean.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Integer.hxx>
 class Standard_OutOfRange;
 class Blend_Point;

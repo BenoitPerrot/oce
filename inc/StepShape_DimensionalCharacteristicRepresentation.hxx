@@ -12,7 +12,7 @@
 
 #include <StepShape_DimensionalCharacteristic.hxx>
 #include <Handle_StepShape_ShapeDimensionRepresentation.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepShape_ShapeDimensionRepresentation;
 class StepShape_DimensionalCharacteristic;
 

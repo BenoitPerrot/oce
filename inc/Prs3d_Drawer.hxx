@@ -27,7 +27,7 @@
 #include <Handle_Prs3d_DimensionAspect.hxx>
 #include <Prs3d_DimensionUnits.hxx>
 #include <Prs3d_TypeOfHLR.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class Prs3d_IsoAspect;
 class Prs3d_LineAspect;
 class Prs3d_TextAspect;

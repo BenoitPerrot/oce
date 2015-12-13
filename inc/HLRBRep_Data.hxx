@@ -29,7 +29,7 @@
 #include <HLRBRep_Intersector.hxx>
 #include <Handle_BRepTopAdaptor_TopolTool.hxx>
 #include <HLRAlgo_Interference.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <TopAbs_State.hxx>
 class BRepTopAdaptor_TopolTool;
 class StdFail_UndefinedDerivative;

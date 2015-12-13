@@ -11,7 +11,7 @@
 #include <Handle_StepDimTol_HArray1OfDatumReference.hxx>
 
 #include <StepDimTol_Array1OfDatumReference.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_StepDimTol_DatumReference.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;

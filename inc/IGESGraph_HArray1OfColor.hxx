@@ -11,7 +11,7 @@
 #include <Handle_IGESGraph_HArray1OfColor.hxx>
 
 #include <IGESGraph_Array1OfColor.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_IGESGraph_Color.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;

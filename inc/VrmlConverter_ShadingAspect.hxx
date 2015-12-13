@@ -13,7 +13,7 @@
 #include <Handle_Vrml_Material.hxx>
 #include <Vrml_ShapeHints.hxx>
 #include <Standard_Boolean.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class Vrml_Material;
 class Vrml_ShapeHints;
 

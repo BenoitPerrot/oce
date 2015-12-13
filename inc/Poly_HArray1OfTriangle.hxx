@@ -11,7 +11,7 @@
 #include <Handle_Poly_HArray1OfTriangle.hxx>
 
 #include <Poly_Array1OfTriangle.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_DimensionMismatch;

@@ -11,7 +11,7 @@
 #include <Handle_StepRepr_HArray1OfRepresentationItem.hxx>
 
 #include <StepRepr_Array1OfRepresentationItem.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_StepRepr_RepresentationItem.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;

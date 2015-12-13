@@ -11,7 +11,7 @@
 #include <Handle_Message_Printer.hxx>
 
 #include <Foundation/Message/Message_Gravity.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Boolean.hxx>
 #include <Standard_CString.hxx>
 class TCollection_ExtendedString;

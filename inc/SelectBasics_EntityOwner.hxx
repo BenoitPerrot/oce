@@ -11,7 +11,7 @@
 #include <Handle_SelectBasics_EntityOwner.hxx>
 
 #include <Standard_Integer.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Boolean.hxx>
 class TopLoc_Location;
 

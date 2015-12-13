@@ -10,7 +10,7 @@
 #include <Standard_DefineHandle.hxx>
 #include <Handle_MgtTopoDS_TranslateTool1.hxx>
 
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class Standard_TypeMismatch;
 class TopoDS_Shape;
 class PTopoDS_Shape1;

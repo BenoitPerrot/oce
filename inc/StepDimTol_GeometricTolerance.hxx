@@ -13,7 +13,7 @@
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Handle_StepBasic_MeasureWithUnit.hxx>
 #include <Handle_StepRepr_ShapeAspect.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class TCollection_HAsciiString;
 class StepBasic_MeasureWithUnit;
 class StepRepr_ShapeAspect;

@@ -13,7 +13,7 @@
 #include <Handle_StepRepr_NextAssemblyUsageOccurrence.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Handle_STEPSelections_AssemblyComponent.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepRepr_NextAssemblyUsageOccurrence;
 class Standard_Transient;
 class STEPSelections_AssemblyComponent;

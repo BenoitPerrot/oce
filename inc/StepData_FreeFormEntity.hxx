@@ -13,7 +13,7 @@
 #include <TCollection_AsciiString.hxx>
 #include <Handle_StepData_HArray1OfField.hxx>
 #include <Handle_StepData_FreeFormEntity.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_CString.hxx>
 #include <Standard_Boolean.hxx>
 #include <Handle_TColStd_HSequenceOfAsciiString.hxx>

@@ -12,7 +12,7 @@
 
 #include <BOPDS_ListOfPaveBlock.hxx>
 #include <BOPCol_ListOfInteger.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <BOPCol_BaseAllocator.hxx>
 #include <Handle_BOPDS_PaveBlock.hxx>
 #include <Standard_Integer.hxx>

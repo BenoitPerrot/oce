@@ -19,7 +19,7 @@
 #include <Standard_Boolean.hxx>
 #include <GeomLProp_SLProps.hxx>
 #include <Standard_Real.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class Adaptor3d_HCurveOnSurface;
 class Adaptor3d_HCurve;
 class Geom2d_Curve;

@@ -10,7 +10,7 @@
 #include <Standard_DefineHandle.hxx>
 #include <Handle_IGESToBRep_ToolContainer.hxx>
 
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_IGESToBRep_IGESBoundary.hxx>
 class IGESToBRep_IGESBoundary;
 

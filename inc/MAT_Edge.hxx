@@ -13,7 +13,7 @@
 #include <Standard_Integer.hxx>
 #include <Handle_MAT_Bisector.hxx>
 #include <Standard_Real.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class MAT_Bisector;
 
 

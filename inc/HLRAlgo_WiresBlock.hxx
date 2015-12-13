@@ -12,7 +12,7 @@
 
 #include <TColStd_Array1OfTransient.hxx>
 #include <Standard_Integer.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_HLRAlgo_EdgesBlock.hxx>
 #include <Standard_Address.hxx>
 class HLRAlgo_EdgesBlock;

@@ -16,7 +16,7 @@
 #include <Standard_Boolean.hxx>
 #include <TopTools_DataMapOfShapeShape.hxx>
 #include <Standard_Integer.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Real.hxx>
 class TopoDS_Shape;
 class TopoDS_Wire;

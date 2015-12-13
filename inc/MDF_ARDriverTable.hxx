@@ -13,7 +13,7 @@
 #include <Standard_Integer.hxx>
 #include <MDF_TypeARDriverMap.hxx>
 #include <MDF_TypeDriverListMapOfARDriverTable.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_MDF_ARDriver.hxx>
 #include <Handle_MDF_ARDriverHSequence.hxx>
 #include <Handle_MDF_ListNodeOfDriverListOfARDriverTable.hxx>

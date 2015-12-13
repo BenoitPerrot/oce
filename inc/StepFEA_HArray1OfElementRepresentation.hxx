@@ -11,7 +11,7 @@
 #include <Handle_StepFEA_HArray1OfElementRepresentation.hxx>
 
 #include <StepFEA_Array1OfElementRepresentation.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_StepFEA_ElementRepresentation.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;

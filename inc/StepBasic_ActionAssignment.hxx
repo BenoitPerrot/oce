@@ -11,7 +11,7 @@
 #include <Handle_StepBasic_ActionAssignment.hxx>
 
 #include <Handle_StepBasic_Action.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepBasic_Action;
 
 

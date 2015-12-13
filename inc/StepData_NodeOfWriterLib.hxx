@@ -12,7 +12,7 @@
 
 #include <Handle_StepData_GlobalNodeOfWriterLib.hxx>
 #include <Handle_StepData_NodeOfWriterLib.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Handle_StepData_ReadWriteModule.hxx>
 #include <Handle_StepData_Protocol.hxx>

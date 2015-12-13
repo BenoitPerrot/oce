@@ -12,7 +12,7 @@
 
 #include <Handle_SelectBasics_EntityOwner.hxx>
 #include <Standard_ShortReal.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Boolean.hxx>
 #include <SelectBasics_PickArgs.hxx>
 #include <Standard_Real.hxx>

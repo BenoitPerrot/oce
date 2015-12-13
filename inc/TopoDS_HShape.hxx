@@ -11,7 +11,7 @@
 #include <Handle_TopoDS_HShape.hxx>
 
 #include <TopoDS_Shape.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class TopoDS_Shape;
 
 

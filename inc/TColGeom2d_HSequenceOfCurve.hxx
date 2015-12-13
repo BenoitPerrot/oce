@@ -11,7 +11,7 @@
 #include <Handle_TColGeom2d_HSequenceOfCurve.hxx>
 
 #include <TColGeom2d_SequenceOfCurve.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Geom2d_Curve.hxx>
 #include <Standard_Boolean.hxx>
 #include <Standard_Integer.hxx>

@@ -11,7 +11,7 @@
 #include <Handle_Approx_HArray1OfAdHSurface.hxx>
 
 #include <Approx_Array1OfAdHSurface.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Adaptor3d_HSurface.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;

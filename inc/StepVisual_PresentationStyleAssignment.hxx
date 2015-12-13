@@ -11,7 +11,7 @@
 #include <Handle_StepVisual_PresentationStyleAssignment.hxx>
 
 #include <Handle_StepVisual_HArray1OfPresentationStyleSelect.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Integer.hxx>
 class StepVisual_HArray1OfPresentationStyleSelect;
 class StepVisual_PresentationStyleSelect;

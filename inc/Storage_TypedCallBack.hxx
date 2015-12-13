@@ -13,7 +13,7 @@
 #include <TCollection_AsciiString.hxx>
 #include <Handle_Storage_CallBack.hxx>
 #include <Standard_Integer.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class Storage_CallBack;
 class TCollection_AsciiString;
 

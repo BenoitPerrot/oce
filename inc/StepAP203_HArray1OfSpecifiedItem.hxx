@@ -11,7 +11,7 @@
 #include <Handle_StepAP203_HArray1OfSpecifiedItem.hxx>
 
 #include <StepAP203_Array1OfSpecifiedItem.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_DimensionMismatch;

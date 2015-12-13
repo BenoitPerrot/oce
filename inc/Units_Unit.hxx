@@ -14,7 +14,7 @@
 #include <Handle_TColStd_HSequenceOfHAsciiString.hxx>
 #include <Standard_Real.hxx>
 #include <Handle_Units_Quantity.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_CString.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <Handle_Units_Token.hxx>

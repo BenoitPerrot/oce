@@ -16,7 +16,7 @@
 #ifndef _OpenGl_View_Header
 #define _OpenGl_View_Header
 
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_DefineHandle.hxx>
 
 #include <TColStd_Array2OfReal.hxx>

@@ -11,7 +11,7 @@
 #include <Handle_StepGeom_HArray2OfCartesianPoint.hxx>
 
 #include <StepGeom_Array2OfCartesianPoint.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_StepGeom_CartesianPoint.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;

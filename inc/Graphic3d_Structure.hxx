@@ -17,7 +17,7 @@
 #include <Graphic3d_StructureManagerPtr.hxx>
 #include <Standard_Address.hxx>
 #include <Graphic3d_TypeOfStructure.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Graphic3d_StructureManager.hxx>
 #include <Standard_Boolean.hxx>
 #include <Standard_Integer.hxx>

@@ -12,7 +12,7 @@
 
 #include <StepElement_CurveElementFreedom.hxx>
 #include <Standard_Real.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepElement_CurveElementFreedom;
 
 

@@ -14,7 +14,7 @@
 #include <Handle_TColStd_HSequenceOfInteger.hxx>
 #include <Standard_Integer.hxx>
 #include <Standard_Boolean.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class TopTools_HSequenceOfShape;
 class TColStd_HSequenceOfInteger;
 class TopoDS_Wire;

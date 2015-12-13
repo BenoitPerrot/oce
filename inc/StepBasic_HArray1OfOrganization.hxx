@@ -11,7 +11,7 @@
 #include <Handle_StepBasic_HArray1OfOrganization.hxx>
 
 #include <StepBasic_Array1OfOrganization.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_StepBasic_Organization.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;

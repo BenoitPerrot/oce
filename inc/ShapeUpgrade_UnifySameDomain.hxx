@@ -13,7 +13,7 @@
 #include <TopoDS_Shape.hxx>
 #include <Standard_Boolean.hxx>
 #include <Handle_ShapeBuild_ReShape.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class ShapeBuild_ReShape;
 class TopoDS_Shape;
 

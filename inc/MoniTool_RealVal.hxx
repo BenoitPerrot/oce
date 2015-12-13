@@ -11,7 +11,7 @@
 #include <Handle_MoniTool_RealVal.hxx>
 
 #include <Standard_Real.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 
 
 //! A Real through a Handle (i.e. managed as TShared)

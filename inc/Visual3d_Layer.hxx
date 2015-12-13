@@ -14,7 +14,7 @@
 #include <Aspect_CLayer2d.hxx>
 #include <Standard_Address.hxx>
 #include <Visual3d_NListOfLayerItem.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Visual3d_ViewManager.hxx>
 #include <Aspect_TypeOfLayer.hxx>
 #include <Standard_Boolean.hxx>

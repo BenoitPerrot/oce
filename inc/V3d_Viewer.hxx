@@ -37,7 +37,7 @@
 #include <Handle_Graphic3d_Group.hxx>
 #include <Handle_Graphic3d_AspectMarker3d.hxx>
 #include <Graphic3d_Vertex.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_ExtString.hxx>
 #include <Standard_CString.hxx>
 #include <Quantity_NameOfColor.hxx>

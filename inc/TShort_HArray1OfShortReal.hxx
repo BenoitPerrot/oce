@@ -11,7 +11,7 @@
 #include <Handle_TShort_HArray1OfShortReal.hxx>
 
 #include <TShort_Array1OfShortReal.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_ShortReal.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;

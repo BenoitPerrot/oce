@@ -11,7 +11,7 @@
 #include <Handle_StepRepr_RepresentationContext.hxx>
 
 #include <Handle_TCollection_HAsciiString.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class TCollection_HAsciiString;
 
 

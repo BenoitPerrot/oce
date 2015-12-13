@@ -12,7 +12,7 @@
 
 #include <Handle_StepBasic_Document.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepBasic_Document;
 class TCollection_HAsciiString;
 

@@ -11,7 +11,7 @@
 #include <Handle_StepShape_HArray1OfFaceBound.hxx>
 
 #include <StepShape_Array1OfFaceBound.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_StepShape_FaceBound.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;

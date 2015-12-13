@@ -12,7 +12,7 @@
 
 #include <Handle_Dico_DictionaryOfInteger.hxx>
 #include <Handle_Dico_StackItemOfDictionaryOfInteger.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Integer.hxx>
 class Dico_DictionaryOfInteger;
 class Dico_IteratorOfDictionaryOfInteger;

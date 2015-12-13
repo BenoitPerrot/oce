@@ -11,7 +11,7 @@
 #include <Handle_StepElement_HSequenceOfElementMaterial.hxx>
 
 #include <StepElement_SequenceOfElementMaterial.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_StepElement_ElementMaterial.hxx>
 #include <Standard_Boolean.hxx>
 #include <Standard_Integer.hxx>

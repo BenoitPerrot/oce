@@ -11,7 +11,7 @@
 #include <Handle_Plate_HArray1OfPinpointConstraint.hxx>
 
 #include <Plate_Array1OfPinpointConstraint.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_DimensionMismatch;

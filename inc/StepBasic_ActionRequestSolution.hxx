@@ -12,7 +12,7 @@
 
 #include <Handle_StepBasic_ActionMethod.hxx>
 #include <Handle_StepBasic_VersionedActionRequest.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepBasic_ActionMethod;
 class StepBasic_VersionedActionRequest;
 

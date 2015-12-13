@@ -16,7 +16,7 @@
 #include <Handle_Geom2d_Curve.hxx>
 #include <Standard_Integer.hxx>
 #include <TopAbs_Orientation.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Boolean.hxx>
 class ChFiDS_Spine;
 class ChFiDS_HData;

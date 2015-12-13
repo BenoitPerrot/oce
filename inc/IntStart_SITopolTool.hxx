@@ -10,7 +10,7 @@
 #include <Standard_DefineHandle.hxx>
 #include <Handle_IntStart_SITopolTool.hxx>
 
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <TopAbs_State.hxx>
 #include <Standard_Real.hxx>
 class gp_Pnt2d;

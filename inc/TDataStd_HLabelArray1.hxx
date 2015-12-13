@@ -11,7 +11,7 @@
 #include <Handle_TDataStd_HLabelArray1.hxx>
 
 #include <TDataStd_LabelArray1.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_DimensionMismatch;

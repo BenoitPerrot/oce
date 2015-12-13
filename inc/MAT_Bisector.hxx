@@ -14,7 +14,7 @@
 #include <Handle_MAT_Edge.hxx>
 #include <Handle_MAT_ListOfBisector.hxx>
 #include <Standard_Real.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class MAT_Edge;
 class MAT_ListOfBisector;
 

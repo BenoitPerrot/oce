@@ -22,7 +22,7 @@
 #include <Handle_TColStd_HSequenceOfHAsciiString.hxx>
 #include <TColStd_SequenceOfInteger.hxx>
 #include <Handle_Interface_HArray1OfHAsciiString.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_CString.hxx>
 #include <Standard_Integer.hxx>
 #include <Standard_Boolean.hxx>

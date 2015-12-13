@@ -11,7 +11,7 @@
 #include <Handle_StepBasic_CertificationAssignment.hxx>
 
 #include <Handle_StepBasic_Certification.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepBasic_Certification;
 
 

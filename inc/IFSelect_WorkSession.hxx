@@ -22,7 +22,7 @@
 #include <TColStd_IndexedDataMapOfTransientTransient.hxx>
 #include <Handle_Dico_DictionaryOfTransient.hxx>
 #include <Handle_IFSelect_ModelCopier.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_IFSelect_Signature.hxx>
 #include <Standard_CString.hxx>
 #include <IFSelect_ReturnStatus.hxx>

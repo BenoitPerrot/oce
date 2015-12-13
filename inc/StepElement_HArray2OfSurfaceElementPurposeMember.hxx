@@ -11,7 +11,7 @@
 #include <Handle_StepElement_HArray2OfSurfaceElementPurposeMember.hxx>
 
 #include <StepElement_Array2OfSurfaceElementPurposeMember.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_StepElement_SurfaceElementPurposeMember.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;

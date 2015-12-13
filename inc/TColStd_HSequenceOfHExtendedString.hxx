@@ -11,7 +11,7 @@
 #include <Handle_TColStd_HSequenceOfHExtendedString.hxx>
 
 #include <TColStd_SequenceOfHExtendedString.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_TCollection_HExtendedString.hxx>
 #include <Standard_Boolean.hxx>
 #include <Standard_Integer.hxx>

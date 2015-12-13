@@ -11,7 +11,7 @@
 #include <Handle_TCollection_MapNode.hxx>
 
 #include <TCollection_MapNodePtr.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 
 
 //! Basic class root of all the Maps.

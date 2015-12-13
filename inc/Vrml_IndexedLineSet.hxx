@@ -11,7 +11,7 @@
 #include <Handle_Vrml_IndexedLineSet.hxx>
 
 #include <Handle_TColStd_HArray1OfInteger.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_OStream.hxx>
 class TColStd_HArray1OfInteger;
 

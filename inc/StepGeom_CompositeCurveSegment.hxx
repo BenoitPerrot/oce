@@ -13,7 +13,7 @@
 #include <StepGeom_TransitionCode.hxx>
 #include <Standard_Boolean.hxx>
 #include <Handle_StepGeom_Curve.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepGeom_Curve;
 
 

@@ -12,7 +12,7 @@
 
 #include <Standard_Address.hxx>
 #include <Standard_Integer.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_MAT_Arc.hxx>
 class MAT_Arc;
 

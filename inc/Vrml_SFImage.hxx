@@ -14,7 +14,7 @@
 #include <Vrml_SFImageNumber.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>
 #include <Standard_Boolean.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class TColStd_HArray1OfInteger;
 
 

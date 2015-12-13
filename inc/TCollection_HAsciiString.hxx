@@ -11,7 +11,7 @@
 #include <Handle_TCollection_HAsciiString.hxx>
 
 #include <TCollection_AsciiString.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_CString.hxx>
 #include <Standard_Character.hxx>
 #include <Standard_Integer.hxx>

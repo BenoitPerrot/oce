@@ -11,7 +11,7 @@
 #include <Handle_GeomFill_Line.hxx>
 
 #include <Standard_Integer.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 
 
 //! class for instantiation of AppBlend

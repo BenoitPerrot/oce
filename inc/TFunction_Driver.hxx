@@ -11,7 +11,7 @@
 #include <Handle_TFunction_Driver.hxx>
 
 #include <TDF_Label.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Boolean.hxx>
 #include <Standard_Integer.hxx>
 class TDF_Label;

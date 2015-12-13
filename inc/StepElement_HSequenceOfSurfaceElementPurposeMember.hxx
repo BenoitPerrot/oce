@@ -11,7 +11,7 @@
 #include <Handle_StepElement_HSequenceOfSurfaceElementPurposeMember.hxx>
 
 #include <StepElement_SequenceOfSurfaceElementPurposeMember.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_StepElement_SurfaceElementPurposeMember.hxx>
 #include <Standard_Boolean.hxx>
 #include <Standard_Integer.hxx>

@@ -11,7 +11,7 @@
 #include <Handle_IGESBasic_HArray1OfLineFontEntity.hxx>
 
 #include <IGESBasic_Array1OfLineFontEntity.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_IGESData_LineFontEntity.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;

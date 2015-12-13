@@ -11,7 +11,7 @@
 #include <Handle_StepBasic_ActionRequestAssignment.hxx>
 
 #include <Handle_StepBasic_VersionedActionRequest.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepBasic_VersionedActionRequest;
 
 

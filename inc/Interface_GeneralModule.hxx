@@ -10,7 +10,7 @@
 #include <Standard_DefineHandle.hxx>
 #include <Handle_Interface_GeneralModule.hxx>
 
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Interface_InterfaceModel.hxx>
 #include <Standard_Integer.hxx>
 #include <Handle_Standard_Transient.hxx>

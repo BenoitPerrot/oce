@@ -15,7 +15,7 @@
 #include <Interface_GeneralLib.hxx>
 #include <Interface_DataMapOfTransientInteger.hxx>
 #include <TColStd_IndexedDataMapOfTransientTransient.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Integer.hxx>
 #include <Standard_CString.hxx>
 #include <Handle_Standard_Transient.hxx>

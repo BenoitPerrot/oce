@@ -13,7 +13,7 @@
 #include <TColStd_Array1OfInteger.hxx>
 #include <TColStd_Array1OfBoolean.hxx>
 #include <Standard_Integer.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <TopAbs_Orientation.hxx>
 #include <Standard_Boolean.hxx>
 #include <Standard_Address.hxx>

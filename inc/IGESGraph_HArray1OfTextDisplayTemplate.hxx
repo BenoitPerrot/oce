@@ -11,7 +11,7 @@
 #include <Handle_IGESGraph_HArray1OfTextDisplayTemplate.hxx>
 
 #include <IGESGraph_Array1OfTextDisplayTemplate.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_IGESGraph_TextDisplayTemplate.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;

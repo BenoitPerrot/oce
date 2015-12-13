@@ -12,7 +12,7 @@
 
 #include <Handle_StepVisual_PresentationLayerAssignment.hxx>
 #include <Handle_StepVisual_PresentationRepresentation.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepVisual_PresentationLayerAssignment;
 class StepVisual_PresentationRepresentation;
 

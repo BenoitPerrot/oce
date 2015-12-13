@@ -11,7 +11,7 @@
 #include <Handle_GeomFill_HArray1OfLocationLaw.hxx>
 
 #include <GeomFill_Array1OfLocationLaw.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_GeomFill_LocationLaw.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;

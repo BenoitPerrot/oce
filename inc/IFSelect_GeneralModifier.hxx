@@ -13,7 +13,7 @@
 #include <Handle_IFSelect_Selection.hxx>
 #include <Handle_IFSelect_Dispatch.hxx>
 #include <Standard_Boolean.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class IFSelect_Selection;
 class IFSelect_Dispatch;
 class TCollection_AsciiString;

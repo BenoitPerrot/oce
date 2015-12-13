@@ -11,7 +11,7 @@
 #include <Handle_FEmTool_HAssemblyTable.hxx>
 
 #include <FEmTool_AssemblyTable.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;

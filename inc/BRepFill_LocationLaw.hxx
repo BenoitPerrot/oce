@@ -17,7 +17,7 @@
 #include <Handle_TopTools_HArray1OfShape.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>
 #include <Standard_Integer.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <GeomFill_PipeError.hxx>
 #include <Handle_GeomFill_LocationLaw.hxx>
 #include <Standard_Boolean.hxx>

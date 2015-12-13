@@ -11,7 +11,7 @@
 #include <Handle_Vrml_TextureCoordinate2.hxx>
 
 #include <Handle_TColgp_HArray1OfVec2d.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_OStream.hxx>
 class TColgp_HArray1OfVec2d;
 

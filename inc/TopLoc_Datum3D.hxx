@@ -11,7 +11,7 @@
 #include <Handle_TopLoc_Datum3D.hxx>
 
 #include <gp_Trsf.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_OStream.hxx>
 class Standard_ConstructionError;
 class gp_Trsf;

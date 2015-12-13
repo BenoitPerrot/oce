@@ -12,7 +12,7 @@
 
 #include <Handle_Units_QuantitiesSequence.hxx>
 #include <Handle_TColStd_HSequenceOfInteger.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_CString.hxx>
 #include <Standard_Boolean.hxx>
 #include <Standard_Real.hxx>

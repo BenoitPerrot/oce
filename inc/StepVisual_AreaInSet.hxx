@@ -12,7 +12,7 @@
 
 #include <Handle_StepVisual_PresentationArea.hxx>
 #include <Handle_StepVisual_PresentationSet.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepVisual_PresentationArea;
 class StepVisual_PresentationSet;
 

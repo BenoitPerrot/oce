@@ -11,7 +11,7 @@
 #include <Handle_Graphic3d_HSequenceOfStructure.hxx>
 
 #include <Graphic3d_SequenceOfStructure.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Graphic3d_Structure.hxx>
 #include <Standard_Boolean.hxx>
 #include <Standard_Integer.hxx>

@@ -13,7 +13,7 @@
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Handle_StepBasic_MeasureWithUnit.hxx>
 #include <Handle_StepShape_HArray1OfValueQualifier.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Integer.hxx>
 class TCollection_HAsciiString;
 class StepBasic_MeasureWithUnit;

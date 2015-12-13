@@ -21,7 +21,7 @@
 #include <TopTools_DataMapOfShapeListOfShape.hxx>
 #include <Handle_BRepTools_ReShape.hxx>
 #include <TopTools_MapOfShape.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Message_ProgressIndicator.hxx>
 #include <Handle_Geom_Surface.hxx>
 #include <Handle_Geom2d_Curve.hxx>

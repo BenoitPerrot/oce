@@ -21,7 +21,7 @@
 #include <MoniTool_ValueSatisfies.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Handle_Standard_Transient.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_CString.hxx>
 #include <Handle_Message_Messenger.hxx>
 #include <Standard_Boolean.hxx>

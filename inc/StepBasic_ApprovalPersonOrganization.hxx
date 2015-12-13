@@ -13,7 +13,7 @@
 #include <StepBasic_PersonOrganizationSelect.hxx>
 #include <Handle_StepBasic_Approval.hxx>
 #include <Handle_StepBasic_ApprovalRole.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepBasic_Approval;
 class StepBasic_ApprovalRole;
 class StepBasic_PersonOrganizationSelect;

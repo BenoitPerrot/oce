@@ -13,7 +13,7 @@
 #include <Standard_Integer.hxx>
 #include <StepBasic_AheadOrBehind.hxx>
 #include <Standard_Boolean.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 
 
 

@@ -16,7 +16,7 @@
 #include <Handle_Adaptor3d_HVertex.hxx>
 #include <Handle_Adaptor3d_HSurface.hxx>
 #include <Handle_TColStd_HArray1OfReal.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Adaptor2d_HCurve2d.hxx>
 #include <Standard_Boolean.hxx>
 #include <TopAbs_State.hxx>

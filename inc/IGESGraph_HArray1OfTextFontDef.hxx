@@ -11,7 +11,7 @@
 #include <Handle_IGESGraph_HArray1OfTextFontDef.hxx>
 
 #include <IGESGraph_Array1OfTextFontDef.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_IGESGraph_TextFontDef.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;

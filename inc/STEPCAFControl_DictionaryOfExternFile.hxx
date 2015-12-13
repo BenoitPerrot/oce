@@ -13,7 +13,7 @@
 #include <Standard_Character.hxx>
 #include <Handle_STEPCAFControl_DictionaryOfExternFile.hxx>
 #include <Handle_STEPCAFControl_ExternFile.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_STEPCAFControl_StackItemOfDictionaryOfExternFile.hxx>
 #include <Standard_Boolean.hxx>
 #include <Standard_CString.hxx>

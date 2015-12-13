@@ -11,7 +11,7 @@
 #include <Handle_TDataStd_HDataMapOfStringHArray1OfInteger.hxx>
 
 #include <TDataStd_DataMapOfStringHArray1OfInteger.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Integer.hxx>
 class TDataStd_DataMapOfStringHArray1OfInteger;
 

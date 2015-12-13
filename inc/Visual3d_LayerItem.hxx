@@ -11,7 +11,7 @@
 #include <Handle_Visual3d_LayerItem.hxx>
 
 #include <Standard_Boolean.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 
 
 //! This class is drawable unit of 2d scene

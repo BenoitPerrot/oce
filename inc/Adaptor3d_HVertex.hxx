@@ -13,7 +13,7 @@
 #include <gp_Pnt2d.hxx>
 #include <Standard_Real.hxx>
 #include <TopAbs_Orientation.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Adaptor2d_HCurve2d.hxx>
 #include <Standard_Boolean.hxx>
 class gp_Pnt2d;

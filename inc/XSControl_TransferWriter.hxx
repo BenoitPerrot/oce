@@ -13,7 +13,7 @@
 #include <Handle_XSControl_Controller.hxx>
 #include <Handle_Transfer_FinderProcess.hxx>
 #include <Standard_Integer.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Boolean.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <IFSelect_ReturnStatus.hxx>

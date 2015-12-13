@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <ChFiDS_FaceInterference.hxx>
 #include <ChFiDS_CommonPoint.hxx>
 #include <gp_Pnt2d.hxx>

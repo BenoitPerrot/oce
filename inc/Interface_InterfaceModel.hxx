@@ -16,7 +16,7 @@
 #include <Standard_Boolean.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Handle_Interface_GTool.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Interface_Protocol.hxx>
 #include <Standard_Integer.hxx>
 #include <Handle_Standard_Transient.hxx>

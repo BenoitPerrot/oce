@@ -15,7 +15,7 @@
 #include <Handle_MoniTool_TypedValue.hxx>
 #include <Handle_Dico_DictionaryOfTransient.hxx>
 #include <Handle_Standard_Transient.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_CString.hxx>
 #include <Standard_Boolean.hxx>
 #include <Handle_TColStd_HSequenceOfAsciiString.hxx>

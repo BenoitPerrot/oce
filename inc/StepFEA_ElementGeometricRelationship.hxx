@@ -13,7 +13,7 @@
 #include <StepFEA_ElementOrElementGroup.hxx>
 #include <Handle_StepElement_AnalysisItemWithinRepresentation.hxx>
 #include <StepElement_ElementAspect.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepElement_AnalysisItemWithinRepresentation;
 class StepFEA_ElementOrElementGroup;
 class StepElement_ElementAspect;

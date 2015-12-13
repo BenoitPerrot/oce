@@ -17,7 +17,7 @@
 #define No_Standard_OutOfRange
 
 #include <TopoDS_Shape.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <HLRBRep_Algo.hxx>
 #include <Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(HLRBRep_Algo)

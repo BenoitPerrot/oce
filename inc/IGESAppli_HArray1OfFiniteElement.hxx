@@ -11,7 +11,7 @@
 #include <Handle_IGESAppli_HArray1OfFiniteElement.hxx>
 
 #include <IGESAppli_Array1OfFiniteElement.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_IGESAppli_FiniteElement.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;

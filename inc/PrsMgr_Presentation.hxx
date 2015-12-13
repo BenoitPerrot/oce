@@ -15,7 +15,7 @@
 #include <PrsMgr_PresentableObjectPointer.hxx>
 #include <Standard_Boolean.hxx>
 #include <Standard_Integer.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_PrsMgr_PresentableObject.hxx>
 #include <Quantity_NameOfColor.hxx>
 #include <Handle_Geom_Transformation.hxx>

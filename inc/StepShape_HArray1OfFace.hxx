@@ -11,7 +11,7 @@
 #include <Handle_StepShape_HArray1OfFace.hxx>
 
 #include <StepShape_Array1OfFace.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_StepShape_Face.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;

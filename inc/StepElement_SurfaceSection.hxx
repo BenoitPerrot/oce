@@ -11,7 +11,7 @@
 #include <Handle_StepElement_SurfaceSection.hxx>
 
 #include <StepElement_MeasureOrUnspecifiedValue.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepElement_MeasureOrUnspecifiedValue;
 
 

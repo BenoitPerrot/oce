@@ -16,7 +16,7 @@
 #ifndef _IVtkDraw_HeaderFile
 #define _IVtkDraw_HeaderFile
 
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard.hxx>
 #include <Standard_Macro.hxx>
 

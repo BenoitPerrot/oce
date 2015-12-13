@@ -25,7 +25,7 @@
 #include <AIS_DataMapOfILC.hxx>
 #include <Handle_V3d_View.hxx>
 #include <AIS_SequenceOfInteractive.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <AIS_KindOfInteractive.hxx>
 #include <StdSelect_SensitivityMode.hxx>
 #include <Standard_Real.hxx>

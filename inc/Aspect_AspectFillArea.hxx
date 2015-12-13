@@ -15,7 +15,7 @@
 #include <Aspect_TypeOfLine.hxx>
 #include <Standard_Real.hxx>
 #include <Aspect_HatchStyle.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class Aspect_AspectFillAreaDefinitionError;
 class Quantity_Color;
 

@@ -14,7 +14,7 @@
 #include <Handle_MAT_BasicElt.hxx>
 #include <Handle_MAT_Node.hxx>
 #include <Standard_Address.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Boolean.hxx>
 #include <MAT_Side.hxx>
 class MAT_BasicElt;

@@ -11,7 +11,7 @@
 #include <Handle_Geom_Transformation.hxx>
 
 #include <gp_Trsf.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Real.hxx>
 #include <Standard_Boolean.hxx>
 #include <gp_TrsfForm.hxx>

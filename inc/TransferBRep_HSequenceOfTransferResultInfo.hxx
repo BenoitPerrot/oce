@@ -11,7 +11,7 @@
 #include <Handle_TransferBRep_HSequenceOfTransferResultInfo.hxx>
 
 #include <TransferBRep_SequenceOfTransferResultInfo.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_TransferBRep_TransferResultInfo.hxx>
 #include <Standard_Boolean.hxx>
 #include <Standard_Integer.hxx>

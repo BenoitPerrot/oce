@@ -15,7 +15,7 @@
 #include <Image_PixMap_Handle.hxx>
 #include <OSD_Path.hxx>
 #include <Graphic3d_TypeOfTexture.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Boolean.hxx>
 class Graphic3d_TextureParams;
 class TCollection_AsciiString;

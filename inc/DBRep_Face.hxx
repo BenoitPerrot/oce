@@ -14,7 +14,7 @@
 #include <Draw_Color.hxx>
 #include <TColStd_Array1OfInteger.hxx>
 #include <TColStd_Array1OfReal.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Integer.hxx>
 #include <GeomAbs_IsoType.hxx>
 #include <Standard_Real.hxx>

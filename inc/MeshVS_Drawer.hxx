@@ -16,7 +16,7 @@
 #include <MeshVS_DataMapOfIntegerColor.hxx>
 #include <MeshVS_DataMapOfIntegerMaterial.hxx>
 #include <MeshVS_DataMapOfIntegerAsciiString.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Integer.hxx>
 #include <Standard_Real.hxx>
 #include <Standard_Boolean.hxx>

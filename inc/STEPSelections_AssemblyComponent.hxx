@@ -12,7 +12,7 @@
 
 #include <Handle_StepShape_ShapeDefinitionRepresentation.hxx>
 #include <Handle_STEPSelections_HSequenceOfAssemblyLink.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepShape_ShapeDefinitionRepresentation;
 class STEPSelections_HSequenceOfAssemblyLink;
 

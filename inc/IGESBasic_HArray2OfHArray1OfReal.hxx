@@ -11,7 +11,7 @@
 #include <Handle_IGESBasic_HArray2OfHArray1OfReal.hxx>
 
 #include <IGESBasic_Array2OfHArray1OfReal.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_TColStd_HArray1OfReal.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;

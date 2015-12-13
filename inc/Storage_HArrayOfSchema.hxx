@@ -11,7 +11,7 @@
 #include <Handle_Storage_HArrayOfSchema.hxx>
 
 #include <Storage_ArrayOfSchema.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Storage_Schema.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;

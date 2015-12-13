@@ -14,7 +14,7 @@
 #include <Handle_StepBasic_Document.hxx>
 #include <StepBasic_ProductOrFormationOrDefinition.hxx>
 #include <Standard_Boolean.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class TCollection_HAsciiString;
 class StepBasic_Document;
 class StepBasic_ProductOrFormationOrDefinition;

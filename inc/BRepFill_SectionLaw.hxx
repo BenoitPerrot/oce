@@ -13,7 +13,7 @@
 #include <Handle_GeomFill_HArray1OfSectionLaw.hxx>
 #include <Standard_Boolean.hxx>
 #include <BRepTools_WireExplorer.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Integer.hxx>
 #include <Handle_GeomFill_SectionLaw.hxx>
 #include <GeomAbs_Shape.hxx>

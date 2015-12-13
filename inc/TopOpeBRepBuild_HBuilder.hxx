@@ -16,7 +16,7 @@
 #include <Standard_Boolean.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TColStd_ListOfInteger.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_TopOpeBRepDS_HDataStructure.hxx>
 #include <TopAbs_State.hxx>
 #include <Standard_Integer.hxx>

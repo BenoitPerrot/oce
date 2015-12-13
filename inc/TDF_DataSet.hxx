@@ -13,7 +13,7 @@
 #include <TDF_LabelList.hxx>
 #include <TDF_LabelMap.hxx>
 #include <TDF_AttributeMap.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Boolean.hxx>
 #include <Handle_TDF_Attribute.hxx>
 #include <Standard_OStream.hxx>

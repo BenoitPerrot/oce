@@ -11,7 +11,7 @@
 #include <Handle_IGESDraw_HArray1OfConnectPoint.hxx>
 
 #include <IGESDraw_Array1OfConnectPoint.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_IGESDraw_ConnectPoint.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;

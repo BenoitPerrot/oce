@@ -12,7 +12,7 @@
 
 #include <Handle_StepFEA_CurveElementLocation.hxx>
 #include <Handle_StepBasic_EulerAngles.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepFEA_CurveElementLocation;
 class StepBasic_EulerAngles;
 

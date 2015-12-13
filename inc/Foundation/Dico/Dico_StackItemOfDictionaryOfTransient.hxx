@@ -12,7 +12,7 @@
 
 #include <Handle_Dico_DictionaryOfTransient.hxx>
 #include <Handle_Dico_StackItemOfDictionaryOfTransient.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Standard_Transient.hxx>
 class Dico_DictionaryOfTransient;
 class Standard_Transient;

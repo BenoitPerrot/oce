@@ -11,7 +11,7 @@
 #include <Handle_TColGeom2d_HArray1OfBSplineCurve.hxx>
 
 #include <TColGeom2d_Array1OfBSplineCurve.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Geom2d_BSplineCurve.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;

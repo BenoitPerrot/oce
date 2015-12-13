@@ -12,7 +12,7 @@
 
 #include <TopoDS_Edge.hxx>
 #include <Draw_Color.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class TopoDS_Edge;
 class Draw_Color;
 

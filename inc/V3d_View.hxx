@@ -32,7 +32,7 @@
 #include <TColStd_Array2OfReal.hxx>
 #include <Handle_Graphic3d_Structure.hxx>
 #include <Handle_Graphic3d_Group.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <V3d_Viewer.hxx>
 #include <Handle_V3d_View.hxx>
 #include <Handle_V3d_Viewer.hxx>

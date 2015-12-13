@@ -19,7 +19,7 @@
 #include <Aspect_TypeOfDeflection.hxx>
 #include <Standard_Real.hxx>
 #include <Handle_VrmlConverter_PointAspect.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class VrmlConverter_IsoAspect;
 class VrmlConverter_LineAspect;
 class VrmlConverter_ShadingAspect;

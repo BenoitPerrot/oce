@@ -18,7 +18,7 @@
 #include <Standard_Boolean.hxx>
 #include <Font_FontAspect.hxx>
 #include <Graphic3d_ShaderProgram_Handle.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_CString.hxx>
 class Graphic3d_AspectTextDefinitionError;
 class Quantity_Color;

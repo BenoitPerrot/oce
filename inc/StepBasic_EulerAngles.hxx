@@ -11,7 +11,7 @@
 #include <Handle_StepBasic_EulerAngles.hxx>
 
 #include <Handle_TColStd_HArray1OfReal.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class TColStd_HArray1OfReal;
 
 

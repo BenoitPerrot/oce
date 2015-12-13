@@ -11,7 +11,7 @@
 #include <Handle_TPrsStd_DriverTable.hxx>
 
 #include <TPrsStd_DataMapOfGUIDDriver.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Boolean.hxx>
 #include <Handle_TPrsStd_Driver.hxx>
 class Standard_GUID;

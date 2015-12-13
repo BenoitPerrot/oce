@@ -11,7 +11,7 @@
 #include <Handle_ShapeAlgo_AlgoContainer.hxx>
 
 #include <Handle_ShapeAlgo_ToolContainer.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Boolean.hxx>
 #include <Handle_ShapeAnalysis_Wire.hxx>
 #include <Handle_ShapeExtend_WireData.hxx>

@@ -13,7 +13,7 @@
 #include <TopOpeBRepDS_Transition.hxx>
 #include <Standard_Integer.hxx>
 #include <TopOpeBRepDS_Kind.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Boolean.hxx>
 #include <Standard_OStream.hxx>
 class TopOpeBRepDS_Transition;

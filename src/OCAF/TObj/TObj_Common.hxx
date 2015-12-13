@@ -24,7 +24,7 @@
 //! Basic CASCADE definitions
 #include <Standard_DefineHandle.hxx>
 #include <Standard_Type.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <TCollection_ExtendedString.hxx>
 #include <TCollection_HExtendedString.hxx>
 #include <Standard_Failure.hxx>

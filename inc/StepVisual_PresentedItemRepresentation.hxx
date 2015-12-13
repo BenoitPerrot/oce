@@ -12,7 +12,7 @@
 
 #include <StepVisual_PresentationRepresentationSelect.hxx>
 #include <Handle_StepVisual_PresentedItem.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepVisual_PresentedItem;
 class StepVisual_PresentationRepresentationSelect;
 

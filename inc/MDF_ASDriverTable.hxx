@@ -13,7 +13,7 @@
 #include <Standard_Integer.hxx>
 #include <MDF_TypeASDriverMap.hxx>
 #include <MDF_TypeDriverListMapOfASDriverTable.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_MDF_ASDriver.hxx>
 #include <Handle_MDF_ASDriverHSequence.hxx>
 #include <Handle_MDF_ListNodeOfDriverListOfASDriverTable.hxx>

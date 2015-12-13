@@ -11,7 +11,7 @@
 #include <Handle_StepVisual_SurfaceStyleFillArea.hxx>
 
 #include <Handle_StepVisual_FillAreaStyle.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepVisual_FillAreaStyle;
 
 

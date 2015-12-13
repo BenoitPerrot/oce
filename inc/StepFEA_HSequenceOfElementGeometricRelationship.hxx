@@ -11,7 +11,7 @@
 #include <Handle_StepFEA_HSequenceOfElementGeometricRelationship.hxx>
 
 #include <StepFEA_SequenceOfElementGeometricRelationship.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_StepFEA_ElementGeometricRelationship.hxx>
 #include <Standard_Boolean.hxx>
 #include <Standard_Integer.hxx>

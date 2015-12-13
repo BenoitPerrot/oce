@@ -21,7 +21,7 @@
 #include <gp_Pnt2d.hxx>
 #include <Handle_Geom_Curve.hxx>
 #include <Bnd_Box.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class Geom_Surface;
 class GeomAdaptor_HSurface;
 class Geom_Curve;

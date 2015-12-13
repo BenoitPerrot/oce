@@ -14,7 +14,7 @@
 #include <Standard_Boolean.hxx>
 #include <IntSurf_TypeTrans.hxx>
 #include <IntSurf_Situation.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class Standard_DomainError;
 class Standard_OutOfRange;
 

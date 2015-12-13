@@ -11,7 +11,7 @@
 #include <Handle_StepElement_HArray1OfVolumeElementPurpose.hxx>
 
 #include <StepElement_Array1OfVolumeElementPurpose.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_DimensionMismatch;

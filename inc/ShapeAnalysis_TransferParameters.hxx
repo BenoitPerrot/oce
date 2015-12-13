@@ -13,7 +13,7 @@
 #include <Standard_Real.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Face.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_TColStd_HSequenceOfReal.hxx>
 #include <Standard_Boolean.hxx>
 class TopoDS_Edge;

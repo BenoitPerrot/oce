@@ -19,7 +19,7 @@
 #include <Graphic3d_MapOfStructure.hxx>
 #include <Aspect_GenId.hxx>
 #include <Handle_Graphic3d_GraphicDriver.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Graphic3d_Structure.hxx>
 #include <Graphic3d_ZLayerSettings.hxx>
 #include <Standard_Boolean.hxx>

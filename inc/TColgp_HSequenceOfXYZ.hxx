@@ -11,7 +11,7 @@
 #include <Handle_TColgp_HSequenceOfXYZ.hxx>
 
 #include <TColgp_SequenceOfXYZ.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Boolean.hxx>
 #include <Standard_Integer.hxx>
 class Standard_NoSuchObject;

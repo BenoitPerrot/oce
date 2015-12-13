@@ -19,7 +19,7 @@
 #include <NCollection_UBTree.hxx>
 #include <Bnd_Box.hxx>
 #include <gp_Pnt.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <TopTools_HArray1OfShape.hxx>
 
 #include <ShapeExtend.hxx>

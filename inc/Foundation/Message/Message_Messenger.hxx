@@ -11,7 +11,7 @@
 #include <Handle_Message_Messenger.hxx>
 
 #include <Foundation/Message/Message_SequenceOfPrinters.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Message_Printer.hxx>
 #include <Standard_Boolean.hxx>
 #include <Standard_Integer.hxx>

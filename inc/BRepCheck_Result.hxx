@@ -14,7 +14,7 @@
 #include <Standard_Boolean.hxx>
 #include <BRepCheck_DataMapOfShapeListOfStatus.hxx>
 #include <BRepCheck_DataMapIteratorOfDataMapOfShapeListOfStatus.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class Standard_NoSuchObject;
 class TopoDS_Shape;
 class BRepCheck_ListOfStatus;

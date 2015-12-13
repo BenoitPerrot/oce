@@ -14,7 +14,7 @@
 #include <Handle_ShapeExtend_BasicMsgRegistrator.hxx>
 #include <Standard_Real.hxx>
 #include <TopoDS_Shape.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Message/Message_Gravity.hxx>
 #include <Standard_Boolean.hxx>
 #include <Standard_Integer.hxx>

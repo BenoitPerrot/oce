@@ -24,7 +24,7 @@
 #include <GeomFill_Trihedron.hxx>
 #include <BRepFill_TransitionStyle.hxx>
 #include <GeomFill_PipeError.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <BRepFill_TypeOfContact.hxx>
 class Law_Function;
 class BRepFill_LocationLaw;

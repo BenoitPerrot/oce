@@ -11,7 +11,7 @@
 #include <Handle_GeomPlate_HArray1OfHCurveOnSurface.hxx>
 
 #include <GeomPlate_Array1OfHCurveOnSurface.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Adaptor3d_HCurveOnSurface.hxx>
 #include <Standard_Integer.hxx>
 class Standard_RangeError;

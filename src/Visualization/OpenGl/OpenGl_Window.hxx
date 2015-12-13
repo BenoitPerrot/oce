@@ -24,7 +24,7 @@
 #include <Handle_OpenGl_Window.hxx>
 #include <Handle_OpenGl_GraphicDriver.hxx>
 
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 
 //! This class represents low-level wrapper over window with GL context.
 //! The window itself should be provided to constructor.

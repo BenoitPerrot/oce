@@ -11,7 +11,7 @@
 #include <Handle_MDF_ARDriver.hxx>
 
 #include <Handle_CDM_MessageDriver.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Integer.hxx>
 #include <Handle_Standard_Type.hxx>
 #include <Handle_TDF_Attribute.hxx>

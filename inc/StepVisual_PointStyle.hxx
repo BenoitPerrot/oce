@@ -14,7 +14,7 @@
 #include <StepVisual_MarkerSelect.hxx>
 #include <StepBasic_SizeSelect.hxx>
 #include <Handle_StepVisual_Colour.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 class TCollection_HAsciiString;
 class StepVisual_Colour;
 class StepVisual_MarkerSelect;

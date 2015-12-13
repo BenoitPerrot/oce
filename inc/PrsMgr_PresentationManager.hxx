@@ -14,7 +14,7 @@
 #include <Standard_Integer.hxx>
 #include <PrsMgr_ListOfPresentations.hxx>
 #include <Handle_V3d_View.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_PrsMgr_PresentableObject.hxx>
 #include <Standard_Boolean.hxx>
 #include <Handle_Prs3d_Presentation.hxx>

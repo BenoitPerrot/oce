@@ -14,7 +14,7 @@
 #include <Handle_Message_Messenger.hxx>
 #include <Handle_TColStd_HArray1OfTransient.hxx>
 #include <Foundation/Message/Message_HArrayOfMsg.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Message/Message_Status.hxx>
 #include <Standard_Integer.hxx>
 #include <Standard_CString.hxx>

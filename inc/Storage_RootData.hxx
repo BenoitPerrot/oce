@@ -13,7 +13,7 @@
 #include <Storage_MapOfPers.hxx>
 #include <Storage_Error.hxx>
 #include <TCollection_AsciiString.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_Integer.hxx>
 #include <Handle_Storage_Root.hxx>
 #include <Handle_Storage_HSeqOfRoot.hxx>

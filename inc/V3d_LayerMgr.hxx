@@ -14,7 +14,7 @@
 #include <Handle_Visual3d_Layer.hxx>
 #include <Handle_V3d_ColorScale.hxx>
 #include <Handle_V3d_ColorScaleLayerItem.hxx>
-#include <MMgt_TShared.hxx>
+#include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_V3d_View.hxx>
 #include <Standard_Boolean.hxx>
 #include <Handle_Aspect_ColorScale.hxx>
