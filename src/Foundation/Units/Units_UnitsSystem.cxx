@@ -17,7 +17,7 @@
 #define PRO8619 //GG_160697
 //              Convertir correctement les unites translatees
 
-#include <Resource_Manager.hxx>
+#include <Foundation/Resource/Resource_Manager.hxx>
 
 #include <TCollection_AsciiString.hxx>
 

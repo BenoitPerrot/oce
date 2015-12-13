@@ -36,7 +36,7 @@
 
 #include <Foundation/Plugin/Plugin_MapOfFunctions.hxx>
 #include <Foundation/OSD/OSD_SharedLibrary.hxx>
-#include <Resource_Manager.hxx>
+#include <Foundation/Resource/Resource_Manager.hxx>
 #include <Draw_Failure.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <Standard_ErrorHandler.hxx>

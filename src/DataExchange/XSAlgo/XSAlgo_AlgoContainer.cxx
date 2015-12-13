@@ -72,7 +72,7 @@ IMPLEMENT_STANDARD_RTTI(XSAlgo_AlgoContainer)
 #include <TransferBRep_ShapeMapper.hxx>
 #include <TransferBRep_ShapeBinder.hxx>
 #include <Transfer_TransientListBinder.hxx>
-#include <Resource_Manager.hxx>
+#include <Foundation/Resource/Resource_Manager.hxx>
 #include <Interface_Static.hxx>
 #include <Foundation/Message/Message_Msg.hxx>
 

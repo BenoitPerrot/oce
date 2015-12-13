@@ -14,9 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Resource_ConvertUnicode.hxx>
-#include <Resource_Manager.hxx>
-#include <Resource_Unicode.hxx>
+#include <Foundation/Resource/Resource_ConvertUnicode.hxx>
+#include <Foundation/Resource/Resource_Manager.hxx>
+#include <Foundation/Resource/Resource_Unicode.hxx>
 #include <TCollection_ExtendedString.hxx>
 #include <TCollection_AsciiString.hxx>
 

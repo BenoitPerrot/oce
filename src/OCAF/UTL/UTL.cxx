@@ -21,13 +21,13 @@
 #include <Foundation/OSD/OSD_FileIterator.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <Standard_GUID.hxx>
-#include <Resource_Manager.hxx>
+#include <Foundation/Resource/Resource_Manager.hxx>
 #include <UTL.hxx>
 #include <Foundation/OSD/OSD_Host.hxx>
 #include <Foundation/OSD/OSD_Path.hxx>
 #include <TCollection_ExtendedString.hxx>
 #include <TCollection_AsciiString.hxx>
-#include <Resource_Unicode.hxx>
+#include <Foundation/Resource/Resource_Unicode.hxx>
 #include <Foundation/OSD/OSD_Environment.hxx>
 #include <Foundation/OSD/OSD_FileIterator.hxx>
 #include <Foundation/OSD/OSD_File.hxx>

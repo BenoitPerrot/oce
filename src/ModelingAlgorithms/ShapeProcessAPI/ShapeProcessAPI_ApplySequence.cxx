@@ -23,7 +23,7 @@
 #include <TopTools_DataMapIteratorOfDataMapOfShapeShape.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <Foundation/Message/Message_Msg.hxx>
-#include <Resource_Manager.hxx>
+#include <Foundation/Resource/Resource_Manager.hxx>
 #include <ShapeProcess.hxx>
 #include <ShapeProcess_OperLibrary.hxx>
 

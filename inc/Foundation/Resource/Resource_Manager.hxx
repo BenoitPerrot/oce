@@ -11,8 +11,8 @@
 #include <Handle_Resource_Manager.hxx>
 
 #include <TCollection_AsciiString.hxx>
-#include <Resource_DataMapOfAsciiStringAsciiString.hxx>
-#include <Resource_DataMapOfAsciiStringExtendedString.hxx>
+#include <Foundation/Resource/Resource_DataMapOfAsciiStringAsciiString.hxx>
+#include <Foundation/Resource/Resource_DataMapOfAsciiStringExtendedString.hxx>
 #include <Standard_Boolean.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Standard_CString.hxx>

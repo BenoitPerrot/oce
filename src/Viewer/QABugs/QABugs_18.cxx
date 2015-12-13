@@ -32,7 +32,7 @@
 #include <DDocStd.hxx>
 #include <CDF.hxx>
 
-#include <Resource_Manager.hxx>
+#include <Foundation/Resource/Resource_Manager.hxx>
 #include <TopoDS_Wire.hxx>
 #include <BRepTools_WireExplorer.hxx>
 #include <TopoDS_Vertex.hxx>

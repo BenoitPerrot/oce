@@ -24,7 +24,7 @@
 #include <Foundation/Plugin/Plugin.hxx>
 #include <Standard_SStream.hxx>
 #include <Standard_NoSuchObject.hxx>
-#include <Resource_Manager.hxx>
+#include <Foundation/Resource/Resource_Manager.hxx>
 #include <Standard_GUID.hxx>
 #include <UTL.hxx>
 #include <Foundation/FSD/FSD_CmpFile.hxx>

@@ -3,13 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Resource_DataMapNodeOfDataMapOfAsciiStringAsciiString.hxx>
+#include <Foundation/Resource/Resource_DataMapNodeOfDataMapOfAsciiStringAsciiString.hxx>
 
 #include <Standard_Type.hxx>
 
 #include <TCollection_AsciiString.hxx>
-#include <Resource_DataMapOfAsciiStringAsciiString.hxx>
-#include <Resource_DataMapIteratorOfDataMapOfAsciiStringAsciiString.hxx>
+#include <Foundation/Resource/Resource_DataMapOfAsciiStringAsciiString.hxx>
+#include <Foundation/Resource/Resource_DataMapIteratorOfDataMapOfAsciiStringAsciiString.hxx>
 
  
 
@@ -35,12 +35,12 @@ IMPLEMENT_STANDARD_RTTI(Resource_DataMapNodeOfDataMapOfAsciiStringAsciiString)
 #define Hasher TCollection_AsciiString
 #define Hasher_hxx <TCollection_AsciiString.hxx>
 #define TCollection_DataMapNode Resource_DataMapNodeOfDataMapOfAsciiStringAsciiString
-#define TCollection_DataMapNode_hxx <Resource_DataMapNodeOfDataMapOfAsciiStringAsciiString.hxx>
+#define TCollection_DataMapNode_hxx <Foundation/Resource/Resource_DataMapNodeOfDataMapOfAsciiStringAsciiString.hxx>
 #define TCollection_DataMapIterator Resource_DataMapIteratorOfDataMapOfAsciiStringAsciiString
-#define TCollection_DataMapIterator_hxx <Resource_DataMapIteratorOfDataMapOfAsciiStringAsciiString.hxx>
+#define TCollection_DataMapIterator_hxx <Foundation/Resource/Resource_DataMapIteratorOfDataMapOfAsciiStringAsciiString.hxx>
 #define Handle_TCollection_DataMapNode Handle_Resource_DataMapNodeOfDataMapOfAsciiStringAsciiString
 #define TCollection_DataMapNode_Type_() Resource_DataMapNodeOfDataMapOfAsciiStringAsciiString_Type_()
 #define TCollection_DataMap Resource_DataMapOfAsciiStringAsciiString
-#define TCollection_DataMap_hxx <Resource_DataMapOfAsciiStringAsciiString.hxx>
+#define TCollection_DataMap_hxx <Foundation/Resource/Resource_DataMapOfAsciiStringAsciiString.hxx>
 #include <TCollection_DataMapNode.gxx>
 

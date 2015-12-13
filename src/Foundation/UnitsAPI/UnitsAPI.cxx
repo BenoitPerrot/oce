@@ -18,7 +18,7 @@
 #include <Units_Unit.hxx>
 #include <Units_Quantity.hxx>
 #include <Units_UnitsSystem.hxx>
-#include <Resource_Manager.hxx>
+#include <Foundation/Resource/Resource_Manager.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <Standard_NoSuchObject.hxx>
 #include <Foundation/OSD/OSD_Environment.hxx>

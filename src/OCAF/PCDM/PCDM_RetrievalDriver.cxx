@@ -49,7 +49,7 @@ IMPLEMENT_STANDARD_RTTI(PCDM_RetrievalDriver)
 #include <Standard_TypeMismatch.hxx>
 
 #include <PCDM_ReadWriter.hxx>
-#include <Resource_Manager.hxx>
+#include <Foundation/Resource/Resource_Manager.hxx>
 #include <Standard_ErrorHandler.hxx>
 #include <PCDM.hxx>
 #include <Storage_HSeqOfRoot.hxx>

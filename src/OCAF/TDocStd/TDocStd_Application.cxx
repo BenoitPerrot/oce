@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Resource_Manager.hxx>
+#include <Foundation/Resource/Resource_Manager.hxx>
 #include <Standard_NoSuchObject.hxx>
 #include <TDocStd_Document.hxx>
 #include <TColStd_SequenceOfExtendedString.hxx>

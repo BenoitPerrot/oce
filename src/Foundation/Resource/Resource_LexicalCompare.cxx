@@ -13,7 +13,7 @@
 // commercial license or contractual agreement.
 
 #include <TCollection_AsciiString.hxx>
-#include <Resource_LexicalCompare.hxx>
+#include <Foundation/Resource/Resource_LexicalCompare.hxx>
 
 
 // -----------

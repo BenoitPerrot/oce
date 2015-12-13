@@ -40,7 +40,7 @@ IMPLEMENT_STANDARD_RTTI(PCDM_StorageDriver)
 #include <TCollection_AsciiString.hxx>
 #include <Standard_ErrorHandler.hxx>
 #include <PCDM_ReadWriter.hxx>
-#include <Resource_Manager.hxx>
+#include <Foundation/Resource/Resource_Manager.hxx>
 #include <Standard_NotImplemented.hxx>
 #include <PCDM_SequenceOfDocument.hxx>
 #include <PCDM.hxx>

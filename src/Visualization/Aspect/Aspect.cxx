@@ -28,7 +28,7 @@
 #include <TCollection_AsciiString.hxx>
 #include <TCollection_ExtendedString.hxx>
 #ifdef UNICOD
-#include <Resource_Unicode.hxx>
+#include <Foundation/Resource/Resource_Unicode.hxx>
 #include <stdlib.h>
 #endif
 

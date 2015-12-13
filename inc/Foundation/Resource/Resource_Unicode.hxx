@@ -14,7 +14,7 @@
 #include <Standard_Boolean.hxx>
 #include <Standard_PCharacter.hxx>
 #include <Standard_Integer.hxx>
-#include <Resource_FormatType.hxx>
+#include <Foundation/Resource/Resource_FormatType.hxx>
 class TCollection_ExtendedString;
 
 

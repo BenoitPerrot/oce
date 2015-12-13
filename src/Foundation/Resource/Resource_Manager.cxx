@@ -12,13 +12,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Resource_DataMapOfAsciiStringAsciiString.hxx>
-#include <Resource_DataMapIteratorOfDataMapOfAsciiStringAsciiString.hxx>
-#include <Resource_LexicalCompare.hxx>
-#include <Resource_Manager.hxx>
-#include <Resource_NoSuchResource.hxx>
-#include <Resource_QuickSortOfArray1.hxx>
-#include <Resource_Unicode.hxx>
+#include <Foundation/Resource/Resource_DataMapOfAsciiStringAsciiString.hxx>
+#include <Foundation/Resource/Resource_DataMapIteratorOfDataMapOfAsciiStringAsciiString.hxx>
+#include <Foundation/Resource/Resource_LexicalCompare.hxx>
+#include <Foundation/Resource/Resource_Manager.hxx>
+#include <Foundation/Resource/Resource_NoSuchResource.hxx>
+#include <Foundation/Resource/Resource_QuickSortOfArray1.hxx>
+#include <Foundation/Resource/Resource_Unicode.hxx>
 
 #include <Foundation/OSD/OSD_Directory.hxx>
 #include <Foundation/OSD/OSD_File.hxx>
