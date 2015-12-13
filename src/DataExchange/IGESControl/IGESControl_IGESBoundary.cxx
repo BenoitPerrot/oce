@@ -58,7 +58,7 @@ IMPLEMENT_STANDARD_RTTI(IGESControl_IGESBoundary)
 #include <ShapeFix_ShapeTolerance.hxx>
 #include <IGESToBRep.hxx>
 #include <IGESToBRep_TopoCurve.hxx>
-#include <Message_Msg.hxx>
+#include <Foundation/Message/Message_Msg.hxx>
 #include <Interface_Static.hxx>
 #include <ShapeAlgo.hxx>
 #include <ShapeAlgo_AlgoContainer.hxx>

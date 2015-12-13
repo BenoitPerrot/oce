@@ -65,8 +65,8 @@
 #include <TopoDS_Iterator.hxx>
 #include <Transfer_TransientListBinder.hxx>
 
-#include <Message_Messenger.hxx>
-#include <Message.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
+#include <Foundation/Message/Message.hxx>
 
 //  ######################################################################
 //  ####                                                              ####

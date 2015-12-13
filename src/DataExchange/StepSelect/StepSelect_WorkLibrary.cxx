@@ -17,7 +17,7 @@
 #include <Interface_EntityIterator.hxx>
 #include <Interface_CopyTool.hxx>
 #include <Standard_Transient.hxx>
-#include <Message_Messenger.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
 #include <StepSelect_WorkLibrary.hxx>
 #include <Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepSelect_WorkLibrary)
@@ -50,8 +50,8 @@ IMPLEMENT_STANDARD_RTTI(StepSelect_WorkLibrary)
 #include <Interface_ReportEntity.hxx>
 #include <Interface_UndefinedContent.hxx>
 
-#include <Message.hxx>
-#include <Message_Messenger.hxx>
+#include <Foundation/Message/Message.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
 #include <Interface_Macros.hxx>
 #include <Interface_Check.hxx>
 #include <OSD_OpenFile.hxx>

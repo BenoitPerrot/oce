@@ -27,7 +27,7 @@
 #include <Interface_Check.hxx>
 #include <Interface_CopyTool.hxx>
 #include <IGESData_IGESDumper.hxx>
-#include <Message_Messenger.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
 #include <IGESGeom_ToolConicArc.hxx>
 #include <IGESData_ParamCursor.hxx>
 #include <gp_XY.hxx>
@@ -39,7 +39,7 @@
 #include <stdio.h>
 
 // MGE 28/07/98
-#include <Message_Msg.hxx>
+#include <Foundation/Message/Message_Msg.hxx>
 
 //=======================================================================
 //function : IGESGeom_ToolConicArc

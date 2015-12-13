@@ -17,8 +17,8 @@
 #include <IVtkOCC_ShapePickerAlgo.hxx>
 #include <IVtkOCC_Shape.hxx>
 #include <IVtkOCC_SelectableObject.hxx>
-#include <Message.hxx>
-#include <Message_Messenger.hxx>
+#include <Foundation/Message/Message.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
 #include <StdSelect_BRepOwner.hxx>
 
 // Handle implementation

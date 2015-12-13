@@ -15,8 +15,8 @@
 
 #include <Resource_Manager.hxx>
 #include <TColStd_HSequenceOfHAsciiString.hxx>
-#include <Message_Messenger.hxx>
-#include <Message_ProgressIndicator.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
+#include <Foundation/Message/Message_ProgressIndicator.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <ShapeProcess_Context.hxx>
 #include <Standard_Type.hxx>
@@ -32,8 +32,8 @@ IMPLEMENT_STANDARD_RTTI(ShapeProcess_Context)
 #include <Standard_ErrorHandler.hxx>
 #include <Standard_Failure.hxx>
 #include <TCollection_HAsciiString.hxx>
-#include <Message_Messenger.hxx>
-#include <Message.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
+#include <Foundation/Message/Message.hxx>
 #include <sys/stat.h>
 
 //=======================================================================

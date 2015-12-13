@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Standard_Stream.hxx>
-#include <Message_ProgressIndicator.hxx>
+#include <Foundation/Message/Message_ProgressIndicator.hxx>
 #include <Standard_OutOfRange.hxx>
 #include <Geom_Surface.hxx>
 #include <GeomTools_SurfaceSet.hxx>
@@ -48,7 +48,7 @@
 #include <TColgp_Array2OfPnt.hxx>
 #include <Standard_Failure.hxx>
 #include <Standard_ErrorHandler.hxx>
-#include <Message_ProgressSentry.hxx>
+#include <Foundation/Message/Message_ProgressSentry.hxx>
 
 #define PLANE           1
 #define CYLINDER        2

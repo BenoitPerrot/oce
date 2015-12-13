@@ -29,8 +29,8 @@
 #include <Interface_EntityIterator.hxx>
 #include <Interface_InterfaceError.hxx>
 #include <Interface_Macros.hxx>
-#include <Message_Messenger.hxx>
-#include <Message.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
+#include <Foundation/Message/Message.hxx>
 
 #include <IGESData_WriterLib.hxx>
 #include <IGESData_ReadWriteModule.hxx>

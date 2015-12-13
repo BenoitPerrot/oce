@@ -14,7 +14,7 @@
 #include <Standard_Address.hxx>
 #include <Standard_Integer.hxx>
 #include <Standard_Size.hxx>
-#include <Message_ProgressIndicator.hxx>
+#include <Foundation/Message/Message_ProgressIndicator.hxx>
 #include <Draw_Interpretor.hxx>
 
 

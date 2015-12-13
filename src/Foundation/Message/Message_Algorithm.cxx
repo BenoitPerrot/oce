@@ -15,11 +15,11 @@
 
 // The original implementation copyright (c) RINA S.p.A.
 
-#include <Message.hxx>
-#include <Message_Algorithm.hxx>
-#include <Message_Messenger.hxx>
-#include <Message_Msg.hxx>
-#include <Message_MsgFile.hxx>
+#include <Foundation/Message/Message.hxx>
+#include <Foundation/Message/Message_Algorithm.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
+#include <Foundation/Message/Message_Msg.hxx>
+#include <Foundation/Message/Message_MsgFile.hxx>
 #include <Standard_AncestorIterator.hxx>
 #include <Standard_Type.hxx>
 #include <TCollection_AsciiString.hxx>

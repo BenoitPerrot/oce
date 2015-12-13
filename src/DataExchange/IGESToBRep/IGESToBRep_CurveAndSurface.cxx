@@ -22,7 +22,7 @@
 #include <Transfer_TransientProcess.hxx>
 #include <TopoDS_Shape.hxx>
 #include <IGESData_IGESEntity.hxx>
-#include <Message_Msg.hxx>
+#include <Foundation/Message/Message_Msg.hxx>
 #include <IGESToBRep_CurveAndSurface.hxx>
 #include <Standard_Failure.hxx>
 
@@ -63,9 +63,9 @@
 #include <TransferBRep_ShapeListBinder.hxx>
 #include <stdio.h>
 
-#include <Message_Msg.hxx>
-#include <Message_Messenger.hxx>
-#include <Message_ProgressSentry.hxx>
+#include <Foundation/Message/Message_Msg.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
+#include <Foundation/Message/Message_ProgressSentry.hxx>
 #include <GeomAdaptor_Surface.hxx>
 
 //=======================================================================

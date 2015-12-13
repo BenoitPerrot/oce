@@ -112,7 +112,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Wire)
 #include <BRepLib_MakeVertex.hxx>
 #include <BRepTools.hxx>
 
-#include <Message_Msg.hxx>
+#include <Foundation/Message/Message_Msg.hxx>
 #include <ShapeExtend.hxx>
 #include <ShapeBuild_Edge.hxx>
 #include <ShapeBuild_Vertex.hxx>

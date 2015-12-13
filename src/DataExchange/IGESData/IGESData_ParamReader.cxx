@@ -18,7 +18,7 @@
 #include <IGESData_IGESEntity.hxx>
 #include <IGESData_IGESReaderData.hxx>
 #include <IGESData_ParamCursor.hxx>
-#include <Message_Msg.hxx>
+#include <Foundation/Message/Message_Msg.hxx>
 #include <gp_XY.hxx>
 #include <gp_XYZ.hxx>
 #include <TCollection_HAsciiString.hxx>
@@ -38,7 +38,7 @@
 #include <IGESData_Status.hxx>
 
 // MGE 03/08/98
-#include <Message_Msg.hxx>
+#include <Foundation/Message/Message_Msg.hxx>
 
 static Standard_Integer testconv = -1;  // cf parametre de session
 

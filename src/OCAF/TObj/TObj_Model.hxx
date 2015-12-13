@@ -22,7 +22,7 @@
 
 #include <TDF_Label.hxx>
 #include <TObj_Partition.hxx>
-#include <Message_Messenger.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
 
 class Handle(TObj_Application);
 class Handle(TObj_TNameContainer);

@@ -24,9 +24,9 @@ IMPLEMENT_DOWNCAST(Draw_ProgressIndicator,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Draw_ProgressIndicator)
 #include <Draw_Interpretor.hxx>
 #include <Draw.hxx>
-#include <Message_ProgressScale.hxx>
-#include <Message_Messenger.hxx>
-#include <Message.hxx>
+#include <Foundation/Message/Message_ProgressScale.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
+#include <Foundation/Message/Message.hxx>
 
 #include <time.h>
 #include <stdio.h>

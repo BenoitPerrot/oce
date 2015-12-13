@@ -40,7 +40,7 @@ IMPLEMENT_STANDARD_RTTI(IGESData_UndefinedEntity)
 #include <TCollection_AsciiString.hxx>
 
 // MGE 23/07/98
-#include <Message_Msg.hxx>
+#include <Foundation/Message/Message_Msg.hxx>
 
 
 //=======================================================================

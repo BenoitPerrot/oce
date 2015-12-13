@@ -38,8 +38,8 @@ IMPLEMENT_STANDARD_RTTI(IFSelect_TransformStandard)
 #include <TColStd_HArray1OfInteger.hxx>
 #include <Interface_EntityIterator.hxx>
 
-#include <Message_Messenger.hxx>
-#include <Message.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
+#include <Foundation/Message/Message.hxx>
 #include <Interface_Macros.hxx>
 #include <stdio.h>
 

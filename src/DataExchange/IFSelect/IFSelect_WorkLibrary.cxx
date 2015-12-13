@@ -18,7 +18,7 @@
 #include <Interface_EntityIterator.hxx>
 #include <Interface_CopyTool.hxx>
 #include <Standard_Transient.hxx>
-#include <Message_Messenger.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
 #include <IFSelect_WorkLibrary.hxx>
 #include <Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IFSelect_WorkLibrary)
@@ -30,8 +30,8 @@ IMPLEMENT_DOWNCAST(IFSelect_WorkLibrary,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IFSelect_WorkLibrary)
 #include <TCollection_HAsciiString.hxx>
 
-#include <Message_Messenger.hxx>
-#include <Message.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
+#include <Foundation/Message/Message.hxx>
 
 //  all deferred but Copy (virtual default)
 

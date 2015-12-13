@@ -55,8 +55,8 @@
 #include <Poly_Triangulation.hxx>
 #include <Poly_PolygonOnTriangulation.hxx>
 
-#include <Message_ProgressIndicator.hxx>
-#include <Message_ProgressSentry.hxx>
+#include <Foundation/Message/Message_ProgressIndicator.hxx>
+#include <Foundation/Message/Message_ProgressSentry.hxx>
 
 #ifdef MacOS
 #define strcasecmp(p,q) strcmp(p,q)

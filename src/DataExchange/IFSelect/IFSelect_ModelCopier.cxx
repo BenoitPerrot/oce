@@ -44,8 +44,8 @@ IMPLEMENT_STANDARD_RTTI(IFSelect_ModelCopier)
 #include <Interface_Check.hxx>
 #include <Interface_CheckIterator.hxx>
 #include <Interface_GeneralLib.hxx>
-#include <Message_Messenger.hxx>
-#include <Message.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
+#include <Foundation/Message/Message.hxx>
 #include <stdio.h>
 
 //#define MISOPOINT

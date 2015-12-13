@@ -35,8 +35,8 @@
 #include <ShapeBuild_ReShape.hxx>
 #include <Standard_ErrorHandler.hxx>
 
-#include <Message_ProgressIndicator.hxx>
-#include <Message_ProgressSentry.hxx>
+#include <Foundation/Message/Message_ProgressIndicator.hxx>
+#include <Foundation/Message/Message_ProgressSentry.hxx>
 
 //=======================================================================
 //function : ApplyModifier

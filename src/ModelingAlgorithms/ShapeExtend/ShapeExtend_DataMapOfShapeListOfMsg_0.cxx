@@ -8,7 +8,7 @@
 #include <Standard_DomainError.hxx>
 #include <Standard_NoSuchObject.hxx>
 #include <TopoDS_Shape.hxx>
-#include <Message_ListOfMsg.hxx>
+#include <Foundation/Message/Message_ListOfMsg.hxx>
 #include <TopTools_ShapeMapHasher.hxx>
 #include <ShapeExtend_DataMapNodeOfDataMapOfShapeListOfMsg.hxx>
 #include <ShapeExtend_DataMapIteratorOfDataMapOfShapeListOfMsg.hxx>
@@ -17,7 +17,7 @@
 #define TheKey TopoDS_Shape
 #define TheKey_hxx <TopoDS_Shape.hxx>
 #define TheItem Message_ListOfMsg
-#define TheItem_hxx <Message_ListOfMsg.hxx>
+#define TheItem_hxx <Foundation/Message/Message_ListOfMsg.hxx>
 #define Hasher TopTools_ShapeMapHasher
 #define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode ShapeExtend_DataMapNodeOfDataMapOfShapeListOfMsg

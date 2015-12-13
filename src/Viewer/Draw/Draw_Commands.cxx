@@ -20,9 +20,9 @@
 #include <Draw.hxx>
 
 #include <Draw_Printer.hxx>
-#include <Message.hxx>
-#include <Message_Messenger.hxx>
-#include <Message_PrinterOStream.hxx>
+#include <Foundation/Message/Message.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
+#include <Foundation/Message/Message_PrinterOStream.hxx>
 
 void Draw::Commands (Draw_Interpretor& theCommands)
 {

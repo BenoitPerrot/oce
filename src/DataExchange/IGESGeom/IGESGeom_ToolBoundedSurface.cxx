@@ -27,7 +27,7 @@
 #include <Interface_Check.hxx>
 #include <Interface_CopyTool.hxx>
 #include <IGESData_IGESDumper.hxx>
-#include <Message_Messenger.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
 #include <IGESGeom_ToolBoundedSurface.hxx>
 #include <IGESData_ParamCursor.hxx>
 #include <IGESGeom_Boundary.hxx>
@@ -37,7 +37,7 @@
 #include <Interface_Macros.hxx>
 
 // MGE 31/07/98
-#include <Message_Msg.hxx>
+#include <Foundation/Message/Message_Msg.hxx>
 #include <IGESData_Status.hxx>
 
 //=======================================================================

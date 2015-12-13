@@ -108,7 +108,7 @@
 #include <Standard_ErrorHandler.hxx>
 #include <Standard_Failure.hxx>
 // S3767
-#include <Message_Msg.hxx>  
+#include <Foundation/Message/Message_Msg.hxx>  
 #include <ShapeConstruct_Curve.hxx>
 #include <gp_Hypr.hxx>
 

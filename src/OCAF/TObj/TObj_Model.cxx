@@ -40,7 +40,7 @@
 #include <TObj_TObject.hxx>
 #include <TObj_TModel.hxx>
 #include <TObj_TNameContainer.hxx>
-#include <Message_Msg.hxx>
+#include <Foundation/Message/Message_Msg.hxx>
 #include <OSD_OpenFile.hxx>
 
 #ifdef WNT

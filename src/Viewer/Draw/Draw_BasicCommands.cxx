@@ -27,8 +27,8 @@
 #include <Draw_Chronometer.hxx>
 #include <Draw_Printer.hxx>
 
-#include <Message.hxx>
-#include <Message_Messenger.hxx>
+#include <Foundation/Message/Message.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
 
 #include <OSD_MemInfo.hxx>
 #include <OSD_MAllocHook.hxx>

@@ -13,8 +13,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Message_Msg.hxx>
-#include <Message_MsgFile.hxx>
+#include <Foundation/Message/Message_Msg.hxx>
+#include <Foundation/Message/Message_MsgFile.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <stdio.h>
 

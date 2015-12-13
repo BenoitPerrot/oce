@@ -27,12 +27,12 @@
 #include <Interface_Check.hxx>
 #include <Interface_CopyTool.hxx>
 #include <IGESData_IGESDumper.hxx>
-#include <Message_Messenger.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
 #include <IGESSolid_ToolSolidInstance.hxx>
 #include <IGESData_ParamCursor.hxx>
 #include <IGESData_IGESEntity.hxx>
 #include <Interface_Macros.hxx>
-#include <Message_Messenger.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
 
 IGESSolid_ToolSolidInstance::IGESSolid_ToolSolidInstance ()    {  }
 

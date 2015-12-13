@@ -74,7 +74,7 @@
 #include <Precision.hxx>
 
 //S3767
-#include <Message_Msg.hxx>
+#include <Foundation/Message/Message_Msg.hxx>
 #include <IGESData_IGESModel.hxx> 
 //S4181
 #include <gp_Pln.hxx>

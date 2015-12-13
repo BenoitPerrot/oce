@@ -101,13 +101,13 @@ private:
 };
 
 #define SeqItem Message_ProgressScale
-#define SeqItem_hxx <Message_ProgressScale.hxx>
+#define SeqItem_hxx <Foundation/Message/Message_ProgressScale.hxx>
 #define TCollection_SequenceNode Message_SequenceNodeOfSequenceOfProgressScale
-#define TCollection_SequenceNode_hxx <Message_SequenceNodeOfSequenceOfProgressScale.hxx>
+#define TCollection_SequenceNode_hxx <Foundation/Message/Message_SequenceNodeOfSequenceOfProgressScale.hxx>
 #define Handle_TCollection_SequenceNode Handle_Message_SequenceNodeOfSequenceOfProgressScale
 #define TCollection_SequenceNode_Type_() Message_SequenceNodeOfSequenceOfProgressScale_Type_()
 #define TCollection_Sequence Message_SequenceOfProgressScale
-#define TCollection_Sequence_hxx <Message_SequenceOfProgressScale.hxx>
+#define TCollection_Sequence_hxx <Foundation/Message/Message_SequenceOfProgressScale.hxx>
 
 #include <TCollection_Sequence.lxx>
 

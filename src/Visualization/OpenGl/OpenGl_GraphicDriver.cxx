@@ -26,7 +26,7 @@
 #include <OpenGl_Workspace.hxx>
 
 #include <Aspect_GraphicDeviceDefinitionError.hxx>
-#include <Message_Messenger.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
 #include <OSD_Environment.hxx>
 #include <Standard_NotImplemented.hxx>
 

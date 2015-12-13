@@ -25,8 +25,8 @@
 #include <TopTools_HSequenceOfShape.hxx>
 #include <TColStd_HSequenceOfInteger.hxx>
 #include <XSControl_Utils.hxx>
-#include <Message_Messenger.hxx>
-#include <Message.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
+#include <Foundation/Message/Message.hxx>
 #include <Interface_Macros.hxx>
 #include <Interface_MSG.hxx>
 

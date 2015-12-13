@@ -10,18 +10,18 @@
 #include <Standard_DefineHandle.hxx>
 #include <Handle_Message_Algorithm.hxx>
 
-#include <Message_ExecStatus.hxx>
+#include <Foundation/Message/Message_ExecStatus.hxx>
 #include <Handle_Message_Messenger.hxx>
 #include <Handle_TColStd_HArray1OfTransient.hxx>
-#include <Message_HArrayOfMsg.hxx>
+#include <Foundation/Message/Message_HArrayOfMsg.hxx>
 #include <MMgt_TShared.hxx>
-#include <Message_Status.hxx>
+#include <Foundation/Message/Message_Status.hxx>
 #include <Standard_Integer.hxx>
 #include <Standard_CString.hxx>
 #include <Standard_Boolean.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Handle_TCollection_HExtendedString.hxx>
-#include <Message_Gravity.hxx>
+#include <Foundation/Message/Message_Gravity.hxx>
 #include <Handle_TColStd_HPackedMapOfInteger.hxx>
 #include <Handle_TColStd_HSequenceOfHExtendedString.hxx>
 class Message_Messenger;
@@ -211,7 +211,7 @@ private:
 };
 
 
-#include <Message_Algorithm.lxx>
+#include <Foundation/Message/Message_Algorithm.lxx>
 
 
 

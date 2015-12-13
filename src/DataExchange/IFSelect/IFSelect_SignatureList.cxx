@@ -17,7 +17,7 @@
 #include <Standard_Transient.hxx>
 #include <TColStd_HSequenceOfHAsciiString.hxx>
 #include <TColStd_HSequenceOfTransient.hxx>
-#include <Message_Messenger.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
 #include <Interface_InterfaceModel.hxx>
 #include <IFSelect_SignatureList.hxx>
 #include <Standard_Type.hxx>
@@ -34,8 +34,8 @@ IMPLEMENT_STANDARD_RTTI(IFSelect_SignatureList)
 #include <TColStd_HSequenceOfTransient.hxx>
 #include <Interface_MSG.hxx>
 #include <Interface_Macros.hxx>
-#include <Message_Messenger.hxx>
-#include <Message.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
+#include <Foundation/Message/Message.hxx>
 
 IFSelect_SignatureList::IFSelect_SignatureList
   (const Standard_Boolean withlist)

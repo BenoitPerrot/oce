@@ -18,8 +18,8 @@
 #ifndef Message_ExecStatus_HeaderFile
 #define Message_ExecStatus_HeaderFile
 
-#include <Message_StatusType.hxx>
-#include <Message_Status.hxx>
+#include <Foundation/Message/Message_StatusType.hxx>
+#include <Foundation/Message/Message_Status.hxx>
 
 /**
  * Tiny class for extended handling of error / execution

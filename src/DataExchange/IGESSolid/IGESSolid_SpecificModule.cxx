@@ -13,7 +13,7 @@
 
 #include <IGESData_IGESEntity.hxx>
 #include <IGESData_IGESDumper.hxx>
-#include <Message_Messenger.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
 #include <IGESSolid_SpecificModule.hxx>
 #include <Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESSolid_SpecificModule)

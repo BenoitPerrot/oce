@@ -68,7 +68,7 @@
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <TopExp.hxx>
 
-#include <Message_ProgressSentry.hxx>
+#include <Foundation/Message/Message_ProgressSentry.hxx>
 
 //=======================================================================
 //function : SameParameter

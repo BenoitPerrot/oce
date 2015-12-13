@@ -13,7 +13,7 @@
 
 #include <IGESData_IGESEntity.hxx>
 #include <IGESData_IGESDumper.hxx>
-#include <Message_Messenger.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
 #include <IGESBasic_SpecificModule.hxx>
 #include <Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESBasic_SpecificModule)
@@ -60,7 +60,7 @@ IMPLEMENT_STANDARD_RTTI(IGESBasic_SpecificModule)
 #include <IGESBasic_ToolSingularSubfigure.hxx>
 #include <IGESBasic_ToolSubfigureDef.hxx>
 
-#include <Message_Messenger.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
 
 //  Each Module is attached to a Protocol : it must interprete Case Numbers
 //  (arguments <CN> of various methods) in accordance to values returned by

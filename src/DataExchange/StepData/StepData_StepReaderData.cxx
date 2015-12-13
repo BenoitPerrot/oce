@@ -40,8 +40,8 @@ IMPLEMENT_STANDARD_RTTI(StepData_StepReaderData)
 #include <StepData_StepModel.hxx>
 #include <Interface_FileParameter.hxx>
 #include <Interface_ParamList.hxx>
-#include <Message_Messenger.hxx>
-#include <Message.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
+#include <Foundation/Message/Message.hxx>
 #include <Interface_Static.hxx>
 #include <Interface_Macros.hxx>
 

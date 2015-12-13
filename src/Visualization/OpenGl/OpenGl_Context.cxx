@@ -29,7 +29,7 @@
 #include <OpenGl_Sampler.hxx>
 #include <OpenGl_ShaderManager.hxx>
 
-#include <Message_Messenger.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
 
 #include <NCollection_Vector.hxx>
 

@@ -14,7 +14,7 @@
 #include <Foundation/Dico/Dico_DictionaryOfInteger.hxx>
 #include <Standard_OutOfRange.hxx>
 #include <Interface_TypedValue.hxx>
-#include <Message_Messenger.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <IFSelect_EditForm.hxx>
 #include <TCollection_HAsciiString.hxx>

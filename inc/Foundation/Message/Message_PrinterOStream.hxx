@@ -12,8 +12,8 @@
 
 #include <Standard_Address.hxx>
 #include <Standard_Boolean.hxx>
-#include <Message_Printer.hxx>
-#include <Message_Gravity.hxx>
+#include <Foundation/Message/Message_Printer.hxx>
+#include <Foundation/Message/Message_Gravity.hxx>
 #include <Standard_CString.hxx>
 #include <Standard_OStream.hxx>
 class TCollection_AsciiString;
@@ -93,7 +93,7 @@ private:
 };
 
 
-#include <Message_PrinterOStream.lxx>
+#include <Foundation/Message/Message_PrinterOStream.lxx>
 
 
 

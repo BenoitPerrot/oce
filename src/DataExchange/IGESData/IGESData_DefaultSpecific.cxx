@@ -13,7 +13,7 @@
 
 #include <IGESData_IGESEntity.hxx>
 #include <IGESData_IGESDumper.hxx>
-#include <Message_Messenger.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
 #include <IGESData_DefaultSpecific.hxx>
 #include <Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESData_DefaultSpecific)
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(IGESData_DefaultSpecific)
 #include <IGESData_Protocol.hxx>
 #include <TCollection_HAsciiString.hxx>
 #include <Interface_Macros.hxx>
-#include <Message_Messenger.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
 
 
 IGESData_DefaultSpecific::IGESData_DefaultSpecific ()

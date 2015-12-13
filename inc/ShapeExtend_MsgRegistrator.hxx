@@ -14,7 +14,7 @@
 #include <ShapeExtend_DataMapOfShapeListOfMsg.hxx>
 #include <ShapeExtend_BasicMsgRegistrator.hxx>
 #include <Handle_Standard_Transient.hxx>
-#include <Message_Gravity.hxx>
+#include <Foundation/Message/Message_Gravity.hxx>
 class Standard_Transient;
 class Message_Msg;
 class TopoDS_Shape;

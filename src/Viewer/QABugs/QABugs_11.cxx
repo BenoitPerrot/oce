@@ -4562,7 +4562,7 @@ static Standard_Integer OCC12584 (Draw_Interpretor& di, Standard_Integer argc, c
 #include <Transfer_TransientProcess.hxx>
 #include <XSDRAW_Commands.hxx>
 #include <TColStd_HSequenceOfTransient.hxx>
-#include <Message_ProgressSentry.hxx>
+#include <Foundation/Message/Message_ProgressSentry.hxx>
 #include <XSControl_TransferReader.hxx>
 
 static Standard_Integer OCC18612igesbrep (Draw_Interpretor& di, Standard_Integer argc, const char ** argv) 

@@ -11,7 +11,7 @@
 #include <Handle_Message_ProgressIndicator.hxx>
 
 #include <Standard_Real.hxx>
-#include <Message_SequenceOfProgressScale.hxx>
+#include <Foundation/Message/Message_SequenceOfProgressScale.hxx>
 #include <MMgt_TShared.hxx>
 #include <Standard_CString.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
@@ -180,7 +180,7 @@ private:
 };
 
 
-#include <Message_ProgressIndicator.lxx>
+#include <Foundation/Message/Message_ProgressIndicator.lxx>
 
 
 

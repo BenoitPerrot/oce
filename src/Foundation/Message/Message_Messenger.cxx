@@ -14,10 +14,10 @@
 // commercial license or contractual agreement.
 
 #include <Standard_Type.hxx>
-#include <Message_Messenger.hxx>
-#include <Message_Printer.hxx>
-#include <Message_PrinterOStream.hxx>
-#include <Message_SequenceOfPrinters.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
+#include <Foundation/Message/Message_Printer.hxx>
+#include <Foundation/Message/Message_PrinterOStream.hxx>
+#include <Foundation/Message/Message_SequenceOfPrinters.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <TCollection_ExtendedString.hxx>
 

@@ -11,8 +11,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Message_ProgressIndicator.hxx>
-#include <Message_ProgressSentry.hxx>
+#include <Foundation/Message/Message_ProgressIndicator.hxx>
+#include <Foundation/Message/Message_ProgressSentry.hxx>
 #include <TCollection_HAsciiString.hxx>
 
 //=======================================================================

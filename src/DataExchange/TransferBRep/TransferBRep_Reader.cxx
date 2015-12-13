@@ -31,7 +31,7 @@
 
 #include <TopoDS_Compound.hxx>
 #include <BRep_Builder.hxx>
-#include <Message_Messenger.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
 
 TransferBRep_Reader::TransferBRep_Reader ()
     : theDone (Standard_False) , theFilest (0) , theNewpr (Standard_False)

@@ -20,7 +20,7 @@
 #include <XSControl_TransferWriter.hxx>
 #include <Interface_InterfaceModel.hxx>
 #include <Interface_Macros.hxx>
-#include <Message_ProgressIndicator.hxx>
+#include <Foundation/Message/Message_ProgressIndicator.hxx>
 #include <TopExp_Explorer.hxx>
 #include <Transfer_FinderProcess.hxx>
 

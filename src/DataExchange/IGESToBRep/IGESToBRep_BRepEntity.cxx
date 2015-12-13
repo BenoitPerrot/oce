@@ -93,13 +93,13 @@
 #include <ShapeExtend_WireData.hxx>
 #include <ShapeBuild_Edge.hxx>
 #include <IGESToBRep_IGESBoundary.hxx>
-#include <Message_Msg.hxx>
+#include <Foundation/Message/Message_Msg.hxx>
 #include <TCollection_HAsciiString.hxx>
 #include <IGESData_IGESModel.hxx>  
 //#include <ShapeFix_Face.hxx>
 #include <IGESToBRep_AlgoContainer.hxx>
 #include <IGESToBRep_ToolContainer.hxx>
-#include <Message_ProgressSentry.hxx>
+#include <Foundation/Message/Message_ProgressSentry.hxx>
 
 //=======================================================================
 //function : IGESToBRep_BRepEntity

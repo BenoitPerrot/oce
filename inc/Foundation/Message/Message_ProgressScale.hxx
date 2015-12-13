@@ -115,7 +115,7 @@ private:
 };
 
 
-#include <Message_ProgressScale.lxx>
+#include <Foundation/Message/Message_ProgressScale.lxx>
 
 
 

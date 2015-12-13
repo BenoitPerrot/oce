@@ -44,7 +44,7 @@
 #include <Interface_Macros.hxx>
 #include <stdio.h>
 
-#include <Message.hxx>
+#include <Foundation/Message/Message.hxx>
 
 static int deja = 0, dejald = 0;
 //unused variable 

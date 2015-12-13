@@ -18,7 +18,7 @@
 #ifndef Message_Status_HeaderFile
 #define Message_Status_HeaderFile
 
-#include <Message_StatusType.hxx>
+#include <Foundation/Message/Message_StatusType.hxx>
 
 //! Enumeration covering all execution statuses supported by the class
 //! Message_ExecStatus: 32 statuses per each of 4 types (DONE, WARN, ALARM, FAIL)

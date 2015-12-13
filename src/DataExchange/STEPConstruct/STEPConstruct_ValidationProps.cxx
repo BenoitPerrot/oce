@@ -27,8 +27,8 @@
 #include <STEPConstruct_ValidationProps.hxx>
 #include <STEPConstruct_UnitContext.hxx>
 
-#include <Message.hxx>
-#include <Message_Messenger.hxx>
+#include <Foundation/Message/Message.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
 #include <Interface_Macros.hxx>
 #include <Interface_Static.hxx>
 #include <Interface_EntityIterator.hxx>

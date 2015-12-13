@@ -13,7 +13,7 @@
 
 #include <IGESData_IGESEntity.hxx>
 #include <IGESData_IGESDumper.hxx>
-#include <Message_Messenger.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
 #include <IGESDimen_SpecificModule.hxx>
 #include <Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESDimen_SpecificModule)

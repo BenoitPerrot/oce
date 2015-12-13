@@ -153,7 +153,7 @@
 #include <GeomLib.hxx>
 #include <BSplCLib.hxx>
 //S3767
-#include <Message_Msg.hxx>
+#include <Foundation/Message/Message_Msg.hxx>
 #include <IGESData_IGESModel.hxx>
 
 #include <IGESGeom_CircularArc.hxx>

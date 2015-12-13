@@ -36,7 +36,7 @@
 
 // MGE 16/06/98
 // To use Msg class
-#include <Message_Msg.hxx>
+#include <Foundation/Message/Message_Msg.hxx>
 
 // decoupage interne pour faciliter les recuperations d erreurs
 static Standard_Integer recupne,recupnp;  // pour affichage en cas de pepin

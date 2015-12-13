@@ -17,8 +17,8 @@
 #include <Standard_Mutex.hxx>
 #include <Standard_Stream.hxx>
 #include <Standard_Type.hxx>
-#include <Message_PrinterOStream.hxx>
-#include <Message_Gravity.hxx>
+#include <Foundation/Message/Message_PrinterOStream.hxx>
+#include <Foundation/Message/Message_Gravity.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <TCollection_ExtendedString.hxx>
 

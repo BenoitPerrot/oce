@@ -18,7 +18,7 @@
 #include <IFSelect_ContextWrite.hxx>
 #include <IGESData_Protocol.hxx>
 #include <Standard_Transient.hxx>
-#include <Message_Messenger.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
 #include <IGESSelect_WorkLibrary.hxx>
 #include <Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESSelect_WorkLibrary)
@@ -30,8 +30,8 @@ IMPLEMENT_STANDARD_TYPE_END(IGESSelect_WorkLibrary)
 IMPLEMENT_DOWNCAST(IGESSelect_WorkLibrary,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESSelect_WorkLibrary)
 #include <Standard_ErrorHandler.hxx>
-#include <Message_Messenger.hxx>
-#include <Message.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
+#include <Foundation/Message/Message.hxx>
 
 #include <IGESSolid.hxx>
 #include <IGESAppli.hxx>

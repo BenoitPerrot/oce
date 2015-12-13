@@ -16,7 +16,7 @@
 #include <XSAlgo_ToolContainer.hxx>
 #include <TopoDS_Shape.hxx>
 #include <Standard_Transient.hxx>
-#include <Message_ProgressIndicator.hxx>
+#include <Foundation/Message/Message_ProgressIndicator.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Face.hxx>
 #include <Transfer_TransientProcess.hxx>
@@ -35,8 +35,8 @@ IMPLEMENT_STANDARD_RTTI(XSAlgo_AlgoContainer)
 #include <Standard_ErrorHandler.hxx>
 #include <Standard_Failure.hxx>
 
-#include <Message_ListOfMsg.hxx>
-#include <Message_ListIteratorOfListOfMsg.hxx>
+#include <Foundation/Message/Message_ListOfMsg.hxx>
+#include <Foundation/Message/Message_ListIteratorOfListOfMsg.hxx>
 
 #include <gp_Pnt.hxx>
 #include <gp_Pnt2d.hxx>
@@ -74,7 +74,7 @@ IMPLEMENT_STANDARD_RTTI(XSAlgo_AlgoContainer)
 #include <Transfer_TransientListBinder.hxx>
 #include <Resource_Manager.hxx>
 #include <Interface_Static.hxx>
-#include <Message_Msg.hxx>
+#include <Foundation/Message/Message_Msg.hxx>
 
 //=======================================================================
 //function : XSAlgo_AlgoContainer

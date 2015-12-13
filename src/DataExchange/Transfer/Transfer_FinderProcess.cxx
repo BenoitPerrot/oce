@@ -15,7 +15,7 @@
 #include <Transfer_TransientMapper.hxx>
 #include <Standard_Transient.hxx>
 #include <Transfer_Finder.hxx>
-#include <Message_Messenger.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
 #include <Transfer_FinderProcess.hxx>
 #include <Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Transfer_FinderProcess)

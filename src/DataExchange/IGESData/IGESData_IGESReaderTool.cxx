@@ -37,7 +37,7 @@
 
 // MGE 17/06/98
 // To use Msg class
-#include <Message_Msg.hxx>
+#include <Foundation/Message/Message_Msg.hxx>
 
 
 IGESData_IGESReaderTool::IGESData_IGESReaderTool

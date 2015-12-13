@@ -33,8 +33,8 @@
 #include <TCollection_HAsciiString.hxx>
 #include <TColStd_HSequenceOfInteger.hxx>
 
-#include <Message_Messenger.hxx>
-#include <Message.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
+#include <Foundation/Message/Message.hxx>
 #include <Interface_Macros.hxx>
 #include <stdio.h>
 

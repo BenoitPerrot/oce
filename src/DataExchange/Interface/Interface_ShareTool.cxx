@@ -22,14 +22,14 @@
 #include <Interface_EntityIterator.hxx>
 #include <Standard_Transient.hxx>
 #include <Standard_Type.hxx>
-#include <Message_Messenger.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
 #include <Interface_ShareTool.hxx>
 #include <Interface_InterfaceError.hxx>
 #include <Interface_IntList.hxx>
 #include <Interface_GeneralModule.hxx>
 #include <TColStd_HArray1OfInteger.hxx>
 #include <TColStd_HSequenceOfTransient.hxx>
-#include <Message_Messenger.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
 
 Interface_ShareTool::Interface_ShareTool (const Handle(Interface_InterfaceModel)& amodel,
                                           const Interface_GeneralLib& lib)

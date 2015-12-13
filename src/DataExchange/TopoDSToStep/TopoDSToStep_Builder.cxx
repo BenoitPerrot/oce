@@ -41,7 +41,7 @@
 #include <TransferBRep_ShapeMapper.hxx>
 #include <TCollection_HAsciiString.hxx>
 
-#include <Message_ProgressIndicator.hxx>
+#include <Foundation/Message/Message_ProgressIndicator.hxx>
 
 // ============================================================================
 // Method  : TopoDSToStep_Builder::TopoDSToStep_Builder

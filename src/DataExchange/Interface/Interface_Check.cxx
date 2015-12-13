@@ -14,9 +14,9 @@
 #include <TColStd_HSequenceOfHAsciiString.hxx>
 #include <Standard_Transient.hxx>
 #include <Standard_OutOfRange.hxx>
-#include <Message_Msg.hxx>
+#include <Foundation/Message/Message_Msg.hxx>
 #include <TCollection_HAsciiString.hxx>
-#include <Message_Messenger.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
 #include <Interface_Check.hxx>
 #include <Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Interface_Check)
@@ -28,8 +28,8 @@ IMPLEMENT_STANDARD_TYPE_END(Interface_Check)
 IMPLEMENT_DOWNCAST(Interface_Check,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Interface_Check)
 #include <Standard_OutOfRange.hxx>
-#include <Message_Messenger.hxx>
-#include <Message.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
+#include <Foundation/Message/Message.hxx>
 
 // Un Check est cree au depart sans liste de message : celle ci est creee
 // seulement si au moins une erreur doit y etre enregitree (Fail-Warning)

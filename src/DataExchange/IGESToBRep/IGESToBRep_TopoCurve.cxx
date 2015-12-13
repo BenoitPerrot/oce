@@ -117,7 +117,7 @@
 //#include <TColStd_HSequenceOfTransient.hxx>
 #include <ShapeBuild_Edge.hxx>
 #include <IGESToBRep_IGESBoundary.hxx>
-#include <Message_Msg.hxx>
+#include <Foundation/Message/Message_Msg.hxx>
 #include <TCollection_HAsciiString.hxx>
 #include <IGESData_IGESModel.hxx>  
 #include <ShapeAlgo.hxx>

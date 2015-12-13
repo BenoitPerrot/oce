@@ -45,7 +45,7 @@
 #include <Standard_OutOfRange.hxx>
 #include <Standard_NoSuchObject.hxx>
 #include <TopoDS_Shape.hxx>
-#include <Message_ProgressIndicator.hxx>
+#include <Foundation/Message/Message_ProgressIndicator.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <TopoDS_Face.hxx>
@@ -149,7 +149,7 @@ IMPLEMENT_STANDARD_RTTI(BRepBuilderAPI_Sewing)
 #include <BRep_PointOnCurve.hxx>
 #include <BRep_ListOfPointRepresentation.hxx>
 #include <BRep_TVertex.hxx>
-#include <Message_ProgressSentry.hxx>
+#include <Foundation/Message/Message_ProgressSentry.hxx>
 #include <BRepBuilderAPI_VertexInspector.hxx>
 #include <BRepBuilderAPI_CellFilter.hxx>
 #include <BRepBuilderAPI_BndBoxTreeSelector.hxx>

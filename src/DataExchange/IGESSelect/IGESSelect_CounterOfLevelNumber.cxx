@@ -16,7 +16,7 @@
 #include <Interface_InterfaceModel.hxx>
 #include <TColStd_HSequenceOfInteger.hxx>
 #include <TCollection_HAsciiString.hxx>
-#include <Message_Messenger.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
 #include <IGESSelect_CounterOfLevelNumber.hxx>
 #include <Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESSelect_CounterOfLevelNumber)
@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_RTTI(IGESSelect_CounterOfLevelNumber)
 #include <Interface_Macros.hxx>
 #include <stdio.h>
 
-#include <Message_Messenger.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
 
 IGESSelect_CounterOfLevelNumber::IGESSelect_CounterOfLevelNumber
   (const Standard_Boolean withmap, const Standard_Boolean withlist)

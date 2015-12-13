@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Standard_Stream.hxx>
-#include <Message_ProgressIndicator.hxx>
+#include <Foundation/Message/Message_ProgressIndicator.hxx>
 #include <Standard_OutOfRange.hxx>
 #include <Geom_Curve.hxx>
 #include <GeomTools_CurveSet.hxx>
@@ -43,7 +43,7 @@
 #include <TColgp_Array1OfPnt.hxx>
 #include <Standard_Failure.hxx>
 #include <Standard_ErrorHandler.hxx>
-#include <Message_ProgressSentry.hxx>
+#include <Foundation/Message/Message_ProgressSentry.hxx>
 
 #define LINE      1
 #define CIRCLE    2

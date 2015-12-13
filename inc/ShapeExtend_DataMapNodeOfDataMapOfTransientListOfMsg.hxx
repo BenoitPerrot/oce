@@ -11,7 +11,7 @@
 #include <Handle_ShapeExtend_DataMapNodeOfDataMapOfTransientListOfMsg.hxx>
 
 #include <Handle_Standard_Transient.hxx>
-#include <Message_ListOfMsg.hxx>
+#include <Foundation/Message/Message_ListOfMsg.hxx>
 #include <TCollection_MapNode.hxx>
 #include <TCollection_MapNodePtr.hxx>
 class Standard_Transient;
@@ -56,7 +56,7 @@ private:
 #define TheKey Handle(Standard_Transient)
 #define TheKey_hxx <Standard_Transient.hxx>
 #define TheItem Message_ListOfMsg
-#define TheItem_hxx <Message_ListOfMsg.hxx>
+#define TheItem_hxx <Foundation/Message/Message_ListOfMsg.hxx>
 #define Hasher TColStd_MapTransientHasher
 #define Hasher_hxx <TColStd_MapTransientHasher.hxx>
 #define TCollection_DataMapNode ShapeExtend_DataMapNodeOfDataMapOfTransientListOfMsg

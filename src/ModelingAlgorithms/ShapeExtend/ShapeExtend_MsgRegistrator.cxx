@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <Standard_Transient.hxx>
-#include <Message_Msg.hxx>
+#include <Foundation/Message/Message_Msg.hxx>
 #include <TopoDS_Shape.hxx>
 #include <ShapeExtend_DataMapOfTransientListOfMsg.hxx>
 #include <ShapeExtend_DataMapOfShapeListOfMsg.hxx>
@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(ShapeExtend_MsgRegistrator)
 IMPLEMENT_DOWNCAST(ShapeExtend_MsgRegistrator,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ShapeExtend_MsgRegistrator)
-#include <Message_ListOfMsg.hxx>
+#include <Foundation/Message/Message_ListOfMsg.hxx>
 
 //=======================================================================
 //function : ShapeExtend_MsgRegistrator

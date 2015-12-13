@@ -22,8 +22,8 @@
 #include <TCollection_AsciiString.hxx>
 #include <TColStd_SequenceOfAsciiString.hxx>
 
-#include <Message_Msg.hxx>
-#include <Message_Messenger.hxx>
+#include <Foundation/Message/Message_Msg.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
 
 #include <ShapeProcess_Operator.hxx>
 #include <ShapeProcess_DictionaryOfOperator.hxx>

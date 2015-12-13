@@ -22,7 +22,7 @@
 #include <TObj_ObjectIterator.hxx>
 #include <TObj_TNameContainer.hxx>
 
-#include <Message_MsgFile.hxx>
+#include <Foundation/Message/Message_MsgFile.hxx>
 #include <Standard_DefineHandle.hxx>
 #include <TColStd_HArray1OfReal.hxx>
 #include <TCollection_ExtendedString.hxx>

@@ -81,7 +81,7 @@
 #include <StepVisual_HArray1OfLayeredItem.hxx>
 #include <TColStd_HSequenceOfTransient.hxx>
 #include <TDF_Tool.hxx>
-#include <Message_Messenger.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
 #include <TDF_ChildIterator.hxx>
 
 #include <Transfer_Binder.hxx>

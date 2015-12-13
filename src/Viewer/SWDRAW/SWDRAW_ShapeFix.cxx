@@ -51,8 +51,8 @@
 #include <ShapeExtend_DataMapOfShapeListOfMsg.hxx>
 #include <ShapeExtend_MsgRegistrator.hxx>
 #include <ShapeExtend_DataMapIteratorOfDataMapOfShapeListOfMsg.hxx>
-#include <Message_ListIteratorOfListOfMsg.hxx>
-#include <Message_Msg.hxx>
+#include <Foundation/Message/Message_ListIteratorOfListOfMsg.hxx>
+#include <Foundation/Message/Message_Msg.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <TColStd_DataMapIteratorOfDataMapOfAsciiStringInteger.hxx>
 #include <TColStd_DataMapOfAsciiStringInteger.hxx>

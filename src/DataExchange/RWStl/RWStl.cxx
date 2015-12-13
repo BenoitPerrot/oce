@@ -16,11 +16,11 @@
 
 #include <StlMesh_Mesh.hxx>
 #include <OSD_Path.hxx>
-#include <Message_ProgressIndicator.hxx>
+#include <Foundation/Message/Message_ProgressIndicator.hxx>
 #include <RWStl.hxx>
 #include <OSD_Protection.hxx>
 #include <OSD_File.hxx>
-#include <Message_ProgressSentry.hxx>
+#include <Foundation/Message/Message_ProgressSentry.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <Standard_NoMoreObject.hxx>
 #include <Standard_TypeMismatch.hxx>

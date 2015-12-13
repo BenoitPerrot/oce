@@ -27,14 +27,14 @@
 #include <Interface_Check.hxx>
 #include <Interface_CopyTool.hxx>
 #include <IGESData_IGESDumper.hxx>
-#include <Message_Messenger.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
 #include <IGESAppli_ToolNode.hxx>
 #include <IGESData_ParamCursor.hxx>
 #include <IGESGeom_TransformationMatrix.hxx>
 #include <gp_XYZ.hxx>
 #include <gp_Pnt.hxx>
 #include <Interface_Macros.hxx>
-#include <Message_Messenger.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
 
 IGESAppli_ToolNode::IGESAppli_ToolNode ()    {  }
 

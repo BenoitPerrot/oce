@@ -17,7 +17,7 @@
 #include <gp_XY.hxx>
 #include <Standard_Type.hxx>
 #include <TCollection_AsciiString.hxx>
-#include <Message_Msg.hxx>
+#include <Foundation/Message/Message_Msg.hxx>
 #include <MoniTool_CaseData.hxx>
 #include <Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MoniTool_CaseData)

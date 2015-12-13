@@ -7,11 +7,11 @@
 
 #include <Standard_Type.hxx>
 
-#include <Message_Messenger.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
 #include <Transfer_Finder.hxx>
 #include <Transfer_Binder.hxx>
 #include <Transfer_ActorOfProcessForFinder.hxx>
-#include <Message_ProgressIndicator.hxx>
+#include <Foundation/Message/Message_ProgressIndicator.hxx>
 #include <Interface_InterfaceError.hxx>
 #include <Transfer_TransferFailure.hxx>
 #include <Transfer_FindHasher.hxx>
@@ -19,7 +19,7 @@
 #include <Transfer_TransferMapOfProcessForFinder.hxx>
 #include <Transfer_IndexedDataMapNodeOfTransferMapOfProcessForFinder.hxx>
 #include <Transfer_IteratorOfProcessForFinder.hxx>
-#include <Message_Msg.hxx>
+#include <Foundation/Message/Message_Msg.hxx>
 #include <Interface_Check.hxx>
 #include <Standard_Transient.hxx>
 #include <Standard_Type.hxx>

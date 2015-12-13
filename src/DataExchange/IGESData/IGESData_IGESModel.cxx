@@ -16,7 +16,7 @@
 //#13 smh 13.01.2000 : Parsing long year date
 #include <TColStd_HSequenceOfHAsciiString.hxx>
 #include <Interface_InterfaceError.hxx>
-#include <Message_Messenger.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
 #include <IGESData_GlobalSection.hxx>
 #include <IGESData_IGESEntity.hxx>
 #include <Interface_InterfaceModel.hxx>
@@ -39,7 +39,7 @@ IMPLEMENT_STANDARD_RTTI(IGESData_IGESModel)
 #include <IGESData_BasicEditor.hxx>
 #include <Interface_Static.hxx>
 #include <Interface_Macros.hxx>
-#include <Message_Msg.hxx>
+#include <Foundation/Message/Message_Msg.hxx>
 
 #include <stdio.h>
 

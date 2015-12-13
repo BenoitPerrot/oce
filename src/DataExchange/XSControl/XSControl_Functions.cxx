@@ -51,8 +51,8 @@
 #include <XSControl_SelectForTransfer.hxx>
 
 #include <Interface_Macros.hxx>
-#include <Message_Messenger.hxx>
-#include <Message.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
+#include <Foundation/Message/Message.hxx>
 
 // #######################################################################
 // ##									##

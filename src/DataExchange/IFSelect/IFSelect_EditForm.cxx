@@ -18,7 +18,7 @@
 #include <IFSelect_ListEditor.hxx>
 #include <TCollection_HAsciiString.hxx>
 #include <TColStd_HSequenceOfHAsciiString.hxx>
-#include <Message_Messenger.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
 #include <IFSelect_EditForm.hxx>
 #include <Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IFSelect_EditForm)
@@ -31,8 +31,8 @@ IMPLEMENT_DOWNCAST(IFSelect_EditForm,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IFSelect_EditForm)
 #include <Interface_TypedValue.hxx>
 #include <Interface_MSG.hxx>
-#include <Message_Messenger.hxx>
-#include <Message.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
+#include <Foundation/Message/Message.hxx>
 
 IFSelect_EditForm::IFSelect_EditForm
   (const Handle(IFSelect_Editor)& editor,

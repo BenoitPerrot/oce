@@ -15,7 +15,7 @@
 #include <Interface_InterfaceMismatch.hxx>
 #include <StepData_Protocol.hxx>
 #include <StepData_StepWriter.hxx>
-#include <Message_Messenger.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
 #include <Standard_Transient.hxx>
 #include <StepData_StepDumper.hxx>
 #include <StepData_ReadWriteModule.hxx>
@@ -23,8 +23,8 @@
 #include <Interface_GeneralModule.hxx>
 #include <Interface_EntityIterator.hxx>
 #include <TColStd_SequenceOfAsciiString.hxx>
-#include <Message_Messenger.hxx>
-#include <Message.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
+#include <Foundation/Message/Message.hxx>
 #include <stdio.h>
 
 StepData_StepDumper::StepData_StepDumper

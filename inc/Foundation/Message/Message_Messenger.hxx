@@ -10,14 +10,14 @@
 #include <Standard_DefineHandle.hxx>
 #include <Handle_Message_Messenger.hxx>
 
-#include <Message_SequenceOfPrinters.hxx>
+#include <Foundation/Message/Message_SequenceOfPrinters.hxx>
 #include <MMgt_TShared.hxx>
 #include <Handle_Message_Printer.hxx>
 #include <Standard_Boolean.hxx>
 #include <Standard_Integer.hxx>
 #include <Handle_Standard_Type.hxx>
 #include <Standard_CString.hxx>
-#include <Message_Gravity.hxx>
+#include <Foundation/Message/Message_Gravity.hxx>
 class Message_Printer;
 class Standard_Type;
 class Message_SequenceOfPrinters;
@@ -107,7 +107,7 @@ private:
 };
 
 
-#include <Message_Messenger.lxx>
+#include <Foundation/Message/Message_Messenger.lxx>
 
 
 

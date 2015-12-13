@@ -18,7 +18,7 @@
 #include <Standard_Transient.hxx>
 #include <Standard_ConstructionError.hxx>
 #include <TCollection_AsciiString.hxx>
-#include <Message_Messenger.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
 #include <TColStd_HSequenceOfAsciiString.hxx>
 #include <Foundation/Dico/Dico_DictionaryOfTransient.hxx>
 #include <MoniTool_TypedValue.hxx>
@@ -37,7 +37,7 @@ IMPLEMENT_STANDARD_RTTI(MoniTool_TypedValue)
 #include <Foundation/Dico/Dico_DictionaryOfTransient.hxx>
 #include <Foundation/Dico/Dico_IteratorOfDictionaryOfTransient.hxx>
 #include <MoniTool_Element.hxx>
-#include <Message_Messenger.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
 
 #include <OSD_Path.hxx>
 #include <stdio.h>

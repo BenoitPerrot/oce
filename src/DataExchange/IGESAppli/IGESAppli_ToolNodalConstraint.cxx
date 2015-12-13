@@ -27,7 +27,7 @@
 #include <Interface_Check.hxx>
 #include <Interface_CopyTool.hxx>
 #include <IGESData_IGESDumper.hxx>
-#include <Message_Messenger.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
 #include <IGESAppli_ToolNodalConstraint.hxx>
 #include <IGESData_ParamCursor.hxx>
 #include <IGESDefs_HArray1OfTabularData.hxx>

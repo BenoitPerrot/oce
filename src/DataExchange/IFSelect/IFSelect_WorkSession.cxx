@@ -45,7 +45,7 @@
 #include <IFSelect_PacketList.hxx>
 #include <TColStd_SequenceOfTransient.hxx>
 #include <TColStd_SequenceOfInteger.hxx>
-#include <Message_Messenger.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
 #include <IFSelect_SignatureList.hxx>
 #include <IFSelect_WorkSession.hxx>
 #include <Standard_Type.hxx>
@@ -104,8 +104,8 @@ IMPLEMENT_STANDARD_RTTI(IFSelect_WorkSession)
 #include <OSD_Path.hxx>
 #include <Interface_Macros.hxx>
 #include <Interface_MSG.hxx>
-#include <Message_Messenger.hxx>
-#include <Message.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
+#include <Foundation/Message/Message.hxx>
 #include <Standard_Failure.hxx>
 
 #define Flag_Incorrect 2

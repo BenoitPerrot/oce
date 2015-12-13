@@ -24,8 +24,8 @@
 #include <Interface_CheckIterator.hxx>
 #include <IFSelect_ContextModif.hxx>
 #include <IFSelect_Selection.hxx>
-#include <Message_Messenger.hxx>
-#include <Message.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
+#include <Foundation/Message/Message.hxx>
 #include <Standard_NoSuchObject.hxx>
 
 

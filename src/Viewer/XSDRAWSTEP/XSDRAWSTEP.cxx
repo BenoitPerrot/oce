@@ -23,8 +23,8 @@
 
 #include <Draw_Appli.hxx>
 #include <Draw_Interpretor.hxx>
-#include <Message.hxx>
-#include <Message_Messenger.hxx>
+#include <Foundation/Message/Message.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
 
 #include <DBRep.hxx>
 
@@ -60,7 +60,7 @@
 
 #include <TopExp_Explorer.hxx>
 #include <XSControl_TransferWriter.hxx>
-#include <Message_ProgressSentry.hxx>
+#include <Foundation/Message/Message_ProgressSentry.hxx>
 
 
 extern "C" {

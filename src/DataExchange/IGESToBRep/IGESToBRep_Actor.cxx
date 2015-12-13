@@ -43,7 +43,7 @@ IMPLEMENT_STANDARD_RTTI(IGESToBRep_Actor)
 #include <Interface_Macros.hxx>
 #include <Interface_Static.hxx>
 
-#include <Message_ProgressSentry.hxx>
+#include <Foundation/Message/Message_ProgressSentry.hxx>
 
 #include <TopoDS_Shape.hxx>
 #include <TransferBRep.hxx>

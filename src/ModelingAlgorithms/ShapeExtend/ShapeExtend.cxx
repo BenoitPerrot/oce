@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <ShapeExtend.hxx>
-#include <Message_MsgFile.hxx>
+#include <Foundation/Message/Message_MsgFile.hxx>
 
 //=======================================================================
 //function : Init

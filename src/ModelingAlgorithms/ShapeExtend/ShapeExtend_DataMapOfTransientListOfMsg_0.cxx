@@ -8,7 +8,7 @@
 #include <Standard_DomainError.hxx>
 #include <Standard_NoSuchObject.hxx>
 #include <Standard_Transient.hxx>
-#include <Message_ListOfMsg.hxx>
+#include <Foundation/Message/Message_ListOfMsg.hxx>
 #include <TColStd_MapTransientHasher.hxx>
 #include <ShapeExtend_DataMapNodeOfDataMapOfTransientListOfMsg.hxx>
 #include <ShapeExtend_DataMapIteratorOfDataMapOfTransientListOfMsg.hxx>
@@ -17,7 +17,7 @@
 #define TheKey Handle(Standard_Transient)
 #define TheKey_hxx <Standard_Transient.hxx>
 #define TheItem Message_ListOfMsg
-#define TheItem_hxx <Message_ListOfMsg.hxx>
+#define TheItem_hxx <Foundation/Message/Message_ListOfMsg.hxx>
 #define Hasher TColStd_MapTransientHasher
 #define Hasher_hxx <TColStd_MapTransientHasher.hxx>
 #define TCollection_DataMapNode ShapeExtend_DataMapNodeOfDataMapOfTransientListOfMsg

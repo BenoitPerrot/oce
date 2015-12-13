@@ -1,6 +1,6 @@
 // include required OCCT headers
 #include <Standard_Version.hxx>
-#include <Message_ProgressIndicator.hxx>
+#include <Foundation/Message/Message_ProgressIndicator.hxx>
 //for OCC graphic
 #include <Aspect_DisplayConnection.hxx>
 #include <WNT_Window.hxx>

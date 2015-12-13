@@ -30,7 +30,7 @@
 #include <Interface_InterfaceModel.hxx>
 
 #include <Interface_Static.hxx>
-#include <Message_MsgFile.hxx>
+#include <Foundation/Message/Message_MsgFile.hxx>
 #include <Standard_Integer.hxx>
 #include <Standard_Real.hxx>
 #include <OSD_Process.hxx>

@@ -34,7 +34,7 @@
 //#include <ShapeCustom.hxx>
 #include <Interface_Static.hxx>
 #include <Interface_Check.hxx>
-#include <Message_ProgressSentry.hxx>
+#include <Foundation/Message/Message_ProgressSentry.hxx>
 
 
 //#include <ShapeAlgo.hxx>

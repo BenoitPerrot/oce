@@ -94,8 +94,8 @@
 
 #include <STEPControl_ActorRead.hxx>
 
-#include <Message_ProgressSentry.hxx>
-#include <Message_Messenger.hxx>
+#include <Foundation/Message/Message_ProgressSentry.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
 #include <Transfer_ActorOfTransientProcess.hxx>
 #include <STEPControl_ActorRead.hxx>
 

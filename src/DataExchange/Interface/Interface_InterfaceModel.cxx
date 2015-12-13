@@ -28,7 +28,7 @@
 #include <Interface_CheckIterator.hxx>
 #include <Interface_GeneralLib.hxx>
 #include <Interface_EntityIterator.hxx>
-#include <Message_Messenger.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
 #include <TColStd_HSequenceOfHAsciiString.hxx>
 #include <Interface_InterfaceModel.hxx>
 #include <Standard_Type.hxx>
@@ -49,7 +49,7 @@ IMPLEMENT_STANDARD_RTTI(Interface_InterfaceModel)
 #include <TColStd_DataMapIteratorOfDataMapOfIntegerTransient.hxx>
 #include <Standard_OutOfRange.hxx>
 #include <Interface_SignType.hxx>
-#include <Message_Messenger.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
 
 // Un Modele d`Interface est un ensemble ferme d`Entites d`interface : chacune
 // est dans un seul modele a la fois; elle y a un numero (Number) qui permet de

@@ -27,7 +27,7 @@
 #include <TopoDS_Compound.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>
-#include <Message_ProgressIndicator.hxx>
+#include <Foundation/Message/Message_ProgressIndicator.hxx>
 #include <BRep_Builder.hxx>
 #include <BRepTools.hxx>
 #include <BRepTools_ShapeSet.hxx>

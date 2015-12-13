@@ -33,8 +33,8 @@
 #include <BRepLib.hxx>
 #include <BRepTools_Modifier.hxx>
 
-#include <Message_Msg.hxx>
-#include <Message_Messenger.hxx>
+#include <Foundation/Message/Message_Msg.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
 
 #include <IGESFile_Read.hxx>
 #include <IGESData_FileProtocol.hxx>
@@ -70,7 +70,7 @@
 
 #include <ShapeAlgo.hxx>
 #include <ShapeAlgo_AlgoContainer.hxx>
-#include <Message_ProgressSentry.hxx>
+#include <Foundation/Message/Message_ProgressSentry.hxx>
 
 #ifdef WNT
 #include <stdlib.h>

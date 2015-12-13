@@ -21,7 +21,7 @@
 #include <Standard_Transient.hxx>
 #include <Interface_ShareTool.hxx>
 #include <Interface_Check.hxx>
-#include <Message_Messenger.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
 #include <Interface_CheckIterator.hxx>
 #include <Interface_EntityIterator.hxx>
 #include <Interface_CheckTool.hxx>
@@ -31,7 +31,7 @@
 #include <Interface_ReportEntity.hxx>
 #include <Interface_GeneralModule.hxx>
 #include <Interface_CheckFailure.hxx>
-#include <Message_Messenger.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
 #include <Standard_Failure.hxx>
 #ifdef WNT
 #include <OSD_Exception.hxx>

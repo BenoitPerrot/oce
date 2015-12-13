@@ -18,7 +18,7 @@
 #include <TopTools_DataMapOfShapeShape.hxx>
 #include <ShapeBuild_ReShape.hxx>
 #include <BRepTools_Modifier.hxx>
-#include <Message_Msg.hxx>
+#include <Foundation/Message/Message_Msg.hxx>
 #include <ShapeProcess_ShapeContext.hxx>
 #include <Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeProcess_ShapeContext)
@@ -36,10 +36,10 @@ IMPLEMENT_STANDARD_RTTI(ShapeProcess_ShapeContext)
 #include <TopTools_DataMapIteratorOfDataMapOfShapeShape.hxx>
 #include <BRep_Builder.hxx>
 
-#include <Message_Msg.hxx>
-#include <Message_Messenger.hxx>
-#include <Message_ListOfMsg.hxx>
-#include <Message_ListIteratorOfListOfMsg.hxx>
+#include <Foundation/Message/Message_Msg.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
+#include <Foundation/Message/Message_ListOfMsg.hxx>
+#include <Foundation/Message/Message_ListIteratorOfListOfMsg.hxx>
 #include <ShapeExtend_MsgRegistrator.hxx>
 #include <ShapeExtend_DataMapOfShapeListOfMsg.hxx>
 

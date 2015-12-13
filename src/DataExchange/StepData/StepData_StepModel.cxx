@@ -18,7 +18,7 @@
 #include <Interface_EntityIterator.hxx>
 #include <Standard_Type.hxx>
 #include <Interface_Check.hxx>
-#include <Message_Messenger.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
 #include <TCollection_HAsciiString.hxx>
 #include <StepData_StepModel.hxx>
 #include <Standard_Type.hxx>

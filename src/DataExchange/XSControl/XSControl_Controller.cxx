@@ -82,8 +82,8 @@ IMPLEMENT_STANDARD_RTTI(XSControl_Controller)
 #include <Standard_DomainError.hxx>
 #include <TCollection_HAsciiString.hxx>
 #include <Interface_Macros.hxx>
-#include <Message_Messenger.hxx>
-#include <Message.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
+#include <Foundation/Message/Message.hxx>
 
 static Handle(Dico_DictionaryOfTransient)& listadapt()
 {

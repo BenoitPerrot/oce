@@ -13,7 +13,7 @@
 
 #include <ShapeFix_Shell.hxx>
 #include <TopoDS_Solid.hxx>
-#include <Message_ProgressIndicator.hxx>
+#include <Foundation/Message/Message_ProgressIndicator.hxx>
 #include <TopoDS_Shell.hxx>
 #include <TopoDS_Shape.hxx>
 #include <ShapeExtend_BasicMsgRegistrator.hxx>
@@ -72,8 +72,8 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Solid)
 #include <BRep_Tool.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>
 #include <TopTools_IndexedDataMapOfShapeShape.hxx>
-#include <Message_Msg.hxx>
-#include <Message_ProgressSentry.hxx>
+#include <Foundation/Message/Message_Msg.hxx>
+#include <Foundation/Message/Message_ProgressSentry.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>
 

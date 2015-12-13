@@ -26,8 +26,8 @@
 #include <BRep_Builder.hxx>
 #include <BRepLib.hxx>
 
-#include <Message_MsgFile.hxx>
-#include <Message_ProgressIndicator.hxx>
+#include <Foundation/Message/Message_MsgFile.hxx>
+#include <Foundation/Message/Message_ProgressIndicator.hxx>
 
 #include <ShapeExtend_MsgRegistrator.hxx>
 #include <ShapeProcess.hxx>

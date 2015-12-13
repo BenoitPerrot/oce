@@ -47,7 +47,7 @@
 #include <XSAlgo.hxx>
 #include <XSAlgo_AlgoContainer.hxx>
 #include <TopExp_Explorer.hxx>
-#include <Message_ProgressIndicator.hxx>
+#include <Foundation/Message/Message_ProgressIndicator.hxx>
 #include <errno.h>
 #include <OSD_OpenFile.hxx>
 

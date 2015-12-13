@@ -71,7 +71,7 @@ IMPLEMENT_STANDARD_RTTI(XSControl_TransferReader)
 #include <Interface_SignLabel.hxx>
 #include <Interface_Check.hxx>
 
-#include <Message_Messenger.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
 
 #include <ShapeFix.hxx>
 #include <stdio.h>

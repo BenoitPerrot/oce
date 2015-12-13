@@ -80,7 +80,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Face)
 #include <BRepLib_MakeVertex.hxx>
 #include <BRepLib_MakeWire.hxx>
 
-#include <Message_Msg.hxx>  
+#include <Foundation/Message/Message_Msg.hxx>  
 #include <ShapeBuild_ReShape.hxx>
 #include <ShapeExtend_WireData.hxx>
 #include <ShapeAnalysis.hxx>

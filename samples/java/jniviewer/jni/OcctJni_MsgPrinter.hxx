@@ -14,7 +14,7 @@
 #ifndef OcctJni_MsgPrinter_H
 #define OcctJni_MsgPrinter_H
 
-#include <Message_Printer.hxx>
+#include <Foundation/Message/Message_Printer.hxx>
 
 #include <jni.h>
 

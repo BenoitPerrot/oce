@@ -15,7 +15,7 @@
 #include <Standard_Real.hxx>
 #include <TopoDS_Shape.hxx>
 #include <MMgt_TShared.hxx>
-#include <Message_Gravity.hxx>
+#include <Foundation/Message/Message_Gravity.hxx>
 #include <Standard_Boolean.hxx>
 #include <Standard_Integer.hxx>
 class ShapeBuild_ReShape;

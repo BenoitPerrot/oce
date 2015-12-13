@@ -33,8 +33,8 @@
 #include <TopoDS_Face.hxx>
 #include <Transfer_TransientProcess.hxx>
 
-#include <Message_ProgressIndicator.hxx>
-#include <Message_ProgressSentry.hxx>
+#include <Foundation/Message/Message_ProgressIndicator.hxx>
+#include <Foundation/Message/Message_ProgressSentry.hxx>
 
 // ============================================================================
 // Method  : StepToTopoDS_TranslateShell::StepToTopoDS_TranslateShell

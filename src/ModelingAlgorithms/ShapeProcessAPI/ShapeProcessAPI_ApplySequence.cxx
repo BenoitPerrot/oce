@@ -21,8 +21,8 @@
 #include <TCollection_AsciiString.hxx>
 #include <TopoDS_Iterator.hxx>
 #include <TopTools_DataMapIteratorOfDataMapOfShapeShape.hxx>
-#include <Message_Messenger.hxx>
-#include <Message_Msg.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
+#include <Foundation/Message/Message_Msg.hxx>
 #include <Resource_Manager.hxx>
 #include <ShapeProcess.hxx>
 #include <ShapeProcess_OperLibrary.hxx>

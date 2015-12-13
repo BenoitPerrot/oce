@@ -22,7 +22,7 @@
 #include <TCollection_ExtendedString.hxx>
 #include <TColStd_SequenceOfExtendedString.hxx>
 #include <CDM_COutMessageDriver.hxx>
-#include <Message_Msg.hxx>
+#include <Foundation/Message/Message_Msg.hxx>
 #include <stdio.h>
 
 IMPLEMENT_STANDARD_HANDLE(TObj_Application,TDocStd_Application)

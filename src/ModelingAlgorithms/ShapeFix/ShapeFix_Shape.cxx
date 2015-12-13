@@ -16,7 +16,7 @@
 
 #include <ShapeFix_Solid.hxx>
 #include <TopoDS_Shape.hxx>
-#include <Message_ProgressIndicator.hxx>
+#include <Foundation/Message/Message_ProgressIndicator.hxx>
 #include <ShapeFix_Shell.hxx>
 #include <ShapeFix_Face.hxx>
 #include <ShapeFix_Wire.hxx>
@@ -55,7 +55,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Shape)
 #include <ShapeFix_Shell.hxx>
 #include <ShapeFix_Solid.hxx>
 
-#include <Message_ProgressSentry.hxx>
+#include <Foundation/Message/Message_ProgressSentry.hxx>
 
 //=======================================================================
 //function : ShapeFix_Shape

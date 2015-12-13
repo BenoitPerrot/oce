@@ -87,7 +87,7 @@ private:
 };
 
 
-#include <Message_ProgressSentry.lxx>
+#include <Foundation/Message/Message_ProgressSentry.lxx>
 
 
 

@@ -15,12 +15,12 @@
 // commercial license or contractual agreement.
 
 #include <Standard_Stream.hxx>
-#include <Message_ProgressIndicator.hxx>
+#include <Foundation/Message/Message_ProgressIndicator.hxx>
 #include <Standard_OutOfRange.hxx>
 #include <TopLoc_Location.hxx>
 #include <TopTools_LocationSet.hxx>
 #include <TopLoc_Location.hxx>
-#include <Message_ProgressSentry.hxx>
+#include <Foundation/Message/Message_ProgressSentry.hxx>
 
 #include <GeomTools.hxx>
 #include <gp_Ax3.hxx>

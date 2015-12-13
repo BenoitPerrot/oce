@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <Standard_Transient.hxx>
-#include <Message_Msg.hxx>
+#include <Foundation/Message/Message_Msg.hxx>
 #include <TopoDS_Shape.hxx>
 #include <ShapeExtend_BasicMsgRegistrator.hxx>
 #include <Standard_Type.hxx>

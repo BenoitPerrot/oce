@@ -19,7 +19,7 @@
 #include <Interface_Check.hxx>
 #include <Standard_Transient.hxx>
 #include <TColStd_HSequenceOfTransient.hxx>
-#include <Message_Messenger.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
 #include <Interface_CheckIterator.hxx>
 #include <Standard_NoSuchObject.hxx>
 #include <TCollection_HAsciiString.hxx>

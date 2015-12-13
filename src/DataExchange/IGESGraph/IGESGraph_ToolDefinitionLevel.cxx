@@ -28,7 +28,7 @@
 #include <Interface_Check.hxx>
 #include <Interface_CopyTool.hxx>
 #include <IGESData_IGESDumper.hxx>
-#include <Message_Messenger.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
 #include <IGESGraph_ToolDefinitionLevel.hxx>
 #include <IGESData_ParamCursor.hxx>
 #include <TColStd_HArray1OfInteger.hxx>

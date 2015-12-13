@@ -17,7 +17,7 @@
 #include <ShapeProcess_Context.hxx>
 #include <Standard_CString.hxx>
 #include <Handle_ShapeBuild_ReShape.hxx>
-#include <Message_Gravity.hxx>
+#include <Foundation/Message/Message_Gravity.hxx>
 #include <Standard_Boolean.hxx>
 #include <GeomAbs_Shape.hxx>
 class ShapeExtend_MsgRegistrator;

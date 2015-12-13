@@ -28,7 +28,7 @@
 #include <NCollection_Map.hxx>
 #include <NCollection_Handle.hxx>
 #include <NCollection_List.hxx>
-#include <Message.hxx>
+#include <Foundation/Message/Message.hxx>
 #include <OpenGl_Caps.hxx>
 #include <OpenGl_Vec.hxx>
 #include <OpenGl_Resource.hxx>

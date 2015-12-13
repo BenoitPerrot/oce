@@ -20,7 +20,7 @@
 
 #include <TObj_Common.hxx>
 #include <TObj_Model.hxx>
-#include <Message_Algorithm.hxx>
+#include <Foundation/Message/Message_Algorithm.hxx>
 
 /**
  * This class provides consistency check of the TObj model.

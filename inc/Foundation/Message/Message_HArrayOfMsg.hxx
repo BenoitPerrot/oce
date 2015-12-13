@@ -14,7 +14,7 @@
 #ifndef _Message_HArrayOfMsg_HeaderFile
 #define _Message_HArrayOfMsg_HeaderFile
 
-#include <Message_Msg.hxx>
+#include <Foundation/Message/Message_Msg.hxx>
 #include <NCollection_Array1.hxx>
 #include <NCollection_Handle.hxx>
 

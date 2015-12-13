@@ -11,9 +11,9 @@
 #include <Handle_Draw_Printer.hxx>
 
 #include <Standard_Address.hxx>
-#include <Message_Printer.hxx>
+#include <Foundation/Message/Message_Printer.hxx>
 #include <Draw_Interpretor.hxx>
-#include <Message_Gravity.hxx>
+#include <Foundation/Message/Message_Gravity.hxx>
 #include <Standard_Boolean.hxx>
 #include <Standard_CString.hxx>
 class TCollection_ExtendedString;

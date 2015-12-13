@@ -45,8 +45,8 @@ extern "C" void recfile_modeprint (int mode);  // controle trace recfile
 #include <Standard_Failure.hxx>
 #include <Interface_InterfaceError.hxx>
 
-#include <Message_Messenger.hxx>
-#include <Message.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
+#include <Foundation/Message/Message.hxx>
 
 #ifdef OCCT_DEBUG
 #define CHRONOMESURE

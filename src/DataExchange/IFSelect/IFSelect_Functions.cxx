@@ -39,8 +39,8 @@
 #include <IFSelect_WorkLibrary.hxx>
 #include <Interface_InterfaceModel.hxx>
 #include <IFSelect_SessionFile.hxx>
-#include <Message_Messenger.hxx>
-#include <Message.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
+#include <Foundation/Message/Message.hxx>
 
 #include <Interface_Category.hxx>
 #include <Interface_CheckIterator.hxx>

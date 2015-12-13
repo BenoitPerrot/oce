@@ -27,13 +27,13 @@
 #include <Interface_Check.hxx>
 #include <Interface_CopyTool.hxx>
 #include <IGESData_IGESDumper.hxx>
-#include <Message_Messenger.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
 #include <IGESSolid_ToolToroidalSurface.hxx>
 #include <IGESData_ParamCursor.hxx>
 #include <IGESGeom_Point.hxx>
 #include <IGESGeom_Direction.hxx>
 #include <Interface_Macros.hxx>
-#include <Message_Messenger.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
 
 IGESSolid_ToolToroidalSurface::IGESSolid_ToolToroidalSurface ()    {  }
 

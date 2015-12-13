@@ -29,7 +29,7 @@
 #include <Interface_Check.hxx>
 
 // S3767 dce 18/01/1999
-#include <Message_Msg.hxx>
+#include <Foundation/Message/Message_Msg.hxx>
 #include <Transfer_TransientProcess.hxx>
 #include <Transfer_IteratorOfProcessForTransient.hxx>
 #include <Transfer_Binder.hxx>
@@ -47,7 +47,7 @@
 #include <OSD_Timer.hxx>
 #include <Transfer_TransferOutput.hxx>
 #include <ShapeExtend_Explorer.hxx>
-#include <Message_Messenger.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
 #include <Transfer_ActorOfTransientProcess.hxx>
 #include <IGESToBRep_Actor.hxx>
 #include <IGESData_FileProtocol.hxx>

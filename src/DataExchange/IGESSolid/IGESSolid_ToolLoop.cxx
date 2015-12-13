@@ -28,7 +28,7 @@
 #include <Interface_Check.hxx>
 #include <Interface_CopyTool.hxx>
 #include <IGESData_IGESDumper.hxx>
-#include <Message_Messenger.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
 #include <IGESSolid_ToolLoop.hxx>
 #include <IGESData_ParamCursor.hxx>
 #include <IGESData_IGESEntity.hxx>
@@ -43,7 +43,7 @@
 #include <stdio.h>
 
 // MGE 03/08/98
-#include <Message_Msg.hxx>
+#include <Foundation/Message/Message_Msg.hxx>
 #include <IGESData_Status.hxx>
 
 //=======================================================================

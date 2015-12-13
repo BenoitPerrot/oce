@@ -22,7 +22,7 @@
 //                authentification we cut last '\r' in the line (which will
 //                be present if file is in DOS coding)
 
-#include <Message_ProgressIndicator.hxx>
+#include <Foundation/Message/Message_ProgressIndicator.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopTools_LocationSet.hxx>
 #include <TCollection_AsciiString.hxx>
@@ -33,7 +33,7 @@
 #include <locale.h>
 #include <string.h>
 
-#include <Message_ProgressSentry.hxx>
+#include <Foundation/Message/Message_ProgressSentry.hxx>
 
 const char* Version  = "CASCADE Topology V1, (c) Matra-Datavision";
 const char* Version2 = "CASCADE Topology V2, (c) Matra-Datavision";

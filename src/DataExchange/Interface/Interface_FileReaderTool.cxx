@@ -15,7 +15,7 @@
 #include <Interface_Protocol.hxx>
 #include <Interface_FileReaderData.hxx>
 #include <Interface_InterfaceModel.hxx>
-#include <Message_Messenger.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
 #include <TColStd_HArray1OfTransient.hxx>
 #include <Standard_DomainError.hxx>
 #include <Standard_NoSuchObject.hxx>
@@ -29,9 +29,9 @@
 #include <Interface_CheckFailure.hxx>
 #include <Interface_GeneralModule.hxx>
 #include <Interface_ReaderModule.hxx>
-#include <Message_Messenger.hxx>
-#include <Message_Msg.hxx>
-#include <Message.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
+#include <Foundation/Message/Message_Msg.hxx>
+#include <Foundation/Message/Message.hxx>
 
 #include <Standard_OutOfRange.hxx>
 #include <Standard_ErrorHandler.hxx>
@@ -46,7 +46,7 @@
 
 // MGE 16/06/98
 // To use Msg class
-#include <Message_Msg.hxx>
+#include <Foundation/Message/Message_Msg.hxx>
 // To use TCollectionHAsciiString
 #include <TCollection_HAsciiString.hxx>
 

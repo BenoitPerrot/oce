@@ -20,7 +20,7 @@
 #include <Standard_NoSuchObject.hxx>
 #include <TopoDS_Shape.hxx>
 #include <BRepTools_Modification.hxx>
-#include <Message_ProgressIndicator.hxx>
+#include <Foundation/Message/Message_ProgressIndicator.hxx>
 #include <BRepTools_Modifier.hxx>
 
 #include <TopoDS_Iterator.hxx>
@@ -56,7 +56,7 @@
 #include <Standard_NullObject.hxx>
 #include <gp_Trsf.hxx>
 #include <BRepTools_TrsfModification.hxx>
-#include <Message_ProgressSentry.hxx>
+#include <Foundation/Message/Message_ProgressSentry.hxx>
 
 
 

@@ -47,13 +47,13 @@ private:
 };
 
 #define SeqItem Handle(Message_Printer)
-#define SeqItem_hxx <Message_Printer.hxx>
+#define SeqItem_hxx <Foundation/Message/Message_Printer.hxx>
 #define TCollection_SequenceNode Message_SequenceNodeOfSequenceOfPrinters
-#define TCollection_SequenceNode_hxx <Message_SequenceNodeOfSequenceOfPrinters.hxx>
+#define TCollection_SequenceNode_hxx <Foundation/Message/Message_SequenceNodeOfSequenceOfPrinters.hxx>
 #define Handle_TCollection_SequenceNode Handle_Message_SequenceNodeOfSequenceOfPrinters
 #define TCollection_SequenceNode_Type_() Message_SequenceNodeOfSequenceOfPrinters_Type_()
 #define TCollection_Sequence Message_SequenceOfPrinters
-#define TCollection_Sequence_hxx <Message_SequenceOfPrinters.hxx>
+#define TCollection_Sequence_hxx <Foundation/Message/Message_SequenceOfPrinters.hxx>
 
 #include <TCollection_SequenceNode.lxx>
 

@@ -22,8 +22,8 @@
 #include <TransferBRep_ShapeMapper.hxx>
 #include <TransferBRep_HSequenceOfTransferResultInfo.hxx>
 #include <TColStd_HSequenceOfInteger.hxx>
-#include <Message_Printer.hxx>
-#include <Message_Msg.hxx>
+#include <Foundation/Message/Message_Printer.hxx>
+#include <Foundation/Message/Message_Msg.hxx>
 #include <TransferBRep_TransferResultInfo.hxx>
 #include <Interface_CheckIterator.hxx>
 #include <Interface_InterfaceModel.hxx>

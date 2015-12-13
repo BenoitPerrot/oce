@@ -15,7 +15,7 @@
 #include <Interface_InterfaceError.hxx>
 #include <IGESData_Protocol.hxx>
 #include <IGESData_IGESEntity.hxx>
-#include <Message_Messenger.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
 #include <IGESData_IGESDumper.hxx>
 #include <Interface_InterfaceError.hxx>
 #include <Interface_Macros.hxx>
@@ -24,7 +24,7 @@
 #include <IGESData_SpecificLib.hxx>
 #include <IGESData_SpecificModule.hxx>
 #include <TCollection_HAsciiString.hxx>
-#include <Message_Messenger.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
 
 IGESData_IGESDumper::IGESData_IGESDumper
   (const Handle(IGESData_IGESModel)& model,

@@ -25,7 +25,7 @@
 #include <IGESData_LabelDisplayEntity.hxx>
 
 // MGE 23/07/98
-#include <Message_Msg.hxx>
+#include <Foundation/Message/Message_Msg.hxx>
 
 // Chaque critere est par defaut inhibe
 

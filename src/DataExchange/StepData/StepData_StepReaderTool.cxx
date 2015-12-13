@@ -25,8 +25,8 @@
 #include <StepData_ReadWriteModule.hxx>
 #include <StepData_UndefinedEntity.hxx>
 
-#include <Message_Messenger.hxx>
-#include <Message.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
+#include <Foundation/Message/Message.hxx>
 #include <Interface_Macros.hxx>
 #include <TCollection_AsciiString.hxx>
 

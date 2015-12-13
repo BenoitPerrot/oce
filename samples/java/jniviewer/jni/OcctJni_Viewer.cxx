@@ -17,8 +17,8 @@
 #include <AIS_Shape.hxx>
 #include <Image_AlienPixMap.hxx>
 #include <BRepTools.hxx>
-#include <Message_Messenger.hxx>
-#include <Message_MsgFile.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
+#include <Foundation/Message/Message_MsgFile.hxx>
 #include <OpenGl_GraphicDriver.hxx>
 #include <OSD_Environment.hxx>
 #include <OSD_Timer.hxx>

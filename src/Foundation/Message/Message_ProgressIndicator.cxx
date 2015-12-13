@@ -13,8 +13,8 @@
 
 #include <Standard_Type.hxx>
 #include <TCollection_HAsciiString.hxx>
-#include <Message_ProgressScale.hxx>
-#include <Message_ProgressIndicator.hxx>
+#include <Foundation/Message/Message_ProgressScale.hxx>
+#include <Foundation/Message/Message_ProgressIndicator.hxx>
 
 IMPLEMENT_STANDARD_TYPE(Message_ProgressIndicator)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

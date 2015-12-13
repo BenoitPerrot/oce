@@ -49,8 +49,8 @@
 #include <Geom_Surface.hxx>
 
 #include <Interface_Macros.hxx>
-#include <Message.hxx>
-#include <Message_Messenger.hxx>
+#include <Foundation/Message/Message.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
 
 #include <Draw_Appli.hxx>
 #include <DrawTrSurf.hxx>
@@ -80,7 +80,7 @@
 #include <Interface_InterfaceModel.hxx>
 #include <Draw_ProgressIndicator.hxx>
 #include <TopExp_Explorer.hxx>
-#include <Message_ProgressSentry.hxx>
+#include <Foundation/Message/Message_ProgressSentry.hxx>
 
 //--------------------------------------------------------------
 // Function : igesbrep

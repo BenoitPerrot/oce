@@ -10,7 +10,7 @@
 #include <Standard_DefineHandle.hxx>
 #include <Handle_Message_Printer.hxx>
 
-#include <Message_Gravity.hxx>
+#include <Foundation/Message/Message_Gravity.hxx>
 #include <MMgt_TShared.hxx>
 #include <Standard_Boolean.hxx>
 #include <Standard_CString.hxx>
@@ -73,7 +73,7 @@ private:
 };
 
 
-#include <Message_Printer.lxx>
+#include <Foundation/Message/Message_Printer.lxx>
 
 
 

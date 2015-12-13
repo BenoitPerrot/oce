@@ -20,8 +20,8 @@
 
 #include <TDocStd_Application.hxx>
 #include <TObj_Common.hxx>
-#include <Message_Gravity.hxx>
-#include <Message_Messenger.hxx>
+#include <Foundation/Message/Message_Gravity.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
 
 class Handle(TObj_Application);
 class TColStd_SequenceOfExtendedString;

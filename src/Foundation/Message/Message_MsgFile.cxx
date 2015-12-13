@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Message_MsgFile.hxx>
+#include <Foundation/Message/Message_MsgFile.hxx>
 
 #include <NCollection_DataMap.hxx>
 #include <OSD_Environment.hxx>

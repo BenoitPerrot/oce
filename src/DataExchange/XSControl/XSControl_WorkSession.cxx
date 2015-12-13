@@ -18,7 +18,7 @@
 #include <XSControl_TransferWriter.hxx>
 #include <Foundation/Dico/Dico_DictionaryOfTransient.hxx>
 #include <XSControl_Vars.hxx>
-#include <Message_Messenger.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
 #include <Transfer_TransientProcess.hxx>
 #include <Standard_Transient.hxx>
 #include <Interface_InterfaceModel.hxx>
@@ -62,7 +62,7 @@ IMPLEMENT_STANDARD_RTTI(XSControl_WorkSession)
 #include <Interface_Macros.hxx>
 #include <Interface_Check.hxx>
 
-#include <Message_Messenger.hxx>
+#include <Foundation/Message/Message_Messenger.hxx>
 
 //=======================================================================
 //function : XSControl_WorkSession
