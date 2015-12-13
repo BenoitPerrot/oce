@@ -16,7 +16,7 @@
 #ifndef _Graphic3d_BndBox4f_HeaderFile
 #define _Graphic3d_BndBox4f_HeaderFile
 
-#include <BVH_Box.hxx>
+#include <Mathematics/BoundingVolumes/BVH_Box.hxx>
 
 typedef BVH_Box<Standard_ShortReal, 4> Graphic3d_BndBox4f;
 

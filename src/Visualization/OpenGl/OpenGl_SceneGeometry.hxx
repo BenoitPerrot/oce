@@ -16,8 +16,8 @@
 #ifndef _OpenGl_SceneGeometry_Header
 #define _OpenGl_SceneGeometry_Header
 
-#include <BVH_Geometry.hxx>
-#include <BVH_Triangulation.hxx>
+#include <Mathematics/BoundingVolumes/BVH_Geometry.hxx>
+#include <Mathematics/BoundingVolumes/BVH_Triangulation.hxx>
 #include <Foundation/NCollection/NCollection_StdAllocator.hxx>
 #include <OpenGl_TextureBufferArb.hxx>
 #include <OpenGl_Texture.hxx>

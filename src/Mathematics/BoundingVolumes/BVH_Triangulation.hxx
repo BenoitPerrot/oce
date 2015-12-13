@@ -16,7 +16,7 @@
 #ifndef _BVH_Triangulation_Header
 #define _BVH_Triangulation_Header
 
-#include <BVH_PrimitiveSet.hxx>
+#include <Mathematics/BoundingVolumes/BVH_PrimitiveSet.hxx>
 
 //! Triangulation as an example of BVH primitive set.
 //! \tparam T Numeric data type
@@ -65,6 +65,6 @@ public:
 
 };
 
-#include <BVH_Triangulation.lxx>
+#include <Mathematics/BoundingVolumes/BVH_Triangulation.lxx>
 
 #endif // _BVH_Triangulation_Header

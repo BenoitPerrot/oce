@@ -16,7 +16,7 @@
 #ifndef _BVH_Box_Header
 #define _BVH_Box_Header
 
-#include <BVH_Types.hxx>
+#include <Mathematics/BoundingVolumes/BVH_Types.hxx>
 
 //! Defines axis aligned bounding box (AABB) based on BVH vectors.
 //! \tparam T Numeric data type
@@ -251,6 +251,6 @@ namespace BVH
   };
 }
 
-#include <BVH_Box.lxx>
+#include <Mathematics/BoundingVolumes/BVH_Box.lxx>
 
 #endif // _BVH_Box_Header

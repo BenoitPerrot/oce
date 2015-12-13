@@ -16,7 +16,7 @@
 #ifndef _BVH_Sorter_Header
 #define _BVH_Sorter_Header
 
-#include <BVH_Set.hxx>
+#include <Mathematics/BoundingVolumes/BVH_Set.hxx>
 
 //! Performs centroid-based sorting of abstract set.
 template<class T, int N>
@@ -36,6 +36,6 @@ public:
 
 };
 
-#include <BVH_Sorter.lxx>
+#include <Mathematics/BoundingVolumes/BVH_Sorter.lxx>
 
 #endif // _BVH_Sorter_Header

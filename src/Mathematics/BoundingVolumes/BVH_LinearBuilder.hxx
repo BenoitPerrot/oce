@@ -16,7 +16,7 @@
 #ifndef _BVH_LinearBuilder_Header
 #define _BVH_LinearBuilder_Header
 
-#include <BVH_Builder.hxx>
+#include <Mathematics/BoundingVolumes/BVH_Builder.hxx>
 
 typedef std::pair<Standard_Integer, Standard_Integer> BVH_EncodedLink;
 
@@ -62,6 +62,6 @@ protected:
 
 };
 
-#include <BVH_LinearBuilder.lxx>
+#include <Mathematics/BoundingVolumes/BVH_LinearBuilder.lxx>
 
 #endif // _BVH_LinearBuilder_Header

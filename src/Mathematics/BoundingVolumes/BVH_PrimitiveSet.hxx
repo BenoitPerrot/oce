@@ -16,8 +16,8 @@
 #ifndef _BVH_PrimitiveSet_Header
 #define _BVH_PrimitiveSet_Header
 
-#include <BVH_Object.hxx>
-#include <BVH_Builder.hxx>
+#include <Mathematics/BoundingVolumes/BVH_Object.hxx>
+#include <Mathematics/BoundingVolumes/BVH_Builder.hxx>
 
 //! Set of abstract geometric primitives organized with bounding
 //! volume hierarchy (BVH). Unlike an object set, this collection
@@ -70,6 +70,6 @@ protected:
 
 };
 
-#include <BVH_PrimitiveSet.lxx>
+#include <Mathematics/BoundingVolumes/BVH_PrimitiveSet.lxx>
 
 #endif // _BVH_PrimitiveSet_Header

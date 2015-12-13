@@ -16,7 +16,7 @@
 #ifndef _BVH_QueueBuilder_Header
 #define _BVH_QueueBuilder_Header
 
-#include <BVH_Builder.hxx>
+#include <Mathematics/BoundingVolumes/BVH_Builder.hxx>
 
 #include <Foundation/NCollection/NCollection_Vector.hxx>
 
@@ -53,6 +53,6 @@ protected:
 
 };
 
-#include <BVH_QueueBuilder.lxx>
+#include <Mathematics/BoundingVolumes/BVH_QueueBuilder.lxx>
 
 #endif // _BVH_QueueBuilder_Header

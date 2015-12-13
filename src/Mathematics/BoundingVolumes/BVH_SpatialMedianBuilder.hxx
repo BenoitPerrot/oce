@@ -16,7 +16,7 @@
 #ifndef _BVH_SpatialMedianBuilder_Header
 #define _BVH_SpatialMedianBuilder_Header
 
-#include <BVH_BinnedBuilder.hxx>
+#include <Mathematics/BoundingVolumes/BVH_BinnedBuilder.hxx>
 
 //! Performs building of BVH tree using spatial median split algorithm.
 template<class T, int N>
@@ -33,6 +33,6 @@ public:
 
 };
 
-#include <BVH_SpatialMedianBuilder.lxx>
+#include <Mathematics/BoundingVolumes/BVH_SpatialMedianBuilder.lxx>
 
 #endif // _BVH_SpatialMedianBuilder_Header

@@ -15,7 +15,7 @@
 
 #include <OpenGl_BVHClipPrimitiveSet.hxx>
 
-#include <BVH_BinnedBuilder.hxx>
+#include <Mathematics/BoundingVolumes/BVH_BinnedBuilder.hxx>
 
 // =======================================================================
 // function : OpenGl_BVHClipPrimitiveSet

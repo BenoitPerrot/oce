@@ -16,7 +16,7 @@
 #ifndef _BVH_Set_Header
 #define _BVH_Set_Header
 
-#include <BVH_Box.hxx>
+#include <Mathematics/BoundingVolumes/BVH_Box.hxx>
 
 //! Set of abstract entities (bounded by BVH boxes). This is
 //! the minimal geometry interface needed to construct BVH.
@@ -58,6 +58,6 @@ public:
 
 };
 
-#include <BVH_Set.lxx>
+#include <Mathematics/BoundingVolumes/BVH_Set.lxx>
 
 #endif // _BVH_Set_Header

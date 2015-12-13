@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BVH_Properties.hxx>
+#include <Mathematics/BoundingVolumes/BVH_Properties.hxx>
 
 //! Abstract properties of geometric object.
 BVH_Properties::~BVH_Properties()

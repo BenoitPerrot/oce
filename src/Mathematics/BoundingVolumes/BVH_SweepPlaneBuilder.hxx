@@ -16,7 +16,7 @@
 #ifndef _BVH_SweepPlaneBuilder_Header
 #define _BVH_SweepPlaneBuilder_Header
 
-#include <BVH_QueueBuilder.hxx>
+#include <Mathematics/BoundingVolumes/BVH_QueueBuilder.hxx>
 
 //! Performs building of BVH tree using sweep plane SAH algorithm.
 template<class T, int N>
@@ -40,6 +40,6 @@ protected:
 
 };
 
-#include <BVH_SweepPlaneBuilder.lxx>
+#include <Mathematics/BoundingVolumes/BVH_SweepPlaneBuilder.lxx>
 
 #endif // _BVH_SweepPlaneBuilder_Header

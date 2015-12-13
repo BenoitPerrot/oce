@@ -16,7 +16,7 @@
 #ifndef _OpenGl_BVHClipPrimitiveSet_HeaderFile
 #define _OpenGl_BVHClipPrimitiveSet_HeaderFile
 
-#include <BVH_PrimitiveSet.hxx>
+#include <Mathematics/BoundingVolumes/BVH_PrimitiveSet.hxx>
 
 #include <Foundation/NCollection/NCollection_Array1.hxx>
 #include <Foundation/NCollection/NCollection_Sequence.hxx>

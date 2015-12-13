@@ -16,7 +16,7 @@
 #ifndef _BVH_Properties_Header
 #define _BVH_Properties_Header
 
-#include <BVH_Box.hxx>
+#include <Mathematics/BoundingVolumes/BVH_Box.hxx>
 
 #include <Foundation/Standard/Standard_Macro.hxx>
 
@@ -69,6 +69,6 @@ protected:
 
 };
 
-#include <BVH_Properties.lxx>
+#include <Mathematics/BoundingVolumes/BVH_Properties.lxx>
 
 #endif // _BVH_Properties_Header

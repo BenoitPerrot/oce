@@ -16,8 +16,8 @@
 #ifndef _BVH_ObjectSet_Header
 #define _BVH_ObjectSet_Header
 
-#include <BVH_Set.hxx>
-#include <BVH_Object.hxx>
+#include <Mathematics/BoundingVolumes/BVH_Set.hxx>
+#include <Mathematics/BoundingVolumes/BVH_Object.hxx>
 
 //! Array of abstract entities (bounded by BVH boxes) to built BVH.
 //! \tparam T Numeric data type
@@ -72,6 +72,6 @@ protected:
 
 };
 
-#include <BVH_ObjectSet.lxx>
+#include <Mathematics/BoundingVolumes/BVH_ObjectSet.lxx>
 
 #endif // _BVH_ObjectSet_Header

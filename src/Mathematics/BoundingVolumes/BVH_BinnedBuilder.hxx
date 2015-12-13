@@ -16,7 +16,7 @@
 #ifndef _BVH_BinnedBuilder_Header
 #define _BVH_BinnedBuilder_Header
 
-#include <BVH_QueueBuilder.hxx>
+#include <Mathematics/BoundingVolumes/BVH_QueueBuilder.hxx>
 
 #include <algorithm>
 
@@ -66,6 +66,6 @@ protected:
 
 };
 
-#include <BVH_BinnedBuilder.lxx>
+#include <Mathematics/BoundingVolumes/BVH_BinnedBuilder.lxx>
 
 #endif // _BVH_BinnedBuilder_Header

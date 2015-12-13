@@ -16,8 +16,8 @@
 #ifndef _BVH_Builder_Header
 #define _BVH_Builder_Header
 
-#include <BVH_Set.hxx>
-#include <BVH_Tree.hxx>
+#include <Mathematics/BoundingVolumes/BVH_Set.hxx>
+#include <Mathematics/BoundingVolumes/BVH_Tree.hxx>
 
 namespace BVH
 {
@@ -65,6 +65,6 @@ protected:
 
 };
 
-#include <BVH_Builder.lxx>
+#include <Mathematics/BoundingVolumes/BVH_Builder.lxx>
 
 #endif // _BVH_Builder_Header

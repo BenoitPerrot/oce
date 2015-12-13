@@ -16,8 +16,8 @@
 #ifndef _BVH_Geometry_Header
 #define _BVH_Geometry_Header
 
-#include <BVH_ObjectSet.hxx>
-#include <BVH_Builder.hxx>
+#include <Mathematics/BoundingVolumes/BVH_ObjectSet.hxx>
+#include <Mathematics/BoundingVolumes/BVH_Builder.hxx>
 
 //! BVH geometry as a set of abstract geometric objects
 //! organized with bounding volume hierarchy (BVH).
@@ -69,6 +69,6 @@ protected:
 
 };
 
-#include <BVH_Geometry.lxx>
+#include <Mathematics/BoundingVolumes/BVH_Geometry.lxx>
 
 #endif // _BVH_Geometry_Header

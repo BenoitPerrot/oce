@@ -13,12 +13,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BVH_Geometry.hxx>
-#include <BVH_Triangulation.hxx>
-#include <BVH_LinearBuilder.hxx>
-#include <BVH_BinnedBuilder.hxx>
-#include <BVH_SweepPlaneBuilder.hxx>
-#include <BVH_SpatialMedianBuilder.hxx>
+#include <Mathematics/BoundingVolumes/BVH_Geometry.hxx>
+#include <Mathematics/BoundingVolumes/BVH_Triangulation.hxx>
+#include <Mathematics/BoundingVolumes/BVH_LinearBuilder.hxx>
+#include <Mathematics/BoundingVolumes/BVH_BinnedBuilder.hxx>
+#include <Mathematics/BoundingVolumes/BVH_SweepPlaneBuilder.hxx>
+#include <Mathematics/BoundingVolumes/BVH_SpatialMedianBuilder.hxx>
 
 // Specific instantiations of struct templates to avoid compilation warnings
 

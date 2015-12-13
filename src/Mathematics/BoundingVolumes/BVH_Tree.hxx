@@ -18,7 +18,7 @@
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <BVH_Box.hxx>
+#include <Mathematics/BoundingVolumes/BVH_Box.hxx>
 
 template<class T, int N> class BVH_Builder;
 
@@ -261,6 +261,6 @@ protected:
 
 };
 
-#include <BVH_Tree.lxx>
+#include <Mathematics/BoundingVolumes/BVH_Tree.lxx>
 
 #endif // _BVH_Tree_Header

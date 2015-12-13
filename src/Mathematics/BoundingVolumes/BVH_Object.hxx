@@ -16,8 +16,8 @@
 #ifndef _BVH_Object_Header
 #define _BVH_Object_Header
 
-#include <BVH_Box.hxx>
-#include <BVH_Properties.hxx>
+#include <Mathematics/BoundingVolumes/BVH_Box.hxx>
+#include <Mathematics/BoundingVolumes/BVH_Properties.hxx>
 
 #include <Foundation/NCollection/NCollection_Handle.hxx>
 
@@ -56,6 +56,6 @@ protected:
 
 };
 
-#include <BVH_Object.lxx>
+#include <Mathematics/BoundingVolumes/BVH_Object.lxx>
 
 #endif // _BVH_Object_Header
