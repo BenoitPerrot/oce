@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <SortTools_ShellSortOfReal.hxx>
+#include <Foundation/SortTools/SortTools_ShellSortOfReal.hxx>
 
 #include <TColStd_Array1OfReal.hxx>
 #include <TCollection_CompareOfReal.hxx>
@@ -16,6 +16,6 @@
 #define Comparator TCollection_CompareOfReal
 #define Comparator_hxx <TCollection_CompareOfReal.hxx>
 #define SortTools_ShellSort SortTools_ShellSortOfReal
-#define SortTools_ShellSort_hxx <SortTools_ShellSortOfReal.hxx>
-#include <SortTools_ShellSort.gxx>
+#define SortTools_ShellSort_hxx <Foundation/SortTools/SortTools_ShellSortOfReal.hxx>
+#include <Foundation/SortTools/SortTools_ShellSort.gxx>
 

@@ -18,5 +18,5 @@
 #define Comparator_hxx <math_CompareOfValueAndWeight.hxx>
 #define SortTools_QuickSort math_QuickSortOfValueAndWeight
 #define SortTools_QuickSort_hxx <math_QuickSortOfValueAndWeight.hxx>
-#include <SortTools_QuickSort.gxx>
+#include <Foundation/SortTools/SortTools_QuickSort.gxx>
 

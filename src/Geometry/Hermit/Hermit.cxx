@@ -31,7 +31,7 @@
 #include <Standard_DimensionError.hxx>
 #include <Standard_Real.hxx>
 #include <TCollection_CompareOfReal.hxx>
-#include <SortTools_QuickSortOfReal.hxx>
+#include <Foundation/SortTools/SortTools_QuickSortOfReal.hxx>
 #include <Precision.hxx>
 
 //=======================================================================

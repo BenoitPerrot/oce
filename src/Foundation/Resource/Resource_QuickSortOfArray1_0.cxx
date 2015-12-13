@@ -18,5 +18,5 @@
 #define Comparator_hxx <Foundation/Resource/Resource_LexicalCompare.hxx>
 #define SortTools_QuickSort Resource_QuickSortOfArray1
 #define SortTools_QuickSort_hxx <Foundation/Resource/Resource_QuickSortOfArray1.hxx>
-#include <SortTools_QuickSort.gxx>
+#include <Foundation/SortTools/SortTools_QuickSort.gxx>
 

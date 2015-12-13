@@ -50,7 +50,7 @@
 #include <TColStd_HArray1OfReal.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>
 #include <TColGeom2d_SequenceOfCurve.hxx>
-#include <SortTools_ShellSortOfReal.hxx>
+#include <Foundation/SortTools/SortTools_ShellSortOfReal.hxx>
 #include <TCollection_CompareOfReal.hxx>
 
 #include <TopTools_SequenceOfShape.hxx>

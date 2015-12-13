@@ -70,8 +70,8 @@
 #include <Precision.hxx>
 #include <AppDef_MyLineTool.hxx>
 
-#include <SortTools_StraightInsertionSortOfReal.hxx>
-#include <SortTools_ShellSortOfReal.hxx>
+#include <Foundation/SortTools/SortTools_StraightInsertionSortOfReal.hxx>
+#include <Foundation/SortTools/SortTools_ShellSortOfReal.hxx>
 #include <TCollection_CompareOfReal.hxx>
 #include <TColStd_HArray2OfInteger.hxx>
 #include <TColStd_Array2OfInteger.hxx>

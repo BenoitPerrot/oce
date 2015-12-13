@@ -18,5 +18,5 @@
 #define Comparator_hxx <IntTools_CompareRange.hxx>
 #define SortTools_QuickSort IntTools_QuickSortRange
 #define SortTools_QuickSort_hxx <IntTools_QuickSortRange.hxx>
-#include <SortTools_QuickSort.gxx>
+#include <Foundation/SortTools/SortTools_QuickSort.gxx>
 

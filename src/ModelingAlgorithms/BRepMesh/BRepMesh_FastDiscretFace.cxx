@@ -36,7 +36,7 @@
 
 #include <Standard_ErrorHandler.hxx>
 #include <Standard_Failure.hxx>
-#include <SortTools_ShellSortOfReal.hxx>
+#include <Foundation/SortTools/SortTools_ShellSortOfReal.hxx>
 #include <TCollection_CompareOfReal.hxx>
 #include <TColStd_Array1OfReal.hxx>
 #include <TColStd_ListOfInteger.hxx>

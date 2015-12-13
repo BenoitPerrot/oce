@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <SortTools_StraightInsertionSortOfInteger.hxx>
+#include <Foundation/SortTools/SortTools_StraightInsertionSortOfInteger.hxx>
 
 #include <TColStd_Array1OfInteger.hxx>
 #include <TCollection_CompareOfInteger.hxx>
@@ -16,6 +16,6 @@
 #define Comparator TCollection_CompareOfInteger
 #define Comparator_hxx <TCollection_CompareOfInteger.hxx>
 #define SortTools_StraightInsertionSort SortTools_StraightInsertionSortOfInteger
-#define SortTools_StraightInsertionSort_hxx <SortTools_StraightInsertionSortOfInteger.hxx>
-#include <SortTools_StraightInsertionSort.gxx>
+#define SortTools_StraightInsertionSort_hxx <Foundation/SortTools/SortTools_StraightInsertionSortOfInteger.hxx>
+#include <Foundation/SortTools/SortTools_StraightInsertionSort.gxx>
 

@@ -58,7 +58,7 @@ IMPLEMENT_STANDARD_RTTI(SelectMgr_ViewerSelector)
 #include <SelectMgr_DataMapIteratorOfDataMapOfIntegerSensitive.hxx>
 #include <SelectMgr_DataMapIteratorOfDataMapOfSelectionActivation.hxx>
 #include <SelectMgr_SortCriterion.hxx>
-#include <SortTools_QuickSortOfInteger.hxx>
+#include <Foundation/SortTools/SortTools_QuickSortOfInteger.hxx>
 #include <Foundation/OSD/OSD_Environment.hxx>
 
 static Standard_Boolean SelectDebugModeOnVS()

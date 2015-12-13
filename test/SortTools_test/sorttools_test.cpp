@@ -1,6 +1,6 @@
 #include <TCollection_CompareOfInteger.hxx>
 #include <TColStd_Array1OfInteger.hxx>
-#include <SortTools_QuickSortOfInteger.hxx>
+#include <Foundation/SortTools/SortTools_QuickSortOfInteger.hxx>
 
 #include <gtest/gtest.h>
 
