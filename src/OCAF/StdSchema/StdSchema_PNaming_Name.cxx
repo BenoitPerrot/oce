@@ -11,10 +11,10 @@
 #include <StdSchema_PNaming_NamedShape.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
-#include <Storage_Schema.hxx>
+#include <Foundation/Storage/Storage_Schema.hxx>
 #endif
 #ifndef _Storage_stCONSTclCOM_HeaderFile
-#include <Storage_stCONSTclCOM.hxx>
+#include <Foundation/Storage/Storage_stCONSTclCOM.hxx>
 #endif
 
 IMPLEMENT_STANDARD_HANDLE(StdSchema_PNaming_Name,Storage_CallBack)

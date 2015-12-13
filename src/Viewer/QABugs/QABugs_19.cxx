@@ -1965,14 +1965,14 @@ static Standard_Integer OCC24667 (Draw_Interpretor& di, Standard_Integer n, cons
 #include <BRepCheck_Analyzer.hxx>
 #include <PTColStd_TransientPersistentMap.hxx>
 #include <PTopoDS_HShape.hxx>
-#include <Storage_Data.hxx>
+#include <Foundation/Storage/Storage_Data.hxx>
 #include <TopExp_Explorer.hxx>
 #include <MgtBRep.hxx>
 #include <Foundation/FSD/FSD_File.hxx>
 #include <ShapeSchema.hxx>
 #include <TColStd_HSequenceOfTransient.hxx>
 #include <PTColStd_PersistentTransientMap.hxx>
-#include <Storage_Root.hxx>
+#include <Foundation/Storage/Storage_Root.hxx>
 
 static Standard_Integer OCC24565 (Draw_Interpretor& di, Standard_Integer argc, const char** argv)
 {

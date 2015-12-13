@@ -13,8 +13,8 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_Type.hxx>
-#include <Storage_CallBack.hxx>
-#include <Storage_TypedCallBack.hxx>
+#include <Foundation/Storage/Storage_CallBack.hxx>
+#include <Foundation/Storage/Storage_TypedCallBack.hxx>
 #include <TCollection_AsciiString.hxx>
 
 IMPLEMENT_STANDARD_TYPE(Storage_TypedCallBack)

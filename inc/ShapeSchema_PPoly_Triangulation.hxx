@@ -7,13 +7,13 @@
 #define _ShapeSchema_PPoly_Triangulation_HeaderFile
 
 #ifndef _Storage_Schema_HeaderFile
-#include <Storage_Schema.hxx>
+#include <Foundation/Storage/Storage_Schema.hxx>
 #endif
 #ifndef _Storage_CallBack_HeaderFile
-#include <Storage_CallBack.hxx>
+#include <Foundation/Storage/Storage_CallBack.hxx>
 #endif
 #ifndef _Storage_BaseDriver_HeaderFile
-#include <Storage_BaseDriver.hxx>
+#include <Foundation/Storage/Storage_BaseDriver.hxx>
 #endif
 #ifndef _Handle_PPoly_Triangulation_HeaderFile
 #include <Handle_PPoly_Triangulation.hxx>

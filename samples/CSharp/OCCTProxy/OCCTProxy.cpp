@@ -21,9 +21,9 @@
 //csfdb I/E
 #include <Foundation/FSD/FSD_File.hxx>
 #include <ShapeSchema.hxx>
-#include <Storage_Data.hxx>
-#include <Storage_HSeqOfRoot.hxx>
-#include <Storage_Root.hxx>
+#include <Foundation/Storage/Storage_Data.hxx>
+#include <Foundation/Storage/Storage_HSeqOfRoot.hxx>
+#include <Foundation/Storage/Storage_Root.hxx>
 // iges I/E
 #include <IGESControl_Reader.hxx>
 #include <IGESControl_Controller.hxx>

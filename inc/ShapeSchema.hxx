@@ -1,14 +1,14 @@
 #ifndef _Storage_Schema_HeaderFile
-#include <Storage_Schema.hxx>
+#include <Foundation/Storage/Storage_Schema.hxx>
 #endif
 #ifndef _Storage_BaseDriver_HeaderFile
-#include <Storage_BaseDriver.hxx>
+#include <Foundation/Storage/Storage_BaseDriver.hxx>
 #endif
 #ifndef _Storage_CallBack_HeaderFile
-#include <Storage_CallBack.hxx>
+#include <Foundation/Storage/Storage_CallBack.hxx>
 #endif
 #ifndef _Storage_Macros_HeaderFile
-#include <Storage_Macros.hxx>
+#include <Foundation/Storage/Storage_Macros.hxx>
 #endif
 class Handle(ObjMgt_ExternShareable);
 class Handle(ObjMgt_ExternRef);
@@ -229,19 +229,19 @@ class DBC_VArrayOfExtCharacter;
 #include <Foundation/Standard/Standard_Macro.hxx>
 #endif
 #ifndef _Storage_Macros_HeaderFile
-#include <Storage_Macros.hxx>
+#include <Foundation/Storage/Storage_Macros.hxx>
 #endif
 #ifndef _Storage_stCONSTclCOM_HeaderFile
-#include <Storage_stCONSTclCOM.hxx>
+#include <Foundation/Storage/Storage_stCONSTclCOM.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
-#include <Storage_Schema.hxx>
+#include <Foundation/Storage/Storage_Schema.hxx>
 #endif
 #ifndef _Storage_CallBack_HeaderFile
-#include <Storage_CallBack.hxx>
+#include <Foundation/Storage/Storage_CallBack.hxx>
 #endif
 #ifndef _Storage_BaseDriver_HeaderFile
-#include <Storage_BaseDriver.hxx>
+#include <Foundation/Storage/Storage_BaseDriver.hxx>
 #endif
 
 DEFINE_STANDARD_HANDLE(ShapeSchema,Storage_Schema)

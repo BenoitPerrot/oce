@@ -14,8 +14,8 @@
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
-#include <Storage_Schema.hxx>
-#include <Storage_TypeData.hxx>
+#include <Foundation/Storage/Storage_Schema.hxx>
+#include <Foundation/Storage/Storage_TypeData.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <TColStd_HSequenceOfAsciiString.hxx>
 

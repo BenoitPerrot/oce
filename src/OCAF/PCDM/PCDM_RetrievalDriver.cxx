@@ -21,7 +21,7 @@
 #include <CDM_Document.hxx>
 #include <CDM_Application.hxx>
 #include <PCDM_Document.hxx>
-#include <Storage_Schema.hxx>
+#include <Foundation/Storage/Storage_Schema.hxx>
 #include <TColStd_SequenceOfExtendedString.hxx>
 #include <CDM_MessageDriver.hxx>
 #include <PCDM_SequenceOfReference.hxx>
@@ -39,10 +39,10 @@ IMPLEMENT_STANDARD_RTTI(PCDM_RetrievalDriver)
 #include <PCDM_BaseDriverPointer.hxx>
 #include <PCDM.hxx>
 #include <PCDM_TypeOfFileDriver.hxx>
-#include <Storage_Data.hxx>
-#include <Storage_HeaderData.hxx>
-#include <Storage_Schema.hxx>
-#include <Storage_Root.hxx>
+#include <Foundation/Storage/Storage_Data.hxx>
+#include <Foundation/Storage/Storage_HeaderData.hxx>
+#include <Foundation/Storage/Storage_Schema.hxx>
+#include <Foundation/Storage/Storage_Root.hxx>
 #include <TCollection_AsciiString.hxx>
 
 #include <TColStd_SequenceOfAsciiString.hxx>
@@ -52,7 +52,7 @@ IMPLEMENT_STANDARD_RTTI(PCDM_RetrievalDriver)
 #include <Foundation/Resource/Resource_Manager.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <PCDM.hxx>
-#include <Storage_HSeqOfRoot.hxx>
+#include <Foundation/Storage/Storage_HSeqOfRoot.hxx>
 #include <locale.h>
 
 void PCDM_RetrievalDriver::RaiseIfUnknownTypes(const Handle(Storage_Schema)& aSchema, const TCollection_ExtendedString& aFileName) {

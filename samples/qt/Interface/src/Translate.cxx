@@ -23,9 +23,9 @@
 #include <Foundation/FSD/FSD_File.hxx>
 
 #include <ShapeSchema.hxx>
-#include <Storage_Data.hxx>
-#include <Storage_Root.hxx>
-#include <Storage_HSeqOfRoot.hxx>
+#include <Foundation/Storage/Storage_Data.hxx>
+#include <Foundation/Storage/Storage_Root.hxx>
+#include <Foundation/Storage/Storage_HSeqOfRoot.hxx>
 #include <PTopoDS_HShape.hxx>
 #include <PTColStd_PersistentTransientMap.hxx>
 #include <PTColStd_TransientPersistentMap.hxx>

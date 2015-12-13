@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Storage_HArrayOfCallBack.hxx>
 
-#include <Storage_ArrayOfCallBack.hxx>
+#include <Foundation/Storage/Storage_ArrayOfCallBack.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Storage_CallBack.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
@@ -70,11 +70,11 @@ private:
 };
 
 #define ItemHArray1 Handle(Storage_CallBack)
-#define ItemHArray1_hxx <Storage_CallBack.hxx>
+#define ItemHArray1_hxx <Foundation/Storage/Storage_CallBack.hxx>
 #define TheArray1 Storage_ArrayOfCallBack
-#define TheArray1_hxx <Storage_ArrayOfCallBack.hxx>
+#define TheArray1_hxx <Foundation/Storage/Storage_ArrayOfCallBack.hxx>
 #define TCollection_HArray1 Storage_HArrayOfCallBack
-#define TCollection_HArray1_hxx <Storage_HArrayOfCallBack.hxx>
+#define TCollection_HArray1_hxx <Foundation/Storage/Storage_HArrayOfCallBack.hxx>
 #define Handle_TCollection_HArray1 Handle_Storage_HArrayOfCallBack
 #define TCollection_HArray1_Type_() Storage_HArrayOfCallBack_Type_()
 

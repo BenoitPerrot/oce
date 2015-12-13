@@ -30,10 +30,10 @@
 // Thanks for comprehension. (22 august 97)
 
 
-#include <Storage_StreamTypeMismatchError.hxx>
-#include <Storage_StreamFormatError.hxx>
-#include <Storage_StreamWriteError.hxx>
-#include <Storage_StreamExtCharParityError.hxx>
+#include <Foundation/Storage/Storage_StreamTypeMismatchError.hxx>
+#include <Foundation/Storage/Storage_StreamFormatError.hxx>
+#include <Foundation/Storage/Storage_StreamWriteError.hxx>
+#include <Foundation/Storage/Storage_StreamExtCharParityError.hxx>
 
 #include <TCollection_AsciiString.hxx>
 #include <TCollection_ExtendedString.hxx>

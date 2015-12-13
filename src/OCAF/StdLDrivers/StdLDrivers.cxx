@@ -19,7 +19,7 @@
 #include <StdLDrivers_DocumentStorageDriver.hxx>
 #include <StdLDrivers_DocumentRetrievalDriver.hxx>
 #include <ShapeSchema.hxx>
-#include <Storage_HArrayOfSchema.hxx>
+#include <Foundation/Storage/Storage_HArrayOfSchema.hxx>
 #include <StdLSchema.hxx>
 
 #include <Foundation/Standard/Standard_Failure.hxx>

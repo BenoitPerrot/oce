@@ -11,11 +11,11 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/FSD/FSD_FStream.hxx>
-#include <Storage_BaseDriver.hxx>
-#include <Storage_Error.hxx>
-#include <Storage_OpenMode.hxx>
+#include <Foundation/Storage/Storage_BaseDriver.hxx>
+#include <Foundation/Storage/Storage_Error.hxx>
+#include <Foundation/Storage/Storage_OpenMode.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Storage_Position.hxx>
+#include <Foundation/Storage/Storage_Position.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Character.hxx>
 #include <Foundation/Standard/Standard_ExtCharacter.hxx>

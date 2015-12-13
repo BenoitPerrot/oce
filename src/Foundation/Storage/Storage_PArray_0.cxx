@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Storage_PArray.hxx>
+#include <Foundation/Storage/Storage_PArray.hxx>
 
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
@@ -15,6 +15,6 @@
 #define Array1Item Handle(Standard_Persistent)
 #define Array1Item_hxx <Foundation/Standard/Standard_Persistent.hxx>
 #define TCollection_Array1 Storage_PArray
-#define TCollection_Array1_hxx <Storage_PArray.hxx>
+#define TCollection_Array1_hxx <Foundation/Storage/Storage_PArray.hxx>
 #include <TCollection_Array1.gxx>
 

@@ -5,10 +5,10 @@
 #include <DBC_VArrayOfCharacter.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
-#include <Storage_Schema.hxx>
+#include <Foundation/Storage/Storage_Schema.hxx>
 #endif
 #ifndef _Storage_stCONSTclCOM_HeaderFile
-#include <Storage_stCONSTclCOM.hxx>
+#include <Foundation/Storage/Storage_stCONSTclCOM.hxx>
 #endif
 
 void StdLSchema_DBC_VArrayOfCharacter::SWrite(const DBC_VArrayOfCharacter& pp, Storage_BaseDriver& f, const Handle(Storage_Schema)& theSchema)

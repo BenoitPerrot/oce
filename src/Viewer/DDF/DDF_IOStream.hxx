@@ -26,10 +26,10 @@
 
 #include <stdio.h>
 
-#include <Storage_BaseDriver.hxx>
-#include <Storage_Error.hxx>
-#include <Storage_OpenMode.hxx>
-#include <Storage_Position.hxx>
+#include <Foundation/Storage/Storage_BaseDriver.hxx>
+#include <Foundation/Storage/Storage_Error.hxx>
+#include <Foundation/Storage/Storage_OpenMode.hxx>
+#include <Foundation/Storage/Storage_Position.hxx>
 
 class Storage_StreamTypeMismatchError;
 class Storage_StreamFormatError;

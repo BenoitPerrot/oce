@@ -14,8 +14,8 @@
 
 #include <Foundation/Standard/Standard_Persistent.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
-#include <Storage_Schema.hxx>
-#include <Storage_Root.hxx>
+#include <Foundation/Storage/Storage_Schema.hxx>
+#include <Foundation/Storage/Storage_Root.hxx>
 #include <TCollection_AsciiString.hxx>
 
 IMPLEMENT_STANDARD_TYPE(Storage_Root)

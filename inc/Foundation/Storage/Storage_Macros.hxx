@@ -14,7 +14,7 @@
 
 #ifndef _Storage_Macros_HeaderFile
 #define _Storage_Macros_HeaderFile 1
-#include <Storage_SolveMode.hxx>
+#include <Foundation/Storage/Storage_SolveMode.hxx>
 
 // PROTOTYPES
 #define Storage_DECLARE_SCHEMA_METHODS(schema)  public: \

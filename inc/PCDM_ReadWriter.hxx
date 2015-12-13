@@ -15,7 +15,7 @@
 #include <Handle_CDM_Document.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_CDM_MessageDriver.hxx>
-#include <Storage_OpenMode.hxx>
+#include <Foundation/Storage/Storage_OpenMode.hxx>
 class TCollection_AsciiString;
 class Storage_Data;
 class CDM_Document;

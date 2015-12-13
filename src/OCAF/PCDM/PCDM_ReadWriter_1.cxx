@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <TCollection_AsciiString.hxx>
-#include <Storage_Data.hxx>
+#include <Foundation/Storage/Storage_Data.hxx>
 #include <CDM_Document.hxx>
 #include <TCollection_ExtendedString.hxx>
 #include <CDM_MessageDriver.hxx>
@@ -32,15 +32,15 @@ IMPLEMENT_STANDARD_TYPE_END(PCDM_ReadWriter_1)
 IMPLEMENT_DOWNCAST(PCDM_ReadWriter_1,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(PCDM_ReadWriter_1)
 #include <UTL.hxx>
-#include <Storage_Data.hxx>
+#include <Foundation/Storage/Storage_Data.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <TCollection_ExtendedString.hxx>
 #include <CDM_Document.hxx>
 #include <CDM_ReferenceIterator.hxx>
 #include <CDM_MetaData.hxx>
 #include <TColStd_SequenceOfExtendedString.hxx>
-#include <Storage_Schema.hxx>
-#include <Storage_HeaderData.hxx>
+#include <Foundation/Storage/Storage_Schema.hxx>
+#include <Foundation/Storage/Storage_HeaderData.hxx>
 #include <TColStd_SequenceOfAsciiString.hxx>
 #include <PCDM_Reference.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>

@@ -10,11 +10,11 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Storage_OpenMode.hxx>
+#include <Foundation/Storage/Storage_OpenMode.hxx>
 #include <TCollection_AsciiString.hxx>
-#include <Storage_Error.hxx>
+#include <Foundation/Storage/Storage_Error.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Storage_Position.hxx>
+#include <Foundation/Storage/Storage_Position.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Character.hxx>
 #include <Foundation/Standard/Standard_ExtCharacter.hxx>
@@ -263,7 +263,7 @@ private:
 };
 
 
-#include <Storage_BaseDriver.lxx>
+#include <Foundation/Storage/Storage_BaseDriver.lxx>
 
 
 

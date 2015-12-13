@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Storage_HSeqOfRoot.hxx>
 
-#include <Storage_SeqOfRoot.hxx>
+#include <Foundation/Storage/Storage_SeqOfRoot.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Storage_Root.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
@@ -93,11 +93,11 @@ private:
 };
 
 #define Item Handle(Storage_Root)
-#define Item_hxx <Storage_Root.hxx>
+#define Item_hxx <Foundation/Storage/Storage_Root.hxx>
 #define TheSequence Storage_SeqOfRoot
-#define TheSequence_hxx <Storage_SeqOfRoot.hxx>
+#define TheSequence_hxx <Foundation/Storage/Storage_SeqOfRoot.hxx>
 #define TCollection_HSequence Storage_HSeqOfRoot
-#define TCollection_HSequence_hxx <Storage_HSeqOfRoot.hxx>
+#define TCollection_HSequence_hxx <Foundation/Storage/Storage_HSeqOfRoot.hxx>
 #define Handle_TCollection_HSequence Handle_Storage_HSeqOfRoot
 #define TCollection_HSequence_Type_() Storage_HSeqOfRoot_Type_()
 

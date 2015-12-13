@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Storage_HPArray.hxx>
+#include <Foundation/Storage/Storage_HPArray.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -12,7 +12,7 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
 #include <Foundation/Standard/Standard_Persistent.hxx>
-#include <Storage_PArray.hxx>
+#include <Foundation/Storage/Storage_PArray.hxx>
 
  
 
@@ -33,9 +33,9 @@ IMPLEMENT_STANDARD_RTTI(Storage_HPArray)
 #define ItemHArray1 Handle(Standard_Persistent)
 #define ItemHArray1_hxx <Foundation/Standard/Standard_Persistent.hxx>
 #define TheArray1 Storage_PArray
-#define TheArray1_hxx <Storage_PArray.hxx>
+#define TheArray1_hxx <Foundation/Storage/Storage_PArray.hxx>
 #define TCollection_HArray1 Storage_HPArray
-#define TCollection_HArray1_hxx <Storage_HPArray.hxx>
+#define TCollection_HArray1_hxx <Foundation/Storage/Storage_HPArray.hxx>
 #define Handle_TCollection_HArray1 Handle_Storage_HPArray
 #define TCollection_HArray1_Type_() Storage_HPArray_Type_()
 #include <TCollection_HArray1.gxx>

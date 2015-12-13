@@ -20,7 +20,7 @@
 #include <CDM_Document.hxx>
 #include <PCDM_SequenceOfDocument.hxx>
 #include <TCollection_ExtendedString.hxx>
-#include <Storage_Schema.hxx>
+#include <Foundation/Storage/Storage_Schema.hxx>
 #include <TColStd_SequenceOfExtendedString.hxx>
 #include <PCDM_StorageDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -32,9 +32,9 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(PCDM_StorageDriver)
 IMPLEMENT_DOWNCAST(PCDM_StorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(PCDM_StorageDriver)
-#include <Storage_Data.hxx>
-#include <Storage_OpenMode.hxx>
-#include <Storage_Schema.hxx>
+#include <Foundation/Storage/Storage_Data.hxx>
+#include <Foundation/Storage/Storage_OpenMode.hxx>
+#include <Foundation/Storage/Storage_Schema.hxx>
 #include <TColStd_SequenceOfExtendedString.hxx>
 #include <Foundation/FSD/FSD_CmpFile.hxx>
 #include <TCollection_AsciiString.hxx>

@@ -5,10 +5,10 @@
 #include <PPoly_Triangle.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
-#include <Storage_Schema.hxx>
+#include <Foundation/Storage/Storage_Schema.hxx>
 #endif
 #ifndef _Storage_stCONSTclCOM_HeaderFile
-#include <Storage_stCONSTclCOM.hxx>
+#include <Foundation/Storage/Storage_stCONSTclCOM.hxx>
 #endif
 
 void ShapeSchema_PPoly_Triangle::SWrite(const PPoly_Triangle& pp, Storage_BaseDriver& f, const Handle(Storage_Schema)& theSchema)

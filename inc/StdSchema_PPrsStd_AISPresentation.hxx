@@ -7,13 +7,13 @@
 #define _StdSchema_PPrsStd_AISPresentation_HeaderFile
 
 #ifndef _Storage_Schema_HeaderFile
-#include <Storage_Schema.hxx>
+#include <Foundation/Storage/Storage_Schema.hxx>
 #endif
 #ifndef _Storage_CallBack_HeaderFile
-#include <Storage_CallBack.hxx>
+#include <Foundation/Storage/Storage_CallBack.hxx>
 #endif
 #ifndef _Storage_BaseDriver_HeaderFile
-#include <Storage_BaseDriver.hxx>
+#include <Foundation/Storage/Storage_BaseDriver.hxx>
 #endif
 #ifndef _Handle_PPrsStd_AISPresentation_HeaderFile
 #include <Handle_PPrsStd_AISPresentation.hxx>

@@ -3,18 +3,18 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Storage_ArrayOfCallBack.hxx>
+#include <Foundation/Storage/Storage_ArrayOfCallBack.hxx>
 
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <Storage_CallBack.hxx>
+#include <Foundation/Storage/Storage_CallBack.hxx>
  
 
 #define Array1Item Handle(Storage_CallBack)
-#define Array1Item_hxx <Storage_CallBack.hxx>
+#define Array1Item_hxx <Foundation/Storage/Storage_CallBack.hxx>
 #define TCollection_Array1 Storage_ArrayOfCallBack
-#define TCollection_Array1_hxx <Storage_ArrayOfCallBack.hxx>
+#define TCollection_Array1_hxx <Foundation/Storage/Storage_ArrayOfCallBack.hxx>
 #include <TCollection_Array1.gxx>
 

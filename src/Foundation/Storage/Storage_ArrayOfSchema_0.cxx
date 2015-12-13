@@ -3,18 +3,18 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Storage_ArrayOfSchema.hxx>
+#include <Foundation/Storage/Storage_ArrayOfSchema.hxx>
 
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <Storage_Schema.hxx>
+#include <Foundation/Storage/Storage_Schema.hxx>
  
 
 #define Array1Item Handle(Storage_Schema)
-#define Array1Item_hxx <Storage_Schema.hxx>
+#define Array1Item_hxx <Foundation/Storage/Storage_Schema.hxx>
 #define TCollection_Array1 Storage_ArrayOfSchema
-#define TCollection_Array1_hxx <Storage_ArrayOfSchema.hxx>
+#define TCollection_Array1_hxx <Foundation/Storage/Storage_ArrayOfSchema.hxx>
 #include <TCollection_Array1.gxx>
 

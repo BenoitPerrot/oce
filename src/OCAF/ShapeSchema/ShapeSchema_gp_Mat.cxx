@@ -5,10 +5,10 @@
 #include <gp_Mat.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
-#include <Storage_Schema.hxx>
+#include <Foundation/Storage/Storage_Schema.hxx>
 #endif
 #ifndef _Storage_stCONSTclCOM_HeaderFile
-#include <Storage_stCONSTclCOM.hxx>
+#include <Foundation/Storage/Storage_stCONSTclCOM.hxx>
 #endif
 
 void ShapeSchema_gp_Mat::SWrite(const gp_Mat& pp, Storage_BaseDriver& f, const Handle(Storage_Schema)& theSchema)

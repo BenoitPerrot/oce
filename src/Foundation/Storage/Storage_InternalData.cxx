@@ -13,9 +13,9 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_Type.hxx>
-#include <Storage_HPArray.hxx>
-#include <Storage_InternalData.hxx>
-#include <Storage_Schema.hxx>
+#include <Foundation/Storage/Storage_HPArray.hxx>
+#include <Foundation/Storage/Storage_InternalData.hxx>
+#include <Foundation/Storage/Storage_Schema.hxx>
 
 IMPLEMENT_STANDARD_TYPE(Storage_InternalData)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

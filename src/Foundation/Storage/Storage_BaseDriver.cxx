@@ -12,11 +12,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Storage_BaseDriver.hxx>
-#include <Storage_StreamExtCharParityError.hxx>
-#include <Storage_StreamFormatError.hxx>
-#include <Storage_StreamTypeMismatchError.hxx>
-#include <Storage_StreamWriteError.hxx>
+#include <Foundation/Storage/Storage_BaseDriver.hxx>
+#include <Foundation/Storage/Storage_StreamExtCharParityError.hxx>
+#include <Foundation/Storage/Storage_StreamFormatError.hxx>
+#include <Foundation/Storage/Storage_StreamTypeMismatchError.hxx>
+#include <Foundation/Storage/Storage_StreamWriteError.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <TCollection_ExtendedString.hxx>
 #include <TColStd_SequenceOfAsciiString.hxx>

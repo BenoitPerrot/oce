@@ -14,9 +14,9 @@
 
 #include <Foundation/Standard/Standard_Persistent.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
-#include <Storage_BaseDriver.hxx>
-#include <Storage_DefaultCallBack.hxx>
-#include <Storage_Schema.hxx>
+#include <Foundation/Storage/Storage_BaseDriver.hxx>
+#include <Foundation/Storage/Storage_DefaultCallBack.hxx>
+#include <Foundation/Storage/Storage_Schema.hxx>
 
 IMPLEMENT_STANDARD_TYPE(Storage_DefaultCallBack)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

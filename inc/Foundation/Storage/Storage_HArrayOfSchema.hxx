@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Storage_HArrayOfSchema.hxx>
 
-#include <Storage_ArrayOfSchema.hxx>
+#include <Foundation/Storage/Storage_ArrayOfSchema.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Storage_Schema.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
@@ -70,11 +70,11 @@ private:
 };
 
 #define ItemHArray1 Handle(Storage_Schema)
-#define ItemHArray1_hxx <Storage_Schema.hxx>
+#define ItemHArray1_hxx <Foundation/Storage/Storage_Schema.hxx>
 #define TheArray1 Storage_ArrayOfSchema
-#define TheArray1_hxx <Storage_ArrayOfSchema.hxx>
+#define TheArray1_hxx <Foundation/Storage/Storage_ArrayOfSchema.hxx>
 #define TCollection_HArray1 Storage_HArrayOfSchema
-#define TCollection_HArray1_hxx <Storage_HArrayOfSchema.hxx>
+#define TCollection_HArray1_hxx <Foundation/Storage/Storage_HArrayOfSchema.hxx>
 #define Handle_TCollection_HArray1 Handle_Storage_HArrayOfSchema
 #define TCollection_HArray1_Type_() Storage_HArrayOfSchema_Type_()
 

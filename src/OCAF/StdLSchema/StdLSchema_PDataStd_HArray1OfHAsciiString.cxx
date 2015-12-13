@@ -8,10 +8,10 @@
 #include <StdLSchema_PDataStd_FieldOfHArray1OfHAsciiString.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
-#include <Storage_Schema.hxx>
+#include <Foundation/Storage/Storage_Schema.hxx>
 #endif
 #ifndef _Storage_stCONSTclCOM_HeaderFile
-#include <Storage_stCONSTclCOM.hxx>
+#include <Foundation/Storage/Storage_stCONSTclCOM.hxx>
 #endif
 
 IMPLEMENT_STANDARD_HANDLE(StdLSchema_PDataStd_HArray1OfHAsciiString,Storage_CallBack)

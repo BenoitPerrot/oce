@@ -93,9 +93,9 @@ private:
 };
 
 #define Array1Item Handle(Storage_Schema)
-#define Array1Item_hxx <Storage_Schema.hxx>
+#define Array1Item_hxx <Foundation/Storage/Storage_Schema.hxx>
 #define TCollection_Array1 Storage_ArrayOfSchema
-#define TCollection_Array1_hxx <Storage_ArrayOfSchema.hxx>
+#define TCollection_Array1_hxx <Foundation/Storage/Storage_ArrayOfSchema.hxx>
 
 #include <TCollection_Array1.lxx>
 

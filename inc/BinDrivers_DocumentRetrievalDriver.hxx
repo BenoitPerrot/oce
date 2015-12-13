@@ -15,7 +15,7 @@
 #include <Handle_CDM_MessageDriver.hxx>
 #include <Foundation/Standard/Standard_IStream.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Storage_Position.hxx>
+#include <Foundation/Storage/Storage_Position.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class BinMDF_ADriverTable;
 class CDM_MessageDriver;

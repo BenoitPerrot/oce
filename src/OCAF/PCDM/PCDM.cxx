@@ -16,7 +16,7 @@
 
 #include <CDM_Document.hxx>
 #include <PCDM_StorageDriver.hxx>
-#include <Storage_Schema.hxx>
+#include <Foundation/Storage/Storage_Schema.hxx>
 #include <TCollection_ExtendedString.hxx>
 #include <CDM_Application.hxx>
 #include <TCollection_AsciiString.hxx>

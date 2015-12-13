@@ -8,10 +8,10 @@
 #include <StdLSchema_PDF_Data.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
-#include <Storage_Schema.hxx>
+#include <Foundation/Storage/Storage_Schema.hxx>
 #endif
 #ifndef _Storage_stCONSTclCOM_HeaderFile
-#include <Storage_stCONSTclCOM.hxx>
+#include <Foundation/Storage/Storage_stCONSTclCOM.hxx>
 #endif
 
 IMPLEMENT_STANDARD_HANDLE(StdLSchema_PDocStd_Document,Storage_CallBack)

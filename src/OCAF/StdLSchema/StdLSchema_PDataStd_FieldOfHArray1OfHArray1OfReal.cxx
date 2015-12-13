@@ -5,10 +5,10 @@
 #include <PDataStd_FieldOfHArray1OfHArray1OfReal.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
-#include <Storage_Schema.hxx>
+#include <Foundation/Storage/Storage_Schema.hxx>
 #endif
 #ifndef _Storage_stCONSTclCOM_HeaderFile
-#include <Storage_stCONSTclCOM.hxx>
+#include <Foundation/Storage/Storage_stCONSTclCOM.hxx>
 #endif
 
 void StdLSchema_PDataStd_FieldOfHArray1OfHArray1OfReal::SAdd(const PDataStd_FieldOfHArray1OfHArray1OfReal& p, const Handle(Storage_Schema)& theSchema)

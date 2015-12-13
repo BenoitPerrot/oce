@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Storage_Schema.hxx>
 
-#include <Storage_MapOfCallBack.hxx>
+#include <Foundation/Storage/Storage_MapOfCallBack.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Storage_CallBack.hxx>
 #include <TCollection_AsciiString.hxx>
@@ -22,7 +22,7 @@
 #include <Handle_Storage_RootData.hxx>
 #include <Handle_TColStd_HSequenceOfAsciiString.hxx>
 #include <Handle_Standard_Persistent.hxx>
-#include <Storage_SolveMode.hxx>
+#include <Foundation/Storage/Storage_SolveMode.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 class Storage_CallBack;
 class Storage_HArrayOfSchema;
@@ -266,7 +266,7 @@ private:
 };
 
 
-#include <Storage_Schema.lxx>
+#include <Foundation/Storage/Storage_Schema.lxx>
 
 
 

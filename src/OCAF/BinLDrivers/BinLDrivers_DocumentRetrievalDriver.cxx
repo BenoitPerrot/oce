@@ -21,7 +21,7 @@
 #include <CDM_Application.hxx>
 #include <TDF_Label.hxx>
 #include <TCollection_AsciiString.hxx>
-#include <Storage_HeaderData.hxx>
+#include <Foundation/Storage/Storage_HeaderData.hxx>
 #include <BinLDrivers_DocumentSection.hxx>
 #include <BinLDrivers_DocumentRetrievalDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -43,7 +43,7 @@ IMPLEMENT_STANDARD_RTTI(BinLDrivers_DocumentRetrievalDriver)
 #include <Foundation/FSD/FSD_FileHeader.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Stream.hxx>
-#include <Storage_Schema.hxx>
+#include <Foundation/Storage/Storage_Schema.hxx>
 #include <TDF_Data.hxx>
 #include <TDocStd_Document.hxx>
 #include <TDocStd_Owner.hxx>

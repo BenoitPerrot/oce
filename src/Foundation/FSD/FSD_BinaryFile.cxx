@@ -15,11 +15,11 @@
 #include <Foundation/FSD/FSD_BinaryFile.hxx>
 #include <Foundation/OSD/OSD.hxx>
 #include <Foundation/OSD/OSD_OpenFile.hxx>
-#include <Storage_BaseDriver.hxx>
-#include <Storage_StreamTypeMismatchError.hxx>
-#include <Storage_StreamFormatError.hxx>
-#include <Storage_StreamWriteError.hxx>
-#include <Storage_StreamExtCharParityError.hxx>
+#include <Foundation/Storage/Storage_BaseDriver.hxx>
+#include <Foundation/Storage/Storage_StreamTypeMismatchError.hxx>
+#include <Foundation/Storage/Storage_StreamFormatError.hxx>
+#include <Foundation/Storage/Storage_StreamWriteError.hxx>
+#include <Foundation/Storage/Storage_StreamExtCharParityError.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <TCollection_ExtendedString.hxx>
 #include <TColStd_SequenceOfAsciiString.hxx>

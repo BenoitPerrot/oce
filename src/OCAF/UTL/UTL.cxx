@@ -15,8 +15,8 @@
 // commercial license or contractual agreement.
 
 #include <TCollection_ExtendedString.hxx>
-#include <Storage_BaseDriver.hxx>
-#include <Storage_Data.hxx>
+#include <Foundation/Storage/Storage_BaseDriver.hxx>
+#include <Foundation/Storage/Storage_Data.hxx>
 #include <Foundation/OSD/OSD_Path.hxx>
 #include <Foundation/OSD/OSD_FileIterator.hxx>
 #include <TCollection_AsciiString.hxx>

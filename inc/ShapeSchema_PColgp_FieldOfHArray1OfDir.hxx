@@ -10,7 +10,7 @@
 #include <Handle_Storage_Schema.hxx>
 #endif
 #ifndef _Storage_BaseDriver_HeaderFile
-#include <Storage_BaseDriver.hxx>
+#include <Foundation/Storage/Storage_BaseDriver.hxx>
 #endif
 
 #ifndef _ShapeSchema_gp_Dir_HeaderFile

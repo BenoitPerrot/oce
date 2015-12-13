@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard_DefineException.hxx>
 #include <Foundation/Standard/Standard_SStream.hxx>
-#include <Storage_StreamReadError.hxx>
+#include <Foundation/Storage/Storage_StreamReadError.hxx>
 #include <Handle_Storage_StreamExtCharParityError.hxx>
 
 #if !defined No_Exception && !defined No_Storage_StreamExtCharParityError

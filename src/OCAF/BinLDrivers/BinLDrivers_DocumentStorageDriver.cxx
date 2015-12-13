@@ -42,7 +42,7 @@ IMPLEMENT_STANDARD_RTTI(BinLDrivers_DocumentStorageDriver)
 #include <Foundation/FSD/FSD_FileHeader.hxx>
 #include <PCDM_ReadWriter.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
-#include <Storage_Schema.hxx>
+#include <Foundation/Storage/Storage_Schema.hxx>
 #include <TColStd_Array1OfInteger.hxx>
 #include <TColStd_ListIteratorOfListOfInteger.hxx>
 #include <TColStd_ListOfInteger.hxx>

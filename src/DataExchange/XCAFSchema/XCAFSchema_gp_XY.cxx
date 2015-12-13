@@ -5,10 +5,10 @@
 #include <gp_XY.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
-#include <Storage_Schema.hxx>
+#include <Foundation/Storage/Storage_Schema.hxx>
 #endif
 #ifndef _Storage_stCONSTclCOM_HeaderFile
-#include <Storage_stCONSTclCOM.hxx>
+#include <Foundation/Storage/Storage_stCONSTclCOM.hxx>
 #endif
 
 void XCAFSchema_gp_XY::SWrite(const gp_XY& pp, Storage_BaseDriver& f, const Handle(Storage_Schema)& theSchema)

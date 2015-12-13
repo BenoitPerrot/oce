@@ -3,12 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Storage_IndexedDataMapNodeOfPType.hxx>
+#include <Foundation/Storage/Storage_IndexedDataMapNodeOfPType.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TCollection_AsciiString.hxx>
-#include <Storage_PType.hxx>
+#include <Foundation/Storage/Storage_PType.hxx>
 
  
 
@@ -34,10 +34,10 @@ IMPLEMENT_STANDARD_RTTI(Storage_IndexedDataMapNodeOfPType)
 #define Hasher TCollection_AsciiString
 #define Hasher_hxx <TCollection_AsciiString.hxx>
 #define TCollection_IndexedDataMapNode Storage_IndexedDataMapNodeOfPType
-#define TCollection_IndexedDataMapNode_hxx <Storage_IndexedDataMapNodeOfPType.hxx>
+#define TCollection_IndexedDataMapNode_hxx <Foundation/Storage/Storage_IndexedDataMapNodeOfPType.hxx>
 #define Handle_TCollection_IndexedDataMapNode Handle_Storage_IndexedDataMapNodeOfPType
 #define TCollection_IndexedDataMapNode_Type_() Storage_IndexedDataMapNodeOfPType_Type_()
 #define TCollection_IndexedDataMap Storage_PType
-#define TCollection_IndexedDataMap_hxx <Storage_PType.hxx>
+#define TCollection_IndexedDataMap_hxx <Foundation/Storage/Storage_PType.hxx>
 #include <TCollection_IndexedDataMapNode.gxx>
 

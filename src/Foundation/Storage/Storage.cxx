@@ -13,7 +13,7 @@
 // commercial license or contractual agreement.
 
 #include <TCollection_AsciiString.hxx>
-#include <Storage.hxx>
+#include <Foundation/Storage/Storage.hxx>
 
 TCollection_AsciiString Storage::Version() 
 {

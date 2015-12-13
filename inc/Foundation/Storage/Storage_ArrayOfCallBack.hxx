@@ -93,9 +93,9 @@ private:
 };
 
 #define Array1Item Handle(Storage_CallBack)
-#define Array1Item_hxx <Storage_CallBack.hxx>
+#define Array1Item_hxx <Foundation/Storage/Storage_CallBack.hxx>
 #define TCollection_Array1 Storage_ArrayOfCallBack
-#define TCollection_Array1_hxx <Storage_ArrayOfCallBack.hxx>
+#define TCollection_Array1_hxx <Foundation/Storage/Storage_ArrayOfCallBack.hxx>
 
 #include <TCollection_Array1.lxx>
 

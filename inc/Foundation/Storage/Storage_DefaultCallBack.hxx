@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Storage_DefaultCallBack.hxx>
 
-#include <Storage_CallBack.hxx>
+#include <Foundation/Storage/Storage_CallBack.hxx>
 #include <Handle_Standard_Persistent.hxx>
 #include <Handle_Storage_Schema.hxx>
 class Standard_Persistent;

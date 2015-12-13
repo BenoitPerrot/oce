@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(PCDM_ReferenceIterator)
 IMPLEMENT_DOWNCAST(PCDM_ReferenceIterator,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(PCDM_ReferenceIterator)
-#include <Storage_Data.hxx>
+#include <Foundation/Storage/Storage_Data.hxx>
 #include <UTL.hxx>
 #include <CDM_Document.hxx>
 #include <CDM_Application.hxx>

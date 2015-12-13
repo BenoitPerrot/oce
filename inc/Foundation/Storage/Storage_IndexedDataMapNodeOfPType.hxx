@@ -63,11 +63,11 @@ private:
 #define Hasher TCollection_AsciiString
 #define Hasher_hxx <TCollection_AsciiString.hxx>
 #define TCollection_IndexedDataMapNode Storage_IndexedDataMapNodeOfPType
-#define TCollection_IndexedDataMapNode_hxx <Storage_IndexedDataMapNodeOfPType.hxx>
+#define TCollection_IndexedDataMapNode_hxx <Foundation/Storage/Storage_IndexedDataMapNodeOfPType.hxx>
 #define Handle_TCollection_IndexedDataMapNode Handle_Storage_IndexedDataMapNodeOfPType
 #define TCollection_IndexedDataMapNode_Type_() Storage_IndexedDataMapNodeOfPType_Type_()
 #define TCollection_IndexedDataMap Storage_PType
-#define TCollection_IndexedDataMap_hxx <Storage_PType.hxx>
+#define TCollection_IndexedDataMap_hxx <Foundation/Storage/Storage_PType.hxx>
 
 #include <TCollection_IndexedDataMapNode.lxx>
 

@@ -15,7 +15,7 @@
 
 #include <BinTools.hxx>
 #include <Foundation/FSD/FSD_FileHeader.hxx>
-#include <Storage_StreamTypeMismatchError.hxx>
+#include <Foundation/Storage/Storage_StreamTypeMismatchError.hxx>
 
 //=======================================================================
 //function : PutBool

@@ -11,10 +11,10 @@
 #include <StdSchema_PTopLoc_Location.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
-#include <Storage_Schema.hxx>
+#include <Foundation/Storage/Storage_Schema.hxx>
 #endif
 #ifndef _Storage_stCONSTclCOM_HeaderFile
-#include <Storage_stCONSTclCOM.hxx>
+#include <Foundation/Storage/Storage_stCONSTclCOM.hxx>
 #endif
 
 void StdSchema_PTopoDS_Shape1::SAdd(const PTopoDS_Shape1& p, const Handle(Storage_Schema)& theSchema)

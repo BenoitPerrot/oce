@@ -13,8 +13,8 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_Type.hxx>
-#include <Storage_HeaderData.hxx>
-#include <Storage_Schema.hxx>
+#include <Foundation/Storage/Storage_HeaderData.hxx>
+#include <Foundation/Storage/Storage_Schema.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <TCollection_ExtendedString.hxx>
 #include <TColStd_SequenceOfAsciiString.hxx>

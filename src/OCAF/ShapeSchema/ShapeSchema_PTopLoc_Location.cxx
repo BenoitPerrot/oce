@@ -8,10 +8,10 @@
 #include <ShapeSchema_PTopLoc_ItemLocation.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
-#include <Storage_Schema.hxx>
+#include <Foundation/Storage/Storage_Schema.hxx>
 #endif
 #ifndef _Storage_stCONSTclCOM_HeaderFile
-#include <Storage_stCONSTclCOM.hxx>
+#include <Foundation/Storage/Storage_stCONSTclCOM.hxx>
 #endif
 
 void ShapeSchema_PTopLoc_Location::SAdd(const PTopLoc_Location& p, const Handle(Storage_Schema)& theSchema)

@@ -5,10 +5,10 @@
 #include <PColStd_FieldOfHArray1OfReal.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
-#include <Storage_Schema.hxx>
+#include <Foundation/Storage/Storage_Schema.hxx>
 #endif
 #ifndef _Storage_stCONSTclCOM_HeaderFile
-#include <Storage_stCONSTclCOM.hxx>
+#include <Foundation/Storage/Storage_stCONSTclCOM.hxx>
 #endif
 
 void XCAFSchema_PColStd_FieldOfHArray1OfReal::SWrite(const PColStd_FieldOfHArray1OfReal& pp, Storage_BaseDriver& f, const Handle(Storage_Schema)& theSchema)

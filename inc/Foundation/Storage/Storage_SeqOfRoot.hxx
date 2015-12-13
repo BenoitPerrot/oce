@@ -102,13 +102,13 @@ private:
 };
 
 #define SeqItem Handle(Storage_Root)
-#define SeqItem_hxx <Storage_Root.hxx>
+#define SeqItem_hxx <Foundation/Storage/Storage_Root.hxx>
 #define TCollection_SequenceNode Storage_SequenceNodeOfSeqOfRoot
-#define TCollection_SequenceNode_hxx <Storage_SequenceNodeOfSeqOfRoot.hxx>
+#define TCollection_SequenceNode_hxx <Foundation/Storage/Storage_SequenceNodeOfSeqOfRoot.hxx>
 #define Handle_TCollection_SequenceNode Handle_Storage_SequenceNodeOfSeqOfRoot
 #define TCollection_SequenceNode_Type_() Storage_SequenceNodeOfSeqOfRoot_Type_()
 #define TCollection_Sequence Storage_SeqOfRoot
-#define TCollection_Sequence_hxx <Storage_SeqOfRoot.hxx>
+#define TCollection_Sequence_hxx <Foundation/Storage/Storage_SeqOfRoot.hxx>
 
 #include <TCollection_Sequence.lxx>
 

@@ -2,7 +2,7 @@
 #include <StdLSchema.hxx>
 #endif
 #ifndef _Storage_StreamUnknownTypeError_HeaderFile
-#include <Storage_StreamUnknownTypeError.hxx>
+#include <Foundation/Storage/Storage_StreamUnknownTypeError.hxx>
 #endif
 #ifndef _TColStd_SequenceOfAsciiString_HeaderFile
 #include <TColStd_SequenceOfAsciiString.hxx>

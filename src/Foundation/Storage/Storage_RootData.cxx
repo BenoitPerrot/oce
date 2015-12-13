@@ -15,11 +15,11 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_Persistent.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
-#include <Storage_DataMapIteratorOfMapOfPers.hxx>
-#include <Storage_HSeqOfRoot.hxx>
-#include <Storage_Root.hxx>
-#include <Storage_RootData.hxx>
-#include <Storage_Schema.hxx>
+#include <Foundation/Storage/Storage_DataMapIteratorOfMapOfPers.hxx>
+#include <Foundation/Storage/Storage_HSeqOfRoot.hxx>
+#include <Foundation/Storage/Storage_Root.hxx>
+#include <Foundation/Storage/Storage_RootData.hxx>
+#include <Foundation/Storage/Storage_Schema.hxx>
 #include <TCollection_AsciiString.hxx>
 
 IMPLEMENT_STANDARD_TYPE(Storage_RootData)

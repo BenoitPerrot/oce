@@ -14,7 +14,7 @@
 #include <Handle_Storage_RootData.hxx>
 #include <Handle_Storage_TypeData.hxx>
 #include <Handle_Storage_InternalData.hxx>
-#include <Storage_Error.hxx>
+#include <Foundation/Storage/Storage_Error.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

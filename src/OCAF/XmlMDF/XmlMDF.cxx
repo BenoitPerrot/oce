@@ -34,7 +34,7 @@
 #include <TDF_AttributeIterator.hxx>
 #include <TDF_ChildIterator.hxx>
 #include <TColStd_MapOfTransient.hxx>
-#include <Storage_Schema.hxx>
+#include <Foundation/Storage/Storage_Schema.hxx>
 
 IMPLEMENT_DOMSTRING (TagString,         "tag")
 IMPLEMENT_DOMSTRING (LabelString,       "label")

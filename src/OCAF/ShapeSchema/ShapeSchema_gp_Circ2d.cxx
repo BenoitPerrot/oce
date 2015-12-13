@@ -8,10 +8,10 @@
 #include <ShapeSchema_gp_Ax22d.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
-#include <Storage_Schema.hxx>
+#include <Foundation/Storage/Storage_Schema.hxx>
 #endif
 #ifndef _Storage_stCONSTclCOM_HeaderFile
-#include <Storage_stCONSTclCOM.hxx>
+#include <Foundation/Storage/Storage_stCONSTclCOM.hxx>
 #endif
 
 void ShapeSchema_gp_Circ2d::SWrite(const gp_Circ2d& pp, Storage_BaseDriver& f, const Handle(Storage_Schema)& theSchema)

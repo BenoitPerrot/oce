@@ -22,7 +22,7 @@
 #include <Handle_CDM_Application.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_IStream.hxx>
-#include <Storage_Position.hxx>
+#include <Foundation/Storage/Storage_Position.hxx>
 #include <Handle_Storage_HeaderData.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class BinMDF_ADriverTable;
