@@ -22,7 +22,7 @@
 #include <gp_Pnt2d.hxx>
 #include <Geom_BSplineCurve.hxx>
 #include <Geom2d_BSplineCurve.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopOpeBRepDS_ListOfInterference.hxx>
 #include <TopOpeBRepDS_Interference.hxx>

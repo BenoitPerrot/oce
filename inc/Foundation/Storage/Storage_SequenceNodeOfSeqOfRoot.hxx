@@ -11,8 +11,8 @@
 #include <Handle_Storage_SequenceNodeOfSeqOfRoot.hxx>
 
 #include <Handle_Storage_Root.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class Storage_Root;
 class Storage_SeqOfRoot;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence Storage_SeqOfRoot
 #define TCollection_Sequence_hxx <Foundation/Storage/Storage_SeqOfRoot.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

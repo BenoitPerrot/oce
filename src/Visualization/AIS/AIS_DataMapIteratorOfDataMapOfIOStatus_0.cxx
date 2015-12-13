@@ -27,5 +27,5 @@
 #define TCollection_DataMapNode_Type_() AIS_DataMapNodeOfDataMapOfIOStatus_Type_()
 #define TCollection_DataMap AIS_DataMapOfIOStatus
 #define TCollection_DataMap_hxx <AIS_DataMapOfIOStatus.hxx>
-#include <TCollection_DataMapIterator.gxx>
+#include <Foundation/TCollection/TCollection_DataMapIterator.gxx>
 

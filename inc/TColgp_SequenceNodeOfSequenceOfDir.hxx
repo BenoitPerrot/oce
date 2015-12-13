@@ -11,8 +11,8 @@
 #include <Handle_TColgp_SequenceNodeOfSequenceOfDir.hxx>
 
 #include <gp_Dir.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class gp_Dir;
 class TColgp_SequenceOfDir;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence TColgp_SequenceOfDir
 #define TCollection_Sequence_hxx <TColgp_SequenceOfDir.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

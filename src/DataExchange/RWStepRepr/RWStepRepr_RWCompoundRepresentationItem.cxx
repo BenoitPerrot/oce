@@ -17,7 +17,7 @@
 #include <StepData_StepWriter.hxx>
 #include <Interface_EntityIterator.hxx>
 #include <RWStepRepr_RWCompoundRepresentationItem.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepRepr_HArray1OfRepresentationItem.hxx>
 #include <StepRepr_RepresentationItem.hxx>
 

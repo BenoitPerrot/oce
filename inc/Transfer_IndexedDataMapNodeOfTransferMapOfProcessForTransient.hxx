@@ -13,8 +13,8 @@
 #include <Handle_Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Transfer_Binder.hxx>
-#include <TCollection_MapNodePtr.hxx>
-#include <TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
 class Standard_Transient;
 class Transfer_Binder;
 class TColStd_MapTransientHasher;
@@ -72,7 +72,7 @@ private:
 #define TCollection_IndexedDataMap Transfer_TransferMapOfProcessForTransient
 #define TCollection_IndexedDataMap_hxx <Transfer_TransferMapOfProcessForTransient.hxx>
 
-#include <TCollection_IndexedDataMapNode.lxx>
+#include <Foundation/TCollection/TCollection_IndexedDataMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

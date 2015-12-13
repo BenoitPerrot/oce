@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(IGESBasic_HArray2OfHArray1OfReal)
 #define TCollection_HArray2_hxx <IGESBasic_HArray2OfHArray1OfReal.hxx>
 #define Handle_TCollection_HArray2 Handle_IGESBasic_HArray2OfHArray1OfReal
 #define TCollection_HArray2_Type_() IGESBasic_HArray2OfHArray1OfReal_Type_()
-#include <TCollection_HArray2.gxx>
+#include <Foundation/TCollection/TCollection_HArray2.gxx>
 

@@ -22,7 +22,7 @@
 
 
 #include <StepBasic_DocumentType.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 
 RWStepBasic_RWDocumentType::RWStepBasic_RWDocumentType () {}

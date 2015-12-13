@@ -23,7 +23,7 @@
 
 #include <StepBasic_ProductDefinitionEffectivity.hxx>
 #include <StepBasic_ProductDefinitionRelationship.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 
 RWStepBasic_RWProductDefinitionEffectivity::RWStepBasic_RWProductDefinitionEffectivity () {}

@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() Interface_SequenceNodeOfSequenceOfCheck_Type_()
 #define TCollection_Sequence Interface_SequenceOfCheck
 #define TCollection_Sequence_hxx <Interface_SequenceOfCheck.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

@@ -33,7 +33,7 @@
 #include <IGESGraph_TextDisplayTemplate.hxx>
 #include <TColStd_HArray1OfTransient.hxx>
 #include <IGESData_IGESEntity.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <TColStd_HArray1OfReal.hxx>
 #include <TColStd_HArray1OfInteger.hxx>
 #include <IGESData_HArray1OfIGESEntity.hxx>

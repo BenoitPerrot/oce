@@ -16,5 +16,5 @@
 #define Array1Item_hxx <AppDef_MultiPointConstraint.hxx>
 #define TCollection_Array1 AppDef_Array1OfMultiPointConstraint
 #define TCollection_Array1_hxx <AppDef_Array1OfMultiPointConstraint.hxx>
-#include <TCollection_Array1.gxx>
+#include <Foundation/TCollection/TCollection_Array1.gxx>
 

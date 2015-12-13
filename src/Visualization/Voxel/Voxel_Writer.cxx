@@ -16,12 +16,12 @@
 #include <Voxel_BoolDS.hxx>
 #include <Voxel_ColorDS.hxx>
 #include <Voxel_FloatDS.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Voxel_Writer.hxx>
 #include <Voxel_TypeDef.hxx>
 
 #include <Precision.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/OSD/OSD_OpenFile.hxx>
 
 #include <stdio.h>

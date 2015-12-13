@@ -20,7 +20,7 @@
 #include <Interface_InterfaceModel.hxx>
 #include <Interface_CopyTool.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <IFSelect_TransformStandard.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IFSelect_TransformStandard)

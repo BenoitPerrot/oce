@@ -30,7 +30,7 @@
 #include <GeomToStep_MakeLine.hxx>
 #include <GeomToStep_MakeCartesianPoint.hxx>
 #include <GeomToStep_MakeVector.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 
 //=============================================================================

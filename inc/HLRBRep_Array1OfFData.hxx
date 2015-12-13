@@ -96,7 +96,7 @@ private:
 #define TCollection_Array1 HLRBRep_Array1OfFData
 #define TCollection_Array1_hxx <HLRBRep_Array1OfFData.hxx>
 
-#include <TCollection_Array1.lxx>
+#include <Foundation/TCollection/TCollection_Array1.lxx>
 
 #undef Array1Item
 #undef Array1Item_hxx

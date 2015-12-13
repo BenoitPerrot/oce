@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(MDataStd_CommentStorageDriver)
 
 #include <PDataStd_Comment.hxx>
 #include <TDataStd_Comment.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <PCollection_HExtendedString.hxx>
 #include <CDM_MessageDriver.hxx>
 

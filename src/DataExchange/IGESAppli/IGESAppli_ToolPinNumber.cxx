@@ -30,7 +30,7 @@
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <IGESAppli_ToolPinNumber.hxx>
 #include <IGESData_ParamCursor.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <IGESData_LevelListEntity.hxx>
 #include <Interface_Macros.hxx>
 #include <IGESData_Dump.hxx>

@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() Storage_SequenceNodeOfSeqOfRoot_Type_()
 #define TCollection_Sequence Storage_SeqOfRoot
 #define TCollection_Sequence_hxx <Foundation/Storage/Storage_SeqOfRoot.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

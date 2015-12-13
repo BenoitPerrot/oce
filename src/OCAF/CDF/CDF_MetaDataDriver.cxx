@@ -16,7 +16,7 @@
 
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <CDM_MetaData.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <CDM_Document.hxx>
 #include <PCDM_ReferenceIterator.hxx>
 #include <CDF_MetaDataDriver.hxx>

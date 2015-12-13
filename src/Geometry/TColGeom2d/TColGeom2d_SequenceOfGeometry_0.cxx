@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() TColGeom2d_SequenceNodeOfSequenceOfGeometry_Type_()
 #define TCollection_Sequence TColGeom2d_SequenceOfGeometry
 #define TCollection_Sequence_hxx <TColGeom2d_SequenceOfGeometry.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

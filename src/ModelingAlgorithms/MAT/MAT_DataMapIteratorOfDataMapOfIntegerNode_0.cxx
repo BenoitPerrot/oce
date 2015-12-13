@@ -26,5 +26,5 @@
 #define TCollection_DataMapNode_Type_() MAT_DataMapNodeOfDataMapOfIntegerNode_Type_()
 #define TCollection_DataMap MAT_DataMapOfIntegerNode
 #define TCollection_DataMap_hxx <MAT_DataMapOfIntegerNode.hxx>
-#include <TCollection_DataMapIterator.gxx>
+#include <Foundation/TCollection/TCollection_DataMapIterator.gxx>
 

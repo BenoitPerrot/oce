@@ -10,9 +10,9 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TColStd_StdMapNodeOfMapOfAsciiString.hxx>
 
-#include <TCollection_AsciiString.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class TCollection_AsciiString;
 class TColStd_MapOfAsciiString;
 class TColStd_MapIteratorOfMapOfAsciiString;
@@ -48,9 +48,9 @@ private:
 };
 
 #define TheKey TCollection_AsciiString
-#define TheKey_hxx <TCollection_AsciiString.hxx>
+#define TheKey_hxx <Foundation/TCollection/TCollection_AsciiString.hxx>
 #define Hasher TCollection_AsciiString
-#define Hasher_hxx <TCollection_AsciiString.hxx>
+#define Hasher_hxx <Foundation/TCollection/TCollection_AsciiString.hxx>
 #define TCollection_StdMapNode TColStd_StdMapNodeOfMapOfAsciiString
 #define TCollection_StdMapNode_hxx <TColStd_StdMapNodeOfMapOfAsciiString.hxx>
 #define TCollection_MapIterator TColStd_MapIteratorOfMapOfAsciiString
@@ -60,7 +60,7 @@ private:
 #define TCollection_Map TColStd_MapOfAsciiString
 #define TCollection_Map_hxx <TColStd_MapOfAsciiString.hxx>
 
-#include <TCollection_StdMapNode.lxx>
+#include <Foundation/TCollection/TCollection_StdMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

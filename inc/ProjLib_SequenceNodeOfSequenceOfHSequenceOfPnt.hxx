@@ -11,8 +11,8 @@
 #include <Handle_ProjLib_SequenceNodeOfSequenceOfHSequenceOfPnt.hxx>
 
 #include <Handle_TColgp_HSequenceOfPnt.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class TColgp_HSequenceOfPnt;
 class ProjLib_SequenceOfHSequenceOfPnt;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence ProjLib_SequenceOfHSequenceOfPnt
 #define TCollection_Sequence_hxx <ProjLib_SequenceOfHSequenceOfPnt.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

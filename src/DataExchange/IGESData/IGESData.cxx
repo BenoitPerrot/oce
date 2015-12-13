@@ -24,7 +24,7 @@
 #include <IGESData_DefaultGeneral.hxx>
 #include <IGESData_DefaultSpecific.hxx>
 
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <IGESData_GlobalSection.hxx>
 #include <IGESData_IGESModel.hxx>
 #include <Interface_InterfaceModel.hxx>

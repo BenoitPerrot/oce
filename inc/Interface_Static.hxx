@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Interface_Static.hxx>
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Interface_ParamType.hxx>
 #include <Handle_Standard_Type.hxx>
 #include <Handle_Interface_Static.hxx>

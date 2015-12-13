@@ -36,5 +36,5 @@ IMPLEMENT_STANDARD_RTTI(StepElement_HSequenceOfSurfaceElementPurposeMember)
 #define TCollection_HSequence_hxx <StepElement_HSequenceOfSurfaceElementPurposeMember.hxx>
 #define Handle_TCollection_HSequence Handle_StepElement_HSequenceOfSurfaceElementPurposeMember
 #define TCollection_HSequence_Type_() StepElement_HSequenceOfSurfaceElementPurposeMember_Type_()
-#include <TCollection_HSequence.gxx>
+#include <Foundation/TCollection/TCollection_HSequence.gxx>
 

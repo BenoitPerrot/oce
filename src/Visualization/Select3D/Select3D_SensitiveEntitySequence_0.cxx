@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() Select3D_SequenceNodeOfSensitiveEntitySequence_Type_()
 #define TCollection_Sequence Select3D_SensitiveEntitySequence
 #define TCollection_Sequence_hxx <Select3D_SensitiveEntitySequence.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

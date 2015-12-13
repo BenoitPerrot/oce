@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Graphic3d_TextureEnv.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Graphic3d_TextureEnv)
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(Graphic3d_TextureEnv)
 #include <Graphic3d_TypeOfTexture.hxx>
 #include <Graphic3d_TypeOfTextureMode.hxx>
 #include <Graphic3d_TextureParams.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 static const char *NameOfTexture_to_FileName[] =
 {

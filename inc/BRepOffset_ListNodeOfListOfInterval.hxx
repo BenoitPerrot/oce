@@ -11,8 +11,8 @@
 #include <Handle_BRepOffset_ListNodeOfListOfInterval.hxx>
 
 #include <BRepOffset_Interval.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class BRepOffset_Interval;
 class BRepOffset_ListOfInterval;
 class BRepOffset_ListIteratorOfListOfInterval;
@@ -58,7 +58,7 @@ private:
 #define TCollection_List BRepOffset_ListOfInterval
 #define TCollection_List_hxx <BRepOffset_ListOfInterval.hxx>
 
-#include <TCollection_ListNode.lxx>
+#include <Foundation/TCollection/TCollection_ListNode.lxx>
 
 #undef Item
 #undef Item_hxx

@@ -29,8 +29,8 @@
 #include <TDF_AttributeIterator.hxx>
 #include <TDF_Tool.hxx>
 
-#include <TCollection_AsciiString.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/OSD/OSD_File.hxx>
 
 #ifdef WNT

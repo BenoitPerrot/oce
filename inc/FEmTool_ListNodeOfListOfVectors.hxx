@@ -11,8 +11,8 @@
 #include <Handle_FEmTool_ListNodeOfListOfVectors.hxx>
 
 #include <Handle_TColStd_HArray1OfReal.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class TColStd_HArray1OfReal;
 class FEmTool_ListOfVectors;
 class FEmTool_ListIteratorOfListOfVectors;
@@ -58,7 +58,7 @@ private:
 #define TCollection_List FEmTool_ListOfVectors
 #define TCollection_List_hxx <FEmTool_ListOfVectors.hxx>
 
-#include <TCollection_ListNode.lxx>
+#include <Foundation/TCollection/TCollection_ListNode.lxx>
 
 #undef Item
 #undef Item_hxx

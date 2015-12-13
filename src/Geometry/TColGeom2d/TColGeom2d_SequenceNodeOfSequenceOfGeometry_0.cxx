@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(TColGeom2d_SequenceNodeOfSequenceOfGeometry)
 #define TCollection_SequenceNode_Type_() TColGeom2d_SequenceNodeOfSequenceOfGeometry_Type_()
 #define TCollection_Sequence TColGeom2d_SequenceOfGeometry
 #define TCollection_Sequence_hxx <TColGeom2d_SequenceOfGeometry.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

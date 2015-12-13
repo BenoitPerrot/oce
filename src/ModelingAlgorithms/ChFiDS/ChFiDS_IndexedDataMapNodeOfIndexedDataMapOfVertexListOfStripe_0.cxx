@@ -41,5 +41,5 @@ IMPLEMENT_STANDARD_RTTI(ChFiDS_IndexedDataMapNodeOfIndexedDataMapOfVertexListOfS
 #define TCollection_IndexedDataMapNode_Type_() ChFiDS_IndexedDataMapNodeOfIndexedDataMapOfVertexListOfStripe_Type_()
 #define TCollection_IndexedDataMap ChFiDS_IndexedDataMapOfVertexListOfStripe
 #define TCollection_IndexedDataMap_hxx <ChFiDS_IndexedDataMapOfVertexListOfStripe.hxx>
-#include <TCollection_IndexedDataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_IndexedDataMapNode.gxx>
 

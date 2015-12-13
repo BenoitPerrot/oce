@@ -36,5 +36,5 @@ IMPLEMENT_STANDARD_RTTI(Interface_HSequenceOfCheck)
 #define TCollection_HSequence_hxx <Interface_HSequenceOfCheck.hxx>
 #define Handle_TCollection_HSequence Handle_Interface_HSequenceOfCheck
 #define TCollection_HSequence_Type_() Interface_HSequenceOfCheck_Type_()
-#include <TCollection_HSequence.gxx>
+#include <Foundation/TCollection/TCollection_HSequence.gxx>
 

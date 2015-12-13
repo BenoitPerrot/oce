@@ -25,7 +25,7 @@
 #include <Font_BRepFont.hxx>
 #include <Font_FontMgr.hxx>
 #include <Foundation/OSD/OSD_Chronometer.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Visual3d_View.hxx>
 #include <V3d_Viewer.hxx>
 #include <V3d_View.hxx>
@@ -68,8 +68,8 @@
 #include <AIS_InteractiveContext.hxx>
 #include <Geom_Plane.hxx>
 #include <gp_Pln.hxx>
-#include <TCollection_ExtendedString.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <GC_MakePlane.hxx>
 #include <gp_Circ.hxx>
 #include <AIS_Axis.hxx>
@@ -2419,8 +2419,8 @@ static int VCircleBuilder(Draw_Interpretor& /*di*/, Standard_Integer argc, const
 #include <Prs3d_ShadingAspect.hxx>
 #include <PrsMgr_PresentationManager3d.hxx>
 
-#include <TCollection_ExtendedString.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 #include <gp_Pnt.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>

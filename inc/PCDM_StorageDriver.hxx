@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_PCDM_StorageDriver.hxx>
 
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <PCDM_StoreStatus.hxx>
 #include <PCDM_Writer.hxx>

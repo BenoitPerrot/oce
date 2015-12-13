@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(StepRepr_SequenceNodeOfSequenceOfMaterialPropertyReprese
 #define TCollection_SequenceNode_Type_() StepRepr_SequenceNodeOfSequenceOfMaterialPropertyRepresentation_Type_()
 #define TCollection_Sequence StepRepr_SequenceOfMaterialPropertyRepresentation
 #define TCollection_Sequence_hxx <StepRepr_SequenceOfMaterialPropertyRepresentation.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

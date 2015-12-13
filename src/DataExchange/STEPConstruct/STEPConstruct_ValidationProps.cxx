@@ -43,7 +43,7 @@
 
 #include <TopLoc_Location.hxx>
 #include <TopoDS_Iterator.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 #include <APIHeaderSection_MakeHeader.hxx>
 #include <StepGeom_CartesianPoint.hxx>

@@ -105,7 +105,7 @@ private:
 #define TCollection_Array2 StepGeom_Array2OfSurfacePatch
 #define TCollection_Array2_hxx <StepGeom_Array2OfSurfacePatch.hxx>
 
-#include <TCollection_Array2.lxx>
+#include <Foundation/TCollection/TCollection_Array2.lxx>
 
 #undef Array2Item
 #undef Array2Item_hxx

@@ -16,5 +16,5 @@
 #define Array2Item_hxx <TColStd_HArray1OfReal.hxx>
 #define TCollection_Array2 IGESBasic_Array2OfHArray1OfReal
 #define TCollection_Array2_hxx <IGESBasic_Array2OfHArray1OfReal.hxx>
-#include <TCollection_Array2.gxx>
+#include <Foundation/TCollection/TCollection_Array2.gxx>
 

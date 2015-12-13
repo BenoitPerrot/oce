@@ -11,8 +11,8 @@
 #include <Handle_TopOpeBRepBuild_ListNodeOfListOfListOfLoop.hxx>
 
 #include <TopOpeBRepBuild_ListOfLoop.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class TopOpeBRepBuild_ListOfLoop;
 class TopOpeBRepBuild_ListOfListOfLoop;
 class TopOpeBRepBuild_ListIteratorOfListOfListOfLoop;
@@ -58,7 +58,7 @@ private:
 #define TCollection_List TopOpeBRepBuild_ListOfListOfLoop
 #define TCollection_List_hxx <TopOpeBRepBuild_ListOfListOfLoop.hxx>
 
-#include <TCollection_ListNode.lxx>
+#include <Foundation/TCollection/TCollection_ListNode.lxx>
 
 #undef Item
 #undef Item_hxx

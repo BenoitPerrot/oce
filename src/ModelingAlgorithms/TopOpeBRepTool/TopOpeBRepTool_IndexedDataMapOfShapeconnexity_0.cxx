@@ -26,5 +26,5 @@
 #define TCollection_IndexedDataMapNode_Type_() TopOpeBRepTool_IndexedDataMapNodeOfIndexedDataMapOfShapeconnexity_Type_()
 #define TCollection_IndexedDataMap TopOpeBRepTool_IndexedDataMapOfShapeconnexity
 #define TCollection_IndexedDataMap_hxx <TopOpeBRepTool_IndexedDataMapOfShapeconnexity.hxx>
-#include <TCollection_IndexedDataMap.gxx>
+#include <Foundation/TCollection/TCollection_IndexedDataMap.gxx>
 

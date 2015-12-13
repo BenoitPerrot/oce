@@ -10,10 +10,10 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TColStd_DataMapNodeOfDataMapOfAsciiStringInteger.hxx>
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class TCollection_AsciiString;
 class TColStd_DataMapOfAsciiStringInteger;
 class TColStd_DataMapIteratorOfDataMapOfAsciiStringInteger;
@@ -52,11 +52,11 @@ private:
 };
 
 #define TheKey TCollection_AsciiString
-#define TheKey_hxx <TCollection_AsciiString.hxx>
+#define TheKey_hxx <Foundation/TCollection/TCollection_AsciiString.hxx>
 #define TheItem Standard_Integer
 #define TheItem_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define Hasher TCollection_AsciiString
-#define Hasher_hxx <TCollection_AsciiString.hxx>
+#define Hasher_hxx <Foundation/TCollection/TCollection_AsciiString.hxx>
 #define TCollection_DataMapNode TColStd_DataMapNodeOfDataMapOfAsciiStringInteger
 #define TCollection_DataMapNode_hxx <TColStd_DataMapNodeOfDataMapOfAsciiStringInteger.hxx>
 #define TCollection_DataMapIterator TColStd_DataMapIteratorOfDataMapOfAsciiStringInteger
@@ -66,7 +66,7 @@ private:
 #define TCollection_DataMap TColStd_DataMapOfAsciiStringInteger
 #define TCollection_DataMap_hxx <TColStd_DataMapOfAsciiStringInteger.hxx>
 
-#include <TCollection_DataMapNode.lxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

@@ -21,5 +21,5 @@
 #define TCollection_ListNode_Type_() TopOpeBRepBuild_ListNodeOfListOfPave_Type_()
 #define TCollection_List TopOpeBRepBuild_ListOfPave
 #define TCollection_List_hxx <TopOpeBRepBuild_ListOfPave.hxx>
-#include <TCollection_List.gxx>
+#include <Foundation/TCollection/TCollection_List.gxx>
 

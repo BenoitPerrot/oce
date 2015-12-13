@@ -11,8 +11,8 @@
 #include <Handle_TDF_SequenceNodeOfLabelSequence.hxx>
 
 #include <TDF_Label.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class TDF_Label;
 class TDF_LabelSequence;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence TDF_LabelSequence
 #define TCollection_Sequence_hxx <TDF_LabelSequence.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

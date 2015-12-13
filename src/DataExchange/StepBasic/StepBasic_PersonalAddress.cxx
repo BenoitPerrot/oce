@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <StepBasic_HArray1OfPerson.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepBasic_Person.hxx>
 #include <StepBasic_PersonalAddress.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

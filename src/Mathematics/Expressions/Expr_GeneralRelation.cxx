@@ -18,7 +18,7 @@
 #include <Foundation/Standard/Standard_NumericError.hxx>
 #include <Expr_GeneralExpression.hxx>
 #include <Expr_NamedUnknown.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Expr_GeneralRelation.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Expr_GeneralRelation)

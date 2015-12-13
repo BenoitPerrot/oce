@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() IntSurf_SequenceNodeOfSequenceOfPathPoint_Type_()
 #define TCollection_Sequence IntSurf_SequenceOfPathPoint
 #define TCollection_Sequence_hxx <IntSurf_SequenceOfPathPoint.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

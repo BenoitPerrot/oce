@@ -35,8 +35,8 @@
 #include <Foundation/Storage/Storage_StreamWriteError.hxx>
 #include <Foundation/Storage/Storage_StreamExtCharParityError.hxx>
 
-#include <TCollection_AsciiString.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 
 #include <TColStd_SequenceOfAsciiString.hxx>
 #include <TColStd_SequenceOfExtendedString.hxx>

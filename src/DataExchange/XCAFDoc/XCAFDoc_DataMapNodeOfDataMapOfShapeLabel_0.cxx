@@ -44,5 +44,5 @@ IMPLEMENT_STANDARD_RTTI(XCAFDoc_DataMapNodeOfDataMapOfShapeLabel)
 #define TCollection_DataMapNode_Type_() XCAFDoc_DataMapNodeOfDataMapOfShapeLabel_Type_()
 #define TCollection_DataMap XCAFDoc_DataMapOfShapeLabel
 #define TCollection_DataMap_hxx <XCAFDoc_DataMapOfShapeLabel.hxx>
-#include <TCollection_DataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

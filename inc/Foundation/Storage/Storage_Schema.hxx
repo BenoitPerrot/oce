@@ -13,7 +13,7 @@
 #include <Foundation/Storage/Storage_MapOfCallBack.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Storage_CallBack.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Handle_Storage_HArrayOfSchema.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Storage_Data.hxx>

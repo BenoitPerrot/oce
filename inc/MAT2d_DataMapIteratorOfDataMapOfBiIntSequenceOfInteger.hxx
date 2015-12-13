@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <TCollection_BasicMapIterator.hxx>
+#include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
 #include <Handle_MAT2d_DataMapNodeOfDataMapOfBiIntSequenceOfInteger.hxx>
 class Standard_NoSuchObject;
 class MAT2d_BiInt;

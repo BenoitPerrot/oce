@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <StepShape_FaceSurface.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepShape_SweptFaceSolid.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepShape_SweptFaceSolid)

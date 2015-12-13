@@ -30,7 +30,7 @@
 #include <gp_Ax3.hxx>
 #include <Geom_Axis2Placement.hxx>
 #include <StepGeom_Axis2Placement3d.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 static Handle(StepGeom_Axis2Placement3d)  MakeAxis2Placement3d
   (const gp_Pnt& O, const gp_Dir& D, const gp_Dir& X, const Standard_CString nom)

@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(TDF_IndexedMapNodeOfLabelIndexedMap)
 #define TCollection_IndexedMapNode_Type_() TDF_IndexedMapNodeOfLabelIndexedMap_Type_()
 #define TCollection_IndexedMap TDF_LabelIndexedMap
 #define TCollection_IndexedMap_hxx <TDF_LabelIndexedMap.hxx>
-#include <TCollection_IndexedMapNode.gxx>
+#include <Foundation/TCollection/TCollection_IndexedMapNode.gxx>
 

@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(IntPatch_SequenceNodeOfSequenceOfSegmentOfTheSOnBounds)
 #define TCollection_SequenceNode_Type_() IntPatch_SequenceNodeOfSequenceOfSegmentOfTheSOnBounds_Type_()
 #define TCollection_Sequence IntPatch_SequenceOfSegmentOfTheSOnBounds
 #define TCollection_Sequence_hxx <IntPatch_SequenceOfSegmentOfTheSOnBounds.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

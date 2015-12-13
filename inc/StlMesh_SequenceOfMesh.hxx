@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <TCollection_BaseSequence.hxx>
+#include <Foundation/TCollection/TCollection_BaseSequence.hxx>
 #include <Handle_StlMesh_Mesh.hxx>
 #include <Handle_StlMesh_SequenceNodeOfSequenceOfMesh.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
@@ -110,7 +110,7 @@ private:
 #define TCollection_Sequence StlMesh_SequenceOfMesh
 #define TCollection_Sequence_hxx <StlMesh_SequenceOfMesh.hxx>
 
-#include <TCollection_Sequence.lxx>
+#include <Foundation/TCollection/TCollection_Sequence.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

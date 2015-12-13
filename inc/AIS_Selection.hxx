@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_AIS_Selection.hxx>
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <AIS_NListTransient.hxx>
 #include <AIS_NListIteratorOfListTransient.hxx>
 #include <AIS_NDataMapOfTransientIteratorOfListTransient.hxx>

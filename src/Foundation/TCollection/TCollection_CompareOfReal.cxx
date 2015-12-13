@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TCollection_CompareOfReal.hxx>
+#include <Foundation/TCollection/TCollection_CompareOfReal.hxx>
 
 // -----------
 // Create :

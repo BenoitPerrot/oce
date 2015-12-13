@@ -13,7 +13,7 @@
 
 #include <StepGeom_UniformSurface.hxx>
 #include <StepGeom_RationalBSplineSurface.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepGeom_HArray2OfCartesianPoint.hxx>
 #include <TColStd_HArray2OfReal.hxx>
 #include <StepGeom_UniformSurfaceAndRationalBSplineSurface.hxx>

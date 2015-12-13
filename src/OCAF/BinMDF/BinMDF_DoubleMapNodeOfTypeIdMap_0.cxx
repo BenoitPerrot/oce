@@ -46,5 +46,5 @@ IMPLEMENT_STANDARD_RTTI(BinMDF_DoubleMapNodeOfTypeIdMap)
 #define TCollection_DoubleMapNode_Type_() BinMDF_DoubleMapNodeOfTypeIdMap_Type_()
 #define TCollection_DoubleMap BinMDF_TypeIdMap
 #define TCollection_DoubleMap_hxx <BinMDF_TypeIdMap.hxx>
-#include <TCollection_DoubleMapNode.gxx>
+#include <Foundation/TCollection/TCollection_DoubleMapNode.gxx>
 

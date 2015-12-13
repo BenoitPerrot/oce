@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <TCollection_BasicMapIterator.hxx>
+#include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_MeshVS_MeshEntityOwner.hxx>
 #include <Handle_MeshVS_DataMapNodeOfDataMapOfIntegerMeshEntityOwner.hxx>

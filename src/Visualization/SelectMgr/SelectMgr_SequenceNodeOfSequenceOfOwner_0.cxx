@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(SelectMgr_SequenceNodeOfSequenceOfOwner)
 #define TCollection_SequenceNode_Type_() SelectMgr_SequenceNodeOfSequenceOfOwner_Type_()
 #define TCollection_Sequence SelectMgr_SequenceOfOwner
 #define TCollection_Sequence_hxx <SelectMgr_SequenceOfOwner.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

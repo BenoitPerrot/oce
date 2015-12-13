@@ -12,8 +12,8 @@
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_SelectMgr_EntityOwner.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class SelectMgr_EntityOwner;
 class TColStd_MapIntegerHasher;
 class MeshVS_DataMapOfIntegerOwner;
@@ -67,7 +67,7 @@ private:
 #define TCollection_DataMap MeshVS_DataMapOfIntegerOwner
 #define TCollection_DataMap_hxx <MeshVS_DataMapOfIntegerOwner.hxx>
 
-#include <TCollection_DataMapNode.lxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

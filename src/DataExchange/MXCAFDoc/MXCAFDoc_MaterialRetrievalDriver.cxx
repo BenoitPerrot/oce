@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_RTTI(MXCAFDoc_MaterialRetrievalDriver)
 #include <PXCAFDoc_Material.hxx>
 #include <XCAFDoc_Material.hxx>
 
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <PCollection_HAsciiString.hxx>
 
 

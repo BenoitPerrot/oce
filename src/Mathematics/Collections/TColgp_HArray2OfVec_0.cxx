@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(TColgp_HArray2OfVec)
 #define TCollection_HArray2_hxx <TColgp_HArray2OfVec.hxx>
 #define Handle_TCollection_HArray2 Handle_TColgp_HArray2OfVec
 #define TCollection_HArray2_Type_() TColgp_HArray2OfVec_Type_()
-#include <TCollection_HArray2.gxx>
+#include <Foundation/TCollection/TCollection_HArray2.gxx>
 

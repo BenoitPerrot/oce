@@ -26,5 +26,5 @@
 #define TCollection_DataMapNode_Type_() TopOpeBRepDS_DataMapNodeOfMapOfCurve_Type_()
 #define TCollection_DataMap TopOpeBRepDS_MapOfCurve
 #define TCollection_DataMap_hxx <TopOpeBRepDS_MapOfCurve.hxx>
-#include <TCollection_DataMapIterator.gxx>
+#include <Foundation/TCollection/TCollection_DataMapIterator.gxx>
 

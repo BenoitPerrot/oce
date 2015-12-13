@@ -22,5 +22,5 @@
 #define TCollection_ListNode_Type_() HLRBRep_ListNodeOfListOfBPoint_Type_()
 #define TCollection_List HLRBRep_ListOfBPoint
 #define TCollection_List_hxx <HLRBRep_ListOfBPoint.hxx>
-#include <TCollection_ListIterator.gxx>
+#include <Foundation/TCollection/TCollection_ListIterator.gxx>
 

@@ -36,5 +36,5 @@ IMPLEMENT_STANDARD_RTTI(Transfer_HSequenceOfBinder)
 #define TCollection_HSequence_hxx <Transfer_HSequenceOfBinder.hxx>
 #define Handle_TCollection_HSequence Handle_Transfer_HSequenceOfBinder
 #define TCollection_HSequence_Type_() Transfer_HSequenceOfBinder_Type_()
-#include <TCollection_HSequence.gxx>
+#include <Foundation/TCollection/TCollection_HSequence.gxx>
 

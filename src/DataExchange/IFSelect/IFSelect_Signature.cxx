@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <TColStd_HSequenceOfAsciiString.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Interface_InterfaceModel.hxx>
 #include <IFSelect_Signature.hxx>

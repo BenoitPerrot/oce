@@ -22,7 +22,7 @@
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <Interface_CheckIterator.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 
 static const Handle(Interface_Check)& nulcheck ()

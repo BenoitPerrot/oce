@@ -12,5 +12,5 @@
 #define Key_hxx <Foundation/Standard/Standard_Transient.hxx>
 #define TCollection_MapHasher TColStd_MapTransientHasher
 #define TCollection_MapHasher_hxx <TColStd_MapTransientHasher.hxx>
-#include <TCollection_MapHasher.gxx>
+#include <Foundation/TCollection/TCollection_MapHasher.gxx>
 

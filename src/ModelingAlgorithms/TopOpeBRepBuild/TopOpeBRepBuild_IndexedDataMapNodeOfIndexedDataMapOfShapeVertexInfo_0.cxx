@@ -41,5 +41,5 @@ IMPLEMENT_STANDARD_RTTI(TopOpeBRepBuild_IndexedDataMapNodeOfIndexedDataMapOfShap
 #define TCollection_IndexedDataMapNode_Type_() TopOpeBRepBuild_IndexedDataMapNodeOfIndexedDataMapOfShapeVertexInfo_Type_()
 #define TCollection_IndexedDataMap TopOpeBRepBuild_IndexedDataMapOfShapeVertexInfo
 #define TCollection_IndexedDataMap_hxx <TopOpeBRepBuild_IndexedDataMapOfShapeVertexInfo.hxx>
-#include <TCollection_IndexedDataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_IndexedDataMapNode.gxx>
 

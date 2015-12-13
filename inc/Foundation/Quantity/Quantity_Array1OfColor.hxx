@@ -96,7 +96,7 @@ private:
 #define TCollection_Array1 Quantity_Array1OfColor
 #define TCollection_Array1_hxx <Foundation/Quantity/Quantity_Array1OfColor.hxx>
 
-#include <TCollection_Array1.lxx>
+#include <Foundation/TCollection/TCollection_Array1.lxx>
 
 #undef Array1Item
 #undef Array1Item_hxx

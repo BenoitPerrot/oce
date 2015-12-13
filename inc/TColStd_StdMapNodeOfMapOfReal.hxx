@@ -11,8 +11,8 @@
 #include <Handle_TColStd_StdMapNodeOfMapOfReal.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class TColStd_MapRealHasher;
 class TColStd_MapOfReal;
 class TColStd_MapIteratorOfMapOfReal;
@@ -60,7 +60,7 @@ private:
 #define TCollection_Map TColStd_MapOfReal
 #define TCollection_Map_hxx <TColStd_MapOfReal.hxx>
 
-#include <TCollection_StdMapNode.lxx>
+#include <Foundation/TCollection/TCollection_StdMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

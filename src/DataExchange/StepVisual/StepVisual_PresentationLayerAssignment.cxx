@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepVisual_HArray1OfLayeredItem.hxx>
 #include <StepVisual_LayeredItem.hxx>
 #include <StepVisual_PresentationLayerAssignment.hxx>

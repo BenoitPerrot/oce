@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(XmlLDrivers_SequenceNodeOfSequenceOfNamespaceDef)
 #define TCollection_SequenceNode_Type_() XmlLDrivers_SequenceNodeOfSequenceOfNamespaceDef_Type_()
 #define TCollection_Sequence XmlLDrivers_SequenceOfNamespaceDef
 #define TCollection_Sequence_hxx <XmlLDrivers_SequenceOfNamespaceDef.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

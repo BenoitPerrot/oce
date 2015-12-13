@@ -26,7 +26,7 @@
 
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Precision.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <gp_Lin.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Dir.hxx>

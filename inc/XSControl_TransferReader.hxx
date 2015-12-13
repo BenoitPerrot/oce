@@ -11,7 +11,7 @@
 #include <Handle_XSControl_TransferReader.hxx>
 
 #include <Handle_XSControl_Controller.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Handle_Interface_InterfaceModel.hxx>
 #include <Handle_Interface_HGraph.hxx>
 #include <Handle_Dico_DictionaryOfTransient.hxx>

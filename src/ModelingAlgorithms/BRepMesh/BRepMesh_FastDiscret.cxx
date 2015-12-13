@@ -51,7 +51,7 @@
 #include <TColgp_Array1OfPnt2d.hxx>
 #include <TColGeom2d_SequenceOfCurve.hxx>
 #include <Foundation/SortTools/SortTools_ShellSortOfReal.hxx>
-#include <TCollection_CompareOfReal.hxx>
+#include <Foundation/TCollection/TCollection_CompareOfReal.hxx>
 
 #include <TopTools_SequenceOfShape.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>

@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(IGESDimen_HArray1OfLeaderArrow)
 #define TCollection_HArray1_hxx <IGESDimen_HArray1OfLeaderArrow.hxx>
 #define Handle_TCollection_HArray1 Handle_IGESDimen_HArray1OfLeaderArrow
 #define TCollection_HArray1_Type_() IGESDimen_HArray1OfLeaderArrow_Type_()
-#include <TCollection_HArray1.gxx>
+#include <Foundation/TCollection/TCollection_HArray1.gxx>
 

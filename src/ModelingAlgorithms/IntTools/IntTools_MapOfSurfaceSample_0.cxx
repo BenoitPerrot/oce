@@ -23,5 +23,5 @@
 #define TCollection_StdMapNode_Type_() IntTools_StdMapNodeOfMapOfSurfaceSample_Type_()
 #define TCollection_Map IntTools_MapOfSurfaceSample
 #define TCollection_Map_hxx <IntTools_MapOfSurfaceSample.hxx>
-#include <TCollection_Map.gxx>
+#include <Foundation/TCollection/TCollection_Map.gxx>
 

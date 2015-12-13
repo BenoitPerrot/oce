@@ -21,5 +21,5 @@
 #define TCollection_ListNode_Type_() Graphic3d_ListNodeOfListOfShortReal_Type_()
 #define TCollection_List Graphic3d_ListOfShortReal
 #define TCollection_List_hxx <Graphic3d_ListOfShortReal.hxx>
-#include <TCollection_ListIterator.gxx>
+#include <Foundation/TCollection/TCollection_ListIterator.gxx>
 

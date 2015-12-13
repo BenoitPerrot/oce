@@ -71,7 +71,7 @@ private:
 #define TCollection_List TColStd_ListOfInteger
 #define TCollection_List_hxx <TColStd_ListOfInteger.hxx>
 
-#include <TCollection_ListIterator.lxx>
+#include <Foundation/TCollection/TCollection_ListIterator.lxx>
 
 #undef Item
 #undef Item_hxx

@@ -15,9 +15,9 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Interface_TypedValue.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <IFSelect_EditForm.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <IFSelect_ListEditor.hxx>
 #include <TColStd_HSequenceOfHAsciiString.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>

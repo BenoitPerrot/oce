@@ -11,8 +11,8 @@
 #include <Handle_TColStd_ListNodeOfListOfReal.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class TColStd_ListOfReal;
 class TColStd_ListIteratorOfListOfReal;
 
@@ -57,7 +57,7 @@ private:
 #define TCollection_List TColStd_ListOfReal
 #define TCollection_List_hxx <TColStd_ListOfReal.hxx>
 
-#include <TCollection_ListNode.lxx>
+#include <Foundation/TCollection/TCollection_ListNode.lxx>
 
 #undef Item
 #undef Item_hxx

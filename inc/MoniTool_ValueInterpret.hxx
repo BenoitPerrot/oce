@@ -16,7 +16,7 @@
 #ifndef MoniTool_ValueInterpret_HeaderFile
 #define MoniTool_ValueInterpret_HeaderFile
 
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 class Handle(MoniTool_TypedValue);
 

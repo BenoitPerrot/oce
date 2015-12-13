@@ -18,7 +18,7 @@
 
 #include <StepAP203_HArray1OfSpecifiedItem.hxx>
 #include <StepBasic_Document.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepAP203_CcDesignSpecificationReference.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepAP203_CcDesignSpecificationReference)

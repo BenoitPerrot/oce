@@ -31,7 +31,7 @@
 #include <IGESAppli_ToolFlow.hxx>
 #include <IGESData_ParamCursor.hxx>
 #include <IGESGraph_TextDisplayTemplate.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <IGESData_IGESEntity.hxx>
 #include <IGESDraw_ConnectPoint.hxx>
 #include <IGESDraw_HArray1OfConnectPoint.hxx>

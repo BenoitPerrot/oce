@@ -36,5 +36,5 @@ IMPLEMENT_STANDARD_RTTI(MDF_ARDriverHSequence)
 #define TCollection_HSequence_hxx <MDF_ARDriverHSequence.hxx>
 #define Handle_TCollection_HSequence Handle_MDF_ARDriverHSequence
 #define TCollection_HSequence_Type_() MDF_ARDriverHSequence_Type_()
-#include <TCollection_HSequence.gxx>
+#include <Foundation/TCollection/TCollection_HSequence.gxx>
 

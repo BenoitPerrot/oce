@@ -11,8 +11,8 @@
 #include <Handle_TDocStd_SequenceNodeOfSequenceOfDocument.hxx>
 
 #include <Handle_TDocStd_Document.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class TDocStd_Document;
 class TDocStd_SequenceOfDocument;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence TDocStd_SequenceOfDocument
 #define TCollection_Sequence_hxx <TDocStd_SequenceOfDocument.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

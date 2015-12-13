@@ -14,10 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Storage/Storage_Data.hxx>
 #include <CDM_Document.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <CDM_MessageDriver.hxx>
 #include <PCDM_SequenceOfReference.hxx>
 #include <TColStd_SequenceOfExtendedString.hxx>
@@ -33,8 +33,8 @@ IMPLEMENT_DOWNCAST(PCDM_ReadWriter_1,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(PCDM_ReadWriter_1)
 #include <UTL.hxx>
 #include <Foundation/Storage/Storage_Data.hxx>
-#include <TCollection_AsciiString.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <CDM_Document.hxx>
 #include <CDM_ReferenceIterator.hxx>
 #include <CDM_MetaData.hxx>

@@ -12,7 +12,7 @@
 
 #include <gp_Pnt.hxx>
 #include <Draw_Color.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Draw_Drawable3D.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>

@@ -43,5 +43,5 @@ IMPLEMENT_STANDARD_RTTI(ChFiKPart_DataMapNodeOfRstMap)
 #define TCollection_DataMapNode_Type_() ChFiKPart_DataMapNodeOfRstMap_Type_()
 #define TCollection_DataMap ChFiKPart_RstMap
 #define TCollection_DataMap_hxx <ChFiKPart_RstMap.hxx>
-#include <TCollection_DataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

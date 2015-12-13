@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() IntPatch_SequenceNodeOfSequenceOfPathPointOfTheSOnBounds_Type_()
 #define TCollection_Sequence IntPatch_SequenceOfPathPointOfTheSOnBounds
 #define TCollection_Sequence_hxx <IntPatch_SequenceOfPathPointOfTheSOnBounds.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

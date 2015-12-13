@@ -96,7 +96,7 @@ private:
 #define TCollection_Array1 StepAP214_Array1OfAutoDesignGeneralOrgItem
 #define TCollection_Array1_hxx <StepAP214_Array1OfAutoDesignGeneralOrgItem.hxx>
 
-#include <TCollection_Array1.lxx>
+#include <Foundation/TCollection/TCollection_Array1.lxx>
 
 #undef Array1Item
 #undef Array1Item_hxx

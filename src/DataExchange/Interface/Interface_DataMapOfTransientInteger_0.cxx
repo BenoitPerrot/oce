@@ -27,5 +27,5 @@
 #define TCollection_DataMapNode_Type_() Interface_DataMapNodeOfDataMapOfTransientInteger_Type_()
 #define TCollection_DataMap Interface_DataMapOfTransientInteger
 #define TCollection_DataMap_hxx <Interface_DataMapOfTransientInteger.hxx>
-#include <TCollection_DataMap.gxx>
+#include <Foundation/TCollection/TCollection_DataMap.gxx>
 

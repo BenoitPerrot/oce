@@ -22,5 +22,5 @@
 #define TCollection_ListNode_Type_() HLRAlgo_ListNodeOfInterferenceList_Type_()
 #define TCollection_List HLRAlgo_InterferenceList
 #define TCollection_List_hxx <HLRAlgo_InterferenceList.hxx>
-#include <TCollection_ListIterator.gxx>
+#include <Foundation/TCollection/TCollection_ListIterator.gxx>
 

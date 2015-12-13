@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <StepGeom_HArray2OfSurfacePatch.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepGeom_SurfacePatch.hxx>
 #include <StepGeom_RectangularCompositeSurface.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

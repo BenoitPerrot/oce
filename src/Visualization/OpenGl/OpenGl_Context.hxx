@@ -33,7 +33,7 @@
 #include <OpenGl_Vec.hxx>
 #include <OpenGl_Resource.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Handle_OpenGl_Context.hxx>
 #include <OpenGl_Clipping.hxx>
 #include <OpenGl_GlCore11.hxx>

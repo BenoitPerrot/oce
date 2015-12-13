@@ -22,7 +22,7 @@
 #include <OpenGl_TextParam.hxx>
 #include <OpenGl_TextFormatter.hxx>
 
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Graphic3d_Vertex.hxx>
 #include <Graphic3d_HorizontalTextAlignment.hxx>
 #include <Graphic3d_VerticalTextAlignment.hxx>

@@ -18,7 +18,7 @@
 #include <StepShape_ShapeDefinitionRepresentation.hxx>
 #include <StepBasic_ProductRelatedProductCategory.hxx>
 #include <StepShape_ShapeRepresentation.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepBasic_ApplicationContext.hxx>
 #include <StepBasic_ProductContext.hxx>
 #include <StepBasic_ProductDefinitionContext.hxx>
@@ -27,7 +27,7 @@
 #include <StepBasic_ProductDefinition.hxx>
 #include <StepRepr_ProductDefinitionShape.hxx>
 #include <STEPConstruct_Part.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Interface_Static.hxx>
 
 #include <StepBasic_ProductDefinition.hxx>

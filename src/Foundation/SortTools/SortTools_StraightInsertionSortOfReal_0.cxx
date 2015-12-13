@@ -6,7 +6,7 @@
 #include <Foundation/SortTools/SortTools_StraightInsertionSortOfReal.hxx>
 
 #include <TColStd_Array1OfReal.hxx>
-#include <TCollection_CompareOfReal.hxx>
+#include <Foundation/TCollection/TCollection_CompareOfReal.hxx>
  
 
 #define Item Standard_Real
@@ -14,7 +14,7 @@
 #define Array TColStd_Array1OfReal
 #define Array_hxx <TColStd_Array1OfReal.hxx>
 #define Comparator TCollection_CompareOfReal
-#define Comparator_hxx <TCollection_CompareOfReal.hxx>
+#define Comparator_hxx <Foundation/TCollection/TCollection_CompareOfReal.hxx>
 #define SortTools_StraightInsertionSort SortTools_StraightInsertionSortOfReal
 #define SortTools_StraightInsertionSort_hxx <Foundation/SortTools/SortTools_StraightInsertionSortOfReal.hxx>
 #include <Foundation/SortTools/SortTools_StraightInsertionSort.gxx>

@@ -33,7 +33,7 @@
 #include <IGESData_IGESEntity.hxx>
 #include <TColStd_HArray1OfTransient.hxx>
 #include <TColStd_HArray1OfInteger.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <TColStd_HArray1OfReal.hxx>
 #include <IGESData_HArray1OfIGESEntity.hxx>
 #include <Interface_HArray1OfHAsciiString.hxx>

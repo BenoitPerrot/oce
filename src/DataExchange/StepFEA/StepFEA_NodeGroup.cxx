@@ -16,7 +16,7 @@
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
 #include <StepFEA_HArray1OfNodeRepresentation.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepFEA_FeaModel.hxx>
 #include <StepFEA_NodeGroup.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

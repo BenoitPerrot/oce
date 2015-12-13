@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/OSD/OSD_Error.hxx>
 #include <Foundation/OSD/OSD_SysType.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

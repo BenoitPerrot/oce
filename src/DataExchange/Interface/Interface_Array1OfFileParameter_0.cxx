@@ -16,5 +16,5 @@
 #define Array1Item_hxx <Interface_FileParameter.hxx>
 #define TCollection_Array1 Interface_Array1OfFileParameter
 #define TCollection_Array1_hxx <Interface_Array1OfFileParameter.hxx>
-#include <TCollection_Array1.gxx>
+#include <Foundation/TCollection/TCollection_Array1.gxx>
 

@@ -107,7 +107,7 @@ private:
 #define TCollection_List TestTopOpeDraw_ListOfPnt2d
 #define TCollection_List_hxx <TestTopOpeDraw_ListOfPnt2d.hxx>
 
-#include <TCollection_List.lxx>
+#include <Foundation/TCollection/TCollection_List.lxx>
 
 #undef Item
 #undef Item_hxx

@@ -8,7 +8,7 @@
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <CDM_MetaData.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <CDM_MetaDataLookUpTable.hxx>
 #include <CDM_DataMapIteratorOfMetaDataLookUpTable.hxx>
 
@@ -30,11 +30,11 @@ IMPLEMENT_STANDARD_RTTI(CDM_DataMapNodeOfMetaDataLookUpTable)
 
 
 #define TheKey TCollection_ExtendedString
-#define TheKey_hxx <TCollection_ExtendedString.hxx>
+#define TheKey_hxx <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #define TheItem Handle(CDM_MetaData)
 #define TheItem_hxx <CDM_MetaData.hxx>
 #define Hasher TCollection_ExtendedString
-#define Hasher_hxx <TCollection_ExtendedString.hxx>
+#define Hasher_hxx <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #define TCollection_DataMapNode CDM_DataMapNodeOfMetaDataLookUpTable
 #define TCollection_DataMapNode_hxx <CDM_DataMapNodeOfMetaDataLookUpTable.hxx>
 #define TCollection_DataMapIterator CDM_DataMapIteratorOfMetaDataLookUpTable
@@ -43,5 +43,5 @@ IMPLEMENT_STANDARD_RTTI(CDM_DataMapNodeOfMetaDataLookUpTable)
 #define TCollection_DataMapNode_Type_() CDM_DataMapNodeOfMetaDataLookUpTable_Type_()
 #define TCollection_DataMap CDM_MetaDataLookUpTable
 #define TCollection_DataMap_hxx <CDM_MetaDataLookUpTable.hxx>
-#include <TCollection_DataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

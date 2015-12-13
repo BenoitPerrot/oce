@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(BRepBlend_SequenceNodeOfSequenceOfPointOnRst)
 #define TCollection_SequenceNode_Type_() BRepBlend_SequenceNodeOfSequenceOfPointOnRst_Type_()
 #define TCollection_Sequence BRepBlend_SequenceOfPointOnRst
 #define TCollection_Sequence_hxx <BRepBlend_SequenceOfPointOnRst.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

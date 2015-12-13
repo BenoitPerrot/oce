@@ -16,7 +16,7 @@
 #include <Foundation/OSD/OSD_DirectoryIterator.hxx>
 #include <Foundation/OSD/OSD_OSDError.hxx>
 #include <Foundation/OSD/OSD_Path.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 #ifndef WNT
 
@@ -183,7 +183,7 @@ Standard_Integer OSD_DirectoryIterator::Error()const{
 #define STRICT
 #include <windows.h>
 
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 
 #define _FD (  ( PWIN32_FIND_DATAW )myData  )
 

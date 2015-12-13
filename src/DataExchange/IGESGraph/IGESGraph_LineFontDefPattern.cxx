@@ -17,7 +17,7 @@
 //--------------------------------------------------------------------
 
 #include <TColStd_HArray1OfReal.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <IGESGraph_LineFontDefPattern.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

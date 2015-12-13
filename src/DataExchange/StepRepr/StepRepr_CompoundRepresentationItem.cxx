@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <StepRepr_HArray1OfRepresentationItem.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepRepr_RepresentationItem.hxx>
 #include <StepRepr_CompoundRepresentationItem.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

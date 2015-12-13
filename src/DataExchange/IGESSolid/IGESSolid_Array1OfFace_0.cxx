@@ -16,5 +16,5 @@
 #define Array1Item_hxx <IGESSolid_Face.hxx>
 #define TCollection_Array1 IGESSolid_Array1OfFace
 #define TCollection_Array1_hxx <IGESSolid_Array1OfFace.hxx>
-#include <TCollection_Array1.gxx>
+#include <Foundation/TCollection/TCollection_Array1.gxx>
 

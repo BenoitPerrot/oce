@@ -11,8 +11,8 @@
 #include <Handle_Hatch_SequenceNodeOfSequenceOfParameter.hxx>
 
 #include <Hatch_Parameter.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class Hatch_Parameter;
 class Hatch_SequenceOfParameter;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence Hatch_SequenceOfParameter
 #define TCollection_Sequence_hxx <Hatch_SequenceOfParameter.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

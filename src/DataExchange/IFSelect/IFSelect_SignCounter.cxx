@@ -17,7 +17,7 @@
 #include <Interface_InterfaceModel.hxx>
 #include <TColStd_HSequenceOfTransient.hxx>
 #include <Interface_Graph.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <IFSelect_SignCounter.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IFSelect_SignCounter)

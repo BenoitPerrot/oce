@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(MDF_SequenceNodeOfARDriverSequence)
 #define TCollection_SequenceNode_Type_() MDF_SequenceNodeOfARDriverSequence_Type_()
 #define TCollection_Sequence MDF_ARDriverSequence
 #define TCollection_Sequence_hxx <MDF_ARDriverSequence.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

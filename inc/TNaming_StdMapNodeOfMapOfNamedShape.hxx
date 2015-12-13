@@ -11,8 +11,8 @@
 #include <Handle_TNaming_StdMapNodeOfMapOfNamedShape.hxx>
 
 #include <Handle_TNaming_NamedShape.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class TNaming_NamedShape;
 class TNaming_NamedShapeHasher;
 class TNaming_MapOfNamedShape;
@@ -61,7 +61,7 @@ private:
 #define TCollection_Map TNaming_MapOfNamedShape
 #define TCollection_Map_hxx <TNaming_MapOfNamedShape.hxx>
 
-#include <TCollection_StdMapNode.lxx>
+#include <Foundation/TCollection/TCollection_StdMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

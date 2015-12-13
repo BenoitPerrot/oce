@@ -13,7 +13,7 @@
 #include <AIS_InteractiveObject.hxx>
 #include <Graphic3d_NameOfMaterial.hxx>
 #include <OpenGl_GraphicDriver.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 // =======================================================================
 // function : Viewer

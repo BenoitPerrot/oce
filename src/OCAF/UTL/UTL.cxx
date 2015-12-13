@@ -14,19 +14,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/Storage/Storage_BaseDriver.hxx>
 #include <Foundation/Storage/Storage_Data.hxx>
 #include <Foundation/OSD/OSD_Path.hxx>
 #include <Foundation/OSD/OSD_FileIterator.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <Foundation/Resource/Resource_Manager.hxx>
 #include <UTL.hxx>
 #include <Foundation/OSD/OSD_Host.hxx>
 #include <Foundation/OSD/OSD_Path.hxx>
-#include <TCollection_ExtendedString.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Resource/Resource_Unicode.hxx>
 #include <Foundation/OSD/OSD_Environment.hxx>
 #include <Foundation/OSD/OSD_FileIterator.hxx>

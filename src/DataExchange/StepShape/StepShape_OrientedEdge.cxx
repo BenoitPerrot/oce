@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <StepShape_Edge.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepShape_Vertex.hxx>
 #include <StepShape_OrientedEdge.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

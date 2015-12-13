@@ -44,5 +44,5 @@ IMPLEMENT_STANDARD_RTTI(PTColStd_DataMapNodeOfTransientPersistentMap)
 #define TCollection_DataMapNode_Type_() PTColStd_DataMapNodeOfTransientPersistentMap_Type_()
 #define TCollection_DataMap PTColStd_TransientPersistentMap
 #define TCollection_DataMap_hxx <PTColStd_TransientPersistentMap.hxx>
-#include <TCollection_DataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

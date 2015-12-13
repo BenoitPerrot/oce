@@ -11,8 +11,8 @@
 #include <Handle_Law_ListNodeOfLaws.hxx>
 
 #include <Handle_Law_Function.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class Law_Function;
 class Law_Laws;
 class Law_ListIteratorOfLaws;
@@ -58,7 +58,7 @@ private:
 #define TCollection_List Law_Laws
 #define TCollection_List_hxx <Law_Laws.hxx>
 
-#include <TCollection_ListNode.lxx>
+#include <Foundation/TCollection/TCollection_ListNode.lxx>
 
 #undef Item
 #undef Item_hxx

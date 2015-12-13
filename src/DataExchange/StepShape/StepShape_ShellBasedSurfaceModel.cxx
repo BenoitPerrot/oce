@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <StepShape_HArray1OfShell.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepShape_Shell.hxx>
 #include <StepShape_ShellBasedSurfaceModel.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

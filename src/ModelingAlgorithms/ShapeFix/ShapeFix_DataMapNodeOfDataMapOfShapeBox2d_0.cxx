@@ -44,5 +44,5 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_DataMapNodeOfDataMapOfShapeBox2d)
 #define TCollection_DataMapNode_Type_() ShapeFix_DataMapNodeOfDataMapOfShapeBox2d_Type_()
 #define TCollection_DataMap ShapeFix_DataMapOfShapeBox2d
 #define TCollection_DataMap_hxx <ShapeFix_DataMapOfShapeBox2d.hxx>
-#include <TCollection_DataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Expr_NamedFunction.hxx>
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Handle_Expr_GeneralExpression.hxx>
 #include <Expr_Array1OfNamedUnknown.hxx>
 #include <Expr_GeneralFunction.hxx>

@@ -34,5 +34,5 @@ IMPLEMENT_STANDARD_RTTI(TColStd_SequenceNodeOfSequenceOfAddress)
 #define TCollection_SequenceNode_Type_() TColStd_SequenceNodeOfSequenceOfAddress_Type_()
 #define TCollection_Sequence TColStd_SequenceOfAddress
 #define TCollection_Sequence_hxx <TColStd_SequenceOfAddress.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

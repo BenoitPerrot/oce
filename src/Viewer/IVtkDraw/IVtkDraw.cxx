@@ -60,7 +60,7 @@
 #include <Draw.hxx>
 #include <Draw_Interpretor.hxx>
 #include <Draw_PluginMacro.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TopoDS_Shape.hxx>
 #include <BRep_Builder.hxx>
 #include <BRepTools.hxx>

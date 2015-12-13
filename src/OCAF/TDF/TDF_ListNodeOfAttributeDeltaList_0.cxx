@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(TDF_ListNodeOfAttributeDeltaList)
 #define TCollection_ListNode_Type_() TDF_ListNodeOfAttributeDeltaList_Type_()
 #define TCollection_List TDF_AttributeDeltaList
 #define TCollection_List_hxx <TDF_AttributeDeltaList.hxx>
-#include <TCollection_ListNode.gxx>
+#include <Foundation/TCollection/TCollection_ListNode.gxx>
 

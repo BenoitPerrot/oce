@@ -15,7 +15,7 @@
 
 #include <TColStd_SequenceOfHAsciiString.hxx>
 #include <Font_SystemFont.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Font_FontMgr.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Font_FontMgr)
@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_RTTI(Font_FontMgr)
 #include <Foundation/NCollection/NCollection_List.hxx>
 #include <Foundation/NCollection/NCollection_Map.hxx>
 #include <Foundation/Standard/Standard_Stream.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 #include <ft2build.h>
 #include FT_FREETYPE_H

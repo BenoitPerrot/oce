@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <StepGeom_CurveBoundedSurface.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepShape_SweptAreaSolid.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepShape_SweptAreaSolid)

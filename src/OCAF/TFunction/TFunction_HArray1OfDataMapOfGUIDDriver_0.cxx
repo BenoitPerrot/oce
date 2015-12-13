@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(TFunction_HArray1OfDataMapOfGUIDDriver)
 #define TCollection_HArray1_hxx <TFunction_HArray1OfDataMapOfGUIDDriver.hxx>
 #define Handle_TCollection_HArray1 Handle_TFunction_HArray1OfDataMapOfGUIDDriver
 #define TCollection_HArray1_Type_() TFunction_HArray1OfDataMapOfGUIDDriver_Type_()
-#include <TCollection_HArray1.gxx>
+#include <Foundation/TCollection/TCollection_HArray1.gxx>
 

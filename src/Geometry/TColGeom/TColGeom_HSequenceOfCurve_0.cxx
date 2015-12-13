@@ -36,5 +36,5 @@ IMPLEMENT_STANDARD_RTTI(TColGeom_HSequenceOfCurve)
 #define TCollection_HSequence_hxx <TColGeom_HSequenceOfCurve.hxx>
 #define Handle_TCollection_HSequence Handle_TColGeom_HSequenceOfCurve
 #define TCollection_HSequence_Type_() TColGeom_HSequenceOfCurve_Type_()
-#include <TCollection_HSequence.gxx>
+#include <Foundation/TCollection/TCollection_HSequence.gxx>
 

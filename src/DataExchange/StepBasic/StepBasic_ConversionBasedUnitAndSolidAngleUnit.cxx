@@ -13,7 +13,7 @@
 
 #include <StepBasic_SolidAngleUnit.hxx>
 #include <StepBasic_DimensionalExponents.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepBasic_MeasureWithUnit.hxx>
 #include <StepBasic_ConversionBasedUnitAndSolidAngleUnit.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

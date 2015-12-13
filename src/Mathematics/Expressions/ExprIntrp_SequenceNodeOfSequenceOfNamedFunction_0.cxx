@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(ExprIntrp_SequenceNodeOfSequenceOfNamedFunction)
 #define TCollection_SequenceNode_Type_() ExprIntrp_SequenceNodeOfSequenceOfNamedFunction_Type_()
 #define TCollection_Sequence ExprIntrp_SequenceOfNamedFunction
 #define TCollection_Sequence_hxx <ExprIntrp_SequenceOfNamedFunction.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

@@ -13,8 +13,8 @@
 #include <TopoDS_Vertex.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <ChFiDS_ListOfStripe.hxx>
-#include <TCollection_MapNodePtr.hxx>
-#include <TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
 class TopoDS_Vertex;
 class ChFiDS_ListOfStripe;
 class TopTools_ShapeMapHasher;
@@ -72,7 +72,7 @@ private:
 #define TCollection_IndexedDataMap ChFiDS_IndexedDataMapOfVertexListOfStripe
 #define TCollection_IndexedDataMap_hxx <ChFiDS_IndexedDataMapOfVertexListOfStripe.hxx>
 
-#include <TCollection_IndexedDataMapNode.lxx>
+#include <Foundation/TCollection/TCollection_IndexedDataMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

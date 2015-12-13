@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(TColStd_HSequenceOfReal)
 #define TCollection_HSequence_hxx <TColStd_HSequenceOfReal.hxx>
 #define Handle_TCollection_HSequence Handle_TColStd_HSequenceOfReal
 #define TCollection_HSequence_Type_() TColStd_HSequenceOfReal_Type_()
-#include <TCollection_HSequence.gxx>
+#include <Foundation/TCollection/TCollection_HSequence.gxx>
 

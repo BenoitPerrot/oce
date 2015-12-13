@@ -36,5 +36,5 @@ IMPLEMENT_STANDARD_RTTI(StepElement_HSequenceOfElementMaterial)
 #define TCollection_HSequence_hxx <StepElement_HSequenceOfElementMaterial.hxx>
 #define Handle_TCollection_HSequence Handle_StepElement_HSequenceOfElementMaterial
 #define TCollection_HSequence_Type_() StepElement_HSequenceOfElementMaterial_Type_()
-#include <TCollection_HSequence.gxx>
+#include <Foundation/TCollection/TCollection_HSequence.gxx>
 

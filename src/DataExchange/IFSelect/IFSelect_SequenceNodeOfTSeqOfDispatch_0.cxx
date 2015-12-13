@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(IFSelect_SequenceNodeOfTSeqOfDispatch)
 #define TCollection_SequenceNode_Type_() IFSelect_SequenceNodeOfTSeqOfDispatch_Type_()
 #define TCollection_Sequence IFSelect_TSeqOfDispatch
 #define TCollection_Sequence_hxx <IFSelect_TSeqOfDispatch.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

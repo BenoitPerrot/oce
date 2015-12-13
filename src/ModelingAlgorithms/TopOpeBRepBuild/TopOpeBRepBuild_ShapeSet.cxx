@@ -16,7 +16,7 @@
 
 #include <TopoDS_Shape.hxx>
 #include <TopTools_ListOfShape.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TopOpeBRepBuild_ShapeSet.hxx>
 #include <TopOpeBRepBuild_define.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>

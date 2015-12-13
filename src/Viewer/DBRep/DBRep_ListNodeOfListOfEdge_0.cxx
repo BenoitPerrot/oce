@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(DBRep_ListNodeOfListOfEdge)
 #define TCollection_ListNode_Type_() DBRep_ListNodeOfListOfEdge_Type_()
 #define TCollection_List DBRep_ListOfEdge
 #define TCollection_List_hxx <DBRep_ListOfEdge.hxx>
-#include <TCollection_ListNode.gxx>
+#include <Foundation/TCollection/TCollection_ListNode.gxx>
 

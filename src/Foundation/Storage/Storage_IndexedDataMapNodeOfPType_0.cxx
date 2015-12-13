@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Storage/Storage_PType.hxx>
 
  
@@ -28,16 +28,16 @@ IMPLEMENT_STANDARD_RTTI(Storage_IndexedDataMapNodeOfPType)
 
 
 #define TheKey TCollection_AsciiString
-#define TheKey_hxx <TCollection_AsciiString.hxx>
+#define TheKey_hxx <Foundation/TCollection/TCollection_AsciiString.hxx>
 #define TheItem Standard_Integer
 #define TheItem_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define Hasher TCollection_AsciiString
-#define Hasher_hxx <TCollection_AsciiString.hxx>
+#define Hasher_hxx <Foundation/TCollection/TCollection_AsciiString.hxx>
 #define TCollection_IndexedDataMapNode Storage_IndexedDataMapNodeOfPType
 #define TCollection_IndexedDataMapNode_hxx <Foundation/Storage/Storage_IndexedDataMapNodeOfPType.hxx>
 #define Handle_TCollection_IndexedDataMapNode Handle_Storage_IndexedDataMapNodeOfPType
 #define TCollection_IndexedDataMapNode_Type_() Storage_IndexedDataMapNodeOfPType_Type_()
 #define TCollection_IndexedDataMap Storage_PType
 #define TCollection_IndexedDataMap_hxx <Foundation/Storage/Storage_PType.hxx>
-#include <TCollection_IndexedDataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_IndexedDataMapNode.gxx>
 

@@ -28,7 +28,7 @@
 #include <Geom_Vector.hxx>
 #include <StepGeom_Vector.hxx>
 #include <GeomToStep_MakeDirection.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <UnitsMethods.hxx>
 
 //=============================================================================

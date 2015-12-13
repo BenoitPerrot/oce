@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <StepBasic_MeasureWithUnit.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepBasic_MeasureValueMember.hxx>
 #include <StepBasic_Unit.hxx>
 #include <StepRepr_MeasureRepresentationItem.hxx>

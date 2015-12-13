@@ -43,5 +43,5 @@ IMPLEMENT_STANDARD_RTTI(TColStd_DataMapNodeOfDataMapOfIntegerTransient)
 #define TCollection_DataMapNode_Type_() TColStd_DataMapNodeOfDataMapOfIntegerTransient_Type_()
 #define TCollection_DataMap TColStd_DataMapOfIntegerTransient
 #define TCollection_DataMap_hxx <TColStd_DataMapOfIntegerTransient.hxx>
-#include <TCollection_DataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

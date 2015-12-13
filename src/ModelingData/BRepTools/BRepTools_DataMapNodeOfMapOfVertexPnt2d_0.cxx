@@ -44,5 +44,5 @@ IMPLEMENT_STANDARD_RTTI(BRepTools_DataMapNodeOfMapOfVertexPnt2d)
 #define TCollection_DataMapNode_Type_() BRepTools_DataMapNodeOfMapOfVertexPnt2d_Type_()
 #define TCollection_DataMap BRepTools_MapOfVertexPnt2d
 #define TCollection_DataMap_hxx <BRepTools_MapOfVertexPnt2d.hxx>
-#include <TCollection_DataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

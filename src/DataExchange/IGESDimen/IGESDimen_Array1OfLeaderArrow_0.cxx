@@ -16,5 +16,5 @@
 #define Array1Item_hxx <IGESDimen_LeaderArrow.hxx>
 #define TCollection_Array1 IGESDimen_Array1OfLeaderArrow
 #define TCollection_Array1_hxx <IGESDimen_Array1OfLeaderArrow.hxx>
-#include <TCollection_Array1.gxx>
+#include <Foundation/TCollection/TCollection_Array1.gxx>
 

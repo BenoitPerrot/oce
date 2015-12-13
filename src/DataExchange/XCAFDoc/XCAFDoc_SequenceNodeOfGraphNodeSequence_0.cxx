@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(XCAFDoc_SequenceNodeOfGraphNodeSequence)
 #define TCollection_SequenceNode_Type_() XCAFDoc_SequenceNodeOfGraphNodeSequence_Type_()
 #define TCollection_Sequence XCAFDoc_GraphNodeSequence
 #define TCollection_Sequence_hxx <XCAFDoc_GraphNodeSequence.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

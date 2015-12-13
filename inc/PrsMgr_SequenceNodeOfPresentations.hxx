@@ -11,8 +11,8 @@
 #include <Handle_PrsMgr_SequenceNodeOfPresentations.hxx>
 
 #include <PrsMgr_ModedPresentation.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class PrsMgr_ModedPresentation;
 class PrsMgr_Presentations;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence PrsMgr_Presentations
 #define TCollection_Sequence_hxx <PrsMgr_Presentations.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

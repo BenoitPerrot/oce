@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(IntRes2d_SequenceNodeOfSequenceOfIntersectionPoint)
 #define TCollection_SequenceNode_Type_() IntRes2d_SequenceNodeOfSequenceOfIntersectionPoint_Type_()
 #define TCollection_Sequence IntRes2d_SequenceOfIntersectionPoint
 #define TCollection_Sequence_hxx <IntRes2d_SequenceOfIntersectionPoint.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

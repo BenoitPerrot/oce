@@ -36,5 +36,5 @@ IMPLEMENT_STANDARD_RTTI(Visual3d_HSequenceOfLight)
 #define TCollection_HSequence_hxx <Visual3d_HSequenceOfLight.hxx>
 #define Handle_TCollection_HSequence Handle_Visual3d_HSequenceOfLight
 #define TCollection_HSequence_Type_() Visual3d_HSequenceOfLight_Type_()
-#include <TCollection_HSequence.gxx>
+#include <Foundation/TCollection/TCollection_HSequence.gxx>
 

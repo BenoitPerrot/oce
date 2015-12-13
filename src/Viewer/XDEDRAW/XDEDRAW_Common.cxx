@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <XDEDRAW_Common.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 
 #include <Interface_Macros.hxx>
 #include <XSControl_WorkSession.hxx>

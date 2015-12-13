@@ -18,7 +18,7 @@
 #include <CDM_Reference.hxx>
 #include <CDM_MetaData.hxx>
 #include <CDM_Document.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <CDM_MetaDataLookUpTable.hxx>
 #include <CDM_Application.hxx>
 #include <CDM_MetaData.hxx>

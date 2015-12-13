@@ -12,5 +12,5 @@
 #define Key_hxx <Foundation/Standard/Standard_Persistent.hxx>
 #define TCollection_MapHasher PTColStd_MapPersistentHasher
 #define TCollection_MapHasher_hxx <PTColStd_MapPersistentHasher.hxx>
-#include <TCollection_MapHasher.gxx>
+#include <Foundation/TCollection/TCollection_MapHasher.gxx>
 

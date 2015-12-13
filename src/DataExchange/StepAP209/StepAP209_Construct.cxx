@@ -31,7 +31,7 @@
 
 #include <Interface_EntityIterator.hxx>
 #include <Interface_HArray1OfHAsciiString.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <TColStd_HArray1OfAsciiString.hxx>
 #include <TColStd_HArray1OfReal.hxx>
 #include <Foundation/OSD/OSD_Process.hxx>

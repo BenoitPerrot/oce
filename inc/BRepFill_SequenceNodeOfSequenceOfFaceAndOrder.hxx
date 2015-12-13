@@ -11,8 +11,8 @@
 #include <Handle_BRepFill_SequenceNodeOfSequenceOfFaceAndOrder.hxx>
 
 #include <BRepFill_FaceAndOrder.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class BRepFill_FaceAndOrder;
 class BRepFill_SequenceOfFaceAndOrder;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence BRepFill_SequenceOfFaceAndOrder
 #define TCollection_Sequence_hxx <BRepFill_SequenceOfFaceAndOrder.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

@@ -12,7 +12,7 @@
 
 #include <Foundation/OSD/OSD_Directory.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Foundation/OSD/OSD_Error.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

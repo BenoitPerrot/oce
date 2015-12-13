@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <TCollection_BaseSequence.hxx>
+#include <Foundation/TCollection/TCollection_BaseSequence.hxx>
 #include <Handle_NLPlate_HGPPConstraint.hxx>
 #include <Handle_NLPlate_SequenceNodeOfSequenceOfHGPPConstraint.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
@@ -110,7 +110,7 @@ private:
 #define TCollection_Sequence NLPlate_SequenceOfHGPPConstraint
 #define TCollection_Sequence_hxx <NLPlate_SequenceOfHGPPConstraint.hxx>
 
-#include <TCollection_Sequence.lxx>
+#include <Foundation/TCollection/TCollection_Sequence.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

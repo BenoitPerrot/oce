@@ -11,8 +11,8 @@
 #include <Handle_StlMesh_SequenceNodeOfSequenceOfMeshDomain.hxx>
 
 #include <Handle_StlMesh_MeshDomain.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class StlMesh_MeshDomain;
 class StlMesh_SequenceOfMeshDomain;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence StlMesh_SequenceOfMeshDomain
 #define TCollection_Sequence_hxx <StlMesh_SequenceOfMeshDomain.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

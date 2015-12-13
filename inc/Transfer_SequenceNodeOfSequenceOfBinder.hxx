@@ -11,8 +11,8 @@
 #include <Handle_Transfer_SequenceNodeOfSequenceOfBinder.hxx>
 
 #include <Handle_Transfer_Binder.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class Transfer_Binder;
 class Transfer_SequenceOfBinder;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence Transfer_SequenceOfBinder
 #define TCollection_Sequence_hxx <Transfer_SequenceOfBinder.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

@@ -12,8 +12,8 @@
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class Quantity_Color;
 class TColStd_MapIntegerHasher;
 class MeshVS_DataMapOfIntegerColor;
@@ -67,7 +67,7 @@ private:
 #define TCollection_DataMap MeshVS_DataMapOfIntegerColor
 #define TCollection_DataMap_hxx <MeshVS_DataMapOfIntegerColor.hxx>
 
-#include <TCollection_DataMapNode.lxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <TCollection_BaseSequence.hxx>
+#include <Foundation/TCollection/TCollection_BaseSequence.hxx>
 #include <Handle_GeomPlate_PointConstraint.hxx>
 #include <Handle_GeomPlate_SequenceNodeOfSequenceOfPointConstraint.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
@@ -110,7 +110,7 @@ private:
 #define TCollection_Sequence GeomPlate_SequenceOfPointConstraint
 #define TCollection_Sequence_hxx <GeomPlate_SequenceOfPointConstraint.hxx>
 
-#include <TCollection_Sequence.lxx>
+#include <Foundation/TCollection/TCollection_Sequence.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

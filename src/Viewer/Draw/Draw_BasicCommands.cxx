@@ -19,7 +19,7 @@
 #include <Foundation/Standard/Standard_SStream.hxx>
 #include <Foundation/Standard/Standard_Version.hxx>
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Draw_Drawable3D.hxx>
 #include <Draw_ProgressIndicator.hxx>
 #include <Draw.hxx>

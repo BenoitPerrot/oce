@@ -15,7 +15,7 @@
 #include <Foundation/Dico/Dico_DictionaryOfInteger.hxx>
 #include <StepData_ESDescr.hxx>
 #include <StepData_PDescr.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <StepData_Described.hxx>
 #include <StepData_ESDescr.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

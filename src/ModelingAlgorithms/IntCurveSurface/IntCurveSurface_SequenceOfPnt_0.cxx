@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() IntCurveSurface_SequenceNodeOfSequenceOfPnt_Type_()
 #define TCollection_Sequence IntCurveSurface_SequenceOfPnt
 #define TCollection_Sequence_hxx <IntCurveSurface_SequenceOfPnt.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

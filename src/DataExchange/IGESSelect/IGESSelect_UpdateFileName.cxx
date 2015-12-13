@@ -14,7 +14,7 @@
 #include <IFSelect_ContextModif.hxx>
 #include <IGESData_IGESModel.hxx>
 #include <Interface_CopyTool.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <IGESSelect_UpdateFileName.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESSelect_UpdateFileName)
@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_TYPE_END(IGESSelect_UpdateFileName)
 IMPLEMENT_DOWNCAST(IGESSelect_UpdateFileName,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESSelect_UpdateFileName)
 #include <IGESData_GlobalSection.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Interface_Check.hxx>
 
 

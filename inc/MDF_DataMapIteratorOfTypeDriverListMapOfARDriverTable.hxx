@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <TCollection_BasicMapIterator.hxx>
+#include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
 #include <Handle_Standard_Type.hxx>
 #include <Handle_MDF_DataMapNodeOfTypeDriverListMapOfARDriverTable.hxx>
 class Standard_NoSuchObject;

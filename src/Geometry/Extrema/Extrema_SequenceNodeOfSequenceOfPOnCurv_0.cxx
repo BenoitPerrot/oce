@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(Extrema_SequenceNodeOfSequenceOfPOnCurv)
 #define TCollection_SequenceNode_Type_() Extrema_SequenceNodeOfSequenceOfPOnCurv_Type_()
 #define TCollection_Sequence Extrema_SequenceOfPOnCurv
 #define TCollection_Sequence_hxx <Extrema_SequenceOfPOnCurv.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

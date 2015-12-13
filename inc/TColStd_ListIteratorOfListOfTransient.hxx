@@ -72,7 +72,7 @@ private:
 #define TCollection_List TColStd_ListOfTransient
 #define TCollection_List_hxx <TColStd_ListOfTransient.hxx>
 
-#include <TCollection_ListIterator.lxx>
+#include <Foundation/TCollection/TCollection_ListIterator.lxx>
 
 #undef Item
 #undef Item_hxx

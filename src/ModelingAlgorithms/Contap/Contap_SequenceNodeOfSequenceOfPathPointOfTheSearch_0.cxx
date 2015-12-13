@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(Contap_SequenceNodeOfSequenceOfPathPointOfTheSearch)
 #define TCollection_SequenceNode_Type_() Contap_SequenceNodeOfSequenceOfPathPointOfTheSearch_Type_()
 #define TCollection_Sequence Contap_SequenceOfPathPointOfTheSearch
 #define TCollection_Sequence_hxx <Contap_SequenceOfPathPointOfTheSearch.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

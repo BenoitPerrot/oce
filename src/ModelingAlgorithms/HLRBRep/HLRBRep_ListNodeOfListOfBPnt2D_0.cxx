@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(HLRBRep_ListNodeOfListOfBPnt2D)
 #define TCollection_ListNode_Type_() HLRBRep_ListNodeOfListOfBPnt2D_Type_()
 #define TCollection_List HLRBRep_ListOfBPnt2D
 #define TCollection_List_hxx <HLRBRep_ListOfBPnt2D.hxx>
-#include <TCollection_ListNode.gxx>
+#include <Foundation/TCollection/TCollection_ListNode.gxx>
 

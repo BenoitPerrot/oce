@@ -11,8 +11,8 @@
 #include <Handle_IntTools_StdMapNodeOfMapOfSurfaceSample.hxx>
 
 #include <IntTools_SurfaceRangeSample.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class IntTools_SurfaceRangeSample;
 class IntTools_SurfaceRangeSampleMapHasher;
 class IntTools_MapOfSurfaceSample;
@@ -61,7 +61,7 @@ private:
 #define TCollection_Map IntTools_MapOfSurfaceSample
 #define TCollection_Map_hxx <IntTools_MapOfSurfaceSample.hxx>
 
-#include <TCollection_StdMapNode.lxx>
+#include <Foundation/TCollection/TCollection_StdMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

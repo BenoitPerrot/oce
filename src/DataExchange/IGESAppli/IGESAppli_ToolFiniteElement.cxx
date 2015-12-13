@@ -32,7 +32,7 @@
 #include <IGESData_ParamCursor.hxx>
 #include <IGESAppli_Node.hxx>
 #include <IGESAppli_HArray1OfNode.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <IGESData_Dump.hxx>
 #include <Interface_Macros.hxx>
 

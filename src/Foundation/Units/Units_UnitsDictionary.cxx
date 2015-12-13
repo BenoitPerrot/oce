@@ -19,8 +19,8 @@
 #include <Foundation/Standard/Standard_Stream.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <TCollection_AsciiString.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 #include <TColStd_HSequenceOfHAsciiString.hxx>
 

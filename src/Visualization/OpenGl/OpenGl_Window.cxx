@@ -22,8 +22,8 @@
 #include <OpenGl_Utils.hxx>
 
 #include <Aspect_GraphicDeviceDefinitionError.hxx>
-#include <TCollection_AsciiString.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 
 #if defined(HAVE_EGL) || defined(__ANDROID__)
   #include <EGL/egl.h>

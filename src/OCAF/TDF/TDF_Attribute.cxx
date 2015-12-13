@@ -49,7 +49,7 @@ IMPLEMENT_STANDARD_TYPE_END(TDF_Attribute)
 IMPLEMENT_DOWNCAST(TDF_Attribute,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TDF_Attribute)
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TDF_DefaultDeltaOnModification.hxx>
 #include <TDF_DefaultDeltaOnRemoval.hxx>
 #include <TDF_DeltaOnForget.hxx>

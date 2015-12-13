@@ -26,7 +26,7 @@ static TCollection_AsciiString PRODINS("dins ");
 #include <gp_Pnt2d.hxx>
 #include <gp_Vec2d.hxx>
 #include <TopoDS_Edge.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TopOpeBRepBuild_WireEdgeSet.hxx>
 #include <TopoDS.hxx>
 #include <BRep_Tool.hxx>

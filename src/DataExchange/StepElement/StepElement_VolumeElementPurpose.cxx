@@ -17,10 +17,10 @@
 
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <StepData_SelectMember.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepElement_VolumeElementPurpose.hxx>
 #include <StepElement_VolumeElementPurposeMember.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 //=======================================================================
 //function : StepElement_VolumeElementPurpose

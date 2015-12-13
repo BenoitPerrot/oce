@@ -10,10 +10,10 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_CDM_DataMapNodeOfPresentationDirectory.hxx>
 
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Handle_CDM_Document.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class CDM_Document;
 class TCollection_ExtendedString;
 class CDM_PresentationDirectory;
@@ -53,11 +53,11 @@ private:
 };
 
 #define TheKey TCollection_ExtendedString
-#define TheKey_hxx <TCollection_ExtendedString.hxx>
+#define TheKey_hxx <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #define TheItem Handle(CDM_Document)
 #define TheItem_hxx <CDM_Document.hxx>
 #define Hasher TCollection_ExtendedString
-#define Hasher_hxx <TCollection_ExtendedString.hxx>
+#define Hasher_hxx <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #define TCollection_DataMapNode CDM_DataMapNodeOfPresentationDirectory
 #define TCollection_DataMapNode_hxx <CDM_DataMapNodeOfPresentationDirectory.hxx>
 #define TCollection_DataMapIterator CDM_DataMapIteratorOfPresentationDirectory
@@ -67,7 +67,7 @@ private:
 #define TCollection_DataMap CDM_PresentationDirectory
 #define TCollection_DataMap_hxx <CDM_PresentationDirectory.hxx>
 
-#include <TCollection_DataMapNode.lxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

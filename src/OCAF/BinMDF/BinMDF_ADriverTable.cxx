@@ -29,7 +29,7 @@ IMPLEMENT_DOWNCAST(BinMDF_ADriverTable,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinMDF_ADriverTable)
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <BinMDF_StringIdMap.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <BinMDF_DataMapIteratorOfTypeADriverMap.hxx>
 
 //=======================================================================

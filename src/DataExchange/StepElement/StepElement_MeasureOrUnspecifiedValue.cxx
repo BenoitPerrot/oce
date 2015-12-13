@@ -19,7 +19,7 @@
 #include <StepData_SelectMember.hxx>
 #include <StepElement_MeasureOrUnspecifiedValue.hxx>
 #include <StepElement_MeasureOrUnspecifiedValueMember.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 static Standard_CString aCDM = "CONTEXT_DEPENDENT_MEASURE";
 static Standard_CString anUV = "UNSPECIFIED_VALUE";

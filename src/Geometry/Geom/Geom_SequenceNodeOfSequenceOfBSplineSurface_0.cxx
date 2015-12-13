@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(Geom_SequenceNodeOfSequenceOfBSplineSurface)
 #define TCollection_SequenceNode_Type_() Geom_SequenceNodeOfSequenceOfBSplineSurface_Type_()
 #define TCollection_Sequence Geom_SequenceOfBSplineSurface
 #define TCollection_Sequence_hxx <Geom_SequenceOfBSplineSurface.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

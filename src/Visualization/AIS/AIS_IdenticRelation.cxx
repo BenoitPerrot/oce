@@ -72,7 +72,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_IdenticRelation)
 
 #include <StdPrs_WFDeflectionShape.hxx>
 
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 
 #include <TopAbs.hxx>
 #include <TopExp.hxx>

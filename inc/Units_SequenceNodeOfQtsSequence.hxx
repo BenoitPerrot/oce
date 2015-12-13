@@ -11,8 +11,8 @@
 #include <Handle_Units_SequenceNodeOfQtsSequence.hxx>
 
 #include <Handle_Units_Quantity.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class Units_Quantity;
 class Units_QtsSequence;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence Units_QtsSequence
 #define TCollection_Sequence_hxx <Units_QtsSequence.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

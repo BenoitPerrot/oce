@@ -41,5 +41,5 @@ IMPLEMENT_STANDARD_RTTI(StdSelect_IndexedDataMapNodeOfIndexedDataMapOfOwnerPrs)
 #define TCollection_IndexedDataMapNode_Type_() StdSelect_IndexedDataMapNodeOfIndexedDataMapOfOwnerPrs_Type_()
 #define TCollection_IndexedDataMap StdSelect_IndexedDataMapOfOwnerPrs
 #define TCollection_IndexedDataMap_hxx <StdSelect_IndexedDataMapOfOwnerPrs.hxx>
-#include <TCollection_IndexedDataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_IndexedDataMapNode.gxx>
 

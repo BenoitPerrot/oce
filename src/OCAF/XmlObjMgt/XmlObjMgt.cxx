@@ -15,8 +15,8 @@
 
 //AGV 150202: Add parameter isClearText to SetStringValue()
 
-#include <TCollection_ExtendedString.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <XmlObjMgt.hxx>
 #include <XmlObjMgt_Document.hxx>
 #include <LDOM_Text.hxx>

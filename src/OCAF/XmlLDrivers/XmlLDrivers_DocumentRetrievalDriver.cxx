@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <XmlMDF_ADriverTable.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <PCDM_Document.hxx>
 #include <CDM_Document.hxx>
 #include <CDM_Application.hxx>
@@ -47,7 +47,7 @@ IMPLEMENT_STANDARD_RTTI(XmlLDrivers_DocumentRetrievalDriver)
 #include <TDocStd_Document.hxx>
 #include <CDM_MessageDriver.hxx>
 #include <CDM_MetaData.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <UTL.hxx>
 #include <Foundation/OSD/OSD_Path.hxx>
 

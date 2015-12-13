@@ -43,5 +43,5 @@ IMPLEMENT_STANDARD_RTTI(AIS_DataMapNodeOfDataMapofIntegerListOfinteractive)
 #define TCollection_DataMapNode_Type_() AIS_DataMapNodeOfDataMapofIntegerListOfinteractive_Type_()
 #define TCollection_DataMap AIS_DataMapofIntegerListOfinteractive
 #define TCollection_DataMap_hxx <AIS_DataMapofIntegerListOfinteractive.hxx>
-#include <TCollection_DataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

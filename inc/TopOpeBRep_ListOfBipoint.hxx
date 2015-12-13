@@ -107,7 +107,7 @@ private:
 #define TCollection_List TopOpeBRep_ListOfBipoint
 #define TCollection_List_hxx <TopOpeBRep_ListOfBipoint.hxx>
 
-#include <TCollection_List.lxx>
+#include <Foundation/TCollection/TCollection_List.lxx>
 
 #undef Item
 #undef Item_hxx

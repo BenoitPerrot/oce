@@ -36,5 +36,5 @@ IMPLEMENT_STANDARD_RTTI(IFSelect_HSeqOfSelection)
 #define TCollection_HSequence_hxx <IFSelect_HSeqOfSelection.hxx>
 #define Handle_TCollection_HSequence Handle_IFSelect_HSeqOfSelection
 #define TCollection_HSequence_Type_() IFSelect_HSeqOfSelection_Type_()
-#include <TCollection_HSequence.gxx>
+#include <Foundation/TCollection/TCollection_HSequence.gxx>
 

@@ -21,7 +21,7 @@
 #include <CDF_Session.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <CDM_Document.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <TColStd_SequenceOfExtendedString.hxx>
 #include <PCDM_Reader.hxx>
 #include <CDM_MetaData.hxx>
@@ -36,7 +36,7 @@ IMPLEMENT_STANDARD_TYPE_END(CDF_Application)
 IMPLEMENT_DOWNCAST(CDF_Application,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(CDF_Application)
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <CDM_MetaData.hxx>

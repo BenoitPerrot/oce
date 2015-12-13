@@ -11,5 +11,5 @@
 #define Key_hxx <MeshVS_TwoColors.hxx>
 #define TCollection_MapHasher MeshVS_TwoColorsHasher
 #define TCollection_MapHasher_hxx <MeshVS_TwoColorsHasher.hxx>
-#include <TCollection_MapHasher.gxx>
+#include <Foundation/TCollection/TCollection_MapHasher.gxx>
 

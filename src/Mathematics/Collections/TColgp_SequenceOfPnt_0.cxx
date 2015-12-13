@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() TColgp_SequenceNodeOfSequenceOfPnt_Type_()
 #define TCollection_Sequence TColgp_SequenceOfPnt
 #define TCollection_Sequence_hxx <TColgp_SequenceOfPnt.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

@@ -11,8 +11,8 @@
 #include <Handle_ExprIntrp_SequenceNodeOfSequenceOfNamedFunction.hxx>
 
 #include <Handle_Expr_NamedFunction.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class Expr_NamedFunction;
 class ExprIntrp_SequenceOfNamedFunction;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence ExprIntrp_SequenceOfNamedFunction
 #define TCollection_Sequence_hxx <ExprIntrp_SequenceOfNamedFunction.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

@@ -103,7 +103,7 @@ private:
 #define TCollection_Array2 TColStd_Array2OfInteger
 #define TCollection_Array2_hxx <TColStd_Array2OfInteger.hxx>
 
-#include <TCollection_Array2.lxx>
+#include <Foundation/TCollection/TCollection_Array2.lxx>
 
 #undef Array2Item
 #undef Array2Item_hxx

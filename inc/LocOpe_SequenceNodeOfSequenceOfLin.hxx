@@ -11,8 +11,8 @@
 #include <Handle_LocOpe_SequenceNodeOfSequenceOfLin.hxx>
 
 #include <gp_Lin.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class gp_Lin;
 class LocOpe_SequenceOfLin;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence LocOpe_SequenceOfLin
 #define TCollection_Sequence_hxx <LocOpe_SequenceOfLin.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

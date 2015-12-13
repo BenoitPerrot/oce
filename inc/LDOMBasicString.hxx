@@ -18,8 +18,8 @@
 
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
-#include <TCollection_AsciiString.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 
 class Handle(LDOM_MemManager);
 class LDOM_NullPtr;

@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(TopTools_SequenceNodeOfSequenceOfShape)
 #define TCollection_SequenceNode_Type_() TopTools_SequenceNodeOfSequenceOfShape_Type_()
 #define TCollection_Sequence TopTools_SequenceOfShape
 #define TCollection_Sequence_hxx <TopTools_SequenceOfShape.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

@@ -17,10 +17,10 @@
 
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <StepData_SelectMember.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepFEA_DegreeOfFreedom.hxx>
 #include <StepFEA_DegreeOfFreedomMember.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 //=======================================================================
 //function : StepFEA_DegreeOfFreedom

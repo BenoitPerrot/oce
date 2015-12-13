@@ -107,7 +107,7 @@ private:
 #define TCollection_List HLRAlgo_InterferenceList
 #define TCollection_List_hxx <HLRAlgo_InterferenceList.hxx>
 
-#include <TCollection_List.lxx>
+#include <Foundation/TCollection/TCollection_List.lxx>
 
 #undef Item
 #undef Item_hxx

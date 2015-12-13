@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_RTTI(MXCAFDoc_DimTolStorageDriver)
 #include <XCAFDoc_DimTol.hxx>
 #include <PXCAFDoc_DimTol.hxx>
 
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <TColStd_HArray1OfReal.hxx>
 #include <PCollection_HAsciiString.hxx>
 #include <PColStd_HArray1OfReal.hxx>

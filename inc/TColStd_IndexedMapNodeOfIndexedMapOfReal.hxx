@@ -12,8 +12,8 @@
 
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <TCollection_MapNodePtr.hxx>
-#include <TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
 class TColStd_MapRealHasher;
 class TColStd_IndexedMapOfReal;
 
@@ -64,7 +64,7 @@ private:
 #define TCollection_IndexedMap TColStd_IndexedMapOfReal
 #define TCollection_IndexedMap_hxx <TColStd_IndexedMapOfReal.hxx>
 
-#include <TCollection_IndexedMapNode.lxx>
+#include <Foundation/TCollection/TCollection_IndexedMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

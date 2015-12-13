@@ -101,7 +101,7 @@ private:
 #define Handle_TCollection_HSequence Handle_StepRepr_HSequenceOfMaterialPropertyRepresentation
 #define TCollection_HSequence_Type_() StepRepr_HSequenceOfMaterialPropertyRepresentation_Type_()
 
-#include <TCollection_HSequence.lxx>
+#include <Foundation/TCollection/TCollection_HSequence.lxx>
 
 #undef Item
 #undef Item_hxx

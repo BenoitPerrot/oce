@@ -27,5 +27,5 @@
 #define TCollection_DataMapNode_Type_() BRepCheck_DataMapNodeOfDataMapOfShapeResult_Type_()
 #define TCollection_DataMap BRepCheck_DataMapOfShapeResult
 #define TCollection_DataMap_hxx <BRepCheck_DataMapOfShapeResult.hxx>
-#include <TCollection_DataMapIterator.gxx>
+#include <Foundation/TCollection/TCollection_DataMapIterator.gxx>
 

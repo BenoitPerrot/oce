@@ -11,8 +11,8 @@
 #include <Handle_StepFEA_SequenceNodeOfSequenceOfElementGeometricRelationship.hxx>
 
 #include <Handle_StepFEA_ElementGeometricRelationship.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class StepFEA_ElementGeometricRelationship;
 class StepFEA_SequenceOfElementGeometricRelationship;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence StepFEA_SequenceOfElementGeometricRelationship
 #define TCollection_Sequence_hxx <StepFEA_SequenceOfElementGeometricRelationship.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

@@ -13,8 +13,8 @@
 #include <TopoDS_Shape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Bnd_Box.hxx>
-#include <TCollection_MapNodePtr.hxx>
-#include <TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
 class TopoDS_Shape;
 class Bnd_Box;
 class TopTools_OrientedShapeMapHasher;
@@ -72,7 +72,7 @@ private:
 #define TCollection_IndexedDataMap TopOpeBRepTool_IndexedDataMapOfShapeBox
 #define TCollection_IndexedDataMap_hxx <TopOpeBRepTool_IndexedDataMapOfShapeBox.hxx>
 
-#include <TCollection_IndexedDataMapNode.lxx>
+#include <Foundation/TCollection/TCollection_IndexedDataMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() SelectBasics_SequenceNodeOfSequenceOfOwner_Type_()
 #define TCollection_Sequence SelectBasics_SequenceOfOwner
 #define TCollection_Sequence_hxx <SelectBasics_SequenceOfOwner.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

@@ -16,5 +16,5 @@
 #define Array1Item_hxx <TColStd_SequenceOfInteger.hxx>
 #define TCollection_Array1 MeshVS_Array1OfSequenceOfInteger
 #define TCollection_Array1_hxx <MeshVS_Array1OfSequenceOfInteger.hxx>
-#include <TCollection_Array1.gxx>
+#include <Foundation/TCollection/TCollection_Array1.gxx>
 

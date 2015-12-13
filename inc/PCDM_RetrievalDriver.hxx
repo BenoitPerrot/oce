@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_PCDM_RetrievalDriver.hxx>
 
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <PCDM_Reader.hxx>
 #include <Handle_CDM_MetaData.hxx>
 #include <PCDM_ReferenceIterator.hxx>

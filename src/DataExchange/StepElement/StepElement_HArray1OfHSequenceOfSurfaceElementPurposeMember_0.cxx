@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(StepElement_HArray1OfHSequenceOfSurfaceElementPurposeMem
 #define TCollection_HArray1_hxx <StepElement_HArray1OfHSequenceOfSurfaceElementPurposeMember.hxx>
 #define Handle_TCollection_HArray1 Handle_StepElement_HArray1OfHSequenceOfSurfaceElementPurposeMember
 #define TCollection_HArray1_Type_() StepElement_HArray1OfHSequenceOfSurfaceElementPurposeMember_Type_()
-#include <TCollection_HArray1.gxx>
+#include <Foundation/TCollection/TCollection_HArray1.gxx>
 

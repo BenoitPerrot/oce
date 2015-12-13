@@ -13,7 +13,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_Type.hxx>
-#include <TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
 
 IMPLEMENT_STANDARD_TYPE(TCollection_SeqNode)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

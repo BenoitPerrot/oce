@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() Contap_SequenceNodeOfTheSequenceOfLine_Type_()
 #define TCollection_Sequence Contap_TheSequenceOfLine
 #define TCollection_Sequence_hxx <Contap_TheSequenceOfLine.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

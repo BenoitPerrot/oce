@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_SequenceNodeOfSequenceOfTrsf)
 #define TCollection_SequenceNode_Type_() GeomFill_SequenceNodeOfSequenceOfTrsf_Type_()
 #define TCollection_Sequence GeomFill_SequenceOfTrsf
 #define TCollection_Sequence_hxx <GeomFill_SequenceOfTrsf.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

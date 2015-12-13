@@ -61,7 +61,7 @@ IMPLEMENT_STANDARD_RTTI(XSControl_TransferReader)
 #include <IFSelect_SignatureList.hxx>
 #include <Interface_MSG.hxx>
 
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Interface_Macros.hxx>
 
 #include <Transfer_IteratorOfProcessForTransient.hxx>

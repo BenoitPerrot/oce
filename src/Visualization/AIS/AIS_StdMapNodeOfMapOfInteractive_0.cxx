@@ -41,5 +41,5 @@ IMPLEMENT_STANDARD_RTTI(AIS_StdMapNodeOfMapOfInteractive)
 #define TCollection_StdMapNode_Type_() AIS_StdMapNodeOfMapOfInteractive_Type_()
 #define TCollection_Map AIS_MapOfInteractive
 #define TCollection_Map_hxx <AIS_MapOfInteractive.hxx>
-#include <TCollection_StdMapNode.gxx>
+#include <Foundation/TCollection/TCollection_StdMapNode.gxx>
 

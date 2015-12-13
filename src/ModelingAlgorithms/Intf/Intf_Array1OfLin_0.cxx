@@ -16,5 +16,5 @@
 #define Array1Item_hxx <gp_Lin.hxx>
 #define TCollection_Array1 Intf_Array1OfLin
 #define TCollection_Array1_hxx <Intf_Array1OfLin.hxx>
-#include <TCollection_Array1.gxx>
+#include <Foundation/TCollection/TCollection_Array1.gxx>
 

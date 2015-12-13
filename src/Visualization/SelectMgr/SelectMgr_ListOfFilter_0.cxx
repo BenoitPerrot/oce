@@ -21,5 +21,5 @@
 #define TCollection_ListNode_Type_() SelectMgr_ListNodeOfListOfFilter_Type_()
 #define TCollection_List SelectMgr_ListOfFilter
 #define TCollection_List_hxx <SelectMgr_ListOfFilter.hxx>
-#include <TCollection_List.gxx>
+#include <Foundation/TCollection/TCollection_List.gxx>
 

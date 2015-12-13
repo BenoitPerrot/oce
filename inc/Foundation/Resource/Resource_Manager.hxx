@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Resource_Manager.hxx>
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Resource/Resource_DataMapOfAsciiStringAsciiString.hxx>
 #include <Foundation/Resource/Resource_DataMapOfAsciiStringExtendedString.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

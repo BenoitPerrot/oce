@@ -11,8 +11,8 @@
 #include <Handle_Intf_SequenceNodeOfSeqOfSectionPoint.hxx>
 
 #include <Intf_SectionPoint.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class Intf_SectionPoint;
 class Intf_SeqOfSectionPoint;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence Intf_SeqOfSectionPoint
 #define TCollection_Sequence_hxx <Intf_SeqOfSectionPoint.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

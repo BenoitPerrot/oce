@@ -107,7 +107,7 @@ private:
 #define TCollection_List HLRBRep_ListOfBPoint
 #define TCollection_List_hxx <HLRBRep_ListOfBPoint.hxx>
 
-#include <TCollection_List.lxx>
+#include <Foundation/TCollection/TCollection_List.lxx>
 
 #undef Item
 #undef Item_hxx

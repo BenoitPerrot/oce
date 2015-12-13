@@ -41,7 +41,7 @@ IMPLEMENT_STANDARD_RTTI(MDocStd_XLinkStorageDriver)
 #include <TDF_Label.hxx>
 #include <TDocStd_XLink.hxx>
 #include <PDocStd_XLink.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <PCollection_HAsciiString.hxx>
 #include <CDM_MessageDriver.hxx>
 

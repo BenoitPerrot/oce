@@ -31,7 +31,7 @@
 #include <IGESData_UndefinedEntity.hxx>
 #include <Interface_FileParameter.hxx>
 #include <Interface_ParamList.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Interface_Macros.hxx>
 #include <stdio.h>
 

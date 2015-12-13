@@ -16,5 +16,5 @@
 #define Array1Item_hxx <StepRepr_RepresentationItem.hxx>
 #define TCollection_Array1 StepRepr_Array1OfRepresentationItem
 #define TCollection_Array1_hxx <StepRepr_Array1OfRepresentationItem.hxx>
-#include <TCollection_Array1.gxx>
+#include <Foundation/TCollection/TCollection_Array1.gxx>
 

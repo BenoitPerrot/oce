@@ -11,8 +11,8 @@
 #include <Handle_TestTopOpeDraw_ListNodeOfListOfPnt2d.hxx>
 
 #include <gp_Pnt2d.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class gp_Pnt2d;
 class TestTopOpeDraw_ListOfPnt2d;
 class TestTopOpeDraw_ListIteratorOfListOfPnt2d;
@@ -58,7 +58,7 @@ private:
 #define TCollection_List TestTopOpeDraw_ListOfPnt2d
 #define TCollection_List_hxx <TestTopOpeDraw_ListOfPnt2d.hxx>
 
-#include <TCollection_ListNode.lxx>
+#include <Foundation/TCollection/TCollection_ListNode.lxx>
 
 #undef Item
 #undef Item_hxx

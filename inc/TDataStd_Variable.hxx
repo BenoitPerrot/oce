@@ -11,7 +11,7 @@
 #include <Handle_TDataStd_Variable.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TDF_Attribute.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <TDataStd_RealEnum.hxx>

@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(TestTopOpeDraw_HArray1OfDrawableP3D)
 #define TCollection_HArray1_hxx <TestTopOpeDraw_HArray1OfDrawableP3D.hxx>
 #define Handle_TCollection_HArray1 Handle_TestTopOpeDraw_HArray1OfDrawableP3D
 #define TCollection_HArray1_Type_() TestTopOpeDraw_HArray1OfDrawableP3D_Type_()
-#include <TCollection_HArray1.gxx>
+#include <Foundation/TCollection/TCollection_HArray1.gxx>
 

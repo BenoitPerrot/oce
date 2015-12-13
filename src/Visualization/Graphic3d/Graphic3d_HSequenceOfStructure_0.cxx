@@ -36,5 +36,5 @@ IMPLEMENT_STANDARD_RTTI(Graphic3d_HSequenceOfStructure)
 #define TCollection_HSequence_hxx <Graphic3d_HSequenceOfStructure.hxx>
 #define Handle_TCollection_HSequence Handle_Graphic3d_HSequenceOfStructure
 #define TCollection_HSequence_Type_() Graphic3d_HSequenceOfStructure_Type_()
-#include <TCollection_HSequence.gxx>
+#include <Foundation/TCollection/TCollection_HSequence.gxx>
 

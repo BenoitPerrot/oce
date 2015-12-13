@@ -53,7 +53,7 @@
 #include <TDF_Tool.hxx>
 #include <TDF_MapIteratorOfLabelMap.hxx>
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <BRepTools.hxx>
 void LPrintEntry(const TDF_Label&       label)
 {

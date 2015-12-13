@@ -78,7 +78,7 @@
 #include <TopExp.hxx>
 #include <TopExp_Explorer.hxx>
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <BRep_Tool.hxx>
 #include <BRepAdaptor_HSurface.hxx>
 #include <GeomAdaptor_HCurve.hxx>

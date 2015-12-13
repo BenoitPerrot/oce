@@ -27,5 +27,5 @@
 #define TCollection_DataMapNode_Type_() MoniTool_DataMapNodeOfDataMapOfTimer_Type_()
 #define TCollection_DataMap MoniTool_DataMapOfTimer
 #define TCollection_DataMap_hxx <MoniTool_DataMapOfTimer.hxx>
-#include <TCollection_DataMap.gxx>
+#include <Foundation/TCollection/TCollection_DataMap.gxx>
 

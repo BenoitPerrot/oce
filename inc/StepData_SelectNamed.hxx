@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepData_SelectNamed.hxx>
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <StepData_Field.hxx>
 #include <StepData_SelectMember.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

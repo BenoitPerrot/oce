@@ -96,7 +96,7 @@ private:
 #define TCollection_Array1 GccEnt_Array1OfPosition
 #define TCollection_Array1_hxx <GccEnt_Array1OfPosition.hxx>
 
-#include <TCollection_Array1.lxx>
+#include <Foundation/TCollection/TCollection_Array1.lxx>
 
 #undef Array1Item
 #undef Array1Item_hxx

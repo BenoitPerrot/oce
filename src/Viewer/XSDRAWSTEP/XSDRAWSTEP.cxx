@@ -28,7 +28,7 @@
 
 #include <DBRep.hxx>
 
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Interface_Macros.hxx>
 #include <Interface_InterfaceModel.hxx>
 

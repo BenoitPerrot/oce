@@ -17,7 +17,7 @@
 #include <MoniTool_AttrList.hxx>
 #include <MoniTool_IntVal.hxx>
 #include <MoniTool_RealVal.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/Dico/Dico_IteratorOfDictionaryOfTransient.hxx>
 
 MoniTool_AttrList::MoniTool_AttrList ()    {  }

@@ -9,12 +9,12 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
  
 
 #define Array1Item TCollection_AsciiString
-#define Array1Item_hxx <TCollection_AsciiString.hxx>
+#define Array1Item_hxx <Foundation/TCollection/TCollection_AsciiString.hxx>
 #define TCollection_Array1 TColStd_Array1OfAsciiString
 #define TCollection_Array1_hxx <TColStd_Array1OfAsciiString.hxx>
-#include <TCollection_Array1.gxx>
+#include <Foundation/TCollection/TCollection_Array1.gxx>
 

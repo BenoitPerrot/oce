@@ -16,7 +16,7 @@
 #include <Interface_InterfaceModel.hxx>
 #include <TColStd_SequenceOfInteger.hxx>
 #include <IFSelect_ListEditor.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <TColStd_HSequenceOfHAsciiString.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <IFSelect_EditForm.hxx>

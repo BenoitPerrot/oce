@@ -26,5 +26,5 @@
 #define TCollection_DataMapNode_Type_() TopOpeBRepDS_DataMapNodeOfDataMapOfShapeState_Type_()
 #define TCollection_DataMap TopOpeBRepDS_DataMapOfShapeState
 #define TCollection_DataMap_hxx <TopOpeBRepDS_DataMapOfShapeState.hxx>
-#include <TCollection_DataMapIterator.gxx>
+#include <Foundation/TCollection/TCollection_DataMapIterator.gxx>
 

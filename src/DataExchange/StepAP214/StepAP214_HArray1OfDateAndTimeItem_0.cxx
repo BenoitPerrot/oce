@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(StepAP214_HArray1OfDateAndTimeItem)
 #define TCollection_HArray1_hxx <StepAP214_HArray1OfDateAndTimeItem.hxx>
 #define Handle_TCollection_HArray1 Handle_StepAP214_HArray1OfDateAndTimeItem
 #define TCollection_HArray1_Type_() StepAP214_HArray1OfDateAndTimeItem_Type_()
-#include <TCollection_HArray1.gxx>
+#include <Foundation/TCollection/TCollection_HArray1.gxx>
 

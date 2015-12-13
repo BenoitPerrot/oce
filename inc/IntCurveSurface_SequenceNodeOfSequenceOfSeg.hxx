@@ -11,8 +11,8 @@
 #include <Handle_IntCurveSurface_SequenceNodeOfSequenceOfSeg.hxx>
 
 #include <IntCurveSurface_IntersectionSegment.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class IntCurveSurface_IntersectionSegment;
 class IntCurveSurface_SequenceOfSeg;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence IntCurveSurface_SequenceOfSeg
 #define TCollection_Sequence_hxx <IntCurveSurface_SequenceOfSeg.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

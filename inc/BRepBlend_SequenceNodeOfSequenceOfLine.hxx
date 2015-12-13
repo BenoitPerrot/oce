@@ -11,8 +11,8 @@
 #include <Handle_BRepBlend_SequenceNodeOfSequenceOfLine.hxx>
 
 #include <Handle_BRepBlend_Line.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class BRepBlend_Line;
 class BRepBlend_SequenceOfLine;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence BRepBlend_SequenceOfLine
 #define TCollection_Sequence_hxx <BRepBlend_SequenceOfLine.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

@@ -16,5 +16,5 @@
 #define Array1Item_hxx <HLRAlgo_TriangleData.hxx>
 #define TCollection_Array1 HLRAlgo_Array1OfTData
 #define TCollection_Array1_hxx <HLRAlgo_Array1OfTData.hxx>
-#include <TCollection_Array1.gxx>
+#include <Foundation/TCollection/TCollection_Array1.gxx>
 

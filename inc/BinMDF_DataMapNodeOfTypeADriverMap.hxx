@@ -12,8 +12,8 @@
 
 #include <Handle_Standard_Type.hxx>
 #include <Handle_BinMDF_ADriver.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class Standard_Type;
 class BinMDF_ADriver;
 class TColStd_MapTransientHasher;
@@ -68,7 +68,7 @@ private:
 #define TCollection_DataMap BinMDF_TypeADriverMap
 #define TCollection_DataMap_hxx <BinMDF_TypeADriverMap.hxx>
 
-#include <TCollection_DataMapNode.lxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

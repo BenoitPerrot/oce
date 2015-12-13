@@ -24,7 +24,7 @@
 #include <TDF_Label.hxx>
 #include <Draw_Display.hxx>
 #include <Draw_Drawable3D.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TDataStd_TreeNode.hxx>
 #include <DDataStd_TreeBrowser.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -41,9 +41,9 @@ IMPLEMENT_STANDARD_RTTI(DDataStd_TreeBrowser)
 #include <TDF_Tool.hxx>
 #include <TDataStd_Name.hxx>
 #include <TDataStd_TreeNode.hxx>
-#include <TCollection_AsciiString.hxx>
-#include <TCollection_ExtendedString.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <TDF.hxx>
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

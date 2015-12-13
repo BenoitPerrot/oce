@@ -34,5 +34,5 @@ IMPLEMENT_STANDARD_RTTI(TColStd_SequenceNodeOfSequenceOfBoolean)
 #define TCollection_SequenceNode_Type_() TColStd_SequenceNodeOfSequenceOfBoolean_Type_()
 #define TCollection_Sequence TColStd_SequenceOfBoolean
 #define TCollection_Sequence_hxx <TColStd_SequenceOfBoolean.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

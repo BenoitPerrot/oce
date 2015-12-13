@@ -22,5 +22,5 @@
 #define TCollection_IndexedMapNode_Type_() SelectMgr_IndexedMapNodeOfIndexedMapOfOwner_Type_()
 #define TCollection_IndexedMap SelectMgr_IndexedMapOfOwner
 #define TCollection_IndexedMap_hxx <SelectMgr_IndexedMapOfOwner.hxx>
-#include <TCollection_IndexedMap.gxx>
+#include <Foundation/TCollection/TCollection_IndexedMap.gxx>
 

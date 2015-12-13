@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(BRepAdaptor_HArray1OfCurve)
 #define TCollection_HArray1_hxx <BRepAdaptor_HArray1OfCurve.hxx>
 #define Handle_TCollection_HArray1 Handle_BRepAdaptor_HArray1OfCurve
 #define TCollection_HArray1_Type_() BRepAdaptor_HArray1OfCurve_Type_()
-#include <TCollection_HArray1.gxx>
+#include <Foundation/TCollection/TCollection_HArray1.gxx>
 

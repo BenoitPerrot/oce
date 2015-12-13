@@ -28,5 +28,5 @@
 #define TCollection_DataMapNode_Type_() Draft_DataMapNodeOfDataMapOfVertexVertexInfo_Type_()
 #define TCollection_DataMap Draft_DataMapOfVertexVertexInfo
 #define TCollection_DataMap_hxx <Draft_DataMapOfVertexVertexInfo.hxx>
-#include <TCollection_DataMap.gxx>
+#include <Foundation/TCollection/TCollection_DataMap.gxx>
 

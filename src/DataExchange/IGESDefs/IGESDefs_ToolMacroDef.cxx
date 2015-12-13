@@ -30,7 +30,7 @@
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <IGESDefs_ToolMacroDef.hxx>
 #include <IGESData_ParamCursor.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Interface_HArray1OfHAsciiString.hxx>
 #include <IGESData_Dump.hxx>
 #include <Interface_Macros.hxx>

@@ -17,7 +17,7 @@
 #include <MDF_RRelocationTable.hxx>
 #include <PCDM_Document.hxx>
 #include <CDM_Document.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <CDM_MessageDriver.hxx>
 #include <MDocStd_DocumentRetrievalDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

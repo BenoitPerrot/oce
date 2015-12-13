@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() AdvApp2Var_SequenceNodeOfStrip_Type_()
 #define TCollection_Sequence AdvApp2Var_Strip
 #define TCollection_Sequence_hxx <AdvApp2Var_Strip.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

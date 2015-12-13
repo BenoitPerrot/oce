@@ -25,7 +25,7 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <IGESGraph_TextFontDef.hxx>
 #include <gp_Pnt.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <IGESDimen_GeneralNote.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESDimen_GeneralNote)

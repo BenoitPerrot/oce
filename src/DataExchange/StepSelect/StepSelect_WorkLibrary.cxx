@@ -43,7 +43,7 @@ IMPLEMENT_STANDARD_RTTI(StepSelect_WorkLibrary)
 #include <StepData_UndefinedEntity.hxx>
 #include <StepData_StepDumper.hxx>
 
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <TColStd_HSequenceOfInteger.hxx>
 #include <IFSelect_GeneralModifier.hxx>
 #include <Interface_ParamType.hxx>

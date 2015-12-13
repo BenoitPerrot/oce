@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(LocOpe_SequenceNodeOfSequenceOfLin)
 #define TCollection_SequenceNode_Type_() LocOpe_SequenceNodeOfSequenceOfLin_Type_()
 #define TCollection_Sequence LocOpe_SequenceOfLin
 #define TCollection_Sequence_hxx <LocOpe_SequenceOfLin.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

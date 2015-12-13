@@ -28,5 +28,5 @@
 #define TCollection_DataMapNode_Type_() TopOpeBRepTool_DataMapNodeOfDataMapOfShapeface_Type_()
 #define TCollection_DataMap TopOpeBRepTool_DataMapOfShapeface
 #define TCollection_DataMap_hxx <TopOpeBRepTool_DataMapOfShapeface.hxx>
-#include <TCollection_DataMap.gxx>
+#include <Foundation/TCollection/TCollection_DataMap.gxx>
 

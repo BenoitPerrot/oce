@@ -48,7 +48,7 @@
 
 #ifdef OCCT_DEBUG
 extern Standard_Boolean TopOpeBRepDS_GettraceSPSX(const Standard_Integer);
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TopOpeBRepDS.hxx>
 #endif
 

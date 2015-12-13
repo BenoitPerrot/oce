@@ -15,7 +15,7 @@
 
 // Updated:
 
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Font_SystemFont.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Font_SystemFont)
@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_TYPE_END(Font_SystemFont)
 IMPLEMENT_DOWNCAST(Font_SystemFont,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Font_SystemFont)
 #include <Foundation/OSD/OSD_Path.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 #include <stdio.h>
 

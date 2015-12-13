@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_TYPE_END(BinMDataStd_TreeNodeDriver)
 IMPLEMENT_DOWNCAST(BinMDataStd_TreeNodeDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinMDataStd_TreeNodeDriver)
 #include <TDataStd_TreeNode.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 
 //=======================================================================
 //function : BinMDataStd_TreeNodeDriver

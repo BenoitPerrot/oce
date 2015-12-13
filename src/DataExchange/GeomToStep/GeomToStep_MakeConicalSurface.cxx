@@ -23,7 +23,7 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geom_ConicalSurface.hxx>
 #include <StepGeom_ConicalSurface.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <UnitsMethods.hxx>

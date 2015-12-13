@@ -13,8 +13,8 @@
 #include <TopoDS_Shape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <TopOpeBRepDS_ShapeData.hxx>
-#include <TCollection_MapNodePtr.hxx>
-#include <TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
 class TopoDS_Shape;
 class TopOpeBRepDS_ShapeData;
 class TopTools_ShapeMapHasher;
@@ -72,7 +72,7 @@ private:
 #define TCollection_IndexedDataMap TopOpeBRepDS_MapOfShapeData
 #define TCollection_IndexedDataMap_hxx <TopOpeBRepDS_MapOfShapeData.hxx>
 
-#include <TCollection_IndexedDataMapNode.lxx>
+#include <Foundation/TCollection/TCollection_IndexedDataMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

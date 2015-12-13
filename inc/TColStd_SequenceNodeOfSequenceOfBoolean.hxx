@@ -11,8 +11,8 @@
 #include <Handle_TColStd_SequenceNodeOfSequenceOfBoolean.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class TColStd_SequenceOfBoolean;
 
 
@@ -54,7 +54,7 @@ private:
 #define TCollection_Sequence TColStd_SequenceOfBoolean
 #define TCollection_Sequence_hxx <TColStd_SequenceOfBoolean.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

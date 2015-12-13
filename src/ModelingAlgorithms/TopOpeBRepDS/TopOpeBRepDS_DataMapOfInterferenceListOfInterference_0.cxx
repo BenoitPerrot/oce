@@ -28,5 +28,5 @@
 #define TCollection_DataMapNode_Type_() TopOpeBRepDS_DataMapNodeOfDataMapOfInterferenceListOfInterference_Type_()
 #define TCollection_DataMap TopOpeBRepDS_DataMapOfInterferenceListOfInterference
 #define TCollection_DataMap_hxx <TopOpeBRepDS_DataMapOfInterferenceListOfInterference.hxx>
-#include <TCollection_DataMap.gxx>
+#include <Foundation/TCollection/TCollection_DataMap.gxx>
 

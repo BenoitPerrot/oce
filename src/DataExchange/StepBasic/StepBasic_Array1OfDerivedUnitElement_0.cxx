@@ -16,5 +16,5 @@
 #define Array1Item_hxx <StepBasic_DerivedUnitElement.hxx>
 #define TCollection_Array1 StepBasic_Array1OfDerivedUnitElement
 #define TCollection_Array1_hxx <StepBasic_Array1OfDerivedUnitElement.hxx>
-#include <TCollection_Array1.gxx>
+#include <Foundation/TCollection/TCollection_Array1.gxx>
 

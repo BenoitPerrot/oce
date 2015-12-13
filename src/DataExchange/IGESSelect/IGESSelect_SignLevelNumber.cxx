@@ -28,7 +28,7 @@ IMPLEMENT_DOWNCAST(IGESSelect_SignLevelNumber,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESSelect_SignLevelNumber)
 #include <IGESData_IGESEntity.hxx>
 #include <IGESGraph_DefinitionLevel.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Interface_Macros.hxx>
 #include <stdio.h>
 

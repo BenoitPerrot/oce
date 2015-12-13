@@ -72,7 +72,7 @@ private:
 #define TCollection_List BRep_ListOfPointRepresentation
 #define TCollection_List_hxx <BRep_ListOfPointRepresentation.hxx>
 
-#include <TCollection_ListIterator.lxx>
+#include <Foundation/TCollection/TCollection_ListIterator.lxx>
 
 #undef Item
 #undef Item_hxx

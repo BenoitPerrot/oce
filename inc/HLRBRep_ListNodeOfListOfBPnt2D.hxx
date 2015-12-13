@@ -11,8 +11,8 @@
 #include <Handle_HLRBRep_ListNodeOfListOfBPnt2D.hxx>
 
 #include <HLRBRep_BiPnt2D.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class HLRBRep_BiPnt2D;
 class HLRBRep_ListOfBPnt2D;
 class HLRBRep_ListIteratorOfListOfBPnt2D;
@@ -58,7 +58,7 @@ private:
 #define TCollection_List HLRBRep_ListOfBPnt2D
 #define TCollection_List_hxx <HLRBRep_ListOfBPnt2D.hxx>
 
-#include <TCollection_ListNode.lxx>
+#include <Foundation/TCollection/TCollection_ListNode.lxx>
 
 #undef Item
 #undef Item_hxx

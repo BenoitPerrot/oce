@@ -12,8 +12,8 @@
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <TopOpeBRepDS_PointData.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class TopOpeBRepDS_PointData;
 class TColStd_MapIntegerHasher;
 class TopOpeBRepDS_MapOfPoint;
@@ -67,7 +67,7 @@ private:
 #define TCollection_DataMap TopOpeBRepDS_MapOfPoint
 #define TCollection_DataMap_hxx <TopOpeBRepDS_MapOfPoint.hxx>
 
-#include <TCollection_DataMapNode.lxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

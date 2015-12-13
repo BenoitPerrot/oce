@@ -11,8 +11,8 @@
 #include <Handle_Hatch_SequenceNodeOfSequenceOfLine.hxx>
 
 #include <Hatch_Line.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class Hatch_Line;
 class Hatch_SequenceOfLine;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence Hatch_SequenceOfLine
 #define TCollection_Sequence_hxx <Hatch_SequenceOfLine.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

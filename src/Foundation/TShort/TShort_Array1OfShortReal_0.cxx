@@ -15,5 +15,5 @@
 #define Array1Item_hxx <Foundation/Standard/Standard_ShortReal.hxx>
 #define TCollection_Array1 TShort_Array1OfShortReal
 #define TCollection_Array1_hxx <TShort_Array1OfShortReal.hxx>
-#include <TCollection_Array1.gxx>
+#include <Foundation/TCollection/TCollection_Array1.gxx>
 

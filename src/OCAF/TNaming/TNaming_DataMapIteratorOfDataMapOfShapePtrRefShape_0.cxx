@@ -26,5 +26,5 @@
 #define TCollection_DataMapNode_Type_() TNaming_DataMapNodeOfDataMapOfShapePtrRefShape_Type_()
 #define TCollection_DataMap TNaming_DataMapOfShapePtrRefShape
 #define TCollection_DataMap_hxx <TNaming_DataMapOfShapePtrRefShape.hxx>
-#include <TCollection_DataMapIterator.gxx>
+#include <Foundation/TCollection/TCollection_DataMapIterator.gxx>
 

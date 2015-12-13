@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(TopoDS_ListNodeOfListOfShape)
 #define TCollection_ListNode_Type_() TopoDS_ListNodeOfListOfShape_Type_()
 #define TCollection_List TopoDS_ListOfShape
 #define TCollection_List_hxx <TopoDS_ListOfShape.hxx>
-#include <TCollection_ListNode.gxx>
+#include <Foundation/TCollection/TCollection_ListNode.gxx>
 

@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(TopOpeBRepTool_ListNodeOfListOfC2DF)
 #define TCollection_ListNode_Type_() TopOpeBRepTool_ListNodeOfListOfC2DF_Type_()
 #define TCollection_List TopOpeBRepTool_ListOfC2DF
 #define TCollection_List_hxx <TopOpeBRepTool_ListOfC2DF.hxx>
-#include <TCollection_ListNode.gxx>
+#include <Foundation/TCollection/TCollection_ListNode.gxx>
 

@@ -47,5 +47,5 @@ IMPLEMENT_STANDARD_RTTI(PTColStd_DoubleMapNodeOfDoubleMapOfTransientPersistent)
 #define TCollection_DoubleMapNode_Type_() PTColStd_DoubleMapNodeOfDoubleMapOfTransientPersistent_Type_()
 #define TCollection_DoubleMap PTColStd_DoubleMapOfTransientPersistent
 #define TCollection_DoubleMap_hxx <PTColStd_DoubleMapOfTransientPersistent.hxx>
-#include <TCollection_DoubleMapNode.gxx>
+#include <Foundation/TCollection/TCollection_DoubleMapNode.gxx>
 

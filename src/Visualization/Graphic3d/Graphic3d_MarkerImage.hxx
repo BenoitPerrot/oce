@@ -21,7 +21,7 @@
 #include <TColStd_HArray1OfByte.hxx>
 #include <Image_PixMap_Handle.hxx>
 #include <Foundation/Quantity/Quantity_Parameter.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 //! This class is used to store bitmaps and images for markers rendering.
 //! It can convert bitmap texture stored in TColStd_HArray1OfByte to Image_PixMap and vice versa.

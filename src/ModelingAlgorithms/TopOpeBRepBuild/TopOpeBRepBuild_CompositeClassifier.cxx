@@ -19,7 +19,7 @@
 #include <TopoDS_Shape.hxx>
 #include <TopOpeBRepBuild_CompositeClassifier.hxx>
 #include <BRepTools.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 #define MYBB ((TopOpeBRepBuild_BlockBuilder*)myBlockBuilder)
 

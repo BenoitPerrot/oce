@@ -11,8 +11,8 @@
 #include <Handle_TColStd_SequenceNodeOfSequenceOfInteger.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class TColStd_SequenceOfInteger;
 
 
@@ -54,7 +54,7 @@ private:
 #define TCollection_Sequence TColStd_SequenceOfInteger
 #define TCollection_Sequence_hxx <TColStd_SequenceOfInteger.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

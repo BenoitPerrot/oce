@@ -26,7 +26,7 @@
 #include <StepGeom_SurfaceOfLinearExtrusion.hxx>
 #include <StepGeom_Curve.hxx>
 #include <StepGeom_Vector.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 //=============================================================================
 // Creation d' une surface_of_linear_extrusion de prostep a partir d' une

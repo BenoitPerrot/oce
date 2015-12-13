@@ -11,5 +11,5 @@
 #define Key_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TCollection_MapHasher TColStd_MapIntegerHasher
 #define TCollection_MapHasher_hxx <TColStd_MapIntegerHasher.hxx>
-#include <TCollection_MapHasher.gxx>
+#include <Foundation/TCollection/TCollection_MapHasher.gxx>
 

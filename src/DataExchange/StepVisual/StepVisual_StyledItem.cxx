@@ -13,7 +13,7 @@
 
 #include <StepVisual_HArray1OfPresentationStyleAssignment.hxx>
 #include <StepRepr_RepresentationItem.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepVisual_PresentationStyleAssignment.hxx>
 #include <StepVisual_StyledItem.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

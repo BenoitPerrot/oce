@@ -30,5 +30,5 @@
 #define TCollection_DoubleMapNode_Type_() TDF_DoubleMapNodeOfLabelDoubleMap_Type_()
 #define TCollection_DoubleMap TDF_LabelDoubleMap
 #define TCollection_DoubleMap_hxx <TDF_LabelDoubleMap.hxx>
-#include <TCollection_DoubleMap.gxx>
+#include <Foundation/TCollection/TCollection_DoubleMap.gxx>
 

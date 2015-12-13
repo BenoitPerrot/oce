@@ -22,7 +22,7 @@
 #if defined(__cplusplus)
 
 #include <fstream>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 
 //! Function opens the file stream.
 //! @param theStream stream to open

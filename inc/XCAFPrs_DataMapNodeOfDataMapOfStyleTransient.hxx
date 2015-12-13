@@ -12,8 +12,8 @@
 
 #include <XCAFPrs_Style.hxx>
 #include <Handle_Standard_Transient.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class Standard_Transient;
 class XCAFPrs_Style;
 class XCAFPrs_DataMapOfStyleTransient;
@@ -67,7 +67,7 @@ private:
 #define TCollection_DataMap XCAFPrs_DataMapOfStyleTransient
 #define TCollection_DataMap_hxx <XCAFPrs_DataMapOfStyleTransient.hxx>
 
-#include <TCollection_DataMapNode.lxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

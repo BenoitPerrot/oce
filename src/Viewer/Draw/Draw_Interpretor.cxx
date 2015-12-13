@@ -21,8 +21,8 @@
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <TCollection_AsciiString.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/OSD/OSD_Process.hxx>
 #include <Foundation/OSD/OSD_Path.hxx>
 #include <Foundation/OSD/OSD.hxx>

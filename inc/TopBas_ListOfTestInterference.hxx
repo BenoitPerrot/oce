@@ -107,7 +107,7 @@ private:
 #define TCollection_List TopBas_ListOfTestInterference
 #define TCollection_List_hxx <TopBas_ListOfTestInterference.hxx>
 
-#include <TCollection_List.lxx>
+#include <Foundation/TCollection/TCollection_List.lxx>
 
 #undef Item
 #undef Item_hxx

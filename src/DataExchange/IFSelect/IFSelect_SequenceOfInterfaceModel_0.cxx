@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() IFSelect_SequenceNodeOfSequenceOfInterfaceModel_Type_()
 #define TCollection_Sequence IFSelect_SequenceOfInterfaceModel
 #define TCollection_Sequence_hxx <IFSelect_SequenceOfInterfaceModel.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

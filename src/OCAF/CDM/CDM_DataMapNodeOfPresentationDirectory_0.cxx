@@ -8,7 +8,7 @@
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <CDM_Document.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <CDM_PresentationDirectory.hxx>
 #include <CDM_DataMapIteratorOfPresentationDirectory.hxx>
 
@@ -30,11 +30,11 @@ IMPLEMENT_STANDARD_RTTI(CDM_DataMapNodeOfPresentationDirectory)
 
 
 #define TheKey TCollection_ExtendedString
-#define TheKey_hxx <TCollection_ExtendedString.hxx>
+#define TheKey_hxx <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #define TheItem Handle(CDM_Document)
 #define TheItem_hxx <CDM_Document.hxx>
 #define Hasher TCollection_ExtendedString
-#define Hasher_hxx <TCollection_ExtendedString.hxx>
+#define Hasher_hxx <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #define TCollection_DataMapNode CDM_DataMapNodeOfPresentationDirectory
 #define TCollection_DataMapNode_hxx <CDM_DataMapNodeOfPresentationDirectory.hxx>
 #define TCollection_DataMapIterator CDM_DataMapIteratorOfPresentationDirectory
@@ -43,5 +43,5 @@ IMPLEMENT_STANDARD_RTTI(CDM_DataMapNodeOfPresentationDirectory)
 #define TCollection_DataMapNode_Type_() CDM_DataMapNodeOfPresentationDirectory_Type_()
 #define TCollection_DataMap CDM_PresentationDirectory
 #define TCollection_DataMap_hxx <CDM_PresentationDirectory.hxx>
-#include <TCollection_DataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

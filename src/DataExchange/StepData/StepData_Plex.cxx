@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(StepData_Plex)
 IMPLEMENT_DOWNCAST(StepData_Plex,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(StepData_Plex)
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Interface_InterfaceMismatch.hxx>
 
 

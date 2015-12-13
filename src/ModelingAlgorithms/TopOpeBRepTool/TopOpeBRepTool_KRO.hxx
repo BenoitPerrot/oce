@@ -18,7 +18,7 @@
 #define _TopOpeBRepTool_KRO_HeaderFile
 #ifdef OCCT_DEBUG
 #include <Foundation/OSD/OSD_Chronometer.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 
 // POP pour NT

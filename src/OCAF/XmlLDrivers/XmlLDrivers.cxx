@@ -15,7 +15,7 @@
 
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <XmlMDF_ADriverTable.hxx>
 #include <CDM_MessageDriver.hxx>
 #include <XmlLDrivers.hxx>

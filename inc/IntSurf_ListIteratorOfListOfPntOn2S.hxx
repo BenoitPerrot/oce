@@ -71,7 +71,7 @@ private:
 #define TCollection_List IntSurf_ListOfPntOn2S
 #define TCollection_List_hxx <IntSurf_ListOfPntOn2S.hxx>
 
-#include <TCollection_ListIterator.lxx>
+#include <Foundation/TCollection/TCollection_ListIterator.lxx>
 
 #undef Item
 #undef Item_hxx

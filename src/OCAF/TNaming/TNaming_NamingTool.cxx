@@ -29,7 +29,7 @@
 #include <TDF_ChildIterator.hxx>
 
 #ifdef OCCT_DEBUG_DESC
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TDF_Tool.hxx>
 #include <BRepTools.hxx>
 static void WriteS(const TopoDS_Shape& shape,

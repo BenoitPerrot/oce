@@ -16,7 +16,7 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <IGESData_HArray1OfIGESEntity.hxx>
 #include <IGESGraph_TextDisplayTemplate.hxx>
 #include <IGESDraw_HArray1OfConnectPoint.hxx>

@@ -43,5 +43,5 @@ IMPLEMENT_STANDARD_RTTI(XSDRAWSTLVRML_DataMapNodeOfCoordsMap)
 #define TCollection_DataMapNode_Type_() XSDRAWSTLVRML_DataMapNodeOfCoordsMap_Type_()
 #define TCollection_DataMap XSDRAWSTLVRML_CoordsMap
 #define TCollection_DataMap_hxx <XSDRAWSTLVRML_CoordsMap.hxx>
-#include <TCollection_DataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

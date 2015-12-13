@@ -16,7 +16,7 @@
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
 #include <StepDimTol_HArray1OfDatumReference.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepBasic_MeasureWithUnit.hxx>
 #include <StepRepr_ShapeAspect.hxx>
 #include <StepDimTol_GeometricToleranceWithDatumReference.hxx>

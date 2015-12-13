@@ -12,8 +12,8 @@
 
 #include <TopoDS_Shape.hxx>
 #include <HLRTopoBRep_ListOfVData.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class TopoDS_Shape;
 class HLRTopoBRep_ListOfVData;
 class TopTools_ShapeMapHasher;
@@ -68,7 +68,7 @@ private:
 #define TCollection_DataMap HLRTopoBRep_MapOfShapeListOfVData
 #define TCollection_DataMap_hxx <HLRTopoBRep_MapOfShapeListOfVData.hxx>
 
-#include <TCollection_DataMapNode.lxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

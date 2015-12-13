@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(AIS_SequenceNodeOfSequenceOfDimension)
 #define TCollection_SequenceNode_Type_() AIS_SequenceNodeOfSequenceOfDimension_Type_()
 #define TCollection_Sequence AIS_SequenceOfDimension
 #define TCollection_Sequence_hxx <AIS_SequenceOfDimension.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

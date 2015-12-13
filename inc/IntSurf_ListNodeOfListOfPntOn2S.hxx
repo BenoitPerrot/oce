@@ -11,8 +11,8 @@
 #include <Handle_IntSurf_ListNodeOfListOfPntOn2S.hxx>
 
 #include <IntSurf_PntOn2S.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class IntSurf_PntOn2S;
 class IntSurf_ListOfPntOn2S;
 class IntSurf_ListIteratorOfListOfPntOn2S;
@@ -58,7 +58,7 @@ private:
 #define TCollection_List IntSurf_ListOfPntOn2S
 #define TCollection_List_hxx <IntSurf_ListOfPntOn2S.hxx>
 
-#include <TCollection_ListNode.lxx>
+#include <Foundation/TCollection/TCollection_ListNode.lxx>
 
 #undef Item
 #undef Item_hxx

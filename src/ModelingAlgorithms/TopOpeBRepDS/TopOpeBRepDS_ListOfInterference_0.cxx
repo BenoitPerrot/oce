@@ -21,5 +21,5 @@
 #define TCollection_ListNode_Type_() TopOpeBRepDS_ListNodeOfListOfInterference_Type_()
 #define TCollection_List TopOpeBRepDS_ListOfInterference
 #define TCollection_List_hxx <TopOpeBRepDS_ListOfInterference.hxx>
-#include <TCollection_List.gxx>
+#include <Foundation/TCollection/TCollection_List.gxx>
 

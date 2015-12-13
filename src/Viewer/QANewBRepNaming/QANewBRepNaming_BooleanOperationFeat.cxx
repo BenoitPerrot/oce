@@ -60,7 +60,7 @@
 #endif
 
 #ifdef OCCT_DEBUG
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TDF_Tool.hxx>
 #include <BRepTools.hxx>
 #include <TNaming_Tool.hxx>

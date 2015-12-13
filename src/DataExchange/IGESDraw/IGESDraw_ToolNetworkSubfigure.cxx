@@ -34,7 +34,7 @@
 #include <gp_XYZ.hxx>
 #include <IGESDraw_HArray1OfConnectPoint.hxx>
 #include <IGESGraph_TextDisplayTemplate.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <IGESDraw_NetworkSubfigureDef.hxx>
 #include <IGESData_Dump.hxx>
 #include <Interface_Macros.hxx>

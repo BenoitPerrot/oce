@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(StepFEA_SequenceNodeOfSequenceOfCurve3dElementProperty)
 #define TCollection_SequenceNode_Type_() StepFEA_SequenceNodeOfSequenceOfCurve3dElementProperty_Type_()
 #define TCollection_Sequence StepFEA_SequenceOfCurve3dElementProperty
 #define TCollection_Sequence_hxx <StepFEA_SequenceOfCurve3dElementProperty.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

@@ -11,8 +11,8 @@
 #include <Handle_StepFEA_SequenceNodeOfSequenceOfCurve3dElementProperty.hxx>
 
 #include <Handle_StepFEA_Curve3dElementProperty.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class StepFEA_Curve3dElementProperty;
 class StepFEA_SequenceOfCurve3dElementProperty;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence StepFEA_SequenceOfCurve3dElementProperty
 #define TCollection_Sequence_hxx <StepFEA_SequenceOfCurve3dElementProperty.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

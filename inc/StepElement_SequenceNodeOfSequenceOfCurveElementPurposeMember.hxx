@@ -11,8 +11,8 @@
 #include <Handle_StepElement_SequenceNodeOfSequenceOfCurveElementPurposeMember.hxx>
 
 #include <Handle_StepElement_CurveElementPurposeMember.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class StepElement_CurveElementPurposeMember;
 class StepElement_SequenceOfCurveElementPurposeMember;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence StepElement_SequenceOfCurveElementPurposeMember
 #define TCollection_Sequence_hxx <StepElement_SequenceOfCurveElementPurposeMember.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

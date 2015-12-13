@@ -26,5 +26,5 @@
 #define TCollection_IndexedDataMapNode_Type_() TopOpeBRepDS_IndexedDataMapNodeOfIndexedDataMapOfShapeWithState_Type_()
 #define TCollection_IndexedDataMap TopOpeBRepDS_IndexedDataMapOfShapeWithState
 #define TCollection_IndexedDataMap_hxx <TopOpeBRepDS_IndexedDataMapOfShapeWithState.hxx>
-#include <TCollection_IndexedDataMap.gxx>
+#include <Foundation/TCollection/TCollection_IndexedDataMap.gxx>
 

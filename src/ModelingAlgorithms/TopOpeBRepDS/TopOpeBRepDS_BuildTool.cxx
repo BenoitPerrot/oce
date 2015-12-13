@@ -88,7 +88,7 @@
 #include <Extrema_POnCurv.hxx>
 #include <Geom_Curve.hxx>
 #include <Geom_BSplineCurve.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Geom2d_TrimmedCurve.hxx>
 
 #ifdef OCCT_DEBUG

@@ -41,5 +41,5 @@ IMPLEMENT_STANDARD_RTTI(CDM_StdMapNodeOfMapOfDocument)
 #define TCollection_StdMapNode_Type_() CDM_StdMapNodeOfMapOfDocument_Type_()
 #define TCollection_Map CDM_MapOfDocument
 #define TCollection_Map_hxx <CDM_MapOfDocument.hxx>
-#include <TCollection_StdMapNode.gxx>
+#include <Foundation/TCollection/TCollection_StdMapNode.gxx>
 

@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_RTTI(MXCAFDoc_DatumRetrievalDriver)
 #include <PXCAFDoc_Datum.hxx>
 #include <XCAFDoc_Datum.hxx>
 
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <PCollection_HAsciiString.hxx>
 
 

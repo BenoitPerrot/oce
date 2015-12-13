@@ -16,5 +16,5 @@
 #define Array1Item_hxx <IGESSolid_Shell.hxx>
 #define TCollection_Array1 IGESSolid_Array1OfShell
 #define TCollection_Array1_hxx <IGESSolid_Array1OfShell.hxx>
-#include <TCollection_Array1.gxx>
+#include <Foundation/TCollection/TCollection_Array1.gxx>
 

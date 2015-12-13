@@ -16,5 +16,5 @@
 #define Array1Item_hxx <Adaptor3d_HSurface.hxx>
 #define TCollection_Array1 Approx_Array1OfAdHSurface
 #define TCollection_Array1_hxx <Approx_Array1OfAdHSurface.hxx>
-#include <TCollection_Array1.gxx>
+#include <Foundation/TCollection/TCollection_Array1.gxx>
 

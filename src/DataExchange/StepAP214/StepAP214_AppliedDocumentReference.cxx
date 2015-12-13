@@ -13,7 +13,7 @@
 
 #include <StepAP214_HArray1OfDocumentReferenceItem.hxx>
 #include <StepBasic_Document.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepAP214_DocumentReferenceItem.hxx>
 #include <StepAP214_AppliedDocumentReference.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

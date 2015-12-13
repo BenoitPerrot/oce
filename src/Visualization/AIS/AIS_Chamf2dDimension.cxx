@@ -21,7 +21,7 @@
 
 #include <TopoDS_Shape.hxx>
 #include <Geom_Plane.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <gp_Pnt.hxx>
 #include <Prs3d_Presentation.hxx>
 #include <Prs3d_Projector.hxx>
@@ -70,8 +70,8 @@ IMPLEMENT_STANDARD_RTTI(AIS_Chamf2dDimension)
 
 #include <Precision.hxx>
 
-#include <TCollection_AsciiString.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 
 #include <BRepTools_WireExplorer.hxx>
 

@@ -11,8 +11,8 @@
 #include <Handle_TDF_StdMapNodeOfIDMap.hxx>
 
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class Standard_GUID;
 class TDF_IDMap;
 class TDF_MapIteratorOfIDMap;
@@ -60,7 +60,7 @@ private:
 #define TCollection_Map TDF_IDMap
 #define TCollection_Map_hxx <TDF_IDMap.hxx>
 
-#include <TCollection_StdMapNode.lxx>
+#include <Foundation/TCollection/TCollection_StdMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

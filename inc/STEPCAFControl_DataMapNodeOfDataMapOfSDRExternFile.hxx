@@ -12,8 +12,8 @@
 
 #include <Handle_StepShape_ShapeDefinitionRepresentation.hxx>
 #include <Handle_STEPCAFControl_ExternFile.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class StepShape_ShapeDefinitionRepresentation;
 class STEPCAFControl_ExternFile;
 class TColStd_MapTransientHasher;
@@ -68,7 +68,7 @@ private:
 #define TCollection_DataMap STEPCAFControl_DataMapOfSDRExternFile
 #define TCollection_DataMap_hxx <STEPCAFControl_DataMapOfSDRExternFile.hxx>
 
-#include <TCollection_DataMapNode.lxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

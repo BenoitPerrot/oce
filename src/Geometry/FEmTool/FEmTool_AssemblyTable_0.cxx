@@ -16,5 +16,5 @@
 #define Array2Item_hxx <TColStd_HArray1OfInteger.hxx>
 #define TCollection_Array2 FEmTool_AssemblyTable
 #define TCollection_Array2_hxx <FEmTool_AssemblyTable.hxx>
-#include <TCollection_Array2.gxx>
+#include <Foundation/TCollection/TCollection_Array2.gxx>
 

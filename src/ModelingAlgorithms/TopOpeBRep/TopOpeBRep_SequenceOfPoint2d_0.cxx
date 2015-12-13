@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() TopOpeBRep_SequenceNodeOfSequenceOfPoint2d_Type_()
 #define TCollection_Sequence TopOpeBRep_SequenceOfPoint2d
 #define TCollection_Sequence_hxx <TopOpeBRep_SequenceOfPoint2d.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

@@ -30,5 +30,5 @@
 #define TCollection_DoubleMapNode_Type_() QANCollection_DoubleMapNodeOfDoubleMapOfRealInteger_Type_()
 #define TCollection_DoubleMap QANCollection_DoubleMapOfRealInteger
 #define TCollection_DoubleMap_hxx <QANCollection_DoubleMapOfRealInteger.hxx>
-#include <TCollection_DoubleMap.gxx>
+#include <Foundation/TCollection/TCollection_DoubleMap.gxx>
 

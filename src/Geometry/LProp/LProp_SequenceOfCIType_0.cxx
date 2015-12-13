@@ -18,5 +18,5 @@
 #define TCollection_SequenceNode_Type_() LProp_SequenceNodeOfSequenceOfCIType_Type_()
 #define TCollection_Sequence LProp_SequenceOfCIType
 #define TCollection_Sequence_hxx <LProp_SequenceOfCIType.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

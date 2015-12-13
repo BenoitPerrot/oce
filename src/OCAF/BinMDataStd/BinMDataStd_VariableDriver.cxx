@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_TYPE_END(BinMDataStd_VariableDriver)
 IMPLEMENT_DOWNCAST(BinMDataStd_VariableDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinMDataStd_VariableDriver)
 #include <TDataStd_Variable.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 //=======================================================================
 //function : BinMDataStd_VariableDriver

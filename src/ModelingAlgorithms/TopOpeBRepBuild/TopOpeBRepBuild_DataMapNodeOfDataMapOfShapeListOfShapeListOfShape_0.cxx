@@ -44,5 +44,5 @@ IMPLEMENT_STANDARD_RTTI(TopOpeBRepBuild_DataMapNodeOfDataMapOfShapeListOfShapeLi
 #define TCollection_DataMapNode_Type_() TopOpeBRepBuild_DataMapNodeOfDataMapOfShapeListOfShapeListOfShape_Type_()
 #define TCollection_DataMap TopOpeBRepBuild_DataMapOfShapeListOfShapeListOfShape
 #define TCollection_DataMap_hxx <TopOpeBRepBuild_DataMapOfShapeListOfShapeListOfShape.hxx>
-#include <TCollection_DataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

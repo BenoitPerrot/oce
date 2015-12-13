@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(TopTools_ListNodeOfListOfShape)
 #define TCollection_ListNode_Type_() TopTools_ListNodeOfListOfShape_Type_()
 #define TCollection_List TopTools_ListOfShape
 #define TCollection_List_hxx <TopTools_ListOfShape.hxx>
-#include <TCollection_ListNode.gxx>
+#include <Foundation/TCollection/TCollection_ListNode.gxx>
 

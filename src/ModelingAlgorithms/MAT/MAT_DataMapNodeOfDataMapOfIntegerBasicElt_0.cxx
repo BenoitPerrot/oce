@@ -43,5 +43,5 @@ IMPLEMENT_STANDARD_RTTI(MAT_DataMapNodeOfDataMapOfIntegerBasicElt)
 #define TCollection_DataMapNode_Type_() MAT_DataMapNodeOfDataMapOfIntegerBasicElt_Type_()
 #define TCollection_DataMap MAT_DataMapOfIntegerBasicElt
 #define TCollection_DataMap_hxx <MAT_DataMapOfIntegerBasicElt.hxx>
-#include <TCollection_DataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

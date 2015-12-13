@@ -23,7 +23,7 @@
 
 #include <Precision.hxx>
 
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 
 #include <gp_Lin.hxx>
 #include <gp_Circ.hxx>

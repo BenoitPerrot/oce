@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(TDF_ListNodeOfLabelList)
 #define TCollection_ListNode_Type_() TDF_ListNodeOfLabelList_Type_()
 #define TCollection_List TDF_LabelList
 #define TCollection_List_hxx <TDF_LabelList.hxx>
-#include <TCollection_ListNode.gxx>
+#include <Foundation/TCollection/TCollection_ListNode.gxx>
 

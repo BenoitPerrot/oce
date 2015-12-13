@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(BRepBlend_SequenceNodeOfSequenceOfLine)
 #define TCollection_SequenceNode_Type_() BRepBlend_SequenceNodeOfSequenceOfLine_Type_()
 #define TCollection_Sequence BRepBlend_SequenceOfLine
 #define TCollection_Sequence_hxx <BRepBlend_SequenceOfLine.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

@@ -36,5 +36,5 @@ IMPLEMENT_STANDARD_RTTI(Storage_HSeqOfRoot)
 #define TCollection_HSequence_hxx <Foundation/Storage/Storage_HSeqOfRoot.hxx>
 #define Handle_TCollection_HSequence Handle_Storage_HSeqOfRoot
 #define TCollection_HSequence_Type_() Storage_HSeqOfRoot_Type_()
-#include <TCollection_HSequence.gxx>
+#include <Foundation/TCollection/TCollection_HSequence.gxx>
 

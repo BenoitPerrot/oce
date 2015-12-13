@@ -34,7 +34,7 @@
 #include <gp_Pnt.hxx>
 #include <IGESData_IGESEntity.hxx>
 #include <IGESGraph_TextDisplayTemplate.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <IGESData_Dump.hxx>
 #include <Interface_Macros.hxx>
 

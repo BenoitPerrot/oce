@@ -40,7 +40,7 @@ IMPLEMENT_STANDARD_RTTI(RWHeaderSection_GeneralModule)
 #include <RWHeaderSection.hxx>
 
 #include <Interface_HArray1OfHAsciiString.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 
 #include <HeaderSection_FileName.hxx>

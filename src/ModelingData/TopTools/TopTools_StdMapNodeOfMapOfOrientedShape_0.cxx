@@ -41,5 +41,5 @@ IMPLEMENT_STANDARD_RTTI(TopTools_StdMapNodeOfMapOfOrientedShape)
 #define TCollection_StdMapNode_Type_() TopTools_StdMapNodeOfMapOfOrientedShape_Type_()
 #define TCollection_Map TopTools_MapOfOrientedShape
 #define TCollection_Map_hxx <TopTools_MapOfOrientedShape.hxx>
-#include <TCollection_StdMapNode.gxx>
+#include <Foundation/TCollection/TCollection_StdMapNode.gxx>
 

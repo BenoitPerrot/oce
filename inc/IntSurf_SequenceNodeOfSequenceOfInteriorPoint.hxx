@@ -11,8 +11,8 @@
 #include <Handle_IntSurf_SequenceNodeOfSequenceOfInteriorPoint.hxx>
 
 #include <IntSurf_InteriorPoint.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class IntSurf_InteriorPoint;
 class IntSurf_SequenceOfInteriorPoint;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence IntSurf_SequenceOfInteriorPoint
 #define TCollection_Sequence_hxx <IntSurf_SequenceOfInteriorPoint.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

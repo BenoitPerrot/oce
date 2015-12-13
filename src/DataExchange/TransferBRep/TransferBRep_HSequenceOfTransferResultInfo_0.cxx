@@ -36,5 +36,5 @@ IMPLEMENT_STANDARD_RTTI(TransferBRep_HSequenceOfTransferResultInfo)
 #define TCollection_HSequence_hxx <TransferBRep_HSequenceOfTransferResultInfo.hxx>
 #define Handle_TCollection_HSequence Handle_TransferBRep_HSequenceOfTransferResultInfo
 #define TCollection_HSequence_Type_() TransferBRep_HSequenceOfTransferResultInfo_Type_()
-#include <TCollection_HSequence.gxx>
+#include <Foundation/TCollection/TCollection_HSequence.gxx>
 

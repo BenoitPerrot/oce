@@ -107,7 +107,7 @@ private:
 #define TCollection_List BRepOffset_ListOfInterval
 #define TCollection_List_hxx <BRepOffset_ListOfInterval.hxx>
 
-#include <TCollection_List.lxx>
+#include <Foundation/TCollection/TCollection_List.lxx>
 
 #undef Item
 #undef Item_hxx

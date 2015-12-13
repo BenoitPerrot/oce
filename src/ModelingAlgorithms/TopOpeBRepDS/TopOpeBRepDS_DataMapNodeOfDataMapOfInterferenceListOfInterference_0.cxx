@@ -44,5 +44,5 @@ IMPLEMENT_STANDARD_RTTI(TopOpeBRepDS_DataMapNodeOfDataMapOfInterferenceListOfInt
 #define TCollection_DataMapNode_Type_() TopOpeBRepDS_DataMapNodeOfDataMapOfInterferenceListOfInterference_Type_()
 #define TCollection_DataMap TopOpeBRepDS_DataMapOfInterferenceListOfInterference
 #define TCollection_DataMap_hxx <TopOpeBRepDS_DataMapOfInterferenceListOfInterference.hxx>
-#include <TCollection_DataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

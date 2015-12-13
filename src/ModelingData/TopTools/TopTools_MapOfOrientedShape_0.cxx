@@ -23,5 +23,5 @@
 #define TCollection_StdMapNode_Type_() TopTools_StdMapNodeOfMapOfOrientedShape_Type_()
 #define TCollection_Map TopTools_MapOfOrientedShape
 #define TCollection_Map_hxx <TopTools_MapOfOrientedShape.hxx>
-#include <TCollection_Map.gxx>
+#include <Foundation/TCollection/TCollection_Map.gxx>
 

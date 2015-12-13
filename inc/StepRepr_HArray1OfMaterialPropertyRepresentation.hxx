@@ -78,7 +78,7 @@ private:
 #define Handle_TCollection_HArray1 Handle_StepRepr_HArray1OfMaterialPropertyRepresentation
 #define TCollection_HArray1_Type_() StepRepr_HArray1OfMaterialPropertyRepresentation_Type_()
 
-#include <TCollection_HArray1.lxx>
+#include <Foundation/TCollection/TCollection_HArray1.lxx>
 
 #undef ItemHArray1
 #undef ItemHArray1_hxx

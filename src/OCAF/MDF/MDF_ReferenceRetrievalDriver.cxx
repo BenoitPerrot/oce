@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(MDF_ReferenceRetrievalDriver)
 #include <PCollection_HAsciiString.hxx>
 #include <PDF_Reference.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TDF_Label.hxx>
 #include <TDF_Tool.hxx>
 #include <TDF_Reference.hxx>

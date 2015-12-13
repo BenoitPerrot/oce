@@ -11,8 +11,8 @@
 #include <Handle_IntTools_ListNodeOfListOfBox.hxx>
 
 #include <Bnd_Box.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class Bnd_Box;
 class IntTools_ListOfBox;
 class IntTools_ListIteratorOfListOfBox;
@@ -58,7 +58,7 @@ private:
 #define TCollection_List IntTools_ListOfBox
 #define TCollection_List_hxx <IntTools_ListOfBox.hxx>
 
-#include <TCollection_ListNode.lxx>
+#include <Foundation/TCollection/TCollection_ListNode.lxx>
 
 #undef Item
 #undef Item_hxx

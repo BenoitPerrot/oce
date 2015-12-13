@@ -11,8 +11,8 @@
 #include <Handle_IntRes2d_SequenceNodeOfSequenceOfIntersectionSegment.hxx>
 
 #include <IntRes2d_IntersectionSegment.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class IntRes2d_IntersectionSegment;
 class IntRes2d_SequenceOfIntersectionSegment;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence IntRes2d_SequenceOfIntersectionSegment
 #define TCollection_Sequence_hxx <IntRes2d_SequenceOfIntersectionSegment.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

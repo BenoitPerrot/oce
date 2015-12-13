@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(Plate_SequenceNodeOfSequenceOfLinearScalarConstraint)
 #define TCollection_SequenceNode_Type_() Plate_SequenceNodeOfSequenceOfLinearScalarConstraint_Type_()
 #define TCollection_Sequence Plate_SequenceOfLinearScalarConstraint
 #define TCollection_Sequence_hxx <Plate_SequenceOfLinearScalarConstraint.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

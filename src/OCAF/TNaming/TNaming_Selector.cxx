@@ -43,7 +43,7 @@
 #ifdef OCCT_DEBUG_SEL
 //#define MDTV_DEB_BNP
 #include <TopExp_Explorer.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TNaming_Tool.hxx>
 #include <BRep_Tool.hxx>
 #include <TopoDS.hxx>

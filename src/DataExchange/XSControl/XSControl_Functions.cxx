@@ -25,7 +25,7 @@
 #include <IFSelect_Act.hxx>
 #include <IFSelect_SessionPilot.hxx>
 #include <IFSelect_Functions.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <TColStd_HSequenceOfHAsciiString.hxx>
 
 #include <Interface_InterfaceModel.hxx>

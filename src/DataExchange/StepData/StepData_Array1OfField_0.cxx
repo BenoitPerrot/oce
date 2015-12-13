@@ -16,5 +16,5 @@
 #define Array1Item_hxx <StepData_Field.hxx>
 #define TCollection_Array1 StepData_Array1OfField
 #define TCollection_Array1_hxx <StepData_Array1OfField.hxx>
-#include <TCollection_Array1.gxx>
+#include <Foundation/TCollection/TCollection_Array1.gxx>
 

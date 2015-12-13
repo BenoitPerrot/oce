@@ -26,5 +26,5 @@
 #define TCollection_IndexedDataMapNode_Type_() StdSelect_IndexedDataMapNodeOfIndexedDataMapOfOwnerPrs_Type_()
 #define TCollection_IndexedDataMap StdSelect_IndexedDataMapOfOwnerPrs
 #define TCollection_IndexedDataMap_hxx <StdSelect_IndexedDataMapOfOwnerPrs.hxx>
-#include <TCollection_IndexedDataMap.gxx>
+#include <Foundation/TCollection/TCollection_IndexedDataMap.gxx>
 

@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Plugin/Plugin_MapOfFunctions.hxx>
 #include <Foundation/Plugin/Plugin_DataMapIteratorOfMapOfFunctions.hxx>
 
@@ -29,11 +29,11 @@ IMPLEMENT_STANDARD_RTTI(Plugin_DataMapNodeOfMapOfFunctions)
 
 
 #define TheKey TCollection_AsciiString
-#define TheKey_hxx <TCollection_AsciiString.hxx>
+#define TheKey_hxx <Foundation/TCollection/TCollection_AsciiString.hxx>
 #define TheItem OSD_Function
 #define TheItem_hxx <Foundation/OSD/OSD_Function.hxx>
 #define Hasher TCollection_AsciiString
-#define Hasher_hxx <TCollection_AsciiString.hxx>
+#define Hasher_hxx <Foundation/TCollection/TCollection_AsciiString.hxx>
 #define TCollection_DataMapNode Plugin_DataMapNodeOfMapOfFunctions
 #define TCollection_DataMapNode_hxx <Foundation/Plugin/Plugin_DataMapNodeOfMapOfFunctions.hxx>
 #define TCollection_DataMapIterator Plugin_DataMapIteratorOfMapOfFunctions
@@ -42,5 +42,5 @@ IMPLEMENT_STANDARD_RTTI(Plugin_DataMapNodeOfMapOfFunctions)
 #define TCollection_DataMapNode_Type_() Plugin_DataMapNodeOfMapOfFunctions_Type_()
 #define TCollection_DataMap Plugin_MapOfFunctions
 #define TCollection_DataMap_hxx <Foundation/Plugin/Plugin_MapOfFunctions.hxx>
-#include <TCollection_DataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

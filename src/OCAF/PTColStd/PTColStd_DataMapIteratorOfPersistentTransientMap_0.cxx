@@ -27,5 +27,5 @@
 #define TCollection_DataMapNode_Type_() PTColStd_DataMapNodeOfPersistentTransientMap_Type_()
 #define TCollection_DataMap PTColStd_PersistentTransientMap
 #define TCollection_DataMap_hxx <PTColStd_PersistentTransientMap.hxx>
-#include <TCollection_DataMapIterator.gxx>
+#include <Foundation/TCollection/TCollection_DataMapIterator.gxx>
 

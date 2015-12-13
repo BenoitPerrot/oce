@@ -23,10 +23,10 @@
 #include <HeaderSection_FileDescription.hxx>
 #include <StepData_StepModel.hxx>
 #include <Interface_Protocol.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Interface_HArray1OfHAsciiString.hxx>
 #include <APIHeaderSection_MakeHeader.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Interface_EntityIterator.hxx>
 
 #include <HeaderSection_FileSchema.hxx>

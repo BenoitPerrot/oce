@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_RTTI(Transfer_Binder)
 #include <Transfer_VoidBinder.hxx>
 #include <Transfer_TransferFailure.hxx>
 
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Interface_IntVal.hxx>
 #include <Geom2d_CartesianPoint.hxx>
 

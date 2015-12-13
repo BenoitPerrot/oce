@@ -27,7 +27,7 @@
 #include <BRepClass3d.hxx>
 #include <Transfer_FinderProcess.hxx>
 #include <TransferBRep_ShapeMapper.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 #include <StepShape_ClosedShell.hxx>
 #include <StepShape_OpenShell.hxx>

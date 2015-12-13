@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TColStd_HSequenceOfAsciiString.hxx>
 #include <IFSelect_SessionPilot.hxx>
 #include <IFSelect_Activator.hxx>
@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(IFSelect_Activator)
 
 #include <IFSelect_Profile.hxx>
 #include <IFSelect_Option.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 #include <Interface_Macros.hxx>
 

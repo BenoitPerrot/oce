@@ -31,7 +31,7 @@ IMPLEMENT_DOWNCAST(MDataStd_AsciiStringStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDataStd_AsciiStringStorageDriver)
 #include <PDataStd_AsciiString.hxx>
 #include <TDataStd_AsciiString.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <PCollection_HAsciiString.hxx>
 #include <CDM_MessageDriver.hxx>
 //=======================================================================

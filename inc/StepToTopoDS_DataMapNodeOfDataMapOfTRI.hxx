@@ -12,8 +12,8 @@
 
 #include <Handle_StepShape_TopologicalRepresentationItem.hxx>
 #include <TopoDS_Shape.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class StepShape_TopologicalRepresentationItem;
 class TopoDS_Shape;
 class TColStd_MapTransientHasher;
@@ -68,7 +68,7 @@ private:
 #define TCollection_DataMap StepToTopoDS_DataMapOfTRI
 #define TCollection_DataMap_hxx <StepToTopoDS_DataMapOfTRI.hxx>
 
-#include <TCollection_DataMapNode.lxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(NLPlate_SequenceNodeOfSequenceOfHGPPConstraint)
 #define TCollection_SequenceNode_Type_() NLPlate_SequenceNodeOfSequenceOfHGPPConstraint_Type_()
 #define TCollection_Sequence NLPlate_SequenceOfHGPPConstraint
 #define TCollection_Sequence_hxx <NLPlate_SequenceOfHGPPConstraint.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

@@ -14,7 +14,7 @@
 #include <TColStd_HArray1OfInteger.hxx>
 #include <TColStd_HSequenceOfAsciiString.hxx>
 #include <Interface_BitMap.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 
 Interface_BitMap::Interface_BitMap()

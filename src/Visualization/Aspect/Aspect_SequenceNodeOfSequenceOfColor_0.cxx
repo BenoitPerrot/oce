@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(Aspect_SequenceNodeOfSequenceOfColor)
 #define TCollection_SequenceNode_Type_() Aspect_SequenceNodeOfSequenceOfColor_Type_()
 #define TCollection_Sequence Aspect_SequenceOfColor
 #define TCollection_Sequence_hxx <Aspect_SequenceOfColor.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

@@ -71,7 +71,7 @@ private:
 #define TCollection_List Message_ListOfMsg
 #define TCollection_List_hxx <Foundation/Message/Message_ListOfMsg.hxx>
 
-#include <TCollection_ListIterator.lxx>
+#include <Foundation/TCollection/TCollection_ListIterator.lxx>
 
 #undef Item
 #undef Item_hxx

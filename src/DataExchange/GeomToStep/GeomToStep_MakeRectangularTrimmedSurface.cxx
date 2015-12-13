@@ -22,7 +22,7 @@
 
 #include <GeomToStep_MakeSurface.hxx>
 #include <StepGeom_Surface.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 #include <Geom_CylindricalSurface.hxx>
 #include <Geom_ConicalSurface.hxx>

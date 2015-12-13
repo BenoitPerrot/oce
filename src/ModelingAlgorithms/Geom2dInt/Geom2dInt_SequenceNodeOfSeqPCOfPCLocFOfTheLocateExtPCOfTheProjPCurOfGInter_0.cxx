@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(Geom2dInt_SequenceNodeOfSeqPCOfPCLocFOfTheLocateExtPCOfT
 #define TCollection_SequenceNode_Type_() Geom2dInt_SequenceNodeOfSeqPCOfPCLocFOfTheLocateExtPCOfTheProjPCurOfGInter_Type_()
 #define TCollection_Sequence Geom2dInt_SeqPCOfPCLocFOfTheLocateExtPCOfTheProjPCurOfGInter
 #define TCollection_Sequence_hxx <Geom2dInt_SeqPCOfPCLocFOfTheLocateExtPCOfTheProjPCurOfGInter.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

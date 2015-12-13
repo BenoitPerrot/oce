@@ -17,7 +17,7 @@
 //--------------------------------------------------------------------
 
 #include <IGESData_IGESEntity.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <IGESGraph_TextDisplayTemplate.hxx>
 #include <gp_XYZ.hxx>
 #include <gp_Pnt.hxx>

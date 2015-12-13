@@ -11,8 +11,8 @@
 #include <Handle_Convert_SequenceNodeOfSequenceOfArray1OfPoles.hxx>
 
 #include <Handle_TColgp_HArray1OfPnt.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class TColgp_HArray1OfPnt;
 class Convert_SequenceOfArray1OfPoles;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence Convert_SequenceOfArray1OfPoles
 #define TCollection_Sequence_hxx <Convert_SequenceOfArray1OfPoles.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

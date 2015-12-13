@@ -16,5 +16,5 @@
 #define Array1Item_hxx <AppParCurves_MultiBSpCurve.hxx>
 #define TCollection_Array1 AppParCurves_Array1OfMultiBSpCurve
 #define TCollection_Array1_hxx <AppParCurves_Array1OfMultiBSpCurve.hxx>
-#include <TCollection_Array1.gxx>
+#include <Foundation/TCollection/TCollection_Array1.gxx>
 

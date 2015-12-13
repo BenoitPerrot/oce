@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(IntSurf_SequenceNodeOfSequenceOfCouple)
 #define TCollection_SequenceNode_Type_() IntSurf_SequenceNodeOfSequenceOfCouple_Type_()
 #define TCollection_Sequence IntSurf_SequenceOfCouple
 #define TCollection_Sequence_hxx <IntSurf_SequenceOfCouple.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

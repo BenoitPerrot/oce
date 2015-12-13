@@ -11,8 +11,8 @@
 #include <Handle_Interface_SequenceNodeOfSequenceOfCheck.hxx>
 
 #include <Handle_Interface_Check.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class Interface_Check;
 class Interface_SequenceOfCheck;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence Interface_SequenceOfCheck
 #define TCollection_Sequence_hxx <Interface_SequenceOfCheck.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

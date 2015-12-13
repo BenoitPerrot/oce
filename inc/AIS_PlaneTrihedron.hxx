@@ -12,7 +12,7 @@
 
 #include <Handle_Geom_Plane.hxx>
 #include <Handle_AIS_InteractiveObject.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <AIS_InteractiveObject.hxx>
 #include <Handle_AIS_Line.hxx>
 #include <Handle_AIS_Point.hxx>

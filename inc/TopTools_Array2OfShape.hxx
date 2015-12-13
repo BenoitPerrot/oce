@@ -104,7 +104,7 @@ private:
 #define TCollection_Array2 TopTools_Array2OfShape
 #define TCollection_Array2_hxx <TopTools_Array2OfShape.hxx>
 
-#include <TCollection_Array2.lxx>
+#include <Foundation/TCollection/TCollection_Array2.lxx>
 
 #undef Array2Item
 #undef Array2Item_hxx

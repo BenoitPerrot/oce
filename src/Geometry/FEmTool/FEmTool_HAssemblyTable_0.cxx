@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(FEmTool_HAssemblyTable)
 #define TCollection_HArray2_hxx <FEmTool_HAssemblyTable.hxx>
 #define Handle_TCollection_HArray2 Handle_FEmTool_HAssemblyTable
 #define TCollection_HArray2_Type_() FEmTool_HAssemblyTable_Type_()
-#include <TCollection_HArray2.gxx>
+#include <Foundation/TCollection/TCollection_HArray2.gxx>
 

@@ -44,5 +44,5 @@ IMPLEMENT_STANDARD_RTTI(LocOpe_DataMapNodeOfDataMapOfShapePnt)
 #define TCollection_DataMapNode_Type_() LocOpe_DataMapNodeOfDataMapOfShapePnt_Type_()
 #define TCollection_DataMap LocOpe_DataMapOfShapePnt
 #define TCollection_DataMap_hxx <LocOpe_DataMapOfShapePnt.hxx>
-#include <TCollection_DataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

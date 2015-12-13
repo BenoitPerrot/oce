@@ -14,7 +14,7 @@
 #include <Foundation/Dico/Dico_DictionaryOfTransient.hxx>
 #include <MoniTool_Option.hxx>
 #include <TColStd_HSequenceOfAsciiString.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <MoniTool_Profile.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -26,7 +26,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(MoniTool_Profile)
 IMPLEMENT_DOWNCAST(MoniTool_Profile,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MoniTool_Profile)
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/Dico/Dico_IteratorOfDictionaryOfTransient.hxx>
 #include <MoniTool_TypedValue.hxx>
 

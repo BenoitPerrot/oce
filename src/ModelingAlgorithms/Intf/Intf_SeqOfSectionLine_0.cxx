@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() Intf_SequenceNodeOfSeqOfSectionLine_Type_()
 #define TCollection_Sequence Intf_SeqOfSectionLine
 #define TCollection_Sequence_hxx <Intf_SeqOfSectionLine.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

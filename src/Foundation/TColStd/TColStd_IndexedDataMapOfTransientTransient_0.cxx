@@ -25,5 +25,5 @@
 #define TCollection_IndexedDataMapNode_Type_() TColStd_IndexedDataMapNodeOfIndexedDataMapOfTransientTransient_Type_()
 #define TCollection_IndexedDataMap TColStd_IndexedDataMapOfTransientTransient
 #define TCollection_IndexedDataMap_hxx <TColStd_IndexedDataMapOfTransientTransient.hxx>
-#include <TCollection_IndexedDataMap.gxx>
+#include <Foundation/TCollection/TCollection_IndexedDataMap.gxx>
 

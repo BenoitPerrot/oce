@@ -12,8 +12,8 @@
 
 #include <Handle_Standard_Type.hxx>
 #include <MDF_DriverListOfARDriverTable.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class Standard_Type;
 class MDF_DriverListOfARDriverTable;
 class TColStd_MapTransientHasher;
@@ -68,7 +68,7 @@ private:
 #define TCollection_DataMap MDF_TypeDriverListMapOfARDriverTable
 #define TCollection_DataMap_hxx <MDF_TypeDriverListMapOfARDriverTable.hxx>
 
-#include <TCollection_DataMapNode.lxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

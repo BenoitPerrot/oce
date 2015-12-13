@@ -97,7 +97,7 @@ private:
 #define TCollection_Array1 IGESDraw_Array1OfConnectPoint
 #define TCollection_Array1_hxx <IGESDraw_Array1OfConnectPoint.hxx>
 
-#include <TCollection_Array1.lxx>
+#include <Foundation/TCollection/TCollection_Array1.lxx>
 
 #undef Array1Item
 #undef Array1Item_hxx

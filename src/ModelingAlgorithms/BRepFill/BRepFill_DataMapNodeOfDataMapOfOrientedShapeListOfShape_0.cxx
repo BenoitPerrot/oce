@@ -44,5 +44,5 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_DataMapNodeOfDataMapOfOrientedShapeListOfShape)
 #define TCollection_DataMapNode_Type_() BRepFill_DataMapNodeOfDataMapOfOrientedShapeListOfShape_Type_()
 #define TCollection_DataMap BRepFill_DataMapOfOrientedShapeListOfShape
 #define TCollection_DataMap_hxx <BRepFill_DataMapOfOrientedShapeListOfShape.hxx>
-#include <TCollection_DataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

@@ -36,5 +36,5 @@ IMPLEMENT_STANDARD_RTTI(GeomPlate_HSequenceOfPointConstraint)
 #define TCollection_HSequence_hxx <GeomPlate_HSequenceOfPointConstraint.hxx>
 #define Handle_TCollection_HSequence Handle_GeomPlate_HSequenceOfPointConstraint
 #define TCollection_HSequence_Type_() GeomPlate_HSequenceOfPointConstraint_Type_()
-#include <TCollection_HSequence.gxx>
+#include <Foundation/TCollection/TCollection_HSequence.gxx>
 

@@ -107,7 +107,7 @@ private:
 #define TCollection_List IntTools_ListOfSurfaceRangeSample
 #define TCollection_List_hxx <IntTools_ListOfSurfaceRangeSample.hxx>
 
-#include <TCollection_List.lxx>
+#include <Foundation/TCollection/TCollection_List.lxx>
 
 #undef Item
 #undef Item_hxx

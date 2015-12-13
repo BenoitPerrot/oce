@@ -44,5 +44,5 @@ IMPLEMENT_STANDARD_RTTI(StepToTopoDS_DataMapNodeOfDataMapOfRI)
 #define TCollection_DataMapNode_Type_() StepToTopoDS_DataMapNodeOfDataMapOfRI_Type_()
 #define TCollection_DataMap StepToTopoDS_DataMapOfRI
 #define TCollection_DataMap_hxx <StepToTopoDS_DataMapOfRI.hxx>
-#include <TCollection_DataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

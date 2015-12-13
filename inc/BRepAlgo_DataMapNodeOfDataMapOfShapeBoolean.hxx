@@ -12,8 +12,8 @@
 
 #include <TopoDS_Shape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class TopoDS_Shape;
 class TopTools_ShapeMapHasher;
 class BRepAlgo_DataMapOfShapeBoolean;
@@ -67,7 +67,7 @@ private:
 #define TCollection_DataMap BRepAlgo_DataMapOfShapeBoolean
 #define TCollection_DataMap_hxx <BRepAlgo_DataMapOfShapeBoolean.hxx>
 
-#include <TCollection_DataMapNode.lxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

@@ -26,5 +26,5 @@
 #define TCollection_DataMapNode_Type_() MAT_DataMapNodeOfDataMapOfIntegerBisector_Type_()
 #define TCollection_DataMap MAT_DataMapOfIntegerBisector
 #define TCollection_DataMap_hxx <MAT_DataMapOfIntegerBisector.hxx>
-#include <TCollection_DataMapIterator.gxx>
+#include <Foundation/TCollection/TCollection_DataMapIterator.gxx>
 

@@ -16,5 +16,5 @@
 #define Array1Item_hxx <Extrema_POnSurf.hxx>
 #define TCollection_Array1 Extrema_Array1OfPOnSurf
 #define TCollection_Array1_hxx <Extrema_Array1OfPOnSurf.hxx>
-#include <TCollection_Array1.gxx>
+#include <Foundation/TCollection/TCollection_Array1.gxx>
 

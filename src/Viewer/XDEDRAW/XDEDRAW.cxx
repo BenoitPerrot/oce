@@ -16,10 +16,10 @@
 #include <XDEDRAW.hxx>
 #include <stdio.h>
 
-#include <TCollection_ExtendedString.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TColStd_HSequenceOfExtendedString.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 
 #include <TopoDS_Shape.hxx>

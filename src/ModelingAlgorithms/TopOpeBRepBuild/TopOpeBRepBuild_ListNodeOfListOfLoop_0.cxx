@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(TopOpeBRepBuild_ListNodeOfListOfLoop)
 #define TCollection_ListNode_Type_() TopOpeBRepBuild_ListNodeOfListOfLoop_Type_()
 #define TCollection_List TopOpeBRepBuild_ListOfLoop
 #define TCollection_List_hxx <TopOpeBRepBuild_ListOfLoop.hxx>
-#include <TCollection_ListNode.gxx>
+#include <Foundation/TCollection/TCollection_ListNode.gxx>
 

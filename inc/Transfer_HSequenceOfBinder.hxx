@@ -101,7 +101,7 @@ private:
 #define Handle_TCollection_HSequence Handle_Transfer_HSequenceOfBinder
 #define TCollection_HSequence_Type_() Transfer_HSequenceOfBinder_Type_()
 
-#include <TCollection_HSequence.lxx>
+#include <Foundation/TCollection/TCollection_HSequence.lxx>
 
 #undef Item
 #undef Item_hxx

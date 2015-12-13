@@ -12,7 +12,7 @@
 
 #include <Handle_XmlMDF_ADriverTable.hxx>
 #include <XmlLDrivers_SequenceOfNamespaceDef.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <XmlObjMgt_SRelocationTable.hxx>
 #include <PCDM_StorageDriver.hxx>
 #include <Handle_CDM_Document.hxx>

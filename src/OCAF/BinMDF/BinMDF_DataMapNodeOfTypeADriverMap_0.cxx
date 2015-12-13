@@ -44,5 +44,5 @@ IMPLEMENT_STANDARD_RTTI(BinMDF_DataMapNodeOfTypeADriverMap)
 #define TCollection_DataMapNode_Type_() BinMDF_DataMapNodeOfTypeADriverMap_Type_()
 #define TCollection_DataMap BinMDF_TypeADriverMap
 #define TCollection_DataMap_hxx <BinMDF_TypeADriverMap.hxx>
-#include <TCollection_DataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

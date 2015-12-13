@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <TDataStd_DataMapOfStringByte.hxx>
 #include <TDataStd_DataMapIteratorOfDataMapOfStringByte.hxx>
 
@@ -29,11 +29,11 @@ IMPLEMENT_STANDARD_RTTI(TDataStd_DataMapNodeOfDataMapOfStringByte)
 
 
 #define TheKey TCollection_ExtendedString
-#define TheKey_hxx <TCollection_ExtendedString.hxx>
+#define TheKey_hxx <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #define TheItem Standard_Byte
 #define TheItem_hxx <Foundation/Standard/Standard_Byte.hxx>
 #define Hasher TCollection_ExtendedString
-#define Hasher_hxx <TCollection_ExtendedString.hxx>
+#define Hasher_hxx <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #define TCollection_DataMapNode TDataStd_DataMapNodeOfDataMapOfStringByte
 #define TCollection_DataMapNode_hxx <TDataStd_DataMapNodeOfDataMapOfStringByte.hxx>
 #define TCollection_DataMapIterator TDataStd_DataMapIteratorOfDataMapOfStringByte
@@ -42,5 +42,5 @@ IMPLEMENT_STANDARD_RTTI(TDataStd_DataMapNodeOfDataMapOfStringByte)
 #define TCollection_DataMapNode_Type_() TDataStd_DataMapNodeOfDataMapOfStringByte_Type_()
 #define TCollection_DataMap TDataStd_DataMapOfStringByte
 #define TCollection_DataMap_hxx <TDataStd_DataMapOfStringByte.hxx>
-#include <TCollection_DataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

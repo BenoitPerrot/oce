@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() Extrema_SequenceNodeOfSequenceOfPOnSurf_Type_()
 #define TCollection_Sequence Extrema_SequenceOfPOnSurf
 #define TCollection_Sequence_hxx <Extrema_SequenceOfPOnSurf.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

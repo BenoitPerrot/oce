@@ -16,5 +16,5 @@
 #define Array1Item_hxx <TestTopOpeDraw_DrawableMesure.hxx>
 #define TCollection_Array1 TestTopOpeDraw_Array1OfDrawableMesure
 #define TCollection_Array1_hxx <TestTopOpeDraw_Array1OfDrawableMesure.hxx>
-#include <TCollection_Array1.gxx>
+#include <Foundation/TCollection/TCollection_Array1.gxx>
 

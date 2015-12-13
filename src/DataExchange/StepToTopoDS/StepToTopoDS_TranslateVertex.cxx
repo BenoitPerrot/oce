@@ -38,7 +38,7 @@
 #include <Precision.hxx>
 
 // For I-DEAS-like processing (ssv; 15.11.2010)
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 // ============================================================================
 // Method  : StepToTopoDS_TranslateVertex::StepToTopoDS_TranslateVertex

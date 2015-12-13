@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TDocStd_XLink.hxx>
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TDocStd_XLinkPtr.hxx>
 #include <TDF_Attribute.hxx>
 #include <Handle_TDF_Reference.hxx>

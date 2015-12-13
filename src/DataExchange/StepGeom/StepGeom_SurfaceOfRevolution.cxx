@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <StepGeom_Axis1Placement.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepGeom_Curve.hxx>
 #include <StepGeom_SurfaceOfRevolution.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

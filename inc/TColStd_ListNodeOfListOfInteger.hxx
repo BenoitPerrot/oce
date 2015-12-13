@@ -11,8 +11,8 @@
 #include <Handle_TColStd_ListNodeOfListOfInteger.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class TColStd_ListOfInteger;
 class TColStd_ListIteratorOfListOfInteger;
 
@@ -57,7 +57,7 @@ private:
 #define TCollection_List TColStd_ListOfInteger
 #define TCollection_List_hxx <TColStd_ListOfInteger.hxx>
 
-#include <TCollection_ListNode.lxx>
+#include <Foundation/TCollection/TCollection_ListNode.lxx>
 
 #undef Item
 #undef Item_hxx

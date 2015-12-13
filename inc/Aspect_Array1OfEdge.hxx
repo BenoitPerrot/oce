@@ -96,7 +96,7 @@ private:
 #define TCollection_Array1 Aspect_Array1OfEdge
 #define TCollection_Array1_hxx <Aspect_Array1OfEdge.hxx>
 
-#include <TCollection_Array1.lxx>
+#include <Foundation/TCollection/TCollection_Array1.lxx>
 
 #undef Array1Item
 #undef Array1Item_hxx

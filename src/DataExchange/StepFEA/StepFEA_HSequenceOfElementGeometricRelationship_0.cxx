@@ -36,5 +36,5 @@ IMPLEMENT_STANDARD_RTTI(StepFEA_HSequenceOfElementGeometricRelationship)
 #define TCollection_HSequence_hxx <StepFEA_HSequenceOfElementGeometricRelationship.hxx>
 #define Handle_TCollection_HSequence Handle_StepFEA_HSequenceOfElementGeometricRelationship
 #define TCollection_HSequence_Type_() StepFEA_HSequenceOfElementGeometricRelationship_Type_()
-#include <TCollection_HSequence.gxx>
+#include <Foundation/TCollection/TCollection_HSequence.gxx>
 

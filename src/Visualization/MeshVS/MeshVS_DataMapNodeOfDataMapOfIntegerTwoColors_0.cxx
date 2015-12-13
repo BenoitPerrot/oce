@@ -42,5 +42,5 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_DataMapNodeOfDataMapOfIntegerTwoColors)
 #define TCollection_DataMapNode_Type_() MeshVS_DataMapNodeOfDataMapOfIntegerTwoColors_Type_()
 #define TCollection_DataMap MeshVS_DataMapOfIntegerTwoColors
 #define TCollection_DataMap_hxx <MeshVS_DataMapOfIntegerTwoColors.hxx>
-#include <TCollection_DataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

@@ -11,8 +11,8 @@
 #include <Handle_Aspect_ColorScale.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <TCollection_ExtendedString.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Aspect_TypeOfColorScaleData.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

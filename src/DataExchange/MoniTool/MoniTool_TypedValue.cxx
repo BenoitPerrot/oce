@@ -14,10 +14,10 @@
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <TColStd_HArray1OfAsciiString.hxx>
 #include <Foundation/Dico/Dico_DictionaryOfInteger.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <TColStd_HSequenceOfAsciiString.hxx>
 #include <Foundation/Dico/Dico_DictionaryOfTransient.hxx>

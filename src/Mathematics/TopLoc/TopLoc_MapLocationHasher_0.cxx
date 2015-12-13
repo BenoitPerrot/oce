@@ -12,5 +12,5 @@
 #define Key_hxx <TopLoc_Location.hxx>
 #define TCollection_MapHasher TopLoc_MapLocationHasher
 #define TCollection_MapHasher_hxx <TopLoc_MapLocationHasher.hxx>
-#include <TCollection_MapHasher.gxx>
+#include <Foundation/TCollection/TCollection_MapHasher.gxx>
 

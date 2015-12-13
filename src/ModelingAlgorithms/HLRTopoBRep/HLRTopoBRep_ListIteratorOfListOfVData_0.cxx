@@ -22,5 +22,5 @@
 #define TCollection_ListNode_Type_() HLRTopoBRep_ListNodeOfListOfVData_Type_()
 #define TCollection_List HLRTopoBRep_ListOfVData
 #define TCollection_List_hxx <HLRTopoBRep_ListOfVData.hxx>
-#include <TCollection_ListIterator.gxx>
+#include <Foundation/TCollection/TCollection_ListIterator.gxx>
 

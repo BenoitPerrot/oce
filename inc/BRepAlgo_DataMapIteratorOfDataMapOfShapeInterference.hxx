@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <TCollection_BasicMapIterator.hxx>
+#include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
 #include <Handle_TopOpeBRepDS_Interference.hxx>
 #include <Handle_BRepAlgo_DataMapNodeOfDataMapOfShapeInterference.hxx>
 class Standard_NoSuchObject;

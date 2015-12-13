@@ -13,7 +13,7 @@
 #include <Interface_Graph.hxx>
 #include <Handle_Interface_Protocol.hxx>
 #include <Handle_Interface_CopyControl.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Interface_CheckIterator.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Interface_UndefinedContent.hxx>
 #include <StepData_UndefinedEntity.hxx>
 #include <StepData_StepReaderData.hxx>
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_TYPE_END(StepData_UndefinedEntity)
 IMPLEMENT_DOWNCAST(StepData_UndefinedEntity,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(StepData_UndefinedEntity)
 #include <Interface_ParamType.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Interface_Macros.hxx>
 
 

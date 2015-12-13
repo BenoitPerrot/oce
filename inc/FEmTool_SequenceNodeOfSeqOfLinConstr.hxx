@@ -11,8 +11,8 @@
 #include <Handle_FEmTool_SequenceNodeOfSeqOfLinConstr.hxx>
 
 #include <FEmTool_ListOfVectors.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class FEmTool_ListOfVectors;
 class FEmTool_SeqOfLinConstr;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence FEmTool_SeqOfLinConstr
 #define TCollection_Sequence_hxx <FEmTool_SeqOfLinConstr.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() BRepFill_SequenceNodeOfSequenceOfSection_Type_()
 #define TCollection_Sequence BRepFill_SequenceOfSection
 #define TCollection_Sequence_hxx <BRepFill_SequenceOfSection.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

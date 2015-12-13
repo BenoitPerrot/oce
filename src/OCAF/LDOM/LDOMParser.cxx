@@ -23,7 +23,7 @@
 #include <LDOM_XmlReader.hxx>
 #include <LDOM_BasicText.hxx>
 #include <LDOM_CharReference.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 
 #include <fcntl.h>
 #ifdef WNT

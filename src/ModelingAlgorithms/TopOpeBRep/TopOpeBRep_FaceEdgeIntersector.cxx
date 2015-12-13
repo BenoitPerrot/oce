@@ -37,7 +37,7 @@
 #include <TopAbs.hxx>
 extern Standard_Boolean TopOpeBRep_GettraceFITOL();
 extern Standard_Boolean TopOpeBRep_GettraceSAVFF();
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <BRepTools.hxx>
 static void SAVFE(const TopoDS_Face& F1,const TopoDS_Edge& E)

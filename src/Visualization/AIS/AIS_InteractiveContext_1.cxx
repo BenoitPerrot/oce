@@ -37,7 +37,7 @@
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <AIS_Drawer.hxx>
 #include <TColStd_ListOfInteger.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Prs3d_LineAspect.hxx>
 #include <Prs3d_BasicAspect.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>
@@ -48,7 +48,7 @@
 #include <SelectMgr_Filter.hxx>
 #include <SelectMgr_ListOfFilter.hxx>
 #include <AIS_ListOfInteractive.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <AIS_InteractiveContext.hxx>
 #include <SelectMgr_EntityOwner.hxx>
 #include <AIS_Selection.hxx>

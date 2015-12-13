@@ -20,7 +20,7 @@
 #include <Foundation/Storage/Storage_Root.hxx>
 #include <Foundation/Storage/Storage_RootData.hxx>
 #include <Foundation/Storage/Storage_Schema.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 IMPLEMENT_STANDARD_TYPE(Storage_RootData)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -17,7 +17,7 @@
 #ifndef _TestTopOpeDraw_Displayer_HeaderFile
 #define _TestTopOpeDraw_Displayer_HeaderFile
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopoDS.hxx>
 #include <TopAbs_Orientation.hxx>

@@ -16,5 +16,5 @@
 #define Array1Item_hxx <TColStd_SequenceOfReal.hxx>
 #define TCollection_Array1 GeomPlate_Array1OfSequenceOfReal
 #define TCollection_Array1_hxx <GeomPlate_Array1OfSequenceOfReal.hxx>
-#include <TCollection_Array1.gxx>
+#include <Foundation/TCollection/TCollection_Array1.gxx>
 

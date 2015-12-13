@@ -7,19 +7,19 @@
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Draw_IndexedMapNodeOfMapOfAsciiString.hxx>
  
 
 #define TheKey TCollection_AsciiString
-#define TheKey_hxx <TCollection_AsciiString.hxx>
+#define TheKey_hxx <Foundation/TCollection/TCollection_AsciiString.hxx>
 #define Hasher TCollection_AsciiString
-#define Hasher_hxx <TCollection_AsciiString.hxx>
+#define Hasher_hxx <Foundation/TCollection/TCollection_AsciiString.hxx>
 #define TCollection_IndexedMapNode Draw_IndexedMapNodeOfMapOfAsciiString
 #define TCollection_IndexedMapNode_hxx <Draw_IndexedMapNodeOfMapOfAsciiString.hxx>
 #define Handle_TCollection_IndexedMapNode Handle_Draw_IndexedMapNodeOfMapOfAsciiString
 #define TCollection_IndexedMapNode_Type_() Draw_IndexedMapNodeOfMapOfAsciiString_Type_()
 #define TCollection_IndexedMap Draw_MapOfAsciiString
 #define TCollection_IndexedMap_hxx <Draw_MapOfAsciiString.hxx>
-#include <TCollection_IndexedMap.gxx>
+#include <Foundation/TCollection/TCollection_IndexedMap.gxx>
 

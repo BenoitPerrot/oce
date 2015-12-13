@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TColStd_ListOfAsciiString.hxx>
 #include <TColStd_ListIteratorOfListOfAsciiString.hxx>
 
@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_RTTI(TColStd_ListNodeOfListOfAsciiString)
 
 
 #define Item TCollection_AsciiString
-#define Item_hxx <TCollection_AsciiString.hxx>
+#define Item_hxx <Foundation/TCollection/TCollection_AsciiString.hxx>
 #define TCollection_ListNode TColStd_ListNodeOfListOfAsciiString
 #define TCollection_ListNode_hxx <TColStd_ListNodeOfListOfAsciiString.hxx>
 #define TCollection_ListIterator TColStd_ListIteratorOfListOfAsciiString
@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(TColStd_ListNodeOfListOfAsciiString)
 #define TCollection_ListNode_Type_() TColStd_ListNodeOfListOfAsciiString_Type_()
 #define TCollection_List TColStd_ListOfAsciiString
 #define TCollection_List_hxx <TColStd_ListOfAsciiString.hxx>
-#include <TCollection_ListNode.gxx>
+#include <Foundation/TCollection/TCollection_ListNode.gxx>
 

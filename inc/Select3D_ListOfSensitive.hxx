@@ -108,7 +108,7 @@ private:
 #define TCollection_List Select3D_ListOfSensitive
 #define TCollection_List_hxx <Select3D_ListOfSensitive.hxx>
 
-#include <TCollection_List.lxx>
+#include <Foundation/TCollection/TCollection_List.lxx>
 
 #undef Item
 #undef Item_hxx

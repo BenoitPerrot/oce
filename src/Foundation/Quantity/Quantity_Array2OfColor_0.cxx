@@ -16,5 +16,5 @@
 #define Array2Item_hxx <Foundation/Quantity/Quantity_Color.hxx>
 #define TCollection_Array2 Quantity_Array2OfColor
 #define TCollection_Array2_hxx <Foundation/Quantity/Quantity_Array2OfColor.hxx>
-#include <TCollection_Array2.gxx>
+#include <Foundation/TCollection/TCollection_Array2.gxx>
 

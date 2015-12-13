@@ -16,13 +16,13 @@
 
 #include <Prs3d_Presentation.hxx>
 #include <Prs3d_Drawer.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <gp_Pnt.hxx>
 #include <Prs3d_TextAspect.hxx>
 #include <Prs3d_Text.hxx>
 #include <Graphic3d_Vertex.hxx>
 #include <Prs3d_TextAspect.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Graphic3d_Group.hxx>
 
 void Prs3d_Text::Draw (

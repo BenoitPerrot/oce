@@ -69,7 +69,7 @@ private:
 };
 
 #define ItemHArray1 TCollection_ExtendedString
-#define ItemHArray1_hxx <TCollection_ExtendedString.hxx>
+#define ItemHArray1_hxx <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #define TheArray1 TColStd_Array1OfExtendedString
 #define TheArray1_hxx <TColStd_Array1OfExtendedString.hxx>
 #define TCollection_HArray1 TColStd_HArray1OfExtendedString
@@ -77,7 +77,7 @@ private:
 #define Handle_TCollection_HArray1 Handle_TColStd_HArray1OfExtendedString
 #define TCollection_HArray1_Type_() TColStd_HArray1OfExtendedString_Type_()
 
-#include <TCollection_HArray1.lxx>
+#include <Foundation/TCollection/TCollection_HArray1.lxx>
 
 #undef ItemHArray1
 #undef ItemHArray1_hxx

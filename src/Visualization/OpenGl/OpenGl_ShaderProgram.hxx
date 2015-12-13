@@ -18,7 +18,7 @@
 
 #include <Foundation/NCollection/NCollection_DataMap.hxx>
 #include <Foundation/NCollection/NCollection_Sequence.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 #include <Graphic3d_ShaderObject.hxx>
 #include <Graphic3d_ShaderProgram.hxx>

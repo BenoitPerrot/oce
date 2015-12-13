@@ -16,5 +16,5 @@
 #define Array1Item_hxx <HLRBRep_EdgeData.hxx>
 #define TCollection_Array1 HLRBRep_Array1OfEData
 #define TCollection_Array1_hxx <HLRBRep_Array1OfEData.hxx>
-#include <TCollection_Array1.gxx>
+#include <Foundation/TCollection/TCollection_Array1.gxx>
 

@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() AppParCurves_SequenceNodeOfSequenceOfMultiCurve_Type_()
 #define TCollection_Sequence AppParCurves_SequenceOfMultiCurve
 #define TCollection_Sequence_hxx <AppParCurves_SequenceOfMultiCurve.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

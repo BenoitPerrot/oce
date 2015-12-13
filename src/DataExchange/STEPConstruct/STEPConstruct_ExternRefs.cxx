@@ -20,7 +20,7 @@
 #include <StepBasic_ApplicationProtocolDefinition.hxx>
 #include <XSControl_WorkSession.hxx>
 #include <StepBasic_ProductDefinition.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepAP214_AppliedDocumentReference.hxx>
 #include <StepBasic_DocumentFile.hxx>
 #include <STEPConstruct_ExternRefs.hxx>
@@ -64,7 +64,7 @@
 #include <StepBasic_ApplicationContext.hxx>
 #include <StepRepr_CharacterizedDefinition.hxx>
 #include <StepRepr_RepresentedDefinition.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepRepr_NextAssemblyUsageOccurrence.hxx>
 #include <StepAP203_CcDesignPersonAndOrganizationAssignment.hxx>
 #include <StepAP203_HArray1OfPersonOrganizationItem.hxx>

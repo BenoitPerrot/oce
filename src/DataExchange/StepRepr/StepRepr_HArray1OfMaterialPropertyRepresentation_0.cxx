@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(StepRepr_HArray1OfMaterialPropertyRepresentation)
 #define TCollection_HArray1_hxx <StepRepr_HArray1OfMaterialPropertyRepresentation.hxx>
 #define Handle_TCollection_HArray1 Handle_StepRepr_HArray1OfMaterialPropertyRepresentation
 #define TCollection_HArray1_Type_() StepRepr_HArray1OfMaterialPropertyRepresentation_Type_()
-#include <TCollection_HArray1.gxx>
+#include <Foundation/TCollection/TCollection_HArray1.gxx>
 

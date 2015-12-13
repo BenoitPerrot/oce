@@ -11,8 +11,8 @@
 #include <Handle_StepFEA_SequenceNodeOfSequenceOfElementRepresentation.hxx>
 
 #include <Handle_StepFEA_ElementRepresentation.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class StepFEA_ElementRepresentation;
 class StepFEA_SequenceOfElementRepresentation;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence StepFEA_SequenceOfElementRepresentation
 #define TCollection_Sequence_hxx <StepFEA_SequenceOfElementRepresentation.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

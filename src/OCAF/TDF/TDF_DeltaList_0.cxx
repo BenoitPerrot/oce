@@ -21,5 +21,5 @@
 #define TCollection_ListNode_Type_() TDF_ListNodeOfDeltaList_Type_()
 #define TCollection_List TDF_DeltaList
 #define TCollection_List_hxx <TDF_DeltaList.hxx>
-#include <TCollection_List.gxx>
+#include <Foundation/TCollection/TCollection_List.gxx>
 

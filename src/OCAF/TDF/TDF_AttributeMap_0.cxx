@@ -23,5 +23,5 @@
 #define TCollection_StdMapNode_Type_() TDF_StdMapNodeOfAttributeMap_Type_()
 #define TCollection_Map TDF_AttributeMap
 #define TCollection_Map_hxx <TDF_AttributeMap.hxx>
-#include <TCollection_Map.gxx>
+#include <Foundation/TCollection/TCollection_Map.gxx>
 

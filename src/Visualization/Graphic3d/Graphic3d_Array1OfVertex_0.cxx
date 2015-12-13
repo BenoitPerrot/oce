@@ -15,5 +15,5 @@
 #define Array1Item_hxx <Graphic3d_Vertex.hxx>
 #define TCollection_Array1 Graphic3d_Array1OfVertex
 #define TCollection_Array1_hxx <Graphic3d_Array1OfVertex.hxx>
-#include <TCollection_Array1.gxx>
+#include <Foundation/TCollection/TCollection_Array1.gxx>
 

@@ -23,5 +23,5 @@
 #define TCollection_StdMapNode_Type_() Graphic3d_StdMapNodeOfMapOfStructure_Type_()
 #define TCollection_Map Graphic3d_MapOfStructure
 #define TCollection_Map_hxx <Graphic3d_MapOfStructure.hxx>
-#include <TCollection_Map.gxx>
+#include <Foundation/TCollection/TCollection_Map.gxx>
 

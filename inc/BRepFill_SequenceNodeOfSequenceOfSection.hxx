@@ -11,8 +11,8 @@
 #include <Handle_BRepFill_SequenceNodeOfSequenceOfSection.hxx>
 
 #include <BRepFill_Section.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class BRepFill_Section;
 class BRepFill_SequenceOfSection;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence BRepFill_SequenceOfSection
 #define TCollection_Sequence_hxx <BRepFill_SequenceOfSection.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

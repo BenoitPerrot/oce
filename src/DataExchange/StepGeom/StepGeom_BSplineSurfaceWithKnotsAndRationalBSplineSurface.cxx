@@ -13,7 +13,7 @@
 
 #include <StepGeom_BSplineSurfaceWithKnots.hxx>
 #include <StepGeom_RationalBSplineSurface.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepGeom_HArray2OfCartesianPoint.hxx>
 #include <TColStd_HArray1OfInteger.hxx>
 #include <TColStd_HArray1OfReal.hxx>

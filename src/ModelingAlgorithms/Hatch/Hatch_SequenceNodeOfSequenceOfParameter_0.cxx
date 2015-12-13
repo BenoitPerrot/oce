@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(Hatch_SequenceNodeOfSequenceOfParameter)
 #define TCollection_SequenceNode_Type_() Hatch_SequenceNodeOfSequenceOfParameter_Type_()
 #define TCollection_Sequence Hatch_SequenceOfParameter
 #define TCollection_Sequence_hxx <Hatch_SequenceOfParameter.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

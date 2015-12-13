@@ -10,10 +10,10 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Storage_IndexedDataMapNodeOfPType.hxx>
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <TCollection_MapNodePtr.hxx>
-#include <TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
 class TCollection_AsciiString;
 class Storage_PType;
 
@@ -57,11 +57,11 @@ private:
 };
 
 #define TheKey TCollection_AsciiString
-#define TheKey_hxx <TCollection_AsciiString.hxx>
+#define TheKey_hxx <Foundation/TCollection/TCollection_AsciiString.hxx>
 #define TheItem Standard_Integer
 #define TheItem_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define Hasher TCollection_AsciiString
-#define Hasher_hxx <TCollection_AsciiString.hxx>
+#define Hasher_hxx <Foundation/TCollection/TCollection_AsciiString.hxx>
 #define TCollection_IndexedDataMapNode Storage_IndexedDataMapNodeOfPType
 #define TCollection_IndexedDataMapNode_hxx <Foundation/Storage/Storage_IndexedDataMapNodeOfPType.hxx>
 #define Handle_TCollection_IndexedDataMapNode Handle_Storage_IndexedDataMapNodeOfPType
@@ -69,7 +69,7 @@ private:
 #define TCollection_IndexedDataMap Storage_PType
 #define TCollection_IndexedDataMap_hxx <Foundation/Storage/Storage_PType.hxx>
 
-#include <TCollection_IndexedDataMapNode.lxx>
+#include <Foundation/TCollection/TCollection_IndexedDataMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

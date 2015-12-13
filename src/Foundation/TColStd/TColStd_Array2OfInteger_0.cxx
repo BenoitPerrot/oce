@@ -15,5 +15,5 @@
 #define Array2Item_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TCollection_Array2 TColStd_Array2OfInteger
 #define TCollection_Array2_hxx <TColStd_Array2OfInteger.hxx>
-#include <TCollection_Array2.gxx>
+#include <Foundation/TCollection/TCollection_Array2.gxx>
 

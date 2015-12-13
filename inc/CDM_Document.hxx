@@ -11,7 +11,7 @@
 #include <Handle_CDM_Document.hxx>
 
 #include <TColStd_SequenceOfExtendedString.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <CDM_ListOfReferences.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

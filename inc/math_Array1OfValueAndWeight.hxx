@@ -96,7 +96,7 @@ private:
 #define TCollection_Array1 math_Array1OfValueAndWeight
 #define TCollection_Array1_hxx <math_Array1OfValueAndWeight.hxx>
 
-#include <TCollection_Array1.lxx>
+#include <Foundation/TCollection/TCollection_Array1.lxx>
 
 #undef Array1Item
 #undef Array1Item_hxx

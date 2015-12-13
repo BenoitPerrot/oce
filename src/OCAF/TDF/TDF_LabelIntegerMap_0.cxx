@@ -27,5 +27,5 @@
 #define TCollection_DataMapNode_Type_() TDF_DataMapNodeOfLabelIntegerMap_Type_()
 #define TCollection_DataMap TDF_LabelIntegerMap
 #define TCollection_DataMap_hxx <TDF_LabelIntegerMap.hxx>
-#include <TCollection_DataMap.gxx>
+#include <Foundation/TCollection/TCollection_DataMap.gxx>
 

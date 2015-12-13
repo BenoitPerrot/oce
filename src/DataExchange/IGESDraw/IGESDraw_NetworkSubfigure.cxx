@@ -17,7 +17,7 @@
 //--------------------------------------------------------------------
 
 #include <IGESDraw_NetworkSubfigureDef.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <IGESGraph_TextDisplayTemplate.hxx>
 #include <IGESDraw_HArray1OfConnectPoint.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>

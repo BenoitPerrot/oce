@@ -7,18 +7,18 @@
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Storage/Storage_TypedCallBack.hxx>
 #include <Foundation/Storage/Storage_DataMapNodeOfMapOfCallBack.hxx>
 #include <Foundation/Storage/Storage_DataMapIteratorOfMapOfCallBack.hxx>
  
 
 #define TheKey TCollection_AsciiString
-#define TheKey_hxx <TCollection_AsciiString.hxx>
+#define TheKey_hxx <Foundation/TCollection/TCollection_AsciiString.hxx>
 #define TheItem Handle(Storage_TypedCallBack)
 #define TheItem_hxx <Foundation/Storage/Storage_TypedCallBack.hxx>
 #define Hasher TCollection_AsciiString
-#define Hasher_hxx <TCollection_AsciiString.hxx>
+#define Hasher_hxx <Foundation/TCollection/TCollection_AsciiString.hxx>
 #define TCollection_DataMapNode Storage_DataMapNodeOfMapOfCallBack
 #define TCollection_DataMapNode_hxx <Foundation/Storage/Storage_DataMapNodeOfMapOfCallBack.hxx>
 #define TCollection_DataMapIterator Storage_DataMapIteratorOfMapOfCallBack
@@ -27,5 +27,5 @@
 #define TCollection_DataMapNode_Type_() Storage_DataMapNodeOfMapOfCallBack_Type_()
 #define TCollection_DataMap Storage_MapOfCallBack
 #define TCollection_DataMap_hxx <Foundation/Storage/Storage_MapOfCallBack.hxx>
-#include <TCollection_DataMap.gxx>
+#include <Foundation/TCollection/TCollection_DataMap.gxx>
 

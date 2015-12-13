@@ -13,7 +13,7 @@
 
 #include <StepGeom_CartesianPoint.hxx>
 #include <StepGeom_Vector.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepGeom_Line.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepGeom_Line)

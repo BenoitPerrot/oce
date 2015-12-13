@@ -26,7 +26,7 @@
 
 #include <StepBasic_ProductDefinitionFormationWithSpecifiedSource.hxx>
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 
 // --- Enum : Source ---

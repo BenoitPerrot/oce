@@ -11,8 +11,8 @@
 #include <Handle_ExprIntrp_ListNodeOfStackOfGeneralRelation.hxx>
 
 #include <Handle_Expr_GeneralRelation.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class Expr_GeneralRelation;
 class ExprIntrp_StackOfGeneralRelation;
 class ExprIntrp_ListIteratorOfStackOfGeneralRelation;
@@ -58,7 +58,7 @@ private:
 #define TCollection_List ExprIntrp_StackOfGeneralRelation
 #define TCollection_List_hxx <ExprIntrp_StackOfGeneralRelation.hxx>
 
-#include <TCollection_ListNode.lxx>
+#include <Foundation/TCollection/TCollection_ListNode.lxx>
 
 #undef Item
 #undef Item_hxx

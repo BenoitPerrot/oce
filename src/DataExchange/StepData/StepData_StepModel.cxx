@@ -19,7 +19,7 @@
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <Interface_Check.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepData_StepModel.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepData_StepModel)

@@ -27,5 +27,5 @@
 #define TCollection_DataMapNode_Type_() MAT2d_DataMapNodeOfDataMapOfBiIntSequenceOfInteger_Type_()
 #define TCollection_DataMap MAT2d_DataMapOfBiIntSequenceOfInteger
 #define TCollection_DataMap_hxx <MAT2d_DataMapOfBiIntSequenceOfInteger.hxx>
-#include <TCollection_DataMapIterator.gxx>
+#include <Foundation/TCollection/TCollection_DataMapIterator.gxx>
 

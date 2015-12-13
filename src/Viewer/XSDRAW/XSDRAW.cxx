@@ -21,11 +21,11 @@
 #include <Transfer_FinderProcess.hxx>
 #include <XSControl_TransferReader.hxx>
 #include <TColStd_HSequenceOfTransient.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TopTools_HSequenceOfShape.hxx>
 #include <XSDRAW.hxx>
 #include <Foundation/Dico/Dico_DictionaryOfInteger.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TColStd_HSequenceOfAsciiString.hxx>
 #include <IFSelect_Functions.hxx>
 #include <IFSelect_SessionPilot.hxx>

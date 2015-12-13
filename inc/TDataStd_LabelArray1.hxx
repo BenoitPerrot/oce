@@ -96,7 +96,7 @@ private:
 #define TCollection_Array1 TDataStd_LabelArray1
 #define TCollection_Array1_hxx <TDataStd_LabelArray1.hxx>
 
-#include <TCollection_Array1.lxx>
+#include <Foundation/TCollection/TCollection_Array1.lxx>
 
 #undef Array1Item
 #undef Array1Item_hxx

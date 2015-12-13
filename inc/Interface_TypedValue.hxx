@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Interface_TypedValue.hxx>
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Handle_Standard_Type.hxx>
 #include <Handle_TColStd_HArray1OfAsciiString.hxx>
 #include <Handle_Dico_DictionaryOfInteger.hxx>

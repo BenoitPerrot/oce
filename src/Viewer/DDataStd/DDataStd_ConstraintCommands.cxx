@@ -33,7 +33,7 @@
 #include <TDataXtd_Constraint.hxx>
 #include <TDataXtd_PatternStd.hxx>
 #include <TDataXtd_Position.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 #include <Foundation/Standard/Standard_Macro.hxx>
 

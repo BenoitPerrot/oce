@@ -36,5 +36,5 @@ IMPLEMENT_STANDARD_RTTI(TColgp_HSequenceOfPnt)
 #define TCollection_HSequence_hxx <TColgp_HSequenceOfPnt.hxx>
 #define Handle_TCollection_HSequence Handle_TColgp_HSequenceOfPnt
 #define TCollection_HSequence_Type_() TColgp_HSequenceOfPnt_Type_()
-#include <TCollection_HSequence.gxx>
+#include <Foundation/TCollection/TCollection_HSequence.gxx>
 

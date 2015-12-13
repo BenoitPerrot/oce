@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(TColGeom2d_SequenceNodeOfSequenceOfCurve)
 #define TCollection_SequenceNode_Type_() TColGeom2d_SequenceNodeOfSequenceOfCurve_Type_()
 #define TCollection_Sequence TColGeom2d_SequenceOfCurve
 #define TCollection_Sequence_hxx <TColGeom2d_SequenceOfCurve.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

@@ -22,7 +22,7 @@
 
 
 #include <StepBasic_Document.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 
 RWStepBasic_RWDocumentUsageConstraint::RWStepBasic_RWDocumentUsageConstraint () {}

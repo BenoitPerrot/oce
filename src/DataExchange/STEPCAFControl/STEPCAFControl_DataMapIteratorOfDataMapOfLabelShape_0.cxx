@@ -27,5 +27,5 @@
 #define TCollection_DataMapNode_Type_() STEPCAFControl_DataMapNodeOfDataMapOfLabelShape_Type_()
 #define TCollection_DataMap STEPCAFControl_DataMapOfLabelShape
 #define TCollection_DataMap_hxx <STEPCAFControl_DataMapOfLabelShape.hxx>
-#include <TCollection_DataMapIterator.gxx>
+#include <Foundation/TCollection/TCollection_DataMapIterator.gxx>
 

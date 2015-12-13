@@ -22,5 +22,5 @@
 #define TCollection_IndexedMapNode_Type_() TDF_IndexedMapNodeOfAttributeIndexedMap_Type_()
 #define TCollection_IndexedMap TDF_AttributeIndexedMap
 #define TCollection_IndexedMap_hxx <TDF_AttributeIndexedMap.hxx>
-#include <TCollection_IndexedMap.gxx>
+#include <Foundation/TCollection/TCollection_IndexedMap.gxx>
 

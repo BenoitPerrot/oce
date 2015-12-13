@@ -22,5 +22,5 @@
 #define TCollection_ListNode_Type_() QANCollection_ListNodeOfListOfPnt_Type_()
 #define TCollection_List QANCollection_ListOfPnt
 #define TCollection_List_hxx <QANCollection_ListOfPnt.hxx>
-#include <TCollection_ListIterator.gxx>
+#include <Foundation/TCollection/TCollection_ListIterator.gxx>
 

@@ -15,7 +15,7 @@
 #include <TopOpeBRepDS_DataMapIteratorOfDataMapOfIntegerListOfInterference.hxx>
 #include <TopOpeBRepDS_Kind.hxx>
 #include <TopOpeBRepDS_ListOfInterference.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_TopOpeBRepDS_Interference.hxx>
 class TopOpeBRepDS_HArray1OfDataMapOfIntegerListOfInterference;

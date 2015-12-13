@@ -16,5 +16,5 @@
 #define Array1Item_hxx <Expr_SingleRelation.hxx>
 #define TCollection_Array1 Expr_Array1OfSingleRelation
 #define TCollection_Array1_hxx <Expr_Array1OfSingleRelation.hxx>
-#include <TCollection_Array1.gxx>
+#include <Foundation/TCollection/TCollection_Array1.gxx>
 

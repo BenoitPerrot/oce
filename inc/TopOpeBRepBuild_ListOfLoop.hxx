@@ -108,7 +108,7 @@ private:
 #define TCollection_List TopOpeBRepBuild_ListOfLoop
 #define TCollection_List_hxx <TopOpeBRepBuild_ListOfLoop.hxx>
 
-#include <TCollection_List.lxx>
+#include <Foundation/TCollection/TCollection_List.lxx>
 
 #undef Item
 #undef Item_hxx

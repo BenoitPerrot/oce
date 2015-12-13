@@ -105,7 +105,7 @@ private:
 #define TCollection_Array2 TColStd_Array2OfTransient
 #define TCollection_Array2_hxx <TColStd_Array2OfTransient.hxx>
 
-#include <TCollection_Array2.lxx>
+#include <Foundation/TCollection/TCollection_Array2.lxx>
 
 #undef Array2Item
 #undef Array2Item_hxx

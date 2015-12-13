@@ -10,10 +10,10 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepToTopoDS_DataMapNodeOfDataMapOfRINames.hxx>
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TopoDS_Shape.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class TCollection_AsciiString;
 class TopoDS_Shape;
 class StepToTopoDS_DataMapOfRINames;
@@ -53,11 +53,11 @@ private:
 };
 
 #define TheKey TCollection_AsciiString
-#define TheKey_hxx <TCollection_AsciiString.hxx>
+#define TheKey_hxx <Foundation/TCollection/TCollection_AsciiString.hxx>
 #define TheItem TopoDS_Shape
 #define TheItem_hxx <TopoDS_Shape.hxx>
 #define Hasher TCollection_AsciiString
-#define Hasher_hxx <TCollection_AsciiString.hxx>
+#define Hasher_hxx <Foundation/TCollection/TCollection_AsciiString.hxx>
 #define TCollection_DataMapNode StepToTopoDS_DataMapNodeOfDataMapOfRINames
 #define TCollection_DataMapNode_hxx <StepToTopoDS_DataMapNodeOfDataMapOfRINames.hxx>
 #define TCollection_DataMapIterator StepToTopoDS_DataMapIteratorOfDataMapOfRINames
@@ -67,7 +67,7 @@ private:
 #define TCollection_DataMap StepToTopoDS_DataMapOfRINames
 #define TCollection_DataMap_hxx <StepToTopoDS_DataMapOfRINames.hxx>
 
-#include <TCollection_DataMapNode.lxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

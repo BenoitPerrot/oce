@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_RTTI(MDataStd_IntPackedMapRetrievalDriver_1)
 #include <TDataStd_IntPackedMap.hxx>
 #include <CDM_MessageDriver.hxx>
 #include <TColStd_HPackedMapOfInteger.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 
 //=======================================================================
 //function : MDataStd_IntPackedMapRetrievalDriver_1

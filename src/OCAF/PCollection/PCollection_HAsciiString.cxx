@@ -16,7 +16,7 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_NegativeValue.hxx>
 #include <Foundation/Standard/Standard_NumericError.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <PCollection_HExtendedString.hxx>
 #include <DBC_VArrayOfCharacter.hxx>
 #include <PCollection_HAsciiString.hxx>
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_TYPE_END(PCollection_HAsciiString)
 IMPLEMENT_DOWNCAST(PCollection_HAsciiString,Standard_Persistent)
 IMPLEMENT_STANDARD_RTTI(PCollection_HAsciiString)
 #include <PCollection_HExtendedString.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/Standard/Standard_NumericError.hxx>
 #include <Foundation/Standard/Standard_NegativeValue.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>

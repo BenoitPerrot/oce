@@ -12,8 +12,8 @@
 
 #include <IntTools_CurveRangeSample.hxx>
 #include <Bnd_Box.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class IntTools_CurveRangeSample;
 class Bnd_Box;
 class IntTools_CurveRangeSampleMapHasher;
@@ -68,7 +68,7 @@ private:
 #define TCollection_DataMap IntTools_DataMapOfCurveSampleBox
 #define TCollection_DataMap_hxx <IntTools_DataMapOfCurveSampleBox.hxx>
 
-#include <TCollection_DataMapNode.lxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

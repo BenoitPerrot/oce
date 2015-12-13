@@ -41,5 +41,5 @@ IMPLEMENT_STANDARD_RTTI(Transfer_IndexedDataMapNodeOfTransferMapOfProcessForTran
 #define TCollection_IndexedDataMapNode_Type_() Transfer_IndexedDataMapNodeOfTransferMapOfProcessForTransient_Type_()
 #define TCollection_IndexedDataMap Transfer_TransferMapOfProcessForTransient
 #define TCollection_IndexedDataMap_hxx <Transfer_TransferMapOfProcessForTransient.hxx>
-#include <TCollection_IndexedDataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_IndexedDataMapNode.gxx>
 

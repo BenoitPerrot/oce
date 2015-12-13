@@ -26,7 +26,7 @@
 #include <Geom_Ellipse.hxx>
 #include <gp_Elips2d.hxx>
 #include <StepGeom_Ellipse.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <UnitsMethods.hxx>
 
 //=============================================================================

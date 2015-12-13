@@ -226,7 +226,7 @@ static int BUC60609(Draw_Interpretor& di, Standard_Integer argc, const char ** a
 }
 
 #include<BRepLib_MakeVertex.hxx>
-#include<TCollection_ExtendedString.hxx>
+#include<Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include<AIS_LengthDimension.hxx>
 
 static Standard_Integer BUC60632(Draw_Interpretor& di, Standard_Integer /*n*/, const char ** a)
@@ -1051,7 +1051,7 @@ static Standard_Integer BUC60876_ (Draw_Interpretor& di,
 //purpose  : 
 //=======================================================================
 
-#include<TCollection_HAsciiString.hxx>
+#include<Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 static Standard_Integer BUC60773 (Draw_Interpretor& /*di*/, Standard_Integer /*n*/, const char ** /*a*/)
 {

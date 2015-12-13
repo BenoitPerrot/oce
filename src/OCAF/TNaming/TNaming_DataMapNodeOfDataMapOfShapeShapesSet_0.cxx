@@ -44,5 +44,5 @@ IMPLEMENT_STANDARD_RTTI(TNaming_DataMapNodeOfDataMapOfShapeShapesSet)
 #define TCollection_DataMapNode_Type_() TNaming_DataMapNodeOfDataMapOfShapeShapesSet_Type_()
 #define TCollection_DataMap TNaming_DataMapOfShapeShapesSet
 #define TCollection_DataMap_hxx <TNaming_DataMapOfShapeShapesSet.hxx>
-#include <TCollection_DataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

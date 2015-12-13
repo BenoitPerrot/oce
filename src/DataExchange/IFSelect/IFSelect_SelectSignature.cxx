@@ -13,7 +13,7 @@
 
 #include <IFSelect_Signature.hxx>
 #include <IFSelect_SignCounter.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Interface_Graph.hxx>
 #include <Interface_InterfaceModel.hxx>

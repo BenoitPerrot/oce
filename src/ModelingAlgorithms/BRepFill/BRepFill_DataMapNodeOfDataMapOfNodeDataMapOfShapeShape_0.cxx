@@ -44,5 +44,5 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_DataMapNodeOfDataMapOfNodeDataMapOfShapeShape)
 #define TCollection_DataMapNode_Type_() BRepFill_DataMapNodeOfDataMapOfNodeDataMapOfShapeShape_Type_()
 #define TCollection_DataMap BRepFill_DataMapOfNodeDataMapOfShapeShape
 #define TCollection_DataMap_hxx <BRepFill_DataMapOfNodeDataMapOfShapeShape.hxx>
-#include <TCollection_DataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

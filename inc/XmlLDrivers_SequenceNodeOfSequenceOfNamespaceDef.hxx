@@ -11,8 +11,8 @@
 #include <Handle_XmlLDrivers_SequenceNodeOfSequenceOfNamespaceDef.hxx>
 
 #include <XmlLDrivers_NamespaceDef.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class XmlLDrivers_NamespaceDef;
 class XmlLDrivers_SequenceOfNamespaceDef;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence XmlLDrivers_SequenceOfNamespaceDef
 #define TCollection_Sequence_hxx <XmlLDrivers_SequenceOfNamespaceDef.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

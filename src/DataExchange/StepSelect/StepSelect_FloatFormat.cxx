@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <IFSelect_ContextWrite.hxx>
 #include <StepData_StepWriter.hxx>
 #include <StepSelect_FloatFormat.hxx>

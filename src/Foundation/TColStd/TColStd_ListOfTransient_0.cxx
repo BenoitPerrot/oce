@@ -21,5 +21,5 @@
 #define TCollection_ListNode_Type_() TColStd_ListNodeOfListOfTransient_Type_()
 #define TCollection_List TColStd_ListOfTransient
 #define TCollection_List_hxx <TColStd_ListOfTransient.hxx>
-#include <TCollection_List.gxx>
+#include <Foundation/TCollection/TCollection_List.gxx>
 

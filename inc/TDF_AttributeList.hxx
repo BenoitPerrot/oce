@@ -108,7 +108,7 @@ private:
 #define TCollection_List TDF_AttributeList
 #define TCollection_List_hxx <TDF_AttributeList.hxx>
 
-#include <TCollection_List.lxx>
+#include <Foundation/TCollection/TCollection_List.lxx>
 
 #undef Item
 #undef Item_hxx

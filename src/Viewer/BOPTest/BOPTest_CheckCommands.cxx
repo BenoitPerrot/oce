@@ -18,7 +18,7 @@
 #include <algorithm>
 #include <functional>
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 #include <TopExp_Explorer.hxx>
 

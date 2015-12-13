@@ -147,7 +147,7 @@ private:
 };
 
 
-#include <TCollection_BaseSequence.lxx>
+#include <Foundation/TCollection/TCollection_BaseSequence.lxx>
 
 
 

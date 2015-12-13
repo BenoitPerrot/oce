@@ -96,7 +96,7 @@ private:
 #define TCollection_Array1 TColgp_Array1OfXYZ
 #define TCollection_Array1_hxx <TColgp_Array1OfXYZ.hxx>
 
-#include <TCollection_Array1.lxx>
+#include <Foundation/TCollection/TCollection_Array1.lxx>
 
 #undef Array1Item
 #undef Array1Item_hxx

@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <TCollection_BasicMap.hxx>
+#include <Foundation/TCollection/TCollection_BasicMap.hxx>
 #include <TNaming_PtrRefShape.hxx>
 #include <Handle_TNaming_DataMapNodeOfDataMapOfShapePtrRefShape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

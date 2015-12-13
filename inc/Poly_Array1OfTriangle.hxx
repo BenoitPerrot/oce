@@ -96,7 +96,7 @@ private:
 #define TCollection_Array1 Poly_Array1OfTriangle
 #define TCollection_Array1_hxx <Poly_Array1OfTriangle.hxx>
 
-#include <TCollection_Array1.lxx>
+#include <Foundation/TCollection/TCollection_Array1.lxx>
 
 #undef Array1Item
 #undef Array1Item_hxx

@@ -10,9 +10,9 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TDataStd_DataMapNodeOfDataMapOfStringString.hxx>
 
-#include <TCollection_ExtendedString.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class TCollection_ExtendedString;
 class TDataStd_DataMapOfStringString;
 class TDataStd_DataMapIteratorOfDataMapOfStringString;
@@ -51,11 +51,11 @@ private:
 };
 
 #define TheKey TCollection_ExtendedString
-#define TheKey_hxx <TCollection_ExtendedString.hxx>
+#define TheKey_hxx <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #define TheItem TCollection_ExtendedString
-#define TheItem_hxx <TCollection_ExtendedString.hxx>
+#define TheItem_hxx <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #define Hasher TCollection_ExtendedString
-#define Hasher_hxx <TCollection_ExtendedString.hxx>
+#define Hasher_hxx <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #define TCollection_DataMapNode TDataStd_DataMapNodeOfDataMapOfStringString
 #define TCollection_DataMapNode_hxx <TDataStd_DataMapNodeOfDataMapOfStringString.hxx>
 #define TCollection_DataMapIterator TDataStd_DataMapIteratorOfDataMapOfStringString
@@ -65,7 +65,7 @@ private:
 #define TCollection_DataMap TDataStd_DataMapOfStringString
 #define TCollection_DataMap_hxx <TDataStd_DataMapOfStringString.hxx>
 
-#include <TCollection_DataMapNode.lxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

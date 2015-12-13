@@ -21,5 +21,5 @@
 #define TCollection_ListNode_Type_() TestTopOpeDraw_ListNodeOfListOfPnt2d_Type_()
 #define TCollection_List TestTopOpeDraw_ListOfPnt2d
 #define TCollection_List_hxx <TestTopOpeDraw_ListOfPnt2d.hxx>
-#include <TCollection_List.gxx>
+#include <Foundation/TCollection/TCollection_List.gxx>
 

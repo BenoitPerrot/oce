@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(SelectBasics_ListNodeOfListOfBox2d)
 #define TCollection_ListNode_Type_() SelectBasics_ListNodeOfListOfBox2d_Type_()
 #define TCollection_List SelectBasics_ListOfBox2d
 #define TCollection_List_hxx <SelectBasics_ListOfBox2d.hxx>
-#include <TCollection_ListNode.gxx>
+#include <Foundation/TCollection/TCollection_ListNode.gxx>
 

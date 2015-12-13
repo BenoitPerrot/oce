@@ -32,7 +32,7 @@
 #include <StepRepr_NextAssemblyUsageOccurrence.hxx>
 #include <StepBasic_ProductDefinitionContext.hxx>
 #include <StepBasic_ApplicationContext.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <StepBasic_ProductDefinitionWithAssociatedDocuments.hxx>
 #include <StepBasic_DocumentProductEquivalence.hxx>
 #include <StepShape_ShapeDefinitionRepresentation.hxx>

@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(Storage_HArrayOfSchema)
 #define TCollection_HArray1_hxx <Foundation/Storage/Storage_HArrayOfSchema.hxx>
 #define Handle_TCollection_HArray1 Handle_Storage_HArrayOfSchema
 #define TCollection_HArray1_Type_() Storage_HArrayOfSchema_Type_()
-#include <TCollection_HArray1.gxx>
+#include <Foundation/TCollection/TCollection_HArray1.gxx>
 

@@ -26,5 +26,5 @@
 #define TCollection_IndexedDataMapNode_Type_() MoniTool_IndexedDataMapNodeOfIndexedDataMapOfShapeTransient_Type_()
 #define TCollection_IndexedDataMap MoniTool_IndexedDataMapOfShapeTransient
 #define TCollection_IndexedDataMap_hxx <MoniTool_IndexedDataMapOfShapeTransient.hxx>
-#include <TCollection_IndexedDataMap.gxx>
+#include <Foundation/TCollection/TCollection_IndexedDataMap.gxx>
 

@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(StepElement_VolumeElementPurposeMember)
 IMPLEMENT_DOWNCAST(StepElement_VolumeElementPurposeMember,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(StepElement_VolumeElementPurposeMember)
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 static Standard_CString EVEP = "ENUMERATED_VOLUME_ELEMENT_PURPOSE";
 static Standard_CString ADEP = "APPLICATION_DEFINED_ELEMENT_PURPOSE";

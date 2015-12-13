@@ -16,7 +16,7 @@
 //#65 rln 12.02.99 S4151 (explicitly force YYMMDD.HHMMSS before Y2000 and YYYYMMDD.HHMMSS after Y2000)
 //#66 rln Setting IGES 5.3 by default
 //#73 rln 10.03.99 S4135: "read.scale.unit" is applied after translation
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Interface_ParamSet.hxx>
 #include <Interface_Check.hxx>
 #include <gp_XYZ.hxx>

@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_HArray1OfSequenceOfInteger)
 #define TCollection_HArray1_hxx <MeshVS_HArray1OfSequenceOfInteger.hxx>
 #define Handle_TCollection_HArray1 Handle_MeshVS_HArray1OfSequenceOfInteger
 #define TCollection_HArray1_Type_() MeshVS_HArray1OfSequenceOfInteger_Type_()
-#include <TCollection_HArray1.gxx>
+#include <Foundation/TCollection/TCollection_HArray1.gxx>
 

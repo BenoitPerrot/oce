@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() TColGeom_SequenceNodeOfSequenceOfCurve_Type_()
 #define TCollection_Sequence TColGeom_SequenceOfCurve
 #define TCollection_Sequence_hxx <TColGeom_SequenceOfCurve.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

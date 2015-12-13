@@ -16,5 +16,5 @@
 #define Array1Item_hxx <StepElement_HSequenceOfCurveElementPurposeMember.hxx>
 #define TCollection_Array1 StepElement_Array1OfHSequenceOfCurveElementPurposeMember
 #define TCollection_Array1_hxx <StepElement_Array1OfHSequenceOfCurveElementPurposeMember.hxx>
-#include <TCollection_Array1.gxx>
+#include <Foundation/TCollection/TCollection_Array1.gxx>
 

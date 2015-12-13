@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() GeomFill_SequenceNodeOfSequenceOfTrsf_Type_()
 #define TCollection_Sequence GeomFill_SequenceOfTrsf
 #define TCollection_Sequence_hxx <GeomFill_SequenceOfTrsf.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

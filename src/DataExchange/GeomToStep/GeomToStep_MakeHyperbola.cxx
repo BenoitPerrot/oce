@@ -24,7 +24,7 @@
 #include <GeomToStep_MakeAxis2Placement2d.hxx>
 #include <GeomToStep_MakeAxis2Placement3d.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <UnitsMethods.hxx>
 
 

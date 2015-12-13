@@ -16,7 +16,7 @@
 //S4181 pdn 23.04.99: adding new parameter handling writing of elementary surfaces
 #include <Interface_Static.hxx>
 #include <Foundation/Message/Message_MsgFile.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 //tatouage de la librairie
 #include <Precision.hxx>
 #include <stdio.h>

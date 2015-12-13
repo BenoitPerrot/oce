@@ -13,7 +13,7 @@
 
 #include <StepGeom_GeometricRepresentationContext.hxx>
 #include <StepRepr_ParametricRepresentationContext.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepGeom_GeometricRepresentationContextAndParametricRepresentationContext.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepGeom_GeometricRepresentationContextAndParametricRepresentationContext)

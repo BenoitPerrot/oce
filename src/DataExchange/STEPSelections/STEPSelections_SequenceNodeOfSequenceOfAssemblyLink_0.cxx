@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(STEPSelections_SequenceNodeOfSequenceOfAssemblyLink)
 #define TCollection_SequenceNode_Type_() STEPSelections_SequenceNodeOfSequenceOfAssemblyLink_Type_()
 #define TCollection_Sequence STEPSelections_SequenceOfAssemblyLink
 #define TCollection_Sequence_hxx <STEPSelections_SequenceOfAssemblyLink.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

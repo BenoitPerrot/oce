@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <StepShape_HArray1OfGeometricSetSelect.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepShape_GeometricSetSelect.hxx>
 #include <StepShape_GeometricSet.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

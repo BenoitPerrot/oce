@@ -16,7 +16,7 @@
 #include <IFSelect_WorkSession.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <IFSelect_WorkLibrary.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <IFSelect_SignCounter.hxx>
 #include <IFSelect_SessionPilot.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

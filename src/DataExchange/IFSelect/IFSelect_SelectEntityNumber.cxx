@@ -14,7 +14,7 @@
 #include <IFSelect_IntParam.hxx>
 #include <Interface_EntityIterator.hxx>
 #include <Interface_Graph.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <IFSelect_SelectEntityNumber.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IFSelect_SelectEntityNumber)

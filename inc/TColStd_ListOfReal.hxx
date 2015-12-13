@@ -107,7 +107,7 @@ private:
 #define TCollection_List TColStd_ListOfReal
 #define TCollection_List_hxx <TColStd_ListOfReal.hxx>
 
-#include <TCollection_List.lxx>
+#include <Foundation/TCollection/TCollection_List.lxx>
 
 #undef Item
 #undef Item_hxx

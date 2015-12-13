@@ -36,7 +36,7 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Transfer_FinderProcess.hxx>
 #include <TransferBRep_ShapeMapper.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 #ifdef OCCT_DEBUG
 #define DEBUG

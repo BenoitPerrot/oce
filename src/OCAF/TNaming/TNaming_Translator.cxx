@@ -19,7 +19,7 @@
 #include <TNaming_Translator.hxx>
 
 #include <TopoDS_Shape.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TColStd_IndexedDataMapOfTransientTransient.hxx>
 #include <TopoDS_TShape.hxx>
 #include <BRepTools.hxx>

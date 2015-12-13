@@ -46,5 +46,5 @@ IMPLEMENT_STANDARD_RTTI(TFunction_DoubleMapNodeOfDoubleMapOfIntegerLabel)
 #define TCollection_DoubleMapNode_Type_() TFunction_DoubleMapNodeOfDoubleMapOfIntegerLabel_Type_()
 #define TCollection_DoubleMap TFunction_DoubleMapOfIntegerLabel
 #define TCollection_DoubleMap_hxx <TFunction_DoubleMapOfIntegerLabel.hxx>
-#include <TCollection_DoubleMapNode.gxx>
+#include <Foundation/TCollection/TCollection_DoubleMapNode.gxx>
 

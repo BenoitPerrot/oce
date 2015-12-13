@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(StepElement_CurveElementPurposeMember)
 IMPLEMENT_DOWNCAST(StepElement_CurveElementPurposeMember,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(StepElement_CurveElementPurposeMember)
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 static Standard_CString ECEP = "ENUMERATED_CURVE_ELEMENT_PURPOSE";
 static Standard_CString ADEP = "APPLICATION_DEFINED_ELEMENT_PURPOSE";

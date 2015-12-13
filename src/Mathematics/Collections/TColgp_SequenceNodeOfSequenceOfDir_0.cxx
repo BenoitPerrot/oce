@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(TColgp_SequenceNodeOfSequenceOfDir)
 #define TCollection_SequenceNode_Type_() TColgp_SequenceNodeOfSequenceOfDir_Type_()
 #define TCollection_Sequence TColgp_SequenceOfDir
 #define TCollection_Sequence_hxx <TColgp_SequenceOfDir.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

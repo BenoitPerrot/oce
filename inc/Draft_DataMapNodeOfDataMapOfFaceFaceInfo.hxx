@@ -12,8 +12,8 @@
 
 #include <TopoDS_Face.hxx>
 #include <Draft_FaceInfo.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class TopoDS_Face;
 class Draft_FaceInfo;
 class TopTools_ShapeMapHasher;
@@ -68,7 +68,7 @@ private:
 #define TCollection_DataMap Draft_DataMapOfFaceFaceInfo
 #define TCollection_DataMap_hxx <Draft_DataMapOfFaceFaceInfo.hxx>
 
-#include <TCollection_DataMapNode.lxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

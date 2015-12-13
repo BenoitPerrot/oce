@@ -15,7 +15,7 @@
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Message/Message_Msg.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <Interface_Check.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

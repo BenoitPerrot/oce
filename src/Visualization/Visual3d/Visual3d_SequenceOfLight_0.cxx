@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() Visual3d_SequenceNodeOfSequenceOfLight_Type_()
 #define TCollection_Sequence Visual3d_SequenceOfLight
 #define TCollection_Sequence_hxx <Visual3d_SequenceOfLight.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

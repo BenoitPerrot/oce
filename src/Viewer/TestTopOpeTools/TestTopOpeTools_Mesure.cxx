@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <TColgp_HArray1OfPnt.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <gp_Pnt.hxx>
 #include <TestTopOpeTools_Mesure.hxx>

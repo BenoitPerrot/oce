@@ -91,7 +91,7 @@
 #include <TopoDS_Iterator.hxx>
 
 // To proceed with I-DEAS-like STP (ssv; 15.11.2010)
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 //#define DEBUG
 

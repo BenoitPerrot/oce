@@ -25,7 +25,7 @@
 #include <Draw_Interpretor.hxx>
 #include <Draw_Window.hxx>
 #include <Draw_Appli.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Image_AlienPixMap.hxx>
 #include <Foundation/NCollection/NCollection_List.hxx>
 

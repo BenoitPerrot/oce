@@ -15,7 +15,7 @@
 #ifndef WNT
 
 #include <Foundation/OSD/OSD_OSDError.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/OSD/OSD_Error.hxx>
 #include <Foundation/OSD/OSD_ErrorList.hxx>
 #include <stdio.h>
@@ -446,7 +446,7 @@ void OSD_Error::Perror() {
 #define STRICT
 #include <Foundation/OSD/OSD_Error.hxx>
 #include <Foundation/OSD/OSD_ErrorList.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 
 #include <windows.h>
 

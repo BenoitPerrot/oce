@@ -27,7 +27,7 @@
 #include <Precision.hxx>
 #include <Geom_Curve.hxx>
 #include <BRep_Tool.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 #include <TopExp.hxx>
 #include <gp_Pnt.hxx>

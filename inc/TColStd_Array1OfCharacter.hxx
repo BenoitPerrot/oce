@@ -96,7 +96,7 @@ private:
 #define TCollection_Array1 TColStd_Array1OfCharacter
 #define TCollection_Array1_hxx <TColStd_Array1OfCharacter.hxx>
 
-#include <TCollection_Array1.lxx>
+#include <Foundation/TCollection/TCollection_Array1.lxx>
 
 #undef Array1Item
 #undef Array1Item_hxx

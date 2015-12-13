@@ -22,5 +22,5 @@
 #define TCollection_ListNode_Type_() TopOpeBRep_ListNodeOfListOfBipoint_Type_()
 #define TCollection_List TopOpeBRep_ListOfBipoint
 #define TCollection_List_hxx <TopOpeBRep_ListOfBipoint.hxx>
-#include <TCollection_ListIterator.gxx>
+#include <Foundation/TCollection/TCollection_ListIterator.gxx>
 

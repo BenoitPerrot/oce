@@ -71,7 +71,7 @@ private:
 #define TCollection_List NLPlate_StackOfPlate
 #define TCollection_List_hxx <NLPlate_StackOfPlate.hxx>
 
-#include <TCollection_ListIterator.lxx>
+#include <Foundation/TCollection/TCollection_ListIterator.lxx>
 
 #undef Item
 #undef Item_hxx

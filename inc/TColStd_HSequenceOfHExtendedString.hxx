@@ -93,7 +93,7 @@ private:
 };
 
 #define Item Handle(TCollection_HExtendedString)
-#define Item_hxx <TCollection_HExtendedString.hxx>
+#define Item_hxx <Foundation/TCollection/TCollection_HExtendedString.hxx>
 #define TheSequence TColStd_SequenceOfHExtendedString
 #define TheSequence_hxx <TColStd_SequenceOfHExtendedString.hxx>
 #define TCollection_HSequence TColStd_HSequenceOfHExtendedString
@@ -101,7 +101,7 @@ private:
 #define Handle_TCollection_HSequence Handle_TColStd_HSequenceOfHExtendedString
 #define TCollection_HSequence_Type_() TColStd_HSequenceOfHExtendedString_Type_()
 
-#include <TCollection_HSequence.lxx>
+#include <Foundation/TCollection/TCollection_HSequence.lxx>
 
 #undef Item
 #undef Item_hxx

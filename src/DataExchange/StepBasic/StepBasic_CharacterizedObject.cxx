@@ -15,7 +15,7 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.1
 
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepBasic_CharacterizedObject.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepBasic_CharacterizedObject)
@@ -26,7 +26,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(StepBasic_CharacterizedObject)
 IMPLEMENT_DOWNCAST(StepBasic_CharacterizedObject,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(StepBasic_CharacterizedObject)
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 //=======================================================================
 //function : StepBasic_CharacterizedObject
 //purpose  : 

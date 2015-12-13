@@ -17,7 +17,7 @@
 #ifdef OCCT_DEBUG
 
 #include <Foundation/Standard/Standard_Type.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TColStd_ListOfInteger.hxx>
 #include <TColStd_ListIteratorOfListOfInteger.hxx>
 #include <TopOpeBRepTool_define.hxx>

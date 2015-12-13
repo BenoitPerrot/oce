@@ -11,8 +11,8 @@
 #include <Handle_NLPlate_ListNodeOfStackOfPlate.hxx>
 
 #include <Plate_Plate.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class Plate_Plate;
 class NLPlate_StackOfPlate;
 class NLPlate_ListIteratorOfStackOfPlate;
@@ -58,7 +58,7 @@ private:
 #define TCollection_List NLPlate_StackOfPlate
 #define TCollection_List_hxx <NLPlate_StackOfPlate.hxx>
 
-#include <TCollection_ListNode.lxx>
+#include <Foundation/TCollection/TCollection_ListNode.lxx>
 
 #undef Item
 #undef Item_hxx

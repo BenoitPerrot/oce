@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TDocStd_Document.hxx>
 
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Handle_TDF_Data.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <TDF_Transaction.hxx>

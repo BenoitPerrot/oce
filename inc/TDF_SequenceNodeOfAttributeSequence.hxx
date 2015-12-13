@@ -11,8 +11,8 @@
 #include <Handle_TDF_SequenceNodeOfAttributeSequence.hxx>
 
 #include <Handle_TDF_Attribute.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class TDF_Attribute;
 class TDF_AttributeSequence;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence TDF_AttributeSequence
 #define TCollection_Sequence_hxx <TDF_AttributeSequence.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

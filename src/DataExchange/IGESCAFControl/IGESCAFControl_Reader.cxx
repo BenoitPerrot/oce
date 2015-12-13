@@ -16,7 +16,7 @@
 #include <TDF_Label.hxx>
 #include <XSControl_WorkSession.hxx>
 #include <TDocStd_Document.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <IGESCAFControl_Reader.hxx>
 #include <TopoDS_Shape.hxx>
 #include <XCAFDoc_ShapeTool.hxx>
@@ -33,11 +33,11 @@
 #include <XCAFDoc_DocumentTool.hxx>
 #include <TopoDS_Iterator.hxx>
 #include <TopTools_MapOfShape.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <TDataStd_Name.hxx>
 #include <XCAFDoc_LayerTool.hxx>
 #include <IGESData_LevelListEntity.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <XCAFDoc_ShapeMapTool.hxx>
 #include <IGESBasic_SubfigureDef.hxx>
 #include <TopoDS_Compound.hxx>

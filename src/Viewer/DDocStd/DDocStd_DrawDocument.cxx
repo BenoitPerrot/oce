@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(DDocStd_DrawDocument)
 #include <TDocStd_Document.hxx>
 #include <TDF_Tool.hxx>
 #include <TDF_Data.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 
 //=======================================================================

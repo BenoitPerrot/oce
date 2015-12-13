@@ -12,8 +12,8 @@
 
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <TCollection_MapNodePtr.hxx>
-#include <TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
 class TColStd_MapRealHasher;
 class TColStd_MapIntegerHasher;
 class QANCollection_DoubleMapOfRealInteger;
@@ -72,7 +72,7 @@ private:
 #define TCollection_DoubleMap QANCollection_DoubleMapOfRealInteger
 #define TCollection_DoubleMap_hxx <QANCollection_DoubleMapOfRealInteger.hxx>
 
-#include <TCollection_DoubleMapNode.lxx>
+#include <Foundation/TCollection/TCollection_DoubleMapNode.lxx>
 
 #undef TheKey1
 #undef TheKey1_hxx

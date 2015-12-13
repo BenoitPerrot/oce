@@ -16,5 +16,5 @@
 #define Array1Item_hxx <ChFiDS_Stripe.hxx>
 #define TCollection_Array1 ChFiDS_StripeArray1
 #define TCollection_Array1_hxx <ChFiDS_StripeArray1.hxx>
-#include <TCollection_Array1.gxx>
+#include <Foundation/TCollection/TCollection_Array1.gxx>
 

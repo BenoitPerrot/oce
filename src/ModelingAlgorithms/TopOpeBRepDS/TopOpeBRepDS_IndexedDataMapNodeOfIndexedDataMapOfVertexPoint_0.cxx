@@ -41,5 +41,5 @@ IMPLEMENT_STANDARD_RTTI(TopOpeBRepDS_IndexedDataMapNodeOfIndexedDataMapOfVertexP
 #define TCollection_IndexedDataMapNode_Type_() TopOpeBRepDS_IndexedDataMapNodeOfIndexedDataMapOfVertexPoint_Type_()
 #define TCollection_IndexedDataMap TopOpeBRepDS_IndexedDataMapOfVertexPoint
 #define TCollection_IndexedDataMap_hxx <TopOpeBRepDS_IndexedDataMapOfVertexPoint.hxx>
-#include <TCollection_IndexedDataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_IndexedDataMapNode.gxx>
 

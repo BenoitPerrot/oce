@@ -26,5 +26,5 @@
 #define TCollection_DataMapNode_Type_() TPrsStd_DataMapNodeOfDataMapOfGUIDDriver_Type_()
 #define TCollection_DataMap TPrsStd_DataMapOfGUIDDriver
 #define TCollection_DataMap_hxx <TPrsStd_DataMapOfGUIDDriver.hxx>
-#include <TCollection_DataMapIterator.gxx>
+#include <Foundation/TCollection/TCollection_DataMapIterator.gxx>
 

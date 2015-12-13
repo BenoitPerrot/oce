@@ -11,7 +11,7 @@
 #include <Handle_MoniTool_CaseData.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TColStd_SequenceOfTransient.hxx>
 #include <TColStd_SequenceOfInteger.hxx>
 #include <TColStd_SequenceOfAsciiString.hxx>

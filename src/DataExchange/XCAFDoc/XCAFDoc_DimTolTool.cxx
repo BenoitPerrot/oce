@@ -16,7 +16,7 @@
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <TDF_LabelSequence.hxx>
 #include <TColStd_HArray1OfReal.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <TDF_Attribute.hxx>
 #include <TDF_RelocationTable.hxx>
 #include <XCAFDoc_DimTolTool.hxx>

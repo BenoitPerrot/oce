@@ -11,8 +11,8 @@
 #include <Handle_DBRep_ListNodeOfListOfFace.hxx>
 
 #include <Handle_DBRep_Face.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class DBRep_Face;
 class DBRep_ListOfFace;
 class DBRep_ListIteratorOfListOfFace;
@@ -58,7 +58,7 @@ private:
 #define TCollection_List DBRep_ListOfFace
 #define TCollection_List_hxx <DBRep_ListOfFace.hxx>
 
-#include <TCollection_ListNode.lxx>
+#include <Foundation/TCollection/TCollection_ListNode.lxx>
 
 #undef Item
 #undef Item_hxx

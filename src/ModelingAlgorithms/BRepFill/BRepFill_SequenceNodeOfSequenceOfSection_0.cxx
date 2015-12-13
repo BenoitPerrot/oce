@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_SequenceNodeOfSequenceOfSection)
 #define TCollection_SequenceNode_Type_() BRepFill_SequenceNodeOfSequenceOfSection_Type_()
 #define TCollection_Sequence BRepFill_SequenceOfSection
 #define TCollection_Sequence_hxx <BRepFill_SequenceOfSection.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

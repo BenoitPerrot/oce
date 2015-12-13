@@ -13,7 +13,7 @@
 
 #include <XSControl_WorkSession.hxx>
 #include <TopTools_HSequenceOfShape.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <XSControl_FuncShape.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>

@@ -26,5 +26,5 @@
 #define TCollection_DataMapNode_Type_() Geom2dHatch_DataMapNodeOfMapOfElements_Type_()
 #define TCollection_DataMap Geom2dHatch_MapOfElements
 #define TCollection_DataMap_hxx <Geom2dHatch_MapOfElements.hxx>
-#include <TCollection_DataMapIterator.gxx>
+#include <Foundation/TCollection/TCollection_DataMapIterator.gxx>
 

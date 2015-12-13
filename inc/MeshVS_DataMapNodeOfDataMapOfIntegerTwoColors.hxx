@@ -12,8 +12,8 @@
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <MeshVS_TwoColors.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class TColStd_MapIntegerHasher;
 class MeshVS_DataMapOfIntegerTwoColors;
 class MeshVS_DataMapIteratorOfDataMapOfIntegerTwoColors;
@@ -66,7 +66,7 @@ private:
 #define TCollection_DataMap MeshVS_DataMapOfIntegerTwoColors
 #define TCollection_DataMap_hxx <MeshVS_DataMapOfIntegerTwoColors.hxx>
 
-#include <TCollection_DataMapNode.lxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

@@ -12,7 +12,7 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <ShapeProcess_IteratorOfDictionaryOfOperator.hxx>
 #include <ShapeProcess_StackItemOfDictionaryOfOperator.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
  
 

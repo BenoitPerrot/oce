@@ -16,7 +16,7 @@
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.1
 
 #include <StepShape_ConnectedFaceSet.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepShape_HArray1OfFace.hxx>
 #include <StepShape_ConnectedFaceSubSet.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

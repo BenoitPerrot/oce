@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() TColgp_SequenceNodeOfSequenceOfDir_Type_()
 #define TCollection_Sequence TColgp_SequenceOfDir
 #define TCollection_Sequence_hxx <TColgp_SequenceOfDir.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(IntTools_ListNodeOfListOfSurfaceRangeSample)
 #define TCollection_ListNode_Type_() IntTools_ListNodeOfListOfSurfaceRangeSample_Type_()
 #define TCollection_List IntTools_ListOfSurfaceRangeSample
 #define TCollection_List_hxx <IntTools_ListOfSurfaceRangeSample.hxx>
-#include <TCollection_ListNode.gxx>
+#include <Foundation/TCollection/TCollection_ListNode.gxx>
 

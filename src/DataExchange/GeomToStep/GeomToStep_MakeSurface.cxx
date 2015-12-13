@@ -27,7 +27,7 @@
 #include <GeomToStep_MakeElementarySurface.hxx>
 #include <Geom_SweptSurface.hxx>
 #include <GeomToStep_MakeSweptSurface.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Geom_OffsetSurface.hxx>
 #include <StepGeom_OffsetSurface.hxx>
 #include <StepData_Logical.hxx>

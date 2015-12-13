@@ -13,7 +13,7 @@
 
 #include <StepGeom_Curve.hxx>
 #include <StepGeom_Direction.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepGeom_OffsetCurve3d.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepGeom_OffsetCurve3d)

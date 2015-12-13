@@ -23,5 +23,5 @@
 #define TCollection_StdMapNode_Type_() IntTools_StdMapNodeOfMapOfCurveSample_Type_()
 #define TCollection_Map IntTools_MapOfCurveSample
 #define TCollection_Map_hxx <IntTools_MapOfCurveSample.hxx>
-#include <TCollection_Map.gxx>
+#include <Foundation/TCollection/TCollection_Map.gxx>
 

@@ -6,18 +6,18 @@
 #include <Foundation/Resource/Resource_DataMapIteratorOfDataMapOfAsciiStringExtendedString.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <TCollection_AsciiString.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/Resource/Resource_DataMapOfAsciiStringExtendedString.hxx>
 #include <Foundation/Resource/Resource_DataMapNodeOfDataMapOfAsciiStringExtendedString.hxx>
  
 
 #define TheKey TCollection_AsciiString
-#define TheKey_hxx <TCollection_AsciiString.hxx>
+#define TheKey_hxx <Foundation/TCollection/TCollection_AsciiString.hxx>
 #define TheItem TCollection_ExtendedString
-#define TheItem_hxx <TCollection_ExtendedString.hxx>
+#define TheItem_hxx <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #define Hasher TCollection_AsciiString
-#define Hasher_hxx <TCollection_AsciiString.hxx>
+#define Hasher_hxx <Foundation/TCollection/TCollection_AsciiString.hxx>
 #define TCollection_DataMapNode Resource_DataMapNodeOfDataMapOfAsciiStringExtendedString
 #define TCollection_DataMapNode_hxx <Foundation/Resource/Resource_DataMapNodeOfDataMapOfAsciiStringExtendedString.hxx>
 #define TCollection_DataMapIterator Resource_DataMapIteratorOfDataMapOfAsciiStringExtendedString
@@ -26,5 +26,5 @@
 #define TCollection_DataMapNode_Type_() Resource_DataMapNodeOfDataMapOfAsciiStringExtendedString_Type_()
 #define TCollection_DataMap Resource_DataMapOfAsciiStringExtendedString
 #define TCollection_DataMap_hxx <Foundation/Resource/Resource_DataMapOfAsciiStringExtendedString.hxx>
-#include <TCollection_DataMapIterator.gxx>
+#include <Foundation/TCollection/TCollection_DataMapIterator.gxx>
 

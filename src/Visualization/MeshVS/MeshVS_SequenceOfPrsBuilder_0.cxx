@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() MeshVS_SequenceNodeOfSequenceOfPrsBuilder_Type_()
 #define TCollection_Sequence MeshVS_SequenceOfPrsBuilder
 #define TCollection_Sequence_hxx <MeshVS_SequenceOfPrsBuilder.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

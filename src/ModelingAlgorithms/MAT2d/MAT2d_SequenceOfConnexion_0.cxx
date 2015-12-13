@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() MAT2d_SequenceNodeOfSequenceOfConnexion_Type_()
 #define TCollection_Sequence MAT2d_SequenceOfConnexion
 #define TCollection_Sequence_hxx <MAT2d_SequenceOfConnexion.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

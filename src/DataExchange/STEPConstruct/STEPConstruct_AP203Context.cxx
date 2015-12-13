@@ -45,7 +45,7 @@
 #include <Foundation/OSD/OSD_Process.hxx>
 #include <Foundation/Quantity/Quantity_Date.hxx>
 
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <TColStd_SequenceOfAsciiString.hxx>
 #include <Interface_HArray1OfHAsciiString.hxx>
 

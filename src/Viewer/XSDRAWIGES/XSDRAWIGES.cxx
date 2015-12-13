@@ -34,8 +34,8 @@
 #include <Interface_CheckIterator.hxx>
 
 #include <stdio.h>
-#include <TCollection_HAsciiString.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TColStd_HSequenceOfTransient.hxx>
 
 #include <TopoDS.hxx>

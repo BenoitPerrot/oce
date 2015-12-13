@@ -41,5 +41,5 @@ IMPLEMENT_STANDARD_RTTI(TopLoc_StdMapNodeOfMapOfLocation)
 #define TCollection_StdMapNode_Type_() TopLoc_StdMapNodeOfMapOfLocation_Type_()
 #define TCollection_Map TopLoc_MapOfLocation
 #define TCollection_Map_hxx <TopLoc_MapOfLocation.hxx>
-#include <TCollection_StdMapNode.gxx>
+#include <Foundation/TCollection/TCollection_StdMapNode.gxx>
 

@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(StepShape_HArray1OfFaceBound)
 #define TCollection_HArray1_hxx <StepShape_HArray1OfFaceBound.hxx>
 #define Handle_TCollection_HArray1 Handle_StepShape_HArray1OfFaceBound
 #define TCollection_HArray1_Type_() StepShape_HArray1OfFaceBound_Type_()
-#include <TCollection_HArray1.gxx>
+#include <Foundation/TCollection/TCollection_HArray1.gxx>
 

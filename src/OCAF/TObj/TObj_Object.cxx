@@ -31,7 +31,7 @@
 #include <TObj_TObject.hxx>
 #include <TObj_TReference.hxx>
 
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <TColStd_HArray1OfInteger.hxx>
 #include <TColStd_HArray1OfReal.hxx>
 #include <TColStd_HArray1OfExtendedString.hxx>

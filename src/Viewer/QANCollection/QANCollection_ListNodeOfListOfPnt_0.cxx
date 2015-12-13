@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(QANCollection_ListNodeOfListOfPnt)
 #define TCollection_ListNode_Type_() QANCollection_ListNodeOfListOfPnt_Type_()
 #define TCollection_List QANCollection_ListOfPnt
 #define TCollection_List_hxx <QANCollection_ListOfPnt.hxx>
-#include <TCollection_ListNode.gxx>
+#include <Foundation/TCollection/TCollection_ListNode.gxx>
 

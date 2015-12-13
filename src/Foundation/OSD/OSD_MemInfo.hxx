@@ -16,7 +16,7 @@
 #ifndef _OSD_MemInfo_H__
 #define _OSD_MemInfo_H__
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 //! This class provide information about memory utilized by current process.
 //! This information includes:

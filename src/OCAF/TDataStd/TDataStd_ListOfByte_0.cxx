@@ -20,5 +20,5 @@
 #define TCollection_ListNode_Type_() TDataStd_ListNodeOfListOfByte_Type_()
 #define TCollection_List TDataStd_ListOfByte
 #define TCollection_List_hxx <TDataStd_ListOfByte.hxx>
-#include <TCollection_List.gxx>
+#include <Foundation/TCollection/TCollection_List.gxx>
 

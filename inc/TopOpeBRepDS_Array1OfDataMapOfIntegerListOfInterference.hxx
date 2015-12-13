@@ -96,7 +96,7 @@ private:
 #define TCollection_Array1 TopOpeBRepDS_Array1OfDataMapOfIntegerListOfInterference
 #define TCollection_Array1_hxx <TopOpeBRepDS_Array1OfDataMapOfIntegerListOfInterference.hxx>
 
-#include <TCollection_Array1.lxx>
+#include <Foundation/TCollection/TCollection_Array1.lxx>
 
 #undef Array1Item
 #undef Array1Item_hxx

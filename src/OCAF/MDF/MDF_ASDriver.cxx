@@ -26,7 +26,7 @@
 #include <PDF_Attribute.hxx>
 #include <TDF_Attribute.hxx>
 #include <MDF_SRelocationTable.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <MDF_ASDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MDF_ASDriver)
@@ -37,7 +37,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(MDF_ASDriver)
 IMPLEMENT_DOWNCAST(MDF_ASDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDF_ASDriver)
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <CDM_MessageDriver.hxx>
 //=======================================================================
 //function : MDF_ASDriver

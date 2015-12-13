@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(TDocStd_SequenceNodeOfSequenceOfDocument)
 #define TCollection_SequenceNode_Type_() TDocStd_SequenceNodeOfSequenceOfDocument_Type_()
 #define TCollection_Sequence TDocStd_SequenceOfDocument
 #define TCollection_Sequence_hxx <TDocStd_SequenceOfDocument.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

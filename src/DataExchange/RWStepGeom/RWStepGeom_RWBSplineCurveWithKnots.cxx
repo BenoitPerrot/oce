@@ -32,7 +32,7 @@
 
 #include <StepGeom_BSplineCurveWithKnots.hxx>
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 
 // --- Enum : KnotType ---

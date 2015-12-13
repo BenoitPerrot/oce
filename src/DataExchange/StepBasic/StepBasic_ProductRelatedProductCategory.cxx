@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <StepBasic_HArray1OfProduct.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepBasic_Product.hxx>
 #include <StepBasic_ProductRelatedProductCategory.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

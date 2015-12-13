@@ -44,5 +44,5 @@ IMPLEMENT_STANDARD_RTTI(MoniTool_DataMapNodeOfDataMapOfShapeTransient)
 #define TCollection_DataMapNode_Type_() MoniTool_DataMapNodeOfDataMapOfShapeTransient_Type_()
 #define TCollection_DataMap MoniTool_DataMapOfShapeTransient
 #define TCollection_DataMap_hxx <MoniTool_DataMapOfShapeTransient.hxx>
-#include <TCollection_DataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

@@ -11,8 +11,8 @@
 #include <Handle_Graphic3d_SequenceNodeOfSequenceOfStructure.hxx>
 
 #include <Handle_Graphic3d_Structure.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class Graphic3d_Structure;
 class Graphic3d_SequenceOfStructure;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence Graphic3d_SequenceOfStructure
 #define TCollection_Sequence_hxx <Graphic3d_SequenceOfStructure.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

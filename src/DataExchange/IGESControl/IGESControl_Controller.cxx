@@ -66,7 +66,7 @@ IMPLEMENT_STANDARD_RTTI(IGESControl_Controller)
 #include <IGESSelect_RemoveCurves.hxx>
 #include <IGESSelect_SetLabel.hxx>
 
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 #include <IGESControl_ActorWrite.hxx>
 #include <IGESControl_AlgoContainer.hxx>

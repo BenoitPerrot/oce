@@ -12,8 +12,8 @@
 
 #include <gp_Pnt.hxx>
 #include <Handle_Standard_Transient.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class Standard_Transient;
 class gp_Pnt;
 class STEPConstruct_PointHasher;
@@ -68,7 +68,7 @@ private:
 #define TCollection_DataMap STEPConstruct_DataMapOfPointTransient
 #define TCollection_DataMap_hxx <STEPConstruct_DataMapOfPointTransient.hxx>
 
-#include <TCollection_DataMapNode.lxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

@@ -18,7 +18,7 @@
 #include <Interface_Check.hxx>
 #include <IGESData_DirChecker.hxx>
 #include <Interface_CopyTool.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <IGESData_GeneralModule.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESData_GeneralModule)
@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_RTTI(IGESData_GeneralModule)
 #include <IGESData.hxx>
 #include <IGESData_Protocol.hxx>
 #include <IGESData_IGESEntity.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Interface_Macros.hxx>
 
 

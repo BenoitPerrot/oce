@@ -28,5 +28,5 @@
 #define TCollection_DoubleMapNode_Type_() TDF_DoubleMapNodeOfAttributeDoubleMap_Type_()
 #define TCollection_DoubleMap TDF_AttributeDoubleMap
 #define TCollection_DoubleMap_hxx <TDF_AttributeDoubleMap.hxx>
-#include <TCollection_DoubleMapIterator.gxx>
+#include <Foundation/TCollection/TCollection_DoubleMapIterator.gxx>
 

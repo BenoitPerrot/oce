@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() GeomFill_SequenceNodeOfSequenceOfAx2_Type_()
 #define TCollection_Sequence GeomFill_SequenceOfAx2
 #define TCollection_Sequence_hxx <GeomFill_SequenceOfAx2.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

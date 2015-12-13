@@ -19,7 +19,7 @@
 #include <StepData_SelectInt.hxx>
 #include <StepData_SelectReal.hxx>
 #include <StepData_SelectNamed.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <TColStd_HArray1OfInteger.hxx>
 #include <TColStd_HArray1OfReal.hxx>
 #include <TColStd_HArray1OfTransient.hxx>

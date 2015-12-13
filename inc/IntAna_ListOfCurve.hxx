@@ -107,7 +107,7 @@ private:
 #define TCollection_List IntAna_ListOfCurve
 #define TCollection_List_hxx <IntAna_ListOfCurve.hxx>
 
-#include <TCollection_List.lxx>
+#include <Foundation/TCollection/TCollection_List.lxx>
 
 #undef Item
 #undef Item_hxx

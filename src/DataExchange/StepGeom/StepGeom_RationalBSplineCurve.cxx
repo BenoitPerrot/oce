@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <TColStd_HArray1OfReal.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepGeom_HArray1OfCartesianPoint.hxx>
 #include <StepGeom_RationalBSplineCurve.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

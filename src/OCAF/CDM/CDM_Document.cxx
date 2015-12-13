@@ -24,7 +24,7 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <CDM_Reference.hxx>
 #include <CDM_ReferenceIterator.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <TColStd_SequenceOfExtendedString.hxx>
 #include <Foundation/Resource/Resource_Manager.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
@@ -40,7 +40,7 @@ IMPLEMENT_STANDARD_RTTI(CDM_Document)
 
 #include <Foundation/Standard/Standard_NullObject.hxx>
 
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 
 #include <CDM_PresentationDirectory.hxx>

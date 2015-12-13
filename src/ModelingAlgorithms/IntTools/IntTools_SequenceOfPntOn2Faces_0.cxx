@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() IntTools_SequenceNodeOfSequenceOfPntOn2Faces_Type_()
 #define TCollection_Sequence IntTools_SequenceOfPntOn2Faces
 #define TCollection_Sequence_hxx <IntTools_SequenceOfPntOn2Faces.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

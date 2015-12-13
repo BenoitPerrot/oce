@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() GeomPlate_SequenceNodeOfSequenceOfCurveConstraint_Type_()
 #define TCollection_Sequence GeomPlate_SequenceOfCurveConstraint
 #define TCollection_Sequence_hxx <GeomPlate_SequenceOfCurveConstraint.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

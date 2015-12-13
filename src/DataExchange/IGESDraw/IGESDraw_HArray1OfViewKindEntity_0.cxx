@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(IGESDraw_HArray1OfViewKindEntity)
 #define TCollection_HArray1_hxx <IGESDraw_HArray1OfViewKindEntity.hxx>
 #define Handle_TCollection_HArray1 Handle_IGESDraw_HArray1OfViewKindEntity
 #define TCollection_HArray1_Type_() IGESDraw_HArray1OfViewKindEntity_Type_()
-#include <TCollection_HArray1.gxx>
+#include <Foundation/TCollection/TCollection_HArray1.gxx>
 

@@ -11,8 +11,8 @@
 #include <Handle_CDM_StdMapNodeOfMapOfDocument.hxx>
 
 #include <Handle_CDM_Document.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class CDM_Document;
 class CDM_DocumentHasher;
 class CDM_MapOfDocument;
@@ -61,7 +61,7 @@ private:
 #define TCollection_Map CDM_MapOfDocument
 #define TCollection_Map_hxx <CDM_MapOfDocument.hxx>
 
-#include <TCollection_StdMapNode.lxx>
+#include <Foundation/TCollection/TCollection_StdMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <StepVisual_StyledItem.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepVisual_HArray1OfPresentationStyleAssignment.hxx>
 #include <StepRepr_RepresentationItem.hxx>
 #include <StepVisual_OverRidingStyledItem.hxx>

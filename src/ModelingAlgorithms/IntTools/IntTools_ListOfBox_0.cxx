@@ -21,5 +21,5 @@
 #define TCollection_ListNode_Type_() IntTools_ListNodeOfListOfBox_Type_()
 #define TCollection_List IntTools_ListOfBox
 #define TCollection_List_hxx <IntTools_ListOfBox.hxx>
-#include <TCollection_List.gxx>
+#include <Foundation/TCollection/TCollection_List.gxx>
 

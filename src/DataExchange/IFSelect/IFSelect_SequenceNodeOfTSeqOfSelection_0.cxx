@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(IFSelect_SequenceNodeOfTSeqOfSelection)
 #define TCollection_SequenceNode_Type_() IFSelect_SequenceNodeOfTSeqOfSelection_Type_()
 #define TCollection_Sequence IFSelect_TSeqOfSelection
 #define TCollection_Sequence_hxx <IFSelect_TSeqOfSelection.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

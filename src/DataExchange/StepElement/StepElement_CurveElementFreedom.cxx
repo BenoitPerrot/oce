@@ -17,10 +17,10 @@
 
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <StepData_SelectMember.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepElement_CurveElementFreedom.hxx>
 #include <StepElement_CurveElementFreedomMember.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 static Standard_CString anEnum = "ENUMERATED_CURVE_ELEMENT_FREEDOM";
 static Standard_CString anApp = "APPLICATION_DEFINED_DEGREE_OF_FREEDOM";

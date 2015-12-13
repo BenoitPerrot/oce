@@ -12,8 +12,8 @@
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Graphic3d_GraphicDriver.hxx>
-#include <TCollection_ExtendedString.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Handle_Visual3d_ViewManager.hxx>
 #include <V3d_ListOfTransient.hxx>
 #include <Aspect_Background.hxx>

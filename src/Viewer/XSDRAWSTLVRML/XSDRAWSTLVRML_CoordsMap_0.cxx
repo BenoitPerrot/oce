@@ -27,5 +27,5 @@
 #define TCollection_DataMapNode_Type_() XSDRAWSTLVRML_DataMapNodeOfCoordsMap_Type_()
 #define TCollection_DataMap XSDRAWSTLVRML_CoordsMap
 #define TCollection_DataMap_hxx <XSDRAWSTLVRML_CoordsMap.hxx>
-#include <TCollection_DataMap.gxx>
+#include <Foundation/TCollection/TCollection_DataMap.gxx>
 

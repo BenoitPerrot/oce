@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <TDataStd_DataMapOfStringReal.hxx>
 #include <TDataStd_DataMapIteratorOfDataMapOfStringReal.hxx>
 
@@ -29,11 +29,11 @@ IMPLEMENT_STANDARD_RTTI(TDataStd_DataMapNodeOfDataMapOfStringReal)
 
 
 #define TheKey TCollection_ExtendedString
-#define TheKey_hxx <TCollection_ExtendedString.hxx>
+#define TheKey_hxx <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #define TheItem Standard_Real
 #define TheItem_hxx <Foundation/Standard/Standard_Real.hxx>
 #define Hasher TCollection_ExtendedString
-#define Hasher_hxx <TCollection_ExtendedString.hxx>
+#define Hasher_hxx <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #define TCollection_DataMapNode TDataStd_DataMapNodeOfDataMapOfStringReal
 #define TCollection_DataMapNode_hxx <TDataStd_DataMapNodeOfDataMapOfStringReal.hxx>
 #define TCollection_DataMapIterator TDataStd_DataMapIteratorOfDataMapOfStringReal
@@ -42,5 +42,5 @@ IMPLEMENT_STANDARD_RTTI(TDataStd_DataMapNodeOfDataMapOfStringReal)
 #define TCollection_DataMapNode_Type_() TDataStd_DataMapNodeOfDataMapOfStringReal_Type_()
 #define TCollection_DataMap TDataStd_DataMapOfStringReal
 #define TCollection_DataMap_hxx <TDataStd_DataMapOfStringReal.hxx>
-#include <TCollection_DataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

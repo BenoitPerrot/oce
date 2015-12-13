@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() Extrema_SequenceNodeOfSeqPCOfPCLocFOfLocEPCOfLocateExtPC_Type_()
 #define TCollection_Sequence Extrema_SeqPCOfPCLocFOfLocEPCOfLocateExtPC
 #define TCollection_Sequence_hxx <Extrema_SeqPCOfPCLocFOfLocEPCOfLocateExtPC.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

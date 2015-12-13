@@ -18,7 +18,7 @@
 #include <OpenGl_ShaderObject.hxx>
 #include <Foundation/OSD/OSD_Path.hxx>
 #include <Foundation/Standard/Standard_Assert.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 #if defined(__BORLANDC__) || defined(__MINGW32__)
 #include <malloc.h>

@@ -12,8 +12,8 @@
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <TopOpeBRepDS_SurfaceData.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class TopOpeBRepDS_SurfaceData;
 class TColStd_MapIntegerHasher;
 class TopOpeBRepDS_MapOfSurface;
@@ -67,7 +67,7 @@ private:
 #define TCollection_DataMap TopOpeBRepDS_MapOfSurface
 #define TCollection_DataMap_hxx <TopOpeBRepDS_MapOfSurface.hxx>
 
-#include <TCollection_DataMapNode.lxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

@@ -19,7 +19,7 @@
 
 #include <Foundation/Standard/Standard_SStream.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <TColStd_SequenceOfExtendedString.hxx>
 #include <CDM_COutMessageDriver.hxx>
 #include <Foundation/Message/Message_Msg.hxx>

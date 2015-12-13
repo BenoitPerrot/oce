@@ -12,5 +12,5 @@
 #define Key_hxx <CDM_Document.hxx>
 #define TCollection_MapHasher CDM_DocumentHasher
 #define TCollection_MapHasher_hxx <CDM_DocumentHasher.hxx>
-#include <TCollection_MapHasher.gxx>
+#include <Foundation/TCollection/TCollection_MapHasher.gxx>
 

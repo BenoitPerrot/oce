@@ -16,5 +16,5 @@
 #define Array2Item_hxx <Extrema_POnSurfParams.hxx>
 #define TCollection_Array2 Extrema_Array2OfPOnSurfParams
 #define TCollection_Array2_hxx <Extrema_Array2OfPOnSurfParams.hxx>
-#include <TCollection_Array2.gxx>
+#include <Foundation/TCollection/TCollection_Array2.gxx>
 

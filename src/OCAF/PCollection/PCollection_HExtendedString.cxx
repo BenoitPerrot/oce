@@ -16,7 +16,7 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_NegativeValue.hxx>
 #include <Foundation/Standard/Standard_NumericError.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <PCollection_HAsciiString.hxx>
 #include <DBC_VArrayOfExtCharacter.hxx>
 #include <PCollection_HExtendedString.hxx>

@@ -27,5 +27,5 @@
 #define TCollection_DataMapNode_Type_() BRepTopAdaptor_DataMapNodeOfMapOfShapeTool_Type_()
 #define TCollection_DataMap BRepTopAdaptor_MapOfShapeTool
 #define TCollection_DataMap_hxx <BRepTopAdaptor_MapOfShapeTool.hxx>
-#include <TCollection_DataMapIterator.gxx>
+#include <Foundation/TCollection/TCollection_DataMapIterator.gxx>
 

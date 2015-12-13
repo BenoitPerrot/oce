@@ -50,7 +50,7 @@ IMPLEMENT_STANDARD_TYPE_END(Quantity_Color)
 
 #include <Foundation/Quantity/Quantity_Color_1.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 // for Test method (suite et fin)
 #include <string.h>

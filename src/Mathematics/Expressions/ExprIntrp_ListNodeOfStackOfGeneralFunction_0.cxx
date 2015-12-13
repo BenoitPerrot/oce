@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(ExprIntrp_ListNodeOfStackOfGeneralFunction)
 #define TCollection_ListNode_Type_() ExprIntrp_ListNodeOfStackOfGeneralFunction_Type_()
 #define TCollection_List ExprIntrp_StackOfGeneralFunction
 #define TCollection_List_hxx <ExprIntrp_StackOfGeneralFunction.hxx>
-#include <TCollection_ListNode.gxx>
+#include <Foundation/TCollection/TCollection_ListNode.gxx>
 

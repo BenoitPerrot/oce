@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <TCollection_BaseSequence.hxx>
+#include <Foundation/TCollection/TCollection_BaseSequence.hxx>
 #include <Handle_Blend_SequenceNodeOfSequenceOfPoint.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;
@@ -109,7 +109,7 @@ private:
 #define TCollection_Sequence Blend_SequenceOfPoint
 #define TCollection_Sequence_hxx <Blend_SequenceOfPoint.hxx>
 
-#include <TCollection_Sequence.lxx>
+#include <Foundation/TCollection/TCollection_Sequence.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

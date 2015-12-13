@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IFSelect_SelectSuite.hxx>
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TColStd_SequenceOfTransient.hxx>
 #include <IFSelect_SelectDeduct.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

@@ -15,12 +15,12 @@
 
 #include <BinMDF_ADriverTable.hxx>
 #include <CDM_MessageDriver.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <PCDM_Document.hxx>
 #include <CDM_Document.hxx>
 #include <CDM_Application.hxx>
 #include <TDF_Label.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Storage/Storage_HeaderData.hxx>
 #include <BinLDrivers_DocumentSection.hxx>
 #include <BinLDrivers_DocumentRetrievalDriver.hxx>

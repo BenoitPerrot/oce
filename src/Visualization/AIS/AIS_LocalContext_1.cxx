@@ -76,7 +76,7 @@
 #include <SelectMgr_OrFilter.hxx>
 #include <SelectMgr_Filter.hxx>
 #include <AIS_InteractiveObject.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Select3D_Projector.hxx>
 #include <TColStd_ListOfInteger.hxx>
 #include <SelectMgr_ListOfFilter.hxx>
@@ -103,7 +103,7 @@
 #include <Graphic3d_Group.hxx>
 #include <Select3D_SensitiveTriangulation.hxx>
 #include <SelectBasics_SensitiveEntity.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/NCollection/NCollection_Map.hxx>
 
 #ifdef OCC9026

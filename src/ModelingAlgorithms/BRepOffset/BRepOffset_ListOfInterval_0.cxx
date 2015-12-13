@@ -21,5 +21,5 @@
 #define TCollection_ListNode_Type_() BRepOffset_ListNodeOfListOfInterval_Type_()
 #define TCollection_List BRepOffset_ListOfInterval
 #define TCollection_List_hxx <BRepOffset_ListOfInterval.hxx>
-#include <TCollection_List.gxx>
+#include <Foundation/TCollection/TCollection_List.gxx>
 

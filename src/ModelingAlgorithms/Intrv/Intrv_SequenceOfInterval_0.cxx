@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() Intrv_SequenceNodeOfSequenceOfInterval_Type_()
 #define TCollection_Sequence Intrv_SequenceOfInterval
 #define TCollection_Sequence_hxx <Intrv_SequenceOfInterval.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

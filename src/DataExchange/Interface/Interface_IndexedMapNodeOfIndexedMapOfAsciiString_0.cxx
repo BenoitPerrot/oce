@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Interface_MapAsciiStringHasher.hxx>
 #include <Interface_IndexedMapOfAsciiString.hxx>
 
@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_RTTI(Interface_IndexedMapNodeOfIndexedMapOfAsciiString)
 
 
 #define TheKey TCollection_AsciiString
-#define TheKey_hxx <TCollection_AsciiString.hxx>
+#define TheKey_hxx <Foundation/TCollection/TCollection_AsciiString.hxx>
 #define Hasher Interface_MapAsciiStringHasher
 #define Hasher_hxx <Interface_MapAsciiStringHasher.hxx>
 #define TCollection_IndexedMapNode Interface_IndexedMapNodeOfIndexedMapOfAsciiString
@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(Interface_IndexedMapNodeOfIndexedMapOfAsciiString)
 #define TCollection_IndexedMapNode_Type_() Interface_IndexedMapNodeOfIndexedMapOfAsciiString_Type_()
 #define TCollection_IndexedMap Interface_IndexedMapOfAsciiString
 #define TCollection_IndexedMap_hxx <Interface_IndexedMapOfAsciiString.hxx>
-#include <TCollection_IndexedMapNode.gxx>
+#include <Foundation/TCollection/TCollection_IndexedMapNode.gxx>
 

@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() Plate_SequenceNodeOfSequenceOfPinpointConstraint_Type_()
 #define TCollection_Sequence Plate_SequenceOfPinpointConstraint
 #define TCollection_Sequence_hxx <Plate_SequenceOfPinpointConstraint.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

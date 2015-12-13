@@ -16,5 +16,5 @@
 #define Array1Item_hxx <TopOpeBRepDS_DataMapOfIntegerListOfInterference.hxx>
 #define TCollection_Array1 TopOpeBRepDS_Array1OfDataMapOfIntegerListOfInterference
 #define TCollection_Array1_hxx <TopOpeBRepDS_Array1OfDataMapOfIntegerListOfInterference.hxx>
-#include <TCollection_Array1.gxx>
+#include <Foundation/TCollection/TCollection_Array1.gxx>
 

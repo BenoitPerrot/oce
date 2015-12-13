@@ -13,7 +13,7 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Handle_Dico_DictionaryOfInteger.hxx>
 #include <Handle_Dico_DictionaryOfTransient.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

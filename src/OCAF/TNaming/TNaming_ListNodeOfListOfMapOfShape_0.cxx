@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(TNaming_ListNodeOfListOfMapOfShape)
 #define TCollection_ListNode_Type_() TNaming_ListNodeOfListOfMapOfShape_Type_()
 #define TCollection_List TNaming_ListOfMapOfShape
 #define TCollection_List_hxx <TNaming_ListOfMapOfShape.hxx>
-#include <TCollection_ListNode.gxx>
+#include <Foundation/TCollection/TCollection_ListNode.gxx>
 

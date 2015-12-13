@@ -88,7 +88,7 @@ static void Write(const TopoDS_Shape& shape,
 #include <TDF_IDFilter.hxx>
 #include <TDF_Tool.hxx>
 #include <TDF_MapIteratorOfAttributeMap.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TDF_ChildIterator.hxx>
 
 Standard_Integer DNaming_SelectionDriver::Execute(TFunction_Logbook& theLog) const

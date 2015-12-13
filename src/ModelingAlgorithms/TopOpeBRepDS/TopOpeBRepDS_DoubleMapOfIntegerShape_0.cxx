@@ -31,5 +31,5 @@
 #define TCollection_DoubleMapNode_Type_() TopOpeBRepDS_DoubleMapNodeOfDoubleMapOfIntegerShape_Type_()
 #define TCollection_DoubleMap TopOpeBRepDS_DoubleMapOfIntegerShape
 #define TCollection_DoubleMap_hxx <TopOpeBRepDS_DoubleMapOfIntegerShape.hxx>
-#include <TCollection_DoubleMap.gxx>
+#include <Foundation/TCollection/TCollection_DoubleMap.gxx>
 

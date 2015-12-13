@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(TopLoc_IndexedMapNodeOfIndexedMapOfLocation)
 #define TCollection_IndexedMapNode_Type_() TopLoc_IndexedMapNodeOfIndexedMapOfLocation_Type_()
 #define TCollection_IndexedMap TopLoc_IndexedMapOfLocation
 #define TCollection_IndexedMap_hxx <TopLoc_IndexedMapOfLocation.hxx>
-#include <TCollection_IndexedMapNode.gxx>
+#include <Foundation/TCollection/TCollection_IndexedMapNode.gxx>
 

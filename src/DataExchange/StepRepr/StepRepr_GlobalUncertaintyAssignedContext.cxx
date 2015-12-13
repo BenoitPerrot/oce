@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <StepBasic_HArray1OfUncertaintyMeasureWithUnit.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepBasic_UncertaintyMeasureWithUnit.hxx>
 #include <StepRepr_GlobalUncertaintyAssignedContext.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

@@ -28,5 +28,5 @@
 #define TCollection_DataMapNode_Type_() BRepFill_DataMapNodeOfDataMapOfShapeSequenceOfPnt_Type_()
 #define TCollection_DataMap BRepFill_DataMapOfShapeSequenceOfPnt
 #define TCollection_DataMap_hxx <BRepFill_DataMapOfShapeSequenceOfPnt.hxx>
-#include <TCollection_DataMap.gxx>
+#include <Foundation/TCollection/TCollection_DataMap.gxx>
 

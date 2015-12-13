@@ -13,8 +13,8 @@
 #include <Handle_SelectBasics_EntityOwner.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <SelectMgr_SortCriterion.hxx>
-#include <TCollection_MapNodePtr.hxx>
-#include <TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
 class SelectBasics_EntityOwner;
 class SelectMgr_SortCriterion;
 class TColStd_MapTransientHasher;
@@ -72,7 +72,7 @@ private:
 #define TCollection_IndexedDataMap SelectMgr_IndexedDataMapOfOwnerCriterion
 #define TCollection_IndexedDataMap_hxx <SelectMgr_IndexedDataMapOfOwnerCriterion.hxx>
 
-#include <TCollection_IndexedDataMapNode.lxx>
+#include <Foundation/TCollection/TCollection_IndexedDataMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

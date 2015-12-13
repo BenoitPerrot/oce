@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(IGESBasic_HArray1OfLineFontEntity)
 #define TCollection_HArray1_hxx <IGESBasic_HArray1OfLineFontEntity.hxx>
 #define Handle_TCollection_HArray1 Handle_IGESBasic_HArray1OfLineFontEntity
 #define TCollection_HArray1_Type_() IGESBasic_HArray1OfLineFontEntity_Type_()
-#include <TCollection_HArray1.gxx>
+#include <Foundation/TCollection/TCollection_HArray1.gxx>
 

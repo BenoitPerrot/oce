@@ -54,8 +54,8 @@
 #include <Precision.hxx>
 #include <Select3D_Projector.hxx>
 #include <StdSelect.hxx>
-#include <TCollection_AsciiString.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <TColStd_MapOfInteger.hxx>
 #include <TopAbs.hxx>
 #include <TopAbs_ShapeEnum.hxx>
@@ -1406,7 +1406,7 @@ static int VIdenticRelation(Draw_Interpretor& di, Standard_Integer argc, const c
 #include <BRepExtrema_ExtCF.hxx>
 #include <BRepExtrema_ExtPF.hxx>
 #include <BRepExtrema_ExtFF.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <BRepExtrema_DistShapeShape.hxx>
 #include <gce_MakePln.hxx>
 #include <TopExp_Explorer.hxx>
@@ -1703,7 +1703,7 @@ static int VLenghtDimension(Draw_Interpretor& di, Standard_Integer argc, const c
 //Draw arg : vradiusdim Name 
 //==============================================================================
 #include <AIS_RadiusDimension.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <BRepAdaptor_Curve.hxx>
 #include <gp_Circ.hxx>
 
@@ -1803,7 +1803,7 @@ static int VRadiusDimBuilder(Draw_Interpretor& di, Standard_Integer argc, const 
 //Draw arg : voffsetdim Name 
 //==============================================================================
 #include <AIS_OffsetDimension.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <BRepExtrema_ExtFF.hxx>
 
 
@@ -1896,7 +1896,7 @@ static int VOffsetDimBuilder(Draw_Interpretor& di, Standard_Integer argc, const 
 //Draw arg : vparallel Name 
 //==============================================================================
 #include <AIS_ParallelRelation.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <BRepExtrema_ExtFF.hxx>
 #include <BRepExtrema_ExtCC.hxx>
 #include <GC_MakePlane.hxx>
@@ -2053,7 +2053,7 @@ static int VParallelBuilder(Draw_Interpretor& di, Standard_Integer argc, const c
 //Draw arg : vperpendicular Name 
 //==============================================================================
 #include <AIS_PerpendicularRelation.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <GC_MakePlane.hxx>
 #include <BRepAdaptor_Curve.hxx>
 #include <TopExp_Explorer.hxx>

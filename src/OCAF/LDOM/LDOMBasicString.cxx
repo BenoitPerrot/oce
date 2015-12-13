@@ -15,8 +15,8 @@
 
 #include <LDOMBasicString.hxx>
 #include <LDOM_MemManager.hxx>
-#include <TCollection_AsciiString.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <errno.h>
 
 //=======================================================================

@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(IntTools_SequenceNodeOfSequenceOfCommonPrts)
 #define TCollection_SequenceNode_Type_() IntTools_SequenceNodeOfSequenceOfCommonPrts_Type_()
 #define TCollection_Sequence IntTools_SequenceOfCommonPrts
 #define TCollection_Sequence_hxx <IntTools_SequenceOfCommonPrts.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

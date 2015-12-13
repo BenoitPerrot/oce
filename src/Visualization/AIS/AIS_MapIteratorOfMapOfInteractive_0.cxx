@@ -24,5 +24,5 @@
 #define TCollection_StdMapNode_Type_() AIS_StdMapNodeOfMapOfInteractive_Type_()
 #define TCollection_Map AIS_MapOfInteractive
 #define TCollection_Map_hxx <AIS_MapOfInteractive.hxx>
-#include <TCollection_MapIterator.gxx>
+#include <Foundation/TCollection/TCollection_MapIterator.gxx>
 

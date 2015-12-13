@@ -26,5 +26,5 @@
 #define TCollection_DataMapNode_Type_() TColStd_DataMapNodeOfDataMapOfIntegerReal_Type_()
 #define TCollection_DataMap TColStd_DataMapOfIntegerReal
 #define TCollection_DataMap_hxx <TColStd_DataMapOfIntegerReal.hxx>
-#include <TCollection_DataMap.gxx>
+#include <Foundation/TCollection/TCollection_DataMap.gxx>
 

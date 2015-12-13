@@ -15,7 +15,7 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Interface_InterfaceError.hxx>
 #include <IGESData_IGESEntity.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <IGESData_HArray1OfIGESEntity.hxx>
 #include <IGESData_IGESWriter.hxx>
 #include <IGESData_FreeFormatEntity.hxx>
@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(IGESData_FreeFormatEntity)
 #include <Interface_UndefinedContent.hxx>
 #include <Interface_InterfaceError.hxx>
 #include <IGESData_IGESEntity.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Interface_Macros.hxx>
 
 

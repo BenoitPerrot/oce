@@ -44,5 +44,5 @@ IMPLEMENT_STANDARD_RTTI(BRepOffset_DataMapNodeOfDataMapOfShapeListOfInterval)
 #define TCollection_DataMapNode_Type_() BRepOffset_DataMapNodeOfDataMapOfShapeListOfInterval_Type_()
 #define TCollection_DataMap BRepOffset_DataMapOfShapeListOfInterval
 #define TCollection_DataMap_hxx <BRepOffset_DataMapOfShapeListOfInterval.hxx>
-#include <TCollection_DataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

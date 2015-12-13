@@ -39,7 +39,7 @@
 #include <TopoDS_Face.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Vertex.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 #define MTAse TopAbs_ShapeEnum
 #define MTAo TopAbs_Orientation

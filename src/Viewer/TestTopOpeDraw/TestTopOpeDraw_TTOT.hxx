@@ -17,7 +17,7 @@
 #ifndef _TestTopOpeDraw_TTOT_HeaderFile
 #define _TestTopOpeDraw_TTOT_HeaderFile
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TopOpeBRepDS.hxx>
 #include <TopoDS.hxx>
 #include <TopAbs.hxx>

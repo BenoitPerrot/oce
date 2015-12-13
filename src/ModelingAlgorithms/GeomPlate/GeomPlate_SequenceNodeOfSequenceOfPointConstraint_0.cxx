@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(GeomPlate_SequenceNodeOfSequenceOfPointConstraint)
 #define TCollection_SequenceNode_Type_() GeomPlate_SequenceNodeOfSequenceOfPointConstraint_Type_()
 #define TCollection_Sequence GeomPlate_SequenceOfPointConstraint
 #define TCollection_Sequence_hxx <GeomPlate_SequenceOfPointConstraint.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

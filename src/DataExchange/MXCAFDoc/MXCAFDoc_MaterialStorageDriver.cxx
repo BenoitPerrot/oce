@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_RTTI(MXCAFDoc_MaterialStorageDriver)
 #include <XCAFDoc_Material.hxx>
 #include <PXCAFDoc_Material.hxx>
 
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <TColStd_HArray1OfReal.hxx>
 #include <PCollection_HAsciiString.hxx>
 #include <PColStd_HArray1OfReal.hxx>

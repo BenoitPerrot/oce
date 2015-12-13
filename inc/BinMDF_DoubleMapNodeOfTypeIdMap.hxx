@@ -12,8 +12,8 @@
 
 #include <Handle_Standard_Type.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <TCollection_MapNodePtr.hxx>
-#include <TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
 class Standard_Type;
 class TColStd_MapTransientHasher;
 class TColStd_MapIntegerHasher;
@@ -73,7 +73,7 @@ private:
 #define TCollection_DoubleMap BinMDF_TypeIdMap
 #define TCollection_DoubleMap_hxx <BinMDF_TypeIdMap.hxx>
 
-#include <TCollection_DoubleMapNode.lxx>
+#include <Foundation/TCollection/TCollection_DoubleMapNode.lxx>
 
 #undef TheKey1
 #undef TheKey1_hxx

@@ -11,8 +11,8 @@
 #include <Handle_TopOpeBRepTool_ListNodeOfListOfC2DF.hxx>
 
 #include <TopOpeBRepTool_C2DF.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class TopOpeBRepTool_C2DF;
 class TopOpeBRepTool_ListOfC2DF;
 class TopOpeBRepTool_ListIteratorOfListOfC2DF;
@@ -58,7 +58,7 @@ private:
 #define TCollection_List TopOpeBRepTool_ListOfC2DF
 #define TCollection_List_hxx <TopOpeBRepTool_ListOfC2DF.hxx>
 
-#include <TCollection_ListNode.lxx>
+#include <Foundation/TCollection/TCollection_ListNode.lxx>
 
 #undef Item
 #undef Item_hxx

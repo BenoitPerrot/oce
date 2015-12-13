@@ -14,10 +14,10 @@
 #include <TDF_Data.hxx>
 #include <TDF_Delta.hxx>
 #include <TDF_Label.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <TDF_LabelMap.hxx>
 #include <TDF_DeltaList.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <CDM_Document.hxx>
 #include <TDocStd_CompoundDelta.hxx>
 #include <TDocStd_Document.hxx>
@@ -38,8 +38,8 @@ IMPLEMENT_STANDARD_RTTI(TDocStd_Document)
 #include <TDocStd_Application.hxx>
 
 #include <TDocStd_Context.hxx>
-#include <TCollection_ExtendedString.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TDF_AttributeIterator.hxx>
 #include <TDF_ListIteratorOfDeltaList.hxx>
 #include <TDF_AttributeList.hxx>

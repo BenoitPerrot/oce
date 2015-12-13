@@ -105,7 +105,7 @@ private:
 #define TCollection_Array2 MAT2d_Array2OfConnexion
 #define TCollection_Array2_hxx <MAT2d_Array2OfConnexion.hxx>
 
-#include <TCollection_Array2.lxx>
+#include <Foundation/TCollection/TCollection_Array2.lxx>
 
 #undef Array2Item
 #undef Array2Item_hxx

@@ -33,7 +33,7 @@
 #include <TColStd_Array1OfInteger.hxx>
 #include <TColStd_SequenceOfTransient.hxx>
 #include <MoniTool_DataMapOfShapeTransient.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <TransferBRep_ShapeMapper.hxx>
 #include <Transfer_FinderProcess.hxx>
 

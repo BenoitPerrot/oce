@@ -21,5 +21,5 @@
 #define TCollection_ListNode_Type_() Select3D_ListNodeOfListOfSensitive_Type_()
 #define TCollection_List Select3D_ListOfSensitive
 #define TCollection_List_hxx <Select3D_ListOfSensitive.hxx>
-#include <TCollection_List.gxx>
+#include <Foundation/TCollection/TCollection_List.gxx>
 

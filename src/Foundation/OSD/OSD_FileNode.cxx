@@ -416,7 +416,7 @@ Standard_Integer OSD_FileNode::Error()const{
 #include <Foundation/OSD/OSD_Protection.hxx>
 #include <Foundation/Quantity/Quantity_Date.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 
 #include <Foundation/OSD/OSD_WNT_1.hxx>
 

@@ -16,10 +16,10 @@
 
 #include <Foundation/Standard/Standard_Stream.hxx>
 
-#include <TCollection.hxx>
-#include <TCollection_BasicMap.hxx>
-#include <TCollection_BasicMapIterator.hxx>
-#include <TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection.hxx>
+#include <Foundation/TCollection/TCollection_BasicMap.hxx>
+#include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
 
 //=======================================================================
 //function : TCollection_BasicMap

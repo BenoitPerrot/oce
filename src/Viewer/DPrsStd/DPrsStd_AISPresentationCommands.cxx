@@ -19,7 +19,7 @@
 #include <Draw_Appli.hxx>
 #include <Draw_Interpretor.hxx>
 #include <Draw_ColorKind.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TDocStd_Document.hxx>
 #include <TDF_Label.hxx>
 #include <TDF_Data.hxx> 
@@ -41,7 +41,7 @@
 #include <AIS_Drawer.hxx> 
 #include <ViewerTest.hxx>
 #include <V3d_View.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Graphic3d_NameOfMaterial.hxx>
 

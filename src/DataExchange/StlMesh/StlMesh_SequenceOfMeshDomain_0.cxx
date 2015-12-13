@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() StlMesh_SequenceNodeOfSequenceOfMeshDomain_Type_()
 #define TCollection_Sequence StlMesh_SequenceOfMeshDomain
 #define TCollection_Sequence_hxx <StlMesh_SequenceOfMeshDomain.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

@@ -96,7 +96,7 @@ private:
 #define TCollection_Array1 StepVisual_Array1OfTextOrCharacter
 #define TCollection_Array1_hxx <StepVisual_Array1OfTextOrCharacter.hxx>
 
-#include <TCollection_Array1.lxx>
+#include <Foundation/TCollection/TCollection_Array1.lxx>
 
 #undef Array1Item
 #undef Array1Item_hxx

@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TCollection_CompareOfInteger.hxx>
+#include <Foundation/TCollection/TCollection_CompareOfInteger.hxx>
 
 // -----------
 // Create :

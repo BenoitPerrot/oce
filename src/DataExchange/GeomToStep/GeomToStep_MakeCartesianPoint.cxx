@@ -28,7 +28,7 @@
 #include <Geom2d_CartesianPoint.hxx>
 #include <StepGeom_CartesianPoint.hxx>
 #include <TColStd_HArray1OfReal.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <UnitsMethods.hxx>
 
 //=============================================================================

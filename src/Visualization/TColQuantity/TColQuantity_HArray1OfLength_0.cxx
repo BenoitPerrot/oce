@@ -37,5 +37,5 @@ IMPLEMENT_STANDARD_RTTI(TColQuantity_HArray1OfLength)
 #define TCollection_HArray1_hxx <TColQuantity_HArray1OfLength.hxx>
 #define Handle_TCollection_HArray1 Handle_TColQuantity_HArray1OfLength
 #define TCollection_HArray1_Type_() TColQuantity_HArray1OfLength_Type_()
-#include <TCollection_HArray1.gxx>
+#include <Foundation/TCollection/TCollection_HArray1.gxx>
 

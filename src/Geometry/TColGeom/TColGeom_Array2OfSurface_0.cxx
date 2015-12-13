@@ -16,5 +16,5 @@
 #define Array2Item_hxx <Geom_Surface.hxx>
 #define TCollection_Array2 TColGeom_Array2OfSurface
 #define TCollection_Array2_hxx <TColGeom_Array2OfSurface.hxx>
-#include <TCollection_Array2.gxx>
+#include <Foundation/TCollection/TCollection_Array2.gxx>
 

@@ -16,5 +16,5 @@
 #define Array1Item_hxx <GeomFill_SectionLaw.hxx>
 #define TCollection_Array1 GeomFill_Array1OfSectionLaw
 #define TCollection_Array1_hxx <GeomFill_Array1OfSectionLaw.hxx>
-#include <TCollection_Array1.gxx>
+#include <Foundation/TCollection/TCollection_Array1.gxx>
 

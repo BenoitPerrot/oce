@@ -11,8 +11,8 @@
 #include <Handle_HLRBRep_ListNodeOfListOfBPoint.hxx>
 
 #include <HLRBRep_BiPoint.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class HLRBRep_BiPoint;
 class HLRBRep_ListOfBPoint;
 class HLRBRep_ListIteratorOfListOfBPoint;
@@ -58,7 +58,7 @@ private:
 #define TCollection_List HLRBRep_ListOfBPoint
 #define TCollection_List_hxx <HLRBRep_ListOfBPoint.hxx>
 
-#include <TCollection_ListNode.lxx>
+#include <Foundation/TCollection/TCollection_ListNode.lxx>
 
 #undef Item
 #undef Item_hxx

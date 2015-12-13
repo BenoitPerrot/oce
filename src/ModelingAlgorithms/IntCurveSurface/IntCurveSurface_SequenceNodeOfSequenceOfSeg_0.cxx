@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(IntCurveSurface_SequenceNodeOfSequenceOfSeg)
 #define TCollection_SequenceNode_Type_() IntCurveSurface_SequenceNodeOfSequenceOfSeg_Type_()
 #define TCollection_Sequence IntCurveSurface_SequenceOfSeg
 #define TCollection_Sequence_hxx <IntCurveSurface_SequenceOfSeg.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

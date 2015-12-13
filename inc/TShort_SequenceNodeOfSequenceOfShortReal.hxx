@@ -11,8 +11,8 @@
 #include <Handle_TShort_SequenceNodeOfSequenceOfShortReal.hxx>
 
 #include <Foundation/Standard/Standard_ShortReal.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class TShort_SequenceOfShortReal;
 
 
@@ -54,7 +54,7 @@ private:
 #define TCollection_Sequence TShort_SequenceOfShortReal
 #define TCollection_Sequence_hxx <TShort_SequenceOfShortReal.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

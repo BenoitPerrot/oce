@@ -40,8 +40,8 @@
 #include <TColStd_ListOfInteger.hxx>
 #include <TColStd_SequenceOfAsciiString.hxx>
 
-#include <TCollection_AsciiString.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 
 #include <TDF_Attribute.hxx>
 #include <TDF_TagSource.hxx>

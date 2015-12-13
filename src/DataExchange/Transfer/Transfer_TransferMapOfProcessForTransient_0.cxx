@@ -26,5 +26,5 @@
 #define TCollection_IndexedDataMapNode_Type_() Transfer_IndexedDataMapNodeOfTransferMapOfProcessForTransient_Type_()
 #define TCollection_IndexedDataMap Transfer_TransferMapOfProcessForTransient
 #define TCollection_IndexedDataMap_hxx <Transfer_TransferMapOfProcessForTransient.hxx>
-#include <TCollection_IndexedDataMap.gxx>
+#include <Foundation/TCollection/TCollection_IndexedDataMap.gxx>
 

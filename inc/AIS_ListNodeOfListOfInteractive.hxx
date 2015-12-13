@@ -11,8 +11,8 @@
 #include <Handle_AIS_ListNodeOfListOfInteractive.hxx>
 
 #include <Handle_AIS_InteractiveObject.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class AIS_InteractiveObject;
 class AIS_ListOfInteractive;
 class AIS_ListIteratorOfListOfInteractive;
@@ -58,7 +58,7 @@ private:
 #define TCollection_List AIS_ListOfInteractive
 #define TCollection_List_hxx <AIS_ListOfInteractive.hxx>
 
-#include <TCollection_ListNode.lxx>
+#include <Foundation/TCollection/TCollection_ListNode.lxx>
 
 #undef Item
 #undef Item_hxx

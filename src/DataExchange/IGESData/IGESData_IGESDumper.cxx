@@ -23,7 +23,7 @@
 #include <Interface_EntityIterator.hxx>
 #include <IGESData_SpecificLib.hxx>
 #include <IGESData_SpecificModule.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 
 IGESData_IGESDumper::IGESData_IGESDumper

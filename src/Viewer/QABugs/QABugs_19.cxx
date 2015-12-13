@@ -46,7 +46,7 @@
 #include <BRepAlgo_Cut.hxx>
 #include <Foundation/NCollection/NCollection_Map.hxx>
 #include <Foundation/NCollection/NCollection_Handle.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <GeomFill_Trihedron.hxx>
 #include <BRepOffsetAPI_MakePipe.hxx>
 

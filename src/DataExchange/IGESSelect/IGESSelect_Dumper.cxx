@@ -13,7 +13,7 @@
 
 #include <IFSelect_SessionFile.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <IGESSelect_Dumper.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESSelect_Dumper)
@@ -50,8 +50,8 @@ IMPLEMENT_STANDARD_RTTI(IGESSelect_Dumper)
 #include <IGESSelect_ChangeLevelNumber.hxx>
 #include <IGESSelect_SplineToBSpline.hxx>
 
-#include <TCollection_AsciiString.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <IFSelect_IntParam.hxx>
 
 #include <Interface_Macros.hxx>

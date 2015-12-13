@@ -16,7 +16,7 @@
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <Foundation/Storage/Storage_Schema.hxx>
 #include <Foundation/Storage/Storage_TypeData.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TColStd_HSequenceOfAsciiString.hxx>
 
 IMPLEMENT_STANDARD_TYPE(Storage_TypeData)

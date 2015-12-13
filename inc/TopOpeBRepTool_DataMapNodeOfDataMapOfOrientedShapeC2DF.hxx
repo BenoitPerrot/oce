@@ -12,8 +12,8 @@
 
 #include <TopoDS_Shape.hxx>
 #include <TopOpeBRepTool_C2DF.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class TopoDS_Shape;
 class TopOpeBRepTool_C2DF;
 class TopTools_OrientedShapeMapHasher;
@@ -68,7 +68,7 @@ private:
 #define TCollection_DataMap TopOpeBRepTool_DataMapOfOrientedShapeC2DF
 #define TCollection_DataMap_hxx <TopOpeBRepTool_DataMapOfOrientedShapeC2DF.hxx>
 
-#include <TCollection_DataMapNode.lxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

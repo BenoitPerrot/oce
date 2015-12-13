@@ -17,7 +17,7 @@
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <BinMDF_ADriverTable.hxx>
 #include <CDM_MessageDriver.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <BinLDrivers.hxx>
 #include <BinMDF.hxx>
 #include <BinMDataStd.hxx>

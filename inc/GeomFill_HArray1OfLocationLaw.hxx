@@ -78,7 +78,7 @@ private:
 #define Handle_TCollection_HArray1 Handle_GeomFill_HArray1OfLocationLaw
 #define TCollection_HArray1_Type_() GeomFill_HArray1OfLocationLaw_Type_()
 
-#include <TCollection_HArray1.lxx>
+#include <Foundation/TCollection/TCollection_HArray1.lxx>
 
 #undef ItemHArray1
 #undef ItemHArray1_hxx

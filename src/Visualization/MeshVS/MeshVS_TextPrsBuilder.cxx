@@ -18,7 +18,7 @@
 #include <MeshVS_DataSource.hxx>
 #include <Prs3d_Presentation.hxx>
 #include <MeshVS_DataMapOfIntegerAsciiString.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <MeshVS_TextPrsBuilder.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MeshVS_TextPrsBuilder)
@@ -42,7 +42,7 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_TextPrsBuilder)
 #include <Graphic3d_Vertex.hxx>
 #include <Graphic3d_AspectMarker3d.hxx>
 #include <TColStd_Array1OfReal.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TColStd_MapIteratorOfPackedMapOfInteger.hxx>
 #include <TColStd_HPackedMapOfInteger.hxx>
 

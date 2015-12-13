@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <XSControl_WorkSession.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <TDF_Label.hxx>
 #include <STEPCAFControl_ExternFile.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

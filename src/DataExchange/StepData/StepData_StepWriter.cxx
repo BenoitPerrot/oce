@@ -21,8 +21,8 @@
 #include <Interface_FloatWriter.hxx>
 #include <StepData_Protocol.hxx>
 #include <StepData_WriterLib.hxx>
-#include <TCollection_AsciiString.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepData_Field.hxx>
 #include <StepData_PDescr.hxx>
 #include <StepData_SelectMember.hxx>
@@ -36,7 +36,7 @@
 #include <StepData_ReadWriteModule.hxx>
 #include <StepData_Protocol.hxx>
 #include <StepData_UndefinedEntity.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepData_SelectMember.hxx>
 #include <StepData_SelectArrReal.hxx>
 

@@ -13,7 +13,7 @@
 
 #include <StepGeom_Curve.hxx>
 #include <StepGeom_HArray1OfTrimmingSelect.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepGeom_TrimmingSelect.hxx>
 #include <StepGeom_TrimmedCurve.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

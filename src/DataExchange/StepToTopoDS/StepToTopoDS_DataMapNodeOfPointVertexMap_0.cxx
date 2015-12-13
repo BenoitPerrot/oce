@@ -44,5 +44,5 @@ IMPLEMENT_STANDARD_RTTI(StepToTopoDS_DataMapNodeOfPointVertexMap)
 #define TCollection_DataMapNode_Type_() StepToTopoDS_DataMapNodeOfPointVertexMap_Type_()
 #define TCollection_DataMap StepToTopoDS_PointVertexMap
 #define TCollection_DataMap_hxx <StepToTopoDS_PointVertexMap.hxx>
-#include <TCollection_DataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

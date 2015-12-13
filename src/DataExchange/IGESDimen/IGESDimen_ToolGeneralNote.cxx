@@ -31,7 +31,7 @@
 #include <IGESDimen_ToolGeneralNote.hxx>
 #include <IGESData_ParamCursor.hxx>
 #include <IGESGraph_TextFontDef.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <gp_XYZ.hxx>
 #include <gp_Pnt.hxx>
 #include <TColgp_HArray1OfXYZ.hxx>

@@ -39,7 +39,7 @@ IMPLEMENT_STANDARD_RTTI(DDF_Data)
 
 #include <Foundation/Standard/Standard_GUID.hxx>
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 #include <TDF_Attribute.hxx>
 #include <TDF_Label.hxx>

@@ -33,7 +33,7 @@
 #include <TopTools_DataMapOfOrientedShapeShape.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 
 #include <DDF.hxx>

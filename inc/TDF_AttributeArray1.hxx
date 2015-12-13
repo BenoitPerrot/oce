@@ -97,7 +97,7 @@ private:
 #define TCollection_Array1 TDF_AttributeArray1
 #define TCollection_Array1_hxx <TDF_AttributeArray1.hxx>
 
-#include <TCollection_Array1.lxx>
+#include <Foundation/TCollection/TCollection_Array1.lxx>
 
 #undef Array1Item
 #undef Array1Item_hxx

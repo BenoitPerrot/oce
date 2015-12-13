@@ -45,7 +45,7 @@
 #include <TopTools_DataMapOfShapeInteger.hxx>
 #include <gp_Pnt.hxx>
 #include <TopoDS_Face.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TopOpeBRepBuild_Builder.hxx>
 #include <TopOpeBRepBuild_define.hxx>
 #include <stdio.h>
@@ -88,7 +88,7 @@
 #include <Geom_Parabola.hxx>
 #include <Geom_BezierCurve.hxx>
 #include <Geom_BSplineCurve.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TopOpeBRepBuild_WireEdgeSet.hxx>
 
 #ifdef OCCT_DEBUG

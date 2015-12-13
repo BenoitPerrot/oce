@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() IFSelect_SequenceNodeOfSequenceOfAppliedModifiers_Type_()
 #define TCollection_Sequence IFSelect_SequenceOfAppliedModifiers
 #define TCollection_Sequence_hxx <IFSelect_SequenceOfAppliedModifiers.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

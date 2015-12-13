@@ -17,7 +17,7 @@
 
 #include <StepElement_HArray1OfMeasureOrUnspecifiedValue.hxx>
 #include <TColStd_HArray1OfReal.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepElement_MeasureOrUnspecifiedValue.hxx>
 #include <StepElement_CurveElementSectionDerivedDefinitions.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

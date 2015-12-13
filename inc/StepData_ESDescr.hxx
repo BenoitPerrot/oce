@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepData_ESDescr.hxx>
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Handle_TColStd_HArray1OfTransient.hxx>
 #include <Handle_Dico_DictionaryOfInteger.hxx>
 #include <Handle_StepData_ESDescr.hxx>

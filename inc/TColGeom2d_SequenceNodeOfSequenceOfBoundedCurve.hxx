@@ -11,8 +11,8 @@
 #include <Handle_TColGeom2d_SequenceNodeOfSequenceOfBoundedCurve.hxx>
 
 #include <Handle_Geom2d_BoundedCurve.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class Geom2d_BoundedCurve;
 class TColGeom2d_SequenceOfBoundedCurve;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence TColGeom2d_SequenceOfBoundedCurve
 #define TCollection_Sequence_hxx <TColGeom2d_SequenceOfBoundedCurve.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

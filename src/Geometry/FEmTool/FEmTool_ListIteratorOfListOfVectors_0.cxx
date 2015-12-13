@@ -22,5 +22,5 @@
 #define TCollection_ListNode_Type_() FEmTool_ListNodeOfListOfVectors_Type_()
 #define TCollection_List FEmTool_ListOfVectors
 #define TCollection_List_hxx <FEmTool_ListOfVectors.hxx>
-#include <TCollection_ListIterator.gxx>
+#include <Foundation/TCollection/TCollection_ListIterator.gxx>
 

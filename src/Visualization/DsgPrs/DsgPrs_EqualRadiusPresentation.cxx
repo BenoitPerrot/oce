@@ -31,7 +31,7 @@
 #include <gp_Vec.hxx>
 #include <gp_Pln.hxx>
 #include <Precision.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Prs3d_Text.hxx>
 
 void DsgPrs_EqualRadiusPresentation::Add( const Handle( Prs3d_Presentation )& aPresentation,

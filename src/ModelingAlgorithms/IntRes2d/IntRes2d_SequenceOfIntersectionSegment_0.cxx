@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() IntRes2d_SequenceNodeOfSequenceOfIntersectionSegment_Type_()
 #define TCollection_Sequence IntRes2d_SequenceOfIntersectionSegment
 #define TCollection_Sequence_hxx <IntRes2d_SequenceOfIntersectionSegment.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

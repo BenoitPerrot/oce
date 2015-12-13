@@ -11,8 +11,8 @@
 #include <Handle_BRepCheck_ListNodeOfListOfStatus.hxx>
 
 #include <BRepCheck_Status.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class BRepCheck_ListOfStatus;
 class BRepCheck_ListIteratorOfListOfStatus;
 
@@ -57,7 +57,7 @@ private:
 #define TCollection_List BRepCheck_ListOfStatus
 #define TCollection_List_hxx <BRepCheck_ListOfStatus.hxx>
 
-#include <TCollection_ListNode.lxx>
+#include <Foundation/TCollection/TCollection_ListNode.lxx>
 
 #undef Item
 #undef Item_hxx

@@ -21,7 +21,7 @@
 #include <TDataStd_HDataMapOfStringHArray1OfReal.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <TDF_Label.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <TColStd_DataMapOfStringInteger.hxx>
 #include <TDataStd_DataMapOfStringReal.hxx>
 #include <TDataStd_DataMapOfStringString.hxx>

@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(IFSelect_SequenceNodeOfSequenceOfGeneralModifier)
 #define TCollection_SequenceNode_Type_() IFSelect_SequenceNodeOfSequenceOfGeneralModifier_Type_()
 #define TCollection_Sequence IFSelect_SequenceOfGeneralModifier
 #define TCollection_Sequence_hxx <IFSelect_SequenceOfGeneralModifier.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

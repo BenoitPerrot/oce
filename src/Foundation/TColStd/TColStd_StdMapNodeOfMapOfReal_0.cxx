@@ -40,5 +40,5 @@ IMPLEMENT_STANDARD_RTTI(TColStd_StdMapNodeOfMapOfReal)
 #define TCollection_StdMapNode_Type_() TColStd_StdMapNodeOfMapOfReal_Type_()
 #define TCollection_Map TColStd_MapOfReal
 #define TCollection_Map_hxx <TColStd_MapOfReal.hxx>
-#include <TCollection_StdMapNode.gxx>
+#include <Foundation/TCollection/TCollection_StdMapNode.gxx>
 

@@ -16,5 +16,5 @@
 #define Array1Item_hxx <StepGeom_CompositeCurveSegment.hxx>
 #define TCollection_Array1 StepGeom_Array1OfCompositeCurveSegment
 #define TCollection_Array1_hxx <StepGeom_Array1OfCompositeCurveSegment.hxx>
-#include <TCollection_Array1.gxx>
+#include <Foundation/TCollection/TCollection_Array1.gxx>
 

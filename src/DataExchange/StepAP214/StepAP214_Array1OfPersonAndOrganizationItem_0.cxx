@@ -16,5 +16,5 @@
 #define Array1Item_hxx <StepAP214_PersonAndOrganizationItem.hxx>
 #define TCollection_Array1 StepAP214_Array1OfPersonAndOrganizationItem
 #define TCollection_Array1_hxx <StepAP214_Array1OfPersonAndOrganizationItem.hxx>
-#include <TCollection_Array1.gxx>
+#include <Foundation/TCollection/TCollection_Array1.gxx>
 

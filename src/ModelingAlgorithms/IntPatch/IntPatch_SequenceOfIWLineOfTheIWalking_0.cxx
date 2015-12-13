@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() IntPatch_SequenceNodeOfSequenceOfIWLineOfTheIWalking_Type_()
 #define TCollection_Sequence IntPatch_SequenceOfIWLineOfTheIWalking
 #define TCollection_Sequence_hxx <IntPatch_SequenceOfIWLineOfTheIWalking.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

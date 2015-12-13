@@ -11,8 +11,8 @@
 #include <Handle_MeshVS_StdMapNodeOfMapOfTwoNodes.hxx>
 
 #include <MeshVS_TwoNodes.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class MeshVS_TwoNodesHasher;
 class MeshVS_MapOfTwoNodes;
 class MeshVS_MapIteratorOfMapOfTwoNodes;
@@ -60,7 +60,7 @@ private:
 #define TCollection_Map MeshVS_MapOfTwoNodes
 #define TCollection_Map_hxx <MeshVS_MapOfTwoNodes.hxx>
 
-#include <TCollection_StdMapNode.lxx>
+#include <Foundation/TCollection/TCollection_StdMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

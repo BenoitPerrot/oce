@@ -28,5 +28,5 @@
 #define TCollection_DataMapNode_Type_() STEPCAFControl_DataMapNodeOfDataMapOfLabelExternFile_Type_()
 #define TCollection_DataMap STEPCAFControl_DataMapOfLabelExternFile
 #define TCollection_DataMap_hxx <STEPCAFControl_DataMapOfLabelExternFile.hxx>
-#include <TCollection_DataMap.gxx>
+#include <Foundation/TCollection/TCollection_DataMap.gxx>
 

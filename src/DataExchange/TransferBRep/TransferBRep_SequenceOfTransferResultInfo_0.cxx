@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() TransferBRep_SequenceNodeOfSequenceOfTransferResultInfo_Type_()
 #define TCollection_Sequence TransferBRep_SequenceOfTransferResultInfo
 #define TCollection_Sequence_hxx <TransferBRep_SequenceOfTransferResultInfo.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

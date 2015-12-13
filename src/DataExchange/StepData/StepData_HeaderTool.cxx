@@ -13,7 +13,7 @@
 
 #include <StepData_StepReaderData.hxx>
 #include <TColStd_SequenceOfAsciiString.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <StepData_Protocol.hxx>
 #include <StepData_FileProtocol.hxx>
 #include <StepData_HeaderTool.hxx>

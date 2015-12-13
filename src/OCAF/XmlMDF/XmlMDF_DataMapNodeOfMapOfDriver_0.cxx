@@ -8,7 +8,7 @@
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <XmlMDF_ADriver.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <XmlMDF_MapOfDriver.hxx>
 #include <XmlMDF_DataMapIteratorOfMapOfDriver.hxx>
 
@@ -30,11 +30,11 @@ IMPLEMENT_STANDARD_RTTI(XmlMDF_DataMapNodeOfMapOfDriver)
 
 
 #define TheKey TCollection_AsciiString
-#define TheKey_hxx <TCollection_AsciiString.hxx>
+#define TheKey_hxx <Foundation/TCollection/TCollection_AsciiString.hxx>
 #define TheItem Handle(XmlMDF_ADriver)
 #define TheItem_hxx <XmlMDF_ADriver.hxx>
 #define Hasher TCollection_AsciiString
-#define Hasher_hxx <TCollection_AsciiString.hxx>
+#define Hasher_hxx <Foundation/TCollection/TCollection_AsciiString.hxx>
 #define TCollection_DataMapNode XmlMDF_DataMapNodeOfMapOfDriver
 #define TCollection_DataMapNode_hxx <XmlMDF_DataMapNodeOfMapOfDriver.hxx>
 #define TCollection_DataMapIterator XmlMDF_DataMapIteratorOfMapOfDriver
@@ -43,5 +43,5 @@ IMPLEMENT_STANDARD_RTTI(XmlMDF_DataMapNodeOfMapOfDriver)
 #define TCollection_DataMapNode_Type_() XmlMDF_DataMapNodeOfMapOfDriver_Type_()
 #define TCollection_DataMap XmlMDF_MapOfDriver
 #define TCollection_DataMap_hxx <XmlMDF_MapOfDriver.hxx>
-#include <TCollection_DataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

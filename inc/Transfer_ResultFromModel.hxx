@@ -11,7 +11,7 @@
 #include <Handle_Transfer_ResultFromModel.hxx>
 
 #include <Handle_Interface_InterfaceModel.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Handle_Transfer_ResultFromTransient.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Interface_CheckStatus.hxx>

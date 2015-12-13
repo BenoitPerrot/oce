@@ -23,7 +23,7 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geom_SphericalSurface.hxx>
 #include <StepGeom_SphericalSurface.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <UnitsMethods.hxx>
 
 //=============================================================================

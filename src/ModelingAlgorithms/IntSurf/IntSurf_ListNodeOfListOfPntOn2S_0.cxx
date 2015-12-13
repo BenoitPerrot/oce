@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(IntSurf_ListNodeOfListOfPntOn2S)
 #define TCollection_ListNode_Type_() IntSurf_ListNodeOfListOfPntOn2S_Type_()
 #define TCollection_List IntSurf_ListOfPntOn2S
 #define TCollection_List_hxx <IntSurf_ListOfPntOn2S.hxx>
-#include <TCollection_ListNode.gxx>
+#include <Foundation/TCollection/TCollection_ListNode.gxx>
 

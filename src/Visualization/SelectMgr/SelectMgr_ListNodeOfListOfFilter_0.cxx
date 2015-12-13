@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(SelectMgr_ListNodeOfListOfFilter)
 #define TCollection_ListNode_Type_() SelectMgr_ListNodeOfListOfFilter_Type_()
 #define TCollection_List SelectMgr_ListOfFilter
 #define TCollection_List_hxx <SelectMgr_ListOfFilter.hxx>
-#include <TCollection_ListNode.gxx>
+#include <Foundation/TCollection/TCollection_ListNode.gxx>
 

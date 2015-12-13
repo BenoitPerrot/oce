@@ -13,7 +13,7 @@
 
 #include <StepAP214_HArray1OfAutoDesignReferencingItem.hxx>
 #include <StepBasic_Document.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepAP214_AutoDesignReferencingItem.hxx>
 #include <StepAP214_AutoDesignDocumentReference.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

@@ -16,5 +16,5 @@
 #define Array1Item_hxx <Foundation/Standard/Standard_Persistent.hxx>
 #define TCollection_Array1 Storage_PArray
 #define TCollection_Array1_hxx <Foundation/Storage/Storage_PArray.hxx>
-#include <TCollection_Array1.gxx>
+#include <Foundation/TCollection/TCollection_Array1.gxx>
 

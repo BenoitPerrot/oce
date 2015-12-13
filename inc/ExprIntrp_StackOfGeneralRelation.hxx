@@ -108,7 +108,7 @@ private:
 #define TCollection_List ExprIntrp_StackOfGeneralRelation
 #define TCollection_List_hxx <ExprIntrp_StackOfGeneralRelation.hxx>
 
-#include <TCollection_List.lxx>
+#include <Foundation/TCollection/TCollection_List.lxx>
 
 #undef Item
 #undef Item_hxx

@@ -24,7 +24,7 @@
 #include <Expr_NamedFunction.hxx>
 #include <Expr_Array1OfNamedUnknown.hxx>
 #include <TColStd_Array1OfReal.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Expr_FunctionDerivative.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Expr_FunctionDerivative)

@@ -21,5 +21,5 @@
 #define TCollection_IndexedMapNode_Type_() TColStd_IndexedMapNodeOfIndexedMapOfReal_Type_()
 #define TCollection_IndexedMap TColStd_IndexedMapOfReal
 #define TCollection_IndexedMap_hxx <TColStd_IndexedMapOfReal.hxx>
-#include <TCollection_IndexedMap.gxx>
+#include <Foundation/TCollection/TCollection_IndexedMap.gxx>
 

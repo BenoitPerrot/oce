@@ -26,5 +26,5 @@
 #define TCollection_IndexedDataMapNode_Type_() TopOpeBRepDS_IndexedDataMapNodeOfIndexedDataMapOfVertexPoint_Type_()
 #define TCollection_IndexedDataMap TopOpeBRepDS_IndexedDataMapOfVertexPoint
 #define TCollection_IndexedDataMap_hxx <TopOpeBRepDS_IndexedDataMapOfVertexPoint.hxx>
-#include <TCollection_IndexedDataMap.gxx>
+#include <Foundation/TCollection/TCollection_IndexedDataMap.gxx>
 

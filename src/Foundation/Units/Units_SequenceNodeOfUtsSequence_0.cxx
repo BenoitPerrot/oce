@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(Units_SequenceNodeOfUtsSequence)
 #define TCollection_SequenceNode_Type_() Units_SequenceNodeOfUtsSequence_Type_()
 #define TCollection_Sequence Units_UtsSequence
 #define TCollection_Sequence_hxx <Units_UtsSequence.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_TYPE_END(IGESSelect_IGESName)
 IMPLEMENT_DOWNCAST(IGESSelect_IGESName,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESSelect_IGESName)
 #include <IGESData_IGESEntity.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Interface_Macros.hxx>
 
 static char falsetype [] = "?";

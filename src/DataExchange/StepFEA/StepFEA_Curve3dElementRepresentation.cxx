@@ -19,7 +19,7 @@
 #include <StepElement_Curve3dElementDescriptor.hxx>
 #include <StepFEA_Curve3dElementProperty.hxx>
 #include <StepElement_ElementMaterial.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepRepr_HArray1OfRepresentationItem.hxx>
 #include <StepRepr_RepresentationContext.hxx>
 #include <StepFEA_HArray1OfNodeRepresentation.hxx>

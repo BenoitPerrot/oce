@@ -11,8 +11,8 @@
 #include <Handle_XCAFDoc_SequenceNodeOfGraphNodeSequence.hxx>
 
 #include <Handle_XCAFDoc_GraphNode.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class XCAFDoc_GraphNode;
 class XCAFDoc_GraphNodeSequence;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence XCAFDoc_GraphNodeSequence
 #define TCollection_Sequence_hxx <XCAFDoc_GraphNodeSequence.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_RTTI(MNaming_NamingRetrievalDriver_1)
 #include <PNaming_HArray1OfNamedShape.hxx>
 #include <PNaming_Name_1.hxx>
 #include <PCollection_HAsciiString.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TDF_Tool.hxx>
 #include <TNaming_NamedShape.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>

@@ -41,5 +41,5 @@ IMPLEMENT_STANDARD_RTTI(AIS_IndexedDataMapNodeOfIndexedDataMapOfOwnerPrs)
 #define TCollection_IndexedDataMapNode_Type_() AIS_IndexedDataMapNodeOfIndexedDataMapOfOwnerPrs_Type_()
 #define TCollection_IndexedDataMap AIS_IndexedDataMapOfOwnerPrs
 #define TCollection_IndexedDataMap_hxx <AIS_IndexedDataMapOfOwnerPrs.hxx>
-#include <TCollection_IndexedDataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_IndexedDataMapNode.gxx>
 

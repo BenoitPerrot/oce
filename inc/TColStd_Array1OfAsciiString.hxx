@@ -92,11 +92,11 @@ private:
 };
 
 #define Array1Item TCollection_AsciiString
-#define Array1Item_hxx <TCollection_AsciiString.hxx>
+#define Array1Item_hxx <Foundation/TCollection/TCollection_AsciiString.hxx>
 #define TCollection_Array1 TColStd_Array1OfAsciiString
 #define TCollection_Array1_hxx <TColStd_Array1OfAsciiString.hxx>
 
-#include <TCollection_Array1.lxx>
+#include <Foundation/TCollection/TCollection_Array1.lxx>
 
 #undef Array1Item
 #undef Array1Item_hxx

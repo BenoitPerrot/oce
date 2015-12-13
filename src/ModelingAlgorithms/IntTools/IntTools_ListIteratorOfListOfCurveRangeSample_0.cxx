@@ -22,5 +22,5 @@
 #define TCollection_ListNode_Type_() IntTools_ListNodeOfListOfCurveRangeSample_Type_()
 #define TCollection_List IntTools_ListOfCurveRangeSample
 #define TCollection_List_hxx <IntTools_ListOfCurveRangeSample.hxx>
-#include <TCollection_ListIterator.gxx>
+#include <Foundation/TCollection/TCollection_ListIterator.gxx>
 

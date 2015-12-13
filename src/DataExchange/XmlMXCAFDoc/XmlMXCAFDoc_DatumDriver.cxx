@@ -29,7 +29,7 @@ IMPLEMENT_DOWNCAST(XmlMXCAFDoc_DatumDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlMXCAFDoc_DatumDriver)
 #include <XmlObjMgt.hxx>
 #include <XCAFDoc_Datum.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <TColStd_HArray1OfReal.hxx>
 
 IMPLEMENT_DOMSTRING (DescrIndexString, "descr")

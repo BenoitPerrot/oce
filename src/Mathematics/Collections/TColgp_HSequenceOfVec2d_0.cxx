@@ -36,5 +36,5 @@ IMPLEMENT_STANDARD_RTTI(TColgp_HSequenceOfVec2d)
 #define TCollection_HSequence_hxx <TColgp_HSequenceOfVec2d.hxx>
 #define Handle_TCollection_HSequence Handle_TColgp_HSequenceOfVec2d
 #define TCollection_HSequence_Type_() TColgp_HSequenceOfVec2d_Type_()
-#include <TCollection_HSequence.gxx>
+#include <Foundation/TCollection/TCollection_HSequence.gxx>
 

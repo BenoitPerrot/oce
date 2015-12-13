@@ -16,5 +16,5 @@
 #define Array1Item_hxx <Geom_BSplineCurve.hxx>
 #define TCollection_Array1 TColGeom_Array1OfBSplineCurve
 #define TCollection_Array1_hxx <TColGeom_Array1OfBSplineCurve.hxx>
-#include <TCollection_Array1.gxx>
+#include <Foundation/TCollection/TCollection_Array1.gxx>
 

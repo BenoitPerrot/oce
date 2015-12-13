@@ -28,5 +28,5 @@
 #define TCollection_DataMapNode_Type_() STEPCAFControl_DataMapNodeOfDataMapOfSDRExternFile_Type_()
 #define TCollection_DataMap STEPCAFControl_DataMapOfSDRExternFile
 #define TCollection_DataMap_hxx <STEPCAFControl_DataMapOfSDRExternFile.hxx>
-#include <TCollection_DataMap.gxx>
+#include <Foundation/TCollection/TCollection_DataMap.gxx>
 

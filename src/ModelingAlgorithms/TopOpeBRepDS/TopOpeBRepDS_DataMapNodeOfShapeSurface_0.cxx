@@ -44,5 +44,5 @@ IMPLEMENT_STANDARD_RTTI(TopOpeBRepDS_DataMapNodeOfShapeSurface)
 #define TCollection_DataMapNode_Type_() TopOpeBRepDS_DataMapNodeOfShapeSurface_Type_()
 #define TCollection_DataMap TopOpeBRepDS_ShapeSurface
 #define TCollection_DataMap_hxx <TopOpeBRepDS_ShapeSurface.hxx>
-#include <TCollection_DataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

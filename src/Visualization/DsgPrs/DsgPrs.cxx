@@ -24,8 +24,8 @@
 #include <gp_Elips.hxx>
 #include <DsgPrs.hxx>
 
-#include <TCollection_AsciiString.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Prs3d_Arrow.hxx>
 #include <Prs3d_Root.hxx>
 #include <Prs3d_LineAspect.hxx>

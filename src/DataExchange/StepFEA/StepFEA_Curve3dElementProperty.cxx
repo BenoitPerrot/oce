@@ -15,7 +15,7 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepFEA_HArray1OfCurveElementInterval.hxx>
 #include <StepFEA_HArray1OfCurveElementEndOffset.hxx>
 #include <StepFEA_HArray1OfCurveElementEndRelease.hxx>

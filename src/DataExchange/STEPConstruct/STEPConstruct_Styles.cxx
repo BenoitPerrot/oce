@@ -31,7 +31,7 @@
 #include <STEPConstruct_Styles.hxx>
 #include <STEPConstruct.hxx>
 
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <TopoDS_Iterator.hxx>
 
 #include <XSControl_TransferReader.hxx>

@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(Bnd_HArray1OfSphere)
 #define TCollection_HArray1_hxx <Bnd_HArray1OfSphere.hxx>
 #define Handle_TCollection_HArray1 Handle_Bnd_HArray1OfSphere
 #define TCollection_HArray1_Type_() Bnd_HArray1OfSphere_Type_()
-#include <TCollection_HArray1.gxx>
+#include <Foundation/TCollection/TCollection_HArray1.gxx>
 

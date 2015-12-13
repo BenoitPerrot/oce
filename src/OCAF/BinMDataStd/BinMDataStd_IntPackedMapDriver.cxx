@@ -37,7 +37,7 @@ IMPLEMENT_STANDARD_RTTI(BinMDataStd_IntPackedMapDriver)
 #include <BinObjMgt_Persistent.hxx>
 #include <BinObjMgt_RRelocationTable.hxx>
 #include <BinObjMgt_SRelocationTable.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <BinMDataStd.hxx>
 //=======================================================================
 //function : BinMDataStd_IntPackedMapDriver

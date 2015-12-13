@@ -72,7 +72,7 @@
 
 #include <Foundation/SortTools/SortTools_StraightInsertionSortOfReal.hxx>
 #include <Foundation/SortTools/SortTools_ShellSortOfReal.hxx>
-#include <TCollection_CompareOfReal.hxx>
+#include <Foundation/TCollection/TCollection_CompareOfReal.hxx>
 #include <TColStd_HArray2OfInteger.hxx>
 #include <TColStd_Array2OfInteger.hxx>
 #include <TColStd_Array2OfReal.hxx>

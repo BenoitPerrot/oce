@@ -28,5 +28,5 @@
 #define TCollection_DataMapNode_Type_() BRepFill_DataMapNodeOfDataMapOfShapeHArray2OfShape_Type_()
 #define TCollection_DataMap BRepFill_DataMapOfShapeHArray2OfShape
 #define TCollection_DataMap_hxx <BRepFill_DataMapOfShapeHArray2OfShape.hxx>
-#include <TCollection_DataMap.gxx>
+#include <Foundation/TCollection/TCollection_DataMap.gxx>
 

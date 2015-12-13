@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(TopOpeBRepBuild_ListNodeOfListOfShapeListOfShape)
 #define TCollection_ListNode_Type_() TopOpeBRepBuild_ListNodeOfListOfShapeListOfShape_Type_()
 #define TCollection_List TopOpeBRepBuild_ListOfShapeListOfShape
 #define TCollection_List_hxx <TopOpeBRepBuild_ListOfShapeListOfShape.hxx>
-#include <TCollection_ListNode.gxx>
+#include <Foundation/TCollection/TCollection_ListNode.gxx>
 

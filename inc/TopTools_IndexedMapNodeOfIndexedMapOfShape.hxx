@@ -12,8 +12,8 @@
 
 #include <TopoDS_Shape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <TCollection_MapNodePtr.hxx>
-#include <TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
 class TopoDS_Shape;
 class TopTools_ShapeMapHasher;
 class TopTools_IndexedMapOfShape;
@@ -65,7 +65,7 @@ private:
 #define TCollection_IndexedMap TopTools_IndexedMapOfShape
 #define TCollection_IndexedMap_hxx <TopTools_IndexedMapOfShape.hxx>
 
-#include <TCollection_IndexedMapNode.lxx>
+#include <Foundation/TCollection/TCollection_IndexedMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

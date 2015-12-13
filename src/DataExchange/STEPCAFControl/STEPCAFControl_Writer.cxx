@@ -24,7 +24,7 @@
 #include <XSControl_WorkSession.hxx>
 #include <TDocStd_Document.hxx>
 #include <TDF_Label.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <STEPCAFControl_ExternFile.hxx>
 #include <STEPControl_Writer.hxx>
 #include <TDF_LabelSequence.hxx>
@@ -53,8 +53,8 @@
 #include <StepRepr_PropertyDefinition.hxx>
 #include <StepBasic_ProductDefinition.hxx>
 #include <StepBasic_Product.hxx>
-#include <TCollection_HAsciiString.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Transfer_FinderProcess.hxx>
 #include <StepBasic_ProductDefinitionFormation.hxx>
 #include <XCAFDoc_DocumentTool.hxx>

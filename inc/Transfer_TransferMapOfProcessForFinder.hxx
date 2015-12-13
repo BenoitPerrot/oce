@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <TCollection_BasicMap.hxx>
+#include <Foundation/TCollection/TCollection_BasicMap.hxx>
 #include <Handle_Transfer_Finder.hxx>
 #include <Handle_Transfer_Binder.hxx>
 #include <Handle_Transfer_IndexedDataMapNodeOfTransferMapOfProcessForFinder.hxx>

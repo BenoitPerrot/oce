@@ -104,7 +104,7 @@ private:
 #define TCollection_Array2 TShort_Array2OfShortReal
 #define TCollection_Array2_hxx <TShort_Array2OfShortReal.hxx>
 
-#include <TCollection_Array2.lxx>
+#include <Foundation/TCollection/TCollection_Array2.lxx>
 
 #undef Array2Item
 #undef Array2Item_hxx

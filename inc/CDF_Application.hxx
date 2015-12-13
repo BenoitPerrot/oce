@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_CDF_Application.hxx>
 
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <PCDM_ReaderStatus.hxx>
 #include <CDM_Application.hxx>
 #include <Handle_CDM_Document.hxx>

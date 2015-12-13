@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(IntPatch_SequenceNodeOfSequenceOfLine)
 #define TCollection_SequenceNode_Type_() IntPatch_SequenceNodeOfSequenceOfLine_Type_()
 #define TCollection_Sequence IntPatch_SequenceOfLine
 #define TCollection_Sequence_hxx <IntPatch_SequenceOfLine.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

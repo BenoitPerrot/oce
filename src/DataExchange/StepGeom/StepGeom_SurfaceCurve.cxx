@@ -13,7 +13,7 @@
 
 #include <StepGeom_Curve.hxx>
 #include <StepGeom_HArray1OfPcurveOrSurface.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepGeom_PcurveOrSurface.hxx>
 #include <StepGeom_SurfaceCurve.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

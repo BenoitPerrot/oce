@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() AIS_SequenceNodeOfSequenceOfInteractive_Type_()
 #define TCollection_Sequence AIS_SequenceOfInteractive
 #define TCollection_Sequence_hxx <AIS_SequenceOfInteractive.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

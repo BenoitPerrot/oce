@@ -16,7 +16,7 @@
 #ifndef TDF_LabelNode_HeaderFile
 #define TDF_LabelNode_HeaderFile
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TDF_Attribute.hxx>
 #include <TDF_LabelNodePtr.hxx>
 #include <TDF_HAllocator.hxx>

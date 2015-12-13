@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() Message_SequenceNodeOfSequenceOfProgressScale_Type_()
 #define TCollection_Sequence Message_SequenceOfProgressScale
 #define TCollection_Sequence_hxx <Foundation/Message/Message_SequenceOfProgressScale.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

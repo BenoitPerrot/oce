@@ -12,8 +12,8 @@
 
 #include <Handle_Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <TCollection_MapNodePtr.hxx>
-#include <TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
 class Standard_Transient;
 class TColStd_MapTransientHasher;
 class TColStd_IndexedDataMapOfTransientTransient;
@@ -70,7 +70,7 @@ private:
 #define TCollection_IndexedDataMap TColStd_IndexedDataMapOfTransientTransient
 #define TCollection_IndexedDataMap_hxx <TColStd_IndexedDataMapOfTransientTransient.hxx>
 
-#include <TCollection_IndexedDataMapNode.lxx>
+#include <Foundation/TCollection/TCollection_IndexedDataMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

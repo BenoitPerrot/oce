@@ -19,7 +19,7 @@
 #include <Graphic3d_Buffer.hxx>
 #include <Foundation/Standard/Standard_Assert.hxx>
 #include <Foundation/Standard/Standard_Atomic.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 
 #include <OpenGl_Context.hxx>
 #include <OpenGl_ShaderProgram.hxx>

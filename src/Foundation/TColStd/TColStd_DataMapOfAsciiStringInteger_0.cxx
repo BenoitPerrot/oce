@@ -7,17 +7,17 @@
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TColStd_DataMapNodeOfDataMapOfAsciiStringInteger.hxx>
 #include <TColStd_DataMapIteratorOfDataMapOfAsciiStringInteger.hxx>
  
 
 #define TheKey TCollection_AsciiString
-#define TheKey_hxx <TCollection_AsciiString.hxx>
+#define TheKey_hxx <Foundation/TCollection/TCollection_AsciiString.hxx>
 #define TheItem Standard_Integer
 #define TheItem_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define Hasher TCollection_AsciiString
-#define Hasher_hxx <TCollection_AsciiString.hxx>
+#define Hasher_hxx <Foundation/TCollection/TCollection_AsciiString.hxx>
 #define TCollection_DataMapNode TColStd_DataMapNodeOfDataMapOfAsciiStringInteger
 #define TCollection_DataMapNode_hxx <TColStd_DataMapNodeOfDataMapOfAsciiStringInteger.hxx>
 #define TCollection_DataMapIterator TColStd_DataMapIteratorOfDataMapOfAsciiStringInteger
@@ -26,5 +26,5 @@
 #define TCollection_DataMapNode_Type_() TColStd_DataMapNodeOfDataMapOfAsciiStringInteger_Type_()
 #define TCollection_DataMap TColStd_DataMapOfAsciiStringInteger
 #define TCollection_DataMap_hxx <TColStd_DataMapOfAsciiStringInteger.hxx>
-#include <TCollection_DataMap.gxx>
+#include <Foundation/TCollection/TCollection_DataMap.gxx>
 

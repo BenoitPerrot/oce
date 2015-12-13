@@ -16,7 +16,7 @@
 #include <STEPCAFControl_DictionaryOfExternFile.hxx>
 #include <XSControl_WorkSession.hxx>
 #include <TDocStd_Document.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <STEPCAFControl_ExternFile.hxx>
 #include <STEPControl_Reader.hxx>
 #include <TDF_LabelSequence.hxx>
@@ -36,7 +36,7 @@
 #include <STEPCAFControl_Reader.hxx>
 
 #include <Foundation/Quantity/Quantity_Color.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Iterator.hxx>
 #include <TopTools_MapOfShape.hxx>

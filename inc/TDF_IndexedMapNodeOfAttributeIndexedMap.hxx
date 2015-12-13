@@ -12,8 +12,8 @@
 
 #include <Handle_TDF_Attribute.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <TCollection_MapNodePtr.hxx>
-#include <TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
 class TDF_Attribute;
 class TColStd_MapTransientHasher;
 class TDF_AttributeIndexedMap;
@@ -65,7 +65,7 @@ private:
 #define TCollection_IndexedMap TDF_AttributeIndexedMap
 #define TCollection_IndexedMap_hxx <TDF_AttributeIndexedMap.hxx>
 
-#include <TCollection_IndexedMapNode.lxx>
+#include <Foundation/TCollection/TCollection_IndexedMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

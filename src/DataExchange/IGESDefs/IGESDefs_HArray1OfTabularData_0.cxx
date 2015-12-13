@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(IGESDefs_HArray1OfTabularData)
 #define TCollection_HArray1_hxx <IGESDefs_HArray1OfTabularData.hxx>
 #define Handle_TCollection_HArray1 Handle_IGESDefs_HArray1OfTabularData
 #define TCollection_HArray1_Type_() IGESDefs_HArray1OfTabularData_Type_()
-#include <TCollection_HArray1.gxx>
+#include <Foundation/TCollection/TCollection_HArray1.gxx>
 

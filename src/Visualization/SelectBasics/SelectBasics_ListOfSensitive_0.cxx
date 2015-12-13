@@ -21,5 +21,5 @@
 #define TCollection_ListNode_Type_() SelectBasics_ListNodeOfListOfSensitive_Type_()
 #define TCollection_List SelectBasics_ListOfSensitive
 #define TCollection_List_hxx <SelectBasics_ListOfSensitive.hxx>
-#include <TCollection_List.gxx>
+#include <Foundation/TCollection/TCollection_List.gxx>
 

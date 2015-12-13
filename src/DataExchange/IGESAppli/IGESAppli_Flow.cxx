@@ -23,7 +23,7 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <IGESData_IGESEntity.hxx>
 #include <IGESDraw_ConnectPoint.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <IGESGraph_TextDisplayTemplate.hxx>
 #include <IGESAppli_Flow.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

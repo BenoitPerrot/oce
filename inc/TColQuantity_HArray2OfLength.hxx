@@ -83,7 +83,7 @@ private:
 #define Handle_TCollection_HArray2 Handle_TColQuantity_HArray2OfLength
 #define TCollection_HArray2_Type_() TColQuantity_HArray2OfLength_Type_()
 
-#include <TCollection_HArray2.lxx>
+#include <Foundation/TCollection/TCollection_HArray2.lxx>
 
 #undef ItemHArray2
 #undef ItemHArray2_hxx

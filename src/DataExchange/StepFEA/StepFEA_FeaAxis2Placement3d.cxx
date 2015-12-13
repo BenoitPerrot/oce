@@ -15,7 +15,7 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepGeom_CartesianPoint.hxx>
 #include <StepGeom_Direction.hxx>
 #include <StepFEA_FeaAxis2Placement3d.hxx>

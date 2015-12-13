@@ -78,7 +78,7 @@ private:
 #define Handle_TCollection_HArray1 Handle_TColGeom2d_HArray1OfBSplineCurve
 #define TCollection_HArray1_Type_() TColGeom2d_HArray1OfBSplineCurve_Type_()
 
-#include <TCollection_HArray1.lxx>
+#include <Foundation/TCollection/TCollection_HArray1.lxx>
 
 #undef ItemHArray1
 #undef ItemHArray1_hxx

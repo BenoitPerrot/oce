@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(Plate_HArray1OfPinpointConstraint)
 #define TCollection_HArray1_hxx <Plate_HArray1OfPinpointConstraint.hxx>
 #define Handle_TCollection_HArray1 Handle_Plate_HArray1OfPinpointConstraint
 #define TCollection_HArray1_Type_() Plate_HArray1OfPinpointConstraint_Type_()
-#include <TCollection_HArray1.gxx>
+#include <Foundation/TCollection/TCollection_HArray1.gxx>
 

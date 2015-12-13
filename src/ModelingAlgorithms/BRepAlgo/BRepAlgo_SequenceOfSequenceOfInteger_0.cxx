@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() BRepAlgo_SequenceNodeOfSequenceOfSequenceOfInteger_Type_()
 #define TCollection_Sequence BRepAlgo_SequenceOfSequenceOfInteger
 #define TCollection_Sequence_hxx <BRepAlgo_SequenceOfSequenceOfInteger.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

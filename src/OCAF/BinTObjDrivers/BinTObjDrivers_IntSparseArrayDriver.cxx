@@ -21,7 +21,7 @@
 #include <BinObjMgt_Persistent.hxx>
 #include <TObj_TIntSparseArray.hxx>
 #include <TObj_Assistant.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TDF_Tool.hxx>
 
 IMPLEMENT_STANDARD_HANDLE(BinTObjDrivers_IntSparseArrayDriver,BinMDF_ADriver)

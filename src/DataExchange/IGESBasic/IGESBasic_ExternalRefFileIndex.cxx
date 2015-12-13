@@ -20,7 +20,7 @@
 #include <IGESData_HArray1OfIGESEntity.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <IGESData_IGESEntity.hxx>
 #include <IGESBasic_ExternalRefFileIndex.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

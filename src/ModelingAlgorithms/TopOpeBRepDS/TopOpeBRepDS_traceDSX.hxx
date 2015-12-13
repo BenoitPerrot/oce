@@ -21,7 +21,7 @@
 
 #include <TopOpeBRepDS_define.hxx>
 #include <TColStd_HArray1OfBoolean.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 
 class TopOpeBRepDS_traceDS : public MMgt_TShared {

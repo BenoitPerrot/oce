@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(Storage_SequenceNodeOfSeqOfRoot)
 #define TCollection_SequenceNode_Type_() Storage_SequenceNodeOfSeqOfRoot_Type_()
 #define TCollection_Sequence Storage_SeqOfRoot
 #define TCollection_Sequence_hxx <Foundation/Storage/Storage_SeqOfRoot.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

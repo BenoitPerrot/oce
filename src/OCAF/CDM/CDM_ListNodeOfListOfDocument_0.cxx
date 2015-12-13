@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(CDM_ListNodeOfListOfDocument)
 #define TCollection_ListNode_Type_() CDM_ListNodeOfListOfDocument_Type_()
 #define TCollection_List CDM_ListOfDocument
 #define TCollection_List_hxx <CDM_ListOfDocument.hxx>
-#include <TCollection_ListNode.gxx>
+#include <Foundation/TCollection/TCollection_ListNode.gxx>
 

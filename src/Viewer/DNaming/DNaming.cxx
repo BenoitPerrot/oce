@@ -29,7 +29,7 @@
 #include <BRepAlgoAPI_BooleanOperation.hxx>
 #include <TDF_Data.hxx>
 #include <TopTools_ListOfShape.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <DNaming.hxx>
 
 #include <DDF.hxx>
@@ -38,7 +38,7 @@
 #include <TColStd_HArray1OfInteger.hxx>
 #include <TColStd_ListIteratorOfListOfInteger.hxx>
 #include <TColStd_ListOfInteger.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TDF_ChildIterator.hxx>
 #include <TDF_LabelList.hxx>
 #include <TDF_LabelMap.hxx>

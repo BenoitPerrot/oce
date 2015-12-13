@@ -96,7 +96,7 @@ private:
 #define TCollection_Array1 StepGeom_Array1OfTrimmingSelect
 #define TCollection_Array1_hxx <StepGeom_Array1OfTrimmingSelect.hxx>
 
-#include <TCollection_Array1.lxx>
+#include <Foundation/TCollection/TCollection_Array1.lxx>
 
 #undef Array1Item
 #undef Array1Item_hxx

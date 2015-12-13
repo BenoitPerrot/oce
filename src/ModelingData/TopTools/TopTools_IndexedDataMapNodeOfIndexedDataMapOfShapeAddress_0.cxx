@@ -40,5 +40,5 @@ IMPLEMENT_STANDARD_RTTI(TopTools_IndexedDataMapNodeOfIndexedDataMapOfShapeAddres
 #define TCollection_IndexedDataMapNode_Type_() TopTools_IndexedDataMapNodeOfIndexedDataMapOfShapeAddress_Type_()
 #define TCollection_IndexedDataMap TopTools_IndexedDataMapOfShapeAddress
 #define TCollection_IndexedDataMap_hxx <TopTools_IndexedDataMapOfShapeAddress.hxx>
-#include <TCollection_IndexedDataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_IndexedDataMapNode.gxx>
 

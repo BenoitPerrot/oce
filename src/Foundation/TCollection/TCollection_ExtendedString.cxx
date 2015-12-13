@@ -18,8 +18,8 @@
 #include <Foundation/Standard/Standard_NullObject.hxx>
 #include <Foundation/Standard/Standard_NumericError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <TCollection_ExtendedString.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 #include <cstdio>
 #include <cctype>

@@ -26,7 +26,7 @@
 #include <TColgp_Array1OfPnt2d.hxx>
 #include <SelectMgr_EntityOwner.hxx>
 #include <TColStd_ListOfInteger.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <SelectBasics_SensitiveEntity.hxx>
 #include <SelectMgr_DataMapOfIntegerSensitive.hxx>
 #include <gp_Lin.hxx>
@@ -48,7 +48,7 @@ IMPLEMENT_STANDARD_RTTI(SelectMgr_ViewerSelector)
 #include <Bnd_Array1OfBox2d.hxx>
 #include <Precision.hxx>
 #include <TColStd_Array1OfInteger.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/NCollection/NCollection_DataMap.hxx>
 #include <SelectBasics_EntityOwner.hxx>
 #include <SelectBasics_ListIteratorOfListOfBox2d.hxx>

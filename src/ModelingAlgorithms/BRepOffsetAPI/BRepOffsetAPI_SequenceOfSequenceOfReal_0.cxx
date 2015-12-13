@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() BRepOffsetAPI_SequenceNodeOfSequenceOfSequenceOfReal_Type_()
 #define TCollection_Sequence BRepOffsetAPI_SequenceOfSequenceOfReal
 #define TCollection_Sequence_hxx <BRepOffsetAPI_SequenceOfSequenceOfReal.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

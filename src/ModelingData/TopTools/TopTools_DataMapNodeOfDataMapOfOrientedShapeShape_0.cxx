@@ -43,5 +43,5 @@ IMPLEMENT_STANDARD_RTTI(TopTools_DataMapNodeOfDataMapOfOrientedShapeShape)
 #define TCollection_DataMapNode_Type_() TopTools_DataMapNodeOfDataMapOfOrientedShapeShape_Type_()
 #define TCollection_DataMap TopTools_DataMapOfOrientedShapeShape
 #define TCollection_DataMap_hxx <TopTools_DataMapOfOrientedShapeShape.hxx>
-#include <TCollection_DataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

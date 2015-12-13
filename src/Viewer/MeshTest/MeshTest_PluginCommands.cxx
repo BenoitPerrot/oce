@@ -17,7 +17,7 @@
 #include <Draw_Interpretor.hxx>
 #include <TColStd_MapOfAsciiString.hxx>
 #include <BRepMesh_DiscretFactory.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TColStd_MapIteratorOfMapOfAsciiString.hxx>
 #include <BRepMesh_FactoryError.hxx>
 #include <BRepMesh_DiscretRoot.hxx>

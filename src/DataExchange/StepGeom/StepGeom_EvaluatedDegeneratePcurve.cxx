@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <StepGeom_CartesianPoint.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepGeom_Surface.hxx>
 #include <StepRepr_DefinitionalRepresentation.hxx>
 #include <StepGeom_EvaluatedDegeneratePcurve.hxx>

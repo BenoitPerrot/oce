@@ -11,8 +11,8 @@
 #include <Handle_ExprIntrp_ListNodeOfStackOfGeneralFunction.hxx>
 
 #include <Handle_Expr_GeneralFunction.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class Expr_GeneralFunction;
 class ExprIntrp_StackOfGeneralFunction;
 class ExprIntrp_ListIteratorOfStackOfGeneralFunction;
@@ -58,7 +58,7 @@ private:
 #define TCollection_List ExprIntrp_StackOfGeneralFunction
 #define TCollection_List_hxx <ExprIntrp_StackOfGeneralFunction.hxx>
 
-#include <TCollection_ListNode.lxx>
+#include <Foundation/TCollection/TCollection_ListNode.lxx>
 
 #undef Item
 #undef Item_hxx

@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <TCollection_BasicMapIterator.hxx>
+#include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
 #include <Handle_TColStd_HArray1OfReal.hxx>
 #include <Handle_TDataStd_DataMapNodeOfDataMapOfStringHArray1OfReal.hxx>
 class Standard_NoSuchObject;

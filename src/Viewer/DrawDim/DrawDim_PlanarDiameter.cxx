@@ -36,7 +36,7 @@ IMPLEMENT_STANDARD_RTTI(DrawDim_PlanarDiameter)
 #include <gp_Pnt.hxx>
 #include <gp_Circ.hxx>
 #include <BRep_Tool.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Draw_Color.hxx>
 #include <ElCLib.hxx>
 #include <TopExp.hxx>

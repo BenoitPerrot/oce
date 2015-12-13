@@ -25,7 +25,7 @@
 
 #include <Draw_Text3D.hxx>
 #include <gp_Pnt.hxx>  
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Geom_Curve.hxx>
 #include <BRep_Tool.hxx>
 #include <TopExp.hxx>

@@ -13,7 +13,7 @@
 
 #include <StepGeom_Surface.hxx>
 #include <StepGeom_CartesianTransformationOperator3d.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepGeom_SurfaceReplica.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepGeom_SurfaceReplica)

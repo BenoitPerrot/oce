@@ -27,7 +27,7 @@
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <TopoDS_Shape.hxx>
 #include <gp_Pnt.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Prs3d_Presentation.hxx>
 #include <TopoDS_Edge.hxx>
 #include <Geom_Curve.hxx>

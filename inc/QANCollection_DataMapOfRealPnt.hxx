@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <TCollection_BasicMap.hxx>
+#include <Foundation/TCollection/TCollection_BasicMap.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_QANCollection_DataMapNodeOfDataMapOfRealPnt.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

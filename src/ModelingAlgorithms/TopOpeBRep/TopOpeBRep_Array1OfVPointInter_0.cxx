@@ -16,5 +16,5 @@
 #define Array1Item_hxx <TopOpeBRep_VPointInter.hxx>
 #define TCollection_Array1 TopOpeBRep_Array1OfVPointInter
 #define TCollection_Array1_hxx <TopOpeBRep_Array1OfVPointInter.hxx>
-#include <TCollection_Array1.gxx>
+#include <Foundation/TCollection/TCollection_Array1.gxx>
 

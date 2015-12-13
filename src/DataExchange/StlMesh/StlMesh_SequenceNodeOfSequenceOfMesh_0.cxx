@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(StlMesh_SequenceNodeOfSequenceOfMesh)
 #define TCollection_SequenceNode_Type_() StlMesh_SequenceNodeOfSequenceOfMesh_Type_()
 #define TCollection_Sequence StlMesh_SequenceOfMesh
 #define TCollection_Sequence_hxx <StlMesh_SequenceOfMesh.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

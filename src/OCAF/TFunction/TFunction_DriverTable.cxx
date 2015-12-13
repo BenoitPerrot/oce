@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(TFunction_DriverTable)
 #include <TFunction_DataMapOfGUIDDriver.hxx>
 #include <TFunction_DataMapIteratorOfDataMapOfGUIDDriver.hxx>
 #include <TFunction_Driver.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <TDF.hxx>
 
 

@@ -12,8 +12,8 @@
 
 #include <Handle_StepGeom_CartesianPoint.hxx>
 #include <TopoDS_Vertex.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class StepGeom_CartesianPoint;
 class TopoDS_Vertex;
 class StepToTopoDS_CartesianPointHasher;
@@ -68,7 +68,7 @@ private:
 #define TCollection_DataMap StepToTopoDS_PointVertexMap
 #define TCollection_DataMap_hxx <StepToTopoDS_PointVertexMap.hxx>
 
-#include <TCollection_DataMapNode.lxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

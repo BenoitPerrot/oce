@@ -27,5 +27,5 @@
 #define TCollection_DataMapNode_Type_() XCAFPrs_DataMapNodeOfDataMapOfStyleTransient_Type_()
 #define TCollection_DataMap XCAFPrs_DataMapOfStyleTransient
 #define TCollection_DataMap_hxx <XCAFPrs_DataMapOfStyleTransient.hxx>
-#include <TCollection_DataMap.gxx>
+#include <Foundation/TCollection/TCollection_DataMap.gxx>
 

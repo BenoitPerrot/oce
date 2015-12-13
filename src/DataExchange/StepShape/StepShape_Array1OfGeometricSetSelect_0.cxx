@@ -16,5 +16,5 @@
 #define Array1Item_hxx <StepShape_GeometricSetSelect.hxx>
 #define TCollection_Array1 StepShape_Array1OfGeometricSetSelect
 #define TCollection_Array1_hxx <StepShape_Array1OfGeometricSetSelect.hxx>
-#include <TCollection_Array1.gxx>
+#include <Foundation/TCollection/TCollection_Array1.gxx>
 

@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() GeomPlate_SequenceNodeOfSequenceOfAij_Type_()
 #define TCollection_Sequence GeomPlate_SequenceOfAij
 #define TCollection_Sequence_hxx <GeomPlate_SequenceOfAij.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

@@ -30,7 +30,7 @@ IMPLEMENT_DOWNCAST(DrawDim_Dimension,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(DrawDim_Dimension)
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Draw_Interpretor.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 
 //=======================================================================

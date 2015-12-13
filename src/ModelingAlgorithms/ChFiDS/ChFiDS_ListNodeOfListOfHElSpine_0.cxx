@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(ChFiDS_ListNodeOfListOfHElSpine)
 #define TCollection_ListNode_Type_() ChFiDS_ListNodeOfListOfHElSpine_Type_()
 #define TCollection_List ChFiDS_ListOfHElSpine
 #define TCollection_List_hxx <ChFiDS_ListOfHElSpine.hxx>
-#include <TCollection_ListNode.gxx>
+#include <Foundation/TCollection/TCollection_ListNode.gxx>
 

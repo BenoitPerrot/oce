@@ -21,5 +21,5 @@
 #define TCollection_ListNode_Type_() HLRBRep_ListNodeOfListOfBPnt2D_Type_()
 #define TCollection_List HLRBRep_ListOfBPnt2D
 #define TCollection_List_hxx <HLRBRep_ListOfBPnt2D.hxx>
-#include <TCollection_List.gxx>
+#include <Foundation/TCollection/TCollection_List.gxx>
 

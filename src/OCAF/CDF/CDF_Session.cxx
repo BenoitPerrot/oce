@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(CDF_Session)
 IMPLEMENT_DOWNCAST(CDF_Session,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(CDF_Session)
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <CDF_MetaDataDriverFactory.hxx>
 #include <CDF_FWOSDriver.hxx>
 #include <Foundation/Plugin/Plugin.hxx>

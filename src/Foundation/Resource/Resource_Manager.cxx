@@ -30,8 +30,8 @@
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <Foundation/Standard/Standard_TypeMismatch.hxx>
 
-#include <TCollection_AsciiString.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <TColStd_Array1OfAsciiString.hxx>
 
 IMPLEMENT_STANDARD_TYPE(Resource_Manager)

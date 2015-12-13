@@ -45,5 +45,5 @@ IMPLEMENT_STANDARD_RTTI(TDF_DoubleMapNodeOfAttributeDoubleMap)
 #define TCollection_DoubleMapNode_Type_() TDF_DoubleMapNodeOfAttributeDoubleMap_Type_()
 #define TCollection_DoubleMap TDF_AttributeDoubleMap
 #define TCollection_DoubleMap_hxx <TDF_AttributeDoubleMap.hxx>
-#include <TCollection_DoubleMapNode.gxx>
+#include <Foundation/TCollection/TCollection_DoubleMapNode.gxx>
 

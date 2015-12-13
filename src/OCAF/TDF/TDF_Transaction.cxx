@@ -25,7 +25,7 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_NullObject.hxx>
 #include <TDF_Delta.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TDF_Transaction.hxx>
 
 #undef DEB_TRANSACTION

@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(TColGeom_SequenceNodeOfSequenceOfBoundedCurve)
 #define TCollection_SequenceNode_Type_() TColGeom_SequenceNodeOfSequenceOfBoundedCurve_Type_()
 #define TCollection_Sequence TColGeom_SequenceOfBoundedCurve
 #define TCollection_Sequence_hxx <TColGeom_SequenceOfBoundedCurve.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

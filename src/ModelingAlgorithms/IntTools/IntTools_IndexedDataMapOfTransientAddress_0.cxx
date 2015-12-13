@@ -25,5 +25,5 @@
 #define TCollection_IndexedDataMapNode_Type_() IntTools_IndexedDataMapNodeOfIndexedDataMapOfTransientAddress_Type_()
 #define TCollection_IndexedDataMap IntTools_IndexedDataMapOfTransientAddress
 #define TCollection_IndexedDataMap_hxx <IntTools_IndexedDataMapOfTransientAddress.hxx>
-#include <TCollection_IndexedDataMap.gxx>
+#include <Foundation/TCollection/TCollection_IndexedDataMap.gxx>
 

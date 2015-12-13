@@ -11,8 +11,8 @@
 #include <Handle_TColStd_SequenceNodeOfSequenceOfTransient.hxx>
 
 #include <Handle_Standard_Transient.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class Standard_Transient;
 class TColStd_SequenceOfTransient;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence TColStd_SequenceOfTransient
 #define TCollection_Sequence_hxx <TColStd_SequenceOfTransient.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

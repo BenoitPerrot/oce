@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <StepShape_HArray1OfOrientedClosedShell.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepShape_ClosedShell.hxx>
 #include <StepShape_OrientedClosedShell.hxx>
 #include <StepShape_BrepWithVoids.hxx>

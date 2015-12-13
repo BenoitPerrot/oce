@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(MDataStd_ExtStringListRetrievalDriver)
 #include <TDataStd_ExtStringList.hxx>
 #include <MDataStd.hxx>
 #include <CDM_MessageDriver.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <PCollection_HExtendedString.hxx>
 
 //=======================================================================

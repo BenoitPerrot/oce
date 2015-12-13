@@ -11,8 +11,8 @@
 #include <Handle_AdvApp2Var_SequenceNodeOfSequenceOfNode.hxx>
 
 #include <AdvApp2Var_Node.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class AdvApp2Var_Node;
 class AdvApp2Var_SequenceOfNode;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence AdvApp2Var_SequenceOfNode
 #define TCollection_Sequence_hxx <AdvApp2Var_SequenceOfNode.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

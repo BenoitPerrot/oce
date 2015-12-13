@@ -19,7 +19,7 @@
 #include <Interface_ShareTool.hxx>
 #include <Interface_Check.hxx>
 #include <Interface_CopyTool.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <RWStepAP214_GeneralModule.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(RWStepAP214_GeneralModule)

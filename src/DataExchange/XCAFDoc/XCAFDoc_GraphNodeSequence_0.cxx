@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() XCAFDoc_SequenceNodeOfGraphNodeSequence_Type_()
 #define TCollection_Sequence XCAFDoc_GraphNodeSequence
 #define TCollection_Sequence_hxx <XCAFDoc_GraphNodeSequence.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

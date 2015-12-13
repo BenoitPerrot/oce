@@ -23,7 +23,7 @@
 #include <Interface_EntityIterator.hxx>
 #include <TColStd_HSequenceOfTransient.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Interface_Graph.hxx>
 #include <Interface_GeneralModule.hxx>
 #include <Interface_ReportEntity.hxx>

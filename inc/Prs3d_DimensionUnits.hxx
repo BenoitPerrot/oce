@@ -16,7 +16,7 @@
 #ifndef _Prs3d_DimensionUnits_Header
 #define _Prs3d_DimensionUnits_Header
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 //! This class provides units for two dimension groups:
 //! - lengthes (length, radius, diameter)

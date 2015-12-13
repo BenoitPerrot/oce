@@ -11,8 +11,8 @@
 #include <Handle_IntTools_ListNodeOfListOfSurfaceRangeSample.hxx>
 
 #include <IntTools_SurfaceRangeSample.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class IntTools_SurfaceRangeSample;
 class IntTools_ListOfSurfaceRangeSample;
 class IntTools_ListIteratorOfListOfSurfaceRangeSample;
@@ -58,7 +58,7 @@ private:
 #define TCollection_List IntTools_ListOfSurfaceRangeSample
 #define TCollection_List_hxx <IntTools_ListOfSurfaceRangeSample.hxx>
 
-#include <TCollection_ListNode.lxx>
+#include <Foundation/TCollection/TCollection_ListNode.lxx>
 
 #undef Item
 #undef Item_hxx

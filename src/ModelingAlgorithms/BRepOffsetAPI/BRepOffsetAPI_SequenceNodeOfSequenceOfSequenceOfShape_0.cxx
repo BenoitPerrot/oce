@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(BRepOffsetAPI_SequenceNodeOfSequenceOfSequenceOfShape)
 #define TCollection_SequenceNode_Type_() BRepOffsetAPI_SequenceNodeOfSequenceOfSequenceOfShape_Type_()
 #define TCollection_Sequence BRepOffsetAPI_SequenceOfSequenceOfShape
 #define TCollection_Sequence_hxx <BRepOffsetAPI_SequenceOfSequenceOfShape.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

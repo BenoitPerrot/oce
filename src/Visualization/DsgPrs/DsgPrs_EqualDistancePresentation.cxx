@@ -36,7 +36,7 @@
 #include <Precision.hxx>
 #include <ElCLib.hxx>
 #include <gp_Circ.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Prs3d_Text.hxx>
 
 //=================================================================================

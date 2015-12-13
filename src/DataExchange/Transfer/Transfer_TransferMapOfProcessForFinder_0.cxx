@@ -26,5 +26,5 @@
 #define TCollection_IndexedDataMapNode_Type_() Transfer_IndexedDataMapNodeOfTransferMapOfProcessForFinder_Type_()
 #define TCollection_IndexedDataMap Transfer_TransferMapOfProcessForFinder
 #define TCollection_IndexedDataMap_hxx <Transfer_TransferMapOfProcessForFinder.hxx>
-#include <TCollection_IndexedDataMap.gxx>
+#include <Foundation/TCollection/TCollection_IndexedDataMap.gxx>
 

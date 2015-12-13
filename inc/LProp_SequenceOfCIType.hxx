@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <TCollection_BaseSequence.hxx>
+#include <Foundation/TCollection/TCollection_BaseSequence.hxx>
 #include <LProp_CIType.hxx>
 #include <Handle_LProp_SequenceNodeOfSequenceOfCIType.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
@@ -109,7 +109,7 @@ private:
 #define TCollection_Sequence LProp_SequenceOfCIType
 #define TCollection_Sequence_hxx <LProp_SequenceOfCIType.hxx>
 
-#include <TCollection_Sequence.lxx>
+#include <Foundation/TCollection/TCollection_Sequence.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

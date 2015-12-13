@@ -99,14 +99,14 @@ typedef TNaming_DataMapOfShapeMapOfShape::Iterator TNaming_DataMapIteratorOfData
 //#define MDTV_DEB_WIN
 #ifdef OCCT_DEBUG
 #include <TDF_MapIteratorOfLabelMap.hxx> 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TDF_Tool.hxx>
 #include <BRepTools.hxx>
 #include <TNaming_Tool.hxx>
 #include <TDF_Tool.hxx>
 #include <TDF_MapIteratorOfLabelMap.hxx>
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <BRepTools.hxx>
 void Print_Entry(const TDF_Label&       label)
 {

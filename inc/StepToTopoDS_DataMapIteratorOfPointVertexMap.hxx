@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <TCollection_BasicMapIterator.hxx>
+#include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
 #include <Handle_StepGeom_CartesianPoint.hxx>
 #include <Handle_StepToTopoDS_DataMapNodeOfPointVertexMap.hxx>
 class Standard_NoSuchObject;

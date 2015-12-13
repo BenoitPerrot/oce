@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(Intrv_SequenceNodeOfSequenceOfInterval)
 #define TCollection_SequenceNode_Type_() Intrv_SequenceNodeOfSequenceOfInterval_Type_()
 #define TCollection_Sequence Intrv_SequenceOfInterval
 #define TCollection_Sequence_hxx <Intrv_SequenceOfInterval.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

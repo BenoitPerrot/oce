@@ -23,5 +23,5 @@
 #define TCollection_StdMapNode_Type_() TDF_StdMapNodeOfLabelMap_Type_()
 #define TCollection_Map TDF_LabelMap
 #define TCollection_Map_hxx <TDF_LabelMap.hxx>
-#include <TCollection_Map.gxx>
+#include <Foundation/TCollection/TCollection_Map.gxx>
 

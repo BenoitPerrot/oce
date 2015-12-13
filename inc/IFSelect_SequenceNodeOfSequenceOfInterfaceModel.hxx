@@ -11,8 +11,8 @@
 #include <Handle_IFSelect_SequenceNodeOfSequenceOfInterfaceModel.hxx>
 
 #include <Handle_Interface_InterfaceModel.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class Interface_InterfaceModel;
 class IFSelect_SequenceOfInterfaceModel;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence IFSelect_SequenceOfInterfaceModel
 #define TCollection_Sequence_hxx <IFSelect_SequenceOfInterfaceModel.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

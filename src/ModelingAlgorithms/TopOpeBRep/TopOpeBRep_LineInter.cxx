@@ -27,7 +27,7 @@
 #include <Geom_Curve.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopOpeBRepDS_Transition.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TopOpeBRep_Bipoint.hxx>
 #include <TopOpeBRep_LineInter.hxx>
 

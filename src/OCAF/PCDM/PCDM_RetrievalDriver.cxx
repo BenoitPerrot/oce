@@ -17,7 +17,7 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <PCDM_DriverError.hxx>
 #include <CDM_MetaData.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <CDM_Document.hxx>
 #include <CDM_Application.hxx>
 #include <PCDM_Document.hxx>
@@ -25,7 +25,7 @@
 #include <TColStd_SequenceOfExtendedString.hxx>
 #include <CDM_MessageDriver.hxx>
 #include <PCDM_SequenceOfReference.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <PCDM_RetrievalDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PCDM_RetrievalDriver)
@@ -43,7 +43,7 @@ IMPLEMENT_STANDARD_RTTI(PCDM_RetrievalDriver)
 #include <Foundation/Storage/Storage_HeaderData.hxx>
 #include <Foundation/Storage/Storage_Schema.hxx>
 #include <Foundation/Storage/Storage_Root.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 #include <TColStd_SequenceOfAsciiString.hxx>
 #include <Foundation/Standard/Standard_TypeMismatch.hxx>

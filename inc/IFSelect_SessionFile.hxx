@@ -16,7 +16,7 @@
 #include <Handle_Dico_DictionaryOfInteger.hxx>
 #include <TColStd_SequenceOfAsciiString.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Foundation/Standard/Standard_Character.hxx>
 #include <Handle_Standard_Transient.hxx>

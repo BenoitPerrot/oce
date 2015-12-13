@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <ExprIntrp_Generator.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <ExprIntrp.hxx>
 #include <ExprIntrp_yaccintrf.hxx>
 #include <ExprIntrp_yaccanal.hxx>

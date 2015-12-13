@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <StepData_FileRecognizer.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
  
 
@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_RTTI(StepData_FileRecognizer)
 
 
 #define TheKey TCollection_AsciiString
-#define TheKey_hxx <TCollection_AsciiString.hxx>
+#define TheKey_hxx <Foundation/TCollection/TCollection_AsciiString.hxx>
 #define Handle_TheResul Handle_Standard_Transient
 #define TheResul Standard_Transient
 #define TheResul_hxx <Foundation/Standard/Standard_Transient.hxx>

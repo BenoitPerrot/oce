@@ -15,5 +15,5 @@
 #define Array1Item_hxx <Foundation/Standard/Standard_Boolean.hxx>
 #define TCollection_Array1 TColStd_Array1OfBoolean
 #define TCollection_Array1_hxx <TColStd_Array1OfBoolean.hxx>
-#include <TCollection_Array1.gxx>
+#include <Foundation/TCollection/TCollection_Array1.gxx>
 

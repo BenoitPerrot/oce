@@ -11,8 +11,8 @@
 #include <Handle_GeomFill_SequenceNodeOfSequenceOfTrsf.hxx>
 
 #include <gp_Trsf.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class gp_Trsf;
 class GeomFill_SequenceOfTrsf;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence GeomFill_SequenceOfTrsf
 #define TCollection_Sequence_hxx <GeomFill_SequenceOfTrsf.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

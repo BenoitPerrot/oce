@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <StepShape_HArray1OfValueQualifier.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepShape_ValueQualifier.hxx>
 #include <StepShape_QualifiedRepresentationItem.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() IntTools_SequenceNodeOfSequenceOfCurves_Type_()
 #define TCollection_Sequence IntTools_SequenceOfCurves
 #define TCollection_Sequence_hxx <IntTools_SequenceOfCurves.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

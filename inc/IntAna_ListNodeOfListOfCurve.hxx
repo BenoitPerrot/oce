@@ -11,8 +11,8 @@
 #include <Handle_IntAna_ListNodeOfListOfCurve.hxx>
 
 #include <IntAna_Curve.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class IntAna_Curve;
 class IntAna_ListOfCurve;
 class IntAna_ListIteratorOfListOfCurve;
@@ -58,7 +58,7 @@ private:
 #define TCollection_List IntAna_ListOfCurve
 #define TCollection_List_hxx <IntAna_ListOfCurve.hxx>
 
-#include <TCollection_ListNode.lxx>
+#include <Foundation/TCollection/TCollection_ListNode.lxx>
 
 #undef Item
 #undef Item_hxx

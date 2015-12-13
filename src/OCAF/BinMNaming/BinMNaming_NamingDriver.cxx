@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_TYPE_END(BinMNaming_NamingDriver)
 IMPLEMENT_DOWNCAST(BinMNaming_NamingDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinMNaming_NamingDriver)
 #include <TopAbs_ShapeEnum.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <TColStd_Array1OfInteger.hxx>
 #include <CDM_MessageDriver.hxx>
 #include <TDF_Attribute.hxx>
@@ -42,7 +42,7 @@ IMPLEMENT_STANDARD_RTTI(BinMNaming_NamingDriver)
 #include <BinObjMgt_RRelocationTable.hxx>
 #include <BinObjMgt_SRelocationTable.hxx>
 #include <BinMNaming.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TDF_Tool.hxx>
 
 #define  NULL_ENTRY "0:0"

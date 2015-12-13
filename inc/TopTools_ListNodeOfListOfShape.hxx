@@ -11,8 +11,8 @@
 #include <Handle_TopTools_ListNodeOfListOfShape.hxx>
 
 #include <TopoDS_Shape.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class TopoDS_Shape;
 class TopTools_ListOfShape;
 class TopTools_ListIteratorOfListOfShape;
@@ -58,7 +58,7 @@ private:
 #define TCollection_List TopTools_ListOfShape
 #define TCollection_List_hxx <TopTools_ListOfShape.hxx>
 
-#include <TCollection_ListNode.lxx>
+#include <Foundation/TCollection/TCollection_ListNode.lxx>
 
 #undef Item
 #undef Item_hxx

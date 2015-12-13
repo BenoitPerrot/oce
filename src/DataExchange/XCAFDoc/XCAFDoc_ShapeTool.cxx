@@ -63,9 +63,9 @@ IMPLEMENT_STANDARD_RTTI(XCAFDoc_ShapeTool)
 #include <BRep_Builder.hxx>
 #include <XCAFDoc_Location.hxx>
 
-#include <TCollection_AsciiString.hxx>
-#include <TCollection_HAsciiString.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <TColStd_SequenceOfHAsciiString.hxx>
 #include <XCAFDoc_GraphNode.hxx>
 #include <TopLoc_IndexedMapOfLocation.hxx>

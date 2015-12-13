@@ -22,7 +22,7 @@
 #include <Interface_InterfaceModel.hxx>
 #include <Interface_Check.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <IGESData_IGESModel.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESData_IGESModel)
@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESData_IGESModel)
 IMPLEMENT_DOWNCAST(IGESData_IGESModel,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESData_IGESModel)
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <IGESData_Protocol.hxx>
 #include <IGESData_BasicEditor.hxx>
 #include <Interface_Static.hxx>

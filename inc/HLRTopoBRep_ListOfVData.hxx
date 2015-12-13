@@ -107,7 +107,7 @@ private:
 #define TCollection_List HLRTopoBRep_ListOfVData
 #define TCollection_List_hxx <HLRTopoBRep_ListOfVData.hxx>
 
-#include <TCollection_List.lxx>
+#include <Foundation/TCollection/TCollection_List.lxx>
 
 #undef Item
 #undef Item_hxx

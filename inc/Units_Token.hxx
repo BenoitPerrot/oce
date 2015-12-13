@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Units_Token.hxx>
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Units_Dimensions.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

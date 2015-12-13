@@ -22,7 +22,7 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geom_ToroidalSurface.hxx>
 #include <StepGeom_ToroidalSurface.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <UnitsMethods.hxx>
 
 //=============================================================================

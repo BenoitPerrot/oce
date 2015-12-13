@@ -34,5 +34,5 @@ IMPLEMENT_STANDARD_RTTI(LProp_SequenceNodeOfSequenceOfCIType)
 #define TCollection_SequenceNode_Type_() LProp_SequenceNodeOfSequenceOfCIType_Type_()
 #define TCollection_Sequence LProp_SequenceOfCIType
 #define TCollection_Sequence_hxx <LProp_SequenceOfCIType.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

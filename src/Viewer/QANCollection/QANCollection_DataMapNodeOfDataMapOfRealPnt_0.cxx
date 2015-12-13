@@ -43,5 +43,5 @@ IMPLEMENT_STANDARD_RTTI(QANCollection_DataMapNodeOfDataMapOfRealPnt)
 #define TCollection_DataMapNode_Type_() QANCollection_DataMapNodeOfDataMapOfRealPnt_Type_()
 #define TCollection_DataMap QANCollection_DataMapOfRealPnt
 #define TCollection_DataMap_hxx <QANCollection_DataMapOfRealPnt.hxx>
-#include <TCollection_DataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

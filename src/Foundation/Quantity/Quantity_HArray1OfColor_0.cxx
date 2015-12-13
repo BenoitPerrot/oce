@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(Quantity_HArray1OfColor)
 #define TCollection_HArray1_hxx <Foundation/Quantity/Quantity_HArray1OfColor.hxx>
 #define Handle_TCollection_HArray1 Handle_Quantity_HArray1OfColor
 #define TCollection_HArray1_Type_() Quantity_HArray1OfColor_Type_()
-#include <TCollection_HArray1.gxx>
+#include <Foundation/TCollection/TCollection_HArray1.gxx>
 

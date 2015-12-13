@@ -27,5 +27,5 @@
 #define TCollection_DataMapNode_Type_() TFunction_DataMapNodeOfDataMapOfLabelListOfLabel_Type_()
 #define TCollection_DataMap TFunction_DataMapOfLabelListOfLabel
 #define TCollection_DataMap_hxx <TFunction_DataMapOfLabelListOfLabel.hxx>
-#include <TCollection_DataMapIterator.gxx>
+#include <Foundation/TCollection/TCollection_DataMapIterator.gxx>
 

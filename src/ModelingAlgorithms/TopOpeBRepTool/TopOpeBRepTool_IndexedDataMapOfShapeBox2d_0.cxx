@@ -26,5 +26,5 @@
 #define TCollection_IndexedDataMapNode_Type_() TopOpeBRepTool_IndexedDataMapNodeOfIndexedDataMapOfShapeBox2d_Type_()
 #define TCollection_IndexedDataMap TopOpeBRepTool_IndexedDataMapOfShapeBox2d
 #define TCollection_IndexedDataMap_hxx <TopOpeBRepTool_IndexedDataMapOfShapeBox2d.hxx>
-#include <TCollection_IndexedDataMap.gxx>
+#include <Foundation/TCollection/TCollection_IndexedDataMap.gxx>
 

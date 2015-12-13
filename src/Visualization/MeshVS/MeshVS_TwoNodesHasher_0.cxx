@@ -11,5 +11,5 @@
 #define Key_hxx <MeshVS_TwoNodes.hxx>
 #define TCollection_MapHasher MeshVS_TwoNodesHasher
 #define TCollection_MapHasher_hxx <MeshVS_TwoNodesHasher.hxx>
-#include <TCollection_MapHasher.gxx>
+#include <Foundation/TCollection/TCollection_MapHasher.gxx>
 

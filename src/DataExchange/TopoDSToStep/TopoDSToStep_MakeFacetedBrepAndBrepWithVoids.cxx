@@ -35,7 +35,7 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Transfer_FinderProcess.hxx>
 #include <TransferBRep_ShapeMapper.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 //=============================================================================
 // Create a FacetedBrepAndBrepWithVoids of StepShape from a Solid of TopoDS

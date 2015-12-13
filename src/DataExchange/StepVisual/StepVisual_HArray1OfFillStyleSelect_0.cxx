@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(StepVisual_HArray1OfFillStyleSelect)
 #define TCollection_HArray1_hxx <StepVisual_HArray1OfFillStyleSelect.hxx>
 #define Handle_TCollection_HArray1 Handle_StepVisual_HArray1OfFillStyleSelect
 #define TCollection_HArray1_Type_() StepVisual_HArray1OfFillStyleSelect_Type_()
-#include <TCollection_HArray1.gxx>
+#include <Foundation/TCollection/TCollection_HArray1.gxx>
 

@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(Contap_SequenceNodeOfTheSequenceOfPoint)
 #define TCollection_SequenceNode_Type_() Contap_SequenceNodeOfTheSequenceOfPoint_Type_()
 #define TCollection_Sequence Contap_TheSequenceOfPoint
 #define TCollection_Sequence_hxx <Contap_TheSequenceOfPoint.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

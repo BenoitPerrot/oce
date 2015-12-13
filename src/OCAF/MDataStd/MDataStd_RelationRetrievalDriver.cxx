@@ -29,7 +29,7 @@ IMPLEMENT_DOWNCAST(MDataStd_RelationRetrievalDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDataStd_RelationRetrievalDriver)
 #include <PDataStd_Relation.hxx>
 #include <TDataStd_Relation.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <PCollection_HExtendedString.hxx>
 #include <TDF_ListIteratorOfAttributeList.hxx> 
 #include <PDF_HAttributeArray1.hxx> 

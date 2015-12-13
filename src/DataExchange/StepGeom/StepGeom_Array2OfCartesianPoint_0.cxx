@@ -16,5 +16,5 @@
 #define Array2Item_hxx <StepGeom_CartesianPoint.hxx>
 #define TCollection_Array2 StepGeom_Array2OfCartesianPoint
 #define TCollection_Array2_hxx <StepGeom_Array2OfCartesianPoint.hxx>
-#include <TCollection_Array2.gxx>
+#include <Foundation/TCollection/TCollection_Array2.gxx>
 

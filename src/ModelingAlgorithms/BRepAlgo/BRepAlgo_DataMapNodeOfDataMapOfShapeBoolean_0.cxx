@@ -43,5 +43,5 @@ IMPLEMENT_STANDARD_RTTI(BRepAlgo_DataMapNodeOfDataMapOfShapeBoolean)
 #define TCollection_DataMapNode_Type_() BRepAlgo_DataMapNodeOfDataMapOfShapeBoolean_Type_()
 #define TCollection_DataMap BRepAlgo_DataMapOfShapeBoolean
 #define TCollection_DataMap_hxx <BRepAlgo_DataMapOfShapeBoolean.hxx>
-#include <TCollection_DataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

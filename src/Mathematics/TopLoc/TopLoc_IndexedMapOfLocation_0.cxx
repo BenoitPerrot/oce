@@ -22,5 +22,5 @@
 #define TCollection_IndexedMapNode_Type_() TopLoc_IndexedMapNodeOfIndexedMapOfLocation_Type_()
 #define TCollection_IndexedMap TopLoc_IndexedMapOfLocation
 #define TCollection_IndexedMap_hxx <TopLoc_IndexedMapOfLocation.hxx>
-#include <TCollection_IndexedMap.gxx>
+#include <Foundation/TCollection/TCollection_IndexedMap.gxx>
 

@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(TColgp_SequenceNodeOfSequenceOfVec)
 #define TCollection_SequenceNode_Type_() TColgp_SequenceNodeOfSequenceOfVec_Type_()
 #define TCollection_Sequence TColgp_SequenceOfVec
 #define TCollection_Sequence_hxx <TColgp_SequenceOfVec.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

@@ -12,8 +12,8 @@
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Geom2dHatch_Hatching.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class Geom2dHatch_Hatching;
 class TColStd_MapIntegerHasher;
 class Geom2dHatch_Hatchings;
@@ -67,7 +67,7 @@ private:
 #define TCollection_DataMap Geom2dHatch_Hatchings
 #define TCollection_DataMap_hxx <Geom2dHatch_Hatchings.hxx>
 
-#include <TCollection_DataMapNode.lxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

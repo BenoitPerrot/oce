@@ -19,7 +19,7 @@
 #include <RWStepAP214_RWAutoDesignDocumentReference.hxx>
 
 #include <StepBasic_Document.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepAP214_HArray1OfAutoDesignReferencingItem.hxx>
 #include <StepAP214_AutoDesignReferencingItem.hxx>
 

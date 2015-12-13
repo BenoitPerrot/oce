@@ -15,7 +15,7 @@
 #include <IFSelect_ContextModif.hxx>
 #include <IGESData_IGESModel.hxx>
 #include <Interface_CopyTool.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <IGESSelect_UpdateCreationDate.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESSelect_UpdateCreationDate)
@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_RTTI(IGESSelect_UpdateCreationDate)
 #include <Foundation/OSD/OSD_Process.hxx>
 #include <Foundation/Quantity/Quantity_Date.hxx>
 #include <IGESData_GlobalSection.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Interface_Check.hxx>
 
 

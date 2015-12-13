@@ -18,7 +18,7 @@
 #include <Prs3d_DimensionTextHorizontalPosition.hxx>
 #include <Prs3d_DimensionTextVerticalPosition.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Prs3d_BasicAspect.hxx>
 class Prs3d_LineAspect;
 class Prs3d_TextAspect;

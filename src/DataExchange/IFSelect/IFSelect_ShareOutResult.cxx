@@ -19,7 +19,7 @@
 #include <Interface_Graph.hxx>
 #include <IFSelect_PacketList.hxx>
 #include <Interface_EntityIterator.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <IFSelect_ShareOutResult.hxx>
 #include <IFSelect_Dispatch.hxx>
 #include <IFGraph_AllShared.hxx>

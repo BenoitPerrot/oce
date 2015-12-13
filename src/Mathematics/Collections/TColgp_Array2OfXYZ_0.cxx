@@ -16,5 +16,5 @@
 #define Array2Item_hxx <gp_XYZ.hxx>
 #define TCollection_Array2 TColgp_Array2OfXYZ
 #define TCollection_Array2_hxx <TColgp_Array2OfXYZ.hxx>
-#include <TCollection_Array2.gxx>
+#include <Foundation/TCollection/TCollection_Array2.gxx>
 

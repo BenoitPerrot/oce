@@ -36,5 +36,5 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_HSequenceOfAx2)
 #define TCollection_HSequence_hxx <GeomFill_HSequenceOfAx2.hxx>
 #define Handle_TCollection_HSequence Handle_GeomFill_HSequenceOfAx2
 #define TCollection_HSequence_Type_() GeomFill_HSequenceOfAx2_Type_()
-#include <TCollection_HSequence.gxx>
+#include <Foundation/TCollection/TCollection_HSequence.gxx>
 

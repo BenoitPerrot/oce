@@ -41,5 +41,5 @@ IMPLEMENT_STANDARD_RTTI(TopOpeBRepTool_IndexedDataMapNodeOfIndexedDataMapOfShape
 #define TCollection_IndexedDataMapNode_Type_() TopOpeBRepTool_IndexedDataMapNodeOfIndexedDataMapOfShapeBox_Type_()
 #define TCollection_IndexedDataMap TopOpeBRepTool_IndexedDataMapOfShapeBox
 #define TCollection_IndexedDataMap_hxx <TopOpeBRepTool_IndexedDataMapOfShapeBox.hxx>
-#include <TCollection_IndexedDataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_IndexedDataMapNode.gxx>
 

@@ -18,7 +18,7 @@
 #include <RWStepBasic_RWCoordinatedUniversalTimeOffset.hxx>
 #include <StepBasic_AheadOrBehind.hxx>
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 
 // --- Enum : AheadOrBehind ---

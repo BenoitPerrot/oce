@@ -13,7 +13,7 @@
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Interface_FileReaderData.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TColStd_SequenceOfAsciiString.hxx>
 #include <Interface_Check.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>

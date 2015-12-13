@@ -12,8 +12,8 @@
 
 #include <TopoDS_Shape.hxx>
 #include <TColgp_SequenceOfPnt2d.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class TopoDS_Shape;
 class TColgp_SequenceOfPnt2d;
 class TopTools_ShapeMapHasher;
@@ -68,7 +68,7 @@ private:
 #define TCollection_DataMap BRepTools_MapOfVertexPnt2d
 #define TCollection_DataMap_hxx <BRepTools_MapOfVertexPnt2d.hxx>
 
-#include <TCollection_DataMapNode.lxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

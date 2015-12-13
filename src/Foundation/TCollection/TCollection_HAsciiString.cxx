@@ -17,9 +17,9 @@
 #include <Foundation/Standard/Standard_NumericError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
-#include <TCollection_AsciiString.hxx>
-#include <TCollection_HExtendedString.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 IMPLEMENT_STANDARD_TYPE(TCollection_HAsciiString)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() Units_SequenceNodeOfUtsSequence_Type_()
 #define TCollection_Sequence Units_UtsSequence
 #define TCollection_Sequence_hxx <Units_UtsSequence.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

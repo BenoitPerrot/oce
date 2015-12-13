@@ -19,14 +19,14 @@
 
 #include <TDataXtd_Constraint.hxx>
 #include <AIS_InteractiveObject.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <TopoDS_Shape.hxx>
 #include <Geom_Geometry.hxx>
 #include <TPrsStd_ConstraintTools.hxx>
 
 #include <stdio.h>
 #include <UnitsAPI.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 
 #include <TNaming_Tool.hxx>
 #include <TNaming_Iterator.hxx>

@@ -54,7 +54,7 @@
 #include <Geom_Surface.hxx>
 #include <Draw_Marker3D.hxx>
 #include <Draw_Segment2D.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 #include <GCPnts_UniformAbscissa.hxx>
 #include <GeomAdaptor_Curve.hxx>

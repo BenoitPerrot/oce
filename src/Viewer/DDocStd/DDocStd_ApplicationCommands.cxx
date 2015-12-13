@@ -24,8 +24,8 @@
 #include <Draw.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <Foundation/Standard/Standard_ExtString.hxx>
-#include <TCollection_AsciiString.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <TDF.hxx>
 #include <TDF_Data.hxx>
 #include <TDF_ChildIterator.hxx>

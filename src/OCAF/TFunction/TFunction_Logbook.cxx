@@ -24,7 +24,7 @@
 #include <TDF_MapIteratorOfLabelMap.hxx>
 #include <TDF_ChildIterator.hxx>
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 #include <Foundation/Standard/Standard_OStream.hxx>
 

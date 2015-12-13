@@ -21,5 +21,5 @@
 #define TCollection_ListNode_Type_() BRepFill_ListNodeOfListOfOffsetWire_Type_()
 #define TCollection_List BRepFill_ListOfOffsetWire
 #define TCollection_List_hxx <BRepFill_ListOfOffsetWire.hxx>
-#include <TCollection_List.gxx>
+#include <Foundation/TCollection/TCollection_List.gxx>
 

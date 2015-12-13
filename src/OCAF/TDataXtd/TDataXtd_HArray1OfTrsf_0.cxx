@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(TDataXtd_HArray1OfTrsf)
 #define TCollection_HArray1_hxx <TDataXtd_HArray1OfTrsf.hxx>
 #define Handle_TCollection_HArray1 Handle_TDataXtd_HArray1OfTrsf
 #define TCollection_HArray1_Type_() TDataXtd_HArray1OfTrsf_Type_()
-#include <TCollection_HArray1.gxx>
+#include <Foundation/TCollection/TCollection_HArray1.gxx>
 

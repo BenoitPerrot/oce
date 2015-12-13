@@ -12,8 +12,8 @@
 
 #include <Handle_SelectMgr_SelectableObject.hxx>
 #include <Handle_AIS_LocalStatus.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class SelectMgr_SelectableObject;
 class AIS_LocalStatus;
 class TColStd_MapTransientHasher;
@@ -68,7 +68,7 @@ private:
 #define TCollection_DataMap AIS_DataMapOfSelStat
 #define TCollection_DataMap_hxx <AIS_DataMapOfSelStat.hxx>
 
-#include <TCollection_DataMapNode.lxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

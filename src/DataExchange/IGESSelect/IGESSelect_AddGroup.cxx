@@ -14,7 +14,7 @@
 #include <IFSelect_ContextModif.hxx>
 #include <IGESData_IGESModel.hxx>
 #include <Interface_CopyTool.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <IGESSelect_AddGroup.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESSelect_AddGroup)

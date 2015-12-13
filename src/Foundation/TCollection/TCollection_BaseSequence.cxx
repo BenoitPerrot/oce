@@ -15,8 +15,8 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_BaseSequence.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_BaseSequence.hxx>
 
 typedef void (*DelNode) (TCollection_SeqNode*);
 

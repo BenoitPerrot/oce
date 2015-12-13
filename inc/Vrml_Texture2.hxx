@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Handle_Vrml_SFImage.hxx>
 #include <Vrml_Texture2Wrap.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>

@@ -32,7 +32,7 @@
 #include <IGESData_ParamCursor.hxx>
 #include <gp_XYZ.hxx>
 #include <IGESData_IGESEntity.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <TColgp_HArray1OfXYZ.hxx>
 #include <IGESData_HArray1OfIGESEntity.hxx>
 #include <Interface_HArray1OfHAsciiString.hxx>

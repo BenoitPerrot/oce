@@ -14,7 +14,7 @@
 //    abv 09.04.99 S4136: eliminate parameter step.readaccept.void
 //    sln 04,10.2001. BUC61003. Prevent exception which may occur during reading of complex entity (if entity's items are not in alphabetical order)
 #include <Interface_Check.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TColStd_SequenceOfAsciiString.hxx>
 #include <StepData_PDescr.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
@@ -24,7 +24,7 @@
 #include <StepData_FieldList.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <StepData_SelectType.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepData_EnumTool.hxx>
 #include <StepData_StepReaderData.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -49,7 +49,7 @@ IMPLEMENT_STANDARD_RTTI(StepData_StepReaderData)
 #include <TColStd_HArray1OfInteger.hxx>
 #include <TColStd_Array1OfInteger.hxx>
 #include <TColStd_IndexedMapOfInteger.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 #include <TColStd_HArray1OfTransient.hxx>
 #include <TColStd_HArray1OfReal.hxx>

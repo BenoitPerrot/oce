@@ -44,5 +44,5 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_DataMapNodeOfDataMapOfShapeSequenceOfReal)
 #define TCollection_DataMapNode_Type_() BRepFill_DataMapNodeOfDataMapOfShapeSequenceOfReal_Type_()
 #define TCollection_DataMap BRepFill_DataMapOfShapeSequenceOfReal
 #define TCollection_DataMap_hxx <BRepFill_DataMapOfShapeSequenceOfReal.hxx>
-#include <TCollection_DataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

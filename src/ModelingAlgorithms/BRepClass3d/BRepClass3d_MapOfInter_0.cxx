@@ -27,5 +27,5 @@
 #define TCollection_DataMapNode_Type_() BRepClass3d_DataMapNodeOfMapOfInter_Type_()
 #define TCollection_DataMap BRepClass3d_MapOfInter
 #define TCollection_DataMap_hxx <BRepClass3d_MapOfInter.hxx>
-#include <TCollection_DataMap.gxx>
+#include <Foundation/TCollection/TCollection_DataMap.gxx>
 

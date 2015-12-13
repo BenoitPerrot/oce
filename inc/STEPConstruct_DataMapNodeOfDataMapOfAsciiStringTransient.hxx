@@ -10,10 +10,10 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_STEPConstruct_DataMapNodeOfDataMapOfAsciiStringTransient.hxx>
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Handle_Standard_Transient.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class Standard_Transient;
 class TCollection_AsciiString;
 class STEPConstruct_DataMapOfAsciiStringTransient;
@@ -53,11 +53,11 @@ private:
 };
 
 #define TheKey TCollection_AsciiString
-#define TheKey_hxx <TCollection_AsciiString.hxx>
+#define TheKey_hxx <Foundation/TCollection/TCollection_AsciiString.hxx>
 #define TheItem Handle(Standard_Transient)
 #define TheItem_hxx <Foundation/Standard/Standard_Transient.hxx>
 #define Hasher TCollection_AsciiString
-#define Hasher_hxx <TCollection_AsciiString.hxx>
+#define Hasher_hxx <Foundation/TCollection/TCollection_AsciiString.hxx>
 #define TCollection_DataMapNode STEPConstruct_DataMapNodeOfDataMapOfAsciiStringTransient
 #define TCollection_DataMapNode_hxx <STEPConstruct_DataMapNodeOfDataMapOfAsciiStringTransient.hxx>
 #define TCollection_DataMapIterator STEPConstruct_DataMapIteratorOfDataMapOfAsciiStringTransient
@@ -67,7 +67,7 @@ private:
 #define TCollection_DataMap STEPConstruct_DataMapOfAsciiStringTransient
 #define TCollection_DataMap_hxx <STEPConstruct_DataMapOfAsciiStringTransient.hxx>
 
-#include <TCollection_DataMapNode.lxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

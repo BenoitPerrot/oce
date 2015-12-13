@@ -24,7 +24,7 @@
 
 #include <StepBasic_DocumentRelationship.hxx>
 #include <StepBasic_Document.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 
 RWStepBasic_RWDocumentRelationship::RWStepBasic_RWDocumentRelationship () {}

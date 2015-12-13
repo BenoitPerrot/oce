@@ -11,7 +11,7 @@
 #include <Handle_MoniTool_Profile.hxx>
 
 #include <Handle_Dico_DictionaryOfTransient.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_MoniTool_Option.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>

@@ -11,8 +11,8 @@
 #include <Handle_ChFiDS_ListNodeOfListOfHElSpine.hxx>
 
 #include <Handle_ChFiDS_HElSpine.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class ChFiDS_HElSpine;
 class ChFiDS_ListOfHElSpine;
 class ChFiDS_ListIteratorOfListOfHElSpine;
@@ -58,7 +58,7 @@ private:
 #define TCollection_List ChFiDS_ListOfHElSpine
 #define TCollection_List_hxx <ChFiDS_ListOfHElSpine.hxx>
 
-#include <TCollection_ListNode.lxx>
+#include <Foundation/TCollection/TCollection_ListNode.lxx>
 
 #undef Item
 #undef Item_hxx

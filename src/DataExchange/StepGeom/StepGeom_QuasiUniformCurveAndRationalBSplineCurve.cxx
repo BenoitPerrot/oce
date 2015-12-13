@@ -13,7 +13,7 @@
 
 #include <StepGeom_QuasiUniformCurve.hxx>
 #include <StepGeom_RationalBSplineCurve.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepGeom_HArray1OfCartesianPoint.hxx>
 #include <TColStd_HArray1OfReal.hxx>
 #include <StepGeom_QuasiUniformCurveAndRationalBSplineCurve.hxx>

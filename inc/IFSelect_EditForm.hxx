@@ -11,7 +11,7 @@
 #include <Handle_IFSelect_EditForm.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TColStd_Array1OfInteger.hxx>
 #include <TColStd_Array1OfTransient.hxx>
 #include <Handle_IFSelect_Editor.hxx>

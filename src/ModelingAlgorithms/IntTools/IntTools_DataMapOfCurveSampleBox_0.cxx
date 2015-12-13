@@ -28,5 +28,5 @@
 #define TCollection_DataMapNode_Type_() IntTools_DataMapNodeOfDataMapOfCurveSampleBox_Type_()
 #define TCollection_DataMap IntTools_DataMapOfCurveSampleBox
 #define TCollection_DataMap_hxx <IntTools_DataMapOfCurveSampleBox.hxx>
-#include <TCollection_DataMap.gxx>
+#include <Foundation/TCollection/TCollection_DataMap.gxx>
 

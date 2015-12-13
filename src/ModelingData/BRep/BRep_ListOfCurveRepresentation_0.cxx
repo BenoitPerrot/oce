@@ -21,5 +21,5 @@
 #define TCollection_ListNode_Type_() BRep_ListNodeOfListOfCurveRepresentation_Type_()
 #define TCollection_List BRep_ListOfCurveRepresentation
 #define TCollection_List_hxx <BRep_ListOfCurveRepresentation.hxx>
-#include <TCollection_List.gxx>
+#include <Foundation/TCollection/TCollection_List.gxx>
 

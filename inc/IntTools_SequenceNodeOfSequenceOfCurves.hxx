@@ -11,8 +11,8 @@
 #include <Handle_IntTools_SequenceNodeOfSequenceOfCurves.hxx>
 
 #include <IntTools_Curve.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class IntTools_Curve;
 class IntTools_SequenceOfCurves;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence IntTools_SequenceOfCurves
 #define TCollection_Sequence_hxx <IntTools_SequenceOfCurves.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

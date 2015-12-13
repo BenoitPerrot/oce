@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <TCollection_BasicMap.hxx>
+#include <Foundation/TCollection/TCollection_BasicMap.hxx>
 #include <Handle_StepBasic_ProductDefinition.hxx>
 #include <Handle_STEPCAFControl_DataMapNodeOfDataMapOfShapePD.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(DrawDim_PlanarAngle)
 IMPLEMENT_DOWNCAST(DrawDim_PlanarAngle,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(DrawDim_PlanarAngle)
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <DrawDim.hxx>
 #include <Draw.hxx>
 #include <Draw_MarkerShape.hxx>

@@ -21,5 +21,5 @@
 #define TCollection_ListNode_Type_() Law_ListNodeOfLaws_Type_()
 #define TCollection_List Law_Laws
 #define TCollection_List_hxx <Law_Laws.hxx>
-#include <TCollection_List.gxx>
+#include <Foundation/TCollection/TCollection_List.gxx>
 

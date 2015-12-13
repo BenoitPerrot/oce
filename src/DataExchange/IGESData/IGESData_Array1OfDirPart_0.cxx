@@ -16,5 +16,5 @@
 #define Array1Item_hxx <IGESData_DirPart.hxx>
 #define TCollection_Array1 IGESData_Array1OfDirPart
 #define TCollection_Array1_hxx <IGESData_Array1OfDirPart.hxx>
-#include <TCollection_Array1.gxx>
+#include <Foundation/TCollection/TCollection_Array1.gxx>
 

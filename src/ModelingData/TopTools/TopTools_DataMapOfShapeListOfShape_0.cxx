@@ -28,5 +28,5 @@
 #define TCollection_DataMapNode_Type_() TopTools_DataMapNodeOfDataMapOfShapeListOfShape_Type_()
 #define TCollection_DataMap TopTools_DataMapOfShapeListOfShape
 #define TCollection_DataMap_hxx <TopTools_DataMapOfShapeListOfShape.hxx>
-#include <TCollection_DataMap.gxx>
+#include <Foundation/TCollection/TCollection_DataMap.gxx>
 

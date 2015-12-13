@@ -22,5 +22,5 @@
 #define TCollection_StdMapNode_Type_() MeshVS_StdMapNodeOfMapOfTwoNodes_Type_()
 #define TCollection_Map MeshVS_MapOfTwoNodes
 #define TCollection_Map_hxx <MeshVS_MapOfTwoNodes.hxx>
-#include <TCollection_Map.gxx>
+#include <Foundation/TCollection/TCollection_Map.gxx>
 

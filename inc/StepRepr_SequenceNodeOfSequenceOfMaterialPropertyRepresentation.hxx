@@ -11,8 +11,8 @@
 #include <Handle_StepRepr_SequenceNodeOfSequenceOfMaterialPropertyRepresentation.hxx>
 
 #include <Handle_StepRepr_MaterialPropertyRepresentation.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class StepRepr_MaterialPropertyRepresentation;
 class StepRepr_SequenceOfMaterialPropertyRepresentation;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence StepRepr_SequenceOfMaterialPropertyRepresentation
 #define TCollection_Sequence_hxx <StepRepr_SequenceOfMaterialPropertyRepresentation.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

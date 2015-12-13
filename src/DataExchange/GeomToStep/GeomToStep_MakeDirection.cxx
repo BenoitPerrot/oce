@@ -28,7 +28,7 @@
 #include <Geom2d_Direction.hxx>
 #include <StepGeom_Direction.hxx>
 #include <TColStd_HArray1OfReal.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 //=============================================================================
 // Creation d' une direction de prostep a partir d' une Dir de gp

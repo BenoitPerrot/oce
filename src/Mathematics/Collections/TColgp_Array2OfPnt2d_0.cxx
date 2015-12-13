@@ -16,5 +16,5 @@
 #define Array2Item_hxx <gp_Pnt2d.hxx>
 #define TCollection_Array2 TColgp_Array2OfPnt2d
 #define TCollection_Array2_hxx <TColgp_Array2OfPnt2d.hxx>
-#include <TCollection_Array2.gxx>
+#include <Foundation/TCollection/TCollection_Array2.gxx>
 

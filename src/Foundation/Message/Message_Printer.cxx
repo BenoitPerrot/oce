@@ -15,8 +15,8 @@
 
 #include <Foundation/Message/Message_Printer.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
-#include <TCollection_ExtendedString.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 IMPLEMENT_STANDARD_TYPE(Message_Printer)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

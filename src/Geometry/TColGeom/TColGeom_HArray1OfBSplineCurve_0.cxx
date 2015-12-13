@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(TColGeom_HArray1OfBSplineCurve)
 #define TCollection_HArray1_hxx <TColGeom_HArray1OfBSplineCurve.hxx>
 #define Handle_TCollection_HArray1 Handle_TColGeom_HArray1OfBSplineCurve
 #define TCollection_HArray1_Type_() TColGeom_HArray1OfBSplineCurve_Type_()
-#include <TCollection_HArray1.gxx>
+#include <Foundation/TCollection/TCollection_HArray1.gxx>
 

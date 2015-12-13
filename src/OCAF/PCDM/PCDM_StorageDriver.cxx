@@ -19,7 +19,7 @@
 #include <PCDM_Document.hxx>
 #include <CDM_Document.hxx>
 #include <PCDM_SequenceOfDocument.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/Storage/Storage_Schema.hxx>
 #include <TColStd_SequenceOfExtendedString.hxx>
 #include <PCDM_StorageDriver.hxx>
@@ -37,7 +37,7 @@ IMPLEMENT_STANDARD_RTTI(PCDM_StorageDriver)
 #include <Foundation/Storage/Storage_Schema.hxx>
 #include <TColStd_SequenceOfExtendedString.hxx>
 #include <Foundation/FSD/FSD_CmpFile.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <PCDM_ReadWriter.hxx>
 #include <Foundation/Resource/Resource_Manager.hxx>

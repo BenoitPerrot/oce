@@ -32,7 +32,7 @@
 #include <TColgp_Array2OfPnt.hxx>
 #include <GeomAbs_BSplKnotDistribution.hxx>
 #include <StepGeom_KnotType.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 //=============================================================================
 // Creation d' une bspline_Surface_with_knots_and_rational_bspline_Surface de

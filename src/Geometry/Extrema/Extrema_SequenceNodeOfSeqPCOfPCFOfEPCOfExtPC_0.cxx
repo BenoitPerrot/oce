@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(Extrema_SequenceNodeOfSeqPCOfPCFOfEPCOfExtPC)
 #define TCollection_SequenceNode_Type_() Extrema_SequenceNodeOfSeqPCOfPCFOfEPCOfExtPC_Type_()
 #define TCollection_Sequence Extrema_SeqPCOfPCFOfEPCOfExtPC
 #define TCollection_Sequence_hxx <Extrema_SeqPCOfPCFOfEPCOfExtPC.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

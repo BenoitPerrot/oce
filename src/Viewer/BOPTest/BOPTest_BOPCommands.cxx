@@ -34,7 +34,7 @@
 #include <BOPTest_DrawableShape.hxx>
 #include <BOPCol_ListOfShape.hxx>
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <IntTools_FaceFace.hxx>
 #include <IntTools_Curve.hxx>
 #include <DrawTrSurf.hxx>

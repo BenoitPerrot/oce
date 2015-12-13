@@ -15,7 +15,7 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Graphic3d_TypeOfMaterial.hxx>
 #include <Graphic3d_NameOfMaterial.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Graphic3d_TypeOfReflection.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>

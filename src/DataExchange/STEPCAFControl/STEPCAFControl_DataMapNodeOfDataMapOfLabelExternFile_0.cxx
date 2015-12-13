@@ -44,5 +44,5 @@ IMPLEMENT_STANDARD_RTTI(STEPCAFControl_DataMapNodeOfDataMapOfLabelExternFile)
 #define TCollection_DataMapNode_Type_() STEPCAFControl_DataMapNodeOfDataMapOfLabelExternFile_Type_()
 #define TCollection_DataMap STEPCAFControl_DataMapOfLabelExternFile
 #define TCollection_DataMap_hxx <STEPCAFControl_DataMapOfLabelExternFile.hxx>
-#include <TCollection_DataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

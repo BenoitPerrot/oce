@@ -27,5 +27,5 @@
 #define TCollection_DataMapNode_Type_() BRepFill_DataMapNodeOfDataMapOfOrientedShapeListOfShape_Type_()
 #define TCollection_DataMap BRepFill_DataMapOfOrientedShapeListOfShape
 #define TCollection_DataMap_hxx <BRepFill_DataMapOfOrientedShapeListOfShape.hxx>
-#include <TCollection_DataMapIterator.gxx>
+#include <Foundation/TCollection/TCollection_DataMapIterator.gxx>
 

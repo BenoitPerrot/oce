@@ -9,7 +9,7 @@
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <TColStd_SequenceOfHAsciiString.hxx>
 
  
@@ -29,12 +29,12 @@ IMPLEMENT_STANDARD_RTTI(TColStd_HSequenceOfHAsciiString)
 
 
 #define Item Handle(TCollection_HAsciiString)
-#define Item_hxx <TCollection_HAsciiString.hxx>
+#define Item_hxx <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #define TheSequence TColStd_SequenceOfHAsciiString
 #define TheSequence_hxx <TColStd_SequenceOfHAsciiString.hxx>
 #define TCollection_HSequence TColStd_HSequenceOfHAsciiString
 #define TCollection_HSequence_hxx <TColStd_HSequenceOfHAsciiString.hxx>
 #define Handle_TCollection_HSequence Handle_TColStd_HSequenceOfHAsciiString
 #define TCollection_HSequence_Type_() TColStd_HSequenceOfHAsciiString_Type_()
-#include <TCollection_HSequence.gxx>
+#include <Foundation/TCollection/TCollection_HSequence.gxx>
 

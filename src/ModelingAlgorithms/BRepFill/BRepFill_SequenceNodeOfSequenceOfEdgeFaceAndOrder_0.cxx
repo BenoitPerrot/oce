@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_SequenceNodeOfSequenceOfEdgeFaceAndOrder)
 #define TCollection_SequenceNode_Type_() BRepFill_SequenceNodeOfSequenceOfEdgeFaceAndOrder_Type_()
 #define TCollection_Sequence BRepFill_SequenceOfEdgeFaceAndOrder
 #define TCollection_Sequence_hxx <BRepFill_SequenceOfEdgeFaceAndOrder.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

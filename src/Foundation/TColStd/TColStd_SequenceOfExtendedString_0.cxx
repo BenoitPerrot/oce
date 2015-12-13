@@ -7,17 +7,17 @@
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <TColStd_SequenceNodeOfSequenceOfExtendedString.hxx>
  
 
 #define SeqItem TCollection_ExtendedString
-#define SeqItem_hxx <TCollection_ExtendedString.hxx>
+#define SeqItem_hxx <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #define TCollection_SequenceNode TColStd_SequenceNodeOfSequenceOfExtendedString
 #define TCollection_SequenceNode_hxx <TColStd_SequenceNodeOfSequenceOfExtendedString.hxx>
 #define Handle_TCollection_SequenceNode Handle_TColStd_SequenceNodeOfSequenceOfExtendedString
 #define TCollection_SequenceNode_Type_() TColStd_SequenceNodeOfSequenceOfExtendedString_Type_()
 #define TCollection_Sequence TColStd_SequenceOfExtendedString
 #define TCollection_Sequence_hxx <TColStd_SequenceOfExtendedString.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

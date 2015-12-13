@@ -12,7 +12,7 @@
 
 #include <Foundation/Storage/Storage_MapOfPers.hxx>
 #include <Foundation/Storage/Storage_Error.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Storage_Root.hxx>

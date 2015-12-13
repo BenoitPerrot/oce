@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(Plate_SequenceNodeOfSequenceOfLinearXYZConstraint)
 #define TCollection_SequenceNode_Type_() Plate_SequenceNodeOfSequenceOfLinearXYZConstraint_Type_()
 #define TCollection_Sequence Plate_SequenceOfLinearXYZConstraint
 #define TCollection_Sequence_hxx <Plate_SequenceOfLinearXYZConstraint.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

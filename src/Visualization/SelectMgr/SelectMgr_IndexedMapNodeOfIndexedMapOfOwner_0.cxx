@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(SelectMgr_IndexedMapNodeOfIndexedMapOfOwner)
 #define TCollection_IndexedMapNode_Type_() SelectMgr_IndexedMapNodeOfIndexedMapOfOwner_Type_()
 #define TCollection_IndexedMap SelectMgr_IndexedMapOfOwner
 #define TCollection_IndexedMap_hxx <SelectMgr_IndexedMapOfOwner.hxx>
-#include <TCollection_IndexedMapNode.gxx>
+#include <Foundation/TCollection/TCollection_IndexedMapNode.gxx>
 

@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(StepFEA_HArray1OfCurveElementEndRelease)
 #define TCollection_HArray1_hxx <StepFEA_HArray1OfCurveElementEndRelease.hxx>
 #define Handle_TCollection_HArray1 Handle_StepFEA_HArray1OfCurveElementEndRelease
 #define TCollection_HArray1_Type_() StepFEA_HArray1OfCurveElementEndRelease_Type_()
-#include <TCollection_HArray1.gxx>
+#include <Foundation/TCollection/TCollection_HArray1.gxx>
 

@@ -27,5 +27,5 @@
 #define TCollection_DataMapNode_Type_() MoniTool_DataMapNodeOfDataMapOfShapeTransient_Type_()
 #define TCollection_DataMap MoniTool_DataMapOfShapeTransient
 #define TCollection_DataMap_hxx <MoniTool_DataMapOfShapeTransient.hxx>
-#include <TCollection_DataMapIterator.gxx>
+#include <Foundation/TCollection/TCollection_DataMapIterator.gxx>
 

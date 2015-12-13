@@ -29,7 +29,7 @@ IMPLEMENT_DOWNCAST(BinMXCAFDoc_DimTolDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinMXCAFDoc_DimTolDriver)
 #include <XCAFDoc_DimTol.hxx>
 
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <TColStd_Array1OfReal.hxx>
 #include <TColStd_HArray1OfReal.hxx>
 

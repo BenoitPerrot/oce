@@ -31,5 +31,5 @@
 #define TCollection_DoubleMapNode_Type_() TFunction_DoubleMapNodeOfDoubleMapOfIntegerLabel_Type_()
 #define TCollection_DoubleMap TFunction_DoubleMapOfIntegerLabel
 #define TCollection_DoubleMap_hxx <TFunction_DoubleMapOfIntegerLabel.hxx>
-#include <TCollection_DoubleMap.gxx>
+#include <Foundation/TCollection/TCollection_DoubleMap.gxx>
 

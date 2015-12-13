@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <StepBasic_ProductDefinitionRelationship.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepBasic_ProductDefinitionEffectivity.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepBasic_ProductDefinitionEffectivity)

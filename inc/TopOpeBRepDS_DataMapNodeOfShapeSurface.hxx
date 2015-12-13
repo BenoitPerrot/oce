@@ -12,8 +12,8 @@
 
 #include <TopoDS_Shape.hxx>
 #include <Handle_Geom_Surface.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class Geom_Surface;
 class TopoDS_Shape;
 class TopTools_ShapeMapHasher;
@@ -68,7 +68,7 @@ private:
 #define TCollection_DataMap TopOpeBRepDS_ShapeSurface
 #define TCollection_DataMap_hxx <TopOpeBRepDS_ShapeSurface.hxx>
 
-#include <TCollection_DataMapNode.lxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

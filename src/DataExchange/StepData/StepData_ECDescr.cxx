@@ -25,7 +25,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(StepData_ECDescr)
 IMPLEMENT_DOWNCAST(StepData_ECDescr,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(StepData_ECDescr)
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <StepData_Plex.hxx>
 
 StepData_ECDescr::StepData_ECDescr  ()    {  }

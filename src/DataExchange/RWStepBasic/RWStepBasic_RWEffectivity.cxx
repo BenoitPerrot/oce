@@ -22,7 +22,7 @@
 
 
 #include <StepBasic_Effectivity.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 
 RWStepBasic_RWEffectivity::RWStepBasic_RWEffectivity () {}

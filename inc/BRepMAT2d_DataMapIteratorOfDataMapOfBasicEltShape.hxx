@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <TCollection_BasicMapIterator.hxx>
+#include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
 #include <Handle_MAT_BasicElt.hxx>
 #include <Handle_BRepMAT2d_DataMapNodeOfDataMapOfBasicEltShape.hxx>
 class Standard_NoSuchObject;

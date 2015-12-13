@@ -69,7 +69,7 @@ IMPLEMENT_STANDARD_RTTI(V3d_PositionalLight)
 #include <gp_Pnt.hxx>
 #include <gp_Trsf.hxx>
 #include <TColStd_Array2OfReal.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Aspect_Window.hxx>
 
 //-Declarations

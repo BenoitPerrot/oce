@@ -19,7 +19,7 @@
 #include <StepData_SelectMember.hxx>
 #include <StepElement_ElementAspect.hxx>
 #include <StepElement_ElementAspectMember.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 //=======================================================================
 //function : StepElement_ElementAspect

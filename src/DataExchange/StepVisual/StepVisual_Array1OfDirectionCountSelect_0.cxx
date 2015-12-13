@@ -16,5 +16,5 @@
 #define Array1Item_hxx <StepVisual_DirectionCountSelect.hxx>
 #define TCollection_Array1 StepVisual_Array1OfDirectionCountSelect
 #define TCollection_Array1_hxx <StepVisual_Array1OfDirectionCountSelect.hxx>
-#include <TCollection_Array1.gxx>
+#include <Foundation/TCollection/TCollection_Array1.gxx>
 

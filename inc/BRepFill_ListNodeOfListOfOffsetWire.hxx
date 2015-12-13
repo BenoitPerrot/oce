@@ -11,8 +11,8 @@
 #include <Handle_BRepFill_ListNodeOfListOfOffsetWire.hxx>
 
 #include <BRepFill_OffsetWire.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class BRepFill_OffsetWire;
 class BRepFill_ListOfOffsetWire;
 class BRepFill_ListIteratorOfListOfOffsetWire;
@@ -58,7 +58,7 @@ private:
 #define TCollection_List BRepFill_ListOfOffsetWire
 #define TCollection_List_hxx <BRepFill_ListOfOffsetWire.hxx>
 
-#include <TCollection_ListNode.lxx>
+#include <Foundation/TCollection/TCollection_ListNode.lxx>
 
 #undef Item
 #undef Item_hxx

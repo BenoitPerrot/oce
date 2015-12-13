@@ -92,7 +92,7 @@ private:
 };
 
 #define Item TCollection_AsciiString
-#define Item_hxx <TCollection_AsciiString.hxx>
+#define Item_hxx <Foundation/TCollection/TCollection_AsciiString.hxx>
 #define TheSequence TColStd_SequenceOfAsciiString
 #define TheSequence_hxx <TColStd_SequenceOfAsciiString.hxx>
 #define TCollection_HSequence TColStd_HSequenceOfAsciiString
@@ -100,7 +100,7 @@ private:
 #define Handle_TCollection_HSequence Handle_TColStd_HSequenceOfAsciiString
 #define TCollection_HSequence_Type_() TColStd_HSequenceOfAsciiString_Type_()
 
-#include <TCollection_HSequence.lxx>
+#include <Foundation/TCollection/TCollection_HSequence.lxx>
 
 #undef Item
 #undef Item_hxx

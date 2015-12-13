@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Graphic3d_TextureParams.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/OSD/OSD_Path.hxx>
 #include <Graphic3d_TextureRoot.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

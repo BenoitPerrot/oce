@@ -15,10 +15,10 @@
 
 #include <BinMDF_ADriverTable.hxx>
 #include <CDM_MessageDriver.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <CDM_Document.hxx>
 #include <TDF_Label.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <BinLDrivers_DocumentSection.hxx>
 #include <TDF_LabelList.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -46,7 +46,7 @@ IMPLEMENT_STANDARD_RTTI(BinLDrivers_DocumentStorageDriver)
 #include <TColStd_Array1OfInteger.hxx>
 #include <TColStd_ListIteratorOfListOfInteger.hxx>
 #include <TColStd_ListOfInteger.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TDF_AttributeIterator.hxx>
 #include <TDF_ChildIterator.hxx>
 #include <TDF_Data.hxx>

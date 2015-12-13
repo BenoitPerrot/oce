@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <TDocStd_SequenceOfApplicationDelta.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <TDocStd_Document.hxx>
 #include <TDocStd_SequenceOfDocument.hxx>
 #include <TDocStd_MultiTransactionManager.hxx>

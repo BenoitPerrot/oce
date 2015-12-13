@@ -40,8 +40,8 @@ inline Message_SequenceOfPrinters& Message_Messenger::ChangePrinters()
 //purpose  : 
 //=======================================================================
 
-#include <TCollection_HAsciiString.hxx>
-#include <TCollection_HExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HExtendedString.hxx>
 
 // CString
 inline const Handle(Message_Messenger)&

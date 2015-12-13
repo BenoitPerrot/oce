@@ -44,5 +44,5 @@ IMPLEMENT_STANDARD_RTTI(STEPCAFControl_DataMapNodeOfDataMapOfShapeSDR)
 #define TCollection_DataMapNode_Type_() STEPCAFControl_DataMapNodeOfDataMapOfShapeSDR_Type_()
 #define TCollection_DataMap STEPCAFControl_DataMapOfShapeSDR
 #define TCollection_DataMap_hxx <STEPCAFControl_DataMapOfShapeSDR.hxx>
-#include <TCollection_DataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

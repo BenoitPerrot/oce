@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_MoniTool_Profile.hxx>

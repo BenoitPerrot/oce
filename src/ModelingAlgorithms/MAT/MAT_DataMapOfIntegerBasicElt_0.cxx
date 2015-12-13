@@ -27,5 +27,5 @@
 #define TCollection_DataMapNode_Type_() MAT_DataMapNodeOfDataMapOfIntegerBasicElt_Type_()
 #define TCollection_DataMap MAT_DataMapOfIntegerBasicElt
 #define TCollection_DataMap_hxx <MAT_DataMapOfIntegerBasicElt.hxx>
-#include <TCollection_DataMap.gxx>
+#include <Foundation/TCollection/TCollection_DataMap.gxx>
 

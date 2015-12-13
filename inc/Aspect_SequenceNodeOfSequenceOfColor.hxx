@@ -11,8 +11,8 @@
 #include <Handle_Aspect_SequenceNodeOfSequenceOfColor.hxx>
 
 #include <Foundation/Quantity/Quantity_Color.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class Quantity_Color;
 class Aspect_SequenceOfColor;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence Aspect_SequenceOfColor
 #define TCollection_Sequence_hxx <Aspect_SequenceOfColor.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

@@ -41,5 +41,5 @@ IMPLEMENT_STANDARD_RTTI(TDF_StdMapNodeOfAttributeMap)
 #define TCollection_StdMapNode_Type_() TDF_StdMapNodeOfAttributeMap_Type_()
 #define TCollection_Map TDF_AttributeMap
 #define TCollection_Map_hxx <TDF_AttributeMap.hxx>
-#include <TCollection_StdMapNode.gxx>
+#include <Foundation/TCollection/TCollection_StdMapNode.gxx>
 

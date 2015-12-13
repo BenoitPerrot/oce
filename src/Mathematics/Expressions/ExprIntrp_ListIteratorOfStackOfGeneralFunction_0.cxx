@@ -22,5 +22,5 @@
 #define TCollection_ListNode_Type_() ExprIntrp_ListNodeOfStackOfGeneralFunction_Type_()
 #define TCollection_List ExprIntrp_StackOfGeneralFunction
 #define TCollection_List_hxx <ExprIntrp_StackOfGeneralFunction.hxx>
-#include <TCollection_ListIterator.gxx>
+#include <Foundation/TCollection/TCollection_ListIterator.gxx>
 

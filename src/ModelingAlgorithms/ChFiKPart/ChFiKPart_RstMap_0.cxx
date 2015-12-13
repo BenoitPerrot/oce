@@ -27,5 +27,5 @@
 #define TCollection_DataMapNode_Type_() ChFiKPart_DataMapNodeOfRstMap_Type_()
 #define TCollection_DataMap ChFiKPart_RstMap
 #define TCollection_DataMap_hxx <ChFiKPart_RstMap.hxx>
-#include <TCollection_DataMap.gxx>
+#include <Foundation/TCollection/TCollection_DataMap.gxx>
 

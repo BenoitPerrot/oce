@@ -21,7 +21,7 @@
 #include <DBRep.hxx>
 #include <DDocStd.hxx>
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TopoDS_Shape.hxx>
 
 #include <GProp_GProps.hxx>
@@ -61,7 +61,7 @@
 #include <TColStd_Array1OfReal.hxx>
 #include <TDataStd_TreeNode.hxx>
 #include <XCAFDoc.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 
 // --------------------- VolumeFix Begin ---

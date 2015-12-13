@@ -32,7 +32,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Vertex.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 
 class TopoDS_Face;
 class TCollection_ExtendedString;

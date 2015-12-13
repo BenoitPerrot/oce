@@ -83,7 +83,7 @@ private:
 #define Handle_TCollection_HArray2 Handle_StepElement_HArray2OfSurfaceElementPurpose
 #define TCollection_HArray2_Type_() StepElement_HArray2OfSurfaceElementPurpose_Type_()
 
-#include <TCollection_HArray2.lxx>
+#include <Foundation/TCollection/TCollection_HArray2.lxx>
 
 #undef ItemHArray2
 #undef ItemHArray2_hxx

@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Graphic3d_Texture2D.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Graphic3d_Texture2D)
@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(Graphic3d_Texture2D)
 IMPLEMENT_DOWNCAST(Graphic3d_Texture2D,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Graphic3d_Texture2D)
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 static const char *NameOfTexture_to_FileName[] =
 {

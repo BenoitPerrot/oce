@@ -71,7 +71,7 @@ private:
 #define TCollection_List HLRAlgo_ListOfBPoint
 #define TCollection_List_hxx <HLRAlgo_ListOfBPoint.hxx>
 
-#include <TCollection_ListIterator.lxx>
+#include <Foundation/TCollection/TCollection_ListIterator.lxx>
 
 #undef Item
 #undef Item_hxx

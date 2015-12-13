@@ -27,5 +27,5 @@
 #define TCollection_DataMapNode_Type_() TopOpeBRepDS_DataMapNodeOfMapOfSurface_Type_()
 #define TCollection_DataMap TopOpeBRepDS_MapOfSurface
 #define TCollection_DataMap_hxx <TopOpeBRepDS_MapOfSurface.hxx>
-#include <TCollection_DataMap.gxx>
+#include <Foundation/TCollection/TCollection_DataMap.gxx>
 

@@ -9,7 +9,7 @@
 #include <ShapeProcess_StackItemOfDictionaryOfOperator.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <ShapeProcess_Operator.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
  
 
 #define TheItem Handle(ShapeProcess_Operator)

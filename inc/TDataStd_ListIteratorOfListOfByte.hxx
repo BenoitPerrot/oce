@@ -71,7 +71,7 @@ private:
 #define TCollection_List TDataStd_ListOfByte
 #define TCollection_List_hxx <TDataStd_ListOfByte.hxx>
 
-#include <TCollection_ListIterator.lxx>
+#include <Foundation/TCollection/TCollection_ListIterator.lxx>
 
 #undef Item
 #undef Item_hxx

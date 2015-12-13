@@ -17,7 +17,7 @@
 #define VrmlData_UnknownNode_HeaderFile
 
 #include <VrmlData_Node.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 /**
  * Definition of UnknownNode -- placeholder for node types that

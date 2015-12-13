@@ -19,7 +19,7 @@
 #include <InterfaceGraphic_telem.hxx>
 #include <Aspect_InteriorStyle.hxx>
 #include <Aspect_PolygonOffsetMode.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 #include <Handle_Graphic3d_TextureParams.hxx>
 #include <Handle_OpenGl_ShaderProgram.hxx>

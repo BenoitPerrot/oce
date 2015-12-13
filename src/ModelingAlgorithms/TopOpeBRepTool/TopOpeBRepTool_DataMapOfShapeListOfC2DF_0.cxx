@@ -28,5 +28,5 @@
 #define TCollection_DataMapNode_Type_() TopOpeBRepTool_DataMapNodeOfDataMapOfShapeListOfC2DF_Type_()
 #define TCollection_DataMap TopOpeBRepTool_DataMapOfShapeListOfC2DF
 #define TCollection_DataMap_hxx <TopOpeBRepTool_DataMapOfShapeListOfC2DF.hxx>
-#include <TCollection_DataMap.gxx>
+#include <Foundation/TCollection/TCollection_DataMap.gxx>
 

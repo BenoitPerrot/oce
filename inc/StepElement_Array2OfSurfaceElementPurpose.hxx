@@ -104,7 +104,7 @@ private:
 #define TCollection_Array2 StepElement_Array2OfSurfaceElementPurpose
 #define TCollection_Array2_hxx <StepElement_Array2OfSurfaceElementPurpose.hxx>
 
-#include <TCollection_Array2.lxx>
+#include <Foundation/TCollection/TCollection_Array2.lxx>
 
 #undef Array2Item
 #undef Array2Item_hxx

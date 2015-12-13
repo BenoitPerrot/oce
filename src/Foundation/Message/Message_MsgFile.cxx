@@ -17,8 +17,8 @@
 
 #include <Foundation/NCollection/NCollection_DataMap.hxx>
 #include <Foundation/OSD/OSD_Environment.hxx>
-#include <TCollection_AsciiString.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/Standard/Standard_Mutex.hxx>
 #include <Foundation/OSD/OSD_OpenFile.hxx>
 

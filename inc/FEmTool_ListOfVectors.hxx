@@ -108,7 +108,7 @@ private:
 #define TCollection_List FEmTool_ListOfVectors
 #define TCollection_List_hxx <FEmTool_ListOfVectors.hxx>
 
-#include <TCollection_List.lxx>
+#include <Foundation/TCollection/TCollection_List.lxx>
 
 #undef Item
 #undef Item_hxx

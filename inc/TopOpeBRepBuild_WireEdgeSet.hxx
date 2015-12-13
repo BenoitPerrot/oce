@@ -16,7 +16,7 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <TopAbs_Orientation.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 class TopoDS_Shape;
 class TopoDS_Face;
 class TopTools_ListOfShape;

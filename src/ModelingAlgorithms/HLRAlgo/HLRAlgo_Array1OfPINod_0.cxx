@@ -16,5 +16,5 @@
 #define Array1Item_hxx <HLRAlgo_PolyInternalNode.hxx>
 #define TCollection_Array1 HLRAlgo_Array1OfPINod
 #define TCollection_Array1_hxx <HLRAlgo_Array1OfPINod.hxx>
-#include <TCollection_Array1.gxx>
+#include <Foundation/TCollection/TCollection_Array1.gxx>
 

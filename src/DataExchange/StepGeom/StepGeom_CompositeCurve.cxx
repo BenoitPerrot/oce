@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <StepGeom_HArray1OfCompositeCurveSegment.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepGeom_CompositeCurveSegment.hxx>
 #include <StepGeom_CompositeCurve.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

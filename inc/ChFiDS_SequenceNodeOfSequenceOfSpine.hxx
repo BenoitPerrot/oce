@@ -11,8 +11,8 @@
 #include <Handle_ChFiDS_SequenceNodeOfSequenceOfSpine.hxx>
 
 #include <Handle_ChFiDS_Spine.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class ChFiDS_Spine;
 class ChFiDS_SequenceOfSpine;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence ChFiDS_SequenceOfSpine
 #define TCollection_Sequence_hxx <ChFiDS_SequenceOfSpine.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

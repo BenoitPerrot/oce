@@ -11,8 +11,8 @@
 #include <Handle_Plate_SequenceNodeOfSequenceOfPinpointConstraint.hxx>
 
 #include <Plate_PinpointConstraint.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class Plate_PinpointConstraint;
 class Plate_SequenceOfPinpointConstraint;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence Plate_SequenceOfPinpointConstraint
 #define TCollection_Sequence_hxx <Plate_SequenceOfPinpointConstraint.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

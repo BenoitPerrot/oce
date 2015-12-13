@@ -72,7 +72,7 @@ private:
 #define TCollection_List ChFiDS_ListOfStripe
 #define TCollection_List_hxx <ChFiDS_ListOfStripe.hxx>
 
-#include <TCollection_ListIterator.lxx>
+#include <Foundation/TCollection/TCollection_ListIterator.lxx>
 
 #undef Item
 #undef Item_hxx

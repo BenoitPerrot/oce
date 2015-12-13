@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Dico/Dico_IteratorOfDictionaryOfInteger.hxx>
 #include <Foundation/Dico/Dico_StackItemOfDictionaryOfInteger.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
  
 

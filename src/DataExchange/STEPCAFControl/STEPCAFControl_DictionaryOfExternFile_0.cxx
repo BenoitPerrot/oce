@@ -12,7 +12,7 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <STEPCAFControl_IteratorOfDictionaryOfExternFile.hxx>
 #include <STEPCAFControl_StackItemOfDictionaryOfExternFile.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
  
 

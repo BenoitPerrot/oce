@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(DBRep_ListNodeOfListOfHideData)
 #define TCollection_ListNode_Type_() DBRep_ListNodeOfListOfHideData_Type_()
 #define TCollection_List DBRep_ListOfHideData
 #define TCollection_List_hxx <DBRep_ListOfHideData.hxx>
-#include <TCollection_ListNode.gxx>
+#include <Foundation/TCollection/TCollection_ListNode.gxx>
 

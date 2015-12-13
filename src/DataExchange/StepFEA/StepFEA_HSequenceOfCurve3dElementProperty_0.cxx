@@ -36,5 +36,5 @@ IMPLEMENT_STANDARD_RTTI(StepFEA_HSequenceOfCurve3dElementProperty)
 #define TCollection_HSequence_hxx <StepFEA_HSequenceOfCurve3dElementProperty.hxx>
 #define Handle_TCollection_HSequence Handle_StepFEA_HSequenceOfCurve3dElementProperty
 #define TCollection_HSequence_Type_() StepFEA_HSequenceOfCurve3dElementProperty_Type_()
-#include <TCollection_HSequence.gxx>
+#include <Foundation/TCollection/TCollection_HSequence.gxx>
 

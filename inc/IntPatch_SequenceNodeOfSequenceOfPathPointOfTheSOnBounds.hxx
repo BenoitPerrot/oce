@@ -11,8 +11,8 @@
 #include <Handle_IntPatch_SequenceNodeOfSequenceOfPathPointOfTheSOnBounds.hxx>
 
 #include <IntPatch_ThePathPointOfTheSOnBounds.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class IntPatch_ThePathPointOfTheSOnBounds;
 class IntPatch_SequenceOfPathPointOfTheSOnBounds;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence IntPatch_SequenceOfPathPointOfTheSOnBounds
 #define TCollection_Sequence_hxx <IntPatch_SequenceOfPathPointOfTheSOnBounds.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

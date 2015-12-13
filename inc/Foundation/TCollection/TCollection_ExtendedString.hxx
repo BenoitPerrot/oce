@@ -325,7 +325,7 @@ private:
 };
 
 
-#include <TCollection_ExtendedString.lxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.lxx>
 
 
 

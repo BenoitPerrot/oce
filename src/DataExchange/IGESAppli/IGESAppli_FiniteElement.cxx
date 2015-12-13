@@ -17,7 +17,7 @@
 //--------------------------------------------------------------------
 
 #include <IGESAppli_HArray1OfNode.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <IGESAppli_Node.hxx>
 #include <IGESAppli_FiniteElement.hxx>

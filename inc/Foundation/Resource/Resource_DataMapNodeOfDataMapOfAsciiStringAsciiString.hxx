@@ -10,9 +10,9 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Resource_DataMapNodeOfDataMapOfAsciiStringAsciiString.hxx>
 
-#include <TCollection_AsciiString.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class TCollection_AsciiString;
 class Resource_DataMapOfAsciiStringAsciiString;
 class Resource_DataMapIteratorOfDataMapOfAsciiStringAsciiString;
@@ -51,11 +51,11 @@ private:
 };
 
 #define TheKey TCollection_AsciiString
-#define TheKey_hxx <TCollection_AsciiString.hxx>
+#define TheKey_hxx <Foundation/TCollection/TCollection_AsciiString.hxx>
 #define TheItem TCollection_AsciiString
-#define TheItem_hxx <TCollection_AsciiString.hxx>
+#define TheItem_hxx <Foundation/TCollection/TCollection_AsciiString.hxx>
 #define Hasher TCollection_AsciiString
-#define Hasher_hxx <TCollection_AsciiString.hxx>
+#define Hasher_hxx <Foundation/TCollection/TCollection_AsciiString.hxx>
 #define TCollection_DataMapNode Resource_DataMapNodeOfDataMapOfAsciiStringAsciiString
 #define TCollection_DataMapNode_hxx <Foundation/Resource/Resource_DataMapNodeOfDataMapOfAsciiStringAsciiString.hxx>
 #define TCollection_DataMapIterator Resource_DataMapIteratorOfDataMapOfAsciiStringAsciiString
@@ -65,7 +65,7 @@ private:
 #define TCollection_DataMap Resource_DataMapOfAsciiStringAsciiString
 #define TCollection_DataMap_hxx <Foundation/Resource/Resource_DataMapOfAsciiStringAsciiString.hxx>
 
-#include <TCollection_DataMapNode.lxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

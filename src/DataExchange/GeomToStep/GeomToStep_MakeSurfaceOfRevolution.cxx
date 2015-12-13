@@ -26,7 +26,7 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geom_SurfaceOfRevolution.hxx>
 #include <StepGeom_SurfaceOfRevolution.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 //=============================================================================
 // Creation d' une surface_of_revolution de prostep a partir d' une

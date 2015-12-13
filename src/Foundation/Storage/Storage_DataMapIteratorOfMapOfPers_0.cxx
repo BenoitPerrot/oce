@@ -6,18 +6,18 @@
 #include <Foundation/Storage/Storage_DataMapIteratorOfMapOfPers.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Storage/Storage_Root.hxx>
 #include <Foundation/Storage/Storage_MapOfPers.hxx>
 #include <Foundation/Storage/Storage_DataMapNodeOfMapOfPers.hxx>
  
 
 #define TheKey TCollection_AsciiString
-#define TheKey_hxx <TCollection_AsciiString.hxx>
+#define TheKey_hxx <Foundation/TCollection/TCollection_AsciiString.hxx>
 #define TheItem Handle(Storage_Root)
 #define TheItem_hxx <Foundation/Storage/Storage_Root.hxx>
 #define Hasher TCollection_AsciiString
-#define Hasher_hxx <TCollection_AsciiString.hxx>
+#define Hasher_hxx <Foundation/TCollection/TCollection_AsciiString.hxx>
 #define TCollection_DataMapNode Storage_DataMapNodeOfMapOfPers
 #define TCollection_DataMapNode_hxx <Foundation/Storage/Storage_DataMapNodeOfMapOfPers.hxx>
 #define TCollection_DataMapIterator Storage_DataMapIteratorOfMapOfPers
@@ -26,5 +26,5 @@
 #define TCollection_DataMapNode_Type_() Storage_DataMapNodeOfMapOfPers_Type_()
 #define TCollection_DataMap Storage_MapOfPers
 #define TCollection_DataMap_hxx <Foundation/Storage/Storage_MapOfPers.hxx>
-#include <TCollection_DataMapIterator.gxx>
+#include <Foundation/TCollection/TCollection_DataMapIterator.gxx>
 

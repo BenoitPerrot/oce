@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() HatchGen_SequenceNodeOfPointsOnElement_Type_()
 #define TCollection_Sequence HatchGen_PointsOnElement
 #define TCollection_Sequence_hxx <HatchGen_PointsOnElement.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

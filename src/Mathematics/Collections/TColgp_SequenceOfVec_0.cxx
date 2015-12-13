@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() TColgp_SequenceNodeOfSequenceOfVec_Type_()
 #define TCollection_Sequence TColgp_SequenceOfVec
 #define TCollection_Sequence_hxx <TColgp_SequenceOfVec.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

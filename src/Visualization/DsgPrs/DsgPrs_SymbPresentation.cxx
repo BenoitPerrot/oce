@@ -16,7 +16,7 @@
 
 #include <Prs3d_Presentation.hxx>
 #include <Prs3d_Drawer.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <gp_Pnt.hxx>
 #include <DsgPrs_SymbPresentation.hxx>
 
@@ -26,7 +26,7 @@
 #include <Prs3d_PointAspect.hxx>
 #include <Geom_CartesianPoint.hxx>
 #include <StdPrs_Point.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Prs3d_Text.hxx>
 #include <Aspect_TypeOfMarker.hxx>
 

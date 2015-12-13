@@ -96,7 +96,7 @@ private:
 #define TCollection_Array1 Graphic3d_Array1OfVertex
 #define TCollection_Array1_hxx <Graphic3d_Array1OfVertex.hxx>
 
-#include <TCollection_Array1.lxx>
+#include <Foundation/TCollection/TCollection_Array1.lxx>
 
 #undef Array1Item
 #undef Array1Item_hxx

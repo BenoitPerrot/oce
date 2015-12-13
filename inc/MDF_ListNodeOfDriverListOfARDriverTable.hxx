@@ -11,8 +11,8 @@
 #include <Handle_MDF_ListNodeOfDriverListOfARDriverTable.hxx>
 
 #include <Handle_MDF_ARDriver.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class MDF_ARDriver;
 class MDF_DriverListOfARDriverTable;
 class MDF_ListIteratorOfDriverListOfARDriverTable;
@@ -58,7 +58,7 @@ private:
 #define TCollection_List MDF_DriverListOfARDriverTable
 #define TCollection_List_hxx <MDF_DriverListOfARDriverTable.hxx>
 
-#include <TCollection_ListNode.lxx>
+#include <Foundation/TCollection/TCollection_ListNode.lxx>
 
 #undef Item
 #undef Item_hxx

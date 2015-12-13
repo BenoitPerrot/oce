@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(CDM_ListNodeOfListOfReferences)
 #define TCollection_ListNode_Type_() CDM_ListNodeOfListOfReferences_Type_()
 #define TCollection_List CDM_ListOfReferences
 #define TCollection_List_hxx <CDM_ListOfReferences.hxx>
-#include <TCollection_ListNode.gxx>
+#include <Foundation/TCollection/TCollection_ListNode.gxx>
 

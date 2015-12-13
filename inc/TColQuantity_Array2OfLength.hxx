@@ -104,7 +104,7 @@ private:
 #define TCollection_Array2 TColQuantity_Array2OfLength
 #define TCollection_Array2_hxx <TColQuantity_Array2OfLength.hxx>
 
-#include <TCollection_Array2.lxx>
+#include <Foundation/TCollection/TCollection_Array2.lxx>
 
 #undef Array2Item
 #undef Array2Item_hxx

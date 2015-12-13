@@ -16,5 +16,5 @@
 #define Array1Item_hxx <TopoDS_Shape.hxx>
 #define TCollection_Array1 TopTools_Array1OfShape
 #define TCollection_Array1_hxx <TopTools_Array1OfShape.hxx>
-#include <TCollection_Array1.gxx>
+#include <Foundation/TCollection/TCollection_Array1.gxx>
 

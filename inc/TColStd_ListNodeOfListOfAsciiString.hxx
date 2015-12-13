@@ -10,9 +10,9 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TColStd_ListNodeOfListOfAsciiString.hxx>
 
-#include <TCollection_AsciiString.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class TCollection_AsciiString;
 class TColStd_ListOfAsciiString;
 class TColStd_ListIteratorOfListOfAsciiString;
@@ -48,7 +48,7 @@ private:
 };
 
 #define Item TCollection_AsciiString
-#define Item_hxx <TCollection_AsciiString.hxx>
+#define Item_hxx <Foundation/TCollection/TCollection_AsciiString.hxx>
 #define TCollection_ListNode TColStd_ListNodeOfListOfAsciiString
 #define TCollection_ListNode_hxx <TColStd_ListNodeOfListOfAsciiString.hxx>
 #define TCollection_ListIterator TColStd_ListIteratorOfListOfAsciiString
@@ -58,7 +58,7 @@ private:
 #define TCollection_List TColStd_ListOfAsciiString
 #define TCollection_List_hxx <TColStd_ListOfAsciiString.hxx>
 
-#include <TCollection_ListNode.lxx>
+#include <Foundation/TCollection/TCollection_ListNode.lxx>
 
 #undef Item
 #undef Item_hxx

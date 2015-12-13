@@ -11,8 +11,8 @@
 #include <Handle_TDF_DoubleMapNodeOfLabelDoubleMap.hxx>
 
 #include <TDF_Label.hxx>
-#include <TCollection_MapNodePtr.hxx>
-#include <TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
 class TDF_Label;
 class TDF_LabelMapHasher;
 class TDF_LabelDoubleMap;
@@ -71,7 +71,7 @@ private:
 #define TCollection_DoubleMap TDF_LabelDoubleMap
 #define TCollection_DoubleMap_hxx <TDF_LabelDoubleMap.hxx>
 
-#include <TCollection_DoubleMapNode.lxx>
+#include <Foundation/TCollection/TCollection_DoubleMapNode.lxx>
 
 #undef TheKey1
 #undef TheKey1_hxx

@@ -26,7 +26,7 @@ IMPLEMENT_DOWNCAST(Transfer_Finder,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Transfer_Finder)
 #include <Interface_IntVal.hxx>
 #include <Geom2d_CartesianPoint.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/Dico/Dico_IteratorOfDictionaryOfTransient.hxx>
 
 

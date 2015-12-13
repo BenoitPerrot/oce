@@ -3,33 +3,33 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#ifndef _TCollection_CompareOfInteger_HeaderFile
-#define _TCollection_CompareOfInteger_HeaderFile
+#ifndef _TCollection_CompareOfReal_HeaderFile
+#define _TCollection_CompareOfReal_HeaderFile
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <TCollection_PrivCompareOfInteger.hxx>
+#include <Foundation/TCollection/TCollection_PrivCompareOfReal.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 
 
 
-class TCollection_CompareOfInteger  : public TCollection_PrivCompareOfInteger
+class TCollection_CompareOfReal  : public TCollection_PrivCompareOfReal
 {
 public:
 
   DEFINE_STANDARD_ALLOC
 
   
-  Standard_EXPORT TCollection_CompareOfInteger();
+  Standard_EXPORT TCollection_CompareOfReal();
   
   //! Returns True if <Left> is lower than <Right>.
-  Standard_EXPORT virtual   Standard_Boolean IsLower (const Standard_Integer& Left, const Standard_Integer& Right)  const;
+  Standard_EXPORT virtual   Standard_Boolean IsLower (const Standard_Real& Left, const Standard_Real& Right)  const;
   
   //! Returns True if <Left> is greater than <Right>.
-  Standard_EXPORT virtual   Standard_Boolean IsGreater (const Standard_Integer& Left, const Standard_Integer& Right)  const;
+  Standard_EXPORT virtual   Standard_Boolean IsGreater (const Standard_Real& Left, const Standard_Real& Right)  const;
 
 
 
@@ -54,4 +54,4 @@ private:
 
 
 
-#endif // _TCollection_CompareOfInteger_HeaderFile
+#endif // _TCollection_CompareOfReal_HeaderFile

@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(TColGeom_SequenceNodeOfSequenceOfSurface)
 #define TCollection_SequenceNode_Type_() TColGeom_SequenceNodeOfSequenceOfSurface_Type_()
 #define TCollection_Sequence TColGeom_SequenceOfSurface
 #define TCollection_Sequence_hxx <TColGeom_SequenceOfSurface.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

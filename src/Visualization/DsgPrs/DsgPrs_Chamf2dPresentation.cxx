@@ -17,7 +17,7 @@
 #include <Prs3d_Presentation.hxx>
 #include <Prs3d_Drawer.hxx>
 #include <gp_Pnt.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <DsgPrs_Chamf2dPresentation.hxx>
 
 #include <Graphic3d_Group.hxx>

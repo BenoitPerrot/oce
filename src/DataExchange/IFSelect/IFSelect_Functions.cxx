@@ -21,8 +21,8 @@
 #include <IFSelect_Act.hxx>
 #include <IFSelect_SessionPilot.hxx>
 
-#include <TCollection_AsciiString.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <IFSelect_SignType.hxx>
 #include <IFSelect_SignatureList.hxx>
 #include <IFSelect_IntParam.hxx>

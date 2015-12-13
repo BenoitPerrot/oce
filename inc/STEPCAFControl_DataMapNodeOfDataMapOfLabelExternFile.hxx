@@ -12,8 +12,8 @@
 
 #include <TDF_Label.hxx>
 #include <Handle_STEPCAFControl_ExternFile.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class STEPCAFControl_ExternFile;
 class TDF_Label;
 class TDF_LabelMapHasher;
@@ -68,7 +68,7 @@ private:
 #define TCollection_DataMap STEPCAFControl_DataMapOfLabelExternFile
 #define TCollection_DataMap_hxx <STEPCAFControl_DataMapOfLabelExternFile.hxx>
 
-#include <TCollection_DataMapNode.lxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

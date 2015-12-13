@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Storage/Storage_OpenMode.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Storage/Storage_Error.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Storage/Storage_Position.hxx>

@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(GeomPlate_SequenceNodeOfSequenceOfCurveConstraint)
 #define TCollection_SequenceNode_Type_() GeomPlate_SequenceNodeOfSequenceOfCurveConstraint_Type_()
 #define TCollection_Sequence GeomPlate_SequenceOfCurveConstraint
 #define TCollection_Sequence_hxx <GeomPlate_SequenceOfCurveConstraint.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

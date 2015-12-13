@@ -41,5 +41,5 @@ IMPLEMENT_STANDARD_RTTI(TopOpeBRepDS_IndexedDataMapNodeOfIndexedDataMapOfShapeWi
 #define TCollection_IndexedDataMapNode_Type_() TopOpeBRepDS_IndexedDataMapNodeOfIndexedDataMapOfShapeWithState_Type_()
 #define TCollection_IndexedDataMap TopOpeBRepDS_IndexedDataMapOfShapeWithState
 #define TCollection_IndexedDataMap_hxx <TopOpeBRepDS_IndexedDataMapOfShapeWithState.hxx>
-#include <TCollection_IndexedDataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_IndexedDataMapNode.gxx>
 

@@ -19,7 +19,7 @@
 #include <ExprIntrp_Generator.hxx>
 #include <Expr_GeneralExpression.hxx>
 #include <Expr_GeneralRelation.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Expr_GeneralFunction.hxx>
 #include <Expr_NamedFunction.hxx>
 #include <Expr_NamedExpression.hxx>

@@ -27,5 +27,5 @@
 #define TCollection_DataMapNode_Type_() Draft_DataMapNodeOfDataMapOfEdgeEdgeInfo_Type_()
 #define TCollection_DataMap Draft_DataMapOfEdgeEdgeInfo
 #define TCollection_DataMap_hxx <Draft_DataMapOfEdgeEdgeInfo.hxx>
-#include <TCollection_DataMapIterator.gxx>
+#include <Foundation/TCollection/TCollection_DataMapIterator.gxx>
 

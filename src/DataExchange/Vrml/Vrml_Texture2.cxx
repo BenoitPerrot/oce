@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <Vrml_SFImage.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Vrml_Texture2.hxx>
 #include <TColStd_HArray1OfInteger.hxx>
 

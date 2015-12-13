@@ -15,5 +15,5 @@
 #define Array1Item_hxx <GccEnt_Position.hxx>
 #define TCollection_Array1 GccEnt_Array1OfPosition
 #define TCollection_Array1_hxx <GccEnt_Array1OfPosition.hxx>
-#include <TCollection_Array1.gxx>
+#include <Foundation/TCollection/TCollection_Array1.gxx>
 

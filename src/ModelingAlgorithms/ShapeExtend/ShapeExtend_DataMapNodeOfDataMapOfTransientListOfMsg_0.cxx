@@ -44,5 +44,5 @@ IMPLEMENT_STANDARD_RTTI(ShapeExtend_DataMapNodeOfDataMapOfTransientListOfMsg)
 #define TCollection_DataMapNode_Type_() ShapeExtend_DataMapNodeOfDataMapOfTransientListOfMsg_Type_()
 #define TCollection_DataMap ShapeExtend_DataMapOfTransientListOfMsg
 #define TCollection_DataMap_hxx <ShapeExtend_DataMapOfTransientListOfMsg.hxx>
-#include <TCollection_DataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

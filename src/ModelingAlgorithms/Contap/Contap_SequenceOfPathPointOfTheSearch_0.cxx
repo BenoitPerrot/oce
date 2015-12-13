@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() Contap_SequenceNodeOfSequenceOfPathPointOfTheSearch_Type_()
 #define TCollection_Sequence Contap_SequenceOfPathPointOfTheSearch
 #define TCollection_Sequence_hxx <Contap_SequenceOfPathPointOfTheSearch.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

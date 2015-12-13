@@ -11,8 +11,8 @@
 #include <Handle_DDF_ListNodeOfTransactionStack.hxx>
 
 #include <Handle_DDF_Transaction.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class DDF_Transaction;
 class DDF_TransactionStack;
 class DDF_ListIteratorOfTransactionStack;
@@ -58,7 +58,7 @@ private:
 #define TCollection_List DDF_TransactionStack
 #define TCollection_List_hxx <DDF_TransactionStack.hxx>
 
-#include <TCollection_ListNode.lxx>
+#include <Foundation/TCollection/TCollection_ListNode.lxx>
 
 #undef Item
 #undef Item_hxx

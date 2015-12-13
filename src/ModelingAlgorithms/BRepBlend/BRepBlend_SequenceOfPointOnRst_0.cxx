@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() BRepBlend_SequenceNodeOfSequenceOfPointOnRst_Type_()
 #define TCollection_Sequence BRepBlend_SequenceOfPointOnRst
 #define TCollection_Sequence_hxx <BRepBlend_SequenceOfPointOnRst.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

@@ -12,8 +12,8 @@
 
 #include <TopoDS_Shape.hxx>
 #include <Handle_BRepCheck_Result.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class BRepCheck_Result;
 class TopoDS_Shape;
 class TopTools_OrientedShapeMapHasher;
@@ -68,7 +68,7 @@ private:
 #define TCollection_DataMap BRepCheck_DataMapOfShapeResult
 #define TCollection_DataMap_hxx <BRepCheck_DataMapOfShapeResult.hxx>
 
-#include <TCollection_DataMapNode.lxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

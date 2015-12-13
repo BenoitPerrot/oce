@@ -11,8 +11,8 @@
 #include <Handle_GeomPlate_SequenceNodeOfSequenceOfAij.hxx>
 
 #include <GeomPlate_Aij.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class GeomPlate_Aij;
 class GeomPlate_SequenceOfAij;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence GeomPlate_SequenceOfAij
 #define TCollection_Sequence_hxx <GeomPlate_SequenceOfAij.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

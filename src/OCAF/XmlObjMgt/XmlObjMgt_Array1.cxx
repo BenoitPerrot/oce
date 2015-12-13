@@ -19,7 +19,7 @@
 #include <XmlObjMgt.hxx>
 #include <XmlObjMgt_DOMString.hxx>
 #include <XmlObjMgt_Document.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 IMPLEMENT_DOMSTRING (LowerString, "lower")
 IMPLEMENT_DOMSTRING (UpperString, "upper")

@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(AdvApp2Var_SequenceNodeOfSequenceOfStrip)
 #define TCollection_SequenceNode_Type_() AdvApp2Var_SequenceNodeOfSequenceOfStrip_Type_()
 #define TCollection_Sequence AdvApp2Var_SequenceOfStrip
 #define TCollection_Sequence_hxx <AdvApp2Var_SequenceOfStrip.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

@@ -30,5 +30,5 @@
 #define TCollection_DoubleMapNode_Type_() PTColStd_DoubleMapNodeOfDoubleMapOfTransientPersistent_Type_()
 #define TCollection_DoubleMap PTColStd_DoubleMapOfTransientPersistent
 #define TCollection_DoubleMap_hxx <PTColStd_DoubleMapOfTransientPersistent.hxx>
-#include <TCollection_DoubleMapIterator.gxx>
+#include <Foundation/TCollection/TCollection_DoubleMapIterator.gxx>
 

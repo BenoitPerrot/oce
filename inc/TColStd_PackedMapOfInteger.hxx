@@ -17,7 +17,7 @@
 #define TColStd_PackedMapOfInteger_HeaderFile
 
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
-#include <TCollection_BasicMap.hxx>
+#include <Foundation/TCollection/TCollection_BasicMap.hxx>
 
 /**
  * Optimized Map of integer values. Each block of 32 integers is stored in 8 bytes in memory.

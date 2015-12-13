@@ -11,8 +11,8 @@
 #include <Handle_PCDM_SequenceNodeOfSequenceOfReference.hxx>
 
 #include <PCDM_Reference.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class PCDM_Reference;
 class PCDM_SequenceOfReference;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence PCDM_SequenceOfReference
 #define TCollection_Sequence_hxx <PCDM_SequenceOfReference.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

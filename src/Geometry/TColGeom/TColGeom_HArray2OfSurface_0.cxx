@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(TColGeom_HArray2OfSurface)
 #define TCollection_HArray2_hxx <TColGeom_HArray2OfSurface.hxx>
 #define Handle_TCollection_HArray2 Handle_TColGeom_HArray2OfSurface
 #define TCollection_HArray2_Type_() TColGeom_HArray2OfSurface_Type_()
-#include <TCollection_HArray2.gxx>
+#include <Foundation/TCollection/TCollection_HArray2.gxx>
 

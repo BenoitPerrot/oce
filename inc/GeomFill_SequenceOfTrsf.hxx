@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <TCollection_BaseSequence.hxx>
+#include <Foundation/TCollection/TCollection_BaseSequence.hxx>
 #include <Handle_GeomFill_SequenceNodeOfSequenceOfTrsf.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;
@@ -109,7 +109,7 @@ private:
 #define TCollection_Sequence GeomFill_SequenceOfTrsf
 #define TCollection_Sequence_hxx <GeomFill_SequenceOfTrsf.hxx>
 
-#include <TCollection_Sequence.lxx>
+#include <Foundation/TCollection/TCollection_Sequence.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

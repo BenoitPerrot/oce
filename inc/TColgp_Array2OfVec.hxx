@@ -104,7 +104,7 @@ private:
 #define TCollection_Array2 TColgp_Array2OfVec
 #define TCollection_Array2_hxx <TColgp_Array2OfVec.hxx>
 
-#include <TCollection_Array2.lxx>
+#include <Foundation/TCollection/TCollection_Array2.lxx>
 
 #undef Array2Item
 #undef Array2Item_hxx

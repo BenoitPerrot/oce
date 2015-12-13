@@ -25,5 +25,5 @@
 #define TCollection_IndexedDataMapNode_Type_() TopTools_IndexedDataMapNodeOfIndexedDataMapOfShapeAddress_Type_()
 #define TCollection_IndexedDataMap TopTools_IndexedDataMapOfShapeAddress
 #define TCollection_IndexedDataMap_hxx <TopTools_IndexedDataMapOfShapeAddress.hxx>
-#include <TCollection_IndexedDataMap.gxx>
+#include <Foundation/TCollection/TCollection_IndexedDataMap.gxx>
 

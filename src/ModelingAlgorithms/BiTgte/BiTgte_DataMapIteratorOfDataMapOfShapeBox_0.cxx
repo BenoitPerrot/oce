@@ -27,5 +27,5 @@
 #define TCollection_DataMapNode_Type_() BiTgte_DataMapNodeOfDataMapOfShapeBox_Type_()
 #define TCollection_DataMap BiTgte_DataMapOfShapeBox
 #define TCollection_DataMap_hxx <BiTgte_DataMapOfShapeBox.hxx>
-#include <TCollection_DataMapIterator.gxx>
+#include <Foundation/TCollection/TCollection_DataMapIterator.gxx>
 

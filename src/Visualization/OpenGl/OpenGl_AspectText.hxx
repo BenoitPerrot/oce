@@ -22,7 +22,7 @@
 #include <Aspect_TypeOfDisplayText.hxx>
 #include <Graphic3d_CAspectText.hxx>
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 #include <OpenGl_Element.hxx>
 #include <Handle_OpenGl_ShaderProgram.hxx>

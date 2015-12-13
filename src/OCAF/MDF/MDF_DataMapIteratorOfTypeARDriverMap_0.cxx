@@ -27,5 +27,5 @@
 #define TCollection_DataMapNode_Type_() MDF_DataMapNodeOfTypeARDriverMap_Type_()
 #define TCollection_DataMap MDF_TypeARDriverMap
 #define TCollection_DataMap_hxx <MDF_TypeARDriverMap.hxx>
-#include <TCollection_DataMapIterator.gxx>
+#include <Foundation/TCollection/TCollection_DataMapIterator.gxx>
 

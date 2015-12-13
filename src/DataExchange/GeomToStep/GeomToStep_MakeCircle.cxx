@@ -27,7 +27,7 @@
 #include <gp_Circ2d.hxx>
 #include <Geom_Circle.hxx>
 #include <StepGeom_Circle.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <UnitsMethods.hxx>
 
 //=============================================================================

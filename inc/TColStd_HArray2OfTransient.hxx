@@ -84,7 +84,7 @@ private:
 #define Handle_TCollection_HArray2 Handle_TColStd_HArray2OfTransient
 #define TCollection_HArray2_Type_() TColStd_HArray2OfTransient_Type_()
 
-#include <TCollection_HArray2.lxx>
+#include <Foundation/TCollection/TCollection_HArray2.lxx>
 
 #undef ItemHArray2
 #undef ItemHArray2_hxx

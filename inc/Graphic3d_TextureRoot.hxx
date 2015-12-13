@@ -11,7 +11,7 @@
 #include <Handle_Graphic3d_TextureRoot.hxx>
 
 #include <Handle_Graphic3d_TextureParams.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Image_PixMap_Handle.hxx>
 #include <Foundation/OSD/OSD_Path.hxx>
 #include <Graphic3d_TypeOfTexture.hxx>

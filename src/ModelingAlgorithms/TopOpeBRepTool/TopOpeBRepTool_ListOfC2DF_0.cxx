@@ -21,5 +21,5 @@
 #define TCollection_ListNode_Type_() TopOpeBRepTool_ListNodeOfListOfC2DF_Type_()
 #define TCollection_List TopOpeBRepTool_ListOfC2DF
 #define TCollection_List_hxx <TopOpeBRepTool_ListOfC2DF.hxx>
-#include <TCollection_List.gxx>
+#include <Foundation/TCollection/TCollection_List.gxx>
 

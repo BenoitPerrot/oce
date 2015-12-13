@@ -16,7 +16,7 @@
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.1
 
 #include <StepBasic_CharacterizedObject.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepBasic_DocumentType.hxx>
 #include <StepBasic_DocumentFile.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

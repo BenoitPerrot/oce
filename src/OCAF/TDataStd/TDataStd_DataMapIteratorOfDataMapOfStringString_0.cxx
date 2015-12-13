@@ -6,17 +6,17 @@
 #include <TDataStd_DataMapIteratorOfDataMapOfStringString.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <TDataStd_DataMapOfStringString.hxx>
 #include <TDataStd_DataMapNodeOfDataMapOfStringString.hxx>
  
 
 #define TheKey TCollection_ExtendedString
-#define TheKey_hxx <TCollection_ExtendedString.hxx>
+#define TheKey_hxx <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #define TheItem TCollection_ExtendedString
-#define TheItem_hxx <TCollection_ExtendedString.hxx>
+#define TheItem_hxx <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #define Hasher TCollection_ExtendedString
-#define Hasher_hxx <TCollection_ExtendedString.hxx>
+#define Hasher_hxx <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #define TCollection_DataMapNode TDataStd_DataMapNodeOfDataMapOfStringString
 #define TCollection_DataMapNode_hxx <TDataStd_DataMapNodeOfDataMapOfStringString.hxx>
 #define TCollection_DataMapIterator TDataStd_DataMapIteratorOfDataMapOfStringString
@@ -25,5 +25,5 @@
 #define TCollection_DataMapNode_Type_() TDataStd_DataMapNodeOfDataMapOfStringString_Type_()
 #define TCollection_DataMap TDataStd_DataMapOfStringString
 #define TCollection_DataMap_hxx <TDataStd_DataMapOfStringString.hxx>
-#include <TCollection_DataMapIterator.gxx>
+#include <Foundation/TCollection/TCollection_DataMapIterator.gxx>
 

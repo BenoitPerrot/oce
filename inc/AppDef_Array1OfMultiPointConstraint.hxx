@@ -96,7 +96,7 @@ private:
 #define TCollection_Array1 AppDef_Array1OfMultiPointConstraint
 #define TCollection_Array1_hxx <AppDef_Array1OfMultiPointConstraint.hxx>
 
-#include <TCollection_Array1.lxx>
+#include <Foundation/TCollection/TCollection_Array1.lxx>
 
 #undef Array1Item
 #undef Array1Item_hxx

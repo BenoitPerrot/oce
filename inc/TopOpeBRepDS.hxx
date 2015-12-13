@@ -14,7 +14,7 @@
 #include <Foundation/Standard/Standard_OStream.hxx>
 #include <TopOpeBRepDS_Kind.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TopAbs_ShapeEnum.hxx>
 #include <TopAbs_Orientation.hxx>
 #include <TopOpeBRepDS_Config.hxx>

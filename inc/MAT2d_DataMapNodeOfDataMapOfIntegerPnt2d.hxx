@@ -12,8 +12,8 @@
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <gp_Pnt2d.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class gp_Pnt2d;
 class TColStd_MapIntegerHasher;
 class MAT2d_DataMapOfIntegerPnt2d;
@@ -67,7 +67,7 @@ private:
 #define TCollection_DataMap MAT2d_DataMapOfIntegerPnt2d
 #define TCollection_DataMap_hxx <MAT2d_DataMapOfIntegerPnt2d.hxx>
 
-#include <TCollection_DataMapNode.lxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

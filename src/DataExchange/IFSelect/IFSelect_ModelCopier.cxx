@@ -14,7 +14,7 @@
 #include <IFSelect_ShareOut.hxx>
 #include <TColStd_HArray1OfInteger.hxx>
 #include <TColStd_HSequenceOfHAsciiString.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Interface_InterfaceModel.hxx>
 #include <IFSelect_AppliedModifiers.hxx>
 #include <Interface_CheckIterator.hxx>
@@ -40,7 +40,7 @@ IMPLEMENT_STANDARD_RTTI(IFSelect_ModelCopier)
 #include <IFSelect_ContextModif.hxx>
 #include <IFSelect_ContextWrite.hxx>
 #include <TColStd_HSequenceOfInteger.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Interface_Check.hxx>
 #include <Interface_CheckIterator.hxx>
 #include <Interface_GeneralLib.hxx>

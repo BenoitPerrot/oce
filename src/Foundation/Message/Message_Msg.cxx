@@ -15,7 +15,7 @@
 
 #include <Foundation/Message/Message_Msg.hxx>
 #include <Foundation/Message/Message_MsgFile.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <stdio.h>
 
 typedef enum

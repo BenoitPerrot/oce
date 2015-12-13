@@ -9,7 +9,7 @@
 #include <STEPCAFControl_StackItemOfDictionaryOfExternFile.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <STEPCAFControl_ExternFile.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
  
 
 #define TheItem Handle(STEPCAFControl_ExternFile)

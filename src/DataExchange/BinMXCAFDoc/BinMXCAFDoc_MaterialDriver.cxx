@@ -29,7 +29,7 @@ IMPLEMENT_DOWNCAST(BinMXCAFDoc_MaterialDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinMXCAFDoc_MaterialDriver)
 #include <XCAFDoc_Material.hxx>
 
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 //=======================================================================
 //function : Constructor

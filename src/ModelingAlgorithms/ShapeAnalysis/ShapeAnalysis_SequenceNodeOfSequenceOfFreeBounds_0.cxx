@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(ShapeAnalysis_SequenceNodeOfSequenceOfFreeBounds)
 #define TCollection_SequenceNode_Type_() ShapeAnalysis_SequenceNodeOfSequenceOfFreeBounds_Type_()
 #define TCollection_Sequence ShapeAnalysis_SequenceOfFreeBounds
 #define TCollection_Sequence_hxx <ShapeAnalysis_SequenceOfFreeBounds.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

@@ -25,7 +25,7 @@
 #include <V3d_Viewer.hxx>
 #include <AIS_InteractiveContext.hxx>
 #include <NIS_View.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/NCollection/NCollection_DoubleMap.hxx>
 
 //! Custom Cocoa view to handle events

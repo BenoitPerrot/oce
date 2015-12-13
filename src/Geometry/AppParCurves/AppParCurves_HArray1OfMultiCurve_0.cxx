@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(AppParCurves_HArray1OfMultiCurve)
 #define TCollection_HArray1_hxx <AppParCurves_HArray1OfMultiCurve.hxx>
 #define Handle_TCollection_HArray1 Handle_AppParCurves_HArray1OfMultiCurve
 #define TCollection_HArray1_Type_() AppParCurves_HArray1OfMultiCurve_Type_()
-#include <TCollection_HArray1.gxx>
+#include <Foundation/TCollection/TCollection_HArray1.gxx>
 

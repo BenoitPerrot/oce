@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/OSD/OSD_OpenFile.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/NCollection/NCollection_UtfString.hxx>
 
 // ==============================================

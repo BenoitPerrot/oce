@@ -41,5 +41,5 @@ IMPLEMENT_STANDARD_RTTI(SelectMgr_IndexedDataMapNodeOfIndexedDataMapOfOwnerCrite
 #define TCollection_IndexedDataMapNode_Type_() SelectMgr_IndexedDataMapNodeOfIndexedDataMapOfOwnerCriterion_Type_()
 #define TCollection_IndexedDataMap SelectMgr_IndexedDataMapOfOwnerCriterion
 #define TCollection_IndexedDataMap_hxx <SelectMgr_IndexedDataMapOfOwnerCriterion.hxx>
-#include <TCollection_IndexedDataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_IndexedDataMapNode.gxx>
 

@@ -18,5 +18,5 @@
 #define TCollection_SequenceNode_Type_() TColStd_SequenceNodeOfSequenceOfReal_Type_()
 #define TCollection_Sequence TColStd_SequenceOfReal
 #define TCollection_Sequence_hxx <TColStd_SequenceOfReal.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

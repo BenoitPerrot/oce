@@ -16,5 +16,5 @@
 #define Array1Item_hxx <StepDimTol_DatumReference.hxx>
 #define TCollection_Array1 StepDimTol_Array1OfDatumReference
 #define TCollection_Array1_hxx <StepDimTol_Array1OfDatumReference.hxx>
-#include <TCollection_Array1.gxx>
+#include <Foundation/TCollection/TCollection_Array1.gxx>
 

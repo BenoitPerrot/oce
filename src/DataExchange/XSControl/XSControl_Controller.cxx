@@ -80,7 +80,7 @@ IMPLEMENT_STANDARD_RTTI(XSControl_Controller)
 #include <TransferBRep_ShapeMapper.hxx>
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Interface_Macros.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <Foundation/Message/Message.hxx>

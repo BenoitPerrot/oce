@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TColStd_MapOfAsciiString.hxx>
 #include <TColStd_MapIteratorOfMapOfAsciiString.hxx>
 
@@ -29,9 +29,9 @@ IMPLEMENT_STANDARD_RTTI(TColStd_StdMapNodeOfMapOfAsciiString)
 
 
 #define TheKey TCollection_AsciiString
-#define TheKey_hxx <TCollection_AsciiString.hxx>
+#define TheKey_hxx <Foundation/TCollection/TCollection_AsciiString.hxx>
 #define Hasher TCollection_AsciiString
-#define Hasher_hxx <TCollection_AsciiString.hxx>
+#define Hasher_hxx <Foundation/TCollection/TCollection_AsciiString.hxx>
 #define TCollection_StdMapNode TColStd_StdMapNodeOfMapOfAsciiString
 #define TCollection_StdMapNode_hxx <TColStd_StdMapNodeOfMapOfAsciiString.hxx>
 #define TCollection_MapIterator TColStd_MapIteratorOfMapOfAsciiString
@@ -40,5 +40,5 @@ IMPLEMENT_STANDARD_RTTI(TColStd_StdMapNodeOfMapOfAsciiString)
 #define TCollection_StdMapNode_Type_() TColStd_StdMapNodeOfMapOfAsciiString_Type_()
 #define TCollection_Map TColStd_MapOfAsciiString
 #define TCollection_Map_hxx <TColStd_MapOfAsciiString.hxx>
-#include <TCollection_StdMapNode.gxx>
+#include <Foundation/TCollection/TCollection_StdMapNode.gxx>
 

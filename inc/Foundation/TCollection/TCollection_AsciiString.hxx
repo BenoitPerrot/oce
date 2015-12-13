@@ -675,7 +675,7 @@ private:
 };
 
 
-#include <TCollection_AsciiString.lxx>
+#include <Foundation/TCollection/TCollection_AsciiString.lxx>
 
 
 

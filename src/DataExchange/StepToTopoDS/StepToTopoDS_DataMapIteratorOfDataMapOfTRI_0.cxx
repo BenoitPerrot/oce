@@ -27,5 +27,5 @@
 #define TCollection_DataMapNode_Type_() StepToTopoDS_DataMapNodeOfDataMapOfTRI_Type_()
 #define TCollection_DataMap StepToTopoDS_DataMapOfTRI
 #define TCollection_DataMap_hxx <StepToTopoDS_DataMapOfTRI.hxx>
-#include <TCollection_DataMapIterator.gxx>
+#include <Foundation/TCollection/TCollection_DataMapIterator.gxx>
 

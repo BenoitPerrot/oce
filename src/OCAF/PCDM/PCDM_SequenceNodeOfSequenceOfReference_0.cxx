@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(PCDM_SequenceNodeOfSequenceOfReference)
 #define TCollection_SequenceNode_Type_() PCDM_SequenceNodeOfSequenceOfReference_Type_()
 #define TCollection_Sequence PCDM_SequenceOfReference
 #define TCollection_Sequence_hxx <PCDM_SequenceOfReference.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

@@ -43,5 +43,5 @@ IMPLEMENT_STANDARD_RTTI(TopOpeBRepDS_DataMapNodeOfMapOfIntegerShapeData)
 #define TCollection_DataMapNode_Type_() TopOpeBRepDS_DataMapNodeOfMapOfIntegerShapeData_Type_()
 #define TCollection_DataMap TopOpeBRepDS_MapOfIntegerShapeData
 #define TCollection_DataMap_hxx <TopOpeBRepDS_MapOfIntegerShapeData.hxx>
-#include <TCollection_DataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

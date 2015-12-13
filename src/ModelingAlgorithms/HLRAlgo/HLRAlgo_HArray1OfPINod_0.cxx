@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(HLRAlgo_HArray1OfPINod)
 #define TCollection_HArray1_hxx <HLRAlgo_HArray1OfPINod.hxx>
 #define Handle_TCollection_HArray1 Handle_HLRAlgo_HArray1OfPINod
 #define TCollection_HArray1_Type_() HLRAlgo_HArray1OfPINod_Type_()
-#include <TCollection_HArray1.gxx>
+#include <Foundation/TCollection/TCollection_HArray1.gxx>
 

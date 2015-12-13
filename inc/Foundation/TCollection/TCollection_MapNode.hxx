@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TCollection_MapNode.hxx>
 
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 
 
@@ -44,7 +44,7 @@ private:
 };
 
 
-#include <TCollection_MapNode.lxx>
+#include <Foundation/TCollection/TCollection_MapNode.lxx>
 
 
 

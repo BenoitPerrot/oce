@@ -12,8 +12,8 @@
 
 #include <Handle_AIS_InteractiveObject.hxx>
 #include <Handle_AIS_GlobalStatus.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class AIS_InteractiveObject;
 class AIS_GlobalStatus;
 class TColStd_MapTransientHasher;
@@ -68,7 +68,7 @@ private:
 #define TCollection_DataMap AIS_DataMapOfIOStatus
 #define TCollection_DataMap_hxx <AIS_DataMapOfIOStatus.hxx>
 
-#include <TCollection_DataMapNode.lxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

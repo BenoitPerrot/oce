@@ -21,7 +21,7 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <TopAbs_ShapeEnum.hxx>
 #include <Handle_TopOpeBRepDS_Interference.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 class TopOpeBRepDS_HDataStructure;
 class Geom_Curve;
 class Geom2d_Curve;

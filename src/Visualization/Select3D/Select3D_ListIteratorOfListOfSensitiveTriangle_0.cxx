@@ -22,5 +22,5 @@
 #define TCollection_ListNode_Type_() Select3D_ListNodeOfListOfSensitiveTriangle_Type_()
 #define TCollection_List Select3D_ListOfSensitiveTriangle
 #define TCollection_List_hxx <Select3D_ListOfSensitiveTriangle.hxx>
-#include <TCollection_ListIterator.gxx>
+#include <Foundation/TCollection/TCollection_ListIterator.gxx>
 

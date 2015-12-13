@@ -22,5 +22,5 @@
 #define TCollection_StdMapNode_Type_() TColStd_StdMapNodeOfMapOfInteger_Type_()
 #define TCollection_Map TColStd_MapOfInteger
 #define TCollection_Map_hxx <TColStd_MapOfInteger.hxx>
-#include <TCollection_Map.gxx>
+#include <Foundation/TCollection/TCollection_Map.gxx>
 

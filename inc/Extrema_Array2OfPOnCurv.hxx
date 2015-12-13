@@ -104,7 +104,7 @@ private:
 #define TCollection_Array2 Extrema_Array2OfPOnCurv
 #define TCollection_Array2_hxx <Extrema_Array2OfPOnCurv.hxx>
 
-#include <TCollection_Array2.lxx>
+#include <Foundation/TCollection/TCollection_Array2.lxx>
 
 #undef Array2Item
 #undef Array2Item_hxx

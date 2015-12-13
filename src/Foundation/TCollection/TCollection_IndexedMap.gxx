@@ -18,7 +18,7 @@
 #include <Foundation/Standard/Standard_MultiplyDefined.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <TCollection_BasicMapIterator.hxx>
+#include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
 
 
 //=======================================================================

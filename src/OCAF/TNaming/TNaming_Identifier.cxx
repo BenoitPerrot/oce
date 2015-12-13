@@ -32,7 +32,7 @@
 
 //#define MDTV_DEB_IDF
 #ifdef OCCT_DEBUG_IDF
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TDF_Tool.hxx>
 #include <BRepTools.hxx>
 

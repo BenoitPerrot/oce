@@ -40,5 +40,5 @@ IMPLEMENT_STANDARD_RTTI(TColStd_IndexedDataMapNodeOfIndexedDataMapOfTransientTra
 #define TCollection_IndexedDataMapNode_Type_() TColStd_IndexedDataMapNodeOfIndexedDataMapOfTransientTransient_Type_()
 #define TCollection_IndexedDataMap TColStd_IndexedDataMapOfTransientTransient
 #define TCollection_IndexedDataMap_hxx <TColStd_IndexedDataMapOfTransientTransient.hxx>
-#include <TCollection_IndexedDataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_IndexedDataMapNode.gxx>
 

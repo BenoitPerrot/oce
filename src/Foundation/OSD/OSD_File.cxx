@@ -25,7 +25,7 @@
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <Foundation/OSD/OSD_Path.hxx>
 #include <Foundation/OSD/OSD_Protection.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/OSD/OSD_Printer.hxx>
 #include <Foundation/OSD/OSD_File.hxx>
 #include <Foundation/Standard/Standard_PCharacter.hxx>
@@ -834,7 +834,7 @@ Standard_Boolean OSD_File::IsExecutable()
 #include <stdint.h>
 #endif
 #include <Foundation/Standard/Standard_PCharacter.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 
 #ifndef _INC_TCHAR
 # include <tchar.h>

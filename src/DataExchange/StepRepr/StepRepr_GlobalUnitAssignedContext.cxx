@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <StepBasic_HArray1OfNamedUnit.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepBasic_NamedUnit.hxx>
 #include <StepRepr_GlobalUnitAssignedContext.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

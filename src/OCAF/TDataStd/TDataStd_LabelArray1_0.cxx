@@ -16,5 +16,5 @@
 #define Array1Item_hxx <TDF_Label.hxx>
 #define TCollection_Array1 TDataStd_LabelArray1
 #define TCollection_Array1_hxx <TDataStd_LabelArray1.hxx>
-#include <TCollection_Array1.gxx>
+#include <Foundation/TCollection/TCollection_Array1.gxx>
 

@@ -27,5 +27,5 @@
 #define TCollection_DataMapNode_Type_() TColStd_DataMapNodeOfDataMapOfIntegerListOfInteger_Type_()
 #define TCollection_DataMap TColStd_DataMapOfIntegerListOfInteger
 #define TCollection_DataMap_hxx <TColStd_DataMapOfIntegerListOfInteger.hxx>
-#include <TCollection_DataMap.gxx>
+#include <Foundation/TCollection/TCollection_DataMap.gxx>
 

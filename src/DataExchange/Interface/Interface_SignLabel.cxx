@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Interface_SignLabel.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -25,7 +25,7 @@ IMPLEMENT_STANDARD_TYPE_END(Interface_SignLabel)
 IMPLEMENT_DOWNCAST(Interface_SignLabel,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Interface_SignLabel)
 #include <Interface_InterfaceModel.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 
 Interface_SignLabel::Interface_SignLabel  ()    {  }

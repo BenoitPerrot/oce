@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(StepGeom_HArray2OfSurfacePatch)
 #define TCollection_HArray2_hxx <StepGeom_HArray2OfSurfacePatch.hxx>
 #define Handle_TCollection_HArray2 Handle_StepGeom_HArray2OfSurfacePatch
 #define TCollection_HArray2_Type_() StepGeom_HArray2OfSurfacePatch_Type_()
-#include <TCollection_HArray2.gxx>
+#include <Foundation/TCollection/TCollection_HArray2.gxx>
 

@@ -16,5 +16,5 @@
 #define Array1Item_hxx <Geom2d_BezierCurve.hxx>
 #define TCollection_Array1 TColGeom2d_Array1OfBezierCurve
 #define TCollection_Array1_hxx <TColGeom2d_Array1OfBezierCurve.hxx>
-#include <TCollection_Array1.gxx>
+#include <Foundation/TCollection/TCollection_Array1.gxx>
 

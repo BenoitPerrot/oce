@@ -41,5 +41,5 @@ IMPLEMENT_STANDARD_RTTI(TColStd_StdMapNodeOfMapOfTransient)
 #define TCollection_StdMapNode_Type_() TColStd_StdMapNodeOfMapOfTransient_Type_()
 #define TCollection_Map TColStd_MapOfTransient
 #define TCollection_Map_hxx <TColStd_MapOfTransient.hxx>
-#include <TCollection_StdMapNode.gxx>
+#include <Foundation/TCollection/TCollection_StdMapNode.gxx>
 

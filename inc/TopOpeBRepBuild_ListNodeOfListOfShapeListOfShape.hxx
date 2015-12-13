@@ -11,8 +11,8 @@
 #include <Handle_TopOpeBRepBuild_ListNodeOfListOfShapeListOfShape.hxx>
 
 #include <TopOpeBRepBuild_ShapeListOfShape.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class TopOpeBRepBuild_ShapeListOfShape;
 class TopOpeBRepBuild_ListOfShapeListOfShape;
 class TopOpeBRepBuild_ListIteratorOfListOfShapeListOfShape;
@@ -58,7 +58,7 @@ private:
 #define TCollection_List TopOpeBRepBuild_ListOfShapeListOfShape
 #define TCollection_List_hxx <TopOpeBRepBuild_ListOfShapeListOfShape.hxx>
 
-#include <TCollection_ListNode.lxx>
+#include <Foundation/TCollection/TCollection_ListNode.lxx>
 
 #undef Item
 #undef Item_hxx

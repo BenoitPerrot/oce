@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(MDF_ListNodeOfDriverListOfASDriverTable)
 #define TCollection_ListNode_Type_() MDF_ListNodeOfDriverListOfASDriverTable_Type_()
 #define TCollection_List MDF_DriverListOfASDriverTable
 #define TCollection_List_hxx <MDF_DriverListOfASDriverTable.hxx>
-#include <TCollection_ListNode.gxx>
+#include <Foundation/TCollection/TCollection_ListNode.gxx>
 

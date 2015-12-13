@@ -11,8 +11,8 @@
 #include <Handle_HLRTopoBRep_ListNodeOfListOfVData.hxx>
 
 #include <HLRTopoBRep_VData.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class HLRTopoBRep_VData;
 class HLRTopoBRep_ListOfVData;
 class HLRTopoBRep_ListIteratorOfListOfVData;
@@ -58,7 +58,7 @@ private:
 #define TCollection_List HLRTopoBRep_ListOfVData
 #define TCollection_List_hxx <HLRTopoBRep_ListOfVData.hxx>
 
-#include <TCollection_ListNode.lxx>
+#include <Foundation/TCollection/TCollection_ListNode.lxx>
 
 #undef Item
 #undef Item_hxx

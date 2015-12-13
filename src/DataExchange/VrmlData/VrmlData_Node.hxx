@@ -20,7 +20,7 @@
 #include <Foundation/NCollection/NCollection_List.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard_TypeDef.hxx>
-#include <TCollection_AsciiString.hxx> 
+#include <Foundation/TCollection/TCollection_AsciiString.hxx> 
 #include <VrmlData_ErrorStatus.hxx>
 
 #define VRMLDATA_LCOMPARE(aa, bb) \

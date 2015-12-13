@@ -10,10 +10,10 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TDataStd_DataMapNodeOfDataMapOfStringHArray1OfReal.hxx>
 
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Handle_TColStd_HArray1OfReal.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class TColStd_HArray1OfReal;
 class TCollection_ExtendedString;
 class TDataStd_DataMapOfStringHArray1OfReal;
@@ -53,11 +53,11 @@ private:
 };
 
 #define TheKey TCollection_ExtendedString
-#define TheKey_hxx <TCollection_ExtendedString.hxx>
+#define TheKey_hxx <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #define TheItem Handle(TColStd_HArray1OfReal)
 #define TheItem_hxx <TColStd_HArray1OfReal.hxx>
 #define Hasher TCollection_ExtendedString
-#define Hasher_hxx <TCollection_ExtendedString.hxx>
+#define Hasher_hxx <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #define TCollection_DataMapNode TDataStd_DataMapNodeOfDataMapOfStringHArray1OfReal
 #define TCollection_DataMapNode_hxx <TDataStd_DataMapNodeOfDataMapOfStringHArray1OfReal.hxx>
 #define TCollection_DataMapIterator TDataStd_DataMapIteratorOfDataMapOfStringHArray1OfReal
@@ -67,7 +67,7 @@ private:
 #define TCollection_DataMap TDataStd_DataMapOfStringHArray1OfReal
 #define TCollection_DataMap_hxx <TDataStd_DataMapOfStringHArray1OfReal.hxx>
 
-#include <TCollection_DataMapNode.lxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

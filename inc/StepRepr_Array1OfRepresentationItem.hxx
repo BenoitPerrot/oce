@@ -97,7 +97,7 @@ private:
 #define TCollection_Array1 StepRepr_Array1OfRepresentationItem
 #define TCollection_Array1_hxx <StepRepr_Array1OfRepresentationItem.hxx>
 
-#include <TCollection_Array1.lxx>
+#include <Foundation/TCollection/TCollection_Array1.lxx>
 
 #undef Array1Item
 #undef Array1Item_hxx

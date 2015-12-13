@@ -36,5 +36,5 @@ IMPLEMENT_STANDARD_RTTI(StepElement_HSequenceOfCurveElementSectionDefinition)
 #define TCollection_HSequence_hxx <StepElement_HSequenceOfCurveElementSectionDefinition.hxx>
 #define Handle_TCollection_HSequence Handle_StepElement_HSequenceOfCurveElementSectionDefinition
 #define TCollection_HSequence_Type_() StepElement_HSequenceOfCurveElementSectionDefinition_Type_()
-#include <TCollection_HSequence.gxx>
+#include <Foundation/TCollection/TCollection_HSequence.gxx>
 

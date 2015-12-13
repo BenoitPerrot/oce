@@ -70,7 +70,7 @@ private:
 };
 
 #define ItemHArray1 Handle(TCollection_HAsciiString)
-#define ItemHArray1_hxx <TCollection_HAsciiString.hxx>
+#define ItemHArray1_hxx <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #define TheArray1 Interface_Array1OfHAsciiString
 #define TheArray1_hxx <Interface_Array1OfHAsciiString.hxx>
 #define TCollection_HArray1 Interface_HArray1OfHAsciiString
@@ -78,7 +78,7 @@ private:
 #define Handle_TCollection_HArray1 Handle_Interface_HArray1OfHAsciiString
 #define TCollection_HArray1_Type_() Interface_HArray1OfHAsciiString_Type_()
 
-#include <TCollection_HArray1.lxx>
+#include <Foundation/TCollection/TCollection_HArray1.lxx>
 
 #undef ItemHArray1
 #undef ItemHArray1_hxx

@@ -18,5 +18,5 @@
 #define TCollection_SequenceNode_Type_() TColStd_SequenceNodeOfSequenceOfAddress_Type_()
 #define TCollection_Sequence TColStd_SequenceOfAddress
 #define TCollection_Sequence_hxx <TColStd_SequenceOfAddress.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

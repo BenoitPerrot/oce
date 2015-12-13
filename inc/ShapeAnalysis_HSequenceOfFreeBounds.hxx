@@ -101,7 +101,7 @@ private:
 #define Handle_TCollection_HSequence Handle_ShapeAnalysis_HSequenceOfFreeBounds
 #define TCollection_HSequence_Type_() ShapeAnalysis_HSequenceOfFreeBounds_Type_()
 
-#include <TCollection_HSequence.lxx>
+#include <Foundation/TCollection/TCollection_HSequence.lxx>
 
 #undef Item
 #undef Item_hxx

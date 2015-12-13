@@ -71,7 +71,7 @@ private:
 #define TCollection_List DBRep_ListOfHideData
 #define TCollection_List_hxx <DBRep_ListOfHideData.hxx>
 
-#include <TCollection_ListIterator.lxx>
+#include <Foundation/TCollection/TCollection_ListIterator.lxx>
 
 #undef Item
 #undef Item_hxx

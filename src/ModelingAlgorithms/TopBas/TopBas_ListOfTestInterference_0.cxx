@@ -21,5 +21,5 @@
 #define TCollection_ListNode_Type_() TopBas_ListNodeOfListOfTestInterference_Type_()
 #define TCollection_List TopBas_ListOfTestInterference
 #define TCollection_List_hxx <TopBas_ListOfTestInterference.hxx>
-#include <TCollection_List.gxx>
+#include <Foundation/TCollection/TCollection_List.gxx>
 

@@ -23,7 +23,7 @@
 #include <StepShape_ContextDependentShapeRepresentation.hxx>
 #include <STEPConstruct_Assembly.hxx>
 
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 //  ProductDefinition (pour Relationship)
 #include <StepBasic_ProductDefinition.hxx>

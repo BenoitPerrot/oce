@@ -16,7 +16,7 @@
 
 #include <Geom_OffsetCurve.hxx>
 #include <TopoDS_Shape.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Geom_Surface.hxx>
 #include <AIS_EllipseRadiusDimension.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_TYPE_END(AIS_EllipseRadiusDimension)
 IMPLEMENT_DOWNCAST(AIS_EllipseRadiusDimension,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(AIS_EllipseRadiusDimension)
 
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 
 #include <ElCLib.hxx>
 #include <ElSLib.hxx>

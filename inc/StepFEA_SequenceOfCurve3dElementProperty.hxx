@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <TCollection_BaseSequence.hxx>
+#include <Foundation/TCollection/TCollection_BaseSequence.hxx>
 #include <Handle_StepFEA_Curve3dElementProperty.hxx>
 #include <Handle_StepFEA_SequenceNodeOfSequenceOfCurve3dElementProperty.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
@@ -110,7 +110,7 @@ private:
 #define TCollection_Sequence StepFEA_SequenceOfCurve3dElementProperty
 #define TCollection_Sequence_hxx <StepFEA_SequenceOfCurve3dElementProperty.hxx>
 
-#include <TCollection_Sequence.lxx>
+#include <Foundation/TCollection/TCollection_Sequence.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

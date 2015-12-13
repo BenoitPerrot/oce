@@ -18,5 +18,5 @@
 #define TCollection_SequenceNode_Type_() TShort_SequenceNodeOfSequenceOfShortReal_Type_()
 #define TCollection_Sequence TShort_SequenceOfShortReal
 #define TCollection_Sequence_hxx <TShort_SequenceOfShortReal.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

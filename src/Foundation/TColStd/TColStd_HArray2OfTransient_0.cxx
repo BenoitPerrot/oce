@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(TColStd_HArray2OfTransient)
 #define TCollection_HArray2_hxx <TColStd_HArray2OfTransient.hxx>
 #define Handle_TCollection_HArray2 Handle_TColStd_HArray2OfTransient
 #define TCollection_HArray2_Type_() TColStd_HArray2OfTransient_Type_()
-#include <TCollection_HArray2.gxx>
+#include <Foundation/TCollection/TCollection_HArray2.gxx>
 

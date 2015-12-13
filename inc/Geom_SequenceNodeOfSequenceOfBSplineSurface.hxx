@@ -11,8 +11,8 @@
 #include <Handle_Geom_SequenceNodeOfSequenceOfBSplineSurface.hxx>
 
 #include <Handle_Geom_BSplineSurface.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class Geom_BSplineSurface;
 class Geom_SequenceOfBSplineSurface;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence Geom_SequenceOfBSplineSurface
 #define TCollection_Sequence_hxx <Geom_SequenceOfBSplineSurface.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

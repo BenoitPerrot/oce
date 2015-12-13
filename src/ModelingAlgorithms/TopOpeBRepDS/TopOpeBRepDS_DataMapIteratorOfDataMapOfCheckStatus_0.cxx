@@ -25,5 +25,5 @@
 #define TCollection_DataMapNode_Type_() TopOpeBRepDS_DataMapNodeOfDataMapOfCheckStatus_Type_()
 #define TCollection_DataMap TopOpeBRepDS_DataMapOfCheckStatus
 #define TCollection_DataMap_hxx <TopOpeBRepDS_DataMapOfCheckStatus.hxx>
-#include <TCollection_DataMapIterator.gxx>
+#include <Foundation/TCollection/TCollection_DataMapIterator.gxx>
 

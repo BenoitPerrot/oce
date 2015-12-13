@@ -11,8 +11,8 @@
 #include <Handle_TopTools_SequenceNodeOfSequenceOfShape.hxx>
 
 #include <TopoDS_Shape.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class TopoDS_Shape;
 class TopTools_SequenceOfShape;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence TopTools_SequenceOfShape
 #define TCollection_Sequence_hxx <TopTools_SequenceOfShape.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

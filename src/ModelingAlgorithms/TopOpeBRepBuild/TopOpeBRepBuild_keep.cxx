@@ -45,7 +45,7 @@
 #include <TopTools_DataMapOfShapeInteger.hxx>
 #include <gp_Pnt.hxx>
 #include <TopoDS_Face.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TopOpeBRepBuild_Builder.hxx>
 #include <TopOpeBRepDS_define.hxx>
 

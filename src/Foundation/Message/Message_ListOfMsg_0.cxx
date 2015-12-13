@@ -21,5 +21,5 @@
 #define TCollection_ListNode_Type_() Message_ListNodeOfListOfMsg_Type_()
 #define TCollection_List Message_ListOfMsg
 #define TCollection_List_hxx <Foundation/Message/Message_ListOfMsg.hxx>
-#include <TCollection_List.gxx>
+#include <Foundation/TCollection/TCollection_List.gxx>
 

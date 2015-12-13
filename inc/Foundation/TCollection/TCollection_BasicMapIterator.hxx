@@ -92,7 +92,7 @@ private:
 };
 
 
-#include <TCollection_BasicMapIterator.lxx>
+#include <Foundation/TCollection/TCollection_BasicMapIterator.lxx>
 
 
 

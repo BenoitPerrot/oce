@@ -11,8 +11,8 @@
 #include <Handle_SelectBasics_ListNodeOfListOfSensitive.hxx>
 
 #include <Handle_SelectBasics_SensitiveEntity.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class SelectBasics_SensitiveEntity;
 class SelectBasics_ListOfSensitive;
 class SelectBasics_ListIteratorOfListOfSensitive;
@@ -58,7 +58,7 @@ private:
 #define TCollection_List SelectBasics_ListOfSensitive
 #define TCollection_List_hxx <SelectBasics_ListOfSensitive.hxx>
 
-#include <TCollection_ListNode.lxx>
+#include <Foundation/TCollection/TCollection_ListNode.lxx>
 
 #undef Item
 #undef Item_hxx

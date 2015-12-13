@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(IGESGeom_HArray1OfTransformationMatrix)
 #define TCollection_HArray1_hxx <IGESGeom_HArray1OfTransformationMatrix.hxx>
 #define Handle_TCollection_HArray1 Handle_IGESGeom_HArray1OfTransformationMatrix
 #define TCollection_HArray1_Type_() IGESGeom_HArray1OfTransformationMatrix_Type_()
-#include <TCollection_HArray1.gxx>
+#include <Foundation/TCollection/TCollection_HArray1.gxx>
 

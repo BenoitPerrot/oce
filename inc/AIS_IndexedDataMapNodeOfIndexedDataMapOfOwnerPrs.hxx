@@ -13,8 +13,8 @@
 #include <Handle_SelectMgr_EntityOwner.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Prs3d_Presentation.hxx>
-#include <TCollection_MapNodePtr.hxx>
-#include <TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
 class SelectMgr_EntityOwner;
 class Prs3d_Presentation;
 class TColStd_MapTransientHasher;
@@ -72,7 +72,7 @@ private:
 #define TCollection_IndexedDataMap AIS_IndexedDataMapOfOwnerPrs
 #define TCollection_IndexedDataMap_hxx <AIS_IndexedDataMapOfOwnerPrs.hxx>
 
-#include <TCollection_IndexedDataMapNode.lxx>
+#include <Foundation/TCollection/TCollection_IndexedDataMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() IntTools_SequenceNodeOfSequenceOfRanges_Type_()
 #define TCollection_Sequence IntTools_SequenceOfRanges
 #define TCollection_Sequence_hxx <IntTools_SequenceOfRanges.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

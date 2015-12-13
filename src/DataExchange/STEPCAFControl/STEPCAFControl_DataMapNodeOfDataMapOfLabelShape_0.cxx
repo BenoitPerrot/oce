@@ -44,5 +44,5 @@ IMPLEMENT_STANDARD_RTTI(STEPCAFControl_DataMapNodeOfDataMapOfLabelShape)
 #define TCollection_DataMapNode_Type_() STEPCAFControl_DataMapNodeOfDataMapOfLabelShape_Type_()
 #define TCollection_DataMap STEPCAFControl_DataMapOfLabelShape
 #define TCollection_DataMap_hxx <STEPCAFControl_DataMapOfLabelShape.hxx>
-#include <TCollection_DataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

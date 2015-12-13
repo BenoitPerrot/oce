@@ -40,5 +40,5 @@ IMPLEMENT_STANDARD_RTTI(TDF_StdMapNodeOfIDMap)
 #define TCollection_StdMapNode_Type_() TDF_StdMapNodeOfIDMap_Type_()
 #define TCollection_Map TDF_IDMap
 #define TCollection_Map_hxx <TDF_IDMap.hxx>
-#include <TCollection_StdMapNode.gxx>
+#include <Foundation/TCollection/TCollection_StdMapNode.gxx>
 

@@ -16,5 +16,5 @@
 #define Array1Item_hxx <TestTopOpeTools_Mesure.hxx>
 #define TCollection_Array1 TestTopOpeTools_Array1OfMesure
 #define TCollection_Array1_hxx <TestTopOpeTools_Array1OfMesure.hxx>
-#include <TCollection_Array1.gxx>
+#include <Foundation/TCollection/TCollection_Array1.gxx>
 

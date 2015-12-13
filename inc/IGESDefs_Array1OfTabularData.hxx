@@ -97,7 +97,7 @@ private:
 #define TCollection_Array1 IGESDefs_Array1OfTabularData
 #define TCollection_Array1_hxx <IGESDefs_Array1OfTabularData.hxx>
 
-#include <TCollection_Array1.lxx>
+#include <Foundation/TCollection/TCollection_Array1.lxx>
 
 #undef Array1Item
 #undef Array1Item_hxx

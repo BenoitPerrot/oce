@@ -16,7 +16,7 @@
 //svv#2 21.02.00 : porting on SIL
 //smh#14 17.03.2000 : FRA62479 Clearing of gtool.
 #include <Interface_Check.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Interface_GTool.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>

@@ -11,8 +11,8 @@
 #include <Handle_HLRBRep_SequenceNodeOfSeqOfShapeBounds.hxx>
 
 #include <HLRBRep_ShapeBounds.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class HLRBRep_ShapeBounds;
 class HLRBRep_SeqOfShapeBounds;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence HLRBRep_SeqOfShapeBounds
 #define TCollection_Sequence_hxx <HLRBRep_SeqOfShapeBounds.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

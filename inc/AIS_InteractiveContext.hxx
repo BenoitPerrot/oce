@@ -15,7 +15,7 @@
 #include <PrsMgr_PresentationManager3d.hxx>
 #include <Handle_V3d_Viewer.hxx>
 #include <Handle_StdSelect_ViewerSelector3d.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Handle_AIS_InteractiveObject.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_SelectMgr_OrFilter.hxx>

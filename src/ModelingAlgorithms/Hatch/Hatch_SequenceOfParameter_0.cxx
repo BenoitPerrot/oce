@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() Hatch_SequenceNodeOfSequenceOfParameter_Type_()
 #define TCollection_Sequence Hatch_SequenceOfParameter
 #define TCollection_Sequence_hxx <Hatch_SequenceOfParameter.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

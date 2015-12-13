@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <IGESSelect_ViewSorter.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Interface_Graph.hxx>
 #include <IFGraph_SubPartsIterator.hxx>
 #include <Interface_EntityIterator.hxx>

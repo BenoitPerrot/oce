@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <StepShape_HArray1OfFace.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepShape_Face.hxx>
 #include <StepShape_ConnectedFaceSet.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

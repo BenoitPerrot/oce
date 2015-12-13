@@ -34,7 +34,7 @@
 #include <Transfer_TransferFailure.hxx>
 #include <Transfer_TransferDeadLoop.hxx>
 
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/Dico/Dico_DictionaryOfTransient.hxx>
 #include <Foundation/Dico/Dico_IteratorOfDictionaryOfTransient.hxx>
 #include <TColStd_MapIteratorOfMapOfInteger.hxx>

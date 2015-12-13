@@ -11,8 +11,8 @@
 #include <Handle_Plate_SequenceNodeOfSequenceOfLinearXYZConstraint.hxx>
 
 #include <Plate_LinearXYZConstraint.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class Plate_LinearXYZConstraint;
 class Plate_SequenceOfLinearXYZConstraint;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence Plate_SequenceOfLinearXYZConstraint
 #define TCollection_Sequence_hxx <Plate_SequenceOfLinearXYZConstraint.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

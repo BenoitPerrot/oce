@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(Message_SequenceNodeOfSequenceOfPrinters)
 #define TCollection_SequenceNode_Type_() Message_SequenceNodeOfSequenceOfPrinters_Type_()
 #define TCollection_Sequence Message_SequenceOfPrinters
 #define TCollection_Sequence_hxx <Foundation/Message/Message_SequenceOfPrinters.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

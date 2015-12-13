@@ -24,7 +24,7 @@
 #include <StepBasic_SiUnit.hxx>
 #include <STEPConstruct_UnitContext.hxx>
 
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 #include <StepBasic_SiUnit.hxx>
 #include <StepBasic_SiPrefix.hxx>

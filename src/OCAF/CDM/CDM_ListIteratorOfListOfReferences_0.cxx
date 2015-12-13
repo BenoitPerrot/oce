@@ -22,5 +22,5 @@
 #define TCollection_ListNode_Type_() CDM_ListNodeOfListOfReferences_Type_()
 #define TCollection_List CDM_ListOfReferences
 #define TCollection_List_hxx <CDM_ListOfReferences.hxx>
-#include <TCollection_ListIterator.gxx>
+#include <Foundation/TCollection/TCollection_ListIterator.gxx>
 

@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(StepVisual_HArray1OfInvisibleItem)
 #define TCollection_HArray1_hxx <StepVisual_HArray1OfInvisibleItem.hxx>
 #define Handle_TCollection_HArray1 Handle_StepVisual_HArray1OfInvisibleItem
 #define TCollection_HArray1_Type_() StepVisual_HArray1OfInvisibleItem_Type_()
-#include <TCollection_HArray1.gxx>
+#include <Foundation/TCollection/TCollection_HArray1.gxx>
 

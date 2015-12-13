@@ -44,5 +44,5 @@ IMPLEMENT_STANDARD_RTTI(STEPCAFControl_DataMapNodeOfDataMapOfPDExternFile)
 #define TCollection_DataMapNode_Type_() STEPCAFControl_DataMapNodeOfDataMapOfPDExternFile_Type_()
 #define TCollection_DataMap STEPCAFControl_DataMapOfPDExternFile
 #define TCollection_DataMap_hxx <STEPCAFControl_DataMapOfPDExternFile.hxx>
-#include <TCollection_DataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

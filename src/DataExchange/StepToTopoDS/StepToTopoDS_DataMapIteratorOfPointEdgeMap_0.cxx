@@ -27,5 +27,5 @@
 #define TCollection_DataMapNode_Type_() StepToTopoDS_DataMapNodeOfPointEdgeMap_Type_()
 #define TCollection_DataMap StepToTopoDS_PointEdgeMap
 #define TCollection_DataMap_hxx <StepToTopoDS_PointEdgeMap.hxx>
-#include <TCollection_DataMapIterator.gxx>
+#include <Foundation/TCollection/TCollection_DataMapIterator.gxx>
 

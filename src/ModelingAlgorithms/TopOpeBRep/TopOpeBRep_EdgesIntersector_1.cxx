@@ -19,7 +19,7 @@
 #include <Bnd_Box.hxx>
 #include <Geom2dAdaptor_Curve.hxx>
 #include <BRepAdaptor_Surface.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TopOpeBRep_SequenceOfPoint2d.hxx>
 #include <TopOpeBRep_Point2d.hxx>
 #include <IntRes2d_IntersectionSegment.hxx>

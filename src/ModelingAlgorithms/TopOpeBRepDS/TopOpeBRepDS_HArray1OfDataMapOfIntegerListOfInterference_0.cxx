@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(TopOpeBRepDS_HArray1OfDataMapOfIntegerListOfInterference
 #define TCollection_HArray1_hxx <TopOpeBRepDS_HArray1OfDataMapOfIntegerListOfInterference.hxx>
 #define Handle_TCollection_HArray1 Handle_TopOpeBRepDS_HArray1OfDataMapOfIntegerListOfInterference
 #define TCollection_HArray1_Type_() TopOpeBRepDS_HArray1OfDataMapOfIntegerListOfInterference_Type_()
-#include <TCollection_HArray1.gxx>
+#include <Foundation/TCollection/TCollection_HArray1.gxx>
 

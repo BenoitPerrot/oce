@@ -16,7 +16,7 @@
 #ifndef MoniTool_ValueSatisfies_HeaderFile
 #define MoniTool_ValueSatisfies_HeaderFile
 
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 typedef Standard_Boolean (*MoniTool_ValueSatisfies) (const Handle(TCollection_HAsciiString)& val);
 

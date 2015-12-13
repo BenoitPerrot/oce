@@ -12,8 +12,8 @@
 
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_MoniTool_Timer.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class MoniTool_Timer;
 class MoniTool_MTHasher;
 class MoniTool_DataMapOfTimer;
@@ -67,7 +67,7 @@ private:
 #define TCollection_DataMap MoniTool_DataMapOfTimer
 #define TCollection_DataMap_hxx <MoniTool_DataMapOfTimer.hxx>
 
-#include <TCollection_DataMapNode.lxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

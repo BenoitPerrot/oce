@@ -10,10 +10,10 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Interface_IndexedMapNodeOfIndexedMapOfAsciiString.hxx>
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <TCollection_MapNodePtr.hxx>
-#include <TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
 class TCollection_AsciiString;
 class Interface_MapAsciiStringHasher;
 class Interface_IndexedMapOfAsciiString;
@@ -55,7 +55,7 @@ private:
 };
 
 #define TheKey TCollection_AsciiString
-#define TheKey_hxx <TCollection_AsciiString.hxx>
+#define TheKey_hxx <Foundation/TCollection/TCollection_AsciiString.hxx>
 #define Hasher Interface_MapAsciiStringHasher
 #define Hasher_hxx <Interface_MapAsciiStringHasher.hxx>
 #define TCollection_IndexedMapNode Interface_IndexedMapNodeOfIndexedMapOfAsciiString
@@ -65,7 +65,7 @@ private:
 #define TCollection_IndexedMap Interface_IndexedMapOfAsciiString
 #define TCollection_IndexedMap_hxx <Interface_IndexedMapOfAsciiString.hxx>
 
-#include <TCollection_IndexedMapNode.lxx>
+#include <Foundation/TCollection/TCollection_IndexedMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

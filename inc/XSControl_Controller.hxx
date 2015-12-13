@@ -11,7 +11,7 @@
 #include <Handle_XSControl_Controller.hxx>
 
 #include <IFSelect_Profile.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Handle_IFSelect_WorkLibrary.hxx>
 #include <Handle_Interface_Protocol.hxx>
 #include <Handle_IFSelect_Signature.hxx>

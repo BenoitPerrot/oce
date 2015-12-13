@@ -22,7 +22,7 @@
 #include <InterfaceGraphic.hxx>
 #include <stdlib.h>
 #include <vfw.h>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 /**
  * Class providing the API to record AVI files using a codec installed in the

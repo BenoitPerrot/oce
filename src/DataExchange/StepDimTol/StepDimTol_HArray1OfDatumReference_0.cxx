@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(StepDimTol_HArray1OfDatumReference)
 #define TCollection_HArray1_hxx <StepDimTol_HArray1OfDatumReference.hxx>
 #define Handle_TCollection_HArray1 Handle_StepDimTol_HArray1OfDatumReference
 #define TCollection_HArray1_Type_() StepDimTol_HArray1OfDatumReference_Type_()
-#include <TCollection_HArray1.gxx>
+#include <Foundation/TCollection/TCollection_HArray1.gxx>
 

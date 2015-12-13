@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() StepRepr_SequenceNodeOfSequenceOfMaterialPropertyRepresentation_Type_()
 #define TCollection_Sequence StepRepr_SequenceOfMaterialPropertyRepresentation
 #define TCollection_Sequence_hxx <StepRepr_SequenceOfMaterialPropertyRepresentation.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

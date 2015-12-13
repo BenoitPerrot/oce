@@ -11,8 +11,8 @@
 #include <Handle_Transfer_SequenceNodeOfSequenceOfFinder.hxx>
 
 #include <Handle_Transfer_Finder.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class Transfer_Finder;
 class Transfer_SequenceOfFinder;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence Transfer_SequenceOfFinder
 #define TCollection_Sequence_hxx <Transfer_SequenceOfFinder.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

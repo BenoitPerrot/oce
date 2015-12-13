@@ -19,8 +19,8 @@
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <Foundation/Message/Message_PrinterOStream.hxx>
 #include <Foundation/Message/Message_Gravity.hxx>
-#include <TCollection_AsciiString.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 
 IMPLEMENT_STANDARD_TYPE(Message_PrinterOStream)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

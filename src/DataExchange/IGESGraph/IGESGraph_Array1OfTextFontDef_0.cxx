@@ -16,5 +16,5 @@
 #define Array1Item_hxx <IGESGraph_TextFontDef.hxx>
 #define TCollection_Array1 IGESGraph_Array1OfTextFontDef
 #define TCollection_Array1_hxx <IGESGraph_Array1OfTextFontDef.hxx>
-#include <TCollection_Array1.gxx>
+#include <Foundation/TCollection/TCollection_Array1.gxx>
 

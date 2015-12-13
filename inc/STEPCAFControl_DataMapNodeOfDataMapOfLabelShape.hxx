@@ -12,8 +12,8 @@
 
 #include <TDF_Label.hxx>
 #include <TopoDS_Shape.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class TDF_Label;
 class TopoDS_Shape;
 class TDF_LabelMapHasher;
@@ -68,7 +68,7 @@ private:
 #define TCollection_DataMap STEPCAFControl_DataMapOfLabelShape
 #define TCollection_DataMap_hxx <STEPCAFControl_DataMapOfLabelShape.hxx>
 
-#include <TCollection_DataMapNode.lxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

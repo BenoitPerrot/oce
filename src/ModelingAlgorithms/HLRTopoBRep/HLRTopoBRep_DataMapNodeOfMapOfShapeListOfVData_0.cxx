@@ -44,5 +44,5 @@ IMPLEMENT_STANDARD_RTTI(HLRTopoBRep_DataMapNodeOfMapOfShapeListOfVData)
 #define TCollection_DataMapNode_Type_() HLRTopoBRep_DataMapNodeOfMapOfShapeListOfVData_Type_()
 #define TCollection_DataMap HLRTopoBRep_MapOfShapeListOfVData
 #define TCollection_DataMap_hxx <HLRTopoBRep_MapOfShapeListOfVData.hxx>
-#include <TCollection_DataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

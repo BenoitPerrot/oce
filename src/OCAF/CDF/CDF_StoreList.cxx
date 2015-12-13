@@ -17,7 +17,7 @@
 #include <CDM_Document.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <CDM_MetaData.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <CDF_StoreList.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(CDF_StoreList)

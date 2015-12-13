@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(Intf_SequenceNodeOfSeqOfSectionPoint)
 #define TCollection_SequenceNode_Type_() Intf_SequenceNodeOfSeqOfSectionPoint_Type_()
 #define TCollection_Sequence Intf_SeqOfSectionPoint
 #define TCollection_Sequence_hxx <Intf_SeqOfSectionPoint.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

@@ -37,5 +37,5 @@ IMPLEMENT_STANDARD_RTTI(TColStd_ListNodeOfListOfInteger)
 #define TCollection_ListNode_Type_() TColStd_ListNodeOfListOfInteger_Type_()
 #define TCollection_List TColStd_ListOfInteger
 #define TCollection_List_hxx <TColStd_ListOfInteger.hxx>
-#include <TCollection_ListNode.gxx>
+#include <Foundation/TCollection/TCollection_ListNode.gxx>
 

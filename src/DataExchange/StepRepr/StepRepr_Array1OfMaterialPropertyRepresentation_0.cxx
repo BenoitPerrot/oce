@@ -16,5 +16,5 @@
 #define Array1Item_hxx <StepRepr_MaterialPropertyRepresentation.hxx>
 #define TCollection_Array1 StepRepr_Array1OfMaterialPropertyRepresentation
 #define TCollection_Array1_hxx <StepRepr_Array1OfMaterialPropertyRepresentation.hxx>
-#include <TCollection_Array1.gxx>
+#include <Foundation/TCollection/TCollection_Array1.gxx>
 

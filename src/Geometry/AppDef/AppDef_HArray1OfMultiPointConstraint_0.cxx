@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(AppDef_HArray1OfMultiPointConstraint)
 #define TCollection_HArray1_hxx <AppDef_HArray1OfMultiPointConstraint.hxx>
 #define Handle_TCollection_HArray1 Handle_AppDef_HArray1OfMultiPointConstraint
 #define TCollection_HArray1_Type_() AppDef_HArray1OfMultiPointConstraint_Type_()
-#include <TCollection_HArray1.gxx>
+#include <Foundation/TCollection/TCollection_HArray1.gxx>
 

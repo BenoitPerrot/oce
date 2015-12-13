@@ -11,8 +11,8 @@
 #include <Handle_AIS_StdMapNodeOfMapOfInteractive.hxx>
 
 #include <Handle_AIS_InteractiveObject.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class AIS_InteractiveObject;
 class TColStd_MapTransientHasher;
 class AIS_MapOfInteractive;
@@ -61,7 +61,7 @@ private:
 #define TCollection_Map AIS_MapOfInteractive
 #define TCollection_Map_hxx <AIS_MapOfInteractive.hxx>
 
-#include <TCollection_StdMapNode.lxx>
+#include <Foundation/TCollection/TCollection_StdMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

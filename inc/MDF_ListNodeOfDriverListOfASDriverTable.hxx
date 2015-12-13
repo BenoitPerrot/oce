@@ -11,8 +11,8 @@
 #include <Handle_MDF_ListNodeOfDriverListOfASDriverTable.hxx>
 
 #include <Handle_MDF_ASDriver.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class MDF_ASDriver;
 class MDF_DriverListOfASDriverTable;
 class MDF_ListIteratorOfDriverListOfASDriverTable;
@@ -58,7 +58,7 @@ private:
 #define TCollection_List MDF_DriverListOfASDriverTable
 #define TCollection_List_hxx <MDF_DriverListOfASDriverTable.hxx>
 
-#include <TCollection_ListNode.lxx>
+#include <Foundation/TCollection/TCollection_ListNode.lxx>
 
 #undef Item
 #undef Item_hxx

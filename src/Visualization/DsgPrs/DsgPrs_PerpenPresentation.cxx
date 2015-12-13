@@ -33,7 +33,7 @@
 #include <Prs3d_TextAspect.hxx>
 #include <Prs3d_PointAspect.hxx>
 #include <Prs3d_DimensionAspect.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Graphic3d_AspectLine3d.hxx>
 #include <Graphic3d_ArrayOfSegments.hxx>
 #include <Graphic3d_ArrayOfPolylines.hxx>

@@ -23,5 +23,5 @@
 #define TCollection_StdMapNode_Type_() TDF_StdMapNodeOfIDMap_Type_()
 #define TCollection_Map TDF_IDMap
 #define TCollection_Map_hxx <TDF_IDMap.hxx>
-#include <TCollection_MapIterator.gxx>
+#include <Foundation/TCollection/TCollection_MapIterator.gxx>
 

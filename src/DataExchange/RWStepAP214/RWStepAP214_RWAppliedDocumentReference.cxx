@@ -19,7 +19,7 @@
 #include <RWStepAP214_RWAppliedDocumentReference.hxx>
 
 #include <StepBasic_Document.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepAP214_HArray1OfDocumentReferenceItem.hxx>
 #include <StepAP214_DocumentReferenceItem.hxx>
 

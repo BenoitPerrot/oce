@@ -104,7 +104,7 @@ private:
 #define TCollection_Array2 TopTrans_Array2OfOrientation
 #define TCollection_Array2_hxx <TopTrans_Array2OfOrientation.hxx>
 
-#include <TCollection_Array2.lxx>
+#include <Foundation/TCollection/TCollection_Array2.lxx>
 
 #undef Array2Item
 #undef Array2Item_hxx

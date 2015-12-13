@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_RTTI(IGESData_DefaultSpecific)
 #include <IGESData_SpecificLib.hxx>
 #include <IGESData.hxx>
 #include <IGESData_Protocol.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Interface_Macros.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 

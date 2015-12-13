@@ -14,7 +14,7 @@
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Interface_Graph.hxx>
 #include <Interface_EntityIterator.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <IGESData_IGESEntity.hxx>
 #include <IGESSelect_SelectBasicGeom.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

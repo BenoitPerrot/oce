@@ -18,7 +18,7 @@
 #include <IFSelect_Transformer.hxx>
 #include <Interface_EntityIterator.hxx>
 #include <Interface_Graph.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <IFSelect_SelectPointed.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IFSelect_SelectPointed)

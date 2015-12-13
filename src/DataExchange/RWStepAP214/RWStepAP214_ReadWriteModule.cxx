@@ -15,7 +15,7 @@
 //:n5 abv 15 Feb 99: S4132 complex type bounded_curve + surface_curve -> surface_curve
 // :j4 gka 15.03.99 S4134
 // sln 03.10.2001. BUC61003. Correction of alphabetic order of complex entity's items 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TColStd_SequenceOfAsciiString.hxx>
 #include <StepData_StepReaderData.hxx>
 #include <Interface_Check.hxx>

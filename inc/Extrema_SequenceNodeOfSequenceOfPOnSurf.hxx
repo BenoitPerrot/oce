@@ -11,8 +11,8 @@
 #include <Handle_Extrema_SequenceNodeOfSequenceOfPOnSurf.hxx>
 
 #include <Extrema_POnSurf.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class Extrema_POnSurf;
 class Extrema_SequenceOfPOnSurf;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence Extrema_SequenceOfPOnSurf
 #define TCollection_Sequence_hxx <Extrema_SequenceOfPOnSurf.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

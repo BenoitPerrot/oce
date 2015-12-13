@@ -14,7 +14,7 @@
 
 #include <Foundation/Quantity/Quantity_Convert.hxx>
 #include <Foundation/Quantity/Quantity_Array1OfCoefficient.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 Standard_EXPORT Quantity_Array1OfCoefficient ConvertTable(1,68);
 static Standard_CString theEnums[] = {      // En attendant la methode "Elements" de Standard_Type

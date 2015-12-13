@@ -17,7 +17,7 @@
 #include <TColStd_HSequenceOfHAsciiString.hxx>
 #include <IFSelect_ContextWrite.hxx>
 #include <IGESData_IGESWriter.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <IGESSelect_AddFileComment.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESSelect_AddFileComment)
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESSelect_AddFileComment)
 IMPLEMENT_DOWNCAST(IGESSelect_AddFileComment,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESSelect_AddFileComment)
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <stdio.h>
 
 

@@ -11,8 +11,8 @@
 #include <Handle_SelectBasics_ListNodeOfListOfBox2d.hxx>
 
 #include <Bnd_Box2d.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class Bnd_Box2d;
 class SelectBasics_ListOfBox2d;
 class SelectBasics_ListIteratorOfListOfBox2d;
@@ -58,7 +58,7 @@ private:
 #define TCollection_List SelectBasics_ListOfBox2d
 #define TCollection_List_hxx <SelectBasics_ListOfBox2d.hxx>
 
-#include <TCollection_ListNode.lxx>
+#include <Foundation/TCollection/TCollection_ListNode.lxx>
 
 #undef Item
 #undef Item_hxx

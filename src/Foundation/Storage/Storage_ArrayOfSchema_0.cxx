@@ -16,5 +16,5 @@
 #define Array1Item_hxx <Foundation/Storage/Storage_Schema.hxx>
 #define TCollection_Array1 Storage_ArrayOfSchema
 #define TCollection_Array1_hxx <Foundation/Storage/Storage_ArrayOfSchema.hxx>
-#include <TCollection_Array1.gxx>
+#include <Foundation/TCollection/TCollection_Array1.gxx>
 

@@ -30,7 +30,7 @@ IMPLEMENT_DOWNCAST(MDataStd_NameRetrievalDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDataStd_NameRetrievalDriver)
 #include <PDataStd_Name.hxx>
 #include <TDataStd_Name.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <PCollection_HExtendedString.hxx>
 #include <CDM_MessageDriver.hxx>
 #include <CDM_MessageDriver.hxx>
@@ -49,7 +49,7 @@ Handle(TDF_Attribute) MDataStd_NameRetrievalDriver::NewEmpty() const
 { return new TDataStd_Name (); }
 
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TDF_Tool.hxx>
 #include <TDF_Label.hxx>
 

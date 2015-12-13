@@ -44,5 +44,5 @@ IMPLEMENT_STANDARD_RTTI(AIS_DataMapNodeOfDataMapOfSelStat)
 #define TCollection_DataMapNode_Type_() AIS_DataMapNodeOfDataMapOfSelStat_Type_()
 #define TCollection_DataMap AIS_DataMapOfSelStat
 #define TCollection_DataMap_hxx <AIS_DataMapOfSelStat.hxx>
-#include <TCollection_DataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

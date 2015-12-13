@@ -28,5 +28,5 @@
 #define TCollection_DataMapNode_Type_() BRepFill_DataMapNodeOfDataMapOfNodeDataMapOfShapeShape_Type_()
 #define TCollection_DataMap BRepFill_DataMapOfNodeDataMapOfShapeShape
 #define TCollection_DataMap_hxx <BRepFill_DataMapOfNodeDataMapOfShapeShape.hxx>
-#include <TCollection_DataMap.gxx>
+#include <Foundation/TCollection/TCollection_DataMap.gxx>
 

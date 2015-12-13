@@ -6,7 +6,7 @@
 #include <Foundation/SortTools/SortTools_ShellSortOfInteger.hxx>
 
 #include <TColStd_Array1OfInteger.hxx>
-#include <TCollection_CompareOfInteger.hxx>
+#include <Foundation/TCollection/TCollection_CompareOfInteger.hxx>
  
 
 #define Item Standard_Integer
@@ -14,7 +14,7 @@
 #define Array TColStd_Array1OfInteger
 #define Array_hxx <TColStd_Array1OfInteger.hxx>
 #define Comparator TCollection_CompareOfInteger
-#define Comparator_hxx <TCollection_CompareOfInteger.hxx>
+#define Comparator_hxx <Foundation/TCollection/TCollection_CompareOfInteger.hxx>
 #define SortTools_ShellSort SortTools_ShellSortOfInteger
 #define SortTools_ShellSort_hxx <Foundation/SortTools/SortTools_ShellSortOfInteger.hxx>
 #include <Foundation/SortTools/SortTools_ShellSort.gxx>

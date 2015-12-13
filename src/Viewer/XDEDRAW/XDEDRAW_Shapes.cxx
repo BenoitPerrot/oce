@@ -34,7 +34,7 @@
 #include <XCAFDoc_ShapeTool.hxx>
 #include <XCAFDoc_Location.hxx>
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 #include <stdio.h>
 #include <XCAFDoc_GraphNode.hxx>

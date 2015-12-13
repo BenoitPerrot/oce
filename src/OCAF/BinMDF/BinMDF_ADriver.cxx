@@ -16,9 +16,9 @@
 #include <CDM_MessageDriver.hxx>
 #include <TDF_Attribute.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <BinObjMgt_Persistent.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <BinMDF_ADriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BinMDF_ADriver)

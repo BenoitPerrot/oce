@@ -41,5 +41,5 @@ IMPLEMENT_STANDARD_RTTI(IntTools_StdMapNodeOfMapOfSurfaceSample)
 #define TCollection_StdMapNode_Type_() IntTools_StdMapNodeOfMapOfSurfaceSample_Type_()
 #define TCollection_Map IntTools_MapOfSurfaceSample
 #define TCollection_Map_hxx <IntTools_MapOfSurfaceSample.hxx>
-#include <TCollection_StdMapNode.gxx>
+#include <Foundation/TCollection/TCollection_StdMapNode.gxx>
 

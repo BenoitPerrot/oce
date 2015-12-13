@@ -11,8 +11,8 @@
 #include <Handle_TColGeom2d_SequenceNodeOfSequenceOfCurve.hxx>
 
 #include <Handle_Geom2d_Curve.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class Geom2d_Curve;
 class TColGeom2d_SequenceOfCurve;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence TColGeom2d_SequenceOfCurve
 #define TCollection_Sequence_hxx <TColGeom2d_SequenceOfCurve.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

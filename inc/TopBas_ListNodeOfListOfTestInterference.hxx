@@ -11,8 +11,8 @@
 #include <Handle_TopBas_ListNodeOfListOfTestInterference.hxx>
 
 #include <TopBas_TestInterference.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class TopBas_TestInterference;
 class TopBas_ListOfTestInterference;
 class TopBas_ListIteratorOfListOfTestInterference;
@@ -58,7 +58,7 @@ private:
 #define TCollection_List TopBas_ListOfTestInterference
 #define TCollection_List_hxx <TopBas_ListOfTestInterference.hxx>
 
-#include <TCollection_ListNode.lxx>
+#include <Foundation/TCollection/TCollection_ListNode.lxx>
 
 #undef Item
 #undef Item_hxx

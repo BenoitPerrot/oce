@@ -28,5 +28,5 @@
 #define TCollection_DataMapNode_Type_() BRepOffset_DataMapNodeOfDataMapOfShapeMapOfShape_Type_()
 #define TCollection_DataMap BRepOffset_DataMapOfShapeMapOfShape
 #define TCollection_DataMap_hxx <BRepOffset_DataMapOfShapeMapOfShape.hxx>
-#include <TCollection_DataMap.gxx>
+#include <Foundation/TCollection/TCollection_DataMap.gxx>
 

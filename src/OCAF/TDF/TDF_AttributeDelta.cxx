@@ -40,7 +40,7 @@ IMPLEMENT_STANDARD_RTTI(TDF_AttributeDelta)
 #include <TDF_Label.hxx>
 #include <TDF_Tool.hxx>
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 //=======================================================================
 //function : TDF_AttributeDelta

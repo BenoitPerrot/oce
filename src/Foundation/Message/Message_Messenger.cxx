@@ -18,8 +18,8 @@
 #include <Foundation/Message/Message_Printer.hxx>
 #include <Foundation/Message/Message_PrinterOStream.hxx>
 #include <Foundation/Message/Message_SequenceOfPrinters.hxx>
-#include <TCollection_AsciiString.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 
 IMPLEMENT_STANDARD_TYPE(Message_Messenger)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

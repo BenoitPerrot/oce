@@ -16,7 +16,7 @@
 
 #include <SelectMgr_ViewerSelector.hxx>
 #include <SelectMgr_SelectableObject.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <SelectMgr_SelectionManager.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(SelectMgr_SelectionManager)
@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_RTTI(SelectMgr_SelectionManager)
 #include <SelectMgr_SequenceOfSelector.hxx>
 #include <TColStd_MapIteratorOfMapOfTransient.hxx>
 #include <TColStd_MapIteratorOfMapOfTransient.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TColStd_ListOfInteger.hxx>
 #include <TColStd_ListIteratorOfListOfInteger.hxx>
 #include <SelectMgr_DataMapIteratorOfDataMapOfObjectSelectors.hxx>

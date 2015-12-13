@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(ProjLib_SequenceNodeOfSequenceOfHSequenceOfPnt)
 #define TCollection_SequenceNode_Type_() ProjLib_SequenceNodeOfSequenceOfHSequenceOfPnt_Type_()
 #define TCollection_Sequence ProjLib_SequenceOfHSequenceOfPnt
 #define TCollection_Sequence_hxx <ProjLib_SequenceOfHSequenceOfPnt.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

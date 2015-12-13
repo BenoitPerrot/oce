@@ -53,7 +53,7 @@
 #include <StepGeom_CartesianPoint.hxx>
 #include <StepGeom_HArray1OfCartesianPoint.hxx>
 #include <TransferBRep_ShapeMapper.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <ShapeExtend_WireData.hxx>
 #include <ShapeFix_Wire.hxx>
 #include <ShapeAnalysis_Edge.hxx>

@@ -25,7 +25,7 @@
 #include <DDocStd.hxx>
 //#include <AppStdL_Application.hxx>
 #include <AppStd_Application.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/OSD/OSD_Path.hxx>
 #include <Foundation/OSD/OSD_Environment.hxx>
 #include <Foundation/OSD/OSD_Directory.hxx>

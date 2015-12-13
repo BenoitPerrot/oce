@@ -16,5 +16,5 @@
 #define Array1Item_hxx <StepBasic_Organization.hxx>
 #define TCollection_Array1 StepBasic_Array1OfOrganization
 #define TCollection_Array1_hxx <StepBasic_Array1OfOrganization.hxx>
-#include <TCollection_Array1.gxx>
+#include <Foundation/TCollection/TCollection_Array1.gxx>
 

@@ -22,5 +22,5 @@
 #define TCollection_ListNode_Type_() TNaming_ListNodeOfListOfIndexedDataMapOfShapeListOfShape_Type_()
 #define TCollection_List TNaming_ListOfIndexedDataMapOfShapeListOfShape
 #define TCollection_List_hxx <TNaming_ListOfIndexedDataMapOfShapeListOfShape.hxx>
-#include <TCollection_ListIterator.gxx>
+#include <Foundation/TCollection/TCollection_ListIterator.gxx>
 

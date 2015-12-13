@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(StepElement_CurveElementFreedomMember)
 IMPLEMENT_DOWNCAST(StepElement_CurveElementFreedomMember,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(StepElement_CurveElementFreedomMember)
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 static Standard_CString ECEF = "ENUMERATED_CURVE_ELEMENT_FREEDOM";
 static Standard_CString ADDF = "APPLICATION_DEFINED_DEGREE_OF_FREEDOM";

@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_RTTI(IGESSelect_Activator)
 #include <IGESData_IGESEntity.hxx>
 #include <IGESData_Protocol.hxx>
 #include <IFSelect_IntParam.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 #include <IGESSelect_IGESTypeForm.hxx>
 

@@ -16,7 +16,7 @@
 
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <TDF_Label.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <TDF_Attribute.hxx>
 #include <TDF_RelocationTable.hxx>
 #include <TDataStd_Comment.hxx>
@@ -31,8 +31,8 @@ IMPLEMENT_STANDARD_TYPE_END(TDataStd_Comment)
 IMPLEMENT_DOWNCAST(TDataStd_Comment,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TDataStd_Comment)
 
-#include <TCollection_AsciiString.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TDF_ChildIDIterator.hxx>
 #include <TDF_ChildIterator.hxx>
 #include <TDF_Label.hxx>

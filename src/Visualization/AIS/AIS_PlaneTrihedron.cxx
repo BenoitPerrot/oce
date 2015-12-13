@@ -36,7 +36,7 @@
 #include <Geom_Transformation.hxx>
 #include <SelectMgr_Selection.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <AIS_PlaneTrihedron.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_PlaneTrihedron)

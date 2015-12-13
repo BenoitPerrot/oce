@@ -30,7 +30,7 @@ IMPLEMENT_DOWNCAST(MDataStd_NameStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDataStd_NameStorageDriver)
 #include <PDataStd_Name.hxx>
 #include <TDataStd_Name.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <PCollection_HExtendedString.hxx>
 #include <CDM_MessageDriver.hxx>
 

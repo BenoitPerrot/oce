@@ -72,7 +72,7 @@ private:
 #define TCollection_List MDF_DriverListOfASDriverTable
 #define TCollection_List_hxx <MDF_DriverListOfASDriverTable.hxx>
 
-#include <TCollection_ListIterator.lxx>
+#include <Foundation/TCollection/TCollection_ListIterator.lxx>
 
 #undef Item
 #undef Item_hxx

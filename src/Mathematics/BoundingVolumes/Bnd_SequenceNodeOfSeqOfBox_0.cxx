@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(Bnd_SequenceNodeOfSeqOfBox)
 #define TCollection_SequenceNode_Type_() Bnd_SequenceNodeOfSeqOfBox_Type_()
 #define TCollection_Sequence Bnd_SeqOfBox
 #define TCollection_Sequence_hxx <Bnd_SeqOfBox.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

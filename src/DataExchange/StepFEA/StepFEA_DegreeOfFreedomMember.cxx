@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(StepFEA_DegreeOfFreedomMember)
 IMPLEMENT_DOWNCAST(StepFEA_DegreeOfFreedomMember,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(StepFEA_DegreeOfFreedomMember)
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 static Standard_CString anEnumeratedCurveElementFreedom = "ENUMERATED_DEGREE_OF_FREEDOM";
 static Standard_CString anApplicationDefinedDegreeOfFreedom ="APPLICATION_DEFINED_DEGREE_OF_FREEDOM";

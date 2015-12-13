@@ -22,7 +22,7 @@
 #include <DDocStd_DrawDocument.hxx>
 #include <TDocStd_Document.hxx>
 #include <Draw_Interpretor.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Draw.hxx>
 #include <TDF_Tool.hxx>
 #include <TDF_Label.hxx>

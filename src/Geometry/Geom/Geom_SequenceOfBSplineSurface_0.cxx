@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() Geom_SequenceNodeOfSequenceOfBSplineSurface_Type_()
 #define TCollection_Sequence Geom_SequenceOfBSplineSurface
 #define TCollection_Sequence_hxx <Geom_SequenceOfBSplineSurface.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

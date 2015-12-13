@@ -9,7 +9,7 @@
 #include <Foundation/Dico/Dico_StackItemOfDictionaryOfTransient.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
  
 
 #define TheItem Handle(Standard_Transient)

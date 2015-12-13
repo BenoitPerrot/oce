@@ -44,5 +44,5 @@ IMPLEMENT_STANDARD_RTTI(STEPCAFControl_DataMapNodeOfDataMapOfSDRExternFile)
 #define TCollection_DataMapNode_Type_() STEPCAFControl_DataMapNodeOfDataMapOfSDRExternFile_Type_()
 #define TCollection_DataMap STEPCAFControl_DataMapOfSDRExternFile
 #define TCollection_DataMap_hxx <STEPCAFControl_DataMapOfSDRExternFile.hxx>
-#include <TCollection_DataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

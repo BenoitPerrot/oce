@@ -21,5 +21,5 @@
 #define TCollection_ListNode_Type_() ExprIntrp_ListNodeOfStackOfGeneralRelation_Type_()
 #define TCollection_List ExprIntrp_StackOfGeneralRelation
 #define TCollection_List_hxx <ExprIntrp_StackOfGeneralRelation.hxx>
-#include <TCollection_List.gxx>
+#include <Foundation/TCollection/TCollection_List.gxx>
 

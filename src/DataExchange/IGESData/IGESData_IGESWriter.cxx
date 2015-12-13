@@ -18,7 +18,7 @@
 #include <IGESData_Protocol.hxx>
 #include <IGESData_GlobalSection.hxx>
 #include <IGESData_IGESEntity.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <gp_XY.hxx>
 #include <gp_XYZ.hxx>
 #include <IGESData_IGESWriter.hxx>
@@ -43,7 +43,7 @@
 #include <IGESData_LabelDisplayEntity.hxx>
 #include <IGESData_ColorEntity.hxx>
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Interface_FileParameter.hxx>
 #include <Interface_ParamList.hxx>
 #include <stdio.h>

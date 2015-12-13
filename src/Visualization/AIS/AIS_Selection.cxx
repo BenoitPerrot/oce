@@ -26,7 +26,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(AIS_Selection)
 IMPLEMENT_DOWNCAST(AIS_Selection,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(AIS_Selection)
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TColStd_SequenceOfTransient.hxx>
 
 #define BUC60953   // SAV_050701 : the array of selected objects has always the same length

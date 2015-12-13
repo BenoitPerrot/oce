@@ -16,5 +16,5 @@
 #define Array1Item_hxx <Adaptor3d_HCurveOnSurface.hxx>
 #define TCollection_Array1 GeomPlate_Array1OfHCurveOnSurface
 #define TCollection_Array1_hxx <GeomPlate_Array1OfHCurveOnSurface.hxx>
-#include <TCollection_Array1.gxx>
+#include <Foundation/TCollection/TCollection_Array1.gxx>
 

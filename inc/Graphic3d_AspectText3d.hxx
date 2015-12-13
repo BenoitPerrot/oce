@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Graphic3d_AspectText3d.hxx>
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Aspect_TypeOfStyleText.hxx>

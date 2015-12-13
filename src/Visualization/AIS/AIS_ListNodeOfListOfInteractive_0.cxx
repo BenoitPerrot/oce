@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(AIS_ListNodeOfListOfInteractive)
 #define TCollection_ListNode_Type_() AIS_ListNodeOfListOfInteractive_Type_()
 #define TCollection_List AIS_ListOfInteractive
 #define TCollection_List_hxx <AIS_ListOfInteractive.hxx>
-#include <TCollection_ListNode.gxx>
+#include <Foundation/TCollection/TCollection_ListNode.gxx>
 

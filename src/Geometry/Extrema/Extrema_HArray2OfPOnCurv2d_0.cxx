@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(Extrema_HArray2OfPOnCurv2d)
 #define TCollection_HArray2_hxx <Extrema_HArray2OfPOnCurv2d.hxx>
 #define Handle_TCollection_HArray2 Handle_Extrema_HArray2OfPOnCurv2d
 #define TCollection_HArray2_Type_() Extrema_HArray2OfPOnCurv2d_Type_()
-#include <TCollection_HArray2.gxx>
+#include <Foundation/TCollection/TCollection_HArray2.gxx>
 

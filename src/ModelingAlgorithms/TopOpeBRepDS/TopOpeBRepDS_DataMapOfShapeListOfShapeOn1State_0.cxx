@@ -28,5 +28,5 @@
 #define TCollection_DataMapNode_Type_() TopOpeBRepDS_DataMapNodeOfDataMapOfShapeListOfShapeOn1State_Type_()
 #define TCollection_DataMap TopOpeBRepDS_DataMapOfShapeListOfShapeOn1State
 #define TCollection_DataMap_hxx <TopOpeBRepDS_DataMapOfShapeListOfShapeOn1State.hxx>
-#include <TCollection_DataMap.gxx>
+#include <Foundation/TCollection/TCollection_DataMap.gxx>
 

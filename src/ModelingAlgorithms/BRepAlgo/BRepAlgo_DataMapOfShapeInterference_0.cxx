@@ -28,5 +28,5 @@
 #define TCollection_DataMapNode_Type_() BRepAlgo_DataMapNodeOfDataMapOfShapeInterference_Type_()
 #define TCollection_DataMap BRepAlgo_DataMapOfShapeInterference
 #define TCollection_DataMap_hxx <BRepAlgo_DataMapOfShapeInterference.hxx>
-#include <TCollection_DataMap.gxx>
+#include <Foundation/TCollection/TCollection_DataMap.gxx>
 

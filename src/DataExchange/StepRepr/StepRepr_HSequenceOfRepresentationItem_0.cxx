@@ -36,5 +36,5 @@ IMPLEMENT_STANDARD_RTTI(StepRepr_HSequenceOfRepresentationItem)
 #define TCollection_HSequence_hxx <StepRepr_HSequenceOfRepresentationItem.hxx>
 #define Handle_TCollection_HSequence Handle_StepRepr_HSequenceOfRepresentationItem
 #define TCollection_HSequence_Type_() StepRepr_HSequenceOfRepresentationItem_Type_()
-#include <TCollection_HSequence.gxx>
+#include <Foundation/TCollection/TCollection_HSequence.gxx>
 

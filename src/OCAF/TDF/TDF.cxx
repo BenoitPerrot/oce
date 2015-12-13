@@ -22,7 +22,7 @@
 
 
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <TDF.hxx>
 #include <TDF_GUIDProgIDMap.hxx>
 

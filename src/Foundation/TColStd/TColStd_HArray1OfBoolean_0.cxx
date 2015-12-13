@@ -37,5 +37,5 @@ IMPLEMENT_STANDARD_RTTI(TColStd_HArray1OfBoolean)
 #define TCollection_HArray1_hxx <TColStd_HArray1OfBoolean.hxx>
 #define Handle_TCollection_HArray1 Handle_TColStd_HArray1OfBoolean
 #define TCollection_HArray1_Type_() TColStd_HArray1OfBoolean_Type_()
-#include <TCollection_HArray1.gxx>
+#include <Foundation/TCollection/TCollection_HArray1.gxx>
 

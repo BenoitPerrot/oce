@@ -37,5 +37,5 @@ IMPLEMENT_STANDARD_RTTI(TColStd_ListNodeOfListOfReal)
 #define TCollection_ListNode_Type_() TColStd_ListNodeOfListOfReal_Type_()
 #define TCollection_List TColStd_ListOfReal
 #define TCollection_List_hxx <TColStd_ListOfReal.hxx>
-#include <TCollection_ListNode.gxx>
+#include <Foundation/TCollection/TCollection_ListNode.gxx>
 

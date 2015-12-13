@@ -28,5 +28,5 @@
 #define TCollection_DataMapNode_Type_() XCAFDoc_DataMapNodeOfDataMapOfShapeLabel_Type_()
 #define TCollection_DataMap XCAFDoc_DataMapOfShapeLabel
 #define TCollection_DataMap_hxx <XCAFDoc_DataMapOfShapeLabel.hxx>
-#include <TCollection_DataMap.gxx>
+#include <Foundation/TCollection/TCollection_DataMap.gxx>
 

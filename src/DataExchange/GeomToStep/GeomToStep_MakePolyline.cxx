@@ -27,7 +27,7 @@
 #include <StepGeom_Polyline.hxx>
 #include <StepGeom_HArray1OfCartesianPoint.hxx>
 #include <GeomToStep_MakeCartesianPoint.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 //=============================================================================
 // Creation d' une polyline Step a partir d' une Array1OfPnt 

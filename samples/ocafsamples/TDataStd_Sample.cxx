@@ -45,7 +45,7 @@
 #include <TopLoc_Location.hxx>
 #include <TDF_AttributeList.hxx>
 #include <TColStd_HArray1OfReal.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <TDataStd_ListOfExtendedString.hxx>
 #include <TDocStd_Document.hxx>
 #include <TDataStd_TreeNode.hxx>

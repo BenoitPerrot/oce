@@ -11,8 +11,8 @@
 #include <Handle_ShapeAnalysis_SequenceNodeOfSequenceOfFreeBounds.hxx>
 
 #include <Handle_ShapeAnalysis_FreeBoundData.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class ShapeAnalysis_FreeBoundData;
 class ShapeAnalysis_SequenceOfFreeBounds;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence ShapeAnalysis_SequenceOfFreeBounds
 #define TCollection_Sequence_hxx <ShapeAnalysis_SequenceOfFreeBounds.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

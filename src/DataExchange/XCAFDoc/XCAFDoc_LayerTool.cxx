@@ -16,7 +16,7 @@
 #include <XCAFDoc_ShapeTool.hxx>
 #include <TDF_Label.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <TDF_LabelSequence.hxx>
 #include <TColStd_HSequenceOfExtendedString.hxx>
 #include <TopoDS_Shape.hxx>

@@ -15,7 +15,7 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepFEA_SymmetricTensor23d.hxx>
 #include <StepFEA_FeaMoistureAbsorption.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

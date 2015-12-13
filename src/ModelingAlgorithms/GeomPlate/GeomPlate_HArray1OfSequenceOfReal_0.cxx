@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(GeomPlate_HArray1OfSequenceOfReal)
 #define TCollection_HArray1_hxx <GeomPlate_HArray1OfSequenceOfReal.hxx>
 #define Handle_TCollection_HArray1 Handle_GeomPlate_HArray1OfSequenceOfReal
 #define TCollection_HArray1_Type_() GeomPlate_HArray1OfSequenceOfReal_Type_()
-#include <TCollection_HArray1.gxx>
+#include <Foundation/TCollection/TCollection_HArray1.gxx>
 

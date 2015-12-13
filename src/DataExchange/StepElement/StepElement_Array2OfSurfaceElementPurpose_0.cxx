@@ -16,5 +16,5 @@
 #define Array2Item_hxx <StepElement_SurfaceElementPurpose.hxx>
 #define TCollection_Array2 StepElement_Array2OfSurfaceElementPurpose
 #define TCollection_Array2_hxx <StepElement_Array2OfSurfaceElementPurpose.hxx>
-#include <TCollection_Array2.gxx>
+#include <Foundation/TCollection/TCollection_Array2.gxx>
 

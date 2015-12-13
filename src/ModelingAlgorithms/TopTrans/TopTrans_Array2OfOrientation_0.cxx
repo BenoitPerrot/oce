@@ -15,5 +15,5 @@
 #define Array2Item_hxx <TopAbs_Orientation.hxx>
 #define TCollection_Array2 TopTrans_Array2OfOrientation
 #define TCollection_Array2_hxx <TopTrans_Array2OfOrientation.hxx>
-#include <TCollection_Array2.gxx>
+#include <Foundation/TCollection/TCollection_Array2.gxx>
 

@@ -11,7 +11,7 @@
 #include <Handle_BinMDF_ADriver.hxx>
 
 #include <Handle_CDM_MessageDriver.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_TDF_Attribute.hxx>

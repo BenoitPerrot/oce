@@ -71,7 +71,7 @@ private:
 #define TCollection_List QANCollection_ListOfPnt
 #define TCollection_List_hxx <QANCollection_ListOfPnt.hxx>
 
-#include <TCollection_ListIterator.lxx>
+#include <Foundation/TCollection/TCollection_ListIterator.lxx>
 
 #undef Item
 #undef Item_hxx

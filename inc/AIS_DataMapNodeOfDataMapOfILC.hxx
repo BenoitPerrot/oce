@@ -12,8 +12,8 @@
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_AIS_LocalContext.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class AIS_LocalContext;
 class TColStd_MapIntegerHasher;
 class AIS_DataMapOfILC;
@@ -67,7 +67,7 @@ private:
 #define TCollection_DataMap AIS_DataMapOfILC
 #define TCollection_DataMap_hxx <AIS_DataMapOfILC.hxx>
 
-#include <TCollection_DataMapNode.lxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

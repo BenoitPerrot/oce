@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <StepShape_BoxDomain.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepGeom_Surface.hxx>
 #include <StepShape_BoxedHalfSpace.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

@@ -11,8 +11,8 @@
 #include <Handle_ChFiDS_ListNodeOfRegularities.hxx>
 
 #include <ChFiDS_Regul.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class ChFiDS_Regul;
 class ChFiDS_Regularities;
 class ChFiDS_ListIteratorOfRegularities;
@@ -58,7 +58,7 @@ private:
 #define TCollection_List ChFiDS_Regularities
 #define TCollection_List_hxx <ChFiDS_Regularities.hxx>
 
-#include <TCollection_ListNode.lxx>
+#include <Foundation/TCollection/TCollection_ListNode.lxx>
 
 #undef Item
 #undef Item_hxx

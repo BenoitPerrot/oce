@@ -12,8 +12,8 @@
 
 #include <Handle_SelectMgr_EntityOwner.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <TCollection_MapNodePtr.hxx>
-#include <TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
 class SelectMgr_EntityOwner;
 class TColStd_MapTransientHasher;
 class SelectMgr_IndexedMapOfOwner;
@@ -65,7 +65,7 @@ private:
 #define TCollection_IndexedMap SelectMgr_IndexedMapOfOwner
 #define TCollection_IndexedMap_hxx <SelectMgr_IndexedMapOfOwner.hxx>
 
-#include <TCollection_IndexedMapNode.lxx>
+#include <Foundation/TCollection/TCollection_IndexedMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

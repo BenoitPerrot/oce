@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() StepElement_SequenceNodeOfSequenceOfElementMaterial_Type_()
 #define TCollection_Sequence StepElement_SequenceOfElementMaterial
 #define TCollection_Sequence_hxx <StepElement_SequenceOfElementMaterial.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

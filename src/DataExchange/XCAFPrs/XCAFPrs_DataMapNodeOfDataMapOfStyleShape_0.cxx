@@ -43,5 +43,5 @@ IMPLEMENT_STANDARD_RTTI(XCAFPrs_DataMapNodeOfDataMapOfStyleShape)
 #define TCollection_DataMapNode_Type_() XCAFPrs_DataMapNodeOfDataMapOfStyleShape_Type_()
 #define TCollection_DataMap XCAFPrs_DataMapOfStyleShape
 #define TCollection_DataMap_hxx <XCAFPrs_DataMapOfStyleShape.hxx>
-#include <TCollection_DataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

@@ -25,7 +25,7 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <gp_XYZ.hxx>
 #include <gp_Pnt.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <IGESData_IGESEntity.hxx>
 #include <IGESDimen_NewGeneralNote.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

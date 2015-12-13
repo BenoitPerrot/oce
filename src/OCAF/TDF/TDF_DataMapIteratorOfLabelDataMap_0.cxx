@@ -26,5 +26,5 @@
 #define TCollection_DataMapNode_Type_() TDF_DataMapNodeOfLabelDataMap_Type_()
 #define TCollection_DataMap TDF_LabelDataMap
 #define TCollection_DataMap_hxx <TDF_LabelDataMap.hxx>
-#include <TCollection_DataMapIterator.gxx>
+#include <Foundation/TCollection/TCollection_DataMapIterator.gxx>
 

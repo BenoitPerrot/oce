@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(GeomPlate_SequenceNodeOfSequenceOfAij)
 #define TCollection_SequenceNode_Type_() GeomPlate_SequenceNodeOfSequenceOfAij_Type_()
 #define TCollection_Sequence GeomPlate_SequenceOfAij
 #define TCollection_Sequence_hxx <GeomPlate_SequenceOfAij.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

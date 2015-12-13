@@ -44,5 +44,5 @@ IMPLEMENT_STANDARD_RTTI(BRepTopAdaptor_DataMapNodeOfMapOfShapeTool)
 #define TCollection_DataMapNode_Type_() BRepTopAdaptor_DataMapNodeOfMapOfShapeTool_Type_()
 #define TCollection_DataMap BRepTopAdaptor_MapOfShapeTool
 #define TCollection_DataMap_hxx <BRepTopAdaptor_MapOfShapeTool.hxx>
-#include <TCollection_DataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

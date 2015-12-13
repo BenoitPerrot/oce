@@ -12,8 +12,8 @@
 
 #include <TopoDS_Vertex.hxx>
 #include <Draft_VertexInfo.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class TopoDS_Vertex;
 class Draft_VertexInfo;
 class TopTools_ShapeMapHasher;
@@ -68,7 +68,7 @@ private:
 #define TCollection_DataMap Draft_DataMapOfVertexVertexInfo
 #define TCollection_DataMap_hxx <Draft_DataMapOfVertexVertexInfo.hxx>
 
-#include <TCollection_DataMapNode.lxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

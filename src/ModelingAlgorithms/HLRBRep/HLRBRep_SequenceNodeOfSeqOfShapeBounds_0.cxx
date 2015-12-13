@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(HLRBRep_SequenceNodeOfSeqOfShapeBounds)
 #define TCollection_SequenceNode_Type_() HLRBRep_SequenceNodeOfSeqOfShapeBounds_Type_()
 #define TCollection_Sequence HLRBRep_SeqOfShapeBounds
 #define TCollection_Sequence_hxx <HLRBRep_SeqOfShapeBounds.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

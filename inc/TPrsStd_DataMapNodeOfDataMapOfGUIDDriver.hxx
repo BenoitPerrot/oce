@@ -12,8 +12,8 @@
 
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <Handle_TPrsStd_Driver.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class TPrsStd_Driver;
 class Standard_GUID;
 class TPrsStd_DataMapOfGUIDDriver;
@@ -67,7 +67,7 @@ private:
 #define TCollection_DataMap TPrsStd_DataMapOfGUIDDriver
 #define TCollection_DataMap_hxx <TPrsStd_DataMapOfGUIDDriver.hxx>
 
-#include <TCollection_DataMapNode.lxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

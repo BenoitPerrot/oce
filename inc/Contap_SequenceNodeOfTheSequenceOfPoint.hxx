@@ -11,8 +11,8 @@
 #include <Handle_Contap_SequenceNodeOfTheSequenceOfPoint.hxx>
 
 #include <Contap_Point.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class Contap_Point;
 class Contap_TheSequenceOfPoint;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence Contap_TheSequenceOfPoint
 #define TCollection_Sequence_hxx <Contap_TheSequenceOfPoint.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

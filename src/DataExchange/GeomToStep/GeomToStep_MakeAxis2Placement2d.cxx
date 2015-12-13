@@ -28,7 +28,7 @@
 #include <gp_Ax22d.hxx>
 
 #include <StepGeom_Axis2Placement2d.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 //=============================================================================
 // Creation d' un axis2_placement_2d de prostep a partir d' un Ax2 de gp

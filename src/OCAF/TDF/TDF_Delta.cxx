@@ -26,7 +26,7 @@
 #include <TDF_AttributeDelta.hxx>
 #include <TDF_LabelList.hxx>
 #include <TDF_AttributeDeltaList.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <TDF_Delta.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDF_Delta)

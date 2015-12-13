@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(TColgp_SequenceNodeOfSequenceOfXYZ)
 #define TCollection_SequenceNode_Type_() TColgp_SequenceNodeOfSequenceOfXYZ_Type_()
 #define TCollection_Sequence TColgp_SequenceOfXYZ
 #define TCollection_Sequence_hxx <TColgp_SequenceOfXYZ.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

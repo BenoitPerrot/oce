@@ -14,7 +14,7 @@
 #include <IFSelect_SessionDumper.hxx>
 #include <IFSelect_SessionFile.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <IFSelect_SessionDumper.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IFSelect_SessionDumper)

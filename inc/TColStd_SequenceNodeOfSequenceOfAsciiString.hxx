@@ -10,9 +10,9 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TColStd_SequenceNodeOfSequenceOfAsciiString.hxx>
 
-#include <TCollection_AsciiString.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class TCollection_AsciiString;
 class TColStd_SequenceOfAsciiString;
 
@@ -47,7 +47,7 @@ private:
 };
 
 #define SeqItem TCollection_AsciiString
-#define SeqItem_hxx <TCollection_AsciiString.hxx>
+#define SeqItem_hxx <Foundation/TCollection/TCollection_AsciiString.hxx>
 #define TCollection_SequenceNode TColStd_SequenceNodeOfSequenceOfAsciiString
 #define TCollection_SequenceNode_hxx <TColStd_SequenceNodeOfSequenceOfAsciiString.hxx>
 #define Handle_TCollection_SequenceNode Handle_TColStd_SequenceNodeOfSequenceOfAsciiString
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence TColStd_SequenceOfAsciiString
 #define TCollection_Sequence_hxx <TColStd_SequenceOfAsciiString.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

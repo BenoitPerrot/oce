@@ -26,5 +26,5 @@
 #define TCollection_IndexedDataMapNode_Type_() TopOpeBRepDS_IndexedDataMapNodeOfMapOfShapeData_Type_()
 #define TCollection_IndexedDataMap TopOpeBRepDS_MapOfShapeData
 #define TCollection_IndexedDataMap_hxx <TopOpeBRepDS_MapOfShapeData.hxx>
-#include <TCollection_IndexedDataMap.gxx>
+#include <Foundation/TCollection/TCollection_IndexedDataMap.gxx>
 

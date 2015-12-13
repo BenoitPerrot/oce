@@ -47,7 +47,7 @@ IMPLEMENT_STANDARD_TYPE_END(Graphic3d_AspectText3d)
 IMPLEMENT_DOWNCAST(Graphic3d_AspectText3d,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Graphic3d_AspectText3d)
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/OSD/OSD_Environment.hxx>
 
 #include <Font_NameOfFont.hxx>

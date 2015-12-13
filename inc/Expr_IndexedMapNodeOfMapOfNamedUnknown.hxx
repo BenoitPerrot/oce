@@ -12,8 +12,8 @@
 
 #include <Handle_Expr_NamedUnknown.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <TCollection_MapNodePtr.hxx>
-#include <TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
 class Expr_NamedUnknown;
 class TColStd_MapTransientHasher;
 class Expr_MapOfNamedUnknown;
@@ -65,7 +65,7 @@ private:
 #define TCollection_IndexedMap Expr_MapOfNamedUnknown
 #define TCollection_IndexedMap_hxx <Expr_MapOfNamedUnknown.hxx>
 
-#include <TCollection_IndexedMapNode.lxx>
+#include <Foundation/TCollection/TCollection_IndexedMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

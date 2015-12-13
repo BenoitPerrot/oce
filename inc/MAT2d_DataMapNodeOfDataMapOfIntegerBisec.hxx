@@ -12,8 +12,8 @@
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Bisector_Bisec.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class Bisector_Bisec;
 class TColStd_MapIntegerHasher;
 class MAT2d_DataMapOfIntegerBisec;
@@ -67,7 +67,7 @@ private:
 #define TCollection_DataMap MAT2d_DataMapOfIntegerBisec
 #define TCollection_DataMap_hxx <MAT2d_DataMapOfIntegerBisec.hxx>
 
-#include <TCollection_DataMapNode.lxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

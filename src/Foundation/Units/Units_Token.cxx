@@ -42,7 +42,7 @@ IMPLEMENT_STANDARD_TYPE_END(Units_Token)
 IMPLEMENT_DOWNCAST(Units_Token,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Units_Token)
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Units_Operators.hxx>
 
 #define XTRACE 1

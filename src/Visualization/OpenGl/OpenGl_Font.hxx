@@ -23,7 +23,7 @@
 
 #include <Foundation/NCollection/NCollection_DataMap.hxx>
 #include <Foundation/NCollection/NCollection_Vector.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 //! Texture font.
 class OpenGl_Font : public OpenGl_Resource

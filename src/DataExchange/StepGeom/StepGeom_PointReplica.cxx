@@ -13,7 +13,7 @@
 
 #include <StepGeom_Point.hxx>
 #include <StepGeom_CartesianTransformationOperator.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepGeom_PointReplica.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepGeom_PointReplica)

@@ -16,5 +16,5 @@
 #define Array2Item_hxx <StepGeom_SurfacePatch.hxx>
 #define TCollection_Array2 StepGeom_Array2OfSurfacePatch
 #define TCollection_Array2_hxx <StepGeom_Array2OfSurfacePatch.hxx>
-#include <TCollection_Array2.gxx>
+#include <Foundation/TCollection/TCollection_Array2.gxx>
 

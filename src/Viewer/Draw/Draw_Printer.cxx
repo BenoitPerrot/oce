@@ -13,8 +13,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TCollection_ExtendedString.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Draw_Printer.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Draw_Printer)
@@ -27,8 +27,8 @@ IMPLEMENT_STANDARD_TYPE_END(Draw_Printer)
 IMPLEMENT_DOWNCAST(Draw_Printer,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Draw_Printer)
 
-#include <TCollection_AsciiString.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 
 //=======================================================================
 //function : Draw_Printer

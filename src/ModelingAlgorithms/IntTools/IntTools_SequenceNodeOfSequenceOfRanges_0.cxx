@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(IntTools_SequenceNodeOfSequenceOfRanges)
 #define TCollection_SequenceNode_Type_() IntTools_SequenceNodeOfSequenceOfRanges_Type_()
 #define TCollection_Sequence IntTools_SequenceOfRanges
 #define TCollection_Sequence_hxx <IntTools_SequenceOfRanges.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

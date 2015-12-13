@@ -36,5 +36,5 @@ IMPLEMENT_STANDARD_RTTI(TColgp_HSequenceOfDir)
 #define TCollection_HSequence_hxx <TColgp_HSequenceOfDir.hxx>
 #define Handle_TCollection_HSequence Handle_TColgp_HSequenceOfDir
 #define TCollection_HSequence_Type_() TColgp_HSequenceOfDir_Type_()
-#include <TCollection_HSequence.gxx>
+#include <Foundation/TCollection/TCollection_HSequence.gxx>
 

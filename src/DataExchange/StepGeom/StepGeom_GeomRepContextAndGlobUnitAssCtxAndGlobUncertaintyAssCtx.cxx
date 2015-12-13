@@ -17,7 +17,7 @@
 #include <StepGeom_GeometricRepresentationContext.hxx>
 #include <StepRepr_GlobalUnitAssignedContext.hxx>
 #include <StepRepr_GlobalUncertaintyAssignedContext.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepBasic_HArray1OfNamedUnit.hxx>
 #include <StepBasic_HArray1OfUncertaintyMeasureWithUnit.hxx>
 #include <StepBasic_NamedUnit.hxx>

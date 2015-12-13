@@ -16,7 +16,7 @@
 #include <Handle_Interface_Protocol.hxx>
 #include <Handle_Interface_InterfaceModel.hxx>
 #include <Handle_Interface_HGraph.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Handle_Interface_GTool.hxx>
 #include <Interface_CheckIterator.hxx>
 #include <TColStd_IndexedDataMapOfTransientTransient.hxx>

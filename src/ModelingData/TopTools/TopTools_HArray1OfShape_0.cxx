@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(TopTools_HArray1OfShape)
 #define TCollection_HArray1_hxx <TopTools_HArray1OfShape.hxx>
 #define Handle_TCollection_HArray1 Handle_TopTools_HArray1OfShape
 #define TCollection_HArray1_Type_() TopTools_HArray1OfShape_Type_()
-#include <TCollection_HArray1.gxx>
+#include <Foundation/TCollection/TCollection_HArray1.gxx>
 

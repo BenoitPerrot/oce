@@ -26,5 +26,5 @@
 #define TCollection_IndexedDataMapNode_Type_() TopOpeBRepTool_IndexedDataMapNodeOfIndexedDataMapOfSolidClassifier_Type_()
 #define TCollection_IndexedDataMap TopOpeBRepTool_IndexedDataMapOfSolidClassifier
 #define TCollection_IndexedDataMap_hxx <TopOpeBRepTool_IndexedDataMapOfSolidClassifier.hxx>
-#include <TCollection_IndexedDataMap.gxx>
+#include <Foundation/TCollection/TCollection_IndexedDataMap.gxx>
 

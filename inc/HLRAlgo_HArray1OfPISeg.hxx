@@ -77,7 +77,7 @@ private:
 #define Handle_TCollection_HArray1 Handle_HLRAlgo_HArray1OfPISeg
 #define TCollection_HArray1_Type_() HLRAlgo_HArray1OfPISeg_Type_()
 
-#include <TCollection_HArray1.lxx>
+#include <Foundation/TCollection/TCollection_HArray1.lxx>
 
 #undef ItemHArray1
 #undef ItemHArray1_hxx

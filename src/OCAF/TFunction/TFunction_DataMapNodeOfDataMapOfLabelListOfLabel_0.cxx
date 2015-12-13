@@ -44,5 +44,5 @@ IMPLEMENT_STANDARD_RTTI(TFunction_DataMapNodeOfDataMapOfLabelListOfLabel)
 #define TCollection_DataMapNode_Type_() TFunction_DataMapNodeOfDataMapOfLabelListOfLabel_Type_()
 #define TCollection_DataMap TFunction_DataMapOfLabelListOfLabel
 #define TCollection_DataMap_hxx <TFunction_DataMapOfLabelListOfLabel.hxx>
-#include <TCollection_DataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

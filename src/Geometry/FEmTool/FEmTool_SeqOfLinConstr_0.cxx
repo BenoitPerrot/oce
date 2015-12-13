@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() FEmTool_SequenceNodeOfSeqOfLinConstr_Type_()
 #define TCollection_Sequence FEmTool_SeqOfLinConstr
 #define TCollection_Sequence_hxx <FEmTool_SeqOfLinConstr.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

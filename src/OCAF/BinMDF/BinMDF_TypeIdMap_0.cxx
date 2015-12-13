@@ -31,5 +31,5 @@
 #define TCollection_DoubleMapNode_Type_() BinMDF_DoubleMapNodeOfTypeIdMap_Type_()
 #define TCollection_DoubleMap BinMDF_TypeIdMap
 #define TCollection_DoubleMap_hxx <BinMDF_TypeIdMap.hxx>
-#include <TCollection_DoubleMap.gxx>
+#include <Foundation/TCollection/TCollection_DoubleMap.gxx>
 

@@ -22,5 +22,5 @@
 #define TCollection_ListNode_Type_() TNaming_ListNodeOfListOfMapOfShape_Type_()
 #define TCollection_List TNaming_ListOfMapOfShape
 #define TCollection_List_hxx <TNaming_ListOfMapOfShape.hxx>
-#include <TCollection_ListIterator.gxx>
+#include <Foundation/TCollection/TCollection_ListIterator.gxx>
 

@@ -105,7 +105,7 @@ private:
 #define TCollection_Array2 FEmTool_AssemblyTable
 #define TCollection_Array2_hxx <FEmTool_AssemblyTable.hxx>
 
-#include <TCollection_Array2.lxx>
+#include <Foundation/TCollection/TCollection_Array2.lxx>
 
 #undef Array2Item
 #undef Array2Item_hxx

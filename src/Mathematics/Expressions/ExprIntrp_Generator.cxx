@@ -18,7 +18,7 @@
 #include <Expr_NamedExpression.hxx>
 #include <ExprIntrp_SequenceOfNamedExpression.hxx>
 #include <ExprIntrp_SequenceOfNamedFunction.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <ExprIntrp_Generator.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ExprIntrp_Generator)
@@ -31,7 +31,7 @@ IMPLEMENT_DOWNCAST(ExprIntrp_Generator,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ExprIntrp_Generator)
 //#include <ExprIntrp_yaccanal.hxx>
 #include <ExprIntrp_Analysis.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 Standard_EXPORT ExprIntrp_Analysis ExprIntrp_Recept;
 

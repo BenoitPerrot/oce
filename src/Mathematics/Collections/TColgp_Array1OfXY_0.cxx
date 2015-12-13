@@ -16,5 +16,5 @@
 #define Array1Item_hxx <gp_XY.hxx>
 #define TCollection_Array1 TColgp_Array1OfXY
 #define TCollection_Array1_hxx <TColgp_Array1OfXY.hxx>
-#include <TCollection_Array1.gxx>
+#include <Foundation/TCollection/TCollection_Array1.gxx>
 

@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(IntPolyh_SequenceNodeOfSeqOfStartPoints)
 #define TCollection_SequenceNode_Type_() IntPolyh_SequenceNodeOfSeqOfStartPoints_Type_()
 #define TCollection_Sequence IntPolyh_SeqOfStartPoints
 #define TCollection_Sequence_hxx <IntPolyh_SeqOfStartPoints.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

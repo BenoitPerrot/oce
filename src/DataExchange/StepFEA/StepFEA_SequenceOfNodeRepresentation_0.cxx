@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() StepFEA_SequenceNodeOfSequenceOfNodeRepresentation_Type_()
 #define TCollection_Sequence StepFEA_SequenceOfNodeRepresentation
 #define TCollection_Sequence_hxx <StepFEA_SequenceOfNodeRepresentation.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

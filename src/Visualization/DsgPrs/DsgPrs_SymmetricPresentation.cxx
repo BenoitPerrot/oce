@@ -54,7 +54,7 @@
 #include <Prs3d_LineAspect.hxx>
 #include <Prs3d_DimensionAspect.hxx>
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 #include <Geom2d_Line.hxx>
 

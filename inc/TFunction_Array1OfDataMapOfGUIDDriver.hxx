@@ -96,7 +96,7 @@ private:
 #define TCollection_Array1 TFunction_Array1OfDataMapOfGUIDDriver
 #define TCollection_Array1_hxx <TFunction_Array1OfDataMapOfGUIDDriver.hxx>
 
-#include <TCollection_Array1.lxx>
+#include <Foundation/TCollection/TCollection_Array1.lxx>
 
 #undef Array1Item
 #undef Array1Item_hxx

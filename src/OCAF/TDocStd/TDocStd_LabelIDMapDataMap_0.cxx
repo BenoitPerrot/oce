@@ -28,5 +28,5 @@
 #define TCollection_DataMapNode_Type_() TDocStd_DataMapNodeOfLabelIDMapDataMap_Type_()
 #define TCollection_DataMap TDocStd_LabelIDMapDataMap
 #define TCollection_DataMap_hxx <TDocStd_LabelIDMapDataMap.hxx>
-#include <TCollection_DataMap.gxx>
+#include <Foundation/TCollection/TCollection_DataMap.gxx>
 

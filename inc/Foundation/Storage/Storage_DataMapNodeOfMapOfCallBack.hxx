@@ -10,10 +10,10 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Storage_DataMapNodeOfMapOfCallBack.hxx>
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Handle_Storage_TypedCallBack.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class Storage_TypedCallBack;
 class TCollection_AsciiString;
 class Storage_MapOfCallBack;
@@ -53,11 +53,11 @@ private:
 };
 
 #define TheKey TCollection_AsciiString
-#define TheKey_hxx <TCollection_AsciiString.hxx>
+#define TheKey_hxx <Foundation/TCollection/TCollection_AsciiString.hxx>
 #define TheItem Handle(Storage_TypedCallBack)
 #define TheItem_hxx <Foundation/Storage/Storage_TypedCallBack.hxx>
 #define Hasher TCollection_AsciiString
-#define Hasher_hxx <TCollection_AsciiString.hxx>
+#define Hasher_hxx <Foundation/TCollection/TCollection_AsciiString.hxx>
 #define TCollection_DataMapNode Storage_DataMapNodeOfMapOfCallBack
 #define TCollection_DataMapNode_hxx <Foundation/Storage/Storage_DataMapNodeOfMapOfCallBack.hxx>
 #define TCollection_DataMapIterator Storage_DataMapIteratorOfMapOfCallBack
@@ -67,7 +67,7 @@ private:
 #define TCollection_DataMap Storage_MapOfCallBack
 #define TCollection_DataMap_hxx <Foundation/Storage/Storage_MapOfCallBack.hxx>
 
-#include <TCollection_DataMapNode.lxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

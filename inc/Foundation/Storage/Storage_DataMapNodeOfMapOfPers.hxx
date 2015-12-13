@@ -10,10 +10,10 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Storage_DataMapNodeOfMapOfPers.hxx>
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Handle_Storage_Root.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class Storage_Root;
 class TCollection_AsciiString;
 class Storage_MapOfPers;
@@ -53,11 +53,11 @@ private:
 };
 
 #define TheKey TCollection_AsciiString
-#define TheKey_hxx <TCollection_AsciiString.hxx>
+#define TheKey_hxx <Foundation/TCollection/TCollection_AsciiString.hxx>
 #define TheItem Handle(Storage_Root)
 #define TheItem_hxx <Foundation/Storage/Storage_Root.hxx>
 #define Hasher TCollection_AsciiString
-#define Hasher_hxx <TCollection_AsciiString.hxx>
+#define Hasher_hxx <Foundation/TCollection/TCollection_AsciiString.hxx>
 #define TCollection_DataMapNode Storage_DataMapNodeOfMapOfPers
 #define TCollection_DataMapNode_hxx <Foundation/Storage/Storage_DataMapNodeOfMapOfPers.hxx>
 #define TCollection_DataMapIterator Storage_DataMapIteratorOfMapOfPers
@@ -67,7 +67,7 @@ private:
 #define TCollection_DataMap Storage_MapOfPers
 #define TCollection_DataMap_hxx <Foundation/Storage/Storage_MapOfPers.hxx>
 
-#include <TCollection_DataMapNode.lxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

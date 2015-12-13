@@ -40,7 +40,7 @@ IMPLEMENT_STANDARD_RTTI(TPrsStd_AISPresentation)
 #include <TDF_DefaultDeltaOnModification.hxx>
 #include <TDF_DeltaOnAddition.hxx>
 #include <TDF_Tool.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <TPrsStd_AISViewer.hxx>
 #include <AIS_InteractiveContext.hxx>
 #include <AIS_InteractiveObject.hxx>

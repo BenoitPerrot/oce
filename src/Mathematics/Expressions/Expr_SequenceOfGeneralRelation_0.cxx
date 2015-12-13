@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() Expr_SequenceNodeOfSequenceOfGeneralRelation_Type_()
 #define TCollection_Sequence Expr_SequenceOfGeneralRelation
 #define TCollection_Sequence_hxx <Expr_SequenceOfGeneralRelation.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

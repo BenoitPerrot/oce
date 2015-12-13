@@ -11,8 +11,8 @@
 #include <Handle_TColStd_SequenceNodeOfSequenceOfHExtendedString.hxx>
 
 #include <Handle_TCollection_HExtendedString.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class TCollection_HExtendedString;
 class TColStd_SequenceOfHExtendedString;
 
@@ -47,7 +47,7 @@ private:
 };
 
 #define SeqItem Handle(TCollection_HExtendedString)
-#define SeqItem_hxx <TCollection_HExtendedString.hxx>
+#define SeqItem_hxx <Foundation/TCollection/TCollection_HExtendedString.hxx>
 #define TCollection_SequenceNode TColStd_SequenceNodeOfSequenceOfHExtendedString
 #define TCollection_SequenceNode_hxx <TColStd_SequenceNodeOfSequenceOfHExtendedString.hxx>
 #define Handle_TCollection_SequenceNode Handle_TColStd_SequenceNodeOfSequenceOfHExtendedString
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence TColStd_SequenceOfHExtendedString
 #define TCollection_Sequence_hxx <TColStd_SequenceOfHExtendedString.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

@@ -32,7 +32,7 @@
 #include <StepBasic_Product.hxx>
 #include <StepBasic_ProductDefinitionFormation.hxx>
 #include <Interface_InterfaceModel.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 
 STEPSelections_AssemblyExplorer::STEPSelections_AssemblyExplorer(const Interface_Graph &G):myGraph(G)

@@ -42,5 +42,5 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_DataMapNodeOfDataMapOfIntegerBoolean)
 #define TCollection_DataMapNode_Type_() MeshVS_DataMapNodeOfDataMapOfIntegerBoolean_Type_()
 #define TCollection_DataMap MeshVS_DataMapOfIntegerBoolean
 #define TCollection_DataMap_hxx <MeshVS_DataMapOfIntegerBoolean.hxx>
-#include <TCollection_DataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

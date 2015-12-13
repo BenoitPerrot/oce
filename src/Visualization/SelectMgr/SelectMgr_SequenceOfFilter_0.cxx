@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() SelectMgr_SequenceNodeOfSequenceOfFilter_Type_()
 #define TCollection_Sequence SelectMgr_SequenceOfFilter
 #define TCollection_Sequence_hxx <SelectMgr_SequenceOfFilter.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

@@ -16,5 +16,5 @@
 #define Array1Item_hxx <Expr_GeneralExpression.hxx>
 #define TCollection_Array1 Expr_Array1OfGeneralExpression
 #define TCollection_Array1_hxx <Expr_Array1OfGeneralExpression.hxx>
-#include <TCollection_Array1.gxx>
+#include <Foundation/TCollection/TCollection_Array1.gxx>
 

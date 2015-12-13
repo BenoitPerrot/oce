@@ -15,7 +15,7 @@
 
 #include <TColStd_PackedMapOfInteger.hxx>
 #include <TColStd_MapIteratorOfPackedMapOfInteger.hxx>
-#include <TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 
 // 5 lower bits

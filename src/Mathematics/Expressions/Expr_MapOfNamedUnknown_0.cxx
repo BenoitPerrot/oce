@@ -22,5 +22,5 @@
 #define TCollection_IndexedMapNode_Type_() Expr_IndexedMapNodeOfMapOfNamedUnknown_Type_()
 #define TCollection_IndexedMap Expr_MapOfNamedUnknown
 #define TCollection_IndexedMap_hxx <Expr_MapOfNamedUnknown.hxx>
-#include <TCollection_IndexedMap.gxx>
+#include <Foundation/TCollection/TCollection_IndexedMap.gxx>
 

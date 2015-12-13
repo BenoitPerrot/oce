@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(SelectMgr_SequenceNodeOfSequenceOfSelector)
 #define TCollection_SequenceNode_Type_() SelectMgr_SequenceNodeOfSequenceOfSelector_Type_()
 #define TCollection_Sequence SelectMgr_SequenceOfSelector
 #define TCollection_Sequence_hxx <SelectMgr_SequenceOfSelector.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

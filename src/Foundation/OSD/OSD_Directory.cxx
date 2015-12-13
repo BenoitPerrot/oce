@@ -88,7 +88,7 @@ char dirfmt[] = "/tmp/oceXXXXXX";
 #include <Foundation/OSD/OSD_Directory.hxx>
 #include <Foundation/OSD/OSD_Protection.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 
 #include <Foundation/OSD/OSD_WNT_1.hxx>
 

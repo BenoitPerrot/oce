@@ -43,5 +43,5 @@ IMPLEMENT_STANDARD_RTTI(TopOpeBRepDS_DataMapNodeOfMapOfCurve)
 #define TCollection_DataMapNode_Type_() TopOpeBRepDS_DataMapNodeOfMapOfCurve_Type_()
 #define TCollection_DataMap TopOpeBRepDS_MapOfCurve
 #define TCollection_DataMap_hxx <TopOpeBRepDS_MapOfCurve.hxx>
-#include <TCollection_DataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

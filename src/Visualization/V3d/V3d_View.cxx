@@ -132,8 +132,8 @@ To solve the problem (for lack of a better solution) I make 2 passes.
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Graphic3d_TextureEnv.hxx>
 #include <V3d_Light.hxx>
-#include <TCollection_ExtendedString.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Aspect_ColorScale.hxx>
 #include <Aspect_GradientBackground.hxx>
 #include <gp_Dir.hxx>

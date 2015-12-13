@@ -15,8 +15,8 @@
 
 #include <Font_FTFont.hxx>
 #include <Font_FontMgr.hxx>
-#include <TCollection_AsciiString.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 IMPLEMENT_STANDARD_HANDLE (Font_FTFont, Standard_Transient)
 IMPLEMENT_STANDARD_RTTIEXT(Font_FTFont, Standard_Transient)

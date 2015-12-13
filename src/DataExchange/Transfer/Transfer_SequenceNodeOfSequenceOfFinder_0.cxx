@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(Transfer_SequenceNodeOfSequenceOfFinder)
 #define TCollection_SequenceNode_Type_() Transfer_SequenceNodeOfSequenceOfFinder_Type_()
 #define TCollection_Sequence Transfer_SequenceOfFinder
 #define TCollection_Sequence_hxx <Transfer_SequenceOfFinder.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

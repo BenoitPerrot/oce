@@ -22,5 +22,5 @@
 #define TCollection_ListNode_Type_() TopOpeBRepBuild_ListNodeOfListOfShapeListOfShape_Type_()
 #define TCollection_List TopOpeBRepBuild_ListOfShapeListOfShape
 #define TCollection_List_hxx <TopOpeBRepBuild_ListOfShapeListOfShape.hxx>
-#include <TCollection_ListIterator.gxx>
+#include <Foundation/TCollection/TCollection_ListIterator.gxx>
 

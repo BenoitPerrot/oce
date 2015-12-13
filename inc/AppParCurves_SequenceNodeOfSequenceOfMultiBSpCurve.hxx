@@ -11,8 +11,8 @@
 #include <Handle_AppParCurves_SequenceNodeOfSequenceOfMultiBSpCurve.hxx>
 
 #include <AppParCurves_MultiBSpCurve.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class AppParCurves_MultiBSpCurve;
 class AppParCurves_SequenceOfMultiBSpCurve;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence AppParCurves_SequenceOfMultiBSpCurve
 #define TCollection_Sequence_hxx <AppParCurves_SequenceOfMultiBSpCurve.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

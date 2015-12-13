@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <TCollection_BasicMap.hxx>
+#include <Foundation/TCollection/TCollection_BasicMap.hxx>
 #include <Foundation/OSD/OSD_Function.hxx>
 #include <Handle_Plugin_DataMapNodeOfMapOfFunctions.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

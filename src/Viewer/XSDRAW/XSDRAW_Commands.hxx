@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 static TCollection_AsciiString XSDRAW_CommandPart
   (Standard_Integer argc, const char** argv, const Standard_Integer argf)

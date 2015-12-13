@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(Contap_SequenceNodeOfTheSequenceOfLine)
 #define TCollection_SequenceNode_Type_() Contap_SequenceNodeOfTheSequenceOfLine_Type_()
 #define TCollection_Sequence Contap_TheSequenceOfLine
 #define TCollection_Sequence_hxx <Contap_TheSequenceOfLine.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

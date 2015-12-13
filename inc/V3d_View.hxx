@@ -57,9 +57,9 @@
 #include <Aspect_TypeOfTriedronPosition.hxx>
 #include <Aspect_TypeOfTriedronEcho.hxx>
 #include <Font_FontAspect.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Handle_Aspect_ColorScale.hxx>
 #include <Foundation/Quantity/Quantity_PlaneAngle.hxx>
 #include <V3d_TypeOfAxe.hxx>

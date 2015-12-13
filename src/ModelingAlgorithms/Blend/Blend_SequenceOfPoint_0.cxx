@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() Blend_SequenceNodeOfSequenceOfPoint_Type_()
 #define TCollection_Sequence Blend_SequenceOfPoint
 #define TCollection_Sequence_hxx <Blend_SequenceOfPoint.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

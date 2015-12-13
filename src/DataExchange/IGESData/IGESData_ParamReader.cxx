@@ -21,7 +21,7 @@
 #include <Foundation/Message/Message_Msg.hxx>
 #include <gp_XY.hxx>
 #include <gp_XYZ.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <TColStd_HArray1OfInteger.hxx>
 #include <TColStd_HArray1OfReal.hxx>

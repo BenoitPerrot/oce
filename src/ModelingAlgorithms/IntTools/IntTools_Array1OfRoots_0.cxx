@@ -16,5 +16,5 @@
 #define Array1Item_hxx <IntTools_Root.hxx>
 #define TCollection_Array1 IntTools_Array1OfRoots
 #define TCollection_Array1_hxx <IntTools_Array1OfRoots.hxx>
-#include <TCollection_Array1.gxx>
+#include <Foundation/TCollection/TCollection_Array1.gxx>
 

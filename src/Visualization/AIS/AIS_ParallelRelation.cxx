@@ -44,8 +44,8 @@ IMPLEMENT_STANDARD_RTTI(AIS_ParallelRelation)
 
 #include <Precision.hxx>
 
-#include <TCollection_AsciiString.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 
 #include <DsgPrs_LengthPresentation.hxx>
 

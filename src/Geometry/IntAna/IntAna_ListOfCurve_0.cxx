@@ -21,5 +21,5 @@
 #define TCollection_ListNode_Type_() IntAna_ListNodeOfListOfCurve_Type_()
 #define TCollection_List IntAna_ListOfCurve
 #define TCollection_List_hxx <IntAna_ListOfCurve.hxx>
-#include <TCollection_List.gxx>
+#include <Foundation/TCollection/TCollection_List.gxx>
 

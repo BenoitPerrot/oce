@@ -11,8 +11,8 @@
 #include <Handle_Bnd_SequenceNodeOfSeqOfBox.hxx>
 
 #include <Bnd_Box.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class Bnd_Box;
 class Bnd_SeqOfBox;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence Bnd_SeqOfBox
 #define TCollection_Sequence_hxx <Bnd_SeqOfBox.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

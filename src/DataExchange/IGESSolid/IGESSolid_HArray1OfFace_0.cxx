@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(IGESSolid_HArray1OfFace)
 #define TCollection_HArray1_hxx <IGESSolid_HArray1OfFace.hxx>
 #define Handle_TCollection_HArray1 Handle_IGESSolid_HArray1OfFace
 #define TCollection_HArray1_Type_() IGESSolid_HArray1OfFace_Type_()
-#include <TCollection_HArray1.gxx>
+#include <Foundation/TCollection/TCollection_HArray1.gxx>
 

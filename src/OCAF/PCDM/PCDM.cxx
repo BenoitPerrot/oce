@@ -17,9 +17,9 @@
 #include <CDM_Document.hxx>
 #include <PCDM_StorageDriver.hxx>
 #include <Foundation/Storage/Storage_Schema.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <CDM_Application.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <PCDM.hxx>
 #include <Foundation/Plugin/Plugin.hxx>
 #include <Foundation/Standard/Standard_SStream.hxx>

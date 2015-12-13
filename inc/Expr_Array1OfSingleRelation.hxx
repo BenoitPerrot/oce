@@ -97,7 +97,7 @@ private:
 #define TCollection_Array1 Expr_Array1OfSingleRelation
 #define TCollection_Array1_hxx <Expr_Array1OfSingleRelation.hxx>
 
-#include <TCollection_Array1.lxx>
+#include <Foundation/TCollection/TCollection_Array1.lxx>
 
 #undef Array1Item
 #undef Array1Item_hxx

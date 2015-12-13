@@ -96,7 +96,7 @@ private:
 #define TCollection_Array1 StepData_Array1OfField
 #define TCollection_Array1_hxx <StepData_Array1OfField.hxx>
 
-#include <TCollection_Array1.lxx>
+#include <Foundation/TCollection/TCollection_Array1.lxx>
 
 #undef Array1Item
 #undef Array1Item_hxx

@@ -97,7 +97,7 @@ private:
 #define TCollection_Array1 StepElement_Array1OfCurveElementEndReleasePacket
 #define TCollection_Array1_hxx <StepElement_Array1OfCurveElementEndReleasePacket.hxx>
 
-#include <TCollection_Array1.lxx>
+#include <Foundation/TCollection/TCollection_Array1.lxx>
 
 #undef Array1Item
 #undef Array1Item_hxx

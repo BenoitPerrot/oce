@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() TDF_SequenceNodeOfLabelSequence_Type_()
 #define TCollection_Sequence TDF_LabelSequence
 #define TCollection_Sequence_hxx <TDF_LabelSequence.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

@@ -28,5 +28,5 @@
 #define TCollection_DataMapNode_Type_() XCAFPrs_DataMapNodeOfDataMapOfShapeStyle_Type_()
 #define TCollection_DataMap XCAFPrs_DataMapOfShapeStyle
 #define TCollection_DataMap_hxx <XCAFPrs_DataMapOfShapeStyle.hxx>
-#include <TCollection_DataMap.gxx>
+#include <Foundation/TCollection/TCollection_DataMap.gxx>
 

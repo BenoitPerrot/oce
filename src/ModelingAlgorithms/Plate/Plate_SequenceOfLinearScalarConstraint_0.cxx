@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() Plate_SequenceNodeOfSequenceOfLinearScalarConstraint_Type_()
 #define TCollection_Sequence Plate_SequenceOfLinearScalarConstraint
 #define TCollection_Sequence_hxx <Plate_SequenceOfLinearScalarConstraint.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

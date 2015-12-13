@@ -18,7 +18,7 @@
 #include <Aspect_DisplayConnection_Handle.hxx>
 #include <Aspect_XAtom.hxx>
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/NCollection/NCollection_DataMap.hxx>
 
 #if !defined(_WIN32) && (!defined(__APPLE__) || defined(MACOSX_USE_GLX)) && !defined(__ANDROID__)

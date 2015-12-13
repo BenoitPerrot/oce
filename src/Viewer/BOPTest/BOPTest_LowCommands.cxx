@@ -24,7 +24,7 @@
 #include <TopoDS_Shape.hxx>
 #include <TopAbs_State.hxx>
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 #include <BRepClass3d_SolidClassifier.hxx>
 #include <BRepClass_FaceClassifier.hxx>

@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(StepFEA_SymmetricTensor23dMember)
 IMPLEMENT_DOWNCAST(StepFEA_SymmetricTensor23dMember,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(StepFEA_SymmetricTensor23dMember)
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 static Standard_CString IST = "ISOTROPIC_SYMMETRIC_TENSOR2_3D";
 static Standard_CString OST = "ORTHOTROPIC_SYMMETRIC_TENSOR2_3D";

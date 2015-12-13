@@ -16,7 +16,7 @@
 
 #include <TDataXtd_Constraint.hxx>
 #include <DDataStd.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TDF_Label.hxx>
 #include <TDF_Tool.hxx>
 #include <TDataStd.hxx>

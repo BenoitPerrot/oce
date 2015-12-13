@@ -11,8 +11,8 @@
 #include <Handle_BRepAlgo_SequenceNodeOfSequenceOfSequenceOfInteger.hxx>
 
 #include <TColStd_SequenceOfInteger.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class TColStd_SequenceOfInteger;
 class BRepAlgo_SequenceOfSequenceOfInteger;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence BRepAlgo_SequenceOfSequenceOfInteger
 #define TCollection_Sequence_hxx <BRepAlgo_SequenceOfSequenceOfInteger.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

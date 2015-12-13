@@ -93,11 +93,11 @@ private:
 };
 
 #define Array1Item Handle(TCollection_HAsciiString)
-#define Array1Item_hxx <TCollection_HAsciiString.hxx>
+#define Array1Item_hxx <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #define TCollection_Array1 Interface_Array1OfHAsciiString
 #define TCollection_Array1_hxx <Interface_Array1OfHAsciiString.hxx>
 
-#include <TCollection_Array1.lxx>
+#include <Foundation/TCollection/TCollection_Array1.lxx>
 
 #undef Array1Item
 #undef Array1Item_hxx

@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_TYPE_END(Graphic3d_ArrayOfPrimitives)
 IMPLEMENT_DOWNCAST(Graphic3d_ArrayOfPrimitives,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Graphic3d_ArrayOfPrimitives)
 #include <Foundation/Standard/Standard.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/OSD/OSD_Environment.hxx>
 #include <Foundation/NCollection/NCollection_AlignedAllocator.hxx>
 

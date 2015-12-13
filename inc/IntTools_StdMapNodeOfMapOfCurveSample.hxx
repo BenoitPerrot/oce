@@ -11,8 +11,8 @@
 #include <Handle_IntTools_StdMapNodeOfMapOfCurveSample.hxx>
 
 #include <IntTools_CurveRangeSample.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class IntTools_CurveRangeSample;
 class IntTools_CurveRangeSampleMapHasher;
 class IntTools_MapOfCurveSample;
@@ -61,7 +61,7 @@ private:
 #define TCollection_Map IntTools_MapOfCurveSample
 #define TCollection_Map_hxx <IntTools_MapOfCurveSample.hxx>
 
-#include <TCollection_StdMapNode.lxx>
+#include <Foundation/TCollection/TCollection_StdMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

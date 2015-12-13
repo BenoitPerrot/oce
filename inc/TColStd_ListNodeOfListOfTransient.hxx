@@ -11,8 +11,8 @@
 #include <Handle_TColStd_ListNodeOfListOfTransient.hxx>
 
 #include <Handle_Standard_Transient.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class Standard_Transient;
 class TColStd_ListOfTransient;
 class TColStd_ListIteratorOfListOfTransient;
@@ -58,7 +58,7 @@ private:
 #define TCollection_List TColStd_ListOfTransient
 #define TCollection_List_hxx <TColStd_ListOfTransient.hxx>
 
-#include <TCollection_ListNode.lxx>
+#include <Foundation/TCollection/TCollection_ListNode.lxx>
 
 #undef Item
 #undef Item_hxx

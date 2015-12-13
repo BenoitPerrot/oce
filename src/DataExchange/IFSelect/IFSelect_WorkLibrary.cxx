@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IFSelect_WorkLibrary)
 IMPLEMENT_DOWNCAST(IFSelect_WorkLibrary,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IFSelect_WorkLibrary)
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <Foundation/Message/Message.hxx>

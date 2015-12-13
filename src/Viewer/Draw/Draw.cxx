@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Draw_Drawable3D.hxx>
 #include <Draw_ProgressIndicator.hxx>
 #include <Draw.hxx>
@@ -38,7 +38,7 @@
 #include <Foundation/OSD/OSD_SharedLibrary.hxx>
 #include <Foundation/Resource/Resource_Manager.hxx>
 #include <Draw_Failure.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 
 #include <tcl.h>

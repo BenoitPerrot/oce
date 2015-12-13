@@ -17,7 +17,7 @@
 #include <StepData_StepWriter.hxx>
 #include <RWStepGeom_RWCartesianPoint.hxx>
 //#include <TColStd_HArray1OfReal.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 
 RWStepGeom_RWCartesianPoint::RWStepGeom_RWCartesianPoint () {}

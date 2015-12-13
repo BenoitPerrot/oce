@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(Expr_IndexedMapNodeOfMapOfNamedUnknown)
 #define TCollection_IndexedMapNode_Type_() Expr_IndexedMapNodeOfMapOfNamedUnknown_Type_()
 #define TCollection_IndexedMap Expr_MapOfNamedUnknown
 #define TCollection_IndexedMap_hxx <Expr_MapOfNamedUnknown.hxx>
-#include <TCollection_IndexedMapNode.gxx>
+#include <Foundation/TCollection/TCollection_IndexedMapNode.gxx>
 

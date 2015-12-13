@@ -15,7 +15,7 @@
 #include <Interface_Static.hxx>
 #include <TColStd_HArray1OfAsciiString.hxx>
 #include <Foundation/Dico/Dico_DictionaryOfInteger.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Interface_InterfaceError.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>

@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <StepVisual_HArray1OfBoxCharacteristicSelect.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepVisual_TextStyleForDefinedFont.hxx>
 #include <StepVisual_BoxCharacteristicSelect.hxx>
 #include <StepVisual_TextStyleWithBoxCharacteristics.hxx>

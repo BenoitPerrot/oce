@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(StepElement_HArray1OfVolumeElementPurposeMember)
 #define TCollection_HArray1_hxx <StepElement_HArray1OfVolumeElementPurposeMember.hxx>
 #define Handle_TCollection_HArray1 Handle_StepElement_HArray1OfVolumeElementPurposeMember
 #define TCollection_HArray1_Type_() StepElement_HArray1OfVolumeElementPurposeMember_Type_()
-#include <TCollection_HArray1.gxx>
+#include <Foundation/TCollection/TCollection_HArray1.gxx>
 

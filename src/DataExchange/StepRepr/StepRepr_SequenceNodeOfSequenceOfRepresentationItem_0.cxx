@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(StepRepr_SequenceNodeOfSequenceOfRepresentationItem)
 #define TCollection_SequenceNode_Type_() StepRepr_SequenceNodeOfSequenceOfRepresentationItem_Type_()
 #define TCollection_Sequence StepRepr_SequenceOfRepresentationItem
 #define TCollection_Sequence_hxx <StepRepr_SequenceOfRepresentationItem.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

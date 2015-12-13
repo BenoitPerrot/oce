@@ -11,8 +11,8 @@
 #include <Handle_TDF_ListNodeOfDeltaList.hxx>
 
 #include <Handle_TDF_Delta.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class TDF_Delta;
 class TDF_DeltaList;
 class TDF_ListIteratorOfDeltaList;
@@ -58,7 +58,7 @@ private:
 #define TCollection_List TDF_DeltaList
 #define TCollection_List_hxx <TDF_DeltaList.hxx>
 
-#include <TCollection_ListNode.lxx>
+#include <Foundation/TCollection/TCollection_ListNode.lxx>
 
 #undef Item
 #undef Item_hxx

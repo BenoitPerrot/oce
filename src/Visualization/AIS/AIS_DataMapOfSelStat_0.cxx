@@ -28,5 +28,5 @@
 #define TCollection_DataMapNode_Type_() AIS_DataMapNodeOfDataMapOfSelStat_Type_()
 #define TCollection_DataMap AIS_DataMapOfSelStat
 #define TCollection_DataMap_hxx <AIS_DataMapOfSelStat.hxx>
-#include <TCollection_DataMap.gxx>
+#include <Foundation/TCollection/TCollection_DataMap.gxx>
 

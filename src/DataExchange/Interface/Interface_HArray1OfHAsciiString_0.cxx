@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Interface_Array1OfHAsciiString.hxx>
 
  
@@ -31,12 +31,12 @@ IMPLEMENT_STANDARD_RTTI(Interface_HArray1OfHAsciiString)
 
 
 #define ItemHArray1 Handle(TCollection_HAsciiString)
-#define ItemHArray1_hxx <TCollection_HAsciiString.hxx>
+#define ItemHArray1_hxx <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #define TheArray1 Interface_Array1OfHAsciiString
 #define TheArray1_hxx <Interface_Array1OfHAsciiString.hxx>
 #define TCollection_HArray1 Interface_HArray1OfHAsciiString
 #define TCollection_HArray1_hxx <Interface_HArray1OfHAsciiString.hxx>
 #define Handle_TCollection_HArray1 Handle_Interface_HArray1OfHAsciiString
 #define TCollection_HArray1_Type_() Interface_HArray1OfHAsciiString_Type_()
-#include <TCollection_HArray1.gxx>
+#include <Foundation/TCollection/TCollection_HArray1.gxx>
 

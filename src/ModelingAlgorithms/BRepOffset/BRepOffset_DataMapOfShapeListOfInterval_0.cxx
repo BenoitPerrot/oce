@@ -28,5 +28,5 @@
 #define TCollection_DataMapNode_Type_() BRepOffset_DataMapNodeOfDataMapOfShapeListOfInterval_Type_()
 #define TCollection_DataMap BRepOffset_DataMapOfShapeListOfInterval
 #define TCollection_DataMap_hxx <BRepOffset_DataMapOfShapeListOfInterval.hxx>
-#include <TCollection_DataMap.gxx>
+#include <Foundation/TCollection/TCollection_DataMap.gxx>
 

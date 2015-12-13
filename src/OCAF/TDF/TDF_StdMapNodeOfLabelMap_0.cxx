@@ -41,5 +41,5 @@ IMPLEMENT_STANDARD_RTTI(TDF_StdMapNodeOfLabelMap)
 #define TCollection_StdMapNode_Type_() TDF_StdMapNodeOfLabelMap_Type_()
 #define TCollection_Map TDF_LabelMap
 #define TCollection_Map_hxx <TDF_LabelMap.hxx>
-#include <TCollection_StdMapNode.gxx>
+#include <Foundation/TCollection/TCollection_StdMapNode.gxx>
 

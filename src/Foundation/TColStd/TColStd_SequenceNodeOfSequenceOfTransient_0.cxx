@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(TColStd_SequenceNodeOfSequenceOfTransient)
 #define TCollection_SequenceNode_Type_() TColStd_SequenceNodeOfSequenceOfTransient_Type_()
 #define TCollection_Sequence TColStd_SequenceOfTransient
 #define TCollection_Sequence_hxx <TColStd_SequenceOfTransient.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

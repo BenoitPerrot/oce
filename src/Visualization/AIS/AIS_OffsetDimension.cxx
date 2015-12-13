@@ -17,7 +17,7 @@
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 
 #include <TopoDS_Shape.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Prs3d_Presentation.hxx>
 #include <Prs3d_Projector.hxx>
 #include <Geom_Transformation.hxx>
@@ -58,7 +58,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_OffsetDimension)
 #include <SelectMgr_EntityOwner.hxx>
 #include <StdPrs_WFDeflectionShape.hxx>
 #include <TColStd_Array2OfReal.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <TopExp_Explorer.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Vertex.hxx>

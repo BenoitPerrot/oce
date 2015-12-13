@@ -18,7 +18,7 @@
 #include <Interface_ShareTool.hxx>
 #include <Interface_InterfaceModel.hxx>
 #include <Interface_Category.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TColStd_SequenceOfAsciiString.hxx>
 #include <Interface_GeneralModule.hxx>
 

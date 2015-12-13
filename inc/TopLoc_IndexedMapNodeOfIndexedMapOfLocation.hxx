@@ -12,8 +12,8 @@
 
 #include <TopLoc_Location.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <TCollection_MapNodePtr.hxx>
-#include <TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
 class TopLoc_Location;
 class TopLoc_MapLocationHasher;
 class TopLoc_IndexedMapOfLocation;
@@ -65,7 +65,7 @@ private:
 #define TCollection_IndexedMap TopLoc_IndexedMapOfLocation
 #define TCollection_IndexedMap_hxx <TopLoc_IndexedMapOfLocation.hxx>
 
-#include <TCollection_IndexedMapNode.lxx>
+#include <Foundation/TCollection/TCollection_IndexedMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

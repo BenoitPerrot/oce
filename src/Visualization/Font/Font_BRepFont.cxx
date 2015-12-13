@@ -33,8 +33,8 @@
 #include <ShapeFix_Edge.hxx>
 #include <ShapeFix_Wire.hxx>
 #include <TColGeom2d_HSequenceOfBoundedCurve.hxx>
-#include <TCollection_AsciiString.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <TopExp.hxx>
 #include <TopExp_Explorer.hxx>
 #include <TopoDS.hxx>

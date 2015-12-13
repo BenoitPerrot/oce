@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() MAT2d_SequenceNodeOfSequenceOfSequenceOfGeometry_Type_()
 #define TCollection_Sequence MAT2d_SequenceOfSequenceOfGeometry
 #define TCollection_Sequence_hxx <MAT2d_SequenceOfSequenceOfGeometry.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

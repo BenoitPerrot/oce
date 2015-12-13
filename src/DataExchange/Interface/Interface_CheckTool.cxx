@@ -26,7 +26,7 @@
 #include <Interface_EntityIterator.hxx>
 #include <Interface_CheckTool.hxx>
 #include <Interface_Macros.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Interface_Graph.hxx>
 #include <Interface_ReportEntity.hxx>
 #include <Interface_GeneralModule.hxx>

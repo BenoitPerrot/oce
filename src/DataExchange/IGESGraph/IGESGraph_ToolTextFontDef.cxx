@@ -33,7 +33,7 @@
 #include <gp_GTrsf.hxx>
 #include <gp_XY.hxx>
 #include <gp_Pnt2d.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <IGESGraph_TextFontDef.hxx>
 #include <TColStd_HArray1OfInteger.hxx>
 #include <TColgp_HArray1OfXY.hxx>

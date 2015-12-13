@@ -16,5 +16,5 @@
 #define Array1Item_hxx <StepAP214_AutoDesignGeneralOrgItem.hxx>
 #define TCollection_Array1 StepAP214_Array1OfAutoDesignGeneralOrgItem
 #define TCollection_Array1_hxx <StepAP214_Array1OfAutoDesignGeneralOrgItem.hxx>
-#include <TCollection_Array1.gxx>
+#include <Foundation/TCollection/TCollection_Array1.gxx>
 

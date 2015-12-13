@@ -25,7 +25,7 @@
 #include <Geom_SurfaceOfRevolution.hxx>
 #include <GeomToStep_MakeSurfaceOfLinearExtrusion.hxx>
 #include <GeomToStep_MakeSurfaceOfRevolution.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 //=============================================================================
 // Creation d' une SweptSurface de prostep a partir d' une 

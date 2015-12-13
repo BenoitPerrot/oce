@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(TDataStd_HLabelArray1)
 #define TCollection_HArray1_hxx <TDataStd_HLabelArray1.hxx>
 #define Handle_TCollection_HArray1 Handle_TDataStd_HLabelArray1
 #define TCollection_HArray1_Type_() TDataStd_HLabelArray1_Type_()
-#include <TCollection_HArray1.gxx>
+#include <Foundation/TCollection/TCollection_HArray1.gxx>
 

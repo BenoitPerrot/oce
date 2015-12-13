@@ -11,8 +11,8 @@
 #include <Handle_IntTools_ListNodeOfListOfCurveRangeSample.hxx>
 
 #include <IntTools_CurveRangeSample.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class IntTools_CurveRangeSample;
 class IntTools_ListOfCurveRangeSample;
 class IntTools_ListIteratorOfListOfCurveRangeSample;
@@ -58,7 +58,7 @@ private:
 #define TCollection_List IntTools_ListOfCurveRangeSample
 #define TCollection_List_hxx <IntTools_ListOfCurveRangeSample.hxx>
 
-#include <TCollection_ListNode.lxx>
+#include <Foundation/TCollection/TCollection_ListNode.lxx>
 
 #undef Item
 #undef Item_hxx

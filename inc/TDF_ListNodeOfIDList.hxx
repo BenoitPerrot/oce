@@ -11,8 +11,8 @@
 #include <Handle_TDF_ListNodeOfIDList.hxx>
 
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class Standard_GUID;
 class TDF_IDList;
 class TDF_ListIteratorOfIDList;
@@ -58,7 +58,7 @@ private:
 #define TCollection_List TDF_IDList
 #define TCollection_List_hxx <TDF_IDList.hxx>
 
-#include <TCollection_ListNode.lxx>
+#include <Foundation/TCollection/TCollection_ListNode.lxx>
 
 #undef Item
 #undef Item_hxx

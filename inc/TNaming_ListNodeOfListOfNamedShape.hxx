@@ -11,8 +11,8 @@
 #include <Handle_TNaming_ListNodeOfListOfNamedShape.hxx>
 
 #include <Handle_TNaming_NamedShape.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class TNaming_NamedShape;
 class TNaming_ListOfNamedShape;
 class TNaming_ListIteratorOfListOfNamedShape;
@@ -58,7 +58,7 @@ private:
 #define TCollection_List TNaming_ListOfNamedShape
 #define TCollection_List_hxx <TNaming_ListOfNamedShape.hxx>
 
-#include <TCollection_ListNode.lxx>
+#include <Foundation/TCollection/TCollection_ListNode.lxx>
 
 #undef Item
 #undef Item_hxx

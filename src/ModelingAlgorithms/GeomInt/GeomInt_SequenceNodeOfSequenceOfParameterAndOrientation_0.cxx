@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(GeomInt_SequenceNodeOfSequenceOfParameterAndOrientation)
 #define TCollection_SequenceNode_Type_() GeomInt_SequenceNodeOfSequenceOfParameterAndOrientation_Type_()
 #define TCollection_Sequence GeomInt_SequenceOfParameterAndOrientation
 #define TCollection_Sequence_hxx <GeomInt_SequenceOfParameterAndOrientation.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

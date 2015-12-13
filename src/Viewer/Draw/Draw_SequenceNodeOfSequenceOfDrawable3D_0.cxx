@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(Draw_SequenceNodeOfSequenceOfDrawable3D)
 #define TCollection_SequenceNode_Type_() Draw_SequenceNodeOfSequenceOfDrawable3D_Type_()
 #define TCollection_Sequence Draw_SequenceOfDrawable3D
 #define TCollection_Sequence_hxx <Draw_SequenceOfDrawable3D.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

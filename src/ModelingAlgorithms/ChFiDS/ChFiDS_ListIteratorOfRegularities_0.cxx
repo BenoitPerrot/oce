@@ -22,5 +22,5 @@
 #define TCollection_ListNode_Type_() ChFiDS_ListNodeOfRegularities_Type_()
 #define TCollection_List ChFiDS_Regularities
 #define TCollection_List_hxx <ChFiDS_Regularities.hxx>
-#include <TCollection_ListIterator.gxx>
+#include <Foundation/TCollection/TCollection_ListIterator.gxx>
 

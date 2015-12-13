@@ -82,7 +82,7 @@
 /* Just used for WriteShape */
 
 #include <stdio.h>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <BRepTools.hxx>
 
 //:21 

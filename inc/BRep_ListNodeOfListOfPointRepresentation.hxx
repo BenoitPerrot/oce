@@ -11,8 +11,8 @@
 #include <Handle_BRep_ListNodeOfListOfPointRepresentation.hxx>
 
 #include <Handle_BRep_PointRepresentation.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class BRep_PointRepresentation;
 class BRep_ListOfPointRepresentation;
 class BRep_ListIteratorOfListOfPointRepresentation;
@@ -58,7 +58,7 @@ private:
 #define TCollection_List BRep_ListOfPointRepresentation
 #define TCollection_List_hxx <BRep_ListOfPointRepresentation.hxx>
 
-#include <TCollection_ListNode.lxx>
+#include <Foundation/TCollection/TCollection_ListNode.lxx>
 
 #undef Item
 #undef Item_hxx

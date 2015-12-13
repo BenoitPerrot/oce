@@ -34,5 +34,5 @@ IMPLEMENT_STANDARD_RTTI(TColStd_SequenceNodeOfSequenceOfInteger)
 #define TCollection_SequenceNode_Type_() TColStd_SequenceNodeOfSequenceOfInteger_Type_()
 #define TCollection_Sequence TColStd_SequenceOfInteger
 #define TCollection_Sequence_hxx <TColStd_SequenceOfInteger.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

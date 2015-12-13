@@ -43,5 +43,5 @@ IMPLEMENT_STANDARD_RTTI(MAT2d_DataMapNodeOfDataMapOfIntegerBisec)
 #define TCollection_DataMapNode_Type_() MAT2d_DataMapNodeOfDataMapOfIntegerBisec_Type_()
 #define TCollection_DataMap MAT2d_DataMapOfIntegerBisec
 #define TCollection_DataMap_hxx <MAT2d_DataMapOfIntegerBisec.hxx>
-#include <TCollection_DataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

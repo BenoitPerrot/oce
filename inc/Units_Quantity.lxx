@@ -16,7 +16,7 @@
 
 #include <Units_UnitsSequence.hxx>
 #include <Units_Dimensions.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 //=======================================================================
 //function : Units_Quantity

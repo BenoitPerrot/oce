@@ -21,5 +21,5 @@
 #define TCollection_ListNode_Type_() ChFiDS_ListNodeOfListOfHElSpine_Type_()
 #define TCollection_List ChFiDS_ListOfHElSpine
 #define TCollection_List_hxx <ChFiDS_ListOfHElSpine.hxx>
-#include <TCollection_List.gxx>
+#include <Foundation/TCollection/TCollection_List.gxx>
 

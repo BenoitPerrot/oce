@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(Transfer_ResultFromModel)
 #include <Interface_Check.hxx>
 #include <Interface_Macros.hxx>
 #include <Transfer_Binder.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 
 Transfer_ResultFromModel::Transfer_ResultFromModel ()

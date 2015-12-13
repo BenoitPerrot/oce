@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <TCollection_BasicMap.hxx>
+#include <Foundation/TCollection/TCollection_BasicMap.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Handle_BRepClass3d_DataMapNodeOfMapOfInter.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_HArray1OfSectionLaw)
 #define TCollection_HArray1_hxx <GeomFill_HArray1OfSectionLaw.hxx>
 #define Handle_TCollection_HArray1 Handle_GeomFill_HArray1OfSectionLaw
 #define TCollection_HArray1_Type_() GeomFill_HArray1OfSectionLaw_Type_()
-#include <TCollection_HArray1.gxx>
+#include <Foundation/TCollection/TCollection_HArray1.gxx>
 

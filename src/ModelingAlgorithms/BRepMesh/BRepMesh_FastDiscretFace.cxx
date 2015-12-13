@@ -37,7 +37,7 @@
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <Foundation/SortTools/SortTools_ShellSortOfReal.hxx>
-#include <TCollection_CompareOfReal.hxx>
+#include <Foundation/TCollection/TCollection_CompareOfReal.hxx>
 #include <TColStd_Array1OfReal.hxx>
 #include <TColStd_ListOfInteger.hxx>
 #include <TColStd_SequenceOfReal.hxx>

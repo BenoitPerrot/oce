@@ -11,8 +11,8 @@
 #include <Handle_MDF_SequenceNodeOfARDriverSequence.hxx>
 
 #include <Handle_MDF_ARDriver.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class MDF_ARDriver;
 class MDF_ARDriverSequence;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence MDF_ARDriverSequence
 #define TCollection_Sequence_hxx <MDF_ARDriverSequence.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

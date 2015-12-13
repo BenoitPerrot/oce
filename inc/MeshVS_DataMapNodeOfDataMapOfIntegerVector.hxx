@@ -12,8 +12,8 @@
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <gp_Vec.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class gp_Vec;
 class TColStd_MapIntegerHasher;
 class MeshVS_DataMapOfIntegerVector;
@@ -67,7 +67,7 @@ private:
 #define TCollection_DataMap MeshVS_DataMapOfIntegerVector
 #define TCollection_DataMap_hxx <MeshVS_DataMapOfIntegerVector.hxx>
 
-#include <TCollection_DataMapNode.lxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

@@ -18,7 +18,7 @@
 #include <Foundation/Standard/Standard_NullObject.hxx>
 #include <Foundation/Standard/Standard_NumericError.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 static OSD_SysType whereAmI(){
 #if defined(__digital__) || defined(__FreeBSD__) || defined(SUNOS) || defined(__APPLE__) || defined(__FreeBSD_kernel__)

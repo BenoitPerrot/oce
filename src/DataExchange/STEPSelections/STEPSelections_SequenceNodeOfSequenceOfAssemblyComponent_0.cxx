@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(STEPSelections_SequenceNodeOfSequenceOfAssemblyComponent
 #define TCollection_SequenceNode_Type_() STEPSelections_SequenceNodeOfSequenceOfAssemblyComponent_Type_()
 #define TCollection_Sequence STEPSelections_SequenceOfAssemblyComponent
 #define TCollection_Sequence_hxx <STEPSelections_SequenceOfAssemblyComponent.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

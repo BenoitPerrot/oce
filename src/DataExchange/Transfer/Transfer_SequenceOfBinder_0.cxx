@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() Transfer_SequenceNodeOfSequenceOfBinder_Type_()
 #define TCollection_Sequence Transfer_SequenceOfBinder
 #define TCollection_Sequence_hxx <Transfer_SequenceOfBinder.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

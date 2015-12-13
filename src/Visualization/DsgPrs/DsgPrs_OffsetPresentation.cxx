@@ -16,7 +16,7 @@
 
 #include <Prs3d_Presentation.hxx>
 #include <Prs3d_Drawer.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Dir.hxx>
 #include <DsgPrs_OffsetPresentation.hxx>
@@ -37,7 +37,7 @@
 #include <Prs3d_LineAspect.hxx>
 #include <Prs3d_DimensionAspect.hxx>
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 #include <Graphic3d_AspectLine3d.hxx>
 #include <Graphic3d_AspectMarker3d.hxx>

@@ -21,7 +21,7 @@
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/Standard/Standard_NullObject.hxx>
 #include <Foundation/OSD/OSD_OSDError.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/OSD/OSD_Environment.hxx>
 #include <Foundation/OSD/OSD_WhoAmI.hxx>
 

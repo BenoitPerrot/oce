@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <TCollection_BasicMap.hxx>
+#include <Foundation/TCollection/TCollection_BasicMap.hxx>
 #include <Handle_TPrsStd_Driver.hxx>
 #include <Handle_TPrsStd_DataMapNodeOfDataMapOfGUIDDriver.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

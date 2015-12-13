@@ -96,7 +96,7 @@ private:
 #define TCollection_Array1 BRepAdaptor_Array1OfCurve
 #define TCollection_Array1_hxx <BRepAdaptor_Array1OfCurve.hxx>
 
-#include <TCollection_Array1.lxx>
+#include <Foundation/TCollection/TCollection_Array1.lxx>
 
 #undef Array1Item
 #undef Array1Item_hxx

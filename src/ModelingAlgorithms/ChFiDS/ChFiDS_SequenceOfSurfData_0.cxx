@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() ChFiDS_SequenceNodeOfSequenceOfSurfData_Type_()
 #define TCollection_Sequence ChFiDS_SequenceOfSurfData
 #define TCollection_Sequence_hxx <ChFiDS_SequenceOfSurfData.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

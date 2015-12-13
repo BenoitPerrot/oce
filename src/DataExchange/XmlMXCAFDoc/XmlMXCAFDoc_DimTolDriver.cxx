@@ -29,7 +29,7 @@ IMPLEMENT_DOWNCAST(XmlMXCAFDoc_DimTolDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlMXCAFDoc_DimTolDriver)
 #include <XmlObjMgt.hxx>
 #include <XCAFDoc_DimTol.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <TColStd_HArray1OfReal.hxx>
 
 #include <stdio.h>

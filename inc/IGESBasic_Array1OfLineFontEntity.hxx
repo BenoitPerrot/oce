@@ -97,7 +97,7 @@ private:
 #define TCollection_Array1 IGESBasic_Array1OfLineFontEntity
 #define TCollection_Array1_hxx <IGESBasic_Array1OfLineFontEntity.hxx>
 
-#include <TCollection_Array1.lxx>
+#include <Foundation/TCollection/TCollection_Array1.lxx>
 
 #undef Array1Item
 #undef Array1Item_hxx

@@ -18,7 +18,7 @@
 #include <Interface_InterfaceMismatch.hxx>
 #include <Interface_InterfaceError.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Interface_EntityList.hxx>
 #include <Interface_CopyTool.hxx>
 #include <Interface_UndefinedContent.hxx>

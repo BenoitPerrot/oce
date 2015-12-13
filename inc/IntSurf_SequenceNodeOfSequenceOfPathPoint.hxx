@@ -11,8 +11,8 @@
 #include <Handle_IntSurf_SequenceNodeOfSequenceOfPathPoint.hxx>
 
 #include <IntSurf_PathPoint.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class IntSurf_PathPoint;
 class IntSurf_SequenceOfPathPoint;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence IntSurf_SequenceOfPathPoint
 #define TCollection_Sequence_hxx <IntSurf_SequenceOfPathPoint.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

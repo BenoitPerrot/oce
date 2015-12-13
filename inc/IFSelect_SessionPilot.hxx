@@ -11,7 +11,7 @@
 #include <Handle_IFSelect_SessionPilot.hxx>
 
 #include <Handle_IFSelect_WorkSession.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <TColStd_Array1OfAsciiString.hxx>
 #include <TColStd_Array1OfInteger.hxx>

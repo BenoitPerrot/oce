@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <StepVisual_PlanarBox.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepVisual_CameraModelD2.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepVisual_CameraModelD2)

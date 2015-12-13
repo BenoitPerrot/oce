@@ -16,7 +16,7 @@
 // Purpose:     Implementation of the BaseMap class
 
 #include <Foundation/NCollection/NCollection_BaseMap.hxx>
-#include <TCollection.hxx>
+#include <Foundation/TCollection/TCollection.hxx>
 
 //=======================================================================
 //function : BeginResize

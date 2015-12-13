@@ -22,10 +22,10 @@
 #include <Foundation/Message/Message_MsgFile.hxx>
 #include <Foundation/Standard/Standard_AncestorIterator.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
-#include <TCollection_AsciiString.hxx>
-#include <TCollection_HAsciiString.hxx>
-#include <TCollection_ExtendedString.hxx>
-#include <TCollection_HExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_HExtendedString.hxx>
 #include <TColStd_HArray1OfTransient.hxx>
 #include <TColStd_HPackedMapOfInteger.hxx>
 #include <TColStd_HSequenceOfHExtendedString.hxx>

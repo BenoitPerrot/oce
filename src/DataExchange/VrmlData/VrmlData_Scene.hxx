@@ -24,7 +24,7 @@
 #include <TopoDS_Shape.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 #include <Foundation/Standard/Standard_IStream.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/NCollection/NCollection_IncAllocator.hxx>
 #include <Foundation/Standard/Standard_Mutex.hxx>
 

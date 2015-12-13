@@ -12,8 +12,8 @@
 
 #include <MAT2d_BiInt.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class MAT2d_BiInt;
 class MAT2d_MapBiIntHasher;
 class MAT2d_DataMapOfBiIntInteger;
@@ -67,7 +67,7 @@ private:
 #define TCollection_DataMap MAT2d_DataMapOfBiIntInteger
 #define TCollection_DataMap_hxx <MAT2d_DataMapOfBiIntInteger.hxx>
 
-#include <TCollection_DataMapNode.lxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

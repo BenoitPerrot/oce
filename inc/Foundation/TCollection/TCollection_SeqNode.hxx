@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TCollection_SeqNode.hxx>
 
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 
 
@@ -47,7 +47,7 @@ private:
 };
 
 
-#include <TCollection_SeqNode.lxx>
+#include <Foundation/TCollection/TCollection_SeqNode.lxx>
 
 
 

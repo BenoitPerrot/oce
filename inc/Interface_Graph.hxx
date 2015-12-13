@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_Interface_InterfaceModel.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>
 #include <Interface_BitMap.hxx>
 #include <Handle_TColStd_HArray1OfListOfInteger.hxx>

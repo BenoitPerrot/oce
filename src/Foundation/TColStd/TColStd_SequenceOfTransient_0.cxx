@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() TColStd_SequenceNodeOfSequenceOfTransient_Type_()
 #define TCollection_Sequence TColStd_SequenceOfTransient
 #define TCollection_Sequence_hxx <TColStd_SequenceOfTransient.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

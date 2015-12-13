@@ -118,7 +118,7 @@
 #include <ShapeBuild_Edge.hxx>
 #include <IGESToBRep_IGESBoundary.hxx>
 #include <Foundation/Message/Message_Msg.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <IGESData_IGESModel.hxx>  
 #include <ShapeAlgo.hxx>
 #include <ShapeAlgo_AlgoContainer.hxx>

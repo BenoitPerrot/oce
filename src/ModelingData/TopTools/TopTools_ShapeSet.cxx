@@ -25,7 +25,7 @@
 #include <Foundation/Message/Message_ProgressIndicator.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopTools_LocationSet.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TopTools_ShapeSet.hxx>
 
 #include <TopoDS_Iterator.hxx>

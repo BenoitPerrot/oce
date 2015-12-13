@@ -22,5 +22,5 @@
 #define TCollection_IndexedMapNode_Type_() TopTools_IndexedMapNodeOfIndexedMapOfOrientedShape_Type_()
 #define TCollection_IndexedMap TopTools_IndexedMapOfOrientedShape
 #define TCollection_IndexedMap_hxx <TopTools_IndexedMapOfOrientedShape.hxx>
-#include <TCollection_IndexedMap.gxx>
+#include <Foundation/TCollection/TCollection_IndexedMap.gxx>
 

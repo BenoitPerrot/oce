@@ -19,7 +19,7 @@
 #include <TestTopOpeDraw_HArray1OfDrawableP3D.hxx>
 #include <TestTopOpeTools_Mesure.hxx>
 #include <Draw_Color.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <gp_Pnt.hxx>
 #include <Draw_Display.hxx>
 #include <TestTopOpeDraw_DrawableMesure.hxx>

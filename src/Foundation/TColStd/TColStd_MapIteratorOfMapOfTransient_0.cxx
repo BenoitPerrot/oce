@@ -24,5 +24,5 @@
 #define TCollection_StdMapNode_Type_() TColStd_StdMapNodeOfMapOfTransient_Type_()
 #define TCollection_Map TColStd_MapOfTransient
 #define TCollection_Map_hxx <TColStd_MapOfTransient.hxx>
-#include <TCollection_MapIterator.gxx>
+#include <Foundation/TCollection/TCollection_MapIterator.gxx>
 

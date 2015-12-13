@@ -15,10 +15,10 @@
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <TColStd_HSequenceOfTransient.hxx>
-#include <TCollection_HAsciiString.hxx>
-#include <TCollection_AsciiString.hxx>
-#include <TCollection_HExtendedString.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <TColStd_HSequenceOfHAsciiString.hxx>
 #include <TColStd_HSequenceOfHExtendedString.hxx>
 #include <TopoDS_Shape.hxx>

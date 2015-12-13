@@ -12,8 +12,8 @@
 
 #include <TopoDS_Shape.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class TopoDS_Shape;
 class TopTools_ShapeMapHasher;
 class BRepClass3d_MapOfInter;
@@ -67,7 +67,7 @@ private:
 #define TCollection_DataMap BRepClass3d_MapOfInter
 #define TCollection_DataMap_hxx <BRepClass3d_MapOfInter.hxx>
 
-#include <TCollection_DataMapNode.lxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

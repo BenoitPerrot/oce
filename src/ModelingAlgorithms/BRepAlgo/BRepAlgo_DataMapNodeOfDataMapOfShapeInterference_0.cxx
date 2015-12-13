@@ -44,5 +44,5 @@ IMPLEMENT_STANDARD_RTTI(BRepAlgo_DataMapNodeOfDataMapOfShapeInterference)
 #define TCollection_DataMapNode_Type_() BRepAlgo_DataMapNodeOfDataMapOfShapeInterference_Type_()
 #define TCollection_DataMap BRepAlgo_DataMapOfShapeInterference
 #define TCollection_DataMap_hxx <BRepAlgo_DataMapOfShapeInterference.hxx>
-#include <TCollection_DataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

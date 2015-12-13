@@ -3,7 +3,7 @@
 #include <TDocStd_Application.hxx>
 #include <Foundation/OSD/OSD_File.hxx>
 #include <Foundation/OSD/OSD_Path.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <LDOM_OSStream.hxx>
 #include <iostream>
 #include <gtest/gtest.h>

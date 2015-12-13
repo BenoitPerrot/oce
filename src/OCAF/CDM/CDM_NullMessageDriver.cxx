@@ -24,7 +24,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(CDM_NullMessageDriver)
 IMPLEMENT_DOWNCAST(CDM_NullMessageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(CDM_NullMessageDriver)
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 CDM_NullMessageDriver::CDM_NullMessageDriver() {}
 
 void CDM_NullMessageDriver::Write(const Standard_ExtString /*aString*/) {

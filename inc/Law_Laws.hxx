@@ -108,7 +108,7 @@ private:
 #define TCollection_List Law_Laws
 #define TCollection_List_hxx <Law_Laws.hxx>
 
-#include <TCollection_List.lxx>
+#include <Foundation/TCollection/TCollection_List.lxx>
 
 #undef Item
 #undef Item_hxx

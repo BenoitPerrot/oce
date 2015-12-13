@@ -48,7 +48,7 @@
 // To use Msg class
 #include <Foundation/Message/Message_Msg.hxx>
 // To use TCollectionHAsciiString
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 // Failure pour recuperer erreur en lecture fichier,
 // TypeMismatch pour message d erreur circonstancie (cas particulier important)

@@ -20,8 +20,8 @@
 #include <Foundation/OSD/OSD_File.hxx>
 #include <Precision.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
-#include <TCollection_ExtendedString.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <TDataStd_Integer.hxx>
 #include <TDataStd_Real.hxx>
 #include <TDF_Tool.hxx>

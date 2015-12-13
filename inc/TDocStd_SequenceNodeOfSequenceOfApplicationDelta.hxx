@@ -11,8 +11,8 @@
 #include <Handle_TDocStd_SequenceNodeOfSequenceOfApplicationDelta.hxx>
 
 #include <Handle_TDocStd_ApplicationDelta.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class TDocStd_ApplicationDelta;
 class TDocStd_SequenceOfApplicationDelta;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence TDocStd_SequenceOfApplicationDelta
 #define TCollection_Sequence_hxx <TDocStd_SequenceOfApplicationDelta.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

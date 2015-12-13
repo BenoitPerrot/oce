@@ -19,8 +19,8 @@
 #define TObj_Container_HeaderFile
 
 #include <Foundation/NCollection/NCollection_DataMap.hxx>
-#include <TCollection_AsciiString.hxx>
-#include <TCollection_HExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HExtendedString.hxx>
 #include <TDF_Label.hxx>
 
 #include <TObj_Common.hxx>

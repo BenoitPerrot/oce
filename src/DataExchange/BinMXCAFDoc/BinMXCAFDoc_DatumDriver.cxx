@@ -29,7 +29,7 @@ IMPLEMENT_DOWNCAST(BinMXCAFDoc_DatumDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinMXCAFDoc_DatumDriver)
 #include <XCAFDoc_Datum.hxx>
 
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <TColStd_Array1OfReal.hxx>
 #include <TColStd_HArray1OfReal.hxx>
 

@@ -10,10 +10,10 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_CDM_DataMapNodeOfMetaDataLookUpTable.hxx>
 
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Handle_CDM_MetaData.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class CDM_MetaData;
 class TCollection_ExtendedString;
 class CDM_MetaDataLookUpTable;
@@ -53,11 +53,11 @@ private:
 };
 
 #define TheKey TCollection_ExtendedString
-#define TheKey_hxx <TCollection_ExtendedString.hxx>
+#define TheKey_hxx <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #define TheItem Handle(CDM_MetaData)
 #define TheItem_hxx <CDM_MetaData.hxx>
 #define Hasher TCollection_ExtendedString
-#define Hasher_hxx <TCollection_ExtendedString.hxx>
+#define Hasher_hxx <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #define TCollection_DataMapNode CDM_DataMapNodeOfMetaDataLookUpTable
 #define TCollection_DataMapNode_hxx <CDM_DataMapNodeOfMetaDataLookUpTable.hxx>
 #define TCollection_DataMapIterator CDM_DataMapIteratorOfMetaDataLookUpTable
@@ -67,7 +67,7 @@ private:
 #define TCollection_DataMap CDM_MetaDataLookUpTable
 #define TCollection_DataMap_hxx <CDM_MetaDataLookUpTable.hxx>
 
-#include <TCollection_DataMapNode.lxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <TCollection_BasicMapIterator.hxx>
+#include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
 #include <Foundation/Standard/Standard_Byte.hxx>
 #include <Handle_TDataStd_DataMapNodeOfDataMapOfStringByte.hxx>
 class Standard_NoSuchObject;

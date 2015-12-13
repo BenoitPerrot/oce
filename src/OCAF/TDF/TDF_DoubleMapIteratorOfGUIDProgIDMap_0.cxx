@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <TDF_GUIDProgIDMap.hxx>
 #include <TDF_DoubleMapNodeOfGUIDProgIDMap.hxx>
  
@@ -15,11 +15,11 @@
 #define TheKey1 Standard_GUID
 #define TheKey1_hxx <Foundation/Standard/Standard_GUID.hxx>
 #define TheKey2 TCollection_ExtendedString
-#define TheKey2_hxx <TCollection_ExtendedString.hxx>
+#define TheKey2_hxx <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #define Hasher1 Standard_GUID
 #define Hasher1_hxx <Foundation/Standard/Standard_GUID.hxx>
 #define Hasher2 TCollection_ExtendedString
-#define Hasher2_hxx <TCollection_ExtendedString.hxx>
+#define Hasher2_hxx <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #define TCollection_DoubleMapNode TDF_DoubleMapNodeOfGUIDProgIDMap
 #define TCollection_DoubleMapNode_hxx <TDF_DoubleMapNodeOfGUIDProgIDMap.hxx>
 #define TCollection_DoubleMapIterator TDF_DoubleMapIteratorOfGUIDProgIDMap
@@ -28,5 +28,5 @@
 #define TCollection_DoubleMapNode_Type_() TDF_DoubleMapNodeOfGUIDProgIDMap_Type_()
 #define TCollection_DoubleMap TDF_GUIDProgIDMap
 #define TCollection_DoubleMap_hxx <TDF_GUIDProgIDMap.hxx>
-#include <TCollection_DoubleMapIterator.gxx>
+#include <Foundation/TCollection/TCollection_DoubleMapIterator.gxx>
 

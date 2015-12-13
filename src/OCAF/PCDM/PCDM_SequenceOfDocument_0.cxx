@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() PCDM_SequenceNodeOfSequenceOfDocument_Type_()
 #define TCollection_Sequence PCDM_SequenceOfDocument
 #define TCollection_Sequence_hxx <PCDM_SequenceOfDocument.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

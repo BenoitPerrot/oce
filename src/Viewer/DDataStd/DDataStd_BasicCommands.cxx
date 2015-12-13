@@ -47,7 +47,7 @@
 #include <gp_Dir.hxx>
 #include <gp_Pln.hxx>
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TColStd_HArray1OfReal.hxx>
 
 // LES ATTRIBUTES

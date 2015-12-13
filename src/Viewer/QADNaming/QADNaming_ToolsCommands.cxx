@@ -25,12 +25,12 @@
 #include <gp_Pnt.hxx>
 #include <gp_Trsf.hxx>
 #include <BRepTools.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TNaming_Translator.hxx>
 #include <TopTools_DataMapIteratorOfDataMapOfShapeShape.hxx>
 #include <DNaming_DataMapOfShapeOfName.hxx>
 #include <DNaming_DataMapIteratorOfDataMapOfShapeOfName.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TopAbs.hxx>
 #include <TopExp_Explorer.hxx>
 #include <TopTools_MapOfShape.hxx>

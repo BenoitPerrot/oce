@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() NLPlate_SequenceNodeOfSequenceOfHGPPConstraint_Type_()
 #define TCollection_Sequence NLPlate_SequenceOfHGPPConstraint
 #define TCollection_Sequence_hxx <NLPlate_SequenceOfHGPPConstraint.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

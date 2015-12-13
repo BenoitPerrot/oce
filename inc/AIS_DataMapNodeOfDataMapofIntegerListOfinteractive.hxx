@@ -12,8 +12,8 @@
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <AIS_ListOfInteractive.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class AIS_ListOfInteractive;
 class TColStd_MapIntegerHasher;
 class AIS_DataMapofIntegerListOfinteractive;
@@ -67,7 +67,7 @@ private:
 #define TCollection_DataMap AIS_DataMapofIntegerListOfinteractive
 #define TCollection_DataMap_hxx <AIS_DataMapofIntegerListOfinteractive.hxx>
 
-#include <TCollection_DataMapNode.lxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

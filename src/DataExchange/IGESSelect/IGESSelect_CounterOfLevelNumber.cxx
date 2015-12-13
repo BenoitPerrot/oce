@@ -15,7 +15,7 @@
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Interface_InterfaceModel.hxx>
 #include <TColStd_HSequenceOfInteger.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <IGESSelect_CounterOfLevelNumber.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

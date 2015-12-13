@@ -24,7 +24,7 @@
 #include <Interface_GeneralModule.hxx>
 #include <Interface_ReportEntity.hxx>
 #include <Interface_InterfaceError.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 
 // Se souvenir qu une version plus riche de CopyTool existe : c est

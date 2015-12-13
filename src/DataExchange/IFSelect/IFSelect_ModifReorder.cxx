@@ -15,7 +15,7 @@
 #include <Interface_InterfaceModel.hxx>
 #include <Interface_Protocol.hxx>
 #include <Interface_CopyTool.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <IFSelect_ModifReorder.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IFSelect_ModifReorder)

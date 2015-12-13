@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Foundation/Standard/Standard_Character.hxx>
@@ -475,7 +475,7 @@ private:
 };
 
 
-#include <TCollection_HAsciiString.lxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.lxx>
 
 
 

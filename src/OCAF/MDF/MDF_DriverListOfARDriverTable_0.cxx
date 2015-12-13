@@ -21,5 +21,5 @@
 #define TCollection_ListNode_Type_() MDF_ListNodeOfDriverListOfARDriverTable_Type_()
 #define TCollection_List MDF_DriverListOfARDriverTable
 #define TCollection_List_hxx <MDF_DriverListOfARDriverTable.hxx>
-#include <TCollection_List.gxx>
+#include <Foundation/TCollection/TCollection_List.gxx>
 

@@ -21,7 +21,7 @@
 #include <Prs3d_ArrowAspect.hxx>
 #include <Prs3d_DatumAspect.hxx>
 #include <Prs3d_DimensionAspect.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Prs3d_Drawer.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Prs3d_Drawer)

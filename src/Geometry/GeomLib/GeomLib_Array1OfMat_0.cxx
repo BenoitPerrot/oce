@@ -16,5 +16,5 @@
 #define Array1Item_hxx <gp_Mat.hxx>
 #define TCollection_Array1 GeomLib_Array1OfMat
 #define TCollection_Array1_hxx <GeomLib_Array1OfMat.hxx>
-#include <TCollection_Array1.gxx>
+#include <Foundation/TCollection/TCollection_Array1.gxx>
 

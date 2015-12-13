@@ -18,7 +18,7 @@
 #include <XmlObjMgt_Persistent.hxx>
 #include <XmlObjMgt_Document.hxx>
 #include <XmlObjMgt.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 //=======================================================================
 //function : XmlObjMgt_Persistent

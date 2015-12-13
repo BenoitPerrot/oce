@@ -26,7 +26,7 @@
 #include <StepGeom_Plane.hxx>
 #include <StepGeom_Axis2Placement3d.hxx>
 #include <GeomToStep_MakeAxis2Placement3d.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 //=============================================================================
 // Creation d' un plane de prostep a partir d' un Pln de gp

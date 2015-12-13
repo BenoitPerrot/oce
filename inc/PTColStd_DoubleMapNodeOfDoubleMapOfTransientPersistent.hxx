@@ -12,8 +12,8 @@
 
 #include <Handle_Standard_Transient.hxx>
 #include <Handle_Standard_Persistent.hxx>
-#include <TCollection_MapNodePtr.hxx>
-#include <TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
 class Standard_Transient;
 class Standard_Persistent;
 class TColStd_MapTransientHasher;
@@ -74,7 +74,7 @@ private:
 #define TCollection_DoubleMap PTColStd_DoubleMapOfTransientPersistent
 #define TCollection_DoubleMap_hxx <PTColStd_DoubleMapOfTransientPersistent.hxx>
 
-#include <TCollection_DoubleMapNode.lxx>
+#include <Foundation/TCollection/TCollection_DoubleMapNode.lxx>
 
 #undef TheKey1
 #undef TheKey1_hxx

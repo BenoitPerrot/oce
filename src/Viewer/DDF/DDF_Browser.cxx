@@ -23,7 +23,7 @@
 #include <TDF_Data.hxx>
 #include <Draw_Display.hxx>
 #include <Draw_Drawable3D.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TDF_Label.hxx>
 #include <DDF_Browser.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -47,7 +47,7 @@ IMPLEMENT_STANDARD_RTTI(DDF_Browser)
 
 #include <TDataStd_Name.hxx>
 
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 // Communication convention with tcl:

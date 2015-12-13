@@ -13,8 +13,8 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <gp_Pnt.hxx>
-#include <TCollection_MapNodePtr.hxx>
-#include <TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
 class gp_Pnt;
 class TColStd_MapRealHasher;
 class QANCollection_IndexedDataMapOfRealPnt;
@@ -71,7 +71,7 @@ private:
 #define TCollection_IndexedDataMap QANCollection_IndexedDataMapOfRealPnt
 #define TCollection_IndexedDataMap_hxx <QANCollection_IndexedDataMapOfRealPnt.hxx>
 
-#include <TCollection_IndexedDataMapNode.lxx>
+#include <Foundation/TCollection/TCollection_IndexedDataMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

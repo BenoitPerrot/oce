@@ -11,8 +11,8 @@
 #include <Handle_Visual3d_SequenceNodeOfSequenceOfView.hxx>
 
 #include <Handle_Visual3d_View.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class Visual3d_View;
 class Visual3d_SequenceOfView;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence Visual3d_SequenceOfView
 #define TCollection_Sequence_hxx <Visual3d_SequenceOfView.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

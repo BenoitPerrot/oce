@@ -21,7 +21,7 @@
 #include <Expr_InvalidAssignment.hxx>
 #include <Expr_InvalidOperand.hxx>
 #include <Expr_NotEvaluable.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Expr_Array1OfNamedUnknown.hxx>
 #include <TColStd_Array1OfReal.hxx>
 #include <Expr_NamedUnknown.hxx>

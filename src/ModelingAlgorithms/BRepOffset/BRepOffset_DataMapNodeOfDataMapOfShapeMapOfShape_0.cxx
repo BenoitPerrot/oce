@@ -44,5 +44,5 @@ IMPLEMENT_STANDARD_RTTI(BRepOffset_DataMapNodeOfDataMapOfShapeMapOfShape)
 #define TCollection_DataMapNode_Type_() BRepOffset_DataMapNodeOfDataMapOfShapeMapOfShape_Type_()
 #define TCollection_DataMap BRepOffset_DataMapOfShapeMapOfShape
 #define TCollection_DataMap_hxx <BRepOffset_DataMapOfShapeMapOfShape.hxx>
-#include <TCollection_DataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

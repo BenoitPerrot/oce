@@ -23,5 +23,5 @@
 #define TCollection_StdMapNode_Type_() CDM_StdMapNodeOfMapOfDocument_Type_()
 #define TCollection_Map CDM_MapOfDocument
 #define TCollection_Map_hxx <CDM_MapOfDocument.hxx>
-#include <TCollection_Map.gxx>
+#include <Foundation/TCollection/TCollection_Map.gxx>
 

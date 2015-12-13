@@ -15,7 +15,7 @@
 
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Graphic3d_MaterialAspect.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <MeshVS_Drawer.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MeshVS_Drawer)

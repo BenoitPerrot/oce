@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(TColStd_ListNodeOfListOfTransient)
 #define TCollection_ListNode_Type_() TColStd_ListNodeOfListOfTransient_Type_()
 #define TCollection_List TColStd_ListOfTransient
 #define TCollection_List_hxx <TColStd_ListOfTransient.hxx>
-#include <TCollection_ListNode.gxx>
+#include <Foundation/TCollection/TCollection_ListNode.gxx>
 

@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(BinMDataStd_NamedDataDriver)
 IMPLEMENT_DOWNCAST(BinMDataStd_NamedDataDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinMDataStd_NamedDataDriver)
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <CDM_MessageDriver.hxx>
 #include <TDataStd_NamedData.hxx>
 #include <TColStd_HArray1OfReal.hxx>

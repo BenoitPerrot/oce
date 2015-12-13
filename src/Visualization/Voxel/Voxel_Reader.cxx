@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Voxel_Reader.hxx>
 #include <Voxel_BoolDS.hxx>
 #include <Voxel_ColorDS.hxx>
@@ -21,7 +21,7 @@
 #include <Voxel_VoxelFileFormat.hxx>
 #include <Voxel_TypeDef.hxx>
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/OSD/OSD_OpenFile.hxx>
 
 #include <stdio.h>

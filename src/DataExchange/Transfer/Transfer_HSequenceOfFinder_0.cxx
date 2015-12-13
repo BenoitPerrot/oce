@@ -36,5 +36,5 @@ IMPLEMENT_STANDARD_RTTI(Transfer_HSequenceOfFinder)
 #define TCollection_HSequence_hxx <Transfer_HSequenceOfFinder.hxx>
 #define Handle_TCollection_HSequence Handle_Transfer_HSequenceOfFinder
 #define TCollection_HSequence_Type_() Transfer_HSequenceOfFinder_Type_()
-#include <TCollection_HSequence.gxx>
+#include <Foundation/TCollection/TCollection_HSequence.gxx>
 

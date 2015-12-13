@@ -36,5 +36,5 @@ IMPLEMENT_STANDARD_RTTI(TopTools_HSequenceOfShape)
 #define TCollection_HSequence_hxx <TopTools_HSequenceOfShape.hxx>
 #define Handle_TCollection_HSequence Handle_TopTools_HSequenceOfShape
 #define TCollection_HSequence_Type_() TopTools_HSequenceOfShape_Type_()
-#include <TCollection_HSequence.gxx>
+#include <Foundation/TCollection/TCollection_HSequence.gxx>
 

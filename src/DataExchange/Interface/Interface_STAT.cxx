@@ -11,12 +11,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <TColStd_HSequenceOfAsciiString.hxx>
 #include <TColStd_HSequenceOfReal.hxx>
 #include <TColStd_HSequenceOfInteger.hxx>
 #include <Interface_STAT.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 static Interface_STAT statvoid("");
 static Interface_STAT statact ("");

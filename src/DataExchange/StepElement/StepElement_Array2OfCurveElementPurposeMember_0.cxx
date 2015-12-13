@@ -16,5 +16,5 @@
 #define Array2Item_hxx <StepElement_CurveElementPurposeMember.hxx>
 #define TCollection_Array2 StepElement_Array2OfCurveElementPurposeMember
 #define TCollection_Array2_hxx <StepElement_Array2OfCurveElementPurposeMember.hxx>
-#include <TCollection_Array2.gxx>
+#include <Foundation/TCollection/TCollection_Array2.gxx>
 

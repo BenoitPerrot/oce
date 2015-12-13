@@ -33,8 +33,8 @@
 #include <TDataStd_ChildNodeIterator.hxx>
 
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <TCollection_AsciiString.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 
 #include <stdio.h>
 

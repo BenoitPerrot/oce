@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(LocOpe_SequenceNodeOfSequenceOfCirc)
 #define TCollection_SequenceNode_Type_() LocOpe_SequenceNodeOfSequenceOfCirc_Type_()
 #define TCollection_Sequence LocOpe_SequenceOfCirc
 #define TCollection_Sequence_hxx <LocOpe_SequenceOfCirc.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

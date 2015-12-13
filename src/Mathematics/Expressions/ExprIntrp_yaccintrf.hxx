@@ -38,7 +38,7 @@ int ExprIntrplex(void);
 
 #ifdef __cplusplus
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 const TCollection_AsciiString& ExprIntrp_GetResult ();
 int ExprIntrp_GetDegree();

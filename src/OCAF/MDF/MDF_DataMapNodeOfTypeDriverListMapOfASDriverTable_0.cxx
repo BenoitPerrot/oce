@@ -44,5 +44,5 @@ IMPLEMENT_STANDARD_RTTI(MDF_DataMapNodeOfTypeDriverListMapOfASDriverTable)
 #define TCollection_DataMapNode_Type_() MDF_DataMapNodeOfTypeDriverListMapOfASDriverTable_Type_()
 #define TCollection_DataMap MDF_TypeDriverListMapOfASDriverTable
 #define TCollection_DataMap_hxx <MDF_TypeDriverListMapOfASDriverTable.hxx>
-#include <TCollection_DataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

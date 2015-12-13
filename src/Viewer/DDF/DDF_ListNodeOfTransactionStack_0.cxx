@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(DDF_ListNodeOfTransactionStack)
 #define TCollection_ListNode_Type_() DDF_ListNodeOfTransactionStack_Type_()
 #define TCollection_List DDF_TransactionStack
 #define TCollection_List_hxx <DDF_TransactionStack.hxx>
-#include <TCollection_ListNode.gxx>
+#include <Foundation/TCollection/TCollection_ListNode.gxx>
 

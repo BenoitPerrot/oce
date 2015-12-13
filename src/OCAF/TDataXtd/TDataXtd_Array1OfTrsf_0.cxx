@@ -16,5 +16,5 @@
 #define Array1Item_hxx <gp_Trsf.hxx>
 #define TCollection_Array1 TDataXtd_Array1OfTrsf
 #define TCollection_Array1_hxx <TDataXtd_Array1OfTrsf.hxx>
-#include <TCollection_Array1.gxx>
+#include <Foundation/TCollection/TCollection_Array1.gxx>
 

@@ -78,7 +78,7 @@ private:
 #define Handle_TCollection_HArray1 Handle_TColGeom_HArray1OfSurface
 #define TCollection_HArray1_Type_() TColGeom_HArray1OfSurface_Type_()
 
-#include <TCollection_HArray1.lxx>
+#include <Foundation/TCollection/TCollection_HArray1.lxx>
 
 #undef ItemHArray1
 #undef ItemHArray1_hxx

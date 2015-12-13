@@ -14,7 +14,7 @@
 // Modified by rmi, Thu Dec  4 14:24:24 1997
 #include <CDF_StoreList.hxx>
 #include <CDM_Document.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <CDF_Store.hxx>
 #include <CDF_Session.hxx>
 #include <CDF_Application.hxx>
@@ -24,7 +24,7 @@
 #include <CDF_MetaDataDriver.hxx>
 #include <PCDM_StorageDriver.hxx>
 #include <PCDM.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <CDM_MetaData.hxx>
 
 #define theMetaDataDriver CDF_Session::CurrentSession()->MetaDataDriver()

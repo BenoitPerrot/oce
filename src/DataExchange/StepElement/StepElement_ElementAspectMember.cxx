@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(StepElement_ElementAspectMember)
 IMPLEMENT_DOWNCAST(StepElement_ElementAspectMember,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(StepElement_ElementAspectMember)
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 static Standard_CString aElementVolume = "ELEMENT_VOLUME";
 static Standard_CString aVolume3dFace = "VOLUME_3D_FACE";

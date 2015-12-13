@@ -44,5 +44,5 @@ IMPLEMENT_STANDARD_RTTI(TDocStd_DataMapNodeOfLabelIDMapDataMap)
 #define TCollection_DataMapNode_Type_() TDocStd_DataMapNodeOfLabelIDMapDataMap_Type_()
 #define TCollection_DataMap TDocStd_LabelIDMapDataMap
 #define TCollection_DataMap_hxx <TDocStd_LabelIDMapDataMap.hxx>
-#include <TCollection_DataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

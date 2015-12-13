@@ -18,7 +18,7 @@
 
 // rln 11.05.2000 BUC60660
 
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <TColStd_HArray1OfInteger.hxx>
 #include <TColStd_HArray1OfTransient.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>

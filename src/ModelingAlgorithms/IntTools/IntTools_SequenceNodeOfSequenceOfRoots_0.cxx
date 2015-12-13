@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(IntTools_SequenceNodeOfSequenceOfRoots)
 #define TCollection_SequenceNode_Type_() IntTools_SequenceNodeOfSequenceOfRoots_Type_()
 #define TCollection_Sequence IntTools_SequenceOfRoots
 #define TCollection_Sequence_hxx <IntTools_SequenceOfRoots.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

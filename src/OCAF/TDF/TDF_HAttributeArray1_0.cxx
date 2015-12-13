@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(TDF_HAttributeArray1)
 #define TCollection_HArray1_hxx <TDF_HAttributeArray1.hxx>
 #define Handle_TCollection_HArray1 Handle_TDF_HAttributeArray1
 #define TCollection_HArray1_Type_() TDF_HAttributeArray1_Type_()
-#include <TCollection_HArray1.gxx>
+#include <Foundation/TCollection/TCollection_HArray1.gxx>
 

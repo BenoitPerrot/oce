@@ -28,5 +28,5 @@
 #define TCollection_DataMapNode_Type_() XmlMDF_DataMapNodeOfTypeADriverMap_Type_()
 #define TCollection_DataMap XmlMDF_TypeADriverMap
 #define TCollection_DataMap_hxx <XmlMDF_TypeADriverMap.hxx>
-#include <TCollection_DataMap.gxx>
+#include <Foundation/TCollection/TCollection_DataMap.gxx>
 

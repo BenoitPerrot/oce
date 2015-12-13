@@ -72,7 +72,7 @@ private:
 #define TCollection_List Select3D_ListOfSensitiveTriangle
 #define TCollection_List_hxx <Select3D_ListOfSensitiveTriangle.hxx>
 
-#include <TCollection_ListIterator.lxx>
+#include <Foundation/TCollection/TCollection_ListIterator.lxx>
 
 #undef Item
 #undef Item_hxx

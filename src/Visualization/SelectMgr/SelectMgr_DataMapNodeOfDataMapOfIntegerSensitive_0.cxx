@@ -43,5 +43,5 @@ IMPLEMENT_STANDARD_RTTI(SelectMgr_DataMapNodeOfDataMapOfIntegerSensitive)
 #define TCollection_DataMapNode_Type_() SelectMgr_DataMapNodeOfDataMapOfIntegerSensitive_Type_()
 #define TCollection_DataMap SelectMgr_DataMapOfIntegerSensitive
 #define TCollection_DataMap_hxx <SelectMgr_DataMapOfIntegerSensitive.hxx>
-#include <TCollection_DataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

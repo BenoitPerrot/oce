@@ -37,5 +37,5 @@ IMPLEMENT_STANDARD_RTTI(TShort_HArray2OfShortReal)
 #define TCollection_HArray2_hxx <TShort_HArray2OfShortReal.hxx>
 #define Handle_TCollection_HArray2 Handle_TShort_HArray2OfShortReal
 #define TCollection_HArray2_Type_() TShort_HArray2OfShortReal_Type_()
-#include <TCollection_HArray2.gxx>
+#include <Foundation/TCollection/TCollection_HArray2.gxx>
 

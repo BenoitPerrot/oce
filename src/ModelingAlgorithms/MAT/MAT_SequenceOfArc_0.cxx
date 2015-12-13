@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() MAT_SequenceNodeOfSequenceOfArc_Type_()
 #define TCollection_Sequence MAT_SequenceOfArc
 #define TCollection_Sequence_hxx <MAT_SequenceOfArc.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(TestTopOpeTools_HArray1OfMesure)
 #define TCollection_HArray1_hxx <TestTopOpeTools_HArray1OfMesure.hxx>
 #define Handle_TCollection_HArray1 Handle_TestTopOpeTools_HArray1OfMesure
 #define TCollection_HArray1_Type_() TestTopOpeTools_HArray1OfMesure_Type_()
-#include <TCollection_HArray1.gxx>
+#include <Foundation/TCollection/TCollection_HArray1.gxx>
 

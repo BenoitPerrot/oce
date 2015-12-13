@@ -26,7 +26,7 @@
 #include <TDF_Label.hxx>
 #include <TDF_Reference.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TDF_AttributeDelta.hxx>
 #include <TDF_Attribute.hxx>
 #include <TDF_RelocationTable.hxx>

@@ -24,5 +24,5 @@
 #define TCollection_StdMapNode_Type_() TopTools_StdMapNodeOfMapOfShape_Type_()
 #define TCollection_Map TopTools_MapOfShape
 #define TCollection_Map_hxx <TopTools_MapOfShape.hxx>
-#include <TCollection_MapIterator.gxx>
+#include <Foundation/TCollection/TCollection_MapIterator.gxx>
 

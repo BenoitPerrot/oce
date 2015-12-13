@@ -29,7 +29,7 @@ IMPLEMENT_DOWNCAST(XmlMXCAFDoc_MaterialDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlMXCAFDoc_MaterialDriver)
 #include <XmlObjMgt.hxx>
 #include <XCAFDoc_Material.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 IMPLEMENT_DOMSTRING (NameIndexString,     "name")
 IMPLEMENT_DOMSTRING (DescrIndexString,    "descr")

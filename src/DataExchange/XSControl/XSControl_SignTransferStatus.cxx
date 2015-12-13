@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_TYPE_END(XSControl_SignTransferStatus)
 IMPLEMENT_DOWNCAST(XSControl_SignTransferStatus,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XSControl_SignTransferStatus)
 #include <Transfer_Binder.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Interface_Check.hxx>
 //#include <stdio.h>
 

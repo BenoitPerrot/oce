@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() StepRepr_SequenceNodeOfSequenceOfRepresentationItem_Type_()
 #define TCollection_Sequence StepRepr_SequenceOfRepresentationItem
 #define TCollection_Sequence_hxx <StepRepr_SequenceOfRepresentationItem.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

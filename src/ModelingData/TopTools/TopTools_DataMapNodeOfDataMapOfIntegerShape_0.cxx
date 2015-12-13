@@ -43,5 +43,5 @@ IMPLEMENT_STANDARD_RTTI(TopTools_DataMapNodeOfDataMapOfIntegerShape)
 #define TCollection_DataMapNode_Type_() TopTools_DataMapNodeOfDataMapOfIntegerShape_Type_()
 #define TCollection_DataMap TopTools_DataMapOfIntegerShape
 #define TCollection_DataMap_hxx <TopTools_DataMapOfIntegerShape.hxx>
-#include <TCollection_DataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

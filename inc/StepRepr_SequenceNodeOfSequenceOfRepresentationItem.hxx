@@ -11,8 +11,8 @@
 #include <Handle_StepRepr_SequenceNodeOfSequenceOfRepresentationItem.hxx>
 
 #include <Handle_StepRepr_RepresentationItem.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class StepRepr_RepresentationItem;
 class StepRepr_SequenceOfRepresentationItem;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence StepRepr_SequenceOfRepresentationItem
 #define TCollection_Sequence_hxx <StepRepr_SequenceOfRepresentationItem.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

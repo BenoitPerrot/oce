@@ -10,10 +10,10 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Plugin_DataMapNodeOfMapOfFunctions.hxx>
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/OSD/OSD_Function.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class TCollection_AsciiString;
 class Plugin_MapOfFunctions;
 class Plugin_DataMapIteratorOfMapOfFunctions;
@@ -52,11 +52,11 @@ private:
 };
 
 #define TheKey TCollection_AsciiString
-#define TheKey_hxx <TCollection_AsciiString.hxx>
+#define TheKey_hxx <Foundation/TCollection/TCollection_AsciiString.hxx>
 #define TheItem OSD_Function
 #define TheItem_hxx <Foundation/OSD/OSD_Function.hxx>
 #define Hasher TCollection_AsciiString
-#define Hasher_hxx <TCollection_AsciiString.hxx>
+#define Hasher_hxx <Foundation/TCollection/TCollection_AsciiString.hxx>
 #define TCollection_DataMapNode Plugin_DataMapNodeOfMapOfFunctions
 #define TCollection_DataMapNode_hxx <Foundation/Plugin/Plugin_DataMapNodeOfMapOfFunctions.hxx>
 #define TCollection_DataMapIterator Plugin_DataMapIteratorOfMapOfFunctions
@@ -66,7 +66,7 @@ private:
 #define TCollection_DataMap Plugin_MapOfFunctions
 #define TCollection_DataMap_hxx <Foundation/Plugin/Plugin_MapOfFunctions.hxx>
 
-#include <TCollection_DataMapNode.lxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

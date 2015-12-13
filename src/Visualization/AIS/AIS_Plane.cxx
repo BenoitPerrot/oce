@@ -79,7 +79,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_Plane)
 
 #include <AIS_Drawer.hxx>
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 //=======================================================================
 //function : AIS_Plane

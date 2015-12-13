@@ -26,7 +26,7 @@
 #include <OpenGl_Context.hxx>
 #include <Aspect_GraphicDeviceDefinitionError.hxx>
 #include <Cocoa_LocalPool.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 #include <OpenGL/CGLRenderers.h>
 

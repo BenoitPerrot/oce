@@ -44,5 +44,5 @@ IMPLEMENT_STANDARD_RTTI(BRepCheck_DataMapNodeOfDataMapOfShapeListOfStatus)
 #define TCollection_DataMapNode_Type_() BRepCheck_DataMapNodeOfDataMapOfShapeListOfStatus_Type_()
 #define TCollection_DataMap BRepCheck_DataMapOfShapeListOfStatus
 #define TCollection_DataMap_hxx <BRepCheck_DataMapOfShapeListOfStatus.hxx>
-#include <TCollection_DataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

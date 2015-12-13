@@ -89,7 +89,7 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_ActorWrite)
 
 #include <TopExp_Explorer.hxx>
 #include <TColStd_HSequenceOfTransient.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 #include <Transfer_TransientProcess.hxx>
 #include <Transfer_Binder.hxx>

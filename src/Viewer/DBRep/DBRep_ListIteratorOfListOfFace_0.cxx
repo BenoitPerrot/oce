@@ -22,5 +22,5 @@
 #define TCollection_ListNode_Type_() DBRep_ListNodeOfListOfFace_Type_()
 #define TCollection_List DBRep_ListOfFace
 #define TCollection_List_hxx <DBRep_ListOfFace.hxx>
-#include <TCollection_ListIterator.gxx>
+#include <Foundation/TCollection/TCollection_ListIterator.gxx>
 

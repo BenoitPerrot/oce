@@ -19,7 +19,7 @@
 //              szy
 #include <Prs3d_Presentation.hxx>
 #include <Prs3d_Drawer.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Circ.hxx>
 #include <DsgPrs_DiameterPresentation.hxx>

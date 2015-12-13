@@ -12,8 +12,8 @@
 
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <Handle_TFunction_Driver.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class TFunction_Driver;
 class Standard_GUID;
 class TFunction_DataMapOfGUIDDriver;
@@ -67,7 +67,7 @@ private:
 #define TCollection_DataMap TFunction_DataMapOfGUIDDriver
 #define TCollection_DataMap_hxx <TFunction_DataMapOfGUIDDriver.hxx>
 
-#include <TCollection_DataMapNode.lxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

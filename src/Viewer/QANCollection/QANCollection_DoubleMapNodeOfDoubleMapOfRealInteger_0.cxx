@@ -45,5 +45,5 @@ IMPLEMENT_STANDARD_RTTI(QANCollection_DoubleMapNodeOfDoubleMapOfRealInteger)
 #define TCollection_DoubleMapNode_Type_() QANCollection_DoubleMapNodeOfDoubleMapOfRealInteger_Type_()
 #define TCollection_DoubleMap QANCollection_DoubleMapOfRealInteger
 #define TCollection_DoubleMap_hxx <QANCollection_DoubleMapOfRealInteger.hxx>
-#include <TCollection_DoubleMapNode.gxx>
+#include <Foundation/TCollection/TCollection_DoubleMapNode.gxx>
 

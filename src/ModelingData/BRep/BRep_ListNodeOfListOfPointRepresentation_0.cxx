@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(BRep_ListNodeOfListOfPointRepresentation)
 #define TCollection_ListNode_Type_() BRep_ListNodeOfListOfPointRepresentation_Type_()
 #define TCollection_List BRep_ListOfPointRepresentation
 #define TCollection_List_hxx <BRep_ListOfPointRepresentation.hxx>
-#include <TCollection_ListNode.gxx>
+#include <Foundation/TCollection/TCollection_ListNode.gxx>
 

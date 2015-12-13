@@ -12,8 +12,8 @@
 
 #include <Handle_SelectMgr_SelectableObject.hxx>
 #include <SelectMgr_SequenceOfSelector.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class SelectMgr_SelectableObject;
 class SelectMgr_SequenceOfSelector;
 class TColStd_MapTransientHasher;
@@ -68,7 +68,7 @@ private:
 #define TCollection_DataMap SelectMgr_DataMapOfObjectSelectors
 #define TCollection_DataMap_hxx <SelectMgr_DataMapOfObjectSelectors.hxx>
 
-#include <TCollection_DataMapNode.lxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

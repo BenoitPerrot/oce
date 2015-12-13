@@ -36,7 +36,7 @@
 #include <RWStl.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <V3d_View.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 #include <SelectMgr_SelectionManager.hxx>
 #include <StdSelect_ViewerSelector3d.hxx>

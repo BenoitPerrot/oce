@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(LocOpe_SequenceNodeOfSequenceOfPntFace)
 #define TCollection_SequenceNode_Type_() LocOpe_SequenceNodeOfSequenceOfPntFace_Type_()
 #define TCollection_Sequence LocOpe_SequenceOfPntFace
 #define TCollection_Sequence_hxx <LocOpe_SequenceOfPntFace.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

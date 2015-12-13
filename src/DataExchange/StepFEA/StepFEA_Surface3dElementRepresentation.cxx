@@ -19,7 +19,7 @@
 #include <StepElement_Surface3dElementDescriptor.hxx>
 #include <StepElement_SurfaceElementProperty.hxx>
 #include <StepElement_ElementMaterial.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepRepr_HArray1OfRepresentationItem.hxx>
 #include <StepRepr_RepresentationContext.hxx>
 #include <StepFEA_HArray1OfNodeRepresentation.hxx>

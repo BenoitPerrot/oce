@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <TDocStd_SequenceOfDocument.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <TDocStd_ApplicationDelta.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDocStd_ApplicationDelta)
@@ -25,7 +25,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(TDocStd_ApplicationDelta)
 IMPLEMENT_DOWNCAST(TDocStd_ApplicationDelta,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TDocStd_ApplicationDelta)
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TDocStd_Document.hxx>
 
 //=======================================================================

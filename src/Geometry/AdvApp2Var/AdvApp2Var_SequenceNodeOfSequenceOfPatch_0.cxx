@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(AdvApp2Var_SequenceNodeOfSequenceOfPatch)
 #define TCollection_SequenceNode_Type_() AdvApp2Var_SequenceNodeOfSequenceOfPatch_Type_()
 #define TCollection_Sequence AdvApp2Var_SequenceOfPatch
 #define TCollection_Sequence_hxx <AdvApp2Var_SequenceOfPatch.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

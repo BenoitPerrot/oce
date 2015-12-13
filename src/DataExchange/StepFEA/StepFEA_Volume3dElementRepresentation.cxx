@@ -18,7 +18,7 @@
 #include <StepFEA_FeaModel3d.hxx>
 #include <StepElement_Volume3dElementDescriptor.hxx>
 #include <StepElement_ElementMaterial.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepRepr_HArray1OfRepresentationItem.hxx>
 #include <StepRepr_RepresentationContext.hxx>
 #include <StepFEA_HArray1OfNodeRepresentation.hxx>

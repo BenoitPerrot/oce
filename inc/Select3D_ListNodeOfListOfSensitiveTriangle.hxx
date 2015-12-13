@@ -11,8 +11,8 @@
 #include <Handle_Select3D_ListNodeOfListOfSensitiveTriangle.hxx>
 
 #include <Handle_Select3D_SensitiveTriangle.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class Select3D_SensitiveTriangle;
 class Select3D_ListOfSensitiveTriangle;
 class Select3D_ListIteratorOfListOfSensitiveTriangle;
@@ -58,7 +58,7 @@ private:
 #define TCollection_List Select3D_ListOfSensitiveTriangle
 #define TCollection_List_hxx <Select3D_ListOfSensitiveTriangle.hxx>
 
-#include <TCollection_ListNode.lxx>
+#include <Foundation/TCollection/TCollection_ListNode.lxx>
 
 #undef Item
 #undef Item_hxx

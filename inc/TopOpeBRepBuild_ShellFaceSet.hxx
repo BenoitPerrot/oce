@@ -13,7 +13,7 @@
 #include <TopoDS_Solid.hxx>
 #include <TopOpeBRepBuild_ShapeSet.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 class TopoDS_Shape;
 class TopoDS_Solid;
 class TCollection_AsciiString;

@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() Extrema_SequenceNodeOfSequenceOfPOnCurv2d_Type_()
 #define TCollection_Sequence Extrema_SequenceOfPOnCurv2d
 #define TCollection_Sequence_hxx <Extrema_SequenceOfPOnCurv2d.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

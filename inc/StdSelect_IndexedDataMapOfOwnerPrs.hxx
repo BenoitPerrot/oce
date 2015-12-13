@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <TCollection_BasicMap.hxx>
+#include <Foundation/TCollection/TCollection_BasicMap.hxx>
 #include <Handle_SelectBasics_EntityOwner.hxx>
 #include <Handle_StdSelect_Prs.hxx>
 #include <Handle_StdSelect_IndexedDataMapNodeOfIndexedDataMapOfOwnerPrs.hxx>

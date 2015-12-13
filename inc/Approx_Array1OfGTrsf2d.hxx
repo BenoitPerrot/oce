@@ -96,7 +96,7 @@ private:
 #define TCollection_Array1 Approx_Array1OfGTrsf2d
 #define TCollection_Array1_hxx <Approx_Array1OfGTrsf2d.hxx>
 
-#include <TCollection_Array1.lxx>
+#include <Foundation/TCollection/TCollection_Array1.lxx>
 
 #undef Array1Item
 #undef Array1Item_hxx

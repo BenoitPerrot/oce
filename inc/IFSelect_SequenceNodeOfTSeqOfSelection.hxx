@@ -11,8 +11,8 @@
 #include <Handle_IFSelect_SequenceNodeOfTSeqOfSelection.hxx>
 
 #include <Handle_IFSelect_Selection.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class IFSelect_Selection;
 class IFSelect_TSeqOfSelection;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence IFSelect_TSeqOfSelection
 #define TCollection_Sequence_hxx <IFSelect_TSeqOfSelection.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

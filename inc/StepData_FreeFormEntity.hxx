@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepData_FreeFormEntity.hxx>
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Handle_StepData_HArray1OfField.hxx>
 #include <Handle_StepData_FreeFormEntity.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

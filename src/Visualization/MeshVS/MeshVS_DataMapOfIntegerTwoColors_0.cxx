@@ -26,5 +26,5 @@
 #define TCollection_DataMapNode_Type_() MeshVS_DataMapNodeOfDataMapOfIntegerTwoColors_Type_()
 #define TCollection_DataMap MeshVS_DataMapOfIntegerTwoColors
 #define TCollection_DataMap_hxx <MeshVS_DataMapOfIntegerTwoColors.hxx>
-#include <TCollection_DataMap.gxx>
+#include <Foundation/TCollection/TCollection_DataMap.gxx>
 

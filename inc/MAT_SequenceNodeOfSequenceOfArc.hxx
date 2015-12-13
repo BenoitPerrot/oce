@@ -11,8 +11,8 @@
 #include <Handle_MAT_SequenceNodeOfSequenceOfArc.hxx>
 
 #include <Handle_MAT_Arc.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class MAT_Arc;
 class MAT_SequenceOfArc;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence MAT_SequenceOfArc
 #define TCollection_Sequence_hxx <MAT_SequenceOfArc.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

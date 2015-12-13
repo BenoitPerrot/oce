@@ -105,7 +105,7 @@ private:
 #define TCollection_Array2 TColGeom_Array2OfBezierSurface
 #define TCollection_Array2_hxx <TColGeom_Array2OfBezierSurface.hxx>
 
-#include <TCollection_Array2.lxx>
+#include <Foundation/TCollection/TCollection_Array2.lxx>
 
 #undef Array2Item
 #undef Array2Item_hxx

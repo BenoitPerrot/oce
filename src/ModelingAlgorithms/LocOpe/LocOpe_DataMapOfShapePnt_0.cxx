@@ -28,5 +28,5 @@
 #define TCollection_DataMapNode_Type_() LocOpe_DataMapNodeOfDataMapOfShapePnt_Type_()
 #define TCollection_DataMap LocOpe_DataMapOfShapePnt
 #define TCollection_DataMap_hxx <LocOpe_DataMapOfShapePnt.hxx>
-#include <TCollection_DataMap.gxx>
+#include <Foundation/TCollection/TCollection_DataMap.gxx>
 

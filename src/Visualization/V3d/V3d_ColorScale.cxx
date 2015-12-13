@@ -15,7 +15,7 @@
 
 #include <V3d_LayerMgr.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <V3d_ColorScale.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(V3d_ColorScale)
@@ -40,7 +40,7 @@ IMPLEMENT_STANDARD_RTTI(V3d_ColorScale)
 #include <Aspect_TypeOfColorScaleData.hxx>
 #include <Aspect_TypeOfColorScalePosition.hxx>
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TColStd_SequenceOfExtendedString.hxx>
 #include <Font_NameOfFont.hxx>
 

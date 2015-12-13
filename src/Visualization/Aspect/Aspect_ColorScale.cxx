@@ -14,8 +14,8 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Quantity/Quantity_Color.hxx>
-#include <TCollection_ExtendedString.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TColStd_SequenceOfExtendedString.hxx>
 #include <Aspect_SequenceOfColor.hxx>
 #include <Aspect_ColorScale.hxx>
@@ -33,8 +33,8 @@ IMPLEMENT_STANDARD_RTTI(Aspect_ColorScale)
 #include <Aspect_TypeOfColorScaleData.hxx>
 #include <Aspect_TypeOfColorScalePosition.hxx>
 
-#include <TCollection_AsciiString.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <TColStd_SequenceOfExtendedString.hxx>
 
 #include <Precision.hxx>

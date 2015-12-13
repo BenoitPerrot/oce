@@ -33,7 +33,7 @@
 #include <TDF_LabelNode.hxx>
 #include <TDF_LabelNodePtr.hxx>
 #include <TDF_Tool.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Standard/Standard_ImmutableObject.hxx>
 
 

@@ -15,7 +15,7 @@
 
 #include <SelectMgr_IndexedDataMapOfOwnerCriterion.hxx>
 #include <SelectMgr_SortCriterion.hxx>
-#include <TCollection_CompareOfInteger.hxx>
+#include <Foundation/TCollection/TCollection_CompareOfInteger.hxx>
 
 // Purpose: Redefine CompareOfInteger from TCollection, to be used
 // in method SortResult from class ViewerSelector

@@ -152,7 +152,7 @@ private:
 };
 
 
-#include <TCollection_BasicMap.lxx>
+#include <Foundation/TCollection/TCollection_BasicMap.lxx>
 
 
 

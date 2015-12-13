@@ -15,5 +15,5 @@
 #define Array1Item_hxx <Foundation/Quantity/Quantity_Coefficient.hxx>
 #define TCollection_Array1 Quantity_Array1OfCoefficient
 #define TCollection_Array1_hxx <Foundation/Quantity/Quantity_Array1OfCoefficient.hxx>
-#include <TCollection_Array1.gxx>
+#include <Foundation/TCollection/TCollection_Array1.gxx>
 

@@ -36,7 +36,7 @@ IMPLEMENT_STANDARD_RTTI(MDataStd_IntPackedMapStorageDriver)
 #include <CDM_MessageDriver.hxx>
 #include <TColStd_MapIteratorOfPackedMapOfInteger.hxx>
 #include <TColStd_PackedMapOfInteger.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 //=======================================================================
 //function : MDataStd_IntPackedMapStorageDriver
 //purpose  : Constructor

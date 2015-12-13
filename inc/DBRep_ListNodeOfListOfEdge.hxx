@@ -11,8 +11,8 @@
 #include <Handle_DBRep_ListNodeOfListOfEdge.hxx>
 
 #include <Handle_DBRep_Edge.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class DBRep_Edge;
 class DBRep_ListOfEdge;
 class DBRep_ListIteratorOfListOfEdge;
@@ -58,7 +58,7 @@ private:
 #define TCollection_List DBRep_ListOfEdge
 #define TCollection_List_hxx <DBRep_ListOfEdge.hxx>
 
-#include <TCollection_ListNode.lxx>
+#include <Foundation/TCollection/TCollection_ListNode.lxx>
 
 #undef Item
 #undef Item_hxx

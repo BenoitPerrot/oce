@@ -43,5 +43,5 @@ IMPLEMENT_STANDARD_RTTI(XSDRAWSTLVRML_DataMapNodeOfElemNodesMap)
 #define TCollection_DataMapNode_Type_() XSDRAWSTLVRML_DataMapNodeOfElemNodesMap_Type_()
 #define TCollection_DataMap XSDRAWSTLVRML_ElemNodesMap
 #define TCollection_DataMap_hxx <XSDRAWSTLVRML_ElemNodesMap.hxx>
-#include <TCollection_DataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

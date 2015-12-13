@@ -24,7 +24,7 @@ IMPLEMENT_STANDARD_TYPE_END(StepVisual_MarkerMember)
 IMPLEMENT_DOWNCAST(StepVisual_MarkerMember,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(StepVisual_MarkerMember)
 #include <StepData_EnumTool.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 static StepData_EnumTool tool
   (".DOT.",".X.",".PLUS.",".ASTERISK.",".RING.",".SQUARE.",".TRIANGLE.");

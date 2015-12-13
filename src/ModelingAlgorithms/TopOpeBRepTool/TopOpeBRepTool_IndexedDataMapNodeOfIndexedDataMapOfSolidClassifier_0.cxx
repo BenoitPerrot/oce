@@ -41,5 +41,5 @@ IMPLEMENT_STANDARD_RTTI(TopOpeBRepTool_IndexedDataMapNodeOfIndexedDataMapOfSolid
 #define TCollection_IndexedDataMapNode_Type_() TopOpeBRepTool_IndexedDataMapNodeOfIndexedDataMapOfSolidClassifier_Type_()
 #define TCollection_IndexedDataMap TopOpeBRepTool_IndexedDataMapOfSolidClassifier
 #define TCollection_IndexedDataMap_hxx <TopOpeBRepTool_IndexedDataMapOfSolidClassifier.hxx>
-#include <TCollection_IndexedDataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_IndexedDataMapNode.gxx>
 

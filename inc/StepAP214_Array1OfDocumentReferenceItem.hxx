@@ -96,7 +96,7 @@ private:
 #define TCollection_Array1 StepAP214_Array1OfDocumentReferenceItem
 #define TCollection_Array1_hxx <StepAP214_Array1OfDocumentReferenceItem.hxx>
 
-#include <TCollection_Array1.lxx>
+#include <Foundation/TCollection/TCollection_Array1.lxx>
 
 #undef Array1Item
 #undef Array1Item_hxx

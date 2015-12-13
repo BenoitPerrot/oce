@@ -23,5 +23,5 @@
 #define TCollection_StdMapNode_Type_() TNaming_StdMapNodeOfMapOfNamedShape_Type_()
 #define TCollection_Map TNaming_MapOfNamedShape
 #define TCollection_Map_hxx <TNaming_MapOfNamedShape.hxx>
-#include <TCollection_Map.gxx>
+#include <Foundation/TCollection/TCollection_Map.gxx>
 

@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <TCollection_BaseSequence.hxx>
+#include <Foundation/TCollection/TCollection_BaseSequence.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Handle_TColStd_SequenceNodeOfSequenceOfHAsciiString.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
@@ -102,7 +102,7 @@ private:
 };
 
 #define SeqItem Handle(TCollection_HAsciiString)
-#define SeqItem_hxx <TCollection_HAsciiString.hxx>
+#define SeqItem_hxx <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #define TCollection_SequenceNode TColStd_SequenceNodeOfSequenceOfHAsciiString
 #define TCollection_SequenceNode_hxx <TColStd_SequenceNodeOfSequenceOfHAsciiString.hxx>
 #define Handle_TCollection_SequenceNode Handle_TColStd_SequenceNodeOfSequenceOfHAsciiString
@@ -110,7 +110,7 @@ private:
 #define TCollection_Sequence TColStd_SequenceOfHAsciiString
 #define TCollection_Sequence_hxx <TColStd_SequenceOfHAsciiString.hxx>
 
-#include <TCollection_Sequence.lxx>
+#include <Foundation/TCollection/TCollection_Sequence.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

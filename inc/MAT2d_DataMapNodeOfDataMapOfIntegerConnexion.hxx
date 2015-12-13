@@ -12,8 +12,8 @@
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_MAT2d_Connexion.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class MAT2d_Connexion;
 class TColStd_MapIntegerHasher;
 class MAT2d_DataMapOfIntegerConnexion;
@@ -67,7 +67,7 @@ private:
 #define TCollection_DataMap MAT2d_DataMapOfIntegerConnexion
 #define TCollection_DataMap_hxx <MAT2d_DataMapOfIntegerConnexion.hxx>
 
-#include <TCollection_DataMapNode.lxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

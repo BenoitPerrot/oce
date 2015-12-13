@@ -71,7 +71,7 @@ private:
 #define TCollection_List SelectBasics_ListOfBox2d
 #define TCollection_List_hxx <SelectBasics_ListOfBox2d.hxx>
 
-#include <TCollection_ListIterator.lxx>
+#include <Foundation/TCollection/TCollection_ListIterator.lxx>
 
 #undef Item
 #undef Item_hxx

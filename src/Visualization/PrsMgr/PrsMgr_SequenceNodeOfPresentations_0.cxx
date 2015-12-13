@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(PrsMgr_SequenceNodeOfPresentations)
 #define TCollection_SequenceNode_Type_() PrsMgr_SequenceNodeOfPresentations_Type_()
 #define TCollection_Sequence PrsMgr_Presentations
 #define TCollection_Sequence_hxx <PrsMgr_Presentations.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

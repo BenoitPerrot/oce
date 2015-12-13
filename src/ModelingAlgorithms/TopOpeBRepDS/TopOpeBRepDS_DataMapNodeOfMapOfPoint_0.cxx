@@ -43,5 +43,5 @@ IMPLEMENT_STANDARD_RTTI(TopOpeBRepDS_DataMapNodeOfMapOfPoint)
 #define TCollection_DataMapNode_Type_() TopOpeBRepDS_DataMapNodeOfMapOfPoint_Type_()
 #define TCollection_DataMap TopOpeBRepDS_MapOfPoint
 #define TCollection_DataMap_hxx <TopOpeBRepDS_MapOfPoint.hxx>
-#include <TCollection_DataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

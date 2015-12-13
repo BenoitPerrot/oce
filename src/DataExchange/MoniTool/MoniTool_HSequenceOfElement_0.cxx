@@ -36,5 +36,5 @@ IMPLEMENT_STANDARD_RTTI(MoniTool_HSequenceOfElement)
 #define TCollection_HSequence_hxx <MoniTool_HSequenceOfElement.hxx>
 #define Handle_TCollection_HSequence Handle_MoniTool_HSequenceOfElement
 #define TCollection_HSequence_Type_() MoniTool_HSequenceOfElement_Type_()
-#include <TCollection_HSequence.gxx>
+#include <Foundation/TCollection/TCollection_HSequence.gxx>
 

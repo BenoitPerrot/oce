@@ -26,5 +26,5 @@
 #define TCollection_IndexedDataMapNode_Type_() ChFiDS_IndexedDataMapNodeOfIndexedDataMapOfVertexListOfStripe_Type_()
 #define TCollection_IndexedDataMap ChFiDS_IndexedDataMapOfVertexListOfStripe
 #define TCollection_IndexedDataMap_hxx <ChFiDS_IndexedDataMapOfVertexListOfStripe.hxx>
-#include <TCollection_IndexedDataMap.gxx>
+#include <Foundation/TCollection/TCollection_IndexedDataMap.gxx>
 

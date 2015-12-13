@@ -19,7 +19,7 @@
 #include <InterfaceGraphic_Graphic3d.hxx>
 #include <Aspect_TypeOfMarker.hxx>
 #include <Graphic3d_CAspectMarker.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 #include <OpenGl_Element.hxx>
 #include <Handle_OpenGl_PointSprite.hxx>

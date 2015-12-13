@@ -11,8 +11,8 @@
 #include <Handle_TDF_DataMapNodeOfAttributeDataMap.hxx>
 
 #include <Handle_TDF_Attribute.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class TDF_Attribute;
 class TColStd_MapTransientHasher;
 class TDF_AttributeDataMap;
@@ -66,7 +66,7 @@ private:
 #define TCollection_DataMap TDF_AttributeDataMap
 #define TCollection_DataMap_hxx <TDF_AttributeDataMap.hxx>
 
-#include <TCollection_DataMapNode.lxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

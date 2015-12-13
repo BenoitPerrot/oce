@@ -78,7 +78,7 @@
 #include <Geom_CartesianPoint.hxx>
 
 // Used in I-DEAS-like STP processing (ssv; 15.11.2010)
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 //#define DEBUG
 

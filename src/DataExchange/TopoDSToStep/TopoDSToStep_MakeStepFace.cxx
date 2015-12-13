@@ -61,7 +61,7 @@
 #include <Geom2d_Parabola.hxx>
 #include <Geom2d_Line.hxx>
 
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 #include <StepRepr_DefinitionalRepresentation.hxx>
 #include <StepRepr_HArray1OfRepresentationItem.hxx>
@@ -89,7 +89,7 @@
 
 #include <TColStd_SequenceOfTransient.hxx>
 #include <TransferBRep_ShapeMapper.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 #include <ShapeAlgo.hxx>
 #include <ShapeAlgo_AlgoContainer.hxx>

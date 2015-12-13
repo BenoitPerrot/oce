@@ -12,8 +12,8 @@
 
 #include <IntTools_SurfaceRangeSample.hxx>
 #include <Bnd_Box.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class IntTools_SurfaceRangeSample;
 class Bnd_Box;
 class IntTools_SurfaceRangeSampleMapHasher;
@@ -68,7 +68,7 @@ private:
 #define TCollection_DataMap IntTools_DataMapOfSurfaceSampleBox
 #define TCollection_DataMap_hxx <IntTools_DataMapOfSurfaceSampleBox.hxx>
 
-#include <TCollection_DataMapNode.lxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

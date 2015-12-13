@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Expr_GeneralExpression.hxx>
 #include <Expr_NamedUnknown.hxx>
 #include <Expr_Array1OfNamedUnknown.hxx>

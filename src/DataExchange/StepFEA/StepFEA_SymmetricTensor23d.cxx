@@ -20,7 +20,7 @@
 #include <TColStd_HArray1OfReal.hxx>
 #include <StepFEA_SymmetricTensor23d.hxx>
 #include <StepFEA_SymmetricTensor23dMember.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 //=======================================================================
 //function : StepFEA_SymmetricTensor23d

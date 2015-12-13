@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(Convert_SequenceNodeOfSequenceOfArray1OfPoles)
 #define TCollection_SequenceNode_Type_() Convert_SequenceNodeOfSequenceOfArray1OfPoles_Type_()
 #define TCollection_Sequence Convert_SequenceOfArray1OfPoles
 #define TCollection_Sequence_hxx <Convert_SequenceOfArray1OfPoles.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

@@ -26,5 +26,5 @@
 #define TCollection_IndexedDataMapNode_Type_() BRepFill_IndexedDataMapNodeOfIndexedDataMapOfOrientedShapeListOfShape_Type_()
 #define TCollection_IndexedDataMap BRepFill_IndexedDataMapOfOrientedShapeListOfShape
 #define TCollection_IndexedDataMap_hxx <BRepFill_IndexedDataMapOfOrientedShapeListOfShape.hxx>
-#include <TCollection_IndexedDataMap.gxx>
+#include <Foundation/TCollection/TCollection_IndexedDataMap.gxx>
 

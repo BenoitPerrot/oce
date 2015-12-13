@@ -43,5 +43,5 @@ IMPLEMENT_STANDARD_RTTI(MAT2d_DataMapNodeOfDataMapOfIntegerConnexion)
 #define TCollection_DataMapNode_Type_() MAT2d_DataMapNodeOfDataMapOfIntegerConnexion_Type_()
 #define TCollection_DataMap MAT2d_DataMapOfIntegerConnexion
 #define TCollection_DataMap_hxx <MAT2d_DataMapOfIntegerConnexion.hxx>
-#include <TCollection_DataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

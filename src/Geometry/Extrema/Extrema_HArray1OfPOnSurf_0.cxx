@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(Extrema_HArray1OfPOnSurf)
 #define TCollection_HArray1_hxx <Extrema_HArray1OfPOnSurf.hxx>
 #define Handle_TCollection_HArray1 Handle_Extrema_HArray1OfPOnSurf
 #define TCollection_HArray1_Type_() Extrema_HArray1OfPOnSurf_Type_()
-#include <TCollection_HArray1.gxx>
+#include <Foundation/TCollection/TCollection_HArray1.gxx>
 

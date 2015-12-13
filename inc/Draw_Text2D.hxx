@@ -12,7 +12,7 @@
 
 #include <gp_Pnt2d.hxx>
 #include <Draw_Color.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Draw_Drawable2D.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>

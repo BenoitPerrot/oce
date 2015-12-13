@@ -90,12 +90,12 @@
 #define MDTV_DEB_SHELL
 #endif
 #ifdef OCCT_DEBUG
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TDF_Tool.hxx>
 #include <BRepTools.hxx>
 #endif
 #ifdef OCCT_DEBUG
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TDF_Tool.hxx>
 #include <TDF_ChildIterator.hxx>
 #include <TDF_MapIteratorOfLabelMap.hxx>

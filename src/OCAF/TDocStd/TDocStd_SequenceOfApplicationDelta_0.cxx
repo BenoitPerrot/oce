@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() TDocStd_SequenceNodeOfSequenceOfApplicationDelta_Type_()
 #define TCollection_Sequence TDocStd_SequenceOfApplicationDelta
 #define TCollection_Sequence_hxx <TDocStd_SequenceOfApplicationDelta.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

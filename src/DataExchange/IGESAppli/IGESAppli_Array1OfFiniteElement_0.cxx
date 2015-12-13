@@ -16,5 +16,5 @@
 #define Array1Item_hxx <IGESAppli_FiniteElement.hxx>
 #define TCollection_Array1 IGESAppli_Array1OfFiniteElement
 #define TCollection_Array1_hxx <IGESAppli_Array1OfFiniteElement.hxx>
-#include <TCollection_Array1.gxx>
+#include <Foundation/TCollection/TCollection_Array1.gxx>
 

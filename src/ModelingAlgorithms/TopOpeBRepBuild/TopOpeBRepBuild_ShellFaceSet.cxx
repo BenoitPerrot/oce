@@ -22,7 +22,7 @@ static TCollection_AsciiString PRODINS("dins ");
 
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Solid.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <TopOpeBRepBuild_ShellFaceSet.hxx>
 #include <TopOpeBRepBuild_Builder.hxx>

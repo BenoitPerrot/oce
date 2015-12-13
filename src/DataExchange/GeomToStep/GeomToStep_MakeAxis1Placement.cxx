@@ -32,7 +32,7 @@
 #include <GeomToStep_MakeCartesianPoint.hxx>
 #include <StepGeom_Direction.hxx>
 #include <GeomToStep_MakeDirection.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 //=============================================================================
 // Creation d' un axis1_placement de prostep a partir d' un Ax1 de gp

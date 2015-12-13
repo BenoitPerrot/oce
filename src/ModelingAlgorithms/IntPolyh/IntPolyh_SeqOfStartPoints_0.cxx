@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() IntPolyh_SequenceNodeOfSeqOfStartPoints_Type_()
 #define TCollection_Sequence IntPolyh_SeqOfStartPoints
 #define TCollection_Sequence_hxx <IntPolyh_SeqOfStartPoints.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

@@ -23,7 +23,7 @@
 #include <TDocStd_Document.hxx>
 #include <TDF_Label.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TDF_LabelMap.hxx>
 #include <TDF_MapIteratorOfLabelMap.hxx>
 #include <TDF_LabelList.hxx>

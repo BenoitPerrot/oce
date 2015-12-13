@@ -12,8 +12,8 @@
 
 #include <TopoDS_Shape.hxx>
 #include <XCAFPrs_Style.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class TopoDS_Shape;
 class XCAFPrs_Style;
 class TopTools_ShapeMapHasher;
@@ -68,7 +68,7 @@ private:
 #define TCollection_DataMap XCAFPrs_DataMapOfShapeStyle
 #define TCollection_DataMap_hxx <XCAFPrs_DataMapOfShapeStyle.hxx>
 
-#include <TCollection_DataMapNode.lxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

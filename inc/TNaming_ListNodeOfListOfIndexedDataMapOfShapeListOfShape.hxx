@@ -11,8 +11,8 @@
 #include <Handle_TNaming_ListNodeOfListOfIndexedDataMapOfShapeListOfShape.hxx>
 
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class TopTools_IndexedDataMapOfShapeListOfShape;
 class TNaming_ListOfIndexedDataMapOfShapeListOfShape;
 class TNaming_ListIteratorOfListOfIndexedDataMapOfShapeListOfShape;
@@ -58,7 +58,7 @@ private:
 #define TCollection_List TNaming_ListOfIndexedDataMapOfShapeListOfShape
 #define TCollection_List_hxx <TNaming_ListOfIndexedDataMapOfShapeListOfShape.hxx>
 
-#include <TCollection_ListNode.lxx>
+#include <Foundation/TCollection/TCollection_ListNode.lxx>
 
 #undef Item
 #undef Item_hxx

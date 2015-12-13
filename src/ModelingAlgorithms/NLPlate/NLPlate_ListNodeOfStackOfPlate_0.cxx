@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(NLPlate_ListNodeOfStackOfPlate)
 #define TCollection_ListNode_Type_() NLPlate_ListNodeOfStackOfPlate_Type_()
 #define TCollection_List NLPlate_StackOfPlate
 #define TCollection_List_hxx <NLPlate_StackOfPlate.hxx>
-#include <TCollection_ListNode.gxx>
+#include <Foundation/TCollection/TCollection_ListNode.gxx>
 

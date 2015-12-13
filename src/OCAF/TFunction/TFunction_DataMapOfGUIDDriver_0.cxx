@@ -27,5 +27,5 @@
 #define TCollection_DataMapNode_Type_() TFunction_DataMapNodeOfDataMapOfGUIDDriver_Type_()
 #define TCollection_DataMap TFunction_DataMapOfGUIDDriver
 #define TCollection_DataMap_hxx <TFunction_DataMapOfGUIDDriver.hxx>
-#include <TCollection_DataMap.gxx>
+#include <Foundation/TCollection/TCollection_DataMap.gxx>
 

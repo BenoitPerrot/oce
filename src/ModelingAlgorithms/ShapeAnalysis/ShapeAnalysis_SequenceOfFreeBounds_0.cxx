@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() ShapeAnalysis_SequenceNodeOfSequenceOfFreeBounds_Type_()
 #define TCollection_Sequence ShapeAnalysis_SequenceOfFreeBounds
 #define TCollection_Sequence_hxx <ShapeAnalysis_SequenceOfFreeBounds.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

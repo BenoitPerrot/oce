@@ -70,7 +70,7 @@
 #include <stdio.h>
 
 #include <Draw_Interpretor.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Draw_PluginMacro.hxx>
 
 // avoid warnings on 'extern "C"' functions returning C++ classes
@@ -169,7 +169,7 @@ void GetTypeAndSignfromString (const char* name,AIS_KindOfInteractive& TheType,S
 #include <DBRep.hxx>
 
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <V3d_Viewer.hxx>
 #include <V3d_View.hxx>
 #include <V3d.hxx>

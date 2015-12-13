@@ -52,7 +52,7 @@ IMPLEMENT_STANDARD_RTTI(V3d_PositionLight)
 #include <gp_Vec.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Trsf.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 V3d_PositionLight::V3d_PositionLight(const Handle(V3d_Viewer)& VM) : V3d_Light(VM) {
 }

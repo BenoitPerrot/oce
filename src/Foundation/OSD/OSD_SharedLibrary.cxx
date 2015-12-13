@@ -190,7 +190,7 @@ void OSD_SharedLibrary::Destroy() {
 
 #include <Foundation/OSD/OSD_Path.hxx>
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 
 static DWORD              lastDLLError;

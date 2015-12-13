@@ -107,7 +107,7 @@ private:
 #define TCollection_List TopoDS_ListOfShape
 #define TCollection_List_hxx <TopoDS_ListOfShape.hxx>
 
-#include <TCollection_List.lxx>
+#include <Foundation/TCollection/TCollection_List.lxx>
 
 #undef Item
 #undef Item_hxx

@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <QADNaming.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TDF_Data.hxx>
 #include <TDF_ListIteratorOfLabelList.hxx>
 #include <TDF_LabelList.hxx>

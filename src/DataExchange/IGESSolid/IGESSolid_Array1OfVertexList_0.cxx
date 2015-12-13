@@ -16,5 +16,5 @@
 #define Array1Item_hxx <IGESSolid_VertexList.hxx>
 #define TCollection_Array1 IGESSolid_Array1OfVertexList
 #define TCollection_Array1_hxx <IGESSolid_Array1OfVertexList.hxx>
-#include <TCollection_Array1.gxx>
+#include <Foundation/TCollection/TCollection_Array1.gxx>
 

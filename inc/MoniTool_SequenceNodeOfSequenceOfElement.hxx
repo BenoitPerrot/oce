@@ -11,8 +11,8 @@
 #include <Handle_MoniTool_SequenceNodeOfSequenceOfElement.hxx>
 
 #include <Handle_MoniTool_Element.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class MoniTool_Element;
 class MoniTool_SequenceOfElement;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence MoniTool_SequenceOfElement
 #define TCollection_Sequence_hxx <MoniTool_SequenceOfElement.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

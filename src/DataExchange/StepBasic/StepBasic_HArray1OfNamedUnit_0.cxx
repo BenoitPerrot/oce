@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(StepBasic_HArray1OfNamedUnit)
 #define TCollection_HArray1_hxx <StepBasic_HArray1OfNamedUnit.hxx>
 #define Handle_TCollection_HArray1 Handle_StepBasic_HArray1OfNamedUnit
 #define TCollection_HArray1_Type_() StepBasic_HArray1OfNamedUnit_Type_()
-#include <TCollection_HArray1.gxx>
+#include <Foundation/TCollection/TCollection_HArray1.gxx>
 

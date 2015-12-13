@@ -13,7 +13,7 @@
 
 #include <IFSelect_IntParam.hxx>
 #include <Interface_InterfaceError.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Interface_Graph.hxx>
 #include <IFGraph_SubPartsIterator.hxx>
 #include <IFSelect_DispPerFiles.hxx>

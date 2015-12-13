@@ -22,5 +22,5 @@
 #define TCollection_ListNode_Type_() DDF_ListNodeOfTransactionStack_Type_()
 #define TCollection_List DDF_TransactionStack
 #define TCollection_List_hxx <DDF_TransactionStack.hxx>
-#include <TCollection_ListIterator.gxx>
+#include <Foundation/TCollection/TCollection_ListIterator.gxx>
 

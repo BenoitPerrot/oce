@@ -11,8 +11,8 @@
 #include <Handle_SelectBasics_SequenceNodeOfSequenceOfOwner.hxx>
 
 #include <Handle_SelectBasics_EntityOwner.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class SelectBasics_EntityOwner;
 class SelectBasics_SequenceOfOwner;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence SelectBasics_SequenceOfOwner
 #define TCollection_Sequence_hxx <SelectBasics_SequenceOfOwner.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

@@ -12,7 +12,7 @@
 
 #include <Handle_IFSelect_Signature.hxx>
 #include <Handle_IFSelect_SignCounter.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <TColStd_SequenceOfAsciiString.hxx>
 #include <TColStd_SequenceOfInteger.hxx>

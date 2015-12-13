@@ -44,5 +44,5 @@ IMPLEMENT_STANDARD_RTTI(XmlMDF_DataMapNodeOfTypeADriverMap)
 #define TCollection_DataMapNode_Type_() XmlMDF_DataMapNodeOfTypeADriverMap_Type_()
 #define TCollection_DataMap XmlMDF_TypeADriverMap
 #define TCollection_DataMap_hxx <XmlMDF_TypeADriverMap.hxx>
-#include <TCollection_DataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

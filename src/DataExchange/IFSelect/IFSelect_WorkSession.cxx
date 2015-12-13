@@ -25,7 +25,7 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <IFSelect_Signature.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Interface_Graph.hxx>
 #include <TColStd_HSequenceOfTransient.hxx>
 #include <Interface_CheckIterator.hxx>
@@ -33,7 +33,7 @@
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <TColStd_HSequenceOfHAsciiString.hxx>
 #include <IFSelect_IntParam.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <IFSelect_Selection.hxx>
 #include <Interface_EntityIterator.hxx>
 #include <IFSelect_SelectionIterator.hxx>

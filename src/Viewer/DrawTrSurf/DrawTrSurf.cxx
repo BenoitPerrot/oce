@@ -55,7 +55,7 @@
 #include <gp_Ax2.hxx>
 #include <gp_Trsf2d.hxx>
 #include <Poly.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 static Draw_Color       PntColor(Draw_rouge);
 static Draw_Color       CurvColor(Draw_jaune);

@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() TColgp_SequenceNodeOfSequenceOfXYZ_Type_()
 #define TCollection_Sequence TColgp_SequenceOfXYZ
 #define TCollection_Sequence_hxx <TColgp_SequenceOfXYZ.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

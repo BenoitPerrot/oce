@@ -12,7 +12,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 
 inline TCollection_MapNode::TCollection_MapNode(const TCollection_MapNodePtr& n) 
 : myNext(n) 

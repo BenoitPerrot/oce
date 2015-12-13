@@ -12,8 +12,8 @@
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_SelectBasics_SensitiveEntity.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class SelectBasics_SensitiveEntity;
 class TColStd_MapIntegerHasher;
 class SelectMgr_DataMapOfIntegerSensitive;
@@ -67,7 +67,7 @@ private:
 #define TCollection_DataMap SelectMgr_DataMapOfIntegerSensitive
 #define TCollection_DataMap_hxx <SelectMgr_DataMapOfIntegerSensitive.hxx>
 
-#include <TCollection_DataMapNode.lxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

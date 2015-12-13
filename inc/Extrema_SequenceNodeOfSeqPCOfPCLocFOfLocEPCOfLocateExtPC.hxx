@@ -11,8 +11,8 @@
 #include <Handle_Extrema_SequenceNodeOfSeqPCOfPCLocFOfLocEPCOfLocateExtPC.hxx>
 
 #include <Extrema_POnCurv.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class Extrema_POnCurv;
 class Extrema_SeqPCOfPCLocFOfLocEPCOfLocateExtPC;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence Extrema_SeqPCOfPCLocFOfLocEPCOfLocateExtPC
 #define TCollection_Sequence_hxx <Extrema_SeqPCOfPCLocFOfLocEPCOfLocateExtPC.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(ChFiDS_SecHArray1)
 #define TCollection_HArray1_hxx <ChFiDS_SecHArray1.hxx>
 #define Handle_TCollection_HArray1 Handle_ChFiDS_SecHArray1
 #define TCollection_HArray1_Type_() ChFiDS_SecHArray1_Type_()
-#include <TCollection_HArray1.gxx>
+#include <Foundation/TCollection/TCollection_HArray1.gxx>
 

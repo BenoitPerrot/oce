@@ -27,5 +27,5 @@
 #define TCollection_DataMapNode_Type_() Draft_DataMapNodeOfDataMapOfFaceFaceInfo_Type_()
 #define TCollection_DataMap Draft_DataMapOfFaceFaceInfo
 #define TCollection_DataMap_hxx <Draft_DataMapOfFaceFaceInfo.hxx>
-#include <TCollection_DataMapIterator.gxx>
+#include <Foundation/TCollection/TCollection_DataMapIterator.gxx>
 

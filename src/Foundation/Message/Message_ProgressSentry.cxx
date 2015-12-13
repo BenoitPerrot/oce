@@ -13,7 +13,7 @@
 
 #include <Foundation/Message/Message_ProgressIndicator.hxx>
 #include <Foundation/Message/Message_ProgressSentry.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 //=======================================================================
 //function : Message_ProgressSentry

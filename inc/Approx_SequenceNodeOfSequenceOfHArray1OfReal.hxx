@@ -11,8 +11,8 @@
 #include <Handle_Approx_SequenceNodeOfSequenceOfHArray1OfReal.hxx>
 
 #include <Handle_TColStd_HArray1OfReal.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class TColStd_HArray1OfReal;
 class Approx_SequenceOfHArray1OfReal;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence Approx_SequenceOfHArray1OfReal
 #define TCollection_Sequence_hxx <Approx_SequenceOfHArray1OfReal.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

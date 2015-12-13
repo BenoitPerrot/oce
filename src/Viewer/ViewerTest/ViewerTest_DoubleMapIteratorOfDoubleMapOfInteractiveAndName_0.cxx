@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TColStd_MapTransientHasher.hxx>
 #include <ViewerTest_DoubleMapOfInteractiveAndName.hxx>
 #include <ViewerTest_DoubleMapNodeOfDoubleMapOfInteractiveAndName.hxx>
@@ -16,11 +16,11 @@
 #define TheKey1 Handle(Standard_Transient)
 #define TheKey1_hxx <Foundation/Standard/Standard_Transient.hxx>
 #define TheKey2 TCollection_AsciiString
-#define TheKey2_hxx <TCollection_AsciiString.hxx>
+#define TheKey2_hxx <Foundation/TCollection/TCollection_AsciiString.hxx>
 #define Hasher1 TColStd_MapTransientHasher
 #define Hasher1_hxx <TColStd_MapTransientHasher.hxx>
 #define Hasher2 TCollection_AsciiString
-#define Hasher2_hxx <TCollection_AsciiString.hxx>
+#define Hasher2_hxx <Foundation/TCollection/TCollection_AsciiString.hxx>
 #define TCollection_DoubleMapNode ViewerTest_DoubleMapNodeOfDoubleMapOfInteractiveAndName
 #define TCollection_DoubleMapNode_hxx <ViewerTest_DoubleMapNodeOfDoubleMapOfInteractiveAndName.hxx>
 #define TCollection_DoubleMapIterator ViewerTest_DoubleMapIteratorOfDoubleMapOfInteractiveAndName
@@ -29,5 +29,5 @@
 #define TCollection_DoubleMapNode_Type_() ViewerTest_DoubleMapNodeOfDoubleMapOfInteractiveAndName_Type_()
 #define TCollection_DoubleMap ViewerTest_DoubleMapOfInteractiveAndName
 #define TCollection_DoubleMap_hxx <ViewerTest_DoubleMapOfInteractiveAndName.hxx>
-#include <TCollection_DoubleMapIterator.gxx>
+#include <Foundation/TCollection/TCollection_DoubleMapIterator.gxx>
 

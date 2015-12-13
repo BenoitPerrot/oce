@@ -43,5 +43,5 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_DataMapNodeOfDataMapOfIntegerOwner)
 #define TCollection_DataMapNode_Type_() MeshVS_DataMapNodeOfDataMapOfIntegerOwner_Type_()
 #define TCollection_DataMap MeshVS_DataMapOfIntegerOwner
 #define TCollection_DataMap_hxx <MeshVS_DataMapOfIntegerOwner.hxx>
-#include <TCollection_DataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

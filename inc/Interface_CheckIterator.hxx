@@ -13,7 +13,7 @@
 #include <Handle_Interface_HSequenceOfCheck.hxx>
 #include <Handle_TColStd_HSequenceOfInteger.hxx>
 #include <Handle_Interface_InterfaceModel.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Handle_Interface_IntVal.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_Interface_Check.hxx>

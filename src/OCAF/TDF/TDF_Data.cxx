@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_TYPE_END(TDF_Data)
 IMPLEMENT_DOWNCAST(TDF_Data,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TDF_Data)
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 #include <TDF_Attribute.hxx>
 #include <TDF_AttributeIterator.hxx>

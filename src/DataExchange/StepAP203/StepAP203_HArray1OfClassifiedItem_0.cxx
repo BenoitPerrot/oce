@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(StepAP203_HArray1OfClassifiedItem)
 #define TCollection_HArray1_hxx <StepAP203_HArray1OfClassifiedItem.hxx>
 #define Handle_TCollection_HArray1 Handle_StepAP203_HArray1OfClassifiedItem
 #define TCollection_HArray1_Type_() StepAP203_HArray1OfClassifiedItem_Type_()
-#include <TCollection_HArray1.gxx>
+#include <Foundation/TCollection/TCollection_HArray1.gxx>
 

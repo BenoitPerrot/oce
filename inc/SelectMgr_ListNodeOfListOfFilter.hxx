@@ -11,8 +11,8 @@
 #include <Handle_SelectMgr_ListNodeOfListOfFilter.hxx>
 
 #include <Handle_SelectMgr_Filter.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class SelectMgr_Filter;
 class SelectMgr_ListOfFilter;
 class SelectMgr_ListIteratorOfListOfFilter;
@@ -58,7 +58,7 @@ private:
 #define TCollection_List SelectMgr_ListOfFilter
 #define TCollection_List_hxx <SelectMgr_ListOfFilter.hxx>
 
-#include <TCollection_ListNode.lxx>
+#include <Foundation/TCollection/TCollection_ListNode.lxx>
 
 #undef Item
 #undef Item_hxx

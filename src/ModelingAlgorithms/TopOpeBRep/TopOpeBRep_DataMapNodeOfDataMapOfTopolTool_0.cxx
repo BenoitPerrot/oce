@@ -44,5 +44,5 @@ IMPLEMENT_STANDARD_RTTI(TopOpeBRep_DataMapNodeOfDataMapOfTopolTool)
 #define TCollection_DataMapNode_Type_() TopOpeBRep_DataMapNodeOfDataMapOfTopolTool_Type_()
 #define TCollection_DataMap TopOpeBRep_DataMapOfTopolTool
 #define TCollection_DataMap_hxx <TopOpeBRep_DataMapOfTopolTool.hxx>
-#include <TCollection_DataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

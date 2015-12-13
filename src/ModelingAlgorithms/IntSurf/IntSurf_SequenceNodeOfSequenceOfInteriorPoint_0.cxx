@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(IntSurf_SequenceNodeOfSequenceOfInteriorPoint)
 #define TCollection_SequenceNode_Type_() IntSurf_SequenceNodeOfSequenceOfInteriorPoint_Type_()
 #define TCollection_Sequence IntSurf_SequenceOfInteriorPoint
 #define TCollection_Sequence_hxx <IntSurf_SequenceOfInteriorPoint.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

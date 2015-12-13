@@ -108,7 +108,7 @@ private:
 #define TCollection_List ChFiDS_ListOfHElSpine
 #define TCollection_List_hxx <ChFiDS_ListOfHElSpine.hxx>
 
-#include <TCollection_List.lxx>
+#include <Foundation/TCollection/TCollection_List.lxx>
 
 #undef Item
 #undef Item_hxx

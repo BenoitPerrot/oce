@@ -26,5 +26,5 @@
 #define TCollection_DataMapNode_Type_() MAT2d_DataMapNodeOfDataMapOfIntegerConnexion_Type_()
 #define TCollection_DataMap MAT2d_DataMapOfIntegerConnexion
 #define TCollection_DataMap_hxx <MAT2d_DataMapOfIntegerConnexion.hxx>
-#include <TCollection_DataMapIterator.gxx>
+#include <Foundation/TCollection/TCollection_DataMapIterator.gxx>
 

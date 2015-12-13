@@ -15,7 +15,7 @@
 
 #include <XSControl_WorkSession.hxx>
 #include <TDocStd_Document.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TDF_LabelSequence.hxx>
 #include <TopoDS_Shape.hxx>
 #include <XCAFPrs_DataMapOfShapeStyle.hxx>
@@ -33,7 +33,7 @@
 #include <Transfer_FinderProcess.hxx>
 #include <IGESGraph_Color.hxx>
 #include <IGESCAFControl.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <TopoDS_Iterator.hxx>
 #include <XCAFDoc_DocumentTool.hxx>
 #include <TDF_Label.hxx>
@@ -41,7 +41,7 @@
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <XCAFDoc_LayerTool.hxx>
 #include <IGESGraph_DefinitionLevel.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TopExp_Explorer.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Face.hxx>

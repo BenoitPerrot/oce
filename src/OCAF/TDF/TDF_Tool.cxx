@@ -24,7 +24,7 @@
 #include <TDF_Label.hxx>
 #include <TDF_IDFilter.hxx>
 #include <TDF_AttributeMap.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TColStd_ListOfInteger.hxx>
 #include <TDF_Data.hxx>
 #include <TDF_LabelList.hxx>

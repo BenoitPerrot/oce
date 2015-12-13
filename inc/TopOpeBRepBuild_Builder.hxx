@@ -28,7 +28,7 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <TopOpeBRepTool_ShapeClassifier.hxx>
 #include <TopTools_MapOfShape.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TopTools_IndexedDataMapOfShapeShape.hxx>
 #include <TopTools_IndexedMapOfOrientedShape.hxx>
 #include <TopAbs_ShapeEnum.hxx>

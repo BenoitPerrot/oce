@@ -11,8 +11,8 @@
 #include <Handle_DBRep_ListNodeOfListOfHideData.hxx>
 
 #include <DBRep_HideData.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class DBRep_HideData;
 class DBRep_ListOfHideData;
 class DBRep_ListIteratorOfListOfHideData;
@@ -58,7 +58,7 @@ private:
 #define TCollection_List DBRep_ListOfHideData
 #define TCollection_List_hxx <DBRep_ListOfHideData.hxx>
 
-#include <TCollection_ListNode.lxx>
+#include <Foundation/TCollection/TCollection_ListNode.lxx>
 
 #undef Item
 #undef Item_hxx

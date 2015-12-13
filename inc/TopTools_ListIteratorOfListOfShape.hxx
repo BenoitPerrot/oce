@@ -71,7 +71,7 @@ private:
 #define TCollection_List TopTools_ListOfShape
 #define TCollection_List_hxx <TopTools_ListOfShape.hxx>
 
-#include <TCollection_ListIterator.lxx>
+#include <Foundation/TCollection/TCollection_ListIterator.lxx>
 
 #undef Item
 #undef Item_hxx

@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <StepVisual_PlanarExtent.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepVisual_HArray1OfTextOrCharacter.hxx>
 #include <StepVisual_CompositeTextWithExtent.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

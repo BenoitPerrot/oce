@@ -39,7 +39,7 @@
 
 #include <TColStd_SequenceOfTransient.hxx>
 #include <TransferBRep_ShapeMapper.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 #include <Foundation/Message/Message_ProgressIndicator.hxx>
 

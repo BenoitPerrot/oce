@@ -57,7 +57,7 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_Controller)
 #include <APIHeaderSection_EditHeader.hxx>
 #include <IFSelect_EditForm.hxx>
 
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 #include <Interface_Static.hxx>
 #include <Interface_Macros.hxx>

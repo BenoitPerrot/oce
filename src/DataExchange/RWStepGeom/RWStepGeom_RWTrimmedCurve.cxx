@@ -29,7 +29,7 @@
 
 #include <StepGeom_TrimmedCurve.hxx>
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 
 // --- Enum : TrimmingPreference ---

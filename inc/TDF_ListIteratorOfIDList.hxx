@@ -71,7 +71,7 @@ private:
 #define TCollection_List TDF_IDList
 #define TCollection_List_hxx <TDF_IDList.hxx>
 
-#include <TCollection_ListIterator.lxx>
+#include <Foundation/TCollection/TCollection_ListIterator.lxx>
 
 #undef Item
 #undef Item_hxx

@@ -20,7 +20,7 @@
 #include <Graphic3d_AspectFillArea3d.hxx>
 #include <Graphic3d_AspectText3d.hxx>
 #include <Graphic3d_AspectMarker3d.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Graphic3d_ArrayOfPrimitives.hxx>
 #include <gp_Ax2.hxx>
 #include <Graphic3d_Group.hxx>
@@ -43,7 +43,7 @@ IMPLEMENT_STANDARD_RTTI(Graphic3d_Group)
 #include <Foundation/Message/Message.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <Foundation/NCollection/NCollection_String.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 #include <Graphic3d_CStructure.hxx>
 #include <Graphic3d_Structure.pxx>

@@ -16,5 +16,5 @@
 #define Array1Item_hxx <StepFEA_ElementRepresentation.hxx>
 #define TCollection_Array1 StepFEA_Array1OfElementRepresentation
 #define TCollection_Array1_hxx <StepFEA_Array1OfElementRepresentation.hxx>
-#include <TCollection_Array1.gxx>
+#include <Foundation/TCollection/TCollection_Array1.gxx>
 

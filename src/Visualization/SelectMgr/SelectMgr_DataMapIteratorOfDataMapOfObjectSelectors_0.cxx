@@ -27,5 +27,5 @@
 #define TCollection_DataMapNode_Type_() SelectMgr_DataMapNodeOfDataMapOfObjectSelectors_Type_()
 #define TCollection_DataMap SelectMgr_DataMapOfObjectSelectors
 #define TCollection_DataMap_hxx <SelectMgr_DataMapOfObjectSelectors.hxx>
-#include <TCollection_DataMapIterator.gxx>
+#include <Foundation/TCollection/TCollection_DataMapIterator.gxx>
 

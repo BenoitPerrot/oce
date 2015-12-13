@@ -15,7 +15,7 @@
 #ifndef WNT
 
 #include <Foundation/OSD/OSD_OSDError.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Quantity/Quantity_Date.hxx>
 #include <Foundation/OSD/OSD_Path.hxx>
 #include <Foundation/OSD/OSD_Process.hxx>
@@ -212,7 +212,7 @@ Standard_Integer OSD_Process::Error()const{
 #include <Foundation/OSD/OSD_Path.hxx>
 #include <Foundation/Quantity/Quantity_Date.hxx>
 #include <Foundation/Standard/Standard_PExtCharacter.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 
 #include <Foundation/OSD/OSD_WNT_1.hxx>
 #include <lmcons.h> /// pour UNLEN  ( see MSDN about GetUserName() )

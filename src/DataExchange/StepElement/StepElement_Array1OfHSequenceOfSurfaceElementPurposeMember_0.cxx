@@ -16,5 +16,5 @@
 #define Array1Item_hxx <StepElement_HSequenceOfSurfaceElementPurposeMember.hxx>
 #define TCollection_Array1 StepElement_Array1OfHSequenceOfSurfaceElementPurposeMember
 #define TCollection_Array1_hxx <StepElement_Array1OfHSequenceOfSurfaceElementPurposeMember.hxx>
-#include <TCollection_Array1.gxx>
+#include <Foundation/TCollection/TCollection_Array1.gxx>
 

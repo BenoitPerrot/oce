@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <XmlMDF_ADriverTable.hxx>
 #include <CDM_MessageDriver.hxx>
 #include <XmlXCAFDrivers_DocumentStorageDriver.hxx>

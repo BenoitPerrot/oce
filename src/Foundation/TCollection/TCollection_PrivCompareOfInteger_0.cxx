@@ -3,13 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TCollection_PrivCompareOfInteger.hxx>
+#include <Foundation/TCollection/TCollection_PrivCompareOfInteger.hxx>
 
  
 
 #define Item Standard_Integer
 #define Item_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TCollection_Compare TCollection_PrivCompareOfInteger
-#define TCollection_Compare_hxx <TCollection_PrivCompareOfInteger.hxx>
-#include <TCollection_Compare.gxx>
+#define TCollection_Compare_hxx <Foundation/TCollection/TCollection_PrivCompareOfInteger.hxx>
+#include <Foundation/TCollection/TCollection_Compare.gxx>
 

@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(MAT_SequenceNodeOfSequenceOfBasicElt)
 #define TCollection_SequenceNode_Type_() MAT_SequenceNodeOfSequenceOfBasicElt_Type_()
 #define TCollection_Sequence MAT_SequenceOfBasicElt
 #define TCollection_Sequence_hxx <MAT_SequenceOfBasicElt.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

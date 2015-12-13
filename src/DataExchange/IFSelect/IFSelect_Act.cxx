@@ -24,7 +24,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IFSelect_Act)
 IMPLEMENT_DOWNCAST(IFSelect_Act,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IFSelect_Act)
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 static TCollection_AsciiString thedefgr, thedefil;
 

@@ -41,5 +41,5 @@ IMPLEMENT_STANDARD_RTTI(MoniTool_IndexedDataMapNodeOfIndexedDataMapOfShapeTransi
 #define TCollection_IndexedDataMapNode_Type_() MoniTool_IndexedDataMapNodeOfIndexedDataMapOfShapeTransient_Type_()
 #define TCollection_IndexedDataMap MoniTool_IndexedDataMapOfShapeTransient
 #define TCollection_IndexedDataMap_hxx <MoniTool_IndexedDataMapOfShapeTransient.hxx>
-#include <TCollection_IndexedDataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_IndexedDataMapNode.gxx>
 

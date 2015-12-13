@@ -40,5 +40,5 @@ IMPLEMENT_STANDARD_RTTI(IntTools_IndexedDataMapNodeOfIndexedDataMapOfTransientAd
 #define TCollection_IndexedDataMapNode_Type_() IntTools_IndexedDataMapNodeOfIndexedDataMapOfTransientAddress_Type_()
 #define TCollection_IndexedDataMap IntTools_IndexedDataMapOfTransientAddress
 #define TCollection_IndexedDataMap_hxx <IntTools_IndexedDataMapOfTransientAddress.hxx>
-#include <TCollection_IndexedDataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_IndexedDataMapNode.gxx>
 

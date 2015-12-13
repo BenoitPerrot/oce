@@ -18,7 +18,7 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TDocStd_Document.hxx>
 #include <TColStd_SequenceOfExtendedString.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <TDocStd_Application.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDocStd_Application)

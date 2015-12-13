@@ -11,8 +11,8 @@
 #include <Handle_TopOpeBRepBuild_ListNodeOfListOfPave.hxx>
 
 #include <Handle_TopOpeBRepBuild_Pave.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class TopOpeBRepBuild_Pave;
 class TopOpeBRepBuild_ListOfPave;
 class TopOpeBRepBuild_ListIteratorOfListOfPave;
@@ -58,7 +58,7 @@ private:
 #define TCollection_List TopOpeBRepBuild_ListOfPave
 #define TCollection_List_hxx <TopOpeBRepBuild_ListOfPave.hxx>
 
-#include <TCollection_ListNode.lxx>
+#include <Foundation/TCollection/TCollection_ListNode.lxx>
 
 #undef Item
 #undef Item_hxx

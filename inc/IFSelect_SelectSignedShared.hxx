@@ -11,7 +11,7 @@
 #include <Handle_IFSelect_SelectSignedShared.hxx>
 
 #include <Handle_IFSelect_Signature.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <IFSelect_SelectExplore.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>

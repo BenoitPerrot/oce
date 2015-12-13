@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(ChFiDS_SequenceNodeOfSequenceOfSpine)
 #define TCollection_SequenceNode_Type_() ChFiDS_SequenceNodeOfSequenceOfSpine_Type_()
 #define TCollection_Sequence ChFiDS_SequenceOfSpine
 #define TCollection_Sequence_hxx <ChFiDS_SequenceOfSpine.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

@@ -21,7 +21,7 @@
 #include <Foundation/Standard/Standard_NullObject.hxx>
 #include <IGESDefs_AttributeDef.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <IGESData_IGESEntity.hxx>
 #include <IGESDefs_AttributeTable.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -40,7 +40,7 @@ IMPLEMENT_STANDARD_RTTI(IGESDefs_AttributeTable)
 #include <Interface_HArray1OfHAsciiString.hxx>
 #include <IGESData_HArray1OfIGESEntity.hxx>
 #include <IGESDefs_AttributeDef.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Interface_Macros.hxx>
 
 

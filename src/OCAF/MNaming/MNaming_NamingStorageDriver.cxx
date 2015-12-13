@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_RTTI(MNaming_NamingStorageDriver)
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TDF_Tool.hxx>
 #include <TNaming_Naming.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TNaming_Name.hxx>
 #include <PNaming_Name_2.hxx>
 #include <PNaming_NamedShape.hxx>

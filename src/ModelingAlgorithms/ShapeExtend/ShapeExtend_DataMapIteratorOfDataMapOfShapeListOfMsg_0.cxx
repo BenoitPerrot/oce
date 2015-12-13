@@ -27,5 +27,5 @@
 #define TCollection_DataMapNode_Type_() ShapeExtend_DataMapNodeOfDataMapOfShapeListOfMsg_Type_()
 #define TCollection_DataMap ShapeExtend_DataMapOfShapeListOfMsg
 #define TCollection_DataMap_hxx <ShapeExtend_DataMapOfShapeListOfMsg.hxx>
-#include <TCollection_DataMapIterator.gxx>
+#include <Foundation/TCollection/TCollection_DataMapIterator.gxx>
 

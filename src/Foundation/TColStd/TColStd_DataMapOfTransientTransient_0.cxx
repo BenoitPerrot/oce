@@ -27,5 +27,5 @@
 #define TCollection_DataMapNode_Type_() TColStd_DataMapNodeOfDataMapOfTransientTransient_Type_()
 #define TCollection_DataMap TColStd_DataMapOfTransientTransient
 #define TCollection_DataMap_hxx <TColStd_DataMapOfTransientTransient.hxx>
-#include <TCollection_DataMap.gxx>
+#include <Foundation/TCollection/TCollection_DataMap.gxx>
 

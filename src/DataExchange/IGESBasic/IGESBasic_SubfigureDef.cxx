@@ -16,7 +16,7 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <IGESData_HArray1OfIGESEntity.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <IGESData_IGESEntity.hxx>

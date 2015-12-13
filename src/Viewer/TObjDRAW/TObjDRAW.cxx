@@ -25,7 +25,7 @@
 #include <Foundation/Message/Message_MsgFile.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <TColStd_HArray1OfReal.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 
 #include <Draw.hxx>
 

@@ -77,7 +77,7 @@ private:
 #define Handle_TCollection_HArray1 Handle_TopOpeBRepDS_HArray1OfDataMapOfIntegerListOfInterference
 #define TCollection_HArray1_Type_() TopOpeBRepDS_HArray1OfDataMapOfIntegerListOfInterference_Type_()
 
-#include <TCollection_HArray1.lxx>
+#include <Foundation/TCollection/TCollection_HArray1.lxx>
 
 #undef ItemHArray1
 #undef ItemHArray1_hxx

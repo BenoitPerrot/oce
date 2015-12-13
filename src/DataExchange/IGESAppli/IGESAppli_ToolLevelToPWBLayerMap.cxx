@@ -32,7 +32,7 @@
 #include <IGESData_ParamCursor.hxx>
 #include <TColStd_HArray1OfInteger.hxx>
 #include <Interface_HArray1OfHAsciiString.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <IGESData_Dump.hxx>
 #include <Interface_Macros.hxx>
 

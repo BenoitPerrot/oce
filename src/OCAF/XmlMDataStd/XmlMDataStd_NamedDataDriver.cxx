@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(XmlMDataStd_NamedDataDriver)
 #include <XmlObjMgt.hxx>
 #include <XmlObjMgt_Document.hxx>
 #include <LDOM_MemManager.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <CDM_MessageDriver.hxx>
 #include <TDataStd_NamedData.hxx>
 #include <TColStd_HArray1OfReal.hxx>

@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() STEPSelections_SequenceNodeOfSequenceOfAssemblyComponent_Type_()
 #define TCollection_Sequence STEPSelections_SequenceOfAssemblyComponent
 #define TCollection_Sequence_hxx <STEPSelections_SequenceOfAssemblyComponent.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

@@ -7,18 +7,18 @@
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <STEPConstruct_DataMapNodeOfDataMapOfAsciiStringTransient.hxx>
 #include <STEPConstruct_DataMapIteratorOfDataMapOfAsciiStringTransient.hxx>
  
 
 #define TheKey TCollection_AsciiString
-#define TheKey_hxx <TCollection_AsciiString.hxx>
+#define TheKey_hxx <Foundation/TCollection/TCollection_AsciiString.hxx>
 #define TheItem Handle(Standard_Transient)
 #define TheItem_hxx <Foundation/Standard/Standard_Transient.hxx>
 #define Hasher TCollection_AsciiString
-#define Hasher_hxx <TCollection_AsciiString.hxx>
+#define Hasher_hxx <Foundation/TCollection/TCollection_AsciiString.hxx>
 #define TCollection_DataMapNode STEPConstruct_DataMapNodeOfDataMapOfAsciiStringTransient
 #define TCollection_DataMapNode_hxx <STEPConstruct_DataMapNodeOfDataMapOfAsciiStringTransient.hxx>
 #define TCollection_DataMapIterator STEPConstruct_DataMapIteratorOfDataMapOfAsciiStringTransient
@@ -27,5 +27,5 @@
 #define TCollection_DataMapNode_Type_() STEPConstruct_DataMapNodeOfDataMapOfAsciiStringTransient_Type_()
 #define TCollection_DataMap STEPConstruct_DataMapOfAsciiStringTransient
 #define TCollection_DataMap_hxx <STEPConstruct_DataMapOfAsciiStringTransient.hxx>
-#include <TCollection_DataMap.gxx>
+#include <Foundation/TCollection/TCollection_DataMap.gxx>
 

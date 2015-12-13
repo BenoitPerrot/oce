@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(StepElement_SequenceNodeOfSequenceOfCurveElementSectionD
 #define TCollection_SequenceNode_Type_() StepElement_SequenceNodeOfSequenceOfCurveElementSectionDefinition_Type_()
 #define TCollection_Sequence StepElement_SequenceOfCurveElementSectionDefinition
 #define TCollection_Sequence_hxx <StepElement_SequenceOfCurveElementSectionDefinition.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

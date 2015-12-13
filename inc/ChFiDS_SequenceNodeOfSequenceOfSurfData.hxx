@@ -11,8 +11,8 @@
 #include <Handle_ChFiDS_SequenceNodeOfSequenceOfSurfData.hxx>
 
 #include <Handle_ChFiDS_SurfData.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class ChFiDS_SurfData;
 class ChFiDS_SequenceOfSurfData;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence ChFiDS_SequenceOfSurfData
 #define TCollection_Sequence_hxx <ChFiDS_SequenceOfSurfData.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

@@ -72,7 +72,7 @@ private:
 #define TCollection_List TopOpeBRepBuild_ListOfPave
 #define TCollection_List_hxx <TopOpeBRepBuild_ListOfPave.hxx>
 
-#include <TCollection_ListIterator.lxx>
+#include <Foundation/TCollection/TCollection_ListIterator.lxx>
 
 #undef Item
 #undef Item_hxx

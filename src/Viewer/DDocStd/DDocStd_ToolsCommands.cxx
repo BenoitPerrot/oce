@@ -19,7 +19,7 @@
 #include <Draw_Interpretor.hxx>
 #include <TDocStd_Document.hxx>
 #include <TDF_Label.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TDF_Tool.hxx>
 #include <TDF_ListIteratorOfAttributeDeltaList.hxx>
 #include <TDF_AttributeDelta.hxx>

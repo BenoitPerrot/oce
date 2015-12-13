@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() BRepFill_SequenceNodeOfSequenceOfFaceAndOrder_Type_()
 #define TCollection_Sequence BRepFill_SequenceOfFaceAndOrder
 #define TCollection_Sequence_hxx <BRepFill_SequenceOfFaceAndOrder.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

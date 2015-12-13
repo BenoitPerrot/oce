@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_ListNodeOfListOfOffsetWire)
 #define TCollection_ListNode_Type_() BRepFill_ListNodeOfListOfOffsetWire_Type_()
 #define TCollection_List BRepFill_ListOfOffsetWire
 #define TCollection_List_hxx <BRepFill_ListOfOffsetWire.hxx>
-#include <TCollection_ListNode.gxx>
+#include <Foundation/TCollection/TCollection_ListNode.gxx>
 

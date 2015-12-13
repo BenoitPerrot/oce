@@ -97,7 +97,7 @@ private:
 #define TCollection_Array1 TestTopOpeDraw_Array1OfDrawableP3D
 #define TCollection_Array1_hxx <TestTopOpeDraw_Array1OfDrawableP3D.hxx>
 
-#include <TCollection_Array1.lxx>
+#include <Foundation/TCollection/TCollection_Array1.lxx>
 
 #undef Array1Item
 #undef Array1Item_hxx

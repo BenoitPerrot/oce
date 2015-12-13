@@ -12,8 +12,8 @@
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <TopoDS_Shape.hxx>
-#include <TCollection_MapNodePtr.hxx>
-#include <TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
 class TopoDS_Shape;
 class TColStd_MapIntegerHasher;
 class TopTools_ShapeMapHasher;
@@ -73,7 +73,7 @@ private:
 #define TCollection_DoubleMap TopOpeBRepDS_DoubleMapOfIntegerShape
 #define TCollection_DoubleMap_hxx <TopOpeBRepDS_DoubleMapOfIntegerShape.hxx>
 
-#include <TCollection_DoubleMapNode.lxx>
+#include <Foundation/TCollection/TCollection_DoubleMapNode.lxx>
 
 #undef TheKey1
 #undef TheKey1_hxx

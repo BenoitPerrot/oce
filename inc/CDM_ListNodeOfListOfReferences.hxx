@@ -11,8 +11,8 @@
 #include <Handle_CDM_ListNodeOfListOfReferences.hxx>
 
 #include <Handle_CDM_Reference.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class CDM_Reference;
 class CDM_ListOfReferences;
 class CDM_ListIteratorOfListOfReferences;
@@ -58,7 +58,7 @@ private:
 #define TCollection_List CDM_ListOfReferences
 #define TCollection_List_hxx <CDM_ListOfReferences.hxx>
 
-#include <TCollection_ListNode.lxx>
+#include <Foundation/TCollection/TCollection_ListNode.lxx>
 
 #undef Item
 #undef Item_hxx

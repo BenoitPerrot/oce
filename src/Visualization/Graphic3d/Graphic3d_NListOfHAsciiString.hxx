@@ -17,7 +17,7 @@
 #define _Graphic3d_NListOfHAsciiString_HeaderFile
 
 #include <Foundation/NCollection/NCollection_List.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 typedef NCollection_List<Handle(TCollection_HAsciiString)> Graphic3d_NListOfHAsciiString;
 

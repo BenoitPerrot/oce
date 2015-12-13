@@ -11,8 +11,8 @@
 #include <Handle_QANCollection_ListNodeOfListOfPnt.hxx>
 
 #include <gp_Pnt.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class gp_Pnt;
 class QANCollection_ListOfPnt;
 class QANCollection_ListIteratorOfListOfPnt;
@@ -58,7 +58,7 @@ private:
 #define TCollection_List QANCollection_ListOfPnt
 #define TCollection_List_hxx <QANCollection_ListOfPnt.hxx>
 
-#include <TCollection_ListNode.lxx>
+#include <Foundation/TCollection/TCollection_ListNode.lxx>
 
 #undef Item
 #undef Item_hxx

@@ -43,5 +43,5 @@ IMPLEMENT_STANDARD_RTTI(AIS_DataMapNodeOfDataMapOfILC)
 #define TCollection_DataMapNode_Type_() AIS_DataMapNodeOfDataMapOfILC_Type_()
 #define TCollection_DataMap AIS_DataMapOfILC
 #define TCollection_DataMap_hxx <AIS_DataMapOfILC.hxx>
-#include <TCollection_DataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

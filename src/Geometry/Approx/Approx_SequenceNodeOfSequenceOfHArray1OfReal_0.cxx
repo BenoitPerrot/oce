@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(Approx_SequenceNodeOfSequenceOfHArray1OfReal)
 #define TCollection_SequenceNode_Type_() Approx_SequenceNodeOfSequenceOfHArray1OfReal_Type_()
 #define TCollection_Sequence Approx_SequenceOfHArray1OfReal
 #define TCollection_Sequence_hxx <Approx_SequenceOfHArray1OfReal.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

@@ -105,7 +105,7 @@ private:
 #define TCollection_Array2 IGESBasic_Array2OfHArray1OfReal
 #define TCollection_Array2_hxx <IGESBasic_Array2OfHArray1OfReal.hxx>
 
-#include <TCollection_Array2.lxx>
+#include <Foundation/TCollection/TCollection_Array2.lxx>
 
 #undef Array2Item
 #undef Array2Item_hxx

@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() TColGeom_SequenceNodeOfSequenceOfSurface_Type_()
 #define TCollection_Sequence TColGeom_SequenceOfSurface
 #define TCollection_Sequence_hxx <TColGeom_SequenceOfSurface.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

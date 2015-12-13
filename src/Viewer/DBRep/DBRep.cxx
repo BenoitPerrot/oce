@@ -758,7 +758,7 @@ static Standard_Integer orientation(Draw_Interpretor& ,
   return 0;
 }
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 //=======================================================================
 // numshapes same as nbshapes but the output is cout

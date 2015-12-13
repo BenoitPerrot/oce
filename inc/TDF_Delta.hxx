@@ -12,7 +12,7 @@
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <TDF_AttributeDeltaList.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_TDF_AttributeDelta.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

@@ -16,10 +16,10 @@
 #include <Foundation/Message/Message_Msg.hxx>
 
 #ifndef _TCollection_HAsciiString_HeaderFile
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #endif
 #ifndef _TCollection_HExtendedString_HeaderFile
-#include <TCollection_HExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_HExtendedString.hxx>
 #endif
 
 //=======================================================================

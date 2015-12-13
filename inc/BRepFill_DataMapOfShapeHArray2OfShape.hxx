@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <TCollection_BasicMap.hxx>
+#include <Foundation/TCollection/TCollection_BasicMap.hxx>
 #include <Handle_TopTools_HArray2OfShape.hxx>
 #include <Handle_BRepFill_DataMapNodeOfDataMapOfShapeHArray2OfShape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

@@ -12,8 +12,8 @@
 
 #include <Handle_SelectMgr_Selection.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class SelectMgr_Selection;
 class TColStd_MapTransientHasher;
 class SelectMgr_DataMapOfSelectionActivation;
@@ -67,7 +67,7 @@ private:
 #define TCollection_DataMap SelectMgr_DataMapOfSelectionActivation
 #define TCollection_DataMap_hxx <SelectMgr_DataMapOfSelectionActivation.hxx>
 
-#include <TCollection_DataMapNode.lxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

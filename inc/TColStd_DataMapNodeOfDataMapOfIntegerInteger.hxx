@@ -11,8 +11,8 @@
 #include <Handle_TColStd_DataMapNodeOfDataMapOfIntegerInteger.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class TColStd_MapIntegerHasher;
 class TColStd_DataMapOfIntegerInteger;
 class TColStd_DataMapIteratorOfDataMapOfIntegerInteger;
@@ -65,7 +65,7 @@ private:
 #define TCollection_DataMap TColStd_DataMapOfIntegerInteger
 #define TCollection_DataMap_hxx <TColStd_DataMapOfIntegerInteger.hxx>
 
-#include <TCollection_DataMapNode.lxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_RTTI(IGESData_IGESReaderData)
 #include <Interface_FileParameter.hxx>
 #include <Interface_ParamList.hxx>
 #include <Interface_ParamType.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Interface_Macros.hxx>
 
 

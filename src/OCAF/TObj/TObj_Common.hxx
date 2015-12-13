@@ -25,8 +25,8 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <TCollection_ExtendedString.hxx>
-#include <TCollection_HExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_HExtendedString.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
 
 //! Methods inline implimentation for HExtendedString

@@ -43,5 +43,5 @@ IMPLEMENT_STANDARD_RTTI(TopTools_DataMapNodeOfDataMapOfShapeReal)
 #define TCollection_DataMapNode_Type_() TopTools_DataMapNodeOfDataMapOfShapeReal_Type_()
 #define TCollection_DataMap TopTools_DataMapOfShapeReal
 #define TCollection_DataMap_hxx <TopTools_DataMapOfShapeReal.hxx>
-#include <TCollection_DataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

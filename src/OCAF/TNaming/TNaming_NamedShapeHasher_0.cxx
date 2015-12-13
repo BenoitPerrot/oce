@@ -12,5 +12,5 @@
 #define Key_hxx <TNaming_NamedShape.hxx>
 #define TCollection_MapHasher TNaming_NamedShapeHasher
 #define TCollection_MapHasher_hxx <TNaming_NamedShapeHasher.hxx>
-#include <TCollection_MapHasher.gxx>
+#include <Foundation/TCollection/TCollection_MapHasher.gxx>
 

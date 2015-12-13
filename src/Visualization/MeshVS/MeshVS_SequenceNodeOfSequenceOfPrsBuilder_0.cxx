@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_SequenceNodeOfSequenceOfPrsBuilder)
 #define TCollection_SequenceNode_Type_() MeshVS_SequenceNodeOfSequenceOfPrsBuilder_Type_()
 #define TCollection_Sequence MeshVS_SequenceOfPrsBuilder
 #define TCollection_Sequence_hxx <MeshVS_SequenceOfPrsBuilder.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

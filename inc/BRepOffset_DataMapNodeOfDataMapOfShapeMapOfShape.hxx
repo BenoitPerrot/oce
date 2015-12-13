@@ -12,8 +12,8 @@
 
 #include <TopoDS_Shape.hxx>
 #include <TopTools_MapOfShape.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class TopoDS_Shape;
 class TopTools_MapOfShape;
 class TopTools_ShapeMapHasher;
@@ -68,7 +68,7 @@ private:
 #define TCollection_DataMap BRepOffset_DataMapOfShapeMapOfShape
 #define TCollection_DataMap_hxx <BRepOffset_DataMapOfShapeMapOfShape.hxx>
 
-#include <TCollection_DataMapNode.lxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

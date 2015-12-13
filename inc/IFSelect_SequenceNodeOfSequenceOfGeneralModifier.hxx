@@ -11,8 +11,8 @@
 #include <Handle_IFSelect_SequenceNodeOfSequenceOfGeneralModifier.hxx>
 
 #include <Handle_IFSelect_GeneralModifier.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class IFSelect_GeneralModifier;
 class IFSelect_SequenceOfGeneralModifier;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence IFSelect_SequenceOfGeneralModifier
 #define TCollection_Sequence_hxx <IFSelect_SequenceOfGeneralModifier.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

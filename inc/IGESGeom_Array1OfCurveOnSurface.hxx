@@ -97,7 +97,7 @@ private:
 #define TCollection_Array1 IGESGeom_Array1OfCurveOnSurface
 #define TCollection_Array1_hxx <IGESGeom_Array1OfCurveOnSurface.hxx>
 
-#include <TCollection_Array1.lxx>
+#include <Foundation/TCollection/TCollection_Array1.lxx>
 
 #undef Array1Item
 #undef Array1Item_hxx

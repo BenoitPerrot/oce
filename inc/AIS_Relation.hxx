@@ -14,7 +14,7 @@
 #include <Handle_Geom_Plane.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <gp_Pnt.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <DsgPrs_ArrowSide.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

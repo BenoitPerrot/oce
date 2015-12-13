@@ -11,7 +11,7 @@
 #include <Handle_QABugs_MyText.hxx>
 
 #include <gp_Pnt.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

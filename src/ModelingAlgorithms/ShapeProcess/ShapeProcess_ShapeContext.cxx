@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_TYPE_END(ShapeProcess_ShapeContext)
 IMPLEMENT_DOWNCAST(ShapeProcess_ShapeContext,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ShapeProcess_ShapeContext)
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TopoDS_Iterator.hxx>
 #include <TopTools_DataMapIteratorOfDataMapOfShapeShape.hxx>
 #include <BRep_Builder.hxx>

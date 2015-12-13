@@ -16,5 +16,5 @@
 #define Array1Item_hxx <Extrema_POnCurv.hxx>
 #define TCollection_Array1 Extrema_Array1OfPOnCurv
 #define TCollection_Array1_hxx <Extrema_Array1OfPOnCurv.hxx>
-#include <TCollection_Array1.gxx>
+#include <Foundation/TCollection/TCollection_Array1.gxx>
 

@@ -30,7 +30,7 @@
 #include <TColgp_Array1OfPnt2d.hxx>
 #include <Foundation/Standard/Standard_DimensionError.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <TCollection_CompareOfReal.hxx>
+#include <Foundation/TCollection/TCollection_CompareOfReal.hxx>
 #include <Foundation/SortTools/SortTools_QuickSortOfReal.hxx>
 #include <Precision.hxx>
 

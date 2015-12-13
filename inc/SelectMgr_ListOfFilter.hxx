@@ -108,7 +108,7 @@ private:
 #define TCollection_List SelectMgr_ListOfFilter
 #define TCollection_List_hxx <SelectMgr_ListOfFilter.hxx>
 
-#include <TCollection_List.lxx>
+#include <Foundation/TCollection/TCollection_List.lxx>
 
 #undef Item
 #undef Item_hxx

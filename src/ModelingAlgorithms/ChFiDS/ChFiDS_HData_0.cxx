@@ -36,5 +36,5 @@ IMPLEMENT_STANDARD_RTTI(ChFiDS_HData)
 #define TCollection_HSequence_hxx <ChFiDS_HData.hxx>
 #define Handle_TCollection_HSequence Handle_ChFiDS_HData
 #define TCollection_HSequence_Type_() ChFiDS_HData_Type_()
-#include <TCollection_HSequence.gxx>
+#include <Foundation/TCollection/TCollection_HSequence.gxx>
 

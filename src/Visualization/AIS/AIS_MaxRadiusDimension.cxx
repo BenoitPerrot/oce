@@ -21,7 +21,7 @@
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <TopoDS_Shape.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <gp_Pnt.hxx>
 #include <Prs3d_Presentation.hxx>
 #include <Prs3d_Projector.hxx>
@@ -43,7 +43,7 @@ IMPLEMENT_STANDARD_TYPE_END(AIS_MaxRadiusDimension)
 IMPLEMENT_DOWNCAST(AIS_MaxRadiusDimension,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(AIS_MaxRadiusDimension)
 #include <AIS_EllipseRadiusDimension.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 
 #include <Prs3d_DimensionAspect.hxx>
 #include <Prs3d_ArrowAspect.hxx>

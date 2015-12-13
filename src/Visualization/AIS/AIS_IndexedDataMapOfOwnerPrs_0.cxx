@@ -26,5 +26,5 @@
 #define TCollection_IndexedDataMapNode_Type_() AIS_IndexedDataMapNodeOfIndexedDataMapOfOwnerPrs_Type_()
 #define TCollection_IndexedDataMap AIS_IndexedDataMapOfOwnerPrs
 #define TCollection_IndexedDataMap_hxx <AIS_IndexedDataMapOfOwnerPrs.hxx>
-#include <TCollection_IndexedDataMap.gxx>
+#include <Foundation/TCollection/TCollection_IndexedDataMap.gxx>
 

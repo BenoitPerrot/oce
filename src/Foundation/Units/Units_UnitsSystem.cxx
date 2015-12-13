@@ -19,7 +19,7 @@
 
 #include <Foundation/Resource/Resource_Manager.hxx>
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 #include <TColStd_HSequenceOfHAsciiString.hxx>
 #include <TColStd_HSequenceOfInteger.hxx>

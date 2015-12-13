@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() ShapeFix_SequenceNodeOfSequenceOfWireSegment_Type_()
 #define TCollection_Sequence ShapeFix_SequenceOfWireSegment
 #define TCollection_Sequence_hxx <ShapeFix_SequenceOfWireSegment.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

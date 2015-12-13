@@ -15,7 +15,7 @@
 #include <Handle_SelectMgr_SelectionManager.hxx>
 #include <Handle_StdSelect_ViewerSelector3d.hxx>
 #include <PrsMgr_PresentationManager3d.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <AIS_DataMapOfSelStat.hxx>
 #include <Handle_SelectMgr_OrFilter.hxx>
 #include <TColStd_ListOfInteger.hxx>

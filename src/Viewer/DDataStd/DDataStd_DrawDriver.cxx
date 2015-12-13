@@ -44,12 +44,12 @@ IMPLEMENT_STANDARD_RTTI(DDataStd_DrawDriver)
 #include <BRep_Tool.hxx>
 #include <Draw_Drawable3D.hxx>
 #include <Draw_Marker3D.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Geom_CartesianPoint.hxx>
 #include <BRep_Builder.hxx>
 #include <TopoDS_Compound.hxx>
 #include <TDF_Tool.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TDataStd.hxx>
 #include <gp_Pln.hxx>
 #include <gp_Ax3.hxx>

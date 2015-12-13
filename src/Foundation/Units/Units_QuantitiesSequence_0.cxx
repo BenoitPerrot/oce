@@ -36,5 +36,5 @@ IMPLEMENT_STANDARD_RTTI(Units_QuantitiesSequence)
 #define TCollection_HSequence_hxx <Units_QuantitiesSequence.hxx>
 #define Handle_TCollection_HSequence Handle_Units_QuantitiesSequence
 #define TCollection_HSequence_Type_() Units_QuantitiesSequence_Type_()
-#include <TCollection_HSequence.gxx>
+#include <Foundation/TCollection/TCollection_HSequence.gxx>
 

@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(TopTools_IndexedMapNodeOfIndexedMapOfOrientedShape)
 #define TCollection_IndexedMapNode_Type_() TopTools_IndexedMapNodeOfIndexedMapOfOrientedShape_Type_()
 #define TCollection_IndexedMap TopTools_IndexedMapOfOrientedShape
 #define TCollection_IndexedMap_hxx <TopTools_IndexedMapOfOrientedShape.hxx>
-#include <TCollection_IndexedMapNode.gxx>
+#include <Foundation/TCollection/TCollection_IndexedMapNode.gxx>
 

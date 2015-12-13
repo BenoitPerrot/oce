@@ -27,5 +27,5 @@
 #define TCollection_DataMapNode_Type_() TopOpeBRepBuild_DataMapNodeOfDataMapOfShapeListOfShapeListOfShape_Type_()
 #define TCollection_DataMap TopOpeBRepBuild_DataMapOfShapeListOfShapeListOfShape
 #define TCollection_DataMap_hxx <TopOpeBRepBuild_DataMapOfShapeListOfShapeListOfShape.hxx>
-#include <TCollection_DataMapIterator.gxx>
+#include <Foundation/TCollection/TCollection_DataMapIterator.gxx>
 

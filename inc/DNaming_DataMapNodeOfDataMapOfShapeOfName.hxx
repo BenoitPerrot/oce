@@ -11,9 +11,9 @@
 #include <Handle_DNaming_DataMapNodeOfDataMapOfShapeOfName.hxx>
 
 #include <TopoDS_Shape.hxx>
-#include <TCollection_AsciiString.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class TopoDS_Shape;
 class TCollection_AsciiString;
 class TopTools_ShapeMapHasher;
@@ -56,7 +56,7 @@ private:
 #define TheKey TopoDS_Shape
 #define TheKey_hxx <TopoDS_Shape.hxx>
 #define TheItem TCollection_AsciiString
-#define TheItem_hxx <TCollection_AsciiString.hxx>
+#define TheItem_hxx <Foundation/TCollection/TCollection_AsciiString.hxx>
 #define Hasher TopTools_ShapeMapHasher
 #define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode DNaming_DataMapNodeOfDataMapOfShapeOfName
@@ -68,7 +68,7 @@ private:
 #define TCollection_DataMap DNaming_DataMapOfShapeOfName
 #define TCollection_DataMap_hxx <DNaming_DataMapOfShapeOfName.hxx>
 
-#include <TCollection_DataMapNode.lxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

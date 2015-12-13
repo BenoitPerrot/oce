@@ -17,8 +17,8 @@
 #include <Foundation/Resource/Resource_ConvertUnicode.hxx>
 #include <Foundation/Resource/Resource_Manager.hxx>
 #include <Foundation/Resource/Resource_Unicode.hxx>
-#include <TCollection_ExtendedString.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 #define isjis(c) (((c)>=0x21 && (c)<=0x7e))
 #define iseuc(c) (((c)>=0xa1 && (c)<=0xfe))

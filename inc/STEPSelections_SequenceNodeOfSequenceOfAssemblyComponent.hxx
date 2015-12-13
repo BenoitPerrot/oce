@@ -11,8 +11,8 @@
 #include <Handle_STEPSelections_SequenceNodeOfSequenceOfAssemblyComponent.hxx>
 
 #include <Handle_STEPSelections_AssemblyComponent.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class STEPSelections_AssemblyComponent;
 class STEPSelections_SequenceOfAssemblyComponent;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence STEPSelections_SequenceOfAssemblyComponent
 #define TCollection_Sequence_hxx <STEPSelections_SequenceOfAssemblyComponent.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

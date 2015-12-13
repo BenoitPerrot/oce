@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() IntPatch_SequenceNodeOfSequenceOfPoint_Type_()
 #define TCollection_Sequence IntPatch_SequenceOfPoint
 #define TCollection_Sequence_hxx <IntPatch_SequenceOfPoint.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

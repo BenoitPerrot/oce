@@ -14,12 +14,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Draw_Drawable3D.hxx>
 #include <Draw_ProgressIndicator.hxx>
 #include <Draw.hxx>
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Units_Token.hxx>
 #include <Units_UnitSentence.hxx>
 #include <Units_TokensSequence.hxx>

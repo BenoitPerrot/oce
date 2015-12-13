@@ -11,7 +11,7 @@
 #include <Handle_TDocStd_ApplicationDelta.hxx>
 
 #include <TDocStd_SequenceOfDocument.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 class TDocStd_SequenceOfDocument;

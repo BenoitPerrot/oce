@@ -11,8 +11,8 @@
 #include <Handle_CDM_ListNodeOfListOfDocument.hxx>
 
 #include <Handle_CDM_Document.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class CDM_Document;
 class CDM_ListOfDocument;
 class CDM_ListIteratorOfListOfDocument;
@@ -58,7 +58,7 @@ private:
 #define TCollection_List CDM_ListOfDocument
 #define TCollection_List_hxx <CDM_ListOfDocument.hxx>
 
-#include <TCollection_ListNode.lxx>
+#include <Foundation/TCollection/TCollection_ListNode.lxx>
 
 #undef Item
 #undef Item_hxx

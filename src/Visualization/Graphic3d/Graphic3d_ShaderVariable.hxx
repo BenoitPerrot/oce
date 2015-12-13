@@ -18,7 +18,7 @@
 
 #include <Graphic3d_Vec.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 #include <Graphic3d_ShaderVariable_Handle.hxx>
 

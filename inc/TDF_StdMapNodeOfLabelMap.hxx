@@ -11,8 +11,8 @@
 #include <Handle_TDF_StdMapNodeOfLabelMap.hxx>
 
 #include <TDF_Label.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class TDF_Label;
 class TDF_LabelMapHasher;
 class TDF_LabelMap;
@@ -61,7 +61,7 @@ private:
 #define TCollection_Map TDF_LabelMap
 #define TCollection_Map_hxx <TDF_LabelMap.hxx>
 
-#include <TCollection_StdMapNode.lxx>
+#include <Foundation/TCollection/TCollection_StdMapNode.lxx>
 
 #undef TheKey
 #undef TheKey_hxx

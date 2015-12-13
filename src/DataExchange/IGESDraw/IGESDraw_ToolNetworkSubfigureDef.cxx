@@ -32,7 +32,7 @@
 #include <IGESData_ParamCursor.hxx>
 #include <IGESDraw_ConnectPoint.hxx>
 #include <IGESData_IGESEntity.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <IGESGraph_TextDisplayTemplate.hxx>
 #include <IGESData_HArray1OfIGESEntity.hxx>
 #include <IGESDraw_HArray1OfConnectPoint.hxx>

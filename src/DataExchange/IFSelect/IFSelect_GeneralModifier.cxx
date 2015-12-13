@@ -13,7 +13,7 @@
 
 #include <IFSelect_Selection.hxx>
 #include <IFSelect_Dispatch.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <IFSelect_GeneralModifier.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IFSelect_GeneralModifier)

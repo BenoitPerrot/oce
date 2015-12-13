@@ -13,7 +13,7 @@
 
 #include <IFSelect_SignCounter.hxx>
 #include <Interface_InterfaceError.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Interface_Graph.hxx>
 #include <IFGraph_SubPartsIterator.hxx>
 #include <IFSelect_DispPerSignature.hxx>
@@ -29,7 +29,7 @@ IMPLEMENT_DOWNCAST(IFSelect_DispPerSignature,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IFSelect_DispPerSignature)
 #include <IFSelect_Selection.hxx>
 #include <TColStd_HSequenceOfHAsciiString.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <TColStd_HSequenceOfTransient.hxx>
 #include <Interface_EntityIterator.hxx>
 #include <stdio.h>

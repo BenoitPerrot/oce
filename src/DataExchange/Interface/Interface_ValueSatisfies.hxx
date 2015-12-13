@@ -14,7 +14,7 @@
 #ifndef _Interface_ValueSatisfies_HeaderFile
 #define _Interface_ValueSatisfies_HeaderFile
 
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 typedef Standard_Boolean (*Interface_ValueSatisfies) (const Handle(TCollection_HAsciiString)& val);
 

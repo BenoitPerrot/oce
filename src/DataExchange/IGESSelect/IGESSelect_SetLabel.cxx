@@ -14,7 +14,7 @@
 #include <IFSelect_ContextModif.hxx>
 #include <IGESData_IGESModel.hxx>
 #include <Interface_CopyTool.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <IGESSelect_SetLabel.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESSelect_SetLabel)
@@ -30,7 +30,7 @@ IMPLEMENT_DOWNCAST(IGESSelect_SetLabel,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESSelect_SetLabel)
 #include <Interface_Macros.hxx>
 #include <IGESData_IGESEntity.hxx>
-#include <TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 IGESSelect_SetLabel::IGESSelect_SetLabel
   (const Standard_Integer mode, const Standard_Boolean enforce)

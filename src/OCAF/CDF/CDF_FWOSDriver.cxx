@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <CDM_MetaData.hxx>
 #include <CDM_Document.hxx>
 #include <CDF_FWOSDriver.hxx>
@@ -24,7 +24,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(CDF_FWOSDriver)
 IMPLEMENT_DOWNCAST(CDF_FWOSDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(CDF_FWOSDriver)
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/OSD/OSD_Path.hxx>
 #include <Foundation/OSD/OSD_Directory.hxx>
 #include <Foundation/OSD/OSD_Protection.hxx>
@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_RTTI(CDF_FWOSDriver)
 #include <Foundation/OSD/OSD_File.hxx>
 #include <Foundation/OSD/OSD_FileNode.hxx>
 #include <UTL.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #ifdef WNT
 #include <tchar.h>
 #endif  // WNT

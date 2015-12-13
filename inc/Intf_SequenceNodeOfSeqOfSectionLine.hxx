@@ -11,8 +11,8 @@
 #include <Handle_Intf_SequenceNodeOfSeqOfSectionLine.hxx>
 
 #include <Intf_SectionLine.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class Intf_SectionLine;
 class Intf_SeqOfSectionLine;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence Intf_SeqOfSectionLine
 #define TCollection_Sequence_hxx <Intf_SeqOfSectionLine.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

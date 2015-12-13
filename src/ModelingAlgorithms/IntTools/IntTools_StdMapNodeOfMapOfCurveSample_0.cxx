@@ -41,5 +41,5 @@ IMPLEMENT_STANDARD_RTTI(IntTools_StdMapNodeOfMapOfCurveSample)
 #define TCollection_StdMapNode_Type_() IntTools_StdMapNodeOfMapOfCurveSample_Type_()
 #define TCollection_Map IntTools_MapOfCurveSample
 #define TCollection_Map_hxx <IntTools_MapOfCurveSample.hxx>
-#include <TCollection_StdMapNode.gxx>
+#include <Foundation/TCollection/TCollection_StdMapNode.gxx>
 

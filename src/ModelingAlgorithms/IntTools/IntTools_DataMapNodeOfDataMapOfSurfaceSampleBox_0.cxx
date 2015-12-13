@@ -44,5 +44,5 @@ IMPLEMENT_STANDARD_RTTI(IntTools_DataMapNodeOfDataMapOfSurfaceSampleBox)
 #define TCollection_DataMapNode_Type_() IntTools_DataMapNodeOfDataMapOfSurfaceSampleBox_Type_()
 #define TCollection_DataMap IntTools_DataMapOfSurfaceSampleBox
 #define TCollection_DataMap_hxx <IntTools_DataMapOfSurfaceSampleBox.hxx>
-#include <TCollection_DataMapNode.gxx>
+#include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

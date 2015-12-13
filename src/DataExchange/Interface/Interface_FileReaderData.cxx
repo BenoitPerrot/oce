@@ -19,7 +19,7 @@
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <Interface_ParamSet.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Interface_FileParameter.hxx>
 #include <Interface_ParamList.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>

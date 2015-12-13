@@ -11,8 +11,8 @@
 #include <Handle_MAT2d_SequenceNodeOfSequenceOfConnexion.hxx>
 
 #include <Handle_MAT2d_Connexion.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class MAT2d_Connexion;
 class MAT2d_SequenceOfConnexion;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence MAT2d_SequenceOfConnexion
 #define TCollection_Sequence_hxx <MAT2d_SequenceOfConnexion.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

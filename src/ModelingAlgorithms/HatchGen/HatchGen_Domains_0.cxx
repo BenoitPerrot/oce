@@ -19,5 +19,5 @@
 #define TCollection_SequenceNode_Type_() HatchGen_SequenceNodeOfDomains_Type_()
 #define TCollection_Sequence HatchGen_Domains
 #define TCollection_Sequence_hxx <HatchGen_Domains.hxx>
-#include <TCollection_Sequence.gxx>
+#include <Foundation/TCollection/TCollection_Sequence.gxx>
 

@@ -43,7 +43,7 @@
 #include <Foundation/Storage/Storage_TypeData.hxx>
 #include <Foundation/Storage/Storage_TypedCallBack.hxx>
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 #include <TColStd_SequenceOfAsciiString.hxx>
 #include <TColStd_HSequenceOfAsciiString.hxx>

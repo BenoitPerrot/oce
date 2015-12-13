@@ -19,8 +19,8 @@
 
 #include <Image_AlienPixMap.hxx>
 #include <gp.hxx>
-#include <TCollection_AsciiString.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/OSD/OSD_OpenFile.hxx>
 #include <fstream>
 #include <algorithm>

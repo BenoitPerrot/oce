@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_HArray1OfLocationLaw)
 #define TCollection_HArray1_hxx <GeomFill_HArray1OfLocationLaw.hxx>
 #define Handle_TCollection_HArray1 Handle_GeomFill_HArray1OfLocationLaw
 #define TCollection_HArray1_Type_() GeomFill_HArray1OfLocationLaw_Type_()
-#include <TCollection_HArray1.gxx>
+#include <Foundation/TCollection/TCollection_HArray1.gxx>
 

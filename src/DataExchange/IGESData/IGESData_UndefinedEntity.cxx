@@ -36,8 +36,8 @@ IMPLEMENT_STANDARD_RTTI(IGESData_UndefinedEntity)
 #include <IGESData_ColorEntity.hxx>
 
 #include <Interface_Macros.hxx>
-#include <TCollection_HAsciiString.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 // MGE 23/07/98
 #include <Foundation/Message/Message_Msg.hxx>

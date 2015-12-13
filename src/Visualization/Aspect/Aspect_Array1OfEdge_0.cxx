@@ -16,5 +16,5 @@
 #define Array1Item_hxx <Aspect_Edge.hxx>
 #define TCollection_Array1 Aspect_Array1OfEdge
 #define TCollection_Array1_hxx <Aspect_Array1OfEdge.hxx>
-#include <TCollection_Array1.gxx>
+#include <Foundation/TCollection/TCollection_Array1.gxx>
 

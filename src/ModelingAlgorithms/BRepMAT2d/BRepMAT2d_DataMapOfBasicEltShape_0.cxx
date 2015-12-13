@@ -28,5 +28,5 @@
 #define TCollection_DataMapNode_Type_() BRepMAT2d_DataMapNodeOfDataMapOfBasicEltShape_Type_()
 #define TCollection_DataMap BRepMAT2d_DataMapOfBasicEltShape
 #define TCollection_DataMap_hxx <BRepMAT2d_DataMapOfBasicEltShape.hxx>
-#include <TCollection_DataMap.gxx>
+#include <Foundation/TCollection/TCollection_DataMap.gxx>
 

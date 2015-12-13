@@ -26,5 +26,5 @@
 #define TCollection_DataMapNode_Type_() Geom2dHatch_DataMapNodeOfHatchings_Type_()
 #define TCollection_DataMap Geom2dHatch_Hatchings
 #define TCollection_DataMap_hxx <Geom2dHatch_Hatchings.hxx>
-#include <TCollection_DataMapIterator.gxx>
+#include <Foundation/TCollection/TCollection_DataMapIterator.gxx>
 

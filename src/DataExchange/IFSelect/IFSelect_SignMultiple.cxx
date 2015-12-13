@@ -14,7 +14,7 @@
 #include <IFSelect_Signature.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Interface_InterfaceModel.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <IFSelect_SignMultiple.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IFSelect_SignMultiple)
@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IFSelect_SignMultiple)
 IMPLEMENT_DOWNCAST(IFSelect_SignMultiple,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IFSelect_SignMultiple)
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 
 static TCollection_AsciiString theval;    // temporaire pour construire Value

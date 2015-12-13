@@ -11,8 +11,8 @@
 #include <Handle_Intrv_SequenceNodeOfSequenceOfInterval.hxx>
 
 #include <Intrv_Interval.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class Intrv_Interval;
 class Intrv_SequenceOfInterval;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence Intrv_SequenceOfInterval
 #define TCollection_Sequence_hxx <Intrv_SequenceOfInterval.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

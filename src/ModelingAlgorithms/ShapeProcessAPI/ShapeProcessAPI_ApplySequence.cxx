@@ -18,7 +18,7 @@
 #include <TopoDS_Shape.hxx>
 #include <TopTools_DataMapOfShapeShape.hxx>
 #include <ShapeProcessAPI_ApplySequence.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TopoDS_Iterator.hxx>
 #include <TopTools_DataMapIteratorOfDataMapOfShapeShape.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>

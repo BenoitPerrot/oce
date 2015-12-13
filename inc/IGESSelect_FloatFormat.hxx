@@ -11,7 +11,7 @@
 #include <Handle_IGESSelect_FloatFormat.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <IGESSelect_FileModifier.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

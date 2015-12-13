@@ -8,21 +8,21 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Storage/Storage_IndexedDataMapNodeOfPType.hxx>
  
 
 #define TheKey TCollection_AsciiString
-#define TheKey_hxx <TCollection_AsciiString.hxx>
+#define TheKey_hxx <Foundation/TCollection/TCollection_AsciiString.hxx>
 #define TheItem Standard_Integer
 #define TheItem_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define Hasher TCollection_AsciiString
-#define Hasher_hxx <TCollection_AsciiString.hxx>
+#define Hasher_hxx <Foundation/TCollection/TCollection_AsciiString.hxx>
 #define TCollection_IndexedDataMapNode Storage_IndexedDataMapNodeOfPType
 #define TCollection_IndexedDataMapNode_hxx <Foundation/Storage/Storage_IndexedDataMapNodeOfPType.hxx>
 #define Handle_TCollection_IndexedDataMapNode Handle_Storage_IndexedDataMapNodeOfPType
 #define TCollection_IndexedDataMapNode_Type_() Storage_IndexedDataMapNodeOfPType_Type_()
 #define TCollection_IndexedDataMap Storage_PType
 #define TCollection_IndexedDataMap_hxx <Foundation/Storage/Storage_PType.hxx>
-#include <TCollection_IndexedDataMap.gxx>
+#include <Foundation/TCollection/TCollection_IndexedDataMap.gxx>
 

@@ -28,7 +28,7 @@
 
 #include <StepGeom_BSplineSurface.hxx>
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 
 // --- Enum : BSplineSurfaceForm ---

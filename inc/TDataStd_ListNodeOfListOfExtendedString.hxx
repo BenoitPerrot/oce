@@ -10,9 +10,9 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TDataStd_ListNodeOfListOfExtendedString.hxx>
 
-#include <TCollection_ExtendedString.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class TCollection_ExtendedString;
 class TDataStd_ListOfExtendedString;
 class TDataStd_ListIteratorOfListOfExtendedString;
@@ -48,7 +48,7 @@ private:
 };
 
 #define Item TCollection_ExtendedString
-#define Item_hxx <TCollection_ExtendedString.hxx>
+#define Item_hxx <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #define TCollection_ListNode TDataStd_ListNodeOfListOfExtendedString
 #define TCollection_ListNode_hxx <TDataStd_ListNodeOfListOfExtendedString.hxx>
 #define TCollection_ListIterator TDataStd_ListIteratorOfListOfExtendedString
@@ -58,7 +58,7 @@ private:
 #define TCollection_List TDataStd_ListOfExtendedString
 #define TCollection_List_hxx <TDataStd_ListOfExtendedString.hxx>
 
-#include <TCollection_ListNode.lxx>
+#include <Foundation/TCollection/TCollection_ListNode.lxx>
 
 #undef Item
 #undef Item_hxx

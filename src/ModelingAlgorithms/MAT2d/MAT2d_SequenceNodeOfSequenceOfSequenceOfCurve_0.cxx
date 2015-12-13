@@ -35,5 +35,5 @@ IMPLEMENT_STANDARD_RTTI(MAT2d_SequenceNodeOfSequenceOfSequenceOfCurve)
 #define TCollection_SequenceNode_Type_() MAT2d_SequenceNodeOfSequenceOfSequenceOfCurve_Type_()
 #define TCollection_Sequence MAT2d_SequenceOfSequenceOfCurve
 #define TCollection_Sequence_hxx <MAT2d_SequenceOfSequenceOfCurve.hxx>
-#include <TCollection_SequenceNode.gxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

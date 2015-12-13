@@ -6,7 +6,7 @@
 #include <MeshVS_DataMapIteratorOfDataMapOfIntegerAsciiString.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TColStd_MapIntegerHasher.hxx>
 #include <MeshVS_DataMapOfIntegerAsciiString.hxx>
 #include <MeshVS_DataMapNodeOfDataMapOfIntegerAsciiString.hxx>
@@ -15,7 +15,7 @@
 #define TheKey Standard_Integer
 #define TheKey_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheItem TCollection_AsciiString
-#define TheItem_hxx <TCollection_AsciiString.hxx>
+#define TheItem_hxx <Foundation/TCollection/TCollection_AsciiString.hxx>
 #define Hasher TColStd_MapIntegerHasher
 #define Hasher_hxx <TColStd_MapIntegerHasher.hxx>
 #define TCollection_DataMapNode MeshVS_DataMapNodeOfDataMapOfIntegerAsciiString
@@ -26,5 +26,5 @@
 #define TCollection_DataMapNode_Type_() MeshVS_DataMapNodeOfDataMapOfIntegerAsciiString_Type_()
 #define TCollection_DataMap MeshVS_DataMapOfIntegerAsciiString
 #define TCollection_DataMap_hxx <MeshVS_DataMapOfIntegerAsciiString.hxx>
-#include <TCollection_DataMapIterator.gxx>
+#include <Foundation/TCollection/TCollection_DataMapIterator.gxx>
 

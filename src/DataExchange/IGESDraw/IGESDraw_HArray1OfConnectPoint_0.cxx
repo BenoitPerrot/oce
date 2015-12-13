@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(IGESDraw_HArray1OfConnectPoint)
 #define TCollection_HArray1_hxx <IGESDraw_HArray1OfConnectPoint.hxx>
 #define Handle_TCollection_HArray1 Handle_IGESDraw_HArray1OfConnectPoint
 #define TCollection_HArray1_Type_() IGESDraw_HArray1OfConnectPoint_Type_()
-#include <TCollection_HArray1.gxx>
+#include <Foundation/TCollection/TCollection_HArray1.gxx>
 

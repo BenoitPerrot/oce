@@ -11,8 +11,8 @@
 #include <Handle_Message_SequenceNodeOfSequenceOfProgressScale.hxx>
 
 #include <Foundation/Message/Message_ProgressScale.hxx>
-#include <TCollection_SeqNode.hxx>
-#include <TCollection_SeqNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_SeqNode.hxx>
+#include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class Message_ProgressScale;
 class Message_SequenceOfProgressScale;
 
@@ -55,7 +55,7 @@ private:
 #define TCollection_Sequence Message_SequenceOfProgressScale
 #define TCollection_Sequence_hxx <Foundation/Message/Message_SequenceOfProgressScale.hxx>
 
-#include <TCollection_SequenceNode.lxx>
+#include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 
 #undef SeqItem
 #undef SeqItem_hxx

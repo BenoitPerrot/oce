@@ -13,7 +13,7 @@
 #include <Handle_CDF_StoreList.hxx>
 #include <Handle_CDM_Document.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <TCollection_ExtendedString.hxx>
+#include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <PCDM_StoreStatus.hxx>
 #include <CDF_TryStoreStatus.hxx>
 #include <Foundation/Standard/Standard_ExtString.hxx>

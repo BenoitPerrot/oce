@@ -36,7 +36,7 @@
 #include <TNaming_Selector.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopAbs.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TDF_LabelMap.hxx>
 
 #include <DBRep.hxx>

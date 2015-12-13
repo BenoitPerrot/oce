@@ -34,7 +34,7 @@
 #include <TDataStd.hxx>
 #include <TDataStd_Name.hxx>
 
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TDataStd_ListOfExtendedString.hxx>
 
 

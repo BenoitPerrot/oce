@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_TYPE_END(BinDrivers_DocumentStorageDriver)
 IMPLEMENT_DOWNCAST(BinDrivers_DocumentStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinDrivers_DocumentStorageDriver)
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
-#include <TCollection_AsciiString.hxx>
+#include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <BinDrivers.hxx>
 #include <BinMDF_ADriver.hxx>
 #include <BinMNaming_NamedShapeDriver.hxx>

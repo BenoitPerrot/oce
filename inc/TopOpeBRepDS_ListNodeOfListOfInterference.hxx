@@ -11,8 +11,8 @@
 #include <Handle_TopOpeBRepDS_ListNodeOfListOfInterference.hxx>
 
 #include <Handle_TopOpeBRepDS_Interference.hxx>
-#include <TCollection_MapNode.hxx>
-#include <TCollection_MapNodePtr.hxx>
+#include <Foundation/TCollection/TCollection_MapNode.hxx>
+#include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class TopOpeBRepDS_Interference;
 class TopOpeBRepDS_ListOfInterference;
 class TopOpeBRepDS_ListIteratorOfListOfInterference;
@@ -58,7 +58,7 @@ private:
 #define TCollection_List TopOpeBRepDS_ListOfInterference
 #define TCollection_List_hxx <TopOpeBRepDS_ListOfInterference.hxx>
 
-#include <TCollection_ListNode.lxx>
+#include <Foundation/TCollection/TCollection_ListNode.lxx>
 
 #undef Item
 #undef Item_hxx
