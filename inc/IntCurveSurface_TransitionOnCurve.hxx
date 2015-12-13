@@ -6,7 +6,7 @@
 #ifndef _IntCurveSurface_TransitionOnCurve_HeaderFile
 #define _IntCurveSurface_TransitionOnCurve_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 //! \ Uo     ^        \ U1     ^

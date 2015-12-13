@@ -19,12 +19,12 @@
 #include <IGESData_HArray1OfIGESEntity.hxx>
 #include <IGESSolid_HArray1OfVertexList.hxx>
 #include <TColStd_HArray1OfInteger.hxx>
-#include <Standard_DimensionMismatch.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_DimensionMismatch.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <IGESData_IGESEntity.hxx>
 #include <IGESSolid_VertexList.hxx>
 #include <IGESSolid_EdgeList.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESSolid_EdgeList)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(IGESData_IGESEntity),

@@ -6,13 +6,13 @@
 #ifndef _TopOpeBRepDS_Filter_HeaderFile
 #define _TopOpeBRepDS_Filter_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_TopOpeBRepDS_HDataStructure.hxx>
 #include <TopOpeBRepTool_PShapeClassifier.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class TopOpeBRepDS_HDataStructure;
 class TopOpeBRepDS_DataMapOfShapeListOfShapeOn1State;
 

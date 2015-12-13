@@ -6,22 +6,22 @@
 #ifndef _TopOpeBRep_EdgesIntersector_HeaderFile
 #define _TopOpeBRep_EdgesIntersector_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TopoDS_Face.hxx>
 #include <Handle_BRepAdaptor_HSurface.hxx>
 #include <GeomAbs_SurfaceType.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <IntRes2d_Domain.hxx>
 #include <TopoDS_Edge.hxx>
 #include <Geom2dAdaptor_Curve.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Geom2dInt_GInter.hxx>
 #include <IntRes2d_SequenceOfIntersectionPoint.hxx>
 #include <IntRes2d_SequenceOfIntersectionSegment.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <TopOpeBRep_SequenceOfPoint2d.hxx>
 #include <TopOpeBRep_P2Dstatus.hxx>

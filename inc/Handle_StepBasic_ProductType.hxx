@@ -6,8 +6,8 @@
 #ifndef _Handle_StepBasic_ProductType_HeaderFile
 #define _Handle_StepBasic_ProductType_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepBasic_ProductRelatedProductCategory.hxx>
 
 class Standard_Transient;

@@ -6,12 +6,12 @@
 #ifndef _MoniTool_IndexedDataMapNodeOfIndexedDataMapOfShapeTransient_HeaderFile
 #define _MoniTool_IndexedDataMapNodeOfIndexedDataMapOfShapeTransient_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_MoniTool_IndexedDataMapNodeOfIndexedDataMapOfShapeTransient.hxx>
 
 #include <TopoDS_Shape.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <TCollection_MapNodePtr.hxx>
 #include <TCollection_MapNode.hxx>
@@ -62,7 +62,7 @@ private:
 #define TheKey TopoDS_Shape
 #define TheKey_hxx <TopoDS_Shape.hxx>
 #define TheItem Handle(Standard_Transient)
-#define TheItem_hxx <Standard_Transient.hxx>
+#define TheItem_hxx <Foundation/Standard/Standard_Transient.hxx>
 #define Hasher TopTools_ShapeMapHasher
 #define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
 #define TCollection_IndexedDataMapNode MoniTool_IndexedDataMapNodeOfIndexedDataMapOfShapeTransient

@@ -6,11 +6,11 @@
 #ifndef _IntAna_Int3Pln_HeaderFile
 #define _IntAna_Int3Pln_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <gp_Pnt.hxx>
 class StdFail_NotDone;
 class Standard_DomainError;

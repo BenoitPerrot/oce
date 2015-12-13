@@ -15,10 +15,10 @@
 #ifndef _Handle_Standard_Transient_HeaderFile
 #define _Handle_Standard_Transient_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_PrimitiveTypes.hxx>
-#include <Standard_Transient_proto.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_Transient_proto.hxx>
 
 #ifdef _MSC_VER
 // Disable the warning "conversion from 'unsigned int' to Standard_Transient *"

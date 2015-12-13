@@ -19,13 +19,13 @@
 //#endif
 
 #include <StdFail_NotDone.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_DimensionError.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_DimensionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <math_Matrix.hxx>
 #include <math_Householder.hxx>
-#include <Standard_DimensionError.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_DimensionError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 
 // Cette classe decrit la methode de Householder qui transforme A en un
 // produit de matrice orthogonale par une triangulaire superieure. Les seconds

@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
 #include <gp_Ax2d.hxx>
 #include <gp_Lin2d.hxx>
 #include <gp_Pnt2d.hxx>
@@ -23,7 +23,7 @@
 #include <gp_Trsf2d.hxx>
 #include <Geom2d_Geometry.hxx>
 #include <Geom2d_Line.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Geom2d_Line)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Geom2d_Curve),
@@ -38,7 +38,7 @@ IMPLEMENT_STANDARD_RTTI(Geom2d_Line)
 #include <Precision.hxx>
 #include <ElCLib.hxx>
 #include <gp_XY.hxx>
-#include <Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
 
 
 typedef Geom2d_Line         Line;

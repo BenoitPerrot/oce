@@ -6,20 +6,20 @@
 #ifndef _MoniTool_CaseData_HeaderFile
 #define _MoniTool_CaseData_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_MoniTool_CaseData.hxx>
 
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <TColStd_SequenceOfTransient.hxx>
 #include <TColStd_SequenceOfInteger.hxx>
 #include <TColStd_SequenceOfAsciiString.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_CString.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Standard_Transient.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Standard_Type.hxx>
 class Standard_Transient;
 class TopoDS_Shape;

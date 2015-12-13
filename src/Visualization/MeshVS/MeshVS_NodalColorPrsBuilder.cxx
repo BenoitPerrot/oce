@@ -29,7 +29,7 @@
 #include <TColStd_Array1OfReal.hxx>
 #include <Graphic3d_ArrayOfPrimitives.hxx>
 #include <MeshVS_NodalColorPrsBuilder.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MeshVS_NodalColorPrsBuilder)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MeshVS_PrsBuilder),
@@ -76,7 +76,7 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_NodalColorPrsBuilder)
 #include <Image_PixMap.hxx>
 #include <Graphic3d_Texture2D.hxx>
 #include <Graphic3d_TypeOfTextureMode.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <PrsMgr_PresentationManager3d.hxx>
 #include <AIS_Drawer.hxx>
 #include <Foundation/Quantity/Quantity_Array1OfColor.hxx>

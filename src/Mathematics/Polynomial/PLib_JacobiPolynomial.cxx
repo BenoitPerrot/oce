@@ -13,11 +13,11 @@
 // commercial license or contractual agreement.
 
 #include <TColStd_HArray1OfReal.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <TColStd_Array1OfReal.hxx>
 #include <TColStd_Array2OfReal.hxx>
 #include <PLib_JacobiPolynomial.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PLib_JacobiPolynomial)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(PLib_Base),
@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_RTTI(PLib_JacobiPolynomial)
 #include <math_Vector.hxx>
 #include <TColStd_Array2OfReal.hxx> 
 #include <PLib.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 
 #include <PLib_JacobiPolynomial_0.hxx>
 

@@ -16,8 +16,8 @@
 #ifndef __IVTK_INTERFACE_H__
 #define __IVTK_INTERFACE_H__
 
-#include <Standard_DefineHandle.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 
 DEFINE_STANDARD_HANDLE( IVtk_Interface, Standard_Transient )
 

@@ -16,7 +16,7 @@
 #ifndef Poly_CoherentLink_HeaderFile
 #define Poly_CoherentLink_HeaderFile
 
-#include <Standard_TypeDef.hxx>
+#include <Foundation/Standard/Standard_TypeDef.hxx>
 
 class Poly_CoherentTriangle;
 class Poly_CoherentTriangulation;

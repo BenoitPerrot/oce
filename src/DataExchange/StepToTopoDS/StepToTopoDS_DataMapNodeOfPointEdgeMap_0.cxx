@@ -5,7 +5,7 @@
 
 #include <StepToTopoDS_DataMapNodeOfPointEdgeMap.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <StepToTopoDS_PointPair.hxx>
 #include <TopoDS_Edge.hxx>

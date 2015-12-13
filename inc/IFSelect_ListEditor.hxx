@@ -6,17 +6,17 @@
 #ifndef _IFSelect_ListEditor_HeaderFile
 #define _IFSelect_ListEditor_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IFSelect_ListEditor.hxx>
 
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Interface_TypedValue.hxx>
 #include <Handle_TColStd_HSequenceOfHAsciiString.hxx>
 #include <Handle_TColStd_HSequenceOfInteger.hxx>
 #include <Handle_Interface_InterfaceModel.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 class Interface_TypedValue;
 class TColStd_HSequenceOfHAsciiString;

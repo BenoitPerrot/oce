@@ -6,14 +6,14 @@
 #ifndef _Geom2dInt_TheDistBetweenPCurvesOfTheIntPCurvePCurveOfGInter_HeaderFile
 #define _Geom2dInt_TheDistBetweenPCurvesOfTheIntPCurvePCurveOfGInter_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
 #include <math_FunctionSetWithDerivatives.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <math_Vector.hxx>
 class Adaptor2d_Curve2d;
 class Geom2dInt_Geom2dCurveTool;

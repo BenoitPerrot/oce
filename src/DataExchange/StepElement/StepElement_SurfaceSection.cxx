@@ -17,7 +17,7 @@
 
 #include <StepElement_MeasureOrUnspecifiedValue.hxx>
 #include <StepElement_SurfaceSection.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepElement_SurfaceSection)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

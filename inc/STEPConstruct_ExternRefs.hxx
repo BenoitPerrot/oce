@@ -6,9 +6,9 @@
 #ifndef _STEPConstruct_ExternRefs_HeaderFile
 #define _STEPConstruct_ExternRefs_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TColStd_SequenceOfTransient.hxx>
 #include <TColStd_SequenceOfInteger.hxx>
@@ -19,9 +19,9 @@
 #include <Handle_StepBasic_ApplicationProtocolDefinition.hxx>
 #include <STEPConstruct_Tool.hxx>
 #include <Handle_XSControl_WorkSession.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_StepBasic_ProductDefinition.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Handle_StepAP214_AppliedDocumentReference.hxx>

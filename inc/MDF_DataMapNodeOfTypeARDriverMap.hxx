@@ -6,8 +6,8 @@
 #ifndef _MDF_DataMapNodeOfTypeARDriverMap_HeaderFile
 #define _MDF_DataMapNodeOfTypeARDriverMap_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_MDF_DataMapNodeOfTypeARDriverMap.hxx>
 
 #include <Handle_Standard_Type.hxx>
@@ -54,7 +54,7 @@ private:
 };
 
 #define TheKey Handle(Standard_Type)
-#define TheKey_hxx <Standard_Type.hxx>
+#define TheKey_hxx <Foundation/Standard/Standard_Type.hxx>
 #define TheItem Handle(MDF_ARDriver)
 #define TheItem_hxx <MDF_ARDriver.hxx>
 #define Hasher TColStd_MapTransientHasher

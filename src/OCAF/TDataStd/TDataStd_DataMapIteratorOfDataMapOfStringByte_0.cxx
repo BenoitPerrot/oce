@@ -5,7 +5,7 @@
 
 #include <TDataStd_DataMapIteratorOfDataMapOfStringByte.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TCollection_ExtendedString.hxx>
 #include <TDataStd_DataMapOfStringByte.hxx>
 #include <TDataStd_DataMapNodeOfDataMapOfStringByte.hxx>
@@ -14,7 +14,7 @@
 #define TheKey TCollection_ExtendedString
 #define TheKey_hxx <TCollection_ExtendedString.hxx>
 #define TheItem Standard_Byte
-#define TheItem_hxx <Standard_Byte.hxx>
+#define TheItem_hxx <Foundation/Standard/Standard_Byte.hxx>
 #define Hasher TCollection_ExtendedString
 #define Hasher_hxx <TCollection_ExtendedString.hxx>
 #define TCollection_DataMapNode TDataStd_DataMapNodeOfDataMapOfStringByte

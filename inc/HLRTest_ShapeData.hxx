@@ -6,8 +6,8 @@
 #ifndef _HLRTest_ShapeData_HeaderFile
 #define _HLRTest_ShapeData_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_HLRTest_ShapeData.hxx>
 
 #include <Draw_Color.hxx>

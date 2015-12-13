@@ -29,7 +29,7 @@
 #include <HLRBRep_EdgeBuilder.hxx>
 #include <HLRBRep_VertexList.hxx>
 #include <HLRBRep_EdgeInterferenceTool.hxx>
-#include <Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
 
 
 //=======================================================================

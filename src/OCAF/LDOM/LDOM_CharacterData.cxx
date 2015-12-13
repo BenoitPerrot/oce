@@ -15,7 +15,7 @@
 
 #include <LDOM_CharacterData.hxx>
 #include <LDOM_BasicText.hxx>
-#include <Standard_ProgramError.hxx>
+#include <Foundation/Standard/Standard_ProgramError.hxx>
 
 //=======================================================================
 //function : LDOM_CharacterData

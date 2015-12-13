@@ -16,7 +16,7 @@
 #include <StepData_Protocol.hxx>
 #include <StepData_StepWriter.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <StepData_StepDumper.hxx>
 #include <StepData_ReadWriteModule.hxx>
 #include <TColStd_Array1OfInteger.hxx>

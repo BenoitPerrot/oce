@@ -16,7 +16,7 @@
 #include <TCollection_HAsciiString.hxx>
 #include <StepAP214_AutoDesignReferencingItem.hxx>
 #include <StepAP214_AutoDesignDocumentReference.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepAP214_AutoDesignDocumentReference)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepBasic_DocumentReference),

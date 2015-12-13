@@ -15,12 +15,12 @@
 // commercial license or contractual agreement.
 
 #include <Expr_GeneralExpression.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_NumericError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NumericError.hxx>
 #include <Expr_InvalidOperand.hxx>
 #include <Expr_NamedUnknown.hxx>
 #include <Expr_UnaryExpression.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Expr_UnaryExpression)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Expr_GeneralExpression),
@@ -32,7 +32,7 @@ IMPLEMENT_DOWNCAST(Expr_UnaryExpression,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Expr_UnaryExpression)
 #include <Expr_NamedUnknown.hxx>
 #include <Expr_InvalidOperand.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 
 void Expr_UnaryExpression::SetOperand (const Handle(Expr_GeneralExpression)& exp)
 {

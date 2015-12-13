@@ -6,16 +6,16 @@
 #ifndef _XSControl_Writer_HeaderFile
 #define _XSControl_Writer_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_XSControl_WorkSession.hxx>
-#include <Standard_CString.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Interface_InterfaceModel.hxx>
 #include <IFSelect_ReturnStatus.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class XSControl_WorkSession;
 class Interface_InterfaceModel;
 class TopoDS_Shape;

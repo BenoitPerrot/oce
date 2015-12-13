@@ -16,11 +16,11 @@
 
 
 
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <gp_Pnt.hxx>
 #include <Convert_ElementarySurfaceToBSplineSurface.hxx>
 
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 
 
 //=======================================================================

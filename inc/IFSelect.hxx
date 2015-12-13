@@ -6,13 +6,13 @@
 #ifndef _IFSelect_HeaderFile
 #define _IFSelect_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_IFSelect_WorkSession.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 class IFSelect_WorkSession;
 class IFSelect_Signature;
 class IFSelect_SignMultiple;

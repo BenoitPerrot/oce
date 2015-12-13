@@ -35,7 +35,7 @@
 #include <gp_Pln.hxx>
 #include <TopOpeBRepTool_box.hxx>
 #include <TopOpeBRepTool_define.hxx>
-#include <Standard_ProgramError.hxx>
+#include <Foundation/Standard/Standard_ProgramError.hxx>
 
 #ifdef OCCT_DEBUG
 #define TBOX TopOpeBRepTool_GettraceBOX()

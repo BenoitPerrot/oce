@@ -6,14 +6,14 @@
 #ifndef _Graphic3d_TextureMap_HeaderFile
 #define _Graphic3d_TextureMap_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Graphic3d_TextureMap.hxx>
 
 #include <Graphic3d_TextureRoot.hxx>
 #include <Graphic3d_TypeOfTexture.hxx>
 #include <Image_PixMap_Handle.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Graphic3d_LevelOfTextureAnisotropy.hxx>
 class TCollection_AsciiString;
 

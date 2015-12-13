@@ -6,12 +6,12 @@
 #ifndef _MeshVS_NodalColorPrsBuilder_HeaderFile
 #define _MeshVS_NodalColorPrsBuilder_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_MeshVS_NodalColorPrsBuilder.hxx>
 
 #include <MeshVS_DataMapOfIntegerColor.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Aspect_SequenceOfColor.hxx>
 #include <TColStd_DataMapOfIntegerReal.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
@@ -19,11 +19,11 @@
 #include <Handle_MeshVS_Mesh.hxx>
 #include <MeshVS_DisplayModeFlags.hxx>
 #include <Handle_MeshVS_DataSource.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <MeshVS_BuilderPriority.hxx>
 #include <Handle_Prs3d_Presentation.hxx>
 #include <TColStd_PackedMapOfInteger.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Graphic3d_Texture2D.hxx>
 #include <Handle_MeshVS_HArray1OfSequenceOfInteger.hxx>
 #include <Handle_Graphic3d_ArrayOfPrimitives.hxx>

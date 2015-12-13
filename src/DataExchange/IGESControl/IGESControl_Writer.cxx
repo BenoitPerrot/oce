@@ -14,12 +14,12 @@
 //cky 16.01.99 Remove couts.
 //rln 28.12.98 CCI60005
 
-#include <Standard_Stream.hxx>
+#include <Foundation/Standard/Standard_Stream.hxx>
 
 #include <Transfer_FinderProcess.hxx>
 #include <IGESData_IGESModel.hxx>
 #include <TopoDS_Shape.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <IGESData_IGESEntity.hxx>
 #include <IGESControl_Writer.hxx>
 #include <IGESControl_Controller.hxx>

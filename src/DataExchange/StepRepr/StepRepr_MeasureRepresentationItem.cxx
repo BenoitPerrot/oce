@@ -19,7 +19,7 @@
 #include <StepBasic_MeasureValueMember.hxx>
 #include <StepBasic_Unit.hxx>
 #include <StepRepr_MeasureRepresentationItem.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepRepr_MeasureRepresentationItem)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepRepr_RepresentationItem),

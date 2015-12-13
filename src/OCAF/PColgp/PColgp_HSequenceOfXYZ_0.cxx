@@ -5,12 +5,12 @@
 
 #include <PColgp_HSequenceOfXYZ.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <PColgp_HSequenceOfXYZ.hxx>
 #include <PColgp_SeqNodeOfHSequenceOfXYZ.hxx>
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <PColgp_SeqExplorerOfHSequenceOfXYZ.hxx>
 #include <gp_XYZ.hxx>
  

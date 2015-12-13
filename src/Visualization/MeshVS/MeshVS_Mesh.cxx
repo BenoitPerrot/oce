@@ -23,7 +23,7 @@
 #include <SelectMgr_SequenceOfOwner.hxx>
 #include <MeshVS_DataMapOfIntegerOwner.hxx>
 #include <MeshVS_Mesh.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MeshVS_Mesh)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(AIS_InteractiveObject),

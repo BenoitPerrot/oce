@@ -16,7 +16,7 @@
 #include <TopoDS_Shape.hxx>
 #include <BinTools_LocationSet.hxx>
 #include <BinTools_ShapeSet.hxx>
-#include <Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Precision.hxx>
 #include <TColStd_HArray1OfReal.hxx>
 #include <TColStd_HArray1OfInteger.hxx>

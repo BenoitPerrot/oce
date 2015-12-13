@@ -22,16 +22,16 @@
 
 #include <TColStd_HArray1OfReal.hxx>
 #include <TColStd_HArray1OfInteger.hxx>
-#include <Standard_ConstructionError.hxx>
-#include <Standard_DimensionError.hxx>
-#include <Standard_DomainError.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_RangeError.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_DimensionError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TColStd_Array1OfReal.hxx>
 #include <TColStd_Array1OfInteger.hxx>
 #include <Law_BSpline.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Law_BSpline)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),
@@ -45,12 +45,12 @@ IMPLEMENT_STANDARD_RTTI(Law_BSpline)
 #include <BSplCLib_KnotDistribution.hxx>
 #include <BSplCLib_MultDistribution.hxx>
 
-#include <Standard_DimensionError.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_DomainError.hxx>
-#include <Standard_RangeError.hxx>
-#include <Standard_NotImplemented.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_DimensionError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 
 #define  POLES    (poles->Array1())
 #define  KNOTS    (knots->Array1())

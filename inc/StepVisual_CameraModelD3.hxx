@@ -6,8 +6,8 @@
 #ifndef _StepVisual_CameraModelD3_HeaderFile
 #define _StepVisual_CameraModelD3_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepVisual_CameraModelD3.hxx>
 
 #include <Handle_StepGeom_Axis2Placement3d.hxx>

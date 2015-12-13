@@ -6,20 +6,20 @@
 #ifndef _MeshVS_DeformedDataSource_HeaderFile
 #define _MeshVS_DeformedDataSource_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_MeshVS_DeformedDataSource.hxx>
 
 #include <Handle_MeshVS_DataSource.hxx>
 #include <TColStd_PackedMapOfInteger.hxx>
 #include <MeshVS_DataMapOfIntegerVector.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <MeshVS_DataSource.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <MeshVS_EntityType.hxx>
 #include <Handle_MeshVS_HArray1OfSequenceOfInteger.hxx>
-#include <Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
 class MeshVS_DataSource;
 class TColStd_Array1OfReal;
 class MeshVS_HArray1OfSequenceOfInteger;

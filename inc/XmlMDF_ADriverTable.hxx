@@ -6,14 +6,14 @@
 #ifndef _XmlMDF_ADriverTable_HeaderFile
 #define _XmlMDF_ADriverTable_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_XmlMDF_ADriverTable.hxx>
 
 #include <XmlMDF_TypeADriverMap.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_XmlMDF_ADriver.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Standard_Type.hxx>
 class XmlMDF_ADriver;
 class XmlMDF_TypeADriverMap;

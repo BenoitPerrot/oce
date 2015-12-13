@@ -11,9 +11,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_TypeMismatch.hxx>
-#include <Standard_Transient.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_TypeMismatch.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 #include <TColStd_HSequenceOfTransient.hxx>
 #include <TCollection_HAsciiString.hxx>
 #include <TCollection_AsciiString.hxx>

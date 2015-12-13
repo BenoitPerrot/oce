@@ -7,7 +7,7 @@
 
 #include <ShapeProcess_DictionaryOfOperator.hxx>
 #include <ShapeProcess_StackItemOfDictionaryOfOperator.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <ShapeProcess_Operator.hxx>
 #include <TCollection_AsciiString.hxx>
  

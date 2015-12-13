@@ -6,11 +6,11 @@
 #ifndef _GccAna_LinPnt2dBisec_HeaderFile
 #define _GccAna_LinPnt2dBisec_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_GccInt_Bisec.hxx>
 class GccInt_Bisec;
 class Standard_ConstructionError;

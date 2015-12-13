@@ -6,18 +6,18 @@
 #ifndef _TDataStd_ByteArray_HeaderFile
 #define _TDataStd_ByteArray_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TDataStd_ByteArray.hxx>
 
 #include <Handle_TColStd_HArray1OfByte.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <TDF_Attribute.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Byte.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Byte.hxx>
 #include <Handle_TDF_Attribute.hxx>
 #include <Handle_TDF_RelocationTable.hxx>
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 #include <Handle_TDF_DeltaOnModification.hxx>
 class TColStd_HArray1OfByte;
 class TDataStd_DeltaOnModificationOfByteArray;

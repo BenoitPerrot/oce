@@ -16,9 +16,9 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <IGESBasic_OrderedGroupWithoutBackP.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESBasic_OrderedGroupWithoutBackP)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(IGESBasic_Group),

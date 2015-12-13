@@ -18,7 +18,7 @@
 #include <StepBasic_Unit.hxx>
 #include <StepShape_ValueQualifier.hxx>
 #include <StepShape_MeasureRepresentationItemAndQualifiedRepresentationItem.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepShape_MeasureRepresentationItemAndQualifiedRepresentationItem)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepRepr_RepresentationItem),

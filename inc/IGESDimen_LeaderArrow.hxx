@@ -6,15 +6,15 @@
 #ifndef _IGESDimen_LeaderArrow_HeaderFile
 #define _IGESDimen_LeaderArrow_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESDimen_LeaderArrow.hxx>
 
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <gp_XY.hxx>
 #include <Handle_TColgp_HArray1OfXY.hxx>
 #include <IGESData_IGESEntity.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class TColgp_HArray1OfXY;
 class Standard_OutOfRange;
 class gp_XY;

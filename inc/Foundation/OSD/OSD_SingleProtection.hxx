@@ -6,7 +6,7 @@
 #ifndef _OSD_SingleProtection_HeaderFile
 #define _OSD_SingleProtection_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Access rights for files.
 //! R means Read, W means Write, X means eXecute and D means Delete.

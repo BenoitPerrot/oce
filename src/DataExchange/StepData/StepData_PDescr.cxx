@@ -12,12 +12,12 @@
 // commercial license or contractual agreement.
 
 #include <StepData_PDescr.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 #include <StepData_EDescr.hxx>
 #include <StepData_Field.hxx>
 #include <Interface_Check.hxx>
 #include <StepData_PDescr.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepData_PDescr)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

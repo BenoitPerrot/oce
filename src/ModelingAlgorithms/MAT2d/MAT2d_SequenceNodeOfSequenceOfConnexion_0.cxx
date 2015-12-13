@@ -5,7 +5,7 @@
 
 #include <MAT2d_SequenceNodeOfSequenceOfConnexion.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <MAT2d_Connexion.hxx>
 #include <MAT2d_SequenceOfConnexion.hxx>

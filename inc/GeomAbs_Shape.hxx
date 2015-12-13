@@ -6,7 +6,7 @@
 #ifndef _GeomAbs_Shape_HeaderFile
 #define _GeomAbs_Shape_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 //! Provides information about the continuity of a curve:

@@ -15,12 +15,12 @@
 // commercial license or contractual agreement.
 
 #include <CDM_MessageDriver.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 #include <PDF_Attribute.hxx>
 #include <TDF_Attribute.hxx>
 #include <MDF_SRelocationTable.hxx>
 #include <MFunction_FunctionStorageDriver.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MFunction_FunctionStorageDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MDF_ASDriver),
@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_RTTI(MFunction_FunctionStorageDriver)
 #include <TFunction_Function.hxx>
 #include <PFunction_Function.hxx>
 #include <CDM_MessageDriver.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 
 MFunction_FunctionStorageDriver::MFunction_FunctionStorageDriver(const Handle(CDM_MessageDriver)& theMsgDriver):MDF_ASDriver(theMsgDriver)
 {}

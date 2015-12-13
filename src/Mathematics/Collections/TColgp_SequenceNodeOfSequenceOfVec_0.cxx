@@ -5,7 +5,7 @@
 
 #include <TColgp_SequenceNodeOfSequenceOfVec.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <gp_Vec.hxx>
 #include <TColgp_SequenceOfVec.hxx>

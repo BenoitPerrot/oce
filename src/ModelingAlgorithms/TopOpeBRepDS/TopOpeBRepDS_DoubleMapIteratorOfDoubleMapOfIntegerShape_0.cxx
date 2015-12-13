@@ -5,7 +5,7 @@
 
 #include <TopOpeBRepDS_DoubleMapIteratorOfDoubleMapOfIntegerShape.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TColStd_MapIntegerHasher.hxx>
 #include <TopTools_ShapeMapHasher.hxx>
@@ -14,7 +14,7 @@
  
 
 #define TheKey1 Standard_Integer
-#define TheKey1_hxx <Standard_Integer.hxx>
+#define TheKey1_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheKey2 TopoDS_Shape
 #define TheKey2_hxx <TopoDS_Shape.hxx>
 #define Hasher1 TColStd_MapIntegerHasher

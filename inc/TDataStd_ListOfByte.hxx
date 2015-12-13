@@ -6,15 +6,15 @@
 #ifndef _TDataStd_ListOfByte_HeaderFile
 #define _TDataStd_ListOfByte_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Address.hxx>
-#include <Standard_Byte.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Byte.hxx>
 #include <Handle_TDataStd_ListNodeOfListOfByte.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_NoSuchObject;
 class TDataStd_ListIteratorOfListOfByte;
 class TDataStd_ListNodeOfListOfByte;
@@ -97,7 +97,7 @@ private:
 };
 
 #define Item Standard_Byte
-#define Item_hxx <Standard_Byte.hxx>
+#define Item_hxx <Foundation/Standard/Standard_Byte.hxx>
 #define TCollection_ListNode TDataStd_ListNodeOfListOfByte
 #define TCollection_ListNode_hxx <TDataStd_ListNodeOfListOfByte.hxx>
 #define TCollection_ListIterator TDataStd_ListIteratorOfListOfByte

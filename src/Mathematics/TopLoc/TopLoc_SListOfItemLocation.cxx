@@ -15,11 +15,11 @@
 // commercial license or contractual agreement.
 
 #include <TopLoc_SListNodeOfItemLocation.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopLoc_ItemLocation.hxx>
 #include <TopLoc_SListOfItemLocation.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 
 //=======================================================================
 //function : TopLoc_SListOfItemLocation

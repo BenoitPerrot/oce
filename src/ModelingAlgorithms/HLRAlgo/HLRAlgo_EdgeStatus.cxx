@@ -17,7 +17,7 @@
 #ifndef No_Exception
 #define No_Exception
 #endif
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <HLRAlgo_EdgeStatus.hxx>
 
 //=======================================================================

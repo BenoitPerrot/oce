@@ -13,7 +13,7 @@
 
 #include <TColStd_DataMapOfTransientTransient.hxx>
 #include <Transfer_MapContainer.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Transfer_MapContainer)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

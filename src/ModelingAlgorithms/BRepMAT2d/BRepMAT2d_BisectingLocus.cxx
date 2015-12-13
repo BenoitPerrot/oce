@@ -44,7 +44,7 @@
 # include <TColGeom2d_SequenceOfGeometry.hxx>
 # include <Precision.hxx>
 
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 
 static void CutSketch (MAT2d_SequenceOfSequenceOfGeometry&    Figure,
 		       MAT2d_DataMapOfBiIntInteger&           NbSect);

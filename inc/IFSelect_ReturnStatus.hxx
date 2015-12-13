@@ -6,7 +6,7 @@
 #ifndef _IFSelect_ReturnStatus_HeaderFile
 #define _IFSelect_ReturnStatus_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Qualifies an execution status :
 //! RetVoid  : normal execution which created nothing, or

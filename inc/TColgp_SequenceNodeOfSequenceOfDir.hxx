@@ -6,8 +6,8 @@
 #ifndef _TColgp_SequenceNodeOfSequenceOfDir_HeaderFile
 #define _TColgp_SequenceNodeOfSequenceOfDir_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TColgp_SequenceNodeOfSequenceOfDir.hxx>
 
 #include <gp_Dir.hxx>

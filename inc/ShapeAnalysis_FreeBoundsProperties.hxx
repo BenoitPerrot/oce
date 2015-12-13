@@ -6,15 +6,15 @@
 #ifndef _ShapeAnalysis_FreeBoundsProperties_HeaderFile
 #define _ShapeAnalysis_FreeBoundsProperties_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TopoDS_Shape.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_ShapeAnalysis_HSequenceOfFreeBounds.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_ShapeAnalysis_FreeBoundData.hxx>
 class ShapeAnalysis_HSequenceOfFreeBounds;
 class TopoDS_Shape;

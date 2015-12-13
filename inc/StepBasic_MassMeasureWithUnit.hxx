@@ -6,8 +6,8 @@
 #ifndef _StepBasic_MassMeasureWithUnit_HeaderFile
 #define _StepBasic_MassMeasureWithUnit_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepBasic_MassMeasureWithUnit.hxx>
 
 #include <StepBasic_MeasureWithUnit.hxx>

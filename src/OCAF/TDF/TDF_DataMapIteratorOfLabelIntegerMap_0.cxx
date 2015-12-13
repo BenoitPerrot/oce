@@ -5,7 +5,7 @@
 
 #include <TDF_DataMapIteratorOfLabelIntegerMap.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TDF_Label.hxx>
 #include <TDF_LabelMapHasher.hxx>
 #include <TDF_LabelIntegerMap.hxx>
@@ -15,7 +15,7 @@
 #define TheKey TDF_Label
 #define TheKey_hxx <TDF_Label.hxx>
 #define TheItem Standard_Integer
-#define TheItem_hxx <Standard_Integer.hxx>
+#define TheItem_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define Hasher TDF_LabelMapHasher
 #define Hasher_hxx <TDF_LabelMapHasher.hxx>
 #define TCollection_DataMapNode TDF_DataMapNodeOfLabelIntegerMap

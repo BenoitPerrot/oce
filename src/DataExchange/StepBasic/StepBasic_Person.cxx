@@ -14,7 +14,7 @@
 #include <TCollection_HAsciiString.hxx>
 #include <Interface_HArray1OfHAsciiString.hxx>
 #include <StepBasic_Person.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepBasic_Person)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

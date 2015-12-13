@@ -18,7 +18,7 @@
 #include <StepElement_HArray1OfHSequenceOfCurveElementPurposeMember.hxx>
 #include <TCollection_HAsciiString.hxx>
 #include <StepElement_Curve3dElementDescriptor.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepElement_Curve3dElementDescriptor)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepElement_ElementDescriptor),

@@ -6,8 +6,8 @@
 #ifndef _Handle_Interface_TypedValue_HeaderFile
 #define _Handle_Interface_TypedValue_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_MoniTool_TypedValue.hxx>
 
 class Standard_Transient;

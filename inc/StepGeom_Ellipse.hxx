@@ -6,11 +6,11 @@
 #ifndef _StepGeom_Ellipse_HeaderFile
 #define _StepGeom_Ellipse_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepGeom_Ellipse.hxx>
 
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <StepGeom_Conic.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 class TCollection_HAsciiString;

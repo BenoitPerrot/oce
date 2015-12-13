@@ -21,11 +21,11 @@
 
 #define xTRACE
 
-#include <Standard_NegativeValue.hxx>
-#include <Standard_NullValue.hxx>
-#include <Standard_NumericError.hxx>
+#include <Foundation/Standard/Standard_NegativeValue.hxx>
+#include <Foundation/Standard/Standard_NullValue.hxx>
+#include <Foundation/Standard/Standard_NumericError.hxx>
 #include <Aspect_CircularGrid.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Aspect_CircularGrid)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Aspect_Grid),
@@ -36,7 +36,7 @@ IMPLEMENT_STANDARD_TYPE_END(Aspect_CircularGrid)
 IMPLEMENT_DOWNCAST(Aspect_CircularGrid,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Aspect_CircularGrid)
 #include <Aspect_Grid.hxx>
-#include <Standard_NumericError.hxx>
+#include <Foundation/Standard/Standard_NumericError.hxx>
 Aspect_CircularGrid::Aspect_CircularGrid
      (const Quantity_Length aRadiusStep,
       const Standard_Integer aDivisionNumber,

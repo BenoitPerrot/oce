@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <CDM_NullMessageDriver.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(CDM_NullMessageDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(CDM_MessageDriver),

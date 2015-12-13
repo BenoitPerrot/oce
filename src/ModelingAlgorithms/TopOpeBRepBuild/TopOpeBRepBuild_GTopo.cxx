@@ -17,7 +17,7 @@
 #include <TCollection_AsciiString.hxx>
 #include <TopOpeBRepBuild_GTopo.hxx>
 
-#include <Standard_ProgramError.hxx>
+#include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <TopOpeBRepDS.hxx>
 #include <TopAbs.hxx>
 

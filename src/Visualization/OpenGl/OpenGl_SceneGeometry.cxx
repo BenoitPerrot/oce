@@ -31,7 +31,7 @@
 #include <OpenGl_PrimitiveArray.hxx>
 #include <OpenGl_Structure.hxx>
 #include <Foundation/OSD/OSD_Timer.hxx>
-#include <Standard_Assert.hxx>
+#include <Foundation/Standard/Standard_Assert.hxx>
 
 //! Use this macro to output BVH profiling info
 // #define RAY_TRACE_PRINT_INFO

@@ -16,9 +16,9 @@
 
 //  Modified by skv - Tue Aug  1 16:29:59 2006 OCC13116
 
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <gp_Sphere.hxx>
 #include <gp_Circ.hxx>
 #include <gp_Lin.hxx>

@@ -6,8 +6,8 @@
 #ifndef _ShapeExtend_DataMapNodeOfDataMapOfShapeListOfMsg_HeaderFile
 #define _ShapeExtend_DataMapNodeOfDataMapOfShapeListOfMsg_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ShapeExtend_DataMapNodeOfDataMapOfShapeListOfMsg.hxx>
 
 #include <TopoDS_Shape.hxx>

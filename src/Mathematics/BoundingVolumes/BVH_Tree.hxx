@@ -16,7 +16,7 @@
 #ifndef _BVH_Tree_Header
 #define _BVH_Tree_Header
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <BVH_Box.hxx>
 

@@ -6,16 +6,16 @@
 #ifndef _TDocStd_Modified_HeaderFile
 #define _TDocStd_Modified_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TDocStd_Modified.hxx>
 
 #include <TDF_LabelMap.hxx>
 #include <TDF_Attribute.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_TDF_Attribute.hxx>
 #include <Handle_TDF_RelocationTable.hxx>
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 class TDF_Label;
 class TDF_LabelMap;
 class Standard_GUID;

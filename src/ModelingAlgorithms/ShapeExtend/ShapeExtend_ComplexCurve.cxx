@@ -21,7 +21,7 @@
 #include <gp_Pnt.hxx>
 #include <gp_Vec.hxx>
 #include <ShapeExtend_ComplexCurve.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeExtend_ComplexCurve)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Geom_Curve),

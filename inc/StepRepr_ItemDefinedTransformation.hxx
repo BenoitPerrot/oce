@@ -6,8 +6,8 @@
 #ifndef _StepRepr_ItemDefinedTransformation_HeaderFile
 #define _StepRepr_ItemDefinedTransformation_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepRepr_ItemDefinedTransformation.hxx>
 
 #include <Handle_TCollection_HAsciiString.hxx>

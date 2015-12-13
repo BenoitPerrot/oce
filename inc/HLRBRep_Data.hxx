@@ -6,24 +6,24 @@
 #ifndef _HLRBRep_Data_HeaderFile
 #define _HLRBRep_Data_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_HLRBRep_Data.hxx>
 
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>
 #include <HLRBRep_Array1OfEData.hxx>
 #include <HLRBRep_Array1OfFData.hxx>
 #include <TColStd_Array1OfInteger.hxx>
-#include <Standard_ShortReal.hxx>
+#include <Foundation/Standard/Standard_ShortReal.hxx>
 #include <HLRAlgo_Projector.hxx>
 #include <HLRBRep_CLProps.hxx>
 #include <HLRBRep_SLProps.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <HLRBRep_FaceIterator.hxx>
-#include <Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
 #include <GeomAbs_SurfaceType.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <GeomAbs_CurveType.hxx>
 #include <TopAbs_Orientation.hxx>
 #include <HLRBRep_Intersector.hxx>

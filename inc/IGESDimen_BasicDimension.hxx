@@ -6,11 +6,11 @@
 #ifndef _IGESDimen_BasicDimension_HeaderFile
 #define _IGESDimen_BasicDimension_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESDimen_BasicDimension.hxx>
 
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <gp_XY.hxx>
 #include <IGESData_IGESEntity.hxx>
 class gp_XY;

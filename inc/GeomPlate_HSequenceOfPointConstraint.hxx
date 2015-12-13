@@ -6,15 +6,15 @@
 #ifndef _GeomPlate_HSequenceOfPointConstraint_HeaderFile
 #define _GeomPlate_HSequenceOfPointConstraint_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_GeomPlate_HSequenceOfPointConstraint.hxx>
 
 #include <GeomPlate_SequenceOfPointConstraint.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_GeomPlate_PointConstraint.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;
 class Standard_OutOfRange;
 class GeomPlate_PointConstraint;

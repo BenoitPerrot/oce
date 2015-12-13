@@ -6,18 +6,18 @@
 #ifndef _Dico_DictionaryOfInteger_HeaderFile
 #define _Dico_DictionaryOfInteger_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Dico_DictionaryOfInteger.hxx>
 
-#include <Standard_Character.hxx>
+#include <Foundation/Standard/Standard_Character.hxx>
 #include <Handle_Dico_DictionaryOfInteger.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Dico_StackItemOfDictionaryOfInteger.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_CString.hxx>
-#include <Standard_Size.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
+#include <Foundation/Standard/Standard_Size.hxx>
 class Standard_NoSuchObject;
 class Dico_IteratorOfDictionaryOfInteger;
 class Dico_StackItemOfDictionaryOfInteger;

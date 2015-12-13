@@ -6,17 +6,17 @@
 #ifndef _StepData_ECDescr_HeaderFile
 #define _StepData_ECDescr_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepData_ECDescr.hxx>
 
 #include <TColStd_SequenceOfTransient.hxx>
 #include <StepData_EDescr.hxx>
 #include <Handle_StepData_ESDescr.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TColStd_HSequenceOfAsciiString.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_StepData_Described.hxx>
 class StepData_ESDescr;
 class TColStd_HSequenceOfAsciiString;

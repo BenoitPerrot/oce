@@ -5,9 +5,9 @@
 
 #include <XCAFPrs_DataMapIteratorOfDataMapOfStyleTransient.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <XCAFPrs_Style.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <XCAFPrs_DataMapOfStyleTransient.hxx>
 #include <XCAFPrs_DataMapNodeOfDataMapOfStyleTransient.hxx>
  
@@ -15,7 +15,7 @@
 #define TheKey XCAFPrs_Style
 #define TheKey_hxx <XCAFPrs_Style.hxx>
 #define TheItem Handle(Standard_Transient)
-#define TheItem_hxx <Standard_Transient.hxx>
+#define TheItem_hxx <Foundation/Standard/Standard_Transient.hxx>
 #define Hasher XCAFPrs_Style
 #define Hasher_hxx <XCAFPrs_Style.hxx>
 #define TCollection_DataMapNode XCAFPrs_DataMapNodeOfDataMapOfStyleTransient

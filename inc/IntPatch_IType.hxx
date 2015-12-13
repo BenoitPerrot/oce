@@ -6,7 +6,7 @@
 #ifndef _IntPatch_IType_HeaderFile
 #define _IntPatch_IType_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum IntPatch_IType

@@ -32,7 +32,7 @@
 #include <gp_Vec.hxx>
 #include <IntSurf_Quadric.hxx>
 #include <IntSurf_PntOn2S.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <GeomAbs_SurfaceType.hxx>
 #include <ElCLib.hxx>
 #include <Geom2dInt_TheProjPCurOfGInter.hxx>

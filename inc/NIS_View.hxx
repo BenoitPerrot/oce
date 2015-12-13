@@ -18,7 +18,7 @@
 
 #include <Handle_NIS_InteractiveObject.hxx>
 #include <V3d_View.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/NCollection/NCollection_List.hxx>
 #include <Foundation/NCollection/NCollection_Vector.hxx>
 #include <Bnd_B3f.hxx>

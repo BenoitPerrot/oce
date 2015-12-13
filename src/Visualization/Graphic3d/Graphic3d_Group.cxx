@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <Graphic3d_GroupDefinitionError.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Graphic3d_Structure.hxx>
 #include <Graphic3d_AspectLine3d.hxx>
 #include <Graphic3d_AspectFillArea3d.hxx>
@@ -24,7 +24,7 @@
 #include <Graphic3d_ArrayOfPrimitives.hxx>
 #include <gp_Ax2.hxx>
 #include <Graphic3d_Group.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Graphic3d_Group)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

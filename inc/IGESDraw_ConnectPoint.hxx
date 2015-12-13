@@ -6,17 +6,17 @@
 #ifndef _IGESDraw_ConnectPoint_HeaderFile
 #define _IGESDraw_ConnectPoint_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESDraw_ConnectPoint.hxx>
 
 #include <gp_XYZ.hxx>
 #include <Handle_IGESData_IGESEntity.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Handle_IGESGraph_TextDisplayTemplate.hxx>
 #include <IGESData_IGESEntity.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class IGESData_IGESEntity;
 class TCollection_HAsciiString;
 class IGESGraph_TextDisplayTemplate;

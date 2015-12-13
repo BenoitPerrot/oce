@@ -56,7 +56,7 @@
 #include <GProp_PrincipalProps.hxx>
 
 #include <Foundation/OSD/OSD_Path.hxx>
-#include <Standard_ProgramError.hxx>
+#include <Foundation/Standard/Standard_ProgramError.hxx>
 
 //#include <QAModTopOpe_Limitation.hxx>
 #include <QANewModTopOpe_Limitation.hxx>
@@ -78,7 +78,7 @@
 
 #include <DDocStd.hxx>
 #include <TDocStd_Document.hxx>
-#include <Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
 
 #if ! defined(WNT)
 extern ViewerTest_DoubleMapOfInteractiveAndName& GetMapOfAIS();

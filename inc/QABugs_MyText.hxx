@@ -6,17 +6,17 @@
 #ifndef _QABugs_MyText_HeaderFile
 #define _QABugs_MyText_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_QABugs_MyText.hxx>
 
 #include <gp_Pnt.hxx>
 #include <TCollection_ExtendedString.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
-#include <Standard_CString.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <AIS_InteractiveObject.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <PrsMgr_PresentationManager3d.hxx>
 #include <Handle_Prs3d_Presentation.hxx>
 #include <Handle_SelectMgr_Selection.hxx>

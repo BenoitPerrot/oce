@@ -5,7 +5,7 @@
 
 #include <TColgp_SequenceNodeOfSequenceOfPnt.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <gp_Pnt.hxx>
 #include <TColgp_SequenceOfPnt.hxx>

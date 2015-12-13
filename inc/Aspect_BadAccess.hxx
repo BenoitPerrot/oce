@@ -6,11 +6,11 @@
 #ifndef _Aspect_BadAccess_HeaderFile
 #define _Aspect_BadAccess_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard_DefineException.hxx>
-#include <Standard_SStream.hxx>
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard_DefineException.hxx>
+#include <Foundation/Standard/Standard_SStream.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Handle_Aspect_BadAccess.hxx>
 
 #if !defined No_Exception && !defined No_Aspect_BadAccess

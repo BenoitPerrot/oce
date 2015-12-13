@@ -6,11 +6,11 @@
 #ifndef _IntTools_PntOn2Faces_HeaderFile
 #define _IntTools_PntOn2Faces_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <IntTools_PntOnFace.hxx>
 class IntTools_PntOnFace;
 

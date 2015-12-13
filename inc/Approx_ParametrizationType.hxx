@@ -6,7 +6,7 @@
 #ifndef _Approx_ParametrizationType_HeaderFile
 #define _Approx_ParametrizationType_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum Approx_ParametrizationType

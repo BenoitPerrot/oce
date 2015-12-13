@@ -17,12 +17,12 @@
 //--------------------------------------------------------------------
 
 #include <IGESGeom_Plane.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <IGESData_ViewKindEntity.hxx>
 #include <IGESData_TransfEntity.hxx>
 #include <gp_XYZ.hxx>
 #include <IGESDraw_View.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESDraw_View)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(IGESData_ViewKindEntity),

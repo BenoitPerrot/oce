@@ -25,7 +25,7 @@
 
 #include <TopOpeBRepBuild_Pave.hxx>
 #include <TopOpeBRepBuild_LoopEnum.hxx>
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <TopAbs_ShapeEnum.hxx>
 #include <TopAbs_Orientation.hxx>
 #include <TopAbs.hxx>

@@ -6,13 +6,13 @@
 #ifndef _Graphic3d_ArrayOfQuadrangles_HeaderFile
 #define _Graphic3d_ArrayOfQuadrangles_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Graphic3d_ArrayOfQuadrangles.hxx>
 
 #include <Graphic3d_ArrayOfPrimitives.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_OutOfRange;
 
 

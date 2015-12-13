@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <TopoDS_Shape.hxx>
 #include <Draw_Color.hxx>
 #include <Draw_Display.hxx>
@@ -22,7 +22,7 @@
 #include <gp_Trsf.hxx>
 #include <Draw_Drawable3D.hxx>
 #include <DBRep_DrawableShape.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DBRep_DrawableShape)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Draw_Drawable3D),

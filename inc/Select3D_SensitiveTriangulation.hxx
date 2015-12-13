@@ -6,8 +6,8 @@
 #ifndef _Select3D_SensitiveTriangulation_HeaderFile
 #define _Select3D_SensitiveTriangulation_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Select3D_SensitiveTriangulation.hxx>
 
 #include <Handle_Poly_Triangulation.hxx>
@@ -15,18 +15,18 @@
 #include <gp_Trsf.hxx>
 #include <gp_Pnt.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>
 #include <gp_Pnt2d.hxx>
 #include <Bnd_Box2d.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Select3D_SensitiveEntity.hxx>
 #include <Handle_SelectBasics_EntityOwner.hxx>
 #include <Handle_Select3D_Projector.hxx>
 #include <Handle_Select3D_SensitiveEntity.hxx>
 #include <SelectBasics_PickArgs.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 class Poly_Triangulation;
 class TColStd_HArray1OfInteger;
 class SelectBasics_EntityOwner;

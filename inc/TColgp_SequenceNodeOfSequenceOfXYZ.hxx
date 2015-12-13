@@ -6,8 +6,8 @@
 #ifndef _TColgp_SequenceNodeOfSequenceOfXYZ_HeaderFile
 #define _TColgp_SequenceNodeOfSequenceOfXYZ_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TColgp_SequenceNodeOfSequenceOfXYZ.hxx>
 
 #include <gp_XYZ.hxx>

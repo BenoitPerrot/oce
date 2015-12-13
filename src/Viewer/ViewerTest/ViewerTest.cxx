@@ -22,7 +22,7 @@
 //             -add Functions and commands for interactive selection of shapes and objects
 //              in AIS Viewers. (PickShape(s), PickObject(s),
 
-#include <Standard_Stream.hxx>
+#include <Foundation/Standard/Standard_Stream.hxx>
 
 #include <ViewerTest.hxx>
 

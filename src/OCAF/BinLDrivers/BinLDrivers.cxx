@@ -13,8 +13,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_Transient.hxx>
-#include <Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
 #include <BinMDF_ADriverTable.hxx>
 #include <CDM_MessageDriver.hxx>
 #include <TCollection_AsciiString.hxx>
@@ -24,7 +24,7 @@
 #include <BinMFunction.hxx>
 //#include <BinMNaming.hxx>
 #include <BinMDocStd.hxx>
-#include <Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
 #include <BinLDrivers_DocumentStorageDriver.hxx>
 #include <BinLDrivers_DocumentRetrievalDriver.hxx>
 #include <Foundation/Plugin/Plugin_Macro.hxx>

@@ -5,8 +5,8 @@
 
 #include <Storage_SeqOfRoot.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Storage_Root.hxx>
 #include <Storage_SequenceNodeOfSeqOfRoot.hxx>
  

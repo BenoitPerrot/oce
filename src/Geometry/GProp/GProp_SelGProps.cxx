@@ -18,7 +18,7 @@
 #include <gp_Sphere.hxx>
 #include <gp_Torus.hxx>
 #include <GProp_SelGProps.hxx>
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <math_Matrix.hxx>
 #include <math_Vector.hxx>
 #include <math_Jacobi.hxx>

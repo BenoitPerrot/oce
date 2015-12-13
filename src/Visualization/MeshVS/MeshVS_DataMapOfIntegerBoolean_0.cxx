@@ -5,17 +5,17 @@
 
 #include <MeshVS_DataMapOfIntegerBoolean.hxx>
 
-#include <Standard_DomainError.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TColStd_MapIntegerHasher.hxx>
 #include <MeshVS_DataMapNodeOfDataMapOfIntegerBoolean.hxx>
 #include <MeshVS_DataMapIteratorOfDataMapOfIntegerBoolean.hxx>
  
 
 #define TheKey Standard_Integer
-#define TheKey_hxx <Standard_Integer.hxx>
+#define TheKey_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheItem Standard_Boolean
-#define TheItem_hxx <Standard_Boolean.hxx>
+#define TheItem_hxx <Foundation/Standard/Standard_Boolean.hxx>
 #define Hasher TColStd_MapIntegerHasher
 #define Hasher_hxx <TColStd_MapIntegerHasher.hxx>
 #define TCollection_DataMapNode MeshVS_DataMapNodeOfDataMapOfIntegerBoolean

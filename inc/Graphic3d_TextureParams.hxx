@@ -6,18 +6,18 @@
 #ifndef _Graphic3d_TextureParams_HeaderFile
 #define _Graphic3d_TextureParams_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Graphic3d_TextureParams.hxx>
 
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Graphic3d_TypeOfTextureFilter.hxx>
 #include <Graphic3d_LevelOfTextureAnisotropy.hxx>
-#include <Standard_ShortReal.hxx>
+#include <Foundation/Standard/Standard_ShortReal.hxx>
 #include <Graphic3d_Vec2.hxx>
 #include <Graphic3d_TypeOfTextureMode.hxx>
 #include <Graphic3d_Vec4.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 
 
 //! This class describes texture parameters.

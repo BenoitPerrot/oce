@@ -6,14 +6,14 @@
 #ifndef _StepVisual_PlanarBox_HeaderFile
 #define _StepVisual_PlanarBox_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepVisual_PlanarBox.hxx>
 
 #include <StepGeom_Axis2Placement.hxx>
 #include <StepVisual_PlanarExtent.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class TCollection_HAsciiString;
 class StepGeom_Axis2Placement;
 

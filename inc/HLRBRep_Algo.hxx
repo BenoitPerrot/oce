@@ -6,13 +6,13 @@
 #ifndef _HLRBRep_Algo_HeaderFile
 #define _HLRBRep_Algo_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_HLRBRep_Algo.hxx>
 
 #include <HLRBRep_InternalAlgo.hxx>
 #include <Handle_MMgt_TShared.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class TopoDS_Shape;
 class MMgt_TShared;
 

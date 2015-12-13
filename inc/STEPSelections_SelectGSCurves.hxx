@@ -6,13 +6,13 @@
 #ifndef _STEPSelections_SelectGSCurves_HeaderFile
 #define _STEPSelections_SelectGSCurves_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_STEPSelections_SelectGSCurves.hxx>
 
 #include <IFSelect_SelectExplore.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Standard_Transient.hxx>
 class Standard_Transient;
 class Interface_Graph;

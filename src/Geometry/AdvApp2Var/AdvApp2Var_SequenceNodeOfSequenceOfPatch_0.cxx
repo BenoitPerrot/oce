@@ -5,7 +5,7 @@
 
 #include <AdvApp2Var_SequenceNodeOfSequenceOfPatch.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <AdvApp2Var_Patch.hxx>
 #include <AdvApp2Var_SequenceOfPatch.hxx>

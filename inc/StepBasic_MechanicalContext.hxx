@@ -6,8 +6,8 @@
 #ifndef _StepBasic_MechanicalContext_HeaderFile
 #define _StepBasic_MechanicalContext_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepBasic_MechanicalContext.hxx>
 
 #include <StepBasic_ProductContext.hxx>

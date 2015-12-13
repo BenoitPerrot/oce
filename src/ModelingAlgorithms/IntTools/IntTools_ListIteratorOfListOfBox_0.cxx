@@ -5,8 +5,8 @@
 
 #include <IntTools_ListIteratorOfListOfBox.hxx>
 
-#include <Standard_NoMoreObject.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoMoreObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <IntTools_ListOfBox.hxx>
 #include <Bnd_Box.hxx>
 #include <IntTools_ListNodeOfListOfBox.hxx>

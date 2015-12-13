@@ -6,12 +6,12 @@
 #ifndef _StepGeom_PointOnSurface_HeaderFile
 #define _StepGeom_PointOnSurface_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepGeom_PointOnSurface.hxx>
 
 #include <Handle_StepGeom_Surface.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <StepGeom_Point.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 class StepGeom_Surface;

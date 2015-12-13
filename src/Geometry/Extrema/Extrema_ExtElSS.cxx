@@ -16,7 +16,7 @@
 #include <Extrema_HArray1OfPOnSurf.hxx>
 #include <StdFail_InfiniteSolutions.hxx>
 #include <StdFail_NotDone.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <gp_Pln.hxx>
 #include <gp_Sphere.hxx>
 #include <gp_Cylinder.hxx>
@@ -25,7 +25,7 @@
 #include <Extrema_POnSurf.hxx>
 #include <Extrema_ExtElSS.hxx>
 #include <Extrema_ExtPElS.hxx>
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <StdFail_NotDone.hxx>
 #include <StdFail_InfiniteSolutions.hxx>
 #include <Precision.hxx>

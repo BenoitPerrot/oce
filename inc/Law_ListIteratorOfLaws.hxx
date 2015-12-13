@@ -6,14 +6,14 @@
 #ifndef _Law_ListIteratorOfLaws_HeaderFile
 #define _Law_ListIteratorOfLaws_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
 #include <Handle_Law_Function.hxx>
 #include <Handle_Law_ListNodeOfLaws.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_NoMoreObject;
 class Standard_NoSuchObject;
 class Law_Laws;

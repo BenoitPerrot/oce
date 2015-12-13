@@ -6,14 +6,14 @@
 #ifndef _IGESGeom_RuledSurface_HeaderFile
 #define _IGESGeom_RuledSurface_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESGeom_RuledSurface.hxx>
 
 #include <Handle_IGESData_IGESEntity.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <IGESData_IGESEntity.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class IGESData_IGESEntity;
 
 

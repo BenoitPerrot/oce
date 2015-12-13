@@ -5,7 +5,7 @@
 
 #include <TFunction_DoubleMapNodeOfDoubleMapOfIntegerLabel.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TDF_Label.hxx>
 #include <TColStd_MapIntegerHasher.hxx>
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(TFunction_DoubleMapNodeOfDoubleMapOfIntegerLabel)
 
 
 #define TheKey1 Standard_Integer
-#define TheKey1_hxx <Standard_Integer.hxx>
+#define TheKey1_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheKey2 TDF_Label
 #define TheKey2_hxx <TDF_Label.hxx>
 #define Hasher1 TColStd_MapIntegerHasher

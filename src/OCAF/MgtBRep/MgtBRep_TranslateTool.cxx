@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_TypeMismatch.hxx>
+#include <Foundation/Standard/Standard_TypeMismatch.hxx>
 #include <PGeom_Curve.hxx>
 #include <Geom_Curve.hxx>
 #include <PTColStd_TransientPersistentMap.hxx>
@@ -26,7 +26,7 @@
 #include <TopoDS_Shape.hxx>
 #include <PTopoDS_HShape.hxx>
 #include <MgtBRep_TranslateTool.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MgtBRep_TranslateTool)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MgtTopoDS_TranslateTool),
@@ -88,7 +88,7 @@ IMPLEMENT_STANDARD_RTTI(MgtBRep_TranslateTool)
 #include <PBRep_PolygonOnTriangulation.hxx>
 #include <PBRep_PolygonOnClosedTriangulation.hxx>
 
-#include <Standard_NullObject.hxx>
+#include <Foundation/Standard/Standard_NullObject.hxx>
 
 // szy 23.01.2014 (bug 24565) correction for edge which has null 3d curve representation
 

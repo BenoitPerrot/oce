@@ -11,17 +11,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_Transient.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Interface_InterfaceError.hxx>
-#include <Standard_NullObject.hxx>
+#include <Foundation/Standard/Standard_NullObject.hxx>
 #include <Interface_EntityIterator.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 #include <Interface_EntityList.hxx>
 #include <Interface_EntityCluster.hxx>
 #include <Interface_InterfaceError.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_NullObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NullObject.hxx>
 
 
 // Une EntityList, c est au fond un "Handle" bien entoure :

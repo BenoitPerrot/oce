@@ -11,10 +11,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_OutOfRange.hxx>
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_DomainError.hxx>
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Adaptor3d_Surface.hxx>
 #include <TColStd_Array1OfReal.hxx>
 #include <gp_Pnt.hxx>
@@ -23,7 +23,7 @@
 #include <Geom_BSplineSurface.hxx>
 #include <Adaptor3d_HCurve.hxx>
 #include <Adaptor3d_HSurface.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Adaptor3d_HSurface)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

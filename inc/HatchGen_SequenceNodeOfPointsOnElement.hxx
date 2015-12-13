@@ -6,8 +6,8 @@
 #ifndef _HatchGen_SequenceNodeOfPointsOnElement_HeaderFile
 #define _HatchGen_SequenceNodeOfPointsOnElement_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_HatchGen_SequenceNodeOfPointsOnElement.hxx>
 
 #include <HatchGen_PointOnElement.hxx>

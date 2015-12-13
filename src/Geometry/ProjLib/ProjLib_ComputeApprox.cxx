@@ -25,7 +25,7 @@
 #include <ElSLib.hxx>
 #include <ElCLib.hxx>
 #include <BSplCLib.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Geom_UndefinedDerivative.hxx>
 #include <gp.hxx>
 #include <gp_Trsf.hxx>

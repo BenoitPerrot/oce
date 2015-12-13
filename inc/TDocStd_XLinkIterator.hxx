@@ -6,13 +6,13 @@
 #ifndef _TDocStd_XLinkIterator_HeaderFile
 #define _TDocStd_XLinkIterator_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TDocStd_XLinkPtr.hxx>
 #include <Handle_TDocStd_Document.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_NoMoreObject;
 class TDocStd_Document;
 

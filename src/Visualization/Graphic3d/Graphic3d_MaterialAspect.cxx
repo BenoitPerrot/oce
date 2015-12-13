@@ -13,10 +13,10 @@
 // commercial license or contractual agreement.
 
 #include <Graphic3d_MaterialDefinitionError.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Graphic3d_MaterialAspect.hxx>
-#include <Standard_Assert.hxx>
+#include <Foundation/Standard/Standard_Assert.hxx>
 
 // =======================================================================
 // function : Graphic3d_MaterialAspect

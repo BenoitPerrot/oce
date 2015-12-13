@@ -6,16 +6,16 @@
 #ifndef _BRep_CurveOn2Surfaces_HeaderFile
 #define _BRep_CurveOn2Surfaces_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BRep_CurveOn2Surfaces.hxx>
 
 #include <Handle_Geom_Surface.hxx>
 #include <TopLoc_Location.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <BRep_CurveRepresentation.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_BRep_CurveRepresentation.hxx>
 class Geom_Surface;
 class Standard_NullObject;

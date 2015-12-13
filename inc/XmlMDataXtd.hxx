@@ -6,13 +6,13 @@
 #ifndef _XmlMDataXtd_HeaderFile
 #define _XmlMDataXtd_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_XmlMDF_ADriverTable.hxx>
 #include <Handle_CDM_MessageDriver.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class XmlMDF_ADriverTable;
 class CDM_MessageDriver;
 class XmlMDataXtd_AxisDriver;

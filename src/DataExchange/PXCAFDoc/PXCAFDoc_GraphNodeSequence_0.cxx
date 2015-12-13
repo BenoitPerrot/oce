@@ -5,13 +5,13 @@
 
 #include <PXCAFDoc_GraphNodeSequence.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <PXCAFDoc_GraphNode.hxx>
 #include <PXCAFDoc_GraphNodeSequence.hxx>
 #include <PXCAFDoc_SeqNodeOfGraphNodeSequence.hxx>
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <PXCAFDoc_SeqExplorerOfGraphNodeSequence.hxx>
  
 

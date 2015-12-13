@@ -6,12 +6,12 @@
 #ifndef _Geom_Geometry_HeaderFile
 #define _Geom_Geometry_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Geom_Geometry.hxx>
 
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class Standard_ConstructionError;
 class gp_Pnt;
 class gp_Ax1;

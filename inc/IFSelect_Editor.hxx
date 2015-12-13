@@ -6,20 +6,20 @@
 #ifndef _IFSelect_Editor_HeaderFile
 #define _IFSelect_Editor_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IFSelect_Editor.hxx>
 
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Dico_DictionaryOfInteger.hxx>
 #include <TColStd_Array1OfTransient.hxx>
 #include <TColStd_Array1OfAsciiString.hxx>
 #include <TColStd_Array1OfInteger.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Interface_TypedValue.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 #include <IFSelect_EditValue.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Message_Messenger.hxx>
 #include <Handle_IFSelect_EditForm.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>

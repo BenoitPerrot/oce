@@ -55,7 +55,7 @@
 #include <TopoDS_Vertex.hxx>
 #include <BRep_Tool.hxx>
 #include <Precision.hxx>
-#include <Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
 
 //////#include <Draw_PluginMacro.hxx>
 //////#include <DBrowser.hxx>

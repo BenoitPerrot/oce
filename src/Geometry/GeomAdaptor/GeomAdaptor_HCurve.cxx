@@ -14,11 +14,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <GeomAdaptor_Curve.hxx>
 #include <Geom_Curve.hxx>
 #include <GeomAdaptor_HCurve.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(GeomAdaptor_HCurve)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(GeomAdaptor_GHCurve),

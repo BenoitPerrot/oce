@@ -6,7 +6,7 @@
 #ifndef _AIS_SelectStatus_HeaderFile
 #define _AIS_SelectStatus_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum AIS_SelectStatus

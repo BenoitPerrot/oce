@@ -16,7 +16,7 @@
 #ifndef BinObjMgt_PInteger_HeaderFile
 #define BinObjMgt_PInteger_HeaderFile
 
-#include <Standard_TypeDef.hxx>
+#include <Foundation/Standard/Standard_TypeDef.hxx>
 
 typedef Standard_Integer* BinObjMgt_PInteger;
 

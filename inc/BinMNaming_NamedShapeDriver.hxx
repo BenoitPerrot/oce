@@ -6,20 +6,20 @@
 #ifndef _BinMNaming_NamedShapeDriver_HeaderFile
 #define _BinMNaming_NamedShapeDriver_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BinMNaming_NamedShapeDriver.hxx>
 
 #include <BinTools_ShapeSet.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <BinMDF_ADriver.hxx>
 #include <Handle_CDM_MessageDriver.hxx>
 #include <Handle_TDF_Attribute.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <BinObjMgt_RRelocationTable.hxx>
 #include <BinObjMgt_SRelocationTable.hxx>
-#include <Standard_IStream.hxx>
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_IStream.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 class CDM_MessageDriver;
 class TDF_Attribute;
 class BinObjMgt_Persistent;

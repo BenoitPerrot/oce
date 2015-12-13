@@ -6,15 +6,15 @@
 #ifndef _TopOpeBRepBuild_PaveSet_HeaderFile
 #define _TopOpeBRepBuild_PaveSet_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TopoDS_Edge.hxx>
 #include <TopOpeBRepBuild_ListOfPave.hxx>
 #include <TopOpeBRepBuild_ListIteratorOfListOfPave.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <TopOpeBRepBuild_LoopSet.hxx>
 #include <Handle_TopOpeBRepBuild_Pave.hxx>
 #include <Handle_TopOpeBRepBuild_Loop.hxx>

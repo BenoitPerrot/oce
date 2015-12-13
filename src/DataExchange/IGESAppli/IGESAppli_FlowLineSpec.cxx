@@ -17,10 +17,10 @@
 //--------------------------------------------------------------------
 
 #include <Interface_HArray1OfHAsciiString.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <TCollection_HAsciiString.hxx>
 #include <IGESAppli_FlowLineSpec.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESAppli_FlowLineSpec)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(IGESData_IGESEntity),
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESAppli_FlowLineSpec)
 IMPLEMENT_DOWNCAST(IGESAppli_FlowLineSpec,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESAppli_FlowLineSpec)
-#include <Standard_DimensionMismatch.hxx>
+#include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 
 
 IGESAppli_FlowLineSpec::IGESAppli_FlowLineSpec ()    {  }

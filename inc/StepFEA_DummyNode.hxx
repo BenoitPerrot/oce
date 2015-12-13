@@ -6,8 +6,8 @@
 #ifndef _StepFEA_DummyNode_HeaderFile
 #define _StepFEA_DummyNode_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepFEA_DummyNode.hxx>
 
 #include <StepFEA_NodeRepresentation.hxx>

@@ -5,7 +5,7 @@
 
 #include <Geom2dInt_TheIntersectorOfTheIntConicCurveOfGInter.hxx>
 
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <IntCurve_IConicTool.hxx>
 #include <Adaptor2d_Curve2d.hxx>
 #include <Geom2dInt_Geom2dCurveTool.hxx>

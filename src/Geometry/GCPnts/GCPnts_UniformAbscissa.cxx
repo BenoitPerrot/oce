@@ -13,9 +13,9 @@
 // commercial license or contractual agreement.
 
 #include <StdFail_NotDone.hxx>
-#include <Standard_DomainError.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <GCPnts_UniformAbscissa.hxx>
 #include <Adaptor3d_Curve.hxx>
 #include <Adaptor2d_Curve2d.hxx>

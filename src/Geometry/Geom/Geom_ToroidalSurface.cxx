@@ -14,9 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_ConstructionError.hxx>
-#include <Standard_DimensionError.hxx>
-#include <Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_DimensionError.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
 #include <gp_Ax3.hxx>
 #include <gp_Torus.hxx>
 #include <TColStd_Array1OfReal.hxx>
@@ -26,7 +26,7 @@
 #include <gp_Trsf.hxx>
 #include <Geom_Geometry.hxx>
 #include <Geom_ToroidalSurface.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Geom_ToroidalSurface)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Geom_ElementarySurface),
@@ -47,8 +47,8 @@ IMPLEMENT_STANDARD_RTTI(Geom_ToroidalSurface)
 #include <gp_XYZ.hxx>
 #include <ElSLib.hxx>
 
-#include <Standard_ConstructionError.hxx>
-#include <Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
 
 typedef Geom_ToroidalSurface         ToroidalSurface;
 typedef Handle(Geom_ToroidalSurface) Handle(ToroidalSurface);

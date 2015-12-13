@@ -6,11 +6,11 @@
 #ifndef _StepVisual_PlanarExtent_HeaderFile
 #define _StepVisual_PlanarExtent_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepVisual_PlanarExtent.hxx>
 
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <StepGeom_GeometricRepresentationItem.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 class TCollection_HAsciiString;

@@ -6,16 +6,16 @@
 #ifndef _TopOpeBRepDS_InterferenceTool_HeaderFile
 #define _TopOpeBRepDS_InterferenceTool_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_TopOpeBRepDS_Interference.hxx>
 #include <TopOpeBRepDS_Kind.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Geom2d_Curve.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <TopOpeBRepDS_Config.hxx>
 class TopOpeBRepDS_Interference;
 class TopOpeBRepDS_Transition;

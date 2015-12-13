@@ -6,7 +6,7 @@
 #ifndef _BRepLib_EdgeError_HeaderFile
 #define _BRepLib_EdgeError_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Errors that can occur at edge construction.
 //! no error

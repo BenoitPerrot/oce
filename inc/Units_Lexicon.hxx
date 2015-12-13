@@ -6,17 +6,17 @@
 #ifndef _Units_Lexicon_HeaderFile
 #define _Units_Lexicon_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Units_Lexicon.hxx>
 
 #include <Handle_TCollection_HAsciiString.hxx>
-#include <Standard_Time.hxx>
+#include <Foundation/Standard/Standard_Time.hxx>
 #include <Handle_Units_TokensSequence.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_CString.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class TCollection_HAsciiString;
 class Units_TokensSequence;
 class TCollection_AsciiString;

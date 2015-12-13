@@ -5,7 +5,7 @@
 
 #include <StepSelect_FileModifier.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <StepData_StepWriter.hxx>
 #include <IFSelect_ContextWrite.hxx>

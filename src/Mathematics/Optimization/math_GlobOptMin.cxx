@@ -21,8 +21,8 @@
 #include <math_MultipleVarFunctionWithHessian.hxx>
 #include <math_NewtonMinimum.hxx>
 #include <math_Powell.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 
 const Handle(Standard_Type)& STANDARD_TYPE(math_GlobOptMin)
 {

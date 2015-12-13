@@ -6,8 +6,8 @@
 #ifndef _IFSelect_SelectModelEntities_HeaderFile
 #define _IFSelect_SelectModelEntities_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IFSelect_SelectModelEntities.hxx>
 
 #include <IFSelect_SelectBase.hxx>

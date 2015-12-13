@@ -6,13 +6,13 @@
 #ifndef _PColStd_VArrayTNodeOfFieldOfHArray2OfReal_HeaderFile
 #define _PColStd_VArrayTNodeOfFieldOfHArray2OfReal_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_PColStd_VArrayNodeOfFieldOfHArray2OfReal.hxx>
-#include <Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
 class PColStd_FieldOfHArray2OfReal;
 class PColStd_VArrayNodeOfFieldOfHArray2OfReal;
 
@@ -52,7 +52,7 @@ private:
 };
 
 #define Item Standard_Real
-#define Item_hxx <Standard_Real.hxx>
+#define Item_hxx <Foundation/Standard/Standard_Real.hxx>
 #define DBC_VArrayNode PColStd_VArrayNodeOfFieldOfHArray2OfReal
 #define DBC_VArrayNode_hxx <PColStd_VArrayNodeOfFieldOfHArray2OfReal.hxx>
 #define DBC_VArrayTNode PColStd_VArrayTNodeOfFieldOfHArray2OfReal

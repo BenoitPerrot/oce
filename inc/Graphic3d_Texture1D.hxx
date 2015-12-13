@@ -6,15 +6,15 @@
 #ifndef _Graphic3d_Texture1D_HeaderFile
 #define _Graphic3d_Texture1D_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Graphic3d_Texture1D.hxx>
 
 #include <Graphic3d_NameOfTexture1D.hxx>
 #include <Graphic3d_TextureMap.hxx>
 #include <Graphic3d_TypeOfTexture.hxx>
 #include <Image_PixMap_Handle.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_OutOfRange;
 class TCollection_AsciiString;
 

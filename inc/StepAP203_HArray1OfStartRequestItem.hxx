@@ -6,13 +6,13 @@
 #ifndef _StepAP203_HArray1OfStartRequestItem_HeaderFile
 #define _StepAP203_HArray1OfStartRequestItem_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepAP203_HArray1OfStartRequestItem.hxx>
 
 #include <StepAP203_Array1OfStartRequestItem.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_DimensionMismatch;
 class Standard_OutOfRange;

@@ -14,12 +14,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_NumericError.hxx>
+#include <Foundation/Standard/Standard_NumericError.hxx>
 #include <Expr_GeneralExpression.hxx>
 #include <Expr_GeneralRelation.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <Expr_Equal.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Expr_Equal)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Expr_SingleRelation),

@@ -99,7 +99,7 @@
 #include <Precision.hxx>
 
 #include <TColStd_Array1OfInteger.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 
 
 static void MakeWire(const TopTools_Array1OfShape& Edges,

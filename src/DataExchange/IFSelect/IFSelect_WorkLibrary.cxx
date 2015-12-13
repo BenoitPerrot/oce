@@ -17,10 +17,10 @@
 #include <IFSelect_ContextWrite.hxx>
 #include <Interface_EntityIterator.hxx>
 #include <Interface_CopyTool.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <IFSelect_WorkLibrary.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IFSelect_WorkLibrary)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Standard_Transient),

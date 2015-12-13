@@ -14,11 +14,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_TypeMismatch.hxx>
+#include <Foundation/Standard/Standard_TypeMismatch.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TColStd_IndexedDataMapOfTransientTransient.hxx>
 #include <TNaming_TranslateTool.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TNaming_TranslateTool)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),
@@ -52,7 +52,7 @@ IMPLEMENT_STANDARD_RTTI(TNaming_TranslateTool)
 #include <BRep_PolygonOnSurface.hxx>
 #include <BRep_PolygonOnClosedTriangulation.hxx>
 #include <BRep_PolygonOnTriangulation.hxx>
-#include <Standard_NullObject.hxx>
+#include <Foundation/Standard/Standard_NullObject.hxx>
 
 
 //=======================================================================

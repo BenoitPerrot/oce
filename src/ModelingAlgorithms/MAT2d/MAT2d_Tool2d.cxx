@@ -70,7 +70,7 @@
 #include <TColStd_Array1OfReal.hxx>
 #include <ElCLib.hxx>
 #include <StdFail_NotDone.hxx>
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Precision.hxx>
 
 #ifdef DRAW

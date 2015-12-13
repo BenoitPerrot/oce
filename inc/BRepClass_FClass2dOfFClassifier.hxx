@@ -6,16 +6,16 @@
 #ifndef _BRepClass_FClass2dOfFClassifier_HeaderFile
 #define _BRepClass_FClass2dOfFClassifier_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <gp_Lin2d.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <TopTrans_CurveTransition.hxx>
 #include <BRepClass_Intersector.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <TopAbs_State.hxx>
 #include <TopAbs_Orientation.hxx>
 class Standard_DomainError;

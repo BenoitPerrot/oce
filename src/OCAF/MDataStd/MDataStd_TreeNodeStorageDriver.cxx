@@ -15,12 +15,12 @@
 // commercial license or contractual agreement.
 
 #include <CDM_MessageDriver.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 #include <PDF_Attribute.hxx>
 #include <TDF_Attribute.hxx>
 #include <MDF_SRelocationTable.hxx>
 #include <MDataStd_TreeNodeStorageDriver.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MDataStd_TreeNodeStorageDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MDF_ASDriver),
@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(MDataStd_TreeNodeStorageDriver)
 
 #include <TDataStd_TreeNode.hxx>
 #include <PDataStd_TreeNode.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <CDM_MessageDriver.hxx>
 
 MDataStd_TreeNodeStorageDriver::MDataStd_TreeNodeStorageDriver(const Handle(CDM_MessageDriver)& theMsgDriver):MDF_ASDriver(theMsgDriver)

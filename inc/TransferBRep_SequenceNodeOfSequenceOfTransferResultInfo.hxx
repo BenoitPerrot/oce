@@ -6,8 +6,8 @@
 #ifndef _TransferBRep_SequenceNodeOfSequenceOfTransferResultInfo_HeaderFile
 #define _TransferBRep_SequenceNodeOfSequenceOfTransferResultInfo_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TransferBRep_SequenceNodeOfSequenceOfTransferResultInfo.hxx>
 
 #include <Handle_TransferBRep_TransferResultInfo.hxx>

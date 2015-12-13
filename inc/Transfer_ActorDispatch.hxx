@@ -6,8 +6,8 @@
 #ifndef _Transfer_ActorDispatch_HeaderFile
 #define _Transfer_ActorDispatch_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Transfer_ActorDispatch.hxx>
 
 #include <Transfer_TransferDispatch.hxx>

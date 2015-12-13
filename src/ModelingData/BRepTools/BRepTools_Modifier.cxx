@@ -16,8 +16,8 @@
 
 // IFV 04.06.99 - PRO18974 - processing of INTERNAL shapes.
 
-#include <Standard_NullObject.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NullObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopoDS_Shape.hxx>
 #include <BRepTools_Modification.hxx>
 #include <Foundation/Message/Message_ProgressIndicator.hxx>
@@ -53,7 +53,7 @@
 
 #include <gp.hxx>
 
-#include <Standard_NullObject.hxx>
+#include <Foundation/Standard/Standard_NullObject.hxx>
 #include <gp_Trsf.hxx>
 #include <BRepTools_TrsfModification.hxx>
 #include <Foundation/Message/Message_ProgressSentry.hxx>

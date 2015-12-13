@@ -6,13 +6,13 @@
 #ifndef _BOPDS_DS_HeaderFile
 #define _BOPDS_DS_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <BOPCol_BaseAllocator.hxx>
 #include <BOPCol_ListOfShape.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <BOPDS_VectorOfIndexRange.hxx>
 #include <BOPDS_VectorOfShapeInfo.hxx>
 #include <BOPCol_DataMapOfShapeInteger.hxx>
@@ -31,7 +31,7 @@
 #include <BOPDS_VectorOfInterfEZ.hxx>
 #include <BOPDS_VectorOfInterfFZ.hxx>
 #include <BOPDS_VectorOfInterfZZ.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <BOPDS_ListOfPaveBlock.hxx>
 #include <Handle_BOPDS_PaveBlock.hxx>
 #include <Handle_BOPDS_CommonBlock.hxx>
@@ -39,7 +39,7 @@
 #include <BOPCol_MapOfInteger.hxx>
 #include <BOPCol_ListOfInteger.hxx>
 #include <BOPDS_ListOfPave.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class BOPDS_IndexRange;
 class BOPDS_ShapeInfo;
 class TopoDS_Shape;

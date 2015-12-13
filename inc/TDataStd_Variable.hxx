@@ -6,21 +6,21 @@
 #ifndef _TDataStd_Variable_HeaderFile
 #define _TDataStd_Variable_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TDataStd_Variable.hxx>
 
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <TDF_Attribute.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <TDataStd_RealEnum.hxx>
 #include <Handle_TDataStd_Real.hxx>
 #include <Handle_TDataStd_Expression.hxx>
 #include <Handle_TDF_Attribute.hxx>
 #include <Handle_TDF_RelocationTable.hxx>
 #include <Handle_TDF_DataSet.hxx>
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 class Standard_GUID;
 class TDF_Label;
 class TCollection_ExtendedString;

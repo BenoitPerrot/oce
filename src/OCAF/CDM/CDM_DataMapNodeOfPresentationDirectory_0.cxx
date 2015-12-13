@@ -5,7 +5,7 @@
 
 #include <CDM_DataMapNodeOfPresentationDirectory.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <CDM_Document.hxx>
 #include <TCollection_ExtendedString.hxx>

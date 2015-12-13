@@ -17,7 +17,7 @@
 #include <TopoDS_Edge.hxx>
 #include <Geom2d_Curve.hxx>
 #include <ShapeFix_EdgeProjAux.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeFix_EdgeProjAux)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),
@@ -27,8 +27,8 @@ IMPLEMENT_STANDARD_TYPE_END(ShapeFix_EdgeProjAux)
 IMPLEMENT_DOWNCAST(ShapeFix_EdgeProjAux,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ShapeFix_EdgeProjAux)
 
-#include <Standard_ErrorHandler.hxx>
-#include <Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
 
 #include <ElCLib.hxx>
 

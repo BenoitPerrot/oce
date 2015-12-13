@@ -5,7 +5,7 @@
 
 #include <PNaming_VArrayNodeOfFieldOfHArray1OfNamedShape.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <PNaming_NamedShape.hxx>
 #include <PNaming_FieldOfHArray1OfNamedShape.hxx>

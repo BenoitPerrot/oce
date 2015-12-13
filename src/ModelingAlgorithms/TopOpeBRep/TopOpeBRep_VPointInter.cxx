@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <IntPatch_Point.hxx>
 #include <gp_Pnt.hxx>
 #include <TopoDS_Shape.hxx>
@@ -23,7 +23,7 @@
 #include <TopoDS_Face.hxx>
 #include <TopOpeBRep_VPointInter.hxx>
 
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <TopOpeBRepTool_ShapeTool.hxx>
 #include <TopOpeBRep_FFTransitionTool.hxx>
 #include <TopOpeBRepDS_Transition.hxx>

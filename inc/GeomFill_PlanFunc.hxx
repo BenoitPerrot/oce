@@ -6,16 +6,16 @@
 #ifndef _GeomFill_PlanFunc_HeaderFile
 #define _GeomFill_PlanFunc_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <gp_XYZ.hxx>
 #include <gp_Pnt.hxx>
 #include <Handle_Adaptor3d_HCurve.hxx>
 #include <math_FunctionWithDerivative.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class Adaptor3d_HCurve;
 class gp_Pnt;
 class gp_Vec;

@@ -6,17 +6,17 @@
 #ifndef _GeomFill_LocationGuide_HeaderFile
 #define _GeomFill_LocationGuide_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_GeomFill_LocationGuide.hxx>
 
 #include <Handle_GeomFill_TrihedronWithGuide.hxx>
 #include <Handle_GeomFill_SectionLaw.hxx>
 #include <Handle_Adaptor3d_HCurve.hxx>
 #include <Handle_TColgp_HArray2OfPnt2d.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <gp_Mat.hxx>
 #include <math_Vector.hxx>
 #include <GeomFill_PipeError.hxx>

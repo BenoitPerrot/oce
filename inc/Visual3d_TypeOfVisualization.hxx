@@ -6,7 +6,7 @@
 #ifndef _Visual3d_TypeOfVisualization_HeaderFile
 #define _Visual3d_TypeOfVisualization_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Modes of visualisation of objects in a view
 //!

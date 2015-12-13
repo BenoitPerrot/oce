@@ -6,7 +6,7 @@
 #ifndef _GCPnts_AbscissaType_HeaderFile
 #define _GCPnts_AbscissaType_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum GCPnts_AbscissaType

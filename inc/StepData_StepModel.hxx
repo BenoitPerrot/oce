@@ -6,17 +6,17 @@
 #ifndef _StepData_StepModel_HeaderFile
 #define _StepData_StepModel_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepData_StepModel.hxx>
 
 #include <Interface_EntityList.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>
 #include <Interface_InterfaceModel.hxx>
 #include <Handle_Standard_Transient.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Interface_InterfaceModel.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Standard_Type.hxx>
 #include <Handle_Interface_Check.hxx>
 #include <Handle_Message_Messenger.hxx>

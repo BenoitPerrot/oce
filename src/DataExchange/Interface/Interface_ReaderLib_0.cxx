@@ -6,15 +6,15 @@
 #include <Interface_ReaderLib.hxx>
 
 #include <Interface_NodeOfReaderLib.hxx>
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <Interface_ReaderModule.hxx>
 #include <Interface_Protocol.hxx>
 #include <Interface_GlobalNodeOfReaderLib.hxx>
  
 
 #define TheObject Handle(Standard_Transient)
-#define TheObject_hxx <Standard_Transient.hxx>
+#define TheObject_hxx <Foundation/Standard/Standard_Transient.hxx>
 #define Handle_TheModule Handle_Interface_ReaderModule
 #define TheModule Interface_ReaderModule
 #define TheModule_hxx <Interface_ReaderModule.hxx>

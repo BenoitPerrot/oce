@@ -5,7 +5,7 @@
 
 #include <TNaming_MapIteratorOfMapOfNamedShape.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TNaming_NamedShape.hxx>
 #include <TNaming_NamedShapeHasher.hxx>
 #include <TNaming_MapOfNamedShape.hxx>

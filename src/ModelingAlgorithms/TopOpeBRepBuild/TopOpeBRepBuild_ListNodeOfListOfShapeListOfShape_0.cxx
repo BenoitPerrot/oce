@@ -5,7 +5,7 @@
 
 #include <TopOpeBRepBuild_ListNodeOfListOfShapeListOfShape.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TopOpeBRepBuild_ShapeListOfShape.hxx>
 #include <TopOpeBRepBuild_ListOfShapeListOfShape.hxx>

@@ -12,7 +12,7 @@
  
 
 #define TheSurface Standard_Address
-#define TheSurface_hxx <Standard_Address.hxx>
+#define TheSurface_hxx <Foundation/Standard/Standard_Address.hxx>
 #define TheSurfaceTool HLRBRep_SurfaceTool
 #define TheSurfaceTool_hxx <HLRBRep_SurfaceTool.hxx>
 #define TheCurve gp_Lin

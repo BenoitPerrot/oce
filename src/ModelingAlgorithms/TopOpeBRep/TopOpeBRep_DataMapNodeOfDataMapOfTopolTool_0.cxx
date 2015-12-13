@@ -5,7 +5,7 @@
 
 #include <TopOpeBRep_DataMapNodeOfDataMapOfTopolTool.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <BRepTopAdaptor_TopolTool.hxx>
 #include <TopoDS_Shape.hxx>

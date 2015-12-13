@@ -6,18 +6,18 @@
 #ifndef _BRepFeat_MakeRevolutionForm_HeaderFile
 #define _BRepFeat_MakeRevolutionForm_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <gp_Ax1.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Geom_Plane.hxx>
 #include <TopTools_DataMapOfShapeListOfShape.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <BRepFeat_RibSlot.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Geom_Plane;
 class Standard_ConstructionError;
 class TopoDS_Shape;

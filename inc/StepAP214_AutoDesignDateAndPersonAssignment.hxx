@@ -6,15 +6,15 @@
 #ifndef _StepAP214_AutoDesignDateAndPersonAssignment_HeaderFile
 #define _StepAP214_AutoDesignDateAndPersonAssignment_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepAP214_AutoDesignDateAndPersonAssignment.hxx>
 
 #include <Handle_StepAP214_HArray1OfAutoDesignDateAndPersonItem.hxx>
 #include <StepBasic_PersonAndOrganizationAssignment.hxx>
 #include <Handle_StepBasic_PersonAndOrganization.hxx>
 #include <Handle_StepBasic_PersonAndOrganizationRole.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class StepAP214_HArray1OfAutoDesignDateAndPersonItem;
 class StepBasic_PersonAndOrganization;
 class StepBasic_PersonAndOrganizationRole;

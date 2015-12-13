@@ -6,7 +6,7 @@
 #ifndef _Aspect_TypeOfTriedronEcho_HeaderFile
 #define _Aspect_TypeOfTriedronEcho_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Definition of the Triedron echo zone to highlight
 //!

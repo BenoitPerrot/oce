@@ -6,12 +6,12 @@
 #ifndef _IGESSolid_RightAngularWedge_HeaderFile
 #define _IGESSolid_RightAngularWedge_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESSolid_RightAngularWedge.hxx>
 
 #include <gp_XYZ.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <IGESData_IGESEntity.hxx>
 class gp_XYZ;
 class gp_Pnt;

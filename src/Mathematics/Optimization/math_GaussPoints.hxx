@@ -15,7 +15,7 @@
 #ifndef math_GaussPoints_HeaderFile
 #define math_GaussPoints_HeaderFile
 #include <math_Vector.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 
 
 extern const Standard_Real Point[157];

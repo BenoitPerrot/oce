@@ -5,7 +5,7 @@
 
 #include <IntTools_MapIteratorOfMapOfSurfaceSample.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <IntTools_SurfaceRangeSample.hxx>
 #include <IntTools_SurfaceRangeSampleMapHasher.hxx>
 #include <IntTools_MapOfSurfaceSample.hxx>

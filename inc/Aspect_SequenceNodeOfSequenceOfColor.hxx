@@ -6,8 +6,8 @@
 #ifndef _Aspect_SequenceNodeOfSequenceOfColor_HeaderFile
 #define _Aspect_SequenceNodeOfSequenceOfColor_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Aspect_SequenceNodeOfSequenceOfColor.hxx>
 
 #include <Foundation/Quantity/Quantity_Color.hxx>

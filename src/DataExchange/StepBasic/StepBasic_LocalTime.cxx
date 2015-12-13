@@ -13,7 +13,7 @@
 
 #include <StepBasic_CoordinatedUniversalTimeOffset.hxx>
 #include <StepBasic_LocalTime.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepBasic_LocalTime)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

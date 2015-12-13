@@ -18,7 +18,7 @@
 #ifndef NCollection_DefineHArray2_HeaderFile
 #define NCollection_DefineHArray2_HeaderFile
 
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/NCollection/NCollection_DefineArray2.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 

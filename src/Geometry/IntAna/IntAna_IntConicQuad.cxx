@@ -25,8 +25,8 @@
 
 
 #include <StdFail_NotDone.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <gp_Lin.hxx>
 #include <IntAna_Quadric.hxx>
 #include <gp_Circ.hxx>

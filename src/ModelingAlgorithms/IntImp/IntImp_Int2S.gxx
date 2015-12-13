@@ -22,7 +22,7 @@
 #include <math_FunctionSetRoot.hxx>
 #include <math_Vector.hxx>
 #include <IntImp_ConstIsoparametric.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Precision.hxx>
 
 

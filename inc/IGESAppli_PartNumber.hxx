@@ -6,11 +6,11 @@
 #ifndef _IGESAppli_PartNumber_HeaderFile
 #define _IGESAppli_PartNumber_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESAppli_PartNumber.hxx>
 
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <IGESData_IGESEntity.hxx>
 class TCollection_HAsciiString;

@@ -6,8 +6,8 @@
 #ifndef _Handle_XCAFDrivers_DocumentStorageDriver_HeaderFile
 #define _Handle_XCAFDrivers_DocumentStorageDriver_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_MDocStd_DocumentStorageDriver.hxx>
 
 class Standard_Transient;

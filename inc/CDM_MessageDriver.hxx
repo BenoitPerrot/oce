@@ -6,12 +6,12 @@
 #ifndef _CDM_MessageDriver_HeaderFile
 #define _CDM_MessageDriver_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_CDM_MessageDriver.hxx>
 
-#include <Standard_Transient.hxx>
-#include <Standard_ExtString.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_ExtString.hxx>
 
 
 

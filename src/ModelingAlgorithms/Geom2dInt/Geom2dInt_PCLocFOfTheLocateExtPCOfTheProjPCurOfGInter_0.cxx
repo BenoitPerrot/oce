@@ -5,8 +5,8 @@
 
 #include <Geom2dInt_PCLocFOfTheLocateExtPCOfTheProjPCurOfGInter.hxx>
 
-#include <Standard_OutOfRange.hxx>
-#include <Standard_TypeMismatch.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_TypeMismatch.hxx>
 #include <Adaptor2d_Curve2d.hxx>
 #include <Geom2dInt_Geom2dCurveTool.hxx>
 #include <Extrema_POnCurv2d.hxx>

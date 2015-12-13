@@ -6,16 +6,16 @@
 #ifndef _BOPTools_Set_HeaderFile
 #define _BOPTools_Set_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <BOPCol_BaseAllocator.hxx>
 #include <BOPCol_ListOfShape.hxx>
 #include <TopoDS_Shape.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <TopAbs_ShapeEnum.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class TopoDS_Shape;
 
 

@@ -37,8 +37,8 @@
 #include <Geom_OffsetCurve.hxx>
 #include <GeomToIGES_GeomCurve.hxx>
 
-#include <Standard_ErrorHandler.hxx>
-#include <Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
 
 #include <Geom_Curve.hxx>
 #include <Geom_BoundedCurve.hxx>

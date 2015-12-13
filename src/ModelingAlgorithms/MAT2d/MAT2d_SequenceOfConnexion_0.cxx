@@ -5,8 +5,8 @@
 
 #include <MAT2d_SequenceOfConnexion.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <MAT2d_Connexion.hxx>
 #include <MAT2d_SequenceNodeOfSequenceOfConnexion.hxx>
  

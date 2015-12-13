@@ -6,17 +6,17 @@
 #ifndef _ChFiDS_SurfData_HeaderFile
 #define _ChFiDS_SurfData_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ChFiDS_SurfData.hxx>
 
 #include <ChFiDS_CommonPoint.hxx>
 #include <ChFiDS_FaceInterference.hxx>
 #include <gp_Pnt2d.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_MMgt_TShared.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <TopAbs_Orientation.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class MMgt_TShared;

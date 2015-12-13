@@ -5,7 +5,7 @@
 
 #include <Visual3d_SequenceNodeOfSequenceOfView.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Visual3d_View.hxx>
 #include <Visual3d_SequenceOfView.hxx>

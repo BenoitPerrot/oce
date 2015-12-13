@@ -5,7 +5,7 @@
 
 #include <BRepAlgo_DataMapNodeOfDataMapOfShapeInterference.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TopOpeBRepDS_Interference.hxx>
 #include <TopoDS_Shape.hxx>

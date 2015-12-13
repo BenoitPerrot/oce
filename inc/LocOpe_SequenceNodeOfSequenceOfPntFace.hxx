@@ -6,8 +6,8 @@
 #ifndef _LocOpe_SequenceNodeOfSequenceOfPntFace_HeaderFile
 #define _LocOpe_SequenceNodeOfSequenceOfPntFace_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_LocOpe_SequenceNodeOfSequenceOfPntFace.hxx>
 
 #include <LocOpe_PntFace.hxx>

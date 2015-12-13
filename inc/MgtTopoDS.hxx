@@ -6,9 +6,9 @@
 #ifndef _MgtTopoDS_HeaderFile
 #define _MgtTopoDS_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_PTopoDS_HShape.hxx>
 #include <Handle_MgtTopoDS_TranslateTool.hxx>

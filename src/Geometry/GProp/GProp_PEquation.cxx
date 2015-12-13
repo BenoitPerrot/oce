@@ -12,7 +12,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <gp_Pln.hxx>
 #include <gp_Lin.hxx>

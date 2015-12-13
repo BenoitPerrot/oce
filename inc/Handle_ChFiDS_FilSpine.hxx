@@ -6,8 +6,8 @@
 #ifndef _Handle_ChFiDS_FilSpine_HeaderFile
 #define _Handle_ChFiDS_FilSpine_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ChFiDS_Spine.hxx>
 
 class Standard_Transient;

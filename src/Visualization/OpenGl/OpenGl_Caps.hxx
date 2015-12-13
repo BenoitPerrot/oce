@@ -16,8 +16,8 @@
 #ifndef _OpenGl_Caps_H__
 #define _OpenGl_Caps_H__
 
-#include <Standard_DefineHandle.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <Handle_Standard_Transient.hxx>
 
 //! Class to define graphic driver capabilities.

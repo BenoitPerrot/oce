@@ -6,7 +6,7 @@
 #ifndef _Storage_Error_HeaderFile
 #define _Storage_Error_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Error codes returned by the ErrorStatus
 //! function on a Storage_Data set of data during a

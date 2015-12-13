@@ -16,9 +16,9 @@
 
 #include <MAT_BasicElt.hxx>
 #include <MAT_Node.hxx>
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <MAT_Arc.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MAT_Arc)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),
@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(MAT_Arc)
 IMPLEMENT_DOWNCAST(MAT_Arc,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MAT_Arc)
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 
 //========================================================================
 // function:

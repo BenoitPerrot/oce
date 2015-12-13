@@ -6,12 +6,12 @@
 #ifndef _IntAna_Curve_HeaderFile
 #define _IntAna_Curve_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Real.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <GeomAbs_SurfaceType.hxx>
 #include <gp_Ax3.hxx>
 class Standard_DomainError;

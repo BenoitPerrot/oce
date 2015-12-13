@@ -19,9 +19,9 @@
 //#endif
 
 #include <StdFail_NotDone.hxx>
-#include <Standard_RangeError.hxx>  
+#include <Foundation/Standard/Standard_RangeError.hxx>  
 #include <math_DirectPolynomialRoots.hxx>
-#include <Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
 #include <StdFail_NotDone.hxx>
 #include <math_FunctionWithDerivative.hxx>
 #include <math_FunctionRoots.hxx>

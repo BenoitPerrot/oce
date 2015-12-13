@@ -16,8 +16,8 @@
 #ifndef _Font_FTLibrary_H__
 #define _Font_FTLibrary_H__
 
-#include <Standard_DefineHandle.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 
 // inclusion template for FreeType
 #include <ft2build.h>

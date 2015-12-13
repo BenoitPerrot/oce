@@ -6,17 +6,17 @@
 #ifndef _BRepBlend_CurvPointRadInv_HeaderFile
 #define _BRepBlend_CurvPointRadInv_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_Adaptor3d_HCurve.hxx>
 #include <gp_Pnt.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Blend_CurvPointFuncInv.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <math_Vector.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class Adaptor3d_HCurve;
 class math_Matrix;
 class gp_Pnt;

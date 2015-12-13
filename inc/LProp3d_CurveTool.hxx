@@ -6,13 +6,13 @@
 #ifndef _LProp3d_CurveTool_HeaderFile
 #define _LProp3d_CurveTool_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_Adaptor3d_HCurve.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Adaptor3d_HCurve;
 class gp_Pnt;
 class gp_Vec;

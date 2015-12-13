@@ -6,11 +6,11 @@
 #ifndef _TPrsStd_DataMapNodeOfDataMapOfGUIDDriver_HeaderFile
 #define _TPrsStd_DataMapNodeOfDataMapOfGUIDDriver_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TPrsStd_DataMapNodeOfDataMapOfGUIDDriver.hxx>
 
-#include <Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
 #include <Handle_TPrsStd_Driver.hxx>
 #include <TCollection_MapNode.hxx>
 #include <TCollection_MapNodePtr.hxx>
@@ -53,11 +53,11 @@ private:
 };
 
 #define TheKey Standard_GUID
-#define TheKey_hxx <Standard_GUID.hxx>
+#define TheKey_hxx <Foundation/Standard/Standard_GUID.hxx>
 #define TheItem Handle(TPrsStd_Driver)
 #define TheItem_hxx <TPrsStd_Driver.hxx>
 #define Hasher Standard_GUID
-#define Hasher_hxx <Standard_GUID.hxx>
+#define Hasher_hxx <Foundation/Standard/Standard_GUID.hxx>
 #define TCollection_DataMapNode TPrsStd_DataMapNodeOfDataMapOfGUIDDriver
 #define TCollection_DataMapNode_hxx <TPrsStd_DataMapNodeOfDataMapOfGUIDDriver.hxx>
 #define TCollection_DataMapIterator TPrsStd_DataMapIteratorOfDataMapOfGUIDDriver

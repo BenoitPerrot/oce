@@ -6,8 +6,8 @@
 #ifndef _SelectBasics_ListNodeOfListOfBox2d_HeaderFile
 #define _SelectBasics_ListNodeOfListOfBox2d_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_SelectBasics_ListNodeOfListOfBox2d.hxx>
 
 #include <Bnd_Box2d.hxx>

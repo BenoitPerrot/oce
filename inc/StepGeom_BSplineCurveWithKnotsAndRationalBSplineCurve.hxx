@@ -6,22 +6,22 @@
 #ifndef _StepGeom_BSplineCurveWithKnotsAndRationalBSplineCurve_HeaderFile
 #define _StepGeom_BSplineCurveWithKnotsAndRationalBSplineCurve_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepGeom_BSplineCurveWithKnotsAndRationalBSplineCurve.hxx>
 
 #include <Handle_StepGeom_BSplineCurveWithKnots.hxx>
 #include <Handle_StepGeom_RationalBSplineCurve.hxx>
 #include <StepGeom_BSplineCurve.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_StepGeom_HArray1OfCartesianPoint.hxx>
 #include <StepGeom_BSplineCurveForm.hxx>
 #include <StepData_Logical.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>
 #include <Handle_TColStd_HArray1OfReal.hxx>
 #include <StepGeom_KnotType.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class StepGeom_BSplineCurveWithKnots;
 class StepGeom_RationalBSplineCurve;
 class TCollection_HAsciiString;

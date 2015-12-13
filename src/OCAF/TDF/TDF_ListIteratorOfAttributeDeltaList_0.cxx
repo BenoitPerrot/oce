@@ -5,8 +5,8 @@
 
 #include <TDF_ListIteratorOfAttributeDeltaList.hxx>
 
-#include <Standard_NoMoreObject.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoMoreObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TDF_AttributeDeltaList.hxx>
 #include <TDF_AttributeDelta.hxx>
 #include <TDF_ListNodeOfAttributeDeltaList.hxx>

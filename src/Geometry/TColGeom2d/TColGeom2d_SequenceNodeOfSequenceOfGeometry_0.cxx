@@ -5,7 +5,7 @@
 
 #include <TColGeom2d_SequenceNodeOfSequenceOfGeometry.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Geom2d_Geometry.hxx>
 #include <TColGeom2d_SequenceOfGeometry.hxx>

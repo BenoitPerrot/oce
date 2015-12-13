@@ -6,7 +6,7 @@
 #ifndef _Quantity_ElectricFieldStrength_HeaderFile
 #define _Quantity_ElectricFieldStrength_HeaderFile
 
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 
 typedef Standard_Real Quantity_ElectricFieldStrength;
 

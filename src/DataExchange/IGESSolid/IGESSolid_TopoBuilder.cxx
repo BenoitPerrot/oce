@@ -21,10 +21,10 @@
 #include <IGESSolid_EdgeList.hxx>
 #include <IGESSolid_VertexList.hxx>
 #include <TColgp_HSequenceOfXYZ.hxx>
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <gp_XYZ.hxx>
 #include <IGESSolid_TopoBuilder.hxx>
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <TColgp_HArray1OfXYZ.hxx>
 #include <IGESData_HArray1OfIGESEntity.hxx>
 #include <IGESSolid_HArray1OfVertexList.hxx>

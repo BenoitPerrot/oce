@@ -5,7 +5,7 @@
 
 #include <Storage_DataMapIteratorOfMapOfCallBack.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <Storage_TypedCallBack.hxx>
 #include <Storage_MapOfCallBack.hxx>

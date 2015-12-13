@@ -6,8 +6,8 @@
 #ifndef _IGESDraw_DrawingWithRotation_HeaderFile
 #define _IGESDraw_DrawingWithRotation_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESDraw_DrawingWithRotation.hxx>
 
 #include <Handle_IGESDraw_HArray1OfViewKindEntity.hxx>
@@ -15,11 +15,11 @@
 #include <Handle_TColStd_HArray1OfReal.hxx>
 #include <Handle_IGESData_HArray1OfIGESEntity.hxx>
 #include <IGESData_IGESEntity.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_IGESData_ViewKindEntity.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_IGESData_IGESEntity.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class IGESDraw_HArray1OfViewKindEntity;
 class TColgp_HArray1OfXY;
 class TColStd_HArray1OfReal;

@@ -5,8 +5,8 @@
 
 #include <Draft_DataMapOfFaceFaceInfo.hxx>
 
-#include <Standard_DomainError.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopoDS_Face.hxx>
 #include <Draft_FaceInfo.hxx>
 #include <TopTools_ShapeMapHasher.hxx>

@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <Interface_EntityIterator.hxx>
 #include <IGESData_IGESEntity.hxx>
 #include <Interface_ShareTool.hxx>
@@ -20,7 +20,7 @@
 #include <Interface_CopyTool.hxx>
 #include <TCollection_HAsciiString.hxx>
 #include <IGESData_GeneralModule.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESData_GeneralModule)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Interface_GeneralModule),

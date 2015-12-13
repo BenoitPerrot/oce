@@ -6,8 +6,8 @@
 #ifndef _Handle_StdDrivers_DocumentRetrievalDriver_HeaderFile
 #define _Handle_StdDrivers_DocumentRetrievalDriver_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_MDocStd_DocumentRetrievalDriver.hxx>
 
 class Standard_Transient;

@@ -13,15 +13,15 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_Transient.hxx>
-#include <Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
 #include <XCAFDrivers.hxx>
 #include <XCAFDrivers_DocumentStorageDriver.hxx>
 #include <XCAFDrivers_DocumentRetrievalDriver.hxx>
 #include <XCAFSchema.hxx>
 
-#include <Standard_Failure.hxx>
-#include <Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
 #include <StdDrivers.hxx>
 #include <Storage_HArrayOfSchema.hxx>
 #include <StdSchema.hxx>

@@ -17,7 +17,7 @@
 #include <TDF_Attribute.hxx>
 #include <XmlObjMgt_Persistent.hxx>
 #include <XmlMDataXtd_ConstraintDriver.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XmlMDataXtd_ConstraintDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(XmlMDF_ADriver),

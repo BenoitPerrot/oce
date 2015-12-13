@@ -18,7 +18,7 @@
 #include <StepShape_HArray1OfConnectedEdgeSet.hxx>
 #include <TCollection_HAsciiString.hxx>
 #include <StepShape_EdgeBasedWireframeModel.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepShape_EdgeBasedWireframeModel)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepGeom_GeometricRepresentationItem),

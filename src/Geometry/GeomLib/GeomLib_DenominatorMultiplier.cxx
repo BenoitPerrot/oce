@@ -15,8 +15,8 @@
 // commercial license or contractual agreement.
 
 #include <Geom_BSplineSurface.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <TColStd_Array1OfReal.hxx>
 #include <GeomLib_DenominatorMultiplier.hxx>
 #include <gp_Pnt.hxx>

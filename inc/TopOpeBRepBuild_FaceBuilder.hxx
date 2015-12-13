@@ -6,9 +6,9 @@
 #ifndef _TopOpeBRepBuild_FaceBuilder_HeaderFile
 #define _TopOpeBRepBuild_FaceBuilder_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TopoDS_Face.hxx>
 #include <TopOpeBRepBuild_LoopSet.hxx>
@@ -16,8 +16,8 @@
 #include <TopOpeBRepBuild_BlockBuilder.hxx>
 #include <TopOpeBRepBuild_FaceAreaBuilder.hxx>
 #include <TopTools_DataMapOfShapeInteger.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class TopOpeBRepBuild_WireEdgeSet;
 class TopoDS_Shape;
 class TopTools_IndexedDataMapOfShapeShape;

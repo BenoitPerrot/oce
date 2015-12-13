@@ -24,7 +24,7 @@
 #include <Foundation/NCollection/NCollection_DataMap.hxx>
 #include <Foundation/NCollection/NCollection_IndexedMap.hxx>
 #include <Foundation/NCollection/NCollection_IndexedDataMap.hxx>
-#include <Standard_Assert.hxx>
+#include <Foundation/Standard/Standard_Assert.hxx>
 #include <Foundation/OSD/OSD_Timer.hxx>
 
 #ifdef HAVE_TBB

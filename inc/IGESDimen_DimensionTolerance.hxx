@@ -6,13 +6,13 @@
 #ifndef _IGESDimen_DimensionTolerance_HeaderFile
 #define _IGESDimen_DimensionTolerance_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESDimen_DimensionTolerance.hxx>
 
-#include <Standard_Integer.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <IGESData_IGESEntity.hxx>
 
 

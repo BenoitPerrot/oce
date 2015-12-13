@@ -26,12 +26,12 @@
 #include <TColStd_HArray2OfReal.hxx>
 #include <TColStd_HArray1OfReal.hxx>
 #include <TColStd_HArray1OfInteger.hxx>
-#include <Standard_ConstructionError.hxx>
-#include <Standard_DimensionError.hxx>
-#include <Standard_DomainError.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_DimensionError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Geom_UndefinedDerivative.hxx>
 #include <TColgp_Array2OfPnt.hxx>
 #include <TColStd_Array1OfReal.hxx>
@@ -44,7 +44,7 @@
 #include <gp_Trsf.hxx>
 #include <Geom_Geometry.hxx>
 #include <Geom_BSplineSurface.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Geom_BSplineSurface)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Geom_BoundedSurface),
@@ -61,9 +61,9 @@ IMPLEMENT_STANDARD_RTTI(Geom_BSplineSurface)
 #include <BSplCLib.hxx>
 #include <BSplSLib.hxx>
 
-#include <Standard_ConstructionError.hxx>
-#include <Standard_NotImplemented.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Precision.hxx>
 
 //=======================================================================

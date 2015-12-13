@@ -5,8 +5,8 @@
 
 #include <AIS_DataMapofIntegerListOfinteractive.hxx>
 
-#include <Standard_DomainError.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <AIS_ListOfInteractive.hxx>
 #include <TColStd_MapIntegerHasher.hxx>
 #include <AIS_DataMapNodeOfDataMapofIntegerListOfinteractive.hxx>
@@ -14,7 +14,7 @@
  
 
 #define TheKey Standard_Integer
-#define TheKey_hxx <Standard_Integer.hxx>
+#define TheKey_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheItem AIS_ListOfInteractive
 #define TheItem_hxx <AIS_ListOfInteractive.hxx>
 #define Hasher TColStd_MapIntegerHasher

@@ -6,13 +6,13 @@
 #ifndef _Draw_Color_HeaderFile
 #define _Draw_Color_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Draw_ColorKind.hxx>
-#include <Standard_Storable.hxx>
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_Storable.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 Standard_EXPORT const Handle(Standard_Type)& STANDARD_TYPE(Draw_Color);

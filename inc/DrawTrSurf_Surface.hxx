@@ -6,18 +6,18 @@
 #ifndef _DrawTrSurf_Surface_HeaderFile
 #define _DrawTrSurf_Surface_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_DrawTrSurf_Surface.hxx>
 
 #include <Handle_Geom_Surface.hxx>
 #include <Draw_Color.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <DrawTrSurf_Drawable.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Draw_Drawable3D.hxx>
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 #include <Draw_Interpretor.hxx>
 class Geom_Surface;
 class Draw_Color;

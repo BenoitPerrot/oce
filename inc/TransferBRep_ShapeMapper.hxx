@@ -6,16 +6,16 @@
 #ifndef _TransferBRep_ShapeMapper_HeaderFile
 #define _TransferBRep_ShapeMapper_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TransferBRep_ShapeMapper.hxx>
 
 #include <TopoDS_Shape.hxx>
 #include <Transfer_Finder.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Transfer_Finder.hxx>
 #include <Handle_Standard_Type.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 class TopoDS_Shape;
 class TopTools_ShapeMapHasher;
 class TransferBRep_ShapeInfo;

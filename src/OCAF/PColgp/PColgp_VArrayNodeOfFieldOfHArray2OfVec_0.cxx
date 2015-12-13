@@ -5,7 +5,7 @@
 
 #include <PColgp_VArrayNodeOfFieldOfHArray2OfVec.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <gp_Vec.hxx>
 #include <PColgp_FieldOfHArray2OfVec.hxx>

@@ -12,10 +12,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_GUID.hxx>
-#include <Standard_IStream.hxx>
-#include <Standard_RangeError.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_IStream.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 IMPLEMENT_STANDARD_TYPE(Standard_GUID)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

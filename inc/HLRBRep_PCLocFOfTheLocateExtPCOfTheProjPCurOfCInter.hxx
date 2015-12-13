@@ -6,18 +6,18 @@
 #ifndef _HLRBRep_PCLocFOfTheLocateExtPCOfTheProjPCurOfCInter_HeaderFile
 #define _HLRBRep_PCLocFOfTheLocateExtPCOfTheProjPCurOfCInter_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <gp_Pnt2d.hxx>
-#include <Standard_Address.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <TColStd_SequenceOfReal.hxx>
 #include <TColStd_SequenceOfInteger.hxx>
 #include <HLRBRep_SeqPCOfPCLocFOfTheLocateExtPCOfTheProjPCurOfCInter.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <math_FunctionWithDerivative.hxx>
 #include <Handle_HLRBRep_SequenceNodeOfSeqPCOfPCLocFOfTheLocateExtPCOfTheProjPCurOfCInter.hxx>
 class Standard_OutOfRange;

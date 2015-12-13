@@ -40,7 +40,7 @@
 #include <TColgp_HArray1OfPnt.hxx>
 #include <gp_Pnt2d.hxx>
 #include <ShapeConstruct_ProjectCurveOnSurface.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeConstruct_ProjectCurveOnSurface)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),
@@ -50,8 +50,8 @@ IMPLEMENT_STANDARD_TYPE_END(ShapeConstruct_ProjectCurveOnSurface)
 IMPLEMENT_DOWNCAST(ShapeConstruct_ProjectCurveOnSurface,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ShapeConstruct_ProjectCurveOnSurface)
 
-#include <Standard_ErrorHandler.hxx>
-#include <Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
 
 #include <Precision.hxx>
 #include <TColStd_Array1OfInteger.hxx>

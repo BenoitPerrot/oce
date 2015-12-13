@@ -6,12 +6,12 @@
 #ifndef _Transfer_IndexedDataMapNodeOfTransferMapOfProcessForTransient_HeaderFile
 #define _Transfer_IndexedDataMapNodeOfTransferMapOfProcessForTransient_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Transfer_IndexedDataMapNodeOfTransferMapOfProcessForTransient.hxx>
 
 #include <Handle_Standard_Transient.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Transfer_Binder.hxx>
 #include <TCollection_MapNodePtr.hxx>
 #include <TCollection_MapNode.hxx>
@@ -60,7 +60,7 @@ private:
 };
 
 #define TheKey Handle(Standard_Transient)
-#define TheKey_hxx <Standard_Transient.hxx>
+#define TheKey_hxx <Foundation/Standard/Standard_Transient.hxx>
 #define TheItem Handle(Transfer_Binder)
 #define TheItem_hxx <Transfer_Binder.hxx>
 #define Hasher TColStd_MapTransientHasher

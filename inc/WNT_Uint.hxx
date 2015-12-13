@@ -36,7 +36,7 @@
 
 # ifndef __STANDARD_TYPE_HXX_INCLUDED
 #  define __STANDARD_TYPE_HXX_INCLUDED
-#  include <Standard_Type.hxx>
+#  include <Foundation/Standard/Standard_Type.hxx>
 # endif  // __STANDARD_TYPE_HXX_INCLUDED 
 
 typedef UINT WNT_Uint;

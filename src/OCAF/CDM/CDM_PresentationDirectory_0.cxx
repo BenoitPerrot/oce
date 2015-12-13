@@ -5,8 +5,8 @@
 
 #include <CDM_PresentationDirectory.hxx>
 
-#include <Standard_DomainError.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TCollection_ExtendedString.hxx>
 #include <CDM_Document.hxx>
 #include <CDM_DataMapNodeOfPresentationDirectory.hxx>

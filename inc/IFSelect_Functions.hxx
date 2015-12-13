@@ -6,17 +6,17 @@
 #ifndef _IFSelect_Functions_HeaderFile
 #define _IFSelect_Functions_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_Standard_Transient.hxx>
 #include <Handle_IFSelect_WorkSession.hxx>
-#include <Standard_CString.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TColStd_HSequenceOfTransient.hxx>
 #include <Handle_IFSelect_Dispatch.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_Transient;
 class IFSelect_WorkSession;
 class TColStd_HSequenceOfTransient;

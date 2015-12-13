@@ -6,16 +6,16 @@
 #ifndef _MoniTool_Element_HeaderFile
 #define _MoniTool_Element_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_MoniTool_Element.hxx>
 
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <MoniTool_AttrList.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Standard_Type.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 class Standard_Type;
 class MoniTool_AttrList;
 

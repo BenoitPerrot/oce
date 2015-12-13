@@ -6,12 +6,12 @@
 #ifndef _Transfer_ProcessForTransient_HeaderFile
 #define _Transfer_ProcessForTransient_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Transfer_ProcessForTransient.hxx>
 
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Message_Messenger.hxx>
 #include <TColStd_IndexedMapOfInteger.hxx>
 #include <Handle_Standard_Transient.hxx>
@@ -22,7 +22,7 @@
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_TColStd_HSequenceOfTransient.hxx>
 #include <Handle_Transfer_IndexedDataMapNodeOfTransferMapOfProcessForTransient.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_Interface_Check.hxx>
 #include <Handle_Standard_Type.hxx>
 class Message_Messenger;

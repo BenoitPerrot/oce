@@ -6,15 +6,15 @@
 #ifndef _IFGraph_Articulations_HeaderFile
 #define _IFGraph_Articulations_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Interface_Graph.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TColStd_HSequenceOfInteger.hxx>
 #include <Interface_GraphContent.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Standard_Transient.hxx>
 class TColStd_HSequenceOfInteger;
 class Interface_Graph;

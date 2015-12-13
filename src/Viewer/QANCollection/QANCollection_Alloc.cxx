@@ -18,7 +18,7 @@
 
 #include <Foundation/NCollection/NCollection_StdAllocator.hxx>
 #include <Foundation/NCollection/NCollection_IncAllocator.hxx>
-#include <Standard_Assert.hxx>
+#include <Foundation/Standard/Standard_Assert.hxx>
 
 #include <list>
 #include <vector>

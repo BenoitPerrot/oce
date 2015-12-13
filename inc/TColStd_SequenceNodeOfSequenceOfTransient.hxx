@@ -6,8 +6,8 @@
 #ifndef _TColStd_SequenceNodeOfSequenceOfTransient_HeaderFile
 #define _TColStd_SequenceNodeOfSequenceOfTransient_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TColStd_SequenceNodeOfSequenceOfTransient.hxx>
 
 #include <Handle_Standard_Transient.hxx>
@@ -47,7 +47,7 @@ private:
 };
 
 #define SeqItem Handle(Standard_Transient)
-#define SeqItem_hxx <Standard_Transient.hxx>
+#define SeqItem_hxx <Foundation/Standard/Standard_Transient.hxx>
 #define TCollection_SequenceNode TColStd_SequenceNodeOfSequenceOfTransient
 #define TCollection_SequenceNode_hxx <TColStd_SequenceNodeOfSequenceOfTransient.hxx>
 #define Handle_TCollection_SequenceNode Handle_TColStd_SequenceNodeOfSequenceOfTransient

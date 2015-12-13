@@ -6,7 +6,7 @@
 #ifndef _AppParCurves_Constraint_HeaderFile
 #define _AppParCurves_Constraint_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 //! -   NoConstraint: this point has no constraints.

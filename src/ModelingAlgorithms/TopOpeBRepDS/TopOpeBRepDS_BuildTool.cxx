@@ -54,8 +54,8 @@
 #include <TopLoc_Location.hxx>
 #include <TopOpeBRepTool_ShapeTool.hxx>
 #include <Geom_SphericalSurface.hxx>
-#include <Standard_ProgramError.hxx>
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_ProgramError.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Pnt2d.hxx>
 #include <TopOpeBRepDS_Dumper.hxx>

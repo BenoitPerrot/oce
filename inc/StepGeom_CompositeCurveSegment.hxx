@@ -6,12 +6,12 @@
 #ifndef _StepGeom_CompositeCurveSegment_HeaderFile
 #define _StepGeom_CompositeCurveSegment_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepGeom_CompositeCurveSegment.hxx>
 
 #include <StepGeom_TransitionCode.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_StepGeom_Curve.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepGeom_Curve;

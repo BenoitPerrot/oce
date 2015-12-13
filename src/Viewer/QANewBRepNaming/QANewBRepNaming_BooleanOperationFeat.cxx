@@ -18,7 +18,7 @@
 #include <BRepAlgoAPI_BooleanOperation.hxx>
 #include <TopoDS_Shape.hxx>
 #include <QANewBRepNaming_BooleanOperationFeat.hxx>
-#include <Standard_NullObject.hxx>
+#include <Foundation/Standard/Standard_NullObject.hxx>
 #include <Precision.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <TColStd_Array1OfInteger.hxx>

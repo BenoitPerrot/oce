@@ -18,13 +18,13 @@
 
 #include <Approx_CurvlinFunc.hxx>
 #include <Adaptor3d_HCurve.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <GeomFill_TrihedronLaw.hxx>
 #include <gp_Vec.hxx>
 #include <TColStd_Array1OfReal.hxx>
 #include <GeomFill_GuideTrihedronAC.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(GeomFill_GuideTrihedronAC)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(GeomFill_TrihedronWithGuide),

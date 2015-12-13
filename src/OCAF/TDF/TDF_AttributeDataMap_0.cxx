@@ -5,8 +5,8 @@
 
 #include <TDF_AttributeDataMap.hxx>
 
-#include <Standard_DomainError.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TDF_Attribute.hxx>
 #include <TColStd_MapTransientHasher.hxx>
 #include <TDF_DataMapNodeOfAttributeDataMap.hxx>

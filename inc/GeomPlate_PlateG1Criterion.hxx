@@ -6,17 +6,17 @@
 #ifndef _GeomPlate_PlateG1Criterion_HeaderFile
 #define _GeomPlate_PlateG1Criterion_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TColgp_SequenceOfXY.hxx>
 #include <TColgp_SequenceOfXYZ.hxx>
 #include <AdvApp2Var_Criterion.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <AdvApp2Var_CriterionType.hxx>
 #include <AdvApp2Var_CriterionRepartition.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class TColgp_SequenceOfXY;
 class TColgp_SequenceOfXYZ;
 class AdvApp2Var_Patch;

@@ -15,7 +15,7 @@
 #include <TColStd_HArray1OfInteger.hxx>
 #include <Foundation/Dico/Dico_DictionaryOfInteger.hxx>
 #include <TCollection_AsciiString.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <IFSelect_SessionFile.hxx>
 #include <IFSelect_SessionDumper.hxx>
 #include <IFSelect_BasicDumper.hxx>

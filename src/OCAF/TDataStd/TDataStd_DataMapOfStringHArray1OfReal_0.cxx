@@ -5,8 +5,8 @@
 
 #include <TDataStd_DataMapOfStringHArray1OfReal.hxx>
 
-#include <Standard_DomainError.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TCollection_ExtendedString.hxx>
 #include <TColStd_HArray1OfReal.hxx>
 #include <TDataStd_DataMapNodeOfDataMapOfStringHArray1OfReal.hxx>

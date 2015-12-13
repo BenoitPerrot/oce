@@ -6,14 +6,14 @@
 #ifndef _TColStd_ListIteratorOfListOfInteger_HeaderFile
 #define _TColStd_ListIteratorOfListOfInteger_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Address.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TColStd_ListNodeOfListOfInteger.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_NoMoreObject;
 class Standard_NoSuchObject;
 class TColStd_ListOfInteger;
@@ -61,7 +61,7 @@ private:
 };
 
 #define Item Standard_Integer
-#define Item_hxx <Standard_Integer.hxx>
+#define Item_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TCollection_ListNode TColStd_ListNodeOfListOfInteger
 #define TCollection_ListNode_hxx <TColStd_ListNodeOfListOfInteger.hxx>
 #define TCollection_ListIterator TColStd_ListIteratorOfListOfInteger

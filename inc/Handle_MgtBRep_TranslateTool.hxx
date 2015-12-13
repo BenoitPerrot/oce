@@ -6,8 +6,8 @@
 #ifndef _Handle_MgtBRep_TranslateTool_HeaderFile
 #define _Handle_MgtBRep_TranslateTool_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_MgtTopoDS_TranslateTool.hxx>
 
 class Standard_Transient;

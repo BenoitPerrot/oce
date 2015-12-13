@@ -5,8 +5,8 @@
 
 #include <XCAFDoc_GraphNodeSequence.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <XCAFDoc_GraphNode.hxx>
 #include <XCAFDoc_SequenceNodeOfGraphNodeSequence.hxx>
  

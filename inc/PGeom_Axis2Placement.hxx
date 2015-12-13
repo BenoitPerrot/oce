@@ -6,9 +6,9 @@
 #ifndef _PGeom_Axis2Placement_HeaderFile
 #define _PGeom_Axis2Placement_HeaderFile
 
-#include <Standard_Macro.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Handle_PGeom_Axis2Placement.hxx>
 
 #include <gp_Dir.hxx>

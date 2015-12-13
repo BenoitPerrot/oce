@@ -19,7 +19,7 @@
 #include <IGESBasic_SubfigureDef.hxx>
 #include <gp_XYZ.hxx>
 #include <IGESBasic_SingularSubfigure.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESBasic_SingularSubfigure)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(IGESData_IGESEntity),

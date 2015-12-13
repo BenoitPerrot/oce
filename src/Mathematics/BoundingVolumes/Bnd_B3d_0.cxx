@@ -13,7 +13,7 @@
  
 
 #define RealType Standard_Real
-#define RealType_hxx <Standard_Real.hxx>
+#define RealType_hxx <Foundation/Standard/Standard_Real.hxx>
 #define Bnd_B3x Bnd_B3d
 #define Bnd_B3x_hxx <Bnd_B3d.hxx>
 #include <Bnd_B3x.gxx>

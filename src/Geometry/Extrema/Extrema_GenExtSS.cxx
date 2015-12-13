@@ -16,8 +16,8 @@
 
 #include <TColgp_HArray2OfPnt.hxx>
 #include <StdFail_NotDone.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_TypeMismatch.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_TypeMismatch.hxx>
 #include <Adaptor3d_Surface.hxx>
 #include <Extrema_POnSurf.hxx>
 #include <Extrema_GenExtSS.hxx>

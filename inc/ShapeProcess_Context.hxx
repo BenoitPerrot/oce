@@ -6,19 +6,19 @@
 #ifndef _ShapeProcess_Context_HeaderFile
 #define _ShapeProcess_Context_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ShapeProcess_Context.hxx>
 
 #include <Handle_Resource_Manager.hxx>
 #include <Handle_TColStd_HSequenceOfHAsciiString.hxx>
 #include <Handle_Message_Messenger.hxx>
 #include <Handle_Message_ProgressIndicator.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_CString.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class Resource_Manager;
 class TColStd_HSequenceOfHAsciiString;
 class Message_Messenger;

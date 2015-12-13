@@ -5,7 +5,7 @@
 
 #include <BRepFill_SequenceNodeOfSequenceOfSection.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <BRepFill_Section.hxx>
 #include <BRepFill_SequenceOfSection.hxx>

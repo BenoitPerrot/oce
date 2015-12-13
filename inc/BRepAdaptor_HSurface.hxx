@@ -6,8 +6,8 @@
 #ifndef _BRepAdaptor_HSurface_HeaderFile
 #define _BRepAdaptor_HSurface_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BRepAdaptor_HSurface.hxx>
 
 #include <BRepAdaptor_Surface.hxx>

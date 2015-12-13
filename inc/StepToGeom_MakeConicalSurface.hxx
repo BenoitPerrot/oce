@@ -6,11 +6,11 @@
 #ifndef _StepToGeom_MakeConicalSurface_HeaderFile
 #define _StepToGeom_MakeConicalSurface_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_StepGeom_ConicalSurface.hxx>
 #include <Handle_Geom_ConicalSurface.hxx>
 class StepGeom_ConicalSurface;

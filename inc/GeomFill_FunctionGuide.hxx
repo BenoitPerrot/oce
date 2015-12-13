@@ -6,19 +6,19 @@
 #ifndef _GeomFill_FunctionGuide_HeaderFile
 #define _GeomFill_FunctionGuide_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_Adaptor3d_HCurve.hxx>
 #include <Handle_GeomFill_SectionLaw.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Geom_Curve.hxx>
 #include <Handle_Geom_Surface.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <gp_XYZ.hxx>
 #include <math_FunctionSetWithDerivatives.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <math_Vector.hxx>
 class Adaptor3d_HCurve;
 class GeomFill_SectionLaw;

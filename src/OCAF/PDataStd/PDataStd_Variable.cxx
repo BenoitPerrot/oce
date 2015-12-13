@@ -16,7 +16,7 @@
 
 #include <PCollection_HAsciiString.hxx>
 #include <PDataStd_Variable.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PDataStd_Variable)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(PDF_Attribute),

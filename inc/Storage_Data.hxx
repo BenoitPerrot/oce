@@ -6,8 +6,8 @@
 #ifndef _Storage_Data_HeaderFile
 #define _Storage_Data_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Storage_Data.hxx>
 
 #include <Handle_Storage_HeaderData.hxx>
@@ -17,11 +17,11 @@
 #include <Storage_Error.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Standard_Persistent.hxx>
 #include <Handle_Storage_HSeqOfRoot.hxx>
 #include <Handle_Storage_Root.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_TColStd_HSequenceOfAsciiString.hxx>
 class Storage_HeaderData;
 class Storage_RootData;

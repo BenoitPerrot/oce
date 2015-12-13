@@ -6,19 +6,19 @@
 #ifndef _IGESDefs_AttributeTable_HeaderFile
 #define _IGESDefs_AttributeTable_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESDefs_AttributeTable.hxx>
 
 #include <Handle_TColStd_HArray2OfTransient.hxx>
 #include <IGESData_IGESEntity.hxx>
 #include <Handle_IGESDefs_AttributeDef.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Standard_Transient.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Handle_IGESData_IGESEntity.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class TColStd_HArray2OfTransient;
 class Standard_OutOfRange;
 class Standard_NullObject;

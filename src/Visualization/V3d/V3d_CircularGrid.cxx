@@ -45,7 +45,7 @@
 #include <Graphic3d_Group.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <V3d_CircularGrid.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(V3d_CircularGrid)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Aspect_CircularGrid),

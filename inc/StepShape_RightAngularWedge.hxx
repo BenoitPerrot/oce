@@ -6,12 +6,12 @@
 #ifndef _StepShape_RightAngularWedge_HeaderFile
 #define _StepShape_RightAngularWedge_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepShape_RightAngularWedge.hxx>
 
 #include <Handle_StepGeom_Axis2Placement3d.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <StepGeom_GeometricRepresentationItem.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 class StepGeom_Axis2Placement3d;

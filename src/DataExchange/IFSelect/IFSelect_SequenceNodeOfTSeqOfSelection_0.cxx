@@ -5,7 +5,7 @@
 
 #include <IFSelect_SequenceNodeOfTSeqOfSelection.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <IFSelect_Selection.hxx>
 #include <IFSelect_TSeqOfSelection.hxx>

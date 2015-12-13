@@ -6,8 +6,8 @@
 #ifndef _STEPCAFControl_DataMapNodeOfDataMapOfShapeSDR_HeaderFile
 #define _STEPCAFControl_DataMapNodeOfDataMapOfShapeSDR_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_STEPCAFControl_DataMapNodeOfDataMapOfShapeSDR.hxx>
 
 #include <TopoDS_Shape.hxx>

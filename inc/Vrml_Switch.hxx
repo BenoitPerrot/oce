@@ -6,12 +6,12 @@
 #ifndef _Vrml_Switch_HeaderFile
 #define _Vrml_Switch_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Integer.hxx>
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 
 
 //! defines a Switch node of VRML specifying group properties.

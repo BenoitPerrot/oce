@@ -16,7 +16,7 @@
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Compound.hxx>
 #include <ShapeFix_FixSmallFace.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeFix_FixSmallFace)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(ShapeFix_Root),

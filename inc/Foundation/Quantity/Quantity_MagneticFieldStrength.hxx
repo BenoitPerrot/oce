@@ -6,7 +6,7 @@
 #ifndef _Quantity_MagneticFieldStrength_HeaderFile
 #define _Quantity_MagneticFieldStrength_HeaderFile
 
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 
 typedef Standard_Real Quantity_MagneticFieldStrength;
 

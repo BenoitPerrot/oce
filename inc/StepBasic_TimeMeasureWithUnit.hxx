@@ -6,8 +6,8 @@
 #ifndef _StepBasic_TimeMeasureWithUnit_HeaderFile
 #define _StepBasic_TimeMeasureWithUnit_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepBasic_TimeMeasureWithUnit.hxx>
 
 #include <StepBasic_MeasureWithUnit.hxx>

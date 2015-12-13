@@ -5,7 +5,7 @@
 
 #include <CDM_ListNodeOfListOfReferences.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <CDM_Reference.hxx>
 #include <CDM_ListOfReferences.hxx>

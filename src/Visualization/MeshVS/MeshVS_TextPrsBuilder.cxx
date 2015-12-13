@@ -20,7 +20,7 @@
 #include <MeshVS_DataMapOfIntegerAsciiString.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <MeshVS_TextPrsBuilder.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MeshVS_TextPrsBuilder)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MeshVS_PrsBuilder),

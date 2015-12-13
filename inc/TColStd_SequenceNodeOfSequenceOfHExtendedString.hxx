@@ -6,8 +6,8 @@
 #ifndef _TColStd_SequenceNodeOfSequenceOfHExtendedString_HeaderFile
 #define _TColStd_SequenceNodeOfSequenceOfHExtendedString_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TColStd_SequenceNodeOfSequenceOfHExtendedString.hxx>
 
 #include <Handle_TCollection_HExtendedString.hxx>

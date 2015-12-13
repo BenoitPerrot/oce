@@ -6,11 +6,11 @@
 #ifndef _XSDRAWSTLVRML_DataMapNodeOfElemNodesMap_HeaderFile
 #define _XSDRAWSTLVRML_DataMapNodeOfElemNodesMap_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_XSDRAWSTLVRML_DataMapNodeOfElemNodesMap.hxx>
 
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <TColStd_DataMapOfIntegerInteger.hxx>
 #include <TCollection_MapNode.hxx>
 #include <TCollection_MapNodePtr.hxx>
@@ -53,7 +53,7 @@ private:
 };
 
 #define TheKey Standard_Integer
-#define TheKey_hxx <Standard_Integer.hxx>
+#define TheKey_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheItem TColStd_DataMapOfIntegerInteger
 #define TheItem_hxx <TColStd_DataMapOfIntegerInteger.hxx>
 #define Hasher TColStd_MapIntegerHasher

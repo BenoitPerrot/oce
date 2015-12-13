@@ -6,14 +6,14 @@
 #ifndef _MeshVS_MeshEntityOwner_HeaderFile
 #define _MeshVS_MeshEntityOwner_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_MeshVS_MeshEntityOwner.hxx>
 
-#include <Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
 #include <MeshVS_EntityType.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <SelectMgr_EntityOwner.hxx>
 #include <SelectMgr_SOPtr.hxx>
 #include <Handle_PrsMgr_PresentationManager.hxx>

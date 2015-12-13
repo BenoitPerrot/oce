@@ -12,10 +12,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_OutOfRange.hxx>
-#include <Standard_RangeError.hxx>
-#include <Standard_NotImplemented.hxx>
-#include <Standard_ProgramError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_ProgramError.hxx>
 
 // ----------------------------------------------------------------------
 // HArray1 implementation:

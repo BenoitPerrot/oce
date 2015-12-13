@@ -17,10 +17,10 @@
 #define _IVtkDraw_HighlightAndSelectionPipeline_HeaderFile
 
 #ifndef _Standard_HeaderFile
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #endif
 #ifndef _Standard_Macro_HeaderFile
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 #endif
 #ifndef _Handle_MMgt_TShared_HeaderFile
 #include <Handle_MMgt_TShared.hxx>
@@ -28,7 +28,7 @@
 
 #include <Foundation/NCollection/NCollection_DataMap.hxx>
 #include <Foundation/NCollection/NCollection_Handle.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <TopoDS_Shape.hxx>
 
 #include <vtkActor.h>

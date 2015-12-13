@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <BRepFill_PipeShell.hxx>
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <StdFail_NotDone.hxx>
 #include <TopoDS_Wire.hxx>
 #include <gp_Ax2.hxx>
@@ -27,7 +27,7 @@
 #include <BRepOffsetAPI_MakePipeShell.hxx>
 
 #include <GeomFill_PipeError.hxx>
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <StdFail_NotDone.hxx>
 
 //=======================================================================

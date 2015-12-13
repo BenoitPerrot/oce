@@ -6,8 +6,8 @@
 #ifndef _GeomAdaptor_GHCurve_HeaderFile
 #define _GeomAdaptor_GHCurve_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_GeomAdaptor_GHCurve.hxx>
 
 #include <GeomAdaptor_Curve.hxx>

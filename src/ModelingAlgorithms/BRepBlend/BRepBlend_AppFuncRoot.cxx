@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <BRepBlend_Line.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Blend_AppFunction.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>
@@ -26,7 +26,7 @@
 #include <gp_Pnt.hxx>
 #include <Blend_Point.hxx>
 #include <BRepBlend_AppFuncRoot.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BRepBlend_AppFuncRoot)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Approx_SweepFunction),

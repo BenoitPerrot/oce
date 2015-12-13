@@ -6,7 +6,7 @@
 #ifndef _BRepBuilderAPI_TransitionMode_HeaderFile
 #define _BRepBuilderAPI_TransitionMode_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Option to manage  discontinuities in  Sweep
 enum BRepBuilderAPI_TransitionMode

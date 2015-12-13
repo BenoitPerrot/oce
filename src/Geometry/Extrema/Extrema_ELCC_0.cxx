@@ -7,7 +7,7 @@
 
 #include <StdFail_InfiniteSolutions.hxx>
 #include <StdFail_NotDone.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Adaptor3d_Curve.hxx>
 #include <Extrema_CurveTool.hxx>
 #include <TColgp_HArray1OfPnt.hxx>

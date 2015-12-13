@@ -6,14 +6,14 @@
 #ifndef _HeaderSection_FileName_HeaderFile
 #define _HeaderSection_FileName_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_HeaderSection_FileName.hxx>
 
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Handle_Interface_HArray1OfHAsciiString.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class TCollection_HAsciiString;
 class Interface_HArray1OfHAsciiString;
 

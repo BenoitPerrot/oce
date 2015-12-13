@@ -17,7 +17,7 @@
 #include <TopOpeBRepDS_HDataStructure.hxx>
 #include <TopTools_HArray1OfShape.hxx>
 #include <TopTools_HArray1OfListOfShape.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopOpeBRepBuild_HBuilder.hxx>
 #include <TopOpeBRepDS_BuildTool.hxx>
 #include <TopoDS_Shape.hxx>
@@ -57,7 +57,7 @@
 #include <TopoDS_Compound.hxx>
 #include <BRep_Tool.hxx>
 #include <Geom2d_Curve.hxx>
-#include <Standard_ProgramError.hxx>
+#include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <TopOpeBRepTool.hxx>
 #include <TopOpeBRepBuild_define.hxx>
 

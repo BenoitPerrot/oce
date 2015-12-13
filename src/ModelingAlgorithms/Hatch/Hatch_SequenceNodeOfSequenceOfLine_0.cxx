@@ -5,7 +5,7 @@
 
 #include <Hatch_SequenceNodeOfSequenceOfLine.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Hatch_Line.hxx>
 #include <Hatch_SequenceOfLine.hxx>

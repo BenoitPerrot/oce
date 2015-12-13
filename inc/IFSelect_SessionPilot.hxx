@@ -6,20 +6,20 @@
 #ifndef _IFSelect_SessionPilot_HeaderFile
 #define _IFSelect_SessionPilot_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IFSelect_SessionPilot.hxx>
 
 #include <Handle_IFSelect_WorkSession.hxx>
 #include <TCollection_AsciiString.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <TColStd_Array1OfAsciiString.hxx>
 #include <TColStd_Array1OfInteger.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <TColStd_SequenceOfAsciiString.hxx>
 #include <IFSelect_Activator.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_IFSelect_WorkLibrary.hxx>
 #include <IFSelect_ReturnStatus.hxx>
 #include <Handle_IFSelect_SignCounter.hxx>

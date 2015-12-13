@@ -5,8 +5,8 @@
 
 #include <TopOpeBRepDS_DataMapOfInterferenceListOfInterference.hxx>
 
-#include <Standard_DomainError.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopOpeBRepDS_Interference.hxx>
 #include <TopOpeBRepDS_ListOfInterference.hxx>
 #include <TColStd_MapTransientHasher.hxx>

@@ -5,7 +5,7 @@
 
 #include <TransferBRep_SequenceNodeOfSequenceOfTransferResultInfo.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TransferBRep_TransferResultInfo.hxx>
 #include <TransferBRep_SequenceOfTransferResultInfo.hxx>

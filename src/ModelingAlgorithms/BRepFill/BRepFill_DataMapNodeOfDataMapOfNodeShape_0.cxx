@@ -5,7 +5,7 @@
 
 #include <BRepFill_DataMapNodeOfDataMapOfNodeShape.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <MAT_Node.hxx>
 #include <TopoDS_Shape.hxx>

@@ -6,22 +6,22 @@
 #ifndef _DBRep_DrawableShape_HeaderFile
 #define _DBRep_DrawableShape_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_DBRep_DrawableShape.hxx>
 
 #include <TopoDS_Shape.hxx>
 #include <DBRep_ListOfEdge.hxx>
 #include <DBRep_ListOfFace.hxx>
 #include <DBRep_ListOfHideData.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Draw_Color.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Draw_Drawable3D.hxx>
 #include <Handle_Poly_Triangulation.hxx>
 #include <Handle_Draw_Drawable3D.hxx>
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 #include <Draw_Interpretor.hxx>
 class Standard_DomainError;
 class TopoDS_Shape;

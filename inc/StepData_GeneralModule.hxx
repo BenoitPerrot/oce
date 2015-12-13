@@ -6,12 +6,12 @@
 #ifndef _StepData_GeneralModule_HeaderFile
 #define _StepData_GeneralModule_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepData_GeneralModule.hxx>
 
 #include <Interface_GeneralModule.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Handle_Interface_Check.hxx>
 class Standard_Transient;

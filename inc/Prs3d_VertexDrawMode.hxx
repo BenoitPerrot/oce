@@ -6,7 +6,7 @@
 #ifndef _Prs3d_VertexDrawMode_HeaderFile
 #define _Prs3d_VertexDrawMode_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Describes supported modes of visualization of the shape's vertices:
 //! VDM_Isolated  - only isolated vertices (not belonging to a face) are displayed.

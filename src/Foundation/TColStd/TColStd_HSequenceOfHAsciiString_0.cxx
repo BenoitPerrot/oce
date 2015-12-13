@@ -5,10 +5,10 @@
 
 #include <TColStd_HSequenceOfHAsciiString.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <TCollection_HAsciiString.hxx>
 #include <TColStd_SequenceOfHAsciiString.hxx>
 

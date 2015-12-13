@@ -20,7 +20,7 @@
 #include <TDF_Attribute.hxx>
 #include <XmlObjMgt_Persistent.hxx>
 #include <XmlMDataStd_RealArrayDriver.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XmlMDataStd_RealArrayDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(XmlMDF_ADriver),
@@ -35,8 +35,8 @@ IMPLEMENT_STANDARD_RTTI(XmlMDataStd_RealArrayDriver)
 #include <XmlMDataStd.hxx>
 #include <TColStd_HArray1OfReal.hxx>
 #include <Foundation/NCollection/NCollection_LocalArray.hxx>
-#include <Standard_ErrorHandler.hxx>
-#include <Standard_OutOfMemory.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_OutOfMemory.hxx>
 
 IMPLEMENT_DOMSTRING (FirstIndexString, "first")
 IMPLEMENT_DOMSTRING (LastIndexString, "last")

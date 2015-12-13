@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <TopoDS_Face.hxx>
 #include <TopoDS_Edge.hxx>
 #include <Geom2d_Curve.hxx>
@@ -42,7 +42,7 @@
 #include <Geom2dAPI_ProjectPointOnCurve.hxx>
 #include <Geom2dInt_GInter.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <IntRes2d_IntersectionSegment.hxx>
 #include <TopExp_Explorer.hxx>
 #include <TopoDS.hxx>

@@ -6,12 +6,12 @@
 #ifndef _BRepAlgoAPI_Cut_HeaderFile
 #define _BRepAlgoAPI_Cut_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <BRepAlgoAPI_BooleanOperation.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class TopoDS_Shape;
 class BOPAlgo_PaveFiller;
 

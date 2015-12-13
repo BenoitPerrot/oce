@@ -33,8 +33,8 @@
 #include <Draw_Appli.hxx>
 #include <Draw_Drawable3D.hxx>
 #include <Draw_Interpretor.hxx>
-#include <Standard_GUID.hxx>
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 
 #include <TColStd_HSequenceOfAsciiString.hxx>
 #include <TColStd_ListOfInteger.hxx>

@@ -5,14 +5,14 @@
 
 #include <TColStd_IndexedMapOfReal.hxx>
 
-#include <Standard_DomainError.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <TColStd_MapRealHasher.hxx>
 #include <TColStd_IndexedMapNodeOfIndexedMapOfReal.hxx>
  
 
 #define TheKey Standard_Real
-#define TheKey_hxx <Standard_Real.hxx>
+#define TheKey_hxx <Foundation/Standard/Standard_Real.hxx>
 #define Hasher TColStd_MapRealHasher
 #define Hasher_hxx <TColStd_MapRealHasher.hxx>
 #define TCollection_IndexedMapNode TColStd_IndexedMapNodeOfIndexedMapOfReal

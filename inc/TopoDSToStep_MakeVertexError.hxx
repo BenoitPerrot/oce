@@ -6,7 +6,7 @@
 #ifndef _TopoDSToStep_MakeVertexError_HeaderFile
 #define _TopoDSToStep_MakeVertexError_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum TopoDSToStep_MakeVertexError

@@ -17,7 +17,7 @@
 
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Prs3d_IsoAspect.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Prs3d_IsoAspect)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Prs3d_LineAspect),

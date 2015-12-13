@@ -14,11 +14,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <Interface_InterfaceModel.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <IFSelect_SignAncestor.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IFSelect_SignAncestor)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(IFSelect_SignType),
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IFSelect_SignAncestor)
 IMPLEMENT_DOWNCAST(IFSelect_SignAncestor,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IFSelect_SignAncestor)
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 #include <Interface_Macros.hxx>
 
 IFSelect_SignAncestor::IFSelect_SignAncestor (const Standard_Boolean nopk) 

@@ -6,8 +6,8 @@
 #ifndef _StepShape_CompoundShapeRepresentation_HeaderFile
 #define _StepShape_CompoundShapeRepresentation_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepShape_CompoundShapeRepresentation.hxx>
 
 #include <StepShape_ShapeRepresentation.hxx>

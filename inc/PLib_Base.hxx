@@ -6,13 +6,13 @@
 #ifndef _PLib_Base_HeaderFile
 #define _PLib_Base_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_PLib_Base.hxx>
 
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class TColStd_Array1OfReal;
 
 

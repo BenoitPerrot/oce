@@ -13,14 +13,14 @@
 // commercial license or contractual agreement.
 
 #include <PCollection_HAsciiString.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_NegativeValue.hxx>
-#include <Standard_NumericError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NegativeValue.hxx>
+#include <Foundation/Standard/Standard_NumericError.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <PCollection_HExtendedString.hxx>
 #include <DBC_VArrayOfCharacter.hxx>
 #include <PCollection_HAsciiString.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PCollection_HAsciiString)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Standard_Persistent),
@@ -31,9 +31,9 @@ IMPLEMENT_DOWNCAST(PCollection_HAsciiString,Standard_Persistent)
 IMPLEMENT_STANDARD_RTTI(PCollection_HAsciiString)
 #include <PCollection_HExtendedString.hxx>
 #include <TCollection_HAsciiString.hxx>
-#include <Standard_NumericError.hxx>
-#include <Standard_NegativeValue.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NumericError.hxx>
+#include <Foundation/Standard/Standard_NegativeValue.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 
 #include <stdio.h>
 

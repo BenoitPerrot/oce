@@ -20,7 +20,7 @@
 #include <gp_Pnt2d.hxx>
 #include <Graphic3d_NameOfTexture2D.hxx>
 #include <Image_PixMap.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <Graphic3d_AspectFillArea3d.hxx>
 #include <Graphic3d_Texture2Dmanual.hxx>

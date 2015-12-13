@@ -52,7 +52,7 @@
 #include <TopLoc_Location.hxx>
 #include <ShapeAnalysis_WireOrder.hxx>
 #include <ShapeFix_Wire.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeFix_Wire)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(ShapeFix_Root),
@@ -63,8 +63,8 @@ IMPLEMENT_STANDARD_TYPE_END(ShapeFix_Wire)
 IMPLEMENT_DOWNCAST(ShapeFix_Wire,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ShapeFix_Wire)
 
-#include <Standard_ErrorHandler.hxx>
-#include <Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
 #include <TColStd_Array1OfReal.hxx>
 #include <TColStd_Array1OfInteger.hxx>
 #include <Precision.hxx>

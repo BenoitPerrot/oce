@@ -6,8 +6,8 @@
 #ifndef _StepRepr_MaterialProperty_HeaderFile
 #define _StepRepr_MaterialProperty_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepRepr_MaterialProperty.hxx>
 
 #include <StepRepr_PropertyDefinition.hxx>

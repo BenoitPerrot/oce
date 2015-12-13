@@ -25,7 +25,7 @@
 #include <TopoDS_Vertex.hxx>
 #include <gp_Pnt.hxx>
 #include <ShapeCustom_BSplineRestriction.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeCustom_BSplineRestriction)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(BRepTools_Modification),
@@ -52,8 +52,8 @@ IMPLEMENT_STANDARD_RTTI(ShapeCustom_BSplineRestriction)
 #include <BRep_Builder.hxx>
 #include <gp_Ax1.hxx>
 #include <TopoDS.hxx>
-#include <Standard_Failure.hxx>
-#include <Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Geom_BezierSurface.hxx>
 #include <Geom_BezierCurve.hxx>
 #include <Geom2d_BezierCurve.hxx>

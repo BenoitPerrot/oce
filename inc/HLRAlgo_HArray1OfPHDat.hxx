@@ -6,13 +6,13 @@
 #ifndef _HLRAlgo_HArray1OfPHDat_HeaderFile
 #define _HLRAlgo_HArray1OfPHDat_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_HLRAlgo_HArray1OfPHDat.hxx>
 
 #include <HLRAlgo_Array1OfPHDat.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_DimensionMismatch;
 class Standard_OutOfRange;

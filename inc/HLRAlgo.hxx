@@ -6,12 +6,12 @@
 #ifndef _HLRAlgo_HeaderFile
 #define _HLRAlgo_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Real.hxx>
-#include <Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
 class HLRAlgo_BiPoint;
 class HLRAlgo_ListOfBPoint;
 class HLRAlgo_PolyShellData;

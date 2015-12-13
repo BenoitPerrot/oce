@@ -18,7 +18,7 @@
 #include <Interface_Check.hxx>
 #include <Interface_EntityIterator.hxx>
 #include <StepData_Simple.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepData_Simple)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepData_Described),

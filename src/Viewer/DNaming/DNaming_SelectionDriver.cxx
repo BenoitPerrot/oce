@@ -15,7 +15,7 @@
 
 #include <TFunction_Logbook.hxx>
 #include <DNaming_SelectionDriver.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DNaming_SelectionDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(TFunction_Driver),

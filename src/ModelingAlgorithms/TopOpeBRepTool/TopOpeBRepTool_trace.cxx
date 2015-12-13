@@ -16,7 +16,7 @@
 
 #ifdef OCCT_DEBUG
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 Standard_EXPORT Standard_Integer TopOpeBRepTool_BOOOPE_CHECK_DEB = 1;
 

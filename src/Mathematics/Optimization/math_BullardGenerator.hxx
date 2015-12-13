@@ -16,7 +16,7 @@
 #ifndef _math_BullardGenerator_HeaderFile
 #define _math_BullardGenerator_HeaderFile
 
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 
 //! Fast random number generator (the algorithm proposed by Ian C. Bullard).
 class math_BullardGenerator

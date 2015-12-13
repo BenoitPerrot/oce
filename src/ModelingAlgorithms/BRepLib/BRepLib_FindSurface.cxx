@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Geom_Surface.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopLoc_Location.hxx>
 #include <BRepLib_FindSurface.hxx>
@@ -55,7 +55,7 @@
 #include <Geom_BezierCurve.hxx>
 #include <Geom_BSplineCurve.hxx>
 #include <Geom_RectangularTrimmedSurface.hxx>
-#include <Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
 
 //=======================================================================
 //function : Controle

@@ -6,14 +6,14 @@
 #ifndef _StepShape_ShellBasedSurfaceModel_HeaderFile
 #define _StepShape_ShellBasedSurfaceModel_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepShape_ShellBasedSurfaceModel.hxx>
 
 #include <Handle_StepShape_HArray1OfShell.hxx>
 #include <StepGeom_GeometricRepresentationItem.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class StepShape_HArray1OfShell;
 class TCollection_HAsciiString;
 class StepShape_Shell;

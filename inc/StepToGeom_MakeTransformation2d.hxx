@@ -6,11 +6,11 @@
 #ifndef _StepToGeom_MakeTransformation2d_HeaderFile
 #define _StepToGeom_MakeTransformation2d_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_StepGeom_CartesianTransformationOperator2d.hxx>
 class StepGeom_CartesianTransformationOperator2d;
 class gp_Trsf2d;

@@ -5,14 +5,14 @@
 
 #include <TColStd_MapIteratorOfMapOfInteger.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TColStd_MapIntegerHasher.hxx>
 #include <TColStd_MapOfInteger.hxx>
 #include <TColStd_StdMapNodeOfMapOfInteger.hxx>
  
 
 #define TheKey Standard_Integer
-#define TheKey_hxx <Standard_Integer.hxx>
+#define TheKey_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define Hasher TColStd_MapIntegerHasher
 #define Hasher_hxx <TColStd_MapIntegerHasher.hxx>
 #define TCollection_StdMapNode TColStd_StdMapNodeOfMapOfInteger

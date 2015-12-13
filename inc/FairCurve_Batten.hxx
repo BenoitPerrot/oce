@@ -6,20 +6,20 @@
 #ifndef _FairCurve_Batten_HeaderFile
 #define _FairCurve_Batten_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <FairCurve_AnalysisCode.hxx>
 #include <gp_Pnt2d.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TColgp_HArray1OfPnt2d.hxx>
 #include <Handle_TColStd_HArray1OfReal.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>
 #include <Handle_Geom2d_BSplineCurve.hxx>
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 class TColgp_HArray1OfPnt2d;
 class TColStd_HArray1OfReal;
 class TColStd_HArray1OfInteger;

@@ -6,7 +6,7 @@
 #ifndef _TNaming_Evolution_HeaderFile
 #define _TNaming_Evolution_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Defines the type of evolution in old shape - new shape pairs.
 //! The definitions - in the form of the terms of

@@ -15,7 +15,7 @@
 
 #include <NIS_InteractiveObject.hxx>
 #include <NIS_InteractiveContext.hxx>
-#include <Standard_NullValue.hxx>
+#include <Foundation/Standard/Standard_NullValue.hxx>
 
 IMPLEMENT_STANDARD_HANDLE  (NIS_InteractiveObject, Standard_Transient)
 IMPLEMENT_STANDARD_RTTIEXT (NIS_InteractiveObject, Standard_Transient)

@@ -6,13 +6,13 @@
 #ifndef _IGESDimen_NewDimensionedGeometry_HeaderFile
 #define _IGESDimen_NewDimensionedGeometry_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESDimen_NewDimensionedGeometry.hxx>
 
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_IGESData_IGESEntity.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_IGESData_HArray1OfIGESEntity.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>
 #include <Handle_TColgp_HArray1OfXYZ.hxx>

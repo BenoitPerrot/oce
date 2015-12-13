@@ -6,9 +6,9 @@
 #ifndef _StepToTopoDS_HeaderFile
 #define _StepToTopoDS_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <StepToTopoDS_BuilderError.hxx>
@@ -18,7 +18,7 @@
 #include <StepToTopoDS_TranslateVertexError.hxx>
 #include <StepToTopoDS_TranslateVertexLoopError.hxx>
 #include <StepToTopoDS_TranslatePolyLoopError.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 #include <StepToTopoDS_GeometricToolError.hxx>
 class TCollection_HAsciiString;
 class StepToTopoDS_Root;

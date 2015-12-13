@@ -6,14 +6,14 @@
 #ifndef _IntPatch_GLine_HeaderFile
 #define _IntPatch_GLine_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IntPatch_GLine.hxx>
 
 #include <gp_Ax2.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <IntPatch_SequenceOfPoint.hxx>
 #include <IntPatch_Line.hxx>
 #include <IntSurf_TypeTrans.hxx>

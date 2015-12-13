@@ -16,7 +16,7 @@
 
 #include <TopOpeBRepDS_Transition.hxx>
 #include <TopOpeBRepDS_FaceEdgeInterference.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TopOpeBRepDS_FaceEdgeInterference)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(TopOpeBRepDS_ShapeShapeInterference),

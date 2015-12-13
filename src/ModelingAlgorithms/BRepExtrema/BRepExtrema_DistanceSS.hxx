@@ -18,7 +18,7 @@
 #include <Extrema_ExtFlag.hxx>
 #include <Extrema_ExtAlgo.hxx>
 #include <Precision.hxx>
-#include <Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
 
 class TopoDS_Shape;
 class Bnd_Box;

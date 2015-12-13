@@ -6,13 +6,13 @@
 #ifndef _IGESSolid_VertexList_HeaderFile
 #define _IGESSolid_VertexList_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESSolid_VertexList.hxx>
 
 #include <Handle_TColgp_HArray1OfXYZ.hxx>
 #include <IGESData_IGESEntity.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class TColgp_HArray1OfXYZ;
 class Standard_OutOfRange;
 class gp_Pnt;

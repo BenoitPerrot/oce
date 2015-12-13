@@ -21,8 +21,8 @@
   #define _WIN32_WINNT 0x0400
 #endif
 
-#include <Standard_Mutex.hxx>
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_Mutex.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 
 //=============================================
 // Standard_Mutex::Standard_Mutex

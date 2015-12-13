@@ -6,8 +6,8 @@
 #ifndef _BRepBlend_SequenceNodeOfSequenceOfLine_HeaderFile
 #define _BRepBlend_SequenceNodeOfSequenceOfLine_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BRepBlend_SequenceNodeOfSequenceOfLine.hxx>
 
 #include <Handle_BRepBlend_Line.hxx>

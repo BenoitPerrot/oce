@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
 #include <TDF_Label.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TDF_LabelSequence.hxx>
@@ -25,7 +25,7 @@
 #include <TDF_AttributeSequence.hxx>
 #include <TopTools_SequenceOfShape.hxx>
 #include <XCAFDoc_ShapeTool.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XCAFDoc_ShapeTool)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(TDF_Attribute),

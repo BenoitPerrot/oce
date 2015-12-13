@@ -6,12 +6,12 @@
 #ifndef _TDF_DataMapNodeOfLabelIntegerMap_HeaderFile
 #define _TDF_DataMapNodeOfLabelIntegerMap_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TDF_DataMapNodeOfLabelIntegerMap.hxx>
 
 #include <TDF_Label.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <TCollection_MapNode.hxx>
 #include <TCollection_MapNodePtr.hxx>
 class TDF_Label;
@@ -55,7 +55,7 @@ private:
 #define TheKey TDF_Label
 #define TheKey_hxx <TDF_Label.hxx>
 #define TheItem Standard_Integer
-#define TheItem_hxx <Standard_Integer.hxx>
+#define TheItem_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define Hasher TDF_LabelMapHasher
 #define Hasher_hxx <TDF_LabelMapHasher.hxx>
 #define TCollection_DataMapNode TDF_DataMapNodeOfLabelIntegerMap

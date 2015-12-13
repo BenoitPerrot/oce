@@ -13,11 +13,11 @@
 
 #include <TColStd_HSequenceOfTransient.hxx>
 #include <Transfer_TransferFailure.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_Type.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <Transfer_MultipleBinder.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Transfer_MultipleBinder)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Transfer_Binder),

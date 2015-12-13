@@ -6,15 +6,15 @@
 #ifndef _StepFEA_HSequenceOfElementGeometricRelationship_HeaderFile
 #define _StepFEA_HSequenceOfElementGeometricRelationship_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepFEA_HSequenceOfElementGeometricRelationship.hxx>
 
 #include <StepFEA_SequenceOfElementGeometricRelationship.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_StepFEA_ElementGeometricRelationship.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;
 class Standard_OutOfRange;
 class StepFEA_ElementGeometricRelationship;

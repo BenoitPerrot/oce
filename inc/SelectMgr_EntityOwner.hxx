@@ -6,14 +6,14 @@
 #ifndef _SelectMgr_EntityOwner_HeaderFile
 #define _SelectMgr_EntityOwner_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_SelectMgr_EntityOwner.hxx>
 
 #include <SelectMgr_SOPtr.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <SelectBasics_EntityOwner.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_SelectMgr_SelectableObject.hxx>
 #include <Handle_PrsMgr_PresentationManager.hxx>
 #include <PrsMgr_PresentationManager3d.hxx>

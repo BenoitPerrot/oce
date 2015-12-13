@@ -10,7 +10,7 @@
  
 
 #define Item Standard_Real
-#define Item_hxx <Standard_Real.hxx>
+#define Item_hxx <Foundation/Standard/Standard_Real.hxx>
 #define DBC_VArrayNode PColStd_VArrayNodeOfFieldOfHArray1OfReal
 #define DBC_VArrayNode_hxx <PColStd_VArrayNodeOfFieldOfHArray1OfReal.hxx>
 #define DBC_VArrayTNode PColStd_VArrayTNodeOfFieldOfHArray1OfReal

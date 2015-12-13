@@ -13,7 +13,7 @@
 
 #include <PCollection_HAsciiString.hxx>
 #include <ObjMgt_ExternRef.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ObjMgt_ExternRef)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Standard_Persistent),

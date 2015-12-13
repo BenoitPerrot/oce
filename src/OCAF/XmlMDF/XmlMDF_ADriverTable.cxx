@@ -15,9 +15,9 @@
 
 #include <XmlMDF_ADriver.hxx>
 #include <XmlMDF_TypeADriverMap.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 #include <XmlMDF_ADriverTable.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XmlMDF_ADriverTable)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

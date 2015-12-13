@@ -22,7 +22,7 @@
 #include <PCDM_SequenceOfReference.hxx>
 #include <TColStd_SequenceOfExtendedString.hxx>
 #include <PCDM_ReadWriter_1.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PCDM_ReadWriter_1)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(PCDM_ReadWriter),
@@ -43,7 +43,7 @@ IMPLEMENT_STANDARD_RTTI(PCDM_ReadWriter_1)
 #include <Storage_HeaderData.hxx>
 #include <TColStd_SequenceOfAsciiString.hxx>
 #include <PCDM_Reference.hxx>
-#include <Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/OSD/OSD_Path.hxx>
 #include <PCDM_BaseDriverPointer.hxx>
 #include <PCDM.hxx>

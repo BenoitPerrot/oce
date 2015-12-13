@@ -6,14 +6,14 @@
 #ifndef _BinMFunction_ScopeDriver_HeaderFile
 #define _BinMFunction_ScopeDriver_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BinMFunction_ScopeDriver.hxx>
 
 #include <BinMDF_ADriver.hxx>
 #include <Handle_CDM_MessageDriver.hxx>
 #include <Handle_TDF_Attribute.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <BinObjMgt_RRelocationTable.hxx>
 #include <BinObjMgt_SRelocationTable.hxx>
 class CDM_MessageDriver;

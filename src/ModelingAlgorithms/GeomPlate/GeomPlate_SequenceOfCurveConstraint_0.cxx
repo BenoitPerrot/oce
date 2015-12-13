@@ -5,8 +5,8 @@
 
 #include <GeomPlate_SequenceOfCurveConstraint.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <GeomPlate_CurveConstraint.hxx>
 #include <GeomPlate_SequenceNodeOfSequenceOfCurveConstraint.hxx>
  

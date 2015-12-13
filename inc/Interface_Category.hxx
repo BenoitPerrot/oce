@@ -6,17 +6,17 @@
 #ifndef _Interface_Category_HeaderFile
 #define _Interface_Category_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_Interface_GTool.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>
 #include <Handle_Interface_Protocol.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Handle_Interface_InterfaceModel.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 class Interface_GTool;
 class TColStd_HArray1OfInteger;
 class Interface_Protocol;

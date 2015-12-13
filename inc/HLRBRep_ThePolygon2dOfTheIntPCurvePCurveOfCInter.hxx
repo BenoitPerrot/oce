@@ -6,18 +6,18 @@
 #ifndef _HLRBRep_ThePolygon2dOfTheIntPCurvePCurveOfCInter_HeaderFile
 #define _HLRBRep_ThePolygon2dOfTheIntPCurvePCurveOfCInter_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Real.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>
 #include <TColStd_Array1OfReal.hxx>
 #include <TColStd_Array1OfInteger.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Intf_Polygon2d.hxx>
-#include <Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
 class Standard_OutOfRange;
 class HLRBRep_CurveTool;
 class IntRes2d_Domain;
@@ -88,7 +88,7 @@ private:
 };
 
 #define TheCurve Standard_Address
-#define TheCurve_hxx <Standard_Address.hxx>
+#define TheCurve_hxx <Foundation/Standard/Standard_Address.hxx>
 #define TheCurveTool HLRBRep_CurveTool
 #define TheCurveTool_hxx <HLRBRep_CurveTool.hxx>
 #define IntCurve_Polygon2dGen HLRBRep_ThePolygon2dOfTheIntPCurvePCurveOfCInter

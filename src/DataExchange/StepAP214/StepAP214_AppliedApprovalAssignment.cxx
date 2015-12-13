@@ -15,7 +15,7 @@
 #include <StepBasic_Approval.hxx>
 #include <StepAP214_ApprovalItem.hxx>
 #include <StepAP214_AppliedApprovalAssignment.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepAP214_AppliedApprovalAssignment)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepBasic_ApprovalAssignment),

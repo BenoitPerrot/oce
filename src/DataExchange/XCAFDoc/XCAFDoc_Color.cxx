@@ -14,13 +14,13 @@
 // commercial license or contractual agreement.
 
 #include <TDF_RelocationTable.hxx>
-#include <Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
 #include <TDF_Label.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <TDF_Attribute.hxx>
 #include <TDF_RelocationTable.hxx>
 #include <XCAFDoc_Color.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XCAFDoc_Color)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(TDF_Attribute),

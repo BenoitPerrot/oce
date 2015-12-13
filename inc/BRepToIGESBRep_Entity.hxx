@@ -6,18 +6,18 @@
 #ifndef _BRepToIGESBRep_Entity_HeaderFile
 #define _BRepToIGESBRep_Entity_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TopTools_IndexedMapOfShape.hxx>
 #include <TColStd_IndexedMapOfTransient.hxx>
 #include <Handle_IGESSolid_EdgeList.hxx>
 #include <Handle_IGESSolid_VertexList.hxx>
 #include <BRepToIGES_BREntity.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_IGESData_IGESEntity.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_IGESSolid_Loop.hxx>
 #include <Handle_IGESSolid_Face.hxx>
 #include <Handle_IGESSolid_Shell.hxx>

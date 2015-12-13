@@ -6,8 +6,8 @@
 #ifndef _PCDM_SequenceNodeOfSequenceOfReference_HeaderFile
 #define _PCDM_SequenceNodeOfSequenceOfReference_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_PCDM_SequenceNodeOfSequenceOfReference.hxx>
 
 #include <PCDM_Reference.hxx>

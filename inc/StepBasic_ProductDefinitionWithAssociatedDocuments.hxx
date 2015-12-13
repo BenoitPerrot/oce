@@ -6,8 +6,8 @@
 #ifndef _StepBasic_ProductDefinitionWithAssociatedDocuments_HeaderFile
 #define _StepBasic_ProductDefinitionWithAssociatedDocuments_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepBasic_ProductDefinitionWithAssociatedDocuments.hxx>
 
 #include <Handle_StepBasic_HArray1OfDocument.hxx>
@@ -15,7 +15,7 @@
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Handle_StepBasic_ProductDefinitionFormation.hxx>
 #include <Handle_StepBasic_ProductDefinitionContext.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_StepBasic_Document.hxx>
 class StepBasic_HArray1OfDocument;
 class TCollection_HAsciiString;

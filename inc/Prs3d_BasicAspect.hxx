@@ -6,8 +6,8 @@
 #ifndef _Prs3d_BasicAspect_HeaderFile
 #define _Prs3d_BasicAspect_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Prs3d_BasicAspect.hxx>
 
 #include <Foundation/MMgt/MMgt_TShared.hxx>

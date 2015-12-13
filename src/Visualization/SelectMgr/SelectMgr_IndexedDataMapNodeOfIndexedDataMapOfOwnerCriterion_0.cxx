@@ -5,7 +5,7 @@
 
 #include <SelectMgr_IndexedDataMapNodeOfIndexedDataMapOfOwnerCriterion.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <SelectBasics_EntityOwner.hxx>
 #include <SelectMgr_SortCriterion.hxx>

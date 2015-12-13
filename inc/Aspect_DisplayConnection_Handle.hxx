@@ -14,7 +14,7 @@
 #ifndef _Aspect_DisplayConnection_Handle_H__
 #define _Aspect_DisplayConnection_Handle_H__
 
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 
 // Handle for DisplayConnection;
 

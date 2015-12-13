@@ -5,8 +5,8 @@
 
 #include <GeomFill_SequenceOfTrsf.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <gp_Trsf.hxx>
 #include <GeomFill_SequenceNodeOfSequenceOfTrsf.hxx>
  

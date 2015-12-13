@@ -5,7 +5,7 @@
 
 #include <TopOpeBRepTool_DataMapNodeOfDataMapOfOrientedShapeC2DF.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TopoDS_Shape.hxx>
 #include <TopOpeBRepTool_C2DF.hxx>

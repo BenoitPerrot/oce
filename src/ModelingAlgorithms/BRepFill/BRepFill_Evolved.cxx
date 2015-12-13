@@ -15,8 +15,8 @@
 // commercial license or contractual agreement.
 
 
-#include <Standard_ConstructionError.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopoDS_Wire.hxx>
 #include <gp_Ax3.hxx>
 #include <TopoDS_Face.hxx>
@@ -134,8 +134,8 @@
 #include <BRepFill_DataMapIteratorOfDataMapOfShapeDataMapOfShapeListOfShape.hxx>
 #include <Precision.hxx>
 
-#include <Standard_ConstructionError.hxx>
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 
 #ifdef DRAW
 #include <DBRep.hxx>

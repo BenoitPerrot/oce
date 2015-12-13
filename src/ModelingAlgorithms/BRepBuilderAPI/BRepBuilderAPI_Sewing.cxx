@@ -42,8 +42,8 @@
 #define TEST 1
 
 #include <BRepTools_ReShape.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopoDS_Shape.hxx>
 #include <Foundation/Message/Message_ProgressIndicator.hxx>
 #include <TopoDS_Edge.hxx>
@@ -63,7 +63,7 @@
 #include <TopTools_IndexedMapOfShape.hxx>
 #include <TColStd_SequenceOfReal.hxx>
 #include <BRepBuilderAPI_Sewing.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BRepBuilderAPI_Sewing)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),
@@ -106,8 +106,8 @@ IMPLEMENT_STANDARD_RTTI(BRepBuilderAPI_Sewing)
 #include <gp_Vec.hxx>
 //#include <LocalAnalysis_SurfaceContinuity.hxx>
 #include <Precision.hxx>
-#include <Standard_ErrorHandler.hxx>
-#include <Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
 #include <TColgp_Array1OfVec.hxx>
 #include <TColgp_SequenceOfPnt.hxx>
 #include <TColStd_Array1OfInteger.hxx>

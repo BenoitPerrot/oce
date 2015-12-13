@@ -6,15 +6,15 @@
 #ifndef _Geom2dGcc_Lin2d2TanIter_HeaderFile
 #define _Geom2dGcc_Lin2d2TanIter_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <gp_Lin2d.hxx>
 #include <GccEnt_Position.hxx>
 #include <gp_Pnt2d.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class GccEnt_BadQualifier;
 class StdFail_NotDone;
 class Geom2dGcc_QCurve;

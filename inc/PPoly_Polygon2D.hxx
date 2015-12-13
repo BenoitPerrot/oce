@@ -6,15 +6,15 @@
 #ifndef _PPoly_Polygon2D_HeaderFile
 #define _PPoly_Polygon2D_HeaderFile
 
-#include <Standard_Macro.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Handle_PPoly_Polygon2D.hxx>
 
-#include <Standard_Real.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_PColgp_HArray1OfPnt2d.hxx>
-#include <Standard_Persistent.hxx>
+#include <Foundation/Standard/Standard_Persistent.hxx>
 class PColgp_HArray1OfPnt2d;
 
 

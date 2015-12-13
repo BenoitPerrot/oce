@@ -6,16 +6,16 @@
 #ifndef _ShapeAnalysis_TransferParametersProj_HeaderFile
 #define _ShapeAnalysis_TransferParametersProj_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ShapeAnalysis_TransferParametersProj.hxx>
 
 #include <Handle_Geom_Curve.hxx>
 #include <Handle_Geom2d_Curve.hxx>
 #include <Adaptor3d_CurveOnSurface.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <TopLoc_Location.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ShapeAnalysis_TransferParameters.hxx>
 #include <Handle_TColStd_HSequenceOfReal.hxx>
 class Geom_Curve;

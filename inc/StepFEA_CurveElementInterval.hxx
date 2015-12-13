@@ -6,8 +6,8 @@
 #ifndef _StepFEA_CurveElementInterval_HeaderFile
 #define _StepFEA_CurveElementInterval_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepFEA_CurveElementInterval.hxx>
 
 #include <Handle_StepFEA_CurveElementLocation.hxx>

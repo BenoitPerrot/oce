@@ -6,8 +6,8 @@
 #ifndef _TopLoc_StdMapNodeOfMapOfLocation_HeaderFile
 #define _TopLoc_StdMapNodeOfMapOfLocation_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TopLoc_StdMapNodeOfMapOfLocation.hxx>
 
 #include <TopLoc_Location.hxx>

@@ -6,15 +6,15 @@
 #ifndef _ViewerTest_HeaderFile
 #define _ViewerTest_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Draw_Interpretor.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_V3d_View.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_MMgt_TShared.hxx>
 #include <TopAbs_ShapeEnum.hxx>
 #include <Handle_TopTools_HArray1OfShape.hxx>

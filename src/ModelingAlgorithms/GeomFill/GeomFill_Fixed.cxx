@@ -14,13 +14,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_OutOfRange.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <gp_Vec.hxx>
 #include <GeomFill_TrihedronLaw.hxx>
 #include <TColStd_Array1OfReal.hxx>
 #include <GeomFill_Fixed.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(GeomFill_Fixed)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(GeomFill_TrihedronLaw),

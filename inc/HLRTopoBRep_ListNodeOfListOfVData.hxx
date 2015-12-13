@@ -6,8 +6,8 @@
 #ifndef _HLRTopoBRep_ListNodeOfListOfVData_HeaderFile
 #define _HLRTopoBRep_ListNodeOfListOfVData_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_HLRTopoBRep_ListNodeOfListOfVData.hxx>
 
 #include <HLRTopoBRep_VData.hxx>

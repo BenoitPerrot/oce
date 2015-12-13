@@ -6,12 +6,12 @@
 #ifndef _IntPatch_Line_HeaderFile
 #define _IntPatch_Line_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IntPatch_Line.hxx>
 
 #include <IntPatch_IType.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <IntSurf_TypeTrans.hxx>
 #include <IntSurf_Situation.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

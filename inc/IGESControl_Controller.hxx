@@ -6,17 +6,17 @@
 #ifndef _IGESControl_Controller_HeaderFile
 #define _IGESControl_Controller_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESControl_Controller.hxx>
 
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <XSControl_Controller.hxx>
 #include <Handle_Interface_InterfaceModel.hxx>
 #include <Handle_Transfer_ActorOfTransientProcess.hxx>
 #include <IFSelect_ReturnStatus.hxx>
 #include <Handle_Transfer_FinderProcess.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_XSControl_WorkSession.hxx>
 class Interface_InterfaceModel;
 class Transfer_ActorOfTransientProcess;

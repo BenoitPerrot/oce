@@ -5,11 +5,11 @@
 
 #include <PTColStd_DoubleMapOfTransientPersistent.hxx>
 
-#include <Standard_DomainError.hxx>
-#include <Standard_MultiplyDefined.hxx>
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_Transient.hxx>
-#include <Standard_Persistent.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_MultiplyDefined.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Persistent.hxx>
 #include <TColStd_MapTransientHasher.hxx>
 #include <PTColStd_MapPersistentHasher.hxx>
 #include <PTColStd_DoubleMapNodeOfDoubleMapOfTransientPersistent.hxx>
@@ -17,9 +17,9 @@
  
 
 #define TheKey1 Handle(Standard_Transient)
-#define TheKey1_hxx <Standard_Transient.hxx>
+#define TheKey1_hxx <Foundation/Standard/Standard_Transient.hxx>
 #define TheKey2 Handle(Standard_Persistent)
-#define TheKey2_hxx <Standard_Persistent.hxx>
+#define TheKey2_hxx <Foundation/Standard/Standard_Persistent.hxx>
 #define Hasher1 TColStd_MapTransientHasher
 #define Hasher1_hxx <TColStd_MapTransientHasher.hxx>
 #define Hasher2 PTColStd_MapPersistentHasher

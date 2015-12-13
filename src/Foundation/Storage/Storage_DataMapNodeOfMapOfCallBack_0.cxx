@@ -5,7 +5,7 @@
 
 #include <Storage_DataMapNodeOfMapOfCallBack.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Storage_TypedCallBack.hxx>
 #include <TCollection_AsciiString.hxx>

@@ -5,7 +5,7 @@
 
 #include <CDM_DataMapIteratorOfPresentationDirectory.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TCollection_ExtendedString.hxx>
 #include <CDM_Document.hxx>
 #include <CDM_PresentationDirectory.hxx>

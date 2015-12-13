@@ -6,12 +6,12 @@
 #include <IGESData_WriterLib.hxx>
 
 #include <IGESData_NodeOfWriterLib.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <IGESData_IGESEntity.hxx>
 #include <IGESData_ReadWriteModule.hxx>
 #include <IGESData_Protocol.hxx>
 #include <IGESData_GlobalNodeOfWriterLib.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
  
 
 #define TheObject Handle(IGESData_IGESEntity)

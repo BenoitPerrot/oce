@@ -6,7 +6,7 @@
 #ifndef _Aspect_TypeOfText_HeaderFile
 #define _Aspect_TypeOfText_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Definition of Text types
 //!

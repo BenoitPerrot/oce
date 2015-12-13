@@ -15,7 +15,7 @@
 #ifndef math_ContMatrices_HeaderFile
 #define math_ContMatrices_HeaderFile
 #include <math_Vector.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 
 //#ifndef __AppCont_API
 //#if defined(WNT) && !defined(HAVE_NO_DLL)

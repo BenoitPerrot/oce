@@ -6,14 +6,14 @@
 #ifndef _XSDRAW_HeaderFile
 #define _XSDRAW_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_CString.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Draw_Interpretor.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_IFSelect_SessionPilot.hxx>
 #include <Handle_XSControl_WorkSession.hxx>
 #include <Handle_XSControl_Controller.hxx>

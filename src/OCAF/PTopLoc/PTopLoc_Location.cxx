@@ -15,16 +15,16 @@
 // commercial license or contractual agreement.
 
 #include <PTopLoc_ItemLocation.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <PTopLoc_Datum3D.hxx>
 #include <PTopLoc_Location.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PTopLoc_Location)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Standard_Storable),
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(PTopLoc_Location)
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 
 //=======================================================================
 //function : PTopLoc_Location

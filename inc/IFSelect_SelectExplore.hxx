@@ -6,13 +6,13 @@
 #ifndef _IFSelect_SelectExplore_HeaderFile
 #define _IFSelect_SelectExplore_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IFSelect_SelectExplore.hxx>
 
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <IFSelect_SelectDeduct.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Standard_Transient.hxx>
 class Interface_EntityIterator;
 class Interface_Graph;

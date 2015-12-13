@@ -17,7 +17,7 @@
 //--------------------------------------------------------------------
 
 #include <IGESDimen_DimensionTolerance.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESDimen_DimensionTolerance)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(IGESData_IGESEntity),

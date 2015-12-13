@@ -5,11 +5,11 @@
 
 #include <GeomAdaptor_GHSurface.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
-#include <Standard_OutOfRange.hxx>
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <GeomAdaptor_Surface.hxx>
 #include <Adaptor3d_Surface.hxx>
 

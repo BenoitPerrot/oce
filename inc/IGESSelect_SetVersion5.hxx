@@ -6,8 +6,8 @@
 #ifndef _IGESSelect_SetVersion5_HeaderFile
 #define _IGESSelect_SetVersion5_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESSelect_SetVersion5.hxx>
 
 #include <IGESSelect_ModelModifier.hxx>

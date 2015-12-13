@@ -16,7 +16,7 @@
 #include <Interface_Check.hxx>
 #include <IGESData_IGESReaderData.hxx>
 #include <IGESData_Protocol.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <Interface_InterfaceModel.hxx>
 #include <IGESData_IGESEntity.hxx>
 #include <IGESData_DirPart.hxx>

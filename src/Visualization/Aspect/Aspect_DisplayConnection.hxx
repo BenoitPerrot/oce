@@ -14,7 +14,7 @@
 #ifndef _Aspect_DisplayConnection_H__
 #define _Aspect_DisplayConnection_H__
 
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <Aspect_DisplayConnection_Handle.hxx>
 #include <Aspect_XAtom.hxx>
 

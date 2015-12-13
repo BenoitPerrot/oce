@@ -5,7 +5,7 @@
 
 #include <DBC_VArrayNodeOfVArrayOfReal.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <DBC_VArrayOfReal.hxx>
 #include <DBC_VArrayTNodeOfVArrayOfReal.hxx>
@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_RTTI(DBC_VArrayNodeOfVArrayOfReal)
 
 
 #define Item Standard_Real
-#define Item_hxx <Standard_Real.hxx>
+#define Item_hxx <Foundation/Standard/Standard_Real.hxx>
 #define DBC_VArrayNode DBC_VArrayNodeOfVArrayOfReal
 #define DBC_VArrayNode_hxx <DBC_VArrayNodeOfVArrayOfReal.hxx>
 #define DBC_VArrayTNode DBC_VArrayTNodeOfVArrayOfReal

@@ -6,13 +6,13 @@
 #ifndef _TopTools_HArray1OfShape_HeaderFile
 #define _TopTools_HArray1OfShape_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TopTools_HArray1OfShape.hxx>
 
 #include <TopTools_Array1OfShape.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_DimensionMismatch;
 class Standard_OutOfRange;

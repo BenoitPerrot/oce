@@ -29,11 +29,11 @@
 #include <Foundation/OSD/OSD_SIGSEGV.hxx>
 #include <Foundation/OSD/OSD_SIGSYS.hxx>
 #include <Foundation/OSD/OSD_Exception_CTRL_BREAK.hxx>
-#include <Standard_NumericError.hxx>
-#include <Standard_DivideByZero.hxx>
-#include <Standard_Overflow.hxx>
+#include <Foundation/Standard/Standard_NumericError.hxx>
+#include <Foundation/Standard/Standard_DivideByZero.hxx>
+#include <Foundation/Standard/Standard_Overflow.hxx>
 
-#include <Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
 
 // POSIX threads
 #include <pthread.h>

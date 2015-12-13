@@ -6,7 +6,7 @@
 #ifndef _GProp_EquaType_HeaderFile
 #define _GProp_EquaType_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum GProp_EquaType

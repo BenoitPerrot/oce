@@ -6,13 +6,13 @@
 #ifndef _TDataStd_DeltaOnModificationOfExtStringArray_HeaderFile
 #define _TDataStd_DeltaOnModificationOfExtStringArray_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TDataStd_DeltaOnModificationOfExtStringArray.hxx>
 
 #include <Handle_TColStd_HArray1OfInteger.hxx>
 #include <Handle_TColStd_HArray1OfExtendedString.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <TDF_DeltaOnModification.hxx>
 #include <Handle_TDataStd_ExtStringArray.hxx>
 class TColStd_HArray1OfInteger;

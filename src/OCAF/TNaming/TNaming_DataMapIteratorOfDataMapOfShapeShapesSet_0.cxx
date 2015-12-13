@@ -5,7 +5,7 @@
 
 #include <TNaming_DataMapIteratorOfDataMapOfShapeShapesSet.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TNaming_ShapesSet.hxx>
 #include <TopTools_ShapeMapHasher.hxx>

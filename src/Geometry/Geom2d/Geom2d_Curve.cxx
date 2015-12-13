@@ -14,15 +14,15 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_RangeError.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Geom2d_UndefinedDerivative.hxx>
 #include <Geom2d_UndefinedValue.hxx>
 #include <gp_Trsf2d.hxx>
 #include <gp_Pnt2d.hxx>
 #include <gp_Vec2d.hxx>
 #include <Geom2d_Curve.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Geom2d_Curve)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Geom2d_Geometry),

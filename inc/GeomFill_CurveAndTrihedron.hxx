@@ -6,11 +6,11 @@
 #ifndef _GeomFill_CurveAndTrihedron_HeaderFile
 #define _GeomFill_CurveAndTrihedron_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_GeomFill_CurveAndTrihedron.hxx>
 
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_GeomFill_TrihedronLaw.hxx>
 #include <Handle_Adaptor3d_HCurve.hxx>
 #include <gp_Pnt.hxx>
@@ -18,8 +18,8 @@
 #include <gp_Mat.hxx>
 #include <GeomFill_LocationLaw.hxx>
 #include <Handle_GeomFill_LocationLaw.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <GeomAbs_Shape.hxx>
 class GeomFill_TrihedronLaw;
 class Adaptor3d_HCurve;

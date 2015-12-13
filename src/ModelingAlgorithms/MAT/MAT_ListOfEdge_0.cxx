@@ -5,7 +5,7 @@
 
 #include <MAT_ListOfEdge.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <MAT_TListNodeOfListOfEdge.hxx>
 #include <MAT_Edge.hxx>

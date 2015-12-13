@@ -78,8 +78,8 @@
 
 #include <Precision.hxx>
 
-#include <Standard_DomainError.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Geom_OffsetCurve.hxx>
 #include <GeomConvert_ApproxCurve.hxx>
 

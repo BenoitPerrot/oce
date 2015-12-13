@@ -63,8 +63,8 @@
 #include <Select3D_SensitiveTriangulation.hxx>
 #include <Poly_Array1OfTriangle.hxx>
 #include <Poly_Triangulation.hxx>
-#include <Standard_CString.hxx>
-#include <Standard_ProgramError.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
+#include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <StdPrs_ShadedShape.hxx>
 #include <StdPrs_WFShape.hxx>
 #include <TCollection_AsciiString.hxx>

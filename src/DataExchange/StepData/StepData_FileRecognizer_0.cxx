@@ -5,11 +5,11 @@
 
 #include <StepData_FileRecognizer.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <StepData_FileRecognizer.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TCollection_AsciiString.hxx>
 
  
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(StepData_FileRecognizer)
 #define TheKey_hxx <TCollection_AsciiString.hxx>
 #define Handle_TheResul Handle_Standard_Transient
 #define TheResul Standard_Transient
-#define TheResul_hxx <Standard_Transient.hxx>
+#define TheResul_hxx <Foundation/Standard/Standard_Transient.hxx>
 #define Interface_Recognizer StepData_FileRecognizer
 #define Interface_Recognizer_hxx <StepData_FileRecognizer.hxx>
 #define Handle_Interface_Recognizer Handle_StepData_FileRecognizer

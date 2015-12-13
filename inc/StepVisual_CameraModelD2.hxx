@@ -6,12 +6,12 @@
 #ifndef _StepVisual_CameraModelD2_HeaderFile
 #define _StepVisual_CameraModelD2_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepVisual_CameraModelD2.hxx>
 
 #include <Handle_StepVisual_PlanarBox.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <StepVisual_CameraModel.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 class StepVisual_PlanarBox;

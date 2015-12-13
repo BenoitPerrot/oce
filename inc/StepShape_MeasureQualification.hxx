@@ -6,15 +6,15 @@
 #ifndef _StepShape_MeasureQualification_HeaderFile
 #define _StepShape_MeasureQualification_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepShape_MeasureQualification.hxx>
 
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Handle_StepBasic_MeasureWithUnit.hxx>
 #include <Handle_StepShape_HArray1OfValueQualifier.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class TCollection_HAsciiString;
 class StepBasic_MeasureWithUnit;
 class StepShape_HArray1OfValueQualifier;

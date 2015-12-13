@@ -37,7 +37,7 @@
 #include <Units_UnitsSystem.hxx>
 #include <Units_UnitSentence.hxx>
 #include <Units_ShiftedToken.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TColStd_HSequenceOfHAsciiString.hxx>
 #include <Units_Operators.hxx>
 

@@ -5,7 +5,7 @@
 
 #include <Interface_SequenceNodeOfSequenceOfCheck.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Interface_Check.hxx>
 #include <Interface_SequenceOfCheck.hxx>

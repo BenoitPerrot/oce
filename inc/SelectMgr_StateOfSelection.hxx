@@ -6,7 +6,7 @@
 #ifndef _SelectMgr_StateOfSelection_HeaderFile
 #define _SelectMgr_StateOfSelection_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! different state of a Selection in a ViewerSelector...
 enum SelectMgr_StateOfSelection

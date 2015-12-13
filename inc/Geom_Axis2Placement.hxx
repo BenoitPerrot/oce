@@ -6,8 +6,8 @@
 #ifndef _Geom_Axis2Placement_HeaderFile
 #define _Geom_Axis2Placement_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Geom_Axis2Placement.hxx>
 
 #include <gp_Dir.hxx>

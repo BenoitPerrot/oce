@@ -6,17 +6,17 @@
 #ifndef _AIS_DimensionOwner_HeaderFile
 #define _AIS_DimensionOwner_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_AIS_DimensionOwner.hxx>
 
 #include <AIS_DimensionSelectionMode.hxx>
 #include <SelectMgr_EntityOwner.hxx>
 #include <Handle_SelectMgr_SelectableObject.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <PrsMgr_PresentationManager3d.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_PrsMgr_PresentationManager.hxx>
 class SelectMgr_SelectableObject;
 class PrsMgr_PresentationManager;

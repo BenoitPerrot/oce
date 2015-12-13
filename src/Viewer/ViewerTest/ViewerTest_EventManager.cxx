@@ -18,7 +18,7 @@
 #include <V3d_View.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>
 #include <ViewerTest_EventManager.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ViewerTest_EventManager)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

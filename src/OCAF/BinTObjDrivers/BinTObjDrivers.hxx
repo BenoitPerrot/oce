@@ -19,7 +19,7 @@
 #define BinTObjDrivers_HeaderFile
 
 #include <TObj_Common.hxx>
-#include <Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
 
 class Handle(BinMDF_ADriverTable);
 class Handle(CDM_MessageDriver);

@@ -34,8 +34,8 @@
 #include <Geom_BSplineSurface.hxx>
 #include <GCPnts_TangentialDeflection.hxx>
 
-#include <Standard_ErrorHandler.hxx>
-#include <Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
 #include <Foundation/SortTools/SortTools_ShellSortOfReal.hxx>
 #include <TCollection_CompareOfReal.hxx>
 #include <TColStd_Array1OfReal.hxx>

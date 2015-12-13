@@ -5,7 +5,7 @@
 
 #include <TColStd_SequenceNodeOfSequenceOfHExtendedString.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TCollection_HExtendedString.hxx>
 #include <TColStd_SequenceOfHExtendedString.hxx>

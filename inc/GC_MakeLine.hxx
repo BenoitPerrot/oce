@@ -6,9 +6,9 @@
 #ifndef _GC_MakeLine_HeaderFile
 #define _GC_MakeLine_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_Geom_Line.hxx>
 #include <GC_Root.hxx>

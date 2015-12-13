@@ -6,15 +6,15 @@
 #ifndef _ObjMgt_SeqExplorerOfPSeqOfExtRef_HeaderFile
 #define _ObjMgt_SeqExplorerOfPSeqOfExtRef_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_ObjMgt_SeqNodeOfPSeqOfExtRef.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_ObjMgt_PSeqOfExtRef.hxx>
 #include <Handle_ObjMgt_ExternRef.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class ObjMgt_SeqNodeOfPSeqOfExtRef;
 class ObjMgt_PSeqOfExtRef;
 class Standard_NoSuchObject;

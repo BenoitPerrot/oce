@@ -6,8 +6,8 @@
 #ifndef _StepGeom_BezierSurface_HeaderFile
 #define _StepGeom_BezierSurface_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepGeom_BezierSurface.hxx>
 
 #include <StepGeom_BSplineSurface.hxx>

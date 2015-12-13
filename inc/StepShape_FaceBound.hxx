@@ -6,12 +6,12 @@
 #ifndef _StepShape_FaceBound_HeaderFile
 #define _StepShape_FaceBound_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepShape_FaceBound.hxx>
 
 #include <Handle_StepShape_Loop.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <StepShape_TopologicalRepresentationItem.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 class StepShape_Loop;

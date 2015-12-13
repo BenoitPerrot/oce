@@ -18,7 +18,7 @@
 #include <BRepFilletAPI_MakeFillet.hxx>
 #include <TopoDS_Shape.hxx>
 #include <DNaming_FilletDriver.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DNaming_FilletDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(TFunction_Driver),
@@ -29,8 +29,8 @@ IMPLEMENT_STANDARD_TYPE_END(DNaming_FilletDriver)
 IMPLEMENT_DOWNCAST(DNaming_FilletDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(DNaming_FilletDriver)
 #include <Precision.hxx>
-#include <Standard_GUID.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <TopExp_Explorer.hxx>
 #include <TopTools_MapOfShape.hxx>
 #include <TopTools_ListOfShape.hxx>

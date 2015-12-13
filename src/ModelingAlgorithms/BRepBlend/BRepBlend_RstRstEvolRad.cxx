@@ -40,8 +40,8 @@
 #include <BlendFunc.hxx>
 #include <GeomFill.hxx>
 #include <TColStd_SequenceOfReal.hxx>
-#include <Standard_DomainError.hxx>
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Precision.hxx>
 
 #define Eps 1.e-15

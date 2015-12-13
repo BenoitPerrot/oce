@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopOpeBRepDS_BuildTool.hxx>
 #include <TopOpeBRepDS_HDataStructure.hxx>
 #include <TopoDS_Shape.hxx>
@@ -22,7 +22,7 @@
 #include <TColStd_ListOfInteger.hxx>
 #include <TopOpeBRepBuild_Builder.hxx>
 #include <TopOpeBRepBuild_HBuilder.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TopOpeBRepBuild_HBuilder)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),
@@ -43,7 +43,7 @@ IMPLEMENT_STANDARD_RTTI(TopOpeBRepBuild_HBuilder)
 #include <TColStd_MapOfInteger.hxx>
 #include <TopTools_MapOfShape.hxx>
 #include <TopoDS.hxx>
-#include <Standard_ProgramError.hxx>
+#include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <TopOpeBRepBuild_define.hxx>
 
 //=======================================================================

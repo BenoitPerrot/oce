@@ -6,15 +6,15 @@
 #ifndef _PShort_SeqExplorerOfHSequenceOfShortReal_HeaderFile
 #define _PShort_SeqExplorerOfHSequenceOfShortReal_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_PShort_SeqNodeOfHSequenceOfShortReal.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_PShort_HSequenceOfShortReal.hxx>
-#include <Standard_ShortReal.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_ShortReal.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class PShort_SeqNodeOfHSequenceOfShortReal;
 class PShort_HSequenceOfShortReal;
 class Standard_NoSuchObject;

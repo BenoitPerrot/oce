@@ -6,14 +6,14 @@
 #ifndef _TDF_ChildIDIterator_HeaderFile
 #define _TDF_ChildIDIterator_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
 #include <TDF_ChildIterator.hxx>
 #include <Handle_TDF_Attribute.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class TDF_Attribute;
 class TDF_Label;
 class Standard_GUID;

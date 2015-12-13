@@ -6,8 +6,8 @@
 #ifndef _Handle_MDataStd_DirectoryStorageDriver_HeaderFile
 #define _Handle_MDataStd_DirectoryStorageDriver_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_MDF_ASDriver.hxx>
 
 class Standard_Transient;

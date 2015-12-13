@@ -6,15 +6,15 @@
 #ifndef _TopOpeBRepDS_GapFiller_HeaderFile
 #define _TopOpeBRepDS_GapFiller_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_TopOpeBRepDS_HDataStructure.hxx>
 #include <Handle_TopOpeBRepDS_GapTool.hxx>
 #include <Handle_TopOpeBRepDS_Association.hxx>
 #include <Handle_TopOpeBRepDS_Interference.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class TopOpeBRepDS_HDataStructure;
 class TopOpeBRepDS_GapTool;
 class TopOpeBRepDS_Association;

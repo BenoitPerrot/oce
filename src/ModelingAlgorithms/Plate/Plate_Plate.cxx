@@ -21,7 +21,7 @@
 // 13-Jan-98 : alr : ajout des derivees pour contraintes G3 et approx. C2
 // 28-Avr-98 : alr : Prise en compte des Linear*Constraint, methodes SolveTI1,SolveTI2,SolveTI3
 
-#include <Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
 
 #include <gp_XY.hxx>
 #include <gp_XYZ.hxx>

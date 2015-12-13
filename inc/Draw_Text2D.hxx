@@ -6,16 +6,16 @@
 #ifndef _Draw_Text2D_HeaderFile
 #define _Draw_Text2D_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Draw_Text2D.hxx>
 
 #include <gp_Pnt2d.hxx>
 #include <Draw_Color.hxx>
 #include <TCollection_AsciiString.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Draw_Drawable2D.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 class gp_Pnt2d;
 class Draw_Color;
 class Draw_Display;

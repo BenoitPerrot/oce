@@ -14,8 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_DomainError.hxx>
-#include <Standard_NoMoreObject.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_NoMoreObject.hxx>
 #include <TopoDS_Edge.hxx>
 #include <gp_Pnt.hxx>
 #include <Draft_VertexInfo.hxx>

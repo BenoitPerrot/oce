@@ -13,7 +13,7 @@
 
 #include <TopoDS_Shape.hxx>
 #include <ShapeFix_SplitCommonVertex.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeFix_SplitCommonVertex)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(ShapeFix_Root),

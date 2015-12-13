@@ -19,7 +19,7 @@
 #include <TCollection_HAsciiString.hxx>
 #include <StepRepr_ProductDefinitionShape.hxx>
 #include <StepDimTol_CommonDatum.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepDimTol_CommonDatum)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepRepr_CompositeShapeAspect),

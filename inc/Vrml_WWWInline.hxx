@@ -6,13 +6,13 @@
 #ifndef _Vrml_WWWInline_HeaderFile
 #define _Vrml_WWWInline_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TCollection_AsciiString.hxx>
 #include <gp_Vec.hxx>
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 class TCollection_AsciiString;
 class gp_Vec;
 

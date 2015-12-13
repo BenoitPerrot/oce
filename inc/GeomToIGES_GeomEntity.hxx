@@ -6,12 +6,12 @@
 #ifndef _GeomToIGES_GeomEntity_HeaderFile
 #define _GeomToIGES_GeomEntity_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_IGESData_IGESModel.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class IGESData_IGESModel;
 
 

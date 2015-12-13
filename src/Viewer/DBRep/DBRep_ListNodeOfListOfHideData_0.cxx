@@ -5,7 +5,7 @@
 
 #include <DBRep_ListNodeOfListOfHideData.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <DBRep_HideData.hxx>
 #include <DBRep_ListOfHideData.hxx>

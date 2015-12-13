@@ -5,7 +5,7 @@
 
 #include <BRep_ListNodeOfListOfPointRepresentation.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <BRep_PointRepresentation.hxx>
 #include <BRep_ListOfPointRepresentation.hxx>

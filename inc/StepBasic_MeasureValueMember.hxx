@@ -6,14 +6,14 @@
 #ifndef _StepBasic_MeasureValueMember_HeaderFile
 #define _StepBasic_MeasureValueMember_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepBasic_MeasureValueMember.hxx>
 
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <StepData_SelectReal.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 
 
 //! for Select MeasureValue, i.e. :

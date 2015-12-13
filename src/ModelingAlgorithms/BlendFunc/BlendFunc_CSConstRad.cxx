@@ -40,8 +40,8 @@
 #include <gp.hxx>
 #include <BlendFunc.hxx>
 #include <GeomFill.hxx>
-#include <Standard_DomainError.hxx>
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Precision.hxx>
 
 

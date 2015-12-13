@@ -6,15 +6,15 @@
 #ifndef _DDataStd_DrawDriver_HeaderFile
 #define _DDataStd_DrawDriver_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_DDataStd_DrawDriver.hxx>
 
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Draw_Drawable3D.hxx>
 #include <Handle_TDataXtd_Constraint.hxx>
 #include <Draw_ColorKind.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class Draw_Drawable3D;
 class TDF_Label;
 class TDataXtd_Constraint;

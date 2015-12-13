@@ -6,8 +6,8 @@
 #ifndef _Intf_SequenceNodeOfSeqOfTangentZone_HeaderFile
 #define _Intf_SequenceNodeOfSeqOfTangentZone_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Intf_SequenceNodeOfSeqOfTangentZone.hxx>
 
 #include <Intf_TangentZone.hxx>

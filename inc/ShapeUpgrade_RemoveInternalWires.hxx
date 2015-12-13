@@ -6,17 +6,17 @@
 #ifndef _ShapeUpgrade_RemoveInternalWires_HeaderFile
 #define _ShapeUpgrade_RemoveInternalWires_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ShapeUpgrade_RemoveInternalWires.hxx>
 
 #include <TopoDS_Shape.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <TopTools_DataMapOfShapeListOfShape.hxx>
 #include <TopTools_SequenceOfShape.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <ShapeUpgrade_Tool.hxx>
 #include <ShapeExtend_Status.hxx>
 class TopoDS_Shape;

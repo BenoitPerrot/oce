@@ -6,14 +6,14 @@
 #ifndef _StepShape_HArray1OfConnectedFaceSet_HeaderFile
 #define _StepShape_HArray1OfConnectedFaceSet_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepShape_HArray1OfConnectedFaceSet.hxx>
 
 #include <StepShape_Array1OfConnectedFaceSet.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_StepShape_ConnectedFaceSet.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_DimensionMismatch;
 class Standard_OutOfRange;

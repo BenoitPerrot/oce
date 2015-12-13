@@ -18,8 +18,8 @@
 #include <TopoDS_Shell.hxx>
 #include <ShapeFix_FaceConnect.hxx>
 
-#include <Standard_ErrorHandler.hxx>
-#include <Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
 
 #include <TopoDS.hxx>
 #include <TopoDS_Wire.hxx>

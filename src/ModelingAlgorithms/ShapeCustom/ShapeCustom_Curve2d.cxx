@@ -21,7 +21,7 @@
 #include <Geom2d_BSplineCurve.hxx>
 #include <ShapeCustom_Curve2d.hxx>
 
-#include <Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <gp_Vec2d.hxx>
 #include <gp_Dir2d.hxx>
 #include <gp_Lin2d.hxx>

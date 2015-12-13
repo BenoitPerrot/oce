@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_Stream.hxx>
+#include <Foundation/Standard/Standard_Stream.hxx>
 
 #include <Draw_Color.hxx>
 #include <gp_Pnt.hxx>

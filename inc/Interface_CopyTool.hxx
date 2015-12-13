@@ -6,18 +6,18 @@
 #ifndef _Interface_CopyTool_HeaderFile
 #define _Interface_CopyTool_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_Interface_InterfaceModel.hxx>
 #include <Handle_Interface_CopyControl.hxx>
 #include <Handle_Interface_CopyMap.hxx>
 #include <Interface_BitMap.hxx>
 #include <Interface_GeneralLib.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <TColStd_SequenceOfInteger.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Handle_Interface_GeneralModule.hxx>
 #include <Handle_Interface_Protocol.hxx>

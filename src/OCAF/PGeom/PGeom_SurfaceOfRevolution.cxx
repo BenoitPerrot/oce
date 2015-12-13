@@ -18,7 +18,7 @@
 #include <gp_Dir.hxx>
 #include <gp_Pnt.hxx>
 #include <PGeom_SurfaceOfRevolution.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PGeom_SurfaceOfRevolution)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(PGeom_SweptSurface),

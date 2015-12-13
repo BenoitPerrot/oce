@@ -17,7 +17,7 @@
 #include <MAT_Edge.hxx>
 #include <MAT_ListOfBisector.hxx>
 #include <MAT_Bisector.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MAT_Bisector)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

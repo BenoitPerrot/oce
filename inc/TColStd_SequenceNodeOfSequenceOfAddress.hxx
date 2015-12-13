@@ -6,11 +6,11 @@
 #ifndef _TColStd_SequenceNodeOfSequenceOfAddress_HeaderFile
 #define _TColStd_SequenceNodeOfSequenceOfAddress_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TColStd_SequenceNodeOfSequenceOfAddress.hxx>
 
-#include <Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
 #include <TCollection_SeqNode.hxx>
 #include <TCollection_SeqNodePtr.hxx>
 class TColStd_SequenceOfAddress;
@@ -46,7 +46,7 @@ private:
 };
 
 #define SeqItem Standard_Address
-#define SeqItem_hxx <Standard_Address.hxx>
+#define SeqItem_hxx <Foundation/Standard/Standard_Address.hxx>
 #define TCollection_SequenceNode TColStd_SequenceNodeOfSequenceOfAddress
 #define TCollection_SequenceNode_hxx <TColStd_SequenceNodeOfSequenceOfAddress.hxx>
 #define Handle_TCollection_SequenceNode Handle_TColStd_SequenceNodeOfSequenceOfAddress

@@ -16,7 +16,7 @@
 
 #include <gp_Trsf.hxx>
 #include <PGeom_Transformation.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PGeom_Transformation)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Standard_Persistent),

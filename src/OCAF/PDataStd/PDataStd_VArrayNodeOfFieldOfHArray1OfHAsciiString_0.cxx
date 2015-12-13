@@ -5,7 +5,7 @@
 
 #include <PDataStd_VArrayNodeOfFieldOfHArray1OfHAsciiString.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <PCollection_HAsciiString.hxx>
 #include <PDataStd_FieldOfHArray1OfHAsciiString.hxx>

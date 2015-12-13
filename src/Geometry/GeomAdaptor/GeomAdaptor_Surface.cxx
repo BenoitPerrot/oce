@@ -23,10 +23,10 @@
 #define PosTol (Precision::PConfusion()*0.5)
 
 #include <Geom_Surface.hxx>
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_ConstructionError.hxx>
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <TColStd_Array1OfReal.hxx>
 #include <Adaptor3d_HSurface.hxx>
 #include <gp_Pnt.hxx>
@@ -47,13 +47,13 @@
 #include <GeomAdaptor_HCurve.hxx>
 #include <GeomAdaptor_Curve.hxx>
 #include <Adaptor3d_HSurface.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Geom_RectangularTrimmedSurface.hxx>
 #include <Geom_BSplineSurface.hxx> 
 #include <Geom_BezierSurface.hxx> 
 #include <Geom_OffsetSurface.hxx>
 //#include <GeomConvert_BSplineSurfaceKnotSplitting.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <TColStd_HArray1OfInteger.hxx>
 #include <TColStd_Array1OfReal.hxx>
 #include <TColStd_Array1OfInteger.hxx>
@@ -71,8 +71,8 @@
 #include <gp_Trsf.hxx>
 #include <BSplCLib.hxx>
 #include <Precision.hxx>
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_NullObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NullObject.hxx>
 
 #define myBspl (*((Handle(Geom_BSplineSurface)*)&mySurface))
 #define myExtSurf (*((Handle(Geom_SurfaceOfLinearExtrusion)*)&mySurface))

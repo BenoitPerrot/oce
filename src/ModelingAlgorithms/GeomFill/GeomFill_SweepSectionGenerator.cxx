@@ -16,7 +16,7 @@
 
 #include <Geom_BSplineCurve.hxx>
 #include <Adaptor3d_HCurve.hxx>
-#include <Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Geom_Curve.hxx>
 #include <TColStd_Array1OfReal.hxx>
 #include <TColStd_Array1OfInteger.hxx>

@@ -6,8 +6,8 @@
 #ifndef _LocOpe_SequenceNodeOfSequenceOfLin_HeaderFile
 #define _LocOpe_SequenceNodeOfSequenceOfLin_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_LocOpe_SequenceNodeOfSequenceOfLin.hxx>
 
 #include <gp_Lin.hxx>

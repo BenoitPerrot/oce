@@ -6,7 +6,7 @@
 #ifndef _Vrml_FontStyleStyle_HeaderFile
 #define _Vrml_FontStyleStyle_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum Vrml_FontStyleStyle

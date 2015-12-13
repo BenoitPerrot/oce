@@ -5,7 +5,7 @@
 
 #include <GeomInt_MyGradientbisOfTheComputeLineOfWLApprox.hxx>
 
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <StdFail_NotDone.hxx>
 #include <GeomInt_TheMultiLineOfWLApprox.hxx>
 #include <GeomInt_TheMultiLineToolOfWLApprox.hxx>

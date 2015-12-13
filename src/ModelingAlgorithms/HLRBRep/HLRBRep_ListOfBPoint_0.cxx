@@ -5,7 +5,7 @@
 
 #include <HLRBRep_ListOfBPoint.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <HLRBRep_ListIteratorOfListOfBPoint.hxx>
 #include <HLRBRep_BiPoint.hxx>
 #include <HLRBRep_ListNodeOfListOfBPoint.hxx>

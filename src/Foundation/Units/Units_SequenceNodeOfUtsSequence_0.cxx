@@ -5,7 +5,7 @@
 
 #include <Units_SequenceNodeOfUtsSequence.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Units_Unit.hxx>
 #include <Units_UtsSequence.hxx>

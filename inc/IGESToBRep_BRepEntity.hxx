@@ -6,16 +6,16 @@
 #ifndef _IGESToBRep_BRepEntity_HeaderFile
 #define _IGESToBRep_BRepEntity_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <IGESToBRep_CurveAndSurface.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_IGESData_IGESEntity.hxx>
 #include <Handle_IGESSolid_VertexList.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_IGESSolid_EdgeList.hxx>
 #include <Handle_IGESSolid_Loop.hxx>
 #include <Handle_IGESSolid_Face.hxx>

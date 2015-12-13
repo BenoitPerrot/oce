@@ -14,8 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_ConstructionError.hxx>
-#include <Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
 #include <gp_Ax3.hxx>
 #include <gp_Cylinder.hxx>
 #include <gp_Trsf.hxx>
@@ -25,7 +25,7 @@
 #include <gp_Vec.hxx>
 #include <Geom_Geometry.hxx>
 #include <Geom_CylindricalSurface.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Geom_CylindricalSurface)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Geom_ElementarySurface),
@@ -42,8 +42,8 @@ IMPLEMENT_STANDARD_RTTI(Geom_CylindricalSurface)
 #include <GeomAbs_UVSense.hxx>
 #include <Geom_Line.hxx>
 #include <Geom_Circle.hxx>
-#include <Standard_ConstructionError.hxx>
-#include <Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
 
 #include <gp_Lin.hxx>
 #include <gp_Circ.hxx>

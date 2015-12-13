@@ -6,14 +6,14 @@
 #ifndef _SelectMgr_CompositionFilter_HeaderFile
 #define _SelectMgr_CompositionFilter_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_SelectMgr_CompositionFilter.hxx>
 
 #include <SelectMgr_ListOfFilter.hxx>
 #include <SelectMgr_Filter.hxx>
 #include <Handle_SelectMgr_Filter.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <TopAbs_ShapeEnum.hxx>
 class SelectMgr_Filter;
 class SelectMgr_ListOfFilter;

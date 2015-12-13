@@ -5,7 +5,7 @@
 
 #include <DBC_VArrayNodeOfVArrayOfInteger.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <DBC_VArrayOfInteger.hxx>
 #include <DBC_VArrayTNodeOfVArrayOfInteger.hxx>
@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_RTTI(DBC_VArrayNodeOfVArrayOfInteger)
 
 
 #define Item Standard_Integer
-#define Item_hxx <Standard_Integer.hxx>
+#define Item_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define DBC_VArrayNode DBC_VArrayNodeOfVArrayOfInteger
 #define DBC_VArrayNode_hxx <DBC_VArrayNodeOfVArrayOfInteger.hxx>
 #define DBC_VArrayTNode DBC_VArrayTNodeOfVArrayOfInteger

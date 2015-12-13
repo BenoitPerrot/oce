@@ -6,13 +6,13 @@
 #ifndef _AppStd_Application_HeaderFile
 #define _AppStd_Application_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_AppStd_Application.hxx>
 
 #include <Handle_CDM_MessageDriver.hxx>
 #include <TDocStd_Application.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 class CDM_MessageDriver;
 class TColStd_SequenceOfExtendedString;
 

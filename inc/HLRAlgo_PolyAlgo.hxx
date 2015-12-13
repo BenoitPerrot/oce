@@ -6,17 +6,17 @@
 #ifndef _HLRAlgo_PolyAlgo_HeaderFile
 #define _HLRAlgo_PolyAlgo_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_HLRAlgo_PolyAlgo.hxx>
 
 #include <Handle_TColStd_HArray1OfTransient.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <HLRAlgo_ListIteratorOfListOfBPoint.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
 class TColStd_HArray1OfTransient;
 class TColStd_Array1OfTransient;
 class HLRAlgo_EdgeStatus;

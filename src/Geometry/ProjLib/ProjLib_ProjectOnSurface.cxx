@@ -22,7 +22,7 @@
 #include <AppCont_Function.hxx>
 #include <Approx_FitAndDivide.hxx>
 #include <AppParCurves_MultiCurve.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Extrema_POnSurf.hxx>
 #include <Precision.hxx>
 #include <BSplCLib.hxx>

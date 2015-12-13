@@ -6,13 +6,13 @@
 #ifndef _IFSelect_GeneralModifier_HeaderFile
 #define _IFSelect_GeneralModifier_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IFSelect_GeneralModifier.hxx>
 
 #include <Handle_IFSelect_Selection.hxx>
 #include <Handle_IFSelect_Dispatch.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class IFSelect_Selection;
 class IFSelect_Dispatch;

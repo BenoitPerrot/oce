@@ -6,8 +6,8 @@
 #ifndef _StepGeom_SurfaceCurveAndBoundedCurve_HeaderFile
 #define _StepGeom_SurfaceCurveAndBoundedCurve_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepGeom_SurfaceCurveAndBoundedCurve.hxx>
 
 #include <Handle_StepGeom_BoundedCurve.hxx>

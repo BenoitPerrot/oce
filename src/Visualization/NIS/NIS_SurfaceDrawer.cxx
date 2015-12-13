@@ -16,7 +16,7 @@
 #include <NIS_SurfaceDrawer.hxx>
 #include <NIS_Surface.hxx>
 #include <NIS_InteractiveObject.hxx>
-#include <Standard_ProgramError.hxx>
+#include <Foundation/Standard/Standard_ProgramError.hxx>
 
 #include <OpenGl_GlCore11.hxx>
 

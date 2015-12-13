@@ -6,14 +6,14 @@
 #ifndef _FEmTool_HAssemblyTable_HeaderFile
 #define _FEmTool_HAssemblyTable_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_FEmTool_HAssemblyTable.hxx>
 
 #include <FEmTool_AssemblyTable.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_OutOfRange;
 class Standard_OutOfMemory;

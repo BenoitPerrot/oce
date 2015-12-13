@@ -6,7 +6,7 @@
 #ifndef _Interface_CheckStatus_HeaderFile
 #define _Interface_CheckStatus_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Classifies checks
 //! OK : check is empty  Warning : Warning, no Fail   Fail : Fail

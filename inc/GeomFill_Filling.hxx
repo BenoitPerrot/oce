@@ -6,14 +6,14 @@
 #ifndef _GeomFill_Filling_HeaderFile
 #define _GeomFill_Filling_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_TColgp_HArray2OfPnt.hxx>
 #include <Handle_TColStd_HArray2OfReal.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class TColgp_HArray2OfPnt;
 class TColStd_HArray2OfReal;
 class Standard_NoSuchObject;

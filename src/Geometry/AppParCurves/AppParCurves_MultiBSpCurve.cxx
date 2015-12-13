@@ -14,9 +14,9 @@
 
 #include <TColStd_HArray1OfReal.hxx>
 #include <TColStd_HArray1OfInteger.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_DimensionError.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_DimensionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <AppParCurves_Array1OfMultiPoint.hxx>
 #include <TColStd_Array1OfReal.hxx>
 #include <TColStd_Array1OfInteger.hxx>
@@ -28,7 +28,7 @@
 #include <AppParCurves_MultiBSpCurve.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <AppParCurves_HArray1OfMultiPoint.hxx>
 #include <BSplCLib.hxx>
 

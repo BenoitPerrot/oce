@@ -14,13 +14,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard.hxx>
 
 #include <stdlib.h>
 
-#include <Standard_MMgrOpt.hxx>
-#include <Standard_MMgrRaw.hxx>
-#include <Standard_MMgrTBBalloc.hxx>
+#include <Foundation/Standard/Standard_MMgrOpt.hxx>
+#include <Foundation/Standard/Standard_MMgrRaw.hxx>
+#include <Foundation/Standard/Standard_MMgrTBBalloc.hxx>
 
 #if(defined(_WIN32) || defined(__WIN32__))
   #include <windows.h>

@@ -15,12 +15,12 @@
 // commercial license or contractual agreement.
 
 #include <TColStd_HArray2OfReal.hxx>
-#include <Standard_NotImplemented.hxx>
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <TColStd_HArray2OfInteger.hxx>
 #include <math_Matrix.hxx>
 #include <FEmTool_ElementaryCriterion.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(FEmTool_ElementaryCriterion)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

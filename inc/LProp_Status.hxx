@@ -6,7 +6,7 @@
 #ifndef _LProp_Status_HeaderFile
 #define _LProp_Status_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum LProp_Status

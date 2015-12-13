@@ -6,18 +6,18 @@
 #ifndef _Interface_ShareFlags_HeaderFile
 #define _Interface_ShareFlags_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_Interface_InterfaceModel.hxx>
 #include <Interface_BitMap.hxx>
 #include <Handle_TColStd_HSequenceOfTransient.hxx>
 #include <Handle_Interface_GTool.hxx>
 #include <Handle_Interface_Protocol.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Standard_Transient.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Interface_InterfaceModel;
 class TColStd_HSequenceOfTransient;
 class Standard_DomainError;

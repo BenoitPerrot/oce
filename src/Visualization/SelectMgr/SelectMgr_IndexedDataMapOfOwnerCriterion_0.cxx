@@ -5,9 +5,9 @@
 
 #include <SelectMgr_IndexedDataMapOfOwnerCriterion.hxx>
 
-#include <Standard_DomainError.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <SelectBasics_EntityOwner.hxx>
 #include <SelectMgr_SortCriterion.hxx>
 #include <TColStd_MapTransientHasher.hxx>

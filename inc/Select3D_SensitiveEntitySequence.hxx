@@ -6,14 +6,14 @@
 #ifndef _Select3D_SensitiveEntitySequence_HeaderFile
 #define _Select3D_SensitiveEntitySequence_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TCollection_BaseSequence.hxx>
 #include <Handle_Select3D_SensitiveEntity.hxx>
 #include <Handle_Select3D_SequenceNodeOfSensitiveEntitySequence.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;
 class Standard_OutOfRange;
 class Select3D_SensitiveEntity;

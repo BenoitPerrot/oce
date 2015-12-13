@@ -6,8 +6,8 @@
 #ifndef _XmlLDrivers_DocumentStorageDriver_HeaderFile
 #define _XmlLDrivers_DocumentStorageDriver_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_XmlLDrivers_DocumentStorageDriver.hxx>
 
 #include <Handle_XmlMDF_ADriverTable.hxx>
@@ -16,9 +16,9 @@
 #include <XmlObjMgt_SRelocationTable.hxx>
 #include <PCDM_StorageDriver.hxx>
 #include <Handle_CDM_Document.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <XmlObjMgt_Element.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_CDM_MessageDriver.hxx>
 class XmlMDF_ADriverTable;
 class TCollection_ExtendedString;

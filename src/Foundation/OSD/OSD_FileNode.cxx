@@ -20,12 +20,12 @@
 
 #include <errno.h>
 
-#include <Standard_ProgramError.hxx>
+#include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <Foundation/OSD/OSD_OSDError.hxx>
-#include <Standard_NullObject.hxx>
+#include <Foundation/Standard/Standard_NullObject.hxx>
 #include <Foundation/OSD/OSD_WhoAmI.hxx>
 #include <Foundation/OSD/OSD_OSDError.hxx>
-#include <Standard_ProgramError.hxx>
+#include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <Foundation/OSD/OSD_Path.hxx>
 #include <Foundation/OSD/OSD_Protection.hxx>
 #include <Foundation/Quantity/Quantity_Date.hxx>
@@ -415,7 +415,7 @@ Standard_Integer OSD_FileNode::Error()const{
 #include <Foundation/OSD/OSD_FileNode.hxx>
 #include <Foundation/OSD/OSD_Protection.hxx>
 #include <Foundation/Quantity/Quantity_Date.hxx>
-#include <Standard_ProgramError.hxx>
+#include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <TCollection_ExtendedString.hxx>
 
 #include <Foundation/OSD/OSD_WNT_1.hxx>

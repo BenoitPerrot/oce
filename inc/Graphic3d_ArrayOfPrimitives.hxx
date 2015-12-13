@@ -6,21 +6,21 @@
 #ifndef _Graphic3d_ArrayOfPrimitives_HeaderFile
 #define _Graphic3d_ArrayOfPrimitives_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Graphic3d_ArrayOfPrimitives.hxx>
 
 #include <Graphic3d_IndexBuffer_Handle.hxx>
 #include <Graphic3d_Buffer_Handle.hxx>
 #include <Graphic3d_BoundBuffer_Handle.hxx>
 #include <Graphic3d_TypeOfPrimitiveArray.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Byte.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Byte.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_ShortReal.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_ShortReal.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 class Standard_OutOfRange;
 class Graphic3d_InitialisationError;
 class Graphic3d_Group;

@@ -6,8 +6,8 @@
 #ifndef _Handle_LocOpe_HBuilder_HeaderFile
 #define _Handle_LocOpe_HBuilder_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TopOpeBRepBuild_HBuilder.hxx>
 
 class Standard_Transient;

@@ -15,7 +15,7 @@
 #include <TCollection_HAsciiString.hxx>
 #include <StepGeom_CurveBoundedSurface.hxx>
 #include <StepShape_ExtrudedAreaSolid.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepShape_ExtrudedAreaSolid)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepShape_SweptAreaSolid),

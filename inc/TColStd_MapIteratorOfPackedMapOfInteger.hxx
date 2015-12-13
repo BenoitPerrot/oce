@@ -17,7 +17,7 @@
 #define TColStd_MapIteratorOfPackedMapOfInteger_HeaderFile
 
 #include <TCollection_BasicMapIterator.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 
 class TColStd_PackedMapOfInteger;
 

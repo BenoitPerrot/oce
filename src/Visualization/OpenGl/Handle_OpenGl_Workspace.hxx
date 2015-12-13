@@ -16,7 +16,7 @@
 #ifndef _Handle_OpenGl_Workspace_Header
 #define _Handle_OpenGl_Workspace_Header
 
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_OpenGl_Window.hxx>
 
 class OpenGl_Workspace;

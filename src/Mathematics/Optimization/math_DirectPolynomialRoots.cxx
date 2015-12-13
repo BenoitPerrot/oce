@@ -18,11 +18,11 @@
 #define No_Standard_DimensionError
 //#endif
 
-#include <Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
 #include <StdFail_InfiniteSolutions.hxx>
 #include <math_DirectPolynomialRoots.hxx>
 
-#include <Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
 #include <StdFail_InfiniteSolutions.hxx> 
 
 

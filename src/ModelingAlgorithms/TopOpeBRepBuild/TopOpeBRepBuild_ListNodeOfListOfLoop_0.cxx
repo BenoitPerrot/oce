@@ -5,7 +5,7 @@
 
 #include <TopOpeBRepBuild_ListNodeOfListOfLoop.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TopOpeBRepBuild_Loop.hxx>
 #include <TopOpeBRepBuild_ListOfLoop.hxx>

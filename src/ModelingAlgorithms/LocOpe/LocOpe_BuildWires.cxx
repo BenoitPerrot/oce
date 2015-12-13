@@ -38,7 +38,7 @@
 #include <TopoDS.hxx>
 #include <TopExp.hxx>
 
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 
 
 static Standard_Integer FindFirstEdge

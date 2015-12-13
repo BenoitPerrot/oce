@@ -6,9 +6,9 @@
 #ifndef _StdPrs_ToolVertex_HeaderFile
 #define _StdPrs_ToolVertex_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Quantity/Quantity_Length.hxx>
 class TopoDS_Vertex;

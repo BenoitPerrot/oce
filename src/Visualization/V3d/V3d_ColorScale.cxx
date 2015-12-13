@@ -17,7 +17,7 @@
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <TCollection_ExtendedString.hxx>
 #include <V3d_ColorScale.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(V3d_ColorScale)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Aspect_ColorScale),

@@ -6,16 +6,16 @@
 #ifndef _PDataStd_HArray1OfHArray1OfInteger_HeaderFile
 #define _PDataStd_HArray1OfHArray1OfInteger_HeaderFile
 
-#include <Standard_Macro.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Handle_PDataStd_HArray1OfHArray1OfInteger.hxx>
 
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_PColStd_HArray1OfInteger.hxx>
 #include <PDataStd_FieldOfHArray1OfHArray1OfInteger.hxx>
-#include <Standard_Address.hxx>
-#include <Standard_Persistent.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Persistent.hxx>
 #include <Handle_PDataStd_VArrayNodeOfFieldOfHArray1OfHArray1OfInteger.hxx>
 class PColStd_HArray1OfInteger;
 class Standard_OutOfRange;

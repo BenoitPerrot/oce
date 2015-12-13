@@ -6,7 +6,7 @@
 #ifndef _Aspect_PrintAlgo_HeaderFile
 #define _Aspect_PrintAlgo_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Defines print algorithm
 //! Aspect_PrintAlgo:

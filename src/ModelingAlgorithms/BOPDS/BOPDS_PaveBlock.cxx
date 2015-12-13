@@ -15,7 +15,7 @@
 #include <BOPDS_Pave.hxx>
 #include <Bnd_Box.hxx>
 #include <BOPDS_PaveBlock.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BOPDS_PaveBlock)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),
@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_RTTI(BOPDS_PaveBlock)
 #include <BOPDS_ListOfPave.hxx>
 #include <BOPDS_VectorOfPave.hxx>
 
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Foundation/NCollection/NCollection_BaseAllocator.hxx>
 
 #include <algorithm>

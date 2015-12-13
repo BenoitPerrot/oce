@@ -6,8 +6,8 @@
 #ifndef _ShapeExtend_DataMapNodeOfDataMapOfTransientListOfMsg_HeaderFile
 #define _ShapeExtend_DataMapNodeOfDataMapOfTransientListOfMsg_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ShapeExtend_DataMapNodeOfDataMapOfTransientListOfMsg.hxx>
 
 #include <Handle_Standard_Transient.hxx>
@@ -54,7 +54,7 @@ private:
 };
 
 #define TheKey Handle(Standard_Transient)
-#define TheKey_hxx <Standard_Transient.hxx>
+#define TheKey_hxx <Foundation/Standard/Standard_Transient.hxx>
 #define TheItem Message_ListOfMsg
 #define TheItem_hxx <Foundation/Message/Message_ListOfMsg.hxx>
 #define Hasher TColStd_MapTransientHasher

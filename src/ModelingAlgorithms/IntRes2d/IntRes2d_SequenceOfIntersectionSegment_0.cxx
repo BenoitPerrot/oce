@@ -5,8 +5,8 @@
 
 #include <IntRes2d_SequenceOfIntersectionSegment.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <IntRes2d_IntersectionSegment.hxx>
 #include <IntRes2d_SequenceNodeOfSequenceOfIntersectionSegment.hxx>
  

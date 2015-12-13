@@ -14,7 +14,7 @@
 
 #include <gp_Lin2d.hxx>
 #include <GccEnt_QualifiedLin.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(GccEnt_QualifiedLin)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Standard_Storable),

@@ -14,13 +14,13 @@
 // commercial license or contractual agreement.
 
 #include <TDF_Label.hxx>
-#include <Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
 #include <TFunction_Logbook.hxx>
 #include <TDF_Attribute.hxx>
 #include <TDF_RelocationTable.hxx>
 #include <TFunction_DoubleMapOfIntegerLabel.hxx>
 #include <TFunction_Scope.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TFunction_Scope)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(TDF_Attribute),

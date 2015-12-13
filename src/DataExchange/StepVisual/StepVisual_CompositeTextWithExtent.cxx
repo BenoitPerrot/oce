@@ -15,7 +15,7 @@
 #include <TCollection_HAsciiString.hxx>
 #include <StepVisual_HArray1OfTextOrCharacter.hxx>
 #include <StepVisual_CompositeTextWithExtent.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepVisual_CompositeTextWithExtent)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepVisual_CompositeText),

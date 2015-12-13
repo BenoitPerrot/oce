@@ -5,7 +5,7 @@
 
 #include <Draft_DataMapNodeOfDataMapOfFaceFaceInfo.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TopoDS_Face.hxx>
 #include <Draft_FaceInfo.hxx>

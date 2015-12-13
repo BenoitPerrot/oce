@@ -14,7 +14,7 @@
 #include <Interface_InterfaceModel.hxx>
 #include <Interface_CopyControl.hxx>
 #include <Interface_CopyMap.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <Interface_GeneralModule.hxx>
 #include <Interface_InterfaceError.hxx>
 #include <Interface_GeneralLib.hxx>

@@ -6,12 +6,12 @@
 #ifndef _MAT_DataMapIteratorOfDataMapOfIntegerBisector_HeaderFile
 #define _MAT_DataMapIteratorOfDataMapOfIntegerBisector_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TCollection_BasicMapIterator.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_MAT_Bisector.hxx>
 #include <Handle_MAT_DataMapNodeOfDataMapOfIntegerBisector.hxx>
 class Standard_NoSuchObject;

@@ -16,7 +16,7 @@
 
 #include <stdio.h>
 #include <string.h>
-#include <Standard_Stream.hxx>
+#include <Foundation/Standard/Standard_Stream.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <Units_Dimensions.hxx>
 

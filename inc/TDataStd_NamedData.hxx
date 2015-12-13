@@ -6,8 +6,8 @@
 #ifndef _TDataStd_NamedData_HeaderFile
 #define _TDataStd_NamedData_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TDataStd_NamedData.hxx>
 
 #include <Handle_TDataStd_HDataMapOfStringInteger.hxx>
@@ -17,15 +17,15 @@
 #include <Handle_TDataStd_HDataMapOfStringHArray1OfInteger.hxx>
 #include <Handle_TDataStd_HDataMapOfStringHArray1OfReal.hxx>
 #include <TDF_Attribute.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Byte.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Byte.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>
 #include <Handle_TColStd_HArray1OfReal.hxx>
 #include <Handle_TDF_Attribute.hxx>
 #include <Handle_TDF_RelocationTable.hxx>
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 class TDataStd_HDataMapOfStringInteger;
 class TDataStd_HDataMapOfStringReal;
 class TDataStd_HDataMapOfStringString;

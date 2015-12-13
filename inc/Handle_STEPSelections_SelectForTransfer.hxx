@@ -6,8 +6,8 @@
 #ifndef _Handle_STEPSelections_SelectForTransfer_HeaderFile
 #define _Handle_STEPSelections_SelectForTransfer_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_XSControl_SelectForTransfer.hxx>
 
 class Standard_Transient;

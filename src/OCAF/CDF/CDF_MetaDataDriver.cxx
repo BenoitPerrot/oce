@@ -14,13 +14,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <CDM_MetaData.hxx>
 #include <TCollection_ExtendedString.hxx>
 #include <CDM_Document.hxx>
 #include <PCDM_ReferenceIterator.hxx>
 #include <CDF_MetaDataDriver.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(CDF_MetaDataDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Standard_Transient),

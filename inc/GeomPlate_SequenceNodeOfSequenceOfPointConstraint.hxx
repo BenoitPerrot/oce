@@ -6,8 +6,8 @@
 #ifndef _GeomPlate_SequenceNodeOfSequenceOfPointConstraint_HeaderFile
 #define _GeomPlate_SequenceNodeOfSequenceOfPointConstraint_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_GeomPlate_SequenceNodeOfSequenceOfPointConstraint.hxx>
 
 #include <Handle_GeomPlate_PointConstraint.hxx>

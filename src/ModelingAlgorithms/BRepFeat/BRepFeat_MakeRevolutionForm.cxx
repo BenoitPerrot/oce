@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Geom_Plane.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Wire.hxx>
 #include <gp_Ax1.hxx>
@@ -129,7 +129,7 @@
 
 #include <BRepTopAdaptor_FClass2d.hxx>
 
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 
 #include <Precision.hxx>
 

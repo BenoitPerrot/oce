@@ -6,15 +6,15 @@
 #ifndef _AppDef_Gradient_BFGSOfMyGradientOfCompute_HeaderFile
 #define _AppDef_Gradient_BFGSOfMyGradientOfCompute_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <math_BFGS.hxx>
 #include <math_Vector.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class AppDef_MultiLine;
 class AppDef_MyLineTool;
 class AppDef_MyGradientOfCompute;

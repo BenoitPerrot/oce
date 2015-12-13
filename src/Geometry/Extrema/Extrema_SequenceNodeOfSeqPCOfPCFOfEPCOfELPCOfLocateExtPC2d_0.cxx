@@ -5,7 +5,7 @@
 
 #include <Extrema_SequenceNodeOfSeqPCOfPCFOfEPCOfELPCOfLocateExtPC2d.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Extrema_POnCurv2d.hxx>
 #include <Extrema_SeqPCOfPCFOfEPCOfELPCOfLocateExtPC2d.hxx>

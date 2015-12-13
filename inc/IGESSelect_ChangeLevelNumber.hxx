@@ -6,13 +6,13 @@
 #ifndef _IGESSelect_ChangeLevelNumber_HeaderFile
 #define _IGESSelect_ChangeLevelNumber_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESSelect_ChangeLevelNumber.hxx>
 
 #include <Handle_IFSelect_IntParam.hxx>
 #include <IGESSelect_ModelModifier.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_IGESData_IGESModel.hxx>
 class IFSelect_IntParam;
 class IFSelect_ContextModif;

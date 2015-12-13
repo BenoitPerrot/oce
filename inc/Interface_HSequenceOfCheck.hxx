@@ -6,15 +6,15 @@
 #ifndef _Interface_HSequenceOfCheck_HeaderFile
 #define _Interface_HSequenceOfCheck_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Interface_HSequenceOfCheck.hxx>
 
 #include <Interface_SequenceOfCheck.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Interface_Check.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;
 class Standard_OutOfRange;
 class Interface_Check;

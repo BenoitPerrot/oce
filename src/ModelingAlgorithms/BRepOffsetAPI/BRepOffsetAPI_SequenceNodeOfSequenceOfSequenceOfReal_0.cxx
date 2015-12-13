@@ -5,7 +5,7 @@
 
 #include <BRepOffsetAPI_SequenceNodeOfSequenceOfSequenceOfReal.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TColStd_SequenceOfReal.hxx>
 #include <BRepOffsetAPI_SequenceOfSequenceOfReal.hxx>

@@ -17,10 +17,10 @@
 #include <math_Vector.hxx>
 #include <math_Matrix.hxx>
 
-#include <Standard_DimensionError.hxx>
-#include <Standard_DivideByZero.hxx>
-#include <Standard_RangeError.hxx>
-#include <Standard_NullValue.hxx>
+#include <Foundation/Standard/Standard_DimensionError.hxx>
+#include <Foundation/Standard/Standard_DivideByZero.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_NullValue.hxx>
 
 math_Vector::math_Vector(const Standard_Integer theLower, const Standard_Integer theUpper) :
   LowerIndex(theLower),

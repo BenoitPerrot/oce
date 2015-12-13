@@ -5,7 +5,7 @@
 
 #include <IntTools_ListNodeOfListOfCurveRangeSample.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <IntTools_CurveRangeSample.hxx>
 #include <IntTools_ListOfCurveRangeSample.hxx>

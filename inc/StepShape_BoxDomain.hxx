@@ -6,12 +6,12 @@
 #ifndef _StepShape_BoxDomain_HeaderFile
 #define _StepShape_BoxDomain_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepShape_BoxDomain.hxx>
 
 #include <Handle_StepGeom_CartesianPoint.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepGeom_CartesianPoint;
 

@@ -6,14 +6,14 @@
 #ifndef _StepVisual_FillAreaStyle_HeaderFile
 #define _StepVisual_FillAreaStyle_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepVisual_FillAreaStyle.hxx>
 
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Handle_StepVisual_HArray1OfFillStyleSelect.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class TCollection_HAsciiString;
 class StepVisual_HArray1OfFillStyleSelect;
 class StepVisual_FillStyleSelect;

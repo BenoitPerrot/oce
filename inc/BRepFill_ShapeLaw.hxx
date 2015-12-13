@@ -6,19 +6,19 @@
 #ifndef _BRepFill_ShapeLaw_HeaderFile
 #define _BRepFill_ShapeLaw_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BRepFill_ShapeLaw.hxx>
 
 #include <TopoDS_Shape.hxx>
 #include <Handle_TopTools_HArray1OfShape.hxx>
 #include <Handle_Law_Function.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <BRepFill_SectionLaw.hxx>
 #include <Handle_GeomFill_SectionLaw.hxx>
 #include <GeomAbs_Shape.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class TopTools_HArray1OfShape;
 class Law_Function;
 class TopoDS_Vertex;

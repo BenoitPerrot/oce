@@ -23,9 +23,9 @@
 // --------------------------------------------------------------------
 //                            Exceptions raised
 // --------------------------------------------------------------------
-#include <Standard_OutOfRange.hxx>
-#include <Standard_RangeError.hxx>
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 
 // --------------------------------------------------------------------
 //                            Constructor 

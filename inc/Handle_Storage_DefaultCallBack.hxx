@@ -6,8 +6,8 @@
 #ifndef _Handle_Storage_DefaultCallBack_HeaderFile
 #define _Handle_Storage_DefaultCallBack_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Storage_CallBack.hxx>
 
 class Standard_Transient;

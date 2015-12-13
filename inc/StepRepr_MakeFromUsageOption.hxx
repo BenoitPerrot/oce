@@ -6,15 +6,15 @@
 #ifndef _StepRepr_MakeFromUsageOption_HeaderFile
 #define _StepRepr_MakeFromUsageOption_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepRepr_MakeFromUsageOption.hxx>
 
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Handle_StepBasic_MeasureWithUnit.hxx>
 #include <StepRepr_ProductDefinitionUsage.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_StepBasic_ProductDefinition.hxx>
 class TCollection_HAsciiString;
 class StepBasic_MeasureWithUnit;

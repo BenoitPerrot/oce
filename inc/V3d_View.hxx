@@ -6,11 +6,11 @@
 #ifndef _V3d_View_HeaderFile
 #define _V3d_View_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_V3d_View.hxx>
 
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <gp_Dir.hxx>
 #include <gp_Pnt.hxx>
 #include <Graphic3d_Camera_Handle.hxx>
@@ -24,8 +24,8 @@
 #include <Graphic3d_Vertex.hxx>
 #include <Handle_Aspect_Window.hxx>
 #include <TColStd_ListIteratorOfListOfTransient.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Aspect_Grid.hxx>
 #include <gp_Ax3.hxx>
 #include <Handle_V3d_LayerMgr.hxx>
@@ -39,12 +39,12 @@
 #include <V3d_TypeOfView.hxx>
 #include <Aspect_RenderingContext.hxx>
 #include <Aspect_GraphicCallbackProc.hxx>
-#include <Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
 #include <Foundation/Quantity/Quantity_TypeOfColor.hxx>
 #include <Foundation/Quantity/Quantity_Parameter.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Aspect_GradientFillMethod.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 #include <Aspect_FillMethod.hxx>
 #include <V3d_Coordinate.hxx>
 #include <V3d_TypeOfShadingModel.hxx>

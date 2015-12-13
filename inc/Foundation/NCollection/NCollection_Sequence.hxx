@@ -19,8 +19,8 @@
 #include <Foundation/NCollection/NCollection_BaseSequence.hxx>
 #include <Foundation/NCollection/NCollection_StlIterator.hxx>
 
-#include <Standard_OutOfRange.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 
 /**
  * Purpose:     Definition of a sequence of elements indexed by

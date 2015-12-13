@@ -6,7 +6,7 @@
 #ifndef _GeomAbs_UVSense_HeaderFile
 #define _GeomAbs_UVSense_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 //! This enumeration is used in the class RectangularTrimmedSurface

@@ -6,7 +6,7 @@
 #ifndef _Aspect_TypeOfDeflection_HeaderFile
 #define _Aspect_TypeOfDeflection_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Defines if the maximal chordial deflection used when
 //! drawing an object is absolute  or relative to the size

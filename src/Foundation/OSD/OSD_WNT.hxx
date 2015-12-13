@@ -15,7 +15,7 @@
 #ifndef __OSD_WNT_HXX
 # define __OSD_WNT_HXX
 
-#include <Standard_Stream.hxx>
+#include <Foundation/Standard/Standard_Stream.hxx>
 
 # ifndef OSDAPI
 #  if !defined(HAVE_NO_DLL)

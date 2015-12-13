@@ -5,8 +5,8 @@
 
 #include <HLRAlgo_ListIteratorOfListOfBPoint.hxx>
 
-#include <Standard_NoMoreObject.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoMoreObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <HLRAlgo_ListOfBPoint.hxx>
 #include <HLRAlgo_BiPoint.hxx>
 #include <HLRAlgo_ListNodeOfListOfBPoint.hxx>

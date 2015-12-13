@@ -6,15 +6,15 @@
 #ifndef _Expr_NumericValue_HeaderFile
 #define _Expr_NumericValue_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Expr_NumericValue.hxx>
 
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Expr_GeneralExpression.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Expr_GeneralExpression.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Expr_NamedUnknown.hxx>
 class Standard_OutOfRange;
 class Expr_GeneralExpression;

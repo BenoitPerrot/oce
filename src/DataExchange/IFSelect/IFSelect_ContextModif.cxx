@@ -13,12 +13,12 @@
 
 #include <Interface_Protocol.hxx>
 #include <Interface_CopyControl.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Interface_Graph.hxx>
 #include <Interface_CopyTool.hxx>
 #include <Interface_EntityIterator.hxx>
 #include <Interface_InterfaceModel.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <IFSelect_GeneralModifier.hxx>
 #include <Interface_Check.hxx>
 #include <Interface_CheckIterator.hxx>
@@ -26,7 +26,7 @@
 #include <IFSelect_Selection.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <Foundation/Message/Message.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 
 
 //=======================================================================

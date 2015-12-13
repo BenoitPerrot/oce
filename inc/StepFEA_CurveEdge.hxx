@@ -6,7 +6,7 @@
 #ifndef _StepFEA_CurveEdge_HeaderFile
 #define _StepFEA_CurveEdge_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum StepFEA_CurveEdge

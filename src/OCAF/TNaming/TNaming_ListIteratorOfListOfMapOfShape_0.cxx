@@ -5,8 +5,8 @@
 
 #include <TNaming_ListIteratorOfListOfMapOfShape.hxx>
 
-#include <Standard_NoMoreObject.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoMoreObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TNaming_ListOfMapOfShape.hxx>
 #include <TopTools_MapOfShape.hxx>
 #include <TNaming_ListNodeOfListOfMapOfShape.hxx>

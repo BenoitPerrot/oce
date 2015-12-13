@@ -6,16 +6,16 @@
 #ifndef _StepGeom_CartesianTransformationOperator3d_HeaderFile
 #define _StepGeom_CartesianTransformationOperator3d_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepGeom_CartesianTransformationOperator3d.hxx>
 
 #include <Handle_StepGeom_Direction.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <StepGeom_CartesianTransformationOperator.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Handle_StepGeom_CartesianPoint.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class StepGeom_Direction;
 class TCollection_HAsciiString;
 class StepGeom_CartesianPoint;

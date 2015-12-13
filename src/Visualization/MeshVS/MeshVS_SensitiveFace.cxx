@@ -19,7 +19,7 @@
 #include <TColgp_Array1OfPnt2d.hxx>
 #include <Bnd_Box2d.hxx>
 #include <MeshVS_SensitiveFace.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MeshVS_SensitiveFace)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Select3D_SensitiveFace),

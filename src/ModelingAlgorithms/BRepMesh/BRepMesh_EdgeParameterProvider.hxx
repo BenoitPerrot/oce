@@ -16,8 +16,8 @@
 #ifndef _BRepMesh_EdgeParameterProvider_HeaderFile
 #define _BRepMesh_EdgeParameterProvider_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Extrema_LocateExtPC.hxx>
 #include <Handle_TColStd_HArray1OfReal.hxx>
 

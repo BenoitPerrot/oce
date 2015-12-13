@@ -6,15 +6,15 @@
 #ifndef _TopOpeBRep_Hctxee2d_HeaderFile
 #define _TopOpeBRep_Hctxee2d_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TopOpeBRep_Hctxee2d.hxx>
 
 #include <TopoDS_Edge.hxx>
 #include <Geom2dAdaptor_Curve.hxx>
 #include <IntRes2d_Domain.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class TopoDS_Edge;
 class BRepAdaptor_Surface;
 class TopoDS_Shape;

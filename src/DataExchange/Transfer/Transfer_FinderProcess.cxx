@@ -13,11 +13,11 @@
 
 #include <Interface_InterfaceModel.hxx>
 #include <Transfer_TransientMapper.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <Transfer_Finder.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <Transfer_FinderProcess.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Transfer_FinderProcess)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Transfer_ProcessForFinder),

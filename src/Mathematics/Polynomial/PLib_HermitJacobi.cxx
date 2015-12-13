@@ -15,10 +15,10 @@
 // commercial license or contractual agreement.
 
 #include <PLib_JacobiPolynomial.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <TColStd_Array1OfReal.hxx>
 #include <PLib_HermitJacobi.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PLib_HermitJacobi)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(PLib_Base),

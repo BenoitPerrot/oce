@@ -6,12 +6,12 @@
 #ifndef _VrmlConverter_LineAspect_HeaderFile
 #define _VrmlConverter_LineAspect_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_VrmlConverter_LineAspect.hxx>
 
 #include <Handle_Vrml_Material.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class Vrml_Material;
 

@@ -6,14 +6,14 @@
 #ifndef _Interface_HArray1OfHAsciiString_HeaderFile
 #define _Interface_HArray1OfHAsciiString_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Interface_HArray1OfHAsciiString.hxx>
 
 #include <Interface_Array1OfHAsciiString.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_DimensionMismatch;
 class Standard_OutOfRange;

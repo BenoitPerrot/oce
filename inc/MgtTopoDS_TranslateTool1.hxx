@@ -6,8 +6,8 @@
 #ifndef _MgtTopoDS_TranslateTool1_HeaderFile
 #define _MgtTopoDS_TranslateTool1_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_MgtTopoDS_TranslateTool1.hxx>
 
 #include <Foundation/MMgt/MMgt_TShared.hxx>

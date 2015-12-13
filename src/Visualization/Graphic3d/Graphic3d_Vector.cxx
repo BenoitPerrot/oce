@@ -34,7 +34,7 @@
 #include <Graphic3d_VectorError.hxx>
 #include <Graphic3d_Vector.hxx>
 
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 
 //-Aliases
 

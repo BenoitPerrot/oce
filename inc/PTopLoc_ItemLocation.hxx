@@ -6,15 +6,15 @@
 #ifndef _PTopLoc_ItemLocation_HeaderFile
 #define _PTopLoc_ItemLocation_HeaderFile
 
-#include <Standard_Macro.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Handle_PTopLoc_ItemLocation.hxx>
 
 #include <Handle_PTopLoc_Datum3D.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <PTopLoc_Location.hxx>
-#include <Standard_Persistent.hxx>
+#include <Foundation/Standard/Standard_Persistent.hxx>
 class PTopLoc_Datum3D;
 class PTopLoc_Location;
 

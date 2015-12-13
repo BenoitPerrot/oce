@@ -5,7 +5,7 @@
 
 #include <BRepFill_SequenceNodeOfSequenceOfFaceAndOrder.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <BRepFill_FaceAndOrder.hxx>
 #include <BRepFill_SequenceOfFaceAndOrder.hxx>

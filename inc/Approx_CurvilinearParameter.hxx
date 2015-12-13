@@ -6,20 +6,20 @@
 #ifndef _Approx_CurvilinearParameter_HeaderFile
 #define _Approx_CurvilinearParameter_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Geom_BSplineCurve.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Geom2d_BSplineCurve.hxx>
 #include <Handle_Adaptor3d_HCurve.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <Handle_Adaptor2d_HCurve2d.hxx>
 #include <Handle_Adaptor3d_HSurface.hxx>
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 class Geom_BSplineCurve;
 class Geom2d_BSplineCurve;
 class Standard_OutOfRange;

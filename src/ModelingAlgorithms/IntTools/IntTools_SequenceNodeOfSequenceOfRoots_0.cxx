@@ -5,7 +5,7 @@
 
 #include <IntTools_SequenceNodeOfSequenceOfRoots.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <IntTools_Root.hxx>
 #include <IntTools_SequenceOfRoots.hxx>

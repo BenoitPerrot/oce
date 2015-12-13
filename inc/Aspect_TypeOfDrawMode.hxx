@@ -6,7 +6,7 @@
 #ifndef _Aspect_TypeOfDrawMode_HeaderFile
 #define _Aspect_TypeOfDrawMode_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Definition of the draw modes
 enum Aspect_TypeOfDrawMode

@@ -14,8 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_OutOfRange.hxx>
-#include <Standard_NumericError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NumericError.hxx>
 #include <Expr_NotEvaluable.hxx>
 #include <Expr_GeneralExpression.hxx>
 #include <Expr_NamedUnknown.hxx>
@@ -23,7 +23,7 @@
 #include <TColStd_Array1OfReal.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <Expr_Difference.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Expr_Difference)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Expr_BinaryExpression),
@@ -39,7 +39,7 @@ IMPLEMENT_STANDARD_RTTI(Expr_Difference)
 #include <Expr_Sum.hxx>
 #include <Expr_Operators.hxx>
 #include <Expr.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 
 Expr_Difference::Expr_Difference (const Handle(Expr_GeneralExpression)& exp1, const Handle(Expr_GeneralExpression)& exp2)
 {

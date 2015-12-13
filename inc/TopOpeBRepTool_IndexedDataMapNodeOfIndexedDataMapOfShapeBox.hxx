@@ -6,12 +6,12 @@
 #ifndef _TopOpeBRepTool_IndexedDataMapNodeOfIndexedDataMapOfShapeBox_HeaderFile
 #define _TopOpeBRepTool_IndexedDataMapNodeOfIndexedDataMapOfShapeBox_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TopOpeBRepTool_IndexedDataMapNodeOfIndexedDataMapOfShapeBox.hxx>
 
 #include <TopoDS_Shape.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Bnd_Box.hxx>
 #include <TCollection_MapNodePtr.hxx>
 #include <TCollection_MapNode.hxx>

@@ -24,7 +24,7 @@
 #include <string.h>
 #include <stdio.h>
 
-#include <Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Precision.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <gp_Lin.hxx>

@@ -6,9 +6,9 @@
 #ifndef _BRepFill_FaceAndOrder_HeaderFile
 #define _BRepFill_FaceAndOrder_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TopoDS_Face.hxx>
 #include <GeomAbs_Shape.hxx>

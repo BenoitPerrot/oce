@@ -17,7 +17,7 @@
 // PMN : Ajout de la commande smooth
 // PMN : 11/07/97 Passage a GeomliteTest de bsmooth.
 
-#include <Standard_Stream.hxx>
+#include <Foundation/Standard/Standard_Stream.hxx>
 
 #include <GeomliteTest.hxx>
 #include <DrawTrSurf.hxx>

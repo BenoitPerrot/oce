@@ -17,9 +17,9 @@
 #ifndef AdvApp2Var_EvaluatorFunc2Var_HeaderFile
 #define AdvApp2Var_EvaluatorFunc2Var_HeaderFile
 
-#include <Standard_Integer.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 // History - the C function pointer converted to a virtual class
 // in order to get rid of usage of static functions and static data

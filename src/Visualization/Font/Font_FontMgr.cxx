@@ -17,7 +17,7 @@
 #include <Font_SystemFont.hxx>
 #include <TCollection_HAsciiString.hxx>
 #include <Font_FontMgr.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Font_FontMgr)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(Font_FontMgr)
 #include <Foundation/OSD/OSD_Environment.hxx>
 #include <Foundation/NCollection/NCollection_List.hxx>
 #include <Foundation/NCollection/NCollection_Map.hxx>
-#include <Standard_Stream.hxx>
+#include <Foundation/Standard/Standard_Stream.hxx>
 #include <TCollection_HAsciiString.hxx>
 
 #include <ft2build.h>

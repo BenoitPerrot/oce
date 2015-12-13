@@ -15,7 +15,7 @@
 #include <StepGeom_CartesianTransformationOperator.hxx>
 #include <TCollection_HAsciiString.hxx>
 #include <StepGeom_PointReplica.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepGeom_PointReplica)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepGeom_Point),

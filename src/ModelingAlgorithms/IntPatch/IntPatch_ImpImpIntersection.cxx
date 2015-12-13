@@ -15,16 +15,16 @@
 // commercial license or contractual agreement.
 
 #include <StdFail_NotDone.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_DomainError.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Adaptor3d_HSurface.hxx>
 #include <Adaptor3d_TopolTool.hxx>
 #include <IntPatch_Point.hxx>
 #include <IntPatch_Line.hxx>
 #include <IntPatch_ImpImpIntersection.hxx>
 
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <IntPatch_SequenceOfLine.hxx>
 #include <TColStd_Array1OfInteger.hxx>
 #include <TColStd_SequenceOfReal.hxx>

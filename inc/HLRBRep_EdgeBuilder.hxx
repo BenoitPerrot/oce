@@ -6,14 +6,14 @@
 #ifndef _HLRBRep_EdgeBuilder_HeaderFile
 #define _HLRBRep_EdgeBuilder_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TopAbs_State.hxx>
 #include <Handle_HLRBRep_AreaLimit.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <TopAbs_Orientation.hxx>
 class HLRBRep_AreaLimit;
 class Standard_NoMoreObject;

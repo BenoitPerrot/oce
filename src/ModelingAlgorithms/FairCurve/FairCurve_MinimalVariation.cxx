@@ -19,9 +19,9 @@
 #define No_Standard_OutOfRange
 #endif
 
-#include <Standard_NegativeValue.hxx>
-#include <Standard_NullValue.hxx>
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_NegativeValue.hxx>
+#include <Foundation/Standard/Standard_NullValue.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <gp_Pnt2d.hxx>
 #include <gp_Vec2d.hxx>
 #include <FairCurve_MinimalVariation.hxx>

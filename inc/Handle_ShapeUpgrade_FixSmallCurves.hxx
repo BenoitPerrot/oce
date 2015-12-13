@@ -6,8 +6,8 @@
 #ifndef _Handle_ShapeUpgrade_FixSmallCurves_HeaderFile
 #define _Handle_ShapeUpgrade_FixSmallCurves_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ShapeUpgrade_Tool.hxx>
 
 class Standard_Transient;

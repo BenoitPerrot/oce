@@ -6,13 +6,13 @@
 #ifndef _AIS_TypeFilter_HeaderFile
 #define _AIS_TypeFilter_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_AIS_TypeFilter.hxx>
 
 #include <AIS_KindOfInteractive.hxx>
 #include <SelectMgr_Filter.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_SelectMgr_EntityOwner.hxx>
 class SelectMgr_EntityOwner;
 

@@ -6,16 +6,16 @@
 #ifndef _Geom_Conic_HeaderFile
 #define _Geom_Conic_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Geom_Conic.hxx>
 
 #include <gp_Ax2.hxx>
 #include <Geom_Curve.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <GeomAbs_Shape.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_ConstructionError;
 class Standard_RangeError;
 class Standard_DomainError;

@@ -5,8 +5,8 @@
 
 #include <StepFEA_SequenceOfElementGeometricRelationship.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <StepFEA_ElementGeometricRelationship.hxx>
 #include <StepFEA_SequenceNodeOfSequenceOfElementGeometricRelationship.hxx>
  

@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_NoMoreObject.hxx>
+#include <Foundation/Standard/Standard_NoMoreObject.hxx>
 #include <TopOpeBRepBuild_BlockIterator.hxx>
 
 //=======================================================================

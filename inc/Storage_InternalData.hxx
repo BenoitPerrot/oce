@@ -6,12 +6,12 @@
 #ifndef _Storage_InternalData_HeaderFile
 #define _Storage_InternalData_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Storage_InternalData.hxx>
 
 #include <Storage_BucketOfPersistent.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Storage_HPArray.hxx>
 #include <Storage_MapOfCallBack.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

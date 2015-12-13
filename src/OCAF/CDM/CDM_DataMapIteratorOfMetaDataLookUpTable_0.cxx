@@ -5,7 +5,7 @@
 
 #include <CDM_DataMapIteratorOfMetaDataLookUpTable.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TCollection_ExtendedString.hxx>
 #include <CDM_MetaData.hxx>
 #include <CDM_MetaDataLookUpTable.hxx>

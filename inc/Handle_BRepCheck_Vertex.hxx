@@ -6,8 +6,8 @@
 #ifndef _Handle_BRepCheck_Vertex_HeaderFile
 #define _Handle_BRepCheck_Vertex_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BRepCheck_Result.hxx>
 
 class Standard_Transient;

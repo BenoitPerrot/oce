@@ -16,7 +16,7 @@
 
 #include <TNaming_UsedShapes.hxx>
 #include <TNaming_NamedShape.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <TDF_Label.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TNaming_Builder.hxx>

@@ -5,10 +5,10 @@
 
 #include <TShort_HSequenceOfShortReal.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <TShort_SequenceOfShortReal.hxx>
 
  
@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_RTTI(TShort_HSequenceOfShortReal)
 
 
 #define Item Standard_ShortReal
-#define Item_hxx <Standard_ShortReal.hxx>
+#define Item_hxx <Foundation/Standard/Standard_ShortReal.hxx>
 #define TheSequence TShort_SequenceOfShortReal
 #define TheSequence_hxx <TShort_SequenceOfShortReal.hxx>
 #define TCollection_HSequence TShort_HSequenceOfShortReal

@@ -5,7 +5,7 @@
 
 #include <HLRBRep_ListNodeOfListOfBPnt2D.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <HLRBRep_BiPnt2D.hxx>
 #include <HLRBRep_ListOfBPnt2D.hxx>

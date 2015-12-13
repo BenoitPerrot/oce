@@ -6,7 +6,7 @@
 #ifndef _Vrml_VertexOrdering_HeaderFile
 #define _Vrml_VertexOrdering_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum Vrml_VertexOrdering

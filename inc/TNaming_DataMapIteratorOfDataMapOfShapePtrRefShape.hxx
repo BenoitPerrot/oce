@@ -6,9 +6,9 @@
 #ifndef _TNaming_DataMapIteratorOfDataMapOfShapePtrRefShape_HeaderFile
 #define _TNaming_DataMapIteratorOfDataMapOfShapePtrRefShape_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TCollection_BasicMapIterator.hxx>
 #include <TNaming_PtrRefShape.hxx>

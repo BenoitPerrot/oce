@@ -14,7 +14,7 @@
 #ifndef _Graphic3d_ZLayerSettings_HeaderFile
 #define _Graphic3d_ZLayerSettings_HeaderFile
 
-#include <Standard_TypeDef.hxx>
+#include <Foundation/Standard/Standard_TypeDef.hxx>
 
 enum Graphic3d_ZLayerSetting
 {

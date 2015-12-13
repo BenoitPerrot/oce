@@ -5,7 +5,7 @@
 
 #include <DBRep_ListNodeOfListOfEdge.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <DBRep_Edge.hxx>
 #include <DBRep_ListOfEdge.hxx>

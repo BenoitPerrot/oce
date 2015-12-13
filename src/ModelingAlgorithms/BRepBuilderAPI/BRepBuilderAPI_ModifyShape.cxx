@@ -15,14 +15,14 @@
 // commercial license or contractual agreement.
 
 #include <BRepTools_Modification.hxx>
-#include <Standard_NullObject.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NullObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <BRepBuilderAPI_ModifyShape.hxx>
 
 
-#include <Standard_NullObject.hxx>
+#include <Foundation/Standard/Standard_NullObject.hxx>
 
 //=======================================================================
 //function : BRepBuilderAPI_ModifyShape

@@ -5,7 +5,7 @@
 
 #include <HLRBRep_IntConicCurveOfCInter.hxx>
 
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <IntCurve_IConicTool.hxx>
 #include <HLRBRep_CurveTool.hxx>
 #include <HLRBRep_TheIntConicCurveOfCInter.hxx>
@@ -20,7 +20,7 @@
 #define TheImpTool IntCurve_IConicTool
 #define TheImpTool_hxx <IntCurve_IConicTool.hxx>
 #define ThePCurve Standard_Address
-#define ThePCurve_hxx <Standard_Address.hxx>
+#define ThePCurve_hxx <Foundation/Standard/Standard_Address.hxx>
 #define ThePCurveTool HLRBRep_CurveTool
 #define ThePCurveTool_hxx <HLRBRep_CurveTool.hxx>
 #define TheIntConicCurve HLRBRep_TheIntConicCurveOfCInter

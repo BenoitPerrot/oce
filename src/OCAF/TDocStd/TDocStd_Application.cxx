@@ -15,12 +15,12 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Resource/Resource_Manager.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TDocStd_Document.hxx>
 #include <TColStd_SequenceOfExtendedString.hxx>
 #include <TCollection_ExtendedString.hxx>
 #include <TDocStd_Application.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDocStd_Application)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(CDF_Application),
@@ -35,9 +35,9 @@ IMPLEMENT_STANDARD_RTTI(TDocStd_Application)
 #include <CDF_DirectoryIterator.hxx>
 #include <CDF_Directory.hxx>
 
-#include <Standard_ErrorHandler.hxx>
-#include <Standard_NotImplemented.hxx>
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Plugin/Plugin_Failure.hxx>
 #include <TDF_Label.hxx>
 #include <CDF_Store.hxx>

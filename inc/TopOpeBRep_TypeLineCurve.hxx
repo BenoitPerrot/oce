@@ -6,7 +6,7 @@
 #ifndef _TopOpeBRep_TypeLineCurve_HeaderFile
 #define _TopOpeBRep_TypeLineCurve_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum TopOpeBRep_TypeLineCurve

@@ -6,17 +6,17 @@
 #ifndef _SelectMgr_SelectionManager_HeaderFile
 #define _SelectMgr_SelectionManager_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_SelectMgr_SelectionManager.hxx>
 
 #include <TColStd_MapOfTransient.hxx>
 #include <SelectMgr_DataMapOfObjectSelectors.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_SelectMgr_ViewerSelector.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_SelectMgr_SelectableObject.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <SelectMgr_TypeOfUpdate.hxx>
 class SelectMgr_ViewerSelector;
 class SelectMgr_SelectableObject;

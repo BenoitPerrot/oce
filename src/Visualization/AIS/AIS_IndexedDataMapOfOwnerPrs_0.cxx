@@ -5,9 +5,9 @@
 
 #include <AIS_IndexedDataMapOfOwnerPrs.hxx>
 
-#include <Standard_DomainError.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <SelectMgr_EntityOwner.hxx>
 #include <Prs3d_Presentation.hxx>
 #include <TColStd_MapTransientHasher.hxx>

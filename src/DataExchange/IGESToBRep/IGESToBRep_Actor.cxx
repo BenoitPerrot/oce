@@ -12,11 +12,11 @@
 // commercial license or contractual agreement.
 
 #include <Interface_InterfaceModel.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <Transfer_Binder.hxx>
 #include <Transfer_TransientProcess.hxx>
 #include <IGESToBRep_Actor.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESToBRep_Actor)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Transfer_ActorOfTransientProcess),
@@ -35,8 +35,8 @@ IMPLEMENT_STANDARD_RTTI(IGESToBRep_Actor)
 
 #include <BRepLib.hxx>
 
-#include <Standard_Failure.hxx>
-#include <Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <ShapeExtend_Explorer.hxx>
 #include <ShapeFix_ShapeTolerance.hxx>
 

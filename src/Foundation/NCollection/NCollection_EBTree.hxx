@@ -17,7 +17,7 @@
 #define NCollection_EBTree_HeaderFile
 
 #include <Foundation/NCollection/NCollection_UBTree.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/NCollection/NCollection_List.hxx>
 #include <TColStd_SequenceOfInteger.hxx>

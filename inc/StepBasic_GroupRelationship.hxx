@@ -6,13 +6,13 @@
 #ifndef _StepBasic_GroupRelationship_HeaderFile
 #define _StepBasic_GroupRelationship_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepBasic_GroupRelationship.hxx>
 
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Handle_StepBasic_Group.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class TCollection_HAsciiString;
 class StepBasic_Group;

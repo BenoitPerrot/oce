@@ -6,12 +6,12 @@
 #ifndef _IGESControl_ActorWrite_HeaderFile
 #define _IGESControl_ActorWrite_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESControl_ActorWrite.hxx>
 
 #include <Transfer_ActorOfFinderProcess.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Transfer_Finder.hxx>
 #include <Handle_Transfer_Binder.hxx>
 #include <Handle_Transfer_FinderProcess.hxx>

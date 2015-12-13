@@ -5,7 +5,7 @@
 
 #include <Graphic3d_ListNodeOfListOfShortReal.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Graphic3d_ListOfShortReal.hxx>
 #include <Graphic3d_ListIteratorOfListOfShortReal.hxx>
@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_RTTI(Graphic3d_ListNodeOfListOfShortReal)
 
 
 #define Item Standard_ShortReal
-#define Item_hxx <Standard_ShortReal.hxx>
+#define Item_hxx <Foundation/Standard/Standard_ShortReal.hxx>
 #define TCollection_ListNode Graphic3d_ListNodeOfListOfShortReal
 #define TCollection_ListNode_hxx <Graphic3d_ListNodeOfListOfShortReal.hxx>
 #define TCollection_ListIterator Graphic3d_ListIteratorOfListOfShortReal

@@ -35,7 +35,7 @@
 #include <BlendFunc.hxx>
 #include <ElCLib.hxx>
 #include <Precision.hxx>
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 
 //=======================================================================
 //function : BlendFunc_ChAsym

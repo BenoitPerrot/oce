@@ -6,17 +6,17 @@
 #ifndef _Message_ProgressIndicator_HeaderFile
 #define _Message_ProgressIndicator_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Message_ProgressIndicator.hxx>
 
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Message/Message_SequenceOfProgressScale.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class TCollection_HAsciiString;
 class Message_ProgressScale;
 

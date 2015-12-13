@@ -5,12 +5,12 @@
 
 #include <PShort_FieldOfHArray1OfShortReal.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
-#include <Standard_NegativeValue.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_DimensionMismatch.hxx>
-#include <Standard_NullObject.hxx>
+#include <Foundation/Standard/Standard_NegativeValue.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_DimensionMismatch.hxx>
+#include <Foundation/Standard/Standard_NullObject.hxx>
 #include <PShort_VArrayNodeOfFieldOfHArray1OfShortReal.hxx>
 #include <PShort_VArrayTNodeOfFieldOfHArray1OfShortReal.hxx>
 
@@ -24,7 +24,7 @@ IMPLEMENT_STANDARD_TYPE_END(PShort_FieldOfHArray1OfShortReal)
  
 
 #define Item Standard_ShortReal
-#define Item_hxx <Standard_ShortReal.hxx>
+#define Item_hxx <Foundation/Standard/Standard_ShortReal.hxx>
 #define DBC_VArrayNode PShort_VArrayNodeOfFieldOfHArray1OfShortReal
 #define DBC_VArrayNode_hxx <PShort_VArrayNodeOfFieldOfHArray1OfShortReal.hxx>
 #define DBC_VArrayTNode PShort_VArrayTNodeOfFieldOfHArray1OfShortReal

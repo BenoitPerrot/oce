@@ -6,8 +6,8 @@
 #ifndef _TFunction_DataMapNodeOfDataMapOfLabelListOfLabel_HeaderFile
 #define _TFunction_DataMapNodeOfDataMapOfLabelListOfLabel_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TFunction_DataMapNodeOfDataMapOfLabelListOfLabel.hxx>
 
 #include <TDF_Label.hxx>

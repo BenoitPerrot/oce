@@ -6,8 +6,8 @@
 #ifndef _StepFEA_FeaParametricPoint_HeaderFile
 #define _StepFEA_FeaParametricPoint_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepFEA_FeaParametricPoint.hxx>
 
 #include <Handle_TColStd_HArray1OfReal.hxx>

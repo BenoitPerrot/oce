@@ -6,15 +6,15 @@
 #ifndef _TopLoc_Location_HeaderFile
 #define _TopLoc_Location_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TopLoc_SListOfItemLocation.hxx>
 #include <Handle_TopLoc_Datum3D.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 class Standard_NoSuchObject;
 class Standard_ConstructionError;
 class gp_Trsf;

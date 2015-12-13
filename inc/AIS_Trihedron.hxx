@@ -6,21 +6,21 @@
 #ifndef _AIS_Trihedron_HeaderFile
 #define _AIS_Trihedron_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_AIS_Trihedron.hxx>
 
 #include <Handle_Geom_Axis2Placement.hxx>
 #include <Handle_AIS_InteractiveObject.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <AIS_InteractiveObject.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_AIS_Axis.hxx>
 #include <Handle_AIS_Point.hxx>
 #include <Handle_AIS_Plane.hxx>
 #include <Handle_AIS_InteractiveContext.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <PrsMgr_PresentationManager3d.hxx>
 #include <Handle_Prs3d_Presentation.hxx>
 #include <Handle_Prs3d_Projector.hxx>

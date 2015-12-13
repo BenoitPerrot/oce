@@ -5,7 +5,7 @@
 
 #include <BRepCheck_ListNodeOfListOfStatus.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <BRepCheck_ListOfStatus.hxx>
 #include <BRepCheck_ListIteratorOfListOfStatus.hxx>

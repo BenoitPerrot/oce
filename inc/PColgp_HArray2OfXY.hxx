@@ -6,16 +6,16 @@
 #ifndef _PColgp_HArray2OfXY_HeaderFile
 #define _PColgp_HArray2OfXY_HeaderFile
 
-#include <Standard_Macro.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Handle_PColgp_HArray2OfXY.hxx>
 
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <gp_XY.hxx>
 #include <PColgp_FieldOfHArray2OfXY.hxx>
-#include <Standard_Address.hxx>
-#include <Standard_Persistent.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Persistent.hxx>
 #include <Handle_PColgp_VArrayNodeOfFieldOfHArray2OfXY.hxx>
 class Standard_RangeError;
 class Standard_OutOfRange;

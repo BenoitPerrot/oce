@@ -6,16 +6,16 @@
 #ifndef _Interface_ReaderModule_HeaderFile
 #define _Interface_ReaderModule_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Interface_ReaderModule.hxx>
 
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Interface_FileReaderData.hxx>
 #include <Handle_Interface_Check.hxx>
 #include <Handle_Standard_Transient.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_DomainError;
 class Interface_FileReaderData;
 class Interface_Check;

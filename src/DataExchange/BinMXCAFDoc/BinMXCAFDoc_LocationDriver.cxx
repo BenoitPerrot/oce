@@ -18,7 +18,7 @@
 #include <BinObjMgt_Persistent.hxx>
 #include <TopLoc_Location.hxx>
 #include <BinMXCAFDoc_LocationDriver.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BinMXCAFDoc_LocationDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(BinMDF_ADriver),

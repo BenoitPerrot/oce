@@ -14,7 +14,7 @@
 #include <TCollection_HAsciiString.hxx>
 #include <StepBasic_Approval.hxx>
 #include <StepBasic_ApprovalRelationship.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepBasic_ApprovalRelationship)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

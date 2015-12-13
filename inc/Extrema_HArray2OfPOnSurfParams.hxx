@@ -6,13 +6,13 @@
 #ifndef _Extrema_HArray2OfPOnSurfParams_HeaderFile
 #define _Extrema_HArray2OfPOnSurfParams_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Extrema_HArray2OfPOnSurfParams.hxx>
 
 #include <Extrema_Array2OfPOnSurfParams.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_OutOfRange;
 class Standard_OutOfMemory;

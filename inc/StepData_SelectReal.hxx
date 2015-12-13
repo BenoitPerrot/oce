@@ -6,13 +6,13 @@
 #ifndef _StepData_SelectReal_HeaderFile
 #define _StepData_SelectReal_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepData_SelectReal.hxx>
 
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <StepData_SelectMember.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 
 
 //! A SelectReal is a SelectMember specialised for a basic real

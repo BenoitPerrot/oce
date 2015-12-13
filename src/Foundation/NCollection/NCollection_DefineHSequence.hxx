@@ -18,7 +18,7 @@
 #ifndef NCollection_DefineHSequence_HeaderFile
 #define NCollection_DefineHSequence_HeaderFile
 
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/NCollection/NCollection_DefineSequence.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 

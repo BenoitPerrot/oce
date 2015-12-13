@@ -5,11 +5,11 @@
 
 #include <PDF_HAttributeArray1.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <PDF_Attribute.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
 #include <PDF_FieldOfHAttributeArray1.hxx>
 #include <PDF_VArrayNodeOfFieldOfHAttributeArray1.hxx>
 #include <PDF_VArrayTNodeOfFieldOfHAttributeArray1.hxx>

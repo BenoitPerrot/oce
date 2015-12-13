@@ -6,13 +6,13 @@
 #ifndef _Draw_Axis3D_HeaderFile
 #define _Draw_Axis3D_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Draw_Axis3D.hxx>
 
 #include <gp_Ax3.hxx>
 #include <Draw_Color.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Draw_Drawable3D.hxx>
 class Draw_Color;
 class gp_Pnt;

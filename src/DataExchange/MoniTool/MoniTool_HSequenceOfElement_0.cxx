@@ -5,10 +5,10 @@
 
 #include <MoniTool_HSequenceOfElement.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <MoniTool_Element.hxx>
 #include <MoniTool_SequenceOfElement.hxx>
 

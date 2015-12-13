@@ -5,7 +5,7 @@
 
 #include <STEPCAFControl_DataMapNodeOfDataMapOfShapePD.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <StepBasic_ProductDefinition.hxx>
 #include <TopoDS_Shape.hxx>

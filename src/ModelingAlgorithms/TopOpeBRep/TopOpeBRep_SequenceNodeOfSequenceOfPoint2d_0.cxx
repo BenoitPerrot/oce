@@ -5,7 +5,7 @@
 
 #include <TopOpeBRep_SequenceNodeOfSequenceOfPoint2d.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TopOpeBRep_Point2d.hxx>
 #include <TopOpeBRep_SequenceOfPoint2d.hxx>

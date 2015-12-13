@@ -6,12 +6,12 @@
 #ifndef _QANewBRepNaming_HeaderFile
 #define _QANewBRepNaming_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TNaming_Evolution.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class TDF_Label;
 class TNaming_Builder;
 class TopoDS_Shape;

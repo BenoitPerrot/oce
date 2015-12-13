@@ -6,12 +6,12 @@
 #ifndef _IGESGeom_OffsetSurface_HeaderFile
 #define _IGESGeom_OffsetSurface_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESGeom_OffsetSurface.hxx>
 
 #include <gp_XYZ.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_IGESData_IGESEntity.hxx>
 #include <IGESData_IGESEntity.hxx>
 class IGESData_IGESEntity;

@@ -6,12 +6,12 @@
 #ifndef _TColStd_DataMapNodeOfDataMapOfStringInteger_HeaderFile
 #define _TColStd_DataMapNodeOfDataMapOfStringInteger_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TColStd_DataMapNodeOfDataMapOfStringInteger.hxx>
 
 #include <TCollection_ExtendedString.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <TCollection_MapNode.hxx>
 #include <TCollection_MapNodePtr.hxx>
 class TCollection_ExtendedString;
@@ -54,7 +54,7 @@ private:
 #define TheKey TCollection_ExtendedString
 #define TheKey_hxx <TCollection_ExtendedString.hxx>
 #define TheItem Standard_Integer
-#define TheItem_hxx <Standard_Integer.hxx>
+#define TheItem_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define Hasher TCollection_ExtendedString
 #define Hasher_hxx <TCollection_ExtendedString.hxx>
 #define TCollection_DataMapNode TColStd_DataMapNodeOfDataMapOfStringInteger

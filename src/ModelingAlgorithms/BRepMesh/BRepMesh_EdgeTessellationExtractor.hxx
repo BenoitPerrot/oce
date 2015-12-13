@@ -16,8 +16,8 @@
 #ifndef _BRepMesh_EdgeTessellationExtractor_HeaderFile
 #define _BRepMesh_EdgeTessellationExtractor_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <BRepMesh_IEdgeTool.hxx>
 #include <BRepMesh_EdgeParameterProvider.hxx>
 #include <Handle_Geom2d_Curve.hxx>

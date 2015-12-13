@@ -6,18 +6,18 @@
 #ifndef _STEPConstruct_ContextTool_HeaderFile
 #define _STEPConstruct_ContextTool_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TColStd_SequenceOfInteger.hxx>
 #include <Handle_StepBasic_ApplicationProtocolDefinition.hxx>
 #include <STEPConstruct_AP203Context.hxx>
 #include <Handle_StepGeom_Axis2Placement3d.hxx>
 #include <Handle_StepData_StepModel.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TColStd_HSequenceOfTransient.hxx>
 class StepBasic_ApplicationProtocolDefinition;
 class StepGeom_Axis2Placement3d;

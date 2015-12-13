@@ -5,17 +5,17 @@
 
 #include <TColStd_DataMapIteratorOfDataMapOfIntegerTransient.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <TColStd_MapIntegerHasher.hxx>
 #include <TColStd_DataMapOfIntegerTransient.hxx>
 #include <TColStd_DataMapNodeOfDataMapOfIntegerTransient.hxx>
  
 
 #define TheKey Standard_Integer
-#define TheKey_hxx <Standard_Integer.hxx>
+#define TheKey_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheItem Handle(Standard_Transient)
-#define TheItem_hxx <Standard_Transient.hxx>
+#define TheItem_hxx <Foundation/Standard/Standard_Transient.hxx>
 #define Hasher TColStd_MapIntegerHasher
 #define Hasher_hxx <TColStd_MapIntegerHasher.hxx>
 #define TCollection_DataMapNode TColStd_DataMapNodeOfDataMapOfIntegerTransient

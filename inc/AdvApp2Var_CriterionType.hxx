@@ -6,7 +6,7 @@
 #ifndef _AdvApp2Var_CriterionType_HeaderFile
 #define _AdvApp2Var_CriterionType_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! influency of the criterion on cutting process//! cutting when criterion is not satisfied
 //! desactivation of the compute of the error max//! cutting when error max is not good or if error

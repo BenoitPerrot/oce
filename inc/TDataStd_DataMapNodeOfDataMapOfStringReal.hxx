@@ -6,12 +6,12 @@
 #ifndef _TDataStd_DataMapNodeOfDataMapOfStringReal_HeaderFile
 #define _TDataStd_DataMapNodeOfDataMapOfStringReal_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TDataStd_DataMapNodeOfDataMapOfStringReal.hxx>
 
 #include <TCollection_ExtendedString.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <TCollection_MapNode.hxx>
 #include <TCollection_MapNodePtr.hxx>
 class TCollection_ExtendedString;
@@ -54,7 +54,7 @@ private:
 #define TheKey TCollection_ExtendedString
 #define TheKey_hxx <TCollection_ExtendedString.hxx>
 #define TheItem Standard_Real
-#define TheItem_hxx <Standard_Real.hxx>
+#define TheItem_hxx <Foundation/Standard/Standard_Real.hxx>
 #define Hasher TCollection_ExtendedString
 #define Hasher_hxx <TCollection_ExtendedString.hxx>
 #define TCollection_DataMapNode TDataStd_DataMapNodeOfDataMapOfStringReal

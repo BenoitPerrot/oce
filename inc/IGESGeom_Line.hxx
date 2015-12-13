@@ -6,13 +6,13 @@
 #ifndef _IGESGeom_Line_HeaderFile
 #define _IGESGeom_Line_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESGeom_Line.hxx>
 
 #include <gp_XYZ.hxx>
 #include <IGESData_IGESEntity.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class gp_XYZ;
 class gp_Pnt;
 

@@ -22,11 +22,11 @@
 #include <VrmlData_Geometry.hxx>
 #include <VrmlData_WorldInfo.hxx>
 #include <TopoDS_Shape.hxx>
-#include <Standard_OStream.hxx>
-#include <Standard_IStream.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_IStream.hxx>
 #include <TCollection_ExtendedString.hxx>
 #include <Foundation/NCollection/NCollection_IncAllocator.hxx>
-#include <Standard_Mutex.hxx>
+#include <Foundation/Standard/Standard_Mutex.hxx>
 
 struct VrmlData_InBuffer;
 class Handle(VrmlData_WorldInfo);

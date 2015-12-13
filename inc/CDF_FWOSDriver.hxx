@@ -6,12 +6,12 @@
 #ifndef _CDF_FWOSDriver_HeaderFile
 #define _CDF_FWOSDriver_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_CDF_FWOSDriver.hxx>
 
 #include <CDF_MetaDataDriver.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_CDM_MetaData.hxx>
 #include <Handle_CDM_Document.hxx>
 class TCollection_ExtendedString;

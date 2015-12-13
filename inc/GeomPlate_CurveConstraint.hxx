@@ -6,19 +6,19 @@
 #ifndef _GeomPlate_CurveConstraint_HeaderFile
 #define _GeomPlate_CurveConstraint_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_GeomPlate_CurveConstraint.hxx>
 
 #include <Handle_Adaptor3d_HCurveOnSurface.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Adaptor3d_HCurve.hxx>
 #include <Handle_Geom2d_Curve.hxx>
 #include <Handle_Adaptor2d_HCurve2d.hxx>
 #include <Handle_Law_Function.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <GeomLProp_SLProps.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class Adaptor3d_HCurveOnSurface;
 class Adaptor3d_HCurve;

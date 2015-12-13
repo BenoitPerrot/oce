@@ -6,15 +6,15 @@
 #ifndef _Vrml_ShapeHints_HeaderFile
 #define _Vrml_ShapeHints_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Vrml_VertexOrdering.hxx>
 #include <Vrml_ShapeType.hxx>
 #include <Vrml_FaceType.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 
 
 //! defines a ShapeHints node of VRML specifying properties of geometry and its appearance.

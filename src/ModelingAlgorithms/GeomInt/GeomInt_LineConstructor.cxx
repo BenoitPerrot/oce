@@ -17,7 +17,7 @@
 #include <Adaptor3d_TopolTool.hxx>
 #include <GeomAdaptor_HSurface.hxx>
 #include <StdFail_NotDone.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <IntPatch_Line.hxx>
 #include <GeomInt_LineConstructor.hxx>
 
@@ -37,7 +37,7 @@
 #include <Adaptor2d_HCurve2d.hxx>
 
 #include <GeomAdaptor_HSurface.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <IntSurf_Quadric.hxx>
 #include <IntSurf_PntOn2S.hxx>
 #include <ElCLib.hxx>

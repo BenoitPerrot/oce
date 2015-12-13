@@ -6,14 +6,14 @@
 #ifndef _TColQuantity_HArray2OfLength_HeaderFile
 #define _TColQuantity_HArray2OfLength_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TColQuantity_HArray2OfLength.hxx>
 
 #include <TColQuantity_Array2OfLength.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Quantity/Quantity_Length.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_OutOfRange;
 class Standard_OutOfMemory;

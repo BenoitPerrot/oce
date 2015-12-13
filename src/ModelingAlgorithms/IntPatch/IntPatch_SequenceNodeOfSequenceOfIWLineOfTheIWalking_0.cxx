@@ -5,7 +5,7 @@
 
 #include <IntPatch_SequenceNodeOfSequenceOfIWLineOfTheIWalking.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <IntPatch_TheIWLineOfTheIWalking.hxx>
 #include <IntPatch_SequenceOfIWLineOfTheIWalking.hxx>

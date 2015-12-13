@@ -6,15 +6,15 @@
 #ifndef _HLRAlgo_WiresBlock_HeaderFile
 #define _HLRAlgo_WiresBlock_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_HLRAlgo_WiresBlock.hxx>
 
 #include <TColStd_Array1OfTransient.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_HLRAlgo_EdgesBlock.hxx>
-#include <Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
 class HLRAlgo_EdgesBlock;
 
 

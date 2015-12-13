@@ -6,8 +6,8 @@
 #ifndef _MAT2d_DataMapNodeOfDataMapOfBiIntSequenceOfInteger_HeaderFile
 #define _MAT2d_DataMapNodeOfDataMapOfBiIntSequenceOfInteger_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_MAT2d_DataMapNodeOfDataMapOfBiIntSequenceOfInteger.hxx>
 
 #include <MAT2d_BiInt.hxx>

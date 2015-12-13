@@ -6,11 +6,11 @@
 #ifndef _TopTools_DataMapNodeOfDataMapOfIntegerShape_HeaderFile
 #define _TopTools_DataMapNodeOfDataMapOfIntegerShape_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TopTools_DataMapNodeOfDataMapOfIntegerShape.hxx>
 
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TCollection_MapNode.hxx>
 #include <TCollection_MapNodePtr.hxx>
@@ -53,7 +53,7 @@ private:
 };
 
 #define TheKey Standard_Integer
-#define TheKey_hxx <Standard_Integer.hxx>
+#define TheKey_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheItem TopoDS_Shape
 #define TheItem_hxx <TopoDS_Shape.hxx>
 #define Hasher TColStd_MapIntegerHasher

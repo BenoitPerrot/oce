@@ -6,14 +6,14 @@
 #ifndef _TestTopOpeDraw_HArray1OfDrawableP3D_HeaderFile
 #define _TestTopOpeDraw_HArray1OfDrawableP3D_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TestTopOpeDraw_HArray1OfDrawableP3D.hxx>
 
 #include <TestTopOpeDraw_Array1OfDrawableP3D.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_TestTopOpeDraw_DrawableP3D.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_DimensionMismatch;
 class Standard_OutOfRange;

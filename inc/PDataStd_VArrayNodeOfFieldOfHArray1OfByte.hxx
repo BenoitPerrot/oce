@@ -6,13 +6,13 @@
 #ifndef _PDataStd_VArrayNodeOfFieldOfHArray1OfByte_HeaderFile
 #define _PDataStd_VArrayNodeOfFieldOfHArray1OfByte_HeaderFile
 
-#include <Standard_Macro.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Handle_PDataStd_VArrayNodeOfFieldOfHArray1OfByte.hxx>
 
-#include <Standard_Address.hxx>
-#include <Standard_Byte.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Byte.hxx>
 #include <PStandard_ArrayNode.hxx>
 class PDataStd_FieldOfHArray1OfByte;
 class PDataStd_VArrayTNodeOfFieldOfHArray1OfByte;

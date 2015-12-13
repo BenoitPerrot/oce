@@ -6,20 +6,20 @@
 #ifndef _Storage_BaseDriver_HeaderFile
 #define _Storage_BaseDriver_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Storage_OpenMode.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <Storage_Error.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Storage_Position.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Character.hxx>
-#include <Standard_ExtCharacter.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_ShortReal.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Character.hxx>
+#include <Foundation/Standard/Standard_ExtCharacter.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_ShortReal.hxx>
 class Storage_StreamTypeMismatchError;
 class Storage_StreamFormatError;
 class Storage_StreamWriteError;

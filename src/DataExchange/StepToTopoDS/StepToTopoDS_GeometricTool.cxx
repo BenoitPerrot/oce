@@ -24,8 +24,8 @@
 #include <StepShape_EdgeLoop.hxx>
 #include <Geom_Curve.hxx>
 #include <StepToTopoDS_GeometricTool.hxx>
-#include <Standard_ErrorHandler.hxx>
-#include <Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
 
 #include <StepToTopoDS.hxx>
 //#include <StepToTopoDS_ExtPCOnS.hxx>

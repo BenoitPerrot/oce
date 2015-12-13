@@ -6,11 +6,11 @@
 #ifndef _BndLib_Add2dCurve_HeaderFile
 #define _BndLib_Add2dCurve_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Geom2d_Curve.hxx>
 class Adaptor2d_Curve2d;
 class Bnd_Box2d;

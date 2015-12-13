@@ -18,12 +18,12 @@
 #endif
 
 #include <StdFail_NotDone.hxx>
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <gp_Pln.hxx>
 #include <gp_Pnt.hxx>
 #include <IntAna_Int3Pln.hxx>
 #include <StdFail_NotDone.hxx>
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <math_Gauss.hxx>
 #include <math_Matrix.hxx>
 #include <math_Vector.hxx>

@@ -6,13 +6,13 @@
 #ifndef _BRepBlend_AppFuncRst_HeaderFile
 #define _BRepBlend_AppFuncRst_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BRepBlend_AppFuncRst.hxx>
 
 #include <BRepBlend_AppFuncRoot.hxx>
 #include <Handle_BRepBlend_Line.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <math_Vector.hxx>
 class Standard_OutOfRange;
 class BRepBlend_Line;

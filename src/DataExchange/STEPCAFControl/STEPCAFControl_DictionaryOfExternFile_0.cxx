@@ -5,11 +5,11 @@
 
 #include <STEPCAFControl_DictionaryOfExternFile.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <STEPCAFControl_DictionaryOfExternFile.hxx>
 #include <STEPCAFControl_ExternFile.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <STEPCAFControl_IteratorOfDictionaryOfExternFile.hxx>
 #include <STEPCAFControl_StackItemOfDictionaryOfExternFile.hxx>
 #include <TCollection_AsciiString.hxx>

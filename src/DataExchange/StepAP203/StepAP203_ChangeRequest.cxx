@@ -19,7 +19,7 @@
 #include <StepAP203_HArray1OfChangeRequestItem.hxx>
 #include <StepBasic_VersionedActionRequest.hxx>
 #include <StepAP203_ChangeRequest.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepAP203_ChangeRequest)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepBasic_ActionRequestAssignment),

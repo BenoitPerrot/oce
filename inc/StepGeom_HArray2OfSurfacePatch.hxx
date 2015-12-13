@@ -6,14 +6,14 @@
 #ifndef _StepGeom_HArray2OfSurfacePatch_HeaderFile
 #define _StepGeom_HArray2OfSurfacePatch_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepGeom_HArray2OfSurfacePatch.hxx>
 
 #include <StepGeom_Array2OfSurfacePatch.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_StepGeom_SurfacePatch.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_OutOfRange;
 class Standard_OutOfMemory;

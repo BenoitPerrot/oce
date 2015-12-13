@@ -6,13 +6,13 @@
 #ifndef _BRepOffset_MakeLoops_HeaderFile
 #define _BRepOffset_MakeLoops_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TopTools_DataMapOfShapeShape.hxx>
 #include <Handle_BRepAlgo_AsDes.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class TopTools_ListOfShape;
 class BRepAlgo_AsDes;
 class BRepAlgo_Image;

@@ -6,14 +6,14 @@
 #ifndef _TDF_IDList_HeaderFile
 #define _TDF_IDList_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
 #include <Handle_TDF_ListNodeOfIDList.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_NoSuchObject;
 class TDF_ListIteratorOfIDList;
 class Standard_GUID;
@@ -97,7 +97,7 @@ private:
 };
 
 #define Item Standard_GUID
-#define Item_hxx <Standard_GUID.hxx>
+#define Item_hxx <Foundation/Standard/Standard_GUID.hxx>
 #define TCollection_ListNode TDF_ListNodeOfIDList
 #define TCollection_ListNode_hxx <TDF_ListNodeOfIDList.hxx>
 #define TCollection_ListIterator TDF_ListIteratorOfIDList

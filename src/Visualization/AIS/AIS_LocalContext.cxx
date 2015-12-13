@@ -44,12 +44,12 @@
 #include <TColgp_Array1OfPnt2d.hxx>
 #include <TopoDS_Shape.hxx>
 #include <SelectMgr_EntityOwner.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <TColStd_MapOfTransient.hxx>
 #include <AIS_LocalStatus.hxx>
 #include <SelectMgr_SelectableObject.hxx>
 #include <AIS_LocalContext.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_LocalContext)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),
@@ -82,7 +82,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_LocalContext)
 #ifdef ALE70590
 #include <stdio.h>
 #else
-#include <Standard_SStream.hxx>
+#include <Foundation/Standard/Standard_SStream.hxx>
 #endif
 
 static TCollection_AsciiString AIS_Local_SelName(const Standard_Address address,

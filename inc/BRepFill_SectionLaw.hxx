@@ -6,18 +6,18 @@
 #ifndef _BRepFill_SectionLaw_HeaderFile
 #define _BRepFill_SectionLaw_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BRepFill_SectionLaw.hxx>
 
 #include <Handle_GeomFill_HArray1OfSectionLaw.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <BRepTools_WireExplorer.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_GeomFill_SectionLaw.hxx>
 #include <GeomAbs_Shape.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class GeomFill_HArray1OfSectionLaw;
 class GeomFill_SectionLaw;
 class TopoDS_Vertex;

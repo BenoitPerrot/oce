@@ -6,20 +6,20 @@
 #ifndef _BiTgte_CurveOnEdge_HeaderFile
 #define _BiTgte_CurveOnEdge_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TopoDS_Edge.hxx>
 #include <Handle_Geom_Curve.hxx>
 #include <GeomAbs_CurveType.hxx>
 #include <gp_Circ.hxx>
 #include <Adaptor3d_Curve.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <GeomAbs_Shape.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Adaptor3d_HCurve.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Geom_BezierCurve.hxx>
 #include <Handle_Geom_BSplineCurve.hxx>
 class Geom_Curve;

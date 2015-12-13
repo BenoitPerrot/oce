@@ -6,9 +6,9 @@
 #ifndef _PTopoDS_TCompound_HeaderFile
 #define _PTopoDS_TCompound_HeaderFile
 
-#include <Standard_Macro.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Handle_PTopoDS_TCompound.hxx>
 
 #include <TopAbs_ShapeEnum.hxx>

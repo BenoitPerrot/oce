@@ -5,7 +5,7 @@
 
 #include <BRepFill_ListNodeOfListOfOffsetWire.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <BRepFill_OffsetWire.hxx>
 #include <BRepFill_ListOfOffsetWire.hxx>

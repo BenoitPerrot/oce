@@ -23,7 +23,7 @@
 
 #include <TDF_Attribute.hxx>
 #include <TDF_DefaultDeltaOnModification.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDF_DefaultDeltaOnModification)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(TDF_DeltaOnModification),
@@ -36,7 +36,7 @@ IMPLEMENT_DOWNCAST(TDF_DefaultDeltaOnModification,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TDF_DefaultDeltaOnModification)
 
 #include <TDF_Label.hxx>
-#include <Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
 
 
 //=======================================================================

@@ -13,7 +13,7 @@
 // commercial license or contractual agreement.
 
 #include <gp_Trsf2d.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 
 inline gp_GTrsf2d::gp_GTrsf2d ()
 {

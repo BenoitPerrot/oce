@@ -5,9 +5,9 @@
 
 #include <QANCollection_DoubleMapOfRealInteger.hxx>
 
-#include <Standard_DomainError.hxx>
-#include <Standard_MultiplyDefined.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_MultiplyDefined.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TColStd_MapRealHasher.hxx>
 #include <TColStd_MapIntegerHasher.hxx>
 #include <QANCollection_DoubleMapNodeOfDoubleMapOfRealInteger.hxx>
@@ -15,9 +15,9 @@
  
 
 #define TheKey1 Standard_Real
-#define TheKey1_hxx <Standard_Real.hxx>
+#define TheKey1_hxx <Foundation/Standard/Standard_Real.hxx>
 #define TheKey2 Standard_Integer
-#define TheKey2_hxx <Standard_Integer.hxx>
+#define TheKey2_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define Hasher1 TColStd_MapRealHasher
 #define Hasher1_hxx <TColStd_MapRealHasher.hxx>
 #define Hasher2 TColStd_MapIntegerHasher

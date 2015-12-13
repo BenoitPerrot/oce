@@ -6,7 +6,7 @@
 #ifndef _GeomAbs_CurveForm_HeaderFile
 #define _GeomAbs_CurveForm_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 //! This enumeration is used to note specific curve form.

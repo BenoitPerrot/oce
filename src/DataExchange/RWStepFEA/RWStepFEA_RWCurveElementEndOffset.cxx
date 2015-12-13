@@ -22,7 +22,7 @@
 #include <Interface_EntityIterator.hxx>
 #include <RWStepFEA_RWCurveElementEndOffset.hxx>
 #include <TColStd_HArray1OfReal.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 
 //=======================================================================
 //function : RWStepFEA_RWCurveElementEndOffset

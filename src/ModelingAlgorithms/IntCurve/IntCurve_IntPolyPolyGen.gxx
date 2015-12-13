@@ -23,7 +23,7 @@
 #endif
 
 
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 
 #include <IntRes2d_Domain.hxx>
 #include <IntRes2d_Position.hxx>

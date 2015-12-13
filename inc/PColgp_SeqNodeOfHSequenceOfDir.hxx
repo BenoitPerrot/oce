@@ -6,9 +6,9 @@
 #ifndef _PColgp_SeqNodeOfHSequenceOfDir_HeaderFile
 #define _PColgp_SeqNodeOfHSequenceOfDir_HeaderFile
 
-#include <Standard_Macro.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Handle_PColgp_SeqNodeOfHSequenceOfDir.hxx>
 
 #include <gp_Dir.hxx>

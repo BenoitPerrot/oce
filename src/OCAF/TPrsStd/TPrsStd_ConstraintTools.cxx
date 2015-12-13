@@ -91,8 +91,8 @@
 #include <Precision.hxx>
 #include <IntAna_QuadQuadGeo.hxx>
 
-#include <Standard_ProgramError.hxx>
-#include <Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_ProgramError.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
 
 #include <TopTools_IndexedMapOfShape.hxx>
 

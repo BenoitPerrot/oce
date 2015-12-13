@@ -5,7 +5,7 @@
 
 #include <TopTools_DataMapNodeOfDataMapOfShapeListOfInteger.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TopoDS_Shape.hxx>
 #include <TColStd_ListOfInteger.hxx>

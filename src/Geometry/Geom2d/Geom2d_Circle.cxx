@@ -14,8 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_ConstructionError.hxx>
-#include <Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
 #include <gp_Circ2d.hxx>
 #include <gp_Ax2d.hxx>
 #include <gp_Ax22d.hxx>
@@ -24,7 +24,7 @@
 #include <gp_Trsf2d.hxx>
 #include <Geom2d_Geometry.hxx>
 #include <Geom2d_Circle.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Geom2d_Circle)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Geom2d_Conic),
@@ -38,8 +38,8 @@ IMPLEMENT_DOWNCAST(Geom2d_Circle,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Geom2d_Circle)
 #include <ElCLib.hxx>
 #include <gp_XY.hxx>
-#include <Standard_RangeError.hxx>
-#include <Standard_ConstructionError.hxx> 
+#include <Foundation/Standard/Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx> 
 
 
 typedef Geom2d_Circle         Circle;

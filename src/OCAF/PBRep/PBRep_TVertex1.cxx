@@ -17,7 +17,7 @@
 #include <PBRep_PointRepresentation.hxx>
 #include <gp_Pnt.hxx>
 #include <PBRep_TVertex1.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PBRep_TVertex1)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(PTopoDS_TVertex1),

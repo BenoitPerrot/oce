@@ -6,16 +6,16 @@
 #ifndef _Approx_FitAndDivide2d_HeaderFile
 #define _Approx_FitAndDivide2d_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <AppParCurves_SequenceOfMultiCurve.hxx>
 #include <TColStd_SequenceOfReal.hxx>
 #include <AppParCurves_MultiCurve.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <AppParCurves_Constraint.hxx>
 class AppCont_Function2d;
 class AppCont_FunctionTool2d;

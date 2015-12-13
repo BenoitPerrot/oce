@@ -5,8 +5,8 @@
 
 #include <NLPlate_ListIteratorOfStackOfPlate.hxx>
 
-#include <Standard_NoMoreObject.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoMoreObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <NLPlate_StackOfPlate.hxx>
 #include <Plate_Plate.hxx>
 #include <NLPlate_ListNodeOfStackOfPlate.hxx>

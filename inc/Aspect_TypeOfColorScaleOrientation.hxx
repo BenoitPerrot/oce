@@ -6,7 +6,7 @@
 #ifndef _Aspect_TypeOfColorScaleOrientation_HeaderFile
 #define _Aspect_TypeOfColorScaleOrientation_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Defines the type of color scale orientation
 enum Aspect_TypeOfColorScaleOrientation

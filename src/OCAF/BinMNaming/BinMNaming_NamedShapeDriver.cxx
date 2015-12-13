@@ -18,7 +18,7 @@
 #include <BinObjMgt_Persistent.hxx>
 #include <BinTools_LocationSet.hxx>
 #include <BinMNaming_NamedShapeDriver.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BinMNaming_NamedShapeDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(BinMDF_ADriver),
@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(BinMNaming_NamedShapeDriver)
 IMPLEMENT_DOWNCAST(BinMNaming_NamedShapeDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinMNaming_NamedShapeDriver)
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <TNaming_NamedShape.hxx>
 #include <TNaming_Evolution.hxx>
 #include <TNaming_Builder.hxx>

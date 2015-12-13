@@ -20,7 +20,7 @@
 #ifndef ApproxF2var_HeaderFile
 #define ApproxF2var_HeaderFile
 
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 #include <AdvApp2Var_Data_f2c.hxx>
 #include <AdvApp2Var_EvaluatorFunc2Var.hxx>
 //

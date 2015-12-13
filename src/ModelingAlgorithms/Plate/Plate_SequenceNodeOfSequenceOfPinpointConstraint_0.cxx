@@ -5,7 +5,7 @@
 
 #include <Plate_SequenceNodeOfSequenceOfPinpointConstraint.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Plate_PinpointConstraint.hxx>
 #include <Plate_SequenceOfPinpointConstraint.hxx>

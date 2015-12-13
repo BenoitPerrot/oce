@@ -17,8 +17,8 @@
 
 #include <TObj_Application.hxx>
 
-#include <Standard_SStream.hxx>
-#include <Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_SStream.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <TCollection_ExtendedString.hxx>
 #include <TColStd_SequenceOfExtendedString.hxx>
 #include <CDM_COutMessageDriver.hxx>

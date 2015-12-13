@@ -6,8 +6,8 @@
 #ifndef _StepFEA_CurveElementEndRelease_HeaderFile
 #define _StepFEA_CurveElementEndRelease_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepFEA_CurveElementEndRelease.hxx>
 
 #include <StepFEA_CurveElementEndCoordinateSystem.hxx>

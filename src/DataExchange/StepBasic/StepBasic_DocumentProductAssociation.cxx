@@ -19,7 +19,7 @@
 #include <StepBasic_Document.hxx>
 #include <StepBasic_ProductOrFormationOrDefinition.hxx>
 #include <StepBasic_DocumentProductAssociation.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepBasic_DocumentProductAssociation)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

@@ -5,7 +5,7 @@
 
 #include <STEPCAFControl_DataMapIteratorOfDataMapOfLabelShape.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TDF_Label.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TDF_LabelMapHasher.hxx>

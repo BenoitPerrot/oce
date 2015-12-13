@@ -6,12 +6,12 @@
 #ifndef _BRepTools_Quilt_HeaderFile
 #define _BRepTools_Quilt_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TopTools_IndexedDataMapOfShapeShape.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_NoSuchObject;
 class TopoDS_Edge;
 class TopoDS_Vertex;

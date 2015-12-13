@@ -6,8 +6,8 @@
 #ifndef _Law_ListNodeOfLaws_HeaderFile
 #define _Law_ListNodeOfLaws_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Law_ListNodeOfLaws.hxx>
 
 #include <Handle_Law_Function.hxx>

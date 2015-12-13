@@ -21,7 +21,7 @@
 
 #include <StdFail_InfiniteSolutions.hxx>
 #include <StdFail_NotDone.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Adaptor3d_Curve.hxx>
 #include <Extrema_POnCurv.hxx>
 #include <gp_Pnt.hxx>
@@ -31,7 +31,7 @@
 
 #include <StdFail_NotDone.hxx>
 #include <Extrema_ExtElC.hxx>
-#include <Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
 #include <GeomAbs_CurveType.hxx>
 #include <Geom_Curve.hxx>
 #include <Geom_TrimmedCurve.hxx>
@@ -44,12 +44,12 @@
 #include <Extrema_SequenceOfPOnCurv.hxx>
 #include <TColStd_SequenceOfReal.hxx>
 #include <TColStd_ListIteratorOfListOfTransient.hxx>
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Precision.hxx>
 #include <TColStd_Array1OfReal.hxx>
 #include <ElCLib.hxx>
 #include <Extrema_ExtPElC.hxx>
-#include <Standard_NullObject.hxx>
+#include <Foundation/Standard/Standard_NullObject.hxx>
 
 #include <Adaptor3d_Curve.hxx>
 #include <Extrema_CurveTool.hxx>

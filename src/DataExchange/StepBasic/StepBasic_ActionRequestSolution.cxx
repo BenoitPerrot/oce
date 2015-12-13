@@ -19,7 +19,7 @@
 #include <StepBasic_ActionMethod.hxx>
 #include <StepBasic_VersionedActionRequest.hxx>
 #include <StepBasic_ActionRequestSolution.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepBasic_ActionRequestSolution)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

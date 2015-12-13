@@ -6,14 +6,14 @@
 #ifndef _IGESGeom_HArray1OfCurveOnSurface_HeaderFile
 #define _IGESGeom_HArray1OfCurveOnSurface_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESGeom_HArray1OfCurveOnSurface.hxx>
 
 #include <IGESGeom_Array1OfCurveOnSurface.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_IGESGeom_CurveOnSurface.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_DimensionMismatch;
 class Standard_OutOfRange;

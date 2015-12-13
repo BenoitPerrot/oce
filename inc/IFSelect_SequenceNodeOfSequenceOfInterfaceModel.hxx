@@ -6,8 +6,8 @@
 #ifndef _IFSelect_SequenceNodeOfSequenceOfInterfaceModel_HeaderFile
 #define _IFSelect_SequenceNodeOfSequenceOfInterfaceModel_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IFSelect_SequenceNodeOfSequenceOfInterfaceModel.hxx>
 
 #include <Handle_Interface_InterfaceModel.hxx>

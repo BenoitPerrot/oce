@@ -6,13 +6,13 @@
 #ifndef _IGESData_SingleParentEntity_HeaderFile
 #define _IGESData_SingleParentEntity_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESData_SingleParentEntity.hxx>
 
 #include <IGESData_IGESEntity.hxx>
 #include <Handle_IGESData_IGESEntity.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_OutOfRange;
 class IGESData_IGESEntity;
 

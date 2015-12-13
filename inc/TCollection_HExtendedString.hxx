@@ -6,19 +6,19 @@
 #ifndef _TCollection_HExtendedString_HeaderFile
 #define _TCollection_HExtendedString_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TCollection_HExtendedString.hxx>
 
 #include <TCollection_ExtendedString.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_CString.hxx>
-#include <Standard_ExtString.hxx>
-#include <Standard_ExtCharacter.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
+#include <Foundation/Standard/Standard_ExtString.hxx>
+#include <Foundation/Standard/Standard_ExtCharacter.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 class Standard_NullObject;
 class Standard_OutOfRange;
 class Standard_NumericError;

@@ -6,9 +6,9 @@
 #ifndef _XmlDrivers_HeaderFile
 #define _XmlDrivers_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_Standard_Transient.hxx>
 #include <Handle_XmlMDF_ADriverTable.hxx>

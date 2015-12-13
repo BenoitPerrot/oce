@@ -6,7 +6,7 @@
 #ifndef _StepShape_BooleanOperator_HeaderFile
 #define _StepShape_BooleanOperator_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum StepShape_BooleanOperator

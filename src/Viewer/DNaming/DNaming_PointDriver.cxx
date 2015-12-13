@@ -15,7 +15,7 @@
 
 #include <TFunction_Logbook.hxx>
 #include <DNaming_PointDriver.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DNaming_PointDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(TFunction_Driver),
@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(DNaming_PointDriver)
 #include <TopoDS.hxx>
 #include <BRep_Tool.hxx>
 #include <gp_Pnt.hxx>
-#include <Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
 // OCAF
 #include <TNaming.hxx>
 #include <TDF_Label.hxx>

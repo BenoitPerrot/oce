@@ -5,7 +5,7 @@
 
 #include <TColStd_DataMapNodeOfDataMapOfAsciiStringInteger.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TCollection_AsciiString.hxx>
 #include <TColStd_DataMapOfAsciiStringInteger.hxx>
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(TColStd_DataMapNodeOfDataMapOfAsciiStringInteger)
 #define TheKey TCollection_AsciiString
 #define TheKey_hxx <TCollection_AsciiString.hxx>
 #define TheItem Standard_Integer
-#define TheItem_hxx <Standard_Integer.hxx>
+#define TheItem_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define Hasher TCollection_AsciiString
 #define Hasher_hxx <TCollection_AsciiString.hxx>
 #define TCollection_DataMapNode TColStd_DataMapNodeOfDataMapOfAsciiStringInteger

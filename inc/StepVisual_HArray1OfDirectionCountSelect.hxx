@@ -6,13 +6,13 @@
 #ifndef _StepVisual_HArray1OfDirectionCountSelect_HeaderFile
 #define _StepVisual_HArray1OfDirectionCountSelect_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepVisual_HArray1OfDirectionCountSelect.hxx>
 
 #include <StepVisual_Array1OfDirectionCountSelect.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_DimensionMismatch;
 class Standard_OutOfRange;

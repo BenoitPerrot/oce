@@ -6,11 +6,11 @@
 #ifndef _Transfer_ActorOfFinderProcess_HeaderFile
 #define _Transfer_ActorOfFinderProcess_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Transfer_ActorOfFinderProcess.hxx>
 
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Transfer_ActorOfProcessForFinder.hxx>
 #include <Handle_Transfer_Binder.hxx>
 #include <Handle_Transfer_Finder.hxx>

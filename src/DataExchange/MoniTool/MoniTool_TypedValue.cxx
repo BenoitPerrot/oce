@@ -11,18 +11,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 #include <TColStd_HArray1OfAsciiString.hxx>
 #include <Foundation/Dico/Dico_DictionaryOfInteger.hxx>
 #include <TCollection_HAsciiString.hxx>
-#include <Standard_Transient.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <TColStd_HSequenceOfAsciiString.hxx>
 #include <Foundation/Dico/Dico_DictionaryOfTransient.hxx>
 #include <MoniTool_TypedValue.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MoniTool_TypedValue)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

@@ -6,8 +6,8 @@
 #ifndef _Handle_Expr_LogOf10_HeaderFile
 #define _Handle_Expr_LogOf10_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Expr_UnaryExpression.hxx>
 
 class Standard_Transient;

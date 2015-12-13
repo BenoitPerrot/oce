@@ -11,15 +11,15 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <TopoDS_Shape.hxx>
 #include <gp_XYZ.hxx>
 #include <gp_XY.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <Foundation/Message/Message_Msg.hxx>
 #include <MoniTool_CaseData.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MoniTool_CaseData)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),
@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(MoniTool_CaseData)
 IMPLEMENT_DOWNCAST(MoniTool_CaseData,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MoniTool_CaseData)
-#include <Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <TopoDS_HShape.hxx>
 #include <Geom_CartesianPoint.hxx>

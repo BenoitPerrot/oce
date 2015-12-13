@@ -5,7 +5,7 @@
 
 #include <TopOpeBRepDS_ListOfInterference.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopOpeBRepDS_ListIteratorOfListOfInterference.hxx>
 #include <TopOpeBRepDS_Interference.hxx>
 #include <TopOpeBRepDS_ListNodeOfListOfInterference.hxx>

@@ -6,16 +6,16 @@
 #ifndef _Storage_TypeData_HeaderFile
 #define _Storage_TypeData_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Storage_TypeData.hxx>
 
 #include <Storage_PType.hxx>
 #include <Storage_Error.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_TColStd_HSequenceOfAsciiString.hxx>
 class Standard_NoSuchObject;
 class Storage_Schema;

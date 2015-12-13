@@ -16,12 +16,12 @@
 
 #include <Adaptor2d_HCurve2d.hxx>
 #include <IntSurf_LineOn2S.hxx>
-#include <Standard_DomainError.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <IntPatch_Point.hxx>
 #include <IntSurf_PntOn2S.hxx>
 #include <IntPatch_RLine.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IntPatch_RLine)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(IntPatch_Line),

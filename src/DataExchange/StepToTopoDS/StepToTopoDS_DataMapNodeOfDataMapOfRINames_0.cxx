@@ -5,7 +5,7 @@
 
 #include <StepToTopoDS_DataMapNodeOfDataMapOfRINames.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TCollection_AsciiString.hxx>
 #include <TopoDS_Shape.hxx>

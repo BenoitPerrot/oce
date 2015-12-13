@@ -14,7 +14,7 @@
 #include <StepShape_Vertex.hxx>
 #include <TCollection_HAsciiString.hxx>
 #include <StepShape_VertexLoop.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepShape_VertexLoop)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepShape_Loop),

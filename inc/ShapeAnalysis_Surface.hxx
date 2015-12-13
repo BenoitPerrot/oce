@@ -6,17 +6,17 @@
 #ifndef _ShapeAnalysis_Surface_HeaderFile
 #define _ShapeAnalysis_Surface_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ShapeAnalysis_Surface.hxx>
 
 #include <Handle_Geom_Surface.hxx>
 #include <Handle_GeomAdaptor_HSurface.hxx>
 #include <Extrema_ExtPS.hxx>
 #include <GeomAdaptor_Surface.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Pnt2d.hxx>
 #include <Handle_Geom_Curve.hxx>

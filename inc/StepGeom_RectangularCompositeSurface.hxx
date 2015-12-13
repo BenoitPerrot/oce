@@ -6,15 +6,15 @@
 #ifndef _StepGeom_RectangularCompositeSurface_HeaderFile
 #define _StepGeom_RectangularCompositeSurface_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepGeom_RectangularCompositeSurface.hxx>
 
 #include <Handle_StepGeom_HArray2OfSurfacePatch.hxx>
 #include <StepGeom_BoundedSurface.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Handle_StepGeom_SurfacePatch.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class StepGeom_HArray2OfSurfacePatch;
 class TCollection_HAsciiString;
 class StepGeom_SurfacePatch;

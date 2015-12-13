@@ -6,9 +6,9 @@
 #ifndef _BRepToIGES_BRSolid_HeaderFile
 #define _BRepToIGES_BRSolid_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <BRepToIGES_BREntity.hxx>
 #include <Handle_IGESData_IGESEntity.hxx>

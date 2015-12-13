@@ -14,8 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_NumericError.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NumericError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Expr_NotEvaluable.hxx>
 #include <Expr_GeneralExpression.hxx>
 #include <Expr_NamedUnknown.hxx>
@@ -23,7 +23,7 @@
 #include <TColStd_Array1OfReal.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <Expr_UnaryMinus.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Expr_UnaryMinus)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Expr_UnaryExpression),
@@ -37,7 +37,7 @@ IMPLEMENT_STANDARD_RTTI(Expr_UnaryMinus)
 #include <Expr_NumericValue.hxx>
 #include <Expr_Operators.hxx>
 #include <Expr.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 
 Expr_UnaryMinus::Expr_UnaryMinus(const Handle(Expr_GeneralExpression)& exp)
 {

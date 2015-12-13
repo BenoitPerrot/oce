@@ -6,8 +6,8 @@
 #ifndef _Geom_BoundedCurve_HeaderFile
 #define _Geom_BoundedCurve_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Geom_BoundedCurve.hxx>
 
 #include <Geom_Curve.hxx>

@@ -6,8 +6,8 @@
 #ifndef _StepShape_FacetedBrep_HeaderFile
 #define _StepShape_FacetedBrep_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepShape_FacetedBrep.hxx>
 
 #include <StepShape_ManifoldSolidBrep.hxx>

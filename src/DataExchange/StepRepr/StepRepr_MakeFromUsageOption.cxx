@@ -19,7 +19,7 @@
 #include <StepBasic_MeasureWithUnit.hxx>
 #include <StepBasic_ProductDefinition.hxx>
 #include <StepRepr_MakeFromUsageOption.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepRepr_MakeFromUsageOption)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepRepr_ProductDefinitionUsage),

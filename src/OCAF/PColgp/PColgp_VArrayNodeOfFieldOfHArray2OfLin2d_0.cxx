@@ -5,7 +5,7 @@
 
 #include <PColgp_VArrayNodeOfFieldOfHArray2OfLin2d.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <gp_Lin2d.hxx>
 #include <PColgp_FieldOfHArray2OfLin2d.hxx>

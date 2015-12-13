@@ -6,8 +6,8 @@
 #ifndef _HatchGen_SequenceNodeOfDomains_HeaderFile
 #define _HatchGen_SequenceNodeOfDomains_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_HatchGen_SequenceNodeOfDomains.hxx>
 
 #include <HatchGen_Domain.hxx>

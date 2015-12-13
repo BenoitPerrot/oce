@@ -5,7 +5,7 @@
 
 #include <AdvApp2Var_SequenceNodeOfStrip.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <AdvApp2Var_Iso.hxx>
 #include <AdvApp2Var_Strip.hxx>

@@ -6,13 +6,13 @@
 #ifndef _Geom2dAPI_Interpolate_HeaderFile
 #define _Geom2dAPI_Interpolate_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_TColgp_HArray1OfPnt2d.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Geom2d_BSplineCurve.hxx>
 #include <Handle_TColgp_HArray1OfVec2d.hxx>
 #include <Handle_TColStd_HArray1OfBoolean.hxx>

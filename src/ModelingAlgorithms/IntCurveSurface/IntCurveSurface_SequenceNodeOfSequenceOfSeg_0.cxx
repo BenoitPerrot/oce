@@ -5,7 +5,7 @@
 
 #include <IntCurveSurface_SequenceNodeOfSequenceOfSeg.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <IntCurveSurface_IntersectionSegment.hxx>
 #include <IntCurveSurface_SequenceOfSeg.hxx>

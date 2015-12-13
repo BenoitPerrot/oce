@@ -11,9 +11,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_OutOfRange.hxx>
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <gp_Pnt2d.hxx>
 #include <gp_Dir2d.hxx>
 #include <gp_Lin2d.hxx>
@@ -30,8 +30,8 @@
 
 #include <Precision.hxx>
 #include <ElCLib.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Adaptor2d_HLine2d.hxx>
 
 //=======================================================================

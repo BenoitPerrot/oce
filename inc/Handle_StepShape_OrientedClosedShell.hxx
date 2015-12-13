@@ -6,8 +6,8 @@
 #ifndef _Handle_StepShape_OrientedClosedShell_HeaderFile
 #define _Handle_StepShape_OrientedClosedShell_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepShape_ClosedShell.hxx>
 
 class Standard_Transient;

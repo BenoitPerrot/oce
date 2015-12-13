@@ -6,8 +6,8 @@
 #ifndef _IntSurf_ListNodeOfListOfPntOn2S_HeaderFile
 #define _IntSurf_ListNodeOfListOfPntOn2S_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IntSurf_ListNodeOfListOfPntOn2S.hxx>
 
 #include <IntSurf_PntOn2S.hxx>

@@ -17,8 +17,8 @@
 #include <Foundation/OSD/OSD_Protection.hxx>
 
 #include <Graphic3d_Buffer.hxx>
-#include <Standard_Assert.hxx>
-#include <Standard_Atomic.hxx>
+#include <Foundation/Standard/Standard_Assert.hxx>
+#include <Foundation/Standard/Standard_Atomic.hxx>
 #include <TCollection_ExtendedString.hxx>
 
 #include <OpenGl_Context.hxx>

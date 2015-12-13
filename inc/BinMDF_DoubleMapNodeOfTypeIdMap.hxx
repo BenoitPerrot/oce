@@ -6,12 +6,12 @@
 #ifndef _BinMDF_DoubleMapNodeOfTypeIdMap_HeaderFile
 #define _BinMDF_DoubleMapNodeOfTypeIdMap_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BinMDF_DoubleMapNodeOfTypeIdMap.hxx>
 
 #include <Handle_Standard_Type.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <TCollection_MapNodePtr.hxx>
 #include <TCollection_MapNode.hxx>
 class Standard_Type;
@@ -57,9 +57,9 @@ private:
 };
 
 #define TheKey1 Handle(Standard_Type)
-#define TheKey1_hxx <Standard_Type.hxx>
+#define TheKey1_hxx <Foundation/Standard/Standard_Type.hxx>
 #define TheKey2 Standard_Integer
-#define TheKey2_hxx <Standard_Integer.hxx>
+#define TheKey2_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define Hasher1 TColStd_MapTransientHasher
 #define Hasher1_hxx <TColStd_MapTransientHasher.hxx>
 #define Hasher2 TColStd_MapIntegerHasher

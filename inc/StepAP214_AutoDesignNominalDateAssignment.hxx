@@ -6,15 +6,15 @@
 #ifndef _StepAP214_AutoDesignNominalDateAssignment_HeaderFile
 #define _StepAP214_AutoDesignNominalDateAssignment_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepAP214_AutoDesignNominalDateAssignment.hxx>
 
 #include <Handle_StepAP214_HArray1OfAutoDesignDatedItem.hxx>
 #include <StepBasic_DateAssignment.hxx>
 #include <Handle_StepBasic_Date.hxx>
 #include <Handle_StepBasic_DateRole.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class StepAP214_HArray1OfAutoDesignDatedItem;
 class StepBasic_Date;
 class StepBasic_DateRole;

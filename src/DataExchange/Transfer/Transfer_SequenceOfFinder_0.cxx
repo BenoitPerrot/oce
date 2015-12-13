@@ -5,8 +5,8 @@
 
 #include <Transfer_SequenceOfFinder.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Transfer_Finder.hxx>
 #include <Transfer_SequenceNodeOfSequenceOfFinder.hxx>
  

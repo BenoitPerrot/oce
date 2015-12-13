@@ -6,16 +6,16 @@
 #ifndef _ShapeUpgrade_FaceDivide_HeaderFile
 #define _ShapeUpgrade_FaceDivide_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ShapeUpgrade_FaceDivide.hxx>
 
 #include <Handle_ShapeUpgrade_SplitSurface.hxx>
 #include <Handle_ShapeUpgrade_WireDivide.hxx>
 #include <TopoDS_Face.hxx>
 #include <TopoDS_Shape.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <ShapeUpgrade_Tool.hxx>
 #include <ShapeExtend_Status.hxx>
 class ShapeUpgrade_SplitSurface;

@@ -18,11 +18,11 @@
 
 #include <Interface_HArray1OfHAsciiString.hxx>
 #include <TColStd_HArray1OfReal.hxx>
-#include <Standard_DimensionMismatch.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_DimensionMismatch.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <TCollection_HAsciiString.hxx>
 #include <IGESDefs_UnitsData.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESDefs_UnitsData)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(IGESData_IGESEntity),

@@ -6,8 +6,8 @@
 #ifndef _ChFiDS_HElSpine_HeaderFile
 #define _ChFiDS_HElSpine_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ChFiDS_HElSpine.hxx>
 
 #include <ChFiDS_ElSpine.hxx>

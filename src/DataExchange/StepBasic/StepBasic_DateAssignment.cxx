@@ -14,7 +14,7 @@
 #include <StepBasic_Date.hxx>
 #include <StepBasic_DateRole.hxx>
 #include <StepBasic_DateAssignment.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepBasic_DateAssignment)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

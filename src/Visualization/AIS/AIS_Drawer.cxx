@@ -24,7 +24,7 @@
 #include <Prs3d_DimensionAspect.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <AIS_Drawer.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_Drawer)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Prs3d_Drawer),
@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(AIS_Drawer)
 IMPLEMENT_DOWNCAST(AIS_Drawer,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(AIS_Drawer)
-#include <Standard_ProgramError.hxx>
+#include <Foundation/Standard/Standard_ProgramError.hxx>
 
 // =======================================================================
 // function : AIS_Drawer

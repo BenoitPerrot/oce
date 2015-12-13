@@ -15,8 +15,8 @@
 // commercial license or contractual agreement.
 
 #include <Geom2d_Curve.hxx>
-#include <Standard_DomainError.hxx>
-#include <Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
 #include <gp_Pnt2d.hxx>
 #include <Geom2d_Geometry.hxx>
 #include <gp_Trsf2d.hxx>
@@ -24,7 +24,7 @@
 #include <Bisector_PolyBis.hxx>
 #include <TColStd_SequenceOfReal.hxx>
 #include <Bisector_BisecCC.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Bisector_BisecCC)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Bisector_Curve),
@@ -61,9 +61,9 @@ IMPLEMENT_STANDARD_RTTI(Bisector_BisecCC)
 #include <math_FunctionRoots.hxx>
 #include <math_BissecNewton.hxx>
 
-#include <Standard_OutOfRange.hxx>
-#include <Standard_DivideByZero.hxx>
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_DivideByZero.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 
 
 static Standard_Boolean ProjOnCurve (const gp_Pnt2d& P,

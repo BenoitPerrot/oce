@@ -6,13 +6,13 @@
 #ifndef _TColStd_Array2OfBoolean_HeaderFile
 #define _TColStd_Array2OfBoolean_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
 class Standard_RangeError;
 class Standard_OutOfRange;
 class Standard_OutOfMemory;
@@ -99,7 +99,7 @@ private:
 };
 
 #define Array2Item Standard_Boolean
-#define Array2Item_hxx <Standard_Boolean.hxx>
+#define Array2Item_hxx <Foundation/Standard/Standard_Boolean.hxx>
 #define TCollection_Array2 TColStd_Array2OfBoolean
 #define TCollection_Array2_hxx <TColStd_Array2OfBoolean.hxx>
 

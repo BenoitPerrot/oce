@@ -18,17 +18,17 @@
 #define No_Exception
 #endif
 #include <HLRBRep_AreaLimit.hxx>
-#include <Standard_NoMoreObject.hxx>
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_NoMoreObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <HLRBRep_VertexList.hxx>
 #include <HLRAlgo_Intersection.hxx>
 #include <HLRBRep_EdgeBuilder.hxx>
 
 #include <TopAbs.hxx>
-#include <Standard_DomainError.hxx>
-#include <Standard_NoMoreObject.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_NoMoreObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 
 //=======================================================================
 //function : HLRBRep_EdgeBuilder

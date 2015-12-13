@@ -17,7 +17,7 @@
 #ifndef _CPnts_RealFunction_HeaderFile
 #define _CPnts_RealFunction_HeaderFile
 
-#include <Standard_TypeDef.hxx>
+#include <Foundation/Standard/Standard_TypeDef.hxx>
 
 //! A pointer on a function for MyGaussFunction
 

@@ -5,7 +5,7 @@
 
 #include <HLRBRep_ThePolyhedronToolOfInterCSurf.hxx>
 
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <HLRBRep_ThePolyhedronOfInterCSurf.hxx>
 #include <Bnd_Box.hxx>
 #include <Bnd_HArray1OfBox.hxx>

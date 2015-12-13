@@ -6,8 +6,8 @@
 #ifndef _StepDimTol_TotalRunoutTolerance_HeaderFile
 #define _StepDimTol_TotalRunoutTolerance_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepDimTol_TotalRunoutTolerance.hxx>
 
 #include <StepDimTol_GeometricToleranceWithDatumReference.hxx>

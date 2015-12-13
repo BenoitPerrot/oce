@@ -26,9 +26,9 @@
 #include <Prs3d_DimensionAspect.hxx>
 #include <Prs3d_Projector.hxx>
 #include <Prs3d_Presentation.hxx>
-#include <Standard.hxx>
-#include <Standard_Macro.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Face.hxx>

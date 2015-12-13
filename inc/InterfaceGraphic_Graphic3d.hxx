@@ -17,7 +17,7 @@
 
 #include <InterfaceGraphic_telem.hxx>
 #include <Graphic3d_BndBox4f.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 
 /* COULEUR */
 

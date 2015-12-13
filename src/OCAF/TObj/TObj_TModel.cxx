@@ -17,7 +17,7 @@
 
 #include <TObj_TModel.hxx>
 
-#include <Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
 #include <TDF_RelocationTable.hxx>
 
 IMPLEMENT_STANDARD_HANDLE(TObj_TModel,TDF_Attribute)

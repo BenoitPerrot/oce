@@ -13,15 +13,15 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_DomainError.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_NullObject.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NullObject.hxx>
 #include <TDF_ChildIterator.hxx>
 #include <TDF_Attribute.hxx>
 #include <TDF_AttributeIterator.hxx>
 #include <TDF_Data.hxx>
 #include <TDF_LabelMapHasher.hxx>
-#include <Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
 #include <TDF_IDFilter.hxx>
 #include <TDF_AttributeIndexedMap.hxx>
 #include <TDF_Label.hxx>
@@ -34,7 +34,7 @@
 #include <TDF_LabelNodePtr.hxx>
 #include <TDF_Tool.hxx>
 #include <TCollection_AsciiString.hxx>
-#include <Standard_ImmutableObject.hxx>
+#include <Foundation/Standard/Standard_ImmutableObject.hxx>
 
 
 // Attribute methods ++++++++++++++++++++++++++++++++++++++++++++++++++++

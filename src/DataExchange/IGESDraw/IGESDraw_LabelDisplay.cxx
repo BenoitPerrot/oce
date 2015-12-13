@@ -21,14 +21,14 @@
 #include <IGESDimen_HArray1OfLeaderArrow.hxx>
 #include <TColStd_HArray1OfInteger.hxx>
 #include <IGESData_HArray1OfIGESEntity.hxx>
-#include <Standard_DimensionMismatch.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_DimensionMismatch.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <IGESData_ViewKindEntity.hxx>
 #include <gp_Pnt.hxx>
 #include <IGESDimen_LeaderArrow.hxx>
 #include <IGESData_IGESEntity.hxx>
 #include <IGESDraw_LabelDisplay.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESDraw_LabelDisplay)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(IGESData_LabelDisplayEntity),

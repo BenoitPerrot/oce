@@ -6,15 +6,15 @@
 #ifndef _TopOpeBRepDS_FaceEdgeInterference_HeaderFile
 #define _TopOpeBRepDS_FaceEdgeInterference_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TopOpeBRepDS_FaceEdgeInterference.hxx>
 
 #include <TopOpeBRepDS_ShapeShapeInterference.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <TopOpeBRepDS_Config.hxx>
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 class TopOpeBRepDS_Transition;
 
 

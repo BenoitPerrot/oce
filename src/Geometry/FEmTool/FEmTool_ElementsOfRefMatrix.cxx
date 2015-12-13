@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <PLib_Base.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <FEmTool_ElementsOfRefMatrix.hxx>
 #include <PLib_Base.hxx>
 #include <TColStd_Array1OfReal.hxx>

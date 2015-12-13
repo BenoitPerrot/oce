@@ -5,12 +5,12 @@
 
 #include <MDF_SRelocationTable.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TDF_Attribute.hxx>
 #include <PDF_Attribute.hxx>
-#include <Standard_Transient.hxx>
-#include <Standard_Persistent.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Persistent.hxx>
 #include <PTColStd_TransientPersistentMap.hxx>
 
  
@@ -34,9 +34,9 @@ IMPLEMENT_STANDARD_RTTI(MDF_SRelocationTable)
 #define TheTargetType Handle(PDF_Attribute)
 #define TheTargetType_hxx <PDF_Attribute.hxx>
 #define TheOtherSourceType Handle(Standard_Transient)
-#define TheOtherSourceType_hxx <Standard_Transient.hxx>
+#define TheOtherSourceType_hxx <Foundation/Standard/Standard_Transient.hxx>
 #define TheOtherTargetType Handle(Standard_Persistent)
-#define TheOtherTargetType_hxx <Standard_Persistent.hxx>
+#define TheOtherTargetType_hxx <Foundation/Standard/Standard_Persistent.hxx>
 #define TheMapType PTColStd_TransientPersistentMap
 #define TheMapType_hxx <PTColStd_TransientPersistentMap.hxx>
 #define MDF_RelocationTable MDF_SRelocationTable

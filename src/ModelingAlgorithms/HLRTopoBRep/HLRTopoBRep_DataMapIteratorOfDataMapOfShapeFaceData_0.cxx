@@ -5,7 +5,7 @@
 
 #include <HLRTopoBRep_DataMapIteratorOfDataMapOfShapeFaceData.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopoDS_Shape.hxx>
 #include <HLRTopoBRep_FaceData.hxx>
 #include <TopTools_ShapeMapHasher.hxx>

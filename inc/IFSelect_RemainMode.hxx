@@ -6,7 +6,7 @@
 #ifndef _IFSelect_RemainMode_HeaderFile
 #define _IFSelect_RemainMode_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum IFSelect_RemainMode

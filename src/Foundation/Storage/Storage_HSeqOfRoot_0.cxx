@@ -5,10 +5,10 @@
 
 #include <Storage_HSeqOfRoot.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Storage_Root.hxx>
 #include <Storage_SeqOfRoot.hxx>
 

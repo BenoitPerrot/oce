@@ -6,7 +6,7 @@
 #ifndef _Aspect_TypeOfDisplayText_HeaderFile
 #define _Aspect_TypeOfDisplayText_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Define the display type of the text.
 //!

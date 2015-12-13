@@ -5,10 +5,10 @@
 
 #include <PColgp_HArray1OfXY.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
-#include <Standard_OutOfRange.hxx>
-#include <Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
 #include <gp_XY.hxx>
 #include <PColgp_FieldOfHArray1OfXY.hxx>
 #include <PColgp_VArrayNodeOfFieldOfHArray1OfXY.hxx>

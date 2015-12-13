@@ -14,10 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 
 #include <AIS_InteractiveObject.hxx>
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <gp_Trsf.hxx>
 #include <Prs3d_Presentation.hxx>
 #include <Prs3d_Projector.hxx>
@@ -25,7 +25,7 @@
 #include <SelectMgr_Selection.hxx>
 #include <TopoDS_Shape.hxx>
 #include <AIS_ConnectedInteractive.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_ConnectedInteractive)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(AIS_InteractiveObject),
@@ -55,7 +55,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_ConnectedInteractive)
 #include <Precision.hxx>
 #include <AIS_Drawer.hxx>
 #include <TopAbs_ShapeEnum.hxx>
-#include <Standard_ProgramError.hxx>
+#include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <StdPrs_WFDeflectionShape.hxx>
 #include <StdPrs_HLRPolyShape.hxx>
 #include <Prs3d_Drawer.hxx>

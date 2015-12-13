@@ -6,11 +6,11 @@
 #ifndef _V3d_Viewer_HeaderFile
 #define _V3d_Viewer_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_V3d_Viewer.hxx>
 
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Graphic3d_GraphicDriver.hxx>
 #include <TCollection_ExtendedString.hxx>
 #include <TCollection_AsciiString.hxx>
@@ -18,7 +18,7 @@
 #include <V3d_ListOfTransient.hxx>
 #include <Aspect_Background.hxx>
 #include <Aspect_GradientBackground.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <V3d_TypeOfOrientation.hxx>
 #include <V3d_TypeOfVisualization.hxx>
 #include <V3d_TypeOfShadingModel.hxx>
@@ -27,7 +27,7 @@
 #include <V3d_TypeOfView.hxx>
 #include <Handle_V3d_Light.hxx>
 #include <TColStd_ListIteratorOfListOfTransient.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <gp_Ax3.hxx>
 #include <Handle_Graphic3d_Structure.hxx>
 #include <Foundation/Quantity/Quantity_Length.hxx>
@@ -38,8 +38,8 @@
 #include <Handle_Graphic3d_AspectMarker3d.hxx>
 #include <Graphic3d_Vertex.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_ExtString.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_ExtString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <V3d_TypeOfUpdate.hxx>
 #include <Handle_V3d_View.hxx>

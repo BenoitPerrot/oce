@@ -5,7 +5,7 @@
 
 #include <Visual3d_SequenceNodeOfSequenceOfLight.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Visual3d_Light.hxx>
 #include <Visual3d_SequenceOfLight.hxx>

@@ -6,18 +6,18 @@
 #ifndef _Extrema_PCFOfEPCOfELPCOfLocateExtPC2d_HeaderFile
 #define _Extrema_PCFOfEPCOfELPCOfLocateExtPC2d_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <gp_Pnt2d.hxx>
-#include <Standard_Address.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <TColStd_SequenceOfReal.hxx>
 #include <TColStd_SequenceOfInteger.hxx>
 #include <Extrema_SeqPCOfPCFOfEPCOfELPCOfLocateExtPC2d.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <math_FunctionWithDerivative.hxx>
 #include <Handle_Extrema_SequenceNodeOfSeqPCOfPCFOfEPCOfELPCOfLocateExtPC2d.hxx>
 class Standard_OutOfRange;

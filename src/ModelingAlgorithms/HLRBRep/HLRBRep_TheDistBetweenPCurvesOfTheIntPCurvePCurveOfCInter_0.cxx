@@ -10,7 +10,7 @@
  
 
 #define TheCurve Standard_Address
-#define TheCurve_hxx <Standard_Address.hxx>
+#define TheCurve_hxx <Foundation/Standard/Standard_Address.hxx>
 #define TheCurveTool HLRBRep_CurveTool
 #define TheCurveTool_hxx <HLRBRep_CurveTool.hxx>
 #define IntCurve_DistBetweenPCurvesGen HLRBRep_TheDistBetweenPCurvesOfTheIntPCurvePCurveOfCInter

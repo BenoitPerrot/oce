@@ -6,14 +6,14 @@
 #ifndef _BRep_PolygonOnTriangulation_HeaderFile
 #define _BRep_PolygonOnTriangulation_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BRep_PolygonOnTriangulation.hxx>
 
 #include <Handle_Poly_PolygonOnTriangulation.hxx>
 #include <Handle_Poly_Triangulation.hxx>
 #include <BRep_CurveRepresentation.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_BRep_CurveRepresentation.hxx>
 class Poly_PolygonOnTriangulation;
 class Poly_Triangulation;

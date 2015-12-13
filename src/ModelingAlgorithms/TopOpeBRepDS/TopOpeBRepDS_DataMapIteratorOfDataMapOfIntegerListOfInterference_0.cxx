@@ -5,7 +5,7 @@
 
 #include <TopOpeBRepDS_DataMapIteratorOfDataMapOfIntegerListOfInterference.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopOpeBRepDS_ListOfInterference.hxx>
 #include <TColStd_MapIntegerHasher.hxx>
 #include <TopOpeBRepDS_DataMapOfIntegerListOfInterference.hxx>
@@ -13,7 +13,7 @@
  
 
 #define TheKey Standard_Integer
-#define TheKey_hxx <Standard_Integer.hxx>
+#define TheKey_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheItem TopOpeBRepDS_ListOfInterference
 #define TheItem_hxx <TopOpeBRepDS_ListOfInterference.hxx>
 #define Hasher TColStd_MapIntegerHasher

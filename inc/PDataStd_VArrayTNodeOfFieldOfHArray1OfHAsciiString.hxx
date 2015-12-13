@@ -6,13 +6,13 @@
 #ifndef _PDataStd_VArrayTNodeOfFieldOfHArray1OfHAsciiString_HeaderFile
 #define _PDataStd_VArrayTNodeOfFieldOfHArray1OfHAsciiString_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_PCollection_HAsciiString.hxx>
 #include <Handle_PDataStd_VArrayNodeOfFieldOfHArray1OfHAsciiString.hxx>
-#include <Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
 class PCollection_HAsciiString;
 class PDataStd_FieldOfHArray1OfHAsciiString;
 class PDataStd_VArrayNodeOfFieldOfHArray1OfHAsciiString;

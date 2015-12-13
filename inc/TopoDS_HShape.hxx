@@ -6,8 +6,8 @@
 #ifndef _TopoDS_HShape_HeaderFile
 #define _TopoDS_HShape_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TopoDS_HShape.hxx>
 
 #include <TopoDS_Shape.hxx>

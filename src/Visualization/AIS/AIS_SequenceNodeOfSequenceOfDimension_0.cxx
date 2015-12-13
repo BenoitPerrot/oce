@@ -5,7 +5,7 @@
 
 #include <AIS_SequenceNodeOfSequenceOfDimension.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <AIS_Relation.hxx>
 #include <AIS_SequenceOfDimension.hxx>

@@ -6,16 +6,16 @@
 #ifndef _PShort_HArray1OfShortReal_HeaderFile
 #define _PShort_HArray1OfShortReal_HeaderFile
 
-#include <Standard_Macro.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Handle_PShort_HArray1OfShortReal.hxx>
 
-#include <Standard_Integer.hxx>
-#include <Standard_ShortReal.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_ShortReal.hxx>
 #include <PShort_FieldOfHArray1OfShortReal.hxx>
-#include <Standard_Address.hxx>
-#include <Standard_Persistent.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Persistent.hxx>
 #include <Handle_PShort_VArrayNodeOfFieldOfHArray1OfShortReal.hxx>
 class Standard_OutOfRange;
 class Standard_RangeError;
@@ -82,7 +82,7 @@ private:
 };
 
 #define Item Standard_ShortReal
-#define Item_hxx <Standard_ShortReal.hxx>
+#define Item_hxx <Foundation/Standard/Standard_ShortReal.hxx>
 #define PCollection_FieldOfHArray1 PShort_FieldOfHArray1OfShortReal
 #define PCollection_FieldOfHArray1_hxx <PShort_FieldOfHArray1OfShortReal.hxx>
 #define PCollection_VArrayNodeOfFieldOfHArray1 PShort_VArrayNodeOfFieldOfHArray1OfShortReal

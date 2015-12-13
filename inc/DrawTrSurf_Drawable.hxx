@@ -6,12 +6,12 @@
 #ifndef _DrawTrSurf_Drawable_HeaderFile
 #define _DrawTrSurf_Drawable_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_DrawTrSurf_Drawable.hxx>
 
-#include <Standard_Integer.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Draw_Drawable3D.hxx>
 #include <GeomAbs_IsoType.hxx>
 class Adaptor2d_Curve2d;

@@ -5,8 +5,8 @@
 
 #include <GeomPlate_SequenceOfPointConstraint.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <GeomPlate_PointConstraint.hxx>
 #include <GeomPlate_SequenceNodeOfSequenceOfPointConstraint.hxx>
  

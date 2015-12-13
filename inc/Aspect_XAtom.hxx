@@ -6,7 +6,7 @@
 #ifndef _Aspect_XAtom_HeaderFile
 #define _Aspect_XAtom_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Defines custom identifiers(atoms) for X window custom named properties
 //!

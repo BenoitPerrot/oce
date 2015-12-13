@@ -21,9 +21,9 @@
 #include <TCollection_AsciiString.hxx>
 #include <BinLDrivers_DocumentSection.hxx>
 #include <TDF_LabelList.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 #include <BinLDrivers_DocumentStorageDriver.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BinLDrivers_DocumentStorageDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(PCDM_StorageDriver),
@@ -41,7 +41,7 @@ IMPLEMENT_STANDARD_RTTI(BinLDrivers_DocumentStorageDriver)
 #include <Foundation/FSD/FSD_BinaryFile.hxx>
 #include <Foundation/FSD/FSD_FileHeader.hxx>
 #include <PCDM_ReadWriter.hxx>
-#include <Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Storage_Schema.hxx>
 #include <TColStd_Array1OfInteger.hxx>
 #include <TColStd_ListIteratorOfListOfInteger.hxx>

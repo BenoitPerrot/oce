@@ -15,13 +15,13 @@
 // commercial license or contractual agreement.
 
 #include <Geom_Surface.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Vec.hxx>
 #include <gp_Pnt2d.hxx>
 #include <GeomLProp_SLProps.hxx>
 #include <GeomPlate_PointConstraint.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(GeomPlate_PointConstraint)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

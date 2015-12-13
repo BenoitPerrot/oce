@@ -6,8 +6,8 @@
 #ifndef _TopTools_DataMapNodeOfDataMapOfShapeListOfInteger_HeaderFile
 #define _TopTools_DataMapNodeOfDataMapOfShapeListOfInteger_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TopTools_DataMapNodeOfDataMapOfShapeListOfInteger.hxx>
 
 #include <TopoDS_Shape.hxx>

@@ -18,7 +18,7 @@
 #include <Prs3d_Presentation.hxx>
 #include <SelectMgr_Selection.hxx>
 #include <QABugs_MyText.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(QABugs_MyText)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(AIS_InteractiveObject),

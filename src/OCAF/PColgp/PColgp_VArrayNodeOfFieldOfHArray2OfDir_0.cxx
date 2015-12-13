@@ -5,7 +5,7 @@
 
 #include <PColgp_VArrayNodeOfFieldOfHArray2OfDir.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <gp_Dir.hxx>
 #include <PColgp_FieldOfHArray2OfDir.hxx>

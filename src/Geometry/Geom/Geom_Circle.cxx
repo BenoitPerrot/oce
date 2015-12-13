@@ -14,8 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_ConstructionError.hxx>
-#include <Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
 #include <gp_Circ.hxx>
 #include <gp_Ax2.hxx>
 #include <gp_Pnt.hxx>
@@ -23,7 +23,7 @@
 #include <gp_Trsf.hxx>
 #include <Geom_Geometry.hxx>
 #include <Geom_Circle.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Geom_Circle)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Geom_Conic),
@@ -37,8 +37,8 @@ IMPLEMENT_DOWNCAST(Geom_Circle,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Geom_Circle)
 #include <gp_XYZ.hxx>
 #include <ElCLib.hxx>
-#include <Standard_RangeError.hxx>
-#include <Standard_ConstructionError.hxx> 
+#include <Foundation/Standard/Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx> 
 
 typedef Geom_Circle         Circle;
 typedef Handle(Geom_Circle) Handle(Circle);

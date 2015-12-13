@@ -5,7 +5,7 @@
 
 #include <StepToTopoDS_DataMapIteratorOfDataMapOfRINames.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <TopoDS_Shape.hxx>
 #include <StepToTopoDS_DataMapOfRINames.hxx>

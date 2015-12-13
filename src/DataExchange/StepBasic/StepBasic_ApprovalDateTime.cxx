@@ -14,7 +14,7 @@
 #include <StepBasic_Approval.hxx>
 #include <StepBasic_DateTimeSelect.hxx>
 #include <StepBasic_ApprovalDateTime.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepBasic_ApprovalDateTime)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

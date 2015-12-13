@@ -6,16 +6,16 @@
 #ifndef _PColgp_HArray2OfCirc2d_HeaderFile
 #define _PColgp_HArray2OfCirc2d_HeaderFile
 
-#include <Standard_Macro.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Handle_PColgp_HArray2OfCirc2d.hxx>
 
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <gp_Circ2d.hxx>
 #include <PColgp_FieldOfHArray2OfCirc2d.hxx>
-#include <Standard_Address.hxx>
-#include <Standard_Persistent.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Persistent.hxx>
 #include <Handle_PColgp_VArrayNodeOfFieldOfHArray2OfCirc2d.hxx>
 class Standard_RangeError;
 class Standard_OutOfRange;

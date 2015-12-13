@@ -6,20 +6,20 @@
 #ifndef _IntPolyh_MaillageAffinage_HeaderFile
 #define _IntPolyh_MaillageAffinage_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_Adaptor3d_HSurface.hxx>
 #include <Bnd_Box.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <IntPolyh_ArrayOfPoints.hxx>
 #include <IntPolyh_ArrayOfEdges.hxx>
 #include <IntPolyh_ArrayOfTriangles.hxx>
 #include <IntPolyh_ArrayOfCouples.hxx>
 #include <IntPolyh_ArrayOfStartPoints.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <IntPolyh_ArrayOfSectionLines.hxx>
 #include <IntPolyh_ArrayOfTangentZones.hxx>
 class Adaptor3d_HSurface;

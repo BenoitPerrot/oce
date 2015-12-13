@@ -6,13 +6,13 @@
 #ifndef _IFSelect_CheckCounter_HeaderFile
 #define _IFSelect_CheckCounter_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IFSelect_CheckCounter.hxx>
 
 #include <Handle_MoniTool_SignText.hxx>
 #include <IFSelect_SignatureList.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Interface_InterfaceModel.hxx>
 class MoniTool_SignText;
 class Interface_CheckIterator;

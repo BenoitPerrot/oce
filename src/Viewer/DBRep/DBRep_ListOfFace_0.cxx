@@ -5,7 +5,7 @@
 
 #include <DBRep_ListOfFace.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <DBRep_ListIteratorOfListOfFace.hxx>
 #include <DBRep_Face.hxx>
 #include <DBRep_ListNodeOfListOfFace.hxx>

@@ -5,7 +5,7 @@
 
 #include <CDM_ListNodeOfListOfDocument.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <CDM_Document.hxx>
 #include <CDM_ListOfDocument.hxx>

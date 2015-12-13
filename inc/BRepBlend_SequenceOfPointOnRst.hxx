@@ -6,13 +6,13 @@
 #ifndef _BRepBlend_SequenceOfPointOnRst_HeaderFile
 #define _BRepBlend_SequenceOfPointOnRst_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TCollection_BaseSequence.hxx>
 #include <Handle_BRepBlend_SequenceNodeOfSequenceOfPointOnRst.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;
 class Standard_OutOfRange;
 class BRepBlend_PointOnRst;

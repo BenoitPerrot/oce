@@ -16,7 +16,7 @@
 #ifndef _Standard_MMgrRoot_HeaderFile
 #define _Standard_MMgrRoot_HeaderFile
 
-#include <Standard_TypeDef.hxx>
+#include <Foundation/Standard/Standard_TypeDef.hxx>
 
 /** 
 * Root class for Open CASCADE mmemory managers.

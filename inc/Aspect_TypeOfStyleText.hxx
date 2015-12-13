@@ -6,7 +6,7 @@
 #ifndef _Aspect_TypeOfStyleText_HeaderFile
 #define _Aspect_TypeOfStyleText_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Define the style of the text.
 //!

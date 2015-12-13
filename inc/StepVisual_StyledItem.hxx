@@ -6,8 +6,8 @@
 #ifndef _StepVisual_StyledItem_HeaderFile
 #define _StepVisual_StyledItem_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepVisual_StyledItem.hxx>
 
 #include <Handle_StepVisual_HArray1OfPresentationStyleAssignment.hxx>
@@ -15,7 +15,7 @@
 #include <StepRepr_RepresentationItem.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Handle_StepVisual_PresentationStyleAssignment.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class StepVisual_HArray1OfPresentationStyleAssignment;
 class StepRepr_RepresentationItem;
 class TCollection_HAsciiString;

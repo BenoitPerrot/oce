@@ -6,19 +6,19 @@
 #ifndef _ProjLib_CompProjectedCurve_HeaderFile
 #define _ProjLib_CompProjectedCurve_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_Adaptor3d_HSurface.hxx>
 #include <Handle_Adaptor3d_HCurve.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_ProjLib_HSequenceOfHSequenceOfPnt.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_TColStd_HArray1OfBoolean.hxx>
 #include <Handle_TColStd_HArray1OfReal.hxx>
 #include <Adaptor2d_Curve2d.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <Handle_Adaptor2d_HCurve2d.hxx>
 #include <GeomAbs_CurveType.hxx>

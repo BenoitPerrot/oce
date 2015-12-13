@@ -5,13 +5,13 @@
 
 #include <Graphic3d_ListOfShortReal.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Graphic3d_ListIteratorOfListOfShortReal.hxx>
 #include <Graphic3d_ListNodeOfListOfShortReal.hxx>
  
 
 #define Item Standard_ShortReal
-#define Item_hxx <Standard_ShortReal.hxx>
+#define Item_hxx <Foundation/Standard/Standard_ShortReal.hxx>
 #define TCollection_ListNode Graphic3d_ListNodeOfListOfShortReal
 #define TCollection_ListNode_hxx <Graphic3d_ListNodeOfListOfShortReal.hxx>
 #define TCollection_ListIterator Graphic3d_ListIteratorOfListOfShortReal

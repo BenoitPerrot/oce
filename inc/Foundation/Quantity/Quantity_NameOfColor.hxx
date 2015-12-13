@@ -6,7 +6,7 @@
 #ifndef _Quantity_NameOfColor_HeaderFile
 #define _Quantity_NameOfColor_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Definition of names of known colours.
 enum Quantity_NameOfColor

@@ -6,8 +6,8 @@
 #ifndef _Convert_SequenceNodeOfSequenceOfArray1OfPoles_HeaderFile
 #define _Convert_SequenceNodeOfSequenceOfArray1OfPoles_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Convert_SequenceNodeOfSequenceOfArray1OfPoles.hxx>
 
 #include <Handle_TColgp_HArray1OfPnt.hxx>

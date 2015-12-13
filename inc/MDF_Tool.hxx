@@ -6,16 +6,16 @@
 #ifndef _MDF_Tool_HeaderFile
 #define _MDF_Tool_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_TDF_Data.hxx>
 #include <Handle_PDF_Data.hxx>
 #include <Handle_MDF_SRelocationTable.hxx>
 #include <Handle_PColStd_HArray1OfInteger.hxx>
 #include <Handle_PDF_HAttributeArray1.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_MDF_RRelocationTable.hxx>
 class TDF_Data;
 class PDF_Data;

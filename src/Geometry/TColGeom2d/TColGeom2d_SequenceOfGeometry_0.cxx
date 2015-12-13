@@ -5,8 +5,8 @@
 
 #include <TColGeom2d_SequenceOfGeometry.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Geom2d_Geometry.hxx>
 #include <TColGeom2d_SequenceNodeOfSequenceOfGeometry.hxx>
  

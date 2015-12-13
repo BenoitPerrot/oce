@@ -6,12 +6,12 @@
 #ifndef _Geom_Direction_HeaderFile
 #define _Geom_Direction_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Geom_Direction.hxx>
 
 #include <Geom_Vector.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Geom_Vector.hxx>
 #include <Handle_Geom_Geometry.hxx>
 class Standard_ConstructionError;

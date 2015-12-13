@@ -17,7 +17,7 @@
 
 #include <StepElement_MeasureOrUnspecifiedValue.hxx>
 #include <StepElement_UniformSurfaceSection.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepElement_UniformSurfaceSection)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepElement_SurfaceSection),

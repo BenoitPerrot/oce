@@ -6,14 +6,14 @@
 #ifndef _GeomFill_TrihedronWithGuide_HeaderFile
 #define _GeomFill_TrihedronWithGuide_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_GeomFill_TrihedronWithGuide.hxx>
 
 #include <Handle_Adaptor3d_HCurve.hxx>
 #include <gp_Pnt.hxx>
 #include <GeomFill_TrihedronLaw.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class Adaptor3d_HCurve;
 class Standard_OutOfRange;
 class Standard_NotImplemented;

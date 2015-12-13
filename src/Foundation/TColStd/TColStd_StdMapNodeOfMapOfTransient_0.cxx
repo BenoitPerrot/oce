@@ -5,9 +5,9 @@
 
 #include <TColStd_StdMapNodeOfMapOfTransient.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <TColStd_MapTransientHasher.hxx>
 #include <TColStd_MapOfTransient.hxx>
 #include <TColStd_MapIteratorOfMapOfTransient.hxx>
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(TColStd_StdMapNodeOfMapOfTransient)
 
 
 #define TheKey Handle(Standard_Transient)
-#define TheKey_hxx <Standard_Transient.hxx>
+#define TheKey_hxx <Foundation/Standard/Standard_Transient.hxx>
 #define Hasher TColStd_MapTransientHasher
 #define Hasher_hxx <TColStd_MapTransientHasher.hxx>
 #define TCollection_StdMapNode TColStd_StdMapNodeOfMapOfTransient

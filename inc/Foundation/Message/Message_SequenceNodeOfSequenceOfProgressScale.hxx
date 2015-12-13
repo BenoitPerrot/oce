@@ -6,8 +6,8 @@
 #ifndef _Message_SequenceNodeOfSequenceOfProgressScale_HeaderFile
 #define _Message_SequenceNodeOfSequenceOfProgressScale_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Message_SequenceNodeOfSequenceOfProgressScale.hxx>
 
 #include <Foundation/Message/Message_ProgressScale.hxx>

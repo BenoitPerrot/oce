@@ -6,8 +6,8 @@
 #include <Extrema_ExtPC.hxx>
 
 #include <StdFail_NotDone.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_TypeMismatch.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_TypeMismatch.hxx>
 #include <Adaptor3d_Curve.hxx>
 #include <Extrema_CurveTool.hxx>
 #include <Extrema_ExtPElC.hxx>

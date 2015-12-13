@@ -6,9 +6,9 @@
 #ifndef _PGeom_Conic_HeaderFile
 #define _PGeom_Conic_HeaderFile
 
-#include <Standard_Macro.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Handle_PGeom_Conic.hxx>
 
 #include <gp_Ax2.hxx>

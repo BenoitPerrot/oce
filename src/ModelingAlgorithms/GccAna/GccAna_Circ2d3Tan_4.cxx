@@ -15,7 +15,7 @@
 // cas de 2 cercles concentriques JCT 28/11/97
 
 #include <ElCLib.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <StdFail_NotDone.hxx>
 #include <GccEnt_BadQualifier.hxx>
 #include <GccEnt_QualifiedCirc.hxx>

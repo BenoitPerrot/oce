@@ -5,8 +5,8 @@
 
 #include <TopOpeBRepBuild_ListIteratorOfListOfListOfLoop.hxx>
 
-#include <Standard_NoMoreObject.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoMoreObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopOpeBRepBuild_ListOfListOfLoop.hxx>
 #include <TopOpeBRepBuild_ListOfLoop.hxx>
 #include <TopOpeBRepBuild_ListNodeOfListOfListOfLoop.hxx>

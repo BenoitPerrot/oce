@@ -5,7 +5,7 @@
 
 #include <HLRTopoBRep_DataMapNodeOfDataMapOfShapeFaceData.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TopoDS_Shape.hxx>
 #include <HLRTopoBRep_FaceData.hxx>

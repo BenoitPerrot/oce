@@ -6,7 +6,7 @@
 #ifndef _OSD_WhoAmI_HeaderFile
 #define _OSD_WhoAmI_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Allows great accuracy for error management.
 //! This is private.

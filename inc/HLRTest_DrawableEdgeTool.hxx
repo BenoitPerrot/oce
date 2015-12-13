@@ -6,13 +6,13 @@
 #ifndef _HLRTest_DrawableEdgeTool_HeaderFile
 #define _HLRTest_DrawableEdgeTool_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_HLRTest_DrawableEdgeTool.hxx>
 
 #include <Handle_HLRBRep_Algo.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Draw_Drawable3D.hxx>
 #include <Handle_HLRBRep_Data.hxx>
 class HLRBRep_Algo;

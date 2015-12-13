@@ -20,7 +20,7 @@
 #include <BRepTools_Modifier.hxx>
 #include <Foundation/Message/Message_Msg.hxx>
 #include <ShapeProcess_ShapeContext.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeProcess_ShapeContext)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(ShapeProcess_Context),

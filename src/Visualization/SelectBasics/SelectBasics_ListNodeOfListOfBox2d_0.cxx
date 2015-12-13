@@ -5,7 +5,7 @@
 
 #include <SelectBasics_ListNodeOfListOfBox2d.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Bnd_Box2d.hxx>
 #include <SelectBasics_ListOfBox2d.hxx>

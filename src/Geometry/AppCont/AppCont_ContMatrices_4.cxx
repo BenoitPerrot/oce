@@ -21,7 +21,7 @@
 
 #include <AppCont_ContMatrices.hxx>
 #include <math_Matrix.hxx>
-#include <Standard_DimensionError.hxx>
+#include <Foundation/Standard/Standard_DimensionError.hxx>
 
 static const Standard_Real VBMatrix[] = {
 0.5, 0.5, 

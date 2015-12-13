@@ -10,7 +10,7 @@
  
 
 #define Item Standard_ShortReal
-#define Item_hxx <Standard_ShortReal.hxx>
+#define Item_hxx <Foundation/Standard/Standard_ShortReal.hxx>
 #define DBC_VArrayNode PShort_VArrayNodeOfFieldOfHArray2OfShortReal
 #define DBC_VArrayNode_hxx <PShort_VArrayNodeOfFieldOfHArray2OfShortReal.hxx>
 #define DBC_VArrayTNode PShort_VArrayTNodeOfFieldOfHArray2OfShortReal

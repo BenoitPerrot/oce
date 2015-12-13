@@ -6,8 +6,8 @@
 #include <BRepApprox_TheInt2SOfThePrmPrmSvSurfacesOfApprox.hxx>
 
 #include <StdFail_NotDone.hxx>
-#include <Standard_DomainError.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <StdFail_UndefinedDerivative.hxx>
 #include <BRepAdaptor_Surface.hxx>
 #include <BRepApprox_SurfaceTool.hxx>

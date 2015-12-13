@@ -19,7 +19,7 @@
 #include <TDF_Attribute.hxx>
 #include <XmlObjMgt_Persistent.hxx>
 #include <XmlMDataStd_IntegerArrayDriver.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XmlMDataStd_IntegerArrayDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(XmlMDF_ADriver),

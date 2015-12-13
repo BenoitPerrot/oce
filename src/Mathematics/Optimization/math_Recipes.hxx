@@ -15,9 +15,9 @@
 #ifndef math_Recipes_HeaderFile
 #define math_Recipes_HeaderFile
 
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 
 #ifndef __math_API
 # if defined(WNT) && !defined(HAVE_NO_DLL)

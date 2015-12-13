@@ -6,7 +6,7 @@
 #ifndef _Vrml_Texture2Wrap_HeaderFile
 #define _Vrml_Texture2Wrap_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum Vrml_Texture2Wrap

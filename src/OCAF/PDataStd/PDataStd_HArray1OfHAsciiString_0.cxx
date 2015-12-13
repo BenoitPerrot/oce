@@ -5,11 +5,11 @@
 
 #include <PDataStd_HArray1OfHAsciiString.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <PCollection_HAsciiString.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
 #include <PDataStd_FieldOfHArray1OfHAsciiString.hxx>
 #include <PDataStd_VArrayNodeOfFieldOfHArray1OfHAsciiString.hxx>
 #include <PDataStd_VArrayTNodeOfFieldOfHArray1OfHAsciiString.hxx>

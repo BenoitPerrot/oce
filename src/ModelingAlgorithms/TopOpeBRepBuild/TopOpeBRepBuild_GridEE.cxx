@@ -17,7 +17,7 @@
 #include <TopOpeBRepDS_HDataStructure.hxx>
 #include <TopTools_HArray1OfShape.hxx>
 #include <TopTools_HArray1OfListOfShape.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopOpeBRepBuild_HBuilder.hxx>
 #include <TopOpeBRepDS_BuildTool.hxx>
 #include <TopoDS_Shape.hxx>
@@ -74,7 +74,7 @@
 #include <BRepAdaptor_Curve.hxx>
 #include <TopOpeBRepTool_2d.hxx>
 #include <TopOpeBRepDS_Dumper.hxx>
-#include <Standard_ProgramError.hxx>
+#include <Foundation/Standard/Standard_ProgramError.hxx>
 
 #ifdef OCCT_DEBUG
 Standard_EXPORT Standard_Boolean TopOpeBRepBuild_GetcontextNOSG();

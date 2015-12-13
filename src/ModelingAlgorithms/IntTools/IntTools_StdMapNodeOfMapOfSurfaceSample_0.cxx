@@ -5,7 +5,7 @@
 
 #include <IntTools_StdMapNodeOfMapOfSurfaceSample.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <IntTools_SurfaceRangeSample.hxx>
 #include <IntTools_SurfaceRangeSampleMapHasher.hxx>

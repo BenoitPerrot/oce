@@ -6,12 +6,12 @@
 #ifndef _TDataXtd_PatternStd_HeaderFile
 #define _TDataXtd_PatternStd_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TDataXtd_PatternStd.hxx>
 
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_TNaming_NamedShape.hxx>
 #include <Handle_TDataStd_Real.hxx>
 #include <Handle_TDataStd_Integer.hxx>
@@ -19,7 +19,7 @@
 #include <Handle_TDF_Attribute.hxx>
 #include <Handle_TDF_RelocationTable.hxx>
 #include <Handle_TDF_DataSet.hxx>
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 class TNaming_NamedShape;
 class TDataStd_Real;
 class TDataStd_Integer;

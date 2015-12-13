@@ -23,7 +23,7 @@
 #include <gp_Lin.hxx>
 #include <SelectMgr_EntityOwner.hxx>
 #include <StdSelect_ViewerSelector3d.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StdSelect_ViewerSelector3d)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(SelectMgr_ViewerSelector),

@@ -6,11 +6,11 @@
 #ifndef _QANCollection_DataMapNodeOfDataMapOfRealPnt_HeaderFile
 #define _QANCollection_DataMapNodeOfDataMapOfRealPnt_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_QANCollection_DataMapNodeOfDataMapOfRealPnt.hxx>
 
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <gp_Pnt.hxx>
 #include <TCollection_MapNode.hxx>
 #include <TCollection_MapNodePtr.hxx>
@@ -53,7 +53,7 @@ private:
 };
 
 #define TheKey Standard_Real
-#define TheKey_hxx <Standard_Real.hxx>
+#define TheKey_hxx <Foundation/Standard/Standard_Real.hxx>
 #define TheItem gp_Pnt
 #define TheItem_hxx <gp_Pnt.hxx>
 #define Hasher TColStd_MapRealHasher

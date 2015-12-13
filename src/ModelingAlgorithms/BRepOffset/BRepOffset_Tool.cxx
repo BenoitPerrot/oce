@@ -66,7 +66,7 @@
 #include <TopExp.hxx>
 #include <TopExp_Explorer.hxx>
 #include <TopAbs.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 
 #include <TopOpeBRepBuild_Builder.hxx>
 #include <TopOpeBRepDS_HDataStructure.hxx>
@@ -125,7 +125,7 @@
 
 
 #include <Precision.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 
 #include <BRep_TEdge.hxx>
 #include <Extrema_ExtPC2d.hxx>

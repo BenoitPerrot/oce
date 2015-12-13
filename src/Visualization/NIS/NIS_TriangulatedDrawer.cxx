@@ -16,7 +16,7 @@
 #include <NIS_TriangulatedDrawer.hxx>
 #include <NIS_InteractiveObject.hxx>
 #include <NIS_Triangulated.hxx>
-#include <Standard_ProgramError.hxx>
+#include <Foundation/Standard/Standard_ProgramError.hxx>
 
 #include <OpenGl_GlCore11.hxx>
 

@@ -6,8 +6,8 @@
 #ifndef _Handle_StepSelect_StepType_HeaderFile
 #define _Handle_StepSelect_StepType_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IFSelect_Signature.hxx>
 
 class Standard_Transient;

@@ -6,12 +6,12 @@
 #ifndef _MAT2d_DataMapIteratorOfDataMapOfIntegerConnexion_HeaderFile
 #define _MAT2d_DataMapIteratorOfDataMapOfIntegerConnexion_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TCollection_BasicMapIterator.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_MAT2d_Connexion.hxx>
 #include <Handle_MAT2d_DataMapNodeOfDataMapOfIntegerConnexion.hxx>
 class Standard_NoSuchObject;

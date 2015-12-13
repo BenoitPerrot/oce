@@ -16,10 +16,10 @@
 #ifndef _Graphic3d_Vertex_HeaderFile
 #define _Graphic3d_Vertex_HeaderFile
 
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 #include <InterfaceGraphic_telem.hxx>
-#include <Standard_ShortReal.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_ShortReal.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 
 //! This class represents a graphical 3D point.
 class Graphic3d_Vertex : public TEL_POINT

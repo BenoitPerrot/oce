@@ -6,18 +6,18 @@
 #ifndef _ShapeExtend_CompositeSurface_HeaderFile
 #define _ShapeExtend_CompositeSurface_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ShapeExtend_CompositeSurface.hxx>
 
 #include <Handle_TColGeom_HArray2OfSurface.hxx>
 #include <Handle_TColStd_HArray1OfReal.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Geom_Surface.hxx>
 #include <ShapeExtend_Parametrisation.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Geom_Surface.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Geom_Geometry.hxx>
 #include <Handle_Geom_Curve.hxx>
 #include <GeomAbs_Shape.hxx>

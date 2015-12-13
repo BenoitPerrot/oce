@@ -5,8 +5,8 @@
 
 #include <SelectMgr_IndexedMapOfOwner.hxx>
 
-#include <Standard_DomainError.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <SelectMgr_EntityOwner.hxx>
 #include <TColStd_MapTransientHasher.hxx>
 #include <SelectMgr_IndexedMapNodeOfIndexedMapOfOwner.hxx>

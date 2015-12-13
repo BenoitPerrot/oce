@@ -6,8 +6,8 @@
 #ifndef _Plate_SequenceNodeOfSequenceOfLinearXYZConstraint_HeaderFile
 #define _Plate_SequenceNodeOfSequenceOfLinearXYZConstraint_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Plate_SequenceNodeOfSequenceOfLinearXYZConstraint.hxx>
 
 #include <Plate_LinearXYZConstraint.hxx>

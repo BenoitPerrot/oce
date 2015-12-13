@@ -6,14 +6,14 @@
 #ifndef _TColStd_HArray1OfTransient_HeaderFile
 #define _TColStd_HArray1OfTransient_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TColStd_HArray1OfTransient.hxx>
 
 #include <TColStd_Array1OfTransient.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Standard_Transient.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_DimensionMismatch;
 class Standard_OutOfRange;
@@ -70,7 +70,7 @@ private:
 };
 
 #define ItemHArray1 Handle(Standard_Transient)
-#define ItemHArray1_hxx <Standard_Transient.hxx>
+#define ItemHArray1_hxx <Foundation/Standard/Standard_Transient.hxx>
 #define TheArray1 TColStd_Array1OfTransient
 #define TheArray1_hxx <TColStd_Array1OfTransient.hxx>
 #define TCollection_HArray1 TColStd_HArray1OfTransient

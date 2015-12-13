@@ -6,8 +6,8 @@
 #ifndef _HLRBRep_ListNodeOfListOfBPnt2D_HeaderFile
 #define _HLRBRep_ListNodeOfListOfBPnt2D_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_HLRBRep_ListNodeOfListOfBPnt2D.hxx>
 
 #include <HLRBRep_BiPnt2D.hxx>

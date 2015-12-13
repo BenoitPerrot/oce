@@ -6,11 +6,11 @@
 #ifndef _BRepCheck_Face_HeaderFile
 #define _BRepCheck_Face_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BRepCheck_Face.hxx>
 
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <BRepCheck_Status.hxx>
 #include <TopTools_DataMapOfShapeListOfShape.hxx>
 #include <BRepCheck_Result.hxx>

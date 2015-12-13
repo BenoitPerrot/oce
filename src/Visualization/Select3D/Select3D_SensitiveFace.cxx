@@ -18,8 +18,8 @@
 //                     pour teste si on est dedans ou dehors...
 //Modif on jul-21-97 : changement en harray1 pour eventuelles connexions ...
 
-#include <Standard_ConstructionError.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <SelectBasics_EntityOwner.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <TColgp_HArray1OfPnt.hxx>
@@ -29,7 +29,7 @@
 #include <Select3D_SensitiveEntity.hxx>
 #include <TopLoc_Location.hxx>
 #include <Select3D_SensitiveFace.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Select3D_SensitiveFace)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Select3D_SensitivePoly),

@@ -6,9 +6,9 @@
 #ifndef _Handle_PBRep_TVertex_HeaderFile
 #define _Handle_PBRep_TVertex_HeaderFile
 
-#include <Standard_Macro.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Handle_PTopoDS_TVertex.hxx>
 
 class Standard_Persistent;

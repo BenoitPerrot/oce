@@ -6,8 +6,8 @@
 #ifndef _CDF_Application_HeaderFile
 #define _CDF_Application_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_CDF_Application.hxx>
 
 #include <TCollection_ExtendedString.hxx>
@@ -15,12 +15,12 @@
 #include <CDM_Application.hxx>
 #include <Handle_CDM_Document.hxx>
 #include <CDM_CanCloseStatus.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <CDF_TypeOfActivation.hxx>
 #include <Handle_PCDM_Reader.hxx>
-#include <Standard_ExtString.hxx>
+#include <Foundation/Standard/Standard_ExtString.hxx>
 #include <Handle_CDM_MetaData.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;
 class CDF_Session;
 class Standard_GUID;

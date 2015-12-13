@@ -5,7 +5,7 @@
 
 #include <XCAFPrs_DataMapIteratorOfDataMapOfStyleShape.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <XCAFPrs_Style.hxx>
 #include <TopoDS_Shape.hxx>
 #include <XCAFPrs_DataMapOfStyleShape.hxx>

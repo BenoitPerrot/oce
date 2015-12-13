@@ -16,11 +16,11 @@
 
 // pmn -> 17/01/1996 added : Continuity, (Nb)Interals, D2, Trim
 
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <TColStd_Array1OfReal.hxx>
 #include <Law_Function.hxx>
 #include <Law_Constant.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Law_Constant)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Law_Function),

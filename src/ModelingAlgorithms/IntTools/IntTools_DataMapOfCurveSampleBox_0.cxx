@@ -5,8 +5,8 @@
 
 #include <IntTools_DataMapOfCurveSampleBox.hxx>
 
-#include <Standard_DomainError.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <IntTools_CurveRangeSample.hxx>
 #include <Bnd_Box.hxx>
 #include <IntTools_CurveRangeSampleMapHasher.hxx>

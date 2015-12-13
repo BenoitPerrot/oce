@@ -5,8 +5,8 @@
 
 #include <BRepCheck_DataMapOfShapeListOfStatus.hxx>
 
-#include <Standard_DomainError.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopoDS_Shape.hxx>
 #include <BRepCheck_ListOfStatus.hxx>
 #include <TopTools_ShapeMapHasher.hxx>

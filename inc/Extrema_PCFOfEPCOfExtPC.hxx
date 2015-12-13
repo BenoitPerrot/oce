@@ -6,18 +6,18 @@
 #ifndef _Extrema_PCFOfEPCOfExtPC_HeaderFile
 #define _Extrema_PCFOfEPCOfExtPC_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <gp_Pnt.hxx>
-#include <Standard_Address.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <TColStd_SequenceOfReal.hxx>
 #include <TColStd_SequenceOfInteger.hxx>
 #include <Extrema_SeqPCOfPCFOfEPCOfExtPC.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <math_FunctionWithDerivative.hxx>
 #include <Handle_Extrema_SequenceNodeOfSeqPCOfPCFOfEPCOfExtPC.hxx>
 class Standard_OutOfRange;

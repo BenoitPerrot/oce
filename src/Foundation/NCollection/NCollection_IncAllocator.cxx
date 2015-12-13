@@ -16,8 +16,8 @@
 #include <Foundation/NCollection/NCollection_IncAllocator.hxx>
 #include <Foundation/NCollection/NCollection_DataMap.hxx>
 #include <Foundation/NCollection/NCollection_Map.hxx>
-#include <Standard_Mutex.hxx>
-#include <Standard_OutOfMemory.hxx>
+#include <Foundation/Standard/Standard_Mutex.hxx>
+#include <Foundation/Standard/Standard_OutOfMemory.hxx>
 #include <stdio.h>
 #include <fstream>
 #include <iomanip>

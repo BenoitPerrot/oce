@@ -17,7 +17,7 @@
 #ifndef _BSplCLib_EvaluatorFunction_HeaderFile
 #define _BSplCLib_EvaluatorFunction_HeaderFile
 
-#include <Standard_TypeDef.hxx>
+#include <Foundation/Standard/Standard_TypeDef.hxx>
 
 // This is a one dimensional function
 // NOTE: StartEnd[2]

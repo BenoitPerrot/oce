@@ -5,11 +5,11 @@
 
 #include <TColStd_HSequenceOfTransient.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <TColStd_SequenceOfTransient.hxx>
 
  
@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_RTTI(TColStd_HSequenceOfTransient)
 
 
 #define Item Handle(Standard_Transient)
-#define Item_hxx <Standard_Transient.hxx>
+#define Item_hxx <Foundation/Standard/Standard_Transient.hxx>
 #define TheSequence TColStd_SequenceOfTransient
 #define TheSequence_hxx <TColStd_SequenceOfTransient.hxx>
 #define TCollection_HSequence TColStd_HSequenceOfTransient

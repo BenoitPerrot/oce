@@ -6,12 +6,12 @@
 #ifndef _Geom2dHatch_DataMapIteratorOfHatchings_HeaderFile
 #define _Geom2dHatch_DataMapIteratorOfHatchings_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TCollection_BasicMapIterator.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Geom2dHatch_DataMapNodeOfHatchings.hxx>
 class Standard_NoSuchObject;
 class Geom2dHatch_Hatching;

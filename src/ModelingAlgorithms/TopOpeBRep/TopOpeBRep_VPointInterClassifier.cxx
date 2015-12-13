@@ -23,7 +23,7 @@
 #include <Precision.hxx>
 #include <TopoDS.hxx>
 #include <TopOpeBRepTool_ShapeTool.hxx>
-#include <Standard_ProgramError.hxx>
+#include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <BRepAdaptor_Surface.hxx>
 //modified by NIZHNY-MKK  Fri Jun 16 15:04:09 2000.BEGIN
 #include <Geom_Curve.hxx>

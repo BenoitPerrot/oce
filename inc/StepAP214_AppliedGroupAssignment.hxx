@@ -6,8 +6,8 @@
 #ifndef _StepAP214_AppliedGroupAssignment_HeaderFile
 #define _StepAP214_AppliedGroupAssignment_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepAP214_AppliedGroupAssignment.hxx>
 
 #include <Handle_StepAP214_HArray1OfGroupItem.hxx>

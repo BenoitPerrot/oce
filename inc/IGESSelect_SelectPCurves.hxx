@@ -6,13 +6,13 @@
 #ifndef _IGESSelect_SelectPCurves_HeaderFile
 #define _IGESSelect_SelectPCurves_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESSelect_SelectPCurves.hxx>
 
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <IFSelect_SelectExplore.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Standard_Transient.hxx>
 class Standard_Transient;
 class Interface_Graph;

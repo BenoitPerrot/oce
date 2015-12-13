@@ -6,13 +6,13 @@
 #ifndef _IntStart_SITopolTool_HeaderFile
 #define _IntStart_SITopolTool_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IntStart_SITopolTool.hxx>
 
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <TopAbs_State.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class gp_Pnt2d;
 
 

@@ -15,12 +15,12 @@
 // commercial license or contractual agreement.
 
 #include <Adaptor3d_HCurve.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <gp_Vec.hxx>
 #include <TColStd_Array1OfReal.hxx>
 #include <GeomFill_TrihedronLaw.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(GeomFill_TrihedronLaw)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_TYPE_END(GeomFill_TrihedronLaw)
 IMPLEMENT_DOWNCAST(GeomFill_TrihedronLaw,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(GeomFill_TrihedronLaw)
 
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 
 void GeomFill_TrihedronLaw::SetCurve(const Handle(Adaptor3d_HCurve)& C) 
 {

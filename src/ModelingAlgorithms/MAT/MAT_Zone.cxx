@@ -18,7 +18,7 @@
 #include <MAT_Arc.hxx>
 #include <MAT_Node.hxx>
 #include <MAT_Zone.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MAT_Zone)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

@@ -5,8 +5,8 @@
 
 #include <HLRAlgo_ListIteratorOfInterferenceList.hxx>
 
-#include <Standard_NoMoreObject.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoMoreObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <HLRAlgo_InterferenceList.hxx>
 #include <HLRAlgo_Interference.hxx>
 #include <HLRAlgo_ListNodeOfInterferenceList.hxx>

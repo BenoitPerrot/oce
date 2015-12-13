@@ -6,13 +6,13 @@
 #ifndef _ObjMgt_ExternShareable_HeaderFile
 #define _ObjMgt_ExternShareable_HeaderFile
 
-#include <Standard_Macro.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Handle_ObjMgt_ExternShareable.hxx>
 
 #include <Handle_PCollection_HAsciiString.hxx>
-#include <Standard_Persistent.hxx>
+#include <Foundation/Standard/Standard_Persistent.hxx>
 class PCollection_HAsciiString;
 
 

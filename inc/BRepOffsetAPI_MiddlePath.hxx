@@ -6,13 +6,13 @@
 #ifndef _BRepOffsetAPI_MiddlePath_HeaderFile
 #define _BRepOffsetAPI_MiddlePath_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Wire.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <TopTools_MapOfShape.hxx>
 #include <BRepOffsetAPI_SequenceOfSequenceOfShape.hxx>
 #include <BRepBuilderAPI_MakeShape.hxx>

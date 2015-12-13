@@ -6,12 +6,12 @@
 #ifndef _TDataStd_DataMapNodeOfDataMapOfStringByte_HeaderFile
 #define _TDataStd_DataMapNodeOfDataMapOfStringByte_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TDataStd_DataMapNodeOfDataMapOfStringByte.hxx>
 
 #include <TCollection_ExtendedString.hxx>
-#include <Standard_Byte.hxx>
+#include <Foundation/Standard/Standard_Byte.hxx>
 #include <TCollection_MapNode.hxx>
 #include <TCollection_MapNodePtr.hxx>
 class TCollection_ExtendedString;
@@ -54,7 +54,7 @@ private:
 #define TheKey TCollection_ExtendedString
 #define TheKey_hxx <TCollection_ExtendedString.hxx>
 #define TheItem Standard_Byte
-#define TheItem_hxx <Standard_Byte.hxx>
+#define TheItem_hxx <Foundation/Standard/Standard_Byte.hxx>
 #define Hasher TCollection_ExtendedString
 #define Hasher_hxx <TCollection_ExtendedString.hxx>
 #define TCollection_DataMapNode TDataStd_DataMapNodeOfDataMapOfStringByte

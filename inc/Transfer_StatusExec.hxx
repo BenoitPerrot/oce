@@ -6,7 +6,7 @@
 #ifndef _Transfer_StatusExec_HeaderFile
 #define _Transfer_StatusExec_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! execution status of an individual transfer (see Transcriptor)
 enum Transfer_StatusExec

@@ -6,7 +6,7 @@
 #ifndef _BRepBuilderAPI_WireError_HeaderFile
 #define _BRepBuilderAPI_WireError_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Indicates the outcome of wire
 //! construction, i.e. whether it is successful or not, as explained below:

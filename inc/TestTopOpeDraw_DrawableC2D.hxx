@@ -6,18 +6,18 @@
 #ifndef _TestTopOpeDraw_DrawableC2D_HeaderFile
 #define _TestTopOpeDraw_DrawableC2D_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TestTopOpeDraw_DrawableC2D.hxx>
 
 #include <Handle_Draw_Text2D.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 #include <Draw_Color.hxx>
 #include <DrawTrSurf_Curve2d.hxx>
 #include <Handle_Geom2d_Curve.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Draw_Interpretor.hxx>
 class Draw_Text2D;
 class Geom2d_Curve;

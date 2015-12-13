@@ -6,8 +6,8 @@
 #ifndef _StepFEA_FeaModelDefinition_HeaderFile
 #define _StepFEA_FeaModelDefinition_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepFEA_FeaModelDefinition.hxx>
 
 #include <StepRepr_ShapeAspect.hxx>

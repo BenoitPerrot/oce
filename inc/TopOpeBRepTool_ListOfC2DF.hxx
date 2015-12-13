@@ -6,14 +6,14 @@
 #ifndef _TopOpeBRepTool_ListOfC2DF_HeaderFile
 #define _TopOpeBRepTool_ListOfC2DF_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
 #include <Handle_TopOpeBRepTool_ListNodeOfListOfC2DF.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_NoSuchObject;
 class TopOpeBRepTool_ListIteratorOfListOfC2DF;
 class TopOpeBRepTool_C2DF;

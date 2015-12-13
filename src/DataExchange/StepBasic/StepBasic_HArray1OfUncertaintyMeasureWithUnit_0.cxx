@@ -5,12 +5,12 @@
 
 #include <StepBasic_HArray1OfUncertaintyMeasureWithUnit.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
-#include <Standard_RangeError.hxx>
-#include <Standard_DimensionMismatch.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_OutOfMemory.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_DimensionMismatch.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfMemory.hxx>
 #include <StepBasic_UncertaintyMeasureWithUnit.hxx>
 #include <StepBasic_Array1OfUncertaintyMeasureWithUnit.hxx>
 

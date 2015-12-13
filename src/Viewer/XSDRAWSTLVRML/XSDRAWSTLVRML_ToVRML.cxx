@@ -15,7 +15,7 @@
 #include <TopoDS_Shape.hxx>
 #include <XSDRAWSTLVRML_ToVRML.hxx>
 
-#include <Standard_Stream.hxx>
+#include <Foundation/Standard/Standard_Stream.hxx>
 #include <Bnd_Box.hxx>
 #include <BRepBndLib.hxx>
 #include <BRep_Tool.hxx>

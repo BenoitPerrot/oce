@@ -6,12 +6,12 @@
 #ifndef _PBRep_TVertex_HeaderFile
 #define _PBRep_TVertex_HeaderFile
 
-#include <Standard_Macro.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Handle_PBRep_TVertex.hxx>
 
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <gp_Pnt.hxx>
 #include <Handle_PBRep_PointRepresentation.hxx>
 #include <PTopoDS_TVertex.hxx>

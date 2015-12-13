@@ -6,12 +6,12 @@
 #ifndef _GeomFill_Sweep_HeaderFile
 #define _GeomFill_Sweep_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Real.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_GeomFill_LocationLaw.hxx>
 #include <Handle_GeomFill_SectionLaw.hxx>
 #include <Handle_Geom_Surface.hxx>
@@ -19,7 +19,7 @@
 #include <Handle_TColStd_HArray2OfReal.hxx>
 #include <GeomFill_ApproxStyle.hxx>
 #include <GeomAbs_Shape.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Geom2d_Curve.hxx>
 class GeomFill_LocationLaw;
 class GeomFill_SectionLaw;

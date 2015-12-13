@@ -5,7 +5,7 @@
 
 #include <PColStd_VArrayNodeOfFieldOfHArray1OfExtendedString.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <PCollection_HExtendedString.hxx>
 #include <PColStd_FieldOfHArray1OfExtendedString.hxx>

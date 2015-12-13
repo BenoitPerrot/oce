@@ -20,7 +20,7 @@
 #include <TopOpeBRepDS_Curve.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopOpeBRepDS_GapTool.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TopOpeBRepDS_GapTool)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_TYPE_END(TopOpeBRepDS_GapTool)
 IMPLEMENT_DOWNCAST(TopOpeBRepDS_GapTool,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TopOpeBRepDS_GapTool)
 #include <TopOpeBRepDS_ListIteratorOfListOfInterference.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <TopOpeBRepDS_CurvePointInterference.hxx>
 
 #ifdef OCCT_DEBUG

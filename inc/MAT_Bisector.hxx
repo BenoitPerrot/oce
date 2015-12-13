@@ -6,14 +6,14 @@
 #ifndef _MAT_Bisector_HeaderFile
 #define _MAT_Bisector_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_MAT_Bisector.hxx>
 
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_MAT_Edge.hxx>
 #include <Handle_MAT_ListOfBisector.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class MAT_Edge;
 class MAT_ListOfBisector;

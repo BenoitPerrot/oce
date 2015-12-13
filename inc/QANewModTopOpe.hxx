@@ -6,11 +6,11 @@
 #ifndef _QANewModTopOpe_HeaderFile
 #define _QANewModTopOpe_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <TopAbs_ShapeEnum.hxx>
 class TopoDS_Shape;
 class TopoDS_Compound;

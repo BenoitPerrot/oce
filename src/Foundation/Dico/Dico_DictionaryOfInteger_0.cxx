@@ -5,10 +5,10 @@
 
 #include <Foundation/Dico/Dico_DictionaryOfInteger.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Foundation/Dico/Dico_DictionaryOfInteger.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Dico/Dico_IteratorOfDictionaryOfInteger.hxx>
 #include <Foundation/Dico/Dico_StackItemOfDictionaryOfInteger.hxx>
 #include <TCollection_AsciiString.hxx>
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(Dico_DictionaryOfInteger)
 
 
 #define TheItem Standard_Integer
-#define TheItem_hxx <Standard_Integer.hxx>
+#define TheItem_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define Dico_Iterator Dico_IteratorOfDictionaryOfInteger
 #define Dico_Iterator_hxx <Foundation/Dico/Dico_IteratorOfDictionaryOfInteger.hxx>
 #define Dico_StackItem Dico_StackItemOfDictionaryOfInteger

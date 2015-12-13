@@ -6,17 +6,17 @@
 #ifndef _Interface_ReaderLib_HeaderFile
 #define _Interface_ReaderLib_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_Interface_NodeOfReaderLib.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Handle_Interface_ReaderModule.hxx>
 #include <Handle_Interface_Protocol.hxx>
 #include <Handle_Interface_GlobalNodeOfReaderLib.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Interface_NodeOfReaderLib;
 class Standard_NoSuchObject;
 class Standard_Transient;

@@ -6,7 +6,7 @@
 #ifndef _TDataXtd_GeometryEnum_HeaderFile
 #define _TDataXtd_GeometryEnum_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 //! The terms of this enumeration define the types of geometric shapes available.

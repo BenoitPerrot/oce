@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Dico/Dico_DictionaryOfTransient.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <Geom_Geometry.hxx>
 #include <Geom2d_Curve.hxx>
 #include <Geom_Curve.hxx>
@@ -21,7 +21,7 @@
 #include <gp_Pnt2d.hxx>
 #include <TopoDS_Shape.hxx>
 #include <XSControl_Vars.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XSControl_Vars)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

@@ -19,7 +19,7 @@
 #include <TDF_Attribute.hxx>
 #include <BinObjMgt_Persistent.hxx>
 #include <BinMDataXtd_ConstraintDriver.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BinMDataXtd_ConstraintDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(BinMDF_ADriver),

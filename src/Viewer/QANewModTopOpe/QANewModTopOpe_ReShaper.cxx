@@ -17,7 +17,7 @@
 #include <TopTools_MapOfShape.hxx>
 #include <TopTools_HSequenceOfShape.hxx>
 #include <QANewModTopOpe_ReShaper.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(QANewModTopOpe_ReShaper)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

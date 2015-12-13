@@ -5,8 +5,8 @@
 
 #include <BRep_ListIteratorOfListOfCurveRepresentation.hxx>
 
-#include <Standard_NoMoreObject.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoMoreObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <BRep_ListOfCurveRepresentation.hxx>
 #include <BRep_CurveRepresentation.hxx>
 #include <BRep_ListNodeOfListOfCurveRepresentation.hxx>

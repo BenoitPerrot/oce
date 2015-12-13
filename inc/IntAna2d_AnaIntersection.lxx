@@ -13,7 +13,7 @@
 // commercial license or contractual agreement.
 
 #include <StdFail_NotDone.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 
 inline Standard_Boolean IntAna2d_AnaIntersection::IsDone () const {
   return done;

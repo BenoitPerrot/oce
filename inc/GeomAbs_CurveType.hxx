@@ -6,7 +6,7 @@
 #ifndef _GeomAbs_CurveType_HeaderFile
 #define _GeomAbs_CurveType_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 //! Identifies the type of a curve.

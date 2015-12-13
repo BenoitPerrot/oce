@@ -6,8 +6,8 @@
 #ifndef _StepVisual_TextStyleForDefinedFont_HeaderFile
 #define _StepVisual_TextStyleForDefinedFont_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepVisual_TextStyleForDefinedFont.hxx>
 
 #include <Handle_StepVisual_Colour.hxx>

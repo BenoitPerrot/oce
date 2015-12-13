@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_Stream.hxx>
+#include <Foundation/Standard/Standard_Stream.hxx>
 #include <VrmlConverter_Drawer.hxx>
 #include <VrmlConverter_Projector.hxx>
 #include <Vrml_Material.hxx>

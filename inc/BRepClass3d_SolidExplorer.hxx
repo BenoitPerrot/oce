@@ -6,15 +6,15 @@
 #ifndef _BRepClass3d_SolidExplorer_HeaderFile
 #define _BRepClass3d_SolidExplorer_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Bnd_Box.hxx>
 #include <TopoDS_Shape.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <TopExp_Explorer.hxx>
 #include <BRepClass3d_MapOfInter.hxx>
 #include <Handle_BRepAdaptor_HSurface.hxx>

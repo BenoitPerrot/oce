@@ -6,14 +6,14 @@
 #ifndef _OSD_FileNode_HeaderFile
 #define _OSD_FileNode_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/OSD/OSD_Path.hxx>
 #include <Foundation/OSD/OSD_Error.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class OSD_OSDError;
 class Standard_ProgramError;
 class OSD_Path;

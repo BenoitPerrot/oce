@@ -13,12 +13,12 @@
 // commercial license or contractual agreement.
 
 #include <float.h>
-#include <Standard_Real.hxx>
-#include <Standard_RangeError.hxx>
-#include <Standard_NumericError.hxx>
-#include <Standard_NullValue.hxx>
-#include <Standard_Stream.hxx>
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_NumericError.hxx>
+#include <Foundation/Standard/Standard_NullValue.hxx>
+#include <Foundation/Standard/Standard_Stream.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 
 // ------------------------------------------------------------------
 // Hascode : Computes a hascoding value for a given real

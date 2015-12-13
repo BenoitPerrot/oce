@@ -5,13 +5,13 @@
 
 #include <TransferBRep_ShapeMapper.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TopoDS_Shape.hxx>
 #include <TopTools_ShapeMapHasher.hxx>
 #include <TransferBRep_ShapeInfo.hxx>
 #include <Transfer_Finder.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
  
 

@@ -23,7 +23,7 @@
 #include <BRepOffsetAPI_MakeOffsetShape.hxx>
 #include <BRepOffset_MakeOffset.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 
 //=======================================================================
 //function : BRepOffsetAPI_MakeOffsetShape

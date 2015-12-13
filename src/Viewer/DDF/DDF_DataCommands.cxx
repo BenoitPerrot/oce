@@ -33,7 +33,7 @@
 #include <Draw_Drawable3D.hxx>
 #include <Draw_Interpretor.hxx>
 
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 
 #include <TDF_ChildIterator.hxx>
 #include <TDF_Data.hxx>

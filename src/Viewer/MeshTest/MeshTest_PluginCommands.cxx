@@ -39,7 +39,7 @@
 #include <TColgp_Array1OfPnt2d.hxx>
 #include <Poly_Polygon3D.hxx>
 #include <Poly_Polygon2D.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <TopExp_Explorer.hxx>
 #include <TColStd_Array1OfInteger.hxx>
 #include <Poly_PolygonOnTriangulation.hxx>

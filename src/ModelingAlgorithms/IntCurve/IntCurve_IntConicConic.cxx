@@ -17,7 +17,7 @@
 // Modified:    OFV Thu Nov  6 17:03:52 2003
 
 
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <gp_Lin2d.hxx>
 #include <IntRes2d_Domain.hxx>
 #include <gp_Circ2d.hxx>
@@ -31,7 +31,7 @@
 #include <IntRes2d_Domain.hxx>
 #include <gp.hxx>
 #include <Precision.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 
 #include <IntAna2d_AnaIntersection.hxx>
 #include <IntAna2d_IntPoint.hxx>

@@ -6,12 +6,12 @@
 #ifndef _gce_MakeRotation2d_HeaderFile
 #define _gce_MakeRotation2d_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <gp_Trsf2d.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class gp_Pnt2d;
 class gp_Trsf2d;
 

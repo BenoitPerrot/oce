@@ -16,7 +16,7 @@
 
 #include <StdFail_NotDone.hxx>
 #include <GccEnt_BadQualifier.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Geom2dGcc_QualifiedCurve.hxx>
 #include <Geom2dAdaptor_Curve.hxx>
 #include <Geom2d_Point.hxx>

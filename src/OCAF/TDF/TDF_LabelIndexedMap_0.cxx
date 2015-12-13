@@ -5,8 +5,8 @@
 
 #include <TDF_LabelIndexedMap.hxx>
 
-#include <Standard_DomainError.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <TDF_Label.hxx>
 #include <TDF_LabelMapHasher.hxx>
 #include <TDF_IndexedMapNodeOfLabelIndexedMap.hxx>

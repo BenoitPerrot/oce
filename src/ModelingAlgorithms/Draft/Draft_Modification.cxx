@@ -15,8 +15,8 @@
 // commercial license or contractual agreement.
 
 #include <StdFail_NotDone.hxx>
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Face.hxx>
 #include <gp_Dir.hxx>
@@ -30,7 +30,7 @@
 #include <gp_Pnt.hxx>
 #include <Geom2d_Curve.hxx>
 #include <Draft_Modification.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Draft_Modification)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(BRepTools_Modification),
@@ -63,9 +63,9 @@ IMPLEMENT_STANDARD_RTTI(Draft_Modification)
 #include <Draft_VertexInfo.hxx>
 
 #include <StdFail_NotDone.hxx>
-#include <Standard_ConstructionError.hxx>
-#include <Standard_DomainError.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 
 #include <gp_Pnt2d.hxx>
 #include <gp_Vec2d.hxx>

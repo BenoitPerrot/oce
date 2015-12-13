@@ -15,7 +15,7 @@
 #include <Interface_Graph.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <IFSelect_SelectModelEntities.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IFSelect_SelectModelEntities)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(IFSelect_SelectBase),

@@ -6,16 +6,16 @@
 #ifndef _PColStd_HArray1OfReal_HeaderFile
 #define _PColStd_HArray1OfReal_HeaderFile
 
-#include <Standard_Macro.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Handle_PColStd_HArray1OfReal.hxx>
 
-#include <Standard_Integer.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <PColStd_FieldOfHArray1OfReal.hxx>
-#include <Standard_Address.hxx>
-#include <Standard_Persistent.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Persistent.hxx>
 #include <Handle_PColStd_VArrayNodeOfFieldOfHArray1OfReal.hxx>
 class Standard_OutOfRange;
 class Standard_RangeError;
@@ -82,7 +82,7 @@ private:
 };
 
 #define Item Standard_Real
-#define Item_hxx <Standard_Real.hxx>
+#define Item_hxx <Foundation/Standard/Standard_Real.hxx>
 #define PCollection_FieldOfHArray1 PColStd_FieldOfHArray1OfReal
 #define PCollection_FieldOfHArray1_hxx <PColStd_FieldOfHArray1OfReal.hxx>
 #define PCollection_VArrayNodeOfFieldOfHArray1 PColStd_VArrayNodeOfFieldOfHArray1OfReal

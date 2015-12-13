@@ -12,12 +12,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_MultiplyDefined.hxx>
-#include <Standard_TypeMismatch.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_MultiplyDefined.hxx>
+#include <Foundation/Standard/Standard_TypeMismatch.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <AIS_Selection.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_Selection)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

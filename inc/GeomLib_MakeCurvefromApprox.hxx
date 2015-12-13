@@ -6,13 +6,13 @@
 #ifndef _GeomLib_MakeCurvefromApprox_HeaderFile
 #define _GeomLib_MakeCurvefromApprox_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <AdvApprox_ApproxAFunction.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Geom2d_BSplineCurve.hxx>
 #include <Handle_Geom_BSplineCurve.hxx>
 class StdFail_NotDone;

@@ -17,7 +17,7 @@
 #include <BRepAdaptor_HSurface.hxx>
 #include <TopoDS_Face.hxx>
 #include <TopOpeBRep_Hctxff2d.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TopOpeBRep_Hctxff2d)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

@@ -6,24 +6,24 @@
 #ifndef _AdvApp2Var_ApproxAFunc2Var_HeaderFile
 #define _AdvApp2Var_ApproxAFunc2Var_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TColStd_HArray1OfReal.hxx>
 #include <Handle_TColStd_HArray2OfReal.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <GeomAbs_IsoType.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <AdvApp2Var_Context.hxx>
 #include <AdvApp2Var_Network.hxx>
 #include <AdvApp2Var_Framework.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_TColGeom_HArray1OfSurface.hxx>
 #include <AdvApp2Var_EvaluatorFunc2Var.hxx>
 #include <Handle_Geom_BSplineSurface.hxx>
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 class TColStd_HArray1OfReal;
 class TColStd_HArray2OfReal;
 class TColGeom_HArray1OfSurface;

@@ -6,19 +6,19 @@
 #ifndef _Prs3d_Drawer_HeaderFile
 #define _Prs3d_Drawer_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Prs3d_Drawer.hxx>
 
 #include <Handle_Prs3d_IsoAspect.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Prs3d_LineAspect.hxx>
 #include <Handle_Prs3d_TextAspect.hxx>
 #include <Handle_Prs3d_ShadingAspect.hxx>
 #include <Foundation/Quantity/Quantity_Length.hxx>
 #include <Aspect_TypeOfDeflection.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Prs3d_PointAspect.hxx>
 #include <Prs3d_VertexDrawMode.hxx>
 #include <Handle_Prs3d_PlaneAspect.hxx>

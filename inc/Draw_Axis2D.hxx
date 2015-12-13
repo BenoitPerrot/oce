@@ -6,13 +6,13 @@
 #ifndef _Draw_Axis2D_HeaderFile
 #define _Draw_Axis2D_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Draw_Axis2D.hxx>
 
 #include <gp_Ax22d.hxx>
 #include <Draw_Color.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Draw_Drawable2D.hxx>
 class Draw_Color;
 class gp_Pnt2d;

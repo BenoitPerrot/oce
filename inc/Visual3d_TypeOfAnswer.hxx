@@ -6,7 +6,7 @@
 #ifndef _Visual3d_TypeOfAnswer_HeaderFile
 #define _Visual3d_TypeOfAnswer_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! The answer of the method AcceptDisplay
 //! AcceptDisplay  means is it possible to display the

@@ -78,8 +78,8 @@
 
 #include <Bnd_Box.hxx>
 
-#include <Standard_ConstructionError.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 
 #include <GeomLib.hxx>
 #include <GeomAdaptor_Curve.hxx>

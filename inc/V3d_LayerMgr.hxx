@@ -6,8 +6,8 @@
 #ifndef _V3d_LayerMgr_HeaderFile
 #define _V3d_LayerMgr_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_V3d_LayerMgr.hxx>
 
 #include <V3d_ViewPointer.hxx>
@@ -16,7 +16,7 @@
 #include <Handle_V3d_ColorScaleLayerItem.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_V3d_View.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Aspect_ColorScale.hxx>
 class Visual3d_Layer;
 class V3d_ColorScale;

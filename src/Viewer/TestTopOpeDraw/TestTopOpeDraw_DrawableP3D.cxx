@@ -19,7 +19,7 @@
 #include <Draw_Color.hxx>
 #include <Draw_Display.hxx>
 #include <TestTopOpeDraw_DrawableP3D.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TestTopOpeDraw_DrawableP3D)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Draw_Marker3D),

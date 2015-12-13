@@ -19,7 +19,7 @@
 #include <OpenGl_Resource.hxx>
 #include <OpenGl_Texture.hxx>
 
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <InterfaceGraphic.hxx>
 
 //! Class implements FrameBuffer Object (FBO) resource

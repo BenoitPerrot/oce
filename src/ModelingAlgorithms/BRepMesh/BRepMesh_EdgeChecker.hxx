@@ -16,8 +16,8 @@
 #ifndef _BRepMesh_EdgeChecker_HeaderFile
 #define _BRepMesh_EdgeChecker_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_Mutex.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_Mutex.hxx>
 #include <Poly_Triangulation.hxx>
 #include <TopLoc_Location.hxx>
 #include <TopoDS_Edge.hxx>

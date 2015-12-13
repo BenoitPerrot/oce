@@ -6,14 +6,14 @@
 #ifndef _BRepPrim_Revolution_HeaderFile
 #define _BRepPrim_Revolution_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_Geom_Curve.hxx>
 #include <Handle_Geom2d_Curve.hxx>
 #include <BRepPrim_OneAxis.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class Geom_Curve;
 class Geom2d_Curve;
 class gp_Ax2;

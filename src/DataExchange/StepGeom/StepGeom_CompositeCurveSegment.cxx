@@ -13,7 +13,7 @@
 
 #include <StepGeom_Curve.hxx>
 #include <StepGeom_CompositeCurveSegment.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepGeom_CompositeCurveSegment)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

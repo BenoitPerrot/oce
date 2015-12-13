@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
 #include <TDF_Label.hxx>
 #include <TCollection_ExtendedString.hxx>
 #include <TDataStd_Real.hxx>
@@ -24,7 +24,7 @@
 #include <TDF_RelocationTable.hxx>
 #include <TDF_DataSet.hxx>
 #include <TDataStd_Variable.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDataStd_Variable)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(TDF_Attribute),
@@ -37,7 +37,7 @@ IMPLEMENT_STANDARD_RTTI(TDataStd_Variable)
 #include <TDF_Label.hxx> 
 #include <TDataStd_Real.hxx>
 #include <TDataStd_Name.hxx>
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 
 
 //=======================================================================

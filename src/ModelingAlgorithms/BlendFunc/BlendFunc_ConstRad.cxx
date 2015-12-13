@@ -40,9 +40,9 @@
 #include <gp.hxx>
 #include <BlendFunc.hxx>
 #include <GeomFill.hxx>
-#include <Standard_TypeDef.hxx>
-#include <Standard_DomainError.hxx>
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_TypeDef.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <ElCLib.hxx>
 #include <Precision.hxx>
 

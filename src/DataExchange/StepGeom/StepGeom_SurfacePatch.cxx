@@ -13,7 +13,7 @@
 
 #include <StepGeom_BoundedSurface.hxx>
 #include <StepGeom_SurfacePatch.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepGeom_SurfacePatch)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

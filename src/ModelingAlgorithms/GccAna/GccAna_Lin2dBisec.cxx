@@ -16,7 +16,7 @@
 //   CREATION of the BISSECTICE between two STRAIGHT LINES.                        +
 //=========================================================================
 
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <StdFail_NotDone.hxx>
 #include <gp_Lin2d.hxx>
 #include <gp_Pnt2d.hxx>
@@ -27,7 +27,7 @@
 #include <gp_Dir2d.hxx>
 #include <gp_Vec2d.hxx>
 #include <gp.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <GccEnt_BadQualifier.hxx>
 #include <StdFail_NotDone.hxx>
 #include <IntAna2d_AnaIntersection.hxx>

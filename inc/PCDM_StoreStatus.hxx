@@ -6,7 +6,7 @@
 #ifndef _PCDM_StoreStatus_HeaderFile
 #define _PCDM_StoreStatus_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum PCDM_StoreStatus

@@ -5,11 +5,11 @@
 
 #include <Adaptor2d_HLine2d.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
-#include <Standard_OutOfRange.hxx>
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Adaptor2d_Line2d.hxx>
 #include <Adaptor2d_Curve2d.hxx>
 

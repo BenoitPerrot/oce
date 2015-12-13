@@ -6,7 +6,7 @@
 #ifndef _V3d_TypeOfZclipping_HeaderFile
 #define _V3d_TypeOfZclipping_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! The available options are
 //! -   V3d_OFF: Zclipping (clipping executed in the

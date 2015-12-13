@@ -5,8 +5,8 @@
 
 #include <MAT_SequenceOfBasicElt.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <MAT_BasicElt.hxx>
 #include <MAT_SequenceNodeOfSequenceOfBasicElt.hxx>
  

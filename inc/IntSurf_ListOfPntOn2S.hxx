@@ -6,14 +6,14 @@
 #ifndef _IntSurf_ListOfPntOn2S_HeaderFile
 #define _IntSurf_ListOfPntOn2S_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
 #include <Handle_IntSurf_ListNodeOfListOfPntOn2S.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_NoSuchObject;
 class IntSurf_ListIteratorOfListOfPntOn2S;
 class IntSurf_PntOn2S;

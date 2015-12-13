@@ -15,15 +15,15 @@
 // commercial license or contractual agreement.
 
 #include <Geom2d_Curve.hxx>
-#include <Standard_DomainError.hxx>
-#include <Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
 #include <gp_Pnt2d.hxx>
 #include <Geom2d_Geometry.hxx>
 #include <gp_Trsf2d.hxx>
 #include <gp_Vec2d.hxx>
 #include <TColStd_SequenceOfReal.hxx>
 #include <Bisector_BisecPC.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Bisector_BisecPC)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Bisector_Curve),
@@ -56,8 +56,8 @@ IMPLEMENT_STANDARD_RTTI(Bisector_BisecPC)
 #include <ElCLib.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>
 
-#include <Standard_DivideByZero.hxx>
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_DivideByZero.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 
 //=============================================================================
 //function :

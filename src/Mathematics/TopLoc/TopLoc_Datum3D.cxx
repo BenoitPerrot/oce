@@ -14,11 +14,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_Stream.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_Stream.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <gp_Trsf.hxx>
 #include <TopLoc_Datum3D.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TopLoc_Datum3D)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

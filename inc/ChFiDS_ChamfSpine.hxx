@@ -6,12 +6,12 @@
 #ifndef _ChFiDS_ChamfSpine_HeaderFile
 #define _ChFiDS_ChamfSpine_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ChFiDS_ChamfSpine.hxx>
 
-#include <Standard_Real.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ChFiDS_ChamfMethod.hxx>
 #include <ChFiDS_Spine.hxx>
 

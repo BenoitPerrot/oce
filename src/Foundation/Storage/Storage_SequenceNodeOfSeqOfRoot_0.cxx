@@ -5,7 +5,7 @@
 
 #include <Storage_SequenceNodeOfSeqOfRoot.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Storage_Root.hxx>
 #include <Storage_SeqOfRoot.hxx>

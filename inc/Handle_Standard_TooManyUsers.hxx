@@ -6,8 +6,8 @@
 #ifndef _Handle_Standard_TooManyUsers_HeaderFile
 #define _Handle_Standard_TooManyUsers_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Standard_LicenseError.hxx>
 
 class Standard_Transient;

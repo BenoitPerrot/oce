@@ -24,7 +24,7 @@
 #ifndef DDF_AttributeBrowser_HeaderFile
 #define DDF_AttributeBrowser_HeaderFile
 
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <TDF_Attribute.hxx>
 

@@ -5,8 +5,8 @@
 
 #include <TopOpeBRep_SequenceOfPoint2d.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <TopOpeBRep_Point2d.hxx>
 #include <TopOpeBRep_SequenceNodeOfSequenceOfPoint2d.hxx>
  

@@ -5,8 +5,8 @@
 
 #include <LocOpe_SequenceOfLin.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <gp_Lin.hxx>
 #include <LocOpe_SequenceNodeOfSequenceOfLin.hxx>
  

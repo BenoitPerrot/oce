@@ -6,16 +6,16 @@
 #ifndef _PPoly_HArray1OfTriangle_HeaderFile
 #define _PPoly_HArray1OfTriangle_HeaderFile
 
-#include <Standard_Macro.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Handle_PPoly_HArray1OfTriangle.hxx>
 
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <PPoly_Triangle.hxx>
 #include <PPoly_FieldOfHArray1OfTriangle.hxx>
-#include <Standard_Address.hxx>
-#include <Standard_Persistent.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Persistent.hxx>
 #include <Handle_PPoly_VArrayNodeOfFieldOfHArray1OfTriangle.hxx>
 class Standard_OutOfRange;
 class Standard_RangeError;

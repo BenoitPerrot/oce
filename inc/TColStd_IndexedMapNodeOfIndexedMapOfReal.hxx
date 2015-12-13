@@ -6,12 +6,12 @@
 #ifndef _TColStd_IndexedMapNodeOfIndexedMapOfReal_HeaderFile
 #define _TColStd_IndexedMapNodeOfIndexedMapOfReal_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TColStd_IndexedMapNodeOfIndexedMapOfReal.hxx>
 
-#include <Standard_Real.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <TCollection_MapNodePtr.hxx>
 #include <TCollection_MapNode.hxx>
 class TColStd_MapRealHasher;
@@ -54,7 +54,7 @@ private:
 };
 
 #define TheKey Standard_Real
-#define TheKey_hxx <Standard_Real.hxx>
+#define TheKey_hxx <Foundation/Standard/Standard_Real.hxx>
 #define Hasher TColStd_MapRealHasher
 #define Hasher_hxx <TColStd_MapRealHasher.hxx>
 #define TCollection_IndexedMapNode TColStd_IndexedMapNodeOfIndexedMapOfReal

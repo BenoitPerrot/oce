@@ -19,15 +19,15 @@
 #include <IGESDraw_HArray1OfViewKindEntity.hxx>
 #include <TColgp_HArray1OfXY.hxx>
 #include <IGESData_HArray1OfIGESEntity.hxx>
-#include <Standard_DimensionMismatch.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_DimensionMismatch.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <IGESData_ViewKindEntity.hxx>
 #include <gp_Pnt2d.hxx>
 #include <IGESData_IGESEntity.hxx>
 #include <gp_XY.hxx>
 #include <gp_XYZ.hxx>
 #include <IGESDraw_Drawing.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESDraw_Drawing)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(IGESData_IGESEntity),

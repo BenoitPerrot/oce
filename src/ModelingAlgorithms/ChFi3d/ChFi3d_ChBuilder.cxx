@@ -14,8 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_ConstructionError.hxx>
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Face.hxx>
@@ -68,8 +68,8 @@
 #include <ElSLib.hxx>
 #include <BRepTools.hxx>
 
-#include <Standard_NotImplemented.hxx>
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 
 #ifdef OCCT_DEBUG
 extern Standard_Boolean ChFi3d_GettraceCHRON();

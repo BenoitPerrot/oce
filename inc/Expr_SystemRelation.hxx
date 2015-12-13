@@ -6,15 +6,15 @@
 #ifndef _Expr_SystemRelation_HeaderFile
 #define _Expr_SystemRelation_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Expr_SystemRelation.hxx>
 
 #include <Expr_SequenceOfGeneralRelation.hxx>
 #include <Expr_GeneralRelation.hxx>
 #include <Handle_Expr_GeneralRelation.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Expr_GeneralExpression.hxx>
 #include <Handle_Expr_NamedUnknown.hxx>
 class Standard_OutOfRange;

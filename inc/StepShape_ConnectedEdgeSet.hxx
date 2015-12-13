@@ -6,8 +6,8 @@
 #ifndef _StepShape_ConnectedEdgeSet_HeaderFile
 #define _StepShape_ConnectedEdgeSet_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepShape_ConnectedEdgeSet.hxx>
 
 #include <Handle_StepShape_HArray1OfEdge.hxx>

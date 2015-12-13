@@ -5,7 +5,7 @@
 
 #include <StepElement_SequenceNodeOfSequenceOfCurveElementPurposeMember.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <StepElement_CurveElementPurposeMember.hxx>
 #include <StepElement_SequenceOfCurveElementPurposeMember.hxx>

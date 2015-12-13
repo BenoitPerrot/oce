@@ -6,8 +6,8 @@
 #ifndef _PTColStd_DoubleMapNodeOfDoubleMapOfTransientPersistent_HeaderFile
 #define _PTColStd_DoubleMapNodeOfDoubleMapOfTransientPersistent_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_PTColStd_DoubleMapNodeOfDoubleMapOfTransientPersistent.hxx>
 
 #include <Handle_Standard_Transient.hxx>
@@ -58,9 +58,9 @@ private:
 };
 
 #define TheKey1 Handle(Standard_Transient)
-#define TheKey1_hxx <Standard_Transient.hxx>
+#define TheKey1_hxx <Foundation/Standard/Standard_Transient.hxx>
 #define TheKey2 Handle(Standard_Persistent)
-#define TheKey2_hxx <Standard_Persistent.hxx>
+#define TheKey2_hxx <Foundation/Standard/Standard_Persistent.hxx>
 #define Hasher1 TColStd_MapTransientHasher
 #define Hasher1_hxx <TColStd_MapTransientHasher.hxx>
 #define Hasher2 PTColStd_MapPersistentHasher

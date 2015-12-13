@@ -6,12 +6,12 @@
 #ifndef _PMMgt_PManaged_HeaderFile
 #define _PMMgt_PManaged_HeaderFile
 
-#include <Standard_Macro.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Handle_PMMgt_PManaged.hxx>
 
-#include <Standard_Persistent.hxx>
+#include <Foundation/Standard/Standard_Persistent.hxx>
 class Standard_OutOfMemory;
 
 

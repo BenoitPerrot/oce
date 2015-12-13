@@ -12,7 +12,7 @@
  
 
 #define RealType Standard_Real
-#define RealType_hxx <Standard_Real.hxx>
+#define RealType_hxx <Foundation/Standard/Standard_Real.hxx>
 #define Bnd_B2x Bnd_B2d
 #define Bnd_B2x_hxx <Bnd_B2d.hxx>
 #include <Bnd_B2x.gxx>

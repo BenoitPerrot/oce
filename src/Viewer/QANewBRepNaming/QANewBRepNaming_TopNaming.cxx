@@ -19,7 +19,7 @@
 
 #include <TDF_Label.hxx>
 
-#include <Standard_NullObject.hxx>
+#include <Foundation/Standard/Standard_NullObject.hxx>
 
 //=======================================================================
 //function : QANewBRepNaming_TopNaming

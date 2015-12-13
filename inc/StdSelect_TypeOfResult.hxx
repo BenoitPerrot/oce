@@ -6,7 +6,7 @@
 #ifndef _StdSelect_TypeOfResult_HeaderFile
 #define _StdSelect_TypeOfResult_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Provides values for type of result.
 //! These are used to specify whether the result is to

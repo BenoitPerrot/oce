@@ -6,13 +6,13 @@
 #ifndef _Extrema_SeqPCOfPCFOfEPCOfExtPC2d_HeaderFile
 #define _Extrema_SeqPCOfPCFOfEPCOfExtPC2d_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TCollection_BaseSequence.hxx>
 #include <Handle_Extrema_SequenceNodeOfSeqPCOfPCFOfEPCOfExtPC2d.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;
 class Standard_OutOfRange;
 class Extrema_POnCurv2d;

@@ -6,20 +6,20 @@
 #ifndef _Contap_Contour_HeaderFile
 #define _Contap_Contour_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Contap_TheSequenceOfLine.hxx>
 #include <Contap_TheSearch.hxx>
 #include <Contap_TheSearchInside.hxx>
 #include <Contap_SurfFunction.hxx>
 #include <Contap_ArcFunction.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Adaptor3d_HSurface.hxx>
 #include <Handle_Adaptor3d_TopolTool.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class StdFail_NotDone;
 class Standard_OutOfRange;
 class Standard_ConstructionError;

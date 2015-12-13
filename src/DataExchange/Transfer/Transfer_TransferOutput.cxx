@@ -14,10 +14,10 @@
 //szv#4 S4163
 #include <Transfer_TransientProcess.hxx>
 #include <Interface_InterfaceModel.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Transfer_TransferFailure.hxx>
 #include <Transfer_ActorOfTransientProcess.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <Interface_Protocol.hxx>
 #include <Interface_Graph.hxx>
 #include <Interface_EntityIterator.hxx>

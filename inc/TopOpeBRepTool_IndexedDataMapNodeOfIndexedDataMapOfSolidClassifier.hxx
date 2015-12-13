@@ -6,12 +6,12 @@
 #ifndef _TopOpeBRepTool_IndexedDataMapNodeOfIndexedDataMapOfSolidClassifier_HeaderFile
 #define _TopOpeBRepTool_IndexedDataMapNodeOfIndexedDataMapOfSolidClassifier_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TopOpeBRepTool_IndexedDataMapNodeOfIndexedDataMapOfSolidClassifier.hxx>
 
 #include <TopoDS_Shape.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <BRepClass3d_SolidClassifier.hxx>
 #include <TCollection_MapNodePtr.hxx>
 #include <TCollection_MapNode.hxx>

@@ -6,14 +6,14 @@
 #ifndef _IntCurveSurface_HInter_HeaderFile
 #define _IntCurveSurface_HInter_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <IntCurveSurface_Intersection.hxx>
 #include <Handle_Adaptor3d_HCurve.hxx>
 #include <Handle_Adaptor3d_HSurface.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class Adaptor3d_HCurve;
 class IntCurveSurface_TheHCurveTool;
 class Adaptor3d_HSurface;

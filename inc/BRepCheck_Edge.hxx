@@ -6,15 +6,15 @@
 #ifndef _BRepCheck_Edge_HeaderFile
 #define _BRepCheck_Edge_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BRepCheck_Edge.hxx>
 
 #include <Handle_BRep_CurveRepresentation.hxx>
 #include <Handle_Adaptor3d_HCurve.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <BRepCheck_Result.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <BRepCheck_Status.hxx>
 class BRep_CurveRepresentation;
 class Adaptor3d_HCurve;

@@ -6,15 +6,15 @@
 #ifndef _IntWalk_PWalking_HeaderFile
 #define _IntWalk_PWalking_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_IntSurf_LineOn2S.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <gp_Dir.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <IntImp_ConstIsoparametric.hxx>
 #include <IntSurf_PntOn2S.hxx>
 #include <gp_Dir2d.hxx>

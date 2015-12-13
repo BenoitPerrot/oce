@@ -2,7 +2,7 @@
 #include <XCAFSchema_Standard_GUID.hxx>
 #endif
 #ifndef _Standard_GUID_HeaderFile
-#include <Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Storage_Schema.hxx>

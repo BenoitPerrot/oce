@@ -5,10 +5,10 @@
 
 #include <PColStd_HArray2OfReal.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
-#include <Standard_RangeError.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <PColStd_FieldOfHArray2OfReal.hxx>
 #include <PColStd_VArrayNodeOfFieldOfHArray2OfReal.hxx>
 #include <PColStd_VArrayTNodeOfFieldOfHArray2OfReal.hxx>
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(PColStd_HArray2OfReal)
 
 
 #define Item Standard_Real
-#define Item_hxx <Standard_Real.hxx>
+#define Item_hxx <Foundation/Standard/Standard_Real.hxx>
 #define PCollection_FieldOfHArray2 PColStd_FieldOfHArray2OfReal
 #define PCollection_FieldOfHArray2_hxx <PColStd_FieldOfHArray2OfReal.hxx>
 #define PCollection_VArrayNodeOfFieldOfHArray2 PColStd_VArrayNodeOfFieldOfHArray2OfReal

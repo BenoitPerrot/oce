@@ -6,13 +6,13 @@
 #ifndef _IGESGeom_CompositeCurve_HeaderFile
 #define _IGESGeom_CompositeCurve_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESGeom_CompositeCurve.hxx>
 
 #include <Handle_IGESData_HArray1OfIGESEntity.hxx>
 #include <IGESData_IGESEntity.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_IGESData_IGESEntity.hxx>
 class IGESData_HArray1OfIGESEntity;
 class Standard_OutOfRange;

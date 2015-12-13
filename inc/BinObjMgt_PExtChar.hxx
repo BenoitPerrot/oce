@@ -16,7 +16,7 @@
 #ifndef BinObjMgt_PExtChar_HeaderFile
 #define BinObjMgt_PExtChar_HeaderFile
 
-#include <Standard_TypeDef.hxx>
+#include <Foundation/Standard/Standard_TypeDef.hxx>
 
 typedef Standard_ExtCharacter* BinObjMgt_PExtChar;
 

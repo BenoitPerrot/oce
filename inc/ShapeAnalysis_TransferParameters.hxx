@@ -6,16 +6,16 @@
 #ifndef _ShapeAnalysis_TransferParameters_HeaderFile
 #define _ShapeAnalysis_TransferParameters_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ShapeAnalysis_TransferParameters.hxx>
 
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Face.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_TColStd_HSequenceOfReal.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class TopoDS_Edge;
 class TopoDS_Face;
 class TColStd_HSequenceOfReal;

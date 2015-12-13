@@ -5,7 +5,7 @@
 
 #include <TDF_DoubleMapNodeOfAttributeDoubleMap.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TDF_Attribute.hxx>
 #include <TColStd_MapTransientHasher.hxx>

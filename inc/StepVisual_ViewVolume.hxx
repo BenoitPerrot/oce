@@ -6,14 +6,14 @@
 #ifndef _StepVisual_ViewVolume_HeaderFile
 #define _StepVisual_ViewVolume_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepVisual_ViewVolume.hxx>
 
 #include <StepVisual_CentralOrParallel.hxx>
 #include <Handle_StepGeom_CartesianPoint.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_StepVisual_PlanarBox.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepGeom_CartesianPoint;

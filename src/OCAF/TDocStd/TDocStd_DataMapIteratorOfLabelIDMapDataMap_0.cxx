@@ -5,7 +5,7 @@
 
 #include <TDocStd_DataMapIteratorOfLabelIDMapDataMap.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TDF_Label.hxx>
 #include <TDF_IDMap.hxx>
 #include <TDF_LabelMapHasher.hxx>

@@ -6,8 +6,8 @@
 #ifndef _DrawDim_Radius_HeaderFile
 #define _DrawDim_Radius_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_DrawDim_Radius.hxx>
 
 #include <TopoDS_Face.hxx>

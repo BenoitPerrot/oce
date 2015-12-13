@@ -6,18 +6,18 @@
 #ifndef _VrmlConverter_Drawer_HeaderFile
 #define _VrmlConverter_Drawer_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_VrmlConverter_Drawer.hxx>
 
 #include <Handle_VrmlConverter_IsoAspect.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_VrmlConverter_LineAspect.hxx>
 #include <Handle_VrmlConverter_ShadingAspect.hxx>
 #include <Foundation/Quantity/Quantity_Length.hxx>
 #include <Aspect_TypeOfDeflection.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_VrmlConverter_PointAspect.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class VrmlConverter_IsoAspect;

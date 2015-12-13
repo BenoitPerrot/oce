@@ -6,8 +6,8 @@
 #ifndef _TopOpeBRepBuild_DataMapNodeOfDataMapOfShapeListOfShapeListOfShape_HeaderFile
 #define _TopOpeBRepBuild_DataMapNodeOfDataMapOfShapeListOfShapeListOfShape_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TopOpeBRepBuild_DataMapNodeOfDataMapOfShapeListOfShapeListOfShape.hxx>
 
 #include <TopoDS_Shape.hxx>

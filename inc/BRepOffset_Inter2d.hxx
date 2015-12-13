@@ -6,12 +6,12 @@
 #ifndef _BRepOffset_Inter2d_HeaderFile
 #define _BRepOffset_Inter2d_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_BRepAlgo_AsDes.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class BRepAlgo_AsDes;
 class TopoDS_Face;
 class TopTools_IndexedMapOfShape;

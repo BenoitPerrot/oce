@@ -16,7 +16,7 @@
 
 #include <stdio.h>
 
-#include <Standard_Stream.hxx>
+#include <Foundation/Standard/Standard_Stream.hxx>
 
 #ifndef OCCT_DEBUG
 #define No_Standard_RangeError
@@ -28,9 +28,9 @@
 //== I n t e r s e c t i o n   C O N E           Q U A D R I Q U E   
 //==                           C Y L I N D R E   Q U A D R I Q U E
 //======================================================================
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <StdFail_NotDone.hxx>
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <gp_Cylinder.hxx>
 #include <IntAna_Quadric.hxx>
 #include <gp_Cone.hxx>
@@ -38,8 +38,8 @@
 #include <gp_Pnt.hxx>
 #include <IntAna_IntQuadQuad.hxx>
 
-#include <Standard_DomainError.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <StdFail_NotDone.hxx>
 #include <math_TrigonometricFunctionRoots.hxx>
 	

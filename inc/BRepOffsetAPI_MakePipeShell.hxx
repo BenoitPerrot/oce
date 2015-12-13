@@ -6,18 +6,18 @@
 #ifndef _BRepOffsetAPI_MakePipeShell_HeaderFile
 #define _BRepOffsetAPI_MakePipeShell_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_BRepFill_PipeShell.hxx>
 #include <BRepPrimAPI_MakeSweep.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <BRepFill_TypeOfContact.hxx>
 #include <Handle_Law_Function.hxx>
 #include <BRepBuilderAPI_PipeError.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <BRepBuilderAPI_TransitionMode.hxx>
 class BRepFill_PipeShell;
 class Standard_DomainError;

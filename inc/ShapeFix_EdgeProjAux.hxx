@@ -6,14 +6,14 @@
 #ifndef _ShapeFix_EdgeProjAux_HeaderFile
 #define _ShapeFix_EdgeProjAux_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ShapeFix_EdgeProjAux.hxx>
 
 #include <TopoDS_Face.hxx>
 #include <TopoDS_Edge.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Geom2d_Curve.hxx>
 class TopoDS_Face;

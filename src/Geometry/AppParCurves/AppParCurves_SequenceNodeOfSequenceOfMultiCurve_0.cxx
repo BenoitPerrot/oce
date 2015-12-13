@@ -5,7 +5,7 @@
 
 #include <AppParCurves_SequenceNodeOfSequenceOfMultiCurve.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <AppParCurves_MultiCurve.hxx>
 #include <AppParCurves_SequenceOfMultiCurve.hxx>

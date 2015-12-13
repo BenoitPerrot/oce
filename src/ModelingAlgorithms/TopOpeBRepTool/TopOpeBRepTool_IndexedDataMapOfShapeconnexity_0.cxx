@@ -5,9 +5,9 @@
 
 #include <TopOpeBRepTool_IndexedDataMapOfShapeconnexity.hxx>
 
-#include <Standard_DomainError.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopOpeBRepTool_connexity.hxx>
 #include <TopTools_ShapeMapHasher.hxx>

@@ -21,7 +21,7 @@
 #include <Law_Composite.hxx>
 #include <ChFiDS_HElSpine.hxx>
 #include <ChFiDS_FilSpine.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ChFiDS_FilSpine)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(ChFiDS_Spine),
@@ -42,7 +42,7 @@ IMPLEMENT_STANDARD_RTTI(ChFiDS_FilSpine)
 #include <Law_Constant.hxx>
 #include <Law_S.hxx>
 #include <Law_Interpol.hxx>
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 
 //=======================================================================
 //function : ChFiDS_FilSpine

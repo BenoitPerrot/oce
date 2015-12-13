@@ -15,8 +15,8 @@
 #ifndef _Storage_BucketOfPersistent_HeaderFile
 #define _Storage_BucketOfPersistent_HeaderFile
 
-#include <Standard_Integer.hxx>
-#include <Standard_Persistent.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Persistent.hxx>
 
 class Storage_Schema;
 class Storage_BucketOfPersistent;

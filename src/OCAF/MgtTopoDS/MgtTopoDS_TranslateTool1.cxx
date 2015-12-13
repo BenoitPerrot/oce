@@ -21,13 +21,13 @@
 
 
 
-#include <Standard_TypeMismatch.hxx>
+#include <Foundation/Standard/Standard_TypeMismatch.hxx>
 #include <TopoDS_Shape.hxx>
 #include <PTopoDS_Shape1.hxx>
 #include <PTColStd_TransientPersistentMap.hxx>
 #include <PTColStd_PersistentTransientMap.hxx>
 #include <MgtTopoDS_TranslateTool1.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MgtTopoDS_TranslateTool1)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

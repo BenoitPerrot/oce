@@ -6,18 +6,18 @@
 #ifndef _Transfer_ResultFromTransient_HeaderFile
 #define _Transfer_ResultFromTransient_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Transfer_ResultFromTransient.hxx>
 
 #include <Handle_Standard_Transient.hxx>
 #include <Handle_Transfer_Binder.hxx>
 #include <Handle_TColStd_HSequenceOfTransient.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Interface_Check.hxx>
 #include <Interface_CheckStatus.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Transfer_TransientProcess.hxx>
 class Standard_Transient;
 class Transfer_Binder;

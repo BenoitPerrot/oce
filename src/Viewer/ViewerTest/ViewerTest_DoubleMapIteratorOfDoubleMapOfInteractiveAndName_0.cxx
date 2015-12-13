@@ -5,8 +5,8 @@
 
 #include <ViewerTest_DoubleMapIteratorOfDoubleMapOfInteractiveAndName.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <TColStd_MapTransientHasher.hxx>
 #include <ViewerTest_DoubleMapOfInteractiveAndName.hxx>
@@ -14,7 +14,7 @@
  
 
 #define TheKey1 Handle(Standard_Transient)
-#define TheKey1_hxx <Standard_Transient.hxx>
+#define TheKey1_hxx <Foundation/Standard/Standard_Transient.hxx>
 #define TheKey2 TCollection_AsciiString
 #define TheKey2_hxx <TCollection_AsciiString.hxx>
 #define Hasher1 TColStd_MapTransientHasher

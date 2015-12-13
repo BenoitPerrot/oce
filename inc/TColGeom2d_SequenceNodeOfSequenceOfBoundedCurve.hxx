@@ -6,8 +6,8 @@
 #ifndef _TColGeom2d_SequenceNodeOfSequenceOfBoundedCurve_HeaderFile
 #define _TColGeom2d_SequenceNodeOfSequenceOfBoundedCurve_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TColGeom2d_SequenceNodeOfSequenceOfBoundedCurve.hxx>
 
 #include <Handle_Geom2d_BoundedCurve.hxx>

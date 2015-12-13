@@ -6,19 +6,19 @@
 #ifndef _BRepTools_ShapeSet_HeaderFile
 #define _BRepTools_ShapeSet_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <BRep_Builder.hxx>
 #include <GeomTools_SurfaceSet.hxx>
 #include <GeomTools_CurveSet.hxx>
 #include <GeomTools_Curve2dSet.hxx>
 #include <TColStd_IndexedMapOfTransient.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <TopTools_ShapeSet.hxx>
-#include <Standard_OStream.hxx>
-#include <Standard_IStream.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_IStream.hxx>
 #include <TopAbs_ShapeEnum.hxx>
 class BRep_Builder;
 class TopoDS_Shape;

@@ -6,14 +6,14 @@
 #ifndef _AdvApprox_PrefCutting_HeaderFile
 #define _AdvApprox_PrefCutting_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TColStd_Array1OfReal.hxx>
 #include <AdvApprox_Cutting.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class TColStd_Array1OfReal;
 
 

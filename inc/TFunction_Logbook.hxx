@@ -6,13 +6,13 @@
 #ifndef _TFunction_Logbook_HeaderFile
 #define _TFunction_Logbook_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TDF_LabelMap.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 class TDF_Label;
 class TDF_LabelMap;
 

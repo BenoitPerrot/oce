@@ -5,7 +5,7 @@
 
 #include <HLRBRep_CInter.hxx>
 
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <HLRBRep_CurveTool.hxx>
 #include <HLRBRep_TheProjPCurOfCInter.hxx>
 #include <HLRBRep_TheCurveLocatorOfTheProjPCurOfCInter.hxx>
@@ -22,7 +22,7 @@
  
 
 #define TheCurve Standard_Address
-#define TheCurve_hxx <Standard_Address.hxx>
+#define TheCurve_hxx <Foundation/Standard/Standard_Address.hxx>
 #define TheCurveTool HLRBRep_CurveTool
 #define TheCurveTool_hxx <HLRBRep_CurveTool.hxx>
 #define IntCurve_TheProjPCur HLRBRep_TheProjPCurOfCInter

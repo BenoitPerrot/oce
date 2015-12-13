@@ -6,14 +6,14 @@
 #ifndef _BRepFeat_Gluer_HeaderFile
 #define _BRepFeat_Gluer_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <LocOpe_Gluer.hxx>
 #include <BRepBuilderAPI_MakeShape.hxx>
 #include <LocOpe_Operation.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class TopoDS_Shape;
 class TopoDS_Face;
 class TopoDS_Edge;

@@ -13,9 +13,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_CLocaleSentry.hxx>
+#include <Foundation/Standard/Standard_CLocaleSentry.hxx>
 
-#include <Standard_TypeDef.hxx>
+#include <Foundation/Standard/Standard_TypeDef.hxx>
 
 #include <cstring>
 

@@ -18,8 +18,8 @@
 //  Modified by skv - Wed Jul  7 17:21:09 2004 IDEM(Airbus)
 
 #include <Geom2d_TrimmedCurve.hxx>
-#include <Standard_DomainError.hxx>
-#include <Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Geom2d_Curve.hxx>
 #include <gp_Pnt2d.hxx>
 #include <gp_Vec2d.hxx>
@@ -28,7 +28,7 @@
 #include <Geom2d_Geometry.hxx>
 #include <gp_Trsf2d.hxx>
 #include <Bisector_BisecAna.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Bisector_BisecAna)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Bisector_Curve),
@@ -65,7 +65,7 @@ IMPLEMENT_STANDARD_RTTI(Bisector_BisecAna)
 #include <IntRes2d_Domain.hxx>
 #include <IntRes2d_IntersectionSegment.hxx>
 #include <Geom2dInt_GInter.hxx>
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Precision.hxx>
 
 static Standard_Boolean Degenerate(Handle(GccInt_Bisec)& aBisector,

@@ -6,11 +6,11 @@
 #ifndef _MMgt_TShared_HeaderFile
 #define _MMgt_TShared_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_MMgt_TShared.hxx>
 
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 class Standard_OutOfMemory;
 
 

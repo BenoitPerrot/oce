@@ -6,19 +6,19 @@
 #ifndef _XSControl_WorkSession_HeaderFile
 #define _XSControl_WorkSession_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_XSControl_WorkSession.hxx>
 
 #include <Handle_XSControl_Controller.hxx>
 #include <Handle_XSControl_TransferReader.hxx>
 #include <Handle_XSControl_TransferWriter.hxx>
 #include <Handle_Dico_DictionaryOfTransient.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_XSControl_Vars.hxx>
 #include <IFSelect_WorkSession.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_Message_Messenger.hxx>
 #include <Handle_Transfer_TransientProcess.hxx>
 #include <Handle_Standard_Transient.hxx>

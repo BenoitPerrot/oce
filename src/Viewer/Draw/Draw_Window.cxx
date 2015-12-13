@@ -19,7 +19,7 @@
 #include <windows.h>
 #endif
 
-#include <Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
 
 #include <tcl.h>
 #include <Draw_Interpretor.hxx>

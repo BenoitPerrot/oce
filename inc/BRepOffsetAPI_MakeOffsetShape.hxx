@@ -6,15 +6,15 @@
 #ifndef _BRepOffsetAPI_MakeOffsetShape_HeaderFile
 #define _BRepOffsetAPI_MakeOffsetShape_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <BRepOffset_MakeOffset.hxx>
 #include <BRepBuilderAPI_MakeShape.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <BRepOffset_Mode.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <GeomAbs_JoinType.hxx>
 class TopoDS_Shape;
 class BRepOffset_MakeOffset;

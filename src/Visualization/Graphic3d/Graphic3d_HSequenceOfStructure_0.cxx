@@ -5,10 +5,10 @@
 
 #include <Graphic3d_HSequenceOfStructure.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Graphic3d_Structure.hxx>
 #include <Graphic3d_SequenceOfStructure.hxx>
 

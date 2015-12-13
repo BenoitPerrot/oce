@@ -69,8 +69,8 @@
 #include <TColStd_SequenceOfInteger.hxx>  
 
 //:36
-#include <Standard_ErrorHandler.hxx>
-#include <Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
 #include <Precision.hxx>
 
 //S3767

@@ -16,8 +16,8 @@
 #ifndef LDOMBasicString_HeaderFile
 #define LDOMBasicString_HeaderFile
 
-#include <Standard_Type.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <TCollection_ExtendedString.hxx>
 

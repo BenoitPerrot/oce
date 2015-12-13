@@ -6,15 +6,15 @@
 #ifndef _Vrml_LOD_HeaderFile
 #define _Vrml_LOD_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Vrml_LOD.hxx>
 
 #include <Handle_TColStd_HArray1OfReal.hxx>
 #include <gp_Vec.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 class TColStd_HArray1OfReal;
 class gp_Vec;
 

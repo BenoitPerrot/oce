@@ -8,9 +8,9 @@
  
 
 #define TheSubShape Standard_Real
-#define TheSubShape_hxx <Standard_Real.hxx>
+#define TheSubShape_hxx <Foundation/Standard/Standard_Real.hxx>
 #define TheShape Standard_Integer
-#define TheShape_hxx <Standard_Integer.hxx>
+#define TheShape_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TopBas_Interference TopBas_TestInterference
 #define TopBas_Interference_hxx <TopBas_TestInterference.hxx>
 #include <TopBas_Interference.gxx>

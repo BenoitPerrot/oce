@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <StepBasic_TimeMeasureWithUnit.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepBasic_TimeMeasureWithUnit)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepBasic_MeasureWithUnit),

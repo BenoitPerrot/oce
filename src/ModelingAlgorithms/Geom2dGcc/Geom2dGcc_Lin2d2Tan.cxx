@@ -16,7 +16,7 @@
 
 #include <StdFail_NotDone.hxx>
 #include <GccEnt_BadQualifier.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Geom2dGcc_QualifiedCurve.hxx>
 #include <gp_Pnt2d.hxx>
 #include <gp_Lin2d.hxx>
@@ -29,8 +29,8 @@
 #include <Geom2d_Circle.hxx>
 #include <GccEnt_QualifiedCirc.hxx>
 #include <StdFail_NotDone.hxx>
-#include <Standard_NegativeValue.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NegativeValue.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Geom2dGcc_CurveTool.hxx>
 
 //  Modified by Sergey KHROMOV - Wed Oct 16 11:44:41 2002 Begin

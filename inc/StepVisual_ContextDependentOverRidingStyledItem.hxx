@@ -6,8 +6,8 @@
 #ifndef _StepVisual_ContextDependentOverRidingStyledItem_HeaderFile
 #define _StepVisual_ContextDependentOverRidingStyledItem_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepVisual_ContextDependentOverRidingStyledItem.hxx>
 
 #include <Handle_StepVisual_HArray1OfStyleContextSelect.hxx>
@@ -16,7 +16,7 @@
 #include <Handle_StepVisual_HArray1OfPresentationStyleAssignment.hxx>
 #include <Handle_StepRepr_RepresentationItem.hxx>
 #include <Handle_StepVisual_StyledItem.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class StepVisual_HArray1OfStyleContextSelect;
 class TCollection_HAsciiString;
 class StepVisual_HArray1OfPresentationStyleAssignment;

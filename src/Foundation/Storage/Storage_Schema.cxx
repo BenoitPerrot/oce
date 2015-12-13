@@ -12,9 +12,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_ErrorHandler.hxx>
-#include <Standard_Persistent.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_Persistent.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Storage.hxx>
 #include <Storage_BaseDriver.hxx>

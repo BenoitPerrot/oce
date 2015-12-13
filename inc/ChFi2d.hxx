@@ -6,11 +6,11 @@
 #ifndef _ChFi2d_HeaderFile
 #define _ChFi2d_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ChFi2d_ConstructionError.hxx>
 class TopoDS_Edge;
 class TopoDS_Vertex;

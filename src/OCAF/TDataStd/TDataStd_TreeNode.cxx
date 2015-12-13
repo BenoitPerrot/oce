@@ -16,13 +16,13 @@
 
 #include <TDataStd_ChildNodeIterator.hxx>
 #include <TDF_Label.hxx>
-#include <Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
 #include <TDF_AttributeDelta.hxx>
 #include <TDF_Attribute.hxx>
 #include <TDF_RelocationTable.hxx>
 #include <TDF_DataSet.hxx>
 #include <TDataStd_TreeNode.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDataStd_TreeNode)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(TDF_Attribute),
@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_TYPE_END(TDataStd_TreeNode)
 IMPLEMENT_DOWNCAST(TDataStd_TreeNode,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TDataStd_TreeNode)
 #include <TDF_Label.hxx>
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 
 // This bug concerns the method IsDescendant():
 #define BUC60817

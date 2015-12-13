@@ -23,7 +23,7 @@
 #include <stdio.h>
 
 #include <Geom_BSplineSurface.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <TColGeom_SequenceOfCurve.hxx>
 #include <TColStd_SequenceOfReal.hxx>
 #include <GeomFill_SequenceOfTrsf.hxx>
@@ -34,7 +34,7 @@
 #include <gp_Pnt.hxx>
 #include <Geom_Curve.hxx>
 #include <GeomFill_NSections.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(GeomFill_NSections)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(GeomFill_SectionLaw),

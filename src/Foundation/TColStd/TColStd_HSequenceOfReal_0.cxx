@@ -5,10 +5,10 @@
 
 #include <TColStd_HSequenceOfReal.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <TColStd_SequenceOfReal.hxx>
 
  
@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_RTTI(TColStd_HSequenceOfReal)
 
 
 #define Item Standard_Real
-#define Item_hxx <Standard_Real.hxx>
+#define Item_hxx <Foundation/Standard/Standard_Real.hxx>
 #define TheSequence TColStd_SequenceOfReal
 #define TheSequence_hxx <TColStd_SequenceOfReal.hxx>
 #define TCollection_HSequence TColStd_HSequenceOfReal

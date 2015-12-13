@@ -15,7 +15,7 @@
 #include <TCollection_HAsciiString.hxx>
 #include <StepRepr_RepresentationItem.hxx>
 #include <StepRepr_CompoundRepresentationItem.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepRepr_CompoundRepresentationItem)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepRepr_RepresentationItem),

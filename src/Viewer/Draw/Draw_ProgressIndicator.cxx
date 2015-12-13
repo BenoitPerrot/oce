@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <Draw_ProgressIndicator.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Draw_ProgressIndicator)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Message_ProgressIndicator),

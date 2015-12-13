@@ -6,7 +6,7 @@
 #ifndef _TopoDSToStep_MakeWireError_HeaderFile
 #define _TopoDSToStep_MakeWireError_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum TopoDSToStep_MakeWireError

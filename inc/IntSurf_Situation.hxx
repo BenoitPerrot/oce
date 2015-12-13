@@ -6,7 +6,7 @@
 #ifndef _IntSurf_Situation_HeaderFile
 #define _IntSurf_Situation_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum IntSurf_Situation

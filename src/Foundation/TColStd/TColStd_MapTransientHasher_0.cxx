@@ -5,11 +5,11 @@
 
 #include <TColStd_MapTransientHasher.hxx>
 
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
  
 
 #define Key Handle(Standard_Transient)
-#define Key_hxx <Standard_Transient.hxx>
+#define Key_hxx <Foundation/Standard/Standard_Transient.hxx>
 #define TCollection_MapHasher TColStd_MapTransientHasher
 #define TCollection_MapHasher_hxx <TColStd_MapTransientHasher.hxx>
 #include <TCollection_MapHasher.gxx>

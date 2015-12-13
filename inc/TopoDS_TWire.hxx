@@ -6,8 +6,8 @@
 #ifndef _TopoDS_TWire_HeaderFile
 #define _TopoDS_TWire_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TopoDS_TWire.hxx>
 
 #include <TopoDS_TShape.hxx>

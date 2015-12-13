@@ -6,21 +6,21 @@
 #ifndef _AIS_Chamf2dDimension_HeaderFile
 #define _AIS_Chamf2dDimension_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_AIS_Chamf2dDimension.hxx>
 
 #include <gp_Pnt.hxx>
 #include <gp_Dir.hxx>
 #include <AIS_Relation.hxx>
 #include <Handle_Geom_Plane.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <DsgPrs_ArrowSide.hxx>
 #include <AIS_KindOfDimension.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <PrsMgr_PresentationManager3d.hxx>
 #include <Handle_Prs3d_Presentation.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Prs3d_Projector.hxx>
 #include <Handle_Geom_Transformation.hxx>
 #include <Handle_SelectMgr_Selection.hxx>

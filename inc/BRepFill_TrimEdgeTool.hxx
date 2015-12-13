@@ -6,14 +6,14 @@
 #ifndef _BRepFill_TrimEdgeTool_HeaderFile
 #define _BRepFill_TrimEdgeTool_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <gp_Pnt2d.hxx>
 #include <Handle_Geom2d_Curve.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Bisector_Bisec.hxx>
 #include <Geom2dAdaptor_Curve.hxx>
 #include <Handle_Geom2d_Geometry.hxx>

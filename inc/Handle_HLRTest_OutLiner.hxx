@@ -6,8 +6,8 @@
 #ifndef _Handle_HLRTest_OutLiner_HeaderFile
 #define _Handle_HLRTest_OutLiner_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Draw_Drawable3D.hxx>
 
 class Standard_Transient;

@@ -6,14 +6,14 @@
 #ifndef _LocOpe_PntFace_HeaderFile
 #define _LocOpe_PntFace_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <gp_Pnt.hxx>
 #include <TopoDS_Face.hxx>
 #include <TopAbs_Orientation.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class gp_Pnt;
 class TopoDS_Face;
 

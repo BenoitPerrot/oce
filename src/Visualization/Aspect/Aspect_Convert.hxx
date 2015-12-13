@@ -14,7 +14,7 @@
 #ifndef _Aspect_Convert_HeaderFile
 #define _Aspect_Convert_HeaderFile
 
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Quantity/Quantity_Parameter.hxx>
 
 //! Auxiliary functions for DCU <-> Pixels conversions.

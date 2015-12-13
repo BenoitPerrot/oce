@@ -6,7 +6,7 @@
 #ifndef _Aspect_GridDrawMode_HeaderFile
 #define _Aspect_GridDrawMode_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Defines the grid draw mode. The grid may be drawn
 //! by using lines or points.

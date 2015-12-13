@@ -6,12 +6,12 @@
 #ifndef _AIS_IndexedDataMapNodeOfIndexedDataMapOfOwnerPrs_HeaderFile
 #define _AIS_IndexedDataMapNodeOfIndexedDataMapOfOwnerPrs_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_AIS_IndexedDataMapNodeOfIndexedDataMapOfOwnerPrs.hxx>
 
 #include <Handle_SelectMgr_EntityOwner.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Prs3d_Presentation.hxx>
 #include <TCollection_MapNodePtr.hxx>
 #include <TCollection_MapNode.hxx>

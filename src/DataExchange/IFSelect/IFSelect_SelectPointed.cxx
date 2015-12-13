@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <Interface_InterfaceError.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <TColStd_HSequenceOfTransient.hxx>
 #include <Interface_CopyControl.hxx>
 #include <IFSelect_Transformer.hxx>
@@ -20,7 +20,7 @@
 #include <Interface_Graph.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <IFSelect_SelectPointed.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IFSelect_SelectPointed)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(IFSelect_SelectBase),

@@ -6,11 +6,11 @@
 #ifndef _STEPCAFControl_ActorWrite_HeaderFile
 #define _STEPCAFControl_ActorWrite_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_STEPCAFControl_ActorWrite.hxx>
 
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <TopTools_MapOfShape.hxx>
 #include <STEPControl_ActorWrite.hxx>
 class TopoDS_Shape;

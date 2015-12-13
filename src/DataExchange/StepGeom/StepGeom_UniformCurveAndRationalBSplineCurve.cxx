@@ -17,7 +17,7 @@
 #include <StepGeom_HArray1OfCartesianPoint.hxx>
 #include <TColStd_HArray1OfReal.hxx>
 #include <StepGeom_UniformCurveAndRationalBSplineCurve.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepGeom_UniformCurveAndRationalBSplineCurve)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepGeom_BSplineCurve),

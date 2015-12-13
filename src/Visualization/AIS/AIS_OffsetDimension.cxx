@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 
 #include <TopoDS_Shape.hxx>
 #include <TCollection_ExtendedString.hxx>
@@ -24,7 +24,7 @@
 #include <SelectMgr_Selection.hxx>
 #include <gp_Trsf.hxx>
 #include <AIS_OffsetDimension.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_OffsetDimension)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(AIS_Relation),

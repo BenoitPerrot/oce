@@ -18,7 +18,7 @@
 #include <gp_Pnt.hxx>
 #include <Draw_Display.hxx>
 #include <DrawDim_Dimension.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DrawDim_Dimension)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Draw_Drawable3D),
@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(DrawDim_Dimension)
 IMPLEMENT_DOWNCAST(DrawDim_Dimension,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(DrawDim_Dimension)
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Draw_Interpretor.hxx>
 #include <TCollection_AsciiString.hxx>
 

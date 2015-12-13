@@ -6,7 +6,7 @@
 #ifndef _HatchGen_IntersectionType_HeaderFile
 #define _HatchGen_IntersectionType_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Intersection type between the hatching and the
 //! element.

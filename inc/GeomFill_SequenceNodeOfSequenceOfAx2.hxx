@@ -6,8 +6,8 @@
 #ifndef _GeomFill_SequenceNodeOfSequenceOfAx2_HeaderFile
 #define _GeomFill_SequenceNodeOfSequenceOfAx2_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_GeomFill_SequenceNodeOfSequenceOfAx2.hxx>
 
 #include <gp_Ax2.hxx>

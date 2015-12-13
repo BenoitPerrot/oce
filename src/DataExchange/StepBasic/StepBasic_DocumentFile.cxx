@@ -19,7 +19,7 @@
 #include <TCollection_HAsciiString.hxx>
 #include <StepBasic_DocumentType.hxx>
 #include <StepBasic_DocumentFile.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepBasic_DocumentFile)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepBasic_Document),

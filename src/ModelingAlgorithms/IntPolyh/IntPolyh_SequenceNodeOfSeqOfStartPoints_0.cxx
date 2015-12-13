@@ -5,7 +5,7 @@
 
 #include <IntPolyh_SequenceNodeOfSeqOfStartPoints.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <IntPolyh_StartPoint.hxx>
 #include <IntPolyh_SeqOfStartPoints.hxx>

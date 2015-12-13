@@ -5,7 +5,7 @@
 
 #include <StepToTopoDS_DataMapNodeOfDataMapOfRI.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <StepRepr_RepresentationItem.hxx>
 #include <TopoDS_Shape.hxx>

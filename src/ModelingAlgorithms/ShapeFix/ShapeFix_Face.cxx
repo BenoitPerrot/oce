@@ -40,7 +40,7 @@
 #include <TopoDS_Vertex.hxx>
 #include <ShapeFix_DataMapOfShapeBox2d.hxx>
 #include <ShapeFix_Face.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeFix_Face)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(ShapeFix_Root),
@@ -51,8 +51,8 @@ IMPLEMENT_STANDARD_TYPE_END(ShapeFix_Face)
 IMPLEMENT_DOWNCAST(ShapeFix_Face,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ShapeFix_Face)
 
-#include <Standard_Failure.hxx>
-#include <Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
 
 #include <Precision.hxx>
 

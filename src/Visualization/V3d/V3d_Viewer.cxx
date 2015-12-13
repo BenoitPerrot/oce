@@ -31,7 +31,7 @@
 #include <Aspect_GradientBackground.hxx>
 #include <TColStd_SequenceOfInteger.hxx>
 #include <V3d_Viewer.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(V3d_Viewer)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

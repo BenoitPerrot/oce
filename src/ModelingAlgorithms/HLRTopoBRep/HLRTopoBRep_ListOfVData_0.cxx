@@ -5,7 +5,7 @@
 
 #include <HLRTopoBRep_ListOfVData.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <HLRTopoBRep_ListIteratorOfListOfVData.hxx>
 #include <HLRTopoBRep_VData.hxx>
 #include <HLRTopoBRep_ListNodeOfListOfVData.hxx>

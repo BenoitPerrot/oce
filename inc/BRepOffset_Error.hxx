@@ -6,7 +6,7 @@
 #ifndef _BRepOffset_Error_HeaderFile
 #define _BRepOffset_Error_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum BRepOffset_Error

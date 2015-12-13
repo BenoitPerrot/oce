@@ -19,7 +19,7 @@
 #include <Foundation/OSD/OSD_Environment.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <TCollection_ExtendedString.hxx>
-#include <Standard_Mutex.hxx>
+#include <Foundation/Standard/Standard_Mutex.hxx>
 #include <Foundation/OSD/OSD_OpenFile.hxx>
 
 #include <stdlib.h>

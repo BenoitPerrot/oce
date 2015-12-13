@@ -6,18 +6,18 @@
 #ifndef _Geom2dGcc_Circ2d2TanRad_HeaderFile
 #define _Geom2dGcc_Circ2d2TanRad_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <TColgp_Array1OfCirc2d.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <GccEnt_Array1OfPosition.hxx>
 #include <TColStd_Array1OfInteger.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>
 #include <TColStd_Array1OfReal.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Geom2d_Point.hxx>
 #include <GccEnt_Position.hxx>
 class Standard_OutOfRange;

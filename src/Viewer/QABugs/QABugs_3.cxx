@@ -24,7 +24,7 @@
 #include <BRep_Tool.hxx>
 #include <GeomInt_IntSS.hxx>
 #include <BRepLib_MakeEdge.hxx>
-#include <Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Graphic3d_ClipPlane.hxx>
 
 #include <fstream>

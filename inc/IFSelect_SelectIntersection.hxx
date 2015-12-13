@@ -6,8 +6,8 @@
 #ifndef _IFSelect_SelectIntersection_HeaderFile
 #define _IFSelect_SelectIntersection_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IFSelect_SelectIntersection.hxx>
 
 #include <IFSelect_SelectCombine.hxx>

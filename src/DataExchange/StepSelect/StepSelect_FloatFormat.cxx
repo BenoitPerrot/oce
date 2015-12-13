@@ -15,7 +15,7 @@
 #include <IFSelect_ContextWrite.hxx>
 #include <StepData_StepWriter.hxx>
 #include <StepSelect_FloatFormat.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepSelect_FloatFormat)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepSelect_FileModifier),

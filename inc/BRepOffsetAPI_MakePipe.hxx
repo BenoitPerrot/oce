@@ -6,15 +6,15 @@
 #ifndef _BRepOffsetAPI_MakePipe_HeaderFile
 #define _BRepOffsetAPI_MakePipe_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <BRepFill_Pipe.hxx>
 #include <BRepPrimAPI_MakeSweep.hxx>
 #include <GeomFill_Trihedron.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class TopoDS_Wire;
 class TopoDS_Shape;
 class BRepFill_Pipe;

@@ -14,9 +14,9 @@
 #ifndef _BRepMesh_Circle_HeaderFile
 #define _BRepMesh_Circle_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 #include <gp_XY.hxx>
 
 //! Describes a 2d circle with a size of only 3 Standard_Real 

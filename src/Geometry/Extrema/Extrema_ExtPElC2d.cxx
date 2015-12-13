@@ -16,7 +16,7 @@
 
 #include <Precision.hxx>
 #include <StdFail_NotDone.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <gp_Pnt2d.hxx>
 #include <gp_Lin2d.hxx>
 #include <gp_Circ2d.hxx>
@@ -29,8 +29,8 @@
 #include <math_DirectPolynomialRoots.hxx>
 #include <math_TrigonometricFunctionRoots.hxx>
 #include <ElCLib.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 //=============================================================================
 
 Extrema_ExtPElC2d::Extrema_ExtPElC2d () { myDone = Standard_False; }

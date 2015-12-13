@@ -23,7 +23,7 @@
 #include <TDF_Tool.hxx>
 #include <TDF_ChildIterator.hxx>
 #include <TDF_Label.hxx>
-#include <Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
 #include <TDataStd_Directory.hxx>
 #include <TDataXtd_Shape.hxx>
 

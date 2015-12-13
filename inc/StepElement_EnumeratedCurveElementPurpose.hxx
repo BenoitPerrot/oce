@@ -6,7 +6,7 @@
 #ifndef _StepElement_EnumeratedCurveElementPurpose_HeaderFile
 #define _StepElement_EnumeratedCurveElementPurpose_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum StepElement_EnumeratedCurveElementPurpose

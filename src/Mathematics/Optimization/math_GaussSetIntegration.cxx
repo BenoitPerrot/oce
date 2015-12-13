@@ -19,7 +19,7 @@
 //#endif
 
 #include <StdFail_NotDone.hxx>
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <math_FunctionSet.hxx>
 #include <math_GaussSetIntegration.hxx>
 #include <math.hxx>

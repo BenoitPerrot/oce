@@ -16,7 +16,7 @@
 #include <XmlMDF_ADriverTable.hxx>
 #include <CDM_MessageDriver.hxx>
 #include <XmlXCAFDrivers_DocumentRetrievalDriver.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XmlXCAFDrivers_DocumentRetrievalDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(XmlDrivers_DocumentRetrievalDriver),

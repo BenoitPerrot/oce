@@ -6,16 +6,16 @@
 #ifndef _PBRep_TFace1_HeaderFile
 #define _PBRep_TFace1_HeaderFile
 
-#include <Standard_Macro.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Handle_PBRep_TFace1.hxx>
 
 #include <Handle_PGeom_Surface.hxx>
 #include <Handle_PPoly_Triangulation.hxx>
 #include <PTopLoc_Location.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <PTopoDS_TFace1.hxx>
 class PGeom_Surface;
 class PPoly_Triangulation;

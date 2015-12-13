@@ -6,16 +6,16 @@
 #ifndef _Expr_BinaryFunction_HeaderFile
 #define _Expr_BinaryFunction_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Expr_BinaryFunction.hxx>
 
 #include <Handle_Expr_GeneralFunction.hxx>
 #include <Expr_BinaryExpression.hxx>
 #include <Handle_Expr_GeneralExpression.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Expr_NamedUnknown.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class Expr_GeneralFunction;
 class Expr_InvalidFunction;
 class Standard_NumericError;

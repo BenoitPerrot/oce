@@ -14,7 +14,7 @@
 #include <StepVisual_HArray1OfPresentationStyleSelect.hxx>
 #include <StepVisual_PresentationStyleSelect.hxx>
 #include <StepVisual_PresentationStyleAssignment.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepVisual_PresentationStyleAssignment)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

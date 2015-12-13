@@ -44,9 +44,9 @@
 #include <TDF_LabelMap.hxx>
 #include <TNaming_Tool.hxx>
 
-#include <Standard_NotImplemented.hxx>
-#include <Standard_ConstructionError.hxx>
-#include <Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <TopTools_Array1OfShape.hxx>
 #include <TColStd_Array1OfInteger.hxx>
 #include <TopoDS_Wire.hxx>

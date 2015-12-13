@@ -6,16 +6,16 @@
 #ifndef _MeshVS_DataMapOfHArray1OfSequenceOfInteger_HeaderFile
 #define _MeshVS_DataMapOfHArray1OfSequenceOfInteger_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TCollection_BasicMap.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_MeshVS_HArray1OfSequenceOfInteger.hxx>
 #include <Handle_MeshVS_DataMapNodeOfDataMapOfHArray1OfSequenceOfInteger.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
 class Standard_DomainError;
 class Standard_NoSuchObject;
 class MeshVS_HArray1OfSequenceOfInteger;

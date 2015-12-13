@@ -6,8 +6,8 @@
 #ifndef _Storage_DataMapNodeOfMapOfPers_HeaderFile
 #define _Storage_DataMapNodeOfMapOfPers_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Storage_DataMapNodeOfMapOfPers.hxx>
 
 #include <TCollection_AsciiString.hxx>

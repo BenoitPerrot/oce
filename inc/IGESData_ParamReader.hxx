@@ -6,20 +6,20 @@
 #ifndef _IGESData_ParamReader_HeaderFile
 #define _IGESData_ParamReader_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_Interface_ParamList.hxx>
 #include <Handle_Interface_Check.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <IGESData_ReadStage.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Interface_ParamType.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_IGESData_IGESEntity.hxx>
 #include <Handle_IGESData_IGESReaderData.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <IGESData_Status.hxx>
 #include <Handle_Standard_Type.hxx>

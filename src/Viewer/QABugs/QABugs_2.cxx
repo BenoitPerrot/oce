@@ -34,7 +34,7 @@
 #include <BRepAlgoAPI_Section.hxx>
 #include <BRepAlgo_Section.hxx>
 #include <Precision.hxx>
-#include <Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
 
 #include <stdio.h>
 

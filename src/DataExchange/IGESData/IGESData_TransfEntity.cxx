@@ -13,7 +13,7 @@
 
 #include <gp_GTrsf.hxx>
 #include <IGESData_TransfEntity.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESData_TransfEntity)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(IGESData_IGESEntity),

@@ -6,8 +6,8 @@
 #ifndef _TopOpeBRep_SequenceNodeOfSequenceOfPoint2d_HeaderFile
 #define _TopOpeBRep_SequenceNodeOfSequenceOfPoint2d_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TopOpeBRep_SequenceNodeOfSequenceOfPoint2d.hxx>
 
 #include <TopOpeBRep_Point2d.hxx>

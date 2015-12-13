@@ -5,7 +5,7 @@
 
 #include <MeshVS_DataMapIteratorOfDataMapOfColorMapOfInteger.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <TColStd_MapOfInteger.hxx>
 #include <MeshVS_ColorHasher.hxx>

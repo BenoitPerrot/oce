@@ -14,8 +14,8 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/NCollection/NCollection_AccAllocator.hxx>
-#include <Standard_OutOfMemory.hxx>
-#include <Standard_Assert.hxx>
+#include <Foundation/Standard/Standard_OutOfMemory.hxx>
+#include <Foundation/Standard/Standard_Assert.hxx>
 
 
 IMPLEMENT_STANDARD_HANDLE  (NCollection_AccAllocator, NCollection_BaseAllocator)

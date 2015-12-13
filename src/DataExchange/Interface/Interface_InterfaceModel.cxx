@@ -18,12 +18,12 @@
 #include <Interface_Check.hxx>
 #include <TCollection_HAsciiString.hxx>
 #include <Interface_GTool.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Interface_InterfaceMismatch.hxx>
 #include <Interface_Protocol.hxx>
-#include <Standard_Transient.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 #include <Interface_ReportEntity.hxx>
 #include <Interface_CheckIterator.hxx>
 #include <Interface_GeneralLib.hxx>
@@ -31,7 +31,7 @@
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <TColStd_HSequenceOfHAsciiString.hxx>
 #include <Interface_InterfaceModel.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Interface_InterfaceModel)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),
@@ -47,7 +47,7 @@ IMPLEMENT_STANDARD_RTTI(Interface_InterfaceModel)
 #include <Foundation/Dico/Dico_DictionaryOfTransient.hxx>
 #include <Foundation/Dico/Dico_IteratorOfDictionaryOfTransient.hxx>
 #include <TColStd_DataMapIteratorOfDataMapOfIntegerTransient.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Interface_SignType.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 

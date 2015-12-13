@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <PTopoDS_TSolid.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PTopoDS_TSolid)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(PTopoDS_TShape),

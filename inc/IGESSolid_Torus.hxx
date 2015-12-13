@@ -6,11 +6,11 @@
 #ifndef _IGESSolid_Torus_HeaderFile
 #define _IGESSolid_Torus_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESSolid_Torus.hxx>
 
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <gp_XYZ.hxx>
 #include <IGESData_IGESEntity.hxx>
 class gp_XYZ;

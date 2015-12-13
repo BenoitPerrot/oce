@@ -6,17 +6,17 @@
 #ifndef _TopOpeBRepDS_BuildTool_HeaderFile
 #define _TopOpeBRepDS_BuildTool_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <BRep_Builder.hxx>
 #include <TopOpeBRepTool_CurveTool.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <TopOpeBRepTool_OutCurveType.hxx>
 #include <Handle_Geom_Curve.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TopOpeBRepDS_HDataStructure.hxx>
 #include <Handle_Geom2d_Curve.hxx>
 #include <TopAbs_Orientation.hxx>

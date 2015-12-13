@@ -5,7 +5,7 @@
 
 #include <XmlMDF_DataMapNodeOfMapOfDriver.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <XmlMDF_ADriver.hxx>
 #include <TCollection_AsciiString.hxx>

@@ -5,15 +5,15 @@
 
 #include <TColStd_Array1OfTransient.hxx>
 
-#include <Standard_RangeError.hxx>
-#include <Standard_DimensionMismatch.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_OutOfMemory.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_DimensionMismatch.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfMemory.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
  
 
 #define Array1Item Handle(Standard_Transient)
-#define Array1Item_hxx <Standard_Transient.hxx>
+#define Array1Item_hxx <Foundation/Standard/Standard_Transient.hxx>
 #define TCollection_Array1 TColStd_Array1OfTransient
 #define TCollection_Array1_hxx <TColStd_Array1OfTransient.hxx>
 #include <TCollection_Array1.gxx>

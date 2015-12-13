@@ -5,7 +5,7 @@
 
 #include <IntTools_ListOfSurfaceRangeSample.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <IntTools_ListIteratorOfListOfSurfaceRangeSample.hxx>
 #include <IntTools_SurfaceRangeSample.hxx>
 #include <IntTools_ListNodeOfListOfSurfaceRangeSample.hxx>

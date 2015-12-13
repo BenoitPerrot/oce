@@ -5,7 +5,7 @@
 
 #include <IntTools_DataMapIteratorOfDataMapOfSurfaceSampleBox.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <IntTools_SurfaceRangeSample.hxx>
 #include <Bnd_Box.hxx>
 #include <IntTools_SurfaceRangeSampleMapHasher.hxx>

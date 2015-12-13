@@ -12,12 +12,12 @@
 // commercial license or contractual agreement.
 
 #include <TColStd_HSequenceOfTransient.hxx>
-#include <Standard_TypeMismatch.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_Type.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_TypeMismatch.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <Transfer_TransientListBinder.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Transfer_TransientListBinder)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Transfer_Binder),

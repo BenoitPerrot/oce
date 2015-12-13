@@ -16,12 +16,12 @@
 
 #define No_Standard_NoSuchObject
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <gp_Trsf.hxx>
 #include <TopLoc_Datum3D.hxx>
 #include <TopLoc_Location.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopLoc_Datum3D.hxx>
 #include <TopLoc_SListOfItemLocation.hxx>
 #include <TopLoc_ItemLocation.hxx>

@@ -5,14 +5,14 @@
 
 #include <TColStd_MapOfTransient.hxx>
 
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <TColStd_MapTransientHasher.hxx>
 #include <TColStd_StdMapNodeOfMapOfTransient.hxx>
 #include <TColStd_MapIteratorOfMapOfTransient.hxx>
  
 
 #define TheKey Handle(Standard_Transient)
-#define TheKey_hxx <Standard_Transient.hxx>
+#define TheKey_hxx <Foundation/Standard/Standard_Transient.hxx>
 #define Hasher TColStd_MapTransientHasher
 #define Hasher_hxx <TColStd_MapTransientHasher.hxx>
 #define TCollection_StdMapNode TColStd_StdMapNodeOfMapOfTransient

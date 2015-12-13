@@ -6,16 +6,16 @@
 #ifndef _BOPTest_DrawableShape_HeaderFile
 #define _BOPTest_DrawableShape_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BOPTest_DrawableShape.hxx>
 
 #include <Handle_Draw_Text3D.hxx>
 #include <Draw_Color.hxx>
 #include <DBRep_DrawableShape.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 class Draw_Text3D;
 class TopoDS_Shape;
 class Draw_Color;

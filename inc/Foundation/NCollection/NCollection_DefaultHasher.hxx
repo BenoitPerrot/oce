@@ -15,8 +15,8 @@
 #ifndef NCollection_DefaultHasher_HeaderFile
 #define NCollection_DefaultHasher_HeaderFile
 
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 
 //=======================================================================
 //function : HashCode_Proxy

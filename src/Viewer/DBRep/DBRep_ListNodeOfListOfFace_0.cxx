@@ -5,7 +5,7 @@
 
 #include <DBRep_ListNodeOfListOfFace.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <DBRep_Face.hxx>
 #include <DBRep_ListOfFace.hxx>

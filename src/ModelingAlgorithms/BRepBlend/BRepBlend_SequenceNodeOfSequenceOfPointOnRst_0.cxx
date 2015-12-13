@@ -5,7 +5,7 @@
 
 #include <BRepBlend_SequenceNodeOfSequenceOfPointOnRst.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <BRepBlend_PointOnRst.hxx>
 #include <BRepBlend_SequenceOfPointOnRst.hxx>

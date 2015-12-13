@@ -25,7 +25,7 @@
 #include <Geom_Transformation.hxx>
 #include <SelectMgr_Selection.hxx>
 #include <AIS_ParallelRelation.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_ParallelRelation)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(AIS_Relation),
@@ -39,8 +39,8 @@ IMPLEMENT_STANDARD_TYPE_END(AIS_ParallelRelation)
 IMPLEMENT_DOWNCAST(AIS_ParallelRelation,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(AIS_ParallelRelation)
 
-#include <Standard_NotImplemented.hxx>
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 
 #include <Precision.hxx>
 

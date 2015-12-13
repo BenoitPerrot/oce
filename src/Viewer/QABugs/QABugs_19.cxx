@@ -50,7 +50,7 @@
 #include <GeomFill_Trihedron.hxx>
 #include <BRepOffsetAPI_MakePipe.hxx>
 
-#include <Standard_Version.hxx>
+#include <Foundation/Standard/Standard_Version.hxx>
 
 #define QCOMPARE(val1, val2) \
   di << "Checking " #val1 " == " #val2 << \
@@ -158,7 +158,7 @@ static Standard_Integer OCC23237 (Draw_Interpretor& di, Standard_Integer /*argc*
 
 #ifdef HAVE_TBB
 
-#include <Standard_Atomic.hxx>
+#include <Foundation/Standard/Standard_Atomic.hxx>
 #include <tbb/blocked_range.h>
 #include <tbb/parallel_for.h>
 
@@ -1580,7 +1580,7 @@ static Standard_Integer OCC24271 (Draw_Interpretor& di,
 
 #include <GeomInt_IntSS.hxx>
 #include <Geom_ConicalSurface.hxx>
-#include <Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
 //=======================================================================
 //function : OCC23972
 //purpose  : 

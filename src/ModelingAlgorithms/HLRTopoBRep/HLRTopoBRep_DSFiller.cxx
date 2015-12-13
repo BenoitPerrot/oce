@@ -54,7 +54,7 @@
 #include <BRepTopAdaptor_Tool.hxx>
 #include <Contap_Line.hxx>
 #include <Extrema_LocateExtPC.hxx>
-#include <Standard_ProgramError.hxx>
+#include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <Precision.hxx>
 #include <BRepApprox_ApproxLine.hxx>
 #include <BRepApprox_Approx.hxx>

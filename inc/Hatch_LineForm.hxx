@@ -6,7 +6,7 @@
 #ifndef _Hatch_LineForm_HeaderFile
 #define _Hatch_LineForm_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Form of a trimmed line
 enum Hatch_LineForm

@@ -6,12 +6,12 @@
 #ifndef _ShapeUpgrade_ShapeDivideContinuity_HeaderFile
 #define _ShapeUpgrade_ShapeDivideContinuity_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <GeomAbs_Shape.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <ShapeUpgrade_ShapeDivide.hxx>
 #include <Handle_ShapeUpgrade_FaceDivide.hxx>
 class TopoDS_Shape;

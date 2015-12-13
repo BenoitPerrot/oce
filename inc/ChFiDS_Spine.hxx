@@ -6,18 +6,18 @@
 #ifndef _ChFiDS_Spine_HeaderFile
 #define _ChFiDS_Spine_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ChFiDS_Spine.hxx>
 
 #include <BRepAdaptor_Curve.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <ChFiDS_State.hxx>
 #include <TopTools_SequenceOfShape.hxx>
 #include <Handle_TColStd_HArray1OfReal.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ChFiDS_ListOfHElSpine.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Vec.hxx>
 #include <ChFiDS_ErrorStatus.hxx>

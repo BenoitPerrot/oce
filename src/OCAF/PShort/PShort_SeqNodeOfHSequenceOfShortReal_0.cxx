@@ -5,7 +5,7 @@
 
 #include <PShort_SeqNodeOfHSequenceOfShortReal.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <PShort_SeqNodeOfHSequenceOfShortReal.hxx>
 #include <PShort_HSequenceOfShortReal.hxx>
@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_RTTI(PShort_SeqNodeOfHSequenceOfShortReal)
 
 
 #define Item Standard_ShortReal
-#define Item_hxx <Standard_ShortReal.hxx>
+#define Item_hxx <Foundation/Standard/Standard_ShortReal.hxx>
 #define PCollection_SeqNode PShort_SeqNodeOfHSequenceOfShortReal
 #define PCollection_SeqNode_hxx <PShort_SeqNodeOfHSequenceOfShortReal.hxx>
 #define PCollection_SeqExplorer PShort_SeqExplorerOfHSequenceOfShortReal

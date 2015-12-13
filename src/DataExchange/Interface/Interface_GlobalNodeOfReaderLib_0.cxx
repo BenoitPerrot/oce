@@ -5,12 +5,12 @@
 
 #include <Interface_GlobalNodeOfReaderLib.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Interface_ReaderModule.hxx>
 #include <Interface_Protocol.hxx>
 #include <Interface_GlobalNodeOfReaderLib.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <Interface_ReaderLib.hxx>
 #include <Interface_NodeOfReaderLib.hxx>
 
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(Interface_GlobalNodeOfReaderLib)
 
 
 #define TheObject Handle(Standard_Transient)
-#define TheObject_hxx <Standard_Transient.hxx>
+#define TheObject_hxx <Foundation/Standard/Standard_Transient.hxx>
 #define Handle_TheModule Handle_Interface_ReaderModule
 #define TheModule Interface_ReaderModule
 #define TheModule_hxx <Interface_ReaderModule.hxx>

@@ -20,9 +20,9 @@
 // Modified     18/11/96 : JPI : inversion de l'offsetValue dans UReverse et Vreverse
 
 #include <Geom_Surface.hxx>
-#include <Standard_ConstructionError.hxx>
-#include <Standard_RangeError.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Geom_UndefinedDerivative.hxx>
 #include <Geom_UndefinedValue.hxx>
 #include <Geom_Curve.hxx>
@@ -33,7 +33,7 @@
 #include <gp_GTrsf2d.hxx>
 #include <Geom_Geometry.hxx>
 #include <Geom_OffsetSurface.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Geom_OffsetSurface)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Geom_Surface),
@@ -52,9 +52,9 @@ IMPLEMENT_STANDARD_RTTI(Geom_OffsetSurface)
 #include <BSplCLib.hxx>
 #include <CSLib.hxx>
 #include <Precision.hxx>
-#include <Standard_ConstructionError.hxx>
-#include <Standard_NotImplemented.hxx>
-#include <Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Geom_UndefinedValue.hxx>
 #include <Geom_UndefinedDerivative.hxx>
 

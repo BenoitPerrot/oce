@@ -6,18 +6,18 @@
 #ifndef _BRepBuilderAPI_Sewing_HeaderFile
 #define _BRepBuilderAPI_Sewing_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BRepBuilderAPI_Sewing.hxx>
 
-#include <Standard_Real.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <TopTools_IndexedDataMapOfShapeShape.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <TopTools_DataMapOfShapeShape.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <TopTools_DataMapOfShapeListOfShape.hxx>
 #include <Handle_BRepTools_ReShape.hxx>
 #include <TopTools_MapOfShape.hxx>

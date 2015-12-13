@@ -6,15 +6,15 @@
 #ifndef _VrmlConverter_WFRestrictedFace_HeaderFile
 #define _VrmlConverter_WFRestrictedFace_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 #include <Handle_BRepAdaptor_HSurface.hxx>
 #include <Handle_VrmlConverter_Drawer.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class BRepAdaptor_HSurface;
 class VrmlConverter_Drawer;
 

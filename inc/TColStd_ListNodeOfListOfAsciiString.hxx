@@ -6,8 +6,8 @@
 #ifndef _TColStd_ListNodeOfListOfAsciiString_HeaderFile
 #define _TColStd_ListNodeOfListOfAsciiString_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TColStd_ListNodeOfListOfAsciiString.hxx>
 
 #include <TCollection_AsciiString.hxx>

@@ -6,10 +6,10 @@
 #ifndef _Storage_StreamTypeMismatchError_HeaderFile
 #define _Storage_StreamTypeMismatchError_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard_DefineException.hxx>
-#include <Standard_SStream.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard_DefineException.hxx>
+#include <Foundation/Standard/Standard_SStream.hxx>
 #include <Storage_StreamReadError.hxx>
 #include <Handle_Storage_StreamTypeMismatchError.hxx>
 

@@ -21,12 +21,12 @@
 
 
 
-#include <Standard_DomainError.hxx>
-#include <Standard_NullObject.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_NullObject.hxx>
 #include <TDF_Data.hxx>
 #include <TDF_Delta.hxx>
 #include <DDF_Transaction.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DDF_Transaction)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

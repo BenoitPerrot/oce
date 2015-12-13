@@ -703,7 +703,7 @@ Standard_Boolean BRepClass3d_SolidExplorer::FindAPointInTheFace
 BRepClass3d_SolidExplorer::BRepClass3d_SolidExplorer() 
 {
 }
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 
 //=======================================================================
 //function : BRepClass3d_SolidExplorer

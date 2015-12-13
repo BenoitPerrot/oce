@@ -6,9 +6,9 @@
 #ifndef _BRepTools_DataMapIteratorOfMapOfVertexPnt2d_HeaderFile
 #define _BRepTools_DataMapIteratorOfMapOfVertexPnt2d_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TCollection_BasicMapIterator.hxx>
 #include <Handle_BRepTools_DataMapNodeOfMapOfVertexPnt2d.hxx>

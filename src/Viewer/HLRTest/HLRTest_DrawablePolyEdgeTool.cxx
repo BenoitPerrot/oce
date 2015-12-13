@@ -19,7 +19,7 @@
 #include <HLRBRep_PolyAlgo.hxx>
 #include <Draw_Display.hxx>
 #include <HLRTest_DrawablePolyEdgeTool.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(HLRTest_DrawablePolyEdgeTool)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Draw_Drawable3D),

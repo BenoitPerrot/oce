@@ -5,7 +5,7 @@
 
 #include <IFSelect_SequenceNodeOfSequenceOfInterfaceModel.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Interface_InterfaceModel.hxx>
 #include <IFSelect_SequenceOfInterfaceModel.hxx>

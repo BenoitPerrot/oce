@@ -6,17 +6,17 @@
 #ifndef _Interface_Check_HeaderFile
 #define _Interface_Check_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Interface_Check.hxx>
 
 #include <Handle_TColStd_HSequenceOfHAsciiString.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
-#include <Standard_CString.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Interface_CheckStatus.hxx>
 #include <Handle_Message_Messenger.hxx>
 class TColStd_HSequenceOfHAsciiString;

@@ -5,7 +5,7 @@
 
 #include <IntPatch_SequenceNodeOfSequenceOfLine.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <IntPatch_Line.hxx>
 #include <IntPatch_SequenceOfLine.hxx>

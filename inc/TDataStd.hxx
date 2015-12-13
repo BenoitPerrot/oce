@@ -6,11 +6,11 @@
 #ifndef _TDataStd_HeaderFile
 #define _TDataStd_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 #include <TDataStd_RealEnum.hxx>
 class TDF_IDList;
 class TDataStd_Current;

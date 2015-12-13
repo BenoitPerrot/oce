@@ -17,9 +17,9 @@
 //--------------------------------------------------------------------
 
 #include <TColStd_HArray1OfInteger.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <IGESGraph_DefinitionLevel.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESGraph_DefinitionLevel)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(IGESData_LevelListEntity),
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESGraph_DefinitionLevel)
 IMPLEMENT_DOWNCAST(IGESGraph_DefinitionLevel,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESGraph_DefinitionLevel)
-#include <Standard_DimensionMismatch.hxx>
+#include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 
 
 IGESGraph_DefinitionLevel::IGESGraph_DefinitionLevel ()    {  }

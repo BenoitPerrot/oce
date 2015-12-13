@@ -6,14 +6,14 @@
 #ifndef _IGESData_HArray1OfIGESEntity_HeaderFile
 #define _IGESData_HArray1OfIGESEntity_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESData_HArray1OfIGESEntity.hxx>
 
 #include <IGESData_Array1OfIGESEntity.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_IGESData_IGESEntity.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_DimensionMismatch;
 class Standard_OutOfRange;

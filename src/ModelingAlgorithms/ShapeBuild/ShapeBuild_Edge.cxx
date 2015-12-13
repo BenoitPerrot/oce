@@ -23,8 +23,8 @@
 #include <gp_Trsf2d.hxx>
 #include <Geom_Curve.hxx>
 #include <ShapeBuild_Edge.hxx>
-#include <Standard_ErrorHandler.hxx>
-#include <Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
 
 #include <TopoDS.hxx>
 #include <TopoDS_Iterator.hxx>

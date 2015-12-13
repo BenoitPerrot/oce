@@ -6,13 +6,13 @@
 #ifndef _ShapeUpgrade_ClosedFaceDivide_HeaderFile
 #define _ShapeUpgrade_ClosedFaceDivide_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ShapeUpgrade_ClosedFaceDivide.hxx>
 
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <ShapeUpgrade_FaceDivide.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class TopoDS_Face;
 
 

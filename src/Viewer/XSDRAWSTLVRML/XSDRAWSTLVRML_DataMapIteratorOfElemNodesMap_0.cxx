@@ -5,7 +5,7 @@
 
 #include <XSDRAWSTLVRML_DataMapIteratorOfElemNodesMap.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TColStd_DataMapOfIntegerInteger.hxx>
 #include <TColStd_MapIntegerHasher.hxx>
 #include <XSDRAWSTLVRML_ElemNodesMap.hxx>
@@ -13,7 +13,7 @@
  
 
 #define TheKey Standard_Integer
-#define TheKey_hxx <Standard_Integer.hxx>
+#define TheKey_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheItem TColStd_DataMapOfIntegerInteger
 #define TheItem_hxx <TColStd_DataMapOfIntegerInteger.hxx>
 #define Hasher TColStd_MapIntegerHasher

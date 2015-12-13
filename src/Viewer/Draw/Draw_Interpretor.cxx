@@ -16,10 +16,10 @@
 
 #include <Draw_Interpretor.hxx>
 #include <Draw_Appli.hxx>
-#include <Standard_SStream.hxx>
-#include <Standard_RangeError.hxx>
-#include <Standard_ErrorHandler.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_SStream.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TCollection_AsciiString.hxx>
 #include <TCollection_ExtendedString.hxx>

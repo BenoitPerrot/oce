@@ -5,7 +5,7 @@
 
 #include <PTopoDS_VArrayNodeOfFieldOfHArray1OfHShape.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <PTopoDS_HShape.hxx>
 #include <PTopoDS_FieldOfHArray1OfHShape.hxx>

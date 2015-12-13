@@ -17,7 +17,7 @@
 #define BUC60915        //GG 05/06/01 Enable to compute the requested arrow size
 //                      if any in all dimensions.
 
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 
 #include <TopoDS_Edge.hxx>
 #include <Geom_Plane.hxx>
@@ -26,7 +26,7 @@
 #include <Geom_Transformation.hxx>
 #include <SelectMgr_Selection.hxx>
 #include <AIS_EqualRadiusRelation.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_EqualRadiusRelation)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(AIS_Relation),

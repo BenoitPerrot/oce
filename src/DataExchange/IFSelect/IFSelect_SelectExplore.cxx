@@ -13,10 +13,10 @@
 
 #include <Interface_EntityIterator.hxx>
 #include <Interface_Graph.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <IFSelect_SelectExplore.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IFSelect_SelectExplore)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(IFSelect_SelectDeduct),

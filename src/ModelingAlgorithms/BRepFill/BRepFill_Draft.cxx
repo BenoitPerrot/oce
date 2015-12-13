@@ -89,7 +89,7 @@
 #include <Precision.hxx> 
 #include <TColStd_Array1OfReal.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <StdFail_NotDone.hxx>
 
 #ifdef DRAW

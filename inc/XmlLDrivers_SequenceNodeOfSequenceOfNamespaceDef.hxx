@@ -6,8 +6,8 @@
 #ifndef _XmlLDrivers_SequenceNodeOfSequenceOfNamespaceDef_HeaderFile
 #define _XmlLDrivers_SequenceNodeOfSequenceOfNamespaceDef_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_XmlLDrivers_SequenceNodeOfSequenceOfNamespaceDef.hxx>
 
 #include <XmlLDrivers_NamespaceDef.hxx>

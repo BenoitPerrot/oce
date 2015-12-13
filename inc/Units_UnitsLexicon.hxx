@@ -6,15 +6,15 @@
 #ifndef _Units_UnitsLexicon_HeaderFile
 #define _Units_UnitsLexicon_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Units_UnitsLexicon.hxx>
 
 #include <Handle_TCollection_HAsciiString.hxx>
-#include <Standard_Time.hxx>
+#include <Foundation/Standard/Standard_Time.hxx>
 #include <Units_Lexicon.hxx>
-#include <Standard_CString.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class TCollection_HAsciiString;
 class TCollection_AsciiString;
 

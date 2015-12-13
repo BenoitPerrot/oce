@@ -6,15 +6,15 @@
 #ifndef _StepAP214_AutoDesignActualDateAndTimeAssignment_HeaderFile
 #define _StepAP214_AutoDesignActualDateAndTimeAssignment_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepAP214_AutoDesignActualDateAndTimeAssignment.hxx>
 
 #include <Handle_StepAP214_HArray1OfAutoDesignDateAndTimeItem.hxx>
 #include <StepBasic_DateAndTimeAssignment.hxx>
 #include <Handle_StepBasic_DateAndTime.hxx>
 #include <Handle_StepBasic_DateTimeRole.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class StepAP214_HArray1OfAutoDesignDateAndTimeItem;
 class StepBasic_DateAndTime;
 class StepBasic_DateTimeRole;

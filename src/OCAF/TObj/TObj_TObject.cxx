@@ -17,7 +17,7 @@
 
 #include <TObj_TObject.hxx>
 
-#include <Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
 #include <TDF_AttributeDelta.hxx>
 #include <TDF_ChildIterator.hxx>
 

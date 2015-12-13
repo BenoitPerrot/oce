@@ -19,7 +19,7 @@
 #include <ChFiDS_CommonPoint.hxx>
 #include <gp_Pnt2d.hxx>
 #include <ChFiDS_SurfData.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ChFiDS_SurfData)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

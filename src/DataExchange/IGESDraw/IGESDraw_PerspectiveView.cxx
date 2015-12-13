@@ -16,7 +16,7 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <gp_XYZ.hxx>
 #include <gp_XY.hxx>
 #include <IGESData_ViewKindEntity.hxx>
@@ -25,7 +25,7 @@
 #include <gp_Pnt2d.hxx>
 #include <IGESData_TransfEntity.hxx>
 #include <IGESDraw_PerspectiveView.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESDraw_PerspectiveView)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(IGESData_ViewKindEntity),

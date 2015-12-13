@@ -6,14 +6,14 @@
 #ifndef _Vrml_Material_HeaderFile
 #define _Vrml_Material_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Vrml_Material.hxx>
 
 #include <Handle_Quantity_HArray1OfColor.hxx>
 #include <Handle_TColStd_HArray1OfReal.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 class Quantity_HArray1OfColor;
 class TColStd_HArray1OfReal;
 

@@ -34,7 +34,7 @@
 #include <TDF_Label.hxx>
 #include <TDataStd_Name.hxx>
 
-#include <Standard_NullObject.hxx>
+#include <Foundation/Standard/Standard_NullObject.hxx>
 
 //=======================================================================
 //function : QANewBRepNaming_Revol

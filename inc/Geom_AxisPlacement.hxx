@@ -6,13 +6,13 @@
 #ifndef _Geom_AxisPlacement_HeaderFile
 #define _Geom_AxisPlacement_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Geom_AxisPlacement.hxx>
 
 #include <gp_Ax1.hxx>
 #include <Geom_Geometry.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class Standard_ConstructionError;
 class gp_Ax1;
 class gp_Dir;

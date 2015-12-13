@@ -13,7 +13,7 @@
 
 #include <TCollection_HAsciiString.hxx>
 #include <StepGeom_GeometricRepresentationContext.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepGeom_GeometricRepresentationContext)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepRepr_RepresentationContext),

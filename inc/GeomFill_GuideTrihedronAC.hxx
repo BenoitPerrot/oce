@@ -6,17 +6,17 @@
 #ifndef _GeomFill_GuideTrihedronAC_HeaderFile
 #define _GeomFill_GuideTrihedronAC_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_GeomFill_GuideTrihedronAC.hxx>
 
 #include <Handle_Approx_CurvlinFunc.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Adaptor3d_HCurve.hxx>
 #include <GeomFill_TrihedronWithGuide.hxx>
 #include <Handle_GeomFill_TrihedronLaw.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <GeomAbs_Shape.hxx>
 class Approx_CurvlinFunc;
 class Adaptor3d_HCurve;

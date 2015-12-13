@@ -6,9 +6,9 @@
 #ifndef _PDataStd_AsciiString_HeaderFile
 #define _PDataStd_AsciiString_HeaderFile
 
-#include <Standard_Macro.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Handle_PDataStd_AsciiString.hxx>
 
 #include <Handle_PCollection_HAsciiString.hxx>

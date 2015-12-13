@@ -6,15 +6,15 @@
 #ifndef _Graphic3d_Texture2Dplane_HeaderFile
 #define _Graphic3d_Texture2Dplane_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Graphic3d_Texture2Dplane.hxx>
 
 #include <Graphic3d_NameOfTexturePlane.hxx>
 #include <Graphic3d_Texture2D.hxx>
 #include <Graphic3d_NameOfTexture2D.hxx>
 #include <Image_PixMap_Handle.hxx>
-#include <Standard_ShortReal.hxx>
+#include <Foundation/Standard/Standard_ShortReal.hxx>
 class TCollection_AsciiString;
 
 

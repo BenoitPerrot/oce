@@ -6,14 +6,14 @@
 #ifndef _StepVisual_PresentationLayerAssignment_HeaderFile
 #define _StepVisual_PresentationLayerAssignment_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepVisual_PresentationLayerAssignment.hxx>
 
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Handle_StepVisual_HArray1OfLayeredItem.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class TCollection_HAsciiString;
 class StepVisual_HArray1OfLayeredItem;
 class StepVisual_LayeredItem;

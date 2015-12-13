@@ -6,17 +6,17 @@
 #ifndef _Convert_CompBezierCurves2dToBSplineCurve2d_HeaderFile
 #define _Convert_CompBezierCurves2dToBSplineCurve2d_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Convert_SequenceOfArray1OfPoles2d.hxx>
 #include <TColgp_SequenceOfPnt2d.hxx>
 #include <TColStd_SequenceOfReal.hxx>
 #include <TColStd_SequenceOfInteger.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_ConstructionError;
 class TColgp_Array1OfPnt2d;
 class TColStd_Array1OfReal;

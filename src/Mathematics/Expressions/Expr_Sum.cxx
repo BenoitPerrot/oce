@@ -19,8 +19,8 @@
 #define No_Standard_OutOfRange
 #endif
 
-#include <Standard_OutOfRange.hxx>
-#include <Standard_NumericError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NumericError.hxx>
 #include <Expr_NotEvaluable.hxx>
 #include <Expr_SequenceOfGeneralExpression.hxx>
 #include <Expr_GeneralExpression.hxx>
@@ -29,7 +29,7 @@
 #include <TColStd_Array1OfReal.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <Expr_Sum.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Expr_Sum)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Expr_PolyExpression),
@@ -40,7 +40,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(Expr_Sum)
 IMPLEMENT_DOWNCAST(Expr_Sum,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Expr_Sum)
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <TColStd_Array1OfInteger.hxx>
 #include <Expr_NumericValue.hxx>
 #include <Expr.hxx>

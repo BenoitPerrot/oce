@@ -6,14 +6,14 @@
 #ifndef _Poly_Polygon2D_HeaderFile
 #define _Poly_Polygon2D_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Poly_Polygon2D.hxx>
 
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NullObject;
 class TColgp_Array1OfPnt2d;
 

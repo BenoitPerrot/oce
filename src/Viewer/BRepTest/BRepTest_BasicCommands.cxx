@@ -14,8 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_Stream.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_Stream.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <BRepTest.hxx>
 

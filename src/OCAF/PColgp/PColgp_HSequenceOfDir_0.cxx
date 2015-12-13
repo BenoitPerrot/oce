@@ -5,12 +5,12 @@
 
 #include <PColgp_HSequenceOfDir.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <PColgp_HSequenceOfDir.hxx>
 #include <PColgp_SeqNodeOfHSequenceOfDir.hxx>
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <PColgp_SeqExplorerOfHSequenceOfDir.hxx>
 #include <gp_Dir.hxx>
  

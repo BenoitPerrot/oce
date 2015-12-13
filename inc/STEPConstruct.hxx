@@ -6,14 +6,14 @@
 #ifndef _STEPConstruct_HeaderFile
 #define _STEPConstruct_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_StepRepr_RepresentationItem.hxx>
 #include <Handle_Transfer_FinderProcess.hxx>
 #include <Handle_Transfer_TransientProcess.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Transfer_Binder.hxx>
 #include <Handle_StepShape_ShapeDefinitionRepresentation.hxx>
 #include <Handle_StepShape_ContextDependentShapeRepresentation.hxx>

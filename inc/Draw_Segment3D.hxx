@@ -6,8 +6,8 @@
 #ifndef _Draw_Segment3D_HeaderFile
 #define _Draw_Segment3D_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Draw_Segment3D.hxx>
 
 #include <gp_Pnt.hxx>

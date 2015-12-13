@@ -5,9 +5,9 @@
 
 #include <Transfer_TransferMapOfProcessForFinder.hxx>
 
-#include <Standard_DomainError.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Transfer_Finder.hxx>
 #include <Transfer_Binder.hxx>
 #include <Transfer_FindHasher.hxx>

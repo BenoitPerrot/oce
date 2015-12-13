@@ -14,12 +14,12 @@
 // commercial license or contractual agreement.
 
 #include <CDM_MessageDriver.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 #include <TDF_Attribute.hxx>
 #include <PDF_Attribute.hxx>
 #include <MDF_RRelocationTable.hxx>
 #include <MNaming_NamingRetrievalDriver_2.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MNaming_NamingRetrievalDriver_2)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MDF_ARDriver),
@@ -37,7 +37,7 @@ IMPLEMENT_STANDARD_RTTI(MNaming_NamingRetrievalDriver_2)
 #include <TCollection_AsciiString.hxx>
 #include <TDF_Tool.hxx>
 #include <TNaming_NamedShape.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TNaming_Naming.hxx>
 #include <TNaming_NameType.hxx>
 #include <TopAbs_ShapeEnum.hxx>

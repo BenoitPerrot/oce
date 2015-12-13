@@ -39,8 +39,8 @@
 
 #include <Precision.hxx>
 
-#include <Standard_ErrorHandler.hxx>
-#include <Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
 #include <Adaptor3d_Curve.hxx>
 #include <Extrema_ExtPC.hxx>
 #include <ShapeAnalysis.hxx>

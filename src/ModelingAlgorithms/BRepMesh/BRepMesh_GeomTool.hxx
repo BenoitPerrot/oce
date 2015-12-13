@@ -14,9 +14,9 @@
 #ifndef _BRepMesh_GeomTool_HeaderFile
 #define _BRepMesh_GeomTool_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 #include <GCPnts_TangentialDeflection.hxx>
 #include <GeomAbs_IsoType.hxx>
 #include <Handle_BRepAdaptor_HSurface.hxx>

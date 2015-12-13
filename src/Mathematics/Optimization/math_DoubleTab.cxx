@@ -16,9 +16,9 @@
 #include <math_DoubleTab.hxx>
 
 #include <math_Memory.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_Failure.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 
 // macro to get size of C array
 #define CARRAY_LENGTH(arr) (int)(sizeof(arr)/sizeof(arr[0]))

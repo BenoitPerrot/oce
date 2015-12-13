@@ -18,7 +18,7 @@
 #include <BRepPrimAPI_MakeRevol.hxx>
 #include <TopoDS_Shape.hxx>
 #include <DNaming_RevolutionDriver.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DNaming_RevolutionDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(TFunction_Driver),
@@ -53,8 +53,8 @@ IMPLEMENT_STANDARD_RTTI(DNaming_RevolutionDriver)
 #include <BRepCheck_Analyzer.hxx>
 #include <TopLoc_Location.hxx>
 #include <TopoDS_Solid.hxx>
-#include <Standard_GUID.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <BRepLib_MakeFace.hxx>
 #include <TopTools_DataMapOfShapeShape.hxx>
 #include <TopTools_MapOfShape.hxx>

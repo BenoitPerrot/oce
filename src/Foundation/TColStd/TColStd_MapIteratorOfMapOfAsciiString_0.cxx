@@ -5,7 +5,7 @@
 
 #include <TColStd_MapIteratorOfMapOfAsciiString.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <TColStd_MapOfAsciiString.hxx>
 #include <TColStd_StdMapNodeOfMapOfAsciiString.hxx>

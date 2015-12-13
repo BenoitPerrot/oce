@@ -14,7 +14,7 @@
 #include <IFSelect_Selection.hxx>
 #include <IFSelect_SelectionIterator.hxx>
 #include <IFSelect_SelectCombine.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IFSelect_SelectCombine)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(IFSelect_Selection),

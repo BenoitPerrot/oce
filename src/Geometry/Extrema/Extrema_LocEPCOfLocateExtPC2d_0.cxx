@@ -5,8 +5,8 @@
 
 #include <Extrema_LocEPCOfLocateExtPC2d.hxx>
 
-#include <Standard_DomainError.hxx>
-#include <Standard_TypeMismatch.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_TypeMismatch.hxx>
 #include <StdFail_NotDone.hxx>
 #include <Adaptor2d_Curve2d.hxx>
 #include <Extrema_Curve2dTool.hxx>

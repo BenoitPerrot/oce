@@ -35,7 +35,7 @@
 #include <TDataStd_RealArray.hxx>
 #include <TDataStd_ExtStringArray.hxx>
 
-#include <Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
 
 
 

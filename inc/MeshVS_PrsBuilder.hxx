@@ -6,15 +6,15 @@
 #ifndef _MeshVS_PrsBuilder_HeaderFile
 #define _MeshVS_PrsBuilder_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_MeshVS_PrsBuilder.hxx>
 
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <MeshVS_MeshPtr.hxx>
 #include <Handle_MeshVS_DataSource.hxx>
 #include <Handle_MeshVS_Drawer.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <PrsMgr_PresentationManager3d.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_MeshVS_Mesh.hxx>

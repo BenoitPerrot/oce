@@ -23,7 +23,7 @@
 #include <gp_Pnt.hxx>
 #include <Geom2d_Curve.hxx>
 #include <BRepTools_NurbsConvertModification.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BRepTools_NurbsConvertModification)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(BRepTools_Modification),
@@ -35,7 +35,7 @@ IMPLEMENT_DOWNCAST(BRepTools_NurbsConvertModification,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BRepTools_NurbsConvertModification)
 
 #include <BRepTools.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Geom_TrimmedCurve.hxx>
 #include <Geom2d_TrimmedCurve.hxx>
 #include <Geom_RectangularTrimmedSurface.hxx>

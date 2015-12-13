@@ -6,15 +6,15 @@
 #ifndef _ShapeUpgrade_FixSmallBezierCurves_HeaderFile
 #define _ShapeUpgrade_FixSmallBezierCurves_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ShapeUpgrade_FixSmallBezierCurves.hxx>
 
 #include <ShapeUpgrade_FixSmallCurves.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Geom_Curve.hxx>
 #include <Handle_Geom2d_Curve.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class Geom_Curve;
 class Geom2d_Curve;
 

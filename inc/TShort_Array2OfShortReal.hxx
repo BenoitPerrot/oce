@@ -6,14 +6,14 @@
 #ifndef _TShort_Array2OfShortReal_HeaderFile
 #define _TShort_Array2OfShortReal_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Address.hxx>
-#include <Standard_ShortReal.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
+#include <Foundation/Standard/Standard_ShortReal.hxx>
 class Standard_RangeError;
 class Standard_OutOfRange;
 class Standard_OutOfMemory;
@@ -100,7 +100,7 @@ private:
 };
 
 #define Array2Item Standard_ShortReal
-#define Array2Item_hxx <Standard_ShortReal.hxx>
+#define Array2Item_hxx <Foundation/Standard/Standard_ShortReal.hxx>
 #define TCollection_Array2 TShort_Array2OfShortReal
 #define TCollection_Array2_hxx <TShort_Array2OfShortReal.hxx>
 

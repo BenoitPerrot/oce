@@ -17,7 +17,7 @@
 #include <TColStd_HArray1OfExtendedString.hxx>
 #include <TDataStd_ExtStringArray.hxx>
 #include <TDataStd_DeltaOnModificationOfExtStringArray.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDataStd_DeltaOnModificationOfExtStringArray)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(TDF_DeltaOnModification),

@@ -14,8 +14,8 @@
 #ifndef _BRepMesh_IncrementalMesh_HeaderFile
 #define _BRepMesh_IncrementalMesh_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 
 #include <BRepMesh_FastDiscret.hxx>
 #include <TopTools_MapOfShape.hxx>

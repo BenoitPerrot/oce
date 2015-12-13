@@ -6,8 +6,8 @@
 #ifndef _StepShape_TypeQualifier_HeaderFile
 #define _StepShape_TypeQualifier_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepShape_TypeQualifier.hxx>
 
 #include <Handle_TCollection_HAsciiString.hxx>

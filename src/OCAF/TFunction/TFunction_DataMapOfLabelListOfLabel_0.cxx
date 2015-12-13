@@ -5,8 +5,8 @@
 
 #include <TFunction_DataMapOfLabelListOfLabel.hxx>
 
-#include <Standard_DomainError.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TDF_Label.hxx>
 #include <TDF_LabelList.hxx>
 #include <TDF_LabelMapHasher.hxx>

@@ -15,8 +15,8 @@
 // commercial license or contractual agreement.
 
 #include <Geom2d_Curve.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_NullObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NullObject.hxx>
 #include <gp_Pnt2d.hxx>
 #include <Geom2dInt_GInter.hxx>
 #include <Geom2dAPI_InterCurveCurve.hxx>
@@ -26,7 +26,7 @@
 #include <IntRes2d_IntersectionPoint.hxx>
 #include <IntRes2d_IntersectionSegment.hxx>
 
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 
 //=======================================================================
 //function : Geom2dAPI_InterCurveCurve

@@ -6,8 +6,8 @@
 #ifndef _Handle_StepRepr_ShapeRepresentationRelationshipWithTransformation_HeaderFile
 #define _Handle_StepRepr_ShapeRepresentationRelationshipWithTransformation_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepRepr_RepresentationRelationshipWithTransformation.hxx>
 
 class Standard_Transient;

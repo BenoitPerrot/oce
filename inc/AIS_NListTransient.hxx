@@ -16,7 +16,7 @@
 #ifndef _AIS_NListTransient_HeaderFile
 #define _AIS_NListTransient_HeaderFile
 
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/NCollection/NCollection_List.hxx>
 
 typedef NCollection_List<Handle(Standard_Transient)> AIS_NListTransient;

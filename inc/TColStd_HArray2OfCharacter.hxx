@@ -6,14 +6,14 @@
 #ifndef _TColStd_HArray2OfCharacter_HeaderFile
 #define _TColStd_HArray2OfCharacter_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TColStd_HArray2OfCharacter.hxx>
 
 #include <TColStd_Array2OfCharacter.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Character.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Character.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_OutOfRange;
 class Standard_OutOfMemory;
@@ -75,7 +75,7 @@ private:
 };
 
 #define ItemHArray2 Standard_Character
-#define ItemHArray2_hxx <Standard_Character.hxx>
+#define ItemHArray2_hxx <Foundation/Standard/Standard_Character.hxx>
 #define TheArray2 TColStd_Array2OfCharacter
 #define TheArray2_hxx <TColStd_Array2OfCharacter.hxx>
 #define TCollection_HArray2 TColStd_HArray2OfCharacter

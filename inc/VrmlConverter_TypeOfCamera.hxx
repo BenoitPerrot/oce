@@ -6,7 +6,7 @@
 #ifndef _VrmlConverter_TypeOfCamera_HeaderFile
 #define _VrmlConverter_TypeOfCamera_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum VrmlConverter_TypeOfCamera

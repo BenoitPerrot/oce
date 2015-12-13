@@ -15,7 +15,7 @@
 
 #include <Draw.hxx>
 #include <Draw_Interpretor.hxx>
-#include <Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <DNaming.hxx>
 #include <DBRep.hxx>
 
@@ -34,7 +34,7 @@
 #include <TopTools_ListOfShape.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 #include <TCollection_AsciiString.hxx>
-#include <Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
 
 #include <DDF.hxx>
 #include <DDocStd.hxx>

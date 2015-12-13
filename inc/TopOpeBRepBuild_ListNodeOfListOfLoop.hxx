@@ -6,8 +6,8 @@
 #ifndef _TopOpeBRepBuild_ListNodeOfListOfLoop_HeaderFile
 #define _TopOpeBRepBuild_ListNodeOfListOfLoop_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TopOpeBRepBuild_ListNodeOfListOfLoop.hxx>
 
 #include <Handle_TopOpeBRepBuild_Loop.hxx>

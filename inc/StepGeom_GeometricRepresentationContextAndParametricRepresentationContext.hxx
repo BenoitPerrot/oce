@@ -6,15 +6,15 @@
 #ifndef _StepGeom_GeometricRepresentationContextAndParametricRepresentationContext_HeaderFile
 #define _StepGeom_GeometricRepresentationContextAndParametricRepresentationContext_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepGeom_GeometricRepresentationContextAndParametricRepresentationContext.hxx>
 
 #include <Handle_StepGeom_GeometricRepresentationContext.hxx>
 #include <Handle_StepRepr_ParametricRepresentationContext.hxx>
 #include <StepRepr_RepresentationContext.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class StepGeom_GeometricRepresentationContext;
 class StepRepr_ParametricRepresentationContext;
 class TCollection_HAsciiString;

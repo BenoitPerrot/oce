@@ -6,11 +6,11 @@
 #ifndef _IntAna_Quadric_HeaderFile
 #define _IntAna_Quadric_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class gp_Pln;
 class gp_Sphere;
 class gp_Cylinder;

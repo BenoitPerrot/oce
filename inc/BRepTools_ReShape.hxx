@@ -6,13 +6,13 @@
 #ifndef _BRepTools_ReShape_HeaderFile
 #define _BRepTools_ReShape_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BRepTools_ReShape.hxx>
 
 #include <TopTools_DataMapOfShapeShape.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <TopAbs_ShapeEnum.hxx>
 class TopoDS_Shape;

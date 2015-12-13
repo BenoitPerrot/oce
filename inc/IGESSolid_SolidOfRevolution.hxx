@@ -6,15 +6,15 @@
 #ifndef _IGESSolid_SolidOfRevolution_HeaderFile
 #define _IGESSolid_SolidOfRevolution_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESSolid_SolidOfRevolution.hxx>
 
 #include <Handle_IGESData_IGESEntity.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <gp_XYZ.hxx>
 #include <IGESData_IGESEntity.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class IGESData_IGESEntity;
 class gp_XYZ;
 class gp_Pnt;

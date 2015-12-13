@@ -6,7 +6,7 @@
 #ifndef _Graphic3d_TypeOfMaterial_HeaderFile
 #define _Graphic3d_TypeOfMaterial_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Types of materials specifies if a material can change color.
 enum Graphic3d_TypeOfMaterial

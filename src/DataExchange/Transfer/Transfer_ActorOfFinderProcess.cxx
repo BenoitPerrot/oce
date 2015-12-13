@@ -15,9 +15,9 @@
 #include <Transfer_Finder.hxx>
 #include <Transfer_ProcessForFinder.hxx>
 #include <Transfer_FinderProcess.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <Transfer_ActorOfFinderProcess.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Transfer_ActorOfFinderProcess)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Transfer_ActorOfProcessForFinder),

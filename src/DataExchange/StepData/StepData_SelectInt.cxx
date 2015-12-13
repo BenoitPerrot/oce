@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <StepData_SelectInt.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepData_SelectInt)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepData_SelectMember),

@@ -39,7 +39,7 @@
 
 #include <BRepClass3d_SolidClassifier.hxx>
 
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 
 
 #include <TopExp.hxx>

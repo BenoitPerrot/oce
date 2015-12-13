@@ -6,15 +6,15 @@
 #ifndef _IGESToBRep_TopoCurve_HeaderFile
 #define _IGESToBRep_TopoCurve_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TColGeom_SequenceOfCurve.hxx>
 #include <TColGeom2d_SequenceOfCurve.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <IGESToBRep_CurveAndSurface.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_IGESData_IGESEntity.hxx>
 #include <Handle_IGESGeom_Point.hxx>
 #include <Handle_IGESGeom_CompositeCurve.hxx>
@@ -22,7 +22,7 @@
 #include <Handle_IGESGeom_CurveOnSurface.hxx>
 #include <Handle_IGESGeom_Boundary.hxx>
 #include <Handle_Geom_BSplineCurve.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Geom_Curve.hxx>
 #include <Handle_Geom2d_BSplineCurve.hxx>
 #include <Handle_Geom2d_Curve.hxx>

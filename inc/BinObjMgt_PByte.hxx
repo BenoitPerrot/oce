@@ -16,7 +16,7 @@
 #ifndef BinObjMgt_PByte_HeaderFile
 #define BinObjMgt_PByte_HeaderFile
 
-#include <Standard_TypeDef.hxx>
+#include <Foundation/Standard/Standard_TypeDef.hxx>
 
 typedef Standard_Byte* BinObjMgt_PByte;
 

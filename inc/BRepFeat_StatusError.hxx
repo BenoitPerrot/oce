@@ -6,7 +6,7 @@
 #ifndef _BRepFeat_StatusError_HeaderFile
 #define _BRepFeat_StatusError_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Discribes the error.
 enum BRepFeat_StatusError

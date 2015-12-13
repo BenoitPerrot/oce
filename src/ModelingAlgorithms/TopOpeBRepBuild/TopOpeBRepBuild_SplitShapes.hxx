@@ -17,7 +17,7 @@
 #ifndef _TopOpeBRepBuild_SplitShapes_HeaderFile
 #define _TopOpeBRepBuild_SplitShapes_HeaderFile
 
-#include <Standard_ProgramError.hxx>
+#include <Foundation/Standard/Standard_ProgramError.hxx>
 
 
 static Standard_Boolean FUN_touched(const TopOpeBRepDS_DataStructure& BDS,const TopoDS_Edge& EOR)

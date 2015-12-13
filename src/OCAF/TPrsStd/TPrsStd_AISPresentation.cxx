@@ -19,13 +19,13 @@
 // !      ivan ! SetMode                                 ! 5-04-2001! 3.0-00-1!
 // +---------------------------------------------------------------------------+
 #include <AIS_InteractiveObject.hxx>
-#include <Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
 #include <TDF_Label.hxx>
 #include <TDF_Attribute.hxx>
 #include <TDF_RelocationTable.hxx>
 #include <TDF_AttributeDelta.hxx>
 #include <TPrsStd_AISPresentation.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TPrsStd_AISPresentation)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(TDF_Attribute),

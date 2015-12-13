@@ -6,20 +6,20 @@
 #ifndef _TopOpeBRepBuild_HBuilder_HeaderFile
 #define _TopOpeBRepBuild_HBuilder_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TopOpeBRepBuild_HBuilder.hxx>
 
 #include <TopOpeBRepBuild_Builder1.hxx>
 #include <TopTools_DataMapOfShapeInteger.hxx>
 #include <TColStd_DataMapOfIntegerListOfInteger.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TColStd_ListOfInteger.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_TopOpeBRepDS_HDataStructure.hxx>
 #include <TopAbs_State.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;
 class TopOpeBRepDS_BuildTool;
 class TopOpeBRepDS_HDataStructure;

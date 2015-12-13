@@ -6,11 +6,11 @@
 #ifndef _TColStd_StdMapNodeOfMapOfReal_HeaderFile
 #define _TColStd_StdMapNodeOfMapOfReal_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TColStd_StdMapNodeOfMapOfReal.hxx>
 
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <TCollection_MapNode.hxx>
 #include <TCollection_MapNodePtr.hxx>
 class TColStd_MapRealHasher;
@@ -48,7 +48,7 @@ private:
 };
 
 #define TheKey Standard_Real
-#define TheKey_hxx <Standard_Real.hxx>
+#define TheKey_hxx <Foundation/Standard/Standard_Real.hxx>
 #define Hasher TColStd_MapRealHasher
 #define Hasher_hxx <TColStd_MapRealHasher.hxx>
 #define TCollection_StdMapNode TColStd_StdMapNodeOfMapOfReal

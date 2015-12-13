@@ -6,16 +6,16 @@
 #ifndef _IntTools_CommonPrt_HeaderFile
 #define _IntTools_CommonPrt_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TopoDS_Edge.hxx>
 #include <TopAbs_ShapeEnum.hxx>
 #include <IntTools_Range.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <IntTools_SequenceOfRanges.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <gp_Pnt.hxx>
 class TopoDS_Edge;
 class IntTools_Range;

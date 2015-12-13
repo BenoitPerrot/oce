@@ -15,7 +15,7 @@
 #include <StepRepr_ParametricRepresentationContext.hxx>
 #include <TCollection_HAsciiString.hxx>
 #include <StepGeom_GeometricRepresentationContextAndParametricRepresentationContext.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepGeom_GeometricRepresentationContextAndParametricRepresentationContext)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepRepr_RepresentationContext),

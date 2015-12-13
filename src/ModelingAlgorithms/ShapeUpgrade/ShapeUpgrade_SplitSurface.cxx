@@ -20,7 +20,7 @@
 #include <Geom_Surface.hxx>
 #include <ShapeExtend_CompositeSurface.hxx>
 #include <ShapeUpgrade_SplitSurface.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeUpgrade_SplitSurface)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),
@@ -42,8 +42,8 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_SplitSurface)
 #include <ShapeUpgrade_SplitCurve3d.hxx>
 #include <TColGeom_HArray1OfCurve.hxx>
 #include <gp_Ax1.hxx>
-#include <Standard_ErrorHandler.hxx>
-#include <Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
 #include <ShapeExtend.hxx>
 #include <Geom_BezierSurface.hxx>
 #include <TColStd_Array1OfReal.hxx>

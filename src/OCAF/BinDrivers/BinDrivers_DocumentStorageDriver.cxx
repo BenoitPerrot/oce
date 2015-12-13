@@ -17,7 +17,7 @@
 #include <CDM_MessageDriver.hxx>
 #include <BinLDrivers_DocumentSection.hxx>
 #include <BinDrivers_DocumentStorageDriver.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BinDrivers_DocumentStorageDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(BinLDrivers_DocumentStorageDriver),
@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(BinDrivers_DocumentStorageDriver)
 IMPLEMENT_DOWNCAST(BinDrivers_DocumentStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinDrivers_DocumentStorageDriver)
-#include <Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <BinDrivers.hxx>
 #include <BinMDF_ADriver.hxx>

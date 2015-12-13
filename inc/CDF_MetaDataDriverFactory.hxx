@@ -6,11 +6,11 @@
 #ifndef _CDF_MetaDataDriverFactory_HeaderFile
 #define _CDF_MetaDataDriverFactory_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_CDF_MetaDataDriverFactory.hxx>
 
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <Handle_CDF_MetaDataDriver.hxx>
 class CDF_MetaDataDriver;
 

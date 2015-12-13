@@ -47,7 +47,7 @@
 #include <TColgp_HArray1OfPnt.hxx>
 
 
-//#include <Standard_NotImplemented.hxx>
+//#include <Foundation/Standard/Standard_NotImplemented.hxx>
 
 //==============================================
 //   Calcul de la valeur de la fonction :

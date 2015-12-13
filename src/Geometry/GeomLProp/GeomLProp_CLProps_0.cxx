@@ -7,8 +7,8 @@
 
 #include <Geom_Curve.hxx>
 #include <LProp_BadContinuity.hxx>
-#include <Standard_DomainError.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <LProp_NotDefined.hxx>
 #include <gp_Vec.hxx>
 #include <gp_Pnt.hxx>

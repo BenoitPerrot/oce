@@ -14,7 +14,7 @@
 
 #include <StdFail_NotDone.hxx>
 #include <StdFail_UndefinedDerivative.hxx>
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 
 
 inline Standard_Boolean IntImp_Int2S::IsDone()const { return done;}

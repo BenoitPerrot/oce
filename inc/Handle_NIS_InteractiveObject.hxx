@@ -16,8 +16,8 @@
 #ifndef Handle_NIS_InteractiveObject_HeaderFile
 #define Handle_NIS_InteractiveObject_HeaderFile
 
-#include <Standard_DefineHandle.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 
 class NIS_InteractiveObject;
 

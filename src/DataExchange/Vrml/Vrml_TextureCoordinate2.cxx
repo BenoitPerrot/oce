@@ -13,7 +13,7 @@
 
 #include <TColgp_HArray1OfVec2d.hxx>
 #include <Vrml_TextureCoordinate2.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Vrml_TextureCoordinate2)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

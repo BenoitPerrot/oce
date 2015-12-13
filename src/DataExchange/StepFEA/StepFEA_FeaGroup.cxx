@@ -18,7 +18,7 @@
 #include <StepFEA_FeaModel.hxx>
 #include <TCollection_HAsciiString.hxx>
 #include <StepFEA_FeaGroup.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepFEA_FeaGroup)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepBasic_Group),

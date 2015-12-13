@@ -15,8 +15,8 @@
 // commercial license or contractual agreement.
 
 #include <BRepTools.hxx>
-#include <Standard_ErrorHandler.hxx>
-#include <Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
 #include <TopTools_LocationSet.hxx>
 
 // This file defines global functions not declared in any public header,

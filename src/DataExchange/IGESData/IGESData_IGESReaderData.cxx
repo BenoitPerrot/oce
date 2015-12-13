@@ -18,7 +18,7 @@
 #include <IGESData_DirPart.hxx>
 #include <IGESData_IGESType.hxx>
 #include <IGESData_IGESReaderData.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESData_IGESReaderData)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Interface_FileReaderData),

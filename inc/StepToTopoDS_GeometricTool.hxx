@@ -6,19 +6,19 @@
 #ifndef _StepToTopoDS_GeometricTool_HeaderFile
 #define _StepToTopoDS_GeometricTool_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_StepGeom_SurfaceCurve.hxx>
 #include <Handle_StepGeom_Surface.hxx>
 #include <Handle_StepGeom_Pcurve.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_StepShape_Edge.hxx>
 #include <Handle_StepShape_EdgeLoop.hxx>
 #include <Handle_Geom_Curve.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class StepGeom_SurfaceCurve;
 class StepGeom_Surface;
 class StepGeom_Pcurve;

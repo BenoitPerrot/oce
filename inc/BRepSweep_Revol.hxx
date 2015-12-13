@@ -6,14 +6,14 @@
 #ifndef _BRepSweep_Revol_HeaderFile
 #define _BRepSweep_Revol_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <BRepSweep_Rotation.hxx>
 #include <Foundation/Quantity/Quantity_PlaneAngle.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class Standard_ConstructionError;
 class TopoDS_Shape;
 class gp_Ax1;

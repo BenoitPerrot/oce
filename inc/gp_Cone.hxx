@@ -6,17 +6,17 @@
 #ifndef _gp_Cone_HeaderFile
 #define _gp_Cone_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <gp_Ax3.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Storable.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Storable.hxx>
 #include <gp_Pnt.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <gp_Ax1.hxx>
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 class Standard_ConstructionError;
 class gp_Ax3;
 class gp_Ax1;

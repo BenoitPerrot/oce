@@ -5,7 +5,7 @@
 
 #include <TDataStd_ListNodeOfListOfByte.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TDataStd_ListOfByte.hxx>
 #include <TDataStd_ListIteratorOfListOfByte.hxx>
@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_RTTI(TDataStd_ListNodeOfListOfByte)
 
 
 #define Item Standard_Byte
-#define Item_hxx <Standard_Byte.hxx>
+#define Item_hxx <Foundation/Standard/Standard_Byte.hxx>
 #define TCollection_ListNode TDataStd_ListNodeOfListOfByte
 #define TCollection_ListNode_hxx <TDataStd_ListNodeOfListOfByte.hxx>
 #define TCollection_ListIterator TDataStd_ListIteratorOfListOfByte

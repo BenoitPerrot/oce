@@ -6,14 +6,14 @@
 #ifndef _Interface_GlobalNodeOfGeneralLib_HeaderFile
 #define _Interface_GlobalNodeOfGeneralLib_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Interface_GlobalNodeOfGeneralLib.hxx>
 
 #include <Handle_Interface_GeneralModule.hxx>
 #include <Handle_Interface_Protocol.hxx>
 #include <Handle_Interface_GlobalNodeOfGeneralLib.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Handle_Interface_NodeOfGeneralLib.hxx>
 class Interface_GeneralModule;

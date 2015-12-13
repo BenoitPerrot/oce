@@ -6,20 +6,20 @@
 #ifndef _GeomInt_TheImpPrmSvSurfacesOfWLApprox_HeaderFile
 #define _GeomInt_TheImpPrmSvSurfacesOfWLApprox_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <gp_Pnt2d.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Vec2d.hxx>
 #include <gp_Vec.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <GeomInt_TheZerImpFuncOfTheImpPrmSvSurfacesOfWLApprox.hxx>
 #include <ApproxInt_SvSurfaces.hxx>
 #include <Handle_Adaptor3d_HSurface.hxx>
 #include <Handle_IntPatch_WLine.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class Adaptor3d_HSurface;
 class Adaptor3d_HSurfaceTool;
 class IntSurf_Quadric;

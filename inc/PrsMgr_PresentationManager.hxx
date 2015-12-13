@@ -6,17 +6,17 @@
 #ifndef _PrsMgr_PresentationManager_HeaderFile
 #define _PrsMgr_PresentationManager_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_PrsMgr_PresentationManager.hxx>
 
 #include <Handle_Graphic3d_StructureManager.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <PrsMgr_ListOfPresentations.hxx>
 #include <Handle_V3d_View.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_PrsMgr_PresentableObject.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Prs3d_Presentation.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Handle_Geom_Transformation.hxx>

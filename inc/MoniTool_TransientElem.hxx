@@ -6,16 +6,16 @@
 #ifndef _MoniTool_TransientElem_HeaderFile
 #define _MoniTool_TransientElem_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_MoniTool_TransientElem.hxx>
 
 #include <Handle_Standard_Transient.hxx>
 #include <MoniTool_Element.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_MoniTool_Element.hxx>
 #include <Handle_Standard_Type.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 class Standard_Transient;
 class MoniTool_Element;
 class Standard_Type;

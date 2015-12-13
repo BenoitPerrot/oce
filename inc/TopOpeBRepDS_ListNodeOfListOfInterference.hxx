@@ -6,8 +6,8 @@
 #ifndef _TopOpeBRepDS_ListNodeOfListOfInterference_HeaderFile
 #define _TopOpeBRepDS_ListNodeOfListOfInterference_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TopOpeBRepDS_ListNodeOfListOfInterference.hxx>
 
 #include <Handle_TopOpeBRepDS_Interference.hxx>

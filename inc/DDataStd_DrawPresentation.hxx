@@ -6,11 +6,11 @@
 #ifndef _DDataStd_DrawPresentation_HeaderFile
 #define _DDataStd_DrawPresentation_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_DDataStd_DrawPresentation.hxx>
 
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Draw_Drawable3D.hxx>
 #include <TDF_Attribute.hxx>
 #include <Handle_TDF_Attribute.hxx>

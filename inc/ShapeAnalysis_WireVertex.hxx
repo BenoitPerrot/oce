@@ -6,17 +6,17 @@
 #ifndef _ShapeAnalysis_WireVertex_HeaderFile
 #define _ShapeAnalysis_WireVertex_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_ShapeExtend_WireData.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>
 #include <Handle_TColgp_HArray1OfXYZ.hxx>
 #include <Handle_TColStd_HArray1OfReal.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class ShapeExtend_WireData;
 class TColStd_HArray1OfInteger;
 class TColgp_HArray1OfXYZ;

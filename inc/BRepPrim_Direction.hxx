@@ -6,7 +6,7 @@
 #ifndef _BRepPrim_Direction_HeaderFile
 #define _BRepPrim_Direction_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum BRepPrim_Direction

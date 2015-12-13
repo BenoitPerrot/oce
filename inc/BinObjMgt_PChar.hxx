@@ -16,7 +16,7 @@
 #ifndef BinObjMgt_PChar_HeaderFile
 #define BinObjMgt_PChar_HeaderFile
 
-#include <Standard_TypeDef.hxx>
+#include <Foundation/Standard/Standard_TypeDef.hxx>
 
 typedef Standard_Character* BinObjMgt_PChar;
 

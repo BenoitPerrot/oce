@@ -6,8 +6,8 @@
 #ifndef _StepVisual_CameraImage3dWithScale_HeaderFile
 #define _StepVisual_CameraImage3dWithScale_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepVisual_CameraImage3dWithScale.hxx>
 
 #include <StepVisual_CameraImage.hxx>

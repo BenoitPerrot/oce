@@ -5,7 +5,7 @@
 
 #include <ExprIntrp_ListNodeOfStackOfGeneralRelation.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Expr_GeneralRelation.hxx>
 #include <ExprIntrp_StackOfGeneralRelation.hxx>

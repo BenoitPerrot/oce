@@ -5,7 +5,7 @@
 
 #include <ChFiDS_SequenceNodeOfSequenceOfSpine.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <ChFiDS_Spine.hxx>
 #include <ChFiDS_SequenceOfSpine.hxx>

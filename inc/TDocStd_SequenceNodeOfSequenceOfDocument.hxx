@@ -6,8 +6,8 @@
 #ifndef _TDocStd_SequenceNodeOfSequenceOfDocument_HeaderFile
 #define _TDocStd_SequenceNodeOfSequenceOfDocument_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TDocStd_SequenceNodeOfSequenceOfDocument.hxx>
 
 #include <Handle_TDocStd_Document.hxx>

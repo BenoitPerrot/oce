@@ -6,8 +6,8 @@
 #ifndef _Prs3d_ArrowAspect_HeaderFile
 #define _Prs3d_ArrowAspect_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Prs3d_ArrowAspect.hxx>
 
 #include <Handle_Graphic3d_AspectLine3d.hxx>

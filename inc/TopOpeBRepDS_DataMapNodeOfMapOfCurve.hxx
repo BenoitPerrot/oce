@@ -6,11 +6,11 @@
 #ifndef _TopOpeBRepDS_DataMapNodeOfMapOfCurve_HeaderFile
 #define _TopOpeBRepDS_DataMapNodeOfMapOfCurve_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TopOpeBRepDS_DataMapNodeOfMapOfCurve.hxx>
 
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <TopOpeBRepDS_CurveData.hxx>
 #include <TCollection_MapNode.hxx>
 #include <TCollection_MapNodePtr.hxx>
@@ -53,7 +53,7 @@ private:
 };
 
 #define TheKey Standard_Integer
-#define TheKey_hxx <Standard_Integer.hxx>
+#define TheKey_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheItem TopOpeBRepDS_CurveData
 #define TheItem_hxx <TopOpeBRepDS_CurveData.hxx>
 #define Hasher TColStd_MapIntegerHasher

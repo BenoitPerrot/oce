@@ -33,8 +33,8 @@
 //          also it has methods for the sequence management.
 
 #include <Foundation/NCollection/NCollection_BaseAllocator.hxx>
-#include <Standard_OStream.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 
 #include <stdlib.h>
 #include <stdio.h> /* EOF */

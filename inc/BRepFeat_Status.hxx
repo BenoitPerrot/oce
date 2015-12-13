@@ -6,7 +6,7 @@
 #ifndef _BRepFeat_Status_HeaderFile
 #define _BRepFeat_Status_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum BRepFeat_Status

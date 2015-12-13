@@ -13,7 +13,7 @@
 
 #include <StepData_Field.hxx>
 #include <StepData_SelectNamed.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepData_SelectNamed)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepData_SelectMember),

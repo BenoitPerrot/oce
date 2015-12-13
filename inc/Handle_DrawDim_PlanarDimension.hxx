@@ -6,8 +6,8 @@
 #ifndef _Handle_DrawDim_PlanarDimension_HeaderFile
 #define _Handle_DrawDim_PlanarDimension_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_DrawDim_Dimension.hxx>
 
 class Standard_Transient;

@@ -6,7 +6,7 @@
 #ifndef _BRepFeat_PerfSelection_HeaderFile
 #define _BRepFeat_PerfSelection_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! To declare the type of selection semantics for local operation Perform methods
 //! -   NoSelection

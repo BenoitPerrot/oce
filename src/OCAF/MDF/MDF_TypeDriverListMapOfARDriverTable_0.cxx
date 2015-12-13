@@ -5,9 +5,9 @@
 
 #include <MDF_TypeDriverListMapOfARDriverTable.hxx>
 
-#include <Standard_DomainError.hxx>
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 #include <MDF_DriverListOfARDriverTable.hxx>
 #include <TColStd_MapTransientHasher.hxx>
 #include <MDF_DataMapNodeOfTypeDriverListMapOfARDriverTable.hxx>
@@ -15,7 +15,7 @@
  
 
 #define TheKey Handle(Standard_Type)
-#define TheKey_hxx <Standard_Type.hxx>
+#define TheKey_hxx <Foundation/Standard/Standard_Type.hxx>
 #define TheItem MDF_DriverListOfARDriverTable
 #define TheItem_hxx <MDF_DriverListOfARDriverTable.hxx>
 #define Hasher TColStd_MapTransientHasher

@@ -6,13 +6,13 @@
 #ifndef _TColGeom_Array2OfBezierSurface_HeaderFile
 #define _TColGeom_Array2OfBezierSurface_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
 #include <Handle_Geom_BezierSurface.hxx>
 class Standard_RangeError;
 class Standard_OutOfRange;

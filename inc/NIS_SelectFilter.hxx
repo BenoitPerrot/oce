@@ -16,8 +16,8 @@
 #ifndef NIS_SelectFilter_HeaderFile
 #define NIS_SelectFilter_HeaderFile
 
-#include <Standard_DefineHandle.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 
 class NIS_InteractiveObject;
 class Handle(Standard_Type);

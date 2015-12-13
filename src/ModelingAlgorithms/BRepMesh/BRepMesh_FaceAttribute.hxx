@@ -14,9 +14,9 @@
 #ifndef _BRepMesh_FaceAttribute_HeaderFile
 #define _BRepMesh_FaceAttribute_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_Transient.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 
 #include <BRepMesh_Status.hxx>
 #include <BRepMesh.hxx>

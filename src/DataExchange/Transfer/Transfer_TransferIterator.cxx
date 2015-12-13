@@ -13,14 +13,14 @@
 
 #include <Transfer_HSequenceOfBinder.hxx>
 #include <TColStd_HSequenceOfInteger.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Transfer_Binder.hxx>
-#include <Standard_Type.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <Interface_Check.hxx>
 #include <Transfer_TransferIterator.hxx>
 #include <Transfer_SimpleBinderOfTransient.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 
 static Handle(Standard_Transient)   nultrans;  // pour retour const&(Null)
 

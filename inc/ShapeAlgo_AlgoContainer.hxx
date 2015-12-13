@@ -6,16 +6,16 @@
 #ifndef _ShapeAlgo_AlgoContainer_HeaderFile
 #define _ShapeAlgo_AlgoContainer_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ShapeAlgo_AlgoContainer.hxx>
 
 #include <Handle_ShapeAlgo_ToolContainer.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_ShapeAnalysis_Wire.hxx>
 #include <Handle_ShapeExtend_WireData.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Geom_BSplineCurve.hxx>
 #include <Handle_Geom2d_BSplineCurve.hxx>
 #include <Handle_TColGeom_HSequenceOfBoundedCurve.hxx>
@@ -24,7 +24,7 @@
 #include <Handle_Geom_Surface.hxx>
 #include <Handle_Geom_Curve.hxx>
 #include <GeomAbs_Shape.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class ShapeAlgo_ToolContainer;
 class ShapeAnalysis_Wire;
 class ShapeExtend_WireData;

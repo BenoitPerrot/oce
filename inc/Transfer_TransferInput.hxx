@@ -6,14 +6,14 @@
 #ifndef _Transfer_TransferInput_HeaderFile
 #define _Transfer_TransferInput_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_Transfer_TransientProcess.hxx>
 #include <Handle_Interface_InterfaceModel.hxx>
 #include <Handle_Interface_Protocol.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Transfer_FinderProcess.hxx>
 class Transfer_TransferFailure;
 class Interface_EntityIterator;

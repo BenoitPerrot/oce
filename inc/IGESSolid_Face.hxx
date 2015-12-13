@@ -6,15 +6,15 @@
 #ifndef _IGESSolid_Face_HeaderFile
 #define _IGESSolid_Face_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESSolid_Face.hxx>
 
 #include <Handle_IGESData_IGESEntity.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_IGESSolid_HArray1OfLoop.hxx>
 #include <IGESData_IGESEntity.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_IGESSolid_Loop.hxx>
 class IGESData_IGESEntity;
 class IGESSolid_HArray1OfLoop;

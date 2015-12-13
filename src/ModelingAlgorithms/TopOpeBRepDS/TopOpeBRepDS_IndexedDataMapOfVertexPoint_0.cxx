@@ -5,9 +5,9 @@
 
 #include <TopOpeBRepDS_IndexedDataMapOfVertexPoint.hxx>
 
-#include <Standard_DomainError.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopOpeBRepDS_Point.hxx>
 #include <TopTools_ShapeMapHasher.hxx>

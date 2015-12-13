@@ -17,7 +17,7 @@
 #include <TopOpeBRepDS_HDataStructure.hxx>
 #include <TopTools_HArray1OfShape.hxx>
 #include <TopTools_HArray1OfListOfShape.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopOpeBRepBuild_HBuilder.hxx>
 #include <TopOpeBRepDS_BuildTool.hxx>
 #include <TopoDS_Shape.hxx>
@@ -57,7 +57,7 @@
 #include <TopoDS_Face.hxx>
 #include <BRep_Builder.hxx>
 #include <BRep_Tool.hxx>
-#include <Standard_ProgramError.hxx>
+#include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <TopOpeBRepDS_define.hxx>
 
 #ifdef OCCT_DEBUG

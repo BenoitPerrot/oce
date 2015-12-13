@@ -18,9 +18,9 @@
 
 #include <IGESData_IGESEntity.hxx>
 #include <IGESData_HArray1OfIGESEntity.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <IGESBasic_SingleParent.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESBasic_SingleParent)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(IGESData_SingleParentEntity),
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESBasic_SingleParent)
 IMPLEMENT_DOWNCAST(IGESBasic_SingleParent,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESBasic_SingleParent)
-#include <Standard_DimensionMismatch.hxx>
+#include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 
 
 IGESBasic_SingleParent::IGESBasic_SingleParent ()    {  }

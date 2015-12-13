@@ -6,11 +6,11 @@
 #ifndef _TShort_SequenceNodeOfSequenceOfShortReal_HeaderFile
 #define _TShort_SequenceNodeOfSequenceOfShortReal_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TShort_SequenceNodeOfSequenceOfShortReal.hxx>
 
-#include <Standard_ShortReal.hxx>
+#include <Foundation/Standard/Standard_ShortReal.hxx>
 #include <TCollection_SeqNode.hxx>
 #include <TCollection_SeqNodePtr.hxx>
 class TShort_SequenceOfShortReal;
@@ -46,7 +46,7 @@ private:
 };
 
 #define SeqItem Standard_ShortReal
-#define SeqItem_hxx <Standard_ShortReal.hxx>
+#define SeqItem_hxx <Foundation/Standard/Standard_ShortReal.hxx>
 #define TCollection_SequenceNode TShort_SequenceNodeOfSequenceOfShortReal
 #define TCollection_SequenceNode_hxx <TShort_SequenceNodeOfSequenceOfShortReal.hxx>
 #define Handle_TCollection_SequenceNode Handle_TShort_SequenceNodeOfSequenceOfShortReal

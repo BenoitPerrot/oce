@@ -5,7 +5,7 @@
 
 #include <ChFiDS_ListOfStripe.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <ChFiDS_ListIteratorOfListOfStripe.hxx>
 #include <ChFiDS_Stripe.hxx>
 #include <ChFiDS_ListNodeOfListOfStripe.hxx>

@@ -6,14 +6,14 @@
 #ifndef _StepElement_HArray1OfHSequenceOfCurveElementPurposeMember_HeaderFile
 #define _StepElement_HArray1OfHSequenceOfCurveElementPurposeMember_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepElement_HArray1OfHSequenceOfCurveElementPurposeMember.hxx>
 
 #include <StepElement_Array1OfHSequenceOfCurveElementPurposeMember.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_StepElement_HSequenceOfCurveElementPurposeMember.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_DimensionMismatch;
 class Standard_OutOfRange;

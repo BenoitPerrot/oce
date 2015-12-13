@@ -5,8 +5,8 @@
 
 #include <STEPCAFControl_DataMapOfSDRExternFile.hxx>
 
-#include <Standard_DomainError.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <StepShape_ShapeDefinitionRepresentation.hxx>
 #include <STEPCAFControl_ExternFile.hxx>
 #include <TColStd_MapTransientHasher.hxx>

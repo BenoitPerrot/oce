@@ -15,7 +15,7 @@
 #include <TCollection_HAsciiString.hxx>
 #include <StepShape_FaceBound.hxx>
 #include <StepShape_Face.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepShape_Face)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepShape_TopologicalRepresentationItem),

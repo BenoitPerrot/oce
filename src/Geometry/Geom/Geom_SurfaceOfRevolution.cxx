@@ -14,8 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_ConstructionError.hxx>
-#include <Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Geom_UndefinedDerivative.hxx>
 #include <Geom_Curve.hxx>
 #include <gp_Ax1.hxx>
@@ -27,7 +27,7 @@
 #include <gp_Vec.hxx>
 #include <Geom_Geometry.hxx>
 #include <Geom_SurfaceOfRevolution.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Geom_SurfaceOfRevolution)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Geom_SweptSurface),
@@ -48,9 +48,9 @@ IMPLEMENT_STANDARD_RTTI(Geom_SurfaceOfRevolution)
 #include <gp_Lin.hxx>
 #include <gp_Dir.hxx>
 #include <gp_Pnt.hxx>
-#include <Standard_ConstructionError.hxx>
-#include <Standard_NotImplemented.hxx>
-#include <Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Geom_BSplineCurve.hxx>
 #include <Precision.hxx>
 #define  POLES    (poles->Array2())

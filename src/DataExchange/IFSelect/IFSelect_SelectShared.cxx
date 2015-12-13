@@ -15,7 +15,7 @@
 #include <Interface_Graph.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <IFSelect_SelectShared.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IFSelect_SelectShared)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(IFSelect_SelectDeduct),

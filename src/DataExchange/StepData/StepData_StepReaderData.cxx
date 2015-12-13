@@ -17,17 +17,17 @@
 #include <TCollection_AsciiString.hxx>
 #include <TColStd_SequenceOfAsciiString.hxx>
 #include <StepData_PDescr.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <StepData_SelectMember.hxx>
 #include <StepData_Field.hxx>
 #include <StepData_ESDescr.hxx>
 #include <StepData_FieldList.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 #include <StepData_SelectType.hxx>
 #include <TCollection_HAsciiString.hxx>
 #include <StepData_EnumTool.hxx>
 #include <StepData_StepReaderData.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepData_StepReaderData)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Interface_FileReaderData),

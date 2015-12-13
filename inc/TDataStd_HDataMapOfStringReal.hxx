@@ -6,13 +6,13 @@
 #ifndef _TDataStd_HDataMapOfStringReal_HeaderFile
 #define _TDataStd_HDataMapOfStringReal_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TDataStd_HDataMapOfStringReal.hxx>
 
 #include <TDataStd_DataMapOfStringReal.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class TDataStd_DataMapOfStringReal;
 
 

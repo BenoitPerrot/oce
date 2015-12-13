@@ -158,7 +158,7 @@ Standard_Integer OSD_Disk::Error()const{
 
 #define STRICT
 
-#include <Standard_ProgramError.hxx>
+#include <Foundation/Standard/Standard_ProgramError.hxx>
 
 #include <windows.h>
 

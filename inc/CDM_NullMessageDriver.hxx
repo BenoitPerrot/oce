@@ -6,12 +6,12 @@
 #ifndef _CDM_NullMessageDriver_HeaderFile
 #define _CDM_NullMessageDriver_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_CDM_NullMessageDriver.hxx>
 
 #include <CDM_MessageDriver.hxx>
-#include <Standard_ExtString.hxx>
+#include <Foundation/Standard/Standard_ExtString.hxx>
 
 
 //! a MessageDriver that writes nowhere.

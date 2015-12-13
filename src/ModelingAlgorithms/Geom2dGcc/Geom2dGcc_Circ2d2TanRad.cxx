@@ -14,10 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <GccEnt_BadQualifier.hxx>
 #include <StdFail_NotDone.hxx>
-#include <Standard_NegativeValue.hxx>
+#include <Foundation/Standard/Standard_NegativeValue.hxx>
 #include <Geom2dGcc_QualifiedCurve.hxx>
 #include <Geom2d_Point.hxx>
 #include <GccAna_Circ2d2TanRad.hxx>
@@ -37,8 +37,8 @@
 #include <GccEnt_QualifiedCirc.hxx>
 #include <GccEnt_QualifiedLin.hxx>
 #include <StdFail_NotDone.hxx>
-#include <Standard_NegativeValue.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NegativeValue.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 
 
 // circulaire tangent a deux cercles et de rayon donne

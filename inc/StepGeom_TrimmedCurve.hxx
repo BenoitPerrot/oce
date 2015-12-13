@@ -6,17 +6,17 @@
 #ifndef _StepGeom_TrimmedCurve_HeaderFile
 #define _StepGeom_TrimmedCurve_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepGeom_TrimmedCurve.hxx>
 
 #include <Handle_StepGeom_Curve.hxx>
 #include <Handle_StepGeom_HArray1OfTrimmingSelect.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <StepGeom_TrimmingPreference.hxx>
 #include <StepGeom_BoundedCurve.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class StepGeom_Curve;
 class StepGeom_HArray1OfTrimmingSelect;
 class TCollection_HAsciiString;

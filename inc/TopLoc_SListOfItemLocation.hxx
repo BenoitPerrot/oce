@@ -6,12 +6,12 @@
 #ifndef _TopLoc_SListOfItemLocation_HeaderFile
 #define _TopLoc_SListOfItemLocation_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_TopLoc_SListNodeOfItemLocation.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class TopLoc_SListNodeOfItemLocation;
 class Standard_NoSuchObject;
 class TopLoc_ItemLocation;

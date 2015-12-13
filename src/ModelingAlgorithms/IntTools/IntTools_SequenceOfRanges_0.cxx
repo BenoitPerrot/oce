@@ -5,8 +5,8 @@
 
 #include <IntTools_SequenceOfRanges.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <IntTools_Range.hxx>
 #include <IntTools_SequenceNodeOfSequenceOfRanges.hxx>
  

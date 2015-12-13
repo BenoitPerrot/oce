@@ -6,15 +6,15 @@
 #ifndef _MAT_Zone_HeaderFile
 #define _MAT_Zone_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_MAT_Zone.hxx>
 
 #include <MAT_SequenceOfArc.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_MAT_BasicElt.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_MAT_Arc.hxx>
 #include <Handle_MAT_Node.hxx>
 #include <MAT_Side.hxx>

@@ -6,7 +6,7 @@
 #ifndef _Draft_ErrorStatus_HeaderFile
 #define _Draft_ErrorStatus_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum Draft_ErrorStatus

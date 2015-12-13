@@ -6,18 +6,18 @@
 #ifndef _HLRBRep_CInter_HeaderFile
 #define _HLRBRep_CInter_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <IntCurve_IntConicConic.hxx>
 #include <HLRBRep_TheIntConicCurveOfCInter.hxx>
 #include <HLRBRep_TheIntPCurvePCurveOfCInter.hxx>
 #include <IntRes2d_Intersection.hxx>
-#include <Standard_Address.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_ConstructionError;
 class HLRBRep_CurveTool;
 class HLRBRep_TheProjPCurOfCInter;
@@ -101,7 +101,7 @@ private:
 };
 
 #define TheCurve Standard_Address
-#define TheCurve_hxx <Standard_Address.hxx>
+#define TheCurve_hxx <Foundation/Standard/Standard_Address.hxx>
 #define TheCurveTool HLRBRep_CurveTool
 #define TheCurveTool_hxx <HLRBRep_CurveTool.hxx>
 #define IntCurve_TheProjPCur HLRBRep_TheProjPCurOfCInter

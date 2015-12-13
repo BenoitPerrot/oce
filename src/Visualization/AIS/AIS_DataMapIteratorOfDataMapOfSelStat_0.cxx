@@ -5,7 +5,7 @@
 
 #include <AIS_DataMapIteratorOfDataMapOfSelStat.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <SelectMgr_SelectableObject.hxx>
 #include <AIS_LocalStatus.hxx>
 #include <TColStd_MapTransientHasher.hxx>

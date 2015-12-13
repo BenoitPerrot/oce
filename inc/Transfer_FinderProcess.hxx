@@ -6,14 +6,14 @@
 #ifndef _Transfer_FinderProcess_HeaderFile
 #define _Transfer_FinderProcess_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Transfer_FinderProcess.hxx>
 
 #include <Handle_Interface_InterfaceModel.hxx>
 #include <Transfer_ProcessForFinder.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_Transfer_TransientMapper.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Handle_Transfer_Finder.hxx>

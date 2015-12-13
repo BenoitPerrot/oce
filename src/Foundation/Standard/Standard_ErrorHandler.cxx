@@ -16,11 +16,11 @@
 //==== Titre: Standard_ErrorHandler.cxx
 //==== Role : class "Standard_ErrorHandler" implementation.
 //============================================================================
-#include <Standard_ErrorHandler.hxx>
-#include <Standard_Failure.hxx>
-#include <Standard_ErrorHandlerCallback.hxx>
-#include <Standard_Mutex.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_ErrorHandlerCallback.hxx>
+#include <Foundation/Standard/Standard_Mutex.hxx>
+#include <Foundation/Standard/Standard.hxx>
 
 #ifndef WNT
 #include <pthread.h>

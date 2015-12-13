@@ -6,19 +6,19 @@
 #ifndef _Expr_NamedFunction_HeaderFile
 #define _Expr_NamedFunction_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Expr_NamedFunction.hxx>
 
 #include <TCollection_AsciiString.hxx>
 #include <Handle_Expr_GeneralExpression.hxx>
 #include <Expr_Array1OfNamedUnknown.hxx>
 #include <Expr_GeneralFunction.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Expr_NamedUnknown.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Expr_GeneralFunction.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class Expr_GeneralExpression;
 class Standard_OutOfRange;
 class Standard_DimensionMismatch;

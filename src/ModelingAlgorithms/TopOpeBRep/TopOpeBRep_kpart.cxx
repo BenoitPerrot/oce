@@ -33,8 +33,8 @@
 #include <TopOpeBRepDS_DataStructure.hxx>
 #include <TopOpeBRep_FacesFiller.hxx>
 
-#include <Standard_ProgramError.hxx>
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_ProgramError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Geom_Curve.hxx>
 #include <Geom2d_Curve.hxx>
 #include <TopOpeBRep_FFTransitionTool.hxx>

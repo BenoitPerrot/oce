@@ -18,7 +18,7 @@
 #include <TopTools_MapOfShape.hxx>
 #include <TopTools_DataMapOfShapeListOfShape.hxx>
 #include <ShapeFix_Wireframe.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeFix_Wireframe)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(ShapeFix_Root),
@@ -29,8 +29,8 @@ IMPLEMENT_STANDARD_TYPE_END(ShapeFix_Wireframe)
 IMPLEMENT_DOWNCAST(ShapeFix_Wireframe,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ShapeFix_Wireframe)
 
-#include <Standard_Failure.hxx>
-#include <Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
 
 //#include <Geom2dConvert_CompCurveToBSplineCurve.hxx>
 #include <ShapeBuild_ReShape.hxx>

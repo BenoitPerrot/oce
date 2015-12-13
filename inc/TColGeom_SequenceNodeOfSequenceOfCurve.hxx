@@ -6,8 +6,8 @@
 #ifndef _TColGeom_SequenceNodeOfSequenceOfCurve_HeaderFile
 #define _TColGeom_SequenceNodeOfSequenceOfCurve_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TColGeom_SequenceNodeOfSequenceOfCurve.hxx>
 
 #include <Handle_Geom_Curve.hxx>

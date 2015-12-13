@@ -5,7 +5,7 @@
 
 #include <Units_SequenceNodeOfQtsSequence.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Units_Quantity.hxx>
 #include <Units_QtsSequence.hxx>

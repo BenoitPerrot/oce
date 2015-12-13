@@ -14,7 +14,7 @@
 #include <TopoDS_Shape.hxx>
 #include <TopTools_SequenceOfShape.hxx>
 #include <ShapeUpgrade_RemoveInternalWires.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeUpgrade_RemoveInternalWires)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(ShapeUpgrade_Tool),

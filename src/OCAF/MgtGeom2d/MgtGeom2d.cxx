@@ -48,7 +48,7 @@
 #include <PGeom2d_VectorWithMagnitude.hxx>
 #include <MgtGeom2d.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <PColStd_HArray1OfInteger.hxx>
 #include <PColStd_HArray2OfInteger.hxx>
@@ -77,7 +77,7 @@
 
 //modif wok++
 #include <gp_Circ2d.hxx>
-#include <Standard_NullObject.hxx>
+#include <Foundation/Standard/Standard_NullObject.hxx>
 #include <gp_Lin2d.hxx>
 
 // *******************************************************************

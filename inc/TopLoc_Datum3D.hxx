@@ -6,13 +6,13 @@
 #ifndef _TopLoc_Datum3D_HeaderFile
 #define _TopLoc_Datum3D_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TopLoc_Datum3D.hxx>
 
 #include <gp_Trsf.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 class Standard_ConstructionError;
 class gp_Trsf;
 

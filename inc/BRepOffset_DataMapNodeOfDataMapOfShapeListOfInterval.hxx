@@ -6,8 +6,8 @@
 #ifndef _BRepOffset_DataMapNodeOfDataMapOfShapeListOfInterval_HeaderFile
 #define _BRepOffset_DataMapNodeOfDataMapOfShapeListOfInterval_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BRepOffset_DataMapNodeOfDataMapOfShapeListOfInterval.hxx>
 
 #include <TopoDS_Shape.hxx>

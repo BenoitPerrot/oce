@@ -5,11 +5,11 @@
 
 #include <PDataStd_HArray1OfHArray1OfReal.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <PColStd_HArray1OfReal.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
 #include <PDataStd_FieldOfHArray1OfHArray1OfReal.hxx>
 #include <PDataStd_VArrayNodeOfFieldOfHArray1OfHArray1OfReal.hxx>
 #include <PDataStd_VArrayTNodeOfFieldOfHArray1OfHArray1OfReal.hxx>

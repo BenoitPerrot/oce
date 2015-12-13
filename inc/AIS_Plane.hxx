@@ -6,19 +6,19 @@
 #ifndef _AIS_Plane_HeaderFile
 #define _AIS_Plane_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_AIS_Plane.hxx>
 
 #include <Handle_Geom_Plane.hxx>
 #include <Handle_Geom_Axis2Placement.hxx>
 #include <gp_Pnt.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <AIS_TypeOfPlane.hxx>
 #include <Select3D_TypeOfSensitivity.hxx>
 #include <AIS_InteractiveObject.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <AIS_KindOfInteractive.hxx>
 #include <Handle_AIS_InteractiveContext.hxx>
 #include <PrsMgr_PresentationManager3d.hxx>

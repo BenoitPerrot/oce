@@ -6,8 +6,8 @@
 #ifndef _Handle_Select3D_SensitiveBox_HeaderFile
 #define _Handle_Select3D_SensitiveBox_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Select3D_SensitiveEntity.hxx>
 
 class Standard_Transient;

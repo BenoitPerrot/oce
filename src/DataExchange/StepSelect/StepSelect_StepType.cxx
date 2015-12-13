@@ -14,10 +14,10 @@
 #include <StepData_Protocol.hxx>
 #include <Interface_InterfaceError.hxx>
 #include <Interface_Protocol.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <Interface_InterfaceModel.hxx>
 #include <StepSelect_StepType.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepSelect_StepType)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(IFSelect_Signature),

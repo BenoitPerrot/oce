@@ -5,8 +5,8 @@
 
 #include <HLRBRep_SeqOfShapeBounds.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <HLRBRep_ShapeBounds.hxx>
 #include <HLRBRep_SequenceNodeOfSeqOfShapeBounds.hxx>
  

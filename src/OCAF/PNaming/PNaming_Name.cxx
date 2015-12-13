@@ -17,7 +17,7 @@
 #include <PNaming_HArray1OfNamedShape.hxx>
 #include <PNaming_NamedShape.hxx>
 #include <PNaming_Name.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PNaming_Name)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Standard_Persistent),

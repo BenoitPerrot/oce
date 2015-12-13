@@ -6,7 +6,7 @@
 #ifndef _Interface_DataState_HeaderFile
 #define _Interface_DataState_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! validity state of anentity's content (see InterfaceModel)
 enum Interface_DataState

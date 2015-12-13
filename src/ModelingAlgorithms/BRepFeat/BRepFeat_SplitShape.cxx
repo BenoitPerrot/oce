@@ -16,8 +16,8 @@
 
 #include <LocOpe_WiresOnShape.hxx>
 #include <StdFail_NotDone.hxx>
-#include <Standard_ConstructionError.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Wire.hxx>
 #include <TopoDS_Face.hxx>
@@ -27,7 +27,7 @@
 #include <BRepFeat_SplitShape.hxx>
 
 #include <TopTools_ListIteratorOfListOfShape.hxx>
-#include <Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
 
 //=======================================================================
 //function : Build

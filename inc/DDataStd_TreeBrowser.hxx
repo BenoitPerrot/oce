@@ -6,14 +6,14 @@
 #ifndef _DDataStd_TreeBrowser_HeaderFile
 #define _DDataStd_TreeBrowser_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_DDataStd_TreeBrowser.hxx>
 
 #include <TDF_Label.hxx>
 #include <Draw_Drawable3D.hxx>
 #include <Handle_Draw_Drawable3D.hxx>
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 #include <Draw_Interpretor.hxx>
 #include <Handle_TDataStd_TreeNode.hxx>
 class TDF_Label;

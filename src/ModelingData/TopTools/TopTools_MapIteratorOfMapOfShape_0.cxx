@@ -5,7 +5,7 @@
 
 #include <TopTools_MapIteratorOfMapOfShape.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopTools_ShapeMapHasher.hxx>
 #include <TopTools_MapOfShape.hxx>

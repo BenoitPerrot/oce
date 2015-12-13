@@ -6,7 +6,7 @@
 #ifndef _OSD_SysType_HeaderFile
 #define _OSD_SysType_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Thisd is a set of possible system types.
 //! 'Default' means SysType of machine operating this process.

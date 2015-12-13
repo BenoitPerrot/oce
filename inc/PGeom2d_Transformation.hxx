@@ -6,13 +6,13 @@
 #ifndef _PGeom2d_Transformation_HeaderFile
 #define _PGeom2d_Transformation_HeaderFile
 
-#include <Standard_Macro.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Handle_PGeom2d_Transformation.hxx>
 
 #include <gp_Trsf2d.hxx>
-#include <Standard_Persistent.hxx>
+#include <Foundation/Standard/Standard_Persistent.hxx>
 class gp_Trsf2d;
 
 

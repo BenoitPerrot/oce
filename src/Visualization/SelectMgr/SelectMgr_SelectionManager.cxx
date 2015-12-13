@@ -18,7 +18,7 @@
 #include <SelectMgr_SelectableObject.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <SelectMgr_SelectionManager.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(SelectMgr_SelectionManager)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

@@ -6,14 +6,14 @@
 #ifndef _StepVisual_CompositeText_HeaderFile
 #define _StepVisual_CompositeText_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepVisual_CompositeText.hxx>
 
 #include <Handle_StepVisual_HArray1OfTextOrCharacter.hxx>
 #include <StepGeom_GeometricRepresentationItem.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class StepVisual_HArray1OfTextOrCharacter;
 class TCollection_HAsciiString;
 class StepVisual_TextOrCharacter;

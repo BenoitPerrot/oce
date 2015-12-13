@@ -6,7 +6,7 @@
 #ifndef _AIS_TypeOfDist_HeaderFile
 #define _AIS_TypeOfDist_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! To declare the type of distance.
 enum AIS_TypeOfDist

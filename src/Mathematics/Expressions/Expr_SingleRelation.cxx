@@ -15,11 +15,11 @@
 // commercial license or contractual agreement.
 
 #include <Expr_GeneralExpression.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Expr_GeneralRelation.hxx>
 #include <Expr_NamedUnknown.hxx>
 #include <Expr_SingleRelation.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Expr_SingleRelation)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Expr_GeneralRelation),
@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(Expr_SingleRelation)
 IMPLEMENT_DOWNCAST(Expr_SingleRelation,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Expr_SingleRelation)
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 
 void Expr_SingleRelation::SetFirstMember (const Handle(Expr_GeneralExpression)& exp)
 {

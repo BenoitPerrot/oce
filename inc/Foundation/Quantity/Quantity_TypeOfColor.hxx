@@ -6,7 +6,7 @@
 #ifndef _Quantity_TypeOfColor_HeaderFile
 #define _Quantity_TypeOfColor_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Identifies color definition systems
 //! -   Quantity_TOC_RGB: with this system a

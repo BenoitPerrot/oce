@@ -15,20 +15,20 @@
 // commercial license or contractual agreement.
 
 #include <TColStd_HArray1OfInteger.hxx>
-#include <Standard_DimensionError.hxx>
-#include <Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_DimensionError.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Law_BSpline.hxx>
 #include <TColStd_Array1OfInteger.hxx>
 #include <Law_BSplineKnotSplitting.hxx>
 
 
 #include <TColStd_HArray1OfInteger.hxx>
-#include <Standard_DimensionError.hxx>
-#include <Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_DimensionError.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Law_BSpline.hxx>
 #include <TColStd_Array1OfInteger.hxx>
 #include <Law_BSplineKnotSplitting.hxx>
-#include <Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
 
 #include <BSplCLib.hxx>
 

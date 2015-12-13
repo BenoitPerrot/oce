@@ -20,8 +20,8 @@
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <Foundation/Message/Message_Msg.hxx>
 #include <Foundation/Message/Message_MsgFile.hxx>
-#include <Standard_AncestorIterator.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_AncestorIterator.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <TCollection_HAsciiString.hxx>
 #include <TCollection_ExtendedString.hxx>

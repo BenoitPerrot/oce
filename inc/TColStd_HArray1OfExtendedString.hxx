@@ -6,13 +6,13 @@
 #ifndef _TColStd_HArray1OfExtendedString_HeaderFile
 #define _TColStd_HArray1OfExtendedString_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TColStd_HArray1OfExtendedString.hxx>
 
 #include <TColStd_Array1OfExtendedString.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_DimensionMismatch;
 class Standard_OutOfRange;

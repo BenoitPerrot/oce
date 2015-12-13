@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 //szv#4 S4163
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <gp_Pln.hxx>
 #include <TColStd_HArray2OfReal.hxx>
@@ -30,8 +30,8 @@
 #include <gp_Vec.hxx>
 #include <gp_XYZ.hxx>
 
-#include <Standard_ErrorHandler.hxx>
-#include <Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
 
 //=======================================================================
 //function : NearestPlane

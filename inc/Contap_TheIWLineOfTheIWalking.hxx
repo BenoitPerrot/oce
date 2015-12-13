@@ -6,14 +6,14 @@
 #ifndef _Contap_TheIWLineOfTheIWalking_HeaderFile
 #define _Contap_TheIWLineOfTheIWalking_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Contap_TheIWLineOfTheIWalking.hxx>
 
 #include <Handle_IntSurf_LineOn2S.hxx>
 #include <IntSurf_SequenceOfCouple.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <IntSurf_PathPoint.hxx>
 #include <gp_Vec.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

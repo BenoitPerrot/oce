@@ -17,7 +17,7 @@
 #include <TColStd_HArray1OfByte.hxx>
 #include <TDataStd_ByteArray.hxx>
 #include <TDataStd_DeltaOnModificationOfByteArray.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDataStd_DeltaOnModificationOfByteArray)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(TDF_DeltaOnModification),

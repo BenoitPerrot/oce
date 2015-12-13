@@ -6,9 +6,9 @@
 #ifndef _StepData_StepReaderTool_HeaderFile
 #define _StepData_StepReaderTool_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_StepData_FileRecognizer.hxx>
 #include <Interface_GeneralLib.hxx>
@@ -16,8 +16,8 @@
 #include <Interface_FileReaderTool.hxx>
 #include <Handle_StepData_StepReaderData.hxx>
 #include <Handle_StepData_Protocol.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Interface_Check.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Handle_Interface_InterfaceModel.hxx>

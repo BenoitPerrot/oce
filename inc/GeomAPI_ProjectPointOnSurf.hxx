@@ -6,17 +6,17 @@
 #ifndef _GeomAPI_ProjectPointOnSurf_HeaderFile
 #define _GeomAPI_ProjectPointOnSurf_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Extrema_ExtPS.hxx>
 #include <GeomAdaptor_Surface.hxx>
 #include <Handle_Geom_Surface.hxx>
 #include <Extrema_ExtAlgo.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Quantity/Quantity_Parameter.hxx>
 #include <Foundation/Quantity/Quantity_Length.hxx>
 class Standard_OutOfRange;

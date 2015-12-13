@@ -17,10 +17,10 @@
 #include <Interface_InterfaceModel.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <TColStd_HArray1OfTransient.hxx>
-#include <Standard_DomainError.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Interface_Check.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <Interface_GeneralLib.hxx>
 #include <Interface_ReaderLib.hxx>
 #include <Interface_FileReaderTool.hxx>
@@ -33,10 +33,10 @@
 #include <Foundation/Message/Message_Msg.hxx>
 #include <Foundation/Message/Message.hxx>
 
-#include <Standard_OutOfRange.hxx>
-#include <Standard_ErrorHandler.hxx>
-#include <Standard_Failure.hxx>
-#include <Standard_TypeMismatch.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_TypeMismatch.hxx>
 #ifdef WNT
 #include <Foundation/OSD/OSD_Exception.hxx>
 #else

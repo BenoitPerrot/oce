@@ -6,7 +6,7 @@
 #ifndef _AdvApp2Var_CriterionRepartition_HeaderFile
 #define _AdvApp2Var_CriterionRepartition_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! way of cutting process//! all new cutting points at each step of cutting
 //! process : (a+i(b-a)/N)i at step N,

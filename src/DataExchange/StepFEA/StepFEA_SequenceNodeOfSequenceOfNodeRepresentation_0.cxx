@@ -5,7 +5,7 @@
 
 #include <StepFEA_SequenceNodeOfSequenceOfNodeRepresentation.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <StepFEA_NodeRepresentation.hxx>
 #include <StepFEA_SequenceOfNodeRepresentation.hxx>

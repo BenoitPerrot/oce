@@ -6,16 +6,16 @@
 #ifndef _QANewBRepNaming_Gluing_HeaderFile
 #define _QANewBRepNaming_Gluing_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TDF_LabelMap.hxx>
 #include <QANewBRepNaming_TopNaming.hxx>
 #include <TopAbs_ShapeEnum.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_NullObject;
 class TDF_Label;
 class QANewModTopOpe_Glue;

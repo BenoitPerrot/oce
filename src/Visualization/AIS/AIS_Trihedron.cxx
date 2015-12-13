@@ -32,7 +32,7 @@
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <AIS_Trihedron.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_Trihedron)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(AIS_InteractiveObject),

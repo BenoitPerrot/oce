@@ -6,7 +6,7 @@
 #ifndef _Prs3d_TypeOfHLR_HeaderFile
 #define _Prs3d_TypeOfHLR_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Declares types of hidden line removal algorithm.
 //! TOH_Algo enables using of exact HLR algorithm.

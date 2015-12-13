@@ -16,12 +16,12 @@
 
 #include <Geom_BSplineCurve.hxx>
 #include <StdFail_NotDone.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <TColStd_Array1OfReal.hxx>
 #include <GeomLib_Interpolate.hxx>
 
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <PLib.hxx>
 #include <BSplCLib.hxx>
 #include <gp_Vec.hxx>

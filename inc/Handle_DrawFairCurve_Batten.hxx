@@ -6,8 +6,8 @@
 #ifndef _Handle_DrawFairCurve_Batten_HeaderFile
 #define _Handle_DrawFairCurve_Batten_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_DrawTrSurf_BSplineCurve2d.hxx>
 
 class Standard_Transient;

@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <Interface_Graph.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <Interface_EntityIterator.hxx>
 #include <Interface_GraphContent.hxx>
 #include <Interface_InterfaceModel.hxx>

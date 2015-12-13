@@ -18,7 +18,7 @@
 #include <ChFiDS_HData.hxx>
 #include <Geom2d_Curve.hxx>
 #include <ChFiDS_Stripe.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ChFiDS_Stripe)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

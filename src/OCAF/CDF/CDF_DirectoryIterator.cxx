@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <CDF_Directory.hxx>
 #include <CDM_Document.hxx>
 #include <CDF_DirectoryIterator.hxx>

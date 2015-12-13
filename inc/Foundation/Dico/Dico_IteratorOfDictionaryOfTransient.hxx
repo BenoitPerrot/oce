@@ -6,17 +6,17 @@
 #ifndef _Dico_IteratorOfDictionaryOfTransient_HeaderFile
 #define _Dico_IteratorOfDictionaryOfTransient_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_Dico_DictionaryOfTransient.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <Handle_Dico_StackItemOfDictionaryOfTransient.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Standard_Transient.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 class Dico_DictionaryOfTransient;
 class Dico_StackItemOfDictionaryOfTransient;
 class Standard_NoSuchObject;

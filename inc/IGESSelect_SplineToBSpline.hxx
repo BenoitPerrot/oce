@@ -6,11 +6,11 @@
 #ifndef _IGESSelect_SplineToBSpline_HeaderFile
 #define _IGESSelect_SplineToBSpline_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESSelect_SplineToBSpline.hxx>
 
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Interface_CopyControl.hxx>
 #include <IFSelect_Transformer.hxx>
 #include <Handle_Interface_Protocol.hxx>

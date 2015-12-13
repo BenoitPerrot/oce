@@ -14,16 +14,16 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_Stream.hxx>
+#include <Foundation/Standard/Standard_Stream.hxx>
 #include <HLRBRep_Data.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <HLRAlgo_Projector.hxx>
 #include <HLRTopoBRep_OutLiner.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <HLRBRep_SeqOfShapeBounds.hxx>
 #include <HLRBRep_ShapeBounds.hxx>
 #include <HLRBRep_InternalAlgo.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(HLRBRep_InternalAlgo)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),
@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_TYPE_END(HLRBRep_InternalAlgo)
 IMPLEMENT_DOWNCAST(HLRBRep_InternalAlgo,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(HLRBRep_InternalAlgo)
 
-#include <Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <TColStd_Array1OfReal.hxx>
 #include <HLRAlgo.hxx>
 #include <HLRBRep_ShapeToHLR.hxx>

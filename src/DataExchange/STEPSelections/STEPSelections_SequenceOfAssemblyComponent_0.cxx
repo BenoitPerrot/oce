@@ -5,8 +5,8 @@
 
 #include <STEPSelections_SequenceOfAssemblyComponent.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <STEPSelections_AssemblyComponent.hxx>
 #include <STEPSelections_SequenceNodeOfSequenceOfAssemblyComponent.hxx>
  

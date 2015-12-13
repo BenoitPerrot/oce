@@ -5,8 +5,8 @@
 
 #include <SelectMgr_SequenceOfOwner.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <SelectMgr_EntityOwner.hxx>
 #include <SelectMgr_SequenceNodeOfSequenceOfOwner.hxx>
  

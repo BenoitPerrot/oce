@@ -6,16 +6,16 @@
 #ifndef _AppParCurves_MultiBSpCurve_HeaderFile
 #define _AppParCurves_MultiBSpCurve_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_TColStd_HArray1OfReal.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <AppParCurves_MultiCurve.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 class TColStd_HArray1OfReal;
 class TColStd_HArray1OfInteger;
 class Standard_OutOfRange;

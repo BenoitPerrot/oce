@@ -6,12 +6,12 @@
 #ifndef _Bnd_B2d_HeaderFile
 #define _Bnd_B2d_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Real.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <gp_XY.hxx>
 class gp_XY;
 class gp_Pnt2d;
@@ -93,7 +93,7 @@ private:
 };
 
 #define RealType Standard_Real
-#define RealType_hxx <Standard_Real.hxx>
+#define RealType_hxx <Foundation/Standard/Standard_Real.hxx>
 #define Bnd_B2x Bnd_B2d
 #define Bnd_B2x_hxx <Bnd_B2d.hxx>
 

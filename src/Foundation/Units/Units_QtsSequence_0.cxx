@@ -5,8 +5,8 @@
 
 #include <Units_QtsSequence.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Units_Quantity.hxx>
 #include <Units_SequenceNodeOfQtsSequence.hxx>
  

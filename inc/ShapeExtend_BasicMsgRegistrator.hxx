@@ -6,8 +6,8 @@
 #ifndef _ShapeExtend_BasicMsgRegistrator_HeaderFile
 #define _ShapeExtend_BasicMsgRegistrator_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ShapeExtend_BasicMsgRegistrator.hxx>
 
 #include <Foundation/MMgt/MMgt_TShared.hxx>

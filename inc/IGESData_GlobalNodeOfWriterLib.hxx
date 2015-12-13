@@ -6,14 +6,14 @@
 #ifndef _IGESData_GlobalNodeOfWriterLib_HeaderFile
 #define _IGESData_GlobalNodeOfWriterLib_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESData_GlobalNodeOfWriterLib.hxx>
 
 #include <Handle_IGESData_ReadWriteModule.hxx>
 #include <Handle_IGESData_Protocol.hxx>
 #include <Handle_IGESData_GlobalNodeOfWriterLib.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <Handle_IGESData_IGESEntity.hxx>
 #include <Handle_IGESData_NodeOfWriterLib.hxx>
 class IGESData_ReadWriteModule;

@@ -6,17 +6,17 @@
 #ifndef _SelectMgr_Selection_HeaderFile
 #define _SelectMgr_Selection_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_SelectMgr_Selection.hxx>
 
 #include <SelectBasics_ListOfSensitive.hxx>
 #include <SelectBasics_ListIteratorOfListOfSensitive.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <SelectMgr_TypeOfUpdate.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_SelectBasics_SensitiveEntity.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_NullObject;
 class SelectBasics_SensitiveEntity;
 

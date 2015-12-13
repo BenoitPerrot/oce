@@ -14,7 +14,7 @@
 #include <StepBasic_MassUnit.hxx>
 #include <StepBasic_DimensionalExponents.hxx>
 #include <StepBasic_SiUnitAndMassUnit.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepBasic_SiUnitAndMassUnit)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepBasic_SiUnit),

@@ -14,12 +14,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_NotImplemented.hxx>
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <TColStd_HArray2OfInteger.hxx>
 #include <math_Matrix.hxx>
 #include <FEmTool_LinearFlexion.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(FEmTool_LinearFlexion)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(FEmTool_ElementaryCriterion),
@@ -39,7 +39,7 @@ IMPLEMENT_STANDARD_RTTI(FEmTool_LinearFlexion)
 #include <math_Vector.hxx>
 #include <math_GaussSetIntegration.hxx>
 #include <math.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 
 //=======================================================================
 //function : FEmTool_LinearFlexion

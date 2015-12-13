@@ -6,8 +6,8 @@
 #ifndef _StepShape_EdgeBasedWireframeModel_HeaderFile
 #define _StepShape_EdgeBasedWireframeModel_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepShape_EdgeBasedWireframeModel.hxx>
 
 #include <Handle_StepShape_HArray1OfConnectedEdgeSet.hxx>

@@ -6,16 +6,16 @@
 #ifndef _GeomTools_UndefinedTypeHandler_HeaderFile
 #define _GeomTools_UndefinedTypeHandler_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_GeomTools_UndefinedTypeHandler.hxx>
 
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Geom_Curve.hxx>
-#include <Standard_OStream.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_IStream.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_IStream.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Geom2d_Curve.hxx>
 #include <Handle_Geom_Surface.hxx>
 class Geom_Curve;

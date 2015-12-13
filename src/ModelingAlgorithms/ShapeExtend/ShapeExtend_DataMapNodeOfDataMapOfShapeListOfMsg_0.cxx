@@ -5,7 +5,7 @@
 
 #include <ShapeExtend_DataMapNodeOfDataMapOfShapeListOfMsg.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TopoDS_Shape.hxx>
 #include <Foundation/Message/Message_ListOfMsg.hxx>

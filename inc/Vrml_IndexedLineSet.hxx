@@ -6,13 +6,13 @@
 #ifndef _Vrml_IndexedLineSet_HeaderFile
 #define _Vrml_IndexedLineSet_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Vrml_IndexedLineSet.hxx>
 
 #include <Handle_TColStd_HArray1OfInteger.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 class TColStd_HArray1OfInteger;
 
 

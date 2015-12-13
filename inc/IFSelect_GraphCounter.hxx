@@ -6,13 +6,13 @@
 #ifndef _IFSelect_GraphCounter_HeaderFile
 #define _IFSelect_GraphCounter_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IFSelect_GraphCounter.hxx>
 
 #include <Handle_IFSelect_SelectDeduct.hxx>
 #include <IFSelect_SignCounter.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_TColStd_HSequenceOfTransient.hxx>
 class IFSelect_SelectDeduct;
 class TColStd_HSequenceOfTransient;

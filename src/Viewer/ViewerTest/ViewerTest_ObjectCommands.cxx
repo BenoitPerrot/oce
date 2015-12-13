@@ -96,7 +96,7 @@
 #include <Graphic3d_ArrayOfPolygons.hxx>
 #include <Graphic3d_AspectMarker3d.hxx>
 #include <Graphic3d_Group.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 
 #include <AIS_Circle.hxx>
 #include <AIS_Drawer.hxx>
@@ -2411,7 +2411,7 @@ static int VCircleBuilder(Draw_Interpretor& /*di*/, Standard_Integer argc, const
 
 #include <Visual3d_ViewManager.hxx>
 
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 
 #include <Prs3d_Root.hxx>
 #include <Prs3d_Text.hxx>

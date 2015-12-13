@@ -5,7 +5,7 @@
 
 #include <CDM_MapIteratorOfMapOfDocument.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <CDM_Document.hxx>
 #include <CDM_DocumentHasher.hxx>
 #include <CDM_MapOfDocument.hxx>

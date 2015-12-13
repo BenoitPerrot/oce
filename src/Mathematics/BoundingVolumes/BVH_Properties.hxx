@@ -18,7 +18,7 @@
 
 #include <BVH_Box.hxx>
 
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 //! Abstract properties of geometric object.
 class BVH_Properties

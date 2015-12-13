@@ -5,7 +5,7 @@
 
 #include <TopOpeBRepTool_ListOfC2DF.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopOpeBRepTool_ListIteratorOfListOfC2DF.hxx>
 #include <TopOpeBRepTool_C2DF.hxx>
 #include <TopOpeBRepTool_ListNodeOfListOfC2DF.hxx>

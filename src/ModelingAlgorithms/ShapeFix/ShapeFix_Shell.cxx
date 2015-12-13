@@ -23,7 +23,7 @@
 #include <TopoDS_Compound.hxx>
 #include <ShapeExtend_BasicMsgRegistrator.hxx>
 #include <ShapeFix_Shell.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeFix_Shell)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(ShapeFix_Root),

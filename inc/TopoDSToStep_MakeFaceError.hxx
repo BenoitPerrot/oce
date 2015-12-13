@@ -6,7 +6,7 @@
 #ifndef _TopoDSToStep_MakeFaceError_HeaderFile
 #define _TopoDSToStep_MakeFaceError_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum TopoDSToStep_MakeFaceError

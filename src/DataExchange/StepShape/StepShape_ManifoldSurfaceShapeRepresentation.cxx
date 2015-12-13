@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <StepShape_ManifoldSurfaceShapeRepresentation.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepShape_ManifoldSurfaceShapeRepresentation)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepShape_ShapeRepresentation),

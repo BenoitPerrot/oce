@@ -27,7 +27,7 @@
 #include <gp_Ax3.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <StdFail_NotDone.hxx>
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 
 
 GC_MakePlane::GC_MakePlane(const gp_Ax2& ) //A2)

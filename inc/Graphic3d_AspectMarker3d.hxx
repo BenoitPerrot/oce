@@ -6,16 +6,16 @@
 #ifndef _Graphic3d_AspectMarker3d_HeaderFile
 #define _Graphic3d_AspectMarker3d_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Graphic3d_AspectMarker3d.hxx>
 
 #include <Graphic3d_MarkerImage_Handle.hxx>
 #include <Graphic3d_ShaderProgram_Handle.hxx>
 #include <Aspect_AspectMarker.hxx>
 #include <Aspect_TypeOfMarker.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TColStd_HArray1OfByte.hxx>
 #include <Image_PixMap_Handle.hxx>
 class Quantity_Color;

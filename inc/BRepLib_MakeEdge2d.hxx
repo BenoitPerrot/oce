@@ -6,14 +6,14 @@
 #ifndef _BRepLib_MakeEdge2d_HeaderFile
 #define _BRepLib_MakeEdge2d_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <BRepLib_EdgeError.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <BRepLib_MakeShape.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Geom2d_Curve.hxx>
 class StdFail_NotDone;
 class TopoDS_Vertex;

@@ -15,7 +15,7 @@
 #include <IFSelect_ContextWrite.hxx>
 #include <IGESData_IGESWriter.hxx>
 #include <IGESSelect_FloatFormat.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESSelect_FloatFormat)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(IGESSelect_FileModifier),

@@ -6,8 +6,8 @@
 #ifndef _ShapeFix_DataMapNodeOfDataMapOfShapeBox2d_HeaderFile
 #define _ShapeFix_DataMapNodeOfDataMapOfShapeBox2d_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ShapeFix_DataMapNodeOfDataMapOfShapeBox2d.hxx>
 
 #include <TopoDS_Shape.hxx>

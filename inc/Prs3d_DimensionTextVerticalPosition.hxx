@@ -6,7 +6,7 @@
 #ifndef _Prs3d_DimensionTextVerticalPosition_HeaderFile
 #define _Prs3d_DimensionTextVerticalPosition_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Specifies options for positioning dimension value label in vertical direction
 //! with respect to dimension (extension) line.

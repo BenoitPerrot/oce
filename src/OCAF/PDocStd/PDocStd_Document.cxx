@@ -13,7 +13,7 @@
 
 #include <PDF_Data.hxx>
 #include <PDocStd_Document.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PDocStd_Document)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(PCDM_Document),

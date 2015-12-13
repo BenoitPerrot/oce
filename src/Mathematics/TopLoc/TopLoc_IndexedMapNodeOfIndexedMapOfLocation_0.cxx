@@ -5,7 +5,7 @@
 
 #include <TopLoc_IndexedMapNodeOfIndexedMapOfLocation.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TopLoc_Location.hxx>
 #include <TopLoc_MapLocationHasher.hxx>

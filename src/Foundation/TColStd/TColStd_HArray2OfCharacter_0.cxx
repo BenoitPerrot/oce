@@ -5,12 +5,12 @@
 
 #include <TColStd_HArray2OfCharacter.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
-#include <Standard_RangeError.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_OutOfMemory.hxx>
-#include <Standard_DimensionMismatch.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfMemory.hxx>
+#include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <TColStd_Array2OfCharacter.hxx>
 
  
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(TColStd_HArray2OfCharacter)
 
 
 #define ItemHArray2 Standard_Character
-#define ItemHArray2_hxx <Standard_Character.hxx>
+#define ItemHArray2_hxx <Foundation/Standard/Standard_Character.hxx>
 #define TheArray2 TColStd_Array2OfCharacter
 #define TheArray2_hxx <TColStd_Array2OfCharacter.hxx>
 #define TCollection_HArray2 TColStd_HArray2OfCharacter

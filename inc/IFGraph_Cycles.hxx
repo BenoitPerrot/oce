@@ -6,12 +6,12 @@
 #ifndef _IFGraph_Cycles_HeaderFile
 #define _IFGraph_Cycles_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <IFGraph_SubPartsIterator.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class Interface_Graph;
 class IFGraph_StrongComponants;
 

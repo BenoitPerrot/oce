@@ -5,7 +5,7 @@
 
 #include <IntSurf_SequenceNodeOfSequenceOfPathPoint.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <IntSurf_PathPoint.hxx>
 #include <IntSurf_SequenceOfPathPoint.hxx>

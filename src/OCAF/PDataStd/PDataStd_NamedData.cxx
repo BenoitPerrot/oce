@@ -23,7 +23,7 @@
 #include <PDataStd_HArray1OfHArray1OfReal.hxx>
 #include <TColStd_HArray2OfInteger.hxx>
 #include <PDataStd_NamedData.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PDataStd_NamedData)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(PDF_Attribute),

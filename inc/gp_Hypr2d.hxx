@@ -6,17 +6,17 @@
 #ifndef _gp_Hypr2d_HeaderFile
 #define _gp_Hypr2d_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <gp_Ax22d.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Storable.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Storable.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <gp_Ax2d.hxx>
 #include <gp_Pnt2d.hxx>
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 class Standard_ConstructionError;
 class Standard_DomainError;
 class gp_Ax2d;

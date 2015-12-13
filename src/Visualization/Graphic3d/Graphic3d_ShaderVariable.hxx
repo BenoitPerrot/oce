@@ -17,7 +17,7 @@
 #define _Graphic3d_ShaderVariable_HeaderFile
 
 #include <Graphic3d_Vec.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <TCollection_AsciiString.hxx>
 
 #include <Graphic3d_ShaderVariable_Handle.hxx>

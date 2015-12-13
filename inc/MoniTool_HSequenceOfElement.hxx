@@ -6,15 +6,15 @@
 #ifndef _MoniTool_HSequenceOfElement_HeaderFile
 #define _MoniTool_HSequenceOfElement_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_MoniTool_HSequenceOfElement.hxx>
 
 #include <MoniTool_SequenceOfElement.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_MoniTool_Element.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;
 class Standard_OutOfRange;
 class MoniTool_Element;

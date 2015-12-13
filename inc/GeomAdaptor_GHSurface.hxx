@@ -6,8 +6,8 @@
 #ifndef _GeomAdaptor_GHSurface_HeaderFile
 #define _GeomAdaptor_GHSurface_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_GeomAdaptor_GHSurface.hxx>
 
 #include <GeomAdaptor_Surface.hxx>

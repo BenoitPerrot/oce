@@ -14,8 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_DomainError.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <BRepPrim_Builder.hxx>
 #include <gp_Ax2.hxx>
 #include <TopoDS_Shell.hxx>
@@ -43,8 +43,8 @@
 #include <BRepPrim_Builder.hxx>
 #include <BRepPrim_Direction.hxx>
 
-#include <Standard_DomainError.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 
 #undef Standard_True
 #undef Standard_False

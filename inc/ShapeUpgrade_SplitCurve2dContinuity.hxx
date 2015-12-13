@@ -6,13 +6,13 @@
 #ifndef _ShapeUpgrade_SplitCurve2dContinuity_HeaderFile
 #define _ShapeUpgrade_SplitCurve2dContinuity_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ShapeUpgrade_SplitCurve2dContinuity.hxx>
 
 #include <GeomAbs_Shape.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <ShapeUpgrade_SplitCurve2d.hxx>
 
 

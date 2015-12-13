@@ -25,7 +25,7 @@
 
 #include <gp_XY.hxx>
 #include <gp_Dir2d.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <StdFail_NotDone.hxx>
 #include <GccAna_NoSolution.hxx>
 #include <gp.hxx>

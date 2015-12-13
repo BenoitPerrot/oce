@@ -37,9 +37,9 @@
 #include <TopOpeBRepTool_ShapeTool.hxx>
 #include <Precision.hxx>
 #include <Geom_Curve.hxx>
-#include <Standard_ProgramError.hxx>
+#include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <TCollection_AsciiString.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 #include <BRepTools.hxx>
 #include <TopOpeBRepTool_tol.hxx>
 

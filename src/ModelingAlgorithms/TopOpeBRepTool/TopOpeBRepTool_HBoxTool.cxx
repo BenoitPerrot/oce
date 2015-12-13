@@ -18,7 +18,7 @@
 #include <Bnd_Box.hxx>
 #include <TopOpeBRepTool_IndexedDataMapOfShapeBox.hxx>
 #include <TopOpeBRepTool_HBoxTool.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TopOpeBRepTool_HBoxTool)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),
@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_RTTI(TopOpeBRepTool_HBoxTool)
 #include <TopoDS.hxx>
 #include <gp_Pnt.hxx>
 #include <BRepBndLib.hxx>
-#include <Standard_ProgramError.hxx>
+#include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <TopOpeBRepTool_box.hxx>
 #include <TopOpeBRepTool_define.hxx>
 #include <Precision.hxx>

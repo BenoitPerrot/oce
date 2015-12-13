@@ -6,18 +6,18 @@
 #ifndef _PDataStd_NamedData_HeaderFile
 #define _PDataStd_NamedData_HeaderFile
 
-#include <Standard_Macro.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Handle_PDataStd_NamedData.hxx>
 
-#include <Standard_Integer.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_PCollection_HExtendedString.hxx>
-#include <Standard_Byte.hxx>
+#include <Foundation/Standard/Standard_Byte.hxx>
 #include <Handle_PColStd_HArray1OfInteger.hxx>
 #include <Handle_PColStd_HArray1OfReal.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_PColStd_HArray2OfInteger.hxx>
 #include <Handle_PColStd_HArray1OfExtendedString.hxx>
 #include <Handle_PDataStd_HArray1OfByte.hxx>

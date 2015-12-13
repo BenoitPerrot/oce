@@ -6,18 +6,18 @@
 #ifndef _StepData_FreeFormEntity_HeaderFile
 #define _StepData_FreeFormEntity_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepData_FreeFormEntity.hxx>
 
 #include <TCollection_AsciiString.hxx>
 #include <Handle_StepData_HArray1OfField.hxx>
 #include <Handle_StepData_FreeFormEntity.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_CString.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_TColStd_HSequenceOfAsciiString.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class StepData_HArray1OfField;
 class TColStd_HSequenceOfAsciiString;
 class StepData_Field;

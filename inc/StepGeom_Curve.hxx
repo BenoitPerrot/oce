@@ -6,8 +6,8 @@
 #ifndef _StepGeom_Curve_HeaderFile
 #define _StepGeom_Curve_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepGeom_Curve.hxx>
 
 #include <StepGeom_GeometricRepresentationItem.hxx>

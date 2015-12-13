@@ -6,16 +6,16 @@
 #ifndef _CDF_StoreList_HeaderFile
 #define _CDF_StoreList_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_CDF_StoreList.hxx>
 
 #include <CDM_MapOfDocument.hxx>
 #include <CDM_ListOfDocument.hxx>
 #include <CDM_MapIteratorOfMapOfDocument.hxx>
 #include <Handle_CDM_Document.hxx>
-#include <Standard_Transient.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <PCDM_StoreStatus.hxx>
 #include <Handle_CDM_MetaData.hxx>
 class CDM_Document;

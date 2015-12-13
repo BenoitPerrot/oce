@@ -5,7 +5,7 @@
 
 #include <Foundation/OSD/OSD_Exception_NONCONTINUABLE_EXCEPTION.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 IMPLEMENT_STANDARD_EXCEPTION(OSD_Exception_NONCONTINUABLE_EXCEPTION)
  

@@ -5,8 +5,8 @@
 
 #include <ExprIntrp_SequenceOfNamedExpression.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Expr_NamedExpression.hxx>
 #include <ExprIntrp_SequenceNodeOfSequenceOfNamedExpression.hxx>
  

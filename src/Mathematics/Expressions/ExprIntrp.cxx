@@ -19,7 +19,7 @@
 #include <ExprIntrp.hxx>
 #include <ExprIntrp_yaccintrf.hxx>
 #include <ExprIntrp_yaccanal.hxx>
-#include <Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <ExprIntrp_SyntaxError.hxx>
 
 static TCollection_AsciiString ExprIntrp_thestring;

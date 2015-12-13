@@ -15,9 +15,9 @@
 
 #include <PXCAFDoc_GraphNode.hxx>
 #include <PXCAFDoc_GraphNodeSequence.hxx>
-#include <Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
 #include <PXCAFDoc_GraphNode.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PXCAFDoc_GraphNode)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(PDF_Attribute),
@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(PXCAFDoc_GraphNode)
 IMPLEMENT_DOWNCAST(PXCAFDoc_GraphNode,Standard_Persistent)
 IMPLEMENT_STANDARD_RTTI(PXCAFDoc_GraphNode)
-#include <Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
 
 //=======================================================================
 //function : Constructor

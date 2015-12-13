@@ -5,7 +5,7 @@
 
 #include <TopOpeBRepBuild_DataMapNodeOfDataMapOfShapeListOfShapeListOfShape.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TopoDS_Shape.hxx>
 #include <TopOpeBRepBuild_ListOfShapeListOfShape.hxx>

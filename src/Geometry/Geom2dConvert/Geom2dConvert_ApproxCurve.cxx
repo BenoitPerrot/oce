@@ -16,7 +16,7 @@
 
 #include <Geom2d_Curve.hxx>
 #include <Geom2d_BSplineCurve.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Geom2dConvert_ApproxCurve.hxx>
 #include <gp_Pnt2d.hxx>
 #include <gp_Vec2d.hxx>

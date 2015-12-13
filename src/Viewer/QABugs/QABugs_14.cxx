@@ -62,7 +62,7 @@
 #include <BRep_Tool.hxx>
 #include <ShapeAnalysis_Curve.hxx>
 #include <V3d_View.hxx>
-#include <Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
 
 static Standard_Integer BUC60897 (Draw_Interpretor& di, Standard_Integer /*argc*/, const char ** /*argv*/)
 {

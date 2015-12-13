@@ -5,8 +5,8 @@
 
 #include <TopTools_DataMapOfShapeShape.hxx>
 
-#include <Standard_DomainError.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopTools_ShapeMapHasher.hxx>
 #include <TopTools_DataMapNodeOfDataMapOfShapeShape.hxx>

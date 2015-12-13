@@ -6,17 +6,17 @@
 #ifndef _RWStepBasic_RWSiUnit_HeaderFile
 #define _RWStepBasic_RWSiUnit_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_StepData_StepReaderData.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Interface_Check.hxx>
 #include <Handle_StepBasic_SiUnit.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <StepBasic_SiPrefix.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 #include <StepBasic_SiUnitName.hxx>
 class StepData_StepReaderData;
 class Interface_Check;

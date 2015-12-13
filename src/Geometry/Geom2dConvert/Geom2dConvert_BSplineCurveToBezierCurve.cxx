@@ -15,9 +15,9 @@
 // commercial license or contractual agreement.
 
 #include <Geom2d_BSplineCurve.hxx>
-#include <Standard_DimensionError.hxx>
-#include <Standard_DomainError.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_DimensionError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Geom2d_BezierCurve.hxx>
 #include <TColGeom2d_Array1OfBezierCurve.hxx>
 #include <TColStd_Array1OfReal.hxx>

@@ -30,7 +30,7 @@ BOOL CommandHandler(HWND, WPARAM, LPARAM);
 
 #include <sys/stat.h>
 #include <tcl.h>
-#include <Standard_Stream.hxx>
+#include <Foundation/Standard/Standard_Stream.hxx>
 #include <stdio.h>
 //#include <io.h>
 #include <fcntl.h>

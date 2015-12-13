@@ -5,12 +5,12 @@
 
 #include <PTopoDS_FieldOfHArray1OfShape1.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
-#include <Standard_NegativeValue.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_DimensionMismatch.hxx>
-#include <Standard_NullObject.hxx>
+#include <Foundation/Standard/Standard_NegativeValue.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_DimensionMismatch.hxx>
+#include <Foundation/Standard/Standard_NullObject.hxx>
 #include <PTopoDS_Shape1.hxx>
 #include <PTopoDS_VArrayNodeOfFieldOfHArray1OfShape1.hxx>
 #include <PTopoDS_VArrayTNodeOfFieldOfHArray1OfShape1.hxx>

@@ -6,7 +6,7 @@
 #ifndef _AIS_TypeOfPlane_HeaderFile
 #define _AIS_TypeOfPlane_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Declares the type of plane.
 enum AIS_TypeOfPlane

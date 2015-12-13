@@ -5,7 +5,7 @@
 
 #include <Bnd_SequenceNodeOfSeqOfBox.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Bnd_Box.hxx>
 #include <Bnd_SeqOfBox.hxx>

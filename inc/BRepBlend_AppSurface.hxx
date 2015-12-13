@@ -6,18 +6,18 @@
 #ifndef _BRepBlend_AppSurface_HeaderFile
 #define _BRepBlend_AppSurface_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Approx_SweepApproximation.hxx>
 #include <AppBlend_Approx.hxx>
 #include <Handle_Approx_SweepFunction.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <GeomAbs_Shape.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 class StdFail_NotDone;
 class Standard_DomainError;
 class Standard_OutOfRange;

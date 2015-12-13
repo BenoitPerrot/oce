@@ -16,7 +16,7 @@
 #ifndef NIS_Drawer_HeaderFile
 #define NIS_Drawer_HeaderFile
 
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/NCollection/NCollection_List.hxx>
 #include <TColStd_PackedMapOfInteger.hxx>
 #include <TColStd_MapIteratorOfPackedMapOfInteger.hxx>

@@ -6,8 +6,8 @@
 #ifndef _STEPCAFControl_DataMapNodeOfDataMapOfPDExternFile_HeaderFile
 #define _STEPCAFControl_DataMapNodeOfDataMapOfPDExternFile_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_STEPCAFControl_DataMapNodeOfDataMapOfPDExternFile.hxx>
 
 #include <Handle_StepBasic_ProductDefinition.hxx>

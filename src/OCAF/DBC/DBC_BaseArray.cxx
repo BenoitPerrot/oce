@@ -12,16 +12,16 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_OutOfRange.hxx> 
-#include <Standard_NegativeValue.hxx>
-#include <Standard_NullObject.hxx>
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx> 
+#include <Foundation/Standard/Standard_NegativeValue.hxx>
+#include <Foundation/Standard/Standard_NullObject.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 //#include <DBC_DBVArray.hxx>
-#include <Standard_NullObject.hxx>
-#include <Standard_NegativeValue.hxx>
-#include <Standard_DimensionMismatch.hxx>
+#include <Foundation/Standard/Standard_NullObject.hxx>
+#include <Foundation/Standard/Standard_NegativeValue.hxx>
+#include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <DBC_BaseArray.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DBC_BaseArray)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Standard_Storable),
@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(DBC_BaseArray)
 
 #ifdef OBJS
-#include <Standard_Persistent.hxx>
+#include <Foundation/Standard/Standard_Persistent.hxx>
 
 // taille a partir de laquelle la tableau cre son propre container
 //

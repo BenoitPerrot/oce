@@ -17,7 +17,7 @@
 #ifndef _OSD_OpenFile_HeaderFile
 #define _OSD_OpenFile_HeaderFile
 
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #if defined(__cplusplus)
 

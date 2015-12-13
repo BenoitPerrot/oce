@@ -7,8 +7,8 @@
 
 #include <Adaptor3d_HSurface.hxx>
 #include <LProp_BadContinuity.hxx>
-#include <Standard_DomainError.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <LProp_NotDefined.hxx>
 #include <LProp3d_SurfaceTool.hxx>
 #include <gp_Pnt.hxx>

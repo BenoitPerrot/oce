@@ -6,11 +6,11 @@
 #ifndef _ExprIntrp_GenFct_HeaderFile
 #define _ExprIntrp_GenFct_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ExprIntrp_GenFct.hxx>
 
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ExprIntrp_Generator.hxx>
 class Standard_NoSuchObject;
 class TCollection_AsciiString;

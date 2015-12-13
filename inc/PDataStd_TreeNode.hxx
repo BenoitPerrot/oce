@@ -6,13 +6,13 @@
 #ifndef _PDataStd_TreeNode_HeaderFile
 #define _PDataStd_TreeNode_HeaderFile
 
-#include <Standard_Macro.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Handle_PDataStd_TreeNode.hxx>
 
 #include <Handle_PDataStd_TreeNode.hxx>
-#include <Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
 #include <PDF_Attribute.hxx>
 class Standard_GUID;
 

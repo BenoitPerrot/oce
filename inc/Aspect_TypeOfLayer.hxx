@@ -6,7 +6,7 @@
 #ifndef _Aspect_TypeOfLayer_HeaderFile
 #define _Aspect_TypeOfLayer_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Modes of drawing for the objects in a layer
 //!

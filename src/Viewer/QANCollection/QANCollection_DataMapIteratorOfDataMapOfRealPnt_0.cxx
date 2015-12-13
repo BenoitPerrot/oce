@@ -5,7 +5,7 @@
 
 #include <QANCollection_DataMapIteratorOfDataMapOfRealPnt.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <gp_Pnt.hxx>
 #include <TColStd_MapRealHasher.hxx>
 #include <QANCollection_DataMapOfRealPnt.hxx>
@@ -13,7 +13,7 @@
  
 
 #define TheKey Standard_Real
-#define TheKey_hxx <Standard_Real.hxx>
+#define TheKey_hxx <Foundation/Standard/Standard_Real.hxx>
 #define TheItem gp_Pnt
 #define TheItem_hxx <gp_Pnt.hxx>
 #define Hasher TColStd_MapRealHasher

@@ -65,8 +65,8 @@
 #include <Poly_PolygonOnTriangulation.hxx>
 #include <Poly_Triangulation.hxx>
 #include <BRepMesh_IncrementalMesh.hxx>
-#include <Standard_NullObject.hxx>
-#include <Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_NullObject.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
 
 //==================================================
 // Function: Load

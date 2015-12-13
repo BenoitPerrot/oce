@@ -6,16 +6,16 @@
 #ifndef _Expr_PolyFunction_HeaderFile
 #define _Expr_PolyFunction_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Expr_PolyFunction.hxx>
 
 #include <Handle_Expr_GeneralFunction.hxx>
 #include <Expr_PolyExpression.hxx>
 #include <Handle_Expr_GeneralExpression.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Expr_NamedUnknown.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class Expr_GeneralFunction;
 class Standard_NumericError;
 class Standard_OutOfRange;

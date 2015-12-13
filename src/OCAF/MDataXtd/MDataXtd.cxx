@@ -54,7 +54,7 @@
 #include <TDataStd_RealEnum.hxx>
 #include <TDataXtd_ConstraintEnum.hxx>
 #include <TDataXtd_GeometryEnum.hxx>
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <MgtGeom.hxx>
 #include <Geom_Curve.hxx>
 #include <Geom_Surface.hxx>
@@ -70,7 +70,7 @@
 #include <PGeom_Axis2Placement.hxx>
 #include <PGeom_Direction.hxx>
 #include <PGeom_VectorWithMagnitude.hxx>
-#include <Standard_NullObject.hxx>
+#include <Foundation/Standard/Standard_NullObject.hxx>
 
 //=======================================================================
 //function : AddStorageDriver

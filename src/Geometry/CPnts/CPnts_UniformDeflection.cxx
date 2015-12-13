@@ -38,17 +38,17 @@
 //   each iteration calculates at maximum 3 points
 //-------------------------------------------------------------------------
 
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <StdFail_NotDone.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Adaptor3d_Curve.hxx>
 #include <Adaptor2d_Curve2d.hxx>
 #include <CPnts_UniformDeflection.hxx>
 
 #include  <StdFail_NotDone.hxx>
-#include  <Standard_DomainError.hxx>
-#include  <Standard_OutOfRange.hxx>
-#include  <Standard_ConstructionError.hxx>
+#include  <Foundation/Standard/Standard_DomainError.hxx>
+#include  <Foundation/Standard/Standard_OutOfRange.hxx>
+#include  <Foundation/Standard/Standard_ConstructionError.hxx>
 
 #include <gp_Pnt.hxx>
 #include <gp_Vec.hxx>

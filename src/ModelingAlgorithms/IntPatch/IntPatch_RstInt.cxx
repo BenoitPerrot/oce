@@ -25,7 +25,7 @@
 //--      - Pour rester coherent avec cette facon de faire, 
 //--      Chercher(Nbvtx++). 
 
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <IntPatch_Line.hxx>
 #include <Adaptor3d_HSurface.hxx>
 #include <Adaptor3d_TopolTool.hxx>

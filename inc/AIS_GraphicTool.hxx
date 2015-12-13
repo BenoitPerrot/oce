@@ -6,14 +6,14 @@
 #ifndef _AIS_GraphicTool_HeaderFile
 #define _AIS_GraphicTool_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Handle_Prs3d_Drawer.hxx>
 #include <AIS_TypeOfAttribute.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Aspect_TypeOfLine.hxx>
 class Prs3d_Drawer;
 class Quantity_Color;

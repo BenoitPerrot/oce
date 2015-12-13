@@ -6,7 +6,7 @@
 #ifndef _AIS_TypeOfIso_HeaderFile
 #define _AIS_TypeOfIso_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Declares the type of isoparameter displayed.
 enum AIS_TypeOfIso

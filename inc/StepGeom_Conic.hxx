@@ -6,8 +6,8 @@
 #ifndef _StepGeom_Conic_HeaderFile
 #define _StepGeom_Conic_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepGeom_Conic.hxx>
 
 #include <StepGeom_Axis2Placement.hxx>

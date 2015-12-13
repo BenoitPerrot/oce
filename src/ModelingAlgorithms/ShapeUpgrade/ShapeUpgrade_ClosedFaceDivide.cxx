@@ -16,7 +16,7 @@
 
 #include <TopoDS_Face.hxx>
 #include <ShapeUpgrade_ClosedFaceDivide.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeUpgrade_ClosedFaceDivide)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(ShapeUpgrade_FaceDivide),

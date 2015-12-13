@@ -6,15 +6,15 @@
 #ifndef _PLib_JacobiPolynomial_HeaderFile
 #define _PLib_JacobiPolynomial_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_PLib_JacobiPolynomial.hxx>
 
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TColStd_HArray1OfReal.hxx>
 #include <PLib_Base.hxx>
 #include <GeomAbs_Shape.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class TColStd_HArray1OfReal;
 class Standard_ConstructionError;
 class TColStd_Array1OfReal;

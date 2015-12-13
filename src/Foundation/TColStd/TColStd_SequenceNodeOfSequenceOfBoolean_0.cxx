@@ -5,7 +5,7 @@
 
 #include <TColStd_SequenceNodeOfSequenceOfBoolean.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TColStd_SequenceOfBoolean.hxx>
 
@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_RTTI(TColStd_SequenceNodeOfSequenceOfBoolean)
 
 
 #define SeqItem Standard_Boolean
-#define SeqItem_hxx <Standard_Boolean.hxx>
+#define SeqItem_hxx <Foundation/Standard/Standard_Boolean.hxx>
 #define TCollection_SequenceNode TColStd_SequenceNodeOfSequenceOfBoolean
 #define TCollection_SequenceNode_hxx <TColStd_SequenceNodeOfSequenceOfBoolean.hxx>
 #define Handle_TCollection_SequenceNode Handle_TColStd_SequenceNodeOfSequenceOfBoolean

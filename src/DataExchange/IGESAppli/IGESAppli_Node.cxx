@@ -21,7 +21,7 @@
 #include <gp_Pnt.hxx>
 #include <IGESData_TransfEntity.hxx>
 #include <IGESAppli_Node.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESAppli_Node)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(IGESData_IGESEntity),

@@ -17,14 +17,14 @@
 //    pdn 09.05.99: S4174: preserve order of edges for complete torus
 #include <TColStd_HArray1OfInteger.hxx>
 #include <TColgp_HSequenceOfXYZ.hxx>
-#include <Standard_TypeMismatch.hxx>
+#include <Foundation/Standard/Standard_TypeMismatch.hxx>
 #include <gp_XYZ.hxx>
 #include <gp_XY.hxx>
 #include <ShapeAnalysis_WireOrder.hxx>
 
 #include <Precision.hxx>
 
-#include <Standard_TypeMismatch.hxx>
+#include <Foundation/Standard/Standard_TypeMismatch.hxx>
 
 #include <TColgp_Array1OfXYZ.hxx>
 #include <TColStd_Array1OfInteger.hxx>

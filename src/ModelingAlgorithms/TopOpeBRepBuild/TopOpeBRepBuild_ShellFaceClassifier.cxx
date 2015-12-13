@@ -25,7 +25,7 @@
 #include <TopoDS_Shell.hxx>
 #include <TopExp_Explorer.hxx>
 #include <BRep_Tool.hxx>
-#include <Standard_ProgramError.hxx>
+#include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <BRepAdaptor_Surface.hxx>
 
 #ifdef OCCT_DEBUG

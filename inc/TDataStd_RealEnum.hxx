@@ -6,7 +6,7 @@
 #ifndef _TDataStd_RealEnum_HeaderFile
 #define _TDataStd_RealEnum_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 //! The terms of this enumeration define the

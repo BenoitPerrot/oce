@@ -6,9 +6,9 @@
 #ifndef _TopOpeBRepBuild_Builder_HeaderFile
 #define _TopOpeBRepBuild_Builder_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TopAbs_State.hxx>
 #include <TopoDS_Shape.hxx>
@@ -20,12 +20,12 @@
 #include <TopOpeBRepDS_DataMapOfShapeListOfShapeOn1State.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <TopTools_DataMapOfShapeListOfShape.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <TopoDS_Solid.hxx>
 #include <TopoDS_Face.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <TopOpeBRepTool_ShapeClassifier.hxx>
 #include <TopTools_MapOfShape.hxx>
 #include <TCollection_AsciiString.hxx>
@@ -34,8 +34,8 @@
 #include <TopAbs_ShapeEnum.hxx>
 #include <TopAbs_Orientation.hxx>
 #include <TopOpeBRepDS_Config.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
 class TopOpeBRepDS_HDataStructure;
 class TopTools_HArray1OfShape;
 class TopTools_HArray1OfListOfShape;

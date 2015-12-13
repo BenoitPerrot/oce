@@ -6,11 +6,11 @@
 #ifndef _MoniTool_DataMapNodeOfDataMapOfTimer_HeaderFile
 #define _MoniTool_DataMapNodeOfDataMapOfTimer_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_MoniTool_DataMapNodeOfDataMapOfTimer.hxx>
 
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_MoniTool_Timer.hxx>
 #include <TCollection_MapNode.hxx>
 #include <TCollection_MapNodePtr.hxx>
@@ -53,7 +53,7 @@ private:
 };
 
 #define TheKey Standard_CString
-#define TheKey_hxx <Standard_CString.hxx>
+#define TheKey_hxx <Foundation/Standard/Standard_CString.hxx>
 #define TheItem Handle(MoniTool_Timer)
 #define TheItem_hxx <MoniTool_Timer.hxx>
 #define Hasher MoniTool_MTHasher

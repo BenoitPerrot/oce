@@ -6,8 +6,8 @@
 #ifndef _StepGeom_OuterBoundaryCurve_HeaderFile
 #define _StepGeom_OuterBoundaryCurve_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepGeom_OuterBoundaryCurve.hxx>
 
 #include <StepGeom_BoundaryCurve.hxx>

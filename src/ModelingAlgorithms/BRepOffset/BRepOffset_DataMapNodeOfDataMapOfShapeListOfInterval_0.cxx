@@ -5,7 +5,7 @@
 
 #include <BRepOffset_DataMapNodeOfDataMapOfShapeListOfInterval.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TopoDS_Shape.hxx>
 #include <BRepOffset_ListOfInterval.hxx>

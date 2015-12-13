@@ -6,12 +6,12 @@
 #ifndef _TColStd_MapIteratorOfMapOfReal_HeaderFile
 #define _TColStd_MapIteratorOfMapOfReal_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TCollection_BasicMapIterator.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_TColStd_StdMapNodeOfMapOfReal.hxx>
 class Standard_NoSuchObject;
 class TColStd_MapRealHasher;

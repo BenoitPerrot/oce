@@ -16,7 +16,7 @@
 
 #include <BRepFill_LocationLaw.hxx>
 #include <TopTools_HArray2OfShape.hxx>
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <StdFail_NotDone.hxx>
 #include <TopoDS_Wire.hxx>
 #include <TopoDS_Shape.hxx>
@@ -26,7 +26,7 @@
 #include <gp_Pnt.hxx>
 #include <BRepFill_Pipe.hxx>
 
-#include <Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
 
 #include <BRep_Tool.hxx>
 #include <BRep_Builder.hxx>
@@ -57,7 +57,7 @@
 #include <TColStd_DataMapIteratorOfDataMapOfIntegerInteger.hxx>
 
 #include <Precision.hxx>
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 
 #include <Geom_TrimmedCurve.hxx>
 #include <Geom_OffsetCurve.hxx>

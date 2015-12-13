@@ -6,13 +6,13 @@
 #ifndef _HLRBRep_ListIteratorOfListOfBPnt2D_HeaderFile
 #define _HLRBRep_ListIteratorOfListOfBPnt2D_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
 #include <Handle_HLRBRep_ListNodeOfListOfBPnt2D.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_NoMoreObject;
 class Standard_NoSuchObject;
 class HLRBRep_ListOfBPnt2D;

@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <TDF_Label.hxx>
-#include <Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
 #include <TDF_LabelList.hxx>
 #include <TFunction_DoubleMapOfIntegerLabel.hxx>
 #include <TFunction_Logbook.hxx>
@@ -33,7 +33,7 @@
 #include <TDF_ListIteratorOfLabelList.hxx>
 #include <TDF_MapIteratorOfLabelMap.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TColStd_MapIteratorOfMapOfInteger.hxx>
 
 //=======================================================================

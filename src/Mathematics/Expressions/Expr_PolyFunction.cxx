@@ -20,8 +20,8 @@
 #endif
 
 #include <Expr_GeneralFunction.hxx>
-#include <Standard_NumericError.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NumericError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Expr_NotEvaluable.hxx>
 #include <Expr_Array1OfGeneralExpression.hxx>
 #include <Expr_GeneralExpression.hxx>
@@ -30,7 +30,7 @@
 #include <TColStd_Array1OfReal.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <Expr_PolyFunction.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Expr_PolyFunction)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Expr_PolyExpression),
@@ -47,7 +47,7 @@ IMPLEMENT_STANDARD_RTTI(Expr_PolyFunction)
 #include <Expr_Sum.hxx>
 #include <Expr_Operators.hxx>
 #include <Expr.hxx>
-#include <Standard_DimensionError.hxx>
+#include <Foundation/Standard/Standard_DimensionError.hxx>
 
 Expr_PolyFunction::Expr_PolyFunction (const Handle(Expr_GeneralFunction)& func, const Expr_Array1OfGeneralExpression& exps)
 {

@@ -6,16 +6,16 @@
 #ifndef _TopOpeBRepDS_ShapeData_HeaderFile
 #define _TopOpeBRepDS_ShapeData_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TopOpeBRepDS_ListOfInterference.hxx>
 #include <TopTools_ListOfShape.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <TopOpeBRepDS_Config.hxx>
 #include <TopAbs_Orientation.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class TopOpeBRepDS_DataStructure;
 class TopOpeBRepDS_ListOfInterference;
 

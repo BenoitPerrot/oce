@@ -5,7 +5,7 @@
 
 #include <HLRTopoBRep_ListNodeOfListOfVData.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <HLRTopoBRep_VData.hxx>
 #include <HLRTopoBRep_ListOfVData.hxx>

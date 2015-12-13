@@ -6,15 +6,15 @@
 #ifndef _IGESSelect_EditHeader_HeaderFile
 #define _IGESSelect_EditHeader_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESSelect_EditHeader.hxx>
 
 #include <IFSelect_Editor.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_IFSelect_EditForm.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Handle_Interface_InterfaceModel.hxx>
 class TCollection_AsciiString;

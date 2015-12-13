@@ -6,8 +6,8 @@
 #ifndef _Plate_SequenceNodeOfSequenceOfLinearScalarConstraint_HeaderFile
 #define _Plate_SequenceNodeOfSequenceOfLinearScalarConstraint_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Plate_SequenceNodeOfSequenceOfLinearScalarConstraint.hxx>
 
 #include <Plate_LinearScalarConstraint.hxx>

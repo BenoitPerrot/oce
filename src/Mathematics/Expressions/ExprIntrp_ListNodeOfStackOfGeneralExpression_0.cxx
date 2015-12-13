@@ -5,7 +5,7 @@
 
 #include <ExprIntrp_ListNodeOfStackOfGeneralExpression.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Expr_GeneralExpression.hxx>
 #include <ExprIntrp_StackOfGeneralExpression.hxx>

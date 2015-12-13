@@ -5,7 +5,7 @@
 
 #include <TopOpeBRep_ListNodeOfListOfBipoint.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TopOpeBRep_Bipoint.hxx>
 #include <TopOpeBRep_ListOfBipoint.hxx>

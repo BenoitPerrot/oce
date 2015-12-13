@@ -5,7 +5,7 @@
 
 #include <Convert_SequenceNodeOfSequenceOfArray1OfPoles.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TColgp_HArray1OfPnt.hxx>
 #include <Convert_SequenceOfArray1OfPoles.hxx>

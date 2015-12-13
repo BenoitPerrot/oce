@@ -5,7 +5,7 @@
 
 #include <math_NotSquare.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 IMPLEMENT_STANDARD_EXCEPTION(math_NotSquare)
  

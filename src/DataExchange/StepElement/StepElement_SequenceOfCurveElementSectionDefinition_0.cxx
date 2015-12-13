@@ -5,8 +5,8 @@
 
 #include <StepElement_SequenceOfCurveElementSectionDefinition.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <StepElement_CurveElementSectionDefinition.hxx>
 #include <StepElement_SequenceNodeOfSequenceOfCurveElementSectionDefinition.hxx>
  

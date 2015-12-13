@@ -18,7 +18,7 @@
 #include <StepElement_CurveElementSectionDefinition.hxx>
 #include <StepElement_AnalysisItemWithinRepresentation.hxx>
 #include <StepFEA_FeaCurveSectionGeometricRelationship.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepFEA_FeaCurveSectionGeometricRelationship)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

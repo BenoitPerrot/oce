@@ -19,7 +19,7 @@
 #include <StepRepr_RepresentedDefinition.hxx>
 #include <StepRepr_Representation.hxx>
 #include <StepRepr_MaterialPropertyRepresentation.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepRepr_MaterialPropertyRepresentation)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepRepr_PropertyDefinitionRepresentation),

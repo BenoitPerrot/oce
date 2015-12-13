@@ -15,7 +15,7 @@
 #include <StepRepr_DefinitionalRepresentation.hxx>
 #include <TCollection_HAsciiString.hxx>
 #include <StepGeom_Pcurve.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepGeom_Pcurve)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepGeom_Curve),

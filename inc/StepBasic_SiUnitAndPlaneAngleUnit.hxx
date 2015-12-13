@@ -6,14 +6,14 @@
 #ifndef _StepBasic_SiUnitAndPlaneAngleUnit_HeaderFile
 #define _StepBasic_SiUnitAndPlaneAngleUnit_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepBasic_SiUnitAndPlaneAngleUnit.hxx>
 
 #include <Handle_StepBasic_PlaneAngleUnit.hxx>
 #include <StepBasic_SiUnit.hxx>
 #include <Handle_StepBasic_DimensionalExponents.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <StepBasic_SiPrefix.hxx>
 #include <StepBasic_SiUnitName.hxx>
 class StepBasic_PlaneAngleUnit;

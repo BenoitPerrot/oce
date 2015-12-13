@@ -19,7 +19,7 @@
 #include <PTopLoc_Location.hxx>
 #include <gp_Pnt2d.hxx>
 #include <PBRep_CurveOnSurface.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PBRep_CurveOnSurface)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(PBRep_GCurve),

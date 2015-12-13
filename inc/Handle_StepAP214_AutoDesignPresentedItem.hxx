@@ -6,8 +6,8 @@
 #ifndef _Handle_StepAP214_AutoDesignPresentedItem_HeaderFile
 #define _Handle_StepAP214_AutoDesignPresentedItem_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepVisual_PresentedItem.hxx>
 
 class Standard_Transient;

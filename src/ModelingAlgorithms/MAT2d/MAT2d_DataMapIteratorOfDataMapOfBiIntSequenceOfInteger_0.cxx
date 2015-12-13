@@ -5,7 +5,7 @@
 
 #include <MAT2d_DataMapIteratorOfDataMapOfBiIntSequenceOfInteger.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <MAT2d_BiInt.hxx>
 #include <TColStd_SequenceOfInteger.hxx>
 #include <MAT2d_MapBiIntHasher.hxx>

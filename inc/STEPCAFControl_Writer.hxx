@@ -6,19 +6,19 @@
 #ifndef _STEPCAFControl_Writer_HeaderFile
 #define _STEPCAFControl_Writer_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <STEPControl_Writer.hxx>
 #include <Handle_STEPCAFControl_DictionaryOfExternFile.hxx>
 #include <STEPCAFControl_DataMapOfLabelShape.hxx>
 #include <STEPCAFControl_DataMapOfLabelExternFile.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <MoniTool_DataMapOfShapeTransient.hxx>
 #include <Handle_XSControl_WorkSession.hxx>
 #include <IFSelect_ReturnStatus.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_TDocStd_Document.hxx>
 #include <STEPControl_StepModelType.hxx>
 #include <Handle_STEPCAFControl_ExternFile.hxx>

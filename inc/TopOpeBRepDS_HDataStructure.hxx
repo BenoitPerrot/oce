@@ -6,19 +6,19 @@
 #ifndef _TopOpeBRepDS_HDataStructure_HeaderFile
 #define _TopOpeBRepDS_HDataStructure_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TopOpeBRepDS_HDataStructure.hxx>
 
 #include <TopOpeBRepDS_DataStructure.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <TopAbs_ShapeEnum.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <TopOpeBRepDS_Config.hxx>
 #include <TopOpeBRepDS_Kind.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_TopOpeBRepDS_Interference.hxx>
 class TopoDS_Shape;
 class TopOpeBRepDS_DataStructure;

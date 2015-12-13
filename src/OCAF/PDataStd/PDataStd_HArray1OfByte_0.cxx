@@ -5,10 +5,10 @@
 
 #include <PDataStd_HArray1OfByte.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
-#include <Standard_OutOfRange.hxx>
-#include <Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
 #include <PDataStd_FieldOfHArray1OfByte.hxx>
 #include <PDataStd_VArrayNodeOfFieldOfHArray1OfByte.hxx>
 #include <PDataStd_VArrayTNodeOfFieldOfHArray1OfByte.hxx>
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(PDataStd_HArray1OfByte)
 
 
 #define Item Standard_Byte
-#define Item_hxx <Standard_Byte.hxx>
+#define Item_hxx <Foundation/Standard/Standard_Byte.hxx>
 #define PCollection_FieldOfHArray1 PDataStd_FieldOfHArray1OfByte
 #define PCollection_FieldOfHArray1_hxx <PDataStd_FieldOfHArray1OfByte.hxx>
 #define PCollection_VArrayNodeOfFieldOfHArray1 PDataStd_VArrayNodeOfFieldOfHArray1OfByte

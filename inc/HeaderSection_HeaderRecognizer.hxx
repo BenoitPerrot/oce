@@ -6,8 +6,8 @@
 #ifndef _HeaderSection_HeaderRecognizer_HeaderFile
 #define _HeaderSection_HeaderRecognizer_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_HeaderSection_HeaderRecognizer.hxx>
 
 #include <StepData_FileRecognizer.hxx>

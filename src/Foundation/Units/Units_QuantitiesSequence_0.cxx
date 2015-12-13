@@ -5,10 +5,10 @@
 
 #include <Units_QuantitiesSequence.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Units_Quantity.hxx>
 #include <Units_QtsSequence.hxx>
 

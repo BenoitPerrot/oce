@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <StepShape_FaceOuterBound.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepShape_FaceOuterBound)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepShape_FaceBound),

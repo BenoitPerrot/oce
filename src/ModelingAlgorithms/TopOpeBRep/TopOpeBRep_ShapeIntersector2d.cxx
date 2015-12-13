@@ -19,8 +19,8 @@
 #include <TopOpeBRep_EdgesIntersector.hxx>
 #include <TopOpeBRep_ShapeIntersector2d.hxx>
 
-#include <Standard_ProgramError.hxx>
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_ProgramError.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <TopAbs.hxx>
 #include <Bnd_Box.hxx>
 #include <TopOpeBRepTool_box.hxx>

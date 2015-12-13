@@ -6,21 +6,21 @@
 #ifndef _Extrema_ExtPExtS_HeaderFile
 #define _Extrema_ExtPExtS_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Extrema_ExtPExtS.hxx>
 
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Extrema_FuncExtPS.hxx>
 #include <Handle_Adaptor3d_HCurve.hxx>
 #include <Handle_Adaptor3d_HSurfaceOfLinearExtrusion.hxx>
 #include <gp_Vec.hxx>
 #include <gp_Ax2.hxx>
 #include <Extrema_GenExtPS.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Extrema_POnSurf.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 class Adaptor3d_HCurve;
 class Adaptor3d_HSurfaceOfLinearExtrusion;
 class StdFail_NotDone;

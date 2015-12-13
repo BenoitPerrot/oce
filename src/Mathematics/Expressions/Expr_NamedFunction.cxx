@@ -15,9 +15,9 @@
 // commercial license or contractual agreement.
 
 #include <Expr_GeneralExpression.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_DimensionMismatch.hxx>
-#include <Standard_NumericError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_DimensionMismatch.hxx>
+#include <Foundation/Standard/Standard_NumericError.hxx>
 #include <Expr_NotEvaluable.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <Expr_Array1OfNamedUnknown.hxx>
@@ -25,7 +25,7 @@
 #include <TColStd_Array1OfReal.hxx>
 #include <Expr_GeneralFunction.hxx>
 #include <Expr_NamedFunction.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Expr_NamedFunction)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Expr_GeneralFunction),
@@ -36,7 +36,7 @@ IMPLEMENT_STANDARD_TYPE_END(Expr_NamedFunction)
 IMPLEMENT_DOWNCAST(Expr_NamedFunction,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Expr_NamedFunction)
 #include <Expr_NamedConstant.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Expr_FunctionDerivative.hxx>
 #include <Expr_NumericValue.hxx>
 #include <Expr.hxx>

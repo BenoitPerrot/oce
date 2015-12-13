@@ -6,15 +6,15 @@
 #ifndef _TopOpeBRep_PointClassifier_HeaderFile
 #define _TopOpeBRep_PointClassifier_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_BRepTopAdaptor_TopolTool.hxx>
 #include <Handle_BRepAdaptor_HSurface.hxx>
 #include <TopOpeBRep_DataMapOfTopolTool.hxx>
 #include <TopAbs_State.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class BRepTopAdaptor_TopolTool;
 class BRepAdaptor_HSurface;
 class TopoDS_Face;

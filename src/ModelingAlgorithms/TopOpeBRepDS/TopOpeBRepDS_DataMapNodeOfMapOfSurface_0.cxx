@@ -5,7 +5,7 @@
 
 #include <TopOpeBRepDS_DataMapNodeOfMapOfSurface.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TopOpeBRepDS_SurfaceData.hxx>
 #include <TColStd_MapIntegerHasher.hxx>
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(TopOpeBRepDS_DataMapNodeOfMapOfSurface)
 
 
 #define TheKey Standard_Integer
-#define TheKey_hxx <Standard_Integer.hxx>
+#define TheKey_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheItem TopOpeBRepDS_SurfaceData
 #define TheItem_hxx <TopOpeBRepDS_SurfaceData.hxx>
 #define Hasher TColStd_MapIntegerHasher

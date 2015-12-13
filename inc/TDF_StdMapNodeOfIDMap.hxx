@@ -6,11 +6,11 @@
 #ifndef _TDF_StdMapNodeOfIDMap_HeaderFile
 #define _TDF_StdMapNodeOfIDMap_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TDF_StdMapNodeOfIDMap.hxx>
 
-#include <Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
 #include <TCollection_MapNode.hxx>
 #include <TCollection_MapNodePtr.hxx>
 class Standard_GUID;
@@ -48,9 +48,9 @@ private:
 };
 
 #define TheKey Standard_GUID
-#define TheKey_hxx <Standard_GUID.hxx>
+#define TheKey_hxx <Foundation/Standard/Standard_GUID.hxx>
 #define Hasher Standard_GUID
-#define Hasher_hxx <Standard_GUID.hxx>
+#define Hasher_hxx <Foundation/Standard/Standard_GUID.hxx>
 #define TCollection_StdMapNode TDF_StdMapNodeOfIDMap
 #define TCollection_StdMapNode_hxx <TDF_StdMapNodeOfIDMap.hxx>
 #define TCollection_MapIterator TDF_MapIteratorOfIDMap

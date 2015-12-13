@@ -6,17 +6,17 @@
 #ifndef _TopOpeBRep_ShapeIntersector2d_HeaderFile
 #define _TopOpeBRep_ShapeIntersector2d_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TopoDS_Shape.hxx>
 #include <Handle_TopOpeBRepTool_HBoxTool.hxx>
 #include <TopOpeBRepTool_ShapeExplorer.hxx>
 #include <TopOpeBRep_ShapeScanner.hxx>
 #include <TopOpeBRep_EdgesIntersector.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class TopOpeBRepTool_HBoxTool;
 class TopoDS_Shape;
 class TopOpeBRep_EdgesIntersector;

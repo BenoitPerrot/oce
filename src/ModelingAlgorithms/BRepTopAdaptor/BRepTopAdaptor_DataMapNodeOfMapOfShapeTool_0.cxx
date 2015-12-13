@@ -5,7 +5,7 @@
 
 #include <BRepTopAdaptor_DataMapNodeOfMapOfShapeTool.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TopoDS_Shape.hxx>
 #include <BRepTopAdaptor_Tool.hxx>

@@ -18,7 +18,7 @@
 #include <TColStd_HSequenceOfReal.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <ShapeAnalysis_TransferParametersProj.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeAnalysis_TransferParametersProj)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(ShapeAnalysis_TransferParameters),

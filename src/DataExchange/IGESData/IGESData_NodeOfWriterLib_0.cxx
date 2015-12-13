@@ -5,7 +5,7 @@
 
 #include <IGESData_NodeOfWriterLib.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <IGESData_GlobalNodeOfWriterLib.hxx>
 #include <IGESData_NodeOfWriterLib.hxx>

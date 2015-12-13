@@ -6,8 +6,8 @@
 #ifndef _IntPatch_SequenceNodeOfSequenceOfPathPointOfTheSOnBounds_HeaderFile
 #define _IntPatch_SequenceNodeOfSequenceOfPathPointOfTheSOnBounds_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IntPatch_SequenceNodeOfSequenceOfPathPointOfTheSOnBounds.hxx>
 
 #include <IntPatch_ThePathPointOfTheSOnBounds.hxx>

@@ -6,11 +6,11 @@
 #ifndef _BRep_GCurve_HeaderFile
 #define _BRep_GCurve_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BRep_GCurve.hxx>
 
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <BRep_CurveRepresentation.hxx>
 class TopLoc_Location;
 class gp_Pnt;

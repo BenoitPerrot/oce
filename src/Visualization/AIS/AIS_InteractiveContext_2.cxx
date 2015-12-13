@@ -35,7 +35,7 @@
 #include <TopoDS_Shape.hxx>
 #include <SelectMgr_EntityOwner.hxx>
 #include <SelectMgr_IndexedMapOfOwner.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <SelectMgr_Filter.hxx>
 #include <SelectMgr_ListOfFilter.hxx>
 #include <AIS_ListOfInteractive.hxx>

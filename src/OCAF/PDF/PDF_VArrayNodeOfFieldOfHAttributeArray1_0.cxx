@@ -5,7 +5,7 @@
 
 #include <PDF_VArrayNodeOfFieldOfHAttributeArray1.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <PDF_Attribute.hxx>
 #include <PDF_FieldOfHAttributeArray1.hxx>

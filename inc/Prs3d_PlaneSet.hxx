@@ -6,14 +6,14 @@
 #ifndef _Prs3d_PlaneSet_HeaderFile
 #define _Prs3d_PlaneSet_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Prs3d_PlaneSet.hxx>
 
 #include <gp_Pln.hxx>
 #include <Foundation/Quantity/Quantity_Length.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class gp_Pln;
 
 

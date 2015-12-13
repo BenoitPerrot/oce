@@ -5,8 +5,8 @@
 
 #include <Extrema_SeqPCOfPCFOfEPCOfExtPC2d.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Extrema_POnCurv2d.hxx>
 #include <Extrema_SequenceNodeOfSeqPCOfPCFOfEPCOfExtPC2d.hxx>
  

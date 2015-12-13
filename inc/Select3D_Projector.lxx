@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Graphic3d_Mat4d.hxx>
-#include <Standard_Assert.hxx>
+#include <Foundation/Standard/Standard_Assert.hxx>
 #include <gp_Vec.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Lin.hxx>

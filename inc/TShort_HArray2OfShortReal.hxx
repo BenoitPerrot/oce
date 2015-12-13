@@ -6,14 +6,14 @@
 #ifndef _TShort_HArray2OfShortReal_HeaderFile
 #define _TShort_HArray2OfShortReal_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TShort_HArray2OfShortReal.hxx>
 
 #include <TShort_Array2OfShortReal.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_ShortReal.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_ShortReal.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_OutOfRange;
 class Standard_OutOfMemory;
@@ -75,7 +75,7 @@ private:
 };
 
 #define ItemHArray2 Standard_ShortReal
-#define ItemHArray2_hxx <Standard_ShortReal.hxx>
+#define ItemHArray2_hxx <Foundation/Standard/Standard_ShortReal.hxx>
 #define TheArray2 TShort_Array2OfShortReal
 #define TheArray2_hxx <TShort_Array2OfShortReal.hxx>
 #define TCollection_HArray2 TShort_HArray2OfShortReal

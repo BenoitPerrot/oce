@@ -21,7 +21,7 @@
 #include <Graphic3d_SequenceOfHClipPlane.hxx>
 #include <Foundation/NCollection/NCollection_DataMap.hxx>
 #include <Foundation/NCollection/NCollection_Handle.hxx>
-#include <Standard_TypeDef.hxx>
+#include <Foundation/Standard/Standard_TypeDef.hxx>
 #include <OpenGl_Matrix.hxx>
 #include <Handle_OpenGl_Workspace.hxx>
 

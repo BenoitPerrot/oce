@@ -19,8 +19,8 @@
 
 #define No_Standard_OutOfRange
 
-#include <Standard_ConstructionError.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <gp_GTrsf.hxx>
 #include <gp_Trsf2d.hxx>
 #include <gp_Pnt.hxx>
@@ -32,14 +32,14 @@
 #include <gp_XYZ.hxx>
 #include <gp_Mat.hxx>
 #include <gp_Trsf.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(gp_Trsf)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Standard_Storable),
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(gp_Trsf)
 #include <gp.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 
 
 //=======================================================================

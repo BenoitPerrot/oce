@@ -6,13 +6,13 @@
 #ifndef _TopOpeBRepDS_HArray1OfDataMapOfIntegerListOfInterference_HeaderFile
 #define _TopOpeBRepDS_HArray1OfDataMapOfIntegerListOfInterference_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TopOpeBRepDS_HArray1OfDataMapOfIntegerListOfInterference.hxx>
 
 #include <TopOpeBRepDS_Array1OfDataMapOfIntegerListOfInterference.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_DimensionMismatch;
 class Standard_OutOfRange;

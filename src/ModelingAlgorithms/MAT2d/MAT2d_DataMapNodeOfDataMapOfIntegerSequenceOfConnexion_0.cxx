@@ -5,7 +5,7 @@
 
 #include <MAT2d_DataMapNodeOfDataMapOfIntegerSequenceOfConnexion.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <MAT2d_SequenceOfConnexion.hxx>
 #include <TColStd_MapIntegerHasher.hxx>
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(MAT2d_DataMapNodeOfDataMapOfIntegerSequenceOfConnexion)
 
 
 #define TheKey Standard_Integer
-#define TheKey_hxx <Standard_Integer.hxx>
+#define TheKey_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheItem MAT2d_SequenceOfConnexion
 #define TheItem_hxx <MAT2d_SequenceOfConnexion.hxx>
 #define Hasher TColStd_MapIntegerHasher

@@ -6,8 +6,8 @@
 #ifndef _GeomFill_ConstantBiNormal_HeaderFile
 #define _GeomFill_ConstantBiNormal_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_GeomFill_ConstantBiNormal.hxx>
 
 #include <gp_Vec.hxx>
@@ -15,9 +15,9 @@
 #include <GeomFill_TrihedronLaw.hxx>
 #include <Handle_GeomFill_TrihedronLaw.hxx>
 #include <Handle_Adaptor3d_HCurve.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <GeomAbs_Shape.hxx>
 class GeomFill_Frenet;
 class Standard_OutOfRange;

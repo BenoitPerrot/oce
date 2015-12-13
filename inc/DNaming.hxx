@@ -6,20 +6,20 @@
 #ifndef _DNaming_HeaderFile
 #define _DNaming_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_TDataStd_Real.hxx>
 #include <Handle_TFunction_Function.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TDataStd_Integer.hxx>
 #include <Handle_TDataStd_Name.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_TNaming_NamedShape.hxx>
 #include <Handle_TDataStd_UAttribute.hxx>
 #include <TopAbs_ShapeEnum.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_TDF_Data.hxx>
 #include <Draw_Interpretor.hxx>
 class TDataStd_Real;

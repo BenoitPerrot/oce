@@ -6,7 +6,7 @@
 #ifndef _TopAbs_ShapeEnum_HeaderFile
 #define _TopAbs_ShapeEnum_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Identifies various topological shapes. This
 //! enumeration allows you to use dynamic typing of shapes.

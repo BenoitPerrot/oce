@@ -6,16 +6,16 @@
 #ifndef _IntTools_ShrunkRange_HeaderFile
 #define _IntTools_ShrunkRange_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Vertex.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Bnd_Box.hxx>
 #include <Handle_IntTools_Context.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class IntTools_Context;
 class TopoDS_Edge;
 class TopoDS_Vertex;

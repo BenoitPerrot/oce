@@ -6,7 +6,7 @@
 #ifndef _FilletSurf_StatusDone_HeaderFile
 #define _FilletSurf_StatusDone_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum FilletSurf_StatusDone

@@ -16,7 +16,7 @@
 #include <StepShape_HArray1OfValueQualifier.hxx>
 #include <StepShape_ValueQualifier.hxx>
 #include <StepShape_MeasureQualification.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepShape_MeasureQualification)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

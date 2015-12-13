@@ -6,15 +6,15 @@
 #ifndef _IGESSelect_SignStatus_HeaderFile
 #define _IGESSelect_SignStatus_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESSelect_SignStatus.hxx>
 
 #include <IFSelect_Signature.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Handle_Interface_InterfaceModel.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_Transient;
 class Interface_InterfaceModel;
 class TCollection_AsciiString;

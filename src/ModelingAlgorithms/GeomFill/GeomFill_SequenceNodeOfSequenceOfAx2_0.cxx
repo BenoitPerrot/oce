@@ -5,7 +5,7 @@
 
 #include <GeomFill_SequenceNodeOfSequenceOfAx2.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <gp_Ax2.hxx>
 #include <GeomFill_SequenceOfAx2.hxx>

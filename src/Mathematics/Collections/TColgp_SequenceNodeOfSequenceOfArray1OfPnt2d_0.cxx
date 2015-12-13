@@ -5,7 +5,7 @@
 
 #include <TColgp_SequenceNodeOfSequenceOfArray1OfPnt2d.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TColgp_HArray1OfPnt2d.hxx>
 #include <TColgp_SequenceOfArray1OfPnt2d.hxx>

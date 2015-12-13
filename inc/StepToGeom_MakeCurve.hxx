@@ -6,11 +6,11 @@
 #ifndef _StepToGeom_MakeCurve_HeaderFile
 #define _StepToGeom_MakeCurve_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_StepGeom_Curve.hxx>
 #include <Handle_Geom_Curve.hxx>
 class StepGeom_Curve;

@@ -12,7 +12,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <StdFail_NotDone.hxx>
 #include <GccEnt_BadQualifier.hxx>
 #include <GccEnt_QualifiedCirc.hxx>
@@ -34,7 +34,7 @@
 #include <GccInt_BLine.hxx>
 #include <GccInt_BElips.hxx>
 #include <GccInt_BHyper.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <TColStd_Array1OfReal.hxx>
 #include <GccEnt_BadQualifier.hxx>
 #include <math_DirectPolynomialRoots.hxx>

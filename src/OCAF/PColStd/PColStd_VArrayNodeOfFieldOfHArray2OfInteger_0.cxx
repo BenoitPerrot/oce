@@ -5,7 +5,7 @@
 
 #include <PColStd_VArrayNodeOfFieldOfHArray2OfInteger.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <PColStd_FieldOfHArray2OfInteger.hxx>
 #include <PColStd_VArrayTNodeOfFieldOfHArray2OfInteger.hxx>
@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_RTTI(PColStd_VArrayNodeOfFieldOfHArray2OfInteger)
 
 
 #define Item Standard_Integer
-#define Item_hxx <Standard_Integer.hxx>
+#define Item_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define DBC_VArrayNode PColStd_VArrayNodeOfFieldOfHArray2OfInteger
 #define DBC_VArrayNode_hxx <PColStd_VArrayNodeOfFieldOfHArray2OfInteger.hxx>
 #define DBC_VArrayTNode PColStd_VArrayTNodeOfFieldOfHArray2OfInteger

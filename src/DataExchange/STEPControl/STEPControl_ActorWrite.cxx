@@ -25,7 +25,7 @@
 #include <TopoDS_Shape.hxx>
 #include <StepShape_NonManifoldSurfaceShapeRepresentation.hxx>
 #include <STEPControl_ActorWrite.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(STEPControl_ActorWrite)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Transfer_ActorOfFinderProcess),

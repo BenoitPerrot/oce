@@ -6,15 +6,15 @@
 #ifndef _StepBasic_Product_HeaderFile
 #define _StepBasic_Product_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepBasic_Product.hxx>
 
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Handle_StepBasic_HArray1OfProductContext.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_StepBasic_ProductContext.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class TCollection_HAsciiString;
 class StepBasic_HArray1OfProductContext;
 class StepBasic_ProductContext;

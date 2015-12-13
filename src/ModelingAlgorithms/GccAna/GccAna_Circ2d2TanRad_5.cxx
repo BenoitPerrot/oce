@@ -14,8 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_NegativeValue.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NegativeValue.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <GccEnt_BadQualifier.hxx>
 #include <StdFail_NotDone.hxx>
 #include <GccEnt_QualifiedCirc.hxx>
@@ -30,7 +30,7 @@
 #include <gp_Ax2d.hxx>
 #include <IntAna2d_AnaIntersection.hxx>
 #include <IntAna2d_IntPoint.hxx>
-#include <Standard_NegativeValue.hxx>
+#include <Foundation/Standard/Standard_NegativeValue.hxx>
 #include <GccEnt_BadQualifier.hxx>
 
 //   Circle passing by two points of given radius.

@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <StdFail_NotDone.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 
 
 inline Standard_Boolean IntRes2d_Intersection::IsDone() const {

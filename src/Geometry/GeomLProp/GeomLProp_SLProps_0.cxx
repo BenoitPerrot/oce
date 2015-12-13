@@ -7,8 +7,8 @@
 
 #include <Geom_Surface.hxx>
 #include <LProp_BadContinuity.hxx>
-#include <Standard_DomainError.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <LProp_NotDefined.hxx>
 #include <GeomLProp_SurfaceTool.hxx>
 #include <gp_Pnt.hxx>

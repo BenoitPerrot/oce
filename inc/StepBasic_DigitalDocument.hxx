@@ -6,8 +6,8 @@
 #ifndef _StepBasic_DigitalDocument_HeaderFile
 #define _StepBasic_DigitalDocument_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepBasic_DigitalDocument.hxx>
 
 #include <StepBasic_Document.hxx>

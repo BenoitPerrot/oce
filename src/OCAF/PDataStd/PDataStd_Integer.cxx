@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <PDataStd_Integer.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PDataStd_Integer)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(PDF_Attribute),

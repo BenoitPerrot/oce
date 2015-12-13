@@ -6,8 +6,8 @@
 #ifndef _StepVisual_ColourSpecification_HeaderFile
 #define _StepVisual_ColourSpecification_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepVisual_ColourSpecification.hxx>
 
 #include <Handle_TCollection_HAsciiString.hxx>

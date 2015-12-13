@@ -6,7 +6,7 @@
 #ifndef _V3d_TypeOfPickLight_HeaderFile
 #define _V3d_TypeOfPickLight_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum V3d_TypeOfPickLight

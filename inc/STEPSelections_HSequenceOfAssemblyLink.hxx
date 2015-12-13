@@ -6,15 +6,15 @@
 #ifndef _STEPSelections_HSequenceOfAssemblyLink_HeaderFile
 #define _STEPSelections_HSequenceOfAssemblyLink_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_STEPSelections_HSequenceOfAssemblyLink.hxx>
 
 #include <STEPSelections_SequenceOfAssemblyLink.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_STEPSelections_AssemblyLink.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;
 class Standard_OutOfRange;
 class STEPSelections_AssemblyLink;

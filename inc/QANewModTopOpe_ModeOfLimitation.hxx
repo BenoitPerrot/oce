@@ -6,7 +6,7 @@
 #ifndef _QANewModTopOpe_ModeOfLimitation_HeaderFile
 #define _QANewModTopOpe_ModeOfLimitation_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum QANewModTopOpe_ModeOfLimitation

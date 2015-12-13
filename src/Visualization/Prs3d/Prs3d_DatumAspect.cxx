@@ -14,7 +14,7 @@
 
 #include <Prs3d_LineAspect.hxx>
 #include <Prs3d_DatumAspect.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Prs3d_DatumAspect)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Prs3d_BasicAspect),

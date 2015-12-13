@@ -15,7 +15,7 @@
 
 #include <ShapeProcess_Context.hxx>
 #include <ShapeProcess_UOperator.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeProcess_UOperator)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(ShapeProcess_Operator),

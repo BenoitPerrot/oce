@@ -6,7 +6,7 @@
 #ifndef _Resource_FormatType_HeaderFile
 #define _Resource_FormatType_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 //! List of non ASCII format types which may be

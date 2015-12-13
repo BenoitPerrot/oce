@@ -6,7 +6,7 @@
 #include <IntPatch_TheSearchInside.hxx>
 
 #include <StdFail_NotDone.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Adaptor3d_HSurface.hxx>
 #include <Adaptor3d_HSurfaceTool.hxx>
 #include <Adaptor3d_TopolTool.hxx>

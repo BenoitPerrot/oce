@@ -6,11 +6,11 @@
 #ifndef _StepFEA_FeaMassDensity_HeaderFile
 #define _StepFEA_FeaMassDensity_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepFEA_FeaMassDensity.hxx>
 
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <StepFEA_FeaMaterialPropertyRepresentationItem.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 class TCollection_HAsciiString;

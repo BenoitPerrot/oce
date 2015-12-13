@@ -5,8 +5,8 @@
 
 #include <Units_TksSequence.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Units_Token.hxx>
 #include <Units_SequenceNodeOfTksSequence.hxx>
  

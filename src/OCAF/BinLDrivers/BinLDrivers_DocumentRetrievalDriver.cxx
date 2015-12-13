@@ -24,7 +24,7 @@
 #include <Storage_HeaderData.hxx>
 #include <BinLDrivers_DocumentSection.hxx>
 #include <BinLDrivers_DocumentRetrievalDriver.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BinLDrivers_DocumentRetrievalDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(PCDM_RetrievalDriver),
@@ -41,8 +41,8 @@ IMPLEMENT_STANDARD_RTTI(BinLDrivers_DocumentRetrievalDriver)
 #include <BinObjMgt_Persistent.hxx>
 #include <Foundation/FSD/FSD_BinaryFile.hxx>
 #include <Foundation/FSD/FSD_FileHeader.hxx>
-#include <Standard_ErrorHandler.hxx>
-#include <Standard_Stream.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_Stream.hxx>
 #include <Storage_Schema.hxx>
 #include <TDF_Data.hxx>
 #include <TDocStd_Document.hxx>

@@ -6,16 +6,16 @@
 #ifndef _ShapeFix_WireSegment_HeaderFile
 #define _ShapeFix_WireSegment_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_ShapeExtend_WireData.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <TopAbs_Orientation.hxx>
 #include <Handle_TColStd_HSequenceOfInteger.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class ShapeExtend_WireData;
 class TColStd_HSequenceOfInteger;
 class TopoDS_Wire;

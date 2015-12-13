@@ -6,13 +6,13 @@
 #ifndef _GC_MakeConicalSurface_HeaderFile
 #define _GC_MakeConicalSurface_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_Geom_ConicalSurface.hxx>
 #include <GC_Root.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class Geom_ConicalSurface;
 class StdFail_NotDone;
 class gp_Ax2;

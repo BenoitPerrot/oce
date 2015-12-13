@@ -19,7 +19,7 @@
 //#endif
 
 #include <math_NotSquare.hxx>
-#include <Standard_DimensionError.hxx>
+#include <Foundation/Standard/Standard_DimensionError.hxx>
 #include <StdFail_NotDone.hxx>
 #include <math_Matrix.hxx>
 #include <math_Gauss.hxx>
@@ -27,8 +27,8 @@
 
 #include <math_NotSquare.hxx> 
 #include <StdFail_NotDone.hxx>
-#include <Standard_DimensionError.hxx>
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_DimensionError.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 
 math_Gauss::math_Gauss(const math_Matrix& A, 
                            const Standard_Real MinPivot) 

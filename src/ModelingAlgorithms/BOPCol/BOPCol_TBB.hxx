@@ -15,8 +15,8 @@
 #ifndef _BOPDS_Col_HeaderFile
 #define _BOPDS_Col_HeaderFile
 
-#include <Standard_Macro.hxx>
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 
 #ifdef HAVE_TBB
 // On Windows, function TryEnterCriticalSection has appeared in Windows NT

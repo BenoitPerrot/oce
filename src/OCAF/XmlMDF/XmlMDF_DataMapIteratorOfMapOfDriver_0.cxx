@@ -5,7 +5,7 @@
 
 #include <XmlMDF_DataMapIteratorOfMapOfDriver.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <XmlMDF_ADriver.hxx>
 #include <XmlMDF_MapOfDriver.hxx>

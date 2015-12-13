@@ -6,11 +6,11 @@
 #ifndef _MeshVS_DataMapNodeOfDataMapOfIntegerColor_HeaderFile
 #define _MeshVS_DataMapNodeOfDataMapOfIntegerColor_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_MeshVS_DataMapNodeOfDataMapOfIntegerColor.hxx>
 
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <TCollection_MapNode.hxx>
 #include <TCollection_MapNodePtr.hxx>
@@ -53,7 +53,7 @@ private:
 };
 
 #define TheKey Standard_Integer
-#define TheKey_hxx <Standard_Integer.hxx>
+#define TheKey_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheItem Quantity_Color
 #define TheItem_hxx <Foundation/Quantity/Quantity_Color.hxx>
 #define Hasher TColStd_MapIntegerHasher

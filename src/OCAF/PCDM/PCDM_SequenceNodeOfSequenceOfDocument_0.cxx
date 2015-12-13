@@ -5,7 +5,7 @@
 
 #include <PCDM_SequenceNodeOfSequenceOfDocument.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <PCDM_Document.hxx>
 #include <PCDM_SequenceOfDocument.hxx>

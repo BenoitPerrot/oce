@@ -19,7 +19,7 @@
 
 
 #include <IntImp_ComputeTangence.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Precision.hxx>
 
 #define SURF1 (*((ThePSurface *)(surf1)))

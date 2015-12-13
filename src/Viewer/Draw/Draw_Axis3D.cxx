@@ -19,7 +19,7 @@
 #include <gp_Ax3.hxx>
 #include <Draw_Display.hxx>
 #include <Draw_Axis3D.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Draw_Axis3D)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Draw_Drawable3D),

@@ -6,21 +6,21 @@
 #ifndef _BinTools_ShapeSet_HeaderFile
 #define _BinTools_ShapeSet_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TopTools_IndexedMapOfShape.hxx>
 #include <BinTools_LocationSet.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <BRep_Builder.hxx>
 #include <BinTools_SurfaceSet.hxx>
 #include <BinTools_CurveSet.hxx>
 #include <BinTools_Curve2dSet.hxx>
 #include <TColStd_IndexedMapOfTransient.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_OStream.hxx>
-#include <Standard_IStream.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_IStream.hxx>
 #include <TopAbs_ShapeEnum.hxx>
 class TopoDS_Shape;
 class BinTools_LocationSet;

@@ -25,10 +25,10 @@
 #include <Foundation/OSD/OSD_Path.hxx>
 #include <Foundation/OSD/OSD_Protection.hxx>
 
-#include <Standard_ErrorHandler.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_Type.hxx>
-#include <Standard_TypeMismatch.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
+#include <Foundation/Standard/Standard_TypeMismatch.hxx>
 
 #include <TCollection_AsciiString.hxx>
 #include <TCollection_ExtendedString.hxx>

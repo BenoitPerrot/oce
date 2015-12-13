@@ -6,9 +6,9 @@
 #ifndef _TopOpeBRepBuild_BuilderON_HeaderFile
 #define _TopOpeBRepBuild_BuilderON_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TopOpeBRepBuild_PBuilder.hxx>
 #include <TopOpeBRepBuild_PGTopo.hxx>
@@ -16,7 +16,7 @@
 #include <TopOpeBRepBuild_PWireEdgeSet.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopOpeBRepDS_ListOfInterference.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_TopOpeBRepDS_Interference.hxx>
 class TopoDS_Shape;
 class TopOpeBRepDS_Interference;

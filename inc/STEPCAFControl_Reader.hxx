@@ -6,17 +6,17 @@
 #ifndef _STEPCAFControl_Reader_HeaderFile
 #define _STEPCAFControl_Reader_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <STEPControl_Reader.hxx>
 #include <Handle_STEPCAFControl_DictionaryOfExternFile.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_XSControl_WorkSession.hxx>
 #include <IFSelect_ReturnStatus.hxx>
-#include <Standard_CString.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TDocStd_Document.hxx>
 #include <Handle_STEPCAFControl_ExternFile.hxx>
 #include <Handle_XCAFDoc_ShapeTool.hxx>

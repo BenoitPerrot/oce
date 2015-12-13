@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <TColgp_HSequenceOfXYZ.hxx>
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <gp_XY.hxx>
 #include <gp_XYZ.hxx>
 #include <IGESGeom_CopiousData.hxx>
@@ -25,7 +25,7 @@
 #include <TColStd_HArray1OfReal.hxx>
 #include <TColStd_HArray2OfReal.hxx>
 #include <Interface_Translates.hxx>
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <gp.hxx>
 
 

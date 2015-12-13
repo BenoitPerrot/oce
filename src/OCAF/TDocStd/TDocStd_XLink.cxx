@@ -25,13 +25,13 @@
 #include <TDocStd_XLinkIterator.hxx>
 #include <TDF_Label.hxx>
 #include <TDF_Reference.hxx>
-#include <Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <TDF_AttributeDelta.hxx>
 #include <TDF_Attribute.hxx>
 #include <TDF_RelocationTable.hxx>
 #include <TDocStd_XLink.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDocStd_XLink)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(TDF_Attribute),
@@ -42,7 +42,7 @@ IMPLEMENT_STANDARD_TYPE_END(TDocStd_XLink)
 IMPLEMENT_DOWNCAST(TDocStd_XLink,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TDocStd_XLink)
 
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <TDF_DeltaOnAddition.hxx>
 #include <TDF_DeltaOnRemoval.hxx>
 #include <TDF_Tool.hxx>

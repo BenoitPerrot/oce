@@ -38,7 +38,7 @@
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <AIS_PlaneTrihedron.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_PlaneTrihedron)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(AIS_InteractiveObject),

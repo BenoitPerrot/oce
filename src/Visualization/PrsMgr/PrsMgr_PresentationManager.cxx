@@ -14,14 +14,14 @@
 
 #include <Graphic3d_StructureManager.hxx>
 #include <V3d_View.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <PrsMgr_PresentableObject.hxx>
 #include <Prs3d_Presentation.hxx>
 #include <Geom_Transformation.hxx>
 #include <Prs3d_ShadingAspect.hxx>
 #include <PrsMgr_Presentation.hxx>
 #include <PrsMgr_PresentationManager.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PrsMgr_PresentationManager)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

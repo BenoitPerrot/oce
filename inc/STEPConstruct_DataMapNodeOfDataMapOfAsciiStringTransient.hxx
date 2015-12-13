@@ -6,8 +6,8 @@
 #ifndef _STEPConstruct_DataMapNodeOfDataMapOfAsciiStringTransient_HeaderFile
 #define _STEPConstruct_DataMapNodeOfDataMapOfAsciiStringTransient_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_STEPConstruct_DataMapNodeOfDataMapOfAsciiStringTransient.hxx>
 
 #include <TCollection_AsciiString.hxx>
@@ -55,7 +55,7 @@ private:
 #define TheKey TCollection_AsciiString
 #define TheKey_hxx <TCollection_AsciiString.hxx>
 #define TheItem Handle(Standard_Transient)
-#define TheItem_hxx <Standard_Transient.hxx>
+#define TheItem_hxx <Foundation/Standard/Standard_Transient.hxx>
 #define Hasher TCollection_AsciiString
 #define Hasher_hxx <TCollection_AsciiString.hxx>
 #define TCollection_DataMapNode STEPConstruct_DataMapNodeOfDataMapOfAsciiStringTransient

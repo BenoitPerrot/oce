@@ -6,11 +6,11 @@
 #ifndef _TFunction_DoubleMapNodeOfDoubleMapOfIntegerLabel_HeaderFile
 #define _TFunction_DoubleMapNodeOfDoubleMapOfIntegerLabel_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TFunction_DoubleMapNodeOfDoubleMapOfIntegerLabel.hxx>
 
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <TDF_Label.hxx>
 #include <TCollection_MapNodePtr.hxx>
 #include <TCollection_MapNode.hxx>
@@ -57,7 +57,7 @@ private:
 };
 
 #define TheKey1 Standard_Integer
-#define TheKey1_hxx <Standard_Integer.hxx>
+#define TheKey1_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheKey2 TDF_Label
 #define TheKey2_hxx <TDF_Label.hxx>
 #define Hasher1 TColStd_MapIntegerHasher

@@ -6,14 +6,14 @@
 #ifndef _AIS_TangentRelation_HeaderFile
 #define _AIS_TangentRelation_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_AIS_TangentRelation.hxx>
 
 #include <gp_Pnt.hxx>
 #include <gp_Dir.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <AIS_Relation.hxx>
 #include <Handle_Geom_Plane.hxx>
 #include <PrsMgr_PresentationManager3d.hxx>

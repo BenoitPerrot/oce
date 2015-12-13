@@ -5,7 +5,7 @@
 
 #include <DBC_VArrayNodeOfVArrayOfCharacter.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <DBC_VArrayOfCharacter.hxx>
 #include <DBC_VArrayTNodeOfVArrayOfCharacter.hxx>
@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_RTTI(DBC_VArrayNodeOfVArrayOfCharacter)
 
 
 #define Item Standard_Character
-#define Item_hxx <Standard_Character.hxx>
+#define Item_hxx <Foundation/Standard/Standard_Character.hxx>
 #define DBC_VArrayNode DBC_VArrayNodeOfVArrayOfCharacter
 #define DBC_VArrayNode_hxx <DBC_VArrayNodeOfVArrayOfCharacter.hxx>
 #define DBC_VArrayTNode DBC_VArrayTNodeOfVArrayOfCharacter

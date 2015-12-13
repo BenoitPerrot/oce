@@ -14,7 +14,7 @@
 
 //JCV 16/10/91
 
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <gp_Sphere.hxx>
 #include <Convert_SphereToBSplineSurface.hxx>
 

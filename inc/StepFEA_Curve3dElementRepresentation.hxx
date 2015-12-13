@@ -6,8 +6,8 @@
 #ifndef _StepFEA_Curve3dElementRepresentation_HeaderFile
 #define _StepFEA_Curve3dElementRepresentation_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepFEA_Curve3dElementRepresentation.hxx>
 
 #include <Handle_StepFEA_FeaModel3d.hxx>

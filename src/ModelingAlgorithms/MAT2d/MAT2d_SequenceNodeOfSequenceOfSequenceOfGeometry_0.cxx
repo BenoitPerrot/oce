@@ -5,7 +5,7 @@
 
 #include <MAT2d_SequenceNodeOfSequenceOfSequenceOfGeometry.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TColGeom2d_SequenceOfGeometry.hxx>
 #include <MAT2d_SequenceOfSequenceOfGeometry.hxx>

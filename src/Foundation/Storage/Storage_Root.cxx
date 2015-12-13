@@ -12,8 +12,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_Persistent.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Persistent.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 #include <Storage_Schema.hxx>
 #include <Storage_Root.hxx>
 #include <TCollection_AsciiString.hxx>

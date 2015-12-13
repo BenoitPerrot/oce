@@ -5,7 +5,7 @@
 
 #include <IntCurve_IntImpConicParConic.hxx>
 
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <IntCurve_IConicTool.hxx>
 #include <IntCurve_PConic.hxx>
 #include <IntCurve_PConicTool.hxx>

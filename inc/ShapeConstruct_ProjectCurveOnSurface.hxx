@@ -6,14 +6,14 @@
 #ifndef _ShapeConstruct_ProjectCurveOnSurface_HeaderFile
 #define _ShapeConstruct_ProjectCurveOnSurface_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ShapeConstruct_ProjectCurveOnSurface.hxx>
 
 #include <Handle_ShapeAnalysis_Surface.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Pnt2d.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

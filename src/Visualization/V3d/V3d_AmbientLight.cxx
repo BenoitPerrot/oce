@@ -19,7 +19,7 @@
 #include <V3d.hxx>
 #include <V3d_Viewer.hxx>
 #include <V3d_AmbientLight.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(V3d_AmbientLight)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(V3d_Light),

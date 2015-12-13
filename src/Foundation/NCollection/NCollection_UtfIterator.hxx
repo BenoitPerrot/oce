@@ -16,7 +16,7 @@
 #ifndef _NCollection_UtfIterator_H__
 #define _NCollection_UtfIterator_H__
 
-#include <Standard_TypeDef.hxx>
+#include <Foundation/Standard/Standard_TypeDef.hxx>
 
 //! Template class for Unicode strings support.
 //! It defines an iterator and provide correct way to read multi-byte text (UTF-8 and UTF-16)

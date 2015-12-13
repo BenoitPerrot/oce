@@ -5,7 +5,7 @@
 
 #include <TDataStd_ListOfExtendedString.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TDataStd_ListIteratorOfListOfExtendedString.hxx>
 #include <TCollection_ExtendedString.hxx>
 #include <TDataStd_ListNodeOfListOfExtendedString.hxx>

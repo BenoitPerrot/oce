@@ -6,12 +6,12 @@
 #ifndef _SelectMgr_IndexedDataMapNodeOfIndexedDataMapOfOwnerCriterion_HeaderFile
 #define _SelectMgr_IndexedDataMapNodeOfIndexedDataMapOfOwnerCriterion_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_SelectMgr_IndexedDataMapNodeOfIndexedDataMapOfOwnerCriterion.hxx>
 
 #include <Handle_SelectBasics_EntityOwner.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <SelectMgr_SortCriterion.hxx>
 #include <TCollection_MapNodePtr.hxx>
 #include <TCollection_MapNode.hxx>

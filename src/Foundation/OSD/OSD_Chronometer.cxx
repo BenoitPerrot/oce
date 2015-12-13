@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/OSD/OSD_Chronometer.hxx>
-#include <Standard_Stream.hxx>
+#include <Foundation/Standard/Standard_Stream.hxx>
 
 // ====================== PLATFORM-SPECIFIC PART ========================
 

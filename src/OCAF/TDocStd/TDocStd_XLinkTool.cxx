@@ -22,7 +22,7 @@
 // standard copy
 #include <TDocStd_Document.hxx>
 #include <TDF_Label.hxx>
-#include <Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <TDF_LabelMap.hxx>
 #include <TDF_MapIteratorOfLabelMap.hxx>
@@ -39,7 +39,7 @@
 #include <TDocStd_XLink.hxx> 
 #include <TDataStd_TreeNode.hxx>
 
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 
 
 //=======================================================================

@@ -5,7 +5,7 @@
 
 #include <SelectBasics_ListNodeOfListOfSensitive.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <SelectBasics_SensitiveEntity.hxx>
 #include <SelectBasics_ListOfSensitive.hxx>

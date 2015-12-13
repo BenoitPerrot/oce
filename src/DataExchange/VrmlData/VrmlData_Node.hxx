@@ -16,10 +16,10 @@
 #ifndef VrmlData_Node_HeaderFile
 #define VrmlData_Node_HeaderFile
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 #include <Foundation/NCollection/NCollection_List.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard_TypeDef.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard_TypeDef.hxx>
 #include <TCollection_AsciiString.hxx> 
 #include <VrmlData_ErrorStatus.hxx>
 

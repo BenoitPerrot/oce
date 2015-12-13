@@ -23,7 +23,7 @@
 #include <GC_MakeTrimmedCylinder.hxx>
 #include <GC_MakeCylindricalSurface.hxx>
 #include <StdFail_NotDone.hxx>
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 
 //=========================================================================
 //   Creation of a cylinder limited by three points <P1>, <P2> and <P3>.         +

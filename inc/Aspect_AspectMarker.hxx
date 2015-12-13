@@ -6,13 +6,13 @@
 #ifndef _Aspect_AspectMarker_HeaderFile
 #define _Aspect_AspectMarker_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Aspect_AspectMarker.hxx>
 
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Aspect_TypeOfMarker.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class Aspect_AspectMarkerDefinitionError;
 class Quantity_Color;

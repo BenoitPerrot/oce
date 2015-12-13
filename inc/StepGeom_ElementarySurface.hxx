@@ -6,8 +6,8 @@
 #ifndef _StepGeom_ElementarySurface_HeaderFile
 #define _StepGeom_ElementarySurface_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepGeom_ElementarySurface.hxx>
 
 #include <Handle_StepGeom_Axis2Placement3d.hxx>

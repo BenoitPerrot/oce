@@ -6,17 +6,17 @@
 #ifndef _HLRAlgo_EdgesBlock_HeaderFile
 #define _HLRAlgo_EdgesBlock_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_HLRAlgo_EdgesBlock.hxx>
 
 #include <TColStd_Array1OfInteger.hxx>
 #include <TColStd_Array1OfBoolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <TopAbs_Orientation.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
 
 
 //! An EdgesBlock is a set of Edges. It is used by the

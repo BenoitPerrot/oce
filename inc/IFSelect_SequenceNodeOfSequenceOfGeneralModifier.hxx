@@ -6,8 +6,8 @@
 #ifndef _IFSelect_SequenceNodeOfSequenceOfGeneralModifier_HeaderFile
 #define _IFSelect_SequenceNodeOfSequenceOfGeneralModifier_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IFSelect_SequenceNodeOfSequenceOfGeneralModifier.hxx>
 
 #include <Handle_IFSelect_GeneralModifier.hxx>

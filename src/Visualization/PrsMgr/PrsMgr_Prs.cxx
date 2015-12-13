@@ -17,7 +17,7 @@
 #include <Graphic3d_DataStructureManager.hxx>
 #include <TColStd_Array2OfReal.hxx>
 #include <PrsMgr_Prs.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PrsMgr_Prs)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Prs3d_Presentation),

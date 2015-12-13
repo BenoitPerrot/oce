@@ -6,16 +6,16 @@
 #ifndef _PColStd_HArray1OfExtendedString_HeaderFile
 #define _PColStd_HArray1OfExtendedString_HeaderFile
 
-#include <Standard_Macro.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Handle_PColStd_HArray1OfExtendedString.hxx>
 
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_PCollection_HExtendedString.hxx>
 #include <PColStd_FieldOfHArray1OfExtendedString.hxx>
-#include <Standard_Address.hxx>
-#include <Standard_Persistent.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Persistent.hxx>
 #include <Handle_PColStd_VArrayNodeOfFieldOfHArray1OfExtendedString.hxx>
 class PCollection_HExtendedString;
 class Standard_OutOfRange;

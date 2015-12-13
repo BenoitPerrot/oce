@@ -7,8 +7,8 @@
 
 #include <PColgp_SeqNodeOfHSequenceOfXYZ.hxx>
 #include <PColgp_HSequenceOfXYZ.hxx>
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <gp_XYZ.hxx>
  
 

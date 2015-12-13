@@ -28,7 +28,7 @@
 #include <Geom2d_CartesianPoint.hxx> 
 #include <TColStd_SequenceOfInteger.hxx>
 #include <TColGeom2d_SequenceOfGeometry.hxx>
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 
 //============================================================================
 //function : MAT2d_MiniPath()

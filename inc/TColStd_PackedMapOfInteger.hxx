@@ -16,7 +16,7 @@
 #ifndef TColStd_PackedMapOfInteger_HeaderFile
 #define TColStd_PackedMapOfInteger_HeaderFile
 
-#include <Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <TCollection_BasicMap.hxx>
 
 /**

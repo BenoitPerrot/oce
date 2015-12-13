@@ -6,8 +6,8 @@
 #ifndef _Storage_DataMapNodeOfMapOfCallBack_HeaderFile
 #define _Storage_DataMapNodeOfMapOfCallBack_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Storage_DataMapNodeOfMapOfCallBack.hxx>
 
 #include <TCollection_AsciiString.hxx>

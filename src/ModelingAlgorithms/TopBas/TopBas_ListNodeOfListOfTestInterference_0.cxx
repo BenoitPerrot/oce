@@ -5,7 +5,7 @@
 
 #include <TopBas_ListNodeOfListOfTestInterference.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TopBas_TestInterference.hxx>
 #include <TopBas_ListOfTestInterference.hxx>

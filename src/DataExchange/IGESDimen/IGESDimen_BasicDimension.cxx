@@ -19,7 +19,7 @@
 #include <gp_XY.hxx>
 #include <gp_Pnt2d.hxx>
 #include <IGESDimen_BasicDimension.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESDimen_BasicDimension)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(IGESData_IGESEntity),

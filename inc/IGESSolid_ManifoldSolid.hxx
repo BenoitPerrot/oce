@@ -6,16 +6,16 @@
 #ifndef _IGESSolid_ManifoldSolid_HeaderFile
 #define _IGESSolid_ManifoldSolid_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESSolid_ManifoldSolid.hxx>
 
 #include <Handle_IGESSolid_Shell.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_IGESSolid_HArray1OfShell.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>
 #include <IGESData_IGESEntity.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class IGESSolid_Shell;
 class IGESSolid_HArray1OfShell;
 class TColStd_HArray1OfInteger;

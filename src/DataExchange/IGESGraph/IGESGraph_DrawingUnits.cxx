@@ -18,7 +18,7 @@
 
 #include <TCollection_HAsciiString.hxx>
 #include <IGESGraph_DrawingUnits.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESGraph_DrawingUnits)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(IGESData_IGESEntity),

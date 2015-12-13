@@ -17,7 +17,7 @@
 #include <TopoDS_Edge.hxx>
 #include <Draw_Color.hxx>
 #include <DBRep_Edge.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DBRep_Edge)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

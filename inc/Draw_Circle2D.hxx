@@ -6,12 +6,12 @@
 #ifndef _Draw_Circle2D_HeaderFile
 #define _Draw_Circle2D_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Draw_Circle2D.hxx>
 
 #include <gp_Circ2d.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Draw_Color.hxx>
 #include <Draw_Drawable2D.hxx>
 class gp_Circ2d;

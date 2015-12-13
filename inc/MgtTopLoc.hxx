@@ -6,9 +6,9 @@
 #ifndef _MgtTopLoc_HeaderFile
 #define _MgtTopLoc_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_PTopLoc_Datum3D.hxx>
 #include <Handle_TopLoc_Datum3D.hxx>

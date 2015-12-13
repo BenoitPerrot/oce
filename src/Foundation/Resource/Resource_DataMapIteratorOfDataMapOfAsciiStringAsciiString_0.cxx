@@ -5,7 +5,7 @@
 
 #include <Foundation/Resource/Resource_DataMapIteratorOfDataMapOfAsciiStringAsciiString.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <Foundation/Resource/Resource_DataMapOfAsciiStringAsciiString.hxx>
 #include <Foundation/Resource/Resource_DataMapNodeOfDataMapOfAsciiStringAsciiString.hxx>

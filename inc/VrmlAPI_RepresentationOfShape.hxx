@@ -6,7 +6,7 @@
 #ifndef _VrmlAPI_RepresentationOfShape_HeaderFile
 #define _VrmlAPI_RepresentationOfShape_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Identifies the representation of the shape written
 //! to a VRML file. The available options are :

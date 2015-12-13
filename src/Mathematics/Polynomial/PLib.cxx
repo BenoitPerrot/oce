@@ -28,7 +28,7 @@
 #include <Foundation/NCollection/NCollection_LocalArray.hxx>
 #include <math_Matrix.hxx> 
 #include <math_Gauss.hxx> 
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <GeomAbs_Shape.hxx>
 
 #include <math_Gauss.hxx>

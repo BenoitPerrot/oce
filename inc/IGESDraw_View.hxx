@@ -6,15 +6,15 @@
 #ifndef _IGESDraw_View_HeaderFile
 #define _IGESDraw_View_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESDraw_View.hxx>
 
-#include <Standard_Integer.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_IGESGeom_Plane.hxx>
 #include <IGESData_ViewKindEntity.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_IGESData_ViewKindEntity.hxx>
 #include <Handle_IGESData_TransfEntity.hxx>
 class IGESGeom_Plane;

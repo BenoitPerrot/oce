@@ -14,13 +14,13 @@
 #ifndef _MeshTest_DrawableMesh_HeaderFile
 #define _MeshTest_DrawableMesh_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <BRepMesh_IncrementalMesh.hxx>
 #include <TColStd_SequenceOfInteger.hxx>
 #include <Draw_Drawable3D.hxx>
 #include <Handle_Draw_Drawable3D.hxx>
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 #include <Draw_Interpretor.hxx>
 
 class TopoDS_Shape;

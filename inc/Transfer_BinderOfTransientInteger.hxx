@@ -6,11 +6,11 @@
 #ifndef _Transfer_BinderOfTransientInteger_HeaderFile
 #define _Transfer_BinderOfTransientInteger_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Transfer_BinderOfTransientInteger.hxx>
 
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Transfer_SimpleBinderOfTransient.hxx>
 
 

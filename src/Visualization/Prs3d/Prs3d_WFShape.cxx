@@ -34,7 +34,7 @@
 #include <Prs3d_PointAspect.hxx>
 #include <Prs3d_NListIteratorOfListOfSequenceOfPnt.hxx>
 #include <Prs3d_ShapeTool.hxx>
-#include <Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <TColgp_SequenceOfPnt.hxx>
 #include <TopoDS_Edge.hxx>

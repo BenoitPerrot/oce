@@ -19,7 +19,7 @@
 #include <TCollection_ExtendedString.hxx>
 #include <Geom_Surface.hxx>
 #include <AIS_EllipseRadiusDimension.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_EllipseRadiusDimension)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(AIS_Relation),

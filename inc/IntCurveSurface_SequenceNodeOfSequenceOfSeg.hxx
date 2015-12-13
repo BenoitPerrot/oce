@@ -6,8 +6,8 @@
 #ifndef _IntCurveSurface_SequenceNodeOfSequenceOfSeg_HeaderFile
 #define _IntCurveSurface_SequenceNodeOfSequenceOfSeg_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IntCurveSurface_SequenceNodeOfSequenceOfSeg.hxx>
 
 #include <IntCurveSurface_IntersectionSegment.hxx>

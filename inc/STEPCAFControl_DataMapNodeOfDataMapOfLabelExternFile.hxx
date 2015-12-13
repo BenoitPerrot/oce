@@ -6,8 +6,8 @@
 #ifndef _STEPCAFControl_DataMapNodeOfDataMapOfLabelExternFile_HeaderFile
 #define _STEPCAFControl_DataMapNodeOfDataMapOfLabelExternFile_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_STEPCAFControl_DataMapNodeOfDataMapOfLabelExternFile.hxx>
 
 #include <TDF_Label.hxx>

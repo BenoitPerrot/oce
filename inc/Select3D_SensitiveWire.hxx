@@ -6,20 +6,20 @@
 #ifndef _Select3D_SensitiveWire_HeaderFile
 #define _Select3D_SensitiveWire_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Select3D_SensitiveWire.hxx>
 
 #include <Select3D_SensitiveEntitySequence.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Select3D_SensitiveEntity.hxx>
 #include <Handle_SelectBasics_EntityOwner.hxx>
 #include <Handle_Select3D_SensitiveEntity.hxx>
 #include <Handle_Select3D_Projector.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <SelectBasics_PickArgs.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 class SelectBasics_EntityOwner;
 class Select3D_SensitiveEntity;
 class Select3D_Projector;

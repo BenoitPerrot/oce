@@ -6,8 +6,8 @@
 #ifndef _TDataStd_Expression_HeaderFile
 #define _TDataStd_Expression_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TDataStd_Expression.hxx>
 
 #include <TCollection_ExtendedString.hxx>
@@ -15,7 +15,7 @@
 #include <TDF_Attribute.hxx>
 #include <Handle_TDF_Attribute.hxx>
 #include <Handle_TDF_RelocationTable.hxx>
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 class Standard_GUID;
 class TDF_Label;
 class TCollection_ExtendedString;

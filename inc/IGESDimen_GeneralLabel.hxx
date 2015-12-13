@@ -6,14 +6,14 @@
 #ifndef _IGESDimen_GeneralLabel_HeaderFile
 #define _IGESDimen_GeneralLabel_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESDimen_GeneralLabel.hxx>
 
 #include <Handle_IGESDimen_GeneralNote.hxx>
 #include <Handle_IGESDimen_HArray1OfLeaderArrow.hxx>
 #include <IGESData_IGESEntity.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_IGESDimen_LeaderArrow.hxx>
 class IGESDimen_GeneralNote;
 class IGESDimen_HArray1OfLeaderArrow;

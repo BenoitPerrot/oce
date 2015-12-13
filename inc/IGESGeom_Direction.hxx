@@ -6,8 +6,8 @@
 #ifndef _IGESGeom_Direction_HeaderFile
 #define _IGESGeom_Direction_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESGeom_Direction.hxx>
 
 #include <gp_XYZ.hxx>

@@ -6,15 +6,15 @@
 #ifndef _PDF_Data_HeaderFile
 #define _PDF_Data_HeaderFile
 
-#include <Standard_Macro.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Handle_PDF_Data.hxx>
 
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_PColStd_HArray1OfInteger.hxx>
 #include <Handle_PDF_HAttributeArray1.hxx>
-#include <Standard_Persistent.hxx>
+#include <Foundation/Standard/Standard_Persistent.hxx>
 class PColStd_HArray1OfInteger;
 class PDF_HAttributeArray1;
 

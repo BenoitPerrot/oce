@@ -17,7 +17,7 @@
 #include <TDF_Attribute.hxx>
 #include <XmlObjMgt_Persistent.hxx>
 #include <XmlMDataStd_IntPackedMapDriver.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XmlMDataStd_IntPackedMapDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(XmlMDF_ADriver),

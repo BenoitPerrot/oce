@@ -6,12 +6,12 @@
 #ifndef _TopBas_TestInterference_HeaderFile
 #define _TopBas_TestInterference_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Real.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <TopAbs_Orientation.hxx>
 
 
@@ -74,9 +74,9 @@ private:
 };
 
 #define TheSubShape Standard_Real
-#define TheSubShape_hxx <Standard_Real.hxx>
+#define TheSubShape_hxx <Foundation/Standard/Standard_Real.hxx>
 #define TheShape Standard_Integer
-#define TheShape_hxx <Standard_Integer.hxx>
+#define TheShape_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TopBas_Interference TopBas_TestInterference
 #define TopBas_Interference_hxx <TopBas_TestInterference.hxx>
 

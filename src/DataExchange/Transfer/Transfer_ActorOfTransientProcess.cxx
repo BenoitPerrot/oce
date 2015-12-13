@@ -12,11 +12,11 @@
 // commercial license or contractual agreement.
 
 #include <Transfer_Binder.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <Transfer_ProcessForTransient.hxx>
 #include <Transfer_TransientProcess.hxx>
 #include <Transfer_ActorOfTransientProcess.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Transfer_ActorOfTransientProcess)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Transfer_ActorOfProcessForTransient),

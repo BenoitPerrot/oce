@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <V3d_View.hxx>
 #include <gp_Ax2.hxx>
 #include <gp_Trsf.hxx>
@@ -25,7 +25,7 @@
 #include <gp_Vec2d.hxx>
 #include <gp_Lin.hxx>
 #include <Select3D_Projector.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Select3D_Projector)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Standard_Transient),

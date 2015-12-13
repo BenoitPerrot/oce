@@ -6,21 +6,21 @@
 #ifndef _PCollection_HExtendedString_HeaderFile
 #define _PCollection_HExtendedString_HeaderFile
 
-#include <Standard_Macro.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Handle_PCollection_HExtendedString.hxx>
 
 #include <TCollection_ExtendedString.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_PCollection_HExtendedString.hxx>
-#include <Standard_ExtCharacter.hxx>
+#include <Foundation/Standard/Standard_ExtCharacter.hxx>
 #include <DBC_VArrayOfExtCharacter.hxx>
-#include <Standard_Persistent.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_Persistent.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_PCollection_HAsciiString.hxx>
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 class Standard_OutOfRange;
 class Standard_NegativeValue;
 class Standard_NumericError;

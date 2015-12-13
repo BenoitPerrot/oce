@@ -6,7 +6,7 @@
 #ifndef _V3d_Coordinate_HeaderFile
 #define _V3d_Coordinate_HeaderFile
 
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 
 typedef Standard_Real V3d_Coordinate;
 

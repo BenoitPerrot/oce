@@ -25,7 +25,7 @@
 #include <gp_XYZ.hxx>
 #include <Foundation/NCollection/NCollection_DataMap.hxx>
 #include <Foundation/NCollection/NCollection_String.hxx>
-#include <Standard_Mutex.hxx>
+#include <Foundation/Standard/Standard_Mutex.hxx>
 #include <ShapeFix_Face.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>
 #include <TopoDS_Shape.hxx>

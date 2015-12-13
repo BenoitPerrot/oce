@@ -19,7 +19,7 @@
 #include <Draw_Display.hxx>
 #include <Draw_Drawable3D.hxx>
 #include <HLRTest_OutLiner.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(HLRTest_OutLiner)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Draw_Drawable3D),

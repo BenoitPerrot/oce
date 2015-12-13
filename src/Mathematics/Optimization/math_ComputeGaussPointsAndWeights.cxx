@@ -20,7 +20,7 @@
 #include <math_Array1OfValueAndWeight.hxx>
 #include <math_CompareOfValueAndWeight.hxx>
 #include <math_QuickSortOfValueAndWeight.hxx>
-#include <Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
 
 math_ComputeGaussPointsAndWeights::math_ComputeGaussPointsAndWeights(const Standard_Integer Number)
 {

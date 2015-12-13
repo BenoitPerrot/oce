@@ -6,14 +6,14 @@
 #ifndef _HLRTest_OutLiner_HeaderFile
 #define _HLRTest_OutLiner_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_HLRTest_OutLiner.hxx>
 
 #include <Handle_HLRTopoBRep_OutLiner.hxx>
 #include <Draw_Drawable3D.hxx>
 #include <Handle_Draw_Drawable3D.hxx>
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 #include <Draw_Interpretor.hxx>
 class HLRTopoBRep_OutLiner;
 class TopoDS_Shape;

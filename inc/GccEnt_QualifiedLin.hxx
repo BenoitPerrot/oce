@@ -6,15 +6,15 @@
 #ifndef _GccEnt_QualifiedLin_HeaderFile
 #define _GccEnt_QualifiedLin_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <GccEnt_Position.hxx>
 #include <gp_Lin2d.hxx>
-#include <Standard_Storable.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_Storable.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 class gp_Lin2d;
 
 

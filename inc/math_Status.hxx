@@ -6,7 +6,7 @@
 #ifndef _math_Status_HeaderFile
 #define _math_Status_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum math_Status

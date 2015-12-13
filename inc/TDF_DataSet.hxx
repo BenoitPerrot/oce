@@ -6,17 +6,17 @@
 #ifndef _TDF_DataSet_HeaderFile
 #define _TDF_DataSet_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TDF_DataSet.hxx>
 
 #include <TDF_LabelList.hxx>
 #include <TDF_LabelMap.hxx>
 #include <TDF_AttributeMap.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_TDF_Attribute.hxx>
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 class TDF_Label;
 class TDF_LabelMap;
 class TDF_Attribute;

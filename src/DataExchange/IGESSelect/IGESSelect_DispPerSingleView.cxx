@@ -17,7 +17,7 @@
 #include <IFGraph_SubPartsIterator.hxx>
 #include <Interface_EntityIterator.hxx>
 #include <IGESSelect_DispPerSingleView.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESSelect_DispPerSingleView)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(IFSelect_Dispatch),

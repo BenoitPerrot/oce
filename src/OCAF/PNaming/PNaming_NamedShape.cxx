@@ -16,7 +16,7 @@
 
 #include <PTopoDS_HArray1OfShape1.hxx>
 #include <PNaming_NamedShape.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PNaming_NamedShape)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(PDF_Attribute),

@@ -18,7 +18,7 @@
 #include <StepFEA_DegreeOfFreedom.hxx>
 #include <StepElement_MeasureOrUnspecifiedValue.hxx>
 #include <StepFEA_FreedomAndCoefficient.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepFEA_FreedomAndCoefficient)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

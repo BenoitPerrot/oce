@@ -6,7 +6,7 @@
 #ifndef _TopOpeBRep_P2Dstatus_HeaderFile
 #define _TopOpeBRep_P2Dstatus_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum TopOpeBRep_P2Dstatus

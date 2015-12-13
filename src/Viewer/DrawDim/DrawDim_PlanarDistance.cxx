@@ -20,7 +20,7 @@
 #include <gp_Pnt.hxx>
 #include <TopoDS_Edge.hxx>
 #include <DrawDim_PlanarDistance.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DrawDim_PlanarDistance)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(DrawDim_PlanarDimension),

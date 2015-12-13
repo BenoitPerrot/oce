@@ -6,7 +6,7 @@
 #ifndef _StdSelect_SensitivityMode_HeaderFile
 #define _StdSelect_SensitivityMode_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Selection sensitivity mode. SM_WINDOW mode uses the
 //! specified pixel tolerance to compute the sensitivity value,

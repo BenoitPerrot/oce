@@ -58,7 +58,7 @@
 #include <QANewModTopOpe_Limitation.hxx>
 #include <QANewModTopOpe_Intersection.hxx>
 
-#include <Standard_Assert.hxx>
+#include <Foundation/Standard/Standard_Assert.hxx>
 
 #include <BRepLib_MakeEdge.hxx>
 

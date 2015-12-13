@@ -20,7 +20,7 @@
 #include <Foundation/NCollection/NCollection_DataMap.hxx>
 #include <Foundation/NCollection/NCollection_Map.hxx>
 #include <Foundation/NCollection/NCollection_List.hxx>
-#include <Standard_Mutex.hxx>
+#include <Foundation/Standard/Standard_Mutex.hxx>
 #include <fstream>
 #include <iomanip>
 

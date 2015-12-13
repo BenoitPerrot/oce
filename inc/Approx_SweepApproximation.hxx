@@ -6,13 +6,13 @@
 #ifndef _Approx_SweepApproximation_HeaderFile
 #define _Approx_SweepApproximation_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_Approx_SweepFunction.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TColgp_HArray2OfPnt.hxx>
 #include <Handle_TColStd_HArray2OfReal.hxx>
 #include <Handle_TColStd_HArray1OfReal.hxx>
@@ -24,10 +24,10 @@
 #include <Handle_TColgp_HArray1OfPnt2d.hxx>
 #include <Handle_TColgp_HArray1OfVec.hxx>
 #include <Handle_TColgp_HArray1OfVec2d.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <AdvApprox_EvaluatorFunction.hxx>
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 class Approx_SweepFunction;
 class TColgp_HArray2OfPnt;
 class TColStd_HArray2OfReal;

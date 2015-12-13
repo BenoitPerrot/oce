@@ -6,8 +6,8 @@
 #ifndef _StepBasic_NamedUnit_HeaderFile
 #define _StepBasic_NamedUnit_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepBasic_NamedUnit.hxx>
 
 #include <Handle_StepBasic_DimensionalExponents.hxx>

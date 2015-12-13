@@ -21,13 +21,13 @@
 #include <IGESGraph_HArray1OfTextFontDef.hxx>
 #include <TColgp_HArray1OfXYZ.hxx>
 #include <Interface_HArray1OfHAsciiString.hxx>
-#include <Standard_DimensionMismatch.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_DimensionMismatch.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <IGESGraph_TextFontDef.hxx>
 #include <gp_Pnt.hxx>
 #include <TCollection_HAsciiString.hxx>
 #include <IGESDimen_GeneralNote.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESDimen_GeneralNote)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(IGESData_IGESEntity),
@@ -37,7 +37,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESDimen_GeneralNote)
 IMPLEMENT_DOWNCAST(IGESDimen_GeneralNote,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESDimen_GeneralNote)
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <gp_GTrsf.hxx>
 
 

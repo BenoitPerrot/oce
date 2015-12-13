@@ -6,14 +6,14 @@
 #ifndef _ShapeUpgrade_ShellSewing_HeaderFile
 #define _ShapeUpgrade_ShellSewing_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TopTools_IndexedMapOfShape.hxx>
 #include <Handle_ShapeBuild_ReShape.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class ShapeBuild_ReShape;
 class TopoDS_Shape;
 

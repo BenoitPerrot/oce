@@ -15,9 +15,9 @@
 // commercial license or contractual agreement.
 
 #include <Geom_Curve.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TColStd_Array1OfReal.hxx>
 #include <Adaptor3d_HCurve.hxx>
@@ -37,7 +37,7 @@
 #include <Geom_TrimmedCurve.hxx>
 #include <GeomAPI_ProjectPointOnCurve.hxx>
 #include <GeomAdaptor_Curve.hxx>
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Precision.hxx>
 
 

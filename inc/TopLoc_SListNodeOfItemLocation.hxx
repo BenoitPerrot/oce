@@ -6,14 +6,14 @@
 #ifndef _TopLoc_SListNodeOfItemLocation_HeaderFile
 #define _TopLoc_SListNodeOfItemLocation_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TopLoc_SListNodeOfItemLocation.hxx>
 
 #include <TopLoc_SListOfItemLocation.hxx>
 #include <TopLoc_ItemLocation.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class TopLoc_ItemLocation;
 class TopLoc_SListOfItemLocation;
 

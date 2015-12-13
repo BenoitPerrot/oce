@@ -6,13 +6,13 @@
 #ifndef _VrmlConverter_ShadingAspect_HeaderFile
 #define _VrmlConverter_ShadingAspect_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_VrmlConverter_ShadingAspect.hxx>
 
 #include <Handle_Vrml_Material.hxx>
 #include <Vrml_ShapeHints.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class Vrml_Material;
 class Vrml_ShapeHints;

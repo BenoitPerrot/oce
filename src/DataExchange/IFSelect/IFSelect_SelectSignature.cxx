@@ -14,11 +14,11 @@
 #include <IFSelect_Signature.hxx>
 #include <IFSelect_SignCounter.hxx>
 #include <TCollection_AsciiString.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <Interface_Graph.hxx>
 #include <Interface_InterfaceModel.hxx>
 #include <IFSelect_SelectSignature.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IFSelect_SelectSignature)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(IFSelect_SelectExtract),

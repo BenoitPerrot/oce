@@ -20,7 +20,7 @@
 #include <Transfer_FinderProcess.hxx>
 #include <XSControl_WorkSession.hxx>
 #include <IGESControl_Controller.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESControl_Controller)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(XSControl_Controller),

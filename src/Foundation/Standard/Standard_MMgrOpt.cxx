@@ -13,9 +13,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_MMgrOpt.hxx>
-#include <Standard_OutOfMemory.hxx>
-#include <Standard_Assert.hxx>
+#include <Foundation/Standard/Standard_MMgrOpt.hxx>
+#include <Foundation/Standard/Standard_OutOfMemory.hxx>
+#include <Foundation/Standard/Standard_Assert.hxx>
 
 #include <stdio.h>
 

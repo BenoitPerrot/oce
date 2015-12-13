@@ -6,19 +6,19 @@
 #ifndef _TopOpeBRepTool_REGUW_HeaderFile
 #define _TopOpeBRepTool_REGUW_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TopoDS_Shape.hxx>
 #include <TopOpeBRepTool_CORRISO.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <TopTools_DataMapOfShapeListOfShape.hxx>
 #include <TopOpeBRepTool_IndexedDataMapOfShapeconnexity.hxx>
 #include <TopTools_MapOfShape.hxx>
 #include <TopTools_ListOfShape.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <gp_Pnt2d.hxx>
 #include <TopoDS_Edge.hxx>

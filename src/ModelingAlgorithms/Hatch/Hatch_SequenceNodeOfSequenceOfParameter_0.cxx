@@ -5,7 +5,7 @@
 
 #include <Hatch_SequenceNodeOfSequenceOfParameter.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Hatch_Parameter.hxx>
 #include <Hatch_SequenceOfParameter.hxx>

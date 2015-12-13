@@ -6,7 +6,7 @@
 #ifndef _V3d_TypeOfAxe_HeaderFile
 #define _V3d_TypeOfAxe_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Determines the axis type through the coordinates X, Y, Z.
 enum V3d_TypeOfAxe

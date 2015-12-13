@@ -16,12 +16,12 @@
 
 #include <Bnd_HArray1OfBox2d.hxx>
 #include <TColStd_HArray1OfListOfInteger.hxx>
-#include <Standard_NullValue.hxx>
-#include <Standard_MultiplyDefined.hxx>
+#include <Foundation/Standard/Standard_NullValue.hxx>
+#include <Foundation/Standard/Standard_MultiplyDefined.hxx>
 #include <Bnd_Box2d.hxx>
 #include <TColStd_ListOfInteger.hxx>
 #include <Bnd_BoundSortBox2d.hxx>
-#include <Standard_NullValue.hxx>
+#include <Foundation/Standard/Standard_NullValue.hxx>
 #include <Bnd_Array1OfBox.hxx>
 #include <TColStd_ListIteratorOfListOfInteger.hxx>
 #include <TColStd_DataMapIteratorOfDataMapOfIntegerInteger.hxx>

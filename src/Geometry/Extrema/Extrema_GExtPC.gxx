@@ -23,7 +23,7 @@
 #include TheVector_hxx
 #include TheExtPElC_hxx
 #include <StdFail_NotDone.hxx>
-#include <Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
 #include <GeomAbs_CurveType.hxx>
 #include <Precision.hxx>
 #include <ElCLib.hxx>

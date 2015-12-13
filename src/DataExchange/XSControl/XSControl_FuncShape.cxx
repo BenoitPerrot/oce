@@ -15,8 +15,8 @@
 #include <TopTools_HSequenceOfShape.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <XSControl_FuncShape.hxx>
-#include <Standard_ErrorHandler.hxx>
-#include <Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
 
 #include <XSControl.hxx>
 #include <XSControl_Controller.hxx>

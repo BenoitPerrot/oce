@@ -16,9 +16,9 @@
 
 //=======================================================================
 #include <StlMesh_Mesh.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_NoMoreObject.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoMoreObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <StlMesh_MeshExplorer.hxx>
 #include <StlMesh_MeshTriangle.hxx>
 

@@ -30,7 +30,7 @@
 #include <BRepPrim_Sphere.hxx>
 #include <BRepPrim_Builder.hxx>
 #include <Foundation/NCollection/NCollection_Vector.hxx>
-#include <Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
 
 #ifdef _MSC_VER
 #define _CRT_SECURE_NO_DEPRECATE

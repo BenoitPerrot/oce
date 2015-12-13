@@ -16,8 +16,8 @@
 #ifndef _Graphic3d_CGraduatedTrihedron_HeaderFile
 #define _Graphic3d_CGraduatedTrihedron_HeaderFile
 
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <TCollection_ExtendedString.hxx>

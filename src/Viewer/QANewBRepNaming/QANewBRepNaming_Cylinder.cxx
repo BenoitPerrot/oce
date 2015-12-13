@@ -17,7 +17,7 @@
 #include <BRepPrimAPI_MakeCylinder.hxx>
 #include <QANewBRepNaming_Cylinder.hxx>
 #include <TNaming_Builder.hxx>
-#include <Standard_NullObject.hxx>
+#include <Foundation/Standard/Standard_NullObject.hxx>
 #include <TopoDS_Solid.hxx>
 #ifdef OCCT_DEBUG
 #include <TDataStd_Name.hxx>

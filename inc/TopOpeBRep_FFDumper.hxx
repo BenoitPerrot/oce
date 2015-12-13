@@ -6,17 +6,17 @@
 #ifndef _TopOpeBRep_FFDumper_HeaderFile
 #define _TopOpeBRep_FFDumper_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TopOpeBRep_FFDumper.hxx>
 
 #include <TopOpeBRep_PFacesFiller.hxx>
 #include <TopoDS_Face.hxx>
 #include <TopTools_DataMapOfShapeInteger.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <TopOpeBRepDS_Kind.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class TopOpeBRep_LineInter;
 class TopOpeBRep_VPointInter;
 class TopoDS_Shape;

@@ -6,13 +6,13 @@
 #ifndef _TopOpeBRepBuild_Pave_HeaderFile
 #define _TopOpeBRepBuild_Pave_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TopOpeBRepBuild_Pave.hxx>
 
 #include <TopoDS_Shape.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <TopOpeBRepDS_Kind.hxx>
 #include <TopOpeBRepBuild_Loop.hxx>
 class TopoDS_Shape;

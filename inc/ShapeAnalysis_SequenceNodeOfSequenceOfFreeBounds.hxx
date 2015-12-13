@@ -6,8 +6,8 @@
 #ifndef _ShapeAnalysis_SequenceNodeOfSequenceOfFreeBounds_HeaderFile
 #define _ShapeAnalysis_SequenceNodeOfSequenceOfFreeBounds_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ShapeAnalysis_SequenceNodeOfSequenceOfFreeBounds.hxx>
 
 #include <Handle_ShapeAnalysis_FreeBoundData.hxx>

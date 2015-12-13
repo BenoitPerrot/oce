@@ -6,7 +6,7 @@
 #ifndef _GProp_ValueType_HeaderFile
 #define _GProp_ValueType_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Algorithmes :
 enum GProp_ValueType

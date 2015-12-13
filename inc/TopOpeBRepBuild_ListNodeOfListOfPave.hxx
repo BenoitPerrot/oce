@@ -6,8 +6,8 @@
 #ifndef _TopOpeBRepBuild_ListNodeOfListOfPave_HeaderFile
 #define _TopOpeBRepBuild_ListNodeOfListOfPave_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TopOpeBRepBuild_ListNodeOfListOfPave.hxx>
 
 #include <Handle_TopOpeBRepBuild_Pave.hxx>

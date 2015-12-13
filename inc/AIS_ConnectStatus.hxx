@@ -6,7 +6,7 @@
 #ifndef _AIS_ConnectStatus_HeaderFile
 #define _AIS_ConnectStatus_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Gives the status of connection of an Interactive
 //! Object. This will be one of the following:

@@ -6,11 +6,11 @@
 #ifndef _MAT2d_DataMapNodeOfDataMapOfIntegerBisec_HeaderFile
 #define _MAT2d_DataMapNodeOfDataMapOfIntegerBisec_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_MAT2d_DataMapNodeOfDataMapOfIntegerBisec.hxx>
 
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Bisector_Bisec.hxx>
 #include <TCollection_MapNode.hxx>
 #include <TCollection_MapNodePtr.hxx>
@@ -53,7 +53,7 @@ private:
 };
 
 #define TheKey Standard_Integer
-#define TheKey_hxx <Standard_Integer.hxx>
+#define TheKey_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheItem Bisector_Bisec
 #define TheItem_hxx <Bisector_Bisec.hxx>
 #define Hasher TColStd_MapIntegerHasher

@@ -12,8 +12,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_GUID.hxx>
-#include <Standard_UUID.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_UUID.hxx>
 
 //void Standard_GUID::Assign(const Standard_UUID& uid) 
 void Standard_GUID::Assign(const Standard_UUID& ) 

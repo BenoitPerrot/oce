@@ -1,4 +1,4 @@
-#include <Standard_StdAllocator.hxx>
+#include <Foundation/Standard/Standard_StdAllocator.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Solid.hxx>
 #include <BRepPrimAPI_MakeBox.hxx>

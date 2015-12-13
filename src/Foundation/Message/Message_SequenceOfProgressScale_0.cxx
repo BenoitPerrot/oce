@@ -5,8 +5,8 @@
 
 #include <Foundation/Message/Message_SequenceOfProgressScale.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Message/Message_ProgressScale.hxx>
 #include <Foundation/Message/Message_SequenceNodeOfSequenceOfProgressScale.hxx>
  

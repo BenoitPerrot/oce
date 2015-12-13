@@ -6,16 +6,16 @@
 #ifndef _TopOpeBRepBuild_VertexInfo_HeaderFile
 #define _TopOpeBRepBuild_VertexInfo_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TopoDS_Vertex.hxx>
 #include <TopoDS_Edge.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <TopTools_IndexedMapOfOrientedShape.hxx>
 #include <TopTools_ListOfShape.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class TopoDS_Vertex;
 class TopoDS_Edge;
 class TopTools_IndexedMapOfOrientedShape;

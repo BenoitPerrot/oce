@@ -18,8 +18,8 @@
 #include <NIS_InteractiveContext.hxx>
 #include <NIS_InteractiveObject.hxx>
 #include <TColStd_MapIteratorOfPackedMapOfInteger.hxx>
-#include <Standard_TypeMismatch.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_TypeMismatch.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 
 IMPLEMENT_STANDARD_HANDLE  (NIS_Drawer, Standard_Transient)
 IMPLEMENT_STANDARD_RTTIEXT (NIS_Drawer, Standard_Transient)

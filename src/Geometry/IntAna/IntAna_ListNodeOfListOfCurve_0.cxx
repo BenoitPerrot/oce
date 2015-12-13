@@ -5,7 +5,7 @@
 
 #include <IntAna_ListNodeOfListOfCurve.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <IntAna_Curve.hxx>
 #include <IntAna_ListOfCurve.hxx>

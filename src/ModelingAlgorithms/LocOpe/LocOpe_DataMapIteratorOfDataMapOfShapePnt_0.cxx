@@ -5,7 +5,7 @@
 
 #include <LocOpe_DataMapIteratorOfDataMapOfShapePnt.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopoDS_Shape.hxx>
 #include <gp_Pnt.hxx>
 #include <TopTools_ShapeMapHasher.hxx>

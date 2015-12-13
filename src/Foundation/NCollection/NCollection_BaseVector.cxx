@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/NCollection/NCollection_BaseVector.hxx>
-#include <Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
 #include <cstdlib>
 
 //=======================================================================

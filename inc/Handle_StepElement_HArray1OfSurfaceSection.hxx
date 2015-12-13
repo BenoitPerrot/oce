@@ -6,8 +6,8 @@
 #ifndef _Handle_StepElement_HArray1OfSurfaceSection_HeaderFile
 #define _Handle_StepElement_HArray1OfSurfaceSection_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_MMgt_TShared.hxx>
 
 class Standard_Transient;

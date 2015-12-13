@@ -6,12 +6,12 @@
 #ifndef _TopTools_DataMapIteratorOfDataMapOfShapeReal_HeaderFile
 #define _TopTools_DataMapIteratorOfDataMapOfShapeReal_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TCollection_BasicMapIterator.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_TopTools_DataMapNodeOfDataMapOfShapeReal.hxx>
 class Standard_NoSuchObject;
 class TopoDS_Shape;

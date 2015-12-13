@@ -6,15 +6,15 @@
 #ifndef _IGESSolid_SphericalSurface_HeaderFile
 #define _IGESSolid_SphericalSurface_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESSolid_SphericalSurface.hxx>
 
 #include <Handle_IGESGeom_Point.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_IGESGeom_Direction.hxx>
 #include <IGESData_IGESEntity.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class IGESGeom_Point;
 class IGESGeom_Direction;
 class gp_Pnt;

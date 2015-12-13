@@ -6,14 +6,14 @@
 #ifndef _IGESGraph_HArray1OfTextDisplayTemplate_HeaderFile
 #define _IGESGraph_HArray1OfTextDisplayTemplate_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESGraph_HArray1OfTextDisplayTemplate.hxx>
 
 #include <IGESGraph_Array1OfTextDisplayTemplate.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_IGESGraph_TextDisplayTemplate.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_DimensionMismatch;
 class Standard_OutOfRange;

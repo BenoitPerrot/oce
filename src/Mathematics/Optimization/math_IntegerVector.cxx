@@ -18,8 +18,8 @@
 
 #include <math_IntegerVector.hxx>
 
-#include <Standard_DimensionError.hxx>
-#include <Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_DimensionError.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
 
 math_IntegerVector::math_IntegerVector(const Standard_Integer theFirst, const Standard_Integer theLast) :
   FirstIndex(theFirst),

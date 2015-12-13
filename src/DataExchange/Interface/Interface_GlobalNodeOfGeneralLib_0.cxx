@@ -5,12 +5,12 @@
 
 #include <Interface_GlobalNodeOfGeneralLib.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Interface_GeneralModule.hxx>
 #include <Interface_Protocol.hxx>
 #include <Interface_GlobalNodeOfGeneralLib.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <Interface_GeneralLib.hxx>
 #include <Interface_NodeOfGeneralLib.hxx>
 
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(Interface_GlobalNodeOfGeneralLib)
 
 
 #define TheObject Handle(Standard_Transient)
-#define TheObject_hxx <Standard_Transient.hxx>
+#define TheObject_hxx <Foundation/Standard/Standard_Transient.hxx>
 #define Handle_TheModule Handle_Interface_GeneralModule
 #define TheModule Interface_GeneralModule
 #define TheModule_hxx <Interface_GeneralModule.hxx>

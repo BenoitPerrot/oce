@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_DimensionMismatch.hxx>
+#include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Plate_SequenceOfPinpointConstraint.hxx>
 #include <Plate_LinearXYZConstraint.hxx>
 #include <Plate_SampledCurveConstraint.hxx>

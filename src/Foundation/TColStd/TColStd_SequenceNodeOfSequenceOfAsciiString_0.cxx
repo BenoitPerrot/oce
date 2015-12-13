@@ -5,7 +5,7 @@
 
 #include <TColStd_SequenceNodeOfSequenceOfAsciiString.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TCollection_AsciiString.hxx>
 #include <TColStd_SequenceOfAsciiString.hxx>

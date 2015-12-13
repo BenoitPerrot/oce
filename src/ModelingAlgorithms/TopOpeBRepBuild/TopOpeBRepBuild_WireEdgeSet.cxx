@@ -38,7 +38,7 @@ static TCollection_AsciiString PRODINS("dins ");
 #include <Precision.hxx>
 #include <gp_Dir2d.hxx>
 #include <TopAbs.hxx>
-#include <Standard_ProgramError.hxx>
+#include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <Geom_Curve.hxx>
 #include <Geom_Surface.hxx>
 #include <GeomAPI_ProjectPointOnSurf.hxx>

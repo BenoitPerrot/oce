@@ -16,8 +16,8 @@
 #ifndef _BRepMesh_WireInterferenceChecker_HeaderFile
 #define _BRepMesh_WireInterferenceChecker_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_Mutex.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_Mutex.hxx>
 #include <BRepMesh_WireChecker.hxx>
 #include <BRepMesh_Status.hxx>
 

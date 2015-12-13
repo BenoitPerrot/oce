@@ -5,15 +5,15 @@
 
 #include <TDF_IDMap.hxx>
 
-#include <Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
 #include <TDF_StdMapNodeOfIDMap.hxx>
 #include <TDF_MapIteratorOfIDMap.hxx>
  
 
 #define TheKey Standard_GUID
-#define TheKey_hxx <Standard_GUID.hxx>
+#define TheKey_hxx <Foundation/Standard/Standard_GUID.hxx>
 #define Hasher Standard_GUID
-#define Hasher_hxx <Standard_GUID.hxx>
+#define Hasher_hxx <Foundation/Standard/Standard_GUID.hxx>
 #define TCollection_StdMapNode TDF_StdMapNodeOfIDMap
 #define TCollection_StdMapNode_hxx <TDF_StdMapNodeOfIDMap.hxx>
 #define TCollection_MapIterator TDF_MapIteratorOfIDMap

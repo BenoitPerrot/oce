@@ -6,8 +6,8 @@
 #include <HLRBRep_CLProps.hxx>
 
 #include <LProp_BadContinuity.hxx>
-#include <Standard_DomainError.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <LProp_NotDefined.hxx>
 #include <gp_Vec2d.hxx>
 #include <gp_Pnt2d.hxx>
@@ -16,7 +16,7 @@
  
 
 #define Curve Standard_Address
-#define Curve_hxx <Standard_Address.hxx>
+#define Curve_hxx <Foundation/Standard/Standard_Address.hxx>
 #define Vec gp_Vec2d
 #define Vec_hxx <gp_Vec2d.hxx>
 #define Pnt gp_Pnt2d

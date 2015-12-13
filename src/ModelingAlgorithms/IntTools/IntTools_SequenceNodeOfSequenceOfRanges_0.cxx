@@ -5,7 +5,7 @@
 
 #include <IntTools_SequenceNodeOfSequenceOfRanges.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <IntTools_Range.hxx>
 #include <IntTools_SequenceOfRanges.hxx>

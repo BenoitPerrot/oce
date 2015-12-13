@@ -14,7 +14,7 @@
 #include <StepBasic_ThermodynamicTemperatureUnit.hxx>
 #include <StepBasic_DimensionalExponents.hxx>
 #include <StepBasic_SiUnitAndThermodynamicTemperatureUnit.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepBasic_SiUnitAndThermodynamicTemperatureUnit)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepBasic_SiUnit),

@@ -5,7 +5,7 @@
 
 #include <TopOpeBRepTool_DataMapIteratorOfDataMapOfOrientedShapeC2DF.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopOpeBRepTool_C2DF.hxx>
 #include <TopTools_OrientedShapeMapHasher.hxx>

@@ -16,8 +16,8 @@
 #ifndef _Standard_MMgrOpt_HeaderFile
 #define _Standard_MMgrOpt_HeaderFile
 
-#include <Standard_MMgrRoot.hxx>
-#include <Standard_Mutex.hxx>
+#include <Foundation/Standard/Standard_MMgrRoot.hxx>
+#include <Foundation/Standard/Standard_Mutex.hxx>
 
 /**
 * @brief Open CASCADE memory manager optimized for speed.

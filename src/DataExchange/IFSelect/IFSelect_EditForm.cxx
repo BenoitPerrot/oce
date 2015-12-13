@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <IFSelect_Editor.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <Interface_InterfaceModel.hxx>
 #include <TColStd_SequenceOfInteger.hxx>
 #include <IFSelect_ListEditor.hxx>
@@ -20,7 +20,7 @@
 #include <TColStd_HSequenceOfHAsciiString.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <IFSelect_EditForm.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IFSelect_EditForm)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

@@ -5,8 +5,8 @@
 
 #include <Visual3d_SequenceOfLight.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Visual3d_Light.hxx>
 #include <Visual3d_SequenceNodeOfSequenceOfLight.hxx>
  

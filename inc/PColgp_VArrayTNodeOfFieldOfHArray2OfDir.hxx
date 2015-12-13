@@ -6,13 +6,13 @@
 #ifndef _PColgp_VArrayTNodeOfFieldOfHArray2OfDir_HeaderFile
 #define _PColgp_VArrayTNodeOfFieldOfHArray2OfDir_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <gp_Dir.hxx>
 #include <Handle_PColgp_VArrayNodeOfFieldOfHArray2OfDir.hxx>
-#include <Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
 class gp_Dir;
 class PColgp_FieldOfHArray2OfDir;
 class PColgp_VArrayNodeOfFieldOfHArray2OfDir;

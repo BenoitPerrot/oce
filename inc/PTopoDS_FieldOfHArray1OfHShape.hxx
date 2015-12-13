@@ -6,15 +6,15 @@
 #ifndef _PTopoDS_FieldOfHArray1OfHShape_HeaderFile
 #define _PTopoDS_FieldOfHArray1OfHShape_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <DBC_BaseArray.hxx>
 #include <Handle_PTopoDS_HShape.hxx>
 #include <Handle_PTopoDS_VArrayNodeOfFieldOfHArray1OfHShape.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 class Standard_NegativeValue;
 class Standard_OutOfRange;
 class Standard_DimensionMismatch;

@@ -6,8 +6,8 @@
 #ifndef _TDF_DeltaOnAddition_HeaderFile
 #define _TDF_DeltaOnAddition_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TDF_DeltaOnAddition.hxx>
 
 #include <TDF_AttributeDelta.hxx>

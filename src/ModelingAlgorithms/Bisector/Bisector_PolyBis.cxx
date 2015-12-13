@@ -22,7 +22,7 @@
 #include <ElCLib.hxx>
 #include <gp.hxx>
 
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 
 //=============================================================================
 //function : Bisector_PolyBis

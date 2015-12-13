@@ -14,14 +14,14 @@
 //:k4 abv 30.11.98: TR9: warnings for BWV
 //:n5 abv 15 Feb 99: S4132 complex type bounded_curve + surface_curve
 //:j4 gka 16.03.99 S4134
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <Interface_EntityIterator.hxx>
 #include <Interface_ShareTool.hxx>
 #include <Interface_Check.hxx>
 #include <Interface_CopyTool.hxx>
 #include <TCollection_HAsciiString.hxx>
 #include <RWStepAP214_GeneralModule.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(RWStepAP214_GeneralModule)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepData_GeneralModule),

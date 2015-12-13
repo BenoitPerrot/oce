@@ -6,8 +6,8 @@
 #ifndef _MoniTool_Option_HeaderFile
 #define _MoniTool_Option_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_MoniTool_Option.hxx>
 
 #include <TCollection_AsciiString.hxx>
@@ -16,8 +16,8 @@
 #include <Handle_Dico_DictionaryOfTransient.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_CString.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_TColStd_HSequenceOfAsciiString.hxx>
 class Standard_Type;
 class MoniTool_TypedValue;

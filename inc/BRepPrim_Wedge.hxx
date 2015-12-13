@@ -6,12 +6,12 @@
 #ifndef _BRepPrim_Wedge_HeaderFile
 #define _BRepPrim_Wedge_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <BRepPrim_GWedge.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class Standard_DomainError;
 class gp_Ax2;
 

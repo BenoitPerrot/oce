@@ -6,13 +6,13 @@
 #ifndef _IGESSolid_Ellipsoid_HeaderFile
 #define _IGESSolid_Ellipsoid_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESSolid_Ellipsoid.hxx>
 
 #include <gp_XYZ.hxx>
 #include <IGESData_IGESEntity.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class gp_XYZ;
 class gp_Pnt;
 class gp_Dir;

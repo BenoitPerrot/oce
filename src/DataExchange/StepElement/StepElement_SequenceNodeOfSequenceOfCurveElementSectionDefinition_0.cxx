@@ -5,7 +5,7 @@
 
 #include <StepElement_SequenceNodeOfSequenceOfCurveElementSectionDefinition.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <StepElement_CurveElementSectionDefinition.hxx>
 #include <StepElement_SequenceOfCurveElementSectionDefinition.hxx>

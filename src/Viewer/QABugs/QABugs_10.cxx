@@ -45,7 +45,7 @@
 #include <TopExp.hxx>
 #include <ChFi3d_FilletShape.hxx>
 #include <BRepFilletAPI_MakeFillet.hxx>
-#include <Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
 
 static Standard_Integer OCC426 (Draw_Interpretor& di, Standard_Integer argc, const char ** argv)
 {

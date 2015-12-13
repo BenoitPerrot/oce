@@ -6,14 +6,14 @@
 #ifndef _AIS_BadEdgeFilter_HeaderFile
 #define _AIS_BadEdgeFilter_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_AIS_BadEdgeFilter.hxx>
 
 #include <TopTools_DataMapOfIntegerListOfShape.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <SelectMgr_Filter.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <TopAbs_ShapeEnum.hxx>
 #include <Handle_SelectMgr_EntityOwner.hxx>
 class SelectMgr_EntityOwner;

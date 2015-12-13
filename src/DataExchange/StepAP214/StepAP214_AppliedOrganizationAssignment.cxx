@@ -16,7 +16,7 @@
 #include <StepBasic_OrganizationRole.hxx>
 #include <StepAP214_OrganizationItem.hxx>
 #include <StepAP214_AppliedOrganizationAssignment.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepAP214_AppliedOrganizationAssignment)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepBasic_OrganizationAssignment),

@@ -35,8 +35,8 @@
 #include <Precision.hxx>
 #include <BlendFunc.hxx>
 
-#include <Standard_DomainError.hxx>
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 
 
 BlendFunc_Ruled::BlendFunc_Ruled(const Handle(Adaptor3d_HSurface)& S1,

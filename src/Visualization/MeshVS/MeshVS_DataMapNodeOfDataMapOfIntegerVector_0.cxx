@@ -5,7 +5,7 @@
 
 #include <MeshVS_DataMapNodeOfDataMapOfIntegerVector.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <gp_Vec.hxx>
 #include <TColStd_MapIntegerHasher.hxx>
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_DataMapNodeOfDataMapOfIntegerVector)
 
 
 #define TheKey Standard_Integer
-#define TheKey_hxx <Standard_Integer.hxx>
+#define TheKey_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheItem gp_Vec
 #define TheItem_hxx <gp_Vec.hxx>
 #define Hasher TColStd_MapIntegerHasher

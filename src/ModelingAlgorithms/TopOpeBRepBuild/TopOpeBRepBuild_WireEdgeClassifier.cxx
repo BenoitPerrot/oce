@@ -33,7 +33,7 @@
 #include <BRep_Tool.hxx>
 #include <Geom2d_Curve.hxx>
 #include <BRepClass_FaceClassifier.hxx>
-#include <Standard_ProgramError.hxx>
+#include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <Geom_Curve.hxx>
 #include <Geom_TrimmedCurve.hxx>
 #include <gp_Pnt.hxx>

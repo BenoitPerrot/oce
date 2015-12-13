@@ -6,7 +6,7 @@
 #ifndef _IFSelect_EditValue_HeaderFile
 #define _IFSelect_EditValue_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Controls access on Values by an Editor
 //! EditOptional  : normal access, in addition may be removed

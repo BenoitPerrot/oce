@@ -6,15 +6,15 @@
 #ifndef _IGESData_DirPart_HeaderFile
 #define _IGESData_DirPart_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Integer.hxx>
-#include <Standard_Character.hxx>
-#include <Standard_Storable.hxx>
-#include <Standard_CString.hxx>
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Character.hxx>
+#include <Foundation/Standard/Standard_Storable.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 class IGESData_IGESType;
 
 

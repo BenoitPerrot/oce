@@ -6,7 +6,7 @@
 #ifndef _PCDM_TypeOfFileDriver_HeaderFile
 #define _PCDM_TypeOfFileDriver_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum PCDM_TypeOfFileDriver

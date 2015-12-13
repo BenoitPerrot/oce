@@ -6,18 +6,18 @@
 #ifndef _Bisector_BisecAna_HeaderFile
 #define _Bisector_BisecAna_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Bisector_BisecAna.hxx>
 
 #include <Handle_Geom2d_TrimmedCurve.hxx>
 #include <Bisector_Curve.hxx>
 #include <Handle_Geom2d_Curve.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Geom2d_Point.hxx>
 #include <Handle_GccInt_Bisec.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Geom2d_Geometry.hxx>
 #include <GeomAbs_Shape.hxx>
 class Geom2d_TrimmedCurve;

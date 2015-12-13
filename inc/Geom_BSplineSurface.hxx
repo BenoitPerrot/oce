@@ -6,20 +6,20 @@
 #ifndef _Geom_BSplineSurface_HeaderFile
 #define _Geom_BSplineSurface_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Geom_BSplineSurface.hxx>
 
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <GeomAbs_BSplKnotDistribution.hxx>
 #include <GeomAbs_Shape.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TColgp_HArray2OfPnt.hxx>
 #include <Handle_TColStd_HArray2OfReal.hxx>
 #include <Handle_TColStd_HArray1OfReal.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Mutex.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Mutex.hxx>
 #include <Geom_BoundedSurface.hxx>
 #include <Handle_Geom_Curve.hxx>
 #include <Handle_Geom_Geometry.hxx>

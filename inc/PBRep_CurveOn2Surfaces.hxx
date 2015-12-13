@@ -6,15 +6,15 @@
 #ifndef _PBRep_CurveOn2Surfaces_HeaderFile
 #define _PBRep_CurveOn2Surfaces_HeaderFile
 
-#include <Standard_Macro.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Handle_PBRep_CurveOn2Surfaces.hxx>
 
 #include <Handle_PGeom_Surface.hxx>
 #include <PTopLoc_Location.hxx>
 #include <GeomAbs_Shape.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <PBRep_CurveRepresentation.hxx>
 class PGeom_Surface;
 class Standard_NullObject;

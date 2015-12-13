@@ -5,9 +5,9 @@
 
 #include <ChFiDS_IndexedDataMapOfVertexListOfStripe.hxx>
 
-#include <Standard_DomainError.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <ChFiDS_ListOfStripe.hxx>
 #include <TopTools_ShapeMapHasher.hxx>

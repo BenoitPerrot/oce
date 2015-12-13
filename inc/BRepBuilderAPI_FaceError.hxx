@@ -6,7 +6,7 @@
 #ifndef _BRepBuilderAPI_FaceError_HeaderFile
 #define _BRepBuilderAPI_FaceError_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Indicates the outcome of the
 //! construction of a face, i.e. whether it has been successful or

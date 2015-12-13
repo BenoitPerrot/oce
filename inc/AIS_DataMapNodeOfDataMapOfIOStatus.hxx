@@ -6,8 +6,8 @@
 #ifndef _AIS_DataMapNodeOfDataMapOfIOStatus_HeaderFile
 #define _AIS_DataMapNodeOfDataMapOfIOStatus_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_AIS_DataMapNodeOfDataMapOfIOStatus.hxx>
 
 #include <Handle_AIS_InteractiveObject.hxx>

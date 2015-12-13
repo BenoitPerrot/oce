@@ -6,19 +6,19 @@
 #ifndef _AIS_InteractiveObject_HeaderFile
 #define _AIS_InteractiveObject_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_AIS_InteractiveObject.hxx>
 
 #include <AIS_PToContext.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <TColStd_ListOfTransient.hxx>
 #include <Handle_AIS_Drawer.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Graphic3d_NameOfMaterial.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Aspect_TypeOfFacingModel.hxx>
 #include <TColStd_ListOfInteger.hxx>
 #include <SelectMgr_SelectableObject.hxx>
@@ -28,7 +28,7 @@
 #include <Handle_AIS_InteractiveContext.hxx>
 #include <Handle_Prs3d_Presentation.hxx>
 #include <Handle_Prs3d_BasicAspect.hxx>
-#include <Standard_ShortReal.hxx>
+#include <Foundation/Standard/Standard_ShortReal.hxx>
 class Standard_Transient;
 class AIS_Drawer;
 class AIS_InteractiveContext;

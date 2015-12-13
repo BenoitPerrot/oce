@@ -6,10 +6,10 @@
 #ifndef _OSD_SIGSEGV_HeaderFile
 #define _OSD_SIGSEGV_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard_DefineException.hxx>
-#include <Standard_SStream.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard_DefineException.hxx>
+#include <Foundation/Standard/Standard_SStream.hxx>
 #include <Foundation/OSD/OSD_Signal.hxx>
 #include <Handle_OSD_SIGSEGV.hxx>
 

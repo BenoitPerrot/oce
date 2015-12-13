@@ -13,7 +13,7 @@
 // commercial license or contractual agreement.
 
 #include <gp.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 
 inline gp_Cone::gp_Cone () :
 radius (RealLast()),

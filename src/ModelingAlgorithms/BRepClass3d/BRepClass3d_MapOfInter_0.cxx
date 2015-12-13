@@ -5,8 +5,8 @@
 
 #include <BRepClass3d_MapOfInter.hxx>
 
-#include <Standard_DomainError.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopTools_ShapeMapHasher.hxx>
 #include <BRepClass3d_DataMapNodeOfMapOfInter.hxx>
@@ -16,7 +16,7 @@
 #define TheKey TopoDS_Shape
 #define TheKey_hxx <TopoDS_Shape.hxx>
 #define TheItem Standard_Address
-#define TheItem_hxx <Standard_Address.hxx>
+#define TheItem_hxx <Foundation/Standard/Standard_Address.hxx>
 #define Hasher TopTools_ShapeMapHasher
 #define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode BRepClass3d_DataMapNodeOfMapOfInter

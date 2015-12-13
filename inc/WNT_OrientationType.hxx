@@ -6,7 +6,7 @@
 #ifndef _WNT_OrientationType_HeaderFile
 #define _WNT_OrientationType_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Portrait/landscape orientation.
 enum WNT_OrientationType

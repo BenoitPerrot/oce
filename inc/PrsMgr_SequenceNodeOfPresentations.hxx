@@ -6,8 +6,8 @@
 #ifndef _PrsMgr_SequenceNodeOfPresentations_HeaderFile
 #define _PrsMgr_SequenceNodeOfPresentations_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_PrsMgr_SequenceNodeOfPresentations.hxx>
 
 #include <PrsMgr_ModedPresentation.hxx>

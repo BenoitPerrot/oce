@@ -211,7 +211,7 @@ Standard_Integer OSD_Process::Error()const{
 
 #include <Foundation/OSD/OSD_Path.hxx>
 #include <Foundation/Quantity/Quantity_Date.hxx>
-#include <Standard_PExtCharacter.hxx>
+#include <Foundation/Standard/Standard_PExtCharacter.hxx>
 #include <TCollection_ExtendedString.hxx>
 
 #include <Foundation/OSD/OSD_WNT_1.hxx>

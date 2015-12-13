@@ -5,7 +5,7 @@
 
 #include <MeshVS_MapIteratorOfMapOfTwoNodes.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <MeshVS_TwoNodesHasher.hxx>
 #include <MeshVS_MapOfTwoNodes.hxx>
 #include <MeshVS_StdMapNodeOfMapOfTwoNodes.hxx>

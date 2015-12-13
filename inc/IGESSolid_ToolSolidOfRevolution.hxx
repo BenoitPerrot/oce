@@ -6,15 +6,15 @@
 #ifndef _IGESSolid_ToolSolidOfRevolution_HeaderFile
 #define _IGESSolid_ToolSolidOfRevolution_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_IGESSolid_SolidOfRevolution.hxx>
 #include <Handle_IGESData_IGESReaderData.hxx>
 #include <Handle_Interface_Check.hxx>
 #include <Handle_Message_Messenger.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_DomainError;
 class IGESSolid_SolidOfRevolution;
 class IGESData_IGESReaderData;

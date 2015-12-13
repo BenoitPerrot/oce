@@ -14,9 +14,9 @@
 // commercial license or contractual agreement.
 
 
-#include <Standard_Mutex.hxx>
-#include <Standard_Stream.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Mutex.hxx>
+#include <Foundation/Standard/Standard_Stream.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 #include <Foundation/Message/Message_PrinterOStream.hxx>
 #include <Foundation/Message/Message_Gravity.hxx>
 #include <TCollection_AsciiString.hxx>

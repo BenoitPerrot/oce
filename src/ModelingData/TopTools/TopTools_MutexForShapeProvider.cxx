@@ -15,7 +15,7 @@
 
 #include <TopTools_MutexForShapeProvider.hxx>
 
-#include <Standard_Mutex.hxx>
+#include <Foundation/Standard/Standard_Mutex.hxx>
 #include <TopoDS_Iterator.hxx>
 
 

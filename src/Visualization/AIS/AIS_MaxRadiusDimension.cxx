@@ -17,9 +17,9 @@
 #define BUC60915        //GG 05/06/01 Enable to compute the requested arrow size
 //                      if any in all dimensions.
 
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TCollection_ExtendedString.hxx>
 #include <gp_Pnt.hxx>
@@ -28,7 +28,7 @@
 #include <Geom_Transformation.hxx>
 #include <SelectMgr_Selection.hxx>
 #include <AIS_MaxRadiusDimension.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_MaxRadiusDimension)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(AIS_EllipseRadiusDimension),

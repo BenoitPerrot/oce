@@ -6,13 +6,13 @@
 #ifndef _Graphic3d_ArrayOfQuadrangleStrips_HeaderFile
 #define _Graphic3d_ArrayOfQuadrangleStrips_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Graphic3d_ArrayOfQuadrangleStrips.hxx>
 
 #include <Graphic3d_ArrayOfPrimitives.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 
 
 //! Contains quadrangles strip array definition

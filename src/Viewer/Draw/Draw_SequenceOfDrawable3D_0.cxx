@@ -5,8 +5,8 @@
 
 #include <Draw_SequenceOfDrawable3D.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Draw_Drawable3D.hxx>
 #include <Draw_SequenceNodeOfSequenceOfDrawable3D.hxx>
  

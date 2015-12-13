@@ -32,7 +32,7 @@
 #include <Geom_Surface.hxx>
 #include <TopLoc_Location.hxx>
 #include <Precision.hxx>
-#include <Standard_ProgramError.hxx>
+#include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <Geom2d_Curve.hxx>
 #include <Geom_Curve.hxx>
 #include <TopoDS_Edge.hxx>

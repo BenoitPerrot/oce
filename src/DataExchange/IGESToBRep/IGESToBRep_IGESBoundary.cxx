@@ -21,7 +21,7 @@
 #include <gp_Trsf2d.hxx>
 #include <IGESData_HArray1OfIGESEntity.hxx>
 #include <IGESToBRep_IGESBoundary.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESToBRep_IGESBoundary)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

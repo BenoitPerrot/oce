@@ -5,8 +5,8 @@
 
 #include <IntPatch_SequenceOfSegmentOfTheSOnBounds.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <IntPatch_TheSegmentOfTheSOnBounds.hxx>
 #include <IntPatch_SequenceNodeOfSequenceOfSegmentOfTheSOnBounds.hxx>
  

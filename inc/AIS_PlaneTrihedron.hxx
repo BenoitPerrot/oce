@@ -6,8 +6,8 @@
 #ifndef _AIS_PlaneTrihedron_HeaderFile
 #define _AIS_PlaneTrihedron_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_AIS_PlaneTrihedron.hxx>
 
 #include <Handle_Geom_Plane.hxx>
@@ -16,9 +16,9 @@
 #include <AIS_InteractiveObject.hxx>
 #include <Handle_AIS_Line.hxx>
 #include <Handle_AIS_Point.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <PrsMgr_PresentationManager3d.hxx>
 #include <Handle_Prs3d_Presentation.hxx>
 #include <Handle_Prs3d_Projector.hxx>

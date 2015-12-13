@@ -6,13 +6,13 @@
 #ifndef _TPrsStd_DriverTable_HeaderFile
 #define _TPrsStd_DriverTable_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TPrsStd_DriverTable.hxx>
 
 #include <TPrsStd_DataMapOfGUIDDriver.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_TPrsStd_Driver.hxx>
 class Standard_GUID;
 class TPrsStd_Driver;

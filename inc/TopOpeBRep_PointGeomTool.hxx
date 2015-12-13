@@ -6,11 +6,11 @@
 #ifndef _TopOpeBRep_PointGeomTool_HeaderFile
 #define _TopOpeBRep_PointGeomTool_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class TopOpeBRepDS_Point;
 class TopOpeBRep_VPointInter;
 class TopOpeBRep_Point2d;

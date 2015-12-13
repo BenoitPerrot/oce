@@ -12,13 +12,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_ErrorHandler.hxx>
-#include <Standard_Failure.hxx>
-#include <Standard_Macro.hxx>
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_PCharacter.hxx>
-#include <Standard_Type.hxx>
-#include <Standard_TypeMismatch.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_PCharacter.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
+#include <Foundation/Standard/Standard_TypeMismatch.hxx>
 
 IMPLEMENT_STANDARD_TYPE(Standard_Failure)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

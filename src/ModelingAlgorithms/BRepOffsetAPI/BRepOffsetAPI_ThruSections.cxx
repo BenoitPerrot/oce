@@ -43,7 +43,7 @@
 //              utilisation de BRepFill_CompatibleWires
 
 
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <TopoDS_Wire.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <TopoDS_Shape.hxx>
@@ -52,7 +52,7 @@
 #include <BRepOffsetAPI_ThruSections.hxx>
 
 #include <Precision.hxx>
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 
 #include <gp_Pnt.hxx>
 #include <gp_Pnt2d.hxx>

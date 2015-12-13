@@ -6,16 +6,16 @@
 #ifndef _TDocStd_MultiTransactionManager_HeaderFile
 #define _TDocStd_MultiTransactionManager_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TDocStd_MultiTransactionManager.hxx>
 
 #include <TDocStd_SequenceOfDocument.hxx>
 #include <TDocStd_SequenceOfApplicationDelta.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 #include <Handle_TDocStd_Document.hxx>
 class TDocStd_SequenceOfApplicationDelta;
 class TCollection_ExtendedString;

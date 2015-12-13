@@ -5,14 +5,14 @@
 
 #include <TColStd_SequenceOfTransient.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <TColStd_SequenceNodeOfSequenceOfTransient.hxx>
  
 
 #define SeqItem Handle(Standard_Transient)
-#define SeqItem_hxx <Standard_Transient.hxx>
+#define SeqItem_hxx <Foundation/Standard/Standard_Transient.hxx>
 #define TCollection_SequenceNode TColStd_SequenceNodeOfSequenceOfTransient
 #define TCollection_SequenceNode_hxx <TColStd_SequenceNodeOfSequenceOfTransient.hxx>
 #define Handle_TCollection_SequenceNode Handle_TColStd_SequenceNodeOfSequenceOfTransient

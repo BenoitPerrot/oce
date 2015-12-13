@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <StdFail_NotDone.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <TopoDS_Shape.hxx>
 #include <LocOpe_SequenceOfLin.hxx>
 #include <LocOpe_SequenceOfCirc.hxx>
@@ -32,7 +32,7 @@
 #include <Geom_Circle.hxx>
 
 
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 
 #include <TopoDS.hxx>
 #include <Precision.hxx>

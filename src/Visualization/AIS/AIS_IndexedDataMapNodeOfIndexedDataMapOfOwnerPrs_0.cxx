@@ -5,7 +5,7 @@
 
 #include <AIS_IndexedDataMapNodeOfIndexedDataMapOfOwnerPrs.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <SelectMgr_EntityOwner.hxx>
 #include <Prs3d_Presentation.hxx>

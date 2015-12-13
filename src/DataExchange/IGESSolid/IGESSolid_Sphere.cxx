@@ -19,7 +19,7 @@
 #include <gp_XYZ.hxx>
 #include <gp_Pnt.hxx>
 #include <IGESSolid_Sphere.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESSolid_Sphere)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(IGESData_IGESEntity),

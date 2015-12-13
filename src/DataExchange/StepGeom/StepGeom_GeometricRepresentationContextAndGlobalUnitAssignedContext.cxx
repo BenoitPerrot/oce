@@ -17,7 +17,7 @@
 #include <StepBasic_HArray1OfNamedUnit.hxx>
 #include <StepBasic_NamedUnit.hxx>
 #include <StepGeom_GeometricRepresentationContextAndGlobalUnitAssignedContext.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepGeom_GeometricRepresentationContextAndGlobalUnitAssignedContext)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepRepr_RepresentationContext),

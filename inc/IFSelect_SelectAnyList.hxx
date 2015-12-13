@@ -6,15 +6,15 @@
 #ifndef _IFSelect_SelectAnyList_HeaderFile
 #define _IFSelect_SelectAnyList_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IFSelect_SelectAnyList.hxx>
 
 #include <Handle_IFSelect_IntParam.hxx>
 #include <IFSelect_SelectDeduct.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Standard_Transient.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class IFSelect_IntParam;
 class Standard_OutOfRange;
 class Interface_InterfaceError;

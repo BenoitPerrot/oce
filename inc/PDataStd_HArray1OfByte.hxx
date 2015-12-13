@@ -6,16 +6,16 @@
 #ifndef _PDataStd_HArray1OfByte_HeaderFile
 #define _PDataStd_HArray1OfByte_HeaderFile
 
-#include <Standard_Macro.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Handle_PDataStd_HArray1OfByte.hxx>
 
-#include <Standard_Integer.hxx>
-#include <Standard_Byte.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Byte.hxx>
 #include <PDataStd_FieldOfHArray1OfByte.hxx>
-#include <Standard_Address.hxx>
-#include <Standard_Persistent.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Persistent.hxx>
 #include <Handle_PDataStd_VArrayNodeOfFieldOfHArray1OfByte.hxx>
 class Standard_OutOfRange;
 class Standard_RangeError;
@@ -82,7 +82,7 @@ private:
 };
 
 #define Item Standard_Byte
-#define Item_hxx <Standard_Byte.hxx>
+#define Item_hxx <Foundation/Standard/Standard_Byte.hxx>
 #define PCollection_FieldOfHArray1 PDataStd_FieldOfHArray1OfByte
 #define PCollection_FieldOfHArray1_hxx <PDataStd_FieldOfHArray1OfByte.hxx>
 #define PCollection_VArrayNodeOfFieldOfHArray1 PDataStd_VArrayNodeOfFieldOfHArray1OfByte

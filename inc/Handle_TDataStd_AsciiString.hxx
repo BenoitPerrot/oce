@@ -6,8 +6,8 @@
 #ifndef _Handle_TDataStd_AsciiString_HeaderFile
 #define _Handle_TDataStd_AsciiString_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TDF_Attribute.hxx>
 
 class Standard_Transient;

@@ -12,11 +12,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard.hxx>
-#include <Standard_NegativeValue.hxx>
-#include <Standard_NumericError.hxx>
-#include <Standard_NullObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_NegativeValue.hxx>
+#include <Foundation/Standard/Standard_NumericError.hxx>
+#include <Foundation/Standard/Standard_NullObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 
 #include <TCollection_HAsciiString.hxx>
 #include <TCollection_AsciiString.hxx>

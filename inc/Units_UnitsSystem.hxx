@@ -6,16 +6,16 @@
 #ifndef _Units_UnitsSystem_HeaderFile
 #define _Units_UnitsSystem_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Units_UnitsSystem.hxx>
 
 #include <Handle_Units_QuantitiesSequence.hxx>
 #include <Handle_TColStd_HSequenceOfInteger.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_CString.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class Units_QuantitiesSequence;
 class TColStd_HSequenceOfInteger;
 class Units_NoSuchUnit;

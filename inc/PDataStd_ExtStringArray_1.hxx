@@ -6,14 +6,14 @@
 #ifndef _PDataStd_ExtStringArray_1_HeaderFile
 #define _PDataStd_ExtStringArray_1_HeaderFile
 
-#include <Standard_Macro.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Handle_PDataStd_ExtStringArray_1.hxx>
 
 #include <Handle_PCollection_HExtendedString.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_PColStd_HArray1OfExtendedString.hxx>
 #include <PDF_Attribute.hxx>
 class PCollection_HExtendedString;

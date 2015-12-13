@@ -18,7 +18,7 @@
 #include <gp_Lin2d.hxx>
 #include <gp_Circ2d.hxx>
 
-#include <Standard_TypeMismatch.hxx>
+#include <Foundation/Standard/Standard_TypeMismatch.hxx>
 
 #include <BRepLib_MakeEdge.hxx>
 #include <BRepLib_MakeWire.hxx>

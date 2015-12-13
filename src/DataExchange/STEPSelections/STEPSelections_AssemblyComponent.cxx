@@ -17,7 +17,7 @@
 #include <StepShape_ShapeDefinitionRepresentation.hxx>
 #include <STEPSelections_HSequenceOfAssemblyLink.hxx>
 #include <STEPSelections_AssemblyComponent.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(STEPSelections_AssemblyComponent)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

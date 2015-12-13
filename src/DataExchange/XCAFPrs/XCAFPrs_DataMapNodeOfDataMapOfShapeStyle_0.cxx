@@ -5,7 +5,7 @@
 
 #include <XCAFPrs_DataMapNodeOfDataMapOfShapeStyle.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TopoDS_Shape.hxx>
 #include <XCAFPrs_Style.hxx>

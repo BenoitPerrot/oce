@@ -14,10 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_Macro.hxx>
-#include <Standard_Stream.hxx>
-#include <Standard_SStream.hxx>
-#include <Standard_Version.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_Stream.hxx>
+#include <Foundation/Standard/Standard_SStream.hxx>
+#include <Foundation/Standard/Standard_Version.hxx>
 
 #include <TCollection_AsciiString.hxx>
 #include <Draw_Drawable3D.hxx>

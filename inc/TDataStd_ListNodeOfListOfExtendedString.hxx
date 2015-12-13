@@ -6,8 +6,8 @@
 #ifndef _TDataStd_ListNodeOfListOfExtendedString_HeaderFile
 #define _TDataStd_ListNodeOfListOfExtendedString_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TDataStd_ListNodeOfListOfExtendedString.hxx>
 
 #include <TCollection_ExtendedString.hxx>

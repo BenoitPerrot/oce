@@ -5,7 +5,7 @@
 
 #include <GeomInt_SequenceNodeOfSequenceOfParameterAndOrientation.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <GeomInt_ParameterAndOrientation.hxx>
 #include <GeomInt_SequenceOfParameterAndOrientation.hxx>

@@ -32,7 +32,7 @@
 #include <OpenGl_Caps.hxx>
 #include <OpenGl_Vec.hxx>
 #include <OpenGl_Resource.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <Handle_OpenGl_Context.hxx>
 #include <OpenGl_Clipping.hxx>

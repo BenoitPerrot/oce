@@ -6,8 +6,8 @@
 #ifndef _Handle_StepShape_FaceOuterBound_HeaderFile
 #define _Handle_StepShape_FaceOuterBound_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepShape_FaceBound.hxx>
 
 class Standard_Transient;

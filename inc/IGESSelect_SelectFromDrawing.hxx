@@ -6,8 +6,8 @@
 #ifndef _IGESSelect_SelectFromDrawing_HeaderFile
 #define _IGESSelect_SelectFromDrawing_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESSelect_SelectFromDrawing.hxx>
 
 #include <IFSelect_SelectDeduct.hxx>

@@ -6,12 +6,12 @@
 #ifndef _TColStd_IndexedDataMapNodeOfIndexedDataMapOfTransientTransient_HeaderFile
 #define _TColStd_IndexedDataMapNodeOfIndexedDataMapOfTransientTransient_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TColStd_IndexedDataMapNodeOfIndexedDataMapOfTransientTransient.hxx>
 
 #include <Handle_Standard_Transient.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <TCollection_MapNodePtr.hxx>
 #include <TCollection_MapNode.hxx>
 class Standard_Transient;
@@ -58,9 +58,9 @@ private:
 };
 
 #define TheKey Handle(Standard_Transient)
-#define TheKey_hxx <Standard_Transient.hxx>
+#define TheKey_hxx <Foundation/Standard/Standard_Transient.hxx>
 #define TheItem Handle(Standard_Transient)
-#define TheItem_hxx <Standard_Transient.hxx>
+#define TheItem_hxx <Foundation/Standard/Standard_Transient.hxx>
 #define Hasher TColStd_MapTransientHasher
 #define Hasher_hxx <TColStd_MapTransientHasher.hxx>
 #define TCollection_IndexedDataMapNode TColStd_IndexedDataMapNodeOfIndexedDataMapOfTransientTransient

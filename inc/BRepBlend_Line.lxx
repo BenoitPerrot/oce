@@ -13,7 +13,7 @@
 // commercial license or contractual agreement.
 
 #include <Blend_SequenceOfPoint.hxx>
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 
 
 inline void BRepBlend_Line::Append(const Blend_Point& P)

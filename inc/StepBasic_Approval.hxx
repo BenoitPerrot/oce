@@ -6,8 +6,8 @@
 #ifndef _StepBasic_Approval_HeaderFile
 #define _StepBasic_Approval_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepBasic_Approval.hxx>
 
 #include <Handle_StepBasic_ApprovalStatus.hxx>

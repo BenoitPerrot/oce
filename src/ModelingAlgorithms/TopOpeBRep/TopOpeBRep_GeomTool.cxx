@@ -28,7 +28,7 @@
 #include <TColStd_Array1OfInteger.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>
-#include <Standard_ProgramError.hxx>
+#include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <TopOpeBRep_WPointInter.hxx>
 #include <TopOpeBRep_WPointInterIterator.hxx>
 #include <TopOpeBRepTool_CurveTool.hxx>

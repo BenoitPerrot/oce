@@ -14,13 +14,13 @@
 #ifndef _BRepMesh_DataStructureOfDelaun_HeaderFile
 #define _BRepMesh_DataStructureOfDelaun_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <BRepMesh_VertexTool.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <BRepMesh_Triangle.hxx>
 #include <BRepMesh_PairOfIndex.hxx>
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 #include <BRepMesh.hxx>
 
 class BRepMesh_Vertex;

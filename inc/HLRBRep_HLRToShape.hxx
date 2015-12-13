@@ -6,14 +6,14 @@
 #ifndef _HLRBRep_HLRToShape_HeaderFile
 #define _HLRBRep_HLRToShape_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_HLRBRep_Algo.hxx>
 #include <TopoDS_Shape.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_HLRBRep_Data.hxx>
 class HLRBRep_Algo;
 class TopoDS_Shape;

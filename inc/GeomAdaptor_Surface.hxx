@@ -6,18 +6,18 @@
 #ifndef _GeomAdaptor_Surface_HeaderFile
 #define _GeomAdaptor_Surface_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_Geom_Surface.hxx>
 #include <GeomAbs_SurfaceType.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Adaptor3d_Surface.hxx>
 #include <GeomAbs_Shape.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Adaptor3d_HSurface.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Geom_BezierSurface.hxx>
 #include <Handle_Geom_BSplineSurface.hxx>
 #include <Handle_Adaptor3d_HCurve.hxx>

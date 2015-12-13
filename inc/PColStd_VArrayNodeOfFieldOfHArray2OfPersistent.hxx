@@ -6,12 +6,12 @@
 #ifndef _PColStd_VArrayNodeOfFieldOfHArray2OfPersistent_HeaderFile
 #define _PColStd_VArrayNodeOfFieldOfHArray2OfPersistent_HeaderFile
 
-#include <Standard_Macro.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Handle_PColStd_VArrayNodeOfFieldOfHArray2OfPersistent.hxx>
 
-#include <Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
 #include <Handle_Standard_Persistent.hxx>
 #include <PStandard_ArrayNode.hxx>
 class Standard_Persistent;

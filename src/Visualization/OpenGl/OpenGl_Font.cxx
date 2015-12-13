@@ -16,7 +16,7 @@
 #include <OpenGl_Font.hxx>
 
 #include <OpenGl_Context.hxx>
-#include <Standard_Assert.hxx>
+#include <Foundation/Standard/Standard_Assert.hxx>
 #include <TCollection_ExtendedString.hxx>
 
 IMPLEMENT_STANDARD_HANDLE (OpenGl_Font, OpenGl_Resource)

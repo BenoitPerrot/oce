@@ -18,7 +18,7 @@
 #include <TopoDS_Face.hxx>
 #include <TopOpeBRepTool_face.hxx>
 #include <TopOpeBRepTool_define.hxx>
-#include <Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
 #include <TopoDS.hxx>
 #include <BRep_Tool.hxx>
 #include <Precision.hxx>

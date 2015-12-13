@@ -17,7 +17,7 @@
 #define BUC60915        //GG 05/06/01 Enable to compute the requested arrow size
 //                      if any in all dimensions.
 
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 
 #include <TopoDS_Shape.hxx>
 #include <Geom_Plane.hxx>
@@ -33,7 +33,7 @@
 #include <gp_Lin.hxx>
 #include <gp_Circ.hxx>
 #include <AIS_FixRelation.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_FixRelation)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(AIS_Relation),
@@ -85,7 +85,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_FixRelation)
 
 #include <Precision.hxx>
 
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 
 #include <DsgPrs_FixPresentation.hxx>
 

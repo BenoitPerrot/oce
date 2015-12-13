@@ -5,7 +5,7 @@
 
 #include <PColgp_VArrayNodeOfFieldOfHArray1OfPnt.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <gp_Pnt.hxx>
 #include <PColgp_FieldOfHArray1OfPnt.hxx>

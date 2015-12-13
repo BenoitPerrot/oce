@@ -6,7 +6,7 @@
 #ifndef _Aspect_TypeOfFacingModel_HeaderFile
 #define _Aspect_TypeOfFacingModel_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum Aspect_TypeOfFacingModel

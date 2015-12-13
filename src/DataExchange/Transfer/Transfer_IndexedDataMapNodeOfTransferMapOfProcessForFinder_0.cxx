@@ -5,7 +5,7 @@
 
 #include <Transfer_IndexedDataMapNodeOfTransferMapOfProcessForFinder.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Transfer_Finder.hxx>
 #include <Transfer_Binder.hxx>

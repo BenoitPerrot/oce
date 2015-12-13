@@ -13,9 +13,9 @@
 
 #include <Transfer_TransferFailure.hxx>
 #include <TopoDS_Shape.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 #include <TransferBRep_BinderOfShape.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TransferBRep_BinderOfShape)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Transfer_Binder),

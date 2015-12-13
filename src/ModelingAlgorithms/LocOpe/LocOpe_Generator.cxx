@@ -18,8 +18,8 @@
 
 #include <LocOpe_GeneratedShape.hxx>
 #include <StdFail_NotDone.hxx>
-#include <Standard_NullObject.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NullObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <TopoDS_Face.hxx>

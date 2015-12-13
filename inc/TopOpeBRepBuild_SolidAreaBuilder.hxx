@@ -6,12 +6,12 @@
 #ifndef _TopOpeBRepBuild_SolidAreaBuilder_HeaderFile
 #define _TopOpeBRepBuild_SolidAreaBuilder_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TopOpeBRepBuild_Area3dBuilder.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class TopOpeBRepBuild_LoopSet;
 class TopOpeBRepBuild_LoopClassifier;
 

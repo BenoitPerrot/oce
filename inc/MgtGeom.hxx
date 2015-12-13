@@ -6,9 +6,9 @@
 #ifndef _MgtGeom_HeaderFile
 #define _MgtGeom_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_Geom_Axis1Placement.hxx>
 #include <Handle_PGeom_Axis1Placement.hxx>

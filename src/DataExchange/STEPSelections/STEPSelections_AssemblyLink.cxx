@@ -15,10 +15,10 @@
 // commercial license or contractual agreement.
 
 #include <StepRepr_NextAssemblyUsageOccurrence.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <STEPSelections_AssemblyComponent.hxx>
 #include <STEPSelections_AssemblyLink.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(STEPSelections_AssemblyLink)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

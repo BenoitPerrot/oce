@@ -19,11 +19,11 @@
 
 #include <PLib_Base.hxx>
 #include <TColStd_HArray1OfReal.hxx>
-#include <Standard_DimensionError.hxx>
+#include <Foundation/Standard/Standard_DimensionError.hxx>
 #include <TColStd_Array1OfReal.hxx>
 #include <TColStd_Array2OfReal.hxx>
 #include <FEmTool_Curve.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(FEmTool_Curve)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

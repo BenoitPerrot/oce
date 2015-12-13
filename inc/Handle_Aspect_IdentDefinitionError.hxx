@@ -6,8 +6,8 @@
 #ifndef _Handle_Aspect_IdentDefinitionError_HeaderFile
 #define _Handle_Aspect_IdentDefinitionError_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Standard_OutOfRange.hxx>
 
 class Standard_Transient;

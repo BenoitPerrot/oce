@@ -11,14 +11,14 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Interface_Graph.hxx>
 #include <Interface_InterfaceModel.hxx>
 #include <Interface_GeneralLib.hxx>
 #include <Interface_Protocol.hxx>
 #include <Interface_GTool.hxx>
 #include <Interface_HGraph.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Interface_HGraph)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

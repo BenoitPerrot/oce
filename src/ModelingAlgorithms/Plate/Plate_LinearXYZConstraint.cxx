@@ -16,8 +16,8 @@
 
 #include <Plate_HArray1OfPinpointConstraint.hxx>
 #include <TColStd_HArray2OfReal.hxx>
-#include <Standard_DimensionMismatch.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_DimensionMismatch.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Plate_Array1OfPinpointConstraint.hxx>
 #include <TColStd_Array1OfReal.hxx>
 #include <TColStd_Array2OfReal.hxx>

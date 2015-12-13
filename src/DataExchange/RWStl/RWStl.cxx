@@ -22,8 +22,8 @@
 #include <Foundation/OSD/OSD_File.hxx>
 #include <Foundation/Message/Message_ProgressSentry.hxx>
 #include <TCollection_AsciiString.hxx>
-#include <Standard_NoMoreObject.hxx>
-#include <Standard_TypeMismatch.hxx>
+#include <Foundation/Standard/Standard_NoMoreObject.hxx>
+#include <Foundation/Standard/Standard_TypeMismatch.hxx>
 #include <Precision.hxx>
 #include <StlMesh_MeshExplorer.hxx>
 #include <Foundation/OSD/OSD.hxx>

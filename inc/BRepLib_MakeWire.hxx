@@ -6,9 +6,9 @@
 #ifndef _BRepLib_MakeWire_HeaderFile
 #define _BRepLib_MakeWire_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <BRepLib_WireError.hxx>
 #include <TopoDS_Edge.hxx>

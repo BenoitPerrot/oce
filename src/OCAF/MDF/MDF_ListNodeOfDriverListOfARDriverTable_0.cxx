@@ -5,7 +5,7 @@
 
 #include <MDF_ListNodeOfDriverListOfARDriverTable.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <MDF_ARDriver.hxx>
 #include <MDF_DriverListOfARDriverTable.hxx>

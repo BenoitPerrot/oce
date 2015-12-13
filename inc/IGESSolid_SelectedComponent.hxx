@@ -6,8 +6,8 @@
 #ifndef _IGESSolid_SelectedComponent_HeaderFile
 #define _IGESSolid_SelectedComponent_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESSolid_SelectedComponent.hxx>
 
 #include <Handle_IGESSolid_BooleanTree.hxx>

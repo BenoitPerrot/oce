@@ -6,9 +6,9 @@
 #ifndef _BOPAlgo_Tools_HeaderFile
 #define _BOPAlgo_Tools_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <BOPCol_IndexedDataMapOfIntegerListOfInteger.hxx>
 #include <BOPCol_DataMapOfIntegerListOfInteger.hxx>
@@ -16,7 +16,7 @@
 #include <BOPDS_IndexedDataMapOfPaveBlockListOfPaveBlock.hxx>
 #include <BOPDS_DataMapOfIntegerListOfPaveBlock.hxx>
 #include <BOPDS_PDS.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_BOPDS_PaveBlock.hxx>
 #include <BOPDS_IndexedDataMapOfPaveBlockListOfInteger.hxx>
 class BOPDS_PaveBlock;

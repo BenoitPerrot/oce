@@ -6,13 +6,13 @@
 #ifndef _AIS_EllipseRadiusDimension_HeaderFile
 #define _AIS_EllipseRadiusDimension_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_AIS_EllipseRadiusDimension.hxx>
 
 #include <gp_Elips.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Geom_OffsetCurve.hxx>
 #include <AIS_Relation.hxx>
 #include <AIS_KindOfDimension.hxx>

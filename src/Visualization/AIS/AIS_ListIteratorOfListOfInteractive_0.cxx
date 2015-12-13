@@ -5,8 +5,8 @@
 
 #include <AIS_ListIteratorOfListOfInteractive.hxx>
 
-#include <Standard_NoMoreObject.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoMoreObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <AIS_ListOfInteractive.hxx>
 #include <AIS_InteractiveObject.hxx>
 #include <AIS_ListNodeOfListOfInteractive.hxx>

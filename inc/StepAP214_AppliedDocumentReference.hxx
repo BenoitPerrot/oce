@@ -6,15 +6,15 @@
 #ifndef _StepAP214_AppliedDocumentReference_HeaderFile
 #define _StepAP214_AppliedDocumentReference_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepAP214_AppliedDocumentReference.hxx>
 
 #include <Handle_StepAP214_HArray1OfDocumentReferenceItem.hxx>
 #include <StepBasic_DocumentReference.hxx>
 #include <Handle_StepBasic_Document.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class StepAP214_HArray1OfDocumentReferenceItem;
 class StepBasic_Document;
 class TCollection_HAsciiString;

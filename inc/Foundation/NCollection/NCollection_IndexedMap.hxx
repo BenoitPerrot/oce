@@ -19,12 +19,12 @@
 #include <Foundation/NCollection/NCollection_BaseMap.hxx>
 #include <Foundation/NCollection/NCollection_TListNode.hxx>
 #include <Foundation/NCollection/NCollection_StlIterator.hxx>
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_ImmutableObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_ImmutableObject.hxx>
 
 #include <Foundation/NCollection/NCollection_DefaultHasher.hxx>
 
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 
 /**
  * Purpose:     An indexed map is used to  store  keys and to bind

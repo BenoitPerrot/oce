@@ -16,7 +16,7 @@
 #include <TDF_Label.hxx>
 #include <AIS_InteractiveObject.hxx>
 #include <TPrsStd_NamedShapeDriver.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TPrsStd_NamedShapeDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(TPrsStd_Driver),
@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_RTTI(TPrsStd_NamedShapeDriver)
 #include <AIS_Shape.hxx>
 #include <AIS_InteractiveContext.hxx>
 #include <TDataStd.hxx>
-#include <Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
 #include <TPrsStd_DriverTable.hxx> 
 #include <TNaming_Tool.hxx>
 #include <TopLoc_Location.hxx>

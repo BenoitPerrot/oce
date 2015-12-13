@@ -19,7 +19,7 @@
 #include <StepFEA_CurveElementLocation.hxx>
 #include <StepBasic_EulerAngles.hxx>
 #include <StepFEA_CurveElementIntervalLinearlyVarying.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepFEA_CurveElementIntervalLinearlyVarying)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepFEA_CurveElementInterval),

@@ -6,15 +6,15 @@
 #ifndef _PShort_FieldOfHArray2OfShortReal_HeaderFile
 #define _PShort_FieldOfHArray2OfShortReal_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <DBC_BaseArray.hxx>
-#include <Standard_ShortReal.hxx>
+#include <Foundation/Standard/Standard_ShortReal.hxx>
 #include <Handle_PShort_VArrayNodeOfFieldOfHArray2OfShortReal.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 class Standard_NegativeValue;
 class Standard_OutOfRange;
 class Standard_DimensionMismatch;

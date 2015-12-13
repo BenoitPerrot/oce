@@ -6,20 +6,20 @@
 #ifndef _Interface_CheckTool_HeaderFile
 #define _Interface_CheckTool_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_Interface_GTool.hxx>
 #include <Interface_ShareTool.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Interface_InterfaceModel.hxx>
 #include <Handle_Interface_Protocol.hxx>
 #include <Handle_Interface_HGraph.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Handle_Interface_Check.hxx>
 #include <Handle_Message_Messenger.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class Interface_GTool;
 class Interface_CheckFailure;
 class Interface_InterfaceModel;

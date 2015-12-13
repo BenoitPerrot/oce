@@ -6,18 +6,18 @@
 #ifndef _AIS_Relation_HeaderFile
 #define _AIS_Relation_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_AIS_Relation.hxx>
 
 #include <TopoDS_Shape.hxx>
 #include <Handle_Geom_Plane.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <gp_Pnt.hxx>
 #include <TCollection_ExtendedString.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <DsgPrs_ArrowSide.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <gp_Pln.hxx>
 #include <Handle_Geom_Surface.hxx>
 #include <AIS_KindOfSurface.hxx>

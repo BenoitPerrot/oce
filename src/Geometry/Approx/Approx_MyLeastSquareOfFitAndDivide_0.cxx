@@ -6,8 +6,8 @@
 #include <Approx_MyLeastSquareOfFitAndDivide.hxx>
 
 #include <StdFail_NotDone.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_DimensionError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_DimensionError.hxx>
 #include <AppCont_Function.hxx>
 #include <AppCont_FunctionTool.hxx>
 #include <AppParCurves_MultiCurve.hxx>

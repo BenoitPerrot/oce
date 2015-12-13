@@ -6,7 +6,7 @@
 #ifndef _Vrml_SFImageNumber_HeaderFile
 #define _Vrml_SFImageNumber_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! qualifies VRML geometry shapes.
 enum Vrml_SFImageNumber

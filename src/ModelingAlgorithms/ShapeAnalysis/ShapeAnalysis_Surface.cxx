@@ -35,7 +35,7 @@
 #include <TColgp_Array1OfPnt2d.hxx>
 #include <Bnd_Box.hxx>
 #include <ShapeAnalysis_Surface.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeAnalysis_Surface)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),
@@ -62,9 +62,9 @@ IMPLEMENT_STANDARD_RTTI(ShapeAnalysis_Surface)
 
 #include <ShapeAnalysis_Curve.hxx>
 
-#include <Standard_ErrorHandler.hxx>
-#include <Standard_Failure.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <ShapeAnalysis.hxx>
 
 #include <Adaptor3d_Curve.hxx>

@@ -23,7 +23,7 @@
 #include <TObj_TNameContainer.hxx>
 
 #include <Foundation/Message/Message_MsgFile.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <TColStd_HArray1OfReal.hxx>
 #include <TCollection_ExtendedString.hxx>
 

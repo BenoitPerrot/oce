@@ -6,14 +6,14 @@
 #ifndef _ShapeExtend_WireData_HeaderFile
 #define _ShapeExtend_WireData_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ShapeExtend_WireData.hxx>
 
 #include <Handle_TopTools_HSequenceOfShape.hxx>
 #include <Handle_TColStd_HSequenceOfInteger.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class TopTools_HSequenceOfShape;
 class TColStd_HSequenceOfInteger;

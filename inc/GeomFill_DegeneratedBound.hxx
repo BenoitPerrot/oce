@@ -6,14 +6,14 @@
 #ifndef _GeomFill_DegeneratedBound_HeaderFile
 #define _GeomFill_DegeneratedBound_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_GeomFill_DegeneratedBound.hxx>
 
 #include <gp_Pnt.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <GeomFill_Boundary.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class gp_Pnt;
 class gp_Vec;
 

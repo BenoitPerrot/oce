@@ -16,8 +16,8 @@
 // The original implementation Copyright: (C) RINA S.p.A
 
 #include <TObj_TIntSparseArray.hxx>
-#include <Standard_GUID.hxx>
-#include <Standard_ImmutableObject.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_ImmutableObject.hxx>
 #include <TDF_Data.hxx>
 #include <TDF_AttributeDelta.hxx>
 #include <TDF_DeltaOnModification.hxx>

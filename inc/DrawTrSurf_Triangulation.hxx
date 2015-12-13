@@ -6,16 +6,16 @@
 #ifndef _DrawTrSurf_Triangulation_HeaderFile
 #define _DrawTrSurf_Triangulation_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_DrawTrSurf_Triangulation.hxx>
 
 #include <Handle_Poly_Triangulation.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Draw_Drawable3D.hxx>
 #include <Handle_Draw_Drawable3D.hxx>
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 #include <Draw_Interpretor.hxx>
 class Poly_Triangulation;
 class TColStd_HArray1OfInteger;

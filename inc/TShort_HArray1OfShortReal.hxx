@@ -6,14 +6,14 @@
 #ifndef _TShort_HArray1OfShortReal_HeaderFile
 #define _TShort_HArray1OfShortReal_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TShort_HArray1OfShortReal.hxx>
 
 #include <TShort_Array1OfShortReal.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_ShortReal.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_ShortReal.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_DimensionMismatch;
 class Standard_OutOfRange;
@@ -69,7 +69,7 @@ private:
 };
 
 #define ItemHArray1 Standard_ShortReal
-#define ItemHArray1_hxx <Standard_ShortReal.hxx>
+#define ItemHArray1_hxx <Foundation/Standard/Standard_ShortReal.hxx>
 #define TheArray1 TShort_Array1OfShortReal
 #define TheArray1_hxx <TShort_Array1OfShortReal.hxx>
 #define TCollection_HArray1 TShort_HArray1OfShortReal

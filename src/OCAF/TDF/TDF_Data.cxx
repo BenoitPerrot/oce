@@ -13,13 +13,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_NoMoreObject.hxx>
+#include <Foundation/Standard/Standard_NoMoreObject.hxx>
 #include <TDF_Transaction.hxx>
 #include <TDF_LabelNode.hxx>
 #include <TDF_Delta.hxx>
 #include <TDF_Label.hxx>
 #include <TDF_Data.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDF_Data)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),
@@ -47,8 +47,8 @@ IMPLEMENT_STANDARD_RTTI(TDF_Data)
 #include <TDF_LabelNodePtr.hxx>
 #include <TDF_Tool.hxx>
 
-#include <Standard_NoMoreObject.hxx>
-#include <Standard_NullObject.hxx>
+#include <Foundation/Standard/Standard_NoMoreObject.hxx>
+#include <Foundation/Standard/Standard_NullObject.hxx>
 
 #include <Foundation/NCollection/NCollection_IncAllocator.hxx>
 

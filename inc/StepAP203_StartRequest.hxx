@@ -6,8 +6,8 @@
 #ifndef _StepAP203_StartRequest_HeaderFile
 #define _StepAP203_StartRequest_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepAP203_StartRequest.hxx>
 
 #include <Handle_StepAP203_HArray1OfStartRequestItem.hxx>

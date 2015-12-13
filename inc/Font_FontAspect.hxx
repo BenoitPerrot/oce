@@ -6,7 +6,7 @@
 #ifndef _Font_FontAspect_HeaderFile
 #define _Font_FontAspect_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Specifies aspect of system font.
 enum Font_FontAspect

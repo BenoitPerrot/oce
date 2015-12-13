@@ -56,13 +56,13 @@
 #include <TopoDS_Shape.hxx>
 #include <SelectMgr_EntityOwner.hxx>
 #include <SelectMgr_IndexedMapOfOwner.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <SelectMgr_Filter.hxx>
 #include <SelectMgr_ListOfFilter.hxx>
 #include <AIS_ListOfInteractive.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <AIS_InteractiveContext.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_InteractiveContext)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),
@@ -95,7 +95,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_InteractiveContext)
 #include <Prs3d_DatumAspect.hxx>
 #include <Prs3d_PlaneAspect.hxx>
 #include <PrsMgr_PresentableObject.hxx>
-#include <Standard_Atomic.hxx>
+#include <Foundation/Standard/Standard_Atomic.hxx>
 #include <UnitsAPI.hxx>
 
 #include <AIS_Trihedron.hxx>

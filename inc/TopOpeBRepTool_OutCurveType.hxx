@@ -6,7 +6,7 @@
 #ifndef _TopOpeBRepTool_OutCurveType_HeaderFile
 #define _TopOpeBRepTool_OutCurveType_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum TopOpeBRepTool_OutCurveType

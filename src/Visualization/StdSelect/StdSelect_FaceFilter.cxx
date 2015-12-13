@@ -19,7 +19,7 @@
 
 #include <SelectMgr_EntityOwner.hxx>
 #include <StdSelect_FaceFilter.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StdSelect_FaceFilter)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(SelectMgr_Filter),

@@ -6,18 +6,18 @@
 #ifndef _ChFiDS_Stripe_HeaderFile
 #define _ChFiDS_Stripe_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ChFiDS_Stripe.hxx>
 
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_ChFiDS_Spine.hxx>
 #include <Handle_ChFiDS_HData.hxx>
 #include <Handle_Geom2d_Curve.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <TopAbs_Orientation.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class ChFiDS_Spine;
 class ChFiDS_HData;
 class Geom2d_Curve;

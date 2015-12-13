@@ -6,8 +6,8 @@
 #ifndef _MDocStd_DocumentStorageDriver_HeaderFile
 #define _MDocStd_DocumentStorageDriver_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_MDocStd_DocumentStorageDriver.hxx>
 
 #include <Handle_MDF_ASDriverTable.hxx>

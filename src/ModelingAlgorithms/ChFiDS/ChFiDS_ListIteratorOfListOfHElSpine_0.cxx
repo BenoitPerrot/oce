@@ -5,8 +5,8 @@
 
 #include <ChFiDS_ListIteratorOfListOfHElSpine.hxx>
 
-#include <Standard_NoMoreObject.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoMoreObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <ChFiDS_ListOfHElSpine.hxx>
 #include <ChFiDS_HElSpine.hxx>
 #include <ChFiDS_ListNodeOfListOfHElSpine.hxx>

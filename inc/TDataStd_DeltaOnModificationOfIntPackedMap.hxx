@@ -6,8 +6,8 @@
 #ifndef _TDataStd_DeltaOnModificationOfIntPackedMap_HeaderFile
 #define _TDataStd_DeltaOnModificationOfIntPackedMap_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TDataStd_DeltaOnModificationOfIntPackedMap.hxx>
 
 #include <Handle_TColStd_HPackedMapOfInteger.hxx>

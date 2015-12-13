@@ -6,7 +6,7 @@
 #ifndef _StepElement_EnumeratedCurveElementFreedom_HeaderFile
 #define _StepElement_EnumeratedCurveElementFreedom_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum StepElement_EnumeratedCurveElementFreedom

@@ -17,12 +17,12 @@
 #include <MDF_ASDriverHSequence.hxx>
 #include <CDM_MessageDriver.hxx>
 #include <MDF_ARDriverHSequence.hxx>
-#include <Standard_Transient.hxx>
-#include <Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
 #include <MDocStd.hxx>
 #include <MDocStd_DocumentStorageDriver.hxx>
 #include <MDocStd_DocumentRetrievalDriver.hxx>
-#include <Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
 #include <MDocStd_XLinkStorageDriver.hxx>
 #include <MDocStd_XLinkRetrievalDriver.hxx>
 #include <CDM_MessageDriver.hxx>

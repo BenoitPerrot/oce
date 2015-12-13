@@ -17,7 +17,7 @@
 #include <CDM_MessageDriver.hxx>
 #include <BinLDrivers_DocumentSection.hxx>
 #include <BinDrivers_DocumentRetrievalDriver.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BinDrivers_DocumentRetrievalDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(BinLDrivers_DocumentRetrievalDriver),
@@ -35,9 +35,9 @@ IMPLEMENT_STANDARD_RTTI(BinDrivers_DocumentRetrievalDriver)
 #include <TNaming_NamedShape.hxx>
 #include <BinMDataStd.hxx>
 #include <TCollection_ExtendedString.hxx>
-#include <Standard_Failure.hxx>
-#include <Standard_IStream.hxx>
-#include <Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_IStream.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
 //=======================================================================
 //function : BinDrivers_DocumentRetrievalDriver
 //purpose  : Constructor

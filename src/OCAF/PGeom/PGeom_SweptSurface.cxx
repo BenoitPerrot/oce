@@ -17,7 +17,7 @@
 #include <PGeom_Curve.hxx>
 #include <gp_Dir.hxx>
 #include <PGeom_SweptSurface.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PGeom_SweptSurface)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(PGeom_Surface),

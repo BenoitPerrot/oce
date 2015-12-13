@@ -20,9 +20,9 @@
 
 
 #include <Geom_Surface.hxx>
-#include <Standard_ConstructionError.hxx>
-#include <Standard_RangeError.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Geom_UndefinedDerivative.hxx>
 #include <Geom_UndefinedValue.hxx>
 #include <Geom_Curve.hxx>
@@ -32,7 +32,7 @@
 #include <gp_GTrsf2d.hxx>
 #include <Geom_Geometry.hxx>
 #include <Geom_RectangularTrimmedSurface.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Geom_RectangularTrimmedSurface)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Geom_BoundedSurface),
@@ -46,8 +46,8 @@ IMPLEMENT_DOWNCAST(Geom_RectangularTrimmedSurface,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Geom_RectangularTrimmedSurface)
 
 
-#include <Standard_ConstructionError.hxx>
-#include <Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
 
 #include <Geom_TrimmedCurve.hxx>
 #include <Geom_Geometry.hxx>

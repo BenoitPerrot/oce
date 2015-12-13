@@ -6,16 +6,16 @@
 #ifndef _StepBasic_ProductRelatedProductCategory_HeaderFile
 #define _StepBasic_ProductRelatedProductCategory_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepBasic_ProductRelatedProductCategory.hxx>
 
 #include <Handle_StepBasic_HArray1OfProduct.hxx>
 #include <StepBasic_ProductCategory.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_StepBasic_Product.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class StepBasic_HArray1OfProduct;
 class TCollection_HAsciiString;
 class StepBasic_Product;

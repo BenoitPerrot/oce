@@ -5,7 +5,7 @@
 
 #include <Draft_DataMapIteratorOfDataMapOfEdgeEdgeInfo.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopoDS_Edge.hxx>
 #include <Draft_EdgeInfo.hxx>
 #include <TopTools_ShapeMapHasher.hxx>

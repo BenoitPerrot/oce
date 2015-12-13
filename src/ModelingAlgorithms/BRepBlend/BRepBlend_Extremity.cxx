@@ -13,8 +13,8 @@
 // commercial license or contractual agreement.
 
 #include <Adaptor3d_HVertex.hxx>
-#include <Standard_DomainError.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Vec.hxx>
 #include <Adaptor2d_HCurve2d.hxx>

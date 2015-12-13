@@ -5,7 +5,7 @@
 
 #include <Foundation/Resource/Resource_NoSuchResource.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 IMPLEMENT_STANDARD_EXCEPTION(Resource_NoSuchResource)
  

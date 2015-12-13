@@ -6,13 +6,13 @@
 #ifndef _MDataStd_ByteArrayStorageDriver_HeaderFile
 #define _MDataStd_ByteArrayStorageDriver_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_MDataStd_ByteArrayStorageDriver.hxx>
 
 #include <MDF_ASDriver.hxx>
 #include <Handle_CDM_MessageDriver.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Standard_Type.hxx>
 #include <Handle_PDF_Attribute.hxx>
 #include <Handle_TDF_Attribute.hxx>

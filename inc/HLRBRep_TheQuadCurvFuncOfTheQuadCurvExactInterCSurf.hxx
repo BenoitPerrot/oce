@@ -6,15 +6,15 @@
 #ifndef _HLRBRep_TheQuadCurvFuncOfTheQuadCurvExactInterCSurf_HeaderFile
 #define _HLRBRep_TheQuadCurvFuncOfTheQuadCurvExactInterCSurf_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <IntSurf_Quadric.hxx>
 #include <gp_Lin.hxx>
 #include <math_FunctionWithDerivative.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class IntSurf_Quadric;
 class gp_Lin;
 class HLRBRep_LineTool;

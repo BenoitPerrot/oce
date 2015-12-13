@@ -5,8 +5,8 @@
 
 #include <Select3D_SensitiveEntitySequence.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Select3D_SensitiveEntity.hxx>
 #include <Select3D_SequenceNodeOfSensitiveEntitySequence.hxx>
  

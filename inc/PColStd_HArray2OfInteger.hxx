@@ -6,15 +6,15 @@
 #ifndef _PColStd_HArray2OfInteger_HeaderFile
 #define _PColStd_HArray2OfInteger_HeaderFile
 
-#include <Standard_Macro.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Handle_PColStd_HArray2OfInteger.hxx>
 
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <PColStd_FieldOfHArray2OfInteger.hxx>
-#include <Standard_Address.hxx>
-#include <Standard_Persistent.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Persistent.hxx>
 #include <Handle_PColStd_VArrayNodeOfFieldOfHArray2OfInteger.hxx>
 class Standard_RangeError;
 class Standard_OutOfRange;
@@ -93,7 +93,7 @@ private:
 };
 
 #define Item Standard_Integer
-#define Item_hxx <Standard_Integer.hxx>
+#define Item_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define PCollection_FieldOfHArray2 PColStd_FieldOfHArray2OfInteger
 #define PCollection_FieldOfHArray2_hxx <PColStd_FieldOfHArray2OfInteger.hxx>
 #define PCollection_VArrayNodeOfFieldOfHArray2 PColStd_VArrayNodeOfFieldOfHArray2OfInteger

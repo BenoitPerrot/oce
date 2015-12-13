@@ -17,7 +17,7 @@
 #include <TCollection_AsciiString.hxx>
 #include <TopOpeBRepDS.hxx>
 #include <TopOpeBRepDS_define.hxx>
-#include <Standard_ProgramError.hxx>
+#include <Foundation/Standard/Standard_ProgramError.hxx>
 
 //=======================================================================
 //function : Print the name of a State

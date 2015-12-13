@@ -6,12 +6,12 @@
 #ifndef _StepToGeom_MakePolyline_HeaderFile
 #define _StepToGeom_MakePolyline_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <StepToGeom_Root.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_StepGeom_Polyline.hxx>
 #include <Handle_Geom_BSplineCurve.hxx>
 class StepGeom_Polyline;

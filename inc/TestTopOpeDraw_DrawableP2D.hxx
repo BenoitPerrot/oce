@@ -6,18 +6,18 @@
 #ifndef _TestTopOpeDraw_DrawableP2D_HeaderFile
 #define _TestTopOpeDraw_DrawableP2D_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TestTopOpeDraw_DrawableP2D.hxx>
 
 #include <gp_Pnt2d.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 #include <Draw_Color.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Draw_Text2D.hxx>
 #include <Draw_Marker2D.hxx>
 #include <Draw_MarkerShape.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Draw_Text2D;
 class gp_Pnt2d;
 class Draw_Color;

@@ -16,7 +16,7 @@
 
 // a modifier le cas de 2 points confondus ( Insert a la place d'append ? ) 
 
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <gp_Lin2d.hxx>
 #include <IntRes2d_Domain.hxx>
 #include <gp_Circ2d.hxx>
@@ -33,7 +33,7 @@
 #include <IntImpParGen.hxx>
 #include <IntCurve_IntConicConic_1.hxx>
 #include <ElCLib.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>
 #include <IntRes2d_IntersectionSegment.hxx>
 

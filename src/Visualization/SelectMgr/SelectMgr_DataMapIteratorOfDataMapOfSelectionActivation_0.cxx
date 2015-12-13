@@ -5,7 +5,7 @@
 
 #include <SelectMgr_DataMapIteratorOfDataMapOfSelectionActivation.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <SelectMgr_Selection.hxx>
 #include <TColStd_MapTransientHasher.hxx>
 #include <SelectMgr_DataMapOfSelectionActivation.hxx>
@@ -15,7 +15,7 @@
 #define TheKey Handle(SelectMgr_Selection)
 #define TheKey_hxx <SelectMgr_Selection.hxx>
 #define TheItem Standard_Integer
-#define TheItem_hxx <Standard_Integer.hxx>
+#define TheItem_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define Hasher TColStd_MapTransientHasher
 #define Hasher_hxx <TColStd_MapTransientHasher.hxx>
 #define TCollection_DataMapNode SelectMgr_DataMapNodeOfDataMapOfSelectionActivation

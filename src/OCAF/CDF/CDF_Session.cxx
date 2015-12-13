@@ -17,10 +17,10 @@
 #include <CDF_Directory.hxx>
 #include <CDF_Application.hxx>
 #include <CDF_MetaDataDriver.hxx>
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_MultiplyDefined.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_MultiplyDefined.hxx>
 #include <CDF_Session.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(CDF_Session)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Standard_Transient),
@@ -32,11 +32,11 @@ IMPLEMENT_STANDARD_RTTI(CDF_Session)
 #include <CDF_MetaDataDriverFactory.hxx>
 #include <CDF_FWOSDriver.hxx>
 #include <Foundation/Plugin/Plugin.hxx>
-#include <Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
 #include <PCDM.hxx>
 #include <PCDM_Reader.hxx>
-#include <Standard_ErrorHandler.hxx>
-#include <Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
 
 static Handle(CDF_Session) CS;
 

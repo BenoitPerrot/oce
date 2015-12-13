@@ -1,7 +1,7 @@
 #include "BridgeFBO.hxx"
 
 // include required OCCT headers
-#include <Standard_Version.hxx>
+#include <Foundation/Standard/Standard_Version.hxx>
 #include <Foundation/Message/Message_ProgressIndicator.hxx>
 //for OCC graphic
 #include <Aspect_DisplayConnection.hxx>

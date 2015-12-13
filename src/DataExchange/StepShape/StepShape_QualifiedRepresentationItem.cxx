@@ -15,7 +15,7 @@
 #include <TCollection_HAsciiString.hxx>
 #include <StepShape_ValueQualifier.hxx>
 #include <StepShape_QualifiedRepresentationItem.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepShape_QualifiedRepresentationItem)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepRepr_RepresentationItem),

@@ -36,7 +36,7 @@
 #include <TopOpeBRepTool_EXPORT.hxx>
 #include <TopOpeBRepTool_SC.hxx>
 #include <TopOpeBRepTool_makeTransition.hxx>
-#include <Standard_ProgramError.hxx>
+#include <Foundation/Standard/Standard_ProgramError.hxx>
 
 #include <TopOpeBRepDS_InterferenceTool.hxx>
 #include <TopOpeBRepDS_BuildTool.hxx>

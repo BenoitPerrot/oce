@@ -6,18 +6,18 @@
 #ifndef _IntPatch_PolyLine_HeaderFile
 #define _IntPatch_PolyLine_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <gp_Pnt2d.hxx>
 #include <IntPatch_IType.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_IntPatch_WLine.hxx>
 #include <Handle_IntPatch_RLine.hxx>
 #include <IntPatch_Polygo.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class IntPatch_WLine;
 class IntPatch_RLine;
 class gp_Pnt2d;

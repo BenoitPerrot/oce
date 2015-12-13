@@ -22,7 +22,7 @@
 //                                                  Circle.               +
 //=========================================================================
 
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <StdFail_NotDone.hxx>
 #include <GccEnt_BadQualifier.hxx>
 #include <GccEnt_QualifiedCirc.hxx>
@@ -37,7 +37,7 @@
 #include <gp_Ax2d.hxx>
 #include <IntAna2d_AnaIntersection.hxx>
 #include <IntAna2d_IntPoint.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <GccInt_IType.hxx>
 #include <GccInt_Bisec.hxx>
 #include <GccInt_BLine.hxx>

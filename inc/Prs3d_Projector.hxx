@@ -6,13 +6,13 @@
 #ifndef _Prs3d_Projector_HeaderFile
 #define _Prs3d_Projector_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Prs3d_Projector.hxx>
 
 #include <HLRAlgo_Projector.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Quantity/Quantity_Length.hxx>
 class HLRAlgo_Projector;
 

@@ -18,7 +18,7 @@
 //   CREATION of the BISSECTICE between a CIRCLE and a POINT.               +
 //=========================================================================
 
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <StdFail_NotDone.hxx>
 #include <gp_Circ2d.hxx>
 #include <gp_Pnt2d.hxx>
@@ -32,8 +32,8 @@
 #include <GccInt_BCirc.hxx>
 #include <GccInt_BElips.hxx>
 #include <GccInt_BLine.hxx>
-#include <Standard_ConstructionError.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <StdFail_NotDone.hxx>
 #include <gp.hxx>
 

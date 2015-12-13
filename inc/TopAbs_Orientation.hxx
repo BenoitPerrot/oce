@@ -6,7 +6,7 @@
 #ifndef _TopAbs_Orientation_HeaderFile
 #define _TopAbs_Orientation_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Identifies the orientation of a topological shape.
 //! Orientation can represent a relation between two

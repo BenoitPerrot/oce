@@ -6,11 +6,11 @@
 #ifndef _TopOpeBRep_HeaderFile
 #define _TopOpeBRep_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 #include <TopOpeBRep_TypeLineCurve.hxx>
 class TopOpeBRep_VPointInter;
 class TopOpeBRep_Array1OfVPointInter;

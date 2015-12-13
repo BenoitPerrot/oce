@@ -6,21 +6,21 @@
 #ifndef _Select3D_SensitiveCircle_HeaderFile
 #define _Select3D_SensitiveCircle_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Select3D_SensitiveCircle.hxx>
 
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Select3D_Pnt2d.hxx>
 #include <Select3D_Pnt.hxx>
 #include <Handle_Geom_Circle.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Select3D_SensitivePoly.hxx>
 #include <Handle_SelectBasics_EntityOwner.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TColgp_HArray1OfPnt.hxx>
 #include <SelectBasics_PickArgs.hxx>
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 #include <Handle_Select3D_SensitiveEntity.hxx>
 #include <Handle_Select3D_Projector.hxx>
 class Geom_Circle;

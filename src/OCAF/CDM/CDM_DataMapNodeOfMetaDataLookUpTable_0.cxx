@@ -5,7 +5,7 @@
 
 #include <CDM_DataMapNodeOfMetaDataLookUpTable.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <CDM_MetaData.hxx>
 #include <TCollection_ExtendedString.hxx>

@@ -6,8 +6,8 @@
 #ifndef _BinXCAFDrivers_DocumentRetrievalDriver_HeaderFile
 #define _BinXCAFDrivers_DocumentRetrievalDriver_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BinXCAFDrivers_DocumentRetrievalDriver.hxx>
 
 #include <BinDrivers_DocumentRetrievalDriver.hxx>

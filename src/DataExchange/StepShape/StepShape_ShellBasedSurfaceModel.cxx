@@ -15,7 +15,7 @@
 #include <TCollection_HAsciiString.hxx>
 #include <StepShape_Shell.hxx>
 #include <StepShape_ShellBasedSurfaceModel.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepShape_ShellBasedSurfaceModel)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepGeom_GeometricRepresentationItem),

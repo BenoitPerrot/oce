@@ -5,7 +5,7 @@
 
 #include <ChFiDS_ListNodeOfListOfHElSpine.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <ChFiDS_HElSpine.hxx>
 #include <ChFiDS_ListOfHElSpine.hxx>

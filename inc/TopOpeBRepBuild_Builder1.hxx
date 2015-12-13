@@ -6,9 +6,9 @@
 #ifndef _TopOpeBRepBuild_Builder1_HeaderFile
 #define _TopOpeBRepBuild_Builder1_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TopTools_IndexedMapOfShape.hxx>
 #include <TopoDS_Shape.hxx>
@@ -20,8 +20,8 @@
 #include <TopOpeBRepBuild_Builder.hxx>
 #include <Handle_TopOpeBRepDS_HDataStructure.hxx>
 #include <TopAbs_State.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class TopOpeBRepBuild_HBuilder;
 class TopOpeBRepDS_BuildTool;
 class TopOpeBRepDS_HDataStructure;

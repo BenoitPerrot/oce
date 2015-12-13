@@ -6,8 +6,8 @@
 #ifndef _BRepCheck_ListNodeOfListOfStatus_HeaderFile
 #define _BRepCheck_ListNodeOfListOfStatus_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BRepCheck_ListNodeOfListOfStatus.hxx>
 
 #include <BRepCheck_Status.hxx>

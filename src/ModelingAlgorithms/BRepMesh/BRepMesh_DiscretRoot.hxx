@@ -14,10 +14,10 @@
 #ifndef _BRepMesh_DiscretRoot_HeaderFile
 #define _BRepMesh_DiscretRoot_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <TopoDS_Shape.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 
 //! This is a common interface for meshing algorithms 
 //! instantiated by Mesh Factory and implemented by plugins.

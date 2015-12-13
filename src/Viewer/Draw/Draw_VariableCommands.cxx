@@ -19,8 +19,8 @@
 #include <Draw_ProgressIndicator.hxx>
 #include <Draw.hxx>
 
-#include <Standard_Stream.hxx>
-#include <Standard_SStream.hxx>
+#include <Foundation/Standard/Standard_Stream.hxx>
+#include <Foundation/Standard/Standard_SStream.hxx>
 
 #include <Draw_Display.hxx>
 #include <Draw_Appli.hxx>

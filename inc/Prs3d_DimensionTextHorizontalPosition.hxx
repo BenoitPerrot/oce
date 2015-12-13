@@ -6,7 +6,7 @@
 #ifndef _Prs3d_DimensionTextHorizontalPosition_HeaderFile
 #define _Prs3d_DimensionTextHorizontalPosition_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Specifies options for positioning dimension value label in horizontal direction.
 //! DTHP_Left   - value label located at left side on dimension extension.

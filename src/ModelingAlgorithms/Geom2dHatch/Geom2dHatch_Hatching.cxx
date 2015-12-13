@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Geom2dAdaptor_Curve.hxx>
 #include <HatchGen_PointOnHatching.hxx>
 #include <HatchGen_Domain.hxx>

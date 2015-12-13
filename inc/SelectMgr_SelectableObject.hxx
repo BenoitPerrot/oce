@@ -6,13 +6,13 @@
 #ifndef _SelectMgr_SelectableObject_HeaderFile
 #define _SelectMgr_SelectableObject_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_SelectMgr_SelectableObject.hxx>
 
 #include <SelectMgr_SequenceOfSelection.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Prs3d_Presentation.hxx>
 #include <PrsMgr_PresentableObject.hxx>
 #include <PrsMgr_TypeOfPresentation3d.hxx>

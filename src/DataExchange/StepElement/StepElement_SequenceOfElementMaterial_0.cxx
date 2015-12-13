@@ -5,8 +5,8 @@
 
 #include <StepElement_SequenceOfElementMaterial.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <StepElement_ElementMaterial.hxx>
 #include <StepElement_SequenceNodeOfSequenceOfElementMaterial.hxx>
  

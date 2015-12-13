@@ -6,15 +6,15 @@
 #ifndef _Vrml_AsciiText_HeaderFile
 #define _Vrml_AsciiText_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Vrml_AsciiText.hxx>
 
 #include <Handle_TColStd_HArray1OfAsciiString.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Vrml_AsciiTextJustification.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 class TColStd_HArray1OfAsciiString;
 
 

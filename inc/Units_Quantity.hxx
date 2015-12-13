@@ -6,18 +6,18 @@
 #ifndef _Units_Quantity_HeaderFile
 #define _Units_Quantity_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Units_Quantity.hxx>
 
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Handle_Units_Dimensions.hxx>
 #include <Handle_Units_UnitsSequence.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 #include <TCollection_AsciiString.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class TCollection_HAsciiString;
 class Units_Dimensions;
 class Units_UnitsSequence;

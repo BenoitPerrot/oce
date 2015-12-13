@@ -5,10 +5,10 @@
 
 #include <Contap_TheHSequenceOfPoint.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Contap_Point.hxx>
 #include <Contap_TheSequenceOfPoint.hxx>
 

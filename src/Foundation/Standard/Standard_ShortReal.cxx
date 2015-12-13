@@ -12,11 +12,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_ShortReal.hxx>
-#include <Standard_RangeError.hxx>
-#include <Standard_NullValue.hxx>
-#include <Standard_Stream.hxx>
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_ShortReal.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_NullValue.hxx>
+#include <Foundation/Standard/Standard_Stream.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 
 // ------------------------------------------------------------------
 // Hascode : Computes a hascoding value for a given ShortReal

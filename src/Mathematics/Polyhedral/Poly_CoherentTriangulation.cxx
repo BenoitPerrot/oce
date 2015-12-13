@@ -18,7 +18,7 @@
 #include <Poly_Array1OfTriangle.hxx>
 #include <Foundation/NCollection/NCollection_List.hxx>
 #include <Precision.hxx>
-#include <Standard_ProgramError.hxx>
+#include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>
 #include <TShort_Array1OfShortReal.hxx> 

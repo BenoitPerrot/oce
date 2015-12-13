@@ -6,7 +6,7 @@
 #ifndef _CDF_TryStoreStatus_HeaderFile
 #define _CDF_TryStoreStatus_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum CDF_TryStoreStatus

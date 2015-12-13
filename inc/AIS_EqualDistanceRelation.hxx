@@ -6,8 +6,8 @@
 #ifndef _AIS_EqualDistanceRelation_HeaderFile
 #define _AIS_EqualDistanceRelation_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_AIS_EqualDistanceRelation.hxx>
 
 #include <TopoDS_Shape.hxx>
@@ -16,13 +16,13 @@
 #include <Handle_Geom_Plane.hxx>
 #include <PrsMgr_PresentationManager3d.hxx>
 #include <Handle_Prs3d_Presentation.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Prs3d_Projector.hxx>
 #include <Handle_Geom_Transformation.hxx>
 #include <Handle_SelectMgr_Selection.hxx>
 #include <Handle_AIS_Drawer.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <DsgPrs_ArrowSide.hxx>
 #include <AIS_TypeOfDist.hxx>
 class TopoDS_Shape;

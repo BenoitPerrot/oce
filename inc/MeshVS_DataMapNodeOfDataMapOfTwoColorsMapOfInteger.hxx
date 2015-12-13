@@ -6,8 +6,8 @@
 #ifndef _MeshVS_DataMapNodeOfDataMapOfTwoColorsMapOfInteger_HeaderFile
 #define _MeshVS_DataMapNodeOfDataMapOfTwoColorsMapOfInteger_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_MeshVS_DataMapNodeOfDataMapOfTwoColorsMapOfInteger.hxx>
 
 #include <MeshVS_TwoColors.hxx>

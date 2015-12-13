@@ -13,7 +13,7 @@
 // commercial license or contractual agreement.
 
 #include <PStandard_ArrayNode.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PStandard_ArrayNode)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Standard_Persistent),

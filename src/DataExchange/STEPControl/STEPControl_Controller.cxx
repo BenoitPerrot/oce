@@ -19,7 +19,7 @@
 #include <TopoDS_Shape.hxx>
 #include <Transfer_FinderProcess.hxx>
 #include <STEPControl_Controller.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(STEPControl_Controller)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(XSControl_Controller),
@@ -36,7 +36,7 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_Controller)
 //#include <StepAP214.hxx>
 #include <RWStepAP214.hxx>
 
-#include <Standard_Version.hxx>
+#include <Foundation/Standard/Standard_Version.hxx>
 #include <StepData_StepModel.hxx>
 #include <APIHeaderSection_MakeHeader.hxx>
 #include <StepData_FileProtocol.hxx>

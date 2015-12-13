@@ -6,8 +6,8 @@
 #ifndef _Graphic3d_Structure_HeaderFile
 #define _Graphic3d_Structure_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Graphic3d_Structure.hxx>
 
 #include <Graphic3d_CStructure_Handle.hxx>
@@ -15,18 +15,18 @@
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Aspect_TypeOfHighlightMethod.hxx>
 #include <Graphic3d_StructureManagerPtr.hxx>
-#include <Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
 #include <Graphic3d_TypeOfStructure.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Graphic3d_StructureManager.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Graphic3d_SequenceOfHClipPlane.hxx>
 #include <Handle_Graphic3d_AspectLine3d.hxx>
 #include <Handle_Graphic3d_AspectFillArea3d.hxx>
 #include <Handle_Graphic3d_AspectText3d.hxx>
 #include <Handle_Graphic3d_AspectMarker3d.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Graphic3d_DataStructureManager.hxx>
 #include <Graphic3d_SequenceOfGroup.hxx>
 #include <Handle_Graphic3d_Group.hxx>

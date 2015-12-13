@@ -21,7 +21,7 @@
 //#endif
 
 #include <StdFail_NotDone.hxx>
-#include <Standard_DimensionError.hxx>
+#include <Foundation/Standard/Standard_DimensionError.hxx>
 #include <math_MultipleVarFunctionWithHessian.hxx>
 #include <math_NewtonMinimum.hxx>
 

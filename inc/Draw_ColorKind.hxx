@@ -6,7 +6,7 @@
 #ifndef _Draw_ColorKind_HeaderFile
 #define _Draw_ColorKind_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum Draw_ColorKind

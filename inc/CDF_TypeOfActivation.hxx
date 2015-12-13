@@ -6,7 +6,7 @@
 #ifndef _CDF_TypeOfActivation_HeaderFile
 #define _CDF_TypeOfActivation_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum CDF_TypeOfActivation

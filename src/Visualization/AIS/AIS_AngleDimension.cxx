@@ -48,7 +48,7 @@
 #include <Select3D_SensitiveGroup.hxx>
 #include <Select3D_SensitiveSegment.hxx>
 #include <SelectMgr_Selection.hxx>
-#include <Standard_ProgramError.hxx>
+#include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <UnitsAPI.hxx>
 
 IMPLEMENT_STANDARD_HANDLE (AIS_AngleDimension, AIS_Dimension)

@@ -6,14 +6,14 @@
 #ifndef _Quantity_Date_HeaderFile
 #define _Quantity_Date_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Integer.hxx>
-#include <Standard_Storable.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Storable.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 class Quantity_DateDefinitionError;
 class Standard_OutOfRange;
 class Quantity_Period;

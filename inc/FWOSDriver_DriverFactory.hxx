@@ -6,8 +6,8 @@
 #ifndef _FWOSDriver_DriverFactory_HeaderFile
 #define _FWOSDriver_DriverFactory_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_FWOSDriver_DriverFactory.hxx>
 
 #include <CDF_MetaDataDriverFactory.hxx>

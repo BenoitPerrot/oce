@@ -6,15 +6,15 @@
 #ifndef _BRepMAT2d_BisectingLocus_HeaderFile
 #define _BRepMAT2d_BisectingLocus_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_MAT_Graph.hxx>
 #include <MAT2d_Tool2d.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <MAT2d_DataMapOfBiIntInteger.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <MAT_Side.hxx>
 #include <GeomAbs_JoinType.hxx>
 #include <Handle_MAT_BasicElt.hxx>

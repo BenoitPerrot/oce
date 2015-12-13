@@ -6,12 +6,12 @@
 #ifndef _HLRBRep_TheProjPCurOfCInter_HeaderFile
 #define _HLRBRep_TheProjPCurOfCInter_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Address.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class HLRBRep_CurveTool;
 class HLRBRep_TheCurveLocatorOfTheProjPCurOfCInter;
 class HLRBRep_TheLocateExtPCOfTheProjPCurOfCInter;

@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Dir.hxx>
 #include <gp_Trsf.hxx>
@@ -53,7 +53,7 @@
 
 #define ClearVoidFlag() ( Flags &= ~VoidMask )
 
-#include <Standard_Stream.hxx>
+#include <Foundation/Standard/Standard_Stream.hxx>
 #include <gp.hxx>
 // #include <Precision.hxx>
 #define Bnd_Precision_Infinite 1e+100

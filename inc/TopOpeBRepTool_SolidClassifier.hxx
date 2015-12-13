@@ -6,9 +6,9 @@
 #ifndef _TopOpeBRepTool_SolidClassifier_HeaderFile
 #define _TopOpeBRepTool_SolidClassifier_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TopOpeBRepTool_PSoClassif.hxx>
 #include <TopTools_IndexedDataMapOfShapeAddress.hxx>
@@ -16,7 +16,7 @@
 #include <TopoDS_Shell.hxx>
 #include <TopoDS_Solid.hxx>
 #include <BRep_Builder.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class TopoDS_Solid;
 class gp_Pnt;
 class TopoDS_Shell;

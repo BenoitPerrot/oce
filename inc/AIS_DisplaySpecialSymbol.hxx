@@ -6,7 +6,7 @@
 #ifndef _AIS_DisplaySpecialSymbol_HeaderFile
 #define _AIS_DisplaySpecialSymbol_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Specifies dimension special symbol display options
 enum AIS_DisplaySpecialSymbol

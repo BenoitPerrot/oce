@@ -31,14 +31,14 @@
 #include <TopExp_Explorer.hxx>
 #include <TopOpeBRepTool_ShapeTool.hxx>
 #include <Precision.hxx>
-#include <Standard_ProgramError.hxx>
+#include <Foundation/Standard/Standard_ProgramError.hxx>
 
 #ifdef OCCT_DEBUG
 #include <TopAbs.hxx>
 extern Standard_Boolean TopOpeBRep_GettraceFITOL();
 extern Standard_Boolean TopOpeBRep_GettraceSAVFF();
 #include <TCollection_AsciiString.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 #include <BRepTools.hxx>
 static void SAVFE(const TopoDS_Face& F1,const TopoDS_Edge& E)
 {

@@ -6,8 +6,8 @@
 #ifndef _Storage_SequenceNodeOfSeqOfRoot_HeaderFile
 #define _Storage_SequenceNodeOfSeqOfRoot_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Storage_SequenceNodeOfSeqOfRoot.hxx>
 
 #include <Handle_Storage_Root.hxx>

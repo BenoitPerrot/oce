@@ -6,15 +6,15 @@
 #ifndef _TColStd_HSequenceOfTransient_HeaderFile
 #define _TColStd_HSequenceOfTransient_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TColStd_HSequenceOfTransient.hxx>
 
 #include <TColStd_SequenceOfTransient.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Standard_Transient.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;
 class Standard_OutOfRange;
 class Standard_Transient;
@@ -93,7 +93,7 @@ private:
 };
 
 #define Item Handle(Standard_Transient)
-#define Item_hxx <Standard_Transient.hxx>
+#define Item_hxx <Foundation/Standard/Standard_Transient.hxx>
 #define TheSequence TColStd_SequenceOfTransient
 #define TheSequence_hxx <TColStd_SequenceOfTransient.hxx>
 #define TCollection_HSequence TColStd_HSequenceOfTransient

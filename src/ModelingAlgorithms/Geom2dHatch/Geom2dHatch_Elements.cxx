@@ -16,15 +16,15 @@
 
 //  Modified by skv - Fri Jul 14 17:03:47 2006 OCC12627
 
-#include <Standard_DomainError.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Geom2dHatch_Element.hxx>
 #include <gp_Pnt2d.hxx>
 #include <gp_Lin2d.hxx>
 #include <Geom2dAdaptor_Curve.hxx>
 #include <Geom2dHatch_Elements.hxx>
 
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Geom2dHatch_Element.hxx>
 #include <TColStd_MapIntegerHasher.hxx>
 #include <Geom2dAdaptor_Curve.hxx>

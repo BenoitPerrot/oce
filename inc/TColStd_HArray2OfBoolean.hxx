@@ -6,14 +6,14 @@
 #ifndef _TColStd_HArray2OfBoolean_HeaderFile
 #define _TColStd_HArray2OfBoolean_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TColStd_HArray2OfBoolean.hxx>
 
 #include <TColStd_Array2OfBoolean.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_OutOfRange;
 class Standard_OutOfMemory;
@@ -75,7 +75,7 @@ private:
 };
 
 #define ItemHArray2 Standard_Boolean
-#define ItemHArray2_hxx <Standard_Boolean.hxx>
+#define ItemHArray2_hxx <Foundation/Standard/Standard_Boolean.hxx>
 #define TheArray2 TColStd_Array2OfBoolean
 #define TheArray2_hxx <TColStd_Array2OfBoolean.hxx>
 #define TCollection_HArray2 TColStd_HArray2OfBoolean

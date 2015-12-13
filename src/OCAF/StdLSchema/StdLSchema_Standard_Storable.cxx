@@ -2,7 +2,7 @@
 #include <StdLSchema_Standard_Storable.hxx>
 #endif
 #ifndef _Standard_Storable_HeaderFile
-#include <Standard_Storable.hxx>
+#include <Foundation/Standard/Standard_Storable.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Storage_Schema.hxx>

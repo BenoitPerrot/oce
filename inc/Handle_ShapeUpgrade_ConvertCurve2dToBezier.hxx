@@ -6,8 +6,8 @@
 #ifndef _Handle_ShapeUpgrade_ConvertCurve2dToBezier_HeaderFile
 #define _Handle_ShapeUpgrade_ConvertCurve2dToBezier_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ShapeUpgrade_SplitCurve2d.hxx>
 
 class Standard_Transient;

@@ -20,10 +20,10 @@
 #include <Law_BSpline.hxx>
 #include <TColStd_HArray1OfBoolean.hxx>
 #include <StdFail_NotDone.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <TColStd_Array1OfReal.hxx>
 #include <Law_Interpolate.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <PLib.hxx>
 #include <BSplCLib.hxx>
 #include <TColStd_Array1OfBoolean.hxx>

@@ -6,8 +6,8 @@
 #ifndef _Handle_DNaming_CylinderDriver_HeaderFile
 #define _Handle_DNaming_CylinderDriver_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TFunction_Driver.hxx>
 
 class Standard_Transient;

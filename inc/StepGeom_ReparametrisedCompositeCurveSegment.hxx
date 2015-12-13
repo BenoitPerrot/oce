@@ -6,14 +6,14 @@
 #ifndef _StepGeom_ReparametrisedCompositeCurveSegment_HeaderFile
 #define _StepGeom_ReparametrisedCompositeCurveSegment_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepGeom_ReparametrisedCompositeCurveSegment.hxx>
 
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <StepGeom_CompositeCurveSegment.hxx>
 #include <StepGeom_TransitionCode.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_StepGeom_Curve.hxx>
 class StepGeom_Curve;
 

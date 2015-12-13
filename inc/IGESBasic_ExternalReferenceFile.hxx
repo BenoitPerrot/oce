@@ -6,13 +6,13 @@
 #ifndef _IGESBasic_ExternalReferenceFile_HeaderFile
 #define _IGESBasic_ExternalReferenceFile_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESBasic_ExternalReferenceFile.hxx>
 
 #include <Handle_Interface_HArray1OfHAsciiString.hxx>
 #include <IGESData_IGESEntity.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 class Interface_HArray1OfHAsciiString;
 class Standard_OutOfRange;

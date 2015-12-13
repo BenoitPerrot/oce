@@ -19,7 +19,7 @@
 #include <StepAP203_HArray1OfWorkItem.hxx>
 #include <StepBasic_Action.hxx>
 #include <StepAP203_Change.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepAP203_Change)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepBasic_ActionAssignment),

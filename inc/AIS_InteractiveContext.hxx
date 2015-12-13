@@ -6,8 +6,8 @@
 #ifndef _AIS_InteractiveContext_HeaderFile
 #define _AIS_InteractiveContext_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_AIS_InteractiveContext.hxx>
 
 #include <AIS_DataMapOfIOStatus.hxx>
@@ -17,22 +17,22 @@
 #include <Handle_StdSelect_ViewerSelector3d.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <Handle_AIS_InteractiveObject.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_SelectMgr_OrFilter.hxx>
 #include <Handle_Prs3d_Drawer.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <AIS_DataMapOfILC.hxx>
 #include <Handle_V3d_View.hxx>
 #include <AIS_SequenceOfInteractive.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <AIS_KindOfInteractive.hxx>
 #include <StdSelect_SensitivityMode.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Aspect_TypeOfFacingModel.hxx>
 #include <Graphic3d_NameOfMaterial.hxx>
 #include <Handle_AIS_Drawer.hxx>
-#include <Standard_ShortReal.hxx>
+#include <Foundation/Standard/Standard_ShortReal.hxx>
 #include <AIS_DisplayStatus.hxx>
 #include <AIS_DisplayMode.hxx>
 #include <Handle_Prs3d_LineAspect.hxx>
@@ -45,7 +45,7 @@
 #include <AIS_ClearMode.hxx>
 #include <Handle_SelectMgr_Filter.hxx>
 #include <TopAbs_ShapeEnum.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_AIS_LocalContext.hxx>
 class SelectMgr_SelectionManager;
 class V3d_Viewer;

@@ -5,7 +5,7 @@
 
 #include <TopBas_ListOfTestInterference.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopBas_ListIteratorOfListOfTestInterference.hxx>
 #include <TopBas_TestInterference.hxx>
 #include <TopBas_ListNodeOfListOfTestInterference.hxx>

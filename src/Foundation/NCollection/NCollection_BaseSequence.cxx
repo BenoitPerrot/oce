@@ -16,9 +16,9 @@
 // Purpose:   Implementation of the BaseSequence class
 
 #include <Foundation/NCollection/NCollection_BaseSequence.hxx>
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 
 inline void NCollection_BaseSequence::Nullify ()
 {

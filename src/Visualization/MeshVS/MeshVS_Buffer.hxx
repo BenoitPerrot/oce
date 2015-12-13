@@ -16,7 +16,7 @@
 #ifndef MeshVS_Buffer_HeaderFile
 #define MeshVS_Buffer_HeaderFile
 
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard.hxx>
 
 /**
  * General purpose buffer that is allocated on the stack with a

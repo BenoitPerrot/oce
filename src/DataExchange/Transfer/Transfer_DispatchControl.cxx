@@ -14,9 +14,9 @@
 #include <Transfer_TransientProcess.hxx>
 #include <Interface_InterfaceModel.hxx>
 #include <Interface_InterfaceError.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <Transfer_DispatchControl.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Transfer_DispatchControl)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Interface_CopyControl),

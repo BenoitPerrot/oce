@@ -36,7 +36,7 @@
 #include <Graphic3d_Structure.hxx>
 #include <TColStd_Array2OfReal.hxx>
 #include <Visual3d_View.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Visual3d_View)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Graphic3d_DataStructureManager),

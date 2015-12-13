@@ -5,7 +5,7 @@
 
 #include <IFSelect_SequenceNodeOfSequenceOfAppliedModifiers.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <IFSelect_AppliedModifiers.hxx>
 #include <IFSelect_SequenceOfAppliedModifiers.hxx>

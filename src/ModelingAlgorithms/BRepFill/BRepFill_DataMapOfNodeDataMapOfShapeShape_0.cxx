@@ -5,8 +5,8 @@
 
 #include <BRepFill_DataMapOfNodeDataMapOfShapeShape.hxx>
 
-#include <Standard_DomainError.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <MAT_Node.hxx>
 #include <TopTools_DataMapOfShapeShape.hxx>
 #include <TColStd_MapTransientHasher.hxx>

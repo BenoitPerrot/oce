@@ -6,13 +6,13 @@
 #ifndef _Interface_SignType_HeaderFile
 #define _Interface_SignType_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Interface_SignType.hxx>
 
 #include <MoniTool_SignText.hxx>
 #include <Handle_Standard_Transient.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_Interface_InterfaceModel.hxx>
 class TCollection_AsciiString;
 class Standard_Transient;

@@ -15,7 +15,7 @@
 #include <StepBasic_Approval.hxx>
 #include <StepAP214_AutoDesignGeneralOrgItem.hxx>
 #include <StepAP214_AutoDesignApprovalAssignment.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepAP214_AutoDesignApprovalAssignment)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepBasic_ApprovalAssignment),

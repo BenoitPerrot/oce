@@ -5,7 +5,7 @@
 
 #include <IntTools_SequenceNodeOfSequenceOfPntOn2Faces.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <IntTools_PntOn2Faces.hxx>
 #include <IntTools_SequenceOfPntOn2Faces.hxx>

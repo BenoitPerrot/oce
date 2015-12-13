@@ -20,7 +20,7 @@
 #include <BRep_Builder.hxx>
 #include <OpenGl_GraphicDriver.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
-#include <Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Face.hxx>
 #include <TopoDS_Shape.hxx>

@@ -15,7 +15,7 @@
 #define _Select3D_Pnt_HeaderFile
 
 #include<gp_Pnt.hxx>
-#include<Standard_ShortReal.hxx>
+#include<Foundation/Standard/Standard_ShortReal.hxx>
 #include<Select3D_Macro.hxx>
 
 struct Select3D_Pnt{  

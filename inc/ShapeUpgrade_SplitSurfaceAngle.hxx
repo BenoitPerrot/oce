@@ -6,13 +6,13 @@
 #ifndef _ShapeUpgrade_SplitSurfaceAngle_HeaderFile
 #define _ShapeUpgrade_SplitSurfaceAngle_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ShapeUpgrade_SplitSurfaceAngle.hxx>
 
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <ShapeUpgrade_SplitSurface.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 
 
 //! Splits a surfaces of revolution, cylindrical, toroidal,

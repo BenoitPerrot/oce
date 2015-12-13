@@ -6,13 +6,13 @@
 #ifndef _StepAP214_HArray1OfDateItem_HeaderFile
 #define _StepAP214_HArray1OfDateItem_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepAP214_HArray1OfDateItem.hxx>
 
 #include <StepAP214_Array1OfDateItem.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_DimensionMismatch;
 class Standard_OutOfRange;

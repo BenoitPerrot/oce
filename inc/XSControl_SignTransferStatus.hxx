@@ -6,14 +6,14 @@
 #ifndef _XSControl_SignTransferStatus_HeaderFile
 #define _XSControl_SignTransferStatus_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_XSControl_SignTransferStatus.hxx>
 
 #include <Handle_XSControl_TransferReader.hxx>
 #include <Handle_Transfer_TransientProcess.hxx>
 #include <IFSelect_Signature.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Handle_Interface_InterfaceModel.hxx>
 class XSControl_TransferReader;

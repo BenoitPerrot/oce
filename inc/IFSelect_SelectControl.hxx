@@ -6,13 +6,13 @@
 #ifndef _IFSelect_SelectControl_HeaderFile
 #define _IFSelect_SelectControl_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IFSelect_SelectControl.hxx>
 
 #include <Handle_IFSelect_Selection.hxx>
 #include <IFSelect_Selection.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class IFSelect_Selection;
 class IFSelect_SelectionIterator;
 

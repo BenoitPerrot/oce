@@ -38,7 +38,7 @@
 #include <TopOpeBRepTool_define.hxx>
 #include <TopOpeBRepTool_EXPORT.hxx>
 #include <TopOpeBRepTool_2d.hxx>
-#include <Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
 #include <TopOpeBRepTool_PURGE.hxx>
 
 #ifdef OCCT_DEBUG

@@ -6,7 +6,7 @@
 #ifndef _Aspect_TypeOfHighlightMethod_HeaderFile
 #define _Aspect_TypeOfHighlightMethod_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Definition of a highlight method
 //!

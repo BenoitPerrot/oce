@@ -6,19 +6,19 @@
 #ifndef _BRepFeat_MakeLinearForm_HeaderFile
 #define _BRepFeat_MakeLinearForm_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_Geom_Curve.hxx>
 #include <gp_Vec.hxx>
 #include <Handle_Geom_Plane.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <TopTools_DataMapOfShapeListOfShape.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <BRepFeat_RibSlot.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class Geom_Curve;
 class Geom_Plane;
 class Standard_ConstructionError;

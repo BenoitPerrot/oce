@@ -6,7 +6,7 @@
 #ifndef _CSLib_DerivativeStatus_HeaderFile
 #define _CSLib_DerivativeStatus_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 //! D1uIsNull : ||D1U|| <= Resolution

@@ -17,7 +17,7 @@
 #include <StepData_StepWriter.hxx>
 #include <Interface_EntityIterator.hxx>
 #include <RWStepVisual_RWTextStyleWithBoxCharacteristics.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <StepVisual_TextStyleForDefinedFont.hxx>
 
 #include <StepVisual_HArray1OfBoxCharacteristicSelect.hxx>

@@ -23,7 +23,7 @@
 
 #include <TDF_Data.hxx>
 #include <TDF_Label.hxx>
-#include <Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
 #include <TDF_Attribute.hxx>
 #include <DDF.hxx>
 

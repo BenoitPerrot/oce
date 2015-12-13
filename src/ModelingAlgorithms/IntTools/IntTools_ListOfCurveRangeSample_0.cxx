@@ -5,7 +5,7 @@
 
 #include <IntTools_ListOfCurveRangeSample.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <IntTools_ListIteratorOfListOfCurveRangeSample.hxx>
 #include <IntTools_CurveRangeSample.hxx>
 #include <IntTools_ListNodeOfListOfCurveRangeSample.hxx>

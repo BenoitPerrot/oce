@@ -21,9 +21,9 @@
 #include <Bnd_Box.hxx>
 #include <Graphic3d_ArrayOfPoints.hxx>
 #include <Foundation/Quantity/Quantity_HArray1OfColor.hxx>
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 #include <TColgp_HArray1OfDir.hxx>
 #include <TColgp_HArray1OfPnt.hxx>
 

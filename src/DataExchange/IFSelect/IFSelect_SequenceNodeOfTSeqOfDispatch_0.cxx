@@ -5,7 +5,7 @@
 
 #include <IFSelect_SequenceNodeOfTSeqOfDispatch.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <IFSelect_Dispatch.hxx>
 #include <IFSelect_TSeqOfDispatch.hxx>

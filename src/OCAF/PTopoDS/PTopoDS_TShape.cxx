@@ -17,7 +17,7 @@
 #include <PTopoDS_HArray1OfHShape.hxx>
 #include <PTopoDS_HShape.hxx>
 #include <PTopoDS_TShape.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PTopoDS_TShape)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Standard_Persistent),

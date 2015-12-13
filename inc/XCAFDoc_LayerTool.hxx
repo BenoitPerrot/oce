@@ -6,13 +6,13 @@
 #ifndef _XCAFDoc_LayerTool_HeaderFile
 #define _XCAFDoc_LayerTool_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_XCAFDoc_LayerTool.hxx>
 
 #include <Handle_XCAFDoc_ShapeTool.hxx>
 #include <TDF_Attribute.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_TColStd_HSequenceOfExtendedString.hxx>
 #include <Handle_TDF_Attribute.hxx>
 #include <Handle_TDF_RelocationTable.hxx>

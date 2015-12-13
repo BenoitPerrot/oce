@@ -5,7 +5,7 @@
 
 #include <IGESData_GlobalNodeOfSpecificLib.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <IGESData_SpecificModule.hxx>
 #include <IGESData_Protocol.hxx>

@@ -26,7 +26,7 @@
 #include <TCollection_AsciiString.hxx>
 #include <TDF_Label.hxx>
 #include <DDF_Browser.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DDF_Browser)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Draw_Drawable3D),

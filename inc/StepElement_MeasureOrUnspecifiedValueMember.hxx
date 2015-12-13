@@ -6,14 +6,14 @@
 #ifndef _StepElement_MeasureOrUnspecifiedValueMember_HeaderFile
 #define _StepElement_MeasureOrUnspecifiedValueMember_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepElement_MeasureOrUnspecifiedValueMember.hxx>
 
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <StepData_SelectNamed.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 
 
 //! Representation of member for  STEP SELECT type MeasureOrUnspecifiedValue

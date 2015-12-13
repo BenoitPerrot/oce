@@ -6,8 +6,8 @@
 #ifndef _Transfer_ActorOfTransientProcess_HeaderFile
 #define _Transfer_ActorOfTransientProcess_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Transfer_ActorOfTransientProcess.hxx>
 
 #include <Transfer_ActorOfProcessForTransient.hxx>

@@ -6,8 +6,8 @@
 #ifndef _StepRepr_ValueRange_HeaderFile
 #define _StepRepr_ValueRange_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepRepr_ValueRange.hxx>
 
 #include <StepRepr_CompoundRepresentationItem.hxx>

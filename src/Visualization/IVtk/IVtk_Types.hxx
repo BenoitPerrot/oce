@@ -21,8 +21,8 @@
 #include <Foundation/NCollection/NCollection_TListIterator.hxx>
 #include <Foundation/NCollection/NCollection_DataMap.hxx>
 #include <Foundation/NCollection/NCollection_Map.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 
 typedef Standard_Size IVtk_IdType;
 

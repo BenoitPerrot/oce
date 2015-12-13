@@ -6,8 +6,8 @@
 #ifndef _GeomInt_SequenceNodeOfSequenceOfParameterAndOrientation_HeaderFile
 #define _GeomInt_SequenceNodeOfSequenceOfParameterAndOrientation_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_GeomInt_SequenceNodeOfSequenceOfParameterAndOrientation.hxx>
 
 #include <GeomInt_ParameterAndOrientation.hxx>

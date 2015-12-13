@@ -6,16 +6,16 @@
 #ifndef _IFSelect_Act_HeaderFile
 #define _IFSelect_Act_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IFSelect_Act.hxx>
 
 #include <TCollection_AsciiString.hxx>
 #include <IFSelect_ActFunc.hxx>
 #include <IFSelect_Activator.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 #include <IFSelect_ReturnStatus.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_IFSelect_SessionPilot.hxx>
 class Standard_DomainError;
 class IFSelect_SessionPilot;

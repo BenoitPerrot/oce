@@ -18,7 +18,7 @@
 
 #include <BRepExtrema_DistShapeShape.hxx>
 
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>
 #include <BRepBndLib.hxx>
 #include <Bnd_Box.hxx>

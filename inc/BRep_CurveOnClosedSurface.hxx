@@ -6,8 +6,8 @@
 #ifndef _BRep_CurveOnClosedSurface_HeaderFile
 #define _BRep_CurveOnClosedSurface_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BRep_CurveOnClosedSurface.hxx>
 
 #include <Handle_Geom2d_Curve.hxx>
@@ -15,7 +15,7 @@
 #include <gp_Pnt2d.hxx>
 #include <BRep_CurveOnSurface.hxx>
 #include <Handle_Geom_Surface.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_BRep_CurveRepresentation.hxx>
 class Geom2d_Curve;
 class Geom_Surface;

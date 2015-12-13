@@ -15,7 +15,7 @@
 
 #include <TDataStd_DataMapOfStringHArray1OfInteger.hxx>
 #include <TDataStd_HDataMapOfStringHArray1OfInteger.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDataStd_HDataMapOfStringHArray1OfInteger)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

@@ -6,13 +6,13 @@
 #ifndef _BRepBuilderAPI_Transform_HeaderFile
 #define _BRepBuilderAPI_Transform_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <gp_Trsf.hxx>
 #include <TopLoc_Location.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <BRepBuilderAPI_ModifyShape.hxx>
 class Standard_NoSuchObject;
 class gp_Trsf;

@@ -16,7 +16,7 @@
 
 #ifdef OCCT_DEBUG
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 static Standard_Boolean BRepFeat_traceFEAT = Standard_True;
 Standard_EXPORT void BRepFeat_SettraceFEAT(const Standard_Boolean b) 

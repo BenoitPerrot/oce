@@ -6,11 +6,11 @@
 #ifndef _V3d_UnMapped_HeaderFile
 #define _V3d_UnMapped_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard_DefineException.hxx>
-#include <Standard_SStream.hxx>
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard_DefineException.hxx>
+#include <Foundation/Standard/Standard_SStream.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Handle_V3d_UnMapped.hxx>
 
 #if !defined No_Exception && !defined No_V3d_UnMapped

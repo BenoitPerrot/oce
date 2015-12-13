@@ -22,7 +22,7 @@
 #include <gp_Vec2d.hxx>
 #include <Geom2dGcc_CurveToolGeo.hxx>
 
-#include <Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
 #include <gp.hxx>
 #include <Geom2d_Line.hxx>
 #include <GeomAbs_CurveType.hxx>

@@ -5,7 +5,7 @@
 
 #include <TopTools_DataMapNodeOfDataMapOfIntegerListOfShape.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TopTools_ListOfShape.hxx>
 #include <TColStd_MapIntegerHasher.hxx>
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(TopTools_DataMapNodeOfDataMapOfIntegerListOfShape)
 
 
 #define TheKey Standard_Integer
-#define TheKey_hxx <Standard_Integer.hxx>
+#define TheKey_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheItem TopTools_ListOfShape
 #define TheItem_hxx <TopTools_ListOfShape.hxx>
 #define Hasher TColStd_MapIntegerHasher

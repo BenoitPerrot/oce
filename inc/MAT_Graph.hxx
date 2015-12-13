@@ -6,16 +6,16 @@
 #ifndef _MAT_Graph_HeaderFile
 #define _MAT_Graph_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_MAT_Graph.hxx>
 
 #include <MAT_DataMapOfIntegerArc.hxx>
 #include <MAT_DataMapOfIntegerBasicElt.hxx>
 #include <MAT_DataMapOfIntegerNode.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_MAT_ListOfBisector.hxx>
 #include <Handle_MAT_Arc.hxx>
 #include <Handle_MAT_BasicElt.hxx>

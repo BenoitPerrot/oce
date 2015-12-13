@@ -6,8 +6,8 @@
 #ifndef _StepVisual_PresentationSize_HeaderFile
 #define _StepVisual_PresentationSize_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepVisual_PresentationSize.hxx>
 
 #include <StepVisual_PresentationSizeAssignmentSelect.hxx>

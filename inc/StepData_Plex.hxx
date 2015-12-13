@@ -6,17 +6,17 @@
 #ifndef _StepData_Plex_HeaderFile
 #define _StepData_Plex_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepData_Plex.hxx>
 
 #include <TColStd_SequenceOfTransient.hxx>
 #include <StepData_Described.hxx>
 #include <Handle_StepData_ECDescr.hxx>
 #include <Handle_StepData_Simple.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_CString.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TColStd_HSequenceOfAsciiString.hxx>
 #include <Handle_Interface_Check.hxx>
 class Interface_InterfaceMismatch;

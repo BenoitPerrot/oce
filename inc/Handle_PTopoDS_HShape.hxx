@@ -6,9 +6,9 @@
 #ifndef _Handle_PTopoDS_HShape_HeaderFile
 #define _Handle_PTopoDS_HShape_HeaderFile
 
-#include <Standard_Macro.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Handle_ObjMgt_ExternShareable.hxx>
 
 class Standard_Persistent;

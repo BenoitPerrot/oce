@@ -6,20 +6,20 @@
 #ifndef _Interface_CheckIterator_HeaderFile
 #define _Interface_CheckIterator_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_Interface_HSequenceOfCheck.hxx>
 #include <Handle_TColStd_HSequenceOfInteger.hxx>
 #include <Handle_Interface_InterfaceModel.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <Handle_Interface_IntVal.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_Interface_Check.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Standard_Transient.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Interface_CheckStatus.hxx>
 #include <Handle_TColStd_HSequenceOfTransient.hxx>
 #include <Handle_Message_Messenger.hxx>

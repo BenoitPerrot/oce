@@ -6,15 +6,15 @@
 #ifndef _TopTools_LocationSet_HeaderFile
 #define _TopTools_LocationSet_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TopLoc_IndexedMapOfLocation.hxx>
 #include <Handle_Message_ProgressIndicator.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_OStream.hxx>
-#include <Standard_IStream.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_IStream.hxx>
 class Message_ProgressIndicator;
 class Standard_OutOfRange;
 class TopLoc_Location;

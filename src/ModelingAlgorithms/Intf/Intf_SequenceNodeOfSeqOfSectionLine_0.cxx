@@ -5,7 +5,7 @@
 
 #include <Intf_SequenceNodeOfSeqOfSectionLine.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Intf_SectionLine.hxx>
 #include <Intf_SeqOfSectionLine.hxx>

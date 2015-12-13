@@ -6,18 +6,18 @@
 #ifndef _TDataStd_ReferenceList_HeaderFile
 #define _TDataStd_ReferenceList_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TDataStd_ReferenceList.hxx>
 
 #include <TDF_LabelList.hxx>
 #include <TDF_Attribute.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TDF_Attribute.hxx>
 #include <Handle_TDF_RelocationTable.hxx>
 #include <Handle_TDF_DataSet.hxx>
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 class Standard_GUID;
 class TDF_Label;
 class TDF_LabelList;

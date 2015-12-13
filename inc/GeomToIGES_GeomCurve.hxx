@@ -6,14 +6,14 @@
 #ifndef _GeomToIGES_GeomCurve_HeaderFile
 #define _GeomToIGES_GeomCurve_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <GeomToIGES_GeomEntity.hxx>
 #include <Handle_IGESData_IGESEntity.hxx>
 #include <Handle_Geom_Curve.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Geom_BoundedCurve.hxx>
 #include <Handle_Geom_BSplineCurve.hxx>
 #include <Handle_Geom_BezierCurve.hxx>

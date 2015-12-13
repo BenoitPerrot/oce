@@ -5,7 +5,7 @@
 
 #include <StepToTopoDS_DataMapIteratorOfPointEdgeMap.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <StepToTopoDS_PointPair.hxx>
 #include <TopoDS_Edge.hxx>
 #include <StepToTopoDS_PointPairHasher.hxx>

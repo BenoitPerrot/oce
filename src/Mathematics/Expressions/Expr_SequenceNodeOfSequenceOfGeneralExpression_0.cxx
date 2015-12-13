@@ -5,7 +5,7 @@
 
 #include <Expr_SequenceNodeOfSequenceOfGeneralExpression.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Expr_GeneralExpression.hxx>
 #include <Expr_SequenceOfGeneralExpression.hxx>

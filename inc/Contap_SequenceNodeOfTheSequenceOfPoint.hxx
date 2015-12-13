@@ -6,8 +6,8 @@
 #ifndef _Contap_SequenceNodeOfTheSequenceOfPoint_HeaderFile
 #define _Contap_SequenceNodeOfTheSequenceOfPoint_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Contap_SequenceNodeOfTheSequenceOfPoint.hxx>
 
 #include <Contap_Point.hxx>

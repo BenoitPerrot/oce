@@ -19,15 +19,15 @@
 //#endif
 
 #include <StdFail_NotDone.hxx>
-#include <Standard_DimensionError.hxx>
+#include <Foundation/Standard/Standard_DimensionError.hxx>
 #include <math_Matrix.hxx>
 #include <math_SVD.hxx>
 #include <math_Recipes.hxx>
 
 
 #include <StdFail_NotDone.hxx>
-#include <Standard_DimensionError.hxx>
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_DimensionError.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 
 
 math_SVD::math_SVD (const math_Matrix& A) :

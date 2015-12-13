@@ -6,7 +6,7 @@
 #ifndef _GeomFill_ApproxStyle_HeaderFile
 #define _GeomFill_ApproxStyle_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum GeomFill_ApproxStyle

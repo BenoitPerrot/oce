@@ -28,7 +28,7 @@
 
 #define OCC708          //SAV unsetting transformation correctly
 
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <AIS_Drawer.hxx>
 #include <AIS_InteractiveContext.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
@@ -38,7 +38,7 @@
 #include <Prs3d_Presentation.hxx>
 #include <Prs3d_BasicAspect.hxx>
 #include <AIS_InteractiveObject.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_InteractiveObject)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(SelectMgr_SelectableObject),

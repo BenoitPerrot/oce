@@ -6,12 +6,12 @@
 #ifndef _XSDRAWSTLVRML_DataMapIteratorOfElemNodesMap_HeaderFile
 #define _XSDRAWSTLVRML_DataMapIteratorOfElemNodesMap_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TCollection_BasicMapIterator.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_XSDRAWSTLVRML_DataMapNodeOfElemNodesMap.hxx>
 class Standard_NoSuchObject;
 class TColStd_DataMapOfIntegerInteger;

@@ -5,7 +5,7 @@
 
 #include <HLRBRep_SequenceNodeOfSeqOfShapeBounds.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <HLRBRep_ShapeBounds.hxx>
 #include <HLRBRep_SeqOfShapeBounds.hxx>

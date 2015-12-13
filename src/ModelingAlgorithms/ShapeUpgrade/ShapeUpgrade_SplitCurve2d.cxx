@@ -17,7 +17,7 @@
 #include <Geom2d_Curve.hxx>
 #include <TColGeom2d_HArray1OfCurve.hxx>
 #include <ShapeUpgrade_SplitCurve2d.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeUpgrade_SplitCurve2d)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(ShapeUpgrade_SplitCurve),
@@ -34,8 +34,8 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_SplitCurve2d)
 #include <TColGeom2d_HArray1OfCurve.hxx>
 #include <Geom2d_TrimmedCurve.hxx>
 #include <Geom2d_OffsetCurve.hxx>
-#include <Standard_ErrorHandler.hxx>
-#include <Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
 #include <ShapeExtend.hxx>
 #include <Precision.hxx>
 #include <Geom2d_BezierCurve.hxx>

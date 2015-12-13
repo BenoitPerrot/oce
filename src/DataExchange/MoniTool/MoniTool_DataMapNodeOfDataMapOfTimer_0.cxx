@@ -5,7 +5,7 @@
 
 #include <MoniTool_DataMapNodeOfDataMapOfTimer.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <MoniTool_Timer.hxx>
 #include <MoniTool_MTHasher.hxx>
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(MoniTool_DataMapNodeOfDataMapOfTimer)
 
 
 #define TheKey Standard_CString
-#define TheKey_hxx <Standard_CString.hxx>
+#define TheKey_hxx <Foundation/Standard/Standard_CString.hxx>
 #define TheItem Handle(MoniTool_Timer)
 #define TheItem_hxx <MoniTool_Timer.hxx>
 #define Hasher MoniTool_MTHasher

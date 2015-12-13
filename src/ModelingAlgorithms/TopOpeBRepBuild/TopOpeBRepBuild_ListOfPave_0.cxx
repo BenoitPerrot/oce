@@ -5,7 +5,7 @@
 
 #include <TopOpeBRepBuild_ListOfPave.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopOpeBRepBuild_ListIteratorOfListOfPave.hxx>
 #include <TopOpeBRepBuild_Pave.hxx>
 #include <TopOpeBRepBuild_ListNodeOfListOfPave.hxx>

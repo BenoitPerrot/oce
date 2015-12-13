@@ -18,7 +18,7 @@
 #include <TDocStd_Document.hxx>
 #include <TDocStd_SequenceOfDocument.hxx>
 #include <TDocStd_MultiTransactionManager.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDocStd_MultiTransactionManager)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

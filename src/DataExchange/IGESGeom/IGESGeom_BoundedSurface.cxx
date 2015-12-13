@@ -18,10 +18,10 @@
 
 #include <IGESData_IGESEntity.hxx>
 #include <IGESGeom_HArray1OfBoundary.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <IGESGeom_Boundary.hxx>
 #include <IGESGeom_BoundedSurface.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESGeom_BoundedSurface)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(IGESData_IGESEntity),
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESGeom_BoundedSurface)
 IMPLEMENT_DOWNCAST(IGESGeom_BoundedSurface,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESGeom_BoundedSurface)
-#include <Standard_DimensionMismatch.hxx>
+#include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 
 
 IGESGeom_BoundedSurface::IGESGeom_BoundedSurface ()    {  }

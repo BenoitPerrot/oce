@@ -6,13 +6,13 @@
 #ifndef _StepBasic_CoordinatedUniversalTimeOffset_HeaderFile
 #define _StepBasic_CoordinatedUniversalTimeOffset_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepBasic_CoordinatedUniversalTimeOffset.hxx>
 
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <StepBasic_AheadOrBehind.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 
 

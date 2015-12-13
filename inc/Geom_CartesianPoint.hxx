@@ -6,13 +6,13 @@
 #ifndef _Geom_CartesianPoint_HeaderFile
 #define _Geom_CartesianPoint_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Geom_CartesianPoint.hxx>
 
 #include <gp_Pnt.hxx>
 #include <Geom_Point.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Geom_Geometry.hxx>
 class gp_Pnt;
 class gp_Trsf;

@@ -5,7 +5,7 @@
 
 #include <MeshVS_DataMapNodeOfDataMapOfTwoColorsMapOfInteger.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TColStd_MapOfInteger.hxx>
 #include <MeshVS_TwoColorsHasher.hxx>

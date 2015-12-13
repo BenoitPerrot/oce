@@ -6,13 +6,13 @@
 #ifndef _StepData_SelectArrReal_HeaderFile
 #define _StepData_SelectArrReal_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepData_SelectArrReal.hxx>
 
 #include <Handle_TColStd_HArray1OfReal.hxx>
 #include <StepData_SelectNamed.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class TColStd_HArray1OfReal;
 
 

@@ -20,7 +20,7 @@
 #include <MeshVS_DataMapOfIntegerVector.hxx>
 #include <gp_Vec.hxx>
 #include <MeshVS_DeformedDataSource.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MeshVS_DeformedDataSource)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MeshVS_DataSource),

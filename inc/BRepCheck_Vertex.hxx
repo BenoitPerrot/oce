@@ -6,12 +6,12 @@
 #ifndef _BRepCheck_Vertex_HeaderFile
 #define _BRepCheck_Vertex_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BRepCheck_Vertex.hxx>
 
 #include <BRepCheck_Result.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class TopoDS_Vertex;
 class TopoDS_Shape;
 

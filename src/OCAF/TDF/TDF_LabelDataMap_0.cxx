@@ -5,8 +5,8 @@
 
 #include <TDF_LabelDataMap.hxx>
 
-#include <Standard_DomainError.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TDF_Label.hxx>
 #include <TDF_LabelMapHasher.hxx>
 #include <TDF_DataMapNodeOfLabelDataMap.hxx>

@@ -6,15 +6,15 @@
 #ifndef _AIS_MapOfInteractive_HeaderFile
 #define _AIS_MapOfInteractive_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TCollection_BasicMap.hxx>
 #include <Handle_AIS_InteractiveObject.hxx>
 #include <Handle_AIS_StdMapNodeOfMapOfInteractive.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class AIS_InteractiveObject;
 class TColStd_MapTransientHasher;
 class AIS_StdMapNodeOfMapOfInteractive;

@@ -6,16 +6,16 @@
 #ifndef _Expr_UnaryFunction_HeaderFile
 #define _Expr_UnaryFunction_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Expr_UnaryFunction.hxx>
 
 #include <Handle_Expr_GeneralFunction.hxx>
 #include <Expr_UnaryExpression.hxx>
 #include <Handle_Expr_GeneralExpression.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Expr_NamedUnknown.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class Expr_GeneralFunction;
 class Expr_InvalidFunction;
 class Standard_NumericError;

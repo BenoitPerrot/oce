@@ -28,7 +28,7 @@
 #include <BRepTools.hxx>
 #include <ElSLib.hxx>
 #include <Precision.hxx>
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 
 
 //=======================================================================

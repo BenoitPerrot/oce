@@ -6,21 +6,21 @@
 #ifndef _Contap_ArcFunction_HeaderFile
 #define _Contap_ArcFunction_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_Adaptor2d_HCurve2d.hxx>
 #include <Handle_Adaptor3d_HSurface.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Contap_TFunction.hxx>
 #include <gp_Dir.hxx>
 #include <gp_Pnt.hxx>
 #include <TColgp_SequenceOfPnt.hxx>
 #include <IntSurf_Quadric.hxx>
 #include <math_FunctionWithDerivative.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Adaptor2d_HCurve2d;
 class Adaptor3d_HSurface;
 class gp_Dir;

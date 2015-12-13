@@ -6,9 +6,9 @@
 #ifndef _PTopoDS_HShape_HeaderFile
 #define _PTopoDS_HShape_HeaderFile
 
-#include <Standard_Macro.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Handle_PTopoDS_HShape.hxx>
 
 #include <Handle_PTopoDS_TShape.hxx>

@@ -6,16 +6,16 @@
 #ifndef _IntPatch_PrmPrmIntersection_HeaderFile
 #define _IntPatch_PrmPrmIntersection_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <IntPatch_SequenceOfLine.hxx>
 #include <Handle_Adaptor3d_HSurface.hxx>
 #include <Handle_Adaptor3d_TopolTool.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_IntPatch_Line.hxx>
 #include <Handle_IntSurf_LineOn2S.hxx>
 #include <IntPatch_Polyhedron.hxx>

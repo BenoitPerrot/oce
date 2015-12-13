@@ -6,13 +6,13 @@
 #ifndef _Sweep_NumShapeIterator_HeaderFile
 #define _Sweep_NumShapeIterator_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Sweep_NumShape.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <TopAbs_Orientation.hxx>
 class Standard_NoMoreObject;
 class Standard_NoSuchObject;

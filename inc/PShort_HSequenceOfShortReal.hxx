@@ -6,17 +6,17 @@
 #ifndef _PShort_HSequenceOfShortReal_HeaderFile
 #define _PShort_HSequenceOfShortReal_HeaderFile
 
-#include <Standard_Macro.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Handle_PShort_HSequenceOfShortReal.hxx>
 
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_ShortReal.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_ShortReal.hxx>
 #include <Handle_PShort_HSequenceOfShortReal.hxx>
 #include <Handle_PShort_SeqNodeOfHSequenceOfShortReal.hxx>
-#include <Standard_Persistent.hxx>
+#include <Foundation/Standard/Standard_Persistent.hxx>
 class PShort_SeqNodeOfHSequenceOfShortReal;
 class Standard_NoSuchObject;
 class Standard_OutOfRange;

@@ -5,7 +5,7 @@
 
 #include <TDataStd_DataMapIteratorOfDataMapOfStringReal.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TCollection_ExtendedString.hxx>
 #include <TDataStd_DataMapOfStringReal.hxx>
 #include <TDataStd_DataMapNodeOfDataMapOfStringReal.hxx>
@@ -14,7 +14,7 @@
 #define TheKey TCollection_ExtendedString
 #define TheKey_hxx <TCollection_ExtendedString.hxx>
 #define TheItem Standard_Real
-#define TheItem_hxx <Standard_Real.hxx>
+#define TheItem_hxx <Foundation/Standard/Standard_Real.hxx>
 #define Hasher TCollection_ExtendedString
 #define Hasher_hxx <TCollection_ExtendedString.hxx>
 #define TCollection_DataMapNode TDataStd_DataMapNodeOfDataMapOfStringReal

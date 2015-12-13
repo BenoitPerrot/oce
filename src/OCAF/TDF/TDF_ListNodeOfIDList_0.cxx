@@ -5,9 +5,9 @@
 
 #include <TDF_ListNodeOfIDList.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
-#include <Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
 #include <TDF_IDList.hxx>
 #include <TDF_ListIteratorOfIDList.hxx>
 
@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_RTTI(TDF_ListNodeOfIDList)
 
 
 #define Item Standard_GUID
-#define Item_hxx <Standard_GUID.hxx>
+#define Item_hxx <Foundation/Standard/Standard_GUID.hxx>
 #define TCollection_ListNode TDF_ListNodeOfIDList
 #define TCollection_ListNode_hxx <TDF_ListNodeOfIDList.hxx>
 #define TCollection_ListIterator TDF_ListIteratorOfIDList

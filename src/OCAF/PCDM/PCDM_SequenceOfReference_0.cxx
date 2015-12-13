@@ -5,8 +5,8 @@
 
 #include <PCDM_SequenceOfReference.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <PCDM_Reference.hxx>
 #include <PCDM_SequenceNodeOfSequenceOfReference.hxx>
  

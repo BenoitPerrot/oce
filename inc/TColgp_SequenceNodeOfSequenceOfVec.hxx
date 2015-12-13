@@ -6,8 +6,8 @@
 #ifndef _TColgp_SequenceNodeOfSequenceOfVec_HeaderFile
 #define _TColgp_SequenceNodeOfSequenceOfVec_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TColgp_SequenceNodeOfSequenceOfVec.hxx>
 
 #include <gp_Vec.hxx>

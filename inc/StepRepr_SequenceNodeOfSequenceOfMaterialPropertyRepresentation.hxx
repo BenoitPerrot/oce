@@ -6,8 +6,8 @@
 #ifndef _StepRepr_SequenceNodeOfSequenceOfMaterialPropertyRepresentation_HeaderFile
 #define _StepRepr_SequenceNodeOfSequenceOfMaterialPropertyRepresentation_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepRepr_SequenceNodeOfSequenceOfMaterialPropertyRepresentation.hxx>
 
 #include <Handle_StepRepr_MaterialPropertyRepresentation.hxx>

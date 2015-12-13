@@ -6,7 +6,7 @@
 #ifndef _AIS_KindOfSurface_HeaderFile
 #define _AIS_KindOfSurface_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum AIS_KindOfSurface

@@ -6,9 +6,9 @@
 #ifndef _Plate_D3_HeaderFile
 #define _Plate_D3_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <gp_XYZ.hxx>
 class Plate_GtoCConstraint;

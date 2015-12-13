@@ -13,7 +13,7 @@
 // commercial license or contractual agreement.
 
 #include <Graphic3d_ArrayOfQuadrangleStrips.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Graphic3d_ArrayOfQuadrangleStrips)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Graphic3d_ArrayOfPrimitives),

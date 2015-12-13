@@ -6,14 +6,14 @@
 #ifndef _Draw_SequenceOfDrawable3D_HeaderFile
 #define _Draw_SequenceOfDrawable3D_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TCollection_BaseSequence.hxx>
 #include <Handle_Draw_Drawable3D.hxx>
 #include <Handle_Draw_SequenceNodeOfSequenceOfDrawable3D.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;
 class Standard_OutOfRange;
 class Draw_Drawable3D;

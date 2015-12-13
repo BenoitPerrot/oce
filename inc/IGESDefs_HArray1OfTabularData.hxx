@@ -6,14 +6,14 @@
 #ifndef _IGESDefs_HArray1OfTabularData_HeaderFile
 #define _IGESDefs_HArray1OfTabularData_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESDefs_HArray1OfTabularData.hxx>
 
 #include <IGESDefs_Array1OfTabularData.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_IGESDefs_TabularData.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_DimensionMismatch;
 class Standard_OutOfRange;

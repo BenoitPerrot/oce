@@ -16,7 +16,7 @@
 
 #include <PNaming_Name.hxx>
 #include <PNaming_Naming.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PNaming_Naming)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(PDF_Attribute),

@@ -6,13 +6,13 @@
 #ifndef _StepAP214_AppliedPresentedItem_HeaderFile
 #define _StepAP214_AppliedPresentedItem_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepAP214_AppliedPresentedItem.hxx>
 
 #include <Handle_StepAP214_HArray1OfPresentedItemSelect.hxx>
 #include <StepVisual_PresentedItem.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class StepAP214_HArray1OfPresentedItemSelect;
 class StepAP214_PresentedItemSelect;
 

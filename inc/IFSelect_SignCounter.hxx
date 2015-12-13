@@ -6,21 +6,21 @@
 #ifndef _IFSelect_SignCounter_HeaderFile
 #define _IFSelect_SignCounter_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IFSelect_SignCounter.hxx>
 
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <TColStd_MapOfTransient.hxx>
 #include <Handle_IFSelect_Signature.hxx>
 #include <Handle_IFSelect_Selection.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <IFSelect_SignatureList.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Handle_Interface_InterfaceModel.hxx>
 #include <Handle_TColStd_HSequenceOfTransient.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 class IFSelect_Signature;
 class IFSelect_Selection;
 class Standard_Transient;

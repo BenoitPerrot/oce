@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <StepGeom_Pcurve.hxx>
 #include <StepGeom_SurfaceCurve.hxx>
 #include <StepGeom_CompositeCurveOnSurface.hxx>

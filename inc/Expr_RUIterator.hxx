@@ -6,14 +6,14 @@
 #ifndef _Expr_RUIterator_HeaderFile
 #define _Expr_RUIterator_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Expr_MapOfNamedUnknown.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Expr_GeneralRelation.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Expr_NamedUnknown.hxx>
 class Standard_NoMoreObject;
 class Standard_NoSuchObject;

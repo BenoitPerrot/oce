@@ -5,7 +5,7 @@
 
 #include <ChFiKPart_DataMapIteratorOfRstMap.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Adaptor2d_HCurve2d.hxx>
 #include <TColStd_MapIntegerHasher.hxx>
 #include <ChFiKPart_RstMap.hxx>
@@ -13,7 +13,7 @@
  
 
 #define TheKey Standard_Integer
-#define TheKey_hxx <Standard_Integer.hxx>
+#define TheKey_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheItem Handle(Adaptor2d_HCurve2d)
 #define TheItem_hxx <Adaptor2d_HCurve2d.hxx>
 #define Hasher TColStd_MapIntegerHasher

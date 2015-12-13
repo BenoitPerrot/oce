@@ -6,11 +6,11 @@
 #ifndef _PCDM_Writer_HeaderFile
 #define _PCDM_Writer_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_PCDM_Writer.hxx>
 
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <Handle_CDM_Document.hxx>
 class PCDM_DriverError;
 class CDM_Document;

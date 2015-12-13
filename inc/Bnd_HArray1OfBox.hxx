@@ -6,13 +6,13 @@
 #ifndef _Bnd_HArray1OfBox_HeaderFile
 #define _Bnd_HArray1OfBox_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Bnd_HArray1OfBox.hxx>
 
 #include <Bnd_Array1OfBox.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_DimensionMismatch;
 class Standard_OutOfRange;

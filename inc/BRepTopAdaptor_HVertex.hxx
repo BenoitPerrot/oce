@@ -6,17 +6,17 @@
 #ifndef _BRepTopAdaptor_HVertex_HeaderFile
 #define _BRepTopAdaptor_HVertex_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BRepTopAdaptor_HVertex.hxx>
 
 #include <TopoDS_Vertex.hxx>
 #include <Handle_BRepAdaptor_HCurve2d.hxx>
 #include <Adaptor3d_HVertex.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Adaptor2d_HCurve2d.hxx>
 #include <TopAbs_Orientation.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Adaptor3d_HVertex.hxx>
 class BRepAdaptor_HCurve2d;
 class TopoDS_Vertex;

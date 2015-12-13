@@ -18,7 +18,7 @@
 #define No_Standard_DimensionError
 //#endif
 
-#include <Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
 #include <StdFail_NotDone.hxx>
 #include <math_FunctionWithDerivative.hxx>
 #include <math_FunctionRoot.hxx>

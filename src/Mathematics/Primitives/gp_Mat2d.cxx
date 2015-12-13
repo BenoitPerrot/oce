@@ -19,19 +19,19 @@
 #define No_Standard_ConstructionError
 #endif
 
-#include <Standard_ConstructionError.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <gp_Trsf2d.hxx>
 #include <gp_GTrsf2d.hxx>
 #include <gp_XY.hxx>
 #include <gp_Mat2d.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(gp_Mat2d)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Standard_Storable),
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(gp_Mat2d)
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 
 gp_Mat2d::gp_Mat2d (const gp_XY& Col1, const gp_XY& Col2)
 {

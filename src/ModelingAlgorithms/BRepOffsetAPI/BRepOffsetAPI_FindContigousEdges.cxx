@@ -15,8 +15,8 @@
 // commercial license or contractual agreement.
 
 #include <BRepBuilderAPI_Sewing.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopTools_ListOfShape.hxx>

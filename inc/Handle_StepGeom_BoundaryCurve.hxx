@@ -6,8 +6,8 @@
 #ifndef _Handle_StepGeom_BoundaryCurve_HeaderFile
 #define _Handle_StepGeom_BoundaryCurve_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepGeom_CompositeCurveOnSurface.hxx>
 
 class Standard_Transient;

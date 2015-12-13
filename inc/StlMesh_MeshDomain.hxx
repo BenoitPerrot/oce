@@ -6,16 +6,16 @@
 #ifndef _StlMesh_MeshDomain_HeaderFile
 #define _StlMesh_MeshDomain_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StlMesh_MeshDomain.hxx>
 
-#include <Standard_Real.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <TColgp_SequenceOfXYZ.hxx>
 #include <StlMesh_SequenceOfMeshTriangle.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_NegativeValue;
 class Standard_NullValue;
 class StlMesh_SequenceOfMeshTriangle;

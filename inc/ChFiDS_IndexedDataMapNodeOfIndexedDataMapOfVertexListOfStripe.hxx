@@ -6,12 +6,12 @@
 #ifndef _ChFiDS_IndexedDataMapNodeOfIndexedDataMapOfVertexListOfStripe_HeaderFile
 #define _ChFiDS_IndexedDataMapNodeOfIndexedDataMapOfVertexListOfStripe_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ChFiDS_IndexedDataMapNodeOfIndexedDataMapOfVertexListOfStripe.hxx>
 
 #include <TopoDS_Vertex.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <ChFiDS_ListOfStripe.hxx>
 #include <TCollection_MapNodePtr.hxx>
 #include <TCollection_MapNode.hxx>

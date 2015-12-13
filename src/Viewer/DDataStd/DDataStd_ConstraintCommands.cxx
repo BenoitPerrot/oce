@@ -35,7 +35,7 @@
 #include <TDataXtd_Position.hxx>
 #include <TCollection_AsciiString.hxx>
 
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 //=======================================================================
 //function : DDataStd_SetConstraint

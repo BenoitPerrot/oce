@@ -6,8 +6,8 @@
 #ifndef _Handle_StepGeom_GeometricRepresentationItem_HeaderFile
 #define _Handle_StepGeom_GeometricRepresentationItem_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepRepr_RepresentationItem.hxx>
 
 class Standard_Transient;

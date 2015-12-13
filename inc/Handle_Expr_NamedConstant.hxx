@@ -6,8 +6,8 @@
 #ifndef _Handle_Expr_NamedConstant_HeaderFile
 #define _Handle_Expr_NamedConstant_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Expr_NamedExpression.hxx>
 
 class Standard_Transient;

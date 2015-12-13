@@ -5,12 +5,12 @@
 
 #include <StepData_GlobalNodeOfWriterLib.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <StepData_ReadWriteModule.hxx>
 #include <StepData_Protocol.hxx>
 #include <StepData_GlobalNodeOfWriterLib.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <StepData_WriterLib.hxx>
 #include <StepData_NodeOfWriterLib.hxx>
 
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(StepData_GlobalNodeOfWriterLib)
 
 
 #define TheObject Handle(Standard_Transient)
-#define TheObject_hxx <Standard_Transient.hxx>
+#define TheObject_hxx <Foundation/Standard/Standard_Transient.hxx>
 #define Handle_TheModule Handle_StepData_ReadWriteModule
 #define TheModule StepData_ReadWriteModule
 #define TheModule_hxx <StepData_ReadWriteModule.hxx>

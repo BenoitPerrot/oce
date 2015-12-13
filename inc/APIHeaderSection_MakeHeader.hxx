@@ -6,17 +6,17 @@
 #ifndef _APIHeaderSection_MakeHeader_HeaderFile
 #define _APIHeaderSection_MakeHeader_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_HeaderSection_FileName.hxx>
 #include <Handle_HeaderSection_FileSchema.hxx>
 #include <Handle_HeaderSection_FileDescription.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_StepData_StepModel.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_Interface_Protocol.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Handle_Interface_HArray1OfHAsciiString.hxx>

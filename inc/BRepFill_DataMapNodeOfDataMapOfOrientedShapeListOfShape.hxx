@@ -6,8 +6,8 @@
 #ifndef _BRepFill_DataMapNodeOfDataMapOfOrientedShapeListOfShape_HeaderFile
 #define _BRepFill_DataMapNodeOfDataMapOfOrientedShapeListOfShape_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BRepFill_DataMapNodeOfDataMapOfOrientedShapeListOfShape.hxx>
 
 #include <TopoDS_Shape.hxx>

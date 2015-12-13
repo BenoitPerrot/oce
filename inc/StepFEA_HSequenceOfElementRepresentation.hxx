@@ -6,15 +6,15 @@
 #ifndef _StepFEA_HSequenceOfElementRepresentation_HeaderFile
 #define _StepFEA_HSequenceOfElementRepresentation_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepFEA_HSequenceOfElementRepresentation.hxx>
 
 #include <StepFEA_SequenceOfElementRepresentation.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_StepFEA_ElementRepresentation.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;
 class Standard_OutOfRange;
 class StepFEA_ElementRepresentation;

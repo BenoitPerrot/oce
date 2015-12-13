@@ -5,7 +5,7 @@
 
 #include <TDataStd_DataMapIteratorOfDataMapOfStringString.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TCollection_ExtendedString.hxx>
 #include <TDataStd_DataMapOfStringString.hxx>
 #include <TDataStd_DataMapNodeOfDataMapOfStringString.hxx>

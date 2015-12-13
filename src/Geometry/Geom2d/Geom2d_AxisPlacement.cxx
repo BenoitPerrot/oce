@@ -20,7 +20,7 @@
 #include <gp_Trsf2d.hxx>
 #include <Geom2d_Geometry.hxx>
 #include <Geom2d_AxisPlacement.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Geom2d_AxisPlacement)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Geom2d_Geometry),

@@ -19,7 +19,7 @@
 #include <gp_XY.hxx>
 #include <Bnd_B2d.hxx>
 #include <Bnd_Box2d.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Foundation/NCollection/NCollection_List.hxx>
 #include <Foundation/NCollection/NCollection_Map.hxx>
 #include <Foundation/NCollection/NCollection_Vector.hxx>

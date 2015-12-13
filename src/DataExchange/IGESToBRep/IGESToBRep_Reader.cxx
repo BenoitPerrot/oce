@@ -20,8 +20,8 @@
 #include <Transfer_TransientProcess.hxx>
 #include <TopoDS_Shape.hxx>
 #include <IGESToBRep_Reader.hxx>
-#include <Standard_ErrorHandler.hxx>
-#include <Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
 #include <Foundation/OSD/OSD_Timer.hxx>
 
 #include <gp_Trsf.hxx>

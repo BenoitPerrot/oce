@@ -6,19 +6,19 @@
 #ifndef _WNT_Window_HeaderFile
 #define _WNT_Window_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_WNT_Window.hxx>
 
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_WNT_WClass.hxx>
 #include <Aspect_Handle.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Aspect_Window.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 #include <WNT_Dword.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
-#include <Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
 #include <Aspect_TypeOfResize.hxx>
 #include <Foundation/Quantity/Quantity_Ratio.hxx>
 #include <Aspect_Drawable.hxx>

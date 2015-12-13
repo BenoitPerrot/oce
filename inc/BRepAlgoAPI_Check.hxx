@@ -6,14 +6,14 @@
 #ifndef _BRepAlgoAPI_Check_HeaderFile
 #define _BRepAlgoAPI_Check_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TopoDS_Shape.hxx>
 #include <BOPAlgo_PArgumentAnalyzer.hxx>
 #include <BOPAlgo_ListOfCheckResult.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <BOPAlgo_Operation.hxx>
 class TopoDS_Shape;
 

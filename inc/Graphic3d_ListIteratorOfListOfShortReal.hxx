@@ -6,14 +6,14 @@
 #ifndef _Graphic3d_ListIteratorOfListOfShortReal_HeaderFile
 #define _Graphic3d_ListIteratorOfListOfShortReal_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Address.hxx>
-#include <Standard_ShortReal.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
+#include <Foundation/Standard/Standard_ShortReal.hxx>
 #include <Handle_Graphic3d_ListNodeOfListOfShortReal.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_NoMoreObject;
 class Standard_NoSuchObject;
 class Graphic3d_ListOfShortReal;
@@ -61,7 +61,7 @@ private:
 };
 
 #define Item Standard_ShortReal
-#define Item_hxx <Standard_ShortReal.hxx>
+#define Item_hxx <Foundation/Standard/Standard_ShortReal.hxx>
 #define TCollection_ListNode Graphic3d_ListNodeOfListOfShortReal
 #define TCollection_ListNode_hxx <Graphic3d_ListNodeOfListOfShortReal.hxx>
 #define TCollection_ListIterator Graphic3d_ListIteratorOfListOfShortReal

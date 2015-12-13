@@ -17,7 +17,7 @@
 
 #include <TCollection_HAsciiString.hxx>
 #include <Font_SystemFont.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Font_SystemFont)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

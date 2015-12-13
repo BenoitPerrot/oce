@@ -6,14 +6,14 @@
 #ifndef _IGESBasic_SingularSubfigure_HeaderFile
 #define _IGESBasic_SingularSubfigure_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESBasic_SingularSubfigure.hxx>
 
 #include <Handle_IGESBasic_SubfigureDef.hxx>
 #include <gp_XYZ.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <IGESData_IGESEntity.hxx>
 class IGESBasic_SubfigureDef;
 class gp_XYZ;

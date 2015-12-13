@@ -33,7 +33,7 @@
 #include <BRep_Builder.hxx>
 #include <BRepTools_Modifier.hxx>
 #include <ShapeBuild_ReShape.hxx>
-#include <Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
 
 #include <Foundation/Message/Message_ProgressIndicator.hxx>
 #include <Foundation/Message/Message_ProgressSentry.hxx>

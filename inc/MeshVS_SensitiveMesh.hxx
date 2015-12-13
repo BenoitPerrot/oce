@@ -6,19 +6,19 @@
 #ifndef _MeshVS_SensitiveMesh_HeaderFile
 #define _MeshVS_SensitiveMesh_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_MeshVS_SensitiveMesh.hxx>
 
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Bnd_Box.hxx>
 #include <Bnd_Box2d.hxx>
 #include <Select3D_SensitiveEntity.hxx>
 #include <Handle_SelectBasics_EntityOwner.hxx>
 #include <Handle_Select3D_SensitiveEntity.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <SelectBasics_PickArgs.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Select3D_Projector.hxx>
 class SelectBasics_EntityOwner;
 class Select3D_SensitiveEntity;

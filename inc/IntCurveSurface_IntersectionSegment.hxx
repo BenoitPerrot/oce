@@ -6,9 +6,9 @@
 #ifndef _IntCurveSurface_IntersectionSegment_HeaderFile
 #define _IntCurveSurface_IntersectionSegment_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <IntCurveSurface_IntersectionPoint.hxx>
 class IntCurveSurface_IntersectionPoint;

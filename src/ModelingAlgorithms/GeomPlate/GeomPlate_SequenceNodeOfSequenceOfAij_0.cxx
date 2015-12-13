@@ -5,7 +5,7 @@
 
 #include <GeomPlate_SequenceNodeOfSequenceOfAij.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <GeomPlate_Aij.hxx>
 #include <GeomPlate_SequenceOfAij.hxx>

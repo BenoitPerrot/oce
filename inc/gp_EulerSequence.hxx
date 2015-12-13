@@ -6,7 +6,7 @@
 #ifndef _gp_EulerSequence_HeaderFile
 #define _gp_EulerSequence_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum gp_EulerSequence

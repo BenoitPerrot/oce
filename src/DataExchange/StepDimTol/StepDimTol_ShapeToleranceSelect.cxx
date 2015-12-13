@@ -15,7 +15,7 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <StepDimTol_GeometricTolerance.hxx>
 #include <StepShape_PlusMinusTolerance.hxx>
 #include <StepDimTol_ShapeToleranceSelect.hxx>

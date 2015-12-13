@@ -19,7 +19,7 @@
 #include <TCollection_ExtendedString.hxx>
 #include <CDM_Application.hxx>
 #include <PCDM_Reader.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PCDM_Reader)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Standard_Transient),

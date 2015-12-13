@@ -6,25 +6,25 @@
 #ifndef _Visual3d_Layer_HeaderFile
 #define _Visual3d_Layer_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Visual3d_Layer.hxx>
 
 #include <Handle_Graphic3d_GraphicDriver.hxx>
 #include <Aspect_CLayer2d.hxx>
-#include <Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
 #include <Visual3d_NListOfLayerItem.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Visual3d_ViewManager.hxx>
 #include <Aspect_TypeOfLayer.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_CString.hxx>
-#include <Standard_ShortReal.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
+#include <Foundation/Standard/Standard_ShortReal.hxx>
 #include <Aspect_TypeOfLine.hxx>
 #include <Aspect_TypeOfDisplayText.hxx>
 #include <Aspect_TypeOfConstraint.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Visual3d_LayerItem.hxx>
 class Graphic3d_GraphicDriver;
 class Visual3d_LayerDefinitionError;

@@ -6,14 +6,14 @@
 #ifndef _Prs3d_PlaneAspect_HeaderFile
 #define _Prs3d_PlaneAspect_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Prs3d_PlaneAspect.hxx>
 
 #include <Handle_Prs3d_LineAspect.hxx>
 #include <Foundation/Quantity/Quantity_Length.hxx>
 #include <Foundation/Quantity/Quantity_PlaneAngle.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Prs3d_BasicAspect.hxx>
 class Prs3d_LineAspect;
 

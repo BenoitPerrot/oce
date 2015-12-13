@@ -6,12 +6,12 @@
 #ifndef _TopOpeBRepDS_IndexedDataMapNodeOfIndexedDataMapOfVertexPoint_HeaderFile
 #define _TopOpeBRepDS_IndexedDataMapNodeOfIndexedDataMapOfVertexPoint_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TopOpeBRepDS_IndexedDataMapNodeOfIndexedDataMapOfVertexPoint.hxx>
 
 #include <TopoDS_Shape.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <TopOpeBRepDS_Point.hxx>
 #include <TCollection_MapNodePtr.hxx>
 #include <TCollection_MapNode.hxx>

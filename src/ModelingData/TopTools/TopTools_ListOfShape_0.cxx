@@ -5,7 +5,7 @@
 
 #include <TopTools_ListOfShape.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopTools_ListNodeOfListOfShape.hxx>

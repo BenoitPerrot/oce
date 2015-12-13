@@ -19,8 +19,8 @@
 #include <TColgp_HArray1OfPnt2d.hxx>
 #include <TColStd_HArray1OfReal.hxx>
 #include <TColStd_HArray1OfInteger.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <gp_Pnt2d.hxx>
 #include <Convert_ConicToBSplineCurve.hxx>
 #include <Convert_CosAndSinEvalFunction.hxx>
@@ -38,8 +38,8 @@
 #include <BSplCLib.hxx>
 #include <Precision.hxx>
 #include <gp.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 
 //=======================================================================
 //function : Convert_ConicToBSplineCurve

@@ -5,7 +5,7 @@
 
 #include <STEPCAFControl_DataMapNodeOfDataMapOfSDRExternFile.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <StepShape_ShapeDefinitionRepresentation.hxx>
 #include <STEPCAFControl_ExternFile.hxx>

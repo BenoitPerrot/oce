@@ -6,15 +6,15 @@
 #ifndef _IGESDimen_DiameterDimension_HeaderFile
 #define _IGESDimen_DiameterDimension_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESDimen_DiameterDimension.hxx>
 
 #include <Handle_IGESDimen_GeneralNote.hxx>
 #include <Handle_IGESDimen_LeaderArrow.hxx>
 #include <gp_XY.hxx>
 #include <IGESData_IGESEntity.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class IGESDimen_GeneralNote;
 class IGESDimen_LeaderArrow;
 class gp_XY;

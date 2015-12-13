@@ -6,8 +6,8 @@
 #ifndef _Handle_FEmTool_LinearJerk_HeaderFile
 #define _Handle_FEmTool_LinearJerk_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_FEmTool_ElementaryCriterion.hxx>
 
 class Standard_Transient;

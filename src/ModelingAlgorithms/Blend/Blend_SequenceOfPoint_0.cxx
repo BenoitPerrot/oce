@@ -5,8 +5,8 @@
 
 #include <Blend_SequenceOfPoint.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Blend_Point.hxx>
 #include <Blend_SequenceNodeOfSequenceOfPoint.hxx>
  

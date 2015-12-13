@@ -36,8 +36,8 @@
 
 #include <Precision.hxx>
 
-#include <Standard_Failure.hxx>
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <TColStd_ListOfInteger.hxx>
 
 #include <math_Vector.hxx>

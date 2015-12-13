@@ -6,7 +6,7 @@
 #ifndef _GeomAbs_SurfaceForm_HeaderFile
 #define _GeomAbs_SurfaceForm_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 //! This enumeration is used to note specific surface form.

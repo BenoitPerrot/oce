@@ -16,7 +16,7 @@
 
 #include <Geom_BSplineCurve.hxx>
 #include <StdFail_NotDone.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <TColStd_Array1OfReal.hxx>
 #include <GeomAPI_PointsToBSpline.hxx>

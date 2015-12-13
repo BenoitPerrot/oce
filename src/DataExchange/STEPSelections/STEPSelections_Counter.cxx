@@ -16,7 +16,7 @@
 
 #include <Interface_Macros.hxx>
 #include <Interface_Graph.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <StepShape_ConnectedFaceSet.hxx>
 #include <StepGeom_CompositeCurve.hxx>
 #include <STEPSelections_Counter.hxx>

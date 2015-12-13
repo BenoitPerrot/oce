@@ -6,14 +6,14 @@
 #ifndef _BRepFeat_SplitShape_HeaderFile
 #define _BRepFeat_SplitShape_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <LocOpe_Spliter.hxx>
 #include <Handle_LocOpe_WiresOnShape.hxx>
 #include <BRepBuilderAPI_MakeShape.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class LocOpe_WiresOnShape;
 class StdFail_NotDone;
 class Standard_ConstructionError;

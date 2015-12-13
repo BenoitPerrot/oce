@@ -15,7 +15,7 @@
 #include <Draw_Display.hxx>
 #include <Draw_Drawable3D.hxx>
 #include <DDocStd_DrawDocument.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DDocStd_DrawDocument)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(DDF_Data),

@@ -6,21 +6,21 @@
 #ifndef _GeomFill_CorrectedFrenet_HeaderFile
 #define _GeomFill_CorrectedFrenet_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_GeomFill_CorrectedFrenet.hxx>
 
 #include <Handle_GeomFill_Frenet.hxx>
 #include <Handle_Law_Function.hxx>
 #include <gp_Vec.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_TColStd_HArray1OfReal.hxx>
 #include <Handle_TColgp_HArray1OfVec.hxx>
 #include <GeomFill_TrihedronLaw.hxx>
 #include <Handle_GeomFill_TrihedronLaw.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Adaptor3d_HCurve.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <GeomFill_Trihedron.hxx>
 class GeomFill_Frenet;

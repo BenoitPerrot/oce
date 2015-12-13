@@ -13,7 +13,7 @@
 
 #include <TCollection_HAsciiString.hxx>
 #include <StepVisual_ColourSpecification.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepVisual_ColourSpecification)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepVisual_Colour),

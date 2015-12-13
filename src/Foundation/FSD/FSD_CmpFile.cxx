@@ -14,8 +14,8 @@
 
 #include <Foundation/FSD/FSD_CmpFile.hxx>
 #include <Foundation/OSD/OSD.hxx>
-#include <Standard_PCharacter.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_PCharacter.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 #include <Storage_BaseDriver.hxx>
 #include <Storage_StreamExtCharParityError.hxx>
 #include <Storage_StreamFormatError.hxx>

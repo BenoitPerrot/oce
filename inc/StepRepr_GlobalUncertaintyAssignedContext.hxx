@@ -6,15 +6,15 @@
 #ifndef _StepRepr_GlobalUncertaintyAssignedContext_HeaderFile
 #define _StepRepr_GlobalUncertaintyAssignedContext_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepRepr_GlobalUncertaintyAssignedContext.hxx>
 
 #include <Handle_StepBasic_HArray1OfUncertaintyMeasureWithUnit.hxx>
 #include <StepRepr_RepresentationContext.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Handle_StepBasic_UncertaintyMeasureWithUnit.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class StepBasic_HArray1OfUncertaintyMeasureWithUnit;
 class TCollection_HAsciiString;
 class StepBasic_UncertaintyMeasureWithUnit;

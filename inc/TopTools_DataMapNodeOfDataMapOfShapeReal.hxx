@@ -6,12 +6,12 @@
 #ifndef _TopTools_DataMapNodeOfDataMapOfShapeReal_HeaderFile
 #define _TopTools_DataMapNodeOfDataMapOfShapeReal_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TopTools_DataMapNodeOfDataMapOfShapeReal.hxx>
 
 #include <TopoDS_Shape.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <TCollection_MapNode.hxx>
 #include <TCollection_MapNodePtr.hxx>
 class TopoDS_Shape;
@@ -55,7 +55,7 @@ private:
 #define TheKey TopoDS_Shape
 #define TheKey_hxx <TopoDS_Shape.hxx>
 #define TheItem Standard_Real
-#define TheItem_hxx <Standard_Real.hxx>
+#define TheItem_hxx <Foundation/Standard/Standard_Real.hxx>
 #define Hasher TopTools_ShapeMapHasher
 #define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode TopTools_DataMapNodeOfDataMapOfShapeReal

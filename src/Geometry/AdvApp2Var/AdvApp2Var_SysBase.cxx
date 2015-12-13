@@ -19,7 +19,7 @@
 #include <AdvApp2Var_Data_f2c.hxx>
 #include <AdvApp2Var_SysBase.hxx>
 #include <AdvApp2Var_Data.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard.hxx>
 
 
 static 

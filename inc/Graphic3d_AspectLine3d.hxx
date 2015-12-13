@@ -6,14 +6,14 @@
 #ifndef _Graphic3d_AspectLine3d_HeaderFile
 #define _Graphic3d_AspectLine3d_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Graphic3d_AspectLine3d.hxx>
 
 #include <Graphic3d_ShaderProgram_Handle.hxx>
 #include <Aspect_AspectLine.hxx>
 #include <Aspect_TypeOfLine.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class Quantity_Color;
 
 

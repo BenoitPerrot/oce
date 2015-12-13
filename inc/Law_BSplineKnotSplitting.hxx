@@ -6,13 +6,13 @@
 #ifndef _Law_BSplineKnotSplitting_HeaderFile
 #define _Law_BSplineKnotSplitting_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_TColStd_HArray1OfInteger.hxx>
 #include <Handle_Law_BSpline.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class TColStd_HArray1OfInteger;
 class Standard_DimensionError;
 class Standard_RangeError;

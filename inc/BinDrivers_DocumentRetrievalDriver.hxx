@@ -6,17 +6,17 @@
 #ifndef _BinDrivers_DocumentRetrievalDriver_HeaderFile
 #define _BinDrivers_DocumentRetrievalDriver_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BinDrivers_DocumentRetrievalDriver.hxx>
 
 #include <BinLDrivers_DocumentRetrievalDriver.hxx>
 #include <Handle_BinMDF_ADriverTable.hxx>
 #include <Handle_CDM_MessageDriver.hxx>
-#include <Standard_IStream.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_IStream.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Storage_Position.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class BinMDF_ADriverTable;
 class CDM_MessageDriver;
 class BinLDrivers_DocumentSection;

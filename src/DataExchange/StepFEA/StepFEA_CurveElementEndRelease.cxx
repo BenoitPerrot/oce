@@ -18,7 +18,7 @@
 #include <StepElement_HArray1OfCurveElementEndReleasePacket.hxx>
 #include <StepFEA_CurveElementEndCoordinateSystem.hxx>
 #include <StepFEA_CurveElementEndRelease.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepFEA_CurveElementEndRelease)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

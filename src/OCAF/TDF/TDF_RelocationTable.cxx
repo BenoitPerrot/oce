@@ -23,14 +23,14 @@
 
 #include <TDF_Label.hxx>
 #include <TDF_Attribute.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <TDF_LabelMap.hxx>
 #include <TDF_AttributeMap.hxx>
 #include <TDF_LabelDataMap.hxx>
 #include <TDF_AttributeDataMap.hxx>
 #include <TColStd_IndexedDataMapOfTransientTransient.hxx>
 #include <TDF_RelocationTable.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDF_RelocationTable)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

@@ -15,10 +15,10 @@
 // commercial license or contractual agreement.
 
 #include <Expr_GeneralRelation.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <ExprIntrp_GenRel.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ExprIntrp_GenRel)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(ExprIntrp_Generator),
@@ -30,7 +30,7 @@ IMPLEMENT_DOWNCAST(ExprIntrp_GenRel,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ExprIntrp_GenRel)
 #include <ExprIntrp.hxx>
 #include <ExprIntrp_yaccanal.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 
 ExprIntrp_GenRel::ExprIntrp_GenRel ()
 {

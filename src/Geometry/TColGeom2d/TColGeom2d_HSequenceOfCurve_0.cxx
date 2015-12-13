@@ -5,10 +5,10 @@
 
 #include <TColGeom2d_HSequenceOfCurve.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Geom2d_Curve.hxx>
 #include <TColGeom2d_SequenceOfCurve.hxx>
 

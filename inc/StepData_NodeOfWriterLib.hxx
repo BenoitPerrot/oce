@@ -6,8 +6,8 @@
 #ifndef _StepData_NodeOfWriterLib_HeaderFile
 #define _StepData_NodeOfWriterLib_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepData_NodeOfWriterLib.hxx>
 
 #include <Handle_StepData_GlobalNodeOfWriterLib.hxx>

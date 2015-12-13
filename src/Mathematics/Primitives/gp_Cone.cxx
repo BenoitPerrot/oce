@@ -15,7 +15,7 @@
 // LPA, JCV  07/92 passage sur C1.
 // JCV 07/92 Introduction de la method Dump 
 
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <gp_Ax3.hxx>
 #include <gp_Ax1.hxx>
 #include <gp_Pnt.hxx>
@@ -23,7 +23,7 @@
 #include <gp_Trsf.hxx>
 #include <gp_Vec.hxx>
 #include <gp_Cone.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(gp_Cone)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Standard_Storable),

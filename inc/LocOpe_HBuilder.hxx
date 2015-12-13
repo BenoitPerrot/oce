@@ -6,12 +6,12 @@
 #ifndef _LocOpe_HBuilder_HeaderFile
 #define _LocOpe_HBuilder_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_LocOpe_HBuilder.hxx>
 
 #include <TopOpeBRepBuild_HBuilder.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class TopOpeBRepDS_BuildTool;
 
 

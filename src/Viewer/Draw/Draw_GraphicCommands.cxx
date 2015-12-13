@@ -30,7 +30,7 @@
 #include <Draw_Text3D.hxx>
 #include <Draw_Text2D.hxx>
 
-#include <Standard_Stream.hxx>
+#include <Foundation/Standard/Standard_Stream.hxx>
 
 #include <stdio.h>
 #ifdef _WIN32

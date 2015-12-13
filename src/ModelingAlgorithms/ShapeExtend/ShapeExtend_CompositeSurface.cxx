@@ -26,7 +26,7 @@
 #include <gp_Pnt.hxx>
 #include <gp_Vec.hxx>
 #include <ShapeExtend_CompositeSurface.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeExtend_CompositeSurface)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Geom_Surface),

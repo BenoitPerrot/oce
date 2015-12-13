@@ -15,7 +15,7 @@
 
 #include <PCollection_HAsciiString.hxx>
 #include <PDF_Reference.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PDF_Reference)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(PDF_Attribute),

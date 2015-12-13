@@ -5,7 +5,7 @@
 
 #include <TNaming_ListNodeOfListOfMapOfShape.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TopTools_MapOfShape.hxx>
 #include <TNaming_ListOfMapOfShape.hxx>

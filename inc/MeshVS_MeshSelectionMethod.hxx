@@ -6,7 +6,7 @@
 #ifndef _MeshVS_MeshSelectionMethod_HeaderFile
 #define _MeshVS_MeshSelectionMethod_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! this enumeration describe what type of sensitive entity will be built
 //! in 0-th selection mode (it means that whole mesh is selected )

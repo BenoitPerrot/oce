@@ -16,8 +16,8 @@
 #ifndef _BRepMesh_FaceChecker_HeaderFile
 #define _BRepMesh_FaceChecker_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_Mutex.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_Mutex.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Face.hxx>
 #include <TopoDS_Edge.hxx>

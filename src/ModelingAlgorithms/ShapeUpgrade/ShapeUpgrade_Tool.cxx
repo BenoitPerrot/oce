@@ -16,7 +16,7 @@
 
 #include <ShapeBuild_ReShape.hxx>
 #include <ShapeUpgrade_Tool.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeUpgrade_Tool)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

@@ -6,16 +6,16 @@
 #ifndef _OSD_Thread_HeaderFile
 #define _OSD_Thread_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/OSD/OSD_ThreadFunction.hxx>
 #include <Foundation/OSD/OSD_PThread.hxx>
-#include <Standard_ThreadId.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Address.hxx>
+#include <Foundation/Standard/Standard_ThreadId.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
 
 
 //! A simple platform-intependent interface to execute

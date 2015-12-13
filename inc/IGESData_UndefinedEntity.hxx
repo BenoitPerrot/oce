@@ -6,14 +6,14 @@
 #ifndef _IGESData_UndefinedEntity_HeaderFile
 #define _IGESData_UndefinedEntity_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESData_UndefinedEntity.hxx>
 
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Interface_UndefinedContent.hxx>
 #include <IGESData_IGESEntity.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <IGESData_DefType.hxx>
 #include <IGESData_DefList.hxx>
 #include <Handle_IGESData_IGESReaderData.hxx>

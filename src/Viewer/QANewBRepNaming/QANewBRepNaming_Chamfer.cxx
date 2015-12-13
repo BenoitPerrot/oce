@@ -22,7 +22,7 @@
 
 #include <TNaming_Builder.hxx>
 
-#include <Standard_NullObject.hxx>
+#include <Foundation/Standard/Standard_NullObject.hxx>
 
 #include <TDF_Label.hxx>
 

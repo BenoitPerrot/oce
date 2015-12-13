@@ -6,8 +6,8 @@
 #ifndef _StepElement_SequenceNodeOfSequenceOfSurfaceElementPurposeMember_HeaderFile
 #define _StepElement_SequenceNodeOfSequenceOfSurfaceElementPurposeMember_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepElement_SequenceNodeOfSequenceOfSurfaceElementPurposeMember.hxx>
 
 #include <Handle_StepElement_SurfaceElementPurposeMember.hxx>

@@ -6,17 +6,17 @@
 #ifndef _CDF_Store_HeaderFile
 #define _CDF_Store_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_CDF_StoreList.hxx>
 #include <Handle_CDM_Document.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <TCollection_ExtendedString.hxx>
 #include <PCDM_StoreStatus.hxx>
 #include <CDF_TryStoreStatus.hxx>
-#include <Standard_ExtString.hxx>
+#include <Foundation/Standard/Standard_ExtString.hxx>
 #include <CDF_StoreSetNameStatus.hxx>
 #include <CDF_SubComponentStatus.hxx>
 class CDF_StoreList;

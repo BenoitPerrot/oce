@@ -19,7 +19,7 @@
 //		G1135 : empty constructor
 
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <AdvApp2Var_SequenceOfPatch.hxx>
 #include <TColStd_SequenceOfReal.hxx>
 #include <AdvApp2Var_Patch.hxx>

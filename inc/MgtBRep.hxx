@@ -6,9 +6,9 @@
 #ifndef _MgtBRep_HeaderFile
 #define _MgtBRep_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_PTopoDS_HShape.hxx>
 #include <MgtBRep_TriangleMode.hxx>

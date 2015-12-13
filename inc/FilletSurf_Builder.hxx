@@ -6,15 +6,15 @@
 #ifndef _FilletSurf_Builder_HeaderFile
 #define _FilletSurf_Builder_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <FilletSurf_InternalBuilder.hxx>
 #include <FilletSurf_StatusDone.hxx>
 #include <FilletSurf_ErrorTypeStatus.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Geom_Surface.hxx>
 #include <Handle_Geom_Curve.hxx>
 #include <Handle_Geom2d_Curve.hxx>

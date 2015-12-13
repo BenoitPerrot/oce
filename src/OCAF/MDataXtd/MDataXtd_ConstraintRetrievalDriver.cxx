@@ -12,12 +12,12 @@
 // commercial license or contractual agreement.
 
 #include <CDM_MessageDriver.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 #include <TDF_Attribute.hxx>
 #include <PDF_Attribute.hxx>
 #include <MDF_RRelocationTable.hxx>
 #include <MDataXtd_ConstraintRetrievalDriver.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MDataXtd_ConstraintRetrievalDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MDF_ARDriver),
@@ -34,8 +34,8 @@ IMPLEMENT_STANDARD_RTTI(MDataXtd_ConstraintRetrievalDriver)
 #include <TNaming_NamedShape.hxx>
 #include <PNaming_NamedShape.hxx>
 #include <PDF_HAttributeArray1.hxx>
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <CDM_MessageDriver.hxx>
 
 

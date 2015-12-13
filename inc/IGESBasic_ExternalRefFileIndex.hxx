@@ -6,14 +6,14 @@
 #ifndef _IGESBasic_ExternalRefFileIndex_HeaderFile
 #define _IGESBasic_ExternalRefFileIndex_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESBasic_ExternalRefFileIndex.hxx>
 
 #include <Handle_Interface_HArray1OfHAsciiString.hxx>
 #include <Handle_IGESData_HArray1OfIGESEntity.hxx>
 #include <IGESData_IGESEntity.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Handle_IGESData_IGESEntity.hxx>
 class Interface_HArray1OfHAsciiString;

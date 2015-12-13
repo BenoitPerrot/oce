@@ -6,16 +6,16 @@
 #ifndef _WNT_WClass_HeaderFile
 #define _WNT_WClass_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_WNT_WClass.hxx>
 
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 #include <Aspect_Handle.hxx>
-#include <Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <WNT_Uint.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class WNT_ClassDefinitionError;
 class WNT_Window;
 

@@ -5,7 +5,7 @@
 
 #include <IntCurveSurface_ThePolyhedronToolOfHInter.hxx>
 
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <IntCurveSurface_ThePolyhedronOfHInter.hxx>
 #include <Bnd_Box.hxx>
 #include <Bnd_HArray1OfBox.hxx>

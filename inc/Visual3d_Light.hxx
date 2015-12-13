@@ -6,15 +6,15 @@
 #ifndef _Visual3d_Light_HeaderFile
 #define _Visual3d_Light_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Visual3d_Light.hxx>
 
 #include <Graphic3d_CLight.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Graphic3d_Vertex.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Visual3d_TypeOfLightSource.hxx>
 class Visual3d_LightDefinitionError;
 class Visual3d_View;

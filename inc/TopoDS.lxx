@@ -16,7 +16,7 @@
 
 #include <TopAbs_ShapeEnum.hxx>
 #include <TopoDS_Shape.hxx>
-#include <Standard_TypeMismatch.hxx>
+#include <Foundation/Standard/Standard_TypeMismatch.hxx>
 
 // return True if the Shape has not the expected type
 inline static Standard_Boolean TopoDS_Mismatch(const TopoDS_Shape& S,

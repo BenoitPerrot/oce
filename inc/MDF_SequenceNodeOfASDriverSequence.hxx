@@ -6,8 +6,8 @@
 #ifndef _MDF_SequenceNodeOfASDriverSequence_HeaderFile
 #define _MDF_SequenceNodeOfASDriverSequence_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_MDF_SequenceNodeOfASDriverSequence.hxx>
 
 #include <Handle_MDF_ASDriver.hxx>

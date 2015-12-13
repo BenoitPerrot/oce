@@ -6,13 +6,13 @@
 #ifndef _TFunction_HArray1OfDataMapOfGUIDDriver_HeaderFile
 #define _TFunction_HArray1OfDataMapOfGUIDDriver_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TFunction_HArray1OfDataMapOfGUIDDriver.hxx>
 
 #include <TFunction_Array1OfDataMapOfGUIDDriver.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_DimensionMismatch;
 class Standard_OutOfRange;

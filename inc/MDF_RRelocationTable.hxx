@@ -6,12 +6,12 @@
 #ifndef _MDF_RRelocationTable_HeaderFile
 #define _MDF_RRelocationTable_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_MDF_RRelocationTable.hxx>
 
 #include <PTColStd_PersistentTransientMap.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_PDF_Attribute.hxx>
 #include <Handle_TDF_Attribute.hxx>

@@ -6,14 +6,14 @@
 #ifndef _Aspect_Grid_HeaderFile
 #define _Aspect_Grid_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Aspect_Grid.hxx>
 
 #include <Foundation/Quantity/Quantity_PlaneAngle.hxx>
 #include <Foundation/Quantity/Quantity_Length.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Aspect_GridDrawMode.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class Quantity_Color;

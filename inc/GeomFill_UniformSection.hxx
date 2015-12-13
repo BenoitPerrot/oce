@@ -6,17 +6,17 @@
 #ifndef _GeomFill_UniformSection_HeaderFile
 #define _GeomFill_UniformSection_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_GeomFill_UniformSection.hxx>
 
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Geom_Curve.hxx>
 #include <Handle_Geom_BSplineCurve.hxx>
 #include <GeomFill_SectionLaw.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Geom_BSplineSurface.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <GeomAbs_Shape.hxx>
 class Geom_Curve;
 class Geom_BSplineCurve;

@@ -5,7 +5,7 @@
 
 #include <DDF_ListNodeOfTransactionStack.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <DDF_Transaction.hxx>
 #include <DDF_TransactionStack.hxx>

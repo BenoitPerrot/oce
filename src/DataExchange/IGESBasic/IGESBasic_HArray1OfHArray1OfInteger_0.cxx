@@ -5,7 +5,7 @@
 
 #include <IGESBasic_HArray1OfHArray1OfInteger.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TColStd_HArray1OfInteger.hxx>
 

@@ -6,12 +6,12 @@
 #ifndef _TopOpeBRepBuild_IndexedDataMapNodeOfIndexedDataMapOfShapeVertexInfo_HeaderFile
 #define _TopOpeBRepBuild_IndexedDataMapNodeOfIndexedDataMapOfShapeVertexInfo_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TopOpeBRepBuild_IndexedDataMapNodeOfIndexedDataMapOfShapeVertexInfo.hxx>
 
 #include <TopoDS_Shape.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <TopOpeBRepBuild_VertexInfo.hxx>
 #include <TCollection_MapNodePtr.hxx>
 #include <TCollection_MapNode.hxx>

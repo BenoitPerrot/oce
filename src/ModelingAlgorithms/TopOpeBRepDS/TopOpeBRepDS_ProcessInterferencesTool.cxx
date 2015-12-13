@@ -29,7 +29,7 @@
 #include <gp_Dir.hxx>
 #include <Precision.hxx>
 #include <TColStd_MapOfInteger.hxx>
-#include <Standard_ProgramError.hxx>
+#include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <TopOpeBRepDS_define.hxx>
 #include <TopOpeBRepTool_TOOL.hxx>
 #include <TopOpeBRepTool_EXPORT.hxx>

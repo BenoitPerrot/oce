@@ -6,16 +6,16 @@
 #ifndef _Geom2d_Transformation_HeaderFile
 #define _Geom2d_Transformation_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Geom2d_Transformation.hxx>
 
 #include <gp_Trsf2d.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <gp_TrsfForm.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_ConstructionError;
 class Standard_OutOfRange;
 class gp_Trsf2d;

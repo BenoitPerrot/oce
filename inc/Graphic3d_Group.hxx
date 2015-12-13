@@ -6,14 +6,14 @@
 #ifndef _Graphic3d_Group_HeaderFile
 #define _Graphic3d_Group_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Graphic3d_Group.hxx>
 
 #include <Graphic3d_CBitFields4.hxx>
 #include <Graphic3d_StructurePtr.hxx>
 #include <Graphic3d_BndBox4f.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Graphic3d_CAspectLine.hxx>
 #include <Graphic3d_CAspectFillArea.hxx>
 #include <Graphic3d_CAspectMarker.hxx>
@@ -24,8 +24,8 @@
 #include <Handle_Graphic3d_AspectFillArea3d.hxx>
 #include <Handle_Graphic3d_AspectText3d.hxx>
 #include <Handle_Graphic3d_AspectMarker3d.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 #include <Graphic3d_Vertex.hxx>
 #include <Foundation/Quantity/Quantity_PlaneAngle.hxx>
 #include <Graphic3d_TextPath.hxx>
@@ -36,7 +36,7 @@
 #include <Graphic3d_Buffer_Handle.hxx>
 #include <Graphic3d_BoundBuffer_Handle.hxx>
 #include <Handle_Graphic3d_ArrayOfPrimitives.hxx>
-#include <Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
 #include <Graphic3d_GroupAspect.hxx>
 class Graphic3d_GroupDefinitionError;
 class Standard_OutOfRange;

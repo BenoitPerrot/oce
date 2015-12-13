@@ -17,16 +17,16 @@
 #include <Expr_GeneralFunction.hxx>
 #include <Expr_GeneralExpression.hxx>
 #include <Expr_NamedUnknown.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_DimensionMismatch.hxx>
-#include <Standard_NumericError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_DimensionMismatch.hxx>
+#include <Foundation/Standard/Standard_NumericError.hxx>
 #include <Expr_NotEvaluable.hxx>
 #include <Expr_NamedFunction.hxx>
 #include <Expr_Array1OfNamedUnknown.hxx>
 #include <TColStd_Array1OfReal.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <Expr_FunctionDerivative.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Expr_FunctionDerivative)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Expr_GeneralFunction),
@@ -38,8 +38,8 @@ IMPLEMENT_DOWNCAST(Expr_FunctionDerivative,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Expr_FunctionDerivative)
 #include <Expr_NumericValue.hxx>
 #include <Expr_NamedFunction.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 
 Expr_FunctionDerivative::Expr_FunctionDerivative (const Handle(Expr_GeneralFunction)& func, const Handle(Expr_NamedUnknown)& withX, const Standard_Integer deg)
 {

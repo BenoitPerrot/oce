@@ -5,7 +5,7 @@
 
 #include <TopOpeBRepDS_DoubleMapNodeOfDoubleMapOfIntegerShape.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TopoDS_Shape.hxx>
 #include <TColStd_MapIntegerHasher.hxx>
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(TopOpeBRepDS_DoubleMapNodeOfDoubleMapOfIntegerShape)
 
 
 #define TheKey1 Standard_Integer
-#define TheKey1_hxx <Standard_Integer.hxx>
+#define TheKey1_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheKey2 TopoDS_Shape
 #define TheKey2_hxx <TopoDS_Shape.hxx>
 #define Hasher1 TColStd_MapIntegerHasher

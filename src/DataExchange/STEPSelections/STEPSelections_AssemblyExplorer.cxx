@@ -18,7 +18,7 @@
 #include <StepShape_ShapeDefinitionRepresentation.hxx>
 #include <StepBasic_ProductDefinition.hxx>
 #include <STEPSelections_AssemblyComponent.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <StepRepr_NextAssemblyUsageOccurrence.hxx>
 #include <STEPSelections_AssemblyExplorer.hxx>
 #include <Interface_Macros.hxx>

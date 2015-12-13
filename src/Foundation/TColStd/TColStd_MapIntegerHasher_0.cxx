@@ -8,7 +8,7 @@
  
 
 #define Key Standard_Integer
-#define Key_hxx <Standard_Integer.hxx>
+#define Key_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TCollection_MapHasher TColStd_MapIntegerHasher
 #define TCollection_MapHasher_hxx <TColStd_MapIntegerHasher.hxx>
 #include <TCollection_MapHasher.gxx>

@@ -6,12 +6,12 @@
 #ifndef _BRepClass_FaceClassifier_HeaderFile
 #define _BRepClass_FaceClassifier_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <BRepClass_FClassifier.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class BRepClass_FaceExplorer;
 class gp_Pnt2d;
 class TopoDS_Face;

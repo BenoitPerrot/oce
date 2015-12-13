@@ -6,7 +6,7 @@
 #ifndef _ShapeExtend_Parametrisation_HeaderFile
 #define _ShapeExtend_Parametrisation_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Defines kind of global parametrisation on the composite surface
 //! each patch of the 1st row and column adds its range, Ui+1 = Ui + URange(i,1), etc.

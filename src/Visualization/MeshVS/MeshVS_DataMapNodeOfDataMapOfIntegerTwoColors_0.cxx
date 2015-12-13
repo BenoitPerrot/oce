@@ -5,7 +5,7 @@
 
 #include <MeshVS_DataMapNodeOfDataMapOfIntegerTwoColors.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TColStd_MapIntegerHasher.hxx>
 #include <MeshVS_DataMapOfIntegerTwoColors.hxx>
@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_DataMapNodeOfDataMapOfIntegerTwoColors)
 
 
 #define TheKey Standard_Integer
-#define TheKey_hxx <Standard_Integer.hxx>
+#define TheKey_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheItem MeshVS_TwoColors
 #define TheItem_hxx <MeshVS_TwoColors.hxx>
 #define Hasher TColStd_MapIntegerHasher

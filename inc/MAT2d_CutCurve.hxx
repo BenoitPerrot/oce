@@ -6,15 +6,15 @@
 #ifndef _MAT2d_CutCurve_HeaderFile
 #define _MAT2d_CutCurve_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TColGeom2d_SequenceOfCurve.hxx>
 #include <Handle_Geom2d_Curve.hxx>
 #include <MAT_Side.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Geom2d_TrimmedCurve.hxx>
 class Standard_OutOfRange;
 class Geom2d_Curve;

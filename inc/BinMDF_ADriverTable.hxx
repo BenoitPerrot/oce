@@ -6,8 +6,8 @@
 #ifndef _BinMDF_ADriverTable_HeaderFile
 #define _BinMDF_ADriverTable_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BinMDF_ADriverTable.hxx>
 
 #include <BinMDF_TypeADriverMap.hxx>
@@ -15,7 +15,7 @@
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_BinMDF_ADriver.hxx>
 #include <Handle_Standard_Type.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class BinMDF_ADriver;
 class Standard_Type;
 class TColStd_IndexedMapOfTransient;

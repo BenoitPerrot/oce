@@ -6,18 +6,18 @@
 #ifndef _MeshVS_VectorPrsBuilder_HeaderFile
 #define _MeshVS_VectorPrsBuilder_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_MeshVS_VectorPrsBuilder.hxx>
 
-#include <Standard_Boolean.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <MeshVS_DataMapOfIntegerVector.hxx>
 #include <MeshVS_PrsBuilder.hxx>
 #include <Handle_MeshVS_Mesh.hxx>
 #include <MeshVS_DisplayModeFlags.hxx>
 #include <Handle_MeshVS_DataSource.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <MeshVS_BuilderPriority.hxx>
 #include <Handle_Prs3d_Presentation.hxx>
 #include <TColStd_PackedMapOfInteger.hxx>

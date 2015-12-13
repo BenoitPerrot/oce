@@ -5,7 +5,7 @@
 
 #include <StlMesh_SequenceNodeOfSequenceOfMeshTriangle.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <StlMesh_MeshTriangle.hxx>
 #include <StlMesh_SequenceOfMeshTriangle.hxx>

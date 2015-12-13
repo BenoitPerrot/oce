@@ -6,7 +6,7 @@
 #ifndef _BRepBuilderAPI_ShapeModification_HeaderFile
 #define _BRepBuilderAPI_ShapeModification_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Lists the possible types of modification to a shape
 //! following a topological operation: Preserved, Deleted,

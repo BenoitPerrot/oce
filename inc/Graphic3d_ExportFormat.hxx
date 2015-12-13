@@ -6,7 +6,7 @@
 #ifndef _Graphic3d_ExportFormat_HeaderFile
 #define _Graphic3d_ExportFormat_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum Graphic3d_ExportFormat

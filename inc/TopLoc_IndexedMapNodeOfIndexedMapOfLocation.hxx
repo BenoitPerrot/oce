@@ -6,12 +6,12 @@
 #ifndef _TopLoc_IndexedMapNodeOfIndexedMapOfLocation_HeaderFile
 #define _TopLoc_IndexedMapNodeOfIndexedMapOfLocation_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TopLoc_IndexedMapNodeOfIndexedMapOfLocation.hxx>
 
 #include <TopLoc_Location.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <TCollection_MapNodePtr.hxx>
 #include <TCollection_MapNode.hxx>
 class TopLoc_Location;

@@ -6,7 +6,7 @@
 #ifndef _Vrml_FaceType_HeaderFile
 #define _Vrml_FaceType_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum Vrml_FaceType

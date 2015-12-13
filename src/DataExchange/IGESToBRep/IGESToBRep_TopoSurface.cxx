@@ -46,7 +46,7 @@
 #include <gp_Trsf2d.hxx>
 #include <IGESToBRep_TopoSurface.hxx>
 
-#include <Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <IGESToBRep.hxx>
 #include <IGESToBRep_CurveAndSurface.hxx>
 #include <IGESToBRep_TopoCurve.hxx>

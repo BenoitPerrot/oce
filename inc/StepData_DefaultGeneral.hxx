@@ -6,15 +6,15 @@
 #ifndef _StepData_DefaultGeneral_HeaderFile
 #define _StepData_DefaultGeneral_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepData_DefaultGeneral.hxx>
 
 #include <StepData_GeneralModule.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Handle_Interface_Check.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_Transient;
 class Interface_EntityIterator;
 class Interface_ShareTool;

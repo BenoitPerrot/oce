@@ -6,13 +6,13 @@
 #ifndef _IFSelect_SessionDumper_HeaderFile
 #define _IFSelect_SessionDumper_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IFSelect_SessionDumper.hxx>
 
 #include <Handle_IFSelect_SessionDumper.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Standard_Transient.hxx>
 class IFSelect_SessionFile;
 class Standard_Transient;

@@ -5,7 +5,7 @@
 
 #include <Draft_DataMapIteratorOfDataMapOfVertexVertexInfo.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <Draft_VertexInfo.hxx>
 #include <TopTools_ShapeMapHasher.hxx>

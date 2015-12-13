@@ -6,13 +6,13 @@
 #ifndef _GC_MakeSegment_HeaderFile
 #define _GC_MakeSegment_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_Geom_TrimmedCurve.hxx>
 #include <GC_Root.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class Geom_TrimmedCurve;
 class StdFail_NotDone;
 class gp_Pnt;

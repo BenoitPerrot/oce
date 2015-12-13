@@ -5,10 +5,10 @@
 
 #include <Transfer_ProcessForTransient.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Foundation/Message/Message_Messenger.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <Transfer_Binder.hxx>
 #include <Transfer_ActorOfProcessForTransient.hxx>
 #include <Foundation/Message/Message_ProgressIndicator.hxx>
@@ -21,7 +21,7 @@
 #include <Transfer_IteratorOfProcessForTransient.hxx>
 #include <Foundation/Message/Message_Msg.hxx>
 #include <Interface_Check.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 #include <Interface_CheckIterator.hxx>
 
  
@@ -41,7 +41,7 @@ IMPLEMENT_STANDARD_RTTI(Transfer_ProcessForTransient)
 
 
 #define TheStart Handle(Standard_Transient)
-#define TheStart_hxx <Standard_Transient.hxx>
+#define TheStart_hxx <Foundation/Standard/Standard_Transient.hxx>
 #define TheMapHasher TColStd_MapTransientHasher
 #define TheMapHasher_hxx <TColStd_MapTransientHasher.hxx>
 #define Handle_TheList Handle_TColStd_HSequenceOfTransient

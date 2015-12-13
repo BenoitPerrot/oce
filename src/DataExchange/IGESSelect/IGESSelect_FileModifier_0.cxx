@@ -5,7 +5,7 @@
 
 #include <IGESSelect_FileModifier.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <IGESData_IGESWriter.hxx>
 #include <IFSelect_ContextWrite.hxx>

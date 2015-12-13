@@ -6,8 +6,8 @@
 #ifndef _GccInt_BLine_HeaderFile
 #define _GccInt_BLine_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_GccInt_BLine.hxx>
 
 #include <gp_Lin2d.hxx>

@@ -24,8 +24,8 @@
 #include <TopoDS_Face.hxx>
 #include <TopoDS_Edge.hxx>
 #include <ShapeConstruct.hxx>
-#include <Standard_Failure.hxx>
-#include <Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Geom_Conic.hxx>
 #include <Geom_TrimmedCurve.hxx>
 #include <GeomConvert_ApproxCurve.hxx>

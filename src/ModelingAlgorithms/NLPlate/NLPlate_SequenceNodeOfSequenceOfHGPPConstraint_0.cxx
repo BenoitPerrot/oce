@@ -5,7 +5,7 @@
 
 #include <NLPlate_SequenceNodeOfSequenceOfHGPPConstraint.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <NLPlate_HGPPConstraint.hxx>
 #include <NLPlate_SequenceOfHGPPConstraint.hxx>

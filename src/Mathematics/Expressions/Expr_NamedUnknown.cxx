@@ -16,8 +16,8 @@
 
 #include <Expr_GeneralExpression.hxx>
 #include <Expr_NotAssigned.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_NumericError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NumericError.hxx>
 #include <Expr_InvalidAssignment.hxx>
 #include <Expr_InvalidOperand.hxx>
 #include <Expr_NotEvaluable.hxx>
@@ -25,7 +25,7 @@
 #include <Expr_Array1OfNamedUnknown.hxx>
 #include <TColStd_Array1OfReal.hxx>
 #include <Expr_NamedUnknown.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Expr_NamedUnknown)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Expr_NamedExpression),
@@ -42,7 +42,7 @@ IMPLEMENT_STANDARD_RTTI(Expr_NamedUnknown)
 #include <Expr_NotEvaluable.hxx>
 #include <Expr_InvalidOperand.hxx>
 #include <Expr_InvalidAssignment.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 
 Expr_NamedUnknown::Expr_NamedUnknown(const TCollection_AsciiString& name)
 {

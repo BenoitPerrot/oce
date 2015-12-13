@@ -6,11 +6,11 @@
 #ifndef _StepBasic_OrdinalDate_HeaderFile
 #define _StepBasic_OrdinalDate_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepBasic_OrdinalDate.hxx>
 
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <StepBasic_Date.hxx>
 
 

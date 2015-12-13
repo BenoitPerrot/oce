@@ -6,15 +6,15 @@
 #ifndef _BRep_TEdge_HeaderFile
 #define _BRep_TEdge_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BRep_TEdge.hxx>
 
-#include <Standard_Real.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <BRep_ListOfCurveRepresentation.hxx>
 #include <TopoDS_TEdge.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_TopoDS_TShape.hxx>
 class BRep_ListOfCurveRepresentation;
 class TopoDS_TShape;

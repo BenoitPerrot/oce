@@ -5,8 +5,8 @@
 
 #include <TColgp_SequenceOfDir.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <gp_Dir.hxx>
 #include <TColgp_SequenceNodeOfSequenceOfDir.hxx>
  

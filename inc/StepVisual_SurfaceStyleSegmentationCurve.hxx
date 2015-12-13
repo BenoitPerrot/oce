@@ -6,8 +6,8 @@
 #ifndef _StepVisual_SurfaceStyleSegmentationCurve_HeaderFile
 #define _StepVisual_SurfaceStyleSegmentationCurve_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepVisual_SurfaceStyleSegmentationCurve.hxx>
 
 #include <Handle_StepVisual_CurveStyle.hxx>

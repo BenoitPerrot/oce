@@ -5,14 +5,14 @@
 
 #include <TColStd_IndexedMapOfInteger.hxx>
 
-#include <Standard_DomainError.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <TColStd_MapIntegerHasher.hxx>
 #include <TColStd_IndexedMapNodeOfIndexedMapOfInteger.hxx>
  
 
 #define TheKey Standard_Integer
-#define TheKey_hxx <Standard_Integer.hxx>
+#define TheKey_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define Hasher TColStd_MapIntegerHasher
 #define Hasher_hxx <TColStd_MapIntegerHasher.hxx>
 #define TCollection_IndexedMapNode TColStd_IndexedMapNodeOfIndexedMapOfInteger

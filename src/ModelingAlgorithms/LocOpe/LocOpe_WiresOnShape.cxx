@@ -21,7 +21,7 @@
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <LocOpe_WiresOnShape.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(LocOpe_WiresOnShape)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),
@@ -59,7 +59,7 @@ IMPLEMENT_STANDARD_RTTI(LocOpe_WiresOnShape)
 #include <LocOpe.hxx>
 #include <Precision.hxx>
 
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <TopoDS_Compound.hxx>
 #include <BRepLib.hxx>
 

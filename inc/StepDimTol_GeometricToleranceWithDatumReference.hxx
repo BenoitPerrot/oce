@@ -6,8 +6,8 @@
 #ifndef _StepDimTol_GeometricToleranceWithDatumReference_HeaderFile
 #define _StepDimTol_GeometricToleranceWithDatumReference_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepDimTol_GeometricToleranceWithDatumReference.hxx>
 
 #include <Handle_StepDimTol_HArray1OfDatumReference.hxx>

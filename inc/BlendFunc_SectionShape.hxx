@@ -6,7 +6,7 @@
 #ifndef _BlendFunc_SectionShape_HeaderFile
 #define _BlendFunc_SectionShape_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum BlendFunc_SectionShape

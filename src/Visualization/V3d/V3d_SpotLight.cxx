@@ -37,7 +37,7 @@
 #include <V3d_View.hxx>
 #include <Graphic3d_Group.hxx>
 #include <V3d_SpotLight.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(V3d_SpotLight)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(V3d_PositionLight),

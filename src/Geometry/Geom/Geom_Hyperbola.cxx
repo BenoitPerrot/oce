@@ -14,9 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_ConstructionError.hxx>
-#include <Standard_DomainError.hxx>
-#include <Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
 #include <gp_Hypr.hxx>
 #include <gp_Ax2.hxx>
 #include <gp_Ax1.hxx>
@@ -25,7 +25,7 @@
 #include <gp_Trsf.hxx>
 #include <Geom_Geometry.hxx>
 #include <Geom_Hyperbola.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Geom_Hyperbola)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Geom_Conic),
@@ -41,8 +41,8 @@ IMPLEMENT_STANDARD_RTTI(Geom_Hyperbola)
 #include <Precision.hxx>
 #include <gp_XYZ.hxx>
 #include <ElCLib.hxx>
-#include <Standard_RangeError.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 
 
 typedef Geom_Hyperbola         Hyperbola;

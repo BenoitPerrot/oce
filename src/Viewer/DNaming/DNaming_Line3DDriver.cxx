@@ -18,7 +18,7 @@
 #include <TopoDS_Wire.hxx>
 #include <TopTools_Array1OfShape.hxx>
 #include <DNaming_Line3DDriver.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DNaming_Line3DDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(TFunction_Driver),
@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_RTTI(DNaming_Line3DDriver)
 #include <gp_Vec.hxx>
 #include <gp_Trsf.hxx>
 #include <Precision.hxx>
-#include <Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
 #include <BRepLib_MakeWire.hxx>
 #include <BRepLib_MakeEdge.hxx>
 #include <BRepAlgo.hxx>

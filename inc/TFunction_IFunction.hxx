@@ -6,15 +6,15 @@
 #ifndef _TFunction_IFunction_HeaderFile
 #define _TFunction_IFunction_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TDF_Label.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <TFunction_ExecutionStatus.hxx>
 #include <Handle_TFunction_Driver.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TFunction_GraphNode.hxx>
 class TDF_Label;
 class Standard_GUID;

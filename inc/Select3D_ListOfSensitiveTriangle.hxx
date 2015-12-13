@@ -6,15 +6,15 @@
 #ifndef _Select3D_ListOfSensitiveTriangle_HeaderFile
 #define _Select3D_ListOfSensitiveTriangle_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
 #include <Handle_Select3D_SensitiveTriangle.hxx>
 #include <Handle_Select3D_ListNodeOfListOfSensitiveTriangle.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_NoSuchObject;
 class Select3D_ListIteratorOfListOfSensitiveTriangle;
 class Select3D_SensitiveTriangle;

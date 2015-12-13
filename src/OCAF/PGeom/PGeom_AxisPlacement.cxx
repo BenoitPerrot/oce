@@ -16,7 +16,7 @@
 
 #include <gp_Ax1.hxx>
 #include <PGeom_AxisPlacement.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PGeom_AxisPlacement)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(PGeom_Geometry),

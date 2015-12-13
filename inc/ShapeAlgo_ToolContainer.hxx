@@ -6,8 +6,8 @@
 #ifndef _ShapeAlgo_ToolContainer_HeaderFile
 #define _ShapeAlgo_ToolContainer_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ShapeAlgo_ToolContainer.hxx>
 
 #include <Foundation/MMgt/MMgt_TShared.hxx>

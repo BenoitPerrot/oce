@@ -5,11 +5,11 @@
 
 #include <IntPatch_TheIWLineOfTheIWalking.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <IntSurf_LineOn2S.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <IntSurf_PathPoint.hxx>
 #include <IntSurf_PntOn2S.hxx>
 #include <gp_Vec.hxx>

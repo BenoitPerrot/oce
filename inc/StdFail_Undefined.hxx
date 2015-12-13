@@ -6,11 +6,11 @@
 #ifndef _StdFail_Undefined_HeaderFile
 #define _StdFail_Undefined_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard_DefineException.hxx>
-#include <Standard_SStream.hxx>
-#include <Standard_Failure.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard_DefineException.hxx>
+#include <Foundation/Standard/Standard_SStream.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
 #include <Handle_StdFail_Undefined.hxx>
 
 #if !defined No_Exception && !defined No_StdFail_Undefined

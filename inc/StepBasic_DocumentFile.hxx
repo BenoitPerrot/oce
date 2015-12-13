@@ -6,14 +6,14 @@
 #ifndef _StepBasic_DocumentFile_HeaderFile
 #define _StepBasic_DocumentFile_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepBasic_DocumentFile.hxx>
 
 #include <Handle_StepBasic_CharacterizedObject.hxx>
 #include <StepBasic_Document.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_StepBasic_DocumentType.hxx>
 class StepBasic_CharacterizedObject;
 class TCollection_HAsciiString;

@@ -24,8 +24,8 @@
 #include <Interface_FileParameter.hxx>
 #include <Interface_ParamList.hxx>
 //  Pour traiter les exceptions :
-#include <Standard_ErrorHandler.hxx>
-#include <Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
 
 // definition de base, a inclure pour utiliser
 #include <IGESFile_Read.hxx>

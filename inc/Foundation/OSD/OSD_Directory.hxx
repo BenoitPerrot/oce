@@ -6,9 +6,9 @@
 #ifndef _OSD_Directory_HeaderFile
 #define _OSD_Directory_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/OSD/OSD_FileNode.hxx>
 class OSD_Path;

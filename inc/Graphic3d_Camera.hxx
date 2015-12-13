@@ -25,8 +25,8 @@
 #include <gp_Dir.hxx>
 #include <gp_Pnt.hxx>
 
-#include <Standard_Macro.hxx>
-#include <Standard_TypeDef.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_TypeDef.hxx>
 
 #include <Bnd_Box.hxx>
 

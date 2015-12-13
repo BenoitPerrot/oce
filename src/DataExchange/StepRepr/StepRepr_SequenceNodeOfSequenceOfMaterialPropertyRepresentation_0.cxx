@@ -5,7 +5,7 @@
 
 #include <StepRepr_SequenceNodeOfSequenceOfMaterialPropertyRepresentation.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <StepRepr_MaterialPropertyRepresentation.hxx>
 #include <StepRepr_SequenceOfMaterialPropertyRepresentation.hxx>

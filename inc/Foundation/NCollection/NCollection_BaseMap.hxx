@@ -16,7 +16,7 @@
 #ifndef NCollection_BaseMap_HeaderFile
 #define NCollection_BaseMap_HeaderFile
 
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Foundation/NCollection/NCollection_BaseAllocator.hxx>
 #include <Foundation/NCollection/NCollection_DefineAlloc.hxx>
 #include <Foundation/NCollection/NCollection_ListNode.hxx>

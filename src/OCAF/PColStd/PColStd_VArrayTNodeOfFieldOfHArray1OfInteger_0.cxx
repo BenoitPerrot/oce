@@ -10,7 +10,7 @@
  
 
 #define Item Standard_Integer
-#define Item_hxx <Standard_Integer.hxx>
+#define Item_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define DBC_VArrayNode PColStd_VArrayNodeOfFieldOfHArray1OfInteger
 #define DBC_VArrayNode_hxx <PColStd_VArrayNodeOfFieldOfHArray1OfInteger.hxx>
 #define DBC_VArrayTNode PColStd_VArrayTNodeOfFieldOfHArray1OfInteger

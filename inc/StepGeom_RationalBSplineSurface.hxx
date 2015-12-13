@@ -6,18 +6,18 @@
 #ifndef _StepGeom_RationalBSplineSurface_HeaderFile
 #define _StepGeom_RationalBSplineSurface_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepGeom_RationalBSplineSurface.hxx>
 
 #include <Handle_TColStd_HArray2OfReal.hxx>
 #include <StepGeom_BSplineSurface.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_StepGeom_HArray2OfCartesianPoint.hxx>
 #include <StepGeom_BSplineSurfaceForm.hxx>
 #include <StepData_Logical.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class TColStd_HArray2OfReal;
 class TCollection_HAsciiString;
 class StepGeom_HArray2OfCartesianPoint;

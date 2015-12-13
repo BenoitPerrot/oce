@@ -22,7 +22,7 @@
 #include <OpenGl_GlCore11.hxx>
 #include <OpenGl_Context.hxx>
 
-#include <Standard_ProgramError.hxx>
+#include <Foundation/Standard/Standard_ProgramError.hxx>
 
 // =======================================================================
 // function : IsCurrent

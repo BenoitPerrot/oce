@@ -6,13 +6,13 @@
 #ifndef _BRepAdaptor_HArray1OfCurve_HeaderFile
 #define _BRepAdaptor_HArray1OfCurve_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BRepAdaptor_HArray1OfCurve.hxx>
 
 #include <BRepAdaptor_Array1OfCurve.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_DimensionMismatch;
 class Standard_OutOfRange;

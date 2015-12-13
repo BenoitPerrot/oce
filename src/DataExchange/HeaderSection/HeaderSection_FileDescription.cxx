@@ -14,7 +14,7 @@
 #include <Interface_HArray1OfHAsciiString.hxx>
 #include <TCollection_HAsciiString.hxx>
 #include <HeaderSection_FileDescription.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(HeaderSection_FileDescription)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

@@ -20,7 +20,7 @@
 #include <gp_Pnt2d.hxx>
 #include <BRep_CurveRepresentation.hxx>
 #include <BRep_CurveOnClosedSurface.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BRep_CurveOnClosedSurface)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(BRep_CurveOnSurface),

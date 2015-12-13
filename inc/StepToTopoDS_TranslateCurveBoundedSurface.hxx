@@ -6,15 +6,15 @@
 #ifndef _StepToTopoDS_TranslateCurveBoundedSurface_HeaderFile
 #define _StepToTopoDS_TranslateCurveBoundedSurface_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TopoDS_Face.hxx>
 #include <StepToTopoDS_Root.hxx>
 #include <Handle_StepGeom_CurveBoundedSurface.hxx>
 #include <Handle_Transfer_TransientProcess.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class StepGeom_CurveBoundedSurface;
 class Transfer_TransientProcess;
 class TopoDS_Face;

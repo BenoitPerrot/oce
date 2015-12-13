@@ -19,7 +19,7 @@
 #include <IGESGeom_Point.hxx>
 #include <IGESGeom_Direction.hxx>
 #include <IGESSolid_PlaneSurface.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESSolid_PlaneSurface)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(IGESData_IGESEntity),

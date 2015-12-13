@@ -6,18 +6,18 @@
 #ifndef _BRepBlend_SurfCurvEvolRadInv_HeaderFile
 #define _BRepBlend_SurfCurvEvolRadInv_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_Adaptor3d_HSurface.hxx>
 #include <Handle_Adaptor3d_HCurve.hxx>
 #include <Handle_Adaptor2d_HCurve2d.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Law_Function.hxx>
 #include <Blend_SurfCurvFuncInv.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <math_Vector.hxx>
 class Adaptor3d_HSurface;
 class Adaptor3d_HCurve;

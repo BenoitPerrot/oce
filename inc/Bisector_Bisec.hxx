@@ -6,14 +6,14 @@
 #ifndef _Bisector_Bisec_HeaderFile
 #define _Bisector_Bisec_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_Geom2d_TrimmedCurve.hxx>
 #include <Handle_Geom2d_Curve.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Geom2d_Point.hxx>
 class Geom2d_TrimmedCurve;
 class Geom2d_Curve;

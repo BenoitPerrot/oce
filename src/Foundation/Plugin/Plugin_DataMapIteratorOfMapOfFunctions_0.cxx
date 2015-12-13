@@ -5,7 +5,7 @@
 
 #include <Foundation/Plugin/Plugin_DataMapIteratorOfMapOfFunctions.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <Foundation/Plugin/Plugin_MapOfFunctions.hxx>
 #include <Foundation/Plugin/Plugin_DataMapNodeOfMapOfFunctions.hxx>

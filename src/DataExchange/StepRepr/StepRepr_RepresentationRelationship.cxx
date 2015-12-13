@@ -14,7 +14,7 @@
 #include <TCollection_HAsciiString.hxx>
 #include <StepRepr_Representation.hxx>
 #include <StepRepr_RepresentationRelationship.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepRepr_RepresentationRelationship)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

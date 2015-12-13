@@ -6,8 +6,8 @@
 #ifndef _Handle_BinMDataXtd_PlaneDriver_HeaderFile
 #define _Handle_BinMDataXtd_PlaneDriver_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BinMDF_ADriver.hxx>
 
 class Standard_Transient;

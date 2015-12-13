@@ -6,8 +6,8 @@
 #ifndef _SelectMgr_SequenceNodeOfSequenceOfOwner_HeaderFile
 #define _SelectMgr_SequenceNodeOfSequenceOfOwner_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_SelectMgr_SequenceNodeOfSequenceOfOwner.hxx>
 
 #include <Handle_SelectMgr_EntityOwner.hxx>

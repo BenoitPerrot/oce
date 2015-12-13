@@ -6,13 +6,13 @@
 #ifndef _HLRBRep_TheIntConicCurveOfCInter_HeaderFile
 #define _HLRBRep_TheIntConicCurveOfCInter_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <IntRes2d_Intersection.hxx>
-#include <Standard_Address.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class IntCurve_IConicTool;
 class HLRBRep_CurveTool;
 class HLRBRep_TheProjPCurOfCInter;
@@ -78,7 +78,7 @@ private:
 #define TheImpTool IntCurve_IConicTool
 #define TheImpTool_hxx <IntCurve_IConicTool.hxx>
 #define ThePCurve Standard_Address
-#define ThePCurve_hxx <Standard_Address.hxx>
+#define ThePCurve_hxx <Foundation/Standard/Standard_Address.hxx>
 #define ThePCurveTool HLRBRep_CurveTool
 #define ThePCurveTool_hxx <HLRBRep_CurveTool.hxx>
 #define TheProjPCur HLRBRep_TheProjPCurOfCInter

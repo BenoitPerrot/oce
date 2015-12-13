@@ -16,7 +16,7 @@
 #ifndef _Handle_Graphic3d_ShaderObject_HeaderFile
 #define _Handle_Graphic3d_ShaderObject_HeaderFile
 
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 
 class Graphic3d_ShaderObject;
 DEFINE_STANDARD_HANDLE (Graphic3d_ShaderObject, Standard_Transient)

@@ -5,7 +5,7 @@
 
 #include <BRepOffset_ListOfInterval.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <BRepOffset_ListIteratorOfListOfInterval.hxx>
 #include <BRepOffset_Interval.hxx>
 #include <BRepOffset_ListNodeOfListOfInterval.hxx>

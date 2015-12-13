@@ -17,7 +17,7 @@
 #include <BRepMesh_IncrementalMesh.hxx>
 
 #include <Precision.hxx>
-#include <Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
 
 #include <BRepMesh_FaceChecker.hxx>
 #include <BRepMesh_ShapeTool.hxx>

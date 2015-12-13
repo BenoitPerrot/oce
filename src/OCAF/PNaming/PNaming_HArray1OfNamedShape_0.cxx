@@ -5,11 +5,11 @@
 
 #include <PNaming_HArray1OfNamedShape.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <PNaming_NamedShape.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
 #include <PNaming_FieldOfHArray1OfNamedShape.hxx>
 #include <PNaming_VArrayNodeOfFieldOfHArray1OfNamedShape.hxx>
 #include <PNaming_VArrayTNodeOfFieldOfHArray1OfNamedShape.hxx>

@@ -18,9 +18,9 @@
 
 #include <IGESData_IGESEntity.hxx>
 #include <IGESData_HArray1OfIGESEntity.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <IGESDimen_DimensionedGeometry.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESDimen_DimensionedGeometry)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(IGESData_IGESEntity),
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESDimen_DimensionedGeometry)
 IMPLEMENT_DOWNCAST(IGESDimen_DimensionedGeometry,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESDimen_DimensionedGeometry)
-#include <Standard_DimensionMismatch.hxx>
+#include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 
 
 IGESDimen_DimensionedGeometry::IGESDimen_DimensionedGeometry ()    {  }

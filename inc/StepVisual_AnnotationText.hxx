@@ -6,8 +6,8 @@
 #ifndef _StepVisual_AnnotationText_HeaderFile
 #define _StepVisual_AnnotationText_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepVisual_AnnotationText.hxx>
 
 #include <StepRepr_MappedItem.hxx>

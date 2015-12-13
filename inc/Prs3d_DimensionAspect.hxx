@@ -6,18 +6,18 @@
 #ifndef _Prs3d_DimensionAspect_HeaderFile
 #define _Prs3d_DimensionAspect_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Prs3d_DimensionAspect.hxx>
 
 #include <Handle_Prs3d_LineAspect.hxx>
 #include <Handle_Prs3d_TextAspect.hxx>
 #include <Handle_Prs3d_ArrowAspect.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Prs3d_DimensionArrowOrientation.hxx>
 #include <Prs3d_DimensionTextHorizontalPosition.hxx>
 #include <Prs3d_DimensionTextVerticalPosition.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <Prs3d_BasicAspect.hxx>
 class Prs3d_LineAspect;

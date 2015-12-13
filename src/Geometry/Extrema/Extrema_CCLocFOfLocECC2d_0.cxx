@@ -5,7 +5,7 @@
 
 #include <Extrema_CCLocFOfLocECC2d.hxx>
 
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Adaptor2d_Curve2d.hxx>
 #include <Extrema_Curve2dTool.hxx>
 #include <Extrema_POnCurv2d.hxx>

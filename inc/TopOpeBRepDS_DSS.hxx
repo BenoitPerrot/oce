@@ -6,17 +6,17 @@
 #ifndef _TopOpeBRepDS_DSS_HeaderFile
 #define _TopOpeBRepDS_DSS_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TopOpeBRepDS_DoubleMapOfIntegerShape.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <TopOpeBRepDS_MapOfIntegerShapeData.hxx>
 #include <TopOpeBRepDS_ListOfInterference.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <TopoDS_Shape.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <TopOpeBRepDS_Config.hxx>
 #include <Handle_TopOpeBRepDS_Interference.hxx>
 class TopoDS_Shape;

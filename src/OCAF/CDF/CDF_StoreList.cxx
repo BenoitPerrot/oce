@@ -15,11 +15,11 @@
 // commercial license or contractual agreement.
 
 #include <CDM_Document.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <CDM_MetaData.hxx>
 #include <TCollection_ExtendedString.hxx>
 #include <CDF_StoreList.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(CDF_StoreList)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Standard_Transient),
@@ -28,8 +28,8 @@ IMPLEMENT_STANDARD_TYPE_END(CDF_StoreList)
 IMPLEMENT_DOWNCAST(CDF_StoreList,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(CDF_StoreList)
 
-#include <Standard_ErrorHandler.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <CDM_ReferenceIterator.hxx>
 

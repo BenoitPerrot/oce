@@ -5,7 +5,7 @@
 
 #include <ChFiDS_IndexedDataMapNodeOfIndexedDataMapOfVertexListOfStripe.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TopoDS_Vertex.hxx>
 #include <ChFiDS_ListOfStripe.hxx>

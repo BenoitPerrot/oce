@@ -12,17 +12,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 
 #include <BRepAdaptor_HCurve2d.hxx>
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Adaptor3d_HSurface.hxx>
 #include <Adaptor2d_HCurve2d.hxx>
 #include <Adaptor3d_HVertex.hxx>
 #include <gp_Pnt2d.hxx>
 #include <gp_Pnt.hxx>
 #include <BRepTopAdaptor_TopolTool.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BRepTopAdaptor_TopolTool)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Adaptor3d_TopolTool),
@@ -33,8 +33,8 @@ IMPLEMENT_STANDARD_TYPE_END(BRepTopAdaptor_TopolTool)
 IMPLEMENT_DOWNCAST(BRepTopAdaptor_TopolTool,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BRepTopAdaptor_TopolTool)
 
-#include <Standard_ConstructionError.hxx>
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <BRepAdaptor_HSurface.hxx>
 #include <BRepAdaptor_HCurve2d.hxx>
 #include <BRepTopAdaptor_HVertex.hxx>

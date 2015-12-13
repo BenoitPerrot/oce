@@ -20,7 +20,7 @@
 #include <StepGeom_HArray1OfSurfaceBoundary.hxx>
 #include <TCollection_HAsciiString.hxx>
 #include <StepGeom_CurveBoundedSurface.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepGeom_CurveBoundedSurface)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepGeom_BoundedSurface),

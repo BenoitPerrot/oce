@@ -6,9 +6,9 @@
 #ifndef _Plugin_DataMapIteratorOfMapOfFunctions_HeaderFile
 #define _Plugin_DataMapIteratorOfMapOfFunctions_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TCollection_BasicMapIterator.hxx>
 #include <Foundation/OSD/OSD_Function.hxx>

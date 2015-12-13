@@ -16,8 +16,8 @@
 
 #include <Foundation/OSD/OSD.hxx>
 
-#include <Standard_Stream.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Stream.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TCollection_AsciiString.hxx>
 #include <TCollection_HAsciiString.hxx>

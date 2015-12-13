@@ -6,8 +6,8 @@
 #ifndef _StepBasic_ActionRequestSolution_HeaderFile
 #define _StepBasic_ActionRequestSolution_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepBasic_ActionRequestSolution.hxx>
 
 #include <Handle_StepBasic_ActionMethod.hxx>

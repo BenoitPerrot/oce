@@ -6,19 +6,19 @@
 #ifndef _HLRBRep_InternalAlgo_HeaderFile
 #define _HLRBRep_InternalAlgo_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_HLRBRep_InternalAlgo.hxx>
 
 #include <Handle_HLRBRep_Data.hxx>
 #include <HLRAlgo_Projector.hxx>
 #include <HLRBRep_SeqOfShapeBounds.hxx>
 #include <BRepTopAdaptor_MapOfShapeTool.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_HLRTopoBRep_OutLiner.hxx>
 #include <Handle_MMgt_TShared.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class HLRBRep_Data;
 class Standard_OutOfRange;
 class HLRAlgo_Projector;

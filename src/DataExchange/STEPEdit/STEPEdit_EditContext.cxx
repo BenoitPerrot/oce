@@ -14,10 +14,10 @@
 #include <TCollection_AsciiString.hxx>
 #include <IFSelect_EditForm.hxx>
 #include <TCollection_HAsciiString.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <Interface_InterfaceModel.hxx>
 #include <STEPEdit_EditContext.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(STEPEdit_EditContext)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(IFSelect_Editor),

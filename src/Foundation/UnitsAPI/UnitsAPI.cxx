@@ -20,7 +20,7 @@
 #include <Units_UnitsSystem.hxx>
 #include <Foundation/Resource/Resource_Manager.hxx>
 #include <TCollection_AsciiString.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/OSD/OSD_Environment.hxx>
 
 #ifdef HAVE_OCE_PATHS_H

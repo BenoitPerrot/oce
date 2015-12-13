@@ -6,12 +6,12 @@
 #ifndef _TDF_IndexedMapNodeOfLabelIndexedMap_HeaderFile
 #define _TDF_IndexedMapNodeOfLabelIndexedMap_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TDF_IndexedMapNodeOfLabelIndexedMap.hxx>
 
 #include <TDF_Label.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <TCollection_MapNodePtr.hxx>
 #include <TCollection_MapNode.hxx>
 class TDF_Label;

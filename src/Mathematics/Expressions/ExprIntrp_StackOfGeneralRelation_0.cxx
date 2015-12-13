@@ -5,7 +5,7 @@
 
 #include <ExprIntrp_StackOfGeneralRelation.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <ExprIntrp_ListIteratorOfStackOfGeneralRelation.hxx>
 #include <Expr_GeneralRelation.hxx>
 #include <ExprIntrp_ListNodeOfStackOfGeneralRelation.hxx>

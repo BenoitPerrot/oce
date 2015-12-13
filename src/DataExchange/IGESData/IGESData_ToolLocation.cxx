@@ -13,13 +13,13 @@
 
 //szv#9:PRO19565:04Oct99 loss of rotation matrix corrected
 #include <IGESData_IGESModel.hxx>
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <IGESData_Protocol.hxx>
 #include <IGESData_IGESEntity.hxx>
 #include <gp_GTrsf.hxx>
 #include <gp_Trsf.hxx>
 #include <IGESData_ToolLocation.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESData_ToolLocation)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),
@@ -38,7 +38,7 @@ IMPLEMENT_STANDARD_RTTI(IGESData_ToolLocation)
 #include <gp_Vec.hxx>
 #include <gp_Dir.hxx>
 #include <gp_Ax3.hxx>
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 
 #define TYPEFORASSOC 402
 

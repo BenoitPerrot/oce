@@ -19,7 +19,7 @@
 #include <TCollection_AsciiString.hxx>
 #include <CDM_MessageDriver.hxx>
 #include <XmlLDrivers_DocumentStorageDriver.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XmlLDrivers_DocumentStorageDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(PCDM_StorageDriver),
@@ -53,8 +53,8 @@ IMPLEMENT_STANDARD_RTTI(XmlLDrivers_DocumentStorageDriver)
 #include <TColStd_SequenceOfAsciiString.hxx>
 
 #include <locale.h>
-#include <Standard_Failure.hxx>
-#include <Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
 
 #include <Foundation/OSD/OSD_File.hxx>
 #include <Foundation/OSD/OSD_Environment.hxx>

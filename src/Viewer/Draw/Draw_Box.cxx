@@ -18,7 +18,7 @@
 #include <Draw_Color.hxx>
 #include <Draw_Display.hxx>
 #include <Draw_Box.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Draw_Box)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Draw_Drawable3D),

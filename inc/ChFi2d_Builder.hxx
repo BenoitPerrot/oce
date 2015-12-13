@@ -6,17 +6,17 @@
 #ifndef _ChFi2d_Builder_HeaderFile
 #define _ChFi2d_Builder_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <ChFi2d_ConstructionError.hxx>
 #include <TopoDS_Face.hxx>
 #include <TopTools_SequenceOfShape.hxx>
 #include <TopTools_DataMapOfShapeShape.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class TopoDS_Face;
 class TopoDS_Edge;
 class TopoDS_Vertex;

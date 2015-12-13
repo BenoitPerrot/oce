@@ -6,15 +6,15 @@
 #ifndef _TShort_HSequenceOfShortReal_HeaderFile
 #define _TShort_HSequenceOfShortReal_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TShort_HSequenceOfShortReal.hxx>
 
 #include <TShort_SequenceOfShortReal.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_ShortReal.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_ShortReal.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;
 class Standard_OutOfRange;
 class TShort_SequenceOfShortReal;
@@ -92,7 +92,7 @@ private:
 };
 
 #define Item Standard_ShortReal
-#define Item_hxx <Standard_ShortReal.hxx>
+#define Item_hxx <Foundation/Standard/Standard_ShortReal.hxx>
 #define TheSequence TShort_SequenceOfShortReal
 #define TheSequence_hxx <TShort_SequenceOfShortReal.hxx>
 #define TCollection_HSequence TShort_HSequenceOfShortReal

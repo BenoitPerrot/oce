@@ -6,15 +6,15 @@
 #ifndef _IGESSolid_SolidAssembly_HeaderFile
 #define _IGESSolid_SolidAssembly_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESSolid_SolidAssembly.hxx>
 
 #include <Handle_IGESData_HArray1OfIGESEntity.hxx>
 #include <Handle_IGESGeom_HArray1OfTransformationMatrix.hxx>
 #include <IGESData_IGESEntity.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_IGESData_IGESEntity.hxx>
 #include <Handle_IGESGeom_TransformationMatrix.hxx>
 class IGESData_HArray1OfIGESEntity;

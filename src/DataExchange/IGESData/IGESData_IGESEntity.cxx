@@ -27,10 +27,10 @@
 #include <IGESData_ColorEntity.hxx>
 #include <gp_GTrsf.hxx>
 #include <Interface_EntityIterator.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 #include <Interface_EntityList.hxx>
 #include <IGESData_IGESEntity.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESData_IGESEntity)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),
@@ -42,11 +42,11 @@ IMPLEMENT_STANDARD_RTTI(IGESData_IGESEntity)
 #include <IGESData_NameEntity.hxx>
 #include <IGESData_SingleParentEntity.hxx>
 #include <Interface_InterfaceError.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <stdio.h>
 
 #include <Interface_Macros.hxx>
-#include <Standard_PCharacter.hxx>
+#include <Foundation/Standard/Standard_PCharacter.hxx>
 
 
 #define ThisEntity  Handle(IGESData_IGESEntity)::DownCast(This())

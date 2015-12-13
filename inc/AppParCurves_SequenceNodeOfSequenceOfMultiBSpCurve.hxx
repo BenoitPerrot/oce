@@ -6,8 +6,8 @@
 #ifndef _AppParCurves_SequenceNodeOfSequenceOfMultiBSpCurve_HeaderFile
 #define _AppParCurves_SequenceNodeOfSequenceOfMultiBSpCurve_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_AppParCurves_SequenceNodeOfSequenceOfMultiBSpCurve.hxx>
 
 #include <AppParCurves_MultiBSpCurve.hxx>

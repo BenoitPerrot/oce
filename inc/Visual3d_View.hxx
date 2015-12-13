@@ -6,8 +6,8 @@
 #ifndef _Visual3d_View_HeaderFile
 #define _Visual3d_View_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Visual3d_View.hxx>
 
 #include <Visual3d_ViewManagerPtr.hxx>
@@ -15,25 +15,25 @@
 #include <Visual3d_ContextView.hxx>
 #include <Handle_Aspect_Window.hxx>
 #include <Graphic3d_SequenceOfStructure.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Graphic3d_GraphicDriver.hxx>
 #include <Aspect_Background.hxx>
 #include <Aspect_GradientBackground.hxx>
 #include <Graphic3d_MapOfStructure.hxx>
 #include <Graphic3d_CGraduatedTrihedron.hxx>
 #include <Graphic3d_Camera_Handle.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Graphic3d_DataStructureManager.hxx>
 #include <Handle_Visual3d_ViewManager.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Visual3d_Layer.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 #include <Aspect_FillMethod.hxx>
 #include <Aspect_GradientFillMethod.hxx>
 #include <Visual3d_TypeOfBackfacingModel.hxx>
 #include <Aspect_RenderingContext.hxx>
 #include <Aspect_GraphicCallbackProc.hxx>
-#include <Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
 #include <Aspect_TypeOfUpdate.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Aspect_TypeOfTriedronPosition.hxx>

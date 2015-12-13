@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <StepRepr_DefinitionalRepresentation.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepRepr_DefinitionalRepresentation)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepRepr_Representation),

@@ -5,8 +5,8 @@
 
 #include <Expr_SequenceOfGeneralExpression.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Expr_GeneralExpression.hxx>
 #include <Expr_SequenceNodeOfSequenceOfGeneralExpression.hxx>
  

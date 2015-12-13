@@ -6,13 +6,13 @@
 #ifndef _AIS_AttributeFilter_HeaderFile
 #define _AIS_AttributeFilter_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_AIS_AttributeFilter.hxx>
 
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <SelectMgr_Filter.hxx>
 #include <Handle_SelectMgr_EntityOwner.hxx>
 class SelectMgr_EntityOwner;

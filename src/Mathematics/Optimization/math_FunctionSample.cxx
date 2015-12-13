@@ -18,11 +18,11 @@
 #define No_Standard_DimensionError
 //#endif
 
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <math_FunctionSample.hxx>
 
 
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 
 
 math_FunctionSample::math_FunctionSample (const Standard_Real A,

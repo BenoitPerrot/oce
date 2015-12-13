@@ -6,8 +6,8 @@
 #ifndef _TDF_ListNodeOfDeltaList_HeaderFile
 #define _TDF_ListNodeOfDeltaList_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TDF_ListNodeOfDeltaList.hxx>
 
 #include <Handle_TDF_Delta.hxx>

@@ -6,7 +6,7 @@
 #ifndef _AIS_StandardDatum_HeaderFile
 #define _AIS_StandardDatum_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Declares the type of standard datum of an Interactive Object.
 enum AIS_StandardDatum

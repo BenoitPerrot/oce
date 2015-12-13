@@ -6,17 +6,17 @@
 #ifndef _StepData_WriterLib_HeaderFile
 #define _StepData_WriterLib_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_StepData_NodeOfWriterLib.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Handle_StepData_ReadWriteModule.hxx>
 #include <Handle_StepData_Protocol.hxx>
 #include <Handle_StepData_GlobalNodeOfWriterLib.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class StepData_NodeOfWriterLib;
 class Standard_NoSuchObject;
 class Standard_Transient;

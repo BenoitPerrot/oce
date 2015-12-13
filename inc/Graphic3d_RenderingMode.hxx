@@ -6,7 +6,7 @@
 #ifndef _Graphic3d_RenderingMode_HeaderFile
 #define _Graphic3d_RenderingMode_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Describes rendering modes.
 //! - RM_RASTERIZATION: enables OpenGL rasterization mode;

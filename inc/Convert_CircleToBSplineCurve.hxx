@@ -6,13 +6,13 @@
 #ifndef _Convert_CircleToBSplineCurve_HeaderFile
 #define _Convert_CircleToBSplineCurve_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Convert_ConicToBSplineCurve.hxx>
 #include <Convert_ParameterisationType.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class Standard_DomainError;
 class gp_Circ2d;
 

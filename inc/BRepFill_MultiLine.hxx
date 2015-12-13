@@ -6,18 +6,18 @@
 #ifndef _BRepFill_MultiLine_HeaderFile
 #define _BRepFill_MultiLine_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TopoDS_Face.hxx>
 #include <Geom2dAdaptor_Curve.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <Handle_Geom2d_Curve.hxx>
 #include <Handle_Geom_Curve.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class Standard_DomainError;
 class TopoDS_Face;
 class TopoDS_Edge;

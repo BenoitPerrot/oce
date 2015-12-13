@@ -6,8 +6,8 @@
 #ifndef _Handle_TDocStd_Application_HeaderFile
 #define _Handle_TDocStd_Application_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_CDF_Application.hxx>
 
 class Standard_Transient;

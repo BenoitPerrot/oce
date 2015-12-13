@@ -6,8 +6,8 @@
 #ifndef _PTColStd_DataMapNodeOfPersistentTransientMap_HeaderFile
 #define _PTColStd_DataMapNodeOfPersistentTransientMap_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_PTColStd_DataMapNodeOfPersistentTransientMap.hxx>
 
 #include <Handle_Standard_Persistent.hxx>
@@ -54,9 +54,9 @@ private:
 };
 
 #define TheKey Handle(Standard_Persistent)
-#define TheKey_hxx <Standard_Persistent.hxx>
+#define TheKey_hxx <Foundation/Standard/Standard_Persistent.hxx>
 #define TheItem Handle(Standard_Transient)
-#define TheItem_hxx <Standard_Transient.hxx>
+#define TheItem_hxx <Foundation/Standard/Standard_Transient.hxx>
 #define Hasher PTColStd_MapPersistentHasher
 #define Hasher_hxx <PTColStd_MapPersistentHasher.hxx>
 #define TCollection_DataMapNode PTColStd_DataMapNodeOfPersistentTransientMap

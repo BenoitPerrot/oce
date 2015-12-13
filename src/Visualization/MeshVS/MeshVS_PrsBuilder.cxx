@@ -20,7 +20,7 @@
 #include <SelectBasics_SensitiveEntity.hxx>
 #include <SelectBasics_EntityOwner.hxx>
 #include <MeshVS_PrsBuilder.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MeshVS_PrsBuilder)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

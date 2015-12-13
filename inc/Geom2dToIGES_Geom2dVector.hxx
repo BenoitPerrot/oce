@@ -6,9 +6,9 @@
 #ifndef _Geom2dToIGES_Geom2dVector_HeaderFile
 #define _Geom2dToIGES_Geom2dVector_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Geom2dToIGES_Geom2dEntity.hxx>
 #include <Handle_IGESGeom_Direction.hxx>

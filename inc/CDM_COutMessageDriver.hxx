@@ -6,12 +6,12 @@
 #ifndef _CDM_COutMessageDriver_HeaderFile
 #define _CDM_COutMessageDriver_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_CDM_COutMessageDriver.hxx>
 
 #include <CDM_MessageDriver.hxx>
-#include <Standard_ExtString.hxx>
+#include <Foundation/Standard/Standard_ExtString.hxx>
 
 
 //! aMessageDriver for output to COUT (only ASCII strings)

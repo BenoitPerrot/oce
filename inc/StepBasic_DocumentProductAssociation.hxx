@@ -6,14 +6,14 @@
 #ifndef _StepBasic_DocumentProductAssociation_HeaderFile
 #define _StepBasic_DocumentProductAssociation_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepBasic_DocumentProductAssociation.hxx>
 
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Handle_StepBasic_Document.hxx>
 #include <StepBasic_ProductOrFormationOrDefinition.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class TCollection_HAsciiString;
 class StepBasic_Document;

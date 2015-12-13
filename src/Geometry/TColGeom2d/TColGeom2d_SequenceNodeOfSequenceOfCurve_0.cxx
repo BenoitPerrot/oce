@@ -5,7 +5,7 @@
 
 #include <TColGeom2d_SequenceNodeOfSequenceOfCurve.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Geom2d_Curve.hxx>
 #include <TColGeom2d_SequenceOfCurve.hxx>

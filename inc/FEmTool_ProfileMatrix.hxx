@@ -6,17 +6,17 @@
 #ifndef _FEmTool_ProfileMatrix_HeaderFile
 #define _FEmTool_ProfileMatrix_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_FEmTool_ProfileMatrix.hxx>
 
 #include <TColStd_Array2OfInteger.hxx>
 #include <Handle_TColStd_HArray1OfReal.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <FEmTool_SparseMatrix.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <math_Vector.hxx>
 class TColStd_HArray1OfReal;
 class TColStd_HArray1OfInteger;

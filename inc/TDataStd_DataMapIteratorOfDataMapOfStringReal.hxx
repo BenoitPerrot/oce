@@ -6,12 +6,12 @@
 #ifndef _TDataStd_DataMapIteratorOfDataMapOfStringReal_HeaderFile
 #define _TDataStd_DataMapIteratorOfDataMapOfStringReal_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TCollection_BasicMapIterator.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_TDataStd_DataMapNodeOfDataMapOfStringReal.hxx>
 class Standard_NoSuchObject;
 class TCollection_ExtendedString;

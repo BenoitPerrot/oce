@@ -5,7 +5,7 @@
 
 #include <TopOpeBRepDS_DataMapNodeOfMapOfCurve.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TopOpeBRepDS_CurveData.hxx>
 #include <TColStd_MapIntegerHasher.hxx>
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(TopOpeBRepDS_DataMapNodeOfMapOfCurve)
 
 
 #define TheKey Standard_Integer
-#define TheKey_hxx <Standard_Integer.hxx>
+#define TheKey_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheItem TopOpeBRepDS_CurveData
 #define TheItem_hxx <TopOpeBRepDS_CurveData.hxx>
 #define Hasher TColStd_MapIntegerHasher

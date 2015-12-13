@@ -26,7 +26,7 @@
 
 #include <StdFail_NotDone.hxx>
 #include <GccEnt_BadQualifier.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <GccEnt_QualifiedCirc.hxx>
 #include <Geom2dAdaptor_Curve.hxx>
 #include <GccEnt_QualifiedLin.hxx>
@@ -45,7 +45,7 @@
 #include <GccInt_BHyper.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>
 
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <StdFail_NotDone.hxx>
 
 #include <Adaptor3d_OffsetCurve.hxx>

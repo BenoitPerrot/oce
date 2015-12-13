@@ -6,8 +6,8 @@
 #ifndef _StepFEA_CurveElementIntervalLinearlyVarying_HeaderFile
 #define _StepFEA_CurveElementIntervalLinearlyVarying_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepFEA_CurveElementIntervalLinearlyVarying.hxx>
 
 #include <Handle_StepElement_HArray1OfCurveElementSectionDefinition.hxx>

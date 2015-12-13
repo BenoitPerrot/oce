@@ -5,7 +5,7 @@
 
 #include <TestTopOpeDraw_ListNodeOfListOfPnt2d.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <gp_Pnt2d.hxx>
 #include <TestTopOpeDraw_ListOfPnt2d.hxx>

@@ -10,8 +10,8 @@
 #include <TColStd_HArray1OfReal.hxx>
 #include <TColStd_HArray1OfInteger.hxx>
 #include <StdFail_NotDone.hxx>
-#include <Standard_DomainError.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <GeomFill_SweepSectionGenerator.hxx>
 #include <GeomFill_Line.hxx>
 #include <TColgp_Array2OfPnt.hxx>

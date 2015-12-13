@@ -5,7 +5,7 @@
 
 #include <ExprIntrp_StackOfGeneralFunction.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <ExprIntrp_ListIteratorOfStackOfGeneralFunction.hxx>
 #include <Expr_GeneralFunction.hxx>
 #include <ExprIntrp_ListNodeOfStackOfGeneralFunction.hxx>

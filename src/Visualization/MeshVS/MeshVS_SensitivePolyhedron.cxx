@@ -27,7 +27,7 @@
 #include <gp_Lin.hxx>
 #include <SelectBasics_ListOfBox2d.hxx>
 #include <MeshVS_SensitivePolyhedron.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MeshVS_SensitivePolyhedron)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Select3D_SensitiveEntity),

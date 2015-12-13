@@ -15,7 +15,7 @@
 // Modifed:     Portage NT 7-5-97 DPF (return)
 
 #include <StdFail_NotDone.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <Geom_Surface.hxx>

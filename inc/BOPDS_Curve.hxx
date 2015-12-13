@@ -6,9 +6,9 @@
 #ifndef _BOPDS_Curve_HeaderFile
 #define _BOPDS_Curve_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <BOPCol_BaseAllocator.hxx>
 #include <IntTools_Curve.hxx>
@@ -16,7 +16,7 @@
 #include <BOPCol_ListOfInteger.hxx>
 #include <Bnd_Box.hxx>
 #include <Handle_BOPDS_PaveBlock.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <BOPDS_PaveBlock.hxx>
 class IntTools_Curve;
 class Bnd_Box;

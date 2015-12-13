@@ -6,16 +6,16 @@
 #ifndef _GeomFill_CoonsAlgPatch_HeaderFile
 #define _GeomFill_CoonsAlgPatch_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_GeomFill_CoonsAlgPatch.hxx>
 
 #include <Handle_GeomFill_Boundary.hxx>
 #include <gp_Pnt.hxx>
 #include <Handle_Law_Function.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class GeomFill_Boundary;
 class Law_Function;
 class gp_Pnt;

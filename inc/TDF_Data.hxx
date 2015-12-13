@@ -6,19 +6,19 @@
 #ifndef _TDF_Data_HeaderFile
 #define _TDF_Data_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TDF_Data.hxx>
 
 #include <TDF_LabelNodePtr.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <TColStd_ListOfInteger.hxx>
 #include <TDF_HAllocator.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <TDF_Label.hxx>
 #include <Handle_TDF_Delta.hxx>
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 class Standard_NoMoreObject;
 class TDF_Transaction;
 class TDF_LabelNode;

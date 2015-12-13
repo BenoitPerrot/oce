@@ -6,15 +6,15 @@
 #ifndef _IGESGeom_SplineCurve_HeaderFile
 #define _IGESGeom_SplineCurve_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESGeom_SplineCurve.hxx>
 
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TColStd_HArray1OfReal.hxx>
 #include <Handle_TColStd_HArray2OfReal.hxx>
 #include <IGESData_IGESEntity.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class TColStd_HArray1OfReal;
 class TColStd_HArray2OfReal;
 class Standard_DimensionMismatch;

@@ -15,7 +15,7 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.1
 
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <StepBasic_ActionAssignment.hxx>
 #include <StepBasic_ActionRequestAssignment.hxx>
 #include <StepBasic_ApprovalAssignment.hxx>

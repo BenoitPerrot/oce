@@ -5,7 +5,7 @@
 
 #include <IntTools_SequenceNodeOfSequenceOfCurves.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <IntTools_Curve.hxx>
 #include <IntTools_SequenceOfCurves.hxx>

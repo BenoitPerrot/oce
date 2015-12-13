@@ -6,8 +6,8 @@
 #ifndef _Geom_SequenceNodeOfSequenceOfBSplineSurface_HeaderFile
 #define _Geom_SequenceNodeOfSequenceOfBSplineSurface_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Geom_SequenceNodeOfSequenceOfBSplineSurface.hxx>
 
 #include <Handle_Geom_BSplineSurface.hxx>

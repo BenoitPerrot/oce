@@ -6,16 +6,16 @@
 #ifndef _IGESAppli_ToolDrilledHole_HeaderFile
 #define _IGESAppli_ToolDrilledHole_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_IGESAppli_DrilledHole.hxx>
 #include <Handle_IGESData_IGESReaderData.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Interface_Check.hxx>
 #include <Handle_Message_Messenger.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_DomainError;
 class IGESAppli_DrilledHole;
 class IGESData_IGESReaderData;

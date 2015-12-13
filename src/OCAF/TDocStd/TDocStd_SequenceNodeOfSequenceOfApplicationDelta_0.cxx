@@ -5,7 +5,7 @@
 
 #include <TDocStd_SequenceNodeOfSequenceOfApplicationDelta.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TDocStd_ApplicationDelta.hxx>
 #include <TDocStd_SequenceOfApplicationDelta.hxx>

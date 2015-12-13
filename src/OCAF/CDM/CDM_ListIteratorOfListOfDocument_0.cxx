@@ -5,8 +5,8 @@
 
 #include <CDM_ListIteratorOfListOfDocument.hxx>
 
-#include <Standard_NoMoreObject.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoMoreObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <CDM_ListOfDocument.hxx>
 #include <CDM_Document.hxx>
 #include <CDM_ListNodeOfListOfDocument.hxx>

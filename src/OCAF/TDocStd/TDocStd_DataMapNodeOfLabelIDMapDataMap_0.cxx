@@ -5,7 +5,7 @@
 
 #include <TDocStd_DataMapNodeOfLabelIDMapDataMap.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TDF_Label.hxx>
 #include <TDF_IDMap.hxx>

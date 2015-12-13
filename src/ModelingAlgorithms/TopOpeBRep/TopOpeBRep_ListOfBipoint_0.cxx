@@ -5,7 +5,7 @@
 
 #include <TopOpeBRep_ListOfBipoint.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopOpeBRep_ListIteratorOfListOfBipoint.hxx>
 #include <TopOpeBRep_Bipoint.hxx>
 #include <TopOpeBRep_ListNodeOfListOfBipoint.hxx>

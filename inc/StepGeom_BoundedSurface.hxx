@@ -6,8 +6,8 @@
 #ifndef _StepGeom_BoundedSurface_HeaderFile
 #define _StepGeom_BoundedSurface_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepGeom_BoundedSurface.hxx>
 
 #include <StepGeom_Surface.hxx>

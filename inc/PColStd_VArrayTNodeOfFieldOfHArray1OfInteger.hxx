@@ -6,13 +6,13 @@
 #ifndef _PColStd_VArrayTNodeOfFieldOfHArray1OfInteger_HeaderFile
 #define _PColStd_VArrayTNodeOfFieldOfHArray1OfInteger_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_PColStd_VArrayNodeOfFieldOfHArray1OfInteger.hxx>
-#include <Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
 class PColStd_FieldOfHArray1OfInteger;
 class PColStd_VArrayNodeOfFieldOfHArray1OfInteger;
 
@@ -52,7 +52,7 @@ private:
 };
 
 #define Item Standard_Integer
-#define Item_hxx <Standard_Integer.hxx>
+#define Item_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define DBC_VArrayNode PColStd_VArrayNodeOfFieldOfHArray1OfInteger
 #define DBC_VArrayNode_hxx <PColStd_VArrayNodeOfFieldOfHArray1OfInteger.hxx>
 #define DBC_VArrayTNode PColStd_VArrayTNodeOfFieldOfHArray1OfInteger

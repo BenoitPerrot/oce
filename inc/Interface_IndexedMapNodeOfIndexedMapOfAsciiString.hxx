@@ -6,12 +6,12 @@
 #ifndef _Interface_IndexedMapNodeOfIndexedMapOfAsciiString_HeaderFile
 #define _Interface_IndexedMapNodeOfIndexedMapOfAsciiString_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Interface_IndexedMapNodeOfIndexedMapOfAsciiString.hxx>
 
 #include <TCollection_AsciiString.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <TCollection_MapNodePtr.hxx>
 #include <TCollection_MapNode.hxx>
 class TCollection_AsciiString;

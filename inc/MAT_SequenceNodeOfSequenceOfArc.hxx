@@ -6,8 +6,8 @@
 #ifndef _MAT_SequenceNodeOfSequenceOfArc_HeaderFile
 #define _MAT_SequenceNodeOfSequenceOfArc_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_MAT_SequenceNodeOfSequenceOfArc.hxx>
 
 #include <Handle_MAT_Arc.hxx>

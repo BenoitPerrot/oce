@@ -6,19 +6,19 @@
 #ifndef _BinObjMgt_Persistent_HeaderFile
 #define _BinObjMgt_Persistent_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TColStd_SequenceOfAddress.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Character.hxx>
-#include <Standard_Byte.hxx>
-#include <Standard_ExtCharacter.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_ShortReal.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Character.hxx>
+#include <Foundation/Standard/Standard_Byte.hxx>
+#include <Foundation/Standard/Standard_ExtCharacter.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_ShortReal.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 #include <BinObjMgt_PChar.hxx>
 #include <BinObjMgt_PByte.hxx>
 #include <BinObjMgt_PExtChar.hxx>
@@ -26,9 +26,9 @@
 #include <BinObjMgt_PReal.hxx>
 #include <BinObjMgt_PShortReal.hxx>
 #include <Handle_TDF_Data.hxx>
-#include <Standard_OStream.hxx>
-#include <Standard_IStream.hxx>
-#include <Standard_Address.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_IStream.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
 class TCollection_AsciiString;
 class TCollection_ExtendedString;
 class TDF_Label;

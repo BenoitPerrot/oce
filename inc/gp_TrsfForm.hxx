@@ -6,7 +6,7 @@
 #ifndef _gp_TrsfForm_HeaderFile
 #define _gp_TrsfForm_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Identifies the type of a geometric transformation.
 //! Enumerates all 24 possible variants of generalized

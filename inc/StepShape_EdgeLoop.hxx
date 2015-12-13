@@ -6,15 +6,15 @@
 #ifndef _StepShape_EdgeLoop_HeaderFile
 #define _StepShape_EdgeLoop_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepShape_EdgeLoop.hxx>
 
 #include <Handle_StepShape_HArray1OfOrientedEdge.hxx>
 #include <StepShape_Loop.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Handle_StepShape_OrientedEdge.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class StepShape_HArray1OfOrientedEdge;
 class TCollection_HAsciiString;
 class StepShape_OrientedEdge;

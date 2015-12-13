@@ -43,11 +43,11 @@
 #include <Foundation/OSD/OSD_Exception_CTRL_BREAK.hxx>
 
 #include <Foundation/OSD/OSD_Environment.hxx>
-#include <Standard_Underflow.hxx>
-#include <Standard_DivideByZero.hxx>
-#include <Standard_Overflow.hxx>
-#include <Standard_ProgramError.hxx>
-#include <Standard_Mutex.hxx>
+#include <Foundation/Standard/Standard_Underflow.hxx>
+#include <Foundation/Standard/Standard_DivideByZero.hxx>
+#include <Foundation/Standard/Standard_Overflow.hxx>
+#include <Foundation/Standard/Standard_ProgramError.hxx>
+#include <Foundation/Standard/Standard_Mutex.hxx>
 
 #include <Foundation/OSD/OSD_WNT_1.hxx>
 

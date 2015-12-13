@@ -21,13 +21,13 @@
 #include <TColStd_HArray1OfInteger.hxx>
 #include <IGESGraph_HArray1OfColor.hxx>
 #include <IGESBasic_HArray1OfLineFontEntity.hxx>
-#include <Standard_DimensionMismatch.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_DimensionMismatch.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <IGESData_ViewKindEntity.hxx>
 #include <IGESGraph_Color.hxx>
 #include <IGESData_LineFontEntity.hxx>
 #include <IGESDraw_SegmentedViewsVisible.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESDraw_SegmentedViewsVisible)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(IGESData_ViewKindEntity),

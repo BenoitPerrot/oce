@@ -46,8 +46,8 @@
 #include <gp_Pln.hxx>
 #include <gp_Pnt2d.hxx>
 #include <ElSLib.hxx>
-#include <Standard_NotImplemented.hxx>
-#include <Standard_ProgramError.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <Foundation/OSD/OSD_Chronometer.hxx>
 
 #include <GeomTools_Curve2dSet.hxx>

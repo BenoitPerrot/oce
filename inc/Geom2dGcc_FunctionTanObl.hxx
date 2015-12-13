@@ -6,15 +6,15 @@
 #ifndef _Geom2dGcc_FunctionTanObl_HeaderFile
 #define _Geom2dGcc_FunctionTanObl_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Geom2dAdaptor_Curve.hxx>
 #include <gp_Dir2d.hxx>
 #include <math_FunctionWithDerivative.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class Geom2dAdaptor_Curve;
 class gp_Dir2d;
 

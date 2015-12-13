@@ -6,8 +6,8 @@
 #ifndef _Handle_Visual3d_ViewManager_HeaderFile
 #define _Handle_Visual3d_ViewManager_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Graphic3d_StructureManager.hxx>
 
 class Standard_Transient;

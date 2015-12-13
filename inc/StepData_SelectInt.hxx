@@ -6,11 +6,11 @@
 #ifndef _StepData_SelectInt_HeaderFile
 #define _StepData_SelectInt_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepData_SelectInt.hxx>
 
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <StepData_SelectMember.hxx>
 
 

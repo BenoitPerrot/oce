@@ -13,7 +13,7 @@
 // commercial license or contractual agreement.
 
 #include <StdFail_NotDone.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Cylinder.hxx>
 #include <gp_Pln.hxx>
@@ -23,8 +23,8 @@
 #include <Extrema_POnSurf.hxx>
 #include <Extrema_ExtPElS.hxx>
 #include <StdFail_NotDone.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <ElSLib.hxx>
 static const Standard_Real ExtPElS_MyEps = Epsilon(2. * M_PI);
 //=============================================================================

@@ -6,18 +6,18 @@
 #ifndef _TopOpeBRep_FacesFiller_HeaderFile
 #define _TopOpeBRep_FacesFiller_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TopoDS_Face.hxx>
 #include <TopAbs_Orientation.hxx>
 #include <TopOpeBRep_PFacesIntersector.hxx>
 #include <Handle_TopOpeBRepDS_HDataStructure.hxx>
 #include <TopOpeBRepDS_PDataStructure.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <TopOpeBRep_PLineInter.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <TopOpeBRepDS_Transition.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <TopTools_DataMapOfShapeListOfShape.hxx>
@@ -28,7 +28,7 @@
 #include <TopOpeBRepDS_Kind.hxx>
 #include <Handle_TopOpeBRepDS_Interference.hxx>
 #include <TopAbs_State.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class TopOpeBRepDS_HDataStructure;
 class TopOpeBRep_FFDumper;
 class TopoDS_Shape;

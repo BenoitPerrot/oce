@@ -5,7 +5,7 @@
 
 #include <STEPCAFControl_StackItemOfDictionaryOfExternFile.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <STEPCAFControl_DictionaryOfExternFile.hxx>
 #include <STEPCAFControl_StackItemOfDictionaryOfExternFile.hxx>

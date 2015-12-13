@@ -27,7 +27,7 @@
 #include <TopOpeBRepDS_ListIteratorOfListOfInterference.hxx>
 #include <TopOpeBRepDS_Interference.hxx>
 #include <TopOpeBRepDS_HDataStructure.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TopOpeBRepDS_HDataStructure)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),
@@ -55,7 +55,7 @@ IMPLEMENT_STANDARD_RTTI(TopOpeBRepDS_HDataStructure)
 #include <TopOpeBRepDS_Filter.hxx>
 #include <TopOpeBRepDS_Reducer.hxx>
 #include <TopOpeBRepDS_Dumper.hxx>
-#include <Standard_ProgramError.hxx>
+#include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <TopOpeBRepDS_define.hxx>
 
 #ifdef OCCT_DEBUG

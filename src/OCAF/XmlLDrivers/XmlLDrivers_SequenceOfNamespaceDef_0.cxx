@@ -5,8 +5,8 @@
 
 #include <XmlLDrivers_SequenceOfNamespaceDef.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <XmlLDrivers_NamespaceDef.hxx>
 #include <XmlLDrivers_SequenceNodeOfSequenceOfNamespaceDef.hxx>
  

@@ -16,7 +16,7 @@
 
 #include <PTopoDS_Shape1.hxx>
 #include <PCDMShape_Document.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PCDMShape_Document)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(PCDM_Document),

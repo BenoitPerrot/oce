@@ -5,12 +5,12 @@
 
 #include <TShort_HArray1OfShortReal.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
-#include <Standard_RangeError.hxx>
-#include <Standard_DimensionMismatch.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_OutOfMemory.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_DimensionMismatch.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfMemory.hxx>
 #include <TShort_Array1OfShortReal.hxx>
 
  
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(TShort_HArray1OfShortReal)
 
 
 #define ItemHArray1 Standard_ShortReal
-#define ItemHArray1_hxx <Standard_ShortReal.hxx>
+#define ItemHArray1_hxx <Foundation/Standard/Standard_ShortReal.hxx>
 #define TheArray1 TShort_Array1OfShortReal
 #define TheArray1_hxx <TShort_Array1OfShortReal.hxx>
 #define TCollection_HArray1 TShort_HArray1OfShortReal

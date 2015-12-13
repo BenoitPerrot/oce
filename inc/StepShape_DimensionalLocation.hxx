@@ -6,8 +6,8 @@
 #ifndef _StepShape_DimensionalLocation_HeaderFile
 #define _StepShape_DimensionalLocation_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepShape_DimensionalLocation.hxx>
 
 #include <StepRepr_ShapeAspectRelationship.hxx>

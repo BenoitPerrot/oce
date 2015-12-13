@@ -17,7 +17,7 @@
 
 #include <StepElement_SurfaceSection.hxx>
 #include <StepElement_SurfaceSectionFieldConstant.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepElement_SurfaceSectionFieldConstant)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepElement_SurfaceSectionField),

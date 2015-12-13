@@ -6,18 +6,18 @@
 #ifndef _XmlMDF_ADriver_HeaderFile
 #define _XmlMDF_ADriver_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_XmlMDF_ADriver.hxx>
 
 #include <Handle_CDM_MessageDriver.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_CString.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TDF_Attribute.hxx>
 #include <Handle_Standard_Type.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <XmlObjMgt_RRelocationTable.hxx>
 #include <XmlObjMgt_SRelocationTable.hxx>
 class CDM_MessageDriver;

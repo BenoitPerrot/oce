@@ -5,7 +5,7 @@
 
 #include <BRepMAT2d_DataMapIteratorOfDataMapOfBasicEltShape.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <MAT_BasicElt.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TColStd_MapTransientHasher.hxx>

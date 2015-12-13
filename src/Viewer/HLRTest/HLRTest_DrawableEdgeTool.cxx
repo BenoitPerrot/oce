@@ -19,7 +19,7 @@
 #include <HLRBRep_Data.hxx>
 #include <HLRBRep_EdgeData.hxx>
 #include <HLRTest_DrawableEdgeTool.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(HLRTest_DrawableEdgeTool)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Draw_Drawable3D),

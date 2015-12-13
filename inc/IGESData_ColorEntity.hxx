@@ -6,8 +6,8 @@
 #ifndef _IGESData_ColorEntity_HeaderFile
 #define _IGESData_ColorEntity_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESData_ColorEntity.hxx>
 
 #include <IGESData_IGESEntity.hxx>

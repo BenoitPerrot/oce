@@ -6,7 +6,7 @@
 #ifndef _Visual3d_TypeOfLightSource_HeaderFile
 #define _Visual3d_TypeOfLightSource_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Definition of all the type of light sources
 //!

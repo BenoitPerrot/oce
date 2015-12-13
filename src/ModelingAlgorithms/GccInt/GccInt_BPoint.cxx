@@ -16,7 +16,7 @@
 
 #include <gp_Pnt2d.hxx>
 #include <GccInt_BPoint.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(GccInt_BPoint)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(GccInt_Bisec),
@@ -26,7 +26,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(GccInt_BPoint)
 IMPLEMENT_DOWNCAST(GccInt_BPoint,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(GccInt_BPoint)
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <gp_Pnt2d.hxx>
 
 GccInt_BPoint::

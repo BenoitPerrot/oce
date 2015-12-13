@@ -14,7 +14,7 @@
 #include <StepVisual_PresentationLayerAssignment.hxx>
 #include <StepVisual_PresentationRepresentation.hxx>
 #include <StepVisual_PresentationLayerUsage.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepVisual_PresentationLayerUsage)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

@@ -16,7 +16,7 @@
 #ifndef _Standard_CLocaleSentry_H__
 #define _Standard_CLocaleSentry_H__
 
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <locale.h>
 

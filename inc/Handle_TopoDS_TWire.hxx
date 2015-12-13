@@ -6,8 +6,8 @@
 #ifndef _Handle_TopoDS_TWire_HeaderFile
 #define _Handle_TopoDS_TWire_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TopoDS_TShape.hxx>
 
 class Standard_Transient;

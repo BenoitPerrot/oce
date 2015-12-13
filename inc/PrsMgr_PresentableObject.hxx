@@ -6,15 +6,15 @@
 #ifndef _PrsMgr_PresentableObject_HeaderFile
 #define _PrsMgr_PresentableObject_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_PrsMgr_PresentableObject.hxx>
 
 #include <PrsMgr_Presentations.hxx>
 #include <PrsMgr_TypeOfPresentation3d.hxx>
 #include <Graphic3d_SequenceOfHClipPlane.hxx>
 #include <Graphic3d_CTransPersStruct.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <PrsMgr_PresentableObjectPointer.hxx>
 #include <gp_Trsf.hxx>
 #include <PrsMgr_ListOfPresentableObjects.hxx>
@@ -25,7 +25,7 @@
 #include <Handle_Geom_Transformation.hxx>
 #include <PrsMgr_PresentationManager3d.hxx>
 #include <Handle_Prs3d_Presentation.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Prs3d_Projector.hxx>
 #include <Handle_PrsMgr_PresentationManager.hxx>
 #include <Handle_PrsMgr_Presentation.hxx>

@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <PGeom2d_Point.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PGeom2d_Point)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(PGeom2d_Geometry),

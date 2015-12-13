@@ -6,15 +6,15 @@
 #ifndef _StepShape_BoxedHalfSpace_HeaderFile
 #define _StepShape_BoxedHalfSpace_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepShape_BoxedHalfSpace.hxx>
 
 #include <Handle_StepShape_BoxDomain.hxx>
 #include <StepShape_HalfSpaceSolid.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Handle_StepGeom_Surface.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class StepShape_BoxDomain;
 class TCollection_HAsciiString;
 class StepGeom_Surface;

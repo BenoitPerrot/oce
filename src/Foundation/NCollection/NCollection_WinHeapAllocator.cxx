@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/NCollection/NCollection_WinHeapAllocator.hxx>
-#include <Standard_OutOfMemory.hxx>
+#include <Foundation/Standard/Standard_OutOfMemory.hxx>
 
 #if(defined(_WIN32) || defined(__WIN32__))
   #include <windows.h>

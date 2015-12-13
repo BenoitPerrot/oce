@@ -6,19 +6,19 @@
 #ifndef _STEPConstruct_ValidationProps_HeaderFile
 #define _STEPConstruct_ValidationProps_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <StepBasic_Unit.hxx>
 #include <Handle_StepBasic_ProductDefinition.hxx>
 #include <STEPConstruct_Tool.hxx>
 #include <Handle_XSControl_WorkSession.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_StepRepr_RepresentationItem.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_StepRepr_RepresentationContext.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_StepRepr_NextAssemblyUsageOccurrence.hxx>
 #include <Handle_StepRepr_PropertyDefinition.hxx>
 class StepBasic_ProductDefinition;

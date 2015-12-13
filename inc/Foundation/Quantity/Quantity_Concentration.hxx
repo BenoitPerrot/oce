@@ -6,7 +6,7 @@
 #ifndef _Quantity_Concentration_HeaderFile
 #define _Quantity_Concentration_HeaderFile
 
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 
 typedef Standard_Real Quantity_Concentration;
 

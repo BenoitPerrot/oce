@@ -6,13 +6,13 @@
 #ifndef _PBRep_PointOnSurface_HeaderFile
 #define _PBRep_PointOnSurface_HeaderFile
 
-#include <Standard_Macro.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Handle_PBRep_PointOnSurface.hxx>
 
-#include <Standard_Real.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <PBRep_PointsOnSurface.hxx>
 #include <Handle_PGeom_Surface.hxx>
 class PGeom_Surface;

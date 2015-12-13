@@ -19,7 +19,7 @@
 #include <TCollection_HAsciiString.hxx>
 #include <StepBasic_ProductConceptContext.hxx>
 #include <StepRepr_ProductConcept.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepRepr_ProductConcept)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

@@ -23,8 +23,8 @@
 #include <Geom_Surface.hxx>
 #include <TopoDS_Wire.hxx>
 #include <StepToTopoDS_TranslateCompositeCurve.hxx>
-#include <Standard_ErrorHandler.hxx>
-#include <Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
 #include <Interface_Static.hxx>
 #include <Precision.hxx>
 

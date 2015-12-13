@@ -5,15 +5,15 @@
 
 #include <Storage_PArray.hxx>
 
-#include <Standard_RangeError.hxx>
-#include <Standard_DimensionMismatch.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_OutOfMemory.hxx>
-#include <Standard_Persistent.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_DimensionMismatch.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfMemory.hxx>
+#include <Foundation/Standard/Standard_Persistent.hxx>
  
 
 #define Array1Item Handle(Standard_Persistent)
-#define Array1Item_hxx <Standard_Persistent.hxx>
+#define Array1Item_hxx <Foundation/Standard/Standard_Persistent.hxx>
 #define TCollection_Array1 Storage_PArray
 #define TCollection_Array1_hxx <Storage_PArray.hxx>
 #include <TCollection_Array1.gxx>

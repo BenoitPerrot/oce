@@ -6,7 +6,7 @@
 #ifndef _ShapeExtend_Status_HeaderFile
 #define _ShapeExtend_Status_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! This enumeration is used in
 //! ShapeHealing toolkit for representing flags in the

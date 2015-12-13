@@ -73,8 +73,8 @@
 #include <TopTools_DataMapIteratorOfDataMapOfShapeReal.hxx>
 #include <TColStd_ListIteratorOfListOfInteger.hxx>
 
-#include <Standard_NotImplemented.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Precision.hxx>
 
 #include <TopTools_SequenceOfShape.hxx>

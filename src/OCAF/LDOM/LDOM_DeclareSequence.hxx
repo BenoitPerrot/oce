@@ -17,7 +17,7 @@
 #define _Sequence_Declare_HeaderFile
 
 #ifndef _Standard_Macro_HeaderFile
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 #endif
 
 //      Declaration of Sequence (numbered list) class.

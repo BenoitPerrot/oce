@@ -6,7 +6,7 @@
 #ifndef _ChFi2d_ConstructionError_HeaderFile
 #define _ChFi2d_ConstructionError_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! error     that    can   occur       during   the
 //! fillet  construction on planar wire//! the face is not planar//! the face is null//! the two  faces used for the initialisation are

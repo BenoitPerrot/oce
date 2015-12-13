@@ -6,8 +6,8 @@
 #ifndef _Prs3d_ShadingAspect_HeaderFile
 #define _Prs3d_ShadingAspect_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Prs3d_ShadingAspect.hxx>
 
 #include <Handle_Graphic3d_AspectFillArea3d.hxx>
@@ -15,7 +15,7 @@
 #include <Aspect_TypeOfFacingModel.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Graphic3d_NameOfMaterial.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class Graphic3d_AspectFillArea3d;
 class Quantity_Color;
 class Graphic3d_MaterialAspect;

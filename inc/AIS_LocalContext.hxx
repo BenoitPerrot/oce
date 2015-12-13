@@ -6,12 +6,12 @@
 #ifndef _AIS_LocalContext_HeaderFile
 #define _AIS_LocalContext_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_AIS_LocalContext.hxx>
 
 #include <Handle_AIS_InteractiveContext.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_SelectMgr_SelectionManager.hxx>
 #include <Handle_StdSelect_ViewerSelector3d.hxx>
 #include <PrsMgr_PresentationManager3d.hxx>
@@ -21,7 +21,7 @@
 #include <TColStd_ListOfInteger.hxx>
 #include <Handle_SelectMgr_Filter.hxx>
 #include <SelectMgr_IndexedMapOfOwner.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <TColStd_SequenceOfInteger.hxx>
 #include <AIS_SequenceOfInteractive.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
@@ -37,7 +37,7 @@
 #include <Handle_Standard_Transient.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <StdSelect_SensitivityMode.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_AIS_LocalStatus.hxx>
 #include <Handle_SelectMgr_SelectableObject.hxx>
 class AIS_InteractiveContext;

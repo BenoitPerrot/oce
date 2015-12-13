@@ -6,8 +6,8 @@
 #ifndef _TDocStd_Owner_HeaderFile
 #define _TDocStd_Owner_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TDocStd_Owner.hxx>
 
 #include <Handle_TDocStd_Document.hxx>
@@ -15,7 +15,7 @@
 #include <Handle_TDF_Data.hxx>
 #include <Handle_TDF_Attribute.hxx>
 #include <Handle_TDF_RelocationTable.hxx>
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 class TDocStd_Document;
 class Standard_GUID;
 class TDF_Data;

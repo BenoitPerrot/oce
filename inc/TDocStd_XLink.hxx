@@ -6,19 +6,19 @@
 #ifndef _TDocStd_XLink_HeaderFile
 #define _TDocStd_XLink_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TDocStd_XLink.hxx>
 
 #include <TCollection_AsciiString.hxx>
 #include <TDocStd_XLinkPtr.hxx>
 #include <TDF_Attribute.hxx>
 #include <Handle_TDF_Reference.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_TDF_AttributeDelta.hxx>
 #include <Handle_TDF_Attribute.hxx>
 #include <Handle_TDF_RelocationTable.hxx>
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 class TDocStd_XLinkRoot;
 class TDocStd_XLinkIterator;
 class TDF_Label;

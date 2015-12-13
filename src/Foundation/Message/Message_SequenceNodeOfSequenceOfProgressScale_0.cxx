@@ -5,7 +5,7 @@
 
 #include <Foundation/Message/Message_SequenceNodeOfSequenceOfProgressScale.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Foundation/Message/Message_ProgressScale.hxx>
 #include <Foundation/Message/Message_SequenceOfProgressScale.hxx>

@@ -5,7 +5,7 @@
 
 #include <FEmTool_SequenceNodeOfSeqOfLinConstr.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <FEmTool_ListOfVectors.hxx>
 #include <FEmTool_SeqOfLinConstr.hxx>

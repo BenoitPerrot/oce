@@ -6,18 +6,18 @@
 #ifndef _IFSelect_ContextModif_HeaderFile
 #define _IFSelect_ContextModif_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Interface_Graph.hxx>
 #include <Handle_Interface_Protocol.hxx>
 #include <Handle_Interface_CopyControl.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <Interface_CheckIterator.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_Interface_InterfaceModel.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Handle_IFSelect_GeneralModifier.hxx>

@@ -6,18 +6,18 @@
 #ifndef _GeomPlate_Surface_HeaderFile
 #define _GeomPlate_Surface_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_GeomPlate_Surface.hxx>
 
 #include <Plate_Plate.hxx>
 #include <Handle_Geom_Surface.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Geom_Surface.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Geom_Curve.hxx>
 #include <GeomAbs_Shape.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Geom_Geometry.hxx>
 class Geom_Surface;
 class Standard_RangeError;

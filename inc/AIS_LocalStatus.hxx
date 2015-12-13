@@ -6,12 +6,12 @@
 #ifndef _AIS_LocalStatus_HeaderFile
 #define _AIS_LocalStatus_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_AIS_LocalStatus.hxx>
 
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <TColStd_ListOfInteger.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Handle_Standard_Transient.hxx>

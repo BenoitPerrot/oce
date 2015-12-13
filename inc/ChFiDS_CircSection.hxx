@@ -6,13 +6,13 @@
 #ifndef _ChFiDS_CircSection_HeaderFile
 #define _ChFiDS_CircSection_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <gp_Circ.hxx>
 #include <gp_Lin.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class gp_Circ;
 class gp_Lin;
 

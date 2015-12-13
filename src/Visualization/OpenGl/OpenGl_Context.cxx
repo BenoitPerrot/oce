@@ -33,7 +33,7 @@
 
 #include <Foundation/NCollection/NCollection_Vector.hxx>
 
-#include <Standard_ProgramError.hxx>
+#include <Foundation/Standard/Standard_ProgramError.hxx>
 
 #if defined(HAVE_EGL)
   #include <EGL/egl.h>

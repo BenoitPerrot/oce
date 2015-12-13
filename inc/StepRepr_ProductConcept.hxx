@@ -6,13 +6,13 @@
 #ifndef _StepRepr_ProductConcept_HeaderFile
 #define _StepRepr_ProductConcept_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepRepr_ProductConcept.hxx>
 
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Handle_StepBasic_ProductConceptContext.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class TCollection_HAsciiString;
 class StepBasic_ProductConceptContext;

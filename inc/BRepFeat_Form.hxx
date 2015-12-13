@@ -6,11 +6,11 @@
 #ifndef _BRepFeat_Form_HeaderFile
 #define _BRepFeat_Form_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <TopTools_DataMapOfShapeListOfShape.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopTools_ListOfShape.hxx>
@@ -21,7 +21,7 @@
 #include <BRepBuilderAPI_MakeShape.hxx>
 #include <Handle_Geom_Curve.hxx>
 #include <Handle_TopOpeBRepBuild_HBuilder.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class TopTools_ListOfShape;
 class TopoDS_Shape;
 class TColGeom_SequenceOfCurve;

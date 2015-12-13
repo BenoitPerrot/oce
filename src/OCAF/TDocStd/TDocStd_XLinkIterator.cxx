@@ -21,7 +21,7 @@
 
 
 
-#include <Standard_NoMoreObject.hxx>
+#include <Foundation/Standard/Standard_NoMoreObject.hxx>
 #include <TDocStd_Document.hxx>
 #include <TDocStd_XLinkIterator.hxx>
 #include <TDF_Data.hxx>

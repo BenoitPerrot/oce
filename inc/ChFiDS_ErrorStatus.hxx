@@ -6,7 +6,7 @@
 #ifndef _ChFiDS_ErrorStatus_HeaderFile
 #define _ChFiDS_ErrorStatus_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! --- Purpose statuts concernant la cause de l'erreur
 enum ChFiDS_ErrorStatus

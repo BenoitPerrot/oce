@@ -6,7 +6,7 @@
 #ifndef _V3d_TypeOfVisualization_HeaderFile
 #define _V3d_TypeOfVisualization_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Determines the type of visualization in the view, either
 //! WIREFRAME or ZBUFFER (shading).

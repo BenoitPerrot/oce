@@ -15,7 +15,7 @@
 #include <StepVisual_HArray1OfCurveStyleFontPattern.hxx>
 #include <StepVisual_CurveStyleFontPattern.hxx>
 #include <StepVisual_CurveStyleFont.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepVisual_CurveStyleFont)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

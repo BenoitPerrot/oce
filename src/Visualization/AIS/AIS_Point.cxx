@@ -25,7 +25,7 @@
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <AIS_Point.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_Point)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(AIS_InteractiveObject),

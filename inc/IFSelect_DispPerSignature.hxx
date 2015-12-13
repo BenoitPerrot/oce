@@ -6,15 +6,15 @@
 #ifndef _IFSelect_DispPerSignature_HeaderFile
 #define _IFSelect_DispPerSignature_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IFSelect_DispPerSignature.hxx>
 
 #include <Handle_IFSelect_SignCounter.hxx>
 #include <IFSelect_Dispatch.hxx>
-#include <Standard_CString.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class IFSelect_SignCounter;
 class Interface_InterfaceError;
 class TCollection_AsciiString;

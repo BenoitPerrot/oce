@@ -25,7 +25,7 @@
 #include <gce_MakeCone.hxx>
 #include <gp.hxx>
 #include <StdFail_NotDone.hxx>
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 
 GC_MakeConicalSurface::GC_MakeConicalSurface(const gp_Ax2&       A2    ,
 					       const Standard_Real Ang   ,

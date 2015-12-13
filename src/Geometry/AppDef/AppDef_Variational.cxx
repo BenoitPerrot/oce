@@ -21,10 +21,10 @@
 #include <AppParCurves_HArray1OfConstraintCouple.hxx>
 #include <TColStd_HArray1OfInteger.hxx>
 #include <AppDef_SmoothCriterion.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_DimensionError.hxx>
-#include <Standard_DomainError.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_DimensionError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <StdFail_NotDone.hxx>
 #include <gp_VectorWithNullMagnitude.hxx>
 #include <AppDef_MultiLine.hxx>
@@ -41,7 +41,7 @@
 #define No_Standard_DimensionError
 #define No_Standard_ConstructionError
 
-#include <Standard_Stream.hxx>
+#include <Foundation/Standard/Standard_Stream.hxx>
 
 #include <AppParCurves.hxx>
 #include <AppParCurves_Constraint.hxx>
@@ -65,8 +65,8 @@
 #include <TColStd_HArray1OfReal.hxx>
 #include <TColStd_HArray2OfReal.hxx>
 #include <StdFail_NotDone.hxx>
-#include <Standard_SStream.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_SStream.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Precision.hxx>
 #include <AppDef_MyLineTool.hxx>
 

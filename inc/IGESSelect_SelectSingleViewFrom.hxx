@@ -6,12 +6,12 @@
 #ifndef _IGESSelect_SelectSingleViewFrom_HeaderFile
 #define _IGESSelect_SelectSingleViewFrom_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESSelect_SelectSingleViewFrom.hxx>
 
 #include <IFSelect_SelectDeduct.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class Interface_InterfaceError;
 class Interface_EntityIterator;
 class Interface_Graph;

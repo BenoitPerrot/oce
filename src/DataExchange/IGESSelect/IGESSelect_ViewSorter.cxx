@@ -12,14 +12,14 @@
 // commercial license or contractual agreement.
 
 #include <IGESData_IGESModel.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <IGESData_IGESEntity.hxx>
 #include <TColStd_HSequenceOfTransient.hxx>
 #include <Interface_InterfaceModel.hxx>
 #include <Interface_Graph.hxx>
 #include <IFSelect_PacketList.hxx>
 #include <IGESSelect_ViewSorter.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESSelect_ViewSorter)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

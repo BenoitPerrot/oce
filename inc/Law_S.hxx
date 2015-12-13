@@ -6,12 +6,12 @@
 #ifndef _Law_S_HeaderFile
 #define _Law_S_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Law_S.hxx>
 
 #include <Law_BSpFunc.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 
 
 //! Describes an "S" evolution law.

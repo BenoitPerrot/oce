@@ -6,8 +6,8 @@
 #ifndef _IntSurf_SequenceNodeOfSequenceOfPathPoint_HeaderFile
 #define _IntSurf_SequenceNodeOfSequenceOfPathPoint_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IntSurf_SequenceNodeOfSequenceOfPathPoint.hxx>
 
 #include <IntSurf_PathPoint.hxx>

@@ -6,13 +6,13 @@
 #ifndef _BRep_Polygon3D_HeaderFile
 #define _BRep_Polygon3D_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BRep_Polygon3D.hxx>
 
 #include <Handle_Poly_Polygon3D.hxx>
 #include <BRep_CurveRepresentation.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_BRep_CurveRepresentation.hxx>
 class Poly_Polygon3D;
 class Standard_DomainError;

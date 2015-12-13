@@ -6,7 +6,7 @@
 #ifndef _Voxel_VoxelDisplayMode_HeaderFile
 #define _Voxel_VoxelDisplayMode_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum Voxel_VoxelDisplayMode

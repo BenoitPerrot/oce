@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 //  Transfer_Iterator.gxx
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 
 
 //  TheStart est suppose Handle(Standard_Transient) ou (Transfer_Finder)

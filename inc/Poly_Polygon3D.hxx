@@ -6,16 +6,16 @@
 #ifndef _Poly_Polygon3D_HeaderFile
 #define _Poly_Polygon3D_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Poly_Polygon3D.hxx>
 
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <Handle_TColStd_HArray1OfReal.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class TColStd_HArray1OfReal;
 class Standard_NullObject;
 class TColgp_Array1OfPnt;

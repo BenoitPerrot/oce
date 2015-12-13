@@ -6,8 +6,8 @@
 #ifndef _StepFEA_FeaShellMembraneBendingCouplingStiffness_HeaderFile
 #define _StepFEA_FeaShellMembraneBendingCouplingStiffness_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepFEA_FeaShellMembraneBendingCouplingStiffness.hxx>
 
 #include <StepFEA_SymmetricTensor42d.hxx>

@@ -6,16 +6,16 @@
 #ifndef _GeomFill_CircularBlendFunc_HeaderFile
 #define _GeomFill_CircularBlendFunc_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_GeomFill_CircularBlendFunc.hxx>
 
 #include <gp_Pnt.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Adaptor3d_HCurve.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Convert_ParameterisationType.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Approx_SweepFunction.hxx>
 #include <GeomAbs_Shape.hxx>
 class Adaptor3d_HCurve;

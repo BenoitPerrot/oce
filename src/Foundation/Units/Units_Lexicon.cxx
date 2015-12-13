@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <TCollection_HAsciiString.hxx>
 #include <Units_Lexicon.hxx>
@@ -40,7 +40,7 @@ IMPLEMENT_STANDARD_RTTI(Units_Lexicon)
 #ifdef WNT
 # include <stdio.h>
 #else
-#include <Standard_Stream.hxx>
+#include <Foundation/Standard/Standard_Stream.hxx>
 #endif  // WNT
 
 //=======================================================================

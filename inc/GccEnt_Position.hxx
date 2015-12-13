@@ -6,7 +6,7 @@
 #ifndef _GccEnt_Position_HeaderFile
 #define _GccEnt_Position_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 //! Qualifies the position of a solution of a construction

@@ -5,7 +5,7 @@
 
 #include <TColgp_SequenceNodeOfSequenceOfDir2d.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <gp_Dir2d.hxx>
 #include <TColgp_SequenceOfDir2d.hxx>

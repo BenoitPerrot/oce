@@ -6,11 +6,11 @@
 #ifndef _TColStd_SequenceNodeOfSequenceOfBoolean_HeaderFile
 #define _TColStd_SequenceNodeOfSequenceOfBoolean_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TColStd_SequenceNodeOfSequenceOfBoolean.hxx>
 
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <TCollection_SeqNode.hxx>
 #include <TCollection_SeqNodePtr.hxx>
 class TColStd_SequenceOfBoolean;
@@ -46,7 +46,7 @@ private:
 };
 
 #define SeqItem Standard_Boolean
-#define SeqItem_hxx <Standard_Boolean.hxx>
+#define SeqItem_hxx <Foundation/Standard/Standard_Boolean.hxx>
 #define TCollection_SequenceNode TColStd_SequenceNodeOfSequenceOfBoolean
 #define TCollection_SequenceNode_hxx <TColStd_SequenceNodeOfSequenceOfBoolean.hxx>
 #define Handle_TCollection_SequenceNode Handle_TColStd_SequenceNodeOfSequenceOfBoolean

@@ -22,9 +22,9 @@
 #include <HLRAlgo_Intersection.hxx>
 #include <HLRBRep_VertexList.hxx>
 
-#include <Standard_NoMoreObject.hxx>
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_NoMoreObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 
 //=======================================================================
 //function : HLRBRep_VertexList

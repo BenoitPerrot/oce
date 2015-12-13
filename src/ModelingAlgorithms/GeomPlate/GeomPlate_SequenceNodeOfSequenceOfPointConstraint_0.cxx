@@ -5,7 +5,7 @@
 
 #include <GeomPlate_SequenceNodeOfSequenceOfPointConstraint.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <GeomPlate_PointConstraint.hxx>
 #include <GeomPlate_SequenceOfPointConstraint.hxx>

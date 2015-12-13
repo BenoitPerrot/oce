@@ -21,7 +21,7 @@
 #include <OpenGl_Context.hxx>
 #include <OpenGl_PrinterContext.hxx>
 
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 
 #include <Handle_TColStd_HArray1OfByte.hxx>
 #include <Handle_TColStd_HArray1OfReal.hxx>

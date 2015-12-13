@@ -6,13 +6,13 @@
 #ifndef _IGESAppli_FlowLineSpec_HeaderFile
 #define _IGESAppli_FlowLineSpec_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESAppli_FlowLineSpec.hxx>
 
 #include <Handle_Interface_HArray1OfHAsciiString.hxx>
 #include <IGESData_IGESEntity.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 class Interface_HArray1OfHAsciiString;
 class Standard_OutOfRange;

@@ -6,23 +6,23 @@
 #ifndef _CDM_Document_HeaderFile
 #define _CDM_Document_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_CDM_Document.hxx>
 
 #include <TColStd_SequenceOfExtendedString.hxx>
 #include <TCollection_ExtendedString.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <CDM_ListOfReferences.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_CDM_MetaData.hxx>
-#include <Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
 #include <Handle_CDM_Application.hxx>
-#include <Standard_Transient.hxx>
-#include <Standard_Address.hxx>
-#include <Standard_ExtString.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
+#include <Foundation/Standard/Standard_ExtString.hxx>
 #include <Handle_Resource_Manager.hxx>
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 #include <CDM_CanCloseStatus.hxx>
 #include <Handle_CDM_Reference.hxx>
 class CDM_MetaData;

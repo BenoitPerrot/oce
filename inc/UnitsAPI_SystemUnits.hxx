@@ -6,7 +6,7 @@
 #ifndef _UnitsAPI_SystemUnits_HeaderFile
 #define _UnitsAPI_SystemUnits_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Identifies unit systems which may be defined as a
 //! basis system in the user's session:

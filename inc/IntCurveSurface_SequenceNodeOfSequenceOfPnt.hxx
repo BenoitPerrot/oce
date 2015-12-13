@@ -6,8 +6,8 @@
 #ifndef _IntCurveSurface_SequenceNodeOfSequenceOfPnt_HeaderFile
 #define _IntCurveSurface_SequenceNodeOfSequenceOfPnt_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IntCurveSurface_SequenceNodeOfSequenceOfPnt.hxx>
 
 #include <IntCurveSurface_IntersectionPoint.hxx>

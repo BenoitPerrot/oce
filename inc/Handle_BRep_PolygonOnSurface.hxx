@@ -6,8 +6,8 @@
 #ifndef _Handle_BRep_PolygonOnSurface_HeaderFile
 #define _Handle_BRep_PolygonOnSurface_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BRep_CurveRepresentation.hxx>
 
 class Standard_Transient;

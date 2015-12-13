@@ -6,19 +6,19 @@
 #ifndef _TFunction_GraphNode_HeaderFile
 #define _TFunction_GraphNode_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TFunction_GraphNode.hxx>
 
 #include <TColStd_MapOfInteger.hxx>
 #include <TFunction_ExecutionStatus.hxx>
 #include <TDF_Attribute.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TDF_Attribute.hxx>
 #include <Handle_TDF_RelocationTable.hxx>
 #include <Handle_TDF_DataSet.hxx>
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 class TDF_Label;
 class Standard_GUID;
 class TColStd_MapOfInteger;

@@ -17,7 +17,7 @@
 #include <gp_Pnt2d.hxx>
 #include <IntRes2d_Transition.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IntRes2d_IntersectionPoint)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Standard_Storable),

@@ -15,13 +15,13 @@
 // commercial license or contractual agreement.
 
 #include <TDF_Label.hxx>
-#include <Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
 #include <TDataStd_Real.hxx>
 #include <TDataStd_Integer.hxx>
 #include <TDF_Attribute.hxx>
 #include <TDF_RelocationTable.hxx>
 #include <TDataStd_NoteBook.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDataStd_NoteBook)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(TDF_Attribute),
@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_RTTI(TDataStd_NoteBook)
 #include <TDataStd_Real.hxx>
 #include <TDataStd_Integer.hxx>
 #include <TDF_Label.hxx> 
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 
 //=======================================================================
 //function : Find

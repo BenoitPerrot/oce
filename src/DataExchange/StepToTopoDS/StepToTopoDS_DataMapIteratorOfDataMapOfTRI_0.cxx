@@ -5,7 +5,7 @@
 
 #include <StepToTopoDS_DataMapIteratorOfDataMapOfTRI.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <StepShape_TopologicalRepresentationItem.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TColStd_MapTransientHasher.hxx>

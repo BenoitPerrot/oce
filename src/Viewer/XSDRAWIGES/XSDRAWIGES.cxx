@@ -15,8 +15,8 @@
 //pdn 11.01.99 putting "return" statement for compilation on NT
 #include <XSDRAWIGES.hxx>
 
-#include <Standard_ErrorHandler.hxx>
-#include <Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
 #include <Interface_Static.hxx>
 
 #include <IGESControl_Writer.hxx>

@@ -5,7 +5,7 @@
 
 #include <MoniTool_SequenceNodeOfSequenceOfElement.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <MoniTool_Element.hxx>
 #include <MoniTool_SequenceOfElement.hxx>

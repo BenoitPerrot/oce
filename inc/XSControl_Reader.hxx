@@ -6,20 +6,20 @@
 #ifndef _XSControl_Reader_HeaderFile
 #define _XSControl_Reader_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_XSControl_WorkSession.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <TColStd_SequenceOfTransient.hxx>
 #include <TopTools_SequenceOfShape.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 #include <IFSelect_ReturnStatus.hxx>
 #include <Handle_Interface_InterfaceModel.hxx>
 #include <Handle_TColStd_HSequenceOfTransient.hxx>
 #include <Handle_Standard_Transient.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <IFSelect_PrintCount.hxx>
 class XSControl_WorkSession;
 class Interface_InterfaceModel;

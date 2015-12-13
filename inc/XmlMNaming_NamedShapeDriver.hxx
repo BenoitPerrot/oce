@@ -6,15 +6,15 @@
 #ifndef _XmlMNaming_NamedShapeDriver_HeaderFile
 #define _XmlMNaming_NamedShapeDriver_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_XmlMNaming_NamedShapeDriver.hxx>
 
 #include <BRepTools_ShapeSet.hxx>
 #include <XmlMDF_ADriver.hxx>
 #include <Handle_CDM_MessageDriver.hxx>
 #include <Handle_TDF_Attribute.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <XmlObjMgt_RRelocationTable.hxx>
 #include <XmlObjMgt_SRelocationTable.hxx>
 #include <XmlObjMgt_Element.hxx>

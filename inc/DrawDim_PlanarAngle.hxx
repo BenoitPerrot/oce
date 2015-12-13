@@ -6,13 +6,13 @@
 #ifndef _DrawDim_PlanarAngle_HeaderFile
 #define _DrawDim_PlanarAngle_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_DrawDim_PlanarAngle.hxx>
 
 #include <TopoDS_Shape.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <DrawDim_PlanarDimension.hxx>
 class TopoDS_Face;
 class TopoDS_Shape;

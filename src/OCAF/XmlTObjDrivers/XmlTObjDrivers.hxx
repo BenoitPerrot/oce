@@ -19,7 +19,7 @@
 #define XmlTObjDrivers_HeaderFile
 
 #include <TObj_Common.hxx>
-#include <Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
 
 class Handle(XmlMDF_ADriverTable);
 class Handle(CDM_MessageDriver);

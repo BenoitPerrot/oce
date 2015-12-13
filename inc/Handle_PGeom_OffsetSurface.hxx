@@ -6,9 +6,9 @@
 #ifndef _Handle_PGeom_OffsetSurface_HeaderFile
 #define _Handle_PGeom_OffsetSurface_HeaderFile
 
-#include <Standard_Macro.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Handle_PGeom_Surface.hxx>
 
 class Standard_Persistent;

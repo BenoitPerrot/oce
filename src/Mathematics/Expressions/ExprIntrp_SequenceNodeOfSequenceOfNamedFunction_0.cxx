@@ -5,7 +5,7 @@
 
 #include <ExprIntrp_SequenceNodeOfSequenceOfNamedFunction.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Expr_NamedFunction.hxx>
 #include <ExprIntrp_SequenceOfNamedFunction.hxx>

@@ -14,12 +14,12 @@
 
 #ifndef WNT
 
-#include <Standard_NullObject.hxx>
-#include <Standard_ConstructionError.hxx>
-#include <Standard_Failure.hxx>
-#include <Standard_Mutex.hxx>
-#include <Standard_ConstructionError.hxx>
-#include <Standard_NullObject.hxx>
+#include <Foundation/Standard/Standard_NullObject.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_Mutex.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_NullObject.hxx>
 #include <Foundation/OSD/OSD_OSDError.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <Foundation/OSD/OSD_Environment.hxx>

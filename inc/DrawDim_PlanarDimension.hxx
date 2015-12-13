@@ -6,8 +6,8 @@
 #ifndef _DrawDim_PlanarDimension_HeaderFile
 #define _DrawDim_PlanarDimension_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_DrawDim_PlanarDimension.hxx>
 
 #include <TopoDS_Face.hxx>

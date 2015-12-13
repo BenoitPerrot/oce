@@ -5,7 +5,7 @@
 
 #include <MeshVS_SequenceNodeOfSequenceOfPrsBuilder.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <MeshVS_PrsBuilder.hxx>
 #include <MeshVS_SequenceOfPrsBuilder.hxx>

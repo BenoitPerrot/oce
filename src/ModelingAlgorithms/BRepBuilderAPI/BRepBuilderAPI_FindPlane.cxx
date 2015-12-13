@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Geom_Plane.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopoDS_Shape.hxx>
 #include <BRepBuilderAPI_FindPlane.hxx>
 

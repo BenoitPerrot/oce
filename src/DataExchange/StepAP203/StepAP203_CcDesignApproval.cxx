@@ -19,7 +19,7 @@
 #include <StepAP203_HArray1OfApprovedItem.hxx>
 #include <StepBasic_Approval.hxx>
 #include <StepAP203_CcDesignApproval.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepAP203_CcDesignApproval)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepBasic_ApprovalAssignment),

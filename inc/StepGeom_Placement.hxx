@@ -6,8 +6,8 @@
 #ifndef _StepGeom_Placement_HeaderFile
 #define _StepGeom_Placement_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepGeom_Placement.hxx>
 
 #include <Handle_StepGeom_CartesianPoint.hxx>

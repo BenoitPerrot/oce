@@ -6,14 +6,14 @@
 #ifndef _BRepPrimAPI_MakeSphere_HeaderFile
 #define _BRepPrimAPI_MakeSphere_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <BRepPrim_Sphere.hxx>
 #include <BRepPrimAPI_MakeOneAxis.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
 class Standard_DomainError;
 class gp_Pnt;
 class gp_Ax2;

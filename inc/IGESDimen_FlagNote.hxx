@@ -6,16 +6,16 @@
 #ifndef _IGESDimen_FlagNote_HeaderFile
 #define _IGESDimen_FlagNote_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESDimen_FlagNote.hxx>
 
 #include <gp_XYZ.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_IGESDimen_GeneralNote.hxx>
 #include <Handle_IGESDimen_HArray1OfLeaderArrow.hxx>
 #include <IGESData_IGESEntity.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_IGESDimen_LeaderArrow.hxx>
 class IGESDimen_GeneralNote;
 class IGESDimen_HArray1OfLeaderArrow;

@@ -5,7 +5,7 @@
 
 #include <TopOpeBRepDS_DataMapIteratorOfMapOfIntegerShapeData.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopOpeBRepDS_ShapeData.hxx>
 #include <TColStd_MapIntegerHasher.hxx>
 #include <TopOpeBRepDS_MapOfIntegerShapeData.hxx>
@@ -13,7 +13,7 @@
  
 
 #define TheKey Standard_Integer
-#define TheKey_hxx <Standard_Integer.hxx>
+#define TheKey_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheItem TopOpeBRepDS_ShapeData
 #define TheItem_hxx <TopOpeBRepDS_ShapeData.hxx>
 #define Hasher TColStd_MapIntegerHasher

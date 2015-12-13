@@ -6,8 +6,8 @@
 #ifndef _Handle_AIS_DimensionOwner_HeaderFile
 #define _Handle_AIS_DimensionOwner_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_SelectMgr_EntityOwner.hxx>
 
 class Standard_Transient;

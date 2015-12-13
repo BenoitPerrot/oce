@@ -16,7 +16,7 @@
 #include <TColStd_HPackedMapOfInteger.hxx>
 #include <TDataStd_IntPackedMap.hxx>
 #include <TDataStd_DeltaOnModificationOfIntPackedMap.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDataStd_DeltaOnModificationOfIntPackedMap)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(TDF_DeltaOnModification),

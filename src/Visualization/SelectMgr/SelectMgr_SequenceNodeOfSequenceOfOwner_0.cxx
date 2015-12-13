@@ -5,7 +5,7 @@
 
 #include <SelectMgr_SequenceNodeOfSequenceOfOwner.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <SelectMgr_EntityOwner.hxx>
 #include <SelectMgr_SequenceOfOwner.hxx>

@@ -6,17 +6,17 @@
 #ifndef _CDM_Reference_HeaderFile
 #define _CDM_Reference_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_CDM_Reference.hxx>
 
 #include <Handle_CDM_Document.hxx>
 #include <CDM_DocumentPointer.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_CDM_Application.hxx>
 #include <Handle_CDM_MetaData.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 class CDM_Document;
 class CDM_Application;
 class CDM_MetaData;

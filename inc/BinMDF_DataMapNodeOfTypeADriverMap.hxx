@@ -6,8 +6,8 @@
 #ifndef _BinMDF_DataMapNodeOfTypeADriverMap_HeaderFile
 #define _BinMDF_DataMapNodeOfTypeADriverMap_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BinMDF_DataMapNodeOfTypeADriverMap.hxx>
 
 #include <Handle_Standard_Type.hxx>
@@ -54,7 +54,7 @@ private:
 };
 
 #define TheKey Handle(Standard_Type)
-#define TheKey_hxx <Standard_Type.hxx>
+#define TheKey_hxx <Foundation/Standard/Standard_Type.hxx>
 #define TheItem Handle(BinMDF_ADriver)
 #define TheItem_hxx <BinMDF_ADriver.hxx>
 #define Hasher TColStd_MapTransientHasher

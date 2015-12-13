@@ -6,15 +6,15 @@
 #ifndef _Interface_CopyMap_HeaderFile
 #define _Interface_CopyMap_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Interface_CopyMap.hxx>
 
 #include <Handle_Interface_InterfaceModel.hxx>
 #include <TColStd_Array1OfTransient.hxx>
 #include <Interface_CopyControl.hxx>
 #include <Handle_Standard_Transient.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class Interface_InterfaceModel;
 class Interface_InterfaceError;
 class Standard_Transient;

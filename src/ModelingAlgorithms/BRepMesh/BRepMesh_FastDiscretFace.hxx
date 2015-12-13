@@ -14,13 +14,13 @@
 #ifndef _BRepMesh_FastDiscretFace_HeaderFile
 #define _BRepMesh_FastDiscretFace_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <BRepMesh_FastDiscretFace.hxx>
 #include <BRepMesh_DataStructureOfDelaun.hxx>
 #include <BRepMesh.hxx>
 #include <BRepMesh_FaceAttribute.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <TopTools_MutexForShapeProvider.hxx>
 #include <Handle_BRepAdaptor_HSurface.hxx>
 #include <Handle_Poly_Triangulation.hxx>

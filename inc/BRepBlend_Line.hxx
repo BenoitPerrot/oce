@@ -6,16 +6,16 @@
 #ifndef _BRepBlend_Line_HeaderFile
 #define _BRepBlend_Line_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BRepBlend_Line.hxx>
 
 #include <Blend_SequenceOfPoint.hxx>
 #include <IntSurf_TypeTrans.hxx>
 #include <BRepBlend_Extremity.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_OutOfRange;
 class Blend_Point;
 class BRepBlend_Extremity;

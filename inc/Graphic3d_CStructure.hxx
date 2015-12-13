@@ -22,7 +22,7 @@
 #include <Graphic3d_SequenceOfHClipPlane.hxx>
 #include <Graphic3d_TypeOfComposition.hxx>
 #include <Graphic3d_Vec3.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <Handle_Graphic3d_GraphicDriver.hxx>
 
 class Handle(Graphic3d_StructureManager);

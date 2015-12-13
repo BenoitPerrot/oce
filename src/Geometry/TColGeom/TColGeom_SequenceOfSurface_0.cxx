@@ -5,8 +5,8 @@
 
 #include <TColGeom_SequenceOfSurface.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Geom_Surface.hxx>
 #include <TColGeom_SequenceNodeOfSequenceOfSurface.hxx>
  

@@ -6,12 +6,12 @@
 #ifndef _IntTools_TopolTool_HeaderFile
 #define _IntTools_TopolTool_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IntTools_TopolTool.hxx>
 
-#include <Standard_Integer.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Adaptor3d_TopolTool.hxx>
 #include <Handle_Adaptor3d_HSurface.hxx>
 class Standard_DomainError;

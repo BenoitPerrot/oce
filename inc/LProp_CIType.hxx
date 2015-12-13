@@ -6,7 +6,7 @@
 #ifndef _LProp_CIType_HeaderFile
 #define _LProp_CIType_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 //! Identifies the type of a particular point on a curve:

@@ -16,7 +16,7 @@
 //    gka 05.04.99 S4136: eliminate parameter lastpreci
 //gka,abv 14.04.99 S4136: maintain unit context, precision and maxtolerance values
 #include <StepRepr_Representation.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <Transfer_Binder.hxx>
 #include <Transfer_TransientProcess.hxx>
 #include <StepGeom_Axis2Placement3d.hxx>
@@ -36,7 +36,7 @@
 #include <TopoDS_Compound.hxx>
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <STEPControl_ActorRead.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(STEPControl_ActorRead)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Transfer_ActorOfTransientProcess),
@@ -132,8 +132,8 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_ActorRead)
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <StepRepr_HSequenceOfRepresentationItem.hxx>
 #include <StepBasic_ProductDefinition.hxx>
-#include <Standard_Failure.hxx>
-#include <Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <StepDimTol_DatumFeature.hxx>
 #include <StepDimTol_GeometricTolerance.hxx>
 #include <StepDimTol_GeoTolAndGeoTolWthDatRefAndModGeoTolAndPosTol.hxx>

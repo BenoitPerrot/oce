@@ -6,15 +6,15 @@
 #ifndef _DBC_BaseArray_HeaderFile
 #define _DBC_BaseArray_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <DBC_DBVArray.hxx>
-#include <Standard_Storable.hxx>
-#include <Standard_Address.hxx>
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_Storable.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 class Standard_NullObject;
 class Standard_NegativeValue;
 class Standard_DimensionMismatch;

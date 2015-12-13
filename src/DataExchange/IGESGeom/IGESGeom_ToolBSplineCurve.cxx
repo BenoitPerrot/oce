@@ -17,7 +17,7 @@
 //--------------------------------------------------------------------
 //#54 rln 24.12.98 CCI60005
 
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <IGESGeom_BSplineCurve.hxx>
 #include <IGESData_IGESReaderData.hxx>
 #include <IGESData_ParamReader.hxx>

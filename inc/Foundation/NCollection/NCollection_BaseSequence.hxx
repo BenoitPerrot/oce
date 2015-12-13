@@ -16,7 +16,7 @@
 #ifndef NCollection_BaseSequence_HeaderFile
 #define NCollection_BaseSequence_HeaderFile
 
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Foundation/NCollection/NCollection_BaseAllocator.hxx>
 #include <Foundation/NCollection/NCollection_DefineAlloc.hxx>
 

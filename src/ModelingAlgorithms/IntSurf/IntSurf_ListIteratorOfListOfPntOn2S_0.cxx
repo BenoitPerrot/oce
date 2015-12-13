@@ -5,8 +5,8 @@
 
 #include <IntSurf_ListIteratorOfListOfPntOn2S.hxx>
 
-#include <Standard_NoMoreObject.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoMoreObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <IntSurf_ListOfPntOn2S.hxx>
 #include <IntSurf_PntOn2S.hxx>
 #include <IntSurf_ListNodeOfListOfPntOn2S.hxx>

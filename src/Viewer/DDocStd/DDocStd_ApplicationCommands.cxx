@@ -22,8 +22,8 @@
 #include <TDocStd_Document.hxx>
 #include <TDataStd_Name.hxx>
 #include <Draw.hxx>
-#include <Standard_GUID.hxx>
-#include <Standard_ExtString.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_ExtString.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <TCollection_ExtendedString.hxx>
 #include <TDF.hxx>

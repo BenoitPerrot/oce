@@ -6,8 +6,8 @@
 #ifndef _ChFiDS_SequenceNodeOfSequenceOfSpine_HeaderFile
 #define _ChFiDS_SequenceNodeOfSequenceOfSpine_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ChFiDS_SequenceNodeOfSequenceOfSpine.hxx>
 
 #include <Handle_ChFiDS_Spine.hxx>

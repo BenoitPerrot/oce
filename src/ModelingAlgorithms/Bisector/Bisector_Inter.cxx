@@ -16,7 +16,7 @@
 
 //  Modified by skv - Mon May  5 15:06:39 2003 OCC616
 
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Bisector_Bisec.hxx>
 #include <IntRes2d_Domain.hxx>
 #include <Geom2d_Curve.hxx>

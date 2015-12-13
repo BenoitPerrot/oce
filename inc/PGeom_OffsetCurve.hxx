@@ -6,14 +6,14 @@
 #ifndef _PGeom_OffsetCurve_HeaderFile
 #define _PGeom_OffsetCurve_HeaderFile
 
-#include <Standard_Macro.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Handle_PGeom_OffsetCurve.hxx>
 
 #include <Handle_PGeom_Curve.hxx>
 #include <gp_Dir.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <PGeom_Curve.hxx>
 class PGeom_Curve;
 class gp_Dir;

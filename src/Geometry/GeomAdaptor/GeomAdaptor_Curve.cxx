@@ -22,10 +22,10 @@
 #define No_Standard_OutOfRange
 
 #include <Geom_Curve.hxx>
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_ConstructionError.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <GeomAdaptor_Surface.hxx>
 #include <TColStd_Array1OfReal.hxx>
 #include <Adaptor3d_HCurve.hxx>
@@ -60,10 +60,10 @@
 #include <Geom_Hyperbola.hxx>
 //#include <GeomConvert_BSplineCurveKnotSplitting.hxx>
 
-#include <Standard_OutOfRange.hxx>
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_NullObject.hxx>
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NullObject.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Geom_OffsetCurve.hxx>
 
 #define myBspl (*((Handle(Geom_BSplineCurve)*)&myCurve))

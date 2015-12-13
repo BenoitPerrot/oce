@@ -6,15 +6,15 @@
 #ifndef _IGESGraph_ToolLineFontDefPattern_HeaderFile
 #define _IGESGraph_ToolLineFontDefPattern_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_IGESGraph_LineFontDefPattern.hxx>
 #include <Handle_IGESData_IGESReaderData.hxx>
 #include <Handle_Interface_Check.hxx>
 #include <Handle_Message_Messenger.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_DomainError;
 class IGESGraph_LineFontDefPattern;
 class IGESData_IGESReaderData;

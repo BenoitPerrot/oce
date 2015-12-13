@@ -6,19 +6,19 @@
 #ifndef _MAT2d_Circuit_HeaderFile
 #define _MAT2d_Circuit_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_MAT2d_Circuit.hxx>
 
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <TColGeom2d_SequenceOfGeometry.hxx>
 #include <MAT2d_DataMapOfIntegerConnexion.hxx>
 #include <MAT2d_DataMapOfBiIntSequenceOfInteger.hxx>
 #include <TColStd_SequenceOfInteger.hxx>
 #include <GeomAbs_JoinType.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Geom2d_Geometry.hxx>
 #include <Handle_MAT2d_Connexion.hxx>
 class MAT2d_SequenceOfSequenceOfGeometry;

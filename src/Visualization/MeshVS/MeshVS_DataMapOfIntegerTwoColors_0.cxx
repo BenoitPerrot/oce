@@ -5,15 +5,15 @@
 
 #include <MeshVS_DataMapOfIntegerTwoColors.hxx>
 
-#include <Standard_DomainError.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TColStd_MapIntegerHasher.hxx>
 #include <MeshVS_DataMapNodeOfDataMapOfIntegerTwoColors.hxx>
 #include <MeshVS_DataMapIteratorOfDataMapOfIntegerTwoColors.hxx>
  
 
 #define TheKey Standard_Integer
-#define TheKey_hxx <Standard_Integer.hxx>
+#define TheKey_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheItem MeshVS_TwoColors
 #define TheItem_hxx <MeshVS_TwoColors.hxx>
 #define Hasher TColStd_MapIntegerHasher

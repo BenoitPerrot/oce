@@ -16,7 +16,7 @@
 #ifndef _Standard_MMgrRaw_HeaderFile
 #define _Standard_MMgrRaw_HeaderFile
 
-#include <Standard_MMgrRoot.hxx>
+#include <Foundation/Standard/Standard_MMgrRoot.hxx>
 
 /**
 * Implementation of raw OCC memory manager which uses standard C

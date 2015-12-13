@@ -5,7 +5,7 @@
 
 #include <MeshVS_DataMapNodeOfDataMapOfIntegerColor.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <TColStd_MapIntegerHasher.hxx>
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_DataMapNodeOfDataMapOfIntegerColor)
 
 
 #define TheKey Standard_Integer
-#define TheKey_hxx <Standard_Integer.hxx>
+#define TheKey_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheItem Quantity_Color
 #define TheItem_hxx <Foundation/Quantity/Quantity_Color.hxx>
 #define Hasher TColStd_MapIntegerHasher

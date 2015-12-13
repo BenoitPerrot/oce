@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 //szv#4 S4163
-#include <Standard_TypeMismatch.hxx>
+#include <Foundation/Standard/Standard_TypeMismatch.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopTools_HSequenceOfShape.hxx>
 #include <TopTools_ListOfShape.hxx>

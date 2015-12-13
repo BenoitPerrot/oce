@@ -15,14 +15,14 @@
 // commercial license or contractual agreement.
 
 #include <Bnd_HArray1OfBox.hxx>
-#include <Standard_NullValue.hxx>
-#include <Standard_MultiplyDefined.hxx>
+#include <Foundation/Standard/Standard_NullValue.hxx>
+#include <Foundation/Standard/Standard_MultiplyDefined.hxx>
 #include <Bnd_Box.hxx>
 #include <TColStd_ListOfInteger.hxx>
 #include <gp_Pln.hxx>
 #include <Bnd_BoundSortBox.hxx>
-#include <Standard_NullValue.hxx>
-#include <Standard_MultiplyDefined.hxx>
+#include <Foundation/Standard/Standard_NullValue.hxx>
+#include <Foundation/Standard/Standard_MultiplyDefined.hxx>
 #include <Bnd_Array1OfBox.hxx>
 #include <TColStd_ListIteratorOfListOfInteger.hxx>
 #include <TColStd_DataMapIteratorOfDataMapOfIntegerInteger.hxx>

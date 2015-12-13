@@ -15,8 +15,8 @@
 #include <TopoDS_Shape.hxx>
 #include <BOPAlgo_ArgumentAnalyzer.hxx>
 
-#include <Standard_ErrorHandler.hxx>
-#include <Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
 
 #include <TColStd_Array2OfBoolean.hxx>
 

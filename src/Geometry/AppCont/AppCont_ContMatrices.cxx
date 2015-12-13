@@ -22,7 +22,7 @@
 
 #include <AppCont_ContMatrices.hxx>
 #include <math_Matrix.hxx>
-#include <Standard_DimensionError.hxx>
+#include <Foundation/Standard/Standard_DimensionError.hxx>
 
 static const Standard_Real IMatrix[] = {
 4.0, -2.0,

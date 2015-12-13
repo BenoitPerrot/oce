@@ -6,8 +6,8 @@
 #ifndef _Handle_BRepFill_ShapeLaw_HeaderFile
 #define _Handle_BRepFill_ShapeLaw_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BRepFill_SectionLaw.hxx>
 
 class Standard_Transient;

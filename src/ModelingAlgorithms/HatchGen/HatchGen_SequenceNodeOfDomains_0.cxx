@@ -5,7 +5,7 @@
 
 #include <HatchGen_SequenceNodeOfDomains.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <HatchGen_Domain.hxx>
 #include <HatchGen_Domains.hxx>

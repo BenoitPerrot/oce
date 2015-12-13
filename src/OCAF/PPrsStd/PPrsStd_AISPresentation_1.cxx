@@ -16,7 +16,7 @@
 
 #include <PCollection_HExtendedString.hxx>
 #include <PPrsStd_AISPresentation_1.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PPrsStd_AISPresentation_1)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(PDF_Attribute),

@@ -10,7 +10,7 @@
  
 
 #define Item Standard_Real
-#define Item_hxx <Standard_Real.hxx>
+#define Item_hxx <Foundation/Standard/Standard_Real.hxx>
 #define Array TColStd_Array1OfReal
 #define Array_hxx <TColStd_Array1OfReal.hxx>
 #define Comparator TCollection_CompareOfReal

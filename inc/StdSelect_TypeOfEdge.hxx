@@ -6,7 +6,7 @@
 #ifndef _StdSelect_TypeOfEdge_HeaderFile
 #define _StdSelect_TypeOfEdge_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Provides values for different types of edges. These
 //! values are used to filter edges in frameworks

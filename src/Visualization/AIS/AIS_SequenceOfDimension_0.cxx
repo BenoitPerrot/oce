@@ -5,8 +5,8 @@
 
 #include <AIS_SequenceOfDimension.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <AIS_Relation.hxx>
 #include <AIS_SequenceNodeOfSequenceOfDimension.hxx>
  

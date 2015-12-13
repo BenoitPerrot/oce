@@ -6,14 +6,14 @@
 #ifndef _VrmlConverter_IsoAspect_HeaderFile
 #define _VrmlConverter_IsoAspect_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_VrmlConverter_IsoAspect.hxx>
 
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <VrmlConverter_LineAspect.hxx>
 #include <Handle_Vrml_Material.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class Vrml_Material;
 
 

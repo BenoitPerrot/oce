@@ -5,8 +5,8 @@
 
 #include <Foundation/Message/Message_SequenceOfPrinters.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Message/Message_Printer.hxx>
 #include <Foundation/Message/Message_SequenceNodeOfSequenceOfPrinters.hxx>
  

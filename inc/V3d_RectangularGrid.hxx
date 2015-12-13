@@ -6,17 +6,17 @@
 #ifndef _V3d_RectangularGrid_HeaderFile
 #define _V3d_RectangularGrid_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_V3d_RectangularGrid.hxx>
 
 #include <Handle_Graphic3d_Structure.hxx>
 #include <Handle_Graphic3d_Group.hxx>
 #include <gp_Ax3.hxx>
 #include <V3d_ViewerPointer.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Aspect_GridDrawMode.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Aspect_RectangularGrid.hxx>
 class Graphic3d_Structure;
 class Graphic3d_Group;

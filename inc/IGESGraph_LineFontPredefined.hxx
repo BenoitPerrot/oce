@@ -6,11 +6,11 @@
 #ifndef _IGESGraph_LineFontPredefined_HeaderFile
 #define _IGESGraph_LineFontPredefined_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESGraph_LineFontPredefined.hxx>
 
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <IGESData_IGESEntity.hxx>
 
 

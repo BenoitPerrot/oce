@@ -6,13 +6,13 @@
 #ifndef _PGeom2d_BSplineCurve_HeaderFile
 #define _PGeom2d_BSplineCurve_HeaderFile
 
-#include <Standard_Macro.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Handle_PGeom2d_BSplineCurve.hxx>
 
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_PColgp_HArray1OfPnt2d.hxx>
 #include <Handle_PColStd_HArray1OfReal.hxx>
 #include <Handle_PColStd_HArray1OfInteger.hxx>

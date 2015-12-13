@@ -23,7 +23,7 @@
 #include <TColStd_SequenceOfExtendedString.hxx>
 #include <Storage_BaseDriver.hxx>
 #include <PCDM_ReadWriter.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PCDM_ReadWriter)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Standard_Transient),
@@ -33,7 +33,7 @@ IMPLEMENT_DOWNCAST(PCDM_ReadWriter,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(PCDM_ReadWriter)
 #include <PCDM_ReadWriter_1.hxx>
 #include <Storage_Schema.hxx>
-#include <Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Storage_HeaderData.hxx>
 #include <Storage_TypeData.hxx>
 #include <UTL.hxx>

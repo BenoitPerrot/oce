@@ -5,8 +5,8 @@
 
 #include <StepToTopoDS_PointVertexMap.hxx>
 
-#include <Standard_DomainError.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <StepGeom_CartesianPoint.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <StepToTopoDS_CartesianPointHasher.hxx>

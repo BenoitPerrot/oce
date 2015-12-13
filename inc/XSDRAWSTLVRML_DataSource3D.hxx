@@ -6,8 +6,8 @@
 #ifndef _XSDRAWSTLVRML_DataSource3D_HeaderFile
 #define _XSDRAWSTLVRML_DataSource3D_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_XSDRAWSTLVRML_DataSource3D.hxx>
 
 #include <TColStd_PackedMapOfInteger.hxx>
@@ -15,12 +15,12 @@
 #include <Handle_TColStd_HArray2OfReal.hxx>
 #include <Handle_TColStd_HArray2OfInteger.hxx>
 #include <MeshVS_DataSource.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <MeshVS_EntityType.hxx>
 #include <Handle_MeshVS_HArray1OfSequenceOfInteger.hxx>
-#include <Standard_Address.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class TColStd_HArray1OfInteger;
 class TColStd_HArray2OfReal;
 class TColStd_HArray2OfInteger;

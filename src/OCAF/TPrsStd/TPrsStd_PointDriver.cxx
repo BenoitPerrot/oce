@@ -14,7 +14,7 @@
 #include <TDF_Label.hxx>
 #include <AIS_InteractiveObject.hxx>
 #include <TPrsStd_PointDriver.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TPrsStd_PointDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(TPrsStd_Driver),

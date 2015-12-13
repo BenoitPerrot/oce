@@ -5,7 +5,7 @@
 
 #include <TShort_SequenceNodeOfSequenceOfShortReal.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TShort_SequenceOfShortReal.hxx>
 
@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_RTTI(TShort_SequenceNodeOfSequenceOfShortReal)
 
 
 #define SeqItem Standard_ShortReal
-#define SeqItem_hxx <Standard_ShortReal.hxx>
+#define SeqItem_hxx <Foundation/Standard/Standard_ShortReal.hxx>
 #define TCollection_SequenceNode TShort_SequenceNodeOfSequenceOfShortReal
 #define TCollection_SequenceNode_hxx <TShort_SequenceNodeOfSequenceOfShortReal.hxx>
 #define Handle_TCollection_SequenceNode Handle_TShort_SequenceNodeOfSequenceOfShortReal

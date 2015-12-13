@@ -15,7 +15,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Intf_Polygon2d.hxx>
 #include <gp_Pnt2d.hxx>
 #include <Intf_InterferencePolygon2d.hxx>

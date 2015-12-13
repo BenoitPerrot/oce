@@ -16,7 +16,7 @@
 #include <Interface_GeneralLib.hxx>
 #include <Interface_Protocol.hxx>
 #include <Transfer_TransientProcess.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <Transfer_TransferDispatch.hxx>
 #include <Transfer_DispatchControl.hxx>
 #include <Transfer_SimpleBinderOfTransient.hxx>

@@ -18,7 +18,7 @@
 #include <TopOpeBRepBuild_BlockIterator.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopOpeBRepBuild_BlockBuilder.hxx>
-#include <Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
 
 //=======================================================================
 //function : TopOpeBRepBuild_BlockBuilder

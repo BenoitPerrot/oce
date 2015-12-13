@@ -6,7 +6,7 @@
 #ifndef _V3d_StereoDumpOptions_HeaderFile
 #define _V3d_StereoDumpOptions_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Options to be used with image dumping.
 //!

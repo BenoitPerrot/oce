@@ -5,7 +5,7 @@
 
 #include <DBRep_ListOfHideData.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <DBRep_ListIteratorOfListOfHideData.hxx>
 #include <DBRep_HideData.hxx>
 #include <DBRep_ListNodeOfListOfHideData.hxx>

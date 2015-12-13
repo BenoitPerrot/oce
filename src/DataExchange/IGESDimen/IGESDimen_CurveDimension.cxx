@@ -21,7 +21,7 @@
 #include <IGESDimen_LeaderArrow.hxx>
 #include <IGESDimen_WitnessLine.hxx>
 #include <IGESDimen_CurveDimension.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESDimen_CurveDimension)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(IGESData_IGESEntity),

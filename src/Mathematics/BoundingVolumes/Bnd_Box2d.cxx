@@ -14,12 +14,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <gp_Pnt2d.hxx>
 #include <gp_Dir2d.hxx>
 #include <gp_Trsf2d.hxx>
 #include <Bnd_Box2d.hxx>
-#include <Standard_Stream.hxx>
+#include <Foundation/Standard/Standard_Stream.hxx>
 #include <gp.hxx>
 //-- #include <Precision.hxx> Precision::Infinite() -> 1e+100
 

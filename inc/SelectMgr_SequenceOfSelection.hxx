@@ -6,14 +6,14 @@
 #ifndef _SelectMgr_SequenceOfSelection_HeaderFile
 #define _SelectMgr_SequenceOfSelection_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TCollection_BaseSequence.hxx>
 #include <Handle_SelectMgr_Selection.hxx>
 #include <Handle_SelectMgr_SequenceNodeOfSequenceOfSelection.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;
 class Standard_OutOfRange;
 class SelectMgr_Selection;

@@ -16,7 +16,7 @@
 #include <StepBasic_DateTimeRole.hxx>
 #include <StepAP214_AutoDesignDateAndTimeItem.hxx>
 #include <StepAP214_AutoDesignNominalDateAndTimeAssignment.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepAP214_AutoDesignNominalDateAndTimeAssignment)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepBasic_DateAndTimeAssignment),

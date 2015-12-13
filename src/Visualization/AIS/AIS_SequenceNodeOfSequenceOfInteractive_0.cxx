@@ -5,7 +5,7 @@
 
 #include <AIS_SequenceNodeOfSequenceOfInteractive.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <AIS_InteractiveObject.hxx>
 #include <AIS_SequenceOfInteractive.hxx>

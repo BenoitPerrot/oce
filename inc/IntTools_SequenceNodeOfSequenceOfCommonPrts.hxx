@@ -6,8 +6,8 @@
 #ifndef _IntTools_SequenceNodeOfSequenceOfCommonPrts_HeaderFile
 #define _IntTools_SequenceNodeOfSequenceOfCommonPrts_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IntTools_SequenceNodeOfSequenceOfCommonPrts.hxx>
 
 #include <IntTools_CommonPrt.hxx>

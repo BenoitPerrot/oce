@@ -5,7 +5,7 @@
 
 #include <TColStd_ListOfAsciiString.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TColStd_ListIteratorOfListOfAsciiString.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <TColStd_ListNodeOfListOfAsciiString.hxx>

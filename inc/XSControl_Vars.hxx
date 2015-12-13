@@ -6,19 +6,19 @@
 #ifndef _XSControl_Vars_HeaderFile
 #define _XSControl_Vars_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_XSControl_Vars.hxx>
 
 #include <Handle_Dico_DictionaryOfTransient.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Handle_Geom_Geometry.hxx>
 #include <Handle_Geom2d_Curve.hxx>
 #include <Handle_Geom_Curve.hxx>
 #include <Handle_Geom_Surface.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class Dico_DictionaryOfTransient;
 class Standard_Transient;
 class Geom_Geometry;

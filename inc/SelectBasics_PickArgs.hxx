@@ -16,7 +16,7 @@
 #ifndef _SelectBasics_PickArgs_HeaderFile
 #define _SelectBasics_PickArgs_HeaderFile
 
-#include <Standard_TypeDef.hxx>
+#include <Foundation/Standard/Standard_TypeDef.hxx>
 #include <gp_Lin.hxx>
 
 //! Structure to provide all-in-one information on picking arguments

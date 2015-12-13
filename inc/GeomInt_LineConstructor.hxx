@@ -6,17 +6,17 @@
 #ifndef _GeomInt_LineConstructor_HeaderFile
 #define _GeomInt_LineConstructor_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <TColStd_SequenceOfReal.hxx>
 #include <Handle_Adaptor3d_TopolTool.hxx>
 #include <Handle_GeomAdaptor_HSurface.hxx>
 #include <Handle_IntPatch_Line.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class Adaptor3d_TopolTool;
 class GeomAdaptor_HSurface;
 class StdFail_NotDone;

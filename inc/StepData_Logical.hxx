@@ -6,7 +6,7 @@
 #ifndef _StepData_Logical_HeaderFile
 #define _StepData_Logical_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! A Standard Definition for STEP (which knows Boolean too)
 enum StepData_Logical

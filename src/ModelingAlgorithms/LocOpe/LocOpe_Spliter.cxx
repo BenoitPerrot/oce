@@ -17,8 +17,8 @@
 //  Modified by skv - Mon May 31 12:34:09 2004 OCC5865
 
 #include <StdFail_NotDone.hxx>
-#include <Standard_NullObject.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NullObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopoDS_Shape.hxx>
 #include <LocOpe_WiresOnShape.hxx>
 #include <TopTools_ListOfShape.hxx>
@@ -58,7 +58,7 @@
 #include <TopoDS.hxx>
 #include <TopExp.hxx>
 
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 
 
 //  Modified by skv - Mon May 31 13:00:30 2004 OCC5865 Begin

@@ -18,11 +18,11 @@
 
 #include <IGESDraw_HArray1OfViewKindEntity.hxx>
 #include <IGESData_HArray1OfIGESEntity.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <IGESData_ViewKindEntity.hxx>
 #include <IGESData_IGESEntity.hxx>
 #include <IGESDraw_ViewsVisible.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESDraw_ViewsVisible)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(IGESData_ViewKindEntity),
@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESDraw_ViewsVisible)
 IMPLEMENT_DOWNCAST(IGESDraw_ViewsVisible,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESDraw_ViewsVisible)
-#include <Standard_DimensionMismatch.hxx>
+#include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 
 
 IGESDraw_ViewsVisible::IGESDraw_ViewsVisible ()    {  }

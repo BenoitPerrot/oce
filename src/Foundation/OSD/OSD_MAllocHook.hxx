@@ -16,8 +16,8 @@
 #ifndef _OSD_MAllocHook_HeaderFile
 #define _OSD_MAllocHook_HeaderFile
 
-#include <Standard_TypeDef.hxx>
-#include <Standard_Mutex.hxx>
+#include <Foundation/Standard/Standard_TypeDef.hxx>
+#include <Foundation/Standard/Standard_Mutex.hxx>
 #include <stdio.h>
 #include <fstream>
 

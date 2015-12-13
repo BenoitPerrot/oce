@@ -46,7 +46,7 @@
 #include <Geom_Curve.hxx>
 #include <Geom_Surface.hxx>
 #include <TopLoc_Location.hxx>
-#include <Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
 #include <Foundation/OSD/OSD_Chronometer.hxx>
 #include <TopOpeBRepTool_CurveTool.hxx>
 #include <TopOpeBRepTool_ShapeTool.hxx>

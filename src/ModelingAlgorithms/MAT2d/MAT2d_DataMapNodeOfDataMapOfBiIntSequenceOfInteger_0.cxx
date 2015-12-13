@@ -5,7 +5,7 @@
 
 #include <MAT2d_DataMapNodeOfDataMapOfBiIntSequenceOfInteger.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <MAT2d_BiInt.hxx>
 #include <TColStd_SequenceOfInteger.hxx>

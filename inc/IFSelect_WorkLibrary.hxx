@@ -6,17 +6,17 @@
 #ifndef _IFSelect_WorkLibrary_HeaderFile
 #define _IFSelect_WorkLibrary_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IFSelect_WorkLibrary.hxx>
 
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Interface_HArray1OfHAsciiString.hxx>
-#include <Standard_Transient.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_Interface_InterfaceModel.hxx>
 #include <Handle_Interface_Protocol.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Handle_Message_Messenger.hxx>
 class Interface_HArray1OfHAsciiString;

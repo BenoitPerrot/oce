@@ -5,7 +5,7 @@
 
 #include <QANCollection_DoubleMapNodeOfDoubleMapOfRealInteger.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TColStd_MapRealHasher.hxx>
 #include <TColStd_MapIntegerHasher.hxx>
@@ -30,9 +30,9 @@ IMPLEMENT_STANDARD_RTTI(QANCollection_DoubleMapNodeOfDoubleMapOfRealInteger)
 
 
 #define TheKey1 Standard_Real
-#define TheKey1_hxx <Standard_Real.hxx>
+#define TheKey1_hxx <Foundation/Standard/Standard_Real.hxx>
 #define TheKey2 Standard_Integer
-#define TheKey2_hxx <Standard_Integer.hxx>
+#define TheKey2_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define Hasher1 TColStd_MapRealHasher
 #define Hasher1_hxx <TColStd_MapRealHasher.hxx>
 #define Hasher2 TColStd_MapIntegerHasher

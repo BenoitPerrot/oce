@@ -6,13 +6,13 @@
 #ifndef _TDataStd_DeltaOnModificationOfRealArray_HeaderFile
 #define _TDataStd_DeltaOnModificationOfRealArray_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TDataStd_DeltaOnModificationOfRealArray.hxx>
 
 #include <Handle_TColStd_HArray1OfInteger.hxx>
 #include <Handle_TColStd_HArray1OfReal.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <TDF_DeltaOnModification.hxx>
 #include <Handle_TDataStd_RealArray.hxx>
 class TColStd_HArray1OfInteger;

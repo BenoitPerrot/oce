@@ -6,12 +6,12 @@
 #ifndef _ShapeUpgrade_ConvertSurfaceToBezierBasis_HeaderFile
 #define _ShapeUpgrade_ConvertSurfaceToBezierBasis_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ShapeUpgrade_ConvertSurfaceToBezierBasis.hxx>
 
 #include <Handle_ShapeExtend_CompositeSurface.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ShapeUpgrade_SplitSurface.hxx>
 class ShapeExtend_CompositeSurface;
 

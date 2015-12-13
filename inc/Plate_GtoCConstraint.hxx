@@ -6,14 +6,14 @@
 #ifndef _Plate_GtoCConstraint_HeaderFile
 #define _Plate_GtoCConstraint_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Plate_PinpointConstraint.hxx>
 #include <Plate_D1.hxx>
 #include <gp_XY.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class gp_XY;
 class Plate_D1;
 class gp_XYZ;

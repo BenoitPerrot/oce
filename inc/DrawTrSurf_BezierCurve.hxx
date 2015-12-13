@@ -6,16 +6,16 @@
 #ifndef _DrawTrSurf_BezierCurve_HeaderFile
 #define _DrawTrSurf_BezierCurve_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_DrawTrSurf_BezierCurve.hxx>
 
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Draw_Color.hxx>
 #include <DrawTrSurf_Curve.hxx>
 #include <Handle_Geom_BezierCurve.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Draw_Drawable3D.hxx>
 class Geom_BezierCurve;
 class Draw_Color;

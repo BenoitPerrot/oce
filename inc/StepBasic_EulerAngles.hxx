@@ -6,8 +6,8 @@
 #ifndef _StepBasic_EulerAngles_HeaderFile
 #define _StepBasic_EulerAngles_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepBasic_EulerAngles.hxx>
 
 #include <Handle_TColStd_HArray1OfReal.hxx>

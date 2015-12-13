@@ -5,7 +5,7 @@
 
 #include <SelectMgr_SequenceNodeOfSequenceOfSelection.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <SelectMgr_Selection.hxx>
 #include <SelectMgr_SequenceOfSelection.hxx>

@@ -6,8 +6,8 @@
 #ifndef _TDocStd_DataMapNodeOfLabelIDMapDataMap_HeaderFile
 #define _TDocStd_DataMapNodeOfLabelIDMapDataMap_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TDocStd_DataMapNodeOfLabelIDMapDataMap.hxx>
 
 #include <TDF_Label.hxx>

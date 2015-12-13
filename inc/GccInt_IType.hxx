@@ -6,7 +6,7 @@
 #ifndef _GccInt_IType_HeaderFile
 #define _GccInt_IType_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum GccInt_IType

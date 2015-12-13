@@ -6,12 +6,12 @@
 #ifndef _PGeom_TrimmedCurve_HeaderFile
 #define _PGeom_TrimmedCurve_HeaderFile
 
-#include <Standard_Macro.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Handle_PGeom_TrimmedCurve.hxx>
 
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_PGeom_Curve.hxx>
 #include <PGeom_BoundedCurve.hxx>
 class PGeom_Curve;

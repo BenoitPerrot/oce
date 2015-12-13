@@ -6,8 +6,8 @@
 #ifndef _HLRTopoBRep_DataMapNodeOfMapOfShapeListOfVData_HeaderFile
 #define _HLRTopoBRep_DataMapNodeOfMapOfShapeListOfVData_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_HLRTopoBRep_DataMapNodeOfMapOfShapeListOfVData.hxx>
 
 #include <TopoDS_Shape.hxx>

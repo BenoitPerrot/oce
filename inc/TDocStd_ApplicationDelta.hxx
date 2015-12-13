@@ -6,14 +6,14 @@
 #ifndef _TDocStd_ApplicationDelta_HeaderFile
 #define _TDocStd_ApplicationDelta_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TDocStd_ApplicationDelta.hxx>
 
 #include <TDocStd_SequenceOfDocument.hxx>
 #include <TCollection_ExtendedString.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 class TDocStd_SequenceOfDocument;
 class TCollection_ExtendedString;
 

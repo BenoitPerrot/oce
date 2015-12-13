@@ -6,9 +6,9 @@
 #ifndef _GeomPlate_BuildPlateSurface_HeaderFile
 #define _GeomPlate_BuildPlateSurface_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_GeomPlate_HSequenceOfCurveConstraint.hxx>
 #include <Handle_GeomPlate_HArray1OfSequenceOfReal.hxx>
@@ -16,10 +16,10 @@
 #include <Handle_Geom_Surface.hxx>
 #include <Handle_GeomPlate_Surface.hxx>
 #include <Plate_Plate.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Extrema_ExtPS.hxx>
 #include <Handle_GeomPlate_HArray1OfHCurveOnSurface.hxx>
 #include <Handle_GeomPlate_CurveConstraint.hxx>

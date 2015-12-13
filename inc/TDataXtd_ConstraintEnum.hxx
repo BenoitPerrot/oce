@@ -6,7 +6,7 @@
 #ifndef _TDataXtd_ConstraintEnum_HeaderFile
 #define _TDataXtd_ConstraintEnum_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! The terms of this enumeration define the types
 //! of  available constraint.

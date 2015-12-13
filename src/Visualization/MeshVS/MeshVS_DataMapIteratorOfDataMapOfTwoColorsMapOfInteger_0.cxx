@@ -5,7 +5,7 @@
 
 #include <MeshVS_DataMapIteratorOfDataMapOfTwoColorsMapOfInteger.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TColStd_MapOfInteger.hxx>
 #include <MeshVS_TwoColorsHasher.hxx>
 #include <MeshVS_DataMapOfTwoColorsMapOfInteger.hxx>

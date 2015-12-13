@@ -6,19 +6,19 @@
 #ifndef _BOPDS_PaveBlock_HeaderFile
 #define _BOPDS_PaveBlock_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BOPDS_PaveBlock.hxx>
 
 #include <BOPCol_BaseAllocator.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <BOPDS_Pave.hxx>
 #include <BOPDS_ListOfPave.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Bnd_Box.hxx>
 #include <BOPCol_MapOfInteger.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <BOPDS_ListOfPaveBlock.hxx>
 class BOPDS_Pave;
 class Bnd_Box;

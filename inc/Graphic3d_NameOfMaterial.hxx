@@ -6,7 +6,7 @@
 #ifndef _Graphic3d_NameOfMaterial_HeaderFile
 #define _Graphic3d_NameOfMaterial_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Types of aspect materials.
 enum Graphic3d_NameOfMaterial

@@ -6,14 +6,14 @@
 #ifndef _HLRTopoBRep_OutLiner_HeaderFile
 #define _HLRTopoBRep_OutLiner_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_HLRTopoBRep_OutLiner.hxx>
 
 #include <TopoDS_Shape.hxx>
 #include <HLRTopoBRep_Data.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class TopoDS_Shape;
 class HLRTopoBRep_Data;
 class HLRAlgo_Projector;

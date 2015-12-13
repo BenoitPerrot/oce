@@ -6,15 +6,15 @@
 #ifndef _TopOpeBRepTool_HBoxTool_HeaderFile
 #define _TopOpeBRepTool_HBoxTool_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TopOpeBRepTool_HBoxTool.hxx>
 
 #include <TopOpeBRepTool_IndexedDataMapOfShapeBox.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <TopAbs_ShapeEnum.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class TopoDS_Shape;
 class Bnd_Box;
 class TopOpeBRepTool_IndexedDataMapOfShapeBox;

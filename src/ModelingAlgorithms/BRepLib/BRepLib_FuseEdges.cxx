@@ -20,8 +20,8 @@
 //           add test to avoid loop while in NextConnexEdge (in case of a closed connex wire)
 
 
-#include <Standard_ConstructionError.hxx>
-#include <Standard_NullObject.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_NullObject.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>
 #include <TopTools_DataMapOfIntegerListOfShape.hxx>

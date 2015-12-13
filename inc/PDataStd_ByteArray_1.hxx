@@ -6,13 +6,13 @@
 #ifndef _PDataStd_ByteArray_1_HeaderFile
 #define _PDataStd_ByteArray_1_HeaderFile
 
-#include <Standard_Macro.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Handle_PDataStd_ByteArray_1.hxx>
 
 #include <Handle_PColStd_HArray1OfInteger.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <PDF_Attribute.hxx>
 class PColStd_HArray1OfInteger;
 

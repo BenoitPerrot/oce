@@ -6,13 +6,13 @@
 #ifndef _GeomAdaptor_HCurve_HeaderFile
 #define _GeomAdaptor_HCurve_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_GeomAdaptor_HCurve.hxx>
 
 #include <GeomAdaptor_GHCurve.hxx>
 #include <Handle_Geom_Curve.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class Standard_ConstructionError;
 class GeomAdaptor_Curve;
 class Geom_Curve;

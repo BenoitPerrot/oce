@@ -6,7 +6,7 @@
 #ifndef _V3d_TypeOfView_HeaderFile
 #define _V3d_TypeOfView_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Defines the type of projection of the view.
 enum V3d_TypeOfView

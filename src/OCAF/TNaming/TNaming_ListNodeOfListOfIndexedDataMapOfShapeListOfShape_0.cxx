@@ -5,7 +5,7 @@
 
 #include <TNaming_ListNodeOfListOfIndexedDataMapOfShapeListOfShape.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <TNaming_ListOfIndexedDataMapOfShapeListOfShape.hxx>

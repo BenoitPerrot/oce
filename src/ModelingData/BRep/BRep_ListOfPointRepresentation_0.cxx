@@ -5,7 +5,7 @@
 
 #include <BRep_ListOfPointRepresentation.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <BRep_ListIteratorOfListOfPointRepresentation.hxx>
 #include <BRep_PointRepresentation.hxx>
 #include <BRep_ListNodeOfListOfPointRepresentation.hxx>

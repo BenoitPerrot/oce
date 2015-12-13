@@ -6,8 +6,8 @@
 #ifndef _BRepOffsetAPI_SequenceNodeOfSequenceOfSequenceOfReal_HeaderFile
 #define _BRepOffsetAPI_SequenceNodeOfSequenceOfSequenceOfReal_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BRepOffsetAPI_SequenceNodeOfSequenceOfSequenceOfReal.hxx>
 
 #include <TColStd_SequenceOfReal.hxx>

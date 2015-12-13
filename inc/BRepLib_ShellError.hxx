@@ -6,7 +6,7 @@
 #ifndef _BRepLib_ShellError_HeaderFile
 #define _BRepLib_ShellError_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Errors that can occur at shell construction.
 enum BRepLib_ShellError

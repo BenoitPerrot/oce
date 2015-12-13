@@ -27,7 +27,7 @@
 #include <TopOpeBRepBuild_ListIteratorOfListOfLoop.hxx>
 #include <TopOpeBRepBuild_AreaBuilder.hxx>
 
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <TopAbs.hxx>
 
 #ifdef OCCT_DEBUG

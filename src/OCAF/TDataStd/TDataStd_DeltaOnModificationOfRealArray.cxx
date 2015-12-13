@@ -17,7 +17,7 @@
 #include <TColStd_HArray1OfReal.hxx>
 #include <TDataStd_RealArray.hxx>
 #include <TDataStd_DeltaOnModificationOfRealArray.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDataStd_DeltaOnModificationOfRealArray)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(TDF_DeltaOnModification),

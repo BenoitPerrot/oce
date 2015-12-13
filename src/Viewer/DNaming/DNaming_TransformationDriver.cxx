@@ -18,7 +18,7 @@
 #include <TNaming_NamedShape.hxx>
 #include <gp_Trsf.hxx>
 #include <DNaming_TransformationDriver.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DNaming_TransformationDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(TFunction_Driver),
@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(DNaming_TransformationDriver)
 IMPLEMENT_DOWNCAST(DNaming_TransformationDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(DNaming_TransformationDriver)
-#include <Standard_NullObject.hxx>
+#include <Foundation/Standard/Standard_NullObject.hxx>
 #include <TopAbs.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Shape.hxx>

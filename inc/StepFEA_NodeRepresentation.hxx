@@ -6,8 +6,8 @@
 #ifndef _StepFEA_NodeRepresentation_HeaderFile
 #define _StepFEA_NodeRepresentation_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepFEA_NodeRepresentation.hxx>
 
 #include <Handle_StepFEA_FeaModel.hxx>

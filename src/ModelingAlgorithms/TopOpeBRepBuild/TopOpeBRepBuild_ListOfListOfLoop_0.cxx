@@ -5,7 +5,7 @@
 
 #include <TopOpeBRepBuild_ListOfListOfLoop.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopOpeBRepBuild_ListIteratorOfListOfListOfLoop.hxx>
 #include <TopOpeBRepBuild_ListOfLoop.hxx>
 #include <TopOpeBRepBuild_ListNodeOfListOfListOfLoop.hxx>

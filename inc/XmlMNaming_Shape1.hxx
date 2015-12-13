@@ -6,16 +6,16 @@
 #ifndef _XmlMNaming_Shape1_HeaderFile
 #define _XmlMNaming_Shape1_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <XmlObjMgt_Element.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <TopAbs_Orientation.hxx>
-#include <Standard_Storable.hxx>
+#include <Foundation/Standard/Standard_Storable.hxx>
 #include <XmlObjMgt_Document.hxx>
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 class TopoDS_Shape;
 
 

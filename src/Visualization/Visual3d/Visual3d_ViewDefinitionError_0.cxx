@@ -5,7 +5,7 @@
 
 #include <Visual3d_ViewDefinitionError.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 IMPLEMENT_STANDARD_EXCEPTION(Visual3d_ViewDefinitionError)
  

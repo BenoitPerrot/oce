@@ -6,7 +6,7 @@
 #ifndef _PCollection_AccessMode_HeaderFile
 #define _PCollection_AccessMode_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum PCollection_AccessMode

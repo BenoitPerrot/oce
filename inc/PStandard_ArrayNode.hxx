@@ -6,12 +6,12 @@
 #ifndef _PStandard_ArrayNode_HeaderFile
 #define _PStandard_ArrayNode_HeaderFile
 
-#include <Standard_Macro.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Handle_PStandard_ArrayNode.hxx>
 
-#include <Standard_Persistent.hxx>
+#include <Foundation/Standard/Standard_Persistent.hxx>
 
 
 class PStandard_ArrayNode : public Standard_Persistent

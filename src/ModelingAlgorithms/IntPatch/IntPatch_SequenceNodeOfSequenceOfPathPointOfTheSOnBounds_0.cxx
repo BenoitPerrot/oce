@@ -5,7 +5,7 @@
 
 #include <IntPatch_SequenceNodeOfSequenceOfPathPointOfTheSOnBounds.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <IntPatch_ThePathPointOfTheSOnBounds.hxx>
 #include <IntPatch_SequenceOfPathPointOfTheSOnBounds.hxx>

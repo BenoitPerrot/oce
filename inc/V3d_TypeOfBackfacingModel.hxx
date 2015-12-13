@@ -6,7 +6,7 @@
 #ifndef _V3d_TypeOfBackfacingModel_HeaderFile
 #define _V3d_TypeOfBackfacingModel_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Modes of display of back faces in the view
 //!

@@ -17,7 +17,7 @@
 #include <TopOpeBRep_LineInter.hxx>
 #include <TopOpeBRep_WPointInter.hxx>
 #include <TopOpeBRep_WPointInterIterator.hxx>
-#include <Standard_ProgramError.hxx>
+#include <Foundation/Standard/Standard_ProgramError.hxx>
 
 //=======================================================================
 //function : WPointIterator

@@ -5,7 +5,7 @@
 
 #include <MAT2d_DataMapIteratorOfDataMapOfIntegerBisec.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Bisector_Bisec.hxx>
 #include <TColStd_MapIntegerHasher.hxx>
 #include <MAT2d_DataMapOfIntegerBisec.hxx>
@@ -13,7 +13,7 @@
  
 
 #define TheKey Standard_Integer
-#define TheKey_hxx <Standard_Integer.hxx>
+#define TheKey_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheItem Bisector_Bisec
 #define TheItem_hxx <Bisector_Bisec.hxx>
 #define Hasher TColStd_MapIntegerHasher

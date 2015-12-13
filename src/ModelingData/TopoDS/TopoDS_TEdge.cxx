@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <TopoDS_TEdge.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TopoDS_TEdge)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(TopoDS_TShape),

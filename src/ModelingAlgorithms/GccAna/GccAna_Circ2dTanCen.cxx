@@ -16,8 +16,8 @@
 //    Creation of a circle tangent to an element and having center in a point    +
 //================================================================================
 
-#include <Standard_NegativeValue.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NegativeValue.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <StdFail_NotDone.hxx>
 #include <GccEnt_BadQualifier.hxx>
 #include <GccEnt_QualifiedCirc.hxx>
@@ -31,7 +31,7 @@
 #include <gp_Lin2d.hxx>
 #include <gp.hxx>
 #include <gp_Dir2d.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <StdFail_NotDone.hxx>
 #include <GccEnt_BadQualifier.hxx>
 

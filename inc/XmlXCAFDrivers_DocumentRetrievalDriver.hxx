@@ -6,8 +6,8 @@
 #ifndef _XmlXCAFDrivers_DocumentRetrievalDriver_HeaderFile
 #define _XmlXCAFDrivers_DocumentRetrievalDriver_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_XmlXCAFDrivers_DocumentRetrievalDriver.hxx>
 
 #include <XmlDrivers_DocumentRetrievalDriver.hxx>

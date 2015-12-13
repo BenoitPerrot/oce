@@ -20,8 +20,8 @@
 
 #include <Foundation/NCollection/NCollection_BaseAllocator.hxx>
 
-#include <Standard_ProgramError.hxx>
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_ProgramError.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 
 namespace
 {

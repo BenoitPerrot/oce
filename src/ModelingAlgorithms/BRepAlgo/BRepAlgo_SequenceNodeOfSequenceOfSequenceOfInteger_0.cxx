@@ -5,7 +5,7 @@
 
 #include <BRepAlgo_SequenceNodeOfSequenceOfSequenceOfInteger.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TColStd_SequenceOfInteger.hxx>
 #include <BRepAlgo_SequenceOfSequenceOfInteger.hxx>

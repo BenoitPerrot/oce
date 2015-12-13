@@ -5,7 +5,7 @@
 
 #include <TColStd_IndexedMapNodeOfIndexedMapOfReal.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TColStd_MapRealHasher.hxx>
 #include <TColStd_IndexedMapOfReal.hxx>
@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_RTTI(TColStd_IndexedMapNodeOfIndexedMapOfReal)
 
 
 #define TheKey Standard_Real
-#define TheKey_hxx <Standard_Real.hxx>
+#define TheKey_hxx <Foundation/Standard/Standard_Real.hxx>
 #define Hasher TColStd_MapRealHasher
 #define Hasher_hxx <TColStd_MapRealHasher.hxx>
 #define TCollection_IndexedMapNode TColStd_IndexedMapNodeOfIndexedMapOfReal

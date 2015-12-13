@@ -6,16 +6,16 @@
 #ifndef _TransferBRep_ShapeListBinder_HeaderFile
 #define _TransferBRep_ShapeListBinder_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TransferBRep_ShapeListBinder.hxx>
 
 #include <Handle_TopTools_HSequenceOfShape.hxx>
 #include <Transfer_Binder.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Standard_Type.hxx>
-#include <Standard_CString.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <TopAbs_ShapeEnum.hxx>
 class TopTools_HSequenceOfShape;
 class Standard_TypeMismatch;

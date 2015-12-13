@@ -5,10 +5,10 @@
 
 #include <PColgp_HArray2OfPnt.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
-#include <Standard_RangeError.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <gp_Pnt.hxx>
 #include <PColgp_FieldOfHArray2OfPnt.hxx>
 #include <PColgp_VArrayNodeOfFieldOfHArray2OfPnt.hxx>

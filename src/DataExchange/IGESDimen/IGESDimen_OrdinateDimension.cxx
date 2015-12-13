@@ -20,7 +20,7 @@
 #include <IGESDimen_WitnessLine.hxx>
 #include <IGESDimen_LeaderArrow.hxx>
 #include <IGESDimen_OrdinateDimension.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESDimen_OrdinateDimension)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(IGESData_IGESEntity),

@@ -12,14 +12,14 @@
 // commercial license or contractual agreement.
 
 #include <TColStd_HSequenceOfInteger.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Interface_InterfaceError.hxx>
 #include <IGESData_IGESEntity.hxx>
 #include <TCollection_HAsciiString.hxx>
 #include <IGESData_HArray1OfIGESEntity.hxx>
 #include <IGESData_IGESWriter.hxx>
 #include <IGESData_FreeFormatEntity.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESData_FreeFormatEntity)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(IGESData_UndefinedEntity),

@@ -6,15 +6,15 @@
 #ifndef _MDF_ARDriverHSequence_HeaderFile
 #define _MDF_ARDriverHSequence_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_MDF_ARDriverHSequence.hxx>
 
 #include <MDF_ARDriverSequence.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_MDF_ARDriver.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;
 class Standard_OutOfRange;
 class MDF_ARDriver;

@@ -6,11 +6,11 @@
 #ifndef _QANewModTopOpe_Glue_HeaderFile
 #define _QANewModTopOpe_Glue_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <BRepTools_Substitution.hxx>
 #include <TopTools_DataMapOfShapeListOfShape.hxx>
 #include <TopTools_DataMapOfShapeShape.hxx>
@@ -18,8 +18,8 @@
 #include <TopTools_MapOfShape.hxx>
 #include <BRepAlgoAPI_BooleanOperation.hxx>
 #include <TopAbs_State.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class TopoDS_Shape;
 class TopTools_ListOfShape;
 class TopTools_DataMapOfShapeListOfShape;

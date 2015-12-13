@@ -6,8 +6,8 @@
 #ifndef _Handle_Visual3d_ViewDefinitionError_HeaderFile
 #define _Handle_Visual3d_ViewDefinitionError_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Standard_OutOfRange.hxx>
 
 class Standard_Transient;

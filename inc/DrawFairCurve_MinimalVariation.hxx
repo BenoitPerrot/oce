@@ -6,14 +6,14 @@
 #ifndef _DrawFairCurve_MinimalVariation_HeaderFile
 #define _DrawFairCurve_MinimalVariation_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_DrawFairCurve_MinimalVariation.hxx>
 
 #include <DrawFairCurve_Batten.hxx>
-#include <Standard_Address.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 
 
 //! Interactive Draw object of type "MVC"

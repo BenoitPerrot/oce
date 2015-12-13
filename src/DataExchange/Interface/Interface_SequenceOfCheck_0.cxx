@@ -5,8 +5,8 @@
 
 #include <Interface_SequenceOfCheck.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Interface_Check.hxx>
 #include <Interface_SequenceNodeOfSequenceOfCheck.hxx>
  

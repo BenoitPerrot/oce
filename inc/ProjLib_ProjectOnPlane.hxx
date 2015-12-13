@@ -6,20 +6,20 @@
 #ifndef _ProjLib_ProjectOnPlane_HeaderFile
 #define _ProjLib_ProjectOnPlane_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_Adaptor3d_HCurve.hxx>
 #include <gp_Ax3.hxx>
 #include <gp_Dir.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <GeomAbs_CurveType.hxx>
 #include <Handle_GeomAdaptor_HCurve.hxx>
 #include <Adaptor3d_Curve.hxx>
 #include <GeomAbs_Shape.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Geom_BezierCurve.hxx>
 #include <Handle_Geom_BSplineCurve.hxx>
 class Adaptor3d_HCurve;

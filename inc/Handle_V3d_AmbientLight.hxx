@@ -6,8 +6,8 @@
 #ifndef _Handle_V3d_AmbientLight_HeaderFile
 #define _Handle_V3d_AmbientLight_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_V3d_Light.hxx>
 
 class Standard_Transient;

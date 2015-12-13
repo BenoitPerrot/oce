@@ -5,7 +5,7 @@
 
 #include <MAT2d_DataMapNodeOfDataMapOfBiIntInteger.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <MAT2d_BiInt.hxx>
 #include <MAT2d_MapBiIntHasher.hxx>
@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_RTTI(MAT2d_DataMapNodeOfDataMapOfBiIntInteger)
 #define TheKey MAT2d_BiInt
 #define TheKey_hxx <MAT2d_BiInt.hxx>
 #define TheItem Standard_Integer
-#define TheItem_hxx <Standard_Integer.hxx>
+#define TheItem_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define Hasher MAT2d_MapBiIntHasher
 #define Hasher_hxx <MAT2d_MapBiIntHasher.hxx>
 #define TCollection_DataMapNode MAT2d_DataMapNodeOfDataMapOfBiIntInteger

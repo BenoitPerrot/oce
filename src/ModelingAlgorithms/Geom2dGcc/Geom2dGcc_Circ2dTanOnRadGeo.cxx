@@ -21,8 +21,8 @@
 //                  de rayon donne : Radius.                             +
 //========================================================================
 
-#include <Standard_NegativeValue.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NegativeValue.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <GccEnt_BadQualifier.hxx>
 #include <StdFail_NotDone.hxx>
 #include <Geom2dGcc_QCurve.hxx>
@@ -37,9 +37,9 @@
 #include <ElCLib.hxx>
 #include <math_DirectPolynomialRoots.hxx>
 #include <TColStd_Array1OfReal.hxx>
-#include <Standard_NegativeValue.hxx>
+#include <Foundation/Standard/Standard_NegativeValue.hxx>
 #include <gp_Dir2d.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <StdFail_NotDone.hxx>
 #include <GccEnt_BadQualifier.hxx>
 #include <IntRes2d_Domain.hxx>

@@ -6,14 +6,14 @@
 #ifndef _AdvApp2Var_Criterion_HeaderFile
 #define _AdvApp2Var_Criterion_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <AdvApp2Var_CriterionType.hxx>
 #include <AdvApp2Var_CriterionRepartition.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class AdvApp2Var_Patch;
 class AdvApp2Var_Context;
 

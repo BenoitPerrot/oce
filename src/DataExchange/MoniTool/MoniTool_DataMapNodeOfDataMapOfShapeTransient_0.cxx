@@ -5,9 +5,9 @@
 
 #include <MoniTool_DataMapNodeOfDataMapOfShapeTransient.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopTools_ShapeMapHasher.hxx>
 #include <MoniTool_DataMapOfShapeTransient.hxx>
@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(MoniTool_DataMapNodeOfDataMapOfShapeTransient)
 #define TheKey TopoDS_Shape
 #define TheKey_hxx <TopoDS_Shape.hxx>
 #define TheItem Handle(Standard_Transient)
-#define TheItem_hxx <Standard_Transient.hxx>
+#define TheItem_hxx <Foundation/Standard/Standard_Transient.hxx>
 #define Hasher TopTools_ShapeMapHasher
 #define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode MoniTool_DataMapNodeOfDataMapOfShapeTransient

@@ -6,14 +6,14 @@
 #ifndef _StepAP214_Protocol_HeaderFile
 #define _StepAP214_Protocol_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepAP214_Protocol.hxx>
 
 #include <StepData_Protocol.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Standard_Type.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_Interface_Protocol.hxx>
 class Standard_Type;
 class Interface_Protocol;

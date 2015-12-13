@@ -6,7 +6,7 @@
 #ifndef _Convert_ParameterisationType_HeaderFile
 #define _Convert_ParameterisationType_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 //! Identifies a type of parameterization of a circle or ellipse represented as a BSpline curve.

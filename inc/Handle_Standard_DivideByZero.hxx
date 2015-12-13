@@ -6,8 +6,8 @@
 #ifndef _Handle_Standard_DivideByZero_HeaderFile
 #define _Handle_Standard_DivideByZero_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Standard_NumericError.hxx>
 
 class Standard_Transient;

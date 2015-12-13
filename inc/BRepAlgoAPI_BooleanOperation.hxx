@@ -6,14 +6,14 @@
 #ifndef _BRepAlgoAPI_BooleanOperation_HeaderFile
 #define _BRepAlgoAPI_BooleanOperation_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TopoDS_Shape.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <BOPAlgo_Operation.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <BOPAlgo_PPaveFiller.hxx>
 #include <BOPAlgo_PBuilder.hxx>
 #include <TopTools_DataMapOfShapeShape.hxx>

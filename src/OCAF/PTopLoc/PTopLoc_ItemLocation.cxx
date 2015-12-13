@@ -17,7 +17,7 @@
 #include <PTopLoc_Datum3D.hxx>
 #include <PTopLoc_Location.hxx>
 #include <PTopLoc_ItemLocation.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PTopLoc_ItemLocation)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Standard_Persistent),

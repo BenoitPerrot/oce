@@ -6,17 +6,17 @@
 #ifndef _PTopoDS_TShape1_HeaderFile
 #define _PTopoDS_TShape1_HeaderFile
 
-#include <Standard_Macro.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Handle_PTopoDS_TShape1.hxx>
 
 #include <TopAbs_ShapeEnum.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_PTopoDS_HArray1OfShape1.hxx>
 #include <PTopoDS_Shape1.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Persistent.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Persistent.hxx>
 
 // The Convex method can conflict with Convex defined as an integer
 // in X.h

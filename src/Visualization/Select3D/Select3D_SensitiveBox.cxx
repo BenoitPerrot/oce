@@ -24,7 +24,7 @@
 #include <Bnd_Box2d.hxx>
 #include <gp_Lin.hxx>
 #include <Select3D_SensitiveBox.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Select3D_SensitiveBox)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Select3D_SensitiveEntity),

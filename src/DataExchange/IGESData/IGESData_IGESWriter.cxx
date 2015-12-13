@@ -47,7 +47,7 @@
 #include <Interface_FileParameter.hxx>
 #include <Interface_ParamList.hxx>
 #include <stdio.h>
-#include <Standard_PCharacter.hxx>
+#include <Foundation/Standard/Standard_PCharacter.hxx>
 
 #define MaxcarsG 72
 #define MaxcarsP 64

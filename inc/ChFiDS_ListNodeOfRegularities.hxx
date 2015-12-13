@@ -6,8 +6,8 @@
 #ifndef _ChFiDS_ListNodeOfRegularities_HeaderFile
 #define _ChFiDS_ListNodeOfRegularities_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ChFiDS_ListNodeOfRegularities.hxx>
 
 #include <ChFiDS_Regul.hxx>

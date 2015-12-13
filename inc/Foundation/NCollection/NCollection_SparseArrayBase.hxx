@@ -16,8 +16,8 @@
 #ifndef NCollection_SparseArrayBase_HeaderFile
 #define NCollection_SparseArrayBase_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 
 typedef size_t Standard_Size;
 

@@ -6,8 +6,8 @@
 #ifndef _Units_SequenceNodeOfTksSequence_HeaderFile
 #define _Units_SequenceNodeOfTksSequence_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Units_SequenceNodeOfTksSequence.hxx>
 
 #include <Handle_Units_Token.hxx>

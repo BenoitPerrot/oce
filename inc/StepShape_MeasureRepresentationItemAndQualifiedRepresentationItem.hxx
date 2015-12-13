@@ -6,8 +6,8 @@
 #ifndef _StepShape_MeasureRepresentationItemAndQualifiedRepresentationItem_HeaderFile
 #define _StepShape_MeasureRepresentationItemAndQualifiedRepresentationItem_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepShape_MeasureRepresentationItemAndQualifiedRepresentationItem.hxx>
 
 #include <Handle_StepBasic_MeasureWithUnit.hxx>
@@ -15,7 +15,7 @@
 #include <StepRepr_RepresentationItem.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Handle_StepBasic_MeasureValueMember.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class StepBasic_MeasureWithUnit;
 class StepShape_HArray1OfValueQualifier;
 class TCollection_HAsciiString;

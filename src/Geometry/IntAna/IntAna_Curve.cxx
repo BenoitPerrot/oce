@@ -39,14 +39,14 @@
 
 #include <Precision.hxx>
 
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <gp_Cylinder.hxx>
 #include <gp_Cone.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Vec.hxx>
 #include <IntAna_Curve.hxx>
 
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <math_DirectPolynomialRoots.hxx>
 #include <ElSLib.hxx>
 #include <gp_XYZ.hxx>

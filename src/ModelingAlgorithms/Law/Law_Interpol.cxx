@@ -16,7 +16,7 @@
 
 #include <TColgp_Array1OfPnt2d.hxx>
 #include <Law_Interpol.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Law_Interpol)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Law_BSpFunc),

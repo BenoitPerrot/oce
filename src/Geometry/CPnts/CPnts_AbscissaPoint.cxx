@@ -24,7 +24,7 @@
 //  call to FunctionRoot
 
 #include <StdFail_NotDone.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Adaptor3d_Curve.hxx>
 #include <Adaptor2d_Curve2d.hxx>
 #include <CPnts_AbscissaPoint.hxx>
@@ -32,7 +32,7 @@
 #include <math_GaussSingleIntegration.hxx>
 #include <math_FunctionRoot.hxx>
 #include <StdFail_NotDone.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 
 #include <gp_Vec.hxx>
 #include <gp_Vec2d.hxx>

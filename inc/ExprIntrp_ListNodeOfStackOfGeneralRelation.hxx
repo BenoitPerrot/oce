@@ -6,8 +6,8 @@
 #ifndef _ExprIntrp_ListNodeOfStackOfGeneralRelation_HeaderFile
 #define _ExprIntrp_ListNodeOfStackOfGeneralRelation_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ExprIntrp_ListNodeOfStackOfGeneralRelation.hxx>
 
 #include <Handle_Expr_GeneralRelation.hxx>

@@ -6,11 +6,11 @@
 #ifndef _StepShape_Sphere_HeaderFile
 #define _StepShape_Sphere_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepShape_Sphere.hxx>
 
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_StepGeom_Point.hxx>
 #include <StepGeom_GeometricRepresentationItem.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>

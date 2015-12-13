@@ -6,9 +6,9 @@
 #ifndef _PDocStd_Document_HeaderFile
 #define _PDocStd_Document_HeaderFile
 
-#include <Standard_Macro.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Handle_PDocStd_Document.hxx>
 
 #include <Handle_PDF_Data.hxx>

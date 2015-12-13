@@ -5,7 +5,7 @@
 
 #include <Geom2dHatch_FClass2dOfClassifier.hxx>
 
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Geom2dAdaptor_Curve.hxx>
 #include <Geom2dHatch_Intersector.hxx>
 #include <gp_Lin2d.hxx>

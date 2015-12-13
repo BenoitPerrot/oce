@@ -6,7 +6,7 @@
 #ifndef _Graphic3d_TypeOfTextureFilter_HeaderFile
 #define _Graphic3d_TypeOfTextureFilter_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Type of the texture filter.
 //! Notice that for textures without mipmaps linear interpolation will be used instead of TOTF_BILINEAR and TOTF_TRILINEAR.

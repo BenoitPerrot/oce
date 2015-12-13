@@ -5,19 +5,19 @@
 
 #include <PTColStd_PersistentTransientMap.hxx>
 
-#include <Standard_DomainError.hxx>
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_Persistent.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_Persistent.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <PTColStd_MapPersistentHasher.hxx>
 #include <PTColStd_DataMapNodeOfPersistentTransientMap.hxx>
 #include <PTColStd_DataMapIteratorOfPersistentTransientMap.hxx>
  
 
 #define TheKey Handle(Standard_Persistent)
-#define TheKey_hxx <Standard_Persistent.hxx>
+#define TheKey_hxx <Foundation/Standard/Standard_Persistent.hxx>
 #define TheItem Handle(Standard_Transient)
-#define TheItem_hxx <Standard_Transient.hxx>
+#define TheItem_hxx <Foundation/Standard/Standard_Transient.hxx>
 #define Hasher PTColStd_MapPersistentHasher
 #define Hasher_hxx <PTColStd_MapPersistentHasher.hxx>
 #define TCollection_DataMapNode PTColStd_DataMapNodeOfPersistentTransientMap

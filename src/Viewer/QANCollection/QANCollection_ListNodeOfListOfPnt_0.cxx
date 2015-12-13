@@ -5,7 +5,7 @@
 
 #include <QANCollection_ListNodeOfListOfPnt.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <gp_Pnt.hxx>
 #include <QANCollection_ListOfPnt.hxx>

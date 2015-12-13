@@ -6,12 +6,12 @@
 #ifndef _TColStd_DataMapNodeOfDataMapOfIntegerReal_HeaderFile
 #define _TColStd_DataMapNodeOfDataMapOfIntegerReal_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TColStd_DataMapNodeOfDataMapOfIntegerReal.hxx>
 
-#include <Standard_Integer.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <TCollection_MapNode.hxx>
 #include <TCollection_MapNodePtr.hxx>
 class TColStd_MapIntegerHasher;
@@ -52,9 +52,9 @@ private:
 };
 
 #define TheKey Standard_Integer
-#define TheKey_hxx <Standard_Integer.hxx>
+#define TheKey_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheItem Standard_Real
-#define TheItem_hxx <Standard_Real.hxx>
+#define TheItem_hxx <Foundation/Standard/Standard_Real.hxx>
 #define Hasher TColStd_MapIntegerHasher
 #define Hasher_hxx <TColStd_MapIntegerHasher.hxx>
 #define TCollection_DataMapNode TColStd_DataMapNodeOfDataMapOfIntegerReal

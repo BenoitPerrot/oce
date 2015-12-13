@@ -6,8 +6,8 @@
 #ifndef _MeshVS_SensitiveFace_HeaderFile
 #define _MeshVS_SensitiveFace_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_MeshVS_SensitiveFace.hxx>
 
 #include <gp_Pnt.hxx>
@@ -16,8 +16,8 @@
 #include <Handle_SelectBasics_EntityOwner.hxx>
 #include <Select3D_TypeOfSensitivity.hxx>
 #include <Handle_Select3D_Projector.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class SelectBasics_EntityOwner;
 class TColgp_Array1OfPnt;
 class Select3D_Projector;

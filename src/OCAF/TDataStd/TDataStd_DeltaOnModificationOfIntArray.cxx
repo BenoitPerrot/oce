@@ -16,7 +16,7 @@
 #include <TColStd_HArray1OfInteger.hxx>
 #include <TDataStd_IntegerArray.hxx>
 #include <TDataStd_DeltaOnModificationOfIntArray.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDataStd_DeltaOnModificationOfIntArray)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(TDF_DeltaOnModification),

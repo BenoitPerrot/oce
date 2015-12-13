@@ -16,9 +16,9 @@
 
 #include <TopOpeBRepDS_HDataStructure.hxx>
 #include <TopOpeBRepBuild_HBuilder.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Edge.hxx>
 #include <ChFiDS_Spine.hxx>
@@ -55,8 +55,8 @@
 
 #include <Precision.hxx>
 
-#include <Standard_Failure.hxx>
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <StdFail_NotDone.hxx>
 
 

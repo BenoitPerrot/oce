@@ -6,16 +6,16 @@
 #ifndef _Expr_UnaryMinus_HeaderFile
 #define _Expr_UnaryMinus_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Expr_UnaryMinus.hxx>
 
 #include <Expr_UnaryExpression.hxx>
 #include <Handle_Expr_GeneralExpression.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Expr_NamedUnknown.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class Standard_NumericError;
 class Standard_OutOfRange;
 class Expr_NotEvaluable;

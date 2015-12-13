@@ -17,7 +17,7 @@
 #ifndef No_Exception
 // #define No_Exception
 #endif
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <gp_Ax2.hxx>
 #include <gp_Trsf.hxx>
 #include <gp_Vec2d.hxx>

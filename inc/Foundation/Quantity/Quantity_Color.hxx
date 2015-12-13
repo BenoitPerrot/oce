@@ -6,21 +6,21 @@
 #ifndef _Quantity_Color_HeaderFile
 #define _Quantity_Color_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_ShortReal.hxx>
-#include <Standard_Storable.hxx>
+#include <Foundation/Standard/Standard_ShortReal.hxx>
+#include <Foundation/Standard/Standard_Storable.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Foundation/Quantity/Quantity_Parameter.hxx>
 #include <Foundation/Quantity/Quantity_TypeOfColor.hxx>
 #include <Foundation/Quantity/Quantity_Rate.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_CString.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 class Quantity_ColorDefinitionError;
 
 

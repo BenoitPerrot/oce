@@ -14,14 +14,14 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <gp_Vec.hxx>
 #include <gp_Pnt.hxx>
 #include <Geom_Vector.hxx>
 #include <gp_Trsf.hxx>
 #include <Geom_Geometry.hxx>
 #include <Geom_VectorWithMagnitude.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Geom_VectorWithMagnitude)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Geom_Vector),

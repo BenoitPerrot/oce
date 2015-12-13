@@ -6,15 +6,15 @@
 #ifndef _IntTools_MarkedRangeSet_HeaderFile
 #define _IntTools_MarkedRangeSet_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TColStd_SequenceOfReal.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <TColStd_SequenceOfInteger.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class IntTools_CArray1OfReal;
 class IntTools_Range;
 class TColStd_SequenceOfInteger;

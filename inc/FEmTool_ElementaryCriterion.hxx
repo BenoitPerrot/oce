@@ -6,15 +6,15 @@
 #ifndef _FEmTool_ElementaryCriterion_HeaderFile
 #define _FEmTool_ElementaryCriterion_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_FEmTool_ElementaryCriterion.hxx>
 
 #include <Handle_TColStd_HArray2OfReal.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_TColStd_HArray2OfInteger.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <math_Vector.hxx>
 class TColStd_HArray2OfReal;
 class Standard_NotImplemented;

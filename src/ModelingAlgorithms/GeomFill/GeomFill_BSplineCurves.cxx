@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Geom_BSplineSurface.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Geom_BSplineCurve.hxx>
 #include <GeomFill_BSplineCurves.hxx>
 
@@ -30,7 +30,7 @@
 #include <TColgp_Array1OfPnt.hxx>
 #include <TColgp_Array2OfPnt.hxx>
 
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <BSplCLib.hxx>
 #include <Precision.hxx>
 

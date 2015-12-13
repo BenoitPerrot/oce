@@ -19,7 +19,7 @@
 //=========================================================================
 
 #include <GccInt_Bisec.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <StdFail_NotDone.hxx>
 #include <gp_Lin2d.hxx>
 #include <gp_Pnt2d.hxx>
@@ -30,7 +30,7 @@
 #include <gp_Ax2d.hxx>
 #include <GccInt_BParab.hxx>
 #include <GccInt_BLine.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <StdFail_NotDone.hxx>
 #include <gp.hxx>
 

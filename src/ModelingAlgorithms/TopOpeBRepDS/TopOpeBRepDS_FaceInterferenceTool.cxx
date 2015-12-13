@@ -29,7 +29,7 @@
 #include <TopExp_Explorer.hxx>
 #include <Precision.hxx>
 #include <gp_Sphere.hxx>
-#include <Standard_ProgramError.hxx>
+#include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <TopOpeBRepDS_ProcessInterferencesTool.hxx>
 #include <TopOpeBRepTool_ShapeTool.hxx>
 #include <TopOpeBRepTool_EXPORT.hxx>

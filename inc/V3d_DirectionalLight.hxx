@@ -6,8 +6,8 @@
 #ifndef _V3d_DirectionalLight_HeaderFile
 #define _V3d_DirectionalLight_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_V3d_DirectionalLight.hxx>
 
 #include <Graphic3d_Vertex.hxx>
@@ -15,7 +15,7 @@
 #include <Handle_V3d_Viewer.hxx>
 #include <V3d_TypeOfOrientation.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <V3d_Coordinate.hxx>
 #include <Foundation/Quantity/Quantity_Parameter.hxx>
 #include <Handle_V3d_View.hxx>

@@ -13,8 +13,8 @@
 // commercial license or contractual agreement.
 
 #include <gp.hxx>
-#include <Standard_DomainError.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 
 inline gp_Hypr::gp_Hypr () :
 majorRadius(RealLast()),

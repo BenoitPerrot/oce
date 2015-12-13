@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_Stream.hxx>
+#include <Foundation/Standard/Standard_Stream.hxx>
 
 #include <TopoDS_Face.hxx>
 #include <TopoDS_Wire.hxx>
@@ -60,8 +60,8 @@
 #include <gp_Lin2d.hxx>
 #include <ElCLib.hxx>
 #include <gp_Vec2d.hxx>
-#include <Standard_ErrorHandler.hxx>
-#include <Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
 #include <Geom_RectangularTrimmedSurface.hxx>
 #include <Foundation/OSD/OSD_OpenFile.hxx>
 

@@ -5,7 +5,7 @@
 
 #include <ShapeFix_SequenceNodeOfSequenceOfWireSegment.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <ShapeFix_WireSegment.hxx>
 #include <ShapeFix_SequenceOfWireSegment.hxx>

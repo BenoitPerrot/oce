@@ -27,7 +27,7 @@
 #include <gp_Pnt2d.hxx>
 #include <IntTools_Curve.hxx>
 #include <IntTools_Context.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IntTools_Context)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

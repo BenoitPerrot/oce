@@ -6,12 +6,12 @@
 #ifndef _ShapeUpgrade_Tool_HeaderFile
 #define _ShapeUpgrade_Tool_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ShapeUpgrade_Tool.hxx>
 
 #include <Handle_ShapeBuild_ReShape.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class ShapeBuild_ReShape;
 

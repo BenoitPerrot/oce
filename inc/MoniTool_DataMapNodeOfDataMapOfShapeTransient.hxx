@@ -6,8 +6,8 @@
 #ifndef _MoniTool_DataMapNodeOfDataMapOfShapeTransient_HeaderFile
 #define _MoniTool_DataMapNodeOfDataMapOfShapeTransient_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_MoniTool_DataMapNodeOfDataMapOfShapeTransient.hxx>
 
 #include <TopoDS_Shape.hxx>
@@ -56,7 +56,7 @@ private:
 #define TheKey TopoDS_Shape
 #define TheKey_hxx <TopoDS_Shape.hxx>
 #define TheItem Handle(Standard_Transient)
-#define TheItem_hxx <Standard_Transient.hxx>
+#define TheItem_hxx <Foundation/Standard/Standard_Transient.hxx>
 #define Hasher TopTools_ShapeMapHasher
 #define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode MoniTool_DataMapNodeOfDataMapOfShapeTransient

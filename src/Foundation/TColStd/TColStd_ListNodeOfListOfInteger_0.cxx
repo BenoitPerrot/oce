@@ -5,7 +5,7 @@
 
 #include <TColStd_ListNodeOfListOfInteger.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TColStd_ListOfInteger.hxx>
 #include <TColStd_ListIteratorOfListOfInteger.hxx>
@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_RTTI(TColStd_ListNodeOfListOfInteger)
 
 
 #define Item Standard_Integer
-#define Item_hxx <Standard_Integer.hxx>
+#define Item_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TCollection_ListNode TColStd_ListNodeOfListOfInteger
 #define TCollection_ListNode_hxx <TColStd_ListNodeOfListOfInteger.hxx>
 #define TCollection_ListIterator TColStd_ListIteratorOfListOfInteger

@@ -6,7 +6,7 @@
 #ifndef _AIS_ClearMode_HeaderFile
 #define _AIS_ClearMode_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Declares which entities in an opened local context
 //! are to be cleared of mode settings. Temporary

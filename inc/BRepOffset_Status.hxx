@@ -6,7 +6,7 @@
 #ifndef _BRepOffset_Status_HeaderFile
 #define _BRepOffset_Status_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! status of an offset face
 //! Good :

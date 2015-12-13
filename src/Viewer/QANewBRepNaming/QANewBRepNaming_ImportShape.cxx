@@ -20,7 +20,7 @@
 #include <TDF_LabelMap.hxx>
 #include <QANewBRepNaming_ImportShape.hxx>
 
-#include <Standard_NullObject.hxx>
+#include <Foundation/Standard/Standard_NullObject.hxx>
 #include <BRepTools.hxx>
 
 #include <TopoDS.hxx>

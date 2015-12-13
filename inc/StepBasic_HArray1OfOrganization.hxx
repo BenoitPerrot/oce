@@ -6,14 +6,14 @@
 #ifndef _StepBasic_HArray1OfOrganization_HeaderFile
 #define _StepBasic_HArray1OfOrganization_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepBasic_HArray1OfOrganization.hxx>
 
 #include <StepBasic_Array1OfOrganization.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_StepBasic_Organization.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_DimensionMismatch;
 class Standard_OutOfRange;

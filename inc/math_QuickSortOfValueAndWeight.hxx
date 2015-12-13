@@ -6,9 +6,9 @@
 #ifndef _math_QuickSortOfValueAndWeight_HeaderFile
 #define _math_QuickSortOfValueAndWeight_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 class math_ValueAndWeight;
 class math_Array1OfValueAndWeight;

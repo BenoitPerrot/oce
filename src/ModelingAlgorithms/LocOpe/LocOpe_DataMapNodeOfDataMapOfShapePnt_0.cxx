@@ -5,7 +5,7 @@
 
 #include <LocOpe_DataMapNodeOfDataMapOfShapePnt.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TopoDS_Shape.hxx>
 #include <gp_Pnt.hxx>

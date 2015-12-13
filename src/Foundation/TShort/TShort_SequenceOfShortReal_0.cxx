@@ -5,13 +5,13 @@
 
 #include <TShort_SequenceOfShortReal.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <TShort_SequenceNodeOfSequenceOfShortReal.hxx>
  
 
 #define SeqItem Standard_ShortReal
-#define SeqItem_hxx <Standard_ShortReal.hxx>
+#define SeqItem_hxx <Foundation/Standard/Standard_ShortReal.hxx>
 #define TCollection_SequenceNode TShort_SequenceNodeOfSequenceOfShortReal
 #define TCollection_SequenceNode_hxx <TShort_SequenceNodeOfSequenceOfShortReal.hxx>
 #define Handle_TCollection_SequenceNode Handle_TShort_SequenceNodeOfSequenceOfShortReal

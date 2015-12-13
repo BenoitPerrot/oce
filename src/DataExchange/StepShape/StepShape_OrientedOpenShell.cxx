@@ -16,7 +16,7 @@
 #include <StepShape_HArray1OfFace.hxx>
 #include <StepShape_Face.hxx>
 #include <StepShape_OrientedOpenShell.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepShape_OrientedOpenShell)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepShape_OpenShell),

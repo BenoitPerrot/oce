@@ -6,8 +6,8 @@
 #ifndef _StepShape_ConnectedFaceSubSet_HeaderFile
 #define _StepShape_ConnectedFaceSubSet_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepShape_ConnectedFaceSubSet.hxx>
 
 #include <Handle_StepShape_ConnectedFaceSet.hxx>

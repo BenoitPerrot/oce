@@ -6,11 +6,11 @@
 #ifndef _Aspect_AspectFillAreaDefinitionError_HeaderFile
 #define _Aspect_AspectFillAreaDefinitionError_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard_DefineException.hxx>
-#include <Standard_SStream.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard_DefineException.hxx>
+#include <Foundation/Standard/Standard_SStream.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Handle_Aspect_AspectFillAreaDefinitionError.hxx>
 
 #if !defined No_Exception && !defined No_Aspect_AspectFillAreaDefinitionError

@@ -31,7 +31,7 @@
 #include <SelectMgr_DataMapOfIntegerSensitive.hxx>
 #include <gp_Lin.hxx>
 #include <SelectMgr_ViewerSelector.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(SelectMgr_ViewerSelector)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

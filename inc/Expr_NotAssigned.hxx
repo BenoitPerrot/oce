@@ -6,10 +6,10 @@
 #ifndef _Expr_NotAssigned_HeaderFile
 #define _Expr_NotAssigned_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard_DefineException.hxx>
-#include <Standard_SStream.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard_DefineException.hxx>
+#include <Foundation/Standard/Standard_SStream.hxx>
 #include <Expr_ExprFailure.hxx>
 #include <Handle_Expr_NotAssigned.hxx>
 

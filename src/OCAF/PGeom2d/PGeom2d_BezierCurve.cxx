@@ -17,7 +17,7 @@
 #include <PColgp_HArray1OfPnt2d.hxx>
 #include <PColStd_HArray1OfReal.hxx>
 #include <PGeom2d_BezierCurve.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PGeom2d_BezierCurve)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(PGeom2d_BoundedCurve),

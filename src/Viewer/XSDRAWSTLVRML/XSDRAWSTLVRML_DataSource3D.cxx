@@ -20,7 +20,7 @@
 #include <MeshVS_HArray1OfSequenceOfInteger.hxx>
 #include <TColStd_Array1OfInteger.hxx>
 #include <XSDRAWSTLVRML_DataSource3D.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XSDRAWSTLVRML_DataSource3D)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MeshVS_DataSource),

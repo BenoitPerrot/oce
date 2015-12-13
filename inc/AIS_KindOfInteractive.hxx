@@ -6,7 +6,7 @@
 #ifndef _AIS_KindOfInteractive_HeaderFile
 #define _AIS_KindOfInteractive_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Declares the type of Interactive Object.
 //! This is one of the following:

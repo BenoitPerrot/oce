@@ -5,7 +5,7 @@
 
 #include <gp_VectorWithNullMagnitude.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 IMPLEMENT_STANDARD_EXCEPTION(gp_VectorWithNullMagnitude)
  

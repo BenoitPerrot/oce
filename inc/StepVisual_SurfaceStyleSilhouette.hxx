@@ -6,8 +6,8 @@
 #ifndef _StepVisual_SurfaceStyleSilhouette_HeaderFile
 #define _StepVisual_SurfaceStyleSilhouette_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepVisual_SurfaceStyleSilhouette.hxx>
 
 #include <Handle_StepVisual_CurveStyle.hxx>

@@ -6,8 +6,8 @@
 #ifndef _Handle_Transfer_DispatchControl_HeaderFile
 #define _Handle_Transfer_DispatchControl_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Interface_CopyControl.hxx>
 
 class Standard_Transient;

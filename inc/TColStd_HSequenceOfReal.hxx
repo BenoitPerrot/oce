@@ -6,15 +6,15 @@
 #ifndef _TColStd_HSequenceOfReal_HeaderFile
 #define _TColStd_HSequenceOfReal_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TColStd_HSequenceOfReal.hxx>
 
 #include <TColStd_SequenceOfReal.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;
 class Standard_OutOfRange;
 class TColStd_SequenceOfReal;
@@ -92,7 +92,7 @@ private:
 };
 
 #define Item Standard_Real
-#define Item_hxx <Standard_Real.hxx>
+#define Item_hxx <Foundation/Standard/Standard_Real.hxx>
 #define TheSequence TColStd_SequenceOfReal
 #define TheSequence_hxx <TColStd_SequenceOfReal.hxx>
 #define TCollection_HSequence TColStd_HSequenceOfReal

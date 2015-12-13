@@ -6,8 +6,8 @@
 #ifndef _Handle_MeshVS_SensitiveFace_HeaderFile
 #define _Handle_MeshVS_SensitiveFace_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Select3D_SensitiveFace.hxx>
 
 class Standard_Transient;

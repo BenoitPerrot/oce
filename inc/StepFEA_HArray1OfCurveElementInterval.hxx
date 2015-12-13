@@ -6,14 +6,14 @@
 #ifndef _StepFEA_HArray1OfCurveElementInterval_HeaderFile
 #define _StepFEA_HArray1OfCurveElementInterval_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepFEA_HArray1OfCurveElementInterval.hxx>
 
 #include <StepFEA_Array1OfCurveElementInterval.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_StepFEA_CurveElementInterval.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_DimensionMismatch;
 class Standard_OutOfRange;

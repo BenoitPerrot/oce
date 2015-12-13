@@ -6,15 +6,15 @@
 #ifndef _Adaptor3d_HSurface_HeaderFile
 #define _Adaptor3d_HSurface_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Adaptor3d_HSurface.hxx>
 
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <GeomAbs_Shape.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Vec.hxx>
 #include <GeomAbs_SurfaceType.hxx>

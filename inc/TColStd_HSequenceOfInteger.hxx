@@ -6,14 +6,14 @@
 #ifndef _TColStd_HSequenceOfInteger_HeaderFile
 #define _TColStd_HSequenceOfInteger_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TColStd_HSequenceOfInteger.hxx>
 
 #include <TColStd_SequenceOfInteger.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_NoSuchObject;
 class Standard_OutOfRange;
 class TColStd_SequenceOfInteger;
@@ -91,7 +91,7 @@ private:
 };
 
 #define Item Standard_Integer
-#define Item_hxx <Standard_Integer.hxx>
+#define Item_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheSequence TColStd_SequenceOfInteger
 #define TheSequence_hxx <TColStd_SequenceOfInteger.hxx>
 #define TCollection_HSequence TColStd_HSequenceOfInteger

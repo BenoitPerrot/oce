@@ -6,14 +6,14 @@
 #ifndef _IGESBasic_HArray1OfHArray1OfInteger_HeaderFile
 #define _IGESBasic_HArray1OfHArray1OfInteger_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESBasic_HArray1OfHArray1OfInteger.hxx>
 
 #include <TColStd_Array1OfTransient.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class TColStd_HArray1OfInteger;
 
 

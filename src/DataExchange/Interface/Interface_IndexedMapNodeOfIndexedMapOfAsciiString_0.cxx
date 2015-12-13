@@ -5,7 +5,7 @@
 
 #include <Interface_IndexedMapNodeOfIndexedMapOfAsciiString.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TCollection_AsciiString.hxx>
 #include <Interface_MapAsciiStringHasher.hxx>

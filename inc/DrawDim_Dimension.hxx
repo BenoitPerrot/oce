@@ -6,12 +6,12 @@
 #ifndef _DrawDim_Dimension_HeaderFile
 #define _DrawDim_Dimension_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_DrawDim_Dimension.hxx>
 
-#include <Standard_Boolean.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Draw_Color.hxx>
 #include <Draw_Drawable3D.hxx>
 class Draw_Color;

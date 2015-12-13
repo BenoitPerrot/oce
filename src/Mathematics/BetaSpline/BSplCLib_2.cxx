@@ -19,12 +19,12 @@
 //                            EvalBsplineBasis,
 //                            EvalPolynomial : Horners method
 
-#include <Standard_Stream.hxx>
+#include <Foundation/Standard/Standard_Stream.hxx>
 
 #include <BSplCLib.hxx>
 #include <gp_Mat2d.hxx>
 #include <PLib.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <TColStd_Array1OfReal.hxx>
 #include <TColStd_Array1OfInteger.hxx>
 #include <TColStd_HArray1OfReal.hxx>

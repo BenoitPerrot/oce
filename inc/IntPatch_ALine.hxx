@@ -6,18 +6,18 @@
 #ifndef _IntPatch_ALine_HeaderFile
 #define _IntPatch_ALine_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IntPatch_ALine.hxx>
 
 #include <IntAna_Curve.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <IntPatch_SequenceOfPoint.hxx>
 #include <IntPatch_Line.hxx>
 #include <IntSurf_TypeTrans.hxx>
 #include <IntSurf_Situation.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <gp_Pnt.hxx>
 class Standard_DomainError;
 class Standard_OutOfRange;

@@ -14,8 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_ConstructionError.hxx>
-#include <Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
 #include <gp_Parab2d.hxx>
 #include <gp_Ax2d.hxx>
 #include <gp_Ax22d.hxx>
@@ -24,7 +24,7 @@
 #include <gp_Trsf2d.hxx>
 #include <Geom2d_Geometry.hxx>
 #include <Geom2d_Parabola.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Geom2d_Parabola)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Geom2d_Conic),
@@ -41,8 +41,8 @@ IMPLEMENT_STANDARD_RTTI(Geom2d_Parabola)
 #include <gp_XY.hxx>
 #include <ElCLib.hxx>
 #include <gp_Dir2d.hxx>
-#include <Standard_ConstructionError.hxx>
-#include <Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
 
 typedef Geom2d_Parabola         Parabola;
 typedef Handle(Geom2d_Parabola) Handle(Parabola);

@@ -6,12 +6,12 @@
 #ifndef _BRepAlgo_DataMapNodeOfDataMapOfShapeBoolean_HeaderFile
 #define _BRepAlgo_DataMapNodeOfDataMapOfShapeBoolean_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BRepAlgo_DataMapNodeOfDataMapOfShapeBoolean.hxx>
 
 #include <TopoDS_Shape.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <TCollection_MapNode.hxx>
 #include <TCollection_MapNodePtr.hxx>
 class TopoDS_Shape;
@@ -55,7 +55,7 @@ private:
 #define TheKey TopoDS_Shape
 #define TheKey_hxx <TopoDS_Shape.hxx>
 #define TheItem Standard_Boolean
-#define TheItem_hxx <Standard_Boolean.hxx>
+#define TheItem_hxx <Foundation/Standard/Standard_Boolean.hxx>
 #define Hasher TopTools_ShapeMapHasher
 #define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode BRepAlgo_DataMapNodeOfDataMapOfShapeBoolean

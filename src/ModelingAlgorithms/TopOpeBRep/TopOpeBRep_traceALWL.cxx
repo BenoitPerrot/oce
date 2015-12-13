@@ -20,7 +20,7 @@
 
 #ifdef OCCT_DEBUG
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 class TopOpeBRep_ALWL {
 

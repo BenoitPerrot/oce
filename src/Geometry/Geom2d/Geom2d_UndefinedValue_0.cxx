@@ -5,7 +5,7 @@
 
 #include <Geom2d_UndefinedValue.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 IMPLEMENT_STANDARD_EXCEPTION(Geom2d_UndefinedValue)
  

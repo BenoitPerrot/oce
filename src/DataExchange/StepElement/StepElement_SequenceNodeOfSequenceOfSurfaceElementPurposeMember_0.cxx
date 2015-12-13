@@ -5,7 +5,7 @@
 
 #include <StepElement_SequenceNodeOfSequenceOfSurfaceElementPurposeMember.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <StepElement_SurfaceElementPurposeMember.hxx>
 #include <StepElement_SequenceOfSurfaceElementPurposeMember.hxx>

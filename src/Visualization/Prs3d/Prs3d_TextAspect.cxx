@@ -21,7 +21,7 @@
 #include <Graphic3d_AspectText3d.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Prs3d_TextAspect.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Prs3d_TextAspect)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Prs3d_BasicAspect),

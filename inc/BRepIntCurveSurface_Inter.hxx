@@ -6,20 +6,20 @@
 #ifndef _BRepIntCurveSurface_Inter_HeaderFile
 #define _BRepIntCurveSurface_Inter_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_GeomAdaptor_HCurve.hxx>
 #include <IntCurveSurface_HInter.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_BRepTopAdaptor_TopolTool.hxx>
 #include <TopAbs_State.hxx>
 #include <Bnd_Box.hxx>
 #include <TopTools_SequenceOfShape.hxx>
 #include <Handle_Bnd_HArray1OfBox.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <IntCurveSurface_TransitionOnCurve.hxx>
 class GeomAdaptor_HCurve;
 class BRepTopAdaptor_TopolTool;

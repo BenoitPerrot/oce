@@ -6,14 +6,14 @@
 #ifndef _StepAP214_ExternallyDefinedClass_HeaderFile
 #define _StepAP214_ExternallyDefinedClass_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepAP214_ExternallyDefinedClass.hxx>
 
 #include <Handle_StepBasic_ExternallyDefinedItem.hxx>
 #include <StepAP214_Class.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_StepBasic_ExternalSource.hxx>
 class StepBasic_ExternallyDefinedItem;
 class TCollection_HAsciiString;

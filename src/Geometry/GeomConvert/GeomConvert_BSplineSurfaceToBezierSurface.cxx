@@ -15,9 +15,9 @@
 // commercial license or contractual agreement.
 
 #include <Geom_BSplineSurface.hxx>
-#include <Standard_DimensionError.hxx>
-#include <Standard_DomainError.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_DimensionError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Geom_BezierSurface.hxx>
 #include <TColGeom_Array2OfBezierSurface.hxx>
 #include <TColStd_Array1OfReal.hxx>

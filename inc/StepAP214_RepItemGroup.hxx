@@ -6,14 +6,14 @@
 #ifndef _StepAP214_RepItemGroup_HeaderFile
 #define _StepAP214_RepItemGroup_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepAP214_RepItemGroup.hxx>
 
 #include <Handle_StepRepr_RepresentationItem.hxx>
 #include <StepBasic_Group.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class StepRepr_RepresentationItem;
 class TCollection_HAsciiString;
 

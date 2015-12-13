@@ -19,7 +19,7 @@
 
 #include <Foundation/OSD/OSD_File.hxx>
 #include <Precision.hxx>
-#include <Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <TCollection_ExtendedString.hxx>
 #include <TCollection_HAsciiString.hxx>
 #include <TDataStd_Integer.hxx>

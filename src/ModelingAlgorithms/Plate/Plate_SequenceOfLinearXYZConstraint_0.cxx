@@ -5,8 +5,8 @@
 
 #include <Plate_SequenceOfLinearXYZConstraint.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Plate_LinearXYZConstraint.hxx>
 #include <Plate_SequenceNodeOfSequenceOfLinearXYZConstraint.hxx>
  

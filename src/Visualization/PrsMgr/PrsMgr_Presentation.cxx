@@ -22,7 +22,7 @@
 #include <Graphic3d_DataStructureManager.hxx>
 #include <Prs3d_Projector.hxx>
 #include <PrsMgr_Presentation.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PrsMgr_Presentation)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

@@ -6,8 +6,8 @@
 #ifndef _Handle_Interface_CheckFailure_HeaderFile
 #define _Handle_Interface_CheckFailure_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Interface_InterfaceError.hxx>
 
 class Standard_Transient;

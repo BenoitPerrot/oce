@@ -6,7 +6,7 @@
 #ifndef _V3d_TypeOfShadingModel_HeaderFile
 #define _V3d_TypeOfShadingModel_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 //! Defines the type of shading for the graphic object:

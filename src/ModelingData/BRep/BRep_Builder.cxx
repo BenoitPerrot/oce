@@ -14,8 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_NullObject.hxx>
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_NullObject.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <TopoDS_Face.hxx>
 #include <Geom_Surface.hxx>
 #include <TopLoc_Location.hxx>
@@ -55,7 +55,7 @@
 #include <BRep_PolygonOnTriangulation.hxx>
 #include <BRep_PolygonOnClosedTriangulation.hxx>
 
-#include <Standard_NullObject.hxx>
+#include <Foundation/Standard/Standard_NullObject.hxx>
 
 //=======================================================================
 //function : Auxiliary methods

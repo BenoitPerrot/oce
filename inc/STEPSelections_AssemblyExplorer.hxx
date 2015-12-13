@@ -6,20 +6,20 @@
 #ifndef _STEPSelections_AssemblyExplorer_HeaderFile
 #define _STEPSelections_AssemblyExplorer_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <STEPSelections_SequenceOfAssemblyComponent.hxx>
 #include <Interface_Graph.hxx>
 #include <TColStd_IndexedDataMapOfTransientTransient.hxx>
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 #include <Handle_StepShape_ShapeDefinitionRepresentation.hxx>
 #include <Handle_StepBasic_ProductDefinition.hxx>
 #include <Handle_STEPSelections_AssemblyComponent.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Handle_StepRepr_NextAssemblyUsageOccurrence.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Interface_Graph;
 class StepShape_ShapeDefinitionRepresentation;
 class StepBasic_ProductDefinition;

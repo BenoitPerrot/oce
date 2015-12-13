@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Adaptor2d_HCurve2d.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Adaptor3d_InterFunc.hxx>
 #include <Adaptor2d_HCurve2d.hxx>
 #include <gp_Pnt2d.hxx>

@@ -20,8 +20,8 @@
 #include <BRepFill_SectionLaw.hxx>
 #include <TopTools_HArray2OfShape.hxx>
 #include <StdFail_NotDone.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <TopoDS_Wire.hxx>
 #include <TopTools_MapOfShape.hxx>
 #include <BRepFill_DataMapOfShapeHArray2OfShape.hxx>
@@ -114,7 +114,7 @@
 #include <TopTools_SequenceOfShape.hxx> 
 #include <BRepTools_WireExplorer.hxx>
 
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Precision.hxx>
 #include <BRepLib_MakeWire.hxx>
 

@@ -6,7 +6,7 @@
 #ifndef _DsgPrs_ArrowSide_HeaderFile
 #define _DsgPrs_ArrowSide_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Designates how many arrows will be displayed and
 //! where they will be displayed in presenting a length.

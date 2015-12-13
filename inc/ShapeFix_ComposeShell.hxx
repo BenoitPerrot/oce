@@ -6,8 +6,8 @@
 #ifndef _ShapeFix_ComposeShell_HeaderFile
 #define _ShapeFix_ComposeShell_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ShapeFix_ComposeShell.hxx>
 
 #include <Handle_ShapeExtend_CompositeSurface.hxx>
@@ -15,10 +15,10 @@
 #include <TopoDS_Face.hxx>
 #include <TopAbs_Orientation.hxx>
 #include <TopoDS_Shape.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_ShapeAnalysis_TransferParameters.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ShapeFix_Root.hxx>
 #include <ShapeExtend_Status.hxx>
 #include <Handle_ShapeExtend_WireData.hxx>

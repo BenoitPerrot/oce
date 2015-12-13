@@ -6,12 +6,12 @@
 #ifndef _BRepLProp_HeaderFile
 #define _BRepLProp_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <GeomAbs_Shape.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class BRepAdaptor_Curve;
 class BRepLProp_CurveTool;
 class BRepLProp_SurfaceTool;

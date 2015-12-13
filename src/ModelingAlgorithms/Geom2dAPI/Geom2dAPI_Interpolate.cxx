@@ -22,11 +22,11 @@
 #include <TColStd_HArray1OfBoolean.hxx>
 #include <TColStd_HArray1OfReal.hxx>
 #include <StdFail_NotDone.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <gp_Vec2d.hxx>
 #include <TColgp_Array1OfVec2d.hxx>
 #include <Geom2dAPI_Interpolate.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <PLib.hxx>
 #include <BSplCLib.hxx>
 #include <gp_Vec2d.hxx>

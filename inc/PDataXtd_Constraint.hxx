@@ -6,16 +6,16 @@
 #ifndef _PDataXtd_Constraint_HeaderFile
 #define _PDataXtd_Constraint_HeaderFile
 
-#include <Standard_Macro.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Handle_PDataXtd_Constraint.hxx>
 
 #include <Handle_PDataStd_Real.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_PDF_HAttributeArray1.hxx>
 #include <Handle_PNaming_NamedShape.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <PDF_Attribute.hxx>
 class PDataStd_Real;
 class PDF_HAttributeArray1;

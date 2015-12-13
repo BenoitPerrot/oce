@@ -5,8 +5,8 @@
 
 #include <QANCollection_ListIteratorOfListOfPnt.hxx>
 
-#include <Standard_NoMoreObject.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoMoreObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <QANCollection_ListOfPnt.hxx>
 #include <gp_Pnt.hxx>
 #include <QANCollection_ListNodeOfListOfPnt.hxx>

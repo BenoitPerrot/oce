@@ -7,8 +7,8 @@
 
 #include <ObjMgt_SeqNodeOfPSeqOfExtRef.hxx>
 #include <ObjMgt_PSeqOfExtRef.hxx>
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <ObjMgt_ExternRef.hxx>
  
 

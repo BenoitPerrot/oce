@@ -5,8 +5,8 @@
 
 #include <IntSurf_SequenceOfPathPoint.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <IntSurf_PathPoint.hxx>
 #include <IntSurf_SequenceNodeOfSequenceOfPathPoint.hxx>
  

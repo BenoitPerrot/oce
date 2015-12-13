@@ -6,12 +6,12 @@
 #ifndef _Expr_IndexedMapNodeOfMapOfNamedUnknown_HeaderFile
 #define _Expr_IndexedMapNodeOfMapOfNamedUnknown_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Expr_IndexedMapNodeOfMapOfNamedUnknown.hxx>
 
 #include <Handle_Expr_NamedUnknown.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <TCollection_MapNodePtr.hxx>
 #include <TCollection_MapNode.hxx>
 class Expr_NamedUnknown;

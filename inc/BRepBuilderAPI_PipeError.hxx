@@ -6,7 +6,7 @@
 #ifndef _BRepBuilderAPI_PipeError_HeaderFile
 #define _BRepBuilderAPI_PipeError_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Errors that can occur at (shell)pipe construction.
 enum BRepBuilderAPI_PipeError

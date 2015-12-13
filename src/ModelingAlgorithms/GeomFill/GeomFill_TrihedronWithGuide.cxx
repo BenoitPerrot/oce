@@ -15,11 +15,11 @@
 // commercial license or contractual agreement.
 
 #include <Adaptor3d_HCurve.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <gp_Pnt.hxx>
 #include <GeomFill_TrihedronWithGuide.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(GeomFill_TrihedronWithGuide)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(GeomFill_TrihedronLaw),

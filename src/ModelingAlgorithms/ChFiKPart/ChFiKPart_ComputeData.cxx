@@ -21,8 +21,8 @@
 #include <gp_Pnt2d.hxx>
 #include <ChFiKPart_ComputeData.hxx>
 
-#include <Standard_NotImplemented.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Precision.hxx>
 #include <gp.hxx>
 #include <gp_Pnt2d.hxx>

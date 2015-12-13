@@ -6,19 +6,19 @@
 #ifndef _FEmTool_Assembly_HeaderFile
 #define _FEmTool_Assembly_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TColStd_Array2OfInteger.hxx>
 #include <Handle_FEmTool_HAssemblyTable.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_FEmTool_ProfileMatrix.hxx>
 #include <math_Vector.hxx>
 #include <FEmTool_SeqOfLinConstr.hxx>
 #include <TColStd_SequenceOfReal.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class FEmTool_HAssemblyTable;
 class FEmTool_ProfileMatrix;
 class StdFail_NotDone;

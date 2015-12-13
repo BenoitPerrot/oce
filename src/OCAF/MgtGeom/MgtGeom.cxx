@@ -74,7 +74,7 @@
 #include <PGeom_VectorWithMagnitude.hxx>
 #include <MgtGeom.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <PColStd_HArray1OfInteger.hxx>
 #include <PColStd_HArray2OfInteger.hxx>
@@ -103,7 +103,7 @@
 #include <gp_Ax1.hxx>
 
 //modif wok++
-#include <Standard_NullObject.hxx>
+#include <Foundation/Standard/Standard_NullObject.hxx>
 #include <gp_Lin.hxx>
 #include <gp_Pln.hxx>
 

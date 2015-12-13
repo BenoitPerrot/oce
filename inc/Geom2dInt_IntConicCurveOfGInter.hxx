@@ -6,15 +6,15 @@
 #ifndef _Geom2dInt_IntConicCurveOfGInter_HeaderFile
 #define _Geom2dInt_IntConicCurveOfGInter_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <IntCurve_IntConicConic.hxx>
 #include <Geom2dInt_TheIntConicCurveOfGInter.hxx>
 #include <IntRes2d_Intersection.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_ConstructionError;
 class IntCurve_IConicTool;
 class Adaptor2d_Curve2d;

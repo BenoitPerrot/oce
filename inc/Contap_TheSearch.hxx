@@ -6,11 +6,11 @@
 #ifndef _Contap_TheSearch_HeaderFile
 #define _Contap_TheSearch_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Contap_SequenceOfSegmentOfTheSearch.hxx>
 #include <Contap_SequenceOfPathPointOfTheSearch.hxx>
 #include <Handle_Adaptor3d_HVertex.hxx>
@@ -18,8 +18,8 @@
 #include <Handle_Adaptor3d_TopolTool.hxx>
 #include <Handle_Contap_SequenceNodeOfSequenceOfPathPointOfTheSearch.hxx>
 #include <Handle_Contap_SequenceNodeOfSequenceOfSegmentOfTheSearch.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class StdFail_NotDone;
 class Standard_OutOfRange;
 class Standard_ConstructionError;

@@ -6,12 +6,12 @@
 #ifndef _StepElement_SurfaceElementPurpose_HeaderFile
 #define _StepElement_SurfaceElementPurpose_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <StepData_SelectType.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Handle_StepData_SelectMember.hxx>
 #include <StepElement_EnumeratedSurfaceElementPurpose.hxx>

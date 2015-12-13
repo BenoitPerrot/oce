@@ -6,14 +6,14 @@
 #ifndef _StepVisual_SurfaceStyleParameterLine_HeaderFile
 #define _StepVisual_SurfaceStyleParameterLine_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepVisual_SurfaceStyleParameterLine.hxx>
 
 #include <Handle_StepVisual_CurveStyle.hxx>
 #include <Handle_StepVisual_HArray1OfDirectionCountSelect.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class StepVisual_CurveStyle;
 class StepVisual_HArray1OfDirectionCountSelect;
 class StepVisual_DirectionCountSelect;

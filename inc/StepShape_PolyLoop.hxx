@@ -6,15 +6,15 @@
 #ifndef _StepShape_PolyLoop_HeaderFile
 #define _StepShape_PolyLoop_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepShape_PolyLoop.hxx>
 
 #include <Handle_StepGeom_HArray1OfCartesianPoint.hxx>
 #include <StepShape_Loop.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Handle_StepGeom_CartesianPoint.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class StepGeom_HArray1OfCartesianPoint;
 class TCollection_HAsciiString;
 class StepGeom_CartesianPoint;

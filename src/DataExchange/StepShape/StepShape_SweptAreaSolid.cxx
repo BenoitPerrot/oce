@@ -14,7 +14,7 @@
 #include <StepGeom_CurveBoundedSurface.hxx>
 #include <TCollection_HAsciiString.hxx>
 #include <StepShape_SweptAreaSolid.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepShape_SweptAreaSolid)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepShape_SolidModel),

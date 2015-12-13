@@ -6,8 +6,8 @@
 #ifndef _PCDM_RetrievalDriver_HeaderFile
 #define _PCDM_RetrievalDriver_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_PCDM_RetrievalDriver.hxx>
 
 #include <TCollection_ExtendedString.hxx>
@@ -19,7 +19,7 @@
 #include <Handle_PCDM_Document.hxx>
 #include <Handle_Storage_Schema.hxx>
 #include <Handle_CDM_MessageDriver.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;
 class PCDM_DriverError;
 class CDM_MetaData;

@@ -20,9 +20,9 @@
 #ifndef _Handle_Standard_Persistent_HeaderFile
 #define _Handle_Standard_Persistent_HeaderFile
 
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_TypeDef.hxx>
-#include <Standard_Persistent_proto.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_TypeDef.hxx>
+#include <Foundation/Standard/Standard_Persistent_proto.hxx>
 
 #ifdef _MSC_VER
 // Disable the warning "conversion from 'unsigned int' to Standard_Persistent *"

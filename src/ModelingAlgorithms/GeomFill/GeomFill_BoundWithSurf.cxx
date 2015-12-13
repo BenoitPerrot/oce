@@ -19,7 +19,7 @@
 #include <gp_Pnt.hxx>
 #include <gp_Vec.hxx>
 #include <GeomFill_BoundWithSurf.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(GeomFill_BoundWithSurf)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(GeomFill_Boundary),

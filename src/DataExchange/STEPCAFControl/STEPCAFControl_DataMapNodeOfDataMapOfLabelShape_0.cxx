@@ -5,7 +5,7 @@
 
 #include <STEPCAFControl_DataMapNodeOfDataMapOfLabelShape.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TDF_Label.hxx>
 #include <TopoDS_Shape.hxx>

@@ -6,7 +6,7 @@
 #ifndef _TopAbs_State_HeaderFile
 #define _TopAbs_State_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Identifies the position of a vertex or a set of
 //! vertices relative to a region of a shape.

@@ -6,8 +6,8 @@
 #ifndef _IntTools_StdMapNodeOfMapOfSurfaceSample_HeaderFile
 #define _IntTools_StdMapNodeOfMapOfSurfaceSample_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IntTools_StdMapNodeOfMapOfSurfaceSample.hxx>
 
 #include <IntTools_SurfaceRangeSample.hxx>

@@ -18,10 +18,10 @@
 #include <Transfer_ActorOfTransientProcess.hxx>
 #include <Transfer_TransferDispatch.hxx>
 #include <Transfer_Binder.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <Transfer_TransientProcess.hxx>
 #include <Transfer_ActorDispatch.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Transfer_ActorDispatch)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Transfer_ActorOfTransientProcess),

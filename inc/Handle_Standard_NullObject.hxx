@@ -6,8 +6,8 @@
 #ifndef _Handle_Standard_NullObject_HeaderFile
 #define _Handle_Standard_NullObject_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Standard_DomainError.hxx>
 
 class Standard_Transient;

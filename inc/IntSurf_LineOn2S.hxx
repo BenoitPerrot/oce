@@ -6,16 +6,16 @@
 #ifndef _IntSurf_LineOn2S_HeaderFile
 #define _IntSurf_LineOn2S_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IntSurf_LineOn2S.hxx>
 
 #include <IntSurf_SequenceOfPntOn2S.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <IntSurf_Allocator.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class Standard_OutOfRange;
 class IntSurf_PntOn2S;
 

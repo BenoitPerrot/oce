@@ -27,7 +27,7 @@
 #include <Precision.hxx>
 #include <TopoDS.hxx>
 #include <TopOpeBRepTool_ShapeTool.hxx>
-#include <Standard_ProgramError.hxx>
+#include <Foundation/Standard/Standard_ProgramError.hxx>
 
 #ifdef OCCT_DEBUG
 Standard_EXPORT Standard_Boolean TopOpeBRepDS_GettracePEI();

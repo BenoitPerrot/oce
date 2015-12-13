@@ -6,8 +6,8 @@
 #ifndef _Handle_AppDef_LinearCriteria_HeaderFile
 #define _Handle_AppDef_LinearCriteria_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_AppDef_SmoothCriterion.hxx>
 
 class Standard_Transient;

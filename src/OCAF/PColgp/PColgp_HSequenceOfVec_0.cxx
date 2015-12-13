@@ -5,12 +5,12 @@
 
 #include <PColgp_HSequenceOfVec.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <PColgp_HSequenceOfVec.hxx>
 #include <PColgp_SeqNodeOfHSequenceOfVec.hxx>
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <PColgp_SeqExplorerOfHSequenceOfVec.hxx>
 #include <gp_Vec.hxx>
  

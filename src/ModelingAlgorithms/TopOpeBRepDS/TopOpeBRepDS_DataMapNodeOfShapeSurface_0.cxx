@@ -5,7 +5,7 @@
 
 #include <TopOpeBRepDS_DataMapNodeOfShapeSurface.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Geom_Surface.hxx>
 #include <TopoDS_Shape.hxx>

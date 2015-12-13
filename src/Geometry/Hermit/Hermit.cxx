@@ -25,11 +25,11 @@
 #include <TColStd_Array1OfInteger.hxx>
 #include <TColStd_HArray1OfInteger.hxx>
 #include <PLib.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <gp_Pnt2d.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>
-#include <Standard_DimensionError.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_DimensionError.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <TCollection_CompareOfReal.hxx>
 #include <Foundation/SortTools/SortTools_QuickSortOfReal.hxx>
 #include <Precision.hxx>

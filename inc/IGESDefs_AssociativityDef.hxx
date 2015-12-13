@@ -6,15 +6,15 @@
 #ifndef _IGESDefs_AssociativityDef_HeaderFile
 #define _IGESDefs_AssociativityDef_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESDefs_AssociativityDef.hxx>
 
 #include <Handle_TColStd_HArray1OfInteger.hxx>
 #include <Handle_IGESBasic_HArray1OfHArray1OfInteger.hxx>
 #include <IGESData_IGESEntity.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class TColStd_HArray1OfInteger;
 class IGESBasic_HArray1OfHArray1OfInteger;
 class Standard_DimensionMismatch;

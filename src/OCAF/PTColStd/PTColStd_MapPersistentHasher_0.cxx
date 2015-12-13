@@ -5,11 +5,11 @@
 
 #include <PTColStd_MapPersistentHasher.hxx>
 
-#include <Standard_Persistent.hxx>
+#include <Foundation/Standard/Standard_Persistent.hxx>
  
 
 #define Key Handle(Standard_Persistent)
-#define Key_hxx <Standard_Persistent.hxx>
+#define Key_hxx <Foundation/Standard/Standard_Persistent.hxx>
 #define TCollection_MapHasher PTColStd_MapPersistentHasher
 #define TCollection_MapHasher_hxx <PTColStd_MapPersistentHasher.hxx>
 #include <TCollection_MapHasher.gxx>

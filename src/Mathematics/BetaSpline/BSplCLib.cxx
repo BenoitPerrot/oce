@@ -42,7 +42,7 @@
 #include <PLib.hxx>
 #include <Foundation/NCollection/NCollection_LocalArray.hxx>
 #include <Precision.hxx>
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 
 typedef gp_Pnt Pnt;
 typedef gp_Vec Vec;

@@ -17,7 +17,7 @@
 #include <TopOpeBRepDS_HDataStructure.hxx>
 #include <TopTools_HArray1OfShape.hxx>
 #include <TopTools_HArray1OfListOfShape.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopOpeBRepBuild_HBuilder.hxx>
 #include <TopOpeBRepDS_BuildTool.hxx>
 #include <TopoDS_Shape.hxx>
@@ -67,7 +67,7 @@
 #include <TopOpeBRepBuild_define.hxx>
 #include <Bnd_Box.hxx>
 #include <TopOpeBRepTool_FuseEdges.hxx>
-#include <Standard_ProgramError.hxx>
+#include <Foundation/Standard/Standard_ProgramError.hxx>
 #ifdef OCCT_DEBUG
 extern Standard_Boolean TopOpeBRepBuild_GetcontextNOFE();
 #endif

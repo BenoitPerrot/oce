@@ -37,7 +37,7 @@
 #define TheCurve Handle(Adaptor3d_HCurve)
 #define TheCurve_hxx <Adaptor3d_HCurve.hxx>
 #define TheVertexTool Standard_Integer
-#define TheVertexTool_hxx <Standard_Integer.hxx>
+#define TheVertexTool_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheArcTool BRepBlend_HCurve2dTool
 #define TheArcTool_hxx <BRepBlend_HCurve2dTool.hxx>
 #define TheSurfaceTool Adaptor3d_HSurfaceTool

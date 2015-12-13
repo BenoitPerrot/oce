@@ -5,8 +5,8 @@
 
 #include <IntCurveSurface_SequenceOfPnt.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <IntCurveSurface_IntersectionPoint.hxx>
 #include <IntCurveSurface_SequenceNodeOfSequenceOfPnt.hxx>
  

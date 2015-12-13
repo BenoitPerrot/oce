@@ -21,7 +21,7 @@
 #include <gp_Pnt2d.hxx>
 #include <Draw_Display.hxx>
 #include <TestTopOpeDraw_DrawableSUR.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TestTopOpeDraw_DrawableSUR)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(DrawTrSurf_Surface),

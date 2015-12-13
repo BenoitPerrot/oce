@@ -6,12 +6,12 @@
 #ifndef _PColgp_VArrayNodeOfFieldOfHArray1OfDir2d_HeaderFile
 #define _PColgp_VArrayNodeOfFieldOfHArray1OfDir2d_HeaderFile
 
-#include <Standard_Macro.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Handle_PColgp_VArrayNodeOfFieldOfHArray1OfDir2d.hxx>
 
-#include <Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
 #include <gp_Dir2d.hxx>
 #include <PStandard_ArrayNode.hxx>
 class gp_Dir2d;

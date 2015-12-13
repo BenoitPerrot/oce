@@ -13,7 +13,7 @@
 // commercial license or contractual agreement.
 
 #include <IntSurf_LineOn2S.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <StdFail_NotDone.hxx>
 #include <Adaptor3d_HSurface.hxx>
 #include <TColStd_Array1OfReal.hxx>
@@ -37,7 +37,7 @@
 #include <math_FunctionSetRoot.hxx>
 #include <Geom_Surface.hxx>
 
-#include <Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
 #include <gp_Pnt2d.hxx>
 
 //==================================================================================

@@ -6,17 +6,17 @@
 #ifndef _BRepTools_NurbsConvertModification_HeaderFile
 #define _BRepTools_NurbsConvertModification_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BRepTools_NurbsConvertModification.hxx>
 
 #include <TopTools_ListOfShape.hxx>
 #include <TColStd_ListOfTransient.hxx>
 #include <TColStd_IndexedDataMapOfTransientTransient.hxx>
 #include <BRepTools_Modification.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Geom_Surface.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Geom_Curve.hxx>
 #include <Handle_Geom2d_Curve.hxx>
 #include <GeomAbs_Shape.hxx>

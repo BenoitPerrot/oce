@@ -6,21 +6,21 @@
 #ifndef _Draft_Modification_HeaderFile
 #define _Draft_Modification_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Draft_Modification.hxx>
 
 #include <Draft_DataMapOfFaceFaceInfo.hxx>
 #include <Draft_DataMapOfEdgeEdgeInfo.hxx>
 #include <Draft_DataMapOfVertexVertexInfo.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <TopoDS_Shape.hxx>
 #include <Draft_ErrorStatus.hxx>
 #include <TopoDS_Face.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <BRepTools_Modification.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Geom_Surface.hxx>
 #include <Handle_Geom_Curve.hxx>
 #include <Handle_Geom2d_Curve.hxx>

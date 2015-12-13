@@ -5,7 +5,7 @@
 
 #include <MeshVS_DataMapNodeOfDataMapOfColorMapOfInteger.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <TColStd_MapOfInteger.hxx>

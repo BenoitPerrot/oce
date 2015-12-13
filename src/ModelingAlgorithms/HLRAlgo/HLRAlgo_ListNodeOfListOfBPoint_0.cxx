@@ -5,7 +5,7 @@
 
 #include <HLRAlgo_ListNodeOfListOfBPoint.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <HLRAlgo_BiPoint.hxx>
 #include <HLRAlgo_ListOfBPoint.hxx>

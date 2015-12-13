@@ -6,9 +6,9 @@
 #ifndef _RWStepAP214_HeaderFile
 #define _RWStepAP214_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 class RWStepAP214_ReadWriteModule;
 class RWStepAP214_GeneralModule;

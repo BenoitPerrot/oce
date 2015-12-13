@@ -6,14 +6,14 @@
 #ifndef _StepShape_AngularLocation_HeaderFile
 #define _StepShape_AngularLocation_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepShape_AngularLocation.hxx>
 
 #include <StepShape_AngleRelator.hxx>
 #include <StepShape_DimensionalLocation.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_StepRepr_ShapeAspect.hxx>
 class TCollection_HAsciiString;
 class StepRepr_ShapeAspect;

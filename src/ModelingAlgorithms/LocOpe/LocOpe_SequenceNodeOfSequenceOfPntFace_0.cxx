@@ -5,7 +5,7 @@
 
 #include <LocOpe_SequenceNodeOfSequenceOfPntFace.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <LocOpe_PntFace.hxx>
 #include <LocOpe_SequenceOfPntFace.hxx>

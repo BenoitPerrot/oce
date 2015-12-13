@@ -6,8 +6,8 @@
 #ifndef _Handle_TopOpeBRep_HArray1OfVPointInter_HeaderFile
 #define _Handle_TopOpeBRep_HArray1OfVPointInter_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_MMgt_TShared.hxx>
 
 class Standard_Transient;

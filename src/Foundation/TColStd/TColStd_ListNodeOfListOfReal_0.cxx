@@ -5,7 +5,7 @@
 
 #include <TColStd_ListNodeOfListOfReal.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TColStd_ListOfReal.hxx>
 #include <TColStd_ListIteratorOfListOfReal.hxx>
@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_RTTI(TColStd_ListNodeOfListOfReal)
 
 
 #define Item Standard_Real
-#define Item_hxx <Standard_Real.hxx>
+#define Item_hxx <Foundation/Standard/Standard_Real.hxx>
 #define TCollection_ListNode TColStd_ListNodeOfListOfReal
 #define TCollection_ListNode_hxx <TColStd_ListNodeOfListOfReal.hxx>
 #define TCollection_ListIterator TColStd_ListIteratorOfListOfReal

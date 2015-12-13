@@ -6,8 +6,8 @@
 #ifndef _Handle_Draw_Axis2D_HeaderFile
 #define _Handle_Draw_Axis2D_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Draw_Drawable2D.hxx>
 
 class Standard_Transient;

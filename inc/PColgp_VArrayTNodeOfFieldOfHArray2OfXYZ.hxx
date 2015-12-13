@@ -6,13 +6,13 @@
 #ifndef _PColgp_VArrayTNodeOfFieldOfHArray2OfXYZ_HeaderFile
 #define _PColgp_VArrayTNodeOfFieldOfHArray2OfXYZ_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <gp_XYZ.hxx>
 #include <Handle_PColgp_VArrayNodeOfFieldOfHArray2OfXYZ.hxx>
-#include <Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
 class gp_XYZ;
 class PColgp_FieldOfHArray2OfXYZ;
 class PColgp_VArrayNodeOfFieldOfHArray2OfXYZ;

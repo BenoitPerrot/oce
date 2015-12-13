@@ -6,13 +6,13 @@
 #ifndef _TDataXtd_Position_HeaderFile
 #define _TDataXtd_Position_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TDataXtd_Position.hxx>
 
 #include <gp_Pnt.hxx>
 #include <TDF_Attribute.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_TDF_Attribute.hxx>
 #include <Handle_TDF_RelocationTable.hxx>
 class TDF_Label;

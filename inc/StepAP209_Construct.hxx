@@ -6,13 +6,13 @@
 #ifndef _StepAP209_Construct_HeaderFile
 #define _StepAP209_Construct_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <STEPConstruct_Tool.hxx>
 #include <Handle_XSControl_WorkSession.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_StepBasic_ProductDefinitionFormation.hxx>
 #include <Handle_StepFEA_FeaModel.hxx>
 #include <Handle_StepBasic_Product.hxx>

@@ -6,8 +6,8 @@
 #ifndef _StepShape_GeometricallyBoundedSurfaceShapeRepresentation_HeaderFile
 #define _StepShape_GeometricallyBoundedSurfaceShapeRepresentation_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepShape_GeometricallyBoundedSurfaceShapeRepresentation.hxx>
 
 #include <StepShape_ShapeRepresentation.hxx>

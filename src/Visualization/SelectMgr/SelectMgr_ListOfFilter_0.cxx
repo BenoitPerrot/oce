@@ -5,7 +5,7 @@
 
 #include <SelectMgr_ListOfFilter.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <SelectMgr_ListIteratorOfListOfFilter.hxx>
 #include <SelectMgr_Filter.hxx>
 #include <SelectMgr_ListNodeOfListOfFilter.hxx>

@@ -6,14 +6,14 @@
 #ifndef _ShapeFix_WireVertex_HeaderFile
 #define _ShapeFix_WireVertex_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <ShapeAnalysis_WireVertex.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_ShapeExtend_WireData.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class TopoDS_Wire;
 class ShapeExtend_WireData;
 class ShapeAnalysis_WireVertex;

@@ -15,7 +15,7 @@
 #ifndef BOPCol_NCVector_HeaderFile
 #define BOPCol_NCVector_HeaderFile
 
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Foundation/NCollection/NCollection_Vector.hxx>
 #include <Foundation/NCollection/NCollection_BaseAllocator.hxx>
 

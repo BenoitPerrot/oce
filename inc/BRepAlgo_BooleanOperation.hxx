@@ -6,14 +6,14 @@
 #ifndef _BRepAlgo_BooleanOperation_HeaderFile
 #define _BRepAlgo_BooleanOperation_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_TopOpeBRepBuild_HBuilder.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopTools_MapOfShape.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <TopTools_DataMapOfShapeShape.hxx>
 #include <BRepBuilderAPI_MakeShape.hxx>
 #include <TopAbs_State.hxx>

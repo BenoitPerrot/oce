@@ -5,7 +5,7 @@
 
 #include <XCAFPrs_DataMapIteratorOfDataMapOfShapeStyle.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopoDS_Shape.hxx>
 #include <XCAFPrs_Style.hxx>
 #include <TopTools_ShapeMapHasher.hxx>

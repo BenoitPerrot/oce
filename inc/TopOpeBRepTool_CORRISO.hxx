@@ -6,19 +6,19 @@
 #ifndef _TopOpeBRepTool_CORRISO_HeaderFile
 #define _TopOpeBRepTool_CORRISO_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TopoDS_Face.hxx>
 #include <GeomAdaptor_Surface.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <TopOpeBRepTool_DataMapOfOrientedShapeC2DF.hxx>
 #include <TopTools_DataMapOfShapeListOfShape.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class TopoDS_Face;
 class GeomAdaptor_Surface;
 class TopoDS_Shape;

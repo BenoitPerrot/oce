@@ -6,13 +6,13 @@
 #ifndef _IGESAppli_NodalResults_HeaderFile
 #define _IGESAppli_NodalResults_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESAppli_NodalResults.hxx>
 
 #include <Handle_IGESDimen_GeneralNote.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>
 #include <Handle_IGESAppli_HArray1OfNode.hxx>
 #include <Handle_TColStd_HArray2OfReal.hxx>

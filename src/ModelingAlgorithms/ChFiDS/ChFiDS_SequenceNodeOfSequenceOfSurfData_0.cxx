@@ -5,7 +5,7 @@
 
 #include <ChFiDS_SequenceNodeOfSequenceOfSurfData.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <ChFiDS_SurfData.hxx>
 #include <ChFiDS_SequenceOfSurfData.hxx>

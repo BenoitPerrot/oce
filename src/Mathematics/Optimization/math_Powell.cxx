@@ -19,7 +19,7 @@
 //#endif
 
 #include <StdFail_NotDone.hxx>
-#include <Standard_DimensionError.hxx>
+#include <Foundation/Standard/Standard_DimensionError.hxx>
 #include <math_MultipleVarFunction.hxx>
 #include <math_Matrix.hxx>
 #include <math_Powell.hxx>

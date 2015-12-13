@@ -6,14 +6,14 @@
 #ifndef _BRep_PointOnSurface_HeaderFile
 #define _BRep_PointOnSurface_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BRep_PointOnSurface.hxx>
 
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <BRep_PointsOnSurface.hxx>
 #include <Handle_Geom_Surface.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class Geom_Surface;
 class TopLoc_Location;
 

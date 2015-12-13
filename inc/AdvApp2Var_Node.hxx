@@ -6,15 +6,15 @@
 #ifndef _AdvApp2Var_Node_HeaderFile
 #define _AdvApp2Var_Node_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <gp_XY.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TColgp_HArray2OfPnt.hxx>
 #include <Handle_TColStd_HArray2OfReal.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class TColgp_HArray2OfPnt;
 class TColStd_HArray2OfReal;
 class gp_XY;

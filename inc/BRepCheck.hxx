@@ -6,13 +6,13 @@
 #ifndef _BRepCheck_HeaderFile
 #define _BRepCheck_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <BRepCheck_Status.hxx>
-#include <Standard_OStream.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class BRepCheck_ListOfStatus;
 class TopoDS_Wire;
 class TopoDS_Face;

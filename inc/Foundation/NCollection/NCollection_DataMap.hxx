@@ -21,8 +21,8 @@
 #include <Foundation/NCollection/NCollection_StlIterator.hxx>
 #include <Foundation/NCollection/NCollection_DefaultHasher.hxx>
 
-#include <Standard_TypeMismatch.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_TypeMismatch.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 
 /**
 * Purpose:     The DataMap is a Map to store keys with associated

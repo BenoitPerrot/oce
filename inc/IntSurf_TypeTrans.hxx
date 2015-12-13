@@ -6,7 +6,7 @@
 #ifndef _IntSurf_TypeTrans_HeaderFile
 #define _IntSurf_TypeTrans_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum IntSurf_TypeTrans

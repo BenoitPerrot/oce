@@ -6,17 +6,17 @@
 #ifndef _HLRAlgo_PolyShellData_HeaderFile
 #define _HLRAlgo_PolyShellData_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_HLRAlgo_PolyShellData.hxx>
 
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <TColStd_Array1OfTransient.hxx>
 #include <Handle_TColStd_HArray1OfTransient.hxx>
 #include <HLRAlgo_ListOfBPoint.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Address.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class TColStd_HArray1OfTransient;
 class TColStd_Array1OfTransient;
 class HLRAlgo_ListOfBPoint;

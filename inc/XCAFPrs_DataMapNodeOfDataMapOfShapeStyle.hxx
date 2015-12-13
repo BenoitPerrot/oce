@@ -6,8 +6,8 @@
 #ifndef _XCAFPrs_DataMapNodeOfDataMapOfShapeStyle_HeaderFile
 #define _XCAFPrs_DataMapNodeOfDataMapOfShapeStyle_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_XCAFPrs_DataMapNodeOfDataMapOfShapeStyle.hxx>
 
 #include <TopoDS_Shape.hxx>

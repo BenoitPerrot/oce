@@ -6,13 +6,13 @@
 #ifndef _HLRBRep_InterCSurf_HeaderFile
 #define _HLRBRep_InterCSurf_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <IntCurveSurface_Intersection.hxx>
-#include <Standard_Address.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class gp_Lin;
 class HLRBRep_LineTool;
 class HLRBRep_SurfaceTool;

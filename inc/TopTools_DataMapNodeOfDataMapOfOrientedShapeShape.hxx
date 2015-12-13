@@ -6,8 +6,8 @@
 #ifndef _TopTools_DataMapNodeOfDataMapOfOrientedShapeShape_HeaderFile
 #define _TopTools_DataMapNodeOfDataMapOfOrientedShapeShape_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TopTools_DataMapNodeOfDataMapOfOrientedShapeShape.hxx>
 
 #include <TopoDS_Shape.hxx>

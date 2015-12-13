@@ -5,7 +5,7 @@
 
 #include <IntAna_ListOfCurve.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <IntAna_ListIteratorOfListOfCurve.hxx>
 #include <IntAna_Curve.hxx>
 #include <IntAna_ListNodeOfListOfCurve.hxx>

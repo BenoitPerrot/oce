@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <PTopoDS_Edge.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PTopoDS_Edge)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(PTopoDS_HShape),

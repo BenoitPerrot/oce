@@ -5,11 +5,11 @@
 
 #include <PTopoDS_HArray1OfHShape.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <PTopoDS_HShape.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
 #include <PTopoDS_FieldOfHArray1OfHShape.hxx>
 #include <PTopoDS_VArrayNodeOfFieldOfHArray1OfHShape.hxx>
 #include <PTopoDS_VArrayTNodeOfFieldOfHArray1OfHShape.hxx>

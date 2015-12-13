@@ -6,18 +6,18 @@
 #ifndef _Extrema_ExtPC_HeaderFile
 #define _Extrema_ExtPC_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
 #include <gp_Pnt.hxx>
 #include <Extrema_ExtPElC.hxx>
 #include <Extrema_SequenceOfPOnCurv.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Extrema_EPCOfExtPC.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <GeomAbs_CurveType.hxx>
 #include <TColStd_SequenceOfBoolean.hxx>
 #include <TColStd_SequenceOfReal.hxx>

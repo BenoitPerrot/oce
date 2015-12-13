@@ -5,7 +5,7 @@
 
 #include <HatchGen_SequenceNodeOfPointsOnElement.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <HatchGen_PointOnElement.hxx>
 #include <HatchGen_PointsOnElement.hxx>

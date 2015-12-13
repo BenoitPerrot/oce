@@ -5,7 +5,7 @@
 
 #include <NLPlate_ListNodeOfStackOfPlate.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Plate_Plate.hxx>
 #include <NLPlate_StackOfPlate.hxx>

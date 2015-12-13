@@ -6,12 +6,12 @@
 #ifndef _TopOpeBRepDS_EdgeInterferenceTool_HeaderFile
 #define _TopOpeBRepDS_EdgeInterferenceTool_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TopAbs_Orientation.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <TopTrans_CurveTransition.hxx>
 #include <Handle_TopOpeBRepDS_Interference.hxx>
 class TopoDS_Shape;

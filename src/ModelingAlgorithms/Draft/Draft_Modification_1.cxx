@@ -15,8 +15,8 @@
 // commercial license or contractual agreement.
 
 #include <StdFail_NotDone.hxx>
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Face.hxx>
 #include <gp_Dir.hxx>
@@ -87,9 +87,9 @@
 #include <BRepExtrema_ExtPC.hxx>
 #include <BRepExtrema_ExtCF.hxx>
 
-#include <Standard_DomainError.hxx>
-#include <Standard_Failure.hxx>
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 
 #include <TopTools_MapOfShape.hxx>
 #include <TopTools_MapIteratorOfMapOfShape.hxx>

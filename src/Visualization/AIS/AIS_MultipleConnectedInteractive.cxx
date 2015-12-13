@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 
 #include <AIS_InteractiveObject.hxx>
 #include <gp_Trsf.hxx>
@@ -24,7 +24,7 @@
 #include <Geom_Transformation.hxx>
 #include <SelectMgr_Selection.hxx>
 #include <AIS_MultipleConnectedInteractive.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_MultipleConnectedInteractive)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(AIS_InteractiveObject),

@@ -17,7 +17,7 @@
 #include <StepGeom_HArray2OfCartesianPoint.hxx>
 #include <TColStd_HArray2OfReal.hxx>
 #include <StepGeom_QuasiUniformSurfaceAndRationalBSplineSurface.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepGeom_QuasiUniformSurfaceAndRationalBSplineSurface)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepGeom_BSplineSurface),

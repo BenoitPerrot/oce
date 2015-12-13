@@ -6,8 +6,8 @@
 #ifndef _Intf_SequenceNodeOfSeqOfSectionLine_HeaderFile
 #define _Intf_SequenceNodeOfSeqOfSectionLine_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Intf_SequenceNodeOfSeqOfSectionLine.hxx>
 
 #include <Intf_SectionLine.hxx>

@@ -6,8 +6,8 @@
 #ifndef _Message_SequenceNodeOfSequenceOfPrinters_HeaderFile
 #define _Message_SequenceNodeOfSequenceOfPrinters_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Message_SequenceNodeOfSequenceOfPrinters.hxx>
 
 #include <Handle_Message_Printer.hxx>

@@ -5,7 +5,7 @@
 
 #include <PDataStd_VArrayNodeOfFieldOfHArray1OfHArray1OfReal.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <PColStd_HArray1OfReal.hxx>
 #include <PDataStd_FieldOfHArray1OfHArray1OfReal.hxx>

@@ -6,14 +6,14 @@
 #ifndef _StepAP214_AutoDesignGroupAssignment_HeaderFile
 #define _StepAP214_AutoDesignGroupAssignment_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepAP214_AutoDesignGroupAssignment.hxx>
 
 #include <Handle_StepAP214_HArray1OfAutoDesignGroupedItem.hxx>
 #include <StepBasic_GroupAssignment.hxx>
 #include <Handle_StepBasic_Group.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class StepAP214_HArray1OfAutoDesignGroupedItem;
 class StepBasic_Group;
 class StepAP214_AutoDesignGroupedItem;

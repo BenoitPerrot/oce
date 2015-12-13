@@ -6,7 +6,7 @@
 #ifndef _GeomAbs_BSplKnotDistribution_HeaderFile
 #define _GeomAbs_BSplKnotDistribution_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 //! This enumeration is used in the classes BSplineCurve and

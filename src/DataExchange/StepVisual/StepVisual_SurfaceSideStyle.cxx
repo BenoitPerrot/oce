@@ -15,7 +15,7 @@
 #include <StepVisual_HArray1OfSurfaceStyleElementSelect.hxx>
 #include <StepVisual_SurfaceStyleElementSelect.hxx>
 #include <StepVisual_SurfaceSideStyle.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepVisual_SurfaceSideStyle)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

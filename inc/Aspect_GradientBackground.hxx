@@ -6,9 +6,9 @@
 #ifndef _Aspect_GradientBackground_HeaderFile
 #define _Aspect_GradientBackground_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Aspect_GradientFillMethod.hxx>

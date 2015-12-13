@@ -14,13 +14,13 @@
 // commercial license or contractual agreement.
 
 #include <gp_Pln.hxx>
-#include <Standard_ShortReal.hxx>
+#include <Foundation/Standard/Standard_ShortReal.hxx>
 
 #include <Graphic3d_Vec4.hxx>
 #include <Graphic3d_Camera.hxx>
 
-#include <Standard_Atomic.hxx>
-#include <Standard_Assert.hxx>
+#include <Foundation/Standard/Standard_Atomic.hxx>
+#include <Foundation/Standard/Standard_Assert.hxx>
 
 #include <Foundation/NCollection/NCollection_Sequence.hxx>
 

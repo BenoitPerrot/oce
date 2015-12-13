@@ -6,19 +6,19 @@
 #ifndef _Interface_Graph_HeaderFile
 #define _Interface_Graph_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_Interface_InterfaceModel.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>
 #include <Interface_BitMap.hxx>
 #include <Handle_TColStd_HArray1OfListOfInteger.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Interface_Protocol.hxx>
 #include <Handle_Interface_GTool.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Handle_TColStd_HSequenceOfTransient.hxx>
 #include <Handle_Standard_Type.hxx>

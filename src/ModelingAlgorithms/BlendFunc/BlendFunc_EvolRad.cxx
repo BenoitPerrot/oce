@@ -36,9 +36,9 @@
 #include <gp.hxx>
 #include <BlendFunc.hxx>
 #include <GeomFill.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_DomainError.hxx>
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <TColStd_SequenceOfReal.hxx>
 #include <TColgp_Array2OfVec.hxx>
 #include <CSLib.hxx>

@@ -19,7 +19,7 @@
 #include <gp_Pnt.hxx>
 #include <Draw_Display.hxx>
 #include <BOPTest_DrawableShape.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BOPTest_DrawableShape)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(DBRep_DrawableShape),

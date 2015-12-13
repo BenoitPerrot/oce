@@ -6,7 +6,7 @@
 #include <HLRBRep_ThePolygonOfInterCSurf.hxx>
 
 #include <TColStd_HArray1OfReal.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <gp_Lin.hxx>
 #include <HLRBRep_LineTool.hxx>
 #include <TColStd_Array1OfReal.hxx>

@@ -6,14 +6,14 @@
 #ifndef _Plate_LinearXYZConstraint_HeaderFile
 #define _Plate_LinearXYZConstraint_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_Plate_HArray1OfPinpointConstraint.hxx>
 #include <Handle_TColStd_HArray2OfReal.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class Plate_HArray1OfPinpointConstraint;
 class TColStd_HArray2OfReal;
 class Standard_DimensionMismatch;

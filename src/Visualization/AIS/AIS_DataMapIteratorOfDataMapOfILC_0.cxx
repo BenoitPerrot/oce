@@ -5,7 +5,7 @@
 
 #include <AIS_DataMapIteratorOfDataMapOfILC.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <AIS_LocalContext.hxx>
 #include <TColStd_MapIntegerHasher.hxx>
 #include <AIS_DataMapOfILC.hxx>
@@ -13,7 +13,7 @@
  
 
 #define TheKey Standard_Integer
-#define TheKey_hxx <Standard_Integer.hxx>
+#define TheKey_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheItem Handle(AIS_LocalContext)
 #define TheItem_hxx <AIS_LocalContext.hxx>
 #define Hasher TColStd_MapIntegerHasher

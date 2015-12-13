@@ -6,7 +6,7 @@
 #ifndef _Graphic3d_TypeOfStructure_HeaderFile
 #define _Graphic3d_TypeOfStructure_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Structural attribute indicating if it can be displayed
 //! in wireframe, shadow mode, or both.

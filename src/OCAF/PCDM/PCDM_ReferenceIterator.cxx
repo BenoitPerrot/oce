@@ -19,7 +19,7 @@
 #include <CDM_MetaData.hxx>
 #include <CDM_Application.hxx>
 #include <PCDM_ReferenceIterator.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PCDM_ReferenceIterator)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Standard_Transient),

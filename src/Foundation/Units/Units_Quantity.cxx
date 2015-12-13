@@ -18,7 +18,7 @@
 #include <Units_Dimensions.hxx>
 #include <Units_UnitsSequence.hxx>
 #include <Units_Quantity.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 IMPLEMENT_STANDARD_TYPE(Units_Quantity)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

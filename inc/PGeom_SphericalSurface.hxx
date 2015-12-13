@@ -6,12 +6,12 @@
 #ifndef _PGeom_SphericalSurface_HeaderFile
 #define _PGeom_SphericalSurface_HeaderFile
 
-#include <Standard_Macro.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Handle_PGeom_SphericalSurface.hxx>
 
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <PGeom_ElementarySurface.hxx>
 class gp_Ax3;
 

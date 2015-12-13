@@ -5,7 +5,7 @@
 
 #include <BRepFill_DataMapIteratorOfDataMapOfShapeHArray2OfShape.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopTools_HArray2OfShape.hxx>
 #include <TopTools_ShapeMapHasher.hxx>

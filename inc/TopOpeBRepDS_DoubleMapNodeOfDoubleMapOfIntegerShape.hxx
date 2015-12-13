@@ -6,11 +6,11 @@
 #ifndef _TopOpeBRepDS_DoubleMapNodeOfDoubleMapOfIntegerShape_HeaderFile
 #define _TopOpeBRepDS_DoubleMapNodeOfDoubleMapOfIntegerShape_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TopOpeBRepDS_DoubleMapNodeOfDoubleMapOfIntegerShape.hxx>
 
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TCollection_MapNodePtr.hxx>
 #include <TCollection_MapNode.hxx>
@@ -57,7 +57,7 @@ private:
 };
 
 #define TheKey1 Standard_Integer
-#define TheKey1_hxx <Standard_Integer.hxx>
+#define TheKey1_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheKey2 TopoDS_Shape
 #define TheKey2_hxx <TopoDS_Shape.hxx>
 #define Hasher1 TColStd_MapIntegerHasher

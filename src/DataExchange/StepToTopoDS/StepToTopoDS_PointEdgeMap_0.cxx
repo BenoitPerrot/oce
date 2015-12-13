@@ -5,8 +5,8 @@
 
 #include <StepToTopoDS_PointEdgeMap.hxx>
 
-#include <Standard_DomainError.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <StepToTopoDS_PointPair.hxx>
 #include <TopoDS_Edge.hxx>
 #include <StepToTopoDS_PointPairHasher.hxx>

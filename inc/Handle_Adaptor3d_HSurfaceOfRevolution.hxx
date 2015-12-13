@@ -6,8 +6,8 @@
 #ifndef _Handle_Adaptor3d_HSurfaceOfRevolution_HeaderFile
 #define _Handle_Adaptor3d_HSurfaceOfRevolution_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Adaptor3d_HSurface.hxx>
 
 class Standard_Transient;

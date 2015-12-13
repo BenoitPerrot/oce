@@ -16,7 +16,7 @@
 
 #include <Extrema_ExtCC.hxx>
 #include <BRepAdaptor_HCurve.hxx>
-#include <Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
 
 class BRepAdaptor_HCurve;
 class TopoDS_Edge;

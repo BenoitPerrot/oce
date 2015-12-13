@@ -6,19 +6,19 @@
 #ifndef _ShapeFix_Face_HeaderFile
 #define _ShapeFix_Face_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ShapeFix_Face.hxx>
 
 #include <Handle_ShapeAnalysis_Surface.hxx>
 #include <TopoDS_Face.hxx>
 #include <TopoDS_Shape.hxx>
 #include <Handle_ShapeFix_Wire.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <ShapeFix_Root.hxx>
 #include <Handle_Geom_Surface.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_ShapeExtend_BasicMsgRegistrator.hxx>
 #include <Handle_ShapeExtend_WireData.hxx>
 #include <ShapeExtend_Status.hxx>

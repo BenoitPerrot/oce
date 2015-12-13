@@ -18,7 +18,7 @@
 
 #include <math_MultipleVarFunction.hxx>
 #include <Foundation/NCollection/NCollection_Sequence.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 //! This class represents Evtushenko's algorithm of global optimization based on nonuniform mesh.<br>
 //! Article: Yu. Evtushenko. Numerical methods for finding global extreme (case of a non-uniform mesh). <br>

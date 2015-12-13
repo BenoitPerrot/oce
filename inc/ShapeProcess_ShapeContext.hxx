@@ -6,8 +6,8 @@
 #ifndef _ShapeProcess_ShapeContext_HeaderFile
 #define _ShapeProcess_ShapeContext_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ShapeProcess_ShapeContext.hxx>
 
 #include <TopoDS_Shape.hxx>
@@ -15,10 +15,10 @@
 #include <Handle_ShapeExtend_MsgRegistrator.hxx>
 #include <TopAbs_ShapeEnum.hxx>
 #include <ShapeProcess_Context.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_ShapeBuild_ReShape.hxx>
 #include <Foundation/Message/Message_Gravity.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <GeomAbs_Shape.hxx>
 class ShapeExtend_MsgRegistrator;
 class TopoDS_Shape;

@@ -16,7 +16,7 @@
 #include <gp_Mat.hxx>
 #include <GProp.hxx>
 
-#include <Standard_DimensionError.hxx>
+#include <Foundation/Standard/Standard_DimensionError.hxx>
 
 #include <gp.hxx>
 #include <gp_XYZ.hxx>

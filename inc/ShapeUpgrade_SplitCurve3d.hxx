@@ -6,15 +6,15 @@
 #ifndef _ShapeUpgrade_SplitCurve3d_HeaderFile
 #define _ShapeUpgrade_SplitCurve3d_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ShapeUpgrade_SplitCurve3d.hxx>
 
 #include <Handle_Geom_Curve.hxx>
 #include <Handle_TColGeom_HArray1OfCurve.hxx>
 #include <ShapeUpgrade_SplitCurve.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class Geom_Curve;
 class TColGeom_HArray1OfCurve;
 

@@ -5,10 +5,10 @@
 
 #include <PShort_HArray1OfShortReal.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
-#include <Standard_OutOfRange.hxx>
-#include <Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
 #include <PShort_FieldOfHArray1OfShortReal.hxx>
 #include <PShort_VArrayNodeOfFieldOfHArray1OfShortReal.hxx>
 #include <PShort_VArrayTNodeOfFieldOfHArray1OfShortReal.hxx>
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(PShort_HArray1OfShortReal)
 
 
 #define Item Standard_ShortReal
-#define Item_hxx <Standard_ShortReal.hxx>
+#define Item_hxx <Foundation/Standard/Standard_ShortReal.hxx>
 #define PCollection_FieldOfHArray1 PShort_FieldOfHArray1OfShortReal
 #define PCollection_FieldOfHArray1_hxx <PShort_FieldOfHArray1OfShortReal.hxx>
 #define PCollection_VArrayNodeOfFieldOfHArray1 PShort_VArrayNodeOfFieldOfHArray1OfShortReal

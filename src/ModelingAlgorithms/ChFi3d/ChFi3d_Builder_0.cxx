@@ -21,8 +21,8 @@
 #include <ChFi3d.hxx>
 #include <Precision.hxx>
 
-#include <Standard_NotImplemented.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 
 #include <gp.hxx>
 #include <gp_Circ.hxx>

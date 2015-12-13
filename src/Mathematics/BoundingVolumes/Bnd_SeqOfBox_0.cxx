@@ -5,8 +5,8 @@
 
 #include <Bnd_SeqOfBox.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Bnd_Box.hxx>
 #include <Bnd_SequenceNodeOfSeqOfBox.hxx>
  

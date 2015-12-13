@@ -6,13 +6,13 @@
 #ifndef _MDataXtd_PatternStdRetrievalDriver_HeaderFile
 #define _MDataXtd_PatternStdRetrievalDriver_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_MDataXtd_PatternStdRetrievalDriver.hxx>
 
 #include <MDF_ARDriver.hxx>
 #include <Handle_CDM_MessageDriver.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Standard_Type.hxx>
 #include <Handle_TDF_Attribute.hxx>
 #include <Handle_PDF_Attribute.hxx>

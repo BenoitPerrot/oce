@@ -5,7 +5,7 @@
 
 #include <HLRBRep_ListOfBPnt2D.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <HLRBRep_ListIteratorOfListOfBPnt2D.hxx>
 #include <HLRBRep_BiPnt2D.hxx>
 #include <HLRBRep_ListNodeOfListOfBPnt2D.hxx>

@@ -6,8 +6,8 @@
 #ifndef _TDF_DeltaOnResume_HeaderFile
 #define _TDF_DeltaOnResume_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TDF_DeltaOnResume.hxx>
 
 #include <TDF_AttributeDelta.hxx>

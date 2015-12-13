@@ -6,13 +6,13 @@
 #ifndef _PShort_VArrayTNodeOfFieldOfHArray2OfShortReal_HeaderFile
 #define _PShort_VArrayTNodeOfFieldOfHArray2OfShortReal_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_ShortReal.hxx>
+#include <Foundation/Standard/Standard_ShortReal.hxx>
 #include <Handle_PShort_VArrayNodeOfFieldOfHArray2OfShortReal.hxx>
-#include <Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
 class PShort_FieldOfHArray2OfShortReal;
 class PShort_VArrayNodeOfFieldOfHArray2OfShortReal;
 
@@ -52,7 +52,7 @@ private:
 };
 
 #define Item Standard_ShortReal
-#define Item_hxx <Standard_ShortReal.hxx>
+#define Item_hxx <Foundation/Standard/Standard_ShortReal.hxx>
 #define DBC_VArrayNode PShort_VArrayNodeOfFieldOfHArray2OfShortReal
 #define DBC_VArrayNode_hxx <PShort_VArrayNodeOfFieldOfHArray2OfShortReal.hxx>
 #define DBC_VArrayTNode PShort_VArrayTNodeOfFieldOfHArray2OfShortReal

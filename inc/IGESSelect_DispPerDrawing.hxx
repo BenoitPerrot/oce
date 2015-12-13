@@ -6,13 +6,13 @@
 #ifndef _IGESSelect_DispPerDrawing_HeaderFile
 #define _IGESSelect_DispPerDrawing_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESSelect_DispPerDrawing.hxx>
 
 #include <Handle_IGESSelect_ViewSorter.hxx>
 #include <IFSelect_Dispatch.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class IGESSelect_ViewSorter;
 class TCollection_AsciiString;
 class Interface_Graph;

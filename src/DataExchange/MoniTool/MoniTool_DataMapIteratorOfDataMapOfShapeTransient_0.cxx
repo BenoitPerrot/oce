@@ -5,9 +5,9 @@
 
 #include <MoniTool_DataMapIteratorOfDataMapOfShapeTransient.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopoDS_Shape.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <TopTools_ShapeMapHasher.hxx>
 #include <MoniTool_DataMapOfShapeTransient.hxx>
 #include <MoniTool_DataMapNodeOfDataMapOfShapeTransient.hxx>
@@ -16,7 +16,7 @@
 #define TheKey TopoDS_Shape
 #define TheKey_hxx <TopoDS_Shape.hxx>
 #define TheItem Handle(Standard_Transient)
-#define TheItem_hxx <Standard_Transient.hxx>
+#define TheItem_hxx <Foundation/Standard/Standard_Transient.hxx>
 #define Hasher TopTools_ShapeMapHasher
 #define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode MoniTool_DataMapNodeOfDataMapOfShapeTransient

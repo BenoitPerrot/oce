@@ -5,7 +5,7 @@
 
 #include <MAT_DataMapNodeOfDataMapOfIntegerArc.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <MAT_Arc.hxx>
 #include <TColStd_MapIntegerHasher.hxx>
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(MAT_DataMapNodeOfDataMapOfIntegerArc)
 
 
 #define TheKey Standard_Integer
-#define TheKey_hxx <Standard_Integer.hxx>
+#define TheKey_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheItem Handle(MAT_Arc)
 #define TheItem_hxx <MAT_Arc.hxx>
 #define Hasher TColStd_MapIntegerHasher

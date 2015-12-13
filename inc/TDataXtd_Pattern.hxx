@@ -6,12 +6,12 @@
 #ifndef _TDataXtd_Pattern_HeaderFile
 #define _TDataXtd_Pattern_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TDataXtd_Pattern.hxx>
 
 #include <TDF_Attribute.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_GUID;
 class TDataXtd_Array1OfTrsf;
 

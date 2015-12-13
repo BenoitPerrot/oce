@@ -5,7 +5,7 @@
 
 #include <Contap_SequenceNodeOfTheSequenceOfPoint.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Contap_Point.hxx>
 #include <Contap_TheSequenceOfPoint.hxx>

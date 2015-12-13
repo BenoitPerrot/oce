@@ -6,8 +6,8 @@
 #ifndef _BRep_ListNodeOfListOfPointRepresentation_HeaderFile
 #define _BRep_ListNodeOfListOfPointRepresentation_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BRep_ListNodeOfListOfPointRepresentation.hxx>
 
 #include <Handle_BRep_PointRepresentation.hxx>

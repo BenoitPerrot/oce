@@ -6,8 +6,8 @@
 #ifndef _StepShape_AngularSize_HeaderFile
 #define _StepShape_AngularSize_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepShape_AngularSize.hxx>
 
 #include <StepShape_AngleRelator.hxx>

@@ -6,9 +6,9 @@
 #ifndef _PDocStd_XLink_HeaderFile
 #define _PDocStd_XLink_HeaderFile
 
-#include <Standard_Macro.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Handle_PDocStd_XLink.hxx>
 
 #include <Handle_PCollection_HAsciiString.hxx>

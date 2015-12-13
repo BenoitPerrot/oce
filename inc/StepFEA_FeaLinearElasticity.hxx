@@ -6,8 +6,8 @@
 #ifndef _StepFEA_FeaLinearElasticity_HeaderFile
 #define _StepFEA_FeaLinearElasticity_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepFEA_FeaLinearElasticity.hxx>
 
 #include <StepFEA_SymmetricTensor43d.hxx>

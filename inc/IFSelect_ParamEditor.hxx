@@ -6,16 +6,16 @@
 #ifndef _IFSelect_ParamEditor_HeaderFile
 #define _IFSelect_ParamEditor_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IFSelect_ParamEditor.hxx>
 
 #include <TCollection_AsciiString.hxx>
 #include <IFSelect_Editor.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_Interface_TypedValue.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_IFSelect_EditForm.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Handle_Standard_Transient.hxx>

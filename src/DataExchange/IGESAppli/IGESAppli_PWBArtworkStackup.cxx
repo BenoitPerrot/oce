@@ -18,9 +18,9 @@
 
 #include <TCollection_HAsciiString.hxx>
 #include <TColStd_HArray1OfInteger.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <IGESAppli_PWBArtworkStackup.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESAppli_PWBArtworkStackup)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(IGESData_IGESEntity),
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESAppli_PWBArtworkStackup)
 IMPLEMENT_DOWNCAST(IGESAppli_PWBArtworkStackup,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESAppli_PWBArtworkStackup)
-#include <Standard_DimensionMismatch.hxx>
+#include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 
 
 IGESAppli_PWBArtworkStackup::IGESAppli_PWBArtworkStackup ()    {  }

@@ -6,9 +6,9 @@
 #ifndef _BOPDS_SubIterator_HeaderFile
 #define _BOPDS_SubIterator_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <BOPCol_BaseAllocator.hxx>
 #include <BOPDS_PDS.hxx>
@@ -16,8 +16,8 @@
 #include <BOPDS_ListIteratorOfListOfPassKeyBoolean.hxx>
 #include <BOPCol_PListOfInteger.hxx>
 #include <BOPCol_ListOfInteger.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class BOPDS_DS;
 
 

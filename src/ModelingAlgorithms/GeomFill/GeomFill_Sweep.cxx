@@ -22,14 +22,14 @@
 #include <TColGeom2d_HArray1OfCurve.hxx>
 #include <TColStd_HArray2OfReal.hxx>
 #include <StdFail_NotDone.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Geom2d_Curve.hxx>
 #include <GeomFill_Sweep.hxx>
 #include <GeomFill_SweepFunction.hxx>
 #include <GeomFill_LocFunction.hxx>
 
-#include <Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
 
 #include <gp_Pnt2d.hxx>
 #include <gp_Dir2d.hxx>

@@ -5,10 +5,10 @@
 
 #include <TColStd_HSequenceOfInteger.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <TColStd_SequenceOfInteger.hxx>
 
  
@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_RTTI(TColStd_HSequenceOfInteger)
 
 
 #define Item Standard_Integer
-#define Item_hxx <Standard_Integer.hxx>
+#define Item_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheSequence TColStd_SequenceOfInteger
 #define TheSequence_hxx <TColStd_SequenceOfInteger.hxx>
 #define TCollection_HSequence TColStd_HSequenceOfInteger

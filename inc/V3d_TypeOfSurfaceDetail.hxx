@@ -6,7 +6,7 @@
 #ifndef _V3d_TypeOfSurfaceDetail_HeaderFile
 #define _V3d_TypeOfSurfaceDetail_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Modes of visualization for objects in a view
 //! -   V3d_TEX_NONE: no texture mapping,

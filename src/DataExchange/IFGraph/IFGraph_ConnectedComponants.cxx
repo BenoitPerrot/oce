@@ -14,7 +14,7 @@
 #include <Interface_Graph.hxx>
 #include <IFGraph_ConnectedComponants.hxx>
 #include <IFGraph_AllConnected.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 
 
 

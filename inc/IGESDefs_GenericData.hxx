@@ -6,19 +6,19 @@
 #ifndef _IGESDefs_GenericData_HeaderFile
 #define _IGESDefs_GenericData_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESDefs_GenericData.hxx>
 
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>
 #include <Handle_TColStd_HArray1OfTransient.hxx>
 #include <IGESData_IGESEntity.hxx>
 #include <Handle_Standard_Transient.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_IGESData_IGESEntity.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class TCollection_HAsciiString;
 class TColStd_HArray1OfInteger;
 class TColStd_HArray1OfTransient;

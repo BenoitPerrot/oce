@@ -5,10 +5,10 @@
 
 #include <PPoly_HArray1OfTriangle.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
-#include <Standard_OutOfRange.hxx>
-#include <Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
 #include <PPoly_Triangle.hxx>
 #include <PPoly_FieldOfHArray1OfTriangle.hxx>
 #include <PPoly_VArrayNodeOfFieldOfHArray1OfTriangle.hxx>

@@ -6,8 +6,8 @@
 #ifndef _SelectMgr_ListNodeOfListOfFilter_HeaderFile
 #define _SelectMgr_ListNodeOfListOfFilter_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_SelectMgr_ListNodeOfListOfFilter.hxx>
 
 #include <Handle_SelectMgr_Filter.hxx>

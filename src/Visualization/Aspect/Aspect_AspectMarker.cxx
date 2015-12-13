@@ -33,7 +33,7 @@
 #include <Aspect_AspectMarkerDefinitionError.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Aspect_AspectMarker.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Aspect_AspectMarker)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

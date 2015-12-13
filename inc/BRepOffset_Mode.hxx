@@ -6,7 +6,7 @@
 #ifndef _BRepOffset_Mode_HeaderFile
 #define _BRepOffset_Mode_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 //! Lists the offset modes. These are the following:

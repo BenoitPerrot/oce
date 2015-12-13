@@ -26,8 +26,8 @@
 
 #include <Aspect_Window.hxx>
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 
 #include <Aspect_FillMethod.hxx>
 #include <Aspect_GradientFillMethod.hxx>

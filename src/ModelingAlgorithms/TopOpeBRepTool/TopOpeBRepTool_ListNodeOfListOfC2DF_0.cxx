@@ -5,7 +5,7 @@
 
 #include <TopOpeBRepTool_ListNodeOfListOfC2DF.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TopOpeBRepTool_C2DF.hxx>
 #include <TopOpeBRepTool_ListOfC2DF.hxx>

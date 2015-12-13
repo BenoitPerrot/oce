@@ -5,7 +5,7 @@
 
 #include <IntSurf_SequenceNodeOfSequenceOfInteriorPoint.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <IntSurf_InteriorPoint.hxx>
 #include <IntSurf_SequenceOfInteriorPoint.hxx>

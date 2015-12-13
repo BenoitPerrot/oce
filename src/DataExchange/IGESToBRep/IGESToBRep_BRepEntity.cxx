@@ -22,7 +22,7 @@
 //S4181 pdn 20.04.99 implementing of reading IGES elementary surfaces.
 //pdn 20.04.99 CTS22655 avoid of exceptions in case of empty loops
 
-#include <Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <IGESToBRep_CurveAndSurface.hxx>
 #include <TopoDS_Shape.hxx>
 #include <IGESData_IGESEntity.hxx>

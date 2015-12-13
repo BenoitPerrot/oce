@@ -5,8 +5,8 @@
 
 #include <GeomInt_SequenceOfParameterAndOrientation.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <GeomInt_ParameterAndOrientation.hxx>
 #include <GeomInt_SequenceNodeOfSequenceOfParameterAndOrientation.hxx>
  

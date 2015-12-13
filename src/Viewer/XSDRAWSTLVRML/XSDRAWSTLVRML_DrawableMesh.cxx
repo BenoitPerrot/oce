@@ -16,7 +16,7 @@
 #include <MeshVS_Mesh.hxx>
 #include <Draw_Display.hxx>
 #include <XSDRAWSTLVRML_DrawableMesh.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XSDRAWSTLVRML_DrawableMesh)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Draw_Drawable3D),

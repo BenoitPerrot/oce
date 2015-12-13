@@ -20,7 +20,7 @@
 #include <TCollection_AsciiString.hxx>
 #include <TColStd_Array2OfReal.hxx>
 #include <Graphic3d_GraphicDriver.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Graphic3d_GraphicDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

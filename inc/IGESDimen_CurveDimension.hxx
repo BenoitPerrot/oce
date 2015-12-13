@@ -6,8 +6,8 @@
 #ifndef _IGESDimen_CurveDimension_HeaderFile
 #define _IGESDimen_CurveDimension_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESDimen_CurveDimension.hxx>
 
 #include <Handle_IGESDimen_GeneralNote.hxx>
@@ -15,7 +15,7 @@
 #include <Handle_IGESDimen_LeaderArrow.hxx>
 #include <Handle_IGESDimen_WitnessLine.hxx>
 #include <IGESData_IGESEntity.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class IGESDimen_GeneralNote;
 class IGESData_IGESEntity;
 class IGESDimen_LeaderArrow;

@@ -17,11 +17,11 @@
 // pmn -> 17/01/1996 added : Continuity, (Nb)Intervals, D2, Trim
 
 #include <Law_Function.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <TColStd_Array1OfReal.hxx>
 #include <Law_Laws.hxx>
 #include <Law_Composite.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Law_Composite)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Law_Function),
@@ -36,7 +36,7 @@ IMPLEMENT_STANDARD_RTTI(Law_Composite)
 #include <Law_Laws.hxx>
 
 #include <TColStd_HArray1OfReal.hxx>
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 
 //=======================================================================
 //function : Law_Composite

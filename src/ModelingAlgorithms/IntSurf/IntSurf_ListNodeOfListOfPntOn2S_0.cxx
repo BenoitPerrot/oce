@@ -5,7 +5,7 @@
 
 #include <IntSurf_ListNodeOfListOfPntOn2S.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <IntSurf_PntOn2S.hxx>
 #include <IntSurf_ListOfPntOn2S.hxx>

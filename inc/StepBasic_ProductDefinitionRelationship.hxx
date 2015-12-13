@@ -6,13 +6,13 @@
 #ifndef _StepBasic_ProductDefinitionRelationship_HeaderFile
 #define _StepBasic_ProductDefinitionRelationship_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepBasic_ProductDefinitionRelationship.hxx>
 
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Handle_StepBasic_ProductDefinition.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class TCollection_HAsciiString;
 class StepBasic_ProductDefinition;

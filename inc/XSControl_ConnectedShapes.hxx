@@ -6,14 +6,14 @@
 #ifndef _XSControl_ConnectedShapes_HeaderFile
 #define _XSControl_ConnectedShapes_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_XSControl_ConnectedShapes.hxx>
 
 #include <Handle_XSControl_TransferReader.hxx>
 #include <IFSelect_SelectExplore.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Handle_TColStd_HSequenceOfTransient.hxx>
 #include <Handle_Transfer_TransientProcess.hxx>

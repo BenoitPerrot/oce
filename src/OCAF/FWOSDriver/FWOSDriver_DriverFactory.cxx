@@ -16,7 +16,7 @@
 
 #include <CDF_MetaDataDriver.hxx>
 #include <FWOSDriver_DriverFactory.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(FWOSDriver_DriverFactory)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(CDF_MetaDataDriverFactory),

@@ -61,8 +61,8 @@
 #include <Geom_Surface.hxx>
 
 
-#include <Standard_ErrorHandler.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 
 // ---------------------------- TranslateDlg -----------------------------------------
 

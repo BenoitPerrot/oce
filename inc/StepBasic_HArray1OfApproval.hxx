@@ -6,14 +6,14 @@
 #ifndef _StepBasic_HArray1OfApproval_HeaderFile
 #define _StepBasic_HArray1OfApproval_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepBasic_HArray1OfApproval.hxx>
 
 #include <StepBasic_Array1OfApproval.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_StepBasic_Approval.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_DimensionMismatch;
 class Standard_OutOfRange;

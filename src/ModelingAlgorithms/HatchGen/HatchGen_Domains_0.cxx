@@ -5,8 +5,8 @@
 
 #include <HatchGen_Domains.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <HatchGen_Domain.hxx>
 #include <HatchGen_SequenceNodeOfDomains.hxx>
  

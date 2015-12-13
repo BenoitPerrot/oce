@@ -13,13 +13,13 @@
 
 #include <Interface_IntVal.hxx>
 #include <TColStd_HSequenceOfTransient.hxx>
-#include <Standard_NoMoreObject.hxx>
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_Transient.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_NoMoreObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 #include <Interface_EntityIterator.hxx>
-#include <Standard_NoMoreObject.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoMoreObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 
 
 //  Iterateur pour ecriture for, ou while avec Next en fin :

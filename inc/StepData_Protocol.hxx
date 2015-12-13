@@ -6,20 +6,20 @@
 #ifndef _StepData_Protocol_HeaderFile
 #define _StepData_Protocol_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepData_Protocol.hxx>
 
 #include <Interface_DataMapOfTransientInteger.hxx>
 #include <Handle_Dico_DictionaryOfTransient.hxx>
 #include <Interface_Protocol.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Interface_Protocol.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Handle_Standard_Type.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_Interface_InterfaceModel.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_StepData_EDescr.hxx>
 #include <Handle_StepData_ESDescr.hxx>
 #include <Handle_StepData_ECDescr.hxx>

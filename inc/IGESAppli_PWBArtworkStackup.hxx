@@ -6,11 +6,11 @@
 #ifndef _IGESAppli_PWBArtworkStackup_HeaderFile
 #define _IGESAppli_PWBArtworkStackup_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESAppli_PWBArtworkStackup.hxx>
 
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>
 #include <IGESData_IGESEntity.hxx>

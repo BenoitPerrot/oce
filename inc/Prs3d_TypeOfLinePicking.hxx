@@ -6,7 +6,7 @@
 #ifndef _Prs3d_TypeOfLinePicking_HeaderFile
 #define _Prs3d_TypeOfLinePicking_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum Prs3d_TypeOfLinePicking

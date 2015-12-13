@@ -6,8 +6,8 @@
 #ifndef _Handle_BRepFill_CurveConstraint_HeaderFile
 #define _Handle_BRepFill_CurveConstraint_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_GeomPlate_CurveConstraint.hxx>
 
 class Standard_Transient;

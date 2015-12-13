@@ -6,16 +6,16 @@
 #ifndef _IGESControl_IGESBoundary_HeaderFile
 #define _IGESControl_IGESBoundary_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESControl_IGESBoundary.hxx>
 
 #include <IGESToBRep_IGESBoundary.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_IGESData_IGESEntity.hxx>
 #include <Handle_ShapeExtend_WireData.hxx>
 #include <Handle_IGESData_HArray1OfIGESEntity.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class IGESToBRep_CurveAndSurface;
 class IGESData_IGESEntity;
 class ShapeExtend_WireData;

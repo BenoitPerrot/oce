@@ -6,9 +6,9 @@
 #ifndef _BRepFill_Pipe_HeaderFile
 #define _BRepFill_Pipe_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TopoDS_Wire.hxx>
 #include <TopoDS_Shape.hxx>
@@ -17,11 +17,11 @@
 #include <Handle_TopTools_HArray2OfShape.hxx>
 #include <TopTools_MapOfShape.hxx>
 #include <BRepFill_DataMapOfShapeHArray2OfShape.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <GeomFill_Trihedron.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class BRepFill_LocationLaw;
 class TopTools_HArray2OfShape;
 class Standard_DomainError;

@@ -6,11 +6,11 @@
 #ifndef _BRepFill_EdgeOnSurfLaw_HeaderFile
 #define _BRepFill_EdgeOnSurfLaw_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BRepFill_EdgeOnSurfLaw.hxx>
 
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <BRepFill_LocationLaw.hxx>
 class TopoDS_Wire;
 class TopoDS_Shape;

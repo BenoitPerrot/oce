@@ -6,8 +6,8 @@
 #ifndef _Handle_OSD_Exception_FLT_DIVIDE_BY_ZERO_HeaderFile
 #define _Handle_OSD_Exception_FLT_DIVIDE_BY_ZERO_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_OSD_Exception.hxx>
 
 class Standard_Transient;

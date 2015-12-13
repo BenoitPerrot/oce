@@ -6,11 +6,11 @@
 #ifndef _TopOpeBRep_FFTransitionTool_HeaderFile
 #define _TopOpeBRep_FFTransitionTool_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <TopAbs_Orientation.hxx>
 class TopOpeBRepDS_Transition;
 class TopOpeBRep_VPointInter;

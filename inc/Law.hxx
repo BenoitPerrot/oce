@@ -6,17 +6,17 @@
 #ifndef _Law_HeaderFile
 #define _Law_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_Law_BSpFunc.hxx>
 #include <Handle_Law_Linear.hxx>
 #include <Handle_TColStd_HArray1OfReal.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Law_BSpline.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class Law_BSpFunc;
 class Law_Linear;
 class TColStd_HArray1OfReal;

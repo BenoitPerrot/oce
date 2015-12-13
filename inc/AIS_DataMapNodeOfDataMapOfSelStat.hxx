@@ -6,8 +6,8 @@
 #ifndef _AIS_DataMapNodeOfDataMapOfSelStat_HeaderFile
 #define _AIS_DataMapNodeOfDataMapOfSelStat_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_AIS_DataMapNodeOfDataMapOfSelStat.hxx>
 
 #include <Handle_SelectMgr_SelectableObject.hxx>

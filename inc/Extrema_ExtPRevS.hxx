@@ -6,18 +6,18 @@
 #ifndef _Extrema_ExtPRevS_HeaderFile
 #define _Extrema_ExtPRevS_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Extrema_ExtPRevS.hxx>
 
 #include <Handle_Adaptor3d_HSurfaceOfRevolution.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <gp_Ax2.hxx>
 #include <Extrema_GenExtPS.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Extrema_POnSurf.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 class Adaptor3d_HSurfaceOfRevolution;
 class StdFail_NotDone;
 class Standard_OutOfRange;

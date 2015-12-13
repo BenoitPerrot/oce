@@ -5,7 +5,7 @@
 
 #include <TNaming_DataMapNodeOfDataMapOfShapePtrRefShape.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TopoDS_Shape.hxx>
 #include <TopTools_ShapeMapHasher.hxx>

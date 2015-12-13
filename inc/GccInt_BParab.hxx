@@ -6,8 +6,8 @@
 #ifndef _GccInt_BParab_HeaderFile
 #define _GccInt_BParab_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_GccInt_BParab.hxx>
 
 #include <gp_Parab2d.hxx>

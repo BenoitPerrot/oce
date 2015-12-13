@@ -28,7 +28,7 @@
 #include <AppParCurves_ConstraintCouple.hxx>
 #include <AppParCurves_MultiPoint.hxx>
 #include <AppParCurves.hxx>
-#include <Standard_DimensionError.hxx>
+#include <Foundation/Standard/Standard_DimensionError.hxx>
 #include <math_Uzawa.hxx>
 #include <TColStd_Array1OfInteger.hxx>
 #include <TColStd_Array2OfInteger.hxx>

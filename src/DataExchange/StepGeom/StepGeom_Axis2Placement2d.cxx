@@ -15,7 +15,7 @@
 #include <TCollection_HAsciiString.hxx>
 #include <StepGeom_CartesianPoint.hxx>
 #include <StepGeom_Axis2Placement2d.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepGeom_Axis2Placement2d)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepGeom_Placement),

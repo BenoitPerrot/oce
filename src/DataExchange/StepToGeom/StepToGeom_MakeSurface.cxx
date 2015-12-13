@@ -22,8 +22,8 @@
 #include <StepGeom_Surface.hxx>
 #include <Geom_Surface.hxx>
 #include <StepToGeom_MakeSurface.hxx>
-#include <Standard_ErrorHandler.hxx>
-#include <Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
 #include <StepGeom_Surface.hxx>
 #include <StepToGeom_MakeSurface.hxx>
 #include <StepGeom_BoundedSurface.hxx>

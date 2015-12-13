@@ -6,13 +6,13 @@
 #ifndef _DNaming_BooleanOperationDriver_HeaderFile
 #define _DNaming_BooleanOperationDriver_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_DNaming_BooleanOperationDriver.hxx>
 
 #include <TFunction_Driver.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TFunction_Function.hxx>
 class TFunction_Logbook;
 class TDF_Label;

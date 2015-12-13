@@ -6,14 +6,14 @@
 #ifndef _StepShape_HArray1OfConnectedEdgeSet_HeaderFile
 #define _StepShape_HArray1OfConnectedEdgeSet_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepShape_HArray1OfConnectedEdgeSet.hxx>
 
 #include <StepShape_Array1OfConnectedEdgeSet.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_StepShape_ConnectedEdgeSet.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_DimensionMismatch;
 class Standard_OutOfRange;

@@ -5,12 +5,12 @@
 
 #include <DBC_VArrayOfReal.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
-#include <Standard_NegativeValue.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_DimensionMismatch.hxx>
-#include <Standard_NullObject.hxx>
+#include <Foundation/Standard/Standard_NegativeValue.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_DimensionMismatch.hxx>
+#include <Foundation/Standard/Standard_NullObject.hxx>
 #include <DBC_VArrayNodeOfVArrayOfReal.hxx>
 #include <DBC_VArrayTNodeOfVArrayOfReal.hxx>
 
@@ -24,7 +24,7 @@ IMPLEMENT_STANDARD_TYPE_END(DBC_VArrayOfReal)
  
 
 #define Item Standard_Real
-#define Item_hxx <Standard_Real.hxx>
+#define Item_hxx <Foundation/Standard/Standard_Real.hxx>
 #define DBC_VArrayNode DBC_VArrayNodeOfVArrayOfReal
 #define DBC_VArrayNode_hxx <DBC_VArrayNodeOfVArrayOfReal.hxx>
 #define DBC_VArrayTNode DBC_VArrayTNodeOfVArrayOfReal

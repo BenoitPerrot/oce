@@ -5,7 +5,7 @@
 
 #include <IntTools_MapIteratorOfMapOfCurveSample.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <IntTools_CurveRangeSample.hxx>
 #include <IntTools_CurveRangeSampleMapHasher.hxx>
 #include <IntTools_MapOfCurveSample.hxx>

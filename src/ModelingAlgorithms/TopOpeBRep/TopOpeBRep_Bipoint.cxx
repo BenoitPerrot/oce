@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <TopOpeBRep_Bipoint.hxx>
-#include <Standard_ProgramError.hxx>
+#include <Foundation/Standard/Standard_ProgramError.hxx>
 
 TopOpeBRep_Bipoint::TopOpeBRep_Bipoint():myI1(0),myI2(0){}
 TopOpeBRep_Bipoint::TopOpeBRep_Bipoint

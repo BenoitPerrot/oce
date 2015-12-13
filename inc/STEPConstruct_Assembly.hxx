@@ -6,16 +6,16 @@
 #ifndef _STEPConstruct_Assembly_HeaderFile
 #define _STEPConstruct_Assembly_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_StepShape_ShapeDefinitionRepresentation.hxx>
 #include <Handle_StepShape_ShapeRepresentation.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Handle_StepGeom_Axis2Placement3d.hxx>
 #include <Handle_StepRepr_NextAssemblyUsageOccurrence.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Interface_InterfaceModel.hxx>
 #include <Handle_StepShape_ContextDependentShapeRepresentation.hxx>
 class StepShape_ShapeDefinitionRepresentation;

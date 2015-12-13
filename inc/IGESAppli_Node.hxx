@@ -6,15 +6,15 @@
 #ifndef _IGESAppli_Node_HeaderFile
 #define _IGESAppli_Node_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESAppli_Node.hxx>
 
 #include <gp_XYZ.hxx>
 #include <Handle_IGESGeom_TransformationMatrix.hxx>
 #include <IGESData_IGESEntity.hxx>
 #include <Handle_IGESData_TransfEntity.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class IGESGeom_TransformationMatrix;
 class gp_XYZ;
 class gp_Pnt;

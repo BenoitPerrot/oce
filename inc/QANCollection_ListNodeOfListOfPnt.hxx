@@ -6,8 +6,8 @@
 #ifndef _QANCollection_ListNodeOfListOfPnt_HeaderFile
 #define _QANCollection_ListNodeOfListOfPnt_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_QANCollection_ListNodeOfListOfPnt.hxx>
 
 #include <gp_Pnt.hxx>

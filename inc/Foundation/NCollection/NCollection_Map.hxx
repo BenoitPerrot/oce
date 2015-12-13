@@ -22,8 +22,8 @@
 #include <Foundation/NCollection/NCollection_StlIterator.hxx>
 #include <Foundation/NCollection/NCollection_DefaultHasher.hxx>
 
-#include <Standard_ImmutableObject.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_ImmutableObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 
 /**
  * Purpose:     Single hashed Map. This  Map is used  to store and

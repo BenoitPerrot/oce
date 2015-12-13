@@ -5,8 +5,8 @@
 
 #include <XCAFPrs_DataMapOfShapeStyle.hxx>
 
-#include <Standard_DomainError.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopoDS_Shape.hxx>
 #include <XCAFPrs_Style.hxx>
 #include <TopTools_ShapeMapHasher.hxx>

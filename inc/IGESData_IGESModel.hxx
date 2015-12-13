@@ -6,21 +6,21 @@
 #ifndef _IGESData_IGESModel_HeaderFile
 #define _IGESData_IGESModel_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESData_IGESModel.hxx>
 
 #include <Handle_TColStd_HSequenceOfHAsciiString.hxx>
 #include <IGESData_GlobalSection.hxx>
 #include <Interface_InterfaceModel.hxx>
 #include <Handle_Message_Messenger.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_CString.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_IGESData_IGESEntity.hxx>
 #include <Handle_Interface_InterfaceModel.hxx>
 #include <Handle_Interface_Check.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 class TColStd_HSequenceOfHAsciiString;

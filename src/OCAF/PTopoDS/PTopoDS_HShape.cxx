@@ -17,7 +17,7 @@
 #include <PTopoDS_TShape.hxx>
 #include <PTopLoc_Location.hxx>
 #include <PTopoDS_HShape.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PTopoDS_HShape)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(ObjMgt_ExternShareable),

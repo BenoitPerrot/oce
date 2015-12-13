@@ -6,9 +6,9 @@
 #ifndef _PTopoDS_TShell_HeaderFile
 #define _PTopoDS_TShell_HeaderFile
 
-#include <Standard_Macro.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Handle_PTopoDS_TShell.hxx>
 
 #include <TopAbs_ShapeEnum.hxx>

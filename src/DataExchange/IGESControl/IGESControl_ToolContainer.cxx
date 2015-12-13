@@ -15,7 +15,7 @@
 
 #include <IGESToBRep_IGESBoundary.hxx>
 #include <IGESControl_ToolContainer.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESControl_ToolContainer)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(IGESToBRep_ToolContainer),

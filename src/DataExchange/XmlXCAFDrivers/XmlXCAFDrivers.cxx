@@ -13,14 +13,14 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_Transient.hxx>
-#include <Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
 #include <XmlXCAFDrivers.hxx>
 #include <XmlXCAFDrivers_DocumentStorageDriver.hxx>
 #include <XmlXCAFDrivers_DocumentRetrievalDriver.hxx>
 
-#include <Standard_Failure.hxx>
-#include <Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
 #include <XmlDrivers.hxx>
 #include <Foundation/Plugin/Plugin_Macro.hxx>
 

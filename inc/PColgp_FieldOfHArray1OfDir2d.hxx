@@ -6,14 +6,14 @@
 #ifndef _PColgp_FieldOfHArray1OfDir2d_HeaderFile
 #define _PColgp_FieldOfHArray1OfDir2d_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <DBC_BaseArray.hxx>
 #include <Handle_PColgp_VArrayNodeOfFieldOfHArray1OfDir2d.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 class Standard_NegativeValue;
 class Standard_OutOfRange;
 class Standard_DimensionMismatch;

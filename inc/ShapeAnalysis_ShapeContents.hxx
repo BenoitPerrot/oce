@@ -6,12 +6,12 @@
 #ifndef _ShapeAnalysis_ShapeContents_HeaderFile
 #define _ShapeAnalysis_ShapeContents_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_TopTools_HSequenceOfShape.hxx>
 class TopTools_HSequenceOfShape;
 class TopoDS_Shape;

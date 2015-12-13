@@ -6,7 +6,7 @@
 #include <IntCurveSurface_ThePolyhedronOfHInter.hxx>
 
 #include <Bnd_HArray1OfBox.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Adaptor3d_HSurface.hxx>
 #include <Adaptor3d_HSurfaceTool.hxx>
 #include <TColStd_Array1OfReal.hxx>

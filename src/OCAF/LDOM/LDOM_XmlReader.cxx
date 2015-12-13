@@ -17,7 +17,7 @@
 //            AGV 130302: bug corr: was error if strlen(root_elem_name) < 7
 
 #include <LDOM_XmlReader.hxx>
-#include <Standard_Stream.hxx>
+#include <Foundation/Standard/Standard_Stream.hxx>
 #include <LDOM_MemManager.hxx>
 #include <LDOM_BasicAttribute.hxx>
 #include <LDOM_CharReference.hxx>

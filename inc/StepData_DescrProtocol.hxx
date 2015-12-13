@@ -6,13 +6,13 @@
 #ifndef _StepData_DescrProtocol_HeaderFile
 #define _StepData_DescrProtocol_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepData_DescrProtocol.hxx>
 
 #include <TCollection_AsciiString.hxx>
 #include <StepData_FileProtocol.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 
 
 //! A DescrProtocol is a protocol dynamically (at execution time)

@@ -21,7 +21,7 @@
 
 
 
-#include <Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
 #include <TDF_IDList.hxx>
 #include <TDF_Attribute.hxx>
 #include <TDF_IDFilter.hxx>

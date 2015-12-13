@@ -23,7 +23,7 @@
 #include <TColgp_Array1OfPnt2d.hxx>
 #include <Bnd_Box2d.hxx>
 #include <Select3D_SensitiveWire.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Select3D_SensitiveWire)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Select3D_SensitiveEntity),

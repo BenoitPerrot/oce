@@ -41,8 +41,8 @@
 #include <GeomFill_SectionPlacement.hxx>
 #include <GeomFill_LocationLaw.hxx>
 
-#include <Standard_ConstructionError.hxx>
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <TColStd_Array1OfReal.hxx>
 #include <TColStd_Array1OfInteger.hxx>
 #include <Precision.hxx>

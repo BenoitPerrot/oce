@@ -51,7 +51,7 @@
 #include <gp.hxx>
 #include <gp_Ax2.hxx>
 #include <gp_Pln.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Precision.hxx>
 #include <BRep_GCurve.hxx>
 #include <BRep_TEdge.hxx>

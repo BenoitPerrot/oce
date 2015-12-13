@@ -19,7 +19,7 @@
 #include <Extrema_SequenceOfPOnSurf.hxx>
 #include <BRepAdaptor_HSurface.hxx>
 #include <Extrema_POnSurf.hxx>
-#include <Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
 
 class BRepAdaptor_HSurface;
 class TopoDS_Face;

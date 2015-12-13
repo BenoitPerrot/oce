@@ -6,8 +6,8 @@
 #ifndef _Handle_MDocStd_XLinkRetrievalDriver_HeaderFile
 #define _Handle_MDocStd_XLinkRetrievalDriver_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_MDF_ARDriver.hxx>
 
 class Standard_Transient;

@@ -5,8 +5,8 @@
 
 #include <MeshVS_DataMapOfIntegerMaterial.hxx>
 
-#include <Standard_DomainError.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Graphic3d_MaterialAspect.hxx>
 #include <TColStd_MapIntegerHasher.hxx>
 #include <MeshVS_DataMapNodeOfDataMapOfIntegerMaterial.hxx>
@@ -14,7 +14,7 @@
  
 
 #define TheKey Standard_Integer
-#define TheKey_hxx <Standard_Integer.hxx>
+#define TheKey_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheItem Graphic3d_MaterialAspect
 #define TheItem_hxx <Graphic3d_MaterialAspect.hxx>
 #define Hasher TColStd_MapIntegerHasher

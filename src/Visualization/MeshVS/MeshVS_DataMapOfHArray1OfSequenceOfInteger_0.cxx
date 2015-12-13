@@ -5,8 +5,8 @@
 
 #include <MeshVS_DataMapOfHArray1OfSequenceOfInteger.hxx>
 
-#include <Standard_DomainError.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <MeshVS_HArray1OfSequenceOfInteger.hxx>
 #include <TColStd_MapIntegerHasher.hxx>
 #include <MeshVS_DataMapNodeOfDataMapOfHArray1OfSequenceOfInteger.hxx>
@@ -14,7 +14,7 @@
  
 
 #define TheKey Standard_Integer
-#define TheKey_hxx <Standard_Integer.hxx>
+#define TheKey_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheItem Handle(MeshVS_HArray1OfSequenceOfInteger)
 #define TheItem_hxx <MeshVS_HArray1OfSequenceOfInteger.hxx>
 #define Hasher TColStd_MapIntegerHasher

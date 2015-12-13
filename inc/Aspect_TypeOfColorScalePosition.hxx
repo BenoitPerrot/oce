@@ -6,7 +6,7 @@
 #ifndef _Aspect_TypeOfColorScalePosition_HeaderFile
 #define _Aspect_TypeOfColorScalePosition_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Defines the type of position for color scale labels
 enum Aspect_TypeOfColorScalePosition

@@ -14,8 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_ConstructionError.hxx>
-#include <Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
 #include <gp_Ax3.hxx>
 #include <gp_Cone.hxx>
 #include <gp_Trsf.hxx>
@@ -25,7 +25,7 @@
 #include <gp_Vec.hxx>
 #include <Geom_Geometry.hxx>
 #include <Geom_ConicalSurface.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Geom_ConicalSurface)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Geom_ElementarySurface),
@@ -38,8 +38,8 @@ IMPLEMENT_STANDARD_TYPE_END(Geom_ConicalSurface)
 IMPLEMENT_DOWNCAST(Geom_ConicalSurface,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Geom_ConicalSurface)
 
-#include <Standard_ConstructionError.hxx>
-#include <Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
 
 #include <Precision.hxx>
 #include <gp.hxx>

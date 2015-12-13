@@ -5,7 +5,7 @@
 
 #include <Graphic3d_SequenceNodeOfSequenceOfStructure.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Graphic3d_Structure.hxx>
 #include <Graphic3d_SequenceOfStructure.hxx>

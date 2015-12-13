@@ -6,21 +6,21 @@
 #ifndef _Visual3d_ViewManager_HeaderFile
 #define _Visual3d_ViewManager_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Visual3d_ViewManager.hxx>
 
 #include <Visual3d_SequenceOfView.hxx>
 #include <Handle_Visual3d_Layer.hxx>
 #include <Aspect_GenId.hxx>
 #include <Handle_Graphic3d_GraphicDriver.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <TColStd_MapOfInteger.hxx>
 #include <TColStd_SequenceOfInteger.hxx>
 #include <Visual3d_MapOfZLayerSettings.hxx>
 #include <Graphic3d_StructureManager.hxx>
 #include <Handle_Visual3d_HSequenceOfView.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Visual3d_View.hxx>
 #include <Handle_Graphic3d_Structure.hxx>
 #include <Graphic3d_ZLayerSettings.hxx>

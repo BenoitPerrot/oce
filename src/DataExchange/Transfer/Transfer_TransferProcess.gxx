@@ -20,8 +20,8 @@
 //  TheStart est suppose Handle(Standard_Transient) ou (Transfer_Finder)
 //  Il doit offrir : "==" , .IsNull() , ->DynamicType()
 
-#include <Standard_ErrorHandler.hxx>
-#include <Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
 
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <Foundation/Message/Message_Msg.hxx>

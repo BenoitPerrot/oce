@@ -6,16 +6,16 @@
 #ifndef _Draw_Marker3D_HeaderFile
 #define _Draw_Marker3D_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Draw_Marker3D.hxx>
 
 #include <gp_Pnt.hxx>
 #include <Draw_Color.hxx>
 #include <Draw_MarkerShape.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Draw_Drawable3D.hxx>
 class gp_Pnt;
 class Draw_Color;

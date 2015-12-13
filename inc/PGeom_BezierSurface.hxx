@@ -6,14 +6,14 @@
 #ifndef _PGeom_BezierSurface_HeaderFile
 #define _PGeom_BezierSurface_HeaderFile
 
-#include <Standard_Macro.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Handle_PGeom_BezierSurface.hxx>
 
 #include <Handle_PColgp_HArray2OfPnt.hxx>
 #include <Handle_PColStd_HArray2OfReal.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <PGeom_BoundedSurface.hxx>
 class PColgp_HArray2OfPnt;
 class PColStd_HArray2OfReal;

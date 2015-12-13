@@ -6,15 +6,15 @@
 #ifndef _StepGeom_Direction_HeaderFile
 #define _StepGeom_Direction_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepGeom_Direction.hxx>
 
 #include <Handle_TColStd_HArray1OfReal.hxx>
 #include <StepGeom_GeometricRepresentationItem.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class TColStd_HArray1OfReal;
 class TCollection_HAsciiString;
 

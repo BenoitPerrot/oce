@@ -6,8 +6,8 @@
 #ifndef _DBRep_Face_HeaderFile
 #define _DBRep_Face_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_DBRep_Face.hxx>
 
 #include <TopoDS_Face.hxx>
@@ -15,9 +15,9 @@
 #include <TColStd_Array1OfInteger.hxx>
 #include <TColStd_Array1OfReal.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <GeomAbs_IsoType.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class TopoDS_Face;
 class Draw_Color;
 

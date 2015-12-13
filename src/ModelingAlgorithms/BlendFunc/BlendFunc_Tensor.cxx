@@ -14,8 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_DimensionError.hxx>
-#include <Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_DimensionError.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
 #include <math_Matrix.hxx>
 #include <BlendFunc_Tensor.hxx>
 

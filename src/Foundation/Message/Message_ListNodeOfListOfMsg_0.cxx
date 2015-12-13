@@ -5,7 +5,7 @@
 
 #include <Foundation/Message/Message_ListNodeOfListOfMsg.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Foundation/Message/Message_Msg.hxx>
 #include <Foundation/Message/Message_ListOfMsg.hxx>

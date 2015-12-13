@@ -6,8 +6,8 @@
 #ifndef _HLRAlgo_ListNodeOfInterferenceList_HeaderFile
 #define _HLRAlgo_ListNodeOfInterferenceList_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_HLRAlgo_ListNodeOfInterferenceList.hxx>
 
 #include <HLRAlgo_Interference.hxx>

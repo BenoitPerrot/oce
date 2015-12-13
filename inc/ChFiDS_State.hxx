@@ -6,7 +6,7 @@
 #ifndef _ChFiDS_State_HeaderFile
 #define _ChFiDS_State_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! This enum describe the  different kinds of extremities
 //! of   a   fillet.   OnSame,   Ondiff and  AllSame   are

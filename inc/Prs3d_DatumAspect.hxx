@@ -6,15 +6,15 @@
 #ifndef _Prs3d_DatumAspect_HeaderFile
 #define _Prs3d_DatumAspect_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Prs3d_DatumAspect.hxx>
 
 #include <Handle_Prs3d_LineAspect.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Quantity/Quantity_Length.hxx>
 #include <Prs3d_BasicAspect.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class Prs3d_LineAspect;
 
 

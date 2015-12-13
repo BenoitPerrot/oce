@@ -6,8 +6,8 @@
 #ifndef _BRepAdaptor_HCompCurve_HeaderFile
 #define _BRepAdaptor_HCompCurve_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BRepAdaptor_HCompCurve.hxx>
 
 #include <BRepAdaptor_CompCurve.hxx>

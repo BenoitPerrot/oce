@@ -6,15 +6,15 @@
 #ifndef _GccAna_CircPnt2dBisec_HeaderFile
 #define _GccAna_CircPnt2dBisec_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <gp_Circ2d.hxx>
 #include <gp_Pnt2d.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_GccInt_Bisec.hxx>
 class Standard_OutOfRange;
 class StdFail_NotDone;

@@ -6,14 +6,14 @@
 #ifndef _ObjMgt_ExternRef_HeaderFile
 #define _ObjMgt_ExternRef_HeaderFile
 
-#include <Standard_Macro.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Handle_ObjMgt_ExternRef.hxx>
 
 #include <Handle_PCollection_HAsciiString.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Persistent.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Persistent.hxx>
 class PCollection_HAsciiString;
 
 

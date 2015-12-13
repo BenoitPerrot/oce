@@ -21,7 +21,7 @@
 #include <gp_Pnt.hxx>
 #include <gp_Dir.hxx>
 #include <IGESSolid_SolidOfRevolution.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESSolid_SolidOfRevolution)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(IGESData_IGESEntity),

@@ -15,10 +15,10 @@
 // commercial license or contractual agreement.
 
 #include <PGeom_Surface.hxx>
-#include <Standard_NullObject.hxx>
+#include <Foundation/Standard/Standard_NullObject.hxx>
 #include <PTopLoc_Location.hxx>
 #include <PBRep_CurveOn2Surfaces.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PBRep_CurveOn2Surfaces)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(PBRep_CurveRepresentation),

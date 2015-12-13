@@ -14,7 +14,7 @@
 #include <StepVisual_PresentationArea.hxx>
 #include <StepVisual_PresentationSet.hxx>
 #include <StepVisual_AreaInSet.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepVisual_AreaInSet)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

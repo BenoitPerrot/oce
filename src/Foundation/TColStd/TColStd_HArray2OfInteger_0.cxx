@@ -5,12 +5,12 @@
 
 #include <TColStd_HArray2OfInteger.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
-#include <Standard_RangeError.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_OutOfMemory.hxx>
-#include <Standard_DimensionMismatch.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfMemory.hxx>
+#include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <TColStd_Array2OfInteger.hxx>
 
  
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(TColStd_HArray2OfInteger)
 
 
 #define ItemHArray2 Standard_Integer
-#define ItemHArray2_hxx <Standard_Integer.hxx>
+#define ItemHArray2_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheArray2 TColStd_Array2OfInteger
 #define TheArray2_hxx <TColStd_Array2OfInteger.hxx>
 #define TCollection_HArray2 TColStd_HArray2OfInteger

@@ -51,7 +51,7 @@
 #include <TNaming_NamedShape.hxx>
 #include <TDataXtd_Plane.hxx>
 #include <TDataXtd_Point.hxx>
-#include <Standard_PCharacter.hxx>
+#include <Foundation/Standard/Standard_PCharacter.hxx>
 
 //#include <TSketchStd_Geometry.hxx>
 //#include <TSketchStd_Edge.hxx>

@@ -6,7 +6,7 @@
 #ifndef _GeomAbs_JoinType_HeaderFile
 #define _GeomAbs_JoinType_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Characterizes the type of a join, built by an algorithm for
 //! constructing parallel curves, between two consecutive

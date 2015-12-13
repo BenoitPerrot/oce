@@ -6,7 +6,7 @@
 #ifndef _FairCurve_AnalysisCode_HeaderFile
 #define _FairCurve_AnalysisCode_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 //! To deal with different results in the computation of curvatures.

@@ -6,15 +6,15 @@
 #ifndef _CDF_Session_HeaderFile
 #define _CDF_Session_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_CDF_Session.hxx>
 
 #include <Handle_CDF_Directory.hxx>
 #include <Handle_CDF_Application.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_CDF_MetaDataDriver.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 class CDF_Directory;
 class CDF_Application;
 class CDF_MetaDataDriver;

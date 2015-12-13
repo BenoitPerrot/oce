@@ -17,8 +17,8 @@
 // Modified:	Thu Jun 18 15:45:00 1998
 //		PRO10310 : cas ou le point est sur la droite
 
-#include <Standard_NegativeValue.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NegativeValue.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <GccEnt_BadQualifier.hxx>
 #include <StdFail_NotDone.hxx>
 #include <GccEnt_QualifiedCirc.hxx>
@@ -34,7 +34,7 @@
 #include <IntAna2d_AnaIntersection.hxx>
 #include <IntAna2d_IntPoint.hxx>
 #include <TColStd_Array1OfReal.hxx>
-#include <Standard_NegativeValue.hxx>
+#include <Foundation/Standard/Standard_NegativeValue.hxx>
 #include <GccEnt_BadQualifier.hxx>
 
 // circular tangent to a line and a point and a given radius

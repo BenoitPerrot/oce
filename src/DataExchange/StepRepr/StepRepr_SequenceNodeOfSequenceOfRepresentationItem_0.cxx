@@ -5,7 +5,7 @@
 
 #include <StepRepr_SequenceNodeOfSequenceOfRepresentationItem.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <StepRepr_RepresentationItem.hxx>
 #include <StepRepr_SequenceOfRepresentationItem.hxx>

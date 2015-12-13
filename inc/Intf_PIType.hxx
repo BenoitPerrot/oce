@@ -6,7 +6,7 @@
 #ifndef _Intf_PIType_HeaderFile
 #define _Intf_PIType_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Describes the different intersection  point types for this
 //! application.

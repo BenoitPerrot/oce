@@ -6,14 +6,14 @@
 #ifndef _TColStd_HArray1OfByte_HeaderFile
 #define _TColStd_HArray1OfByte_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TColStd_HArray1OfByte.hxx>
 
 #include <TColStd_Array1OfByte.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Byte.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Byte.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_DimensionMismatch;
 class Standard_OutOfRange;
@@ -69,7 +69,7 @@ private:
 };
 
 #define ItemHArray1 Standard_Byte
-#define ItemHArray1_hxx <Standard_Byte.hxx>
+#define ItemHArray1_hxx <Foundation/Standard/Standard_Byte.hxx>
 #define TheArray1 TColStd_Array1OfByte
 #define TheArray1_hxx <TColStd_Array1OfByte.hxx>
 #define TCollection_HArray1 TColStd_HArray1OfByte

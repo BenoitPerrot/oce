@@ -18,7 +18,7 @@
 #include <IVtkOCC_SelectableObject.hxx>
 #include <Select3D_SensitiveBox.hxx>
 #include <SelectMgr_Selection.hxx>
-#include <Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <StdSelect_BRepOwner.hxx>
 #include <StdSelect_BRepSelectionTool.hxx>
 #include <TopoDS_Iterator.hxx>

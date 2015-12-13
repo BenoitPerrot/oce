@@ -6,8 +6,8 @@
 #ifndef _StepRepr_RepresentationMap_HeaderFile
 #define _StepRepr_RepresentationMap_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepRepr_RepresentationMap.hxx>
 
 #include <Handle_StepRepr_RepresentationItem.hxx>

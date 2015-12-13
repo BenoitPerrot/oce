@@ -6,24 +6,24 @@
 #ifndef _StepData_StepReaderData_HeaderFile
 #define _StepData_StepReaderData_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepData_StepReaderData.hxx>
 
 #include <TColStd_Array1OfInteger.hxx>
 #include <Interface_IndexedMapOfAsciiString.hxx>
 #include <TColStd_DataMapOfIntegerInteger.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Interface_Check.hxx>
 #include <Interface_FileReaderData.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 #include <Interface_ParamType.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_StepData_PDescr.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Handle_StepData_SelectMember.hxx>
 #include <Handle_StepData_ESDescr.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Standard_Type.hxx>
 #include <StepData_Logical.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>

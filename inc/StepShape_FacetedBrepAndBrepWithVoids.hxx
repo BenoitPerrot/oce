@@ -6,8 +6,8 @@
 #ifndef _StepShape_FacetedBrepAndBrepWithVoids_HeaderFile
 #define _StepShape_FacetedBrepAndBrepWithVoids_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepShape_FacetedBrepAndBrepWithVoids.hxx>
 
 #include <Handle_StepShape_FacetedBrep.hxx>
@@ -17,7 +17,7 @@
 #include <Handle_StepShape_ClosedShell.hxx>
 #include <Handle_StepShape_HArray1OfOrientedClosedShell.hxx>
 #include <Handle_StepShape_OrientedClosedShell.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class StepShape_FacetedBrep;
 class StepShape_BrepWithVoids;
 class TCollection_HAsciiString;

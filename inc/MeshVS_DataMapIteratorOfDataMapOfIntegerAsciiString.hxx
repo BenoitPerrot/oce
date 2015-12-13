@@ -6,12 +6,12 @@
 #ifndef _MeshVS_DataMapIteratorOfDataMapOfIntegerAsciiString_HeaderFile
 #define _MeshVS_DataMapIteratorOfDataMapOfIntegerAsciiString_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TCollection_BasicMapIterator.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_MeshVS_DataMapNodeOfDataMapOfIntegerAsciiString.hxx>
 class Standard_NoSuchObject;
 class TCollection_AsciiString;

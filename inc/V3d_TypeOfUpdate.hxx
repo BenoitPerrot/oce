@@ -6,7 +6,7 @@
 #ifndef _V3d_TypeOfUpdate_HeaderFile
 #define _V3d_TypeOfUpdate_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Determines the type of update of the view
 //! -   V3d_ASAP: as soon as possible. The view is updated immediately after a modification.

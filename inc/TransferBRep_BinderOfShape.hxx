@@ -6,14 +6,14 @@
 #ifndef _TransferBRep_BinderOfShape_HeaderFile
 #define _TransferBRep_BinderOfShape_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TransferBRep_BinderOfShape.hxx>
 
 #include <TopoDS_Shape.hxx>
 #include <Transfer_Binder.hxx>
 #include <Handle_Standard_Type.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 class Transfer_TransferFailure;
 class TopoDS_Shape;
 class Standard_Type;

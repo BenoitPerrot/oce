@@ -6,9 +6,9 @@
 #ifndef _ShapeProcess_OperLibrary_HeaderFile
 #define _ShapeProcess_OperLibrary_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_ShapeProcess_ShapeContext.hxx>
 #include <Handle_BRepTools_Modification.hxx>

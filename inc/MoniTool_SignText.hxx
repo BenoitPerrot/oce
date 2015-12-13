@@ -6,12 +6,12 @@
 #ifndef _MoniTool_SignText_HeaderFile
 #define _MoniTool_SignText_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_MoniTool_SignText.hxx>
 
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_Standard_Transient.hxx>
 class TCollection_AsciiString;
 class Standard_Transient;

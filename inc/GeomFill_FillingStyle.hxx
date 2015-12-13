@@ -6,7 +6,7 @@
 #ifndef _GeomFill_FillingStyle_HeaderFile
 #define _GeomFill_FillingStyle_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Defines the three filling styles used in this package
 //! -   GeomFill_Stretch - the style with the flattest patches

@@ -6,7 +6,7 @@
 #ifndef _IGESData_DefList_HeaderFile
 #define _IGESData_DefList_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Some fields of an IGES entity may be
 //! - Undefined

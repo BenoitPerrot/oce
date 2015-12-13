@@ -21,11 +21,11 @@
 #include <gp_Elips.hxx>
 #include <gp_Pln.hxx>
 #include <gp_Cylinder.hxx>
-#include <Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
 #include <TDF_Attribute.hxx>
 #include <TDF_RelocationTable.hxx>
 #include <TDataXtd_Geometry.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDataXtd_Geometry)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(TDF_Attribute),
@@ -59,7 +59,7 @@ IMPLEMENT_STANDARD_RTTI(TDataXtd_Geometry)
 #include <Geom_RectangularTrimmedSurface.hxx>
 #include <Geom_Plane.hxx>
 #include <Geom_CylindricalSurface.hxx>
-#include <Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
 
 
 //=======================================================================

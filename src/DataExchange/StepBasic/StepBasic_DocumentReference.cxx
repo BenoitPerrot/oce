@@ -14,7 +14,7 @@
 #include <StepBasic_Document.hxx>
 #include <TCollection_HAsciiString.hxx>
 #include <StepBasic_DocumentReference.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepBasic_DocumentReference)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

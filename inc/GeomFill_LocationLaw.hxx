@@ -6,15 +6,15 @@
 #ifndef _GeomFill_LocationLaw_HeaderFile
 #define _GeomFill_LocationLaw_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_GeomFill_LocationLaw.hxx>
 
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Adaptor3d_HCurve.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <GeomFill_PipeError.hxx>
 #include <GeomAbs_Shape.hxx>
 class Standard_NotImplemented;

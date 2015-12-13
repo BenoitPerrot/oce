@@ -6,12 +6,12 @@
 #ifndef _BRepClass3d_DataMapNodeOfMapOfInter_HeaderFile
 #define _BRepClass3d_DataMapNodeOfMapOfInter_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BRepClass3d_DataMapNodeOfMapOfInter.hxx>
 
 #include <TopoDS_Shape.hxx>
-#include <Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
 #include <TCollection_MapNode.hxx>
 #include <TCollection_MapNodePtr.hxx>
 class TopoDS_Shape;
@@ -55,7 +55,7 @@ private:
 #define TheKey TopoDS_Shape
 #define TheKey_hxx <TopoDS_Shape.hxx>
 #define TheItem Standard_Address
-#define TheItem_hxx <Standard_Address.hxx>
+#define TheItem_hxx <Foundation/Standard/Standard_Address.hxx>
 #define Hasher TopTools_ShapeMapHasher
 #define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode BRepClass3d_DataMapNodeOfMapOfInter

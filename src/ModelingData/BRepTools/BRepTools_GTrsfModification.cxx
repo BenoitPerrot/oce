@@ -24,7 +24,7 @@
 #include <gp_Pnt.hxx>
 #include <Geom2d_Curve.hxx>
 #include <BRepTools_GTrsfModification.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BRepTools_GTrsfModification)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(BRepTools_Modification),
@@ -43,12 +43,12 @@ IMPLEMENT_STANDARD_RTTI(BRepTools_GTrsfModification)
 #include <Geom_BezierSurface.hxx>
 #include <Geom_BSplineCurve.hxx>
 #include <Geom_BezierCurve.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 #include <BRep_Tool.hxx>
 #include <gp_GTrsf2d.hxx>
 #include <gp_XYZ.hxx>
 #include <gp_TrsfForm.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 
 #include <gp.hxx>
 #include <GeomLib.hxx>

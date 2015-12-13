@@ -6,25 +6,25 @@
 #ifndef _BRepTopAdaptor_TopolTool_HeaderFile
 #define _BRepTopAdaptor_TopolTool_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BRepTopAdaptor_TopolTool.hxx>
 
 #include <TopExp_Explorer.hxx>
 #include <TopoDS_Face.hxx>
-#include <Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
 #include <Handle_BRepAdaptor_HCurve2d.hxx>
 #include <TColStd_ListOfTransient.hxx>
 #include <TColStd_ListIteratorOfListOfTransient.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Adaptor3d_TopolTool.hxx>
 #include <Handle_Adaptor3d_HSurface.hxx>
 #include <Handle_Adaptor2d_HCurve2d.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Adaptor3d_HVertex.hxx>
 #include <TopAbs_State.hxx>
 #include <TopAbs_Orientation.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class BRepAdaptor_HCurve2d;
 class Standard_DomainError;
 class Adaptor3d_HSurface;

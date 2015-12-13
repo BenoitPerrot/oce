@@ -6,8 +6,8 @@
 #ifndef _Handle_Transfer_TransientListBinder_HeaderFile
 #define _Handle_Transfer_TransientListBinder_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Transfer_Binder.hxx>
 
 class Standard_Transient;

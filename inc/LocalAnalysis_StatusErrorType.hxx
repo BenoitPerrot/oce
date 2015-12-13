@@ -6,7 +6,7 @@
 #ifndef _LocalAnalysis_StatusErrorType_HeaderFile
 #define _LocalAnalysis_StatusErrorType_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum LocalAnalysis_StatusErrorType

@@ -16,7 +16,7 @@
 #ifndef _OpenGl_Resource_H__
 #define _OpenGl_Resource_H__
 
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <Handle_Standard_Transient.hxx>
 
 class Standard_Transient;

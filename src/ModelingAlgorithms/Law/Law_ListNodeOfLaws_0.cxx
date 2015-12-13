@@ -5,7 +5,7 @@
 
 #include <Law_ListNodeOfLaws.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Law_Function.hxx>
 #include <Law_Laws.hxx>

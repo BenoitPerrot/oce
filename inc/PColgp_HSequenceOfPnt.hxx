@@ -6,17 +6,17 @@
 #ifndef _PColgp_HSequenceOfPnt_HeaderFile
 #define _PColgp_HSequenceOfPnt_HeaderFile
 
-#include <Standard_Macro.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Handle_PColgp_HSequenceOfPnt.hxx>
 
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <gp_Pnt.hxx>
 #include <Handle_PColgp_HSequenceOfPnt.hxx>
 #include <Handle_PColgp_SeqNodeOfHSequenceOfPnt.hxx>
-#include <Standard_Persistent.hxx>
+#include <Foundation/Standard/Standard_Persistent.hxx>
 class PColgp_SeqNodeOfHSequenceOfPnt;
 class Standard_NoSuchObject;
 class Standard_OutOfRange;

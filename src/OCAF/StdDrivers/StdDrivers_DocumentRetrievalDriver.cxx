@@ -16,7 +16,7 @@
 #include <MDF_ARDriverTable.hxx>
 #include <CDM_MessageDriver.hxx>
 #include <StdDrivers_DocumentRetrievalDriver.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StdDrivers_DocumentRetrievalDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MDocStd_DocumentRetrievalDriver),

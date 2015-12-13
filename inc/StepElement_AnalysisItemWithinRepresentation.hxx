@@ -6,8 +6,8 @@
 #ifndef _StepElement_AnalysisItemWithinRepresentation_HeaderFile
 #define _StepElement_AnalysisItemWithinRepresentation_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepElement_AnalysisItemWithinRepresentation.hxx>
 
 #include <Handle_TCollection_HAsciiString.hxx>

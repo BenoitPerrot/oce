@@ -24,7 +24,7 @@
 #include <StepElement_HArray1OfMeasureOrUnspecifiedValue.hxx>
 #include <StepElement_MeasureOrUnspecifiedValue.hxx>
 #include <TColStd_HArray1OfReal.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <StepElement_HArray1OfMeasureOrUnspecifiedValue.hxx>
 #include <StepElement_MeasureOrUnspecifiedValue.hxx>
 #include <StepElement_HArray1OfMeasureOrUnspecifiedValue.hxx>

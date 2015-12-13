@@ -6,15 +6,15 @@
 #ifndef _IGESBasic_ToolExternalRefFile_HeaderFile
 #define _IGESBasic_ToolExternalRefFile_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_IGESBasic_ExternalRefFile.hxx>
 #include <Handle_IGESData_IGESReaderData.hxx>
 #include <Handle_Interface_Check.hxx>
 #include <Handle_Message_Messenger.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_DomainError;
 class IGESBasic_ExternalRefFile;
 class IGESData_IGESReaderData;

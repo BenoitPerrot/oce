@@ -6,9 +6,9 @@
 #ifndef _BOPAlgo_BuilderSolid_HeaderFile
 #define _BOPAlgo_BuilderSolid_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TopoDS_Solid.hxx>
 #include <BOPAlgo_BuilderArea.hxx>

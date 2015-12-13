@@ -5,15 +5,15 @@
 
 #include <TDF_ListIteratorOfIDList.hxx>
 
-#include <Standard_NoMoreObject.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoMoreObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TDF_IDList.hxx>
-#include <Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
 #include <TDF_ListNodeOfIDList.hxx>
  
 
 #define Item Standard_GUID
-#define Item_hxx <Standard_GUID.hxx>
+#define Item_hxx <Foundation/Standard/Standard_GUID.hxx>
 #define TCollection_ListNode TDF_ListNodeOfIDList
 #define TCollection_ListNode_hxx <TDF_ListNodeOfIDList.hxx>
 #define TCollection_ListIterator TDF_ListIteratorOfIDList

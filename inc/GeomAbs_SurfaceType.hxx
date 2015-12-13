@@ -6,7 +6,7 @@
 #ifndef _GeomAbs_SurfaceType_HeaderFile
 #define _GeomAbs_SurfaceType_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum GeomAbs_SurfaceType

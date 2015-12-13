@@ -5,7 +5,7 @@
 
 #include <IntCurveSurface_SequenceNodeOfSequenceOfPnt.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <IntCurveSurface_IntersectionPoint.hxx>
 #include <IntCurveSurface_SequenceOfPnt.hxx>

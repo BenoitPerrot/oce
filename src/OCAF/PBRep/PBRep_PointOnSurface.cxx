@@ -17,7 +17,7 @@
 #include <PGeom_Surface.hxx>
 #include <PTopLoc_Location.hxx>
 #include <PBRep_PointOnSurface.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PBRep_PointOnSurface)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(PBRep_PointsOnSurface),

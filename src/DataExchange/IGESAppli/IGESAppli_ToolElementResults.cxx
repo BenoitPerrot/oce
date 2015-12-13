@@ -17,7 +17,7 @@
 //--------------------------------------------------------------------
 
 // UNFINISHED & UNSTARTED
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <IGESAppli_ElementResults.hxx>
 #include <IGESData_IGESReaderData.hxx>
 #include <IGESData_ParamReader.hxx>

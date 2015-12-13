@@ -6,8 +6,8 @@
 #ifndef _Interface_TypedValue_HeaderFile
 #define _Interface_TypedValue_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Interface_TypedValue.hxx>
 
 #include <TCollection_AsciiString.hxx>
@@ -17,7 +17,7 @@
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <MoniTool_TypedValue.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 #include <Interface_ParamType.hxx>
 #include <MoniTool_ValueType.hxx>
 class Standard_Type;

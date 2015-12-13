@@ -6,8 +6,8 @@
 #ifndef _TopoDS_TCompound_HeaderFile
 #define _TopoDS_TCompound_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TopoDS_TCompound.hxx>
 
 #include <TopoDS_TShape.hxx>

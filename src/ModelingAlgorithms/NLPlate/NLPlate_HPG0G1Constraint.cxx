@@ -20,7 +20,7 @@
 #include <gp_XYZ.hxx>
 #include <Plate_D1.hxx>
 #include <NLPlate_HPG0G1Constraint.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(NLPlate_HPG0G1Constraint)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(NLPlate_HPG0Constraint),

@@ -5,7 +5,7 @@
 
 #include <SelectMgr_DataMapNodeOfDataMapOfSelectionActivation.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <SelectMgr_Selection.hxx>
 #include <TColStd_MapTransientHasher.hxx>
@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_RTTI(SelectMgr_DataMapNodeOfDataMapOfSelectionActivation)
 #define TheKey Handle(SelectMgr_Selection)
 #define TheKey_hxx <SelectMgr_Selection.hxx>
 #define TheItem Standard_Integer
-#define TheItem_hxx <Standard_Integer.hxx>
+#define TheItem_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define Hasher TColStd_MapTransientHasher
 #define Hasher_hxx <TColStd_MapTransientHasher.hxx>
 #define TCollection_DataMapNode SelectMgr_DataMapNodeOfDataMapOfSelectionActivation

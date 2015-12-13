@@ -6,16 +6,16 @@
 #ifndef _Geom2d_Line_HeaderFile
 #define _Geom2d_Line_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Geom2d_Line.hxx>
 
 #include <gp_Ax2d.hxx>
 #include <Geom2d_Curve.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <GeomAbs_Shape.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Geom2d_Geometry.hxx>
 class Standard_RangeError;
 class gp_Ax2d;

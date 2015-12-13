@@ -16,7 +16,7 @@
 #ifndef _OPENGL_PRINTERCONTEXT_H
 #define _OPENGL_PRINTERCONTEXT_H
 
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <TColStd_Array2OfReal.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <OpenGl_Vec.hxx>

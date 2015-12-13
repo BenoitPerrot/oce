@@ -6,12 +6,12 @@
 #ifndef _TPrsStd_ConstraintDriver_HeaderFile
 #define _TPrsStd_ConstraintDriver_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TPrsStd_ConstraintDriver.hxx>
 
 #include <TPrsStd_Driver.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_AIS_InteractiveObject.hxx>
 class TDF_Label;
 class AIS_InteractiveObject;

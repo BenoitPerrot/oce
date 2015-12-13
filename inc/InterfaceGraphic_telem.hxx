@@ -15,8 +15,8 @@
 #ifndef INTERFACEGRAPHIC_TELEM_H
 #define INTERFACEGRAPHIC_TELEM_H
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <InterfaceGraphic_tgl_all.hxx>
 #include <stdlib.h>
 

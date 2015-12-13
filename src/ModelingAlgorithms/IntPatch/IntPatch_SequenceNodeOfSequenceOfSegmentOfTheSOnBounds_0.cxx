@@ -5,7 +5,7 @@
 
 #include <IntPatch_SequenceNodeOfSequenceOfSegmentOfTheSOnBounds.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <IntPatch_TheSegmentOfTheSOnBounds.hxx>
 #include <IntPatch_SequenceOfSegmentOfTheSOnBounds.hxx>

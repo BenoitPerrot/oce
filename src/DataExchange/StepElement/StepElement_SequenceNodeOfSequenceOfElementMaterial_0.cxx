@@ -5,7 +5,7 @@
 
 #include <StepElement_SequenceNodeOfSequenceOfElementMaterial.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <StepElement_ElementMaterial.hxx>
 #include <StepElement_SequenceOfElementMaterial.hxx>

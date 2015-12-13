@@ -27,7 +27,7 @@
 #include <TCollection_AsciiString.hxx>
 #include <TDataStd_TreeNode.hxx>
 #include <DDataStd_TreeBrowser.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DDataStd_TreeBrowser)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Draw_Drawable3D),

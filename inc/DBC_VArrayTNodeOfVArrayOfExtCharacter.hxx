@@ -6,13 +6,13 @@
 #ifndef _DBC_VArrayTNodeOfVArrayOfExtCharacter_HeaderFile
 #define _DBC_VArrayTNodeOfVArrayOfExtCharacter_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_ExtCharacter.hxx>
+#include <Foundation/Standard/Standard_ExtCharacter.hxx>
 #include <Handle_DBC_VArrayNodeOfVArrayOfExtCharacter.hxx>
-#include <Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
 class DBC_VArrayOfExtCharacter;
 class DBC_VArrayNodeOfVArrayOfExtCharacter;
 
@@ -52,7 +52,7 @@ private:
 };
 
 #define Item Standard_ExtCharacter
-#define Item_hxx <Standard_ExtCharacter.hxx>
+#define Item_hxx <Foundation/Standard/Standard_ExtCharacter.hxx>
 #define DBC_VArrayNode DBC_VArrayNodeOfVArrayOfExtCharacter
 #define DBC_VArrayNode_hxx <DBC_VArrayNodeOfVArrayOfExtCharacter.hxx>
 #define DBC_VArrayTNode DBC_VArrayTNodeOfVArrayOfExtCharacter

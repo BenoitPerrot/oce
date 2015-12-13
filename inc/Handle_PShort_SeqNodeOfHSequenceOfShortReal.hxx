@@ -6,9 +6,9 @@
 #ifndef _Handle_PShort_SeqNodeOfHSequenceOfShortReal_HeaderFile
 #define _Handle_PShort_SeqNodeOfHSequenceOfShortReal_HeaderFile
 
-#include <Standard_Macro.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Handle_PMMgt_PManaged.hxx>
 
 class Standard_Persistent;

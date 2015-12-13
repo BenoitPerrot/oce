@@ -6,18 +6,18 @@
 #ifndef _V3d_CircularGrid_HeaderFile
 #define _V3d_CircularGrid_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_V3d_CircularGrid.hxx>
 
 #include <Handle_Graphic3d_Structure.hxx>
 #include <Handle_Graphic3d_Group.hxx>
 #include <gp_Ax3.hxx>
 #include <V3d_ViewerPointer.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Aspect_GridDrawMode.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Aspect_CircularGrid.hxx>
 class Graphic3d_Structure;
 class Graphic3d_Group;

@@ -20,7 +20,7 @@
 #include <Interface_CopyTool.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <IGESSelect_ChangeLevelList.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESSelect_ChangeLevelList)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(IGESSelect_ModelModifier),

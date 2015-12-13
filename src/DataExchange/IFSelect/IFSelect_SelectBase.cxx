@@ -13,7 +13,7 @@
 
 #include <IFSelect_SelectionIterator.hxx>
 #include <IFSelect_SelectBase.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IFSelect_SelectBase)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(IFSelect_Selection),

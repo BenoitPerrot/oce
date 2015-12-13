@@ -16,7 +16,7 @@
 #ifndef _Image_Color_H__
 #define _Image_Color_H__
 
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard.hxx>
 
 //! POD structure for packed RGB color value (3 bytes)
 struct Image_ColorRGB

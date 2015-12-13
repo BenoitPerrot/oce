@@ -6,9 +6,9 @@
 #ifndef _BRepBuilderAPI_Collect_HeaderFile
 #define _BRepBuilderAPI_Collect_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TopoDS_Shape.hxx>
 #include <TopTools_MapOfShape.hxx>

@@ -6,17 +6,17 @@
 #ifndef _Draw_Marker2D_HeaderFile
 #define _Draw_Marker2D_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Draw_Marker2D.hxx>
 
 #include <gp_Pnt2d.hxx>
 #include <Draw_Color.hxx>
 #include <Draw_MarkerShape.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Draw_Drawable2D.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class gp_Pnt2d;
 class Draw_Color;
 class Draw_Display;

@@ -6,8 +6,8 @@
 #ifndef _Draft_DataMapNodeOfDataMapOfVertexVertexInfo_HeaderFile
 #define _Draft_DataMapNodeOfDataMapOfVertexVertexInfo_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Draft_DataMapNodeOfDataMapOfVertexVertexInfo.hxx>
 
 #include <TopoDS_Vertex.hxx>

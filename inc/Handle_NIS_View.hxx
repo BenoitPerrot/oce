@@ -16,7 +16,7 @@
 #ifndef Handle_NIS_View_HeaderFile
 #define Handle_NIS_View_HeaderFile
 
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_V3d_View.hxx>
 
 class NIS_View;

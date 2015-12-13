@@ -6,16 +6,16 @@
 #ifndef _ShapeFix_FixSmallFace_HeaderFile
 #define _ShapeFix_FixSmallFace_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ShapeFix_FixSmallFace.hxx>
 
 #include <TopoDS_Shape.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <ShapeAnalysis_CheckSmallFace.hxx>
 #include <ShapeFix_Root.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class TopoDS_Shape;
 class TopoDS_Face;
 class TopoDS_Edge;

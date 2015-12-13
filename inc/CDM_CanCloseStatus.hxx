@@ -6,7 +6,7 @@
 #ifndef _CDM_CanCloseStatus_HeaderFile
 #define _CDM_CanCloseStatus_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum CDM_CanCloseStatus

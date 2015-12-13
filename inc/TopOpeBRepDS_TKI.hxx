@@ -6,17 +6,17 @@
 #ifndef _TopOpeBRepDS_TKI_HeaderFile
 #define _TopOpeBRepDS_TKI_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TopOpeBRepDS_HArray1OfDataMapOfIntegerListOfInterference.hxx>
 #include <TopOpeBRepDS_DataMapIteratorOfDataMapOfIntegerListOfInterference.hxx>
 #include <TopOpeBRepDS_Kind.hxx>
 #include <TopOpeBRepDS_ListOfInterference.hxx>
 #include <TCollection_AsciiString.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_TopOpeBRepDS_Interference.hxx>
 class TopOpeBRepDS_HArray1OfDataMapOfIntegerListOfInterference;
 class TopOpeBRepDS_ListOfInterference;

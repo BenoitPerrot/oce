@@ -6,7 +6,7 @@
 #ifndef _Graphic3d_LevelOfTextureAnisotropy_HeaderFile
 #define _Graphic3d_LevelOfTextureAnisotropy_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Level of anisotropy filter.
 //! Notice that actual quality depends on hardware capabilities!

@@ -5,8 +5,8 @@
 
 #include <AppParCurves_SequenceOfMultiCurve.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <AppParCurves_MultiCurve.hxx>
 #include <AppParCurves_SequenceNodeOfSequenceOfMultiCurve.hxx>
  

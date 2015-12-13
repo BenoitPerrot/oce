@@ -38,7 +38,7 @@
 #include <XCAFDoc_DocumentTool.hxx>
 #include <TDF_Label.hxx>
 #include <Transfer_TransientListBinder.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <XCAFDoc_LayerTool.hxx>
 #include <IGESGraph_DefinitionLevel.hxx>
 #include <TCollection_AsciiString.hxx>

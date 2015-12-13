@@ -6,12 +6,12 @@
 #ifndef _IGESDimen_OrdinateDimension_HeaderFile
 #define _IGESDimen_OrdinateDimension_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESDimen_OrdinateDimension.hxx>
 
 #include <Handle_IGESDimen_GeneralNote.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_IGESDimen_WitnessLine.hxx>
 #include <Handle_IGESDimen_LeaderArrow.hxx>
 #include <IGESData_IGESEntity.hxx>

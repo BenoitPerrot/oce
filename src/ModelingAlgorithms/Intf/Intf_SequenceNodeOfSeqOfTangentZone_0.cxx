@@ -5,7 +5,7 @@
 
 #include <Intf_SequenceNodeOfSeqOfTangentZone.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Intf_TangentZone.hxx>
 #include <Intf_SeqOfTangentZone.hxx>

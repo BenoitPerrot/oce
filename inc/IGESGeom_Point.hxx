@@ -6,14 +6,14 @@
 #ifndef _IGESGeom_Point_HeaderFile
 #define _IGESGeom_Point_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESGeom_Point.hxx>
 
 #include <gp_XYZ.hxx>
 #include <Handle_IGESBasic_SubfigureDef.hxx>
 #include <IGESData_IGESEntity.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class IGESBasic_SubfigureDef;
 class gp_XYZ;
 class gp_Pnt;

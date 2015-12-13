@@ -5,7 +5,7 @@
 
 #include <TopTools_DataMapNodeOfDataMapOfOrientedShapeInteger.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TopoDS_Shape.hxx>
 #include <TopTools_OrientedShapeMapHasher.hxx>
@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_RTTI(TopTools_DataMapNodeOfDataMapOfOrientedShapeInteger)
 #define TheKey TopoDS_Shape
 #define TheKey_hxx <TopoDS_Shape.hxx>
 #define TheItem Standard_Integer
-#define TheItem_hxx <Standard_Integer.hxx>
+#define TheItem_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define Hasher TopTools_OrientedShapeMapHasher
 #define Hasher_hxx <TopTools_OrientedShapeMapHasher.hxx>
 #define TCollection_DataMapNode TopTools_DataMapNodeOfDataMapOfOrientedShapeInteger

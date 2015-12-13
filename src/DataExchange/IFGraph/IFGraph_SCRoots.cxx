@@ -17,7 +17,7 @@
 //#include <Interface_GraphContent.hxx>
 #include <IFGraph_StrongComponants.hxx>
 #include <IFGraph_ExternalSources.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 
 //#define PRINTDEB
 

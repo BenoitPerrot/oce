@@ -14,7 +14,7 @@
 #include <StepVisual_HArray1OfInvisibleItem.hxx>
 #include <StepVisual_InvisibilityContext.hxx>
 #include <StepVisual_ContextDependentInvisibility.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepVisual_ContextDependentInvisibility)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepVisual_Invisibility),

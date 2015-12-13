@@ -6,7 +6,7 @@
 #ifndef _AIS_DisplayStatus_HeaderFile
 #define _AIS_DisplayStatus_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 //! To give the display status of an Interactive Object.

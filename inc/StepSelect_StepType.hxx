@@ -6,15 +6,15 @@
 #ifndef _StepSelect_StepType_HeaderFile
 #define _StepSelect_StepType_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepSelect_StepType.hxx>
 
 #include <Handle_StepData_Protocol.hxx>
 #include <StepData_WriterLib.hxx>
 #include <IFSelect_Signature.hxx>
 #include <Handle_Interface_Protocol.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Handle_Interface_InterfaceModel.hxx>
 class StepData_Protocol;

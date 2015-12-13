@@ -6,8 +6,8 @@
 #ifndef _StepRepr_DescriptiveRepresentationItem_HeaderFile
 #define _StepRepr_DescriptiveRepresentationItem_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepRepr_DescriptiveRepresentationItem.hxx>
 
 #include <Handle_TCollection_HAsciiString.hxx>

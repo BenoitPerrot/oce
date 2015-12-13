@@ -6,15 +6,15 @@
 #ifndef _BRepPrimAPI_MakeRevol_HeaderFile
 #define _BRepPrimAPI_MakeRevol_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <BRepSweep_Revol.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <BRepPrimAPI_MakeSweep.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class TopoDS_Shape;
 class gp_Ax1;
 class BRepSweep_Revol;

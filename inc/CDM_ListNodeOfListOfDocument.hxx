@@ -6,8 +6,8 @@
 #ifndef _CDM_ListNodeOfListOfDocument_HeaderFile
 #define _CDM_ListNodeOfListOfDocument_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_CDM_ListNodeOfListOfDocument.hxx>
 
 #include <Handle_CDM_Document.hxx>

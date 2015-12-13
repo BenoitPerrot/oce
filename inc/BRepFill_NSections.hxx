@@ -6,21 +6,21 @@
 #ifndef _BRepFill_NSections_HeaderFile
 #define _BRepFill_NSections_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BRepFill_NSections.hxx>
 
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <TopTools_SequenceOfShape.hxx>
 #include <GeomFill_SequenceOfTrsf.hxx>
 #include <TColStd_SequenceOfReal.hxx>
 #include <Handle_TopTools_HArray2OfShape.hxx>
 #include <Handle_Geom_BSplineSurface.hxx>
 #include <BRepFill_SectionLaw.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_GeomFill_SectionLaw.hxx>
 #include <GeomAbs_Shape.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class TopTools_HArray2OfShape;
 class Geom_BSplineSurface;
 class TopTools_SequenceOfShape;

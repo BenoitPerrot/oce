@@ -25,7 +25,7 @@
 #include <Extrema_POnCurv2d.hxx>
 
 #include <GeomAbs_SurfaceType.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 
 #include <Geom_BezierSurface.hxx>
 #include <Geom_BSplineSurface.hxx>

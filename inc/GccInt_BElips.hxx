@@ -6,8 +6,8 @@
 #ifndef _GccInt_BElips_HeaderFile
 #define _GccInt_BElips_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_GccInt_BElips.hxx>
 
 #include <gp_Elips2d.hxx>

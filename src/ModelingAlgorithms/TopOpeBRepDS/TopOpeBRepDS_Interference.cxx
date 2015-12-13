@@ -20,7 +20,7 @@
 #include <TopOpeBRepDS_Transition.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <TopOpeBRepDS_Interference.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TopOpeBRepDS_Interference)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

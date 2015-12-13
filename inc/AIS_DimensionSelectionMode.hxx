@@ -6,7 +6,7 @@
 #ifndef _AIS_DimensionSelectionMode_HeaderFile
 #define _AIS_DimensionSelectionMode_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Specifies dimension selection modes.
 enum AIS_DimensionSelectionMode

@@ -18,7 +18,7 @@
 #include <TCollection_HAsciiString.hxx>
 #include <StepFEA_SymmetricTensor42d.hxx>
 #include <StepFEA_FeaShellBendingStiffness.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepFEA_FeaShellBendingStiffness)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepFEA_FeaMaterialPropertyRepresentationItem),

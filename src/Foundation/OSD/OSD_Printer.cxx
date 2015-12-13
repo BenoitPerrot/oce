@@ -14,13 +14,13 @@
 
 #include <Foundation/OSD/OSD_OSDError.hxx>
 #include <Foundation/OSD/OSD_Printer.hxx>
-#include <Standard_ConstructionError.hxx>
-#include <Standard_NullObject.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_NullObject.hxx>
 #include <TCollection_AsciiString.hxx>
 
 #ifndef WNT
 
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/OSD/OSD_WhoAmI.hxx>
 
 //const OSD_WhoAmI Iam = OSD_WPrinter;

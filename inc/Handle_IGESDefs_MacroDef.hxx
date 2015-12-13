@@ -6,8 +6,8 @@
 #ifndef _Handle_IGESDefs_MacroDef_HeaderFile
 #define _Handle_IGESDefs_MacroDef_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESData_IGESEntity.hxx>
 
 class Standard_Transient;

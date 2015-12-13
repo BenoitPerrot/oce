@@ -6,7 +6,7 @@
 #ifndef _AIS_KindOfUnit_HeaderFile
 #define _AIS_KindOfUnit_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Declares the type of Interactive Object unit.
 enum AIS_KindOfUnit

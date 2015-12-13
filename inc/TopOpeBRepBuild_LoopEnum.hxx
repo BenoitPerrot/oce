@@ -6,7 +6,7 @@
 #ifndef _TopOpeBRepBuild_LoopEnum_HeaderFile
 #define _TopOpeBRepBuild_LoopEnum_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum TopOpeBRepBuild_LoopEnum

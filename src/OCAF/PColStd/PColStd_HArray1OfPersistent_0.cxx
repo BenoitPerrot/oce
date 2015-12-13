@@ -5,11 +5,11 @@
 
 #include <PColStd_HArray1OfPersistent.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
-#include <Standard_Persistent.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_Persistent.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
 #include <PColStd_FieldOfHArray1OfPersistent.hxx>
 #include <PColStd_VArrayNodeOfFieldOfHArray1OfPersistent.hxx>
 #include <PColStd_VArrayTNodeOfFieldOfHArray1OfPersistent.hxx>
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(PColStd_HArray1OfPersistent)
 
 
 #define Item Handle(Standard_Persistent)
-#define Item_hxx <Standard_Persistent.hxx>
+#define Item_hxx <Foundation/Standard/Standard_Persistent.hxx>
 #define PCollection_FieldOfHArray1 PColStd_FieldOfHArray1OfPersistent
 #define PCollection_FieldOfHArray1_hxx <PColStd_FieldOfHArray1OfPersistent.hxx>
 #define PCollection_VArrayNodeOfFieldOfHArray1 PColStd_VArrayNodeOfFieldOfHArray1OfPersistent

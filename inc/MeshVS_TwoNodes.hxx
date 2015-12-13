@@ -15,10 +15,10 @@
 #define __TWO_NODES_STRUCT_HEADER__
 
 #ifndef _Standard_HeaderFile
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #endif
 #ifndef _Standard_Macro_HeaderFile
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 #endif
 
 //! Structure containing two IDs (of nodes) for using as a key in a map

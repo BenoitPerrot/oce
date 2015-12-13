@@ -5,7 +5,7 @@
 
 #include <TDataStd_DataMapIteratorOfDataMapOfStringHArray1OfInteger.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TCollection_ExtendedString.hxx>
 #include <TColStd_HArray1OfInteger.hxx>
 #include <TDataStd_DataMapOfStringHArray1OfInteger.hxx>

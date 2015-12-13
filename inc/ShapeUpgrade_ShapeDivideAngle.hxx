@@ -6,12 +6,12 @@
 #ifndef _ShapeUpgrade_ShapeDivideAngle_HeaderFile
 #define _ShapeUpgrade_ShapeDivideAngle_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <ShapeUpgrade_ShapeDivide.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class TopoDS_Shape;
 
 

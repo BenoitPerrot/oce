@@ -6,7 +6,7 @@
 #ifndef _Graphic3d_VerticalTextAlignment_HeaderFile
 #define _Graphic3d_VerticalTextAlignment_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Defines the vertical position of the text
 //! relative to its anchor.

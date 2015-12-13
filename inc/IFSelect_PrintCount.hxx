@@ -6,7 +6,7 @@
 #ifndef _IFSelect_PrintCount_HeaderFile
 #define _IFSelect_PrintCount_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 //! Lets you choose the manner in which you want to analyze an

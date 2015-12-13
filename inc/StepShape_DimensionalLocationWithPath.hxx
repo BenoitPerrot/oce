@@ -6,14 +6,14 @@
 #ifndef _StepShape_DimensionalLocationWithPath_HeaderFile
 #define _StepShape_DimensionalLocationWithPath_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepShape_DimensionalLocationWithPath.hxx>
 
 #include <Handle_StepRepr_ShapeAspect.hxx>
 #include <StepShape_DimensionalLocation.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class StepRepr_ShapeAspect;
 class TCollection_HAsciiString;
 

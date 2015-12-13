@@ -15,7 +15,7 @@
 #include <StepBasic_SecurityClassification.hxx>
 #include <StepAP214_SecurityClassificationItem.hxx>
 #include <StepAP214_AppliedSecurityClassificationAssignment.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepAP214_AppliedSecurityClassificationAssignment)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepBasic_SecurityClassificationAssignment),

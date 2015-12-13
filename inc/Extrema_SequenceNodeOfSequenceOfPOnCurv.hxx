@@ -6,8 +6,8 @@
 #ifndef _Extrema_SequenceNodeOfSequenceOfPOnCurv_HeaderFile
 #define _Extrema_SequenceNodeOfSequenceOfPOnCurv_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Extrema_SequenceNodeOfSequenceOfPOnCurv.hxx>
 
 #include <Extrema_POnCurv.hxx>

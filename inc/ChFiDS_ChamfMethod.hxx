@@ -6,7 +6,7 @@
 #ifndef _ChFiDS_ChamfMethod_HeaderFile
 #define _ChFiDS_ChamfMethod_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum ChFiDS_ChamfMethod

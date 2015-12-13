@@ -6,13 +6,13 @@
 #ifndef _PTopoDS_VArrayTNodeOfFieldOfHArray1OfShape1_HeaderFile
 #define _PTopoDS_VArrayTNodeOfFieldOfHArray1OfShape1_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <PTopoDS_Shape1.hxx>
 #include <Handle_PTopoDS_VArrayNodeOfFieldOfHArray1OfShape1.hxx>
-#include <Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
 class PTopoDS_Shape1;
 class PTopoDS_FieldOfHArray1OfShape1;
 class PTopoDS_VArrayNodeOfFieldOfHArray1OfShape1;

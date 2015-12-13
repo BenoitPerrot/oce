@@ -19,7 +19,7 @@
 #define No_Standard_OutOfRange
 #endif
 
-#include <Standard_NumericError.hxx>
+#include <Foundation/Standard/Standard_NumericError.hxx>
 #include <Expr_NotEvaluable.hxx>
 #include <Expr_SequenceOfGeneralExpression.hxx>
 #include <Expr_GeneralExpression.hxx>
@@ -28,7 +28,7 @@
 #include <TColStd_Array1OfReal.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <Expr_Product.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Expr_Product)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Expr_PolyExpression),

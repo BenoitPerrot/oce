@@ -6,14 +6,14 @@
 #ifndef _IGESData_FileRecognizer_HeaderFile
 #define _IGESData_FileRecognizer_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESData_FileRecognizer.hxx>
 
 #include <Handle_IGESData_IGESEntity.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_IGESData_FileRecognizer.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 class IGESData_IGESEntity;
 class Standard_NoSuchObject;
 class IGESData_IGESType;

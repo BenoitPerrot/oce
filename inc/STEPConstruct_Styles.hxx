@@ -6,17 +6,17 @@
 #ifndef _STEPConstruct_Styles_HeaderFile
 #define _STEPConstruct_Styles_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TColStd_IndexedDataMapOfTransientTransient.hxx>
 #include <TColStd_IndexedMapOfTransient.hxx>
 #include <TColStd_SequenceOfTransient.hxx>
 #include <STEPConstruct_Tool.hxx>
 #include <Handle_XSControl_WorkSession.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_StepVisual_StyledItem.hxx>
 #include <Handle_StepRepr_RepresentationItem.hxx>
 #include <Handle_StepVisual_PresentationStyleAssignment.hxx>

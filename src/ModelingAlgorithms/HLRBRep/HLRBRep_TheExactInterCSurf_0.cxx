@@ -6,7 +6,7 @@
 #include <HLRBRep_TheExactInterCSurf.hxx>
 
 #include <StdFail_NotDone.hxx>
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <HLRBRep_SurfaceTool.hxx>
 #include <gp_Lin.hxx>
 #include <HLRBRep_LineTool.hxx>
@@ -16,7 +16,7 @@
  
 
 #define ThePSurface Standard_Address
-#define ThePSurface_hxx <Standard_Address.hxx>
+#define ThePSurface_hxx <Foundation/Standard/Standard_Address.hxx>
 #define ThePSurfaceTool HLRBRep_SurfaceTool
 #define ThePSurfaceTool_hxx <HLRBRep_SurfaceTool.hxx>
 #define TheCurve gp_Lin

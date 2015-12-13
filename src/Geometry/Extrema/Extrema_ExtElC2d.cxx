@@ -16,7 +16,7 @@
 
 #include <StdFail_InfiniteSolutions.hxx>
 #include <StdFail_NotDone.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <gp_Lin2d.hxx>
 #include <gp_Circ2d.hxx>
 #include <gp_Elips2d.hxx>
@@ -30,8 +30,8 @@
 #include <ElCLib.hxx>
 #include <math_TrigonometricFunctionRoots.hxx>
 #include <math_DirectPolynomialRoots.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Precision.hxx>
 #include <Extrema_ExtPElC2d.hxx>
 

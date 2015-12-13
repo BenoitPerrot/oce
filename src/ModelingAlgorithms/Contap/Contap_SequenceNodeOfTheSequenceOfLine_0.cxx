@@ -5,7 +5,7 @@
 
 #include <Contap_SequenceNodeOfTheSequenceOfLine.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Contap_Line.hxx>
 #include <Contap_TheSequenceOfLine.hxx>

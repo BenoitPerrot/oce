@@ -6,14 +6,14 @@
 #ifndef _StepAP214_AppliedSecurityClassificationAssignment_HeaderFile
 #define _StepAP214_AppliedSecurityClassificationAssignment_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepAP214_AppliedSecurityClassificationAssignment.hxx>
 
 #include <Handle_StepAP214_HArray1OfSecurityClassificationItem.hxx>
 #include <StepBasic_SecurityClassificationAssignment.hxx>
 #include <Handle_StepBasic_SecurityClassification.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class StepAP214_HArray1OfSecurityClassificationItem;
 class StepBasic_SecurityClassification;
 class StepAP214_SecurityClassificationItem;

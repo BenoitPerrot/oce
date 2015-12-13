@@ -6,7 +6,7 @@
 #ifndef _Quantity_CoefficientOfExpansion_HeaderFile
 #define _Quantity_CoefficientOfExpansion_HeaderFile
 
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 
 typedef Standard_Real Quantity_CoefficientOfExpansion;
 

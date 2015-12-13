@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Geom_Curve.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Face.hxx>
 #include <TopoDS_Wire.hxx>
@@ -55,7 +55,7 @@
 #include <TopoDS_Shape.hxx>
 #include <TopoDS.hxx>
 
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 
 #include <TopExp.hxx>
 #include <BRepBndLib.hxx>

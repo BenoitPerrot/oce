@@ -6,8 +6,8 @@
 #include <HLRBRep_SLProps.hxx>
 
 #include <LProp_BadContinuity.hxx>
-#include <Standard_DomainError.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <LProp_NotDefined.hxx>
 #include <HLRBRep_SLPropsATool.hxx>
 #include <gp_Pnt.hxx>
@@ -16,7 +16,7 @@
  
 
 #define Surface Standard_Address
-#define Surface_hxx <Standard_Address.hxx>
+#define Surface_hxx <Foundation/Standard/Standard_Address.hxx>
 #define Tool HLRBRep_SLPropsATool
 #define Tool_hxx <HLRBRep_SLPropsATool.hxx>
 #define LProp_SLProps HLRBRep_SLProps

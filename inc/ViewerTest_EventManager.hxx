@@ -6,13 +6,13 @@
 #ifndef _ViewerTest_EventManager_HeaderFile
 #define _ViewerTest_EventManager_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ViewerTest_EventManager.hxx>
 
 #include <Handle_AIS_InteractiveContext.hxx>
 #include <Handle_V3d_View.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class AIS_InteractiveContext;
 class V3d_View;

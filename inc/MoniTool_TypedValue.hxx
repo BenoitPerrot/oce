@@ -6,15 +6,15 @@
 #ifndef _MoniTool_TypedValue_HeaderFile
 #define _MoniTool_TypedValue_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_MoniTool_TypedValue.hxx>
 
 #include <TCollection_AsciiString.hxx>
 #include <MoniTool_ValueType.hxx>
 #include <Handle_Standard_Type.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_TColStd_HArray1OfAsciiString.hxx>
 #include <Handle_Dico_DictionaryOfInteger.hxx>
 #include <MoniTool_ValueInterpret.hxx>
@@ -22,9 +22,9 @@
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_Message_Messenger.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_TColStd_HSequenceOfAsciiString.hxx>
 #include <Handle_Dico_DictionaryOfTransient.hxx>
 class Standard_Type;

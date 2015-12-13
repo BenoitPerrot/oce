@@ -16,11 +16,11 @@
 
 #include <Poly_Polygon2D.hxx>
 #include <Geom_Surface.hxx>
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <TopLoc_Location.hxx>
 #include <BRep_CurveRepresentation.hxx>
 #include <BRep_PolygonOnSurface.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BRep_PolygonOnSurface)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(BRep_CurveRepresentation),

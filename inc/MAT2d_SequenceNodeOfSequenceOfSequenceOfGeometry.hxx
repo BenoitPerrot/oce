@@ -6,8 +6,8 @@
 #ifndef _MAT2d_SequenceNodeOfSequenceOfSequenceOfGeometry_HeaderFile
 #define _MAT2d_SequenceNodeOfSequenceOfSequenceOfGeometry_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_MAT2d_SequenceNodeOfSequenceOfSequenceOfGeometry.hxx>
 
 #include <TColGeom2d_SequenceOfGeometry.hxx>

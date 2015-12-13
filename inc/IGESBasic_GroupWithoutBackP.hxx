@@ -6,8 +6,8 @@
 #ifndef _IGESBasic_GroupWithoutBackP_HeaderFile
 #define _IGESBasic_GroupWithoutBackP_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESBasic_GroupWithoutBackP.hxx>
 
 #include <IGESBasic_Group.hxx>

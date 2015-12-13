@@ -14,7 +14,7 @@
 #ifndef _BRepExtrema_Poly_HeaderFile
 #define _BRepExtrema_Poly_HeaderFile
 
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard.hxx>
 
 class TopoDS_Shape;
 class gp_Pnt;

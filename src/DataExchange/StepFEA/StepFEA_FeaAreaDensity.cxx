@@ -17,7 +17,7 @@
 
 #include <TCollection_HAsciiString.hxx>
 #include <StepFEA_FeaAreaDensity.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepFEA_FeaAreaDensity)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepFEA_FeaMaterialPropertyRepresentationItem),

@@ -6,8 +6,8 @@
 #ifndef _MeshVS_StdMapNodeOfMapOfTwoNodes_HeaderFile
 #define _MeshVS_StdMapNodeOfMapOfTwoNodes_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_MeshVS_StdMapNodeOfMapOfTwoNodes.hxx>
 
 #include <MeshVS_TwoNodes.hxx>

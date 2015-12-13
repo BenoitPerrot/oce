@@ -6,18 +6,18 @@
 #ifndef _TDF_RelocationTable_HeaderFile
 #define _TDF_RelocationTable_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TDF_RelocationTable.hxx>
 
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <TDF_LabelDataMap.hxx>
 #include <TDF_AttributeDataMap.hxx>
 #include <TColStd_IndexedDataMapOfTransientTransient.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_TDF_Attribute.hxx>
 #include <Handle_Standard_Transient.hxx>
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 class TDF_Label;
 class TDF_Attribute;
 class Standard_Transient;

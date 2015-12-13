@@ -6,14 +6,14 @@
 #ifndef _IntRes2d_IntersectionSegment_HeaderFile
 #define _IntRes2d_IntersectionSegment_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>
-#include <Standard_Storable.hxx>
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_Storable.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 class Standard_DomainError;
 class IntRes2d_IntersectionPoint;
 

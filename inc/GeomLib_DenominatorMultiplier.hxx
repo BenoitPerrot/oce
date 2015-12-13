@@ -6,13 +6,13 @@
 #ifndef _GeomLib_DenominatorMultiplier_HeaderFile
 #define _GeomLib_DenominatorMultiplier_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_Geom_BSplineSurface.hxx>
 #include <TColStd_Array1OfReal.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class Geom_BSplineSurface;
 class Standard_OutOfRange;
 class Standard_ConstructionError;

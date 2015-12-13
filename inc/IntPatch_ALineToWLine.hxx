@@ -6,13 +6,13 @@
 #ifndef _IntPatch_ALineToWLine_HeaderFile
 #define _IntPatch_ALineToWLine_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <IntSurf_Quadric.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_IntPatch_WLine.hxx>
 #include <Handle_IntPatch_ALine.hxx>
 class IntSurf_Quadric;

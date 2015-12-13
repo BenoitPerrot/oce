@@ -23,7 +23,7 @@
 #include <gp_Pnt.hxx>
 #include <Draw_Display.hxx>
 #include <TestTopOpeDraw_DrawableMesure.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TestTopOpeDraw_DrawableMesure)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(TestTopOpeDraw_DrawableC3D),
@@ -41,7 +41,7 @@ IMPLEMENT_STANDARD_RTTI(TestTopOpeDraw_DrawableMesure)
 #include <TestTopOpeTools_Mesure.hxx>
 #include <Geom_Curve.hxx>
 #include <TopOpeBRepTool_CurveTool.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <TColgp_HArray1OfPnt.hxx>
 #include <string.h>

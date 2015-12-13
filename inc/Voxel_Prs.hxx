@@ -6,22 +6,22 @@
 #ifndef _Voxel_Prs_HeaderFile
 #define _Voxel_Prs_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Voxel_Prs.hxx>
 
-#include <Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
 #include <AIS_InteractiveObject.hxx>
 #include <Handle_Poly_Triangulation.hxx>
 #include <Voxel_VoxelDisplayMode.hxx>
 #include <Handle_Quantity_HArray1OfColor.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <PrsMgr_PresentationManager3d.hxx>
 #include <Handle_Prs3d_Presentation.hxx>
 #include <Handle_SelectMgr_Selection.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Byte.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Byte.hxx>
 class Poly_Triangulation;
 class Quantity_Color;
 class Quantity_HArray1OfColor;

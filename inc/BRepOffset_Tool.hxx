@@ -6,14 +6,14 @@
 #ifndef _BRepOffset_Tool_HeaderFile
 #define _BRepOffset_Tool_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TopAbs_Orientation.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <TopAbs_State.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_BRepAlgo_AsDes.hxx>
 #include <Handle_Geom_Curve.hxx>
 class TopoDS_Edge;

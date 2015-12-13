@@ -6,12 +6,12 @@
 #ifndef _TopOpeBRep_LineInter_HeaderFile
 #define _TopOpeBRep_LineInter_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <TopOpeBRep_TypeLineCurve.hxx>
 #include <Handle_IntPatch_Line.hxx>
 #include <Handle_IntPatch_ALine.hxx>
@@ -23,11 +23,11 @@
 #include <TopoDS_Face.hxx>
 #include <TopOpeBRepDS_Transition.hxx>
 #include <TopoDS_Shape.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <IntSurf_TypeTrans.hxx>
 #include <IntSurf_Situation.hxx>
 #include <Handle_Geom_Curve.hxx>
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 class IntPatch_Line;
 class IntPatch_ALine;
 class IntPatch_RLine;

@@ -6,14 +6,14 @@
 #ifndef _GeomFill_HSequenceOfAx2_HeaderFile
 #define _GeomFill_HSequenceOfAx2_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_GeomFill_HSequenceOfAx2.hxx>
 
 #include <GeomFill_SequenceOfAx2.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;
 class Standard_OutOfRange;
 class gp_Ax2;

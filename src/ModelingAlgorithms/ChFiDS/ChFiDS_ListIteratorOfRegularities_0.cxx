@@ -5,8 +5,8 @@
 
 #include <ChFiDS_ListIteratorOfRegularities.hxx>
 
-#include <Standard_NoMoreObject.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoMoreObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <ChFiDS_Regularities.hxx>
 #include <ChFiDS_Regul.hxx>
 #include <ChFiDS_ListNodeOfRegularities.hxx>

@@ -6,8 +6,8 @@
 #ifndef _Handle_BRep_PointsOnSurface_HeaderFile
 #define _Handle_BRep_PointsOnSurface_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BRep_PointRepresentation.hxx>
 
 class Standard_Transient;

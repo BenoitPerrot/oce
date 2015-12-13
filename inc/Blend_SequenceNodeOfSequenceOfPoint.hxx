@@ -6,8 +6,8 @@
 #ifndef _Blend_SequenceNodeOfSequenceOfPoint_HeaderFile
 #define _Blend_SequenceNodeOfSequenceOfPoint_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Blend_SequenceNodeOfSequenceOfPoint.hxx>
 
 #include <Blend_Point.hxx>

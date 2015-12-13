@@ -6,11 +6,11 @@
 #ifndef _TColStd_ListNodeOfListOfInteger_HeaderFile
 #define _TColStd_ListNodeOfListOfInteger_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TColStd_ListNodeOfListOfInteger.hxx>
 
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <TCollection_MapNode.hxx>
 #include <TCollection_MapNodePtr.hxx>
 class TColStd_ListOfInteger;
@@ -47,7 +47,7 @@ private:
 };
 
 #define Item Standard_Integer
-#define Item_hxx <Standard_Integer.hxx>
+#define Item_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TCollection_ListNode TColStd_ListNodeOfListOfInteger
 #define TCollection_ListNode_hxx <TColStd_ListNodeOfListOfInteger.hxx>
 #define TCollection_ListIterator TColStd_ListIteratorOfListOfInteger

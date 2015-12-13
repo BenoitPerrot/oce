@@ -5,7 +5,7 @@
 
 #include <BRepFill_DataMapNodeOfDataMapOfShapeSequenceOfPnt.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TopoDS_Shape.hxx>
 #include <TColgp_SequenceOfPnt.hxx>

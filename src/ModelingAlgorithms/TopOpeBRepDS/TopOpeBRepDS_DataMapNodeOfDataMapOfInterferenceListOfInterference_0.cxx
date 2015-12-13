@@ -5,7 +5,7 @@
 
 #include <TopOpeBRepDS_DataMapNodeOfDataMapOfInterferenceListOfInterference.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TopOpeBRepDS_Interference.hxx>
 #include <TopOpeBRepDS_ListOfInterference.hxx>

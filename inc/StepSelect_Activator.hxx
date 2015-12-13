@@ -6,15 +6,15 @@
 #ifndef _StepSelect_Activator_HeaderFile
 #define _StepSelect_Activator_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepSelect_Activator.hxx>
 
 #include <IFSelect_Activator.hxx>
 #include <IFSelect_ReturnStatus.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_IFSelect_SessionPilot.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 class IFSelect_SessionPilot;
 
 

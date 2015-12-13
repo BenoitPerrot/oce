@@ -12,16 +12,16 @@
 // commercial license or contractual agreement.
 
 #include <TColStd_HArray1OfInteger.hxx>
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <Interface_InterfaceModel.hxx>
 #include <Interface_EntityIterator.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 #include <Interface_Check.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <TCollection_HAsciiString.hxx>
 #include <StepData_StepModel.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepData_StepModel)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Interface_InterfaceModel),
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(StepData_StepModel)
 IMPLEMENT_DOWNCAST(StepData_StepModel,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(StepData_StepModel)
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <StepData_Protocol.hxx>
 #include <StepData_StepWriter.hxx>
 

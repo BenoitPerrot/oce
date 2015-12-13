@@ -6,13 +6,13 @@
 #ifndef _Geom_Vector_HeaderFile
 #define _Geom_Vector_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Geom_Vector.hxx>
 
 #include <gp_Vec.hxx>
 #include <Geom_Geometry.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class Standard_ConstructionError;
 class Standard_DomainError;
 class gp_VectorWithNullMagnitude;

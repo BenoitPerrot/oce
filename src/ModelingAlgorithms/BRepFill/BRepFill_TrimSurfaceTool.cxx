@@ -17,7 +17,7 @@
 #include <stdio.h>
 
 #include <Geom2d_Curve.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopoDS_Face.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TColgp_SequenceOfPnt.hxx>
@@ -58,7 +58,7 @@
 #include <IntRes2d_IntersectionSegment.hxx>
 #include <Precision.hxx>
 #include <StdFail_NotDone.hxx>
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <TColStd_Array1OfReal.hxx>
 #include <TColStd_Array1OfInteger.hxx>

@@ -16,7 +16,7 @@
 #include <PColStd_HArray1OfReal.hxx>
 #include <PCollection_HAsciiString.hxx>
 #include <PXCAFDoc_DimTol.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PXCAFDoc_DimTol)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(PDF_Attribute),

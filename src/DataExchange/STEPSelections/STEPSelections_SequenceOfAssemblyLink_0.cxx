@@ -5,8 +5,8 @@
 
 #include <STEPSelections_SequenceOfAssemblyLink.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <STEPSelections_AssemblyLink.hxx>
 #include <STEPSelections_SequenceNodeOfSequenceOfAssemblyLink.hxx>
  

@@ -5,8 +5,8 @@
 
 #include <MeshVS_SequenceOfPrsBuilder.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <MeshVS_PrsBuilder.hxx>
 #include <MeshVS_SequenceNodeOfSequenceOfPrsBuilder.hxx>
  

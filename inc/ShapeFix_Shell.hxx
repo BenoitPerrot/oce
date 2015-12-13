@@ -6,20 +6,20 @@
 #ifndef _ShapeFix_Shell_HeaderFile
 #define _ShapeFix_Shell_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ShapeFix_Shell.hxx>
 
 #include <TopoDS_Shell.hxx>
 #include <TopoDS_Compound.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_ShapeFix_Face.hxx>
 #include <ShapeFix_Root.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Message_ProgressIndicator.hxx>
 #include <ShapeExtend_Status.hxx>
 #include <Handle_ShapeExtend_BasicMsgRegistrator.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class ShapeFix_Face;
 class TopoDS_Shell;
 class Message_ProgressIndicator;

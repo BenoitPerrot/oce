@@ -6,18 +6,18 @@
 #ifndef _Geom_OsculatingSurface_HeaderFile
 #define _Geom_OsculatingSurface_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_Geom_Surface.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Geom_HSequenceOfBSplineSurface.hxx>
 #include <Handle_TColStd_HSequenceOfInteger.hxx>
 #include <TColStd_Array1OfBoolean.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Geom_BSplineSurface.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <GeomAbs_IsoType.hxx>
 class Geom_Surface;
 class Geom_HSequenceOfBSplineSurface;

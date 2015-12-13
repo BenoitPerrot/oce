@@ -18,10 +18,10 @@
 
 #include <IGESGeom_TransformationMatrix.hxx>
 #include <IGESData_HArray1OfIGESEntity.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <IGESData_IGESEntity.hxx>
 #include <IGESDraw_Planar.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESDraw_Planar)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(IGESData_IGESEntity),
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESDraw_Planar)
 IMPLEMENT_DOWNCAST(IGESDraw_Planar,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESDraw_Planar)
-#include <Standard_DimensionMismatch.hxx>
+#include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 
 
 IGESDraw_Planar::IGESDraw_Planar ()    {  }

@@ -5,14 +5,14 @@
 
 #include <TShort_Array1OfShortReal.hxx>
 
-#include <Standard_RangeError.hxx>
-#include <Standard_DimensionMismatch.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_OutOfMemory.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_DimensionMismatch.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfMemory.hxx>
  
 
 #define Array1Item Standard_ShortReal
-#define Array1Item_hxx <Standard_ShortReal.hxx>
+#define Array1Item_hxx <Foundation/Standard/Standard_ShortReal.hxx>
 #define TCollection_Array1 TShort_Array1OfShortReal
 #define TCollection_Array1_hxx <TShort_Array1OfShortReal.hxx>
 #include <TCollection_Array1.gxx>

@@ -16,9 +16,9 @@
 #ifndef NCollection_Array2_HeaderFile
 #define NCollection_Array2_HeaderFile
 
-#include <Standard_DimensionMismatch.hxx>
-#include <Standard_OutOfMemory.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_DimensionMismatch.hxx>
+#include <Foundation/Standard/Standard_OutOfMemory.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 
 #include <Foundation/NCollection/NCollection_DefineAlloc.hxx>
 

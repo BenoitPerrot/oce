@@ -30,8 +30,8 @@
 
 #include <BSplCLib.hxx>
 
-#include <Standard_DomainError.hxx>
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 
 #include <Convert_ElementarySurfaceToBSplineSurface.hxx>
 #include <Convert_ConeToBSplineSurface.hxx>

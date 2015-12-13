@@ -6,8 +6,8 @@
 #ifndef _Handle_HeaderSection_HeaderRecognizer_HeaderFile
 #define _Handle_HeaderSection_HeaderRecognizer_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepData_FileRecognizer.hxx>
 
 class Standard_Transient;

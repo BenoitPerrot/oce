@@ -5,7 +5,7 @@
 
 #include <Geom_SequenceNodeOfSequenceOfBSplineSurface.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Geom_BSplineSurface.hxx>
 #include <Geom_SequenceOfBSplineSurface.hxx>

@@ -17,8 +17,8 @@
 #define _IVtkDraw_HeaderFile
 
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 class Draw_Interpretor;
 class MMgt_TShared;

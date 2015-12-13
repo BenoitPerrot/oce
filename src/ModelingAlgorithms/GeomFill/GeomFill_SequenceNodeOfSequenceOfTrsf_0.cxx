@@ -5,7 +5,7 @@
 
 #include <GeomFill_SequenceNodeOfSequenceOfTrsf.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <gp_Trsf.hxx>
 #include <GeomFill_SequenceOfTrsf.hxx>

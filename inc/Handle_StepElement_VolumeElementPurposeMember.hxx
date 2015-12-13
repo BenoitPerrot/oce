@@ -6,8 +6,8 @@
 #ifndef _Handle_StepElement_VolumeElementPurposeMember_HeaderFile
 #define _Handle_StepElement_VolumeElementPurposeMember_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepData_SelectNamed.hxx>
 
 class Standard_Transient;

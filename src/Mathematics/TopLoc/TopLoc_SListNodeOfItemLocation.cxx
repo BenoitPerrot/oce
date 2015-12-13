@@ -15,7 +15,7 @@
 #include <TopLoc_ItemLocation.hxx>
 #include <TopLoc_SListOfItemLocation.hxx>
 #include <TopLoc_SListNodeOfItemLocation.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TopLoc_SListNodeOfItemLocation)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

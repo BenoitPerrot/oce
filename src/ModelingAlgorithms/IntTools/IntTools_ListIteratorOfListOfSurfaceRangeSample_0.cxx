@@ -5,8 +5,8 @@
 
 #include <IntTools_ListIteratorOfListOfSurfaceRangeSample.hxx>
 
-#include <Standard_NoMoreObject.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoMoreObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <IntTools_ListOfSurfaceRangeSample.hxx>
 #include <IntTools_SurfaceRangeSample.hxx>
 #include <IntTools_ListNodeOfListOfSurfaceRangeSample.hxx>

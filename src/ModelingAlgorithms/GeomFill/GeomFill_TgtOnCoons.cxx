@@ -17,7 +17,7 @@
 #include <GeomFill_CoonsAlgPatch.hxx>
 #include <gp_Vec.hxx>
 #include <GeomFill_TgtOnCoons.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(GeomFill_TgtOnCoons)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(GeomFill_TgtField),

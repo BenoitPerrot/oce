@@ -6,18 +6,18 @@
 #ifndef _TestTopOpeDraw_DrawableSUR_HeaderFile
 #define _TestTopOpeDraw_DrawableSUR_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TestTopOpeDraw_DrawableSUR.hxx>
 
 #include <Handle_Draw_Text3D.hxx>
 #include <Draw_Color.hxx>
 #include <DrawTrSurf_Surface.hxx>
 #include <Handle_Geom_Surface.hxx>
-#include <Standard_CString.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class Draw_Text3D;
 class Geom_Surface;
 class Draw_Color;

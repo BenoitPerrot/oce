@@ -36,7 +36,7 @@
 #include <Geom_Circle.hxx>
 #include <GeomConvert.hxx>
 #include <Precision.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <CSLib.hxx>
 #include <CSLib_NormalStatus.hxx>
 

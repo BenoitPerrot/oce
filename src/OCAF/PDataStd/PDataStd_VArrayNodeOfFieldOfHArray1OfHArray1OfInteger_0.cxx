@@ -5,7 +5,7 @@
 
 #include <PDataStd_VArrayNodeOfFieldOfHArray1OfHArray1OfInteger.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <PColStd_HArray1OfInteger.hxx>
 #include <PDataStd_FieldOfHArray1OfHArray1OfInteger.hxx>

@@ -6,12 +6,12 @@
 #ifndef _PDF_Attribute_HeaderFile
 #define _PDF_Attribute_HeaderFile
 
-#include <Standard_Macro.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Handle_PDF_Attribute.hxx>
 
-#include <Standard_Persistent.hxx>
+#include <Foundation/Standard/Standard_Persistent.hxx>
 
 
 class PDF_Attribute : public Standard_Persistent

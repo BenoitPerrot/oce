@@ -6,7 +6,7 @@
 #ifndef _Blend_Status_HeaderFile
 #define _Blend_Status_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum Blend_Status

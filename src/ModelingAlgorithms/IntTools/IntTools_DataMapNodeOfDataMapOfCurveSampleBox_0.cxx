@@ -5,7 +5,7 @@
 
 #include <IntTools_DataMapNodeOfDataMapOfCurveSampleBox.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <IntTools_CurveRangeSample.hxx>
 #include <Bnd_Box.hxx>

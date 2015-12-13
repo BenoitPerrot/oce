@@ -5,7 +5,7 @@
 
 #include <TColGeom_SequenceNodeOfSequenceOfBoundedCurve.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Geom_BoundedCurve.hxx>
 #include <TColGeom_SequenceOfBoundedCurve.hxx>

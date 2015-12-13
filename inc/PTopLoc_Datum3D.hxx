@@ -6,13 +6,13 @@
 #ifndef _PTopLoc_Datum3D_HeaderFile
 #define _PTopLoc_Datum3D_HeaderFile
 
-#include <Standard_Macro.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Handle_PTopLoc_Datum3D.hxx>
 
 #include <gp_Trsf.hxx>
-#include <Standard_Persistent.hxx>
+#include <Foundation/Standard/Standard_Persistent.hxx>
 class Standard_ConstructionError;
 class gp_Trsf;
 

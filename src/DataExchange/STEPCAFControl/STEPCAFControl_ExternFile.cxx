@@ -17,7 +17,7 @@
 #include <TCollection_HAsciiString.hxx>
 #include <TDF_Label.hxx>
 #include <STEPCAFControl_ExternFile.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(STEPCAFControl_ExternFile)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

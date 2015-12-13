@@ -27,7 +27,7 @@
 #include <TopTools_DataMapOfShapeShape.hxx>
 #include <TDF_Label.hxx>
 #include <TDF_TagSource.hxx>
-#include <Standard_NullObject.hxx>
+#include <Foundation/Standard/Standard_NullObject.hxx>
 #include <TopoDS_Iterator.hxx>
 #include <TopExp.hxx>
 #include <TColStd_ListOfInteger.hxx>

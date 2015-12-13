@@ -14,12 +14,12 @@
 // commercial license or contractual agreement.
 
 #include <CDM_MessageDriver.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 #include <TDF_Attribute.hxx>
 #include <PDF_Attribute.hxx>
 #include <MDF_RRelocationTable.hxx>
 #include <MXCAFDoc_GraphNodeRetrievalDriver.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MXCAFDoc_GraphNodeRetrievalDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MDF_ARDriver),
@@ -31,7 +31,7 @@ IMPLEMENT_DOWNCAST(MXCAFDoc_GraphNodeRetrievalDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MXCAFDoc_GraphNodeRetrievalDriver)
 #include <PXCAFDoc_GraphNode.hxx>
 #include <XCAFDoc_GraphNode.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 
 //=======================================================================
 //function : Constructor

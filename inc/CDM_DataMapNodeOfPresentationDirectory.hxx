@@ -6,8 +6,8 @@
 #ifndef _CDM_DataMapNodeOfPresentationDirectory_HeaderFile
 #define _CDM_DataMapNodeOfPresentationDirectory_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_CDM_DataMapNodeOfPresentationDirectory.hxx>
 
 #include <TCollection_ExtendedString.hxx>

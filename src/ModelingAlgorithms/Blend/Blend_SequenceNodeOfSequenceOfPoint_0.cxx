@@ -5,7 +5,7 @@
 
 #include <Blend_SequenceNodeOfSequenceOfPoint.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Blend_Point.hxx>
 #include <Blend_SequenceOfPoint.hxx>

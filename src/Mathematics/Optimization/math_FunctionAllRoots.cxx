@@ -18,15 +18,15 @@
 #define No_Standard_DimensionError
 //#endif
 
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <StdFail_NotDone.hxx>
-#include <Standard_NumericError.hxx>
+#include <Foundation/Standard/Standard_NumericError.hxx>
 #include <math_FunctionWithDerivative.hxx>
 #include <math_FunctionSample.hxx>
 #include <math_FunctionAllRoots.hxx>
 
-#include <Standard_NumericError.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NumericError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <math_FunctionRoots.hxx>
 #include <math_FunctionWithDerivative.hxx>
 #include <math_FunctionSample.hxx>

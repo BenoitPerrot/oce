@@ -6,11 +6,11 @@
 #ifndef _WNT_ClassDefinitionError_HeaderFile
 #define _WNT_ClassDefinitionError_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard_DefineException.hxx>
-#include <Standard_SStream.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard_DefineException.hxx>
+#include <Foundation/Standard/Standard_SStream.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Handle_WNT_ClassDefinitionError.hxx>
 
 #if !defined No_Exception && !defined No_WNT_ClassDefinitionError

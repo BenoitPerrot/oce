@@ -5,8 +5,8 @@
 
 #include <Aspect_SequenceOfColor.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Aspect_SequenceNodeOfSequenceOfColor.hxx>
  

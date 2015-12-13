@@ -6,8 +6,8 @@
 #ifndef _Handle_XSDRAWSTLVRML_DataSource_HeaderFile
 #define _Handle_XSDRAWSTLVRML_DataSource_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_MeshVS_DataSource.hxx>
 
 class Standard_Transient;

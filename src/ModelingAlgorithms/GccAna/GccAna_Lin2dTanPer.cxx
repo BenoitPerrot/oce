@@ -18,8 +18,8 @@
 //=========================================================================
 
 #include <GccEnt_BadQualifier.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <StdFail_NotDone.hxx>
 #include <gp_Pnt2d.hxx>
 #include <gp_Lin2d.hxx>
@@ -33,7 +33,7 @@
 #include <gp_Dir2d.hxx>
 #include <gp_Vec2d.hxx>
 #include <gp_Circ2d.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <GccEnt_BadQualifier.hxx>
 #include <IntAna2d_AnaIntersection.hxx>
 #include <IntAna2d_IntPoint.hxx>

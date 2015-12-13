@@ -6,16 +6,16 @@
 #ifndef _GeomProjLib_HeaderFile
 #define _GeomProjLib_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_Geom2d_Curve.hxx>
 #include <Handle_Geom_Curve.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Geom_Surface.hxx>
 #include <Handle_Geom_Plane.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class Geom2d_Curve;
 class Geom_Curve;
 class Geom_Surface;

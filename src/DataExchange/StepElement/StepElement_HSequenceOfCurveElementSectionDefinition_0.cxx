@@ -5,10 +5,10 @@
 
 #include <StepElement_HSequenceOfCurveElementSectionDefinition.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <StepElement_CurveElementSectionDefinition.hxx>
 #include <StepElement_SequenceOfCurveElementSectionDefinition.hxx>
 

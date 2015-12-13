@@ -5,7 +5,7 @@
 
 #include <Foundation/Resource/Resource_DataMapNodeOfDataMapOfAsciiStringAsciiString.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TCollection_AsciiString.hxx>
 #include <Foundation/Resource/Resource_DataMapOfAsciiStringAsciiString.hxx>

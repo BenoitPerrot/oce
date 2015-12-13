@@ -18,7 +18,7 @@
 #include <XmlObjMgt_Persistent.hxx>
 #include <TopLoc_Location.hxx>
 #include <XmlMXCAFDoc_LocationDriver.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XmlMXCAFDoc_LocationDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(XmlMDF_ADriver),

@@ -3,9 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Standard_OutOfMemory.hxx>
+#include <Foundation/Standard/Standard_OutOfMemory.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 IMPLEMENT_STANDARD_EXCEPTION(Standard_OutOfMemory)
  

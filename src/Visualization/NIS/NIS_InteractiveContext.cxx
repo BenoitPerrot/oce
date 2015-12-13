@@ -17,7 +17,7 @@
 #include <NIS_InteractiveObject.hxx>
 #include <NIS_View.hxx>
 #include <TColStd_MapIteratorOfPackedMapOfInteger.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Bnd_B2f.hxx>
 
 IMPLEMENT_STANDARD_HANDLE  (NIS_InteractiveContext, Standard_Transient)

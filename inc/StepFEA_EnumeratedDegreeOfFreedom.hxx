@@ -6,7 +6,7 @@
 #ifndef _StepFEA_EnumeratedDegreeOfFreedom_HeaderFile
 #define _StepFEA_EnumeratedDegreeOfFreedom_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum StepFEA_EnumeratedDegreeOfFreedom

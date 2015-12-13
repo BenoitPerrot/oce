@@ -6,13 +6,13 @@
 #ifndef _Expr_NamedExpression_HeaderFile
 #define _Expr_NamedExpression_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Expr_NamedExpression.hxx>
 
 #include <TCollection_AsciiString.hxx>
 #include <Expr_GeneralExpression.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Expr_GeneralExpression.hxx>
 class TCollection_AsciiString;
 class Expr_GeneralExpression;

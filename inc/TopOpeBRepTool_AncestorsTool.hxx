@@ -6,9 +6,9 @@
 #ifndef _TopOpeBRepTool_AncestorsTool_HeaderFile
 #define _TopOpeBRepTool_AncestorsTool_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TopAbs_ShapeEnum.hxx>
 class TopoDS_Shape;

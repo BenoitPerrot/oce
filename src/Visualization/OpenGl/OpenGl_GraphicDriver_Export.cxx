@@ -15,7 +15,7 @@
 #include <OpenGl_Context.hxx>
 #include <OpenGl_CView.hxx>
 
-#include <Standard_CLocaleSentry.hxx>
+#include <Foundation/Standard/Standard_CLocaleSentry.hxx>
 
 #ifdef HAVE_GL2PS
 #include <gl2ps.h>

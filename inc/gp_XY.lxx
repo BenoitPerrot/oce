@@ -14,8 +14,8 @@
 
 // LPA et JCV 07/92 
 
-#include <Standard_OutOfRange.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <gp.hxx>
 #include <gp_Mat2d.hxx>
 

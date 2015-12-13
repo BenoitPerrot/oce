@@ -6,7 +6,7 @@
 #ifndef _StdSelect_DisplayMode_HeaderFile
 #define _StdSelect_DisplayMode_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum StdSelect_DisplayMode

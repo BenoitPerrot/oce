@@ -6,14 +6,14 @@
 #ifndef _ProjLib_ProjectOnSurface_HeaderFile
 #define _ProjLib_ProjectOnSurface_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_Adaptor3d_HCurve.hxx>
 #include <Handle_Adaptor3d_HSurface.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Geom_BSplineCurve.hxx>
 class Adaptor3d_HCurve;
 class Adaptor3d_HSurface;

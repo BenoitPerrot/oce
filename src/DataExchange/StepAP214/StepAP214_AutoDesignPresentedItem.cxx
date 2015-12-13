@@ -14,7 +14,7 @@
 #include <StepAP214_HArray1OfAutoDesignPresentedItemSelect.hxx>
 #include <StepAP214_AutoDesignPresentedItemSelect.hxx>
 #include <StepAP214_AutoDesignPresentedItem.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepAP214_AutoDesignPresentedItem)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepVisual_PresentedItem),

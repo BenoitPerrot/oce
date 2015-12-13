@@ -5,7 +5,7 @@
 
 #include <XCAFDoc_SequenceNodeOfGraphNodeSequence.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <XCAFDoc_GraphNode.hxx>
 #include <XCAFDoc_GraphNodeSequence.hxx>

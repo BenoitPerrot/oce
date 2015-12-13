@@ -5,7 +5,7 @@
 
 #include <Graphic3d_MapIteratorOfMapOfStructure.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Graphic3d_Structure.hxx>
 #include <TColStd_MapTransientHasher.hxx>
 #include <Graphic3d_MapOfStructure.hxx>

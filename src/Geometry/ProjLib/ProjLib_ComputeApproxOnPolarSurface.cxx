@@ -19,7 +19,7 @@
 #include <ElCLib.hxx>
 #include <BSplCLib.hxx>
 #include <PLib.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Geom_UndefinedDerivative.hxx>
 #include <gp_Trsf.hxx>
 #include <Precision.hxx>
@@ -70,7 +70,7 @@
 #include <Extrema_GenLocateExtPS.hxx>
 #include <Extrema_ExtPS.hxx>
 #include <GCPnts_QuasiUniformAbscissa.hxx>
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 //#include <GeomLib_IsIso.hxx>
 //#include <GeomLib_CheckSameParameter.hxx>
 

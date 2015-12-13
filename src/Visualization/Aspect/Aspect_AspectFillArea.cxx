@@ -36,7 +36,7 @@
 #include <Aspect_AspectFillAreaDefinitionError.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Aspect_AspectFillArea.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Aspect_AspectFillArea)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

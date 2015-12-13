@@ -15,12 +15,12 @@
 // commercial license or contractual agreement.
 
 #include <CDM_MessageDriver.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 #include <PDF_Attribute.hxx>
 #include <TDF_Attribute.hxx>
 #include <MDF_SRelocationTable.hxx>
 #include <MNaming_NamedShapeStorageDriver.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MNaming_NamedShapeStorageDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MDF_ASDriver),
@@ -40,7 +40,7 @@ IMPLEMENT_STANDARD_RTTI(MNaming_NamedShapeStorageDriver)
 
 #include <PTopoDS_HArray1OfShape1.hxx>
 
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 
 #include <TNaming_NamedShape.hxx>
 #include <TNaming_Evolution.hxx>

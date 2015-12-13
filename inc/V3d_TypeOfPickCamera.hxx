@@ -6,7 +6,7 @@
 #ifndef _V3d_TypeOfPickCamera_HeaderFile
 #define _V3d_TypeOfPickCamera_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum V3d_TypeOfPickCamera

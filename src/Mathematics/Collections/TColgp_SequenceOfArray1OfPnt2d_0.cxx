@@ -5,8 +5,8 @@
 
 #include <TColgp_SequenceOfArray1OfPnt2d.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <TColgp_HArray1OfPnt2d.hxx>
 #include <TColgp_SequenceNodeOfSequenceOfArray1OfPnt2d.hxx>
  

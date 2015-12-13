@@ -6,12 +6,12 @@
 #ifndef _StepRepr_AssemblyComponentUsage_HeaderFile
 #define _StepRepr_AssemblyComponentUsage_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepRepr_AssemblyComponentUsage.hxx>
 
 #include <Handle_TCollection_HAsciiString.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <StepRepr_ProductDefinitionUsage.hxx>
 #include <Handle_StepBasic_ProductDefinition.hxx>
 class TCollection_HAsciiString;

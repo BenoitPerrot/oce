@@ -20,7 +20,7 @@
 #include <ProjLib_ProjectedCurve.hxx>
 #include <BOPTools_AlgoTools2D.hxx>
 
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Precision.hxx>
 #include <gp.hxx>
 

@@ -18,8 +18,8 @@
 //
 #include <BOPAlgo_CheckerSI.hxx>
 
-#include <Standard_ErrorHandler.hxx>
-#include <Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
 
 #include <BRepBuilderAPI_Copy.hxx>
 #include <TopTools_ListOfShape.hxx>

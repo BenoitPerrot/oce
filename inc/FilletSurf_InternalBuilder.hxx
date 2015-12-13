@@ -6,15 +6,15 @@
 #ifndef _FilletSurf_InternalBuilder_HeaderFile
 #define _FilletSurf_InternalBuilder_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <ChFi3d_FilBuilder.hxx>
 #include <ChFi3d_FilletShape.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_ChFiDS_HElSpine.hxx>
 #include <Handle_ChFiDS_Spine.hxx>
 #include <Handle_BRepAdaptor_HSurface.hxx>

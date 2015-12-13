@@ -17,7 +17,7 @@
 #include <TopoDS_Shape.hxx>
 #include <BRepFilletAPI_MakeFillet.hxx>
 #include <QANewBRepNaming_Fillet.hxx>
-#include <Standard_NullObject.hxx>
+#include <Foundation/Standard/Standard_NullObject.hxx>
 #include <BRepFilletAPI_MakeFillet.hxx>
 #include <TopoDS_Iterator.hxx>
 #include <TDF_Label.hxx>

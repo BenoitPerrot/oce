@@ -6,12 +6,12 @@
 #ifndef _SelectMgr_IndexedMapNodeOfIndexedMapOfOwner_HeaderFile
 #define _SelectMgr_IndexedMapNodeOfIndexedMapOfOwner_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_SelectMgr_IndexedMapNodeOfIndexedMapOfOwner.hxx>
 
 #include <Handle_SelectMgr_EntityOwner.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <TCollection_MapNodePtr.hxx>
 #include <TCollection_MapNode.hxx>
 class SelectMgr_EntityOwner;

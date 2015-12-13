@@ -6,16 +6,16 @@
 #ifndef _IntTools_FaceFace_HeaderFile
 #define _IntTools_FaceFace_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <IntPatch_Intersection.hxx>
 #include <GeomInt_LineConstructor.hxx>
 #include <Handle_GeomAdaptor_HSurface.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <IntTools_SequenceOfCurves.hxx>
 #include <TopoDS_Face.hxx>
 #include <IntTools_SequenceOfPntOn2Faces.hxx>

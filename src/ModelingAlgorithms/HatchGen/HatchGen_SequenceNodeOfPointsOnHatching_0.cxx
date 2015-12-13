@@ -5,7 +5,7 @@
 
 #include <HatchGen_SequenceNodeOfPointsOnHatching.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <HatchGen_PointOnHatching.hxx>
 #include <HatchGen_PointsOnHatching.hxx>

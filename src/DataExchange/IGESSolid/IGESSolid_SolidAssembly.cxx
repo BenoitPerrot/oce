@@ -18,12 +18,12 @@
 
 #include <IGESData_HArray1OfIGESEntity.hxx>
 #include <IGESGeom_HArray1OfTransformationMatrix.hxx>
-#include <Standard_DimensionMismatch.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_DimensionMismatch.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <IGESData_IGESEntity.hxx>
 #include <IGESGeom_TransformationMatrix.hxx>
 #include <IGESSolid_SolidAssembly.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESSolid_SolidAssembly)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(IGESData_IGESEntity),

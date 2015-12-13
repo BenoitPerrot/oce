@@ -6,8 +6,8 @@
 #ifndef _DrawDim_PlanarDistance_HeaderFile
 #define _DrawDim_PlanarDistance_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_DrawDim_PlanarDistance.hxx>
 
 #include <TopoDS_Shape.hxx>

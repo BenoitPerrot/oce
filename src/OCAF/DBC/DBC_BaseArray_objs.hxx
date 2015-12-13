@@ -16,9 +16,9 @@
 #define _DBC_BaseArray_HeaderFile
 
 #include <DBC_DBVArray.hxx>
-#include <Standard_Storable.hxx>
-#include <Standard_OStream.hxx>
-#include <Standard_TypeDef.hxx>
+#include <Foundation/Standard/Standard_Storable.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_TypeDef.hxx>
 
 class Standard_NullObject;
 class Standard_NegativeValue;

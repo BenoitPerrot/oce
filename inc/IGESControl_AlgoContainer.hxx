@@ -6,8 +6,8 @@
 #ifndef _IGESControl_AlgoContainer_HeaderFile
 #define _IGESControl_AlgoContainer_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESControl_AlgoContainer.hxx>
 
 #include <IGESToBRep_AlgoContainer.hxx>

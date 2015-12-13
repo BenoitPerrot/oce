@@ -6,15 +6,15 @@
 #ifndef _TransferBRep_Reader_HeaderFile
 #define _TransferBRep_Reader_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_Interface_Protocol.hxx>
 #include <Handle_Transfer_ActorOfTransientProcess.hxx>
 #include <Handle_Interface_InterfaceModel.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Transfer_TransientProcess.hxx>
 #include <Handle_TopTools_HSequenceOfShape.hxx>
 #include <Handle_TColStd_HSequenceOfTransient.hxx>

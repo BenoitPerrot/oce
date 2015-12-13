@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <TColStd_HArray1OfReal.hxx>
 #include <TColgp_HArray1OfPnt2d.hxx>
 #include <FairCurve_BattenLaw.hxx>

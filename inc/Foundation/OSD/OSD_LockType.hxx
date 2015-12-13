@@ -6,7 +6,7 @@
 #ifndef _OSD_LockType_HeaderFile
 #define _OSD_LockType_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! locks for files.
 //! NoLock is the default value when opening a file.

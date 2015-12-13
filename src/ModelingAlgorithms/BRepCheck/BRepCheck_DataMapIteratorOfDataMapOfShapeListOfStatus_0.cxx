@@ -5,7 +5,7 @@
 
 #include <BRepCheck_DataMapIteratorOfDataMapOfShapeListOfStatus.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopoDS_Shape.hxx>
 #include <BRepCheck_ListOfStatus.hxx>
 #include <TopTools_ShapeMapHasher.hxx>

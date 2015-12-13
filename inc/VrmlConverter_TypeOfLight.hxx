@@ -6,7 +6,7 @@
 #ifndef _VrmlConverter_TypeOfLight_HeaderFile
 #define _VrmlConverter_TypeOfLight_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum VrmlConverter_TypeOfLight

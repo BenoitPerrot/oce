@@ -6,15 +6,15 @@
 #ifndef _StepShape_ConnectedFaceSet_HeaderFile
 #define _StepShape_ConnectedFaceSet_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepShape_ConnectedFaceSet.hxx>
 
 #include <Handle_StepShape_HArray1OfFace.hxx>
 #include <StepShape_TopologicalRepresentationItem.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Handle_StepShape_Face.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class StepShape_HArray1OfFace;
 class TCollection_HAsciiString;
 class StepShape_Face;

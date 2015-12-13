@@ -13,7 +13,7 @@
 
 //#1 svv   10.01.00 : porting on DEC 
 //smh#14 17.03.2000 : FRA62479 Clearing of gtool
-#include <Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <IFSelect_ShareOut.hxx>
 #include <IFSelect_WorkLibrary.hxx>
 #include <Interface_Protocol.hxx>
@@ -22,15 +22,15 @@
 #include <Interface_GTool.hxx>
 #include <Foundation/Dico/Dico_DictionaryOfTransient.hxx>
 #include <IFSelect_ModelCopier.hxx>
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <IFSelect_Signature.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <TCollection_HAsciiString.hxx>
 #include <Interface_Graph.hxx>
 #include <TColStd_HSequenceOfTransient.hxx>
 #include <Interface_CheckIterator.hxx>
 #include <TColStd_HSequenceOfInteger.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 #include <TColStd_HSequenceOfHAsciiString.hxx>
 #include <IFSelect_IntParam.hxx>
 #include <TCollection_AsciiString.hxx>
@@ -48,7 +48,7 @@
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <IFSelect_SignatureList.hxx>
 #include <IFSelect_WorkSession.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IFSelect_WorkSession)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),
@@ -106,7 +106,7 @@ IMPLEMENT_STANDARD_RTTI(IFSelect_WorkSession)
 #include <Interface_MSG.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <Foundation/Message/Message.hxx>
-#include <Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
 
 #define Flag_Incorrect 2
 //  (Bit Map n0 2)

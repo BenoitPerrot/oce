@@ -6,7 +6,7 @@
 #ifndef _Aspect_TypeOfPrimitive_HeaderFile
 #define _Aspect_TypeOfPrimitive_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum Aspect_TypeOfPrimitive

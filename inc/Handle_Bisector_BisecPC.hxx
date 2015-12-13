@@ -6,8 +6,8 @@
 #ifndef _Handle_Bisector_BisecPC_HeaderFile
 #define _Handle_Bisector_BisecPC_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Bisector_Curve.hxx>
 
 class Standard_Transient;

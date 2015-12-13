@@ -6,7 +6,7 @@
 #ifndef _Interface_ParamType_HeaderFile
 #define _Interface_ParamType_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum Interface_ParamType

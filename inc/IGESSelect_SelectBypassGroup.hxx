@@ -6,13 +6,13 @@
 #ifndef _IGESSelect_SelectBypassGroup_HeaderFile
 #define _IGESSelect_SelectBypassGroup_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESSelect_SelectBypassGroup.hxx>
 
 #include <IFSelect_SelectExplore.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Standard_Transient.hxx>
 class Interface_InterfaceError;
 class Standard_Transient;

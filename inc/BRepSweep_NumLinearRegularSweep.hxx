@@ -6,9 +6,9 @@
 #ifndef _BRepSweep_NumLinearRegularSweep_HeaderFile
 #define _BRepSweep_NumLinearRegularSweep_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <BRepSweep_Builder.hxx>
 #include <TopoDS_Shape.hxx>
@@ -18,7 +18,7 @@
 #include <TopTools_Array2OfShape.hxx>
 #include <TColStd_Array2OfBoolean.hxx>
 #include <TopAbs_Orientation.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_NoMoreObject;
 class Standard_NoSuchObject;
 class Standard_RangeError;

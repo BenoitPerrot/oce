@@ -6,16 +6,16 @@
 #ifndef _FEmTool_LinearJerk_HeaderFile
 #define _FEmTool_LinearJerk_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_FEmTool_LinearJerk.hxx>
 
 #include <math_Matrix.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <FEmTool_ElementaryCriterion.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <Handle_TColStd_HArray2OfInteger.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <math_Vector.hxx>
 class Standard_NotImplemented;
 class Standard_DomainError;

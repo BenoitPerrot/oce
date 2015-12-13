@@ -6,14 +6,14 @@
 #ifndef _TestTopOpeDraw_ListOfPnt2d_HeaderFile
 #define _TestTopOpeDraw_ListOfPnt2d_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
 #include <Handle_TestTopOpeDraw_ListNodeOfListOfPnt2d.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_NoSuchObject;
 class TestTopOpeDraw_ListIteratorOfListOfPnt2d;
 class gp_Pnt2d;

@@ -16,7 +16,7 @@
 
 #include <Geom_Curve.hxx>
 #include <StdFail_NotDone.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Geom_Surface.hxx>
 #include <gp_Pnt.hxx>
 #include <GeomAPI_IntCS.hxx>

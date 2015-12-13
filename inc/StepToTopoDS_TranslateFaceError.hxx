@@ -6,7 +6,7 @@
 #ifndef _StepToTopoDS_TranslateFaceError_HeaderFile
 #define _StepToTopoDS_TranslateFaceError_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum StepToTopoDS_TranslateFaceError

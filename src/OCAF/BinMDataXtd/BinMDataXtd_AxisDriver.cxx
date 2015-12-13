@@ -17,7 +17,7 @@
 #include <TDF_Attribute.hxx>
 #include <BinObjMgt_Persistent.hxx>
 #include <BinMDataXtd_AxisDriver.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BinMDataXtd_AxisDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(BinMDF_ADriver),

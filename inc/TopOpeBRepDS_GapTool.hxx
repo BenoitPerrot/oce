@@ -6,18 +6,18 @@
 #ifndef _TopOpeBRepDS_GapTool_HeaderFile
 #define _TopOpeBRepDS_GapTool_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TopOpeBRepDS_GapTool.hxx>
 
 #include <Handle_TopOpeBRepDS_HDataStructure.hxx>
 #include <TopOpeBRepDS_DataMapOfIntegerListOfInterference.hxx>
 #include <TopOpeBRepDS_DataMapOfInterferenceShape.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TopOpeBRepDS_Interference.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class TopOpeBRepDS_HDataStructure;
 class TopOpeBRepDS_ListOfInterference;
 class TopOpeBRepDS_Interference;

@@ -5,8 +5,8 @@
 
 #include <MDF_ListIteratorOfDriverListOfARDriverTable.hxx>
 
-#include <Standard_NoMoreObject.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoMoreObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <MDF_DriverListOfARDriverTable.hxx>
 #include <MDF_ARDriver.hxx>
 #include <MDF_ListNodeOfDriverListOfARDriverTable.hxx>

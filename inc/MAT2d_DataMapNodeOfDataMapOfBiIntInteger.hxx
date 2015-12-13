@@ -6,12 +6,12 @@
 #ifndef _MAT2d_DataMapNodeOfDataMapOfBiIntInteger_HeaderFile
 #define _MAT2d_DataMapNodeOfDataMapOfBiIntInteger_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_MAT2d_DataMapNodeOfDataMapOfBiIntInteger.hxx>
 
 #include <MAT2d_BiInt.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <TCollection_MapNode.hxx>
 #include <TCollection_MapNodePtr.hxx>
 class MAT2d_BiInt;
@@ -55,7 +55,7 @@ private:
 #define TheKey MAT2d_BiInt
 #define TheKey_hxx <MAT2d_BiInt.hxx>
 #define TheItem Standard_Integer
-#define TheItem_hxx <Standard_Integer.hxx>
+#define TheItem_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define Hasher MAT2d_MapBiIntHasher
 #define Hasher_hxx <MAT2d_MapBiIntHasher.hxx>
 #define TCollection_DataMapNode MAT2d_DataMapNodeOfDataMapOfBiIntInteger

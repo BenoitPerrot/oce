@@ -5,8 +5,8 @@
 
 #include <MAT_DataMapOfIntegerArc.hxx>
 
-#include <Standard_DomainError.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <MAT_Arc.hxx>
 #include <TColStd_MapIntegerHasher.hxx>
 #include <MAT_DataMapNodeOfDataMapOfIntegerArc.hxx>
@@ -14,7 +14,7 @@
  
 
 #define TheKey Standard_Integer
-#define TheKey_hxx <Standard_Integer.hxx>
+#define TheKey_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheItem Handle(MAT_Arc)
 #define TheItem_hxx <MAT_Arc.hxx>
 #define Hasher TColStd_MapIntegerHasher

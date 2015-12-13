@@ -5,8 +5,8 @@
 
 #include <IntTools_SequenceOfCurves.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <IntTools_Curve.hxx>
 #include <IntTools_SequenceNodeOfSequenceOfCurves.hxx>
  

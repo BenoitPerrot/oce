@@ -15,7 +15,7 @@
 
 #include <Foundation/OSD/OSD_File.hxx>
 #include <Foundation/OSD/OSD_Protection.hxx>
-#include <Standard_Atomic.hxx>
+#include <Foundation/Standard/Standard_Atomic.hxx>
 #include <Graphic3d_ShaderObject.hxx>
 #include <Graphic3d_GraphicDriver.hxx>
 

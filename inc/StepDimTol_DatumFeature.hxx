@@ -6,8 +6,8 @@
 #ifndef _StepDimTol_DatumFeature_HeaderFile
 #define _StepDimTol_DatumFeature_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepDimTol_DatumFeature.hxx>
 
 #include <StepRepr_ShapeAspect.hxx>

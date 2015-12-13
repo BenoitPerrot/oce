@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Adaptor3d_Curve.hxx>
 #include <Adaptor3d_Surface.hxx>
 #include <math_Matrix.hxx>
@@ -22,7 +22,7 @@
 #include <Extrema_POnSurf.hxx>
 #include <Extrema_FuncExtCS.hxx>
 #include <gp_Vec.hxx>
-#include <Standard_TypeMismatch.hxx>
+#include <Foundation/Standard/Standard_TypeMismatch.hxx>
 #include <Precision.hxx>
 
 /*-----------------------------------------------------------------------------

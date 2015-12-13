@@ -18,7 +18,7 @@
 #include <TCollection_HAsciiString.hxx>
 #include <StepRepr_PropertyDefinition.hxx>
 #include <StepRepr_PropertyDefinitionRelationship.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepRepr_PropertyDefinitionRelationship)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

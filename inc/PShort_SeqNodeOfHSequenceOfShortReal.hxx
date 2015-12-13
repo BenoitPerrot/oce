@@ -6,12 +6,12 @@
 #ifndef _PShort_SeqNodeOfHSequenceOfShortReal_HeaderFile
 #define _PShort_SeqNodeOfHSequenceOfShortReal_HeaderFile
 
-#include <Standard_Macro.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Handle_PShort_SeqNodeOfHSequenceOfShortReal.hxx>
 
-#include <Standard_ShortReal.hxx>
+#include <Foundation/Standard/Standard_ShortReal.hxx>
 #include <Handle_PShort_SeqNodeOfHSequenceOfShortReal.hxx>
 #include <PMMgt_PManaged.hxx>
 #include <Handle_PShort_HSequenceOfShortReal.hxx>

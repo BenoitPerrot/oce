@@ -6,15 +6,15 @@
 #ifndef _Aspect_RectangularGrid_HeaderFile
 #define _Aspect_RectangularGrid_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Aspect_RectangularGrid.hxx>
 
 #include <Foundation/Quantity/Quantity_Length.hxx>
 #include <Foundation/Quantity/Quantity_PlaneAngle.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Aspect_Grid.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_NegativeValue;
 class Standard_NullValue;
 class Standard_NumericError;

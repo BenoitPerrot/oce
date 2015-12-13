@@ -6,8 +6,8 @@
 #ifndef _StepVisual_PresentationLayerUsage_HeaderFile
 #define _StepVisual_PresentationLayerUsage_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepVisual_PresentationLayerUsage.hxx>
 
 #include <Handle_StepVisual_PresentationLayerAssignment.hxx>

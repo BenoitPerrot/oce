@@ -6,17 +6,17 @@
 #ifndef _StepShape_OrientedOpenShell_HeaderFile
 #define _StepShape_OrientedOpenShell_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepShape_OrientedOpenShell.hxx>
 
 #include <Handle_StepShape_OpenShell.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <StepShape_OpenShell.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Handle_StepShape_HArray1OfFace.hxx>
 #include <Handle_StepShape_Face.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class StepShape_OpenShell;
 class TCollection_HAsciiString;
 class StepShape_HArray1OfFace;

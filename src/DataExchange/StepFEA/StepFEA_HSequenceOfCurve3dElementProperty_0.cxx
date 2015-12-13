@@ -5,10 +5,10 @@
 
 #include <StepFEA_HSequenceOfCurve3dElementProperty.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <StepFEA_Curve3dElementProperty.hxx>
 #include <StepFEA_SequenceOfCurve3dElementProperty.hxx>
 

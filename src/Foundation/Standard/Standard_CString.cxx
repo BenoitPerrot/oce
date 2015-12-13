@@ -20,10 +20,10 @@
 
 #define _Standard_CString_SourceFile
 
-#include <Standard_CLocaleSentry.hxx>
-#include <Standard_CString.hxx>
-#include <Standard_Type.hxx>
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_CLocaleSentry.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 #include <string.h>
 #include <stdarg.h>
 

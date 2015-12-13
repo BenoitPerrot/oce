@@ -14,13 +14,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Adaptor2d_HCurve2d.hxx>
 #include <Bnd_Box2d.hxx>
 #include <gp_Pnt2d.hxx>
 #include <IntPatch_PolyArc.hxx>
 
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 
 inline void MinMax (const Standard_Real a1, const Standard_Real a2,
 		    Standard_Real& amin, Standard_Real& amax)

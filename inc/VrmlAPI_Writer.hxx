@@ -6,18 +6,18 @@
 #ifndef _VrmlAPI_Writer_HeaderFile
 #define _VrmlAPI_Writer_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <VrmlAPI_RepresentationOfShape.hxx>
 #include <Handle_VrmlConverter_Drawer.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_VrmlConverter_Projector.hxx>
 #include <Handle_Vrml_Material.hxx>
 #include <Foundation/Quantity/Quantity_Length.hxx>
 #include <Handle_Quantity_HArray1OfColor.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 class VrmlConverter_Drawer;
 class VrmlConverter_Projector;
 class Vrml_Material;

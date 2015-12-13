@@ -6,11 +6,11 @@
 #ifndef _TColStd_ListNodeOfListOfReal_HeaderFile
 #define _TColStd_ListNodeOfListOfReal_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TColStd_ListNodeOfListOfReal.hxx>
 
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <TCollection_MapNode.hxx>
 #include <TCollection_MapNodePtr.hxx>
 class TColStd_ListOfReal;
@@ -47,7 +47,7 @@ private:
 };
 
 #define Item Standard_Real
-#define Item_hxx <Standard_Real.hxx>
+#define Item_hxx <Foundation/Standard/Standard_Real.hxx>
 #define TCollection_ListNode TColStd_ListNodeOfListOfReal
 #define TCollection_ListNode_hxx <TColStd_ListNodeOfListOfReal.hxx>
 #define TCollection_ListIterator TColStd_ListIteratorOfListOfReal

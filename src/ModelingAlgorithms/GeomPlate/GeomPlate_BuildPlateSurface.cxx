@@ -28,8 +28,8 @@
 #include <Geom_Surface.hxx>
 #include <GeomPlate_Surface.hxx>
 #include <TColStd_HArray1OfInteger.hxx>
-#include <Standard_ConstructionError.hxx>
-#include <Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
 #include <GeomPlate_HArray1OfHCurveOnSurface.hxx>
 #include <GeomPlate_CurveConstraint.hxx>
 #include <GeomPlate_PointConstraint.hxx>

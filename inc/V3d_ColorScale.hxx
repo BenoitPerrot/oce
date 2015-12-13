@@ -6,15 +6,15 @@
 #ifndef _V3d_ColorScale_HeaderFile
 #define _V3d_ColorScale_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_V3d_ColorScale.hxx>
 
 #include <V3d_LayerMgrPointer.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Aspect_ColorScale.hxx>
 #include <Handle_V3d_LayerMgr.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class V3d_LayerMgr;
 class Quantity_Color;
 class TCollection_ExtendedString;

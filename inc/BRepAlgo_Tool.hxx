@@ -6,9 +6,9 @@
 #ifndef _BRepAlgo_Tool_HeaderFile
 #define _BRepAlgo_Tool_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 class TopoDS_Shape;
 class TopTools_MapOfShape;

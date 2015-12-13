@@ -5,7 +5,7 @@
 
 #include <Contap_SequenceNodeOfSequenceOfIWLineOfTheIWalking.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Contap_TheIWLineOfTheIWalking.hxx>
 #include <Contap_SequenceOfIWLineOfTheIWalking.hxx>

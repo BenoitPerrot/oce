@@ -6,18 +6,18 @@
 #ifndef _XSControl_Utils_HeaderFile
 #define _XSControl_Utils_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_Standard_Transient.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Standard_Type.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TColStd_HSequenceOfTransient.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
-#include <Standard_ExtString.hxx>
+#include <Foundation/Standard/Standard_ExtString.hxx>
 #include <Handle_TCollection_HExtendedString.hxx>
 #include <Handle_TColStd_HSequenceOfHAsciiString.hxx>
 #include <Handle_TColStd_HSequenceOfHExtendedString.hxx>

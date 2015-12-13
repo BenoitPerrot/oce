@@ -5,7 +5,7 @@
 
 #include <Aspect_SequenceNodeOfSequenceOfColor.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Aspect_SequenceOfColor.hxx>

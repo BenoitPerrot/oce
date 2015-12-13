@@ -14,7 +14,7 @@
 
 #include <gp_Pnt2d.hxx>
 #include <IntStart_SITopolTool.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IntStart_SITopolTool)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

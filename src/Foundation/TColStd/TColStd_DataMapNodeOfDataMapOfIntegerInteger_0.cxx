@@ -5,7 +5,7 @@
 
 #include <TColStd_DataMapNodeOfDataMapOfIntegerInteger.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TColStd_MapIntegerHasher.hxx>
 #include <TColStd_DataMapOfIntegerInteger.hxx>
@@ -29,9 +29,9 @@ IMPLEMENT_STANDARD_RTTI(TColStd_DataMapNodeOfDataMapOfIntegerInteger)
 
 
 #define TheKey Standard_Integer
-#define TheKey_hxx <Standard_Integer.hxx>
+#define TheKey_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheItem Standard_Integer
-#define TheItem_hxx <Standard_Integer.hxx>
+#define TheItem_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define Hasher TColStd_MapIntegerHasher
 #define Hasher_hxx <TColStd_MapIntegerHasher.hxx>
 #define TCollection_DataMapNode TColStd_DataMapNodeOfDataMapOfIntegerInteger

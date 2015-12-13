@@ -15,7 +15,7 @@
 //JCV 16/10/91
 
 
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <gp_Cylinder.hxx>
 #include <Convert_CylinderToBSplineSurface.hxx>
 

@@ -5,7 +5,7 @@
 
 #include <SelectBasics_ListOfSensitive.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <SelectBasics_ListIteratorOfListOfSensitive.hxx>
 #include <SelectBasics_SensitiveEntity.hxx>
 #include <SelectBasics_ListNodeOfListOfSensitive.hxx>

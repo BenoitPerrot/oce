@@ -5,7 +5,7 @@
 
 #include <TColStd_DataMapIteratorOfDataMapOfStringInteger.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TCollection_ExtendedString.hxx>
 #include <TColStd_DataMapOfStringInteger.hxx>
 #include <TColStd_DataMapNodeOfDataMapOfStringInteger.hxx>
@@ -14,7 +14,7 @@
 #define TheKey TCollection_ExtendedString
 #define TheKey_hxx <TCollection_ExtendedString.hxx>
 #define TheItem Standard_Integer
-#define TheItem_hxx <Standard_Integer.hxx>
+#define TheItem_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define Hasher TCollection_ExtendedString
 #define Hasher_hxx <TCollection_ExtendedString.hxx>
 #define TCollection_DataMapNode TColStd_DataMapNodeOfDataMapOfStringInteger

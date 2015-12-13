@@ -6,7 +6,7 @@
 #ifndef _PrsMgr_TypeOfPresentation3d_HeaderFile
 #define _PrsMgr_TypeOfPresentation3d_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! To declare the type of presentation as follows
 //! -   AllView for display involving no recalculation for

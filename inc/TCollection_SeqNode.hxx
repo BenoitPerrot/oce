@@ -6,8 +6,8 @@
 #ifndef _TCollection_SeqNode_HeaderFile
 #define _TCollection_SeqNode_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TCollection_SeqNode.hxx>
 
 #include <TCollection_SeqNodePtr.hxx>

@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <TopoDS_Shape.hxx>
 #include <Sweep_NumShape.hxx>
 #include <TopLoc_Location.hxx>
@@ -61,7 +61,7 @@
 #include <gp_Torus.hxx>
 #include <gp_Ax3.hxx>
 #include <Precision.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 
 #include <GeomAdaptor_HCurve.hxx>
 #include <Geom_TrimmedCurve.hxx>

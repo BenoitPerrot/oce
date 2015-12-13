@@ -12,12 +12,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_AncestorIterator.hxx>
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_Persistent.hxx>
-#include <Standard_Type.hxx>
-#include <Standard_TypeMismatch.hxx>
+#include <Foundation/Standard/Standard_AncestorIterator.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_Persistent.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
+#include <Foundation/Standard/Standard_TypeMismatch.hxx>
 
 IMPLEMENT_STANDARD_TYPE(Standard_Type)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

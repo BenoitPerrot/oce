@@ -6,8 +6,8 @@
 #ifndef _StepBasic_DateAndTimeAssignment_HeaderFile
 #define _StepBasic_DateAndTimeAssignment_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepBasic_DateAndTimeAssignment.hxx>
 
 #include <Handle_StepBasic_DateAndTime.hxx>

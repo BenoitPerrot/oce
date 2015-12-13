@@ -26,8 +26,8 @@
 #include <IntSurf_ListOfPntOn2S.hxx>
 #include <BOPAlgo_PaveFiller.hxx>
 
-#include <Standard_ErrorHandler.hxx>
-#include <Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
 
 #include <Foundation/NCollection/NCollection_BaseAllocator.hxx>
 

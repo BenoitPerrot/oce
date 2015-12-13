@@ -6,17 +6,17 @@
 #ifndef _SelectMgr_ViewerSelector_HeaderFile
 #define _SelectMgr_ViewerSelector_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_SelectMgr_ViewerSelector.hxx>
 
 #include <SelectMgr_DataMapOfIntegerSensitive.hxx>
 #include <SelectMgr_DataMapOfSelectionActivation.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <SelectBasics_SortAlgo.hxx>
 #include <Bnd_Box2d.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <SelectMgr_IndexedDataMapOfOwnerCriterion.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>
 #include <TColStd_SequenceOfInteger.hxx>
@@ -26,7 +26,7 @@
 #include <Handle_SelectMgr_SelectableObject.hxx>
 #include <Handle_SelectMgr_EntityOwner.hxx>
 #include <SelectMgr_StateOfSelection.hxx>
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 #include <Handle_SelectBasics_SensitiveEntity.hxx>
 class TColStd_HArray1OfInteger;
 class SelectMgr_SelectionManager;

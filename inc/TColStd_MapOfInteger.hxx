@@ -6,14 +6,14 @@
 #ifndef _TColStd_MapOfInteger_HeaderFile
 #define _TColStd_MapOfInteger_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TCollection_BasicMap.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TColStd_StdMapNodeOfMapOfInteger.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class TColStd_MapIntegerHasher;
 class TColStd_StdMapNodeOfMapOfInteger;
 class TColStd_MapIteratorOfMapOfInteger;

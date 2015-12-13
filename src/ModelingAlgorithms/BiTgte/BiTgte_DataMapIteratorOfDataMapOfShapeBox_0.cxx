@@ -5,7 +5,7 @@
 
 #include <BiTgte_DataMapIteratorOfDataMapOfShapeBox.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopoDS_Shape.hxx>
 #include <Bnd_Box.hxx>
 #include <TopTools_ShapeMapHasher.hxx>

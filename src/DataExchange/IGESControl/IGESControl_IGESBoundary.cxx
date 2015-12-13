@@ -30,7 +30,7 @@
 #include <ShapeExtend_WireData.hxx>
 #include <IGESData_HArray1OfIGESEntity.hxx>
 #include <IGESControl_IGESBoundary.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESControl_IGESBoundary)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(IGESToBRep_IGESBoundary),

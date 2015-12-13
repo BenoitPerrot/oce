@@ -19,7 +19,7 @@
 #include <V3d_View.hxx>
 #include <Aspect_ColorScale.hxx>
 #include <V3d_LayerMgr.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(V3d_LayerMgr)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

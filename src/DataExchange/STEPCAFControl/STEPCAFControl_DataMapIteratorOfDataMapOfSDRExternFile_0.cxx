@@ -5,7 +5,7 @@
 
 #include <STEPCAFControl_DataMapIteratorOfDataMapOfSDRExternFile.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <StepShape_ShapeDefinitionRepresentation.hxx>
 #include <STEPCAFControl_ExternFile.hxx>
 #include <TColStd_MapTransientHasher.hxx>

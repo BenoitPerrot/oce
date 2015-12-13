@@ -6,16 +6,16 @@
 #ifndef _StepBasic_PersonalAddress_HeaderFile
 #define _StepBasic_PersonalAddress_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepBasic_PersonalAddress.hxx>
 
 #include <Handle_StepBasic_HArray1OfPerson.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <StepBasic_Address.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_StepBasic_Person.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class StepBasic_HArray1OfPerson;
 class TCollection_HAsciiString;
 class StepBasic_Person;

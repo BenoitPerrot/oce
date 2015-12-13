@@ -23,7 +23,7 @@
 #include <PrsMgr_PresentationManager.hxx>
 #include <TopLoc_Location.hxx>
 #include <StdSelect_BRepOwner.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StdSelect_BRepOwner)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(SelectMgr_EntityOwner),

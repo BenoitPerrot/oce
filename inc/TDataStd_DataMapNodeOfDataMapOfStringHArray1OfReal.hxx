@@ -6,8 +6,8 @@
 #ifndef _TDataStd_DataMapNodeOfDataMapOfStringHArray1OfReal_HeaderFile
 #define _TDataStd_DataMapNodeOfDataMapOfStringHArray1OfReal_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TDataStd_DataMapNodeOfDataMapOfStringHArray1OfReal.hxx>
 
 #include <TCollection_ExtendedString.hxx>

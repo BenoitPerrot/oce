@@ -6,21 +6,21 @@
 #ifndef _BRepApprox_TheComputeLineBezierOfApprox_HeaderFile
 #define _BRepApprox_TheComputeLineBezierOfApprox_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <AppParCurves_SequenceOfMultiCurve.hxx>
 #include <AppParCurves_MultiCurve.hxx>
 #include <AppParCurves_MultiBSpCurve.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Approx_ParametrizationType.hxx>
 #include <Handle_TColStd_HArray1OfReal.hxx>
 #include <Approx_SequenceOfHArray1OfReal.hxx>
 #include <TColStd_SequenceOfReal.hxx>
 #include <Handle_AppParCurves_HArray1OfConstraintCouple.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <AppParCurves_Constraint.hxx>
 #include <math_Vector.hxx>
 class TColStd_HArray1OfReal;

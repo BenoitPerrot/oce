@@ -6,7 +6,7 @@
 #ifndef _BRepLib_FaceError_HeaderFile
 #define _BRepLib_FaceError_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Errors that can occur at face construction.
 //! no error

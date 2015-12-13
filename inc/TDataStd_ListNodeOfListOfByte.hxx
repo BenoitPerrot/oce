@@ -6,11 +6,11 @@
 #ifndef _TDataStd_ListNodeOfListOfByte_HeaderFile
 #define _TDataStd_ListNodeOfListOfByte_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TDataStd_ListNodeOfListOfByte.hxx>
 
-#include <Standard_Byte.hxx>
+#include <Foundation/Standard/Standard_Byte.hxx>
 #include <TCollection_MapNode.hxx>
 #include <TCollection_MapNodePtr.hxx>
 class TDataStd_ListOfByte;
@@ -47,7 +47,7 @@ private:
 };
 
 #define Item Standard_Byte
-#define Item_hxx <Standard_Byte.hxx>
+#define Item_hxx <Foundation/Standard/Standard_Byte.hxx>
 #define TCollection_ListNode TDataStd_ListNodeOfListOfByte
 #define TCollection_ListNode_hxx <TDataStd_ListNodeOfListOfByte.hxx>
 #define TCollection_ListIterator TDataStd_ListIteratorOfListOfByte

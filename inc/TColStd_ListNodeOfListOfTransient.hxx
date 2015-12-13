@@ -6,8 +6,8 @@
 #ifndef _TColStd_ListNodeOfListOfTransient_HeaderFile
 #define _TColStd_ListNodeOfListOfTransient_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TColStd_ListNodeOfListOfTransient.hxx>
 
 #include <Handle_Standard_Transient.hxx>
@@ -48,7 +48,7 @@ private:
 };
 
 #define Item Handle(Standard_Transient)
-#define Item_hxx <Standard_Transient.hxx>
+#define Item_hxx <Foundation/Standard/Standard_Transient.hxx>
 #define TCollection_ListNode TColStd_ListNodeOfListOfTransient
 #define TCollection_ListNode_hxx <TColStd_ListNodeOfListOfTransient.hxx>
 #define TCollection_ListIterator TColStd_ListIteratorOfListOfTransient

@@ -20,7 +20,7 @@
 #include <BRepFill_LocationLaw.hxx>
 #include <BRepFill_SectionLaw.hxx>
 #include <TopTools_HArray2OfShape.hxx>
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <StdFail_NotDone.hxx>
 #include <TopoDS_Wire.hxx>
 #include <gp_Ax2.hxx>
@@ -32,7 +32,7 @@
 #include <gp_Trsf.hxx>
 #include <BRepFill_Sweep.hxx>
 #include <BRepFill_PipeShell.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BRepFill_PipeShell)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),
@@ -89,8 +89,8 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_PipeShell)
 #include <gp_Vec.hxx>
 #include <Precision.hxx>
 
-#include <Standard_NotImplemented.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <StdFail_NotDone.hxx>
 
 #include <BRepBuilderAPI_Copy.hxx>

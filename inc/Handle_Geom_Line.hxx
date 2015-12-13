@@ -6,8 +6,8 @@
 #ifndef _Handle_Geom_Line_HeaderFile
 #define _Handle_Geom_Line_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Geom_Curve.hxx>
 
 class Standard_Transient;

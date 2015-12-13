@@ -5,7 +5,7 @@
 
 #include <AIS_DataMapIteratorOfDataMapOfIOStatus.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <AIS_InteractiveObject.hxx>
 #include <AIS_GlobalStatus.hxx>
 #include <TColStd_MapTransientHasher.hxx>

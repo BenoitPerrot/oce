@@ -6,7 +6,7 @@
 #ifndef _StepDimTol_LimitCondition_HeaderFile
 #define _StepDimTol_LimitCondition_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum StepDimTol_LimitCondition

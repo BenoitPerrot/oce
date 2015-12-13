@@ -6,17 +6,17 @@
 #ifndef _BRepFill_PipeShell_HeaderFile
 #define _BRepFill_PipeShell_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BRepFill_PipeShell.hxx>
 
 #include <TopoDS_Wire.hxx>
 #include <TopoDS_Shape.hxx>
 #include <BRepFill_SequenceOfSection.hxx>
 #include <TopTools_DataMapOfShapeListOfShape.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Law_Function.hxx>
 #include <Handle_BRepFill_LocationLaw.hxx>
 #include <Handle_BRepFill_SectionLaw.hxx>

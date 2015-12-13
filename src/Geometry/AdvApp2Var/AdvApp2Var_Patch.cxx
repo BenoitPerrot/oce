@@ -39,7 +39,7 @@
 #include <TColStd_HArray2OfReal.hxx>
 #include <TColStd_Array2OfReal.hxx>
 #include <Convert_GridPolynomialToPoles.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 
 #include <AdvApp2Var_ApproxF2var.hxx>
 #include <AdvApp2Var_MathBase.hxx>

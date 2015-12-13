@@ -6,8 +6,8 @@
 #ifndef _StepVisual_DraughtingModel_HeaderFile
 #define _StepVisual_DraughtingModel_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepVisual_DraughtingModel.hxx>
 
 #include <StepRepr_Representation.hxx>

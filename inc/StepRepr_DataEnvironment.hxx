@@ -6,8 +6,8 @@
 #ifndef _StepRepr_DataEnvironment_HeaderFile
 #define _StepRepr_DataEnvironment_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepRepr_DataEnvironment.hxx>
 
 #include <Handle_TCollection_HAsciiString.hxx>

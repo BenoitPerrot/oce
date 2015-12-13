@@ -6,7 +6,7 @@
 #ifndef _PCDM_ReaderStatus_HeaderFile
 #define _PCDM_ReaderStatus_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum PCDM_ReaderStatus

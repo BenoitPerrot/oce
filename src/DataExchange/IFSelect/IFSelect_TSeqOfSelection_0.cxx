@@ -5,8 +5,8 @@
 
 #include <IFSelect_TSeqOfSelection.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <IFSelect_Selection.hxx>
 #include <IFSelect_SequenceNodeOfTSeqOfSelection.hxx>
  

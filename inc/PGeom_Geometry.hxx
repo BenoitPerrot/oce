@@ -6,12 +6,12 @@
 #ifndef _PGeom_Geometry_HeaderFile
 #define _PGeom_Geometry_HeaderFile
 
-#include <Standard_Macro.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Handle_PGeom_Geometry.hxx>
 
-#include <Standard_Persistent.hxx>
+#include <Foundation/Standard/Standard_Persistent.hxx>
 
 
 class PGeom_Geometry : public Standard_Persistent

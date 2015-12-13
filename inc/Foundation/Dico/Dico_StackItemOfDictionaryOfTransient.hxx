@@ -6,8 +6,8 @@
 #ifndef _Dico_StackItemOfDictionaryOfTransient_HeaderFile
 #define _Dico_StackItemOfDictionaryOfTransient_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Dico_StackItemOfDictionaryOfTransient.hxx>
 
 #include <Handle_Dico_DictionaryOfTransient.hxx>

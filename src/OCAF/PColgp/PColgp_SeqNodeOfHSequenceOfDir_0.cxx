@@ -5,7 +5,7 @@
 
 #include <PColgp_SeqNodeOfHSequenceOfDir.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <PColgp_SeqNodeOfHSequenceOfDir.hxx>
 #include <PColgp_HSequenceOfDir.hxx>

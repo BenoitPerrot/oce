@@ -5,8 +5,8 @@
 
 #include <Expr_MapOfNamedUnknown.hxx>
 
-#include <Standard_DomainError.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Expr_NamedUnknown.hxx>
 #include <TColStd_MapTransientHasher.hxx>
 #include <Expr_IndexedMapNodeOfMapOfNamedUnknown.hxx>

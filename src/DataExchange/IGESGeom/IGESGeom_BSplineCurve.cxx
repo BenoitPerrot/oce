@@ -18,12 +18,12 @@
 
 #include <TColStd_HArray1OfReal.hxx>
 #include <TColgp_HArray1OfXYZ.hxx>
-#include <Standard_DimensionMismatch.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_DimensionMismatch.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <gp_XYZ.hxx>
 #include <gp_Pnt.hxx>
 #include <IGESGeom_BSplineCurve.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESGeom_BSplineCurve)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(IGESData_IGESEntity),
@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESGeom_BSplineCurve)
 IMPLEMENT_DOWNCAST(IGESGeom_BSplineCurve,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESGeom_BSplineCurve)
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <gp_GTrsf.hxx>
 
 

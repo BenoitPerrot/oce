@@ -6,17 +6,17 @@
 #ifndef _PLib_HermitJacobi_HeaderFile
 #define _PLib_HermitJacobi_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_PLib_HermitJacobi.hxx>
 
 #include <math_Matrix.hxx>
 #include <Handle_PLib_JacobiPolynomial.hxx>
 #include <TColStd_Array1OfReal.hxx>
 #include <PLib_Base.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <GeomAbs_Shape.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class PLib_JacobiPolynomial;
 class Standard_ConstructionError;
 class TColStd_Array1OfReal;

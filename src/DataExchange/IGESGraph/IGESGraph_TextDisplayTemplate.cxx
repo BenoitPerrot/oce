@@ -20,7 +20,7 @@
 #include <gp_XYZ.hxx>
 #include <gp_Pnt.hxx>
 #include <IGESGraph_TextDisplayTemplate.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESGraph_TextDisplayTemplate)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(IGESData_IGESEntity),

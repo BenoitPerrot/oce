@@ -66,7 +66,7 @@
 #include <Aspect_Window.hxx>
 #include <Graphic3d_DataStructureManager.hxx>
 #include <Visual3d_ViewManager.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Visual3d_ViewManager)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Graphic3d_StructureManager),
@@ -77,7 +77,7 @@ IMPLEMENT_STANDARD_TYPE_END(Visual3d_ViewManager)
 IMPLEMENT_DOWNCAST(Visual3d_ViewManager,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Visual3d_ViewManager)
 
-#include <Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
 
 #include <Aspect.hxx>
 #include <Aspect_IdentDefinitionError.hxx>

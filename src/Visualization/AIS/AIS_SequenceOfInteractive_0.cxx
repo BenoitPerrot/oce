@@ -5,8 +5,8 @@
 
 #include <AIS_SequenceOfInteractive.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <AIS_InteractiveObject.hxx>
 #include <AIS_SequenceNodeOfSequenceOfInteractive.hxx>
  

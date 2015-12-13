@@ -12,8 +12,8 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Dico/Dico_DictionaryOfTransient.hxx>
-#include <Standard_Transient.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 #include <MoniTool_AttrList.hxx>
 #include <MoniTool_IntVal.hxx>
 #include <MoniTool_RealVal.hxx>

@@ -6,16 +6,16 @@
 #ifndef _IFSelect_TransformStandard_HeaderFile
 #define _IFSelect_TransformStandard_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IFSelect_TransformStandard.hxx>
 
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_IFSelect_Selection.hxx>
 #include <IFSelect_SequenceOfGeneralModifier.hxx>
 #include <Handle_Interface_CopyControl.hxx>
 #include <IFSelect_Transformer.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_IFSelect_Modifier.hxx>
 #include <Handle_Interface_Protocol.hxx>
 #include <Handle_Interface_InterfaceModel.hxx>

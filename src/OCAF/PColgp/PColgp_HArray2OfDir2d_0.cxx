@@ -5,10 +5,10 @@
 
 #include <PColgp_HArray2OfDir2d.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
-#include <Standard_RangeError.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <gp_Dir2d.hxx>
 #include <PColgp_FieldOfHArray2OfDir2d.hxx>
 #include <PColgp_VArrayNodeOfFieldOfHArray2OfDir2d.hxx>

@@ -37,7 +37,7 @@
 #include <TopOpeBRepDS_DRAW.hxx>
 #endif
 
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Geom_Surface.hxx>
 #include <Geom_Curve.hxx>
 #include <Geom2d_Curve.hxx>

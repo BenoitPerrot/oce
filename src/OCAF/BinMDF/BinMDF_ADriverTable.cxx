@@ -14,11 +14,11 @@
 // commercial license or contractual agreement.
 
 #include <BinMDF_ADriver.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 #include <TColStd_IndexedMapOfTransient.hxx>
 #include <TColStd_SequenceOfAsciiString.hxx>
 #include <BinMDF_ADriverTable.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BinMDF_ADriverTable)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),
@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(BinMDF_ADriverTable)
 IMPLEMENT_DOWNCAST(BinMDF_ADriverTable,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinMDF_ADriverTable)
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <BinMDF_StringIdMap.hxx>
 #include <TCollection_HAsciiString.hxx>
 #include <BinMDF_DataMapIteratorOfTypeADriverMap.hxx>

@@ -5,8 +5,8 @@
 
 #include <XmlMDF_MapOfDriver.hxx>
 
-#include <Standard_DomainError.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <XmlMDF_ADriver.hxx>
 #include <XmlMDF_DataMapNodeOfMapOfDriver.hxx>

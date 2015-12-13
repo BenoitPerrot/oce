@@ -6,8 +6,8 @@
 #ifndef _StepToTopoDS_DataMapNodeOfDataMapOfRINames_HeaderFile
 #define _StepToTopoDS_DataMapNodeOfDataMapOfRINames_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepToTopoDS_DataMapNodeOfDataMapOfRINames.hxx>
 
 #include <TCollection_AsciiString.hxx>

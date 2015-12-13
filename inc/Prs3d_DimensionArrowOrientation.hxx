@@ -6,7 +6,7 @@
 #ifndef _Prs3d_DimensionArrowOrientation_HeaderFile
 #define _Prs3d_DimensionArrowOrientation_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Specifies dimension arrow location and orientation.
 //! DAO_Internal - arrows "inside", pointing outwards.

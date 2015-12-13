@@ -15,14 +15,14 @@
 // commercial license or contractual agreement.
 
 #include <TColStd_HArray1OfReal.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <GeomFill_TrihedronLaw.hxx>
 #include <Adaptor3d_HCurve.hxx>
 #include <gp_Vec.hxx>
 #include <TColStd_Array1OfReal.hxx>
 #include <GeomFill_Frenet.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(GeomFill_Frenet)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(GeomFill_TrihedronLaw),

@@ -6,12 +6,12 @@
 #ifndef _BOPAlgo_ArgumentAnalyzer_HeaderFile
 #define _BOPAlgo_ArgumentAnalyzer_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TopoDS_Shape.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <BOPAlgo_Operation.hxx>
 #include <BOPAlgo_ListOfCheckResult.hxx>
 #include <TopAbs_ShapeEnum.hxx>

@@ -5,10 +5,10 @@
 
 #include <TransferBRep_HSequenceOfTransferResultInfo.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <TransferBRep_TransferResultInfo.hxx>
 #include <TransferBRep_SequenceOfTransferResultInfo.hxx>
 

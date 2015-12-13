@@ -14,10 +14,10 @@
 //szv#4 S4163
 #include <Interface_ParamList.hxx>
 #include <Interface_ParamSet.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Interface_FileParameter.hxx>
 #include <Interface_ParamSet.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Interface_ParamSet)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

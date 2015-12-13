@@ -6,8 +6,8 @@
 #ifndef _StepAP214_AppliedExternalIdentificationAssignment_HeaderFile
 #define _StepAP214_AppliedExternalIdentificationAssignment_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepAP214_AppliedExternalIdentificationAssignment.hxx>
 
 #include <Handle_StepAP214_HArray1OfExternalIdentificationItem.hxx>

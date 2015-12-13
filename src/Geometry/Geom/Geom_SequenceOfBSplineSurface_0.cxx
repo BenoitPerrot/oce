@@ -5,8 +5,8 @@
 
 #include <Geom_SequenceOfBSplineSurface.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Geom_BSplineSurface.hxx>
 #include <Geom_SequenceNodeOfSequenceOfBSplineSurface.hxx>
  

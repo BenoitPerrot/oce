@@ -5,8 +5,8 @@
 
 #include <PrsMgr_Presentations.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <PrsMgr_ModedPresentation.hxx>
 #include <PrsMgr_SequenceNodeOfPresentations.hxx>
  

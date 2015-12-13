@@ -17,15 +17,15 @@
 #include <TColStd_HArray1OfReal.hxx>
 #include <FEmTool_ElementaryCriterion.hxx>
 #include <FEmTool_Curve.hxx>
-#include <Standard_NotImplemented.hxx>
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <AppDef_MultiLine.hxx>
 #include <FEmTool_HAssemblyTable.hxx>
 #include <TColStd_HArray2OfInteger.hxx>
 #include <math_Matrix.hxx>
 #include <TColStd_Array1OfReal.hxx>
 #include <AppDef_LinearCriteria.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AppDef_LinearCriteria)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(AppDef_SmoothCriterion),

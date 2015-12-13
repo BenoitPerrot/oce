@@ -6,13 +6,13 @@
 #ifndef _PColgp_VArrayTNodeOfFieldOfHArray2OfLin2d_HeaderFile
 #define _PColgp_VArrayTNodeOfFieldOfHArray2OfLin2d_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <gp_Lin2d.hxx>
 #include <Handle_PColgp_VArrayNodeOfFieldOfHArray2OfLin2d.hxx>
-#include <Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
 class gp_Lin2d;
 class PColgp_FieldOfHArray2OfLin2d;
 class PColgp_VArrayNodeOfFieldOfHArray2OfLin2d;

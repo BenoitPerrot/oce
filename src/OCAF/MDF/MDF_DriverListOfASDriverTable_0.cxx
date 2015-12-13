@@ -5,7 +5,7 @@
 
 #include <MDF_DriverListOfASDriverTable.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <MDF_ListIteratorOfDriverListOfASDriverTable.hxx>
 #include <MDF_ASDriver.hxx>
 #include <MDF_ListNodeOfDriverListOfASDriverTable.hxx>

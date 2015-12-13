@@ -16,7 +16,7 @@
 #include <XSControl_Controller.hxx>
 #include <Interface_Protocol.hxx>
 #include <Interface_InterfaceModel.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <Transfer_TransientProcess.hxx>
 #include <Transfer_FinderProcess.hxx>
 #include <XSControl_TransferReader.hxx>

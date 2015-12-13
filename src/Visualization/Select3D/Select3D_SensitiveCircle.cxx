@@ -17,8 +17,8 @@
 // Modified    Tue Apr 14 1998 by rob : fix Bug : Case of Null Radius Circle...
 
 #include <Geom_Circle.hxx>
-#include <Standard_ConstructionError.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <SelectBasics_EntityOwner.hxx>
 #include <TColgp_HArray1OfPnt.hxx>
 #include <TColgp_Array1OfPnt.hxx>
@@ -30,7 +30,7 @@
 #include <TopLoc_Location.hxx>
 #include <Select3D_Projector.hxx>
 #include <Select3D_SensitiveCircle.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Select3D_SensitiveCircle)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Select3D_SensitivePoly),

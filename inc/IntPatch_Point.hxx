@@ -6,13 +6,13 @@
 #ifndef _IntPatch_Point_HeaderFile
 #define _IntPatch_Point_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <IntSurf_PntOn2S.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Adaptor3d_HVertex.hxx>
 #include <Handle_Adaptor2d_HCurve2d.hxx>
 #include <IntSurf_Transition.hxx>

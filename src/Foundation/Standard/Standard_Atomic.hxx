@@ -27,7 +27,7 @@
 #ifndef _Standard_Atomic_HeaderFile
 #define _Standard_Atomic_HeaderFile
 
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 //! Increments atomically integer variable pointed by theValue
 //! and returns resulting incremented value.

@@ -16,7 +16,7 @@
 // Modif JCV 10/12/90 ajout de la methode Translationpart
 
 
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <gp_Trsf2d.hxx>
 #include <gp_Vec.hxx>
 #include <gp_Pnt.hxx>

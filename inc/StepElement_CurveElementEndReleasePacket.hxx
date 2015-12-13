@@ -6,12 +6,12 @@
 #ifndef _StepElement_CurveElementEndReleasePacket_HeaderFile
 #define _StepElement_CurveElementEndReleasePacket_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepElement_CurveElementEndReleasePacket.hxx>
 
 #include <StepElement_CurveElementFreedom.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepElement_CurveElementFreedom;
 

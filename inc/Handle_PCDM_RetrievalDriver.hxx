@@ -6,8 +6,8 @@
 #ifndef _Handle_PCDM_RetrievalDriver_HeaderFile
 #define _Handle_PCDM_RetrievalDriver_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_PCDM_Reader.hxx>
 
 class Standard_Transient;

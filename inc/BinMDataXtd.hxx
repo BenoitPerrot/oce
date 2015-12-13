@@ -6,13 +6,13 @@
 #ifndef _BinMDataXtd_HeaderFile
 #define _BinMDataXtd_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_BinMDF_ADriverTable.hxx>
 #include <Handle_CDM_MessageDriver.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class BinMDF_ADriverTable;
 class CDM_MessageDriver;
 class BinMDataXtd_PointDriver;

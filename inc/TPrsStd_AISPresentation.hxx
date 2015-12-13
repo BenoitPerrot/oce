@@ -6,16 +6,16 @@
 #ifndef _TPrsStd_AISPresentation_HeaderFile
 #define _TPrsStd_AISPresentation_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TPrsStd_AISPresentation.hxx>
 
-#include <Standard_GUID.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Graphic3d_NameOfMaterial.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_AIS_InteractiveObject.hxx>
 #include <TDF_Attribute.hxx>
 #include <Handle_TDF_Attribute.hxx>

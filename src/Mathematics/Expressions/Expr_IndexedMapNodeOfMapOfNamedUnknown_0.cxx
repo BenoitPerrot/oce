@@ -5,7 +5,7 @@
 
 #include <Expr_IndexedMapNodeOfMapOfNamedUnknown.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Expr_NamedUnknown.hxx>
 #include <TColStd_MapTransientHasher.hxx>

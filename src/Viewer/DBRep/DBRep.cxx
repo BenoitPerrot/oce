@@ -46,7 +46,7 @@
 #include <Draw_ProgressIndicator.hxx>
 
 // memory management
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <stdio.h>
 #ifdef _WIN32
 extern Draw_Viewer dout;

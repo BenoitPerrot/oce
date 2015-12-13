@@ -5,7 +5,7 @@
 
 #include <Transfer_SequenceNodeOfSequenceOfBinder.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Transfer_Binder.hxx>
 #include <Transfer_SequenceOfBinder.hxx>

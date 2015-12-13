@@ -5,7 +5,7 @@
 
 #include <Select3D_ListNodeOfListOfSensitiveTriangle.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Select3D_SensitiveTriangle.hxx>
 #include <Select3D_ListOfSensitiveTriangle.hxx>

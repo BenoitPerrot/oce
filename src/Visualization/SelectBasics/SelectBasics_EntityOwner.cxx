@@ -16,7 +16,7 @@
 
 #include <TopLoc_Location.hxx>
 #include <SelectBasics_EntityOwner.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(SelectBasics_EntityOwner)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

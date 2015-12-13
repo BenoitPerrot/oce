@@ -5,7 +5,7 @@
 
 #include <TColStd_SequenceNodeOfSequenceOfAddress.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TColStd_SequenceOfAddress.hxx>
 
@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_RTTI(TColStd_SequenceNodeOfSequenceOfAddress)
 
 
 #define SeqItem Standard_Address
-#define SeqItem_hxx <Standard_Address.hxx>
+#define SeqItem_hxx <Foundation/Standard/Standard_Address.hxx>
 #define TCollection_SequenceNode TColStd_SequenceNodeOfSequenceOfAddress
 #define TCollection_SequenceNode_hxx <TColStd_SequenceNodeOfSequenceOfAddress.hxx>
 #define Handle_TCollection_SequenceNode Handle_TColStd_SequenceNodeOfSequenceOfAddress

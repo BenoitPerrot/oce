@@ -6,7 +6,7 @@
 #ifndef _Graphic3d_NameOfTexturePlane_HeaderFile
 #define _Graphic3d_NameOfTexturePlane_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Type of the texture projection plane for both S and T texture coordinate.
 enum Graphic3d_NameOfTexturePlane

@@ -6,14 +6,14 @@
 #ifndef _TColStd_SequenceOfBoolean_HeaderFile
 #define _TColStd_SequenceOfBoolean_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TCollection_BaseSequence.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_TColStd_SequenceNodeOfSequenceOfBoolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;
 class Standard_OutOfRange;
 class TColStd_SequenceNodeOfSequenceOfBoolean;
@@ -101,7 +101,7 @@ private:
 };
 
 #define SeqItem Standard_Boolean
-#define SeqItem_hxx <Standard_Boolean.hxx>
+#define SeqItem_hxx <Foundation/Standard/Standard_Boolean.hxx>
 #define TCollection_SequenceNode TColStd_SequenceNodeOfSequenceOfBoolean
 #define TCollection_SequenceNode_hxx <TColStd_SequenceNodeOfSequenceOfBoolean.hxx>
 #define Handle_TCollection_SequenceNode Handle_TColStd_SequenceNodeOfSequenceOfBoolean

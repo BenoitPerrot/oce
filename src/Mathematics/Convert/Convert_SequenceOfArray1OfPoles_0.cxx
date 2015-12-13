@@ -5,8 +5,8 @@
 
 #include <Convert_SequenceOfArray1OfPoles.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <TColgp_HArray1OfPnt.hxx>
 #include <Convert_SequenceNodeOfSequenceOfArray1OfPoles.hxx>
  

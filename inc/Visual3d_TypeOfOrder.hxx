@@ -6,7 +6,7 @@
 #ifndef _Visual3d_TypeOfOrder_HeaderFile
 #define _Visual3d_TypeOfOrder_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Definition of the order of selection
 //! TOO_TOPFIRST    the root structure first

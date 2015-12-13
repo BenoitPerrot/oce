@@ -6,16 +6,16 @@
 #ifndef _MoniTool_IndexedDataMapOfShapeTransient_HeaderFile
 #define _MoniTool_IndexedDataMapOfShapeTransient_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TCollection_BasicMap.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Handle_MoniTool_IndexedDataMapNodeOfIndexedDataMapOfShapeTransient.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
 class Standard_DomainError;
 class Standard_OutOfRange;
 class Standard_NoSuchObject;

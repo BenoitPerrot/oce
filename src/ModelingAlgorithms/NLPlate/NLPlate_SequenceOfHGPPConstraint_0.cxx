@@ -5,8 +5,8 @@
 
 #include <NLPlate_SequenceOfHGPPConstraint.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <NLPlate_HGPPConstraint.hxx>
 #include <NLPlate_SequenceNodeOfSequenceOfHGPPConstraint.hxx>
  

@@ -6,8 +6,8 @@
 #ifndef _Handle_StepData_DefaultGeneral_HeaderFile
 #define _Handle_StepData_DefaultGeneral_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepData_GeneralModule.hxx>
 
 class Standard_Transient;

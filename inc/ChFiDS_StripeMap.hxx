@@ -6,13 +6,13 @@
 #ifndef _ChFiDS_StripeMap_HeaderFile
 #define _ChFiDS_StripeMap_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <ChFiDS_IndexedDataMapOfVertexListOfStripe.hxx>
 #include <Handle_ChFiDS_Stripe.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class TopoDS_Vertex;
 class ChFiDS_Stripe;
 class ChFiDS_ListOfStripe;

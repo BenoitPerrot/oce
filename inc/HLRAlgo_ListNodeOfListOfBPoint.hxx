@@ -6,8 +6,8 @@
 #ifndef _HLRAlgo_ListNodeOfListOfBPoint_HeaderFile
 #define _HLRAlgo_ListNodeOfListOfBPoint_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_HLRAlgo_ListNodeOfListOfBPoint.hxx>
 
 #include <HLRAlgo_BiPoint.hxx>

@@ -5,7 +5,7 @@
 
 #include <ShapeProcess_StackItemOfDictionaryOfOperator.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <ShapeProcess_DictionaryOfOperator.hxx>
 #include <ShapeProcess_StackItemOfDictionaryOfOperator.hxx>

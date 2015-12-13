@@ -24,7 +24,7 @@
 #include <PColStd_HArray1OfInteger.hxx>
 #include <PDF_HAttributeArray1.hxx>
 #include <PDF_Data.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PDF_Data)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Standard_Persistent),

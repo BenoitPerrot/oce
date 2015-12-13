@@ -5,8 +5,8 @@
 
 #include <MAT_SequenceOfArc.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <MAT_Arc.hxx>
 #include <MAT_SequenceNodeOfSequenceOfArc.hxx>
  

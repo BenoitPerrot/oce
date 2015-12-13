@@ -5,10 +5,10 @@
 
 #include <Transfer_ActorOfProcessForFinder.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Transfer_ActorOfProcessForFinder.hxx>
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Transfer_Finder.hxx>
 #include <Transfer_FindHasher.hxx>
 #include <Transfer_HSequenceOfFinder.hxx>
@@ -18,7 +18,7 @@
 #include <Transfer_IteratorOfProcessForFinder.hxx>
 #include <Transfer_Binder.hxx>
 #include <Transfer_SimpleBinderOfTransient.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 
  
 

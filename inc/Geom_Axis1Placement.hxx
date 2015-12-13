@@ -6,8 +6,8 @@
 #ifndef _Geom_Axis1Placement_HeaderFile
 #define _Geom_Axis1Placement_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Geom_Axis1Placement.hxx>
 
 #include <Geom_AxisPlacement.hxx>

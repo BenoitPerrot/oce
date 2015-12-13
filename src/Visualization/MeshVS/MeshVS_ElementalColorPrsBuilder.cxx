@@ -20,7 +20,7 @@
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <MeshVS_DataMapOfIntegerTwoColors.hxx>
 #include <MeshVS_ElementalColorPrsBuilder.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MeshVS_ElementalColorPrsBuilder)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MeshVS_PrsBuilder),

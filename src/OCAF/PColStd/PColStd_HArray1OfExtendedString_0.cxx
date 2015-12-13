@@ -5,11 +5,11 @@
 
 #include <PColStd_HArray1OfExtendedString.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <PCollection_HExtendedString.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
 #include <PColStd_FieldOfHArray1OfExtendedString.hxx>
 #include <PColStd_VArrayNodeOfFieldOfHArray1OfExtendedString.hxx>
 #include <PColStd_VArrayTNodeOfFieldOfHArray1OfExtendedString.hxx>

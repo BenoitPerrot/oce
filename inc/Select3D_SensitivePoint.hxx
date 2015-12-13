@@ -6,8 +6,8 @@
 #ifndef _Select3D_SensitivePoint_HeaderFile
 #define _Select3D_SensitivePoint_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Select3D_SensitivePoint.hxx>
 
 #include <Select3D_Pnt.hxx>
@@ -16,10 +16,10 @@
 #include <Handle_SelectBasics_EntityOwner.hxx>
 #include <Handle_Select3D_Projector.hxx>
 #include <Handle_Select3D_SensitiveEntity.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <SelectBasics_PickArgs.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 class SelectBasics_EntityOwner;
 class gp_Pnt;
 class Select3D_Projector;

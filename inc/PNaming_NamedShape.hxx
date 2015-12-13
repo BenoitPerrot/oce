@@ -6,12 +6,12 @@
 #ifndef _PNaming_NamedShape_HeaderFile
 #define _PNaming_NamedShape_HeaderFile
 
-#include <Standard_Macro.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Handle_PNaming_NamedShape.hxx>
 
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_PTopoDS_HArray1OfShape1.hxx>
 #include <PDF_Attribute.hxx>
 class PTopoDS_HArray1OfShape1;

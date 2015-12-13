@@ -18,7 +18,7 @@
 #include <TopoDS_Shape.hxx>
 #include <ShapeExtend_BasicMsgRegistrator.hxx>
 #include <ShapeFix_Solid.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeFix_Solid)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(ShapeFix_Root),
@@ -29,8 +29,8 @@ IMPLEMENT_STANDARD_TYPE_END(ShapeFix_Solid)
 IMPLEMENT_DOWNCAST(ShapeFix_Solid,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ShapeFix_Solid)
 
-#include <Standard_ErrorHandler.hxx>
-#include <Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
 
 #include <BRep_Builder.hxx>
 #include <BRepClass3d_SolidClassifier.hxx>

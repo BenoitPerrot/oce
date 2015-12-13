@@ -6,13 +6,13 @@
 #ifndef _DBC_VArrayTNodeOfVArrayOfInteger_HeaderFile
 #define _DBC_VArrayTNodeOfVArrayOfInteger_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_DBC_VArrayNodeOfVArrayOfInteger.hxx>
-#include <Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
 class DBC_VArrayOfInteger;
 class DBC_VArrayNodeOfVArrayOfInteger;
 
@@ -52,7 +52,7 @@ private:
 };
 
 #define Item Standard_Integer
-#define Item_hxx <Standard_Integer.hxx>
+#define Item_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define DBC_VArrayNode DBC_VArrayNodeOfVArrayOfInteger
 #define DBC_VArrayNode_hxx <DBC_VArrayNodeOfVArrayOfInteger.hxx>
 #define DBC_VArrayTNode DBC_VArrayTNodeOfVArrayOfInteger

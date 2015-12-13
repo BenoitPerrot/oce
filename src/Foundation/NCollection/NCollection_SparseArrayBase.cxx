@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/NCollection/NCollection_SparseArrayBase.hxx>
-#include <Standard_ProgramError.hxx>
+#include <Foundation/Standard/Standard_ProgramError.hxx>
 
 //=======================================================================
 //function : allocData

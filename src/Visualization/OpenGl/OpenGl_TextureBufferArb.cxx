@@ -15,7 +15,7 @@
 #include <OpenGl_TextureBufferArb.hxx>
 
 #include <OpenGl_Context.hxx>
-#include <Standard_Assert.hxx>
+#include <Foundation/Standard/Standard_Assert.hxx>
 
 IMPLEMENT_STANDARD_HANDLE (OpenGl_TextureBufferArb, OpenGl_VertexBuffer)
 IMPLEMENT_STANDARD_RTTIEXT(OpenGl_TextureBufferArb, OpenGl_VertexBuffer)

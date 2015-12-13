@@ -15,8 +15,8 @@
 #ifndef _NCollection_LocalArray_HeaderFile
 #define _NCollection_LocalArray_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_TypeDef.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_TypeDef.hxx>
 
 //! Auxiliary class optimizing creation of array buffer 
 //! (using stack allocation for small arrays).

@@ -6,12 +6,12 @@
 #ifndef _IFSelect_SelectDiff_HeaderFile
 #define _IFSelect_SelectDiff_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IFSelect_SelectDiff.hxx>
 
 #include <IFSelect_SelectControl.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class Interface_EntityIterator;
 class Interface_Graph;
 class TCollection_AsciiString;

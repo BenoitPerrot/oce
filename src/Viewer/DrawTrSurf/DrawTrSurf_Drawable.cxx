@@ -19,7 +19,7 @@
 #include <Adaptor3d_Curve.hxx>
 #include <Adaptor3d_IsoCurve.hxx>
 #include <DrawTrSurf_Drawable.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DrawTrSurf_Drawable)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Draw_Drawable3D),

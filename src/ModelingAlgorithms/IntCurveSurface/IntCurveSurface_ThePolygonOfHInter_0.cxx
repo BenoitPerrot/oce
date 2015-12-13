@@ -6,7 +6,7 @@
 #include <IntCurveSurface_ThePolygonOfHInter.hxx>
 
 #include <TColStd_HArray1OfReal.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Adaptor3d_HCurve.hxx>
 #include <IntCurveSurface_TheHCurveTool.hxx>
 #include <TColStd_Array1OfReal.hxx>

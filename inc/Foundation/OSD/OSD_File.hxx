@@ -6,19 +6,19 @@
 #ifndef _OSD_File_HeaderFile
 #define _OSD_File_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/OSD/OSD_LockType.hxx>
 #include <Foundation/OSD/OSD_OpenMode.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
 #include <Foundation/OSD/OSD_FileNode.hxx>
 #include <Foundation/OSD/OSD_FromWhere.hxx>
 #include <Foundation/OSD/OSD_KindFile.hxx>
-#include <Standard_Size.hxx>
+#include <Foundation/Standard/Standard_Size.hxx>
 class Standard_ProgramError;
 class OSD_Path;
 class OSD_Protection;

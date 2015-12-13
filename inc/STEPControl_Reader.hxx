@@ -6,15 +6,15 @@
 #ifndef _STEPControl_Reader_HeaderFile
 #define _STEPControl_Reader_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <XSControl_Reader.hxx>
 #include <Handle_XSControl_WorkSession.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_StepData_StepModel.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_StepRepr_RepresentationContext.hxx>
 class XSControl_WorkSession;
 class StepData_StepModel;

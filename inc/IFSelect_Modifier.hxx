@@ -6,12 +6,12 @@
 #ifndef _IFSelect_Modifier_HeaderFile
 #define _IFSelect_Modifier_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IFSelect_Modifier.hxx>
 
 #include <IFSelect_GeneralModifier.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Interface_InterfaceModel.hxx>
 #include <Handle_Interface_Protocol.hxx>
 class IFSelect_ContextModif;

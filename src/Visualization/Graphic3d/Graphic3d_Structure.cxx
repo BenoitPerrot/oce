@@ -30,7 +30,7 @@
 #include <gp_Pnt.hxx>
 #include <Graphic3d_Vector.hxx>
 #include <Graphic3d_Structure.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Graphic3d_Structure)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

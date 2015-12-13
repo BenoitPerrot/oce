@@ -6,13 +6,13 @@
 #ifndef _HLRBRep_VertexList_HeaderFile
 #define _HLRBRep_VertexList_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <HLRAlgo_ListIteratorOfInterferenceList.hxx>
 #include <HLRBRep_EdgeInterferenceTool.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <TopAbs_Orientation.hxx>
 class HLRBRep_EdgeInterferenceTool;
 class HLRAlgo_ListIteratorOfInterferenceList;

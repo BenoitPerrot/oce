@@ -17,7 +17,7 @@
 #include <TCollection_HAsciiString.hxx>
 #include <Transfer_FinderProcess.hxx>
 #include <TopoDS_Shape.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <TopoDSToStep_Tool.hxx>
 #include <TopoDSToStep.hxx>
 #include <BRepTools_Modifier.hxx>

@@ -6,7 +6,7 @@
 #ifndef _TopOpeBRepDS_Kind_HeaderFile
 #define _TopOpeBRepDS_Kind_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! different types of objects in DataStructure
 enum TopOpeBRepDS_Kind

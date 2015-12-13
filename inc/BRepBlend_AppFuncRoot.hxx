@@ -6,19 +6,19 @@
 #ifndef _BRepBlend_AppFuncRoot_HeaderFile
 #define _BRepBlend_AppFuncRoot_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BRepBlend_AppFuncRoot.hxx>
 
 #include <Handle_BRepBlend_Line.hxx>
-#include <Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
 #include <math_Vector.hxx>
 #include <Blend_Point.hxx>
 #include <gp_Pnt.hxx>
 #include <Approx_SweepFunction.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <GeomAbs_Shape.hxx>
 class BRepBlend_Line;
 class Standard_OutOfRange;

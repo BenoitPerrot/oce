@@ -6,8 +6,8 @@
 #ifndef _StepFEA_FeaTangentialCoefficientOfLinearThermalExpansion_HeaderFile
 #define _StepFEA_FeaTangentialCoefficientOfLinearThermalExpansion_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepFEA_FeaTangentialCoefficientOfLinearThermalExpansion.hxx>
 
 #include <StepFEA_SymmetricTensor23d.hxx>

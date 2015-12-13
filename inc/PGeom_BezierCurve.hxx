@@ -6,12 +6,12 @@
 #ifndef _PGeom_BezierCurve_HeaderFile
 #define _PGeom_BezierCurve_HeaderFile
 
-#include <Standard_Macro.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Handle_PGeom_BezierCurve.hxx>
 
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_PColgp_HArray1OfPnt.hxx>
 #include <Handle_PColStd_HArray1OfReal.hxx>
 #include <PGeom_BoundedCurve.hxx>

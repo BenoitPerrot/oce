@@ -18,7 +18,7 @@
 #include <StepShape_HArray1OfEdge.hxx>
 #include <TCollection_HAsciiString.hxx>
 #include <StepShape_ConnectedEdgeSet.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepShape_ConnectedEdgeSet)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepShape_TopologicalRepresentationItem),

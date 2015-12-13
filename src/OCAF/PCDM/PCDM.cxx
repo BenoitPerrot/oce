@@ -22,10 +22,10 @@
 #include <TCollection_AsciiString.hxx>
 #include <PCDM.hxx>
 #include <Foundation/Plugin/Plugin.hxx>
-#include <Standard_SStream.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_SStream.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Resource/Resource_Manager.hxx>
-#include <Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
 #include <UTL.hxx>
 #include <Foundation/FSD/FSD_CmpFile.hxx>
 #include <Foundation/FSD/FSD_File.hxx>

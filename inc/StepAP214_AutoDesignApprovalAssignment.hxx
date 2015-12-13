@@ -6,14 +6,14 @@
 #ifndef _StepAP214_AutoDesignApprovalAssignment_HeaderFile
 #define _StepAP214_AutoDesignApprovalAssignment_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepAP214_AutoDesignApprovalAssignment.hxx>
 
 #include <Handle_StepAP214_HArray1OfAutoDesignGeneralOrgItem.hxx>
 #include <StepBasic_ApprovalAssignment.hxx>
 #include <Handle_StepBasic_Approval.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class StepAP214_HArray1OfAutoDesignGeneralOrgItem;
 class StepBasic_Approval;
 class StepAP214_AutoDesignGeneralOrgItem;

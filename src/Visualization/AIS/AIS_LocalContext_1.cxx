@@ -84,7 +84,7 @@
 #include <TColgp_Array1OfPnt2d.hxx>
 #include <TopoDS_Shape.hxx>
 #include <SelectMgr_EntityOwner.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <TColStd_MapOfTransient.hxx>
 #include <AIS_LocalStatus.hxx>
 #include <SelectMgr_SelectableObject.hxx>

@@ -6,12 +6,12 @@
 #ifndef _IGESSolid_SpecificModule_HeaderFile
 #define _IGESSolid_SpecificModule_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESSolid_SpecificModule.hxx>
 
 #include <IGESData_SpecificModule.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_IGESData_IGESEntity.hxx>
 #include <Handle_Message_Messenger.hxx>
 class IGESData_IGESEntity;

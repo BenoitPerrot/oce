@@ -5,8 +5,8 @@
 
 #include <TopLoc_IndexedMapOfLocation.hxx>
 
-#include <Standard_DomainError.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <TopLoc_Location.hxx>
 #include <TopLoc_MapLocationHasher.hxx>
 #include <TopLoc_IndexedMapNodeOfIndexedMapOfLocation.hxx>

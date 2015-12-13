@@ -6,17 +6,17 @@
 #ifndef _Message_Messenger_HeaderFile
 #define _Message_Messenger_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Message_Messenger.hxx>
 
 #include <Foundation/Message/Message_SequenceOfPrinters.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Message_Printer.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Standard_Type.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 #include <Foundation/Message/Message_Gravity.hxx>
 class Message_Printer;
 class Standard_Type;

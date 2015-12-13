@@ -6,14 +6,14 @@
 #ifndef _HLRBRep_TheExactInterCSurf_HeaderFile
 #define _HLRBRep_TheExactInterCSurf_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <HLRBRep_TheCSFunctionOfInterCSurf.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
 class StdFail_NotDone;
 class Standard_DomainError;
 class HLRBRep_SurfaceTool;

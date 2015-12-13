@@ -6,13 +6,13 @@
 #ifndef _DBC_VArrayNodeOfVArrayOfReal_HeaderFile
 #define _DBC_VArrayNodeOfVArrayOfReal_HeaderFile
 
-#include <Standard_Macro.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Handle_DBC_VArrayNodeOfVArrayOfReal.hxx>
 
-#include <Standard_Address.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <PStandard_ArrayNode.hxx>
 class DBC_VArrayOfReal;
 class DBC_VArrayTNodeOfVArrayOfReal;

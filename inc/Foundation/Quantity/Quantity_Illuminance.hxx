@@ -6,7 +6,7 @@
 #ifndef _Quantity_Illuminance_HeaderFile
 #define _Quantity_Illuminance_HeaderFile
 
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 
 typedef Standard_Real Quantity_Illuminance;
 

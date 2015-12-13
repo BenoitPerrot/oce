@@ -5,8 +5,8 @@
 
 #include <IntAna_ListIteratorOfListOfCurve.hxx>
 
-#include <Standard_NoMoreObject.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoMoreObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <IntAna_ListOfCurve.hxx>
 #include <IntAna_Curve.hxx>
 #include <IntAna_ListNodeOfListOfCurve.hxx>

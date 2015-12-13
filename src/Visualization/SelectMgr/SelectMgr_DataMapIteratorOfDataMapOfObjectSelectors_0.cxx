@@ -5,7 +5,7 @@
 
 #include <SelectMgr_DataMapIteratorOfDataMapOfObjectSelectors.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <SelectMgr_SelectableObject.hxx>
 #include <SelectMgr_SequenceOfSelector.hxx>
 #include <TColStd_MapTransientHasher.hxx>

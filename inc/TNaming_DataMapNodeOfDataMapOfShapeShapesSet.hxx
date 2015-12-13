@@ -6,8 +6,8 @@
 #ifndef _TNaming_DataMapNodeOfDataMapOfShapeShapesSet_HeaderFile
 #define _TNaming_DataMapNodeOfDataMapOfShapeShapesSet_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TNaming_DataMapNodeOfDataMapOfShapeShapesSet.hxx>
 
 #include <TopoDS_Shape.hxx>

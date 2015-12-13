@@ -6,8 +6,8 @@
 #ifndef _StepShape_SweptAreaSolid_HeaderFile
 #define _StepShape_SweptAreaSolid_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepShape_SweptAreaSolid.hxx>
 
 #include <Handle_StepGeom_CurveBoundedSurface.hxx>

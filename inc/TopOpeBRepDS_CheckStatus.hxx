@@ -6,7 +6,7 @@
 #ifndef _TopOpeBRepDS_CheckStatus_HeaderFile
 #define _TopOpeBRepDS_CheckStatus_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum TopOpeBRepDS_CheckStatus

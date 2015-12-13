@@ -17,7 +17,7 @@
 //--------------------------------------------------------------------
 //pdn 20.04.99 STC22655 avoid of exceptions on empty loops
 
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <IGESSolid_Loop.hxx>
 #include <IGESData_IGESReaderData.hxx>
 #include <IGESData_ParamReader.hxx>

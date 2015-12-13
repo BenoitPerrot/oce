@@ -19,7 +19,7 @@
 #include <gp_Ax22d.hxx>
 #include <Draw_Display.hxx>
 #include <Draw_Axis2D.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Draw_Axis2D)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Draw_Drawable2D),

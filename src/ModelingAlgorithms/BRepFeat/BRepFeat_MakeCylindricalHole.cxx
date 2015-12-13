@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <StdFail_NotDone.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <gp_Ax1.hxx>
 #include <TopoDS_Shape.hxx>
 #include <BRepFeat_MakeCylindricalHole.hxx>

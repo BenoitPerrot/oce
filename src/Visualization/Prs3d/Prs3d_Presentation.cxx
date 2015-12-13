@@ -25,7 +25,7 @@
 #include <Geom_Transformation.hxx>
 #include <Graphic3d_Group.hxx>
 #include <Prs3d_Presentation.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Prs3d_Presentation)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Graphic3d_Structure),
@@ -43,7 +43,7 @@ IMPLEMENT_STANDARD_RTTI(Prs3d_Presentation)
 #include <gp_Ax1.hxx>
 #include <gp_Trsf.hxx>
 #include <gp_Vec.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Aspect_InteriorStyle.hxx>
 #include <Aspect_TypeOfLine.hxx>
 // OCC4895 SAN 22/03/04 High-level interface for controlling polygon offsets 

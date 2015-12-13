@@ -12,13 +12,13 @@
 // commercial license or contractual agreement.
 
 #include <Interface_InterfaceError.hxx>
-#include <Standard_Transient.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 #include <Interface_Graph.hxx>
 #include <Interface_Check.hxx>
 #include <Interface_InterfaceModel.hxx>
 #include <Interface_Protocol.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Interface_Protocol)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

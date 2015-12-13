@@ -6,8 +6,8 @@
 #ifndef _Handle_ShapeProcess_ShapeContext_HeaderFile
 #define _Handle_ShapeProcess_ShapeContext_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ShapeProcess_Context.hxx>
 
 class Standard_Transient;

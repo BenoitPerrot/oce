@@ -18,7 +18,7 @@
 #include <PDataStd_Real.hxx>
 #include <PDataStd_Integer.hxx>
 #include <PDataXtd_PatternStd.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PDataXtd_PatternStd)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(PDF_Attribute),

@@ -5,7 +5,7 @@
 
 #include <PrsMgr_SequenceNodeOfPresentations.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <PrsMgr_ModedPresentation.hxx>
 #include <PrsMgr_Presentations.hxx>

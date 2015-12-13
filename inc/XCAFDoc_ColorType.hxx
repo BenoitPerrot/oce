@@ -6,7 +6,7 @@
 #ifndef _XCAFDoc_ColorType_HeaderFile
 #define _XCAFDoc_ColorType_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Defines types of color assignments
 //! Color of shape is defined following way

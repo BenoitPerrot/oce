@@ -6,15 +6,15 @@
 #ifndef _PrsMgr_Presentation_HeaderFile
 #define _PrsMgr_Presentation_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_PrsMgr_Presentation.hxx>
 
 #include <Handle_PrsMgr_PresentationManager.hxx>
 #include <Handle_PrsMgr_Prs.hxx>
 #include <PrsMgr_PresentableObjectPointer.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_PrsMgr_PresentableObject.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>

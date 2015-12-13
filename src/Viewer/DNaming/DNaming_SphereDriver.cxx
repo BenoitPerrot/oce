@@ -17,7 +17,7 @@
 #include <TDF_Label.hxx>
 #include <BRepPrimAPI_MakeSphere.hxx>
 #include <DNaming_SphereDriver.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DNaming_SphereDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(TFunction_Driver),

@@ -5,7 +5,7 @@
 
 #include <PColgp_VArrayNodeOfFieldOfHArray1OfCirc2d.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <gp_Circ2d.hxx>
 #include <PColgp_FieldOfHArray1OfCirc2d.hxx>

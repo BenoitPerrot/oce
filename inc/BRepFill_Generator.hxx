@@ -6,9 +6,9 @@
 #ifndef _BRepFill_Generator_HeaderFile
 #define _BRepFill_Generator_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TopTools_SequenceOfShape.hxx>
 #include <TopoDS_Shell.hxx>

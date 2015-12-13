@@ -5,8 +5,8 @@
 
 #include <Foundation/Message/Message_ListIteratorOfListOfMsg.hxx>
 
-#include <Standard_NoMoreObject.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoMoreObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Message/Message_ListOfMsg.hxx>
 #include <Foundation/Message/Message_Msg.hxx>
 #include <Foundation/Message/Message_ListNodeOfListOfMsg.hxx>

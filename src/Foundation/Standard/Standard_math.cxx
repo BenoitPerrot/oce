@@ -12,7 +12,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_math.hxx>
+#include <Foundation/Standard/Standard_math.hxx>
 
 // MSVC versions prior to 12 did not provided acosh, asinh, atanh functions in standard library
 #if (defined(_MSC_VER) && (_MSC_VER < 1800)) || defined(__BORLANDC__)

@@ -6,8 +6,8 @@
 #ifndef _StepDimTol_ConcentricityTolerance_HeaderFile
 #define _StepDimTol_ConcentricityTolerance_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepDimTol_ConcentricityTolerance.hxx>
 
 #include <StepDimTol_GeometricToleranceWithDatumReference.hxx>

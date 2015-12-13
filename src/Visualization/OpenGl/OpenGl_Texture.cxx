@@ -18,7 +18,7 @@
 #include <OpenGl_Context.hxx>
 #include <OpenGl_GlCore15.hxx>
 #include <Graphic3d_TextureParams.hxx>
-#include <Standard_Assert.hxx>
+#include <Foundation/Standard/Standard_Assert.hxx>
 #include <Image_PixMap.hxx>
 
 IMPLEMENT_STANDARD_HANDLE (OpenGl_Texture, OpenGl_Resource)

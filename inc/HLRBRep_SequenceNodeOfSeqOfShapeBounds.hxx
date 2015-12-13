@@ -6,8 +6,8 @@
 #ifndef _HLRBRep_SequenceNodeOfSeqOfShapeBounds_HeaderFile
 #define _HLRBRep_SequenceNodeOfSeqOfShapeBounds_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_HLRBRep_SequenceNodeOfSeqOfShapeBounds.hxx>
 
 #include <HLRBRep_ShapeBounds.hxx>

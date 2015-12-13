@@ -6,8 +6,8 @@
 #ifndef _TNaming_ListNodeOfListOfIndexedDataMapOfShapeListOfShape_HeaderFile
 #define _TNaming_ListNodeOfListOfIndexedDataMapOfShapeListOfShape_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TNaming_ListNodeOfListOfIndexedDataMapOfShapeListOfShape.hxx>
 
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>

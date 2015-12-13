@@ -6,18 +6,18 @@
 #ifndef _StepData_PDescr_HeaderFile
 #define _StepData_PDescr_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepData_PDescr.hxx>
 
 #include <TCollection_AsciiString.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_StepData_PDescr.hxx>
 #include <StepData_EnumTool.hxx>
 #include <Handle_Standard_Type.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_StepData_EDescr.hxx>
 #include <Handle_Interface_Check.hxx>
 class Standard_Type;

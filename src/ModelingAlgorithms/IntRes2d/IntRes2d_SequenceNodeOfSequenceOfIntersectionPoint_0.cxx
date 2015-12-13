@@ -5,7 +5,7 @@
 
 #include <IntRes2d_SequenceNodeOfSequenceOfIntersectionPoint.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <IntRes2d_IntersectionPoint.hxx>
 #include <IntRes2d_SequenceOfIntersectionPoint.hxx>

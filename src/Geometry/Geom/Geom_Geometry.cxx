@@ -17,14 +17,14 @@
 //JCV 09/07/92 portage sur C1
 
 
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Ax1.hxx>
 #include <gp_Ax2.hxx>
 #include <gp_Vec.hxx>
 #include <gp_Trsf.hxx>
 #include <Geom_Geometry.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Geom_Geometry)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),
@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(Geom_Geometry)
 IMPLEMENT_DOWNCAST(Geom_Geometry,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Geom_Geometry)
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 
 typedef Handle(Geom_Geometry) Handle(Geometry);
 typedef Geom_Geometry         Geometry;

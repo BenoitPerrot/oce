@@ -6,7 +6,7 @@
 #ifndef _IGESData_ReadStage_HeaderFile
 #define _IGESData_ReadStage_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! gives successive stages of reading an entity (see ParamReader)
 enum IGESData_ReadStage

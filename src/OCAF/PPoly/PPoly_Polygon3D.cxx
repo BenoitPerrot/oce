@@ -15,7 +15,7 @@
 #include <PColgp_HArray1OfPnt.hxx>
 #include <PColStd_HArray1OfReal.hxx>
 #include <PPoly_Polygon3D.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PPoly_Polygon3D)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Standard_Persistent),

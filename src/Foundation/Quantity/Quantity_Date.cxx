@@ -19,8 +19,8 @@
 #include <Foundation/Quantity/Quantity_Date.hxx>
 #include <Foundation/Quantity/Quantity_DateDefinitionError.hxx>
 #include <Foundation/Quantity/Quantity_Period.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 IMPLEMENT_STANDARD_TYPE(Quantity_Date)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

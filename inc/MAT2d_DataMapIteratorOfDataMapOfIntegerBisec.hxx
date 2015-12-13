@@ -6,12 +6,12 @@
 #ifndef _MAT2d_DataMapIteratorOfDataMapOfIntegerBisec_HeaderFile
 #define _MAT2d_DataMapIteratorOfDataMapOfIntegerBisec_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TCollection_BasicMapIterator.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_MAT2d_DataMapNodeOfDataMapOfIntegerBisec.hxx>
 class Standard_NoSuchObject;
 class Bisector_Bisec;

@@ -6,18 +6,18 @@
 #ifndef _PCDM_ReferenceIterator_HeaderFile
 #define _PCDM_ReferenceIterator_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_PCDM_ReferenceIterator.hxx>
 
 #include <PCDM_SequenceOfReference.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_CDM_MessageDriver.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <Handle_CDM_Document.hxx>
 #include <Handle_CDM_MetaData.hxx>
 #include <Handle_CDM_Application.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class CDM_MessageDriver;
 class CDM_Document;
 class CDM_MetaData;

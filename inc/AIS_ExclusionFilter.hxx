@@ -6,15 +6,15 @@
 #ifndef _AIS_ExclusionFilter_HeaderFile
 #define _AIS_ExclusionFilter_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_AIS_ExclusionFilter.hxx>
 
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <TColStd_DataMapOfIntegerListOfInteger.hxx>
 #include <SelectMgr_Filter.hxx>
 #include <AIS_KindOfInteractive.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_SelectMgr_EntityOwner.hxx>
 class SelectMgr_EntityOwner;
 class TColStd_ListOfInteger;

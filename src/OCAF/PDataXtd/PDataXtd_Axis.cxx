@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <PDataXtd_Axis.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PDataXtd_Axis)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(PDF_Attribute),

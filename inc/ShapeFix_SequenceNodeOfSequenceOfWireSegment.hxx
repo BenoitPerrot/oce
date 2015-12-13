@@ -6,8 +6,8 @@
 #ifndef _ShapeFix_SequenceNodeOfSequenceOfWireSegment_HeaderFile
 #define _ShapeFix_SequenceNodeOfSequenceOfWireSegment_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ShapeFix_SequenceNodeOfSequenceOfWireSegment.hxx>
 
 #include <ShapeFix_WireSegment.hxx>

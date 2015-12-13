@@ -6,12 +6,12 @@
 #include <IGESData_SpecificLib.hxx>
 
 #include <IGESData_NodeOfSpecificLib.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <IGESData_IGESEntity.hxx>
 #include <IGESData_SpecificModule.hxx>
 #include <IGESData_Protocol.hxx>
 #include <IGESData_GlobalNodeOfSpecificLib.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
  
 
 #define TheObject Handle(IGESData_IGESEntity)

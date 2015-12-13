@@ -6,8 +6,8 @@
 #ifndef _Interface_GTool_HeaderFile
 #define _Interface_GTool_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Interface_GTool.hxx>
 
 #include <Handle_Interface_Protocol.hxx>
@@ -16,11 +16,11 @@
 #include <Interface_DataMapOfTransientInteger.hxx>
 #include <TColStd_IndexedDataMapOfTransientTransient.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Handle_Interface_InterfaceModel.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Interface_GeneralModule.hxx>
 class Interface_Protocol;
 class Interface_SignType;

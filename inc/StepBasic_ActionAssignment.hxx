@@ -6,8 +6,8 @@
 #ifndef _StepBasic_ActionAssignment_HeaderFile
 #define _StepBasic_ActionAssignment_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepBasic_ActionAssignment.hxx>
 
 #include <Handle_StepBasic_Action.hxx>

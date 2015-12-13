@@ -6,12 +6,12 @@
 #ifndef _RWStepElement_RWVolume3dElementDescriptor_HeaderFile
 #define _RWStepElement_RWVolume3dElementDescriptor_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_StepData_StepReaderData.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Interface_Check.hxx>
 #include <Handle_StepElement_Volume3dElementDescriptor.hxx>
 class StepData_StepReaderData;

@@ -6,8 +6,8 @@
 #ifndef _IGESSelect_UpdateFileName_HeaderFile
 #define _IGESSelect_UpdateFileName_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESSelect_UpdateFileName.hxx>
 
 #include <IGESSelect_ModelModifier.hxx>

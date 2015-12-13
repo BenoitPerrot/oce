@@ -6,15 +6,15 @@
 #ifndef _TopOpeBRepBuild_BlockBuilder_HeaderFile
 #define _TopOpeBRepBuild_BlockBuilder_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TColStd_DataMapOfIntegerInteger.hxx>
 #include <TopTools_IndexedMapOfOrientedShape.hxx>
 #include <TColStd_SequenceOfInteger.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class TopOpeBRepBuild_ShapeSet;
 class TopOpeBRepBuild_BlockIterator;
 class TopoDS_Shape;

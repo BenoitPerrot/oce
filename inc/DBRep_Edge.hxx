@@ -6,8 +6,8 @@
 #ifndef _DBRep_Edge_HeaderFile
 #define _DBRep_Edge_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_DBRep_Edge.hxx>
 
 #include <TopoDS_Edge.hxx>

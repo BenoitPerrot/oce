@@ -6,12 +6,12 @@
 #ifndef _XCAFPrs_Driver_HeaderFile
 #define _XCAFPrs_Driver_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_XCAFPrs_Driver.hxx>
 
 #include <TPrsStd_Driver.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_AIS_InteractiveObject.hxx>
 class TDF_Label;
 class AIS_InteractiveObject;

@@ -6,16 +6,16 @@
 #ifndef _AIS_Shape_HeaderFile
 #define _AIS_Shape_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_AIS_Shape.hxx>
 
 #include <TopoDS_Shape.hxx>
 #include <Bnd_Box.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <AIS_InteractiveObject.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <AIS_KindOfInteractive.hxx>
 #include <Prs3d_TypeOfHLR.hxx>
 #include <PrsMgr_PresentationManager3d.hxx>

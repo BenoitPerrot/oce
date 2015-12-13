@@ -16,7 +16,7 @@
 #ifndef _Handle_OpenGl_Window_Header
 #define _Handle_OpenGl_Window_Header
 
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_MMgt_TShared.hxx>
 
 class OpenGl_Window;

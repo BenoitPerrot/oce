@@ -6,17 +6,17 @@
 #ifndef _Transfer_TransientListBinder_HeaderFile
 #define _Transfer_TransientListBinder_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Transfer_TransientListBinder.hxx>
 
 #include <Handle_TColStd_HSequenceOfTransient.hxx>
 #include <Transfer_Binder.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Standard_Type.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_Standard_Transient.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class TColStd_HSequenceOfTransient;
 class Standard_TypeMismatch;
 class Standard_OutOfRange;

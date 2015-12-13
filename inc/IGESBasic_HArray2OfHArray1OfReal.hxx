@@ -6,14 +6,14 @@
 #ifndef _IGESBasic_HArray2OfHArray1OfReal_HeaderFile
 #define _IGESBasic_HArray2OfHArray1OfReal_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESBasic_HArray2OfHArray1OfReal.hxx>
 
 #include <IGESBasic_Array2OfHArray1OfReal.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_TColStd_HArray1OfReal.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_OutOfRange;
 class Standard_OutOfMemory;

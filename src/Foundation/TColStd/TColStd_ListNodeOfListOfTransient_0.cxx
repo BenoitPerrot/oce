@@ -5,9 +5,9 @@
 
 #include <TColStd_ListNodeOfListOfTransient.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <TColStd_ListOfTransient.hxx>
 #include <TColStd_ListIteratorOfListOfTransient.hxx>
 
@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_RTTI(TColStd_ListNodeOfListOfTransient)
 
 
 #define Item Handle(Standard_Transient)
-#define Item_hxx <Standard_Transient.hxx>
+#define Item_hxx <Foundation/Standard/Standard_Transient.hxx>
 #define TCollection_ListNode TColStd_ListNodeOfListOfTransient
 #define TCollection_ListNode_hxx <TColStd_ListNodeOfListOfTransient.hxx>
 #define TCollection_ListIterator TColStd_ListIteratorOfListOfTransient

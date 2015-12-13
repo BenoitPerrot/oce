@@ -14,7 +14,7 @@
 #include <Vrml_Material.hxx>
 #include <Vrml_ShapeHints.hxx>
 #include <VrmlConverter_ShadingAspect.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(VrmlConverter_ShadingAspect)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

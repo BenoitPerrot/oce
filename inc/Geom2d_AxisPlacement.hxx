@@ -6,13 +6,13 @@
 #ifndef _Geom2d_AxisPlacement_HeaderFile
 #define _Geom2d_AxisPlacement_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Geom2d_AxisPlacement.hxx>
 
 #include <gp_Ax2d.hxx>
 #include <Geom2d_Geometry.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Geom2d_Geometry.hxx>
 class gp_Ax2d;
 class gp_Pnt2d;

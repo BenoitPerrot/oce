@@ -16,7 +16,7 @@
 
 #include <TCollection_AsciiString.hxx>
 #include <Graphic3d_TextureMap.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Graphic3d_TextureMap)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Graphic3d_TextureRoot),

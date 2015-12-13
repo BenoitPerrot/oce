@@ -6,9 +6,9 @@
 #ifndef _IntTools_QuickSortRange_HeaderFile
 #define _IntTools_QuickSortRange_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 class IntTools_Range;
 class IntTools_Array1OfRange;

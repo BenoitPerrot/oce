@@ -6,11 +6,11 @@
 #ifndef _MDF_ASDriverTable_HeaderFile
 #define _MDF_ASDriverTable_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_MDF_ASDriverTable.hxx>
 
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <MDF_TypeASDriverMap.hxx>
 #include <MDF_TypeDriverListMapOfASDriverTable.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
@@ -18,7 +18,7 @@
 #include <Handle_MDF_ASDriverHSequence.hxx>
 #include <Handle_MDF_ListNodeOfDriverListOfASDriverTable.hxx>
 #include <Handle_MDF_DataMapNodeOfTypeDriverListMapOfASDriverTable.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Standard_Type.hxx>
 class MDF_ASDriver;
 class MDF_ASDriverHSequence;

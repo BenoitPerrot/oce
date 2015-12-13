@@ -8,7 +8,7 @@
  
 
 #define Item Standard_Real
-#define Item_hxx <Standard_Real.hxx>
+#define Item_hxx <Foundation/Standard/Standard_Real.hxx>
 #define TCollection_Compare TCollection_PrivCompareOfReal
 #define TCollection_Compare_hxx <TCollection_PrivCompareOfReal.hxx>
 #include <TCollection_Compare.gxx>

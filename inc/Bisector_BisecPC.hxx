@@ -6,16 +6,16 @@
 #ifndef _Bisector_BisecPC_HeaderFile
 #define _Bisector_BisecPC_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Bisector_BisecPC.hxx>
 
 #include <Handle_Geom2d_Curve.hxx>
 #include <gp_Pnt2d.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <TColStd_SequenceOfReal.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Bisector_Curve.hxx>
 #include <Handle_Geom2d_Geometry.hxx>
 #include <GeomAbs_Shape.hxx>

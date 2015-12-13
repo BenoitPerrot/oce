@@ -12,13 +12,13 @@
 // commercial license or contractual agreement.
 
 #include <TColStd_HSequenceOfHAsciiString.hxx>
-#include <Standard_Transient.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Message/Message_Msg.hxx>
 #include <TCollection_HAsciiString.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <Interface_Check.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Interface_Check)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),
@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(Interface_Check)
 IMPLEMENT_DOWNCAST(Interface_Check,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Interface_Check)
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <Foundation/Message/Message.hxx>
 

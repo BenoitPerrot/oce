@@ -30,8 +30,8 @@
 #include <Adaptor3d_Curve.hxx>
 #include <ShapeAnalysis_Edge.hxx>
 
-#include <Standard_ErrorHandler.hxx>
-#include <Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
 
 #include <Precision.hxx>
 

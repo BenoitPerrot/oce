@@ -6,14 +6,14 @@
 #ifndef _ChFiDS_ListIteratorOfListOfHElSpine_HeaderFile
 #define _ChFiDS_ListIteratorOfListOfHElSpine_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
 #include <Handle_ChFiDS_HElSpine.hxx>
 #include <Handle_ChFiDS_ListNodeOfListOfHElSpine.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_NoMoreObject;
 class Standard_NoSuchObject;
 class ChFiDS_ListOfHElSpine;

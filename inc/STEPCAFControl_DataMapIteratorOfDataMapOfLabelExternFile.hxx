@@ -6,9 +6,9 @@
 #ifndef _STEPCAFControl_DataMapIteratorOfDataMapOfLabelExternFile_HeaderFile
 #define _STEPCAFControl_DataMapIteratorOfDataMapOfLabelExternFile_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TCollection_BasicMapIterator.hxx>
 #include <Handle_STEPCAFControl_ExternFile.hxx>

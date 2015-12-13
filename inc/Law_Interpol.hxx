@@ -6,13 +6,13 @@
 #ifndef _Law_Interpol_HeaderFile
 #define _Law_Interpol_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Law_Interpol.hxx>
 
 #include <Law_BSpFunc.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class TColgp_Array1OfPnt2d;
 
 

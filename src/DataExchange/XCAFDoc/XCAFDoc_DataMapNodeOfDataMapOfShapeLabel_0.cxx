@@ -5,7 +5,7 @@
 
 #include <XCAFDoc_DataMapNodeOfDataMapOfShapeLabel.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TopoDS_Shape.hxx>
 #include <TDF_Label.hxx>

@@ -6,7 +6,7 @@
 #include <HLRBRep_ThePolyhedronOfInterCSurf.hxx>
 
 #include <Bnd_HArray1OfBox.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <HLRBRep_SurfaceTool.hxx>
 #include <TColStd_Array1OfReal.hxx>
 #include <gp_Pnt.hxx>
@@ -15,7 +15,7 @@
  
 
 #define ThePSurface Standard_Address
-#define ThePSurface_hxx <Standard_Address.hxx>
+#define ThePSurface_hxx <Foundation/Standard/Standard_Address.hxx>
 #define ThePSurfaceTool HLRBRep_SurfaceTool
 #define ThePSurfaceTool_hxx <HLRBRep_SurfaceTool.hxx>
 #define IntCurveSurface_Polyhedron HLRBRep_ThePolyhedronOfInterCSurf

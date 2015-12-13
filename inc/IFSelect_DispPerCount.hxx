@@ -6,14 +6,14 @@
 #ifndef _IFSelect_DispPerCount_HeaderFile
 #define _IFSelect_DispPerCount_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IFSelect_DispPerCount.hxx>
 
 #include <Handle_IFSelect_IntParam.hxx>
 #include <IFSelect_Dispatch.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class IFSelect_IntParam;
 class Interface_InterfaceError;
 class TCollection_AsciiString;

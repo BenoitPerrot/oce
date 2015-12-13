@@ -6,14 +6,14 @@
 #ifndef _BRepFill_Evolved_HeaderFile
 #define _BRepFill_Evolved_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TopoDS_Face.hxx>
 #include <TopoDS_Wire.hxx>
 #include <TopoDS_Shape.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <GeomAbs_JoinType.hxx>
 #include <BRepFill_DataMapOfShapeDataMapOfShapeListOfShape.hxx>
 class Standard_ConstructionError;

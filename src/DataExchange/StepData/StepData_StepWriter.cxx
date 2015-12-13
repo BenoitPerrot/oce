@@ -28,7 +28,7 @@
 #include <StepData_SelectMember.hxx>
 #include <StepData_FieldList.hxx>
 #include <StepData_ESDescr.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <TColStd_HArray1OfReal.hxx>
 #include <Interface_CheckIterator.hxx>
 #include <StepData_StepWriter.hxx>
@@ -44,7 +44,7 @@
 #include <Interface_ReportEntity.hxx>
 #include <Interface_Check.hxx>
 #include <Interface_InterfaceMismatch.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Interface_Macros.hxx>
 #include <stdio.h>
 

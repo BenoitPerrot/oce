@@ -6,11 +6,11 @@
 #ifndef _StepElement_UniformSurfaceSection_HeaderFile
 #define _StepElement_UniformSurfaceSection_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepElement_UniformSurfaceSection.hxx>
 
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <StepElement_MeasureOrUnspecifiedValue.hxx>
 #include <StepElement_SurfaceSection.hxx>
 class StepElement_MeasureOrUnspecifiedValue;

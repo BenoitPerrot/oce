@@ -6,12 +6,12 @@
 #ifndef _PBRep_Polygon3D_HeaderFile
 #define _PBRep_Polygon3D_HeaderFile
 
-#include <Standard_Macro.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Handle_PBRep_Polygon3D.hxx>
 
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_PPoly_Polygon3D.hxx>
 #include <PBRep_CurveRepresentation.hxx>
 class PPoly_Polygon3D;

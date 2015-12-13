@@ -5,7 +5,7 @@
 
 #include <BRepFill_DataMapIteratorOfDataMapOfNodeDataMapOfShapeShape.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <MAT_Node.hxx>
 #include <TopTools_DataMapOfShapeShape.hxx>
 #include <TColStd_MapTransientHasher.hxx>

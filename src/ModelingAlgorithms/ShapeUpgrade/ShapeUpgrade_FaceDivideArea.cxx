@@ -13,7 +13,7 @@
 
 #include <TopoDS_Face.hxx>
 #include <ShapeUpgrade_FaceDivideArea.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeUpgrade_FaceDivideArea)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(ShapeUpgrade_FaceDivide),

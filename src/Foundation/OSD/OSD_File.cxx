@@ -18,17 +18,17 @@
 
 #ifndef _WIN32
 
-#include <Standard_ProgramError.hxx>
+#include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <Foundation/OSD/OSD_OSDError.hxx>
 #include <Foundation/OSD/OSD_WhoAmI.hxx>
 #include <Foundation/OSD/OSD_FromWhere.hxx>
-#include <Standard_ProgramError.hxx>
+#include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <Foundation/OSD/OSD_Path.hxx>
 #include <Foundation/OSD/OSD_Protection.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <Foundation/OSD/OSD_Printer.hxx>
 #include <Foundation/OSD/OSD_File.hxx>
-#include <Standard_PCharacter.hxx>
+#include <Foundation/Standard/Standard_PCharacter.hxx>
 
 const OSD_WhoAmI Iam = OSD_WFile;
 
@@ -824,7 +824,7 @@ Standard_Boolean OSD_File::IsExecutable()
 #include <Foundation/OSD/OSD_File.hxx>
 #include <Foundation/OSD/OSD_Protection.hxx>
 #include <Foundation/OSD/OSD_Printer.hxx>
-#include <Standard_ProgramError.hxx>
+#include <Foundation/Standard/Standard_ProgramError.hxx>
 
 #include <Foundation/OSD/OSD_WNT_1.hxx>
 
@@ -833,7 +833,7 @@ Standard_Boolean OSD_File::IsExecutable()
 #if !defined (_MSC_VER) || (_MSC_VER >= 1600)
 #include <stdint.h>
 #endif
-#include <Standard_PCharacter.hxx>
+#include <Foundation/Standard/Standard_PCharacter.hxx>
 #include <TCollection_ExtendedString.hxx>
 
 #ifndef _INC_TCHAR

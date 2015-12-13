@@ -6,15 +6,15 @@
 #ifndef _Geom_BezierSurface_HeaderFile
 #define _Geom_BezierSurface_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Geom_BezierSurface.hxx>
 
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_TColgp_HArray2OfPnt.hxx>
 #include <Handle_TColStd_HArray2OfReal.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Geom_BoundedSurface.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <Handle_Geom_Curve.hxx>

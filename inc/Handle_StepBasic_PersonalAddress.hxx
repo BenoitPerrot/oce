@@ -6,8 +6,8 @@
 #ifndef _Handle_StepBasic_PersonalAddress_HeaderFile
 #define _Handle_StepBasic_PersonalAddress_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepBasic_Address.hxx>
 
 class Standard_Transient;

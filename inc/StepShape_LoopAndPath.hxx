@@ -6,8 +6,8 @@
 #ifndef _StepShape_LoopAndPath_HeaderFile
 #define _StepShape_LoopAndPath_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepShape_LoopAndPath.hxx>
 
 #include <Handle_StepShape_Loop.hxx>
@@ -16,7 +16,7 @@
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Handle_StepShape_HArray1OfOrientedEdge.hxx>
 #include <Handle_StepShape_OrientedEdge.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class StepShape_Loop;
 class StepShape_Path;
 class TCollection_HAsciiString;

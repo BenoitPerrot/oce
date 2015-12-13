@@ -6,7 +6,7 @@
 #ifndef _FilletSurf_ErrorTypeStatus_HeaderFile
 #define _FilletSurf_ErrorTypeStatus_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum FilletSurf_ErrorTypeStatus

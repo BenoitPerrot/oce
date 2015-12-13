@@ -6,12 +6,12 @@
 #ifndef _IGESSelect_Dumper_HeaderFile
 #define _IGESSelect_Dumper_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESSelect_Dumper.hxx>
 
 #include <IFSelect_SessionDumper.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Standard_Transient.hxx>
 class IFSelect_SessionFile;
 class Standard_Transient;

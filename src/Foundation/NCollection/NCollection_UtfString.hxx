@@ -18,7 +18,7 @@
 
 #include "NCollection_UtfIterator.hxx"
 
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard.hxx>
 
 #include <cstring>
 #include <cstdlib>

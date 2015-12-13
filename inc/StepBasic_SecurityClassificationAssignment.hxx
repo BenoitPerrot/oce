@@ -6,8 +6,8 @@
 #ifndef _StepBasic_SecurityClassificationAssignment_HeaderFile
 #define _StepBasic_SecurityClassificationAssignment_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepBasic_SecurityClassificationAssignment.hxx>
 
 #include <Handle_StepBasic_SecurityClassification.hxx>

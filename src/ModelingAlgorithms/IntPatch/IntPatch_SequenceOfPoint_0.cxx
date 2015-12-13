@@ -5,8 +5,8 @@
 
 #include <IntPatch_SequenceOfPoint.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <IntPatch_Point.hxx>
 #include <IntPatch_SequenceNodeOfSequenceOfPoint.hxx>
  

@@ -5,7 +5,7 @@
 
 #include <FEmTool_ListNodeOfListOfVectors.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TColStd_HArray1OfReal.hxx>
 #include <FEmTool_ListOfVectors.hxx>

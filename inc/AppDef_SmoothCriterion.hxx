@@ -6,17 +6,17 @@
 #ifndef _AppDef_SmoothCriterion_HeaderFile
 #define _AppDef_SmoothCriterion_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_AppDef_SmoothCriterion.hxx>
 
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_TColStd_HArray1OfReal.hxx>
 #include <Handle_FEmTool_Curve.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_FEmTool_HAssemblyTable.hxx>
 #include <Handle_TColStd_HArray2OfInteger.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <math_Vector.hxx>
 class Standard_NotImplemented;
 class Standard_DomainError;

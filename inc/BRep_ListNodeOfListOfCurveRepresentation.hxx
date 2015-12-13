@@ -6,8 +6,8 @@
 #ifndef _BRep_ListNodeOfListOfCurveRepresentation_HeaderFile
 #define _BRep_ListNodeOfListOfCurveRepresentation_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BRep_ListNodeOfListOfCurveRepresentation.hxx>
 
 #include <Handle_BRep_CurveRepresentation.hxx>

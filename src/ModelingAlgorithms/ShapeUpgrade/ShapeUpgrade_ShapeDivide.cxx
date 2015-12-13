@@ -34,8 +34,8 @@
 #include <TopoDS_Vertex.hxx>
 #include <BRep_Builder.hxx>
 #include <ShapeUpgrade_WireDivide.hxx>
-#include <Standard_ErrorHandler.hxx>
-#include <Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
 
 //=======================================================================
 //function : ShapeUpgrade_ShapeDivide

@@ -16,8 +16,8 @@
 #ifndef _IVtkDraw_Interactor_HeaderFile
 #define _IVtkDraw_Interactor_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 
 #ifdef _WIN32

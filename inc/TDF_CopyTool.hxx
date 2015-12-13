@@ -6,13 +6,13 @@
 #ifndef _TDF_CopyTool_HeaderFile
 #define _TDF_CopyTool_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_TDF_DataSet.hxx>
 #include <Handle_TDF_RelocationTable.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class TDF_DataSet;
 class TDF_RelocationTable;
 class TDF_IDFilter;

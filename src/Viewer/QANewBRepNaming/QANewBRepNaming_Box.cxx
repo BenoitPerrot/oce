@@ -21,7 +21,7 @@
 #include <QANewBRepNaming_Loader.hxx>
 #include <TNaming_Builder.hxx>
 #include <TDF_Label.hxx>
-#include <Standard_NullObject.hxx>
+#include <Foundation/Standard/Standard_NullObject.hxx>
 #include <TopoDS_Solid.hxx>
 
 //=======================================================================

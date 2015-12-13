@@ -6,7 +6,7 @@
 #ifndef _StepBasic_SiUnitName_HeaderFile
 #define _StepBasic_SiUnitName_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum StepBasic_SiUnitName

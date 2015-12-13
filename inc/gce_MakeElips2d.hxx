@@ -6,14 +6,14 @@
 #ifndef _gce_MakeElips2d_HeaderFile
 #define _gce_MakeElips2d_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <gp_Elips2d.hxx>
 #include <gce_Root.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class StdFail_NotDone;
 class gp_Ax2d;
 class gp_Ax22d;

@@ -24,7 +24,7 @@
 #include <Bnd_Box.hxx>
 #include <AIS_Drawer.hxx>
 #include <AIS_Shape.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_Shape)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(AIS_InteractiveObject),
@@ -38,7 +38,7 @@ IMPLEMENT_DOWNCAST(AIS_Shape,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(AIS_Shape)
 
 
-#include <Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/OSD/OSD_Timer.hxx>
 #include <TColStd_ListIteratorOfListOfInteger.hxx>
 
@@ -91,8 +91,8 @@ IMPLEMENT_STANDARD_RTTI(AIS_Shape)
 #include <HLRBRep.hxx>
 #include <Precision.hxx>
 
-#include <Standard_Failure.hxx>
-#include <Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Select3D_SensitiveBox.hxx>
 #include <TopoDS_Iterator.hxx>
 

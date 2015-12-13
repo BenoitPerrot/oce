@@ -15,7 +15,7 @@
 
 #include <Poly_CoherentLink.hxx>
 #include <Poly_CoherentTriangle.hxx>
-#include <Standard_ProgramError.hxx>
+#include <Foundation/Standard/Standard_ProgramError.hxx>
 
 //=======================================================================
 //function : Poly_CoherentLink()

@@ -5,11 +5,11 @@
 
 #include <ShapeProcess_DictionaryOfOperator.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <ShapeProcess_DictionaryOfOperator.hxx>
 #include <ShapeProcess_Operator.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <ShapeProcess_IteratorOfDictionaryOfOperator.hxx>
 #include <ShapeProcess_StackItemOfDictionaryOfOperator.hxx>
 #include <TCollection_AsciiString.hxx>

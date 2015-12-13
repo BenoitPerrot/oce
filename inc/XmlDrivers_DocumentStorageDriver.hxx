@@ -6,14 +6,14 @@
 #ifndef _XmlDrivers_DocumentStorageDriver_HeaderFile
 #define _XmlDrivers_DocumentStorageDriver_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_XmlDrivers_DocumentStorageDriver.hxx>
 
 #include <XmlLDrivers_DocumentStorageDriver.hxx>
 #include <Handle_XmlMDF_ADriverTable.hxx>
 #include <Handle_CDM_MessageDriver.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <XmlObjMgt_Element.hxx>
 class TCollection_ExtendedString;
 class XmlMDF_ADriverTable;

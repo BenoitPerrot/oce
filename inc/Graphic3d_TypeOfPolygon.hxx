@@ -6,7 +6,7 @@
 #ifndef _Graphic3d_TypeOfPolygon_HeaderFile
 #define _Graphic3d_TypeOfPolygon_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! The type of polygon in a group in a structure.
 enum Graphic3d_TypeOfPolygon

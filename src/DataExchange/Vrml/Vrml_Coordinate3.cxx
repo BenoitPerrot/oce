@@ -13,7 +13,7 @@
 
 #include <TColgp_HArray1OfVec.hxx>
 #include <Vrml_Coordinate3.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Vrml_Coordinate3)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

@@ -6,18 +6,18 @@
 #ifndef _MeshVS_SensitiveSegment_HeaderFile
 #define _MeshVS_SensitiveSegment_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_MeshVS_SensitiveSegment.hxx>
 
 #include <gp_Pnt.hxx>
 #include <gp_Pnt2d.hxx>
 #include <Select3D_SensitiveSegment.hxx>
 #include <Handle_SelectBasics_EntityOwner.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Select3D_Projector.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class SelectBasics_EntityOwner;
 class gp_Pnt;
 class Select3D_Projector;

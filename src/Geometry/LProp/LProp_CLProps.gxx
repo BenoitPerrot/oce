@@ -14,7 +14,7 @@
 
 #include <LProp_Status.hxx>
 #include <LProp_NotDefined.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 
 static const Standard_Real MinStep   = 1.0e-7;
 

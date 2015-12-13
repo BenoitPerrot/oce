@@ -6,15 +6,15 @@
 #ifndef _StdSelect_BRepSelectionTool_HeaderFile
 #define _StdSelect_BRepSelectionTool_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_SelectMgr_Selection.hxx>
 #include <TopAbs_ShapeEnum.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_SelectMgr_SelectableObject.hxx>
 #include <Handle_StdSelect_BRepOwner.hxx>
 #include <Handle_Select3D_SensitiveEntity.hxx>

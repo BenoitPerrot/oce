@@ -6,12 +6,12 @@
 #ifndef _StepGeom_OffsetCurve3d_HeaderFile
 #define _StepGeom_OffsetCurve3d_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepGeom_OffsetCurve3d.hxx>
 
 #include <Handle_StepGeom_Curve.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <StepData_Logical.hxx>
 #include <Handle_StepGeom_Direction.hxx>
 #include <StepGeom_Curve.hxx>

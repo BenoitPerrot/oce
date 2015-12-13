@@ -6,7 +6,7 @@
 #ifndef _Graphic3d_TypeOfReflection_HeaderFile
 #define _Graphic3d_TypeOfReflection_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Nature of the reflection of a material.
 enum Graphic3d_TypeOfReflection

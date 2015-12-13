@@ -16,7 +16,7 @@
 #ifndef LDOM_XmlWriter_HeaderFile
 #define LDOM_XmlWriter_HeaderFile
 
-#include <Standard_TypeDef.hxx>
+#include <Foundation/Standard/Standard_TypeDef.hxx>
 #include <stdio.h>
 
 typedef char LXMLCh;

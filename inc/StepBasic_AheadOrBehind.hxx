@@ -6,7 +6,7 @@
 #ifndef _StepBasic_AheadOrBehind_HeaderFile
 #define _StepBasic_AheadOrBehind_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum StepBasic_AheadOrBehind

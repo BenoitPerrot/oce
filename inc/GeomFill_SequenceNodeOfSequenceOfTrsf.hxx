@@ -6,8 +6,8 @@
 #ifndef _GeomFill_SequenceNodeOfSequenceOfTrsf_HeaderFile
 #define _GeomFill_SequenceNodeOfSequenceOfTrsf_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_GeomFill_SequenceNodeOfSequenceOfTrsf.hxx>
 
 #include <gp_Trsf.hxx>

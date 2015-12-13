@@ -6,8 +6,8 @@
 #ifndef _StepAP203_CcDesignPersonAndOrganizationAssignment_HeaderFile
 #define _StepAP203_CcDesignPersonAndOrganizationAssignment_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepAP203_CcDesignPersonAndOrganizationAssignment.hxx>
 
 #include <Handle_StepAP203_HArray1OfPersonOrganizationItem.hxx>

@@ -13,8 +13,8 @@
 // commercial license or contractual agreement.
 
 #include <gp.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 
 #define Mat00 matrix[0][0]
 #define Mat01 matrix[0][1]

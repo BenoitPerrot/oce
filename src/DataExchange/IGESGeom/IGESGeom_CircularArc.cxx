@@ -21,7 +21,7 @@
 #include <gp_Pnt.hxx>
 #include <gp_Dir.hxx>
 #include <IGESGeom_CircularArc.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESGeom_CircularArc)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(IGESData_IGESEntity),

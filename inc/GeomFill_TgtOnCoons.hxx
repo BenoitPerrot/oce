@@ -6,14 +6,14 @@
 #ifndef _GeomFill_TgtOnCoons_HeaderFile
 #define _GeomFill_TgtOnCoons_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_GeomFill_TgtOnCoons.hxx>
 
 #include <Handle_GeomFill_CoonsAlgPatch.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <GeomFill_TgtField.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class GeomFill_CoonsAlgPatch;
 class gp_Vec;
 

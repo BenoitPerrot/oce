@@ -5,12 +5,12 @@
 
 #include <TColStd_HArray1OfByte.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
-#include <Standard_RangeError.hxx>
-#include <Standard_DimensionMismatch.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_OutOfMemory.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_DimensionMismatch.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfMemory.hxx>
 #include <TColStd_Array1OfByte.hxx>
 
  
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(TColStd_HArray1OfByte)
 
 
 #define ItemHArray1 Standard_Byte
-#define ItemHArray1_hxx <Standard_Byte.hxx>
+#define ItemHArray1_hxx <Foundation/Standard/Standard_Byte.hxx>
 #define TheArray1 TColStd_Array1OfByte
 #define TheArray1_hxx <TColStd_Array1OfByte.hxx>
 #define TCollection_HArray1 TColStd_HArray1OfByte

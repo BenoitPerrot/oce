@@ -6,13 +6,13 @@
 #ifndef _HLRTest_DrawablePolyEdgeTool_HeaderFile
 #define _HLRTest_DrawablePolyEdgeTool_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_HLRTest_DrawablePolyEdgeTool.hxx>
 
 #include <Handle_HLRBRep_PolyAlgo.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <HLRBRep_ListOfBPoint.hxx>
 #include <Draw_Drawable3D.hxx>
 class HLRBRep_PolyAlgo;

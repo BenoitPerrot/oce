@@ -6,16 +6,16 @@
 #ifndef _PColStd_HArray2OfPersistent_HeaderFile
 #define _PColStd_HArray2OfPersistent_HeaderFile
 
-#include <Standard_Macro.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Handle_PColStd_HArray2OfPersistent.hxx>
 
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Standard_Persistent.hxx>
 #include <PColStd_FieldOfHArray2OfPersistent.hxx>
-#include <Standard_Address.hxx>
-#include <Standard_Persistent.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Persistent.hxx>
 #include <Handle_PColStd_VArrayNodeOfFieldOfHArray2OfPersistent.hxx>
 class Standard_Persistent;
 class Standard_RangeError;
@@ -95,7 +95,7 @@ private:
 };
 
 #define Item Handle(Standard_Persistent)
-#define Item_hxx <Standard_Persistent.hxx>
+#define Item_hxx <Foundation/Standard/Standard_Persistent.hxx>
 #define PCollection_FieldOfHArray2 PColStd_FieldOfHArray2OfPersistent
 #define PCollection_FieldOfHArray2_hxx <PColStd_FieldOfHArray2OfPersistent.hxx>
 #define PCollection_VArrayNodeOfFieldOfHArray2 PColStd_VArrayNodeOfFieldOfHArray2OfPersistent

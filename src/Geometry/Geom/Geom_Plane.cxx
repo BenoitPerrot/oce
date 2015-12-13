@@ -14,8 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_ConstructionError.hxx>
-#include <Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
 #include <gp_Ax3.hxx>
 #include <gp_Pln.hxx>
 #include <gp_Pnt.hxx>
@@ -26,7 +26,7 @@
 #include <gp_Vec.hxx>
 #include <Geom_Geometry.hxx>
 #include <Geom_Plane.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Geom_Plane)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Geom_ElementarySurface),
@@ -40,7 +40,7 @@ IMPLEMENT_DOWNCAST(Geom_Plane,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Geom_Plane)
 
 #include <Precision.hxx>
-#include <Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
 
 #include <gp_XYZ.hxx>
 #include <gp.hxx>

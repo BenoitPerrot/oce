@@ -11,14 +11,14 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Interface_GTool.hxx>
 #include <Interface_CheckFailure.hxx>
 #include <Interface_InterfaceModel.hxx>
 #include <Interface_Protocol.hxx>
 #include <Interface_Graph.hxx>
 #include <Interface_HGraph.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <Interface_ShareTool.hxx>
 #include <Interface_Check.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
@@ -32,7 +32,7 @@
 #include <Interface_GeneralModule.hxx>
 #include <Interface_CheckFailure.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
-#include <Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
 #ifdef WNT
 #include <Foundation/OSD/OSD_Exception.hxx>
 #else

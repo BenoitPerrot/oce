@@ -6,14 +6,14 @@
 #ifndef _StepFEA_SequenceOfCurve3dElementProperty_HeaderFile
 #define _StepFEA_SequenceOfCurve3dElementProperty_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TCollection_BaseSequence.hxx>
 #include <Handle_StepFEA_Curve3dElementProperty.hxx>
 #include <Handle_StepFEA_SequenceNodeOfSequenceOfCurve3dElementProperty.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;
 class Standard_OutOfRange;
 class StepFEA_Curve3dElementProperty;

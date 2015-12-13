@@ -6,8 +6,8 @@
 #ifndef _XSDRAWSTLVRML_DrawableMesh_HeaderFile
 #define _XSDRAWSTLVRML_DrawableMesh_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_XSDRAWSTLVRML_DrawableMesh.hxx>
 
 #include <Handle_MeshVS_Mesh.hxx>

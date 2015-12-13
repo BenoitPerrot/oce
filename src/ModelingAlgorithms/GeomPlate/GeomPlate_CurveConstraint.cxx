@@ -24,12 +24,12 @@
 #include <Geom2d_Curve.hxx>
 #include <Adaptor2d_HCurve2d.hxx>
 #include <Law_Function.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <GeomLProp_SLProps.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Vec.hxx>
 #include <GeomPlate_CurveConstraint.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(GeomPlate_CurveConstraint)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

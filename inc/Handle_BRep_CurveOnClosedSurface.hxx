@@ -6,8 +6,8 @@
 #ifndef _Handle_BRep_CurveOnClosedSurface_HeaderFile
 #define _Handle_BRep_CurveOnClosedSurface_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BRep_CurveOnSurface.hxx>
 
 class Standard_Transient;

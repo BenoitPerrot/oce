@@ -20,7 +20,7 @@
 #include <StepElement_HSequenceOfElementMaterial.hxx>
 #include <StepFEA_HSequenceOfElementGeometricRelationship.hxx>
 #include <StepFEA_HSequenceOfElementRepresentation.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 #include <StepElement_HSequenceOfCurveElementSectionDefinition.hxx>
 #include <StepFEA_Curve3dElementRepresentation.hxx>
 #include <StepFEA_ElementRepresentation.hxx>

@@ -6,13 +6,13 @@
 #ifndef _DsgPrs_ShapeDirPresentation_HeaderFile
 #define _DsgPrs_ShapeDirPresentation_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_Prs3d_Presentation.hxx>
 #include <Handle_Prs3d_Drawer.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Prs3d_Presentation;
 class Prs3d_Drawer;
 class TopoDS_Shape;

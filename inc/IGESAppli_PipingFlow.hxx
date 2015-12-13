@@ -6,17 +6,17 @@
 #ifndef _IGESAppli_PipingFlow_HeaderFile
 #define _IGESAppli_PipingFlow_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESAppli_PipingFlow.hxx>
 
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_IGESData_HArray1OfIGESEntity.hxx>
 #include <Handle_IGESDraw_HArray1OfConnectPoint.hxx>
 #include <Handle_Interface_HArray1OfHAsciiString.hxx>
 #include <Handle_IGESGraph_HArray1OfTextDisplayTemplate.hxx>
 #include <IGESData_IGESEntity.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_IGESData_IGESEntity.hxx>
 #include <Handle_IGESDraw_ConnectPoint.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>

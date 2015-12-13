@@ -6,8 +6,8 @@
 #ifndef _STEPConstruct_DataMapNodeOfDataMapOfPointTransient_HeaderFile
 #define _STEPConstruct_DataMapNodeOfDataMapOfPointTransient_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_STEPConstruct_DataMapNodeOfDataMapOfPointTransient.hxx>
 
 #include <gp_Pnt.hxx>
@@ -56,7 +56,7 @@ private:
 #define TheKey gp_Pnt
 #define TheKey_hxx <gp_Pnt.hxx>
 #define TheItem Handle(Standard_Transient)
-#define TheItem_hxx <Standard_Transient.hxx>
+#define TheItem_hxx <Foundation/Standard/Standard_Transient.hxx>
 #define Hasher STEPConstruct_PointHasher
 #define Hasher_hxx <STEPConstruct_PointHasher.hxx>
 #define TCollection_DataMapNode STEPConstruct_DataMapNodeOfDataMapOfPointTransient

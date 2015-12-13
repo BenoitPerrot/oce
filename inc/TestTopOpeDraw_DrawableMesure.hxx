@@ -6,15 +6,15 @@
 #ifndef _TestTopOpeDraw_DrawableMesure_HeaderFile
 #define _TestTopOpeDraw_DrawableMesure_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TestTopOpeDraw_DrawableMesure.hxx>
 
 #include <Handle_TColgp_HArray1OfPnt.hxx>
 #include <Draw_Color.hxx>
 #include <Handle_TestTopOpeDraw_DrawableC3D.hxx>
 #include <Handle_TestTopOpeDraw_HArray1OfDrawableP3D.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <TestTopOpeDraw_DrawableC3D.hxx>
 #include <Draw_Interpretor.hxx>
 class TColgp_HArray1OfPnt;

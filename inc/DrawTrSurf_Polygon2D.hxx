@@ -6,15 +6,15 @@
 #ifndef _DrawTrSurf_Polygon2D_HeaderFile
 #define _DrawTrSurf_Polygon2D_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_DrawTrSurf_Polygon2D.hxx>
 
 #include <Handle_Poly_Polygon2D.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Draw_Drawable2D.hxx>
 #include <Handle_Draw_Drawable3D.hxx>
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 #include <Draw_Interpretor.hxx>
 class Poly_Polygon2D;
 class Draw_Display;

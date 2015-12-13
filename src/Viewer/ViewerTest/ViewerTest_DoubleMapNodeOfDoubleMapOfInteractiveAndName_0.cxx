@@ -5,9 +5,9 @@
 
 #include <ViewerTest_DoubleMapNodeOfDoubleMapOfInteractiveAndName.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <TColStd_MapTransientHasher.hxx>
 #include <ViewerTest_DoubleMapOfInteractiveAndName.hxx>
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(ViewerTest_DoubleMapNodeOfDoubleMapOfInteractiveAndName)
 
 
 #define TheKey1 Handle(Standard_Transient)
-#define TheKey1_hxx <Standard_Transient.hxx>
+#define TheKey1_hxx <Foundation/Standard/Standard_Transient.hxx>
 #define TheKey2 TCollection_AsciiString
 #define TheKey2_hxx <TCollection_AsciiString.hxx>
 #define Hasher1 TColStd_MapTransientHasher

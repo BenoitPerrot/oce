@@ -6,8 +6,8 @@
 #ifndef _TopOpeBRepBuild_ListNodeOfListOfShapeListOfShape_HeaderFile
 #define _TopOpeBRepBuild_ListNodeOfListOfShapeListOfShape_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TopOpeBRepBuild_ListNodeOfListOfShapeListOfShape.hxx>
 
 #include <TopOpeBRepBuild_ShapeListOfShape.hxx>

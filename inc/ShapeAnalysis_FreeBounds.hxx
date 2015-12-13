@@ -6,13 +6,13 @@
 #ifndef _ShapeAnalysis_FreeBounds_HeaderFile
 #define _ShapeAnalysis_FreeBounds_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TopoDS_Compound.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_TopTools_HSequenceOfShape.hxx>
 class TopoDS_Shape;
 class TopoDS_Compound;

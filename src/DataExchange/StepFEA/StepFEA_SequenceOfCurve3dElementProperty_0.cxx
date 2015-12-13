@@ -5,8 +5,8 @@
 
 #include <StepFEA_SequenceOfCurve3dElementProperty.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <StepFEA_Curve3dElementProperty.hxx>
 #include <StepFEA_SequenceNodeOfSequenceOfCurve3dElementProperty.hxx>
  

@@ -13,13 +13,13 @@
 
 #include <IFSelect_Signature.hxx>
 #include <IFSelect_Selection.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <Interface_InterfaceModel.hxx>
 #include <TColStd_HSequenceOfTransient.hxx>
 #include <Interface_Graph.hxx>
 #include <TCollection_HAsciiString.hxx>
 #include <IFSelect_SignCounter.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IFSelect_SignCounter)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(IFSelect_SignatureList),

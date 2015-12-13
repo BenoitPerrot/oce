@@ -10,7 +10,7 @@
  
 
 #define Item Standard_ExtCharacter
-#define Item_hxx <Standard_ExtCharacter.hxx>
+#define Item_hxx <Foundation/Standard/Standard_ExtCharacter.hxx>
 #define DBC_VArrayNode DBC_VArrayNodeOfVArrayOfExtCharacter
 #define DBC_VArrayNode_hxx <DBC_VArrayNodeOfVArrayOfExtCharacter.hxx>
 #define DBC_VArrayTNode DBC_VArrayTNodeOfVArrayOfExtCharacter

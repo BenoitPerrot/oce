@@ -5,8 +5,8 @@
 
 #include <TDF_ListIteratorOfLabelList.hxx>
 
-#include <Standard_NoMoreObject.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoMoreObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TDF_LabelList.hxx>
 #include <TDF_Label.hxx>
 #include <TDF_ListNodeOfLabelList.hxx>

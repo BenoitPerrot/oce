@@ -6,8 +6,8 @@
 #ifndef _HLRBRep_ListNodeOfListOfBPoint_HeaderFile
 #define _HLRBRep_ListNodeOfListOfBPoint_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_HLRBRep_ListNodeOfListOfBPoint.hxx>
 
 #include <HLRBRep_BiPoint.hxx>

@@ -17,7 +17,7 @@
 #define _NCollection_Buffer_HeaderFile
 
 #include <Foundation/NCollection/NCollection_BaseAllocator.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 
 //! Low-level buffer object.
 class NCollection_Buffer : public Standard_Transient

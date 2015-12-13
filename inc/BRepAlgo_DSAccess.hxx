@@ -6,9 +6,9 @@
 #ifndef _BRepAlgo_DSAccess_HeaderFile
 #define _BRepAlgo_DSAccess_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_TopOpeBRepDS_HDataStructure.hxx>
 #include <TopOpeBRep_DSFiller.hxx>
@@ -17,13 +17,13 @@
 #include <TopoDS_Shape.hxx>
 #include <TopAbs_State.hxx>
 #include <TopTools_ListOfShape.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <TopoDS_Wire.hxx>
 #include <TColStd_ListOfInteger.hxx>
 #include <TopTools_DataMapOfShapeShape.hxx>
 #include <TColStd_PackedMapOfInteger.hxx>
 #include <BRepAlgo_CheckStatus.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <TopOpeBRepDS_Kind.hxx>
 class TopOpeBRepDS_HDataStructure;
 class TopOpeBRepBuild_HBuilder;

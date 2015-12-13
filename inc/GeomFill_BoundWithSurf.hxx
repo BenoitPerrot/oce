@@ -6,15 +6,15 @@
 #ifndef _GeomFill_BoundWithSurf_HeaderFile
 #define _GeomFill_BoundWithSurf_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_GeomFill_BoundWithSurf.hxx>
 
 #include <Adaptor3d_CurveOnSurface.hxx>
 #include <Handle_Law_Function.hxx>
 #include <GeomFill_Boundary.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class Law_Function;
 class Adaptor3d_CurveOnSurface;
 class gp_Pnt;

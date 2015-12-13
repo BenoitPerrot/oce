@@ -5,7 +5,7 @@
 
 #include <BRepFill_DataMapNodeOfDataMapOfShapeHArray2OfShape.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TopTools_HArray2OfShape.hxx>
 #include <TopoDS_Shape.hxx>

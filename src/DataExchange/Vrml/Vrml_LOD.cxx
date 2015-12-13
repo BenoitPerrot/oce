@@ -14,7 +14,7 @@
 #include <TColStd_HArray1OfReal.hxx>
 #include <gp_Vec.hxx>
 #include <Vrml_LOD.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Vrml_LOD)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

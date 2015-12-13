@@ -6,15 +6,15 @@
 #ifndef _IntCurve_MyImpParToolOfIntImpConicParConic_HeaderFile
 #define _IntCurve_MyImpParToolOfIntImpConicParConic_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
 #include <IntCurve_IConicTool.hxx>
 #include <math_FunctionWithDerivative.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class IntCurve_IConicTool;
 class IntCurve_PConic;
 class IntCurve_PConicTool;

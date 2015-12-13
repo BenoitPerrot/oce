@@ -15,7 +15,7 @@
 #include <StepBasic_Group.hxx>
 #include <StepAP214_AutoDesignGroupedItem.hxx>
 #include <StepAP214_AutoDesignGroupAssignment.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepAP214_AutoDesignGroupAssignment)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepBasic_GroupAssignment),

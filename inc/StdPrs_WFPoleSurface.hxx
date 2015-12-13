@@ -6,9 +6,9 @@
 #ifndef _StdPrs_WFPoleSurface_HeaderFile
 #define _StdPrs_WFPoleSurface_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Prs3d_Root.hxx>
 #include <Handle_Prs3d_Presentation.hxx>

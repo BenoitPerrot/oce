@@ -6,18 +6,18 @@
 #ifndef _TopOpeBRepDS_Check_HeaderFile
 #define _TopOpeBRepDS_Check_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TopOpeBRepDS_Check.hxx>
 
 #include <Handle_TopOpeBRepDS_HDataStructure.hxx>
 #include <TopOpeBRepDS_DataMapOfCheckStatus.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <TopOpeBRepDS_Kind.hxx>
-#include <Standard_OStream.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 #include <TopOpeBRepDS_CheckStatus.hxx>
 #include <TopAbs_ShapeEnum.hxx>
 class TopOpeBRepDS_HDataStructure;

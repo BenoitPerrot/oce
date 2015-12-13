@@ -17,14 +17,14 @@
 //--------------------------------------------------------------------
 
 #include <TColStd_HArray2OfTransient.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_NullObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NullObject.hxx>
 #include <IGESDefs_AttributeDef.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <TCollection_HAsciiString.hxx>
 #include <IGESData_IGESEntity.hxx>
 #include <IGESDefs_AttributeTable.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESDefs_AttributeTable)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(IGESData_IGESEntity),
@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESDefs_AttributeTable)
 IMPLEMENT_DOWNCAST(IGESDefs_AttributeTable,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESDefs_AttributeTable)
-#include <Standard_DimensionMismatch.hxx>
+#include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <TColStd_HArray1OfReal.hxx>
 #include <TColStd_HArray1OfInteger.hxx>
 #include <Interface_HArray1OfHAsciiString.hxx>

@@ -6,7 +6,7 @@
 #ifndef _StepElement_Volume3dElementShape_HeaderFile
 #define _StepElement_Volume3dElementShape_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum StepElement_Volume3dElementShape

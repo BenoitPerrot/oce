@@ -5,14 +5,14 @@
 
 #include <TColStd_Array1OfCharacter.hxx>
 
-#include <Standard_RangeError.hxx>
-#include <Standard_DimensionMismatch.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_OutOfMemory.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_DimensionMismatch.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfMemory.hxx>
  
 
 #define Array1Item Standard_Character
-#define Array1Item_hxx <Standard_Character.hxx>
+#define Array1Item_hxx <Foundation/Standard/Standard_Character.hxx>
 #define TCollection_Array1 TColStd_Array1OfCharacter
 #define TCollection_Array1_hxx <TColStd_Array1OfCharacter.hxx>
 #include <TCollection_Array1.gxx>

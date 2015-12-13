@@ -6,7 +6,7 @@
 #ifndef _Graphic3d_TypeOfComposition_HeaderFile
 #define _Graphic3d_TypeOfComposition_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! To manage the transformation matrices of structures.
 enum Graphic3d_TypeOfComposition

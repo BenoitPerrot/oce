@@ -23,7 +23,7 @@
 
 #include <Bnd_Array1OfBox.hxx>
 
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 
 #include <stdio.h>
 

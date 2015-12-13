@@ -5,7 +5,7 @@
 
 #include <Draw_SequenceNodeOfSequenceOfDrawable3D.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Draw_Drawable3D.hxx>
 #include <Draw_SequenceOfDrawable3D.hxx>

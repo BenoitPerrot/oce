@@ -17,8 +17,8 @@
 //  Modified by skv - Wed Aug 11 15:45:58 2004 OCC6272
 
 #include <GeomAbs_SurfaceType.hxx>
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <ProjLib_ProjectedCurve.hxx>
 #include <ProjLib_CompProjectedCurve.hxx>
 #include <ProjLib_HCompProjectedCurve.hxx>

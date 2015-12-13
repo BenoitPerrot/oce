@@ -19,7 +19,7 @@
 #include <InterfaceGraphic_Graphic3d.hxx>
 #include <Aspect_RenderingContext.hxx>
 #include <Aspect_GraphicCallbackProc.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 
 typedef float CALL_DEF_MATRIX4X4[4][4];
 

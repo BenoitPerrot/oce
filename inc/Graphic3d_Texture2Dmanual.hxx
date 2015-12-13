@@ -6,8 +6,8 @@
 #ifndef _Graphic3d_Texture2Dmanual_HeaderFile
 #define _Graphic3d_Texture2Dmanual_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Graphic3d_Texture2Dmanual.hxx>
 
 #include <Graphic3d_Texture2D.hxx>

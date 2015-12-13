@@ -5,13 +5,13 @@
 
 #include <IntTools_CArray1OfInteger.hxx>
 
-#include <Standard_ConstructionError.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_OutOfMemory.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfMemory.hxx>
  
 
 #define Array1Item Standard_Integer
-#define Array1Item_hxx <Standard_Integer.hxx>
+#define Array1Item_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define IntTools_CArray1 IntTools_CArray1OfInteger
 #define IntTools_CArray1_hxx <IntTools_CArray1OfInteger.hxx>
 #include <IntTools_CArray1.gxx>

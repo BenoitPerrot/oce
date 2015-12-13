@@ -5,9 +5,9 @@
 
 #include <STEPConstruct_DataMapNodeOfDataMapOfPointTransient.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <gp_Pnt.hxx>
 #include <STEPConstruct_PointHasher.hxx>
 #include <STEPConstruct_DataMapOfPointTransient.hxx>
@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(STEPConstruct_DataMapNodeOfDataMapOfPointTransient)
 #define TheKey gp_Pnt
 #define TheKey_hxx <gp_Pnt.hxx>
 #define TheItem Handle(Standard_Transient)
-#define TheItem_hxx <Standard_Transient.hxx>
+#define TheItem_hxx <Foundation/Standard/Standard_Transient.hxx>
 #define Hasher STEPConstruct_PointHasher
 #define Hasher_hxx <STEPConstruct_PointHasher.hxx>
 #define TCollection_DataMapNode STEPConstruct_DataMapNodeOfDataMapOfPointTransient

@@ -17,7 +17,7 @@
 
 #include <StepElement_CurveElementFreedom.hxx>
 #include <StepElement_CurveElementEndReleasePacket.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepElement_CurveElementEndReleasePacket)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

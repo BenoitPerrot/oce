@@ -6,7 +6,7 @@
 #ifndef _StdSelect_TypeOfFace_HeaderFile
 #define _StdSelect_TypeOfFace_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Provides values for different types of faces. These
 //! values are used to filter faces in frameworks inheriting

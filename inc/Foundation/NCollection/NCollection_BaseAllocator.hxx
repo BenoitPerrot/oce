@@ -28,7 +28,7 @@
 #define NCollection_BaseAllocator_HeaderFile
 
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/NCollection/NCollection_TypeDef.hxx>
 
 class Handle(NCollection_BaseAllocator);

@@ -6,8 +6,8 @@
 #ifndef _NLPlate_ListNodeOfStackOfPlate_HeaderFile
 #define _NLPlate_ListNodeOfStackOfPlate_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_NLPlate_ListNodeOfStackOfPlate.hxx>
 
 #include <Plate_Plate.hxx>

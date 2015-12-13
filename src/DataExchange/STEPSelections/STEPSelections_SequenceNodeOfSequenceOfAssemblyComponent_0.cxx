@@ -5,7 +5,7 @@
 
 #include <STEPSelections_SequenceNodeOfSequenceOfAssemblyComponent.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <STEPSelections_AssemblyComponent.hxx>
 #include <STEPSelections_SequenceOfAssemblyComponent.hxx>

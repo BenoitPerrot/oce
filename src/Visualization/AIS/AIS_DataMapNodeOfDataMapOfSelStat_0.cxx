@@ -5,7 +5,7 @@
 
 #include <AIS_DataMapNodeOfDataMapOfSelStat.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <SelectMgr_SelectableObject.hxx>
 #include <AIS_LocalStatus.hxx>

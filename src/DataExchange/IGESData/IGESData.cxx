@@ -31,8 +31,8 @@
 
 #include <Interface_Static.hxx>
 #include <Foundation/Message/Message_MsgFile.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/OSD/OSD_Process.hxx>
 
 #include <Interface_Version.hxx>

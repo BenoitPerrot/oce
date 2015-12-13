@@ -5,7 +5,7 @@
 
 #include <Select3D_ListOfSensitiveTriangle.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Select3D_ListIteratorOfListOfSensitiveTriangle.hxx>
 #include <Select3D_SensitiveTriangle.hxx>
 #include <Select3D_ListNodeOfListOfSensitiveTriangle.hxx>

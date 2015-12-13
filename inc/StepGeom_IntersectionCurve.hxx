@@ -6,8 +6,8 @@
 #ifndef _StepGeom_IntersectionCurve_HeaderFile
 #define _StepGeom_IntersectionCurve_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepGeom_IntersectionCurve.hxx>
 
 #include <StepGeom_SurfaceCurve.hxx>

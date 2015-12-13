@@ -11,11 +11,11 @@
  
 
 #define Curve1 Standard_Address
-#define Curve1_hxx <Standard_Address.hxx>
+#define Curve1_hxx <Foundation/Standard/Standard_Address.hxx>
 #define Tool1 HLRBRep_CurveTool
 #define Tool1_hxx <HLRBRep_CurveTool.hxx>
 #define Curve2 Standard_Address
-#define Curve2_hxx <Standard_Address.hxx>
+#define Curve2_hxx <Foundation/Standard/Standard_Address.hxx>
 #define Tool2 HLRBRep_CurveTool
 #define Tool2_hxx <HLRBRep_CurveTool.hxx>
 #define POnC Extrema_POnCurv2d

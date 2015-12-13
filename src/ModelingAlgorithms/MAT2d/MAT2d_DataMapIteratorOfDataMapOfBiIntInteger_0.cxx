@@ -5,7 +5,7 @@
 
 #include <MAT2d_DataMapIteratorOfDataMapOfBiIntInteger.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <MAT2d_BiInt.hxx>
 #include <MAT2d_MapBiIntHasher.hxx>
 #include <MAT2d_DataMapOfBiIntInteger.hxx>
@@ -15,7 +15,7 @@
 #define TheKey MAT2d_BiInt
 #define TheKey_hxx <MAT2d_BiInt.hxx>
 #define TheItem Standard_Integer
-#define TheItem_hxx <Standard_Integer.hxx>
+#define TheItem_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define Hasher MAT2d_MapBiIntHasher
 #define Hasher_hxx <MAT2d_MapBiIntHasher.hxx>
 #define TCollection_DataMapNode MAT2d_DataMapNodeOfDataMapOfBiIntInteger

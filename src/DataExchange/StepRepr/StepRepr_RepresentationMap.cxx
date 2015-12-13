@@ -14,7 +14,7 @@
 #include <StepRepr_RepresentationItem.hxx>
 #include <StepRepr_Representation.hxx>
 #include <StepRepr_RepresentationMap.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepRepr_RepresentationMap)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

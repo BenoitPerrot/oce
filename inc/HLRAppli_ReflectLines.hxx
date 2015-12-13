@@ -6,13 +6,13 @@
 #ifndef _HLRAppli_ReflectLines_HeaderFile
 #define _HLRAppli_ReflectLines_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <HLRAlgo_Projector.hxx>
 #include <TopoDS_Shape.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class TopoDS_Shape;
 
 

@@ -5,7 +5,7 @@
 
 #include <IGESDefs_HArray1OfHArray1OfTextDisplayTemplate.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <IGESGraph_HArray1OfTextDisplayTemplate.hxx>
 

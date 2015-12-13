@@ -6,13 +6,13 @@
 #ifndef _Poly_HArray1OfTriangle_HeaderFile
 #define _Poly_HArray1OfTriangle_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Poly_HArray1OfTriangle.hxx>
 
 #include <Poly_Array1OfTriangle.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_DimensionMismatch;
 class Standard_OutOfRange;

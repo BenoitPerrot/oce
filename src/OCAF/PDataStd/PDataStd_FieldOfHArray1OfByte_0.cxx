@@ -5,12 +5,12 @@
 
 #include <PDataStd_FieldOfHArray1OfByte.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
-#include <Standard_NegativeValue.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_DimensionMismatch.hxx>
-#include <Standard_NullObject.hxx>
+#include <Foundation/Standard/Standard_NegativeValue.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_DimensionMismatch.hxx>
+#include <Foundation/Standard/Standard_NullObject.hxx>
 #include <PDataStd_VArrayNodeOfFieldOfHArray1OfByte.hxx>
 #include <PDataStd_VArrayTNodeOfFieldOfHArray1OfByte.hxx>
 
@@ -24,7 +24,7 @@ IMPLEMENT_STANDARD_TYPE_END(PDataStd_FieldOfHArray1OfByte)
  
 
 #define Item Standard_Byte
-#define Item_hxx <Standard_Byte.hxx>
+#define Item_hxx <Foundation/Standard/Standard_Byte.hxx>
 #define DBC_VArrayNode PDataStd_VArrayNodeOfFieldOfHArray1OfByte
 #define DBC_VArrayNode_hxx <PDataStd_VArrayNodeOfFieldOfHArray1OfByte.hxx>
 #define DBC_VArrayTNode PDataStd_VArrayTNodeOfFieldOfHArray1OfByte

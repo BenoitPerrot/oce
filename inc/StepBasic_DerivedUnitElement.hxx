@@ -6,12 +6,12 @@
 #ifndef _StepBasic_DerivedUnitElement_HeaderFile
 #define _StepBasic_DerivedUnitElement_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepBasic_DerivedUnitElement.hxx>
 
 #include <Handle_StepBasic_NamedUnit.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepBasic_NamedUnit;
 

@@ -15,7 +15,7 @@
 #include <IFSelect_Dispatch.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <IFSelect_GeneralModifier.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IFSelect_GeneralModifier)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

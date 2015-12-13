@@ -6,8 +6,8 @@
 #ifndef _IntTools_ListNodeOfListOfCurveRangeSample_HeaderFile
 #define _IntTools_ListNodeOfListOfCurveRangeSample_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IntTools_ListNodeOfListOfCurveRangeSample.hxx>
 
 #include <IntTools_CurveRangeSample.hxx>

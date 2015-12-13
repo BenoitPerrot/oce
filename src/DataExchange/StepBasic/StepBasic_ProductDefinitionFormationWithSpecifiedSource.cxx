@@ -14,7 +14,7 @@
 #include <TCollection_HAsciiString.hxx>
 #include <StepBasic_Product.hxx>
 #include <StepBasic_ProductDefinitionFormationWithSpecifiedSource.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepBasic_ProductDefinitionFormationWithSpecifiedSource)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepBasic_ProductDefinitionFormation),

@@ -5,7 +5,7 @@
 
 #include <Law_Laws.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Law_ListIteratorOfLaws.hxx>
 #include <Law_Function.hxx>
 #include <Law_ListNodeOfLaws.hxx>

@@ -19,17 +19,17 @@
 
 #include <CDM_MetaData.hxx>
 #include <CDM_Application.hxx>
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_Failure.hxx>
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <CDM_Reference.hxx>
 #include <CDM_ReferenceIterator.hxx>
 #include <TCollection_ExtendedString.hxx>
 #include <TColStd_SequenceOfExtendedString.hxx>
 #include <Foundation/Resource/Resource_Manager.hxx>
-#include <Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
 #include <CDM_Document.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(CDM_Document)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Standard_Transient),
@@ -38,10 +38,10 @@ IMPLEMENT_STANDARD_TYPE_END(CDM_Document)
 IMPLEMENT_DOWNCAST(CDM_Document,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(CDM_Document)
 
-#include <Standard_NullObject.hxx>
+#include <Foundation/Standard/Standard_NullObject.hxx>
 
 #include <TCollection_ExtendedString.hxx>
-#include <Standard_ProgramError.hxx>
+#include <Foundation/Standard/Standard_ProgramError.hxx>
 
 #include <CDM_PresentationDirectory.hxx>
 #include <CDM_NamesDirectory.hxx>

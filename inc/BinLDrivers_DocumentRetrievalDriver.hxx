@@ -6,8 +6,8 @@
 #ifndef _BinLDrivers_DocumentRetrievalDriver_HeaderFile
 #define _BinLDrivers_DocumentRetrievalDriver_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BinLDrivers_DocumentRetrievalDriver.hxx>
 
 #include <BinObjMgt_Persistent.hxx>
@@ -20,11 +20,11 @@
 #include <Handle_PCDM_Document.hxx>
 #include <Handle_CDM_Document.hxx>
 #include <Handle_CDM_Application.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_IStream.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_IStream.hxx>
 #include <Storage_Position.hxx>
 #include <Handle_Storage_HeaderData.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class BinMDF_ADriverTable;
 class CDM_MessageDriver;
 class TCollection_ExtendedString;

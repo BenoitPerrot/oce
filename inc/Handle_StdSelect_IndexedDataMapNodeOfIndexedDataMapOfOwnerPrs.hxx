@@ -6,8 +6,8 @@
 #ifndef _Handle_StdSelect_IndexedDataMapNodeOfIndexedDataMapOfOwnerPrs_HeaderFile
 #define _Handle_StdSelect_IndexedDataMapNodeOfIndexedDataMapOfOwnerPrs_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TCollection_MapNode.hxx>
 
 class Standard_Transient;

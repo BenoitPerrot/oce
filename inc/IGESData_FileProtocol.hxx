@@ -6,14 +6,14 @@
 #ifndef _IGESData_FileProtocol_HeaderFile
 #define _IGESData_FileProtocol_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESData_FileProtocol.hxx>
 
 #include <Handle_IGESData_Protocol.hxx>
 #include <Handle_IGESData_FileProtocol.hxx>
 #include <IGESData_Protocol.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Interface_Protocol.hxx>
 class IGESData_Protocol;
 class Interface_Protocol;

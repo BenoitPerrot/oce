@@ -6,9 +6,9 @@
 #ifndef _GeomFill_BSplineCurves_HeaderFile
 #define _GeomFill_BSplineCurves_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_Geom_BSplineSurface.hxx>
 #include <Handle_Geom_BSplineCurve.hxx>

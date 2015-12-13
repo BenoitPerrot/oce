@@ -5,12 +5,12 @@
 
 #include <PColgp_FieldOfHArray1OfDir.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
-#include <Standard_NegativeValue.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_DimensionMismatch.hxx>
-#include <Standard_NullObject.hxx>
+#include <Foundation/Standard/Standard_NegativeValue.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_DimensionMismatch.hxx>
+#include <Foundation/Standard/Standard_NullObject.hxx>
 #include <gp_Dir.hxx>
 #include <PColgp_VArrayNodeOfFieldOfHArray1OfDir.hxx>
 #include <PColgp_VArrayTNodeOfFieldOfHArray1OfDir.hxx>

@@ -19,15 +19,15 @@
 #include <Foundation/Dico/Dico_DictionaryOfTransient.hxx>
 #include <TColStd_HSequenceOfHAsciiString.hxx>
 #include <Interface_HArray1OfHAsciiString.hxx>
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <XSControl_WorkSession.hxx>
 #include <Interface_InterfaceModel.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <Transfer_FinderProcess.hxx>
 #include <TopoDS_Shape.hxx>
 #include <Interface_CheckIterator.hxx>
 #include <XSControl_Controller.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XSControl_Controller)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),
@@ -79,7 +79,7 @@ IMPLEMENT_STANDARD_RTTI(XSControl_Controller)
 #include <Transfer_TransientMapper.hxx>
 #include <TransferBRep_ShapeMapper.hxx>
 
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <TCollection_HAsciiString.hxx>
 #include <Interface_Macros.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>

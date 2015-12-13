@@ -6,14 +6,14 @@
 #ifndef _StepFEA_SymmetricTensor43dMember_HeaderFile
 #define _StepFEA_SymmetricTensor43dMember_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepFEA_SymmetricTensor43dMember.hxx>
 
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <StepData_SelectArrReal.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 
 
 //! Representation of member for  STEP SELECT type SymmetricTensor43d

@@ -19,7 +19,7 @@
 
 #include <BinObjMgt_Persistent.hxx>
 #include <CDM_MessageDriver.hxx>
-#include <Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
 #include <TDF_Attribute.hxx>
 
 #include <TObj_TModel.hxx>

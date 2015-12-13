@@ -6,13 +6,13 @@
 #ifndef _PDF_VArrayTNodeOfFieldOfHAttributeArray1_HeaderFile
 #define _PDF_VArrayTNodeOfFieldOfHAttributeArray1_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_PDF_Attribute.hxx>
 #include <Handle_PDF_VArrayNodeOfFieldOfHAttributeArray1.hxx>
-#include <Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
 class PDF_Attribute;
 class PDF_FieldOfHAttributeArray1;
 class PDF_VArrayNodeOfFieldOfHAttributeArray1;

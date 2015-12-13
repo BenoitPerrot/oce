@@ -6,15 +6,15 @@
 #ifndef _IGESAppli_ToolPWBArtworkStackup_HeaderFile
 #define _IGESAppli_ToolPWBArtworkStackup_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_IGESAppli_PWBArtworkStackup.hxx>
 #include <Handle_IGESData_IGESReaderData.hxx>
 #include <Handle_Interface_Check.hxx>
 #include <Handle_Message_Messenger.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_DomainError;
 class IGESAppli_PWBArtworkStackup;
 class IGESData_IGESReaderData;

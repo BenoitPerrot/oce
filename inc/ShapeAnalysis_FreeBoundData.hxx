@@ -6,16 +6,16 @@
 #ifndef _ShapeAnalysis_FreeBoundData_HeaderFile
 #define _ShapeAnalysis_FreeBoundData_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ShapeAnalysis_FreeBoundData.hxx>
 
 #include <TopoDS_Wire.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_TopTools_HSequenceOfShape.hxx>
 #include <TopTools_DataMapOfShapeReal.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class TopTools_HSequenceOfShape;
 class TopoDS_Wire;
 

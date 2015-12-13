@@ -17,7 +17,7 @@
 #include <TopTools_ListOfShape.hxx>
 #include <TopOpeBRepDS_ListOfShapeOn1State.hxx>
 
-#include <Standard_ProgramError.hxx>
+#include <Foundation/Standard/Standard_ProgramError.hxx>
 
 //=======================================================================
 //function : TopOpeBRepDS_ListOfShapeOn1State

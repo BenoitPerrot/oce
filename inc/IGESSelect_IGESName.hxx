@@ -6,12 +6,12 @@
 #ifndef _IGESSelect_IGESName_HeaderFile
 #define _IGESSelect_IGESName_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESSelect_IGESName.hxx>
 
 #include <IFSelect_Signature.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Handle_Interface_InterfaceModel.hxx>
 class Standard_Transient;

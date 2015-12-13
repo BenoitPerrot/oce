@@ -40,7 +40,7 @@
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <V3d_View.hxx>
 #include <V3d_Light.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(V3d_Light)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

@@ -19,18 +19,18 @@
 
 
 #include <Geom2d_Curve.hxx>
-#include <Standard_ConstructionError.hxx>
-#include <Standard_RangeError.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Geom2d_UndefinedDerivative.hxx>
 #include <Geom2d_UndefinedValue.hxx>
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <gp_Pnt2d.hxx>
 #include <gp_Vec2d.hxx>
 #include <gp_Trsf2d.hxx>
 #include <Geom2d_Geometry.hxx>
 #include <Geom2d_OffsetCurve.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Geom2d_OffsetCurve)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Geom2d_Curve),
@@ -42,9 +42,9 @@ IMPLEMENT_STANDARD_TYPE_END(Geom2d_OffsetCurve)
 IMPLEMENT_DOWNCAST(Geom2d_OffsetCurve,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Geom2d_OffsetCurve)
 #include <gp.hxx>
-#include <Standard_ConstructionError.hxx>
-#include <Standard_RangeError.hxx>
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Geom2d_UndefinedDerivative.hxx>
 #include <Geom2d_UndefinedValue.hxx>
 #include <Geom2d_Line.hxx>

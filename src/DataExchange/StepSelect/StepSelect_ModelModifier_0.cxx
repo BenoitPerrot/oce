@@ -5,7 +5,7 @@
 
 #include <StepSelect_ModelModifier.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <StepData_StepModel.hxx>
 #include <StepData_Protocol.hxx>

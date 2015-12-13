@@ -16,7 +16,7 @@
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <TColStd_HArray1OfByte.hxx>
 #include <Graphic3d_AspectMarker3d.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Graphic3d_AspectMarker3d)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Aspect_AspectMarker),

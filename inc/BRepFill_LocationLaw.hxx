@@ -6,21 +6,21 @@
 #ifndef _BRepFill_LocationLaw_HeaderFile
 #define _BRepFill_LocationLaw_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BRepFill_LocationLaw.hxx>
 
 #include <TopoDS_Wire.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_GeomFill_HArray1OfLocationLaw.hxx>
 #include <Handle_TColStd_HArray1OfReal.hxx>
 #include <Handle_TopTools_HArray1OfShape.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <GeomFill_PipeError.hxx>
 #include <Handle_GeomFill_LocationLaw.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class GeomFill_HArray1OfLocationLaw;
 class TColStd_HArray1OfReal;
 class TopTools_HArray1OfShape;

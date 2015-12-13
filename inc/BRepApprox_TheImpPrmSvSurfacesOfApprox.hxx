@@ -6,19 +6,19 @@
 #ifndef _BRepApprox_TheImpPrmSvSurfacesOfApprox_HeaderFile
 #define _BRepApprox_TheImpPrmSvSurfacesOfApprox_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <gp_Pnt2d.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Vec2d.hxx>
 #include <gp_Vec.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <BRepApprox_TheZerImpFuncOfTheImpPrmSvSurfacesOfApprox.hxx>
 #include <ApproxInt_SvSurfaces.hxx>
 #include <Handle_BRepApprox_ApproxLine.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class BRepAdaptor_Surface;
 class BRepApprox_SurfaceTool;
 class IntSurf_Quadric;

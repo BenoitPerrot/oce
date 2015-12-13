@@ -5,10 +5,10 @@
 
 #include <Transfer_HSequenceOfBinder.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Transfer_Binder.hxx>
 #include <Transfer_SequenceOfBinder.hxx>
 

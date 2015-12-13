@@ -5,7 +5,7 @@
 
 #include <IntTools_ListNodeOfListOfBox.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Bnd_Box.hxx>
 #include <IntTools_ListOfBox.hxx>

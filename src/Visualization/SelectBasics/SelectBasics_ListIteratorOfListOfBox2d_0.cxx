@@ -5,8 +5,8 @@
 
 #include <SelectBasics_ListIteratorOfListOfBox2d.hxx>
 
-#include <Standard_NoMoreObject.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoMoreObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <SelectBasics_ListOfBox2d.hxx>
 #include <Bnd_Box2d.hxx>
 #include <SelectBasics_ListNodeOfListOfBox2d.hxx>

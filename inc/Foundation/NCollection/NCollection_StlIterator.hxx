@@ -16,7 +16,7 @@
 #ifndef NCollection_StlIterator_HeaderFile
 #define NCollection_StlIterator_HeaderFile
 
-#include <Standard_Assert.hxx>
+#include <Foundation/Standard/Standard_Assert.hxx>
 #include <iterator>
 
 // This file uses C++11 utilities like std::is_base<>, which are not 

@@ -5,7 +5,7 @@
 
 #include <PColStd_VArrayNodeOfFieldOfHArray2OfReal.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <PColStd_FieldOfHArray2OfReal.hxx>
 #include <PColStd_VArrayTNodeOfFieldOfHArray2OfReal.hxx>
@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_RTTI(PColStd_VArrayNodeOfFieldOfHArray2OfReal)
 
 
 #define Item Standard_Real
-#define Item_hxx <Standard_Real.hxx>
+#define Item_hxx <Foundation/Standard/Standard_Real.hxx>
 #define DBC_VArrayNode PColStd_VArrayNodeOfFieldOfHArray2OfReal
 #define DBC_VArrayNode_hxx <PColStd_VArrayNodeOfFieldOfHArray2OfReal.hxx>
 #define DBC_VArrayTNode PColStd_VArrayTNodeOfFieldOfHArray2OfReal

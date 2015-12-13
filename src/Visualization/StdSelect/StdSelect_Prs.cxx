@@ -16,7 +16,7 @@
 
 #include <Graphic3d_StructureManager.hxx>
 #include <StdSelect_Prs.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StdSelect_Prs)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Prs3d_Presentation),

@@ -16,7 +16,7 @@
 #define BOPCol_Array1_HeaderFile
 
 #include <Foundation/NCollection/NCollection_List.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Foundation/NCollection/NCollection_BaseAllocator.hxx>
 
 /**

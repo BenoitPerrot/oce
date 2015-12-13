@@ -16,7 +16,7 @@
 #include <Graphic3d_MarkerImage.hxx>
 
 #include <Image_PixMap.hxx>
-#include <Standard_Atomic.hxx>
+#include <Foundation/Standard/Standard_Atomic.hxx>
 #include <TColStd_HArray1OfByte.hxx>
 
 namespace

@@ -6,7 +6,7 @@
 #ifndef _StepGeom_TransitionCode_HeaderFile
 #define _StepGeom_TransitionCode_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum StepGeom_TransitionCode

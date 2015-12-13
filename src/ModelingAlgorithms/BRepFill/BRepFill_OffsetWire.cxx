@@ -18,8 +18,8 @@
 
 #include <stdio.h>
 
-#include <Standard_ConstructionError.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopoDS_Face.hxx>
 #include <BRepMAT2d_BisectingLocus.hxx>
 #include <BRepMAT2d_LinkTopoBilo.hxx>
@@ -75,7 +75,7 @@
 #include <MAT_Graph.hxx>
 #include <MAT2d_CutCurve.hxx>
 #include <Precision.hxx>
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <TColgp_SequenceOfPnt.hxx>
 #include <TColStd_SequenceOfReal.hxx> 
 #include <TopAbs.hxx> 
@@ -112,7 +112,7 @@
 #include <BRepLib_MakeVertex.hxx>
 #include <Geom2dLProp_CLProps2d.hxx>
 #include <Geom2dConvert_CompCurveToBSplineCurve.hxx>
-#include <Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
 
 #ifdef DRAW
 #include <Draw.hxx>

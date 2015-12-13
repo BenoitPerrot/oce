@@ -6,19 +6,19 @@
 #ifndef _Prs3d_TextAspect_HeaderFile
 #define _Prs3d_TextAspect_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Prs3d_TextAspect.hxx>
 
 #include <Handle_Graphic3d_AspectText3d.hxx>
 #include <Foundation/Quantity/Quantity_PlaneAngle.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Graphic3d_HorizontalTextAlignment.hxx>
 #include <Graphic3d_VerticalTextAlignment.hxx>
 #include <Graphic3d_TextPath.hxx>
 #include <Prs3d_BasicAspect.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 #include <Foundation/Quantity/Quantity_Length.hxx>
 class Graphic3d_AspectText3d;
 class Quantity_Color;

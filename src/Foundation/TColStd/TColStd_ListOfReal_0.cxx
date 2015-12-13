@@ -5,13 +5,13 @@
 
 #include <TColStd_ListOfReal.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TColStd_ListIteratorOfListOfReal.hxx>
 #include <TColStd_ListNodeOfListOfReal.hxx>
  
 
 #define Item Standard_Real
-#define Item_hxx <Standard_Real.hxx>
+#define Item_hxx <Foundation/Standard/Standard_Real.hxx>
 #define TCollection_ListNode TColStd_ListNodeOfListOfReal
 #define TCollection_ListNode_hxx <TColStd_ListNodeOfListOfReal.hxx>
 #define TCollection_ListIterator TColStd_ListIteratorOfListOfReal

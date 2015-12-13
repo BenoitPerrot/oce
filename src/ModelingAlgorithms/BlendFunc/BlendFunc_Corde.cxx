@@ -16,7 +16,7 @@
 
 #include <Adaptor3d_HSurface.hxx>
 #include <Adaptor3d_HCurve.hxx>
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <math_Matrix.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Vec.hxx>
@@ -28,8 +28,8 @@
 #include <ElCLib.hxx>
 #include <gp.hxx>
 #include <BlendFunc.hxx>
-#include <Standard_DomainError.hxx>
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 
 
 //=======================================================================

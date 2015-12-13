@@ -6,7 +6,7 @@
 #ifndef _Aspect_HatchStyle_HeaderFile
 #define _Aspect_HatchStyle_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Definition of all available hatch styles.
 //!

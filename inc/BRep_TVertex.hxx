@@ -6,12 +6,12 @@
 #ifndef _BRep_TVertex_HeaderFile
 #define _BRep_TVertex_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BRep_TVertex.hxx>
 
 #include <gp_Pnt.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <BRep_ListOfPointRepresentation.hxx>
 #include <TopoDS_TVertex.hxx>
 #include <Handle_TopoDS_TShape.hxx>

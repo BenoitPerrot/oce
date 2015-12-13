@@ -5,7 +5,7 @@
 
 #include <StdFail_InfiniteSolutions.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 IMPLEMENT_STANDARD_EXCEPTION(StdFail_InfiniteSolutions)
  

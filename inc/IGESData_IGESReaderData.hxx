@@ -6,8 +6,8 @@
 #ifndef _IGESData_IGESReaderData_HeaderFile
 #define _IGESData_IGESReaderData_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESData_IGESReaderData.hxx>
 
 #include <IGESData_IGESType.hxx>
@@ -16,11 +16,11 @@
 #include <IGESData_GlobalSection.hxx>
 #include <IGESData_Array1OfDirPart.hxx>
 #include <IGESData_ReadStage.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Interface_Check.hxx>
 #include <Interface_FileReaderData.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 #include <Interface_ParamType.hxx>
 class TColStd_HSequenceOfHAsciiString;
 class Interface_ParamSet;

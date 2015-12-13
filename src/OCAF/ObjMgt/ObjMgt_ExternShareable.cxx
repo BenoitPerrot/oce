@@ -13,7 +13,7 @@
 
 #include <PCollection_HAsciiString.hxx>
 #include <ObjMgt_ExternShareable.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ObjMgt_ExternShareable)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Standard_Persistent),

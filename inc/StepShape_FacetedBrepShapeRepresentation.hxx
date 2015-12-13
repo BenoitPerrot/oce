@@ -6,8 +6,8 @@
 #ifndef _StepShape_FacetedBrepShapeRepresentation_HeaderFile
 #define _StepShape_FacetedBrepShapeRepresentation_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepShape_FacetedBrepShapeRepresentation.hxx>
 
 #include <StepShape_ShapeRepresentation.hxx>

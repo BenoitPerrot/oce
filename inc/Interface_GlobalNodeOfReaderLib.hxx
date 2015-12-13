@@ -6,14 +6,14 @@
 #ifndef _Interface_GlobalNodeOfReaderLib_HeaderFile
 #define _Interface_GlobalNodeOfReaderLib_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Interface_GlobalNodeOfReaderLib.hxx>
 
 #include <Handle_Interface_ReaderModule.hxx>
 #include <Handle_Interface_Protocol.hxx>
 #include <Handle_Interface_GlobalNodeOfReaderLib.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Handle_Interface_NodeOfReaderLib.hxx>
 class Interface_ReaderModule;

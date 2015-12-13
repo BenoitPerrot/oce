@@ -6,11 +6,11 @@
 #ifndef _IGESBasic_Name_HeaderFile
 #define _IGESBasic_Name_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESBasic_Name.hxx>
 
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <IGESData_NameEntity.hxx>
 class TCollection_HAsciiString;

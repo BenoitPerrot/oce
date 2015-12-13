@@ -6,8 +6,8 @@
 #ifndef _Visual3d_SequenceNodeOfSequenceOfView_HeaderFile
 #define _Visual3d_SequenceNodeOfSequenceOfView_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Visual3d_SequenceNodeOfSequenceOfView.hxx>
 
 #include <Handle_Visual3d_View.hxx>

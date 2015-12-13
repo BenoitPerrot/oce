@@ -16,7 +16,7 @@
 
 #include <TopoDS_Face.hxx>
 #include <DrawDim_PlanarDimension.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DrawDim_PlanarDimension)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(DrawDim_Dimension),
@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(DrawDim_PlanarDimension)
 IMPLEMENT_DOWNCAST(DrawDim_PlanarDimension,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(DrawDim_PlanarDimension)
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Draw_Interpretor.hxx>
 
 

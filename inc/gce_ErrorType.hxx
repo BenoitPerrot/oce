@@ -6,7 +6,7 @@
 #ifndef _gce_ErrorType_HeaderFile
 #define _gce_ErrorType_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Indicates the outcome of a construction, i.e.
 //! whether it is successful or not, as explained below.

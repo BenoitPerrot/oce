@@ -5,7 +5,7 @@
 
 #include <MeshVS_DataMapIteratorOfDataMapOfIntegerAsciiString.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <TColStd_MapIntegerHasher.hxx>
 #include <MeshVS_DataMapOfIntegerAsciiString.hxx>
@@ -13,7 +13,7 @@
  
 
 #define TheKey Standard_Integer
-#define TheKey_hxx <Standard_Integer.hxx>
+#define TheKey_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheItem TCollection_AsciiString
 #define TheItem_hxx <TCollection_AsciiString.hxx>
 #define Hasher TColStd_MapIntegerHasher

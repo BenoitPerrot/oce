@@ -6,8 +6,8 @@
 #ifndef _ExprIntrp_ListNodeOfStackOfGeneralExpression_HeaderFile
 #define _ExprIntrp_ListNodeOfStackOfGeneralExpression_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ExprIntrp_ListNodeOfStackOfGeneralExpression.hxx>
 
 #include <Handle_Expr_GeneralExpression.hxx>

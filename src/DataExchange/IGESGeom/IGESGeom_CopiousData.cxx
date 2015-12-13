@@ -17,11 +17,11 @@
 //--------------------------------------------------------------------
 
 #include <TColStd_HArray1OfReal.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Vec.hxx>
 #include <IGESGeom_CopiousData.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESGeom_CopiousData)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(IGESData_IGESEntity),
@@ -31,10 +31,10 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESGeom_CopiousData)
 IMPLEMENT_DOWNCAST(IGESGeom_CopiousData,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESGeom_CopiousData)
-#include <Standard_DimensionMismatch.hxx>
+#include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <gp_XY.hxx>
 #include <gp_GTrsf.hxx>
-#include <Standard_NullObject.hxx>
+#include <Foundation/Standard/Standard_NullObject.hxx>
 
 IGESGeom_CopiousData::IGESGeom_CopiousData ()
 {

@@ -17,7 +17,7 @@
 #define _NCollection_QuickSort_HeaderFile
 
 #include <Foundation/NCollection/NCollection_Comparator.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 
 /**
  * Perform sorting of enumerable collection with QuickSort algorithm.

@@ -6,8 +6,8 @@
 #ifndef _MeshVS_Drawer_HeaderFile
 #define _MeshVS_Drawer_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_MeshVS_Drawer.hxx>
 
 #include <TColStd_DataMapOfIntegerInteger.hxx>
@@ -17,9 +17,9 @@
 #include <MeshVS_DataMapOfIntegerMaterial.hxx>
 #include <MeshVS_DataMapOfIntegerAsciiString.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class Quantity_Color;
 class Graphic3d_MaterialAspect;
 class TCollection_AsciiString;

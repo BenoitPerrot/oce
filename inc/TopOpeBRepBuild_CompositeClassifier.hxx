@@ -6,15 +6,15 @@
 #ifndef _TopOpeBRepBuild_CompositeClassifier_HeaderFile
 #define _TopOpeBRepBuild_CompositeClassifier_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
 #include <TopOpeBRepBuild_LoopClassifier.hxx>
 #include <TopAbs_State.hxx>
 #include <Handle_TopOpeBRepBuild_Loop.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class TopOpeBRepBuild_BlockBuilder;
 class TopOpeBRepBuild_Loop;
 class TopoDS_Shape;

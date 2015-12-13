@@ -6,14 +6,14 @@
 #ifndef _BinDrivers_DocumentStorageDriver_HeaderFile
 #define _BinDrivers_DocumentStorageDriver_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BinDrivers_DocumentStorageDriver.hxx>
 
 #include <BinLDrivers_DocumentStorageDriver.hxx>
 #include <Handle_BinMDF_ADriverTable.hxx>
 #include <Handle_CDM_MessageDriver.hxx>
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 class BinMDF_ADriverTable;
 class CDM_MessageDriver;
 class BinLDrivers_DocumentSection;

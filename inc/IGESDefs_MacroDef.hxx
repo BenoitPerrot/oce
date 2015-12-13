@@ -6,12 +6,12 @@
 #ifndef _IGESDefs_MacroDef_HeaderFile
 #define _IGESDefs_MacroDef_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESDefs_MacroDef.hxx>
 
 #include <Handle_TCollection_HAsciiString.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Interface_HArray1OfHAsciiString.hxx>
 #include <IGESData_IGESEntity.hxx>
 class TCollection_HAsciiString;

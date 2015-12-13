@@ -5,7 +5,7 @@
 
 #include <ShapeAnalysis_SequenceNodeOfSequenceOfFreeBounds.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <ShapeAnalysis_FreeBoundData.hxx>
 #include <ShapeAnalysis_SequenceOfFreeBounds.hxx>

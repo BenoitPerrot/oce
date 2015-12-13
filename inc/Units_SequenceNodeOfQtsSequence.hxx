@@ -6,8 +6,8 @@
 #ifndef _Units_SequenceNodeOfQtsSequence_HeaderFile
 #define _Units_SequenceNodeOfQtsSequence_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Units_SequenceNodeOfQtsSequence.hxx>
 
 #include <Handle_Units_Quantity.hxx>

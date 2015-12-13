@@ -6,17 +6,17 @@
 #ifndef _IntPatch_WLine_HeaderFile
 #define _IntPatch_WLine_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IntPatch_WLine.hxx>
 
 #include <Handle_IntSurf_LineOn2S.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <IntPatch_SequenceOfPoint.hxx>
 #include <Bnd_Box2d.hxx>
 #include <Bnd_Box.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Adaptor2d_HCurve2d.hxx>
 #include <IntPatch_Line.hxx>
 #include <IntSurf_TypeTrans.hxx>

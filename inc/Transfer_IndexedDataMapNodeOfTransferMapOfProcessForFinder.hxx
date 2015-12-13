@@ -6,12 +6,12 @@
 #ifndef _Transfer_IndexedDataMapNodeOfTransferMapOfProcessForFinder_HeaderFile
 #define _Transfer_IndexedDataMapNodeOfTransferMapOfProcessForFinder_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Transfer_IndexedDataMapNodeOfTransferMapOfProcessForFinder.hxx>
 
 #include <Handle_Transfer_Finder.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Transfer_Binder.hxx>
 #include <TCollection_MapNodePtr.hxx>
 #include <TCollection_MapNode.hxx>

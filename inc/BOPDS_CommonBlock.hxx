@@ -6,8 +6,8 @@
 #ifndef _BOPDS_CommonBlock_HeaderFile
 #define _BOPDS_CommonBlock_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BOPDS_CommonBlock.hxx>
 
 #include <BOPDS_ListOfPaveBlock.hxx>
@@ -15,8 +15,8 @@
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <BOPCol_BaseAllocator.hxx>
 #include <Handle_BOPDS_PaveBlock.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class BOPDS_PaveBlock;
 
 

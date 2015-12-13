@@ -6,17 +6,17 @@
 #ifndef _ObjMgt_PSeqOfExtRef_HeaderFile
 #define _ObjMgt_PSeqOfExtRef_HeaderFile
 
-#include <Standard_Macro.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Handle_ObjMgt_PSeqOfExtRef.hxx>
 
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_ObjMgt_ExternRef.hxx>
 #include <Handle_ObjMgt_PSeqOfExtRef.hxx>
 #include <Handle_ObjMgt_SeqNodeOfPSeqOfExtRef.hxx>
-#include <Standard_Persistent.hxx>
+#include <Foundation/Standard/Standard_Persistent.hxx>
 class ObjMgt_ExternRef;
 class ObjMgt_SeqNodeOfPSeqOfExtRef;
 class Standard_NoSuchObject;

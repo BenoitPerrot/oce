@@ -5,7 +5,7 @@
 
 #include <TFunction_DataMapNodeOfDataMapOfLabelListOfLabel.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TDF_Label.hxx>
 #include <TDF_LabelList.hxx>

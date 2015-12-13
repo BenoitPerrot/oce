@@ -6,19 +6,19 @@
 #ifndef _Resource_Manager_HeaderFile
 #define _Resource_Manager_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Resource_Manager.hxx>
 
 #include <TCollection_AsciiString.hxx>
 #include <Foundation/Resource/Resource_DataMapOfAsciiStringAsciiString.hxx>
 #include <Foundation/Resource/Resource_DataMapOfAsciiStringExtendedString.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_CString.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_ExtString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_ExtString.hxx>
 class Standard_TypeMismatch;
 class Resource_NoSuchResource;
 class Standard_OutOfRange;

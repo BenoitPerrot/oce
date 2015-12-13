@@ -6,18 +6,18 @@
 #ifndef _Extrema_LocateExtPC2d_HeaderFile
 #define _Extrema_LocateExtPC2d_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Extrema_POnCurv2d.hxx>
-#include <Standard_Address.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Extrema_LocEPCOfLocateExtPC2d.hxx>
 #include <Extrema_ELPCOfLocateExtPC2d.hxx>
 #include <GeomAbs_CurveType.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_DomainError;
 class StdFail_NotDone;
 class Adaptor2d_Curve2d;

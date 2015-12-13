@@ -20,7 +20,7 @@
 #include <Foundation/OSD/OSD_Path.hxx>
 #include <Foundation/OSD/OSD_FileIterator.hxx>
 #include <TCollection_AsciiString.hxx>
-#include <Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
 #include <Foundation/Resource/Resource_Manager.hxx>
 #include <UTL.hxx>
 #include <Foundation/OSD/OSD_Host.hxx>

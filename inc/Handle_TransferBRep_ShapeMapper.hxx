@@ -6,8 +6,8 @@
 #ifndef _Handle_TransferBRep_ShapeMapper_HeaderFile
 #define _Handle_TransferBRep_ShapeMapper_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Transfer_Finder.hxx>
 
 class Standard_Transient;

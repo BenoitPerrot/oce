@@ -17,7 +17,7 @@
 #include <Geom_Curve.hxx>
 #include <TColGeom_HArray1OfCurve.hxx>
 #include <ShapeUpgrade_SplitCurve3d.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeUpgrade_SplitCurve3d)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(ShapeUpgrade_SplitCurve),
@@ -35,8 +35,8 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_SplitCurve3d)
 #include <TColGeom_HArray1OfCurve.hxx>
 #include <Geom_TrimmedCurve.hxx>
 #include <Geom_OffsetCurve.hxx>
-#include <Standard_ErrorHandler.hxx>
-#include <Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
 #include <ShapeExtend.hxx>
 #include <Precision.hxx>
 #include <Geom_BezierCurve.hxx>

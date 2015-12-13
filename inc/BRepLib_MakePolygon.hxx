@@ -6,14 +6,14 @@
 #ifndef _BRepLib_MakePolygon_HeaderFile
 #define _BRepLib_MakePolygon_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TopoDS_Vertex.hxx>
 #include <TopoDS_Edge.hxx>
 #include <BRepLib_MakeShape.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class StdFail_NotDone;
 class gp_Pnt;
 class TopoDS_Vertex;

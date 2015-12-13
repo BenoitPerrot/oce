@@ -20,7 +20,7 @@
 #include <Draw_Display.hxx>
 #include <Draw_Drawable3D.hxx>
 #include <DrawTrSurf_Point.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DrawTrSurf_Point)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Draw_Drawable3D),
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(DrawTrSurf_Point)
 IMPLEMENT_DOWNCAST(DrawTrSurf_Point,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(DrawTrSurf_Point)
-#include <Standard_Stream.hxx>
+#include <Foundation/Standard/Standard_Stream.hxx>
 
 //=======================================================================
 //function : DrawTrSurf_Point

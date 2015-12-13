@@ -6,11 +6,11 @@
 #ifndef _VrmlAPI_HeaderFile
 #define _VrmlAPI_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 class TopoDS_Shape;
 class VrmlAPI_Writer;
 

@@ -6,8 +6,8 @@
 #ifndef _GeomPlate_PointConstraint_HeaderFile
 #define _GeomPlate_PointConstraint_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_GeomPlate_PointConstraint.hxx>
 
 #include <GeomLProp_SLProps.hxx>
@@ -15,9 +15,9 @@
 #include <gp_Pnt2d.hxx>
 #include <Handle_Geom_Surface.hxx>
 #include <gp_Vec.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class Geom_Surface;
 class Standard_ConstructionError;

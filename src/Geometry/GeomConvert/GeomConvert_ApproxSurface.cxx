@@ -14,13 +14,13 @@
 
 #include <Geom_Surface.hxx>
 #include <Geom_BSplineSurface.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <GeomConvert_ApproxSurface.hxx>
 
 #include <GeomAdaptor_HSurface.hxx>
 #include <Precision.hxx>
 #include <AdvApp2Var_ApproxAFunc2Var.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <TColStd_HArray2OfReal.hxx>
 #include <TColStd_HArray1OfReal.hxx>
 #include <AdvApprox_PrefAndRec.hxx>

@@ -66,8 +66,8 @@
 #include <TopOpeBRep_VPointInterIterator.hxx>
 #include <TopOpeBRep_GeomTool.hxx>
 #include <Precision.hxx>
-#include <Standard_CString.hxx>
-#include <Standard_ProgramError.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
+#include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <TopOpeBRepDS_define.hxx>
 #include <TopOpeBRep.hxx>
 #include <TopOpeBRepTool_EXPORT.hxx>

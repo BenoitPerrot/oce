@@ -5,8 +5,8 @@
 
 #include <Storage_MapOfCallBack.hxx>
 
-#include <Standard_DomainError.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <Storage_TypedCallBack.hxx>
 #include <Storage_DataMapNodeOfMapOfCallBack.hxx>

@@ -19,7 +19,7 @@
 #include <StepRepr_RepresentationItem.hxx>
 #include <StepRepr_Representation.hxx>
 #include <StepElement_AnalysisItemWithinRepresentation.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepElement_AnalysisItemWithinRepresentation)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

@@ -16,7 +16,7 @@
 
 #include <PCollection_HExtendedString.hxx>
 #include <PDataStd_UAttribute.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PDataStd_UAttribute)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(PDF_Attribute),

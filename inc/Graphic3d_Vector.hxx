@@ -6,14 +6,14 @@
 #ifndef _Graphic3d_Vector_HeaderFile
 #define _Graphic3d_Vector_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_ShortReal.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_ShortReal.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Graphic3d_Vertex.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class Graphic3d_VectorError;
 
 

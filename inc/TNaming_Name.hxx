@@ -6,19 +6,19 @@
 #ifndef _TNaming_Name_HeaderFile
 #define _TNaming_Name_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TNaming_NameType.hxx>
 #include <TopAbs_ShapeEnum.hxx>
 #include <TNaming_ListOfNamedShape.hxx>
 #include <Handle_TNaming_NamedShape.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TDF_Label.hxx>
 #include <TopAbs_Orientation.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_TDF_RelocationTable.hxx>
 class TNaming_NamedShape;
 class TopoDS_Shape;

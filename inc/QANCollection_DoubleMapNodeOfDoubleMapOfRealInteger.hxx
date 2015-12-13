@@ -6,12 +6,12 @@
 #ifndef _QANCollection_DoubleMapNodeOfDoubleMapOfRealInteger_HeaderFile
 #define _QANCollection_DoubleMapNodeOfDoubleMapOfRealInteger_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_QANCollection_DoubleMapNodeOfDoubleMapOfRealInteger.hxx>
 
-#include <Standard_Real.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <TCollection_MapNodePtr.hxx>
 #include <TCollection_MapNode.hxx>
 class TColStd_MapRealHasher;
@@ -56,9 +56,9 @@ private:
 };
 
 #define TheKey1 Standard_Real
-#define TheKey1_hxx <Standard_Real.hxx>
+#define TheKey1_hxx <Foundation/Standard/Standard_Real.hxx>
 #define TheKey2 Standard_Integer
-#define TheKey2_hxx <Standard_Integer.hxx>
+#define TheKey2_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define Hasher1 TColStd_MapRealHasher
 #define Hasher1_hxx <TColStd_MapRealHasher.hxx>
 #define Hasher2 TColStd_MapIntegerHasher

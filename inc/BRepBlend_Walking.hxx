@@ -6,9 +6,9 @@
 #ifndef _BRepBlend_Walking_HeaderFile
 #define _BRepBlend_Walking_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Blend_Point.hxx>
 #include <Handle_BRepBlend_Line.hxx>
@@ -16,12 +16,12 @@
 #include <Blend_SequenceOfPoint.hxx>
 #include <Handle_Adaptor3d_HSurface.hxx>
 #include <Handle_Adaptor3d_TopolTool.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Adaptor3d_HVertex.hxx>
 #include <Handle_Adaptor2d_HCurve2d.hxx>
 #include <Handle_Adaptor3d_HCurve.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <TopAbs_State.hxx>
 #include <Blend_Status.hxx>
 class BRepBlend_Line;
@@ -155,7 +155,7 @@ private:
 #define TheCurve Handle(Adaptor3d_HCurve)
 #define TheCurve_hxx <Adaptor3d_HCurve.hxx>
 #define TheVertexTool Standard_Integer
-#define TheVertexTool_hxx <Standard_Integer.hxx>
+#define TheVertexTool_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheArcTool BRepBlend_HCurve2dTool
 #define TheArcTool_hxx <BRepBlend_HCurve2dTool.hxx>
 #define TheSurfaceTool Adaptor3d_HSurfaceTool

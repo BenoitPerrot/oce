@@ -5,8 +5,8 @@
 
 #include <StepToTopoDS_DataMapOfTRI.hxx>
 
-#include <Standard_DomainError.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <StepShape_TopologicalRepresentationItem.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TColStd_MapTransientHasher.hxx>

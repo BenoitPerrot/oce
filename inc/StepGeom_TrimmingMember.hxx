@@ -6,13 +6,13 @@
 #ifndef _StepGeom_TrimmingMember_HeaderFile
 #define _StepGeom_TrimmingMember_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepGeom_TrimmingMember.hxx>
 
 #include <StepData_SelectReal.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 
 
 //! For immediate members of TrimmingSelect, i.e. :

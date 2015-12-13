@@ -6,8 +6,8 @@
 #ifndef _Message_Algorithm_HeaderFile
 #define _Message_Algorithm_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Message_Algorithm.hxx>
 
 #include <Foundation/Message/Message_ExecStatus.hxx>
@@ -16,9 +16,9 @@
 #include <Foundation/Message/Message_HArrayOfMsg.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Message/Message_Status.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_CString.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Handle_TCollection_HExtendedString.hxx>
 #include <Foundation/Message/Message_Gravity.hxx>

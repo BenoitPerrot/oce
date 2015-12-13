@@ -6,18 +6,18 @@
 #ifndef _IGESData_BasicEditor_HeaderFile
 #define _IGESData_BasicEditor_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_IGESData_Protocol.hxx>
 #include <Handle_IGESData_IGESModel.hxx>
 #include <Interface_GeneralLib.hxx>
 #include <IGESData_SpecificLib.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_IGESData_IGESEntity.hxx>
 class IGESData_Protocol;
 class IGESData_IGESModel;

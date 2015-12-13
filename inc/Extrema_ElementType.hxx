@@ -6,7 +6,7 @@
 #ifndef _Extrema_ElementType_HeaderFile
 #define _Extrema_ElementType_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum Extrema_ElementType

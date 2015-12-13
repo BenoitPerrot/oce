@@ -5,7 +5,7 @@
 
 #include <MAT2d_DataMapIteratorOfDataMapOfIntegerPnt2d.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <gp_Pnt2d.hxx>
 #include <TColStd_MapIntegerHasher.hxx>
 #include <MAT2d_DataMapOfIntegerPnt2d.hxx>
@@ -13,7 +13,7 @@
  
 
 #define TheKey Standard_Integer
-#define TheKey_hxx <Standard_Integer.hxx>
+#define TheKey_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheItem gp_Pnt2d
 #define TheItem_hxx <gp_Pnt2d.hxx>
 #define Hasher TColStd_MapIntegerHasher

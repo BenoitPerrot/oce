@@ -6,7 +6,7 @@
 #ifndef _OSD_FromWhere_HeaderFile
 #define _OSD_FromWhere_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Used by OSD_File in the method Seek.
 enum OSD_FromWhere

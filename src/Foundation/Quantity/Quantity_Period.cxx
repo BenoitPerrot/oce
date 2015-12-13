@@ -19,7 +19,7 @@
 // -------------------------------------------------------------
 #include <Foundation/Quantity/Quantity_Period.hxx>
 #include <Foundation/Quantity/Quantity_PeriodDefinitionError.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 IMPLEMENT_STANDARD_TYPE(Quantity_Period)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

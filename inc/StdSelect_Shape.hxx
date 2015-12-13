@@ -6,15 +6,15 @@
 #ifndef _StdSelect_Shape_HeaderFile
 #define _StdSelect_Shape_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StdSelect_Shape.hxx>
 
 #include <TopoDS_Shape.hxx>
 #include <PrsMgr_PresentableObject.hxx>
 #include <PrsMgr_PresentationManager3d.hxx>
 #include <Handle_Prs3d_Presentation.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Prs3d_Projector.hxx>
 #include <Handle_Geom_Transformation.hxx>
 class TopoDS_Shape;

@@ -6,16 +6,16 @@
 #ifndef _Interface_ParamSet_HeaderFile
 #define _Interface_ParamSet_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Interface_ParamSet.hxx>
 
-#include <Standard_PCharacter.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_PCharacter.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Interface_ParamList.hxx>
 #include <Handle_Interface_ParamSet.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 #include <Interface_ParamType.hxx>
 class Interface_ParamList;
 class Standard_OutOfRange;

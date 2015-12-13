@@ -15,7 +15,7 @@
 #include <TCollection_HAsciiString.hxx>
 #include <StepGeom_Curve.hxx>
 #include <StepGeom_SurfaceOfLinearExtrusion.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepGeom_SurfaceOfLinearExtrusion)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepGeom_SweptSurface),

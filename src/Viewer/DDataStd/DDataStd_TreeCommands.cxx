@@ -32,7 +32,7 @@
 #include <TDataStd_TreeNode.hxx>
 #include <TDataStd_ChildNodeIterator.hxx>
 
-#include <Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <TCollection_ExtendedString.hxx>
 

@@ -17,8 +17,8 @@
 #include <StdFail_NotDone.hxx>
 #include <math_DirectPolynomialRoots.hxx>
 #include <math_FunctionRoots.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 
 
 //=======================================================================

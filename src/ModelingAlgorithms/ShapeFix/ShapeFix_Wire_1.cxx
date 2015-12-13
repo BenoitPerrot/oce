@@ -13,8 +13,8 @@
 
 // szv 19.08.99: new methods for fixing gaps between edges (3d curves and pcurves)
 #include <ShapeFix_Wire.hxx>
-#include <Standard_ErrorHandler.hxx>
-#include <Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
 
 #include <Precision.hxx>
 #include <Bnd_Box2d.hxx>

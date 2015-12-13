@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 //#include <Interface_Recognizer.ixx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 
 //  ATTENTION : TransRecognizer a exactement le meme code ...
 //  Mais produit un Transient au lieu d un Persistent

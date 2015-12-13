@@ -13,14 +13,14 @@
 
 #include <TCollection_HAsciiString.hxx>
 #include <Interface_InterfaceError.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <IFSelect_Dispatch.hxx>
 #include <IFSelect_GeneralModifier.hxx>
 #include <IFSelect_Modifier.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <IFSelect_ShareOut.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IFSelect_ShareOut)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

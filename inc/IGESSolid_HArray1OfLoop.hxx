@@ -6,14 +6,14 @@
 #ifndef _IGESSolid_HArray1OfLoop_HeaderFile
 #define _IGESSolid_HArray1OfLoop_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESSolid_HArray1OfLoop.hxx>
 
 #include <IGESSolid_Array1OfLoop.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_IGESSolid_Loop.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_DimensionMismatch;
 class Standard_OutOfRange;

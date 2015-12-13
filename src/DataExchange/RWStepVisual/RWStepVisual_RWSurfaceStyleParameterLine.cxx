@@ -18,7 +18,7 @@
 #include <Interface_EntityIterator.hxx>
 #include <RWStepVisual_RWSurfaceStyleParameterLine.hxx>
 #include <StepVisual_CurveStyle.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 
 #include <StepVisual_HArray1OfDirectionCountSelect.hxx>
 

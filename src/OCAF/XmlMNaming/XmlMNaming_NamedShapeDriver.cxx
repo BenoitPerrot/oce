@@ -20,7 +20,7 @@
 #include <XmlObjMgt_Persistent.hxx>
 #include <TopTools_LocationSet.hxx>
 #include <XmlMNaming_NamedShapeDriver.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XmlMNaming_NamedShapeDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(XmlMDF_ADriver),
@@ -45,7 +45,7 @@ IMPLEMENT_STANDARD_RTTI(XmlMNaming_NamedShapeDriver)
 #include <LDOM_Text.hxx>
 #include <LDOM_OSStream.hxx>
 
-#include <Standard_SStream.hxx>
+#include <Foundation/Standard/Standard_SStream.hxx>
 
 static TNaming_Evolution          EvolutionEnum   (const XmlObjMgt_DOMString&);
 static const XmlObjMgt_DOMString& EvolutionString (const TNaming_Evolution);

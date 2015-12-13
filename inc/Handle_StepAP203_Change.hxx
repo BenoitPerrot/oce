@@ -6,8 +6,8 @@
 #ifndef _Handle_StepAP203_Change_HeaderFile
 #define _Handle_StepAP203_Change_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepBasic_ActionAssignment.hxx>
 
 class Standard_Transient;

@@ -6,7 +6,7 @@
 #ifndef _Visual3d_TypeOfProjection_HeaderFile
 #define _Visual3d_TypeOfProjection_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Definition of the type of 3D projection
 //!

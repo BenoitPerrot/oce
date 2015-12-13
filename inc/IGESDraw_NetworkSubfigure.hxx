@@ -6,18 +6,18 @@
 #ifndef _IGESDraw_NetworkSubfigure_HeaderFile
 #define _IGESDraw_NetworkSubfigure_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESDraw_NetworkSubfigure.hxx>
 
 #include <Handle_IGESDraw_NetworkSubfigureDef.hxx>
 #include <gp_XYZ.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Handle_IGESGraph_TextDisplayTemplate.hxx>
 #include <Handle_IGESDraw_HArray1OfConnectPoint.hxx>
 #include <IGESData_IGESEntity.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_IGESDraw_ConnectPoint.hxx>
 class IGESDraw_NetworkSubfigureDef;
 class TCollection_HAsciiString;

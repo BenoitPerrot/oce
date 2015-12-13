@@ -6,14 +6,14 @@
 #ifndef _BRepBuilderAPI_MakeShape_HeaderFile
 #define _BRepBuilderAPI_MakeShape_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TopoDS_Shape.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <BRepBuilderAPI_Command.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class StdFail_NotDone;
 class TopoDS_Shape;
 class TopTools_ListOfShape;

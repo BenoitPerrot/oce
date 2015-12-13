@@ -6,12 +6,12 @@
 #ifndef _PXCAFDoc_DimTol_HeaderFile
 #define _PXCAFDoc_DimTol_HeaderFile
 
-#include <Standard_Macro.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Handle_PXCAFDoc_DimTol.hxx>
 
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_PColStd_HArray1OfReal.hxx>
 #include <Handle_PCollection_HAsciiString.hxx>
 #include <PDF_Attribute.hxx>

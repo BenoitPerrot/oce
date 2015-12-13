@@ -17,8 +17,8 @@
 #include <TopoDS_Shape.hxx>
 #include <TopOpeBRepTool_ShapeExplorer.hxx>
 #include <TopAbs.hxx>
-#include <Standard_NoMoreObject.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoMoreObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 
 
 //=======================================================================

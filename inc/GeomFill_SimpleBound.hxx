@@ -6,15 +6,15 @@
 #ifndef _GeomFill_SimpleBound_HeaderFile
 #define _GeomFill_SimpleBound_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_GeomFill_SimpleBound.hxx>
 
 #include <Handle_Adaptor3d_HCurve.hxx>
 #include <Handle_Law_Function.hxx>
 #include <GeomFill_Boundary.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class Adaptor3d_HCurve;
 class Law_Function;
 class gp_Pnt;

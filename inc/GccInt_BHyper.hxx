@@ -6,8 +6,8 @@
 #ifndef _GccInt_BHyper_HeaderFile
 #define _GccInt_BHyper_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_GccInt_BHyper.hxx>
 
 #include <gp_Hypr2d.hxx>

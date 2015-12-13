@@ -14,8 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_ConstructionError.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <BRep_Builder.hxx>
 #include <Geom_Surface.hxx>
 #include <TopoDS_Face.hxx>
@@ -27,7 +27,7 @@
 #include <Geom2d_Line.hxx>
 #include <TopoDS_Wire.hxx>
 
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 
 //=======================================================================
 //function : BRepPrim_FaceBuilder

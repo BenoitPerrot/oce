@@ -6,15 +6,15 @@
 #ifndef _TColStd_IndexedMapOfTransient_HeaderFile
 #define _TColStd_IndexedMapOfTransient_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TCollection_BasicMap.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Handle_TColStd_IndexedMapNodeOfIndexedMapOfTransient.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_DomainError;
 class Standard_OutOfRange;
 class Standard_Transient;

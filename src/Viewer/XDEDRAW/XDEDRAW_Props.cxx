@@ -43,8 +43,8 @@
 #include <Precision.hxx>
 #include <TNaming_NamedShape.hxx>
 
-#include <Standard_ErrorHandler.hxx>
-#include <Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
 #include <gp_Pln.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <Poly_Triangulation.hxx>
@@ -55,7 +55,7 @@
 #include <BRep_Tool.hxx>
 #include <BRepMesh_IncrementalMesh.hxx>
 #include <TopoDS_Vertex.hxx>
-#include <Standard_Stream.hxx>
+#include <Foundation/Standard/Standard_Stream.hxx>
 #include <stdio.h>
 #include <TColgp_Array1OfXYZ.hxx>
 #include <TColStd_Array1OfReal.hxx>

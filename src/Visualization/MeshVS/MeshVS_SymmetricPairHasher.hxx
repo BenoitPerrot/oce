@@ -14,7 +14,7 @@
 #ifndef _MeshVS_SymmetricPairHasher_HeaderFile
 #define _MeshVS_SymmetricPairHasher_HeaderFile
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 typedef std::pair<Standard_Integer, Standard_Integer> MeshVS_NodePair;
 

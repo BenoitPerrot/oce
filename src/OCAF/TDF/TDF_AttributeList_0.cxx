@@ -5,7 +5,7 @@
 
 #include <TDF_AttributeList.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TDF_ListIteratorOfAttributeList.hxx>
 #include <TDF_Attribute.hxx>
 #include <TDF_ListNodeOfAttributeList.hxx>

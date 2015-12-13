@@ -6,7 +6,7 @@
 #ifndef _BRepCheck_Status_HeaderFile
 #define _BRepCheck_Status_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum BRepCheck_Status

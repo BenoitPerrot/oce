@@ -6,7 +6,7 @@
 #ifndef _Quantity_PhysicalQuantity_HeaderFile
 #define _Quantity_PhysicalQuantity_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! List of all physical quantities(Afnor)
 enum Quantity_PhysicalQuantity

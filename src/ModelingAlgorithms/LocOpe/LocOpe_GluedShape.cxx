@@ -20,7 +20,7 @@
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <LocOpe_GluedShape.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(LocOpe_GluedShape)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(LocOpe_GeneratedShape),
@@ -40,7 +40,7 @@ IMPLEMENT_STANDARD_RTTI(LocOpe_GluedShape)
 #include <TopoDS.hxx>
 #include <TopExp.hxx>
 
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 
 //=======================================================================
 //function : LocOpe_GluedShape

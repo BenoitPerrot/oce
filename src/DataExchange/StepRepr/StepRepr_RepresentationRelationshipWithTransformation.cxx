@@ -15,7 +15,7 @@
 #include <StepRepr_Representation.hxx>
 #include <StepRepr_Transformation.hxx>
 #include <StepRepr_RepresentationRelationshipWithTransformation.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepRepr_RepresentationRelationshipWithTransformation)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepRepr_ShapeRepresentationRelationship),

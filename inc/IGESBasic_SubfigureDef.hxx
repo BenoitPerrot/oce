@@ -6,11 +6,11 @@
 #ifndef _IGESBasic_SubfigureDef_HeaderFile
 #define _IGESBasic_SubfigureDef_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESBasic_SubfigureDef.hxx>
 
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Handle_IGESData_HArray1OfIGESEntity.hxx>
 #include <IGESData_IGESEntity.hxx>

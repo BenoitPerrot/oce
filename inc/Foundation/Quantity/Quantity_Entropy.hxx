@@ -6,7 +6,7 @@
 #ifndef _Quantity_Entropy_HeaderFile
 #define _Quantity_Entropy_HeaderFile
 
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 
 typedef Standard_Real Quantity_Entropy;
 

@@ -5,7 +5,7 @@
 
 #include <IGESBasic_HArray1OfHArray1OfXY.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TColgp_HArray1OfXY.hxx>
 

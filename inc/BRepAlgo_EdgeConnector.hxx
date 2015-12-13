@@ -6,14 +6,14 @@
 #ifndef _BRepAlgo_EdgeConnector_HeaderFile
 #define _BRepAlgo_EdgeConnector_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BRepAlgo_EdgeConnector.hxx>
 
 #include <TopTools_ListOfShape.hxx>
 #include <BRepAlgo_DataMapOfShapeBoolean.hxx>
 #include <TopOpeBRepBuild_BlockBuilder.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class TopoDS_Edge;
 class TopTools_ListOfShape;

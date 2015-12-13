@@ -6,17 +6,17 @@
 #ifndef _HLRBRep_EdgeData_HeaderFile
 #define _HLRBRep_EdgeData_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <HLRAlgo_EdgeStatus.hxx>
 #include <HLRBRep_Curve.hxx>
-#include <Standard_ShortReal.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Address.hxx>
+#include <Foundation/Standard/Standard_ShortReal.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
 class TopoDS_Edge;
 class HLRAlgo_EdgeStatus;
 class HLRBRep_Curve;

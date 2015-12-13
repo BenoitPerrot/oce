@@ -6,16 +6,16 @@
 #ifndef _Draft_EdgeInfo_HeaderFile
 #define _Draft_EdgeInfo_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Geom_Curve.hxx>
 #include <TopoDS_Face.hxx>
 #include <Handle_Geom2d_Curve.hxx>
 #include <gp_Pnt.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class Geom_Curve;
 class Geom2d_Curve;
 class Standard_DomainError;

@@ -6,18 +6,18 @@
 #ifndef _Poly_Triangulation_HeaderFile
 #define _Poly_Triangulation_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Poly_Triangulation.hxx>
 
-#include <Standard_Real.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <Handle_TColgp_HArray1OfPnt2d.hxx>
 #include <Poly_Array1OfTriangle.hxx>
 #include <Handle_TShort_HArray1OfShortReal.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class TColgp_HArray1OfPnt2d;
 class TShort_HArray1OfShortReal;
 class Standard_DomainError;

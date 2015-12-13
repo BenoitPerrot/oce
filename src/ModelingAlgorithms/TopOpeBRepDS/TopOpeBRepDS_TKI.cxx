@@ -21,7 +21,7 @@
 #include <TopOpeBRepDS_define.hxx>
 #include <TopOpeBRepDS_EXPORT.hxx>
 #include <TopOpeBRepDS.hxx>
-#include <Standard_ProgramError.hxx>
+#include <Foundation/Standard/Standard_ProgramError.hxx>
 
 // extras define
 #include <TopOpeBRepDS_DataMapOfIntegerListOfInterference.hxx>

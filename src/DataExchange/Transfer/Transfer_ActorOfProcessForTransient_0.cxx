@@ -5,11 +5,11 @@
 
 #include <Transfer_ActorOfProcessForTransient.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Transfer_ActorOfProcessForTransient.hxx>
-#include <Standard_DomainError.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <TColStd_MapTransientHasher.hxx>
 #include <TColStd_HSequenceOfTransient.hxx>
 #include <Transfer_ProcessForTransient.hxx>
@@ -36,7 +36,7 @@ IMPLEMENT_STANDARD_RTTI(Transfer_ActorOfProcessForTransient)
 
 
 #define TheStart Handle(Standard_Transient)
-#define TheStart_hxx <Standard_Transient.hxx>
+#define TheStart_hxx <Foundation/Standard/Standard_Transient.hxx>
 #define TheMapHasher TColStd_MapTransientHasher
 #define TheMapHasher_hxx <TColStd_MapTransientHasher.hxx>
 #define Handle_TheList Handle_TColStd_HSequenceOfTransient

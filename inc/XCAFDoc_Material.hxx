@@ -6,12 +6,12 @@
 #ifndef _XCAFDoc_Material_HeaderFile
 #define _XCAFDoc_Material_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_XCAFDoc_Material.hxx>
 
 #include <Handle_TCollection_HAsciiString.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <TDF_Attribute.hxx>
 #include <Handle_TDF_Attribute.hxx>
 #include <Handle_TDF_RelocationTable.hxx>

@@ -6,15 +6,15 @@
 #ifndef _StepAP214_AutoDesignSecurityClassificationAssignment_HeaderFile
 #define _StepAP214_AutoDesignSecurityClassificationAssignment_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepAP214_AutoDesignSecurityClassificationAssignment.hxx>
 
 #include <Handle_StepBasic_HArray1OfApproval.hxx>
 #include <StepBasic_SecurityClassificationAssignment.hxx>
 #include <Handle_StepBasic_SecurityClassification.hxx>
 #include <Handle_StepBasic_Approval.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class StepBasic_HArray1OfApproval;
 class StepBasic_SecurityClassification;
 class StepBasic_Approval;

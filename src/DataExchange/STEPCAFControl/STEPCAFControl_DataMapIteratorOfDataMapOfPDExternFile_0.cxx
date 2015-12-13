@@ -5,7 +5,7 @@
 
 #include <STEPCAFControl_DataMapIteratorOfDataMapOfPDExternFile.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <StepBasic_ProductDefinition.hxx>
 #include <STEPCAFControl_ExternFile.hxx>
 #include <TColStd_MapTransientHasher.hxx>

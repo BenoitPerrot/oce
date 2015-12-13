@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <CDM_Reference.hxx>
 #include <CDM_MetaData.hxx>
 #include <CDM_Document.hxx>
@@ -22,7 +22,7 @@
 #include <CDM_MetaDataLookUpTable.hxx>
 #include <CDM_Application.hxx>
 #include <CDM_MetaData.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(CDM_MetaData)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Standard_Transient),

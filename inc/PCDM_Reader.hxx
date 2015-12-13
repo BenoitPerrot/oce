@@ -6,12 +6,12 @@
 #ifndef _PCDM_Reader_HeaderFile
 #define _PCDM_Reader_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_PCDM_Reader.hxx>
 
 #include <PCDM_ReaderStatus.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <Handle_CDM_Document.hxx>
 #include <Handle_CDM_Application.hxx>
 class PCDM_DriverError;

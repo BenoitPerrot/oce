@@ -6,14 +6,14 @@
 #ifndef _BRepOffsetAPI_DraftAngle_HeaderFile
 #define _BRepOffsetAPI_DraftAngle_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TopTools_ListOfShape.hxx>
 #include <BRepBuilderAPI_ModifyShape.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Draft_ErrorStatus.hxx>
 class StdFail_NotDone;
 class Standard_NullObject;

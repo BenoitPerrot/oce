@@ -16,8 +16,8 @@
 #ifndef NCollection_BaseVector_HeaderFile
 #define NCollection_BaseVector_HeaderFile
 
-#include <Standard_TypeDef.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_TypeDef.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/NCollection/NCollection_BaseAllocator.hxx>
 #include <Foundation/NCollection/NCollection_DefineAlloc.hxx>
 

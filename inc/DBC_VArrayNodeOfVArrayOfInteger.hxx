@@ -6,13 +6,13 @@
 #ifndef _DBC_VArrayNodeOfVArrayOfInteger_HeaderFile
 #define _DBC_VArrayNodeOfVArrayOfInteger_HeaderFile
 
-#include <Standard_Macro.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Handle_DBC_VArrayNodeOfVArrayOfInteger.hxx>
 
-#include <Standard_Address.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <PStandard_ArrayNode.hxx>
 class DBC_VArrayOfInteger;
 class DBC_VArrayTNodeOfVArrayOfInteger;

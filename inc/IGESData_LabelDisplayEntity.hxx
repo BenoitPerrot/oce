@@ -6,8 +6,8 @@
 #ifndef _IGESData_LabelDisplayEntity_HeaderFile
 #define _IGESData_LabelDisplayEntity_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESData_LabelDisplayEntity.hxx>
 
 #include <IGESData_IGESEntity.hxx>

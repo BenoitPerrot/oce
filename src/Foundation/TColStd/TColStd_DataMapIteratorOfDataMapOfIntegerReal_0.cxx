@@ -5,16 +5,16 @@
 
 #include <TColStd_DataMapIteratorOfDataMapOfIntegerReal.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TColStd_MapIntegerHasher.hxx>
 #include <TColStd_DataMapOfIntegerReal.hxx>
 #include <TColStd_DataMapNodeOfDataMapOfIntegerReal.hxx>
  
 
 #define TheKey Standard_Integer
-#define TheKey_hxx <Standard_Integer.hxx>
+#define TheKey_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheItem Standard_Real
-#define TheItem_hxx <Standard_Real.hxx>
+#define TheItem_hxx <Foundation/Standard/Standard_Real.hxx>
 #define Hasher TColStd_MapIntegerHasher
 #define Hasher_hxx <TColStd_MapIntegerHasher.hxx>
 #define TCollection_DataMapNode TColStd_DataMapNodeOfDataMapOfIntegerReal

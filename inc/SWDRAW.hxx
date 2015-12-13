@@ -6,12 +6,12 @@
 #ifndef _SWDRAW_HeaderFile
 #define _SWDRAW_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Draw_Interpretor.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 class SWDRAW_ShapeTool;
 class SWDRAW_ShapeAnalysis;
 class SWDRAW_ShapeCustom;

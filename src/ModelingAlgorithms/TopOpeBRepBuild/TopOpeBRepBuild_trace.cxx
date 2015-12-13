@@ -16,7 +16,7 @@
 
 #ifdef OCCT_DEBUG
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 static Standard_Boolean TopOpeBRepBuild_traceCU = Standard_False;  // dump curves
 Standard_EXPORT void TopOpeBRepBuild_SettraceCU(const Standard_Boolean b) { TopOpeBRepBuild_traceCU = b; }

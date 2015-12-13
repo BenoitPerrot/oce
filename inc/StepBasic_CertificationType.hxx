@@ -6,8 +6,8 @@
 #ifndef _StepBasic_CertificationType_HeaderFile
 #define _StepBasic_CertificationType_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepBasic_CertificationType.hxx>
 
 #include <Handle_TCollection_HAsciiString.hxx>

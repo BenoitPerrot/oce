@@ -5,7 +5,7 @@
 
 #include <GeomPlate_SequenceNodeOfSequenceOfCurveConstraint.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <GeomPlate_CurveConstraint.hxx>
 #include <GeomPlate_SequenceOfCurveConstraint.hxx>

@@ -5,8 +5,8 @@
 
 #include <Foundation/Resource/Resource_DataMapOfAsciiStringAsciiString.hxx>
 
-#include <Standard_DomainError.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <Foundation/Resource/Resource_DataMapNodeOfDataMapOfAsciiStringAsciiString.hxx>
 #include <Foundation/Resource/Resource_DataMapIteratorOfDataMapOfAsciiStringAsciiString.hxx>

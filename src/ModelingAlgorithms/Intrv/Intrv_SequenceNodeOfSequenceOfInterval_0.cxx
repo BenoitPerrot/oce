@@ -5,7 +5,7 @@
 
 #include <Intrv_SequenceNodeOfSequenceOfInterval.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Intrv_Interval.hxx>
 #include <Intrv_SequenceOfInterval.hxx>

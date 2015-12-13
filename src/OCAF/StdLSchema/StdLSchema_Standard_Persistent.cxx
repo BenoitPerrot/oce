@@ -2,7 +2,7 @@
 #include <StdLSchema_Standard_Persistent.hxx>
 #endif
 #ifndef _Standard_Persistent_HeaderFile
-#include <Standard_Persistent.hxx>
+#include <Foundation/Standard/Standard_Persistent.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Storage_Schema.hxx>

@@ -6,15 +6,15 @@
 #ifndef _TColStd_ListOfReal_HeaderFile
 #define _TColStd_ListOfReal_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Address.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_TColStd_ListNodeOfListOfReal.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_NoSuchObject;
 class TColStd_ListIteratorOfListOfReal;
 class TColStd_ListNodeOfListOfReal;
@@ -97,7 +97,7 @@ private:
 };
 
 #define Item Standard_Real
-#define Item_hxx <Standard_Real.hxx>
+#define Item_hxx <Foundation/Standard/Standard_Real.hxx>
 #define TCollection_ListNode TColStd_ListNodeOfListOfReal
 #define TCollection_ListNode_hxx <TColStd_ListNodeOfListOfReal.hxx>
 #define TCollection_ListIterator TColStd_ListIteratorOfListOfReal

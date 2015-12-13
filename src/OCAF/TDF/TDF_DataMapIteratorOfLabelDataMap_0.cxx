@@ -5,7 +5,7 @@
 
 #include <TDF_DataMapIteratorOfLabelDataMap.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TDF_Label.hxx>
 #include <TDF_LabelMapHasher.hxx>
 #include <TDF_LabelDataMap.hxx>

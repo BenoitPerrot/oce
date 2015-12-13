@@ -14,7 +14,7 @@
 #include <TDF_Label.hxx>
 #include <AIS_InteractiveObject.hxx>
 #include <TPrsStd_ConstraintDriver.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TPrsStd_ConstraintDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(TPrsStd_Driver),
@@ -28,8 +28,8 @@ IMPLEMENT_STANDARD_RTTI(TPrsStd_ConstraintDriver)
 #include <TDF_Label.hxx>
 #include <TDataXtd_Constraint.hxx>
 #include <TPrsStd_ConstraintTools.hxx>
-#include <Standard_ProgramError.hxx>
-#include <Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_ProgramError.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
 #include <TDataStd_Real.hxx>
 #include <TDataXtd_Position.hxx>
 #include <AIS_Drawer.hxx>

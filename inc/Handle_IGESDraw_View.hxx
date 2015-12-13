@@ -6,8 +6,8 @@
 #ifndef _Handle_IGESDraw_View_HeaderFile
 #define _Handle_IGESDraw_View_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESData_ViewKindEntity.hxx>
 
 class Standard_Transient;

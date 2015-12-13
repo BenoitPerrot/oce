@@ -6,8 +6,8 @@
 #ifndef _TColStd_StdMapNodeOfMapOfTransient_HeaderFile
 #define _TColStd_StdMapNodeOfMapOfTransient_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TColStd_StdMapNodeOfMapOfTransient.hxx>
 
 #include <Handle_Standard_Transient.hxx>
@@ -49,7 +49,7 @@ private:
 };
 
 #define TheKey Handle(Standard_Transient)
-#define TheKey_hxx <Standard_Transient.hxx>
+#define TheKey_hxx <Foundation/Standard/Standard_Transient.hxx>
 #define Hasher TColStd_MapTransientHasher
 #define Hasher_hxx <TColStd_MapTransientHasher.hxx>
 #define TCollection_StdMapNode TColStd_StdMapNodeOfMapOfTransient

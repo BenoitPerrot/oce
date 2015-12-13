@@ -6,7 +6,7 @@
 #ifndef _MeshVS_DrawerAttribute_HeaderFile
 #define _MeshVS_DrawerAttribute_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Is it allowed to draw beam and face's edge overlapping with this beam.//! Is mesh drawn with reflective material//! Is colored mesh data representation drawn with reflective material//! What part of face or link will be shown if shrink mode. It is recommended this coeff to be between 0 and 1.//! How many nodes is possible to be in face//! If this parameter is true, the compute method CPU time will be displayed in console window//! If this parameter is true, the compute selection method CPU time will be displayed in console window//! If this parameter is false, the nodes won't be shown in viewer, otherwise will be.//! If this parameter is true, the selectable nodes map will be updated automatically when hidden elements change//! If this parameter is false, the face's edges are not shown
 //! Warning: in wireframe mode this parameter is ignored//! Is mesh drawing in smooth shading mode//! Is back faces of volume elements should be supressed//! The integer keys for most useful constants attuning mesh presentation appearence

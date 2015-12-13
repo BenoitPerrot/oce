@@ -6,9 +6,9 @@
 #ifndef _BRepGProp_Cinert_HeaderFile
 #define _BRepGProp_Cinert_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <GProp_GProps.hxx>
 class BRepAdaptor_Curve;

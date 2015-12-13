@@ -13,8 +13,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_Atomic.hxx>
-#include <Standard_Assert.hxx>
+#include <Foundation/Standard/Standard_Atomic.hxx>
+#include <Foundation/Standard/Standard_Assert.hxx>
 
 #include <Graphic3d_GraphicDriver.hxx>
 #include <Graphic3d_ShaderObject.hxx>

@@ -6,13 +6,13 @@
 #ifndef _StepGeom_CurveBoundedSurface_HeaderFile
 #define _StepGeom_CurveBoundedSurface_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepGeom_CurveBoundedSurface.hxx>
 
 #include <Handle_StepGeom_Surface.hxx>
 #include <Handle_StepGeom_HArray1OfSurfaceBoundary.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <StepGeom_BoundedSurface.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 class StepGeom_Surface;

@@ -6,15 +6,15 @@
 #ifndef _Geom2d_BezierCurve_HeaderFile
 #define _Geom2d_BezierCurve_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Geom2d_BezierCurve.hxx>
 
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_TColgp_HArray1OfPnt2d.hxx>
 #include <Handle_TColStd_HArray1OfReal.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Geom2d_BoundedCurve.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <Handle_Geom2d_Geometry.hxx>

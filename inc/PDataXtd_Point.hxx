@@ -6,9 +6,9 @@
 #ifndef _PDataXtd_Point_HeaderFile
 #define _PDataXtd_Point_HeaderFile
 
-#include <Standard_Macro.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Handle_PDataXtd_Point.hxx>
 
 #include <PDF_Attribute.hxx>

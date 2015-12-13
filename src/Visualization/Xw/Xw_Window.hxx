@@ -25,8 +25,8 @@
 #include <Aspect_GradientFillMethod.hxx>
 #include <Aspect_Handle.hxx>
 #include <Aspect_TypeOfResize.hxx>
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Foundation/Quantity/Quantity_Parameter.hxx>
 #include <Foundation/Quantity/Quantity_Ratio.hxx>

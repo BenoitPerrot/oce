@@ -16,8 +16,8 @@
 #ifndef _OpenGl_RenderFilter_H__
 #define _OpenGl_RenderFilter_H__
 
-#include <Standard_DefineHandle.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 
 DEFINE_STANDARD_HANDLE (OpenGl_RenderFilter, Standard_Transient)
 

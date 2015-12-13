@@ -34,7 +34,7 @@
 #include <Prs3d_TextAspect.hxx>
 #include <Select3D_ListOfSensitive.hxx>
 #include <SelectMgr_EntityOwner.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <TCollection_ExtendedString.hxx>
 #include <TColgp_HSequenceOfPnt.hxx>
 #include <TopoDS_Edge.hxx>

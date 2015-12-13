@@ -19,7 +19,7 @@
 #include <StepAP203_HArray1OfCertifiedItem.hxx>
 #include <StepBasic_Certification.hxx>
 #include <StepAP203_CcDesignCertification.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepAP203_CcDesignCertification)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepBasic_CertificationAssignment),

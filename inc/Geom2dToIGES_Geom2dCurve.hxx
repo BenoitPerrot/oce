@@ -6,14 +6,14 @@
 #ifndef _Geom2dToIGES_Geom2dCurve_HeaderFile
 #define _Geom2dToIGES_Geom2dCurve_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Geom2dToIGES_Geom2dEntity.hxx>
 #include <Handle_IGESData_IGESEntity.hxx>
 #include <Handle_Geom2d_Curve.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class Geom2dToIGES_Geom2dEntity;
 class IGESData_IGESEntity;
 class Geom2d_Curve;

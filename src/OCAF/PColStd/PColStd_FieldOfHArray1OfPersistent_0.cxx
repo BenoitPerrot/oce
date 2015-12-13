@@ -5,13 +5,13 @@
 
 #include <PColStd_FieldOfHArray1OfPersistent.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
-#include <Standard_NegativeValue.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_DimensionMismatch.hxx>
-#include <Standard_NullObject.hxx>
-#include <Standard_Persistent.hxx>
+#include <Foundation/Standard/Standard_NegativeValue.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_DimensionMismatch.hxx>
+#include <Foundation/Standard/Standard_NullObject.hxx>
+#include <Foundation/Standard/Standard_Persistent.hxx>
 #include <PColStd_VArrayNodeOfFieldOfHArray1OfPersistent.hxx>
 #include <PColStd_VArrayTNodeOfFieldOfHArray1OfPersistent.hxx>
 
@@ -25,7 +25,7 @@ IMPLEMENT_STANDARD_TYPE_END(PColStd_FieldOfHArray1OfPersistent)
  
 
 #define Item Handle(Standard_Persistent)
-#define Item_hxx <Standard_Persistent.hxx>
+#define Item_hxx <Foundation/Standard/Standard_Persistent.hxx>
 #define DBC_VArrayNode PColStd_VArrayNodeOfFieldOfHArray1OfPersistent
 #define DBC_VArrayNode_hxx <PColStd_VArrayNodeOfFieldOfHArray1OfPersistent.hxx>
 #define DBC_VArrayTNode PColStd_VArrayTNodeOfFieldOfHArray1OfPersistent

@@ -5,9 +5,9 @@
 
 #include <TFunction_DoubleMapOfIntegerLabel.hxx>
 
-#include <Standard_DomainError.hxx>
-#include <Standard_MultiplyDefined.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_MultiplyDefined.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TDF_Label.hxx>
 #include <TColStd_MapIntegerHasher.hxx>
 #include <TDF_LabelMapHasher.hxx>
@@ -16,7 +16,7 @@
  
 
 #define TheKey1 Standard_Integer
-#define TheKey1_hxx <Standard_Integer.hxx>
+#define TheKey1_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheKey2 TDF_Label
 #define TheKey2_hxx <TDF_Label.hxx>
 #define Hasher1 TColStd_MapIntegerHasher

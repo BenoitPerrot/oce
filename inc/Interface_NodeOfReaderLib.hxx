@@ -6,8 +6,8 @@
 #ifndef _Interface_NodeOfReaderLib_HeaderFile
 #define _Interface_NodeOfReaderLib_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Interface_NodeOfReaderLib.hxx>
 
 #include <Handle_Interface_GlobalNodeOfReaderLib.hxx>

@@ -6,12 +6,12 @@
 #ifndef _StdSelect_IndexedDataMapNodeOfIndexedDataMapOfOwnerPrs_HeaderFile
 #define _StdSelect_IndexedDataMapNodeOfIndexedDataMapOfOwnerPrs_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StdSelect_IndexedDataMapNodeOfIndexedDataMapOfOwnerPrs.hxx>
 
 #include <Handle_SelectBasics_EntityOwner.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_StdSelect_Prs.hxx>
 #include <TCollection_MapNodePtr.hxx>
 #include <TCollection_MapNode.hxx>

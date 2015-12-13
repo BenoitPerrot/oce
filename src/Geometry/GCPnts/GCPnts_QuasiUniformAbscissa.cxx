@@ -15,9 +15,9 @@
 //#include <GCPnts_QuasiUniformAbscissa.ixx>
 
 #include <StdFail_NotDone.hxx>
-#include <Standard_DomainError.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <GCPnts_QuasiUniformAbscissa.hxx>
 #include <GCPnts_UniformAbscissa.hxx>
 #include <Adaptor3d_Curve.hxx>

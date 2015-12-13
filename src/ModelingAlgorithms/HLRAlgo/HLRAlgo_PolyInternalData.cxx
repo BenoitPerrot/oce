@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_Stream.hxx>
+#include <Foundation/Standard/Standard_Stream.hxx>
 #include <HLRAlgo_HArray1OfTData.hxx>
 #include <HLRAlgo_HArray1OfPISeg.hxx>
 #include <HLRAlgo_HArray1OfPINod.hxx>
@@ -22,7 +22,7 @@
 #include <HLRAlgo_Array1OfPISeg.hxx>
 #include <HLRAlgo_Array1OfPINod.hxx>
 #include <HLRAlgo_PolyInternalData.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(HLRAlgo_PolyInternalData)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

@@ -6,8 +6,8 @@
 #ifndef _Units_SequenceNodeOfUtsSequence_HeaderFile
 #define _Units_SequenceNodeOfUtsSequence_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Units_SequenceNodeOfUtsSequence.hxx>
 
 #include <Handle_Units_Unit.hxx>

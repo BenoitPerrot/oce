@@ -6,7 +6,7 @@
 #ifndef _CDF_StoreSetNameStatus_HeaderFile
 #define _CDF_StoreSetNameStatus_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum CDF_StoreSetNameStatus

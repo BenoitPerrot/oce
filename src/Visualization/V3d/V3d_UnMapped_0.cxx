@@ -5,7 +5,7 @@
 
 #include <V3d_UnMapped.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 IMPLEMENT_STANDARD_EXCEPTION(V3d_UnMapped)
  

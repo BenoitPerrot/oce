@@ -5,14 +5,14 @@
 
 #include <TColStd_Array2OfInteger.hxx>
 
-#include <Standard_RangeError.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_OutOfMemory.hxx>
-#include <Standard_DimensionMismatch.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfMemory.hxx>
+#include <Foundation/Standard/Standard_DimensionMismatch.hxx>
  
 
 #define Array2Item Standard_Integer
-#define Array2Item_hxx <Standard_Integer.hxx>
+#define Array2Item_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TCollection_Array2 TColStd_Array2OfInteger
 #define TCollection_Array2_hxx <TColStd_Array2OfInteger.hxx>
 #include <TCollection_Array2.gxx>

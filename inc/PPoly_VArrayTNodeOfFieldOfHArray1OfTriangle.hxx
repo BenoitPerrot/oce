@@ -6,13 +6,13 @@
 #ifndef _PPoly_VArrayTNodeOfFieldOfHArray1OfTriangle_HeaderFile
 #define _PPoly_VArrayTNodeOfFieldOfHArray1OfTriangle_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <PPoly_Triangle.hxx>
 #include <Handle_PPoly_VArrayNodeOfFieldOfHArray1OfTriangle.hxx>
-#include <Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
 class PPoly_Triangle;
 class PPoly_FieldOfHArray1OfTriangle;
 class PPoly_VArrayNodeOfFieldOfHArray1OfTriangle;

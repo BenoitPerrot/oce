@@ -5,7 +5,7 @@
 
 #include <IGESSelect_ModelModifier.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <IGESData_IGESModel.hxx>
 #include <IGESData_Protocol.hxx>

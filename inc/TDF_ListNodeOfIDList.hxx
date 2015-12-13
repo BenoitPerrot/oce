@@ -6,11 +6,11 @@
 #ifndef _TDF_ListNodeOfIDList_HeaderFile
 #define _TDF_ListNodeOfIDList_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TDF_ListNodeOfIDList.hxx>
 
-#include <Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
 #include <TCollection_MapNode.hxx>
 #include <TCollection_MapNodePtr.hxx>
 class Standard_GUID;
@@ -48,7 +48,7 @@ private:
 };
 
 #define Item Standard_GUID
-#define Item_hxx <Standard_GUID.hxx>
+#define Item_hxx <Foundation/Standard/Standard_GUID.hxx>
 #define TCollection_ListNode TDF_ListNodeOfIDList
 #define TCollection_ListNode_hxx <TDF_ListNodeOfIDList.hxx>
 #define TCollection_ListIterator TDF_ListIteratorOfIDList

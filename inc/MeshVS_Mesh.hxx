@@ -6,8 +6,8 @@
 #ifndef _MeshVS_Mesh_HeaderFile
 #define _MeshVS_Mesh_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_MeshVS_Mesh.hxx>
 
 #include <MeshVS_SequenceOfPrsBuilder.hxx>
@@ -19,13 +19,13 @@
 #include <Handle_SelectMgr_EntityOwner.hxx>
 #include <MeshVS_MeshSelectionMethod.hxx>
 #include <AIS_InteractiveObject.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <PrsMgr_PresentationManager3d.hxx>
 #include <Handle_Prs3d_Presentation.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_SelectMgr_Selection.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 class MeshVS_PrsBuilder;
 class TColStd_HPackedMapOfInteger;
 class MeshVS_DataSource;

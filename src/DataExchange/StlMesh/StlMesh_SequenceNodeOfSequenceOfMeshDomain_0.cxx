@@ -5,7 +5,7 @@
 
 #include <StlMesh_SequenceNodeOfSequenceOfMeshDomain.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <StlMesh_MeshDomain.hxx>
 #include <StlMesh_SequenceOfMeshDomain.hxx>

@@ -16,8 +16,8 @@
 
 #include <gp.hxx>
 #include <gp_Mat.hxx>
-#include <Standard_ConstructionError.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 
 inline gp_XYZ::gp_XYZ () : x(0.), y(0.), z(0.) { }
 

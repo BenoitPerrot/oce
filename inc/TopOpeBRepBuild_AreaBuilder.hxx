@@ -6,19 +6,19 @@
 #ifndef _TopOpeBRepBuild_AreaBuilder_HeaderFile
 #define _TopOpeBRepBuild_AreaBuilder_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TopOpeBRepBuild_ListOfListOfLoop.hxx>
 #include <TopOpeBRepBuild_ListIteratorOfListOfListOfLoop.hxx>
 #include <TopOpeBRepBuild_ListIteratorOfListOfLoop.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <TopAbs_State.hxx>
 #include <Handle_TopOpeBRepBuild_Loop.hxx>
 #include <TopOpeBRepBuild_LoopEnum.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
 class TopOpeBRepBuild_LoopSet;
 class TopOpeBRepBuild_LoopClassifier;
 class TopOpeBRepBuild_Loop;

@@ -19,7 +19,7 @@
 #include <Draw_Color.hxx>
 #include <Draw_Display.hxx>
 #include <TestTopOpeDraw_DrawableP2D.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TestTopOpeDraw_DrawableP2D)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Draw_Marker2D),

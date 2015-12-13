@@ -6,8 +6,8 @@
 #ifndef _Handle_StlMesh_SequenceNodeOfSequenceOfMeshTriangle_HeaderFile
 #define _Handle_StlMesh_SequenceNodeOfSequenceOfMeshTriangle_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TCollection_SeqNode.hxx>
 
 class Standard_Transient;

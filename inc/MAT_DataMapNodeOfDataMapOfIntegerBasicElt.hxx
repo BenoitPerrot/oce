@@ -6,11 +6,11 @@
 #ifndef _MAT_DataMapNodeOfDataMapOfIntegerBasicElt_HeaderFile
 #define _MAT_DataMapNodeOfDataMapOfIntegerBasicElt_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_MAT_DataMapNodeOfDataMapOfIntegerBasicElt.hxx>
 
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_MAT_BasicElt.hxx>
 #include <TCollection_MapNode.hxx>
 #include <TCollection_MapNodePtr.hxx>
@@ -53,7 +53,7 @@ private:
 };
 
 #define TheKey Standard_Integer
-#define TheKey_hxx <Standard_Integer.hxx>
+#define TheKey_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheItem Handle(MAT_BasicElt)
 #define TheItem_hxx <MAT_BasicElt.hxx>
 #define Hasher TColStd_MapIntegerHasher

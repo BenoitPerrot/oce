@@ -19,7 +19,7 @@
 #include <StepAP203_HArray1OfClassifiedItem.hxx>
 #include <StepBasic_SecurityClassification.hxx>
 #include <StepAP203_CcDesignSecurityClassification.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepAP203_CcDesignSecurityClassification)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepBasic_SecurityClassificationAssignment),

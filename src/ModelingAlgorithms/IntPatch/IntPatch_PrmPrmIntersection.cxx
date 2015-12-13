@@ -17,7 +17,7 @@
 // modified by Edward AGAPOV (eap) Tue Jan 22 12:29:55 2002
 // modified by Oleg FEDYAED  (ofv) Fri Nov 29 16:08:02 2002
 
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <StdFail_NotDone.hxx>
 #include <Adaptor3d_HSurface.hxx>
 #include <IntPatch_Polyhedron.hxx>

@@ -6,8 +6,8 @@
 #ifndef _StepGeom_PointReplica_HeaderFile
 #define _StepGeom_PointReplica_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepGeom_PointReplica.hxx>
 
 #include <Handle_StepGeom_Point.hxx>

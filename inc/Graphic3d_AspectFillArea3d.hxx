@@ -6,20 +6,20 @@
 #ifndef _Graphic3d_AspectFillArea3d_HeaderFile
 #define _Graphic3d_AspectFillArea3d_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Graphic3d_AspectFillArea3d.hxx>
 
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Graphic3d_TextureMap.hxx>
 #include <Graphic3d_MaterialAspect.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_ShortReal.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_ShortReal.hxx>
 #include <Graphic3d_ShaderProgram_Handle.hxx>
 #include <Aspect_AspectFillArea.hxx>
 #include <Aspect_InteriorStyle.hxx>
 #include <Aspect_TypeOfLine.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class Graphic3d_TextureMap;
 class Quantity_Color;
 class Graphic3d_MaterialAspect;

@@ -6,12 +6,12 @@
 #ifndef _BRepCheck_Result_HeaderFile
 #define _BRepCheck_Result_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BRepCheck_Result.hxx>
 
 #include <TopoDS_Shape.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <BRepCheck_DataMapOfShapeListOfStatus.hxx>
 #include <BRepCheck_DataMapIteratorOfDataMapOfShapeListOfStatus.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

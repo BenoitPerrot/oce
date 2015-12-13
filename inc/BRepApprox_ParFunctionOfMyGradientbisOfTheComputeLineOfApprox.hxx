@@ -6,16 +6,16 @@
 #ifndef _BRepApprox_ParFunctionOfMyGradientbisOfTheComputeLineOfApprox_HeaderFile
 #define _BRepApprox_ParFunctionOfMyGradientbisOfTheComputeLineOfApprox_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <BRepApprox_TheMultiLineOfApprox.hxx>
 #include <AppParCurves_MultiCurve.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <math_Vector.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <math_Matrix.hxx>
 #include <BRepApprox_ParLeastSquareOfMyGradientbisOfTheComputeLineOfApprox.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>

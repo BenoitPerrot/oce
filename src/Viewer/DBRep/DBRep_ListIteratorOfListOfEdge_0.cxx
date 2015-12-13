@@ -5,8 +5,8 @@
 
 #include <DBRep_ListIteratorOfListOfEdge.hxx>
 
-#include <Standard_NoMoreObject.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoMoreObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <DBRep_ListOfEdge.hxx>
 #include <DBRep_Edge.hxx>
 #include <DBRep_ListNodeOfListOfEdge.hxx>

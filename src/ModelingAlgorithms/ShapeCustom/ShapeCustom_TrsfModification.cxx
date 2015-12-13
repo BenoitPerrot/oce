@@ -24,7 +24,7 @@
 #include <gp_Pnt.hxx>
 #include <Geom2d_Curve.hxx>
 #include <ShapeCustom_TrsfModification.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeCustom_TrsfModification)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(BRepTools_TrsfModification),

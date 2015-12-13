@@ -16,7 +16,7 @@
 
 #ifdef OCCT_DEBUG
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 static Standard_Boolean TopOpeBRepDS_traceBUTO = Standard_False;
 Standard_EXPORT void TopOpeBRepDS_SettraceBUTO(const Standard_Boolean b) 

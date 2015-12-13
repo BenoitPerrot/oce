@@ -6,8 +6,8 @@
 #ifndef _Transfer_Binder_HeaderFile
 #define _Transfer_Binder_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Transfer_Binder.hxx>
 
 #include <Transfer_StatusResult.hxx>
@@ -15,9 +15,9 @@
 #include <Handle_Interface_Check.hxx>
 #include <Handle_Transfer_Binder.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Standard_Type.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 class Interface_Check;
 class Transfer_TransferFailure;
 class Standard_Type;

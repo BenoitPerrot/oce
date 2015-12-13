@@ -6,8 +6,8 @@
 #ifndef _TopOpeBRepTool_DataMapNodeOfDataMapOfShapeListOfC2DF_HeaderFile
 #define _TopOpeBRepTool_DataMapNodeOfDataMapOfShapeListOfC2DF_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TopOpeBRepTool_DataMapNodeOfDataMapOfShapeListOfC2DF.hxx>
 
 #include <TopoDS_Shape.hxx>

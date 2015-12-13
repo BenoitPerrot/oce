@@ -6,11 +6,11 @@
 #ifndef _IGESGeom_Boundary_HeaderFile
 #define _IGESGeom_Boundary_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESGeom_Boundary.hxx>
 
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_IGESData_IGESEntity.hxx>
 #include <Handle_IGESData_HArray1OfIGESEntity.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>

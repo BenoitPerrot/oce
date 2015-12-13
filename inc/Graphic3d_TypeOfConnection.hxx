@@ -6,7 +6,7 @@
 #ifndef _Graphic3d_TypeOfConnection_HeaderFile
 #define _Graphic3d_TypeOfConnection_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! To manage the connections between the structures.
 enum Graphic3d_TypeOfConnection

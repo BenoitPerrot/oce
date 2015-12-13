@@ -6,8 +6,8 @@
 #ifndef _XmlDrivers_DocumentRetrievalDriver_HeaderFile
 #define _XmlDrivers_DocumentRetrievalDriver_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_XmlDrivers_DocumentRetrievalDriver.hxx>
 
 #include <XmlLDrivers_DocumentRetrievalDriver.hxx>
@@ -15,7 +15,7 @@
 #include <Handle_CDM_MessageDriver.hxx>
 #include <Handle_XmlMDF_ADriver.hxx>
 #include <XmlObjMgt_Element.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class XmlMDF_ADriverTable;
 class CDM_MessageDriver;
 class XmlMDF_ADriver;

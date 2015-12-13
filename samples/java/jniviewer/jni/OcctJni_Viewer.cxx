@@ -22,7 +22,7 @@
 #include <OpenGl_GraphicDriver.hxx>
 #include <Foundation/OSD/OSD_Environment.hxx>
 #include <Foundation/OSD/OSD_Timer.hxx>
-#include <Standard_Version.hxx>
+#include <Foundation/Standard/Standard_Version.hxx>
 
 #include <BRepPrimAPI_MakeBox.hxx>
 

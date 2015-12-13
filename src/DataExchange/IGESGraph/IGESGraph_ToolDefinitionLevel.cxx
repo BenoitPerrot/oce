@@ -17,7 +17,7 @@
 //--------------------------------------------------------------------
 
 #include <Interface_Macros.hxx>
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <IGESGraph_DefinitionLevel.hxx>
 #include <IGESData_IGESReaderData.hxx>
 #include <IGESData_ParamReader.hxx>

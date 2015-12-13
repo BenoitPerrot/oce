@@ -5,7 +5,7 @@
 
 #include <StepFEA_SequenceNodeOfSequenceOfElementGeometricRelationship.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <StepFEA_ElementGeometricRelationship.hxx>
 #include <StepFEA_SequenceOfElementGeometricRelationship.hxx>

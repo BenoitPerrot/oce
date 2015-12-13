@@ -21,7 +21,7 @@
 #include <gp_Pnt.hxx>
 #include <BRep_CurveRepresentation.hxx>
 #include <BRep_CurveOnSurface.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BRep_CurveOnSurface)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(BRep_GCurve),

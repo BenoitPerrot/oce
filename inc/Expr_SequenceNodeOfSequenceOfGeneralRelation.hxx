@@ -6,8 +6,8 @@
 #ifndef _Expr_SequenceNodeOfSequenceOfGeneralRelation_HeaderFile
 #define _Expr_SequenceNodeOfSequenceOfGeneralRelation_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Expr_SequenceNodeOfSequenceOfGeneralRelation.hxx>
 
 #include <Handle_Expr_GeneralRelation.hxx>

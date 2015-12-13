@@ -23,7 +23,7 @@
 #include <ShapeFix_Edge.hxx>
 #include <ShapeExtend_BasicMsgRegistrator.hxx>
 #include <ShapeFix_Shape.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeFix_Shape)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(ShapeFix_Root),

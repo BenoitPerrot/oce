@@ -19,13 +19,13 @@
 //#endif
 
 #include <StdFail_NotDone.hxx>
-#include <Standard_DimensionError.hxx>
+#include <Foundation/Standard/Standard_DimensionError.hxx>
 #include <math_Matrix.hxx>
 #include <math_GaussLeastSquare.hxx>
 #include <math_Recipes.hxx>
 
 #include <StdFail_NotDone.hxx> 
-#include <Standard_DimensionError.hxx>
+#include <Foundation/Standard/Standard_DimensionError.hxx>
 
 
 math_GaussLeastSquare::math_GaussLeastSquare (const math_Matrix& A,

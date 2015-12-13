@@ -5,8 +5,8 @@
 
 #include <ChFiDS_SequenceOfSpine.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <ChFiDS_Spine.hxx>
 #include <ChFiDS_SequenceNodeOfSequenceOfSpine.hxx>
  

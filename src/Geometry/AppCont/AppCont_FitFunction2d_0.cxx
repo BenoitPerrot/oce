@@ -6,8 +6,8 @@
 #include <AppCont_FitFunction2d.hxx>
 
 #include <StdFail_NotDone.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_DimensionError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_DimensionError.hxx>
 #include <AppCont_Function2d.hxx>
 #include <AppCont_FunctionTool2d.hxx>
 #include <AppParCurves_MultiCurve.hxx>

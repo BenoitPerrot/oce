@@ -5,8 +5,8 @@
 
 #include <TColGeom_SequenceOfCurve.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Geom_Curve.hxx>
 #include <TColGeom_SequenceNodeOfSequenceOfCurve.hxx>
  

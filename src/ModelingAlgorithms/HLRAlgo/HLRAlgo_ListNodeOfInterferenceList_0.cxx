@@ -5,7 +5,7 @@
 
 #include <HLRAlgo_ListNodeOfInterferenceList.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <HLRAlgo_Interference.hxx>
 #include <HLRAlgo_InterferenceList.hxx>

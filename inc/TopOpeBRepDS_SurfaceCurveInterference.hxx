@@ -6,17 +6,17 @@
 #ifndef _TopOpeBRepDS_SurfaceCurveInterference_HeaderFile
 #define _TopOpeBRepDS_SurfaceCurveInterference_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TopOpeBRepDS_SurfaceCurveInterference.hxx>
 
 #include <Handle_Geom2d_Curve.hxx>
 #include <TopOpeBRepDS_Interference.hxx>
 #include <TopOpeBRepDS_Kind.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TopOpeBRepDS_Interference.hxx>
-#include <Standard_OStream.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class Geom2d_Curve;
 class TopOpeBRepDS_Transition;
 class TopOpeBRepDS_Interference;

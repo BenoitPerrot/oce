@@ -6,11 +6,11 @@
 #ifndef _StepToGeom_MakeAxis2Placement_HeaderFile
 #define _StepToGeom_MakeAxis2Placement_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_StepGeom_Axis2Placement3d.hxx>
 #include <Handle_Geom_Axis2Placement.hxx>
 class StepGeom_Axis2Placement3d;

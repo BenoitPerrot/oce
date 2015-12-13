@@ -19,7 +19,7 @@
 #include <math_Array1OfValueAndWeight.hxx>
 #include <math_CompareOfValueAndWeight.hxx>
 #include <math_QuickSortOfValueAndWeight.hxx>
-#include <Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
 
 math_ComputeKronrodPointsAndWeights::math_ComputeKronrodPointsAndWeights(const Standard_Integer Number)
 {

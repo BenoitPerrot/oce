@@ -20,7 +20,7 @@
 #include <Geom2dAdaptor_Curve.hxx>
 #include <IntRes2d_Domain.hxx>
 #include <TopOpeBRep_Hctxee2d.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TopOpeBRep_Hctxee2d)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

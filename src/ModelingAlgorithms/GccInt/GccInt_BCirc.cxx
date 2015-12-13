@@ -16,7 +16,7 @@
 
 #include <gp_Circ2d.hxx>
 #include <GccInt_BCirc.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(GccInt_BCirc)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(GccInt_Bisec),
@@ -26,7 +26,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(GccInt_BCirc)
 IMPLEMENT_DOWNCAST(GccInt_BCirc,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(GccInt_BCirc)
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <gp_Circ2d.hxx>
 
 GccInt_BCirc::

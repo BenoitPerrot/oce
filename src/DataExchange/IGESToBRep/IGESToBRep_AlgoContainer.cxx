@@ -15,7 +15,7 @@
 
 #include <IGESToBRep_ToolContainer.hxx>
 #include <IGESToBRep_AlgoContainer.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESToBRep_AlgoContainer)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

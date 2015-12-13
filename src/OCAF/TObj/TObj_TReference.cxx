@@ -19,7 +19,7 @@
 #include <TObj_TReference.hxx>
 #include <TObj_TObject.hxx>
 
-#include <Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
 #include <TDF_RelocationTable.hxx>
 #include <TDF_DeltaOnAddition.hxx>
 

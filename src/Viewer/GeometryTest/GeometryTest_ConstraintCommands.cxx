@@ -18,7 +18,7 @@
 // PMN : Ajout de la commande smooth
 // JCT : Correction d'un trap dans la commande gcarc
 
-#include <Standard_Stream.hxx>
+#include <Foundation/Standard/Standard_Stream.hxx>
 
 #include <GeometryTest.hxx>
 #include <DrawTrSurf.hxx>

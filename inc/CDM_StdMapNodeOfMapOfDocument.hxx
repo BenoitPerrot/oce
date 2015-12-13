@@ -6,8 +6,8 @@
 #ifndef _CDM_StdMapNodeOfMapOfDocument_HeaderFile
 #define _CDM_StdMapNodeOfMapOfDocument_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_CDM_StdMapNodeOfMapOfDocument.hxx>
 
 #include <Handle_CDM_Document.hxx>

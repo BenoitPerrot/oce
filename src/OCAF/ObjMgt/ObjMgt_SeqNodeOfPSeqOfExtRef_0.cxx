@@ -5,7 +5,7 @@
 
 #include <ObjMgt_SeqNodeOfPSeqOfExtRef.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <ObjMgt_ExternRef.hxx>
 #include <ObjMgt_SeqNodeOfPSeqOfExtRef.hxx>

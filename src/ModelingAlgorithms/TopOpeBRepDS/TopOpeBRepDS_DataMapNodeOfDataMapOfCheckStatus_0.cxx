@@ -5,7 +5,7 @@
 
 #include <TopOpeBRepDS_DataMapNodeOfDataMapOfCheckStatus.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TColStd_MapIntegerHasher.hxx>
 #include <TopOpeBRepDS_DataMapOfCheckStatus.hxx>
@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_RTTI(TopOpeBRepDS_DataMapNodeOfDataMapOfCheckStatus)
 
 
 #define TheKey Standard_Integer
-#define TheKey_hxx <Standard_Integer.hxx>
+#define TheKey_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheItem TopOpeBRepDS_CheckStatus
 #define TheItem_hxx <TopOpeBRepDS_CheckStatus.hxx>
 #define Hasher TColStd_MapIntegerHasher

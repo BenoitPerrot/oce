@@ -19,7 +19,7 @@
 #include <Geom_Curve.hxx>
 #include <Law_Function.hxx>
 #include <Geom_BSplineCurve.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <TColStd_Array1OfReal.hxx>
 #include <TColgp_Array1OfVec.hxx>
@@ -27,7 +27,7 @@
 #include <TColStd_Array1OfInteger.hxx>
 #include <gp_Pnt.hxx>
 #include <GeomFill_EvolvedSection.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(GeomFill_EvolvedSection)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(GeomFill_SectionLaw),

@@ -12,7 +12,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Graphic3d_InitialisationError.hxx>
 #include <Graphic3d_Group.hxx>
 #include <gp_Pnt.hxx>
@@ -20,7 +20,7 @@
 #include <gp_Dir.hxx>
 #include <gp_Pnt2d.hxx>
 #include <Graphic3d_ArrayOfPrimitives.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Graphic3d_ArrayOfPrimitives)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),
@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(Graphic3d_ArrayOfPrimitives)
 IMPLEMENT_DOWNCAST(Graphic3d_ArrayOfPrimitives,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Graphic3d_ArrayOfPrimitives)
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <Foundation/OSD/OSD_Environment.hxx>
 #include <Foundation/NCollection/NCollection_AlignedAllocator.hxx>

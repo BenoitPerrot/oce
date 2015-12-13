@@ -6,14 +6,14 @@
 #ifndef _Draw_ProgressIndicator_HeaderFile
 #define _Draw_ProgressIndicator_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Draw_ProgressIndicator.hxx>
 
-#include <Standard_Boolean.hxx>
-#include <Standard_Address.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Size.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Size.hxx>
 #include <Foundation/Message/Message_ProgressIndicator.hxx>
 #include <Draw_Interpretor.hxx>
 

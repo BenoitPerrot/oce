@@ -5,7 +5,7 @@
 
 #include <XSDRAWSTLVRML_DataMapNodeOfCoordsMap.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TColStd_DataMapOfIntegerReal.hxx>
 #include <TColStd_MapIntegerHasher.hxx>
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(XSDRAWSTLVRML_DataMapNodeOfCoordsMap)
 
 
 #define TheKey Standard_Integer
-#define TheKey_hxx <Standard_Integer.hxx>
+#define TheKey_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheItem TColStd_DataMapOfIntegerReal
 #define TheItem_hxx <TColStd_DataMapOfIntegerReal.hxx>
 #define Hasher TColStd_MapIntegerHasher

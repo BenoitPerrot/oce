@@ -6,8 +6,8 @@
 #ifndef _StepVisual_PresentationStyleByContext_HeaderFile
 #define _StepVisual_PresentationStyleByContext_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepVisual_PresentationStyleByContext.hxx>
 
 #include <StepVisual_StyleContextSelect.hxx>

@@ -6,7 +6,7 @@
 #ifndef _IFSelect_PrintFail_HeaderFile
 #define _IFSelect_PrintFail_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Indicates whether there will
 //! be information on warnings as well as on failures. The

@@ -5,8 +5,8 @@
 
 #include <Intf_SeqOfSectionLine.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Intf_SectionLine.hxx>
 #include <Intf_SequenceNodeOfSeqOfSectionLine.hxx>
  

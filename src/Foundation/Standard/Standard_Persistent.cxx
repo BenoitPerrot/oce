@@ -12,15 +12,15 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_Persistent.hxx>
+#include <Foundation/Standard/Standard_Persistent.hxx>
 
-#include <Standard_Failure.hxx>
-#include <Standard_NullObject.hxx>
-#include <Standard_RangeError.hxx>
-#include <Standard_ImmutableObject.hxx>
-#include <Standard_TypeMismatch.hxx>
-#include <Standard_NotImplemented.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_NullObject.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_ImmutableObject.hxx>
+#include <Foundation/Standard/Standard_TypeMismatch.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 // The Initialization of the Standard_Persistent variables
 const Handle(Standard_Type)& Standard_Persistent_Type_() 

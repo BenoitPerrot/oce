@@ -6,11 +6,11 @@
 #ifndef _BOPAlgo_SectionAttribute_HeaderFile
 #define _BOPAlgo_SectionAttribute_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 
 
 //! Class is a container of three flags used

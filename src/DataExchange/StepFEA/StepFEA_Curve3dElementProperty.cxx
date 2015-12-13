@@ -20,7 +20,7 @@
 #include <StepFEA_HArray1OfCurveElementEndOffset.hxx>
 #include <StepFEA_HArray1OfCurveElementEndRelease.hxx>
 #include <StepFEA_Curve3dElementProperty.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepFEA_Curve3dElementProperty)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

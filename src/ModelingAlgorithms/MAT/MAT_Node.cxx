@@ -18,7 +18,7 @@
 #include <MAT_SequenceOfArc.hxx>
 #include <MAT_SequenceOfBasicElt.hxx>
 #include <MAT_Node.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MAT_Node)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

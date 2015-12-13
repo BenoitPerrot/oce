@@ -6,18 +6,18 @@
 #ifndef _Interface_STAT_HeaderFile
 #define _Interface_STAT_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_TCollection_HAsciiString.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_TColStd_HSequenceOfAsciiString.hxx>
 #include <Handle_TColStd_HSequenceOfReal.hxx>
 #include <Handle_TColStd_HSequenceOfInteger.hxx>
-#include <Standard_CString.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class TCollection_HAsciiString;
 class TColStd_HSequenceOfAsciiString;
 class TColStd_HSequenceOfReal;

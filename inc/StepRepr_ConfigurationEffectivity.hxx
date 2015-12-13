@@ -6,8 +6,8 @@
 #ifndef _StepRepr_ConfigurationEffectivity_HeaderFile
 #define _StepRepr_ConfigurationEffectivity_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepRepr_ConfigurationEffectivity.hxx>
 
 #include <Handle_StepRepr_ConfigurationDesign.hxx>

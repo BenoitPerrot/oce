@@ -5,9 +5,9 @@
 
 #include <TColStd_SequenceNodeOfSequenceOfTransient.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <TColStd_SequenceOfTransient.hxx>
 
  
@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_RTTI(TColStd_SequenceNodeOfSequenceOfTransient)
 
 
 #define SeqItem Handle(Standard_Transient)
-#define SeqItem_hxx <Standard_Transient.hxx>
+#define SeqItem_hxx <Foundation/Standard/Standard_Transient.hxx>
 #define TCollection_SequenceNode TColStd_SequenceNodeOfSequenceOfTransient
 #define TCollection_SequenceNode_hxx <TColStd_SequenceNodeOfSequenceOfTransient.hxx>
 #define Handle_TCollection_SequenceNode Handle_TColStd_SequenceNodeOfSequenceOfTransient

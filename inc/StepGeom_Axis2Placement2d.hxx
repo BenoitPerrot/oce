@@ -6,12 +6,12 @@
 #ifndef _StepGeom_Axis2Placement2d_HeaderFile
 #define _StepGeom_Axis2Placement2d_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepGeom_Axis2Placement2d.hxx>
 
 #include <Handle_StepGeom_Direction.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <StepGeom_Placement.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Handle_StepGeom_CartesianPoint.hxx>

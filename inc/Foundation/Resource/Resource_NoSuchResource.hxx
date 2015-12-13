@@ -6,11 +6,11 @@
 #ifndef _Resource_NoSuchResource_HeaderFile
 #define _Resource_NoSuchResource_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard_DefineException.hxx>
-#include <Standard_SStream.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard_DefineException.hxx>
+#include <Foundation/Standard/Standard_SStream.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Handle_Resource_NoSuchResource.hxx>
 
 #if !defined No_Exception && !defined No_Resource_NoSuchResource

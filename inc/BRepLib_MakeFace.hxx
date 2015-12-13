@@ -6,15 +6,15 @@
 #ifndef _BRepLib_MakeFace_HeaderFile
 #define _BRepLib_MakeFace_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <BRepLib_FaceError.hxx>
 #include <BRepLib_MakeShape.hxx>
 #include <Handle_Geom_Surface.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class StdFail_NotDone;
 class TopoDS_Face;
 class gp_Pln;

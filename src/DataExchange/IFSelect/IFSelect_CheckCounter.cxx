@@ -15,7 +15,7 @@
 #include <Interface_CheckIterator.hxx>
 #include <Interface_InterfaceModel.hxx>
 #include <IFSelect_CheckCounter.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IFSelect_CheckCounter)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(IFSelect_SignatureList),
@@ -25,7 +25,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IFSelect_CheckCounter)
 IMPLEMENT_DOWNCAST(IFSelect_CheckCounter,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IFSelect_CheckCounter)
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <Interface_Check.hxx>
 #include <stdio.h>
 

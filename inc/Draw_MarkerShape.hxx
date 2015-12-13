@@ -6,7 +6,7 @@
 #ifndef _Draw_MarkerShape_HeaderFile
 #define _Draw_MarkerShape_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Circle is not sensible to zoom, like
 //! other MarkerShape, contrarily to CircleZoom

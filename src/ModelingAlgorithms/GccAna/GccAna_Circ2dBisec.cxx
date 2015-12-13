@@ -18,7 +18,7 @@
 //   CREATION of the BISSECTICE between two CIRCLES.                        +
 //=========================================================================
 
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <StdFail_NotDone.hxx>
 #include <gp_Circ2d.hxx>
 #include <GccInt_Bisec.hxx>
@@ -30,8 +30,8 @@
 #include <gp_Circ2d.hxx>
 #include <gp_Hypr2d.hxx>
 #include <gp.hxx>
-#include <Standard_ConstructionError.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <GccInt_BParab.hxx>
 #include <GccInt_BLine.hxx>
 #include <GccInt_BElips.hxx>

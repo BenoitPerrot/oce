@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <CDM_COutMessageDriver.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(CDM_COutMessageDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(CDM_MessageDriver),
@@ -23,7 +23,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(CDM_COutMessageDriver)
 IMPLEMENT_DOWNCAST(CDM_COutMessageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(CDM_COutMessageDriver)
-#include <Standard_PCharacter.hxx>
+#include <Foundation/Standard/Standard_PCharacter.hxx>
 //=======================================================================
 //function : Write
 //purpose  : 

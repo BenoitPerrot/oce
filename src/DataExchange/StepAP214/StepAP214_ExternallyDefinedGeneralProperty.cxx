@@ -20,7 +20,7 @@
 #include <StepBasic_SourceItem.hxx>
 #include <StepBasic_ExternalSource.hxx>
 #include <StepAP214_ExternallyDefinedGeneralProperty.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepAP214_ExternallyDefinedGeneralProperty)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepBasic_GeneralProperty),

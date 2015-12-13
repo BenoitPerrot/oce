@@ -6,20 +6,20 @@
 #ifndef _IGESDefs_AttributeDef_HeaderFile
 #define _IGESDefs_AttributeDef_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESDefs_AttributeDef.hxx>
 
 #include <Handle_TCollection_HAsciiString.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>
 #include <Handle_TColStd_HArray1OfTransient.hxx>
 #include <Handle_IGESDefs_HArray1OfHArray1OfTextDisplayTemplate.hxx>
 #include <IGESData_IGESEntity.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_IGESGraph_TextDisplayTemplate.hxx>
 #include <Handle_Standard_Transient.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_IGESData_IGESEntity.hxx>
 class TCollection_HAsciiString;
 class TColStd_HArray1OfInteger;

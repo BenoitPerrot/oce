@@ -6,14 +6,14 @@
 #ifndef _AppDef_MultiLine_HeaderFile
 #define _AppDef_MultiLine_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_AppDef_HArray1OfMultiPointConstraint.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 class AppDef_HArray1OfMultiPointConstraint;
 class Standard_ConstructionError;
 class Standard_DimensionError;

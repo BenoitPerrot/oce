@@ -5,7 +5,7 @@
 
 #include <TopOpeBRepBuild_ListOfShapeListOfShape.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopOpeBRepBuild_ListIteratorOfListOfShapeListOfShape.hxx>
 #include <TopOpeBRepBuild_ShapeListOfShape.hxx>
 #include <TopOpeBRepBuild_ListNodeOfListOfShapeListOfShape.hxx>

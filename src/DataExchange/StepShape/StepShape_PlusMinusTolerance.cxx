@@ -14,7 +14,7 @@
 #include <StepShape_ToleranceMethodDefinition.hxx>
 #include <StepShape_DimensionalCharacteristic.hxx>
 #include <StepShape_PlusMinusTolerance.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepShape_PlusMinusTolerance)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

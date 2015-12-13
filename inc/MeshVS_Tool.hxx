@@ -6,13 +6,13 @@
 #ifndef _MeshVS_Tool_HeaderFile
 #define _MeshVS_Tool_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_Graphic3d_AspectFillArea3d.hxx>
 #include <Handle_MeshVS_Drawer.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Graphic3d_AspectLine3d.hxx>
 #include <Handle_Graphic3d_AspectMarker3d.hxx>
 #include <Handle_Graphic3d_AspectText3d.hxx>

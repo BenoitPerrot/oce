@@ -6,9 +6,9 @@
 #ifndef _ProjLib_HeaderFile
 #define _ProjLib_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 class gp_Pnt2d;
 class gp_Pln;

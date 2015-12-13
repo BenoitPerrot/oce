@@ -5,7 +5,7 @@
 
 #include <Contap_SequenceNodeOfSequenceOfPathPointOfTheSearch.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Contap_ThePathPointOfTheSearch.hxx>
 #include <Contap_SequenceOfPathPointOfTheSearch.hxx>

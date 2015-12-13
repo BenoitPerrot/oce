@@ -6,8 +6,8 @@
 #ifndef _Resource_DataMapNodeOfDataMapOfAsciiStringAsciiString_HeaderFile
 #define _Resource_DataMapNodeOfDataMapOfAsciiStringAsciiString_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Resource_DataMapNodeOfDataMapOfAsciiStringAsciiString.hxx>
 
 #include <TCollection_AsciiString.hxx>

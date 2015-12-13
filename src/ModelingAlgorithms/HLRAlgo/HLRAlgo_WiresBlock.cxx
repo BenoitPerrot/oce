@@ -19,7 +19,7 @@
 #endif
 #include <HLRAlgo_EdgesBlock.hxx>
 #include <HLRAlgo_WiresBlock.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(HLRAlgo_WiresBlock)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

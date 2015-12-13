@@ -6,9 +6,9 @@
 #ifndef _TopoDS_HeaderFile
 #define _TopoDS_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 class TopoDS_Vertex;
 class TopoDS_Shape;

@@ -6,13 +6,13 @@
 #ifndef _StdSelect_FaceFilter_HeaderFile
 #define _StdSelect_FaceFilter_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StdSelect_FaceFilter.hxx>
 
 #include <StdSelect_TypeOfFace.hxx>
 #include <SelectMgr_Filter.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_SelectMgr_EntityOwner.hxx>
 #include <TopAbs_ShapeEnum.hxx>
 class SelectMgr_EntityOwner;

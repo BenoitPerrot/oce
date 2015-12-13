@@ -6,7 +6,7 @@
 #ifndef _IntWalk_StatusDeflection_HeaderFile
 #define _IntWalk_StatusDeflection_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum IntWalk_StatusDeflection

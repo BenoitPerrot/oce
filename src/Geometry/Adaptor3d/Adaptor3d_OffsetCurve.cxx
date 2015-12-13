@@ -12,10 +12,10 @@
 // commercial license or contractual agreement.
 
 #include <Adaptor2d_HCurve2d.hxx>
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_DomainError.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_TypeMismatch.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_TypeMismatch.hxx>
 #include <TColStd_Array1OfReal.hxx>
 #include <gp_Pnt2d.hxx>
 #include <gp_Vec2d.hxx>
@@ -30,8 +30,8 @@
 
 #include <Adaptor3d_HOffsetCurve.hxx>
 #include <GeomAbs_SurfaceType.hxx>
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <gp_VectorWithNullMagnitude.hxx>
 #include <Precision.hxx>
 #include <gp_Ax22d.hxx>

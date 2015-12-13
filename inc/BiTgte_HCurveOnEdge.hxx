@@ -6,8 +6,8 @@
 #ifndef _BiTgte_HCurveOnEdge_HeaderFile
 #define _BiTgte_HCurveOnEdge_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BiTgte_HCurveOnEdge.hxx>
 
 #include <BiTgte_CurveOnEdge.hxx>

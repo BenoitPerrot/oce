@@ -6,15 +6,15 @@
 #ifndef _GeomInt_MyGradientOfTheComputeLineBezierOfWLApprox_HeaderFile
 #define _GeomInt_MyGradientOfTheComputeLineBezierOfWLApprox_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <AppParCurves_MultiCurve.hxx>
 #include <math_Vector.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_AppParCurves_HArray1OfConstraintCouple.hxx>
 class Standard_OutOfRange;
 class StdFail_NotDone;

@@ -13,7 +13,7 @@
 
 #include <TColStd_HArray1OfReal.hxx>
 #include <StepData_SelectArrReal.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepData_SelectArrReal)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepData_SelectNamed),

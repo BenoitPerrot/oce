@@ -6,12 +6,12 @@
 #ifndef _StepBasic_WeekOfYearAndDayDate_HeaderFile
 #define _StepBasic_WeekOfYearAndDayDate_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepBasic_WeekOfYearAndDayDate.hxx>
 
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <StepBasic_Date.hxx>
 
 

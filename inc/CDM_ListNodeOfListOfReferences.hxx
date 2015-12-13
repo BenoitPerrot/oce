@@ -6,8 +6,8 @@
 #ifndef _CDM_ListNodeOfListOfReferences_HeaderFile
 #define _CDM_ListNodeOfListOfReferences_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_CDM_ListNodeOfListOfReferences.hxx>
 
 #include <Handle_CDM_Reference.hxx>

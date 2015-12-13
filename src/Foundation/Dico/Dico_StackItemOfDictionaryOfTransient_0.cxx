@@ -5,11 +5,11 @@
 
 #include <Foundation/Dico/Dico_StackItemOfDictionaryOfTransient.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Foundation/Dico/Dico_DictionaryOfTransient.hxx>
 #include <Foundation/Dico/Dico_StackItemOfDictionaryOfTransient.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/Dico/Dico_IteratorOfDictionaryOfTransient.hxx>
 
  
@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_RTTI(Dico_StackItemOfDictionaryOfTransient)
 
 
 #define TheItem Handle(Standard_Transient)
-#define TheItem_hxx <Standard_Transient.hxx>
+#define TheItem_hxx <Foundation/Standard/Standard_Transient.hxx>
 #define Dico_Iterator Dico_IteratorOfDictionaryOfTransient
 #define Dico_Iterator_hxx <Foundation/Dico/Dico_IteratorOfDictionaryOfTransient.hxx>
 #define Dico_StackItem Dico_StackItemOfDictionaryOfTransient

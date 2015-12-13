@@ -16,7 +16,7 @@
 
 #include <TopOpeBRepDS_BuildTool.hxx>
 #include <LocOpe_HBuilder.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(LocOpe_HBuilder)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(TopOpeBRepBuild_HBuilder),

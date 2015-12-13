@@ -18,7 +18,7 @@
 #include <Poly_Connect.hxx>
 #include <Poly_Triangle.hxx>
 
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard.hxx>
 
 
 //=======================================================================

@@ -6,8 +6,8 @@
 #ifndef _Storage_CallBack_HeaderFile
 #define _Storage_CallBack_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Storage_CallBack.hxx>
 
 #include <Foundation/MMgt/MMgt_TShared.hxx>

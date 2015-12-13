@@ -34,8 +34,8 @@
 #include <Graphic3d_Structure.hxx>
 #include <Graphic3d_Group.hxx>
 #include <V3d_BadValue.hxx>
-#include <Standard_TypeMismatch.hxx>
-#include <Standard_MultiplyDefined.hxx>
+#include <Foundation/Standard/Standard_TypeMismatch.hxx>
+#include <Foundation/Standard/Standard_MultiplyDefined.hxx>
 #include <V3d_UnMapped.hxx>
 #include <V3d_View.hxx>
 #include <V3d_Viewer.hxx>

@@ -5,8 +5,8 @@
 
 #include <MDF_ASDriverSequence.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <MDF_ASDriver.hxx>
 #include <MDF_SequenceNodeOfASDriverSequence.hxx>
  

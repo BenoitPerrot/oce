@@ -5,8 +5,8 @@
 
 #include <SelectMgr_DataMapOfObjectSelectors.hxx>
 
-#include <Standard_DomainError.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <SelectMgr_SelectableObject.hxx>
 #include <SelectMgr_SequenceOfSelector.hxx>
 #include <TColStd_MapTransientHasher.hxx>

@@ -6,7 +6,7 @@
 #ifndef _Vrml_MaterialBindingAndNormalBinding_HeaderFile
 #define _Vrml_MaterialBindingAndNormalBinding_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum Vrml_MaterialBindingAndNormalBinding

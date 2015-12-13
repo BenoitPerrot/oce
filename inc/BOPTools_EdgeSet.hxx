@@ -6,15 +6,15 @@
 #ifndef _BOPTools_EdgeSet_HeaderFile
 #define _BOPTools_EdgeSet_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TopoDS_Shape.hxx>
 #include <BOPCol_MapOfShape.hxx>
 #include <BOPCol_ListOfShape.hxx>
 #include <BOPCol_BaseAllocator.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class TopoDS_Shape;
 class TopoDS_Edge;
 

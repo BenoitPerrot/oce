@@ -6,18 +6,18 @@
 #ifndef _ShapeFix_Root_HeaderFile
 #define _ShapeFix_Root_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ShapeFix_Root.hxx>
 
 #include <Handle_ShapeBuild_ReShape.hxx>
 #include <Handle_ShapeExtend_BasicMsgRegistrator.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <TopoDS_Shape.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Message/Message_Gravity.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class ShapeBuild_ReShape;
 class ShapeExtend_BasicMsgRegistrator;
 class TopoDS_Shape;

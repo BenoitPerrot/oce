@@ -16,8 +16,8 @@
 #ifndef _BRepMesh_EdgeTessellator_HeaderFile
 #define _BRepMesh_EdgeTessellator_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <BRepMesh.hxx>
 #include <BRepMesh_IEdgeTool.hxx>
 #include <BRepMesh_GeomTool.hxx>

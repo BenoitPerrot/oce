@@ -6,8 +6,8 @@
 #ifndef _V3d_Light_HeaderFile
 #define _V3d_Light_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_V3d_Light.hxx>
 
 #include <V3d_TypeOfLight.hxx>
@@ -20,7 +20,7 @@
 #include <Foundation/Quantity/Quantity_TypeOfColor.hxx>
 #include <Foundation/Quantity/Quantity_Parameter.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_V3d_View.hxx>
 #include <Graphic3d_Vertex.hxx>
 #include <V3d_Coordinate.hxx>

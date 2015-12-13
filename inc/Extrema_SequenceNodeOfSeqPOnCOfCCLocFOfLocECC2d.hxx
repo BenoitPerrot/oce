@@ -6,8 +6,8 @@
 #ifndef _Extrema_SequenceNodeOfSeqPOnCOfCCLocFOfLocECC2d_HeaderFile
 #define _Extrema_SequenceNodeOfSeqPOnCOfCCLocFOfLocECC2d_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Extrema_SequenceNodeOfSeqPOnCOfCCLocFOfLocECC2d.hxx>
 
 #include <Extrema_POnCurv2d.hxx>

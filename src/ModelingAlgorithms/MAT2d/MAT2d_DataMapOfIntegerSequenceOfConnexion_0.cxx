@@ -5,8 +5,8 @@
 
 #include <MAT2d_DataMapOfIntegerSequenceOfConnexion.hxx>
 
-#include <Standard_DomainError.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <MAT2d_SequenceOfConnexion.hxx>
 #include <TColStd_MapIntegerHasher.hxx>
 #include <MAT2d_DataMapNodeOfDataMapOfIntegerSequenceOfConnexion.hxx>
@@ -14,7 +14,7 @@
  
 
 #define TheKey Standard_Integer
-#define TheKey_hxx <Standard_Integer.hxx>
+#define TheKey_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheItem MAT2d_SequenceOfConnexion
 #define TheItem_hxx <MAT2d_SequenceOfConnexion.hxx>
 #define Hasher TColStd_MapIntegerHasher

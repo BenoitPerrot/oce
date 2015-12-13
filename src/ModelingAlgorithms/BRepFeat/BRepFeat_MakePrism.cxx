@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Geom_Curve.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Face.hxx>
 #include <gp_Dir.hxx>
@@ -67,7 +67,7 @@
 #include <BRepAlgoAPI_Fuse.hxx>
 //modified by NIZNHY-PKV Thu Mar 21 18:14:26 2002 t
 
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <TopoDS.hxx>
 
 

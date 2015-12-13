@@ -66,7 +66,7 @@
 #include <Precision.hxx>
 #include <GeomConvert.hxx>
 #include <Hermit.hxx>
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <GeomLib_MakeCurvefromApprox.hxx>
 #include <GeomLib_DenominatorMultiplier.hxx>
 #include <GeomLib_DenominatorMultiplierPtr.hxx>
@@ -154,7 +154,7 @@
 #include <CSLib_NormalStatus.hxx>
 
 
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 
 //=======================================================================
 //function : ComputeLambda

@@ -6,8 +6,8 @@
 #ifndef _StepGeom_SurfaceCurve_HeaderFile
 #define _StepGeom_SurfaceCurve_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepGeom_SurfaceCurve.hxx>
 
 #include <Handle_StepGeom_Curve.hxx>
@@ -15,7 +15,7 @@
 #include <StepGeom_PreferredSurfaceCurveRepresentation.hxx>
 #include <StepGeom_Curve.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class StepGeom_Curve;
 class StepGeom_HArray1OfPcurveOrSurface;
 class TCollection_HAsciiString;

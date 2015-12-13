@@ -5,7 +5,7 @@
 
 #include <MDF_ASDriverTable.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <MDF_ASDriver.hxx>
 #include <MDF_ASDriverHSequence.hxx>
@@ -16,7 +16,7 @@
 #include <MDF_TypeDriverListMapOfASDriverTable.hxx>
 #include <MDF_DataMapNodeOfTypeDriverListMapOfASDriverTable.hxx>
 #include <MDF_DataMapIteratorOfTypeDriverListMapOfASDriverTable.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
  
 

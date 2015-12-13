@@ -106,11 +106,11 @@ To solve the problem (for lack of a better solution) I make 2 passes.
 * Includes
 */
 
-#include <Standard_TypeMismatch.hxx>
-#include <Standard_ShortReal.hxx>
-#include <Standard_Assert.hxx>
-#include <Standard_ErrorHandler.hxx>
-#include <Standard_DivideByZero.hxx>
+#include <Foundation/Standard/Standard_TypeMismatch.hxx>
+#include <Foundation/Standard/Standard_ShortReal.hxx>
+#include <Foundation/Standard/Standard_Assert.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_DivideByZero.hxx>
 
 #include <Visual3d_ViewManager.hxx>
 #include <Visual3d_Light.hxx>
@@ -124,8 +124,8 @@ To solve the problem (for lack of a better solution) I make 2 passes.
 #include <Graphic3d_Structure.hxx>
 #include <Graphic3d_Group.hxx>
 #include <V3d_BadValue.hxx>
-#include <Standard_TypeMismatch.hxx>
-#include <Standard_MultiplyDefined.hxx>
+#include <Foundation/Standard/Standard_TypeMismatch.hxx>
+#include <Foundation/Standard/Standard_MultiplyDefined.hxx>
 #include <V3d_UnMapped.hxx>
 #include <V3d_View.hxx>
 #include <V3d_Viewer.hxx>
@@ -142,7 +142,7 @@ To solve the problem (for lack of a better solution) I make 2 passes.
 #include <gp_Ax3.hxx>
 #include <Bnd_Box.hxx>
 #include <V3d_View.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(V3d_View)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

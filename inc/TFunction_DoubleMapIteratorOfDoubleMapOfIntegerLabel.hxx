@@ -6,12 +6,12 @@
 #ifndef _TFunction_DoubleMapIteratorOfDoubleMapOfIntegerLabel_HeaderFile
 #define _TFunction_DoubleMapIteratorOfDoubleMapOfIntegerLabel_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TCollection_BasicMapIterator.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TFunction_DoubleMapNodeOfDoubleMapOfIntegerLabel.hxx>
 class Standard_NoSuchObject;
 class TDF_Label;

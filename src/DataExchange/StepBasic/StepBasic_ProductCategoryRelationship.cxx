@@ -19,7 +19,7 @@
 #include <TCollection_HAsciiString.hxx>
 #include <StepBasic_ProductCategory.hxx>
 #include <StepBasic_ProductCategoryRelationship.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepBasic_ProductCategoryRelationship)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

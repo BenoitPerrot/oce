@@ -16,7 +16,7 @@
 
 #include <StdFail_InfiniteSolutions.hxx>
 #include <StdFail_NotDone.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Adaptor2d_Curve2d.hxx>
 #include <Extrema_POnCurv2d.hxx>
 #include <gp_Pnt2d.hxx>
@@ -28,7 +28,7 @@
 #include <StdFail_NotDone.hxx>
 #include <Extrema_ExtElC.hxx>
 #include <ElCLib.hxx>
-#include <Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
 #include <GeomAbs_CurveType.hxx>
 #include <Geom2d_Curve.hxx>
 #include <Geom2d_TrimmedCurve.hxx>
@@ -39,7 +39,7 @@
 #include <Geom2d_Hyperbola.hxx>
 #include <Extrema_POnCurv2d.hxx>
 #include <Extrema_SequenceOfPOnCurv2d.hxx>
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Precision.hxx>
 
 #include <Adaptor2d_Curve2d.hxx>

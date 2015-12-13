@@ -16,7 +16,7 @@
 #include <StepBasic_DateRole.hxx>
 #include <StepAP214_AutoDesignDatedItem.hxx>
 #include <StepAP214_AutoDesignActualDateAssignment.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepAP214_AutoDesignActualDateAssignment)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepBasic_DateAssignment),

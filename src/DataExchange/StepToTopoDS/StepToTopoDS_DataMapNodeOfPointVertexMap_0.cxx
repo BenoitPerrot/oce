@@ -5,7 +5,7 @@
 
 #include <StepToTopoDS_DataMapNodeOfPointVertexMap.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <StepGeom_CartesianPoint.hxx>
 #include <TopoDS_Vertex.hxx>

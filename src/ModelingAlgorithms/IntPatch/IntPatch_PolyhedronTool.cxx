@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Bnd_Box.hxx>
 #include <IntPatch_Polyhedron.hxx>
 #include <Bnd_HArray1OfBox.hxx>

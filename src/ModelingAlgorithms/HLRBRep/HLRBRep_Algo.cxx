@@ -19,7 +19,7 @@
 #include <TopoDS_Shape.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <HLRBRep_Algo.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(HLRBRep_Algo)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(HLRBRep_InternalAlgo),

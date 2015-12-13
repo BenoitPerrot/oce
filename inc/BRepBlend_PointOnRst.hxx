@@ -6,13 +6,13 @@
 #ifndef _BRepBlend_PointOnRst_HeaderFile
 #define _BRepBlend_PointOnRst_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_Adaptor2d_HCurve2d.hxx>
 #include <IntSurf_Transition.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class Adaptor2d_HCurve2d;
 class Standard_DomainError;
 class IntSurf_Transition;

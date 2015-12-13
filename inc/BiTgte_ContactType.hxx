@@ -6,7 +6,7 @@
 #ifndef _BiTgte_ContactType_HeaderFile
 #define _BiTgte_ContactType_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum BiTgte_ContactType

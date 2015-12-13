@@ -5,7 +5,7 @@
 
 #include <BRepMAT2d_DataMapNodeOfDataMapOfBasicEltShape.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <MAT_BasicElt.hxx>
 #include <TopoDS_Shape.hxx>

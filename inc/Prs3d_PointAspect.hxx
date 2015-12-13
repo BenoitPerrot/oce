@@ -6,16 +6,16 @@
 #ifndef _Prs3d_PointAspect_HeaderFile
 #define _Prs3d_PointAspect_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Prs3d_PointAspect.hxx>
 
 #include <Handle_Graphic3d_AspectMarker3d.hxx>
 #include <Prs3d_BasicAspect.hxx>
 #include <Aspect_TypeOfMarker.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TColStd_HArray1OfByte.hxx>
 #include <Graphic3d_MarkerImage_Handle.hxx>
 class Graphic3d_AspectMarker3d;

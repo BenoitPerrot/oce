@@ -14,7 +14,7 @@
 #include <StepRepr_ShapeRepresentationRelationship.hxx>
 #include <StepRepr_ProductDefinitionShape.hxx>
 #include <StepShape_ContextDependentShapeRepresentation.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepShape_ContextDependentShapeRepresentation)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

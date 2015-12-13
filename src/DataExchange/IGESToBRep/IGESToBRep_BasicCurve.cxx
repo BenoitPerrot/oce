@@ -105,8 +105,8 @@
 #include <TColStd_SequenceOfInteger.hxx>
 
 //:36
-#include <Standard_ErrorHandler.hxx>
-#include <Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
 // S3767
 #include <Foundation/Message/Message_Msg.hxx>  
 #include <ShapeConstruct_Curve.hxx>

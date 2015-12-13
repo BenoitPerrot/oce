@@ -13,19 +13,19 @@
 
 #include <Interface_InterfaceModel.hxx>
 #include <TColStd_HSequenceOfTransient.hxx>
-#include <Standard_DomainError.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Interface_GeneralLib.hxx>
 #include <Interface_GTool.hxx>
 #include <Interface_Protocol.hxx>
 #include <Interface_Graph.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <Interface_EntityIterator.hxx>
 #include <Interface_ShareFlags.hxx>
 #include <Interface_GeneralModule.hxx>
 #include <Interface_ReportEntity.hxx>
 #include <Interface_IntList.hxx>
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 
 
 

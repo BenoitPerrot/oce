@@ -6,8 +6,8 @@
 #ifndef _Handle_BinDrivers_DocumentRetrievalDriver_HeaderFile
 #define _Handle_BinDrivers_DocumentRetrievalDriver_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BinLDrivers_DocumentRetrievalDriver.hxx>
 
 class Standard_Transient;

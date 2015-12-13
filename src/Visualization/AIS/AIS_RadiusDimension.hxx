@@ -19,8 +19,8 @@
 #include <AIS_Dimension.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Circ.hxx>
-#include <Standard.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 DEFINE_STANDARD_HANDLE (AIS_RadiusDimension,AIS_Dimension)
 

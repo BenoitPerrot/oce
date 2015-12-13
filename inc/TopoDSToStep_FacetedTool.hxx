@@ -6,9 +6,9 @@
 #ifndef _TopoDSToStep_FacetedTool_HeaderFile
 #define _TopoDSToStep_FacetedTool_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TopoDSToStep_FacetedError.hxx>
 class TopoDS_Shape;

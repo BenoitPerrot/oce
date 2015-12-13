@@ -6,14 +6,14 @@
 #ifndef _Dico_StackItemOfDictionaryOfInteger_HeaderFile
 #define _Dico_StackItemOfDictionaryOfInteger_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Dico_StackItemOfDictionaryOfInteger.hxx>
 
 #include <Handle_Dico_DictionaryOfInteger.hxx>
 #include <Handle_Dico_StackItemOfDictionaryOfInteger.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Dico_DictionaryOfInteger;
 class Dico_IteratorOfDictionaryOfInteger;
 

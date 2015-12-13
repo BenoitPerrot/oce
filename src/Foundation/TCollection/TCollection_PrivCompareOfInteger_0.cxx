@@ -8,7 +8,7 @@
  
 
 #define Item Standard_Integer
-#define Item_hxx <Standard_Integer.hxx>
+#define Item_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TCollection_Compare TCollection_PrivCompareOfInteger
 #define TCollection_Compare_hxx <TCollection_PrivCompareOfInteger.hxx>
 #include <TCollection_Compare.gxx>

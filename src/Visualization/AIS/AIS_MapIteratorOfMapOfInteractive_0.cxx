@@ -5,7 +5,7 @@
 
 #include <AIS_MapIteratorOfMapOfInteractive.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <AIS_InteractiveObject.hxx>
 #include <TColStd_MapTransientHasher.hxx>
 #include <AIS_MapOfInteractive.hxx>

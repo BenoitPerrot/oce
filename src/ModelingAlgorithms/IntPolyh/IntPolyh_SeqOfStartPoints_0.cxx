@@ -5,8 +5,8 @@
 
 #include <IntPolyh_SeqOfStartPoints.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <IntPolyh_StartPoint.hxx>
 #include <IntPolyh_SequenceNodeOfSeqOfStartPoints.hxx>
  

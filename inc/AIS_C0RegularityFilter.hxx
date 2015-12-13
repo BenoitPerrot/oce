@@ -6,13 +6,13 @@
 #ifndef _AIS_C0RegularityFilter_HeaderFile
 #define _AIS_C0RegularityFilter_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_AIS_C0RegularityFilter.hxx>
 
 #include <TopTools_MapOfShape.hxx>
 #include <SelectMgr_Filter.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <TopAbs_ShapeEnum.hxx>
 #include <Handle_SelectMgr_EntityOwner.hxx>
 class TopoDS_Shape;

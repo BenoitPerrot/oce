@@ -17,8 +17,8 @@
 #include <Foundation/NCollection/NCollection_DefineAlloc.hxx>
 #include <Foundation/NCollection/NCollection_IncAllocator.hxx>
 #include <string.h>
-#include <Standard.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 
 // One element of sequence
 /* Can only be allocated by the allocator and assumes it is IncAllocator, so 

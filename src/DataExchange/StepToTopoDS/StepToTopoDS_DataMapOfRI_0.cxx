@@ -5,8 +5,8 @@
 
 #include <StepToTopoDS_DataMapOfRI.hxx>
 
-#include <Standard_DomainError.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <StepRepr_RepresentationItem.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TColStd_MapTransientHasher.hxx>

@@ -6,8 +6,8 @@
 #ifndef _StdDrivers_DocumentStorageDriver_HeaderFile
 #define _StdDrivers_DocumentStorageDriver_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StdDrivers_DocumentStorageDriver.hxx>
 
 #include <MDocStd_DocumentStorageDriver.hxx>

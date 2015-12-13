@@ -5,8 +5,8 @@
 
 #include <AdvApp2Var_Strip.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <AdvApp2Var_Iso.hxx>
 #include <AdvApp2Var_SequenceNodeOfStrip.hxx>
  

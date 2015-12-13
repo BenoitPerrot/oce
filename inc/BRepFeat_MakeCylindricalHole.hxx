@@ -6,16 +6,16 @@
 #ifndef _BRepFeat_MakeCylindricalHole_HeaderFile
 #define _BRepFeat_MakeCylindricalHole_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <gp_Ax1.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <BRepFeat_Status.hxx>
 #include <TopoDS_Face.hxx>
 #include <BRepFeat_Builder.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class StdFail_NotDone;
 class Standard_ConstructionError;
 class gp_Ax1;

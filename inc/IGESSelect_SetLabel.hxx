@@ -6,12 +6,12 @@
 #ifndef _IGESSelect_SetLabel_HeaderFile
 #define _IGESSelect_SetLabel_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESSelect_SetLabel.hxx>
 
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <IGESSelect_ModelModifier.hxx>
 #include <Handle_IGESData_IGESModel.hxx>
 class IFSelect_ContextModif;

@@ -16,7 +16,7 @@
 //#74 rln,pdn 11.03.99 S4135: Setting minimum and maximum tolerances according to static parameters
 // sln 13.06.2002 OCC448 : Correction in  method TransferGeometry to avoid transfering invisiable sub entities
 
-#include <Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Geom_Surface.hxx>
 #include <IGESData_IGESModel.hxx>
 #include <Transfer_TransientProcess.hxx>
@@ -24,7 +24,7 @@
 #include <IGESData_IGESEntity.hxx>
 #include <Foundation/Message/Message_Msg.hxx>
 #include <IGESToBRep_CurveAndSurface.hxx>
-#include <Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
 
 #include <IGESToBRep.hxx>
 #include <IGESToBRep_TopoCurve.hxx>

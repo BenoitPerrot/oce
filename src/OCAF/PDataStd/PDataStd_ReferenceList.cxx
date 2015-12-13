@@ -16,7 +16,7 @@
 #include <PCollection_HExtendedString.hxx>
 #include <PColStd_HArray1OfExtendedString.hxx>
 #include <PDataStd_ReferenceList.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PDataStd_ReferenceList)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(PDF_Attribute),

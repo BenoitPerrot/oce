@@ -6,7 +6,7 @@
 #ifndef _Graphic3d_GroupAspect_HeaderFile
 #define _Graphic3d_GroupAspect_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Identifies primitives aspects defined per group.
 //! - ASPECT_LINE: aspect for line primitives;

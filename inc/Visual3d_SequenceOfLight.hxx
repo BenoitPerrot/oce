@@ -6,14 +6,14 @@
 #ifndef _Visual3d_SequenceOfLight_HeaderFile
 #define _Visual3d_SequenceOfLight_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TCollection_BaseSequence.hxx>
 #include <Handle_Visual3d_Light.hxx>
 #include <Handle_Visual3d_SequenceNodeOfSequenceOfLight.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;
 class Standard_OutOfRange;
 class Visual3d_Light;

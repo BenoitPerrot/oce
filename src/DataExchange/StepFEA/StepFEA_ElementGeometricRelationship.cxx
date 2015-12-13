@@ -19,7 +19,7 @@
 #include <StepFEA_ElementOrElementGroup.hxx>
 #include <StepElement_ElementAspect.hxx>
 #include <StepFEA_ElementGeometricRelationship.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepFEA_ElementGeometricRelationship)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

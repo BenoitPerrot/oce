@@ -18,7 +18,7 @@
 #include <PColStd_HArray1OfReal.hxx>
 #include <PColStd_HArray1OfInteger.hxx>
 #include <PGeom_BSplineCurve.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PGeom_BSplineCurve)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(PGeom_BoundedCurve),

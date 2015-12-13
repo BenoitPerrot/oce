@@ -6,7 +6,7 @@
 #ifndef _QANewBRepNaming_TypeOfPrimitive3D_HeaderFile
 #define _QANewBRepNaming_TypeOfPrimitive3D_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum QANewBRepNaming_TypeOfPrimitive3D

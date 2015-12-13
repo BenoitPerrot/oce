@@ -18,7 +18,7 @@
 #define No_Exception
 #endif
 #include <HLRAlgo_EdgesBlock.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(HLRAlgo_EdgesBlock)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

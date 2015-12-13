@@ -5,7 +5,7 @@
 
 #include <HLRBRep_ListNodeOfListOfBPoint.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <HLRBRep_BiPoint.hxx>
 #include <HLRBRep_ListOfBPoint.hxx>

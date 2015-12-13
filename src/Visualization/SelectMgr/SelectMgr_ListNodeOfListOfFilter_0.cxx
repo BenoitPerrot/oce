@@ -5,7 +5,7 @@
 
 #include <SelectMgr_ListNodeOfListOfFilter.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <SelectMgr_Filter.hxx>
 #include <SelectMgr_ListOfFilter.hxx>

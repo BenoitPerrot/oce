@@ -6,14 +6,14 @@
 #ifndef _StepToTopoDS_NMTool_HeaderFile
 #define _StepToTopoDS_NMTool_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <StepToTopoDS_DataMapOfRI.hxx>
 #include <StepToTopoDS_DataMapOfRINames.hxx>
 #include <TopTools_ListOfShape.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_StepRepr_RepresentationItem.hxx>
 class StepToTopoDS_DataMapOfRI;
 class StepToTopoDS_DataMapOfRINames;

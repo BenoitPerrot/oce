@@ -6,18 +6,18 @@
 #ifndef _Storage_RootData_HeaderFile
 #define _Storage_RootData_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Storage_RootData.hxx>
 
 #include <Storage_MapOfPers.hxx>
 #include <Storage_Error.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Storage_Root.hxx>
 #include <Handle_Storage_HSeqOfRoot.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Standard_Persistent.hxx>
 class Standard_NoSuchObject;
 class Storage_Schema;

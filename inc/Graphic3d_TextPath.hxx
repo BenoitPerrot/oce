@@ -6,7 +6,7 @@
 #ifndef _Graphic3d_TextPath_HeaderFile
 #define _Graphic3d_TextPath_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Direction in which text is displayed.
 enum Graphic3d_TextPath

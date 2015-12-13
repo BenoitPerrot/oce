@@ -6,7 +6,7 @@
 #ifndef _Contap_TFunction_HeaderFile
 #define _Contap_TFunction_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum Contap_TFunction

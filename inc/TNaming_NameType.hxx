@@ -6,7 +6,7 @@
 #ifndef _TNaming_NameType_HeaderFile
 #define _TNaming_NameType_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! to store naming characteristcs
 enum TNaming_NameType

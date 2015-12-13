@@ -20,7 +20,7 @@
 #include <TCollection_HAsciiString.hxx>
 #include <StepBasic_ProductDefinition.hxx>
 #include <StepRepr_SpecifiedHigherUsageOccurrence.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepRepr_SpecifiedHigherUsageOccurrence)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepRepr_AssemblyComponentUsage),

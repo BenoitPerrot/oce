@@ -6,13 +6,13 @@
 #ifndef _PColStd_VArrayNodeOfFieldOfHArray2OfInteger_HeaderFile
 #define _PColStd_VArrayNodeOfFieldOfHArray2OfInteger_HeaderFile
 
-#include <Standard_Macro.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Handle_PColStd_VArrayNodeOfFieldOfHArray2OfInteger.hxx>
 
-#include <Standard_Address.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <PStandard_ArrayNode.hxx>
 class PColStd_FieldOfHArray2OfInteger;
 class PColStd_VArrayTNodeOfFieldOfHArray2OfInteger;

@@ -5,8 +5,8 @@
 
 #include <HLRBRep_TheLocateExtPCOfTheProjPCurOfCInter.hxx>
 
-#include <Standard_DomainError.hxx>
-#include <Standard_TypeMismatch.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_TypeMismatch.hxx>
 #include <StdFail_NotDone.hxx>
 #include <HLRBRep_CurveTool.hxx>
 #include <Extrema_POnCurv2d.hxx>
@@ -17,7 +17,7 @@
  
 
 #define Curve Standard_Address
-#define Curve_hxx <Standard_Address.hxx>
+#define Curve_hxx <Foundation/Standard/Standard_Address.hxx>
 #define Tool HLRBRep_CurveTool
 #define Tool_hxx <HLRBRep_CurveTool.hxx>
 #define POnC Extrema_POnCurv2d

@@ -5,8 +5,8 @@
 
 #include <ChFiDS_ListIteratorOfListOfStripe.hxx>
 
-#include <Standard_NoMoreObject.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoMoreObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <ChFiDS_ListOfStripe.hxx>
 #include <ChFiDS_Stripe.hxx>
 #include <ChFiDS_ListNodeOfListOfStripe.hxx>

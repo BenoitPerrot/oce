@@ -6,13 +6,13 @@
 #ifndef _Prs3d_Presentation_HeaderFile
 #define _Prs3d_Presentation_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Prs3d_Presentation.hxx>
 
 #include <Graphic3d_Structure.hxx>
 #include <Handle_Graphic3d_StructureManager.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Graphic3d_Structure.hxx>
 #include <Handle_Graphic3d_DataStructureManager.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>

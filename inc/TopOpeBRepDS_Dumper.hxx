@@ -6,19 +6,19 @@
 #ifndef _TopOpeBRepDS_Dumper_HeaderFile
 #define _TopOpeBRepDS_Dumper_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_TopOpeBRepDS_HDataStructure.hxx>
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 #include <Handle_Geom_Curve.hxx>
 #include <Handle_Geom2d_Curve.hxx>
 #include <Handle_Geom_BSplineCurve.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Geom2d_BSplineCurve.hxx>
 #include <TopOpeBRepDS_Kind.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <TopAbs_ShapeEnum.hxx>
 #include <Handle_TopOpeBRepDS_Interference.hxx>
 #include <TCollection_AsciiString.hxx>

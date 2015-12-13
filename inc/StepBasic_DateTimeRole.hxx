@@ -6,8 +6,8 @@
 #ifndef _StepBasic_DateTimeRole_HeaderFile
 #define _StepBasic_DateTimeRole_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepBasic_DateTimeRole.hxx>
 
 #include <Handle_TCollection_HAsciiString.hxx>

@@ -6,15 +6,15 @@
 #ifndef _STEPControl_ActorRead_HeaderFile
 #define _STEPControl_ActorRead_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_STEPControl_ActorRead.hxx>
 
 #include <StepToTopoDS_NMTool.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_StepRepr_Representation.hxx>
 #include <Transfer_ActorOfTransientProcess.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Handle_Transfer_Binder.hxx>
 #include <Handle_Transfer_TransientProcess.hxx>
@@ -26,7 +26,7 @@
 #include <Handle_StepShape_ShapeRepresentation.hxx>
 #include <Handle_StepShape_ContextDependentShapeRepresentation.hxx>
 #include <Handle_StepRepr_ShapeRepresentationRelationship.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_StepGeom_GeometricRepresentationItem.hxx>
 #include <Handle_StepRepr_MappedItem.hxx>
 #include <Handle_StepShape_FaceSurface.hxx>

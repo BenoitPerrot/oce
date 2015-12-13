@@ -17,7 +17,7 @@
 #include <PNaming_NamedShape.hxx>
 #include <PCollection_HAsciiString.hxx>
 #include <PNaming_Name_2.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PNaming_Name_2)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Standard_Persistent),

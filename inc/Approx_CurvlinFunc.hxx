@@ -6,19 +6,19 @@
 #ifndef _Approx_CurvlinFunc_HeaderFile
 #define _Approx_CurvlinFunc_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Approx_CurvlinFunc.hxx>
 
 #include <Handle_Adaptor3d_HCurve.hxx>
 #include <Handle_Adaptor2d_HCurve2d.hxx>
 #include <Handle_Adaptor3d_HSurface.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_TColStd_HArray1OfReal.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <GeomAbs_Shape.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class Adaptor3d_HCurve;
 class Adaptor2d_HCurve2d;
 class Adaptor3d_HSurface;

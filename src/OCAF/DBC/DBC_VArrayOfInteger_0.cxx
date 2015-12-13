@@ -5,12 +5,12 @@
 
 #include <DBC_VArrayOfInteger.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
-#include <Standard_NegativeValue.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_DimensionMismatch.hxx>
-#include <Standard_NullObject.hxx>
+#include <Foundation/Standard/Standard_NegativeValue.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_DimensionMismatch.hxx>
+#include <Foundation/Standard/Standard_NullObject.hxx>
 #include <DBC_VArrayNodeOfVArrayOfInteger.hxx>
 #include <DBC_VArrayTNodeOfVArrayOfInteger.hxx>
 
@@ -24,7 +24,7 @@ IMPLEMENT_STANDARD_TYPE_END(DBC_VArrayOfInteger)
  
 
 #define Item Standard_Integer
-#define Item_hxx <Standard_Integer.hxx>
+#define Item_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define DBC_VArrayNode DBC_VArrayNodeOfVArrayOfInteger
 #define DBC_VArrayNode_hxx <DBC_VArrayNodeOfVArrayOfInteger.hxx>
 #define DBC_VArrayTNode DBC_VArrayTNodeOfVArrayOfInteger

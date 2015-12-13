@@ -6,12 +6,12 @@
 #ifndef _StepFEA_ParametricSurface3dElementCoordinateSystem_HeaderFile
 #define _StepFEA_ParametricSurface3dElementCoordinateSystem_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepFEA_ParametricSurface3dElementCoordinateSystem.hxx>
 
-#include <Standard_Integer.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <StepFEA_FeaRepresentationItem.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 class TCollection_HAsciiString;

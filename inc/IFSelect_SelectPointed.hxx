@@ -6,16 +6,16 @@
 #ifndef _IFSelect_SelectPointed_HeaderFile
 #define _IFSelect_SelectPointed_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IFSelect_SelectPointed.hxx>
 
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <TColStd_SequenceOfTransient.hxx>
 #include <IFSelect_SelectBase.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Handle_TColStd_HSequenceOfTransient.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Interface_CopyControl.hxx>
 #include <Handle_IFSelect_Transformer.hxx>
 class Interface_InterfaceError;

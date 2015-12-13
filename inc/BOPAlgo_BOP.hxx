@@ -6,19 +6,19 @@
 #ifndef _BOPAlgo_BOP_HeaderFile
 #define _BOPAlgo_BOP_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <BOPAlgo_Operation.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <TopoDS_Shape.hxx>
 #include <BOPCol_ListOfShape.hxx>
 #include <BOPCol_MapOfShape.hxx>
 #include <BOPAlgo_Builder.hxx>
 #include <BOPCol_BaseAllocator.hxx>
 #include <TopAbs_ShapeEnum.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <BOPCol_IndexedDataMapOfShapeListOfShape.hxx>
 class TopoDS_Shape;
 class BOPAlgo_PaveFiller;

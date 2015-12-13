@@ -6,14 +6,14 @@
 #ifndef _TopOpeBRepDS_SolidSurfaceInterference_HeaderFile
 #define _TopOpeBRepDS_SolidSurfaceInterference_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TopOpeBRepDS_SolidSurfaceInterference.hxx>
 
 #include <TopOpeBRepDS_Interference.hxx>
 #include <TopOpeBRepDS_Kind.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 class TopOpeBRepDS_Transition;
 
 

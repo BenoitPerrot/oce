@@ -5,7 +5,7 @@
 
 #include <Storage_DataMapIteratorOfMapOfPers.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <Storage_Root.hxx>
 #include <Storage_MapOfPers.hxx>

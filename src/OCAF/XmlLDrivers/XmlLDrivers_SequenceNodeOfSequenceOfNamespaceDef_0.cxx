@@ -5,7 +5,7 @@
 
 #include <XmlLDrivers_SequenceNodeOfSequenceOfNamespaceDef.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <XmlLDrivers_NamespaceDef.hxx>
 #include <XmlLDrivers_SequenceOfNamespaceDef.hxx>

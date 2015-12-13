@@ -6,8 +6,8 @@
 #ifndef _TDF_ListNodeOfAttributeList_HeaderFile
 #define _TDF_ListNodeOfAttributeList_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TDF_ListNodeOfAttributeList.hxx>
 
 #include <Handle_TDF_Attribute.hxx>

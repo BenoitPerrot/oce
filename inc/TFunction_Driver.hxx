@@ -6,14 +6,14 @@
 #ifndef _TFunction_Driver_HeaderFile
 #define _TFunction_Driver_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TFunction_Driver.hxx>
 
 #include <TDF_Label.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class TDF_Label;
 class TFunction_Logbook;
 class TDF_LabelList;

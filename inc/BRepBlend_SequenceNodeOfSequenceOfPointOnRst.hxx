@@ -6,8 +6,8 @@
 #ifndef _BRepBlend_SequenceNodeOfSequenceOfPointOnRst_HeaderFile
 #define _BRepBlend_SequenceNodeOfSequenceOfPointOnRst_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BRepBlend_SequenceNodeOfSequenceOfPointOnRst.hxx>
 
 #include <BRepBlend_PointOnRst.hxx>

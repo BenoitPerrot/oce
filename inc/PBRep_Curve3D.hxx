@@ -6,15 +6,15 @@
 #ifndef _PBRep_Curve3D_HeaderFile
 #define _PBRep_Curve3D_HeaderFile
 
-#include <Standard_Macro.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Handle_PBRep_Curve3D.hxx>
 
 #include <Handle_PGeom_Curve.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <PBRep_GCurve.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class PGeom_Curve;
 class PTopLoc_Location;
 

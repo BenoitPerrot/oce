@@ -6,8 +6,8 @@
 #ifndef _Handle_IntPatch_RLine_HeaderFile
 #define _Handle_IntPatch_RLine_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IntPatch_Line.hxx>
 
 class Standard_Transient;

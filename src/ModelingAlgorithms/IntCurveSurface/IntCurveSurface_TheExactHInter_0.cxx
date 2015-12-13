@@ -6,7 +6,7 @@
 #include <IntCurveSurface_TheExactHInter.hxx>
 
 #include <StdFail_NotDone.hxx>
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Adaptor3d_HSurface.hxx>
 #include <Adaptor3d_HSurfaceTool.hxx>
 #include <Adaptor3d_HCurve.hxx>

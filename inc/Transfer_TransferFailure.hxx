@@ -6,10 +6,10 @@
 #ifndef _Transfer_TransferFailure_HeaderFile
 #define _Transfer_TransferFailure_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard_DefineException.hxx>
-#include <Standard_SStream.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard_DefineException.hxx>
+#include <Foundation/Standard/Standard_SStream.hxx>
 #include <Interface_InterfaceError.hxx>
 #include <Handle_Transfer_TransferFailure.hxx>
 

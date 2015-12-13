@@ -24,7 +24,7 @@
 #include <gp_Circ.hxx>
 #include <gp_Elips.hxx>
 #include <AIS_MidPointRelation.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_MidPointRelation)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(AIS_Relation),
@@ -38,7 +38,7 @@ IMPLEMENT_STANDARD_TYPE_END(AIS_MidPointRelation)
 IMPLEMENT_DOWNCAST(AIS_MidPointRelation,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(AIS_MidPointRelation)
 
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 
 #include <Precision.hxx>
 

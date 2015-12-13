@@ -6,12 +6,12 @@
 #ifndef _TopOpeBRep_WPointInter_HeaderFile
 #define _TopOpeBRep_WPointInter_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TopOpeBRep_PPntOn2S.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class IntSurf_PntOn2S;
 class gp_Pnt2d;
 class gp_Pnt;

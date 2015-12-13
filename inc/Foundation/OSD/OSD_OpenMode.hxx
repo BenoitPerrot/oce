@@ -6,7 +6,7 @@
 #ifndef _OSD_OpenMode_HeaderFile
 #define _OSD_OpenMode_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Specifies the file open mode.
 enum OSD_OpenMode

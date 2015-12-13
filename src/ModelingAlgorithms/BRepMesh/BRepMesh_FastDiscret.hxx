@@ -14,8 +14,8 @@
 #ifndef _BRepMesh_FastDiscret_HeaderFile
 #define _BRepMesh_FastDiscret_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <BRepMesh_FastDiscret.hxx>
 #include <BRepMesh_DataStructureOfDelaun.hxx>
 #include <TColStd_IndexedMapOfInteger.hxx>
@@ -23,7 +23,7 @@
 #include <TopTools_DataMapOfShapeReal.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <TopTools_MutexForShapeProvider.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <Handle_BRepAdaptor_HSurface.hxx>
 #include <Handle_Geom2d_Curve.hxx>
 #include <BRepMesh_Delaun.hxx>

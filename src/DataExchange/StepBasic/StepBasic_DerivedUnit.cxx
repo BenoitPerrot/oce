@@ -14,7 +14,7 @@
 #include <StepBasic_HArray1OfDerivedUnitElement.hxx>
 #include <StepBasic_DerivedUnitElement.hxx>
 #include <StepBasic_DerivedUnit.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepBasic_DerivedUnit)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

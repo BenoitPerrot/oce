@@ -6,16 +6,16 @@
 #ifndef _FairCurve_DistributionOfJerk_HeaderFile
 #define _FairCurve_DistributionOfJerk_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <FairCurve_BattenLaw.hxx>
 #include <FairCurve_DistributionOfEnergy.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TColStd_HArray1OfReal.hxx>
 #include <Handle_TColgp_HArray1OfPnt2d.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <math_Vector.hxx>
 class TColStd_HArray1OfReal;
 class TColgp_HArray1OfPnt2d;

@@ -6,15 +6,15 @@
 #ifndef _BRepClass_FClassifier_HeaderFile
 #define _BRepClass_FClassifier_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <BRepClass_FClass2dOfFClassifier.hxx>
 #include <BRepClass_Edge.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <IntRes2d_Position.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <TopAbs_State.hxx>
 class Standard_DomainError;
 class BRepClass_FaceExplorer;

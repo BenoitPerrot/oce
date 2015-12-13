@@ -6,8 +6,8 @@
 #ifndef _Plugin_DataMapNodeOfMapOfFunctions_HeaderFile
 #define _Plugin_DataMapNodeOfMapOfFunctions_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Plugin_DataMapNodeOfMapOfFunctions.hxx>
 
 #include <TCollection_AsciiString.hxx>

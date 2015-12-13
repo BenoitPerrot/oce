@@ -35,8 +35,8 @@
 #include <Transfer_ActorOfTransientProcess.hxx>
 #include <TopoDS_Shape.hxx>
 #include <StepToTopoDS_Builder.hxx>
-#include <Standard_ErrorHandler.hxx>
-#include <Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
 #include <Interface_Static.hxx>
 #include <TransferBRep.hxx>
 

@@ -6,7 +6,7 @@
 #ifndef _TFunction_ExecutionStatus_HeaderFile
 #define _TFunction_ExecutionStatus_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum TFunction_ExecutionStatus

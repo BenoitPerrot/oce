@@ -6,7 +6,7 @@
 #ifndef _AIS_DisplayMode_HeaderFile
 #define _AIS_DisplayMode_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 //! Sets display modes other than neutral point ones,

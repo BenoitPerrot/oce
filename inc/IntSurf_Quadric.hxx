@@ -6,21 +6,21 @@
 #ifndef _IntSurf_Quadric_HeaderFile
 #define _IntSurf_Quadric_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <gp_Ax3.hxx>
 #include <gp_Lin.hxx>
 #include <GeomAbs_SurfaceType.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <gp_Pln.hxx>
 #include <gp_Sphere.hxx>
 #include <gp_Cylinder.hxx>
 #include <gp_Cone.hxx>
 #include <gp_Torus.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class gp_Pln;
 class gp_Cylinder;
 class gp_Sphere;

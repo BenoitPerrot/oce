@@ -16,7 +16,7 @@
 #ifndef LDOM_CharReference_HeaderFile
 #define LDOM_CharReference_HeaderFile
 
-#include <Standard_TypeDef.hxx>
+#include <Foundation/Standard/Standard_TypeDef.hxx>
 
 //  Class LDOM_CharReference: treatment of character reference and internal
 //     entities in input and output streams

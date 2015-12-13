@@ -10,7 +10,7 @@
  
 
 #define Item Standard_Integer
-#define Item_hxx <Standard_Integer.hxx>
+#define Item_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define Array TColStd_Array1OfInteger
 #define Array_hxx <TColStd_Array1OfInteger.hxx>
 #define Comparator TCollection_CompareOfInteger

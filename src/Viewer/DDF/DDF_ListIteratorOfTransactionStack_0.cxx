@@ -5,8 +5,8 @@
 
 #include <DDF_ListIteratorOfTransactionStack.hxx>
 
-#include <Standard_NoMoreObject.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoMoreObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <DDF_TransactionStack.hxx>
 #include <DDF_Transaction.hxx>
 #include <DDF_ListNodeOfTransactionStack.hxx>

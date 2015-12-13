@@ -6,15 +6,15 @@
 #ifndef _TDF_CopyLabel_HeaderFile
 #define _TDF_CopyLabel_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_TDF_RelocationTable.hxx>
 #include <TDF_Label.hxx>
 #include <TDF_IDFilter.hxx>
 #include <TDF_AttributeMap.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_TDF_DataSet.hxx>
 class TDF_RelocationTable;
 class TDF_Label;

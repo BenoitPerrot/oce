@@ -6,7 +6,7 @@
 #ifndef _HatchGen_ErrorStatus_HeaderFile
 #define _HatchGen_ErrorStatus_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Error status.
 enum HatchGen_ErrorStatus

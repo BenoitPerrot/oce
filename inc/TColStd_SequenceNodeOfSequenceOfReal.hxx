@@ -6,11 +6,11 @@
 #ifndef _TColStd_SequenceNodeOfSequenceOfReal_HeaderFile
 #define _TColStd_SequenceNodeOfSequenceOfReal_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TColStd_SequenceNodeOfSequenceOfReal.hxx>
 
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <TCollection_SeqNode.hxx>
 #include <TCollection_SeqNodePtr.hxx>
 class TColStd_SequenceOfReal;
@@ -46,7 +46,7 @@ private:
 };
 
 #define SeqItem Standard_Real
-#define SeqItem_hxx <Standard_Real.hxx>
+#define SeqItem_hxx <Foundation/Standard/Standard_Real.hxx>
 #define TCollection_SequenceNode TColStd_SequenceNodeOfSequenceOfReal
 #define TCollection_SequenceNode_hxx <TColStd_SequenceNodeOfSequenceOfReal.hxx>
 #define Handle_TCollection_SequenceNode Handle_TColStd_SequenceNodeOfSequenceOfReal

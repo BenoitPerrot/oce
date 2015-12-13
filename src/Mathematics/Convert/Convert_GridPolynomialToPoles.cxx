@@ -23,13 +23,13 @@
 #include <TColStd_HArray1OfReal.hxx>
 #include <TColStd_HArray1OfInteger.hxx>
 #include <TColgp_HArray2OfPnt.hxx>
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <StdFail_NotDone.hxx>
 #include <TColStd_HArray2OfInteger.hxx>
 #include <Convert_GridPolynomialToPoles.hxx>
 
 #include <StdFail_NotDone.hxx>
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <PLib.hxx>
 #include <BSplSLib.hxx>
 #include <BSplCLib.hxx>

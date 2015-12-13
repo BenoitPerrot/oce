@@ -16,7 +16,7 @@
 
 #include <gp_Pnt2d.hxx>
 #include <Geom2d_Point.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Geom2d_Point)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Geom2d_Geometry),

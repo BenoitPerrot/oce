@@ -6,13 +6,13 @@
 #ifndef _PColStd_VArrayTNodeOfFieldOfHArray1OfPersistent_HeaderFile
 #define _PColStd_VArrayTNodeOfFieldOfHArray1OfPersistent_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_Standard_Persistent.hxx>
 #include <Handle_PColStd_VArrayNodeOfFieldOfHArray1OfPersistent.hxx>
-#include <Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
 class Standard_Persistent;
 class PColStd_FieldOfHArray1OfPersistent;
 class PColStd_VArrayNodeOfFieldOfHArray1OfPersistent;
@@ -53,7 +53,7 @@ private:
 };
 
 #define Item Handle(Standard_Persistent)
-#define Item_hxx <Standard_Persistent.hxx>
+#define Item_hxx <Foundation/Standard/Standard_Persistent.hxx>
 #define DBC_VArrayNode PColStd_VArrayNodeOfFieldOfHArray1OfPersistent
 #define DBC_VArrayNode_hxx <PColStd_VArrayNodeOfFieldOfHArray1OfPersistent.hxx>
 #define DBC_VArrayTNode PColStd_VArrayTNodeOfFieldOfHArray1OfPersistent

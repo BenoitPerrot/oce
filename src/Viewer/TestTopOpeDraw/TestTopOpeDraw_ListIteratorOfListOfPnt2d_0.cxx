@@ -5,8 +5,8 @@
 
 #include <TestTopOpeDraw_ListIteratorOfListOfPnt2d.hxx>
 
-#include <Standard_NoMoreObject.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoMoreObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TestTopOpeDraw_ListOfPnt2d.hxx>
 #include <gp_Pnt2d.hxx>
 #include <TestTopOpeDraw_ListNodeOfListOfPnt2d.hxx>

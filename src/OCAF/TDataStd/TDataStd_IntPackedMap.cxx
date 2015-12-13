@@ -15,13 +15,13 @@
 
 #include <TColStd_HPackedMapOfInteger.hxx>
 #include <TDataStd_DeltaOnModificationOfIntPackedMap.hxx>
-#include <Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
 #include <TDF_Label.hxx>
 #include <TDF_Attribute.hxx>
 #include <TDF_RelocationTable.hxx>
 #include <TDF_DeltaOnModification.hxx>
 #include <TDataStd_IntPackedMap.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDataStd_IntPackedMap)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(TDF_Attribute),
@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_RTTI(TDataStd_IntPackedMap)
 #include <TColStd_HPackedMapOfInteger.hxx>
 #include <TDF_DefaultDeltaOnModification.hxx>
 #include <TDataStd_DeltaOnModificationOfIntPackedMap.hxx>
-#include <Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
 #include <TDF_Label.hxx>
 #include <TDF_Attribute.hxx>
 //=======================================================================

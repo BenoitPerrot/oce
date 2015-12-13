@@ -6,8 +6,8 @@
 #ifndef _StepBasic_TimeUnit_HeaderFile
 #define _StepBasic_TimeUnit_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepBasic_TimeUnit.hxx>
 
 #include <StepBasic_NamedUnit.hxx>

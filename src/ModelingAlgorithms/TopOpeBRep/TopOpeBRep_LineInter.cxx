@@ -52,8 +52,8 @@
 #include <BRepAdaptor_Curve2d.hxx>
 #include <TopAbs.hxx>
 
-#include <Standard_ProgramError.hxx>
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_ProgramError.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 
 #ifdef OCCT_DEBUG
 extern Standard_Boolean TopOpeBRep_GetcontextALWLNBP(Standard_Integer&);

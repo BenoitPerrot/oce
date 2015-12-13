@@ -13,16 +13,16 @@
 
 #include <TColStd_HArray1OfInteger.hxx>
 #include <Interface_HArray1OfHAsciiString.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Interface_InterfaceMismatch.hxx>
 #include <Interface_InterfaceError.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <TCollection_HAsciiString.hxx>
 #include <Interface_EntityList.hxx>
 #include <Interface_CopyTool.hxx>
 #include <Interface_UndefinedContent.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Interface_UndefinedContent)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),
@@ -33,7 +33,7 @@ IMPLEMENT_DOWNCAST(Interface_UndefinedContent,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Interface_UndefinedContent)
 #include <Interface_InterfaceMismatch.hxx>
 #include <Interface_InterfaceError.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 
 
 #define Content_TypeField 31

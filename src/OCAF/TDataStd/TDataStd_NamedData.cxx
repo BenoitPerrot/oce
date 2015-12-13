@@ -19,7 +19,7 @@
 #include <TDataStd_HDataMapOfStringByte.hxx>
 #include <TDataStd_HDataMapOfStringHArray1OfInteger.hxx>
 #include <TDataStd_HDataMapOfStringHArray1OfReal.hxx>
-#include <Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
 #include <TDF_Label.hxx>
 #include <TCollection_ExtendedString.hxx>
 #include <TColStd_DataMapOfStringInteger.hxx>
@@ -33,7 +33,7 @@
 #include <TDF_Attribute.hxx>
 #include <TDF_RelocationTable.hxx>
 #include <TDataStd_NamedData.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDataStd_NamedData)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(TDF_Attribute),

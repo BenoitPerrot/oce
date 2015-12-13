@@ -16,7 +16,7 @@
 #include <StepVisual_MarkerSelect.hxx>
 #include <StepBasic_SizeSelect.hxx>
 #include <StepVisual_PointStyle.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepVisual_PointStyle)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

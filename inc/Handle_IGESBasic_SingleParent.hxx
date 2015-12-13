@@ -6,8 +6,8 @@
 #ifndef _Handle_IGESBasic_SingleParent_HeaderFile
 #define _Handle_IGESBasic_SingleParent_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESData_SingleParentEntity.hxx>
 
 class Standard_Transient;

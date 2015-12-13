@@ -5,7 +5,7 @@
 
 #include <BRep_ListNodeOfListOfCurveRepresentation.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <BRep_CurveRepresentation.hxx>
 #include <BRep_ListOfCurveRepresentation.hxx>

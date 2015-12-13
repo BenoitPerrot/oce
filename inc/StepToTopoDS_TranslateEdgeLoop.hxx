@@ -6,9 +6,9 @@
 #ifndef _StepToTopoDS_TranslateEdgeLoop_HeaderFile
 #define _StepToTopoDS_TranslateEdgeLoop_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <StepToTopoDS_TranslateEdgeLoopError.hxx>
 #include <TopoDS_Shape.hxx>
@@ -16,7 +16,7 @@
 #include <Handle_StepShape_FaceBound.hxx>
 #include <Handle_Geom_Surface.hxx>
 #include <Handle_StepGeom_Surface.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class StdFail_NotDone;
 class StepShape_FaceBound;
 class TopoDS_Face;

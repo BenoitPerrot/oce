@@ -6,18 +6,18 @@
 #ifndef _IFSelect_SelectSuite_HeaderFile
 #define _IFSelect_SelectSuite_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IFSelect_SelectSuite.hxx>
 
 #include <TCollection_AsciiString.hxx>
 #include <TColStd_SequenceOfTransient.hxx>
 #include <IFSelect_SelectDeduct.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_IFSelect_Selection.hxx>
 #include <Handle_IFSelect_SelectDeduct.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 class Interface_InterfaceError;
 class IFSelect_Selection;
 class IFSelect_SelectDeduct;

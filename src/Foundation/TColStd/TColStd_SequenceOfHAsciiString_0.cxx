@@ -5,8 +5,8 @@
 
 #include <TColStd_SequenceOfHAsciiString.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <TCollection_HAsciiString.hxx>
 #include <TColStd_SequenceNodeOfSequenceOfHAsciiString.hxx>
  

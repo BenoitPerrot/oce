@@ -6,8 +6,8 @@
 #ifndef _Select3D_SequenceNodeOfSensitiveEntitySequence_HeaderFile
 #define _Select3D_SequenceNodeOfSensitiveEntitySequence_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Select3D_SequenceNodeOfSensitiveEntitySequence.hxx>
 
 #include <Handle_Select3D_SensitiveEntity.hxx>

@@ -16,10 +16,10 @@
 
 #include <BRepAdaptor_HArray1OfCurve.hxx>
 #include <TColStd_HArray1OfReal.hxx>
-#include <Standard_NullObject.hxx>
-#include <Standard_DomainError.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NullObject.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopoDS_Wire.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TColStd_Array1OfReal.hxx>

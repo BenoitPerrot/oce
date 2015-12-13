@@ -6,19 +6,19 @@
 #ifndef _BRepFilletAPI_MakeFillet_HeaderFile
 #define _BRepFilletAPI_MakeFillet_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <ChFi3d_FilBuilder.hxx>
 #include <TopTools_MapOfShape.hxx>
 #include <BRepFilletAPI_LocalOperation.hxx>
 #include <ChFi3d_FilletShape.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <Handle_Law_Function.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_TopOpeBRepBuild_HBuilder.hxx>
 #include <Handle_ChFiDS_SecHArray1.hxx>
 #include <Handle_Geom_Surface.hxx>

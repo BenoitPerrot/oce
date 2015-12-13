@@ -27,8 +27,8 @@
 #include <GeomFill_BoundWithSurf.hxx>
 #include <GeomFill_ConstrainedFilling.hxx>
 
-#include <Standard_Failure.hxx>
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <TColStd_HArray1OfReal.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <gp_XYZ.hxx>

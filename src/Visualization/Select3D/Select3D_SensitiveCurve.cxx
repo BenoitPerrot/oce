@@ -15,8 +15,8 @@
 // commercial license or contractual agreement.
 
 #include <Geom_Curve.hxx>
-#include <Standard_ConstructionError.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <SelectBasics_EntityOwner.hxx>
 #include <TColgp_HArray1OfPnt.hxx>
 #include <TColgp_Array1OfPnt.hxx>
@@ -27,7 +27,7 @@
 #include <TopLoc_Location.hxx>
 #include <gp_XYZ.hxx>
 #include <Select3D_SensitiveCurve.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Select3D_SensitiveCurve)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Select3D_SensitivePoly),

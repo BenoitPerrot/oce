@@ -6,18 +6,18 @@
 #ifndef _Select3D_SensitiveFace_HeaderFile
 #define _Select3D_SensitiveFace_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Select3D_SensitiveFace.hxx>
 
 #include <Select3D_TypeOfSensitivity.hxx>
 #include <Select3D_SensitivePoly.hxx>
 #include <Handle_SelectBasics_EntityOwner.hxx>
 #include <Handle_TColgp_HArray1OfPnt.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <SelectBasics_PickArgs.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 #include <Handle_Select3D_SensitiveEntity.hxx>
 class Standard_ConstructionError;
 class Standard_OutOfRange;

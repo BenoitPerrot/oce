@@ -6,13 +6,13 @@
 #ifndef _BRepPrimAPI_MakePrism_HeaderFile
 #define _BRepPrimAPI_MakePrism_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <BRepSweep_Prism.hxx>
 #include <BRepPrimAPI_MakeSweep.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class TopoDS_Shape;
 class gp_Vec;
 class gp_Dir;

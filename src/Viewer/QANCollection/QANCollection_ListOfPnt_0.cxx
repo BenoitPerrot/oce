@@ -5,7 +5,7 @@
 
 #include <QANCollection_ListOfPnt.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <QANCollection_ListIteratorOfListOfPnt.hxx>
 #include <gp_Pnt.hxx>
 #include <QANCollection_ListNodeOfListOfPnt.hxx>

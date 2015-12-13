@@ -5,7 +5,7 @@
 
 #include <ChFiDS_ListNodeOfListOfStripe.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <ChFiDS_Stripe.hxx>
 #include <ChFiDS_ListOfStripe.hxx>

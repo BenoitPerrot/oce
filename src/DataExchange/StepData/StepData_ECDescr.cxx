@@ -15,7 +15,7 @@
 #include <TColStd_HSequenceOfAsciiString.hxx>
 #include <StepData_Described.hxx>
 #include <StepData_ECDescr.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepData_ECDescr)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepData_EDescr),

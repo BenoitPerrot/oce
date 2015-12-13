@@ -17,7 +17,7 @@
 #include <TDF_Label.hxx>
 #include <BRepPrimAPI_MakeBox.hxx>
 #include <DNaming_BoxDriver.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DNaming_BoxDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(TFunction_Driver),
@@ -37,8 +37,8 @@ IMPLEMENT_STANDARD_RTTI(DNaming_BoxDriver)
 #include <BRepCheck_Analyzer.hxx>
 #include <TopLoc_Location.hxx>
 #include <TopoDS_Solid.hxx>
-#include <Standard_GUID.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <TDF_Label.hxx>
 #include <ModelDefinitions.hxx>
 #include <DNaming.hxx>

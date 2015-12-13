@@ -6,17 +6,17 @@
 #ifndef _ChFiKPart_ComputeData_HeaderFile
 #define _ChFiKPart_ComputeData_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_ChFiDS_SurfData.hxx>
 #include <Handle_Adaptor3d_HSurface.hxx>
 #include <TopAbs_Orientation.hxx>
 #include <Handle_ChFiDS_Spine.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class TopOpeBRepDS_DataStructure;
 class ChFiDS_SurfData;
 class Adaptor3d_HSurface;

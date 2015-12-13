@@ -6,20 +6,20 @@
 #ifndef _TDocStd_Document_HeaderFile
 #define _TDocStd_Document_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TDocStd_Document.hxx>
 
 #include <TCollection_ExtendedString.hxx>
 #include <Handle_TDF_Data.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <TDF_Transaction.hxx>
 #include <TDF_DeltaList.hxx>
 #include <Handle_TDF_Delta.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <CDM_Document.hxx>
 #include <Handle_CDM_Document.hxx>
-#include <Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
 #include <Handle_TDocStd_CompoundDelta.hxx>
 class TDF_Data;
 class TDF_Delta;

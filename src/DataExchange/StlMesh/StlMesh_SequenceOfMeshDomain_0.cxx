@@ -5,8 +5,8 @@
 
 #include <StlMesh_SequenceOfMeshDomain.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <StlMesh_MeshDomain.hxx>
 #include <StlMesh_SequenceNodeOfSequenceOfMeshDomain.hxx>
  

@@ -6,8 +6,8 @@
 #ifndef _IGESAppli_NodalDisplAndRot_HeaderFile
 #define _IGESAppli_NodalDisplAndRot_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESAppli_NodalDisplAndRot.hxx>
 
 #include <Handle_IGESDimen_HArray1OfGeneralNote.hxx>
@@ -15,7 +15,7 @@
 #include <Handle_IGESAppli_HArray1OfNode.hxx>
 #include <Handle_IGESBasic_HArray1OfHArray1OfXYZ.hxx>
 #include <IGESData_IGESEntity.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_IGESDimen_GeneralNote.hxx>
 #include <Handle_IGESAppli_Node.hxx>
 class IGESDimen_HArray1OfGeneralNote;

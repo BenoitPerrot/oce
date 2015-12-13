@@ -16,10 +16,10 @@
 #ifndef _BRepMesh_IEdgeTool_HeaderFile
 #define _BRepMesh_IEdgeTool_HeaderFile
 
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Pnt2d.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 
 //! Interface class providing API for edge tessellation tools.
 class BRepMesh_IEdgeTool : public Standard_Transient

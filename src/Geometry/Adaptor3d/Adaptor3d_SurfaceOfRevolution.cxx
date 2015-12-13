@@ -15,9 +15,9 @@
 // commercial license or contractual agreement.
 
 #include <Adaptor3d_HCurve.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <gp_Ax1.hxx>
 #include <TColStd_Array1OfReal.hxx>
 #include <Adaptor3d_HSurface.hxx>
@@ -37,7 +37,7 @@
 #include <Adaptor3d_HSurfaceOfRevolution.hxx>
 #include <ElCLib.hxx>
 #include <Precision.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 
 //=======================================================================
 //function : Adaptor3d_SurfaceOfRevolution

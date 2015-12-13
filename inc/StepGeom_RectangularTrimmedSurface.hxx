@@ -6,13 +6,13 @@
 #ifndef _StepGeom_RectangularTrimmedSurface_HeaderFile
 #define _StepGeom_RectangularTrimmedSurface_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepGeom_RectangularTrimmedSurface.hxx>
 
 #include <Handle_StepGeom_Surface.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <StepGeom_BoundedSurface.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 class StepGeom_Surface;

@@ -6,14 +6,14 @@
 #ifndef _TopOpeBRepDS_Association_HeaderFile
 #define _TopOpeBRepDS_Association_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TopOpeBRepDS_Association.hxx>
 
 #include <TopOpeBRepDS_DataMapOfInterferenceListOfInterference.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_TopOpeBRepDS_Interference.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class TopOpeBRepDS_Interference;
 class TopOpeBRepDS_ListOfInterference;
 

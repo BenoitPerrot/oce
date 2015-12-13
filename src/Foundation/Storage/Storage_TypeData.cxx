@@ -12,8 +12,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 #include <Storage_Schema.hxx>
 #include <Storage_TypeData.hxx>
 #include <TCollection_AsciiString.hxx>

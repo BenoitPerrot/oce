@@ -6,8 +6,8 @@
 #ifndef _StepAP203_CcDesignSecurityClassification_HeaderFile
 #define _StepAP203_CcDesignSecurityClassification_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepAP203_CcDesignSecurityClassification.hxx>
 
 #include <Handle_StepAP203_HArray1OfClassifiedItem.hxx>

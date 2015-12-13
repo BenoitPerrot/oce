@@ -6,8 +6,8 @@
 #ifndef _IntTools_SequenceNodeOfSequenceOfRanges_HeaderFile
 #define _IntTools_SequenceNodeOfSequenceOfRanges_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IntTools_SequenceNodeOfSequenceOfRanges.hxx>
 
 #include <IntTools_Range.hxx>

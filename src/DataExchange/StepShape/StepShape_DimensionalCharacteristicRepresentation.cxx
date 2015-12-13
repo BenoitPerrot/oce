@@ -18,7 +18,7 @@
 #include <StepShape_ShapeDimensionRepresentation.hxx>
 #include <StepShape_DimensionalCharacteristic.hxx>
 #include <StepShape_DimensionalCharacteristicRepresentation.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepShape_DimensionalCharacteristicRepresentation)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

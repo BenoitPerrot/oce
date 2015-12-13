@@ -17,7 +17,7 @@
 #include <TDF_Attribute.hxx>
 #include <BinObjMgt_Persistent.hxx>
 #include <BinMXCAFDoc_GraphNodeDriver.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BinMXCAFDoc_GraphNodeDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(BinMDF_ADriver),

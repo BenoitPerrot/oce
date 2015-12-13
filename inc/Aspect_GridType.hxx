@@ -6,7 +6,7 @@
 #ifndef _Aspect_GridType_HeaderFile
 #define _Aspect_GridType_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Defines the grid type : Rectangular or Circular.
 enum Aspect_GridType

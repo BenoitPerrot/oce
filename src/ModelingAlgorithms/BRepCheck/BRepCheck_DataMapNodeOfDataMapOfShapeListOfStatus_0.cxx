@@ -5,7 +5,7 @@
 
 #include <BRepCheck_DataMapNodeOfDataMapOfShapeListOfStatus.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TopoDS_Shape.hxx>
 #include <BRepCheck_ListOfStatus.hxx>

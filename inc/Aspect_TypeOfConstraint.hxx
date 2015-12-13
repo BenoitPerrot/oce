@@ -6,7 +6,7 @@
 #ifndef _Aspect_TypeOfConstraint_HeaderFile
 #define _Aspect_TypeOfConstraint_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Definition of the attachment for the layers
 enum Aspect_TypeOfConstraint

@@ -6,8 +6,8 @@
 #ifndef _Handle_StdSelect_EdgeFilter_HeaderFile
 #define _Handle_StdSelect_EdgeFilter_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_SelectMgr_Filter.hxx>
 
 class Standard_Transient;

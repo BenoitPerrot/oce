@@ -19,7 +19,7 @@
 #include <Plate_D2.hxx>
 #include <Plate_D3.hxx>
 #include <NLPlate_HPG3Constraint.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(NLPlate_HPG3Constraint)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(NLPlate_HPG2Constraint),

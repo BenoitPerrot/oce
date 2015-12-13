@@ -6,7 +6,7 @@
 #ifndef _BOPAlgo_CheckStatus_HeaderFile
 #define _BOPAlgo_CheckStatus_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum BOPAlgo_CheckStatus

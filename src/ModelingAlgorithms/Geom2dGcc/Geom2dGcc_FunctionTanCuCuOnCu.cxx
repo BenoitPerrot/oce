@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Geom2dAdaptor_Curve.hxx>
 #include <gp_Circ2d.hxx>
 #include <gp_Lin2d.hxx>
@@ -23,7 +23,7 @@
 #include <math_Matrix.hxx>
 #include <Geom2dGcc_FunctionTanCuCuOnCu.hxx>
 
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <ElCLib.hxx>
 
 #include <Geom2dGcc_CurveTool.hxx>

@@ -46,7 +46,7 @@
 #include <Graphic3d_Group.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <V3d_RectangularGrid.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(V3d_RectangularGrid)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Aspect_RectangularGrid),

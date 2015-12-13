@@ -6,13 +6,13 @@
 #ifndef _StdSelect_BRepOwner_HeaderFile
 #define _StdSelect_BRepOwner_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StdSelect_BRepOwner.hxx>
 
 #include <Handle_StdSelect_Shape.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <TopoDS_Shape.hxx>
 #include <SelectMgr_EntityOwner.hxx>
 #include <Handle_SelectMgr_SelectableObject.hxx>

@@ -5,7 +5,7 @@
 
 #include <MoniTool_DataMapIteratorOfDataMapOfTimer.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <MoniTool_Timer.hxx>
 #include <MoniTool_MTHasher.hxx>
 #include <MoniTool_DataMapOfTimer.hxx>
@@ -13,7 +13,7 @@
  
 
 #define TheKey Standard_CString
-#define TheKey_hxx <Standard_CString.hxx>
+#define TheKey_hxx <Foundation/Standard/Standard_CString.hxx>
 #define TheItem Handle(MoniTool_Timer)
 #define TheItem_hxx <MoniTool_Timer.hxx>
 #define Hasher MoniTool_MTHasher

@@ -15,13 +15,13 @@
 #include <TColStd_HSequenceOfInteger.hxx>
 #include <Interface_InterfaceModel.hxx>
 #include <Interface_IntVal.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Interface_Check.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <TColStd_HSequenceOfTransient.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <Interface_CheckIterator.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TCollection_HAsciiString.hxx>
 
 

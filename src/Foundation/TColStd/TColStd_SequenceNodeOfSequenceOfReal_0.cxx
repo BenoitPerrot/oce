@@ -5,7 +5,7 @@
 
 #include <TColStd_SequenceNodeOfSequenceOfReal.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TColStd_SequenceOfReal.hxx>
 
@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_RTTI(TColStd_SequenceNodeOfSequenceOfReal)
 
 
 #define SeqItem Standard_Real
-#define SeqItem_hxx <Standard_Real.hxx>
+#define SeqItem_hxx <Foundation/Standard/Standard_Real.hxx>
 #define TCollection_SequenceNode TColStd_SequenceNodeOfSequenceOfReal
 #define TCollection_SequenceNode_hxx <TColStd_SequenceNodeOfSequenceOfReal.hxx>
 #define Handle_TCollection_SequenceNode Handle_TColStd_SequenceNodeOfSequenceOfReal

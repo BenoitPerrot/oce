@@ -6,18 +6,18 @@
 #ifndef _IGESData_FreeFormatEntity_HeaderFile
 #define _IGESData_FreeFormatEntity_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESData_FreeFormatEntity.hxx>
 
 #include <Handle_TColStd_HSequenceOfInteger.hxx>
 #include <IGESData_UndefinedEntity.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Interface_ParamType.hxx>
 #include <Handle_IGESData_IGESEntity.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_IGESData_HArray1OfIGESEntity.hxx>
 class TColStd_HSequenceOfInteger;
 class Standard_OutOfRange;

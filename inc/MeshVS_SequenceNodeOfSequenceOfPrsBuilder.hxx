@@ -6,8 +6,8 @@
 #ifndef _MeshVS_SequenceNodeOfSequenceOfPrsBuilder_HeaderFile
 #define _MeshVS_SequenceNodeOfSequenceOfPrsBuilder_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_MeshVS_SequenceNodeOfSequenceOfPrsBuilder.hxx>
 
 #include <Handle_MeshVS_PrsBuilder.hxx>

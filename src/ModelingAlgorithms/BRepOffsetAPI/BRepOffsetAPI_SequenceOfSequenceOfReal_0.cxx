@@ -5,8 +5,8 @@
 
 #include <BRepOffsetAPI_SequenceOfSequenceOfReal.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <TColStd_SequenceOfReal.hxx>
 #include <BRepOffsetAPI_SequenceNodeOfSequenceOfSequenceOfReal.hxx>
  

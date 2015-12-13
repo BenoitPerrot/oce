@@ -6,8 +6,8 @@
 #ifndef _Handle_Geom_Direction_HeaderFile
 #define _Handle_Geom_Direction_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Geom_Vector.hxx>
 
 class Standard_Transient;

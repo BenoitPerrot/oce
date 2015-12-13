@@ -6,15 +6,15 @@
 #ifndef _STEPConstruct_Tool_HeaderFile
 #define _STEPConstruct_Tool_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_XSControl_WorkSession.hxx>
 #include <Handle_Transfer_FinderProcess.hxx>
 #include <Handle_Transfer_TransientProcess.hxx>
 #include <Handle_Interface_HGraph.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Interface_InterfaceModel.hxx>
 class XSControl_WorkSession;
 class Transfer_FinderProcess;

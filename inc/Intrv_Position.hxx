@@ -6,7 +6,7 @@
 #ifndef _Intrv_Position_HeaderFile
 #define _Intrv_Position_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum Intrv_Position

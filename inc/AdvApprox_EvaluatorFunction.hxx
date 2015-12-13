@@ -17,9 +17,9 @@
 #ifndef _AdvApprox_EvaluatorFunction_HeaderFile
 #define _AdvApprox_EvaluatorFunction_HeaderFile
 
-#include <Standard_Integer.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 // abv 01.04.2009: the C function pointer converted to a virtual class
 // in order to get rid of usage of static functions and static data

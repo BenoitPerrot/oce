@@ -18,7 +18,7 @@
 #include <TopoDS_Wire.hxx>
 #include <GeomFill_LocationGuide.hxx>
 #include <BRepFill_ACRLaw.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BRepFill_ACRLaw)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(BRepFill_LocationLaw),

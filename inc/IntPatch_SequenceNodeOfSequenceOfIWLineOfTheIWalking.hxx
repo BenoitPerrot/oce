@@ -6,8 +6,8 @@
 #ifndef _IntPatch_SequenceNodeOfSequenceOfIWLineOfTheIWalking_HeaderFile
 #define _IntPatch_SequenceNodeOfSequenceOfIWLineOfTheIWalking_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IntPatch_SequenceNodeOfSequenceOfIWLineOfTheIWalking.hxx>
 
 #include <Handle_IntPatch_TheIWLineOfTheIWalking.hxx>

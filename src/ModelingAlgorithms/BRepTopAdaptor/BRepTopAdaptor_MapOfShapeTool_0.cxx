@@ -5,8 +5,8 @@
 
 #include <BRepTopAdaptor_MapOfShapeTool.hxx>
 
-#include <Standard_DomainError.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopoDS_Shape.hxx>
 #include <BRepTopAdaptor_Tool.hxx>
 #include <TopTools_ShapeMapHasher.hxx>

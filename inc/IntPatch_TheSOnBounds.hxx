@@ -6,11 +6,11 @@
 #ifndef _IntPatch_TheSOnBounds_HeaderFile
 #define _IntPatch_TheSOnBounds_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <IntPatch_SequenceOfSegmentOfTheSOnBounds.hxx>
 #include <IntPatch_SequenceOfPathPointOfTheSOnBounds.hxx>
 #include <Handle_Adaptor3d_HVertex.hxx>
@@ -18,8 +18,8 @@
 #include <Handle_Adaptor3d_TopolTool.hxx>
 #include <Handle_IntPatch_SequenceNodeOfSequenceOfPathPointOfTheSOnBounds.hxx>
 #include <Handle_IntPatch_SequenceNodeOfSequenceOfSegmentOfTheSOnBounds.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class StdFail_NotDone;
 class Standard_OutOfRange;
 class Standard_ConstructionError;

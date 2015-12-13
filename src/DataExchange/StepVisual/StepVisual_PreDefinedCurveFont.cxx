@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <StepVisual_PreDefinedCurveFont.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepVisual_PreDefinedCurveFont)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepVisual_PreDefinedItem),

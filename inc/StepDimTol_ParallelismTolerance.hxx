@@ -6,8 +6,8 @@
 #ifndef _StepDimTol_ParallelismTolerance_HeaderFile
 #define _StepDimTol_ParallelismTolerance_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepDimTol_ParallelismTolerance.hxx>
 
 #include <StepDimTol_GeometricToleranceWithDatumReference.hxx>

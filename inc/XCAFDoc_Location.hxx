@@ -6,8 +6,8 @@
 #ifndef _XCAFDoc_Location_HeaderFile
 #define _XCAFDoc_Location_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_XCAFDoc_Location.hxx>
 
 #include <TopLoc_Location.hxx>

@@ -16,7 +16,7 @@
 
 #include <gp_Pnt2d.hxx>
 #include <Bisector_Curve.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Bisector_Curve)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Geom2d_Curve),

@@ -6,15 +6,15 @@
 #ifndef _StepGeom_DegenerateToroidalSurface_HeaderFile
 #define _StepGeom_DegenerateToroidalSurface_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepGeom_DegenerateToroidalSurface.hxx>
 
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <StepGeom_ToroidalSurface.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Handle_StepGeom_Axis2Placement3d.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class TCollection_HAsciiString;
 class StepGeom_Axis2Placement3d;
 

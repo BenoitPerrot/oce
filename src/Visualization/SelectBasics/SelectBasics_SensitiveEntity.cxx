@@ -19,7 +19,7 @@
 #include <TColgp_Array1OfPnt2d.hxx>
 #include <Bnd_Box2d.hxx>
 #include <SelectBasics_SensitiveEntity.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(SelectBasics_SensitiveEntity)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

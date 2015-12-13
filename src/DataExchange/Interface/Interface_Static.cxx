@@ -11,17 +11,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 #include <Interface_Static.hxx>
 #include <TColStd_HArray1OfAsciiString.hxx>
 #include <Foundation/Dico/Dico_DictionaryOfInteger.hxx>
 #include <TCollection_HAsciiString.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <Interface_InterfaceError.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <TColStd_HSequenceOfHAsciiString.hxx>
 #include <Interface_Static.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Interface_Static)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Interface_TypedValue),

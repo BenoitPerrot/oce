@@ -6,12 +6,12 @@
 #ifndef _StepAP214_OrganizationItem_HeaderFile
 #define _StepAP214_OrganizationItem_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <StepAP214_ApprovalItem.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Handle_StepAP214_AppliedOrganizationAssignment.hxx>
 #include <Handle_StepBasic_Approval.hxx>

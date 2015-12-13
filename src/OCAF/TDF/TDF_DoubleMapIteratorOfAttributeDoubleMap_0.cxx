@@ -5,7 +5,7 @@
 
 #include <TDF_DoubleMapIteratorOfAttributeDoubleMap.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TDF_Attribute.hxx>
 #include <TColStd_MapTransientHasher.hxx>
 #include <TDF_AttributeDoubleMap.hxx>

@@ -17,10 +17,10 @@
 #include <Transfer_TransientProcess.hxx>
 #include <TopTools_HSequenceOfShape.hxx>
 #include <TColStd_HSequenceOfTransient.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Interface_CheckIterator.hxx>
 #include <TopoDS_Shape.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <TransferBRep_Reader.hxx>
 
 #include <Interface_Macros.hxx>

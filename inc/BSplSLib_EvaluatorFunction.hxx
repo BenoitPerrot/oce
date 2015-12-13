@@ -18,13 +18,13 @@
 #define _BSplSLib_EvaluatorFunction_HeaderFile
 
 #ifndef _Standard_Integer_HeaderFile
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #endif
 #ifndef _Standard_Real_HeaderFile
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #endif
 #ifndef _Standard_PrimitiveTypes_HeaderFile
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 #endif
 
 // Histroy - C function pointer converted to a virtual class

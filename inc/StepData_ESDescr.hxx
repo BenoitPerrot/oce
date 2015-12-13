@@ -6,8 +6,8 @@
 #ifndef _StepData_ESDescr_HeaderFile
 #define _StepData_ESDescr_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepData_ESDescr.hxx>
 
 #include <TCollection_AsciiString.hxx>
@@ -15,10 +15,10 @@
 #include <Handle_Dico_DictionaryOfInteger.hxx>
 #include <Handle_StepData_ESDescr.hxx>
 #include <StepData_EDescr.hxx>
-#include <Standard_CString.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_StepData_PDescr.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_StepData_Described.hxx>
 class TColStd_HArray1OfTransient;
 class Dico_DictionaryOfInteger;

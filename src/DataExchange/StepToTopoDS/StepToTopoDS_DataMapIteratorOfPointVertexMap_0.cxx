@@ -5,7 +5,7 @@
 
 #include <StepToTopoDS_DataMapIteratorOfPointVertexMap.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <StepGeom_CartesianPoint.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <StepToTopoDS_CartesianPointHasher.hxx>

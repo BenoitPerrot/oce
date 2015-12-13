@@ -6,9 +6,9 @@
 #ifndef _StepToTopoDS_Builder_HeaderFile
 #define _StepToTopoDS_Builder_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <StepToTopoDS_BuilderError.hxx>
 #include <TopoDS_Shape.hxx>
@@ -23,7 +23,7 @@
 #include <Handle_StepShape_EdgeBasedWireframeModel.hxx>
 #include <Handle_StepShape_FaceBasedSurfaceModel.hxx>
 #include <Handle_Transfer_ActorOfTransientProcess.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class StdFail_NotDone;
 class StepShape_ManifoldSolidBrep;
 class Transfer_TransientProcess;

@@ -6,20 +6,20 @@
 #ifndef _Graphic3d_AspectText3d_HeaderFile
 #define _Graphic3d_AspectText3d_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Graphic3d_AspectText3d.hxx>
 
 #include <TCollection_AsciiString.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Aspect_TypeOfStyleText.hxx>
 #include <Aspect_TypeOfDisplayText.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Font_FontAspect.hxx>
 #include <Graphic3d_ShaderProgram_Handle.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 class Graphic3d_AspectTextDefinitionError;
 class Quantity_Color;
 

@@ -6,12 +6,12 @@
 #ifndef _ShapeProcess_HeaderFile
 #define _ShapeProcess_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Boolean.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_ShapeProcess_Operator.hxx>
 #include <Handle_ShapeProcess_Context.hxx>
 class ShapeProcess_Operator;

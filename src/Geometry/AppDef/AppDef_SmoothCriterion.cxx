@@ -14,8 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_NotImplemented.hxx>
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <TColStd_HArray1OfReal.hxx>
 #include <FEmTool_Curve.hxx>
 #include <FEmTool_HAssemblyTable.hxx>
@@ -23,7 +23,7 @@
 #include <math_Matrix.hxx>
 #include <TColStd_Array1OfReal.hxx>
 #include <AppDef_SmoothCriterion.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AppDef_SmoothCriterion)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

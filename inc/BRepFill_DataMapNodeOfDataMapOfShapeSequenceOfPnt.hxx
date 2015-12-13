@@ -6,8 +6,8 @@
 #ifndef _BRepFill_DataMapNodeOfDataMapOfShapeSequenceOfPnt_HeaderFile
 #define _BRepFill_DataMapNodeOfDataMapOfShapeSequenceOfPnt_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BRepFill_DataMapNodeOfDataMapOfShapeSequenceOfPnt.hxx>
 
 #include <TopoDS_Shape.hxx>

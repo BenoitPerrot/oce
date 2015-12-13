@@ -6,14 +6,14 @@
 #ifndef _StepBasic_MeasureWithUnit_HeaderFile
 #define _StepBasic_MeasureWithUnit_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepBasic_MeasureWithUnit.hxx>
 
 #include <Handle_StepBasic_MeasureValueMember.hxx>
 #include <StepBasic_Unit.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class StepBasic_MeasureValueMember;
 class StepBasic_Unit;
 

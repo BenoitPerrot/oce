@@ -14,7 +14,7 @@
 
 #include <SelectMgr_EntityOwner.hxx>
 #include <SelectMgr_AndFilter.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(SelectMgr_AndFilter)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(SelectMgr_CompositionFilter),

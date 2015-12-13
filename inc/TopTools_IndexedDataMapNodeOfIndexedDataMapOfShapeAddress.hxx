@@ -6,13 +6,13 @@
 #ifndef _TopTools_IndexedDataMapNodeOfIndexedDataMapOfShapeAddress_HeaderFile
 #define _TopTools_IndexedDataMapNodeOfIndexedDataMapOfShapeAddress_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TopTools_IndexedDataMapNodeOfIndexedDataMapOfShapeAddress.hxx>
 
 #include <TopoDS_Shape.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
 #include <TCollection_MapNodePtr.hxx>
 #include <TCollection_MapNode.hxx>
 class TopoDS_Shape;
@@ -61,7 +61,7 @@ private:
 #define TheKey TopoDS_Shape
 #define TheKey_hxx <TopoDS_Shape.hxx>
 #define TheItem Standard_Address
-#define TheItem_hxx <Standard_Address.hxx>
+#define TheItem_hxx <Foundation/Standard/Standard_Address.hxx>
 #define Hasher TopTools_ShapeMapHasher
 #define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
 #define TCollection_IndexedDataMapNode TopTools_IndexedDataMapNodeOfIndexedDataMapOfShapeAddress

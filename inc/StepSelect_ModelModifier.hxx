@@ -6,14 +6,14 @@
 #ifndef _StepSelect_ModelModifier_HeaderFile
 #define _StepSelect_ModelModifier_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepSelect_ModelModifier.hxx>
 
 #include <IFSelect_Modifier.hxx>
 #include <Handle_StepData_StepModel.hxx>
 #include <Handle_StepData_Protocol.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Interface_InterfaceModel.hxx>
 #include <Handle_Interface_Protocol.hxx>
 class StepData_StepModel;

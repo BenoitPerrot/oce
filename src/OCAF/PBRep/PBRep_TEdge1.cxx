@@ -16,7 +16,7 @@
 
 #include <PBRep_CurveRepresentation.hxx>
 #include <PBRep_TEdge1.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PBRep_TEdge1)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(PTopoDS_TEdge1),

@@ -6,24 +6,24 @@
 #ifndef _AIS_IdenticRelation_HeaderFile
 #define _AIS_IdenticRelation_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_AIS_IdenticRelation.hxx>
 
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <gp_Pnt.hxx>
 #include <AIS_Relation.hxx>
 #include <Handle_Geom_Plane.hxx>
 #include <PrsMgr_PresentationManager3d.hxx>
 #include <Handle_Prs3d_Presentation.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Prs3d_Projector.hxx>
 #include <Handle_Geom_Transformation.hxx>
 #include <Handle_SelectMgr_Selection.hxx>
 #include <Handle_Geom_Line.hxx>
 #include <Handle_Geom_Circle.hxx>
 #include <Handle_Geom_Ellipse.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class TopoDS_Shape;
 class Geom_Plane;
 class Prs3d_Presentation;

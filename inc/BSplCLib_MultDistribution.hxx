@@ -6,7 +6,7 @@
 #ifndef _BSplCLib_MultDistribution_HeaderFile
 #define _BSplCLib_MultDistribution_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! This   enumeration describes the   form  of  the
 //! sequence of mutiplicities.  MultDistribution is :

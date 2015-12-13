@@ -6,8 +6,8 @@
 #ifndef _Handle_StepFEA_AlignedSurface3dElementCoordinateSystem_HeaderFile
 #define _Handle_StepFEA_AlignedSurface3dElementCoordinateSystem_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepFEA_FeaRepresentationItem.hxx>
 
 class Standard_Transient;

@@ -12,7 +12,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <GccEnt_BadQualifier.hxx>
 #include <StdFail_NotDone.hxx>
 #include <Geom2dGcc_QCurve.hxx>
@@ -21,8 +21,8 @@
 #include <Geom2dGcc_Circ2dTanCenGeo.hxx>
 
 #include <StdFail_NotDone.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
 #include <gp.hxx>
 #include <gp_Ax2d.hxx>
 #include <gp_Vec2d.hxx>

@@ -6,8 +6,8 @@
 #ifndef _MeshVS_DataMapNodeOfDataMapOfColorMapOfInteger_HeaderFile
 #define _MeshVS_DataMapNodeOfDataMapOfColorMapOfInteger_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_MeshVS_DataMapNodeOfDataMapOfColorMapOfInteger.hxx>
 
 #include <Foundation/Quantity/Quantity_Color.hxx>

@@ -6,16 +6,16 @@
 #ifndef _IGESData_IGESDumper_HeaderFile
 #define _IGESData_IGESDumper_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_IGESData_IGESModel.hxx>
 #include <IGESData_SpecificLib.hxx>
 #include <Handle_IGESData_Protocol.hxx>
 #include <Handle_IGESData_IGESEntity.hxx>
 #include <Handle_Message_Messenger.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class IGESData_IGESModel;
 class Interface_InterfaceError;
 class IGESData_Protocol;

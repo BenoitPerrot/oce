@@ -18,7 +18,7 @@
 #include <TCollection_HAsciiString.hxx>
 #include <StepFEA_SymmetricTensor23d.hxx>
 #include <StepFEA_FeaMoistureAbsorption.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepFEA_FeaMoistureAbsorption)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepFEA_FeaMaterialPropertyRepresentationItem),

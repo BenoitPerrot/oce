@@ -6,8 +6,8 @@
 #ifndef _Handle_ShapeUpgrade_ClosedEdgeDivide_HeaderFile
 #define _Handle_ShapeUpgrade_ClosedEdgeDivide_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ShapeUpgrade_EdgeDivide.hxx>
 
 class Standard_Transient;

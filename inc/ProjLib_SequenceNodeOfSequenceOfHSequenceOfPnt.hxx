@@ -6,8 +6,8 @@
 #ifndef _ProjLib_SequenceNodeOfSequenceOfHSequenceOfPnt_HeaderFile
 #define _ProjLib_SequenceNodeOfSequenceOfHSequenceOfPnt_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ProjLib_SequenceNodeOfSequenceOfHSequenceOfPnt.hxx>
 
 #include <Handle_TColgp_HSequenceOfPnt.hxx>

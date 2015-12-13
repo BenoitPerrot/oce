@@ -5,8 +5,8 @@
 
 #include <TopTools_DataMapOfIntegerListOfShape.hxx>
 
-#include <Standard_DomainError.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <TColStd_MapIntegerHasher.hxx>
 #include <TopTools_DataMapNodeOfDataMapOfIntegerListOfShape.hxx>
@@ -14,7 +14,7 @@
  
 
 #define TheKey Standard_Integer
-#define TheKey_hxx <Standard_Integer.hxx>
+#define TheKey_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheItem TopTools_ListOfShape
 #define TheItem_hxx <TopTools_ListOfShape.hxx>
 #define Hasher TColStd_MapIntegerHasher

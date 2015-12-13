@@ -19,7 +19,7 @@
 #include <Foundation/Message/Message_ProgressIndicator.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <ShapeProcess_Context.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeProcess_Context)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),
@@ -29,8 +29,8 @@ IMPLEMENT_STANDARD_TYPE_END(ShapeProcess_Context)
 IMPLEMENT_DOWNCAST(ShapeProcess_Context,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ShapeProcess_Context)
 
-#include <Standard_ErrorHandler.hxx>
-#include <Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
 #include <TCollection_HAsciiString.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <Foundation/Message/Message.hxx>

@@ -5,7 +5,7 @@
 
 #include <TNaming_ListNodeOfListOfNamedShape.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TNaming_NamedShape.hxx>
 #include <TNaming_ListOfNamedShape.hxx>

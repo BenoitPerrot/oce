@@ -17,7 +17,7 @@
 #include <PCollection_HExtendedString.hxx>
 #include <PDF_HAttributeArray1.hxx>
 #include <PDataStd_Relation.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PDataStd_Relation)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(PDF_Attribute),

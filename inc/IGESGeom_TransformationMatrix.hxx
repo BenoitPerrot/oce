@@ -6,14 +6,14 @@
 #ifndef _IGESGeom_TransformationMatrix_HeaderFile
 #define _IGESGeom_TransformationMatrix_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESGeom_TransformationMatrix.hxx>
 
 #include <Handle_TColStd_HArray2OfReal.hxx>
 #include <IGESData_TransfEntity.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class TColStd_HArray2OfReal;
 class Standard_DimensionMismatch;
 class Standard_OutOfRange;

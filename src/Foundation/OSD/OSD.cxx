@@ -13,7 +13,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/OSD/OSD.hxx>
-#include <Standard_Stream.hxx>
+#include <Foundation/Standard/Standard_Stream.hxx>
 #include <stdio.h>
 #include <math.h>
 #ifdef WNT

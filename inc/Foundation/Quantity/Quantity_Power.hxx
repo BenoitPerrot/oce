@@ -6,7 +6,7 @@
 #ifndef _Quantity_Power_HeaderFile
 #define _Quantity_Power_HeaderFile
 
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 
 typedef Standard_Real Quantity_Power;
 

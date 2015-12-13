@@ -6,8 +6,8 @@
 #ifndef _Graphic3d_SequenceNodeOfSequenceOfStructure_HeaderFile
 #define _Graphic3d_SequenceNodeOfSequenceOfStructure_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Graphic3d_SequenceNodeOfSequenceOfStructure.hxx>
 
 #include <Handle_Graphic3d_Structure.hxx>

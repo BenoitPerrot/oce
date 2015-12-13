@@ -5,8 +5,8 @@
 
 #include <TColStd_DataMapOfIntegerListOfInteger.hxx>
 
-#include <Standard_DomainError.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TColStd_ListOfInteger.hxx>
 #include <TColStd_MapIntegerHasher.hxx>
 #include <TColStd_DataMapNodeOfDataMapOfIntegerListOfInteger.hxx>
@@ -14,7 +14,7 @@
  
 
 #define TheKey Standard_Integer
-#define TheKey_hxx <Standard_Integer.hxx>
+#define TheKey_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheItem TColStd_ListOfInteger
 #define TheItem_hxx <TColStd_ListOfInteger.hxx>
 #define Hasher TColStd_MapIntegerHasher

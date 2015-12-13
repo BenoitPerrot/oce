@@ -6,13 +6,13 @@
 #ifndef _StepToTopoDS_MakeTransformed_HeaderFile
 #define _StepToTopoDS_MakeTransformed_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <gp_Trsf.hxx>
 #include <StepToTopoDS_Root.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_StepGeom_Axis2Placement3d.hxx>
 #include <Handle_StepGeom_CartesianTransformationOperator3d.hxx>
 #include <Handle_StepRepr_MappedItem.hxx>

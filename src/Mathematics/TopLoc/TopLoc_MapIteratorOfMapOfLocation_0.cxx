@@ -5,7 +5,7 @@
 
 #include <TopLoc_MapIteratorOfMapOfLocation.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopLoc_Location.hxx>
 #include <TopLoc_MapLocationHasher.hxx>
 #include <TopLoc_MapOfLocation.hxx>

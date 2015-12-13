@@ -5,7 +5,7 @@
 
 #include <BRepBlend_SequenceNodeOfSequenceOfLine.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <BRepBlend_Line.hxx>
 #include <BRepBlend_SequenceOfLine.hxx>

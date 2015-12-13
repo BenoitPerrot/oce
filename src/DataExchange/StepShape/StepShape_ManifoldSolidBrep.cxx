@@ -15,7 +15,7 @@
 #include <TCollection_HAsciiString.hxx>
 #include <StepShape_ClosedShell.hxx>
 #include <StepShape_ManifoldSolidBrep.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepShape_ManifoldSolidBrep)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepShape_SolidModel),

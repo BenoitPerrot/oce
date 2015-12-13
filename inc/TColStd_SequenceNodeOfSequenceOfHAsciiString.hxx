@@ -6,8 +6,8 @@
 #ifndef _TColStd_SequenceNodeOfSequenceOfHAsciiString_HeaderFile
 #define _TColStd_SequenceNodeOfSequenceOfHAsciiString_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TColStd_SequenceNodeOfSequenceOfHAsciiString.hxx>
 
 #include <Handle_TCollection_HAsciiString.hxx>

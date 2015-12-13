@@ -6,11 +6,11 @@
 #ifndef _BRepPrim_Sphere_HeaderFile
 #define _BRepPrim_Sphere_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <BRepPrim_Revolution.hxx>
 class Standard_DomainError;
 class gp_Pnt;

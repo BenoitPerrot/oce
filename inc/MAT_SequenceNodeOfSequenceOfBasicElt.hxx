@@ -6,8 +6,8 @@
 #ifndef _MAT_SequenceNodeOfSequenceOfBasicElt_HeaderFile
 #define _MAT_SequenceNodeOfSequenceOfBasicElt_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_MAT_SequenceNodeOfSequenceOfBasicElt.hxx>
 
 #include <Handle_MAT_BasicElt.hxx>

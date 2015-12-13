@@ -30,7 +30,7 @@
 #include <Geom2d_Curve.hxx>
 #include <gp_Vec2d.hxx>
 #include <Precision.hxx>
-#include <Standard_ProgramError.hxx>
+#include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <BRepClass_FacePassiveClassifier.hxx>
 #include <BRepClass3d_SolidExplorer.hxx>
 #include <BRepClass_Edge.hxx>

@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <CDF.hxx>
-#include <Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
 
 static void CDF_InitApplication () {
 

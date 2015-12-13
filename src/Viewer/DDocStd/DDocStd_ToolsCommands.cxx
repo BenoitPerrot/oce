@@ -32,7 +32,7 @@
 #include <TDF_DeltaOnModification.hxx>
 #include <TDF_AttributeDeltaList.hxx>
 #include <TDF_ListIteratorOfAttributeDeltaList.hxx> 
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 
 
 

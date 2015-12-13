@@ -6,12 +6,12 @@
 #ifndef _IFSelect_SignValidity_HeaderFile
 #define _IFSelect_SignValidity_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IFSelect_SignValidity.hxx>
 
 #include <IFSelect_Signature.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Handle_Interface_InterfaceModel.hxx>
 class Standard_Transient;

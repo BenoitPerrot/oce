@@ -6,16 +6,16 @@
 #ifndef _Interface_UndefinedContent_HeaderFile
 #define _Interface_UndefinedContent_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Interface_UndefinedContent.hxx>
 
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>
 #include <Handle_Interface_HArray1OfHAsciiString.hxx>
 #include <Interface_EntityList.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Interface_ParamType.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>

@@ -6,14 +6,14 @@
 #ifndef _IGESDraw_HArray1OfConnectPoint_HeaderFile
 #define _IGESDraw_HArray1OfConnectPoint_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESDraw_HArray1OfConnectPoint.hxx>
 
 #include <IGESDraw_Array1OfConnectPoint.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_IGESDraw_ConnectPoint.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_DimensionMismatch;
 class Standard_OutOfRange;

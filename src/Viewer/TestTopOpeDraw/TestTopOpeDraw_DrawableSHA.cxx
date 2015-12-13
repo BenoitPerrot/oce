@@ -21,7 +21,7 @@
 #include <gp_Pnt.hxx>
 #include <Draw_Display.hxx>
 #include <TestTopOpeDraw_DrawableSHA.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TestTopOpeDraw_DrawableSHA)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(DBRep_DrawableShape),

@@ -6,18 +6,18 @@
 #ifndef _AIS_Triangulation_HeaderFile
 #define _AIS_Triangulation_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_AIS_Triangulation.hxx>
 
 #include <Handle_Poly_Triangulation.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <AIS_InteractiveObject.hxx>
 #include <PrsMgr_PresentationManager3d.hxx>
 #include <Handle_Prs3d_Presentation.hxx>
 #include <Handle_SelectMgr_Selection.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class Poly_Triangulation;
 class TColStd_HArray1OfInteger;
 class Prs3d_Presentation;

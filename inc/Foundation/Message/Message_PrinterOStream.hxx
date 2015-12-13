@@ -6,16 +6,16 @@
 #ifndef _Message_PrinterOStream_HeaderFile
 #define _Message_PrinterOStream_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Message_PrinterOStream.hxx>
 
-#include <Standard_Address.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Message/Message_Printer.hxx>
 #include <Foundation/Message/Message_Gravity.hxx>
-#include <Standard_CString.hxx>
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 class TCollection_AsciiString;
 class TCollection_ExtendedString;
 

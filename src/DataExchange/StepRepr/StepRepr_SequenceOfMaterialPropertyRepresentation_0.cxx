@@ -5,8 +5,8 @@
 
 #include <StepRepr_SequenceOfMaterialPropertyRepresentation.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <StepRepr_MaterialPropertyRepresentation.hxx>
 #include <StepRepr_SequenceNodeOfSequenceOfMaterialPropertyRepresentation.hxx>
  

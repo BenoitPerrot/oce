@@ -6,14 +6,14 @@
 #ifndef _ShapeConstruct_MakeTriangulation_HeaderFile
 #define _ShapeConstruct_MakeTriangulation_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <TopoDS_Wire.hxx>
 #include <BRepBuilderAPI_MakeShape.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class TColgp_Array1OfPnt;
 class TopoDS_Wire;
 

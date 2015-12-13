@@ -6,7 +6,7 @@
 #ifndef _Message_Gravity_HeaderFile
 #define _Message_Gravity_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Defines gravity level of messages
 //! - Trace: low-level details on algorithm execution (usually for debug purposes)

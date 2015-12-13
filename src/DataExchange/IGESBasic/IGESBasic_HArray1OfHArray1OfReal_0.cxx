@@ -5,7 +5,7 @@
 
 #include <IGESBasic_HArray1OfHArray1OfReal.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TColStd_HArray1OfReal.hxx>
 

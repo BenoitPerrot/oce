@@ -14,8 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_ConstructionError.hxx>
-#include <Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
 #include <gp_Elips.hxx>
 #include <gp_Ax2.hxx>
 #include <gp_Ax1.hxx>
@@ -24,7 +24,7 @@
 #include <gp_Trsf.hxx>
 #include <Geom_Geometry.hxx>
 #include <Geom_Ellipse.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Geom_Ellipse)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Geom_Conic),
@@ -38,8 +38,8 @@ IMPLEMENT_DOWNCAST(Geom_Ellipse,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Geom_Ellipse)
 #include <gp_XYZ.hxx>
 #include <ElCLib.hxx>
-#include <Standard_ConstructionError.hxx>
-#include <Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
 
 typedef Geom_Ellipse         Ellipse;
 typedef Handle(Geom_Ellipse) Handle(Ellipse);

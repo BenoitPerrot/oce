@@ -14,7 +14,7 @@
 
 // Lpa, le 7/02/92
 
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <cstring>
 
 #ifdef __BORLANDC__

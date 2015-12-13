@@ -6,8 +6,8 @@
 #ifndef _MoniTool_SequenceNodeOfSequenceOfElement_HeaderFile
 #define _MoniTool_SequenceNodeOfSequenceOfElement_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_MoniTool_SequenceNodeOfSequenceOfElement.hxx>
 
 #include <Handle_MoniTool_Element.hxx>

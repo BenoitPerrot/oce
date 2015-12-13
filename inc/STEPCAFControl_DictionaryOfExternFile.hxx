@@ -6,19 +6,19 @@
 #ifndef _STEPCAFControl_DictionaryOfExternFile_HeaderFile
 #define _STEPCAFControl_DictionaryOfExternFile_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_STEPCAFControl_DictionaryOfExternFile.hxx>
 
-#include <Standard_Character.hxx>
+#include <Foundation/Standard/Standard_Character.hxx>
 #include <Handle_STEPCAFControl_DictionaryOfExternFile.hxx>
 #include <Handle_STEPCAFControl_ExternFile.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_STEPCAFControl_StackItemOfDictionaryOfExternFile.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_CString.hxx>
-#include <Standard_Size.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
+#include <Foundation/Standard/Standard_Size.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class STEPCAFControl_ExternFile;
 class Standard_NoSuchObject;
 class STEPCAFControl_IteratorOfDictionaryOfExternFile;

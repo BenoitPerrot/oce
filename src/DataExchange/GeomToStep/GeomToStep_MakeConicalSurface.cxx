@@ -25,7 +25,7 @@
 #include <StepGeom_ConicalSurface.hxx>
 #include <TCollection_HAsciiString.hxx>
 
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <UnitsMethods.hxx>
 
 //=============================================================================

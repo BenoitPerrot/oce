@@ -18,7 +18,7 @@
 //  --- limit infinite points and parameters in order to make
 //  --- arithmetic operation on them safe 
 
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <gp_Pnt2d.hxx>
 #include <IntRes2d_Domain.hxx>
 #include <Precision.hxx>

@@ -6,8 +6,8 @@
 #ifndef _StepBasic_DesignContext_HeaderFile
 #define _StepBasic_DesignContext_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepBasic_DesignContext.hxx>
 
 #include <StepBasic_ProductDefinitionContext.hxx>

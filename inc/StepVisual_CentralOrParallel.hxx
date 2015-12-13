@@ -6,7 +6,7 @@
 #ifndef _StepVisual_CentralOrParallel_HeaderFile
 #define _StepVisual_CentralOrParallel_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum StepVisual_CentralOrParallel

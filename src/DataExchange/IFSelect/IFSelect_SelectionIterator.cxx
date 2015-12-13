@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <IFSelect_HSeqOfSelection.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <IFSelect_Selection.hxx>
 #include <IFSelect_TSeqOfSelection.hxx>
 #include <IFSelect_SelectionIterator.hxx>

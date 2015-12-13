@@ -6,15 +6,15 @@
 #ifndef _IGESSolid_EdgeList_HeaderFile
 #define _IGESSolid_EdgeList_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESSolid_EdgeList.hxx>
 
 #include <Handle_IGESData_HArray1OfIGESEntity.hxx>
 #include <Handle_IGESSolid_HArray1OfVertexList.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>
 #include <IGESData_IGESEntity.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_IGESData_IGESEntity.hxx>
 #include <Handle_IGESSolid_VertexList.hxx>
 class IGESData_HArray1OfIGESEntity;

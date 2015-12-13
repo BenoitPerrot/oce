@@ -6,12 +6,12 @@
 #ifndef _IGESGeom_ReadWriteModule_HeaderFile
 #define _IGESGeom_ReadWriteModule_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESGeom_ReadWriteModule.hxx>
 
 #include <IGESData_ReadWriteModule.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_IGESData_IGESEntity.hxx>
 #include <Handle_IGESData_IGESReaderData.hxx>
 class Standard_DomainError;

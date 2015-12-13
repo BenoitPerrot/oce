@@ -21,7 +21,7 @@
 #include <CDM_MessageDriver.hxx>
 #include <TCollection_ExtendedString.hxx>
 #include <CDM_Application.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(CDM_Application)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Standard_Transient),

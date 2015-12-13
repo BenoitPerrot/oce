@@ -6,11 +6,11 @@
 #ifndef _Graphic3d_VectorError_HeaderFile
 #define _Graphic3d_VectorError_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard_DefineException.hxx>
-#include <Standard_SStream.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard_DefineException.hxx>
+#include <Foundation/Standard/Standard_SStream.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Handle_Graphic3d_VectorError.hxx>
 
 #if !defined No_Exception && !defined No_Graphic3d_VectorError

@@ -18,8 +18,8 @@
 #include <Adaptor3d_HSurface.hxx>
 #include <Adaptor3d_HCurve.hxx>
 #include <TColgp_HArray1OfPnt2d.hxx>
-#include <Standard_NotImplemented.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <gp_Dir.hxx>
 #include <gp_Mat.hxx>
 #include <GeomFill_LocationLaw.hxx>
@@ -29,7 +29,7 @@
 #include <TColStd_Array1OfReal.hxx>
 #include <gp_Pnt.hxx>
 #include <GeomFill_LocationDraft.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(GeomFill_LocationDraft)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(GeomFill_LocationLaw),

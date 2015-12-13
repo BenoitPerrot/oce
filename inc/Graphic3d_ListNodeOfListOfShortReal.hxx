@@ -6,11 +6,11 @@
 #ifndef _Graphic3d_ListNodeOfListOfShortReal_HeaderFile
 #define _Graphic3d_ListNodeOfListOfShortReal_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Graphic3d_ListNodeOfListOfShortReal.hxx>
 
-#include <Standard_ShortReal.hxx>
+#include <Foundation/Standard/Standard_ShortReal.hxx>
 #include <TCollection_MapNode.hxx>
 #include <TCollection_MapNodePtr.hxx>
 class Graphic3d_ListOfShortReal;
@@ -47,7 +47,7 @@ private:
 };
 
 #define Item Standard_ShortReal
-#define Item_hxx <Standard_ShortReal.hxx>
+#define Item_hxx <Foundation/Standard/Standard_ShortReal.hxx>
 #define TCollection_ListNode Graphic3d_ListNodeOfListOfShortReal
 #define TCollection_ListNode_hxx <Graphic3d_ListNodeOfListOfShortReal.hxx>
 #define TCollection_ListIterator Graphic3d_ListIteratorOfListOfShortReal

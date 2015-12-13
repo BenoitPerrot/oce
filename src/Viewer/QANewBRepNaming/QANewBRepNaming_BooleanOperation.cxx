@@ -19,7 +19,7 @@
 #include <QANewBRepNaming_BooleanOperation.hxx>
 #include <QANewBRepNaming_Loader.hxx>
 
-#include <Standard_NullObject.hxx>
+#include <Foundation/Standard/Standard_NullObject.hxx>
 
 #include <TNaming_Builder.hxx>
 

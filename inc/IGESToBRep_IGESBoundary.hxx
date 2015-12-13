@@ -6,8 +6,8 @@
 #ifndef _IGESToBRep_IGESBoundary_HeaderFile
 #define _IGESToBRep_IGESBoundary_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESToBRep_IGESBoundary.hxx>
 
 #include <IGESToBRep_CurveAndSurface.hxx>
@@ -15,10 +15,10 @@
 #include <Handle_ShapeExtend_WireData.hxx>
 #include <TopoDS_Face.hxx>
 #include <gp_Trsf2d.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_IGESData_HArray1OfIGESEntity.hxx>
 class IGESData_IGESEntity;
 class ShapeExtend_WireData;

@@ -6,15 +6,15 @@
 #ifndef _Graphic3d_MapOfStructure_HeaderFile
 #define _Graphic3d_MapOfStructure_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TCollection_BasicMap.hxx>
 #include <Handle_Graphic3d_Structure.hxx>
 #include <Handle_Graphic3d_StdMapNodeOfMapOfStructure.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class Graphic3d_Structure;
 class TColStd_MapTransientHasher;
 class Graphic3d_StdMapNodeOfMapOfStructure;

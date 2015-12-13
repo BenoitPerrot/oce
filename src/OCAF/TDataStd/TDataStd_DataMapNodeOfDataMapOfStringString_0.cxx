@@ -5,7 +5,7 @@
 
 #include <TDataStd_DataMapNodeOfDataMapOfStringString.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TCollection_ExtendedString.hxx>
 #include <TDataStd_DataMapOfStringString.hxx>

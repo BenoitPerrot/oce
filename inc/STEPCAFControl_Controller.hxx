@@ -6,12 +6,12 @@
 #ifndef _STEPCAFControl_Controller_HeaderFile
 #define _STEPCAFControl_Controller_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_STEPCAFControl_Controller.hxx>
 
 #include <STEPControl_Controller.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 
 
 //! Extends Controller from STEPControl in order to provide

@@ -5,7 +5,7 @@
 
 #include <IntSurf_SequenceNodeOfSequenceOfCouple.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <IntSurf_Couple.hxx>
 #include <IntSurf_SequenceOfCouple.hxx>

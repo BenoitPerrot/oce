@@ -6,7 +6,7 @@
 #ifndef _BRepAlgo_CheckStatus_HeaderFile
 #define _BRepAlgo_CheckStatus_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum BRepAlgo_CheckStatus

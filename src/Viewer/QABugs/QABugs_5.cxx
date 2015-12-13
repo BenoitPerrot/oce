@@ -31,7 +31,7 @@
 #include <TopoDS_Edge.hxx>
 #include <BRepLib_MakeEdge.hxx>
 #include <BRepLib_MakeWire.hxx>
-#include <Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
 
 #include <stdio.h>
 #include <stdlib.h>

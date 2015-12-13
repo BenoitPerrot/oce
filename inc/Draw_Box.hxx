@@ -6,8 +6,8 @@
 #ifndef _Draw_Box_HeaderFile
 #define _Draw_Box_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Draw_Box.hxx>
 
 #include <gp_Pnt.hxx>

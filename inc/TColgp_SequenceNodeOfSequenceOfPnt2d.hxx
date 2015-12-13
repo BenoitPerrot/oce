@@ -6,8 +6,8 @@
 #ifndef _TColgp_SequenceNodeOfSequenceOfPnt2d_HeaderFile
 #define _TColgp_SequenceNodeOfSequenceOfPnt2d_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TColgp_SequenceNodeOfSequenceOfPnt2d.hxx>
 
 #include <gp_Pnt2d.hxx>

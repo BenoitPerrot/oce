@@ -6,23 +6,23 @@
 #ifndef _IGESData_IGESReaderTool_HeaderFile
 #define _IGESData_IGESReaderTool_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_Interface_ParamList.hxx>
 #include <Handle_IGESData_FileRecognizer.hxx>
 #include <Interface_GeneralLib.hxx>
 #include <Interface_ReaderLib.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <IGESData_IGESType.hxx>
 #include <IGESData_ReadStage.hxx>
 #include <Handle_Interface_Check.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Interface_FileReaderTool.hxx>
 #include <Handle_IGESData_IGESReaderData.hxx>
 #include <Handle_IGESData_Protocol.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Handle_Interface_InterfaceModel.hxx>
 #include <Handle_IGESData_IGESEntity.hxx>

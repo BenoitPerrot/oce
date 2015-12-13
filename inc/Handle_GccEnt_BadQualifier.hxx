@@ -6,8 +6,8 @@
 #ifndef _Handle_GccEnt_BadQualifier_HeaderFile
 #define _Handle_GccEnt_BadQualifier_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Standard_DomainError.hxx>
 
 class Standard_Transient;

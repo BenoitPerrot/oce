@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <StepVisual_PreDefinedTextFont.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepVisual_PreDefinedTextFont)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepVisual_PreDefinedItem),

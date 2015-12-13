@@ -5,8 +5,8 @@
 
 #include <LocOpe_SequenceOfCirc.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <gp_Circ.hxx>
 #include <LocOpe_SequenceNodeOfSequenceOfCirc.hxx>
  

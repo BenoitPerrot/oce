@@ -18,7 +18,7 @@
 
 #include <TCollection_HAsciiString.hxx>
 #include <IGESAppli_PinNumber.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESAppli_PinNumber)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(IGESData_IGESEntity),

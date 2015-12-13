@@ -21,14 +21,14 @@
 
 
 
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <TDF_Data.hxx>
 #include <TDF_AttributeDelta.hxx>
 #include <TDF_LabelList.hxx>
 #include <TDF_AttributeDeltaList.hxx>
 #include <TCollection_ExtendedString.hxx>
 #include <TDF_Delta.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDF_Delta)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),
@@ -44,7 +44,7 @@ IMPLEMENT_STANDARD_RTTI(TDF_Delta)
 #include <TDF_MapIteratorOfLabelMap.hxx>
 
 #ifdef OCCT_DEBUG
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #endif
 
 #undef DEB_DELTA

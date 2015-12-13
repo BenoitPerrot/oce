@@ -6,7 +6,7 @@
 #ifndef _CSLib_NormalStatus_HeaderFile
 #define _CSLib_NormalStatus_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 //! if N is the normal

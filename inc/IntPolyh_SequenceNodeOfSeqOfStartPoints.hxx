@@ -6,8 +6,8 @@
 #ifndef _IntPolyh_SequenceNodeOfSeqOfStartPoints_HeaderFile
 #define _IntPolyh_SequenceNodeOfSeqOfStartPoints_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IntPolyh_SequenceNodeOfSeqOfStartPoints.hxx>
 
 #include <IntPolyh_StartPoint.hxx>

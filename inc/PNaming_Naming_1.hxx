@@ -6,9 +6,9 @@
 #ifndef _PNaming_Naming_1_HeaderFile
 #define _PNaming_Naming_1_HeaderFile
 
-#include <Standard_Macro.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Handle_PNaming_Naming_1.hxx>
 
 #include <Handle_PNaming_Name_1.hxx>

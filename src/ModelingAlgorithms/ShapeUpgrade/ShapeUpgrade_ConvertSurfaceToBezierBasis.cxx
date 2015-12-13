@@ -18,7 +18,7 @@
 
 #include <ShapeExtend_CompositeSurface.hxx>
 #include <ShapeUpgrade_ConvertSurfaceToBezierBasis.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeUpgrade_ConvertSurfaceToBezierBasis)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(ShapeUpgrade_SplitSurface),

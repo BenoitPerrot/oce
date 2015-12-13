@@ -6,8 +6,8 @@
 #ifndef _Handle_StepVisual_CompositeTextWithExtent_HeaderFile
 #define _Handle_StepVisual_CompositeTextWithExtent_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepVisual_CompositeText.hxx>
 
 class Standard_Transient;

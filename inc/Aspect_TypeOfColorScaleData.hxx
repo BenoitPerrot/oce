@@ -6,7 +6,7 @@
 #ifndef _Aspect_TypeOfColorScaleData_HeaderFile
 #define _Aspect_TypeOfColorScaleData_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Defines the using type of colors and labels
 enum Aspect_TypeOfColorScaleData

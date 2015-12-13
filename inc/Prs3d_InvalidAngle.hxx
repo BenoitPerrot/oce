@@ -6,11 +6,11 @@
 #ifndef _Prs3d_InvalidAngle_HeaderFile
 #define _Prs3d_InvalidAngle_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard_DefineException.hxx>
-#include <Standard_SStream.hxx>
-#include <Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard_DefineException.hxx>
+#include <Foundation/Standard/Standard_SStream.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Handle_Prs3d_InvalidAngle.hxx>
 
 #if !defined No_Exception && !defined No_Prs3d_InvalidAngle

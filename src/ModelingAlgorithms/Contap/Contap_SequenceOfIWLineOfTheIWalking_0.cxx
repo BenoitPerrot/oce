@@ -5,8 +5,8 @@
 
 #include <Contap_SequenceOfIWLineOfTheIWalking.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Contap_TheIWLineOfTheIWalking.hxx>
 #include <Contap_SequenceNodeOfSequenceOfIWLineOfTheIWalking.hxx>
  

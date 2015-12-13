@@ -6,16 +6,16 @@
 #ifndef _Aspect_ColorScale_HeaderFile
 #define _Aspect_ColorScale_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Aspect_ColorScale.hxx>
 
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <TCollection_ExtendedString.hxx>
 #include <TCollection_AsciiString.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Aspect_TypeOfColorScaleData.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Aspect_SequenceOfColor.hxx>
 #include <TColStd_SequenceOfExtendedString.hxx>
 #include <Aspect_TypeOfColorScalePosition.hxx>

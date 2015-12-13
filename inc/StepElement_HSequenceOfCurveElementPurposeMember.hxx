@@ -6,15 +6,15 @@
 #ifndef _StepElement_HSequenceOfCurveElementPurposeMember_HeaderFile
 #define _StepElement_HSequenceOfCurveElementPurposeMember_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepElement_HSequenceOfCurveElementPurposeMember.hxx>
 
 #include <StepElement_SequenceOfCurveElementPurposeMember.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_StepElement_CurveElementPurposeMember.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;
 class Standard_OutOfRange;
 class StepElement_CurveElementPurposeMember;

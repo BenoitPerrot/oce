@@ -18,7 +18,7 @@
 #include <TopOpeBRepDS.hxx>
 #include <TopOpeBRepDS_Transition.hxx>
 #include <TopOpeBRepDS_ShapeShapeInterference.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TopOpeBRepDS_ShapeShapeInterference)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(TopOpeBRepDS_Interference),

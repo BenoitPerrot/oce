@@ -5,8 +5,8 @@
 
 #include <Contap_SequenceOfPathPointOfTheSearch.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Contap_ThePathPointOfTheSearch.hxx>
 #include <Contap_SequenceNodeOfSequenceOfPathPointOfTheSearch.hxx>
  

@@ -6,9 +6,9 @@
 #ifndef _GeomFill_Stretch_HeaderFile
 #define _GeomFill_Stretch_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <GeomFill_Filling.hxx>
 class TColgp_Array1OfPnt;

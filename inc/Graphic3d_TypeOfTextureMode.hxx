@@ -6,7 +6,7 @@
 #ifndef _Graphic3d_TypeOfTextureMode_HeaderFile
 #define _Graphic3d_TypeOfTextureMode_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Type of the texture projection.
 enum Graphic3d_TypeOfTextureMode

@@ -6,12 +6,12 @@
 #ifndef _XmlObjMgt_Array1_HeaderFile
 #define _XmlObjMgt_Array1_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <XmlObjMgt_Element.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <XmlObjMgt_DOMString.hxx>
 
 

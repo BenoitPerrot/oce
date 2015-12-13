@@ -5,7 +5,7 @@
 
 #include <AIS_DataMapNodeOfDataMapofIntegerListOfinteractive.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <AIS_ListOfInteractive.hxx>
 #include <TColStd_MapIntegerHasher.hxx>
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_DataMapNodeOfDataMapofIntegerListOfinteractive)
 
 
 #define TheKey Standard_Integer
-#define TheKey_hxx <Standard_Integer.hxx>
+#define TheKey_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheItem AIS_ListOfInteractive
 #define TheItem_hxx <AIS_ListOfInteractive.hxx>
 #define Hasher TColStd_MapIntegerHasher

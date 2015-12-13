@@ -6,8 +6,8 @@
 #ifndef _StepFEA_FeaCurveSectionGeometricRelationship_HeaderFile
 #define _StepFEA_FeaCurveSectionGeometricRelationship_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepFEA_FeaCurveSectionGeometricRelationship.hxx>
 
 #include <Handle_StepElement_CurveElementSectionDefinition.hxx>

@@ -46,10 +46,10 @@
 #include <V3d_Viewer.hxx>
 #include <BRepAdaptor_CompCurve.hxx>
 #include <GCPnts_AbscissaPoint.hxx>
-#include <Standard_ErrorHandler.hxx>
-#include <Standard_Overflow.hxx>
-#include <Standard_Underflow.hxx>
-#include <Standard_DivideByZero.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_Overflow.hxx>
+#include <Foundation/Standard/Standard_Underflow.hxx>
+#include <Foundation/Standard/Standard_DivideByZero.hxx>
 #include <Foundation/OSD/OSD_SIGSEGV.hxx>
 #include <Foundation/OSD/OSD_Exception_ACCESS_VIOLATION.hxx>
 #include <Foundation/OSD/OSD_Exception_STACK_OVERFLOW.hxx>
@@ -58,7 +58,7 @@
 #include <STEPControl_StepModelType.hxx>
 #include <Interface_Static.hxx>
 #include <IFSelect_ReturnStatus.hxx>
-#include <Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
 #include <TColgp_HArray1OfPnt2d.hxx>
 #include <Geom2dAPI_Interpolate.hxx>
 #include <Geom2d_BSplineCurve.hxx>
@@ -1564,7 +1564,7 @@ static Standard_Integer OCC578 (Draw_Interpretor& di, Standard_Integer argc, con
   return 0;
 }
 
-#include <Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
 //=======================================================================
 //function :  OCC669
 //purpose  :

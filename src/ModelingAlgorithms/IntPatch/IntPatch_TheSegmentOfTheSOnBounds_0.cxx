@@ -6,7 +6,7 @@
 #include <IntPatch_TheSegmentOfTheSOnBounds.hxx>
 
 #include <Adaptor2d_HCurve2d.hxx>
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Adaptor3d_HVertex.hxx>
 #include <IntPatch_ThePathPointOfTheSOnBounds.hxx>
  

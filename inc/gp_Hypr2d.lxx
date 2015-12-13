@@ -15,8 +15,8 @@
 // LPA et JCV 07/92 mise a jour des methodes inline pour passage sur C1
 
 #include <gp.hxx>
-#include <Standard_DomainError.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 
 inline gp_Hypr2d::gp_Hypr2d () :
 majorRadius(RealLast()),

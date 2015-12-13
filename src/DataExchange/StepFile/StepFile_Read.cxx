@@ -41,8 +41,8 @@ extern "C" void recfile_modeprint (int mode);  // controle trace recfile
 #include <StepData_StepReaderTool.hxx>
 #include <StepFile_Read.hxx>
 
-#include <Standard_ErrorHandler.hxx>
-#include <Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
 #include <Interface_InterfaceError.hxx>
 
 #include <Foundation/Message/Message_Messenger.hxx>

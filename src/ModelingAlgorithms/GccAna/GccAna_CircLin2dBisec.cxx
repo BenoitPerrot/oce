@@ -18,7 +18,7 @@
 //   CREATION of the BISSECTICE between a CIRCLE and a STRAIGHT LINE.             +
 //=========================================================================
 
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <StdFail_NotDone.hxx>
 #include <gp_Circ2d.hxx>
 #include <gp_Lin2d.hxx>
@@ -30,7 +30,7 @@
 #include <gp_Ax2d.hxx>
 #include <GccInt_BParab.hxx>
 #include <GccInt_BLine.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <StdFail_NotDone.hxx>
 #include <gp.hxx>
 

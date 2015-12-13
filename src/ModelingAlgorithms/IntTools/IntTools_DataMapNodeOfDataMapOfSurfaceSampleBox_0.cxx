@@ -5,7 +5,7 @@
 
 #include <IntTools_DataMapNodeOfDataMapOfSurfaceSampleBox.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <IntTools_SurfaceRangeSample.hxx>
 #include <Bnd_Box.hxx>

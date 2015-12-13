@@ -33,7 +33,7 @@
 #include <TopOpeBRepDS_DataStructure.hxx>
 #include <TopOpeBRep_FacesFiller.hxx>
 
-#include <Standard_ProgramError.hxx>
+#include <Foundation/Standard/Standard_ProgramError.hxx>
 //#include <BRepAdaptor_Curve2d.hxx>
 #include <TopOpeBRep_FFTransitionTool.hxx>
 #include <TopOpeBRep.hxx>

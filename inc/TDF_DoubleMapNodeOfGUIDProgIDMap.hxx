@@ -6,11 +6,11 @@
 #ifndef _TDF_DoubleMapNodeOfGUIDProgIDMap_HeaderFile
 #define _TDF_DoubleMapNodeOfGUIDProgIDMap_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TDF_DoubleMapNodeOfGUIDProgIDMap.hxx>
 
-#include <Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
 #include <TCollection_ExtendedString.hxx>
 #include <TCollection_MapNodePtr.hxx>
 #include <TCollection_MapNode.hxx>
@@ -56,11 +56,11 @@ private:
 };
 
 #define TheKey1 Standard_GUID
-#define TheKey1_hxx <Standard_GUID.hxx>
+#define TheKey1_hxx <Foundation/Standard/Standard_GUID.hxx>
 #define TheKey2 TCollection_ExtendedString
 #define TheKey2_hxx <TCollection_ExtendedString.hxx>
 #define Hasher1 Standard_GUID
-#define Hasher1_hxx <Standard_GUID.hxx>
+#define Hasher1_hxx <Foundation/Standard/Standard_GUID.hxx>
 #define Hasher2 TCollection_ExtendedString
 #define Hasher2_hxx <TCollection_ExtendedString.hxx>
 #define TCollection_DoubleMapNode TDF_DoubleMapNodeOfGUIDProgIDMap

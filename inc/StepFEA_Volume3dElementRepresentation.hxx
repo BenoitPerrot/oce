@@ -6,8 +6,8 @@
 #ifndef _StepFEA_Volume3dElementRepresentation_HeaderFile
 #define _StepFEA_Volume3dElementRepresentation_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepFEA_Volume3dElementRepresentation.hxx>
 
 #include <Handle_StepFEA_FeaModel3d.hxx>

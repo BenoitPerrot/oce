@@ -20,7 +20,7 @@
 #include <TopTools_ListOfShape.hxx>
 #include <TopOpeBRepDS_DataMapOfCheckStatus.hxx>
 #include <TopOpeBRepDS_Check.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TopOpeBRepDS_Check)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

@@ -6,12 +6,12 @@
 #ifndef _BRepClass_Intersector_HeaderFile
 #define _BRepClass_Intersector_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Geom2dInt_IntConicCurveOfGInter.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class gp_Lin2d;
 class BRepClass_Edge;
 class gp_Dir2d;

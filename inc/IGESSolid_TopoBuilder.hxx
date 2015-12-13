@@ -6,13 +6,13 @@
 #ifndef _IGESSolid_TopoBuilder_HeaderFile
 #define _IGESSolid_TopoBuilder_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_IGESSolid_ManifoldSolid.hxx>
 #include <Handle_IGESSolid_Shell.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TColStd_HSequenceOfTransient.hxx>
 #include <Handle_TColStd_HSequenceOfInteger.hxx>
 #include <Handle_IGESSolid_Face.hxx>

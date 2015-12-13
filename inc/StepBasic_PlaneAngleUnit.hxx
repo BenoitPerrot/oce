@@ -6,8 +6,8 @@
 #ifndef _StepBasic_PlaneAngleUnit_HeaderFile
 #define _StepBasic_PlaneAngleUnit_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepBasic_PlaneAngleUnit.hxx>
 
 #include <StepBasic_NamedUnit.hxx>

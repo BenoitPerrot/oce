@@ -5,9 +5,9 @@
 
 #include <TDF_DoubleMapNodeOfGUIDProgIDMap.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
-#include <Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
 #include <TCollection_ExtendedString.hxx>
 #include <TDF_GUIDProgIDMap.hxx>
 #include <TDF_DoubleMapIteratorOfGUIDProgIDMap.hxx>
@@ -30,11 +30,11 @@ IMPLEMENT_STANDARD_RTTI(TDF_DoubleMapNodeOfGUIDProgIDMap)
 
 
 #define TheKey1 Standard_GUID
-#define TheKey1_hxx <Standard_GUID.hxx>
+#define TheKey1_hxx <Foundation/Standard/Standard_GUID.hxx>
 #define TheKey2 TCollection_ExtendedString
 #define TheKey2_hxx <TCollection_ExtendedString.hxx>
 #define Hasher1 Standard_GUID
-#define Hasher1_hxx <Standard_GUID.hxx>
+#define Hasher1_hxx <Foundation/Standard/Standard_GUID.hxx>
 #define Hasher2 TCollection_ExtendedString
 #define Hasher2_hxx <TCollection_ExtendedString.hxx>
 #define TCollection_DoubleMapNode TDF_DoubleMapNodeOfGUIDProgIDMap

@@ -21,7 +21,7 @@
 #include <Transfer_FinderProcess.hxx>
 #include <IGESData_IGESEntity.hxx>
 #include <TopoDS_Shape.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <BRepToIGES_BREntity.hxx>
 
 #include <BRepToIGES_BRWire.hxx>

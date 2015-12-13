@@ -18,7 +18,7 @@
 #include <BRepPrimAPI_MakePrism.hxx>
 #include <TopoDS_Shape.hxx>
 #include <DNaming_PrismDriver.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DNaming_PrismDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(TFunction_Driver),
@@ -53,8 +53,8 @@ IMPLEMENT_STANDARD_RTTI(DNaming_PrismDriver)
 #include <BRepCheck_Analyzer.hxx>
 #include <TopLoc_Location.hxx>
 #include <TopoDS_Solid.hxx>
-#include <Standard_GUID.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <BRepLib_MakeFace.hxx>
 #include <TopTools_DataMapOfShapeShape.hxx>
 

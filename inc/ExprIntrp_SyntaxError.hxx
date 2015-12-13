@@ -6,11 +6,11 @@
 #ifndef _ExprIntrp_SyntaxError_HeaderFile
 #define _ExprIntrp_SyntaxError_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard_DefineException.hxx>
-#include <Standard_SStream.hxx>
-#include <Standard_Failure.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard_DefineException.hxx>
+#include <Foundation/Standard/Standard_SStream.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
 #include <Handle_ExprIntrp_SyntaxError.hxx>
 
 #if !defined No_Exception && !defined No_ExprIntrp_SyntaxError

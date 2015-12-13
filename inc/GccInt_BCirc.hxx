@@ -6,8 +6,8 @@
 #ifndef _GccInt_BCirc_HeaderFile
 #define _GccInt_BCirc_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_GccInt_BCirc.hxx>
 
 #include <gp_Circ2d.hxx>

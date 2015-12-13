@@ -5,10 +5,10 @@
 
 #include <GeomFill_HSequenceOfAx2.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <gp_Ax2.hxx>
 #include <GeomFill_SequenceOfAx2.hxx>
 

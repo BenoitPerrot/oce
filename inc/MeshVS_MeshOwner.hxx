@@ -6,19 +6,19 @@
 #ifndef _MeshVS_MeshOwner_HeaderFile
 #define _MeshVS_MeshOwner_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_MeshVS_MeshOwner.hxx>
 
 #include <Handle_MeshVS_DataSource.hxx>
 #include <Handle_TColStd_HPackedMapOfInteger.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <SelectMgr_EntityOwner.hxx>
 #include <SelectMgr_SOPtr.hxx>
 #include <PrsMgr_PresentationManager3d.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Handle_PrsMgr_PresentationManager.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class MeshVS_DataSource;
 class TColStd_HPackedMapOfInteger;
 class PrsMgr_PresentationManager;

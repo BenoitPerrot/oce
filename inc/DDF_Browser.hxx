@@ -6,17 +6,17 @@
 #ifndef _DDF_Browser_HeaderFile
 #define _DDF_Browser_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_DDF_Browser.hxx>
 
 #include <Handle_TDF_Data.hxx>
 #include <TDF_AttributeIndexedMap.hxx>
 #include <Draw_Drawable3D.hxx>
 #include <Handle_Draw_Drawable3D.hxx>
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 #include <Draw_Interpretor.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class TDF_Data;
 class Draw_Display;
 class Draw_Drawable3D;

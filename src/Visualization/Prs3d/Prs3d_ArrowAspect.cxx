@@ -18,7 +18,7 @@
 #include <Prs3d_InvalidAngle.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Prs3d_ArrowAspect.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Prs3d_ArrowAspect)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Prs3d_BasicAspect),

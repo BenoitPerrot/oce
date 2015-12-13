@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Dico/Dico_DictionaryOfInteger.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Interface_TypedValue.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <TCollection_AsciiString.hxx>
@@ -20,10 +20,10 @@
 #include <TCollection_HAsciiString.hxx>
 #include <IFSelect_ListEditor.hxx>
 #include <TColStd_HSequenceOfHAsciiString.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <Interface_InterfaceModel.hxx>
 #include <IFSelect_Editor.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IFSelect_Editor)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

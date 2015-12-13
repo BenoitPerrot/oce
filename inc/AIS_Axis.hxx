@@ -6,22 +6,22 @@
 #ifndef _AIS_Axis_HeaderFile
 #define _AIS_Axis_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_AIS_Axis.hxx>
 
 #include <Handle_Geom_Line.hxx>
 #include <Handle_Geom_Axis2Placement.hxx>
 #include <gp_Pnt.hxx>
 #include <AIS_TypeOfAxis.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <gp_Dir.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_Prs3d_LineAspect.hxx>
 #include <AIS_InteractiveObject.hxx>
 #include <Handle_Geom_Axis1Placement.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <PrsMgr_PresentationManager3d.hxx>
 #include <Handle_Prs3d_Presentation.hxx>
 #include <Handle_Prs3d_Projector.hxx>

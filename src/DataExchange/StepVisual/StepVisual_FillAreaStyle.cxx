@@ -15,7 +15,7 @@
 #include <StepVisual_HArray1OfFillStyleSelect.hxx>
 #include <StepVisual_FillStyleSelect.hxx>
 #include <StepVisual_FillAreaStyle.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepVisual_FillAreaStyle)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

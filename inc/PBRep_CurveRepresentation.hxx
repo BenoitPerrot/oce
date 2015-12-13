@@ -6,15 +6,15 @@
 #ifndef _PBRep_CurveRepresentation_HeaderFile
 #define _PBRep_CurveRepresentation_HeaderFile
 
-#include <Standard_Macro.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Handle_PBRep_CurveRepresentation.hxx>
 
 #include <PTopLoc_Location.hxx>
 #include <Handle_PBRep_CurveRepresentation.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Persistent.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Persistent.hxx>
 class PTopLoc_Location;
 
 

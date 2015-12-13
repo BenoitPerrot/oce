@@ -5,13 +5,13 @@
 
 #include <PColStd_VArrayTNodeOfFieldOfHArray2OfPersistent.hxx>
 
-#include <Standard_Persistent.hxx>
+#include <Foundation/Standard/Standard_Persistent.hxx>
 #include <PColStd_FieldOfHArray2OfPersistent.hxx>
 #include <PColStd_VArrayNodeOfFieldOfHArray2OfPersistent.hxx>
  
 
 #define Item Handle(Standard_Persistent)
-#define Item_hxx <Standard_Persistent.hxx>
+#define Item_hxx <Foundation/Standard/Standard_Persistent.hxx>
 #define DBC_VArrayNode PColStd_VArrayNodeOfFieldOfHArray2OfPersistent
 #define DBC_VArrayNode_hxx <PColStd_VArrayNodeOfFieldOfHArray2OfPersistent.hxx>
 #define DBC_VArrayTNode PColStd_VArrayTNodeOfFieldOfHArray2OfPersistent

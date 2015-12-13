@@ -6,7 +6,7 @@
 #ifndef _Visual3d_TypeOfModel_HeaderFile
 #define _Visual3d_TypeOfModel_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Definition of the rendering (colour shading) model
 //! Visual3d_TOM_NONE     No lighting, only white ambient light

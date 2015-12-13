@@ -5,7 +5,7 @@
 
 #include <HLRBRep_ThePolygon2dOfTheIntPCurvePCurveOfCInter.hxx>
 
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <HLRBRep_CurveTool.hxx>
 #include <IntRes2d_Domain.hxx>
 #include <Bnd_Box2d.hxx>
@@ -13,7 +13,7 @@
  
 
 #define TheCurve Standard_Address
-#define TheCurve_hxx <Standard_Address.hxx>
+#define TheCurve_hxx <Foundation/Standard/Standard_Address.hxx>
 #define TheCurveTool HLRBRep_CurveTool
 #define TheCurveTool_hxx <HLRBRep_CurveTool.hxx>
 #define IntCurve_Polygon2dGen HLRBRep_ThePolygon2dOfTheIntPCurvePCurveOfCInter

@@ -5,8 +5,8 @@
 
 #include <TDF_AttributeIndexedMap.hxx>
 
-#include <Standard_DomainError.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <TDF_Attribute.hxx>
 #include <TColStd_MapTransientHasher.hxx>
 #include <TDF_IndexedMapNodeOfAttributeIndexedMap.hxx>

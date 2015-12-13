@@ -6,8 +6,8 @@
 #ifndef _Adaptor3d_HOffsetCurve_HeaderFile
 #define _Adaptor3d_HOffsetCurve_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Adaptor3d_HOffsetCurve.hxx>
 
 #include <Adaptor3d_OffsetCurve.hxx>

@@ -6,13 +6,13 @@
 #ifndef _ShapeProcess_UOperator_HeaderFile
 #define _ShapeProcess_UOperator_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ShapeProcess_UOperator.hxx>
 
 #include <ShapeProcess_OperFunc.hxx>
 #include <ShapeProcess_Operator.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_ShapeProcess_Context.hxx>
 class ShapeProcess_Context;
 

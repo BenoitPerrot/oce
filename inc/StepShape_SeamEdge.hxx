@@ -6,15 +6,15 @@
 #ifndef _StepShape_SeamEdge_HeaderFile
 #define _StepShape_SeamEdge_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepShape_SeamEdge.hxx>
 
 #include <Handle_StepGeom_Pcurve.hxx>
 #include <StepShape_OrientedEdge.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Handle_StepShape_Edge.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class StepGeom_Pcurve;
 class TCollection_HAsciiString;
 class StepShape_Edge;

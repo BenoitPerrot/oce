@@ -16,9 +16,9 @@
 #ifndef _Graphic3d_ClipPlane_HeaderFile
 #define _Graphic3d_ClipPlane_HeaderFile
 
-#include <Standard_Macro.hxx>
-#include <Standard_TypeDef.hxx>
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_TypeDef.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/NCollection/NCollection_Vec4.hxx>
 #include <Graphic3d_MaterialAspect.hxx>
 #include <Graphic3d_TextureMap.hxx>

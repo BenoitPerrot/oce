@@ -18,7 +18,7 @@
 #include <BRepAlgoAPI_BooleanOperation.hxx>
 #include <TFunction_Function.hxx>
 #include <DNaming_BooleanOperationDriver.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DNaming_BooleanOperationDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(TFunction_Driver),
@@ -39,8 +39,8 @@ IMPLEMENT_STANDARD_RTTI(DNaming_BooleanOperationDriver)
 #include <TopoDS.hxx>
 #include <TopoDS_Solid.hxx>
 #include <TopoDS_Vertex.hxx>
-#include <Standard_GUID.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <TDF_Label.hxx>
 #include <ModelDefinitions.hxx>
 

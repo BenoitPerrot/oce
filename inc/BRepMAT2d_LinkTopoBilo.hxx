@@ -6,15 +6,15 @@
 #ifndef _BRepMAT2d_LinkTopoBilo_HeaderFile
 #define _BRepMAT2d_LinkTopoBilo_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <BRepMAT2d_DataMapOfShapeSequenceOfBasicElt.hxx>
 #include <BRepMAT2d_DataMapOfBasicEltShape.hxx>
 #include <TopoDS_Shape.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_MAT_BasicElt.hxx>
 class Standard_ConstructionError;
 class BRepMAT2d_Explorer;

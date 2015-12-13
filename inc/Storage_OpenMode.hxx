@@ -6,7 +6,7 @@
 #ifndef _Storage_OpenMode_HeaderFile
 #define _Storage_OpenMode_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 //! Specifies opening modes for a file:

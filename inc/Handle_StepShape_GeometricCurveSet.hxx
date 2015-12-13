@@ -6,8 +6,8 @@
 #ifndef _Handle_StepShape_GeometricCurveSet_HeaderFile
 #define _Handle_StepShape_GeometricCurveSet_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepShape_GeometricSet.hxx>
 
 class Standard_Transient;

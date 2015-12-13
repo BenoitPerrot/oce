@@ -5,7 +5,7 @@
 #ifndef _Standard_StdAllocator_HeaderFile
 #define _Standard_StdAllocator_HeaderFile
 
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard.hxx>
 
 //! Implements allocator requirements as defined in ISO C++ Standard 2003, section 20.1.5.
 /*! The allocator uses Open CASCADE Technology memory management API (

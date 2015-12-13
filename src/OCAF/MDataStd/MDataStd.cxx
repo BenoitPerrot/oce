@@ -93,7 +93,7 @@
 
 // enums
 #include <TDataStd_RealEnum.hxx>
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 
 //=======================================================================
 //function : AddStorageDriver

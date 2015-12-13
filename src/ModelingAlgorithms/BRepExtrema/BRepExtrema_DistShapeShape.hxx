@@ -23,8 +23,8 @@
 #include <gp_Pnt.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>
-#include <Standard_OStream.hxx>
-#include <Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
 
 class TopoDS_Shape;
 class TopTools_IndexedMapOfShape;

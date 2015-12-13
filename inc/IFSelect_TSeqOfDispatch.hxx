@@ -6,14 +6,14 @@
 #ifndef _IFSelect_TSeqOfDispatch_HeaderFile
 #define _IFSelect_TSeqOfDispatch_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TCollection_BaseSequence.hxx>
 #include <Handle_IFSelect_Dispatch.hxx>
 #include <Handle_IFSelect_SequenceNodeOfTSeqOfDispatch.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;
 class Standard_OutOfRange;
 class IFSelect_Dispatch;

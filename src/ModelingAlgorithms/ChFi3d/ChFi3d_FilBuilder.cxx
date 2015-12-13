@@ -77,8 +77,8 @@
 #include <GeomAdaptor_HCurve.hxx>
 #include <Geom_Curve.hxx>
 
-#include <Standard_ConstructionError.hxx>
-#include <Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
 #ifdef OCCT_DEBUG
 extern Standard_Boolean ChFi3d_GettraceCHRON();
 extern Standard_Real  t_computedata ,t_completedata; 

@@ -5,8 +5,8 @@
 
 #include <Geom2dHatch_MapOfElements.hxx>
 
-#include <Standard_DomainError.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Geom2dHatch_Element.hxx>
 #include <TColStd_MapIntegerHasher.hxx>
 #include <Geom2dHatch_DataMapNodeOfMapOfElements.hxx>
@@ -14,7 +14,7 @@
  
 
 #define TheKey Standard_Integer
-#define TheKey_hxx <Standard_Integer.hxx>
+#define TheKey_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheItem Geom2dHatch_Element
 #define TheItem_hxx <Geom2dHatch_Element.hxx>
 #define Hasher TColStd_MapIntegerHasher

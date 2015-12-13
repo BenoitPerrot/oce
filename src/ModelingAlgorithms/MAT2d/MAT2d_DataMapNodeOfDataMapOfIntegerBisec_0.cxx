@@ -5,7 +5,7 @@
 
 #include <MAT2d_DataMapNodeOfDataMapOfIntegerBisec.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Bisector_Bisec.hxx>
 #include <TColStd_MapIntegerHasher.hxx>
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(MAT2d_DataMapNodeOfDataMapOfIntegerBisec)
 
 
 #define TheKey Standard_Integer
-#define TheKey_hxx <Standard_Integer.hxx>
+#define TheKey_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheItem Bisector_Bisec
 #define TheItem_hxx <Bisector_Bisec.hxx>
 #define Hasher TColStd_MapIntegerHasher

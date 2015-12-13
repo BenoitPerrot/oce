@@ -5,7 +5,7 @@
 
 #include <StepFEA_SequenceNodeOfSequenceOfCurve3dElementProperty.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <StepFEA_Curve3dElementProperty.hxx>
 #include <StepFEA_SequenceOfCurve3dElementProperty.hxx>

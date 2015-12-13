@@ -6,14 +6,14 @@
 #ifndef _TColStd_Array1OfReal_HeaderFile
 #define _TColStd_Array1OfReal_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Integer.hxx>
-#include <Standard_Address.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class Standard_RangeError;
 class Standard_DimensionMismatch;
 class Standard_OutOfRange;
@@ -92,7 +92,7 @@ private:
 };
 
 #define Array1Item Standard_Real
-#define Array1Item_hxx <Standard_Real.hxx>
+#define Array1Item_hxx <Foundation/Standard/Standard_Real.hxx>
 #define TCollection_Array1 TColStd_Array1OfReal
 #define TCollection_Array1_hxx <TColStd_Array1OfReal.hxx>
 

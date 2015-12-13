@@ -6,8 +6,8 @@
 #ifndef _Transfer_TransientProcess_HeaderFile
 #define _Transfer_TransientProcess_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Transfer_TransientProcess.hxx>
 
 #include <Handle_Interface_InterfaceModel.hxx>
@@ -15,9 +15,9 @@
 #include <Handle_Dico_DictionaryOfTransient.hxx>
 #include <Handle_TColStd_HSequenceOfTransient.hxx>
 #include <Transfer_ProcessForTransient.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Handle_Standard_Type.hxx>
 #include <Handle_Message_Messenger.hxx>

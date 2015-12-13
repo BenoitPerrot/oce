@@ -5,7 +5,7 @@
 
 #include <MAT2d_DataMapNodeOfDataMapOfIntegerPnt2d.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <gp_Pnt2d.hxx>
 #include <TColStd_MapIntegerHasher.hxx>
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(MAT2d_DataMapNodeOfDataMapOfIntegerPnt2d)
 
 
 #define TheKey Standard_Integer
-#define TheKey_hxx <Standard_Integer.hxx>
+#define TheKey_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheItem gp_Pnt2d
 #define TheItem_hxx <gp_Pnt2d.hxx>
 #define Hasher TColStd_MapIntegerHasher

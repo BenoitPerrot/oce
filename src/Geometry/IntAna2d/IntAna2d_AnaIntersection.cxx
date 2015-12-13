@@ -13,7 +13,7 @@
 // commercial license or contractual agreement.
 
 #include <StdFail_NotDone.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <gp_Lin2d.hxx>
 #include <gp_Circ2d.hxx>
 #include <IntAna2d_Conic.hxx>
@@ -23,7 +23,7 @@
 #include <IntAna2d_IntPoint.hxx>
 #include <IntAna2d_AnaIntersection.hxx>
 
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <StdFail_NotDone.hxx>
 
 IntAna2d_AnaIntersection::IntAna2d_AnaIntersection () {

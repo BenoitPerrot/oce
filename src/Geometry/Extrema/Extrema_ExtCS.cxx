@@ -17,8 +17,8 @@
 //  Modified by skv - Thu Jul  7 12:29:34 2005 OCC9134
 
 #include <StdFail_NotDone.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_TypeMismatch.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_TypeMismatch.hxx>
 #include <Adaptor3d_Curve.hxx>
 #include <Adaptor3d_Surface.hxx>
 #include <Extrema_POnCurv.hxx>
@@ -27,7 +27,7 @@
 #include <Extrema_ExtCS.hxx>
 #include <Extrema_GenExtCS.hxx>
 #include <StdFail_NotDone.hxx>
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <StdFail_InfiniteSolutions.hxx>
 #include <Precision.hxx>
 #include <GeomAbs_CurveType.hxx>

@@ -6,14 +6,14 @@
 #ifndef _Aspect_HeaderFile
 #define _Aspect_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 #include <Aspect_FormatOfSheetPaper.hxx>
 #include <Foundation/Quantity/Quantity_Length.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class TCollection_ExtendedString;
 class TColStd_Array2OfReal;
 class Aspect_AspectLine;

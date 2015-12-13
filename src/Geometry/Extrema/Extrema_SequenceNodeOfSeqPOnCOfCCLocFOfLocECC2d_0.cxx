@@ -5,7 +5,7 @@
 
 #include <Extrema_SequenceNodeOfSeqPOnCOfCCLocFOfLocECC2d.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Extrema_POnCurv2d.hxx>
 #include <Extrema_SeqPOnCOfCCLocFOfLocECC2d.hxx>

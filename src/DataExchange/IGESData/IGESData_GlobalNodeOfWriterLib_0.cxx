@@ -5,7 +5,7 @@
 
 #include <IGESData_GlobalNodeOfWriterLib.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <IGESData_ReadWriteModule.hxx>
 #include <IGESData_Protocol.hxx>

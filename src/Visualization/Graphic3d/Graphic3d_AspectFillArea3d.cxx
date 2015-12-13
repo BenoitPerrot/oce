@@ -29,7 +29,7 @@
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Graphic3d_MaterialAspect.hxx>
 #include <Graphic3d_AspectFillArea3d.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Graphic3d_AspectFillArea3d)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Aspect_AspectFillArea),
@@ -41,7 +41,7 @@ IMPLEMENT_DOWNCAST(Graphic3d_AspectFillArea3d,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Graphic3d_AspectFillArea3d)
 
 #include <Aspect_PolygonOffsetMode.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 
 Graphic3d_AspectFillArea3d::Graphic3d_AspectFillArea3d ():
 DistinguishModeActive (Standard_False), EdgeModeActive (Standard_False), BackFaceRemovalActive (Standard_False),  MyTextureMapState(Standard_False), MyFrontMaterial (), MyBackMaterial ()

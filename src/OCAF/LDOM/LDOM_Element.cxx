@@ -17,7 +17,7 @@
 #include <LDOM_BasicElement.hxx>
 #include <LDOM_BasicAttribute.hxx>
 
-#include <Standard_ProgramError.hxx>
+#include <Foundation/Standard/Standard_ProgramError.hxx>
 
 #include <stdio.h>
 

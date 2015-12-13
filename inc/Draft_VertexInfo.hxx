@@ -6,16 +6,16 @@
 #ifndef _Draft_VertexInfo_HeaderFile
 #define _Draft_VertexInfo_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <gp_Pnt.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <TColStd_ListOfReal.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_DomainError;
 class Standard_NoMoreObject;
 class TopoDS_Edge;

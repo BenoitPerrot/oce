@@ -6,12 +6,12 @@
 #ifndef _Draw_Drawable2D_HeaderFile
 #define _Draw_Drawable2D_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Draw_Drawable2D.hxx>
 
 #include <Draw_Drawable3D.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 
 
 

@@ -5,7 +5,7 @@
 
 #include <BRepOffset_ListNodeOfListOfInterval.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <BRepOffset_Interval.hxx>
 #include <BRepOffset_ListOfInterval.hxx>

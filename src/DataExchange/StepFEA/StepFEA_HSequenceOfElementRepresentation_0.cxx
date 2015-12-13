@@ -5,10 +5,10 @@
 
 #include <StepFEA_HSequenceOfElementRepresentation.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <StepFEA_ElementRepresentation.hxx>
 #include <StepFEA_SequenceOfElementRepresentation.hxx>
 

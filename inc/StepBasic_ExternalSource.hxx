@@ -6,8 +6,8 @@
 #ifndef _StepBasic_ExternalSource_HeaderFile
 #define _StepBasic_ExternalSource_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepBasic_ExternalSource.hxx>
 
 #include <StepBasic_SourceItem.hxx>

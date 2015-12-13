@@ -5,8 +5,8 @@
 
 #include <BRepFill_ListIteratorOfListOfOffsetWire.hxx>
 
-#include <Standard_NoMoreObject.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoMoreObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <BRepFill_ListOfOffsetWire.hxx>
 #include <BRepFill_OffsetWire.hxx>
 #include <BRepFill_ListNodeOfListOfOffsetWire.hxx>

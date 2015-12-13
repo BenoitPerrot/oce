@@ -6,15 +6,15 @@
 #ifndef _MDF_HeaderFile
 #define _MDF_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_TDF_Data.hxx>
 #include <Handle_PDF_Data.hxx>
 #include <Handle_MDF_ASDriverTable.hxx>
 #include <Handle_MDF_SRelocationTable.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_MDF_ARDriverTable.hxx>
 #include <Handle_MDF_RRelocationTable.hxx>
 #include <Handle_MDF_ASDriverHSequence.hxx>

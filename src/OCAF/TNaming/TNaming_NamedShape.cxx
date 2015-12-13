@@ -18,7 +18,7 @@
 #include <TNaming_Iterator.hxx>
 #include <TNaming_NewShapeIterator.hxx>
 #include <TNaming_OldShapeIterator.hxx>
-#include <Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TDF_Attribute.hxx>
 #include <TDF_DeltaOnModification.hxx>
@@ -27,7 +27,7 @@
 #include <TDF_DataSet.hxx>
 #include <TDF_AttributeDelta.hxx>
 #include <TNaming_NamedShape.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TNaming_NamedShape)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(TDF_Attribute),
@@ -39,7 +39,7 @@ IMPLEMENT_DOWNCAST(TNaming_NamedShape,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TNaming_NamedShape)
 #include <TNaming_UsedShapes.hxx>
 #include <TNaming_NamedShape.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <TDF_Label.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TNaming_Builder.hxx>
@@ -61,10 +61,10 @@ IMPLEMENT_STANDARD_RTTI(TNaming_NamedShape)
 
 #include <TNaming_DeltaOnModification.hxx>
 #include <TNaming_DeltaOnRemoval.hxx>
-#include <Standard_NoMoreObject.hxx>
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_ConstructionError.hxx>
-#include <Standard_NullObject.hxx>
+#include <Foundation/Standard/Standard_NoMoreObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_NullObject.hxx>
 
 #include <gp_Pnt.hxx>
 #include <BRepLib_MakeVertex.hxx>
@@ -72,7 +72,7 @@ IMPLEMENT_STANDARD_RTTI(TNaming_NamedShape)
 
 // Defines the nodes classes
 
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <TNaming_CopyShape.hxx>
 
 #define BUC60921   //SRN 15/05/01 : Fixes the memory leak due to pointer to RefShape is not deleted

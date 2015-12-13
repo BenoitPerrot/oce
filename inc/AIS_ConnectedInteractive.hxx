@@ -6,8 +6,8 @@
 #ifndef _AIS_ConnectedInteractive_HeaderFile
 #define _AIS_ConnectedInteractive_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_AIS_ConnectedInteractive.hxx>
 
 #include <Handle_AIS_InteractiveObject.hxx>
@@ -15,8 +15,8 @@
 #include <AIS_InteractiveObject.hxx>
 #include <PrsMgr_TypeOfPresentation3d.hxx>
 #include <AIS_KindOfInteractive.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <PrsMgr_PresentationManager3d.hxx>
 #include <Handle_Prs3d_Presentation.hxx>
 #include <Handle_Prs3d_Projector.hxx>

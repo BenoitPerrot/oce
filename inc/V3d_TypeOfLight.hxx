@@ -6,7 +6,7 @@
 #ifndef _V3d_TypeOfLight_HeaderFile
 #define _V3d_TypeOfLight_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Determines the type of light.
 enum V3d_TypeOfLight

@@ -6,7 +6,7 @@
 #ifndef _BRepLib_WireError_HeaderFile
 #define _BRepLib_WireError_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Errors that can occur at wire construction.
 //! no error

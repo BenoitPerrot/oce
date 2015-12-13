@@ -6,18 +6,18 @@
 #ifndef _TNaming_Naming_HeaderFile
 #define _TNaming_Naming_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TNaming_Naming.hxx>
 
 #include <TNaming_Name.hxx>
 #include <TDF_Attribute.hxx>
 #include <Handle_TNaming_NamedShape.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_TDF_Attribute.hxx>
 #include <Handle_TDF_RelocationTable.hxx>
 #include <Handle_TDF_DataSet.hxx>
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 class Standard_GUID;
 class TDF_Label;
 class TNaming_NamedShape;

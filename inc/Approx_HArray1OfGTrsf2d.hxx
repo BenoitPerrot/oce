@@ -6,13 +6,13 @@
 #ifndef _Approx_HArray1OfGTrsf2d_HeaderFile
 #define _Approx_HArray1OfGTrsf2d_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Approx_HArray1OfGTrsf2d.hxx>
 
 #include <Approx_Array1OfGTrsf2d.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_DimensionMismatch;
 class Standard_OutOfRange;

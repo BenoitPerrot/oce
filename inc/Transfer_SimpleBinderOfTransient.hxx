@@ -6,15 +6,15 @@
 #ifndef _Transfer_SimpleBinderOfTransient_HeaderFile
 #define _Transfer_SimpleBinderOfTransient_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Transfer_SimpleBinderOfTransient.hxx>
 
 #include <Handle_Standard_Transient.hxx>
 #include <Transfer_Binder.hxx>
 #include <Handle_Standard_Type.hxx>
-#include <Standard_CString.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Transfer_Binder.hxx>
 class Standard_Transient;
 class Transfer_TransferFailure;

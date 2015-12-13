@@ -5,7 +5,7 @@
 
 #include <IntPatch_SequenceNodeOfSequenceOfPoint.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <IntPatch_Point.hxx>
 #include <IntPatch_SequenceOfPoint.hxx>

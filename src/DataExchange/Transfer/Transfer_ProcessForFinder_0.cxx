@@ -5,7 +5,7 @@
 
 #include <Transfer_ProcessForFinder.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <Transfer_Finder.hxx>
@@ -21,8 +21,8 @@
 #include <Transfer_IteratorOfProcessForFinder.hxx>
 #include <Foundation/Message/Message_Msg.hxx>
 #include <Interface_Check.hxx>
-#include <Standard_Transient.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 #include <Interface_CheckIterator.hxx>
 
  

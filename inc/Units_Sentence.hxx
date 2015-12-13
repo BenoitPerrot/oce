@@ -6,15 +6,15 @@
 #ifndef _Units_Sentence_HeaderFile
 #define _Units_Sentence_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_Units_TokensSequence.hxx>
 #include <Handle_Units_Lexicon.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_Units_Token.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class Units_TokensSequence;
 class Units_Lexicon;
 class Units_Token;

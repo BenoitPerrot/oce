@@ -6,13 +6,13 @@
 #ifndef _PColgp_VArrayTNodeOfFieldOfHArray2OfVec2d_HeaderFile
 #define _PColgp_VArrayTNodeOfFieldOfHArray2OfVec2d_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <gp_Vec2d.hxx>
 #include <Handle_PColgp_VArrayNodeOfFieldOfHArray2OfVec2d.hxx>
-#include <Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
 class gp_Vec2d;
 class PColgp_FieldOfHArray2OfVec2d;
 class PColgp_VArrayNodeOfFieldOfHArray2OfVec2d;

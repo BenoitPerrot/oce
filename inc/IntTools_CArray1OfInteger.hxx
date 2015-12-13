@@ -6,13 +6,13 @@
 #ifndef _IntTools_CArray1OfInteger_HeaderFile
 #define _IntTools_CArray1OfInteger_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Address.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_ConstructionError;
 class Standard_OutOfRange;
 class Standard_OutOfMemory;
@@ -87,7 +87,7 @@ private:
 };
 
 #define Array1Item Standard_Integer
-#define Array1Item_hxx <Standard_Integer.hxx>
+#define Array1Item_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define IntTools_CArray1 IntTools_CArray1OfInteger
 #define IntTools_CArray1_hxx <IntTools_CArray1OfInteger.hxx>
 

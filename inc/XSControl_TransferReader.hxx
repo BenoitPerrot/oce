@@ -6,8 +6,8 @@
 #ifndef _XSControl_TransferReader_HeaderFile
 #define _XSControl_TransferReader_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_XSControl_TransferReader.hxx>
 
 #include <Handle_XSControl_Controller.hxx>
@@ -20,11 +20,11 @@
 #include <TColStd_DataMapOfIntegerTransient.hxx>
 #include <Handle_TopTools_HSequenceOfShape.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_Standard_Transient.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Standard_Type.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TColStd_HSequenceOfTransient.hxx>
 #include <Handle_Transfer_ResultFromModel.hxx>
 #include <Interface_CheckStatus.hxx>

@@ -5,8 +5,8 @@
 
 #include <Interface_IndexedMapOfAsciiString.hxx>
 
-#include <Standard_DomainError.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <Interface_MapAsciiStringHasher.hxx>
 #include <Interface_IndexedMapNodeOfIndexedMapOfAsciiString.hxx>

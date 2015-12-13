@@ -15,7 +15,7 @@
 
 #include <PColStd_HArray1OfInteger.hxx>
 #include <PDataStd_BooleanList.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PDataStd_BooleanList)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(PDF_Attribute),

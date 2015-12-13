@@ -5,8 +5,8 @@
 
 #include <BRepFill_SequenceOfEdgeFaceAndOrder.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <BRepFill_EdgeFaceAndOrder.hxx>
 #include <BRepFill_SequenceNodeOfSequenceOfEdgeFaceAndOrder.hxx>
  

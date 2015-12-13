@@ -6,13 +6,13 @@
 #ifndef _NLPlate_HPG1Constraint_HeaderFile
 #define _NLPlate_HPG1Constraint_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_NLPlate_HPG1Constraint.hxx>
 
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Plate_D1.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <NLPlate_HGPPConstraint.hxx>
 class gp_XY;
 class Plate_D1;

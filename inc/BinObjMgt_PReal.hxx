@@ -16,7 +16,7 @@
 #ifndef BinObjMgt_PReal_HeaderFile
 #define BinObjMgt_PReal_HeaderFile
 
-#include <Standard_TypeDef.hxx>
+#include <Foundation/Standard/Standard_TypeDef.hxx>
 
 typedef Standard_Real* BinObjMgt_PReal;
 

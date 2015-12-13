@@ -6,8 +6,8 @@
 #ifndef _IntTools_SequenceNodeOfSequenceOfCurves_HeaderFile
 #define _IntTools_SequenceNodeOfSequenceOfCurves_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IntTools_SequenceNodeOfSequenceOfCurves.hxx>
 
 #include <IntTools_Curve.hxx>

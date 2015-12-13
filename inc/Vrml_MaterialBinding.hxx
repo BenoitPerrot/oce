@@ -6,12 +6,12 @@
 #ifndef _Vrml_MaterialBinding_HeaderFile
 #define _Vrml_MaterialBinding_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Vrml_MaterialBindingAndNormalBinding.hxx>
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 
 
 //! defines a MaterialBinding node of VRML specifying properties of geometry

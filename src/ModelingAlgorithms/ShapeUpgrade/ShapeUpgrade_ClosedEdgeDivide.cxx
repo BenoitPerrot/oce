@@ -15,7 +15,7 @@
 
 #include <TopoDS_Edge.hxx>
 #include <ShapeUpgrade_ClosedEdgeDivide.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeUpgrade_ClosedEdgeDivide)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(ShapeUpgrade_EdgeDivide),

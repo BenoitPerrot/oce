@@ -19,7 +19,7 @@
 //#endif
 
 #include <StdFail_NotDone.hxx>
-#include <Standard_DimensionError.hxx>
+#include <Foundation/Standard/Standard_DimensionError.hxx>
 #include <math_MultipleVarFunctionWithGradient.hxx>
 #include <math_BFGS.hxx>
 

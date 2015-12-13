@@ -19,8 +19,8 @@
 #include <Foundation/Plugin/Plugin_MapOfFunctions.hxx>
 #include <Foundation/Plugin/Plugin_Failure.hxx>
 #include <Foundation/Resource/Resource_Manager.hxx>
-#include <Standard_Transient.hxx>
-#include <Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
 #include <TCollection_AsciiString.hxx>
 
 #ifdef HAVE_OCE_PATHS_H

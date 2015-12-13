@@ -5,7 +5,7 @@
 
 #include <MAT_TListNodeOfListOfBisector.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <MAT_TListNodeOfListOfBisector.hxx>
 #include <MAT_Bisector.hxx>

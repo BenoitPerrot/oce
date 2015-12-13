@@ -13,7 +13,7 @@
 
 #include <StepVisual_AreaOrView.hxx>
 #include <StepVisual_BackgroundColour.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepVisual_BackgroundColour)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepVisual_Colour),

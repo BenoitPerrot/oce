@@ -5,7 +5,7 @@
 
 #include <Contap_SequenceNodeOfSequenceOfSegmentOfTheSearch.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Contap_TheSegmentOfTheSearch.hxx>
 #include <Contap_SequenceOfSegmentOfTheSearch.hxx>

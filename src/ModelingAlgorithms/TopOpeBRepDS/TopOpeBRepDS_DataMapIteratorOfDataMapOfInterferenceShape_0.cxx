@@ -5,7 +5,7 @@
 
 #include <TopOpeBRepDS_DataMapIteratorOfDataMapOfInterferenceShape.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopOpeBRepDS_Interference.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TColStd_MapTransientHasher.hxx>

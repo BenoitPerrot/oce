@@ -6,18 +6,18 @@
 #ifndef _GeomFill_SweepFunction_HeaderFile
 #define _GeomFill_SweepFunction_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_GeomFill_SweepFunction.hxx>
 
 #include <Handle_GeomFill_LocationLaw.hxx>
 #include <Handle_GeomFill_SectionLaw.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <gp_Mat.hxx>
 #include <gp_Vec.hxx>
 #include <Approx_SweepFunction.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <GeomAbs_Shape.hxx>
 class GeomFill_LocationLaw;
 class GeomFill_SectionLaw;

@@ -6,7 +6,7 @@
 #ifndef _STEPControl_StepModelType_HeaderFile
 #define _STEPControl_StepModelType_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Gives you the choice of translation mode for an Open
 //! CASCADE shape that is being translated to STEP.

@@ -6,15 +6,15 @@
 #ifndef _TopoDSToStep_WireframeBuilder_HeaderFile
 #define _TopoDSToStep_WireframeBuilder_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_TColStd_HSequenceOfTransient.hxx>
 #include <TopoDSToStep_BuilderError.hxx>
 #include <TopoDSToStep_Root.hxx>
 #include <Handle_Transfer_FinderProcess.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class TColStd_HSequenceOfTransient;
 class StdFail_NotDone;
 class TopoDS_Shape;

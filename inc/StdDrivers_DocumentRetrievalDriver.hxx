@@ -6,8 +6,8 @@
 #ifndef _StdDrivers_DocumentRetrievalDriver_HeaderFile
 #define _StdDrivers_DocumentRetrievalDriver_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StdDrivers_DocumentRetrievalDriver.hxx>
 
 #include <MDocStd_DocumentRetrievalDriver.hxx>

@@ -21,8 +21,8 @@
 #include <TColStd_Array1OfReal.hxx>
 #include <ShapeConstruct_Curve.hxx>
 
-#include <Standard_ErrorHandler.hxx>
-#include <Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
 
 #include <gp_Vec.hxx>
 #include <gp_Dir.hxx>

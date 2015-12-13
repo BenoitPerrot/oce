@@ -6,8 +6,8 @@
 #ifndef _ViewerTest_DoubleMapNodeOfDoubleMapOfInteractiveAndName_HeaderFile
 #define _ViewerTest_DoubleMapNodeOfDoubleMapOfInteractiveAndName_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ViewerTest_DoubleMapNodeOfDoubleMapOfInteractiveAndName.hxx>
 
 #include <Handle_Standard_Transient.hxx>
@@ -57,7 +57,7 @@ private:
 };
 
 #define TheKey1 Handle(Standard_Transient)
-#define TheKey1_hxx <Standard_Transient.hxx>
+#define TheKey1_hxx <Foundation/Standard/Standard_Transient.hxx>
 #define TheKey2 TCollection_AsciiString
 #define TheKey2_hxx <TCollection_AsciiString.hxx>
 #define Hasher1 TColStd_MapTransientHasher

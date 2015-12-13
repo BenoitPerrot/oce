@@ -6,7 +6,7 @@
 #ifndef _ChFi3d_FilletShape_HeaderFile
 #define _ChFi3d_FilletShape_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 //! Lists the types of fillet shapes. These include the following:

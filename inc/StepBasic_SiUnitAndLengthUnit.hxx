@@ -6,14 +6,14 @@
 #ifndef _StepBasic_SiUnitAndLengthUnit_HeaderFile
 #define _StepBasic_SiUnitAndLengthUnit_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepBasic_SiUnitAndLengthUnit.hxx>
 
 #include <Handle_StepBasic_LengthUnit.hxx>
 #include <StepBasic_SiUnit.hxx>
 #include <Handle_StepBasic_DimensionalExponents.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <StepBasic_SiPrefix.hxx>
 #include <StepBasic_SiUnitName.hxx>
 class StepBasic_LengthUnit;

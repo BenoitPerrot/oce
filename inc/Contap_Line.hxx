@@ -6,9 +6,9 @@
 #ifndef _Contap_Line_HeaderFile
 #define _Contap_Line_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <IntSurf_TypeTrans.hxx>
 #include <Handle_IntSurf_LineOn2S.hxx>
@@ -17,8 +17,8 @@
 #include <Contap_IType.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Dir.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <gp_Lin.hxx>
 #include <gp_Circ.hxx>
 class IntSurf_LineOn2S;

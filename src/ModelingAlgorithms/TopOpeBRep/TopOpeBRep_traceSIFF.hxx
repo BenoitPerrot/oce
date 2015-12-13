@@ -20,7 +20,7 @@
 #ifdef OCCT_DEBUG
 
 #include <TopOpeBRepTool_define.hxx>
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 #include <TopoDS_Shape.hxx>
 
 class TopOpeBRep_traceSIFF {

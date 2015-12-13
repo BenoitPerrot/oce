@@ -6,8 +6,8 @@
 #ifndef _Handle_LocOpe_GluedShape_HeaderFile
 #define _Handle_LocOpe_GluedShape_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_LocOpe_GeneratedShape.hxx>
 
 class Standard_Transient;

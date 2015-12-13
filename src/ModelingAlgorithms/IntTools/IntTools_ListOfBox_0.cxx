@@ -5,7 +5,7 @@
 
 #include <IntTools_ListOfBox.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <IntTools_ListIteratorOfListOfBox.hxx>
 #include <Bnd_Box.hxx>
 #include <IntTools_ListNodeOfListOfBox.hxx>

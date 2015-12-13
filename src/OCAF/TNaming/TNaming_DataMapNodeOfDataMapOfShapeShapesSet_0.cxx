@@ -5,7 +5,7 @@
 
 #include <TNaming_DataMapNodeOfDataMapOfShapeShapesSet.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TopoDS_Shape.hxx>
 #include <TNaming_ShapesSet.hxx>

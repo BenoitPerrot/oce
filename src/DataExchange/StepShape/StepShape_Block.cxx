@@ -14,7 +14,7 @@
 #include <StepGeom_Axis2Placement3d.hxx>
 #include <TCollection_HAsciiString.hxx>
 #include <StepShape_Block.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepShape_Block)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepGeom_GeometricRepresentationItem),

@@ -6,26 +6,26 @@
 #ifndef _IGESData_IGESWriter_HeaderFile
 #define _IGESData_IGESWriter_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_IGESData_IGESModel.hxx>
 #include <Handle_TColStd_HSequenceOfHAsciiString.hxx>
-#include <Standard_Character.hxx>
+#include <Foundation/Standard/Standard_Character.hxx>
 #include <IGESData_Array1OfDirPart.hxx>
 #include <TColStd_Array1OfInteger.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <IGESData_ReadStage.hxx>
 #include <Interface_LineBuffer.hxx>
 #include <Interface_FloatWriter.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_IGESData_Protocol.hxx>
 #include <Handle_IGESData_IGESEntity.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 class IGESData_IGESModel;
 class TColStd_HSequenceOfHAsciiString;
 class Interface_InterfaceMismatch;

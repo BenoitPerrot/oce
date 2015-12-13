@@ -6,11 +6,11 @@
 #ifndef _ExprIntrp_GenExp_HeaderFile
 #define _ExprIntrp_GenExp_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ExprIntrp_GenExp.hxx>
 
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Expr_GeneralExpression.hxx>
 #include <ExprIntrp_Generator.hxx>
 class Expr_GeneralExpression;

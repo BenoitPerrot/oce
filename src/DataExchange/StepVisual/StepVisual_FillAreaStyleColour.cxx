@@ -14,7 +14,7 @@
 #include <TCollection_HAsciiString.hxx>
 #include <StepVisual_Colour.hxx>
 #include <StepVisual_FillAreaStyleColour.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepVisual_FillAreaStyleColour)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

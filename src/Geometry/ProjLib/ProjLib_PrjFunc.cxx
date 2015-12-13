@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <math_Matrix.hxx>
 #include <gp_Pnt2d.hxx>
 #include <ProjLib_PrjFunc.hxx>

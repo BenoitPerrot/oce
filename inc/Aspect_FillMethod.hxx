@@ -6,7 +6,7 @@
 #ifndef _Aspect_FillMethod_HeaderFile
 #define _Aspect_FillMethod_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Defines the fill methods to
 //! write bitmaps in a window.

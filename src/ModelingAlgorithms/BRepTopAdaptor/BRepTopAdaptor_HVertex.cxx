@@ -18,7 +18,7 @@
 #include <Adaptor2d_HCurve2d.hxx>
 #include <Adaptor3d_HVertex.hxx>
 #include <BRepTopAdaptor_HVertex.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BRepTopAdaptor_HVertex)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Adaptor3d_HVertex),

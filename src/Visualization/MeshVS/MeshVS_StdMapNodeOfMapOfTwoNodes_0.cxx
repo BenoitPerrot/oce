@@ -5,7 +5,7 @@
 
 #include <MeshVS_StdMapNodeOfMapOfTwoNodes.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <MeshVS_TwoNodesHasher.hxx>
 #include <MeshVS_MapOfTwoNodes.hxx>

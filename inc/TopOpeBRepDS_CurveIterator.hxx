@@ -6,14 +6,14 @@
 #ifndef _TopOpeBRepDS_CurveIterator_HeaderFile
 #define _TopOpeBRepDS_CurveIterator_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TopOpeBRepDS_InterferenceIterator.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_TopOpeBRepDS_Interference.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <TopAbs_Orientation.hxx>
 #include <TopAbs_State.hxx>
 #include <Handle_Geom2d_Curve.hxx>

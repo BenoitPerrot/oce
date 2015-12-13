@@ -17,7 +17,7 @@
 
 #include <StepFEA_HArray1OfDegreeOfFreedom.hxx>
 #include <StepFEA_FreedomsList.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepFEA_FreedomsList)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

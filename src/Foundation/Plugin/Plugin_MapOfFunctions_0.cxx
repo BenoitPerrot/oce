@@ -5,8 +5,8 @@
 
 #include <Foundation/Plugin/Plugin_MapOfFunctions.hxx>
 
-#include <Standard_DomainError.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <Foundation/Plugin/Plugin_DataMapNodeOfMapOfFunctions.hxx>
 #include <Foundation/Plugin/Plugin_DataMapIteratorOfMapOfFunctions.hxx>

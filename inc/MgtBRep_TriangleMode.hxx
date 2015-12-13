@@ -6,7 +6,7 @@
 #ifndef _MgtBRep_TriangleMode_HeaderFile
 #define _MgtBRep_TriangleMode_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum MgtBRep_TriangleMode

@@ -5,13 +5,13 @@
 
 #include <Transfer_TransientMapper.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
-#include <Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
 #include <TColStd_MapTransientHasher.hxx>
 #include <Transfer_DataInfo.hxx>
 #include <Transfer_Finder.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
  
 
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(Transfer_TransientMapper)
 
 
 #define TheKey Handle(Standard_Transient)
-#define TheKey_hxx <Standard_Transient.hxx>
+#define TheKey_hxx <Foundation/Standard/Standard_Transient.hxx>
 #define TheHasher TColStd_MapTransientHasher
 #define TheHasher_hxx <TColStd_MapTransientHasher.hxx>
 #define TheInfo Transfer_DataInfo

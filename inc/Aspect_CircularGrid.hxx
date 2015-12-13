@@ -6,13 +6,13 @@
 #ifndef _Aspect_CircularGrid_HeaderFile
 #define _Aspect_CircularGrid_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Aspect_CircularGrid.hxx>
 
 #include <Foundation/Quantity/Quantity_Length.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Aspect_Grid.hxx>
 #include <Foundation/Quantity/Quantity_PlaneAngle.hxx>
 class Standard_NegativeValue;

@@ -16,7 +16,7 @@
 // The original implementation Copyright: (C) RINA S.p.A
 
 #include <TObj_TXYZ.hxx>
-#include <Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
 #include <TDF_Label.hxx>
 
 IMPLEMENT_STANDARD_HANDLE(TObj_TXYZ,TDF_Attribute)

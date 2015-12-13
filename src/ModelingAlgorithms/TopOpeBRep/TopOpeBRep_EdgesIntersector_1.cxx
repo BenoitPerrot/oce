@@ -34,7 +34,7 @@
 #include <TopExp.hxx>
 #include <TopExp_Explorer.hxx>
 #include <gp_Pnt2d.hxx>
-#include <Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
 #include <TopOpeBRepTool_ShapeTool.hxx>
 #include <TopOpeBRep_define.hxx>
 

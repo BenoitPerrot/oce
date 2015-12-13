@@ -29,7 +29,7 @@
 #include <Units_Dimensions.hxx>
 #include <Units_Token.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 IMPLEMENT_STANDARD_TYPE(Units_Token)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

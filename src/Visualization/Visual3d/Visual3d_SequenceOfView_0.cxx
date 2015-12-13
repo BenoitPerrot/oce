@@ -5,8 +5,8 @@
 
 #include <Visual3d_SequenceOfView.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Visual3d_View.hxx>
 #include <Visual3d_SequenceNodeOfSequenceOfView.hxx>
  

@@ -23,7 +23,7 @@
 #include <Geom_Circle.hxx>
 #include <Geom_Plane.hxx>
 #include <gce_MakeDir.hxx>
-#include <Standard_ProgramError.hxx>
+#include <Foundation/Standard/Standard_ProgramError.hxx>
 
 IMPLEMENT_STANDARD_HANDLE (AIS_DiameterDimension, AIS_Dimension)
 IMPLEMENT_STANDARD_RTTIEXT (AIS_DiameterDimension, AIS_Dimension)

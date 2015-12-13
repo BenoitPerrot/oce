@@ -6,11 +6,11 @@
 #ifndef _Graphic3d_StructureManager_HeaderFile
 #define _Graphic3d_StructureManager_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Graphic3d_StructureManager.hxx>
 
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Aspect_TypeOfUpdate.hxx>
 #include <Handle_Graphic3d_AspectLine3d.hxx>
 #include <Handle_Graphic3d_AspectText3d.hxx>
@@ -22,7 +22,7 @@
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Graphic3d_Structure.hxx>
 #include <Graphic3d_ZLayerSettings.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Graphic3d_DataStructureManager.hxx>
 #include <Aspect_TypeOfHighlightMethod.hxx>
 class Graphic3d_AspectLine3d;

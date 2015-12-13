@@ -6,12 +6,12 @@
 #ifndef _TopOpeBRepDS_PointData_HeaderFile
 #define _TopOpeBRepDS_PointData_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TopOpeBRepDS_Point.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <TopOpeBRepDS_GeometryData.hxx>
 class TopOpeBRepDS_DataStructure;
 class TopOpeBRepDS_Point;

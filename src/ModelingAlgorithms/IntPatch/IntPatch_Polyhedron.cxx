@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Bnd_HArray1OfBox.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Adaptor3d_HSurface.hxx>
 #include <gp_Pnt.hxx>
 #include <Bnd_Box.hxx>
@@ -29,7 +29,7 @@
 #include <TColgp_Array2OfPnt.hxx>
 #include <TColStd_Array2OfReal.hxx>
 #include <Bnd_Array1OfBox.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Precision.hxx>
 #include <stdio.h>
 

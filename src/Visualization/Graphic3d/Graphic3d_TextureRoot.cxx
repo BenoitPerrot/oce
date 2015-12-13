@@ -18,7 +18,7 @@
 #include <TCollection_AsciiString.hxx>
 #include <Foundation/OSD/OSD_Path.hxx>
 #include <Graphic3d_TextureRoot.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Graphic3d_TextureRoot)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),
@@ -36,7 +36,7 @@ IMPLEMENT_STANDARD_RTTI(Graphic3d_TextureRoot)
 #include <Foundation/OSD/OSD_Path.hxx>
 #include <Foundation/OSD/OSD_Protection.hxx>
 #include <Foundation/OSD/OSD_File.hxx>
-#include <Standard_Atomic.hxx>
+#include <Foundation/Standard/Standard_Atomic.hxx>
 
 #ifdef HAVE_OCE_PATHS_H
 # include "oce-paths.h"

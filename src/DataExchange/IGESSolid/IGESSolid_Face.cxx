@@ -18,10 +18,10 @@
 
 #include <IGESData_IGESEntity.hxx>
 #include <IGESSolid_HArray1OfLoop.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <IGESSolid_Loop.hxx>
 #include <IGESSolid_Face.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESSolid_Face)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(IGESData_IGESEntity),
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESSolid_Face)
 IMPLEMENT_DOWNCAST(IGESSolid_Face,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESSolid_Face)
-#include <Standard_DimensionMismatch.hxx>
+#include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 
 
 IGESSolid_Face::IGESSolid_Face ()    {  }

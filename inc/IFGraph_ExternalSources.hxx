@@ -6,14 +6,14 @@
 #ifndef _IFGraph_ExternalSources_HeaderFile
 #define _IFGraph_ExternalSources_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Interface_Graph.hxx>
 #include <Interface_GraphContent.hxx>
 #include <Handle_Standard_Transient.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class Interface_Graph;
 class Standard_Transient;
 class Interface_EntityIterator;

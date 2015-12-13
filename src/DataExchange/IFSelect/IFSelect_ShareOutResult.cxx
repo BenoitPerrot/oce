@@ -13,7 +13,7 @@
 
 #include <IFSelect_ShareOut.hxx>
 #include <IFSelect_Dispatch.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Interface_InterfaceError.hxx>
 #include <Interface_InterfaceModel.hxx>
 #include <Interface_Graph.hxx>

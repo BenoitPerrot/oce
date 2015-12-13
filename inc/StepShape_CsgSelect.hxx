@@ -6,13 +6,13 @@
 #ifndef _StepShape_CsgSelect_HeaderFile
 #define _StepShape_CsgSelect_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_StepShape_BooleanResult.hxx>
 #include <StepShape_CsgPrimitive.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class StepShape_BooleanResult;
 class StepShape_CsgPrimitive;
 

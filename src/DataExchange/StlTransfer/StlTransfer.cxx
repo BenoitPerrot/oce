@@ -17,8 +17,8 @@
 #include <TopoDS_Shape.hxx>
 #include <StlMesh_Mesh.hxx>
 #include <StlTransfer.hxx>
-#include <Standard_ErrorHandler.hxx>
-#include <Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
 #include <TopoDS_Face.hxx>
 #include <Poly_Connect.hxx>
 #include <TColgp_Array1OfDir.hxx>

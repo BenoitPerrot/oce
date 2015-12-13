@@ -18,7 +18,7 @@
 #include <StepFEA_HArray1OfNodeRepresentation.hxx>
 #include <TCollection_HAsciiString.hxx>
 #include <StepFEA_NodeSet.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepFEA_NodeSet)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepGeom_GeometricRepresentationItem),

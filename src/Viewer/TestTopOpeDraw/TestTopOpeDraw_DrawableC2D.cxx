@@ -20,7 +20,7 @@
 #include <gp_Pnt2d.hxx>
 #include <Draw_Display.hxx>
 #include <TestTopOpeDraw_DrawableC2D.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TestTopOpeDraw_DrawableC2D)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(DrawTrSurf_Curve2d),

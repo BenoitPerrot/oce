@@ -19,10 +19,10 @@
 #include <Foundation/NCollection/NCollection_TypeDef.hxx>
 #include <Foundation/NCollection/NCollection_BaseMap.hxx>
 #include <Foundation/NCollection/NCollection_TListNode.hxx>
-#include <Standard_TypeMismatch.hxx>
-#include <Standard_MultiplyDefined.hxx>
-#include <Standard_ImmutableObject.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_TypeMismatch.hxx>
+#include <Foundation/Standard/Standard_MultiplyDefined.hxx>
+#include <Foundation/Standard/Standard_ImmutableObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 
 #include <Foundation/NCollection/NCollection_DefaultHasher.hxx>
 

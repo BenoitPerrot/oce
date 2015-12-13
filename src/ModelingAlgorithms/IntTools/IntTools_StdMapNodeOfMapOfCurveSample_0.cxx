@@ -5,7 +5,7 @@
 
 #include <IntTools_StdMapNodeOfMapOfCurveSample.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <IntTools_CurveRangeSample.hxx>
 #include <IntTools_CurveRangeSampleMapHasher.hxx>

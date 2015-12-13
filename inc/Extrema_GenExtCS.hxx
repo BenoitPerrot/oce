@@ -6,13 +6,13 @@
 #ifndef _Extrema_GenExtCS_HeaderFile
 #define _Extrema_GenExtCS_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Boolean.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Extrema_FuncExtCS.hxx>
 #include <Adaptor3d_SurfacePtr.hxx>
 #include <Handle_TColgp_HArray2OfPnt.hxx>

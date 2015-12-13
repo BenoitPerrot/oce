@@ -6,17 +6,17 @@
 #ifndef _IGESDimen_AngularDimension_HeaderFile
 #define _IGESDimen_AngularDimension_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESDimen_AngularDimension.hxx>
 
 #include <Handle_IGESDimen_GeneralNote.hxx>
 #include <Handle_IGESDimen_WitnessLine.hxx>
 #include <gp_XY.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_IGESDimen_LeaderArrow.hxx>
 #include <IGESData_IGESEntity.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class IGESDimen_GeneralNote;
 class IGESDimen_WitnessLine;
 class IGESDimen_LeaderArrow;

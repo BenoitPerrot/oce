@@ -6,12 +6,12 @@
 #ifndef _Storage_Schema_HeaderFile
 #define _Storage_Schema_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Storage_Schema.hxx>
 
 #include <Storage_MapOfCallBack.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Storage_CallBack.hxx>
 #include <TCollection_AsciiString.hxx>
 #include <Handle_Storage_HArrayOfSchema.hxx>
@@ -23,7 +23,7 @@
 #include <Handle_TColStd_HSequenceOfAsciiString.hxx>
 #include <Handle_Standard_Persistent.hxx>
 #include <Storage_SolveMode.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 class Storage_CallBack;
 class Storage_HArrayOfSchema;
 class Storage_StreamFormatError;

@@ -13,9 +13,9 @@
 // commercial license or contractual agreement.
 
 #include <AppParCurves_HArray1OfMultiPoint.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_DimensionError.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_DimensionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <AppParCurves_Array1OfMultiPoint.hxx>
 #include <AppParCurves_MultiPoint.hxx>
 #include <TColgp_Array1OfPnt.hxx>
@@ -27,7 +27,7 @@
 #include <AppParCurves_MultiCurve.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <BSplCLib.hxx>
 #include <PLib.hxx>
 

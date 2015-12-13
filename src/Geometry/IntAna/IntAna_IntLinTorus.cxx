@@ -17,7 +17,7 @@
 //--       Mise en place d'une vraie solution. 
 
 #include <StdFail_NotDone.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <gp_Lin.hxx>
 #include <gp_Torus.hxx>
 #include <gp_Pnt.hxx>

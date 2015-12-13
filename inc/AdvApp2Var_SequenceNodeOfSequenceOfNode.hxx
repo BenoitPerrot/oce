@@ -6,8 +6,8 @@
 #ifndef _AdvApp2Var_SequenceNodeOfSequenceOfNode_HeaderFile
 #define _AdvApp2Var_SequenceNodeOfSequenceOfNode_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_AdvApp2Var_SequenceNodeOfSequenceOfNode.hxx>
 
 #include <AdvApp2Var_Node.hxx>

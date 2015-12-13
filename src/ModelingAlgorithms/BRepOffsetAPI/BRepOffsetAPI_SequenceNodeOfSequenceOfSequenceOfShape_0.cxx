@@ -5,7 +5,7 @@
 
 #include <BRepOffsetAPI_SequenceNodeOfSequenceOfSequenceOfShape.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TopTools_SequenceOfShape.hxx>
 #include <BRepOffsetAPI_SequenceOfSequenceOfShape.hxx>

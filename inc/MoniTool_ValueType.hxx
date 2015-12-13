@@ -6,7 +6,7 @@
 #ifndef _MoniTool_ValueType_HeaderFile
 #define _MoniTool_ValueType_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum MoniTool_ValueType

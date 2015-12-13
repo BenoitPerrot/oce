@@ -6,7 +6,7 @@
 #ifndef _Aspect_TypeOfResize_HeaderFile
 #define _Aspect_TypeOfResize_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Defines the type of Resize Window method applied
 //! by the user.

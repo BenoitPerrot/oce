@@ -14,8 +14,8 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/NCollection/NCollection_HeapAllocator.hxx>
-#include <Standard_OutOfMemory.hxx>
-#include <Standard_Mutex.hxx>
+#include <Foundation/Standard/Standard_OutOfMemory.hxx>
+#include <Foundation/Standard/Standard_Mutex.hxx>
 
 IMPLEMENT_STANDARD_HANDLE (NCollection_HeapAllocator, NCollection_BaseAllocator)
 IMPLEMENT_STANDARD_RTTIEXT(NCollection_HeapAllocator, NCollection_BaseAllocator)

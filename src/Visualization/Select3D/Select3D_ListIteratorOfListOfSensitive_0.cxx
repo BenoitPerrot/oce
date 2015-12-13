@@ -5,8 +5,8 @@
 
 #include <Select3D_ListIteratorOfListOfSensitive.hxx>
 
-#include <Standard_NoMoreObject.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoMoreObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Select3D_ListOfSensitive.hxx>
 #include <Select3D_SensitiveEntity.hxx>
 #include <Select3D_ListNodeOfListOfSensitive.hxx>

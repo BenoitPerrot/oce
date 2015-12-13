@@ -6,8 +6,8 @@
 #ifndef _SelectMgr_SequenceNodeOfSequenceOfFilter_HeaderFile
 #define _SelectMgr_SequenceNodeOfSequenceOfFilter_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_SelectMgr_SequenceNodeOfSequenceOfFilter.hxx>
 
 #include <Handle_SelectMgr_Filter.hxx>

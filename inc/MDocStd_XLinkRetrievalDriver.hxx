@@ -6,13 +6,13 @@
 #ifndef _MDocStd_XLinkRetrievalDriver_HeaderFile
 #define _MDocStd_XLinkRetrievalDriver_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_MDocStd_XLinkRetrievalDriver.hxx>
 
 #include <MDF_ARDriver.hxx>
 #include <Handle_CDM_MessageDriver.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Standard_Type.hxx>
 #include <Handle_TDF_Attribute.hxx>
 #include <Handle_PDF_Attribute.hxx>

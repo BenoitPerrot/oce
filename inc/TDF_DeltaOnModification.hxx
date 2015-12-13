@@ -6,8 +6,8 @@
 #ifndef _TDF_DeltaOnModification_HeaderFile
 #define _TDF_DeltaOnModification_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TDF_DeltaOnModification.hxx>
 
 #include <TDF_AttributeDelta.hxx>

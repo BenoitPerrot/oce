@@ -5,7 +5,7 @@
 
 #include <CDM_ListOfReferences.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <CDM_ListIteratorOfListOfReferences.hxx>
 #include <CDM_Reference.hxx>
 #include <CDM_ListNodeOfListOfReferences.hxx>

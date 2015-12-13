@@ -14,7 +14,7 @@
 #include <IFSelect_GeneralModifier.hxx>
 #include <TColStd_HSequenceOfInteger.hxx>
 #include <IFSelect_AppliedModifiers.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IFSelect_AppliedModifiers)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <PCDM_DriverError.hxx>
 #include <PCDM_Document.hxx>
 #include <CDM_Document.hxx>
@@ -23,7 +23,7 @@
 #include <Storage_Schema.hxx>
 #include <TColStd_SequenceOfExtendedString.hxx>
 #include <PCDM_StorageDriver.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PCDM_StorageDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(PCDM_Writer),
@@ -38,10 +38,10 @@ IMPLEMENT_STANDARD_RTTI(PCDM_StorageDriver)
 #include <TColStd_SequenceOfExtendedString.hxx>
 #include <Foundation/FSD/FSD_CmpFile.hxx>
 #include <TCollection_AsciiString.hxx>
-#include <Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <PCDM_ReadWriter.hxx>
 #include <Foundation/Resource/Resource_Manager.hxx>
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <PCDM_SequenceOfDocument.hxx>
 #include <PCDM.hxx>
 #include <locale.h>

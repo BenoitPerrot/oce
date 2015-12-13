@@ -6,9 +6,9 @@
 #ifndef _GeomToStep_MakeBoundedSurface_HeaderFile
 #define _GeomToStep_MakeBoundedSurface_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_StepGeom_BoundedSurface.hxx>
 #include <GeomToStep_Root.hxx>

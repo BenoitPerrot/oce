@@ -5,7 +5,7 @@
 
 #include <TopOpeBRepDS_DataMapNodeOfMapOfPoint.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TopOpeBRepDS_PointData.hxx>
 #include <TColStd_MapIntegerHasher.hxx>
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(TopOpeBRepDS_DataMapNodeOfMapOfPoint)
 
 
 #define TheKey Standard_Integer
-#define TheKey_hxx <Standard_Integer.hxx>
+#define TheKey_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheItem TopOpeBRepDS_PointData
 #define TheItem_hxx <TopOpeBRepDS_PointData.hxx>
 #define Hasher TColStd_MapIntegerHasher

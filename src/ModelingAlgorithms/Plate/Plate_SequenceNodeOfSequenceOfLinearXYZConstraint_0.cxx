@@ -5,7 +5,7 @@
 
 #include <Plate_SequenceNodeOfSequenceOfLinearXYZConstraint.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Plate_LinearXYZConstraint.hxx>
 #include <Plate_SequenceOfLinearXYZConstraint.hxx>

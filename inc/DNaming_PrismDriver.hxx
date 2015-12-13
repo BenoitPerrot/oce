@@ -6,13 +6,13 @@
 #ifndef _DNaming_PrismDriver_HeaderFile
 #define _DNaming_PrismDriver_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_DNaming_PrismDriver.hxx>
 
 #include <TFunction_Driver.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class TFunction_Logbook;
 class TDF_Label;
 class BRepPrimAPI_MakePrism;

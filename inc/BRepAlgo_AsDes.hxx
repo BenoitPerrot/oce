@@ -6,13 +6,13 @@
 #ifndef _BRepAlgo_AsDes_HeaderFile
 #define _BRepAlgo_AsDes_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BRepAlgo_AsDes.hxx>
 
 #include <TopTools_DataMapOfShapeListOfShape.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_ConstructionError;
 class TopoDS_Shape;
 class TopTools_ListOfShape;

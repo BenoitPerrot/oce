@@ -5,14 +5,14 @@
 
 #include <TColStd_Array1OfByte.hxx>
 
-#include <Standard_RangeError.hxx>
-#include <Standard_DimensionMismatch.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_OutOfMemory.hxx>
+#include <Foundation/Standard/Standard_RangeError.hxx>
+#include <Foundation/Standard/Standard_DimensionMismatch.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfMemory.hxx>
  
 
 #define Array1Item Standard_Byte
-#define Array1Item_hxx <Standard_Byte.hxx>
+#define Array1Item_hxx <Foundation/Standard/Standard_Byte.hxx>
 #define TCollection_Array1 TColStd_Array1OfByte
 #define TCollection_Array1_hxx <TColStd_Array1OfByte.hxx>
 #include <TCollection_Array1.gxx>

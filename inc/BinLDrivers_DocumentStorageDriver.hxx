@@ -6,8 +6,8 @@
 #ifndef _BinLDrivers_DocumentStorageDriver_HeaderFile
 #define _BinLDrivers_DocumentStorageDriver_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BinLDrivers_DocumentStorageDriver.hxx>
 
 #include <BinObjMgt_Persistent.hxx>
@@ -20,8 +20,8 @@
 #include <BinLDrivers_VectorOfDocumentSection.hxx>
 #include <PCDM_StorageDriver.hxx>
 #include <Handle_CDM_Document.hxx>
-#include <Standard_OStream.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Standard_Type.hxx>
 class BinMDF_ADriverTable;
 class CDM_MessageDriver;

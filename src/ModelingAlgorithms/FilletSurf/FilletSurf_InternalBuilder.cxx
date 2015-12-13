@@ -78,7 +78,7 @@
 #include <IntCurveSurface_IntersectionPoint.hxx>
 #include <BRepExtrema_DistShapeShape.hxx> 
 
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Precision.hxx>
 
 static Standard_Boolean isinlist(const TopoDS_Shape&         E,

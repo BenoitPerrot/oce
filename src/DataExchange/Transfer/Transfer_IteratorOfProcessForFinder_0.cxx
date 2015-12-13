@@ -6,7 +6,7 @@
 #include <Transfer_IteratorOfProcessForFinder.hxx>
 
 #include <Transfer_HSequenceOfFinder.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Transfer_Finder.hxx>
 #include <Transfer_FindHasher.hxx>
 #include <Transfer_ProcessForFinder.hxx>

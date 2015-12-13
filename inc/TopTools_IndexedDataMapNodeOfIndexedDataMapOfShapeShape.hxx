@@ -6,12 +6,12 @@
 #ifndef _TopTools_IndexedDataMapNodeOfIndexedDataMapOfShapeShape_HeaderFile
 #define _TopTools_IndexedDataMapNodeOfIndexedDataMapOfShapeShape_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TopTools_IndexedDataMapNodeOfIndexedDataMapOfShapeShape.hxx>
 
 #include <TopoDS_Shape.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <TCollection_MapNodePtr.hxx>
 #include <TCollection_MapNode.hxx>
 class TopoDS_Shape;

@@ -6,8 +6,8 @@
 #ifndef _StepGeom_SurfaceOfLinearExtrusion_HeaderFile
 #define _StepGeom_SurfaceOfLinearExtrusion_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepGeom_SurfaceOfLinearExtrusion.hxx>
 
 #include <Handle_StepGeom_Vector.hxx>

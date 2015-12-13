@@ -5,8 +5,8 @@
 
 #include <ShapeFix_SequenceOfWireSegment.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <ShapeFix_WireSegment.hxx>
 #include <ShapeFix_SequenceNodeOfSequenceOfWireSegment.hxx>
  

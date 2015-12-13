@@ -28,8 +28,8 @@
 #include <ShapeAnalysis.hxx>
 
 // PLANTAGE IsOuterBound, 15-SEP-1998
-#include <Standard_ErrorHandler.hxx>
-#include <Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
 
 #include <BRep_Tool.hxx>
 #include <BRepAdaptor_Surface.hxx>

@@ -5,7 +5,7 @@
 
 #include <TColStd_StdMapNodeOfMapOfAsciiString.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TCollection_AsciiString.hxx>
 #include <TColStd_MapOfAsciiString.hxx>

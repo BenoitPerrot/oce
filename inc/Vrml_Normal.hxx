@@ -6,13 +6,13 @@
 #ifndef _Vrml_Normal_HeaderFile
 #define _Vrml_Normal_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Vrml_Normal.hxx>
 
 #include <Handle_TColgp_HArray1OfVec.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 class TColgp_HArray1OfVec;
 
 

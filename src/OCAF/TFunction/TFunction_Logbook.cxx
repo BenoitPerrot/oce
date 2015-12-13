@@ -26,7 +26,7 @@
 
 #include <TCollection_AsciiString.hxx>
 
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 
 
 //=======================================================================

@@ -6,17 +6,17 @@
 #ifndef _SelectBasics_SensitiveEntity_HeaderFile
 #define _SelectBasics_SensitiveEntity_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_SelectBasics_SensitiveEntity.hxx>
 
 #include <Handle_SelectBasics_EntityOwner.hxx>
-#include <Standard_ShortReal.hxx>
+#include <Foundation/Standard/Standard_ShortReal.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <SelectBasics_PickArgs.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class SelectBasics_EntityOwner;
 class SelectBasics_ListOfBox2d;
 class TColgp_Array1OfPnt2d;

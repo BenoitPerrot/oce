@@ -6,7 +6,7 @@
 #ifndef _AIS_KindOfDimension_HeaderFile
 #define _AIS_KindOfDimension_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Declares the kinds of dimensions needed in the
 //! display of Interactive Objects.

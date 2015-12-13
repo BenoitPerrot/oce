@@ -6,8 +6,8 @@
 #ifndef _IGESBasic_ExternalRefName_HeaderFile
 #define _IGESBasic_ExternalRefName_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESBasic_ExternalRefName.hxx>
 
 #include <Handle_TCollection_HAsciiString.hxx>

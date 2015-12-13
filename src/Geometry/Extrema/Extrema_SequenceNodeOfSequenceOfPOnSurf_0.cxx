@@ -5,7 +5,7 @@
 
 #include <Extrema_SequenceNodeOfSequenceOfPOnSurf.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Extrema_POnSurf.hxx>
 #include <Extrema_SequenceOfPOnSurf.hxx>

@@ -5,7 +5,7 @@
 
 #include <Foundation/Message/Message_SequenceNodeOfSequenceOfPrinters.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Foundation/Message/Message_Printer.hxx>
 #include <Foundation/Message/Message_SequenceOfPrinters.hxx>

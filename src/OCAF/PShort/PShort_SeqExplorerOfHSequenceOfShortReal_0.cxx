@@ -7,12 +7,12 @@
 
 #include <PShort_SeqNodeOfHSequenceOfShortReal.hxx>
 #include <PShort_HSequenceOfShortReal.hxx>
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
  
 
 #define Item Standard_ShortReal
-#define Item_hxx <Standard_ShortReal.hxx>
+#define Item_hxx <Foundation/Standard/Standard_ShortReal.hxx>
 #define PCollection_SeqNode PShort_SeqNodeOfHSequenceOfShortReal
 #define PCollection_SeqNode_hxx <PShort_SeqNodeOfHSequenceOfShortReal.hxx>
 #define PCollection_SeqExplorer PShort_SeqExplorerOfHSequenceOfShortReal

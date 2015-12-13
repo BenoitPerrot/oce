@@ -27,7 +27,7 @@
 #include <PLib.hxx>
 #include <BSplCLib.hxx>
 
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 
 static Standard_Real Locate(const Standard_Real Angfin,
 			    const TColgp_Array1OfPnt2d& TPoles,

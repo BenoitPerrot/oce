@@ -19,7 +19,7 @@
 #include <TopoDS_Compound.hxx>
 #include <TopTools_DataMapOfShapeShape.hxx>
 #include <ShapeAnalysis_CheckSmallFace.hxx>
-#include <Standard_ErrorHandler.hxx>  
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>  
 #include <TopTools_ListOfShape.hxx>
 #include <TColStd_ListOfReal.hxx>
 #include <ShapeExtend.hxx>

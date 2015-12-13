@@ -6,18 +6,18 @@
 #ifndef _IGESData_ToolLocation_HeaderFile
 #define _IGESData_ToolLocation_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESData_ToolLocation.hxx>
 
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_IGESData_IGESModel.hxx>
 #include <Interface_GeneralLib.hxx>
 #include <TColStd_Array1OfInteger.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_IGESData_Protocol.hxx>
 #include <Handle_IGESData_IGESEntity.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class IGESData_IGESModel;
 class Standard_DomainError;
 class IGESData_Protocol;

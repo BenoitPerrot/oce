@@ -13,8 +13,8 @@
 
 #include <Foundation/Dico/Dico_DictionaryOfTransient.hxx>
 #include <Interface_Protocol.hxx>
-#include <Standard_Transient.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Transient.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 #include <Interface_InterfaceModel.hxx>
 #include <StepData_EDescr.hxx>
 #include <StepData_ESDescr.hxx>
@@ -22,7 +22,7 @@
 #include <TColStd_SequenceOfAsciiString.hxx>
 #include <StepData_PDescr.hxx>
 #include <StepData_Protocol.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepData_Protocol)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Interface_Protocol),

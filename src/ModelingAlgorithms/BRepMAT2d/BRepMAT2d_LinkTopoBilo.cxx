@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <BRepMAT2d_Explorer.hxx>
 #include <BRepMAT2d_BisectingLocus.hxx>
 #include <TopoDS_Shape.hxx>
@@ -28,7 +28,7 @@
 #include <TopoDS.hxx>
 #include <TopoDS_Vertex.hxx> 
 #include <TopTools_SequenceOfShape.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 #include <Geom2d_Geometry.hxx>
 #include <Geom2d_Curve.hxx>
 #include <Geom2d_CartesianPoint.hxx>

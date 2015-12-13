@@ -16,7 +16,7 @@
 #ifndef BRepMesh_PairOfIndex_HeaderFile
 #define BRepMesh_PairOfIndex_HeaderFile
 
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 
 //! This class represents a pair of integer indices to store 
 //! element indices connected to link. It is restricted to 

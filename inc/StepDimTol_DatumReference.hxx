@@ -6,11 +6,11 @@
 #ifndef _StepDimTol_DatumReference_HeaderFile
 #define _StepDimTol_DatumReference_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepDimTol_DatumReference.hxx>
 
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_StepDimTol_Datum.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepDimTol_Datum;

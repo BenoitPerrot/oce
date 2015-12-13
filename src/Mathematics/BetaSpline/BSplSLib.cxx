@@ -35,8 +35,8 @@
 #include <TColgp_Array2OfXYZ.hxx>
 #include <TColgp_Array1OfXYZ.hxx>
 #include <TColStd_HArray1OfInteger.hxx>
-#include <Standard_NotImplemented.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <math_Matrix.hxx>
 
 // for null derivatives

@@ -5,7 +5,7 @@
 
 #include <ChFiDS_ListNodeOfRegularities.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <ChFiDS_Regul.hxx>
 #include <ChFiDS_Regularities.hxx>

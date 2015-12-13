@@ -28,7 +28,7 @@
 #include <TopLoc_Location.hxx>
 #include <ShapeAnalysis_Surface.hxx>
 #include <ShapeFix_Edge.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeFix_Edge)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),
@@ -38,8 +38,8 @@ IMPLEMENT_STANDARD_TYPE_END(ShapeFix_Edge)
 IMPLEMENT_DOWNCAST(ShapeFix_Edge,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ShapeFix_Edge)
 
-#include <Standard_ErrorHandler.hxx>
-#include <Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
 
 #include <BRep_Builder.hxx>
 #include <BRep_GCurve.hxx>

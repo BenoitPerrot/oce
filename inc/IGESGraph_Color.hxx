@@ -6,14 +6,14 @@
 #ifndef _IGESGraph_Color_HeaderFile
 #define _IGESGraph_Color_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESGraph_Color.hxx>
 
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <IGESData_ColorEntity.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class TCollection_HAsciiString;
 
 

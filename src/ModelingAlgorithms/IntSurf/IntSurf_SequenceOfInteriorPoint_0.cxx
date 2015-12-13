@@ -5,8 +5,8 @@
 
 #include <IntSurf_SequenceOfInteriorPoint.hxx>
 
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <IntSurf_InteriorPoint.hxx>
 #include <IntSurf_SequenceNodeOfSequenceOfInteriorPoint.hxx>
  

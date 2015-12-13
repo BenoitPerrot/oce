@@ -6,15 +6,15 @@
 #ifndef _Transfer_DispatchControl_HeaderFile
 #define _Transfer_DispatchControl_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Transfer_DispatchControl.hxx>
 
 #include <Handle_Transfer_TransientProcess.hxx>
 #include <Handle_Interface_InterfaceModel.hxx>
 #include <Interface_CopyControl.hxx>
 #include <Handle_Standard_Transient.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class Transfer_TransientProcess;
 class Interface_InterfaceModel;
 class Interface_InterfaceError;

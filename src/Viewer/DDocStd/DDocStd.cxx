@@ -16,7 +16,7 @@
 #include <TDocStd_Application.hxx>
 #include <TDocStd_Document.hxx>
 #include <TDF_Label.hxx>
-#include <Standard_GUID.hxx>
+#include <Foundation/Standard/Standard_GUID.hxx>
 #include <TDF_Attribute.hxx>
 #include <DDocStd.hxx>
 #include <DDocStd_DrawDocument.hxx>
@@ -30,7 +30,7 @@
 #include <DBRep.hxx>
 #include <TDocStd_Document.hxx>
 #include <CDF_Session.hxx>
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 
 
 //=======================================================================

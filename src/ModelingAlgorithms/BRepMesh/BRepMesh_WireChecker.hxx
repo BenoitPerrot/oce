@@ -17,7 +17,7 @@
 #ifndef _BRepMesh_WireChecker_HeaderFile
 #define _BRepMesh_WireChecker_HeaderFile
 
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <TopoDS_Face.hxx>
 #include <BRepMesh_Status.hxx>
 #include <BRepMesh_DataStructureOfDelaun.hxx>

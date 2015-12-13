@@ -6,8 +6,8 @@
 #ifndef _Graphic3d_TextureRoot_HeaderFile
 #define _Graphic3d_TextureRoot_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Graphic3d_TextureRoot.hxx>
 
 #include <Handle_Graphic3d_TextureParams.hxx>
@@ -16,7 +16,7 @@
 #include <Foundation/OSD/OSD_Path.hxx>
 #include <Graphic3d_TypeOfTexture.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class Graphic3d_TextureParams;
 class TCollection_AsciiString;
 class OSD_Path;

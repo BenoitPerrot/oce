@@ -6,8 +6,8 @@
 #ifndef _StepRepr_MaterialDesignation_HeaderFile
 #define _StepRepr_MaterialDesignation_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepRepr_MaterialDesignation.hxx>
 
 #include <Handle_TCollection_HAsciiString.hxx>

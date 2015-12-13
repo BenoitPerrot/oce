@@ -6,8 +6,8 @@
 #ifndef _StepRepr_ReprItemAndLengthMeasureWithUnit_HeaderFile
 #define _StepRepr_ReprItemAndLengthMeasureWithUnit_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepRepr_ReprItemAndLengthMeasureWithUnit.hxx>
 
 #include <Handle_StepBasic_LengthMeasureWithUnit.hxx>

@@ -36,7 +36,7 @@
 #include <BRep_Tool.hxx>
 #include <TopoDS.hxx>
 #include <TopExp.hxx>
-#include <Standard_CString.hxx>
+#include <Foundation/Standard/Standard_CString.hxx>
 #include <BRepTools.hxx>
 #include <Precision.hxx>
 #include <TColStd_ListOfInteger.hxx>

@@ -6,11 +6,11 @@
 #ifndef _AIS_DataMapNodeOfDataMapofIntegerListOfinteractive_HeaderFile
 #define _AIS_DataMapNodeOfDataMapofIntegerListOfinteractive_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_AIS_DataMapNodeOfDataMapofIntegerListOfinteractive.hxx>
 
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <AIS_ListOfInteractive.hxx>
 #include <TCollection_MapNode.hxx>
 #include <TCollection_MapNodePtr.hxx>
@@ -53,7 +53,7 @@ private:
 };
 
 #define TheKey Standard_Integer
-#define TheKey_hxx <Standard_Integer.hxx>
+#define TheKey_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheItem AIS_ListOfInteractive
 #define TheItem_hxx <AIS_ListOfInteractive.hxx>
 #define Hasher TColStd_MapIntegerHasher

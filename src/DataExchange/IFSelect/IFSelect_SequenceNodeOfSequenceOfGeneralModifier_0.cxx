@@ -5,7 +5,7 @@
 
 #include <IFSelect_SequenceNodeOfSequenceOfGeneralModifier.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <IFSelect_GeneralModifier.hxx>
 #include <IFSelect_SequenceOfGeneralModifier.hxx>

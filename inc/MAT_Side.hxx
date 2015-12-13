@@ -6,7 +6,7 @@
 #ifndef _MAT_Side_HeaderFile
 #define _MAT_Side_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Definition on the Left and the Right on the Fig.
 enum MAT_Side

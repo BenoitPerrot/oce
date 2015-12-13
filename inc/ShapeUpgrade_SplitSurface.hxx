@@ -6,17 +6,17 @@
 #ifndef _ShapeUpgrade_SplitSurface_HeaderFile
 #define _ShapeUpgrade_SplitSurface_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ShapeUpgrade_SplitSurface.hxx>
 
 #include <Handle_TColStd_HSequenceOfReal.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Geom_Surface.hxx>
 #include <Handle_ShapeExtend_CompositeSurface.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ShapeExtend_Status.hxx>
 class TColStd_HSequenceOfReal;
 class Geom_Surface;

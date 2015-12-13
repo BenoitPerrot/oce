@@ -19,7 +19,7 @@
 //Version	Date		Purpose
 //		0.0	Aug 22 1997	Creation
 
-#include <Standard_Stream.hxx>
+#include <Foundation/Standard/Standard_Stream.hxx>
 
 #include <DDF_IOStream.hxx>
 

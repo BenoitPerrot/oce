@@ -6,8 +6,8 @@
 #ifndef _Handle_StepFEA_FeaMoistureAbsorption_HeaderFile
 #define _Handle_StepFEA_FeaMoistureAbsorption_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepFEA_FeaMaterialPropertyRepresentationItem.hxx>
 
 class Standard_Transient;

@@ -5,7 +5,7 @@
 
 #include <Select3D_ListNodeOfListOfSensitive.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Select3D_SensitiveEntity.hxx>
 #include <Select3D_ListOfSensitive.hxx>

@@ -36,8 +36,8 @@
 #include <ChFi3d_Builder_0.hxx>
 
 #include <StdFail_NotDone.hxx>
-#include <Standard_NotImplemented.hxx>
-#include <Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
 
 #include <math_Vector.hxx>
 #include <TColgp_Array1OfPnt.hxx>

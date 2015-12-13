@@ -7,7 +7,7 @@
 
 #include <STEPCAFControl_DictionaryOfExternFile.hxx>
 #include <STEPCAFControl_StackItemOfDictionaryOfExternFile.hxx>
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <STEPCAFControl_ExternFile.hxx>
 #include <TCollection_AsciiString.hxx>
  

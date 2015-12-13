@@ -6,7 +6,7 @@
 #ifndef _StepBasic_Source_HeaderFile
 #define _StepBasic_Source_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum StepBasic_Source

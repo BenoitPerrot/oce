@@ -6,8 +6,8 @@
 #ifndef _StepBasic_PersonAndOrganizationRole_HeaderFile
 #define _StepBasic_PersonAndOrganizationRole_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepBasic_PersonAndOrganizationRole.hxx>
 
 #include <Handle_TCollection_HAsciiString.hxx>

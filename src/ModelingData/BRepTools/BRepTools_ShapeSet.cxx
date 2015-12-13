@@ -16,7 +16,7 @@
 
 // Modifed:     Portage NT 7-5-97 DPF (strcasecmp)
 
-#include <Standard_Stream.hxx>
+#include <Foundation/Standard/Standard_Stream.hxx>
 #include <Precision.hxx>
 #include <BRep_Builder.hxx>
 #include <TopoDS_Shape.hxx>

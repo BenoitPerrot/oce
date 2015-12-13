@@ -6,7 +6,7 @@
 #ifndef _TopOpeBRepDS_Config_HeaderFile
 #define _TopOpeBRepDS_Config_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum TopOpeBRepDS_Config

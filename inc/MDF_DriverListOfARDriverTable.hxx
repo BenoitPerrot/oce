@@ -6,15 +6,15 @@
 #ifndef _MDF_DriverListOfARDriverTable_HeaderFile
 #define _MDF_DriverListOfARDriverTable_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Standard_Address.hxx>
+#include <Foundation/Standard/Standard_Address.hxx>
 #include <Handle_MDF_ARDriver.hxx>
 #include <Handle_MDF_ListNodeOfDriverListOfARDriverTable.hxx>
-#include <Standard_Integer.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_NoSuchObject;
 class MDF_ListIteratorOfDriverListOfARDriverTable;
 class MDF_ARDriver;

@@ -19,7 +19,7 @@
 // UNFINISHED
 // The last field (ent->DependentValues()) not resolved. Queried to mdtv
 
-#include <Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
 #include <IGESDefs_TabularData.hxx>
 #include <IGESData_IGESReaderData.hxx>
 #include <IGESData_ParamReader.hxx>

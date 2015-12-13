@@ -6,13 +6,13 @@
 #ifndef _Geom2dGcc_QCurve_HeaderFile
 #define _Geom2dGcc_QCurve_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <GccEnt_Position.hxx>
 #include <Geom2dAdaptor_Curve.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 class Geom2dAdaptor_Curve;
 
 

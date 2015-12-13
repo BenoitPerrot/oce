@@ -14,7 +14,7 @@
 #include <AIS_Drawer.hxx>
 #include <AIS_Triangulation.hxx>
 #include <AIS_InteractiveObject.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Poly_Array1OfTriangle.hxx>
 #include <Poly_Triangulation.hxx>
 #include <Prs3d_Root.hxx>

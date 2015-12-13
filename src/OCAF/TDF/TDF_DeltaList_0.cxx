@@ -5,7 +5,7 @@
 
 #include <TDF_DeltaList.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TDF_ListIteratorOfDeltaList.hxx>
 #include <TDF_Delta.hxx>
 #include <TDF_ListNodeOfDeltaList.hxx>

@@ -6,8 +6,8 @@
 #ifndef _CDM_DataMapNodeOfMetaDataLookUpTable_HeaderFile
 #define _CDM_DataMapNodeOfMetaDataLookUpTable_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_CDM_DataMapNodeOfMetaDataLookUpTable.hxx>
 
 #include <TCollection_ExtendedString.hxx>

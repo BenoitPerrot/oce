@@ -15,7 +15,7 @@
 
 #include <TopoDS_Shape.hxx>
 #include <STEPCAFControl_ActorWrite.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(STEPCAFControl_ActorWrite)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(STEPControl_ActorWrite),

@@ -21,7 +21,7 @@
 #include <CDM_MessageDriver.hxx>
 #include <XmlMDF_ADriver.hxx>
 #include <XmlLDrivers_DocumentRetrievalDriver.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XmlLDrivers_DocumentRetrievalDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(PCDM_RetrievalDriver),
@@ -56,8 +56,8 @@ IMPLEMENT_STANDARD_RTTI(XmlLDrivers_DocumentRetrievalDriver)
 #endif  // WNT
 
 #include <locale.h>
-#include <Standard_Failure.hxx>
-#include <Standard_ErrorHandler.hxx>
+#include <Foundation/Standard/Standard_Failure.hxx>
+#include <Foundation/Standard/Standard_ErrorHandler.hxx>
 
 #define START_REF         "START_REF"
 #define END_REF           "END_REF"

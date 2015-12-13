@@ -5,8 +5,8 @@
 
 #include <TopTools_IndexedMapOfShape.hxx>
 
-#include <Standard_DomainError.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_DomainError.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopTools_ShapeMapHasher.hxx>
 #include <TopTools_IndexedMapNodeOfIndexedMapOfShape.hxx>

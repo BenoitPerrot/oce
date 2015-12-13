@@ -13,8 +13,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_MMgrTBBalloc.hxx>
-#include <Standard_OutOfMemory.hxx>
+#include <Foundation/Standard/Standard_MMgrTBBalloc.hxx>
+#include <Foundation/Standard/Standard_OutOfMemory.hxx>
 
 // NOTE: replaced by more correct check
 //#if defined(WNT) || defined(LIN)

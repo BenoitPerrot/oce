@@ -19,7 +19,7 @@
 #include <TCollection_HAsciiString.hxx>
 #include <StepShape_Edge.hxx>
 #include <StepShape_SeamEdge.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepShape_SeamEdge)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(StepShape_OrientedEdge),

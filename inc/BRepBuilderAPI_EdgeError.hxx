@@ -6,7 +6,7 @@
 #ifndef _BRepBuilderAPI_EdgeError_HeaderFile
 #define _BRepBuilderAPI_EdgeError_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! Indicates the outcome of the
 //! construction of an edge, i.e. whether it has been successful or

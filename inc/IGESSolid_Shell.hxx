@@ -6,15 +6,15 @@
 #ifndef _IGESSolid_Shell_HeaderFile
 #define _IGESSolid_Shell_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESSolid_Shell.hxx>
 
 #include <Handle_IGESSolid_HArray1OfFace.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>
 #include <IGESData_IGESEntity.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_IGESSolid_Face.hxx>
 class IGESSolid_HArray1OfFace;
 class TColStd_HArray1OfInteger;

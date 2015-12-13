@@ -6,7 +6,7 @@
 #ifndef _Voxel_VoxelFileFormat_HeaderFile
 #define _Voxel_VoxelFileFormat_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 
 enum Voxel_VoxelFileFormat

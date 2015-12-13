@@ -6,12 +6,12 @@
 #ifndef _ChFi3d_Builder_HeaderFile
 #define _ChFi3d_Builder_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineAlloc.hxx>
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineAlloc.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TopoDS_Shape.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <ChFiDS_Map.hxx>
 #include <Handle_TopOpeBRepDS_HDataStructure.hxx>
@@ -21,8 +21,8 @@
 #include <ChFiDS_Regularities.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <TopTools_DataMapOfShapeListOfInteger.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_ChFiDS_Spine.hxx>
 #include <Handle_Geom_Surface.hxx>
 #include <ChFiDS_ErrorStatus.hxx>

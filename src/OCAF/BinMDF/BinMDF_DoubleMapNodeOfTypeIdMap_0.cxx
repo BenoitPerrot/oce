@@ -5,9 +5,9 @@
 
 #include <BinMDF_DoubleMapNodeOfTypeIdMap.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 #include <TColStd_MapTransientHasher.hxx>
 #include <TColStd_MapIntegerHasher.hxx>
 #include <BinMDF_TypeIdMap.hxx>
@@ -31,9 +31,9 @@ IMPLEMENT_STANDARD_RTTI(BinMDF_DoubleMapNodeOfTypeIdMap)
 
 
 #define TheKey1 Handle(Standard_Type)
-#define TheKey1_hxx <Standard_Type.hxx>
+#define TheKey1_hxx <Foundation/Standard/Standard_Type.hxx>
 #define TheKey2 Standard_Integer
-#define TheKey2_hxx <Standard_Integer.hxx>
+#define TheKey2_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define Hasher1 TColStd_MapTransientHasher
 #define Hasher1_hxx <TColStd_MapTransientHasher.hxx>
 #define Hasher2 TColStd_MapIntegerHasher

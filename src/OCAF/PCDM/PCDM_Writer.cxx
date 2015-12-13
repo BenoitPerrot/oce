@@ -18,7 +18,7 @@
 #include <CDM_Document.hxx>
 #include <TCollection_ExtendedString.hxx>
 #include <PCDM_Writer.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PCDM_Writer)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Standard_Transient),

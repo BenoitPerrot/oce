@@ -6,8 +6,8 @@
 #ifndef _Handle_StepData_ReadWriteModule_HeaderFile
 #define _Handle_StepData_ReadWriteModule_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Interface_ReaderModule.hxx>
 
 class Standard_Transient;

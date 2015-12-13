@@ -21,7 +21,7 @@
 #include <gp_Vec.hxx>
 #include <gp.hxx>
 #include <ElCLib.hxx>
-#include <Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <math_Matrix.hxx>
 #include <math_Vector.hxx>
 #include <math_Jacobi.hxx>

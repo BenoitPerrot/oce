@@ -17,7 +17,7 @@
 #include <TDF_Attribute.hxx>
 #include <XmlObjMgt_Persistent.hxx>
 #include <XmlMXCAFDoc_GraphNodeDriver.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XmlMXCAFDoc_GraphNodeDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(XmlMDF_ADriver),
@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(XmlMXCAFDoc_GraphNodeDriver)
 #include <XCAFDoc_GraphNode.hxx>
 #include <TDF_Tool.hxx>
 #include <TDF_Label.hxx>
-#include <Standard_PCharacter.hxx>
+#include <Foundation/Standard/Standard_PCharacter.hxx>
 
 IMPLEMENT_DOMSTRING (TreeIdString,   "treeid")
 IMPLEMENT_DOMSTRING (ChildrenString, "children")

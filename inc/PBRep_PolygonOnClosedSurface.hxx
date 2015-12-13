@@ -6,12 +6,12 @@
 #ifndef _PBRep_PolygonOnClosedSurface_HeaderFile
 #define _PBRep_PolygonOnClosedSurface_HeaderFile
 
-#include <Standard_Macro.hxx>
-#include <Standard_DefineHandle.hxx>
-#include <Standard.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
 #include <Handle_PBRep_PolygonOnClosedSurface.hxx>
 
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_PPoly_Polygon2D.hxx>
 #include <PBRep_PolygonOnSurface.hxx>
 #include <Handle_PGeom_Surface.hxx>

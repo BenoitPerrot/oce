@@ -5,7 +5,7 @@
 
 #include <PPoly_VArrayNodeOfFieldOfHArray1OfTriangle.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <PPoly_Triangle.hxx>
 #include <PPoly_FieldOfHArray1OfTriangle.hxx>

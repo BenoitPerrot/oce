@@ -17,10 +17,10 @@
 //--------------------------------------------------------------------
 
 #include <Interface_HArray1OfHAsciiString.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <TCollection_HAsciiString.hxx>
 #include <IGESBasic_ExternalReferenceFile.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESBasic_ExternalReferenceFile)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(IGESData_IGESEntity),
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESBasic_ExternalReferenceFile)
 IMPLEMENT_DOWNCAST(IGESBasic_ExternalReferenceFile,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESBasic_ExternalReferenceFile)
-#include <Standard_DimensionMismatch.hxx>
+#include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 
 
 IGESBasic_ExternalReferenceFile::IGESBasic_ExternalReferenceFile ()    {  }

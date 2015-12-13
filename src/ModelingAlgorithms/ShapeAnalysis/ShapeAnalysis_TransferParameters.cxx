@@ -15,7 +15,7 @@
 #include <TopoDS_Face.hxx>
 #include <TColStd_HSequenceOfReal.hxx>
 #include <ShapeAnalysis_TransferParameters.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeAnalysis_TransferParameters)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(MMgt_TShared),

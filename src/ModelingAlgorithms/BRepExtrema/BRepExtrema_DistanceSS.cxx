@@ -24,11 +24,11 @@
 #include <gp_Pnt2d.hxx>
 #include <BRep_Tool.hxx>
 #include <BRepExtrema_SupportType.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <BRepExtrema_SolutionElem.hxx>
 #include <BRepExtrema_SeqOfSolution.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx> 
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx> 
 #include <TopAbs_ShapeEnum.hxx>
 #include <TopoDS.hxx>
 #include <Bnd_Box.hxx>

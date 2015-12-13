@@ -6,8 +6,8 @@
 #ifndef _TNaming_StdMapNodeOfMapOfNamedShape_HeaderFile
 #define _TNaming_StdMapNodeOfMapOfNamedShape_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TNaming_StdMapNodeOfMapOfNamedShape.hxx>
 
 #include <Handle_TNaming_NamedShape.hxx>

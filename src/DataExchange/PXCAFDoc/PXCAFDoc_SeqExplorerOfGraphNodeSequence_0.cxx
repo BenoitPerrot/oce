@@ -7,8 +7,8 @@
 
 #include <PXCAFDoc_SeqNodeOfGraphNodeSequence.hxx>
 #include <PXCAFDoc_GraphNodeSequence.hxx>
-#include <Standard_NoSuchObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <PXCAFDoc_GraphNode.hxx>
  
 

@@ -6,15 +6,15 @@
 #ifndef _IFSelect_Dispatch_HeaderFile
 #define _IFSelect_Dispatch_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IFSelect_Dispatch.hxx>
 
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Handle_IFSelect_Selection.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 class TCollection_HAsciiString;
 class IFSelect_Selection;
 class Interface_InterfaceError;

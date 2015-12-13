@@ -20,7 +20,7 @@
 #include <Geom_Curve.hxx>
 #include <Geom2d_Curve.hxx>
 #include <ShapeUpgrade_FixSmallCurves.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeUpgrade_FixSmallCurves)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(ShapeUpgrade_Tool),

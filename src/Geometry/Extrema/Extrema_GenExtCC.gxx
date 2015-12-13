@@ -16,8 +16,8 @@
 
 #include <Extrema_GlobOptFuncCC.hxx>
 #include <math_GlobOptMin.hxx>
-#include <Standard_NullObject.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_NullObject.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <StdFail_NotDone.hxx>
 #include <TColStd_Array1OfReal.hxx>
 #include <Precision.hxx>

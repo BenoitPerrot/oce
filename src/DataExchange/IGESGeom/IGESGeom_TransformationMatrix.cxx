@@ -17,11 +17,11 @@
 //--------------------------------------------------------------------
 
 #include <TColStd_HArray2OfReal.hxx>
-#include <Standard_DimensionMismatch.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_DimensionMismatch.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <gp_GTrsf.hxx>
 #include <IGESGeom_TransformationMatrix.hxx>
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESGeom_TransformationMatrix)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(IGESData_TransfEntity),
@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESGeom_TransformationMatrix)
 IMPLEMENT_DOWNCAST(IGESGeom_TransformationMatrix,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESGeom_TransformationMatrix)
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 
 
 IGESGeom_TransformationMatrix::IGESGeom_TransformationMatrix ()    {  }

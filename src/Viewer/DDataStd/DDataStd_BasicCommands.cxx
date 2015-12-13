@@ -16,7 +16,7 @@
 
 #include <DDataStd.hxx>
 
-#include <Standard_PCharacter.hxx>
+#include <Foundation/Standard/Standard_PCharacter.hxx>
 
 #include <DDF.hxx>
 #include <Draw_Interpretor.hxx>

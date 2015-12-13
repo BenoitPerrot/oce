@@ -5,7 +5,7 @@
 
 #include <Graphic3d_AspectTextDefinitionError.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 IMPLEMENT_STANDARD_EXCEPTION(Graphic3d_AspectTextDefinitionError)
  

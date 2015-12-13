@@ -5,7 +5,7 @@
 
 #include <ShapeExtend_DataMapIteratorOfDataMapOfShapeListOfMsg.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopoDS_Shape.hxx>
 #include <Foundation/Message/Message_ListOfMsg.hxx>
 #include <TopTools_ShapeMapHasher.hxx>

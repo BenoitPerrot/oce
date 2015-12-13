@@ -5,7 +5,7 @@
 
 #include <PDataStd_VArrayNodeOfFieldOfHArray1OfByte.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <PDataStd_FieldOfHArray1OfByte.hxx>
 #include <PDataStd_VArrayTNodeOfFieldOfHArray1OfByte.hxx>
@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_RTTI(PDataStd_VArrayNodeOfFieldOfHArray1OfByte)
 
 
 #define Item Standard_Byte
-#define Item_hxx <Standard_Byte.hxx>
+#define Item_hxx <Foundation/Standard/Standard_Byte.hxx>
 #define DBC_VArrayNode PDataStd_VArrayNodeOfFieldOfHArray1OfByte
 #define DBC_VArrayNode_hxx <PDataStd_VArrayNodeOfFieldOfHArray1OfByte.hxx>
 #define DBC_VArrayTNode PDataStd_VArrayTNodeOfFieldOfHArray1OfByte

@@ -6,13 +6,13 @@
 #ifndef _Geom2d_Vector_HeaderFile
 #define _Geom2d_Vector_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Geom2d_Vector.hxx>
 
 #include <gp_Vec2d.hxx>
 #include <Geom2d_Geometry.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 class Standard_DomainError;
 class gp_VectorWithNullMagnitude;
 class gp_Vec2d;

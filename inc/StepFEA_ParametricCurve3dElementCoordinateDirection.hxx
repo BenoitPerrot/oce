@@ -6,8 +6,8 @@
 #ifndef _StepFEA_ParametricCurve3dElementCoordinateDirection_HeaderFile
 #define _StepFEA_ParametricCurve3dElementCoordinateDirection_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepFEA_ParametricCurve3dElementCoordinateDirection.hxx>
 
 #include <Handle_StepGeom_Direction.hxx>

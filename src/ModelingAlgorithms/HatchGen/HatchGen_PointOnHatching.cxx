@@ -14,8 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Standard_Stream.hxx>
-#include <Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_Stream.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>
 #include <HatchGen_PointOnElement.hxx>
 #include <HatchGen_PointOnHatching.hxx>

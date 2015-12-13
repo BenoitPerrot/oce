@@ -6,8 +6,8 @@
 #ifndef _StepDimTol_SurfaceProfileTolerance_HeaderFile
 #define _StepDimTol_SurfaceProfileTolerance_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepDimTol_SurfaceProfileTolerance.hxx>
 
 #include <StepDimTol_GeometricTolerance.hxx>

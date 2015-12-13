@@ -5,12 +5,12 @@
 
 #include <PNaming_FieldOfHArray1OfNamedShape.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
-#include <Standard_NegativeValue.hxx>
-#include <Standard_OutOfRange.hxx>
-#include <Standard_DimensionMismatch.hxx>
-#include <Standard_NullObject.hxx>
+#include <Foundation/Standard/Standard_NegativeValue.hxx>
+#include <Foundation/Standard/Standard_OutOfRange.hxx>
+#include <Foundation/Standard/Standard_DimensionMismatch.hxx>
+#include <Foundation/Standard/Standard_NullObject.hxx>
 #include <PNaming_NamedShape.hxx>
 #include <PNaming_VArrayNodeOfFieldOfHArray1OfNamedShape.hxx>
 #include <PNaming_VArrayTNodeOfFieldOfHArray1OfNamedShape.hxx>

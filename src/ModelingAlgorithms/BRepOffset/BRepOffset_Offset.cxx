@@ -54,7 +54,7 @@
 #include <GeomProjLib.hxx>
 #include <GeomConvert_ApproxSurface.hxx>
 #include <Precision.hxx>
-#include <Standard_ConstructionError.hxx>
+#include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Wire.hxx>
 #include <TopExp.hxx>

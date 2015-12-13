@@ -5,7 +5,7 @@
 
 #include <AdvApp2Var_SequenceNodeOfSequenceOfNode.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <AdvApp2Var_Node.hxx>
 #include <AdvApp2Var_SequenceOfNode.hxx>

@@ -5,7 +5,7 @@
 
 #include <StepToTopoDS_DataMapNodeOfDataMapOfTRI.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <StepShape_TopologicalRepresentationItem.hxx>
 #include <TopoDS_Shape.hxx>

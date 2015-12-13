@@ -5,7 +5,7 @@
 
 #include <IGESBasic_HArray1OfHArray1OfIGESEntity.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <IGESData_HArray1OfIGESEntity.hxx>
 

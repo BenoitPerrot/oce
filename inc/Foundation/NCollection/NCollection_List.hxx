@@ -19,7 +19,7 @@
 #include <Foundation/NCollection/NCollection_TListIterator.hxx>
 #include <Foundation/NCollection/NCollection_StlIterator.hxx>
 
-#include <Standard_NoSuchObject.hxx>
+#include <Foundation/Standard/Standard_NoSuchObject.hxx>
 
 /**
  * Purpose:      Simple list to link  items together keeping the first 

@@ -67,7 +67,7 @@ class gp_Dir2d;
 #define _XCAFSchema_HeaderFile
 
 #ifndef _Standard_Macro_HeaderFile
-#include <Standard_Macro.hxx>
+#include <Foundation/Standard/Standard_Macro.hxx>
 #endif
 #ifndef _Storage_Macros_HeaderFile
 #include <Storage_Macros.hxx>

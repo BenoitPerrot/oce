@@ -6,7 +6,7 @@
 #ifndef _GeomLib_InterpolationErrors_HeaderFile
 #define _GeomLib_InterpolationErrors_HeaderFile
 
-#include <Standard_PrimitiveTypes.hxx>
+#include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 //! in case the interpolation errors out, this
 //! tells what happened

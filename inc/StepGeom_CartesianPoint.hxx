@@ -6,12 +6,12 @@
 #ifndef _StepGeom_CartesianPoint_HeaderFile
 #define _StepGeom_CartesianPoint_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepGeom_CartesianPoint.hxx>
 
-#include <Standard_Integer.hxx>
-#include <Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <StepGeom_Point.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Handle_TColStd_HArray1OfReal.hxx>

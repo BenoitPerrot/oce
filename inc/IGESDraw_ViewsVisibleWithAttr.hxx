@@ -6,8 +6,8 @@
 #ifndef _IGESDraw_ViewsVisibleWithAttr_HeaderFile
 #define _IGESDraw_ViewsVisibleWithAttr_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESDraw_ViewsVisibleWithAttr.hxx>
 
 #include <Handle_IGESDraw_HArray1OfViewKindEntity.hxx>
@@ -16,8 +16,8 @@
 #include <Handle_IGESGraph_HArray1OfColor.hxx>
 #include <Handle_IGESData_HArray1OfIGESEntity.hxx>
 #include <IGESData_ViewKindEntity.hxx>
-#include <Standard_Boolean.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_IGESData_ViewKindEntity.hxx>
 #include <Handle_IGESData_LineFontEntity.hxx>
 #include <Handle_IGESGraph_Color.hxx>

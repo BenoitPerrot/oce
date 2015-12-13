@@ -6,18 +6,18 @@
 #ifndef _GeomFill_Frenet_HeaderFile
 #define _GeomFill_Frenet_HeaderFile
 
-#include <Standard.hxx>
-#include <Standard_DefineHandle.hxx>
+#include <Foundation/Standard/Standard.hxx>
+#include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_GeomFill_Frenet.hxx>
 
 #include <gp_Pnt.hxx>
 #include <Handle_TColStd_HArray1OfReal.hxx>
-#include <Standard_Boolean.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <GeomFill_TrihedronLaw.hxx>
 #include <Handle_GeomFill_TrihedronLaw.hxx>
 #include <Handle_Adaptor3d_HCurve.hxx>
-#include <Standard_Real.hxx>
-#include <Standard_Integer.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <Foundation/Standard/Standard_Integer.hxx>
 #include <GeomAbs_Shape.hxx>
 class TColStd_HArray1OfReal;
 class Standard_OutOfRange;

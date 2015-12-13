@@ -19,7 +19,7 @@
 #ifdef OCCT_DEBUG
 #include <Foundation/OSD/OSD_Chronometer.hxx>
 #include <TCollection_AsciiString.hxx>
-#include <Standard_OStream.hxx>
+#include <Foundation/Standard/Standard_OStream.hxx>
 
 // POP pour NT
 class TOPKRO:

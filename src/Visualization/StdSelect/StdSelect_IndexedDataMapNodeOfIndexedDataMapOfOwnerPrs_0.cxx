@@ -5,7 +5,7 @@
 
 #include <StdSelect_IndexedDataMapNodeOfIndexedDataMapOfOwnerPrs.hxx>
 
-#include <Standard_Type.hxx>
+#include <Foundation/Standard/Standard_Type.hxx>
 
 #include <SelectBasics_EntityOwner.hxx>
 #include <StdSelect_Prs.hxx>
