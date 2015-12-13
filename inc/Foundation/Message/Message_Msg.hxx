@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <TColStd_SequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Handle_TCollection_HExtendedString.hxx>

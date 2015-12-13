@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TColStd_MapTransientHasher.hxx>
+#include <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #include <ViewerTest_DoubleMapNodeOfDoubleMapOfInteractiveAndName.hxx>
 #include <ViewerTest_DoubleMapIteratorOfDoubleMapOfInteractiveAndName.hxx>
  
@@ -20,7 +20,7 @@
 #define TheKey2 TCollection_AsciiString
 #define TheKey2_hxx <Foundation/TCollection/TCollection_AsciiString.hxx>
 #define Hasher1 TColStd_MapTransientHasher
-#define Hasher1_hxx <TColStd_MapTransientHasher.hxx>
+#define Hasher1_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define Hasher2 TCollection_AsciiString
 #define Hasher2_hxx <Foundation/TCollection/TCollection_AsciiString.hxx>
 #define TCollection_DoubleMapNode ViewerTest_DoubleMapNodeOfDoubleMapOfInteractiveAndName

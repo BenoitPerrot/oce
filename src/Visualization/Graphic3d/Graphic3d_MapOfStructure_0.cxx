@@ -6,7 +6,7 @@
 #include <Graphic3d_MapOfStructure.hxx>
 
 #include <Graphic3d_Structure.hxx>
-#include <TColStd_MapTransientHasher.hxx>
+#include <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #include <Graphic3d_StdMapNodeOfMapOfStructure.hxx>
 #include <Graphic3d_MapIteratorOfMapOfStructure.hxx>
  
@@ -14,7 +14,7 @@
 #define TheKey Handle(Graphic3d_Structure)
 #define TheKey_hxx <Graphic3d_Structure.hxx>
 #define Hasher TColStd_MapTransientHasher
-#define Hasher_hxx <TColStd_MapTransientHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define TCollection_StdMapNode Graphic3d_StdMapNodeOfMapOfStructure
 #define TCollection_StdMapNode_hxx <Graphic3d_StdMapNodeOfMapOfStructure.hxx>
 #define TCollection_MapIterator Graphic3d_MapIteratorOfMapOfStructure

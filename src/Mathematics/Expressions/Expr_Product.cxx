@@ -25,7 +25,7 @@
 #include <Expr_GeneralExpression.hxx>
 #include <Expr_NamedUnknown.hxx>
 #include <Expr_Array1OfNamedUnknown.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Expr_Product.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -39,7 +39,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(Expr_Product)
 IMPLEMENT_DOWNCAST(Expr_Product,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Expr_Product)
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Expr_Sum.hxx>
 #include <Expr_UnaryMinus.hxx>
 #include <Expr_NumericValue.hxx>

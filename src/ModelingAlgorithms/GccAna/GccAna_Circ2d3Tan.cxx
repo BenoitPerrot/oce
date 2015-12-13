@@ -35,7 +35,7 @@
 #include <GccInt_BElips.hxx>
 #include <GccInt_BHyper.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <GccEnt_BadQualifier.hxx>
 #include <math_DirectPolynomialRoots.hxx>
 

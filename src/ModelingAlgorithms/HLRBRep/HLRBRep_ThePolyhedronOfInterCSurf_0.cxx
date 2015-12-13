@@ -8,7 +8,7 @@
 #include <Bnd_HArray1OfBox.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <HLRBRep_SurfaceTool.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <gp_Pnt.hxx>
 #include <Bnd_Box.hxx>
 #include <gp_XYZ.hxx>

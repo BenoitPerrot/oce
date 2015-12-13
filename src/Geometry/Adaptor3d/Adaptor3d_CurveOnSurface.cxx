@@ -15,11 +15,11 @@
 
 #include <Adaptor3d_HSurface.hxx>
 #include <Adaptor2d_HCurve2d.hxx>
-#include <TColStd_HSequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Adaptor3d_HCurve.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Vec.hxx>
@@ -53,9 +53,9 @@
 #include <Foundation/Standard/Standard_Assert.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>
 #include <TColgp_Array1OfPnt.hxx>
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_Array1OfInteger.hxx>
-#include <TColStd_HSequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <ElCLib.hxx>
 #include <ElSLib.hxx>

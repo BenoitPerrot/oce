@@ -38,7 +38,7 @@ IMPLEMENT_STANDARD_RTTI(DrawTrSurf_Curve2d)
 #include <GeomTools_Curve2dSet.hxx>
 #include <Geom2dLProp_CLProps2d.hxx>
 #include <gp.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Precision.hxx>
 
 static Standard_Real DrawTrSurf_CurveLimit = 400;

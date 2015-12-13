@@ -52,7 +52,7 @@
 #include <Select3D_ListOfSensitiveTriangle.hxx>
 #include <TColgp_HArray1OfPnt.hxx>
 #include <TColgp_SequenceOfPnt.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <BRep_Tool.hxx>
 #include <BRepTools.hxx>
 #include <Select3D_TypeOfSensitivity.hxx>

@@ -17,7 +17,7 @@
 // pmn -> 17/01/1996 added : Continuity, (Nb)Interals, D2, Trim
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Law_Function.hxx>
 #include <Law_Constant.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopoDS_Shape.hxx>
-#include <TColStd_MapIntegerHasher.hxx>
+#include <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #include <TopTools_DataMapOfIntegerShape.hxx>
 #include <TopTools_DataMapNodeOfDataMapOfIntegerShape.hxx>
  
@@ -17,7 +17,7 @@
 #define TheItem TopoDS_Shape
 #define TheItem_hxx <TopoDS_Shape.hxx>
 #define Hasher TColStd_MapIntegerHasher
-#define Hasher_hxx <TColStd_MapIntegerHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #define TCollection_DataMapNode TopTools_DataMapNodeOfDataMapOfIntegerShape
 #define TCollection_DataMapNode_hxx <TopTools_DataMapNodeOfDataMapOfIntegerShape.hxx>
 #define TCollection_DataMapIterator TopTools_DataMapIteratorOfDataMapOfIntegerShape

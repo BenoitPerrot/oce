@@ -21,8 +21,8 @@
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
-#include <TColStd_HSequenceOfHAsciiString.hxx>
-#include <TColStd_HSequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfHAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfInteger.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 

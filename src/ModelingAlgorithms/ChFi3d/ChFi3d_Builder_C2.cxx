@@ -119,7 +119,7 @@
 #include <ChFiDS_Stripe.hxx>
 #include <ChFiDS_ListIteratorOfListOfStripe.hxx>
 
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 
 static void Reduce(const Standard_Real& p1,
 		   const Standard_Real& p2,

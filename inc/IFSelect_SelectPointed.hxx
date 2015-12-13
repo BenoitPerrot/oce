@@ -11,7 +11,7 @@
 #include <Handle_IFSelect_SelectPointed.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <TColStd_SequenceOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfTransient.hxx>
 #include <IFSelect_SelectBase.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Handle_TColStd_HSequenceOfTransient.hxx>

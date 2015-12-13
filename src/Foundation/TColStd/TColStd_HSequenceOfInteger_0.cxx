@@ -3,13 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TColStd_HSequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfInteger.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <TColStd_SequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 
  
 
@@ -30,9 +30,9 @@ IMPLEMENT_STANDARD_RTTI(TColStd_HSequenceOfInteger)
 #define Item Standard_Integer
 #define Item_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheSequence TColStd_SequenceOfInteger
-#define TheSequence_hxx <TColStd_SequenceOfInteger.hxx>
+#define TheSequence_hxx <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #define TCollection_HSequence TColStd_HSequenceOfInteger
-#define TCollection_HSequence_hxx <TColStd_HSequenceOfInteger.hxx>
+#define TCollection_HSequence_hxx <Foundation/TColStd/TColStd_HSequenceOfInteger.hxx>
 #define Handle_TCollection_HSequence Handle_TColStd_HSequenceOfInteger
 #define TCollection_HSequence_Type_() TColStd_HSequenceOfInteger_Type_()
 #include <Foundation/TCollection/TCollection_HSequence.gxx>

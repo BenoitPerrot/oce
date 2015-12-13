@@ -24,7 +24,7 @@
 #include <gp_Trsf.hxx>
 #include <GeomAdaptor_Curve.hxx>
 #include <Adaptor3d_CurveOnSurface.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Adaptor3d_HCurve.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Vec.hxx>

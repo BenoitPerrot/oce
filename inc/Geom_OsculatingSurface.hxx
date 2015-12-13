@@ -14,7 +14,7 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Geom_HSequenceOfBSplineSurface.hxx>
 #include <Handle_TColStd_HSequenceOfInteger.hxx>
-#include <TColStd_Array1OfBoolean.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Geom_BSplineSurface.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

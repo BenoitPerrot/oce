@@ -8,7 +8,7 @@
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <MAT_Bisector.hxx>
-#include <TColStd_MapIntegerHasher.hxx>
+#include <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #include <MAT_DataMapOfIntegerBisector.hxx>
 #include <MAT_DataMapIteratorOfDataMapOfIntegerBisector.hxx>
 
@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_RTTI(MAT_DataMapNodeOfDataMapOfIntegerBisector)
 #define TheItem Handle(MAT_Bisector)
 #define TheItem_hxx <MAT_Bisector.hxx>
 #define Hasher TColStd_MapIntegerHasher
-#define Hasher_hxx <TColStd_MapIntegerHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #define TCollection_DataMapNode MAT_DataMapNodeOfDataMapOfIntegerBisector
 #define TCollection_DataMapNode_hxx <MAT_DataMapNodeOfDataMapOfIntegerBisector.hxx>
 #define TCollection_DataMapIterator MAT_DataMapIteratorOfDataMapOfIntegerBisector

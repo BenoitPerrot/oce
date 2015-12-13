@@ -13,7 +13,7 @@
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TColStd_HSequenceOfAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfAsciiString.hxx>
 #include <IFSelect_SessionPilot.hxx>
 #include <IFSelect_Activator.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -27,8 +27,8 @@ IMPLEMENT_DOWNCAST(IFSelect_Activator,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IFSelect_Activator)
 #include <Foundation/Dico/Dico_DictionaryOfInteger.hxx>
 #include <Foundation/Dico/Dico_IteratorOfDictionaryOfInteger.hxx>
-#include <TColStd_SequenceOfInteger.hxx>
-#include <TColStd_SequenceOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfTransient.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 
 #include <IFSelect_Profile.hxx>

@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TColStd_HSequenceOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <Foundation/Standard/Standard_TypeMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(Transfer_TransientListBinder)
 IMPLEMENT_DOWNCAST(Transfer_TransientListBinder,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Transfer_TransientListBinder)
-//#include  <TColStd.hxx>
+//#include  <Foundation/TColStd/TColStd.hxx>
 
 //=======================================================================
 //function : Constructor

@@ -19,7 +19,7 @@
 #include <VrmlData_UnknownNode.hxx>
 #include <BRep_Builder.hxx>
 #include <Poly_Polygon3D.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Wire.hxx>

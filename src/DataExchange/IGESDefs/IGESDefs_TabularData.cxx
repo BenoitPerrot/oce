@@ -19,11 +19,11 @@
 // UNFINISHED
 // The last field (theDependentValues) not resolved. Queried to mdtv
 
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <IGESBasic_HArray1OfHArray1OfReal.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <IGESDefs_TabularData.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESDefs_TabularData)
@@ -36,7 +36,7 @@ IMPLEMENT_STANDARD_TYPE_END(IGESDefs_TabularData)
 IMPLEMENT_DOWNCAST(IGESDefs_TabularData,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESDefs_TabularData)
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 
 
 IGESDefs_TabularData::IGESDefs_TabularData ()    {  }

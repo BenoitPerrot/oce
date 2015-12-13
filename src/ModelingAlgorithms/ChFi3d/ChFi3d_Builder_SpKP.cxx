@@ -16,9 +16,9 @@
 
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Precision.hxx>
-#include <TColStd_SequenceOfInteger.hxx>
-#include <TColStd_Array1OfInteger.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <gp.hxx>
 #include <gp_Pnt2d.hxx>
 #include <gp_Dir2d.hxx>

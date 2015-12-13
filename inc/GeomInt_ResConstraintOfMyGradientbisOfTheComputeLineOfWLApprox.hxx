@@ -15,7 +15,7 @@
 #include <math_Matrix.hxx>
 #include <math_Vector.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Handle_AppParCurves_HArray1OfConstraintCouple.hxx>
 class Standard_OutOfRange;
 class GeomInt_TheMultiLineOfWLApprox;

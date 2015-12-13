@@ -29,8 +29,8 @@ IMPLEMENT_DOWNCAST(ShapeUpgrade_SplitCurve2d,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_SplitCurve2d)
 #include <ShapeUpgrade.hxx>
 #include <Geom2d_BSplineCurve.hxx>
-#include <TColStd_ListIteratorOfListOfReal.hxx>
-#include <TColStd_HSequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfReal.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
 #include <TColGeom2d_HArray1OfCurve.hxx>
 #include <Geom2d_TrimmedCurve.hxx>
 #include <Geom2d_OffsetCurve.hxx>

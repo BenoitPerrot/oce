@@ -12,7 +12,7 @@
 
 #include <AIS_PToContext.hxx>
 #include <Handle_Standard_Transient.hxx>
-#include <TColStd_ListOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_ListOfTransient.hxx>
 #include <Handle_AIS_Drawer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
@@ -20,7 +20,7 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Aspect_TypeOfFacingModel.hxx>
-#include <TColStd_ListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <SelectMgr_SelectableObject.hxx>
 #include <PrsMgr_TypeOfPresentation3d.hxx>
 #include <AIS_KindOfInteractive.hxx>

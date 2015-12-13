@@ -28,9 +28,9 @@ IMPLEMENT_STANDARD_TYPE_END(IFSelect_DispPerSignature)
 IMPLEMENT_DOWNCAST(IFSelect_DispPerSignature,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IFSelect_DispPerSignature)
 #include <IFSelect_Selection.hxx>
-#include <TColStd_HSequenceOfHAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfHAsciiString.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <TColStd_HSequenceOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <Interface_EntityIterator.hxx>
 #include <stdio.h>
 

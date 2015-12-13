@@ -28,10 +28,10 @@
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
-#include <TColStd_HArray2OfInteger.hxx>
-#include <TColStd_HArray1OfReal.hxx>
-#include <TColStd_HArray2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray2OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
 
 #include <gp_XY.hxx>
 #include <gp_Pnt2d.hxx>

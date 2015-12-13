@@ -9,7 +9,7 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <StepShape_TopologicalRepresentationItem.hxx>
 #include <TopoDS_Shape.hxx>
-#include <TColStd_MapTransientHasher.hxx>
+#include <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #include <StepToTopoDS_DataMapNodeOfDataMapOfTRI.hxx>
 #include <StepToTopoDS_DataMapIteratorOfDataMapOfTRI.hxx>
  
@@ -19,7 +19,7 @@
 #define TheItem TopoDS_Shape
 #define TheItem_hxx <TopoDS_Shape.hxx>
 #define Hasher TColStd_MapTransientHasher
-#define Hasher_hxx <TColStd_MapTransientHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define TCollection_DataMapNode StepToTopoDS_DataMapNodeOfDataMapOfTRI
 #define TCollection_DataMapNode_hxx <StepToTopoDS_DataMapNodeOfDataMapOfTRI.hxx>
 #define TCollection_DataMapIterator StepToTopoDS_DataMapIteratorOfDataMapOfTRI

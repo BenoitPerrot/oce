@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <MoniTool_Stat.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 

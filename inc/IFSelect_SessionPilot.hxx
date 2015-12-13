@@ -13,11 +13,11 @@
 #include <Handle_IFSelect_WorkSession.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <TColStd_Array1OfAsciiString.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Standard_Transient.hxx>
-#include <TColStd_SequenceOfAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfAsciiString.hxx>
 #include <IFSelect_Activator.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_IFSelect_WorkLibrary.hxx>

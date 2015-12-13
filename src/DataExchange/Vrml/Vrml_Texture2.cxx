@@ -14,7 +14,7 @@
 #include <Vrml_SFImage.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Vrml_Texture2.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 
 Vrml_Texture2::Vrml_Texture2()
 {

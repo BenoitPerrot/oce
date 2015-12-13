@@ -15,7 +15,7 @@
 #include <BOPTest.hxx>
 #include <stdio.h>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TColStd_IndexedMapOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_IndexedMapOfTransient.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <Draw.hxx>

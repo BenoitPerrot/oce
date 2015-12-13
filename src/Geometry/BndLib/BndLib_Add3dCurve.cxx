@@ -27,8 +27,8 @@
 #include <gp_Parab.hxx>
 #include <gp_Hypr.hxx>
 #include <Precision.hxx>
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 
 #include <ElCLib.hxx>
 

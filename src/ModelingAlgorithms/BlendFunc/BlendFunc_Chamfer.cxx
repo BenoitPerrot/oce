@@ -23,8 +23,8 @@
 #include <gp_Pnt.hxx>
 #include <gp_Vec.hxx>
 #include <gp_Vec2d.hxx>
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <gp_Lin.hxx>
 #include <Blend_Point.hxx>
 #include <TColgp_Array1OfPnt.hxx>

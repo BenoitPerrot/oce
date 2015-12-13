@@ -16,7 +16,7 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <TColStd_HArray2OfTransient.hxx>
+#include <Foundation/TColStd/TColStd_HArray2OfTransient.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_NullObject.hxx>
 #include <IGESDefs_AttributeDef.hxx>
@@ -35,8 +35,8 @@ IMPLEMENT_STANDARD_TYPE_END(IGESDefs_AttributeTable)
 IMPLEMENT_DOWNCAST(IGESDefs_AttributeTable,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESDefs_AttributeTable)
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
-#include <TColStd_HArray1OfReal.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Interface_HArray1OfHAsciiString.hxx>
 #include <IGESData_HArray1OfIGESEntity.hxx>
 #include <IGESDefs_AttributeDef.hxx>

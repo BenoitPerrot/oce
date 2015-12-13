@@ -77,7 +77,7 @@
 #include <Precision.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <TColgp_SequenceOfPnt.hxx>
-#include <TColStd_SequenceOfReal.hxx> 
+#include <Foundation/TColStd/TColStd_SequenceOfReal.hxx> 
 #include <TopAbs.hxx> 
 #include <TopExp.hxx>
 #include <TopExp_Explorer.hxx>
@@ -106,8 +106,8 @@
 #include <TopTools_IndexedMapOfShape.hxx>
 #include <Geom2d_BSplineCurve.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <BRepTools_Substitution.hxx>
 #include <BRepLib_MakeVertex.hxx>
 #include <Geom2dLProp_CLProps2d.hxx>

@@ -50,7 +50,7 @@ IMPLEMENT_STANDARD_RTTI(HLRBRep_Data)
 #include <IntRes2d_IntersectionSegment.hxx>
 #include <IntCurveSurface_IntersectionPoint.hxx>
 #include <IntCurveSurface_TransitionOnCurve.hxx>
-#include <TColStd_ListIteratorOfListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 #include <HLRAlgo.hxx>
 #include <HLRAlgo_ListIteratorOfInterferenceList.hxx>
 #include <HLRBRep_EdgeFaceTool.hxx>

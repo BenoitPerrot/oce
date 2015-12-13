@@ -13,7 +13,7 @@
 #include <Handle_Geom2d_Curve.hxx>
 #include <gp_Pnt2d.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <TColStd_SequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Bisector_Curve.hxx>

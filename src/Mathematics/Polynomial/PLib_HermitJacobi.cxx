@@ -16,7 +16,7 @@
 
 #include <PLib_JacobiPolynomial.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <PLib_HermitJacobi.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PLib_HermitJacobi)
@@ -30,7 +30,7 @@ IMPLEMENT_DOWNCAST(PLib_HermitJacobi,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(PLib_HermitJacobi)
 #include <PLib.hxx>
 #include <Foundation/NCollection/NCollection_LocalArray.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 
 //=======================================================================
 //function : PLib_HermitJacobi

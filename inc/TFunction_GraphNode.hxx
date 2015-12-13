@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TFunction_GraphNode.hxx>
 
-#include <TColStd_MapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_MapOfInteger.hxx>
 #include <TFunction_ExecutionStatus.hxx>
 #include <TDF_Attribute.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

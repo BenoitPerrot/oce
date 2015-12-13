@@ -18,8 +18,8 @@
 #include <BinTools_ShapeSet.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Precision.hxx>
-#include <TColStd_HArray1OfReal.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>
 #include <gp_Trsf.hxx>
 #include <Poly_PolygonOnTriangulation.hxx>

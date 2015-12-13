@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TColStd_HArray1OfExtendedString.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfExtendedString.hxx>
 #include <TDataStd_DeltaOnModificationOfExtStringArray.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <TDF_Label.hxx>

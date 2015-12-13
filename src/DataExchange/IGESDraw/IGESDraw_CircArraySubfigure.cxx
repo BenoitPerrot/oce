@@ -17,7 +17,7 @@
 //--------------------------------------------------------------------
 
 #include <IGESData_IGESEntity.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <gp_XYZ.hxx>
 #include <gp_Pnt.hxx>

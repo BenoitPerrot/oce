@@ -15,7 +15,7 @@
 #include <StepData_ECDescr.hxx>
 #include <StepData_Simple.hxx>
 #include <StepData_Field.hxx>
-#include <TColStd_HSequenceOfAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfAsciiString.hxx>
 #include <Interface_Check.hxx>
 #include <Interface_EntityIterator.hxx>
 #include <StepData_Plex.hxx>

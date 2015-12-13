@@ -20,7 +20,7 @@
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TColStd_SequenceOfAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfAsciiString.hxx>
 
 #include <Foundation/Message/Message_Msg.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>

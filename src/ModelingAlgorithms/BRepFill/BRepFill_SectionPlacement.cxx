@@ -43,8 +43,8 @@
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Precision.hxx>
 
 #ifdef OCCT_DEBUG

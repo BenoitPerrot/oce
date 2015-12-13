@@ -17,7 +17,7 @@
 
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <StepData_SelectMember.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <StepFEA_SymmetricTensor23d.hxx>
 #include <StepFEA_SymmetricTensor23dMember.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>

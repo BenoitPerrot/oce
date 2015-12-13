@@ -9,7 +9,7 @@
 #include <Adaptor3d_HSurface.hxx>
 #include <Adaptor3d_HCurve.hxx>
 #include <Adaptor3d_TopolTool.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Adaptor3d_HVertex.hxx>
 #include <Adaptor2d_HCurve2d.hxx>

@@ -5,11 +5,11 @@
 
 #include <HLRBRep_ThePolygonOfInterCSurf.hxx>
 
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <gp_Lin.hxx>
 #include <HLRBRep_LineTool.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Bnd_Box.hxx>
 #include <gp_Pnt.hxx>
  

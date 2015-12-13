@@ -47,7 +47,7 @@
 #include <BRep_Tool.hxx>
 #include <TopoDS.hxx>
 #include <gp_Pnt.hxx>
-#include <TColStd_MapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_MapOfInteger.hxx>
 #include <TDataStd_IntegerArray.hxx>
 
 #include <QANewModTopOpe_Glue.hxx>

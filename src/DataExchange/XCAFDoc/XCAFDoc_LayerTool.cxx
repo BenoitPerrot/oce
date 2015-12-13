@@ -18,7 +18,7 @@
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <TDF_LabelSequence.hxx>
-#include <TColStd_HSequenceOfExtendedString.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfExtendedString.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TDF_Attribute.hxx>
 #include <TDF_RelocationTable.hxx>

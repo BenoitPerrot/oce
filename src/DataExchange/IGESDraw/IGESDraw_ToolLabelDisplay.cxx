@@ -37,7 +37,7 @@
 #include <IGESDraw_HArray1OfViewKindEntity.hxx>
 #include <TColgp_HArray1OfXYZ.hxx>
 #include <IGESDimen_HArray1OfLeaderArrow.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <IGESData_HArray1OfIGESEntity.hxx>
 #include <IGESData_Dump.hxx>
 #include <IGESDraw_View.hxx>

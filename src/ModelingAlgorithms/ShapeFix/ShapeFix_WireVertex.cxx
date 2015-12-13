@@ -22,7 +22,7 @@
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <TopTools_HArray1OfShape.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <BRep_Builder.hxx>
 
 #include <ShapeAnalysis_Edge.hxx>

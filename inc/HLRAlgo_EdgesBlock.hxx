@@ -10,8 +10,8 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_HLRAlgo_EdgesBlock.hxx>
 
-#include <TColStd_Array1OfInteger.hxx>
-#include <TColStd_Array1OfBoolean.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <TopAbs_Orientation.hxx>

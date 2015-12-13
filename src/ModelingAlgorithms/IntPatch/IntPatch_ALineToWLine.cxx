@@ -24,8 +24,8 @@
 #include <IntSurf_TypeTrans.hxx>
 #include <IntSurf_Situation.hxx>
 
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 
 #include <Precision.hxx>
 

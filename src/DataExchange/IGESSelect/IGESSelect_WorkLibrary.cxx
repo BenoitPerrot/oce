@@ -44,7 +44,7 @@ IMPLEMENT_STANDARD_RTTI(IGESSelect_WorkLibrary)
 #include <IGESFile_Read.hxx>
 #include <IGESSelect_Dumper.hxx>
 #include <IFSelect_GeneralModifier.hxx>
-#include <TColStd_HSequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfInteger.hxx>
 #include <IGESSelect_FileModifier.hxx>
 
 #include <Interface_ReportEntity.hxx>

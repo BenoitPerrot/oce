@@ -16,7 +16,7 @@
 #include <BRepSweep_Tool.hxx>
 #include <Sweep_NumShapeTool.hxx>
 #include <TopTools_Array2OfShape.hxx>
-#include <TColStd_Array2OfBoolean.hxx>
+#include <Foundation/TColStd/TColStd_Array2OfBoolean.hxx>
 #include <TopAbs_Orientation.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_NoMoreObject;

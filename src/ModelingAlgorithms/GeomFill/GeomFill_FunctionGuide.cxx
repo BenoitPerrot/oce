@@ -42,8 +42,8 @@
 #include <gp_Ax1.hxx>
 #include <gp_Ax3.hxx>
 
-#include <TColStd_HArray1OfInteger.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <TColgp_HArray1OfPnt.hxx>
 
 

@@ -27,11 +27,11 @@
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Interface_Graph.hxx>
-#include <TColStd_HSequenceOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <Interface_CheckIterator.hxx>
-#include <TColStd_HSequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfInteger.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
-#include <TColStd_HSequenceOfHAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfHAsciiString.hxx>
 #include <IFSelect_IntParam.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <IFSelect_Selection.hxx>
@@ -43,8 +43,8 @@
 #include <IFSelect_Modifier.hxx>
 #include <IFSelect_Transformer.hxx>
 #include <IFSelect_PacketList.hxx>
-#include <TColStd_SequenceOfTransient.hxx>
-#include <TColStd_SequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <IFSelect_SignatureList.hxx>
 #include <IFSelect_WorkSession.hxx>
@@ -100,7 +100,7 @@ IMPLEMENT_STANDARD_RTTI(IFSelect_WorkSession)
 #include <IFSelect_CheckCounter.hxx>
 #include <IFSelect_TransformStandard.hxx>
 
-#include <TColStd_MapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_MapOfInteger.hxx>
 #include <Foundation/OSD/OSD_Path.hxx>
 #include <Interface_Macros.hxx>
 #include <Interface_MSG.hxx>

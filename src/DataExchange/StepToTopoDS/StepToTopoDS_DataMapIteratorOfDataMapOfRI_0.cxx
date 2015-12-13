@@ -8,7 +8,7 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <StepRepr_RepresentationItem.hxx>
 #include <TopoDS_Shape.hxx>
-#include <TColStd_MapTransientHasher.hxx>
+#include <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #include <StepToTopoDS_DataMapOfRI.hxx>
 #include <StepToTopoDS_DataMapNodeOfDataMapOfRI.hxx>
  
@@ -18,7 +18,7 @@
 #define TheItem TopoDS_Shape
 #define TheItem_hxx <TopoDS_Shape.hxx>
 #define Hasher TColStd_MapTransientHasher
-#define Hasher_hxx <TColStd_MapTransientHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define TCollection_DataMapNode StepToTopoDS_DataMapNodeOfDataMapOfRI
 #define TCollection_DataMapNode_hxx <StepToTopoDS_DataMapNodeOfDataMapOfRI.hxx>
 #define TCollection_DataMapIterator StepToTopoDS_DataMapIteratorOfDataMapOfRI

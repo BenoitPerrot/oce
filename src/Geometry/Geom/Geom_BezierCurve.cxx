@@ -27,13 +27,13 @@
 #define No_Standard_DimensionError
 
 #include <TColgp_HArray1OfPnt.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/Standard/Standard_DimensionError.hxx>
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <TColgp_Array1OfPnt.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Vec.hxx>
 #include <gp_Trsf.hxx>
@@ -59,7 +59,7 @@ IMPLEMENT_STANDARD_RTTI(Geom_BezierCurve)
 #include <Foundation/Standard/Standard_DimensionError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_RangeError.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Precision.hxx>
 
 //=======================================================================

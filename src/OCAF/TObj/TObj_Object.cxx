@@ -32,10 +32,10 @@
 #include <TObj_TReference.hxx>
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
-#include <TColStd_HArray1OfReal.hxx>
-#include <TColStd_HArray1OfExtendedString.hxx>
-#include <TColStd_SequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfExtendedString.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <TDF_AttributeIterator.hxx>
 #include <TDF_ChildIDIterator.hxx>
 #include <TDF_ChildIterator.hxx>

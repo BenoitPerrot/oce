@@ -25,7 +25,7 @@
 #include <CDM_Reference.hxx>
 #include <CDM_ReferenceIterator.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <TColStd_SequenceOfExtendedString.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfExtendedString.hxx>
 #include <Foundation/Resource/Resource_Manager.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <CDM_Document.hxx>

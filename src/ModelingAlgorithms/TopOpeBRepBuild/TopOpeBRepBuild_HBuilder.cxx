@@ -19,7 +19,7 @@
 #include <TopOpeBRepDS_HDataStructure.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopTools_ListOfShape.hxx>
-#include <TColStd_ListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <TopOpeBRepBuild_Builder.hxx>
 #include <TopOpeBRepBuild_HBuilder.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -39,8 +39,8 @@ IMPLEMENT_STANDARD_RTTI(TopOpeBRepBuild_HBuilder)
 #include <TopOpeBRepDS_ShapeShapeInterference.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
-#include <TColStd_ListIteratorOfListOfInteger.hxx>
-#include <TColStd_MapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_MapOfInteger.hxx>
 #include <TopTools_MapOfShape.hxx>
 #include <TopoDS.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>

@@ -14,7 +14,7 @@
 #include <Interface_InterfaceModel.hxx>
 #include <Interface_HGraph.hxx>
 #include <Foundation/Dico/Dico_DictionaryOfTransient.hxx>
-#include <TColStd_HSequenceOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <Interface_Graph.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_RTTI(Transfer_TransientProcess)
 #include <Interface_Check.hxx>
 #include <Interface_MSG.hxx>
 #include <Transfer_Binder.hxx>
-#include <TColStd_HSequenceOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 
 
 //=======================================================================

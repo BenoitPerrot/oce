@@ -13,7 +13,7 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <TDF_LabelDataMap.hxx>
 #include <TDF_AttributeDataMap.hxx>
-#include <TColStd_IndexedDataMapOfTransientTransient.hxx>
+#include <Foundation/TColStd/TColStd_IndexedDataMapOfTransientTransient.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_TDF_Attribute.hxx>
 #include <Handle_Standard_Transient.hxx>

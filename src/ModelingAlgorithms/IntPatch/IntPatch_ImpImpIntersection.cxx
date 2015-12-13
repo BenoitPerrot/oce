@@ -26,8 +26,8 @@
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <IntPatch_SequenceOfLine.hxx>
-#include <TColStd_Array1OfInteger.hxx>
-#include <TColStd_SequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <TColgp_SequenceOfPnt.hxx>
 
 #include <IntSurf_Quadric.hxx>

@@ -13,8 +13,8 @@
 #include <gp_Pnt2d.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <TColStd_SequenceOfReal.hxx>
-#include <TColStd_SequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <Geom2dInt_SeqPCOfPCLocFOfTheLocateExtPCOfTheProjPCurOfGInter.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

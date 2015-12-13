@@ -21,7 +21,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <BRepTopAdaptor_SeqOfPtr.hxx>
-#include <TColStd_SequenceOfBoolean.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfBoolean.hxx>
 #include <TopAbs_State.hxx>
 #include <Foundation/NCollection/NCollection_Sequence.hxx>
 #include <gp_Pnt2d.hxx>

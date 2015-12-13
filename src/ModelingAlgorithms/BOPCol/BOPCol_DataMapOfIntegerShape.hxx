@@ -16,7 +16,7 @@
 #define BOPCol_DataMapOfIntegerShape_HeaderFile
 
 #include <TopoDS_Shape.hxx>  
-#include <TColStd_MapIntegerHasher.hxx>
+#include <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
   
 #include <Foundation/NCollection/NCollection_DataMap.hxx>
 

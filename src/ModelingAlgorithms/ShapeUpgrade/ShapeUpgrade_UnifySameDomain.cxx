@@ -58,7 +58,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_UnifySameDomain)
 #include <TColGeom_HArray1OfBSplineCurve.hxx>
 #include <TColGeom2d_Array1OfBSplineCurve.hxx>
 #include <TColGeom2d_HArray1OfBSplineCurve.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <TopExp.hxx>
 #include <Geom_TrimmedCurve.hxx>
 #include <Geom2d_TrimmedCurve.hxx>
@@ -68,7 +68,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_UnifySameDomain)
 #include <Geom2dConvert_CompCurveToBSplineCurve.hxx>
 #include <TColGeom2d_SequenceOfBoundedCurve.hxx>
 #include <BRepLib_MakeEdge.hxx>
-#include <TColStd_MapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_MapOfInteger.hxx>
 #include <BRepLib.hxx>
 #include <GC_MakeCircle.hxx>
 #include <Geom_BezierCurve.hxx>

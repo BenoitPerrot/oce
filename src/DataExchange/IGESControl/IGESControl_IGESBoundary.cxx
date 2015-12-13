@@ -40,7 +40,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESControl_IGESBoundary)
 IMPLEMENT_DOWNCAST(IGESControl_IGESBoundary,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESControl_IGESBoundary)
-#include <TColStd_HSequenceOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <Geom2d_Curve.hxx>
 #include <Geom_Curve.hxx>
 #include <Geom_Plane.hxx>

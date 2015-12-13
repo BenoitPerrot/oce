@@ -57,7 +57,7 @@ private:
 #define TheItem gp_Vec
 #define TheItem_hxx <gp_Vec.hxx>
 #define Hasher TColStd_MapIntegerHasher
-#define Hasher_hxx <TColStd_MapIntegerHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #define TCollection_DataMapNode MeshVS_DataMapNodeOfDataMapOfIntegerVector
 #define TCollection_DataMapNode_hxx <MeshVS_DataMapNodeOfDataMapOfIntegerVector.hxx>
 #define TCollection_DataMapIterator MeshVS_DataMapIteratorOfDataMapOfIntegerVector

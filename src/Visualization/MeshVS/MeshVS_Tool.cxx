@@ -19,7 +19,7 @@
 #include <Graphic3d_AspectLine3d.hxx>
 #include <Graphic3d_AspectMarker3d.hxx>
 #include <Graphic3d_AspectText3d.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <gp_Vec.hxx>
 #include <MeshVS_Tool.hxx>
 

@@ -50,7 +50,7 @@ IMPLEMENT_STANDARD_RTTI(XmlLDrivers_DocumentStorageDriver)
 #include <CDM_Document.hxx>
 #include <CDM_Application.hxx>
 #include <TDocStd_Document.hxx>
-#include <TColStd_SequenceOfAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfAsciiString.hxx>
 
 #include <locale.h>
 #include <Foundation/Standard/Standard_Failure.hxx>

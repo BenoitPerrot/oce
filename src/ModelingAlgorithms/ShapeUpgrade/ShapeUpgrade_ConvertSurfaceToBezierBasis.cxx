@@ -28,14 +28,14 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(ShapeUpgrade_ConvertSurfaceToBezierBasis)
 IMPLEMENT_DOWNCAST(ShapeUpgrade_ConvertSurfaceToBezierBasis,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_ConvertSurfaceToBezierBasis)
-#include <TColStd_HSequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
 #include <Precision.hxx>
 #include <Geom_RectangularTrimmedSurface.hxx>
 #include <Geom_OffsetSurface.hxx>
 #include <Geom_Plane.hxx>
 #include <TColgp_Array2OfPnt.hxx>
 #include <Geom_BezierSurface.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <TColGeom_HArray2OfSurface.hxx>
 #include <ShapeExtend.hxx>
 #include <Geom_BSplineSurface.hxx>
@@ -50,8 +50,8 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_ConvertSurfaceToBezierBasis)
 #include <Geom_SurfaceOfLinearExtrusion.hxx>
 #include <Geom_BezierCurve.hxx>
 #include <TColgp_Array1OfPnt.hxx>
-#include <TColStd_HArray1OfReal.hxx>
-#include <TColStd_Array1OfBoolean.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>
 
 
 ShapeUpgrade_ConvertSurfaceToBezierBasis::ShapeUpgrade_ConvertSurfaceToBezierBasis()

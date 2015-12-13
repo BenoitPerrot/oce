@@ -45,10 +45,10 @@
 #include <TColgp_Array2OfPnt2d.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <TColgp_SequenceOfPnt2d.hxx>
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_Array1OfInteger.hxx>
-#include <TColStd_SequenceOfReal.hxx>
-#include <TColStd_ListOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_ListOfTransient.hxx>
 
 #include <GeomAbs_SurfaceType.hxx>
 #include <GeomAbs_CurveType.hxx>

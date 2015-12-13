@@ -21,7 +21,7 @@
 #include <ShapeAnalysis_CheckSmallFace.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>  
 #include <TopTools_ListOfShape.hxx>
-#include <TColStd_ListOfReal.hxx>
+#include <Foundation/TColStd/TColStd_ListOfReal.hxx>
 #include <ShapeExtend.hxx>
 #include <gp_Pnt.hxx>
 #include <TopoDS_Vertex.hxx>
@@ -44,10 +44,10 @@
 //#include <GeomLProp_SLProps.hxx>
 #include <GeomAdaptor_Surface.hxx>
 #include <Geom_ElementarySurface.hxx>
-#include <TColStd_Array2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <gp_Dir.hxx>
 #include <gp_Vec.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <TopTools_Array1OfShape.hxx>
 

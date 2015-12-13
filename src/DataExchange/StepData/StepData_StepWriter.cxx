@@ -15,8 +15,8 @@
 //skl 29.01.2003 - deleted one space symbol at the begining
 //                 of strings from Header Section
 #include <StepData_StepModel.hxx>
-#include <TColStd_HSequenceOfHAsciiString.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfHAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Interface_InterfaceMismatch.hxx>
 #include <Interface_FloatWriter.hxx>
 #include <StepData_Protocol.hxx>
@@ -29,7 +29,7 @@
 #include <StepData_FieldList.hxx>
 #include <StepData_ESDescr.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Interface_CheckIterator.hxx>
 #include <StepData_StepWriter.hxx>
 #include <StepData_WriterLib.hxx>

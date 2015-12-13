@@ -57,7 +57,7 @@ IMPLEMENT_STANDARD_TYPE_END(V3d_CircularGrid)
 IMPLEMENT_DOWNCAST(V3d_CircularGrid,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(V3d_CircularGrid)
 
-#include <TColStd_Array2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <Graphic3d_AspectLine3d.hxx>
 #include <Graphic3d_AspectMarker3d.hxx>
 #include <Graphic3d_Vertex.hxx>

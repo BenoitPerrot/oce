@@ -34,8 +34,8 @@
 #include <ShapeExtend_WireData.hxx>
 #include <gp_Lin2d.hxx>
 #include <ShapeFix_WireSegment.hxx>
-#include <TColStd_SequenceOfInteger.hxx>
-#include <TColStd_SequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <TopTools_SequenceOfShape.hxx>
 #include <Geom_Surface.hxx>
 #include <ShapeFix_ComposeShell.hxx>
@@ -55,12 +55,12 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_ComposeShell)
 #include <gp_Lin2d.hxx>
 #include <gp_Dir2d.hxx>
 
-#include <TColStd_Array1OfInteger.hxx>
-#include <TColStd_Array1OfBoolean.hxx>
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <TColgp_SequenceOfPnt2d.hxx>
-#include <TColStd_SequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 
 #include <IntRes2d_IntersectionSegment.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>

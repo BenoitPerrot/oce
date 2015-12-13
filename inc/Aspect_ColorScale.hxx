@@ -17,7 +17,7 @@
 #include <Aspect_TypeOfColorScaleData.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Aspect_SequenceOfColor.hxx>
-#include <TColStd_SequenceOfExtendedString.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfExtendedString.hxx>
 #include <Aspect_TypeOfColorScalePosition.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class Quantity_Color;

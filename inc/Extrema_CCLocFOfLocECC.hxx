@@ -14,7 +14,7 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Vec.hxx>
-#include <TColStd_SequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <Extrema_SeqPOnCOfCCLocFOfLocECC.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <math_FunctionSetWithDerivatives.hxx>

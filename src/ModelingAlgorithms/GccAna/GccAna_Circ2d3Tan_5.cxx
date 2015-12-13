@@ -29,7 +29,7 @@
 #include <gp_Lin2d.hxx>
 #include <gp_Circ2d.hxx>
 #include <gp_Dir2d.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <GccAna_CircLin2dBisec.hxx>
 #include <GccAna_LinPnt2dBisec.hxx>
 #include <GccInt_IType.hxx>

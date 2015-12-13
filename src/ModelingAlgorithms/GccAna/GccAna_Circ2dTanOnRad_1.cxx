@@ -26,7 +26,7 @@
 #include <ElCLib.hxx>
 #include <IntAna2d_AnaIntersection.hxx>
 #include <IntAna2d_IntPoint.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/Standard/Standard_NegativeValue.hxx>
 #include <gp_Dir2d.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>

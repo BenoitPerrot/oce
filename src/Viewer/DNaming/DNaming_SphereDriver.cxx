@@ -43,7 +43,7 @@ IMPLEMENT_STANDARD_RTTI(DNaming_SphereDriver)
 #include <TopLoc_Location.hxx>
 #include <BRepAlgo.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>
-#include <TColStd_ListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 
 #include <TDataStd_Integer.hxx>
 #include <TDataStd_Real.hxx>

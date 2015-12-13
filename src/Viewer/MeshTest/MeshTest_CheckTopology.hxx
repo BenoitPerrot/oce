@@ -18,8 +18,8 @@
 
 #include <TopoDS_Shape.hxx>
 #include <Foundation/NCollection/NCollection_IndexedDataMap.hxx>
-#include <TColStd_HSequenceOfInteger.hxx>
-#include <TColStd_SequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <Draw_Interpretor.hxx>
 
 //! This class checks topology of the mesh presented by

@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <IFSelect_SelectDeduct.hxx>
-#include <TColStd_HSequenceOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <Interface_Graph.hxx>
 #include <IFSelect_GraphCounter.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

@@ -19,8 +19,8 @@
 #include <gp_Pln.hxx>
 #include <BRepGProp_VinertGK.hxx>
 
-#include <TColStd_HArray1OfReal.hxx>
-#include <TColStd_Array1OfBoolean.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>
 #include <math_KronrodSingleIntegration.hxx>
 
 #include <BRepGProp_TFunction.hxx>

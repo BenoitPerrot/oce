@@ -19,14 +19,14 @@
 #include <IFSelect_Option.hxx>
 #include <MoniTool_TypedValue.hxx>
 #include <Interface_Static.hxx>
-#include <TColStd_HSequenceOfAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfAsciiString.hxx>
 
 #include <XSControl_WorkSession.hxx>
 #include <IFSelect_Act.hxx>
 #include <IFSelect_SessionPilot.hxx>
 #include <IFSelect_Functions.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <TColStd_HSequenceOfHAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfHAsciiString.hxx>
 
 #include <Interface_InterfaceModel.hxx>
 #include <Transfer_TransientProcess.hxx>
@@ -46,7 +46,7 @@
 
 #include <XSControl_TransferWriter.hxx>
 #include <XSControl_TransferReader.hxx>
-#include <TColStd_HSequenceOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <Transfer_ResultFromModel.hxx>
 #include <XSControl_SelectForTransfer.hxx>
 

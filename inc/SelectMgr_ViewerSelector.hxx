@@ -19,7 +19,7 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <SelectMgr_IndexedDataMapOfOwnerCriterion.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>
-#include <TColStd_SequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <SelectBasics_PickArgs.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_SelectMgr_Selection.hxx>

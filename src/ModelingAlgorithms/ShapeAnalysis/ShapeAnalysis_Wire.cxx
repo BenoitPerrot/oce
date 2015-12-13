@@ -43,7 +43,7 @@
 #include <gp_Pnt2d.hxx>
 #include <IntRes2d_SequenceOfIntersectionPoint.hxx>
 #include <TColgp_SequenceOfPnt.hxx>
-#include <TColStd_SequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>
 #include <TopTools_DataMapOfShapeListOfShape.hxx>
@@ -85,7 +85,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeAnalysis_Wire)
 #include <TopoDS.hxx>
 #include <Precision.hxx>
 #include <TColgp_Array1OfPnt.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Bnd_Array1OfBox2d.hxx>
 #include <BndLib_Add2dCurve.hxx>
 #include <Bnd_Box2d.hxx>

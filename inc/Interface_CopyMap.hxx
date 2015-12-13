@@ -11,7 +11,7 @@
 #include <Handle_Interface_CopyMap.hxx>
 
 #include <Handle_Interface_InterfaceModel.hxx>
-#include <TColStd_Array1OfTransient.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfTransient.hxx>
 #include <Interface_CopyControl.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

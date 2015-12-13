@@ -38,8 +38,8 @@
 #include <gp_Parab2d.hxx>
 #include <gp_Hypr2d.hxx>
 
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>

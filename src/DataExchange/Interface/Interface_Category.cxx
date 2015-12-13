@@ -12,14 +12,14 @@
 // commercial license or contractual agreement.
 
 #include <Interface_GTool.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Interface_Protocol.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Interface_ShareTool.hxx>
 #include <Interface_InterfaceModel.hxx>
 #include <Interface_Category.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TColStd_SequenceOfAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfAsciiString.hxx>
 #include <Interface_GeneralModule.hxx>
 
 static int init = 0;

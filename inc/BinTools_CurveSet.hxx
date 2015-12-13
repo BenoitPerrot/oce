@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <TColStd_IndexedMapOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_IndexedMapOfTransient.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Geom_Curve.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>

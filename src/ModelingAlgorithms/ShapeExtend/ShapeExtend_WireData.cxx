@@ -16,7 +16,7 @@
 //    abv 05.05.99  S4174: protection against INTERNAL/EXTERNAL edges
 
 #include <TopTools_HSequenceOfShape.hxx>
-#include <TColStd_HSequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfInteger.hxx>
 #include <TopoDS_Wire.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Shape.hxx>

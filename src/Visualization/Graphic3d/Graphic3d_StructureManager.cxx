@@ -38,9 +38,9 @@
 #include <Graphic3d_InitialisationError.hxx>
 #include <Graphic3d_Structure.hxx>
 #include <Graphic3d_MapOfStructure.hxx>
-#include <TColStd_SequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <Graphic3d_DataStructureManager.hxx>
-#include <TColStd_Array2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <Graphic3d_StructureManager.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Graphic3d_StructureManager)

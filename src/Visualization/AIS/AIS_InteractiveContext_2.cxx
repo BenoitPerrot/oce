@@ -27,7 +27,7 @@
 #include <TopLoc_Location.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <AIS_Drawer.hxx>
-#include <TColStd_ListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Prs3d_LineAspect.hxx>
 #include <Prs3d_BasicAspect.hxx>
@@ -45,7 +45,7 @@
 #include <AIS_LocalContext.hxx>
 
 #include <AIS_GlobalStatus.hxx>
-#include <TColStd_ListIteratorOfListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 
 #include <AIS_DataMapIteratorOfDataMapOfIOStatus.hxx>
 #include <AIS_DataMapIteratorOfDataMapOfILC.hxx>

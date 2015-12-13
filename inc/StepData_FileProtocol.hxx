@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepData_FileProtocol.hxx>
 
-#include <TColStd_SequenceOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfTransient.hxx>
 #include <StepData_Protocol.hxx>
 #include <Handle_StepData_Protocol.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

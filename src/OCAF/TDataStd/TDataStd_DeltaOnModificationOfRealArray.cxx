@@ -13,8 +13,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TColStd_HArray1OfInteger.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <TDataStd_RealArray.hxx>
 #include <TDataStd_DeltaOnModificationOfRealArray.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -31,9 +31,9 @@ IMPLEMENT_STANDARD_RTTI(TDataStd_DeltaOnModificationOfRealArray)
 #include <TDataStd_RealArray.hxx>
 #include <TDF_DeltaOnModification.hxx>
 #include <TDF_Label.hxx>
-#include <TColStd_HArray1OfReal.hxx>
-#include <TColStd_ListOfInteger.hxx>
-#include <TColStd_ListIteratorOfListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 #include <TDF_AttributeIterator.hxx>
 #ifdef OCCT_DEBUG
 #define MAXUP 1000

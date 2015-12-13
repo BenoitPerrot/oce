@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TColStd_SequenceOfHAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfHAsciiString.hxx>
 #include <Font_SystemFont.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Font_FontMgr.hxx>

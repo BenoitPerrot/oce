@@ -44,7 +44,7 @@
 #include <ElSLib.hxx>
 #include <Geom_Line.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <gp_Lin2d.hxx>
 #include <ElCLib.hxx>
 #include <GeomLib.hxx>

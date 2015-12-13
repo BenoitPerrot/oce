@@ -63,7 +63,7 @@
 #include <BRepClass3d_SolidClassifier.hxx>
 
 // CopyShape
-#include <TColStd_IndexedDataMapOfTransientTransient.hxx>
+#include <Foundation/TColStd/TColStd_IndexedDataMapOfTransientTransient.hxx>
 #include <TNaming_TranslateTool.hxx>
 #include <TopLoc_Datum3D.hxx>
 

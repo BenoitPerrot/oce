@@ -46,8 +46,8 @@
 #include <gp_Pln.hxx>
 #include <GeomAPI.hxx>
 #include <TColgp_Array1OfPnt.hxx>
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Geom_BSplineCurve.hxx>
 #include <Geom_SphericalSurface.hxx> //S4135
 #include <Geom2d_BSplineCurve.hxx>

@@ -46,7 +46,7 @@ IMPLEMENT_STANDARD_RTTI(XSControl_WorkSession)
 #include <Transfer_TransientProcess.hxx>
 #include <Transfer_ResultFromModel.hxx>
 #include <Transfer_ResultFromTransient.hxx>
-#include <TColStd_HSequenceOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 
 #include <TransferBRep.hxx>
 #include <Transfer_Binder.hxx>

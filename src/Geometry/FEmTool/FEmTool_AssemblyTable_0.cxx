@@ -9,11 +9,11 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
  
 
 #define Array2Item Handle(TColStd_HArray1OfInteger)
-#define Array2Item_hxx <TColStd_HArray1OfInteger.hxx>
+#define Array2Item_hxx <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #define TCollection_Array2 FEmTool_AssemblyTable
 #define TCollection_Array2_hxx <FEmTool_AssemblyTable.hxx>
 #include <Foundation/TCollection/TCollection_Array2.gxx>

@@ -23,10 +23,10 @@
 #include <TopoDS.hxx>
 #include <TopExp.hxx>
 #include <TopExp_Explorer.hxx>
-#include <TColStd_DataMapIteratorOfDataMapOfIntegerListOfInteger.hxx>
-#include <TColStd_DataMapOfIntegerListOfInteger.hxx>
-#include <TColStd_ListIteratorOfListOfInteger.hxx>
-#include <TColStd_ListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_DataMapIteratorOfDataMapOfIntegerListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_DataMapOfIntegerListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <TopOpeBRepTool_ShapeTool.hxx>
 #include <BRepAdaptor_Curve.hxx>
 #include <BRepAdaptor_Surface.hxx>

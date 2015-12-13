@@ -23,7 +23,7 @@
 #include <RWStepFEA_RWFeaModel3d.hxx>
 #include <StepRepr_HArray1OfRepresentationItem.hxx>
 #include <StepRepr_RepresentationItem.hxx>
-#include <TColStd_HArray1OfAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfAsciiString.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 //=======================================================================

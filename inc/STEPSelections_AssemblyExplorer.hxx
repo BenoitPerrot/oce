@@ -12,7 +12,7 @@
 
 #include <STEPSelections_SequenceOfAssemblyComponent.hxx>
 #include <Interface_Graph.hxx>
-#include <TColStd_IndexedDataMapOfTransientTransient.hxx>
+#include <Foundation/TColStd/TColStd_IndexedDataMapOfTransientTransient.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 #include <Handle_StepShape_ShapeDefinitionRepresentation.hxx>
 #include <Handle_StepBasic_ProductDefinition.hxx>

@@ -57,7 +57,7 @@ private:
 #define TheItem TopOpeBRepDS_ShapeData
 #define TheItem_hxx <TopOpeBRepDS_ShapeData.hxx>
 #define Hasher TColStd_MapIntegerHasher
-#define Hasher_hxx <TColStd_MapIntegerHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #define TCollection_DataMapNode TopOpeBRepDS_DataMapNodeOfMapOfIntegerShapeData
 #define TCollection_DataMapNode_hxx <TopOpeBRepDS_DataMapNodeOfMapOfIntegerShapeData.hxx>
 #define TCollection_DataMapIterator TopOpeBRepDS_DataMapIteratorOfMapOfIntegerShapeData

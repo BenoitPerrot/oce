@@ -15,7 +15,7 @@
 //    sln 04,10.2001. BUC61003. Prevent exception which may occur during reading of complex entity (if entity's items are not in alphabetical order)
 #include <Interface_Check.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TColStd_SequenceOfAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfAsciiString.hxx>
 #include <StepData_PDescr.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <StepData_SelectMember.hxx>
@@ -45,20 +45,20 @@ IMPLEMENT_STANDARD_RTTI(StepData_StepReaderData)
 #include <Interface_Static.hxx>
 #include <Interface_Macros.hxx>
 
-#include <TColStd_SequenceOfInteger.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
-#include <TColStd_Array1OfInteger.hxx>
-#include <TColStd_IndexedMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_IndexedMapOfInteger.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
-#include <TColStd_HArray1OfTransient.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfTransient.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Interface_HArray1OfHAsciiString.hxx>
 #include <StepData_SelectMember.hxx>
 #include <StepData_SelectNamed.hxx>
 #include <StepData_SelectReal.hxx>
 #include <StepData_SelectInt.hxx>
-#include <TColStd_HSequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
 #include <StepData_SelectArrReal.hxx>
 
 #include <stdio.h>

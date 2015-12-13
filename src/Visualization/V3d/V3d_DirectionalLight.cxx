@@ -68,7 +68,7 @@ IMPLEMENT_STANDARD_RTTI(V3d_DirectionalLight)
 #include <gp_Vec.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Trsf.hxx>
-#include <TColStd_Array2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <Aspect_Window.hxx>
 
 //-Constructors

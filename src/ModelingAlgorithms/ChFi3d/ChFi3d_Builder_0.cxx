@@ -39,8 +39,8 @@
 #include <TColgp_Array1OfPnt2d.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <TColgp_Array1OfXYZ.hxx>
-#include <TColStd_Array1OfInteger.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 
 #include <Geom_TrimmedCurve.hxx>
 #include <Geom_BSplineCurve.hxx>

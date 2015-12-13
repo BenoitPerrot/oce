@@ -27,7 +27,7 @@
 #include <TopoDS.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopTools_Array1OfShape.hxx>
-#include <TColStd_Array1OfBoolean.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 //#include <BRepAdaptor_Curve2d.hxx>
 #include <BRepAdaptor_Surface.hxx>

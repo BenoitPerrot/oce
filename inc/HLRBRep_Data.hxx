@@ -14,7 +14,7 @@
 #include <TopTools_IndexedMapOfShape.hxx>
 #include <HLRBRep_Array1OfEData.hxx>
 #include <HLRBRep_Array1OfFData.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/Standard/Standard_ShortReal.hxx>
 #include <HLRAlgo_Projector.hxx>
 #include <HLRBRep_CLProps.hxx>

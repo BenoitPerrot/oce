@@ -33,7 +33,7 @@
 #include <gp_XYZ.hxx>
 #include <gp_Pnt.hxx>
 #include <IGESData_IGESEntity.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <IGESData_Dump.hxx>
 #include <Interface_Macros.hxx>
 

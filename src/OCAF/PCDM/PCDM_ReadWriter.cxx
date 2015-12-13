@@ -20,7 +20,7 @@
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <CDM_MessageDriver.hxx>
 #include <PCDM_SequenceOfReference.hxx>
-#include <TColStd_SequenceOfExtendedString.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfExtendedString.hxx>
 #include <Foundation/Storage/Storage_BaseDriver.hxx>
 #include <PCDM_ReadWriter.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -37,7 +37,7 @@ IMPLEMENT_STANDARD_RTTI(PCDM_ReadWriter)
 #include <Foundation/Storage/Storage_HeaderData.hxx>
 #include <Foundation/Storage/Storage_TypeData.hxx>
 #include <UTL.hxx>
-#include <TColStd_HSequenceOfAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfAsciiString.hxx>
 #include <PCDM.hxx>
 #include <PCDM_DOMHeaderParser.hxx>
 

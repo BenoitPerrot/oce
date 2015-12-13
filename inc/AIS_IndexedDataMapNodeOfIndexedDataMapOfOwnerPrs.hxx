@@ -64,7 +64,7 @@ private:
 #define TheItem Handle(Prs3d_Presentation)
 #define TheItem_hxx <Prs3d_Presentation.hxx>
 #define Hasher TColStd_MapTransientHasher
-#define Hasher_hxx <TColStd_MapTransientHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define TCollection_IndexedDataMapNode AIS_IndexedDataMapNodeOfIndexedDataMapOfOwnerPrs
 #define TCollection_IndexedDataMapNode_hxx <AIS_IndexedDataMapNodeOfIndexedDataMapOfOwnerPrs.hxx>
 #define Handle_TCollection_IndexedDataMapNode Handle_AIS_IndexedDataMapNodeOfIndexedDataMapOfOwnerPrs

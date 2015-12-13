@@ -8,7 +8,7 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopOpeBRepDS_CurveData.hxx>
-#include <TColStd_MapIntegerHasher.hxx>
+#include <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #include <TopOpeBRepDS_DataMapNodeOfMapOfCurve.hxx>
 #include <TopOpeBRepDS_DataMapIteratorOfMapOfCurve.hxx>
  
@@ -18,7 +18,7 @@
 #define TheItem TopOpeBRepDS_CurveData
 #define TheItem_hxx <TopOpeBRepDS_CurveData.hxx>
 #define Hasher TColStd_MapIntegerHasher
-#define Hasher_hxx <TColStd_MapIntegerHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #define TCollection_DataMapNode TopOpeBRepDS_DataMapNodeOfMapOfCurve
 #define TCollection_DataMapNode_hxx <TopOpeBRepDS_DataMapNodeOfMapOfCurve.hxx>
 #define TCollection_DataMapIterator TopOpeBRepDS_DataMapIteratorOfMapOfCurve

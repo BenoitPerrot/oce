@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TColStd_ListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <AIS_GlobalStatus.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_GlobalStatus)
@@ -25,7 +25,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(AIS_GlobalStatus)
 IMPLEMENT_DOWNCAST(AIS_GlobalStatus,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(AIS_GlobalStatus)
-#include <TColStd_ListIteratorOfListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 
 AIS_GlobalStatus::AIS_GlobalStatus():
 myStatus(AIS_DS_None),

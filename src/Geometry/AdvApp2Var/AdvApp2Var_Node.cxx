@@ -15,12 +15,12 @@
 // commercial license or contractual agreement.
 
 #include <TColgp_HArray2OfPnt.hxx>
-#include <TColStd_HArray2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
 #include <gp_XY.hxx>
 #include <gp_Pnt.hxx>
 #include <AdvApp2Var_Node.hxx>
 #include <TColgp_HArray2OfPnt.hxx>
-#include <TColStd_HArray2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
 
 
 //=======================================================================

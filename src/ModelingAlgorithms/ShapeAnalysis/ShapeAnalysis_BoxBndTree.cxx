@@ -22,7 +22,7 @@
 #include <TopoDS.hxx>
 #include <ShapeAnalysis.hxx>
 #include <gp_Pnt.hxx>
-#include <TColStd_ListIteratorOfListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 #include <BRep_Tool.hxx>
 #include <Precision.hxx>
 

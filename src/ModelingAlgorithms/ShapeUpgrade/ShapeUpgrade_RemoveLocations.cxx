@@ -45,9 +45,9 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_RemoveLocations)
 #include <BRep_TEdge.hxx>
 #include <BRep_GCurve.hxx>
 #include <BRep_CurveRepresentation.hxx>
-#include <TColStd_ListIteratorOfListOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfTransient.hxx>
 #include <TopExp_Explorer.hxx>
-#include <TColStd_ListOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_ListOfTransient.hxx>
 //#include <ShapeUpgrade_DataMapOfShapeListOfTransient.hxx>
 #include <ShapeBuild_Edge.hxx>
 #include <Geom_Plane.hxx>

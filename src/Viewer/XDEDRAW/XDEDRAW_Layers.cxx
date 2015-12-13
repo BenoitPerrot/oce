@@ -20,7 +20,7 @@
 #include <DDocStd.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TColStd_HSequenceOfExtendedString.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfExtendedString.hxx>
 #include <TopoDS_Shape.hxx>
 
 #include <TDF_Tool.hxx>

@@ -87,7 +87,7 @@
 #include <GeomToStep_MakeSurface.hxx>
 #include <GeomToStep_MakeCurve.hxx>
 
-#include <TColStd_SequenceOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfTransient.hxx>
 #include <TransferBRep_ShapeMapper.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 

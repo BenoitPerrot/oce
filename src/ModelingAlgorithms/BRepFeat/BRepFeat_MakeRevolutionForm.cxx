@@ -73,7 +73,7 @@
 
 #include <TColGeom_SequenceOfCurve.hxx>
 
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>
 
 #include <BRepTools_WireExplorer.hxx>

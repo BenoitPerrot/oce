@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TColStd_DataMapOfTransientTransient.hxx>
+#include <Foundation/TColStd/TColStd_DataMapOfTransientTransient.hxx>
 #include <Transfer_MapContainer.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Transfer_MapContainer)

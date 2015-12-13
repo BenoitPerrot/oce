@@ -31,7 +31,7 @@
 #include <IGESGraph_ToolLineFontDefPattern.hxx>
 #include <IGESData_ParamCursor.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <IGESData_Dump.hxx>
 #include <Interface_Macros.hxx>
 

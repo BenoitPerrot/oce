@@ -33,9 +33,9 @@
 #include <gp_Circ.hxx>
 #include <BRepAdaptor_Curve.hxx>
 #include <IntTools_CArray1OfReal.hxx>
-#include <TColStd_ListOfReal.hxx>
+#include <Foundation/TColStd/TColStd_ListOfReal.hxx>
 #include <GCPnts_QuasiUniformDeflection.hxx>
-#include <TColStd_ListIteratorOfListOfReal.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfReal.hxx>
 #include <gce_ErrorType.hxx>
 
 //=======================================================================

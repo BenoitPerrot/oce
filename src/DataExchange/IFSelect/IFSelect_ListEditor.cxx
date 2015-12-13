@@ -12,8 +12,8 @@
 // commercial license or contractual agreement.
 
 #include <Interface_TypedValue.hxx>
-#include <TColStd_HSequenceOfHAsciiString.hxx>
-#include <TColStd_HSequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfHAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfInteger.hxx>
 #include <Interface_InterfaceModel.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <IFSelect_ListEditor.hxx>

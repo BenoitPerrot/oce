@@ -18,8 +18,8 @@
 #include <Interface_EntityIterator.hxx>
 #include <Interface_ShareTool.hxx>
 #include <RWStepGeom_RWBSplineCurveWithKnots.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <StepGeom_KnotType.hxx>
 #include <StepGeom_HArray1OfCartesianPoint.hxx>
 #include <StepGeom_CartesianPoint.hxx>

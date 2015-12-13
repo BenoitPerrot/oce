@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <StepData_ESDescr.hxx>
-#include <TColStd_HSequenceOfAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfAsciiString.hxx>
 #include <StepData_Described.hxx>
 #include <StepData_ECDescr.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

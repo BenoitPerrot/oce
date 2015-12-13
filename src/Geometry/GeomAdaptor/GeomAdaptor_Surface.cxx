@@ -27,7 +27,7 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Adaptor3d_HSurface.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Vec.hxx>
@@ -54,9 +54,9 @@
 #include <Geom_OffsetSurface.hxx>
 //#include <GeomConvert_BSplineSurfaceKnotSplitting.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Geom_Plane.hxx>
 #include <Geom_CylindricalSurface.hxx>
 #include <Geom_SphericalSurface.hxx>

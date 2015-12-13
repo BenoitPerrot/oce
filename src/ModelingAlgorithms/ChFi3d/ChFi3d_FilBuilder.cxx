@@ -70,7 +70,7 @@
 #include <TopOpeBRepBuild_HBuilder.hxx>
 #include <ElSLib.hxx>
 #include <math_FunctionRoot.hxx>
-#include <TColStd_SequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <Precision.hxx>
 
 

@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <FEmTool_AssemblyTable.hxx>
 
  
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(FEmTool_HAssemblyTable)
 
 
 #define ItemHArray2 Handle(TColStd_HArray1OfInteger)
-#define ItemHArray2_hxx <TColStd_HArray1OfInteger.hxx>
+#define ItemHArray2_hxx <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #define TheArray2 FEmTool_AssemblyTable
 #define TheArray2_hxx <FEmTool_AssemblyTable.hxx>
 #define TCollection_HArray2 FEmTool_HAssemblyTable

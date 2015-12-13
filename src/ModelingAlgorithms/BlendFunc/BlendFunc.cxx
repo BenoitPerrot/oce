@@ -18,8 +18,8 @@
 // 30/12/1996 PMN Ajout de GetMinimalWeight
 // 23/09/1997 PMN Supprimme GetCircle et GetTol (passe dans GeomFill)
 
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Adaptor3d_HSurface.hxx>
 #include <gp_Pnt2d.hxx>
 #include <gp_Vec.hxx>

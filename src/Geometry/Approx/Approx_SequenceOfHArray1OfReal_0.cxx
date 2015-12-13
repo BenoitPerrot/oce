@@ -7,12 +7,12 @@
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Approx_SequenceNodeOfSequenceOfHArray1OfReal.hxx>
  
 
 #define SeqItem Handle(TColStd_HArray1OfReal)
-#define SeqItem_hxx <TColStd_HArray1OfReal.hxx>
+#define SeqItem_hxx <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #define TCollection_SequenceNode Approx_SequenceNodeOfSequenceOfHArray1OfReal
 #define TCollection_SequenceNode_hxx <Approx_SequenceNodeOfSequenceOfHArray1OfReal.hxx>
 #define Handle_TCollection_SequenceNode Handle_Approx_SequenceNodeOfSequenceOfHArray1OfReal

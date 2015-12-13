@@ -31,7 +31,7 @@
 #include <BRepClass_FaceClassifier.hxx>
 #include <HLRAlgo_Projector.hxx>
 #include <HLRBRep_Curve.hxx>
-#include <TColStd_Array2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <Geom_BSplineSurface.hxx>
 #include <Geom_BezierSurface.hxx>
 

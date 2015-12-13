@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <math_ComputeKronrodPointsAndWeights.hxx>
 #include <math_EigenValuesSearcher.hxx>
 #include <math_Array1OfValueAndWeight.hxx>

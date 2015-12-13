@@ -31,7 +31,7 @@
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <IGESGraph_ToolDefinitionLevel.hxx>
 #include <IGESData_ParamCursor.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <IGESData_Dump.hxx>
 
 

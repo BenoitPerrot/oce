@@ -15,8 +15,8 @@
 
 #include <BinMDF_ADriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
-#include <TColStd_IndexedMapOfTransient.hxx>
-#include <TColStd_SequenceOfAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_IndexedMapOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfAsciiString.hxx>
 #include <BinMDF_ADriverTable.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BinMDF_ADriverTable)

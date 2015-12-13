@@ -38,7 +38,7 @@ IMPLEMENT_STANDARD_RTTI(DrawTrSurf_BSplineSurface)
 #include <gp_Pnt2d.hxx>
 
 #include <TColgp_Array2OfPnt.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 
 
 

@@ -18,7 +18,7 @@
 
 #include <Law_BSpline.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Law_Function.hxx>
 #include <Law_BSpFunc.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_RTTI(Law_BSpFunc)
 #include <BSplCLib.hxx>
 #include <Precision.hxx>
 #include <Law_BSplineKnotSplitting.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 
 #define PosTol Precision::PConfusion()/2
 

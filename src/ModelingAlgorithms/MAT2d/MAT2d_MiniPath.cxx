@@ -26,7 +26,7 @@
 #include <Geom2dAdaptor_Curve.hxx> 
 #include <Geom2d_Point.hxx> 
 #include <Geom2d_CartesianPoint.hxx> 
-#include <TColStd_SequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <TColGeom2d_SequenceOfGeometry.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 

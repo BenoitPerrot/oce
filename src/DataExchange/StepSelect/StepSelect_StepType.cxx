@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(StepSelect_StepType)
 IMPLEMENT_DOWNCAST(StepSelect_StepType,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(StepSelect_StepType)
-#include <TColStd_SequenceOfAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfAsciiString.hxx>
 #include <StepData_ReadWriteModule.hxx>
 #include <StepData_UndefinedEntity.hxx>
 #include <Interface_InterfaceError.hxx>

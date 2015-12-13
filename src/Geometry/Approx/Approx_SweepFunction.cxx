@@ -18,10 +18,10 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <TColgp_Array1OfVec.hxx>
 #include <TColgp_Array1OfVec2d.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <gp_Pnt.hxx>
 #include <Approx_SweepFunction.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

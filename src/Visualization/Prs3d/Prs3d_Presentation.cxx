@@ -20,7 +20,7 @@
 #include <Graphic3d_StructureManager.hxx>
 #include <Graphic3d_Structure.hxx>
 #include <Graphic3d_DataStructureManager.hxx>
-#include <TColStd_Array2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <Prs3d_ShadingAspect.hxx>
 #include <Geom_Transformation.hxx>
 #include <Graphic3d_Group.hxx>
@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(Prs3d_Presentation)
 IMPLEMENT_DOWNCAST(Prs3d_Presentation,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Prs3d_Presentation)
-#include <TColStd_Array2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <Graphic3d_Structure.hxx>
 #include <Aspect_TypeOfHighlightMethod.hxx>
 #include <gp_Pnt.hxx>

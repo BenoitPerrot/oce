@@ -44,7 +44,7 @@
 
 #include <TColgp_Array1OfPnt2d.hxx>
 #include <TopoDS_Wire.hxx>
-#include <TColStd_DataMapOfIntegerInteger.hxx>
+#include <Foundation/TColStd/TColStd_DataMapOfIntegerInteger.hxx>
 #include <TColgp_SequenceOfVec2d.hxx>
 #include <IntTools_Tools.hxx>
 #include <GeomInt.hxx>

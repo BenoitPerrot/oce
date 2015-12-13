@@ -15,7 +15,7 @@
 #include <stdio.h>
 
 #include <Approx_ParametrizationType.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>
 #include <gp_Pnt.hxx>
@@ -43,7 +43,7 @@ static Standard_Boolean mydebug = Standard_False;
 #include <DrawTrSurf.hxx>
 #include <Draw_Text2D.hxx>
 #include <Draw_Text3D.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Geom_BSplineCurve.hxx>
 #include <Geom2d_BSplineCurve.hxx>
 #include <Geom_Line.hxx>

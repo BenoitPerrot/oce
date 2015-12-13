@@ -31,9 +31,9 @@
 #include <IGESDefs_ToolAttributeTable.hxx>
 #include <IGESData_ParamCursor.hxx>
 #include <IGESDefs_AttributeDef.hxx>
-#include <TColStd_HArray2OfTransient.hxx>
-#include <TColStd_HArray1OfReal.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray2OfTransient.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Interface_HArray1OfHAsciiString.hxx>
 #include <IGESData_HArray1OfIGESEntity.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>

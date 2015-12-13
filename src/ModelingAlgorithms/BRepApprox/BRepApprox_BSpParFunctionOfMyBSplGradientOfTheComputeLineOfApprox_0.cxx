@@ -5,13 +5,13 @@
 
 #include <BRepApprox_BSpParFunctionOfMyBSplGradientOfTheComputeLineOfApprox.hxx>
 
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <AppParCurves_HArray1OfConstraintCouple.hxx>
 #include <BRepApprox_TheMultiLineOfApprox.hxx>
 #include <BRepApprox_TheMultiLineToolOfApprox.hxx>
 #include <BRepApprox_BSpParLeastSquareOfMyBSplGradientOfTheComputeLineOfApprox.hxx>
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <AppParCurves_MultiBSpCurve.hxx>
 #include <math_Matrix.hxx>
  

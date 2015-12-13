@@ -34,7 +34,7 @@
 #include <AIS_Shape.hxx>
 #include <AIS_DisplayMode.hxx>
 #include <AIS_PointCloud.hxx>
-#include <TColStd_MapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_MapOfInteger.hxx>
 #include <AIS_MapOfInteractive.hxx>
 #include <ViewerTest_AutoUpdater.hxx>
 #include <ViewerTest_DoubleMapOfInteractiveAndName.hxx>
@@ -116,8 +116,8 @@
 #include <AIS_MultipleConnectedInteractive.hxx>
 #include <AIS_ConnectedInteractive.hxx>
 #include <TopLoc_Location.hxx>
-#include <TColStd_ListOfInteger.hxx>
-#include <TColStd_ListIteratorOfListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 
 #include <Select3D_SensitiveTriangle.hxx>
 #include <Select3D_SensitiveCurve.hxx>
@@ -133,7 +133,7 @@
 #include <Prs3d_PointAspect.hxx>
 
 #include <Image_AlienPixMap.hxx>
-#include <TColStd_HArray1OfAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfAsciiString.hxx>
 
 #ifdef _MSC_VER
 # define _CRT_SECURE_NO_DEPRECATE
@@ -2634,8 +2634,8 @@ static int VDrawText (Draw_Interpretor& di, Standard_Integer argc, const char** 
 #include <TColgp_Array1OfDir.hxx>
 #include <Graphic3d_GraphicDriver.hxx>
 
-#include <TColStd_Array1OfInteger.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Prs3d_ShadingAspect.hxx>
 #include <Graphic3d_MaterialAspect.hxx>
 #include <Graphic3d_AspectFillArea3d.hxx>

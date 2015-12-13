@@ -11,7 +11,7 @@
 #include <Handle_AIS_ExclusionFilter.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <TColStd_DataMapOfIntegerListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_DataMapOfIntegerListOfInteger.hxx>
 #include <SelectMgr_Filter.hxx>
 #include <AIS_KindOfInteractive.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

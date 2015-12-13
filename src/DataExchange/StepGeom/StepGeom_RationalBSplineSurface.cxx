@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TColStd_HArray2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepGeom_HArray2OfCartesianPoint.hxx>
 #include <StepGeom_RationalBSplineSurface.hxx>

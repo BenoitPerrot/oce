@@ -20,7 +20,7 @@
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <CDM_MessageDriver.hxx>
 #include <PCDM_SequenceOfReference.hxx>
-#include <TColStd_SequenceOfExtendedString.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfExtendedString.hxx>
 #include <PCDM_ReadWriter_1.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PCDM_ReadWriter_1)
@@ -38,10 +38,10 @@ IMPLEMENT_STANDARD_RTTI(PCDM_ReadWriter_1)
 #include <CDM_Document.hxx>
 #include <CDM_ReferenceIterator.hxx>
 #include <CDM_MetaData.hxx>
-#include <TColStd_SequenceOfExtendedString.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfExtendedString.hxx>
 #include <Foundation/Storage/Storage_Schema.hxx>
 #include <Foundation/Storage/Storage_HeaderData.hxx>
-#include <TColStd_SequenceOfAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfAsciiString.hxx>
 #include <PCDM_Reference.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/OSD/OSD_Path.hxx>

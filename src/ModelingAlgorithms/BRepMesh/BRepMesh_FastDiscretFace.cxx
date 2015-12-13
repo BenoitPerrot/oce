@@ -38,11 +38,11 @@
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <Foundation/SortTools/SortTools_ShellSortOfReal.hxx>
 #include <Foundation/TCollection/TCollection_CompareOfReal.hxx>
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_ListOfInteger.hxx>
-#include <TColStd_SequenceOfReal.hxx>
-#include <TColStd_Array1OfInteger.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>
 #include <TopTools_DataMapOfShapeReal.hxx>
 

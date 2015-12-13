@@ -18,14 +18,14 @@
 #include <Foundation/Standard/Standard_NullValue.hxx>
 #include <Foundation/Standard/Standard_MultiplyDefined.hxx>
 #include <Bnd_Box.hxx>
-#include <TColStd_ListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <gp_Pln.hxx>
 #include <Bnd_BoundSortBox.hxx>
 #include <Foundation/Standard/Standard_NullValue.hxx>
 #include <Foundation/Standard/Standard_MultiplyDefined.hxx>
 #include <Bnd_Array1OfBox.hxx>
-#include <TColStd_ListIteratorOfListOfInteger.hxx>
-#include <TColStd_DataMapIteratorOfDataMapOfIntegerInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_DataMapIteratorOfDataMapOfIntegerInteger.hxx>
 
 //#if defined(WNT) || defined(LIN)
 # include <stdio.h>

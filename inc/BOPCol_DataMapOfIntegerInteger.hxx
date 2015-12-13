@@ -17,7 +17,7 @@
 
 #include <Foundation/NCollection/NCollection_DataMap.hxx>
 
-#include <TColStd_MapIntegerHasher.hxx>
+#include <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 
 typedef NCollection_DataMap<Standard_Integer, Standard_Integer, TColStd_MapIntegerHasher> BOPCol_DataMapOfIntegerInteger; 
 typedef BOPCol_DataMapOfIntegerInteger::Iterator BOPCol_DataMapIteratorOfDataMapOfIntegerInteger;

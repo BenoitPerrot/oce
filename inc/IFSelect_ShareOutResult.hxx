@@ -14,7 +14,7 @@
 #include <Handle_IFSelect_Dispatch.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <TColStd_SequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <Interface_Graph.hxx>
 #include <IFGraph_SubPartsIterator.hxx>
 #include <Handle_Interface_InterfaceModel.hxx>

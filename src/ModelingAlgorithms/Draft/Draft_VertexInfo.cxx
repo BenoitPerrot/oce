@@ -20,7 +20,7 @@
 #include <gp_Pnt.hxx>
 #include <Draft_VertexInfo.hxx>
 
-#include <TColStd_ListIteratorOfListOfReal.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfReal.hxx>
 #include <TopoDS.hxx>
 
 //=======================================================================

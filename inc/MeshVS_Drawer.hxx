@@ -10,9 +10,9 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_MeshVS_Drawer.hxx>
 
-#include <TColStd_DataMapOfIntegerInteger.hxx>
+#include <Foundation/TColStd/TColStd_DataMapOfIntegerInteger.hxx>
 #include <MeshVS_DataMapOfIntegerBoolean.hxx>
-#include <TColStd_DataMapOfIntegerReal.hxx>
+#include <Foundation/TColStd/TColStd_DataMapOfIntegerReal.hxx>
 #include <MeshVS_DataMapOfIntegerColor.hxx>
 #include <MeshVS_DataMapOfIntegerMaterial.hxx>
 #include <MeshVS_DataMapOfIntegerAsciiString.hxx>

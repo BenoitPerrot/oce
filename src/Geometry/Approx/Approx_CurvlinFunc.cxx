@@ -17,12 +17,12 @@
 #include <Adaptor3d_HCurve.hxx>
 #include <Adaptor2d_HCurve2d.hxx>
 #include <Adaptor3d_HSurface.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Adaptor3d_Curve.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Approx_CurvlinFunc.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Approx_CurvlinFunc)
@@ -35,7 +35,7 @@ IMPLEMENT_DOWNCAST(Approx_CurvlinFunc,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Approx_CurvlinFunc)
 #include <Adaptor3d_CurveOnSurface.hxx>
 #include <Adaptor3d_HCurveOnSurface.hxx>
-#include <TColStd_SequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <GeomLib.hxx>
 #include <GCPnts_AbscissaPoint.hxx>
 #include <Precision.hxx>

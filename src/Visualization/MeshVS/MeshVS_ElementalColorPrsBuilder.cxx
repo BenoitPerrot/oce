@@ -43,14 +43,14 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_ElementalColorPrsBuilder)
 #include <Prs3d_Root.hxx>
 #include <Prs3d_LineAspect.hxx>
 
-#include <TColStd_MapOfInteger.hxx>
-#include <TColStd_PackedMapOfInteger.hxx>
-#include <TColStd_MapIteratorOfPackedMapOfInteger.hxx>
-#include <TColStd_ListIteratorOfListOfInteger.hxx>
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_SequenceOfInteger.hxx>
-#include <TColStd_HArray1OfReal.hxx>
-#include <TColStd_HPackedMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_MapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_PackedMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_MapIteratorOfPackedMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HPackedMapOfInteger.hxx>
 
 #include <MeshVS_DisplayModeFlags.hxx>
 #include <MeshVS_DataSource.hxx>

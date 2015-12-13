@@ -24,10 +24,10 @@
 #include <StepGeom_CartesianPoint.hxx>
 #include <StepGeom_BSplineSurfaceForm.hxx>
 #include <StepData_Logical.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <StepGeom_KnotType.hxx>
-#include <TColStd_HArray2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
 
 #include <RWStepGeom_RWBSplineSurfaceWithKnots.hxx>
 #include <RWStepGeom_RWRationalBSplineSurface.hxx>

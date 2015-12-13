@@ -26,8 +26,8 @@
 #include <gp.hxx>
 #include <gp_Ax2d.hxx>
 #include <gp_Vec2d.hxx>
-#include <TColStd_Array1OfInteger.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Extrema_POnCurv2d.hxx>
 
 #include <Geom2dGcc_CurveTool.hxx>

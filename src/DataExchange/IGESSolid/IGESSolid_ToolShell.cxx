@@ -32,7 +32,7 @@
 #include <IGESData_ParamCursor.hxx>
 #include <IGESSolid_Face.hxx>
 #include <IGESSolid_HArray1OfFace.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <IGESData_Dump.hxx>
 #include <Interface_Macros.hxx>
 #include <IGESSolid.hxx>

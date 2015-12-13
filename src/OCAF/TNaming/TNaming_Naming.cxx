@@ -64,8 +64,8 @@ IMPLEMENT_STANDARD_RTTI(TNaming_Naming)
 #include <TopTools_ListOfShape.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
-#include <TColStd_MapOfInteger.hxx>
-#include <TColStd_MapIteratorOfMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_MapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_MapIteratorOfMapOfInteger.hxx>
 #include <TopTools_MapIteratorOfMapOfOrientedShape.hxx>
 #include <TopTools_HArray1OfShape.hxx>
 #include <BRepTools.hxx>

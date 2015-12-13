@@ -22,9 +22,9 @@
 // pmn  06-02-97 : Correction des poids dans RationalDerivative. (PRO700)
 
 #include <TColgp_Array2OfPnt.hxx>
-#include <TColStd_Array2OfReal.hxx>
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Vec.hxx>
 #include <TColgp_Array1OfPnt.hxx>
@@ -34,7 +34,7 @@
 #include <BSplCLib.hxx>
 #include <TColgp_Array2OfXYZ.hxx>
 #include <TColgp_Array1OfXYZ.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <math_Matrix.hxx>

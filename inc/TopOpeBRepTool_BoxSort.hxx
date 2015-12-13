@@ -12,7 +12,7 @@
 
 #include <Bnd_Box.hxx>
 #include <Bnd_BoundSortBox.hxx>
-#include <TColStd_ListIteratorOfListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 #include <TopoDS_Shape.hxx>
 #include <Handle_TopOpeBRepTool_HBoxTool.hxx>
 #include <Handle_Bnd_HArray1OfBox.hxx>

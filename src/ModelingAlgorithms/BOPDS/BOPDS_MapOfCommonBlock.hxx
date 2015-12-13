@@ -16,7 +16,7 @@
 #define BOPDS_MapOfCommonBlock_HeaderFile
 
 #include <Foundation/NCollection/NCollection_Map.hxx>   
-#include <TColStd_MapTransientHasher.hxx>
+#include <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #include <BOPDS_CommonBlock.hxx>   
 
 typedef NCollection_Map<Handle(BOPDS_CommonBlock), TColStd_MapTransientHasher> BOPDS_MapOfCommonBlock; 

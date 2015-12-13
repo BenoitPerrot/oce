@@ -22,7 +22,7 @@
 #include <Handle_OpenGl_Workspace.hxx>
 #include <OpenGl_Window.hxx>
 
-#include <TColStd_Array2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Graphic3d_CView.hxx>
 #include <Graphic3d_TypeOfComposition.hxx>

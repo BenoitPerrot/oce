@@ -60,9 +60,9 @@
 #include <Visual3d_View.hxx>
 #include <Visual3d_HSequenceOfView.hxx>
 #include <Graphic3d_Structure.hxx>
-#include <TColStd_SequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <Aspect_GenId.hxx>
-#include <TColStd_Array2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <Aspect_Window.hxx>
 #include <Graphic3d_DataStructureManager.hxx>
 #include <Visual3d_ViewManager.hxx>

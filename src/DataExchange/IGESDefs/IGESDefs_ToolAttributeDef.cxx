@@ -31,11 +31,11 @@
 #include <IGESDefs_ToolAttributeDef.hxx>
 #include <IGESData_ParamCursor.hxx>
 #include <IGESGraph_TextDisplayTemplate.hxx>
-#include <TColStd_HArray1OfTransient.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfTransient.hxx>
 #include <IGESData_IGESEntity.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <TColStd_HArray1OfReal.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <IGESData_HArray1OfIGESEntity.hxx>
 #include <IGESGraph_HArray1OfTextDisplayTemplate.hxx>
 #include <IGESDefs_HArray1OfHArray1OfTextDisplayTemplate.hxx>

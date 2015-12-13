@@ -13,7 +13,7 @@
 
 #include <StepData_Protocol.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TColStd_SequenceOfAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfAsciiString.hxx>
 #include <StepData_StepReaderData.hxx>
 #include <Interface_Check.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
@@ -36,7 +36,7 @@ IMPLEMENT_STANDARD_RTTI(StepData_DescrReadWrite)
 #include <StepData_Simple.hxx>
 #include <StepData_Plex.hxx>
 #include <StepData_FieldListN.hxx>
-#include <TColStd_HSequenceOfAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfAsciiString.hxx>
 #include <Interface_Macros.hxx>
 
 static TCollection_AsciiString nocp("?");

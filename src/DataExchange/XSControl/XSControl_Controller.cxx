@@ -17,7 +17,7 @@
 #include <Transfer_ActorOfTransientProcess.hxx>
 #include <Transfer_ActorOfFinderProcess.hxx>
 #include <Foundation/Dico/Dico_DictionaryOfTransient.hxx>
-#include <TColStd_HSequenceOfHAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfHAsciiString.hxx>
 #include <Interface_HArray1OfHAsciiString.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <XSControl_WorkSession.hxx>
@@ -39,7 +39,7 @@ IMPLEMENT_STANDARD_RTTI(XSControl_Controller)
 #include <IFSelect_GeneralModifier.hxx>
 #include <Foundation/Dico/Dico_IteratorOfDictionaryOfTransient.hxx>
 #include <Foundation/Dico/Dico_IteratorOfDictionaryOfInteger.hxx>
-#include <TColStd_IndexedMapOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_IndexedMapOfTransient.hxx>
 #include <IFSelect_Option.hxx>
 
 #include <IFSelect_SelectModelEntities.hxx>
@@ -67,7 +67,7 @@ IMPLEMENT_STANDARD_RTTI(XSControl_Controller)
 #include <IFSelect_IntParam.hxx>
 
 //  ParamEditor
-#include <TColStd_HSequenceOfHAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfHAsciiString.hxx>
 #include <Interface_Static.hxx>
 #include <IFSelect_ParamEditor.hxx>
 #include <IFSelect_EditForm.hxx>

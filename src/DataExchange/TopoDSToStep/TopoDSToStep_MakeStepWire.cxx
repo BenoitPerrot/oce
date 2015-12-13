@@ -28,7 +28,7 @@
 
 #include <BRepTools_WireExplorer.hxx>
 
-#include <TColStd_SequenceOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfTransient.hxx>
 
 #include <TopoDS_Iterator.hxx>
 

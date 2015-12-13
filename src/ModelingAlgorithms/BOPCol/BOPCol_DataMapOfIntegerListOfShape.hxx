@@ -17,7 +17,7 @@
 
 #include <Foundation/NCollection/NCollection_DataMap.hxx>
 
-#include <TColStd_MapIntegerHasher.hxx>
+#include <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #include <BOPCol_ListOfShape.hxx>
 
 typedef NCollection_DataMap<Standard_Integer, BOPCol_ListOfShape, TColStd_MapIntegerHasher> BOPCol_DataMapOfIntegerListOfShape; 

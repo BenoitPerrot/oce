@@ -17,7 +17,7 @@
 #include <Geom_BSplineSurface.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <TColgp_Array2OfPnt.hxx>
-#include <TColStd_Array2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <GeomAPI_PointsToBSplineSurface.hxx>
 
 #include <Geom_BSplineCurve.hxx>

@@ -23,7 +23,7 @@
 #include <RWStepElement_RWCurveElementSectionDerivedDefinitions.hxx>
 #include <StepElement_HArray1OfMeasureOrUnspecifiedValue.hxx>
 #include <StepElement_MeasureOrUnspecifiedValue.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <StepElement_HArray1OfMeasureOrUnspecifiedValue.hxx>
 #include <StepElement_MeasureOrUnspecifiedValue.hxx>

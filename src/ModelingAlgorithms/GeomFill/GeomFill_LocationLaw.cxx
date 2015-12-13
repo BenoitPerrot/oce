@@ -21,7 +21,7 @@
 #include <gp_Vec.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>
 #include <TColgp_Array1OfVec2d.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <gp_Pnt.hxx>
 #include <GeomFill_LocationLaw.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

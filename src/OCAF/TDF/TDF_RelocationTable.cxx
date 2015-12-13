@@ -28,7 +28,7 @@
 #include <TDF_AttributeMap.hxx>
 #include <TDF_LabelDataMap.hxx>
 #include <TDF_AttributeDataMap.hxx>
-#include <TColStd_IndexedDataMapOfTransientTransient.hxx>
+#include <Foundation/TColStd/TColStd_IndexedDataMapOfTransientTransient.hxx>
 #include <TDF_RelocationTable.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDF_RelocationTable)

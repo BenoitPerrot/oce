@@ -22,7 +22,7 @@
 #include <Foundation/NCollection/NCollection_UBTreeFiller.hxx>
 #include <Foundation/NCollection/NCollection_DataMap.hxx>
 //
-#include <TColStd_MapIntegerHasher.hxx>
+#include <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 //
 #include <gp_Pnt2d.hxx>
 #include <gp_Pln.hxx>

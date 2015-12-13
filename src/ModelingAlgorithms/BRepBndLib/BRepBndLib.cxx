@@ -28,8 +28,8 @@
 #include <Poly_PolygonOnTriangulation.hxx>
 #include <Poly_Polygon3D.hxx>
 #include <BRep_Polygon3D.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <Geom_Curve.hxx>
 #include <GeomAdaptor_Curve.hxx>

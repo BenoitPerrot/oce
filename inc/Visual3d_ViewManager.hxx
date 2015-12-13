@@ -15,8 +15,8 @@
 #include <Aspect_GenId.hxx>
 #include <Handle_Graphic3d_GraphicDriver.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <TColStd_MapOfInteger.hxx>
-#include <TColStd_SequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_MapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <Visual3d_MapOfZLayerSettings.hxx>
 #include <Graphic3d_StructureManager.hxx>
 #include <Handle_Visual3d_HSequenceOfView.hxx>

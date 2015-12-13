@@ -17,7 +17,7 @@
 // Modified by isg, Thu Mar 17 09:21:31 1994
 
 
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <TopoDS_Edge.hxx>
 #include <ChFiDS_HElSpine.hxx>
 #include <ChFiDS_ListOfHElSpine.hxx>

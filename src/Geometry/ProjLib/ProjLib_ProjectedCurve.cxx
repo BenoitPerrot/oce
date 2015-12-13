@@ -40,13 +40,13 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <gp_XY.hxx>
 #include <TColgp_HArray1OfPnt2d.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Geom2dConvert_CompCurveToBSplineCurve.hxx>
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>
 #include <TColgp_HArray1OfVec2d.hxx>
-#include <TColStd_HArray1OfBoolean.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfBoolean.hxx>
 #include <BSplCLib.hxx>
 #include <GeomAbs_IsoType.hxx>
 #include <Geom2d_Line.hxx>

@@ -15,7 +15,7 @@
 #include <TColgp_Array1OfLin2d.hxx>
 #include <GccEnt_Array1OfPosition.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <GccEnt_Position.hxx>
 class Standard_OutOfRange;

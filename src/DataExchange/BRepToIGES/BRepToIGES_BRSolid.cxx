@@ -33,7 +33,7 @@
 
 #include <Interface_Macros.hxx>
 
-#include <TColStd_HSequenceOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 
 
 #include <TopoDS.hxx>

@@ -24,8 +24,8 @@
 #include <TopoDS_Shape.hxx>
 
 #include <ViewerTest_DoubleMapOfInteractiveAndName.hxx>
-#include <TColStd_ListIteratorOfListOfInteger.hxx>
-#include <TColStd_MapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_MapOfInteger.hxx>
 
 #include <TDocStd_Document.hxx>
 #include <TDocStd_Application.hxx>

@@ -9,7 +9,7 @@
 
 #include <MAT_Node.hxx>
 #include <TopTools_DataMapOfShapeShape.hxx>
-#include <TColStd_MapTransientHasher.hxx>
+#include <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #include <BRepFill_DataMapOfNodeDataMapOfShapeShape.hxx>
 #include <BRepFill_DataMapIteratorOfDataMapOfNodeDataMapOfShapeShape.hxx>
 
@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_DataMapNodeOfDataMapOfNodeDataMapOfShapeShape)
 #define TheItem TopTools_DataMapOfShapeShape
 #define TheItem_hxx <TopTools_DataMapOfShapeShape.hxx>
 #define Hasher TColStd_MapTransientHasher
-#define Hasher_hxx <TColStd_MapTransientHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define TCollection_DataMapNode BRepFill_DataMapNodeOfDataMapOfNodeDataMapOfShapeShape
 #define TCollection_DataMapNode_hxx <BRepFill_DataMapNodeOfDataMapOfNodeDataMapOfShapeShape.hxx>
 #define TCollection_DataMapIterator BRepFill_DataMapIteratorOfDataMapOfNodeDataMapOfShapeShape

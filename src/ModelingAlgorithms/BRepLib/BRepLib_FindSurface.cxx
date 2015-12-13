@@ -34,7 +34,7 @@
 #include <gp_Ax3.hxx>
 #include <gp_Vec.hxx>
 #include <TColgp_SequenceOfPnt.hxx>
-#include <TColStd_SequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <TColgp_HArray1OfPnt.hxx>
 #include <Geom_Plane.hxx>

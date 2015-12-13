@@ -8,7 +8,7 @@
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <SelectMgr_EntityOwner.hxx>
-#include <TColStd_MapIntegerHasher.hxx>
+#include <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #include <MeshVS_DataMapOfIntegerOwner.hxx>
 #include <MeshVS_DataMapIteratorOfDataMapOfIntegerOwner.hxx>
 
@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_DataMapNodeOfDataMapOfIntegerOwner)
 #define TheItem Handle(SelectMgr_EntityOwner)
 #define TheItem_hxx <SelectMgr_EntityOwner.hxx>
 #define Hasher TColStd_MapIntegerHasher
-#define Hasher_hxx <TColStd_MapIntegerHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #define TCollection_DataMapNode MeshVS_DataMapNodeOfDataMapOfIntegerOwner
 #define TCollection_DataMapNode_hxx <MeshVS_DataMapNodeOfDataMapOfIntegerOwner.hxx>
 #define TCollection_DataMapIterator MeshVS_DataMapIteratorOfDataMapOfIntegerOwner

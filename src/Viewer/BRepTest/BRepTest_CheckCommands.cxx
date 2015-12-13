@@ -62,7 +62,7 @@
 #include <TopTools_HSequenceOfShape.hxx>
 #include <BRep_Builder.hxx>
 #include <TopoDS_Compound.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>

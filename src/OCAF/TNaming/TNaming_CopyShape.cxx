@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <TopoDS_Shape.hxx>
-#include <TColStd_IndexedDataMapOfTransientTransient.hxx>
+#include <Foundation/TColStd/TColStd_IndexedDataMapOfTransientTransient.hxx>
 #include <TNaming_TranslateTool.hxx>
 #include <TopLoc_Location.hxx>
 #include <TNaming_CopyShape.hxx>

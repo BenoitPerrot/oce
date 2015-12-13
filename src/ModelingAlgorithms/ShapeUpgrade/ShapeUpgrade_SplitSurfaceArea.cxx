@@ -22,7 +22,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(ShapeUpgrade_SplitSurfaceArea)
 IMPLEMENT_DOWNCAST(ShapeUpgrade_SplitSurfaceArea,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_SplitSurfaceArea)
-#include <TColStd_HSequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
 #include <GeomAdaptor_Surface.hxx>
 
 //=======================================================================

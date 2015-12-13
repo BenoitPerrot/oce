@@ -16,7 +16,7 @@
 #include <Extrema_SequenceOfPOnSurf.hxx>
 #include <Extrema_SequenceOfPOnCurv.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <TColStd_SequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <GeomAbs_SurfaceType.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class StdFail_NotDone;

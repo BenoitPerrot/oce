@@ -24,7 +24,7 @@
 #include <gp_Elips2d.hxx>
 #include <gp_Hypr2d.hxx>
 #include <gp_Parab2d.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 
 
 

@@ -15,8 +15,8 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <math_Matrix.hxx>
 #include <gp_Pnt.hxx>
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Blend_Point.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <TColgp_Array1OfVec.hxx>

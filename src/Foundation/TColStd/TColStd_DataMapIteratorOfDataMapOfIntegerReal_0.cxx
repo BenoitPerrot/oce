@@ -3,12 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TColStd_DataMapIteratorOfDataMapOfIntegerReal.hxx>
+#include <Foundation/TColStd/TColStd_DataMapIteratorOfDataMapOfIntegerReal.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <TColStd_MapIntegerHasher.hxx>
-#include <TColStd_DataMapOfIntegerReal.hxx>
-#include <TColStd_DataMapNodeOfDataMapOfIntegerReal.hxx>
+#include <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
+#include <Foundation/TColStd/TColStd_DataMapOfIntegerReal.hxx>
+#include <Foundation/TColStd/TColStd_DataMapNodeOfDataMapOfIntegerReal.hxx>
  
 
 #define TheKey Standard_Integer
@@ -16,14 +16,14 @@
 #define TheItem Standard_Real
 #define TheItem_hxx <Foundation/Standard/Standard_Real.hxx>
 #define Hasher TColStd_MapIntegerHasher
-#define Hasher_hxx <TColStd_MapIntegerHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #define TCollection_DataMapNode TColStd_DataMapNodeOfDataMapOfIntegerReal
-#define TCollection_DataMapNode_hxx <TColStd_DataMapNodeOfDataMapOfIntegerReal.hxx>
+#define TCollection_DataMapNode_hxx <Foundation/TColStd/TColStd_DataMapNodeOfDataMapOfIntegerReal.hxx>
 #define TCollection_DataMapIterator TColStd_DataMapIteratorOfDataMapOfIntegerReal
-#define TCollection_DataMapIterator_hxx <TColStd_DataMapIteratorOfDataMapOfIntegerReal.hxx>
+#define TCollection_DataMapIterator_hxx <Foundation/TColStd/TColStd_DataMapIteratorOfDataMapOfIntegerReal.hxx>
 #define Handle_TCollection_DataMapNode Handle_TColStd_DataMapNodeOfDataMapOfIntegerReal
 #define TCollection_DataMapNode_Type_() TColStd_DataMapNodeOfDataMapOfIntegerReal_Type_()
 #define TCollection_DataMap TColStd_DataMapOfIntegerReal
-#define TCollection_DataMap_hxx <TColStd_DataMapOfIntegerReal.hxx>
+#define TCollection_DataMap_hxx <Foundation/TColStd/TColStd_DataMapOfIntegerReal.hxx>
 #include <Foundation/TCollection/TCollection_DataMapIterator.gxx>
 

@@ -43,7 +43,7 @@
 #include <ElCLib.hxx>
 #include <GeomAbs_SurfaceType.hxx>
 
-#include <TColStd_IndexedMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_IndexedMapOfInteger.hxx>
 #include <GeomInt.hxx>
 
 

@@ -32,8 +32,8 @@
 #include <Interface_EntityIterator.hxx>
 #include <Interface_HArray1OfHAsciiString.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <TColStd_HArray1OfAsciiString.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/OSD/OSD_Process.hxx>
 #include <Foundation/Quantity/Quantity_Date.hxx>
 

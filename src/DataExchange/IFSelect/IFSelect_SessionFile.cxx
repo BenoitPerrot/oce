@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <IFSelect_WorkSession.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/Dico/Dico_DictionaryOfInteger.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
@@ -31,7 +31,7 @@
 #include <IFSelect_Modifier.hxx>
 #include <IFSelect_Transformer.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <TColStd_HSequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfInteger.hxx>
 
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <Foundation/Message/Message.hxx>

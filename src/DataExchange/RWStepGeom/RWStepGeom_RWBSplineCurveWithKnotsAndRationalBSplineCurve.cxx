@@ -25,8 +25,8 @@
 #include <StepGeom_CartesianPoint.hxx>
 #include <StepGeom_BSplineCurveForm.hxx>
 #include <StepData_Logical.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <StepGeom_KnotType.hxx>
 
 #include <RWStepGeom_RWBSplineCurveWithKnots.hxx>

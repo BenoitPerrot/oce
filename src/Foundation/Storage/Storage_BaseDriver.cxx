@@ -19,8 +19,8 @@
 #include <Foundation/Storage/Storage_StreamWriteError.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <TColStd_SequenceOfAsciiString.hxx>
-#include <TColStd_SequenceOfExtendedString.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfExtendedString.hxx>
 
 Storage_BaseDriver::Storage_BaseDriver() : myOpenMode(Storage_VSNone)
 {

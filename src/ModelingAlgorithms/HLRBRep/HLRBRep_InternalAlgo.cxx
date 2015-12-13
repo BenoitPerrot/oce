@@ -34,7 +34,7 @@ IMPLEMENT_DOWNCAST(HLRBRep_InternalAlgo,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(HLRBRep_InternalAlgo)
 
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <HLRAlgo.hxx>
 #include <HLRBRep_ShapeToHLR.hxx>
 #include <HLRBRep_Hider.hxx>

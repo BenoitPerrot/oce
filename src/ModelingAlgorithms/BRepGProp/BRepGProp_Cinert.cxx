@@ -17,7 +17,7 @@
 #include <BRepGProp_Cinert.hxx>
 
 #include <math.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <BRepGProp_EdgeTool.hxx>
 
 BRepGProp_Cinert::BRepGProp_Cinert(){}

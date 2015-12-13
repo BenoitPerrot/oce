@@ -67,7 +67,7 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_PipeShell)
 #include <BRepFill_CompatibleWires.hxx>
 #include <BRepFill_NSections.hxx>
 #include <BRepFill_DataMapOfShapeHArray2OfShape.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 
 #include <GeomFill_TrihedronLaw.hxx>
 #include <GeomFill_CorrectedFrenet.hxx>

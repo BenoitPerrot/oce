@@ -15,7 +15,7 @@
 
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <IFSelect_WorkSession.hxx>
-#include <TColStd_HSequenceOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <IFSelect_Dispatch.hxx>
 #include <IFSelect_Functions.hxx>
 #include <IFSelect_Act.hxx>
@@ -26,10 +26,10 @@
 #include <IFSelect_SignType.hxx>
 #include <IFSelect_SignatureList.hxx>
 #include <IFSelect_IntParam.hxx>
-#include <TColStd_HSequenceOfAsciiString.hxx>
-#include <TColStd_HSequenceOfHAsciiString.hxx>
-#include <TColStd_HSequenceOfTransient.hxx>
-#include <TColStd_MapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfHAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_MapOfInteger.hxx>
 #include <Interface_Static.hxx>
 #include <Interface_EntityIterator.hxx>
 

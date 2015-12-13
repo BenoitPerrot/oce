@@ -16,7 +16,7 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <IGESGraph_DefinitionLevel.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

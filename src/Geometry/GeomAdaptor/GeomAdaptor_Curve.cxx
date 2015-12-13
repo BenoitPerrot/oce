@@ -27,7 +27,7 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <GeomAdaptor_Surface.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Adaptor3d_HCurve.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Vec.hxx>
@@ -45,9 +45,9 @@
 #include <BSplCLib.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <TColgp_Array1OfPnt.hxx>
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_Array1OfInteger.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Precision.hxx>
 #include <Geom_TrimmedCurve.hxx>
 #include <Geom_Circle.hxx>

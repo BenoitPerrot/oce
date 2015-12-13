@@ -71,7 +71,7 @@
 #include <TopTools_DataMapOfShapeShape.hxx>
 #include <TopTools_DataMapIteratorOfDataMapOfShapeShape.hxx>
 #include <TopTools_DataMapIteratorOfDataMapOfShapeReal.hxx>
-#include <TColStd_ListIteratorOfListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>

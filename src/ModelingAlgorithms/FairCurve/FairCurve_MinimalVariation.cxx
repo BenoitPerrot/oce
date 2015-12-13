@@ -35,8 +35,8 @@
 #include <math_Matrix.hxx>
 #include <Precision.hxx>
 #include <TColgp_HArray1OfPnt2d.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 
 //======================================================================================
 FairCurve_MinimalVariation::FairCurve_MinimalVariation(const gp_Pnt2d& P1,

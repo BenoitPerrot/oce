@@ -5,7 +5,7 @@
 
 #include <BRepApprox_ParFunctionOfMyGradientbisOfTheComputeLineOfApprox.hxx>
 
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <AppParCurves_HArray1OfConstraintCouple.hxx>
 #include <BRepApprox_TheMultiLineOfApprox.hxx>
 #include <BRepApprox_TheMultiLineToolOfApprox.hxx>

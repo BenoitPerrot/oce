@@ -36,8 +36,8 @@
 #include <gp_Pnt.hxx>
 #include <TColgp_HArray1OfXYZ.hxx>
 #include <Interface_HArray1OfHAsciiString.hxx>
-#include <TColStd_HArray1OfReal.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <IGESGraph_HArray1OfTextFontDef.hxx>
 #include <IGESData_Dump.hxx>
 #include <Interface_Macros.hxx>

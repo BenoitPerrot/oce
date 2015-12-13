@@ -18,7 +18,7 @@
 #include <HLRBRep_TheDistBetweenPCurvesOfTheIntPCurvePCurveOfCInter.hxx>
 #include <HLRBRep_ExactIntersectionPointOfTheIntPCurvePCurveOfCInter.hxx>
 #include <IntRes2d_Domain.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
  
 
 #define TheCurve Standard_Address

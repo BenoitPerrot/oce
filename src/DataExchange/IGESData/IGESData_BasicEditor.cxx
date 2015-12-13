@@ -23,7 +23,7 @@
 #include <IGESData_SpecificModule.hxx>
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 
 #include <IGESData_LineFontEntity.hxx>
 #include <IGESData_LevelListEntity.hxx>

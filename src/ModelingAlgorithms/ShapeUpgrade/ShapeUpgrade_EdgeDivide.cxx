@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TColStd_HSequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
 #include <ShapeUpgrade_SplitCurve3d.hxx>
 #include <ShapeUpgrade_SplitCurve2d.hxx>
 #include <TopoDS_Face.hxx>

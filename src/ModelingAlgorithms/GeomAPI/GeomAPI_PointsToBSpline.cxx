@@ -18,7 +18,7 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <TColgp_Array1OfPnt.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <GeomAPI_PointsToBSpline.hxx>
 
 #include <AppDef_BSplineCompute.hxx>

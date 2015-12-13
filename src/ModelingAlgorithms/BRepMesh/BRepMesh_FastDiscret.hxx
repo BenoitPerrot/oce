@@ -18,7 +18,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <BRepMesh_FastDiscret.hxx>
 #include <BRepMesh_DataStructureOfDelaun.hxx>
-#include <TColStd_IndexedMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_IndexedMapOfInteger.hxx>
 #include <BRepMesh_Status.hxx>
 #include <TopTools_DataMapOfShapeReal.hxx>
 #include <TopTools_ListOfShape.hxx>

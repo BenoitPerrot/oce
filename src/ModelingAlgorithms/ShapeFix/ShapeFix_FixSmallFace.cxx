@@ -44,10 +44,10 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_FixSmallFace)
 //#include <GeomLProp_SLProps.hxx>
 #include <GeomAdaptor_Surface.hxx>
 #include <Geom_ElementarySurface.hxx>
-//#include <TColStd_Array2OfReal.hxx>
+//#include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <gp_Dir.hxx>
 #include <gp_Vec.hxx>
-//#include <TColStd_Array1OfReal.hxx>
+//#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <TopTools_Array1OfShape.hxx>
 

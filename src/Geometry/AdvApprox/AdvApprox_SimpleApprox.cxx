@@ -16,21 +16,21 @@
 #define No_Standard_OutOfRange
 
 #include <PLib_JacobiPolynomial.hxx>
-#include <TColStd_HArray1OfReal.hxx>
-#include <TColStd_HArray2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <TColStd_Array1OfInteger.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <AdvApprox_SimpleApprox.hxx>
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <AdvApprox_EvaluatorFunction.hxx>
-#include <TColStd_HArray1OfReal.hxx>
-#include <TColStd_HArray2OfReal.hxx>
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_Array1OfInteger.hxx>
-#include <TColStd_Array2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <math_Vector.hxx>
 #include <PLib.hxx>
 #include <PLib_JacobiPolynomial.hxx>

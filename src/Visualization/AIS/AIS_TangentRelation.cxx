@@ -64,7 +64,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_TangentRelation)
 #include <gp_Vec.hxx>
 
 #include <AIS.hxx>
-#include <TColStd_ListIteratorOfListOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfTransient.hxx>
 #include <AIS_Shape.hxx>
 #include <Bnd_Box.hxx>
 #include <Precision.hxx>

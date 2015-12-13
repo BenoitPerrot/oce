@@ -10,8 +10,8 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <TColStd_SequenceOfTransient.hxx>
-#include <TColStd_SequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <Handle_StepBasic_ProductRelatedProductCategory.hxx>
 #include <Handle_StepBasic_DocumentType.hxx>
 #include <Handle_StepBasic_ProductDefinitionContext.hxx>

@@ -26,7 +26,7 @@
 #include <gp_Vec.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>
 #include <TColgp_Array1OfVec2d.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <gp_Pnt.hxx>
 #include <Geom_Curve.hxx>
 #include <TColgp_HArray1OfPnt2d.hxx>
@@ -85,8 +85,8 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_LocationGuide)
 #include <GeomLib.hxx>
 #include <ElCLib.hxx>
 
-#include <TColStd_HArray1OfInteger.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <TColgp_HArray1OfPnt.hxx>
 
 #include <Extrema_ExtCS.hxx>

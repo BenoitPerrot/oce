@@ -30,8 +30,8 @@
 #include <AppParCurves.hxx>
 #include <Foundation/Standard/Standard_DimensionError.hxx>
 #include <math_Uzawa.hxx>
-#include <TColStd_Array1OfInteger.hxx>
-#include <TColStd_Array2OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array2OfInteger.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Pnt2d.hxx>
 #include <gp_Vec.hxx>

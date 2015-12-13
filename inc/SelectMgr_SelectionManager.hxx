@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_SelectMgr_SelectionManager.hxx>
 
-#include <TColStd_MapOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_MapOfTransient.hxx>
 #include <SelectMgr_DataMapOfObjectSelectors.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_SelectMgr_ViewerSelector.hxx>

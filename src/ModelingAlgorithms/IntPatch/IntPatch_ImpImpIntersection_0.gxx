@@ -20,8 +20,8 @@
 #include <IntPatch_TheSegmentOfTheSOnBounds.hxx>
 #include <IntPatch_RLine.hxx>
 #include <IntSurf.hxx>
-#include <TColStd_Array1OfInteger.hxx>
-#include <TColStd_SequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 
 static void PutPointsOnLine(const Handle(Adaptor3d_HSurface)& S1,
 			    const Handle(Adaptor3d_HSurface)& S2,

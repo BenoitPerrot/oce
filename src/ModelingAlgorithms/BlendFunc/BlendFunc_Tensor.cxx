@@ -19,7 +19,7 @@
 #include <math_Matrix.hxx>
 #include <BlendFunc_Tensor.hxx>
 
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <math_Vector.hxx>
 #include <math_Matrix.hxx>
 //#include <math_StackMemoryManager.hxx>

@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 
  
 
@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_RTTI(IGESBasic_HArray1OfHArray1OfReal)
 
 #define Handle_TheKey Handle_TColStd_HArray1OfReal
 #define TheKey TColStd_HArray1OfReal
-#define TheKey_hxx <TColStd_HArray1OfReal.hxx>
+#define TheKey_hxx <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #define Interface_JaggedArray IGESBasic_HArray1OfHArray1OfReal
 #define Interface_JaggedArray_hxx <IGESBasic_HArray1OfHArray1OfReal.hxx>
 #define Handle_Interface_JaggedArray Handle_IGESBasic_HArray1OfHArray1OfReal

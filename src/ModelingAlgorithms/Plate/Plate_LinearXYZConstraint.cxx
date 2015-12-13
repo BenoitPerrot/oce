@@ -15,12 +15,12 @@
 // commercial license or contractual agreement.
 
 #include <Plate_HArray1OfPinpointConstraint.hxx>
-#include <TColStd_HArray2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Plate_Array1OfPinpointConstraint.hxx>
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_Array2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <Plate_PinpointConstraint.hxx>
 #include <Plate_LinearXYZConstraint.hxx>
 

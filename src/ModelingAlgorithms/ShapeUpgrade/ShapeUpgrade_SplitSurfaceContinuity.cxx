@@ -29,9 +29,9 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_SplitSurfaceContinuity)
 #include <Precision.hxx>
 #include <ShapeUpgrade.hxx>
 #include <TColGeom_HArray2OfSurface.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Geom_SweptSurface.hxx>
-#include <TColStd_HSequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
 #include <Geom_SurfaceOfRevolution.hxx>
 #include <ShapeUpgrade_SplitCurve3dContinuity.hxx>
 #include <Geom_SurfaceOfLinearExtrusion.hxx>

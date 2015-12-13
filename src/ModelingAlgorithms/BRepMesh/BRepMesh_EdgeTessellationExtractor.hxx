@@ -25,7 +25,7 @@
 #include <Handle_Poly_Triangulation.hxx>
 #include <TopLoc_Location.hxx>
 #include <TColgp_Array1OfPnt.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 
 class Poly_Triangulation;
 class Poly_PolygonOnTriangulation;

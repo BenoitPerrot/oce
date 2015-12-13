@@ -13,7 +13,7 @@
 #include <gp_Pnt.hxx>
 #include <Adaptor3d_SurfacePtr.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <TColStd_SequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <Extrema_SequenceOfPOnSurf.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <math_FunctionSetWithDerivatives.hxx>

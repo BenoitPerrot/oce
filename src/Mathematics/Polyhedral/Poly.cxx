@@ -25,7 +25,7 @@
 #include <Poly_Triangle.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <TColgp_Array1OfPnt.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Poly_Array1OfTriangle.hxx>
 #include <Poly_ListOfTriangulation.hxx>
 

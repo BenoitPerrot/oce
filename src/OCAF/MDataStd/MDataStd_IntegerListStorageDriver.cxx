@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(MDataStd_IntegerListStorageDriver)
 #include <TDataStd_IntegerList.hxx>
 #include <MDataStd.hxx>
 #include <CDM_MessageDriver.hxx>
-#include <TColStd_ListIteratorOfListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 
 //=======================================================================
 //function : MDataStd_IntegerListStorageDriver

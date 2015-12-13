@@ -17,7 +17,7 @@
 #include <gp_Pnt.hxx>
 #include <BRepGProp_TFunction.hxx>
 
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <math_KronrodSingleIntegration.hxx>
 #include <Precision.hxx>
 

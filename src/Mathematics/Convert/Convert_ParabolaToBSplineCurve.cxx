@@ -23,9 +23,9 @@
 #include <gp_Dir2d.hxx>
 #include <gp_Trsf2d.hxx>
 #include <TColgp_HArray1OfPnt2d.hxx>
-#include <TColStd_HArray1OfReal.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>
 
 static Standard_Integer TheDegree  = 2;

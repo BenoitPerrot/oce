@@ -5,7 +5,7 @@
 
 #include <AppDef_Compute.hxx>
 
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <AppParCurves_HArray1OfConstraintCouple.hxx>
 #include <AppDef_MultiLine.hxx>
 #include <AppDef_MyLineTool.hxx>
@@ -16,7 +16,7 @@
 #include <AppDef_Gradient_BFGSOfMyGradientOfCompute.hxx>
 #include <AppParCurves_MultiCurve.hxx>
 #include <AppParCurves_MultiBSpCurve.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
  
 
 #define MultiLine AppDef_MultiLine

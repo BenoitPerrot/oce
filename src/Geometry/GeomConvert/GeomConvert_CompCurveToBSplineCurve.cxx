@@ -25,8 +25,8 @@
 #include <Geom_BSplineCurve.hxx>
 #include <GeomConvert.hxx>
 
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 
 #include <TColgp_Array1OfPnt.hxx>
 #include <gp_Vec.hxx>

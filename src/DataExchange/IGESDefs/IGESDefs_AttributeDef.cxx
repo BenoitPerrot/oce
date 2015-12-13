@@ -17,8 +17,8 @@
 //--------------------------------------------------------------------
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
-#include <TColStd_HArray1OfTransient.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfTransient.hxx>
 #include <IGESDefs_HArray1OfHArray1OfTextDisplayTemplate.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
@@ -38,8 +38,8 @@ IMPLEMENT_STANDARD_TYPE_END(IGESDefs_AttributeDef)
 IMPLEMENT_DOWNCAST(IGESDefs_AttributeDef,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESDefs_AttributeDef)
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
-#include <TColStd_HArray1OfReal.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <IGESData_HArray1OfIGESEntity.hxx>
 #include <IGESGraph_HArray1OfTextDisplayTemplate.hxx>
 #include <Interface_HArray1OfHAsciiString.hxx>

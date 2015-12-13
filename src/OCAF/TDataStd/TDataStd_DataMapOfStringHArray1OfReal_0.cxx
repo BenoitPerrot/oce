@@ -8,7 +8,7 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <TDataStd_DataMapNodeOfDataMapOfStringHArray1OfReal.hxx>
 #include <TDataStd_DataMapIteratorOfDataMapOfStringHArray1OfReal.hxx>
  
@@ -16,7 +16,7 @@
 #define TheKey TCollection_ExtendedString
 #define TheKey_hxx <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #define TheItem Handle(TColStd_HArray1OfReal)
-#define TheItem_hxx <TColStd_HArray1OfReal.hxx>
+#define TheItem_hxx <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #define Hasher TCollection_ExtendedString
 #define Hasher_hxx <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #define TCollection_DataMapNode TDataStd_DataMapNodeOfDataMapOfStringHArray1OfReal

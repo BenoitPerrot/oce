@@ -16,7 +16,7 @@
 #include <Interface_BitMap.hxx>
 #include <Interface_GeneralLib.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <TColStd_SequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Handle_Interface_GeneralModule.hxx>

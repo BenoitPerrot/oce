@@ -10,8 +10,8 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IFSelect_SignMultiple.hxx>
 
-#include <TColStd_SequenceOfTransient.hxx>
-#include <TColStd_SequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <IFSelect_Signature.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_IFSelect_Signature.hxx>

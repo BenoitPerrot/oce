@@ -26,7 +26,7 @@
 #include <gp_Vec.hxx>
 #include <GeomAdaptor_HSurface.hxx>
 #include <Adaptor3d_CurveOnSurface.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <AdvApprox_ApproxAFunction.hxx>
 #include <Adaptor3d_HCurve.hxx>
 #include <TColgp_Array1OfPnt.hxx>
@@ -34,7 +34,7 @@
 #include <Geom2dAdaptor_HCurve.hxx>
 #include <Adaptor3d_HCurveOnSurface.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <AdvApprox_PrefAndRec.hxx>
 #include <AdvApprox_DichoCutting.hxx>
 

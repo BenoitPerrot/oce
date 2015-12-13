@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_TYPE_END(Law_Interpol)
 IMPLEMENT_DOWNCAST(Law_Interpol,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Law_Interpol)
 #include <Precision.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <gp_Pnt2d.hxx>
 #include <gp_Vec2d.hxx>
 #include <Law_Interpolate.hxx>

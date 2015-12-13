@@ -6,8 +6,8 @@
 #include <QANCollection_DoubleMapIteratorOfDoubleMapOfRealInteger.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <TColStd_MapRealHasher.hxx>
-#include <TColStd_MapIntegerHasher.hxx>
+#include <Foundation/TColStd/TColStd_MapRealHasher.hxx>
+#include <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #include <QANCollection_DoubleMapOfRealInteger.hxx>
 #include <QANCollection_DoubleMapNodeOfDoubleMapOfRealInteger.hxx>
  
@@ -17,9 +17,9 @@
 #define TheKey2 Standard_Integer
 #define TheKey2_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define Hasher1 TColStd_MapRealHasher
-#define Hasher1_hxx <TColStd_MapRealHasher.hxx>
+#define Hasher1_hxx <Foundation/TColStd/TColStd_MapRealHasher.hxx>
 #define Hasher2 TColStd_MapIntegerHasher
-#define Hasher2_hxx <TColStd_MapIntegerHasher.hxx>
+#define Hasher2_hxx <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #define TCollection_DoubleMapNode QANCollection_DoubleMapNodeOfDoubleMapOfRealInteger
 #define TCollection_DoubleMapNode_hxx <QANCollection_DoubleMapNodeOfDoubleMapOfRealInteger.hxx>
 #define TCollection_DoubleMapIterator QANCollection_DoubleMapIteratorOfDoubleMapOfRealInteger

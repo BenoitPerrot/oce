@@ -46,7 +46,7 @@
 #include <DBRep.hxx>
 #include <Adaptor3d_HCurveOnSurface.hxx>
 #include <Adaptor3d_CurveOnSurface.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <BRep_Tool.hxx>
 
 #include <BRepLib.hxx>
@@ -80,8 +80,8 @@
 
 #include <Geom_BSplineSurface.hxx>
 
-#include <TColStd_HArray1OfReal.hxx>
-#include <TColStd_HArray2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
 
 #include <TColgp_SequenceOfXY.hxx>
 #include <TColgp_SequenceOfXYZ.hxx>

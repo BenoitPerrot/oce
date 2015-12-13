@@ -17,8 +17,8 @@
 //--------------------------------------------------------------------
 
 #include <IGESDraw_HArray1OfViewKindEntity.hxx>
-#include <TColStd_HArray1OfReal.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <IGESGraph_HArray1OfColor.hxx>
 #include <IGESBasic_HArray1OfLineFontEntity.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>

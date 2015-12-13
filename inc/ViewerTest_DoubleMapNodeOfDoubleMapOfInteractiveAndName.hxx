@@ -61,7 +61,7 @@ private:
 #define TheKey2 TCollection_AsciiString
 #define TheKey2_hxx <Foundation/TCollection/TCollection_AsciiString.hxx>
 #define Hasher1 TColStd_MapTransientHasher
-#define Hasher1_hxx <TColStd_MapTransientHasher.hxx>
+#define Hasher1_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define Hasher2 TCollection_AsciiString
 #define Hasher2_hxx <Foundation/TCollection/TCollection_AsciiString.hxx>
 #define TCollection_DoubleMapNode ViewerTest_DoubleMapNodeOfDoubleMapOfInteractiveAndName

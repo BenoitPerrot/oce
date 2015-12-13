@@ -12,8 +12,8 @@
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Interface_ParamSet.hxx>
-#include <TColStd_Array1OfInteger.hxx>
-#include <TColStd_Array1OfTransient.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfTransient.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Interface_ParamType.hxx>

@@ -42,7 +42,7 @@
 #include <XSControl_ConnectedShapes.hxx>
 #include <XSControl_TransferWriter.hxx>
 #include <XSControl_TransferReader.hxx>
-#include <TColStd_HSequenceOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <Transfer_ResultFromModel.hxx>
 
 #include <TopTools_HSequenceOfShape.hxx>
@@ -52,7 +52,7 @@
 #include <BRepTools.hxx>
 
 #include <TopoDS.hxx>
-#include <TColStd_SequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <TopExp_Explorer.hxx>
 
 #include <Geom_Geometry.hxx>

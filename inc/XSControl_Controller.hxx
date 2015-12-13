@@ -18,9 +18,9 @@
 #include <Handle_Transfer_ActorOfTransientProcess.hxx>
 #include <Handle_Transfer_ActorOfFinderProcess.hxx>
 #include <Handle_Dico_DictionaryOfTransient.hxx>
-#include <TColStd_SequenceOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfTransient.hxx>
 #include <Handle_TColStd_HSequenceOfHAsciiString.hxx>
-#include <TColStd_SequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <Handle_Interface_HArray1OfHAsciiString.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>

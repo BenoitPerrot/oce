@@ -12,7 +12,7 @@
 
 #include <gp_Dir.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <TColStd_Array2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <TopTrans_Array2OfOrientation.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <TopAbs_Orientation.hxx>

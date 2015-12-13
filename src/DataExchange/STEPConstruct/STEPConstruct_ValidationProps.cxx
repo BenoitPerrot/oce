@@ -21,7 +21,7 @@
 #include <StepRepr_CharacterizedDefinition.hxx>
 #include <StepRepr_RepresentationContext.hxx>
 #include <gp_Pnt.hxx>
-#include <TColStd_SequenceOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfTransient.hxx>
 #include <StepRepr_NextAssemblyUsageOccurrence.hxx>
 #include <StepRepr_PropertyDefinition.hxx>
 #include <STEPConstruct_ValidationProps.hxx>

@@ -41,7 +41,7 @@ IMPLEMENT_STANDARD_RTTI(V3d_ColorScale)
 #include <Aspect_TypeOfColorScalePosition.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TColStd_SequenceOfExtendedString.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfExtendedString.hxx>
 #include <Font_NameOfFont.hxx>
 
 V3d_ColorScale::V3d_ColorScale( const Handle(V3d_LayerMgr)& aMgr )

@@ -62,7 +62,7 @@ private:
 };
 
 #define Item Handle(TColStd_HArray1OfReal)
-#define Item_hxx <TColStd_HArray1OfReal.hxx>
+#define Item_hxx <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #define TCollection_ListNode FEmTool_ListNodeOfListOfVectors
 #define TCollection_ListNode_hxx <FEmTool_ListNodeOfListOfVectors.hxx>
 #define TCollection_ListIterator FEmTool_ListIteratorOfListOfVectors

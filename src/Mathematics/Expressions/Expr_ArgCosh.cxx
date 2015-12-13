@@ -19,7 +19,7 @@
 #include <Expr_GeneralExpression.hxx>
 #include <Expr_NamedUnknown.hxx>
 #include <Expr_Array1OfNamedUnknown.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Expr_ArgCosh.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

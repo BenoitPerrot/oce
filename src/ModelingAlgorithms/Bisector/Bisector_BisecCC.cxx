@@ -22,7 +22,7 @@
 #include <gp_Trsf2d.hxx>
 #include <gp_Vec2d.hxx>
 #include <Bisector_PolyBis.hxx>
-#include <TColStd_SequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <Bisector_BisecCC.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Bisector_BisecCC)

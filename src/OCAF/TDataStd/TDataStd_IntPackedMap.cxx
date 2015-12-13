@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TColStd_HPackedMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HPackedMapOfInteger.hxx>
 #include <TDataStd_DeltaOnModificationOfIntPackedMap.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <TDF_Label.hxx>
@@ -31,8 +31,8 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(TDataStd_IntPackedMap)
 IMPLEMENT_DOWNCAST(TDataStd_IntPackedMap,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TDataStd_IntPackedMap)
-#include <TColStd_PackedMapOfInteger.hxx>
-#include <TColStd_HPackedMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_PackedMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HPackedMapOfInteger.hxx>
 #include <TDF_DefaultDeltaOnModification.hxx>
 #include <TDataStd_DeltaOnModificationOfIntPackedMap.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>

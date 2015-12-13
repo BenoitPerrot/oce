@@ -17,9 +17,9 @@
 //--------------------------------------------------------------------
 
 #include <IGESDimen_GeneralNote.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <IGESAppli_HArray1OfNode.hxx>
-#include <TColStd_HArray2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <IGESAppli_Node.hxx>
@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_TYPE_END(IGESAppli_NodalResults)
 IMPLEMENT_DOWNCAST(IGESAppli_NodalResults,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESAppli_NodalResults)
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 
 
 IGESAppli_NodalResults::IGESAppli_NodalResults ()    {  }

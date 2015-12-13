@@ -13,7 +13,7 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_MAT_ListOfEdge.hxx>
-#include <TColStd_DataMapOfIntegerInteger.hxx>
+#include <Foundation/TColStd/TColStd_DataMapOfIntegerInteger.hxx>
 #include <MAT_DataMapOfIntegerBisector.hxx>
 #include <Handle_MAT_ListOfBisector.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

@@ -20,7 +20,7 @@
 
 #include <Approx_ParametrizationType.hxx>
 #include Approx_MyLeastSquare_hxx
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <AppParCurves_Constraint.hxx>
 #include <Approx_Status.hxx>
 #include <Precision.hxx>

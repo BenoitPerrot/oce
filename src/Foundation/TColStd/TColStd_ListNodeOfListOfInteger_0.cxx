@@ -3,12 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TColStd_ListNodeOfListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListNodeOfListOfInteger.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <TColStd_ListOfInteger.hxx>
-#include <TColStd_ListIteratorOfListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 
  
 
@@ -30,12 +30,12 @@ IMPLEMENT_STANDARD_RTTI(TColStd_ListNodeOfListOfInteger)
 #define Item Standard_Integer
 #define Item_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TCollection_ListNode TColStd_ListNodeOfListOfInteger
-#define TCollection_ListNode_hxx <TColStd_ListNodeOfListOfInteger.hxx>
+#define TCollection_ListNode_hxx <Foundation/TColStd/TColStd_ListNodeOfListOfInteger.hxx>
 #define TCollection_ListIterator TColStd_ListIteratorOfListOfInteger
-#define TCollection_ListIterator_hxx <TColStd_ListIteratorOfListOfInteger.hxx>
+#define TCollection_ListIterator_hxx <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 #define Handle_TCollection_ListNode Handle_TColStd_ListNodeOfListOfInteger
 #define TCollection_ListNode_Type_() TColStd_ListNodeOfListOfInteger_Type_()
 #define TCollection_List TColStd_ListOfInteger
-#define TCollection_List_hxx <TColStd_ListOfInteger.hxx>
+#define TCollection_List_hxx <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <Foundation/TCollection/TCollection_ListNode.gxx>
 

@@ -22,7 +22,7 @@
 //			a triangle containing confused or aligned points.
 
 #include <Poly_Triangulation.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <SelectBasics_EntityOwner.hxx>
 #include <TopLoc_Location.hxx>
 #include <gp_Pnt.hxx>
@@ -50,7 +50,7 @@ IMPLEMENT_STANDARD_RTTI(Select3D_SensitiveTriangulation)
 #include <Poly.hxx>
 #include <Poly_Connect.hxx>
 #include <CSLib_Class2d.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Select3D_SensitiveTriangle.hxx>
 #include <Precision.hxx>
 #include <ElCLib.hxx>

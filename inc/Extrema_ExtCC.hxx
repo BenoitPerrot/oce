@@ -13,7 +13,7 @@
 #include <Extrema_ECC.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Extrema_SequenceOfPOnCurv.hxx>
-#include <TColStd_SequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

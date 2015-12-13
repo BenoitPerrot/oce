@@ -17,8 +17,8 @@
 #include <gp_Pnt2d.hxx>
 #include <Geom_BSplineCurve.hxx>
 #include <Geom2d_BSplineCurve.hxx>
-#include <TColStd_HArray1OfReal.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <ShapeConstruct_Curve.hxx>
 
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>

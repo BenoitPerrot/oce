@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TDataStd_HDataMapOfStringInteger.hxx>
 
-#include <TColStd_DataMapOfStringInteger.hxx>
+#include <Foundation/TColStd/TColStd_DataMapOfStringInteger.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class TColStd_DataMapOfStringInteger;

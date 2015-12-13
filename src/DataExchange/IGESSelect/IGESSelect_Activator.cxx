@@ -72,7 +72,7 @@ IMPLEMENT_STANDARD_RTTI(IGESSelect_Activator)
 
 #include <IGESSelect_SplineToBSpline.hxx>
 
-#include <TColStd_HSequenceOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <IGESSelect_WorkLibrary.hxx>
 #include <stdio.h>
 

@@ -11,8 +11,8 @@
 #include <Handle_BRepTools_NurbsConvertModification.hxx>
 
 #include <TopTools_ListOfShape.hxx>
-#include <TColStd_ListOfTransient.hxx>
-#include <TColStd_IndexedDataMapOfTransientTransient.hxx>
+#include <Foundation/TColStd/TColStd_ListOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_IndexedDataMapOfTransientTransient.hxx>
 #include <BRepTools_Modification.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Geom_Surface.hxx>

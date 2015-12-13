@@ -15,13 +15,13 @@
 #include <TopoDS_Wire.hxx>
 #include <ShapeConstruct_MakeTriangulation.hxx>
 
-#include <TColStd_SequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <Precision.hxx>
 
 #include <gp_Pln.hxx>
 #include <gp_Vec.hxx>
 #include <Geom_Plane.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <TColgp_HArray1OfPnt.hxx>
 #include <TColgp_SequenceOfPnt.hxx>
 

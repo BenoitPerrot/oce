@@ -18,7 +18,7 @@
 
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TColStd_HSequenceOfExtendedString.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfExtendedString.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 
@@ -85,8 +85,8 @@
 #include <ViewerTest.hxx>
 #include <Draw_PluginMacro.hxx>
 
-#include <TColStd_HArray1OfInteger.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 
 #include <AIS_InteractiveObject.hxx>
 #include <AIS_Drawer.hxx>

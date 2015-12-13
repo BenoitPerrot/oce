@@ -25,7 +25,7 @@
 #include <Transfer_VoidBinder.hxx>
 #include <Transfer_SimpleBinderOfTransient.hxx>
 #include <Transfer_MultipleBinder.hxx>
-#include <TColStd_HSequenceOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <Interface_Macros.hxx>
 
 

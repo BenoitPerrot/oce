@@ -59,7 +59,7 @@
 
 #include <TopoDS_Compound.hxx>
 #include <BRep_Builder.hxx>
-#include <TColStd_MapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_MapOfInteger.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 #include <ShapeAnalysis_FreeBounds.hxx>

@@ -21,7 +21,7 @@
 #include <Bnd_Box.hxx>
 #include <Precision.hxx>
 #include <TColgp_HArray1OfVec.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Vrml_Material.hxx>
 #include <VrmlConverter_LineAspect.hxx>
 #include <Vrml_Separator.hxx>

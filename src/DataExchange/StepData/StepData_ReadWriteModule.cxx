@@ -14,7 +14,7 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Interface_FileReaderData.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TColStd_SequenceOfAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfAsciiString.hxx>
 #include <Interface_Check.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <StepData_StepReaderData.hxx>

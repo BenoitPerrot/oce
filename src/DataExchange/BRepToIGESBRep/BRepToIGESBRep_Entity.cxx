@@ -115,9 +115,9 @@
 
 #include <TColgp_HArray1OfXYZ.hxx>
 
-#include <TColStd_HSequenceOfTransient.hxx>
-#include <TColStd_SequenceOfInteger.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 
 #include <TopAbs_ShapeEnum.hxx>
 #include <TopAbs_Orientation.hxx>

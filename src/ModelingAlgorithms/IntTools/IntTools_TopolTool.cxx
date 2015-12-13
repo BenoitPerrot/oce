@@ -36,7 +36,7 @@ IMPLEMENT_STANDARD_RTTI(IntTools_TopolTool)
 #include <gp_Cone.hxx>
 #include <ElSLib.hxx>
 
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 
 static void Analyse(const TColgp_Array2OfPnt& array2,
 		    Standard_Integer&         theNbSamplesU,

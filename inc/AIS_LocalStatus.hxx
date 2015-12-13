@@ -12,7 +12,7 @@
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <TColStd_ListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

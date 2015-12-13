@@ -8,7 +8,7 @@
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Geom2dHatch_Element.hxx>
-#include <TColStd_MapIntegerHasher.hxx>
+#include <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #include <Geom2dHatch_MapOfElements.hxx>
 #include <Geom2dHatch_DataMapIteratorOfMapOfElements.hxx>
 
@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_RTTI(Geom2dHatch_DataMapNodeOfMapOfElements)
 #define TheItem Geom2dHatch_Element
 #define TheItem_hxx <Geom2dHatch_Element.hxx>
 #define Hasher TColStd_MapIntegerHasher
-#define Hasher_hxx <TColStd_MapIntegerHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #define TCollection_DataMapNode Geom2dHatch_DataMapNodeOfMapOfElements
 #define TCollection_DataMapNode_hxx <Geom2dHatch_DataMapNodeOfMapOfElements.hxx>
 #define TCollection_DataMapIterator Geom2dHatch_DataMapIteratorOfMapOfElements

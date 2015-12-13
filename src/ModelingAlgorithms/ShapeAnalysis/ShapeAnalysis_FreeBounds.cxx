@@ -37,9 +37,9 @@
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Iterator.hxx>
 
-#include <TColStd_Array1OfBoolean.hxx>
-#include <TColStd_Array1OfInteger.hxx>
-#include <TColStd_SequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 
 #include <ShapeExtend_WireData.hxx>
 #include <ShapeExtend_Explorer.hxx>
@@ -57,7 +57,7 @@
 #include <TopoDS_Shell.hxx>
 #include <ShapeAnalysis_BoxBndTree.hxx>
 #include <Foundation/NCollection/NCollection_UBTreeFiller.hxx>
-#include <TColStd_ListIteratorOfListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 #include <TopTools_HArray1OfShape.hxx>
 #include <TopExp.hxx>
 

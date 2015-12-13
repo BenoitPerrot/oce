@@ -13,8 +13,8 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <TColStd_SequenceOfReal.hxx>
-#include <TColStd_SequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 
 inline Standard_Boolean math_FunctionAllRoots::IsDone() const { return done; }
 

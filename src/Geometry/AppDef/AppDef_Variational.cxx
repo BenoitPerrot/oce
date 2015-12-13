@@ -17,9 +17,9 @@
 // Approximation d une MultiLine de points decrite par le tool MLineTool.
 // avec criteres variationnels
 
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <AppParCurves_HArray1OfConstraintCouple.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <AppDef_SmoothCriterion.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_DimensionError.hxx>
@@ -31,7 +31,7 @@
 #include <AppParCurves_MultiBSpCurve.hxx>
 #include <math_Matrix.hxx>
 #include <FEmTool_Curve.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <FEmTool_Assembly.hxx>
 #include <PLib_Base.hxx>
 #include <AppDef_Variational.hxx>
@@ -59,11 +59,11 @@
 #include <TColgp_Array1OfPnt2d.hxx>
 #include <TColgp_Array1OfVec.hxx>
 #include <TColgp_Array1OfVec2d.hxx>
-#include <TColStd_Array1OfInteger.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_HArray1OfReal.hxx>
-#include <TColStd_HArray2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_SStream.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
@@ -73,9 +73,9 @@
 #include <Foundation/SortTools/SortTools_StraightInsertionSortOfReal.hxx>
 #include <Foundation/SortTools/SortTools_ShellSortOfReal.hxx>
 #include <Foundation/TCollection/TCollection_CompareOfReal.hxx>
-#include <TColStd_HArray2OfInteger.hxx>
-#include <TColStd_Array2OfInteger.hxx>
-#include <TColStd_Array2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray2OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array2OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <FEmTool_Assembly.hxx>
 #include <FEmTool_AssemblyTable.hxx>
 #include <FEmTool_Curve.hxx>

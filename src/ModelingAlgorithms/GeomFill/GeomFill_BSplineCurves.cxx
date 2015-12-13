@@ -24,9 +24,9 @@
 #include <GeomFill_Coons.hxx>
 #include <GeomFill_Curved.hxx>
 
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_Array1OfInteger.hxx>
-#include <TColStd_Array2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <TColgp_Array2OfPnt.hxx>
 

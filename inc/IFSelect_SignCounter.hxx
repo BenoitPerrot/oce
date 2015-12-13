@@ -11,7 +11,7 @@
 #include <Handle_IFSelect_SignCounter.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <TColStd_MapOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_MapOfTransient.hxx>
 #include <Handle_IFSelect_Signature.hxx>
 #include <Handle_IFSelect_Selection.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

@@ -14,7 +14,7 @@
 #include <Handle_BRepAdaptor_HSurface.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <IntCurveSurface_SequenceOfPnt.hxx>
-#include <TColStd_SequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <TopoDS_Face.hxx>

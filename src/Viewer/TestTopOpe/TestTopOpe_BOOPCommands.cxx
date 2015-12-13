@@ -23,7 +23,7 @@
 #include <BRep_Tool.hxx>
 #include <TopoDS.hxx>
 #include <TopExp_Explorer.hxx>
-#include <TColStd_HArray1OfBoolean.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfBoolean.hxx>
 #include <Draw.hxx>
 #include <DBRep.hxx>
 

@@ -78,8 +78,8 @@
 
 #include <TColgp_Array1OfPnt.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 
 #include <Adaptor3d_HCurve.hxx>
 #include <Adaptor3d_HSurface.hxx>
@@ -113,13 +113,13 @@
 #include <GCPnts_TangentialDeflection.hxx>
 #include <GeomAPI_ExtremaCurveCurve.hxx>
 #include <gce_MakeLin.hxx>
-#include <TColStd_Array1OfBoolean.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>
 #include <GeomAdaptor_HSurface.hxx>
 #include <Adaptor3d_TopolTool.hxx>
 #include <TColgp_Array2OfPnt.hxx>
 #include <Geom_BSplineSurface.hxx>
 #include <DrawTrSurf_BSplineSurface.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 
 //epa test
 #include <BRepLib_MakeEdge.hxx>

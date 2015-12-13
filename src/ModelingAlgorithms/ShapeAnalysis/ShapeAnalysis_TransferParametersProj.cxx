@@ -15,7 +15,7 @@
 #include <Geom2d_Curve.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Face.hxx>
-#include <TColStd_HSequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <ShapeAnalysis_TransferParametersProj.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeAnalysis_TransferParametersProj)
 #include <Geom_Surface.hxx>
 #include <GeomAdaptor_HSurface.hxx>
 #include <BRep_Tool.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <TopLoc_Location.hxx>
 #include <ShapeAnalysis_Edge.hxx>
 #include <TColgp_SequenceOfPnt.hxx>

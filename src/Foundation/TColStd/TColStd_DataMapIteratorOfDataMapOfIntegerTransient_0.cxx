@@ -3,13 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TColStd_DataMapIteratorOfDataMapOfIntegerTransient.hxx>
+#include <Foundation/TColStd/TColStd_DataMapIteratorOfDataMapOfIntegerTransient.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <TColStd_MapIntegerHasher.hxx>
-#include <TColStd_DataMapOfIntegerTransient.hxx>
-#include <TColStd_DataMapNodeOfDataMapOfIntegerTransient.hxx>
+#include <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
+#include <Foundation/TColStd/TColStd_DataMapOfIntegerTransient.hxx>
+#include <Foundation/TColStd/TColStd_DataMapNodeOfDataMapOfIntegerTransient.hxx>
  
 
 #define TheKey Standard_Integer
@@ -17,14 +17,14 @@
 #define TheItem Handle(Standard_Transient)
 #define TheItem_hxx <Foundation/Standard/Standard_Transient.hxx>
 #define Hasher TColStd_MapIntegerHasher
-#define Hasher_hxx <TColStd_MapIntegerHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #define TCollection_DataMapNode TColStd_DataMapNodeOfDataMapOfIntegerTransient
-#define TCollection_DataMapNode_hxx <TColStd_DataMapNodeOfDataMapOfIntegerTransient.hxx>
+#define TCollection_DataMapNode_hxx <Foundation/TColStd/TColStd_DataMapNodeOfDataMapOfIntegerTransient.hxx>
 #define TCollection_DataMapIterator TColStd_DataMapIteratorOfDataMapOfIntegerTransient
-#define TCollection_DataMapIterator_hxx <TColStd_DataMapIteratorOfDataMapOfIntegerTransient.hxx>
+#define TCollection_DataMapIterator_hxx <Foundation/TColStd/TColStd_DataMapIteratorOfDataMapOfIntegerTransient.hxx>
 #define Handle_TCollection_DataMapNode Handle_TColStd_DataMapNodeOfDataMapOfIntegerTransient
 #define TCollection_DataMapNode_Type_() TColStd_DataMapNodeOfDataMapOfIntegerTransient_Type_()
 #define TCollection_DataMap TColStd_DataMapOfIntegerTransient
-#define TCollection_DataMap_hxx <TColStd_DataMapOfIntegerTransient.hxx>
+#define TCollection_DataMap_hxx <Foundation/TColStd/TColStd_DataMapOfIntegerTransient.hxx>
 #include <Foundation/TCollection/TCollection_DataMapIterator.gxx>
 

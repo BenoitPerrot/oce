@@ -31,8 +31,8 @@
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <TColGeom_Array1OfBSplineCurve.hxx>
 #include <TColGeom_HArray1OfBSplineCurve.hxx>
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_Array1OfBoolean.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <TopLoc_Location.hxx>
@@ -40,8 +40,8 @@
 
 #include <TColGeom_SequenceOfCurve.hxx>
 #include <TopTools_SequenceOfShape.hxx>
-#include <TColStd_SequenceOfReal.hxx>
-#include <TColStd_SequenceOfBoolean.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfBoolean.hxx>
 #include <GeomAbs_CurveType.hxx>
 #include <BRepAdaptor_Curve.hxx>
 #include <ElCLib.hxx>

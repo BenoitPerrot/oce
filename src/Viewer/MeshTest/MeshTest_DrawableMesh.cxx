@@ -19,8 +19,8 @@
 #include <Draw.hxx>
 #include <Draw_ColorKind.hxx>
 #include <Draw_Color.hxx>
-#include <TColStd_ListIteratorOfListOfInteger.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Poly_Triangulation.hxx>
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <BRepMesh_DegreeOfFreedom.hxx>

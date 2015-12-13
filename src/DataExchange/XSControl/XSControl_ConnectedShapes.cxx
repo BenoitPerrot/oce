@@ -16,7 +16,7 @@
 #include <Interface_Graph.hxx>
 #include <Interface_EntityIterator.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TColStd_HSequenceOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <TopoDS_Shape.hxx>
 #include <Transfer_TransientProcess.hxx>
 #include <XSControl_ConnectedShapes.hxx>

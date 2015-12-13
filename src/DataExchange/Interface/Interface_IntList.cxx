@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 //szv#4 S4163
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Interface_IntList.hxx>
 
 //   Organisation des donnees :

@@ -22,16 +22,16 @@
 // Modified     PMN 15/04/1997 : Gestion fine de la continuite aux lieux de decoupes 
 
 #include <math_Vector.hxx>
-#include <TColStd_HArray1OfReal.hxx>
-#include <TColStd_HArray2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
 #include <TColgp_HArray2OfPnt2d.hxx>
 #include <TColgp_HArray2OfPnt.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <AdvApprox_Cutting.hxx>
-#include <TColStd_Array1OfInteger.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <AdvApprox_ApproxAFunction.hxx>
@@ -44,11 +44,11 @@
 #include <Convert_CompPolynomialToPoles.hxx>
 #include <BSplCLib.hxx>
 
-#include <TColStd_HArray1OfReal.hxx>
-#include <TColStd_HArray2OfReal.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 
 #include <gp_Vec.hxx>
 #include <gp_Vec2d.hxx>

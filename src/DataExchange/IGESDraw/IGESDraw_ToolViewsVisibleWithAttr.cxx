@@ -36,7 +36,7 @@
 #include <IGESData_ViewKindEntity.hxx>
 #include <IGESDraw_HArray1OfViewKindEntity.hxx>
 #include <IGESGraph_HArray1OfColor.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <IGESData_HArray1OfIGESEntity.hxx>
 #include <IGESBasic_HArray1OfLineFontEntity.hxx>
 #include <IGESData_Dump.hxx>

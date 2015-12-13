@@ -13,8 +13,8 @@
 
 #include <IGESSolid_ManifoldSolid.hxx>
 #include <IGESSolid_Shell.hxx>
-#include <TColStd_HSequenceOfTransient.hxx>
-#include <TColStd_HSequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfInteger.hxx>
 #include <IGESSolid_Face.hxx>
 #include <IGESData_IGESEntity.hxx>
 #include <IGESSolid_Loop.hxx>
@@ -28,7 +28,7 @@
 #include <TColgp_HArray1OfXYZ.hxx>
 #include <IGESData_HArray1OfIGESEntity.hxx>
 #include <IGESSolid_HArray1OfVertexList.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <IGESBasic_HArray1OfHArray1OfInteger.hxx>
 #include <IGESBasic_HArray1OfHArray1OfIGESEntity.hxx>
 #include <IGESSolid_HArray1OfLoop.hxx>

@@ -27,7 +27,7 @@
 #include <GeomPlate_HSequenceOfPointConstraint.hxx>
 #include <Geom_Surface.hxx>
 #include <GeomPlate_Surface.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <GeomPlate_HArray1OfHCurveOnSurface.hxx>
@@ -36,7 +36,7 @@
 #include <TColgp_SequenceOfXY.hxx>
 #include <TColgp_SequenceOfXYZ.hxx>
 #include <TColGeom2d_HArray1OfCurve.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <gp_Pnt2d.hxx>
 #include <gp_Pnt.hxx>
 #include <Geom2d_Curve.hxx>
@@ -44,7 +44,7 @@
 #include <Adaptor2d_HCurve2d.hxx>
 #include <GeomPlate_BuildPlateSurface.hxx>
 
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <TColgp_HArray1OfPnt.hxx>
 
 #include <gp_Pnt.hxx>
@@ -89,7 +89,7 @@
 #include <Geom2d_BezierCurve.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>
 
-#include <TColStd_SequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <TColgp_SequenceOfVec.hxx>
 #include <TColgp_HArray2OfPnt.hxx>
 #include <Geom_BSplineSurface.hxx>

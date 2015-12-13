@@ -21,7 +21,7 @@
 #include <StepData_StepWriter.hxx>
 #include <Interface_EntityIterator.hxx>
 #include <RWStepBasic_RWEulerAngles.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 
 //=======================================================================

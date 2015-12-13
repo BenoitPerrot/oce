@@ -14,8 +14,8 @@
 #include <Handle_IFSelect_SignCounter.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <TColStd_SequenceOfAsciiString.hxx>
-#include <TColStd_SequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <IFSelect_SelectExtract.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

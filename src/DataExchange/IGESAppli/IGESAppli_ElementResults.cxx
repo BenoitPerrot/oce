@@ -18,14 +18,14 @@
 
 // UNFINISHED & UNSTARTED
 #include <IGESDimen_GeneralNote.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <IGESAppli_HArray1OfFiniteElement.hxx>
 #include <IGESBasic_HArray1OfHArray1OfInteger.hxx>
 #include <IGESBasic_HArray1OfHArray1OfReal.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <IGESAppli_FiniteElement.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <IGESAppli_ElementResults.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESAppli_ElementResults)

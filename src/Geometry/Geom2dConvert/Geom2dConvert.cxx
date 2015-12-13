@@ -19,9 +19,9 @@
 #include <Geom2d_BSplineCurve.hxx>
 #include <Geom2d_Curve.hxx>
 #include <TColGeom2d_Array1OfBSplineCurve.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <TColGeom2d_HArray1OfBSplineCurve.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Geom2dConvert.hxx>
 
 #include <Convert_ConicToBSplineCurve.hxx>
@@ -67,10 +67,10 @@
 
 #include <PLib.hxx>
 
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_Array1OfBoolean.hxx>
-#include <TColStd_HArray1OfReal.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>

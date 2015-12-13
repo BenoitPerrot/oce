@@ -46,16 +46,16 @@
 #include <BRep_ListIteratorOfListOfCurveRepresentation.hxx>
 #include <BRep_TEdge.hxx>
 #include <TColgp_SequenceOfPnt2d.hxx>
-#include <TColStd_SequenceOfReal.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <TColGeom2d_SequenceOfCurve.hxx>
 #include <TopTools_SequenceOfShape.hxx>
 #include <Precision.hxx>
 
 #include <Poly_Triangulation.hxx>
 #include <Poly_PolygonOnTriangulation.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
-#include <TColStd_MapOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_MapOfTransient.hxx>
 
 #include <gp_Lin2d.hxx>
 #include <ElCLib.hxx>

@@ -11,8 +11,8 @@
 #include <Handle_IGESSelect_ViewSorter.hxx>
 
 #include <Handle_IGESData_IGESModel.hxx>
-#include <TColStd_IndexedMapOfTransient.hxx>
-#include <TColStd_SequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_IndexedMapOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Standard_Transient.hxx>

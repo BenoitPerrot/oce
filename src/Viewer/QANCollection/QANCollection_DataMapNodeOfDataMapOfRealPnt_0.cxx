@@ -8,7 +8,7 @@
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <gp_Pnt.hxx>
-#include <TColStd_MapRealHasher.hxx>
+#include <Foundation/TColStd/TColStd_MapRealHasher.hxx>
 #include <QANCollection_DataMapOfRealPnt.hxx>
 #include <QANCollection_DataMapIteratorOfDataMapOfRealPnt.hxx>
 
@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_RTTI(QANCollection_DataMapNodeOfDataMapOfRealPnt)
 #define TheItem gp_Pnt
 #define TheItem_hxx <gp_Pnt.hxx>
 #define Hasher TColStd_MapRealHasher
-#define Hasher_hxx <TColStd_MapRealHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapRealHasher.hxx>
 #define TCollection_DataMapNode QANCollection_DataMapNodeOfDataMapOfRealPnt
 #define TCollection_DataMapNode_hxx <QANCollection_DataMapNodeOfDataMapOfRealPnt.hxx>
 #define TCollection_DataMapIterator QANCollection_DataMapIteratorOfDataMapOfRealPnt

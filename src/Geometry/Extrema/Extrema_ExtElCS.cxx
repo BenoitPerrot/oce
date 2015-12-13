@@ -14,7 +14,7 @@
 
 //  Modified by skv - Thu Jul  7 14:37:05 2005 OCC9134
 
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Extrema_HArray1OfPOnCurv.hxx>
 #include <Extrema_HArray1OfPOnSurf.hxx>
 #include <Foundation/StdFail/StdFail_InfiniteSolutions.hxx>

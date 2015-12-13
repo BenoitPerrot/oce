@@ -15,7 +15,7 @@
 #define _BRepExtrema_ExtFF_HeaderFile
 
 #include <Extrema_ExtSS.hxx>
-#include <TColStd_SequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <Extrema_SequenceOfPOnSurf.hxx>
 #include <BRepAdaptor_HSurface.hxx>
 #include <Extrema_POnSurf.hxx>

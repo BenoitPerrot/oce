@@ -8,7 +8,7 @@
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <gp_Vec2d.hxx>
-#include <TColStd_MapIntegerHasher.hxx>
+#include <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #include <MAT2d_DataMapOfIntegerVec2d.hxx>
 #include <MAT2d_DataMapIteratorOfDataMapOfIntegerVec2d.hxx>
 
@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_RTTI(MAT2d_DataMapNodeOfDataMapOfIntegerVec2d)
 #define TheItem gp_Vec2d
 #define TheItem_hxx <gp_Vec2d.hxx>
 #define Hasher TColStd_MapIntegerHasher
-#define Hasher_hxx <TColStd_MapIntegerHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #define TCollection_DataMapNode MAT2d_DataMapNodeOfDataMapOfIntegerVec2d
 #define TCollection_DataMapNode_hxx <MAT2d_DataMapNodeOfDataMapOfIntegerVec2d.hxx>
 #define TCollection_DataMapIterator MAT2d_DataMapIteratorOfDataMapOfIntegerVec2d

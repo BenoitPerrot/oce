@@ -21,7 +21,7 @@
 #include <gp_Pnt.hxx>
 #include <gp_Vec.hxx>
 #include <gp.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 
 #define Us3 0.3333333333333333333333333333
 

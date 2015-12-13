@@ -9,7 +9,7 @@
 
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <BinMDF_ADriver.hxx>
-#include <TColStd_MapTransientHasher.hxx>
+#include <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #include <BinMDF_TypeADriverMap.hxx>
 #include <BinMDF_DataMapIteratorOfTypeADriverMap.hxx>
 
@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_RTTI(BinMDF_DataMapNodeOfTypeADriverMap)
 #define TheItem Handle(BinMDF_ADriver)
 #define TheItem_hxx <BinMDF_ADriver.hxx>
 #define Hasher TColStd_MapTransientHasher
-#define Hasher_hxx <TColStd_MapTransientHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define TCollection_DataMapNode BinMDF_DataMapNodeOfTypeADriverMap
 #define TCollection_DataMapNode_hxx <BinMDF_DataMapNodeOfTypeADriverMap.hxx>
 #define TCollection_DataMapIterator BinMDF_DataMapIteratorOfTypeADriverMap

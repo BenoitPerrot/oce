@@ -11,10 +11,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Interface_InterfaceModel.hxx>
-#include <TColStd_HSequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfInteger.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <IGESSelect_CounterOfLevelNumber.hxx>

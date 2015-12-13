@@ -62,7 +62,7 @@ private:
 #define TheKey2 Handle(Standard_Persistent)
 #define TheKey2_hxx <Foundation/Standard/Standard_Persistent.hxx>
 #define Hasher1 TColStd_MapTransientHasher
-#define Hasher1_hxx <TColStd_MapTransientHasher.hxx>
+#define Hasher1_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define Hasher2 PTColStd_MapPersistentHasher
 #define Hasher2_hxx <PTColStd_MapPersistentHasher.hxx>
 #define TCollection_DoubleMapNode PTColStd_DoubleMapNodeOfDoubleMapOfTransientPersistent

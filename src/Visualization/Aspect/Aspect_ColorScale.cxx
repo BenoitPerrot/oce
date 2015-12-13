@@ -16,7 +16,7 @@
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TColStd_SequenceOfExtendedString.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfExtendedString.hxx>
 #include <Aspect_SequenceOfColor.hxx>
 #include <Aspect_ColorScale.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_RTTI(Aspect_ColorScale)
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <TColStd_SequenceOfExtendedString.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfExtendedString.hxx>
 
 #include <Precision.hxx>
 

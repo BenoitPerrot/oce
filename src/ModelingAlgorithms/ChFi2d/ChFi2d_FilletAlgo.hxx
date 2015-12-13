@@ -21,9 +21,9 @@
 #include <gp_Pnt.hxx>
 #include <Geom2d_Curve.hxx>
 #include <Geom_Plane.hxx>
-#include <TColStd_ListOfReal.hxx>
-#include <TColStd_SequenceOfReal.hxx>
-#include <TColStd_SequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListOfReal.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 
 class FilletPoint;
 

@@ -20,7 +20,7 @@
 #include <Foundation/Standard/Standard_SStream.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <TColStd_SequenceOfExtendedString.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfExtendedString.hxx>
 #include <CDM_COutMessageDriver.hxx>
 #include <Foundation/Message/Message_Msg.hxx>
 #include <stdio.h>

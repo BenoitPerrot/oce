@@ -15,7 +15,7 @@
 #include <Graphic3d_StructureManager.hxx>
 #include <Graphic3d_Structure.hxx>
 #include <Graphic3d_DataStructureManager.hxx>
-#include <TColStd_Array2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <PrsMgr_Prs.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PrsMgr_Prs)

@@ -12,13 +12,13 @@
 // commercial license or contractual agreement.
 
 #include <Interface_HSequenceOfCheck.hxx>
-#include <TColStd_HSequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfInteger.hxx>
 #include <Interface_InterfaceModel.hxx>
 #include <Interface_IntVal.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Interface_Check.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <TColStd_HSequenceOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <Interface_CheckIterator.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>

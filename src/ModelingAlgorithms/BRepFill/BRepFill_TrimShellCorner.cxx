@@ -54,13 +54,13 @@
 #include <TColgp_Array1OfPnt.hxx>
 #include <TColgp_Array2OfPnt.hxx>
 #include <TColgp_Array1OfDir.hxx>
-#include <TColStd_ListOfInteger.hxx>
-#include <TColStd_ListIteratorOfListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 #include <GCPnts_UniformAbscissa.hxx>
 #include <GeomLib.hxx>
 #include <BRepLib_MakeWire.hxx>
 #include <TopTools_SequenceOfShape.hxx>
-#include <TColStd_Array1OfBoolean.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>
 #include <TColgp_SequenceOfPnt.hxx>
 #include <gce_MakeLin.hxx>
 

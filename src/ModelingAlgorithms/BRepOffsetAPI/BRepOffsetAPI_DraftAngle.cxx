@@ -40,7 +40,7 @@
 #include <TopExp_Explorer.hxx>
 #include <BRepTools.hxx>
 #include <TColgp_SequenceOfPnt.hxx>
-#include <TColStd_SequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <TopOpeBRep_EdgesIntersector.hxx>
 #include <TopOpeBRep_Point2d.hxx>
 #include <Precision.hxx>

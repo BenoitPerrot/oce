@@ -67,7 +67,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_FixRelation)
 #include <TopTools_IndexedMapOfShape.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 
-#include <TColStd_ListIteratorOfListOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfTransient.hxx>
 
 #include <Geom_Curve.hxx>
 #include <Geom_Line.hxx>

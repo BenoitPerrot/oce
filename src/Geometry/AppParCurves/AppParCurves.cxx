@@ -18,7 +18,7 @@
 #include <math_Matrix.hxx>
 #include <AppParCurves.hxx>
 #include <BSplCLib.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <gp_Pnt2d.hxx>
 #include <gp_Vec2d.hxx>
 

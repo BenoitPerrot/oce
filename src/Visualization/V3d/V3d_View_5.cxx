@@ -48,7 +48,7 @@
 #include <Aspect_GradientBackground.hxx>
 #include <gp_Dir.hxx>
 #include <Graphic3d_Vector.hxx>
-#include <TColStd_Array2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <gp_Ax3.hxx>
 #include <Bnd_Box.hxx>
 #include <V3d_View.hxx>

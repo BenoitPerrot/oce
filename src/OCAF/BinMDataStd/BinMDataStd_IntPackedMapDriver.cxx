@@ -28,9 +28,9 @@ IMPLEMENT_STANDARD_TYPE_END(BinMDataStd_IntPackedMapDriver)
 IMPLEMENT_DOWNCAST(BinMDataStd_IntPackedMapDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinMDataStd_IntPackedMapDriver)
 #include <CDM_MessageDriver.hxx>
-#include <TColStd_PackedMapOfInteger.hxx>
-#include <TColStd_HPackedMapOfInteger.hxx>
-#include <TColStd_MapIteratorOfPackedMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_PackedMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HPackedMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_MapIteratorOfPackedMapOfInteger.hxx>
 #include <BinMDF_ADriver.hxx>
 #include <TDataStd_IntPackedMap.hxx>
 #include <TDF_Attribute.hxx>

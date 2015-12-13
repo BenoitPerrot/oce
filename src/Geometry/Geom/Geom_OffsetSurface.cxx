@@ -79,16 +79,16 @@ IMPLEMENT_STANDARD_RTTI(Geom_OffsetSurface)
 
 #include <TColgp_Array1OfPnt.hxx>
 #include <TColgp_Array2OfVec.hxx>
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_Array1OfInteger.hxx>
-#include <TColStd_HArray1OfReal.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 
 #include <AdvApprox_ApproxAFunction.hxx>
 #include <TColgp_HArray2OfPnt.hxx>
 #include <BSplSLib.hxx>
 #include <Convert_GridPolynomialToPoles.hxx>
-#include <TColStd_HArray2OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray2OfInteger.hxx>
 #include <GeomAbs_IsoType.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <GeomAbs_CurveType.hxx>

@@ -21,7 +21,7 @@
 #include <Foundation/Standard/Standard_NullObject.hxx>
 #include <Precision.hxx>
 #include <TColgp_Array1OfPnt.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <TopTools_Array1OfShape.hxx>
 #include <TColgp_Array1OfDir.hxx>
 #include <BRep_Tool.hxx>

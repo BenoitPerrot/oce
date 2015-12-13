@@ -16,10 +16,10 @@
 
 #include <TopOpeBRepTool_HBoxTool.hxx>
 #include <Bnd_HArray1OfBox.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <TopoDS_Shape.hxx>
 #include <Bnd_Box.hxx>
-#include <TColStd_ListIteratorOfListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 #include <TopOpeBRepTool_BoxSort.hxx>
 
 #include <TopExp_Explorer.hxx>

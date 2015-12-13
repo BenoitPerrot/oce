@@ -8,7 +8,7 @@
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Adaptor2d_HCurve2d.hxx>
-#include <TColStd_MapIntegerHasher.hxx>
+#include <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #include <ChFiKPart_RstMap.hxx>
 #include <ChFiKPart_DataMapIteratorOfRstMap.hxx>
 
@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_RTTI(ChFiKPart_DataMapNodeOfRstMap)
 #define TheItem Handle(Adaptor2d_HCurve2d)
 #define TheItem_hxx <Adaptor2d_HCurve2d.hxx>
 #define Hasher TColStd_MapIntegerHasher
-#define Hasher_hxx <TColStd_MapIntegerHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #define TCollection_DataMapNode ChFiKPart_DataMapNodeOfRstMap
 #define TCollection_DataMapNode_hxx <ChFiKPart_DataMapNodeOfRstMap.hxx>
 #define TCollection_DataMapIterator ChFiKPart_DataMapIteratorOfRstMap

@@ -3,13 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TColStd_DataMapOfAsciiStringInteger.hxx>
+#include <Foundation/TColStd/TColStd_DataMapOfAsciiStringInteger.hxx>
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TColStd_DataMapNodeOfDataMapOfAsciiStringInteger.hxx>
-#include <TColStd_DataMapIteratorOfDataMapOfAsciiStringInteger.hxx>
+#include <Foundation/TColStd/TColStd_DataMapNodeOfDataMapOfAsciiStringInteger.hxx>
+#include <Foundation/TColStd/TColStd_DataMapIteratorOfDataMapOfAsciiStringInteger.hxx>
  
 
 #define TheKey TCollection_AsciiString
@@ -19,12 +19,12 @@
 #define Hasher TCollection_AsciiString
 #define Hasher_hxx <Foundation/TCollection/TCollection_AsciiString.hxx>
 #define TCollection_DataMapNode TColStd_DataMapNodeOfDataMapOfAsciiStringInteger
-#define TCollection_DataMapNode_hxx <TColStd_DataMapNodeOfDataMapOfAsciiStringInteger.hxx>
+#define TCollection_DataMapNode_hxx <Foundation/TColStd/TColStd_DataMapNodeOfDataMapOfAsciiStringInteger.hxx>
 #define TCollection_DataMapIterator TColStd_DataMapIteratorOfDataMapOfAsciiStringInteger
-#define TCollection_DataMapIterator_hxx <TColStd_DataMapIteratorOfDataMapOfAsciiStringInteger.hxx>
+#define TCollection_DataMapIterator_hxx <Foundation/TColStd/TColStd_DataMapIteratorOfDataMapOfAsciiStringInteger.hxx>
 #define Handle_TCollection_DataMapNode Handle_TColStd_DataMapNodeOfDataMapOfAsciiStringInteger
 #define TCollection_DataMapNode_Type_() TColStd_DataMapNodeOfDataMapOfAsciiStringInteger_Type_()
 #define TCollection_DataMap TColStd_DataMapOfAsciiStringInteger
-#define TCollection_DataMap_hxx <TColStd_DataMapOfAsciiStringInteger.hxx>
+#define TCollection_DataMap_hxx <Foundation/TColStd/TColStd_DataMapOfAsciiStringInteger.hxx>
 #include <Foundation/TCollection/TCollection_DataMap.gxx>
 

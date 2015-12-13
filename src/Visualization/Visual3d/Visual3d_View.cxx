@@ -34,7 +34,7 @@
 #include <Graphic3d_MapOfStructure.hxx>
 #include <Bnd_Box.hxx>
 #include <Graphic3d_Structure.hxx>
-#include <TColStd_Array2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <Visual3d_View.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Visual3d_View)
@@ -60,7 +60,7 @@ IMPLEMENT_STANDARD_RTTI(Visual3d_View)
 #include <Visual3d_HSequenceOfView.hxx>
 #include <Visual3d_ZClippingDefinitionError.hxx>
 #include <Foundation/OSD/OSD.hxx>
-#include <TColStd_HArray2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
 
 #if defined(_WIN32)
   #include <WNT_Window.hxx>

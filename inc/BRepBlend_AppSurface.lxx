@@ -17,9 +17,9 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <TColgp_HArray2OfPnt.hxx>
 #include <TColgp_HArray1OfPnt2d.hxx>
-#include <TColStd_HArray2OfReal.hxx>
-#include <TColStd_HArray1OfReal.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 
 
 inline Standard_Boolean BRepBlend_AppSurface::IsDone() const

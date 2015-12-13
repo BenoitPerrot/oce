@@ -35,9 +35,9 @@
 #include <gp_Pnt2d.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <IGESGraph_TextFontDef.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <TColgp_HArray1OfXY.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <IGESBasic_HArray1OfHArray1OfInteger.hxx>
 #include <IGESBasic_HArray1OfHArray1OfXY.hxx>
 #include <IGESData_Dump.hxx>

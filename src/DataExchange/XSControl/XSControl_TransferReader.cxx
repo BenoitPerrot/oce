@@ -22,7 +22,7 @@
 #include <TopTools_HSequenceOfShape.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
-#include <TColStd_HSequenceOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <Transfer_ResultFromModel.hxx>
 #include <TopoDS_Shape.hxx>
 #include <Interface_CheckIterator.hxx>

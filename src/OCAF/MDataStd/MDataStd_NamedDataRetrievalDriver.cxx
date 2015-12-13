@@ -34,14 +34,14 @@ IMPLEMENT_STANDARD_RTTI(MDataStd_NamedDataRetrievalDriver)
 #include <MDataStd.hxx>
 #include <CDM_MessageDriver.hxx>
 #include <PCollection_HExtendedString.hxx>
-#include <TColStd_DataMapOfStringInteger.hxx>
+#include <Foundation/TColStd/TColStd_DataMapOfStringInteger.hxx>
 #include <TDataStd_DataMapOfStringReal.hxx>
 #include <TDataStd_DataMapOfStringByte.hxx>
 #include <TDataStd_DataMapOfStringString.hxx>
 #include <TDataStd_DataMapOfStringHArray1OfInteger.hxx>
 #include <TDataStd_DataMapOfStringHArray1OfReal.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <PColStd_HArray1OfInteger.hxx>
 #include <PColStd_HArray1OfReal.hxx>
 

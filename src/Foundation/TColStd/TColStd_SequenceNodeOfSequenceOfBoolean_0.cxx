@@ -3,11 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TColStd_SequenceNodeOfSequenceOfBoolean.hxx>
+#include <Foundation/TColStd/TColStd_SequenceNodeOfSequenceOfBoolean.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <TColStd_SequenceOfBoolean.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfBoolean.hxx>
 
  
 
@@ -29,10 +29,10 @@ IMPLEMENT_STANDARD_RTTI(TColStd_SequenceNodeOfSequenceOfBoolean)
 #define SeqItem Standard_Boolean
 #define SeqItem_hxx <Foundation/Standard/Standard_Boolean.hxx>
 #define TCollection_SequenceNode TColStd_SequenceNodeOfSequenceOfBoolean
-#define TCollection_SequenceNode_hxx <TColStd_SequenceNodeOfSequenceOfBoolean.hxx>
+#define TCollection_SequenceNode_hxx <Foundation/TColStd/TColStd_SequenceNodeOfSequenceOfBoolean.hxx>
 #define Handle_TCollection_SequenceNode Handle_TColStd_SequenceNodeOfSequenceOfBoolean
 #define TCollection_SequenceNode_Type_() TColStd_SequenceNodeOfSequenceOfBoolean_Type_()
 #define TCollection_Sequence TColStd_SequenceOfBoolean
-#define TCollection_Sequence_hxx <TColStd_SequenceOfBoolean.hxx>
+#define TCollection_Sequence_hxx <Foundation/TColStd/TColStd_SequenceOfBoolean.hxx>
 #include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

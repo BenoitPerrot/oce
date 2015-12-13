@@ -30,7 +30,7 @@
 #include <gp_Ax2d.hxx>
 #include <IntAna2d_AnaIntersection.hxx>
 #include <IntAna2d_IntPoint.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/Standard/Standard_NegativeValue.hxx>
 #include <gp.hxx>
 #include <GccEnt_BadQualifier.hxx>

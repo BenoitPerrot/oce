@@ -28,7 +28,7 @@
 #include <TopExp_Explorer.hxx>
 #include <Bnd_Array1OfBox2d.hxx>
 #include <Bnd_Box2d.hxx>
-#include <TColStd_Array2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <BndLib_Add2dCurve.hxx>
 #include <BRepAdaptor_Curve2d.hxx>
 #include <BRepClass3d_SolidExplorer.hxx>

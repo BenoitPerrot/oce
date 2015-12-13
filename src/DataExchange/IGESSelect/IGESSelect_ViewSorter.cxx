@@ -14,7 +14,7 @@
 #include <IGESData_IGESModel.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <IGESData_IGESEntity.hxx>
-#include <TColStd_HSequenceOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <Interface_InterfaceModel.hxx>
 #include <Interface_Graph.hxx>
 #include <IFSelect_PacketList.hxx>

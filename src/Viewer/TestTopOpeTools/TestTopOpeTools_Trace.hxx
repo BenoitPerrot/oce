@@ -19,9 +19,9 @@
 
 #include <Foundation/NCollection/NCollection_Vector.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TColStd_Array1OfAsciiString.hxx>
-#include <TColStd_Array1OfInteger.hxx>
-#include <TColStd_Array1OfBoolean.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>
 
 typedef Standard_Boolean t_value;
 typedef TCollection_AsciiString t_flag;

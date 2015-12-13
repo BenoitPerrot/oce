@@ -114,7 +114,7 @@ static void TestWLinesToAnArc(IntPatch_SequenceOfLine&           slin,
 // modified by NIZHNY-OFV  Fri Mar 29 12:37:21 2002.BEGIN
 #include <TColgp_SequenceOfPnt.hxx>
 #include <TopExp.hxx>
-#include <TColStd_SequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <Extrema_ExtPS.hxx>
 #include <Extrema_ExtPC.hxx>
 #include <Extrema_POnSurf.hxx>

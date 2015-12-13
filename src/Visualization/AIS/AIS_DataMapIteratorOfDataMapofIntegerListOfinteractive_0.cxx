@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <AIS_ListOfInteractive.hxx>
-#include <TColStd_MapIntegerHasher.hxx>
+#include <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #include <AIS_DataMapofIntegerListOfinteractive.hxx>
 #include <AIS_DataMapNodeOfDataMapofIntegerListOfinteractive.hxx>
  
@@ -17,7 +17,7 @@
 #define TheItem AIS_ListOfInteractive
 #define TheItem_hxx <AIS_ListOfInteractive.hxx>
 #define Hasher TColStd_MapIntegerHasher
-#define Hasher_hxx <TColStd_MapIntegerHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #define TCollection_DataMapNode AIS_DataMapNodeOfDataMapofIntegerListOfinteractive
 #define TCollection_DataMapNode_hxx <AIS_DataMapNodeOfDataMapofIntegerListOfinteractive.hxx>
 #define TCollection_DataMapIterator AIS_DataMapIteratorOfDataMapofIntegerListOfinteractive

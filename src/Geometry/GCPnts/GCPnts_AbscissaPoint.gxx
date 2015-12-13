@@ -24,7 +24,7 @@
 #include <gp_Circ.hxx>
 #include <gp_Circ2d.hxx>
 #include <Precision.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <BSplCLib.hxx>
 
 static GCPnts_AbscissaType computeType( TheCurve& C,

@@ -18,7 +18,7 @@
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
 
-#include <TColStd_Array2OfBoolean.hxx>
+#include <Foundation/TColStd/TColStd_Array2OfBoolean.hxx>
 
 #include <gp_Pnt.hxx>
 

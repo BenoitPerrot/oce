@@ -18,8 +18,8 @@
 
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/NCollection/NCollection_List.hxx>
-#include <TColStd_PackedMapOfInteger.hxx>
-#include <TColStd_MapIteratorOfPackedMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_PackedMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_MapIteratorOfPackedMapOfInteger.hxx>
 #include <NIS_DrawList.hxx>
 #include <Bnd_B3f.hxx>
 

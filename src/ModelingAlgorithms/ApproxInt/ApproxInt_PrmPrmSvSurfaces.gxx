@@ -17,7 +17,7 @@
 #define TOLTANGENCY 0.0000000001
 
 
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <math_FunctionSetRoot.hxx>
 #include <Precision.hxx>
 

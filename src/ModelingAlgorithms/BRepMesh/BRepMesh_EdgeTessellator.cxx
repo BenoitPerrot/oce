@@ -23,13 +23,13 @@
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <TopLoc_Location.hxx>
 #include <BRep_Tool.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <TopExp_Explorer.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <TopoDS.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 #include <TopTools_ListOfShape.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 
 IMPLEMENT_STANDARD_HANDLE (BRepMesh_EdgeTessellator, BRepMesh_IEdgeTool)
 IMPLEMENT_STANDARD_RTTIEXT(BRepMesh_EdgeTessellator, BRepMesh_IEdgeTool)

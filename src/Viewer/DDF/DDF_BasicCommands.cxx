@@ -36,9 +36,9 @@
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 
-#include <TColStd_HSequenceOfAsciiString.hxx>
-#include <TColStd_ListOfInteger.hxx>
-#include <TColStd_SequenceOfAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfAsciiString.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>

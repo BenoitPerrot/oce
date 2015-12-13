@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_SplitSurfaceAngle)
 #include <Geom_ToroidalSurface.hxx>
 #include <Geom_CylindricalSurface.hxx>
 #include <Geom_SphericalSurface.hxx>
-#include <TColStd_HSequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
 #include <ShapeExtend.hxx>
 #include <Geom_RectangularTrimmedSurface.hxx>
 #include <Geom_OffsetSurface.hxx>

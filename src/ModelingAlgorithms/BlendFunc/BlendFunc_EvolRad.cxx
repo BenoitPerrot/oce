@@ -22,8 +22,8 @@
 #include <gp_Vec.hxx>
 #include <gp_Vec2d.hxx>
 #include <gp_Circ.hxx>
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Blend_Point.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <TColgp_Array1OfVec.hxx>
@@ -39,7 +39,7 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
-#include <TColStd_SequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <TColgp_Array2OfVec.hxx>
 #include <CSLib.hxx>
 #include <CSLib_NormalStatus.hxx>

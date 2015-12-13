@@ -13,13 +13,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <MeshVS_HArray1OfSequenceOfInteger.hxx>
-#include <TColStd_Array1OfInteger.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Bnd_Box.hxx>
 #include <MeshVS_Mesh.hxx>
-#include <TColStd_HPackedMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HPackedMapOfInteger.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>
 #include <Bnd_Box2d.hxx>
 #include <MeshVS_DataSource.hxx>
@@ -38,7 +38,7 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_DataSource)
 #include <gp.hxx>
 #include <gp_Vec.hxx>
 #include <TColgp_Array1OfPnt.hxx>
-#include <TColStd_MapIteratorOfPackedMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_MapIteratorOfPackedMapOfInteger.hxx>
 
 //================================================================
 // Function : Get3DGeom

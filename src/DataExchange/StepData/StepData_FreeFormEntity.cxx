@@ -13,7 +13,7 @@
 
 #include <StepData_HArray1OfField.hxx>
 #include <StepData_FreeFormEntity.hxx>
-#include <TColStd_HSequenceOfAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfAsciiString.hxx>
 #include <StepData_Field.hxx>
 #include <StepData_FreeFormEntity.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

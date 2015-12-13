@@ -25,7 +25,7 @@
 #include <gp_Hypr2d.hxx>
 #include <Precision.hxx>
 
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 
 
 void IntCurve_IntCurveCurveGen::Perform(const TheCurve& C,

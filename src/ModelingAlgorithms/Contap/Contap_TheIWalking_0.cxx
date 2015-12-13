@@ -19,7 +19,7 @@
 #include <Contap_TheIWLineOfTheIWalking.hxx>
 #include <Contap_SequenceOfIWLineOfTheIWalking.hxx>
 #include <Contap_SequenceNodeOfSequenceOfIWLineOfTheIWalking.hxx>
-#include <TColStd_SequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <IntSurf_PntOn2S.hxx>
  
 

@@ -5,14 +5,14 @@
 
 #include <Foundation/SortTools/SortTools_HeapSortOfReal.hxx>
 
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TCollection/TCollection_CompareOfReal.hxx>
  
 
 #define Item Standard_Real
 #define Item_hxx <Foundation/Standard/Standard_Real.hxx>
 #define Array TColStd_Array1OfReal
-#define Array_hxx <TColStd_Array1OfReal.hxx>
+#define Array_hxx <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #define Comparator TCollection_CompareOfReal
 #define Comparator_hxx <Foundation/TCollection/TCollection_CompareOfReal.hxx>
 #define SortTools_HeapSort SortTools_HeapSortOfReal

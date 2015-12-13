@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TColStd_MapTransientHasher.hxx>
+#include <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 
 #include <Foundation/Standard/Standard_Transient.hxx>
  
@@ -11,6 +11,6 @@
 #define Key Handle(Standard_Transient)
 #define Key_hxx <Foundation/Standard/Standard_Transient.hxx>
 #define TCollection_MapHasher TColStd_MapTransientHasher
-#define TCollection_MapHasher_hxx <TColStd_MapTransientHasher.hxx>
+#define TCollection_MapHasher_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #include <Foundation/TCollection/TCollection_MapHasher.gxx>
 

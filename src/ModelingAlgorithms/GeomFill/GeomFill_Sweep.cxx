@@ -20,7 +20,7 @@
 #include <GeomFill_SectionLaw.hxx>
 #include <Geom_Surface.hxx>
 #include <TColGeom2d_HArray1OfCurve.hxx>
-#include <TColStd_HArray2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
@@ -46,9 +46,9 @@
 #include <TColgp_Array2OfPnt.hxx>
 #include <TColgp_HArray2OfPnt.hxx>
 //#include <GeomLib_Array1OfMat.hxx>
-#include <TColStd_Array1OfInteger.hxx>
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_Array2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 
 #include <GeomAbs_CurveType.hxx>
 #include <GeomAdaptor_Curve.hxx>

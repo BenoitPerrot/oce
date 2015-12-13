@@ -27,8 +27,8 @@
 // jct : 24-Apr-97 : correction on computation of Tbord and NewFlatKnots
 //                   in TangExtendToConstraint; Continuity can be equal to 0
 
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>
 #include <gp_Pnt.hxx>
@@ -36,8 +36,8 @@
 #include <gp_Vec.hxx>
 #include <gp_Vec2d.hxx>
 #include <math_Matrix.hxx>
-#include <TColStd_HArray1OfReal.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <BSplCLib.hxx>
 #include <PLib.hxx>
 #include <Foundation/NCollection/NCollection_LocalArray.hxx>

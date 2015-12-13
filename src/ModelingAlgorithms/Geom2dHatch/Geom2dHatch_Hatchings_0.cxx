@@ -8,7 +8,7 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Geom2dHatch_Hatching.hxx>
-#include <TColStd_MapIntegerHasher.hxx>
+#include <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #include <Geom2dHatch_DataMapNodeOfHatchings.hxx>
 #include <Geom2dHatch_DataMapIteratorOfHatchings.hxx>
  
@@ -18,7 +18,7 @@
 #define TheItem Geom2dHatch_Hatching
 #define TheItem_hxx <Geom2dHatch_Hatching.hxx>
 #define Hasher TColStd_MapIntegerHasher
-#define Hasher_hxx <TColStd_MapIntegerHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #define TCollection_DataMapNode Geom2dHatch_DataMapNodeOfHatchings
 #define TCollection_DataMapNode_hxx <Geom2dHatch_DataMapNodeOfHatchings.hxx>
 #define TCollection_DataMapIterator Geom2dHatch_DataMapIteratorOfHatchings

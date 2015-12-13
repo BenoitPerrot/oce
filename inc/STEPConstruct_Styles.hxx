@@ -10,9 +10,9 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <TColStd_IndexedDataMapOfTransientTransient.hxx>
-#include <TColStd_IndexedMapOfTransient.hxx>
-#include <TColStd_SequenceOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_IndexedDataMapOfTransientTransient.hxx>
+#include <Foundation/TColStd/TColStd_IndexedMapOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfTransient.hxx>
 #include <STEPConstruct_Tool.hxx>
 #include <Handle_XSControl_WorkSession.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

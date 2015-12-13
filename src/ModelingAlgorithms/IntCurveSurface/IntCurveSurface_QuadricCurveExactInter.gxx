@@ -16,7 +16,7 @@
 
 //  Modified by skv - Wed Jun 16 17:36:47 2004 OCC6001
 
-#include <TColStd_SequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <math_FunctionAllRoots.hxx>
 #include <math_FunctionSample.hxx>
 #include <IntSurf_Quadric.hxx>

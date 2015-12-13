@@ -50,7 +50,7 @@
 #include <TopOpeBRepDS_ListOfInterference.hxx>
 #include <TopOpeBRepDS_ListIteratorOfListOfInterference.hxx>
 #include <TopOpeBRepDS_Transition.hxx>
-#include <TColStd_MapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_MapOfInteger.hxx>
 
 //define parameter division number as 10*e^(-PI) = 0.43213918
 const Standard_Real PAR_T = 0.43213918;

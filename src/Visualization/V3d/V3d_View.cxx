@@ -138,7 +138,7 @@ To solve the problem (for lack of a better solution) I make 2 passes.
 #include <Aspect_GradientBackground.hxx>
 #include <gp_Dir.hxx>
 #include <Graphic3d_Vector.hxx>
-#include <TColStd_Array2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <gp_Ax3.hxx>
 #include <Bnd_Box.hxx>
 #include <V3d_View.hxx>
@@ -158,8 +158,8 @@ IMPLEMENT_STANDARD_RTTI(V3d_View)
 
 #include <gp_Dir.hxx>
 #include <gp_Pln.hxx>
-#include <TColStd_Array2OfReal.hxx>
-#include <TColStd_HSequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfInteger.hxx>
 
 #include <Bnd_Box.hxx>
 

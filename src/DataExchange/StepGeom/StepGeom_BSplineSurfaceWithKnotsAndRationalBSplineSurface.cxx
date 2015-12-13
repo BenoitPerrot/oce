@@ -15,9 +15,9 @@
 #include <StepGeom_RationalBSplineSurface.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepGeom_HArray2OfCartesianPoint.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
-#include <TColStd_HArray1OfReal.hxx>
-#include <TColStd_HArray2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
 #include <StepGeom_BSplineSurfaceWithKnotsAndRationalBSplineSurface.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepGeom_BSplineSurfaceWithKnotsAndRationalBSplineSurface)

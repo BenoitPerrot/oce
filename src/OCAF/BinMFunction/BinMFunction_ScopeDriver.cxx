@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_RTTI(BinMFunction_ScopeDriver)
 #include <BinObjMgt_Persistent.hxx>
 #include <BinObjMgt_RRelocationTable.hxx>
 #include <BinObjMgt_SRelocationTable.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <TFunction_DoubleMapIteratorOfDoubleMapOfIntegerLabel.hxx>
 #include <TDF_Label.hxx>
 #include <TDF_Tool.hxx>

@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <Interface_InterfaceModel.hxx>
-#include <TColStd_HSequenceOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Interface_GeneralLib.hxx>

@@ -8,7 +8,7 @@
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <AIS_InteractiveObject.hxx>
-#include <TColStd_MapTransientHasher.hxx>
+#include <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #include <AIS_MapOfInteractive.hxx>
 #include <AIS_MapIteratorOfMapOfInteractive.hxx>
 
@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_StdMapNodeOfMapOfInteractive)
 #define TheKey Handle(AIS_InteractiveObject)
 #define TheKey_hxx <AIS_InteractiveObject.hxx>
 #define Hasher TColStd_MapTransientHasher
-#define Hasher_hxx <TColStd_MapTransientHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define TCollection_StdMapNode AIS_StdMapNodeOfMapOfInteractive
 #define TCollection_StdMapNode_hxx <AIS_StdMapNodeOfMapOfInteractive.hxx>
 #define TCollection_MapIterator AIS_MapIteratorOfMapOfInteractive

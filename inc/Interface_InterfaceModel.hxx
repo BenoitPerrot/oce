@@ -10,8 +10,8 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Interface_InterfaceModel.hxx>
 
-#include <TColStd_IndexedMapOfTransient.hxx>
-#include <TColStd_DataMapOfIntegerTransient.hxx>
+#include <Foundation/TColStd/TColStd_IndexedMapOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_DataMapOfIntegerTransient.hxx>
 #include <Handle_Interface_Check.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>

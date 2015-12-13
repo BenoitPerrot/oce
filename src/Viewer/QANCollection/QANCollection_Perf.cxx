@@ -21,8 +21,8 @@
 
 #include <TColgp_Array1OfPnt.hxx>
 #include <TColgp_Array2OfPnt.hxx>
-#include <TColStd_MapOfReal.hxx>
-#include <TColStd_IndexedMapOfReal.hxx>
+#include <Foundation/TColStd/TColStd_MapOfReal.hxx>
+#include <Foundation/TColStd/TColStd_IndexedMapOfReal.hxx>
 #include <TColgp_SequenceOfPnt.hxx>
 
 #include <QANCollection_DataMapOfRealPnt.hxx>

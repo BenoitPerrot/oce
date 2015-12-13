@@ -15,7 +15,7 @@
 
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <TDF_Label.hxx>
-#include <TColStd_ListOfReal.hxx>
+#include <Foundation/TColStd/TColStd_ListOfReal.hxx>
 #include <TDF_Attribute.hxx>
 #include <TDF_RelocationTable.hxx>
 #include <TDataStd_RealList.hxx>
@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(TDataStd_RealList)
 IMPLEMENT_DOWNCAST(TDataStd_RealList,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TDataStd_RealList)
-#include <TColStd_ListIteratorOfListOfReal.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfReal.hxx>
 
 //=======================================================================
 //function : GetID

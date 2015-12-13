@@ -36,10 +36,10 @@
 #include <GeomAbs_SurfaceType.hxx>
 #include <ElCLib.hxx>
 #include <Geom2dInt_TheProjPCurOfGInter.hxx>
-#include <TColStd_SequenceOfInteger.hxx>
-#include <TColStd_IndexedMapOfTransient.hxx>
-#include <TColStd_Array1OfTransient.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_IndexedMapOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfTransient.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 
 
 //=======================================================================

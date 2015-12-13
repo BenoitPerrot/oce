@@ -36,7 +36,7 @@
 
 #include <TopTrans_CurveTransition.hxx>
 
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 
 #include <BndLib_AddSurface.hxx>
 #include <Bnd_Box.hxx>

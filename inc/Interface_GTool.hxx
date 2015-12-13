@@ -14,7 +14,7 @@
 #include <Handle_Interface_SignType.hxx>
 #include <Interface_GeneralLib.hxx>
 #include <Interface_DataMapOfTransientInteger.hxx>
-#include <TColStd_IndexedDataMapOfTransientTransient.hxx>
+#include <Foundation/TColStd/TColStd_IndexedDataMapOfTransientTransient.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>

@@ -8,7 +8,7 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <StepShape_ShapeDefinitionRepresentation.hxx>
 #include <STEPCAFControl_ExternFile.hxx>
-#include <TColStd_MapTransientHasher.hxx>
+#include <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #include <STEPCAFControl_DataMapOfSDRExternFile.hxx>
 #include <STEPCAFControl_DataMapNodeOfDataMapOfSDRExternFile.hxx>
  
@@ -18,7 +18,7 @@
 #define TheItem Handle(STEPCAFControl_ExternFile)
 #define TheItem_hxx <STEPCAFControl_ExternFile.hxx>
 #define Hasher TColStd_MapTransientHasher
-#define Hasher_hxx <TColStd_MapTransientHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define TCollection_DataMapNode STEPCAFControl_DataMapNodeOfDataMapOfSDRExternFile
 #define TCollection_DataMapNode_hxx <STEPCAFControl_DataMapNodeOfDataMapOfSDRExternFile.hxx>
 #define TCollection_DataMapIterator STEPCAFControl_DataMapIteratorOfDataMapOfSDRExternFile

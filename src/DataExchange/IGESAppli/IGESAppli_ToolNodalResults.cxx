@@ -33,9 +33,9 @@
 #include <IGESDimen_GeneralNote.hxx>
 #include <IGESAppli_Node.hxx>
 #include <IGESAppli_HArray1OfNode.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
-#include <TColStd_HArray1OfReal.hxx>
-#include <TColStd_HArray2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
 #include <IGESData_Dump.hxx>
 #include <Interface_Macros.hxx>
 

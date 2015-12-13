@@ -17,7 +17,7 @@
 #include <gp_Ax3.hxx>
 #include <gp_Ax1.hxx>
 #include <gp_Pnt.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <gp_Ax2.hxx>
 #include <gp_Trsf.hxx>
 #include <gp_Vec.hxx>

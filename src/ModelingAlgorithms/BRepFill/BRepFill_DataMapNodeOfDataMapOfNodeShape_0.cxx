@@ -9,7 +9,7 @@
 
 #include <MAT_Node.hxx>
 #include <TopoDS_Shape.hxx>
-#include <TColStd_MapTransientHasher.hxx>
+#include <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #include <BRepFill_DataMapOfNodeShape.hxx>
 #include <BRepFill_DataMapIteratorOfDataMapOfNodeShape.hxx>
 
@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_DataMapNodeOfDataMapOfNodeShape)
 #define TheItem TopoDS_Shape
 #define TheItem_hxx <TopoDS_Shape.hxx>
 #define Hasher TColStd_MapTransientHasher
-#define Hasher_hxx <TColStd_MapTransientHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define TCollection_DataMapNode BRepFill_DataMapNodeOfDataMapOfNodeShape
 #define TCollection_DataMapNode_hxx <BRepFill_DataMapNodeOfDataMapOfNodeShape.hxx>
 #define TCollection_DataMapIterator BRepFill_DataMapIteratorOfDataMapOfNodeShape

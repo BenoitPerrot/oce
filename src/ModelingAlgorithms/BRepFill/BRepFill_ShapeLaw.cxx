@@ -51,8 +51,8 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_ShapeLaw)
 #include <GeomConvert_CompCurveToBSplineCurve.hxx>
 
 #include <TColgp_HArray1OfPnt.hxx>
-#include <TColStd_HArray1OfReal.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 
 #include <Precision.hxx>
 #include <BRepBuilderAPI_Transform.hxx>

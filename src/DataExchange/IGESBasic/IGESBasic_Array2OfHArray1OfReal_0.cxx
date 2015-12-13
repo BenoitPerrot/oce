@@ -9,11 +9,11 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
  
 
 #define Array2Item Handle(TColStd_HArray1OfReal)
-#define Array2Item_hxx <TColStd_HArray1OfReal.hxx>
+#define Array2Item_hxx <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #define TCollection_Array2 IGESBasic_Array2OfHArray1OfReal
 #define TCollection_Array2_hxx <IGESBasic_Array2OfHArray1OfReal.hxx>
 #include <Foundation/TCollection/TCollection_Array2.gxx>

@@ -54,8 +54,8 @@
 #include <Foundation/Message/Message_ListIteratorOfListOfMsg.hxx>
 #include <Foundation/Message/Message_Msg.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TColStd_DataMapIteratorOfDataMapOfAsciiStringInteger.hxx>
-#include <TColStd_DataMapOfAsciiStringInteger.hxx>
+#include <Foundation/TColStd/TColStd_DataMapIteratorOfDataMapOfAsciiStringInteger.hxx>
+#include <Foundation/TColStd/TColStd_DataMapOfAsciiStringInteger.hxx>
 #include <TopTools_MapOfShape.hxx>
 #include <TopTools_DataMapOfShapeListOfShape.hxx>
 #include <TopAbs_State.hxx>

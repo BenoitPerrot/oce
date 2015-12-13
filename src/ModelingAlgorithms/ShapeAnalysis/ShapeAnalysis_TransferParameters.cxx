@@ -13,7 +13,7 @@
 
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Face.hxx>
-#include <TColStd_HSequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
 #include <ShapeAnalysis_TransferParameters.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeAnalysis_TransferParameters)
@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeAnalysis_TransferParameters)
 #include <Geom_Curve.hxx>
 #include <Geom2d_Curve.hxx>
 #include <ShapeAnalysis_Edge.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <BRep_Tool.hxx>
 #include <gp.hxx>
 #include <ShapeBuild_Edge.hxx>

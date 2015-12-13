@@ -26,7 +26,7 @@
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <IntPatch_SequenceOfLine.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <IntSurf_PntOn2S.hxx>
 #include <IntSurf_LineOn2S.hxx>
 #include <IntSurf.hxx>
@@ -55,8 +55,8 @@
 #include <TopTrans_CurveTransition.hxx>
 #include <TopAbs_State.hxx>
 #include <TopAbs_Orientation.hxx>
-#include <TColStd_Array1OfInteger.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 
 #include <IntSurf_SequenceOfInteriorPoint.hxx>
 #include <IntSurf_QuadricTool.hxx>

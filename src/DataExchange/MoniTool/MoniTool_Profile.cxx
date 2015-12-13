@@ -13,7 +13,7 @@
 
 #include <Foundation/Dico/Dico_DictionaryOfTransient.hxx>
 #include <MoniTool_Option.hxx>
-#include <TColStd_HSequenceOfAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfAsciiString.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <MoniTool_Profile.hxx>

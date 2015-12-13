@@ -34,7 +34,7 @@
 #include <TDF_MapIteratorOfLabelMap.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <TColStd_MapIteratorOfMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_MapIteratorOfMapOfInteger.hxx>
 
 //=======================================================================
 //function : NewFunction

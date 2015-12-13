@@ -19,10 +19,10 @@
 #include <Blend_AppFunction.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <TColgp_Array1OfVec.hxx>
 #include <TColgp_Array1OfVec2d.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <gp_Pnt.hxx>
 #include <Blend_Point.hxx>
 #include <BRepBlend_AppFuncRoot.hxx>
@@ -48,8 +48,8 @@ IMPLEMENT_STANDARD_RTTI(BRepBlend_AppFuncRoot)
 #include <TColgp_HArray1OfVec.hxx>
 #include <TColgp_HArray1OfVec2d.hxx>
 
-#include <TColStd_HArray1OfReal.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 
 BRepBlend_AppFuncRoot::BRepBlend_AppFuncRoot(Handle(BRepBlend_Line)& Line,
 					     Blend_AppFunction&      Func,

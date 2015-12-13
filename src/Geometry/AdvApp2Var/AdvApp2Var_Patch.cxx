@@ -22,8 +22,8 @@
 //   by:	Joelle CHAUVET / Jean-Marc LACHAUME
 //		Initialisation de myCritValue pour OSF
 
-#include <TColStd_HArray1OfReal.hxx>
-#include <TColStd_HArray2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
 #include <AdvApp2Var_Context.hxx>
 #include <AdvApp2Var_Framework.hxx>
 #include <AdvApp2Var_Criterion.hxx>
@@ -34,10 +34,10 @@
 #include <gp_Pnt.hxx>
 #include <TColgp_HArray2OfPnt.hxx>
 #include <TColgp_Array2OfPnt.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
-#include <TColStd_HArray1OfReal.hxx>
-#include <TColStd_HArray2OfReal.hxx>
-#include <TColStd_Array2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <Convert_GridPolynomialToPoles.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 

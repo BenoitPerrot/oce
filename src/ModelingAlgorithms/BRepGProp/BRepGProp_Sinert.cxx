@@ -18,7 +18,7 @@
 #include <BRepGProp_Sinert.hxx>
 
 #include <math.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Precision.hxx>
 
 class HMath_Vector{

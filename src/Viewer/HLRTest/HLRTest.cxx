@@ -20,7 +20,7 @@
 #include <HLRTest.hxx>
 #include <HLRTest_Projector.hxx>
 #include <HLRTest_OutLiner.hxx>
-#include <TColStd_ListIteratorOfListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 #include <gp_Ax3.hxx>
 #include <Draw_Appli.hxx>
 #include <Draw.hxx>

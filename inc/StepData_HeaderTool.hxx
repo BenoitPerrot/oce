@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <TColStd_SequenceOfAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfAsciiString.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_StepData_StepReaderData.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

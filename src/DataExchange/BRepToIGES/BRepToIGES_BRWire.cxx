@@ -74,7 +74,7 @@
 
 #include <Precision.hxx>
 
-#include <TColStd_HSequenceOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 
 #include <TopoDS.hxx>
 #include <TopoDS_Vertex.hxx>

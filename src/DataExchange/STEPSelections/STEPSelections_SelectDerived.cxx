@@ -33,7 +33,7 @@ IMPLEMENT_DOWNCAST(STEPSelections_SelectDerived,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(STEPSelections_SelectDerived)
 #include <StepData_ReadWriteModule.hxx>
 #include <RWStepAP214_GeneralModule.hxx>
-#include <TColStd_SequenceOfAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfAsciiString.hxx>
 #include <Interface_Macros.hxx>
 
 STEPSelections_SelectDerived::STEPSelections_SelectDerived():StepSelect_StepType()

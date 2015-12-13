@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_ClosedEdgeDivide)
 #include <Geom_Curve.hxx>
 #include <Geom2d_Curve.hxx>
 #include <BRep_Tool.hxx>
-#include <TColStd_HSequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
 #include <ShapeUpgrade_SplitCurve3d.hxx>
 #include <ShapeUpgrade_SplitCurve2d.hxx>
 #include <gp_Pnt.hxx>

@@ -21,8 +21,8 @@
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <ShapeConstruct_CompBezierCurves2dToBSplineCurve2d.hxx>
 
 #include <Precision.hxx>

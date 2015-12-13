@@ -6,7 +6,7 @@
 #ifndef _XmlObjMgt_RRelocationTable_HeaderFile
 #define _XmlObjMgt_RRelocationTable_HeaderFile
 
-#include <TColStd_DataMapOfIntegerTransient.hxx>
+#include <Foundation/TColStd/TColStd_DataMapOfIntegerTransient.hxx>
 
 typedef TColStd_DataMapOfIntegerTransient XmlObjMgt_RRelocationTable;
 

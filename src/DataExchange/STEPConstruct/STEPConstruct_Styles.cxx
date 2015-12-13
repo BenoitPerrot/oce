@@ -23,7 +23,7 @@
 #include <StepVisual_MechanicalDesignGeometricPresentationRepresentation.hxx>
 #include <StepShape_ContextDependentShapeRepresentation.hxx>
 #include <StepRepr_ProductDefinitionShape.hxx>
-#include <TColStd_HSequenceOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <StepVisual_Colour.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <STEPConstruct_DataMapOfAsciiStringTransient.hxx>
@@ -83,7 +83,7 @@
 #include <StepRepr_Transformation.hxx>
 #include <StepRepr_ItemDefinedTransformation.hxx>
 #include <StepVisual_Invisibility.hxx>
-#include <TColStd_HSequenceOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <StepVisual_InvisibleItem.hxx>
 #include <gp_Pnt.hxx>
 

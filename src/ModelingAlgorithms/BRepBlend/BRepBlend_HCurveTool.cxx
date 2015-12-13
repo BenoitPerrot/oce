@@ -18,7 +18,7 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Adaptor3d_HCurve.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Vec.hxx>
 #include <Geom_BezierCurve.hxx>
@@ -30,7 +30,7 @@
 #include <Geom_BezierCurve.hxx>
 #include <Geom_BSplineCurve.hxx>
 
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 
 
 //============================================================

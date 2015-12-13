@@ -5,7 +5,7 @@
 
 #include <AppDef_ParFunctionOfMyGradientOfCompute.hxx>
 
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <AppParCurves_HArray1OfConstraintCouple.hxx>
 #include <AppDef_MultiLine.hxx>
 #include <AppDef_MyLineTool.hxx>

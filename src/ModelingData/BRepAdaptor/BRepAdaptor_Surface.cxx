@@ -20,7 +20,7 @@
 #include <TopoDS_Face.hxx>
 #include <GeomAdaptor_Surface.hxx>
 #include <gp_Trsf.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Adaptor3d_HSurface.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Vec.hxx>

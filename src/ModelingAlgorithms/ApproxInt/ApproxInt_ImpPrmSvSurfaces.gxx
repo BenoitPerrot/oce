@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <math_FunctionSetRoot.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <GeomAbs_SurfaceType.hxx>

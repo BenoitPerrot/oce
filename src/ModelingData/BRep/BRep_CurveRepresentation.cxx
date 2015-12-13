@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(BRep_CurveRepresentation)
 IMPLEMENT_DOWNCAST(BRep_CurveRepresentation,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BRep_CurveRepresentation)
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 
 
 //=======================================================================

@@ -14,14 +14,14 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TColStd_HArray1OfInteger.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <TColgp_HArray2OfPnt.hxx>
 #include <Foundation/Standard/Standard_DimensionError.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <TColGeom_Array2OfBezierSurface.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <GeomConvert_CompBezierSurfacesToBSplineSurface.hxx>
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
@@ -29,7 +29,7 @@
 #include <Geom_BSplineSurface.hxx>
 #include <Geom_BezierSurface.hxx>
 #include <Geom_Curve.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <TColgp_HArray2OfPnt.hxx>
 #include <gp_XYZ.hxx>
 #include <gp_Pnt.hxx>

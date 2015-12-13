@@ -29,8 +29,8 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(BRepCheck_Edge)
 IMPLEMENT_DOWNCAST(BRepCheck_Edge,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BRepCheck_Edge)
-#include <TColStd_Array1OfTransient.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfTransient.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 
 #include <BRepAdaptor_Curve.hxx>
 #include <Bnd_Box.hxx>

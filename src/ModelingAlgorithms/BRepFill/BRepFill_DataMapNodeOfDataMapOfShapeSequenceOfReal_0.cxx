@@ -8,7 +8,7 @@
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TopoDS_Shape.hxx>
-#include <TColStd_SequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <TopTools_ShapeMapHasher.hxx>
 #include <BRepFill_DataMapOfShapeSequenceOfReal.hxx>
 #include <BRepFill_DataMapIteratorOfDataMapOfShapeSequenceOfReal.hxx>
@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_DataMapNodeOfDataMapOfShapeSequenceOfReal)
 #define TheKey TopoDS_Shape
 #define TheKey_hxx <TopoDS_Shape.hxx>
 #define TheItem TColStd_SequenceOfReal
-#define TheItem_hxx <TColStd_SequenceOfReal.hxx>
+#define TheItem_hxx <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #define Hasher TopTools_ShapeMapHasher
 #define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode BRepFill_DataMapNodeOfDataMapOfShapeSequenceOfReal

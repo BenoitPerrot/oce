@@ -17,7 +17,7 @@
 #include <BRepMesh_WireChecker.hxx>
 
 #include <Precision.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <gp_Pnt2d.hxx>
 #include <BRepTools_WireExplorer.hxx>
 #include <TopAbs_Orientation.hxx>
@@ -25,8 +25,8 @@
 #include <TopExp_Explorer.hxx>
 #include <Poly_PolygonOnTriangulation.hxx>
 #include <BRepMesh_PairOfPolygon.hxx>
-#include <TColStd_SequenceOfInteger.hxx>
-#include <TColStd_IndexedMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_IndexedMapOfInteger.hxx>
 #include <BRepMesh_DataStructureOfDelaun.hxx>
 #include <BRepMesh_Classifier.hxx>
 #include <BRepMesh_WireInterferenceChecker.hxx>

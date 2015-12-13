@@ -13,13 +13,13 @@
 
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <Interface_Static.hxx>
-#include <TColStd_HArray1OfAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfAsciiString.hxx>
 #include <Foundation/Dico/Dico_DictionaryOfInteger.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Interface_InterfaceError.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
-#include <TColStd_HSequenceOfHAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfHAsciiString.hxx>
 #include <Interface_Static.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Interface_Static)

@@ -8,7 +8,7 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <TColStd_MapTransientHasher.hxx>
+#include <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #include <Interface_DataMapNodeOfDataMapOfTransientInteger.hxx>
 #include <Interface_DataMapIteratorOfDataMapOfTransientInteger.hxx>
  
@@ -18,7 +18,7 @@
 #define TheItem Standard_Integer
 #define TheItem_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define Hasher TColStd_MapTransientHasher
-#define Hasher_hxx <TColStd_MapTransientHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define TCollection_DataMapNode Interface_DataMapNodeOfDataMapOfTransientInteger
 #define TCollection_DataMapNode_hxx <Interface_DataMapNodeOfDataMapOfTransientInteger.hxx>
 #define TCollection_DataMapIterator Interface_DataMapIteratorOfDataMapOfTransientInteger

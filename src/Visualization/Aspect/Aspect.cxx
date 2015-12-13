@@ -32,7 +32,7 @@
 #include <stdlib.h>
 #endif
 
-#include <TColStd_Array2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <Foundation/OSD/OSD_Environment.hxx>
 
 # include <stdio.h>

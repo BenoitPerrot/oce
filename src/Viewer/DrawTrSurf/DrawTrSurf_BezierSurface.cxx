@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(DrawTrSurf_BezierSurface)
 #include <Geom_BezierSurface.hxx>
 #include <gp_Pnt2d.hxx>
 #include <TColgp_Array2OfPnt.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 
 DrawTrSurf_BezierSurface::DrawTrSurf_BezierSurface (
    const Handle(Geom_BezierSurface)& S)

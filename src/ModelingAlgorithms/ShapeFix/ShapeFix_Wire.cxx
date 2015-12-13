@@ -65,8 +65,8 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Wire)
 
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Precision.hxx>
 
 #include <Geom_Curve.hxx>
@@ -126,7 +126,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Wire)
 #include <Geom_Plane.hxx>
 #include <Geom_OffsetCurve.hxx>
 
-#include <TColStd_HSequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
 #include <Adaptor3d_CurveOnSurface.hxx>
 #include <Geom2dAdaptor_HCurve.hxx>
 #include <GeomAPI_ProjectPointOnCurve.hxx>

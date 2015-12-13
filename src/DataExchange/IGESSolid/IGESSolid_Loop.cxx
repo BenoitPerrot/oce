@@ -17,7 +17,7 @@
 //--------------------------------------------------------------------
 //pdn 20.04.99 CTS22655 avoid of exceptions on empty loops
 
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <IGESData_HArray1OfIGESEntity.hxx>
 #include <IGESBasic_HArray1OfHArray1OfInteger.hxx>
 #include <IGESBasic_HArray1OfHArray1OfIGESEntity.hxx>

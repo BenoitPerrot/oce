@@ -21,7 +21,7 @@
 #include <Prs3d_ShadingAspect.hxx>
 #include <TShort_Array1OfShortReal.hxx>
 #include <TColgp_Array1OfPnt.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <TShort_HArray1OfShortReal.hxx>
 #include <Graphic3d_Group.hxx>
 #include <Graphic3d_AspectFillArea3d.hxx>

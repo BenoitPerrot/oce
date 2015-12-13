@@ -17,7 +17,7 @@
 #include <Foundation/Storage/Storage_Schema.hxx>
 #include <Foundation/Storage/Storage_TypeData.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TColStd_HSequenceOfAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfAsciiString.hxx>
 
 IMPLEMENT_STANDARD_TYPE(Storage_TypeData)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

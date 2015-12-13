@@ -19,7 +19,7 @@
 #include <IntSurf_PntOn2S.hxx>
 #include <gp_Vec.hxx>
 #include <gp_Dir2d.hxx>
-#include <TColStd_SequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <IntPatch_SequenceOfIWLineOfTheIWalking.hxx>
 #include <Handle_Adaptor3d_HSurface.hxx>
 #include <Handle_IntPatch_TheIWLineOfTheIWalking.hxx>

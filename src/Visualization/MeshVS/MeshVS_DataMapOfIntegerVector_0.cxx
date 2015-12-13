@@ -8,7 +8,7 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <gp_Vec.hxx>
-#include <TColStd_MapIntegerHasher.hxx>
+#include <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #include <MeshVS_DataMapNodeOfDataMapOfIntegerVector.hxx>
 #include <MeshVS_DataMapIteratorOfDataMapOfIntegerVector.hxx>
  
@@ -18,7 +18,7 @@
 #define TheItem gp_Vec
 #define TheItem_hxx <gp_Vec.hxx>
 #define Hasher TColStd_MapIntegerHasher
-#define Hasher_hxx <TColStd_MapIntegerHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #define TCollection_DataMapNode MeshVS_DataMapNodeOfDataMapOfIntegerVector
 #define TCollection_DataMapNode_hxx <MeshVS_DataMapNodeOfDataMapOfIntegerVector.hxx>
 #define TCollection_DataMapIterator MeshVS_DataMapIteratorOfDataMapOfIntegerVector

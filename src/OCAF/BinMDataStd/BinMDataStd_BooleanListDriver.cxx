@@ -29,7 +29,7 @@ IMPLEMENT_DOWNCAST(BinMDataStd_BooleanListDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinMDataStd_BooleanListDriver)
 #include <TDataStd_BooleanList.hxx>
 #include <TDataStd_ListIteratorOfListOfByte.hxx>
-#include <TColStd_Array1OfByte.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfByte.hxx>
 
 //=======================================================================
 //function : BinMDataStd_BooleanListDriver

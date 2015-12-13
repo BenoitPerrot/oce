@@ -9,7 +9,7 @@
 
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Transfer_Binder.hxx>
-#include <TColStd_MapTransientHasher.hxx>
+#include <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #include <Transfer_TransferMapOfProcessForTransient.hxx>
 
  
@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_RTTI(Transfer_IndexedDataMapNodeOfTransferMapOfProcessForTran
 #define TheItem Handle(Transfer_Binder)
 #define TheItem_hxx <Transfer_Binder.hxx>
 #define Hasher TColStd_MapTransientHasher
-#define Hasher_hxx <TColStd_MapTransientHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define TCollection_IndexedDataMapNode Transfer_IndexedDataMapNodeOfTransferMapOfProcessForTransient
 #define TCollection_IndexedDataMapNode_hxx <Transfer_IndexedDataMapNodeOfTransferMapOfProcessForTransient.hxx>
 #define Handle_TCollection_IndexedDataMapNode Handle_Transfer_IndexedDataMapNodeOfTransferMapOfProcessForTransient

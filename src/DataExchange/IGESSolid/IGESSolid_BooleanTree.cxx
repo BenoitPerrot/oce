@@ -17,7 +17,7 @@
 //--------------------------------------------------------------------
 
 #include <IGESData_HArray1OfIGESEntity.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <IGESData_IGESEntity.hxx>
 #include <IGESSolid_BooleanTree.hxx>

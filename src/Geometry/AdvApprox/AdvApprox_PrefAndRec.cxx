@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <AdvApprox_PrefAndRec.hxx>
 
 #include <Precision.hxx>

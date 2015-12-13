@@ -18,11 +18,11 @@
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <AIS_DataMapOfSelStat.hxx>
 #include <Handle_SelectMgr_OrFilter.hxx>
-#include <TColStd_ListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <Handle_SelectMgr_Filter.hxx>
 #include <SelectMgr_IndexedMapOfOwner.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <TColStd_SequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <AIS_SequenceOfInteractive.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_AIS_InteractiveObject.hxx>

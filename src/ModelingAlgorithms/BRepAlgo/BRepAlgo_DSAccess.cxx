@@ -21,20 +21,20 @@
 #include <TopoDS_Shape.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <TopoDS_Vertex.hxx>
-#include <TColStd_ListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <BRepAlgo_DSAccess.hxx>
 #include <BRepAlgo_EdgeConnector.hxx>
 
-#include <TColStd_ListOfInteger.hxx>
-#include <TColStd_MapOfInteger.hxx>
-#include <TColStd_IndexedMapOfInteger.hxx>
-#include <TColStd_MapIteratorOfMapOfInteger.hxx>
-#include <TColStd_MapIteratorOfPackedMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_MapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_IndexedMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_MapIteratorOfMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_MapIteratorOfPackedMapOfInteger.hxx>
 
 #include <TopTools_ListOfShape.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 #include <TopTools_MapOfShape.hxx>
-#include <TColStd_ListIteratorOfListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Compound.hxx>
 #include <TopoDS_Wire.hxx>

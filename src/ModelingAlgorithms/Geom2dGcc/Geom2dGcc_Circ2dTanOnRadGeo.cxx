@@ -36,7 +36,7 @@
 
 #include <ElCLib.hxx>
 #include <math_DirectPolynomialRoots.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/Standard/Standard_NegativeValue.hxx>
 #include <gp_Dir2d.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>

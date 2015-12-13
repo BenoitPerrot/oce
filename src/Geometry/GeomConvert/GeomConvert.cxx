@@ -21,9 +21,9 @@
 #include <Geom_Curve.hxx>
 #include <Geom_Surface.hxx>
 #include <TColGeom_Array1OfBSplineCurve.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <TColGeom_HArray1OfBSplineCurve.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <GeomConvert.hxx>
 
 #include <BSplCLib.hxx>
@@ -63,11 +63,11 @@
 #include <Geom_Conic.hxx>
 #include <GeomConvert_CompCurveToBSplineCurve.hxx>
 
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_Array1OfInteger.hxx>
-#include <TColStd_HArray1OfReal.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
-#include <TColStd_Array1OfBoolean.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>
 #include <TColGeom_Array1OfCurve.hxx>

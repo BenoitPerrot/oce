@@ -58,7 +58,7 @@ private:
 #define TheItem Handle(AIS_LocalStatus)
 #define TheItem_hxx <AIS_LocalStatus.hxx>
 #define Hasher TColStd_MapTransientHasher
-#define Hasher_hxx <TColStd_MapTransientHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define TCollection_DataMapNode AIS_DataMapNodeOfDataMapOfSelStat
 #define TCollection_DataMapNode_hxx <AIS_DataMapNodeOfDataMapOfSelStat.hxx>
 #define TCollection_DataMapIterator AIS_DataMapIteratorOfDataMapOfSelStat

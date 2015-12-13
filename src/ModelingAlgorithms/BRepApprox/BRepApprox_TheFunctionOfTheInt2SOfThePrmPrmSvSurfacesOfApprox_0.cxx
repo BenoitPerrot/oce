@@ -10,7 +10,7 @@
 #include <BRepAdaptor_Surface.hxx>
 #include <BRepApprox_SurfaceTool.hxx>
 #include <math_Matrix.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
  
 
 #define ThePSurface BRepAdaptor_Surface

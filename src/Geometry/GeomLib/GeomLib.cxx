@@ -54,9 +54,9 @@
 #include <Geom_BoundedSurface.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <gp_Dir.hxx>
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_HArray1OfReal.hxx>
-#include <TColStd_SequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <Adaptor3d_Curve.hxx>
 #include <Geom_BSplineSurface.hxx>
 #include <Geom_Surface.hxx>
@@ -119,17 +119,17 @@
 #include <math_FunctionAllRoots.hxx>
 #include <math_FunctionSample.hxx>
 
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <TColgp_Array1OfVec.hxx>
 #include <TColgp_Array2OfPnt.hxx>
 #include <TColgp_HArray2OfPnt.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>
 #include <TColgp_Array1OfXYZ.hxx>
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_Array2OfReal.hxx>
-#include <TColStd_HArray2OfReal.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 
 #include <gp_TrsfForm.hxx>
 #include <gp_Lin.hxx>

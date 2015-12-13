@@ -22,7 +22,7 @@
 #include <CDM_Application.hxx>
 #include <PCDM_Document.hxx>
 #include <Foundation/Storage/Storage_Schema.hxx>
-#include <TColStd_SequenceOfExtendedString.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfExtendedString.hxx>
 #include <CDM_MessageDriver.hxx>
 #include <PCDM_SequenceOfReference.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
@@ -45,7 +45,7 @@ IMPLEMENT_STANDARD_RTTI(PCDM_RetrievalDriver)
 #include <Foundation/Storage/Storage_Root.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
-#include <TColStd_SequenceOfAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfAsciiString.hxx>
 #include <Foundation/Standard/Standard_TypeMismatch.hxx>
 
 #include <PCDM_ReadWriter.hxx>

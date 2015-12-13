@@ -37,9 +37,9 @@
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/Dico/Dico_DictionaryOfTransient.hxx>
 #include <Foundation/Dico/Dico_IteratorOfDictionaryOfTransient.hxx>
-#include <TColStd_MapIteratorOfMapOfInteger.hxx>
-#include <TColStd_Array1OfInteger.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_MapIteratorOfMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 
 
 //#define TRANSLOG   // debug

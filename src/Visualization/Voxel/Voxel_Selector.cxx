@@ -27,7 +27,7 @@
 #include <IntAna_Quadric.hxx>
 #include <IntAna_IntConicQuad.hxx>
 
-#include <TColStd_MapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_MapOfInteger.hxx>
 
 Voxel_Selector::Voxel_Selector():myVoxels(0)
 {

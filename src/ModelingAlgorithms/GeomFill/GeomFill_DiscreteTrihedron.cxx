@@ -14,14 +14,14 @@
 // commercial license or contractual agreement.
 
 #include <GeomFill_HSequenceOfAx2.hxx>
-#include <TColStd_HSequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
 #include <GeomFill_Frenet.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <GeomFill_TrihedronLaw.hxx>
 #include <Adaptor3d_HCurve.hxx>
 #include <gp_Vec.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <GeomFill_DiscreteTrihedron.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(GeomFill_DiscreteTrihedron)
@@ -37,8 +37,8 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_DiscreteTrihedron)
 #include <GeomFill_Frenet.hxx>
 #include <GeomAbs_CurveType.hxx>
 #include <Adaptor3d_HCurve.hxx>
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_HSequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
 #include <GeomFill_HSequenceOfAx2.hxx>
 
 

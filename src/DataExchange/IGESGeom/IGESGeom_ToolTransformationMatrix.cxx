@@ -30,7 +30,7 @@
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <IGESGeom_ToolTransformationMatrix.hxx>
 #include <IGESData_ParamCursor.hxx>
-#include <TColStd_HArray2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
 #include <gp_GTrsf.hxx>
 #include <Interface_Macros.hxx>
 

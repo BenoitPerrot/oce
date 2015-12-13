@@ -22,7 +22,7 @@
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Face.hxx>
 #include <TopoDS_Edge.hxx>
-#include <TColStd_MapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_MapOfInteger.hxx>
 #include <TopOpeBRepDS_GapFiller.hxx>
 #include <TopExp_Explorer.hxx>
 #include <TopoDS.hxx>
@@ -34,7 +34,7 @@
 #include <TopOpeBRepDS_connex.hxx>
 #include <TopOpeBRepDS_Point.hxx>
 #include <TColgp_SequenceOfPnt.hxx>
-#include <TColStd_MapOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_MapOfTransient.hxx>
 
 #include <BRepAdaptor_Curve.hxx>
 #include <BRepAdaptor_Surface.hxx>

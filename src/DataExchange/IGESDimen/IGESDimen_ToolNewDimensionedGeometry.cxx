@@ -34,7 +34,7 @@
 #include <gp_XYZ.hxx>
 #include <gp_Pnt.hxx>
 #include <TColgp_HArray1OfXYZ.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <IGESData_HArray1OfIGESEntity.hxx>
 #include <IGESData_TransfEntity.hxx>
 #include <IGESData_Dump.hxx>

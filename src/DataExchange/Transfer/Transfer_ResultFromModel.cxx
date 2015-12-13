@@ -15,7 +15,7 @@
 #include <Transfer_ResultFromTransient.hxx>
 #include <Transfer_TransientProcess.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <TColStd_HSequenceOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <Interface_CheckIterator.hxx>
 #include <Transfer_ResultFromModel.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(Transfer_ResultFromModel)
 IMPLEMENT_DOWNCAST(Transfer_ResultFromModel,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Transfer_ResultFromModel)
-#include <TColStd_IndexedMapOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_IndexedMapOfTransient.hxx>
 #include <Interface_Check.hxx>
 #include <Interface_Macros.hxx>
 #include <Transfer_Binder.hxx>

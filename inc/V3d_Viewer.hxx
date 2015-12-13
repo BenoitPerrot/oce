@@ -26,7 +26,7 @@
 #include <Foundation/Quantity/Quantity_PlaneAngle.hxx>
 #include <V3d_TypeOfView.hxx>
 #include <Handle_V3d_Light.hxx>
-#include <TColStd_ListIteratorOfListOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfTransient.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <gp_Ax3.hxx>
 #include <Handle_Graphic3d_Structure.hxx>

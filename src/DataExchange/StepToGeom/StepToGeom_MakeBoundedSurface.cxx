@@ -34,8 +34,8 @@
 #include <StepGeom_BSplineSurfaceWithKnotsAndRationalBSplineSurface.hxx>
 #include <StepGeom_BSplineSurfaceWithKnots.hxx>
 
-#include <TColStd_HArray1OfInteger.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 
 #include <StepGeom_BezierSurface.hxx>
 #include <StepGeom_UniformSurface.hxx>

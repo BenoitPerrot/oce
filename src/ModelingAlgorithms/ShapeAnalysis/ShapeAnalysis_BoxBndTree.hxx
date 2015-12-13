@@ -25,8 +25,8 @@
 #include <ShapeExtend.hxx>
 #include <ShapeExtend_Status.hxx>
 #include <TopoDS_Vertex.hxx>
-#include <TColStd_MapOfInteger.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_MapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 
 typedef NCollection_UBTree <Standard_Integer , Bnd_Box> ShapeAnalysis_BoxBndTree;
 

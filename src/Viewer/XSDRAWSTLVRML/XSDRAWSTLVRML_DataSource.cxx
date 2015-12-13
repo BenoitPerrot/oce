@@ -14,10 +14,10 @@
 // commercial license or contractual agreement.
 
 #include <StlMesh_Mesh.hxx>
-#include <TColStd_HArray2OfInteger.hxx>
-#include <TColStd_HArray2OfReal.hxx>
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray2OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <XSDRAWSTLVRML_DataSource.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XSDRAWSTLVRML_DataSource)
@@ -33,8 +33,8 @@ IMPLEMENT_STANDARD_RTTI(XSDRAWSTLVRML_DataSource)
 #include <StlMesh_SequenceOfMeshTriangle.hxx>
 #include <StlMesh_MeshTriangle.hxx>
 #include <TColgp_SequenceOfXYZ.hxx>
-#include <TColStd_DataMapOfIntegerReal.hxx>
-#include <TColStd_DataMapOfIntegerInteger.hxx>
+#include <Foundation/TColStd/TColStd_DataMapOfIntegerReal.hxx>
+#include <Foundation/TColStd/TColStd_DataMapOfIntegerInteger.hxx>
 
 //================================================================
 // Function : Constructor

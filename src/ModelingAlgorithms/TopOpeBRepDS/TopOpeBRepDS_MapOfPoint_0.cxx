@@ -8,7 +8,7 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopOpeBRepDS_PointData.hxx>
-#include <TColStd_MapIntegerHasher.hxx>
+#include <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #include <TopOpeBRepDS_DataMapNodeOfMapOfPoint.hxx>
 #include <TopOpeBRepDS_DataMapIteratorOfMapOfPoint.hxx>
  
@@ -18,7 +18,7 @@
 #define TheItem TopOpeBRepDS_PointData
 #define TheItem_hxx <TopOpeBRepDS_PointData.hxx>
 #define Hasher TColStd_MapIntegerHasher
-#define Hasher_hxx <TColStd_MapIntegerHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #define TCollection_DataMapNode TopOpeBRepDS_DataMapNodeOfMapOfPoint
 #define TCollection_DataMapNode_hxx <TopOpeBRepDS_DataMapNodeOfMapOfPoint.hxx>
 #define TCollection_DataMapIterator TopOpeBRepDS_DataMapIteratorOfMapOfPoint

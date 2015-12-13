@@ -26,13 +26,13 @@
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/TCollection/TCollection_HExtendedString.hxx>
-#include <TColStd_HArray1OfTransient.hxx>
-#include <TColStd_HPackedMapOfInteger.hxx>
-#include <TColStd_HSequenceOfHExtendedString.hxx>
-#include <TColStd_SequenceOfHExtendedString.hxx>
-#include <TColStd_SequenceOfInteger.hxx>
-#include <TColStd_HSequenceOfInteger.hxx>
-#include <TColStd_MapIteratorOfPackedMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfTransient.hxx>
+#include <Foundation/TColStd/TColStd_HPackedMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfHExtendedString.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfHExtendedString.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_MapIteratorOfPackedMapOfInteger.hxx>
 
 IMPLEMENT_STANDARD_TYPE(Message_Algorithm)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

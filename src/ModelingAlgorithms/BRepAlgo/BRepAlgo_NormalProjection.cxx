@@ -51,8 +51,8 @@
 #include <TopExp.hxx>
 #include <BRepTools.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Geom2d_TrimmedCurve.hxx>
 #include <Geom2d_BSplineCurve.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>

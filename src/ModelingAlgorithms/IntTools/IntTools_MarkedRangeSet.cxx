@@ -13,7 +13,7 @@
 
 #include <IntTools_CArray1OfReal.hxx>
 #include <IntTools_Range.hxx>
-#include <TColStd_SequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <IntTools_MarkedRangeSet.hxx>
 
 IntTools_MarkedRangeSet::IntTools_MarkedRangeSet() :

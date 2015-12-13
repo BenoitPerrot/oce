@@ -54,9 +54,9 @@
 #include <Precision.hxx>
 
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_Array1OfInteger.hxx>
-#include <TColStd_ListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 
 #include <math_Vector.hxx>
 #include <gp_Pnt.hxx>

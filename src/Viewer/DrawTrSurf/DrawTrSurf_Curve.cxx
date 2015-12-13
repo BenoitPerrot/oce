@@ -37,7 +37,7 @@ IMPLEMENT_STANDARD_RTTI(DrawTrSurf_Curve)
 #include <gp_Dir2d.hxx>
 #include <gp_Vec.hxx>
 #include <gp_Vec2d.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 
 Standard_Real DrawTrSurf_CurveLimit = 400;
 extern Standard_Boolean Draw_Bounds;

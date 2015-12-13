@@ -25,7 +25,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(ChFiDS_ChamfSpine)
 IMPLEMENT_DOWNCAST(ChFiDS_ChamfSpine,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ChFiDS_ChamfSpine)
-#include <TColStd_HArray1OfBoolean.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfBoolean.hxx>
 
 //=======================================================================
 //function : ChFiDS_ChamfSpine

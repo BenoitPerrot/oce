@@ -96,13 +96,13 @@
 #include <TopExp_Explorer.hxx>
 #include <TopAbs_Orientation.hxx>
 
-#include <TColStd_HArray1OfInteger.hxx>
-#include <TColStd_Array2OfInteger.hxx>
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_Array2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array2OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <TColGeom_Array2OfSurface.hxx>
 #include <TColgp_Array1OfPnt.hxx>
-#include <TColStd_Array1OfBoolean.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>
 
 #include <TopTools_Array1OfShape.hxx>
 #include <TopTools_Array2OfShape.hxx>

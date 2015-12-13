@@ -13,7 +13,7 @@
 #include <TDF_LabelNodePtr.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <TColStd_ListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <TDF_HAllocator.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <TDF_Label.hxx>

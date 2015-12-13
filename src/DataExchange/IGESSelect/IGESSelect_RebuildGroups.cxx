@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_RTTI(IGESSelect_RebuildGroups)
 #include <IGESBasic_GroupWithoutBackP.hxx>
 #include <IGESBasic_OrderedGroup.hxx>
 #include <IGESBasic_OrderedGroupWithoutBackP.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Interface_EntityIterator.hxx>
 #include <Interface_Macros.hxx>
 

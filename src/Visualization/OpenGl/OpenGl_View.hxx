@@ -19,7 +19,7 @@
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 
-#include <TColStd_Array2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <Foundation/NCollection/NCollection_List.hxx>
 
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>

@@ -21,7 +21,7 @@
 #include <gp_Pnt2d.hxx>
 #include <gp_Vec2d.hxx>
 #include <Geom2dAdaptor_HCurve.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <AdvApprox_PrefAndRec.hxx>
 #include <AdvApprox_ApproxAFunction.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>

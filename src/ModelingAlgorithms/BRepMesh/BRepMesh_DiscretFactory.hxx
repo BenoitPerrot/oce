@@ -19,7 +19,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <BRepMesh_PluginEntryType.hxx>
 #include <BRepMesh_FactoryError.hxx>
-#include <TColStd_MapOfAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_MapOfAsciiString.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Plugin/Plugin_MapOfFunctions.hxx>
 #include <BRepMesh_DiscretRoot.hxx>

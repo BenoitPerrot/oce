@@ -14,7 +14,7 @@
 #include <Handle_IFSelect_WorkSession.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>
 #include <Handle_Dico_DictionaryOfInteger.hxx>
-#include <TColStd_SequenceOfAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfAsciiString.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>

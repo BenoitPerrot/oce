@@ -18,7 +18,7 @@
 #include <Graphic3d_StructureManager.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TColStd_Array2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <Graphic3d_GraphicDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Graphic3d_GraphicDriver)

@@ -27,7 +27,7 @@
 #include <Geom_Direction.hxx>
 #include <Geom2d_Direction.hxx>
 #include <StepGeom_Direction.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 //=============================================================================

@@ -13,7 +13,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Law_Function.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Law_Function)

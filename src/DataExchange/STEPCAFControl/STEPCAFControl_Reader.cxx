@@ -27,7 +27,7 @@
 #include <STEPCAFControl_DataMapOfShapePD.hxx>
 #include <STEPCAFControl_DataMapOfPDExternFile.hxx>
 #include <XCAFDoc_DataMapOfShapeLabel.hxx>
-#include <TColStd_HSequenceOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <StepRepr_RepresentationItem.hxx>
 #include <Transfer_TransientProcess.hxx>
 #include <StepShape_ConnectedFaceSet.hxx>
@@ -85,7 +85,7 @@
 #include <XCAFDoc_Volume.hxx>
 #include <XCAFDoc_Centroid.hxx>
 #include <StepVisual_PresentationLayerAssignment.hxx>
-#include <TColStd_HSequenceOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <StepVisual_LayeredItem.hxx>
 #include <XCAFDoc_LayerTool.hxx>
 #include <Interface_EntityIterator.hxx>
@@ -96,7 +96,7 @@
 #include <TDataStd_UAttribute.hxx>
 #include <XCAFDoc.hxx>
 #include <Foundation/OSD/OSD_Path.hxx>
-#include <TColStd_SequenceOfHAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfHAsciiString.hxx>
 
 #include <TDataStd_TreeNode.hxx>
 #include <TNaming_NamedShape.hxx>
@@ -126,9 +126,9 @@
 #include <StepDimTol_GeometricToleranceWithDatumReference.hxx>
 //#include <StepRepr_CompoundItemDefinition.hxx>
 //#include <StepRepr_CompoundItemDefinitionMember.hxx>
-#include <TColStd_HArray1OfTransient.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfTransient.hxx>
 #include <StepRepr_HArray1OfRepresentationItem.hxx>
-#include <TColStd_IndexedDataMapOfTransientTransient.hxx>
+#include <Foundation/TColStd/TColStd_IndexedDataMapOfTransientTransient.hxx>
 //#include <StepBasic_ConversionBasedUnit.hxx>
 #include <StepBasic_Unit.hxx>
 #include <StepBasic_NamedUnit.hxx>
@@ -149,7 +149,7 @@
 //#include <TPrsStd_Position.hxx>
 //#include <TPrsStd_AISPresentation.hxx>
 //#include <TNaming_Builder.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <StepShape_AdvancedFace.hxx>
 #include <StepDimTol_HArray1OfDatumReference.hxx>
 #include <StepDimTol_DatumReference.hxx>
@@ -180,8 +180,8 @@
 #include <Foundation/NCollection/NCollection_DataMap.hxx>
 #include <StepShape_ManifoldSolidBrep.hxx>
 #include <Interface_Static.hxx>
-#include <TColStd_MapOfTransient.hxx>
-#include <TColStd_MapIteratorOfMapOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_MapOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_MapIteratorOfMapOfTransient.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 #include <STEPCAFControl_DataMapIteratorOfDataMapOfShapePD.hxx>

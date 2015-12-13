@@ -58,7 +58,7 @@ private:
 #define TheItem Handle(BinMDF_ADriver)
 #define TheItem_hxx <BinMDF_ADriver.hxx>
 #define Hasher TColStd_MapTransientHasher
-#define Hasher_hxx <TColStd_MapTransientHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define TCollection_DataMapNode BinMDF_DataMapNodeOfTypeADriverMap
 #define TCollection_DataMapNode_hxx <BinMDF_DataMapNodeOfTypeADriverMap.hxx>
 #define TCollection_DataMapIterator BinMDF_DataMapIteratorOfTypeADriverMap

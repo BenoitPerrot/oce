@@ -48,7 +48,7 @@
 #include <TopoDS.hxx>
 #include <TopoDS_Wire.hxx>
 #include <BRepLib_MakeFace.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <BRep_ListIteratorOfListOfCurveRepresentation.hxx>
 #include <BRep_TEdge.hxx>
 #include <BRep_CurveRepresentation.hxx>

@@ -19,9 +19,9 @@
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <TDF_Data.hxx>
 #include <BinObjMgt_Persistent.hxx>
-#include <TColStd_ListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <TDF_Tool.hxx>
-#include <TColStd_ListIteratorOfListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 #include <Foundation/FSD/FSD_FileHeader.hxx>
 
 #define BP_INTSIZE         ((Standard_Integer)sizeof(Standard_Integer))

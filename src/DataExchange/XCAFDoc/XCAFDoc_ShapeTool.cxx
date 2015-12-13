@@ -20,7 +20,7 @@
 #include <TopLoc_Location.hxx>
 #include <TDF_Attribute.hxx>
 #include <TDF_RelocationTable.hxx>
-#include <TColStd_SequenceOfHAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfHAsciiString.hxx>
 #include <XCAFDoc_GraphNode.hxx>
 #include <TDF_AttributeSequence.hxx>
 #include <TopTools_SequenceOfShape.hxx>
@@ -66,7 +66,7 @@ IMPLEMENT_STANDARD_RTTI(XCAFDoc_ShapeTool)
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <TColStd_SequenceOfHAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfHAsciiString.hxx>
 #include <XCAFDoc_GraphNode.hxx>
 #include <TopLoc_IndexedMapOfLocation.hxx>
 #include <gp_Trsf.hxx>

@@ -16,7 +16,7 @@
 
 #include <Foundation/Standard/Standard_TypeMismatch.hxx>
 #include <TopoDS_Shape.hxx>
-#include <TColStd_IndexedDataMapOfTransientTransient.hxx>
+#include <Foundation/TColStd/TColStd_IndexedDataMapOfTransientTransient.hxx>
 #include <TNaming_TranslateTool.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TNaming_TranslateTool)

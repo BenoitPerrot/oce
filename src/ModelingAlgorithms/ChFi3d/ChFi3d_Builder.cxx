@@ -55,9 +55,9 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
-#include <TColStd_MapIteratorOfMapOfInteger.hxx>
-#include <TColStd_MapOfInteger.hxx>
-#include <TColStd_ListIteratorOfListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_MapIteratorOfMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_MapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 
 #include <TopoDS.hxx>
 #include <TopoDS_Shape.hxx>

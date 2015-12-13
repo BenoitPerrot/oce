@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_TYPE_END(BinMDataStd_RealArrayDriver)
 IMPLEMENT_DOWNCAST(BinMDataStd_RealArrayDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinMDataStd_RealArrayDriver)
 #include <TDataStd_RealArray.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <BinMDataStd.hxx>
 
 //=======================================================================

@@ -25,8 +25,8 @@
 #include <StepGeom_CartesianPoint.hxx>
 #include <GeomToStep_MakeCartesianPoint.hxx>
 #include <StepGeom_HArray1OfCartesianPoint.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>
 #include <GeomAbs_BSplKnotDistribution.hxx>

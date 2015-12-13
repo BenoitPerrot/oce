@@ -35,10 +35,10 @@
 #include <TopTools_IndexedMapOfShape.hxx>
 #include <TopTools_DataMapOfIntegerShape.hxx>
 
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_IndexedMapOfReal.hxx>
-#include <TColStd_ListOfInteger.hxx>
-#include <TColStd_ListIteratorOfListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_IndexedMapOfReal.hxx>
+#include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 
 #include <BOPAlgo_PaveFiller.hxx>
 #include <BOPDS_DS.hxx>

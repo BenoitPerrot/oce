@@ -26,7 +26,7 @@
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Adaptor2d_HCurve2d.hxx>
 #include <gp_Pnt2d.hxx>
 #include <gp_Vec2d.hxx>
@@ -44,9 +44,9 @@
 #include <BSplCLib.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_Array1OfInteger.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Precision.hxx>
 #include <gp.hxx>
 #include <Geom2d_TrimmedCurve.hxx>

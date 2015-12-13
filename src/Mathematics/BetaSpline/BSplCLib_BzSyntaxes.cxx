@@ -15,8 +15,8 @@
 // commercial license or contractual agreement.
 
 #include <BSplCLib.hxx>
-#include <TColStd_Array1OfInteger.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 
 #define No_Standard_RangeError
 #define No_Standard_OutOfRange

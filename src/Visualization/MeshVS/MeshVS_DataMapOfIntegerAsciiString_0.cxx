@@ -8,7 +8,7 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TColStd_MapIntegerHasher.hxx>
+#include <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #include <MeshVS_DataMapNodeOfDataMapOfIntegerAsciiString.hxx>
 #include <MeshVS_DataMapIteratorOfDataMapOfIntegerAsciiString.hxx>
  
@@ -18,7 +18,7 @@
 #define TheItem TCollection_AsciiString
 #define TheItem_hxx <Foundation/TCollection/TCollection_AsciiString.hxx>
 #define Hasher TColStd_MapIntegerHasher
-#define Hasher_hxx <TColStd_MapIntegerHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #define TCollection_DataMapNode MeshVS_DataMapNodeOfDataMapOfIntegerAsciiString
 #define TCollection_DataMapNode_hxx <MeshVS_DataMapNodeOfDataMapOfIntegerAsciiString.hxx>
 #define TCollection_DataMapIterator MeshVS_DataMapIteratorOfDataMapOfIntegerAsciiString

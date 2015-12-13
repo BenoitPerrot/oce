@@ -15,7 +15,7 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <gp_Pln.hxx>
-#include <TColStd_HArray2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
 #include <gp_Trsf.hxx>
 #include <ShapeAnalysis_Geom.hxx>
 

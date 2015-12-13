@@ -16,9 +16,9 @@
 
 #include <Approx_SweepFunction.hxx>
 #include <TColgp_HArray2OfPnt.hxx>
-#include <TColStd_HArray2OfReal.hxx>
-#include <TColStd_HArray1OfReal.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Approx_HArray1OfGTrsf2d.hxx>
 #include <TColgp_HArray1OfPnt.hxx>
 #include <TColgp_HArray1OfPnt2d.hxx>
@@ -29,9 +29,9 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <AdvApprox_Cutting.hxx>
 #include <TColgp_Array2OfPnt.hxx>
-#include <TColStd_Array2OfReal.hxx>
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>
 #include <Approx_SweepApproximation.hxx>
 #include <gp_XYZ.hxx>
@@ -46,7 +46,7 @@
 #include <TColgp_Array1OfVec.hxx>
 #include <TColgp_Array1OfVec2d.hxx>
 
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 

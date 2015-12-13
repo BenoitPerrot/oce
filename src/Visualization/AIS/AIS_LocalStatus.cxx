@@ -13,7 +13,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <TColStd_ListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <AIS_LocalStatus.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_LocalStatus)
@@ -24,7 +24,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(AIS_LocalStatus)
 IMPLEMENT_DOWNCAST(AIS_LocalStatus,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(AIS_LocalStatus)
-#include <TColStd_ListIteratorOfListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 
 
 AIS_LocalStatus::AIS_LocalStatus(const Standard_Boolean IsTemp,

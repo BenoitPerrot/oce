@@ -26,7 +26,7 @@
 #include <GeomTools.hxx>
 #include <Poly.hxx>
 #include <TopoDS.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <BRep_TFace.hxx>
 #include <BRep_TEdge.hxx>
 #include <BRep_TVertex.hxx>
@@ -51,7 +51,7 @@
 
 #include <TColgp_HArray1OfPnt.hxx>
 #include <TColgp_HArray1OfPnt2d.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Poly_Triangulation.hxx>
 #include <Poly_PolygonOnTriangulation.hxx>
 

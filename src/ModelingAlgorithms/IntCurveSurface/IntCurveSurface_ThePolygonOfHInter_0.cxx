@@ -5,11 +5,11 @@
 
 #include <IntCurveSurface_ThePolygonOfHInter.hxx>
 
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Adaptor3d_HCurve.hxx>
 #include <IntCurveSurface_TheHCurveTool.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Bnd_Box.hxx>
 #include <gp_Pnt.hxx>
  

@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <BRepTopAdaptor_SeqOfPtr.hxx>
-#include <TColStd_SequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <TopoDS_Face.hxx>
 #include <TopAbs_State.hxx>

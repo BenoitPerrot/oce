@@ -19,8 +19,8 @@
 // rln 11.05.2000 BUC60660
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
-#include <TColStd_HArray1OfTransient.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfTransient.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_NullObject.hxx>
@@ -37,7 +37,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESDefs_GenericData)
 IMPLEMENT_DOWNCAST(IGESDefs_GenericData,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESDefs_GenericData)
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <IGESData_HArray1OfIGESEntity.hxx>
 #include <Interface_HArray1OfHAsciiString.hxx>
 #include <Interface_Macros.hxx>

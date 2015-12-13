@@ -37,7 +37,7 @@
 
 #include <IntSurf_PntOn2S.hxx>
 #include <IntSurf_LineOn2S.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Intf_PIType.hxx>
 #include <Intf_SectionLine.hxx>
 #include <Intf_TangentZone.hxx>
@@ -46,9 +46,9 @@
 #include <gp_Dir.hxx>
 #include <IntPolyh_Intersection.hxx>
 
-#include <TColStd_SequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <IntSurf_ListIteratorOfListOfPntOn2S.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 
 static void SectionPointToParameters(const Intf_SectionPoint& Sp,
                                      const IntPatch_Polyhedron& Surf1,

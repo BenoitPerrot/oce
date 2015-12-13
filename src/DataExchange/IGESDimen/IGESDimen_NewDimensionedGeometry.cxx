@@ -18,7 +18,7 @@
 
 #include <IGESData_IGESEntity.hxx>
 #include <IGESData_HArray1OfIGESEntity.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <TColgp_HArray1OfXYZ.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>

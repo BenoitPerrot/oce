@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_XSDRAWSTLVRML_DataSource3D.hxx>
 
-#include <TColStd_PackedMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_PackedMapOfInteger.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>
 #include <Handle_TColStd_HArray2OfReal.hxx>
 #include <Handle_TColStd_HArray2OfInteger.hxx>

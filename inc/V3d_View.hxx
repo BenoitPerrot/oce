@@ -23,13 +23,13 @@
 #include <Graphic3d_Vector.hxx>
 #include <Graphic3d_Vertex.hxx>
 #include <Handle_Aspect_Window.hxx>
-#include <TColStd_ListIteratorOfListOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfTransient.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Aspect_Grid.hxx>
 #include <gp_Ax3.hxx>
 #include <Handle_V3d_LayerMgr.hxx>
-#include <TColStd_Array2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <Handle_Graphic3d_Structure.hxx>
 #include <Handle_Graphic3d_Group.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

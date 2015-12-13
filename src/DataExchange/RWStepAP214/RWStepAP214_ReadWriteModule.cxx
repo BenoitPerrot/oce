@@ -16,7 +16,7 @@
 // :j4 gka 15.03.99 S4134
 // sln 03.10.2001. BUC61003. Correction of alphabetic order of complex entity's items 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TColStd_SequenceOfAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfAsciiString.hxx>
 #include <StepData_StepReaderData.hxx>
 #include <Interface_Check.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>

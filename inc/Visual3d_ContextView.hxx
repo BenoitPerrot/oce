@@ -14,7 +14,7 @@
 #include <Foundation/Standard/Standard_ShortReal.hxx>
 #include <Visual3d_TypeOfModel.hxx>
 #include <Visual3d_TypeOfVisualization.hxx>
-#include <TColStd_SequenceOfAddress.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfAddress.hxx>
 #include <Handle_Graphic3d_TextureEnv.hxx>
 #include <Visual3d_TypeOfSurfaceDetail.hxx>
 #include <Graphic3d_SequenceOfHClipPlane.hxx>

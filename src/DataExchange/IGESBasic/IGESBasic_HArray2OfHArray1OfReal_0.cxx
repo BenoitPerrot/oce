@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <IGESBasic_Array2OfHArray1OfReal.hxx>
 
  
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(IGESBasic_HArray2OfHArray1OfReal)
 
 
 #define ItemHArray2 Handle(TColStd_HArray1OfReal)
-#define ItemHArray2_hxx <TColStd_HArray1OfReal.hxx>
+#define ItemHArray2_hxx <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #define TheArray2 IGESBasic_Array2OfHArray1OfReal
 #define TheArray2_hxx <IGESBasic_Array2OfHArray1OfReal.hxx>
 #define TCollection_HArray2 IGESBasic_HArray2OfHArray1OfReal

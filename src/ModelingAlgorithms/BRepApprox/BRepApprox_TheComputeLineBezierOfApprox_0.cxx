@@ -5,7 +5,7 @@
 
 #include <BRepApprox_TheComputeLineBezierOfApprox.hxx>
 
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <AppParCurves_HArray1OfConstraintCouple.hxx>
 #include <BRepApprox_TheMultiLineOfApprox.hxx>
 #include <BRepApprox_TheMultiLineToolOfApprox.hxx>
@@ -16,7 +16,7 @@
 #include <BRepApprox_Gradient_BFGSOfMyGradientOfTheComputeLineBezierOfApprox.hxx>
 #include <AppParCurves_MultiCurve.hxx>
 #include <AppParCurves_MultiBSpCurve.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
  
 
 #define MultiLine BRepApprox_TheMultiLineOfApprox

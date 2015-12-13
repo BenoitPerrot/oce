@@ -21,7 +21,7 @@
 #include <PDataStd_HArray1OfByte.hxx>
 #include <PDataStd_HArray1OfHArray1OfInteger.hxx>
 #include <PDataStd_HArray1OfHArray1OfReal.hxx>
-#include <TColStd_HArray2OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray2OfInteger.hxx>
 #include <PDataStd_NamedData.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PDataStd_NamedData)

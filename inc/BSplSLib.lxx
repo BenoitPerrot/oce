@@ -16,7 +16,7 @@
 
 #include <BSplCLib.hxx>
 #include <TColgp_Array2OfPnt.hxx>
-#include <TColStd_Array2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 
 //=======================================================================
 //function : CoefsD0

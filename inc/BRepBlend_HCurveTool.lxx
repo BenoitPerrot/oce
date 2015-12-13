@@ -28,7 +28,7 @@
 #include <Geom_BezierCurve.hxx>
 #include <Geom_BSplineCurve.hxx>
 
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 
 //============================================================
 inline Standard_Real BRepBlend_HCurveTool::FirstParameter (const Handle(Adaptor3d_HCurve)& C) {

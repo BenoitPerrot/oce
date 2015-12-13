@@ -65,13 +65,13 @@
 
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <TColgp_SequenceOfXYZ.hxx>
-#include <TColStd_HPackedMapOfInteger.hxx>
-#include <TColStd_MapIteratorOfPackedMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HPackedMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_MapIteratorOfPackedMapOfInteger.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <VrmlData_Scene.hxx>
 #include <VrmlData_ShapeConvert.hxx>
 #include <VrmlData_DataMapOfShapeAppearance.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Bnd_Box.hxx>
 
 #include <XSDRAWSTLVRML_ToVRML.hxx>

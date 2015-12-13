@@ -28,10 +28,10 @@
 
 #include <TopLoc_Location.hxx>
 #include <TopTools_HArray1OfShape.hxx>
-#include <TColStd_HArray1OfTransient.hxx>
-#include <TColStd_SequenceOfAsciiString.hxx>
-#include <TColStd_HSequenceOfAsciiString.hxx>
-#include <TColStd_MapOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfTransient.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_MapOfTransient.hxx>
 #include <Foundation/OSD/OSD_Timer.hxx>
 #include <Geom_Axis2Placement.hxx>
 #include <Geom_Axis1Placement.hxx>
@@ -178,7 +178,7 @@ void GetTypeAndSignfromString (const char* name,AIS_KindOfInteractive& TheType,S
 #include <AIS_Shape.hxx>
 #include <AIS_TexturedShape.hxx>
 #include <AIS_DisplayMode.hxx>
-#include <TColStd_MapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_MapOfInteger.hxx>
 #include <AIS_MapOfInteractive.hxx>
 #include <ViewerTest_DoubleMapOfInteractiveAndName.hxx>
 #include <ViewerTest_DoubleMapIteratorOfDoubleMapOfInteractiveAndName.hxx>
@@ -3295,7 +3295,7 @@ static int VShading(Draw_Interpretor& ,Standard_Integer argc, const char** argv)
 //function : HaveMode
 //use      : VActivatedModes
 //==============================================================================
-#include <TColStd_ListIteratorOfListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 
 Standard_Boolean  HaveMode(const Handle(AIS_InteractiveObject)& TheAisIO,const Standard_Integer mode  )
 {

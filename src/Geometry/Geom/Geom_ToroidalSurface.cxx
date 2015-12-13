@@ -19,7 +19,7 @@
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <gp_Ax3.hxx>
 #include <gp_Torus.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Geom_Curve.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Vec.hxx>

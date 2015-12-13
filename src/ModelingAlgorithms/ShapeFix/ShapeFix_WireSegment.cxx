@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <ShapeExtend_WireData.hxx>
-#include <TColStd_HSequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfInteger.hxx>
 #include <TopoDS_Wire.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <TopoDS_Edge.hxx>

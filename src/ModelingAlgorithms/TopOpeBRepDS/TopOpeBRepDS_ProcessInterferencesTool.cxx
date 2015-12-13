@@ -28,7 +28,7 @@
 #include <gp_Vec.hxx>
 #include <gp_Dir.hxx>
 #include <Precision.hxx>
-#include <TColStd_MapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_MapOfInteger.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <TopOpeBRepDS_define.hxx>
 #include <TopOpeBRepTool_TOOL.hxx>

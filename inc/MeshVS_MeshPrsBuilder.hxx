@@ -17,7 +17,7 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <MeshVS_BuilderPriority.hxx>
 #include <Handle_Prs3d_Presentation.hxx>
-#include <TColStd_PackedMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_PackedMapOfInteger.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Graphic3d_ArrayOfSegments.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

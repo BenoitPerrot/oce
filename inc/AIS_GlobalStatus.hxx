@@ -11,7 +11,7 @@
 #include <Handle_AIS_GlobalStatus.hxx>
 
 #include <AIS_DisplayStatus.hxx>
-#include <TColStd_ListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>

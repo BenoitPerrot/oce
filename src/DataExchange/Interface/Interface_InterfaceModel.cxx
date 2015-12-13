@@ -29,7 +29,7 @@
 #include <Interface_GeneralLib.hxx>
 #include <Interface_EntityIterator.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
-#include <TColStd_HSequenceOfHAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfHAsciiString.hxx>
 #include <Interface_InterfaceModel.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Interface_InterfaceModel)
@@ -41,12 +41,12 @@ IMPLEMENT_STANDARD_TYPE_END(Interface_InterfaceModel)
 IMPLEMENT_DOWNCAST(Interface_InterfaceModel,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Interface_InterfaceModel)
 #include <Interface_GeneralModule.hxx>
-#include <TColStd_Array1OfTransient.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfTransient.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Interface_InterfaceMismatch.hxx>
 #include <Foundation/Dico/Dico_DictionaryOfTransient.hxx>
 #include <Foundation/Dico/Dico_IteratorOfDictionaryOfTransient.hxx>
-#include <TColStd_DataMapIteratorOfDataMapOfIntegerTransient.hxx>
+#include <Foundation/TColStd/TColStd_DataMapIteratorOfDataMapOfIntegerTransient.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Interface_SignType.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
@@ -900,7 +900,7 @@ Interface_EntityIterator Interface_InterfaceModel::Redefineds () const
 }
 
 //#include <limits.h>
-//#include <TColStd_MapTransientHasher.hxx>
+//#include <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 
 
 //=======================================================================

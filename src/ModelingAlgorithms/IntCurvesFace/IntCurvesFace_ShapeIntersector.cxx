@@ -27,8 +27,8 @@
 #include <Bnd_BoundSortBox.hxx>
 #include <Bnd_HArray1OfBox.hxx>
 #include <ElCLib.hxx>
-#include <TColStd_ListOfInteger.hxx>
-#include <TColStd_ListIteratorOfListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 
 //-- ================================================================================
 IntCurvesFace_ShapeIntersector::IntCurvesFace_ShapeIntersector() {

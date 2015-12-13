@@ -57,7 +57,7 @@ private:
 #define TheItem Handle(MeshVS_HArray1OfSequenceOfInteger)
 #define TheItem_hxx <MeshVS_HArray1OfSequenceOfInteger.hxx>
 #define Hasher TColStd_MapIntegerHasher
-#define Hasher_hxx <TColStd_MapIntegerHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #define TCollection_DataMapNode MeshVS_DataMapNodeOfDataMapOfHArray1OfSequenceOfInteger
 #define TCollection_DataMapNode_hxx <MeshVS_DataMapNodeOfDataMapOfHArray1OfSequenceOfInteger.hxx>
 #define TCollection_DataMapIterator MeshVS_DataMapIteratorOfDataMapOfHArray1OfSequenceOfInteger

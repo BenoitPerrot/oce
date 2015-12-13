@@ -21,7 +21,7 @@
 #include <Foundation/Dico/Dico_DictionaryOfInteger.hxx>
 #include <Foundation/Dico/Dico_IteratorOfDictionaryOfInteger.hxx>
 #include <Foundation/Dico/Dico_IteratorOfDictionaryOfTransient.hxx>
-#include <TColStd_HSequenceOfHAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfHAsciiString.hxx>
 #include <Foundation/OSD/OSD_Process.hxx>
 #include <Foundation/Quantity/Quantity_Date.hxx>
 

@@ -38,14 +38,14 @@
 #include <AIS_InteractiveObject.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Select3D_Projector.hxx>
-#include <TColStd_ListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <SelectMgr_ListOfFilter.hxx>
 #include <V3d_View.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>
 #include <TopoDS_Shape.hxx>
 #include <SelectMgr_EntityOwner.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <TColStd_MapOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_MapOfTransient.hxx>
 #include <AIS_LocalStatus.hxx>
 #include <SelectMgr_SelectableObject.hxx>
 #include <AIS_LocalContext.hxx>
@@ -62,7 +62,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_LocalContext)
 #include <SelectMgr_CompositionFilter.hxx>
 #include <AIS_LocalStatus.hxx>
 #include <AIS_Shape.hxx>
-#include <TColStd_ListIteratorOfListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 #include <AIS_ListIteratorOfListOfInteractive.hxx>
 #include <AIS_ListOfInteractive.hxx>
 #include <AIS_DataMapIteratorOfDataMapOfSelStat.hxx>

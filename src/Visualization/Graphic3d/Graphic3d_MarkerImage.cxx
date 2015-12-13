@@ -17,7 +17,7 @@
 
 #include <Image_PixMap.hxx>
 #include <Foundation/Standard/Standard_Atomic.hxx>
-#include <TColStd_HArray1OfByte.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfByte.hxx>
 
 namespace
 {

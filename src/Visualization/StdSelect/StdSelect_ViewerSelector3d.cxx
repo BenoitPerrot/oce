@@ -72,7 +72,7 @@ IMPLEMENT_STANDARD_RTTI(StdSelect_ViewerSelector3d)
 #include <Graphic3d_ArrayOfPoints.hxx>
 #include <SelectBasics_ListIteratorOfListOfBox2d.hxx>
 #include <Poly_Connect.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 
 #include <Poly_Array1OfTriangle.hxx>
 #include <Poly_Triangulation.hxx>

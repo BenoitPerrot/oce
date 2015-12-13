@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(IFSelect_SessionPilot)
 #include <IFSelect_Selection.hxx>
 #include <Interface_EntityIterator.hxx>
 #include <Interface_InterfaceModel.hxx>
-#include <TColStd_HSequenceOfAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfAsciiString.hxx>
 
 #include <Interface_Macros.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>

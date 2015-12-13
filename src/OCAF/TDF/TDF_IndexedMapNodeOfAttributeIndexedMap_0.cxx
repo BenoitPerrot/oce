@@ -8,7 +8,7 @@
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TDF_Attribute.hxx>
-#include <TColStd_MapTransientHasher.hxx>
+#include <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #include <TDF_AttributeIndexedMap.hxx>
 
  
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(TDF_IndexedMapNodeOfAttributeIndexedMap)
 #define TheKey Handle(TDF_Attribute)
 #define TheKey_hxx <TDF_Attribute.hxx>
 #define Hasher TColStd_MapTransientHasher
-#define Hasher_hxx <TColStd_MapTransientHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define TCollection_IndexedMapNode TDF_IndexedMapNodeOfAttributeIndexedMap
 #define TCollection_IndexedMapNode_hxx <TDF_IndexedMapNodeOfAttributeIndexedMap.hxx>
 #define Handle_TCollection_IndexedMapNode Handle_TDF_IndexedMapNodeOfAttributeIndexedMap

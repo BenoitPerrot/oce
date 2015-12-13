@@ -33,10 +33,10 @@
 #include <Extrema_POnSurf.hxx>
 #include <BRep_Tool.hxx>
 #include <Geom_Surface.hxx>
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_Array1OfBoolean.hxx>
-#include <TColStd_ListOfInteger.hxx>
-#include <TColStd_ListIteratorOfListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>
+#include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 #include <IntTools_EdgeFace.hxx>
 #include <IntTools_ListOfCurveRangeSample.hxx>
 #include <IntTools_ListOfSurfaceRangeSample.hxx>

@@ -24,7 +24,7 @@
 //#include <TopoDSToStep_DirectModification.hxx>
 //#include <TopoDSToStep_ConicalSurfModif.hxx>
 
-#include <TColStd_MapOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_MapOfTransient.hxx>
 #include <TopExp_Explorer.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Face.hxx>

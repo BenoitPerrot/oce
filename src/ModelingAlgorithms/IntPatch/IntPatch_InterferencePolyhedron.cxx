@@ -32,8 +32,8 @@
 #include <Intf_SeqOfTangentZone.hxx>
 #include <Intf.hxx>
 #include <Bnd_HArray1OfBox.hxx>
-#include <TColStd_ListOfInteger.hxx>
-#include <TColStd_ListIteratorOfListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 #include <Bnd_BoundSortBox.hxx>
 
 #include <Foundation/NCollection/NCollection_LocalArray.hxx>

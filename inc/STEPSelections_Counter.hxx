@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <TColStd_MapOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_MapOfTransient.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Handle_StepShape_ConnectedFaceSet.hxx>
 #include <Handle_StepGeom_CompositeCurve.hxx>

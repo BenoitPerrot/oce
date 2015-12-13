@@ -15,7 +15,7 @@
 
 #include <TDF_Label.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <TColStd_MapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_MapOfInteger.hxx>
 #include <TDF_Attribute.hxx>
 #include <TDF_RelocationTable.hxx>
 #include <TDF_DataSet.hxx>

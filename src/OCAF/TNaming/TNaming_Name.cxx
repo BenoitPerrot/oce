@@ -48,7 +48,7 @@
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <TopTools_Array1OfShape.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <TopoDS_Wire.hxx>
 #include <TopoDS_Shell.hxx>
 

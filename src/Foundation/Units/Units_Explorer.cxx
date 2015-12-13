@@ -16,8 +16,8 @@
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
-#include <TColStd_HSequenceOfInteger.hxx>
-#include <TColStd_HSequenceOfHAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfHAsciiString.hxx>
 
 #include <Units_Explorer.hxx>
 #include <Units_QuantitiesSequence.hxx>

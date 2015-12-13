@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BRepAlgo_SequenceNodeOfSequenceOfSequenceOfInteger.hxx>
 
-#include <TColStd_SequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>
 #include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class TColStd_SequenceOfInteger;
@@ -47,7 +47,7 @@ private:
 };
 
 #define SeqItem TColStd_SequenceOfInteger
-#define SeqItem_hxx <TColStd_SequenceOfInteger.hxx>
+#define SeqItem_hxx <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #define TCollection_SequenceNode BRepAlgo_SequenceNodeOfSequenceOfSequenceOfInteger
 #define TCollection_SequenceNode_hxx <BRepAlgo_SequenceNodeOfSequenceOfSequenceOfInteger.hxx>
 #define Handle_TCollection_SequenceNode Handle_BRepAlgo_SequenceNodeOfSequenceOfSequenceOfInteger

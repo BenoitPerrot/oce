@@ -39,7 +39,7 @@
 #include <GCPnts_QuasiUniformDeflection.hxx>
 #include <GCPnts_TangentialDeflection.hxx>
 #include <TColgp_SequenceOfPnt.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 
 
 //==================================================================

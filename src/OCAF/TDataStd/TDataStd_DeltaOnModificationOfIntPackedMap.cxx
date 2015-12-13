@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TColStd_HPackedMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HPackedMapOfInteger.hxx>
 #include <TDataStd_IntPackedMap.hxx>
 #include <TDataStd_DeltaOnModificationOfIntPackedMap.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -29,9 +29,9 @@ IMPLEMENT_DOWNCAST(TDataStd_DeltaOnModificationOfIntPackedMap,Standard_Transient
 IMPLEMENT_STANDARD_RTTI(TDataStd_DeltaOnModificationOfIntPackedMap)
 #include <TDF_DeltaOnModification.hxx>
 #include <TDF_Label.hxx>
-#include <TColStd_PackedMapOfInteger.hxx>
-#include <TColStd_HPackedMapOfInteger.hxx>
-#include <TColStd_MapIteratorOfPackedMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_PackedMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HPackedMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_MapIteratorOfPackedMapOfInteger.hxx>
 
 #ifdef OCCT_DEBUG
 #define MAXUP 1000

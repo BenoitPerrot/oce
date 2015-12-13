@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_TYPE_END(AIS_Selection)
 IMPLEMENT_DOWNCAST(AIS_Selection,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(AIS_Selection)
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TColStd_SequenceOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfTransient.hxx>
 
 #define BUC60953   // SAV_050701 : the array of selected objects has always the same length
 // independently of number of objects selected. Thus, if there were selected

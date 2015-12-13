@@ -31,8 +31,8 @@
 #include <IGESGeom_ToolBSplineSurface.hxx>
 #include <IGESData_ParamCursor.hxx>
 #include <gp_XYZ.hxx>
-#include <TColStd_HArray1OfReal.hxx>
-#include <TColStd_HArray2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
 #include <TColgp_HArray2OfXYZ.hxx>
 #include <IGESData_Dump.hxx>
 #include <Interface_Macros.hxx>

@@ -16,7 +16,7 @@
 #include <Interface_FileReaderData.hxx>
 #include <Interface_InterfaceModel.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
-#include <TColStd_HArray1OfTransient.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfTransient.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Interface_Check.hxx>

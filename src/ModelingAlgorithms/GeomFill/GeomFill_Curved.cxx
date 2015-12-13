@@ -15,14 +15,14 @@
 // commercial license or contractual agreement.
 
 #include <TColgp_Array1OfPnt.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <GeomFill_Curved.hxx>
 
 #include <gp_Pnt.hxx>
 #include <gp_Vec.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <TColgp_HArray2OfPnt.hxx>
-#include <TColStd_HArray2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
 
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 

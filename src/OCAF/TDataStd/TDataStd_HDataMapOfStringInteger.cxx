@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TColStd_DataMapOfStringInteger.hxx>
+#include <Foundation/TColStd/TColStd_DataMapOfStringInteger.hxx>
 #include <TDataStd_HDataMapOfStringInteger.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDataStd_HDataMapOfStringInteger)

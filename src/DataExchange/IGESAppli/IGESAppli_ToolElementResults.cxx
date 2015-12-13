@@ -31,8 +31,8 @@
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <IGESAppli_ToolElementResults.hxx>
 #include <IGESData_ParamCursor.hxx>
-#include <TColStd_HArray1OfReal.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <IGESBasic_HArray1OfHArray1OfReal.hxx>
 #include <IGESBasic_HArray1OfHArray1OfInteger.hxx>
 #include <IGESAppli_FiniteElement.hxx>

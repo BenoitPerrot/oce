@@ -48,7 +48,7 @@
 #include <gp_Pln.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 
 // LES ATTRIBUTES
 #include <TDataStd.hxx>
@@ -70,8 +70,8 @@
 #include <TDF_Tool.hxx>
 
 #include <TDataStd_NamedData.hxx>
-#include <TColStd_DataMapOfStringInteger.hxx>
-#include <TColStd_DataMapIteratorOfDataMapOfStringInteger.hxx>
+#include <Foundation/TColStd/TColStd_DataMapOfStringInteger.hxx>
+#include <Foundation/TColStd/TColStd_DataMapIteratorOfDataMapOfStringInteger.hxx>
 #include <TDataStd_DataMapOfStringReal.hxx>
 #include <TDataStd_DataMapIteratorOfDataMapOfStringReal.hxx>
 #include <TDataStd_DataMapOfStringByte.hxx>
@@ -82,17 +82,17 @@
 #include <TDataStd_DataMapIteratorOfDataMapOfStringHArray1OfInteger.hxx>
 #include <TDataStd_DataMapOfStringHArray1OfReal.hxx>
 #include <TDataStd_DataMapIteratorOfDataMapOfStringHArray1OfReal.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <TDataStd_AsciiString.hxx>
 #include <TDataStd_IntPackedMap.hxx>
-#include <TColStd_HPackedMapOfInteger.hxx>
-#include <TColStd_PackedMapOfInteger.hxx>
-#include <TColStd_MapIteratorOfPackedMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HPackedMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_PackedMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_MapIteratorOfPackedMapOfInteger.hxx>
 #include <TDataStd_ByteArray.hxx>
 #include <TDataStd_ListIteratorOfListOfByte.hxx>
-#include <TColStd_ListIteratorOfListOfInteger.hxx>
-#include <TColStd_ListIteratorOfListOfReal.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfReal.hxx>
 #include <TDataStd_ReferenceArray.hxx>
 
 //=======================================================================

@@ -27,7 +27,7 @@
 
 #include <AppParCurves_MultiCurve.hxx>
 #include <AppParCurves_MultiPoint.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Pnt2d.hxx>
 #include <gp_Vec.hxx>

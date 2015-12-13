@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_RTTI(MoniTool_TransientElem)
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <TColStd_MapTransientHasher.hxx>
+#include <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #include <MoniTool_DataInfo.hxx>
 
 

@@ -3,11 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TColStd_SequenceNodeOfSequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_SequenceNodeOfSequenceOfReal.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <TColStd_SequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 
  
 
@@ -29,10 +29,10 @@ IMPLEMENT_STANDARD_RTTI(TColStd_SequenceNodeOfSequenceOfReal)
 #define SeqItem Standard_Real
 #define SeqItem_hxx <Foundation/Standard/Standard_Real.hxx>
 #define TCollection_SequenceNode TColStd_SequenceNodeOfSequenceOfReal
-#define TCollection_SequenceNode_hxx <TColStd_SequenceNodeOfSequenceOfReal.hxx>
+#define TCollection_SequenceNode_hxx <Foundation/TColStd/TColStd_SequenceNodeOfSequenceOfReal.hxx>
 #define Handle_TCollection_SequenceNode Handle_TColStd_SequenceNodeOfSequenceOfReal
 #define TCollection_SequenceNode_Type_() TColStd_SequenceNodeOfSequenceOfReal_Type_()
 #define TCollection_Sequence TColStd_SequenceOfReal
-#define TCollection_Sequence_hxx <TColStd_SequenceOfReal.hxx>
+#define TCollection_Sequence_hxx <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

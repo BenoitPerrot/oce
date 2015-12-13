@@ -19,7 +19,7 @@
 #include <StepData_EDescr.hxx>
 #include <StepData_ESDescr.hxx>
 #include <StepData_ECDescr.hxx>
-#include <TColStd_SequenceOfAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfAsciiString.hxx>
 #include <StepData_PDescr.hxx>
 #include <StepData_Protocol.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

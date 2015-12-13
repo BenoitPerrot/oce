@@ -17,7 +17,7 @@
 //--------------------------------------------------------------------
 
 #include <IGESDraw_HArray1OfViewKindEntity.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <IGESBasic_HArray1OfLineFontEntity.hxx>
 #include <IGESGraph_HArray1OfColor.hxx>
 #include <IGESData_HArray1OfIGESEntity.hxx>

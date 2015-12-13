@@ -61,7 +61,7 @@ private:
 #define TheKey2 TopoDS_Shape
 #define TheKey2_hxx <TopoDS_Shape.hxx>
 #define Hasher1 TColStd_MapIntegerHasher
-#define Hasher1_hxx <TColStd_MapIntegerHasher.hxx>
+#define Hasher1_hxx <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #define Hasher2 TopTools_ShapeMapHasher
 #define Hasher2_hxx <TopTools_ShapeMapHasher.hxx>
 #define TCollection_DoubleMapNode TopOpeBRepDS_DoubleMapNodeOfDoubleMapOfIntegerShape

@@ -11,7 +11,7 @@
 #include <Handle_MeshVS_DeformedDataSource.hxx>
 
 #include <Handle_MeshVS_DataSource.hxx>
-#include <TColStd_PackedMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_PackedMapOfInteger.hxx>
 #include <MeshVS_DataMapOfIntegerVector.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <MeshVS_DataSource.hxx>

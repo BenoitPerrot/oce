@@ -58,7 +58,7 @@ private:
 #define TheItem MDF_DriverListOfARDriverTable
 #define TheItem_hxx <MDF_DriverListOfARDriverTable.hxx>
 #define Hasher TColStd_MapTransientHasher
-#define Hasher_hxx <TColStd_MapTransientHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define TCollection_DataMapNode MDF_DataMapNodeOfTypeDriverListMapOfARDriverTable
 #define TCollection_DataMapNode_hxx <MDF_DataMapNodeOfTypeDriverListMapOfARDriverTable.hxx>
 #define TCollection_DataMapIterator MDF_DataMapIteratorOfTypeDriverListMapOfARDriverTable

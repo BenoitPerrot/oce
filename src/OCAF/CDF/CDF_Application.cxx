@@ -22,7 +22,7 @@
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <CDM_Document.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <TColStd_SequenceOfExtendedString.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfExtendedString.hxx>
 #include <PCDM_Reader.hxx>
 #include <CDM_MetaData.hxx>
 #include <CDF_Application.hxx>

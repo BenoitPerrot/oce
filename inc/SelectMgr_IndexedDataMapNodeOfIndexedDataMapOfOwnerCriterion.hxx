@@ -64,7 +64,7 @@ private:
 #define TheItem SelectMgr_SortCriterion
 #define TheItem_hxx <SelectMgr_SortCriterion.hxx>
 #define Hasher TColStd_MapTransientHasher
-#define Hasher_hxx <TColStd_MapTransientHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define TCollection_IndexedDataMapNode SelectMgr_IndexedDataMapNodeOfIndexedDataMapOfOwnerCriterion
 #define TCollection_IndexedDataMapNode_hxx <SelectMgr_IndexedDataMapNodeOfIndexedDataMapOfOwnerCriterion.hxx>
 #define Handle_TCollection_IndexedDataMapNode Handle_SelectMgr_IndexedDataMapNodeOfIndexedDataMapOfOwnerCriterion

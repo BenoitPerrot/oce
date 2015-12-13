@@ -14,7 +14,7 @@
 //pdn 11.01.99 modification for linking on NT
 //#73 rln 10.03.99 S4135: "read.scale.unit" does not affect GlobalSection
 //#13 smh 13.01.2000 : Parsing long year date
-#include <TColStd_HSequenceOfHAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfHAsciiString.hxx>
 #include <Interface_InterfaceError.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <IGESData_GlobalSection.hxx>

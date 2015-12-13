@@ -13,7 +13,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 
 inline Standard_Boolean GCPnts_UniformAbscissa::IsDone () const
 {

@@ -18,7 +18,7 @@
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <IGESGraph_TextFontDef.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <IGESBasic_HArray1OfHArray1OfInteger.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>

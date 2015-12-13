@@ -57,7 +57,7 @@ private:
 #define TheItem Handle(MAT2d_Connexion)
 #define TheItem_hxx <MAT2d_Connexion.hxx>
 #define Hasher TColStd_MapIntegerHasher
-#define Hasher_hxx <TColStd_MapIntegerHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #define TCollection_DataMapNode MAT2d_DataMapNodeOfDataMapOfIntegerConnexion
 #define TCollection_DataMapNode_hxx <MAT2d_DataMapNodeOfDataMapOfIntegerConnexion.hxx>
 #define TCollection_DataMapIterator MAT2d_DataMapIteratorOfDataMapOfIntegerConnexion

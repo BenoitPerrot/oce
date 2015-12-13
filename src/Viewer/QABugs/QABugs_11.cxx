@@ -71,7 +71,7 @@
 #include <TDataStd_RealArray.hxx>
 #include <TDF_CopyLabel.hxx>
 #include <Foundation/NCollection/NCollection_Vector.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Geom_BSplineCurve.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <AIS_ListOfInteractive.hxx>
@@ -367,7 +367,7 @@ static int OCC105(Draw_Interpretor& di, Standard_Integer argc, const char ** arg
 
 }
 
-#include <TColStd_SequenceOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfTransient.hxx>
 #include <GeomFill_Pipe.hxx>
 static int pipe_OCC9 (Draw_Interpretor& di,
 		      Standard_Integer n, const char ** a)
@@ -1691,7 +1691,7 @@ static Standard_Integer OCC708 (Draw_Interpretor& di, Standard_Integer argc, con
 //function :  OCC670
 //purpose  :
 //=======================================================================
-#include <TColStd_Array2OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array2OfInteger.hxx>
 static Standard_Integer OCC670 (Draw_Interpretor& di, Standard_Integer argc, const char ** argv)
 {
   if(argc != 1){
@@ -3268,10 +3268,10 @@ static Standard_Integer OCC15755 (Draw_Interpretor& di, Standard_Integer argc, c
 // For OCC16782 testing
 #include <AppStd_Application.hxx>
 #include <TDF_Tool.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 // Iterators
-#include <TColStd_ListIteratorOfListOfInteger.hxx>
-#include <TColStd_ListIteratorOfListOfReal.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfReal.hxx>
 #include <TDataStd_ListIteratorOfListOfExtendedString.hxx>
 #include <TDataStd_ListIteratorOfListOfByte.hxx>
 #include <TDF_ListIteratorOfLabelList.hxx>
@@ -4561,7 +4561,7 @@ static Standard_Integer OCC12584 (Draw_Interpretor& di, Standard_Integer argc, c
 #include <XSControl_WorkSession.hxx>
 #include <Transfer_TransientProcess.hxx>
 #include <XSDRAW_Commands.hxx>
-#include <TColStd_HSequenceOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <Foundation/Message/Message_ProgressSentry.hxx>
 #include <XSControl_TransferReader.hxx>
 

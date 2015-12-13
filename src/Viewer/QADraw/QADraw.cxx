@@ -22,9 +22,9 @@
 #include <V3d_View.hxx>
 #include <ViewerTest.hxx>
 #include <ViewerTest_EventManager.hxx>
-#include <TColStd_ListOfInteger.hxx>
-#include <TColStd_ListIteratorOfListOfInteger.hxx>
-#include <TColStd_HSequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
 #include <TopoDS_Shape.hxx>
 #include <AIS_InteractiveContext.hxx>
 #include <Aspect_Window.hxx>

@@ -30,7 +30,7 @@
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <IGESAppli_ToolLevelToPWBLayerMap.hxx>
 #include <IGESData_ParamCursor.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Interface_HArray1OfHAsciiString.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <IGESData_Dump.hxx>

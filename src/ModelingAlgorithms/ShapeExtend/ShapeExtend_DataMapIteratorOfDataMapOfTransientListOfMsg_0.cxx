@@ -8,7 +8,7 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/Message/Message_ListOfMsg.hxx>
-#include <TColStd_MapTransientHasher.hxx>
+#include <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #include <ShapeExtend_DataMapOfTransientListOfMsg.hxx>
 #include <ShapeExtend_DataMapNodeOfDataMapOfTransientListOfMsg.hxx>
  
@@ -18,7 +18,7 @@
 #define TheItem Message_ListOfMsg
 #define TheItem_hxx <Foundation/Message/Message_ListOfMsg.hxx>
 #define Hasher TColStd_MapTransientHasher
-#define Hasher_hxx <TColStd_MapTransientHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define TCollection_DataMapNode ShapeExtend_DataMapNodeOfDataMapOfTransientListOfMsg
 #define TCollection_DataMapNode_hxx <ShapeExtend_DataMapNodeOfDataMapOfTransientListOfMsg.hxx>
 #define TCollection_DataMapIterator ShapeExtend_DataMapIteratorOfDataMapOfTransientListOfMsg

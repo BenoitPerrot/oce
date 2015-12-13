@@ -23,7 +23,7 @@
 #include <RWStepFEA_RWFeaLinearElasticity.hxx>
 
 #include <StepFEA_SymmetricTensor43dMember.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 
 
 //=======================================================================

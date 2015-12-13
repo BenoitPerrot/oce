@@ -19,7 +19,7 @@
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Handle_Interface_GTool.hxx>
 #include <Interface_CheckIterator.hxx>
-#include <TColStd_IndexedDataMapOfTransientTransient.hxx>
+#include <Foundation/TColStd/TColStd_IndexedDataMapOfTransientTransient.hxx>
 #include <Handle_Dico_DictionaryOfTransient.hxx>
 #include <Handle_IFSelect_ModelCopier.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

@@ -21,7 +21,7 @@
 #include <StepData_StepModel.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <STEPConstruct_AP203Context.hxx>
-#include <TColStd_HSequenceOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <STEPConstruct_Part.hxx>
 #include <STEPConstruct_Assembly.hxx>
 #include <STEPConstruct_ContextTool.hxx>

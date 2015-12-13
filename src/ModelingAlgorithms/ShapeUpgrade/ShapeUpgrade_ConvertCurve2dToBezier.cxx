@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <TColGeom2d_HSequenceOfCurve.hxx>
-#include <TColStd_HSequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
 #include <ShapeUpgrade_ConvertCurve2dToBezier.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeUpgrade_ConvertCurve2dToBezier)
@@ -40,7 +40,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_ConvertCurve2dToBezier)
 #include <Geom2dConvert_ApproxCurve.hxx>
 #include <Geom2dConvert.hxx>
 #include <Geom2dConvert_BSplineCurveToBezierCurve.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <TColGeom2d_HArray1OfCurve.hxx>
 #include <GeomTools.hxx>
 #include <ShapeCustom_Curve2d.hxx>

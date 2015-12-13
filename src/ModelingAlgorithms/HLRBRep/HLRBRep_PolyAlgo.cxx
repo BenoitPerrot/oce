@@ -23,8 +23,8 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <TopoDS_Shape.hxx>
 #include <HLRAlgo_Projector.hxx>
-#include <TColStd_Array1OfTransient.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfTransient.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <TopTools_MapOfShape.hxx>
 #include <TopoDS_Edge.hxx>
 #include <HLRAlgo_ListOfBPoint.hxx>
@@ -42,8 +42,8 @@ IMPLEMENT_STANDARD_TYPE_END(HLRBRep_PolyAlgo)
 IMPLEMENT_DOWNCAST(HLRBRep_PolyAlgo,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(HLRBRep_PolyAlgo)
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
-#include <TColStd_HArray1OfTransient.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfTransient.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <CSLib.hxx>
 #include <CSLib_DerivativeStatus.hxx>
 #include <CSLib_NormalStatus.hxx>

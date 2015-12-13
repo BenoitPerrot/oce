@@ -49,7 +49,7 @@
 #include <Geom_OffsetSurface.hxx>
 #include <ShapeFix.hxx>
 #include <GeomAbs_Shape.hxx>
-#include <TColStd_Array2OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array2OfInteger.hxx>
 #include <Geom_TrimmedCurve.hxx>
 #include <Geom_OffsetCurve.hxx>
 #include <Geom2d_TrimmedCurve.hxx>
@@ -58,7 +58,7 @@
 #include <Geom2d_BSplineCurve.hxx>
 #include <Geom2d_BezierCurve.hxx>
 #include <Geom_Plane.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 
 static Standard_Integer ContToInteger( const GeomAbs_Shape Cont)
 {

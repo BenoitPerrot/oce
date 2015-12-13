@@ -55,7 +55,7 @@
 #include <TColgp_Array1OfPnt.hxx>
 #include <TColgp_HArray1OfPnt.hxx>
 #include <TColgp_Array1OfVec.hxx>
-#include <TColStd_HArray1OfBoolean.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfBoolean.hxx>
 #include <GProp_GProps.hxx>
 #include <BRepGProp.hxx>
 #include <Geom_Circle.hxx>

@@ -29,7 +29,7 @@
 
 #include <TDataStd_Name.hxx>
 
-#include <TColStd_MapIteratorOfMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_MapIteratorOfMapOfInteger.hxx>
 
 //=======================================================================
 //function : Create

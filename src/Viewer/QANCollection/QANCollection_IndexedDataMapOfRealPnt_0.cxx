@@ -9,7 +9,7 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <gp_Pnt.hxx>
-#include <TColStd_MapRealHasher.hxx>
+#include <Foundation/TColStd/TColStd_MapRealHasher.hxx>
 #include <QANCollection_IndexedDataMapNodeOfIndexedDataMapOfRealPnt.hxx>
  
 
@@ -18,7 +18,7 @@
 #define TheItem gp_Pnt
 #define TheItem_hxx <gp_Pnt.hxx>
 #define Hasher TColStd_MapRealHasher
-#define Hasher_hxx <TColStd_MapRealHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapRealHasher.hxx>
 #define TCollection_IndexedDataMapNode QANCollection_IndexedDataMapNodeOfIndexedDataMapOfRealPnt
 #define TCollection_IndexedDataMapNode_hxx <QANCollection_IndexedDataMapNodeOfIndexedDataMapOfRealPnt.hxx>
 #define Handle_TCollection_IndexedDataMapNode Handle_QANCollection_IndexedDataMapNodeOfIndexedDataMapOfRealPnt

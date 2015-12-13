@@ -16,12 +16,12 @@
 
 
 #include <GeomFill_HArray1OfLocationLaw.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <TopTools_HArray1OfShape.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <TopoDS_Wire.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <GeomFill_LocationLaw.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Vertex.hxx>
@@ -55,7 +55,7 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_LocationLaw)
 #include <GCPnts_AbscissaPoint.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>
 #include <TColgp_Array1OfVec2d.hxx>
-#include <TColStd_SequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <Precision.hxx>
 #include <BRepBuilderAPI_Transform.hxx>
 

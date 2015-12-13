@@ -24,8 +24,8 @@
 #include <PLib.hxx>
 #include <Precision.hxx>
 #include <TColgp_Array2OfVec.hxx>
-#include <TColStd_Array2OfReal.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <math_FunctionRoots.hxx>
 #include <CSLib_NormalPolyDef.hxx>
 

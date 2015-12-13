@@ -14,14 +14,14 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TColStd_HArray1OfReal.hxx>
-#include <TColStd_HArray2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
 #include <AdvApp2Var_Context.hxx>
 #include <AdvApp2Var_Node.hxx>
 #include <AdvApp2Var_Iso.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
-#include <TColStd_HArray2OfReal.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <gp_Pnt.hxx>
 #include <AdvApp2Var_ApproxF2var.hxx>
 

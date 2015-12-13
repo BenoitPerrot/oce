@@ -12,7 +12,7 @@
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <TColStd_SequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <TColgp_SequenceOfPnt.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

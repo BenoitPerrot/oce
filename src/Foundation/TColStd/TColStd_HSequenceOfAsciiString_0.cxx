@@ -3,14 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TColStd_HSequenceOfAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfAsciiString.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TColStd_SequenceOfAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfAsciiString.hxx>
 
  
 
@@ -31,9 +31,9 @@ IMPLEMENT_STANDARD_RTTI(TColStd_HSequenceOfAsciiString)
 #define Item TCollection_AsciiString
 #define Item_hxx <Foundation/TCollection/TCollection_AsciiString.hxx>
 #define TheSequence TColStd_SequenceOfAsciiString
-#define TheSequence_hxx <TColStd_SequenceOfAsciiString.hxx>
+#define TheSequence_hxx <Foundation/TColStd/TColStd_SequenceOfAsciiString.hxx>
 #define TCollection_HSequence TColStd_HSequenceOfAsciiString
-#define TCollection_HSequence_hxx <TColStd_HSequenceOfAsciiString.hxx>
+#define TCollection_HSequence_hxx <Foundation/TColStd/TColStd_HSequenceOfAsciiString.hxx>
 #define Handle_TCollection_HSequence Handle_TColStd_HSequenceOfAsciiString
 #define TCollection_HSequence_Type_() TColStd_HSequenceOfAsciiString_Type_()
 #include <Foundation/TCollection/TCollection_HSequence.gxx>

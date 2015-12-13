@@ -87,7 +87,7 @@
 #include <BRepExtrema_DistShapeShape.hxx>
 
 #include <Precision.hxx> 
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>

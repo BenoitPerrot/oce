@@ -30,7 +30,7 @@
 #include <Foundation/Standard/Standard_NullObject.hxx>
 #include <TopoDS_Iterator.hxx>
 #include <TopExp.hxx>
-#include <TColStd_ListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>
 #include <BRep_Tool.hxx>
 #include <TopoDS.hxx>

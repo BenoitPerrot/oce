@@ -44,12 +44,12 @@
 #include <BRepLib_MakeWire.hxx>
 #include <TopoDS_Iterator.hxx>
 #include <BRepTopAdaptor_FClass2d.hxx>
-#include <TColStd_SequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <BRepIntCurveSurface_Inter.hxx>
 #include <GeomAdaptor_Curve.hxx>
-#include <TColStd_SequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
-#include <TColStd_Array2OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array2OfInteger.hxx>
 #include <TopTools_Array2OfShape.hxx>
 #include <TopOpeBRepTool_TOOL.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>

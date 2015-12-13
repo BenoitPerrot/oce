@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <GeomInt.hxx>
-#include <TColStd_IndexedMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_IndexedMapOfInteger.hxx>
 
 //=======================================================================
 //function : AdjustPeriodic

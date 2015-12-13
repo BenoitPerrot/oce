@@ -127,7 +127,7 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_ActorRead)
 #include <StepShape_GeometricallyBoundedSurfaceShapeRepresentation.hxx>
 #include <StepShape_GeometricallyBoundedWireframeShapeRepresentation.hxx>
 
-#include <TColStd_HSequenceOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <Foundation/Message/Message_ProgressSentry.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <StepRepr_HSequenceOfRepresentationItem.hxx>

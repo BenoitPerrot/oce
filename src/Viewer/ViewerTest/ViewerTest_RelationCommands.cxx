@@ -56,7 +56,7 @@
 #include <StdSelect.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <TColStd_MapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_MapOfInteger.hxx>
 #include <TopAbs.hxx>
 #include <TopAbs_ShapeEnum.hxx>
 #include <TopExp.hxx>

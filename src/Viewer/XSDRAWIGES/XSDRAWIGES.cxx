@@ -36,7 +36,7 @@
 #include <stdio.h>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TColStd_HSequenceOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 
 #include <TopoDS.hxx>
 #include <TopoDS_Shape.hxx>
@@ -73,9 +73,9 @@
 #include <IFSelect_SessionPilot.hxx>
 #include <XSControl.hxx>
 #include <Transfer_IteratorOfProcessForTransient.hxx>
-#include <TColStd_MapOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_MapOfTransient.hxx>
 #include <IFSelect_Functions.hxx>
-#include <TColStd_MapIteratorOfMapOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_MapIteratorOfMapOfTransient.hxx>
 #include <IGESControl_Reader.hxx>
 #include <Interface_InterfaceModel.hxx>
 #include <Draw_ProgressIndicator.hxx>

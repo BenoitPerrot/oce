@@ -17,7 +17,7 @@
 #include <NIS_View.hxx>
 #include <NIS_InteractiveContext.hxx>
 #include <NIS_InteractiveObject.hxx>
-#include <TColStd_MapIteratorOfPackedMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_MapIteratorOfPackedMapOfInteger.hxx>
 #include <Foundation/Standard/Standard_TypeMismatch.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 

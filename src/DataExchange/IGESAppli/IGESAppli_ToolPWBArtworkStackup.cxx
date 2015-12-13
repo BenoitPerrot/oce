@@ -31,7 +31,7 @@
 #include <IGESAppli_ToolPWBArtworkStackup.hxx>
 #include <IGESData_ParamCursor.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <IGESData_Dump.hxx>
 #include <Interface_Macros.hxx>
 

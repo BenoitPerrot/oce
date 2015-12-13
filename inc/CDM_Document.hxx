@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_CDM_Document.hxx>
 
-#include <TColStd_SequenceOfExtendedString.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfExtendedString.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <CDM_ListOfReferences.hxx>

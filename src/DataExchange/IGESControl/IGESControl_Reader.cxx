@@ -43,7 +43,7 @@
 #include <Foundation/Dico/Dico_IteratorOfDictionaryOfTransient.hxx>
 #include <Interface_Macros.hxx>
 #include <IGESData_IGESEntity.hxx>
-#include <TColStd_HSequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfInteger.hxx>
 #include <Foundation/OSD/OSD_Timer.hxx>
 #include <Transfer_TransferOutput.hxx>
 #include <ShapeExtend_Explorer.hxx>

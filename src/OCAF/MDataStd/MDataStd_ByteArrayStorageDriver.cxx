@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_RTTI(MDataStd_ByteArrayStorageDriver)
 #include <TDataStd_ByteArray.hxx>
 #include <MDataStd.hxx>
 #include <CDM_MessageDriver.hxx>
-#include <TColStd_HArray1OfByte.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfByte.hxx>
 #include <PColStd_HArray1OfInteger.hxx>
 
 //=======================================================================

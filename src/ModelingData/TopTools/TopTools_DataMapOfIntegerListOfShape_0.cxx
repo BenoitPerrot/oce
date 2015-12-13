@@ -8,7 +8,7 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopTools_ListOfShape.hxx>
-#include <TColStd_MapIntegerHasher.hxx>
+#include <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #include <TopTools_DataMapNodeOfDataMapOfIntegerListOfShape.hxx>
 #include <TopTools_DataMapIteratorOfDataMapOfIntegerListOfShape.hxx>
  
@@ -18,7 +18,7 @@
 #define TheItem TopTools_ListOfShape
 #define TheItem_hxx <TopTools_ListOfShape.hxx>
 #define Hasher TColStd_MapIntegerHasher
-#define Hasher_hxx <TColStd_MapIntegerHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #define TCollection_DataMapNode TopTools_DataMapNodeOfDataMapOfIntegerListOfShape
 #define TCollection_DataMapNode_hxx <TopTools_DataMapNodeOfDataMapOfIntegerListOfShape.hxx>
 #define TCollection_DataMapIterator TopTools_DataMapIteratorOfDataMapOfIntegerListOfShape

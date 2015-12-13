@@ -14,25 +14,25 @@
 #include <Foundation/Standard/Standard_TypeMismatch.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
-#include <TColStd_HSequenceOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/TCollection/TCollection_HExtendedString.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <TColStd_HSequenceOfHAsciiString.hxx>
-#include <TColStd_HSequenceOfHExtendedString.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfHAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfHExtendedString.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopTools_HSequenceOfShape.hxx>
-#include <TColStd_HSequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfInteger.hxx>
 #include <XSControl_Utils.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <Foundation/Message/Message.hxx>
 #include <Interface_Macros.hxx>
 #include <Interface_MSG.hxx>
 
-#include <TColStd_HSequenceOfAsciiString.hxx>
-#include <TColStd_HSequenceOfExtendedString.hxx>
-#include <TColStd_HArray1OfTransient.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfExtendedString.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfTransient.hxx>
 #include <Interface_HArray1OfHAsciiString.hxx>
 
 #include <TransferBRep.hxx>

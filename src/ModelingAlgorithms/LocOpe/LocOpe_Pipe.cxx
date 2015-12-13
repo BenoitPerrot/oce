@@ -41,8 +41,8 @@
 #include <TopoDS_Face.hxx>
 #include <TopoDS_Edge.hxx>
 
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 
 #include <Geom_Surface.hxx>

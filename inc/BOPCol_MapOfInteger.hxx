@@ -15,7 +15,7 @@
 #ifndef BOPCol_MapOfInteger_HeaderFile
 #define BOPCol_MapOfInteger_HeaderFile
 
-#include <TColStd_MapIntegerHasher.hxx>
+#include <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #include <Foundation/NCollection/NCollection_Map.hxx>   
 
 typedef NCollection_Map<Standard_Integer, TColStd_MapIntegerHasher> BOPCol_MapOfInteger; 

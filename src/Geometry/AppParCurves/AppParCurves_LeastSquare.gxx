@@ -35,13 +35,13 @@
 #include <TColgp_Array1OfPnt2d.hxx>
 #include <TColgp_Array1OfVec.hxx>
 #include <TColgp_Array1OfVec2d.hxx>
-#include <TColStd_Array1OfInteger.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <AppParCurves_Constraint.hxx>
 #include <AppParCurves_MultiPoint.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <math_Recipes.hxx>
 #include <math_Crout.hxx>
 

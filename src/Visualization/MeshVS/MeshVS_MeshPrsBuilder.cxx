@@ -16,7 +16,7 @@
 #include <MeshVS_Mesh.hxx>
 #include <MeshVS_DataSource.hxx>
 #include <Prs3d_Presentation.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Graphic3d_ArrayOfSegments.hxx>
 #include <Graphic3d_ArrayOfTriangles.hxx>
 #include <MeshVS_HArray1OfSequenceOfInteger.hxx>
@@ -50,15 +50,15 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_MeshPrsBuilder)
 #include <Graphic3d_ArrayOfPolylines.hxx>
 #include <Graphic3d_Group.hxx>
 
-#include <TColStd_MapIteratorOfPackedMapOfInteger.hxx>
-#include <TColStd_ListIteratorOfListOfReal.hxx>
-#include <TColStd_MapIntegerHasher.hxx>
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_Array1OfInteger.hxx>
-#include <TColStd_SequenceOfInteger.hxx>
-#include <TColStd_PackedMapOfInteger.hxx>
-#include <TColStd_HPackedMapOfInteger.hxx>
-#include <TColStd_MapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_MapIteratorOfPackedMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfReal.hxx>
+#include <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_PackedMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HPackedMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_MapOfInteger.hxx>
 
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Aspect_InteriorStyle.hxx>

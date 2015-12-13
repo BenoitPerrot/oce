@@ -17,7 +17,7 @@
 #include <MAT2d_DataMapOfIntegerBisec.hxx>
 #include <MAT2d_DataMapOfIntegerPnt2d.hxx>
 #include <MAT2d_DataMapOfIntegerVec2d.hxx>
-#include <TColStd_SequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <MAT_Side.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_MAT_Bisector.hxx>

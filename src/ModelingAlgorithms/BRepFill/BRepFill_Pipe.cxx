@@ -53,8 +53,8 @@
 #include <TopoDS_Compound.hxx>
 #include <TopoDS_Iterator.hxx>
 #include <TopTools_DataMapOfShapeInteger.hxx>
-#include <TColStd_DataMapOfIntegerInteger.hxx>
-#include <TColStd_DataMapIteratorOfDataMapOfIntegerInteger.hxx>
+#include <Foundation/TColStd/TColStd_DataMapOfIntegerInteger.hxx>
+#include <Foundation/TColStd/TColStd_DataMapIteratorOfDataMapOfIntegerInteger.hxx>
 
 #include <Precision.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>

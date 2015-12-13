@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <Interface_IntVal.hxx>
-#include <TColStd_HSequenceOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <Foundation/Standard/Standard_NoMoreObject.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>

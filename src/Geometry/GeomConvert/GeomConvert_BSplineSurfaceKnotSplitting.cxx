@@ -16,11 +16,11 @@
 //Passage sur C1 Aout 1992
 
 
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/Standard/Standard_DimensionError.hxx>
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Geom_BSplineSurface.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <GeomConvert_BSplineSurfaceKnotSplitting.hxx>
 
 #include <Foundation/Standard/Standard_RangeError.hxx>

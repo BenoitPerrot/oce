@@ -16,7 +16,7 @@
 #ifndef _BRepBuilderAPI_BndBoxTreeSelector_Header
 #define _BRepBuilderAPI_BndBoxTreeSelector_Header
 
-#include <TColStd_ListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <Bnd_Box.hxx>
 #include <Foundation/NCollection/NCollection_UBTree.hxx>
 

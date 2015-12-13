@@ -95,8 +95,8 @@
 #include <TColgp_HArray1OfXYZ.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <BSplCLib.hxx>
 #include <GeomConvert_ApproxCurve.hxx>
 

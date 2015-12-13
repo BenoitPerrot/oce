@@ -8,7 +8,7 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TDF_Attribute.hxx>
-#include <TColStd_MapTransientHasher.hxx>
+#include <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #include <TDF_DataMapNodeOfAttributeDataMap.hxx>
 #include <TDF_DataMapIteratorOfAttributeDataMap.hxx>
  
@@ -18,7 +18,7 @@
 #define TheItem Handle(TDF_Attribute)
 #define TheItem_hxx <TDF_Attribute.hxx>
 #define Hasher TColStd_MapTransientHasher
-#define Hasher_hxx <TColStd_MapTransientHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define TCollection_DataMapNode TDF_DataMapNodeOfAttributeDataMap
 #define TCollection_DataMapNode_hxx <TDF_DataMapNodeOfAttributeDataMap.hxx>
 #define TCollection_DataMapIterator TDF_DataMapIteratorOfAttributeDataMap

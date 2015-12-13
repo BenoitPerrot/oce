@@ -14,8 +14,8 @@
 #include <TopoDS_Face.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Handle_BRepAdaptor_HCurve2d.hxx>
-#include <TColStd_ListOfTransient.hxx>
-#include <TColStd_ListIteratorOfListOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_ListOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfTransient.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Adaptor3d_TopolTool.hxx>
 #include <Handle_Adaptor3d_HSurface.hxx>

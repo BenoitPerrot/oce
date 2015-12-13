@@ -17,7 +17,7 @@
 #define DEBUG 0
 
 
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <IntSurf_LineOn2S.hxx>
 #include <gp_Pnt2d.hxx>
 #include <gp_Pnt.hxx>

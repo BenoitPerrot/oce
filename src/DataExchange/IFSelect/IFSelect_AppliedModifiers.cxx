@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <IFSelect_GeneralModifier.hxx>
-#include <TColStd_HSequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfInteger.hxx>
 #include <IFSelect_AppliedModifiers.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IFSelect_AppliedModifiers)

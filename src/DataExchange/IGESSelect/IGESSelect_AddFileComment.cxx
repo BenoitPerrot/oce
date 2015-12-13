@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TColStd_HSequenceOfHAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfHAsciiString.hxx>
 #include <IFSelect_ContextWrite.hxx>
 #include <IGESData_IGESWriter.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>

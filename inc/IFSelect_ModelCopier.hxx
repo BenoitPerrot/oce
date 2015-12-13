@@ -11,7 +11,7 @@
 #include <Handle_IFSelect_ModelCopier.hxx>
 
 #include <IFSelect_SequenceOfInterfaceModel.hxx>
-#include <TColStd_SequenceOfAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfAsciiString.hxx>
 #include <IFSelect_SequenceOfAppliedModifiers.hxx>
 #include <Handle_IFSelect_ShareOut.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>

@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_TYPE_END(BinMDataStd_ExtStringListDriver)
 IMPLEMENT_DOWNCAST(BinMDataStd_ExtStringListDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinMDataStd_ExtStringListDriver)
 #include <TDataStd_ExtStringList.hxx>
-#include <TColStd_Array1OfExtendedString.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfExtendedString.hxx>
 #include <TDataStd_ListIteratorOfListOfExtendedString.hxx>
 
 //=======================================================================

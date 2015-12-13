@@ -16,7 +16,7 @@
 
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TColStd_HSequenceOfHAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfHAsciiString.hxx>
 #include <Units_Quantity.hxx>
 #include <Units_ShiftedToken.hxx>
 #include <Units_ShiftedUnit.hxx>

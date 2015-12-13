@@ -36,7 +36,7 @@
 #include <BRepBndLib.hxx>
 #include <Bnd_Box.hxx>
 #include <math.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Geom_Surface.hxx>
 #include <CSLib_DerivativeStatus.hxx>
 #include <CSLib_NormalStatus.hxx>

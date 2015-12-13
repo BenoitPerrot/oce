@@ -16,7 +16,7 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Adaptor3d_HSurface.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <IntSurf_PntOn2S.hxx>
 #include <gp_Dir.hxx>
 #include <gp_Pnt.hxx>
@@ -25,7 +25,7 @@
 #include <IntWalk_StatusDeflection.hxx>
 
 #include <TColgp_Array1OfPnt.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 
 #include <IntImp_ComputeTangence.hxx>
 

@@ -47,7 +47,7 @@
 #include <TopoDS_Face.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TopOpeBRepBuild_Builder.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <TopOpeBRepDS_CurveExplorer.hxx>
 #include <TopOpeBRepDS_Curve.hxx>
 #include <TopoDS.hxx>

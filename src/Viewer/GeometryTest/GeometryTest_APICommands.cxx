@@ -36,7 +36,7 @@
 #include <Draw_MarkerShape.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <TColgp_Array2OfPnt.hxx>
-#include <TColStd_Array2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <Precision.hxx>
 #include <stdio.h>
 #ifdef WNT

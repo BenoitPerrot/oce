@@ -46,7 +46,7 @@
 #include <Foundation/Quantity/Quantity_Date.hxx>
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <TColStd_SequenceOfAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfAsciiString.hxx>
 #include <Interface_HArray1OfHAsciiString.hxx>
 
 #include <StepBasic_CalendarDate.hxx>

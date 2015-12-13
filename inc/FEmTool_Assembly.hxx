@@ -10,13 +10,13 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <TColStd_Array2OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array2OfInteger.hxx>
 #include <Handle_FEmTool_HAssemblyTable.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_FEmTool_ProfileMatrix.hxx>
 #include <math_Vector.hxx>
 #include <FEmTool_SeqOfLinConstr.hxx>
-#include <TColStd_SequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class FEmTool_HAssemblyTable;

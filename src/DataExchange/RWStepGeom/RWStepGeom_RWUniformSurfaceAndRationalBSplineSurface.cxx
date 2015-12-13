@@ -23,7 +23,7 @@
 #include <StepGeom_CartesianPoint.hxx>
 #include <StepGeom_BSplineSurfaceForm.hxx>
 #include <StepData_Logical.hxx>
-#include <TColStd_HArray2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
 
 
 #include <Interface_EntityIterator.hxx>

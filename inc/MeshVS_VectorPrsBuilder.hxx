@@ -20,7 +20,7 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <MeshVS_BuilderPriority.hxx>
 #include <Handle_Prs3d_Presentation.hxx>
-#include <TColStd_PackedMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_PackedMapOfInteger.hxx>
 #include <Handle_Graphic3d_ArrayOfPrimitives.hxx>
 class MeshVS_Mesh;
 class Quantity_Color;

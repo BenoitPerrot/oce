@@ -13,10 +13,10 @@
 
 #include <XSControl_WorkSession.hxx>
 #include <StepData_StepModel.hxx>
-#include <TColStd_SequenceOfAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfAsciiString.hxx>
 #include <StepRepr_RepresentationContext.hxx>
-#include <TColStd_Array1OfAsciiString.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <STEPControl_Reader.hxx>
 #include <STEPControl_Controller.hxx>
 #include <XSControl_Controller.hxx>
@@ -45,8 +45,8 @@
 #include <StepRepr_RepresentationMap.hxx>
 #include <StepRepr_MappedItem.hxx>
 #include <Transfer_TransientProcess.hxx>
-#include <TColStd_HSequenceOfTransient.hxx>
-#include <TColStd_MapOfAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_MapOfAsciiString.hxx>
 #include <StepBasic_SiUnitName.hxx>
 #include <StepBasic_SiPrefix.hxx>
 #include <StepRepr_GlobalUnitAssignedContext.hxx>
@@ -70,10 +70,10 @@
 #include <StepBasic_SiUnitAndSolidAngleUnit.hxx>
 #include <XSControl_WorkSession.hxx>
 #include <StepData_StepModel.hxx>
-#include <TColStd_SequenceOfAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfAsciiString.hxx>
 #include <StepRepr_RepresentationContext.hxx>
-#include <TColStd_Array1OfAsciiString.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
   
 //=======================================================================
 //function : STEPControl_Reader

@@ -30,11 +30,11 @@ IMPLEMENT_STANDARD_RTTI(SelectMgr_SelectionManager)
 #include <SelectMgr_ViewerSelector.hxx>
 #include <SelectMgr_Selection.hxx>
 #include <SelectMgr_SequenceOfSelector.hxx>
-#include <TColStd_MapIteratorOfMapOfTransient.hxx>
-#include <TColStd_MapIteratorOfMapOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_MapIteratorOfMapOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_MapIteratorOfMapOfTransient.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TColStd_ListOfInteger.hxx>
-#include <TColStd_ListIteratorOfListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 #include <SelectMgr_DataMapIteratorOfDataMapOfObjectSelectors.hxx>
 #include <Foundation/OSD/OSD_Environment.hxx>
 

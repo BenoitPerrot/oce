@@ -15,7 +15,7 @@
 
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <TDF_Label.hxx>
-#include <TColStd_ListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <TDF_Attribute.hxx>
 #include <TDF_RelocationTable.hxx>
 #include <TDataStd_IntegerList.hxx>
@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(TDataStd_IntegerList)
 IMPLEMENT_DOWNCAST(TDataStd_IntegerList,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TDataStd_IntegerList)
-#include <TColStd_ListIteratorOfListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 
 //=======================================================================
 //function : GetID

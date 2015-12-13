@@ -15,7 +15,7 @@
 #include <IFSelect_Selection.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Interface_InterfaceModel.hxx>
-#include <TColStd_HSequenceOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <Interface_Graph.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <IFSelect_SignCounter.hxx>

@@ -8,7 +8,7 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <XmlMDF_ADriver.hxx>
-#include <TColStd_MapTransientHasher.hxx>
+#include <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #include <XmlMDF_TypeADriverMap.hxx>
 #include <XmlMDF_DataMapNodeOfTypeADriverMap.hxx>
  
@@ -18,7 +18,7 @@
 #define TheItem Handle(XmlMDF_ADriver)
 #define TheItem_hxx <XmlMDF_ADriver.hxx>
 #define Hasher TColStd_MapTransientHasher
-#define Hasher_hxx <TColStd_MapTransientHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define TCollection_DataMapNode XmlMDF_DataMapNodeOfTypeADriverMap
 #define TCollection_DataMapNode_hxx <XmlMDF_DataMapNodeOfTypeADriverMap.hxx>
 #define TCollection_DataMapIterator XmlMDF_DataMapIteratorOfTypeADriverMap

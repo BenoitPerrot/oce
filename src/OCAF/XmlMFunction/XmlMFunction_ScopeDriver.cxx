@@ -31,8 +31,8 @@ IMPLEMENT_STANDARD_RTTI(XmlMFunction_ScopeDriver)
 #include <XmlObjMgt_Document.hxx>
 #include <LDOM_MemManager.hxx>
 
-#include <TColStd_ListOfInteger.hxx>
-#include <TColStd_ListIteratorOfListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 
 #include <TDF_Tool.hxx>
 #include <TDF_Label.hxx>

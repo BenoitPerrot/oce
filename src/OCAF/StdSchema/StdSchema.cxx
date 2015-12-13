@@ -5,7 +5,7 @@
 #include <Foundation/Storage/Storage_StreamUnknownTypeError.hxx>
 #endif
 #ifndef _TColStd_SequenceOfAsciiString_HeaderFile
-#include <TColStd_SequenceOfAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfAsciiString.hxx>
 #endif
 #ifndef _StdSchema_PDataXtd_Position_HeaderFile
 #include <StdSchema_PDataXtd_Position.hxx>

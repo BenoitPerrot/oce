@@ -19,9 +19,9 @@
 #include <TopTools_ListOfShape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <TopoDS_Wire.hxx>
-#include <TColStd_ListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <TopTools_DataMapOfShapeShape.hxx>
-#include <TColStd_PackedMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_PackedMapOfInteger.hxx>
 #include <BRepAlgo_CheckStatus.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <TopOpeBRepDS_Kind.hxx>

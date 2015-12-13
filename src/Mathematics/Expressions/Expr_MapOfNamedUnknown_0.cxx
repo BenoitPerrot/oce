@@ -8,14 +8,14 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Expr_NamedUnknown.hxx>
-#include <TColStd_MapTransientHasher.hxx>
+#include <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #include <Expr_IndexedMapNodeOfMapOfNamedUnknown.hxx>
  
 
 #define TheKey Handle(Expr_NamedUnknown)
 #define TheKey_hxx <Expr_NamedUnknown.hxx>
 #define Hasher TColStd_MapTransientHasher
-#define Hasher_hxx <TColStd_MapTransientHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define TCollection_IndexedMapNode Expr_IndexedMapNodeOfMapOfNamedUnknown
 #define TCollection_IndexedMapNode_hxx <Expr_IndexedMapNodeOfMapOfNamedUnknown.hxx>
 #define Handle_TCollection_IndexedMapNode Handle_Expr_IndexedMapNodeOfMapOfNamedUnknown

@@ -17,8 +17,8 @@
 #include <Bnd_Box2d.hxx>
 #include <Bnd_HArray1OfBox2d.hxx>
 #include <SelectBasics_SortAlgo.hxx>
-#include <TColStd_ListIteratorOfListOfInteger.hxx>
-#include <TColStd_MapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_MapOfInteger.hxx>
 #include <gp_Pnt2d.hxx>
 
 //=======================================================================

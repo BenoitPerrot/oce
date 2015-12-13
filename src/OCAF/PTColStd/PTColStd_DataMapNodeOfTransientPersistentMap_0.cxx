@@ -9,7 +9,7 @@
 
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_Persistent.hxx>
-#include <TColStd_MapTransientHasher.hxx>
+#include <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #include <PTColStd_TransientPersistentMap.hxx>
 #include <PTColStd_DataMapIteratorOfTransientPersistentMap.hxx>
 
@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_RTTI(PTColStd_DataMapNodeOfTransientPersistentMap)
 #define TheItem Handle(Standard_Persistent)
 #define TheItem_hxx <Foundation/Standard/Standard_Persistent.hxx>
 #define Hasher TColStd_MapTransientHasher
-#define Hasher_hxx <TColStd_MapTransientHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define TCollection_DataMapNode PTColStd_DataMapNodeOfTransientPersistentMap
 #define TCollection_DataMapNode_hxx <PTColStd_DataMapNodeOfTransientPersistentMap.hxx>
 #define TCollection_DataMapIterator PTColStd_DataMapIteratorOfTransientPersistentMap

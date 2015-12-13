@@ -57,7 +57,7 @@ private:
 #define TheItem TopOpeBRepDS_SurfaceData
 #define TheItem_hxx <TopOpeBRepDS_SurfaceData.hxx>
 #define Hasher TColStd_MapIntegerHasher
-#define Hasher_hxx <TColStd_MapIntegerHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #define TCollection_DataMapNode TopOpeBRepDS_DataMapNodeOfMapOfSurface
 #define TCollection_DataMapNode_hxx <TopOpeBRepDS_DataMapNodeOfMapOfSurface.hxx>
 #define TCollection_DataMapIterator TopOpeBRepDS_DataMapIteratorOfMapOfSurface

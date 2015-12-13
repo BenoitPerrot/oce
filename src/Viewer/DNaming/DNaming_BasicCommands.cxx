@@ -52,7 +52,7 @@
 #include <gp_Ax3.hxx>
 #include <gp_Trsf.hxx>
 
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 //#ifdef WNT
 #include <stdio.h>
 //#endif

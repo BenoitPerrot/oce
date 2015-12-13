@@ -48,7 +48,7 @@
 #include <TDF_Label.hxx>
 #include <TDF_Tool.hxx>
 
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 
 #include <PTColStd_DataMapIteratorOfPersistentTransientMap.hxx>
 #include <PTColStd_DataMapIteratorOfTransientPersistentMap.hxx>

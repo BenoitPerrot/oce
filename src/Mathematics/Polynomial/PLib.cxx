@@ -18,8 +18,8 @@
 // Modified: 18/06/1996 by PMN :  NULL reference.
 // Modified: 19/02/1997 by JCT :  EvalPoly2Var added
 
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_Array2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>
 #include <math_Matrix.hxx>

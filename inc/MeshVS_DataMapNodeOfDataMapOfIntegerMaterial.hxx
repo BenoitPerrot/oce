@@ -57,7 +57,7 @@ private:
 #define TheItem Graphic3d_MaterialAspect
 #define TheItem_hxx <Graphic3d_MaterialAspect.hxx>
 #define Hasher TColStd_MapIntegerHasher
-#define Hasher_hxx <TColStd_MapIntegerHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #define TCollection_DataMapNode MeshVS_DataMapNodeOfDataMapOfIntegerMaterial
 #define TCollection_DataMapNode_hxx <MeshVS_DataMapNodeOfDataMapOfIntegerMaterial.hxx>
 #define TCollection_DataMapIterator MeshVS_DataMapIteratorOfDataMapOfIntegerMaterial

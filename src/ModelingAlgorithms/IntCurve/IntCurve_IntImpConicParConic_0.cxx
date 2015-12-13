@@ -13,7 +13,7 @@
 #include <IntCurve_MyImpParToolOfIntImpConicParConic.hxx>
 #include <IntRes2d_Domain.hxx>
 #include <gp_Pnt2d.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
  
 
 #define ImpTool IntCurve_IConicTool

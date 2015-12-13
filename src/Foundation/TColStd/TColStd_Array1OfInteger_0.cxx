@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
@@ -14,6 +14,6 @@
 #define Array1Item Standard_Integer
 #define Array1Item_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TCollection_Array1 TColStd_Array1OfInteger
-#define TCollection_Array1_hxx <TColStd_Array1OfInteger.hxx>
+#define TCollection_Array1_hxx <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/TCollection/TCollection_Array1.gxx>
 

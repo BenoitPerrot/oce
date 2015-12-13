@@ -17,7 +17,7 @@
 #include <Handle_Dico_DictionaryOfTransient.hxx>
 #include <Handle_Transfer_ActorOfTransientProcess.hxx>
 #include <Handle_Transfer_TransientProcess.hxx>
-#include <TColStd_DataMapOfIntegerTransient.hxx>
+#include <Foundation/TColStd/TColStd_DataMapOfIntegerTransient.hxx>
 #include <Handle_TopTools_HSequenceOfShape.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>

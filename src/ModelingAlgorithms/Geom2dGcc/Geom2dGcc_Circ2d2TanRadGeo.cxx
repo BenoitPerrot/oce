@@ -30,7 +30,7 @@
 #include <Foundation/Standard/Standard_NegativeValue.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <GccEnt_BadQualifier.hxx>
 #include <IntRes2d_Domain.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>

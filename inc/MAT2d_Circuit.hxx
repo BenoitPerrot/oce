@@ -14,7 +14,7 @@
 #include <TColGeom2d_SequenceOfGeometry.hxx>
 #include <MAT2d_DataMapOfIntegerConnexion.hxx>
 #include <MAT2d_DataMapOfBiIntSequenceOfInteger.hxx>
-#include <TColStd_SequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <GeomAbs_JoinType.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

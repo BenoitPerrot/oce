@@ -24,7 +24,7 @@
 #include <AIS_Shape.hxx>
 #include <TopoDS_Shape.hxx>
 
-#include <TColStd_Array2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <V3d_View.hxx>
 #include <Visual3d_View.hxx>
 

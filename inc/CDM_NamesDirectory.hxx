@@ -6,7 +6,7 @@
 #ifndef _CDM_NamesDirectory_HeaderFile
 #define _CDM_NamesDirectory_HeaderFile
 
-#include <TColStd_DataMapOfStringInteger.hxx>
+#include <Foundation/TColStd/TColStd_DataMapOfStringInteger.hxx>
 
 typedef TColStd_DataMapOfStringInteger CDM_NamesDirectory;
 

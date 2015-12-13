@@ -95,8 +95,8 @@
 
 #include <TColgp_Array1OfPnt.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>
-//#include <TColStd_Array1OfInteger.hxx>
-//#include <TColStd_Array1OfReal.hxx>
+//#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
+//#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 
 #include <TopAbs.hxx>
 #include <TopLoc_Location.hxx>
@@ -114,7 +114,7 @@
 
 #include <TColGeom_HSequenceOfBoundedCurve.hxx>
 #include <TColGeom2d_HSequenceOfBoundedCurve.hxx>
-//#include <TColStd_HSequenceOfTransient.hxx>
+//#include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <ShapeBuild_Edge.hxx>
 #include <IGESToBRep_IGESBoundary.hxx>
 #include <Foundation/Message/Message_Msg.hxx>

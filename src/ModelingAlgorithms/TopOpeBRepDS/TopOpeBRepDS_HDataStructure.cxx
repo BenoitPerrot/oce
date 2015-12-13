@@ -555,8 +555,8 @@ Standard_Boolean TopOpeBRepDS_HDataStructure::EdgesSameParameter() const
   return Standard_True;
 }
 
-#include <TColStd_HArray1OfBoolean.hxx>
-#include <TColStd_Array1OfBoolean.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfBoolean.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>
 
 Standard_EXPORT void FUN_TopOpeBRepDS_SortOnParameter
 (const TopOpeBRepDS_ListOfInterference& List,

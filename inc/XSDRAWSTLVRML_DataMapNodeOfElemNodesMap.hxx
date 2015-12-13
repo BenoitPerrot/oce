@@ -11,7 +11,7 @@
 #include <Handle_XSDRAWSTLVRML_DataMapNodeOfElemNodesMap.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <TColStd_DataMapOfIntegerInteger.hxx>
+#include <Foundation/TColStd/TColStd_DataMapOfIntegerInteger.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class TColStd_DataMapOfIntegerInteger;
@@ -55,9 +55,9 @@ private:
 #define TheKey Standard_Integer
 #define TheKey_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheItem TColStd_DataMapOfIntegerInteger
-#define TheItem_hxx <TColStd_DataMapOfIntegerInteger.hxx>
+#define TheItem_hxx <Foundation/TColStd/TColStd_DataMapOfIntegerInteger.hxx>
 #define Hasher TColStd_MapIntegerHasher
-#define Hasher_hxx <TColStd_MapIntegerHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #define TCollection_DataMapNode XSDRAWSTLVRML_DataMapNodeOfElemNodesMap
 #define TCollection_DataMapNode_hxx <XSDRAWSTLVRML_DataMapNodeOfElemNodesMap.hxx>
 #define TCollection_DataMapIterator XSDRAWSTLVRML_DataMapIteratorOfElemNodesMap

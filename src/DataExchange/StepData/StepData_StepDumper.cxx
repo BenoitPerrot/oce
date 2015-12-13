@@ -19,10 +19,10 @@
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <StepData_StepDumper.hxx>
 #include <StepData_ReadWriteModule.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Interface_GeneralModule.hxx>
 #include <Interface_EntityIterator.hxx>
-#include <TColStd_SequenceOfAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfAsciiString.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <Foundation/Message/Message.hxx>
 #include <stdio.h>

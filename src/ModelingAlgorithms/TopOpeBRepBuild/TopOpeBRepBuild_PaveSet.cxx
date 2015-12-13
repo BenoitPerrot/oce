@@ -74,8 +74,8 @@ void  TopOpeBRepBuild_PaveSet::Append
 }
 
 
-#include <TColStd_HArray1OfBoolean.hxx>
-#include <TColStd_Array1OfBoolean.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfBoolean.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>
 
 //=======================================================================
 //function : SortPave

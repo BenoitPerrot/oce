@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESToBRep_IGESBoundary)
 IMPLEMENT_DOWNCAST(IGESToBRep_IGESBoundary,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESToBRep_IGESBoundary)
-#include <TColStd_HSequenceOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <Geom2d_Curve.hxx>
 #include <Geom_Curve.hxx>
 #include <Geom_Plane.hxx>

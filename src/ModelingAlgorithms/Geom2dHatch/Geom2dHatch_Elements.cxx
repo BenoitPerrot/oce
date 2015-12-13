@@ -26,7 +26,7 @@
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Geom2dHatch_Element.hxx>
-#include <TColStd_MapIntegerHasher.hxx>
+#include <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #include <Geom2dAdaptor_Curve.hxx>
 
 #include <TopAbs_Orientation.hxx>

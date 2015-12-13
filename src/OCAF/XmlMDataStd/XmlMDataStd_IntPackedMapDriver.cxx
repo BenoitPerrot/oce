@@ -31,9 +31,9 @@ IMPLEMENT_STANDARD_RTTI(XmlMDataStd_IntPackedMapDriver)
 #include <XmlObjMgt_RRelocationTable.hxx>
 #include <XmlObjMgt_SRelocationTable.hxx>
 #include <CDM_MessageDriver.hxx>
-#include <TColStd_PackedMapOfInteger.hxx>
-#include <TColStd_HPackedMapOfInteger.hxx>
-#include <TColStd_MapIteratorOfPackedMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_PackedMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HPackedMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_MapIteratorOfPackedMapOfInteger.hxx>
 #include <XmlMDF_ADriver.hxx>
 #include <TDF_Attribute.hxx>
 #include <TDataStd_IntPackedMap.hxx>

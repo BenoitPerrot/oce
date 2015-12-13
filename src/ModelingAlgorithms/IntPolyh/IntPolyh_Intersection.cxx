@@ -18,7 +18,7 @@
 //  Modified by skv - Thu Sep 25 18:24:29 2003 OCC567
 
 #include <Adaptor3d_HSurface.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <IntPolyh_Intersection.hxx>
 #include <IntPolyh_SectionLine.hxx>
 #include <IntPolyh_StartPoint.hxx>

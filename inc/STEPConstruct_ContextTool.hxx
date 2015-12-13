@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <TColStd_SequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <Handle_StepBasic_ApplicationProtocolDefinition.hxx>
 #include <STEPConstruct_AP203Context.hxx>
 #include <Handle_StepGeom_Axis2Placement3d.hxx>

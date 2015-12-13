@@ -7,8 +7,8 @@
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <TColStd_DataMapOfIntegerReal.hxx>
-#include <TColStd_MapIntegerHasher.hxx>
+#include <Foundation/TColStd/TColStd_DataMapOfIntegerReal.hxx>
+#include <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #include <XSDRAWSTLVRML_CoordsMap.hxx>
 #include <XSDRAWSTLVRML_DataMapIteratorOfCoordsMap.hxx>
 
@@ -32,9 +32,9 @@ IMPLEMENT_STANDARD_RTTI(XSDRAWSTLVRML_DataMapNodeOfCoordsMap)
 #define TheKey Standard_Integer
 #define TheKey_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheItem TColStd_DataMapOfIntegerReal
-#define TheItem_hxx <TColStd_DataMapOfIntegerReal.hxx>
+#define TheItem_hxx <Foundation/TColStd/TColStd_DataMapOfIntegerReal.hxx>
 #define Hasher TColStd_MapIntegerHasher
-#define Hasher_hxx <TColStd_MapIntegerHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #define TCollection_DataMapNode XSDRAWSTLVRML_DataMapNodeOfCoordsMap
 #define TCollection_DataMapNode_hxx <XSDRAWSTLVRML_DataMapNodeOfCoordsMap.hxx>
 #define TCollection_DataMapIterator XSDRAWSTLVRML_DataMapIteratorOfCoordsMap

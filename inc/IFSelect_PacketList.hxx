@@ -11,7 +11,7 @@
 #include <Handle_IFSelect_PacketList.hxx>
 
 #include <Handle_Interface_InterfaceModel.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Interface_IntList.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

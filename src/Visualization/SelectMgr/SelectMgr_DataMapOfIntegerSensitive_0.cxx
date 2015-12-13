@@ -8,7 +8,7 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <SelectBasics_SensitiveEntity.hxx>
-#include <TColStd_MapIntegerHasher.hxx>
+#include <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #include <SelectMgr_DataMapNodeOfDataMapOfIntegerSensitive.hxx>
 #include <SelectMgr_DataMapIteratorOfDataMapOfIntegerSensitive.hxx>
  
@@ -18,7 +18,7 @@
 #define TheItem Handle(SelectBasics_SensitiveEntity)
 #define TheItem_hxx <SelectBasics_SensitiveEntity.hxx>
 #define Hasher TColStd_MapIntegerHasher
-#define Hasher_hxx <TColStd_MapIntegerHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #define TCollection_DataMapNode SelectMgr_DataMapNodeOfDataMapOfIntegerSensitive
 #define TCollection_DataMapNode_hxx <SelectMgr_DataMapNodeOfDataMapOfIntegerSensitive.hxx>
 #define TCollection_DataMapIterator SelectMgr_DataMapIteratorOfDataMapOfIntegerSensitive

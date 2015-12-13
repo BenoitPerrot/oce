@@ -60,9 +60,9 @@ private:
 #define TheKey2 Standard_Integer
 #define TheKey2_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define Hasher1 TColStd_MapRealHasher
-#define Hasher1_hxx <TColStd_MapRealHasher.hxx>
+#define Hasher1_hxx <Foundation/TColStd/TColStd_MapRealHasher.hxx>
 #define Hasher2 TColStd_MapIntegerHasher
-#define Hasher2_hxx <TColStd_MapIntegerHasher.hxx>
+#define Hasher2_hxx <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #define TCollection_DoubleMapNode QANCollection_DoubleMapNodeOfDoubleMapOfRealInteger
 #define TCollection_DoubleMapNode_hxx <QANCollection_DoubleMapNodeOfDoubleMapOfRealInteger.hxx>
 #define TCollection_DoubleMapIterator QANCollection_DoubleMapIteratorOfDoubleMapOfRealInteger

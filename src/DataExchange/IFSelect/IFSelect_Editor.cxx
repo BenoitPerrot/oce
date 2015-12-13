@@ -19,7 +19,7 @@
 #include <IFSelect_EditForm.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <IFSelect_ListEditor.hxx>
-#include <TColStd_HSequenceOfHAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfHAsciiString.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Interface_InterfaceModel.hxx>
 #include <IFSelect_Editor.hxx>

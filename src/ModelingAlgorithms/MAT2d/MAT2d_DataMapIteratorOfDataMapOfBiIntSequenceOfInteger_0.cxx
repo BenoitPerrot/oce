@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <MAT2d_BiInt.hxx>
-#include <TColStd_SequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <MAT2d_MapBiIntHasher.hxx>
 #include <MAT2d_DataMapOfBiIntSequenceOfInteger.hxx>
 #include <MAT2d_DataMapNodeOfDataMapOfBiIntSequenceOfInteger.hxx>
@@ -16,7 +16,7 @@
 #define TheKey MAT2d_BiInt
 #define TheKey_hxx <MAT2d_BiInt.hxx>
 #define TheItem TColStd_SequenceOfInteger
-#define TheItem_hxx <TColStd_SequenceOfInteger.hxx>
+#define TheItem_hxx <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #define Hasher MAT2d_MapBiIntHasher
 #define Hasher_hxx <MAT2d_MapBiIntHasher.hxx>
 #define TCollection_DataMapNode MAT2d_DataMapNodeOfDataMapOfBiIntSequenceOfInteger

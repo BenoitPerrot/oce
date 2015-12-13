@@ -24,8 +24,8 @@
 #include <MAT_ListOfEdge.hxx>
 #include <MAT_Bisector.hxx>
 #include <MAT_ListOfBisector.hxx>
-#include <TColStd_DataMapOfIntegerInteger.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_DataMapOfIntegerInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <MAT_DataMapOfIntegerBisector.hxx>
 #include <Precision.hxx>
 #include <MAT2d_Tool2d.hxx>

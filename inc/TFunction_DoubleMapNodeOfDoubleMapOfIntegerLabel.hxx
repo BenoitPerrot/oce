@@ -61,7 +61,7 @@ private:
 #define TheKey2 TDF_Label
 #define TheKey2_hxx <TDF_Label.hxx>
 #define Hasher1 TColStd_MapIntegerHasher
-#define Hasher1_hxx <TColStd_MapIntegerHasher.hxx>
+#define Hasher1_hxx <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #define Hasher2 TDF_LabelMapHasher
 #define Hasher2_hxx <TDF_LabelMapHasher.hxx>
 #define TCollection_DoubleMapNode TFunction_DoubleMapNodeOfDoubleMapOfIntegerLabel

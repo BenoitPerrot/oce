@@ -18,16 +18,16 @@
 
 #include <GeomFill_Frenet.hxx>
 #include <Law_Function.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <TColgp_HArray1OfVec.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <GeomFill_TrihedronLaw.hxx>
 #include <gp_Vec.hxx>
-#include <TColStd_SequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <TColgp_SequenceOfVec.hxx>
 #include <Adaptor3d_HCurve.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <GeomFill_CorrectedFrenet.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(GeomFill_CorrectedFrenet)
@@ -43,9 +43,9 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_CorrectedFrenet)
 #include <Adaptor3d_HCurve.hxx>
 #include <gp_Trsf.hxx>
 #include <Precision.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Law_Interpolate.hxx>
-#include <TColStd_SequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <gp_Vec2d.hxx>
 #include <BndLib_Add3dCurve.hxx>
 #include <Bnd_Box.hxx>
@@ -73,8 +73,8 @@ static Standard_Integer CorrNumber = 0;
 #include <Draw_Segment2D.hxx>
 //#include <Draw.hxx>
 #include <TColgp_Array1OfPnt.hxx>
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #endif
 
 #ifdef DRAW 

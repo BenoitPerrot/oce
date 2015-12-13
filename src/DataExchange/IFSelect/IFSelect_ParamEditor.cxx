@@ -17,7 +17,7 @@
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Interface_InterfaceModel.hxx>
-#include <TColStd_HSequenceOfHAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfHAsciiString.hxx>
 #include <IFSelect_ParamEditor.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IFSelect_ParamEditor)

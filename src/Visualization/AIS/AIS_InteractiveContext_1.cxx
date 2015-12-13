@@ -36,7 +36,7 @@
 #include <TopLoc_Location.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <AIS_Drawer.hxx>
-#include <TColStd_ListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Prs3d_LineAspect.hxx>
 #include <Prs3d_BasicAspect.hxx>
@@ -68,7 +68,7 @@
 #include <V3d_DirectionalLight.hxx>
 #include <V3d_AmbientLight.hxx>
 
-#include <TColStd_ListIteratorOfListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 #include <SelectMgr_Selection.hxx>
 #include <SelectBasics_SensitiveEntity.hxx>
 

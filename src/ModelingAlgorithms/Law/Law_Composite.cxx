@@ -18,7 +18,7 @@
 
 #include <Law_Function.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Law_Laws.hxx>
 #include <Law_Composite.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_RTTI(Law_Composite)
 #include <Law_ListIteratorOfLaws.hxx>
 #include <Law_Laws.hxx>
 
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 
 //=======================================================================

@@ -26,9 +26,9 @@
 #include <DDF.hxx>
 
 #include <Draw.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
-#include <TColStd_ListIteratorOfListOfInteger.hxx>
-#include <TColStd_ListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TDF_ChildIterator.hxx>
 #include <TDF_LabelList.hxx>

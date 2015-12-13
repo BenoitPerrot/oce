@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <TColStd_MapIntegerHasher.hxx>
+#include <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #include <MeshVS_DataMapOfIntegerTwoColors.hxx>
 #include <MeshVS_DataMapIteratorOfDataMapOfIntegerTwoColors.hxx>
 
@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_DataMapNodeOfDataMapOfIntegerTwoColors)
 #define TheItem MeshVS_TwoColors
 #define TheItem_hxx <MeshVS_TwoColors.hxx>
 #define Hasher TColStd_MapIntegerHasher
-#define Hasher_hxx <TColStd_MapIntegerHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #define TCollection_DataMapNode MeshVS_DataMapNodeOfDataMapOfIntegerTwoColors
 #define TCollection_DataMapNode_hxx <MeshVS_DataMapNodeOfDataMapOfIntegerTwoColors.hxx>
 #define TCollection_DataMapIterator MeshVS_DataMapIteratorOfDataMapOfIntegerTwoColors

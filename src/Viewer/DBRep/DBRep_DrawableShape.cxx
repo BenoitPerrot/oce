@@ -73,7 +73,7 @@ IMPLEMENT_STANDARD_RTTI(DBRep_DrawableShape)
 #include <Poly_PolygonOnTriangulation.hxx>
 #include <Poly_Connect.hxx>
 #include <TColgp_HArray1OfPnt.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 
 #include <Precision.hxx>
 #include <Geom_BSplineSurface.hxx>
@@ -81,8 +81,8 @@ IMPLEMENT_STANDARD_RTTI(DBRep_DrawableShape)
 #include <Adaptor3d_HCurve.hxx>
 #include <GeomAdaptor_HSurface.hxx>
 #include <GeomAdaptor_Surface.hxx>
-#include <TColStd_DataMapOfIntegerInteger.hxx>
-#include <TColStd_DataMapIteratorOfDataMapOfIntegerInteger.hxx>
+#include <Foundation/TColStd/TColStd_DataMapOfIntegerInteger.hxx>
+#include <Foundation/TColStd/TColStd_DataMapIteratorOfDataMapOfIntegerInteger.hxx>
 
 static Standard_Real IsoRatio = 1.001;
 

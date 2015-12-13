@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_TYPE_END(XmlMDataStd_RealListDriver)
 IMPLEMENT_DOWNCAST(XmlMDataStd_RealListDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlMDataStd_RealListDriver)
 #include <TDataStd_RealList.hxx>
-#include <TColStd_ListIteratorOfListOfReal.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfReal.hxx>
 #include <Foundation/NCollection/NCollection_LocalArray.hxx>
 #include <XmlObjMgt.hxx>
 

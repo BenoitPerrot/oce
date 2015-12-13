@@ -30,7 +30,7 @@
 #include <Prs3d_ShadingAspect.hxx>
 #include <Prs3d_IsoAspect.hxx>
 #include <Precision.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 
 //=======================================================================
 //function : Add

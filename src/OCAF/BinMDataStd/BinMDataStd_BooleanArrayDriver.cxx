@@ -28,8 +28,8 @@ IMPLEMENT_STANDARD_TYPE_END(BinMDataStd_BooleanArrayDriver)
 IMPLEMENT_DOWNCAST(BinMDataStd_BooleanArrayDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinMDataStd_BooleanArrayDriver)
 #include <TDataStd_BooleanArray.hxx>
-#include <TColStd_HArray1OfByte.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfByte.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 
 //=======================================================================
 //function : BinMDataStd_BooleanArrayDriver

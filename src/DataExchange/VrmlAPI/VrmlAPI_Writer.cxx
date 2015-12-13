@@ -21,7 +21,7 @@
 #include <Vrml_Material.hxx>
 #include <Foundation/Quantity/Quantity_HArray1OfColor.hxx>
 #include <TopoDS_Shape.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/OSD/OSD_Path.hxx>
 #include <VrmlConverter_IsoAspect.hxx>
 #include <VrmlConverter_LineAspect.hxx>

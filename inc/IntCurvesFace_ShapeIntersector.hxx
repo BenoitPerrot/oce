@@ -14,8 +14,8 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <BRepTopAdaptor_SeqOfPtr.hxx>
-#include <TColStd_SequenceOfInteger.hxx>
-#include <TColStd_SequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Adaptor3d_HCurve.hxx>
 #include <IntCurveSurface_TransitionOnCurve.hxx>

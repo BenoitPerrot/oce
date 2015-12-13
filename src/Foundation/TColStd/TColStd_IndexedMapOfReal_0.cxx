@@ -3,23 +3,23 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TColStd_IndexedMapOfReal.hxx>
+#include <Foundation/TColStd/TColStd_IndexedMapOfReal.hxx>
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <TColStd_MapRealHasher.hxx>
-#include <TColStd_IndexedMapNodeOfIndexedMapOfReal.hxx>
+#include <Foundation/TColStd/TColStd_MapRealHasher.hxx>
+#include <Foundation/TColStd/TColStd_IndexedMapNodeOfIndexedMapOfReal.hxx>
  
 
 #define TheKey Standard_Real
 #define TheKey_hxx <Foundation/Standard/Standard_Real.hxx>
 #define Hasher TColStd_MapRealHasher
-#define Hasher_hxx <TColStd_MapRealHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapRealHasher.hxx>
 #define TCollection_IndexedMapNode TColStd_IndexedMapNodeOfIndexedMapOfReal
-#define TCollection_IndexedMapNode_hxx <TColStd_IndexedMapNodeOfIndexedMapOfReal.hxx>
+#define TCollection_IndexedMapNode_hxx <Foundation/TColStd/TColStd_IndexedMapNodeOfIndexedMapOfReal.hxx>
 #define Handle_TCollection_IndexedMapNode Handle_TColStd_IndexedMapNodeOfIndexedMapOfReal
 #define TCollection_IndexedMapNode_Type_() TColStd_IndexedMapNodeOfIndexedMapOfReal_Type_()
 #define TCollection_IndexedMap TColStd_IndexedMapOfReal
-#define TCollection_IndexedMap_hxx <TColStd_IndexedMapOfReal.hxx>
+#define TCollection_IndexedMap_hxx <Foundation/TColStd/TColStd_IndexedMapOfReal.hxx>
 #include <Foundation/TCollection/TCollection_IndexedMap.gxx>
 

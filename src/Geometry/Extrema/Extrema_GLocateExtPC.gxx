@@ -28,7 +28,7 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <GeomAbs_CurveType.hxx>
 #include <Precision.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 
 
 //=======================================================================

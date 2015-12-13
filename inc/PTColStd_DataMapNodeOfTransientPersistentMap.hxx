@@ -58,7 +58,7 @@ private:
 #define TheItem Handle(Standard_Persistent)
 #define TheItem_hxx <Foundation/Standard/Standard_Persistent.hxx>
 #define Hasher TColStd_MapTransientHasher
-#define Hasher_hxx <TColStd_MapTransientHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define TCollection_DataMapNode PTColStd_DataMapNodeOfTransientPersistentMap
 #define TCollection_DataMapNode_hxx <PTColStd_DataMapNodeOfTransientPersistentMap.hxx>
 #define TCollection_DataMapIterator PTColStd_DataMapIteratorOfTransientPersistentMap

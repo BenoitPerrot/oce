@@ -13,7 +13,7 @@
 #include <Handle_TColStd_HPackedMapOfInteger.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <TDF_Attribute.hxx>
-#include <TColStd_PackedMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_PackedMapOfInteger.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TDF_Attribute.hxx>
 #include <Handle_TDF_RelocationTable.hxx>

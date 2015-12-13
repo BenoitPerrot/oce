@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TopTools_IndexedMapOfShape.hxx>
-#include <TColStd_IndexedMapOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_IndexedMapOfTransient.hxx>
 #include <Handle_IGESSolid_EdgeList.hxx>
 #include <Handle_IGESSolid_VertexList.hxx>
 #include <BRepToIGES_BREntity.hxx>

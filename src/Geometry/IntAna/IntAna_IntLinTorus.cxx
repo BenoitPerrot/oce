@@ -22,7 +22,7 @@
 #include <gp_Torus.hxx>
 #include <gp_Pnt.hxx>
 #include <IntAna_IntLinTorus.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <math_DirectPolynomialRoots.hxx>
 #include <gp_Dir.hxx>
 #include <gp_Pnt.hxx>

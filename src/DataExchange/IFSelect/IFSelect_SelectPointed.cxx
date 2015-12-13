@@ -13,7 +13,7 @@
 
 #include <Interface_InterfaceError.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <TColStd_HSequenceOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <Interface_CopyControl.hxx>
 #include <IFSelect_Transformer.hxx>
 #include <Interface_EntityIterator.hxx>
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IFSelect_SelectPointed)
 IMPLEMENT_DOWNCAST(IFSelect_SelectPointed,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IFSelect_SelectPointed)
-#include <TColStd_MapOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_MapOfTransient.hxx>
 
 
 

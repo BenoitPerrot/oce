@@ -69,7 +69,7 @@ private:
 };
 
 #define ItemHArray1 TColStd_SequenceOfInteger
-#define ItemHArray1_hxx <TColStd_SequenceOfInteger.hxx>
+#define ItemHArray1_hxx <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #define TheArray1 MeshVS_Array1OfSequenceOfInteger
 #define TheArray1_hxx <MeshVS_Array1OfSequenceOfInteger.hxx>
 #define TCollection_HArray1 MeshVS_HArray1OfSequenceOfInteger

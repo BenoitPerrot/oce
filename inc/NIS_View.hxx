@@ -22,7 +22,7 @@
 #include <Foundation/NCollection/NCollection_List.hxx>
 #include <Foundation/NCollection/NCollection_Vector.hxx>
 #include <Bnd_B3f.hxx>
-#include <TColStd_PackedMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_PackedMapOfInteger.hxx>
 #include <gp_XY.hxx>
 
 class NIS_InteractiveContext;

@@ -8,7 +8,7 @@
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <SelectMgr_EntityOwner.hxx>
-#include <TColStd_MapTransientHasher.hxx>
+#include <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #include <SelectMgr_IndexedMapOfOwner.hxx>
 
  
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(SelectMgr_IndexedMapNodeOfIndexedMapOfOwner)
 #define TheKey Handle(SelectMgr_EntityOwner)
 #define TheKey_hxx <SelectMgr_EntityOwner.hxx>
 #define Hasher TColStd_MapTransientHasher
-#define Hasher_hxx <TColStd_MapTransientHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define TCollection_IndexedMapNode SelectMgr_IndexedMapNodeOfIndexedMapOfOwner
 #define TCollection_IndexedMapNode_hxx <SelectMgr_IndexedMapNodeOfIndexedMapOfOwner.hxx>
 #define Handle_TCollection_IndexedMapNode Handle_SelectMgr_IndexedMapNodeOfIndexedMapOfOwner

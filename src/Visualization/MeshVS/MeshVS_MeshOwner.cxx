@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <MeshVS_DataSource.hxx>
-#include <TColStd_HPackedMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HPackedMapOfInteger.hxx>
 #include <PrsMgr_PresentationManager.hxx>
 #include <MeshVS_MeshOwner.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_MeshOwner)
 #include <SelectMgr_SelectableObject.hxx>
 #include <PrsMgr_PresentationManager3d.hxx>
 #include <MeshVS_Mesh.hxx>
-#include <TColStd_MapIteratorOfPackedMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_MapIteratorOfPackedMapOfInteger.hxx>
 
 
 #ifndef MeshVS_PRSBUILDERHXX

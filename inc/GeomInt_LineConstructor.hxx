@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <TColStd_SequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <Handle_Adaptor3d_TopolTool.hxx>
 #include <Handle_GeomAdaptor_HSurface.hxx>
 #include <Handle_IntPatch_Line.hxx>

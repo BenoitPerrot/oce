@@ -46,7 +46,7 @@ IMPLEMENT_STANDARD_RTTI(STEPSelections_SelectInstances)
 #include <StepRepr_MappedItem.hxx>
 #include <STEPConstruct_Assembly.hxx>
 #include <StepRepr_ShapeRepresentationRelationship.hxx>
-#include <TColStd_IndexedMapOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_IndexedMapOfTransient.hxx>
 #include <Interface_HGraph.hxx>
 
 static Handle(Interface_HGraph) myGraph;

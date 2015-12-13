@@ -6,7 +6,7 @@
 #include <TopOpeBRepDS_DataMapIteratorOfDataMapOfCheckStatus.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <TColStd_MapIntegerHasher.hxx>
+#include <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #include <TopOpeBRepDS_DataMapOfCheckStatus.hxx>
 #include <TopOpeBRepDS_DataMapNodeOfDataMapOfCheckStatus.hxx>
  
@@ -16,7 +16,7 @@
 #define TheItem TopOpeBRepDS_CheckStatus
 #define TheItem_hxx <TopOpeBRepDS_CheckStatus.hxx>
 #define Hasher TColStd_MapIntegerHasher
-#define Hasher_hxx <TColStd_MapIntegerHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #define TCollection_DataMapNode TopOpeBRepDS_DataMapNodeOfDataMapOfCheckStatus
 #define TCollection_DataMapNode_hxx <TopOpeBRepDS_DataMapNodeOfDataMapOfCheckStatus.hxx>
 #define TCollection_DataMapIterator TopOpeBRepDS_DataMapIteratorOfDataMapOfCheckStatus

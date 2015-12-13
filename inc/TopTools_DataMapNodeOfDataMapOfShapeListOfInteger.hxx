@@ -11,7 +11,7 @@
 #include <Handle_TopTools_DataMapNodeOfDataMapOfShapeListOfInteger.hxx>
 
 #include <TopoDS_Shape.hxx>
-#include <TColStd_ListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class TopoDS_Shape;
@@ -56,7 +56,7 @@ private:
 #define TheKey TopoDS_Shape
 #define TheKey_hxx <TopoDS_Shape.hxx>
 #define TheItem TColStd_ListOfInteger
-#define TheItem_hxx <TColStd_ListOfInteger.hxx>
+#define TheItem_hxx <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #define Hasher TopTools_ShapeMapHasher
 #define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode TopTools_DataMapNodeOfDataMapOfShapeListOfInteger

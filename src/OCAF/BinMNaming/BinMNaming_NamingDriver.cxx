@@ -29,7 +29,7 @@ IMPLEMENT_DOWNCAST(BinMNaming_NamingDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinMNaming_NamingDriver)
 #include <TopAbs_ShapeEnum.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <CDM_MessageDriver.hxx>
 #include <TDF_Attribute.hxx>
 #include  <TNaming_Iterator.hxx>

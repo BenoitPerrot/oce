@@ -16,7 +16,7 @@
 
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <TColStd_HArray2OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray2OfInteger.hxx>
 #include <math_Matrix.hxx>
 #include <FEmTool_LinearTension.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -30,8 +30,8 @@ IMPLEMENT_STANDARD_TYPE_END(FEmTool_LinearTension)
 IMPLEMENT_DOWNCAST(FEmTool_LinearTension,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(FEmTool_LinearTension)
 #include <PLib.hxx>
-#include <TColStd_HArray2OfInteger.hxx>
-#include <TColStd_HArray2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray2OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
 #include <PLib_JacobiPolynomial.hxx>
 #include <PLib_HermitJacobi.hxx>
 #include <FEmTool_ElementsOfRefMatrix.hxx>

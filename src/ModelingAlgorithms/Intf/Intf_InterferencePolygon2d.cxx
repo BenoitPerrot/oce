@@ -27,7 +27,7 @@
 #include <Intf_TangentZone.hxx>
 #include <Intf_SeqOfTangentZone.hxx>
 #include <Precision.hxx>
-#include <TColStd_ListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 
 // Angular precision (sinus) below that value two right segments
 // are considered as having a potential zone of tangency.

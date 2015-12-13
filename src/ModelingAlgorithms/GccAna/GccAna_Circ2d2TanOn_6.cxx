@@ -34,7 +34,7 @@
 #include <GccInt_BCirc.hxx>
 #include <GccInt_BLine.hxx>
 #include <IntAna2d_Conic.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <GccEnt_BadQualifier.hxx>
 
 //=========================================================================

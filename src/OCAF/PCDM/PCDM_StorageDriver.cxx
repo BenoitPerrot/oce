@@ -21,7 +21,7 @@
 #include <PCDM_SequenceOfDocument.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/Storage/Storage_Schema.hxx>
-#include <TColStd_SequenceOfExtendedString.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfExtendedString.hxx>
 #include <PCDM_StorageDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PCDM_StorageDriver)
@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_RTTI(PCDM_StorageDriver)
 #include <Foundation/Storage/Storage_Data.hxx>
 #include <Foundation/Storage/Storage_OpenMode.hxx>
 #include <Foundation/Storage/Storage_Schema.hxx>
-#include <TColStd_SequenceOfExtendedString.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfExtendedString.hxx>
 #include <Foundation/FSD/FSD_CmpFile.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>

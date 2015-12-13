@@ -39,7 +39,7 @@
 #include <TopoDS.hxx>
 #include <TopoDS_Iterator.hxx>
 
-#include <TColStd_SequenceOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfTransient.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Transfer_FinderProcess.hxx>
 #include <TransferBRep_ShapeMapper.hxx>

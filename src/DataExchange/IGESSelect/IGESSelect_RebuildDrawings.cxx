@@ -37,14 +37,14 @@ IMPLEMENT_STANDARD_RTTI(IGESSelect_RebuildDrawings)
 #include <IGESDraw_HArray1OfViewKindEntity.hxx>
 #include <IGESData_ViewKindEntity.hxx>
 #include <TColgp_HArray1OfXY.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <gp_XY.hxx>
 #include <gp_Pnt2d.hxx>
 
 #include <Interface_EntityIterator.hxx>
 #include <Interface_Graph.hxx>
 
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Interface_Macros.hxx>
 
 #define PourDrawing 404

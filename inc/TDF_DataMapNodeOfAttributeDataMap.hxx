@@ -56,7 +56,7 @@ private:
 #define TheItem Handle(TDF_Attribute)
 #define TheItem_hxx <TDF_Attribute.hxx>
 #define Hasher TColStd_MapTransientHasher
-#define Hasher_hxx <TColStd_MapTransientHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define TCollection_DataMapNode TDF_DataMapNodeOfAttributeDataMap
 #define TCollection_DataMapNode_hxx <TDF_DataMapNodeOfAttributeDataMap.hxx>
 #define TCollection_DataMapIterator TDF_DataMapIteratorOfAttributeDataMap

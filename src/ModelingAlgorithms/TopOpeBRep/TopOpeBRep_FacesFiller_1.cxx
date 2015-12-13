@@ -39,8 +39,8 @@
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <BRepTools.hxx>
 #include <Precision.hxx>
-#include <TColStd_ListOfInteger.hxx>
-#include <TColStd_ListIteratorOfListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 
 #include <TopOpeBRep_FFDumper.hxx>
 #include <TopOpeBRepTool_TOOL.hxx>

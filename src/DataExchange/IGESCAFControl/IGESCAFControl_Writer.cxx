@@ -51,7 +51,7 @@
 #include <TDataStd_Name.hxx>
 #include <IGESData_NameEntity.hxx>
 #include <TopTools_SequenceOfShape.hxx>
-#include <TColStd_HSequenceOfExtendedString.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfExtendedString.hxx>
 #include <Foundation/NCollection/NCollection_DataMap.hxx>
 
 namespace

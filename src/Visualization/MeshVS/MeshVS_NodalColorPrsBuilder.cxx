@@ -22,11 +22,11 @@
 #include <MeshVS_DataMapOfIntegerColor.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Aspect_SequenceOfColor.hxx>
-#include <TColStd_DataMapOfIntegerReal.hxx>
+#include <Foundation/TColStd/TColStd_DataMapOfIntegerReal.hxx>
 #include <Graphic3d_Texture2D.hxx>
 #include <MeshVS_HArray1OfSequenceOfInteger.hxx>
-#include <TColStd_Array1OfInteger.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Graphic3d_ArrayOfPrimitives.hxx>
 #include <MeshVS_NodalColorPrsBuilder.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -53,13 +53,13 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_NodalColorPrsBuilder)
 #include <Prs3d_Root.hxx>
 #include <Prs3d_LineAspect.hxx>
 
-#include <TColStd_MapIteratorOfPackedMapOfInteger.hxx>
-#include <TColStd_ListIteratorOfListOfInteger.hxx>
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_HArray1OfReal.hxx>
-#include <TColStd_Array1OfInteger.hxx>
-#include <TColStd_SequenceOfInteger.hxx>
-#include <TColStd_HPackedMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_MapIteratorOfPackedMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HPackedMapOfInteger.hxx>
 
 #include <MeshVS_DisplayModeFlags.hxx>
 #include <MeshVS_DrawerAttribute.hxx>

@@ -3,24 +3,24 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TColStd_ListIteratorOfListOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfTransient.hxx>
 
 #include <Foundation/Standard/Standard_NoMoreObject.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <TColStd_ListOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_ListOfTransient.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <TColStd_ListNodeOfListOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_ListNodeOfListOfTransient.hxx>
  
 
 #define Item Handle(Standard_Transient)
 #define Item_hxx <Foundation/Standard/Standard_Transient.hxx>
 #define TCollection_ListNode TColStd_ListNodeOfListOfTransient
-#define TCollection_ListNode_hxx <TColStd_ListNodeOfListOfTransient.hxx>
+#define TCollection_ListNode_hxx <Foundation/TColStd/TColStd_ListNodeOfListOfTransient.hxx>
 #define TCollection_ListIterator TColStd_ListIteratorOfListOfTransient
-#define TCollection_ListIterator_hxx <TColStd_ListIteratorOfListOfTransient.hxx>
+#define TCollection_ListIterator_hxx <Foundation/TColStd/TColStd_ListIteratorOfListOfTransient.hxx>
 #define Handle_TCollection_ListNode Handle_TColStd_ListNodeOfListOfTransient
 #define TCollection_ListNode_Type_() TColStd_ListNodeOfListOfTransient_Type_()
 #define TCollection_List TColStd_ListOfTransient
-#define TCollection_List_hxx <TColStd_ListOfTransient.hxx>
+#define TCollection_List_hxx <Foundation/TColStd/TColStd_ListOfTransient.hxx>
 #include <Foundation/TCollection/TCollection_ListIterator.gxx>
 

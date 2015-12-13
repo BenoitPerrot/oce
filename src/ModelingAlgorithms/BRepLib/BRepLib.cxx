@@ -66,8 +66,8 @@
 #include <Approx_SameParameter.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_MapOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_MapOfTransient.hxx>
 #include <GeomAdaptor_Curve.hxx>
 #include <GeomAdaptor_HCurve.hxx>
 #include <GeomAdaptor_Surface.hxx>

@@ -12,10 +12,10 @@
 
 #include <TopOpeBRepBuild_Builder1.hxx>
 #include <TopTools_DataMapOfShapeInteger.hxx>
-#include <TColStd_DataMapOfIntegerListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_DataMapOfIntegerListOfInteger.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <TopoDS_Shape.hxx>
-#include <TColStd_ListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_TopOpeBRepDS_HDataStructure.hxx>
 #include <TopAbs_State.hxx>

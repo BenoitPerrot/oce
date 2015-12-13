@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TColStd_HArray1OfListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfListOfInteger.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <TColStd_ListOfInteger.hxx>
-#include <TColStd_Array1OfListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfListOfInteger.hxx>
 
  
 
@@ -31,11 +31,11 @@ IMPLEMENT_STANDARD_RTTI(TColStd_HArray1OfListOfInteger)
 
 
 #define ItemHArray1 TColStd_ListOfInteger
-#define ItemHArray1_hxx <TColStd_ListOfInteger.hxx>
+#define ItemHArray1_hxx <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #define TheArray1 TColStd_Array1OfListOfInteger
-#define TheArray1_hxx <TColStd_Array1OfListOfInteger.hxx>
+#define TheArray1_hxx <Foundation/TColStd/TColStd_Array1OfListOfInteger.hxx>
 #define TCollection_HArray1 TColStd_HArray1OfListOfInteger
-#define TCollection_HArray1_hxx <TColStd_HArray1OfListOfInteger.hxx>
+#define TCollection_HArray1_hxx <Foundation/TColStd/TColStd_HArray1OfListOfInteger.hxx>
 #define Handle_TCollection_HArray1 Handle_TColStd_HArray1OfListOfInteger
 #define TCollection_HArray1_Type_() TColStd_HArray1OfListOfInteger_Type_()
 #include <Foundation/TCollection/TCollection_HArray1.gxx>

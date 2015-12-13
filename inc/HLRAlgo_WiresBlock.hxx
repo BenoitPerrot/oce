@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_HLRAlgo_WiresBlock.hxx>
 
-#include <TColStd_Array1OfTransient.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfTransient.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_HLRAlgo_EdgesBlock.hxx>

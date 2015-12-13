@@ -15,12 +15,12 @@
 #include <Adaptor2d_HLine2d.hxx>
 #include <Adaptor3d_HVertex.hxx>
 #include <Adaptor3d_HSurface.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Adaptor2d_HCurve2d.hxx>
 #include <gp_Pnt2d.hxx>
 #include <gp_Pnt.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Adaptor3d_TopolTool.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Adaptor3d_TopolTool)
@@ -580,8 +580,8 @@ Standard_Boolean Adaptor3d_TopolTool::Identical
 #include <TColgp_Array2OfPnt.hxx>
 #include <Geom_BezierSurface.hxx>
 #include <Geom_BSplineSurface.hxx>
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_Array1OfBoolean.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>
 //#include <gce_MakeLin.hxx>
 #include <gp_Lin.hxx>
 #include <gp_Dir.hxx>

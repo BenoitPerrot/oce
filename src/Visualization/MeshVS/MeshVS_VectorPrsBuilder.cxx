@@ -46,10 +46,10 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_VectorPrsBuilder)
 #include <Graphic3d_AspectFillArea3d.hxx>
 #include <Graphic3d_Group.hxx>
 
-#include <TColStd_MapIteratorOfPackedMapOfInteger.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_MapIteratorOfPackedMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <TColgp_Array1OfPnt.hxx>
-#include <TColStd_HPackedMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HPackedMapOfInteger.hxx>
 
 #include <Precision.hxx>
 

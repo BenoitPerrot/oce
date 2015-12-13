@@ -34,8 +34,8 @@ IMPLEMENT_DOWNCAST(MeshVS_SensitiveMesh,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MeshVS_SensitiveMesh)
 
 #include <TColgp_Array1OfPnt.hxx>
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_HPackedMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HPackedMapOfInteger.hxx>
 #include <Select3D_Projector.hxx>
 #include <TopLoc_Location.hxx>
 #include <MeshVS_DataSource.hxx>

@@ -17,7 +17,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Extrema_ExtPS.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <TColStd_SequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <Extrema_SequenceOfPOnSurf.hxx>
 #include <BRepAdaptor_Surface.hxx>
 #include <Extrema_ExtFlag.hxx>

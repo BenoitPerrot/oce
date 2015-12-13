@@ -18,14 +18,14 @@
 //              ROB JAN/07/98 : Improve Storage of detected entities
 //              AGV OCT/23/03 : Optimize the method SortResult() (OCC4201)
 
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <SelectMgr_SelectionManager.hxx>
 #include <SelectMgr_Selection.hxx>
 #include <SelectMgr_SelectableObject.hxx>
 #include <Bnd_Box2d.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>
 #include <SelectMgr_EntityOwner.hxx>
-#include <TColStd_ListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <SelectBasics_SensitiveEntity.hxx>
 #include <SelectMgr_DataMapOfIntegerSensitive.hxx>
@@ -47,7 +47,7 @@ IMPLEMENT_STANDARD_RTTI(SelectMgr_ViewerSelector)
 #include <Bnd_HArray1OfBox2d.hxx>
 #include <Bnd_Array1OfBox2d.hxx>
 #include <Precision.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/NCollection/NCollection_DataMap.hxx>
 #include <SelectBasics_EntityOwner.hxx>

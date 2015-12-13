@@ -21,7 +21,7 @@
 #include <IVtk_IShapeMesher.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <TColgp_SequenceOfPnt.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Face.hxx>

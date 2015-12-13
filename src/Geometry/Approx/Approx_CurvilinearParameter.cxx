@@ -32,12 +32,12 @@
 #include <GeomAbs_Shape.hxx>
 #include <AdvApprox_ApproxAFunction.hxx>
 #include <Geom_BSplineCurve.hxx>
-#include <TColStd_HArray1OfReal.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <GeomAdaptor_HCurve.hxx>
 #include <GeomAdaptor_HSurface.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <AdvApprox_PrefAndRec.hxx>
 #include <Adaptor3d_CurveOnSurface.hxx>
 #include <Precision.hxx>

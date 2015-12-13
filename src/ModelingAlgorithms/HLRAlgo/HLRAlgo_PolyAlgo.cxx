@@ -17,8 +17,8 @@
 #ifndef No_Exception
 //#define No_Exception
 #endif
-#include <TColStd_HArray1OfTransient.hxx>
-#include <TColStd_Array1OfTransient.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfTransient.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfTransient.hxx>
 #include <HLRAlgo_EdgeStatus.hxx>
 #include <HLRAlgo_PolyAlgo.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

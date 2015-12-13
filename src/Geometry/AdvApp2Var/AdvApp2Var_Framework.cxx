@@ -25,7 +25,7 @@
 #include <AdvApp2Var_SequenceOfStrip.hxx>
 #include <AdvApp2Var_Node.hxx>
 #include <AdvApp2Var_SequenceOfNode.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <gp_XY.hxx>
 
 //==========================================================================================

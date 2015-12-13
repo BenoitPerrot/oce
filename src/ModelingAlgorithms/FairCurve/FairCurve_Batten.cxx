@@ -20,8 +20,8 @@
 #endif
 
 #include <TColgp_HArray1OfPnt2d.hxx>
-#include <TColStd_HArray1OfReal.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/Standard/Standard_NegativeValue.hxx>
 #include <Foundation/Standard/Standard_NullValue.hxx>
 #include <gp_Pnt2d.hxx>

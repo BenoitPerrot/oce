@@ -29,8 +29,8 @@
 #include <Geom_BSplineCurve.hxx>
 #include <Geom_BezierCurve.hxx>
 #include <TColgp_HArray1OfPnt.hxx>
-#include <TColStd_HArray1OfReal.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Precision.hxx>
 #include <ElCLib.hxx>
 #include <Adaptor3d_Curve.hxx>

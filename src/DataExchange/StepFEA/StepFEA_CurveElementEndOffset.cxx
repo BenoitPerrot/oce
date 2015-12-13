@@ -15,7 +15,7 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <StepFEA_CurveElementEndCoordinateSystem.hxx>
 #include <StepFEA_CurveElementEndOffset.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

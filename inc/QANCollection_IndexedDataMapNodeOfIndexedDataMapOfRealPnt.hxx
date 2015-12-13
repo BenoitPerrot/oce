@@ -63,7 +63,7 @@ private:
 #define TheItem gp_Pnt
 #define TheItem_hxx <gp_Pnt.hxx>
 #define Hasher TColStd_MapRealHasher
-#define Hasher_hxx <TColStd_MapRealHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapRealHasher.hxx>
 #define TCollection_IndexedDataMapNode QANCollection_IndexedDataMapNodeOfIndexedDataMapOfRealPnt
 #define TCollection_IndexedDataMapNode_hxx <QANCollection_IndexedDataMapNodeOfIndexedDataMapOfRealPnt.hxx>
 #define Handle_TCollection_IndexedDataMapNode Handle_QANCollection_IndexedDataMapNodeOfIndexedDataMapOfRealPnt

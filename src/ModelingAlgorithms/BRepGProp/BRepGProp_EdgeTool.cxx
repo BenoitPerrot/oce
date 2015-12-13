@@ -16,7 +16,7 @@
 #include <BRepAdaptor_Curve.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Vec.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <BRepGProp_EdgeTool.hxx>
 #include <GeomAdaptor_Curve.hxx>
 #include <Geom_Curve.hxx>

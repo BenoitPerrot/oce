@@ -14,16 +14,16 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <FEmTool_ElementaryCriterion.hxx>
 #include <FEmTool_Curve.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <AppDef_MultiLine.hxx>
 #include <FEmTool_HAssemblyTable.hxx>
-#include <TColStd_HArray2OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray2OfInteger.hxx>
 #include <math_Matrix.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <AppDef_LinearCriteria.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AppDef_LinearCriteria)
@@ -40,7 +40,7 @@ IMPLEMENT_STANDARD_RTTI(AppDef_LinearCriteria)
 #include <PLib_JacobiPolynomial.hxx>
 #include <PLib_HermitJacobi.hxx>
 #include <GeomAbs_Shape.hxx>
-#include <TColStd_HArray2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
 #include <FEmTool_LinearTension.hxx>
 #include <FEmTool_LinearFlexion.hxx>
 #include <FEmTool_LinearJerk.hxx>

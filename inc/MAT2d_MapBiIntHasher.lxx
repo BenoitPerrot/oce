@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <MAT2d_BiInt.hxx>
-#include <TColStd_MapIntegerHasher.hxx>
+#include <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 
 //=======================================================================
 //function : HashCode

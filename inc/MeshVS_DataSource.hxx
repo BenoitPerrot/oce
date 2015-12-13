@@ -16,7 +16,7 @@
 #include <MeshVS_EntityType.hxx>
 #include <Handle_MeshVS_HArray1OfSequenceOfInteger.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
-#include <TColStd_PackedMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_PackedMapOfInteger.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_TColStd_HArray1OfReal.hxx>
 #include <Handle_MeshVS_Mesh.hxx>

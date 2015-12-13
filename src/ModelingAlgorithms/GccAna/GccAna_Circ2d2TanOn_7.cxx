@@ -33,7 +33,7 @@
 #include <GccInt_IType.hxx>
 #include <GccInt_BCirc.hxx>
 #include <IntAna2d_Conic.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <GccEnt_BadQualifier.hxx>
 
 GccAna_Circ2d2TanOn::

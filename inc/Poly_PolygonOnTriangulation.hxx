@@ -11,7 +11,7 @@
 #include <Handle_Poly_PolygonOnTriangulation.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Handle_TColStd_HArray1OfReal.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

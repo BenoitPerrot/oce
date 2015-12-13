@@ -15,14 +15,14 @@
 // commercial license or contractual agreement.
 
 #include <BRepAdaptor_HArray1OfCurve.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/Standard/Standard_NullObject.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopoDS_Wire.hxx>
 #include <TopoDS_Edge.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Adaptor3d_HCurve.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Vec.hxx>

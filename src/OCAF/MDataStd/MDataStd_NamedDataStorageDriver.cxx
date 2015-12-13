@@ -31,20 +31,20 @@ IMPLEMENT_DOWNCAST(MDataStd_NamedDataStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDataStd_NamedDataStorageDriver)
 #include <CDM_MessageDriver.hxx>
 #include <PCollection_HExtendedString.hxx>
-#include <TColStd_HArray2OfInteger.hxx>
-#include <TColStd_HArray1OfReal.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray2OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <PColStd_HArray1OfReal.hxx>
 #include <PColStd_HArray1OfInteger.hxx>
 #include <PDataStd_NamedData.hxx>
 #include <TDataStd_NamedData.hxx>
-#include <TColStd_DataMapOfStringInteger.hxx>
+#include <Foundation/TColStd/TColStd_DataMapOfStringInteger.hxx>
 #include <TDataStd_DataMapOfStringReal.hxx>
 #include <TDataStd_DataMapOfStringString.hxx>
 #include <TDataStd_DataMapOfStringByte.hxx>
 #include <TDataStd_DataMapOfStringHArray1OfInteger.hxx>
 #include <TDataStd_DataMapOfStringHArray1OfReal.hxx>
-#include <TColStd_DataMapIteratorOfDataMapOfStringInteger.hxx>
+#include <Foundation/TColStd/TColStd_DataMapIteratorOfDataMapOfStringInteger.hxx>
 #include <TDataStd_DataMapIteratorOfDataMapOfStringReal.hxx>
 #include <TDataStd_DataMapIteratorOfDataMapOfStringString.hxx>
 #include <TDataStd_DataMapIteratorOfDataMapOfStringByte.hxx>

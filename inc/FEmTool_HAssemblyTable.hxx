@@ -76,7 +76,7 @@ private:
 };
 
 #define ItemHArray2 Handle(TColStd_HArray1OfInteger)
-#define ItemHArray2_hxx <TColStd_HArray1OfInteger.hxx>
+#define ItemHArray2_hxx <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #define TheArray2 FEmTool_AssemblyTable
 #define TheArray2_hxx <FEmTool_AssemblyTable.hxx>
 #define TCollection_HArray2 FEmTool_HAssemblyTable

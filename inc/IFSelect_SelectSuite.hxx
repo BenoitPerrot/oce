@@ -11,7 +11,7 @@
 #include <Handle_IFSelect_SelectSuite.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TColStd_SequenceOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfTransient.hxx>
 #include <IFSelect_SelectDeduct.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_IFSelect_Selection.hxx>

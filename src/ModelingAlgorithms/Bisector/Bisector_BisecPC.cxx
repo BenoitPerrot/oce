@@ -21,7 +21,7 @@
 #include <Geom2d_Geometry.hxx>
 #include <gp_Trsf2d.hxx>
 #include <gp_Vec2d.hxx>
-#include <TColStd_SequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <Bisector_BisecPC.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Bisector_BisecPC)

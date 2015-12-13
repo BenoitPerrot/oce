@@ -57,7 +57,7 @@ private:
 #define TheItem TopOpeBRepDS_CurveData
 #define TheItem_hxx <TopOpeBRepDS_CurveData.hxx>
 #define Hasher TColStd_MapIntegerHasher
-#define Hasher_hxx <TColStd_MapIntegerHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #define TCollection_DataMapNode TopOpeBRepDS_DataMapNodeOfMapOfCurve
 #define TCollection_DataMapNode_hxx <TopOpeBRepDS_DataMapNodeOfMapOfCurve.hxx>
 #define TCollection_DataMapIterator TopOpeBRepDS_DataMapIteratorOfMapOfCurve

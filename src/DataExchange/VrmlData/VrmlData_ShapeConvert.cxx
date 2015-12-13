@@ -39,8 +39,8 @@
 #include <TopoDS_Wire.hxx>
 #include <GCPnts_TangentialDeflection.hxx>
 #include <BRepAdaptor_Curve.hxx>
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <TShort_Array1OfShortReal.hxx>
 #include <GeomLib.hxx>
 #include <TShort_HArray1OfShortReal.hxx>

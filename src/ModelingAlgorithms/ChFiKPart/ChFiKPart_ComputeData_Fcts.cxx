@@ -15,8 +15,8 @@
 // commercial license or contractual agreement.
 
 #include <ChFiKPart_ComputeData_Fcts.hxx>
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <ProjLib_ProjectedCurve.hxx>
 #include <Geom2d_BezierCurve.hxx>
 #include <Geom2d_BSplineCurve.hxx>

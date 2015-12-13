@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <IGESData_IGESModel.hxx>
-#include <TColStd_HSequenceOfHAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfHAsciiString.hxx>
 #include <Interface_InterfaceMismatch.hxx>
 #include <Interface_FloatWriter.hxx>
 #include <IGESData_Protocol.hxx>

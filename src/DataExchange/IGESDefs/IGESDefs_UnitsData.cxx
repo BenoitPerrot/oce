@@ -17,7 +17,7 @@
 //--------------------------------------------------------------------
 
 #include <Interface_HArray1OfHAsciiString.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>

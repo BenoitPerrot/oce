@@ -43,8 +43,8 @@
 #include <GeomAbs_SurfaceType.hxx>
 #include <GeomAPI_ProjectPointOnCurve.hxx>
 #include <BRepAdaptor_Curve.hxx>
-#include <TColStd_ListOfInteger.hxx>
-#include <TColStd_ListIteratorOfListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 #include <TopOpeBRepDS_define.hxx>
 #include <DBRep.hxx>
 #include <Draw_Appli.hxx>

@@ -27,7 +27,7 @@
 
 
 #include <Adaptor3d_HSurface.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Bnd_Box.hxx>
 #include <IntPolyh_Point.hxx>
 #include <IntPolyh_StartPoint.hxx>
@@ -39,7 +39,7 @@
 #include <gp_Pnt.hxx>
 #include <gp.hxx>
 
-#include <TColStd_ListIteratorOfListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 
 #include <Bnd_BoundSortBox.hxx>
 #include <Bnd_HArray1OfBox.hxx> 

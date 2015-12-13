@@ -55,7 +55,7 @@ private:
 #define TheKey TCollection_ExtendedString
 #define TheKey_hxx <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #define TheItem Handle(TColStd_HArray1OfReal)
-#define TheItem_hxx <TColStd_HArray1OfReal.hxx>
+#define TheItem_hxx <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #define Hasher TCollection_ExtendedString
 #define Hasher_hxx <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #define TCollection_DataMapNode TDataStd_DataMapNodeOfDataMapOfStringHArray1OfReal

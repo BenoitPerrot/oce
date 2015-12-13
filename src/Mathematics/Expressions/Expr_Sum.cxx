@@ -26,7 +26,7 @@
 #include <Expr_GeneralExpression.hxx>
 #include <Expr_NamedUnknown.hxx>
 #include <Expr_Array1OfNamedUnknown.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Expr_Sum.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -41,7 +41,7 @@ IMPLEMENT_STANDARD_TYPE_END(Expr_Sum)
 IMPLEMENT_DOWNCAST(Expr_Sum,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Expr_Sum)
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Expr_NumericValue.hxx>
 #include <Expr.hxx>
 

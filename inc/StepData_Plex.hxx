@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepData_Plex.hxx>
 
-#include <TColStd_SequenceOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfTransient.hxx>
 #include <StepData_Described.hxx>
 #include <Handle_StepData_ECDescr.hxx>
 #include <Handle_StepData_Simple.hxx>

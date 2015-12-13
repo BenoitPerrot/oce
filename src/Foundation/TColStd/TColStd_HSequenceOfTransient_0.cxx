@@ -3,14 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TColStd_HSequenceOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <TColStd_SequenceOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfTransient.hxx>
 
  
 
@@ -31,9 +31,9 @@ IMPLEMENT_STANDARD_RTTI(TColStd_HSequenceOfTransient)
 #define Item Handle(Standard_Transient)
 #define Item_hxx <Foundation/Standard/Standard_Transient.hxx>
 #define TheSequence TColStd_SequenceOfTransient
-#define TheSequence_hxx <TColStd_SequenceOfTransient.hxx>
+#define TheSequence_hxx <Foundation/TColStd/TColStd_SequenceOfTransient.hxx>
 #define TCollection_HSequence TColStd_HSequenceOfTransient
-#define TCollection_HSequence_hxx <TColStd_HSequenceOfTransient.hxx>
+#define TCollection_HSequence_hxx <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #define Handle_TCollection_HSequence Handle_TColStd_HSequenceOfTransient
 #define TCollection_HSequence_Type_() TColStd_HSequenceOfTransient_Type_()
 #include <Foundation/TCollection/TCollection_HSequence.gxx>

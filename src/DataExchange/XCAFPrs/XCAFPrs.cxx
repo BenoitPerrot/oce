@@ -28,7 +28,7 @@
 #include <TopoDS.hxx>
 #include <TopoDS_Compound.hxx>
 #include <XCAFDoc_DocumentTool.hxx>
-#include <TColStd_HSequenceOfExtendedString.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfExtendedString.hxx>
 #include <XCAFDoc_LayerTool.hxx>
 #include <TopTools_SequenceOfShape.hxx>
 #include <TopLoc_IndexedMapOfLocation.hxx>

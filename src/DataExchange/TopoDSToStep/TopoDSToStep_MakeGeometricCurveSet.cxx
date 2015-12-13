@@ -31,7 +31,7 @@
 #include <StepShape_GeometricSetSelect.hxx>
 #include <StepShape_HArray1OfGeometricSetSelect.hxx>
 
-#include <TColStd_HSequenceOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Transfer_FinderProcess.hxx>
 #include <TransferBRep_ShapeMapper.hxx>

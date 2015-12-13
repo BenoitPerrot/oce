@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESBasic_HArray1OfHArray1OfReal.hxx>
 
-#include <TColStd_Array1OfTransient.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfTransient.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_TColStd_HArray1OfReal.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

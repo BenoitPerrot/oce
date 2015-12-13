@@ -45,9 +45,9 @@
 #include <TColgp_Array1OfPnt2d.hxx>
 #include <TColgp_HArray1OfVec.hxx>
 #include <TColgp_Array1OfVec.hxx>
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_HArray1OfReal.hxx>
-#include <TColStd_HArray1OfBoolean.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfBoolean.hxx>
 
 #include <AppParCurves_MultiBSpCurve.hxx>
 #include <AppParCurves_MultiCurve.hxx>

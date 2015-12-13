@@ -17,7 +17,7 @@
 #include <BinTools_SurfaceSet.hxx>
 #include <BinTools_CurveSet.hxx>
 #include <BinTools_Curve2dSet.hxx>
-#include <TColStd_IndexedMapOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_IndexedMapOfTransient.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 #include <Foundation/Standard/Standard_IStream.hxx>

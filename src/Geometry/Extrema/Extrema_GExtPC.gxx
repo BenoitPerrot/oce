@@ -27,7 +27,7 @@
 #include <GeomAbs_CurveType.hxx>
 #include <Precision.hxx>
 #include <ElCLib.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 
 
 //=======================================================================

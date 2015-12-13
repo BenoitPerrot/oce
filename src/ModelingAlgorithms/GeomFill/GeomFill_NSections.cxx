@@ -25,12 +25,12 @@
 #include <Geom_BSplineSurface.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <TColGeom_SequenceOfCurve.hxx>
-#include <TColStd_SequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <GeomFill_SequenceOfTrsf.hxx>
 #include <TColgp_Array1OfPnt.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <TColgp_Array1OfVec.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <gp_Pnt.hxx>
 #include <Geom_Curve.hxx>
 #include <GeomFill_NSections.hxx>
@@ -63,8 +63,8 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_NSections)
 #include <GCPnts_AbscissaPoint.hxx>
 #include <TColgp_Array2OfPnt.hxx>
 #include <TColGeom_Array1OfCurve.hxx>
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <BSplCLib.hxx>
 #include <Precision.hxx>
 

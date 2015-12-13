@@ -13,7 +13,7 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Message_Messenger.hxx>
-#include <TColStd_IndexedMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_IndexedMapOfInteger.hxx>
 #include <Handle_Transfer_Finder.hxx>
 #include <Handle_Transfer_Binder.hxx>
 #include <Handle_Transfer_ActorOfProcessForFinder.hxx>

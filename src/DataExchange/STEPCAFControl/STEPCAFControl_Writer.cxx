@@ -79,7 +79,7 @@
 #include <StepVisual_PresentationLayerAssignment.hxx>
 #include <XCAFDoc.hxx>
 #include <StepVisual_HArray1OfLayeredItem.hxx>
-#include <TColStd_HSequenceOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <TDF_Tool.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <TDF_ChildIterator.hxx>
@@ -106,8 +106,8 @@
 #include <StepVisual_PresentationStyleByContext.hxx>
 #include <StepVisual_HArray1OfPresentationStyleSelect.hxx>
 #include <TDF_AttributeSequence.hxx>
-#include <TColStd_MapOfTransient.hxx>
-// #include <TColStd_IndexedDataMapOfTransientTransient.hxx>
+#include <Foundation/TColStd/TColStd_MapOfTransient.hxx>
+// #include <Foundation/TColStd/TColStd_IndexedDataMapOfTransientTransient.hxx>
 #include <StepRepr_NextAssemblyUsageOccurrence.hxx>
 #include <Interface_EntityIterator.hxx>
 #include <StepRepr_SpecifiedHigherUsageOccurrence.hxx>
@@ -162,8 +162,8 @@
 #include <StepDimTol_RoundnessTolerance.hxx>
 #include <StepDimTol_StraightnessTolerance.hxx>
 #include <StepDimTol_SurfaceProfileTolerance.hxx>
-#include <TColStd_HArray1OfReal.hxx>
-#include <TColStd_HArray1OfTransient.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfTransient.hxx>
 
 // added by skl 12.02.2004 for writing materials
 #include <XCAFDoc_MaterialTool.hxx>

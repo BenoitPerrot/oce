@@ -32,7 +32,7 @@
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <TColStd_Array1OfAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfAsciiString.hxx>
 
 IMPLEMENT_STANDARD_TYPE(Resource_Manager)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

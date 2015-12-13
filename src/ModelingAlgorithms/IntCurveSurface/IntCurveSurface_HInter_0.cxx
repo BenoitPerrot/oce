@@ -27,7 +27,7 @@
 #include <IntAna_IntConicQuad.hxx>
 #include <TColgp_Array2OfPnt.hxx>
 #include <Bnd_Box.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
  
 
 #define TheCurve Handle(Adaptor3d_HCurve)

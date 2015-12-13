@@ -14,7 +14,7 @@
 #include <Handle_TColStd_HSequenceOfHAsciiString.hxx>
 #include <Foundation/Standard/Standard_Character.hxx>
 #include <IGESData_Array1OfDirPart.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <IGESData_ReadStage.hxx>
 #include <Interface_LineBuffer.hxx>

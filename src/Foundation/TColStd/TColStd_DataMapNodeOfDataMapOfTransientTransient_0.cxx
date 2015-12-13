@@ -3,14 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TColStd_DataMapNodeOfDataMapOfTransientTransient.hxx>
+#include <Foundation/TColStd/TColStd_DataMapNodeOfDataMapOfTransientTransient.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <TColStd_MapTransientHasher.hxx>
-#include <TColStd_DataMapOfTransientTransient.hxx>
-#include <TColStd_DataMapIteratorOfDataMapOfTransientTransient.hxx>
+#include <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
+#include <Foundation/TColStd/TColStd_DataMapOfTransientTransient.hxx>
+#include <Foundation/TColStd/TColStd_DataMapIteratorOfDataMapOfTransientTransient.hxx>
 
  
 
@@ -34,14 +34,14 @@ IMPLEMENT_STANDARD_RTTI(TColStd_DataMapNodeOfDataMapOfTransientTransient)
 #define TheItem Handle(Standard_Transient)
 #define TheItem_hxx <Foundation/Standard/Standard_Transient.hxx>
 #define Hasher TColStd_MapTransientHasher
-#define Hasher_hxx <TColStd_MapTransientHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define TCollection_DataMapNode TColStd_DataMapNodeOfDataMapOfTransientTransient
-#define TCollection_DataMapNode_hxx <TColStd_DataMapNodeOfDataMapOfTransientTransient.hxx>
+#define TCollection_DataMapNode_hxx <Foundation/TColStd/TColStd_DataMapNodeOfDataMapOfTransientTransient.hxx>
 #define TCollection_DataMapIterator TColStd_DataMapIteratorOfDataMapOfTransientTransient
-#define TCollection_DataMapIterator_hxx <TColStd_DataMapIteratorOfDataMapOfTransientTransient.hxx>
+#define TCollection_DataMapIterator_hxx <Foundation/TColStd/TColStd_DataMapIteratorOfDataMapOfTransientTransient.hxx>
 #define Handle_TCollection_DataMapNode Handle_TColStd_DataMapNodeOfDataMapOfTransientTransient
 #define TCollection_DataMapNode_Type_() TColStd_DataMapNodeOfDataMapOfTransientTransient_Type_()
 #define TCollection_DataMap TColStd_DataMapOfTransientTransient
-#define TCollection_DataMap_hxx <TColStd_DataMapOfTransientTransient.hxx>
+#define TCollection_DataMap_hxx <Foundation/TColStd/TColStd_DataMapOfTransientTransient.hxx>
 #include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

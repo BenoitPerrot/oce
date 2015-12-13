@@ -18,7 +18,7 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <TColgp_Array1OfPnt.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <GeomLib_Interpolate.hxx>
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
@@ -27,10 +27,10 @@
 #include <gp_Vec.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <TColgp_Array1OfVec.hxx>
-#include <TColStd_HArray1OfReal.hxx>
-#include <TColStd_Array1OfBoolean.hxx>
-#include <TColStd_Array1OfInteger.hxx>
-#include <TColStd_HArray1OfBoolean.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfBoolean.hxx>
 
 //=======================================================================
 //function : GeomLib_Interpolate

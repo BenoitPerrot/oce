@@ -13,7 +13,7 @@
 #include <MeshVS_DataMapOfIntegerColor.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Aspect_SequenceOfColor.hxx>
-#include <TColStd_DataMapOfIntegerReal.hxx>
+#include <Foundation/TColStd/TColStd_DataMapOfIntegerReal.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <MeshVS_PrsBuilder.hxx>
 #include <Handle_MeshVS_Mesh.hxx>
@@ -22,7 +22,7 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <MeshVS_BuilderPriority.hxx>
 #include <Handle_Prs3d_Presentation.hxx>
-#include <TColStd_PackedMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_PackedMapOfInteger.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Graphic3d_Texture2D.hxx>
 #include <Handle_MeshVS_HArray1OfSequenceOfInteger.hxx>

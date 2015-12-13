@@ -12,7 +12,7 @@
 #include <BRepAdaptor_Surface.hxx>
 #include <BRepApprox_SurfaceTool.hxx>
 #include <BRepApprox_TheFunctionOfTheInt2SOfThePrmPrmSvSurfacesOfApprox.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <math_FunctionSetRoot.hxx>
 #include <IntSurf_PntOn2S.hxx>
 #include <gp_Dir.hxx>

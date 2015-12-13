@@ -19,7 +19,7 @@
 
 #include <Extrema_HArray2OfPOnSurfParams.hxx>
 #include <Bnd_HArray1OfSphere.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_TypeMismatch.hxx>
@@ -30,8 +30,8 @@
 #include <Extrema_GenExtPS.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <TColStd_Array2OfInteger.hxx>
-#include <TColStd_Array2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array2OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <TColgp_Array2OfPnt.hxx>
 #include <math_FunctionSetRoot.hxx>
 #include <math_Vector.hxx>

@@ -16,7 +16,7 @@
 //AGV 15/10/01 : Add XmlOcaf support; add MessageDriver support
 
 #include <CDM_MessageDriver.hxx>
-#include <TColStd_SequenceOfExtendedString.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfExtendedString.hxx>
 #include <AppStdL_Application.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AppStdL_Application)

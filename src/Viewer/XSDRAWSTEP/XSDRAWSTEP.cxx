@@ -37,7 +37,7 @@
 #include <Transfer_FinderProcess.hxx>
 #include <TransferBRep_ShapeMapper.hxx>
 #include <StepShape_ShapeRepresentation.hxx>
-#include <TColStd_HSequenceOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 
 #include <XSControl_Controller.hxx>
 #include <XSControl_WorkSession.hxx>

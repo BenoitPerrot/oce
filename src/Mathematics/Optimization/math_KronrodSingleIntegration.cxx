@@ -18,7 +18,7 @@
 #include <math_KronrodSingleIntegration.hxx>
 #include <math_Vector.hxx>
 #include <math.hxx>
-#include <TColStd_SequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 
 
 //==========================================================================

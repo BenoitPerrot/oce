@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TColStd_SequenceOfExtendedString.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfExtendedString.hxx>
 #include <TDocStd_Document.hxx>
 #include <XCAFApp_Application.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

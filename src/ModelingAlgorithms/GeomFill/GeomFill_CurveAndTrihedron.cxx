@@ -22,7 +22,7 @@
 #include <gp_Vec.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>
 #include <TColgp_Array1OfVec2d.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <gp_Pnt.hxx>
 #include <GeomFill_CurveAndTrihedron.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -37,7 +37,7 @@ IMPLEMENT_DOWNCAST(GeomFill_CurveAndTrihedron,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(GeomFill_CurveAndTrihedron)
 #include <GeomLib.hxx>
 #include <gp_Circ.hxx>
-#include <TColStd_SequenceOfReal.hxx> 
+#include <Foundation/TColStd/TColStd_SequenceOfReal.hxx> 
 #include <Precision.hxx>
 
 //==================================================================

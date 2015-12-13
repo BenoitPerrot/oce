@@ -16,7 +16,7 @@
 #ifndef _BRepBuilderAPI_VertexInspector_Header
 #define _BRepBuilderAPI_VertexInspector_Header
 
-#include <TColStd_ListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <Foundation/NCollection/NCollection_Vector.hxx>
 #include <gp_XY.hxx>
 #include <gp_XYZ.hxx>

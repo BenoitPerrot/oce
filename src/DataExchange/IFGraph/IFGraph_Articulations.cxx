@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TColStd_HSequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfInteger.hxx>
 #include <Interface_Graph.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Interface_EntityIterator.hxx>

@@ -12,7 +12,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Extrema_HArray1OfPOnSurf.hxx>
 #include <Foundation/StdFail/StdFail_InfiniteSolutions.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>

@@ -17,7 +17,7 @@
 #include <gp_Pnt2d.hxx>
 #include <gp_Dir2d.hxx>
 #include <gp_Lin2d.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Adaptor2d_HCurve2d.hxx>
 #include <gp_Vec2d.hxx>
 #include <gp_Circ2d.hxx>

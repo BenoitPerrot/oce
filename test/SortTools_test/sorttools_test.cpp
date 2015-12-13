@@ -1,5 +1,5 @@
 #include <Foundation/TCollection/TCollection_CompareOfInteger.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/SortTools/SortTools_QuickSortOfInteger.hxx>
 
 #include <gtest/gtest.h>

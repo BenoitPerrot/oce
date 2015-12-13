@@ -17,7 +17,7 @@
 #include <Extrema_SequenceOfPOnSurf.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <gp_Pnt.hxx>
-#include <TColStd_SequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <GeomAbs_SurfaceType.hxx>
 #include <Handle_Extrema_ExtPExtS.hxx>
 #include <Handle_Extrema_ExtPRevS.hxx>

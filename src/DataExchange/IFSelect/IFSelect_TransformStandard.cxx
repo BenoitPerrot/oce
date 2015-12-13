@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_RTTI(IFSelect_TransformStandard)
 #include <IFSelect_Selection.hxx>
 #include <IFSelect_ContextModif.hxx>
 #include <Interface_CheckIterator.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Interface_EntityIterator.hxx>
 
 #include <Foundation/Message/Message_Messenger.hxx>

@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <MeshVS_PrsBuilder.hxx>
-#include <TColStd_HPackedMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HPackedMapOfInteger.hxx>
 #include <MeshVS_DataSource.hxx>
 #include <MeshVS_Drawer.hxx>
 #include <SelectMgr_EntityOwner.hxx>
@@ -63,12 +63,12 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_Mesh)
 #include <Graphic3d_AspectFillArea3d.hxx>
 #include <Graphic3d_NameOfMaterial.hxx>
 
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_Array1OfInteger.hxx>
-#include <TColStd_MapIteratorOfPackedMapOfInteger.hxx>
-#include <TColStd_ListIteratorOfListOfReal.hxx>
-#include <TColStd_SequenceOfInteger.hxx>
-#include <TColStd_ListIteratorOfListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_MapIteratorOfPackedMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfReal.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 
 #include <Bnd_Box.hxx>
 

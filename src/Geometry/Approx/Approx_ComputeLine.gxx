@@ -14,7 +14,7 @@
 
 #include <Approx_ParametrizationType.hxx>
 #include Approx_ParLeastSquareOfMyGradient_hxx
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>
 #include <gp_Pnt.hxx>

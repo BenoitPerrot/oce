@@ -33,8 +33,8 @@ IMPLEMENT_DOWNCAST(ChFiDS_FilSpine,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ChFiDS_FilSpine)
 #include <ChFiDS_ListIteratorOfListOfHElSpine.hxx>
 #include <Precision.hxx>
-#include <TColStd_HArray1OfBoolean.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfBoolean.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <gp_XY.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>
 #include <ElCLib.hxx>

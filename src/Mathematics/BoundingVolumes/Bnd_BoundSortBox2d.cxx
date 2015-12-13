@@ -15,17 +15,17 @@
 // commercial license or contractual agreement.
 
 #include <Bnd_HArray1OfBox2d.hxx>
-#include <TColStd_HArray1OfListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfListOfInteger.hxx>
 #include <Foundation/Standard/Standard_NullValue.hxx>
 #include <Foundation/Standard/Standard_MultiplyDefined.hxx>
 #include <Bnd_Box2d.hxx>
-#include <TColStd_ListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <Bnd_BoundSortBox2d.hxx>
 #include <Foundation/Standard/Standard_NullValue.hxx>
 #include <Bnd_Array1OfBox.hxx>
-#include <TColStd_ListIteratorOfListOfInteger.hxx>
-#include <TColStd_DataMapIteratorOfDataMapOfIntegerInteger.hxx>
-#include <TColStd_Array1OfListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_DataMapIteratorOfDataMapOfIntegerInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfListOfInteger.hxx>
 
 
 //=======================================================================

@@ -9,7 +9,7 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <SelectMgr_SelectableObject.hxx>
 #include <AIS_LocalStatus.hxx>
-#include <TColStd_MapTransientHasher.hxx>
+#include <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #include <AIS_DataMapNodeOfDataMapOfSelStat.hxx>
 #include <AIS_DataMapIteratorOfDataMapOfSelStat.hxx>
  
@@ -19,7 +19,7 @@
 #define TheItem Handle(AIS_LocalStatus)
 #define TheItem_hxx <AIS_LocalStatus.hxx>
 #define Hasher TColStd_MapTransientHasher
-#define Hasher_hxx <TColStd_MapTransientHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define TCollection_DataMapNode AIS_DataMapNodeOfDataMapOfSelStat
 #define TCollection_DataMapNode_hxx <AIS_DataMapNodeOfDataMapOfSelStat.hxx>
 #define TCollection_DataMapIterator AIS_DataMapIteratorOfDataMapOfSelStat

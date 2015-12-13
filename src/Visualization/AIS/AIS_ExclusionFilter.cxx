@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <SelectMgr_EntityOwner.hxx>
-#include <TColStd_ListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <AIS_ExclusionFilter.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_ExclusionFilter)
@@ -27,9 +27,9 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(AIS_ExclusionFilter)
 IMPLEMENT_DOWNCAST(AIS_ExclusionFilter,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(AIS_ExclusionFilter)
-#include <TColStd_ListOfInteger.hxx>
-#include <TColStd_ListIteratorOfListOfInteger.hxx>
-#include <TColStd_DataMapIteratorOfDataMapOfIntegerListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_DataMapIteratorOfDataMapOfIntegerListOfInteger.hxx>
 #include <AIS_InteractiveObject.hxx>
 
 //=======================================================================

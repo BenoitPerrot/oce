@@ -12,9 +12,9 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <TColStd_HSequenceOfAsciiString.hxx>
-#include <TColStd_HSequenceOfReal.hxx>
-#include <TColStd_HSequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfInteger.hxx>
 #include <Interface_STAT.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 

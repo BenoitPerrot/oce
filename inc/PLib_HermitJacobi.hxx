@@ -12,7 +12,7 @@
 
 #include <math_Matrix.hxx>
 #include <Handle_PLib_JacobiPolynomial.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <PLib_Base.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <GeomAbs_Shape.hxx>

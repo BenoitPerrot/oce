@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <SelectBasics_EntityOwner.hxx>
 #include <StdSelect_Prs.hxx>
-#include <TColStd_MapTransientHasher.hxx>
+#include <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #include <StdSelect_IndexedDataMapNodeOfIndexedDataMapOfOwnerPrs.hxx>
  
 
@@ -19,7 +19,7 @@
 #define TheItem Handle(StdSelect_Prs)
 #define TheItem_hxx <StdSelect_Prs.hxx>
 #define Hasher TColStd_MapTransientHasher
-#define Hasher_hxx <TColStd_MapTransientHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define TCollection_IndexedDataMapNode StdSelect_IndexedDataMapNodeOfIndexedDataMapOfOwnerPrs
 #define TCollection_IndexedDataMapNode_hxx <StdSelect_IndexedDataMapNodeOfIndexedDataMapOfOwnerPrs.hxx>
 #define Handle_TCollection_IndexedDataMapNode Handle_StdSelect_IndexedDataMapNodeOfIndexedDataMapOfOwnerPrs

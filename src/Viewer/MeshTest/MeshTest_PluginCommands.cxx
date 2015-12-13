@@ -15,10 +15,10 @@
 
 #include <MeshTest.hxx>
 #include <Draw_Interpretor.hxx>
-#include <TColStd_MapOfAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_MapOfAsciiString.hxx>
 #include <BRepMesh_DiscretFactory.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TColStd_MapIteratorOfMapOfAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_MapIteratorOfMapOfAsciiString.hxx>
 #include <BRepMesh_FactoryError.hxx>
 #include <BRepMesh_DiscretRoot.hxx>
 #include <BRepMesh_IncrementalMesh.hxx>
@@ -41,7 +41,7 @@
 #include <Poly_Polygon2D.hxx>
 #include <Foundation/Standard/Standard.hxx>
 #include <TopExp_Explorer.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Poly_PolygonOnTriangulation.hxx>
 #include <TopoDS_Face.hxx>
 #include <BRepMesh_Edge.hxx>

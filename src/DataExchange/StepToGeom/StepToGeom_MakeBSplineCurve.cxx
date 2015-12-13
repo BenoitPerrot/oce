@@ -19,13 +19,13 @@
 #include <StepToGeom_MakeBSplineCurve.hxx>
 #include <gp_Pnt.hxx>
 #include <StepGeom_HArray1OfCartesianPoint.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <StepGeom_BSplineCurveWithKnots.hxx>
 #include <StepGeom_BSplineCurveWithKnotsAndRationalBSplineCurve.hxx>
 #include <TColgp_Array1OfPnt.hxx>
-#include <TColStd_Array1OfInteger.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <StepGeom_CartesianPoint.hxx>
 #include <StepToGeom_MakeCartesianPoint.hxx>
 #include <Geom_CartesianPoint.hxx>

@@ -20,7 +20,7 @@
 #include <Geom_BSplineSurface.hxx>
 #include <TopTools_SequenceOfShape.hxx>
 #include <GeomFill_SequenceOfTrsf.hxx>
-#include <TColStd_SequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <GeomFill_SectionLaw.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <TopoDS_Shape.hxx>
@@ -70,8 +70,8 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_NSections)
 #include <BSplCLib.hxx>
 
 #include <TColgp_HArray1OfPnt.hxx>
-#include <TColStd_HArray1OfReal.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Geom_BezierCurve.hxx>
 #include <TopTools_Array1OfShape.hxx>
 

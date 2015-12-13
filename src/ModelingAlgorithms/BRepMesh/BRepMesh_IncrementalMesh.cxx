@@ -47,7 +47,7 @@
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <TopTools_HArray1OfShape.hxx>
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 

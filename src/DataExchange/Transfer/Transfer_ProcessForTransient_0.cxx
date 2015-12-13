@@ -14,8 +14,8 @@
 #include <Foundation/Message/Message_ProgressIndicator.hxx>
 #include <Interface_InterfaceError.hxx>
 #include <Transfer_TransferFailure.hxx>
-#include <TColStd_MapTransientHasher.hxx>
-#include <TColStd_HSequenceOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <Transfer_TransferMapOfProcessForTransient.hxx>
 #include <Transfer_IndexedDataMapNodeOfTransferMapOfProcessForTransient.hxx>
 #include <Transfer_IteratorOfProcessForTransient.hxx>
@@ -43,10 +43,10 @@ IMPLEMENT_STANDARD_RTTI(Transfer_ProcessForTransient)
 #define TheStart Handle(Standard_Transient)
 #define TheStart_hxx <Foundation/Standard/Standard_Transient.hxx>
 #define TheMapHasher TColStd_MapTransientHasher
-#define TheMapHasher_hxx <TColStd_MapTransientHasher.hxx>
+#define TheMapHasher_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define Handle_TheList Handle_TColStd_HSequenceOfTransient
 #define TheList TColStd_HSequenceOfTransient
-#define TheList_hxx <TColStd_HSequenceOfTransient.hxx>
+#define TheList_hxx <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #define Transfer_TransferMap Transfer_TransferMapOfProcessForTransient
 #define Transfer_TransferMap_hxx <Transfer_TransferMapOfProcessForTransient.hxx>
 #define Transfer_IndexedDataMapNodeOfTransferMap Transfer_IndexedDataMapNodeOfTransferMapOfProcessForTransient

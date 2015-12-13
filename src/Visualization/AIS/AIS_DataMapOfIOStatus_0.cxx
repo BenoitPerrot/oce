@@ -9,7 +9,7 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <AIS_InteractiveObject.hxx>
 #include <AIS_GlobalStatus.hxx>
-#include <TColStd_MapTransientHasher.hxx>
+#include <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #include <AIS_DataMapNodeOfDataMapOfIOStatus.hxx>
 #include <AIS_DataMapIteratorOfDataMapOfIOStatus.hxx>
  
@@ -19,7 +19,7 @@
 #define TheItem Handle(AIS_GlobalStatus)
 #define TheItem_hxx <AIS_GlobalStatus.hxx>
 #define Hasher TColStd_MapTransientHasher
-#define Hasher_hxx <TColStd_MapTransientHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define TCollection_DataMapNode AIS_DataMapNodeOfDataMapOfIOStatus
 #define TCollection_DataMapNode_hxx <AIS_DataMapNodeOfDataMapOfIOStatus.hxx>
 #define TCollection_DataMapIterator AIS_DataMapIteratorOfDataMapOfIOStatus

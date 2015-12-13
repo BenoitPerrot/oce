@@ -17,7 +17,7 @@
 //--------------------------------------------------------------------
 
 #include <IGESSolid_HArray1OfFace.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <IGESSolid_Face.hxx>

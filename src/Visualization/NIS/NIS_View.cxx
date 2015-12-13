@@ -19,7 +19,7 @@
 #include <gp_Ax1.hxx>
 #include <Visual3d_View.hxx>
 #include <Bnd_B2f.hxx>
-#include <TColStd_MapIteratorOfPackedMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_MapIteratorOfPackedMapOfInteger.hxx>
 
 #include <OpenGl_GlCore11.hxx>
 

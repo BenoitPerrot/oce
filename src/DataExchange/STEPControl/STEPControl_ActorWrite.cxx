@@ -88,7 +88,7 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_ActorWrite)
 #include <StepRepr_PropertyDefinition.hxx>
 
 #include <TopExp_Explorer.hxx>
-#include <TColStd_HSequenceOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 #include <Transfer_TransientProcess.hxx>

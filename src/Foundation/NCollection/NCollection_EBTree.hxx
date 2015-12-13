@@ -20,7 +20,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/NCollection/NCollection_List.hxx>
-#include <TColStd_SequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <Foundation/NCollection/NCollection_DataMap.hxx>
 
 /**

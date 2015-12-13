@@ -18,8 +18,8 @@
 #include <Adaptor3d_HCurve.hxx>
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Geom_Curve.hxx>
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <TColgp_Array1OfVec.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>
@@ -43,7 +43,7 @@
 #include <GeomAdaptor.hxx>
 #include <GeomAdaptor_Curve.hxx>
 #include <GCPnts_QuasiUniformDeflection.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 
 #include <stdio.h>
 

@@ -35,9 +35,9 @@
 #include <IGESGraph_HArray1OfColor.hxx>
 #include <IGESData_LineFontEntity.hxx>
 #include <IGESDraw_HArray1OfViewKindEntity.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <IGESBasic_HArray1OfLineFontEntity.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Interface_Macros.hxx>
 
 

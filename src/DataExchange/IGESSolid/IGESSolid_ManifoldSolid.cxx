@@ -18,7 +18,7 @@
 
 #include <IGESSolid_Shell.hxx>
 #include <IGESSolid_HArray1OfShell.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <IGESSolid_ManifoldSolid.hxx>

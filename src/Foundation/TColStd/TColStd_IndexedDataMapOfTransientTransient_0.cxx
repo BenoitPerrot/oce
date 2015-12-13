@@ -3,14 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TColStd_IndexedDataMapOfTransientTransient.hxx>
+#include <Foundation/TColStd/TColStd_IndexedDataMapOfTransientTransient.hxx>
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <TColStd_MapTransientHasher.hxx>
-#include <TColStd_IndexedDataMapNodeOfIndexedDataMapOfTransientTransient.hxx>
+#include <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
+#include <Foundation/TColStd/TColStd_IndexedDataMapNodeOfIndexedDataMapOfTransientTransient.hxx>
  
 
 #define TheKey Handle(Standard_Transient)
@@ -18,12 +18,12 @@
 #define TheItem Handle(Standard_Transient)
 #define TheItem_hxx <Foundation/Standard/Standard_Transient.hxx>
 #define Hasher TColStd_MapTransientHasher
-#define Hasher_hxx <TColStd_MapTransientHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define TCollection_IndexedDataMapNode TColStd_IndexedDataMapNodeOfIndexedDataMapOfTransientTransient
-#define TCollection_IndexedDataMapNode_hxx <TColStd_IndexedDataMapNodeOfIndexedDataMapOfTransientTransient.hxx>
+#define TCollection_IndexedDataMapNode_hxx <Foundation/TColStd/TColStd_IndexedDataMapNodeOfIndexedDataMapOfTransientTransient.hxx>
 #define Handle_TCollection_IndexedDataMapNode Handle_TColStd_IndexedDataMapNodeOfIndexedDataMapOfTransientTransient
 #define TCollection_IndexedDataMapNode_Type_() TColStd_IndexedDataMapNodeOfIndexedDataMapOfTransientTransient_Type_()
 #define TCollection_IndexedDataMap TColStd_IndexedDataMapOfTransientTransient
-#define TCollection_IndexedDataMap_hxx <TColStd_IndexedDataMapOfTransientTransient.hxx>
+#define TCollection_IndexedDataMap_hxx <Foundation/TColStd/TColStd_IndexedDataMapOfTransientTransient.hxx>
 #include <Foundation/TCollection/TCollection_IndexedDataMap.gxx>
 

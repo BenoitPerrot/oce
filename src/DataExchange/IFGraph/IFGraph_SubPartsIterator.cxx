@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TColStd_HSequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfInteger.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Interface_InterfaceError.hxx>
@@ -21,7 +21,7 @@
 #include <Interface_EntityIterator.hxx>
 #include <Interface_GraphContent.hxx>
 #include <IFGraph_SubPartsIterator.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Interface_InterfaceError.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 

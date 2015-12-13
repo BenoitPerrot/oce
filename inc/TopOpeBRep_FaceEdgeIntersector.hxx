@@ -16,7 +16,7 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <GeomAdaptor_Curve.hxx>
 #include <IntCurveSurface_SequenceOfPnt.hxx>
-#include <TColStd_SequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <TopExp_Explorer.hxx>
 #include <TopoDS_Shape.hxx>

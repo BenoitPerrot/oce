@@ -15,8 +15,8 @@
 #include <BinObjMgt_SRelocationTable.hxx>
 #include <Handle_CDM_MessageDriver.hxx>
 #include <TDF_LabelList.hxx>
-#include <TColStd_MapOfTransient.hxx>
-#include <TColStd_IndexedMapOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_MapOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_IndexedMapOfTransient.hxx>
 #include <BinLDrivers_VectorOfDocumentSection.hxx>
 #include <PCDM_StorageDriver.hxx>
 #include <Handle_CDM_Document.hxx>

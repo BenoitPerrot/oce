@@ -12,10 +12,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_Array2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <PLib_JacobiPolynomial.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PLib_JacobiPolynomial)
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(PLib_JacobiPolynomial)
 
 #include <math.hxx>
 #include <math_Vector.hxx>
-#include <TColStd_Array2OfReal.hxx> 
+#include <Foundation/TColStd/TColStd_Array2OfReal.hxx> 
 #include <PLib.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 

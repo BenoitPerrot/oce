@@ -19,7 +19,7 @@
 #include <Geom2d_Curve.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TColGeom2d_SequenceOfCurve.hxx>
-#include <TColStd_SequenceOfBoolean.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfBoolean.hxx>
 #include <BRepMAT2d_Explorer.hxx>
 #include <MAT2d_SequenceOfSequenceOfCurve.hxx>
 #include <TColGeom2d_SequenceOfCurve.hxx>

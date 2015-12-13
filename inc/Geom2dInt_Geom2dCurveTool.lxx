@@ -23,7 +23,7 @@
 #include <gp_Parab2d.hxx>
 #include <gp_Hypr2d.hxx>
 
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Adaptor2d_Curve2d.hxx>
 
 #define   IS_C2_COMPOSITE 0

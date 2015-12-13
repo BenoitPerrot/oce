@@ -21,10 +21,10 @@
 #include <Geom_BSplineCurve.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <TColgp_Array1OfPnt.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <TColgp_Array1OfVec.hxx>
 #include <Geom_BSplineSurface.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <gp_Pnt.hxx>
 #include <GeomFill_EvolvedSection.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -48,8 +48,8 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_EvolvedSection)
 
 #include <GCPnts_AbscissaPoint.hxx>
 #include <TColgp_Array2OfPnt.hxx>
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Precision.hxx>
 
 

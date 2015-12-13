@@ -68,7 +68,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_IdenticRelation)
 #include <Select3D_SensitiveSegment.hxx>
 #include <SelectMgr_EntityOwner.hxx>
 
-#include <TColStd_ListIteratorOfListOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfTransient.hxx>
 
 #include <StdPrs_WFDeflectionShape.hxx>
 

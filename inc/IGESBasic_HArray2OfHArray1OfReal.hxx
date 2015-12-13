@@ -76,7 +76,7 @@ private:
 };
 
 #define ItemHArray2 Handle(TColStd_HArray1OfReal)
-#define ItemHArray2_hxx <TColStd_HArray1OfReal.hxx>
+#define ItemHArray2_hxx <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #define TheArray2 IGESBasic_Array2OfHArray1OfReal
 #define TheArray2_hxx <IGESBasic_Array2OfHArray1OfReal.hxx>
 #define TCollection_HArray2 IGESBasic_HArray2OfHArray1OfReal

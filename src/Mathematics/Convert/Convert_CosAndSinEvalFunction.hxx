@@ -15,8 +15,8 @@
 // commercial license or contractual agreement.
 
 #include <TColgp_Array1OfPnt2d.hxx>
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 
 #ifndef _Convert_CosAnSinEvalFunction_HeaderFile
 #define _Convert_CosAnSinEvalFunction_HeaderFile

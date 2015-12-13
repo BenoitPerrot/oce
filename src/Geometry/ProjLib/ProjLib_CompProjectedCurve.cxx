@@ -17,8 +17,8 @@
 #include <Adaptor3d_HSurface.hxx>
 #include <Adaptor3d_HCurve.hxx>
 #include <ProjLib_HSequenceOfHSequenceOfPnt.hxx>
-#include <TColStd_HArray1OfBoolean.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfBoolean.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
@@ -26,7 +26,7 @@
 #include <gp_Pnt2d.hxx>
 #include <gp_Vec2d.hxx>
 #include <Adaptor2d_HCurve2d.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <ProjLib_CompProjectedCurve.hxx>
 #include <ProjLib_HCompProjectedCurve.hxx>
 #include <gp_XY.hxx>

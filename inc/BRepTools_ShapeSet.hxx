@@ -14,7 +14,7 @@
 #include <GeomTools_SurfaceSet.hxx>
 #include <GeomTools_CurveSet.hxx>
 #include <GeomTools_Curve2dSet.hxx>
-#include <TColStd_IndexedMapOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_IndexedMapOfTransient.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <TopTools_ShapeSet.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>

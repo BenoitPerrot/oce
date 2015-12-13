@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <Transfer_HSequenceOfBinder.hxx>
-#include <TColStd_HSequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfInteger.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Transfer_Binder.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

@@ -5,8 +5,8 @@
 
 #include <GeomInt_TheComputeLineOfWLApprox.hxx>
 
-#include <TColStd_HArray1OfReal.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <AppParCurves_HArray1OfConstraintCouple.hxx>
 #include <GeomInt_TheMultiLineOfWLApprox.hxx>
 #include <GeomInt_TheMultiLineToolOfWLApprox.hxx>
@@ -19,8 +19,8 @@
 #include <GeomInt_ResConstraintOfMyGradientbisOfTheComputeLineOfWLApprox.hxx>
 #include <GeomInt_ParFunctionOfMyGradientbisOfTheComputeLineOfWLApprox.hxx>
 #include <GeomInt_Gradient_BFGSOfMyGradientbisOfTheComputeLineOfWLApprox.hxx>
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <AppParCurves_MultiBSpCurve.hxx>
 #include <AppParCurves_MultiCurve.hxx>
  

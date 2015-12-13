@@ -14,9 +14,9 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <TColgp_Array1OfCirc2d.hxx>
 #include <GccEnt_Array1OfPosition.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Handle_Geom2d_Point.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <GccEnt_Position.hxx>

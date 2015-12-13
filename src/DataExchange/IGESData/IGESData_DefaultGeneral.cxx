@@ -32,7 +32,7 @@ IMPLEMENT_DOWNCAST(IGESData_DefaultGeneral,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESData_DefaultGeneral)
 #include <IGESData_UndefinedEntity.hxx>
 #include <IGESData_FreeFormatEntity.hxx>
-#include <TColStd_HSequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfInteger.hxx>
 #include <Interface_UndefinedContent.hxx>
 #include <Interface_GeneralLib.hxx>
 #include <IGESData.hxx>

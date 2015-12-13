@@ -13,18 +13,18 @@
 
 #include <Geom_Surface.hxx>
 #include <Geom_HSequenceOfBSplineSurface.hxx>
-#include <TColStd_HSequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfInteger.hxx>
 #include <Geom_BSplineSurface.hxx>
 #include <Geom_SequenceOfBSplineSurface.hxx>
 #include <Geom_OsculatingSurface.hxx>
 #include <Geom_BezierSurface.hxx>
 #include <TColgp_Array2OfPnt.hxx>
 #include <TColgp_HArray2OfPnt.hxx>
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_Array1OfInteger.hxx>
-#include <TColStd_HArray2OfInteger.hxx>
-#include <TColStd_HArray1OfReal.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray2OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <TColgp_Array2OfVec.hxx>
 #include <BSplSLib.hxx>

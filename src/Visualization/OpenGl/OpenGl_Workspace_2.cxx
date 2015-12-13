@@ -16,7 +16,7 @@
 #include <OpenGl_GlCore11.hxx>
 
 #include <OpenGl_FrameBuffer.hxx>
-#include <TColStd_Array2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <OpenGl_telem_util.hxx>
 
 #if (defined(_WIN32) || defined(__WIN32__)) && defined(HAVE_FREEIMAGE)

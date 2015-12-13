@@ -18,8 +18,8 @@
 
 #include <Foundation/NCollection/NCollection_Sequence.hxx>
 #include <Foundation/NCollection/NCollection_IndexedMap.hxx>
-#include <TColStd_PackedMapOfInteger.hxx>
-#include <TColStd_MapIteratorOfPackedMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_PackedMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_MapIteratorOfPackedMapOfInteger.hxx>
 #include <Foundation/NCollection/NCollection_BaseAllocator.hxx>
 #include <Foundation/NCollection/NCollection_List.hxx>
 

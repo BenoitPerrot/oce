@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <TColStd_IndexedMapOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_IndexedMapOfTransient.hxx>
 #include <Handle_Message_ProgressIndicator.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Geom_Surface.hxx>

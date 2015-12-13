@@ -57,7 +57,7 @@ private:
 #define TheItem Standard_Integer
 #define TheItem_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define Hasher TColStd_MapTransientHasher
-#define Hasher_hxx <TColStd_MapTransientHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define TCollection_DataMapNode SelectMgr_DataMapNodeOfDataMapOfSelectionActivation
 #define TCollection_DataMapNode_hxx <SelectMgr_DataMapNodeOfDataMapOfSelectionActivation.hxx>
 #define TCollection_DataMapIterator SelectMgr_DataMapIteratorOfDataMapOfSelectionActivation

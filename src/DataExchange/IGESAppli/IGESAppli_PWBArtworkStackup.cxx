@@ -17,7 +17,7 @@
 //--------------------------------------------------------------------
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <IGESAppli_PWBArtworkStackup.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

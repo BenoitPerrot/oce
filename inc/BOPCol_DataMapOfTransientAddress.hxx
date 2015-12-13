@@ -16,7 +16,7 @@
 #define BOPCol_DataMapOfTransientAddress_HeaderFile
 
 #include <Foundation/NCollection/NCollection_DataMap.hxx>
-#include <TColStd_MapTransientHasher.hxx>
+#include <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 
 typedef NCollection_DataMap<Handle(Standard_Transient), Standard_Address, TColStd_MapTransientHasher> BOPCol_DataMapOfTransientAddress; 
 typedef BOPCol_DataMapOfTransientAddress::Iterator BOPCol_DataMapIteratorOfDataMapOfTransientAddress; 

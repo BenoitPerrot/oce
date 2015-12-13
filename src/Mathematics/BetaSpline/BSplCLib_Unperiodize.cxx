@@ -14,8 +14,8 @@
 // commercial license or contractual agreement.
 
 #include <BSplCLib.hxx>
-#include <TColStd_Array1OfInteger.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <PLib.hxx>
 #include <BSplCLib_Helpers.hxx>
 

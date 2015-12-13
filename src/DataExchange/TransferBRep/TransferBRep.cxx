@@ -17,11 +17,11 @@
 #include <Transfer_TransientProcess.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <TopTools_HSequenceOfShape.hxx>
-#include <TColStd_HSequenceOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <Transfer_FinderProcess.hxx>
 #include <TransferBRep_ShapeMapper.hxx>
 #include <TransferBRep_HSequenceOfTransferResultInfo.hxx>
-#include <TColStd_HSequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfInteger.hxx>
 #include <Foundation/Message/Message_Printer.hxx>
 #include <Foundation/Message/Message_Msg.hxx>
 #include <TransferBRep_TransferResultInfo.hxx>

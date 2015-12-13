@@ -9,7 +9,7 @@
 
 #include <SelectMgr_SelectableObject.hxx>
 #include <SelectMgr_SequenceOfSelector.hxx>
-#include <TColStd_MapTransientHasher.hxx>
+#include <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #include <SelectMgr_DataMapOfObjectSelectors.hxx>
 #include <SelectMgr_DataMapIteratorOfDataMapOfObjectSelectors.hxx>
 
@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_RTTI(SelectMgr_DataMapNodeOfDataMapOfObjectSelectors)
 #define TheItem SelectMgr_SequenceOfSelector
 #define TheItem_hxx <SelectMgr_SequenceOfSelector.hxx>
 #define Hasher TColStd_MapTransientHasher
-#define Hasher_hxx <TColStd_MapTransientHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define TCollection_DataMapNode SelectMgr_DataMapNodeOfDataMapOfObjectSelectors
 #define TCollection_DataMapNode_hxx <SelectMgr_DataMapNodeOfDataMapOfObjectSelectors.hxx>
 #define TCollection_DataMapIterator SelectMgr_DataMapIteratorOfDataMapOfObjectSelectors

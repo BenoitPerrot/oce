@@ -45,9 +45,9 @@
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
-#include <TColStd_SequenceOfAsciiString.hxx>
-#include <TColStd_HSequenceOfAsciiString.hxx>
-#include <TColStd_MapOfAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_MapOfAsciiString.hxx>
 
 IMPLEMENT_STANDARD_TYPE(Storage_Schema)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

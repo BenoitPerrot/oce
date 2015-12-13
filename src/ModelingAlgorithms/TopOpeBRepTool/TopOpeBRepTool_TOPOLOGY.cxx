@@ -41,7 +41,7 @@
 #include <BRep_Builder.hxx>
 #include <ElCLib.hxx>
 #include <Precision.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <TopOpeBRepTool_CurveTool.hxx>
 #include <TopOpeBRepTool_ShapeTool.hxx>
 #include <TopOpeBRepTool_2d.hxx>

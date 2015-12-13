@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Resource/Resource_Manager.hxx>
-#include <TColStd_HSequenceOfHAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfHAsciiString.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <Foundation/Message/Message_ProgressIndicator.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>

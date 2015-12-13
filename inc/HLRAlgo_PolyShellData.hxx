@@ -11,7 +11,7 @@
 #include <Handle_HLRAlgo_PolyShellData.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <TColStd_Array1OfTransient.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfTransient.hxx>
 #include <Handle_TColStd_HArray1OfTransient.hxx>
 #include <HLRAlgo_ListOfBPoint.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

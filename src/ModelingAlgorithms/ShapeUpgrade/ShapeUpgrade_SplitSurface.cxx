@@ -16,7 +16,7 @@
 
 //    gka 30.04.99 S4137: extended for all types of surfaces
 
-#include <TColStd_HSequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
 #include <Geom_Surface.hxx>
 #include <ShapeExtend_CompositeSurface.hxx>
 #include <ShapeUpgrade_SplitSurface.hxx>
@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_SplitSurface)
 #include <Geom_BSplineSurface.hxx>
 #include <Geom_RectangularTrimmedSurface.hxx>
 #include <TColGeom_HArray2OfSurface.hxx>
-#include <TColStd_HSequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
 #include <Precision.hxx>
 #include <Geom_SurfaceOfRevolution.hxx>
 #include <Geom_SurfaceOfLinearExtrusion.hxx>
@@ -46,7 +46,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_SplitSurface)
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <ShapeExtend.hxx>
 #include <Geom_BezierSurface.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 
 //=======================================================================
 //function : ShapeUpgrade_SplitSurface

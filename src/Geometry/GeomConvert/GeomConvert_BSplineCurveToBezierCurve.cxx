@@ -20,11 +20,11 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Geom_BezierCurve.hxx>
 #include <TColGeom_Array1OfBezierCurve.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <GeomConvert_BSplineCurveToBezierCurve.hxx>
 
 #include <TColgp_Array1OfPnt.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 
 
 //=======================================================================

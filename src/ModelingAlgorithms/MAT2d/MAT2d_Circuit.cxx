@@ -31,14 +31,14 @@
 #endif
 
 #include <MAT2d_SequenceOfSequenceOfGeometry.hxx>
-#include <TColStd_SequenceOfBoolean.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfBoolean.hxx>
 #include <Geom2d_Geometry.hxx>
 #include <MAT2d_Connexion.hxx>
 #include <TColGeom2d_SequenceOfGeometry.hxx>
 #include <MAT2d_BiInt.hxx>
 #include <MAT2d_SequenceOfConnexion.hxx>
 #include <MAT2d_MiniPath.hxx>
-#include <TColStd_SequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <MAT2d_Circuit.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MAT2d_Circuit)
@@ -52,9 +52,9 @@ IMPLEMENT_STANDARD_RTTI(MAT2d_Circuit)
 #include <Geom2d_TrimmedCurve.hxx>
 #include <Geom2d_CartesianPoint.hxx>
 #include <Geom2d_Geometry.hxx>      
-#include <TColStd_SequenceOfInteger.hxx>
-#include <TColStd_Array1OfBoolean.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <MAT2d_BiInt.hxx>
 #include <MAT2d_MiniPath.hxx>
 #include <MAT2d_Connexion.hxx>

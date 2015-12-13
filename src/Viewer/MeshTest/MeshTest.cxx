@@ -45,8 +45,8 @@
 #include <BRepMesh_Vertex.hxx>
 #include <BRepMesh_Edge.hxx>
 #include <BRepMesh_IncrementalMesh.hxx>
-#include <TColStd_ListIteratorOfListOfInteger.hxx>
-#include <TColStd_MapIteratorOfMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_MapIteratorOfMapOfInteger.hxx>
 #include <Bnd_Box.hxx>
 #include <Precision.hxx>
 #include <Draw_Interpretor.hxx>
@@ -66,7 +66,7 @@
 #include <Poly_Triangulation.hxx>
 #include <Poly_Connect.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <TopExp_Explorer.hxx>
 #include <gp_Pln.hxx>
 

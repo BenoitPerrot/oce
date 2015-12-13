@@ -51,7 +51,7 @@ private:
 #define TheKey Handle(AIS_InteractiveObject)
 #define TheKey_hxx <AIS_InteractiveObject.hxx>
 #define Hasher TColStd_MapTransientHasher
-#define Hasher_hxx <TColStd_MapTransientHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define TCollection_StdMapNode AIS_StdMapNodeOfMapOfInteractive
 #define TCollection_StdMapNode_hxx <AIS_StdMapNodeOfMapOfInteractive.hxx>
 #define TCollection_MapIterator AIS_MapIteratorOfMapOfInteractive

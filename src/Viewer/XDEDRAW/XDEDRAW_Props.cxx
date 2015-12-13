@@ -58,7 +58,7 @@
 #include <Foundation/Standard/Standard_Stream.hxx>
 #include <stdio.h>
 #include <TColgp_Array1OfXYZ.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <TDataStd_TreeNode.hxx>
 #include <XCAFDoc.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>

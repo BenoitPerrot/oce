@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <TColStd_SequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <MeshVS_Array1OfSequenceOfInteger.hxx>
 
  
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_HArray1OfSequenceOfInteger)
 
 
 #define ItemHArray1 TColStd_SequenceOfInteger
-#define ItemHArray1_hxx <TColStd_SequenceOfInteger.hxx>
+#define ItemHArray1_hxx <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #define TheArray1 MeshVS_Array1OfSequenceOfInteger
 #define TheArray1_hxx <MeshVS_Array1OfSequenceOfInteger.hxx>
 #define TCollection_HArray1 MeshVS_HArray1OfSequenceOfInteger

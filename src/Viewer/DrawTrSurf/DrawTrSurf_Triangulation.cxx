@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Poly_Triangulation.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Draw_Display.hxx>
 #include <Draw_Drawable3D.hxx>
 #include <DrawTrSurf_Triangulation.hxx>
@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_RTTI(DrawTrSurf_Triangulation)
 #include <Poly_Connect.hxx>
 #include <Poly_Triangle.hxx>
 #include <Poly_Array1OfTriangle.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <gp_Pnt.hxx>
 #include <Draw_Color.hxx>
 #include <Poly.hxx>

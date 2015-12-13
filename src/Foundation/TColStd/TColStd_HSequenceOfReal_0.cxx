@@ -3,13 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TColStd_HSequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <TColStd_SequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 
  
 
@@ -30,9 +30,9 @@ IMPLEMENT_STANDARD_RTTI(TColStd_HSequenceOfReal)
 #define Item Standard_Real
 #define Item_hxx <Foundation/Standard/Standard_Real.hxx>
 #define TheSequence TColStd_SequenceOfReal
-#define TheSequence_hxx <TColStd_SequenceOfReal.hxx>
+#define TheSequence_hxx <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #define TCollection_HSequence TColStd_HSequenceOfReal
-#define TCollection_HSequence_hxx <TColStd_HSequenceOfReal.hxx>
+#define TCollection_HSequence_hxx <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
 #define Handle_TCollection_HSequence Handle_TColStd_HSequenceOfReal
 #define TCollection_HSequence_Type_() TColStd_HSequenceOfReal_Type_()
 #include <Foundation/TCollection/TCollection_HSequence.gxx>

@@ -21,7 +21,7 @@
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <GeomFill_TrihedronLaw.hxx>
 #include <gp_Vec.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <GeomFill_GuideTrihedronPlan.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(GeomFill_GuideTrihedronPlan)

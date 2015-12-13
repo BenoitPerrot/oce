@@ -6,7 +6,7 @@
 #ifndef _BinObjMgt_SRelocationTable_HeaderFile
 #define _BinObjMgt_SRelocationTable_HeaderFile
 
-#include <TColStd_IndexedMapOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_IndexedMapOfTransient.hxx>
 
 typedef TColStd_IndexedMapOfTransient BinObjMgt_SRelocationTable;
 

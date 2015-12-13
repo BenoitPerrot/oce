@@ -5,7 +5,7 @@
 
 #include <GeomInt_ParFunctionOfMyGradientbisOfTheComputeLineOfWLApprox.hxx>
 
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <AppParCurves_HArray1OfConstraintCouple.hxx>
 #include <GeomInt_TheMultiLineOfWLApprox.hxx>
 #include <GeomInt_TheMultiLineToolOfWLApprox.hxx>

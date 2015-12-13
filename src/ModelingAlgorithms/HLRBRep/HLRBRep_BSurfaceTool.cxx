@@ -16,7 +16,7 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <BRepAdaptor_Surface.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Adaptor3d_HSurface.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Vec.hxx>

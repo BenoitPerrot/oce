@@ -19,8 +19,8 @@
 #include <Extrema_EPCOfELPCOfLocateExtPC.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <GeomAbs_CurveType.hxx>
-#include <TColStd_SequenceOfBoolean.hxx>
-#include <TColStd_SequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfBoolean.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 class StdFail_NotDone;
 class Standard_OutOfRange;
 class Standard_TypeMismatch;

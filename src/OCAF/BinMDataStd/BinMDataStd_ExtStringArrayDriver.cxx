@@ -29,8 +29,8 @@ IMPLEMENT_DOWNCAST(BinMDataStd_ExtStringArrayDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinMDataStd_ExtStringArrayDriver)
 #include <TDataStd_ExtStringArray.hxx>
 #include <BinObjMgt_Persistent.hxx>
-#include <TColStd_Array1OfExtendedString.hxx>
-#include <TColStd_HArray1OfExtendedString.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfExtendedString.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfExtendedString.hxx>
 #include <BinMDataStd.hxx>
 //=======================================================================
 //function : BinMDataStd_ExtStringArrayDriver

@@ -101,7 +101,7 @@ private:
 };
 
 #define SeqItem TColStd_SequenceOfReal
-#define SeqItem_hxx <TColStd_SequenceOfReal.hxx>
+#define SeqItem_hxx <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #define TCollection_SequenceNode BRepOffsetAPI_SequenceNodeOfSequenceOfSequenceOfReal
 #define TCollection_SequenceNode_hxx <BRepOffsetAPI_SequenceNodeOfSequenceOfSequenceOfReal.hxx>
 #define Handle_TCollection_SequenceNode Handle_BRepOffsetAPI_SequenceNodeOfSequenceOfSequenceOfReal

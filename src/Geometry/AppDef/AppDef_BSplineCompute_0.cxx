@@ -5,8 +5,8 @@
 
 #include <AppDef_BSplineCompute.hxx>
 
-#include <TColStd_HArray1OfReal.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <AppParCurves_HArray1OfConstraintCouple.hxx>
 #include <AppDef_MultiLine.hxx>
 #include <AppDef_MyLineTool.hxx>
@@ -19,8 +19,8 @@
 #include <AppDef_ResConstraintOfMyGradientbisOfBSplineCompute.hxx>
 #include <AppDef_ParFunctionOfMyGradientbisOfBSplineCompute.hxx>
 #include <AppDef_Gradient_BFGSOfMyGradientbisOfBSplineCompute.hxx>
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <AppParCurves_MultiBSpCurve.hxx>
 #include <AppParCurves_MultiCurve.hxx>
  

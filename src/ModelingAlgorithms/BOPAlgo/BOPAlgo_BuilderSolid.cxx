@@ -28,7 +28,7 @@
 #include <gp_Dir.hxx>
 #include <gp_Pnt.hxx>
 //
-#include <TColStd_MapIntegerHasher.hxx>
+#include <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 //
 #include <Geom_Curve.hxx>
 #include <Geom_Surface.hxx>

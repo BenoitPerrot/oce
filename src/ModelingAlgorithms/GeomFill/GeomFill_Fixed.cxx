@@ -18,7 +18,7 @@
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <gp_Vec.hxx>
 #include <GeomFill_TrihedronLaw.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <GeomFill_Fixed.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(GeomFill_Fixed)

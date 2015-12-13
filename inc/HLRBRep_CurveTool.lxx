@@ -25,7 +25,7 @@
 #include <gp_Hypr2d.hxx>
 #include <Geom2d_BezierCurve.hxx>
 #include <Geom2d_BSplineCurve.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 
 #define   IS_C2_COMPOSITE 0
 

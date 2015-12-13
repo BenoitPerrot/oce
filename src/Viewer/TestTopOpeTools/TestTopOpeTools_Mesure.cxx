@@ -21,8 +21,8 @@
 #include <TestTopOpeTools_Mesure.hxx>
 #include <TestTopOpeTools_Mesure.hxx>
 
-#include <TColStd_HArray1OfInteger.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <TColgp_HArray1OfPnt.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <Geom_BSplineCurve.hxx>

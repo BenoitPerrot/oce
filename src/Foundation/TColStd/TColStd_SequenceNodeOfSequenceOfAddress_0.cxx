@@ -3,11 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TColStd_SequenceNodeOfSequenceOfAddress.hxx>
+#include <Foundation/TColStd/TColStd_SequenceNodeOfSequenceOfAddress.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <TColStd_SequenceOfAddress.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfAddress.hxx>
 
  
 
@@ -29,10 +29,10 @@ IMPLEMENT_STANDARD_RTTI(TColStd_SequenceNodeOfSequenceOfAddress)
 #define SeqItem Standard_Address
 #define SeqItem_hxx <Foundation/Standard/Standard_Address.hxx>
 #define TCollection_SequenceNode TColStd_SequenceNodeOfSequenceOfAddress
-#define TCollection_SequenceNode_hxx <TColStd_SequenceNodeOfSequenceOfAddress.hxx>
+#define TCollection_SequenceNode_hxx <Foundation/TColStd/TColStd_SequenceNodeOfSequenceOfAddress.hxx>
 #define Handle_TCollection_SequenceNode Handle_TColStd_SequenceNodeOfSequenceOfAddress
 #define TCollection_SequenceNode_Type_() TColStd_SequenceNodeOfSequenceOfAddress_Type_()
 #define TCollection_Sequence TColStd_SequenceOfAddress
-#define TCollection_Sequence_hxx <TColStd_SequenceOfAddress.hxx>
+#define TCollection_Sequence_hxx <Foundation/TColStd/TColStd_SequenceOfAddress.hxx>
 #include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

@@ -8,7 +8,7 @@
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <MAT_Arc.hxx>
-#include <TColStd_MapIntegerHasher.hxx>
+#include <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #include <MAT_DataMapOfIntegerArc.hxx>
 #include <MAT_DataMapIteratorOfDataMapOfIntegerArc.hxx>
 
@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_RTTI(MAT_DataMapNodeOfDataMapOfIntegerArc)
 #define TheItem Handle(MAT_Arc)
 #define TheItem_hxx <MAT_Arc.hxx>
 #define Hasher TColStd_MapIntegerHasher
-#define Hasher_hxx <TColStd_MapIntegerHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #define TCollection_DataMapNode MAT_DataMapNodeOfDataMapOfIntegerArc
 #define TCollection_DataMapNode_hxx <MAT_DataMapNodeOfDataMapOfIntegerArc.hxx>
 #define TCollection_DataMapIterator MAT_DataMapIteratorOfDataMapOfIntegerArc

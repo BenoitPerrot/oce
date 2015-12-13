@@ -48,7 +48,7 @@
 #include <TopLoc_Location.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <AIS_Drawer.hxx>
-#include <TColStd_ListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Prs3d_LineAspect.hxx>
 #include <Prs3d_BasicAspect.hxx>
@@ -73,8 +73,8 @@ IMPLEMENT_DOWNCAST(AIS_InteractiveContext,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(AIS_InteractiveContext)
 
 //#include <AIS_DataMapIteratorOfDataMapOfInteractiveInteger.hxx>
-#include <TColStd_ListIteratorOfListOfInteger.hxx>
-#include <TColStd_MapIteratorOfMapOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_MapIteratorOfMapOfTransient.hxx>
 #include <AIS_LocalContext.hxx>
 #include <AIS_LocalStatus.hxx>
 #include <Precision.hxx>

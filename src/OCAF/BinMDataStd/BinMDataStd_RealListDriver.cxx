@@ -28,8 +28,8 @@ IMPLEMENT_STANDARD_TYPE_END(BinMDataStd_RealListDriver)
 IMPLEMENT_DOWNCAST(BinMDataStd_RealListDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinMDataStd_RealListDriver)
 #include <TDataStd_RealList.hxx>
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_ListIteratorOfListOfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfReal.hxx>
 
 //=======================================================================
 //function : BinMDataStd_RealListDriver

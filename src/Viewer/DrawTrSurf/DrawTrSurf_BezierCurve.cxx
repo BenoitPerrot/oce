@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_RTTI(DrawTrSurf_BezierCurve)
 #include <Geom_BezierCurve.hxx>
 #include <gp_Pnt2d.hxx>
 #include <TColgp_Array1OfPnt.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 
 DrawTrSurf_BezierCurve::DrawTrSurf_BezierCurve (
    const Handle(Geom_BezierCurve)& C) 

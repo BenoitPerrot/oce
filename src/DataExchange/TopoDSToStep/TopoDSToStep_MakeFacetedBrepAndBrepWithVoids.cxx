@@ -30,7 +30,7 @@
 #include <TopoDS_Iterator.hxx>
 #include <TopoDS_Shell.hxx>
 #include <TopoDS.hxx>
-#include <TColStd_SequenceOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfTransient.hxx>
 #include <BRepClass3d.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Transfer_FinderProcess.hxx>

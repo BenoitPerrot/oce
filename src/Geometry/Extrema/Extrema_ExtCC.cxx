@@ -42,11 +42,11 @@
 #include <Geom_Hyperbola.hxx>
 #include <Extrema_POnCurv.hxx>
 #include <Extrema_SequenceOfPOnCurv.hxx>
-#include <TColStd_SequenceOfReal.hxx>
-#include <TColStd_ListIteratorOfListOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfTransient.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Precision.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <ElCLib.hxx>
 #include <Extrema_ExtPElC.hxx>
 #include <Foundation/Standard/Standard_NullObject.hxx>

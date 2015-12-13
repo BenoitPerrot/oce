@@ -61,9 +61,9 @@ private:
 #define TheKey2 Standard_Integer
 #define TheKey2_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define Hasher1 TColStd_MapTransientHasher
-#define Hasher1_hxx <TColStd_MapTransientHasher.hxx>
+#define Hasher1_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define Hasher2 TColStd_MapIntegerHasher
-#define Hasher2_hxx <TColStd_MapIntegerHasher.hxx>
+#define Hasher2_hxx <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #define TCollection_DoubleMapNode BinMDF_DoubleMapNodeOfTypeIdMap
 #define TCollection_DoubleMapNode_hxx <BinMDF_DoubleMapNodeOfTypeIdMap.hxx>
 #define TCollection_DoubleMapIterator BinMDF_DoubleMapIteratorOfTypeIdMap

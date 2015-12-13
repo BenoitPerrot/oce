@@ -65,9 +65,9 @@
 #include <TColgp_HArray1OfVec.hxx>
 #include <TColgp_HArray1OfPnt.hxx>
 
-#include <TColStd_Array1OfInteger.hxx>
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_SequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 
 #ifdef OCCT_DEBUG_EFV
 static void EdgesFromVertex (const TopoDS_Wire&   W,

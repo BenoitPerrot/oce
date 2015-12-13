@@ -22,13 +22,13 @@
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <TDF_Label.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <TColStd_DataMapOfStringInteger.hxx>
+#include <Foundation/TColStd/TColStd_DataMapOfStringInteger.hxx>
 #include <TDataStd_DataMapOfStringReal.hxx>
 #include <TDataStd_DataMapOfStringString.hxx>
 #include <TDataStd_DataMapOfStringByte.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <TDataStd_DataMapOfStringHArray1OfInteger.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <TDataStd_DataMapOfStringHArray1OfReal.hxx>
 #include <TDF_Attribute.hxx>
 #include <TDF_RelocationTable.hxx>
@@ -44,7 +44,7 @@ IMPLEMENT_STANDARD_TYPE_END(TDataStd_NamedData)
 IMPLEMENT_DOWNCAST(TDataStd_NamedData,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TDataStd_NamedData)
 
-#include <TColStd_DataMapIteratorOfDataMapOfStringInteger.hxx>
+#include <Foundation/TColStd/TColStd_DataMapIteratorOfDataMapOfStringInteger.hxx>
 #include <TDataStd_DataMapIteratorOfDataMapOfStringReal.hxx>
 #include <TDataStd_DataMapIteratorOfDataMapOfStringString.hxx>
 #include <TDataStd_DataMapIteratorOfDataMapOfStringByte.hxx>

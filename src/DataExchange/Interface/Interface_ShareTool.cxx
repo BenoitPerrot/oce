@@ -27,8 +27,8 @@
 #include <Interface_InterfaceError.hxx>
 #include <Interface_IntList.hxx>
 #include <Interface_GeneralModule.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
-#include <TColStd_HSequenceOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 
 Interface_ShareTool::Interface_ShareTool (const Handle(Interface_InterfaceModel)& amodel,

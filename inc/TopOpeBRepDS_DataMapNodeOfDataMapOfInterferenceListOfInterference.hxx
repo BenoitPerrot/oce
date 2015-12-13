@@ -58,7 +58,7 @@ private:
 #define TheItem TopOpeBRepDS_ListOfInterference
 #define TheItem_hxx <TopOpeBRepDS_ListOfInterference.hxx>
 #define Hasher TColStd_MapTransientHasher
-#define Hasher_hxx <TColStd_MapTransientHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define TCollection_DataMapNode TopOpeBRepDS_DataMapNodeOfDataMapOfInterferenceListOfInterference
 #define TCollection_DataMapNode_hxx <TopOpeBRepDS_DataMapNodeOfDataMapOfInterferenceListOfInterference.hxx>
 #define TCollection_DataMapIterator TopOpeBRepDS_DataMapIteratorOfDataMapOfInterferenceListOfInterference

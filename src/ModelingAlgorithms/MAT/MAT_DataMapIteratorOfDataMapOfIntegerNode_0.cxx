@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <MAT_Node.hxx>
-#include <TColStd_MapIntegerHasher.hxx>
+#include <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #include <MAT_DataMapOfIntegerNode.hxx>
 #include <MAT_DataMapNodeOfDataMapOfIntegerNode.hxx>
  
@@ -17,7 +17,7 @@
 #define TheItem Handle(MAT_Node)
 #define TheItem_hxx <MAT_Node.hxx>
 #define Hasher TColStd_MapIntegerHasher
-#define Hasher_hxx <TColStd_MapIntegerHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #define TCollection_DataMapNode MAT_DataMapNodeOfDataMapOfIntegerNode
 #define TCollection_DataMapNode_hxx <MAT_DataMapNodeOfDataMapOfIntegerNode.hxx>
 #define TCollection_DataMapIterator MAT_DataMapIteratorOfDataMapOfIntegerNode

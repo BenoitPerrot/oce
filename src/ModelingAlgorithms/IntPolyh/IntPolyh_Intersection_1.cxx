@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <Adaptor3d_HSurface.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <IntPolyh_Intersection.hxx>
 #include <IntPolyh_PMaillageAffinage.hxx>
 #include <IntPolyh_MaillageAffinage.hxx>

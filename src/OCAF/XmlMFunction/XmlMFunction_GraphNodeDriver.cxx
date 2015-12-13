@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(XmlMFunction_GraphNodeDriver)
 #include <XmlObjMgt.hxx>
 
 #include <TFunction_GraphNode.hxx>
-#include <TColStd_MapIteratorOfMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_MapIteratorOfMapOfInteger.hxx>
 
 IMPLEMENT_DOMSTRING (LastPreviousIndex, "lastprev")
 IMPLEMENT_DOMSTRING (LastNextIndex,     "lastnext")

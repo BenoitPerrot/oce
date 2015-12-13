@@ -12,7 +12,7 @@
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Extrema_SequenceOfPOnCurv2d.hxx>
-#include <TColStd_SequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

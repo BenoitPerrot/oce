@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <TColGeom_HSequenceOfCurve.hxx>
-#include <TColStd_HSequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
 #include <ShapeUpgrade_ConvertCurve3dToBezier.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeUpgrade_ConvertCurve3dToBezier)
@@ -39,7 +39,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_ConvertCurve3dToBezier)
 #include <GeomConvert_ApproxCurve.hxx>
 #include <GeomConvert.hxx>
 #include <GeomConvert_BSplineCurveToBezierCurve.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <TColGeom_HArray1OfCurve.hxx>
 #include <Geom_Circle.hxx>
 

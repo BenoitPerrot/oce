@@ -21,7 +21,7 @@
 
 #include <BRepLib.hxx>
 #include <Precision.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 
 #include <Geom_RectangularTrimmedSurface.hxx>
 #include <Geom_BSplineSurface.hxx>

@@ -51,7 +51,7 @@
 #include <Aspect_Grid.hxx>
 #include <Aspect_Background.hxx>
 #include <Aspect_GradientBackground.hxx>
-#include <TColStd_SequenceOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <V3d_Viewer.hxx>
 
 #include <Graphic3d_AspectLine3d.hxx>

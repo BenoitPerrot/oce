@@ -26,10 +26,10 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <TColgp_Array1OfVec.hxx>
 #include <TColgp_Array1OfVec2d.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <gp_Pnt.hxx>
 #include <GeomFill_SweepFunction.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -43,7 +43,7 @@ IMPLEMENT_STANDARD_TYPE_END(GeomFill_SweepFunction)
 IMPLEMENT_DOWNCAST(GeomFill_SweepFunction,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(GeomFill_SweepFunction)
 
-#include <TColStd_SequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <GeomLib.hxx>
 #include <Precision.hxx>
 

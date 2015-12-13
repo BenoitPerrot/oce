@@ -25,7 +25,7 @@
 #include <TDF_IDFilter.hxx>
 #include <TDF_AttributeMap.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TColStd_ListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <TDF_Data.hxx>
 #include <TDF_LabelList.hxx>
 #include <TDF_LabelIntegerMap.hxx>
@@ -39,8 +39,8 @@
 #include <TDF_DataSet.hxx>
 #include <TDF_ListIteratorOfLabelList.hxx>
 
-#include <TColStd_ListOfInteger.hxx>
-#include <TColStd_ListIteratorOfListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 
 #define TDF_TagSeparator ':'
 

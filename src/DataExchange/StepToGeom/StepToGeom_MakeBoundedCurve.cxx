@@ -36,8 +36,8 @@
 #include <StepToGeom_MakePolyline.hxx>
 #include <StepToGeom_MakeTrimmedCurve.hxx>
 
-#include <TColStd_HArray1OfInteger.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 
 //=============================================================================
 // Creation d' une BoundedCurve de Geom a partir d' une BoundedCurve de Step

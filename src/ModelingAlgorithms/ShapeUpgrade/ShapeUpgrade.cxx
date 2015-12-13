@@ -22,9 +22,9 @@
 #include <TColGeom2d_HSequenceOfBoundedCurve.hxx>
 #include <ShapeUpgrade.hxx>
 #include <TColgp_Array1OfPnt.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <BSplCLib.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 
 /*
 // Debug state= True / False.

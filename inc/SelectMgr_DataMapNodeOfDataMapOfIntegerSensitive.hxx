@@ -57,7 +57,7 @@ private:
 #define TheItem Handle(SelectBasics_SensitiveEntity)
 #define TheItem_hxx <SelectBasics_SensitiveEntity.hxx>
 #define Hasher TColStd_MapIntegerHasher
-#define Hasher_hxx <TColStd_MapIntegerHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #define TCollection_DataMapNode SelectMgr_DataMapNodeOfDataMapOfIntegerSensitive
 #define TCollection_DataMapNode_hxx <SelectMgr_DataMapNodeOfDataMapOfIntegerSensitive.hxx>
 #define TCollection_DataMapIterator SelectMgr_DataMapIteratorOfDataMapOfIntegerSensitive

@@ -15,7 +15,7 @@
 #include <StepGeom_RationalBSplineCurve.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepGeom_HArray1OfCartesianPoint.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <StepGeom_UniformCurveAndRationalBSplineCurve.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepGeom_UniformCurveAndRationalBSplineCurve)

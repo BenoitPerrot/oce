@@ -46,8 +46,8 @@
 #include <GeomAbs_SurfaceType.hxx>
 #include <Extrema_LocateExtPC.hxx>
 
-#include <TColStd_Array1OfInteger.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <TColgp_Array1OfPnt2d.hxx>
 #include <TColGeom2d_SequenceOfCurve.hxx>
 #include <Foundation/SortTools/SortTools_ShellSortOfReal.hxx>

@@ -5,10 +5,10 @@
 
 #include <Transfer_IteratorOfProcessForTransient.hxx>
 
-#include <TColStd_HSequenceOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <TColStd_MapTransientHasher.hxx>
+#include <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #include <Transfer_ProcessForTransient.hxx>
 #include <Transfer_TransferMapOfProcessForTransient.hxx>
 #include <Transfer_IndexedDataMapNodeOfTransferMapOfProcessForTransient.hxx>
@@ -19,10 +19,10 @@
 #define TheStart Handle(Standard_Transient)
 #define TheStart_hxx <Foundation/Standard/Standard_Transient.hxx>
 #define TheMapHasher TColStd_MapTransientHasher
-#define TheMapHasher_hxx <TColStd_MapTransientHasher.hxx>
+#define TheMapHasher_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define Handle_TheList Handle_TColStd_HSequenceOfTransient
 #define TheList TColStd_HSequenceOfTransient
-#define TheList_hxx <TColStd_HSequenceOfTransient.hxx>
+#define TheList_hxx <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #define Transfer_TransferMap Transfer_TransferMapOfProcessForTransient
 #define Transfer_TransferMap_hxx <Transfer_TransferMapOfProcessForTransient.hxx>
 #define Transfer_IndexedDataMapNodeOfTransferMap Transfer_IndexedDataMapNodeOfTransferMapOfProcessForTransient

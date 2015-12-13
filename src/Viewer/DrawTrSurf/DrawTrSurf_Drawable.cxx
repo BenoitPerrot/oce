@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_RTTI(DrawTrSurf_Drawable)
 #include <GCPnts_UniformDeflection.hxx>
 #include <gp_Pnt.hxx>
 #include <gp_Pnt2d.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <GeomAdaptor_Curve.hxx>
 #include <Geom_BezierCurve.hxx>
 #include <Geom_BSplineCurve.hxx>

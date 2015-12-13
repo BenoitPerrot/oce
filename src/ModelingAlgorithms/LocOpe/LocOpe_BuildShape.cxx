@@ -22,11 +22,11 @@
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <TopTools_DataMapOfShapeListOfShape.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>
-#include <TColStd_MapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_MapOfInteger.hxx>
 
 #include <TopTools_DataMapIteratorOfDataMapOfShapeListOfShape.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
-#include <TColStd_MapIteratorOfMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_MapIteratorOfMapOfInteger.hxx>
 
 #include <TopoDS_Compound.hxx>
 #include <TopoDS_Solid.hxx>

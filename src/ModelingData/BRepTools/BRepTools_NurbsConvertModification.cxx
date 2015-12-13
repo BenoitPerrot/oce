@@ -66,7 +66,7 @@ IMPLEMENT_STANDARD_RTTI(BRepTools_NurbsConvertModification)
 #include <TopAbs.hxx>
 #include <TopoDS.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
-#include <TColStd_ListIteratorOfListOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfTransient.hxx>
 #include <ProjLib_ComputeApprox.hxx>
 #include <ProjLib_ComputeApproxOnPolarSurface.hxx>
 #include <ElSLib.hxx>
@@ -75,7 +75,7 @@ IMPLEMENT_STANDARD_RTTI(BRepTools_NurbsConvertModification)
 #include <Geom_Ellipse.hxx>
 #include <Geom_CylindricalSurface.hxx>
 
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <BRep_TEdge.hxx>
 #include <BRep_GCurve.hxx>
 #include <BRep_ListIteratorOfListOfCurveRepresentation.hxx>

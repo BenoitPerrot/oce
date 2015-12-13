@@ -28,8 +28,8 @@ IMPLEMENT_STANDARD_TYPE_END(BinMDataStd_IntegerListDriver)
 IMPLEMENT_DOWNCAST(BinMDataStd_IntegerListDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinMDataStd_IntegerListDriver)
 #include <TDataStd_IntegerList.hxx>
-#include <TColStd_Array1OfInteger.hxx>
-#include <TColStd_ListIteratorOfListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 
 //=======================================================================
 //function : BinMDataStd_IntegerListDriver

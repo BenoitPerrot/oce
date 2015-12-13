@@ -16,7 +16,7 @@
 #include <Interface_InterfaceModel.hxx>
 #include <Transfer_TransientProcess.hxx>
 #include <TopTools_HSequenceOfShape.hxx>
-#include <TColStd_HSequenceOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Interface_CheckIterator.hxx>
 #include <TopoDS_Shape.hxx>

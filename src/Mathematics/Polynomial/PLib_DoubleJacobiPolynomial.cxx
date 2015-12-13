@@ -15,8 +15,8 @@
 // commercial license or contractual agreement.
 
 #include <PLib_JacobiPolynomial.hxx>
-#include <TColStd_HArray1OfReal.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <PLib_DoubleJacobiPolynomial.hxx>
 #include <PLib_JacobiPolynomial.hxx>
 #include <math_Vector.hxx>

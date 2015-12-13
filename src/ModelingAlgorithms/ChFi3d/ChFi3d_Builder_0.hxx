@@ -68,8 +68,8 @@
 #include <gp_Dir2d.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <TColgp_Array1OfVec.hxx>
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <TopTools_Array1OfShape.hxx>
 #ifdef OCCT_DEBUG
 #include <Foundation/OSD/OSD_Chronometer.hxx>

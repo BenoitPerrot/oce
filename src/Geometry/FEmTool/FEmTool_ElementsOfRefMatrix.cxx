@@ -18,7 +18,7 @@
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <FEmTool_ElementsOfRefMatrix.hxx>
 #include <PLib_Base.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 
 
 FEmTool_ElementsOfRefMatrix::FEmTool_ElementsOfRefMatrix(const Handle(PLib_Base)& TheBase,

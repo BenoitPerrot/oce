@@ -41,10 +41,10 @@
 #include <gp_Sphere.hxx>
 #include <gp_Torus.hxx>
 
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <TColgp_Array1OfPnt.hxx>
-#include <TColStd_Array2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <TColgp_Array2OfPnt.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>

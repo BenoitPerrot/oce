@@ -122,7 +122,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Face)
 
 #include <ShapeFix_IntersectionTool.hxx>
 #include <ShapeFix_SplitTool.hxx>
-#include <TColStd_MapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_MapOfInteger.hxx>
 #include <TopTools_DataMapOfShapeShape.hxx>
 #include <Foundation/NCollection/NCollection_Array1.hxx>
 

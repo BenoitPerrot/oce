@@ -17,8 +17,8 @@
 #ifndef _V3d_ListOfTransient_HeaderFile
 #define _V3d_ListOfTransient_HeaderFile
 
-#include <TColStd_ListOfTransient.hxx>
-#include <TColStd_ListIteratorOfListOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_ListOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfTransient.hxx>
 
 //! List of transient objects with methods to check presence and remove elements
 class V3d_ListOfTransient: public TColStd_ListOfTransient

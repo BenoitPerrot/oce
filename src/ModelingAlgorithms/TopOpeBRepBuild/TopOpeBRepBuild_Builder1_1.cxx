@@ -85,7 +85,7 @@
 #include <Precision.hxx>
 #include <BRepAdaptor_Curve.hxx>
 #include <TopTools_DataMapOfShapeListOfInteger.hxx>
-#include <TColStd_ListIteratorOfListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 
 //define parameter division number as 10*e^(-PI) = 0.43213918
 const Standard_Real PAR_T = 0.43213918;

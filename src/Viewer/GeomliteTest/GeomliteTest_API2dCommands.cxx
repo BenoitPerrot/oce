@@ -35,7 +35,7 @@
 #include <Draw_Marker2D.hxx>
 #include <Draw_Color.hxx>
 #include <Draw_MarkerShape.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <Precision.hxx>
 #include <Geom2d_Circle.hxx>

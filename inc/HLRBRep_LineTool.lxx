@@ -23,8 +23,8 @@
 #include <gp_Parab.hxx>
 #include <ElCLib.hxx>
 
-#include <TColStd_HArray1OfReal.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 
 
 inline Standard_Real HLRBRep_LineTool::FirstParameter(const gp_Lin&)

@@ -21,7 +21,7 @@
 #include <MeshVS_DisplayModeFlags.hxx>
 #include <MeshVS_BuilderPriority.hxx>
 #include <Handle_Prs3d_Presentation.hxx>
-#include <TColStd_PackedMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_PackedMapOfInteger.hxx>
 #include <Handle_SelectBasics_SensitiveEntity.hxx>
 #include <Handle_SelectBasics_EntityOwner.hxx>
 class MeshVS_DataSource;

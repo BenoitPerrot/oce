@@ -57,7 +57,7 @@ private:
 #define TheItem Handle(MeshVS_MeshEntityOwner)
 #define TheItem_hxx <MeshVS_MeshEntityOwner.hxx>
 #define Hasher TColStd_MapIntegerHasher
-#define Hasher_hxx <TColStd_MapIntegerHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #define TCollection_DataMapNode MeshVS_DataMapNodeOfDataMapOfIntegerMeshEntityOwner
 #define TCollection_DataMapNode_hxx <MeshVS_DataMapNodeOfDataMapOfIntegerMeshEntityOwner.hxx>
 #define TCollection_DataMapIterator MeshVS_DataMapIteratorOfDataMapOfIntegerMeshEntityOwner

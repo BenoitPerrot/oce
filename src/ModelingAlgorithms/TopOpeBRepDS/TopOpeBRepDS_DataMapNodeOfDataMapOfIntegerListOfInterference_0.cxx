@@ -8,7 +8,7 @@
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TopOpeBRepDS_ListOfInterference.hxx>
-#include <TColStd_MapIntegerHasher.hxx>
+#include <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #include <TopOpeBRepDS_DataMapOfIntegerListOfInterference.hxx>
 #include <TopOpeBRepDS_DataMapIteratorOfDataMapOfIntegerListOfInterference.hxx>
 
@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_RTTI(TopOpeBRepDS_DataMapNodeOfDataMapOfIntegerListOfInterfer
 #define TheItem TopOpeBRepDS_ListOfInterference
 #define TheItem_hxx <TopOpeBRepDS_ListOfInterference.hxx>
 #define Hasher TColStd_MapIntegerHasher
-#define Hasher_hxx <TColStd_MapIntegerHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #define TCollection_DataMapNode TopOpeBRepDS_DataMapNodeOfDataMapOfIntegerListOfInterference
 #define TCollection_DataMapNode_hxx <TopOpeBRepDS_DataMapNodeOfDataMapOfIntegerListOfInterference.hxx>
 #define TCollection_DataMapIterator TopOpeBRepDS_DataMapIteratorOfDataMapOfIntegerListOfInterference

@@ -58,7 +58,7 @@ private:
 #define TheItem SelectMgr_SequenceOfSelector
 #define TheItem_hxx <SelectMgr_SequenceOfSelector.hxx>
 #define Hasher TColStd_MapTransientHasher
-#define Hasher_hxx <TColStd_MapTransientHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define TCollection_DataMapNode SelectMgr_DataMapNodeOfDataMapOfObjectSelectors
 #define TCollection_DataMapNode_hxx <SelectMgr_DataMapNodeOfDataMapOfObjectSelectors.hxx>
 #define TCollection_DataMapIterator SelectMgr_DataMapIteratorOfDataMapOfObjectSelectors

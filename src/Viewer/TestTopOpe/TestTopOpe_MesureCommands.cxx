@@ -27,8 +27,8 @@
 #include <TestTopOpeTools_Mesure.hxx>
 #include <TestTopOpeTools_HArray1OfMesure.hxx>
 #include <TestTopOpeDraw_Array1OfDrawableMesure.hxx>
-#include <TColStd_Array1OfTransient.hxx>
-#include <TColStd_Array1OfAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfTransient.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfAsciiString.hxx>
 
 #ifdef WNT
 Standard_IMPORT Draw_Viewer dout;

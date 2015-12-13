@@ -24,7 +24,7 @@
 #include <Graphic3d_AspectText3d.hxx>
 #include <Graphic3d_AspectMarker3d.hxx>
 #include <Graphic3d_DataStructureManager.hxx>
-#include <TColStd_Array2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <Bnd_Box.hxx>
 #include <Graphic3d_MapOfStructure.hxx>
 #include <gp_Pnt.hxx>
@@ -48,7 +48,7 @@ IMPLEMENT_STANDARD_RTTI(Graphic3d_Structure)
 #include <Graphic3d_MapIteratorOfMapOfStructure.hxx>
 
 #include <Foundation/Quantity/Quantity_Color.hxx>
-#include <TColStd_Array2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <Graphic3d_TextureMap.hxx>
 
 #include <Aspect_PolygonOffsetMode.hxx>

@@ -19,9 +19,9 @@
 
 #include <TObj_Common.hxx>
 #include <TObj_Model.hxx>
-#include <TColStd_SequenceOfTransient.hxx>
-#include <TColStd_SequenceOfAsciiString.hxx>
-#include <TColStd_IndexedMapOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_IndexedMapOfTransient.hxx>
 
 //=======================================================================
 //function : getModels

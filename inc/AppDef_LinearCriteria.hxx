@@ -14,7 +14,7 @@
 #include <Handle_TColStd_HArray1OfReal.hxx>
 #include <Handle_FEmTool_ElementaryCriterion.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Handle_FEmTool_Curve.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <AppDef_SmoothCriterion.hxx>

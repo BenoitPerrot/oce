@@ -44,7 +44,7 @@
 #include <Bnd_Box.hxx>
 #include <BndLib_AddSurface.hxx>
 #include <Extrema_ExtPElS.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Extrema_ExtPS.hxx>
 
 Extrema_ExtCS::Extrema_ExtCS() 

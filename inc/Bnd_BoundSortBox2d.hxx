@@ -15,8 +15,8 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TColStd_HArray1OfListOfInteger.hxx>
-#include <TColStd_DataMapOfIntegerInteger.hxx>
-#include <TColStd_ListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_DataMapOfIntegerInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 class Bnd_HArray1OfBox2d;
 class TColStd_HArray1OfListOfInteger;
 class Standard_NullValue;

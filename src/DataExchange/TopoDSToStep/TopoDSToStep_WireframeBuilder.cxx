@@ -17,7 +17,7 @@
 // - fixed trimming of circles and ellipses (radians used instead of degrees)
 //szv#4 S4163
 
-#include <TColStd_HSequenceOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopoDSToStep_Tool.hxx>
@@ -29,9 +29,9 @@
 #include <TopoDSToStep_Tool.hxx>
 
 #include <TColgp_Array1OfPnt.hxx>
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_Array1OfInteger.hxx>
-#include <TColStd_SequenceOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfTransient.hxx>
 #include <MoniTool_DataMapOfShapeTransient.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <TransferBRep_ShapeMapper.hxx>

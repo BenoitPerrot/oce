@@ -23,9 +23,9 @@
 #define No_Standard_OutOfRange
 
 #include <TColgp_HArray2OfPnt.hxx>
-#include <TColStd_HArray2OfReal.hxx>
-#include <TColStd_HArray1OfReal.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/Standard/Standard_DimensionError.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
@@ -34,9 +34,9 @@
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Geom_UndefinedDerivative.hxx>
 #include <TColgp_Array2OfPnt.hxx>
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_Array1OfInteger.hxx>
-#include <TColStd_Array2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <gp_Pnt.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <gp_Vec.hxx>

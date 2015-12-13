@@ -15,13 +15,13 @@
 // commercial license or contractual agreement.
 
 #include <TColgp_Array1OfPnt.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <GeomFill_Coons.hxx>
 
 #include <BSplCLib.hxx>
 #include <PLib.hxx>
 #include <TColgp_HArray2OfPnt.hxx>
-#include <TColStd_HArray2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
 
 //=======================================================================
 //function : GeomFill_Coons

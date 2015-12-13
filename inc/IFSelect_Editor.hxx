@@ -12,9 +12,9 @@
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Dico_DictionaryOfInteger.hxx>
-#include <TColStd_Array1OfTransient.hxx>
-#include <TColStd_Array1OfAsciiString.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfTransient.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Interface_TypedValue.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>

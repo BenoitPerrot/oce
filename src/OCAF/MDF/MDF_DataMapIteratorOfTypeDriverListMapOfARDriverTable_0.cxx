@@ -8,7 +8,7 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <MDF_DriverListOfARDriverTable.hxx>
-#include <TColStd_MapTransientHasher.hxx>
+#include <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #include <MDF_TypeDriverListMapOfARDriverTable.hxx>
 #include <MDF_DataMapNodeOfTypeDriverListMapOfARDriverTable.hxx>
  
@@ -18,7 +18,7 @@
 #define TheItem MDF_DriverListOfARDriverTable
 #define TheItem_hxx <MDF_DriverListOfARDriverTable.hxx>
 #define Hasher TColStd_MapTransientHasher
-#define Hasher_hxx <TColStd_MapTransientHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define TCollection_DataMapNode MDF_DataMapNodeOfTypeDriverListMapOfARDriverTable
 #define TCollection_DataMapNode_hxx <MDF_DataMapNodeOfTypeDriverListMapOfARDriverTable.hxx>
 #define TCollection_DataMapIterator MDF_DataMapIteratorOfTypeDriverListMapOfARDriverTable

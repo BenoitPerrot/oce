@@ -15,8 +15,8 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <TColStd_HArray1OfReal.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 //=======================================================================
 //function : IsDone
 //purpose  : 

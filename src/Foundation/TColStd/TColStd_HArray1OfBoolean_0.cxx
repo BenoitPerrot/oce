@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TColStd_HArray1OfBoolean.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfBoolean.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <TColStd_Array1OfBoolean.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>
 
  
 
@@ -32,9 +32,9 @@ IMPLEMENT_STANDARD_RTTI(TColStd_HArray1OfBoolean)
 #define ItemHArray1 Standard_Boolean
 #define ItemHArray1_hxx <Foundation/Standard/Standard_Boolean.hxx>
 #define TheArray1 TColStd_Array1OfBoolean
-#define TheArray1_hxx <TColStd_Array1OfBoolean.hxx>
+#define TheArray1_hxx <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>
 #define TCollection_HArray1 TColStd_HArray1OfBoolean
-#define TCollection_HArray1_hxx <TColStd_HArray1OfBoolean.hxx>
+#define TCollection_HArray1_hxx <Foundation/TColStd/TColStd_HArray1OfBoolean.hxx>
 #define Handle_TCollection_HArray1 Handle_TColStd_HArray1OfBoolean
 #define TCollection_HArray1_Type_() TColStd_HArray1OfBoolean_Type_()
 #include <Foundation/TCollection/TCollection_HArray1.gxx>

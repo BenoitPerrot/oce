@@ -10,7 +10,7 @@
 #include <Adaptor3d_HSurface.hxx>
 #include <Adaptor3d_HSurfaceTool.hxx>
 #include <math_Matrix.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
  
 
 #define ThePSurface Handle(Adaptor3d_HSurface)

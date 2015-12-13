@@ -12,8 +12,8 @@
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TColStd_Array1OfInteger.hxx>
-#include <TColStd_Array1OfTransient.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfTransient.hxx>
 #include <Handle_IFSelect_Editor.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Handle_Interface_InterfaceModel.hxx>

@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_TYPE_END(XmlMDataStd_IntegerListDriver)
 IMPLEMENT_DOWNCAST(XmlMDataStd_IntegerListDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlMDataStd_IntegerListDriver)
 #include <TDataStd_IntegerList.hxx>
-#include <TColStd_ListIteratorOfListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 #include <Foundation/NCollection/NCollection_LocalArray.hxx>
 #include <XmlObjMgt.hxx>
 

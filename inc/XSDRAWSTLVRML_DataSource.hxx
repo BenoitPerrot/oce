@@ -11,7 +11,7 @@
 #include <Handle_XSDRAWSTLVRML_DataSource.hxx>
 
 #include <Handle_StlMesh_Mesh.hxx>
-#include <TColStd_PackedMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_PackedMapOfInteger.hxx>
 #include <Handle_TColStd_HArray2OfInteger.hxx>
 #include <Handle_TColStd_HArray2OfReal.hxx>
 #include <MeshVS_DataSource.hxx>

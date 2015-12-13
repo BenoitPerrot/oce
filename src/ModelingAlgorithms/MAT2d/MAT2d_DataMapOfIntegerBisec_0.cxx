@@ -8,7 +8,7 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Bisector_Bisec.hxx>
-#include <TColStd_MapIntegerHasher.hxx>
+#include <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #include <MAT2d_DataMapNodeOfDataMapOfIntegerBisec.hxx>
 #include <MAT2d_DataMapIteratorOfDataMapOfIntegerBisec.hxx>
  
@@ -18,7 +18,7 @@
 #define TheItem Bisector_Bisec
 #define TheItem_hxx <Bisector_Bisec.hxx>
 #define Hasher TColStd_MapIntegerHasher
-#define Hasher_hxx <TColStd_MapIntegerHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #define TCollection_DataMapNode MAT2d_DataMapNodeOfDataMapOfIntegerBisec
 #define TCollection_DataMapNode_hxx <MAT2d_DataMapNodeOfDataMapOfIntegerBisec.hxx>
 #define TCollection_DataMapIterator MAT2d_DataMapIteratorOfDataMapOfIntegerBisec

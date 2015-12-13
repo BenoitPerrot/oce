@@ -30,7 +30,7 @@
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <IGESSolid_ToolManifoldSolid.hxx>
 #include <IGESData_ParamCursor.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <IGESSolid_Shell.hxx>
 #include <IGESSolid_HArray1OfShell.hxx>
 #include <IGESData_Dump.hxx>

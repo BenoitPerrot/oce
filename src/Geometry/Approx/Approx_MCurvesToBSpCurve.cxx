@@ -23,8 +23,8 @@
 #include <AppParCurves_MultiCurve.hxx>
 #include <AppParCurves_MultiPoint.hxx>
 #include <AppParCurves_Array1OfMultiPoint.hxx>
-#include <TColStd_Array1OfInteger.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <BSplCLib.hxx>
 #include <PLib.hxx>
 

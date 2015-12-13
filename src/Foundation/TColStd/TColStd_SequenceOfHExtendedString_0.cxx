@@ -3,21 +3,21 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TColStd_SequenceOfHExtendedString.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfHExtendedString.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/TCollection/TCollection_HExtendedString.hxx>
-#include <TColStd_SequenceNodeOfSequenceOfHExtendedString.hxx>
+#include <Foundation/TColStd/TColStd_SequenceNodeOfSequenceOfHExtendedString.hxx>
  
 
 #define SeqItem Handle(TCollection_HExtendedString)
 #define SeqItem_hxx <Foundation/TCollection/TCollection_HExtendedString.hxx>
 #define TCollection_SequenceNode TColStd_SequenceNodeOfSequenceOfHExtendedString
-#define TCollection_SequenceNode_hxx <TColStd_SequenceNodeOfSequenceOfHExtendedString.hxx>
+#define TCollection_SequenceNode_hxx <Foundation/TColStd/TColStd_SequenceNodeOfSequenceOfHExtendedString.hxx>
 #define Handle_TCollection_SequenceNode Handle_TColStd_SequenceNodeOfSequenceOfHExtendedString
 #define TCollection_SequenceNode_Type_() TColStd_SequenceNodeOfSequenceOfHExtendedString_Type_()
 #define TCollection_Sequence TColStd_SequenceOfHExtendedString
-#define TCollection_Sequence_hxx <TColStd_SequenceOfHExtendedString.hxx>
+#define TCollection_Sequence_hxx <Foundation/TColStd/TColStd_SequenceOfHExtendedString.hxx>
 #include <Foundation/TCollection/TCollection_Sequence.gxx>
 

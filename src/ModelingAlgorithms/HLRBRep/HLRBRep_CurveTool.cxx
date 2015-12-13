@@ -17,7 +17,7 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <gp_Pnt2d.hxx>
 #include <gp_Vec2d.hxx>
 #include <Geom2d_BezierCurve.hxx>
@@ -28,7 +28,7 @@
 #include <GeomAbs_Shape.hxx>
 #include <Geom2d_BezierCurve.hxx>
 #include <Geom2d_BSplineCurve.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 
 //=======================================================================
 //function : NbSamples

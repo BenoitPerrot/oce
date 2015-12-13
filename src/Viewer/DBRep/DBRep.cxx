@@ -38,11 +38,11 @@
 
 #include <TopExp.hxx>
 #include <TopTools_Array1OfShape.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <GProp.hxx>
 #include <GProp_GProps.hxx>
 #include <BRepGProp.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Draw_ProgressIndicator.hxx>
 
 // memory management

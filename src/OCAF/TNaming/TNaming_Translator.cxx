@@ -20,7 +20,7 @@
 
 #include <TopoDS_Shape.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TColStd_IndexedDataMapOfTransientTransient.hxx>
+#include <Foundation/TColStd/TColStd_IndexedDataMapOfTransientTransient.hxx>
 #include <TopoDS_TShape.hxx>
 #include <BRepTools.hxx>
 #include <TopLoc_Datum3D.hxx>

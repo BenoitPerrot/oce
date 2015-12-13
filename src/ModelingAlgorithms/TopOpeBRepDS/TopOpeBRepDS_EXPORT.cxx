@@ -27,8 +27,8 @@
 #include <TopExp_Explorer.hxx>
 #include <Precision.hxx>
 #include <GeomAdaptor_Surface.hxx>
-#include <TColStd_DataMapOfIntegerInteger.hxx>
-#include <TColStd_DataMapIteratorOfDataMapOfIntegerInteger.hxx>
+#include <Foundation/TColStd/TColStd_DataMapOfIntegerInteger.hxx>
+#include <Foundation/TColStd/TColStd_DataMapIteratorOfDataMapOfIntegerInteger.hxx>
 
 #include <TopOpeBRepTool_CurveTool.hxx>
 #include <TopOpeBRepTool_ShapeTool.hxx>

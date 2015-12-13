@@ -13,8 +13,8 @@
 #include <Bnd_Box2d.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Bnd_BoundSortBox2d.hxx>
-#include <TColStd_MapOfInteger.hxx>
-#include <TColStd_MapIteratorOfMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_MapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_MapIteratorOfMapOfInteger.hxx>
 #include <Handle_Bnd_HArray1OfBox2d.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

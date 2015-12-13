@@ -9,7 +9,7 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <TColStd_MapTransientHasher.hxx>
+#include <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #include <IntTools_IndexedDataMapNodeOfIndexedDataMapOfTransientAddress.hxx>
  
 
@@ -18,7 +18,7 @@
 #define TheItem Standard_Address
 #define TheItem_hxx <Foundation/Standard/Standard_Address.hxx>
 #define Hasher TColStd_MapTransientHasher
-#define Hasher_hxx <TColStd_MapTransientHasher.hxx>
+#define Hasher_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define TCollection_IndexedDataMapNode IntTools_IndexedDataMapNodeOfIndexedDataMapOfTransientAddress
 #define TCollection_IndexedDataMapNode_hxx <IntTools_IndexedDataMapNodeOfIndexedDataMapOfTransientAddress.hxx>
 #define Handle_TCollection_IndexedDataMapNode Handle_IntTools_IndexedDataMapNodeOfIndexedDataMapOfTransientAddress

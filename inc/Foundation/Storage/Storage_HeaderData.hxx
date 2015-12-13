@@ -13,8 +13,8 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <TColStd_SequenceOfAsciiString.hxx>
-#include <TColStd_SequenceOfExtendedString.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfExtendedString.hxx>
 #include <Foundation/Storage/Storage_Error.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class Storage_Schema;

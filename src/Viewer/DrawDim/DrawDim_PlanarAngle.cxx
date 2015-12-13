@@ -59,7 +59,7 @@ IMPLEMENT_STANDARD_RTTI(DrawDim_PlanarAngle)
 #include <IntAna2d_AnaIntersection.hxx>
 #include <BRepAdaptor_Surface.hxx>
 #include <Precision.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <TopoDS_Edge.hxx>
 #include <DBRep_DrawableShape.hxx>
 #include <TopoDS.hxx>

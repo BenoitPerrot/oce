@@ -30,8 +30,8 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_SplitCurve3d)
 #include <Geom_BSplineCurve.hxx>
 #include <Precision.hxx>
 #include <ShapeUpgrade.hxx>
-#include <TColStd_ListIteratorOfListOfReal.hxx>
-#include <TColStd_HSequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfReal.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
 #include <TColGeom_HArray1OfCurve.hxx>
 #include <Geom_TrimmedCurve.hxx>
 #include <Geom_OffsetCurve.hxx>

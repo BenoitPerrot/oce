@@ -38,7 +38,7 @@
 #include <Units_UnitSentence.hxx>
 #include <Units_ShiftedToken.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <TColStd_HSequenceOfHAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_HSequenceOfHAsciiString.hxx>
 #include <Units_Operators.hxx>
 
 static Handle(Units_Dimensions) nulldimensions;

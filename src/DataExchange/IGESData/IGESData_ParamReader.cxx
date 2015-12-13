@@ -23,8 +23,8 @@
 #include <gp_XYZ.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Interface_HArray1OfHAsciiString.hxx>
 #include <IGESData_HArray1OfIGESEntity.hxx>
 #include <Interface_EntityList.hxx>

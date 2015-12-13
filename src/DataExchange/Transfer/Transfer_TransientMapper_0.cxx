@@ -8,7 +8,7 @@
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <TColStd_MapTransientHasher.hxx>
+#include <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #include <Transfer_DataInfo.hxx>
 #include <Transfer_Finder.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(Transfer_TransientMapper)
 #define TheKey Handle(Standard_Transient)
 #define TheKey_hxx <Foundation/Standard/Standard_Transient.hxx>
 #define TheHasher TColStd_MapTransientHasher
-#define TheHasher_hxx <TColStd_MapTransientHasher.hxx>
+#define TheHasher_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define TheInfo Transfer_DataInfo
 #define TheInfo_hxx <Transfer_DataInfo.hxx>
 #define Transfer_Mapper Transfer_TransientMapper

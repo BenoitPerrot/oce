@@ -57,7 +57,7 @@
 // produce a good result in some cases. But :-( it gives regressions on grid
 // tests (1cto 021 W4,X4). Therefore I leaved this code not active.
 #ifdef RM_HANGING
-#include <TColStd_ListIteratorOfListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 #endif
 
 #ifdef OCCT_DEBUG

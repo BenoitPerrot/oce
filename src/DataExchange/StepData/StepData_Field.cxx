@@ -20,13 +20,13 @@
 #include <StepData_SelectReal.hxx>
 #include <StepData_SelectNamed.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <TColStd_HArray1OfInteger.hxx>
-#include <TColStd_HArray1OfReal.hxx>
-#include <TColStd_HArray1OfTransient.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfTransient.hxx>
 #include <Interface_HArray1OfHAsciiString.hxx>
-#include <TColStd_HArray2OfInteger.hxx>
-#include <TColStd_HArray2OfReal.hxx>
-#include <TColStd_HArray2OfTransient.hxx>
+#include <Foundation/TColStd/TColStd_HArray2OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray2OfTransient.hxx>
 
 //  Le kind code le type de donnee, le mode d acces (direct ou via Select),
 //  l arite (simple, liste, carre)

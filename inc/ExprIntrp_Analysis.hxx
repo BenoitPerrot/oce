@@ -13,8 +13,8 @@
 #include <ExprIntrp_StackOfGeneralExpression.hxx>
 #include <ExprIntrp_StackOfGeneralRelation.hxx>
 #include <ExprIntrp_StackOfGeneralFunction.hxx>
-#include <TColStd_ListOfAsciiString.hxx>
-#include <TColStd_ListOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_ListOfAsciiString.hxx>
+#include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <ExprIntrp_SequenceOfNamedFunction.hxx>
 #include <ExprIntrp_SequenceOfNamedExpression.hxx>
 #include <Handle_ExprIntrp_Generator.hxx>

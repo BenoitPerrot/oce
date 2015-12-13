@@ -10,9 +10,9 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepData_StepReaderData.hxx>
 
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Interface_IndexedMapOfAsciiString.hxx>
-#include <TColStd_DataMapOfIntegerInteger.hxx>
+#include <Foundation/TColStd/TColStd_DataMapOfIntegerInteger.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Interface_Check.hxx>
 #include <Interface_FileReaderData.hxx>

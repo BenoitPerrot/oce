@@ -39,8 +39,8 @@
 #include <Geom_TrimmedCurve.hxx>
 #include <Geom2d_TrimmedCurve.hxx>
 
-#include <TColStd_Array1OfReal.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 
 //=======================================================================

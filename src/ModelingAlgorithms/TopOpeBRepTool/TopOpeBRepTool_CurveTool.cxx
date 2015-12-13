@@ -34,10 +34,10 @@
 #include <Geom2d_Parabola.hxx>
 #include <Geom2d_Hyperbola.hxx>
 #include <Geom2d_BSplineCurve.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <GeomLib_CheckBSplineCurve.hxx>
 #include <GeomLib_Check2dBSplineCurve.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <BRepAdaptor_Surface.hxx>
 #include <GeomAdaptor_Curve.hxx>
 #include <BRepAdaptor_HSurface.hxx>
@@ -51,7 +51,7 @@
 #include <Foundation/OSD/OSD_Chronometer.hxx>
 
 #include <GeomTools_Curve2dSet.hxx>
-#include <TColStd_Array1OfBoolean.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>
 #include <gp_Lin.hxx>
 #include <gce_MakeLin.hxx>
 #include <gp_Lin2d.hxx>

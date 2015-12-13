@@ -14,9 +14,9 @@
 // commercial license or contractual agreement.
 
 #include <MeshVS_DataSource.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <MeshVS_HArray1OfSequenceOfInteger.hxx>
-#include <TColStd_Array1OfInteger.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <MeshVS_DataMapOfIntegerVector.hxx>
 #include <gp_Vec.hxx>
 #include <MeshVS_DeformedDataSource.hxx>

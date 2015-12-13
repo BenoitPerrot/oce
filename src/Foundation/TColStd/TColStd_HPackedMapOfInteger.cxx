@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_Type.hxx>
-#include <TColStd_HPackedMapOfInteger.hxx>
+#include <Foundation/TColStd/TColStd_HPackedMapOfInteger.hxx>
 
 IMPLEMENT_STANDARD_TYPE(TColStd_HPackedMapOfInteger)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

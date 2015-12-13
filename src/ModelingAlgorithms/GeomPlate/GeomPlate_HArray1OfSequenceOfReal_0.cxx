@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <TColStd_SequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <GeomPlate_Array1OfSequenceOfReal.hxx>
 
  
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(GeomPlate_HArray1OfSequenceOfReal)
 
 
 #define ItemHArray1 TColStd_SequenceOfReal
-#define ItemHArray1_hxx <TColStd_SequenceOfReal.hxx>
+#define ItemHArray1_hxx <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #define TheArray1 GeomPlate_Array1OfSequenceOfReal
 #define TheArray1_hxx <GeomPlate_Array1OfSequenceOfReal.hxx>
 #define TCollection_HArray1 GeomPlate_HArray1OfSequenceOfReal

@@ -15,8 +15,8 @@
 // commercial license or contractual agreement.
 
 #include <TColGeom_HArray2OfSurface.hxx>
-#include <TColStd_HArray1OfReal.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Geom_Surface.hxx>
 #include <gp_Pnt2d.hxx>
 #include <gp_Trsf2d.hxx>

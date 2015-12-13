@@ -9,11 +9,11 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <TColStd_SequenceOfReal.hxx>
+#include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
  
 
 #define Array1Item TColStd_SequenceOfReal
-#define Array1Item_hxx <TColStd_SequenceOfReal.hxx>
+#define Array1Item_hxx <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #define TCollection_Array1 GeomPlate_Array1OfSequenceOfReal
 #define TCollection_Array1_hxx <GeomPlate_Array1OfSequenceOfReal.hxx>
 #include <Foundation/TCollection/TCollection_Array1.gxx>

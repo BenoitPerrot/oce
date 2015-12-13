@@ -5,7 +5,7 @@
 
 #include <GeomInt_TheComputeLineBezierOfWLApprox.hxx>
 
-#include <TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <AppParCurves_HArray1OfConstraintCouple.hxx>
 #include <GeomInt_TheMultiLineOfWLApprox.hxx>
 #include <GeomInt_TheMultiLineToolOfWLApprox.hxx>
@@ -16,7 +16,7 @@
 #include <GeomInt_Gradient_BFGSOfMyGradientOfTheComputeLineBezierOfWLApprox.hxx>
 #include <AppParCurves_MultiCurve.hxx>
 #include <AppParCurves_MultiBSpCurve.hxx>
-#include <TColStd_Array1OfReal.hxx>
+#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
  
 
 #define MultiLine GeomInt_TheMultiLineOfWLApprox
