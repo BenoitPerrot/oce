@@ -13,7 +13,7 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <BSplSLib_EvaluatorFunction.hxx>
+#include <Mathematics/BetaSpline/BSplSLib_EvaluatorFunction.hxx>
 class TColgp_Array2OfPnt;
 class TColStd_Array2OfReal;
 class TColStd_Array1OfReal;
@@ -409,7 +409,7 @@ private:
 };
 
 
-#include <BSplSLib.lxx>
+#include <Mathematics/BetaSpline/BSplSLib.lxx>
 
 
 

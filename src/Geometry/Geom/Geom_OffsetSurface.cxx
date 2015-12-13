@@ -48,7 +48,7 @@ IMPLEMENT_STANDARD_RTTI(Geom_OffsetSurface)
 #include <gp_Vec.hxx>
 #include <gp_Dir.hxx>
 #include <gp_XYZ.hxx>
-#include <BSplSLib.hxx>
+#include <Mathematics/BetaSpline/BSplSLib.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <CSLib.hxx>
 #include <Precision.hxx>
@@ -86,7 +86,7 @@ IMPLEMENT_STANDARD_RTTI(Geom_OffsetSurface)
 
 #include <AdvApprox_ApproxAFunction.hxx>
 #include <TColgp_HArray2OfPnt.hxx>
-#include <BSplSLib.hxx>
+#include <Mathematics/BetaSpline/BSplSLib.hxx>
 #include <Convert_GridPolynomialToPoles.hxx>
 #include <Foundation/TColStd/TColStd_HArray2OfInteger.hxx>
 #include <GeomAbs_IsoType.hxx>

@@ -28,7 +28,7 @@
 #include <gp_Pnt.hxx>
 #include <gp_Vec.hxx>
 #include <TColgp_Array1OfPnt.hxx>
-#include <BSplSLib.hxx>
+#include <Mathematics/BetaSpline/BSplSLib.hxx>
 #include <PLib.hxx>
 #include <Foundation/NCollection/NCollection_LocalArray.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>

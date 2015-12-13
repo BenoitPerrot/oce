@@ -59,7 +59,7 @@ IMPLEMENT_STANDARD_RTTI(Geom_BSplineSurface)
 
 #include <gp.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
-#include <BSplSLib.hxx>
+#include <Mathematics/BetaSpline/BSplSLib.hxx>
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>

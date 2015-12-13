@@ -50,7 +50,7 @@
 #include <Geom_BSplineSurface.hxx>
 
 #include <gp.hxx>
-#include <BSplSLib.hxx>
+#include <Mathematics/BetaSpline/BSplSLib.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Precision.hxx>
 #include <TColgp_Array1OfXYZ.hxx>

@@ -39,7 +39,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(Geom_SurfaceOfRevolution)
 IMPLEMENT_DOWNCAST(Geom_SurfaceOfRevolution,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Geom_SurfaceOfRevolution)
-#include <BSplSLib.hxx>
+#include <Mathematics/BetaSpline/BSplSLib.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Geom_Circle.hxx>
 #include <gp.hxx>

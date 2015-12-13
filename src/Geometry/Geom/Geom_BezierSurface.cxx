@@ -60,7 +60,7 @@ IMPLEMENT_STANDARD_RTTI(Geom_BezierSurface)
 #include <gp_XYZ.hxx>
 #include <PLib.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
-#include <BSplSLib.hxx>
+#include <Mathematics/BetaSpline/BSplSLib.hxx>
 #include <Precision.hxx>
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>

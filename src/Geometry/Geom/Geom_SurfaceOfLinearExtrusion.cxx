@@ -51,7 +51,7 @@ IMPLEMENT_STANDARD_RTTI(Geom_SurfaceOfLinearExtrusion)
 #include <Geom_BSplineCurve.hxx>
 #include <Geom_TrimmedCurve.hxx>
 #include <Geom_OffsetCurve.hxx>
-#include <BSplSLib.hxx>
+#include <Mathematics/BetaSpline/BSplSLib.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Foundation/Standard/Standard_RangeError.hxx>
 

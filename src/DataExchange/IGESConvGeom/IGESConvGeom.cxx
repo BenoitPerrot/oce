@@ -31,7 +31,7 @@
 
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 
-#include <BSplSLib.hxx>
+#include <Mathematics/BetaSpline/BSplSLib.hxx>
 
 #include <gp_GTrsf.hxx>
 #include <gp_Trsf.hxx>

@@ -110,7 +110,7 @@
 #include <Geom_BSplineSurface.hxx>
 
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
-#include <BSplSLib.hxx>
+#include <Mathematics/BetaSpline/BSplSLib.hxx>
 #include <PLib.hxx>
 #include <math_Matrix.hxx>
 #include <math_Vector.hxx>

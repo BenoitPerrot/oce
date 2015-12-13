@@ -39,7 +39,7 @@
 #include <ElCLib.hxx>
 #include <ElSLib.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
-#include <BSplSLib.hxx>
+#include <Mathematics/BetaSpline/BSplSLib.hxx>
 #include <Precision.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <TColgp_Array2OfPnt.hxx>

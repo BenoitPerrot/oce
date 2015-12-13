@@ -27,7 +27,7 @@
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <TColgp_Array1OfPnt.hxx>
 #include <TColgp_Array2OfVec.hxx>
-#include <BSplSLib.hxx>
+#include <Mathematics/BetaSpline/BSplSLib.hxx>
 #include <Convert_GridPolynomialToPoles.hxx>
 #include <Precision.hxx>
 #include <PLib.hxx>
