@@ -10,9 +10,9 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <AppParCurves_MultiBSpCurve.hxx>
+#include <Geometry/AppParCurves/AppParCurves_MultiBSpCurve.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <AppParCurves_SequenceOfMultiCurve.hxx>
+#include <Geometry/AppParCurves/AppParCurves_SequenceOfMultiCurve.hxx>
 class AppParCurves_MultiCurve;
 class AppParCurves_SequenceOfMultiCurve;
 class AppParCurves_MultiBSpCurve;

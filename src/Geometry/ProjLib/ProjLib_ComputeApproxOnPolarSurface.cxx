@@ -25,7 +25,7 @@
 #include <Precision.hxx>
 #include <Approx_FitAndDivide2d.hxx>
 #include <Mathematics/Optimization/math.hxx>
-#include <AppParCurves_MultiCurve.hxx>
+#include <Geometry/AppParCurves/AppParCurves_MultiCurve.hxx>
 #include <Geom_Surface.hxx>
 #include <Geom2d_BSplineCurve.hxx>
 #include <Geom2d_BezierCurve.hxx>

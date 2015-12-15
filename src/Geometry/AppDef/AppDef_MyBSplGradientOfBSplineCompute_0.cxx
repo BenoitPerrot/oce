@@ -12,10 +12,10 @@
 #include <Geometry/AppDef/AppDef_BSpParLeastSquareOfMyBSplGradientOfBSplineCompute.hxx>
 #include <Geometry/AppDef/AppDef_BSpParFunctionOfMyBSplGradientOfBSplineCompute.hxx>
 #include <Geometry/AppDef/AppDef_BSpGradient_BFGSOfMyBSplGradientOfBSplineCompute.hxx>
-#include <AppParCurves_HArray1OfConstraintCouple.hxx>
+#include <Geometry/AppParCurves/AppParCurves_HArray1OfConstraintCouple.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
-#include <AppParCurves_MultiBSpCurve.hxx>
+#include <Geometry/AppParCurves/AppParCurves_MultiBSpCurve.hxx>
  
 
 #define MultiLine AppDef_MultiLine
@@ -30,5 +30,5 @@
 #define AppParCurves_BSpGradient_BFGS_hxx <Geometry/AppDef/AppDef_BSpGradient_BFGSOfMyBSplGradientOfBSplineCompute.hxx>
 #define AppParCurves_BSpGradient AppDef_MyBSplGradientOfBSplineCompute
 #define AppParCurves_BSpGradient_hxx <Geometry/AppDef/AppDef_MyBSplGradientOfBSplineCompute.hxx>
-#include <AppParCurves_BSpGradient.gxx>
+#include <Geometry/AppParCurves/AppParCurves_BSpGradient.gxx>
 

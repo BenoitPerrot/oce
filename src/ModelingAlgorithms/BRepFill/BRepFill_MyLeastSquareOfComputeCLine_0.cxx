@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DimensionError.hxx>
 #include <BRepFill_MultiLine.hxx>
 #include <BRepFill_MultiLineTool.hxx>
-#include <AppParCurves_MultiCurve.hxx>
+#include <Geometry/AppParCurves/AppParCurves_MultiCurve.hxx>
  
 
 #define MultiLine BRepFill_MultiLine

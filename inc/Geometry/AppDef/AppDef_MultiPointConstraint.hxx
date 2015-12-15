@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_MMgt_TShared.hxx>
-#include <AppParCurves_MultiPoint.hxx>
+#include <Geometry/AppParCurves/AppParCurves_MultiPoint.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>

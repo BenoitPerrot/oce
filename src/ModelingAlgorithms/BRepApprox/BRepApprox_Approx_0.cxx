@@ -23,7 +23,7 @@
 #include <BRepApprox_MyGradientbisOfTheComputeLineOfApprox.hxx>
 #include <BRepApprox_TheComputeLineBezierOfApprox.hxx>
 #include <BRepApprox_MyGradientOfTheComputeLineBezierOfApprox.hxx>
-#include <AppParCurves_MultiBSpCurve.hxx>
+#include <Geometry/AppParCurves/AppParCurves_MultiBSpCurve.hxx>
  
 
 #define ThePSurface BRepAdaptor_Surface

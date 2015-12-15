@@ -6,12 +6,12 @@
 #include <GeomInt_ParFunctionOfMyGradientbisOfTheComputeLineOfWLApprox.hxx>
 
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
-#include <AppParCurves_HArray1OfConstraintCouple.hxx>
+#include <Geometry/AppParCurves/AppParCurves_HArray1OfConstraintCouple.hxx>
 #include <GeomInt_TheMultiLineOfWLApprox.hxx>
 #include <GeomInt_TheMultiLineToolOfWLApprox.hxx>
 #include <GeomInt_ParLeastSquareOfMyGradientbisOfTheComputeLineOfWLApprox.hxx>
 #include <GeomInt_ResConstraintOfMyGradientbisOfTheComputeLineOfWLApprox.hxx>
-#include <AppParCurves_MultiCurve.hxx>
+#include <Geometry/AppParCurves/AppParCurves_MultiCurve.hxx>
  
 
 #define MultiLine GeomInt_TheMultiLineOfWLApprox
@@ -24,5 +24,5 @@
 #define ResolCons_hxx <GeomInt_ResConstraintOfMyGradientbisOfTheComputeLineOfWLApprox.hxx>
 #define AppParCurves_Function GeomInt_ParFunctionOfMyGradientbisOfTheComputeLineOfWLApprox
 #define AppParCurves_Function_hxx <GeomInt_ParFunctionOfMyGradientbisOfTheComputeLineOfWLApprox.hxx>
-#include <AppParCurves_Function.gxx>
+#include <Geometry/AppParCurves/AppParCurves_Function.gxx>
 

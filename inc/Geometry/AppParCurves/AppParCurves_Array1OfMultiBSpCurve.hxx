@@ -92,9 +92,9 @@ private:
 };
 
 #define Array1Item AppParCurves_MultiBSpCurve
-#define Array1Item_hxx <AppParCurves_MultiBSpCurve.hxx>
+#define Array1Item_hxx <Geometry/AppParCurves/AppParCurves_MultiBSpCurve.hxx>
 #define TCollection_Array1 AppParCurves_Array1OfMultiBSpCurve
-#define TCollection_Array1_hxx <AppParCurves_Array1OfMultiBSpCurve.hxx>
+#define TCollection_Array1_hxx <Geometry/AppParCurves/AppParCurves_Array1OfMultiBSpCurve.hxx>
 
 #include <Foundation/TCollection/TCollection_Array1.lxx>
 

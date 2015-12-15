@@ -15,8 +15,8 @@
 #include <Geometry/AppDef/AppDef_MyLineTool.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
-#include <AppParCurves_MultiCurve.hxx>
-#include <AppParCurves_MultiBSpCurve.hxx>
+#include <Geometry/AppParCurves/AppParCurves_MultiCurve.hxx>
+#include <Geometry/AppParCurves/AppParCurves_MultiBSpCurve.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
  
 
@@ -26,5 +26,5 @@
 #define ToolLine_hxx <Geometry/AppDef/AppDef_MyLineTool.hxx>
 #define AppParCurves_LeastSquare AppDef_ParLeastSquareOfMyGradientOfCompute
 #define AppParCurves_LeastSquare_hxx <Geometry/AppDef/AppDef_ParLeastSquareOfMyGradientOfCompute.hxx>
-#include <AppParCurves_LeastSquare.gxx>
+#include <Geometry/AppParCurves/AppParCurves_LeastSquare.gxx>
 

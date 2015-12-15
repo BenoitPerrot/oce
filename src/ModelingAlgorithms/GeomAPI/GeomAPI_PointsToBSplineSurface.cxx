@@ -33,8 +33,8 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>
-#include <AppParCurves_HArray1OfConstraintCouple.hxx>
-#include <AppParCurves_ConstraintCouple.hxx>
+#include <Geometry/AppParCurves/AppParCurves_HArray1OfConstraintCouple.hxx>
+#include <Geometry/AppParCurves/AppParCurves_ConstraintCouple.hxx>
 #include <Geometry/AppDef/AppDef_Variational.hxx>
 
 

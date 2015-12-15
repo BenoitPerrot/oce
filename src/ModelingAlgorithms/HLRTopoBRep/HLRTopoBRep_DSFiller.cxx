@@ -42,7 +42,7 @@
 #include <Geometry/AppDef/AppDef_BSplineCompute.hxx>
 #include <Geometry/AppDef/AppDef_MultiLine.hxx>
 #include <Geometry/AppDef/AppDef_MultiPointConstraint.hxx>
-#include <AppParCurves_MultiBSpCurve.hxx>
+#include <Geometry/AppParCurves/AppParCurves_MultiBSpCurve.hxx>
 #include <HLRTopoBRep_FaceIsoLiner.hxx>
 #include <BRep_Tool.hxx>
 #include <BRep_Builder.hxx>

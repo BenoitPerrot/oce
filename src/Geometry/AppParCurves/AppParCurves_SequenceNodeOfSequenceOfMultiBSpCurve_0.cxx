@@ -3,12 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <AppParCurves_SequenceNodeOfSequenceOfMultiBSpCurve.hxx>
+#include <Geometry/AppParCurves/AppParCurves_SequenceNodeOfSequenceOfMultiBSpCurve.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <AppParCurves_MultiBSpCurve.hxx>
-#include <AppParCurves_SequenceOfMultiBSpCurve.hxx>
+#include <Geometry/AppParCurves/AppParCurves_MultiBSpCurve.hxx>
+#include <Geometry/AppParCurves/AppParCurves_SequenceOfMultiBSpCurve.hxx>
 
  
 
@@ -28,12 +28,12 @@ IMPLEMENT_STANDARD_RTTI(AppParCurves_SequenceNodeOfSequenceOfMultiBSpCurve)
 
 
 #define SeqItem AppParCurves_MultiBSpCurve
-#define SeqItem_hxx <AppParCurves_MultiBSpCurve.hxx>
+#define SeqItem_hxx <Geometry/AppParCurves/AppParCurves_MultiBSpCurve.hxx>
 #define TCollection_SequenceNode AppParCurves_SequenceNodeOfSequenceOfMultiBSpCurve
-#define TCollection_SequenceNode_hxx <AppParCurves_SequenceNodeOfSequenceOfMultiBSpCurve.hxx>
+#define TCollection_SequenceNode_hxx <Geometry/AppParCurves/AppParCurves_SequenceNodeOfSequenceOfMultiBSpCurve.hxx>
 #define Handle_TCollection_SequenceNode Handle_AppParCurves_SequenceNodeOfSequenceOfMultiBSpCurve
 #define TCollection_SequenceNode_Type_() AppParCurves_SequenceNodeOfSequenceOfMultiBSpCurve_Type_()
 #define TCollection_Sequence AppParCurves_SequenceOfMultiBSpCurve
-#define TCollection_Sequence_hxx <AppParCurves_SequenceOfMultiBSpCurve.hxx>
+#define TCollection_Sequence_hxx <Geometry/AppParCurves/AppParCurves_SequenceOfMultiBSpCurve.hxx>
 #include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

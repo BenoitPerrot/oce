@@ -12,7 +12,7 @@
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Geometry/AppDef/AppDef_MultiLine.hxx>
-#include <AppParCurves_MultiCurve.hxx>
+#include <Geometry/AppParCurves/AppParCurves_MultiCurve.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
@@ -21,7 +21,7 @@
 #include <Handle_TColStd_HArray1OfInteger.hxx>
 #include <Handle_AppParCurves_HArray1OfConstraintCouple.hxx>
 #include <Mathematics/Optimization/math_MultipleVarFunctionWithGradient.hxx>
-#include <AppParCurves_Constraint.hxx>
+#include <Geometry/AppParCurves/AppParCurves_Constraint.hxx>
 class TColStd_HArray1OfInteger;
 class AppParCurves_HArray1OfConstraintCouple;
 class AppDef_MultiLine;

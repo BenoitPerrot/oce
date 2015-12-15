@@ -18,7 +18,7 @@
 // avec criteres variationnels
 
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
-#include <AppParCurves_HArray1OfConstraintCouple.hxx>
+#include <Geometry/AppParCurves/AppParCurves_HArray1OfConstraintCouple.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Geometry/AppDef/AppDef_SmoothCriterion.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
@@ -28,7 +28,7 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Mathematics/Primitives/gp_VectorWithNullMagnitude.hxx>
 #include <Geometry/AppDef/AppDef_MultiLine.hxx>
-#include <AppParCurves_MultiBSpCurve.hxx>
+#include <Geometry/AppParCurves/AppParCurves_MultiBSpCurve.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
 #include <FEmTool_Curve.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
@@ -43,12 +43,12 @@
 
 #include <Foundation/Standard/Standard_Stream.hxx>
 
-#include <AppParCurves.hxx>
-#include <AppParCurves_Constraint.hxx>
-#include <AppParCurves_HArray1OfConstraintCouple.hxx>
-#include <AppParCurves_Array1OfMultiPoint.hxx>
-#include <AppParCurves_MultiPoint.hxx>
-#include <AppParCurves_MultiBSpCurve.hxx>
+#include <Geometry/AppParCurves/AppParCurves.hxx>
+#include <Geometry/AppParCurves/AppParCurves_Constraint.hxx>
+#include <Geometry/AppParCurves/AppParCurves_HArray1OfConstraintCouple.hxx>
+#include <Geometry/AppParCurves/AppParCurves_Array1OfMultiPoint.hxx>
+#include <Geometry/AppParCurves/AppParCurves_MultiPoint.hxx>
+#include <Geometry/AppParCurves/AppParCurves_MultiBSpCurve.hxx>
 #include <Geometry/AppDef/AppDef_LinearCriteria.hxx>
 #include <Mathematics/Convert/Convert_CompPolynomialToPoles.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>

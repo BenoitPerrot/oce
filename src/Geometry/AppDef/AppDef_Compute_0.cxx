@@ -6,7 +6,7 @@
 #include <Geometry/AppDef/AppDef_Compute.hxx>
 
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
-#include <AppParCurves_HArray1OfConstraintCouple.hxx>
+#include <Geometry/AppParCurves/AppParCurves_HArray1OfConstraintCouple.hxx>
 #include <Geometry/AppDef/AppDef_MultiLine.hxx>
 #include <Geometry/AppDef/AppDef_MyLineTool.hxx>
 #include <Geometry/AppDef/AppDef_MyGradientOfCompute.hxx>
@@ -14,8 +14,8 @@
 #include <Geometry/AppDef/AppDef_ResConstraintOfMyGradientOfCompute.hxx>
 #include <Geometry/AppDef/AppDef_ParFunctionOfMyGradientOfCompute.hxx>
 #include <Geometry/AppDef/AppDef_Gradient_BFGSOfMyGradientOfCompute.hxx>
-#include <AppParCurves_MultiCurve.hxx>
-#include <AppParCurves_MultiBSpCurve.hxx>
+#include <Geometry/AppParCurves/AppParCurves_MultiCurve.hxx>
+#include <Geometry/AppParCurves/AppParCurves_MultiBSpCurve.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
  
 

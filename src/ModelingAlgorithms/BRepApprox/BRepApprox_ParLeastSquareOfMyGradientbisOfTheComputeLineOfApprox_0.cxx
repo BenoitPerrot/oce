@@ -15,8 +15,8 @@
 #include <BRepApprox_TheMultiLineToolOfApprox.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
-#include <AppParCurves_MultiCurve.hxx>
-#include <AppParCurves_MultiBSpCurve.hxx>
+#include <Geometry/AppParCurves/AppParCurves_MultiCurve.hxx>
+#include <Geometry/AppParCurves/AppParCurves_MultiBSpCurve.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
  
 
@@ -26,5 +26,5 @@
 #define ToolLine_hxx <BRepApprox_TheMultiLineToolOfApprox.hxx>
 #define AppParCurves_LeastSquare BRepApprox_ParLeastSquareOfMyGradientbisOfTheComputeLineOfApprox
 #define AppParCurves_LeastSquare_hxx <BRepApprox_ParLeastSquareOfMyGradientbisOfTheComputeLineOfApprox.hxx>
-#include <AppParCurves_LeastSquare.gxx>
+#include <Geometry/AppParCurves/AppParCurves_LeastSquare.gxx>
 

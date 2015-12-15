@@ -7,7 +7,7 @@
 
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
-#include <AppParCurves_HArray1OfConstraintCouple.hxx>
+#include <Geometry/AppParCurves/AppParCurves_HArray1OfConstraintCouple.hxx>
 #include <BRepApprox_TheMultiLineOfApprox.hxx>
 #include <BRepApprox_TheMultiLineToolOfApprox.hxx>
 #include <BRepApprox_MyBSplGradientOfTheComputeLineOfApprox.hxx>
@@ -21,8 +21,8 @@
 #include <BRepApprox_Gradient_BFGSOfMyGradientbisOfTheComputeLineOfApprox.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
-#include <AppParCurves_MultiBSpCurve.hxx>
-#include <AppParCurves_MultiCurve.hxx>
+#include <Geometry/AppParCurves/AppParCurves_MultiBSpCurve.hxx>
+#include <Geometry/AppParCurves/AppParCurves_MultiCurve.hxx>
  
 
 #define MultiLine BRepApprox_TheMultiLineOfApprox

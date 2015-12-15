@@ -12,10 +12,10 @@
 #include <BRepApprox_BSpParLeastSquareOfMyBSplGradientOfTheComputeLineOfApprox.hxx>
 #include <BRepApprox_BSpParFunctionOfMyBSplGradientOfTheComputeLineOfApprox.hxx>
 #include <BRepApprox_BSpGradient_BFGSOfMyBSplGradientOfTheComputeLineOfApprox.hxx>
-#include <AppParCurves_HArray1OfConstraintCouple.hxx>
+#include <Geometry/AppParCurves/AppParCurves_HArray1OfConstraintCouple.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
-#include <AppParCurves_MultiBSpCurve.hxx>
+#include <Geometry/AppParCurves/AppParCurves_MultiBSpCurve.hxx>
  
 
 #define MultiLine BRepApprox_TheMultiLineOfApprox
@@ -30,5 +30,5 @@
 #define AppParCurves_BSpGradient_BFGS_hxx <BRepApprox_BSpGradient_BFGSOfMyBSplGradientOfTheComputeLineOfApprox.hxx>
 #define AppParCurves_BSpGradient BRepApprox_MyBSplGradientOfTheComputeLineOfApprox
 #define AppParCurves_BSpGradient_hxx <BRepApprox_MyBSplGradientOfTheComputeLineOfApprox.hxx>
-#include <AppParCurves_BSpGradient.gxx>
+#include <Geometry/AppParCurves/AppParCurves_BSpGradient.gxx>
 

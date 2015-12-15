@@ -16,7 +16,7 @@
 #define No_Standard_OutOfRange
 
 #include <Mathematics/Optimization/math_Matrix.hxx>
-#include <AppParCurves.hxx>
+#include <Geometry/AppParCurves/AppParCurves.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>

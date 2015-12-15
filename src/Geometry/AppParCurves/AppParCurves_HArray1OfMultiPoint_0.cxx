@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <AppParCurves_HArray1OfMultiPoint.hxx>
+#include <Geometry/AppParCurves/AppParCurves_HArray1OfMultiPoint.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <AppParCurves_MultiPoint.hxx>
-#include <AppParCurves_Array1OfMultiPoint.hxx>
+#include <Geometry/AppParCurves/AppParCurves_MultiPoint.hxx>
+#include <Geometry/AppParCurves/AppParCurves_Array1OfMultiPoint.hxx>
 
  
 
@@ -31,11 +31,11 @@ IMPLEMENT_STANDARD_RTTI(AppParCurves_HArray1OfMultiPoint)
 
 
 #define ItemHArray1 AppParCurves_MultiPoint
-#define ItemHArray1_hxx <AppParCurves_MultiPoint.hxx>
+#define ItemHArray1_hxx <Geometry/AppParCurves/AppParCurves_MultiPoint.hxx>
 #define TheArray1 AppParCurves_Array1OfMultiPoint
-#define TheArray1_hxx <AppParCurves_Array1OfMultiPoint.hxx>
+#define TheArray1_hxx <Geometry/AppParCurves/AppParCurves_Array1OfMultiPoint.hxx>
 #define TCollection_HArray1 AppParCurves_HArray1OfMultiPoint
-#define TCollection_HArray1_hxx <AppParCurves_HArray1OfMultiPoint.hxx>
+#define TCollection_HArray1_hxx <Geometry/AppParCurves/AppParCurves_HArray1OfMultiPoint.hxx>
 #define Handle_TCollection_HArray1 Handle_AppParCurves_HArray1OfMultiPoint
 #define TCollection_HArray1_Type_() AppParCurves_HArray1OfMultiPoint_Type_()
 #include <Foundation/TCollection/TCollection_HArray1.gxx>

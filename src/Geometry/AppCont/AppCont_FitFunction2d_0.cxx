@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DimensionError.hxx>
 #include <Geometry/AppCont/AppCont_Function2d.hxx>
 #include <Geometry/AppCont/AppCont_FunctionTool2d.hxx>
-#include <AppParCurves_MultiCurve.hxx>
+#include <Geometry/AppParCurves/AppParCurves_MultiCurve.hxx>
  
 
 #define MultiLine AppCont_Function2d

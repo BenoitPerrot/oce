@@ -12,10 +12,10 @@
 #include <GeomInt_BSpParLeastSquareOfMyBSplGradientOfTheComputeLineOfWLApprox.hxx>
 #include <GeomInt_BSpParFunctionOfMyBSplGradientOfTheComputeLineOfWLApprox.hxx>
 #include <GeomInt_BSpGradient_BFGSOfMyBSplGradientOfTheComputeLineOfWLApprox.hxx>
-#include <AppParCurves_HArray1OfConstraintCouple.hxx>
+#include <Geometry/AppParCurves/AppParCurves_HArray1OfConstraintCouple.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
-#include <AppParCurves_MultiBSpCurve.hxx>
+#include <Geometry/AppParCurves/AppParCurves_MultiBSpCurve.hxx>
  
 
 #define MultiLine GeomInt_TheMultiLineOfWLApprox
@@ -30,5 +30,5 @@
 #define AppParCurves_BSpGradient_BFGS_hxx <GeomInt_BSpGradient_BFGSOfMyBSplGradientOfTheComputeLineOfWLApprox.hxx>
 #define AppParCurves_BSpGradient GeomInt_MyBSplGradientOfTheComputeLineOfWLApprox
 #define AppParCurves_BSpGradient_hxx <GeomInt_MyBSplGradientOfTheComputeLineOfWLApprox.hxx>
-#include <AppParCurves_BSpGradient.gxx>
+#include <Geometry/AppParCurves/AppParCurves_BSpGradient.gxx>
 

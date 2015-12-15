@@ -6,12 +6,12 @@
 #include <Geometry/AppDef/AppDef_TheFunction.hxx>
 
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
-#include <AppParCurves_HArray1OfConstraintCouple.hxx>
+#include <Geometry/AppParCurves/AppParCurves_HArray1OfConstraintCouple.hxx>
 #include <Geometry/AppDef/AppDef_MultiLine.hxx>
 #include <Geometry/AppDef/AppDef_MyLineTool.hxx>
 #include <Geometry/AppDef/AppDef_TheLeastSquares.hxx>
 #include <Geometry/AppDef/AppDef_TheResol.hxx>
-#include <AppParCurves_MultiCurve.hxx>
+#include <Geometry/AppParCurves/AppParCurves_MultiCurve.hxx>
  
 
 #define MultiLine AppDef_MultiLine
@@ -24,5 +24,5 @@
 #define ResolCons_hxx <Geometry/AppDef/AppDef_TheResol.hxx>
 #define AppParCurves_Function AppDef_TheFunction
 #define AppParCurves_Function_hxx <Geometry/AppDef/AppDef_TheFunction.hxx>
-#include <AppParCurves_Function.gxx>
+#include <Geometry/AppParCurves/AppParCurves_Function.gxx>
 

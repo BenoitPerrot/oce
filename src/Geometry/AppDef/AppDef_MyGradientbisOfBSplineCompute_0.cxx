@@ -13,8 +13,8 @@
 #include <Geometry/AppDef/AppDef_ResConstraintOfMyGradientbisOfBSplineCompute.hxx>
 #include <Geometry/AppDef/AppDef_ParFunctionOfMyGradientbisOfBSplineCompute.hxx>
 #include <Geometry/AppDef/AppDef_Gradient_BFGSOfMyGradientbisOfBSplineCompute.hxx>
-#include <AppParCurves_HArray1OfConstraintCouple.hxx>
-#include <AppParCurves_MultiCurve.hxx>
+#include <Geometry/AppParCurves/AppParCurves_HArray1OfConstraintCouple.hxx>
+#include <Geometry/AppParCurves/AppParCurves_MultiCurve.hxx>
  
 
 #define MultiLine AppDef_MultiLine
@@ -31,5 +31,5 @@
 #define AppParCurves_Gradient_BFGS_hxx <Geometry/AppDef/AppDef_Gradient_BFGSOfMyGradientbisOfBSplineCompute.hxx>
 #define AppParCurves_Gradient AppDef_MyGradientbisOfBSplineCompute
 #define AppParCurves_Gradient_hxx <Geometry/AppDef/AppDef_MyGradientbisOfBSplineCompute.hxx>
-#include <AppParCurves_Gradient.gxx>
+#include <Geometry/AppParCurves/AppParCurves_Gradient.gxx>
 

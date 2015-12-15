@@ -25,8 +25,8 @@
 
 
 
-#include <AppParCurves_MultiCurve.hxx>
-#include <AppParCurves_MultiPoint.hxx>
+#include <Geometry/AppParCurves/AppParCurves_MultiCurve.hxx>
+#include <Geometry/AppParCurves/AppParCurves_MultiPoint.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
@@ -34,7 +34,7 @@
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
-#include <AppParCurves_ConstraintCouple.hxx>
+#include <Geometry/AppParCurves/AppParCurves_ConstraintCouple.hxx>
 
 AppParCurves_Function::
   AppParCurves_Function(const MultiLine& SSP,

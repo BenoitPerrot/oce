@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_AppParCurves_HArray1OfMultiBSpCurve.hxx>
 
-#include <AppParCurves_Array1OfMultiBSpCurve.hxx>
+#include <Geometry/AppParCurves/AppParCurves_Array1OfMultiBSpCurve.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
@@ -69,11 +69,11 @@ private:
 };
 
 #define ItemHArray1 AppParCurves_MultiBSpCurve
-#define ItemHArray1_hxx <AppParCurves_MultiBSpCurve.hxx>
+#define ItemHArray1_hxx <Geometry/AppParCurves/AppParCurves_MultiBSpCurve.hxx>
 #define TheArray1 AppParCurves_Array1OfMultiBSpCurve
-#define TheArray1_hxx <AppParCurves_Array1OfMultiBSpCurve.hxx>
+#define TheArray1_hxx <Geometry/AppParCurves/AppParCurves_Array1OfMultiBSpCurve.hxx>
 #define TCollection_HArray1 AppParCurves_HArray1OfMultiBSpCurve
-#define TCollection_HArray1_hxx <AppParCurves_HArray1OfMultiBSpCurve.hxx>
+#define TCollection_HArray1_hxx <Geometry/AppParCurves/AppParCurves_HArray1OfMultiBSpCurve.hxx>
 #define Handle_TCollection_HArray1 Handle_AppParCurves_HArray1OfMultiBSpCurve
 #define TCollection_HArray1_Type_() AppParCurves_HArray1OfMultiBSpCurve_Type_()
 

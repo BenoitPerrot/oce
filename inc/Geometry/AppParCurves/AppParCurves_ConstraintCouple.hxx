@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <AppParCurves_Constraint.hxx>
+#include <Geometry/AppParCurves/AppParCurves_Constraint.hxx>
 
 
 //! associates an index and a constraint for an object.

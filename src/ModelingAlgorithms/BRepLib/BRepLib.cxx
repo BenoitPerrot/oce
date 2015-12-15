@@ -56,8 +56,8 @@
 #include <BRep_GCurve.hxx>
 #include <BRep_TEdge.hxx>
 #include <BRep_TFace.hxx>
-#include <AppParCurves_MultiCurve.hxx>
-#include <AppParCurves_MultiBSpCurve.hxx>
+#include <Geometry/AppParCurves/AppParCurves_MultiCurve.hxx>
+#include <Geometry/AppParCurves/AppParCurves_MultiBSpCurve.hxx>
 #include <BRep_ListOfCurveRepresentation.hxx>
 #include <BRep_CurveRepresentation.hxx>
 #include <BRep_ListIteratorOfListOfCurveRepresentation.hxx>

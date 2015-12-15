@@ -23,14 +23,14 @@
 
 #include <Geometry/AppDef/AppDef_BSplineCompute.hxx>
 #include <Geometry/AppDef/AppDef_MultiLine.hxx>
-#include <AppParCurves_MultiBSpCurve.hxx>
+#include <Geometry/AppParCurves/AppParCurves_MultiBSpCurve.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>
 #include <Geometry/AppDef/AppDef_MultiPointConstraint.hxx>
-#include <AppParCurves_HArray1OfConstraintCouple.hxx>
+#include <Geometry/AppParCurves/AppParCurves_HArray1OfConstraintCouple.hxx>
 #include <Geometry/AppDef/AppDef_Variational.hxx>
 
 

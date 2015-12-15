@@ -10,9 +10,9 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <AppParCurves_SequenceOfMultiCurve.hxx>
-#include <AppParCurves_MultiCurve.hxx>
-#include <AppParCurves_MultiBSpCurve.hxx>
+#include <Geometry/AppParCurves/AppParCurves_SequenceOfMultiCurve.hxx>
+#include <Geometry/AppParCurves/AppParCurves_MultiCurve.hxx>
+#include <Geometry/AppParCurves/AppParCurves_MultiBSpCurve.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Approx_ParametrizationType.hxx>
 #include <Handle_TColStd_HArray1OfReal.hxx>
@@ -21,7 +21,7 @@
 #include <Handle_AppParCurves_HArray1OfConstraintCouple.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <AppParCurves_Constraint.hxx>
+#include <Geometry/AppParCurves/AppParCurves_Constraint.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>
 class TColStd_HArray1OfReal;
 class AppParCurves_HArray1OfConstraintCouple;

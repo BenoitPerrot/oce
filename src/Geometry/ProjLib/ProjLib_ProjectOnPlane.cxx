@@ -19,7 +19,7 @@
 #include <ProjLib_ProjectOnPlane.hxx>
 #include <Geometry/AppCont/AppCont_Function.hxx>
 #include <Approx_FitAndDivide.hxx>
-#include <AppParCurves_MultiCurve.hxx>
+#include <Geometry/AppParCurves/AppParCurves_MultiCurve.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>

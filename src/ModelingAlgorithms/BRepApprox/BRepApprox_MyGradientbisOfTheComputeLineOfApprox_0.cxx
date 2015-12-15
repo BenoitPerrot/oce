@@ -13,8 +13,8 @@
 #include <BRepApprox_ResConstraintOfMyGradientbisOfTheComputeLineOfApprox.hxx>
 #include <BRepApprox_ParFunctionOfMyGradientbisOfTheComputeLineOfApprox.hxx>
 #include <BRepApprox_Gradient_BFGSOfMyGradientbisOfTheComputeLineOfApprox.hxx>
-#include <AppParCurves_HArray1OfConstraintCouple.hxx>
-#include <AppParCurves_MultiCurve.hxx>
+#include <Geometry/AppParCurves/AppParCurves_HArray1OfConstraintCouple.hxx>
+#include <Geometry/AppParCurves/AppParCurves_MultiCurve.hxx>
  
 
 #define MultiLine BRepApprox_TheMultiLineOfApprox
@@ -31,5 +31,5 @@
 #define AppParCurves_Gradient_BFGS_hxx <BRepApprox_Gradient_BFGSOfMyGradientbisOfTheComputeLineOfApprox.hxx>
 #define AppParCurves_Gradient BRepApprox_MyGradientbisOfTheComputeLineOfApprox
 #define AppParCurves_Gradient_hxx <BRepApprox_MyGradientbisOfTheComputeLineOfApprox.hxx>
-#include <AppParCurves_Gradient.gxx>
+#include <Geometry/AppParCurves/AppParCurves_Gradient.gxx>
 

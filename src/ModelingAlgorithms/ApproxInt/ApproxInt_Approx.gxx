@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <AppParCurves_Constraint.hxx>
+#include <Geometry/AppParCurves/AppParCurves_Constraint.hxx>
 #include <GeomAbs_SurfaceType.hxx>
 #include <IntSurf_Quadric.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>

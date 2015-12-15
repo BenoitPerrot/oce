@@ -3,18 +3,18 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <AppParCurves_Array1OfMultiPoint.hxx>
+#include <Geometry/AppParCurves/AppParCurves_Array1OfMultiPoint.hxx>
 
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <AppParCurves_MultiPoint.hxx>
+#include <Geometry/AppParCurves/AppParCurves_MultiPoint.hxx>
  
 
 #define Array1Item AppParCurves_MultiPoint
-#define Array1Item_hxx <AppParCurves_MultiPoint.hxx>
+#define Array1Item_hxx <Geometry/AppParCurves/AppParCurves_MultiPoint.hxx>
 #define TCollection_Array1 AppParCurves_Array1OfMultiPoint
-#define TCollection_Array1_hxx <AppParCurves_Array1OfMultiPoint.hxx>
+#define TCollection_Array1_hxx <Geometry/AppParCurves/AppParCurves_Array1OfMultiPoint.hxx>
 #include <Foundation/TCollection/TCollection_Array1.gxx>
 

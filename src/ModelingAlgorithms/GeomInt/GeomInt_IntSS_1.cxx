@@ -52,7 +52,7 @@
 #include <Foundation/NCollection/NCollection_StdAllocator.hxx>
 #include <vector>
 
-#include <AppParCurves_MultiBSpCurve.hxx>
+#include <Geometry/AppParCurves/AppParCurves_MultiBSpCurve.hxx>
 
 #include <GeomAbs_SurfaceType.hxx>
 #include <GeomAbs_CurveType.hxx>

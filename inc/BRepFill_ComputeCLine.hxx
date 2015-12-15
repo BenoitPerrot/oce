@@ -10,13 +10,13 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <AppParCurves_SequenceOfMultiCurve.hxx>
+#include <Geometry/AppParCurves/AppParCurves_SequenceOfMultiCurve.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
-#include <AppParCurves_MultiCurve.hxx>
+#include <Geometry/AppParCurves/AppParCurves_MultiCurve.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <AppParCurves_Constraint.hxx>
+#include <Geometry/AppParCurves/AppParCurves_Constraint.hxx>
 class BRepFill_MultiLine;
 class BRepFill_MultiLineTool;
 class BRepFill_MyLeastSquareOfComputeCLine;

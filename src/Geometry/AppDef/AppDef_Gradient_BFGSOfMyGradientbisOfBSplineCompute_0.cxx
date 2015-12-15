@@ -28,5 +28,5 @@
 #define AppParCurves_Gradient_BFGS_hxx <Geometry/AppDef/AppDef_Gradient_BFGSOfMyGradientbisOfBSplineCompute.hxx>
 #define AppParCurves_Gradient AppDef_MyGradientbisOfBSplineCompute
 #define AppParCurves_Gradient_hxx <Geometry/AppDef/AppDef_MyGradientbisOfBSplineCompute.hxx>
-#include <AppParCurves_Gradient_BFGS.gxx>
+#include <Geometry/AppParCurves/AppParCurves_Gradient_BFGS.gxx>
 

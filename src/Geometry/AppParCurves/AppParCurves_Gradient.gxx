@@ -29,10 +29,10 @@
 #define No_Standard_RangeError
 #define No_Standard_OutOfRange
 
-#include <AppParCurves_Constraint.hxx>
+#include <Geometry/AppParCurves/AppParCurves_Constraint.hxx>
 #include <Mathematics/Optimization/math_BFGS.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <AppParCurves_MultiPoint.hxx>
+#include <Geometry/AppParCurves/AppParCurves_MultiPoint.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>

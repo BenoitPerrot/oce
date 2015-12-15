@@ -92,7 +92,7 @@
 
 #include <Geometry/AppCont/AppCont_Function.hxx>
 #include <Approx_FitAndDivide.hxx>
-#include <AppParCurves_MultiCurve.hxx>
+#include <Geometry/AppParCurves/AppParCurves_MultiCurve.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Mathematics/Convert/Convert_CompBezierCurvesToBSplineCurve.hxx>
 #include <Precision.hxx>

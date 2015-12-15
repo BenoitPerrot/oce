@@ -8,8 +8,8 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <BRepApprox_TheMultiLineOfApprox.hxx>
 #include <BRepApprox_TheMultiLineToolOfApprox.hxx>
-#include <AppParCurves_MultiCurve.hxx>
-#include <AppParCurves_HArray1OfConstraintCouple.hxx>
+#include <Geometry/AppParCurves/AppParCurves_MultiCurve.hxx>
+#include <Geometry/AppParCurves/AppParCurves_HArray1OfConstraintCouple.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
  
 
@@ -19,5 +19,5 @@
 #define ToolLine_hxx <BRepApprox_TheMultiLineToolOfApprox.hxx>
 #define AppParCurves_ResolConstraint BRepApprox_ResConstraintOfMyGradientOfTheComputeLineBezierOfApprox
 #define AppParCurves_ResolConstraint_hxx <BRepApprox_ResConstraintOfMyGradientOfTheComputeLineBezierOfApprox.hxx>
-#include <AppParCurves_ResolConstraint.gxx>
+#include <Geometry/AppParCurves/AppParCurves_ResolConstraint.gxx>
 

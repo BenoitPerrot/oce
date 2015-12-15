@@ -19,12 +19,12 @@
 #include <GeomAbs_Shape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_AppDef_SmoothCriterion.hxx>
-#include <AppParCurves_MultiBSpCurve.hxx>
+#include <Geometry/AppParCurves/AppParCurves_MultiBSpCurve.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 #include <Handle_FEmTool_Curve.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>
 #include <Handle_PLib_Base.hxx>
-#include <AppParCurves_Constraint.hxx>
+#include <Geometry/AppParCurves/AppParCurves_Constraint.hxx>
 class TColStd_HArray1OfReal;
 class AppParCurves_HArray1OfConstraintCouple;
 class TColStd_HArray1OfInteger;

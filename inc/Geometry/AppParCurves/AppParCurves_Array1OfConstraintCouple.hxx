@@ -92,9 +92,9 @@ private:
 };
 
 #define Array1Item AppParCurves_ConstraintCouple
-#define Array1Item_hxx <AppParCurves_ConstraintCouple.hxx>
+#define Array1Item_hxx <Geometry/AppParCurves/AppParCurves_ConstraintCouple.hxx>
 #define TCollection_Array1 AppParCurves_Array1OfConstraintCouple
-#define TCollection_Array1_hxx <AppParCurves_Array1OfConstraintCouple.hxx>
+#define TCollection_Array1_hxx <Geometry/AppParCurves/AppParCurves_Array1OfConstraintCouple.hxx>
 
 #include <Foundation/TCollection/TCollection_Array1.lxx>
 

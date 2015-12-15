@@ -134,7 +134,7 @@ private:
 };
 
 
-#include <AppParCurves_MultiPoint.lxx>
+#include <Geometry/AppParCurves/AppParCurves_MultiPoint.lxx>
 
 
 

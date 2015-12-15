@@ -23,7 +23,7 @@
 #include <GeomInt_MyGradientbisOfTheComputeLineOfWLApprox.hxx>
 #include <GeomInt_TheComputeLineBezierOfWLApprox.hxx>
 #include <GeomInt_MyGradientOfTheComputeLineBezierOfWLApprox.hxx>
-#include <AppParCurves_MultiBSpCurve.hxx>
+#include <Geometry/AppParCurves/AppParCurves_MultiBSpCurve.hxx>
  
 
 #define ThePSurface Handle(Adaptor3d_HSurface)

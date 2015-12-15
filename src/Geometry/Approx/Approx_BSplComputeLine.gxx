@@ -24,14 +24,14 @@
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfVec.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfVec2d.hxx>
-#include <AppParCurves_Constraint.hxx>
-#include <AppParCurves_HArray1OfConstraintCouple.hxx>
-#include <AppParCurves_MultiPoint.hxx>
+#include <Geometry/AppParCurves/AppParCurves_Constraint.hxx>
+#include <Geometry/AppParCurves/AppParCurves_HArray1OfConstraintCouple.hxx>
+#include <Geometry/AppParCurves/AppParCurves_MultiPoint.hxx>
 #include <Precision.hxx>
 #include <Mathematics/Optimization/math_IntegerVector.hxx>
 #include <Mathematics/Optimization/math_Gauss.hxx>
 #include <Mathematics/Optimization/math_Uzawa.hxx>
-#include <AppParCurves_ConstraintCouple.hxx>
+#include <Geometry/AppParCurves/AppParCurves_ConstraintCouple.hxx>
 #include Approx_BSpParLeastSquareOfMyBSplGradient_hxx
 
 #if defined(OCCT_DEBUG) && defined( DRAW ) && !defined( WNT )

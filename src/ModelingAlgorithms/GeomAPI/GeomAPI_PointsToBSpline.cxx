@@ -23,13 +23,13 @@
 
 #include <Geometry/AppDef/AppDef_BSplineCompute.hxx>
 #include <Geometry/AppDef/AppDef_MultiLine.hxx>
-#include <AppParCurves_MultiBSpCurve.hxx>
+#include <Geometry/AppParCurves/AppParCurves_MultiBSpCurve.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Geometry/AppDef/AppDef_MultiLine.hxx>
 #include <Geometry/AppDef/AppDef_MultiPointConstraint.hxx>
-#include <AppParCurves_HArray1OfConstraintCouple.hxx>
-#include <AppParCurves_Constraint.hxx>
+#include <Geometry/AppParCurves/AppParCurves_HArray1OfConstraintCouple.hxx>
+#include <Geometry/AppParCurves/AppParCurves_Constraint.hxx>
 #include <Geometry/AppDef/AppDef_Variational.hxx>
 
 

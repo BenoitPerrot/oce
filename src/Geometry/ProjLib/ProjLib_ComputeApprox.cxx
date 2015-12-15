@@ -31,7 +31,7 @@
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Precision.hxx>
 #include <Approx_FitAndDivide2d.hxx>
-#include <AppParCurves_MultiCurve.hxx>
+#include <Geometry/AppParCurves/AppParCurves_MultiCurve.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>

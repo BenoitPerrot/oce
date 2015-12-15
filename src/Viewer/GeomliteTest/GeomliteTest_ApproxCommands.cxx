@@ -49,13 +49,13 @@
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfBoolean.hxx>
 
-#include <AppParCurves_MultiBSpCurve.hxx>
-#include <AppParCurves_MultiCurve.hxx>
+#include <Geometry/AppParCurves/AppParCurves_MultiBSpCurve.hxx>
+#include <Geometry/AppParCurves/AppParCurves_MultiCurve.hxx>
 #include <Geometry/AppDef/AppDef_MultiLine.hxx>
 #include <Geometry/AppDef/AppDef_Variational.hxx>
 #include <Geometry/AppDef/AppDef_Compute.hxx>
-#include <AppParCurves_HArray1OfConstraintCouple.hxx>
-#include <AppParCurves_ConstraintCouple.hxx>
+#include <Geometry/AppParCurves/AppParCurves_HArray1OfConstraintCouple.hxx>
+#include <Geometry/AppParCurves/AppParCurves_ConstraintCouple.hxx>
 #include <Geometry/AppDef/AppDef_HArray1OfMultiPointConstraint.hxx>
 #include <Geometry/AppDef/AppDef_Array1OfMultiPointConstraint.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>

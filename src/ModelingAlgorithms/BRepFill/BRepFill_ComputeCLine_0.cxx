@@ -8,7 +8,7 @@
 #include <BRepFill_MultiLine.hxx>
 #include <BRepFill_MultiLineTool.hxx>
 #include <BRepFill_MyLeastSquareOfComputeCLine.hxx>
-#include <AppParCurves_MultiCurve.hxx>
+#include <Geometry/AppParCurves/AppParCurves_MultiCurve.hxx>
  
 
 #define MultiLine BRepFill_MultiLine

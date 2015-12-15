@@ -17,19 +17,19 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_DimensionError.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <AppParCurves_Array1OfMultiPoint.hxx>
+#include <Geometry/AppParCurves/AppParCurves_Array1OfMultiPoint.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
-#include <AppParCurves_MultiCurve.hxx>
+#include <Geometry/AppParCurves/AppParCurves_MultiCurve.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
-#include <AppParCurves_MultiBSpCurve.hxx>
+#include <Geometry/AppParCurves/AppParCurves_MultiBSpCurve.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <AppParCurves_HArray1OfMultiPoint.hxx>
+#include <Geometry/AppParCurves/AppParCurves_HArray1OfMultiPoint.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 
 //=======================================================================

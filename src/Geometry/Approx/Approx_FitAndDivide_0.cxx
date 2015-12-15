@@ -8,7 +8,7 @@
 #include <Geometry/AppCont/AppCont_Function.hxx>
 #include <Geometry/AppCont/AppCont_FunctionTool.hxx>
 #include <Approx_MyLeastSquareOfFitAndDivide.hxx>
-#include <AppParCurves_MultiCurve.hxx>
+#include <Geometry/AppParCurves/AppParCurves_MultiCurve.hxx>
  
 
 #define MultiLine AppCont_Function

@@ -14,11 +14,11 @@
 
 #include <Geometry/AppDef/AppDef_MultiLine.hxx>
 #include <Geometry/AppDef/AppDef_MultiPointConstraint.hxx>
-#include <AppParCurves_MultiBSpCurve.hxx>
-#include <AppParCurves_MultiCurve.hxx>
+#include <Geometry/AppParCurves/AppParCurves_MultiBSpCurve.hxx>
+#include <Geometry/AppParCurves/AppParCurves_MultiCurve.hxx>
 #include <Geometry/AppDef/AppDef_BSplineCompute.hxx>
 #include <Geometry/AppDef/AppDef_Compute.hxx>
-#include <AppParCurves_Constraint.hxx>
+#include <Geometry/AppParCurves/AppParCurves_Constraint.hxx>
 #include <Approx_MCurvesToBSpCurve.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
@@ -32,7 +32,7 @@
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <AppParCurves_HArray1OfConstraintCouple.hxx>
+#include <Geometry/AppParCurves/AppParCurves_HArray1OfConstraintCouple.hxx>
 #include <Geometry/AppDef/AppDef_Variational.hxx>
 
 static   Standard_Boolean scal = 1;

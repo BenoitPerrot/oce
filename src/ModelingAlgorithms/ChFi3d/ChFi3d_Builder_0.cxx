@@ -124,7 +124,7 @@
 #include <Geom2dInt_GInter.hxx>
 #include <GeomInt_WLApprox.hxx>
 #include <GeomInt_IntSS.hxx>
-#include <AppParCurves_MultiBSpCurve.hxx>
+#include <Geometry/AppParCurves/AppParCurves_MultiBSpCurve.hxx>
 #include <Approx_SameParameter.hxx>
 
 #include <TopAbs.hxx>

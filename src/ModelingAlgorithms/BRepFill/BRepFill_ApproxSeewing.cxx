@@ -20,7 +20,7 @@
 #include <BRepFill_MultiLine.hxx>
 #include <BRepFill_ApproxSeewing.hxx>
 
-#include <AppParCurves_MultiCurve.hxx>
+#include <Geometry/AppParCurves/AppParCurves_MultiCurve.hxx>
 #include <Geometry/AppDef/AppDef_Compute.hxx>
 #include <Geometry/AppDef/AppDef_MultiLine.hxx>
 #include <Geometry/AppDef/AppDef_MultiPointConstraint.hxx>

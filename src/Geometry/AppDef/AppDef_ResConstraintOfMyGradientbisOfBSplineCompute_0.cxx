@@ -8,8 +8,8 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Geometry/AppDef/AppDef_MultiLine.hxx>
 #include <Geometry/AppDef/AppDef_MyLineTool.hxx>
-#include <AppParCurves_MultiCurve.hxx>
-#include <AppParCurves_HArray1OfConstraintCouple.hxx>
+#include <Geometry/AppParCurves/AppParCurves_MultiCurve.hxx>
+#include <Geometry/AppParCurves/AppParCurves_HArray1OfConstraintCouple.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
  
 
@@ -19,5 +19,5 @@
 #define ToolLine_hxx <Geometry/AppDef/AppDef_MyLineTool.hxx>
 #define AppParCurves_ResolConstraint AppDef_ResConstraintOfMyGradientbisOfBSplineCompute
 #define AppParCurves_ResolConstraint_hxx <Geometry/AppDef/AppDef_ResConstraintOfMyGradientbisOfBSplineCompute.hxx>
-#include <AppParCurves_ResolConstraint.gxx>
+#include <Geometry/AppParCurves/AppParCurves_ResolConstraint.gxx>
 

@@ -13,8 +13,8 @@
 #include <GeomInt_ResConstraintOfMyGradientbisOfTheComputeLineOfWLApprox.hxx>
 #include <GeomInt_ParFunctionOfMyGradientbisOfTheComputeLineOfWLApprox.hxx>
 #include <GeomInt_Gradient_BFGSOfMyGradientbisOfTheComputeLineOfWLApprox.hxx>
-#include <AppParCurves_HArray1OfConstraintCouple.hxx>
-#include <AppParCurves_MultiCurve.hxx>
+#include <Geometry/AppParCurves/AppParCurves_HArray1OfConstraintCouple.hxx>
+#include <Geometry/AppParCurves/AppParCurves_MultiCurve.hxx>
  
 
 #define MultiLine GeomInt_TheMultiLineOfWLApprox
@@ -31,5 +31,5 @@
 #define AppParCurves_Gradient_BFGS_hxx <GeomInt_Gradient_BFGSOfMyGradientbisOfTheComputeLineOfWLApprox.hxx>
 #define AppParCurves_Gradient GeomInt_MyGradientbisOfTheComputeLineOfWLApprox
 #define AppParCurves_Gradient_hxx <GeomInt_MyGradientbisOfTheComputeLineOfWLApprox.hxx>
-#include <AppParCurves_Gradient.gxx>
+#include <Geometry/AppParCurves/AppParCurves_Gradient.gxx>
 
