@@ -42,7 +42,7 @@
 #include <ElCLib.hxx>
 #include <Extrema_ExtPElC.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <BndLib_AddSurface.hxx>
+#include <Geometry/BndLib/BndLib_AddSurface.hxx>
 #include <Extrema_ExtPElS.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Extrema_ExtPS.hxx>

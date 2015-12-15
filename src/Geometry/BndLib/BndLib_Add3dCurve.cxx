@@ -14,9 +14,9 @@
 
 #include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <BndLib_Add3dCurve.hxx>
+#include <Geometry/BndLib/BndLib_Add3dCurve.hxx>
 #include <GeomAbs_CurveType.hxx>
-#include <BndLib.hxx>
+#include <Geometry/BndLib/BndLib.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geom_BezierCurve.hxx>

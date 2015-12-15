@@ -76,8 +76,8 @@ IMPLEMENT_STANDARD_RTTI(BRepBuilderAPI_Sewing)
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_HArray1OfBox.hxx>
-#include <BndLib_Add2dCurve.hxx>
-#include <BndLib_Add3dCurve.hxx>
+#include <Geometry/BndLib/BndLib_Add2dCurve.hxx>
+#include <Geometry/BndLib/BndLib_Add3dCurve.hxx>
 #include <BRep_Builder.hxx>
 #include <BRep_Tool.hxx>
 #include <BRepLib.hxx>

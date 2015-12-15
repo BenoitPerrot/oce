@@ -29,7 +29,7 @@
 #include <Vrml_IndexedLineSet.hxx>
 #include <Precision.hxx>
 #include <GCPnts_QuasiUniformDeflection.hxx>
-#include <BndLib_Add3dCurve.hxx>
+#include <Geometry/BndLib/BndLib_Add3dCurve.hxx>
 
 //==================================================================
 // function: FindLimits

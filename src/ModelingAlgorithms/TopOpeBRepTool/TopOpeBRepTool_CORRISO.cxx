@@ -36,7 +36,7 @@
 #include <Geom2dAdaptor_Curve.hxx>
 #include <Geom2d_TrimmedCurve.hxx>
 #include <GeomAdaptor_Surface.hxx>
-#include <BndLib_Add2dCurve.hxx>
+#include <Geometry/BndLib/BndLib_Add2dCurve.hxx>
 #include <TopoDS.hxx>
 
 #include <BRep_TEdge.hxx>

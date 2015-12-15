@@ -34,7 +34,7 @@
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Prs3d.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <BndLib_Add3dCurve.hxx>
+#include <Geometry/BndLib/BndLib_Add3dCurve.hxx>
 #include <Precision.hxx>
 #include <GCPnts_QuasiUniformDeflection.hxx>
 #include <GCPnts_TangentialDeflection.hxx>

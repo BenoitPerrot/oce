@@ -37,7 +37,7 @@
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <BndLib_Add3dCurve.hxx>
+#include <Geometry/BndLib/BndLib_Add3dCurve.hxx>
 
 #include <Precision.hxx>
 #include <Mathematics/Primitives/gp.hxx>

@@ -38,7 +38,7 @@
 
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 
-#include <BndLib_AddSurface.hxx>
+#include <Geometry/BndLib/BndLib_AddSurface.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 
 #include <Geometry/Adaptor3d/Adaptor3d_HSurfaceTool.hxx>

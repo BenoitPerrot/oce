@@ -83,7 +83,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_ComposeShell)
 
 #include <BRepTools.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
-#include <BndLib_Add2dCurve.hxx>
+#include <Geometry/BndLib/BndLib_Add2dCurve.hxx>
 #include <BRepTopAdaptor_FClass2d.hxx>
 #include <BRep_Tool.hxx>
 #include <BRep_Builder.hxx>

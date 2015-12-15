@@ -22,7 +22,7 @@
 #include <GeomAbs_IsoType.hxx>
 #include <Prs3d_IsoAspect.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <BndLib_AddSurface.hxx>
+#include <Geometry/BndLib/BndLib_AddSurface.hxx>
 #include <Precision.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_IsoCurve.hxx>

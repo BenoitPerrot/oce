@@ -530,7 +530,7 @@ static
 
 #include <Geom_Parabola.hxx>
 #include <Mathematics/Primitives/gp_Parab.hxx>
-#include <BndLib_Add3dCurve.hxx>
+#include <Geometry/BndLib/BndLib_Add3dCurve.hxx>
 //=======================================================================
 //function : ParabolaTolerance
 //purpose  : 

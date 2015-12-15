@@ -35,7 +35,7 @@
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BRepTools.hxx>
 #include <BRepBndLib.hxx>
-#include <BndLib_Add3dCurve.hxx>
+#include <Geometry/BndLib/BndLib_Add3dCurve.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <Mathematics/Polyhedral/Poly_PolygonOnTriangulation.hxx>
 

@@ -36,7 +36,7 @@
 #include <TopExp_Explorer.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Iterator.hxx>
-#include <BndLib_Add2dCurve.hxx>
+#include <Geometry/BndLib/BndLib_Add2dCurve.hxx>
 #include <Geom2dAdaptor_Curve.hxx>
 #include <Geom_Surface.hxx>
 #include <Geom_Curve.hxx>

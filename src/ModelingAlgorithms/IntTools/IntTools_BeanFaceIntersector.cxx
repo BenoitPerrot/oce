@@ -67,8 +67,8 @@
 #include <Extrema_GenLocateExtPS.hxx>
 #include <Extrema_GenExtCS.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <BndLib_AddSurface.hxx>
-#include <BndLib_Add3dCurve.hxx>
+#include <Geometry/BndLib/BndLib_AddSurface.hxx>
+#include <Geometry/BndLib/BndLib_Add3dCurve.hxx>
 #include <ElCLib.hxx>
 #include <ElSLib.hxx>
 #include <GeomInt.hxx>

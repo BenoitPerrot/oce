@@ -47,7 +47,7 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_CorrectedFrenet)
 #include <Law_Interpolate.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
-#include <BndLib_Add3dCurve.hxx>
+#include <Geometry/BndLib/BndLib_Add3dCurve.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <GeomLib.hxx>
 #include <Law_Composite.hxx>

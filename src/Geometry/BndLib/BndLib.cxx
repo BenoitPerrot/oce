@@ -28,7 +28,7 @@
 #include <Mathematics/Primitives/gp_Cone.hxx>
 #include <Mathematics/Primitives/gp_Sphere.hxx>
 #include <Mathematics/Primitives/gp_Torus.hxx>
-#include <BndLib.hxx>
+#include <Geometry/BndLib/BndLib.hxx>
 
 #include <ElCLib.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>

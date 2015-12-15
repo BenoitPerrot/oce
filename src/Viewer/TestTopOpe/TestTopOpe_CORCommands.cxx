@@ -30,7 +30,7 @@
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <BRepAdaptor_Curve2d.hxx>
-#include <BndLib_Add2dCurve.hxx>
+#include <Geometry/BndLib/BndLib_Add2dCurve.hxx>
 #include <BRepLProp_SLProps.hxx>
 #include <Geom_Curve.hxx>
 #include <Geom2dAdaptor_Curve.hxx>

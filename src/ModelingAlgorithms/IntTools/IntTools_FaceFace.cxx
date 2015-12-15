@@ -66,7 +66,7 @@
 
 #include <Extrema_ExtCC.hxx>
 #include <Extrema_POnCurv.hxx>
-#include <BndLib_AddSurface.hxx>
+#include <Geometry/BndLib/BndLib_AddSurface.hxx>
 
 #include <Geometry/Adaptor3d/Adaptor3d_SurfacePtr.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_HLine2d.hxx>

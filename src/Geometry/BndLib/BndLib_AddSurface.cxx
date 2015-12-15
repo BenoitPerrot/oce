@@ -19,12 +19,12 @@
 
 #include <Geometry/Adaptor3d/Adaptor3d_Surface.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <BndLib_AddSurface.hxx>
+#include <Geometry/BndLib/BndLib_AddSurface.hxx>
 
 
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #include <GeomAbs_SurfaceType.hxx>
-#include <BndLib.hxx>
+#include <Geometry/BndLib/BndLib.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <ElSLib.hxx>

@@ -79,7 +79,7 @@ IMPLEMENT_STANDARD_RTTI(BRepCheck_Wire)
 //Patch
 #include <Precision.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Array1OfBox2d.hxx>
-#include <BndLib_Add2dCurve.hxx>
+#include <Geometry/BndLib/BndLib_Add2dCurve.hxx>
 
 //#ifdef WNT
 #include <stdio.h>

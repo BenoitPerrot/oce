@@ -52,7 +52,7 @@
 #include <Precision.hxx>
 
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <BndLib_AddSurface.hxx>
+#include <Geometry/BndLib/BndLib_AddSurface.hxx>
 
 #include <Mathematics/Primitives/gp_Cylinder.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>

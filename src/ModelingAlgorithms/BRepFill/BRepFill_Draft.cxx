@@ -32,8 +32,8 @@
 #include <BRepFill_Sweep.hxx>
 #include <BRepFill_DataMapOfShapeHArray2OfShape.hxx>
 
-#include <BndLib_Add3dCurve.hxx>
-#include <BndLib_AddSurface.hxx>
+#include <Geometry/BndLib/BndLib_Add3dCurve.hxx>
+#include <Geometry/BndLib/BndLib_AddSurface.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>

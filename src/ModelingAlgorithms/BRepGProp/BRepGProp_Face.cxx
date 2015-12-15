@@ -35,7 +35,7 @@
 #include <Mathematics/Optimization/math.hxx>
 
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
-#include <BndLib_Add2dCurve.hxx>
+#include <Geometry/BndLib/BndLib_Add2dCurve.hxx>
 #include <GeomAdaptor_Curve.hxx>
 
 #include <Precision.hxx>

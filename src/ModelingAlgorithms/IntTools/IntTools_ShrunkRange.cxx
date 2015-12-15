@@ -28,7 +28,7 @@
 #include <BRep_Tool.hxx>
 #include <BRepLib_MakeVertex.hxx>
 #include <BRepAdaptor_Curve.hxx>
-#include <BndLib_Add3dCurve.hxx>
+#include <Geometry/BndLib/BndLib_Add3dCurve.hxx>
 #include <IntTools_Context.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <ElCLib.hxx>

@@ -24,12 +24,12 @@
 #include <VrmlConverter_DeflectionCurve.hxx>
 #include <StdPrs_ToolRFace.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
-#include <BndLib_Add2dCurve.hxx>
+#include <Geometry/BndLib/BndLib_Add2dCurve.hxx>
 #include <Precision.hxx>
 #include <Vrml_Separator.hxx>
 #include <Vrml_Material.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <BndLib_AddSurface.hxx>
+#include <Geometry/BndLib/BndLib_AddSurface.hxx>
 
 //==================================================================
 // function: GetDeflection

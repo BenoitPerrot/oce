@@ -29,7 +29,7 @@
 #include <TopoDS_Iterator.hxx>
 
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <BndLib_Add3dCurve.hxx>
+#include <Geometry/BndLib/BndLib_Add3dCurve.hxx>
 
 #include <Geom_Circle.hxx>
 #include <Geom_Ellipse.hxx>

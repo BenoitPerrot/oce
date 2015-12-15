@@ -29,7 +29,7 @@
 #include <Mathematics/BoundingVolumes/Bnd_Array1OfBox2d.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
-#include <BndLib_Add2dCurve.hxx>
+#include <Geometry/BndLib/BndLib_Add2dCurve.hxx>
 #include <BRepAdaptor_Curve2d.hxx>
 #include <BRepClass3d_SolidExplorer.hxx>
 #include <BRepClass_FaceClassifier.hxx>

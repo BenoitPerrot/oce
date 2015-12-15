@@ -83,7 +83,7 @@
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <BndLib_Add3dCurve.hxx>
+#include <Geometry/BndLib/BndLib_Add3dCurve.hxx>
 #include <BRepTools.hxx>
 
 #ifdef DRAW 

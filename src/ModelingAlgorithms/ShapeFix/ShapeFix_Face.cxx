@@ -110,7 +110,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Face)
 
 #include <ShapeFix.hxx>
 #include <ShapeFix_DataMapOfShapeBox2d.hxx>
-#include <BndLib_Add2dCurve.hxx>
+#include <Geometry/BndLib/BndLib_Add2dCurve.hxx>
 #include <Geom2dAdaptor_Curve.hxx>
 #include <IntRes2d_Domain.hxx>
 #include <Geom2dInt_GInter.hxx>

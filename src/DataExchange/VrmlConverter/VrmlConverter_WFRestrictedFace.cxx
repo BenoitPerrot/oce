@@ -19,7 +19,7 @@
 #include <VrmlConverter_IsoAspect.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_IsoCurve.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
-#include <BndLib_Add2dCurve.hxx>
+#include <Geometry/BndLib/BndLib_Add2dCurve.hxx>
 #include <Precision.hxx>
 #include <StdPrs_ToolRFace.hxx>
 #include <VrmlConverter_Curve.hxx>

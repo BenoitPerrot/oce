@@ -34,7 +34,7 @@
 
 
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
-#include <BndLib_Add2dCurve.hxx>
+#include <Geometry/BndLib/BndLib_Add2dCurve.hxx>
 #include <BRepFill_OffsetWire.hxx>
 #include <BRepAdaptor_Curve.hxx>
 #include <BRep_Builder.hxx>

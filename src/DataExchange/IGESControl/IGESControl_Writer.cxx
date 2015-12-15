@@ -42,8 +42,8 @@
 #include <BRepBndLib.hxx>
 #include <GeomAdaptor_Curve.hxx>
 #include <GeomAdaptor_Surface.hxx>
-#include <BndLib_Add3dCurve.hxx>
-#include <BndLib_AddSurface.hxx>
+#include <Geometry/BndLib/BndLib_Add3dCurve.hxx>
+#include <Geometry/BndLib/BndLib_AddSurface.hxx>
 #include <XSAlgo.hxx>
 #include <XSAlgo_AlgoContainer.hxx>
 #include <TopExp_Explorer.hxx>

@@ -57,7 +57,7 @@
 #include <TopTools_Array1OfShape.hxx>
 #include <BRepTools.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Array1OfBox2d.hxx>
-#include <BndLib_Add2dCurve.hxx>
+#include <Geometry/BndLib/BndLib_Add2dCurve.hxx>
 #include <Geom2dAdaptor_Curve.hxx>
 #include <Geom2dConvert.hxx>
 #include <Geom2d_TrimmedCurve.hxx>

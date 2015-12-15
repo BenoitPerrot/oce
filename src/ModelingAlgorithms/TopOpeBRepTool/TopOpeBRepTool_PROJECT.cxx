@@ -26,7 +26,7 @@
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BRepBndLib.hxx>
-#include <BndLib_Add2dCurve.hxx>
+#include <Geometry/BndLib/BndLib_Add2dCurve.hxx>
 #include <BRepAdaptor_Curve.hxx>
 #include <BRepAdaptor_Curve2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>

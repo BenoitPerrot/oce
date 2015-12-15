@@ -20,8 +20,8 @@
 #include <BRepAdaptor_Curve.hxx>
 #include <BRep_Tool.hxx> 
 #include <TopoDS.hxx>
-#include <BndLib_Add3dCurve.hxx>
-#include <BndLib_AddSurface.hxx>
+#include <Geometry/BndLib/BndLib_Add3dCurve.hxx>
+#include <Geometry/BndLib/BndLib_AddSurface.hxx>
 #include <Geom_Surface.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
@@ -33,7 +33,7 @@
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Geom_Curve.hxx>
 #include <GeomAdaptor_Curve.hxx>
-#include <BndLib_Add3dCurve.hxx>
+#include <Geometry/BndLib/BndLib_Add3dCurve.hxx>
 
 
 //=======================================================================

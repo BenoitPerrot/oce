@@ -66,7 +66,7 @@ IMPLEMENT_STANDARD_RTTI(LocOpe_WiresOnShape)
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <BRepAdaptor_Curve2d.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
-#include <BndLib_Add2dCurve.hxx>
+#include <Geometry/BndLib/BndLib_Add2dCurve.hxx>
 #include <Extrema_ExtCC.hxx>
 #include <BRepLib_MakeVertex.hxx>
 

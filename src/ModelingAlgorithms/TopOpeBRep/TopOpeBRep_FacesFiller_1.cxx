@@ -62,7 +62,7 @@
 #include <TopOpeBRep_define.hxx>
 
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <BndLib_Add3dCurve.hxx>
+#include <Geometry/BndLib/BndLib_Add3dCurve.hxx>
 
 #ifdef DRAW
 #include <TopOpeBRep_DRAW.hxx>
