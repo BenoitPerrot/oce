@@ -63,7 +63,7 @@
 #include <BRep_ListIteratorOfListOfCurveRepresentation.hxx>
 #include <BRep_TVertex.hxx>
 #include <AdvApprox_ApproxAFunction.hxx>
-#include <Approx_SameParameter.hxx>
+#include <Geometry/Approx/Approx_SameParameter.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
@@ -85,7 +85,7 @@
 #include <BRepClass3d_SolidClassifier.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BRepBndLib.hxx>
-#include <Approx_CurvilinearParameter.hxx>
+#include <Geometry/Approx/Approx_CurvilinearParameter.hxx>
 #include <Geom_BSplineSurface.hxx>
 
 

@@ -12,12 +12,12 @@
 
 #include <BRepApprox_TheComputeLineOfApprox.hxx>
 #include <BRepApprox_TheComputeLineBezierOfApprox.hxx>
-#include <Approx_MCurvesToBSpCurve.hxx>
+#include <Geometry/Approx/Approx_MCurvesToBSpCurve.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_BRepApprox_ApproxLine.hxx>
-#include <Approx_ParametrizationType.hxx>
+#include <Geometry/Approx/Approx_ParametrizationType.hxx>
 class Standard_OutOfRange;
 class StdFail_NotDone;
 class BRepAdaptor_Surface;

@@ -3,11 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Approx_FitAndDivide2d.hxx>
+#include <Geometry/Approx/Approx_FitAndDivide2d.hxx>
 
 #include <Geometry/AppCont/AppCont_Function2d.hxx>
 #include <Geometry/AppCont/AppCont_FunctionTool2d.hxx>
-#include <Approx_MyLeastSquareOfFitAndDivide2d.hxx>
+#include <Geometry/Approx/Approx_MyLeastSquareOfFitAndDivide2d.hxx>
 #include <Geometry/AppParCurves/AppParCurves_MultiCurve.hxx>
  
 
@@ -16,8 +16,8 @@
 #define LineTool AppCont_FunctionTool2d
 #define LineTool_hxx <Geometry/AppCont/AppCont_FunctionTool2d.hxx>
 #define Approx_MyLeastSquare Approx_MyLeastSquareOfFitAndDivide2d
-#define Approx_MyLeastSquare_hxx <Approx_MyLeastSquareOfFitAndDivide2d.hxx>
+#define Approx_MyLeastSquare_hxx <Geometry/Approx/Approx_MyLeastSquareOfFitAndDivide2d.hxx>
 #define Approx_ComputeCLine Approx_FitAndDivide2d
-#define Approx_ComputeCLine_hxx <Approx_FitAndDivide2d.hxx>
-#include <Approx_ComputeCLine.gxx>
+#define Approx_ComputeCLine_hxx <Geometry/Approx/Approx_FitAndDivide2d.hxx>
+#include <Geometry/Approx/Approx_ComputeCLine.gxx>
 

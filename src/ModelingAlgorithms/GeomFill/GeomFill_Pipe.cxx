@@ -74,7 +74,7 @@
 #include <GeomAdaptor_HCurve.hxx>
 #include <GeomLProp_CLProps.hxx>
 
-#include <Approx_SweepApproximation.hxx>
+#include <Geometry/Approx/Approx_SweepApproximation.hxx>
 
 #include <Mathematics/Primitives/gp_Torus.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>

@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Approx_HArray1OfGTrsf2d.hxx>
+#include <Geometry/Approx/Approx_HArray1OfGTrsf2d.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -12,7 +12,7 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
 #include <Mathematics/Primitives/gp_GTrsf2d.hxx>
-#include <Approx_Array1OfGTrsf2d.hxx>
+#include <Geometry/Approx/Approx_Array1OfGTrsf2d.hxx>
 
  
 
@@ -33,9 +33,9 @@ IMPLEMENT_STANDARD_RTTI(Approx_HArray1OfGTrsf2d)
 #define ItemHArray1 gp_GTrsf2d
 #define ItemHArray1_hxx <Mathematics/Primitives/gp_GTrsf2d.hxx>
 #define TheArray1 Approx_Array1OfGTrsf2d
-#define TheArray1_hxx <Approx_Array1OfGTrsf2d.hxx>
+#define TheArray1_hxx <Geometry/Approx/Approx_Array1OfGTrsf2d.hxx>
 #define TCollection_HArray1 Approx_HArray1OfGTrsf2d
-#define TCollection_HArray1_hxx <Approx_HArray1OfGTrsf2d.hxx>
+#define TCollection_HArray1_hxx <Geometry/Approx/Approx_HArray1OfGTrsf2d.hxx>
 #define Handle_TCollection_HArray1 Handle_Approx_HArray1OfGTrsf2d
 #define TCollection_HArray1_Type_() Approx_HArray1OfGTrsf2d_Type_()
 #include <Foundation/TCollection/TCollection_HArray1.gxx>

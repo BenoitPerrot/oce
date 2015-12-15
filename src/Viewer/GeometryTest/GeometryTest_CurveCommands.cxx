@@ -95,7 +95,7 @@
 
 #include <ProjLib_CompProjectedCurve.hxx>
 #include <ProjLib_HCompProjectedCurve.hxx>
-#include <Approx_CurveOnSurface.hxx>
+#include <Geometry/Approx/Approx_CurveOnSurface.hxx>
 #include <Precision.hxx>
 #include <Geom2dAdaptor.hxx>
 

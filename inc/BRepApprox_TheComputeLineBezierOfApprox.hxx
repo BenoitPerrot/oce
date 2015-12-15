@@ -14,9 +14,9 @@
 #include <Geometry/AppParCurves/AppParCurves_MultiCurve.hxx>
 #include <Geometry/AppParCurves/AppParCurves_MultiBSpCurve.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Approx_ParametrizationType.hxx>
+#include <Geometry/Approx/Approx_ParametrizationType.hxx>
 #include <Handle_TColStd_HArray1OfReal.hxx>
-#include <Approx_SequenceOfHArray1OfReal.hxx>
+#include <Geometry/Approx/Approx_SequenceOfHArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <Handle_AppParCurves_HArray1OfConstraintCouple.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

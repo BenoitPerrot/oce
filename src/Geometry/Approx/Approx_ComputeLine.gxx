@@ -12,7 +12,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Approx_ParametrizationType.hxx>
+#include <Geometry/Approx/Approx_ParametrizationType.hxx>
 #include Approx_ParLeastSquareOfMyGradient_hxx
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
@@ -30,7 +30,7 @@
 #include <Mathematics/Optimization/math_IntegerVector.hxx>
 #include <Mathematics/Optimization/math_Gauss.hxx>
 #include <Mathematics/Optimization/math_Uzawa.hxx>
-#include <Approx_MCurvesToBSpCurve.hxx>
+#include <Geometry/Approx/Approx_MCurvesToBSpCurve.hxx>
 #include <Geometry/AppParCurves/AppParCurves_ConstraintCouple.hxx>
 
 #include <stdio.h>

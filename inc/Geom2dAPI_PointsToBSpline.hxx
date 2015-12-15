@@ -15,7 +15,7 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Approx_ParametrizationType.hxx>
+#include <Geometry/Approx/Approx_ParametrizationType.hxx>
 class Geom2d_BSplineCurve;
 class StdFail_NotDone;
 class Standard_OutOfRange;

@@ -210,7 +210,7 @@ private:
 };
 
 
-#include <Approx_SweepApproximation.lxx>
+#include <Geometry/Approx/Approx_SweepApproximation.lxx>
 
 
 

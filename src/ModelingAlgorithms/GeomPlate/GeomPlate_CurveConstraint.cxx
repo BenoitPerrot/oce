@@ -46,7 +46,7 @@ IMPLEMENT_STANDARD_RTTI(GeomPlate_CurveConstraint)
 #include <GeomAdaptor_HSurface.hxx>
 #include <GeomAdaptor_HCurve.hxx>
 #include <ProjLib_ProjectedCurve.hxx>
-#include <Approx_Curve2d.hxx>
+#include <Geometry/Approx/Approx_Curve2d.hxx>
 #include <GeomAbs_Shape.hxx>
 
 //---------------------------------------------------------

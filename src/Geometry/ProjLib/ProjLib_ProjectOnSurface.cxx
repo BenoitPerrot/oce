@@ -20,7 +20,7 @@
 #include <ProjLib_ProjectOnSurface.hxx>
 
 #include <Geometry/AppCont/AppCont_Function.hxx>
-#include <Approx_FitAndDivide.hxx>
+#include <Geometry/Approx/Approx_FitAndDivide.hxx>
 #include <Geometry/AppParCurves/AppParCurves_MultiCurve.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Extrema_POnSurf.hxx>

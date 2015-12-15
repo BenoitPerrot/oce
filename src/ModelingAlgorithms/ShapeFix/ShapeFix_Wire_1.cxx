@@ -76,7 +76,7 @@
 #include <Geom2dAPI_ExtremaCurveCurve.hxx>
 #include <Geom2dAPI_ProjectPointOnCurve.hxx>
 #include <Geom2dAdaptor_HCurve.hxx>
-#include <Approx_Curve2d.hxx>
+#include <Geometry/Approx/Approx_Curve2d.hxx>
 #include <Geom2dConvert.hxx>
 
 #include <Geom_Line.hxx>
@@ -88,7 +88,7 @@
 #include <GeomAPI_ExtremaCurveCurve.hxx>
 #include <GeomAPI_ProjectPointOnCurve.hxx>
 #include <GeomAdaptor_HCurve.hxx>
-#include <Approx_Curve3d.hxx>
+#include <Geometry/Approx/Approx_Curve3d.hxx>
 #include <GeomConvert.hxx>
 #include <TopoDS_Iterator.hxx>
 #include <ShapeFix_ShapeTolerance.hxx>

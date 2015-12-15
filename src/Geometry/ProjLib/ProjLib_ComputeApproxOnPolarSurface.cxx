@@ -23,7 +23,7 @@
 #include <Geom_UndefinedDerivative.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Precision.hxx>
-#include <Approx_FitAndDivide2d.hxx>
+#include <Geometry/Approx/Approx_FitAndDivide2d.hxx>
 #include <Mathematics/Optimization/math.hxx>
 #include <Geometry/AppParCurves/AppParCurves_MultiCurve.hxx>
 #include <Geom_Surface.hxx>

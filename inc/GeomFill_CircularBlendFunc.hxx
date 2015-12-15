@@ -16,7 +16,7 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Mathematics/Convert/Convert_ParameterisationType.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Approx_SweepFunction.hxx>
+#include <Geometry/Approx/Approx_SweepFunction.hxx>
 #include <GeomAbs_Shape.hxx>
 class Adaptor3d_HCurve;
 class Standard_OutOfRange;

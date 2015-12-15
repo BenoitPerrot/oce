@@ -16,7 +16,7 @@
 #include <TopoDS_Face.hxx>
 #include <TopTools_DataMapOfShapeShape.hxx>
 #include <GeomAbs_Shape.hxx>
-#include <Approx_ParametrizationType.hxx>
+#include <Geometry/Approx/Approx_ParametrizationType.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <BRepBuilderAPI_MakeShape.hxx>
 #include <Handle_Geom_BSplineSurface.hxx>

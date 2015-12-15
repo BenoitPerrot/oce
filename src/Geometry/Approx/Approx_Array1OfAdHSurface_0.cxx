@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Approx_Array1OfAdHSurface.hxx>
+#include <Geometry/Approx/Approx_Array1OfAdHSurface.hxx>
 
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
@@ -15,6 +15,6 @@
 #define Array1Item Handle(Adaptor3d_HSurface)
 #define Array1Item_hxx <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #define TCollection_Array1 Approx_Array1OfAdHSurface
-#define TCollection_Array1_hxx <Approx_Array1OfAdHSurface.hxx>
+#define TCollection_Array1_hxx <Geometry/Approx/Approx_Array1OfAdHSurface.hxx>
 #include <Foundation/TCollection/TCollection_Array1.gxx>
 

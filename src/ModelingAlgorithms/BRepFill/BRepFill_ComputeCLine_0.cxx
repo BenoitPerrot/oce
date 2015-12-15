@@ -19,5 +19,5 @@
 #define Approx_MyLeastSquare_hxx <BRepFill_MyLeastSquareOfComputeCLine.hxx>
 #define Approx_ComputeCLine BRepFill_ComputeCLine
 #define Approx_ComputeCLine_hxx <BRepFill_ComputeCLine.hxx>
-#include <Approx_ComputeCLine.gxx>
+#include <Geometry/Approx/Approx_ComputeCLine.gxx>
 

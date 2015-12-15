@@ -21,7 +21,7 @@
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
-#include <Approx_CurveOnSurface.hxx>
+#include <Geometry/Approx/Approx_CurveOnSurface.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <GeomAdaptor_HSurface.hxx>

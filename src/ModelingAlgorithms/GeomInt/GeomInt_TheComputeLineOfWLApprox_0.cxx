@@ -63,5 +63,5 @@
 #define Approx_Gradient_BFGSOfMyGradientbis_hxx <GeomInt_Gradient_BFGSOfMyGradientbisOfTheComputeLineOfWLApprox.hxx>
 #define Approx_BSplComputeLine GeomInt_TheComputeLineOfWLApprox
 #define Approx_BSplComputeLine_hxx <GeomInt_TheComputeLineOfWLApprox.hxx>
-#include <Approx_BSplComputeLine.gxx>
+#include <Geometry/Approx/Approx_BSplComputeLine.gxx>
 

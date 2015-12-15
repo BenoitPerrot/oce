@@ -57,7 +57,7 @@ IMPLEMENT_STANDARD_RTTI(BRepTools_NurbsConvertModification)
 #include <GeomAdaptor_HSurface.hxx>
 
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
-#include <Approx_SameParameter.hxx>
+#include <Geometry/Approx/Approx_SameParameter.hxx>
 #include <BRep_Tool.hxx>
 #include <Extrema_LocateExtPC.hxx>
 #include <Foundation/OSD/OSD_Chronometer.hxx>

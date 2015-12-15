@@ -82,7 +82,7 @@
 #include <Extrema_POnSurf.hxx>
 #include <ProjLib_CompProjectedCurve.hxx>
 #include <ProjLib_HCompProjectedCurve.hxx>
-#include <Approx_CurveOnSurface.hxx>
+#include <Geometry/Approx/Approx_CurveOnSurface.hxx>
 #include <GeomAdaptor.hxx>
 #include <GeomAdaptor_HSurface.hxx>
 #include <GeomLProp_SLProps.hxx>

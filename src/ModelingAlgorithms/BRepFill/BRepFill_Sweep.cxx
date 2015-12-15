@@ -70,8 +70,8 @@
 #include <GeomAdaptor_HSurface.hxx>
 #include <GeomAdaptor_HCurve.hxx>
 #include <Geom2dAdaptor_HCurve.hxx>
-#include <Approx_CurveOnSurface.hxx>
-#include <Approx_SameParameter.hxx>
+#include <Geometry/Approx/Approx_CurveOnSurface.hxx>
+#include <Geometry/Approx/Approx_SameParameter.hxx>
 #include <GCPnts_AbscissaPoint.hxx>
 
 #include <BRep_Builder.hxx>

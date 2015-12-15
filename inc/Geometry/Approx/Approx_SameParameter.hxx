@@ -92,7 +92,7 @@ private:
 };
 
 
-#include <Approx_SameParameter.lxx>
+#include <Geometry/Approx/Approx_SameParameter.lxx>
 
 
 

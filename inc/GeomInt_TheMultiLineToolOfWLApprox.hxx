@@ -13,7 +13,7 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <GeomInt_TheMultiLineOfWLApprox.hxx>
-#include <Approx_Status.hxx>
+#include <Geometry/Approx/Approx_Status.hxx>
 class GeomInt_TheMultiLineOfWLApprox;
 class ApproxInt_SvSurfaces;
 class TColgp_Array1OfPnt;

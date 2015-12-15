@@ -12,7 +12,7 @@
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Approx_Status.hxx>
+#include <Geometry/Approx/Approx_Status.hxx>
 class AppDef_MultiLine;
 class TColgp_Array1OfPnt;
 class TColgp_Array1OfPnt2d;

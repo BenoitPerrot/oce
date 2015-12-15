@@ -13,7 +13,7 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <BRepApprox_TheMultiLineOfApprox.hxx>
-#include <Approx_Status.hxx>
+#include <Geometry/Approx/Approx_Status.hxx>
 class BRepApprox_TheMultiLineOfApprox;
 class ApproxInt_SvSurfaces;
 class TColgp_Array1OfPnt;

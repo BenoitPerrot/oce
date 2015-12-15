@@ -3,12 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Approx_SequenceNodeOfSequenceOfHArray1OfReal.hxx>
+#include <Geometry/Approx/Approx_SequenceNodeOfSequenceOfHArray1OfReal.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
-#include <Approx_SequenceOfHArray1OfReal.hxx>
+#include <Geometry/Approx/Approx_SequenceOfHArray1OfReal.hxx>
 
  
 
@@ -30,10 +30,10 @@ IMPLEMENT_STANDARD_RTTI(Approx_SequenceNodeOfSequenceOfHArray1OfReal)
 #define SeqItem Handle(TColStd_HArray1OfReal)
 #define SeqItem_hxx <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #define TCollection_SequenceNode Approx_SequenceNodeOfSequenceOfHArray1OfReal
-#define TCollection_SequenceNode_hxx <Approx_SequenceNodeOfSequenceOfHArray1OfReal.hxx>
+#define TCollection_SequenceNode_hxx <Geometry/Approx/Approx_SequenceNodeOfSequenceOfHArray1OfReal.hxx>
 #define Handle_TCollection_SequenceNode Handle_Approx_SequenceNodeOfSequenceOfHArray1OfReal
 #define TCollection_SequenceNode_Type_() Approx_SequenceNodeOfSequenceOfHArray1OfReal_Type_()
 #define TCollection_Sequence Approx_SequenceOfHArray1OfReal
-#define TCollection_Sequence_hxx <Approx_SequenceOfHArray1OfReal.hxx>
+#define TCollection_Sequence_hxx <Geometry/Approx/Approx_SequenceOfHArray1OfReal.hxx>
 #include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

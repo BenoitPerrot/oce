@@ -23,7 +23,7 @@
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <Approx_CurvlinFunc.hxx>
+#include <Geometry/Approx/Approx_CurvlinFunc.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Approx_CurvlinFunc)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

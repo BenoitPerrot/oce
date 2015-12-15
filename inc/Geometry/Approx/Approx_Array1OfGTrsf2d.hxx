@@ -94,7 +94,7 @@ private:
 #define Array1Item gp_GTrsf2d
 #define Array1Item_hxx <Mathematics/Primitives/gp_GTrsf2d.hxx>
 #define TCollection_Array1 Approx_Array1OfGTrsf2d
-#define TCollection_Array1_hxx <Approx_Array1OfGTrsf2d.hxx>
+#define TCollection_Array1_hxx <Geometry/Approx/Approx_Array1OfGTrsf2d.hxx>
 
 #include <Foundation/TCollection/TCollection_Array1.lxx>
 

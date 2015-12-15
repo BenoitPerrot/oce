@@ -90,7 +90,7 @@
 #include <BRepTopAdaptor_HVertex.hxx>
 #include <BRep_Tool.hxx>
 
-#include <Approx_SweepFunction.hxx>
+#include <Geometry/Approx/Approx_SweepFunction.hxx>
 #include <Blend_Point.hxx>
 #include <BRepBlend_Extremity.hxx>
 #include <BRepBlend_PointOnRst.hxx>

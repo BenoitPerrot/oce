@@ -18,11 +18,11 @@
 
 
 
-#include <Approx_ParametrizationType.hxx>
+#include <Geometry/Approx/Approx_ParametrizationType.hxx>
 #include Approx_MyLeastSquare_hxx
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Geometry/AppParCurves/AppParCurves_Constraint.hxx>
-#include <Approx_Status.hxx>
+#include <Geometry/Approx/Approx_Status.hxx>
 #include <Precision.hxx>
 
 //=======================================================================

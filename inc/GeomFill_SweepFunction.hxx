@@ -15,7 +15,7 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Mathematics/Primitives/gp_Mat.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <Approx_SweepFunction.hxx>
+#include <Geometry/Approx/Approx_SweepFunction.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <GeomAbs_Shape.hxx>

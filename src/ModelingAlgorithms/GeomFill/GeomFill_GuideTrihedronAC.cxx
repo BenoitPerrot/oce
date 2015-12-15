@@ -16,7 +16,7 @@
 // Creted:	Tue Jun 23 15:39:24 1998
 
 
-#include <Approx_CurvlinFunc.hxx>
+#include <Geometry/Approx/Approx_CurvlinFunc.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
@@ -42,7 +42,7 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_GuideTrihedronAC)
 #include <Precision.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 
-#include <Approx_CurvlinFunc.hxx>
+#include <Geometry/Approx/Approx_CurvlinFunc.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
 #include <GeomAdaptor.hxx>
 #include <GeomAdaptor_HCurve.hxx>

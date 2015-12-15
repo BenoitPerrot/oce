@@ -30,7 +30,7 @@
 #include <ProjLib_ProjectOnPlane.hxx>
 #include <ProjLib_ProjectOnSurface.hxx>
 
-#include <Approx_CurveOnSurface.hxx>
+#include <Geometry/Approx/Approx_CurveOnSurface.hxx>
 
 #include <GeomAdaptor_Curve.hxx>
 #include <GeomAdaptor_Surface.hxx>

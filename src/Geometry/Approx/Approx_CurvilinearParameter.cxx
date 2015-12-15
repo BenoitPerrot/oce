@@ -21,7 +21,7 @@
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
-#include <Approx_CurvilinearParameter.hxx>
+#include <Geometry/Approx/Approx_CurvilinearParameter.hxx>
 
 #include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
 #include <GCPnts_AbscissaPoint.hxx>
@@ -45,7 +45,7 @@
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>
 #include <CPnts_AbscissaPoint.hxx>
-#include <Approx_CurvlinFunc.hxx>
+#include <Geometry/Approx/Approx_CurvlinFunc.hxx>
 
 #ifdef OCCT_DEBUG_CHRONO
 #include <Foundation/OSD/OSD_Timer.hxx>

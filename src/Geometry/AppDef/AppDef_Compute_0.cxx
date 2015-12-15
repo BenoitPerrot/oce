@@ -43,5 +43,5 @@
 #define Approx_Gradient_BFGSOfMyGradient_hxx <Geometry/AppDef/AppDef_Gradient_BFGSOfMyGradientOfCompute.hxx>
 #define Approx_ComputeLine AppDef_Compute
 #define Approx_ComputeLine_hxx <Geometry/AppDef/AppDef_Compute.hxx>
-#include <Approx_ComputeLine.gxx>
+#include <Geometry/Approx/Approx_ComputeLine.gxx>
 

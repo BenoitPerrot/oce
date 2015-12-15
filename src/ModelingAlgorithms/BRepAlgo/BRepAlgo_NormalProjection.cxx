@@ -33,7 +33,7 @@
 #include <ProjLib_HCompProjectedCurve.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Shape.hxx>
-#include <Approx_CurveOnSurface.hxx>
+#include <Geometry/Approx/Approx_CurveOnSurface.hxx>
 #include <TopoDS.hxx>
 #include <BRep_Builder.hxx>
 #include <BRepLib_MakeVertex.hxx>

@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Approx_SweepApproximation.hxx>
+#include <Geometry/Approx/Approx_SweepApproximation.hxx>
 #include <AppBlend_Approx.hxx>
 #include <Handle_Approx_SweepFunction.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

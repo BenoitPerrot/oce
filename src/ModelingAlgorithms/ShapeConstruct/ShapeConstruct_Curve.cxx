@@ -43,11 +43,11 @@
 
 #include <GeomConvert.hxx>
 #include <GeomAdaptor_HCurve.hxx>
-#include <Approx_Curve3d.hxx>
+#include <Geometry/Approx/Approx_Curve3d.hxx>
 
 #include <Geom2dConvert.hxx>
 #include <Geom2dAdaptor_HCurve.hxx>
-#include <Approx_Curve2d.hxx>
+#include <Geometry/Approx/Approx_Curve2d.hxx>
 
 //sln 29.12.2001 OCC90 : Method FixKnots was added
 

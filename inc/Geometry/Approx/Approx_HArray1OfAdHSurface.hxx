@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Approx_HArray1OfAdHSurface.hxx>
 
-#include <Approx_Array1OfAdHSurface.hxx>
+#include <Geometry/Approx/Approx_Array1OfAdHSurface.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Adaptor3d_HSurface.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
@@ -72,9 +72,9 @@ private:
 #define ItemHArray1 Handle(Adaptor3d_HSurface)
 #define ItemHArray1_hxx <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #define TheArray1 Approx_Array1OfAdHSurface
-#define TheArray1_hxx <Approx_Array1OfAdHSurface.hxx>
+#define TheArray1_hxx <Geometry/Approx/Approx_Array1OfAdHSurface.hxx>
 #define TCollection_HArray1 Approx_HArray1OfAdHSurface
-#define TCollection_HArray1_hxx <Approx_HArray1OfAdHSurface.hxx>
+#define TCollection_HArray1_hxx <Geometry/Approx/Approx_HArray1OfAdHSurface.hxx>
 #define Handle_TCollection_HArray1 Handle_Approx_HArray1OfAdHSurface
 #define TCollection_HArray1_Type_() Approx_HArray1OfAdHSurface_Type_()
 

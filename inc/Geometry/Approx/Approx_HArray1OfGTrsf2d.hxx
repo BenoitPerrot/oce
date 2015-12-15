@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Approx_HArray1OfGTrsf2d.hxx>
 
-#include <Approx_Array1OfGTrsf2d.hxx>
+#include <Geometry/Approx/Approx_Array1OfGTrsf2d.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
@@ -71,9 +71,9 @@ private:
 #define ItemHArray1 gp_GTrsf2d
 #define ItemHArray1_hxx <Mathematics/Primitives/gp_GTrsf2d.hxx>
 #define TheArray1 Approx_Array1OfGTrsf2d
-#define TheArray1_hxx <Approx_Array1OfGTrsf2d.hxx>
+#define TheArray1_hxx <Geometry/Approx/Approx_Array1OfGTrsf2d.hxx>
 #define TCollection_HArray1 Approx_HArray1OfGTrsf2d
-#define TCollection_HArray1_hxx <Approx_HArray1OfGTrsf2d.hxx>
+#define TCollection_HArray1_hxx <Geometry/Approx/Approx_HArray1OfGTrsf2d.hxx>
 #define Handle_TCollection_HArray1 Handle_Approx_HArray1OfGTrsf2d
 #define TCollection_HArray1_Type_() Approx_HArray1OfGTrsf2d_Type_()
 

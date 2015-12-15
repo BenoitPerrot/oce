@@ -25,7 +25,7 @@
 #include <Geom_Curve.hxx>
 #include <Geom2d_Curve.hxx>
 #include <Geom_Surface.hxx>
-#include <Approx_SameParameter.hxx>
+#include <Geometry/Approx/Approx_SameParameter.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>

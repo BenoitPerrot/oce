@@ -60,7 +60,7 @@
 #include <Precision.hxx>
 #include <gce_MakeCirc.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-//#include <Approx.hxx>
+//#include <Geometry/Approx/Approx.hxx>
 #include <Geom_Surface.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Geom_RectangularTrimmedSurface.hxx>

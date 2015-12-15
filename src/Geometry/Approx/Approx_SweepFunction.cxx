@@ -23,7 +23,7 @@
 #include <Mathematics/Collections/TColgp_Array1OfVec2d.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Approx_SweepFunction.hxx>
+#include <Geometry/Approx/Approx_SweepFunction.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Approx_SweepFunction)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

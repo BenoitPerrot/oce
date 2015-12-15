@@ -21,7 +21,7 @@
 #include <Mathematics/Collections/TColgp_Array1OfVec.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfVec2d.hxx>
 
-#include <Approx_Status.hxx>
+#include <Geometry/Approx/Approx_Status.hxx>
 
 //================================================================================
 inline Standard_Integer ApproxInt_MultiLineTool::NbP2d(const TheMultiLine& ML) { 

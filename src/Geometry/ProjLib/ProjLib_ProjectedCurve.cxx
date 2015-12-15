@@ -27,7 +27,7 @@
 #include <ProjLib_Projector.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
-#include <Approx_CurveOnSurface.hxx>
+#include <Geometry/Approx/Approx_CurveOnSurface.hxx>
 #include <ProjLib_Plane.hxx>
 #include <ProjLib_Cylinder.hxx>
 #include <ProjLib_Cone.hxx>

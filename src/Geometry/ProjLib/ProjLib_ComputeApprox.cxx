@@ -30,7 +30,7 @@
 #include <Mathematics/Primitives/gp.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Precision.hxx>
-#include <Approx_FitAndDivide2d.hxx>
+#include <Geometry/Approx/Approx_FitAndDivide2d.hxx>
 #include <Geometry/AppParCurves/AppParCurves_MultiCurve.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>

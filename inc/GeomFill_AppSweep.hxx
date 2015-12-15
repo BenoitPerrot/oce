@@ -18,7 +18,7 @@
 #include <Handle_TColStd_HArray1OfReal.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfArray1OfPnt2d.hxx>
-#include <Approx_ParametrizationType.hxx>
+#include <Geometry/Approx/Approx_ParametrizationType.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <AppBlend_Approx.hxx>
 #include <Handle_GeomFill_Line.hxx>
