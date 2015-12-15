@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <BRepAdaptor_Curve2d.hxx>
-#include <Adaptor2d_Curve2d.hxx>
+#include <Geometry/Adaptor2d/Adaptor2d_Curve2d.hxx>
 
  
 
@@ -36,5 +36,5 @@ IMPLEMENT_STANDARD_RTTI(BRepAdaptor_HCurve2d)
 #define Adaptor2d_GenHCurve2d_hxx <BRepAdaptor_HCurve2d.hxx>
 #define Handle_Adaptor2d_GenHCurve2d Handle_BRepAdaptor_HCurve2d
 #define Adaptor2d_GenHCurve2d_Type_() BRepAdaptor_HCurve2d_Type_()
-#include <Adaptor2d_GenHCurve2d.gxx>
+#include <Geometry/Adaptor2d/Adaptor2d_GenHCurve2d.gxx>
 

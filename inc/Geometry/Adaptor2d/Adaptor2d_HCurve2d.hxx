@@ -128,7 +128,7 @@ private:
 };
 
 
-#include <Adaptor2d_HCurve2d.lxx>
+#include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.lxx>
 
 
 

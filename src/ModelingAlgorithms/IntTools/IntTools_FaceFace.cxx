@@ -69,7 +69,7 @@
 #include <BndLib_AddSurface.hxx>
 
 #include <Adaptor3d_SurfacePtr.hxx>
-#include <Adaptor2d_HLine2d.hxx>
+#include <Geometry/Adaptor2d/Adaptor2d_HLine2d.hxx>
 
 #include <GeomAbs_SurfaceType.hxx>
 #include <GeomAbs_CurveType.hxx>

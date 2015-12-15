@@ -32,7 +32,7 @@
 #include <IntSurf.hxx>
 #include <IntSurf_InteriorPoint.hxx>
 
-#include <Adaptor2d_HCurve2d.hxx>
+#include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #include <IntSurf_PathPoint.hxx>
 #include <IntSurf_SequenceOfPathPoint.hxx>
 #include <IntPatch_TheIWalking.hxx>

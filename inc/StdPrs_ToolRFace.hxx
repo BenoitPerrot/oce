@@ -15,7 +15,7 @@
 #include <Geom2dAdaptor_Curve.hxx>
 #include <Handle_BRepAdaptor_HSurface.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Adaptor2d_Curve2dPtr.hxx>
+#include <Geometry/Adaptor2d/Adaptor2d_Curve2dPtr.hxx>
 #include <TopAbs_Orientation.hxx>
 class BRepAdaptor_HSurface;
 

@@ -30,7 +30,7 @@ IMPLEMENT_DOWNCAST(BRepFill_CurveConstraint,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BRepFill_CurveConstraint)
 #include <GeomPlate_CurveConstraint.hxx>
 #include <GCPnts_AbscissaPoint.hxx>
-#include <Adaptor2d_HCurve2d.hxx>
+#include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #include <Adaptor3d_HSurface.hxx>
 #include <ProjLib_ProjectOnPlane.hxx>
 #include <GeomAdaptor.hxx>
@@ -42,7 +42,7 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_CurveConstraint)
 #include <BRep_Tool.hxx>
 
 #include <Geom2dAdaptor_HCurve.hxx>
-#include <Adaptor2d_HCurve2d.hxx>
+#include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #include <ProjLib_ProjectedCurve.hxx>
 //---------------------------------------------------------
 //         Constructeurs avec courbe sur surface

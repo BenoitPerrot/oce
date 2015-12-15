@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <Adaptor2d_Curve2d.hxx>
+#include <Geometry/Adaptor2d/Adaptor2d_Curve2d.hxx>
 #include <Extrema_Curve2dTool.hxx>
 #include <Extrema_ExtPElC2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
@@ -21,7 +21,7 @@
  
 
 #define TheCurve Adaptor2d_Curve2d
-#define TheCurve_hxx <Adaptor2d_Curve2d.hxx>
+#define TheCurve_hxx <Geometry/Adaptor2d/Adaptor2d_Curve2d.hxx>
 #define TheCurveTool Extrema_Curve2dTool
 #define TheCurveTool_hxx <Extrema_Curve2dTool.hxx>
 #define TheExtPElC Extrema_ExtPElC2d

@@ -17,7 +17,7 @@
 #include <Geom2d_TrimmedCurve.hxx>
 #include <BRep_Tool.hxx>
 #include <TopoDS.hxx>
-#include <Adaptor2d_Curve2d.hxx>
+#include <Geometry/Adaptor2d/Adaptor2d_Curve2d.hxx>
 
 
 #define OCC316

@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Geom2d_Curve.hxx>
-#include <Adaptor2d_Curve2d.hxx>
+#include <Geometry/Adaptor2d/Adaptor2d_Curve2d.hxx>
 #include <Geom2dAdaptor.hxx>
 
 

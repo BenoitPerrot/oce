@@ -24,7 +24,7 @@
 #include <Mathematics/Primitives/gp_Hypr2d.hxx>
 
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <Adaptor2d_Curve2d.hxx>
+#include <Geometry/Adaptor2d/Adaptor2d_Curve2d.hxx>
 
 #define   IS_C2_COMPOSITE 0
 //============================================================

@@ -17,7 +17,7 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_TColStd_HArray1OfBoolean.hxx>
 #include <Handle_TColStd_HArray1OfReal.hxx>
-#include <Adaptor2d_Curve2d.hxx>
+#include <Geometry/Adaptor2d/Adaptor2d_Curve2d.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <Handle_Adaptor2d_HCurve2d.hxx>

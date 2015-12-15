@@ -34,7 +34,7 @@
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Adaptor3d_CurveOnSurface.hxx>
-#include <Adaptor2d_HCurve2d.hxx>
+#include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 
 #include <BRepTools.hxx>
 #include <BRep_Tool.hxx>

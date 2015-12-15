@@ -19,7 +19,7 @@
 #include <BRepBlend_Line.hxx>
 #include <Adaptor3d_HSurface.hxx>
 #include <Adaptor3d_TopolTool.hxx>
-#include <Adaptor2d_HCurve2d.hxx>
+#include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #include <Blend_RstRstFunction.hxx>
 #include <Blend_SurfCurvFuncInv.hxx>
 #include <Blend_CurvPointFuncInv.hxx>

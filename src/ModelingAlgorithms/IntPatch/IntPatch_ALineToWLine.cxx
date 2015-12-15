@@ -32,7 +32,7 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 
-#include <Adaptor2d_HCurve2d.hxx> 
+#include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx> 
 #include <GeomAbs_SurfaceType.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>

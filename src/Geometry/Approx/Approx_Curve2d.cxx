@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Geom2d_BSplineCurve.hxx>
-#include <Adaptor2d_HCurve2d.hxx>
+#include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #include <Approx_Curve2d.hxx>
 #include <AdvApprox_PrefAndRec.hxx>
 #include <AdvApprox_ApproxAFunction.hxx>

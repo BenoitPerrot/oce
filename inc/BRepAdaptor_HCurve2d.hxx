@@ -11,7 +11,7 @@
 #include <Handle_BRepAdaptor_HCurve2d.hxx>
 
 #include <BRepAdaptor_Curve2d.hxx>
-#include <Adaptor2d_HCurve2d.hxx>
+#include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 class Standard_OutOfRange;
 class Standard_NoSuchObject;
 class Standard_DomainError;
@@ -61,7 +61,7 @@ private:
 #define Handle_Adaptor2d_GenHCurve2d Handle_BRepAdaptor_HCurve2d
 #define Adaptor2d_GenHCurve2d_Type_() BRepAdaptor_HCurve2d_Type_()
 
-#include <Adaptor2d_GenHCurve2d.lxx>
+#include <Geometry/Adaptor2d/Adaptor2d_GenHCurve2d.lxx>
 
 #undef TheCurve
 #undef TheCurve_hxx

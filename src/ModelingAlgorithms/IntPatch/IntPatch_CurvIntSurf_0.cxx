@@ -9,7 +9,7 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Adaptor3d_HSurface.hxx>
 #include <Adaptor3d_HSurfaceTool.hxx>
-#include <Adaptor2d_HCurve2d.hxx>
+#include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #include <IntPatch_HCurve2dTool.hxx>
 #include <IntPatch_CSFunction.hxx>
 #include <Mathematics/Optimization/math_FunctionSetRoot.hxx>
@@ -21,7 +21,7 @@
 #define ThePSurfaceTool Adaptor3d_HSurfaceTool
 #define ThePSurfaceTool_hxx <Adaptor3d_HSurfaceTool.hxx>
 #define TheCurve Handle(Adaptor2d_HCurve2d)
-#define TheCurve_hxx <Adaptor2d_HCurve2d.hxx>
+#define TheCurve_hxx <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #define TheCurveTool IntPatch_HCurve2dTool
 #define TheCurveTool_hxx <IntPatch_HCurve2dTool.hxx>
 #define TheFunction IntPatch_CSFunction

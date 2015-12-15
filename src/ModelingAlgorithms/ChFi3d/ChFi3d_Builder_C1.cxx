@@ -37,7 +37,7 @@
 #include <Adaptor3d_HSurface.hxx>
 #include <Blend_Function.hxx>
 #include <Blend_FuncInv.hxx>
-#include <Adaptor2d_HCurve2d.hxx>
+#include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #include <Blend_SurfRstFunction.hxx>
 #include <Blend_SurfPointFuncInv.hxx>
 #include <Blend_SurfCurvFuncInv.hxx>

@@ -21,7 +21,7 @@
 #include <GCPnts_QuasiUniformAbscissa.hxx>
 #include <GCPnts_UniformAbscissa.hxx>
 #include <Adaptor3d_Curve.hxx>
-#include <Adaptor2d_Curve2d.hxx>
+#include <Geometry/Adaptor2d/Adaptor2d_Curve2d.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>

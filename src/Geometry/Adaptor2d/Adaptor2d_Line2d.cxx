@@ -18,7 +18,7 @@
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <Adaptor2d_HCurve2d.hxx>
+#include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Mathematics/Primitives/gp_Circ2d.hxx>
 #include <Mathematics/Primitives/gp_Elips2d.hxx>
@@ -26,13 +26,13 @@
 #include <Mathematics/Primitives/gp_Parab2d.hxx>
 #include <Geom2d_BezierCurve.hxx>
 #include <Geom2d_BSplineCurve.hxx>
-#include <Adaptor2d_Line2d.hxx>
+#include <Geometry/Adaptor2d/Adaptor2d_Line2d.hxx>
 
 #include <Precision.hxx>
 #include <ElCLib.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <Adaptor2d_HLine2d.hxx>
+#include <Geometry/Adaptor2d/Adaptor2d_HLine2d.hxx>
 
 //=======================================================================
 //function : Adaptor2d_Line2d

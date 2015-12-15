@@ -19,7 +19,7 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Adaptor3d_HCurve.hxx>
-#include <Adaptor2d_HCurve2d.hxx>
+#include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #include <Adaptor3d_HSurface.hxx>
 #include <Approx_CurvilinearParameter.hxx>
 

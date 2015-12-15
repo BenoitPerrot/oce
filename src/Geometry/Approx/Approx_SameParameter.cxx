@@ -17,7 +17,7 @@
 //  Modified by skv - Wed Jun  2 11:49:59 2004 OCC5898
 
 #include <Geom2d_BSplineCurve.hxx>
-#include <Adaptor2d_HCurve2d.hxx>
+#include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #include <Adaptor3d_HCurve.hxx>
 #include <Adaptor3d_HSurface.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>

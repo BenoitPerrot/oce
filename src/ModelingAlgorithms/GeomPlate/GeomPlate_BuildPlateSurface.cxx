@@ -41,7 +41,7 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geom2d_Curve.hxx>
 #include <Adaptor3d_HCurve.hxx>
-#include <Adaptor2d_HCurve2d.hxx>
+#include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #include <GeomPlate_BuildPlateSurface.hxx>
 
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>

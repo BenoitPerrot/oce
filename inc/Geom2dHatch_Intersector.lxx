@@ -76,7 +76,7 @@ inline void Geom2dHatch_Intersector::SetTangencyTolerance
 // Function : Intersect
 // Purpose  : Intersects the curves C1 and C2.
 //=======================================================================
-#include <Adaptor2d_Curve2d.hxx>
+#include <Geometry/Adaptor2d/Adaptor2d_Curve2d.hxx>
 #include <Geom2dAdaptor_Curve.hxx>
 
 inline void Geom2dHatch_Intersector::Intersect

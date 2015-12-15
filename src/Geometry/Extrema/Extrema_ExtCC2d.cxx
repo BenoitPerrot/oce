@@ -17,7 +17,7 @@
 #include <Foundation/StdFail/StdFail_InfiniteSolutions.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <Adaptor2d_Curve2d.hxx>
+#include <Geometry/Adaptor2d/Adaptor2d_Curve2d.hxx>
 #include <Extrema_POnCurv2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Extrema_ExtElC2d.hxx>
@@ -42,7 +42,7 @@
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Precision.hxx>
 
-#include <Adaptor2d_Curve2d.hxx>
+#include <Geometry/Adaptor2d/Adaptor2d_Curve2d.hxx>
 #include <Extrema_Curve2dTool.hxx>
 
 

@@ -14,7 +14,7 @@
 #define No_Standard_OutOfRange
 
 #include <Adaptor3d_HSurface.hxx>
-#include <Adaptor2d_HCurve2d.hxx>
+#include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>

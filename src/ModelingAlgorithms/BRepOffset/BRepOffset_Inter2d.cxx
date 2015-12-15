@@ -69,7 +69,7 @@
 #include <Geom_BSplineSurface.hxx>
 #include <Geom_CylindricalSurface.hxx>
 #include <Geom_ConicalSurface.hxx>
-#include <Adaptor2d_HCurve2d.hxx>
+#include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #include <TColGeom2d_SequenceOfCurve.hxx>
 #include <Geom2dInt_GInter.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>

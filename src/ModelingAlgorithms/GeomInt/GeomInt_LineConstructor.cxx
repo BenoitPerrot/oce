@@ -34,7 +34,7 @@
 
 #include <Precision.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <Adaptor2d_HCurve2d.hxx>
+#include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 
 #include <GeomAdaptor_HSurface.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>

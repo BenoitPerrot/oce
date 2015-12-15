@@ -8,7 +8,7 @@
 #include <Foundation/StdFail/StdFail_InfiniteSolutions.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <Adaptor2d_Curve2d.hxx>
+#include <Geometry/Adaptor2d/Adaptor2d_Curve2d.hxx>
 #include <Extrema_Curve2dTool.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt2d.hxx>
 #include <Extrema_POnCurv2d.hxx>
@@ -17,11 +17,11 @@
  
 
 #define Curve1 Adaptor2d_Curve2d
-#define Curve1_hxx <Adaptor2d_Curve2d.hxx>
+#define Curve1_hxx <Geometry/Adaptor2d/Adaptor2d_Curve2d.hxx>
 #define Tool1 Extrema_Curve2dTool
 #define Tool1_hxx <Extrema_Curve2dTool.hxx>
 #define Curve2 Adaptor2d_Curve2d
-#define Curve2_hxx <Adaptor2d_Curve2d.hxx>
+#define Curve2_hxx <Geometry/Adaptor2d/Adaptor2d_Curve2d.hxx>
 #define Tool2 Extrema_Curve2dTool
 #define Tool2_hxx <Extrema_Curve2dTool.hxx>
 #define Handle_ArrayOfPnt Handle_TColgp_HArray1OfPnt2d

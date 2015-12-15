@@ -6,14 +6,14 @@
 #include <Geom2dInt_MyImpParToolOfTheIntersectorOfTheIntConicCurveOfGInter.hxx>
 
 #include <IntCurve_IConicTool.hxx>
-#include <Adaptor2d_Curve2d.hxx>
+#include <Geometry/Adaptor2d/Adaptor2d_Curve2d.hxx>
 #include <Geom2dInt_Geom2dCurveTool.hxx>
  
 
 #define ImpTool IntCurve_IConicTool
 #define ImpTool_hxx <IntCurve_IConicTool.hxx>
 #define ParCurve Adaptor2d_Curve2d
-#define ParCurve_hxx <Adaptor2d_Curve2d.hxx>
+#define ParCurve_hxx <Geometry/Adaptor2d/Adaptor2d_Curve2d.hxx>
 #define ParTool Geom2dInt_Geom2dCurveTool
 #define ParTool_hxx <Geom2dInt_Geom2dCurveTool.hxx>
 #define IntImpParGen_ImpParTool Geom2dInt_MyImpParToolOfTheIntersectorOfTheIntConicCurveOfGInter

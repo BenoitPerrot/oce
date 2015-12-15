@@ -10,8 +10,8 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Adaptor2d_HLine2d.hxx>
 
-#include <Adaptor2d_Line2d.hxx>
-#include <Adaptor2d_HCurve2d.hxx>
+#include <Geometry/Adaptor2d/Adaptor2d_Line2d.hxx>
+#include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 class Standard_OutOfRange;
 class Standard_NoSuchObject;
 class Standard_DomainError;
@@ -55,13 +55,13 @@ private:
 };
 
 #define TheCurve Adaptor2d_Line2d
-#define TheCurve_hxx <Adaptor2d_Line2d.hxx>
+#define TheCurve_hxx <Geometry/Adaptor2d/Adaptor2d_Line2d.hxx>
 #define Adaptor2d_GenHCurve2d Adaptor2d_HLine2d
-#define Adaptor2d_GenHCurve2d_hxx <Adaptor2d_HLine2d.hxx>
+#define Adaptor2d_GenHCurve2d_hxx <Geometry/Adaptor2d/Adaptor2d_HLine2d.hxx>
 #define Handle_Adaptor2d_GenHCurve2d Handle_Adaptor2d_HLine2d
 #define Adaptor2d_GenHCurve2d_Type_() Adaptor2d_HLine2d_Type_()
 
-#include <Adaptor2d_GenHCurve2d.lxx>
+#include <Geometry/Adaptor2d/Adaptor2d_GenHCurve2d.lxx>
 
 #undef TheCurve
 #undef TheCurve_hxx

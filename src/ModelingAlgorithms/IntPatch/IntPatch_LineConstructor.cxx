@@ -24,7 +24,7 @@
 #include <IntPatch_ALine.hxx>
 #include <IntPatch_WLine.hxx>
 #include <IntPatch_RLine.hxx>
-#include <Adaptor2d_HCurve2d.hxx>
+#include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 
 #define XPU1009 1
 

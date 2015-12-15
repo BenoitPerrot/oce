@@ -11,7 +11,7 @@
 #include <Handle_ProjLib_HCompProjectedCurve.hxx>
 
 #include <ProjLib_CompProjectedCurve.hxx>
-#include <Adaptor2d_HCurve2d.hxx>
+#include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 class Standard_OutOfRange;
 class Standard_NoSuchObject;
 class Standard_DomainError;
@@ -61,7 +61,7 @@ private:
 #define Handle_Adaptor2d_GenHCurve2d Handle_ProjLib_HCompProjectedCurve
 #define Adaptor2d_GenHCurve2d_Type_() ProjLib_HCompProjectedCurve_Type_()
 
-#include <Adaptor2d_GenHCurve2d.lxx>
+#include <Geometry/Adaptor2d/Adaptor2d_GenHCurve2d.lxx>
 
 #undef TheCurve
 #undef TheCurve_hxx

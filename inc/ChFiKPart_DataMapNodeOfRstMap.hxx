@@ -55,7 +55,7 @@ private:
 #define TheKey Standard_Integer
 #define TheKey_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheItem Handle(Adaptor2d_HCurve2d)
-#define TheItem_hxx <Adaptor2d_HCurve2d.hxx>
+#define TheItem_hxx <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #define Hasher TColStd_MapIntegerHasher
 #define Hasher_hxx <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #define TCollection_DataMapNode ChFiKPart_DataMapNodeOfRstMap

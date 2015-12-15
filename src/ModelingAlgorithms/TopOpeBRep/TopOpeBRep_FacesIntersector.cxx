@@ -82,7 +82,7 @@ Standard_EXPORT TOPKRO KRO_DSFILLER_INTFF("intersection face/face");
 #include <Adaptor3d_HSurface.hxx>
 #include <Adaptor3d_TopolTool.hxx>
 #include <Adaptor3d_HVertex.hxx>
-#include <Adaptor2d_HCurve2d.hxx>
+#include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #include <Geom2dInt_TheProjPCurOfGInter.hxx>
 
 static Standard_Boolean TestWLineAlongRestriction(const Handle(IntPatch_WLine)& theWLine,

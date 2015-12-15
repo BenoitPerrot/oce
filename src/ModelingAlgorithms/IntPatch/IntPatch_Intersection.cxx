@@ -1605,7 +1605,7 @@ void IntPatch_Intersection::Perform(const Handle(Adaptor3d_HSurface)&  S1,
 //======================================================================
 #include <IntPatch_IType.hxx>
 #include <IntPatch_LineConstructor.hxx>
-#include <Adaptor2d_HCurve2d.hxx>
+#include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #define MAXR 200
 
 

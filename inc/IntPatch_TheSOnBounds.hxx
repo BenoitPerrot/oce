@@ -85,7 +85,7 @@ private:
 #define TheVertex Handle(Adaptor3d_HVertex)
 #define TheVertex_hxx <Adaptor3d_HVertex.hxx>
 #define TheArc Handle(Adaptor2d_HCurve2d)
-#define TheArc_hxx <Adaptor2d_HCurve2d.hxx>
+#define TheArc_hxx <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #define TheArcTool IntPatch_HCurve2dTool
 #define TheArcTool_hxx <IntPatch_HCurve2dTool.hxx>
 #define TheSOBTool IntPatch_HInterTool

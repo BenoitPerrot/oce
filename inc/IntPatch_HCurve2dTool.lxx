@@ -29,7 +29,7 @@
 
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 
-#include <Adaptor2d_HCurve2d.hxx>
+#include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 
 
 //============================================================

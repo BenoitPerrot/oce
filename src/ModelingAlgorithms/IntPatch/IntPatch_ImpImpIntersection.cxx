@@ -45,7 +45,7 @@
 #include <IntSurf.hxx>
 
 #include <Adaptor3d_HVertex.hxx>
-#include <Adaptor2d_HCurve2d.hxx>
+#include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #include <IntPatch_HInterTool.hxx>
 #include <IntPatch_ArcFunction.hxx>
 #include <IntPatch_GLine.hxx>

@@ -17,7 +17,7 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Adaptor3d_Curve.hxx>
-#include <Adaptor2d_Curve2d.hxx>
+#include <Geometry/Adaptor2d/Adaptor2d_Curve2d.hxx>
 #include <GCPnts_AbscissaPoint.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 

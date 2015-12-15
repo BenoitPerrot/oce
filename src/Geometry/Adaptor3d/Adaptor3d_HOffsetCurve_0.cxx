@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Adaptor3d_OffsetCurve.hxx>
-#include <Adaptor2d_Curve2d.hxx>
+#include <Geometry/Adaptor2d/Adaptor2d_Curve2d.hxx>
 
  
 
@@ -36,5 +36,5 @@ IMPLEMENT_STANDARD_RTTI(Adaptor3d_HOffsetCurve)
 #define Adaptor2d_GenHCurve2d_hxx <Adaptor3d_HOffsetCurve.hxx>
 #define Handle_Adaptor2d_GenHCurve2d Handle_Adaptor3d_HOffsetCurve
 #define Adaptor2d_GenHCurve2d_Type_() Adaptor3d_HOffsetCurve_Type_()
-#include <Adaptor2d_GenHCurve2d.gxx>
+#include <Geometry/Adaptor2d/Adaptor2d_GenHCurve2d.gxx>
 

@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Geom2dAdaptor_Curve.hxx>
-#include <Adaptor2d_Curve2d.hxx>
+#include <Geometry/Adaptor2d/Adaptor2d_Curve2d.hxx>
 
  
 
@@ -36,5 +36,5 @@ IMPLEMENT_STANDARD_RTTI(Geom2dAdaptor_GHCurve)
 #define Adaptor2d_GenHCurve2d_hxx <Geom2dAdaptor_GHCurve.hxx>
 #define Handle_Adaptor2d_GenHCurve2d Handle_Geom2dAdaptor_GHCurve
 #define Adaptor2d_GenHCurve2d_Type_() Geom2dAdaptor_GHCurve_Type_()
-#include <Adaptor2d_GenHCurve2d.gxx>
+#include <Geometry/Adaptor2d/Adaptor2d_GenHCurve2d.gxx>
 

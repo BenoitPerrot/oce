@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_TypeMismatch.hxx>
-#include <Adaptor2d_Curve2d.hxx>
+#include <Geometry/Adaptor2d/Adaptor2d_Curve2d.hxx>
 #include <Geom2dInt_Geom2dCurveTool.hxx>
 #include <Extrema_POnCurv2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
@@ -17,7 +17,7 @@
  
 
 #define Curve Adaptor2d_Curve2d
-#define Curve_hxx <Adaptor2d_Curve2d.hxx>
+#define Curve_hxx <Geometry/Adaptor2d/Adaptor2d_Curve2d.hxx>
 #define Tool Geom2dInt_Geom2dCurveTool
 #define Tool_hxx <Geom2dInt_Geom2dCurveTool.hxx>
 #define POnC Extrema_POnCurv2d

@@ -48,7 +48,7 @@
 #include <GeomAbs_SurfaceType.hxx> 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 
-#include <Adaptor2d_HCurve2d.hxx>
+#include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #include <BRepAdaptor_Curve2d.hxx>
 #include <TopAbs.hxx>
 

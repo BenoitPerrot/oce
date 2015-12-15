@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <ProjLib_CompProjectedCurve.hxx>
-#include <Adaptor2d_Curve2d.hxx>
+#include <Geometry/Adaptor2d/Adaptor2d_Curve2d.hxx>
 
  
 
@@ -36,5 +36,5 @@ IMPLEMENT_STANDARD_RTTI(ProjLib_HCompProjectedCurve)
 #define Adaptor2d_GenHCurve2d_hxx <ProjLib_HCompProjectedCurve.hxx>
 #define Handle_Adaptor2d_GenHCurve2d Handle_ProjLib_HCompProjectedCurve
 #define Adaptor2d_GenHCurve2d_Type_() ProjLib_HCompProjectedCurve_Type_()
-#include <Adaptor2d_GenHCurve2d.gxx>
+#include <Geometry/Adaptor2d/Adaptor2d_GenHCurve2d.gxx>
 

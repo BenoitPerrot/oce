@@ -16,7 +16,7 @@
 #ifndef _Extrema_GlobOptFuncCC_HeaderFile
 #define _Extrema_GlobOptFuncCC_HeaderFile
 
-#include <Adaptor2d_Curve2d.hxx>
+#include <Geometry/Adaptor2d/Adaptor2d_Curve2d.hxx>
 #include <Adaptor3d_Curve.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>

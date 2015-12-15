@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <IntSurf_LineOn2S.hxx>
-#include <Adaptor2d_HCurve2d.hxx>
+#include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <IntPatch_Point.hxx>

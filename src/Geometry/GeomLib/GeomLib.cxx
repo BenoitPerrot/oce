@@ -76,7 +76,7 @@
 #include <AdvApprox_ApproxAFunction.hxx>
 #include <AdvApprox_PrefAndRec.hxx>
 
-#include <Adaptor2d_HCurve2d.hxx>
+#include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #include <Adaptor3d_HCurve.hxx>
 #include <Adaptor3d_HSurface.hxx>
 #include <Adaptor3d_CurveOnSurface.hxx>

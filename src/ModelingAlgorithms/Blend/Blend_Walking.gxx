@@ -18,7 +18,7 @@
 #include <Mathematics/Collections/TColgp_Array2OfVec.hxx>
 
 #include <IntSurf.hxx>
-#include <Adaptor2d_HCurve2d.hxx>
+#include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #include <CSLib.hxx>
 #include <CSLib_NormalStatus.hxx>
 #include <Precision.hxx>

@@ -22,7 +22,7 @@
 #include <Adaptor3d_HCurveOnSurface.hxx>
 #include <Adaptor3d_HCurve.hxx>
 #include <Geom2d_Curve.hxx>
-#include <Adaptor2d_HCurve2d.hxx>
+#include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #include <Law_Function.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <GeomLProp_SLProps.hxx>
@@ -39,7 +39,7 @@ IMPLEMENT_STANDARD_TYPE_END(GeomPlate_CurveConstraint)
 IMPLEMENT_DOWNCAST(GeomPlate_CurveConstraint,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(GeomPlate_CurveConstraint)
 #include <GCPnts_AbscissaPoint.hxx>
-#include <Adaptor2d_HCurve2d.hxx>
+#include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #include <Adaptor3d_HSurface.hxx>
 #include <GeomAdaptor.hxx>
 #include <Precision.hxx>

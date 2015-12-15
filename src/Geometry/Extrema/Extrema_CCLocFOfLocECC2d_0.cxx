@@ -6,7 +6,7 @@
 #include <Extrema_CCLocFOfLocECC2d.hxx>
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <Adaptor2d_Curve2d.hxx>
+#include <Geometry/Adaptor2d/Adaptor2d_Curve2d.hxx>
 #include <Extrema_Curve2dTool.hxx>
 #include <Extrema_POnCurv2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
@@ -17,11 +17,11 @@
  
 
 #define Curve1 Adaptor2d_Curve2d
-#define Curve1_hxx <Adaptor2d_Curve2d.hxx>
+#define Curve1_hxx <Geometry/Adaptor2d/Adaptor2d_Curve2d.hxx>
 #define Tool1 Extrema_Curve2dTool
 #define Tool1_hxx <Extrema_Curve2dTool.hxx>
 #define Curve2 Adaptor2d_Curve2d
-#define Curve2_hxx <Adaptor2d_Curve2d.hxx>
+#define Curve2_hxx <Geometry/Adaptor2d/Adaptor2d_Curve2d.hxx>
 #define Tool2 Extrema_Curve2dTool
 #define Tool2_hxx <Extrema_Curve2dTool.hxx>
 #define POnC Extrema_POnCurv2d

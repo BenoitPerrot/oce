@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <Adaptor2d_HCurve2d.hxx>
+#include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #include <Adaptor3d_HVertex.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Adaptor3d_HVertex)
@@ -26,7 +26,7 @@ IMPLEMENT_STANDARD_RTTI(Adaptor3d_HVertex)
 
 #include <Precision.hxx>
 #include <ElCLib.hxx>
-#include <Adaptor2d_HCurve2d.hxx>
+#include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 
 
 Adaptor3d_HVertex::Adaptor3d_HVertex ()

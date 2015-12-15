@@ -149,7 +149,7 @@ private:
 #define TheVertex Handle(Adaptor3d_HVertex)
 #define TheVertex_hxx <Adaptor3d_HVertex.hxx>
 #define TheArc Handle(Adaptor2d_HCurve2d)
-#define TheArc_hxx <Adaptor2d_HCurve2d.hxx>
+#define TheArc_hxx <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #define TheSurface Handle(Adaptor3d_HSurface)
 #define TheSurface_hxx <Adaptor3d_HSurface.hxx>
 #define TheCurve Handle(Adaptor3d_HCurve)

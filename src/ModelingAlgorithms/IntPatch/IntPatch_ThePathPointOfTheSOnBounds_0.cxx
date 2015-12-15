@@ -6,7 +6,7 @@
 #include <IntPatch_ThePathPointOfTheSOnBounds.hxx>
 
 #include <Adaptor3d_HVertex.hxx>
-#include <Adaptor2d_HCurve2d.hxx>
+#include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
  
@@ -14,7 +14,7 @@
 #define TheVertex Handle(Adaptor3d_HVertex)
 #define TheVertex_hxx <Adaptor3d_HVertex.hxx>
 #define TheArc Handle(Adaptor2d_HCurve2d)
-#define TheArc_hxx <Adaptor2d_HCurve2d.hxx>
+#define TheArc_hxx <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #define IntStart_PathPoint IntPatch_ThePathPointOfTheSOnBounds
 #define IntStart_PathPoint_hxx <IntPatch_ThePathPointOfTheSOnBounds.hxx>
 #include <IntStart_PathPoint.gxx>

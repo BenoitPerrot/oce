@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_BoundWithSurf)
 #include <Law.hxx>
 #include <Law_BSpFunc.hxx>
 #include <Adaptor3d_HSurface.hxx>
-#include <Adaptor2d_HCurve2d.hxx>
+#include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 //=======================================================================

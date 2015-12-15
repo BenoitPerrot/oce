@@ -103,7 +103,7 @@
 #include <Precision.hxx>
 
 #include <Geom_Surface.hxx>
-#include <Adaptor2d_HCurve2d.hxx>
+#include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #include <stdio.h>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Geom_BSplineSurface.hxx>

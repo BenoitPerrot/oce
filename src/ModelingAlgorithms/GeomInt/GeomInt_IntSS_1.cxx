@@ -68,7 +68,7 @@
 #include <Geom_BSplineCurve.hxx>
 
 #include <Geom2dAdaptor.hxx>
-#include <Adaptor2d_HCurve2d.hxx>
+#include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #include <Geom2d_Curve.hxx>
 #include <Geom2d_BSplineCurve.hxx>
 #include <Geom2d_TrimmedCurve.hxx>

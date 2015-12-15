@@ -21,7 +21,7 @@
 #include <Extrema_POnCurv2d.hxx>
 #include <Precision.hxx>
 
-#include <Adaptor2d_Curve2d.hxx>
+#include <Geometry/Adaptor2d/Adaptor2d_Curve2d.hxx>
 #include <Extrema_Curve2dTool.hxx>
 #include <Extrema_LocECC2d.hxx>
 

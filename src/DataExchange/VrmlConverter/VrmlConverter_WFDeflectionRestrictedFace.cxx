@@ -18,7 +18,7 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <VrmlConverter_IsoAspect.hxx>
-#include <Adaptor2d_Curve2d.hxx>
+#include <Geometry/Adaptor2d/Adaptor2d_Curve2d.hxx>
 #include <GCPnts_QuasiUniformDeflection.hxx>
 #include <Adaptor3d_IsoCurve.hxx>
 #include <VrmlConverter_DeflectionCurve.hxx>
