@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Geom_Surface.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <Geom_Curve.hxx>

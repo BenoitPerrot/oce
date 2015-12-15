@@ -49,7 +49,7 @@
 #include <TopoDS_Face.hxx>
 #include <ShapeExtend_WireData.hxx>
 #include <Geom_Surface.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <ShapeAnalysis_WireOrder.hxx>
 #include <ShapeFix_Wire.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

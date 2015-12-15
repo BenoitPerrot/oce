@@ -19,7 +19,7 @@
 //szv 03.01.01 PositiveCones merged in
 #include <TopoDS_Face.hxx>
 #include <Geom_Surface.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <TopoDS_Edge.hxx>
 #include <Geom_Curve.hxx>
 #include <TopoDS_Vertex.hxx>

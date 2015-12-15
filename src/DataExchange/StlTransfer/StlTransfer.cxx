@@ -24,7 +24,7 @@
 #include <Mathematics/Collections/TColgp_Array1OfDir.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <BRepAdaptor_Surface.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Geom_Surface.hxx>
 #include <BRep_Tool.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>

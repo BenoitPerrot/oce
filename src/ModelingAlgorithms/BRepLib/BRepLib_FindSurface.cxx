@@ -17,7 +17,7 @@
 #include <Geom_Surface.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopoDS_Shape.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <BRepLib_FindSurface.hxx>
 
 #include <Precision.hxx>

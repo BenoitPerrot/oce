@@ -16,7 +16,7 @@
 
 #include <Mathematics/Polyhedral/Poly_Polygon2D.hxx>
 #include <Geom_Surface.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <BRep_CurveRepresentation.hxx>
 #include <BRep_PolygonOnClosedSurface.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

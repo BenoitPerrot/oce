@@ -14,7 +14,7 @@
 #include <Handle_Geom2d_Curve.hxx>
 #include <Adaptor3d_CurveOnSurface.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ShapeAnalysis_TransferParameters.hxx>
 #include <Handle_TColStd_HSequenceOfReal.hxx>

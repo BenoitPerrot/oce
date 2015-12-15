@@ -18,7 +18,7 @@
 #include <TopoDS_Vertex.hxx>
 #include <TopoDS_Face.hxx>
 #include <Geom_Surface.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Geom2d_Curve.hxx>
 #include <Mathematics/Primitives/gp_Trsf2d.hxx>
 #include <Geom_Curve.hxx>

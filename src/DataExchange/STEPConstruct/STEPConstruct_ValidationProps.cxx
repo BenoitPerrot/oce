@@ -41,7 +41,7 @@
 #include <XSControl_TransferWriter.hxx>
 #include <XSControl_TransferReader.hxx>
 
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <TopoDS_Iterator.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 

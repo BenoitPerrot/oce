@@ -16,7 +16,7 @@
 
 #include <Geom_Surface.hxx>
 #include <Foundation/Standard/Standard_NullObject.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <BRep_CurveRepresentation.hxx>
 #include <BRep_CurveOn2Surfaces.hxx>

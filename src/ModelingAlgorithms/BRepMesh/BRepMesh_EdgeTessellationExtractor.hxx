@@ -23,7 +23,7 @@
 #include <Handle_Geom2d_Curve.hxx>
 #include <Handle_Poly_PolygonOnTriangulation.hxx>
 #include <Handle_Poly_Triangulation.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 

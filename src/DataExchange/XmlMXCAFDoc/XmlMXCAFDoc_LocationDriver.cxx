@@ -16,7 +16,7 @@
 #include <CDM_MessageDriver.hxx>
 #include <TDF_Attribute.hxx>
 #include <XmlObjMgt_Persistent.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <XmlMXCAFDoc_LocationDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XmlMXCAFDoc_LocationDriver)
@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_RTTI(XmlMXCAFDoc_LocationDriver)
 #include <XmlObjMgt_Persistent.hxx>
 #include <XmlObjMgt.hxx>
 #include <XmlObjMgt_GP.hxx>
-#include <TopLoc_Datum3D.hxx>
+#include <Mathematics/TopLoc/TopLoc_Datum3D.hxx>
 
 #include <XmlMNaming.hxx>
 #include <TopTools_LocationSet.hxx>

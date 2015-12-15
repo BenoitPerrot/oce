@@ -18,7 +18,7 @@
 #include <ShapeCustom_RestrictionParameters.hxx>
 #include <TopoDS_Face.hxx>
 #include <Geom_Surface.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <TopoDS_Edge.hxx>
 #include <Geom_Curve.hxx>
 #include <Geom2d_Curve.hxx>

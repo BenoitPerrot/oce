@@ -23,7 +23,7 @@ IMPLEMENT_STANDARD_TYPE_END(ShapeUpgrade_RemoveLocations)
 IMPLEMENT_DOWNCAST(ShapeUpgrade_RemoveLocations,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_RemoveLocations)
 #include <TopAbs_ShapeEnum.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <TopoDS_Face.hxx>
 #include <TopoDS.hxx>
 #include <Geom_Surface.hxx>

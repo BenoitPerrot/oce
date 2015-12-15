@@ -45,7 +45,7 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_LocationLaw)
 #include <TopoDS.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopExp.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 
 #include <GeomFill_LocationLaw.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>

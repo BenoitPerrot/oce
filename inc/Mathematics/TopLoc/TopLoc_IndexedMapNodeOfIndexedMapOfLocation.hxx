@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TopLoc_IndexedMapNodeOfIndexedMapOfLocation.hxx>
 
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
@@ -55,15 +55,15 @@ private:
 };
 
 #define TheKey TopLoc_Location
-#define TheKey_hxx <TopLoc_Location.hxx>
+#define TheKey_hxx <Mathematics/TopLoc/TopLoc_Location.hxx>
 #define Hasher TopLoc_MapLocationHasher
-#define Hasher_hxx <TopLoc_MapLocationHasher.hxx>
+#define Hasher_hxx <Mathematics/TopLoc/TopLoc_MapLocationHasher.hxx>
 #define TCollection_IndexedMapNode TopLoc_IndexedMapNodeOfIndexedMapOfLocation
-#define TCollection_IndexedMapNode_hxx <TopLoc_IndexedMapNodeOfIndexedMapOfLocation.hxx>
+#define TCollection_IndexedMapNode_hxx <Mathematics/TopLoc/TopLoc_IndexedMapNodeOfIndexedMapOfLocation.hxx>
 #define Handle_TCollection_IndexedMapNode Handle_TopLoc_IndexedMapNodeOfIndexedMapOfLocation
 #define TCollection_IndexedMapNode_Type_() TopLoc_IndexedMapNodeOfIndexedMapOfLocation_Type_()
 #define TCollection_IndexedMap TopLoc_IndexedMapOfLocation
-#define TCollection_IndexedMap_hxx <TopLoc_IndexedMapOfLocation.hxx>
+#define TCollection_IndexedMap_hxx <Mathematics/TopLoc/TopLoc_IndexedMapOfLocation.hxx>
 
 #include <Foundation/TCollection/TCollection_IndexedMapNode.lxx>
 

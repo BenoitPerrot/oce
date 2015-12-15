@@ -27,7 +27,7 @@
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Select3D_SensitiveEntity.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Select3D_Projector.hxx>
 #include <Select3D_SensitiveCircle.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

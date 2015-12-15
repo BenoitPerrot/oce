@@ -17,7 +17,7 @@
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <TopoDS_Shape.hxx>
 #include <Sweep_NumShape.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <BRepSweep_Rotation.hxx>
 #include <BRepTools_Quilt.hxx>

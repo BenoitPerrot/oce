@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_RTTI(TPrsStd_NamedShapeDriver)
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <TPrsStd_DriverTable.hxx> 
 #include <TNaming_Tool.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 #include <PrsMgr_Presentation.hxx>

@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_RTTI(DNaming_CylinderDriver)
 #include <TNaming_NamedShape.hxx>
 #include <BRepPrimAPI_MakeCylinder.hxx>
 #include <BRepCheck_Analyzer.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <TopoDS_Solid.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

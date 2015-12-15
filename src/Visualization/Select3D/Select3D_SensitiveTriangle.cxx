@@ -23,7 +23,7 @@
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Mathematics/Primitives/gp_XY.hxx>
 #include <Select3D_SensitiveEntity.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Select3D_SensitiveTriangle.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Select3D_SensitiveTriangle)
@@ -46,7 +46,7 @@ IMPLEMENT_STANDARD_RTTI(Select3D_SensitiveTriangle)
 #include <Precision.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <ElCLib.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 
 #include <CSLib_Class2d.hxx>
 

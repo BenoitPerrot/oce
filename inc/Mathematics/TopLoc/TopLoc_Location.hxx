@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <TopLoc_SListOfItemLocation.hxx>
+#include <Mathematics/TopLoc/TopLoc_SListOfItemLocation.hxx>
 #include <Handle_TopLoc_Datum3D.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
@@ -153,7 +153,7 @@ private:
 };
 
 
-#include <TopLoc_Location.lxx>
+#include <Mathematics/TopLoc/TopLoc_Location.lxx>
 
 
 

@@ -16,7 +16,7 @@
 #include <StepRepr_RepresentationItem.hxx>
 #include <Transfer_FinderProcess.hxx>
 #include <TopoDS_Shape.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Transfer_TransientProcess.hxx>
 #include <Transfer_Binder.hxx>
 #include <StepShape_ShapeDefinitionRepresentation.hxx>

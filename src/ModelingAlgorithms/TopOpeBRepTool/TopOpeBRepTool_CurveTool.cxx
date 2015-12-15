@@ -62,7 +62,7 @@
 #include <Mathematics/Primitives/gp_Vec.hxx>
 //#include <Approx.hxx>
 #include <Geom_Surface.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Geom_RectangularTrimmedSurface.hxx>
 #include <BRep_Tool.hxx>
 

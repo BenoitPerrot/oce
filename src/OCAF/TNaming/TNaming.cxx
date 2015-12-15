@@ -16,7 +16,7 @@
 
 #include <TDF_Label.hxx>
 #include <TopTools_DataMapOfShapeShape.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <TNaming_NamedShape.hxx>
 #include <TopoDS_Shape.hxx>
@@ -65,7 +65,7 @@
 // CopyShape
 #include <Foundation/TColStd/TColStd_IndexedDataMapOfTransientTransient.hxx>
 #include <TNaming_TranslateTool.hxx>
-#include <TopLoc_Datum3D.hxx>
+#include <Mathematics/TopLoc/TopLoc_Datum3D.hxx>
 
 //=======================================================================
 //function : MapShapes

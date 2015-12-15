@@ -19,7 +19,7 @@
 #include <TopoDS_Shape.hxx>
 #include <Geom_Surface.hxx>
 #include <TopoDS_Face.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <TopoDS_Edge.hxx>
 #include <Geom_Curve.hxx>

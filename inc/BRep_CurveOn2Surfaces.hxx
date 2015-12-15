@@ -11,7 +11,7 @@
 #include <Handle_BRep_CurveOn2Surfaces.hxx>
 
 #include <Handle_Geom_Surface.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <BRep_CurveRepresentation.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

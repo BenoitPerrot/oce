@@ -16,7 +16,7 @@
 #include <QABugs.hxx>
 #include <Draw.hxx>
 #include <Draw_Interpretor.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <TopoDS_Face.hxx>
 #include <TopoDS.hxx>
 #include <DBRep.hxx>

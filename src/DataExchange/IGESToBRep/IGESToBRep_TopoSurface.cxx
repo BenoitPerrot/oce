@@ -121,7 +121,7 @@
 #include <TopExp.hxx>
 #include <TopExp_Explorer.hxx>
 
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 
 #include <Mathematics/Primitives/gp.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>

@@ -50,7 +50,7 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_PipeShell)
 #include <TopoDS_Shell.hxx>
 #include <TopoDS_Solid.hxx>
 #include <TopoDS_Iterator.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 
 #include <BRepLib_MakeEdge.hxx>
 #include <BRepLib_MakeFace.hxx>

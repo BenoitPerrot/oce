@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeAnalysis_TransferParametersProj)
 #include <GeomAdaptor_HSurface.hxx>
 #include <BRep_Tool.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <ShapeAnalysis_Edge.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <ShapeAnalysis_Curve.hxx>

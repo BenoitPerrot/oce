@@ -21,7 +21,7 @@
 #include <TopoDS_Face.hxx>
 #include <BRepAdaptor_HSurface.hxx>
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <BRep_Tool.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <TopExp_Explorer.hxx>

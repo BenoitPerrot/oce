@@ -16,7 +16,7 @@
 
 #include <Mathematics/Polyhedral/Poly_PolygonOnTriangulation.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <BRep_CurveRepresentation.hxx>
 #include <BRep_PolygonOnTriangulation.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

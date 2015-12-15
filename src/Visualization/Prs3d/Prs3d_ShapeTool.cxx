@@ -21,7 +21,7 @@
 #include <TopTools_HSequenceOfShape.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Mathematics/Polyhedral/Poly_PolygonOnTriangulation.hxx>
 #include <Mathematics/Polyhedral/Poly_Polygon3D.hxx>
 #include <Prs3d_ShapeTool.hxx>

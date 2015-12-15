@@ -27,7 +27,7 @@
 
 #include <ShapeExtend_CompositeSurface.hxx>
 #include <ShapeAnalysis_TransferParameters.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <TopoDS_Face.hxx>
 #include <TopoDS_Shape.hxx>
 #include <ShapeFix_SequenceOfWireSegment.hxx>

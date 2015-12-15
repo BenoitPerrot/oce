@@ -35,7 +35,7 @@
 #include <Geom_TrimmedCurve.hxx>
 #include <BRep_Tool.hxx>
 #include <TopoDS.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Geom_Curve.hxx>
 #include <GeomAdaptor_Curve.hxx>
 #include <GeomAbs_CurveType.hxx>

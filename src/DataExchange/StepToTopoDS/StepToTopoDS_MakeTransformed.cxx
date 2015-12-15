@@ -28,7 +28,7 @@
 #include <Geom_Axis2Placement.hxx>
 #include <Mathematics/Primitives/gp_Ax3.hxx>
 #include <Mathematics/Primitives/gp_TrsfForm.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 
 #include <StepRepr_RepresentationMap.hxx>
 #include <StepRepr_Representation.hxx>

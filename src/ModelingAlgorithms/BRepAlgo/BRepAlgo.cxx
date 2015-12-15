@@ -35,7 +35,7 @@
 #include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Vertex.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <TopExp.hxx>
 
 #include <TColGeom_SequenceOfCurve.hxx>

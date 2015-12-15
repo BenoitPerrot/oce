@@ -11,7 +11,7 @@
 #include <Handle_ShapeFix_ComposeShell.hxx>
 
 #include <Handle_ShapeExtend_CompositeSurface.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <TopoDS_Face.hxx>
 #include <TopAbs_Orientation.hxx>
 #include <TopoDS_Shape.hxx>

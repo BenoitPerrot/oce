@@ -35,7 +35,7 @@
 
 #include <TopExp.hxx>
 
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <TopExp_Explorer.hxx>
 #include <TopOpeBRepBuild_Tools2d.hxx>
 

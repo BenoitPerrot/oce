@@ -60,7 +60,7 @@
 #include <TopoDS_Shell.hxx>
 #include <TopoDS_Iterator.hxx>
 #include <TopExp_Explorer.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 
 #include <StepGeom_CartesianPoint.hxx>
 #include <StepGeom_Curve.hxx>

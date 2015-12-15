@@ -54,7 +54,7 @@
 
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 
 #include <TopoDS.hxx>
 #include <TopoDS_Vertex.hxx>

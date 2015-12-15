@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_SensitiveSegment)
 #include <Select3D_Projector.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <CSLib_Class2d.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 
 //=======================================================================
 // name    : MeshVS_SensitiveSegment::MeshVS_SensitiveSegment

@@ -12,7 +12,7 @@
 
 #include <Handle_TopLoc_Datum3D.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <TopLoc_TrsfPtr.hxx>
+#include <Mathematics/TopLoc/TopLoc_TrsfPtr.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class TopLoc_Datum3D;
 class TopLoc_Location;

@@ -24,7 +24,7 @@
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <SelectBasics_EntityOwner.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Select3D_Projector.hxx>
 #include <SelectBasics_ListOfBox2d.hxx>

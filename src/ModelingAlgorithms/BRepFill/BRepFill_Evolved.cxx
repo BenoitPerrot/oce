@@ -27,7 +27,7 @@
 #include <BRepFill_DataMapOfShapeDataMapOfShapeListOfShape.hxx>
 #include <BRepTools_Quilt.hxx>
 #include <TopTools_DataMapOfShapeShape.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <BRepFill_Evolved.hxx>
@@ -109,7 +109,7 @@
 #include <TopTools_DataMapIteratorOfDataMapOfShapeListOfShape.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx> 
 #include <TopTools_DataMapOfShapeSequenceOfShape.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <TopAbs.hxx>
 
 #include <Mathematics/Primitives/gp.hxx>

@@ -28,7 +28,7 @@
 #include <TopoDS_Face.hxx>
 #include <Geom_Surface.hxx>
 #include <TopoDS_Edge.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <ShapeUpgrade_WireDivide.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeUpgrade_WireDivide)

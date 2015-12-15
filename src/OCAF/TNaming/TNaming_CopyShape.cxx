@@ -16,14 +16,14 @@
 #include <TopoDS_Shape.hxx>
 #include <Foundation/TColStd/TColStd_IndexedDataMapOfTransientTransient.hxx>
 #include <TNaming_TranslateTool.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <TNaming_CopyShape.hxx>
 #include <TopAbs.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Face.hxx>
 #include <TopoDS_Iterator.hxx>
-#include <TopLoc_Datum3D.hxx>
+#include <Mathematics/TopLoc/TopLoc_Datum3D.hxx>
 
 //=======================================================================
 //function : CopyTool

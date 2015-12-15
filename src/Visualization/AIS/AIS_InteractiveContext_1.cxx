@@ -33,7 +33,7 @@
 #include <Prs3d_Drawer.hxx>
 #include <V3d_View.hxx>
 #include <AIS_LocalContext.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <AIS_Drawer.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>

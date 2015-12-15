@@ -36,7 +36,7 @@ IMPLEMENT_STANDARD_RTTI(Select3D_SensitivePoly)
 #include <Select3D_Pnt.hxx>
 #include <Select3D_Pnt2d.hxx>
 #include <Select3D_Box2d.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 
 
 //==================================================

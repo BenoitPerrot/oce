@@ -28,7 +28,7 @@
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <TopAbs_Orientation.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Foundation/TShort/TShort_HArray1OfShortReal.hxx>
 #include <Foundation/TShort/TShort_Array1OfShortReal.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfDir.hxx>

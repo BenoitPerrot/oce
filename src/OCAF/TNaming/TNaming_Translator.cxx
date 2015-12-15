@@ -23,7 +23,7 @@
 #include <Foundation/TColStd/TColStd_IndexedDataMapOfTransientTransient.hxx>
 #include <TopoDS_TShape.hxx>
 #include <BRepTools.hxx>
-#include <TopLoc_Datum3D.hxx>
+#include <Mathematics/TopLoc/TopLoc_Datum3D.hxx>
 #include <BRep_TVertex.hxx>
 #include <BRep_TFace.hxx>
 #include <BRep_TEdge.hxx>

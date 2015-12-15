@@ -19,14 +19,14 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
-#include <TopLoc_Datum3D.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Datum3D.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <TopLoc_Datum3D.hxx>
-#include <TopLoc_SListOfItemLocation.hxx>
-#include <TopLoc_ItemLocation.hxx>
+#include <Mathematics/TopLoc/TopLoc_Datum3D.hxx>
+#include <Mathematics/TopLoc/TopLoc_SListOfItemLocation.hxx>
+#include <Mathematics/TopLoc/TopLoc_ItemLocation.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
-#include <TopLoc_TrsfPtr.hxx>
+#include <Mathematics/TopLoc/TopLoc_TrsfPtr.hxx>
 
 static const gp_Trsf TheIdentity;
 

@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <TDF_Label.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <XCAFPrs_DataMapOfShapeStyle.hxx>
 #include <TopoDS_Shape.hxx>
 #include <XCAFPrs_DataMapOfStyleShape.hxx>
@@ -31,7 +31,7 @@
 #include <Foundation/TColStd/TColStd_HSequenceOfExtendedString.hxx>
 #include <XCAFDoc_LayerTool.hxx>
 #include <TopTools_SequenceOfShape.hxx>
-#include <TopLoc_IndexedMapOfLocation.hxx>
+#include <Mathematics/TopLoc/TopLoc_IndexedMapOfLocation.hxx>
 #include <TDF_AttributeSequence.hxx>
 #include <XCAFDoc_GraphNode.hxx>
 

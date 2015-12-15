@@ -40,7 +40,7 @@ IMPLEMENT_STANDARD_RTTI(DNaming_SphereDriver)
 #include <TopExp.hxx>
 
 #include <BRepPrimAPI_MakeSphere.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <BRepAlgo.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>

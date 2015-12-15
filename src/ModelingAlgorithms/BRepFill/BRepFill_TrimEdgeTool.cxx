@@ -32,7 +32,7 @@
 #include <Geom2dAPI_ProjectPointOnCurve.hxx>
 #include <Geom2dInt_GInter.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <TopoDS.hxx>
 #include <Precision.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>

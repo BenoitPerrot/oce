@@ -68,7 +68,7 @@
 #include <TopExp_Explorer.hxx>
 #include <TopExp.hxx>
 
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <TopAbs.hxx>
 
 #include <Geom_Surface.hxx>

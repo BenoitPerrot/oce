@@ -13,7 +13,7 @@
 #include <Handle_Geom_Surface.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 class Geom_Surface;
 class Standard_NoSuchObject;
 class TopoDS_Shape;

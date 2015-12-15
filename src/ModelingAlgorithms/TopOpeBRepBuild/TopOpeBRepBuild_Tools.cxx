@@ -74,7 +74,7 @@
 
 #include <TopOpeBRepTool_CurveTool.hxx>
 #include <TopOpeBRepTool_TOOL.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <TopExp.hxx>
 #include <TopExp_Explorer.hxx>
 

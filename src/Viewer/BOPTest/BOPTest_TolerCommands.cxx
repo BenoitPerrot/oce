@@ -48,7 +48,7 @@
 #include <BRep_Builder.hxx>
 #include <BRep_TFace.hxx>
 
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 
 #include <BRepLib.hxx>
 

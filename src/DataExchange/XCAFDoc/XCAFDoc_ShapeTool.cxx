@@ -17,7 +17,7 @@
 #include <TDF_Label.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TDF_LabelSequence.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <TDF_Attribute.hxx>
 #include <TDF_RelocationTable.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfHAsciiString.hxx>
@@ -56,7 +56,7 @@ IMPLEMENT_STANDARD_RTTI(XCAFDoc_ShapeTool)
 #include <TNaming_NamedShape.hxx>
 #include <TNaming_Tool.hxx>
 
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <TopoDS_Iterator.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Compound.hxx>
@@ -68,7 +68,7 @@ IMPLEMENT_STANDARD_RTTI(XCAFDoc_ShapeTool)
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfHAsciiString.hxx>
 #include <XCAFDoc_GraphNode.hxx>
-#include <TopLoc_IndexedMapOfLocation.hxx>
+#include <Mathematics/TopLoc/TopLoc_IndexedMapOfLocation.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <XCAFDoc_ShapeMapTool.hxx>

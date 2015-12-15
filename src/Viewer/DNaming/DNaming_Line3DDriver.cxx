@@ -40,7 +40,7 @@ IMPLEMENT_STANDARD_RTTI(DNaming_Line3DDriver)
 #include <GeomAPI_Interpolate.hxx>
 #include <BRep_Tool.hxx>
 #include <BRep_Builder.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <TopTools_HSequenceOfShape.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
 #include <TopTools_Array1OfShape.hxx>

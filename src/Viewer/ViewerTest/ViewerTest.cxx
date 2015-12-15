@@ -26,7 +26,7 @@
 
 #include <ViewerTest.hxx>
 
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <TopTools_HArray1OfShape.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfTransient.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfAsciiString.hxx>

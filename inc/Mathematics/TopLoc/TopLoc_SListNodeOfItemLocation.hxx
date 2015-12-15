@@ -10,8 +10,8 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TopLoc_SListNodeOfItemLocation.hxx>
 
-#include <TopLoc_SListOfItemLocation.hxx>
-#include <TopLoc_ItemLocation.hxx>
+#include <Mathematics/TopLoc/TopLoc_SListOfItemLocation.hxx>
+#include <Mathematics/TopLoc/TopLoc_ItemLocation.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class TopLoc_ItemLocation;
@@ -53,7 +53,7 @@ private:
 };
 
 
-#include <TopLoc_SListNodeOfItemLocation.lxx>
+#include <Mathematics/TopLoc/TopLoc_SListNodeOfItemLocation.lxx>
 
 
 

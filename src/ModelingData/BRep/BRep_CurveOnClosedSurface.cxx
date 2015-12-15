@@ -16,7 +16,7 @@
 
 #include <Geom2d_Curve.hxx>
 #include <Geom_Surface.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <BRep_CurveRepresentation.hxx>
 #include <BRep_CurveOnClosedSurface.hxx>

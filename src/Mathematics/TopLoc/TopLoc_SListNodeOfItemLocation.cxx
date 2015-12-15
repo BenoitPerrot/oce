@@ -12,9 +12,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopLoc_ItemLocation.hxx>
-#include <TopLoc_SListOfItemLocation.hxx>
-#include <TopLoc_SListNodeOfItemLocation.hxx>
+#include <Mathematics/TopLoc/TopLoc_ItemLocation.hxx>
+#include <Mathematics/TopLoc/TopLoc_SListOfItemLocation.hxx>
+#include <Mathematics/TopLoc/TopLoc_SListNodeOfItemLocation.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TopLoc_SListNodeOfItemLocation)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

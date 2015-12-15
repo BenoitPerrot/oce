@@ -17,7 +17,7 @@
 #include <BRep_Builder.hxx>
 #include <TopoDS_Shape.hxx>
 #include <Sweep_NumShape.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <BRepSweep_Trsf.hxx>
 #include <Sweep_NumShapeIterator.hxx>
 #include <BRepSweep_Iterator.hxx>

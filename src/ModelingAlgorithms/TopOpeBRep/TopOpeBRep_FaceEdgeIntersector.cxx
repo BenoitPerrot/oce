@@ -23,7 +23,7 @@
 #include <TopoDS.hxx>
 #include <BRep_Tool.hxx>
 #include <Geom_Curve.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <IntCurveSurface_IntersectionPoint.hxx>
 #include <IntCurveSurface_TransitionOnCurve.hxx>
 #include <BRepIntCurveSurface_Inter.hxx>

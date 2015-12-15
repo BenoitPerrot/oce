@@ -12,7 +12,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopLoc_ItemLocation.hxx>
+#include <Mathematics/TopLoc/TopLoc_ItemLocation.hxx>
 
 inline TopLoc_SListNodeOfItemLocation::TopLoc_SListNodeOfItemLocation(const TopLoc_ItemLocation& I, const TopLoc_SListOfItemLocation& T) 
 : myTail(T),myValue(I) 

@@ -30,7 +30,7 @@
 #include <TopAbs.hxx>
 #include <ElCLib.hxx>
 #include <Geom_Surface.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Precision.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <Geom2d_Curve.hxx>

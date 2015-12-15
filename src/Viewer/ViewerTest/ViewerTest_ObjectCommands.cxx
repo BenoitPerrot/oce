@@ -78,7 +78,7 @@
 #include <AIS_Trihedron.hxx>
 #include <AIS_Axis.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 
 #include <HLRAlgo_Projector.hxx>
 #include <HLRBRep_PolyAlgo.hxx>
@@ -115,7 +115,7 @@
 
 #include <AIS_MultipleConnectedInteractive.hxx>
 #include <AIS_ConnectedInteractive.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 

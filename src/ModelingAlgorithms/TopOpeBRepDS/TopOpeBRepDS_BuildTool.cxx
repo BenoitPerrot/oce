@@ -51,7 +51,7 @@
 #include <Mathematics/Primitives/gp.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <TopExp.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <TopOpeBRepTool_ShapeTool.hxx>
 #include <Geom_SphericalSurface.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>

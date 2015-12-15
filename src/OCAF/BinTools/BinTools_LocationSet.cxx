@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <BinTools_LocationSet.hxx>
 #include <BinTools.hxx>
 #include <Mathematics/Primitives/gp_Ax3.hxx>

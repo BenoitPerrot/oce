@@ -32,7 +32,7 @@
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 #include <TopoDS_Solid.hxx>
 #include <TopExp_Explorer.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 
 #include <Geom_Curve.hxx>
 

@@ -11,7 +11,7 @@
 #include <Handle_Select3D_SensitiveTriangulation.hxx>
 
 #include <Handle_Poly_Triangulation.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>

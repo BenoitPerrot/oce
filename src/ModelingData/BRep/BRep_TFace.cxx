@@ -16,7 +16,7 @@
 
 #include <Geom_Surface.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <TopoDS_TShape.hxx>
 #include <BRep_TFace.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

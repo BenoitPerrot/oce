@@ -22,7 +22,7 @@
 #include <TNaming.hxx>
 #include <TDF_Label.hxx>
 #include <TNaming_Builder.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <TopExp_Explorer.hxx>
 #include <TopTools_MapOfShape.hxx>
 #include <TopTools_DataMapOfShapeShape.hxx>

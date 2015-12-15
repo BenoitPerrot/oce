@@ -3,14 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TopLoc_MapLocationHasher.hxx>
+#include <Mathematics/TopLoc/TopLoc_MapLocationHasher.hxx>
 
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
  
 
 #define Key TopLoc_Location
-#define Key_hxx <TopLoc_Location.hxx>
+#define Key_hxx <Mathematics/TopLoc/TopLoc_Location.hxx>
 #define TCollection_MapHasher TopLoc_MapLocationHasher
-#define TCollection_MapHasher_hxx <TopLoc_MapLocationHasher.hxx>
+#define TCollection_MapHasher_hxx <Mathematics/TopLoc/TopLoc_MapLocationHasher.hxx>
 #include <Foundation/TCollection/TCollection_MapHasher.gxx>
 

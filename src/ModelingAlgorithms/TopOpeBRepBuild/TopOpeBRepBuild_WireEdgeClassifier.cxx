@@ -40,7 +40,7 @@
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <BRep_Builder.hxx>
 #include <TopOpeBRepTool_2d.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <TopExp.hxx>
 
 #include <TopOpeBRepTool_EXPORT.hxx>

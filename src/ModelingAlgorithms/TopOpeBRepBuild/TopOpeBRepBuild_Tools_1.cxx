@@ -38,7 +38,7 @@
 #include <TopoDS_Vertex.hxx>
 #include <TopoDS_Face.hxx>
 
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 
 #include <BRep_TVertex.hxx>
 #include <BRep_TEdge.hxx>

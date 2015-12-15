@@ -25,7 +25,7 @@
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Face.hxx>
 #include <Geom_Surface.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <ShapeAnalysis_Surface.hxx>
 #include <ShapeFix_Edge.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

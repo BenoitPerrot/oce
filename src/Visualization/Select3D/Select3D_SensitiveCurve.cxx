@@ -24,7 +24,7 @@
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Select3D_SensitiveEntity.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Select3D_SensitiveCurve.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

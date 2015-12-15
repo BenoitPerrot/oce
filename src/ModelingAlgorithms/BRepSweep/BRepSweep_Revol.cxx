@@ -18,7 +18,7 @@
 #include <TopoDS_Shape.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <Sweep_NumShape.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <BRepSweep_Revol.hxx>
 #include <BRepSweep_Rotation.hxx>
 #include <Sweep_NumShape.hxx>

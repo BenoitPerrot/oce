@@ -15,7 +15,7 @@
 
 #include <SelectBasics_EntityOwner.hxx>
 #include <Select3D_SensitiveEntity.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Select3D_Projector.hxx>
@@ -37,7 +37,7 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_SensitiveMesh)
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HPackedMapOfInteger.hxx>
 #include <Select3D_Projector.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <MeshVS_DataSource.hxx>
 #include <MeshVS_MeshOwner.hxx>
 

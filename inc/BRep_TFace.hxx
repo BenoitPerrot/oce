@@ -12,7 +12,7 @@
 
 #include <Handle_Geom_Surface.hxx>
 #include <Handle_Poly_Triangulation.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <TopoDS_TFace.hxx>

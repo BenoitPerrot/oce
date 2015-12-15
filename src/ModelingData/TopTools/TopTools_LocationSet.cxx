@@ -17,9 +17,9 @@
 #include <Foundation/Standard/Standard_Stream.hxx>
 #include <Foundation/Message/Message_ProgressIndicator.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <TopTools_LocationSet.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Foundation/Message/Message_ProgressSentry.hxx>
 
 #include <GeomTools.hxx>

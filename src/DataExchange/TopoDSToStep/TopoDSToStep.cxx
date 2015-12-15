@@ -28,7 +28,7 @@
 #include <TopExp_Explorer.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Face.hxx>
-#include <TopLoc_Location.hxx>
+#include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Geom_Surface.hxx>
 #include <BRep_Tool.hxx>
 #include <Transfer_SimpleBinderOfTransient.hxx>
