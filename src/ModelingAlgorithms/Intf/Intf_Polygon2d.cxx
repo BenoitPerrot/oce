@@ -15,7 +15,7 @@
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Intf_Polygon2d.hxx>
 
 //=======================================================================

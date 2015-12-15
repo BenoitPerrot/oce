@@ -12,7 +12,7 @@
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <StlMesh_SequenceOfMeshDomain.hxx>
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

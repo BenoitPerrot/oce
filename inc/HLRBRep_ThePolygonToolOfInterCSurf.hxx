@@ -59,7 +59,7 @@ private:
 };
 
 #define ThePoint gp_Pnt
-#define ThePoint_hxx <gp_Pnt.hxx>
+#define ThePoint_hxx <Mathematics/Primitives/gp_Pnt.hxx>
 #define ThePolygon HLRBRep_ThePolygonOfInterCSurf
 #define ThePolygon_hxx <HLRBRep_ThePolygonOfInterCSurf.hxx>
 #define TheBoundingBox Bnd_Box

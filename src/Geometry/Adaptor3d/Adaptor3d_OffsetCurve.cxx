@@ -17,13 +17,13 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_TypeMismatch.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Vec2d.hxx>
-#include <gp_Lin2d.hxx>
-#include <gp_Circ2d.hxx>
-#include <gp_Elips2d.hxx>
-#include <gp_Hypr2d.hxx>
-#include <gp_Parab2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_Lin2d.hxx>
+#include <Mathematics/Primitives/gp_Circ2d.hxx>
+#include <Mathematics/Primitives/gp_Elips2d.hxx>
+#include <Mathematics/Primitives/gp_Hypr2d.hxx>
+#include <Mathematics/Primitives/gp_Parab2d.hxx>
 #include <Geom2d_BezierCurve.hxx>
 #include <Geom2d_BSplineCurve.hxx>
 #include <Adaptor3d_OffsetCurve.hxx>
@@ -32,11 +32,11 @@
 #include <GeomAbs_SurfaceType.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
-#include <gp_VectorWithNullMagnitude.hxx>
+#include <Mathematics/Primitives/gp_VectorWithNullMagnitude.hxx>
 #include <Precision.hxx>
-#include <gp_Ax22d.hxx>
-#include <gp_Dir2d.hxx>
-#include <gp.hxx>
+#include <Mathematics/Primitives/gp_Ax22d.hxx>
+#include <Mathematics/Primitives/gp_Dir2d.hxx>
+#include <Mathematics/Primitives/gp.hxx>
 
 //=======================================================================
 //function : Adaptor3d_OffsetCurve

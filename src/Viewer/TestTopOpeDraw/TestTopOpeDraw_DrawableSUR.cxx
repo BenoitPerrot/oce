@@ -17,8 +17,8 @@
 #include <Draw_Text3D.hxx>
 #include <Geom_Surface.hxx>
 #include <Draw_Color.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Draw_Display.hxx>
 #include <TestTopOpeDraw_DrawableSUR.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -36,10 +36,10 @@ IMPLEMENT_STANDARD_RTTI(TestTopOpeDraw_DrawableSUR)
 #include <Geom_RectangularTrimmedSurface.hxx>
 #include <BRepAdaptor_Surface.hxx>
 #include <BRepTools.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Vec2d.hxx>
-#include <gp_Dir2d.hxx>
-#include <gp.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_Dir2d.hxx>
+#include <Mathematics/Primitives/gp.hxx>
 
 //=======================================================================
 //function : TestTopOpeDraw_DrawableSUR

@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Vrml_LOD.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Vrml_LOD)

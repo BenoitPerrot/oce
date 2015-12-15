@@ -21,7 +21,7 @@
 #include <IGESGraph_TextDisplayTemplate.hxx>
 #include <IGESDraw_HArray1OfConnectPoint.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <IGESDraw_ConnectPoint.hxx>
 #include <IGESDraw_NetworkSubfigure.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_TYPE_END(IGESDraw_NetworkSubfigure)
 IMPLEMENT_DOWNCAST(IGESDraw_NetworkSubfigure,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESDraw_NetworkSubfigure)
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
-#include <gp_GTrsf.hxx>
+#include <Mathematics/Primitives/gp_GTrsf.hxx>
 
 
 IGESDraw_NetworkSubfigure::IGESDraw_NetworkSubfigure ()    {  }

@@ -16,9 +16,9 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <gp_XYZ.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
 #include <IGESSolid_Block.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESSolid_Block)
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESSolid_Block)
 IMPLEMENT_DOWNCAST(IGESSolid_Block,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESSolid_Block)
-#include <gp_GTrsf.hxx>
+#include <Mathematics/Primitives/gp_GTrsf.hxx>
 
 
 IGESSolid_Block::IGESSolid_Block ()    {  }

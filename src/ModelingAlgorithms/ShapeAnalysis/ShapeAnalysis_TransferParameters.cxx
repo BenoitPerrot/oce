@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeAnalysis_TransferParameters)
 #include <ShapeAnalysis_Edge.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <BRep_Tool.hxx>
-#include <gp.hxx>
+#include <Mathematics/Primitives/gp.hxx>
 #include <ShapeBuild_Edge.hxx>
 
 

@@ -13,9 +13,9 @@
 // commercial license or contractual agreement.
 
 #include <IntSurf_PathPoint.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Dir2d.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Dir2d.hxx>
 
 inline gp_Pnt IntSurf_PathPointTool::Value3d (const IntSurf_PathPoint& PStart)
 {

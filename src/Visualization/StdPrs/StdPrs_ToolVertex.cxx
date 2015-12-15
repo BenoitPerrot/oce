@@ -16,7 +16,7 @@
 #include <TopoDS_Vertex.hxx>
 #include <StdPrs_ToolVertex.hxx>
 #include <BRep_Tool.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 
 
 void StdPrs_ToolVertex::Coord (const TopoDS_Vertex& aVertex,

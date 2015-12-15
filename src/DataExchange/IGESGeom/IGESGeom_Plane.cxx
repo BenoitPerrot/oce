@@ -17,8 +17,8 @@
 //--------------------------------------------------------------------
 
 #include <IGESData_IGESEntity.hxx>
-#include <gp_XYZ.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <IGESGeom_Plane.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESGeom_Plane)
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESGeom_Plane)
 IMPLEMENT_DOWNCAST(IGESGeom_Plane,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESGeom_Plane)
-#include <gp_GTrsf.hxx>
+#include <Mathematics/Primitives/gp_GTrsf.hxx>
 
 
 IGESGeom_Plane::IGESGeom_Plane ()     {  }

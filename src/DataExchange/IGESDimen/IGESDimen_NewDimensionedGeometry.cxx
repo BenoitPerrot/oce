@@ -22,7 +22,7 @@
 #include <Mathematics/Collections/TColgp_HArray1OfXYZ.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <IGESDimen_NewDimensionedGeometry.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESDimen_NewDimensionedGeometry)
@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_TYPE_END(IGESDimen_NewDimensionedGeometry)
 IMPLEMENT_DOWNCAST(IGESDimen_NewDimensionedGeometry,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESDimen_NewDimensionedGeometry)
 #include <IGESData_TransfEntity.hxx>
-#include <gp_GTrsf.hxx>
+#include <Mathematics/Primitives/gp_GTrsf.hxx>
 
 
 IGESDimen_NewDimensionedGeometry::IGESDimen_NewDimensionedGeometry ()   { }

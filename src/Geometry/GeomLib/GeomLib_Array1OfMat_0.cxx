@@ -9,11 +9,11 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <gp_Mat.hxx>
+#include <Mathematics/Primitives/gp_Mat.hxx>
  
 
 #define Array1Item gp_Mat
-#define Array1Item_hxx <gp_Mat.hxx>
+#define Array1Item_hxx <Mathematics/Primitives/gp_Mat.hxx>
 #define TCollection_Array1 GeomLib_Array1OfMat
 #define TCollection_Array1_hxx <GeomLib_Array1OfMat.hxx>
 #include <Foundation/TCollection/TCollection_Array1.gxx>

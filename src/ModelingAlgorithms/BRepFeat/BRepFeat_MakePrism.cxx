@@ -18,7 +18,7 @@
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Face.hxx>
-#include <gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TColGeom_SequenceOfCurve.hxx>
 #include <BRepFeat_MakePrism.hxx>
@@ -29,10 +29,10 @@
 #include <LocOpe_CSIntersector.hxx>
 #include <LocOpe_PntFace.hxx>
 
-#include <gp_Vec.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Ax1.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Ax1.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Geom_Curve.hxx>
 #include <Geom_Line.hxx>
 #include <Geom_RectangularTrimmedSurface.hxx>
@@ -79,7 +79,7 @@
 #include <BRepBndLib.hxx>
 
 #include <Precision.hxx>
-#include <gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Geom_Plane.hxx>
 
 #ifdef OCCT_DEBUG

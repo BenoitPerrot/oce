@@ -29,7 +29,7 @@
 #include <TopTools_IndexedMapOfShape.hxx>
 #include <TopExp.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <GProp_GProps.hxx>
 #include <BRepGProp.hxx>
 #include <DrawTrSurf.hxx>

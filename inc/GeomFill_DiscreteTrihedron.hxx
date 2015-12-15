@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_GeomFill_DiscreteTrihedron.hxx>
 
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Handle_GeomFill_HSequenceOfAx2.hxx>
 #include <Handle_TColStd_HSequenceOfReal.hxx>
 #include <Handle_GeomFill_Frenet.hxx>

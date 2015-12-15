@@ -15,16 +15,16 @@
 // commercial license or contractual agreement.
 
 #include <TopoDS_Shape.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <TopoDS_Edge.hxx>
-#include <gp_Lin.hxx>
-#include <gp_Circ.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Circ.hxx>
 #include <TopoDS_Face.hxx>
-#include <gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
 #include <DrawDim.hxx>
 
 #include <Draw_Text3D.hxx>
-#include <gp_Pnt.hxx>  
+#include <Mathematics/Primitives/gp_Pnt.hxx>  
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Geom_Curve.hxx>
 #include <BRep_Tool.hxx>

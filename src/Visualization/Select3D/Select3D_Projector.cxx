@@ -16,14 +16,14 @@
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <V3d_View.hxx>
-#include <gp_Ax2.hxx>
-#include <gp_Trsf.hxx>
-#include <gp_GTrsf.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Vec2d.hxx>
-#include <gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Ax2.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_GTrsf.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Select3D_Projector.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Select3D_Projector)
@@ -34,10 +34,10 @@ IMPLEMENT_STANDARD_TYPE_END(Select3D_Projector)
 IMPLEMENT_DOWNCAST(Select3D_Projector,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Select3D_Projector)
 #include <Precision.hxx>
-#include <gp_Ax3.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Vec2d.hxx>
-#include <gp_Mat.hxx>
+#include <Mathematics/Primitives/gp_Ax3.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_Mat.hxx>
 #include <Graphic3d_Vec4.hxx>
 
 namespace

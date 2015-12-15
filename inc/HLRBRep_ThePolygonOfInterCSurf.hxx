@@ -93,7 +93,7 @@ private:
 };
 
 #define TheCurve gp_Lin
-#define TheCurve_hxx <gp_Lin.hxx>
+#define TheCurve_hxx <Mathematics/Primitives/gp_Lin.hxx>
 #define TheCurveTool HLRBRep_LineTool
 #define TheCurveTool_hxx <HLRBRep_LineTool.hxx>
 #define IntCurveSurface_Polygon HLRBRep_ThePolygonOfInterCSurf

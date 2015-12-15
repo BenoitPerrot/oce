@@ -18,7 +18,7 @@
 #include <ShapeExtend_WireData.hxx>
 #include <IGESToBRep_CurveAndSurface.hxx>
 #include <TopoDS_Face.hxx>
-#include <gp_Trsf2d.hxx>
+#include <Mathematics/Primitives/gp_Trsf2d.hxx>
 #include <IGESData_HArray1OfIGESEntity.hxx>
 #include <IGESToBRep_IGESBoundary.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

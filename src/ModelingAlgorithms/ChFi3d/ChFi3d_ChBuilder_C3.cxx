@@ -48,14 +48,14 @@
 #include <ChFiDS_SurfData.hxx>
 #include <ChFiDS_Regul.hxx>
 
-#include <gp.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Dir.hxx>
-#include <gp_Vec2d.hxx>
-#include <gp_Dir2d.hxx>
-#include <gp_Lin2d.hxx>
+#include <Mathematics/Primitives/gp.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_Dir2d.hxx>
+#include <Mathematics/Primitives/gp_Lin2d.hxx>
 
 #include <GeomAbs_SurfaceType.hxx>
 #include <Geom_Curve.hxx>

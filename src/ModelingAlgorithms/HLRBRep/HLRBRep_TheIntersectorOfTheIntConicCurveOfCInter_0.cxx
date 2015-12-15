@@ -11,7 +11,7 @@
 #include <HLRBRep_TheProjPCurOfCInter.hxx>
 #include <HLRBRep_MyImpParToolOfTheIntersectorOfTheIntConicCurveOfCInter.hxx>
 #include <IntRes2d_Domain.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
  
 

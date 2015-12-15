@@ -18,8 +18,8 @@
 #include <GeomToStep_MakeParabola.hxx>
 
 #include <StepGeom_Parabola.hxx>
-#include <gp_Parab.hxx>
-#include <gp_Parab2d.hxx>
+#include <Mathematics/Primitives/gp_Parab.hxx>
+#include <Mathematics/Primitives/gp_Parab2d.hxx>
 #include <Geom_Parabola.hxx>
 #include <GeomToStep_MakeAxis2Placement2d.hxx>
 #include <GeomToStep_MakeAxis2Placement3d.hxx>

@@ -31,7 +31,7 @@
 #include <IGESSolid_ToolSolidOfLinearExtrusion.hxx>
 #include <IGESData_ParamCursor.hxx>
 #include <IGESData_IGESEntity.hxx>
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <IGESData_Dump.hxx>
 #include <Interface_Macros.hxx>
 

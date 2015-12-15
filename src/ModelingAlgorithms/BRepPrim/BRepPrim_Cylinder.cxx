@@ -15,13 +15,13 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <gp_Ax2.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Ax2.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <TopoDS_Face.hxx>
 #include <BRepPrim_Cylinder.hxx>
 
-#include <gp.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Precision.hxx>
 #include <Geom_CylindricalSurface.hxx>
 #include <Geom_Line.hxx>

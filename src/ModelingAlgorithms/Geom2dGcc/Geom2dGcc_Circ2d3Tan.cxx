@@ -19,8 +19,8 @@
 #include <Geom2dGcc_QualifiedCurve.hxx>
 #include <Geom2d_Point.hxx>
 #include <GccAna_Circ2d3Tan.hxx>
-#include <gp_Circ2d.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Circ2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Geom2dGcc_Circ2d3Tan.hxx>
 #include <Geom2dAdaptor_Curve.hxx>
 #include <Geom2d_Line.hxx>

@@ -1,4 +1,4 @@
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <gtest/gtest.h>
 

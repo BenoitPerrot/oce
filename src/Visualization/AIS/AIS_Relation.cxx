@@ -26,7 +26,7 @@
 #include <Geom_Surface.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <TopoDS_Shape.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Prs3d_Presentation.hxx>
 #include <TopoDS_Edge.hxx>
@@ -64,9 +64,9 @@ IMPLEMENT_STANDARD_RTTI(AIS_Relation)
 
 #include <TopoDS.hxx>
 #include <TopoDS_Edge.hxx>
-#include <gp_Circ.hxx>
-#include <gp_Lin.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Circ.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <ElCLib.hxx>
 #include <TopExp.hxx>
 

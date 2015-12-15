@@ -49,12 +49,12 @@
 #include <BRepTools.hxx>
 #include <TopAbs.hxx>
 #include <TopExp.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 
-#include <gp.hxx>
+#include <Mathematics/Primitives/gp.hxx>
 
 #include <Foundation/Standard/Standard_NullObject.hxx>
-#include <gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <BRepTools_TrsfModification.hxx>
 #include <Foundation/Message/Message_ProgressSentry.hxx>
 

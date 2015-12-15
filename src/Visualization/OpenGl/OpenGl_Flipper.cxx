@@ -20,7 +20,7 @@
 #include <OpenGl_Vec.hxx>
 #include <OpenGl_Workspace.hxx>
 
-#include <gp_Ax2.hxx>
+#include <Mathematics/Primitives/gp_Ax2.hxx>
 
 // =======================================================================
 // function : Constructor

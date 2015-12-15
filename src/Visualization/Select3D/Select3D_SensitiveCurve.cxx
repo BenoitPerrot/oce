@@ -22,10 +22,10 @@
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
-#include <gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Select3D_SensitiveEntity.hxx>
 #include <TopLoc_Location.hxx>
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Select3D_SensitiveCurve.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Select3D_SensitiveCurve)
@@ -40,7 +40,7 @@ IMPLEMENT_STANDARD_TYPE_END(Select3D_SensitiveCurve)
 IMPLEMENT_DOWNCAST(Select3D_SensitiveCurve,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Select3D_SensitiveCurve)
 #include <SelectBasics_BasicTool.hxx>
-#include <gp_Lin2d.hxx>
+#include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <Precision.hxx>
 #include <ElCLib.hxx>
 #include <CSLib_Class2d.hxx>

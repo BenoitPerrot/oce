@@ -16,7 +16,7 @@
 #include <OpenGl_GlCore11.hxx>
 
 #include <ElSLib.hxx>
-#include <gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Geom_Plane.hxx>
 #include <gce_MakePln.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>

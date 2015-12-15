@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <gp_Elips2d.hxx>
+#include <Mathematics/Primitives/gp_Elips2d.hxx>
 #include <GccInt_BElips.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(GccInt_BElips)
@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_TYPE_END(GccInt_BElips)
 IMPLEMENT_DOWNCAST(GccInt_BElips,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(GccInt_BElips)
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <gp_Elips2d.hxx>
+#include <Mathematics/Primitives/gp_Elips2d.hxx>
 
 GccInt_BElips::
    GccInt_BElips(const gp_Elips2d& Ellipse) {

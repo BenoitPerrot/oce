@@ -16,7 +16,7 @@
 
 #include <HLRBRep_Surface.hxx>
 #include <GeomAbs_Shape.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 
 //=======================================================================
 //function : Value

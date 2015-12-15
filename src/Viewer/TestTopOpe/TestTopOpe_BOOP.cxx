@@ -41,7 +41,7 @@
 #include <TopExp_Explorer.hxx>
 #include <TopoDS.hxx>
 #include <TopAbs.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <DBRep.hxx>
 #include <Draw_Appli.hxx>
 #ifdef WNT

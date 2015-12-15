@@ -6,13 +6,13 @@
 #include <HLRBRep_ThePolygonToolOfInterCSurf.hxx>
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <HLRBRep_ThePolygonOfInterCSurf.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
  
 
 #define ThePoint gp_Pnt
-#define ThePoint_hxx <gp_Pnt.hxx>
+#define ThePoint_hxx <Mathematics/Primitives/gp_Pnt.hxx>
 #define ThePolygon HLRBRep_ThePolygonOfInterCSurf
 #define ThePolygon_hxx <HLRBRep_ThePolygonOfInterCSurf.hxx>
 #define TheBoundingBox Bnd_Box

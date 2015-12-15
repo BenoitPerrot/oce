@@ -19,7 +19,7 @@
 #include <Draw.hxx>
 #include <Draw_Interpretor.hxx>
 
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 
 #include <Foundation/NCollection/NCollection_Vector.hxx>
 

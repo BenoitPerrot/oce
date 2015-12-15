@@ -71,8 +71,8 @@
 
 #include <ElSLib.hxx>
 
-#include <gp_Circ.hxx>
-#include <gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Circ.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
 
 #include <IntCurveSurface_HInter.hxx>
 #include <IntCurveSurface_IntersectionPoint.hxx>

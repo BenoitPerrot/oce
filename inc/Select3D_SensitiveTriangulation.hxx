@@ -12,12 +12,12 @@
 
 #include <Handle_Poly_Triangulation.hxx>
 #include <TopLoc_Location.hxx>
-#include <gp_Trsf.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Select3D_SensitiveEntity.hxx>

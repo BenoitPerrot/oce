@@ -12,7 +12,7 @@
 
 #include <Handle_BRepFill_LocationLaw.hxx>
 #include <TopoDS_Shape.hxx>
-#include <gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

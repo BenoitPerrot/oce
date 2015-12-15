@@ -17,10 +17,10 @@
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Intf_Polygon2d.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Intf_InterferencePolygon2d.hxx>
 
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Intf_SectionPoint.hxx>
 #include <Intf_SeqOfSectionPoint.hxx>

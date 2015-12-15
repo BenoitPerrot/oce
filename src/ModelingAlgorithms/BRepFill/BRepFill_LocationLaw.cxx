@@ -48,10 +48,10 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_LocationLaw)
 #include <TopLoc_Location.hxx>
 
 #include <GeomFill_LocationLaw.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Mat.hxx>
-#include <gp_XYZ.hxx>
-#include <gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Mat.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <GCPnts_AbscissaPoint.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfVec2d.hxx>

@@ -15,14 +15,14 @@
 // commercial license or contractual agreement.
 
 #include <SelectBasics_EntityOwner.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Select3D_Projector.hxx>
 #include <SelectBasics_ListOfBox2d.hxx>
 #include <Select3D_SensitiveEntity.hxx>
 #include <TopLoc_Location.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
-#include <gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Select3D_SensitiveSegment.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Select3D_SensitiveSegment)
@@ -36,12 +36,12 @@ IMPLEMENT_STANDARD_TYPE_END(Select3D_SensitiveSegment)
 IMPLEMENT_DOWNCAST(Select3D_SensitiveSegment,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Select3D_SensitiveSegment)
 #include <SelectBasics_BasicTool.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Dir2d.hxx>
-#include <gp_Lin2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Dir2d.hxx>
+#include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <ElCLib.hxx>
 #include <Extrema_ExtElC.hxx>
 #include <Extrema_POnCurv.hxx>

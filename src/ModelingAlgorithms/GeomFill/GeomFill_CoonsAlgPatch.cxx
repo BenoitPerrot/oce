@@ -16,8 +16,8 @@
 
 #include <GeomFill_Boundary.hxx>
 #include <Law_Function.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <GeomFill_CoonsAlgPatch.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(GeomFill_CoonsAlgPatch)
@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_TYPE_END(GeomFill_CoonsAlgPatch)
 IMPLEMENT_DOWNCAST(GeomFill_CoonsAlgPatch,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(GeomFill_CoonsAlgPatch)
 #include <Law_Linear.hxx>
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
 
 //=======================================================================
 //function : GeomFill_CoonsAlgPatch

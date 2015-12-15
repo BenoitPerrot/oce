@@ -16,7 +16,7 @@
 
 #include <Geom2d_Curve.hxx>
 #include <Geom_Curve.hxx>
-#include <gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
 #include <GeomAPI.hxx>
 
 #include <ProjLib_ProjectedCurve.hxx>

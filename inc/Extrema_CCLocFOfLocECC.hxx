@@ -12,8 +12,8 @@
 
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <Extrema_SeqPOnCOfCCLocFOfLocECC.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
@@ -121,9 +121,9 @@ private:
 #define POnC Extrema_POnCurv
 #define POnC_hxx <Extrema_POnCurv.hxx>
 #define Pnt gp_Pnt
-#define Pnt_hxx <gp_Pnt.hxx>
+#define Pnt_hxx <Mathematics/Primitives/gp_Pnt.hxx>
 #define Vec gp_Vec
-#define Vec_hxx <gp_Vec.hxx>
+#define Vec_hxx <Mathematics/Primitives/gp_Vec.hxx>
 #define Extrema_SeqPOnC Extrema_SeqPOnCOfCCLocFOfLocECC
 #define Extrema_SeqPOnC_hxx <Extrema_SeqPOnCOfCCLocFOfLocECC.hxx>
 #define Extrema_SequenceNodeOfSeqPOnC Extrema_SequenceNodeOfSeqPOnCOfCCLocFOfLocECC

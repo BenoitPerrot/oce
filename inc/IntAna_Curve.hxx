@@ -13,7 +13,7 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <GeomAbs_SurfaceType.hxx>
-#include <gp_Ax3.hxx>
+#include <Mathematics/Primitives/gp_Ax3.hxx>
 class Standard_DomainError;
 class gp_Cylinder;
 class gp_Cone;

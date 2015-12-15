@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <TopoDS_Shape.hxx>
 #include <Draw_Display.hxx>
 #include <Draw_Color.hxx>

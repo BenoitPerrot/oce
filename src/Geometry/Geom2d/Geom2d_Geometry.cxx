@@ -15,10 +15,10 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Ax2d.hxx>
-#include <gp_Vec2d.hxx>
-#include <gp_Trsf2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Ax2d.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_Trsf2d.hxx>
 #include <Geom2d_Geometry.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Geom2d_Geometry)

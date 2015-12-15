@@ -16,7 +16,7 @@
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geom_Surface.hxx>
 #include <Extrema_ExtPS.hxx>
 #include <GeomAPI_ProjectPointOnSurf.hxx>

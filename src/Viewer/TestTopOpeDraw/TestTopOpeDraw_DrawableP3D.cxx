@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Draw_Text3D.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Draw_Color.hxx>
 #include <Draw_Display.hxx>
 #include <TestTopOpeDraw_DrawableP3D.hxx>

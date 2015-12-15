@@ -15,7 +15,7 @@
 
 #include <Graphic3d_ClipPlane.hxx>
 #include <Graphic3d_AspectFillArea3d.hxx>
-#include <gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Foundation/Standard/Standard_Atomic.hxx>
 
 IMPLEMENT_STANDARD_HANDLE(Graphic3d_ClipPlane, Standard_Transient)

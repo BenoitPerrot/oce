@@ -25,8 +25,8 @@
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
-#include <gp_Vec2d.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Precision.hxx>
 
 //=======================================================================

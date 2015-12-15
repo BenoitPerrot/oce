@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_LocOpe_SequenceNodeOfSequenceOfCirc.hxx>
 
-#include <gp_Circ.hxx>
+#include <Mathematics/Primitives/gp_Circ.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>
 #include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class gp_Circ;
@@ -47,7 +47,7 @@ private:
 };
 
 #define SeqItem gp_Circ
-#define SeqItem_hxx <gp_Circ.hxx>
+#define SeqItem_hxx <Mathematics/Primitives/gp_Circ.hxx>
 #define TCollection_SequenceNode LocOpe_SequenceNodeOfSequenceOfCirc
 #define TCollection_SequenceNode_hxx <LocOpe_SequenceNodeOfSequenceOfCirc.hxx>
 #define Handle_TCollection_SequenceNode Handle_LocOpe_SequenceNodeOfSequenceOfCirc

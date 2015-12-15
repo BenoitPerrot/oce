@@ -20,8 +20,8 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <IntSurf_PntOn2S.hxx>
-#include <gp_Lin.hxx>
-#include <gp_Circ.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Circ.hxx>
 #include <Contap_Point.hxx>
 #include <Contap_Line.hxx>
 

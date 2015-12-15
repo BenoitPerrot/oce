@@ -32,8 +32,8 @@
 #include <TopExp_Explorer.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Edge.hxx>
-#include <gp_Dir2d.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Dir2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 
 //  Modified by Sergey KHROMOV - Thu Nov  9 12:08:37 2000
 static Standard_Real IntersectorConfusion = 1.e-10 ; // -8 ;

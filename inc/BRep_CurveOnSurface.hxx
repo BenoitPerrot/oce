@@ -12,7 +12,7 @@
 
 #include <Handle_Geom2d_Curve.hxx>
 #include <Handle_Geom_Surface.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <BRep_GCurve.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

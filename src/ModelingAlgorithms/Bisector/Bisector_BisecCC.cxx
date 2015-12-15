@@ -17,10 +17,10 @@
 #include <Geom2d_Curve.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_RangeError.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Geom2d_Geometry.hxx>
-#include <gp_Trsf2d.hxx>
-#include <gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_Trsf2d.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Bisector_PolyBis.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <Bisector_BisecCC.hxx>
@@ -52,9 +52,9 @@ IMPLEMENT_STANDARD_RTTI(Bisector_BisecCC)
 #include <Geom2d_Line.hxx>
 #include <Geom2dInt_GInter.hxx>
 #include <Geom2dAPI_ProjectPointOnCurve.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Vec2d.hxx>  
-#include <gp.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>  
+#include <Mathematics/Primitives/gp.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>
 #include <Precision.hxx>
 #include <Mathematics/Optimization/math_FunctionRoot.hxx>

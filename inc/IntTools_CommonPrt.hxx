@@ -16,7 +16,7 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <IntTools_SequenceOfRanges.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 class TopoDS_Edge;
 class IntTools_Range;
 class IntTools_SequenceOfRanges;

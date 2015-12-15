@@ -44,7 +44,7 @@
 #include <Geom_Plane.hxx>
 #include <Geom_CartesianPoint.hxx>
 
-#include <gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
 
 #include <StepGeom_HArray1OfCartesianPoint.hxx>
 #include <Transfer_TransientProcess.hxx>

@@ -37,7 +37,7 @@
 #include <Geom2d_Curve.hxx>
 #include <Geom2d_Line.hxx>
 
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 
 #include <TopExp.hxx>
 

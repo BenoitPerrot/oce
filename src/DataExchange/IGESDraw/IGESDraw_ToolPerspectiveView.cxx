@@ -31,10 +31,10 @@
 #include <IGESDraw_ToolPerspectiveView.hxx>
 #include <IGESData_ParamCursor.hxx>
 #include <IGESData_TransfEntity.hxx>
-#include <gp_XY.hxx>
-#include <gp_XYZ.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_XY.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <IGESData_Dump.hxx>
 #include <Interface_Macros.hxx>
 

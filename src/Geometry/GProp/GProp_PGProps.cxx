@@ -14,7 +14,7 @@
 
 #include <Foundation/Standard/Standard_DimensionError.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
@@ -23,9 +23,9 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_DimensionError.hxx>
 
-#include <gp.hxx>
-#include <gp_XYZ.hxx>
-//#include <gp.hxx>
+#include <Mathematics/Primitives/gp.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
+//#include <Mathematics/Primitives/gp.hxx>
 
 typedef gp_Pnt Pnt;
 typedef gp_Mat Mat;

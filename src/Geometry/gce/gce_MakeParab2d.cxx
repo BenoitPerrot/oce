@@ -15,12 +15,12 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <gp_Ax2d.hxx>
-#include <gp_Ax22d.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Parab2d.hxx>
+#include <Mathematics/Primitives/gp_Ax2d.hxx>
+#include <Mathematics/Primitives/gp_Ax22d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Parab2d.hxx>
 #include <gce_MakeParab2d.hxx>
-#include <gp.hxx>
+#include <Mathematics/Primitives/gp.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 
 gce_MakeParab2d::gce_MakeParab2d(const gp_Ax22d&     A     ,

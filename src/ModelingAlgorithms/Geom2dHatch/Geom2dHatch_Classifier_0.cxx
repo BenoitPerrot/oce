@@ -10,7 +10,7 @@
 #include <Geom2dAdaptor_Curve.hxx>
 #include <Geom2dHatch_Intersector.hxx>
 #include <Geom2dHatch_FClass2dOfClassifier.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
  
 
 #define TheFaceExplorer Geom2dHatch_Elements

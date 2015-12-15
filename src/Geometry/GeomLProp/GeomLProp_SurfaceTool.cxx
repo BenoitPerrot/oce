@@ -15,8 +15,8 @@
 // commercial license or contractual agreement.
 
 #include <Geom_Surface.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <GeomLProp_SurfaceTool.hxx>
 #include <Geom_Surface.hxx>
 #include <GeomAbs_Shape.hxx>

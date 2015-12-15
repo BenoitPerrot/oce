@@ -15,7 +15,7 @@
 #include <Handle_TColStd_HArray1OfReal.hxx>
 #include <Handle_TColgp_HArray1OfXYZ.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <IGESData_IGESEntity.hxx>
 class TColStd_HArray1OfReal;
 class TColgp_HArray1OfXYZ;

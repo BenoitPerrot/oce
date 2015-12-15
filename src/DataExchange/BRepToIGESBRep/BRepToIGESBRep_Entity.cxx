@@ -48,14 +48,14 @@
 #include <BRepTools.hxx>
 #include <BRepTools_WireExplorer.hxx>
 
-#include <gp.hxx>
-#include <gp_Circ2d.hxx>
-#include <gp_Elips2d.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Trsf.hxx>
-#include <gp_XYZ.hxx>
-#include <gp_Trsf2d.hxx>
+#include <Mathematics/Primitives/gp.hxx>
+#include <Mathematics/Primitives/gp_Circ2d.hxx>
+#include <Mathematics/Primitives/gp_Elips2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_Trsf2d.hxx>
 
 #include <Geom_BezierCurve.hxx>
 #include <Geom_BSplineCurve.hxx>

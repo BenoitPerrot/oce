@@ -14,14 +14,14 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <gp_GTrsf.hxx>
+#include <Mathematics/Primitives/gp_GTrsf.hxx>
 #include <TopoDS_Face.hxx>
 #include <Geom_Surface.hxx>
 #include <TopLoc_Location.hxx>
 #include <TopoDS_Edge.hxx>
 #include <Geom_Curve.hxx>
 #include <TopoDS_Vertex.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geom2d_Curve.hxx>
 #include <BRepTools_GTrsfModification.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -45,12 +45,12 @@ IMPLEMENT_STANDARD_RTTI(BRepTools_GTrsfModification)
 #include <Geom_BezierCurve.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <BRep_Tool.hxx>
-#include <gp_GTrsf2d.hxx>
-#include <gp_XYZ.hxx>
-#include <gp_TrsfForm.hxx>
+#include <Mathematics/Primitives/gp_GTrsf2d.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_TrsfForm.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 
-#include <gp.hxx>
+#include <Mathematics/Primitives/gp.hxx>
 #include <GeomLib.hxx>
 #include <TopAbs.hxx>
 

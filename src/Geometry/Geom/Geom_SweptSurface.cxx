@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Geom_Curve.hxx>
-#include <gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Geom_SweptSurface.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Geom_SweptSurface)

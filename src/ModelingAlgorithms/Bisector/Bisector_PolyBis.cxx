@@ -15,12 +15,12 @@
 // commercial license or contractual agreement.
 
 #include <Bisector_PointOnBis.hxx>
-#include <gp_Trsf2d.hxx>
+#include <Mathematics/Primitives/gp_Trsf2d.hxx>
 #include <Bisector_PolyBis.hxx>
 #include <Bisector_PointOnBis.hxx>
 #include <Geom2d_Curve.hxx>
 #include <ElCLib.hxx>
-#include <gp.hxx>
+#include <Mathematics/Primitives/gp.hxx>
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 

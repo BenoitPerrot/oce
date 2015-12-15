@@ -17,10 +17,10 @@
 #include <Geom2d_Curve.hxx>
 #include <Geom2dLProp_FuncCurExt.hxx>
 
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Geom2dLProp_Curve2dTool.hxx>
 
-#include <gp.hxx>
+#include <Mathematics/Primitives/gp.hxx>
 #include <Precision.hxx>
 
 //=============================================================================

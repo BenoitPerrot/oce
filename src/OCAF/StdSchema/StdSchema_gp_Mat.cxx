@@ -2,7 +2,7 @@
 #include <StdSchema_gp_Mat.hxx>
 #endif
 #ifndef _gp_Mat_HeaderFile
-#include <gp_Mat.hxx>
+#include <Mathematics/Primitives/gp_Mat.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

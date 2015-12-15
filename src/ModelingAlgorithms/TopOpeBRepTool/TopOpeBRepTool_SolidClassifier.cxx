@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <TopoDS_Solid.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <TopoDS_Shell.hxx>
 #include <TopOpeBRepTool_SolidClassifier.hxx>
 #include <BRepClass3d_SolidClassifier.hxx>

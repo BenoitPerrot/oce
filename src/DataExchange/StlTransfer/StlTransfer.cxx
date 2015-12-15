@@ -27,13 +27,13 @@
 #include <TopLoc_Location.hxx>
 #include <Geom_Surface.hxx>
 #include <BRep_Tool.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <CSLib.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <CSLib.hxx>
-#include <gp_Dir.hxx>
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <BRepMesh_IncrementalMesh.hxx>
 #include <TopAbs.hxx>
 #include <Precision.hxx>

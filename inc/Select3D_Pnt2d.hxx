@@ -14,7 +14,7 @@
 #ifndef _Select3D_Pnt2d_HeaderFile
 #define _Select3D_Pnt2d_HeaderFile
 
-#include<gp_Pnt2d.hxx>
+#include<Mathematics/Primitives/gp_Pnt2d.hxx>
 #include<Foundation/Standard/Standard_ShortReal.hxx>
 #include<Select3D_Macro.hxx>
 

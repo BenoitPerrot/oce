@@ -12,7 +12,7 @@
 #include <Handle_PColgp_HArray2OfDir.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
 #include <PColgp_FieldOfHArray2OfDir.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Foundation/Standard/Standard_Persistent.hxx>
@@ -95,7 +95,7 @@ private:
 };
 
 #define Item gp_Dir
-#define Item_hxx <gp_Dir.hxx>
+#define Item_hxx <Mathematics/Primitives/gp_Dir.hxx>
 #define PCollection_FieldOfHArray2 PColgp_FieldOfHArray2OfDir
 #define PCollection_FieldOfHArray2_hxx <PColgp_FieldOfHArray2OfDir.hxx>
 #define PCollection_VArrayNodeOfFieldOfHArray2 PColgp_VArrayNodeOfFieldOfHArray2OfDir

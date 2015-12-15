@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Quantity/Quantity_Color.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Vrml_SpotLight.hxx>
 
 Vrml_SpotLight::Vrml_SpotLight():

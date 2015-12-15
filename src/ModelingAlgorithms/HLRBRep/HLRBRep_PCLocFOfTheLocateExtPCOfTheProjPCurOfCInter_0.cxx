@@ -9,8 +9,8 @@
 #include <Foundation/Standard/Standard_TypeMismatch.hxx>
 #include <HLRBRep_CurveTool.hxx>
 #include <Extrema_POnCurv2d.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <HLRBRep_SeqPCOfPCLocFOfTheLocateExtPCOfTheProjPCurOfCInter.hxx>
 #include <HLRBRep_SequenceNodeOfSeqPCOfPCLocFOfTheLocateExtPCOfTheProjPCurOfCInter.hxx>
  
@@ -22,9 +22,9 @@
 #define POnC Extrema_POnCurv2d
 #define POnC_hxx <Extrema_POnCurv2d.hxx>
 #define Pnt gp_Pnt2d
-#define Pnt_hxx <gp_Pnt2d.hxx>
+#define Pnt_hxx <Mathematics/Primitives/gp_Pnt2d.hxx>
 #define Vec gp_Vec2d
-#define Vec_hxx <gp_Vec2d.hxx>
+#define Vec_hxx <Mathematics/Primitives/gp_Vec2d.hxx>
 #define Extrema_SeqPC HLRBRep_SeqPCOfPCLocFOfTheLocateExtPCOfTheProjPCurOfCInter
 #define Extrema_SeqPC_hxx <HLRBRep_SeqPCOfPCLocFOfTheLocateExtPCOfTheProjPCurOfCInter.hxx>
 #define Extrema_SequenceNodeOfSeqPC HLRBRep_SequenceNodeOfSeqPCOfPCLocFOfTheLocateExtPCOfTheProjPCurOfCInter

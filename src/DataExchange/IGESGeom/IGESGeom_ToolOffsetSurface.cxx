@@ -30,8 +30,8 @@
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <IGESGeom_ToolOffsetSurface.hxx>
 #include <IGESData_ParamCursor.hxx>
-#include <gp_XYZ.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <IGESData_IGESEntity.hxx>
 #include <IGESData_Dump.hxx>
 #include <Interface_Macros.hxx>

@@ -23,8 +23,8 @@
 #include <Mathematics/Collections/TColgp_HArray1OfXYZ.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <gp_XYZ.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <IGESData_IGESEntity.hxx>
 #include <IGESDimen_NewGeneralNote.hxx>
@@ -38,7 +38,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESDimen_NewGeneralNote)
 IMPLEMENT_DOWNCAST(IGESDimen_NewGeneralNote,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESDimen_NewGeneralNote)
-#include <gp_GTrsf.hxx>
+#include <Mathematics/Primitives/gp_GTrsf.hxx>
 
 
 IGESDimen_NewGeneralNote::IGESDimen_NewGeneralNote ()    {  }

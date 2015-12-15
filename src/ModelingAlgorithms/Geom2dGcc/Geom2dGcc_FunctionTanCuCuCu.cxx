@@ -16,16 +16,16 @@
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Geom2dAdaptor_Curve.hxx>
-#include <gp_Circ2d.hxx>
-#include <gp_Lin2d.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_Circ2d.hxx>
+#include <Mathematics/Primitives/gp_Lin2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
 #include <Geom2dGcc_FunctionTanCuCuCu.hxx>
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <ElCLib.hxx>
-#include <gp.hxx>
+#include <Mathematics/Primitives/gp.hxx>
 
 #include <Geom2dGcc_CurveTool.hxx>
 

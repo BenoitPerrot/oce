@@ -16,10 +16,10 @@
 
 #include <Geom2d_Ellipse.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <gp_Elips2d.hxx>
-#include <gp_Ax2d.hxx>
-#include <gp_Ax22d.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Elips2d.hxx>
+#include <Mathematics/Primitives/gp_Ax2d.hxx>
+#include <Mathematics/Primitives/gp_Ax22d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <GCE2d_MakeEllipse.hxx>
 #include <gce_MakeElips2d.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>

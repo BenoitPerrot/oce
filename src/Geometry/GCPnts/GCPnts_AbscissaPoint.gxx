@@ -19,10 +19,10 @@
 // compute the type 
 // and the length ratio if GCPnts_LengthParametrized
 #include <GCPnts_AbscissaType.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Vec2d.hxx>
-#include <gp_Circ.hxx>
-#include <gp_Circ2d.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_Circ.hxx>
+#include <Mathematics/Primitives/gp_Circ2d.hxx>
 #include <Precision.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>

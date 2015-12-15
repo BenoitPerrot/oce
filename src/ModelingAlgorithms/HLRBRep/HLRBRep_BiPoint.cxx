@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <TopoDS_Shape.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <HLRBRep_BiPoint.hxx>
 
 //=======================================================================

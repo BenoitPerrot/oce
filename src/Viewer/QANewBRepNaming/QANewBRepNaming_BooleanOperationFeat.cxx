@@ -30,8 +30,8 @@
 #include <BRepAdaptor_Surface.hxx>
 #include <BRep_Tool.hxx>
 #include <Adaptor3d_HCurve.hxx>
-#include <gp_Cylinder.hxx>
-#include <gp_Cone.hxx>
+#include <Mathematics/Primitives/gp_Cylinder.hxx>
+#include <Mathematics/Primitives/gp_Cone.hxx>
 #include <GeomAbs_SurfaceType.hxx>
 #include <Geom_Ellipse.hxx>
 #include <TopExp_Explorer.hxx>
@@ -51,7 +51,7 @@
 #include <TDataStd_Name.hxx>
 #include <TNaming_Builder.hxx>
 #include <TNaming_NamedShape.hxx>
-#include <gp.hxx>
+#include <Mathematics/Primitives/gp.hxx>
 
 #include <QANewBRepNaming_Loader.hxx>
 

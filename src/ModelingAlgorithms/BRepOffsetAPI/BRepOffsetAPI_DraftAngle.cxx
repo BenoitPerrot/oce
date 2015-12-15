@@ -20,8 +20,8 @@
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Face.hxx>
-#include <gp_Dir.hxx>
-#include <gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <BRepOffsetAPI_DraftAngle.hxx>
 

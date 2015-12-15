@@ -22,8 +22,8 @@
 #include <BRepGProp.hxx>
 #include <TopoDS_Shape.hxx>
 #include <GProp_PrincipalProps.hxx>
-#include <gp_Ax2.hxx>
-#include <gp_Ax3.hxx>
+#include <Mathematics/Primitives/gp_Ax2.hxx>
+#include <Mathematics/Primitives/gp_Ax3.hxx>
 
 #include <Draw_Axis3D.hxx>
 #include <Precision.hxx>
@@ -31,7 +31,7 @@
 #include <Geom_Surface.hxx>
 #include <DrawTrSurf.hxx>
 #include <Geom_Plane.hxx>
-#include <gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
 
 #ifdef WNT
 Standard_IMPORT Draw_Viewer dout;

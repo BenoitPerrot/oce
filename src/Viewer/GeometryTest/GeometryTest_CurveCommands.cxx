@@ -40,11 +40,11 @@
 #include <GeomProjLib.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 
-#include <gp.hxx>
-#include <gp_Pln.hxx>
-#include <gp_Parab2d.hxx>
-#include <gp_Elips2d.hxx>
-#include <gp_Hypr2d.hxx>
+#include <Mathematics/Primitives/gp.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Parab2d.hxx>
+#include <Mathematics/Primitives/gp_Elips2d.hxx>
+#include <Mathematics/Primitives/gp_Hypr2d.hxx>
 
 #include <Geom_Line.hxx>
 #include <Geom_Circle.hxx>

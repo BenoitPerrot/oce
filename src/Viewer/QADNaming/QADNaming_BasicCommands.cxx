@@ -42,12 +42,12 @@
 #include <DBRep.hxx>
 
 
-#include <gp.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Ax1.hxx>
-#include <gp_Ax2.hxx>
-#include <gp_Ax3.hxx>
-#include <gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Ax1.hxx>
+#include <Mathematics/Primitives/gp_Ax2.hxx>
+#include <Mathematics/Primitives/gp_Ax3.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
 
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 //#ifdef WNT

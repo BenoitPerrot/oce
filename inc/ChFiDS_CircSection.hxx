@@ -10,8 +10,8 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <gp_Circ.hxx>
-#include <gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Circ.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class gp_Circ;
 class gp_Lin;

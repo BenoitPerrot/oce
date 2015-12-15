@@ -14,7 +14,7 @@
 
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Face.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Geom2d_Curve.hxx>
 #include <Geom_Curve.hxx>
 #include <ProjLib_ProjectedCurve.hxx>
@@ -22,12 +22,12 @@
 
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Precision.hxx>
-#include <gp.hxx>
+#include <Mathematics/Primitives/gp.hxx>
 
-#include <gp_Pnt.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
 
 #include <Geom2d_Curve.hxx>
 #include <Geom2d_Line.hxx>
@@ -77,7 +77,7 @@
 
 #include <BOPTools.hxx>
 #include <IntTools_Tools.hxx>
-#include <gp_Cylinder.hxx>
+#include <Mathematics/Primitives/gp_Cylinder.hxx>
 #include <TopExp_Explorer.hxx>
 #include <GeomInt.hxx>
 

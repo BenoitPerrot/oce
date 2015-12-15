@@ -30,7 +30,7 @@
 #include <Geom_Circle.hxx>
 #include <Geom_Ellipse.hxx>
 #include <Geom_Plane.hxx>
-#include <gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Geom2d_Curve.hxx>
 #include <GeomAPI.hxx>
 #include <Geom2dAdaptor_Curve.hxx>
@@ -49,7 +49,7 @@
 #include <TopoDS.hxx>
 #include <TopoDS_Wire.hxx>
 #include <BRep_Tool.hxx>
-#include <gp_Circ.hxx>
+#include <Mathematics/Primitives/gp_Circ.hxx>
 #include <BRepOffsetAPI_MakePipeShell.hxx>
 #include <AIS_Trihedron.hxx>
 #include <Geom_Axis2Placement.hxx>

@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_GeomFill_ConstantBiNormal.hxx>
 
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Handle_GeomFill_Frenet.hxx>
 #include <GeomFill_TrihedronLaw.hxx>
 #include <Handle_GeomFill_TrihedronLaw.hxx>

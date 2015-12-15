@@ -16,10 +16,10 @@
 
 #include <Geom_RectangularTrimmedSurface.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Circ.hxx>
-#include <gp_Ax1.hxx>
-#include <gp_Cylinder.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Circ.hxx>
+#include <Mathematics/Primitives/gp_Ax1.hxx>
+#include <Mathematics/Primitives/gp_Cylinder.hxx>
 #include <GC_MakeTrimmedCylinder.hxx>
 #include <GC_MakeCylindricalSurface.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>

@@ -9,7 +9,7 @@
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfVec.hxx>
 
  
@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_RTTI(TColgp_HSequenceOfVec)
 
 
 #define Item gp_Vec
-#define Item_hxx <gp_Vec.hxx>
+#define Item_hxx <Mathematics/Primitives/gp_Vec.hxx>
 #define TheSequence TColgp_SequenceOfVec
 #define TheSequence_hxx <Mathematics/Collections/TColgp_SequenceOfVec.hxx>
 #define TCollection_HSequence TColgp_HSequenceOfVec

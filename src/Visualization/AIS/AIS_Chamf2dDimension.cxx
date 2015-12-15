@@ -22,7 +22,7 @@
 #include <TopoDS_Shape.hxx>
 #include <Geom_Plane.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Prs3d_Presentation.hxx>
 #include <Prs3d_Projector.hxx>
 #include <Geom_Transformation.hxx>
@@ -60,9 +60,9 @@ IMPLEMENT_STANDARD_RTTI(AIS_Chamf2dDimension)
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BRepBndLib.hxx>
 
-#include <gp_Dir.hxx>
-#include <gp_Pln.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 
 #include <Geom_Line.hxx>
 

@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <StepToTopoDS_Root.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_StepGeom_Axis2Placement3d.hxx>

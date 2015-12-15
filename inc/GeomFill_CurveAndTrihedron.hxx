@@ -13,9 +13,9 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_GeomFill_TrihedronLaw.hxx>
 #include <Handle_Adaptor3d_HCurve.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Mat.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Mat.hxx>
 #include <GeomFill_LocationLaw.hxx>
 #include <Handle_GeomFill_LocationLaw.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

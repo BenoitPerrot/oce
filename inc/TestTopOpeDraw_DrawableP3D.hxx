@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TestTopOpeDraw_DrawableP3D.hxx>
 
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Draw_Color.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

@@ -16,7 +16,7 @@
 
 #include <TopoDS_Shape.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geom_Curve.hxx>
 #include <TopoDS_Face.hxx>
 #include <BRepTopAdaptor_FClass2d.hxx>
@@ -49,7 +49,7 @@
 #include <BRepTopAdaptor_FClass2d.hxx>
 #include <Geom2dAdaptor_Curve.hxx>
 #include <GeomProjLib.hxx>
-#include <gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <BRepTools.hxx>
 #include <Geom_Surface.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>

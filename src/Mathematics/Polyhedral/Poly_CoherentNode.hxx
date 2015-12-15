@@ -16,7 +16,7 @@
 #ifndef Poly_CoherentNode_HeaderFile
 #define Poly_CoherentNode_HeaderFile
 
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Mathematics/Polyhedral/Poly_CoherentTriPtr.hxx>
 #include <Precision.hxx>
 

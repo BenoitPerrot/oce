@@ -18,8 +18,8 @@
 #include <TopAbs_State.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Face.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <TopOpeBRepTool_SolidClassifier.hxx>
 class TopoDS_Shape;
 class TopTools_ListOfShape;

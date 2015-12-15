@@ -16,7 +16,7 @@
 
 #include <TopOpeBRepDS_define.hxx>
 
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <TopOpeBRepDS_ProcessInterferencesTool.hxx>
 #include <TopOpeBRepDS_FaceEdgeInterference.hxx>
 #include <TopOpeBRepDS_FaceInterferenceTool.hxx>
@@ -35,7 +35,7 @@
 #include <BRepClass3d_SolidClassifier.hxx>
 #include <TopoDS_Shell.hxx>
 #include <TopoDS_Solid.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Precision.hxx>
 #include <TopOpeBRepDS_FaceEdgeInterference.hxx>
 #include <TopOpeBRepTool_EXPORT.hxx>

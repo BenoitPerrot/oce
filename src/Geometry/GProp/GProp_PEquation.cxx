@@ -14,10 +14,10 @@
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
-#include <gp_Pln.hxx>
-#include <gp_Lin.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <GProp_PEquation.hxx>
 #include <GProp_PrincipalProps.hxx>
 #include <GProp_PGProps.hxx>

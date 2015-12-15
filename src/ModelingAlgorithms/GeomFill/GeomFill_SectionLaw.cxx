@@ -22,7 +22,7 @@
 #include <Mathematics/Collections/TColgp_Array1OfVec.hxx>
 #include <Geom_BSplineSurface.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geom_Curve.hxx>
 #include <GeomFill_SectionLaw.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

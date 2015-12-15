@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_Adaptor3d_HCurve.hxx>
-#include <gp_Ax3.hxx>
-#include <gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Ax3.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <GeomAbs_CurveType.hxx>

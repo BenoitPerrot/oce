@@ -29,7 +29,7 @@
 #include <TopoDS_Face.hxx>
 #include <TopoDS.hxx>
 #include <BRepBndLib.hxx>
-#include <gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
 #include <BRep_Tool.hxx>
 #include <BRepAlgoAPI_Section.hxx>
 #include <BRepAlgo_Section.hxx>

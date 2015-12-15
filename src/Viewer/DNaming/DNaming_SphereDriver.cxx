@@ -28,10 +28,10 @@ IMPLEMENT_STANDARD_TYPE_END(DNaming_SphereDriver)
 IMPLEMENT_DOWNCAST(DNaming_SphereDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(DNaming_SphereDriver)
 
-#include <gp_Ax2.hxx>
-#include <gp_Dir.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Ax2.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <BRep_Tool.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Shape.hxx>

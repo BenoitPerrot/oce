@@ -13,7 +13,7 @@
 
 #include <Geom_Curve.hxx>
 #include <Geom2d_Curve.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <IntTools_Curve.hxx>
 #include <Geom_BoundedCurve.hxx>
 #include <GeomAdaptor_Curve.hxx>

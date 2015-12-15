@@ -12,7 +12,7 @@
 #include <Handle_PColgp_VArrayNodeOfFieldOfHArray1OfCirc2d.hxx>
 
 #include <Foundation/Standard/Standard_Address.hxx>
-#include <gp_Circ2d.hxx>
+#include <Mathematics/Primitives/gp_Circ2d.hxx>
 #include <PStandard_ArrayNode.hxx>
 class gp_Circ2d;
 class PColgp_FieldOfHArray1OfCirc2d;

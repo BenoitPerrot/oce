@@ -15,12 +15,12 @@
 //Modif JCV 10/01/91
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <gp_Ax2d.hxx>
-#include <gp_Ax22d.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Trsf2d.hxx>
-#include <gp_Vec2d.hxx>
-#include <gp_Elips2d.hxx>
+#include <Mathematics/Primitives/gp_Ax2d.hxx>
+#include <Mathematics/Primitives/gp_Ax22d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Trsf2d.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_Elips2d.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(gp_Elips2d)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

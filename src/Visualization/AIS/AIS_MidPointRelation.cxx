@@ -19,10 +19,10 @@
 #include <Prs3d_Projector.hxx>
 #include <Geom_Transformation.hxx>
 #include <SelectMgr_Selection.hxx>
-#include <gp_Lin.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Circ.hxx>
-#include <gp_Elips.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Circ.hxx>
+#include <Mathematics/Primitives/gp_Elips.hxx>
 #include <AIS_MidPointRelation.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_MidPointRelation)
@@ -47,13 +47,13 @@ IMPLEMENT_STANDARD_RTTI(AIS_MidPointRelation)
 
 #include <gce_MakeLin.hxx>
 #include <ElCLib.hxx>
-#include <gp_Lin.hxx>
-#include <gp_Circ.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Pln.hxx>
-#include <gp_Dir.hxx>
-#include <gp_Ax1.hxx>
-#include <gp_Ax2.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Circ.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Ax1.hxx>
+#include <Mathematics/Primitives/gp_Ax2.hxx>
 
 #include <Geom_Plane.hxx>
 #include <Geom_Line.hxx>

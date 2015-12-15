@@ -12,7 +12,7 @@
 #include <Handle_PColgp_VArrayNodeOfFieldOfHArray2OfVec.hxx>
 
 #include <Foundation/Standard/Standard_Address.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <PStandard_ArrayNode.hxx>
 class gp_Vec;
 class PColgp_FieldOfHArray2OfVec;

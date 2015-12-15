@@ -21,24 +21,24 @@
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <gp_GTrsf.hxx>
-#include <gp_Trsf2d.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Ax1.hxx>
-#include <gp_Ax2.hxx>
-#include <gp_Quaternion.hxx>
-#include <gp_Ax3.hxx>
-#include <gp_Vec.hxx>
-#include <gp_XYZ.hxx>
-#include <gp_Mat.hxx>
-#include <gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_GTrsf.hxx>
+#include <Mathematics/Primitives/gp_Trsf2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Ax1.hxx>
+#include <Mathematics/Primitives/gp_Ax2.hxx>
+#include <Mathematics/Primitives/gp_Quaternion.hxx>
+#include <Mathematics/Primitives/gp_Ax3.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_Mat.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(gp_Trsf)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
   STANDARD_TYPE(Standard_Storable),
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(gp_Trsf)
-#include <gp.hxx>
+#include <Mathematics/Primitives/gp.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 
 

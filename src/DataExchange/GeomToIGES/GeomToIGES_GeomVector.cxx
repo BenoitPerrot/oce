@@ -26,11 +26,11 @@
 #include <Geom_VectorWithMagnitude.hxx>
 #include <Geom_Direction.hxx>
 
-#include <gp_Dir.hxx>
-#include <gp_GTrsf.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Trsf.hxx>
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_GTrsf.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
 
 #include <IGESData_IGESEntity.hxx>
 #include <IGESData_ToolLocation.hxx>

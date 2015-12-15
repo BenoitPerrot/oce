@@ -17,7 +17,7 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <TopoDS_Shape.hxx>
-#include <gp_Ax1.hxx>
+#include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <LocOpe_RevolutionForm.hxx>
 
@@ -25,10 +25,10 @@
 
 #include <TopExp_Explorer.hxx>
 #include <LocOpe_BuildShape.hxx>
-#include <gp_Ax1.hxx>
-#include <gp_Trsf.hxx>
-#include <gp_Circ.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Ax1.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Circ.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 
 #include <BRepTools_TrsfModification.hxx>
 #include <BRepTools_Modifier.hxx>

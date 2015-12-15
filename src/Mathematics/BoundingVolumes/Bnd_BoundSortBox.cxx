@@ -19,7 +19,7 @@
 #include <Foundation/Standard/Standard_MultiplyDefined.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
-#include <gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_BoundSortBox.hxx>
 #include <Foundation/Standard/Standard_NullValue.hxx>
 #include <Foundation/Standard/Standard_MultiplyDefined.hxx>

@@ -50,13 +50,13 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Wireframe)
 #include <ShapeAnalysis_Edge.hxx>
 #include <Geom_Curve.hxx>
 #include <Geom_BSplineCurve.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <GeomConvert_CompCurveToBSplineCurve.hxx>
 #include <BRep_Tool.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 #include <Geom2d_Curve.hxx>
 #include <Geom2d_BSplineCurve.hxx>
-#include <gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
 #include <GeomAPI.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <TopTools_MapOfShape.hxx>

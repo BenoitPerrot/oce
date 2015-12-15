@@ -17,7 +17,7 @@
 //#define No_Standard_OutOfRange
 
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <CSLib_Class2d.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 

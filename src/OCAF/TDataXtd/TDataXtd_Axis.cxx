@@ -14,7 +14,7 @@
 
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <TDF_Label.hxx>
-#include <gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
 #include <TDF_Attribute.hxx>
 #include <TDF_RelocationTable.hxx>
 #include <TDataXtd_Axis.hxx>
@@ -37,7 +37,7 @@ IMPLEMENT_STANDARD_RTTI(TDataXtd_Axis)
 #include <TopoDS.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopAbs.hxx>
-#include <gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
 #include <BRep_Tool.hxx>
 #include <TopLoc_Location.hxx>
 #include <BRepLib_MakeEdge.hxx>

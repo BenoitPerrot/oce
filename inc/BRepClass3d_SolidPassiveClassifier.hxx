@@ -12,7 +12,7 @@
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <TopoDS_Face.hxx>
-#include <gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <TopAbs_State.hxx>
 #include <BRepClass3d_Intersector3d.hxx>

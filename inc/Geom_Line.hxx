@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Geom_Line.hxx>
 
-#include <gp_Ax1.hxx>
+#include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <Geom_Curve.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

@@ -31,7 +31,7 @@
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfVec.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geom_Curve.hxx>
 #include <GeomFill_NSections.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -68,8 +68,8 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_NSections)
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Precision.hxx>
 
-#include <gp_Lin.hxx>
-#include <gp_Circ.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Circ.hxx>
 
 #ifdef OCCT_DEBUG
 # ifdef DRAW

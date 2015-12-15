@@ -15,8 +15,8 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <gp_VectorWithNullMagnitude.hxx>
-#include <gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_VectorWithNullMagnitude.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Geom2d_Vector.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Geom2d_Vector)

@@ -29,8 +29,8 @@
 #include <Mathematics/Optimization/math_FunctionAllRoots.hxx>
 
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <gp.hxx>
-#include <gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
 
 //======================================================================
 #define EPSDIST Tol

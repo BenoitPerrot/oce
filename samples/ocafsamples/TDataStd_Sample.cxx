@@ -36,11 +36,11 @@
 #include <TDataXtd_GeometryEnum.hxx>
 #include <TDataXtd_ConstraintEnum.hxx>
 #include <TNaming_NamedShape.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Pln.hxx>
-#include <gp_Lin.hxx>
-#include <gp_Ax1.hxx>
-#include <gp_Cylinder.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Ax1.hxx>
+#include <Mathematics/Primitives/gp_Cylinder.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopLoc_Location.hxx>
 #include <TDF_AttributeList.hxx>

@@ -29,7 +29,7 @@
 #include <TopOpeBRepDS_ListIteratorOfListOfInterference.hxx>
 #include <TopOpeBRepDS_Point.hxx>
 #include <TopoDS_Face.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <TopOpeBRepDS_DataStructure.hxx>
 #include <TopOpeBRep_FacesFiller.hxx>
 

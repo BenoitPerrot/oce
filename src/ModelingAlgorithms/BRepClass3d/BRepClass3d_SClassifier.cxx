@@ -18,13 +18,13 @@
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <BRepClass3d_SolidExplorer.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <TopoDS_Face.hxx>
 #include <BRepClass3d_SClassifier.hxx>
 
-#include <gp_Pnt.hxx>
-#include <gp_Lin.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <BRepClass3d_Intersector3d.hxx>
 #include <TopoDS.hxx>
 

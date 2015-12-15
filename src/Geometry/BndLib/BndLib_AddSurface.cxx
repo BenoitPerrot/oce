@@ -25,8 +25,8 @@
 #include <Adaptor3d_HSurface.hxx>
 #include <GeomAbs_SurfaceType.hxx>
 #include <BndLib.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
 #include <ElSLib.hxx>
 #include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
 #include <Geom_BSplineSurface.hxx>

@@ -18,7 +18,7 @@
 
 #include <Mathematics/Collections/TColgp_HArray1OfXY.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <IGESDimen_CenterLine.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESDimen_CenterLine)
@@ -32,7 +32,7 @@ IMPLEMENT_DOWNCAST(IGESDimen_CenterLine,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESDimen_CenterLine)
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <IGESData_LineFontEntity.hxx>
-#include <gp_GTrsf.hxx>
+#include <Mathematics/Primitives/gp_GTrsf.hxx>
 
 
 IGESDimen_CenterLine::IGESDimen_CenterLine ()    {  }

@@ -23,8 +23,8 @@
 
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 
-#include <gp_XY.hxx>
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_XY.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>
 #include <Mathematics/Optimization/math_Gauss.hxx>
@@ -38,8 +38,8 @@
 #include <Plate_SampledCurveConstraint.hxx>
 #include <Plate_GtoCConstraint.hxx>
 #include <Plate_FreeGtoCConstraint.hxx>
-#include <gp_XYZ.hxx>
-#include <gp_XY.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_XY.hxx>
 #include <Mathematics/Collections/TColgp_HArray2OfXYZ.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfXY.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>

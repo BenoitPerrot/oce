@@ -51,7 +51,7 @@
 #include <Geom_Curve.hxx>
 #include <Geom_BSplineCurve.hxx>
 
-#include <gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
 
 #include <TopoDS.hxx>
 #include <TopExp.hxx>

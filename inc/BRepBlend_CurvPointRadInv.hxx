@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_Adaptor3d_HCurve.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Blend_CurvPointFuncInv.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

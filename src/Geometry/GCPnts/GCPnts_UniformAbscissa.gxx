@@ -23,10 +23,10 @@
 #include <CPnts_AbscissaPoint.hxx>
 #include <GCPnts_AbscissaPoint.hxx>
 #include <Precision.hxx>
-#include <gp_Circ.hxx>
-#include <gp_Circ2d.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_Circ.hxx>
+#include <Mathematics/Primitives/gp_Circ2d.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
 
 
 static Standard_Real GetParameterLengthRatio(TheCurve& C)

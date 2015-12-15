@@ -41,7 +41,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_SplitSurface)
 #include <Geom_OffsetSurface.hxx>
 #include <ShapeUpgrade_SplitCurve3d.hxx>
 #include <TColGeom_HArray1OfCurve.hxx>
-#include <gp_Ax1.hxx>
+#include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <ShapeExtend.hxx>

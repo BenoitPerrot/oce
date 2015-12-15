@@ -60,12 +60,12 @@
 #include <TopExp.hxx>
 #include <TopExp_Explorer.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx> 
-#include <gp.hxx>
-#include <gp_Ax3.hxx>
-#include <gp_Cylinder.hxx>
-#include <gp_Torus.hxx>
-#include <gp_Lin.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp.hxx>
+#include <Mathematics/Primitives/gp_Ax3.hxx>
+#include <Mathematics/Primitives/gp_Cylinder.hxx>
+#include <Mathematics/Primitives/gp_Torus.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 
 #include <BRep_GCurve.hxx>
 #include <BRep_TEdge.hxx>

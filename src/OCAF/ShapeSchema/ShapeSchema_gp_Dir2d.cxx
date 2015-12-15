@@ -2,7 +2,7 @@
 #include <ShapeSchema_gp_Dir2d.hxx>
 #endif
 #ifndef _gp_Dir2d_HeaderFile
-#include <gp_Dir2d.hxx>
+#include <Mathematics/Primitives/gp_Dir2d.hxx>
 #endif
 #ifndef _ShapeSchema_gp_XY_HeaderFile
 #include <ShapeSchema_gp_XY.hxx>

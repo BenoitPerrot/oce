@@ -34,13 +34,13 @@
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Geom_Geometry.hxx>
 #include <Geom_BSplineCurve.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
-#include <gp.hxx>
+#include <Mathematics/Primitives/gp.hxx>
 
 #include <Geom_UndefinedDerivative.hxx>
 #include <Foundation/Standard/Standard_DimensionError.hxx>

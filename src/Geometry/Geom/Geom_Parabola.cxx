@@ -16,12 +16,12 @@
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/Standard/Standard_RangeError.hxx>
-#include <gp_Parab.hxx>
-#include <gp_Ax2.hxx>
-#include <gp_Ax1.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Parab.hxx>
+#include <Mathematics/Primitives/gp_Ax2.hxx>
+#include <Mathematics/Primitives/gp_Ax1.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Geom_Geometry.hxx>
 #include <Geom_Parabola.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -39,7 +39,7 @@ IMPLEMENT_STANDARD_RTTI(Geom_Parabola)
 
 #include <Precision.hxx>
 #include <ElCLib.hxx>
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/Standard/Standard_RangeError.hxx>
 

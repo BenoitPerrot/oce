@@ -13,8 +13,8 @@
 #include <Handle_GeomFill_LocationLaw.hxx>
 #include <Handle_GeomFill_SectionLaw.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <gp_Mat.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Mat.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Approx_SweepFunction.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

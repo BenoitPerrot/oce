@@ -16,7 +16,7 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Bisector_PolyBis.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Bisector_Curve.hxx>
 #include <Handle_Geom2d_Geometry.hxx>
 #include <GeomAbs_Shape.hxx>

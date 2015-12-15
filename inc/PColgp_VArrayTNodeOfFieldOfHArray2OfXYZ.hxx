@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Handle_PColgp_VArrayNodeOfFieldOfHArray2OfXYZ.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 class gp_XYZ;
@@ -53,7 +53,7 @@ private:
 };
 
 #define Item gp_XYZ
-#define Item_hxx <gp_XYZ.hxx>
+#define Item_hxx <Mathematics/Primitives/gp_XYZ.hxx>
 #define DBC_VArrayNode PColgp_VArrayNodeOfFieldOfHArray2OfXYZ
 #define DBC_VArrayNode_hxx <PColgp_VArrayNodeOfFieldOfHArray2OfXYZ.hxx>
 #define DBC_VArrayTNode PColgp_VArrayTNodeOfFieldOfHArray2OfXYZ

@@ -17,8 +17,8 @@
 #include <Foundation/Standard/Standard_Stream.hxx>
 
 #include <Draw_Color.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Geom_Geometry.hxx>
 #include <Geom2d_Curve.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
@@ -50,10 +50,10 @@
 #include <GeomTools_Curve2dSet.hxx>
 #include <GeomTools_SurfaceSet.hxx>
 
-#include <gp_Pln.hxx>
-#include <gp_Ax2d.hxx>
-#include <gp_Ax2.hxx>
-#include <gp_Trsf2d.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Ax2d.hxx>
+#include <Mathematics/Primitives/gp_Ax2.hxx>
+#include <Mathematics/Primitives/gp_Trsf2d.hxx>
 #include <Mathematics/Polyhedral/Poly.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 

@@ -14,10 +14,10 @@
 #include <Adaptor3d_Curve.hxx>
 #include <VrmlConverter_Drawer.hxx>
 #include <VrmlConverter_DeflectionCurve.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Circ.hxx>
-#include <gp_Dir.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Circ.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Precision.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfVec.hxx>

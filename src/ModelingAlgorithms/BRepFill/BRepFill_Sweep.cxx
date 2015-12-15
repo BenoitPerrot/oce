@@ -44,8 +44,8 @@
 //#include <GeomPlate_Surface.hxx>
 //#include <GeomPlate_PointConstraint.hxx>
 
-#include <gp_Pnt2d.hxx>
-#include <gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 
 #include <Geom_Surface.hxx>

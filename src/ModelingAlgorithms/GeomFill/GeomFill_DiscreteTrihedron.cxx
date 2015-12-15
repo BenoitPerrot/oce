@@ -20,7 +20,7 @@
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <GeomFill_TrihedronLaw.hxx>
 #include <Adaptor3d_HCurve.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <GeomFill_DiscreteTrihedron.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

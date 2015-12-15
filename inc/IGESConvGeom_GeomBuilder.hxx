@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_TColgp_HSequenceOfXYZ.hxx>
-#include <gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_IGESGeom_CopiousData.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

@@ -19,7 +19,7 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Plate_PinpointConstraint.hxx>
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Plate_Array1OfPinpointConstraint.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfXYZ.hxx>
 #include <Mathematics/Collections/TColgp_Array2OfXYZ.hxx>

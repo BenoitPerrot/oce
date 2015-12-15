@@ -99,7 +99,7 @@
 
 
 #include <stdio.h>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 
 // pour mes tests
 #ifdef OCCT_DEBUG

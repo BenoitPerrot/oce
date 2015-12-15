@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_NullObject.hxx>
-#include <gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <PColgp_VArrayNodeOfFieldOfHArray2OfVec2d.hxx>
 #include <PColgp_VArrayTNodeOfFieldOfHArray2OfVec2d.hxx>
 
@@ -25,7 +25,7 @@ IMPLEMENT_STANDARD_TYPE_END(PColgp_FieldOfHArray2OfVec2d)
  
 
 #define Item gp_Vec2d
-#define Item_hxx <gp_Vec2d.hxx>
+#define Item_hxx <Mathematics/Primitives/gp_Vec2d.hxx>
 #define DBC_VArrayNode PColgp_VArrayNodeOfFieldOfHArray2OfVec2d
 #define DBC_VArrayNode_hxx <PColgp_VArrayNodeOfFieldOfHArray2OfVec2d.hxx>
 #define DBC_VArrayTNode PColgp_VArrayTNodeOfFieldOfHArray2OfVec2d

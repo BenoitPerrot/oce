@@ -15,11 +15,11 @@
 //JCV 16/10/91
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <gp_Cone.hxx>
+#include <Mathematics/Primitives/gp_Cone.hxx>
 #include <Mathematics/Convert/Convert_ConeToBSplineSurface.hxx>
 
-#include <gp.hxx>
-#include <gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
 
 static const Standard_Integer TheUDegree  = 2;
 static const Standard_Integer TheVDegree  = 1;

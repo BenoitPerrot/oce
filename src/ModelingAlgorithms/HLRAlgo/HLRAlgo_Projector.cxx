@@ -18,18 +18,18 @@
 // #define No_Exception
 #endif
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <gp_Ax2.hxx>
-#include <gp_Trsf.hxx>
-#include <gp_Vec2d.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Ax2.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
 #include <HLRAlgo_Projector.hxx>
 #include <Precision.hxx>
-#include <gp_Ax3.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_Ax3.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
 
 // formula for derivating a perspective, from Mathematica
 
@@ -135,7 +135,7 @@ void HLRAlgo_Projector::Set (const gp_Trsf& T,
 //purpose  : 
 //=======================================================================
 
-#include <gp_Mat.hxx>
+#include <Mathematics/Primitives/gp_Mat.hxx>
 
 static Standard_Integer TrsfType(const gp_Trsf& Trsf) { 
   const gp_Mat& Mat = Trsf.VectorialPart();

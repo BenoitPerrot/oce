@@ -17,9 +17,9 @@
 #include <Prs3d_Presentation.hxx>
 #include <Prs3d_Drawer.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Ax2.hxx>
-#include <gp_Elips.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Ax2.hxx>
+#include <Mathematics/Primitives/gp_Elips.hxx>
 #include <DsgPrs_IdenticPresentation.hxx>
 
 #include <Graphic3d_Group.hxx>
@@ -35,13 +35,13 @@
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
-#include <gp_Vec.hxx>
-#include <gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
 
 #include <ElCLib.hxx>
 
 #include <Precision.hxx>
-#include <gp_Elips.hxx>
+#include <Mathematics/Primitives/gp_Elips.hxx>
 
 void DsgPrs_IdenticPresentation::Add( const Handle(Prs3d_Presentation)& aPresentation,
 				      const Handle(Prs3d_Drawer)& aDrawer,

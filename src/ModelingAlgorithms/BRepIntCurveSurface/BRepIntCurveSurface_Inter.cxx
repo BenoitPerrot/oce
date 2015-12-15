@@ -20,9 +20,9 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <TopoDS_Shape.hxx>
 #include <GeomAdaptor_Curve.hxx>
-#include <gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
 #include <IntCurveSurface_IntersectionPoint.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <TopoDS_Face.hxx>
 #include <BRepIntCurveSurface_Inter.hxx>
 #include <Geom_Line.hxx>

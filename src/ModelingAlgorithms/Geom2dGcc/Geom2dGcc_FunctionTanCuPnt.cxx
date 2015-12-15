@@ -15,13 +15,13 @@
 // commercial license or contractual agreement.
 
 #include <Geom2dAdaptor_Curve.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Geom2dGcc_FunctionTanCuPnt.hxx>
 
-#include <gp_Vec2d.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 
 #include <Geom2dGcc_CurveTool.hxx>
 

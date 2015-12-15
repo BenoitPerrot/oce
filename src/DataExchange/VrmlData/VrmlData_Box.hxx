@@ -17,7 +17,7 @@
 #define VrmlData_Box_HeaderFile
 
 #include <VrmlData_Geometry.hxx>
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
 
 /**
  *  Inplementation of the Box node.

@@ -11,9 +11,9 @@
 #include <LProp_NotDefined.hxx>
 #include <BRepAdaptor_Surface.hxx>
 #include <BRepLProp_SurfaceTool.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
  
 
 #define Surface BRepAdaptor_Surface

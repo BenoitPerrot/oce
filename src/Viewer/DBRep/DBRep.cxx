@@ -34,7 +34,7 @@
 #include <BRep_TEdge.hxx>
 #include <Precision.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
-#include <gp_Ax2.hxx>
+#include <Mathematics/Primitives/gp_Ax2.hxx>
 
 #include <TopExp.hxx>
 #include <TopTools_Array1OfShape.hxx>

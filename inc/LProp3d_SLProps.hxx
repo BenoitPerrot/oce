@@ -13,9 +13,9 @@
 #include <Handle_Adaptor3d_HSurface.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
 #include <LProp_Status.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Adaptor3d_HSurface;

@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_TYPE_END(StlMesh_MeshTriangle)
 IMPLEMENT_DOWNCAST(StlMesh_MeshTriangle,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(StlMesh_MeshTriangle)
 #include <Precision.hxx>
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
 
 //=======================================================================
 //function : StlMesh_MeshTriangle

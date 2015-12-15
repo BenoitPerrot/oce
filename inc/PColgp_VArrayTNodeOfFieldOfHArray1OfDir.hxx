@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Handle_PColgp_VArrayNodeOfFieldOfHArray1OfDir.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 class gp_Dir;
@@ -53,7 +53,7 @@ private:
 };
 
 #define Item gp_Dir
-#define Item_hxx <gp_Dir.hxx>
+#define Item_hxx <Mathematics/Primitives/gp_Dir.hxx>
 #define DBC_VArrayNode PColgp_VArrayNodeOfFieldOfHArray1OfDir
 #define DBC_VArrayNode_hxx <PColgp_VArrayNodeOfFieldOfHArray1OfDir.hxx>
 #define DBC_VArrayTNode PColgp_VArrayTNodeOfFieldOfHArray1OfDir

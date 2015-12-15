@@ -23,11 +23,11 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(VrmlConverter_Projector)
 IMPLEMENT_DOWNCAST(VrmlConverter_Projector,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(VrmlConverter_Projector)
-#include <gp_Pnt.hxx>
-#include <gp_Dir.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Trsf.hxx>
-#include <gp_Ax3.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Ax3.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BRepBndLib.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>

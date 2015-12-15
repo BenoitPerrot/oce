@@ -23,9 +23,9 @@
 #include <Geom2dAdaptor_Curve.hxx>
 #include <GeomAdaptor_Curve.hxx>
 #include <GeomAdaptor_Surface.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Cone.hxx>
-#include <gp_Sphere.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Cone.hxx>
+#include <Mathematics/Primitives/gp_Sphere.hxx>
 #include <Geom2d_OffsetCurve.hxx>
 #include <Geom2d_TrimmedCurve.hxx>
 #include <TopOpeBRepTool_ShapeTool.hxx>

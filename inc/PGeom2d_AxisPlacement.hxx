@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard.hxx>
 #include <Handle_PGeom2d_AxisPlacement.hxx>
 
-#include <gp_Ax2d.hxx>
+#include <Mathematics/Primitives/gp_Ax2d.hxx>
 #include <PGeom2d_Geometry.hxx>
 class gp_Ax2d;
 

@@ -19,7 +19,7 @@
 
 #include <IntPatch_WLine.hxx>
 #include <IntPatch_RLine.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <IntPatch_PolyLine.hxx>
 
 #include <Precision.hxx>

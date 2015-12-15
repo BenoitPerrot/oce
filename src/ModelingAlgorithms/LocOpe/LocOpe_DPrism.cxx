@@ -50,10 +50,10 @@
 #include <LocOpe.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 
-#include <gp_Ax3.hxx>
-#include <gp_Pln.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Ax3.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
 
 #include <Geom_Surface.hxx>
 #include <Geom_RectangularTrimmedSurface.hxx>
@@ -66,7 +66,7 @@
 #include <TopExp.hxx>
 #include <Precision.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
-#include <gp.hxx>
+#include <Mathematics/Primitives/gp.hxx>
 #include <BRepTools.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 

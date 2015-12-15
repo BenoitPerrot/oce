@@ -25,10 +25,10 @@
 #include <Mathematics/Polyhedral/Poly_Polygon3D.hxx>
 #include <Mathematics/Polyhedral/Poly_PolygonOnTriangulation.hxx>
 #include <Geom2d_Curve.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Polyhedral/Poly_Polygon2D.hxx>
 #include <TopoDS_Vertex.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <BRep_Builder.hxx>
 
 #include <BRep_TEdge.hxx>

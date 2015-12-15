@@ -16,13 +16,13 @@
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/Standard/Standard_RangeError.hxx>
-#include <gp_Ax3.hxx>
-#include <gp_Cylinder.hxx>
-#include <gp_Trsf.hxx>
-#include <gp_GTrsf2d.hxx>
+#include <Mathematics/Primitives/gp_Ax3.hxx>
+#include <Mathematics/Primitives/gp_Cylinder.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_GTrsf2d.hxx>
 #include <Geom_Curve.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Geom_Geometry.hxx>
 #include <Geom_CylindricalSurface.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -45,11 +45,11 @@ IMPLEMENT_STANDARD_RTTI(Geom_CylindricalSurface)
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/Standard/Standard_RangeError.hxx>
 
-#include <gp_Lin.hxx>
-#include <gp_Circ.hxx>
-#include <gp_XYZ.hxx>
-#include <gp_Ax2d.hxx>
-#include <gp.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Circ.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_Ax2d.hxx>
+#include <Mathematics/Primitives/gp.hxx>
 #include <ElSLib.hxx>
 
 typedef Geom_CylindricalSurface         CylindricalSurface;

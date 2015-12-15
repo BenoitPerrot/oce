@@ -34,13 +34,13 @@
 #include <Geom_Curve.hxx>
 #include <Geom_Circle.hxx>
 #include <BRep_Builder.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Circ.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Circ.hxx>
 #include <TopTools_MapOfShape.hxx>
 #include <TopExp_Explorer.hxx>
 #include <TopoDS_Iterator.hxx>
-#include <gp_Ax3.hxx>
-#include <gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Ax3.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
 #include <DrawTrSurf.hxx>
 #ifdef WNT
 #include <stdio.h>

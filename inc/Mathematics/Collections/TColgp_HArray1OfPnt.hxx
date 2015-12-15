@@ -69,7 +69,7 @@ private:
 };
 
 #define ItemHArray1 gp_Pnt
-#define ItemHArray1_hxx <gp_Pnt.hxx>
+#define ItemHArray1_hxx <Mathematics/Primitives/gp_Pnt.hxx>
 #define TheArray1 TColgp_Array1OfPnt
 #define TheArray1_hxx <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #define TCollection_HArray1 TColgp_HArray1OfPnt

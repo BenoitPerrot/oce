@@ -31,11 +31,11 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <gp_Cylinder.hxx>
+#include <Mathematics/Primitives/gp_Cylinder.hxx>
 #include <IntAna_Quadric.hxx>
-#include <gp_Cone.hxx>
+#include <Mathematics/Primitives/gp_Cone.hxx>
 #include <IntAna_Curve.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <IntAna_IntQuadQuad.hxx>
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
@@ -43,8 +43,8 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Mathematics/Optimization/math_TrigonometricFunctionRoots.hxx>
 	
-#include <gp_Ax2.hxx>
-#include <gp_Ax3.hxx>
+#include <Mathematics/Primitives/gp_Ax2.hxx>
+#include <Mathematics/Primitives/gp_Ax3.hxx>
 
 //=======================================================================
 //class : TrigonometricRoots

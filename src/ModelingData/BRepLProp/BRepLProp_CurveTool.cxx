@@ -15,8 +15,8 @@
 // commercial license or contractual agreement.
 
 #include <BRepAdaptor_Curve.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <BRepLProp_CurveTool.hxx>
 
 //=======================================================================

@@ -23,8 +23,8 @@
 #include <Foundation/Message/Message_ProgressSentry.hxx>
 
 #include <GeomTools.hxx>
-#include <gp_Ax3.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Ax3.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Precision.hxx>
 
 //=======================================================================

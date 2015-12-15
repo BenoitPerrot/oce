@@ -23,7 +23,7 @@
 #include <TopoDS_Face.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Vertex.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <BRepFill_Pipe.hxx>
 
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>

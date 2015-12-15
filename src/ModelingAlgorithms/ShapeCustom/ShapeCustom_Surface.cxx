@@ -16,11 +16,11 @@
 #include <Geom_Surface.hxx>
 #include <ShapeCustom_Surface.hxx>
 
-#include <gp_Ax3.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Pln.hxx>
-#include <gp_Cylinder.hxx>
+#include <Mathematics/Primitives/gp_Ax3.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Cylinder.hxx>
 
 #include <ElSLib.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>

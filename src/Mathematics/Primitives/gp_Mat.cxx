@@ -21,10 +21,10 @@
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <gp_XYZ.hxx>
-#include <gp_Trsf.hxx>
-#include <gp_GTrsf.hxx>
-#include <gp_Mat.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_GTrsf.hxx>
+#include <Mathematics/Primitives/gp_Mat.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(gp_Mat)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -16,7 +16,7 @@
 #include <QANCollection.hxx>
 #include <Draw_Interpretor.hxx>
 
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 
 void QANCollection::Commands (Draw_Interpretor& theCommands)
 {

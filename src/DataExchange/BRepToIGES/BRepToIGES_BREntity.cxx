@@ -30,7 +30,7 @@
 
 #include <BRep_Builder.hxx>
 
-#include <gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
 
 #include <Geom_Geometry.hxx>
 

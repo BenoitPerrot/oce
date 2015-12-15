@@ -69,10 +69,10 @@
 #include <ElCLib.hxx>
 #include <ElSLib.hxx>
 #include <Precision.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Dir2d.hxx>
-#include <gp_Vec2d.hxx>
-#include <gp_Trsf2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Dir2d.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_Trsf2d.hxx>
 
 #include <BRepTools_Substitution.hxx>
 #include <BRepLib_MakeEdge.hxx>

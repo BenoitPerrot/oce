@@ -15,7 +15,7 @@
 
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <TDF_Label.hxx>
-#include <gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
 #include <TDF_Attribute.hxx>
 #include <TDF_RelocationTable.hxx>
 #include <TDataXtd_Plane.hxx>
@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_RTTI(TDataXtd_Plane)
 #include <TNaming_Tool.hxx>
 #include <TNaming_Builder.hxx>
 #include <TDF_Label.hxx>
-#include <gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Face.hxx>
 #include <TopAbs.hxx>

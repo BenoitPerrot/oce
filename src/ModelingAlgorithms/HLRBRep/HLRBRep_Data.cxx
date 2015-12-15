@@ -26,7 +26,7 @@
 #include <TopTools_IndexedMapOfShape.hxx>
 #include <BRepTopAdaptor_MapOfShapeTool.hxx>
 #include <HLRAlgo_Interference.hxx>
-#include <gp_Dir2d.hxx>
+#include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <HLRBRep_EdgeData.hxx>
 #include <HLRAlgo_InterferenceList.hxx>
 #include <HLRBRep_FaceData.hxx>
@@ -44,7 +44,7 @@ IMPLEMENT_STANDARD_RTTI(HLRBRep_Data)
 
 #include <Foundation/StdFail/StdFail_UndefinedDerivative.hxx>
 #include <Precision.hxx>
-#include <gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Geom2d_Curve.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>
 #include <IntRes2d_IntersectionSegment.hxx>
@@ -55,7 +55,7 @@ IMPLEMENT_STANDARD_RTTI(HLRBRep_Data)
 #include <HLRAlgo_ListIteratorOfInterferenceList.hxx>
 #include <HLRBRep_EdgeFaceTool.hxx>
 #include <ElCLib.hxx>
-#include <gp.hxx>
+#include <Mathematics/Primitives/gp.hxx>
 #include <stdio.h>
 #include <BRepTopAdaptor_Tool.hxx>
 

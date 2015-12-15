@@ -30,7 +30,7 @@
 #include <AppDef_MultiPointConstraint.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Precision.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>
 #include <AppParCurves_HArray1OfConstraintCouple.hxx>

@@ -44,8 +44,8 @@
 #include <BRepMAT2d_BisectingLocus.hxx>
 #include <BRepMAT2d_LinkTopoBilo.hxx>
 
-#include <gp_Parab2d.hxx>
-#include <gp_Hypr2d.hxx>
+#include <Mathematics/Primitives/gp_Parab2d.hxx>
+#include <Mathematics/Primitives/gp_Hypr2d.hxx>
 
 #include <DBRep.hxx>
 #include <TopoDS.hxx>

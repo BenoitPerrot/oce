@@ -28,7 +28,7 @@
 #include <GeomAPI.hxx>
 #include <GeomAdaptor_HSurface.hxx>
 #include <GeomLib.hxx>
-#include <gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
 #include <ShapeBuild_ReShape.hxx>
 #include <ShapeFix_Edge.hxx>
 #include <ShapeFix_Wire.hxx>

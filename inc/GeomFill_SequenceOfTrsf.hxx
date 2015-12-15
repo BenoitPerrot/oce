@@ -101,7 +101,7 @@ private:
 };
 
 #define SeqItem gp_Trsf
-#define SeqItem_hxx <gp_Trsf.hxx>
+#define SeqItem_hxx <Mathematics/Primitives/gp_Trsf.hxx>
 #define TCollection_SequenceNode GeomFill_SequenceNodeOfSequenceOfTrsf
 #define TCollection_SequenceNode_hxx <GeomFill_SequenceNodeOfSequenceOfTrsf.hxx>
 #define Handle_TCollection_SequenceNode Handle_GeomFill_SequenceNodeOfSequenceOfTrsf

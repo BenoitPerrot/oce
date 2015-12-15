@@ -13,7 +13,7 @@
 #include <TopoDS_Edge.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <TopoDS_Face.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <TopAbs_State.hxx>
 class TopoDS_Edge;

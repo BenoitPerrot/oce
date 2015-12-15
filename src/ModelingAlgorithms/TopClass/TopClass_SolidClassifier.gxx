@@ -18,7 +18,7 @@
 Standard_EXPORT Standard_Boolean TopClass_GettraceFC();
 #endif
 
-#include <gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
 
 //extern void DrawSegment(const gp_Pnt& P1,const gp_Lin& L,const Standard_Real par);
 //extern Standard_Boolean DebugDrawSegment;

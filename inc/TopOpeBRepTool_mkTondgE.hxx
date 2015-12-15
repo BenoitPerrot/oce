@@ -12,8 +12,8 @@
 
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Face.hxx>
-#include <gp_Dir.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <TopTools_DataMapOfShapeReal.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

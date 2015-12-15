@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <BRepClass3d_Intersector3d.hxx>
-#include <gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
 #include <TopoDS_Face.hxx>
  
 

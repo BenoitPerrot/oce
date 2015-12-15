@@ -24,7 +24,7 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <IGESGraph_TextFontDef.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <IGESDimen_GeneralNote.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -38,7 +38,7 @@ IMPLEMENT_STANDARD_TYPE_END(IGESDimen_GeneralNote)
 IMPLEMENT_DOWNCAST(IGESDimen_GeneralNote,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESDimen_GeneralNote)
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <gp_GTrsf.hxx>
+#include <Mathematics/Primitives/gp_GTrsf.hxx>
 
 
 IGESDimen_GeneralNote::IGESDimen_GeneralNote ()    {  }

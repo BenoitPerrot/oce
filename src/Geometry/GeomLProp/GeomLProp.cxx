@@ -20,8 +20,8 @@
 #include <Geom_TrimmedCurve.hxx>
 #include <Geom_BSplineCurve.hxx>
 #include <GeomLProp_CLProps.hxx>
-#include <gp_Dir.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <GeomAbs_Shape.hxx>
 
 Standard_Integer GeomAbsToInteger(const GeomAbs_Shape  gcont) 

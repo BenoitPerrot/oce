@@ -19,11 +19,11 @@
 #include <IntCurveSurface_TheQuadCurvExactHInter.hxx>
 #include <IntCurveSurface_TheQuadCurvFuncOfTheQuadCurvExactHInter.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_BoundSortBox.hxx>
-#include <gp_Lin.hxx>
-#include <gp_Circ.hxx>
-#include <gp_Elips.hxx>
-#include <gp_Parab.hxx>
-#include <gp_Hypr.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Circ.hxx>
+#include <Mathematics/Primitives/gp_Elips.hxx>
+#include <Mathematics/Primitives/gp_Parab.hxx>
+#include <Mathematics/Primitives/gp_Hypr.hxx>
 #include <IntAna_IntConicQuad.hxx>
 #include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>

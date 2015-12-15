@@ -12,7 +12,7 @@
 
 #include <Handle_Adaptor3d_HSurfaceOfRevolution.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <gp_Ax2.hxx>
+#include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <Extrema_GenExtPS.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

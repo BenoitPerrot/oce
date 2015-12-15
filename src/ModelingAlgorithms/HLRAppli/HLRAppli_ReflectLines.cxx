@@ -18,7 +18,7 @@
 #include <HLRBRep_Algo.hxx>
 #include <HLRBRep_HLRToShape.hxx>
 #include <BRep_Builder.hxx>
-#include <gp_Ax3.hxx>
+#include <Mathematics/Primitives/gp_Ax3.hxx>
 #include <BRepLib.hxx>
 
 

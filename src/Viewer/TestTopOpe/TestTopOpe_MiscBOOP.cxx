@@ -19,7 +19,7 @@
 #include <TopOpeBRep_EdgesIntersector.hxx>
 #include <TopOpeBRep_ShapeIntersector.hxx>
 #include <TopAbs.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 
 
 TestTopOpe_BOOP::TestTopOpe_BOOP(const char* keys[],

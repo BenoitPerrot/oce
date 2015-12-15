@@ -11,12 +11,12 @@
 #include <Geom2dInt_TheProjPCurOfGInter.hxx>
 #include <Geom2dInt_TheIntersectorOfTheIntConicCurveOfGInter.hxx>
 #include <Geom2dInt_MyImpParToolOfTheIntersectorOfTheIntConicCurveOfGInter.hxx>
-#include <gp_Lin2d.hxx>
+#include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <IntRes2d_Domain.hxx>
-#include <gp_Circ2d.hxx>
-#include <gp_Elips2d.hxx>
-#include <gp_Parab2d.hxx>
-#include <gp_Hypr2d.hxx>
+#include <Mathematics/Primitives/gp_Circ2d.hxx>
+#include <Mathematics/Primitives/gp_Elips2d.hxx>
+#include <Mathematics/Primitives/gp_Parab2d.hxx>
+#include <Mathematics/Primitives/gp_Hypr2d.hxx>
  
 
 #define TheImpTool IntCurve_IConicTool

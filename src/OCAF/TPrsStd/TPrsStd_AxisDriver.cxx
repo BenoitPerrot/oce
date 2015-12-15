@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_RTTI(TPrsStd_AxisDriver)
 #include <AIS_Drawer.hxx>
 #include <AIS_InteractiveContext.hxx>
 #include <Geom_Line.hxx>
-#include <gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
 #include <TNaming_Tool.hxx>
 #include <TNaming_NamedShape.hxx>
 #include <TopoDS_Shape.hxx>

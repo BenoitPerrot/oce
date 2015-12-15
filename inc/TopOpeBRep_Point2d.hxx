@@ -17,8 +17,8 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <TopOpeBRep_P2Dstatus.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <TopOpeBRepDS_Config.hxx>
 #include <Handle_TopOpeBRep_Hctxff2d.hxx>
 #include <Handle_TopOpeBRep_Hctxee2d.hxx>

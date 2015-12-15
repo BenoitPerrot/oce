@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESGeom_Direction.hxx>
 
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <IGESData_IGESEntity.hxx>
 class gp_XYZ;
 class gp_Vec;

@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <gp_XY.hxx>
+#include <Mathematics/Primitives/gp_XY.hxx>
 #include <Plate_D1.hxx>
 #include <NLPlate_HPG1Constraint.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

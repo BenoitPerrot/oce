@@ -28,10 +28,10 @@
 #include <StlMesh_MeshExplorer.hxx>
 #include <Foundation/OSD/OSD.hxx>
 #include <Foundation/OSD/OSD_Host.hxx>
-#include <gp_XYZ.hxx>
-#include <gp.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp.hxx>
 #include <stdio.h>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Foundation/OSD/OSD_OpenFile.hxx>
 
 #include <BRepBuilderAPI_CellFilter.hxx>

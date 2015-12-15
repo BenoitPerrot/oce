@@ -29,7 +29,7 @@
 #include <TopOpeBRepDS_ListIteratorOfListOfInterference.hxx>
 #include <TopOpeBRepDS_Point.hxx>
 #include <TopoDS_Face.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <TopOpeBRepDS_DataStructure.hxx>
 #include <TopOpeBRep_FacesFiller.hxx>
 
@@ -44,8 +44,8 @@
 #include <GeomProjLib.hxx>
 #include <Geom_Circle.hxx>
 #include <Geom_Line.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <TopOpeBRepTool_EXPORT.hxx>
 #include <TopOpeBRepTool_2d.hxx>
 #include <TopOpeBRep_define.hxx>

@@ -19,7 +19,7 @@
 #include <SelectBasics_SortAlgo.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_MapOfInteger.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 
 //=======================================================================
 //function : SelectBasics_SortAlgo

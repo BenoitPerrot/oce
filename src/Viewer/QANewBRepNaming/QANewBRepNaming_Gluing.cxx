@@ -46,7 +46,7 @@
 #include <TopoDS_Vertex.hxx>
 #include <BRep_Tool.hxx>
 #include <TopoDS.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Foundation/TColStd/TColStd_MapOfInteger.hxx>
 #include <TDataStd_IntegerArray.hxx>
 

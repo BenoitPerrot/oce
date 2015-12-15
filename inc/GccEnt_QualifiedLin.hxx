@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <GccEnt_Position.hxx>
-#include <gp_Lin2d.hxx>
+#include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <Foundation/Standard/Standard_Storable.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_PrimitiveTypes.hxx>

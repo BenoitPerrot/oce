@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
-#include <gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Collections/TColgp_Array2OfDir.hxx>
 
  
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(TColgp_HArray2OfDir)
 
 
 #define ItemHArray2 gp_Dir
-#define ItemHArray2_hxx <gp_Dir.hxx>
+#define ItemHArray2_hxx <Mathematics/Primitives/gp_Dir.hxx>
 #define TheArray2 TColgp_Array2OfDir
 #define TheArray2_hxx <Mathematics/Collections/TColgp_Array2OfDir.hxx>
 #define TCollection_HArray2 TColgp_HArray2OfDir

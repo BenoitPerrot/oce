@@ -19,10 +19,10 @@
 #include <Geom_Plane.hxx>
 #include <Geom_Line.hxx>
 #include <Geom_Transformation.hxx>
-#include <gp.hxx>
-#include <gp_Ax1.hxx>
-#include <gp_Dir.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp.hxx>
+#include <Mathematics/Primitives/gp_Ax1.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Prs3d_DimensionAspect.hxx>
 #include <Prs3d_Projector.hxx>
 #include <Prs3d_Presentation.hxx>

@@ -9,7 +9,7 @@
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <gp_Dir2d.hxx>
+#include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfDir2d.hxx>
 
  
@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_RTTI(TColgp_HSequenceOfDir2d)
 
 
 #define Item gp_Dir2d
-#define Item_hxx <gp_Dir2d.hxx>
+#define Item_hxx <Mathematics/Primitives/gp_Dir2d.hxx>
 #define TheSequence TColgp_SequenceOfDir2d
 #define TheSequence_hxx <Mathematics/Collections/TColgp_SequenceOfDir2d.hxx>
 #define TCollection_HSequence TColgp_HSequenceOfDir2d

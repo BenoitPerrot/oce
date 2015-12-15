@@ -12,7 +12,7 @@
 #include <Handle_PColgp_HArray2OfXYZ.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <PColgp_FieldOfHArray2OfXYZ.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Foundation/Standard/Standard_Persistent.hxx>
@@ -95,7 +95,7 @@ private:
 };
 
 #define Item gp_XYZ
-#define Item_hxx <gp_XYZ.hxx>
+#define Item_hxx <Mathematics/Primitives/gp_XYZ.hxx>
 #define PCollection_FieldOfHArray2 PColgp_FieldOfHArray2OfXYZ
 #define PCollection_FieldOfHArray2_hxx <PColgp_FieldOfHArray2OfXYZ.hxx>
 #define PCollection_VArrayNodeOfFieldOfHArray2 PColgp_VArrayNodeOfFieldOfHArray2OfXYZ

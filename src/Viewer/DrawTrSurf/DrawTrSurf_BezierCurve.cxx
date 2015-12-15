@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_TYPE_END(DrawTrSurf_BezierCurve)
 IMPLEMENT_DOWNCAST(DrawTrSurf_BezierCurve,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(DrawTrSurf_BezierCurve)
 #include <Geom_BezierCurve.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 

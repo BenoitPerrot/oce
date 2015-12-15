@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_GccInt_BHyper.hxx>
 
-#include <gp_Hypr2d.hxx>
+#include <Mathematics/Primitives/gp_Hypr2d.hxx>
 #include <GccInt_Bisec.hxx>
 #include <GccInt_IType.hxx>
 class gp_Hypr2d;

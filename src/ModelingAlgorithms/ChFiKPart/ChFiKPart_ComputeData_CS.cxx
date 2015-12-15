@@ -15,10 +15,10 @@
 // commercial license or contractual agreement.
 
 #include <ChFiKPart_ComputeData_CS.hxx>
-#include <gp_Ax3.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Ax3.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
 #include <ElCLib.hxx>
 
 

@@ -41,8 +41,8 @@
 
 #include <TopExp_Explorer.hxx>
 
-#include <gp_Pln.hxx>
-#include <gp_Cylinder.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Cylinder.hxx>
 
 #include <BRep_Builder.hxx>
 #include <BRep_Tool.hxx>

@@ -92,7 +92,7 @@ private:
 };
 
 #define Item gp_Ax2
-#define Item_hxx <gp_Ax2.hxx>
+#define Item_hxx <Mathematics/Primitives/gp_Ax2.hxx>
 #define TheSequence GeomFill_SequenceOfAx2
 #define TheSequence_hxx <GeomFill_SequenceOfAx2.hxx>
 #define TCollection_HSequence GeomFill_HSequenceOfAx2

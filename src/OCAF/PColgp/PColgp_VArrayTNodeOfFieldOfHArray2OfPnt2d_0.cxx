@@ -5,13 +5,13 @@
 
 #include <PColgp_VArrayTNodeOfFieldOfHArray2OfPnt2d.hxx>
 
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <PColgp_FieldOfHArray2OfPnt2d.hxx>
 #include <PColgp_VArrayNodeOfFieldOfHArray2OfPnt2d.hxx>
  
 
 #define Item gp_Pnt2d
-#define Item_hxx <gp_Pnt2d.hxx>
+#define Item_hxx <Mathematics/Primitives/gp_Pnt2d.hxx>
 #define DBC_VArrayNode PColgp_VArrayNodeOfFieldOfHArray2OfPnt2d
 #define DBC_VArrayNode_hxx <PColgp_VArrayNodeOfFieldOfHArray2OfPnt2d.hxx>
 #define DBC_VArrayTNode PColgp_VArrayTNodeOfFieldOfHArray2OfPnt2d

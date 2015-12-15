@@ -26,7 +26,7 @@ IMPLEMENT_STANDARD_TYPE_END(XmlMNaming_Shape1)
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <TopoDS.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <BRep_Tool.hxx>
 
 #include <stdio.h>

@@ -32,8 +32,8 @@
 #include <IGESData_ParamCursor.hxx>
 #include <IGESGraph_TextFontDef.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <gp_XYZ.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfXYZ.hxx>
 #include <Interface_HArray1OfHAsciiString.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>

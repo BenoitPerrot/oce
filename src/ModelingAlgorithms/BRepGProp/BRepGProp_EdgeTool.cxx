@@ -14,8 +14,8 @@
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <BRepAdaptor_Curve.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <BRepGProp_EdgeTool.hxx>
 #include <GeomAdaptor_Curve.hxx>

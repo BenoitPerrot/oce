@@ -25,7 +25,7 @@
 #include <AIS_KindOfSurface.hxx>
 #include <AIS_Drawer.hxx>
 #include <Geom_Curve.hxx>
-#include <gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Prs3d_ArrowAspect.hxx>
 #include <Prs3d_DimensionAspect.hxx>
 #include <Prs3d_DimensionUnits.hxx>

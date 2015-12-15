@@ -32,8 +32,8 @@
 #include <TopoDS.hxx>
 #include <GProp_GProps.hxx>
 #include <BRepGProp.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 
 //=======================================================================
 //function : QANewBRepNaming_Fillet

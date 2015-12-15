@@ -33,10 +33,10 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_DraftLaw)
 #include <GeomFill_LocationLaw.hxx>
 #include <GeomFill_HArray1OfLocationLaw.hxx>
 
-#include <gp_Vec.hxx>
-#include <gp_Mat.hxx>
-#include <gp_XYZ.hxx>
-#include <gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Mat.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
 
 
 //=======================================================================

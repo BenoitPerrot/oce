@@ -22,8 +22,8 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <StepGeom_Polyline.hxx>
 #include <StepGeom_HArray1OfCartesianPoint.hxx>
 #include <GeomToStep_MakeCartesianPoint.hxx>

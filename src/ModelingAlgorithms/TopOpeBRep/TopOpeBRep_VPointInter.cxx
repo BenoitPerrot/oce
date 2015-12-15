@@ -16,9 +16,9 @@
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <IntPatch_Point.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <TopoDS_Shape.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Face.hxx>
 #include <TopOpeBRep_VPointInter.hxx>
@@ -36,7 +36,7 @@
 #include <Adaptor2d_HCurve2d.hxx>
 #include <BRepAdaptor_Curve2d.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Precision.hxx>
 #include <TopOpeBRep_define.hxx>
 

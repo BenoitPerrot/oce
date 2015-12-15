@@ -23,7 +23,7 @@
 #include <Foundation/NCollection/NCollection_Vector.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_B3f.hxx>
 #include <Foundation/TColStd/TColStd_PackedMapOfInteger.hxx>
-#include <gp_XY.hxx>
+#include <Mathematics/Primitives/gp_XY.hxx>
 
 class NIS_InteractiveContext;
 class gp_Ax1;

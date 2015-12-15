@@ -11,7 +11,7 @@
 #include <IntCurveSurface_TheHCurveTool.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
  
 
 #define TheCurve Handle(Adaptor3d_HCurve)

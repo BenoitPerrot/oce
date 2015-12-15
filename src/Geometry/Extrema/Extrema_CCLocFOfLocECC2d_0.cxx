@@ -9,8 +9,8 @@
 #include <Adaptor2d_Curve2d.hxx>
 #include <Extrema_Curve2dTool.hxx>
 #include <Extrema_POnCurv2d.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Extrema_SeqPOnCOfCCLocFOfLocECC2d.hxx>
 #include <Extrema_SequenceNodeOfSeqPOnCOfCCLocFOfLocECC2d.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
@@ -27,9 +27,9 @@
 #define POnC Extrema_POnCurv2d
 #define POnC_hxx <Extrema_POnCurv2d.hxx>
 #define Pnt gp_Pnt2d
-#define Pnt_hxx <gp_Pnt2d.hxx>
+#define Pnt_hxx <Mathematics/Primitives/gp_Pnt2d.hxx>
 #define Vec gp_Vec2d
-#define Vec_hxx <gp_Vec2d.hxx>
+#define Vec_hxx <Mathematics/Primitives/gp_Vec2d.hxx>
 #define Extrema_SeqPOnC Extrema_SeqPOnCOfCCLocFOfLocECC2d
 #define Extrema_SeqPOnC_hxx <Extrema_SeqPOnCOfCCLocFOfLocECC2d.hxx>
 #define Extrema_SequenceNodeOfSeqPOnC Extrema_SequenceNodeOfSeqPOnCOfCCLocFOfLocECC2d

@@ -29,11 +29,11 @@
 #include <Geom_UndefinedDerivative.hxx>
 #include <Geom_UndefinedValue.hxx>
 #include <Plate_Plate.hxx>
-#include <gp_Trsf.hxx>
-#include <gp_GTrsf2d.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_GTrsf2d.hxx>
 #include <Geom_Curve.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Geom_Geometry.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfXY.hxx>
 #include <GeomPlate_Surface.hxx>
@@ -48,7 +48,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(GeomPlate_Surface)
 IMPLEMENT_DOWNCAST(GeomPlate_Surface,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(GeomPlate_Surface)
-#include <gp_XY.hxx>
+#include <Mathematics/Primitives/gp_XY.hxx>
 
 
 //=======================================================================

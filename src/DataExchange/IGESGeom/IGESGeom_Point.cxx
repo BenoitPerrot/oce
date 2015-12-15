@@ -17,8 +17,8 @@
 //--------------------------------------------------------------------
 
 #include <IGESBasic_SubfigureDef.hxx>
-#include <gp_XYZ.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <IGESGeom_Point.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESGeom_Point)
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESGeom_Point)
 IMPLEMENT_DOWNCAST(IGESGeom_Point,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESGeom_Point)
-#include <gp_GTrsf.hxx>
+#include <Mathematics/Primitives/gp_GTrsf.hxx>
 
 
 IGESGeom_Point::IGESGeom_Point ()     {  }

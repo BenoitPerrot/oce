@@ -29,7 +29,7 @@
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <SelectBasics_SensitiveEntity.hxx>
 #include <SelectMgr_DataMapOfIntegerSensitive.hxx>
-#include <gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
 #include <SelectMgr_ViewerSelector.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(SelectMgr_ViewerSelector)
@@ -41,9 +41,9 @@ IMPLEMENT_STANDARD_TYPE_END(SelectMgr_ViewerSelector)
 IMPLEMENT_DOWNCAST(SelectMgr_ViewerSelector,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(SelectMgr_ViewerSelector)
 #include <SelectMgr_CompareResults.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_HArray1OfBox2d.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Array1OfBox2d.hxx>
 #include <Precision.hxx>

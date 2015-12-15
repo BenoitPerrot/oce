@@ -17,8 +17,8 @@
 #include <IntWalk_VectorOfWalkingData.hxx>
 #include <IntWalk_VectorOfInteger.hxx>
 #include <IntSurf_PntOn2S.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Dir2d.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <Contap_SequenceOfIWLineOfTheIWalking.hxx>
 #include <Handle_Adaptor3d_HSurface.hxx>

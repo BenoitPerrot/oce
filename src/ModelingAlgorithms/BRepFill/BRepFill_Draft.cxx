@@ -20,7 +20,7 @@
 #include <TopTools_HArray2OfShape.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <TopoDS_Shape.hxx>
-#include <gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Geom_Surface.hxx>
 #include <TopoDS_Shell.hxx>
 #include <TopTools_ListOfShape.hxx>
@@ -35,12 +35,12 @@
 #include <BndLib_Add3dCurve.hxx>
 #include <BndLib_AddSurface.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <gp_Dir.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Trsf.hxx>
-#include <gp_Ax3.hxx>
-#include <gp_Lin.hxx>
-#include <gp_Mat.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Ax3.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Mat.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 
 #include <GeomAdaptor_Surface.hxx>
@@ -94,7 +94,7 @@
 
 #ifdef DRAW
 #include <Geom_Circle.hxx>
-#include <gp.hxx>
+#include <Mathematics/Primitives/gp.hxx>
 #include <DBRep.hxx>
 #include <DrawTrSurf.hxx>
 static Standard_Boolean Affich = 0;

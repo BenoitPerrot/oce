@@ -30,7 +30,7 @@
 #include <BRepPrimAPI_MakeTorus.hxx>
 #include <BRepPrimAPI_MakeSphere.hxx>
 #include <Geom_Plane.hxx>
-#include <gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
 
 
 //=======================================================================

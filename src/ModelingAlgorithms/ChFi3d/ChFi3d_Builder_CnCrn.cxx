@@ -72,7 +72,7 @@
 #include <ChFiDS_Stripe.hxx>
 #include <BRepTopAdaptor_TopolTool.hxx>
 #include <ChFiDS_SequenceOfSurfData.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <ChFiDS_ListOfStripe.hxx>
 #include <ChFiDS_CommonPoint.hxx>
 #include <TopoDS_Face.hxx>
@@ -115,9 +115,9 @@
 #include <GeomPlate_CurveConstraint.hxx>
 #include <FairCurve_Batten.hxx>
 #include <Geom2d_BSplineCurve.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Dir2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
 #include <Mathematics/Polynomial/PLib.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>

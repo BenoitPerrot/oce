@@ -12,7 +12,7 @@
 
 #include <Handle_Geom_BSplineCurve.hxx>
 #include <Handle_Adaptor3d_HCurve.hxx>
-#include <gp_Ax1.hxx>
+#include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

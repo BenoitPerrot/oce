@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <gp_Sphere.hxx>
+#include <Mathematics/Primitives/gp_Sphere.hxx>
 #include <ProjLib_Projector.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class Standard_NoSuchObject;

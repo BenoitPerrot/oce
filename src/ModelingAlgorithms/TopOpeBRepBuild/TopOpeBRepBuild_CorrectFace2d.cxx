@@ -17,10 +17,10 @@
 #include <TopTools_IndexedMapOfOrientedShape.hxx>
 #include <TopTools_IndexedDataMapOfShapeShape.hxx>
 #include <TopoDS_Edge.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopTools_ListOfShape.hxx>
-#include <gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Geom2d_Curve.hxx>
 #include <TopoDS_Wire.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
@@ -57,7 +57,7 @@
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <BndLib_Add2dCurve.hxx>
 
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Precision.hxx>
 #include <BRepAdaptor_Surface.hxx>
 

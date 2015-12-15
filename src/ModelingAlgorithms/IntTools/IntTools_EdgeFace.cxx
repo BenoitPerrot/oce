@@ -18,7 +18,7 @@
 #include <TopoDS_Face.hxx>
 #include <IntTools_Range.hxx>
 #include <IntTools_SequenceOfCommonPrts.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <BRepAdaptor_Surface.hxx>
 #include <IntTools_CArray1OfReal.hxx>
 #include <IntTools_CommonPrt.hxx>
@@ -54,13 +54,13 @@
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BndLib_AddSurface.hxx>
 
-#include <gp_Cylinder.hxx>
-#include <gp_Ax1.hxx>
-#include <gp_Lin.hxx>
-#include <gp_Cone.hxx>
-#include <gp_Torus.hxx>
-#include <gp_Circ.hxx>
-#include <gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Cylinder.hxx>
+#include <Mathematics/Primitives/gp_Ax1.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Cone.hxx>
+#include <Mathematics/Primitives/gp_Torus.hxx>
+#include <Mathematics/Primitives/gp_Circ.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
 
 
 #include <Extrema_ExtCS.hxx>

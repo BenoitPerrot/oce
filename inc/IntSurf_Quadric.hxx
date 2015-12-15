@@ -10,16 +10,16 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <gp_Ax3.hxx>
-#include <gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Ax3.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
 #include <GeomAbs_SurfaceType.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <gp_Pln.hxx>
-#include <gp_Sphere.hxx>
-#include <gp_Cylinder.hxx>
-#include <gp_Cone.hxx>
-#include <gp_Torus.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Sphere.hxx>
+#include <Mathematics/Primitives/gp_Cylinder.hxx>
+#include <Mathematics/Primitives/gp_Cone.hxx>
+#include <Mathematics/Primitives/gp_Torus.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class gp_Pln;
 class gp_Cylinder;

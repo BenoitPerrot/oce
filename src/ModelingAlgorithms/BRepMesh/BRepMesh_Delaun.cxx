@@ -16,10 +16,10 @@
 
 #include <BRepMesh_Delaun.hxx>
 
-#include <gp.hxx>
-#include <gp_XY.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp.hxx>
+#include <Mathematics/Primitives/gp_XY.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
 
 #include <Precision.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>

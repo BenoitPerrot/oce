@@ -15,9 +15,9 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <gp_Dir2d.hxx>
+#include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <Geom2d_Vector.hxx>
-#include <gp_Trsf2d.hxx>
+#include <Mathematics/Primitives/gp_Trsf2d.hxx>
 #include <Geom2d_Geometry.hxx>
 #include <Geom2d_Direction.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(Geom2d_Direction)
 IMPLEMENT_DOWNCAST(Geom2d_Direction,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Geom2d_Direction)
-#include <gp.hxx>
+#include <Mathematics/Primitives/gp.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 
 typedef Geom2d_Direction         Direction;

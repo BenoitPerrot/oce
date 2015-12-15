@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <TopLoc_Location.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <BRep_GCurve.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BRep_GCurve)

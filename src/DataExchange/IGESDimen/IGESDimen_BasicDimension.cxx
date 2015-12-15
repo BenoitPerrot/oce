@@ -16,8 +16,8 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <gp_XY.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_XY.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <IGESDimen_BasicDimension.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESDimen_BasicDimension)

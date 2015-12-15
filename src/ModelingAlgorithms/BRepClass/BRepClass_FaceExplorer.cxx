@@ -18,8 +18,8 @@
 //  Total rewriting of the method Segment; add the method OtherSegment.
 
 #include <TopoDS_Face.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Lin2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <BRepClass_Edge.hxx>
 #include <BRepClass_FaceExplorer.hxx>
 #include <Precision.hxx>

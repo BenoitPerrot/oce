@@ -23,8 +23,8 @@
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>
 #include <gce_MakeLin.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
 
 #define myMinPnts 5
 //============================================================

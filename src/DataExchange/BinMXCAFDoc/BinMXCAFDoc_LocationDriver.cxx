@@ -32,9 +32,9 @@ IMPLEMENT_STANDARD_RTTI(BinMXCAFDoc_LocationDriver)
 
 #include <TopLoc_Datum3D.hxx>
 #include <TopLoc_Location.hxx>
-#include <gp_Trsf.hxx>
-#include <gp_Mat.hxx>
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Mat.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
 //#include <Precision.hxx>
 #include <BinMDataStd.hxx>
 #include <BinTools_LocationSet.hxx>

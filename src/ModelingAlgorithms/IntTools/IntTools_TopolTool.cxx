@@ -13,8 +13,8 @@
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Adaptor3d_HSurface.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <IntTools_TopolTool.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IntTools_TopolTool)
@@ -32,8 +32,8 @@ IMPLEMENT_STANDARD_RTTI(IntTools_TopolTool)
 #include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
 #include <Geom_BSplineSurface.hxx>
 #include <Geom_BezierSurface.hxx>
-#include <gp_Circ.hxx>
-#include <gp_Cone.hxx>
+#include <Mathematics/Primitives/gp_Circ.hxx>
+#include <Mathematics/Primitives/gp_Cone.hxx>
 #include <ElSLib.hxx>
 
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>

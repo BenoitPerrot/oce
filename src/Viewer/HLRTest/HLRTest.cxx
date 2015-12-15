@@ -21,7 +21,7 @@
 #include <HLRTest_Projector.hxx>
 #include <HLRTest_OutLiner.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
-#include <gp_Ax3.hxx>
+#include <Mathematics/Primitives/gp_Ax3.hxx>
 #include <Draw_Appli.hxx>
 #include <Draw.hxx>
 #include <DBRep.hxx>

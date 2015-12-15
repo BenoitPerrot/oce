@@ -18,7 +18,7 @@
 
 #include <VrmlData_ArrayVec3d.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
 
 /**
  *  Implementation of the node Color

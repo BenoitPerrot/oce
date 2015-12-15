@@ -19,7 +19,7 @@
 #include <TopOpeBRepTool_TOOL.hxx>
 #include <TopOpeBRepTool_2d.hxx>
 #include <Geom2d_Curve.hxx>
-#include <gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <TopExp_Explorer.hxx>
 #include <BRep_Tool.hxx>
 #include <TopoDS.hxx>

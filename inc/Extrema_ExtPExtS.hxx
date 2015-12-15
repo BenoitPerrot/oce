@@ -14,8 +14,8 @@
 #include <Extrema_FuncExtPS.hxx>
 #include <Handle_Adaptor3d_HCurve.hxx>
 #include <Handle_Adaptor3d_HSurfaceOfLinearExtrusion.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Ax2.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <Extrema_GenExtPS.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

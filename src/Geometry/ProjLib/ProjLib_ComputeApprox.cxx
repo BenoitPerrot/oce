@@ -27,8 +27,8 @@
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Geom_UndefinedDerivative.hxx>
-#include <gp.hxx>
-#include <gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Precision.hxx>
 #include <Approx_FitAndDivide2d.hxx>
 #include <AppParCurves_MultiCurve.hxx>

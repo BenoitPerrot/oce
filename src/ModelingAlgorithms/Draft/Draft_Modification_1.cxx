@@ -19,15 +19,15 @@
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Face.hxx>
-#include <gp_Dir.hxx>
-#include <gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <Geom_Surface.hxx>
 #include <TopLoc_Location.hxx>
 #include <TopoDS_Edge.hxx>
 #include <Geom_Curve.hxx>
 #include <TopoDS_Vertex.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geom2d_Curve.hxx>
 #include <Draft_Modification.hxx>
 
@@ -69,13 +69,13 @@
 #include <GeomAdaptor_Surface.hxx>
 #include <Adaptor3d_SurfaceOfLinearExtrusion.hxx>
 
-#include <gp_Vec.hxx>
-#include <gp_Lin.hxx>
-#include <gp_Pln.hxx>
-#include <gp_Circ.hxx>
-#include <gp_Elips.hxx>
-#include <gp_Parab.hxx>
-#include <gp_Hypr.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Circ.hxx>
+#include <Mathematics/Primitives/gp_Elips.hxx>
+#include <Mathematics/Primitives/gp_Parab.hxx>
+#include <Mathematics/Primitives/gp_Hypr.hxx>
 
 #include <IntCurveSurface_HInter.hxx>
 #include <GeomInt_IntSS.hxx>
@@ -94,7 +94,7 @@
 #include <TopTools_MapOfShape.hxx>
 #include <TopTools_MapIteratorOfMapOfShape.hxx>
 
-#include <gp.hxx>
+#include <Mathematics/Primitives/gp.hxx>
 #include <Precision.hxx>
 #include <ElCLib.hxx>
 #include <ElSLib.hxx>

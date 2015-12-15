@@ -17,8 +17,8 @@
 #include <Geom2d_Curve.hxx>
 #include <Geom_Curve.hxx>
 #include <Geom_Surface.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <TopoDS_Shape.hxx>
 #include <XSControl_Vars.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

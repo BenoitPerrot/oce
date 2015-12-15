@@ -20,7 +20,7 @@
 
 #include <Precision.hxx>
 
-#include <gp.hxx>
+#include <Mathematics/Primitives/gp.hxx>
 
 #include <Geom2d_Curve.hxx>
 #include <Geom2d_TrimmedCurve.hxx>

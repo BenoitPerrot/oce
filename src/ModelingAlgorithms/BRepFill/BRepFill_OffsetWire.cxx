@@ -96,11 +96,11 @@
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>    
 #include <TopTools_DataMapOfShapeSequenceOfShape.hxx>
 
-#include <gp.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Ax2.hxx>
-#include <gp_Pln.hxx>
-#include <gp_Dir2d.hxx>
+#include <Mathematics/Primitives/gp.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Ax2.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Dir2d.hxx>
 
 #include <BRep_TVertex.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>

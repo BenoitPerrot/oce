@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard.hxx>
 #include <Handle_PGeom_ElementarySurface.hxx>
 
-#include <gp_Ax3.hxx>
+#include <Mathematics/Primitives/gp_Ax3.hxx>
 #include <PGeom_Surface.hxx>
 class gp_Ax3;
 

@@ -50,7 +50,7 @@
 #include <ShapeAnalysis_Wire.hxx>
 #include <ShapeAnalysis_Shell.hxx>
 
-#include <gp_Pnt.hxx> //ied_modif_for_compil_Nov-19-1998
+#include <Mathematics/Primitives/gp_Pnt.hxx> //ied_modif_for_compil_Nov-19-1998
 #include <TopExp_Explorer.hxx>
 #include <TopTools_MapOfShape.hxx>
 #include <TopTools_MapIteratorOfMapOfShape.hxx>

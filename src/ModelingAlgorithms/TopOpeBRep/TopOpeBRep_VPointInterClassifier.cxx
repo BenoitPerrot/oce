@@ -19,7 +19,7 @@
 #include <TopOpeBRep_PointClassifier.hxx>
 #include <TopOpeBRep_VPointInterClassifier.hxx>
 
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Precision.hxx>
 #include <TopoDS.hxx>
 #include <TopOpeBRepTool_ShapeTool.hxx>

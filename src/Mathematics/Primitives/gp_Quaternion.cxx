@@ -17,9 +17,9 @@
 // http://www.gamedev.ru/code/articles/?id=4215&page=3
 // and maths found in Wikipedia and elsewhere
 
-#include <gp_Quaternion.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Mat.hxx>
+#include <Mathematics/Primitives/gp_Quaternion.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Mat.hxx>
 
 //=======================================================================
 //function : IsEqual

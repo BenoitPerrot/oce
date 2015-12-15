@@ -22,7 +22,7 @@
 #include <BRep_Tool.hxx>
 #include <BRepTools.hxx>
 #include <BRepClass_FaceClassifier.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <BRepAdaptor_Surface.hxx>
 #include <Precision.hxx>
 

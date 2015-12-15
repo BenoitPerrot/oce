@@ -43,7 +43,7 @@
 #include <ChFiDS_Stripe.hxx>
 #include <BRepTopAdaptor_TopolTool.hxx>
 #include <ChFiDS_SequenceOfSurfData.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <ChFiDS_ListOfStripe.hxx>
 #include <ChFiDS_CommonPoint.hxx>
 #include <TopoDS_Face.hxx>
@@ -59,11 +59,11 @@
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 
 #include <Mathematics/Optimization/math_Vector.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_XYZ.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfVec.hxx>
 #include <ElCLib.hxx>

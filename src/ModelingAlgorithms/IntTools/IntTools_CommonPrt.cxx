@@ -16,7 +16,7 @@
 #include <TopoDS_Edge.hxx>
 #include <IntTools_Range.hxx>
 #include <IntTools_SequenceOfRanges.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <IntTools_CommonPrt.hxx>
 #include <IntTools_Range.hxx>
 #include <IntTools_SequenceOfRanges.hxx>

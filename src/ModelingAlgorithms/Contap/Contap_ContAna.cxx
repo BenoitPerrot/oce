@@ -17,16 +17,16 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <gp_Sphere.hxx>
-#include <gp_Dir.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Cylinder.hxx>
-#include <gp_Cone.hxx>
-#include <gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Sphere.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Cylinder.hxx>
+#include <Mathematics/Primitives/gp_Cone.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Contap_ContAna.hxx>
 
-#include <gp_XYZ.hxx>
-#include <gp.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp.hxx>
 
 #define Tolpetit 1.e-8
 

@@ -101,7 +101,7 @@ private:
 };
 
 #define SeqItem gp_Circ
-#define SeqItem_hxx <gp_Circ.hxx>
+#define SeqItem_hxx <Mathematics/Primitives/gp_Circ.hxx>
 #define TCollection_SequenceNode LocOpe_SequenceNodeOfSequenceOfCirc
 #define TCollection_SequenceNode_hxx <LocOpe_SequenceNodeOfSequenceOfCirc.hxx>
 #define Handle_TCollection_SequenceNode Handle_LocOpe_SequenceNodeOfSequenceOfCirc

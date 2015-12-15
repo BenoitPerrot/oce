@@ -14,7 +14,7 @@
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 class Standard_DomainError;
 class StdFail_NotDone;
 class Standard_OutOfRange;

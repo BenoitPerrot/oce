@@ -17,7 +17,7 @@
 #ifndef _ChFiKPart_ComputeData_Fcts_HeaderFile
 #define _ChFiKPart_ComputeData_Fcts_HeaderFile
 
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Geom2d_Curve.hxx>
 #include <Geom2d_BSplineCurve.hxx>
 #include <Geom_Curve.hxx>

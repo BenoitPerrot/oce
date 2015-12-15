@@ -21,8 +21,8 @@
 #include <IntTools_SequenceOfCommonPrts.hxx>
 #include <IntTools_EdgeEdge.hxx>
 
-#include <gp_Dir.hxx>
-#include <gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
 
 #include <ElCLib.hxx>
 

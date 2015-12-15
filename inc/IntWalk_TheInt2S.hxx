@@ -12,8 +12,8 @@
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <IntSurf_PntOn2S.hxx>
-#include <gp_Dir.hxx>
-#include <gp_Dir2d.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <IntWalk_TheFunctionOfTheInt2S.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Adaptor3d_HSurface.hxx>

@@ -6,7 +6,7 @@
 #include <STEPConstruct_DataMapIteratorOfDataMapOfPointTransient.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <STEPConstruct_PointHasher.hxx>
 #include <STEPConstruct_DataMapOfPointTransient.hxx>
@@ -14,7 +14,7 @@
  
 
 #define TheKey gp_Pnt
-#define TheKey_hxx <gp_Pnt.hxx>
+#define TheKey_hxx <Mathematics/Primitives/gp_Pnt.hxx>
 #define TheItem Handle(Standard_Transient)
 #define TheItem_hxx <Foundation/Standard/Standard_Transient.hxx>
 #define Hasher STEPConstruct_PointHasher

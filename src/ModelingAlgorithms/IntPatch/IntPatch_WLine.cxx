@@ -20,8 +20,8 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <IntPatch_Point.hxx>
 #include <IntSurf_PntOn2S.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <IntPatch_WLine.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IntPatch_WLine)

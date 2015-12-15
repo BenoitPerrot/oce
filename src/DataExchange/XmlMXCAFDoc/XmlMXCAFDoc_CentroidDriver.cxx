@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(XmlMXCAFDoc_CentroidDriver)
 
 #include <XmlObjMgt.hxx>
 #include <XCAFDoc_Centroid.hxx>
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
 
 #include <stdio.h>
 

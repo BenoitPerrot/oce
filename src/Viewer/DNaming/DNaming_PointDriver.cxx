@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_RTTI(DNaming_PointDriver)
 #include <TopoDS_Vertex.hxx>
 #include <TopoDS.hxx>
 #include <BRep_Tool.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 // OCAF
 #include <TNaming.hxx>

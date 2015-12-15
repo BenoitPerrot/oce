@@ -46,8 +46,8 @@ IMPLEMENT_STANDARD_RTTI(AppDef_LinearCriteria)
 #include <FEmTool_LinearJerk.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
 #include <Mathematics/Optimization/math_Gauss.hxx>
 #include <AppDef_MyLineTool.hxx>

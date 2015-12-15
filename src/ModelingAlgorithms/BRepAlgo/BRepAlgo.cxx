@@ -23,7 +23,7 @@
 #include <BRep_Tool.hxx>
 #include <BRepLib_MakeEdge.hxx>
 #include <BRepLib_MakeWire.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <GeomConvert.hxx>
 #include <GeomLProp.hxx>
 #include <Geom_TrimmedCurve.hxx>

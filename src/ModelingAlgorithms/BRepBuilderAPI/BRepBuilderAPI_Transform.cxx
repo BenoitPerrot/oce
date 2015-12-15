@@ -15,13 +15,13 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <BRepBuilderAPI_Transform.hxx>
 
 #include <BRepTools_TrsfModification.hxx>
-#include <gp.hxx>
+#include <Mathematics/Primitives/gp.hxx>
 
 
 //=======================================================================

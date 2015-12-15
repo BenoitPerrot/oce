@@ -13,7 +13,7 @@
 #include <TopoDS_Edge.hxx>
 #include <Handle_Geom_Curve.hxx>
 #include <GeomAbs_CurveType.hxx>
-#include <gp_Circ.hxx>
+#include <Mathematics/Primitives/gp_Circ.hxx>
 #include <Adaptor3d_Curve.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <GeomAbs_Shape.hxx>

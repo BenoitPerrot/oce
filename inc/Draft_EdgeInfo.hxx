@@ -14,7 +14,7 @@
 #include <Handle_Geom_Curve.hxx>
 #include <TopoDS_Face.hxx>
 #include <Handle_Geom2d_Curve.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class Geom_Curve;
 class Geom2d_Curve;

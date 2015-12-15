@@ -8,7 +8,7 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Geom2dAdaptor_Curve.hxx>
 #include <Geom2dHatch_Intersector.hxx>
-#include <gp_Lin2d.hxx>
+#include <Mathematics/Primitives/gp_Lin2d.hxx>
  
 
 #define TheEdge Geom2dAdaptor_Curve

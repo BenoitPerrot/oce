@@ -16,8 +16,8 @@
 
 #include <Geom2d_TrimmedCurve.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <gp_Elips2d.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Elips2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <GCE2d_MakeArcOfEllipse.hxx>
 #include <Geom2d_Ellipse.hxx>
 #include <ElCLib.hxx>

@@ -24,8 +24,8 @@
 #include <AIS_Shape.hxx>
 #include <TopoDS_Shape.hxx>
 
-#include <gp_Ax2.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Ax2.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geom_RectangularTrimmedSurface.hxx>
 #include <BRepLib_MakeFace.hxx>
 #include <GC_MakeTrimmedCone.hxx>
@@ -146,7 +146,7 @@ static Standard_Integer OCC137_z (Draw_Interpretor& di, Standard_Integer argc, c
 #include <GccEnt_Position.hxx>
 #include <Geom2dGcc_QualifiedCurve.hxx>
 #include <Geom2dGcc_Circ2d2TanRad.hxx>
-#include <gp_Elips2d.hxx>
+#include <Mathematics/Primitives/gp_Elips2d.hxx>
 #include <Geom2d_Ellipse.hxx>
 #include <Geom2d_Circle.hxx>
 

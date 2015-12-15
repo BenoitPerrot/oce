@@ -16,7 +16,7 @@
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Geom_Curve.hxx>
-#include <gp_Ax2.hxx>
+#include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <BRepPrim_Revolution.hxx>
 #include <BRepPrimAPI_MakeRevolution.hxx>
 #include <BRepBuilderAPI.hxx>

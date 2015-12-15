@@ -18,8 +18,8 @@
 #include <BRepLProp.hxx>
 #include <Precision.hxx>
 #include <BRepLProp_CLProps.hxx>
-#include <gp_Dir.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopAbs_Orientation.hxx>
 

@@ -15,8 +15,8 @@
 #include <Adaptor3d_HVertex.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Adaptor2d_HCurve2d.hxx>
 #include <IntSurf_Transition.hxx>
 #include <BRepBlend_PointOnRst.hxx>

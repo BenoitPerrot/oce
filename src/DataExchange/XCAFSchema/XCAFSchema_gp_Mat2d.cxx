@@ -2,7 +2,7 @@
 #include <XCAFSchema_gp_Mat2d.hxx>
 #endif
 #ifndef _gp_Mat2d_HeaderFile
-#include <gp_Mat2d.hxx>
+#include <Mathematics/Primitives/gp_Mat2d.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

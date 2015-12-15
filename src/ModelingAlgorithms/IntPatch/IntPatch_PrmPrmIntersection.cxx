@@ -42,8 +42,8 @@
 #include <Intf_SectionLine.hxx>
 #include <Intf_TangentZone.hxx>
 #include <Intf_SectionPoint.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
 #include <IntPolyh_Intersection.hxx>
 
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>

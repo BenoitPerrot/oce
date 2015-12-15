@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard.hxx>
 #include <Handle_PColgp_SeqNodeOfHSequenceOfVec.hxx>
 
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Handle_PColgp_SeqNodeOfHSequenceOfVec.hxx>
 #include <PMMgt_PManaged.hxx>
 #include <Handle_PColgp_HSequenceOfVec.hxx>

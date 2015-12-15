@@ -31,8 +31,8 @@
 #include <IGESDimen_ToolLeaderArrow.hxx>
 #include <IGESData_ParamCursor.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfXY.hxx>
-#include <gp_XY.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_XY.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <IGESData_Dump.hxx>
 #include <Interface_Macros.hxx>
 

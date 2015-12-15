@@ -36,8 +36,8 @@
 #include <IntPolyh_MaillageAffinage.hxx>
 
 #include <Precision.hxx>
-#include <gp_Pnt.hxx>
-#include <gp.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp.hxx>
 
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 

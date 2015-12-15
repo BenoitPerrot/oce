@@ -11,7 +11,7 @@
 #include <Handle_IGESDimen_LeaderArrow.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <gp_XY.hxx>
+#include <Mathematics/Primitives/gp_XY.hxx>
 #include <Handle_TColgp_HArray1OfXY.hxx>
 #include <IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

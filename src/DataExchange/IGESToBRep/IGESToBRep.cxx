@@ -86,8 +86,8 @@
 #include <BRepTools.hxx>
 
 //:21 
-#include <gp_Pnt.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <BRep_Builder.hxx>
 #include <GeomLib.hxx>
 #include <IGESSolid_CylindricalSurface.hxx>

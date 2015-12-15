@@ -13,7 +13,7 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <IntAna_Curve.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class Standard_OutOfRange;
 class StdFail_NotDone;

@@ -24,7 +24,7 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Adaptor3d_Curve.hxx>
 #include <Extrema_POnCurv.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Extrema_ExtElC.hxx>
 #include <Extrema_ECC.hxx>
 #include <Extrema_ExtCC.hxx>

@@ -16,8 +16,8 @@
 
 #include <StepGeom_Line.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <gp_Lin.hxx>
-#include <gp_Lin2d.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <Geom_Line.hxx>
 #include <Geom2d_Line.hxx>
 #include <GeomToStep_MakeLine.hxx>
@@ -25,8 +25,8 @@
 #include <StepGeom_Line.hxx>
 #include <StepGeom_CartesianPoint.hxx>
 #include <StepGeom_Vector.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <GeomToStep_MakeLine.hxx>
 #include <GeomToStep_MakeCartesianPoint.hxx>
 #include <GeomToStep_MakeVector.hxx>

@@ -17,7 +17,7 @@
 #define _AIS_TexturedShape_HeaderFile
 
 #include <AIS_Shape.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Graphic3d_NameOfTexture2D.hxx>
 #include <Image_PixMap.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>

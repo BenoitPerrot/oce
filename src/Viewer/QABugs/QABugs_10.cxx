@@ -27,9 +27,9 @@
 #include <BRepLib_MakePolygon.hxx>
 #include <TopoDS_Face.hxx>
 #include <BRepLib_MakeFace.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Dir.hxx>
-#include <gp_Ax1.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <BRepPrimAPI_MakeRevol.hxx>
 
 #include <BRepAlgoAPI_Fuse.hxx>
@@ -280,7 +280,7 @@ static Standard_Integer OCC486(Draw_Interpretor& di, Standard_Integer argc, cons
 #include <TopoDS_Wire.hxx>
 #include <BRepLib_MakeFace.hxx>
 #include <Geom_Plane.hxx>
-#include <gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
 #include <BRepPrimAPI_MakePrism.hxx>
 #include <BRepOffsetAPI_DraftAngle.hxx>
 //=======================================================================

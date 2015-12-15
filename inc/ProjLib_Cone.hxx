@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <gp_Cone.hxx>
+#include <Mathematics/Primitives/gp_Cone.hxx>
 #include <ProjLib_Projector.hxx>
 class Standard_NoSuchObject;
 class gp_Cone;

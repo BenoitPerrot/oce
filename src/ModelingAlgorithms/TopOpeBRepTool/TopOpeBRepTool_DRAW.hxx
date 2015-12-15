@@ -18,9 +18,9 @@
 #define _TopOpeBRepTool_DRAW_HeaderFile
 #ifdef DRAW
 
-#include <gp_Pnt.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Draw_ColorKind.hxx>
 #include <Draw_MarkerShape.hxx>
 #include <TopOpeBRepTool_define.hxx>

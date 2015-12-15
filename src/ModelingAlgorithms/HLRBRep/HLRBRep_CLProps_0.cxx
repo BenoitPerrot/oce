@@ -9,20 +9,20 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <LProp_NotDefined.hxx>
-#include <gp_Vec2d.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Dir2d.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <HLRBRep_CLPropsATool.hxx>
  
 
 #define Curve Standard_Address
 #define Curve_hxx <Foundation/Standard/Standard_Address.hxx>
 #define Vec gp_Vec2d
-#define Vec_hxx <gp_Vec2d.hxx>
+#define Vec_hxx <Mathematics/Primitives/gp_Vec2d.hxx>
 #define Pnt gp_Pnt2d
-#define Pnt_hxx <gp_Pnt2d.hxx>
+#define Pnt_hxx <Mathematics/Primitives/gp_Pnt2d.hxx>
 #define Dir gp_Dir2d
-#define Dir_hxx <gp_Dir2d.hxx>
+#define Dir_hxx <Mathematics/Primitives/gp_Dir2d.hxx>
 #define Tool HLRBRep_CLPropsATool
 #define Tool_hxx <HLRBRep_CLPropsATool.hxx>
 #define LProp_CLProps HLRBRep_CLProps

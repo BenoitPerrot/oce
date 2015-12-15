@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <gp_Ax2d.hxx>
+#include <Mathematics/Primitives/gp_Ax2d.hxx>
 #include <Adaptor2d_Curve2d.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

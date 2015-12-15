@@ -9,11 +9,11 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
  
 
 #define Array2Item gp_XYZ
-#define Array2Item_hxx <gp_XYZ.hxx>
+#define Array2Item_hxx <Mathematics/Primitives/gp_XYZ.hxx>
 #define TCollection_Array2 TColgp_Array2OfXYZ
 #define TCollection_Array2_hxx <Mathematics/Collections/TColgp_Array2OfXYZ.hxx>
 #include <Foundation/TCollection/TCollection_Array2.gxx>

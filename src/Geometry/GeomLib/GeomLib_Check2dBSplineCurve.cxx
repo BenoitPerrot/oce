@@ -19,8 +19,8 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <GeomLib_Check2dBSplineCurve.hxx>
 #include <Geom_BSplineCurve.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
 //=======================================================================
 //function : GeomLib_Check2dBSplineCurve
 //purpose  : 

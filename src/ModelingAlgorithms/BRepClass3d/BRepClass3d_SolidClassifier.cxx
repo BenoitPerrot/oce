@@ -60,7 +60,7 @@ static StatistiquesBRepClass3d STAT;
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <TopoDS_Shape.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <BRepClass3d_SolidClassifier.hxx>
 
 #include <TopoDS_Shape.hxx>

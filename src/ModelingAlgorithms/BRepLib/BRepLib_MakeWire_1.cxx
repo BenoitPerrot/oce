@@ -36,7 +36,7 @@
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Compound.hxx>
 #include <BRep_Tool.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 
 

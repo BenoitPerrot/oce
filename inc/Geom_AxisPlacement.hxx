@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Geom_AxisPlacement.hxx>
 
-#include <gp_Ax1.hxx>
+#include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <Geom_Geometry.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class Standard_ConstructionError;

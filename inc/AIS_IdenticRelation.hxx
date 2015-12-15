@@ -11,7 +11,7 @@
 #include <Handle_AIS_IdenticRelation.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <AIS_Relation.hxx>
 #include <Handle_Geom_Plane.hxx>
 #include <PrsMgr_PresentationManager3d.hxx>

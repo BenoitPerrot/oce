@@ -13,7 +13,7 @@
 // commercial license or contractual agreement.
 
 #include <BRepAdaptor_Curve.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <BRepGProp_Cinert.hxx>
 
 #include <Mathematics/Optimization/math.hxx>

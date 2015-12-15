@@ -16,8 +16,8 @@
 
 #include <Prs3d_Presentation.hxx>
 #include <Prs3d_Drawer.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
 #include <DsgPrs_TangentPresentation.hxx>
 
 #include <Graphic3d_Group.hxx>
@@ -30,7 +30,7 @@
 #include <Prs3d_PointAspect.hxx>
 #include <Geom_CartesianPoint.hxx>
 #include <StdPrs_Point.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Prs3d_Arrow.hxx>
 
 void DsgPrs_TangentPresentation::Add (const Handle(Prs3d_Presentation)& aPresentation,

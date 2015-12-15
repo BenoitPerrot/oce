@@ -19,7 +19,7 @@
 
 #include <TopoDS_Shape.hxx>
 #include <BOPAlgo_PaveFiller.hxx>
-#include <gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Geom_Surface.hxx>
 #include <BRepAlgoAPI_Section.hxx>
 

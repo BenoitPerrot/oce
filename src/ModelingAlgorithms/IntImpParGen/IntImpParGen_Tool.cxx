@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <IntImpParGen_Tool.hxx>
-#include <gp.hxx>
+#include <Mathematics/Primitives/gp.hxx>
 
 
 #define TOLERANCE_ANGULAIRE 0.00000001

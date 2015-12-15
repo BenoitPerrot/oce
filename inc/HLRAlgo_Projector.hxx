@@ -13,8 +13,8 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <gp_Trsf.hxx>
-#include <gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
 class Standard_NoSuchObject;
 class gp_Ax2;
 class gp_Trsf;

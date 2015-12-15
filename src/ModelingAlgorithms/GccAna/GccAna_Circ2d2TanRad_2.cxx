@@ -20,14 +20,14 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <GccEnt_QualifiedCirc.hxx>
 #include <GccEnt_QualifiedLin.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Circ2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Circ2d.hxx>
 #include <GccAna_Circ2d2TanRad.hxx>
 
-#include <gp_Circ2d.hxx>
+#include <Mathematics/Primitives/gp_Circ2d.hxx>
 #include <ElCLib.hxx>
-#include <gp_Dir2d.hxx>
-#include <gp_Lin2d.hxx>
+#include <Mathematics/Primitives/gp_Dir2d.hxx>
+#include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <IntAna2d_AnaIntersection.hxx>
 #include <IntAna2d_IntPoint.hxx>
 #include <Foundation/Standard/Standard_NegativeValue.hxx>

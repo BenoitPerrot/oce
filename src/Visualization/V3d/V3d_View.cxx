@@ -136,10 +136,10 @@ To solve the problem (for lack of a better solution) I make 2 passes.
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Aspect_ColorScale.hxx>
 #include <Aspect_GradientBackground.hxx>
-#include <gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Graphic3d_Vector.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
-#include <gp_Ax3.hxx>
+#include <Mathematics/Primitives/gp_Ax3.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <V3d_View.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -156,8 +156,8 @@ IMPLEMENT_STANDARD_RTTI(V3d_View)
 
 #include <Image_AlienPixMap.hxx>
 
-#include <gp_Dir.hxx>
-#include <gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfInteger.hxx>
 

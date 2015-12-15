@@ -16,11 +16,11 @@
 
 #include <Geom2d_TrimmedCurve.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <gp_Circ2d.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_Circ2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <GCE2d_MakeArcOfCircle.hxx>
-#include <gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Geom2d_Circle.hxx>
 #include <gce_MakeCirc2d.hxx>
 #include <gce_MakeLin2d.hxx>

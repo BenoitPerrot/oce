@@ -26,7 +26,7 @@
 #include <AdvApp2Var_Node.hxx>
 #include <AdvApp2Var_SequenceOfNode.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
-#include <gp_XY.hxx>
+#include <Mathematics/Primitives/gp_XY.hxx>
 
 //==========================================================================================
 //function : AdvApp2Var_Framework

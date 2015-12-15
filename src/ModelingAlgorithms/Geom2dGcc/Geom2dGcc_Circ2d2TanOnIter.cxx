@@ -27,16 +27,16 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <GccEnt_QualifiedCirc.hxx>
 #include <Geom2dGcc_QCurve.hxx>
-#include <gp_Lin2d.hxx>
+#include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <GccEnt_QualifiedLin.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Circ2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Circ2d.hxx>
 #include <Geom2dAdaptor_Curve.hxx>
 #include <Geom2dGcc_Circ2d2TanOnIter.hxx>
 
-#include <gp_Dir2d.hxx>
-#include <gp_Ax2d.hxx>
-#include <gp.hxx>
+#include <Mathematics/Primitives/gp_Dir2d.hxx>
+#include <Mathematics/Primitives/gp_Ax2d.hxx>
+#include <Mathematics/Primitives/gp.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <GccEnt_BadQualifier.hxx>
 #include <Mathematics/Optimization/math_FunctionSetRoot.hxx>

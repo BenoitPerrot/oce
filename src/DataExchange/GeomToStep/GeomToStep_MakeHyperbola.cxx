@@ -18,8 +18,8 @@
 #include <GeomToStep_MakeHyperbola.hxx>
 
 #include <StepGeom_Hyperbola.hxx>
-#include <gp_Hypr.hxx>
-#include <gp_Hypr2d.hxx>
+#include <Mathematics/Primitives/gp_Hypr.hxx>
+#include <Mathematics/Primitives/gp_Hypr2d.hxx>
 #include <Geom_Hyperbola.hxx>
 #include <GeomToStep_MakeAxis2Placement2d.hxx>
 #include <GeomToStep_MakeAxis2Placement3d.hxx>

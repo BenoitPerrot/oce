@@ -68,11 +68,11 @@ IMPLEMENT_STANDARD_RTTI(AIS_PerpendicularRelation)
 
 #include <gce_MakeDir.hxx>
 
-#include <gp_Pln.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Trsf.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Geom_Ellipse.hxx>
 
 //=======================================================================

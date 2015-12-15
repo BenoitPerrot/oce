@@ -20,7 +20,7 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <GeomFill_TrihedronLaw.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <GeomFill_GuideTrihedronPlan.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -35,9 +35,9 @@ IMPLEMENT_STANDARD_TYPE_END(GeomFill_GuideTrihedronPlan)
 IMPLEMENT_DOWNCAST(GeomFill_GuideTrihedronPlan,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(GeomFill_GuideTrihedronPlan)
 
-#include <gp_Pnt.hxx>
-#include <gp_Pnt2d.hxx>
-//#include <gp_Trsf2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+//#include <Mathematics/Primitives/gp_Trsf2d.hxx>
 //#include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <ElCLib.hxx>
 

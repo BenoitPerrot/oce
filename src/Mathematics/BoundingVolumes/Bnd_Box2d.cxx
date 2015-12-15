@@ -15,12 +15,12 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Dir2d.hxx>
-#include <gp_Trsf2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Dir2d.hxx>
+#include <Mathematics/Primitives/gp_Trsf2d.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Foundation/Standard/Standard_Stream.hxx>
-#include <gp.hxx>
+#include <Mathematics/Primitives/gp.hxx>
 //-- #include <Precision.hxx> Precision::Infinite() -> 1e+100
 
 //=======================================================================

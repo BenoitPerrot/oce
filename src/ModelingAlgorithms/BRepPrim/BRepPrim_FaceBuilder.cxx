@@ -23,7 +23,7 @@
 #include <TopoDS_Vertex.hxx>
 #include <BRepPrim_FaceBuilder.hxx>
 #include <Precision.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geom2d_Line.hxx>
 #include <TopoDS_Wire.hxx>
 

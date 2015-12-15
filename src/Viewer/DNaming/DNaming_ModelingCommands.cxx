@@ -21,7 +21,7 @@
 
 #include <BRepTools.hxx>
 #include <BRep_Builder.hxx>
-#include <gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <TopAbs.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Shape.hxx>

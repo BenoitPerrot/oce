@@ -22,7 +22,7 @@
 #include <Geom_Curve.hxx>
 #include <Geom_Surface.hxx>
 #include <Geom_Plane.hxx>
-#include <gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
 #include <GeomProjLib.hxx>
 
 #include <ProjLib_ProjectedCurve.hxx>
@@ -54,7 +54,7 @@
 #include <Geom2d_BSplineCurve.hxx>
 #include <Geom2d_TrimmedCurve.hxx>
 
-#include <gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
 
 #include <Precision.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>

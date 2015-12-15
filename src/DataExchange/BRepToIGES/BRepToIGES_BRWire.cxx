@@ -26,7 +26,7 @@
 #include <TopoDS_Face.hxx>
 #include <Geom_Surface.hxx>
 #include <TopLoc_Location.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <TopoDS_Wire.hxx>
 #include <BRepToIGES_BRWire.hxx>
 
@@ -34,13 +34,13 @@
 #include <BRepTools.hxx>
 #include <BRepTools_WireExplorer.hxx>
 
-#include <gp.hxx>
-#include <gp_Ax2d.hxx>
-#include <gp_Dir2d.hxx>
-#include <gp_Pln.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Trsf.hxx>
-#include <gp_Trsf2d.hxx>
+#include <Mathematics/Primitives/gp.hxx>
+#include <Mathematics/Primitives/gp_Ax2d.hxx>
+#include <Mathematics/Primitives/gp_Dir2d.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Trsf2d.hxx>
 
 #include <Geom_CartesianPoint.hxx>
 #include <Geom_ConicalSurface.hxx>

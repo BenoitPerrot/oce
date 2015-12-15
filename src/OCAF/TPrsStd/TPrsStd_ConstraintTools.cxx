@@ -78,14 +78,14 @@
 #include <Geom_Plane.hxx>
 #include <Geom_CartesianPoint.hxx>
 #include <Geom_Circle.hxx>
-#include <gp_Pln.hxx>
-#include <gp_Dir.hxx>
-#include <gp_Ax1.hxx>
-#include <gp_Lin.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Cylinder.hxx>
-#include <gp_Cone.hxx>
-#include <gp_Torus.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Ax1.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Cylinder.hxx>
+#include <Mathematics/Primitives/gp_Cone.hxx>
+#include <Mathematics/Primitives/gp_Torus.hxx>
 #include <GC_MakePlane.hxx> 
 
 #include <Precision.hxx>

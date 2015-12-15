@@ -12,7 +12,7 @@
 
 #include <ChFiDS_CommonPoint.hxx>
 #include <ChFiDS_FaceInterference.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

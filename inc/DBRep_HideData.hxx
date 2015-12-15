@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <HLRBRep_ListOfBPoint.hxx>
 #include <TopoDS_Shape.hxx>

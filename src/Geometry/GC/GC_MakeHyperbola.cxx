@@ -16,9 +16,9 @@
 
 #include <Geom_Hyperbola.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <gp_Hypr.hxx>
-#include <gp_Ax2.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Hypr.hxx>
+#include <Mathematics/Primitives/gp_Ax2.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <GC_MakeHyperbola.hxx>
 #include <gce_MakeHypr.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>

@@ -28,12 +28,12 @@
 #include <BRep_Builder.hxx>
 #include <TopLoc_Location.hxx>
 #include <TopExp_Explorer.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Dir2d.hxx>
-#include <gp_Ax1.hxx>
-#include <gp_Ax3.hxx>
-#include <gp_Circ.hxx>
-#include <gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Dir2d.hxx>
+#include <Mathematics/Primitives/gp_Ax1.hxx>
+#include <Mathematics/Primitives/gp_Ax3.hxx>
+#include <Mathematics/Primitives/gp_Circ.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <GeomAdaptor_Curve.hxx>
 #include <Geom_Circle.hxx>
@@ -61,7 +61,7 @@
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx> 
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx> 
 #include <Geom_BSplineCurve.hxx> 
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <GeomConvert.hxx>
 
 #include <BRepTools_WireExplorer.hxx>

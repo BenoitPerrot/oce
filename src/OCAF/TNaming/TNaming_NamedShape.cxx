@@ -66,7 +66,7 @@ IMPLEMENT_STANDARD_RTTI(TNaming_NamedShape)
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/Standard/Standard_NullObject.hxx>
 
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <BRepLib_MakeVertex.hxx>
 #include <TopoDS_Vertex.hxx>
 

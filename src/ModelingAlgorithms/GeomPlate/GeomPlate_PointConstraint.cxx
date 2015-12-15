@@ -16,9 +16,9 @@
 
 #include <Geom_Surface.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <GeomLProp_SLProps.hxx>
 #include <GeomPlate_PointConstraint.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -31,9 +31,9 @@ IMPLEMENT_STANDARD_TYPE_END(GeomPlate_PointConstraint)
 IMPLEMENT_DOWNCAST(GeomPlate_PointConstraint,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(GeomPlate_PointConstraint)
 #include <GeomAPI_ProjectPointOnSurf.hxx>
-#include <gp_Ax3.hxx>
+#include <Mathematics/Primitives/gp_Ax3.hxx>
 #include <GeomAPI_ProjectPointOnSurf.hxx>
-#include <gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Geom_Plane.hxx>
 #include <Extrema_POnSurf.hxx>
 #include <Extrema_ExtPS.hxx>

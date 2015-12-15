@@ -12,7 +12,7 @@
 
 #include <Foundation/Standard/Standard_ShortReal.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <gp_XY.hxx>
+#include <Mathematics/Primitives/gp_XY.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class gp_XY;
 class gp_Pnt2d;

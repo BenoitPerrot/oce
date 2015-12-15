@@ -92,7 +92,7 @@ private:
 };
 
 #define Item gp_XYZ
-#define Item_hxx <gp_XYZ.hxx>
+#define Item_hxx <Mathematics/Primitives/gp_XYZ.hxx>
 #define TheSequence TColgp_SequenceOfXYZ
 #define TheSequence_hxx <Mathematics/Collections/TColgp_SequenceOfXYZ.hxx>
 #define TCollection_HSequence TColgp_HSequenceOfXYZ

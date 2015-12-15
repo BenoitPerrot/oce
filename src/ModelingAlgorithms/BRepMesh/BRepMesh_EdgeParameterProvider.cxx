@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <BRepMesh_EdgeParameterProvider.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Face.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>

@@ -26,10 +26,10 @@
 #include <Geom_Ellipse.hxx>
 #include <Geom_TrimmedCurve.hxx>
 #include <StepToGeom_MakeCurve.hxx>
-#include <gp_Ax1.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Dir.hxx>
-#include <gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Ax1.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
 
 //=============================================================================
 // Creation d' une SurfaceOfRevolution de Geom a partir d' une

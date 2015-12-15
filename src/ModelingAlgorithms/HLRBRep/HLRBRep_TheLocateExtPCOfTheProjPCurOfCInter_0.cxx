@@ -10,8 +10,8 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <HLRBRep_CurveTool.hxx>
 #include <Extrema_POnCurv2d.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <HLRBRep_PCLocFOfTheLocateExtPCOfTheProjPCurOfCInter.hxx>
 #include <HLRBRep_SeqPCOfPCLocFOfTheLocateExtPCOfTheProjPCurOfCInter.hxx>
  
@@ -23,9 +23,9 @@
 #define POnC Extrema_POnCurv2d
 #define POnC_hxx <Extrema_POnCurv2d.hxx>
 #define Pnt gp_Pnt2d
-#define Pnt_hxx <gp_Pnt2d.hxx>
+#define Pnt_hxx <Mathematics/Primitives/gp_Pnt2d.hxx>
 #define Vec gp_Vec2d
-#define Vec_hxx <gp_Vec2d.hxx>
+#define Vec_hxx <Mathematics/Primitives/gp_Vec2d.hxx>
 #define Extrema_PCLocF HLRBRep_PCLocFOfTheLocateExtPCOfTheProjPCurOfCInter
 #define Extrema_PCLocF_hxx <HLRBRep_PCLocFOfTheLocateExtPCOfTheProjPCurOfCInter.hxx>
 #define Extrema_SeqPCOfPCLocF HLRBRep_SeqPCOfPCLocFOfTheLocateExtPCOfTheProjPCurOfCInter

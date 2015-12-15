@@ -41,9 +41,9 @@
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Vec2d.hxx>
-#include <gp_Trsf2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_Trsf2d.hxx>
 #include <Geom2d_Geometry.hxx>
 #include <Geom2d_BSplineCurve.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -58,7 +58,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(Geom2d_BSplineCurve)
 IMPLEMENT_DOWNCAST(Geom2d_BSplineCurve,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Geom2d_BSplineCurve)
-#include <gp.hxx>
+#include <Mathematics/Primitives/gp.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Mathematics/BetaSpline/BSplCLib_KnotDistribution.hxx>
 #include <Mathematics/BetaSpline/BSplCLib_MultDistribution.hxx>

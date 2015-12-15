@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <gp_GTrsf.hxx>
+#include <Mathematics/Primitives/gp_GTrsf.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <BRepBuilderAPI_GTransform.hxx>
@@ -24,7 +24,7 @@
 #include <BRepTools_GTrsfModification.hxx>
 #include <BRepTools_NurbsConvertModification.hxx>
 #include <BRepBuilderAPI_NurbsConvert.hxx>
-#include <gp.hxx>
+#include <Mathematics/Primitives/gp.hxx>
 
 #include <TopTools_ListOfShape.hxx>
 #include <BRep_Builder.hxx>

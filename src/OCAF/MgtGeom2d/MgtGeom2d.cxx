@@ -72,13 +72,13 @@
 #include <PColgp_HArray1OfPnt2d.hxx>
 #include <PColgp_HArray2OfPnt2d.hxx>
 
-#include <gp_Vec.hxx>
-#include <gp_Ax1.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Ax1.hxx>
 
 //modif wok++
-#include <gp_Circ2d.hxx>
+#include <Mathematics/Primitives/gp_Circ2d.hxx>
 #include <Foundation/Standard/Standard_NullObject.hxx>
-#include <gp_Lin2d.hxx>
+#include <Mathematics/Primitives/gp_Lin2d.hxx>
 
 // *******************************************************************
 // The following methods are subroutines used to copy elements

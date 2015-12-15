@@ -17,8 +17,8 @@
 //--------------------------------------------------------------------
 
 #include <IGESSolid_BooleanTree.hxx>
-#include <gp_XYZ.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <IGESSolid_SelectedComponent.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESSolid_SelectedComponent)
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESSolid_SelectedComponent)
 IMPLEMENT_DOWNCAST(IGESSolid_SelectedComponent,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESSolid_SelectedComponent)
-#include <gp_GTrsf.hxx>
+#include <Mathematics/Primitives/gp_GTrsf.hxx>
 
 
 IGESSolid_SelectedComponent::IGESSolid_SelectedComponent ()    {  }

@@ -20,8 +20,8 @@
 #include <BRepMesh_VertexInspector.hxx>
 #include <BRepMesh.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
-#include <gp_XYZ.hxx>
-#include <gp_XY.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_XY.hxx>
 
 class BRepMesh_Vertex;
 

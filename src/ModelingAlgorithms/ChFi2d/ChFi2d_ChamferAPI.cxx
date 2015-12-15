@@ -14,7 +14,7 @@
 #include <ChFi2d_ChamferAPI.hxx>
 
 #include <Precision.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <GC_MakeLine.hxx>
 #include <BRep_Tool.hxx>
 #include <BRepLib_MakeEdge.hxx>

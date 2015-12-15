@@ -30,7 +30,7 @@
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <IGESDimen_ToolNewGeneralNote.hxx>
 #include <IGESData_ParamCursor.hxx>
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <IGESData_IGESEntity.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfXYZ.hxx>

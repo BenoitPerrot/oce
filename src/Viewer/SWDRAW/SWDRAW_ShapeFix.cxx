@@ -20,8 +20,8 @@
 #include <DBRep.hxx>
 #include <BRep_Tool.hxx>
 #include <SWDRAW.hxx>
-#include <gp_XYZ.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Edge.hxx>

@@ -18,7 +18,7 @@
 #include <IntTools_SurfaceRangeSample.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <IntTools_ListOfSurfaceRangeSample.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <IntTools_SurfaceRangeLocalizeData.hxx>
 #include <IntTools_ListIteratorOfListOfSurfaceRangeSample.hxx>
 #include <IntTools_ListIteratorOfListOfBox.hxx>

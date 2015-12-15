@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Foundation/Standard/Standard_Storable.hxx>
 #include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 class gp_Pnt;
@@ -58,7 +58,7 @@ private:
 };
 
 #define Pnt gp_Pnt
-#define Pnt_hxx <gp_Pnt.hxx>
+#define Pnt_hxx <Mathematics/Primitives/gp_Pnt.hxx>
 #define Extrema_Point Extrema_POnCurv
 #define Extrema_Point_hxx <Extrema_POnCurv.hxx>
 

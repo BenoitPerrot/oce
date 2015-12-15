@@ -92,7 +92,7 @@ private:
 };
 
 #define Array1Item gp_Lin
-#define Array1Item_hxx <gp_Lin.hxx>
+#define Array1Item_hxx <Mathematics/Primitives/gp_Lin.hxx>
 #define TCollection_Array1 Intf_Array1OfLin
 #define TCollection_Array1_hxx <Intf_Array1OfLin.hxx>
 

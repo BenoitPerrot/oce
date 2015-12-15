@@ -35,7 +35,7 @@
 #include <TopoDS_Edge.hxx>
 #include <TopoDS.hxx>
 #include <BRepAdaptor_Curve.hxx>
-#include <gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
 #include <BRepFeat_SplitShape.hxx>
 #include <DBRep_DrawableShape.hxx>
 #include <BRep_Builder.hxx>

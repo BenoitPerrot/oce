@@ -75,7 +75,7 @@ private:
 };
 
 #define ItemHArray2 gp_XY
-#define ItemHArray2_hxx <gp_XY.hxx>
+#define ItemHArray2_hxx <Mathematics/Primitives/gp_XY.hxx>
 #define TheArray2 TColgp_Array2OfXY
 #define TheArray2_hxx <Mathematics/Collections/TColgp_Array2OfXY.hxx>
 #define TCollection_HArray2 TColgp_HArray2OfXY

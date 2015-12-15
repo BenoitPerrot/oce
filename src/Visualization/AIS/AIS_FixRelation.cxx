@@ -22,7 +22,7 @@
 #include <TopoDS_Shape.hxx>
 #include <Geom_Plane.hxx>
 #include <TopoDS_Wire.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Prs3d_Presentation.hxx>
 #include <Prs3d_Projector.hxx>
 #include <Geom_Transformation.hxx>
@@ -30,8 +30,8 @@
 #include <TopoDS_Vertex.hxx>
 #include <Geom_Curve.hxx>
 #include <TopoDS_Edge.hxx>
-#include <gp_Lin.hxx>
-#include <gp_Circ.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Circ.hxx>
 #include <AIS_FixRelation.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_FixRelation)
@@ -74,11 +74,11 @@ IMPLEMENT_STANDARD_RTTI(AIS_FixRelation)
 #include <Geom_Circle.hxx>
 #include <Geom_Plane.hxx>
 
-#include <gp_Pnt.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Dir.hxx>
-#include <gp_Ax1.hxx>
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Ax1.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
 
 #include <ElCLib.hxx>
 #include <ElSLib.hxx>

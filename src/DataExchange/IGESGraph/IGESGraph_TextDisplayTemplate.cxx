@@ -17,8 +17,8 @@
 //--------------------------------------------------------------------
 
 #include <IGESGraph_TextFontDef.hxx>
-#include <gp_XYZ.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <IGESGraph_TextDisplayTemplate.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESGraph_TextDisplayTemplate)
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESGraph_TextDisplayTemplate)
 IMPLEMENT_DOWNCAST(IGESGraph_TextDisplayTemplate,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESGraph_TextDisplayTemplate)
-#include <gp_GTrsf.hxx>
+#include <Mathematics/Primitives/gp_GTrsf.hxx>
 
 
 IGESGraph_TextDisplayTemplate::IGESGraph_TextDisplayTemplate ()    {  }

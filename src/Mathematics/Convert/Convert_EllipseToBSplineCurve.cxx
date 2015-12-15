@@ -16,7 +16,7 @@
 
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <gp_Elips2d.hxx>
+#include <Mathematics/Primitives/gp_Elips2d.hxx>
 #include <Mathematics/Convert/Convert_EllipseToBSplineCurve.hxx>
 
 #include <Mathematics/Collections/TColgp_HArray1OfPnt2d.hxx>
@@ -25,10 +25,10 @@
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 
-#include <gp.hxx>
-#include <gp_Ax2d.hxx>
-#include <gp_Dir2d.hxx>
-#include <gp_Trsf2d.hxx>
+#include <Mathematics/Primitives/gp.hxx>
+#include <Mathematics/Primitives/gp_Ax2d.hxx>
+#include <Mathematics/Primitives/gp_Dir2d.hxx>
+#include <Mathematics/Primitives/gp_Trsf2d.hxx>
 
 #include <Precision.hxx>
 

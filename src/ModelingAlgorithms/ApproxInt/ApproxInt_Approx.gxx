@@ -17,8 +17,8 @@
 #include <AppParCurves_Constraint.hxx>
 #include <GeomAbs_SurfaceType.hxx>
 #include <IntSurf_Quadric.hxx>
-#include <gp_Trsf.hxx>
-#include <gp_Trsf2d.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Trsf2d.hxx>
 #include <IntSurf_PntOn2S.hxx>
 #include <Precision.hxx>
 

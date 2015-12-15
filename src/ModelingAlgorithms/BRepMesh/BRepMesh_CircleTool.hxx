@@ -20,8 +20,8 @@
 
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <BRepMesh_CircleInspector.hxx>
-#include <gp_XY.hxx>
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_XY.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <BRepMesh.hxx>

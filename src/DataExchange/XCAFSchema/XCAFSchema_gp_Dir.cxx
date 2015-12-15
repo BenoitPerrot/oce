@@ -2,7 +2,7 @@
 #include <XCAFSchema_gp_Dir.hxx>
 #endif
 #ifndef _gp_Dir_HeaderFile
-#include <gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
 #endif
 #ifndef _XCAFSchema_gp_XYZ_HeaderFile
 #include <XCAFSchema_gp_XYZ.hxx>

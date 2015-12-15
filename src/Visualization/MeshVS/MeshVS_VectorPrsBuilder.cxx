@@ -17,11 +17,11 @@
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <MeshVS_DataSource.hxx>
 #include <Prs3d_Presentation.hxx>
-#include <gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Graphic3d_ArrayOfPrimitives.hxx>
 #include <MeshVS_DataMapOfIntegerVector.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <MeshVS_VectorPrsBuilder.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MeshVS_VectorPrsBuilder)
@@ -53,7 +53,7 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_VectorPrsBuilder)
 
 #include <Precision.hxx>
 
-#include <gp_Ax3.hxx>
+#include <Mathematics/Primitives/gp_Ax3.hxx>
 
 #include <Prs3d_Root.hxx>
 

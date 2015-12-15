@@ -14,7 +14,7 @@
 #include <Handle_PGeom_Surface.hxx>
 #include <Handle_PGeom2d_Curve.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <PBRep_GCurve.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class PGeom_Surface;

@@ -27,8 +27,8 @@ IMPLEMENT_STANDARD_TYPE_END(Draw_Grid)
 IMPLEMENT_DOWNCAST(Draw_Grid,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Draw_Grid)
 
-#include <gp_Pnt.hxx>
-#include <gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
 
 #include <Draw_Appli.hxx>
 #include <Draw_ColorKind.hxx>

@@ -31,7 +31,7 @@
 #include <BRepTools.hxx>
 #include <Draw_Window.hxx>
 #include <BRep_Builder.hxx>
-#include <gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
 
 //  for NSPApply -- CKY 12 JUL 2001
 #include <Draw_ProgressIndicator.hxx>

@@ -13,8 +13,8 @@
 // commercial license or contractual agreement.
 
 #include <Prs3d_Presentation.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Prs3d_Arrow.hxx>
 #include <Graphic3d_Group.hxx>
 #include <Graphic3d_ArrayOfSegments.hxx>

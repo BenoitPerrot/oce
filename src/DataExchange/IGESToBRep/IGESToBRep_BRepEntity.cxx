@@ -31,7 +31,7 @@
 #include <IGESSolid_EdgeList.hxx>
 #include <IGESSolid_Loop.hxx>
 #include <TopoDS_Face.hxx>
-#include <gp_Trsf2d.hxx>
+#include <Mathematics/Primitives/gp_Trsf2d.hxx>
 #include <IGESSolid_Face.hxx>
 #include <IGESSolid_Shell.hxx>
 #include <IGESSolid_ManifoldSolid.hxx>
@@ -50,8 +50,8 @@
 #include <Geom_Curve.hxx>
 #include <Geom_TrimmedCurve.hxx>
 
-#include <gp.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 
 #include <IGESBasic_SingleParent.hxx>
 
@@ -88,7 +88,7 @@
 #include <Transfer_TransientProcess.hxx>
 
 #include <stdio.h>
-#include <gp_Vec2d.hxx>//rln
+#include <Mathematics/Primitives/gp_Vec2d.hxx>//rln
 
 #include <ShapeExtend_WireData.hxx>
 #include <ShapeBuild_Edge.hxx>

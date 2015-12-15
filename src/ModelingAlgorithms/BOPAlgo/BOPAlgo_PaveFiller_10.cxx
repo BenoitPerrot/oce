@@ -20,13 +20,13 @@
 #include <BOPAlgo_SectionAttribute.hxx>
 #include <BOPDS_PaveBlock.hxx>
 #include <TopoDS_Vertex.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <BOPDS_Curve.hxx>
 #include <TopoDS_Face.hxx>
 #include <IntSurf_ListOfPntOn2S.hxx>
 #include <BOPAlgo_PaveFiller.hxx>
 
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 
 #include <TopAbs_State.hxx>
 

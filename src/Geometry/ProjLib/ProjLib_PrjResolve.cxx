@@ -19,7 +19,7 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Adaptor3d_Curve.hxx>
 #include <Adaptor3d_Surface.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <ProjLib_PrjResolve.hxx>
 #include <ProjLib_PrjFunc.hxx>
 #include <Mathematics/Optimization/math_FunctionSetRoot.hxx>

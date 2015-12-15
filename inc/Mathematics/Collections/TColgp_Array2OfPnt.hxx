@@ -100,7 +100,7 @@ private:
 };
 
 #define Array2Item gp_Pnt
-#define Array2Item_hxx <gp_Pnt.hxx>
+#define Array2Item_hxx <Mathematics/Primitives/gp_Pnt.hxx>
 #define TCollection_Array2 TColgp_Array2OfPnt
 #define TCollection_Array2_hxx <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
 

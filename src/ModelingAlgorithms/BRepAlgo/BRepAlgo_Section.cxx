@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <TopoDS_Shape.hxx>
-#include <gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Geom_Surface.hxx>
 #include <BRepAlgo_Section.hxx>
 #include <BRepLib_MakeShell.hxx>

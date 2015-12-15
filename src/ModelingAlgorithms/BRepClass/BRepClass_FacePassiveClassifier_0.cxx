@@ -8,7 +8,7 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <BRepClass_Edge.hxx>
 #include <BRepClass_Intersector.hxx>
-#include <gp_Lin2d.hxx>
+#include <Mathematics/Primitives/gp_Lin2d.hxx>
  
 
 #define TheEdge BRepClass_Edge

@@ -12,14 +12,14 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <gp_Circ.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Circ.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
 #include <GProp_CelGProps.hxx>
 #include <GProp.hxx>
-#include <gp.hxx>
-#include <gp_Vec.hxx>
-#include <gp.hxx>
+#include <Mathematics/Primitives/gp.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp.hxx>
 #include <ElCLib.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>

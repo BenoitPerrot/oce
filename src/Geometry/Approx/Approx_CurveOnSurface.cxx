@@ -22,8 +22,8 @@
 #include <Adaptor2d_HCurve2d.hxx>
 #include <Adaptor3d_HSurface.hxx>
 #include <Approx_CurveOnSurface.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <GeomAdaptor_HSurface.hxx>
 #include <Adaptor3d_CurveOnSurface.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>

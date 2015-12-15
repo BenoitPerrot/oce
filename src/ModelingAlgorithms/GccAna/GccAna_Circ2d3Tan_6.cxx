@@ -17,16 +17,16 @@
 #include <GccEnt_BadQualifier.hxx>
 #include <GccEnt_QualifiedCirc.hxx>
 #include <GccEnt_QualifiedLin.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Circ2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Circ2d.hxx>
 #include <GccAna_Circ2d3Tan.hxx>
 
 #include <ElCLib.hxx>
 #include <IntAna2d_AnaIntersection.hxx>
 #include <IntAna2d_IntPoint.hxx>
-#include <gp_Lin2d.hxx>
-#include <gp_Circ2d.hxx>
-#include <gp_Dir2d.hxx>
+#include <Mathematics/Primitives/gp_Lin2d.hxx>
+#include <Mathematics/Primitives/gp_Circ2d.hxx>
+#include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <GccAna_LinPnt2dBisec.hxx>
 #include <GccAna_Lin2dBisec.hxx>
 #include <GccInt_IType.hxx>

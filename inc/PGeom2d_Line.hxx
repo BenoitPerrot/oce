@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard.hxx>
 #include <Handle_PGeom2d_Line.hxx>
 
-#include <gp_Ax2d.hxx>
+#include <Mathematics/Primitives/gp_Ax2d.hxx>
 #include <PGeom2d_Curve.hxx>
 class gp_Ax2d;
 

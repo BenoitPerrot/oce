@@ -11,7 +11,7 @@
 #include <Handle_IGESBasic_SingularSubfigure.hxx>
 
 #include <Handle_IGESBasic_SubfigureDef.hxx>
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <IGESData_IGESEntity.hxx>

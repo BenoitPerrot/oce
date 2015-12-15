@@ -23,13 +23,13 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <TopoDS_Wire.hxx>
-#include <gp_Ax2.hxx>
-#include <gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Ax2.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <BRepFill_Section.hxx>
-#include <gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <BRepFill_Sweep.hxx>
 #include <BRepFill_PipeShell.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -84,9 +84,9 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_PipeShell)
 //Specification Guide
 #include <GeomAdaptor_HCurve.hxx>
 
-#include <gp_Trsf.hxx>
-#include <gp_Dir.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Precision.hxx>
 
 #include <Foundation/Standard/Standard_NotImplemented.hxx>

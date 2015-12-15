@@ -2,7 +2,7 @@
 #include <StdSchema_gp_Pnt.hxx>
 #endif
 #ifndef _gp_Pnt_HeaderFile
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #endif
 #ifndef _StdSchema_gp_XYZ_HeaderFile
 #include <StdSchema_gp_XYZ.hxx>

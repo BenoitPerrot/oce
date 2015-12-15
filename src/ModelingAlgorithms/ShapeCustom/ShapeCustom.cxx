@@ -25,7 +25,7 @@
 #include <ShapeCustom_ConvertToBSpline.hxx>
 #include <ShapeCustom_SweptToElementary.hxx>
 
-#include <gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Compound.hxx>

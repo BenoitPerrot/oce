@@ -17,8 +17,8 @@
 #define _BRepMesh_IEdgeTool_HeaderFile
 
 #include <Foundation/Standard/Standard.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 
 //! Interface class providing API for edge tessellation tools.

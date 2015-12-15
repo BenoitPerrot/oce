@@ -33,7 +33,7 @@
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <IGESData_Dump.hxx>
 #include <Interface_Macros.hxx>
-#include <gp_XY.hxx>
+#include <Mathematics/Primitives/gp_XY.hxx>
 
 // MGE 28/07/98
 #include <Foundation/Message/Message_Msg.hxx>

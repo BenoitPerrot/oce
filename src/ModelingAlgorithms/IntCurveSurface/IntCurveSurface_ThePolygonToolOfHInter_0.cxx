@@ -6,13 +6,13 @@
 #include <IntCurveSurface_ThePolygonToolOfHInter.hxx>
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <IntCurveSurface_ThePolygonOfHInter.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
  
 
 #define ThePoint gp_Pnt
-#define ThePoint_hxx <gp_Pnt.hxx>
+#define ThePoint_hxx <Mathematics/Primitives/gp_Pnt.hxx>
 #define ThePolygon IntCurveSurface_ThePolygonOfHInter
 #define ThePolygon_hxx <IntCurveSurface_ThePolygonOfHInter.hxx>
 #define TheBoundingBox Bnd_Box

@@ -9,11 +9,11 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
  
 
 #define Array1Item gp_Vec
-#define Array1Item_hxx <gp_Vec.hxx>
+#define Array1Item_hxx <Mathematics/Primitives/gp_Vec.hxx>
 #define TCollection_Array1 TColgp_Array1OfVec
 #define TCollection_Array1_hxx <Mathematics/Collections/TColgp_Array1OfVec.hxx>
 #include <Foundation/TCollection/TCollection_Array1.gxx>

@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <GccInt_BPoint.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(GccInt_BPoint)
@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_TYPE_END(GccInt_BPoint)
 IMPLEMENT_DOWNCAST(GccInt_BPoint,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(GccInt_BPoint)
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 
 GccInt_BPoint::
    GccInt_BPoint(const gp_Pnt2d& Point) {

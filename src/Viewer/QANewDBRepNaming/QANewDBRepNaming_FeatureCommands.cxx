@@ -68,10 +68,10 @@
 
 #include <GCE2d_MakeLine.hxx>
 
-#include <gp_Pnt.hxx>
-#include <gp_Ax1.hxx>
-#include <gp_Dir.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Ax1.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 
 #include <QANewBRepNaming_Fuse.hxx>
 #include <QANewBRepNaming_Cut.hxx>

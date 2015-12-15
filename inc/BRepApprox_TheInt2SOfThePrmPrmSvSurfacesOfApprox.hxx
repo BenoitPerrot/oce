@@ -12,8 +12,8 @@
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <IntSurf_PntOn2S.hxx>
-#include <gp_Dir.hxx>
-#include <gp_Dir2d.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <BRepApprox_TheFunctionOfTheInt2SOfThePrmPrmSvSurfacesOfApprox.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <IntImp_ConstIsoparametric.hxx>

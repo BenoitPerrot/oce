@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <TopTools_HArray2OfShape.hxx>
-#include <gp_Ax2.hxx>
+#include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <TopoDS_Face.hxx>
 #include <TopoDS_Wire.hxx>
 #include <TopoDS_Shape.hxx>
@@ -36,7 +36,7 @@
 
 #include <Geom_Curve.hxx>
 #include <Geom2d_Curve.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 
 #include <TopLoc_Location.hxx>
 #include <TopExp.hxx>
@@ -49,7 +49,7 @@
 #include <TopTools_DataMapOfShapeListOfShape.hxx>
 #include <TopTools_DataMapIteratorOfDataMapOfShapeListOfShape.hxx>
 
-#include <gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
 #include <TopoDS_Iterator.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>

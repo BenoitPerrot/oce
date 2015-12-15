@@ -19,7 +19,7 @@
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <TopoDS_Face.hxx>
 #include <TopoDS_Edge.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <TopoDS_Shape.hxx>
 #include <BRepOffsetAPI_MakeFilling.hxx>

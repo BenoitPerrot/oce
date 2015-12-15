@@ -11,9 +11,9 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <gp_Ax22d.hxx>
+#include <Mathematics/Primitives/gp_Ax22d.hxx>
 #include <GeomAbs_CurveType.hxx>
-#include <gp_Trsf2d.hxx>
+#include <Mathematics/Primitives/gp_Trsf2d.hxx>
 class gp_Elips2d;
 class gp_Lin2d;
 class gp_Circ2d;

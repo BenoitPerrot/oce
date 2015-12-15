@@ -30,9 +30,9 @@
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <IGESGraph_ToolUniformRectGrid.hxx>
 #include <IGESData_ParamCursor.hxx>
-#include <gp_XY.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_XY.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <IGESData_Dump.hxx>
 
 

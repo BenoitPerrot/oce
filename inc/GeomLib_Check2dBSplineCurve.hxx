@@ -13,7 +13,7 @@
 #include <Handle_Geom2d_BSplineCurve.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 class Geom2d_BSplineCurve;
 class StdFail_NotDone;
 class Standard_OutOfRange;

@@ -9,11 +9,11 @@
 #include <HLRBRep_ThePolygonToolOfInterCSurf.hxx>
 #include <HLRBRep_ThePolyhedronOfInterCSurf.hxx>
 #include <HLRBRep_ThePolyhedronToolOfInterCSurf.hxx>
-#include <gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Intf_Array1OfLin.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_BoundSortBox.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
  
 
 #define Polygon3d HLRBRep_ThePolygonOfInterCSurf

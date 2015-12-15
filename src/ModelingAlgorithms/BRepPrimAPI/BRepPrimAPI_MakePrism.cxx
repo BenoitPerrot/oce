@@ -18,8 +18,8 @@
 // Add methods for supporting history.
 
 #include <TopoDS_Shape.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
 #include <BRepSweep_Prism.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <BRepPrimAPI_MakePrism.hxx>

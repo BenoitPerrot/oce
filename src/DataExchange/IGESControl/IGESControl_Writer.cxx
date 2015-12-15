@@ -37,7 +37,7 @@
 #include <Interface_Static.hxx>
 #include <ShapeAnalysis_ShapeTolerance.hxx>
 
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BRepBndLib.hxx>
 #include <GeomAdaptor_Curve.hxx>

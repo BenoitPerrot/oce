@@ -19,7 +19,7 @@
 #include <Foundation/Standard/Standard_NegativeValue.hxx>
 #include <Foundation/Standard/Standard_NullValue.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <StlMesh_SequenceOfMeshTriangle.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfXYZ.hxx>
 #include <StlMesh_Mesh.hxx>

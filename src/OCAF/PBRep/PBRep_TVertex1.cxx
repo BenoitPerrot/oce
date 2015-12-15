@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <PBRep_PointRepresentation.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <PBRep_TVertex1.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PBRep_TVertex1)

@@ -12,7 +12,7 @@
 #include <Handle_PBRep_TVertex.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Handle_PBRep_PointRepresentation.hxx>
 #include <PTopoDS_TVertex.hxx>
 class PBRep_PointRepresentation;

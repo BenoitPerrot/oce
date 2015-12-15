@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <gp_Lin2d.hxx>
+#include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <Handle_PColgp_VArrayNodeOfFieldOfHArray2OfLin2d.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 class gp_Lin2d;
@@ -53,7 +53,7 @@ private:
 };
 
 #define Item gp_Lin2d
-#define Item_hxx <gp_Lin2d.hxx>
+#define Item_hxx <Mathematics/Primitives/gp_Lin2d.hxx>
 #define DBC_VArrayNode PColgp_VArrayNodeOfFieldOfHArray2OfLin2d
 #define DBC_VArrayNode_hxx <PColgp_VArrayNodeOfFieldOfHArray2OfLin2d.hxx>
 #define DBC_VArrayTNode PColgp_VArrayTNodeOfFieldOfHArray2OfLin2d

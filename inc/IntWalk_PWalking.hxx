@@ -13,11 +13,11 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_IntSurf_LineOn2S.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <IntImp_ConstIsoparametric.hxx>
 #include <IntSurf_PntOn2S.hxx>
-#include <gp_Dir2d.hxx>
+#include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <IntWalk_TheInt2S.hxx>
 #include <Handle_Adaptor3d_HSurface.hxx>
 #include <IntWalk_StatusDeflection.hxx>

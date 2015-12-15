@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Draw_Segment2D.hxx>
 
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Draw_Color.hxx>
 #include <Draw_Drawable2D.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>

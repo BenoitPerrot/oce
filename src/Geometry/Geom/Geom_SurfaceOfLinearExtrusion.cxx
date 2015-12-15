@@ -18,11 +18,11 @@
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Geom_UndefinedDerivative.hxx>
 #include <Geom_Curve.hxx>
-#include <gp_Dir.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Trsf.hxx>
-#include <gp_GTrsf2d.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_GTrsf2d.hxx>
 #include <Geom_Geometry.hxx>
 #include <Geom_SurfaceOfLinearExtrusion.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -38,10 +38,10 @@ IMPLEMENT_STANDARD_TYPE_END(Geom_SurfaceOfLinearExtrusion)
 IMPLEMENT_DOWNCAST(Geom_SurfaceOfLinearExtrusion,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Geom_SurfaceOfLinearExtrusion)
 #include <Precision.hxx>
-#include <gp.hxx>
-#include <gp_Ax2d.hxx>
-#include <gp_XYZ.hxx>
-#include <gp_Lin.hxx>
+#include <Mathematics/Primitives/gp.hxx>
+#include <Mathematics/Primitives/gp_Ax2d.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Geom_Line.hxx>
 #include <Geom_Circle.hxx>
 #include <Geom_Ellipse.hxx>

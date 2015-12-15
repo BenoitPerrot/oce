@@ -21,8 +21,8 @@
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Face.hxx>
 #include <TopoDS_Wire.hxx>
-#include <gp_Dir.hxx>
-#include <gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <LocOpe_SplitDrafts.hxx>
 
@@ -67,8 +67,8 @@
 
 #include <Geom2d_Curve.hxx>
 #include <Geom2d_Line.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
 
 #include <GeomFill_Pipe.hxx>
 
@@ -80,7 +80,7 @@
 #include <TopExp.hxx>
 #include <Precision.hxx>
 #include <BRepGProp.hxx>
-#include <gp.hxx>
+#include <Mathematics/Primitives/gp.hxx>
 
 static Standard_Boolean NewPlane(const TopoDS_Face&,
 				 const gp_Dir&,

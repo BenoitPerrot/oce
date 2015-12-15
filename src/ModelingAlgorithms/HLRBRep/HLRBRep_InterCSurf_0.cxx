@@ -5,7 +5,7 @@
 
 #include <HLRBRep_InterCSurf.hxx>
 
-#include <gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
 #include <HLRBRep_LineTool.hxx>
 #include <HLRBRep_SurfaceTool.hxx>
 #include <HLRBRep_ThePolygonOfInterCSurf.hxx>
@@ -18,10 +18,10 @@
 #include <HLRBRep_TheQuadCurvExactInterCSurf.hxx>
 #include <HLRBRep_TheQuadCurvFuncOfTheQuadCurvExactInterCSurf.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_BoundSortBox.hxx>
-#include <gp_Circ.hxx>
-#include <gp_Elips.hxx>
-#include <gp_Parab.hxx>
-#include <gp_Hypr.hxx>
+#include <Mathematics/Primitives/gp_Circ.hxx>
+#include <Mathematics/Primitives/gp_Elips.hxx>
+#include <Mathematics/Primitives/gp_Parab.hxx>
+#include <Mathematics/Primitives/gp_Hypr.hxx>
 #include <IntAna_IntConicQuad.hxx>
 #include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
@@ -29,7 +29,7 @@
  
 
 #define TheCurve gp_Lin
-#define TheCurve_hxx <gp_Lin.hxx>
+#define TheCurve_hxx <Mathematics/Primitives/gp_Lin.hxx>
 #define TheCurveTool HLRBRep_LineTool
 #define TheCurveTool_hxx <HLRBRep_LineTool.hxx>
 #define TheSurface Standard_Address

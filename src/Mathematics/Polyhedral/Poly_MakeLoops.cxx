@@ -16,8 +16,8 @@
 #include <Mathematics/Polyhedral/Poly_MakeLoops.hxx>
 #include <Foundation/NCollection/NCollection_IncAllocator.hxx>
 #include <Foundation/NCollection/NCollection_DataMap.hxx>
-#include <gp_Dir.hxx>
-#include <gp_Dir2d.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Dir2d.hxx>
 
 #ifdef OCCT_DEBUG
 static Standard_Integer doDebug = 0;

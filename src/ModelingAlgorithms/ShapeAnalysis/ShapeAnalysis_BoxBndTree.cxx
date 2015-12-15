@@ -21,7 +21,7 @@
 #include <TopoDS_Wire.hxx>
 #include <TopoDS.hxx>
 #include <ShapeAnalysis.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 #include <BRep_Tool.hxx>
 #include <Precision.hxx>

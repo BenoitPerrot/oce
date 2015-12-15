@@ -14,8 +14,8 @@
 
 #include <GProp_UndefinedAxis.hxx>
 #include <GProp_PrincipalProps.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <GProp_PrincipalProps.hxx>
 
 

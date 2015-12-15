@@ -17,8 +17,8 @@
 //--------------------------------------------------------------------
 
 #include <IGESData_IGESEntity.hxx>
-#include <gp_XYZ.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <IGESGeom_OffsetCurve.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESGeom_OffsetCurve)
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESGeom_OffsetCurve)
 IMPLEMENT_DOWNCAST(IGESGeom_OffsetCurve,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESGeom_OffsetCurve)
-#include <gp_GTrsf.hxx>
+#include <Mathematics/Primitives/gp_GTrsf.hxx>
 
 
 IGESGeom_OffsetCurve::IGESGeom_OffsetCurve ()     {  }

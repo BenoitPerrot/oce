@@ -17,7 +17,7 @@
 #include <TopoDS_Shape.hxx>
 #include <TopOpeBRepDS_Interference.hxx>
 #include <TopOpeBRepDS_Curve.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <TopOpeBRepDS_FaceInterferenceTool.hxx>
 
 #include <Extrema_ExtPS.hxx>
@@ -28,7 +28,7 @@
 #include <TopoDS.hxx>
 #include <TopExp_Explorer.hxx>
 #include <Precision.hxx>
-#include <gp_Sphere.hxx>
+#include <Mathematics/Primitives/gp_Sphere.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <TopOpeBRepDS_ProcessInterferencesTool.hxx>
 #include <TopOpeBRepTool_ShapeTool.hxx>

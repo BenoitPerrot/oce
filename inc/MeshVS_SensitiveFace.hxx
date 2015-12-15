@@ -10,8 +10,8 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_MeshVS_SensitiveFace.hxx>
 
-#include <gp_Pnt.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Select3D_SensitiveFace.hxx>
 #include <Handle_SelectBasics_EntityOwner.hxx>
 #include <Select3D_TypeOfSensitivity.hxx>

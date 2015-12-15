@@ -16,9 +16,9 @@
 
 #include <Graphic3d_Mat4d.hxx>
 #include <Foundation/Standard/Standard_Assert.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
 
 //=======================================================================
 //function : Perspective

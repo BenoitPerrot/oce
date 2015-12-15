@@ -27,8 +27,8 @@
 #include <GCPnts_TangentialDeflection.hxx>
 #include <Geom2dAdaptor_Curve.hxx>
 #include <GeomAdaptor_Curve.hxx>
-#include <gp_Dir2d.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Dir2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <IVtkOCC_ShapeMesher.hxx>
 #include <Foundation/NCollection/NCollection_Array1.hxx>
 #include <Mathematics/Polyhedral/Poly_Polygon3D.hxx>

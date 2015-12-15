@@ -15,8 +15,8 @@
 // commercial license or contractual agreement.
 
 #include <Draw_Color.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Ax3.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Ax3.hxx>
 #include <Draw_Display.hxx>
 #include <Draw_Axis3D.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -29,8 +29,8 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(Draw_Axis3D)
 IMPLEMENT_DOWNCAST(Draw_Axis3D,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Draw_Axis3D)
-#include <gp_Vec.hxx>
-#include <gp.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp.hxx>
 
 extern Standard_Boolean Draw_Bounds;
 

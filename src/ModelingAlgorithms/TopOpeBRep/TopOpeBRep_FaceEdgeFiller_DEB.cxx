@@ -25,8 +25,8 @@
 #include <TopAbs.hxx>
 #include <TopAbs_State.hxx>
 #include <TopAbs_Orientation.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 
 //------------------------------------------------------------------
 void FEINT_DUMPPOINTS(TopOpeBRep_FaceEdgeIntersector& FEINT,

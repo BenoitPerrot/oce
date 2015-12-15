@@ -17,10 +17,10 @@
 #include <GeomFill_Frenet.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
 #include <GeomFill_TrihedronLaw.hxx>
 #include <Adaptor3d_HCurve.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <GeomFill_ConstantBiNormal.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -34,8 +34,8 @@ IMPLEMENT_STANDARD_TYPE_END(GeomFill_ConstantBiNormal)
 IMPLEMENT_DOWNCAST(GeomFill_ConstantBiNormal,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(GeomFill_ConstantBiNormal)
 
-#include <gp_Ax1.hxx>
-#include <gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Ax1.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
 
 #include <Precision.hxx>
 

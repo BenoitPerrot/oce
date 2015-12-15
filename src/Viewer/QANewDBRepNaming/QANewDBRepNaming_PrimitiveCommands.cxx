@@ -32,7 +32,7 @@
 #include <TopoDS_Face.hxx>
 #include <TopoDS_Wire.hxx>
 #include <TopoDS_Edge.hxx>
-#include <gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
 
 #include <QANewBRepNaming_Box.hxx>
 #include <QANewBRepNaming_Cylinder.hxx>

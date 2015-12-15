@@ -15,12 +15,12 @@
 #include <Handle_Contap_TheHSequenceOfPoint.hxx>
 #include <Handle_Adaptor2d_HCurve2d.hxx>
 #include <Contap_IType.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <gp_Lin.hxx>
-#include <gp_Circ.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Circ.hxx>
 class IntSurf_LineOn2S;
 class Contap_TheHSequenceOfPoint;
 class Adaptor2d_HCurve2d;

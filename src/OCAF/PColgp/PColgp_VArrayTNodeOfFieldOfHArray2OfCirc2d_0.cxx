@@ -5,13 +5,13 @@
 
 #include <PColgp_VArrayTNodeOfFieldOfHArray2OfCirc2d.hxx>
 
-#include <gp_Circ2d.hxx>
+#include <Mathematics/Primitives/gp_Circ2d.hxx>
 #include <PColgp_FieldOfHArray2OfCirc2d.hxx>
 #include <PColgp_VArrayNodeOfFieldOfHArray2OfCirc2d.hxx>
  
 
 #define Item gp_Circ2d
-#define Item_hxx <gp_Circ2d.hxx>
+#define Item_hxx <Mathematics/Primitives/gp_Circ2d.hxx>
 #define DBC_VArrayNode PColgp_VArrayNodeOfFieldOfHArray2OfCirc2d
 #define DBC_VArrayNode_hxx <PColgp_VArrayNodeOfFieldOfHArray2OfCirc2d.hxx>
 #define DBC_VArrayTNode PColgp_VArrayTNodeOfFieldOfHArray2OfCirc2d

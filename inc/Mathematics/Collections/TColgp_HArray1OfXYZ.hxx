@@ -69,7 +69,7 @@ private:
 };
 
 #define ItemHArray1 gp_XYZ
-#define ItemHArray1_hxx <gp_XYZ.hxx>
+#define ItemHArray1_hxx <Mathematics/Primitives/gp_XYZ.hxx>
 #define TheArray1 TColgp_Array1OfXYZ
 #define TheArray1_hxx <Mathematics/Collections/TColgp_Array1OfXYZ.hxx>
 #define TCollection_HArray1 TColgp_HArray1OfXYZ

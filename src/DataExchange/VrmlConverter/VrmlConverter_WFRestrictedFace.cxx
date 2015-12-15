@@ -15,7 +15,7 @@
 #include <VrmlConverter_Drawer.hxx>
 #include <VrmlConverter_WFRestrictedFace.hxx>
 #include <Hatch_Hatcher.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <VrmlConverter_IsoAspect.hxx>
 #include <Adaptor3d_IsoCurve.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>

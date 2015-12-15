@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_TYPE_END(BRepApprox_ApproxLine)
 IMPLEMENT_DOWNCAST(BRepApprox_ApproxLine,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BRepApprox_ApproxLine)
 
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 
 //=======================================================================
 //function : BRepApprox_ApproxLine

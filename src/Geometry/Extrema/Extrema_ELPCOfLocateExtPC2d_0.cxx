@@ -11,8 +11,8 @@
 #include <Adaptor2d_Curve2d.hxx>
 #include <Extrema_Curve2dTool.hxx>
 #include <Extrema_ExtPElC2d.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Extrema_POnCurv2d.hxx>
 #include <Extrema_SequenceOfPOnCurv2d.hxx>
 #include <Extrema_EPCOfELPCOfLocateExtPC2d.hxx>
@@ -26,9 +26,9 @@
 #define TheExtPElC Extrema_ExtPElC2d
 #define TheExtPElC_hxx <Extrema_ExtPElC2d.hxx>
 #define ThePoint gp_Pnt2d
-#define ThePoint_hxx <gp_Pnt2d.hxx>
+#define ThePoint_hxx <Mathematics/Primitives/gp_Pnt2d.hxx>
 #define TheVector gp_Vec2d
-#define TheVector_hxx <gp_Vec2d.hxx>
+#define TheVector_hxx <Mathematics/Primitives/gp_Vec2d.hxx>
 #define ThePOnC Extrema_POnCurv2d
 #define ThePOnC_hxx <Extrema_POnCurv2d.hxx>
 #define TheSequenceOfPOnC Extrema_SequenceOfPOnCurv2d

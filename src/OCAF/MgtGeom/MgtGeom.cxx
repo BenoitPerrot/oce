@@ -98,14 +98,14 @@
 #include <PColgp_HArray1OfPnt.hxx>
 #include <PColgp_HArray2OfPnt.hxx>
 
-#include <gp_Vec.hxx>
-#include <gp_Circ.hxx>
-#include <gp_Ax1.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Circ.hxx>
+#include <Mathematics/Primitives/gp_Ax1.hxx>
 
 //modif wok++
 #include <Foundation/Standard/Standard_NullObject.hxx>
-#include <gp_Lin.hxx>
-#include <gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
 
 // *******************************************************************
 // The following methods are subroutines used to copy elements

@@ -37,9 +37,9 @@
 #include <BRep_Builder.hxx>
 #include <TopTools_HSequenceOfShape.hxx>
 
-#include <gp_Pnt.hxx>
-#include <gp_XYZ.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 
 #include <Geom_Curve.hxx>
 #include <GeomAPI_ProjectPointOnCurve.hxx>

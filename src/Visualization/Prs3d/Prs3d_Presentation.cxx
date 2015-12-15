@@ -38,11 +38,11 @@ IMPLEMENT_STANDARD_RTTI(Prs3d_Presentation)
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <Graphic3d_Structure.hxx>
 #include <Aspect_TypeOfHighlightMethod.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Dir.hxx>
-#include <gp_Ax1.hxx>
-#include <gp_Trsf.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Ax1.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Aspect_InteriorStyle.hxx>
 #include <Aspect_TypeOfLine.hxx>

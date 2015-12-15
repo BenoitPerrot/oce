@@ -19,9 +19,9 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geom_Geometry.hxx>
 #include <Adaptor3d_HCurve.hxx>
-#include <gp_Trsf.hxx>
-#include <gp_Mat.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Mat.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <GeomFill_SectionPlacement.hxx>
 
 #include <GeomLib.hxx>
@@ -30,17 +30,17 @@
 #include <GeomAbs_CurveType.hxx> 
 #include <GeomAdaptor_HSurface.hxx>
 
-#include <gp_Ax3.hxx>
-#include <gp_Ax2.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Dir.hxx>
-#include <gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Ax3.hxx>
+#include <Mathematics/Primitives/gp_Ax2.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BndLib_Add3dCurve.hxx>
 
 #include <Precision.hxx>
-#include <gp.hxx>
+#include <Mathematics/Primitives/gp.hxx>
 #include <Extrema_ExtCC.hxx>
 #include <Extrema_POnCurv.hxx>
 #include <IntCurveSurface_HInter.hxx>

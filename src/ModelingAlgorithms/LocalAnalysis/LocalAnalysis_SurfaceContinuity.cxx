@@ -20,11 +20,11 @@
 #include <GeomLProp_SLProps.hxx>
 #include <LocalAnalysis_SurfaceContinuity.hxx>
 #include <GeomLProp_SLProps.hxx>
-#include <gp.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Dir.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Geom_Surface.hxx>
 #include <Geom2d_Curve.hxx>
 

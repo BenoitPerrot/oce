@@ -9,11 +9,11 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <gp_Lin2d.hxx>
+#include <Mathematics/Primitives/gp_Lin2d.hxx>
  
 
 #define Array1Item gp_Lin2d
-#define Array1Item_hxx <gp_Lin2d.hxx>
+#define Array1Item_hxx <Mathematics/Primitives/gp_Lin2d.hxx>
 #define TCollection_Array1 TColgp_Array1OfLin2d
 #define TCollection_Array1_hxx <Mathematics/Collections/TColgp_Array1OfLin2d.hxx>
 #include <Foundation/TCollection/TCollection_Array1.gxx>

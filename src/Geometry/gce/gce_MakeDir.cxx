@@ -15,13 +15,13 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <gp_Vec.hxx>
-#include <gp_XYZ.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
 #include <gce_MakeDir.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <gp.hxx>
+#include <Mathematics/Primitives/gp.hxx>
 
 //=========================================================================
 //   Creation d une direction 3d (Dir) de gp a partir de 2 Pnt de gp.     +

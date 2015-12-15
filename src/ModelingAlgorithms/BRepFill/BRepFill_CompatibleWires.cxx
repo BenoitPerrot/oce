@@ -56,12 +56,12 @@
 #include <TopTools_SequenceOfShape.hxx>
 #include <TopTools_ListOfShape.hxx>    
 
-#include <gp.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Ax2.hxx>
-#include <gp_Pln.hxx>
-#include <gp_Circ.hxx>
-#include <gp_Elips.hxx>
+#include <Mathematics/Primitives/gp.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Ax2.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Circ.hxx>
+#include <Mathematics/Primitives/gp_Elips.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfVec.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
 

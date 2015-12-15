@@ -30,8 +30,8 @@
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <IGESDimen_ToolAngularDimension.hxx>
 #include <IGESData_ParamCursor.hxx>
-#include <gp_XY.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_XY.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <IGESDimen_GeneralNote.hxx>
 #include <IGESDimen_LeaderArrow.hxx>
 #include <IGESDimen_WitnessLine.hxx>

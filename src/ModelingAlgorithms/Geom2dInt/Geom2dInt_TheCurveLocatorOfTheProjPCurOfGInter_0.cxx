@@ -8,7 +8,7 @@
 #include <Adaptor2d_Curve2d.hxx>
 #include <Geom2dInt_Geom2dCurveTool.hxx>
 #include <Extrema_POnCurv2d.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
  
 
 #define Curve1 Adaptor2d_Curve2d
@@ -22,7 +22,7 @@
 #define POnC Extrema_POnCurv2d
 #define POnC_hxx <Extrema_POnCurv2d.hxx>
 #define Pnt gp_Pnt2d
-#define Pnt_hxx <gp_Pnt2d.hxx>
+#define Pnt_hxx <Mathematics/Primitives/gp_Pnt2d.hxx>
 #define Extrema_CurveLocator Geom2dInt_TheCurveLocatorOfTheProjPCurOfGInter
 #define Extrema_CurveLocator_hxx <Geom2dInt_TheCurveLocatorOfTheProjPCurOfGInter.hxx>
 #include <Extrema_CurveLocator.gxx>

@@ -17,7 +17,7 @@
 #define NIS_SurfaceDrawer_HeaderFile
 
 #include <NIS_Drawer.hxx>
-#include <gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 
 class NIS_Surface;

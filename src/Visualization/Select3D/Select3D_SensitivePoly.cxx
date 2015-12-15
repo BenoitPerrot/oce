@@ -31,8 +31,8 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(Select3D_SensitivePoly)
 IMPLEMENT_DOWNCAST(Select3D_SensitivePoly,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Select3D_SensitivePoly)
-#include <gp_Pnt2d.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Select3D_Pnt.hxx>
 #include <Select3D_Pnt2d.hxx>
 #include <Select3D_Box2d.hxx>

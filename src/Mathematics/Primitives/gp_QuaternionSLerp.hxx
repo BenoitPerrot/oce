@@ -14,7 +14,7 @@
 #ifndef _gp_QuaternionSLerp_HeaderFile
 #define _gp_QuaternionSLerp_HeaderFile
 
-#include <gp_Quaternion.hxx>
+#include <Mathematics/Primitives/gp_Quaternion.hxx>
 
 /**
  * Perform Spherical Linear Interpolation of the quaternions,

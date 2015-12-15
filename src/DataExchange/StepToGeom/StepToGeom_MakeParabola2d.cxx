@@ -21,8 +21,8 @@
 #include <StepGeom_Axis2Placement2d.hxx>
 #include <Geom2d_AxisPlacement.hxx>
 #include <StepToGeom_MakeAxisPlacement.hxx>
-#include <gp_Ax2.hxx>
-#include <gp_Ax22d.hxx>
+#include <Mathematics/Primitives/gp_Ax2.hxx>
+#include <Mathematics/Primitives/gp_Ax22d.hxx>
 
 //=============================================================================
 // Creation d' un Parabola de Geom2d a partir d' un Parabola de Step

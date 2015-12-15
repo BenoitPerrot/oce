@@ -2,7 +2,7 @@
 #include <ShapeSchema_gp_Vec2d.hxx>
 #endif
 #ifndef _gp_Vec2d_HeaderFile
-#include <gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
 #endif
 #ifndef _ShapeSchema_gp_XY_HeaderFile
 #include <ShapeSchema_gp_XY.hxx>

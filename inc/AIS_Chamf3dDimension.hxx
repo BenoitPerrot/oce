@@ -10,8 +10,8 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_AIS_Chamf3dDimension.hxx>
 
-#include <gp_Pnt.hxx>
-#include <gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
 #include <AIS_Relation.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <DsgPrs_ArrowSide.hxx>

@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(FEmTool_ProfileMatrix)
 IMPLEMENT_DOWNCAST(FEmTool_ProfileMatrix,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(FEmTool_ProfileMatrix)
-#include <gp.hxx>
+#include <Mathematics/Primitives/gp.hxx>
 
 
 //=======================================================================

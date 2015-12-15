@@ -13,12 +13,12 @@
 #include <TopoDS_Shape.hxx>
 #include <Handle_Geom_Plane.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <DsgPrs_ArrowSide.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Handle_Geom_Surface.hxx>
 #include <AIS_KindOfSurface.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>

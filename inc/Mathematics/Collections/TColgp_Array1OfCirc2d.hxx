@@ -92,7 +92,7 @@ private:
 };
 
 #define Array1Item gp_Circ2d
-#define Array1Item_hxx <gp_Circ2d.hxx>
+#define Array1Item_hxx <Mathematics/Primitives/gp_Circ2d.hxx>
 #define TCollection_Array1 TColgp_Array1OfCirc2d
 #define TCollection_Array1_hxx <Mathematics/Collections/TColgp_Array1OfCirc2d.hxx>
 

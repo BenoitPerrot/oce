@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard.hxx>
 #include <Handle_PGeom_Transformation.hxx>
 
-#include <gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Foundation/Standard/Standard_Persistent.hxx>
 class gp_Trsf;
 

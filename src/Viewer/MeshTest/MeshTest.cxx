@@ -62,13 +62,13 @@
 #include <Extrema_LocateExtPC.hxx>
 
 #include <TopLoc_Location.hxx>
-#include <gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <Mathematics/Polyhedral/Poly_Connect.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <TopExp_Explorer.hxx>
-#include <gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
 
 #include <Mathematics/Polynomial/PLib.hxx>
 #include <AppCont_ContMatrices.hxx>

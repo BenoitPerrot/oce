@@ -19,16 +19,16 @@
 #include <TopoDS_Edge.hxx>
 #include <Geom2d_Curve.hxx>
 #include <Geom_Curve.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <BRepFill_MultiLine.hxx>
 
 #include <BRepIntCurveSurface_Inter.hxx>
-#include <gp.hxx>
-#include <gp_Lin.hxx>
-#include <gp_Ax3.hxx>
-#include <gp_Lin2d.hxx>
-#include <gp_Circ2d.hxx>
+#include <Mathematics/Primitives/gp.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Ax3.hxx>
+#include <Mathematics/Primitives/gp_Lin2d.hxx>
+#include <Mathematics/Primitives/gp_Circ2d.hxx>
 #include <Precision.hxx>
 #include <BRep_Tool.hxx>
 #include <Geom_Line.hxx>

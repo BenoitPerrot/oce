@@ -11,8 +11,8 @@
 #include <Handle_V3d_View.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <gp_Dir.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Graphic3d_Camera_Handle.hxx>
 #include <V3d_ViewerPointer.hxx>
 #include <V3d_ListOfTransient.hxx>
@@ -27,7 +27,7 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Aspect_Grid.hxx>
-#include <gp_Ax3.hxx>
+#include <Mathematics/Primitives/gp_Ax3.hxx>
 #include <Handle_V3d_LayerMgr.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <Handle_Graphic3d_Structure.hxx>

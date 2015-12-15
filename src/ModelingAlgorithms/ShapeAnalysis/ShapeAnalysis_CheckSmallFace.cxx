@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <TopoDS_Face.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopTools_DataMapOfShapeListOfShape.hxx>
 #include <ShapeAnalysis_DataMapOfShapeListOfReal.hxx>
@@ -23,7 +23,7 @@
 #include <TopTools_ListOfShape.hxx>
 #include <Foundation/TColStd/TColStd_ListOfReal.hxx>
 #include <ShapeExtend.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <TopExp_Explorer.hxx>
 #include <TopoDS.hxx>
@@ -45,8 +45,8 @@
 #include <GeomAdaptor_Surface.hxx>
 #include <Geom_ElementarySurface.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
-#include <gp_Dir.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <TopTools_Array1OfShape.hxx>

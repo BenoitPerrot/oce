@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <IntCurve_IntConicConic_Tool.hxx>
-#include <gp.hxx>
+#include <Mathematics/Primitives/gp.hxx>
 
 
 #define TOLERANCE_ANGULAIRE 0.00000001

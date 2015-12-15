@@ -16,7 +16,7 @@
 
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Vertex.hxx>
-#include <gp_XY.hxx>
+#include <Mathematics/Primitives/gp_XY.hxx>
 #include <Law_Function.hxx>
 #include <Law_Composite.hxx>
 #include <ChFiDS_HElSpine.hxx>
@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_RTTI(ChFiDS_FilSpine)
 #include <Precision.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfBoolean.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
-#include <gp_XY.hxx>
+#include <Mathematics/Primitives/gp_XY.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <ElCLib.hxx>
 #include <Law_ListIteratorOfLaws.hxx>

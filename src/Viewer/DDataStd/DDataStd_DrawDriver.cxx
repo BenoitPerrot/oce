@@ -51,8 +51,8 @@ IMPLEMENT_STANDARD_RTTI(DDataStd_DrawDriver)
 #include <TDF_Tool.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TDataStd.hxx>
-#include <gp_Pln.hxx>
-#include <gp_Ax3.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Ax3.hxx>
 #include <Geom_Plane.hxx>
 // attribut affichable
 #include <TNaming_NamedShape.hxx>

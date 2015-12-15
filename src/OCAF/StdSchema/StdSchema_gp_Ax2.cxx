@@ -2,7 +2,7 @@
 #include <StdSchema_gp_Ax2.hxx>
 #endif
 #ifndef _gp_Ax2_HeaderFile
-#include <gp_Ax2.hxx>
+#include <Mathematics/Primitives/gp_Ax2.hxx>
 #endif
 #ifndef _StdSchema_gp_Ax1_HeaderFile
 #include <StdSchema_gp_Ax1.hxx>

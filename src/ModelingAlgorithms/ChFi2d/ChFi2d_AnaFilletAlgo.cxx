@@ -13,10 +13,10 @@
 
 #include <ChFi2d_AnaFilletAlgo.hxx>
 
-#include <gp_Ax3.hxx>
-#include <gp_Circ.hxx>
-#include <gp_Lin2d.hxx>
-#include <gp_Circ2d.hxx>
+#include <Mathematics/Primitives/gp_Ax3.hxx>
+#include <Mathematics/Primitives/gp_Circ.hxx>
+#include <Mathematics/Primitives/gp_Lin2d.hxx>
+#include <Mathematics/Primitives/gp_Circ2d.hxx>
 
 #include <Foundation/Standard/Standard_TypeMismatch.hxx>
 

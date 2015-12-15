@@ -22,10 +22,10 @@
 #include <ShapeCustom_Curve2d.hxx>
 
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
-#include <gp_Vec2d.hxx>
-#include <gp_Dir2d.hxx>
-#include <gp_Lin2d.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_Dir2d.hxx>
+#include <Mathematics/Primitives/gp_Lin2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <ElCLib.hxx>
 #include <Precision.hxx>
 #include <Geom2d_BSplineCurve.hxx>

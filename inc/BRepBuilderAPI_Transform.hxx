@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <TopLoc_Location.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <BRepBuilderAPI_ModifyShape.hxx>

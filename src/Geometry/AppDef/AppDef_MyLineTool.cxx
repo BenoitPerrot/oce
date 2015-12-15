@@ -21,10 +21,10 @@
 #include <Mathematics/Collections/TColgp_Array1OfVec2d.hxx>
 #include <AppDef_MyLineTool.hxx>
 #include <AppDef_MultiPointConstraint.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
 
 Standard_Integer AppDef_MyLineTool::FirstPoint(const AppDef_MultiLine&)
 {

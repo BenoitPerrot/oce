@@ -18,17 +18,17 @@
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <gp_Lin.hxx>
-#include <gp_Torus.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Torus.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <IntAna_IntLinTorus.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Mathematics/Optimization/math_DirectPolynomialRoots.hxx>
-#include <gp_Dir.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <ElSLib.hxx>
 #include <ElCLib.hxx>
-#include <gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
 
 
 

@@ -22,9 +22,9 @@
 #include <BRepClass3d_SolidClassifier.hxx>
 #include <TopoDS_Solid.hxx>
 #include <Geom2dHatch_Hatcher.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <TopoDS_Vertex.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <IntTools_Curve.hxx>
 #include <IntTools_Context.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

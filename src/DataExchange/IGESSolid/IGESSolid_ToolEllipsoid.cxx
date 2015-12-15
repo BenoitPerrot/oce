@@ -30,9 +30,9 @@
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <IGESSolid_ToolEllipsoid.hxx>
 #include <IGESData_ParamCursor.hxx>
-#include <gp_XYZ.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
 #include <IGESData_Dump.hxx>
 
 

@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
-#include <gp_Lin2d.hxx>
+#include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <Mathematics/Collections/TColgp_Array2OfLin2d.hxx>
 
  
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(TColgp_HArray2OfLin2d)
 
 
 #define ItemHArray2 gp_Lin2d
-#define ItemHArray2_hxx <gp_Lin2d.hxx>
+#define ItemHArray2_hxx <Mathematics/Primitives/gp_Lin2d.hxx>
 #define TheArray2 TColgp_Array2OfLin2d
 #define TheArray2_hxx <Mathematics/Collections/TColgp_Array2OfLin2d.hxx>
 #define TCollection_HArray2 TColgp_HArray2OfLin2d

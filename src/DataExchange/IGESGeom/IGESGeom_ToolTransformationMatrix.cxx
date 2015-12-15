@@ -31,7 +31,7 @@
 #include <IGESGeom_ToolTransformationMatrix.hxx>
 #include <IGESData_ParamCursor.hxx>
 #include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
-#include <gp_GTrsf.hxx>
+#include <Mathematics/Primitives/gp_GTrsf.hxx>
 #include <Interface_Macros.hxx>
 
 

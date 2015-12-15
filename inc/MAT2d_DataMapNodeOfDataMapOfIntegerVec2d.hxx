@@ -11,7 +11,7 @@
 #include <Handle_MAT2d_DataMapNodeOfDataMapOfIntegerVec2d.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class gp_Vec2d;
@@ -55,7 +55,7 @@ private:
 #define TheKey Standard_Integer
 #define TheKey_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheItem gp_Vec2d
-#define TheItem_hxx <gp_Vec2d.hxx>
+#define TheItem_hxx <Mathematics/Primitives/gp_Vec2d.hxx>
 #define Hasher TColStd_MapIntegerHasher
 #define Hasher_hxx <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #define TCollection_DataMapNode MAT2d_DataMapNodeOfDataMapOfIntegerVec2d

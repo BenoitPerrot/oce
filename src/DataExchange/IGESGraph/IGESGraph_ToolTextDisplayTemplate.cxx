@@ -30,9 +30,9 @@
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <IGESGraph_ToolTextDisplayTemplate.hxx>
 #include <IGESData_ParamCursor.hxx>
-#include <gp_XYZ.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_GTrsf.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_GTrsf.hxx>
 #include <IGESGraph_TextFontDef.hxx>
 #include <IGESData_Dump.hxx>
 #include <Interface_Macros.hxx>

@@ -2,7 +2,7 @@
 #include <XCAFSchema_gp_Trsf2d.hxx>
 #endif
 #ifndef _gp_Trsf2d_HeaderFile
-#include <gp_Trsf2d.hxx>
+#include <Mathematics/Primitives/gp_Trsf2d.hxx>
 #endif
 #ifndef _XCAFSchema_gp_Mat2d_HeaderFile
 #include <XCAFSchema_gp_Mat2d.hxx>

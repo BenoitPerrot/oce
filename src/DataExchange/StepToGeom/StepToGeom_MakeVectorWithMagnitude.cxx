@@ -23,8 +23,8 @@
 #include <StepGeom_Direction.hxx>
 #include <StepToGeom_MakeDirection.hxx>
 #include <Geom_Direction.hxx>
-#include <gp_Dir.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <UnitsMethods.hxx>
 
 //=============================================================================

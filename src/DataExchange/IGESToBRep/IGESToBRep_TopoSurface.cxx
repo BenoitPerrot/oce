@@ -41,9 +41,9 @@
 #include <IGESGeom_Plane.hxx>
 #include <IGESSolid_PlaneSurface.hxx>
 #include <IGESBasic_SingleParent.hxx>
-#include <gp_Pln.hxx>
-#include <gp_Trsf.hxx>
-#include <gp_Trsf2d.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Trsf2d.hxx>
 #include <IGESToBRep_TopoSurface.hxx>
 
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
@@ -103,7 +103,7 @@
 
 #include <Interface_Macros.hxx>
 
-#include <gp_GTrsf.hxx>
+#include <Mathematics/Primitives/gp_GTrsf.hxx>
 
 #include <Precision.hxx>
 
@@ -123,18 +123,18 @@
 
 #include <TopLoc_Location.hxx>
 
-#include <gp.hxx>
-#include <gp_Ax1.hxx>
-#include <gp_Cylinder.hxx>
-#include <gp_Cone.hxx>
-#include <gp_Dir.hxx>
-#include <gp_Dir2d.hxx>
-#include <gp_Pln.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Sphere.hxx>
-#include <gp_Torus.hxx>
-#include <gp_Trsf.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp.hxx>
+#include <Mathematics/Primitives/gp_Ax1.hxx>
+#include <Mathematics/Primitives/gp_Cylinder.hxx>
+#include <Mathematics/Primitives/gp_Cone.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Dir2d.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Sphere.hxx>
+#include <Mathematics/Primitives/gp_Torus.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <stdio.h>
 
 //:e3

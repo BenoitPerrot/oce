@@ -18,8 +18,8 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <IntAna_Curve.hxx>
 #include <IntPatch_Point.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <IntPatch_ALine.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IntPatch_ALine)

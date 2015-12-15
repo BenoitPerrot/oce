@@ -11,9 +11,9 @@
 #include <IntSurf_Quadric.hxx>
 #include <IntSurf_QuadricTool.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Dir2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Dir2d.hxx>
  
 
 #define ThePSurface Handle(Adaptor3d_HSurface)

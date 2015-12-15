@@ -17,7 +17,7 @@
 #include <Draw_Text3D.hxx>
 #include <Geom_Curve.hxx>
 #include <Draw_Color.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Draw_Display.hxx>
 #include <TestTopOpeDraw_DrawableC3D.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

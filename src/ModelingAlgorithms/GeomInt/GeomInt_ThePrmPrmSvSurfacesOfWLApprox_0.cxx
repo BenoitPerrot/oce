@@ -10,9 +10,9 @@
 #include <IntPatch_WLine.hxx>
 #include <GeomInt_TheInt2SOfThePrmPrmSvSurfacesOfWLApprox.hxx>
 #include <GeomInt_TheFunctionOfTheInt2SOfThePrmPrmSvSurfacesOfWLApprox.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
  
 
 #define ThePSurface Handle(Adaptor3d_HSurface)

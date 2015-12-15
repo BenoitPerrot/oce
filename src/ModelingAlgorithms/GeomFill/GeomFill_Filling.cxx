@@ -21,7 +21,7 @@
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <GeomFill_Filling.hxx>
 
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 
 //=======================================================================
 //function : GeomFill_Filling

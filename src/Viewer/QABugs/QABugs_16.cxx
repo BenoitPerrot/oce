@@ -30,12 +30,12 @@
 #include <BRepLib_MakeEdge.hxx>
 #include <AIS_Trihedron.hxx>
 #include <Geom_Axis2Placement.hxx>
-#include <gp_Ax2.hxx>
+#include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <Geom_Circle.hxx>
 #include <AIS_Circle.hxx>
 #include <TopoDS.hxx>
 #include <Geom_Plane.hxx>
-#include <gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
 #include <AIS_AngleDimension.hxx>
 
 #include <Aspect_Window.hxx>

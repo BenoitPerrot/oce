@@ -14,8 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <gp_XY.hxx>
-#include <gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_XY.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Plate_LinearScalarConstraint.hxx>
 #include <Plate_PlaneConstraint.hxx>
 #include <Plate_PinpointConstraint.hxx>

@@ -31,7 +31,7 @@
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Geom_Curve.hxx>
 #include <Geom2d_Curve.hxx>
-#include <gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
 #include <TColGeom_SequenceOfCurve.hxx>
 #include <GeomFill_Pipe.hxx>
 
@@ -76,9 +76,9 @@
 
 #include <Approx_SweepApproximation.hxx>
 
-#include <gp_Torus.hxx>
-#include <gp_Ax2.hxx>
-#include <gp_Ax3.hxx>
+#include <Mathematics/Primitives/gp_Torus.hxx>
+#include <Mathematics/Primitives/gp_Ax2.hxx>
+#include <Mathematics/Primitives/gp_Ax3.hxx>
 
 #include <Precision.hxx>
 #include <ElCLib.hxx>

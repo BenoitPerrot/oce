@@ -26,7 +26,7 @@
 #include <TopoDS.hxx>
 #include <TopoDS_Face.hxx>
 
-#include <gp_Pnt.hxx> //ied_modif_for_compil_Nov-20-1998
+#include <Mathematics/Primitives/gp_Pnt.hxx> //ied_modif_for_compil_Nov-20-1998
 
 XSDRAWSTLVRML_ToVRML::XSDRAWSTLVRML_ToVRML  ()
 {

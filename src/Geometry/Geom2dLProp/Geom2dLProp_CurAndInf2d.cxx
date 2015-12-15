@@ -19,11 +19,11 @@
 #include <Geom2dLProp_NumericCurInf2d.hxx>
 #include <Geom2dAdaptor_Curve.hxx>
 #include <LProp_AnalyticCurInf.hxx>
-#include <gp_Lin2d.hxx>
-#include <gp_Circ2d.hxx>
-#include <gp_Elips2d.hxx>
-#include <gp_Hypr2d.hxx>
-#include <gp_Parab2d.hxx>
+#include <Mathematics/Primitives/gp_Lin2d.hxx>
+#include <Mathematics/Primitives/gp_Circ2d.hxx>
+#include <Mathematics/Primitives/gp_Elips2d.hxx>
+#include <Mathematics/Primitives/gp_Hypr2d.hxx>
+#include <Mathematics/Primitives/gp_Parab2d.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 
 

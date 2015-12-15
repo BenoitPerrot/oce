@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <GeomAdaptor_Surface.hxx>
-#include <gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <TopoDS_Face.hxx>
 #include <Adaptor3d_Surface.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

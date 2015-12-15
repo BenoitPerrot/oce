@@ -18,7 +18,7 @@
 
 #include <Precision.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <BRepTools_WireExplorer.hxx>
 #include <TopAbs_Orientation.hxx>
 #include <TopoDS.hxx>

@@ -19,8 +19,8 @@
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Adaptor3d_HCurve.hxx>
 #include <Approx_Curve3d.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <GeomAdaptor_HCurve.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <AdvApprox_PrefAndRec.hxx>

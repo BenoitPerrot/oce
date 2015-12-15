@@ -14,7 +14,7 @@
 
 #include <BRepAdaptor_HCurve2d.hxx>
 #include <TopoDS_Vertex.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Adaptor2d_HCurve2d.hxx>
 #include <Adaptor3d_HVertex.hxx>
 #include <BRepTopAdaptor_HVertex.hxx>
@@ -32,10 +32,10 @@ IMPLEMENT_STANDARD_RTTI(BRepTopAdaptor_HVertex)
 #include <BRepAdaptor_HCurve2d.hxx>
 #include <BRepAdaptor_Surface.hxx>
 #include <BRep_Tool.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
 
 
 BRepTopAdaptor_HVertex::BRepTopAdaptor_HVertex

@@ -9,7 +9,7 @@
 
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <gp_Dir2d.hxx>
+#include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <PColgp_FieldOfHArray2OfDir2d.hxx>
 #include <PColgp_VArrayNodeOfFieldOfHArray2OfDir2d.hxx>
 #include <PColgp_VArrayTNodeOfFieldOfHArray2OfDir2d.hxx>
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(PColgp_HArray2OfDir2d)
 
 
 #define Item gp_Dir2d
-#define Item_hxx <gp_Dir2d.hxx>
+#define Item_hxx <Mathematics/Primitives/gp_Dir2d.hxx>
 #define PCollection_FieldOfHArray2 PColgp_FieldOfHArray2OfDir2d
 #define PCollection_FieldOfHArray2_hxx <PColgp_FieldOfHArray2OfDir2d.hxx>
 #define PCollection_VArrayNodeOfFieldOfHArray2 PColgp_VArrayNodeOfFieldOfHArray2OfDir2d

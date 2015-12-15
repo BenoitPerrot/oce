@@ -15,7 +15,7 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <IntSurf_PathPoint.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <IntSurf_Allocator.hxx>
 class IntSurf_LineOn2S;

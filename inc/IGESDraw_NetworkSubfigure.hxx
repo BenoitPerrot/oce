@@ -11,7 +11,7 @@
 #include <Handle_IGESDraw_NetworkSubfigure.hxx>
 
 #include <Handle_IGESDraw_NetworkSubfigureDef.hxx>
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Handle_IGESGraph_TextDisplayTemplate.hxx>

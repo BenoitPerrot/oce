@@ -15,15 +15,15 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <gp_Ax2.hxx>
-#include <gp_Cylinder.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Ax1.hxx>
-#include <gp_Circ.hxx>
+#include <Mathematics/Primitives/gp_Ax2.hxx>
+#include <Mathematics/Primitives/gp_Cylinder.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Ax1.hxx>
+#include <Mathematics/Primitives/gp_Circ.hxx>
 #include <gce_MakeCylinder.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <gp.hxx>
-#include <gp_Lin.hxx>
+#include <Mathematics/Primitives/gp.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
 
 //=========================================================================
 //  Constructions d un cylindre de gp par son Ax2 A2 et son rayon         +

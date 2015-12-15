@@ -20,7 +20,7 @@
 #include <GeomToStep_MakeSurfaceOfRevolution.hxx>
 #include <GeomToStep_MakeAxis1Placement.hxx>
 #include <GeomToStep_MakeCurve.hxx>
-#include <gp_Ax1.hxx>
+#include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <StepGeom_Curve.hxx>
 #include <StepGeom_Axis1Placement.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>

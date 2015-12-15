@@ -101,7 +101,7 @@ private:
 };
 
 #define SeqItem gp_Dir
-#define SeqItem_hxx <gp_Dir.hxx>
+#define SeqItem_hxx <Mathematics/Primitives/gp_Dir.hxx>
 #define TCollection_SequenceNode TColgp_SequenceNodeOfSequenceOfDir
 #define TCollection_SequenceNode_hxx <Mathematics/Collections/TColgp_SequenceNodeOfSequenceOfDir.hxx>
 #define Handle_TCollection_SequenceNode Handle_TColgp_SequenceNodeOfSequenceOfDir

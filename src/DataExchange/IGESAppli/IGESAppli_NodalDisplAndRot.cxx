@@ -24,7 +24,7 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <IGESDimen_GeneralNote.hxx>
 #include <IGESAppli_Node.hxx>
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <IGESAppli_NodalDisplAndRot.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESAppli_NodalDisplAndRot)

@@ -92,7 +92,7 @@ private:
 };
 
 #define Array1Item gp_Trsf
-#define Array1Item_hxx <gp_Trsf.hxx>
+#define Array1Item_hxx <Mathematics/Primitives/gp_Trsf.hxx>
 #define TCollection_Array1 TDataXtd_Array1OfTrsf
 #define TCollection_Array1_hxx <TDataXtd_Array1OfTrsf.hxx>
 

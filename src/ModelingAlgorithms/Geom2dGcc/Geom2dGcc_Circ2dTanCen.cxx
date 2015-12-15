@@ -19,8 +19,8 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geom2dGcc_QualifiedCurve.hxx>
 #include <Geom2d_Point.hxx>
-#include <gp_Circ2d.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Circ2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Geom2dGcc_Circ2dTanCen.hxx>
 #include <Geom2dAdaptor_Curve.hxx>
 #include <GccAna_Circ2dTanCen.hxx>

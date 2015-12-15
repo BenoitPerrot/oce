@@ -30,9 +30,9 @@
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Aspect_TypeOfLine.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Dir.hxx>
-#include <gp_Ax3.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Ax3.hxx>
 #include <StdSelect_BRepOwner.hxx>
 
 Handle(Select3D_Projector) StdSelect::GetProjector(const Handle(V3d_View)& aViou)

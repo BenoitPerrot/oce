@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Geom_Transformation.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <GC_MakeScale.hxx>
 #include <GC_MakeScale.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>

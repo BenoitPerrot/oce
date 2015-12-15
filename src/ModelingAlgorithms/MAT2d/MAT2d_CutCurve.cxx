@@ -20,7 +20,7 @@
 #include <MAT2d_CutCurve.hxx>
 #include <Geom2dLProp_CurAndInf2d.hxx>
 #include <Precision.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Geom2d_TrimmedCurve.hxx>
 #include <TColGeom2d_SequenceOfCurve.hxx>
 

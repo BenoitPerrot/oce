@@ -15,7 +15,7 @@
 #include <VrmlConverter_Drawer.hxx>
 #include <VrmlConverter_WFDeflectionShape.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Prs3d_ShapeTool.hxx>
 #include <BRepAdaptor_HSurface.hxx>
 #include <BRepAdaptor_Curve.hxx>

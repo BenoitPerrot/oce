@@ -23,16 +23,16 @@
 #include <TopOpeBRepTool_ShapeClassifier.hxx>
 #include <TopoDS_Face.hxx>
 #include <TopoDS_Edge.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <TopoDS_Wire.hxx>
 #include <TopTools_IndexedMapOfOrientedShape.hxx>
 #include <TopTools_IndexedDataMapOfShapeShape.hxx>
 #include <TopOpeBRepBuild_Tools.hxx>
 
-#include <gp_Pnt2d.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Adaptor3d_CurveOnSurface.hxx>
 #include <Adaptor2d_HCurve2d.hxx>
 

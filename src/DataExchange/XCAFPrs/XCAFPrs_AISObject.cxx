@@ -17,7 +17,7 @@
 
 #include <AIS_DisplayMode.hxx>
 #include <BRepBndLib.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Graphic3d_AspectFillArea3d.hxx>
 #include <Graphic3d_AspectLine3d.hxx>
 #include <Handle_AIS_Drawer.hxx>

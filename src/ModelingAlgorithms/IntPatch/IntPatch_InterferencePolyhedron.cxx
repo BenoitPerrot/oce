@@ -21,9 +21,9 @@
 #include <IntPatch_Polyhedron.hxx>
 #include <IntPatch_PolyhedronTool.hxx>
 
-#include <gp_XYZ.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Intf_SectionPoint.hxx>
 #include <Intf_SeqOfSectionPoint.hxx>
 #include <Intf_SectionLine.hxx>

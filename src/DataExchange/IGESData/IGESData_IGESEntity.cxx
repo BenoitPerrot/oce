@@ -25,7 +25,7 @@
 #include <IGESData_TransfEntity.hxx>
 #include <IGESData_LabelDisplayEntity.hxx>
 #include <IGESData_ColorEntity.hxx>
-#include <gp_GTrsf.hxx>
+#include <Mathematics/Primitives/gp_GTrsf.hxx>
 #include <Interface_EntityIterator.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <Interface_EntityList.hxx>

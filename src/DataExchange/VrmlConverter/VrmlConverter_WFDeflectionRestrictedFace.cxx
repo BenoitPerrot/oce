@@ -15,8 +15,8 @@
 #include <VrmlConverter_Drawer.hxx>
 #include <VrmlConverter_WFDeflectionRestrictedFace.hxx>
 #include <Hatch_Hatcher.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <VrmlConverter_IsoAspect.hxx>
 #include <Adaptor2d_Curve2d.hxx>
 #include <GCPnts_QuasiUniformDeflection.hxx>

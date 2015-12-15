@@ -19,7 +19,7 @@
 #include <TDataStd_Integer.hxx>
 #include <TDataStd_Name.hxx>
 #include <TNaming_NamedShape.hxx>
-#include <gp_Ax1.hxx>
+#include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <TDataStd_UAttribute.hxx>
 #include <TopoDS_Shape.hxx>
 #include <BRepBuilderAPI_MakeShape.hxx>
@@ -66,9 +66,9 @@
 #include <TDF_Reference.hxx>
 #include <TDataStd_TreeNode.hxx>
 #include <BRepAlgoAPI_BooleanOperation.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Ax1.hxx>
-#include <gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Ax1.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
 #include <TopoDS_Edge.hxx>
 #include <Geom_Curve.hxx>
 #include <BRep_Tool.hxx>

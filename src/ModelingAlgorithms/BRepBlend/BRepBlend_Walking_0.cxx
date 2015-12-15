@@ -22,7 +22,7 @@
 #include <Blend_Point.hxx>
 #include <Blend_Function.hxx>
 #include <Blend_FuncInv.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <IntSurf_Transition.hxx>
  
 

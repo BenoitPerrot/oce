@@ -19,10 +19,10 @@
 #include <Voxel_ROctBoolDS.hxx>
 #include <Voxel_Selector.hxx>
 
-#include <gp_Pnt.hxx>
-#include <gp_Lin.hxx>
-#include <gp_Dir.hxx>
-#include <gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
 
 #include <IntAna_Quadric.hxx>
 #include <IntAna_IntConicQuad.hxx>

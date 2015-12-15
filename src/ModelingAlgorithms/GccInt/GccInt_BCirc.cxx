@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <gp_Circ2d.hxx>
+#include <Mathematics/Primitives/gp_Circ2d.hxx>
 #include <GccInt_BCirc.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(GccInt_BCirc)
@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_TYPE_END(GccInt_BCirc)
 IMPLEMENT_DOWNCAST(GccInt_BCirc,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(GccInt_BCirc)
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <gp_Circ2d.hxx>
+#include <Mathematics/Primitives/gp_Circ2d.hxx>
 
 GccInt_BCirc::
    GccInt_BCirc(const gp_Circ2d& Circ) {

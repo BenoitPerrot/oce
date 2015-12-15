@@ -16,9 +16,9 @@
 
 // Modified by xpu, Wed May 20 10:47:38 1998
 
-#include <gp_Dir.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Geom_Curve.hxx>
 #include <TopoDS.hxx>
 #include <BRep_Tool.hxx>

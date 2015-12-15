@@ -24,9 +24,9 @@
 #include <BRepAdaptor_Surface.hxx>
 //#include <BRepAdaptor_Curve2d.hxx>
 #include <BRep_Tool.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Precision.hxx>
 #include <Foundation/TColStd/TColStd_MapOfInteger.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>

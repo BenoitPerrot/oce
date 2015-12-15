@@ -52,7 +52,7 @@
 #include <BRep_TVertex.hxx>
 #include <BRepTools_Quilt.hxx>
 #include <BRepClass3d_SolidClassifier.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 
 #include <TopExp.hxx>
 #include <TopExp_Explorer.hxx>
@@ -83,10 +83,10 @@
 #include <TopTools_IndexedMapOfShape.hxx>
 #include <BRep_TEdge.hxx>
 #include <BRepTools.hxx>
-#include <gp_Cone.hxx>
+#include <Mathematics/Primitives/gp_Cone.hxx>
 #include <ElSLib.hxx>
 #include <ElCLib.hxx>
-#include <gp_Lin2d.hxx>
+#include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <GCE2d_MakeLine.hxx>
 #include <Geom2d_Line.hxx>
 #include <TopoDS_Iterator.hxx>

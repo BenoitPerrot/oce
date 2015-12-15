@@ -15,10 +15,10 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Graphic3d_InitialisationError.hxx>
 #include <Graphic3d_Group.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
-#include <gp_Dir.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Graphic3d_ArrayOfPrimitives.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Graphic3d_ArrayOfPrimitives)

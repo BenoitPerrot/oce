@@ -75,7 +75,7 @@ private:
 };
 
 #define ItemHArray2 gp_Circ2d
-#define ItemHArray2_hxx <gp_Circ2d.hxx>
+#define ItemHArray2_hxx <Mathematics/Primitives/gp_Circ2d.hxx>
 #define TheArray2 TColgp_Array2OfCirc2d
 #define TheArray2_hxx <Mathematics/Collections/TColgp_Array2OfCirc2d.hxx>
 #define TCollection_HArray2 TColgp_HArray2OfCirc2d

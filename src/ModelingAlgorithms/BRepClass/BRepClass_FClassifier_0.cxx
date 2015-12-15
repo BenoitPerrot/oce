@@ -10,7 +10,7 @@
 #include <BRepClass_Edge.hxx>
 #include <BRepClass_Intersector.hxx>
 #include <BRepClass_FClass2dOfFClassifier.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
  
 
 #define TheFaceExplorer BRepClass_FaceExplorer

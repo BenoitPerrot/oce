@@ -19,7 +19,7 @@
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Interface_ParamSet.hxx>
 #include <Interface_Check.hxx>
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <IGESData_GlobalSection.hxx>
 #include <Interface_ParamType.hxx>
 #include <Interface_FloatWriter.hxx>

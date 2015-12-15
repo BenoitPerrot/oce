@@ -23,10 +23,10 @@
 #include <Draw_Viewer.hxx>
 #include <Draw_ColorKind.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <gp_Trsf.hxx>   
-#include <gp_Pnt.hxx>
-#include <gp_Lin.hxx>
-#include <gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>   
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Precision.hxx> 
 #include <TopAbs.hxx>
 #include <TopoDS.hxx>

@@ -9,11 +9,11 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <gp_GTrsf2d.hxx>
+#include <Mathematics/Primitives/gp_GTrsf2d.hxx>
  
 
 #define Array1Item gp_GTrsf2d
-#define Array1Item_hxx <gp_GTrsf2d.hxx>
+#define Array1Item_hxx <Mathematics/Primitives/gp_GTrsf2d.hxx>
 #define TCollection_Array1 Approx_Array1OfGTrsf2d
 #define TCollection_Array1_hxx <Approx_Array1OfGTrsf2d.hxx>
 #include <Foundation/TCollection/TCollection_Array1.gxx>

@@ -9,7 +9,7 @@
 #include <HLRBRep_ThePolyhedronOfInterCSurf.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_HArray1OfBox.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
  
 
 #define ThePolyhedron HLRBRep_ThePolyhedronOfInterCSurf

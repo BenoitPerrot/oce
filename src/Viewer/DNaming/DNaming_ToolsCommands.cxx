@@ -22,7 +22,7 @@
 #include <TopoDS_Face.hxx>
 #include <TopLoc_Location.hxx>
 #include <BRep_Builder.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <TopExp_Explorer.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TopAbs.hxx>

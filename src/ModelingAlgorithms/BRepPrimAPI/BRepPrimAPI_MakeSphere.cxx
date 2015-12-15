@@ -15,16 +15,16 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Ax2.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <BRepPrim_Sphere.hxx>
 #include <BRepPrimAPI_MakeSphere.hxx>
 #include <BRepBuilderAPI.hxx>
 
 
-#include <gp.hxx>
-#include <gp_Dir.hxx>
-#include <gp_Ax2.hxx>
+#include <Mathematics/Primitives/gp.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Ax2.hxx>
 
 
 static gp_Ax2 SphereComputeAxes() { 

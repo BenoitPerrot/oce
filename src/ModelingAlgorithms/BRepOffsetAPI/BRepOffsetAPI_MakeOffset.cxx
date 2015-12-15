@@ -29,8 +29,8 @@
 #include <BRepFill_OffsetWire.hxx>
 #include <BRepFill_ListIteratorOfListOfOffsetWire.hxx>
 #include <BRepTopAdaptor_FClass2d.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Precision.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx> 
 #include <TopExp_Explorer.hxx>

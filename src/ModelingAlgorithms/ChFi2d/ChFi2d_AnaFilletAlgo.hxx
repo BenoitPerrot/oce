@@ -18,7 +18,7 @@
 
 #include <TopoDS_Wire.hxx>
 #include <TopoDS_Edge.hxx>
-#include <gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
 
 //! An analytical algorithm for calculation of the fillets.
 //! It is implemented for segments and arcs of circle only.

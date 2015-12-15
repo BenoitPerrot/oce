@@ -47,11 +47,11 @@ IMPLEMENT_STANDARD_RTTI(V3d_PositionLight)
 #include <Visual3d_ViewManager.hxx>
 #include <Visual3d_ContextPick.hxx>
 #include <V3d_BadValue.hxx>
-#include <gp_Dir.hxx>
-#include <gp_Ax1.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Ax1.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 V3d_PositionLight::V3d_PositionLight(const Handle(V3d_Viewer)& VM) : V3d_Light(VM) {

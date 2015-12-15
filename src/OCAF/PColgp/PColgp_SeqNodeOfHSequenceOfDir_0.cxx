@@ -10,7 +10,7 @@
 #include <PColgp_SeqNodeOfHSequenceOfDir.hxx>
 #include <PColgp_HSequenceOfDir.hxx>
 #include <PColgp_SeqExplorerOfHSequenceOfDir.hxx>
-#include <gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
 
  
 
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(PColgp_SeqNodeOfHSequenceOfDir)
 
 
 #define Item gp_Dir
-#define Item_hxx <gp_Dir.hxx>
+#define Item_hxx <Mathematics/Primitives/gp_Dir.hxx>
 #define PCollection_SeqNode PColgp_SeqNodeOfHSequenceOfDir
 #define PCollection_SeqNode_hxx <PColgp_SeqNodeOfHSequenceOfDir.hxx>
 #define PCollection_SeqExplorer PColgp_SeqExplorerOfHSequenceOfDir

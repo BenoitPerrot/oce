@@ -12,9 +12,9 @@
 // commercial license or contractual agreement.
 
 #include <DsgPrs_DatumPrs.hxx>
-#include <gp_Dir.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Ax2.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <Graphic3d_Group.hxx>
 #include <Graphic3d_AspectLine3d.hxx>
 #include <Graphic3d_ArrayOfSegments.hxx>

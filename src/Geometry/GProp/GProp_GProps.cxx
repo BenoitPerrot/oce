@@ -13,17 +13,17 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Mat.hxx>
-#include <gp_Ax1.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Mat.hxx>
+#include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <GProp_PrincipalProps.hxx>
 #include <GProp_GProps.hxx>
 #include <GProp.hxx>
 #include <Mathematics/Optimization/math_Jacobi.hxx>
-#include <gp.hxx>
-#include <gp.hxx>
-#include <gp_XYZ.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp.hxx>
+#include <Mathematics/Primitives/gp.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 
 
 GProp_GProps::GProp_GProps () : g (gp::Origin()) , loc (gp::Origin()), dim (0.0) 

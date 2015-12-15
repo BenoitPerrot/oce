@@ -21,7 +21,7 @@
 #include <VrmlData_ListOfNode.hxx>
 #include <VrmlData_UnknownNode.hxx>
 #include <Precision.hxx>
-#include <gp_Ax1.hxx>
+#include <Mathematics/Primitives/gp_Ax1.hxx>
 
 #ifdef _MSC_VER
 #define _CRT_SECURE_NO_DEPRECATE

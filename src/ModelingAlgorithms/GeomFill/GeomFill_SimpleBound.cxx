@@ -16,8 +16,8 @@
 
 #include <Adaptor3d_HCurve.hxx>
 #include <Law_Function.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <GeomFill_SimpleBound.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(GeomFill_SimpleBound)

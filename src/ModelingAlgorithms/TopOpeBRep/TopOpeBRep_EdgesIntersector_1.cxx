@@ -25,7 +25,7 @@
 #include <IntRes2d_IntersectionSegment.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>
 #include <TopOpeBRepDS_Transition.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <TopOpeBRep_EdgesIntersector.hxx>
 
 #include <TopoDS.hxx>
@@ -33,7 +33,7 @@
 #include <Precision.hxx>
 #include <TopExp.hxx>
 #include <TopExp_Explorer.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <TopOpeBRepTool_ShapeTool.hxx>
 #include <TopOpeBRep_define.hxx>

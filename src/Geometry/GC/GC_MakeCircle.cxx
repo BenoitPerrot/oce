@@ -16,11 +16,11 @@
 
 #include <Geom_Circle.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <gp_Circ.hxx>
-#include <gp_Ax2.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Dir.hxx>
-#include <gp_Ax1.hxx>
+#include <Mathematics/Primitives/gp_Circ.hxx>
+#include <Mathematics/Primitives/gp_Ax2.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <GC_MakeCircle.hxx>
 #include <gce_MakeCirc.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>

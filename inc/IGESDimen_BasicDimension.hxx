@@ -11,7 +11,7 @@
 #include <Handle_IGESDimen_BasicDimension.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <gp_XY.hxx>
+#include <Mathematics/Primitives/gp_XY.hxx>
 #include <IGESData_IGESEntity.hxx>
 class gp_XY;
 class gp_Pnt2d;

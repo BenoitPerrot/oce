@@ -22,7 +22,7 @@
 #include <Graphic3d_AspectMarker3d.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Graphic3d_ArrayOfPrimitives.hxx>
-#include <gp_Ax2.hxx>
+#include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <Graphic3d_Group.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Graphic3d_Group)
@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_TYPE_END(Graphic3d_Group)
 IMPLEMENT_DOWNCAST(Graphic3d_Group,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Graphic3d_Group)
 
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Graphic3d_ArrayOfPoints.hxx>
 #include <Graphic3d_StructureManager.hxx>
 #include <Graphic3d_ShaderProgram.hxx>

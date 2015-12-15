@@ -19,7 +19,7 @@
 #include <Draw_Color.hxx>
 #include <Draw_Display.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
-#include <gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Draw_Drawable3D.hxx>
 #include <DBRep_DrawableShape.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -65,8 +65,8 @@ IMPLEMENT_STANDARD_RTTI(DBRep_DrawableShape)
 
 #include <HLRBRep.hxx>
 
-#include <gp_Lin2d.hxx>
-#include <gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Lin2d.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
 
 #include <Mathematics/Polyhedral/Poly_Polygon3D.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>

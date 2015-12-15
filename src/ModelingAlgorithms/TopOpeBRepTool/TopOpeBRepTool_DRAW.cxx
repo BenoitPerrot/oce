@@ -16,7 +16,7 @@
 
 #ifdef DRAW
 #include <DBRep.hxx>
-#include <gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Draw_Appli.hxx>
 #include <DrawTrSurf.hxx>
 #include <Draw.hxx>

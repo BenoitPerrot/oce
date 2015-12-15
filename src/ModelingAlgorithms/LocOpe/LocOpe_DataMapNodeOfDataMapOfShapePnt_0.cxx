@@ -8,7 +8,7 @@
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TopoDS_Shape.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <TopTools_ShapeMapHasher.hxx>
 #include <LocOpe_DataMapOfShapePnt.hxx>
 #include <LocOpe_DataMapIteratorOfDataMapOfShapePnt.hxx>
@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(LocOpe_DataMapNodeOfDataMapOfShapePnt)
 #define TheKey TopoDS_Shape
 #define TheKey_hxx <TopoDS_Shape.hxx>
 #define TheItem gp_Pnt
-#define TheItem_hxx <gp_Pnt.hxx>
+#define TheItem_hxx <Mathematics/Primitives/gp_Pnt.hxx>
 #define Hasher TopTools_ShapeMapHasher
 #define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode LocOpe_DataMapNodeOfDataMapOfShapePnt

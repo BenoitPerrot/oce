@@ -20,7 +20,7 @@
 #include <Geom_Surface.hxx>
 #include <TopLoc_Location.hxx>
 #include <Geom2d_Curve.hxx>
-#include <gp_Trsf2d.hxx>
+#include <Mathematics/Primitives/gp_Trsf2d.hxx>
 #include <Geom_Curve.hxx>
 #include <ShapeBuild_Edge.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
@@ -37,10 +37,10 @@
 #include <BRepLib.hxx>
 #include <BRepLib_MakeEdge.hxx>
 
-#include <gp_Pnt.hxx>
-#include <gp_Lin2d.hxx>
-#include <gp_GTrsf2d.hxx>
-#include <gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Lin2d.hxx>
+#include <Mathematics/Primitives/gp_GTrsf2d.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
 #include <ElCLib.hxx>
 #include <Precision.hxx>
 

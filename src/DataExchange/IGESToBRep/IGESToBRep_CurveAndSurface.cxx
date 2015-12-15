@@ -43,9 +43,9 @@
 
 #include <BRepLib.hxx>
 
-#include <gp_Trsf.hxx>
-#include <gp_GTrsf.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_GTrsf.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Precision.hxx>
 
 #include <Interface_Macros.hxx>

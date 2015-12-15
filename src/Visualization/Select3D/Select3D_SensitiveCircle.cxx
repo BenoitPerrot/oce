@@ -24,8 +24,8 @@
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
-#include <gp_Lin.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Select3D_SensitiveEntity.hxx>
 #include <TopLoc_Location.hxx>
 #include <Select3D_Projector.hxx>
@@ -43,7 +43,7 @@ IMPLEMENT_STANDARD_TYPE_END(Select3D_SensitiveCircle)
 IMPLEMENT_DOWNCAST(Select3D_SensitiveCircle,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Select3D_SensitiveCircle)
 #include <Precision.hxx>
-#include <gp_Lin2d.hxx>
+#include <Mathematics/Primitives/gp_Lin2d.hxx>
 
 #include <CSLib_Class2d.hxx>
 #include <Select3D_SensitiveTriangle.hxx>

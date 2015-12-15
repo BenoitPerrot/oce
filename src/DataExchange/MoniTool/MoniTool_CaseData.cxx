@@ -13,8 +13,8 @@
 
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <TopoDS_Shape.hxx>
-#include <gp_XYZ.hxx>
-#include <gp_XY.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_XY.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Message/Message_Msg.hxx>

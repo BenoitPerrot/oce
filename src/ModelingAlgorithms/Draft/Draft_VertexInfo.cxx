@@ -17,7 +17,7 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_NoMoreObject.hxx>
 #include <TopoDS_Edge.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Draft_VertexInfo.hxx>
 
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfReal.hxx>

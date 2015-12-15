@@ -17,13 +17,13 @@
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/Standard/Standard_DimensionError.hxx>
 #include <Foundation/Standard/Standard_RangeError.hxx>
-#include <gp_Ax3.hxx>
-#include <gp_Torus.hxx>
+#include <Mathematics/Primitives/gp_Ax3.hxx>
+#include <Mathematics/Primitives/gp_Torus.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Geom_Curve.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Geom_Geometry.hxx>
 #include <Geom_ToroidalSurface.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -41,10 +41,10 @@ IMPLEMENT_STANDARD_RTTI(Geom_ToroidalSurface)
 
 #include <GeomAbs_UVSense.hxx>
 #include <Geom_Circle.hxx>
-#include <gp.hxx>
-#include <gp_Circ.hxx>
-#include <gp_Dir.hxx>
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp.hxx>
+#include <Mathematics/Primitives/gp_Circ.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <ElSLib.hxx>
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>

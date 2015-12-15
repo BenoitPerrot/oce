@@ -17,8 +17,8 @@
 #include <Plate_D1.hxx>
 #include <Plate_D2.hxx>
 
-#include <gp_XY.hxx>
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_XY.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Plate_D1.hxx>
 #include <Plate_D2.hxx>
 #include <NLPlate_HPG0G2Constraint.hxx>

@@ -23,7 +23,7 @@
 #include <BRepAdaptor_Curve2d.hxx>
 #include <BRep_Tool.hxx>
 #include <TopoDS.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Precision.hxx>
 #include <TopOpeBRepTool_EXPORT.hxx>
 #include <TopOpeBRepTool_TOOL.hxx>

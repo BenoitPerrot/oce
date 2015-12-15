@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard.hxx>
 #include <Handle_PColgp_SeqNodeOfHSequenceOfXYZ.hxx>
 
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Handle_PColgp_SeqNodeOfHSequenceOfXYZ.hxx>
 #include <PMMgt_PManaged.hxx>
 #include <Handle_PColgp_HSequenceOfXYZ.hxx>

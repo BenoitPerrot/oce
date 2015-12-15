@@ -2,7 +2,7 @@
 #include <BRepPrimAPI_MakeBox.hxx>
 #include <BRepOffsetAPI_MakeEvolved.hxx>
 #include <BRepOffsetAPI_MakeOffsetShape.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <GeomAbs_JoinType.hxx>
 #include <TopoDS_Shape.hxx>
 #include <gtest/gtest.h>

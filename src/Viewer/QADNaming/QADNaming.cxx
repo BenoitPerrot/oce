@@ -42,7 +42,7 @@
 #include <TopoDS_Vertex.hxx>
 #include <TopoDS.hxx>
 #include <BRep_Tool.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 
 //=======================================================================
 //function : GetShape

@@ -16,7 +16,7 @@
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <TopoDS_Face.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <TopoDS_Shell.hxx>
 #include <TopoDS_Solid.hxx>
 #include <BRepPrimAPI_MakeHalfSpace.hxx>
@@ -25,8 +25,8 @@
 #include <BRepLib_MakeVertex.hxx>
 #include <BRepExtrema_ExtPF.hxx>
 #include <BRepLProp_SLProps.hxx>
-#include <gp.hxx>
-#include <gp_Dir.hxx>
+#include <Mathematics/Primitives/gp.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
 #include <TopExp_Explorer.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Vertex.hxx>

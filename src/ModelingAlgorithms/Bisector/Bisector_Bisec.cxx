@@ -16,8 +16,8 @@
 
 #include <Geom2d_TrimmedCurve.hxx>
 #include <Geom2d_Curve.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Geom2d_Point.hxx>
 #include <Bisector_Bisec.hxx>
 #include <Bisector.hxx>
@@ -26,9 +26,9 @@
 #include <Geom2d_Point.hxx>
 #include <Geom2d_CartesianPoint.hxx>
 #include <Geom2d_TrimmedCurve.hxx>
-#include <gp.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Precision.hxx>

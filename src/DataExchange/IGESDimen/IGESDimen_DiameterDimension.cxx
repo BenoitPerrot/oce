@@ -18,8 +18,8 @@
 
 #include <IGESDimen_GeneralNote.hxx>
 #include <IGESDimen_LeaderArrow.hxx>
-#include <gp_XY.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_XY.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <IGESDimen_DiameterDimension.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESDimen_DiameterDimension)
@@ -31,8 +31,8 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESDimen_DiameterDimension)
 IMPLEMENT_DOWNCAST(IGESDimen_DiameterDimension,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESDimen_DiameterDimension)
-#include <gp_XYZ.hxx>
-#include <gp_GTrsf.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_GTrsf.hxx>
 
 
 IGESDimen_DiameterDimension::IGESDimen_DiameterDimension ()    {  }

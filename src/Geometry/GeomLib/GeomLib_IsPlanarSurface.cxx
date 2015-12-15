@@ -16,7 +16,7 @@
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geom_Surface.hxx>
-#include <gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
 #include <GeomLib_IsPlanarSurface.hxx>
 
 #include <GeomLib.hxx>

@@ -12,7 +12,7 @@
 #include <Handle_PColgp_HArray1OfVec.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <PColgp_FieldOfHArray1OfVec.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Foundation/Standard/Standard_Persistent.hxx>
@@ -83,7 +83,7 @@ private:
 };
 
 #define Item gp_Vec
-#define Item_hxx <gp_Vec.hxx>
+#define Item_hxx <Mathematics/Primitives/gp_Vec.hxx>
 #define PCollection_FieldOfHArray1 PColgp_FieldOfHArray1OfVec
 #define PCollection_FieldOfHArray1_hxx <PColgp_FieldOfHArray1OfVec.hxx>
 #define PCollection_VArrayNodeOfFieldOfHArray1 PColgp_VArrayNodeOfFieldOfHArray1OfVec

@@ -12,7 +12,7 @@
 
 #include <Handle_GeomFill_Frenet.hxx>
 #include <Handle_Law_Function.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_TColStd_HArray1OfReal.hxx>
 #include <Handle_TColgp_HArray1OfVec.hxx>

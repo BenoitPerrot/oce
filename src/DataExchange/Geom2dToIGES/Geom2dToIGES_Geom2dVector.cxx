@@ -25,7 +25,7 @@
 #include <Geom2d_VectorWithMagnitude.hxx>
 #include <Geom2d_Direction.hxx>
 
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
 
 #include <IGESGeom_Direction.hxx>
 

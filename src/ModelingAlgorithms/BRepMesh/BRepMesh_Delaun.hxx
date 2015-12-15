@@ -18,8 +18,8 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <gp_XY.hxx>
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_XY.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <BRepMesh_CircleTool.hxx>
 #include <BRepMesh_Triangle.hxx>
 #include <BRepMesh_Edge.hxx>

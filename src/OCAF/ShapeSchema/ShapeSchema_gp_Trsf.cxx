@@ -2,7 +2,7 @@
 #include <ShapeSchema_gp_Trsf.hxx>
 #endif
 #ifndef _gp_Trsf_HeaderFile
-#include <gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
 #endif
 #ifndef _ShapeSchema_gp_Mat_HeaderFile
 #include <ShapeSchema_gp_Mat.hxx>

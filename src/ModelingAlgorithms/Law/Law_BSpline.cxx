@@ -40,7 +40,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(Law_BSpline)
 IMPLEMENT_DOWNCAST(Law_BSpline,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Law_BSpline)
-#include <gp.hxx>
+#include <Mathematics/Primitives/gp.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Mathematics/BetaSpline/BSplCLib_KnotDistribution.hxx>
 #include <Mathematics/BetaSpline/BSplCLib_MultDistribution.hxx>

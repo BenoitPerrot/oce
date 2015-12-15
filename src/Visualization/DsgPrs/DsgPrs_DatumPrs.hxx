@@ -14,7 +14,7 @@
 #ifndef _DsgPrs_DatumPrs_H__
 #define _DsgPrs_DatumPrs_H__
 
-#include <gp_Ax2.hxx>
+#include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <Prs3d_Drawer.hxx>
 #include <Prs3d_Presentation.hxx>
 #include <Prs3d_Root.hxx>

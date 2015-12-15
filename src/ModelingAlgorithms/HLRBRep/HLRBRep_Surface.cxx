@@ -20,12 +20,12 @@
 #include <BRepAdaptor_Surface.hxx>
 #include <TopoDS_Face.hxx>
 #include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
 #include <HLRBRep_Surface.hxx>
 #include <HLRBRep_BSurfaceTool.hxx>
-#include <gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
 #include <GProp_PEquation.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <BRepClass_FaceClassifier.hxx>

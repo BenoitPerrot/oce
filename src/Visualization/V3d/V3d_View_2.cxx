@@ -56,10 +56,10 @@
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Aspect_ColorScale.hxx>
 #include <Aspect_GradientBackground.hxx>
-#include <gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Graphic3d_Vector.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
-#include <gp_Ax3.hxx>
+#include <Mathematics/Primitives/gp_Ax3.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <V3d_View.hxx>
 #include <Visual3d_View.hxx>

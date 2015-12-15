@@ -17,8 +17,8 @@
 #define _BRepMesh_VertexInspector_HeaderFile
 
 #include <Precision.hxx>
-#include <gp_XY.hxx>
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_XY.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <BRepMesh.hxx>
 #include <Foundation/NCollection/NCollection_CellFilter.hxx>
 #include <BRepMesh_Vertex.hxx>

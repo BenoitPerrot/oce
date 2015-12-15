@@ -21,8 +21,8 @@
 #include <TopOpeBRepBuild_ShapeSet.hxx>
 #include <TopOpeBRepBuild_FaceBuilder.hxx>
 
-#include <gp_Pnt.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <TopAbs_Orientation.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Compound.hxx>

@@ -16,7 +16,7 @@
 #ifndef QANCollection_Common_HeaderFile
 #define QANCollection_Common_HeaderFile
 
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 
 // ===================== Methods for accessing items/keys =====================
 

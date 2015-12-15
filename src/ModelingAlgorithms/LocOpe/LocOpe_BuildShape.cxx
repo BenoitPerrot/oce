@@ -35,7 +35,7 @@
 
 #include <BRep_Tool.hxx>
 #include <BRep_Builder.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 
 #include <BRepClass3d_SolidClassifier.hxx>
 

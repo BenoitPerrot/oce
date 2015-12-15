@@ -64,9 +64,9 @@
 #include <Aspect_TypeOfLine.hxx>
 #include <Image_Diff.hxx>
 #include <Aspect_DisplayConnection.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Dir.hxx>
-#include <gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
 #include <PrsMgr_PresentableObject.hxx>
 #include <Graphic3d_ClipPlane.hxx>
 #include <Foundation/NCollection/NCollection_DataMap.hxx>

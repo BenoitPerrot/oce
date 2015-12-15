@@ -33,11 +33,11 @@
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfListOfInteger.hxx>
 
-#include <gp_Lin2d.hxx>
-#include <gp_Ax22d.hxx>
-#include <gp_Circ2d.hxx>
-#include <gp_Torus.hxx>
-#include <gp_Cylinder.hxx>
+#include <Mathematics/Primitives/gp_Lin2d.hxx>
+#include <Mathematics/Primitives/gp_Ax22d.hxx>
+#include <Mathematics/Primitives/gp_Circ2d.hxx>
+#include <Mathematics/Primitives/gp_Torus.hxx>
+#include <Mathematics/Primitives/gp_Cylinder.hxx>
 
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 

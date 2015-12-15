@@ -20,9 +20,9 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Geom_UndefinedDerivative.hxx>
 #include <Geom_UndefinedValue.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Geom_Geometry.hxx>
 #include <Geom_TrimmedCurve.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -38,7 +38,7 @@ IMPLEMENT_STANDARD_TYPE_END(Geom_TrimmedCurve)
 IMPLEMENT_DOWNCAST(Geom_TrimmedCurve,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Geom_TrimmedCurve)
 
-#include <gp.hxx>
+#include <Mathematics/Primitives/gp.hxx>
 #include <Geom_Geometry.hxx>
 #include <Geom_BSplineCurve.hxx>
 #include <Geom_BezierCurve.hxx>

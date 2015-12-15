@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard.hxx>
 #include <Handle_PGeom_Axis2Placement.hxx>
 
-#include <gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
 #include <PGeom_AxisPlacement.hxx>
 class gp_Ax1;
 class gp_Dir;

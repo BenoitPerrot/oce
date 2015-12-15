@@ -15,14 +15,14 @@
 // commercial license or contractual agreement.
 
 #include <TopoDS_Shape.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geom_Curve.hxx>
 #include <TopoDS_Edge.hxx>
 #include <Geom_Surface.hxx>
 #include <TopoDS_Face.hxx>
 #include <BRepAdaptor_Surface.hxx>
 #include <BRepAdaptor_Curve.hxx>
-#include <gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
 #include <TopOpeBRepTool_ShapeTool.hxx>
 
 #include <BRep_Tool.hxx>
@@ -38,7 +38,7 @@
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Face.hxx>
 #include <TopoDS.hxx>
-#include <gp_Dir2d.hxx>
+#include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <Geom2d_Line.hxx>
 #include <BRepTools.hxx>
 #include <TopExp_Explorer.hxx>

@@ -20,7 +20,7 @@
 #include <Extrema_POnSurf.hxx>
 #include <Extrema_FuncExtSS.hxx>
 #include <Foundation/Standard/Standard_TypeMismatch.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 
 
 /*----------------------------------------------------------------------------

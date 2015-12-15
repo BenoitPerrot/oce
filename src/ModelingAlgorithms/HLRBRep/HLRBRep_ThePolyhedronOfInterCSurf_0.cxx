@@ -9,9 +9,9 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <HLRBRep_SurfaceTool.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
  
 
 #define ThePSurface Standard_Address

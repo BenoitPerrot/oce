@@ -63,11 +63,11 @@ IMPLEMENT_STANDARD_RTTI(V3d_DirectionalLight)
 #include <Visual3d_ViewManager.hxx>
 #include <Visual3d_ContextPick.hxx>
 #include <V3d_BadValue.hxx>
-#include <gp_Dir.hxx>
-#include <gp_Ax1.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Ax1.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <Aspect_Window.hxx>
 

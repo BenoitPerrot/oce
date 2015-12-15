@@ -22,7 +22,7 @@
 #include <Foundation/Standard/Standard_Stream.hxx>
 
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
-#include <gp_Mat2d.hxx>
+#include <Mathematics/Primitives/gp_Mat2d.hxx>
 #include <Mathematics/Polynomial/PLib.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>

@@ -18,7 +18,7 @@
 
 #include <NIS_InteractiveObject.hxx>
 #include <Foundation/NCollection/NCollection_BaseAllocator.hxx>
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
 
 class Quantity_Color;
 class Handle(Poly_Triangulation);

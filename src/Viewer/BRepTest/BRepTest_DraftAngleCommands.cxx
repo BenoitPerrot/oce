@@ -24,8 +24,8 @@
 #include <BRepOffsetAPI_MakeDraft.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Face.hxx>
-#include <gp_Pln.hxx>
-#include <gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
 
 static void Print(Draw_Interpretor& di,
 		  const Draft_ErrorStatus St)

@@ -29,7 +29,7 @@
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfBoolean.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 
 Handle(Law_BSpFunc) Law::MixBnd(const Handle(Law_Linear)& Lin)
 {

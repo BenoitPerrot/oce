@@ -30,8 +30,8 @@
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <IGESDimen_ToolWitnessLine.hxx>
 #include <IGESData_ParamCursor.hxx>
-#include <gp_XY.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_XY.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfXY.hxx>
 #include <IGESData_LineFontEntity.hxx>
 #include <IGESData_Dump.hxx>

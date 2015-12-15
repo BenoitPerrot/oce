@@ -20,7 +20,7 @@
 #include <TopoDS_Vertex.hxx>
 #include <Draw.hxx>
 #include <DBRep.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 
 #include <Geom_Curve.hxx>
 #include <Geom2d_Curve.hxx>

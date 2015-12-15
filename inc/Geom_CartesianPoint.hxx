@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Geom_CartesianPoint.hxx>
 
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geom_Point.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Geom_Geometry.hxx>

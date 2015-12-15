@@ -18,7 +18,7 @@
 #include <TopOpeBRepTool_EXPORT.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Face.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <TopOpeBRepTool_makeTransition.hxx>
 #include <TopOpeBRepTool_define.hxx>
 #include <BRep_Tool.hxx>

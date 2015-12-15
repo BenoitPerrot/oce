@@ -29,7 +29,7 @@
 #include <StepGeom_CartesianPoint.hxx>
 #include <StepToGeom_MakeCartesianPoint.hxx>
 #include <Geom_CartesianPoint.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 
 //=============================================================================
 // Creation d' une BSplineSurface de Geom a partir d' une

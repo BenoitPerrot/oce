@@ -26,7 +26,7 @@
 #define YmaxMask  0x10
 #define WholeMask 0x1e
 
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 
 //=======================================================================
 //function : Bnd_Box2d

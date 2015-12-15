@@ -19,9 +19,9 @@
 #include <Mathematics/Optimization/math_Gauss.hxx>
 
 
-#include <gp_XY.hxx>
+#include <Mathematics/Primitives/gp_XY.hxx>
 #include <Plate_D1.hxx>
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Plate_D2.hxx>
 #include <Plate_D3.hxx>
 #include <Plate_PinpointConstraint.hxx>

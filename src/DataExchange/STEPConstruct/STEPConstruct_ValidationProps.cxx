@@ -20,7 +20,7 @@
 #include <StepRepr_RepresentationItem.hxx>
 #include <StepRepr_CharacterizedDefinition.hxx>
 #include <StepRepr_RepresentationContext.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfTransient.hxx>
 #include <StepRepr_NextAssemblyUsageOccurrence.hxx>
 #include <StepRepr_PropertyDefinition.hxx>

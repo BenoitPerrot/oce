@@ -16,12 +16,12 @@
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <TopoDS_Vertex.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Lin2d.hxx>
-#include <gp_Circ2d.hxx>
-#include <gp_Elips2d.hxx>
-#include <gp_Hypr2d.hxx>
-#include <gp_Parab2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Lin2d.hxx>
+#include <Mathematics/Primitives/gp_Circ2d.hxx>
+#include <Mathematics/Primitives/gp_Elips2d.hxx>
+#include <Mathematics/Primitives/gp_Hypr2d.hxx>
+#include <Mathematics/Primitives/gp_Parab2d.hxx>
 #include <Geom2d_Curve.hxx>
 #include <TopoDS_Edge.hxx>
 #include <BRepLib_MakeEdge2d.hxx>
@@ -39,7 +39,7 @@
 #include <Geom2d_TrimmedCurve.hxx>
 #include <Geom2dAdaptor_Curve.hxx>
 #include <Extrema_ExtPC2d.hxx>
-#include <gp.hxx>
+#include <Mathematics/Primitives/gp.hxx>
 #include <ElCLib.hxx>
 #include <ElSLib.hxx>
 #include <Precision.hxx>

@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(XmlMPrsStd_PositionDriver)
 
 #include <XmlObjMgt.hxx>
 #include <TDataXtd_Position.hxx>
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
 
 #include <stdio.h>
 

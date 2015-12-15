@@ -20,8 +20,8 @@
 
 #include <Precision.hxx>
 
-#include <gp.hxx>
-#include <gp_Circ.hxx>
+#include <Mathematics/Primitives/gp.hxx>
+#include <Mathematics/Primitives/gp_Circ.hxx>
 
 #include <Geom_Curve.hxx>
 
@@ -30,7 +30,7 @@
 #include <BRepAdaptor_Curve.hxx>
 #include <BndLib_Add3dCurve.hxx>
 #include <IntTools_Context.hxx>
-#include <gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
 #include <ElCLib.hxx>
 
 //=======================================================================

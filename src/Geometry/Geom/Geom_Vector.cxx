@@ -16,8 +16,8 @@
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <gp_VectorWithNullMagnitude.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_VectorWithNullMagnitude.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Geom_Vector.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Geom_Vector)

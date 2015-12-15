@@ -2,7 +2,7 @@
 #include <ShapeSchema_gp_Ax22d.hxx>
 #endif
 #ifndef _gp_Ax22d_HeaderFile
-#include <gp_Ax22d.hxx>
+#include <Mathematics/Primitives/gp_Ax22d.hxx>
 #endif
 #ifndef _ShapeSchema_gp_Pnt2d_HeaderFile
 #include <ShapeSchema_gp_Pnt2d.hxx>

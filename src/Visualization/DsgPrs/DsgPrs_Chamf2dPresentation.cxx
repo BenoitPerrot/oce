@@ -16,7 +16,7 @@
 
 #include <Prs3d_Presentation.hxx>
 #include <Prs3d_Drawer.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <DsgPrs_Chamf2dPresentation.hxx>
 
@@ -28,8 +28,8 @@
 #include <Prs3d_DimensionAspect.hxx>
 #include <Prs3d_Text.hxx>
 
-#include <gp_Dir.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 
 #include <DsgPrs.hxx>
 

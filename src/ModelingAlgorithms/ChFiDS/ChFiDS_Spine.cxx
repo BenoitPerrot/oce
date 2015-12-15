@@ -21,11 +21,11 @@
 #include <TopoDS_Edge.hxx>
 #include <ChFiDS_HElSpine.hxx>
 #include <ChFiDS_ListOfHElSpine.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <BRepAdaptor_Curve.hxx>
-#include <gp_Lin.hxx>
-#include <gp_Circ.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Circ.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <ChFiDS_Spine.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

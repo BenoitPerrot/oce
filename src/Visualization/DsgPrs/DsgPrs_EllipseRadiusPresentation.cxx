@@ -17,14 +17,14 @@
 #include <Prs3d_Presentation.hxx>
 #include <Prs3d_Drawer.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Elips.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Elips.hxx>
 #include <Geom_OffsetCurve.hxx>
 #include <DsgPrs_EllipseRadiusPresentation.hxx>
 
-#include <gp_Lin.hxx>
-#include <gp_Dir.hxx>
-#include <gp_Elips.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Elips.hxx>
 #include <ElCLib.hxx>
 #include <Graphic3d_Group.hxx>
 #include <Graphic3d_ArrayOfSegments.hxx>

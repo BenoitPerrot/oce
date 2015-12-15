@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <GeomAdaptor_Curve.hxx>
 #include <Handle_Adaptor3d_HCurveOnSurface.hxx>
 #include <TopoDS_Edge.hxx>

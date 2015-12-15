@@ -15,12 +15,12 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_RangeError.hxx>
-#include <gp_Ax1.hxx>
-#include <gp_Lin.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Dir.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Ax1.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Geom_Geometry.hxx>
 #include <Geom_Line.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -36,7 +36,7 @@ IMPLEMENT_DOWNCAST(Geom_Line,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Geom_Line)
 
 #include <Precision.hxx>
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <ElCLib.hxx>
 #include <Foundation/Standard/Standard_RangeError.hxx>
 

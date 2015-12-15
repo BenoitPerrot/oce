@@ -57,7 +57,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_WireDivide)
 #include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
 #include <TColGeom_HArray1OfCurve.hxx>
 #include <TColGeom2d_HArray1OfCurve.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geom_Curve.hxx>
 #include <Geom2d_Curve.hxx>
 #include <ShapeExtend.hxx>

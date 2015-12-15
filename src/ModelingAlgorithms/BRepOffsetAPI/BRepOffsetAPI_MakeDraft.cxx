@@ -14,7 +14,7 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopoDS_Shape.hxx>
-#include <gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Geom_Surface.hxx>
 #include <TopoDS_Shell.hxx>
 #include <TopTools_ListOfShape.hxx>

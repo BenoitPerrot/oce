@@ -94,7 +94,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Wire)
 #include <IntRes2d_IntersectionPoint.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
-#include <gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
 
 #include <TopoDS.hxx>
 #include <TopoDS_Vertex.hxx>

@@ -20,9 +20,9 @@
 #include <BRepBuilderAPI_FindPlane.hxx>
 
 #include <Precision.hxx>
-#include <gp_Dir.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <TopoDS.hxx>
 #include <TopLoc_Location.hxx>

@@ -6,7 +6,7 @@
 #include <HLRBRep_TheQuadCurvExactInterCSurf.hxx>
 
 #include <HLRBRep_SurfaceTool.hxx>
-#include <gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
 #include <HLRBRep_LineTool.hxx>
 #include <HLRBRep_TheQuadCurvFuncOfTheQuadCurvExactInterCSurf.hxx>
  
@@ -16,7 +16,7 @@
 #define TheSurfaceTool HLRBRep_SurfaceTool
 #define TheSurfaceTool_hxx <HLRBRep_SurfaceTool.hxx>
 #define TheCurve gp_Lin
-#define TheCurve_hxx <gp_Lin.hxx>
+#define TheCurve_hxx <Mathematics/Primitives/gp_Lin.hxx>
 #define TheCurveTool HLRBRep_LineTool
 #define TheCurveTool_hxx <HLRBRep_LineTool.hxx>
 #define IntCurveSurface_TheQuadCurvFunc HLRBRep_TheQuadCurvFuncOfTheQuadCurvExactInterCSurf

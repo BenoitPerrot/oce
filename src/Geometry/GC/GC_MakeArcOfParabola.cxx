@@ -16,8 +16,8 @@
 
 #include <Geom_TrimmedCurve.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <gp_Parab.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Parab.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <GC_MakeArcOfParabola.hxx>
 #include <Geom_Parabola.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>

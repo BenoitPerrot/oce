@@ -75,7 +75,7 @@ private:
 };
 
 #define ItemHArray2 gp_Dir
-#define ItemHArray2_hxx <gp_Dir.hxx>
+#define ItemHArray2_hxx <Mathematics/Primitives/gp_Dir.hxx>
 #define TheArray2 TColgp_Array2OfDir
 #define TheArray2_hxx <Mathematics/Collections/TColgp_Array2OfDir.hxx>
 #define TCollection_HArray2 TColgp_HArray2OfDir

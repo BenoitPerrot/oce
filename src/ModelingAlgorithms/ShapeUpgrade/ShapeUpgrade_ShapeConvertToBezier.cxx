@@ -40,8 +40,8 @@
 #include <ShapeUpgrade_ConvertSurfaceToBezierBasis.hxx>
 #include <TopExp.hxx>
 #include <TopExp.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <ShapeFix_Wire.hxx>
 #include <ShapeExtend_WireData.hxx>
 #include <TopoDS_Vertex.hxx>

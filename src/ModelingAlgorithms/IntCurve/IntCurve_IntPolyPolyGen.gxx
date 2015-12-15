@@ -39,7 +39,7 @@
 #include <Intf_TangentZone.hxx>
 #include <Intf_InterferencePolygon2d.hxx>
 
-#include <gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
 
 #include <Mathematics/Optimization/math_Vector.hxx>
 #include <Mathematics/Optimization/math_FunctionSetRoot.hxx>

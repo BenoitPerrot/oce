@@ -34,7 +34,7 @@
 #include <IGESDimen_GeneralNote.hxx>
 #include <IGESDimen_HArray1OfGeneralNote.hxx>
 #include <IGESAppli_HArray1OfNode.hxx>
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfXYZ.hxx>
 #include <IGESBasic_HArray1OfHArray1OfXYZ.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>

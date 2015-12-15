@@ -12,7 +12,7 @@
 
 #include <TopoDS_Shape.hxx>
 #include <TopTools_DataMapOfShapeListOfShape.hxx>
-#include <gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
 #include <TColGeom_SequenceOfCurve.hxx>
 #include <Handle_Geom_Curve.hxx>
 #include <BRepFeat_StatusError.hxx>

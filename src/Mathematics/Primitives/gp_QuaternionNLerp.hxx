@@ -14,7 +14,7 @@
 #ifndef _gp_QuaternionNLerp_HeaderFile
 #define _gp_QuaternionNLerp_HeaderFile
 
-#include <gp_Quaternion.hxx>
+#include <Mathematics/Primitives/gp_Quaternion.hxx>
 
 /**
  * Class perform linear interpolation (approximate rotation interpolation),

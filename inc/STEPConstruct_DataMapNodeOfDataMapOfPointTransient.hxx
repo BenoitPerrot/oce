@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_STEPConstruct_DataMapNodeOfDataMapOfPointTransient.hxx>
 
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
@@ -54,7 +54,7 @@ private:
 };
 
 #define TheKey gp_Pnt
-#define TheKey_hxx <gp_Pnt.hxx>
+#define TheKey_hxx <Mathematics/Primitives/gp_Pnt.hxx>
 #define TheItem Handle(Standard_Transient)
 #define TheItem_hxx <Foundation/Standard/Standard_Transient.hxx>
 #define Hasher STEPConstruct_PointHasher

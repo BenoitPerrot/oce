@@ -19,7 +19,7 @@
 #include <Geom2d_Geometry.hxx>
 #include <TopoDS_Edge.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <BRepFill_TrimEdgeTool.hxx>
 #include <BRep_Tool.hxx>
 #include <Bisector_BisecAna.hxx>
@@ -31,7 +31,7 @@
 #include <Geom_TrimmedCurve.hxx>
 #include <Geom2dAPI_ProjectPointOnCurve.hxx>
 #include <Geom2dInt_GInter.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <TopLoc_Location.hxx>
 #include <TopoDS.hxx>
 #include <Precision.hxx>

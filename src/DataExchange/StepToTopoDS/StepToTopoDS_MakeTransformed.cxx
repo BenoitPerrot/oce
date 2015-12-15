@@ -16,7 +16,7 @@
 
 #include <StepGeom_Axis2Placement3d.hxx>
 #include <StepGeom_CartesianTransformationOperator3d.hxx>
-#include <gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <TopoDS_Shape.hxx>
 #include <StepRepr_MappedItem.hxx>
 #include <Transfer_TransientProcess.hxx>
@@ -26,8 +26,8 @@
 
 #include <StepToGeom_MakeAxis2Placement.hxx>
 #include <Geom_Axis2Placement.hxx>
-#include <gp_Ax3.hxx>
-#include <gp_TrsfForm.hxx>
+#include <Mathematics/Primitives/gp_Ax3.hxx>
+#include <Mathematics/Primitives/gp_TrsfForm.hxx>
 #include <TopLoc_Location.hxx>
 
 #include <StepRepr_RepresentationMap.hxx>

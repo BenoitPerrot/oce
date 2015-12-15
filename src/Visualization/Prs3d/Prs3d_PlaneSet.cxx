@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Prs3d_PlaneSet.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Prs3d_PlaneSet)
@@ -25,10 +25,10 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(Prs3d_PlaneSet)
 IMPLEMENT_DOWNCAST(Prs3d_PlaneSet,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Prs3d_PlaneSet)
-#include <gp_Dir.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Ax1.hxx>
-#include <gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Ax1.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
 
 Prs3d_PlaneSet::Prs3d_PlaneSet(const Standard_Real Xdir,
 			       const Standard_Real Ydir,

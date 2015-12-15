@@ -17,7 +17,7 @@
 #include <TopoDS_Edge.hxx>
 #include <Geom_Curve.hxx>
 #include <TopoDS_Vertex.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geom2d_Curve.hxx>
 #include <ShapeCustom_SweptToElementary.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -52,11 +52,11 @@ IMPLEMENT_STANDARD_RTTI(ShapeCustom_SweptToElementary)
 #include <Adaptor3d_SurfaceOfLinearExtrusion.hxx>
 #include <GeomAdaptor_HCurve.hxx>
 
-#include <gp_Pln.hxx>
-#include <gp_Cylinder.hxx>
-#include <gp_Sphere.hxx>
-#include <gp_Cone.hxx>
-#include <gp_Torus.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Cylinder.hxx>
+#include <Mathematics/Primitives/gp_Sphere.hxx>
+#include <Mathematics/Primitives/gp_Cone.hxx>
+#include <Mathematics/Primitives/gp_Torus.hxx>
 
 #include <ShapeAnalysis_Surface.hxx>
 

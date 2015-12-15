@@ -39,9 +39,9 @@
 
 #include <Geom2dConvert.hxx>
 #include <Geom2d_Circle.hxx>
-#include <gp_Circ2d.hxx>
+#include <Mathematics/Primitives/gp_Circ2d.hxx>
 #include <Geom2d_Ellipse.hxx>
-#include <gp_Elips2d.hxx>
+#include <Mathematics/Primitives/gp_Elips2d.hxx>
 
 //=============================================================================
 // Creation d' une Curve de prostep a partir d' une Curve de Geom

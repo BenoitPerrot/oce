@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_RTTI(DrawTrSurf_Triangulation2D)
 #include <Mathematics/Polyhedral/Poly_Array1OfTriangle.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Draw_Color.hxx>
 #include <Mathematics/Polyhedral/Poly.hxx>
 

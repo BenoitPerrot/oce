@@ -92,7 +92,7 @@ private:
 };
 
 #define Item gp_Vec
-#define Item_hxx <gp_Vec.hxx>
+#define Item_hxx <Mathematics/Primitives/gp_Vec.hxx>
 #define TheSequence TColgp_SequenceOfVec
 #define TheSequence_hxx <Mathematics/Collections/TColgp_SequenceOfVec.hxx>
 #define TCollection_HSequence TColgp_HSequenceOfVec

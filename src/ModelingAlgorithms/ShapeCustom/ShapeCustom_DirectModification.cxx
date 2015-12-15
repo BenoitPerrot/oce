@@ -23,7 +23,7 @@
 #include <TopoDS_Edge.hxx>
 #include <Geom_Curve.hxx>
 #include <TopoDS_Vertex.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geom2d_Curve.hxx>
 #include <ShapeCustom_DirectModification.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -37,7 +37,7 @@ IMPLEMENT_STANDARD_TYPE_END(ShapeCustom_DirectModification)
 IMPLEMENT_DOWNCAST(ShapeCustom_DirectModification,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ShapeCustom_DirectModification)
 
-#include <gp_Mat.hxx>
+#include <Mathematics/Primitives/gp_Mat.hxx>
 #include <Geom_ConicalSurface.hxx>
 #include <Geom_ElementarySurface.hxx>
 #include <Geom_RectangularTrimmedSurface.hxx>

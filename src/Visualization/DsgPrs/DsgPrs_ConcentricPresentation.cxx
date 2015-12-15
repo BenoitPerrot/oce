@@ -16,8 +16,8 @@
 
 #include <Prs3d_Presentation.hxx>
 #include <Prs3d_Drawer.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
 #include <DsgPrs_ConcentricPresentation.hxx>
 
 #include <Graphic3d_Group.hxx>
@@ -26,10 +26,10 @@
 #include <Prs3d_Root.hxx>
 #include <Prs3d_LineAspect.hxx>
 
-#include <gp_Circ.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Dir.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Circ.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 
 #include <ElCLib.hxx>
 

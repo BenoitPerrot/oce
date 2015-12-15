@@ -21,14 +21,14 @@
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Adaptor3d_HSurface.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <BlendFunc.hxx>
 
-#include <gp_Circ.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Dir.hxx>
-#include <gp_Ax2.hxx>
+#include <Mathematics/Primitives/gp_Circ.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <Mathematics/Collections/TColgp_Array2OfVec.hxx>
 
 #include <Geom_TrimmedCurve.hxx>

@@ -23,8 +23,8 @@
 #include <StepToGeom_MakeDirection2d.hxx>
 #include <Geom2d_CartesianPoint.hxx>
 #include <Geom2d_Direction.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Dir2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Dir2d.hxx>
 
 //=============================================================================
 // Creation d' un AxisPlacement de Geom2d a partir d' un axis2_placement_3d

@@ -17,8 +17,8 @@
 #include <Voxel_BoolDS.hxx>
 #include <Voxel_ColorDS.hxx>
 #include <Voxel_ROctBoolDS.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Voxel_FastConverter.hxx>
 
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
@@ -29,7 +29,7 @@
 #include <TopoDS_Face.hxx>
 #include <TopExp_Explorer.hxx>
 
-#include <gp_Lin2d.hxx>
+#include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <gce_MakePln.hxx>
 
 #include <ElSLib.hxx>

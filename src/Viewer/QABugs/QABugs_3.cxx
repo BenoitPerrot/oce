@@ -611,7 +611,7 @@ di <<"AnyToLS (3,mm) = " << UnitsAPI::AnyToLS(3.,"mm") << "\n"; // result was WR
    return 0;
 }
 
-#include <gp_Circ.hxx>
+#include <Mathematics/Primitives/gp_Circ.hxx>
 #include <Geom_Circle.hxx>
 #include <GeomAPI.hxx>
 #include <Geom2d_CartesianPoint.hxx>

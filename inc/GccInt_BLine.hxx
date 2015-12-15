@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_GccInt_BLine.hxx>
 
-#include <gp_Lin2d.hxx>
+#include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <GccInt_Bisec.hxx>
 #include <GccInt_IType.hxx>
 class gp_Lin2d;

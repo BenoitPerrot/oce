@@ -11,7 +11,7 @@
 #include <Handle_GeomFill_CoonsAlgPatch.hxx>
 
 #include <Handle_GeomFill_Boundary.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Handle_Law_Function.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

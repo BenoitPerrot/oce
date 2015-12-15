@@ -12,8 +12,8 @@
 
 #include <Handle_Adaptor3d_HVertex.hxx>
 #include <BRepBlend_SequenceOfPointOnRst.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Adaptor2d_HCurve2d.hxx>

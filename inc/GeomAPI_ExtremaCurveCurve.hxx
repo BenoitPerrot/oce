@@ -15,7 +15,7 @@
 #include <Extrema_ExtCC.hxx>
 #include <GeomAdaptor_Curve.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Handle_Geom_Curve.hxx>
 #include <Foundation/Quantity/Quantity_Parameter.hxx>
 #include <Foundation/Quantity/Quantity_Length.hxx>

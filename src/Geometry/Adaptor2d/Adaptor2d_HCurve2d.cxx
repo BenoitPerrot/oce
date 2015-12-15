@@ -17,8 +17,8 @@
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Adaptor2d_Curve2d.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Geom2d_BezierCurve.hxx>
 #include <Geom2d_BSplineCurve.hxx>
 #include <Adaptor2d_HCurve2d.hxx>

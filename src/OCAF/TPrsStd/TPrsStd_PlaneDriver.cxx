@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_RTTI(TPrsStd_PlaneDriver)
 #include <TNaming_NamedShape.hxx>
 #include <TNaming_Tool.hxx>
 #include <Geom_Plane.hxx>
-#include <gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
 
 //=======================================================================
 //function :

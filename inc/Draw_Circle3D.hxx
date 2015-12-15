@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Draw_Circle3D.hxx>
 
-#include <gp_Circ.hxx>
+#include <Mathematics/Primitives/gp_Circ.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Draw_Color.hxx>
 #include <Draw_Drawable3D.hxx>

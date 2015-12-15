@@ -66,7 +66,7 @@ IMPLEMENT_STANDARD_RTTI(HLRBRep_PolyAlgo)
 #include <BRep_Tool.hxx>
 #include <BRepLib_MakeEdge.hxx>
 #include <Precision.hxx>
-#include <gp.hxx>
+#include <Mathematics/Primitives/gp.hxx>
 
 #define EMskOutLin1  0x0001u
 #define EMskOutLin2  0x0002u

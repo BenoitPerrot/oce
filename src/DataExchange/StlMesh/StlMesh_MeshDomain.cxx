@@ -32,7 +32,7 @@ IMPLEMENT_DOWNCAST(StlMesh_MeshDomain,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(StlMesh_MeshDomain)
 #include <StlMesh_MeshTriangle.hxx>
 #include <Precision.hxx>
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
 
 //=======================================================================
 //function : StlMesh_MeshDomain

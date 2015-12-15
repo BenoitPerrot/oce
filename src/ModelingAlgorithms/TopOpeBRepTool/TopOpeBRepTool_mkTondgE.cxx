@@ -15,9 +15,9 @@
 // commercial license or contractual agreement.
 
 #include <Precision.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <TopoDS.hxx>
 #include <BRep_Tool.hxx>
 #include <BRepAdaptor_Surface.hxx>
@@ -26,7 +26,7 @@
 #include <TopOpeBRepTool_TOOL.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Face.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <TopOpeBRepTool_mkTondgE.hxx>
 #include <TopOpeBRepTool_define.hxx>

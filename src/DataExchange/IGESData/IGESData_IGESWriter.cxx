@@ -19,8 +19,8 @@
 #include <IGESData_GlobalSection.hxx>
 #include <IGESData_IGESEntity.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <gp_XY.hxx>
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_XY.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <IGESData_IGESWriter.hxx>
 #include <IGESData_DefType.hxx>
 #include <IGESData_DirPart.hxx>

@@ -5,10 +5,10 @@
 
 #include <Mathematics/BoundingVolumes/Bnd_B2d.hxx>
 
-#include <gp_XY.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Trsf2d.hxx>
-#include <gp_Ax2d.hxx>
+#include <Mathematics/Primitives/gp_XY.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Trsf2d.hxx>
+#include <Mathematics/Primitives/gp_Ax2d.hxx>
  
 
 #define RealType Standard_Real

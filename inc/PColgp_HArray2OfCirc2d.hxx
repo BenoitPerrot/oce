@@ -12,7 +12,7 @@
 #include <Handle_PColgp_HArray2OfCirc2d.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <gp_Circ2d.hxx>
+#include <Mathematics/Primitives/gp_Circ2d.hxx>
 #include <PColgp_FieldOfHArray2OfCirc2d.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Foundation/Standard/Standard_Persistent.hxx>
@@ -95,7 +95,7 @@ private:
 };
 
 #define Item gp_Circ2d
-#define Item_hxx <gp_Circ2d.hxx>
+#define Item_hxx <Mathematics/Primitives/gp_Circ2d.hxx>
 #define PCollection_FieldOfHArray2 PColgp_FieldOfHArray2OfCirc2d
 #define PCollection_FieldOfHArray2_hxx <PColgp_FieldOfHArray2OfCirc2d.hxx>
 #define PCollection_VArrayNodeOfFieldOfHArray2 PColgp_VArrayNodeOfFieldOfHArray2OfCirc2d

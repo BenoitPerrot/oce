@@ -28,7 +28,7 @@
 #include <StepGeom_CartesianPoint.hxx>
 #include <StepShape_VertexPoint.hxx>
 
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <TransferBRep_ShapeMapper.hxx>
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>

@@ -61,7 +61,7 @@ private:
 };
 
 #define Item gp_Pnt2d
-#define Item_hxx <gp_Pnt2d.hxx>
+#define Item_hxx <Mathematics/Primitives/gp_Pnt2d.hxx>
 #define TCollection_ListNode TestTopOpeDraw_ListNodeOfListOfPnt2d
 #define TCollection_ListNode_hxx <TestTopOpeDraw_ListNodeOfListOfPnt2d.hxx>
 #define TCollection_ListIterator TestTopOpeDraw_ListIteratorOfListOfPnt2d

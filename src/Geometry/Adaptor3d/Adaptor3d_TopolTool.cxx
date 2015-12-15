@@ -18,8 +18,8 @@
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Adaptor2d_HCurve2d.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Adaptor3d_TopolTool.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -33,9 +33,9 @@ IMPLEMENT_DOWNCAST(Adaptor3d_TopolTool,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Adaptor3d_TopolTool)
 #include <Precision.hxx>
 
-#include <gp_Cone.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Cone.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
 
 #define myInfinite Precision::Infinite()
 
@@ -583,9 +583,9 @@ Standard_Boolean Adaptor3d_TopolTool::Identical
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>
 //#include <gce_MakeLin.hxx>
-#include <gp_Lin.hxx>
-#include <gp_Dir.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 
 #define myMinPnts 4 //Absolut possible minimum of sample points
                     //Restriction of IntPolyh

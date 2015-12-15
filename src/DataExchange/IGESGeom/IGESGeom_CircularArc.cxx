@@ -16,10 +16,10 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <gp_XY.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_XY.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
 #include <IGESGeom_CircularArc.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESGeom_CircularArc)
@@ -31,8 +31,8 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESGeom_CircularArc)
 IMPLEMENT_DOWNCAST(IGESGeom_CircularArc,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESGeom_CircularArc)
-#include <gp_Dir2d.hxx>
-#include <gp_GTrsf.hxx>
+#include <Mathematics/Primitives/gp_Dir2d.hxx>
+#include <Mathematics/Primitives/gp_GTrsf.hxx>
 
 
 IGESGeom_CircularArc::IGESGeom_CircularArc ()    {  }

@@ -15,14 +15,14 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <gp_Ax2.hxx>
-#include <gp_Cone.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Ax1.hxx>
-#include <gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Ax2.hxx>
+#include <Mathematics/Primitives/gp_Cone.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Ax1.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
 #include <gce_MakeCone.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <gp.hxx>
+#include <Mathematics/Primitives/gp.hxx>
 
 //=========================================================================
 //  Construction d un cone par son axe , le rayon de sa base et le demi   +

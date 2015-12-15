@@ -2,7 +2,7 @@
 #include <XCAFSchema_gp_Ax1.hxx>
 #endif
 #ifndef _gp_Ax1_HeaderFile
-#include <gp_Ax1.hxx>
+#include <Mathematics/Primitives/gp_Ax1.hxx>
 #endif
 #ifndef _XCAFSchema_gp_Pnt_HeaderFile
 #include <XCAFSchema_gp_Pnt.hxx>

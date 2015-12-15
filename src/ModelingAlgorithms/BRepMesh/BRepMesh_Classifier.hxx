@@ -24,7 +24,7 @@
 #include <Foundation/TColStd/TColStd_SequenceOfBoolean.hxx>
 #include <TopAbs_State.hxx>
 #include <Foundation/NCollection/NCollection_Sequence.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 
 //! Auxilary class contains information about correctness of discretized 
 //! face and used for classification of points regarding face internals.

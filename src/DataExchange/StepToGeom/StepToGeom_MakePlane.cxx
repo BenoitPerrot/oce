@@ -20,7 +20,7 @@
 #include <StepGeom_Axis2Placement3d.hxx>
 #include <StepToGeom_MakeAxis2Placement.hxx>
 #include <Geom_Axis2Placement.hxx>
-#include <gp_Ax2.hxx>
+#include <Mathematics/Primitives/gp_Ax2.hxx>
 
 //=============================================================================
 // Creation d' un Plane de Geom a partir d' un plane de Step

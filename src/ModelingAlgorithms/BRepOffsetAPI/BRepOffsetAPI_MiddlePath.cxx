@@ -19,7 +19,7 @@
 
 #include <ShapeUpgrade_UnifySameDomain.hxx>
 
-#include <gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Geom_Curve.hxx>
 #include <Geom_TrimmedCurve.hxx>
 #include <Geom_Line.hxx>
@@ -59,7 +59,7 @@
 #include <GProp_GProps.hxx>
 #include <BRepGProp.hxx>
 #include <Geom_Circle.hxx>
-#include <gp_Circ.hxx>
+#include <Mathematics/Primitives/gp_Circ.hxx>
 #include <GC_MakeCircle.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <GeomLib.hxx>

@@ -17,8 +17,8 @@
 #include <GeomFill_LocationLaw.hxx>
 #include <GeomFill_LocFunction.hxx>
 
-#include <gp_Mat.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Mat.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfVec2d.hxx>
 

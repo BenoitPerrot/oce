@@ -19,8 +19,8 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Geom2dHatch_Element.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Lin2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <Geom2dAdaptor_Curve.hxx>
 #include <Geom2dHatch_Elements.hxx>
 
@@ -30,8 +30,8 @@
 #include <Geom2dAdaptor_Curve.hxx>
 
 #include <TopAbs_Orientation.hxx>
-#include <gp.hxx>
-#include <gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
 
 Geom2dHatch_Elements::Geom2dHatch_Elements(const Geom2dHatch_Elements& )
 {

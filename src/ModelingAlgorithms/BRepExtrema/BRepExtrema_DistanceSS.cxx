@@ -20,8 +20,8 @@
 
 #include <TopTools_IndexedMapOfShape.hxx>
 #include <TopExp.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <BRep_Tool.hxx>
 #include <BRepExtrema_SupportType.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

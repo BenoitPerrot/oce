@@ -2,7 +2,7 @@
 #include <XCAFSchema_gp_Vec.hxx>
 #endif
 #ifndef _gp_Vec_HeaderFile
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #endif
 #ifndef _XCAFSchema_gp_XYZ_HeaderFile
 #include <XCAFSchema_gp_XYZ.hxx>

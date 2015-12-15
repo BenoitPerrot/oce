@@ -17,12 +17,12 @@
 //--------------------------------------------------------------------
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <gp_XYZ.hxx>
-#include <gp_XY.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_XY.hxx>
 #include <IGESData_ViewKindEntity.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <IGESData_TransfEntity.hxx>
 #include <IGESDraw_PerspectiveView.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -36,7 +36,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESDraw_PerspectiveView)
 IMPLEMENT_DOWNCAST(IGESDraw_PerspectiveView,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESDraw_PerspectiveView)
-#include <gp_GTrsf.hxx>
+#include <Mathematics/Primitives/gp_GTrsf.hxx>
 
 
 IGESDraw_PerspectiveView::IGESDraw_PerspectiveView ()    {  }

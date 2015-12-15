@@ -16,11 +16,11 @@
 
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <gp_Cylinder.hxx>
+#include <Mathematics/Primitives/gp_Cylinder.hxx>
 #include <Mathematics/Convert/Convert_CylinderToBSplineSurface.hxx>
 
-#include <gp.hxx>
-#include <gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
 
 static const Standard_Integer TheUDegree  = 2;
 static const Standard_Integer TheVDegree  = 1;

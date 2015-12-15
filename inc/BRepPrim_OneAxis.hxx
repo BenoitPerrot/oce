@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <BRepPrim_Builder.hxx>
-#include <gp_Ax2.hxx>
+#include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <TopoDS_Shell.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

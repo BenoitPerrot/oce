@@ -79,8 +79,8 @@
 #include <Geom2d_BoundedCurve.hxx>
 #include <Geom2d_Line.hxx>
 
-#include <gp_Pnt.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 
 #include <Precision.hxx>
 #include <Interface_Static.hxx>

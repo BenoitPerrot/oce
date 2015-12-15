@@ -12,7 +12,7 @@
 #include <Handle_PColgp_VArrayNodeOfFieldOfHArray1OfXY.hxx>
 
 #include <Foundation/Standard/Standard_Address.hxx>
-#include <gp_XY.hxx>
+#include <Mathematics/Primitives/gp_XY.hxx>
 #include <PStandard_ArrayNode.hxx>
 class gp_XY;
 class PColgp_FieldOfHArray1OfXY;

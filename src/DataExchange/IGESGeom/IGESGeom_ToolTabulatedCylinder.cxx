@@ -31,8 +31,8 @@
 #include <IGESGeom_ToolTabulatedCylinder.hxx>
 #include <IGESData_ParamCursor.hxx>
 #include <IGESData_IGESEntity.hxx>
-#include <gp_XYZ.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <IGESData_Dump.hxx>
 #include <Interface_Macros.hxx>
 

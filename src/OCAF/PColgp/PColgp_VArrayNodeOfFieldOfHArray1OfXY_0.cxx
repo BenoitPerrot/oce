@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <gp_XY.hxx>
+#include <Mathematics/Primitives/gp_XY.hxx>
 #include <PColgp_FieldOfHArray1OfXY.hxx>
 #include <PColgp_VArrayTNodeOfFieldOfHArray1OfXY.hxx>
 
@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_RTTI(PColgp_VArrayNodeOfFieldOfHArray1OfXY)
 
 
 #define Item gp_XY
-#define Item_hxx <gp_XY.hxx>
+#define Item_hxx <Mathematics/Primitives/gp_XY.hxx>
 #define DBC_VArrayNode PColgp_VArrayNodeOfFieldOfHArray1OfXY
 #define DBC_VArrayNode_hxx <PColgp_VArrayNodeOfFieldOfHArray1OfXY.hxx>
 #define DBC_VArrayTNode PColgp_VArrayTNodeOfFieldOfHArray1OfXY

@@ -31,12 +31,12 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_UnifySameDomain)
 #include <TopExp_Explorer.hxx>
 #include <Geom_Surface.hxx>
 #include <Geom_Line.hxx>
-#include <gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Geom_CylindricalSurface.hxx>
-#include <gp_Cylinder.hxx>
+#include <Mathematics/Primitives/gp_Cylinder.hxx>
 #include <Geom_SurfaceOfRevolution.hxx>
 #include <Geom_SurfaceOfLinearExtrusion.hxx>
-#include <gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Geom_Circle.hxx>
 #include <Geom_RectangularTrimmedSurface.hxx>
 #include <TopoDS_Face.hxx>

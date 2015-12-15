@@ -16,7 +16,7 @@
 
 #include <ElCLib.hxx>
 #include <IntCurve_PConic.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <IntCurve_ProjectOnPConicTool.hxx>
 
 Standard_Real IntCurve_ProjectOnPConicTool::FindParameter

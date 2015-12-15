@@ -100,7 +100,7 @@ private:
 };
 
 #define Array2Item gp_Vec
-#define Array2Item_hxx <gp_Vec.hxx>
+#define Array2Item_hxx <Mathematics/Primitives/gp_Vec.hxx>
 #define TCollection_Array2 TColgp_Array2OfVec
 #define TCollection_Array2_hxx <Mathematics/Collections/TColgp_Array2OfVec.hxx>
 

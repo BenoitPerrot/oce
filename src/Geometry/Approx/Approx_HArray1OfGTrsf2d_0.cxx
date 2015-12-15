@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <gp_GTrsf2d.hxx>
+#include <Mathematics/Primitives/gp_GTrsf2d.hxx>
 #include <Approx_Array1OfGTrsf2d.hxx>
 
  
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(Approx_HArray1OfGTrsf2d)
 
 
 #define ItemHArray1 gp_GTrsf2d
-#define ItemHArray1_hxx <gp_GTrsf2d.hxx>
+#define ItemHArray1_hxx <Mathematics/Primitives/gp_GTrsf2d.hxx>
 #define TheArray1 Approx_Array1OfGTrsf2d
 #define TheArray1_hxx <Approx_Array1OfGTrsf2d.hxx>
 #define TCollection_HArray1 Approx_HArray1OfGTrsf2d

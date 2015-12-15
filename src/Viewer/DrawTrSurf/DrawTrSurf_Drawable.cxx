@@ -30,8 +30,8 @@ IMPLEMENT_STANDARD_TYPE_END(DrawTrSurf_Drawable)
 IMPLEMENT_DOWNCAST(DrawTrSurf_Drawable,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(DrawTrSurf_Drawable)
 #include <GCPnts_UniformDeflection.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <GeomAdaptor_Curve.hxx>
 #include <Geom_BezierCurve.hxx>

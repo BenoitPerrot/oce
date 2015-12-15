@@ -18,11 +18,11 @@
 
 #include <Adaptor3d_HSurface.hxx>
 #include <Foundation/StdFail/StdFail_UndefinedDerivative.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Dir2d.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <Contap_SurfFunction.hxx>
 
 #include <Contap_SurfProps.hxx>

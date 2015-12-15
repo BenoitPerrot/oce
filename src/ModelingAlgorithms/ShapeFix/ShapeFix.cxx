@@ -40,7 +40,7 @@
 #include <Geom_Surface.hxx>
 
 //:i2
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geom_Plane.hxx>
 #include <ShapeFix_Edge.hxx>
 #include <Geom2dAdaptor_HCurve.hxx>

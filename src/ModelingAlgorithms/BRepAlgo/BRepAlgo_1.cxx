@@ -37,7 +37,7 @@
 #include <TopoDS.hxx>
 #include <TopoDS_Face.hxx>
 #include <TopoDS_Compound.hxx>
-#include <gp.hxx>
+#include <Mathematics/Primitives/gp.hxx>
 
 //=======================================================================
 //function : IsValid

@@ -35,8 +35,8 @@ IMPLEMENT_STANDARD_RTTI(QABugs_PresentableObject)
 #include <Prs3d_ShadingAspect.hxx>
 #include <Graphic3d_AspectFillArea3d.hxx>
 #include <Graphic3d_ArrayOfTriangles.hxx>
-#include <gp_Dir.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <AIS_Drawer.hxx>
 
 QABugs_PresentableObject::QABugs_PresentableObject(const PrsMgr_TypeOfPresentation3d theTypeOfPresentation3d)

@@ -2,7 +2,7 @@
 #include <StdSchema_gp_XYZ.hxx>
 #endif
 #ifndef _gp_XYZ_HeaderFile
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

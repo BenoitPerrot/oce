@@ -16,9 +16,9 @@
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <gp_Ax22d.hxx>
-#include <gp_Ax2d.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Ax22d.hxx>
+#include <Mathematics/Primitives/gp_Ax2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Geom2d_Conic.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Geom2d_Conic)
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(Geom2d_Conic)
 IMPLEMENT_DOWNCAST(Geom2d_Conic,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Geom2d_Conic)
-#include <gp_Dir2d.hxx>
+#include <Mathematics/Primitives/gp_Dir2d.hxx>
 
 typedef Geom2d_Conic         Conic;
 typedef Handle(Geom2d_Conic) Handle(Conic);

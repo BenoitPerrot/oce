@@ -12,7 +12,7 @@
 
 #include <Plate_PinpointConstraint.hxx>
 #include <Plate_D1.hxx>
-#include <gp_XY.hxx>
+#include <Mathematics/Primitives/gp_XY.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class gp_XY;
 class Plate_D1;

@@ -16,11 +16,11 @@
 
 #include <BRepTest.hxx>
 #include <GeometryTest.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Pln.hxx>
-#include <gp_Ax2.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Ax2.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt2d.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <BRepBuilderAPI.hxx>
@@ -59,7 +59,7 @@
 #include <DrawTrSurf_BSplineCurve2d.hxx>
 #include <DrawTrSurf_Point.hxx>
 
-#include <gp.hxx>
+#include <Mathematics/Primitives/gp.hxx>
 #include <Precision.hxx>
 #include <GeomAPI.hxx>
 #include <TopAbs_Orientation.hxx>

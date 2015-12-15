@@ -15,8 +15,8 @@
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Mathematics/Optimization/math_FunctionSetRoot.hxx>
 #include <IntSurf_PntOn2S.hxx>
-#include <gp_Dir.hxx>
-#include <gp_Dir2d.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Dir2d.hxx>
  
 
 #define ThePSurface BRepAdaptor_Surface

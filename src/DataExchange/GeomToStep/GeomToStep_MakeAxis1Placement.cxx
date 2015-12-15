@@ -16,15 +16,15 @@
 
 #include <StepGeom_Axis1Placement.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <gp_Ax1.hxx>
-#include <gp_Ax2d.hxx>
+#include <Mathematics/Primitives/gp_Ax1.hxx>
+#include <Mathematics/Primitives/gp_Ax2d.hxx>
 #include <Geom_Axis1Placement.hxx>
 #include <Geom2d_AxisPlacement.hxx>
 #include <GeomToStep_MakeAxis1Placement.hxx>
 #include <GeomToStep_MakeDirection.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <gp_Ax1.hxx>
-#include <gp_Ax2d.hxx>
+#include <Mathematics/Primitives/gp_Ax1.hxx>
+#include <Mathematics/Primitives/gp_Ax2d.hxx>
 #include <Geom_Axis1Placement.hxx>
 #include <Geom2d_AxisPlacement.hxx>
 #include <StepGeom_Axis1Placement.hxx>

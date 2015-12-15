@@ -33,9 +33,9 @@
 #include <BRepAlgoAPI_Cut.hxx> 
 //modified by NIZNHY-PKV Thu Mar 21 17:54:30 2002 t
 
-#include <gp_Vec.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <Geom_Curve.hxx>
 #include <Geom_Line.hxx>

@@ -30,8 +30,8 @@
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <IGESDraw_ToolConnectPoint.hxx>
 #include <IGESData_ParamCursor.hxx>
-#include <gp_XYZ.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <IGESData_IGESEntity.hxx>
 #include <IGESGraph_TextDisplayTemplate.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>

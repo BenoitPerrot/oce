@@ -18,7 +18,7 @@
 
 #include <AIS_InteractiveObject.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
-#include <gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Prs3d_Presentation.hxx>
 #include <Prs3d_Projector.hxx>
 #include <Geom_Transformation.hxx>

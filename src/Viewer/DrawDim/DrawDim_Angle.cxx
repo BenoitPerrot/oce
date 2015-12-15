@@ -34,11 +34,11 @@ IMPLEMENT_STANDARD_RTTI(DrawDim_Angle)
 #include <BRep_Tool.hxx>
 #include <ElCLib.hxx>
 #include <ElSLib.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Pln.hxx>
-#include <gp_Lin.hxx>
-#include <gp_Dir.hxx>
-#include <gp_Ax1.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <TopoDS.hxx>
 #include <IntAna_QuadQuadGeo.hxx>
 #include <Precision.hxx>

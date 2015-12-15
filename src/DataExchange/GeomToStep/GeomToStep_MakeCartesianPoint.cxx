@@ -16,14 +16,14 @@
 
 #include <StepGeom_CartesianPoint.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Geom_CartesianPoint.hxx>
 #include <Geom2d_CartesianPoint.hxx>
 #include <GeomToStep_MakeCartesianPoint.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Geom_CartesianPoint.hxx>
 #include <Geom2d_CartesianPoint.hxx>
 #include <StepGeom_CartesianPoint.hxx>

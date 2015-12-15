@@ -13,11 +13,11 @@
 // commercial license or contractual agreement.
 
 #include <IntSurf_Quadric.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <IntSurf_QuadricTool.hxx>
 
-#include <gp_Sphere.hxx>
-#include <gp_Cylinder.hxx>
+#include <Mathematics/Primitives/gp_Sphere.hxx>
+#include <Mathematics/Primitives/gp_Cylinder.hxx>
 
 Standard_Real IntSurf_QuadricTool::Tolerance (const IntSurf_Quadric& Q) {
   switch (Q.TypeQuadric()) {

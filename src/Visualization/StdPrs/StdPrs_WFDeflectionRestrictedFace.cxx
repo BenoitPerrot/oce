@@ -24,8 +24,8 @@
 #include <Graphic3d_ArrayOfPolylines.hxx>
 #include <Graphic3d_AspectLine3d.hxx>
 #include <Graphic3d_Group.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Prs3d_IsoAspect.hxx>
 #include <Adaptor2d_Curve2d.hxx>
 #include <GCPnts_QuasiUniformDeflection.hxx>

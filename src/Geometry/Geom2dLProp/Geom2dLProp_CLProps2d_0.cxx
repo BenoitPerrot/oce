@@ -10,20 +10,20 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <LProp_NotDefined.hxx>
-#include <gp_Vec2d.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Dir2d.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <Geom2dLProp_Curve2dTool.hxx>
  
 
 #define Curve Handle(Geom2d_Curve)
 #define Curve_hxx <Geom2d_Curve.hxx>
 #define Vec gp_Vec2d
-#define Vec_hxx <gp_Vec2d.hxx>
+#define Vec_hxx <Mathematics/Primitives/gp_Vec2d.hxx>
 #define Pnt gp_Pnt2d
-#define Pnt_hxx <gp_Pnt2d.hxx>
+#define Pnt_hxx <Mathematics/Primitives/gp_Pnt2d.hxx>
 #define Dir gp_Dir2d
-#define Dir_hxx <gp_Dir2d.hxx>
+#define Dir_hxx <Mathematics/Primitives/gp_Dir2d.hxx>
 #define Tool Geom2dLProp_Curve2dTool
 #define Tool_hxx <Geom2dLProp_Curve2dTool.hxx>
 #define LProp_CLProps Geom2dLProp_CLProps2d

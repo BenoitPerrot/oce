@@ -23,7 +23,7 @@
 #include <StepGeom_TrimmedCurve.hxx>
 #include <Geom_TrimmedCurve.hxx>
 #include <StepToGeom_MakeTrimmedCurve.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geom_CartesianPoint.hxx>
 #include <Geom_Curve.hxx>
 #include <StepGeom_CartesianPoint.hxx>

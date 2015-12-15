@@ -24,7 +24,7 @@
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BndLib_AddSurface.hxx>
 #include <Precision.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Adaptor3d_IsoCurve.hxx>
 #include <StdPrs_DeflectionCurve.hxx>
 

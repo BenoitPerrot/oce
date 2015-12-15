@@ -22,7 +22,7 @@
 #include <IGESSolid_VertexList.hxx>
 #include <Mathematics/Collections/TColgp_HSequenceOfXYZ.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <IGESSolid_TopoBuilder.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfXYZ.hxx>

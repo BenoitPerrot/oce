@@ -15,8 +15,8 @@
 // commercial license or contractual agreement.
 
 #include <Geom2d_Transformation.hxx>
-#include <gp_Vec2d.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <GCE2d_MakeTranslation.hxx>
 
 //=========================================================================

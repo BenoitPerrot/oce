@@ -13,8 +13,8 @@
 // commercial license or contractual agreement.
 
 #include <BRepGProp_Face.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
 #include <BRepGProp_Domain.hxx>
 #include <BRepGProp_Vinert.hxx>
 

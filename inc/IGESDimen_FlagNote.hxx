@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESDimen_FlagNote.hxx>
 
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_IGESDimen_GeneralNote.hxx>
 #include <Handle_IGESDimen_HArray1OfLeaderArrow.hxx>

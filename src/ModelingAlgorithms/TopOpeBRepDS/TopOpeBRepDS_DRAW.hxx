@@ -21,12 +21,12 @@
 #include <TopOpeBRepDS_define.hxx>
 #include <DBRep.hxx>
 #include <DrawTrSurf.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Geom2d_Curve.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Geom_Curve.hxx>
-#include <gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
 
 Standard_EXPORT void FUN_draw (const TopoDS_Shape& s);
 Standard_EXPORT void FUN_draw (const gp_Pnt& p);

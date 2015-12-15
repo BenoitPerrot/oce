@@ -49,12 +49,12 @@ IMPLEMENT_STANDARD_RTTI(AIS_ConcentricRelation)
 
 #include <GeomAbs_CurveType.hxx>
 #include <Geom_Circle.hxx>
-#include <gp_Dir.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Ax2.hxx>
-#include <gp_Ax1.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Ax2.hxx>
+#include <Mathematics/Primitives/gp_Ax1.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
 
 #include <TopoDS_Vertex.hxx>
 #include <AIS.hxx>

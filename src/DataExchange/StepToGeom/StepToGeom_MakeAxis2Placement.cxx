@@ -23,9 +23,9 @@
 #include <StepToGeom_MakeDirection.hxx>
 #include <Geom_CartesianPoint.hxx>
 #include <Geom_Direction.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Dir.hxx>
-#include <gp_Ax2.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Ax2.hxx>
 
 //=============================================================================
 // Creation d' un Axis2Placement de Geom a partir d' un axis2_placement_3d

@@ -15,8 +15,8 @@
 // commercial license or contractual agreement.
 
 #include <IntSurf_PntOn2S.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <TopOpeBRep_WPointInter.hxx>
 
 //=======================================================================

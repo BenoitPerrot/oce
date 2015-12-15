@@ -17,13 +17,13 @@
 #include <GeomFill_TrihedronLaw.hxx>
 #include <Adaptor3d_HCurve.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <gp_Mat.hxx>
+#include <Mathematics/Primitives/gp_Mat.hxx>
 #include <GeomFill_LocationLaw.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfVec2d.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <GeomFill_CurveAndTrihedron.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(GeomFill_CurveAndTrihedron)
@@ -36,7 +36,7 @@ IMPLEMENT_STANDARD_TYPE_END(GeomFill_CurveAndTrihedron)
 IMPLEMENT_DOWNCAST(GeomFill_CurveAndTrihedron,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(GeomFill_CurveAndTrihedron)
 #include <GeomLib.hxx>
-#include <gp_Circ.hxx>
+#include <Mathematics/Primitives/gp_Circ.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx> 
 #include <Precision.hxx>
 

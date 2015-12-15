@@ -18,9 +18,9 @@
 //=========================================================================
 
 #include <GccEnt_QualifiedLin.hxx>
-#include <gp_Lin2d.hxx>
+#include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <GccEnt_QualifiedCirc.hxx>
-#include <gp_Circ2d.hxx>
+#include <Mathematics/Primitives/gp_Circ2d.hxx>
 #include <GccEnt.hxx>
 
 GccEnt_QualifiedLin

@@ -31,10 +31,10 @@
 #include <LocOpe_SequenceOfLin.hxx>
 #include <LocOpe_PntFace.hxx>
 
-#include <gp_Vec.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
 
 #include <Precision.hxx>
 

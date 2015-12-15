@@ -17,12 +17,12 @@
 #include <Mathematics/Convert/Convert_PolynomialCosAndSin.hxx>
 
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
-#include <gp_Trsf2d.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Vec2d.hxx>
-#include <gp_XY.hxx>
+#include <Mathematics/Primitives/gp_Trsf2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_XY.hxx>
 
-#include <gp.hxx>
+#include <Mathematics/Primitives/gp.hxx>
 #include <Precision.hxx>
 #include <Mathematics/Polynomial/PLib.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>

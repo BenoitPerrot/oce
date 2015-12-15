@@ -19,7 +19,7 @@
 #endif
 #include <HLRBRep_Data.hxx>
 #include <HLRAlgo_Intersection.hxx>
-#include <gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
 #include <HLRAlgo_Interference.hxx>
 #include <HLRBRep_EdgeInterferenceTool.hxx>
 

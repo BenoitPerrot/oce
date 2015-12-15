@@ -21,7 +21,7 @@
 #include <Extrema_POnCurv.hxx>
 #include <Extrema_POnSurf.hxx>
 #include <Extrema_FuncExtCS.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Foundation/Standard/Standard_TypeMismatch.hxx>
 #include <Precision.hxx>
 

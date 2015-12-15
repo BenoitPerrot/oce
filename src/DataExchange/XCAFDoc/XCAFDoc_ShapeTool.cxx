@@ -69,8 +69,8 @@ IMPLEMENT_STANDARD_RTTI(XCAFDoc_ShapeTool)
 #include <Foundation/TColStd/TColStd_SequenceOfHAsciiString.hxx>
 #include <XCAFDoc_GraphNode.hxx>
 #include <TopLoc_IndexedMapOfLocation.hxx>
-#include <gp_Trsf.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <XCAFDoc_ShapeMapTool.hxx>
 
 static Standard_Boolean theAutoNaming = Standard_True;

@@ -2,7 +2,7 @@
 #include <ShapeSchema_gp_XY.hxx>
 #endif
 #ifndef _gp_XY_HeaderFile
-#include <gp_XY.hxx>
+#include <Mathematics/Primitives/gp_XY.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

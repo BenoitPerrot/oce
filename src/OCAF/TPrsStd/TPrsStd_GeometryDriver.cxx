@@ -41,10 +41,10 @@ IMPLEMENT_STANDARD_RTTI(TPrsStd_GeometryDriver)
 #include <AIS_Shape.hxx>
 #include <AIS_Drawer.hxx>
 #include <AIS_InteractiveContext.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Lin.hxx>
-#include <gp_Circ.hxx>
-#include <gp_Elips.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Circ.hxx>
+#include <Mathematics/Primitives/gp_Elips.hxx>
 #include <BRepLib_MakeEdge.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Edge.hxx>

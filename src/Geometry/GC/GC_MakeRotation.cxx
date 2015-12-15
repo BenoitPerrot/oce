@@ -15,10 +15,10 @@
 // commercial license or contractual agreement.
 
 #include <Geom_Transformation.hxx>
-#include <gp_Lin.hxx>
-#include <gp_Ax1.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Ax1.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
 #include <GC_MakeRotation.hxx>
 #include <GC_MakeRotation.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>

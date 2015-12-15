@@ -18,7 +18,7 @@
 #include <HLRTopoBRep_Data.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <TopoDS_Edge.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geom2d_Line.hxx>
 #include <HLRTopoBRep_FaceIsoLiner.hxx>
 #include <TopAbs.hxx>

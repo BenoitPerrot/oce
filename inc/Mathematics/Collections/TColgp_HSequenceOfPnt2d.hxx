@@ -92,7 +92,7 @@ private:
 };
 
 #define Item gp_Pnt2d
-#define Item_hxx <gp_Pnt2d.hxx>
+#define Item_hxx <Mathematics/Primitives/gp_Pnt2d.hxx>
 #define TheSequence TColgp_SequenceOfPnt2d
 #define TheSequence_hxx <Mathematics/Collections/TColgp_SequenceOfPnt2d.hxx>
 #define TCollection_HSequence TColgp_HSequenceOfPnt2d

@@ -24,7 +24,7 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <IGESData_ViewKindEntity.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <IGESDimen_LeaderArrow.hxx>
 #include <IGESData_IGESEntity.hxx>
 #include <IGESDraw_LabelDisplay.hxx>

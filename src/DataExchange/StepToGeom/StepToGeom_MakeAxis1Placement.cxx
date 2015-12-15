@@ -25,8 +25,8 @@
 #include <StepToGeom_MakeCartesianPoint.hxx>
 #include <Geom_CartesianPoint.hxx>
 #include <Geom_Direction.hxx>
-#include <gp_Dir.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geom_Axis1Placement.hxx>
 
 //=============================================================================

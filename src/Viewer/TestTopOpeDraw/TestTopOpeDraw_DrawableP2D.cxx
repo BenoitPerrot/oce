@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Draw_Text2D.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Draw_Color.hxx>
 #include <Draw_Display.hxx>
 #include <TestTopOpeDraw_DrawableP2D.hxx>

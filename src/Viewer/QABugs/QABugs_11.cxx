@@ -27,8 +27,8 @@
 #include <TopoDS_Shape.hxx>
 
 #include <Geom_Axis2Placement.hxx>
-#include <gp.hxx>
-#include <gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <AIS_Trihedron.hxx>
 #include <BRepPrimAPI_MakeBox.hxx>
 #include <Graphic3d_MaterialAspect.hxx>
@@ -79,7 +79,7 @@
 #include <ViewerTest_DoubleMapOfInteractiveAndName.hxx>
 #include <ViewerTest_DoubleMapIteratorOfDoubleMapOfInteractiveAndName.hxx>
 #include <BRepLib_MakePolygon.hxx>
-#include <gp_GTrsf.hxx>
+#include <Mathematics/Primitives/gp_GTrsf.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <IGESControl_Reader.hxx>
 #include <IGESData_IGESModel.hxx>
@@ -4941,7 +4941,7 @@ Standard_Integer OCC22762 (Draw_Interpretor& di, Standard_Integer argc, const ch
 
 
 #include <IntCurvesFace_ShapeIntersector.hxx>
-#include <gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
 Standard_Integer OCC17424 (Draw_Interpretor& di, Standard_Integer argc, const char ** argv)
 {
   if(argc!=9)

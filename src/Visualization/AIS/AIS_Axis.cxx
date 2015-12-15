@@ -51,8 +51,8 @@ IMPLEMENT_STANDARD_RTTI(AIS_Axis)
 #include <StdPrs_Curve.hxx>
 #include <TopoDS.hxx>
 #include <Geom_Axis1Placement.hxx>
-#include <gp_Ax1.hxx>
-#include <gp_Ax2.hxx>
+#include <Mathematics/Primitives/gp_Ax1.hxx>
+#include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <Geom_Line.hxx>
 #include <GeomAdaptor_Curve.hxx>
 #include <AIS_Drawer.hxx>

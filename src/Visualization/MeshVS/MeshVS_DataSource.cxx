@@ -35,8 +35,8 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_DataSource)
 #include <MeshVS_Tool.hxx>
 #include <MeshVS_Buffer.hxx>
 
-#include <gp.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_MapIteratorOfPackedMapOfInteger.hxx>
 

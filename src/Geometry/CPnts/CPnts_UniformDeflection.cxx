@@ -50,10 +50,10 @@
 #include  <Foundation/Standard/Standard_OutOfRange.hxx>
 #include  <Foundation/Standard/Standard_ConstructionError.hxx>
 
-#include <gp_Pnt.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
 
 static inline void D03d(const Standard_Address C, const Standard_Real U,
 		      gp_Pnt& P)

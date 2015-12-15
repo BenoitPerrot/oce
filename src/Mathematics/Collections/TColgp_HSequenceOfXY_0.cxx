@@ -9,7 +9,7 @@
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <gp_XY.hxx>
+#include <Mathematics/Primitives/gp_XY.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfXY.hxx>
 
  
@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_RTTI(TColgp_HSequenceOfXY)
 
 
 #define Item gp_XY
-#define Item_hxx <gp_XY.hxx>
+#define Item_hxx <Mathematics/Primitives/gp_XY.hxx>
 #define TheSequence TColgp_SequenceOfXY
 #define TheSequence_hxx <Mathematics/Collections/TColgp_SequenceOfXY.hxx>
 #define TCollection_HSequence TColgp_HSequenceOfXY

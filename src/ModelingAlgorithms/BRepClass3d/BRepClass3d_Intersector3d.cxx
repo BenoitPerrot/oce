@@ -14,20 +14,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
 #include <TopoDS_Face.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <BRepClass3d_Intersector3d.hxx>
 
 #include <IntCurveSurface_IntersectionPoint.hxx>
-#include <gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
 #include <TopoDS_Face.hxx>
 #include <TopAbs.hxx>
 
 #include <IntCurveSurface_HInter.hxx>
 #include <BRepAdaptor_HSurface.hxx>
 #include <Geom_Line.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <BRepClass_FaceClassifier.hxx>
 
 #include <GeomAdaptor_Curve.hxx>

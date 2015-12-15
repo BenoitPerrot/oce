@@ -37,7 +37,7 @@
 #include <BRepBuilderAPI_Sewing.hxx>
 #include <TopExp_Explorer.hxx>
 #include <TopExp.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 
 #include <ShapeBuild_ReShape.hxx>
 

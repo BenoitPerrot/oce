@@ -22,8 +22,8 @@
 
 #include <Foundation/NCollection/NCollection_Handle.hxx>
 
-#include <gp_Dir.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_TypeDef.hxx>

@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESSolid_Block.hxx>
 
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class gp_XYZ;

@@ -15,9 +15,9 @@
 // commercial license or contractual agreement.
 
 #include <Adaptor3d_HSurface.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Cylinder.hxx>
-#include <gp_Circ.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Cylinder.hxx>
+#include <Mathematics/Primitives/gp_Circ.hxx>
 
 #ifndef ChFiKPart_ComputeData_CS_HeaderFile
 #define ChFiKPart_ComputeData_CS_HeaderFile

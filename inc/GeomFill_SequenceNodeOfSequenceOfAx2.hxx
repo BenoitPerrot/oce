@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_GeomFill_SequenceNodeOfSequenceOfAx2.hxx>
 
-#include <gp_Ax2.hxx>
+#include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>
 #include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class gp_Ax2;
@@ -47,7 +47,7 @@ private:
 };
 
 #define SeqItem gp_Ax2
-#define SeqItem_hxx <gp_Ax2.hxx>
+#define SeqItem_hxx <Mathematics/Primitives/gp_Ax2.hxx>
 #define TCollection_SequenceNode GeomFill_SequenceNodeOfSequenceOfAx2
 #define TCollection_SequenceNode_hxx <GeomFill_SequenceNodeOfSequenceOfAx2.hxx>
 #define Handle_TCollection_SequenceNode Handle_GeomFill_SequenceNodeOfSequenceOfAx2

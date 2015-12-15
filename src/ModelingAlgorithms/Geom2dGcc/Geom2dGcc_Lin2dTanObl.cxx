@@ -19,8 +19,8 @@
 #include <Geom2dGcc_IsParallel.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Geom2dGcc_QualifiedCurve.hxx>
-#include <gp_Lin2d.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Lin2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Geom2dGcc_Lin2dTanOblIter.hxx>
 #include <Geom2dAdaptor_Curve.hxx>
 #include <Geom2dGcc_Lin2dTanObl.hxx>

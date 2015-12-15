@@ -16,7 +16,7 @@
 #include <Graphic3d_CTransPersStruct.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <PrsMgr_PresentableObjectPointer.hxx>
-#include <gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <PrsMgr_ListOfPresentableObjects.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Graphic3d_Structure.hxx>

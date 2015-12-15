@@ -20,9 +20,9 @@
 #include <Font_FTFont.hxx>
 #include <Geom2dAdaptor_HCurve.hxx>
 #include <Geom2dConvert_CompCurveToBSplineCurve.hxx>
-#include <gp_Ax3.hxx>
-#include <gp_XY.hxx>
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_Ax3.hxx>
+#include <Mathematics/Primitives/gp_XY.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Foundation/NCollection/NCollection_DataMap.hxx>
 #include <Foundation/NCollection/NCollection_String.hxx>
 #include <Foundation/Standard/Standard_Mutex.hxx>

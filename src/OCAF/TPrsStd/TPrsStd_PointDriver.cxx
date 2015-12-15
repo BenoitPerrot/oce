@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_RTTI(TPrsStd_PointDriver)
 #include <AIS_InteractiveContext.hxx>
 #include <Geom_Point.hxx>
 #include <Geom_CartesianPoint.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 
 
 

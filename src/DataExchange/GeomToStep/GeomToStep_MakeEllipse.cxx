@@ -16,7 +16,7 @@
 
 #include <StepGeom_Ellipse.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <gp_Elips.hxx>
+#include <Mathematics/Primitives/gp_Elips.hxx>
 #include <Geom_Ellipse.hxx>
 #include <Geom2d_Ellipse.hxx>
 #include <GeomToStep_MakeEllipse.hxx>
@@ -24,7 +24,7 @@
 #include <GeomToStep_MakeAxis2Placement2d.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geom_Ellipse.hxx>
-#include <gp_Elips2d.hxx>
+#include <Mathematics/Primitives/gp_Elips2d.hxx>
 #include <StepGeom_Ellipse.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <UnitsMethods.hxx>

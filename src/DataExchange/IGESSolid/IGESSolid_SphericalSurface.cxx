@@ -18,7 +18,7 @@
 
 #include <IGESGeom_Point.hxx>
 #include <IGESGeom_Direction.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <IGESSolid_SphericalSurface.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESSolid_SphericalSurface)
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESSolid_SphericalSurface)
 IMPLEMENT_DOWNCAST(IGESSolid_SphericalSurface,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESSolid_SphericalSurface)
-#include <gp_GTrsf.hxx>
+#include <Mathematics/Primitives/gp_GTrsf.hxx>
 
 
 IGESSolid_SphericalSurface::IGESSolid_SphericalSurface ()    {  }

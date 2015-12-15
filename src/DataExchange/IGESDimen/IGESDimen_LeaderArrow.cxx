@@ -18,9 +18,9 @@
 
 #include <Mathematics/Collections/TColgp_HArray1OfXY.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <gp_XY.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_XY.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <IGESDimen_LeaderArrow.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESDimen_LeaderArrow)
@@ -34,7 +34,7 @@ IMPLEMENT_DOWNCAST(IGESDimen_LeaderArrow,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESDimen_LeaderArrow)
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <gp_GTrsf.hxx>
+#include <Mathematics/Primitives/gp_GTrsf.hxx>
 
 
 IGESDimen_LeaderArrow::IGESDimen_LeaderArrow ()    {  }

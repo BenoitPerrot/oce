@@ -16,7 +16,7 @@
 
 #include <Foundation/Standard/Standard_Stream.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <TopLoc_Datum3D.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TopLoc_Datum3D)

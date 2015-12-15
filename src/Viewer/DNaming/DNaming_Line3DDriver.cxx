@@ -28,9 +28,9 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(DNaming_Line3DDriver)
 IMPLEMENT_DOWNCAST(DNaming_Line3DDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(DNaming_Line3DDriver)
-#include <gp_Pnt.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Precision.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <BRepLib_MakeWire.hxx>

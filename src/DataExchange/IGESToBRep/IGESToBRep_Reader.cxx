@@ -24,7 +24,7 @@
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <Foundation/OSD/OSD_Timer.hxx>
 
-#include <gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
 
 #include <TopAbs.hxx>
 #include <TopoDS_Compound.hxx>

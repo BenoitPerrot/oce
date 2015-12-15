@@ -12,7 +12,7 @@
 
 #include <TopoDS_Wire.hxx>
 #include <TopoDS_Shape.hxx>
-#include <gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Handle_BRepFill_LocationLaw.hxx>
 #include <Handle_TopTools_HArray2OfShape.hxx>
 #include <TopTools_MapOfShape.hxx>

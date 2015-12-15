@@ -28,7 +28,7 @@
 #include <Geom2d_Line.hxx>
 #include <GeomAdaptor_Surface.hxx>
 #include <TColGeom2d_Array1OfCurve.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 
 #include <TopoDS.hxx>
 #include <TopoDS_Face.hxx>

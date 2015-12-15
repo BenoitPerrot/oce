@@ -27,21 +27,21 @@
 #include <stdio.h>
 
 #include <TopoDS_Shape.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <TopoDS_Face.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <BRepAdaptor_HSurface.hxx>
 #include <TopoDS_Shell.hxx>
-#include <gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <IntCurvesFace_Intersector.hxx>
 #include <BRepClass3d_SolidExplorer.hxx>
-#include <gp.hxx>
+#include <Mathematics/Primitives/gp.hxx>
 #include <TopoDS.hxx>
 #include <BRepAdaptor_Curve2d.hxx>
 #include <BRepTools.hxx>
 #include <Geom2d_Curve.hxx>
-#include <gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <BRepAdaptor_Surface.hxx>
 #include <BRepClass_FacePassiveClassifier.hxx>

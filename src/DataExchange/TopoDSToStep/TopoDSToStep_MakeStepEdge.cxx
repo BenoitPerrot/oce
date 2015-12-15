@@ -31,7 +31,7 @@
 
 #include <Geom2d_Curve.hxx>
 #include <Geom2d_Line.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 
 #include <BRepLib.hxx>
 #include <BRep_Tool.hxx>

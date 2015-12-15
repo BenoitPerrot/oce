@@ -69,7 +69,7 @@ private:
 };
 
 #define ItemHArray1 gp_Lin2d
-#define ItemHArray1_hxx <gp_Lin2d.hxx>
+#define ItemHArray1_hxx <Mathematics/Primitives/gp_Lin2d.hxx>
 #define TheArray1 TColgp_Array1OfLin2d
 #define TheArray1_hxx <Mathematics/Collections/TColgp_Array1OfLin2d.hxx>
 #define TCollection_HArray1 TColgp_HArray1OfLin2d

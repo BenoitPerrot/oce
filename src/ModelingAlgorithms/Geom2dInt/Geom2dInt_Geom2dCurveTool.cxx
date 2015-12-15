@@ -15,8 +15,8 @@
 // commercial license or contractual agreement.
 
 #include <Adaptor2d_Curve2d.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Geom2dInt_Geom2dCurveTool.hxx>
 

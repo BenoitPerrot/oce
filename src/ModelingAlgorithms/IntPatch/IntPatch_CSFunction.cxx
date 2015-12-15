@@ -15,7 +15,7 @@
 #include <Adaptor3d_HSurface.hxx>
 #include <Adaptor2d_HCurve2d.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <IntPatch_CSFunction.hxx>
 
 #include <Adaptor3d_HSurface.hxx>
@@ -23,10 +23,10 @@
 #include <Adaptor2d_HCurve2d.hxx>
 #include <IntPatch_HCurve2dTool.hxx>
 
-#include <gp_Pnt.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
 
 #ifndef OCCT_DEBUG
 #define No_Standard_RangeError

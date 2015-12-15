@@ -20,7 +20,7 @@
 #include <Transfer_Binder.hxx>
 #include <Transfer_TransientProcess.hxx>
 #include <StepGeom_Axis2Placement3d.hxx>
-#include <gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <StepRepr_RepresentationRelationship.hxx>
 #include <TransferBRep_ShapeBinder.hxx>
 #include <StepBasic_ProductDefinition.hxx>
@@ -113,7 +113,7 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_ActorRead)
 #include <StepToGeom_MakeTransformation3d.hxx>
 #include <StepToGeom_MakeAxis2Placement.hxx>
 #include <Geom_Axis2Placement.hxx>
-#include <gp_Ax3.hxx>
+#include <Mathematics/Primitives/gp_Ax3.hxx>
 #include <StepRepr_ShapeAspect.hxx>
 #include <XSAlgo.hxx>
 #include <XSAlgo_AlgoContainer.hxx>

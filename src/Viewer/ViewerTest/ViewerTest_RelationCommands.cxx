@@ -47,8 +47,8 @@
 #include <GeomAPI_IntCS.hxx>
 #include <gce_MakeLin.hxx>
 #include <gce_MakePln.hxx>
-#include <gp_Circ.hxx>
-#include <gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Circ.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
 #include <IntAna_IntConicQuad.hxx>
 #include <IntAna_Quadric.hxx>
 #include <Precision.hxx>
@@ -862,7 +862,7 @@ static int VDiameterDimBuilder(Draw_Interpretor& di, Standard_Integer argc, cons
 //==============================================================================
 #include <AIS_ConcentricRelation.hxx>
 #include <Geom_Plane.hxx>
-#include <gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
 #include <GC_MakePlane.hxx>
 #include <BRepAdaptor_Curve.hxx>
 #include <TopExp_Explorer.hxx>
@@ -1705,7 +1705,7 @@ static int VLenghtDimension(Draw_Interpretor& di, Standard_Integer argc, const c
 #include <AIS_RadiusDimension.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <BRepAdaptor_Curve.hxx>
-#include <gp_Circ.hxx>
+#include <Mathematics/Primitives/gp_Circ.hxx>
 
 
 static int VRadiusDimBuilder(Draw_Interpretor& di, Standard_Integer argc, const char** argv) 

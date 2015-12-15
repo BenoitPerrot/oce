@@ -47,8 +47,8 @@
 #include <ShapeConstruct_Curve.hxx>
 #include <Precision.hxx>
 #include <GeomConvert_CompCurveToBSplineCurve.hxx>
-#include <gp_Pln.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <GeomAPI.hxx>
 #include <TopTools_HSequenceOfShape.hxx>
 #include <ShapeAnalysis_Edge.hxx>

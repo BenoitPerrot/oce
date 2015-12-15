@@ -10,7 +10,7 @@
 #include <Geom2dInt_TheCurveLocatorOfTheProjPCurOfGInter.hxx>
 #include <Geom2dInt_TheLocateExtPCOfTheProjPCurOfGInter.hxx>
 #include <Geom2dInt_PCLocFOfTheLocateExtPCOfTheProjPCurOfGInter.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
  
 
 #define TheCurve Adaptor2d_Curve2d

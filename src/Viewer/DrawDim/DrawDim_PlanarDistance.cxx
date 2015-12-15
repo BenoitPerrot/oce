@@ -17,7 +17,7 @@
 #include <TopoDS_Face.hxx>
 #include <TopoDS_Shape.hxx>
 #include <Draw_Display.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <TopoDS_Edge.hxx>
 #include <DrawDim_PlanarDistance.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -37,7 +37,7 @@ IMPLEMENT_STANDARD_RTTI(DrawDim_PlanarDistance)
 #include <TopoDS.hxx>  
 #include <Geom_Curve.hxx>
 #include <Geom_Line.hxx> 
-#include <gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
 #include <GeomAPI_ProjectPointOnCurve.hxx>
 #include <TopExp.hxx>
 

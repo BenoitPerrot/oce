@@ -17,7 +17,7 @@
 #define _SelectBasics_PickArgs_HeaderFile
 
 #include <Foundation/Standard/Standard_TypeDef.hxx>
-#include <gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
 
 //! Structure to provide all-in-one information on picking arguments
 //! for "Matches" method of SelectBasics_SensitiveEntity.

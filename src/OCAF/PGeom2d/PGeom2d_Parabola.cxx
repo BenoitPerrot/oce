@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <gp_Ax22d.hxx>
+#include <Mathematics/Primitives/gp_Ax22d.hxx>
 #include <PGeom2d_Parabola.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PGeom2d_Parabola)

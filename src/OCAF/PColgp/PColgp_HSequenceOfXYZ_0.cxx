@@ -12,7 +12,7 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <PColgp_SeqExplorerOfHSequenceOfXYZ.hxx>
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
  
 
 
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(PColgp_HSequenceOfXYZ)
 
 
 #define Item gp_XYZ
-#define Item_hxx <gp_XYZ.hxx>
+#define Item_hxx <Mathematics/Primitives/gp_XYZ.hxx>
 #define PCollection_SeqNode PColgp_SeqNodeOfHSequenceOfXYZ
 #define PCollection_SeqNode_hxx <PColgp_SeqNodeOfHSequenceOfXYZ.hxx>
 #define PCollection_SeqExplorer PColgp_SeqExplorerOfHSequenceOfXYZ

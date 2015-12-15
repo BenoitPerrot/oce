@@ -28,8 +28,8 @@
 #include <BRep_Tool.hxx>
 #include <BRepTools.hxx>
 
-#include <gp.hxx>
-#include <gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
 
 #include <Geom_ConicalSurface.hxx>
 #include <Geom_CylindricalSurface.hxx>

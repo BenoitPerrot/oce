@@ -34,12 +34,12 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_RemoveLocations)
 #include <TopExp.hxx>
 #include <Geom_Curve.hxx>
 #include <BRep_Tool.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <TopoDS_Iterator.hxx>
 #include <TopTools_DataMapOfShapeShape.hxx>  
 #include <Geom2d_Curve.hxx>
 #include <Geom_Geometry.hxx>
-#include <gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
 
 #include <BRep_ListIteratorOfListOfCurveRepresentation.hxx>
 #include <BRep_TEdge.hxx>

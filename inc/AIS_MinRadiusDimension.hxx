@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_AIS_MinRadiusDimension.hxx>
 
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <AIS_EllipseRadiusDimension.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <DsgPrs_ArrowSide.hxx>

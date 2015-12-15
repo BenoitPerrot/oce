@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Draw_Marker3D.hxx>
 
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Draw_Color.hxx>
 #include <Draw_MarkerShape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

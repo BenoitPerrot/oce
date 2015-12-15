@@ -19,7 +19,7 @@
 #include <Handle_TColStd_HArray1OfInteger.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfArray1OfPnt2d.hxx>
 #include <Handle_Approx_HArray1OfGTrsf2d.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Handle_TColgp_HArray1OfPnt.hxx>
 #include <Handle_TColgp_HArray1OfPnt2d.hxx>
 #include <Handle_TColgp_HArray1OfVec.hxx>

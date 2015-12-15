@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <TopoDS_Face.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <IntTools_PntOnFace.hxx>
 //=======================================================================
 //function : IntTools_PntOnFace::IntTools_PntOnFace

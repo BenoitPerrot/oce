@@ -11,7 +11,7 @@
 #include <Handle_IGESGraph_UniformRectGrid.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <gp_XY.hxx>
+#include <Mathematics/Primitives/gp_XY.hxx>
 #include <IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class gp_XY;

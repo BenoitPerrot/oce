@@ -18,8 +18,8 @@
 
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <IGESGeom_CopiousData.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESGeom_CopiousData)
@@ -32,8 +32,8 @@ IMPLEMENT_STANDARD_TYPE_END(IGESGeom_CopiousData)
 IMPLEMENT_DOWNCAST(IGESGeom_CopiousData,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESGeom_CopiousData)
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
-#include <gp_XY.hxx>
-#include <gp_GTrsf.hxx>
+#include <Mathematics/Primitives/gp_XY.hxx>
+#include <Mathematics/Primitives/gp_GTrsf.hxx>
 #include <Foundation/Standard/Standard_NullObject.hxx>
 
 IGESGeom_CopiousData::IGESGeom_CopiousData ()

@@ -102,8 +102,8 @@ IMPLEMENT_STANDARD_RTTI(BRepBuilderAPI_Sewing)
 #include <GeomAdaptor_Curve.hxx>
 #include <GeomAdaptor_Surface.hxx>
 #include <GeomLib.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 //#include <LocalAnalysis_SurfaceContinuity.hxx>
 #include <Precision.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>

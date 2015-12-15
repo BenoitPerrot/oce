@@ -19,8 +19,8 @@
 #include <IGESData_IGESEntity.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <gp_XYZ.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <IGESDraw_RectArraySubfigure.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESDraw_RectArraySubfigure)
@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_TYPE_END(IGESDraw_RectArraySubfigure)
 IMPLEMENT_DOWNCAST(IGESDraw_RectArraySubfigure,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESDraw_RectArraySubfigure)
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
-#include <gp_GTrsf.hxx>
+#include <Mathematics/Primitives/gp_GTrsf.hxx>
 
 
 IGESDraw_RectArraySubfigure::IGESDraw_RectArraySubfigure ()    {  }

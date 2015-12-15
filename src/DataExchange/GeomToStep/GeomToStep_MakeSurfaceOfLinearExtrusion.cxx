@@ -22,7 +22,7 @@
 #include <GeomToStep_MakeCurve.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geom_SurfaceOfLinearExtrusion.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <StepGeom_SurfaceOfLinearExtrusion.hxx>
 #include <StepGeom_Curve.hxx>
 #include <StepGeom_Vector.hxx>

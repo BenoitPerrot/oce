@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <gp_Hypr2d.hxx>
+#include <Mathematics/Primitives/gp_Hypr2d.hxx>
 #include <GccInt_BHyper.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(GccInt_BHyper)
@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_TYPE_END(GccInt_BHyper)
 IMPLEMENT_DOWNCAST(GccInt_BHyper,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(GccInt_BHyper)
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
-#include <gp_Hypr2d.hxx>
+#include <Mathematics/Primitives/gp_Hypr2d.hxx>
 
 GccInt_BHyper::
    GccInt_BHyper(const gp_Hypr2d& Hyper) {

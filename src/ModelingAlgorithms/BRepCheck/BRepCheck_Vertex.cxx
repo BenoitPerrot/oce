@@ -44,7 +44,7 @@ IMPLEMENT_STANDARD_RTTI(BRepCheck_Vertex)
 
 #include <BRep_Tool.hxx>
 
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Geom_Curve.hxx>
 #include <Geom_Surface.hxx>
 #include <Geom2d_Curve.hxx>

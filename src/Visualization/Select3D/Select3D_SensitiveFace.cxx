@@ -25,7 +25,7 @@
 #include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
-#include <gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Select3D_SensitiveEntity.hxx>
 #include <TopLoc_Location.hxx>
 #include <Select3D_SensitiveFace.hxx>
@@ -43,8 +43,8 @@ IMPLEMENT_DOWNCAST(Select3D_SensitiveFace,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Select3D_SensitiveFace)
 #include <Select3D_Projector.hxx>
 #include <SelectBasics_BasicTool.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Precision.hxx>
 #include <ElCLib.hxx>
 

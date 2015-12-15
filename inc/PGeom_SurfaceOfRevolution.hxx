@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard.hxx>
 #include <Handle_PGeom_SurfaceOfRevolution.hxx>
 
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <PGeom_SweptSurface.hxx>
 #include <Handle_PGeom_Curve.hxx>
 class PGeom_Curve;

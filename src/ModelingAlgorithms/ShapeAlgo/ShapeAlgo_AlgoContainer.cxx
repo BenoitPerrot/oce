@@ -73,7 +73,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeAlgo_AlgoContainer)
 #include <ShapeExtend_WireData.hxx>
 #include <ShapeExtend_WireData.hxx>
 #include <TopExp.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Precision.hxx>
 #include <ShapeFix_Wire.hxx>
 #include <BRepTools.hxx>

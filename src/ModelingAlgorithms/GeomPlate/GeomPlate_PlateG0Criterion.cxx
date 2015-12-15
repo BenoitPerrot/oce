@@ -29,9 +29,9 @@
 #include <AdvApp2Var_Criterion.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfXY.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfXYZ.hxx>
-#include <gp_Vec.hxx>
-#include <gp_XY.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_XY.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Mathematics/Polynomial/PLib.hxx>
 

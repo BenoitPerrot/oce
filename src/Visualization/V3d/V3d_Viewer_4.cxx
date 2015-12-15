@@ -22,7 +22,7 @@
 #include <V3d_BadValue.hxx>
 #include <V3d_View.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
-#include <gp_Ax3.hxx>
+#include <Mathematics/Primitives/gp_Ax3.hxx>
 #include <Aspect_Grid.hxx>
 #include <Aspect_Background.hxx>
 #include <Aspect_GradientBackground.hxx>

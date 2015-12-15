@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Law_BSpline.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <GeomFill_TgtField.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(GeomFill_TgtField)

@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Address.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Extrema_ExtPElC2d.hxx>
 #include <Extrema_SequenceOfPOnCurv2d.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

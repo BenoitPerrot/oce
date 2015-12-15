@@ -33,8 +33,8 @@
 
 #include <Mathematics/BetaSpline/BSplSLib.hxx>
 
-#include <gp_GTrsf.hxx>
-#include <gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_GTrsf.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <GeomConvert_CompCurveToBSplineCurve.hxx>
 #include <Mathematics/Polynomial/PLib.hxx>
 

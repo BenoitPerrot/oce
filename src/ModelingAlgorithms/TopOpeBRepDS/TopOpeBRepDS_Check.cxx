@@ -47,7 +47,7 @@ IMPLEMENT_STANDARD_RTTI(TopOpeBRepDS_Check)
 #include <TopoDS.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Vertex.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <string.h>
 #include <TopOpeBRepDS_DataMapOfCheckStatus.hxx>
 #include <TopOpeBRepDS_DataMapIteratorOfDataMapOfCheckStatus.hxx>

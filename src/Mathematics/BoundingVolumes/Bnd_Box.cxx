@@ -15,11 +15,11 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Dir.hxx>
-#include <gp_Trsf.hxx>
-#include <gp_Lin.hxx>
-#include <gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 
 #define VoidMask  0x01
@@ -54,7 +54,7 @@
 #define ClearVoidFlag() ( Flags &= ~VoidMask )
 
 #include <Foundation/Standard/Standard_Stream.hxx>
-#include <gp.hxx>
+#include <Mathematics/Primitives/gp.hxx>
 // #include <Precision.hxx>
 #define Bnd_Precision_Infinite 1e+100
 

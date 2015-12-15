@@ -16,7 +16,7 @@
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <gp_Ax2.hxx>
+#include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <BRepPrim_Wedge.hxx>
 #include <TopoDS_Shell.hxx>
 #include <TopoDS_Solid.hxx>

@@ -52,9 +52,9 @@
 #include <BRepAdaptor_Surface.hxx>
 
 #include <Geom2d_Curve.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Vec2d.hxx>
-#include <gp_Dir2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <TopoDS.hxx>
 #include <TopExp.hxx>
 #include <Precision.hxx>

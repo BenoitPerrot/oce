@@ -30,7 +30,7 @@ IMPLEMENT_DOWNCAST(PrsMgr_Prs,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(PrsMgr_Prs)
 #include <PrsMgr_Presentation.hxx>
 #include <Precision.hxx>
-#include <gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Geom_Transformation.hxx>
 
 PrsMgr_Prs::PrsMgr_Prs (const Handle(Graphic3d_StructureManager)& theStructManager,

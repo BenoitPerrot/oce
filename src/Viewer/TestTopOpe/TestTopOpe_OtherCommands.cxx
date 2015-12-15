@@ -34,8 +34,8 @@
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Solid.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <gp.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <BRepBndLib.hxx>
 #include <BRep_Tool.hxx>
 #include <Precision.hxx>

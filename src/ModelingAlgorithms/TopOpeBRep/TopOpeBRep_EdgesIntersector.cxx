@@ -30,7 +30,7 @@
 #include <IntRes2d_IntersectionSegment.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>
 #include <TopOpeBRepDS_Transition.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <TopOpeBRep_EdgesIntersector.hxx>
 
 #include <TopoDS.hxx>
@@ -41,8 +41,8 @@
 #include <Precision.hxx>
 #include <TopExp.hxx>
 #include <TopExp_Explorer.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Circ2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Circ2d.hxx>
 #include <Geom_Curve.hxx>
 #include <Geom_Surface.hxx>
 #include <TopLoc_Location.hxx>

@@ -17,10 +17,10 @@
 //--------------------------------------------------------------------
 //#59 rln 29.12.98 PRO17015
 
-#include <gp_XY.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_XY.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
 #include <IGESGeom_ConicArc.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESGeom_ConicArc)
@@ -32,8 +32,8 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESGeom_ConicArc)
 IMPLEMENT_DOWNCAST(IGESGeom_ConicArc,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESGeom_ConicArc)
-#include <gp_Dir2d.hxx>
-#include <gp_GTrsf.hxx>
+#include <Mathematics/Primitives/gp_Dir2d.hxx>
+#include <Mathematics/Primitives/gp_GTrsf.hxx>
 
 
 IGESGeom_ConicArc::IGESGeom_ConicArc ()    {  }

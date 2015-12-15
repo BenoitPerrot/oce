@@ -29,10 +29,10 @@ IMPLEMENT_STANDARD_TYPE_END(DNaming_RevolutionDriver)
 IMPLEMENT_DOWNCAST(DNaming_RevolutionDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(DNaming_RevolutionDriver)
 
-#include <gp_Dir.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Ax2.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <Geom_Line.hxx>
 
 #include <BRep_Tool.hxx>

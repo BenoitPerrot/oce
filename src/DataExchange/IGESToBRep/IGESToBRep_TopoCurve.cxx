@@ -29,7 +29,7 @@
 #include <TopoDS_Shape.hxx>
 #include <IGESData_IGESEntity.hxx>
 #include <TopoDS_Face.hxx>
-#include <gp_Trsf2d.hxx>
+#include <Mathematics/Primitives/gp_Trsf2d.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <IGESGeom_Point.hxx>
 #include <IGESGeom_CompositeCurve.hxx>
@@ -67,13 +67,13 @@
 #include <Geom2d_OffsetCurve.hxx>
 #include <Geom2d_TrimmedCurve.hxx>
 
-#include <gp.hxx>
-#include <gp_Dir.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_GTrsf.hxx>
-#include <gp_Trsf2d.hxx>
-#include <gp_XY.hxx>
+#include <Mathematics/Primitives/gp.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_GTrsf.hxx>
+#include <Mathematics/Primitives/gp_Trsf2d.hxx>
+#include <Mathematics/Primitives/gp_XY.hxx>
 
 #include <IGESData_IGESEntity.hxx>
 #include <IGESData_HArray1OfIGESEntity.hxx>

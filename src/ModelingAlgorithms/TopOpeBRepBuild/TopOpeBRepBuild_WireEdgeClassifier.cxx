@@ -36,8 +36,8 @@
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <Geom_Curve.hxx>
 #include <Geom_TrimmedCurve.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <BRep_Builder.hxx>
 #include <TopOpeBRepTool_2d.hxx>
 #include <TopLoc_Location.hxx>

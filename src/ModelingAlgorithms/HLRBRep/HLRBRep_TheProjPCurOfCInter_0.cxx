@@ -9,7 +9,7 @@
 #include <HLRBRep_TheCurveLocatorOfTheProjPCurOfCInter.hxx>
 #include <HLRBRep_TheLocateExtPCOfTheProjPCurOfCInter.hxx>
 #include <HLRBRep_PCLocFOfTheLocateExtPCOfTheProjPCurOfCInter.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
  
 
 #define TheCurve Standard_Address

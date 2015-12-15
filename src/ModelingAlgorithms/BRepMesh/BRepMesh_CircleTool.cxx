@@ -16,7 +16,7 @@
 
 #include <BRepMesh_CircleTool.hxx>
 #include <BRepMesh_GeomTool.hxx>
-#include <gp_Circ2d.hxx>
+#include <Mathematics/Primitives/gp_Circ2d.hxx>
 #include <Precision.hxx>
 #include <BRepMesh_Circle.hxx>
 #include <BRepMesh_CircleInspector.hxx>

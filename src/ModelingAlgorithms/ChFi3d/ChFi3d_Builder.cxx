@@ -43,7 +43,7 @@
 #include <ChFiDS_Stripe.hxx>
 #include <BRepTopAdaptor_TopolTool.hxx>
 #include <ChFiDS_SequenceOfSurfData.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <ChFiDS_ListOfStripe.hxx>
 #include <ChFiDS_CommonPoint.hxx>
 #include <TopoDS_Face.hxx>

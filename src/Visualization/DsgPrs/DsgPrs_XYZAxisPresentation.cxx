@@ -16,8 +16,8 @@
 
 #include <Prs3d_Presentation.hxx>
 #include <Prs3d_LineAspect.hxx>
-#include <gp_Dir.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Prs3d_ArrowAspect.hxx>
 #include <Prs3d_TextAspect.hxx>
 #include <DsgPrs_XYZAxisPresentation.hxx>

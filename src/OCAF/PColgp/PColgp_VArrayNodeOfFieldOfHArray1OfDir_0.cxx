@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
 #include <PColgp_FieldOfHArray1OfDir.hxx>
 #include <PColgp_VArrayTNodeOfFieldOfHArray1OfDir.hxx>
 
@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_RTTI(PColgp_VArrayNodeOfFieldOfHArray1OfDir)
 
 
 #define Item gp_Dir
-#define Item_hxx <gp_Dir.hxx>
+#define Item_hxx <Mathematics/Primitives/gp_Dir.hxx>
 #define DBC_VArrayNode PColgp_VArrayNodeOfFieldOfHArray1OfDir
 #define DBC_VArrayNode_hxx <PColgp_VArrayNodeOfFieldOfHArray1OfDir.hxx>
 #define DBC_VArrayTNode PColgp_VArrayTNodeOfFieldOfHArray1OfDir

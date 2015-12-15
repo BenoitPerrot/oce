@@ -16,10 +16,10 @@
 
 #include <Geom_Line.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <gp_Ax1.hxx>
-#include <gp_Lin.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Ax1.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
 #include <GC_MakeLine.hxx>
 #include <gce_MakeLin.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>

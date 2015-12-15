@@ -20,19 +20,19 @@
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <gp_Circ2d.hxx>
-#include <gp_Lin2d.hxx>
+#include <Mathematics/Primitives/gp_Circ2d.hxx>
+#include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <GccInt_Bisec.hxx>
 #include <GccAna_CircLin2dBisec.hxx>
 
-#include <gp_XY.hxx>
-#include <gp_Dir2d.hxx>
-#include <gp_Ax2d.hxx>
+#include <Mathematics/Primitives/gp_XY.hxx>
+#include <Mathematics/Primitives/gp_Dir2d.hxx>
+#include <Mathematics/Primitives/gp_Ax2d.hxx>
 #include <GccInt_BParab.hxx>
 #include <GccInt_BLine.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <gp.hxx>
+#include <Mathematics/Primitives/gp.hxx>
 
 //=========================================================================
 

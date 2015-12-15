@@ -27,7 +27,7 @@
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Graphic3d_MapOfStructure.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Graphic3d_Vector.hxx>
 #include <Graphic3d_Structure.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

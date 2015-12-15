@@ -25,8 +25,8 @@
 #include <IntRes2d_Domain.hxx>
 #include <IntRes2d_Transition.hxx>
 #include <IntRes2d_Position.hxx>
-#include <gp_Vec2d.hxx>
-#include <gp.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp.hxx>
 
 
 static Standard_Real PIpPI = M_PI + M_PI;

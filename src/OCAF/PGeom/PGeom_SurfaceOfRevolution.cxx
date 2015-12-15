@@ -15,8 +15,8 @@
 // commercial license or contractual agreement.
 
 #include <PGeom_Curve.hxx>
-#include <gp_Dir.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <PGeom_SurfaceOfRevolution.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PGeom_SurfaceOfRevolution)

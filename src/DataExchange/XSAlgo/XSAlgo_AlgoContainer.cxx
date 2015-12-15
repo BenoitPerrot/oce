@@ -38,8 +38,8 @@ IMPLEMENT_STANDARD_RTTI(XSAlgo_AlgoContainer)
 #include <Foundation/Message/Message_ListOfMsg.hxx>
 #include <Foundation/Message/Message_ListIteratorOfListOfMsg.hxx>
 
-#include <gp_Pnt.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Geom_Curve.hxx>
 #include <Geom_Surface.hxx>
 #include <Geom2d_Curve.hxx>

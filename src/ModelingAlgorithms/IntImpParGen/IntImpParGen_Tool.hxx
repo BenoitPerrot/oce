@@ -20,8 +20,8 @@
 #include <IntRes2d_Domain.hxx>
 #include <IntRes2d_Position.hxx>
 #include <IntRes2d_Transition.hxx>
-#include <gp_Vec2d.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
  
 Standard_Real NormalizeOnDomain(Standard_Real&,const IntRes2d_Domain&);
 

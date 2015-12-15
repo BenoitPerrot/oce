@@ -35,7 +35,7 @@
 #include <Foundation/OSD/OSD_Timer.hxx>
 #include <Geom_Axis2Placement.hxx>
 #include <Geom_Axis1Placement.hxx>
-#include <gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <TopExp_Explorer.hxx>
 #include <BRepAdaptor_Curve.hxx>
 #include <StdSelect_ShapeTypeFilter.hxx>
@@ -4699,7 +4699,7 @@ void ViewerTest::Commands(Draw_Interpretor& theCommands)
 #include <BRepOffsetAPI_MakeThickSolid.hxx>
 #include <DBRep.hxx>
 #include <TopoDS_Face.hxx>
-#include <gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
 #include <AIS_KindOfSurface.hxx>
 #include <BRepOffsetAPI_DraftAngle.hxx>
 #include <Precision.hxx>

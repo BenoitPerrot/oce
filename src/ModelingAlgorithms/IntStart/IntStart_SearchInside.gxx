@@ -21,7 +21,7 @@
 
 #include <Mathematics/Optimization/math_FunctionSetRoot.hxx>
 #include <Precision.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 
 #include <TopAbs_State.hxx>
 

@@ -21,8 +21,8 @@
 #include <Geom_CartesianPoint.hxx>
 #include <GeomToIGES_GeomPoint.hxx>
 
-#include <gp_Pnt.hxx>
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
 
 #include <Geom_Point.hxx>
 

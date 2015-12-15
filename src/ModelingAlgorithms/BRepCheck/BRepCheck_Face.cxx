@@ -53,7 +53,7 @@ IMPLEMENT_STANDARD_RTTI(BRepCheck_Face)
 #include <IntRes2d_Domain.hxx>
 #include <Geom2dInt_GInter.hxx>
 #include <Geom2dAdaptor_Curve.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 
 
 

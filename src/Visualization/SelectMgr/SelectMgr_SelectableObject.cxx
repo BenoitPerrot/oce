@@ -41,7 +41,7 @@ IMPLEMENT_STANDARD_RTTI(SelectMgr_SelectableObject)
 #include <PrsMgr_PresentationManager3d.hxx>
 
 #include <TopLoc_Location.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 
 static Standard_Integer Search (const SelectMgr_SequenceOfSelection& seq,
                                 const Handle (SelectMgr_Selection)& theSel)

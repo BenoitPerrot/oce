@@ -16,7 +16,7 @@
 #include <TFunction_Logbook.hxx>
 #include <TDF_Label.hxx>
 #include <TNaming_NamedShape.hxx>
-#include <gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <DNaming_TransformationDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DNaming_TransformationDriver)
@@ -55,10 +55,10 @@ IMPLEMENT_STANDARD_RTTI(DNaming_TransformationDriver)
 #include <TFunction_Logbook.hxx>
 #include <DNaming.hxx>
 #include <TDataStd_Real.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Ax1.hxx>
-#include <gp_Ax2.hxx>
-#include <gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Ax1.hxx>
+#include <Mathematics/Primitives/gp_Ax2.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
 #include <GeomLib_IsPlanarSurface.hxx>
 #include <Foundation/NCollection/NCollection_Handle.hxx>
 #include <ModelDefinitions.hxx>

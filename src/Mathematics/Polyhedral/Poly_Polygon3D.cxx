@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(Poly_Polygon3D)
 IMPLEMENT_DOWNCAST(Poly_Polygon3D,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Poly_Polygon3D)
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 
 //=======================================================================
 //function : Poly_Polygon3D

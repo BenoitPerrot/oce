@@ -17,8 +17,8 @@
 #include <Mathematics/Optimization/math_Matrix.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>
 #include <Mathematics/Optimization/math_Gauss.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 
 #include <Plate_D1.hxx>
 #include <Plate_D2.hxx>
@@ -31,8 +31,8 @@
 
 #include <Geom_Surface.hxx>
 #include <NLPlate_HGPPConstraint.hxx>
-#include <gp_XYZ.hxx>
-#include <gp_XY.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_XY.hxx>
 #include <NLPlate_NLPlate.hxx>
 
 

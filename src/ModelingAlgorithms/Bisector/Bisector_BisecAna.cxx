@@ -21,12 +21,12 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Geom2d_Curve.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Geom2d_Point.hxx>
 #include <GccInt_Bisec.hxx>
 #include <Geom2d_Geometry.hxx>
-#include <gp_Trsf2d.hxx>
+#include <Mathematics/Primitives/gp_Trsf2d.hxx>
 #include <Bisector_BisecAna.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Bisector_BisecAna)
@@ -55,8 +55,8 @@ IMPLEMENT_STANDARD_RTTI(Bisector_BisecAna)
 #include <GccAna_Lin2dBisec.hxx>
 #include <GccAna_CircPnt2dBisec.hxx>
 #include <GccAna_LinPnt2dBisec.hxx>
-#include <gp.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <ElCLib.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <IntAna2d_AnaIntersection.hxx>

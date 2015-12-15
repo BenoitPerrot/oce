@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
 #include <HLRBRep_EdgeFaceTool.hxx>
 #include <HLRBRep_Curve.hxx>
 #include <HLRBRep_Surface.hxx>
@@ -23,7 +23,7 @@
 #include <BRep_Tool.hxx>
 #include <BRepAdaptor_Curve2d.hxx>
 #include <TopoDS_Vertex.hxx>
-#include <gp.hxx>
+#include <Mathematics/Primitives/gp.hxx>
 
 //=======================================================================
 //function : CurvatureDirection

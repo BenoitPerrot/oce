@@ -34,9 +34,9 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_ClosedEdgeDivide)
 #include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
 #include <ShapeUpgrade_SplitCurve3d.hxx>
 #include <ShapeUpgrade_SplitCurve2d.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geom_Surface.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 
 //=======================================================================
 //function : ShapeUpgrade_ClosedEdgeDivide

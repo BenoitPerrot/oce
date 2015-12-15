@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard.hxx>
 #include <Handle_PColgp_SeqNodeOfHSequenceOfPnt.hxx>
 
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Handle_PColgp_SeqNodeOfHSequenceOfPnt.hxx>
 #include <PMMgt_PManaged.hxx>
 #include <Handle_PColgp_HSequenceOfPnt.hxx>

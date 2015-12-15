@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Draw_Axis3D.hxx>
 
-#include <gp_Ax3.hxx>
+#include <Mathematics/Primitives/gp_Ax3.hxx>
 #include <Draw_Color.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Draw_Drawable3D.hxx>

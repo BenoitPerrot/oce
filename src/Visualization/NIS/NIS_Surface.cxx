@@ -35,7 +35,7 @@
 #include <TopoDS_Face.hxx>
 #include <TopoDS_Edge.hxx>
 #include <Foundation/TShort/TShort_Array1OfShortReal.hxx>
-#include <gp_Ax1.hxx>
+#include <Mathematics/Primitives/gp_Ax1.hxx>
 
 IMPLEMENT_STANDARD_HANDLE (NIS_Surface, NIS_InteractiveObject)
 IMPLEMENT_STANDARD_RTTIEXT(NIS_Surface, NIS_InteractiveObject)

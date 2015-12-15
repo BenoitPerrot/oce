@@ -21,7 +21,7 @@
 #include <TopoDS_Edge.hxx>
 #include <Law_Function.hxx>
 #include <TopoDS_Vertex.hxx>
-#include <gp_XY.hxx>
+#include <Mathematics/Primitives/gp_XY.hxx>
 #include <ChFiDS_SecHArray1.hxx>
 #include <ChFiDS_SurfData.hxx>
 #include <ChFiDS_HElSpine.hxx>

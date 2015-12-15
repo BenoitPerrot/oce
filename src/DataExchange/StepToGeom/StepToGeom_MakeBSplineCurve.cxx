@@ -17,7 +17,7 @@
 #include <StepGeom_BSplineCurve.hxx>
 #include <Geom_BSplineCurve.hxx>
 #include <StepToGeom_MakeBSplineCurve.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <StepGeom_HArray1OfCartesianPoint.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>

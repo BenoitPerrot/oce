@@ -40,8 +40,8 @@
 #include <BRep_Tool.hxx>
 #include <Geom_Curve.hxx>
 #include <Geom_Surface.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>
 #include <BRepClass3d_SolidClassifier.hxx>
 

@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <gp_Lin2d.hxx>
+#include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <PColgp_FieldOfHArray2OfLin2d.hxx>
 #include <PColgp_VArrayTNodeOfFieldOfHArray2OfLin2d.hxx>
 
@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_RTTI(PColgp_VArrayNodeOfFieldOfHArray2OfLin2d)
 
 
 #define Item gp_Lin2d
-#define Item_hxx <gp_Lin2d.hxx>
+#define Item_hxx <Mathematics/Primitives/gp_Lin2d.hxx>
 #define DBC_VArrayNode PColgp_VArrayNodeOfFieldOfHArray2OfLin2d
 #define DBC_VArrayNode_hxx <PColgp_VArrayNodeOfFieldOfHArray2OfLin2d.hxx>
 #define DBC_VArrayTNode PColgp_VArrayTNodeOfFieldOfHArray2OfLin2d

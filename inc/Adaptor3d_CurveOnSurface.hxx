@@ -13,8 +13,8 @@
 #include <Handle_Adaptor3d_HSurface.hxx>
 #include <Handle_Adaptor2d_HCurve2d.hxx>
 #include <GeomAbs_CurveType.hxx>
-#include <gp_Circ.hxx>
-#include <gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Circ.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Handle_TColStd_HSequenceOfReal.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <Adaptor3d_Curve.hxx>

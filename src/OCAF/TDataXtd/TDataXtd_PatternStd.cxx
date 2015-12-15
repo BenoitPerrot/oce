@@ -37,11 +37,11 @@ IMPLEMENT_STANDARD_RTTI(TDataXtd_PatternStd)
 #include <TDataStd.hxx>
 #include <TDataXtd_Geometry.hxx>
 #include <TDF_Label.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Lin.hxx>
-#include <gp_Trsf.hxx>
-#include <gp_Pln.hxx>
-#include <gp_Ax1.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <TopoDS_Shape.hxx>
 
 

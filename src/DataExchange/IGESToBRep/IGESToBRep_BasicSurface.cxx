@@ -56,8 +56,8 @@
 
 #include <Interface_Macros.hxx>  
 
-#include <gp_GTrsf.hxx>
-#include <gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_GTrsf.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
 
 #include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_HArray2OfPnt.hxx>
@@ -77,12 +77,12 @@
 #include <Foundation/Message/Message_Msg.hxx>
 #include <IGESData_IGESModel.hxx> 
 //S4181
-#include <gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
 #include <IGESGeom_Point.hxx>
 #include <IGESGeom_Direction.hxx>
 #include <Precision.hxx>
-#include <gp_Ax3.hxx>
-#include <gp_Cylinder.hxx>
+#include <Mathematics/Primitives/gp_Ax3.hxx>
+#include <Mathematics/Primitives/gp_Cylinder.hxx>
 #include <ShapeAlgo.hxx>
 #include <ShapeAlgo_AlgoContainer.hxx>
 #include <ShapeConstruct_Curve.hxx>

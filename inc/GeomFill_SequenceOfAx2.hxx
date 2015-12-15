@@ -101,7 +101,7 @@ private:
 };
 
 #define SeqItem gp_Ax2
-#define SeqItem_hxx <gp_Ax2.hxx>
+#define SeqItem_hxx <Mathematics/Primitives/gp_Ax2.hxx>
 #define TCollection_SequenceNode GeomFill_SequenceNodeOfSequenceOfAx2
 #define TCollection_SequenceNode_hxx <GeomFill_SequenceNodeOfSequenceOfAx2.hxx>
 #define Handle_TCollection_SequenceNode Handle_GeomFill_SequenceNodeOfSequenceOfAx2

@@ -38,7 +38,7 @@
 #include <Transfer_FinderProcess.hxx>
 
 #include <Precision.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 
 #include <Geom2d_Line.hxx>
 #include <Geom_Surface.hxx>

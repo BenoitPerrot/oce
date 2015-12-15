@@ -35,7 +35,7 @@
 #include <StepGeom_CurveReplica.hxx>
 #include <StepGeom_CartesianTransformationOperator2d.hxx>
 #include <StepToGeom_MakeTransformation2d.hxx>
-#include <gp_Trsf2d.hxx>
+#include <Mathematics/Primitives/gp_Trsf2d.hxx>
 
 //=============================================================================
 // Creation d' une Curve de Geom2d a partir d' une Curve de Step

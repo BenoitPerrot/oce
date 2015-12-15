@@ -15,7 +15,7 @@
 #include <Handle_GeomFill_TgtField.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <GeomFill_CornerState.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_TColgp_HArray1OfPnt.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>

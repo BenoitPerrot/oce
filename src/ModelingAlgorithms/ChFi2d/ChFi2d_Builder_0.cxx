@@ -54,9 +54,9 @@
 
 #include <IntRes2d_IntersectionPoint.hxx>
 
-#include <gp_Pln.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 
 #include <Precision.hxx>
 

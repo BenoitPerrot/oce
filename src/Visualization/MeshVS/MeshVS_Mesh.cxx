@@ -39,7 +39,7 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_Mesh)
 #include <AIS_InteractiveContext.hxx>
 
 #include <Prs3d_Root.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 
 #include <Select3D_SensitivePoint.hxx>

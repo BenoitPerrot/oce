@@ -30,9 +30,9 @@
 #include <BRepBuilderAPI_Transform.hxx>
 #include <BRepBuilderAPI_GTransform.hxx>
 #include <BRepBuilderAPI_NurbsConvert.hxx>
-#include <gp_Ax2.hxx>
-#include <gp_Mat.hxx>
-#include <gp_GTrsf.hxx>
+#include <Mathematics/Primitives/gp_Ax2.hxx>
+#include <Mathematics/Primitives/gp_Mat.hxx>
+#include <Mathematics/Primitives/gp_GTrsf.hxx>
 #include <BRepOffsetAPI_NormalProjection.hxx>
 #include <BRepLib.hxx>
 #include <BRep_Builder.hxx>
@@ -464,7 +464,7 @@ static Standard_Integer precision(Draw_Interpretor& di,Standard_Integer n,const 
 //purpose  : 
 //=======================================================================
 #include <IntCurvesFace_ShapeIntersector.hxx>
-#include <gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
 
 static Standard_Integer reperageshape(Draw_Interpretor& di, Standard_Integer narg , const char** a) 
 {

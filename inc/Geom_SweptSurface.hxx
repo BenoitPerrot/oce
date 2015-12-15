@@ -11,7 +11,7 @@
 #include <Handle_Geom_SweptSurface.hxx>
 
 #include <Handle_Geom_Curve.hxx>
-#include <gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <Geom_Surface.hxx>
 class Geom_Curve;

@@ -22,10 +22,10 @@
 #include <BRepBlend_Extremity.hxx>
 #include <Blend_CSFunction.hxx>
 #include <IntSurf_Transition.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
  
 
 #define TheVertex Handle(Adaptor3d_HVertex)

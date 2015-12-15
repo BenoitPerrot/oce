@@ -46,7 +46,7 @@
 #include <IntPatch_ALineToWLine.hxx>
 #include <IntSurf_Quadric.hxx>
 #include <GeomAbs_SurfaceType.hxx> 
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 
 #include <Adaptor2d_HCurve2d.hxx>
 #include <BRepAdaptor_Curve2d.hxx>

@@ -18,7 +18,7 @@
 #define No_Exception
 #endif
 #include <Foundation/StdFail/StdFail_UndefinedDerivative.hxx>
-#include <gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>
 #include <IntCurveSurface_IntersectionPoint.hxx>
 #include <IntRes2d_IntersectionSegment.hxx>
@@ -29,7 +29,7 @@
 #include <HLRBRep_SurfaceTool.hxx>
 #include <HLRBRep_ThePolyhedronOfInterCSurf.hxx>
 #include <HLRBRep_ThePolygonOfInterCSurf.hxx>
-#include <gp.hxx>
+#include <Mathematics/Primitives/gp.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <ElCLib.hxx>
 

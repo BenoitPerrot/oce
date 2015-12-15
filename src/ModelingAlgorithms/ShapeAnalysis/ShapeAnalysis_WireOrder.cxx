@@ -18,8 +18,8 @@
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Mathematics/Collections/TColgp_HSequenceOfXYZ.hxx>
 #include <Foundation/Standard/Standard_TypeMismatch.hxx>
-#include <gp_XYZ.hxx>
-#include <gp_XY.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_XY.hxx>
 #include <ShapeAnalysis_WireOrder.hxx>
 
 #include <Precision.hxx>
@@ -31,7 +31,7 @@
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfTransient.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfInteger.hxx>
 

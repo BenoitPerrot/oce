@@ -19,7 +19,7 @@
 
 #include <Geom_Plane.hxx>
 #include <Geom_Axis2Placement.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <AIS_InteractiveContext.hxx>
 #include <Prs3d_Presentation.hxx>
 #include <Prs3d_Projector.hxx>
@@ -44,7 +44,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_Plane)
 #include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
 
 #include <Precision.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <ElSLib.hxx>
 
 #include <Graphic3d_ArrayOfQuadrangles.hxx>

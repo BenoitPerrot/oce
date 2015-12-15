@@ -20,7 +20,7 @@
 #include <Geom_Surface.hxx>
 #include <Geom_Curve.hxx>
 #include <Geom2d_Curve.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Adaptor3d_TopolTool.hxx>
 #include <GeomInt_IntSS.hxx>
 

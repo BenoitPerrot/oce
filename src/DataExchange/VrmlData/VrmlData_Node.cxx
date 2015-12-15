@@ -21,8 +21,8 @@
 #include <VrmlData_UnknownNode.hxx>
 #include <VrmlData_Scene.hxx>
 #include <VrmlData_InBuffer.hxx>
-#include <gp_XY.hxx>
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_XY.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
 
 #ifdef _MSC_VER
 #define _CRT_SECURE_NO_DEPRECATE

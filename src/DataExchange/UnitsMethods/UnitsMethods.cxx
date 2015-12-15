@@ -30,11 +30,11 @@
 #include <Geom2d_Hyperbola.hxx>
 #include <Geom2d_Line.hxx>
 #include <Geom2d_Parabola.hxx>
-#include <gp.hxx>
-#include <gp_GTrsf2d.hxx>
-#include <gp_Trsf2d.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Dir2d.hxx>
+#include <Mathematics/Primitives/gp.hxx>
+#include <Mathematics/Primitives/gp_GTrsf2d.hxx>
+#include <Mathematics/Primitives/gp_Trsf2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Dir2d.hxx>
 
 static Standard_Real theLengthFactor     = 1.;
 static Standard_Real thePlaneAngleFactor = 1.;

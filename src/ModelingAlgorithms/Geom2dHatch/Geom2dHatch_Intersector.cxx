@@ -15,8 +15,8 @@
 // commercial license or contractual agreement.
 
 #include <Geom2dAdaptor_Curve.hxx>
-#include <gp_Lin2d.hxx>
-#include <gp_Dir2d.hxx>
+#include <Mathematics/Primitives/gp_Lin2d.hxx>
+#include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <Geom2dHatch_Intersector.hxx>
 #include <ElCLib.hxx>
 #include <Geom2d_Line.hxx>

@@ -13,20 +13,20 @@
 
 #include <Mathematics/Collections/TColgp_HSequenceOfXYZ.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <gp_XY.hxx>
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_XY.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <IGESGeom_CopiousData.hxx>
-#include <gp_Trsf.hxx>
-#include <gp_Ax3.hxx>
-#include <gp_Ax2.hxx>
-#include <gp_Ax1.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Ax3.hxx>
+#include <Mathematics/Primitives/gp_Ax2.hxx>
+#include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <IGESGeom_TransformationMatrix.hxx>
 #include <IGESConvGeom_GeomBuilder.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
 #include <Interface_Translates.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <gp.hxx>
+#include <Mathematics/Primitives/gp.hxx>
 
 
 static Standard_Real epsl = 1.E-10;

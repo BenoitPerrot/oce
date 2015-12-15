@@ -20,7 +20,7 @@
 #include <TestTopOpeTools_Mesure.hxx>
 #include <Draw_Color.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Draw_Display.hxx>
 #include <TestTopOpeDraw_DrawableMesure.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

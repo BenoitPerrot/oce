@@ -18,8 +18,8 @@
 
 #include <AIS.hxx>
 #include <AIS_Dimension.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Circ.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Circ.hxx>
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>

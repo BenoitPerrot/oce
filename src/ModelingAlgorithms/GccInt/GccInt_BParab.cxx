@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <gp_Parab2d.hxx>
+#include <Mathematics/Primitives/gp_Parab2d.hxx>
 #include <GccInt_BParab.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(GccInt_BParab)
@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_TYPE_END(GccInt_BParab)
 IMPLEMENT_DOWNCAST(GccInt_BParab,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(GccInt_BParab)
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <gp_Parab2d.hxx>
+#include <Mathematics/Primitives/gp_Parab2d.hxx>
 
 GccInt_BParab::
    GccInt_BParab(const gp_Parab2d& Parab) {

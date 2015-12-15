@@ -32,7 +32,7 @@
 #include <TopoDS_Shape.hxx>
 #include <ShapeFix_SequenceOfWireSegment.hxx>
 #include <ShapeExtend_WireData.hxx>
-#include <gp_Lin2d.hxx>
+#include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <ShapeFix_WireSegment.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
@@ -51,9 +51,9 @@ IMPLEMENT_DOWNCAST(ShapeFix_ComposeShell,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ShapeFix_ComposeShell)
 
 #include <Precision.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Lin2d.hxx>
-#include <gp_Dir2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Lin2d.hxx>
+#include <Mathematics/Primitives/gp_Dir2d.hxx>
 
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>
@@ -103,7 +103,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_ComposeShell)
 #include <ShapeAnalysis_TransferParametersProj.hxx>
 #include <ShapeFix_Face.hxx>
 #include <ShapeAnalysis_Surface.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Extrema_ExtPC2d.hxx>
 #include <ShapeAnalysis.hxx>
 

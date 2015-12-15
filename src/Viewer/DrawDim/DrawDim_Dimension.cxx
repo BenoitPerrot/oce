@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Draw_Color.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Draw_Display.hxx>
 #include <DrawDim_Dimension.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

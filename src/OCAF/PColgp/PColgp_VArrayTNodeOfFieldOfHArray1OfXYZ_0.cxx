@@ -5,13 +5,13 @@
 
 #include <PColgp_VArrayTNodeOfFieldOfHArray1OfXYZ.hxx>
 
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <PColgp_FieldOfHArray1OfXYZ.hxx>
 #include <PColgp_VArrayNodeOfFieldOfHArray1OfXYZ.hxx>
  
 
 #define Item gp_XYZ
-#define Item_hxx <gp_XYZ.hxx>
+#define Item_hxx <Mathematics/Primitives/gp_XYZ.hxx>
 #define DBC_VArrayNode PColgp_VArrayNodeOfFieldOfHArray1OfXYZ
 #define DBC_VArrayNode_hxx <PColgp_VArrayNodeOfFieldOfHArray1OfXYZ.hxx>
 #define DBC_VArrayTNode PColgp_VArrayTNodeOfFieldOfHArray1OfXYZ

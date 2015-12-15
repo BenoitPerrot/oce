@@ -16,9 +16,9 @@
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <gp_Ax1.hxx>
+#include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <TopoDS_Shape.hxx>
-#include <gp_Circ.hxx>
+#include <Mathematics/Primitives/gp_Circ.hxx>
 #include <LocOpe_PntFace.hxx>
 #include <LocOpe_CurveShapeIntersector.hxx>
 
@@ -29,7 +29,7 @@
 
 
 #include <Precision.hxx>
-#include <gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
 #include <GeomAdaptor_Curve.hxx>
 
 static void Perform(BRepIntCurveSurface_Inter&,

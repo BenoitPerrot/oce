@@ -14,8 +14,8 @@
 // commercial license or contractual agreement.
 
 #include <BRepMesh_VertexTool.hxx>
-#include <gp_XY.hxx>
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_XY.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Precision.hxx>
 #include <BRepMesh_Vertex.hxx>
 #include <BRepMesh_VertexInspector.hxx>

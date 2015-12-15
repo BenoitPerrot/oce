@@ -18,9 +18,9 @@
 
 #include <IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <gp_XY.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_XY.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <IGESGeom_Flash.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESGeom_Flash)
@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_TYPE_END(IGESGeom_Flash)
 IMPLEMENT_DOWNCAST(IGESGeom_Flash,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESGeom_Flash)
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <gp_GTrsf.hxx>
+#include <Mathematics/Primitives/gp_GTrsf.hxx>
 
 
 IGESGeom_Flash::IGESGeom_Flash ()     {  }

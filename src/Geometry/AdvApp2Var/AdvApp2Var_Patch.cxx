@@ -31,7 +31,7 @@
 #include <AdvApp2Var_Patch.hxx>
 #include <AdvApp2Var_Node.hxx>
 #include <AdvApp2Var_Iso.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Collections/TColgp_HArray2OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>

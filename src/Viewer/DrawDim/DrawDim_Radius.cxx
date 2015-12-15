@@ -30,8 +30,8 @@ IMPLEMENT_DOWNCAST(DrawDim_Radius,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(DrawDim_Radius)
 #include <BRepAdaptor_Surface.hxx>
 #include <Geom_Surface.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Circ.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Circ.hxx>
 #include <BRepAdaptor_Surface.hxx>
 #include <GC_MakeCircle.hxx>
 #include <TopoDS.hxx>

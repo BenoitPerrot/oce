@@ -11,7 +11,7 @@
 #include <Handle_IGESSolid_SelectedComponent.hxx>
 
 #include <Handle_IGESSolid_BooleanTree.hxx>
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <IGESData_IGESEntity.hxx>
 class IGESSolid_BooleanTree;
 class gp_XYZ;

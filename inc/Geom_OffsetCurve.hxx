@@ -11,7 +11,7 @@
 #include <Handle_Geom_OffsetCurve.hxx>
 
 #include <Handle_Geom_Curve.hxx>
-#include <gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Geom_Curve.hxx>
 #include <GeomAbs_Shape.hxx>

@@ -14,7 +14,7 @@
 //    rln 22.03.99: syntax correction in CombineVertex
 //szv#4 S4163
 #include <TopoDS_Vertex.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <ShapeBuild_Vertex.hxx>
 #include <BRep_Tool.hxx>
 #include <Precision.hxx>

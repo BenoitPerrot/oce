@@ -24,7 +24,7 @@
 #include <Blend_FuncInv.hxx>
 #include <Blend_SurfPointFuncInv.hxx>
 #include <Blend_SurfCurvFuncInv.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Adaptor3d_HVertex.hxx>
 #include <IntSurf_Transition.hxx>
 #include <BRepBlend_Extremity.hxx>
@@ -34,10 +34,10 @@
 #include <TopAbs.hxx>
 #include <IntSurf.hxx>
 #include <Mathematics/Optimization/math_FunctionSetRoot.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Vec2d.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 
 #ifdef OCCT_DEBUG
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>

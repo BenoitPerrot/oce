@@ -23,7 +23,7 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <GeomFill_TrihedronLaw.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfVec.hxx>
 #include <Adaptor3d_HCurve.hxx>
@@ -41,12 +41,12 @@ IMPLEMENT_DOWNCAST(GeomFill_CorrectedFrenet,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(GeomFill_CorrectedFrenet)
 #include <GeomAbs_CurveType.hxx>
 #include <Adaptor3d_HCurve.hxx>
-#include <gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Precision.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Law_Interpolate.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
-#include <gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <BndLib_Add3dCurve.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <GeomLib.hxx>

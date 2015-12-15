@@ -13,7 +13,7 @@
 // commercial license or contractual agreement.
 
 #include <IntSurf_Quadric.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 
 inline Standard_Real IntSurf_QuadricTool::Value (const IntSurf_Quadric& Quad,
 						 const Standard_Real X,

@@ -18,8 +18,8 @@
 #include <GccEnt_BadQualifier.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Geom2dGcc_QualifiedCurve.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Lin2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <Geom2dGcc_Lin2d2TanIter.hxx>
 #include <Geom2dAdaptor_Curve.hxx>
 #include <Geom2dGcc_Lin2d2Tan.hxx>

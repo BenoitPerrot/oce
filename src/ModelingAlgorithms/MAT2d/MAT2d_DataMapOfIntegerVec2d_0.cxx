@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #include <MAT2d_DataMapNodeOfDataMapOfIntegerVec2d.hxx>
 #include <MAT2d_DataMapIteratorOfDataMapOfIntegerVec2d.hxx>
@@ -16,7 +16,7 @@
 #define TheKey Standard_Integer
 #define TheKey_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheItem gp_Vec2d
-#define TheItem_hxx <gp_Vec2d.hxx>
+#define TheItem_hxx <Mathematics/Primitives/gp_Vec2d.hxx>
 #define Hasher TColStd_MapIntegerHasher
 #define Hasher_hxx <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #define TCollection_DataMapNode MAT2d_DataMapNodeOfDataMapOfIntegerVec2d

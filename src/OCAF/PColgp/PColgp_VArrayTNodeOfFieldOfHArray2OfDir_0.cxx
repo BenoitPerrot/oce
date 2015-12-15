@@ -5,13 +5,13 @@
 
 #include <PColgp_VArrayTNodeOfFieldOfHArray2OfDir.hxx>
 
-#include <gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
 #include <PColgp_FieldOfHArray2OfDir.hxx>
 #include <PColgp_VArrayNodeOfFieldOfHArray2OfDir.hxx>
  
 
 #define Item gp_Dir
-#define Item_hxx <gp_Dir.hxx>
+#define Item_hxx <Mathematics/Primitives/gp_Dir.hxx>
 #define DBC_VArrayNode PColgp_VArrayNodeOfFieldOfHArray2OfDir
 #define DBC_VArrayNode_hxx <PColgp_VArrayNodeOfFieldOfHArray2OfDir.hxx>
 #define DBC_VArrayTNode PColgp_VArrayTNodeOfFieldOfHArray2OfDir

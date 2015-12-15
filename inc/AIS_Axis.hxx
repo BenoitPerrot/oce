@@ -12,10 +12,10 @@
 
 #include <Handle_Geom_Line.hxx>
 #include <Handle_Geom_Axis2Placement.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <AIS_TypeOfAxis.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_Prs3d_LineAspect.hxx>

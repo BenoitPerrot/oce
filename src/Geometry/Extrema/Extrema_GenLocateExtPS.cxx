@@ -16,13 +16,13 @@
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Adaptor3d_Surface.hxx>
 #include <Extrema_POnSurf.hxx>
 #include <Extrema_GenLocateExtPS.hxx>
 #include <Extrema_FuncExtPS.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <gp.hxx>
+#include <Mathematics/Primitives/gp.hxx>
 #include <Mathematics/Optimization/math_FunctionSetRoot.hxx>
 #include <Mathematics/Optimization/math_NewtonFunctionSetRoot.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>

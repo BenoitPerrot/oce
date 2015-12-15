@@ -12,7 +12,7 @@
 #include <Handle_PColgp_VArrayNodeOfFieldOfHArray2OfLin2d.hxx>
 
 #include <Foundation/Standard/Standard_Address.hxx>
-#include <gp_Lin2d.hxx>
+#include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <PStandard_ArrayNode.hxx>
 class gp_Lin2d;
 class PColgp_FieldOfHArray2OfLin2d;

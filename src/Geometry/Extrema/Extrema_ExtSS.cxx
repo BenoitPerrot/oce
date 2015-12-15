@@ -26,8 +26,8 @@
 #include <Foundation/StdFail/StdFail_InfiniteSolutions.hxx>
 #include <Precision.hxx>
 #include <GeomAbs_SurfaceType.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
 
 #include <Extrema_GenExtSS.hxx>
 #include <ElCLib.hxx>

@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 
 IMPLEMENT_STANDARD_TYPE(Extrema_POnCurv)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -18,7 +18,7 @@ IMPLEMENT_STANDARD_TYPE_END(Extrema_POnCurv)
  
 
 #define Pnt gp_Pnt
-#define Pnt_hxx <gp_Pnt.hxx>
+#define Pnt_hxx <Mathematics/Primitives/gp_Pnt.hxx>
 #define Extrema_Point Extrema_POnCurv
 #define Extrema_Point_hxx <Extrema_POnCurv.hxx>
 #include <Extrema_Point.gxx>

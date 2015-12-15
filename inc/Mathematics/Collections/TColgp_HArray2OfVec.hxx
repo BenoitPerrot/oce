@@ -75,7 +75,7 @@ private:
 };
 
 #define ItemHArray2 gp_Vec
-#define ItemHArray2_hxx <gp_Vec.hxx>
+#define ItemHArray2_hxx <Mathematics/Primitives/gp_Vec.hxx>
 #define TheArray2 TColgp_Array2OfVec
 #define TheArray2_hxx <Mathematics/Collections/TColgp_Array2OfVec.hxx>
 #define TCollection_HArray2 TColgp_HArray2OfVec

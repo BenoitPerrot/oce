@@ -21,7 +21,7 @@
 #include <BRepLib_MakePolygon.hxx>
 #include <BRepLib_MakeFace.hxx>
 #include <BRepBuilderAPI_Sewing.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <TopoDS_Compound.hxx>
 #include <TopoDS_Wire.hxx>
 #include <TopoDS_Edge.hxx>

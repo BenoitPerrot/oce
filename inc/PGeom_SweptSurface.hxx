@@ -12,7 +12,7 @@
 #include <Handle_PGeom_SweptSurface.hxx>
 
 #include <Handle_PGeom_Curve.hxx>
-#include <gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
 #include <PGeom_Surface.hxx>
 class PGeom_Curve;
 class gp_Dir;

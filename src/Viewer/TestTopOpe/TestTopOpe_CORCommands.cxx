@@ -24,11 +24,11 @@
 #include <TopOpeBRepTool_TOOL.hxx>
 #include <TopOpeBRepBuild_define.hxx>
 
-#include <gp_Pnt2d.hxx>
-#include <gp_Trsf2d.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Dir2d.hxx>
-#include <gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Trsf2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Dir2d.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <BRepAdaptor_Curve2d.hxx>
 #include <BndLib_Add2dCurve.hxx>
 #include <BRepLProp_SLProps.hxx>

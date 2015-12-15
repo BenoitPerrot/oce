@@ -17,7 +17,7 @@
 //--------------------------------------------------------------------
 
 #include <IGESBasic_SubfigureDef.hxx>
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <IGESBasic_SingularSubfigure.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESBasic_SingularSubfigure)
@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESBasic_SingularSubfigure)
 IMPLEMENT_DOWNCAST(IGESBasic_SingularSubfigure,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESBasic_SingularSubfigure)
-#include <gp_GTrsf.hxx>
+#include <Mathematics/Primitives/gp_GTrsf.hxx>
 
 
 IGESBasic_SingularSubfigure::IGESBasic_SingularSubfigure ()    {  }

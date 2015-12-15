@@ -22,7 +22,7 @@
 
 #include <IntRes2d_IntersectionSegment.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>
-#include <gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
 
 //=======================================================================
 //function : TopClass_Classifier2d

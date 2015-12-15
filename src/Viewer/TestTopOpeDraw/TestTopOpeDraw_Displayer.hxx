@@ -22,7 +22,7 @@
 #include <TopoDS.hxx>
 #include <TopAbs_Orientation.hxx>
 #include <Draw_Color.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geom2d_Curve.hxx>
 #include <Geom_Curve.hxx>
 #include <Geom_Surface.hxx>

@@ -21,7 +21,7 @@
 #include <VrmlData_Normal.hxx>
 #include <VrmlData_Color.hxx>
 #include <VrmlData_TextureCoordinate.hxx>
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 
 /**

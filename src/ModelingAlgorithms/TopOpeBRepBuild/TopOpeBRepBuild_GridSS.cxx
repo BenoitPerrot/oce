@@ -43,7 +43,7 @@
 #include <TopoDS_Vertex.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopTools_DataMapOfShapeInteger.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <TopoDS_Face.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TopOpeBRepBuild_Builder.hxx>
@@ -64,10 +64,10 @@
 #include <Geom2d_Curve.hxx>
 #include <Geom2d_TrimmedCurve.hxx>
 #include <Geom2d_Line.hxx>
-#include <gp_Circ.hxx>
-#include <gp_Dir2d.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Circ.hxx>
+#include <Mathematics/Primitives/gp_Dir2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Precision.hxx>
 #include <TopOpeBRepBuild_define.hxx>
 #include <TopOpeBRepTool.hxx>
@@ -82,7 +82,7 @@
 #include <TopOpeBRepBuild_Tools.hxx>
 #include <TopoDS_Iterator.hxx>
 #include <TopOpeBRepDS_connex.hxx>
-#include <gp_Lin2d.hxx>
+#include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <BRepClass_Intersector.hxx>
 #include <BRepClass_Edge.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>

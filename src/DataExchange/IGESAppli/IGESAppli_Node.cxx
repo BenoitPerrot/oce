@@ -17,8 +17,8 @@
 //--------------------------------------------------------------------
 
 #include <IGESGeom_TransformationMatrix.hxx>
-#include <gp_XYZ.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <IGESData_TransfEntity.hxx>
 #include <IGESAppli_Node.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESAppli_Node)
 IMPLEMENT_DOWNCAST(IGESAppli_Node,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESAppli_Node)
-#include <gp_GTrsf.hxx>
+#include <Mathematics/Primitives/gp_GTrsf.hxx>
 #include <Interface_Macros.hxx>
 
 IGESAppli_Node::IGESAppli_Node ()    {  }

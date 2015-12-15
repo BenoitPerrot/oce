@@ -12,7 +12,7 @@
 #include <Handle_PColgp_VArrayNodeOfFieldOfHArray2OfDir2d.hxx>
 
 #include <Foundation/Standard/Standard_Address.hxx>
-#include <gp_Dir2d.hxx>
+#include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <PStandard_ArrayNode.hxx>
 class gp_Dir2d;
 class PColgp_FieldOfHArray2OfDir2d;

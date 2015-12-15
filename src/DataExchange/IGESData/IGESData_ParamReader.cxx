@@ -19,8 +19,8 @@
 #include <IGESData_IGESReaderData.hxx>
 #include <IGESData_ParamCursor.hxx>
 #include <Foundation/Message/Message_Msg.hxx>
-#include <gp_XY.hxx>
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_XY.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>

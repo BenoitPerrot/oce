@@ -16,18 +16,18 @@
 #include <TopoDS_Vertex.hxx>
 #include <TopoDS_Wire.hxx>
 #include <TopoDS_Face.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <TopoDS_Edge.hxx>
 #include <IntTools_CommonPrt.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <IntTools_Curve.hxx>
 #include <IntTools_SequenceOfCurves.hxx>
-#include <gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Geom_Curve.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <IntTools_Range.hxx>
-#include <gp_Lin.hxx>
-#include <gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
 #include <IntTools_Tools.hxx>
 
 #include <Precision.hxx>
@@ -49,12 +49,12 @@
 #include <BRepAdaptor_Curve.hxx>
 #include <BRepAdaptor_Surface.hxx>
 
-#include <gp_Pnt.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp.hxx>
-#include <gp_Lin.hxx>
-#include <gp_Dir.hxx>
-#include <gp_Ax1.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Ax1.hxx>
 
 #include <Geom_Curve.hxx>
 #include <GeomAdaptor_Surface.hxx>
@@ -529,7 +529,7 @@ static
 }
 
 #include <Geom_Parabola.hxx>
-#include <gp_Parab.hxx>
+#include <Mathematics/Primitives/gp_Parab.hxx>
 #include <BndLib_Add3dCurve.hxx>
 //=======================================================================
 //function : ParabolaTolerance

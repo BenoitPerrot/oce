@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <gp_GTrsf.hxx>
+#include <Mathematics/Primitives/gp_GTrsf.hxx>
 #include <BRepBuilderAPI_Collect.hxx>
 #include <BRepBuilderAPI_ModifyShape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

@@ -20,7 +20,7 @@
 
 #include <TObj_Common.hxx>
 
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <TDF_Attribute.hxx>
 
 

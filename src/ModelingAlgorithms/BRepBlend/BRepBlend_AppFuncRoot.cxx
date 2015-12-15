@@ -23,7 +23,7 @@
 #include <Mathematics/Collections/TColgp_Array1OfVec.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfVec2d.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Blend_Point.hxx>
 #include <BRepBlend_AppFuncRoot.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

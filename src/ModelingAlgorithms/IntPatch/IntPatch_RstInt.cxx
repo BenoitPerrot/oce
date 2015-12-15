@@ -37,7 +37,7 @@
 #include <Mathematics/Collections/TColgp_SequenceOfPnt2d.hxx>
 #include <Intf_SectionPoint.hxx>
 #include <Intf_TangentZone.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Precision.hxx>
 
 #include <Adaptor2d_HCurve2d.hxx>

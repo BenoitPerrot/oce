@@ -20,7 +20,7 @@
 
 #include <Foundation/TColStd/TColStd_Array2OfBoolean.hxx>
 
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 
 #include <Geom_Surface.hxx>
 

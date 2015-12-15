@@ -18,7 +18,7 @@
 #include <Geom2d_Curve.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <TopoDS_Face.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Draft_EdgeInfo.hxx>
 
 #include <Foundation/Standard/Standard_DomainError.hxx>

@@ -33,8 +33,8 @@
 #include <TNaming_Tool.hxx>
 #include <TNaming_NamedShape.hxx>
 #include <BRepTools.hxx>
-#include <gp_Trsf.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <TDF_LabelMap.hxx>
 #include <TNaming.hxx>
 #include <TDF_ChildIterator.hxx>
@@ -49,8 +49,8 @@
 
 #include <TNaming_Builder.hxx>
 
-#include <gp_Pnt.hxx>
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <BRep_Tool.hxx>

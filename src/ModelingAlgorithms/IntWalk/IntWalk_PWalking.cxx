@@ -18,8 +18,8 @@
 #include <Adaptor3d_HSurface.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <IntSurf_PntOn2S.hxx>
-#include <gp_Dir.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <IntWalk_PWalking.hxx>
 
 #include <IntWalk_StatusDeflection.hxx>
@@ -38,7 +38,7 @@
 #include <Geom_Surface.hxx>
 
 #include <Foundation/Standard/Standard_Failure.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 
 //==================================================================================
 // function : IntWalk_PWalking::IntWalk_PWalking

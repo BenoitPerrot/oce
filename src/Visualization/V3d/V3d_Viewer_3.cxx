@@ -47,7 +47,7 @@
 #include <V3d_BadValue.hxx>
 #include <V3d_View.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
-#include <gp_Ax3.hxx>
+#include <Mathematics/Primitives/gp_Ax3.hxx>
 #include <Aspect_Grid.hxx>
 #include <Aspect_Background.hxx>
 #include <Aspect_GradientBackground.hxx>
@@ -56,8 +56,8 @@
 
 #include <Graphic3d_AspectLine3d.hxx>
 #include <Graphic3d_AspectText3d.hxx>
-#include <gp_Dir.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Graphic3d_Structure.hxx>
 #include <Graphic3d_Group.hxx>
 

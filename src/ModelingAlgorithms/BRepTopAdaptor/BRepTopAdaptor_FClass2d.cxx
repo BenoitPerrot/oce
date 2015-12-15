@@ -19,7 +19,7 @@
 #define No_Standard_OutOfRange
 
 #include <TopoDS_Face.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <BRepTopAdaptor_FClass2d.hxx>
 
 #include <TopoDS_Edge.hxx>
@@ -39,7 +39,7 @@
 #include <TopExp.hxx>
 #include <BRepAdaptor_Curve.hxx>
 
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <ElCLib.hxx>
 
 #include <Precision.hxx>

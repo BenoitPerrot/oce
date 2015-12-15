@@ -16,16 +16,16 @@
 
 #include <StepGeom_Axis2Placement2d.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <gp_Ax2.hxx>
-#include <gp_Ax22d.hxx>
+#include <Mathematics/Primitives/gp_Ax2.hxx>
+#include <Mathematics/Primitives/gp_Ax22d.hxx>
 #include <GeomToStep_MakeAxis2Placement2d.hxx>
 #include <StepGeom_Direction.hxx>
 #include <GeomToStep_MakeDirection.hxx>
 #include <StepGeom_CartesianPoint.hxx>
 #include <GeomToStep_MakeCartesianPoint.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <gp_Ax2.hxx>
-#include <gp_Ax22d.hxx>
+#include <Mathematics/Primitives/gp_Ax2.hxx>
+#include <Mathematics/Primitives/gp_Ax22d.hxx>
 
 #include <StepGeom_Axis2Placement2d.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>

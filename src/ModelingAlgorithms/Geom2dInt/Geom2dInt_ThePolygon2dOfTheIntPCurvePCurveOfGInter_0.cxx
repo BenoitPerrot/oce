@@ -10,7 +10,7 @@
 #include <Geom2dInt_Geom2dCurveTool.hxx>
 #include <IntRes2d_Domain.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
  
 
 #define TheCurve Adaptor2d_Curve2d

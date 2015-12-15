@@ -92,7 +92,7 @@ private:
 };
 
 #define Item gp_Dir2d
-#define Item_hxx <gp_Dir2d.hxx>
+#define Item_hxx <Mathematics/Primitives/gp_Dir2d.hxx>
 #define TheSequence TColgp_SequenceOfDir2d
 #define TheSequence_hxx <Mathematics/Collections/TColgp_SequenceOfDir2d.hxx>
 #define TCollection_HSequence TColgp_HSequenceOfDir2d

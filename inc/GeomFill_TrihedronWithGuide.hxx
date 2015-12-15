@@ -11,7 +11,7 @@
 #include <Handle_GeomFill_TrihedronWithGuide.hxx>
 
 #include <Handle_Adaptor3d_HCurve.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <GeomFill_TrihedronLaw.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class Adaptor3d_HCurve;

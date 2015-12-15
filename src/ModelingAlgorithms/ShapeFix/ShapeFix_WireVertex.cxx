@@ -27,7 +27,7 @@
 
 #include <ShapeAnalysis_Edge.hxx>
 
-#include <gp_Pnt.hxx> //ied_modif_for_compil_Nov-19-1998
+#include <Mathematics/Primitives/gp_Pnt.hxx> //ied_modif_for_compil_Nov-19-1998
 
 //=======================================================================
 //function : ShapeFix_WireVertex

@@ -27,7 +27,7 @@
 #include <BRepClass3d_SolidClassifier.hxx>
 #include <TopoDS_Shell.hxx>
 #include <TopoDS_Solid.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Precision.hxx>
 #include <Geom_Curve.hxx>
 #include <Geom_Surface.hxx>

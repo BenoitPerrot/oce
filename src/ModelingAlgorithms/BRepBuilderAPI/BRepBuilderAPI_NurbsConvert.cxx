@@ -24,7 +24,7 @@
 #include <TopExp_Explorer.hxx>
 #include <BRep_Builder.hxx>
 #include <BRepTools_NurbsConvertModification.hxx>
-//#include <gp.hxx>
+//#include <Mathematics/Primitives/gp.hxx>
 
 
 //=======================================================================

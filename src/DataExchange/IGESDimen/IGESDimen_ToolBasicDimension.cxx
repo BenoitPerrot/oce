@@ -30,8 +30,8 @@
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <IGESDimen_ToolBasicDimension.hxx>
 #include <IGESData_ParamCursor.hxx>
-#include <gp_XY.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_XY.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <IGESData_Dump.hxx>
 
 

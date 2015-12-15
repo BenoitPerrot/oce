@@ -21,7 +21,7 @@
 #include <TopoDS_Shape.hxx>
 #include <BRepOffsetAPI_MakeEvolved.hxx>
 
-#include <gp_Ax3.hxx>
+#include <Mathematics/Primitives/gp_Ax3.hxx>
 #include <BRepFill.hxx>
 
 //=======================================================================

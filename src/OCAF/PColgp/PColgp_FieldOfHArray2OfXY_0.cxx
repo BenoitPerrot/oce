@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_NullObject.hxx>
-#include <gp_XY.hxx>
+#include <Mathematics/Primitives/gp_XY.hxx>
 #include <PColgp_VArrayNodeOfFieldOfHArray2OfXY.hxx>
 #include <PColgp_VArrayTNodeOfFieldOfHArray2OfXY.hxx>
 
@@ -25,7 +25,7 @@ IMPLEMENT_STANDARD_TYPE_END(PColgp_FieldOfHArray2OfXY)
  
 
 #define Item gp_XY
-#define Item_hxx <gp_XY.hxx>
+#define Item_hxx <Mathematics/Primitives/gp_XY.hxx>
 #define DBC_VArrayNode PColgp_VArrayNodeOfFieldOfHArray2OfXY
 #define DBC_VArrayNode_hxx <PColgp_VArrayNodeOfFieldOfHArray2OfXY.hxx>
 #define DBC_VArrayTNode PColgp_VArrayTNodeOfFieldOfHArray2OfXY

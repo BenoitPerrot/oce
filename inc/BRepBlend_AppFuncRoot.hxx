@@ -14,7 +14,7 @@
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>
 #include <Blend_Point.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Approx_SweepFunction.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

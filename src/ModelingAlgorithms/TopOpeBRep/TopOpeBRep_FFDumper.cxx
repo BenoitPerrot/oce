@@ -40,8 +40,8 @@ IMPLEMENT_STANDARD_RTTI(TopOpeBRep_FFDumper)
 #include <TopOpeBRepTool_ShapeTool.hxx>
 #include <BRep_Tool.hxx>
 #include <TopOpeBRep_FFTransitionTool.hxx>
-#include <gp_Dir.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <TopOpeBRep_FacesFiller.hxx>
 #include <TopOpeBRep_define.hxx>
 #include <IntPatch_GLine.hxx>

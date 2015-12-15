@@ -43,7 +43,7 @@
 #include <TopoDS_Vertex.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopTools_DataMapOfShapeInteger.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <TopoDS_Face.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TopOpeBRepBuild_Builder.hxx>
@@ -55,7 +55,7 @@
 #include <TopoDS.hxx>
 #include <GeomAPI_ProjectPointOnCurve.hxx>
 #include <BRep_Tool.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <TopExp.hxx>
 #include <Geom_Curve.hxx>
 #include <Geom2d_TrimmedCurve.hxx>

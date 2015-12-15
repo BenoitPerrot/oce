@@ -18,7 +18,7 @@
 // Add methods for supporting history.
 
 #include <TopoDS_Shape.hxx>
-#include <gp_Ax1.hxx>
+#include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <BRepSweep_Revol.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <BRepPrimAPI_MakeRevol.hxx>

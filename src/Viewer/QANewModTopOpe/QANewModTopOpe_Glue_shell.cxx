@@ -18,7 +18,7 @@
 #include <TopTools_DataMapOfShapeListOfShape.hxx>
 #include <TopoDS_Face.hxx>
 #include <TopTools_MapOfShape.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>

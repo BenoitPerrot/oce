@@ -25,7 +25,7 @@
 #include <Foundation/OSD/OSD_Timer.hxx>
 
 #include <Draw_Window.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 
 #include <Foundation/Standard/Standard_Stream.hxx>
 #include <Foundation/Standard/Standard_Version.hxx>

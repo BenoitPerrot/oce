@@ -100,7 +100,7 @@ private:
 };
 
 #define Array2Item gp_Lin2d
-#define Array2Item_hxx <gp_Lin2d.hxx>
+#define Array2Item_hxx <Mathematics/Primitives/gp_Lin2d.hxx>
 #define TCollection_Array2 TColgp_Array2OfLin2d
 #define TCollection_Array2_hxx <Mathematics/Collections/TColgp_Array2OfLin2d.hxx>
 

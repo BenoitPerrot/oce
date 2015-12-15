@@ -14,13 +14,13 @@
 //		       --------------------------
 //			    IGESData_Dump.hxx
 //		       --------------------------
-#include <gp_XY.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_XYZ.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Dir.hxx>
-#include <gp_GTrsf.hxx>
+#include <Mathematics/Primitives/gp_XY.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_GTrsf.hxx>
 #include <Interface_MSG.hxx>
 
 //  ###############################################################

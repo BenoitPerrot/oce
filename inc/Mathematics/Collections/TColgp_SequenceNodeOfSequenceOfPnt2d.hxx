@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TColgp_SequenceNodeOfSequenceOfPnt2d.hxx>
 
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>
 #include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class gp_Pnt2d;
@@ -47,7 +47,7 @@ private:
 };
 
 #define SeqItem gp_Pnt2d
-#define SeqItem_hxx <gp_Pnt2d.hxx>
+#define SeqItem_hxx <Mathematics/Primitives/gp_Pnt2d.hxx>
 #define TCollection_SequenceNode TColgp_SequenceNodeOfSequenceOfPnt2d
 #define TCollection_SequenceNode_hxx <Mathematics/Collections/TColgp_SequenceNodeOfSequenceOfPnt2d.hxx>
 #define Handle_TCollection_SequenceNode Handle_TColgp_SequenceNodeOfSequenceOfPnt2d

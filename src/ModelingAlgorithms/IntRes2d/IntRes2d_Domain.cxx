@@ -19,7 +19,7 @@
 //  --- arithmetic operation on them safe 
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <IntRes2d_Domain.hxx>
 #include <Precision.hxx>
 

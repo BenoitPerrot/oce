@@ -19,8 +19,8 @@
 #include <IGESDimen_GeneralNote.hxx>
 #include <IGESDimen_HArray1OfLeaderArrow.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <gp_XYZ.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <IGESDimen_LeaderArrow.hxx>
 #include <IGESDimen_FlagNote.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_TYPE_END(IGESDimen_FlagNote)
 IMPLEMENT_DOWNCAST(IGESDimen_FlagNote,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESDimen_FlagNote)
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
-#include <gp_GTrsf.hxx>
+#include <Mathematics/Primitives/gp_GTrsf.hxx>
 
 
 IGESDimen_FlagNote::IGESDimen_FlagNote ()    {  }

@@ -18,7 +18,7 @@
 #include <Geom2dAdaptor_Curve.hxx>
 #include <HatchGen_PointOnHatching.hxx>
 #include <HatchGen_Domain.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Geom2dHatch_Hatching.hxx>
 
 #include <HatchGen_PointOnElement.hxx>

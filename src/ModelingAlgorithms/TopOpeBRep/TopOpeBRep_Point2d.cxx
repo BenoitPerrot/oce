@@ -24,8 +24,8 @@
 #include <IntRes2d_IntersectionPoint.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <TopOpeBRepDS_Transition.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <TopOpeBRep_Point2d.hxx>
 #include <TopOpeBRep_define.hxx>
 #include <TopOpeBRepDS.hxx>

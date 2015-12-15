@@ -20,7 +20,7 @@
 #include <StepGeom_TrimmedCurve.hxx>
 #include <Geom2d_BSplineCurve.hxx>
 #include <StepToGeom_MakeTrimmedCurve2d.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Geom2dConvert.hxx>
 #include <Geom2d_CartesianPoint.hxx>
 #include <Geom2d_Curve.hxx>

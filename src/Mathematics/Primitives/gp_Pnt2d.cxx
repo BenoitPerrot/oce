@@ -17,11 +17,11 @@
 #define No_Standard_OutOfRange
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <gp_XY.hxx>
-#include <gp_Ax2d.hxx>
-#include <gp_Trsf2d.hxx>
-#include <gp_Vec2d.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_XY.hxx>
+#include <Mathematics/Primitives/gp_Ax2d.hxx>
+#include <Mathematics/Primitives/gp_Trsf2d.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(gp_Pnt2d)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

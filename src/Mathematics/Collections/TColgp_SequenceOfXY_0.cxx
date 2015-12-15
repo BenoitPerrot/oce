@@ -7,12 +7,12 @@
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <gp_XY.hxx>
+#include <Mathematics/Primitives/gp_XY.hxx>
 #include <Mathematics/Collections/TColgp_SequenceNodeOfSequenceOfXY.hxx>
  
 
 #define SeqItem gp_XY
-#define SeqItem_hxx <gp_XY.hxx>
+#define SeqItem_hxx <Mathematics/Primitives/gp_XY.hxx>
 #define TCollection_SequenceNode TColgp_SequenceNodeOfSequenceOfXY
 #define TCollection_SequenceNode_hxx <Mathematics/Collections/TColgp_SequenceNodeOfSequenceOfXY.hxx>
 #define Handle_TCollection_SequenceNode Handle_TColgp_SequenceNodeOfSequenceOfXY

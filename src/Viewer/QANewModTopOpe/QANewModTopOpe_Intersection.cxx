@@ -25,7 +25,7 @@
 #include <BRepExtrema_DistShapeShape.hxx>
 #include <BRepLib_MakeVertex.hxx>
 #include <TopoDS_Vertex.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <BRepAlgo_EdgeConnector.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <TopoDS_Iterator.hxx>

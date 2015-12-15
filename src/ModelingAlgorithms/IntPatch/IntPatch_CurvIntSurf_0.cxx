@@ -13,7 +13,7 @@
 #include <IntPatch_HCurve2dTool.hxx>
 #include <IntPatch_CSFunction.hxx>
 #include <Mathematics/Optimization/math_FunctionSetRoot.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
  
 
 #define ThePSurface Handle(Adaptor3d_HSurface)

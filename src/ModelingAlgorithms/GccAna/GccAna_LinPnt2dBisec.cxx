@@ -21,18 +21,18 @@
 #include <GccInt_Bisec.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <gp_Lin2d.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Lin2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <GccAna_LinPnt2dBisec.hxx>
 
-#include <gp_XY.hxx>
-#include <gp_Dir2d.hxx>
-#include <gp_Ax2d.hxx>
+#include <Mathematics/Primitives/gp_XY.hxx>
+#include <Mathematics/Primitives/gp_Dir2d.hxx>
+#include <Mathematics/Primitives/gp_Ax2d.hxx>
 #include <GccInt_BParab.hxx>
 #include <GccInt_BLine.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <gp.hxx>
+#include <Mathematics/Primitives/gp.hxx>
 
 //=========================================================================
 

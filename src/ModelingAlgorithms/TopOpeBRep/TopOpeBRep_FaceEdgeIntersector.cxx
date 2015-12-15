@@ -15,8 +15,8 @@
 // commercial license or contractual agreement.
 
 #include <TopoDS_Shape.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <TopOpeBRepDS_Transition.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <TopOpeBRep_FaceEdgeIntersector.hxx>

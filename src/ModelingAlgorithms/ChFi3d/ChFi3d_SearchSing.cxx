@@ -17,8 +17,8 @@
 #include <Geom_Curve.hxx>
 #include <ChFi3d_SearchSing.hxx>
 
-#include <gp_Pnt.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 
 ChFi3d_SearchSing::ChFi3d_SearchSing(const Handle(Geom_Curve)& C1,
 				     const Handle(Geom_Curve)& C2)

@@ -5,11 +5,11 @@
 
 #include <Mathematics/BoundingVolumes/Bnd_B3f.hxx>
 
-#include <gp_XYZ.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Trsf.hxx>
-#include <gp_Ax1.hxx>
-#include <gp_Ax3.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Ax1.hxx>
+#include <Mathematics/Primitives/gp_Ax3.hxx>
  
 
 #define RealType Standard_ShortReal

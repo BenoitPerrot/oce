@@ -48,9 +48,9 @@ IMPLEMENT_STANDARD_RTTI(LocOpe_WiresOnShape)
 #include <Geom_RectangularTrimmedSurface.hxx>
 #include <Geom2d_Curve.hxx>
 
-#include <gp_Pnt2d.hxx>
-#include <gp_Vec2d.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 
 #include <TopoDS.hxx>
 #include <TopExp.hxx>

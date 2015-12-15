@@ -31,7 +31,7 @@ IMPLEMENT_DOWNCAST(DrawTrSurf_BezierCurve2d,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(DrawTrSurf_BezierCurve2d)
 
 #include <Geom2d_BezierCurve.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 

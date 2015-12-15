@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESAppli_Node.hxx>
 
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Handle_IGESGeom_TransformationMatrix.hxx>
 #include <IGESData_IGESEntity.hxx>
 #include <Handle_IGESData_TransfEntity.hxx>

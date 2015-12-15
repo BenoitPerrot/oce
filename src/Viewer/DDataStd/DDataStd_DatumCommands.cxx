@@ -37,11 +37,11 @@
 #include <Geom_Line.hxx>
 #include <Geom_Plane.hxx>
 
-#include <gp_Pnt.hxx>
-#include <gp_Lin.hxx>
-#include <gp_Pln.hxx>
-#include <gp_Dir.hxx>
-#include <gp_Ax3.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Ax3.hxx>
 
 #include <TDataXtd_Geometry.hxx>
 #include <TDataXtd_Point.hxx>

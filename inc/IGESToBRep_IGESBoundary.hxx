@@ -14,7 +14,7 @@
 #include <Handle_IGESData_IGESEntity.hxx>
 #include <Handle_ShapeExtend_WireData.hxx>
 #include <TopoDS_Face.hxx>
-#include <gp_Trsf2d.hxx>
+#include <Mathematics/Primitives/gp_Trsf2d.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

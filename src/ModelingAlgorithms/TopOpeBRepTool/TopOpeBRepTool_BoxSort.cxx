@@ -32,7 +32,7 @@
 #include <GeomAdaptor_Surface.hxx>
 #include <Geom_Surface.hxx>
 #include <GeomAbs_SurfaceType.hxx>
-#include <gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
 #include <TopOpeBRepTool_box.hxx>
 #include <TopOpeBRepTool_define.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>

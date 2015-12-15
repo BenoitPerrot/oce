@@ -44,7 +44,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_Shape)
 
 #include <Foundation/Quantity/Quantity_Color.hxx>
 
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BRep_Builder.hxx>
 #include <BRepTools_ShapeSet.hxx>

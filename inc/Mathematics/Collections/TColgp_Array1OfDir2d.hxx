@@ -92,7 +92,7 @@ private:
 };
 
 #define Array1Item gp_Dir2d
-#define Array1Item_hxx <gp_Dir2d.hxx>
+#define Array1Item_hxx <Mathematics/Primitives/gp_Dir2d.hxx>
 #define TCollection_Array1 TColgp_Array1OfDir2d
 #define TCollection_Array1_hxx <Mathematics/Collections/TColgp_Array1OfDir2d.hxx>
 

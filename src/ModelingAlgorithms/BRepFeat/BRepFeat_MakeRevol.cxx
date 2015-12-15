@@ -18,7 +18,7 @@
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Face.hxx>
-#include <gp_Ax1.hxx>
+#include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TColGeom_SequenceOfCurve.hxx>
 #include <BRepFeat_MakeRevol.hxx>
@@ -33,10 +33,10 @@
 #include <LocOpe_CSIntersector.hxx>
 #include <LocOpe_PntFace.hxx>
 
-#include <gp_Vec.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Ax1.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Ax1.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <Geom_Surface.hxx>
 #include <Geom_Curve.hxx>
@@ -68,7 +68,7 @@
 #include <TopoDS_Compound.hxx>
 #include <TopoDS_Shell.hxx>
 
-#include <gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Geom_Plane.hxx>
 
 

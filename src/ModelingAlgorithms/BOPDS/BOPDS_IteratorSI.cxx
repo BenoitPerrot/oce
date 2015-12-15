@@ -15,7 +15,7 @@
 #include <BOPDS_IteratorSI.hxx>
 
 #include <TopAbs_ShapeEnum.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 //
 #include <TopoDS_Shape.hxx>

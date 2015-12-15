@@ -63,16 +63,16 @@
 #include <Geom2d_Parabola.hxx>
 #include <Geom2d_TrimmedCurve.hxx>
 
-#include <gp_Ax2.hxx>
-#include <gp_Ax2d.hxx>
-#include <gp_Dir.hxx>
-#include <gp_Dir2d.hxx>
-#include <gp_GTrsf.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Trsf.hxx>
-#include <gp_XY.hxx>
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_Ax2.hxx>
+#include <Mathematics/Primitives/gp_Ax2d.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Dir2d.hxx>
+#include <Mathematics/Primitives/gp_GTrsf.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_XY.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
 
 
 #include <IGESData_IGESEntity.hxx>
@@ -110,7 +110,7 @@
 // S3767
 #include <Foundation/Message/Message_Msg.hxx>  
 #include <ShapeConstruct_Curve.hxx>
-#include <gp_Hypr.hxx>
+#include <Mathematics/Primitives/gp_Hypr.hxx>
 
 //=======================================================================
 //function : CheckBSplineCurve

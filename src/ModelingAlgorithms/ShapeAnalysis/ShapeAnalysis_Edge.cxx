@@ -23,10 +23,10 @@
 #include <Geom_Surface.hxx>
 #include <TopLoc_Location.hxx>
 #include <Geom2d_Curve.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <TopoDS_Vertex.hxx>
-#include <gp_Vec2d.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Adaptor3d_Curve.hxx>
 #include <ShapeAnalysis_Edge.hxx>
 

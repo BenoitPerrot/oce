@@ -16,7 +16,7 @@
 
 #include <BRepFill_LocationLaw.hxx>
 #include <TopoDS_Shape.hxx>
-#include <gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <BRepFill_SectionPlacement.hxx>
 
 #include <TopExp_Explorer.hxx>

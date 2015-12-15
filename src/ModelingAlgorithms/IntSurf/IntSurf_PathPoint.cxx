@@ -15,9 +15,9 @@
 #include <Mathematics/Collections/TColgp_HSequenceOfXY.hxx>
 #include <Foundation/StdFail/StdFail_UndefinedDerivative.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Dir2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <IntSurf_PathPoint.hxx>
 
 

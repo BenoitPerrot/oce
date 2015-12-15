@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <TDataXtd_Array1OfTrsf.hxx>
 
  
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(TDataXtd_HArray1OfTrsf)
 
 
 #define ItemHArray1 gp_Trsf
-#define ItemHArray1_hxx <gp_Trsf.hxx>
+#define ItemHArray1_hxx <Mathematics/Primitives/gp_Trsf.hxx>
 #define TheArray1 TDataXtd_Array1OfTrsf
 #define TheArray1_hxx <TDataXtd_Array1OfTrsf.hxx>
 #define TCollection_HArray1 TDataXtd_HArray1OfTrsf

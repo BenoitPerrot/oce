@@ -13,7 +13,7 @@
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Handle_PColgp_HSequenceOfVec.hxx>
 #include <Handle_PColgp_SeqNodeOfHSequenceOfVec.hxx>
 #include <Foundation/Standard/Standard_Persistent.hxx>

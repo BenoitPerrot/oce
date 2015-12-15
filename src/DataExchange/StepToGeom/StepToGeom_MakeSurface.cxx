@@ -47,7 +47,7 @@
 #include <ShapeAlgo_AlgoContainer.hxx>
 #include <TopoDS.hxx>
 #include <BRep_Tool.hxx>  
-#include <gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Precision.hxx>
 
 //=============================================================================

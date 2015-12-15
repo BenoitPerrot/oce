@@ -17,8 +17,8 @@
 
 #include <stdio.h>
 
-#include <gp_Pnt2d.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 
 #include <TopoDS.hxx>
 #include <TopoDS_Shape.hxx>

@@ -18,8 +18,8 @@
 #include <Foundation/Standard/Standard_TypeMismatch.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <TopoDS_Edge.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <ChFiDS_CommonPoint.hxx>
 
 //=======================================================================

@@ -37,9 +37,9 @@
 
 #include <Precision.hxx>
 #include <Law_Interpol.hxx>
-#include <gp_Ax1.hxx>
-#include <gp_Ax2.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Ax1.hxx>
+#include <Mathematics/Primitives/gp_Ax2.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 
 static BRepOffsetAPI_MakePipeShell* Sweep= 0;
@@ -52,11 +52,11 @@ static BRepOffsetAPI_MakePipeShell* Sweep= 0;
 #include <Geom_Surface.hxx>
 #include <BRepLib_MakeFace.hxx>
 #include <BRep_Tool.hxx>
-#include <gp_Pnt.hxx>
-//#endi#include <gp_Vec.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+//#endi#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Geom_Circle.hxx>
-#include <gp_Ax2.hxx>
+#include <Mathematics/Primitives/gp_Ax2.hxx>
 
 
 //=======================================================================

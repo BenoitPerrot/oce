@@ -23,7 +23,7 @@
 #include <TopoDS_Compound.hxx>
 #include <BRep_Builder.hxx>
 
-#include <gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
 
 #include <TDF_Tool.hxx>
 #include <TDF_Label.hxx>

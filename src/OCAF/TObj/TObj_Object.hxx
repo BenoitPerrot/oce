@@ -25,7 +25,7 @@
 #include <Handle_TObj_Object.hxx>
 
 #include <TDF_Label.hxx>
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
 
 class TObj_Persistence;
 class Handle(TObj_ObjectIterator);

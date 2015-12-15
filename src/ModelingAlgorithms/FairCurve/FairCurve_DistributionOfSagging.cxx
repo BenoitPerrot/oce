@@ -24,8 +24,8 @@
 #include <FairCurve_DistributionOfSagging.hxx>
 
 
-#include <gp_XY.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_XY.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>

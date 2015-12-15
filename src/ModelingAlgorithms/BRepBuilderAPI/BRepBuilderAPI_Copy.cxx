@@ -23,7 +23,7 @@
 #include <BRepTools_Modification.hxx>
 #include <BRep_Tool.hxx>
 #include <TopoDS_Vertex.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 
 //! Tool class implementing necessary functionality for copying geometry
 class BRepBuilderAPI_Copy_Modification : public BRepTools_Modification 

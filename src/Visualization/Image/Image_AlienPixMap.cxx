@@ -18,7 +18,7 @@
 #endif
 
 #include <Image_AlienPixMap.hxx>
-#include <gp.hxx>
+#include <Mathematics/Primitives/gp.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/OSD/OSD_OpenFile.hxx>

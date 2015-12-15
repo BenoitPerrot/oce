@@ -25,7 +25,7 @@
 #include <AIS_Drawer.hxx>
 #include <TopoDS_Edge.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <AIS_EqualDistanceRelation.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -44,7 +44,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_EqualDistanceRelation)
 
 #include <DsgPrs_EqualDistancePresentation.hxx>
 #include <AIS_LengthDimension.hxx>
-#include <gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
 #include <DsgPrs_EqualDistancePresentation.hxx>
 #include <SelectMgr_EntityOwner.hxx>
 #include <Select3D_SensitiveSegment.hxx>

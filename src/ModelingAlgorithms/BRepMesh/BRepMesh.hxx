@@ -14,9 +14,9 @@
 #ifndef _BRepMesh_HeaderFile
 #define _BRepMesh_HeaderFile
 
-#include <gp_Pnt.hxx>
-#include <gp_XYZ.hxx>
-#include <gp_XY.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_XY.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_B2d.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Foundation/Standard/Standard.hxx>

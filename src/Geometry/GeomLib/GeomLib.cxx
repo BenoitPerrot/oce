@@ -44,23 +44,23 @@
 // Declarations:	
 
 #include <Geom_Curve.hxx>
-#include <gp_Ax2.hxx>
+#include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <Geom2d_Curve.hxx>
-#include <gp_GTrsf2d.hxx>
+#include <Mathematics/Primitives/gp_GTrsf2d.hxx>
 #include <Adaptor3d_CurveOnSurface.hxx>
 #include <Geom_BoundedCurve.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Geom_BoundedSurface.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
-#include <gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <Adaptor3d_Curve.hxx>
 #include <Geom_BSplineSurface.hxx>
 #include <Geom_Surface.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <GeomLib.hxx>
 
 #include <Precision.hxx>
@@ -131,19 +131,19 @@
 #include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 
-#include <gp_TrsfForm.hxx>
-#include <gp_Lin.hxx>
-#include <gp_Lin2d.hxx>
-#include <gp_Circ.hxx>
-#include <gp_Circ2d.hxx>
-#include <gp_Elips.hxx>
-#include <gp_Elips2d.hxx>
-#include <gp_Hypr.hxx>
-#include <gp_Hypr2d.hxx>
-#include <gp_Parab.hxx>
-#include <gp_Parab2d.hxx>
-#include <gp_GTrsf2d.hxx>
-#include <gp_Trsf2d.hxx>
+#include <Mathematics/Primitives/gp_TrsfForm.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Lin2d.hxx>
+#include <Mathematics/Primitives/gp_Circ.hxx>
+#include <Mathematics/Primitives/gp_Circ2d.hxx>
+#include <Mathematics/Primitives/gp_Elips.hxx>
+#include <Mathematics/Primitives/gp_Elips2d.hxx>
+#include <Mathematics/Primitives/gp_Hypr.hxx>
+#include <Mathematics/Primitives/gp_Hypr2d.hxx>
+#include <Mathematics/Primitives/gp_Parab.hxx>
+#include <Mathematics/Primitives/gp_Parab2d.hxx>
+#include <Mathematics/Primitives/gp_GTrsf2d.hxx>
+#include <Mathematics/Primitives/gp_Trsf2d.hxx>
 
 #include <ElCLib.hxx>
 #include <Geom2dConvert.hxx>

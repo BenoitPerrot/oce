@@ -43,8 +43,8 @@
 #include <BRepAdaptor_HSurface.hxx>
 #include <GeomAdaptor_HCurve.hxx>
 #include <GeomAbs_SurfaceType.hxx>
-#include <gp_Pln.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <ElSLib.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
@@ -52,14 +52,14 @@
 
 #include <GeomTools_Curve2dSet.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>
-#include <gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
 #include <gce_MakeLin.hxx>
-#include <gp_Lin2d.hxx>
+#include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <gce_MakeLin2d.hxx>
 #include <BRepTools.hxx>
 #include <Precision.hxx>
 #include <gce_MakeCirc.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 //#include <Approx.hxx>
 #include <Geom_Surface.hxx>
 #include <TopLoc_Location.hxx>

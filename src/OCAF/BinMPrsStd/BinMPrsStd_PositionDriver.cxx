@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(BinMPrsStd_PositionDriver)
 IMPLEMENT_DOWNCAST(BinMPrsStd_PositionDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinMPrsStd_PositionDriver)
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <TDataXtd_Position.hxx>
 #include <CDM_MessageDriver.hxx>
 

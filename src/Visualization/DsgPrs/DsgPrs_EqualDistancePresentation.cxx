@@ -16,10 +16,10 @@
 
 #include <Prs3d_Presentation.hxx>
 #include <Prs3d_Drawer.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geom_Plane.hxx>
-#include <gp_Dir.hxx>
-#include <gp_Circ.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Circ.hxx>
 #include <DsgPrs_EqualDistancePresentation.hxx>
 
 #include <DsgPrs.hxx>
@@ -29,13 +29,13 @@
 #include <Graphic3d_ArrayOfSegments.hxx>
 #include <Graphic3d_ArrayOfPolylines.hxx>
 #include <Prs3d_Root.hxx>
-#include <gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
 #include <gce_MakeDir.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Precision.hxx>
 #include <ElCLib.hxx>
-#include <gp_Circ.hxx>
+#include <Mathematics/Primitives/gp_Circ.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Prs3d_Text.hxx>
 

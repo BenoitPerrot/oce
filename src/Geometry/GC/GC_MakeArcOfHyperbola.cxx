@@ -16,8 +16,8 @@
 
 #include <Geom_TrimmedCurve.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <gp_Hypr.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Hypr.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <GC_MakeArcOfHyperbola.hxx>
 #include <Geom_Hyperbola.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>

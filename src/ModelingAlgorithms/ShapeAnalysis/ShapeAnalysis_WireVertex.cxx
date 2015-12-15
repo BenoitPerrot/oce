@@ -17,7 +17,7 @@
 #include <Mathematics/Collections/TColgp_HArray1OfXYZ.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <TopoDS_Wire.hxx>
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <ShapeAnalysis_WireVertex.hxx>
 
 #include <BRep_Tool.hxx>
@@ -31,7 +31,7 @@
 #include <ShapeAnalysis_Curve.hxx>
 #include <ShapeAnalysis_Edge.hxx>
 
-#include <gp_Pnt.hxx> //ied_modif_for_compil_Nov-19-1998
+#include <Mathematics/Primitives/gp_Pnt.hxx> //ied_modif_for_compil_Nov-19-1998
 
 //=======================================================================
 //function : ShapeAnalysis_WireVertex

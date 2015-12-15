@@ -10,8 +10,8 @@
 #include <Adaptor3d_Curve.hxx>
 #include <Extrema_CurveTool.hxx>
 #include <Extrema_ExtPElC.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Extrema_POnCurv.hxx>
 #include <Extrema_SequenceOfPOnCurv.hxx>
 #include <Extrema_ELPCOfLocateExtPC.hxx>
@@ -27,9 +27,9 @@
 #define TheExtPElC Extrema_ExtPElC
 #define TheExtPElC_hxx <Extrema_ExtPElC.hxx>
 #define ThePoint gp_Pnt
-#define ThePoint_hxx <gp_Pnt.hxx>
+#define ThePoint_hxx <Mathematics/Primitives/gp_Pnt.hxx>
 #define TheVector gp_Vec
-#define TheVector_hxx <gp_Vec.hxx>
+#define TheVector_hxx <Mathematics/Primitives/gp_Vec.hxx>
 #define ThePOnC Extrema_POnCurv
 #define ThePOnC_hxx <Extrema_POnCurv.hxx>
 #define TheSequenceOfPOnC Extrema_SequenceOfPOnCurv

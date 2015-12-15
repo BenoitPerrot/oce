@@ -17,8 +17,8 @@
 #define __IVTK_IVIEW_H__
 
 #include <IVtk_Interface.hxx>
-#include <gp_XY.hxx>
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_XY.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
 
 DEFINE_STANDARD_HANDLE( IVtk_IView, IVtk_Interface )
 

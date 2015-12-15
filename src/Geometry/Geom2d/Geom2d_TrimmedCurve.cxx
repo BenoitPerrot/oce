@@ -20,9 +20,9 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Geom2d_UndefinedDerivative.hxx>
 #include <Geom2d_UndefinedValue.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Vec2d.hxx>
-#include <gp_Trsf2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_Trsf2d.hxx>
 #include <Geom2d_Geometry.hxx>
 #include <Geom2d_TrimmedCurve.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -37,7 +37,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(Geom2d_TrimmedCurve)
 IMPLEMENT_DOWNCAST(Geom2d_TrimmedCurve,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Geom2d_TrimmedCurve)
-#include <gp.hxx>
+#include <Mathematics/Primitives/gp.hxx>
 #include <Geom2d_Geometry.hxx>
 #include <Geom2d_BSplineCurve.hxx>
 #include <Geom2d_BezierCurve.hxx>

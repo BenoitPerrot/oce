@@ -54,9 +54,9 @@
 #include <Precision.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 
-#include <gp_Pnt.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Dir2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 
 #include <GeomAbs_Shape.hxx>

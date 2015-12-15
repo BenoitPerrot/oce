@@ -26,8 +26,8 @@
 #include <Image_PixMap.hxx>
 #include <Image_Color.hxx>
 
-#include <gp_Pnt2d.hxx>
-#include <gp_Ax1.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <GCE2d_MakeSegment.hxx>
 #include <Geom2d_TrimmedCurve.hxx>
 #include <DrawTrSurf.hxx>
@@ -514,8 +514,8 @@ static Standard_Integer OCC23683 (Draw_Interpretor& di, Standard_Integer argc,co
   return 0;
 }
 
-#include <gp_Ax1.hxx>
-#include <gp_Ax22d.hxx>
+#include <Mathematics/Primitives/gp_Ax1.hxx>
+#include <Mathematics/Primitives/gp_Ax22d.hxx>
 #include <Geom_Plane.hxx>
 #include <Geom2d_Circle.hxx>
 #include <Geom2d_TrimmedCurve.hxx>
@@ -1384,7 +1384,7 @@ static Standard_Integer OCC24086 (Draw_Interpretor& di, Standard_Integer argc, c
 #include <Geom_Circle.hxx>
 #include <GeomAdaptor_Curve.hxx>
 #include <Extrema_ExtPC.hxx>
-#include <gp_Cylinder.hxx>
+#include <Mathematics/Primitives/gp_Cylinder.hxx>
 #include <ElSLib.hxx>
 static Standard_Integer OCC24945 (Draw_Interpretor& di, Standard_Integer argc, const char ** argv)
 {

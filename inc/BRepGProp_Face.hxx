@@ -14,7 +14,7 @@
 #include <Geom2dAdaptor_Curve.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <GeomAbs_IsoType.hxx>
 #include <Handle_TColStd_HArray1OfReal.hxx>

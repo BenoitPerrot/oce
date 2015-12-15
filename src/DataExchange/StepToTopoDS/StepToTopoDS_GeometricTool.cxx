@@ -46,7 +46,7 @@
 #include <BRep_Builder.hxx>
 #include <ElCLib.hxx>
 #include <ElSLib.hxx>
-#include <gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <GeomAdaptor_Curve.hxx>
 #include <GeomAPI_ProjectPointOnCurve.hxx>
 #include <GeomAPI_ProjectPointOnSurf.hxx>

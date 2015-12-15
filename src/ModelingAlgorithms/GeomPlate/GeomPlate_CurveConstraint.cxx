@@ -26,8 +26,8 @@
 #include <Law_Function.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <GeomLProp_SLProps.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <GeomPlate_CurveConstraint.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(GeomPlate_CurveConstraint)

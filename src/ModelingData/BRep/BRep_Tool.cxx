@@ -27,8 +27,8 @@
 #include <Geom2d_Curve.hxx>
 #include <Mathematics/Polyhedral/Poly_Polygon2D.hxx>
 #include <Mathematics/Polyhedral/Poly_PolygonOnTriangulation.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <BRep_Tool.hxx>
 #include <BRep_TFace.hxx>

@@ -25,8 +25,8 @@
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <BRepTools.hxx>
 #include <BRep_Tool.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <TopExp_Explorer.hxx>
 #include <TopLoc_Location.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>

@@ -28,9 +28,9 @@
 #include <Geom2d_Line.hxx>
 #include <Geom2d_Vector.hxx>
 #include <Geom2d_VectorWithMagnitude.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Vec2d.hxx>
-#include <gp_Dir2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_Dir2d.hxx>
 
 //=============================================================================
 // Creation d' une Line de Geom2d a partir d' une Line de Step

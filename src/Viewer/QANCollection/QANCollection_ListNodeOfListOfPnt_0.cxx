@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <QANCollection_ListOfPnt.hxx>
 #include <QANCollection_ListIteratorOfListOfPnt.hxx>
 
@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_RTTI(QANCollection_ListNodeOfListOfPnt)
 
 
 #define Item gp_Pnt
-#define Item_hxx <gp_Pnt.hxx>
+#define Item_hxx <Mathematics/Primitives/gp_Pnt.hxx>
 #define TCollection_ListNode QANCollection_ListNodeOfListOfPnt
 #define TCollection_ListNode_hxx <QANCollection_ListNodeOfListOfPnt.hxx>
 #define TCollection_ListIterator QANCollection_ListIteratorOfListOfPnt

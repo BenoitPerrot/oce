@@ -16,7 +16,7 @@
 
 #include <Plate_GtoCConstraint.hxx>
 #include <Plate_FreeGtoCConstraint.hxx>
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Plate_D1.hxx>
 
 Plate_D1::Plate_D1(const gp_XYZ& du, const gp_XYZ& dv)

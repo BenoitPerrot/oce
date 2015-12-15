@@ -12,7 +12,7 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <PColgp_SeqExplorerOfHSequenceOfPnt.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
  
 
 
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(PColgp_HSequenceOfPnt)
 
 
 #define Item gp_Pnt
-#define Item_hxx <gp_Pnt.hxx>
+#define Item_hxx <Mathematics/Primitives/gp_Pnt.hxx>
 #define PCollection_SeqNode PColgp_SeqNodeOfHSequenceOfPnt
 #define PCollection_SeqNode_hxx <PColgp_SeqNodeOfHSequenceOfPnt.hxx>
 #define PCollection_SeqExplorer PColgp_SeqExplorerOfHSequenceOfPnt

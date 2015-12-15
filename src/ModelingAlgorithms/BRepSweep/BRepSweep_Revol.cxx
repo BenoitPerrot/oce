@@ -16,14 +16,14 @@
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <TopoDS_Shape.hxx>
-#include <gp_Ax1.hxx>
+#include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <Sweep_NumShape.hxx>
 #include <TopLoc_Location.hxx>
 #include <BRepSweep_Revol.hxx>
 #include <BRepSweep_Rotation.hxx>
 #include <Sweep_NumShape.hxx>
 
-#include <gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Precision.hxx>
 //=======================================================================
 //function : BRepSweep_Revol

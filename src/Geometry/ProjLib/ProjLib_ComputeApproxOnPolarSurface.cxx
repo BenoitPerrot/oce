@@ -21,7 +21,7 @@
 #include <Mathematics/Polynomial/PLib.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Geom_UndefinedDerivative.hxx>
-#include <gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Precision.hxx>
 #include <Approx_FitAndDivide2d.hxx>
 #include <Mathematics/Optimization/math.hxx>
@@ -64,9 +64,9 @@
 #include <GeomAdaptor_Surface.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 
-#include <gp_Pnt.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Extrema_GenLocateExtPS.hxx>
 #include <Extrema_ExtPS.hxx>
 #include <GCPnts_QuasiUniformAbscissa.hxx>

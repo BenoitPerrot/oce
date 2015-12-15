@@ -21,7 +21,7 @@
 #include <StepGeom_Axis2Placement3d.hxx>
 #include <StepToGeom_MakeAxis2Placement.hxx>
 #include <Geom_Axis2Placement.hxx>
-#include <gp_Ax2.hxx>
+#include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <Geom_ToroidalSurface.hxx>
 #include <UnitsMethods.hxx>
 

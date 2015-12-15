@@ -26,9 +26,9 @@
 #include <Geom_Curve.hxx>
 #include <Geom_Line.hxx>
 #include <StepToGeom_MakeCurve.hxx>
-#include <gp_Vec.hxx>
-#include <gp_Dir.hxx>
-#include <gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Precision.hxx>
 
 //=============================================================================

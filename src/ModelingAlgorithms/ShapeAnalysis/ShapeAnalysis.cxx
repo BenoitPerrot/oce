@@ -36,8 +36,8 @@
 #include <BRepTopAdaptor_FClass2d.hxx>
 #include <BRepGProp.hxx>
 
-#include <gp_Pnt2d.hxx>
-#include <gp_XY.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_XY.hxx>
 #include <Geom2d_Curve.hxx>
 #include <GProp_GProps.hxx>
 

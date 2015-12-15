@@ -9,7 +9,7 @@
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <gp_Ax2.hxx>
+#include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <GeomFill_SequenceOfAx2.hxx>
 
  
@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_HSequenceOfAx2)
 
 
 #define Item gp_Ax2
-#define Item_hxx <gp_Ax2.hxx>
+#define Item_hxx <Mathematics/Primitives/gp_Ax2.hxx>
 #define TheSequence GeomFill_SequenceOfAx2
 #define TheSequence_hxx <GeomFill_SequenceOfAx2.hxx>
 #define TCollection_HSequence GeomFill_HSequenceOfAx2

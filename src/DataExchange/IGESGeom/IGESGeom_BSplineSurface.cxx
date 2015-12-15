@@ -21,7 +21,7 @@
 #include <Mathematics/Collections/TColgp_HArray2OfXYZ.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <IGESGeom_BSplineSurface.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESGeom_BSplineSurface)
@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_TYPE_END(IGESGeom_BSplineSurface)
 IMPLEMENT_DOWNCAST(IGESGeom_BSplineSurface,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESGeom_BSplineSurface)
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <gp_GTrsf.hxx>
+#include <Mathematics/Primitives/gp_GTrsf.hxx>
 
 
 IGESGeom_BSplineSurface::IGESGeom_BSplineSurface ()    {  }

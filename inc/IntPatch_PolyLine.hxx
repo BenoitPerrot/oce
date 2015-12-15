@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <IntPatch_IType.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_IntPatch_WLine.hxx>

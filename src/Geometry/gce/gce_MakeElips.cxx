@@ -15,12 +15,12 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <gp_Ax2.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Elips.hxx>
+#include <Mathematics/Primitives/gp_Ax2.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Elips.hxx>
 #include <gce_MakeElips.hxx>
-#include <gp.hxx>
-#include <gp_Lin.hxx>
+#include <Mathematics/Primitives/gp.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 
 //=========================================================================

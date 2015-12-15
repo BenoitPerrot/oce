@@ -18,8 +18,8 @@
 #include <TopOpeBRepTool_TOOL.hxx>
 #include <TopOpeBRepTool_CORRISO.hxx>
 #include <TopOpeBRepTool_C2DF.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <GeomAdaptor_Surface.hxx>
 #include <Geom2d_Curve.hxx>
 #include <Geom2d_TrimmedCurve.hxx>

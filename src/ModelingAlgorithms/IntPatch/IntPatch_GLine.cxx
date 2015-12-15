@@ -16,11 +16,11 @@
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <gp_Lin.hxx>
-#include <gp_Circ.hxx>
-#include <gp_Elips.hxx>
-#include <gp_Parab.hxx>
-#include <gp_Hypr.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Circ.hxx>
+#include <Mathematics/Primitives/gp_Elips.hxx>
+#include <Mathematics/Primitives/gp_Parab.hxx>
+#include <Mathematics/Primitives/gp_Hypr.hxx>
 #include <IntPatch_Point.hxx>
 #include <IntPatch_GLine.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -42,7 +42,7 @@ IMPLEMENT_STANDARD_RTTI(IntPatch_GLine)
 //-- Precision::PConfusion()*1000.0  -> 1e-6
 //#define PrecisionPConfusion ( Precision::PConfusion()*1000.0 )
 
-#include <gp_Pln.hxx>
+#include <Mathematics/Primitives/gp_Pln.hxx>
 
 //=======================================================================
 //function : IntPatch_GLine

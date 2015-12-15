@@ -30,7 +30,7 @@
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <IGESDraw_ToolLabelDisplay.hxx>
 #include <IGESData_ParamCursor.hxx>
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <IGESData_IGESEntity.hxx>
 #include <IGESData_ViewKindEntity.hxx>
 #include <IGESDimen_LeaderArrow.hxx>

@@ -18,8 +18,8 @@
 
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <Foundation/NCollection/NCollection_Vector.hxx>
-#include <gp_XY.hxx>
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_XY.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Foundation/NCollection/NCollection_CellFilter.hxx>
 
 typedef NCollection_Vector<gp_XYZ> VectorOfPoint;

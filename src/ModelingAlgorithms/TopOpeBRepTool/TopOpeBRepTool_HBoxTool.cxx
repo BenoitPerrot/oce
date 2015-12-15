@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_RTTI(TopOpeBRepTool_HBoxTool)
 #include <TopExp_Explorer.hxx>
 #include <BRep_Tool.hxx>
 #include <TopoDS.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <BRepBndLib.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <TopOpeBRepTool_box.hxx>

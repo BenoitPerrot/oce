@@ -22,8 +22,8 @@
 #include <TopoDS_Face.hxx>
 #include <TopLoc_Location.hxx>
 #include <BRep_Builder.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Trsf.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <BRepTools.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TNaming_Translator.hxx>

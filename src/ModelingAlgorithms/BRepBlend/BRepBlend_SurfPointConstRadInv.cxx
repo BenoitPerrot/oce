@@ -17,7 +17,7 @@
 #include <Adaptor3d_HSurface.hxx>
 #include <Adaptor3d_HCurve.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <BRepBlend_SurfPointConstRadInv.hxx>
 
 //=======================================================================

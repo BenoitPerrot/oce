@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <BRepGProp_Face.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <BRepGProp_TFunction.hxx>
 
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>

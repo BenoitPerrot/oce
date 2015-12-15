@@ -10,7 +10,7 @@
 #include <PColgp_SeqNodeOfHSequenceOfVec.hxx>
 #include <PColgp_HSequenceOfVec.hxx>
 #include <PColgp_SeqExplorerOfHSequenceOfVec.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 
  
 
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(PColgp_SeqNodeOfHSequenceOfVec)
 
 
 #define Item gp_Vec
-#define Item_hxx <gp_Vec.hxx>
+#define Item_hxx <Mathematics/Primitives/gp_Vec.hxx>
 #define PCollection_SeqNode PColgp_SeqNodeOfHSequenceOfVec
 #define PCollection_SeqNode_hxx <PColgp_SeqNodeOfHSequenceOfVec.hxx>
 #define PCollection_SeqExplorer PColgp_SeqExplorerOfHSequenceOfVec

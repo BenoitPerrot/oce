@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <gp_Lin2d.hxx>
+#include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <GccInt_BLine.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(GccInt_BLine)
@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_TYPE_END(GccInt_BLine)
 IMPLEMENT_DOWNCAST(GccInt_BLine,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(GccInt_BLine)
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <gp_Lin2d.hxx>
+#include <Mathematics/Primitives/gp_Lin2d.hxx>
 
 GccInt_BLine::
    GccInt_BLine(const gp_Lin2d& Line) {

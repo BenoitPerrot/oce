@@ -30,10 +30,10 @@
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <IGESBasic_ToolSingularSubfigure.hxx>
 #include <IGESData_ParamCursor.hxx>
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <IGESBasic_SubfigureDef.hxx>
 #include <IGESData_Dump.hxx>
-#include <gp_GTrsf.hxx>
+#include <Mathematics/Primitives/gp_GTrsf.hxx>
 #include <Interface_Macros.hxx>
 
 // MGE 03/08/98

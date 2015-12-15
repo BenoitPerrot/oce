@@ -18,8 +18,8 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ChFiDS_ListOfHElSpine.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <ChFiDS_ErrorStatus.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_ChFiDS_HElSpine.hxx>

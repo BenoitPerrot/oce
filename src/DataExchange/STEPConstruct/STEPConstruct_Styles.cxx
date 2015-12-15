@@ -85,7 +85,7 @@
 #include <StepVisual_Invisibility.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <StepVisual_InvisibleItem.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 
 
 //=======================================================================

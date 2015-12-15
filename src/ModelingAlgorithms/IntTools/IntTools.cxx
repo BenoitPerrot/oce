@@ -15,7 +15,7 @@
 
 #include <TopoDS_Edge.hxx>
 #include <IntTools_SequenceOfRoots.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geom_Curve.hxx>
 #include <BRepAdaptor_Curve.hxx>
 #include <IntTools_CArray1OfReal.hxx>
@@ -30,7 +30,7 @@
 #include <IntTools_Root.hxx>
 
 #include <gce_MakeCirc.hxx>
-#include <gp_Circ.hxx>
+#include <Mathematics/Primitives/gp_Circ.hxx>
 #include <BRepAdaptor_Curve.hxx>
 #include <IntTools_CArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_ListOfReal.hxx>
@@ -291,13 +291,13 @@
 }
 
 #include <GeomAdaptor_Curve.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <ElCLib.hxx>
-#include <gp_Lin.hxx>
-#include <gp_Circ.hxx>
-#include <gp_Elips.hxx>
-#include <gp_Hypr.hxx>
-#include <gp_Parab.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Circ.hxx>
+#include <Mathematics/Primitives/gp_Elips.hxx>
+#include <Mathematics/Primitives/gp_Hypr.hxx>
+#include <Mathematics/Primitives/gp_Parab.hxx>
 #include <GeomAPI_ProjectPointOnCurve.hxx>
 
 //=======================================================================

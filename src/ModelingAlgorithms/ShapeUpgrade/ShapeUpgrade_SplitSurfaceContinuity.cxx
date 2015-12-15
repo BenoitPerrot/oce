@@ -36,7 +36,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_SplitSurfaceContinuity)
 #include <ShapeUpgrade_SplitCurve3dContinuity.hxx>
 #include <Geom_SurfaceOfLinearExtrusion.hxx>
 #include <TColGeom_HArray1OfCurve.hxx>
-#include <gp_Ax1.hxx>
+#include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <Geom_RectangularTrimmedSurface.hxx>
 #include <Geom_OffsetSurface.hxx>
 #include <ShapeExtend.hxx>

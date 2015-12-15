@@ -22,7 +22,7 @@
 #include <TopOpeBRepTool_ShapeClassifier.hxx>
 #include <TopoDS_Face.hxx>
 #include <TopoDS_Edge.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <TopoDS_Wire.hxx>
 #include <TopTools_IndexedMapOfOrientedShape.hxx>
 #include <TopTools_IndexedDataMapOfShapeShape.hxx>
@@ -66,7 +66,7 @@
 #include <Geom2dAdaptor.hxx>
 #include <GeomProjLib.hxx>
 
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 
 #include <Adaptor3d_HCurve.hxx>
 #include <Adaptor3d_CurveOnSurface.hxx>

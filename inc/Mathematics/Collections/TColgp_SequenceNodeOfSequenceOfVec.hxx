@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TColgp_SequenceNodeOfSequenceOfVec.hxx>
 
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>
 #include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class gp_Vec;
@@ -47,7 +47,7 @@ private:
 };
 
 #define SeqItem gp_Vec
-#define SeqItem_hxx <gp_Vec.hxx>
+#define SeqItem_hxx <Mathematics/Primitives/gp_Vec.hxx>
 #define TCollection_SequenceNode TColgp_SequenceNodeOfSequenceOfVec
 #define TCollection_SequenceNode_hxx <Mathematics/Collections/TColgp_SequenceNodeOfSequenceOfVec.hxx>
 #define Handle_TCollection_SequenceNode Handle_TColgp_SequenceNodeOfSequenceOfVec

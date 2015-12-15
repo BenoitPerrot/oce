@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(Poly_Triangulation)
 IMPLEMENT_DOWNCAST(Poly_Triangulation,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Poly_Triangulation)
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangle.hxx>
 
 

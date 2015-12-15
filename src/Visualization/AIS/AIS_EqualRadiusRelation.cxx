@@ -44,7 +44,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_EqualRadiusRelation)
 #include <DsgPrs_EqualRadiusPresentation.hxx>
 #include <BRepAdaptor_Curve.hxx>
 #include <TopoDS.hxx>
-#include <gp_Circ.hxx>
+#include <Mathematics/Primitives/gp_Circ.hxx>
 #include <Geom_Circle.hxx>
 #include <ElCLib.hxx>
 #include <SelectMgr_EntityOwner.hxx>

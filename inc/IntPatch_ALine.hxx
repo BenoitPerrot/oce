@@ -18,7 +18,7 @@
 #include <IntSurf_TypeTrans.hxx>
 #include <IntSurf_Situation.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 class Standard_DomainError;
 class Standard_OutOfRange;
 class IntAna_Curve;

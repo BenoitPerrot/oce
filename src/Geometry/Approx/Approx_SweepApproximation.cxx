@@ -34,7 +34,7 @@
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Approx_SweepApproximation.hxx>
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 
 #include <AdvApprox_ApproxAFunction.hxx>

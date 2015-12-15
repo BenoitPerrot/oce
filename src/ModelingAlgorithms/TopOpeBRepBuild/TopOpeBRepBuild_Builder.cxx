@@ -43,7 +43,7 @@
 #include <TopoDS_Vertex.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopTools_DataMapOfShapeInteger.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <TopoDS_Face.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TopOpeBRepBuild_Builder.hxx>
@@ -58,7 +58,7 @@
 #include <TopOpeBRepDS_Config.hxx>
 #include <TopOpeBRepDS_BuildTool.hxx>
 #include <BRepClass3d_SolidClassifier.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Precision.hxx>
 #include <TopOpeBRepTool_ShapeExplorer.hxx>
 #include <Geom_Curve.hxx>

@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_AIS_EllipseRadiusDimension.hxx>
 
-#include <gp_Elips.hxx>
+#include <Mathematics/Primitives/gp_Elips.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Geom_OffsetCurve.hxx>

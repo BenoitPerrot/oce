@@ -11,7 +11,7 @@
 #include <Handle_IGESGeom_ConicArc.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <gp_XY.hxx>
+#include <Mathematics/Primitives/gp_XY.hxx>
 #include <IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

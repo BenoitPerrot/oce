@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_QANCollection_ListNodeOfListOfPnt.hxx>
 
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class gp_Pnt;
@@ -48,7 +48,7 @@ private:
 };
 
 #define Item gp_Pnt
-#define Item_hxx <gp_Pnt.hxx>
+#define Item_hxx <Mathematics/Primitives/gp_Pnt.hxx>
 #define TCollection_ListNode QANCollection_ListNodeOfListOfPnt
 #define TCollection_ListNode_hxx <QANCollection_ListNodeOfListOfPnt.hxx>
 #define TCollection_ListIterator QANCollection_ListIteratorOfListOfPnt

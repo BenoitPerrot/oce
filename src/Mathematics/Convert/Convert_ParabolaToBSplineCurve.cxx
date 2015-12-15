@@ -15,13 +15,13 @@
 //JCV 16/10/91
 
 
-#include <gp_Parab2d.hxx>
+#include <Mathematics/Primitives/gp_Parab2d.hxx>
 #include <Mathematics/Convert/Convert_ParabolaToBSplineCurve.hxx>
 
-#include <gp.hxx>
-#include <gp_Ax2d.hxx>
-#include <gp_Dir2d.hxx>
-#include <gp_Trsf2d.hxx>
+#include <Mathematics/Primitives/gp.hxx>
+#include <Mathematics/Primitives/gp_Ax2d.hxx>
+#include <Mathematics/Primitives/gp_Dir2d.hxx>
+#include <Mathematics/Primitives/gp_Trsf2d.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt2d.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>

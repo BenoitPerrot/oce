@@ -12,7 +12,7 @@
 
 #include <Handle_Geom_Plane.hxx>
 #include <Handle_Geom_Axis2Placement.hxx>
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <AIS_TypeOfPlane.hxx>
 #include <Select3D_TypeOfSensitivity.hxx>

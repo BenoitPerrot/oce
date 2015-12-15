@@ -17,7 +17,7 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <GeomFill_TrihedronLaw.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <GeomFill_Darboux.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -31,8 +31,8 @@ IMPLEMENT_STANDARD_TYPE_END(GeomFill_Darboux)
 IMPLEMENT_DOWNCAST(GeomFill_Darboux,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(GeomFill_Darboux)
 #include <Adaptor3d_HCurve.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Vec2d.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Adaptor2d_HCurve2d.hxx>
 #include <Adaptor3d_CurveOnSurface.hxx>
 #include <Adaptor3d_HCurveOnSurface.hxx>

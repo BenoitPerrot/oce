@@ -1,4 +1,4 @@
-#include <gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <gtest/gtest.h>
 
 TEST(gpTestSuite, testgp_PntConstruct)

@@ -31,8 +31,8 @@
 
 #include <TopExp_Explorer.hxx>
 #include <TopExp.hxx>
-#include <gp_Pnt2d.hxx>
-#include <gp_Vec.hxx>
+#include <Mathematics/Primitives/gp_Pnt2d.hxx>
+#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Geom_Surface.hxx>
 #include <Geom2d_Curve.hxx>
 #include <GeomAdaptor_Surface.hxx>

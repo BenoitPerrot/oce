@@ -24,12 +24,12 @@
 #include <AIS_Shape.hxx>
 #include <TopoDS_Shape.hxx>
 
-#include <gp_Pnt.hxx>
-#include <gp_Ax2.hxx>
-#include <gp.hxx>
-#include <gp_Ax1.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Ax2.hxx>
+#include <Mathematics/Primitives/gp.hxx>
+#include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <gce_MakeCirc.hxx>
-#include <gp_Circ.hxx>
+#include <Mathematics/Primitives/gp_Circ.hxx>
 #include <GC_MakeArcOfCircle.hxx>
 #include <BRepLib_MakeEdge.hxx>
 #include <TopoDS_Edge.hxx>

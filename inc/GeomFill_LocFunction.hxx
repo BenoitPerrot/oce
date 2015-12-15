@@ -12,7 +12,7 @@
 
 #include <Handle_GeomFill_LocationLaw.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfVec.hxx>
-#include <gp_Mat.hxx>
+#include <Mathematics/Primitives/gp_Mat.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

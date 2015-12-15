@@ -20,7 +20,7 @@
 #include <Geom2d_CartesianPoint.hxx>
 #include <Geom2dToIGES_Geom2dPoint.hxx>
 
-#include <gp_XYZ.hxx>
+#include <Mathematics/Primitives/gp_XYZ.hxx>
 
 #include <Geom2d_Point.hxx>
 #include <Geom2d_CartesianPoint.hxx>

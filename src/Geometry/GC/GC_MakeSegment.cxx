@@ -16,8 +16,8 @@
 
 #include <Geom_TrimmedCurve.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <gp_Pnt.hxx>
-#include <gp_Lin.hxx>
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
 #include <GC_MakeSegment.hxx>
 #include <GC_MakeLine.hxx>
 #include <Geom_Line.hxx>
