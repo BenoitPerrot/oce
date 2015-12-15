@@ -36,7 +36,7 @@
 #include <Geom_Surface.hxx>
 #include <Geom2d_Curve.hxx>
 #include <GeomAdaptor_Surface.hxx>
-#include <Extrema_ExtPS.hxx>
+#include <Geometry/Extrema/Extrema_ExtPS.hxx>
 #include <BRepExtrema_ExtPF.hxx>
 #include <BRep_Tool.hxx>
 #include <BRep_Builder.hxx>

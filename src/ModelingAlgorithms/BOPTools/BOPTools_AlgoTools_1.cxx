@@ -54,7 +54,7 @@
 #include <GeomProjLib.hxx>
 //
 #include <ProjLib_ProjectedCurve.hxx>
-#include <Extrema_LocateExtPC.hxx>
+#include <Geometry/Extrema/Extrema_LocateExtPC.hxx>
 //
 #include <IntRes2d_Domain.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>

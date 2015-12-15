@@ -22,8 +22,8 @@
 #include <Mathematics/Primitives/gp_Elips.hxx>
 #include <Mathematics/Primitives/gp_Hypr.hxx>
 #include <Mathematics/Primitives/gp_Parab.hxx>
-#include <Extrema_POnCurv.hxx>
-#include <Extrema_ExtElC.hxx>
+#include <Geometry/Extrema/Extrema_POnCurv.hxx>
+#include <Geometry/Extrema/Extrema_ExtElC.hxx>
 #include <Foundation/StdFail/StdFail_InfiniteSolutions.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <ElCLib.hxx>
@@ -32,9 +32,9 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Precision.hxx>
-#include <Extrema_ExtPElC.hxx>
+#include <Geometry/Extrema/Extrema_ExtPElC.hxx>
 #include <IntAna_QuadQuadGeo.hxx>
-#include <Extrema_ExtPElC.hxx>
+#include <Geometry/Extrema/Extrema_ExtPElC.hxx>
 
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Mathematics/Primitives/gp_Ax3.hxx>

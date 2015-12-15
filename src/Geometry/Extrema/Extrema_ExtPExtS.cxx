@@ -19,10 +19,10 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <ElCLib.hxx>
-#include <Extrema_ExtPElC.hxx>
-#include <Extrema_ExtPExtS.hxx>
-#include <Extrema_POnCurv.hxx>
-#include <Extrema_POnSurf.hxx>
+#include <Geometry/Extrema/Extrema_ExtPElC.hxx>
+#include <Geometry/Extrema/Extrema_ExtPExtS.hxx>
+#include <Geometry/Extrema/Extrema_POnCurv.hxx>
+#include <Geometry/Extrema/Extrema_POnSurf.hxx>
 #include <Precision.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>

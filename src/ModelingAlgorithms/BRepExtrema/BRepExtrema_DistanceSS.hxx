@@ -15,8 +15,8 @@
 #define _BRepExtrema_DistanceSS_HeaderFile
 
 #include <BRepExtrema_SeqOfSolution.hxx>
-#include <Extrema_ExtFlag.hxx>
-#include <Extrema_ExtAlgo.hxx>
+#include <Geometry/Extrema/Extrema_ExtFlag.hxx>
+#include <Geometry/Extrema/Extrema_ExtAlgo.hxx>
 #include <Precision.hxx>
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 

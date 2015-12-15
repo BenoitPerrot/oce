@@ -3,12 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Extrema_SequenceNodeOfSequenceOfPOnSurf.hxx>
+#include <Geometry/Extrema/Extrema_SequenceNodeOfSequenceOfPOnSurf.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <Extrema_POnSurf.hxx>
-#include <Extrema_SequenceOfPOnSurf.hxx>
+#include <Geometry/Extrema/Extrema_POnSurf.hxx>
+#include <Geometry/Extrema/Extrema_SequenceOfPOnSurf.hxx>
 
  
 
@@ -28,12 +28,12 @@ IMPLEMENT_STANDARD_RTTI(Extrema_SequenceNodeOfSequenceOfPOnSurf)
 
 
 #define SeqItem Extrema_POnSurf
-#define SeqItem_hxx <Extrema_POnSurf.hxx>
+#define SeqItem_hxx <Geometry/Extrema/Extrema_POnSurf.hxx>
 #define TCollection_SequenceNode Extrema_SequenceNodeOfSequenceOfPOnSurf
-#define TCollection_SequenceNode_hxx <Extrema_SequenceNodeOfSequenceOfPOnSurf.hxx>
+#define TCollection_SequenceNode_hxx <Geometry/Extrema/Extrema_SequenceNodeOfSequenceOfPOnSurf.hxx>
 #define Handle_TCollection_SequenceNode Handle_Extrema_SequenceNodeOfSequenceOfPOnSurf
 #define TCollection_SequenceNode_Type_() Extrema_SequenceNodeOfSequenceOfPOnSurf_Type_()
 #define TCollection_Sequence Extrema_SequenceOfPOnSurf
-#define TCollection_Sequence_hxx <Extrema_SequenceOfPOnSurf.hxx>
+#define TCollection_Sequence_hxx <Geometry/Extrema/Extrema_SequenceOfPOnSurf.hxx>
 #include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

@@ -36,11 +36,11 @@
 #include <GeomAdaptor_Surface.hxx>
 #include <GeomAdaptor_HSurface.hxx>
 #include <GCPnts_QuasiUniformDeflection.hxx>
-#include <Extrema_LocateExtPC.hxx>
+#include <Geometry/Extrema/Extrema_LocateExtPC.hxx>
 #include <AdvApprox_ApproxAFunction.hxx>
 #include <GeomLib_MakeCurvefromApprox.hxx>
 #include <Precision.hxx>
-#include <Extrema_ExtPC.hxx>
+#include <Geometry/Extrema/Extrema_ExtPC.hxx>
 
 #ifdef OCCT_DEBUG
 #ifdef DRAW

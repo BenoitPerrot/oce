@@ -119,12 +119,12 @@
 #include <IntCurveSurface_IntersectionPoint.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>
 #include <IntRes2d_Transition.hxx>
-#include <Extrema_LocateExtCC.hxx>
-#include <Extrema_POnCurv.hxx>
-#include <Extrema_ExtPC2d.hxx>
-#include <Extrema_ExtPC.hxx>
-#include <Extrema_ExtPS.hxx>
-#include <Extrema_ExtCC.hxx>
+#include <Geometry/Extrema/Extrema_LocateExtCC.hxx>
+#include <Geometry/Extrema/Extrema_POnCurv.hxx>
+#include <Geometry/Extrema/Extrema_ExtPC2d.hxx>
+#include <Geometry/Extrema/Extrema_ExtPC.hxx>
+#include <Geometry/Extrema/Extrema_ExtPS.hxx>
+#include <Geometry/Extrema/Extrema_ExtCC.hxx>
 
 #include <TopoDS.hxx>
 #include <TopoDS_Shape.hxx>

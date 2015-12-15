@@ -15,13 +15,13 @@
 #define _BRepExtrema_ExtPF_HeaderFile
 
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
-#include <Extrema_ExtPS.hxx>
+#include <Geometry/Extrema/Extrema_ExtPS.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
-#include <Extrema_SequenceOfPOnSurf.hxx>
+#include <Geometry/Extrema/Extrema_SequenceOfPOnSurf.hxx>
 #include <BRepAdaptor_Surface.hxx>
-#include <Extrema_ExtFlag.hxx>
-#include <Extrema_ExtAlgo.hxx>
+#include <Geometry/Extrema/Extrema_ExtFlag.hxx>
+#include <Geometry/Extrema/Extrema_ExtAlgo.hxx>
 
 class TopoDS_Vertex;
 class TopoDS_Face;

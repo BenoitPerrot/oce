@@ -14,16 +14,16 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Extrema_LocateExtCC2d.hxx>
+#include <Geometry/Extrema/Extrema_LocateExtCC2d.hxx>
 
 #include <GeomAbs_CurveType.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <Extrema_POnCurv2d.hxx>
+#include <Geometry/Extrema/Extrema_POnCurv2d.hxx>
 #include <Precision.hxx>
 
 #include <Geometry/Adaptor2d/Adaptor2d_Curve2d.hxx>
-#include <Extrema_Curve2dTool.hxx>
-#include <Extrema_LocECC2d.hxx>
+#include <Geometry/Extrema/Extrema_Curve2dTool.hxx>
+#include <Geometry/Extrema/Extrema_LocECC2d.hxx>
 
 
 //=======================================================================

@@ -33,7 +33,7 @@
 
 #include <Geom2dInt_GInter.hxx>
 
-#include <Extrema_ExtPC2d.hxx>
+#include <Geometry/Extrema/Extrema_ExtPC2d.hxx>
 #include <IntRes2d_Transition.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>
 

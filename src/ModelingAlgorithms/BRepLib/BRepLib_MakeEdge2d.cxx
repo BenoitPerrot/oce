@@ -38,7 +38,7 @@
 #include <Geom2d_Hyperbola.hxx>
 #include <Geom2d_TrimmedCurve.hxx>
 #include <Geom2dAdaptor_Curve.hxx>
-#include <Extrema_ExtPC2d.hxx>
+#include <Geometry/Extrema/Extrema_ExtPC2d.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <ElCLib.hxx>
 #include <ElSLib.hxx>

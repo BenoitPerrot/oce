@@ -12,7 +12,7 @@
 
 #include <Handle_Geom_Surface.hxx>
 #include <Handle_GeomAdaptor_HSurface.hxx>
-#include <Extrema_ExtPS.hxx>
+#include <Geometry/Extrema/Extrema_ExtPS.hxx>
 #include <GeomAdaptor_Surface.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

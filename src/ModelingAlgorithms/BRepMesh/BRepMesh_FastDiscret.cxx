@@ -44,7 +44,7 @@
 #include <Geom_Surface.hxx>
 #include <Geom_Plane.hxx>
 #include <GeomAbs_SurfaceType.hxx>
-#include <Extrema_LocateExtPC.hxx>
+#include <Geometry/Extrema/Extrema_LocateExtPC.hxx>
 
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>

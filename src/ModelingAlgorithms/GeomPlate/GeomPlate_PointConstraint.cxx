@@ -35,8 +35,8 @@ IMPLEMENT_STANDARD_RTTI(GeomPlate_PointConstraint)
 #include <GeomAPI_ProjectPointOnSurf.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Geom_Plane.hxx>
-#include <Extrema_POnSurf.hxx>
-#include <Extrema_ExtPS.hxx>
+#include <Geometry/Extrema/Extrema_POnSurf.hxx>
+#include <Geometry/Extrema/Extrema_ExtPS.hxx>
 #include <GeomAdaptor_Surface.hxx>
 
 //---------------------------------------------------------

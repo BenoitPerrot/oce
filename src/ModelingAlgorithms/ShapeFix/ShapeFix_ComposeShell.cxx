@@ -104,7 +104,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_ComposeShell)
 #include <ShapeFix_Face.hxx>
 #include <ShapeAnalysis_Surface.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Extrema_ExtPC2d.hxx>
+#include <Geometry/Extrema/Extrema_ExtPC2d.hxx>
 #include <ShapeAnalysis.hxx>
 
 //=======================================================================

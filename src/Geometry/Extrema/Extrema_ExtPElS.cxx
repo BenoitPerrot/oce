@@ -20,8 +20,8 @@
 #include <Mathematics/Primitives/gp_Cone.hxx>
 #include <Mathematics/Primitives/gp_Torus.hxx>
 #include <Mathematics/Primitives/gp_Sphere.hxx>
-#include <Extrema_POnSurf.hxx>
-#include <Extrema_ExtPElS.hxx>
+#include <Geometry/Extrema/Extrema_POnSurf.hxx>
+#include <Geometry/Extrema/Extrema_ExtPElS.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>

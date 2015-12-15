@@ -1383,7 +1383,7 @@ static Standard_Integer OCC24086 (Draw_Interpretor& di, Standard_Integer argc, c
 
 #include <Geom_Circle.hxx>
 #include <GeomAdaptor_Curve.hxx>
-#include <Extrema_ExtPC.hxx>
+#include <Geometry/Extrema/Extrema_ExtPC.hxx>
 #include <Mathematics/Primitives/gp_Cylinder.hxx>
 #include <ElSLib.hxx>
 static Standard_Integer OCC24945 (Draw_Interpretor& di, Standard_Integer argc, const char ** argv)
@@ -1414,7 +1414,7 @@ static Standard_Integer OCC24945 (Draw_Interpretor& di, Standard_Integer argc, c
   return 0;
 }
 
-#include <Extrema_FuncExtPS.hxx>
+#include <Geometry/Extrema/Extrema_FuncExtPS.hxx>
 #include <Mathematics/Optimization/math_FunctionSetRoot.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>
 #include <BRepLib_MakeVertex.hxx>

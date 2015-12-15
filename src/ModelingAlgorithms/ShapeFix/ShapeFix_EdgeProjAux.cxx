@@ -55,7 +55,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_EdgeProjAux)
 #include <ShapeAnalysis_Edge.hxx>
 #include <ShapeAnalysis_Surface.hxx>
 
-#include <Extrema_ExtPC.hxx>
+#include <Geometry/Extrema/Extrema_ExtPC.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 
 //=======================================================================

@@ -176,8 +176,8 @@ void IntPatch_Intersection::Perform(const Handle(Adaptor3d_HSurface)&  S1,
 #include <Mathematics/Collections/TColgp_Array1OfXYZ.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
-#include <Extrema_ExtPS.hxx>
-#include <Extrema_POnSurf.hxx>
+#include <Geometry/Extrema/Extrema_ExtPS.hxx>
+#include <Geometry/Extrema/Extrema_POnSurf.hxx>
 #include <Geom2d_Curve.hxx>
 #include <Geom2dAPI_InterCurveCurve.hxx>
 #include <GeomAdaptor.hxx>

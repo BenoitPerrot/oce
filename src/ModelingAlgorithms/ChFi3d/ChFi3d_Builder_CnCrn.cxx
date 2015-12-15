@@ -89,11 +89,11 @@
 #include <ChFiDS_CommonPoint.hxx>
 #include <ChFiDS_Regul.hxx>
 #include <ChFiDS_StripeArray1.hxx>
-#include <Extrema_ExtPC.hxx>
-#include <Extrema_ExtCC.hxx>
-#include <Extrema_POnCurv.hxx>
+#include <Geometry/Extrema/Extrema_ExtPC.hxx>
+#include <Geometry/Extrema/Extrema_ExtCC.hxx>
+#include <Geometry/Extrema/Extrema_POnCurv.hxx>
 #include <GeomLib.hxx>
-#include <Extrema_ExtPC.hxx>
+#include <Geometry/Extrema/Extrema_ExtPC.hxx>
 #include <Geom2d_BSplineCurve.hxx>
 #include <GeomAdaptor_HSurface.hxx>
 #include <Geom2d_Line.hxx>

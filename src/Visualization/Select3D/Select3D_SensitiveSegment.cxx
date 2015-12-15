@@ -43,8 +43,8 @@ IMPLEMENT_STANDARD_RTTI(Select3D_SensitiveSegment)
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <ElCLib.hxx>
-#include <Extrema_ExtElC.hxx>
-#include <Extrema_POnCurv.hxx>
+#include <Geometry/Extrema/Extrema_ExtElC.hxx>
+#include <Geometry/Extrema/Extrema_POnCurv.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Precision.hxx>
 #include <SelectBasics_ListIteratorOfListOfBox2d.hxx>

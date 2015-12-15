@@ -19,8 +19,8 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_TypeMismatch.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_Surface.hxx>
-#include <Extrema_POnSurf.hxx>
-#include <Extrema_GenExtSS.hxx>
+#include <Geometry/Extrema/Extrema_POnSurf.hxx>
+#include <Geometry/Extrema/Extrema_GenExtSS.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>
 #include <Mathematics/Optimization/math_FunctionSetRoot.hxx>
 

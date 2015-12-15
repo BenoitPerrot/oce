@@ -12,4 +12,4 @@
 // commercial license or contractual agreement.
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Extrema_POnSurfParams.hxx>
+#include <Geometry/Extrema/Extrema_POnSurfParams.hxx>

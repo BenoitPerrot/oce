@@ -31,8 +31,8 @@
 
 #include <gce_MakeDir.hxx>
 
-#include <Extrema_POnCurv.hxx>
-#include <Extrema_ExtElC.hxx>
+#include <Geometry/Extrema/Extrema_POnCurv.hxx>
+#include <Geometry/Extrema/Extrema_ExtElC.hxx>
 //=======================================================================
 //function : gce_MakeCirc
 //purpose  : 

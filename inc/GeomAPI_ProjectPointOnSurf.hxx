@@ -12,10 +12,10 @@
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Extrema_ExtPS.hxx>
+#include <Geometry/Extrema/Extrema_ExtPS.hxx>
 #include <GeomAdaptor_Surface.hxx>
 #include <Handle_Geom_Surface.hxx>
-#include <Extrema_ExtAlgo.hxx>
+#include <Geometry/Extrema/Extrema_ExtAlgo.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Quantity/Quantity_Parameter.hxx>
 #include <Foundation/Quantity/Quantity_Length.hxx>

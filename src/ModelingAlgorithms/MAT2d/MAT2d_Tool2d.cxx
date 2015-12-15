@@ -46,7 +46,7 @@
 #include <Bisector_Bisec.hxx>
 #include <Bisector_Inter.hxx>
 #include <IntRes2d_Domain.hxx>
-#include <Extrema_ExtPC2d.hxx>
+#include <Geometry/Extrema/Extrema_ExtPC2d.hxx>
 #include <Geom2dInt_GInter.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>
 #include <IntRes2d_IntersectionSegment.hxx>

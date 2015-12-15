@@ -64,8 +64,8 @@
 #include <ElSLib.hxx>
 #include <ElCLib.hxx>
 
-#include <Extrema_ExtCC.hxx>
-#include <Extrema_POnCurv.hxx>
+#include <Geometry/Extrema/Extrema_ExtCC.hxx>
+#include <Geometry/Extrema/Extrema_POnCurv.hxx>
 #include <Geometry/BndLib/BndLib_AddSurface.hxx>
 
 #include <Geometry/Adaptor3d/Adaptor3d_SurfacePtr.hxx>

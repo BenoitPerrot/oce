@@ -18,7 +18,7 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geom_Surface.hxx>
-#include <Extrema_ExtPS.hxx>
+#include <Geometry/Extrema/Extrema_ExtPS.hxx>
 #include <GeomAPI_ProjectPointOnSurf.hxx>
 
 #include <GeomAdaptor_Surface.hxx>

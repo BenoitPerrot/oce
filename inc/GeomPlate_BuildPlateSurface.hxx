@@ -20,7 +20,7 @@
 #include <Handle_TColStd_HArray1OfInteger.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Extrema_ExtPS.hxx>
+#include <Geometry/Extrema/Extrema_ExtPS.hxx>
 #include <Handle_GeomPlate_HArray1OfHCurveOnSurface.hxx>
 #include <Handle_GeomPlate_CurveConstraint.hxx>
 #include <Handle_GeomPlate_PointConstraint.hxx>

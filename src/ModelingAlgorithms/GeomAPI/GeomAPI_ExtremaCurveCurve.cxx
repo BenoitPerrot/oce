@@ -18,11 +18,11 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geom_Curve.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Extrema_ExtCC.hxx>
+#include <Geometry/Extrema/Extrema_ExtCC.hxx>
 #include <GeomAPI_ExtremaCurveCurve.hxx>
 
 #include <GeomAdaptor_Curve.hxx>
-//#include <Extrema_POnCurv.hxx>
+//#include <Geometry/Extrema/Extrema_POnCurv.hxx>
 
 #include <Precision.hxx>
 #include <GeomAPI_ProjectPointOnCurve.hxx>

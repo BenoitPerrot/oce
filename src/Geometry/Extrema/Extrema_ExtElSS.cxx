@@ -13,7 +13,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
-#include <Extrema_HArray1OfPOnSurf.hxx>
+#include <Geometry/Extrema/Extrema_HArray1OfPOnSurf.hxx>
 #include <Foundation/StdFail/StdFail_InfiniteSolutions.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
@@ -22,9 +22,9 @@
 #include <Mathematics/Primitives/gp_Cylinder.hxx>
 #include <Mathematics/Primitives/gp_Cone.hxx>
 #include <Mathematics/Primitives/gp_Torus.hxx>
-#include <Extrema_POnSurf.hxx>
-#include <Extrema_ExtElSS.hxx>
-#include <Extrema_ExtPElS.hxx>
+#include <Geometry/Extrema/Extrema_POnSurf.hxx>
+#include <Geometry/Extrema/Extrema_ExtElSS.hxx>
+#include <Geometry/Extrema/Extrema_ExtPElS.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/StdFail/StdFail_InfiniteSolutions.hxx>

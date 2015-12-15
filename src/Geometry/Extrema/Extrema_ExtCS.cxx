@@ -21,11 +21,11 @@
 #include <Foundation/Standard/Standard_TypeMismatch.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_Surface.hxx>
-#include <Extrema_POnCurv.hxx>
-#include <Extrema_POnSurf.hxx>
+#include <Geometry/Extrema/Extrema_POnCurv.hxx>
+#include <Geometry/Extrema/Extrema_POnSurf.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Extrema_ExtCS.hxx>
-#include <Extrema_GenExtCS.hxx>
+#include <Geometry/Extrema/Extrema_ExtCS.hxx>
+#include <Geometry/Extrema/Extrema_GenExtCS.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Foundation/StdFail/StdFail_InfiniteSolutions.hxx>
@@ -40,12 +40,12 @@
 #include <Mathematics/Primitives/gp_Lin.hxx>
 
 #include <ElCLib.hxx>
-#include <Extrema_ExtPElC.hxx>
+#include <Geometry/Extrema/Extrema_ExtPElC.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Geometry/BndLib/BndLib_AddSurface.hxx>
-#include <Extrema_ExtPElS.hxx>
+#include <Geometry/Extrema/Extrema_ExtPElS.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <Extrema_ExtPS.hxx>
+#include <Geometry/Extrema/Extrema_ExtPS.hxx>
 
 Extrema_ExtCS::Extrema_ExtCS() 
 {

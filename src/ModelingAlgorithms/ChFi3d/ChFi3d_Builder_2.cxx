@@ -104,9 +104,9 @@
 #include <TopExp_Explorer.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 
-#include <Extrema_ExtPC.hxx>
-#include <Extrema_LocateExtPC.hxx>
-#include <Extrema_POnCurv.hxx>
+#include <Geometry/Extrema/Extrema_ExtPC.hxx>
+#include <Geometry/Extrema/Extrema_LocateExtPC.hxx>
+#include <Geometry/Extrema/Extrema_POnCurv.hxx>
 
 #include <ChFiDS_ErrorStatus.hxx>
 #include <ChFiDS_State.hxx>
@@ -122,7 +122,7 @@
 #include <ChFiDS_ElSpine.hxx>
 #include <ChFiDS_ListOfHElSpine.hxx>
 #include <ChFiDS_ListIteratorOfListOfHElSpine.hxx>
-#include <Extrema_ExtPS.hxx>
+#include <Geometry/Extrema/Extrema_ExtPS.hxx>
 #include <ChFiKPart_ComputeData.hxx>
 #include <ChFi3d.hxx>
 #include <ChFi3d_Builder_0.hxx>

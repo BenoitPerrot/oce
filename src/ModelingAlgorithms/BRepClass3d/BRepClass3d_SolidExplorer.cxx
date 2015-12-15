@@ -59,7 +59,7 @@
 #include <BRepClass3d_DataMapIteratorOfMapOfInter.hxx>
 #include <Precision.hxx>
 //OCC454(apo)->
-#include <Extrema_ExtPS.hxx>
+#include <Geometry/Extrema/Extrema_ExtPS.hxx>
 #include <BRep_Tool.hxx> 
 #include <BRepClass_FaceClassifier.hxx>
 //<-OCC454(apo)

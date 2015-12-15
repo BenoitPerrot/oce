@@ -44,7 +44,7 @@ IMPLEMENT_STANDARD_RTTI(Select3D_SensitiveCurve)
 #include <Precision.hxx>
 #include <ElCLib.hxx>
 #include <CSLib_Class2d.hxx>
-#include <Extrema_ExtElC.hxx>
+#include <Geometry/Extrema/Extrema_ExtElC.hxx>
 
 //==================================================
 // Function: Creation

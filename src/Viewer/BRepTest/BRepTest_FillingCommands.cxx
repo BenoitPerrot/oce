@@ -89,8 +89,8 @@
 #include <BRepAdaptor_HCurve.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HIsoCurve.hxx>
 
-#include <Extrema_ExtPS.hxx>
-#include <Extrema_POnSurf.hxx>
+#include <Geometry/Extrema/Extrema_ExtPS.hxx>
+#include <Geometry/Extrema/Extrema_POnSurf.hxx>
 #include <Geom_Plane.hxx>
 #include <BRepOffsetAPI_MakeFilling.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>

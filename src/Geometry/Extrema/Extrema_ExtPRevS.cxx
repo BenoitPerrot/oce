@@ -18,8 +18,8 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Extrema_POnSurf.hxx>
-#include <Extrema_ExtPRevS.hxx>
+#include <Geometry/Extrema/Extrema_POnSurf.hxx>
+#include <Geometry/Extrema/Extrema_ExtPRevS.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Extrema_ExtPRevS)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -29,10 +29,10 @@ IMPLEMENT_STANDARD_TYPE_END(Extrema_ExtPRevS)
 IMPLEMENT_DOWNCAST(Extrema_ExtPRevS,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Extrema_ExtPRevS)
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
-#include <Extrema_ExtPElC.hxx>
-#include <Extrema_GenExtPS.hxx>
-#include <Extrema_POnCurv.hxx>
-#include <Extrema_POnSurf.hxx>
+#include <Geometry/Extrema/Extrema_ExtPElC.hxx>
+#include <Geometry/Extrema/Extrema_GenExtPS.hxx>
+#include <Geometry/Extrema/Extrema_POnCurv.hxx>
+#include <Geometry/Extrema/Extrema_POnSurf.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>

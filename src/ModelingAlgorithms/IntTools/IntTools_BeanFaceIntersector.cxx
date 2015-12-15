@@ -29,8 +29,8 @@
 
 #include <IntTools_Root.hxx>
 #include <Precision.hxx>
-#include <Extrema_POnCurv.hxx>
-#include <Extrema_POnSurf.hxx>
+#include <Geometry/Extrema/Extrema_POnCurv.hxx>
+#include <Geometry/Extrema/Extrema_POnSurf.hxx>
 #include <BRep_Tool.hxx>
 #include <Geom_Surface.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
@@ -52,8 +52,8 @@
 #include <Geom_BSplineSurface.hxx>
 #include <GeomAdaptor_Curve.hxx>
 #include <GeomAdaptor_Surface.hxx>
-#include <Extrema_ExtCS.hxx>
-#include <Extrema_ExtPS.hxx>
+#include <Geometry/Extrema/Extrema_ExtCS.hxx>
+#include <Geometry/Extrema/Extrema_ExtPS.hxx>
 #include <IntTools.hxx>
 #include <IntTools_Context.hxx>
 #include <IntTools_Tools.hxx>
@@ -64,8 +64,8 @@
 #include <IntAna_QuadQuadGeo.hxx>
 #include <BRepAdaptor_HCurve.hxx>
 #include <BRepAdaptor_HSurface.hxx>
-#include <Extrema_GenLocateExtPS.hxx>
-#include <Extrema_GenExtCS.hxx>
+#include <Geometry/Extrema/Extrema_GenLocateExtPS.hxx>
+#include <Geometry/Extrema/Extrema_GenExtCS.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Geometry/BndLib/BndLib_AddSurface.hxx>
 #include <Geometry/BndLib/BndLib_Add3dCurve.hxx>

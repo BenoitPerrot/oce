@@ -37,7 +37,7 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_Frenet)
 #include <Precision.hxx>
 #include <GeomLib.hxx>
 #include <GeomFill_SnglrFunc.hxx>
-#include <Extrema_ExtPC.hxx>
+#include <Geometry/Extrema/Extrema_ExtPC.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfBoolean.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt2d.hxx>
 #include <Foundation/NCollection/NCollection_Array1.hxx>

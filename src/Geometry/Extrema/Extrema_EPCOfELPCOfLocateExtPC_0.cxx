@@ -3,37 +3,37 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Extrema_EPCOfELPCOfLocateExtPC.hxx>
+#include <Geometry/Extrema/Extrema_EPCOfELPCOfLocateExtPC.hxx>
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_TypeMismatch.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
-#include <Extrema_CurveTool.hxx>
-#include <Extrema_POnCurv.hxx>
+#include <Geometry/Extrema/Extrema_CurveTool.hxx>
+#include <Geometry/Extrema/Extrema_POnCurv.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <Extrema_PCFOfEPCOfELPCOfLocateExtPC.hxx>
-#include <Extrema_SeqPCOfPCFOfEPCOfELPCOfLocateExtPC.hxx>
+#include <Geometry/Extrema/Extrema_PCFOfEPCOfELPCOfLocateExtPC.hxx>
+#include <Geometry/Extrema/Extrema_SeqPCOfPCFOfEPCOfELPCOfLocateExtPC.hxx>
  
 
 #define Curve Adaptor3d_Curve
 #define Curve_hxx <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
 #define Tool Extrema_CurveTool
-#define Tool_hxx <Extrema_CurveTool.hxx>
+#define Tool_hxx <Geometry/Extrema/Extrema_CurveTool.hxx>
 #define POnC Extrema_POnCurv
-#define POnC_hxx <Extrema_POnCurv.hxx>
+#define POnC_hxx <Geometry/Extrema/Extrema_POnCurv.hxx>
 #define Pnt gp_Pnt
 #define Pnt_hxx <Mathematics/Primitives/gp_Pnt.hxx>
 #define Vec gp_Vec
 #define Vec_hxx <Mathematics/Primitives/gp_Vec.hxx>
 #define Extrema_PCF Extrema_PCFOfEPCOfELPCOfLocateExtPC
-#define Extrema_PCF_hxx <Extrema_PCFOfEPCOfELPCOfLocateExtPC.hxx>
+#define Extrema_PCF_hxx <Geometry/Extrema/Extrema_PCFOfEPCOfELPCOfLocateExtPC.hxx>
 #define Extrema_SeqPCOfPCF Extrema_SeqPCOfPCFOfEPCOfELPCOfLocateExtPC
-#define Extrema_SeqPCOfPCF_hxx <Extrema_SeqPCOfPCFOfEPCOfELPCOfLocateExtPC.hxx>
+#define Extrema_SeqPCOfPCF_hxx <Geometry/Extrema/Extrema_SeqPCOfPCFOfEPCOfELPCOfLocateExtPC.hxx>
 #define Extrema_SeqPCOfPCF Extrema_SeqPCOfPCFOfEPCOfELPCOfLocateExtPC
-#define Extrema_SeqPCOfPCF_hxx <Extrema_SeqPCOfPCFOfEPCOfELPCOfLocateExtPC.hxx>
+#define Extrema_SeqPCOfPCF_hxx <Geometry/Extrema/Extrema_SeqPCOfPCFOfEPCOfELPCOfLocateExtPC.hxx>
 #define Extrema_GenExtPC Extrema_EPCOfELPCOfLocateExtPC
-#define Extrema_GenExtPC_hxx <Extrema_EPCOfELPCOfLocateExtPC.hxx>
-#include <Extrema_GenExtPC.gxx>
+#define Extrema_GenExtPC_hxx <Geometry/Extrema/Extrema_EPCOfELPCOfLocateExtPC.hxx>
+#include <Geometry/Extrema/Extrema_GenExtPC.gxx>
 

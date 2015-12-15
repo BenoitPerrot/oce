@@ -18,7 +18,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
-#include <Extrema_LocateExtPC.hxx>
+#include <Geometry/Extrema/Extrema_LocateExtPC.hxx>
 #include <Handle_TColStd_HArray1OfReal.hxx>
 
 class gp_Pnt;

@@ -14,11 +14,11 @@
 #ifndef _BRepExtrema_ExtFF_HeaderFile
 #define _BRepExtrema_ExtFF_HeaderFile
 
-#include <Extrema_ExtSS.hxx>
+#include <Geometry/Extrema/Extrema_ExtSS.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
-#include <Extrema_SequenceOfPOnSurf.hxx>
+#include <Geometry/Extrema/Extrema_SequenceOfPOnSurf.hxx>
 #include <BRepAdaptor_HSurface.hxx>
-#include <Extrema_POnSurf.hxx>
+#include <Geometry/Extrema/Extrema_POnSurf.hxx>
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 
 class BRepAdaptor_HSurface;

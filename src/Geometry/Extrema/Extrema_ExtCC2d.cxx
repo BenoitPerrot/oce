@@ -18,15 +18,15 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_Curve2d.hxx>
-#include <Extrema_POnCurv2d.hxx>
+#include <Geometry/Extrema/Extrema_POnCurv2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <Extrema_ExtElC2d.hxx>
-#include <Extrema_ECC2d.hxx>
-#include <Extrema_ExtCC2d.hxx>
+#include <Geometry/Extrema/Extrema_ExtElC2d.hxx>
+#include <Geometry/Extrema/Extrema_ECC2d.hxx>
+#include <Geometry/Extrema/Extrema_ExtCC2d.hxx>
 
-#include <Extrema_ExtElC2d.hxx>
+#include <Geometry/Extrema/Extrema_ExtElC2d.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <Extrema_ExtElC.hxx>
+#include <Geometry/Extrema/Extrema_ExtElC.hxx>
 #include <ElCLib.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <GeomAbs_CurveType.hxx>
@@ -37,13 +37,13 @@
 #include <Geom2d_Line.hxx>
 #include <Geom2d_Parabola.hxx>
 #include <Geom2d_Hyperbola.hxx>
-#include <Extrema_POnCurv2d.hxx>
-#include <Extrema_SequenceOfPOnCurv2d.hxx>
+#include <Geometry/Extrema/Extrema_POnCurv2d.hxx>
+#include <Geometry/Extrema/Extrema_SequenceOfPOnCurv2d.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Precision.hxx>
 
 #include <Geometry/Adaptor2d/Adaptor2d_Curve2d.hxx>
-#include <Extrema_Curve2dTool.hxx>
+#include <Geometry/Extrema/Extrema_Curve2dTool.hxx>
 
 
 Extrema_ExtCC2d::Extrema_ExtCC2d()

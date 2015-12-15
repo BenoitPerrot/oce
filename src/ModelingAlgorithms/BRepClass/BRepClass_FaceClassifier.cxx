@@ -18,7 +18,7 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <BRepClass_FaceClassifier.hxx>
 #include <TopAbs_State.hxx>
-#include <Extrema_ExtPS.hxx>
+#include <Geometry/Extrema/Extrema_ExtPS.hxx>
 
 #include <BRepAdaptor_Surface.hxx>
 #include <BRepTools.hxx>

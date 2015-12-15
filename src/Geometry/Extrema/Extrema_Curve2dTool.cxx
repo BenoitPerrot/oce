@@ -20,4 +20,4 @@
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Geom2d_BezierCurve.hxx>
 #include <Geom2d_BSplineCurve.hxx>
-#include <Extrema_Curve2dTool.hxx>
+#include <Geometry/Extrema/Extrema_Curve2dTool.hxx>

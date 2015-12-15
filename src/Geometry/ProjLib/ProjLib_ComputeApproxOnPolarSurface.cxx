@@ -67,8 +67,8 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
-#include <Extrema_GenLocateExtPS.hxx>
-#include <Extrema_ExtPS.hxx>
+#include <Geometry/Extrema/Extrema_GenLocateExtPS.hxx>
+#include <Geometry/Extrema/Extrema_ExtPS.hxx>
 #include <GCPnts_QuasiUniformAbscissa.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 //#include <GeomLib_IsIso.hxx>

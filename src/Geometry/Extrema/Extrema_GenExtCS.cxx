@@ -20,15 +20,15 @@
 #include <Foundation/Standard/Standard_TypeMismatch.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_Surface.hxx>
-#include <Extrema_POnCurv.hxx>
-#include <Extrema_POnSurf.hxx>
-#include <Extrema_GenExtCS.hxx>
+#include <Geometry/Extrema/Extrema_POnCurv.hxx>
+#include <Geometry/Extrema/Extrema_POnSurf.hxx>
+#include <Geometry/Extrema/Extrema_GenExtCS.hxx>
 
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
-#include <Extrema_ExtCC.hxx>
-#include <Extrema_ExtPS.hxx>
-#include <Extrema_GlobOptFuncCS.hxx>
-#include <Extrema_POnCurv.hxx>
+#include <Geometry/Extrema/Extrema_ExtCC.hxx>
+#include <Geometry/Extrema/Extrema_ExtPS.hxx>
+#include <Geometry/Extrema/Extrema_GlobOptFuncCS.hxx>
+#include <Geometry/Extrema/Extrema_POnCurv.hxx>
 #include <Geom_Line.hxx>
 #include <GeomAdaptor_Curve.hxx>
 #include <Mathematics/Optimization/math_FunctionSetRoot.hxx>

@@ -23,8 +23,8 @@
 #include <gce_MakeCirc.hxx>
 #include <gce_MakeLin.hxx>
 #include <Geom_Circle.hxx>
-#include <Extrema_ExtElC.hxx>
-#include <Extrema_POnCurv.hxx>
+#include <Geometry/Extrema/Extrema_ExtElC.hxx>
+#include <Geometry/Extrema/Extrema_POnCurv.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <ElCLib.hxx>
 

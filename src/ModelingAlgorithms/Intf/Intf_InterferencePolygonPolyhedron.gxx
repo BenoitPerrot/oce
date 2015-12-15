@@ -28,8 +28,8 @@
 #include <Intf_SeqOfTangentZone.hxx>
 #include <Intf.hxx>
 
-#include <Extrema_ExtElC.hxx>
-#include <Extrema_POnCurv.hxx>
+#include <Geometry/Extrema/Extrema_ExtElC.hxx>
+#include <Geometry/Extrema/Extrema_POnCurv.hxx>
 
 static const int Pourcent3[4] = {0, 1, 2, 0};
 

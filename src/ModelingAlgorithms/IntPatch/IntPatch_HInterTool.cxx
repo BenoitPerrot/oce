@@ -21,8 +21,8 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <IntPatch_HInterTool.hxx>
 
-#include <Extrema_EPCOfExtPC2d.hxx>
-#include <Extrema_POnCurv2d.hxx>
+#include <Geometry/Extrema/Extrema_EPCOfExtPC2d.hxx>
+#include <Geometry/Extrema/Extrema_POnCurv2d.hxx>
 
 #include <GeomAbs_SurfaceType.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>

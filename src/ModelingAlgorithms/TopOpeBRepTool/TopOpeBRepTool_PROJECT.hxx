@@ -24,10 +24,10 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <BRepAdaptor_Curve.hxx>
 #include <BRepAdaptor_Curve2d.hxx>
-#include <Extrema_ExtPC.hxx>
-#include <Extrema_ExtPC2d.hxx>
-#include <Extrema_ExtFlag.hxx>
-#include <Extrema_ExtAlgo.hxx>
+#include <Geometry/Extrema/Extrema_ExtPC.hxx>
+#include <Geometry/Extrema/Extrema_ExtPC2d.hxx>
+#include <Geometry/Extrema/Extrema_ExtFlag.hxx>
+#include <Geometry/Extrema/Extrema_ExtAlgo.hxx>
 
 // ----------------------------------------------------------------------
 //  project point <P> on geometries (curve <C>,surface <S>)

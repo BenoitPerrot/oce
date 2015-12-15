@@ -20,8 +20,8 @@
 #include <Mathematics/Primitives/gp_Elips.hxx>
 #include <Mathematics/Primitives/gp_Hypr.hxx>
 #include <Mathematics/Primitives/gp_Parab.hxx>
-#include <Extrema_POnCurv.hxx>
-#include <Extrema_ExtPElC.hxx>
+#include <Geometry/Extrema/Extrema_POnCurv.hxx>
+#include <Geometry/Extrema/Extrema_ExtPElC.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Mathematics/Optimization/math_DirectPolynomialRoots.hxx>
 #include <Mathematics/Optimization/math_TrigonometricFunctionRoots.hxx>

@@ -14,16 +14,16 @@
 
 //-----------------------------------------------------------------
 
-#include <Extrema_ExtPExtS.hxx>
-#include <Extrema_ExtPRevS.hxx>
+#include <Geometry/Extrema/Extrema_ExtPExtS.hxx>
+#include <Geometry/Extrema/Extrema_ExtPRevS.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_TypeMismatch.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_Surface.hxx>
-#include <Extrema_POnSurf.hxx>
-#include <Extrema_ExtPS.hxx>
-#include <Extrema_GenExtPS.hxx>
+#include <Geometry/Extrema/Extrema_POnSurf.hxx>
+#include <Geometry/Extrema/Extrema_ExtPS.hxx>
+#include <Geometry/Extrema/Extrema_GenExtPS.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Precision.hxx>
@@ -37,9 +37,9 @@
 #include <Mathematics/Primitives/gp_Cone.hxx>
 #include <Mathematics/Primitives/gp_Sphere.hxx>
 #include <Mathematics/Primitives/gp_Torus.hxx>
-#include <Extrema_ExtPExtS.hxx>
-#include <Extrema_ExtPRevS.hxx>
-#include <Extrema_POnSurf.hxx>
+#include <Geometry/Extrema/Extrema_ExtPExtS.hxx>
+#include <Geometry/Extrema/Extrema_ExtPRevS.hxx>
+#include <Geometry/Extrema/Extrema_POnSurf.hxx>
 #include <GeomAbs_IsoType.hxx>
 
 //=======================================================================

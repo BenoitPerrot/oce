@@ -20,9 +20,9 @@
 #include <MAT2d_MiniPath.hxx>
 #include <MAT2d_Connexion.hxx>
 #include <MAT2d_Array2OfConnexion.hxx>
-#include <Extrema_POnCurv2d.hxx>
-#include <Extrema_ExtCC2d.hxx>
-#include <Extrema_ExtPC2d.hxx>
+#include <Geometry/Extrema/Extrema_POnCurv2d.hxx>
+#include <Geometry/Extrema/Extrema_ExtCC2d.hxx>
+#include <Geometry/Extrema/Extrema_ExtPC2d.hxx>
 #include <Geom2dAdaptor_Curve.hxx> 
 #include <Geom2d_Point.hxx> 
 #include <Geom2d_CartesianPoint.hxx> 

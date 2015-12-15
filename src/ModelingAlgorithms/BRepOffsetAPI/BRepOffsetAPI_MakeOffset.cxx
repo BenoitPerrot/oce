@@ -24,7 +24,7 @@
 #include <BRep_Builder.hxx>
 #include <BRep_Tool.hxx>
 #include <BRepAlgo_FaceRestrictor.hxx>
-#include <Extrema_ExtPS.hxx>
+#include <Geometry/Extrema/Extrema_ExtPS.hxx>
 #include <BRepAdaptor_Surface.hxx>
 #include <BRepFill_OffsetWire.hxx>
 #include <BRepFill_ListIteratorOfListOfOffsetWire.hxx>

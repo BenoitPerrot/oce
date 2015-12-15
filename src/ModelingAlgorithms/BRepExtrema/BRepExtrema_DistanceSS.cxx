@@ -34,7 +34,7 @@
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BRepExtrema_ExtPC.hxx>
 #include <BRepExtrema_ExtPF.hxx>
-#include <Extrema_ExtFlag.hxx>
+#include <Geometry/Extrema/Extrema_ExtFlag.hxx>
 #include <BRepExtrema_ExtCC.hxx>
 #include <BRepExtrema_ExtCF.hxx>
 #include <BRepExtrema_ExtFF.hxx>

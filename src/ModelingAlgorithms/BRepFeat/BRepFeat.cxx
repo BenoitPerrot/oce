@@ -35,7 +35,7 @@
 #include <Geom_Curve.hxx>
 #include <Geom_TrimmedCurve.hxx>
 #include <Geom2d_TrimmedCurve.hxx>
-#include <Extrema_ExtPC.hxx>
+#include <Geometry/Extrema/Extrema_ExtPC.hxx>
 #include <GeomAdaptor_Curve.hxx>
 #include <BRepLProp.hxx>
 #include <TopoDS.hxx>

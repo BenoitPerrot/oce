@@ -41,8 +41,8 @@
 
 #include <Precision.hxx>
 #include <Mathematics/Primitives/gp.hxx>
-#include <Extrema_ExtCC.hxx>
-#include <Extrema_POnCurv.hxx>
+#include <Geometry/Extrema/Extrema_ExtCC.hxx>
+#include <Geometry/Extrema/Extrema_POnCurv.hxx>
 #include <IntCurveSurface_HInter.hxx>
 #include <IntCurveSurface_IntersectionPoint.hxx>
 

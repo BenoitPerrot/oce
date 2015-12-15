@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <Extrema_POnCurv2d.hxx>
+#include <Geometry/Extrema/Extrema_POnCurv2d.hxx>
 #include <Geom2dInt_SeqPCOfPCLocFOfTheLocateExtPCOfTheProjPCurOfGInter.hxx>
 
  
@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_RTTI(Geom2dInt_SequenceNodeOfSeqPCOfPCLocFOfTheLocateExtPCOfT
 
 
 #define SeqItem Extrema_POnCurv2d
-#define SeqItem_hxx <Extrema_POnCurv2d.hxx>
+#define SeqItem_hxx <Geometry/Extrema/Extrema_POnCurv2d.hxx>
 #define TCollection_SequenceNode Geom2dInt_SequenceNodeOfSeqPCOfPCLocFOfTheLocateExtPCOfTheProjPCurOfGInter
 #define TCollection_SequenceNode_hxx <Geom2dInt_SequenceNodeOfSeqPCOfPCLocFOfTheLocateExtPCOfTheProjPCurOfGInter.hxx>
 #define Handle_TCollection_SequenceNode Handle_Geom2dInt_SequenceNodeOfSeqPCOfPCLocFOfTheLocateExtPCOfTheProjPCurOfGInter

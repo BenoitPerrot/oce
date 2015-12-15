@@ -83,7 +83,7 @@
 #include <IntAna_QuadQuadGeo.hxx>
 #include <IntAna_IntConicQuad.hxx>
 
-#include <Extrema_ExtPC.hxx>
+#include <Geometry/Extrema/Extrema_ExtPC.hxx>
 #include <BRepExtrema_ExtPC.hxx>
 #include <BRepExtrema_ExtCF.hxx>
 

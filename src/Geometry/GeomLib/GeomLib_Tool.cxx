@@ -58,8 +58,8 @@
 #include <GeomAdaptor_Surface.hxx>
 #include <ElSLib.hxx>
 #include <ElCLib.hxx>
-#include <Extrema_ExtPC.hxx>
-#include <Extrema_ExtPS.hxx>
+#include <Geometry/Extrema/Extrema_ExtPC.hxx>
+#include <Geometry/Extrema/Extrema_ExtPS.hxx>
 #include <Geom2d_Curve.hxx>
 #include <Geom2d_Line.hxx>
 #include <Geom2d_Circle.hxx>
@@ -78,7 +78,7 @@
 #include <Mathematics/Primitives/gp_Hypr2d.hxx>
 #include <Geom2dAdaptor_Curve.hxx>
 #include <ElCLib.hxx>
-#include <Extrema_ExtPC2d.hxx>
+#include <Geometry/Extrema/Extrema_ExtPC2d.hxx>
 
 
 // The functions Parameter(s) are used to compute parameter(s) of point

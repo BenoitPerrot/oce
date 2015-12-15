@@ -14,7 +14,7 @@
 #include <BRepAdaptor_Surface.hxx>
 #include <Handle_Geom_Surface.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Extrema_ExtCS.hxx>
+#include <Geometry/Extrema/Extrema_ExtCS.hxx>
 #include <GeomAPI_ProjectPointOnSurf.hxx>
 #include <IntTools_MarkedRangeSet.hxx>
 #include <Handle_IntTools_Context.hxx>

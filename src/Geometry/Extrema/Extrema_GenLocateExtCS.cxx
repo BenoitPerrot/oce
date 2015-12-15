@@ -18,11 +18,11 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_Surface.hxx>
-#include <Extrema_POnCurv.hxx>
-#include <Extrema_POnSurf.hxx>
-#include <Extrema_GenLocateExtCS.hxx>
+#include <Geometry/Extrema/Extrema_POnCurv.hxx>
+#include <Geometry/Extrema/Extrema_POnSurf.hxx>
+#include <Geometry/Extrema/Extrema_GenLocateExtCS.hxx>
 
-#include <Extrema_FuncExtCS.hxx>
+#include <Geometry/Extrema/Extrema_FuncExtCS.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>
 #include <Mathematics/Optimization/math_FunctionSetRoot.hxx>
 #include <Mathematics/Optimization/math_NewtonFunctionSetRoot.hxx>

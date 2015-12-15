@@ -14,7 +14,7 @@
 #ifndef _BRepExtrema_ExtPC_HeaderFile
 #define _BRepExtrema_ExtPC_HeaderFile
 
-#include <Extrema_ExtPC.hxx>
+#include <Geometry/Extrema/Extrema_ExtPC.hxx>
 #include <BRepAdaptor_HCurve.hxx>
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 

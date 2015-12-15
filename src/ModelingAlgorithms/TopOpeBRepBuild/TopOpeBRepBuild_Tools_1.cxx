@@ -73,7 +73,7 @@
 #include <Geometry/Adaptor3d/Adaptor3d_HCurveOnSurface.hxx>
 
 #include <ProjLib_ProjectedCurve.hxx>
-#include <Extrema_LocateExtPC.hxx>
+#include <Geometry/Extrema/Extrema_LocateExtPC.hxx>
 #include <BRepCheck_Wire.hxx>
 
 static 

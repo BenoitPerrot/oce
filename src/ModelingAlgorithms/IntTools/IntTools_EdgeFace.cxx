@@ -63,9 +63,9 @@
 #include <Mathematics/Primitives/gp_Pln.hxx>
 
 
-#include <Extrema_ExtCS.hxx>
-#include <Extrema_POnCurv.hxx>
-#include <Extrema_POnSurf.hxx>
+#include <Geometry/Extrema/Extrema_ExtCS.hxx>
+#include <Geometry/Extrema/Extrema_POnCurv.hxx>
+#include <Geometry/Extrema/Extrema_POnSurf.hxx>
 
 
 #include <IntCurveSurface_HInter.hxx>

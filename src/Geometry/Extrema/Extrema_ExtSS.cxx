@@ -18,8 +18,8 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_TypeMismatch.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_Surface.hxx>
-#include <Extrema_POnSurf.hxx>
-#include <Extrema_ExtSS.hxx>
+#include <Geometry/Extrema/Extrema_POnSurf.hxx>
+#include <Geometry/Extrema/Extrema_ExtSS.hxx>
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
@@ -29,7 +29,7 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 
-#include <Extrema_GenExtSS.hxx>
+#include <Geometry/Extrema/Extrema_GenExtSS.hxx>
 #include <ElCLib.hxx>
 
 Extrema_ExtSS::Extrema_ExtSS() 

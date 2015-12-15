@@ -28,8 +28,8 @@
 
 #include <GeomAdaptor_Curve.hxx>
 #include <Precision.hxx>
-#include <Extrema_ExtCC.hxx>
-#include <Extrema_POnCurv.hxx>
+#include <Geometry/Extrema/Extrema_ExtCC.hxx>
+#include <Geometry/Extrema/Extrema_POnCurv.hxx>
 
 #include <Mathematics/Optimization/math_FunctionSample.hxx>
 #include <Mathematics/Optimization/math_FunctionAllRoots.hxx>

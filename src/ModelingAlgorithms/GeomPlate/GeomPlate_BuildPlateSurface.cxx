@@ -78,8 +78,8 @@
 #include <GeomAdaptor_Surface.hxx>
 
 // projection
-#include <Extrema_ExtPS.hxx>
-#include <Extrema_POnSurf.hxx>
+#include <Geometry/Extrema/Extrema_ExtPS.hxx>
+#include <Geometry/Extrema/Extrema_POnSurf.hxx>
 #include <ProjLib_CompProjectedCurve.hxx>
 #include <ProjLib_HCompProjectedCurve.hxx>
 #include <Geometry/Approx/Approx_CurveOnSurface.hxx>

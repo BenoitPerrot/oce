@@ -12,7 +12,7 @@
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Extrema_ExtCS.hxx>
+#include <Geometry/Extrema/Extrema_ExtCS.hxx>
 #include <Handle_Geom_Curve.hxx>
 #include <Handle_Geom_Surface.hxx>
 #include <Foundation/Quantity/Quantity_Parameter.hxx>

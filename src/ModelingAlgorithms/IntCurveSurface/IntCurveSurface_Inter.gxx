@@ -53,8 +53,8 @@
 #include <GProp_PEquation.hxx>
 #include <GProp_PGProps.hxx>
 #include <GProp_PrincipalProps.hxx>
-#include <Extrema_ExtElC.hxx>
-#include <Extrema_POnCurv.hxx>
+#include <Geometry/Extrema/Extrema_ExtElC.hxx>
+#include <Geometry/Extrema/Extrema_POnCurv.hxx>
 
 
 

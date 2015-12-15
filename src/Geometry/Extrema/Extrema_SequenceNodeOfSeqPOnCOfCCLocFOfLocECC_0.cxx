@@ -3,12 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Extrema_SequenceNodeOfSeqPOnCOfCCLocFOfLocECC.hxx>
+#include <Geometry/Extrema/Extrema_SequenceNodeOfSeqPOnCOfCCLocFOfLocECC.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <Extrema_POnCurv.hxx>
-#include <Extrema_SeqPOnCOfCCLocFOfLocECC.hxx>
+#include <Geometry/Extrema/Extrema_POnCurv.hxx>
+#include <Geometry/Extrema/Extrema_SeqPOnCOfCCLocFOfLocECC.hxx>
 
  
 
@@ -28,12 +28,12 @@ IMPLEMENT_STANDARD_RTTI(Extrema_SequenceNodeOfSeqPOnCOfCCLocFOfLocECC)
 
 
 #define SeqItem Extrema_POnCurv
-#define SeqItem_hxx <Extrema_POnCurv.hxx>
+#define SeqItem_hxx <Geometry/Extrema/Extrema_POnCurv.hxx>
 #define TCollection_SequenceNode Extrema_SequenceNodeOfSeqPOnCOfCCLocFOfLocECC
-#define TCollection_SequenceNode_hxx <Extrema_SequenceNodeOfSeqPOnCOfCCLocFOfLocECC.hxx>
+#define TCollection_SequenceNode_hxx <Geometry/Extrema/Extrema_SequenceNodeOfSeqPOnCOfCCLocFOfLocECC.hxx>
 #define Handle_TCollection_SequenceNode Handle_Extrema_SequenceNodeOfSeqPOnCOfCCLocFOfLocECC
 #define TCollection_SequenceNode_Type_() Extrema_SequenceNodeOfSeqPOnCOfCCLocFOfLocECC_Type_()
 #define TCollection_Sequence Extrema_SeqPOnCOfCCLocFOfLocECC
-#define TCollection_Sequence_hxx <Extrema_SeqPOnCOfCCLocFOfLocECC.hxx>
+#define TCollection_Sequence_hxx <Geometry/Extrema/Extrema_SeqPOnCOfCCLocFOfLocECC.hxx>
 #include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

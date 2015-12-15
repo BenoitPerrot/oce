@@ -81,7 +81,7 @@
 #include <ElSLib.hxx>
 
 #include <GeomInt_WLApprox.hxx>
-#include <Extrema_ExtPS.hxx>
+#include <Geometry/Extrema/Extrema_ExtPS.hxx>
 
 static
   void BuildPCurves (Standard_Real f,

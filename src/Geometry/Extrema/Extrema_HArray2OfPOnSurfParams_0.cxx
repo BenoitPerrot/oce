@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Extrema_HArray2OfPOnSurfParams.hxx>
+#include <Geometry/Extrema/Extrema_HArray2OfPOnSurfParams.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
-#include <Extrema_POnSurfParams.hxx>
-#include <Extrema_Array2OfPOnSurfParams.hxx>
+#include <Geometry/Extrema/Extrema_POnSurfParams.hxx>
+#include <Geometry/Extrema/Extrema_Array2OfPOnSurfParams.hxx>
 
  
 
@@ -31,11 +31,11 @@ IMPLEMENT_STANDARD_RTTI(Extrema_HArray2OfPOnSurfParams)
 
 
 #define ItemHArray2 Extrema_POnSurfParams
-#define ItemHArray2_hxx <Extrema_POnSurfParams.hxx>
+#define ItemHArray2_hxx <Geometry/Extrema/Extrema_POnSurfParams.hxx>
 #define TheArray2 Extrema_Array2OfPOnSurfParams
-#define TheArray2_hxx <Extrema_Array2OfPOnSurfParams.hxx>
+#define TheArray2_hxx <Geometry/Extrema/Extrema_Array2OfPOnSurfParams.hxx>
 #define TCollection_HArray2 Extrema_HArray2OfPOnSurfParams
-#define TCollection_HArray2_hxx <Extrema_HArray2OfPOnSurfParams.hxx>
+#define TCollection_HArray2_hxx <Geometry/Extrema/Extrema_HArray2OfPOnSurfParams.hxx>
 #define Handle_TCollection_HArray2 Handle_Extrema_HArray2OfPOnSurfParams
 #define TCollection_HArray2_Type_() Extrema_HArray2OfPOnSurfParams_Type_()
 #include <Foundation/TCollection/TCollection_HArray2.gxx>

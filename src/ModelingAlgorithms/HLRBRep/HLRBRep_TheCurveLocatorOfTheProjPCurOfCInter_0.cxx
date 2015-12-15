@@ -6,7 +6,7 @@
 #include <HLRBRep_TheCurveLocatorOfTheProjPCurOfCInter.hxx>
 
 #include <HLRBRep_CurveTool.hxx>
-#include <Extrema_POnCurv2d.hxx>
+#include <Geometry/Extrema/Extrema_POnCurv2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
  
 
@@ -19,10 +19,10 @@
 #define Tool2 HLRBRep_CurveTool
 #define Tool2_hxx <HLRBRep_CurveTool.hxx>
 #define POnC Extrema_POnCurv2d
-#define POnC_hxx <Extrema_POnCurv2d.hxx>
+#define POnC_hxx <Geometry/Extrema/Extrema_POnCurv2d.hxx>
 #define Pnt gp_Pnt2d
 #define Pnt_hxx <Mathematics/Primitives/gp_Pnt2d.hxx>
 #define Extrema_CurveLocator HLRBRep_TheCurveLocatorOfTheProjPCurOfCInter
 #define Extrema_CurveLocator_hxx <HLRBRep_TheCurveLocatorOfTheProjPCurOfCInter.hxx>
-#include <Extrema_CurveLocator.gxx>
+#include <Geometry/Extrema/Extrema_CurveLocator.gxx>
 

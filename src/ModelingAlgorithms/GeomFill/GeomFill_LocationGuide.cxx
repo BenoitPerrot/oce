@@ -89,8 +89,8 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_LocationGuide)
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
 
-#include <Extrema_ExtCS.hxx>
-#include <Extrema_POnSurf.hxx>
+#include <Geometry/Extrema/Extrema_ExtCS.hxx>
+#include <Geometry/Extrema/Extrema_POnSurf.hxx>
 
 #if DRAW
 static Standard_Integer Affich = 0;

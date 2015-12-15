@@ -15,8 +15,8 @@
 //  Modified by skv - Thu Jul  7 14:37:05 2005 OCC9134
 
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
-#include <Extrema_HArray1OfPOnCurv.hxx>
-#include <Extrema_HArray1OfPOnSurf.hxx>
+#include <Geometry/Extrema/Extrema_HArray1OfPOnCurv.hxx>
+#include <Geometry/Extrema/Extrema_HArray1OfPOnSurf.hxx>
 #include <Foundation/StdFail/StdFail_InfiniteSolutions.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
@@ -28,13 +28,13 @@
 #include <Mathematics/Primitives/gp_Torus.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
 #include <Mathematics/Primitives/gp_Hypr.hxx>
-#include <Extrema_POnCurv.hxx>
-#include <Extrema_POnSurf.hxx>
-#include <Extrema_ExtElCS.hxx>
-#include <Extrema_ExtPElS.hxx>
-#include <Extrema_ExtPElC.hxx>
-#include <Extrema_ExtElC.hxx>
-#include <Extrema_POnCurv.hxx>
+#include <Geometry/Extrema/Extrema_POnCurv.hxx>
+#include <Geometry/Extrema/Extrema_POnSurf.hxx>
+#include <Geometry/Extrema/Extrema_ExtElCS.hxx>
+#include <Geometry/Extrema/Extrema_ExtPElS.hxx>
+#include <Geometry/Extrema/Extrema_ExtPElC.hxx>
+#include <Geometry/Extrema/Extrema_ExtElC.hxx>
+#include <Geometry/Extrema/Extrema_POnCurv.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Foundation/StdFail/StdFail_InfiniteSolutions.hxx>
 #include <Precision.hxx>

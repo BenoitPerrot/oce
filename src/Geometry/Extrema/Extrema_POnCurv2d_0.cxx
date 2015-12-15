@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Extrema_POnCurv2d.hxx>
+#include <Geometry/Extrema/Extrema_POnCurv2d.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -20,6 +20,6 @@ IMPLEMENT_STANDARD_TYPE_END(Extrema_POnCurv2d)
 #define Pnt gp_Pnt2d
 #define Pnt_hxx <Mathematics/Primitives/gp_Pnt2d.hxx>
 #define Extrema_Point Extrema_POnCurv2d
-#define Extrema_Point_hxx <Extrema_POnCurv2d.hxx>
-#include <Extrema_Point.gxx>
+#define Extrema_Point_hxx <Geometry/Extrema/Extrema_POnCurv2d.hxx>
+#include <Geometry/Extrema/Extrema_Point.gxx>
 

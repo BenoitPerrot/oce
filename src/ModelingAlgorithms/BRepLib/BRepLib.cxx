@@ -80,7 +80,7 @@
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <ElSLib.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>
-#include <Extrema_LocateExtPC.hxx>
+#include <Geometry/Extrema/Extrema_LocateExtPC.hxx>
 #include <ProjLib_ProjectedCurve.hxx>
 #include <BRepClass3d_SolidClassifier.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>

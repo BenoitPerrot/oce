@@ -21,8 +21,8 @@
 #include <BRepBlend_BlendTool.hxx>
 
 #include <BRepClass_FaceClassifier.hxx>
-#include <Extrema_EPCOfExtPC2d.hxx>
-#include <Extrema_POnCurv2d.hxx>
+#include <Geometry/Extrema/Extrema_EPCOfExtPC2d.hxx>
+#include <Geometry/Extrema/Extrema_POnCurv2d.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <TopoDS_Edge.hxx>
 #include <BRep_Tool.hxx>

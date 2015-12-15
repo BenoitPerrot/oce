@@ -3,44 +3,44 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Extrema_CCLocFOfLocECC.hxx>
+#include <Geometry/Extrema/Extrema_CCLocFOfLocECC.hxx>
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
-#include <Extrema_CurveTool.hxx>
-#include <Extrema_POnCurv.hxx>
+#include <Geometry/Extrema/Extrema_CurveTool.hxx>
+#include <Geometry/Extrema/Extrema_POnCurv.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <Extrema_SeqPOnCOfCCLocFOfLocECC.hxx>
-#include <Extrema_SequenceNodeOfSeqPOnCOfCCLocFOfLocECC.hxx>
+#include <Geometry/Extrema/Extrema_SeqPOnCOfCCLocFOfLocECC.hxx>
+#include <Geometry/Extrema/Extrema_SequenceNodeOfSeqPOnCOfCCLocFOfLocECC.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
  
 
 #define Curve1 Adaptor3d_Curve
 #define Curve1_hxx <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
 #define Tool1 Extrema_CurveTool
-#define Tool1_hxx <Extrema_CurveTool.hxx>
+#define Tool1_hxx <Geometry/Extrema/Extrema_CurveTool.hxx>
 #define Curve2 Adaptor3d_Curve
 #define Curve2_hxx <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
 #define Tool2 Extrema_CurveTool
-#define Tool2_hxx <Extrema_CurveTool.hxx>
+#define Tool2_hxx <Geometry/Extrema/Extrema_CurveTool.hxx>
 #define POnC Extrema_POnCurv
-#define POnC_hxx <Extrema_POnCurv.hxx>
+#define POnC_hxx <Geometry/Extrema/Extrema_POnCurv.hxx>
 #define Pnt gp_Pnt
 #define Pnt_hxx <Mathematics/Primitives/gp_Pnt.hxx>
 #define Vec gp_Vec
 #define Vec_hxx <Mathematics/Primitives/gp_Vec.hxx>
 #define Extrema_SeqPOnC Extrema_SeqPOnCOfCCLocFOfLocECC
-#define Extrema_SeqPOnC_hxx <Extrema_SeqPOnCOfCCLocFOfLocECC.hxx>
+#define Extrema_SeqPOnC_hxx <Geometry/Extrema/Extrema_SeqPOnCOfCCLocFOfLocECC.hxx>
 #define Extrema_SequenceNodeOfSeqPOnC Extrema_SequenceNodeOfSeqPOnCOfCCLocFOfLocECC
-#define Extrema_SequenceNodeOfSeqPOnC_hxx <Extrema_SequenceNodeOfSeqPOnCOfCCLocFOfLocECC.hxx>
+#define Extrema_SequenceNodeOfSeqPOnC_hxx <Geometry/Extrema/Extrema_SequenceNodeOfSeqPOnCOfCCLocFOfLocECC.hxx>
 #define Extrema_SequenceNodeOfSeqPOnC Extrema_SequenceNodeOfSeqPOnCOfCCLocFOfLocECC
-#define Extrema_SequenceNodeOfSeqPOnC_hxx <Extrema_SequenceNodeOfSeqPOnCOfCCLocFOfLocECC.hxx>
+#define Extrema_SequenceNodeOfSeqPOnC_hxx <Geometry/Extrema/Extrema_SequenceNodeOfSeqPOnCOfCCLocFOfLocECC.hxx>
 #define Handle_Extrema_SequenceNodeOfSeqPOnC Handle_Extrema_SequenceNodeOfSeqPOnCOfCCLocFOfLocECC
 #define Extrema_SequenceNodeOfSeqPOnC_Type_() Extrema_SequenceNodeOfSeqPOnCOfCCLocFOfLocECC_Type_()
 #define Handle_Extrema_SequenceNodeOfSeqPOnC Handle_Extrema_SequenceNodeOfSeqPOnCOfCCLocFOfLocECC
 #define Extrema_SequenceNodeOfSeqPOnC_Type_() Extrema_SequenceNodeOfSeqPOnCOfCCLocFOfLocECC_Type_()
 #define Extrema_FuncExtCC Extrema_CCLocFOfLocECC
-#define Extrema_FuncExtCC_hxx <Extrema_CCLocFOfLocECC.hxx>
-#include <Extrema_FuncExtCC.gxx>
+#define Extrema_FuncExtCC_hxx <Geometry/Extrema/Extrema_CCLocFOfLocECC.hxx>
+#include <Geometry/Extrema/Extrema_FuncExtCC.gxx>
 

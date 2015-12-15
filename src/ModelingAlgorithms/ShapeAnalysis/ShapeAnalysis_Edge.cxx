@@ -50,7 +50,7 @@
 #include <BRep_ListIteratorOfListOfCurveRepresentation.hxx>
 #include <BRep_Builder.hxx>
 
-#include <Extrema_LocateExtPC.hxx>
+#include <Geometry/Extrema/Extrema_LocateExtPC.hxx>
 
 #include <ShapeExtend.hxx>
 #include <TopExp.hxx>

@@ -3,50 +3,50 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Extrema_LocateExtPC.hxx>
+#include <Geometry/Extrema/Extrema_LocateExtPC.hxx>
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
-#include <Extrema_CurveTool.hxx>
-#include <Extrema_ExtPElC.hxx>
+#include <Geometry/Extrema/Extrema_CurveTool.hxx>
+#include <Geometry/Extrema/Extrema_ExtPElC.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <Extrema_POnCurv.hxx>
-#include <Extrema_SequenceOfPOnCurv.hxx>
-#include <Extrema_ELPCOfLocateExtPC.hxx>
-#include <Extrema_EPCOfELPCOfLocateExtPC.hxx>
-#include <Extrema_LocEPCOfLocateExtPC.hxx>
-#include <Extrema_PCLocFOfLocEPCOfLocateExtPC.hxx>
+#include <Geometry/Extrema/Extrema_POnCurv.hxx>
+#include <Geometry/Extrema/Extrema_SequenceOfPOnCurv.hxx>
+#include <Geometry/Extrema/Extrema_ELPCOfLocateExtPC.hxx>
+#include <Geometry/Extrema/Extrema_EPCOfELPCOfLocateExtPC.hxx>
+#include <Geometry/Extrema/Extrema_LocEPCOfLocateExtPC.hxx>
+#include <Geometry/Extrema/Extrema_PCLocFOfLocEPCOfLocateExtPC.hxx>
  
 
 #define TheCurve Adaptor3d_Curve
 #define TheCurve_hxx <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
 #define TheCurveTool Extrema_CurveTool
-#define TheCurveTool_hxx <Extrema_CurveTool.hxx>
+#define TheCurveTool_hxx <Geometry/Extrema/Extrema_CurveTool.hxx>
 #define TheExtPElC Extrema_ExtPElC
-#define TheExtPElC_hxx <Extrema_ExtPElC.hxx>
+#define TheExtPElC_hxx <Geometry/Extrema/Extrema_ExtPElC.hxx>
 #define ThePoint gp_Pnt
 #define ThePoint_hxx <Mathematics/Primitives/gp_Pnt.hxx>
 #define TheVector gp_Vec
 #define TheVector_hxx <Mathematics/Primitives/gp_Vec.hxx>
 #define ThePOnC Extrema_POnCurv
-#define ThePOnC_hxx <Extrema_POnCurv.hxx>
+#define ThePOnC_hxx <Geometry/Extrema/Extrema_POnCurv.hxx>
 #define TheSequenceOfPOnC Extrema_SequenceOfPOnCurv
-#define TheSequenceOfPOnC_hxx <Extrema_SequenceOfPOnCurv.hxx>
+#define TheSequenceOfPOnC_hxx <Geometry/Extrema/Extrema_SequenceOfPOnCurv.hxx>
 #define Extrema_ELPC Extrema_ELPCOfLocateExtPC
-#define Extrema_ELPC_hxx <Extrema_ELPCOfLocateExtPC.hxx>
+#define Extrema_ELPC_hxx <Geometry/Extrema/Extrema_ELPCOfLocateExtPC.hxx>
 #define Extrema_EPCOfELPC Extrema_EPCOfELPCOfLocateExtPC
-#define Extrema_EPCOfELPC_hxx <Extrema_EPCOfELPCOfLocateExtPC.hxx>
+#define Extrema_EPCOfELPC_hxx <Geometry/Extrema/Extrema_EPCOfELPCOfLocateExtPC.hxx>
 #define Extrema_EPCOfELPC Extrema_EPCOfELPCOfLocateExtPC
-#define Extrema_EPCOfELPC_hxx <Extrema_EPCOfELPCOfLocateExtPC.hxx>
+#define Extrema_EPCOfELPC_hxx <Geometry/Extrema/Extrema_EPCOfELPCOfLocateExtPC.hxx>
 #define Extrema_LocEPC Extrema_LocEPCOfLocateExtPC
-#define Extrema_LocEPC_hxx <Extrema_LocEPCOfLocateExtPC.hxx>
+#define Extrema_LocEPC_hxx <Geometry/Extrema/Extrema_LocEPCOfLocateExtPC.hxx>
 #define Extrema_PCLocFOfLocEPC Extrema_PCLocFOfLocEPCOfLocateExtPC
-#define Extrema_PCLocFOfLocEPC_hxx <Extrema_PCLocFOfLocEPCOfLocateExtPC.hxx>
+#define Extrema_PCLocFOfLocEPC_hxx <Geometry/Extrema/Extrema_PCLocFOfLocEPCOfLocateExtPC.hxx>
 #define Extrema_PCLocFOfLocEPC Extrema_PCLocFOfLocEPCOfLocateExtPC
-#define Extrema_PCLocFOfLocEPC_hxx <Extrema_PCLocFOfLocEPCOfLocateExtPC.hxx>
+#define Extrema_PCLocFOfLocEPC_hxx <Geometry/Extrema/Extrema_PCLocFOfLocEPCOfLocateExtPC.hxx>
 #define Extrema_GLocateExtPC Extrema_LocateExtPC
-#define Extrema_GLocateExtPC_hxx <Extrema_LocateExtPC.hxx>
-#include <Extrema_GLocateExtPC.gxx>
+#define Extrema_GLocateExtPC_hxx <Geometry/Extrema/Extrema_LocateExtPC.hxx>
+#include <Geometry/Extrema/Extrema_GLocateExtPC.gxx>
 

@@ -18,12 +18,12 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geom_Surface.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Extrema_ExtSS.hxx>
+#include <Geometry/Extrema/Extrema_ExtSS.hxx>
 #include <GeomAPI_ExtremaSurfaceSurface.hxx>
 
 
 #include <GeomAdaptor_Surface.hxx>
-#include <Extrema_POnSurf.hxx>
+#include <Geometry/Extrema/Extrema_POnSurf.hxx>
 
 #include <Precision.hxx>
 

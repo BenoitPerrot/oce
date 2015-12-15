@@ -18,11 +18,11 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geom2d_Curve.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <Extrema_ExtCC2d.hxx>
+#include <Geometry/Extrema/Extrema_ExtCC2d.hxx>
 #include <Geom2dAPI_ExtremaCurveCurve.hxx>
 
 #include <Geom2dAdaptor_Curve.hxx>
-#include <Extrema_POnCurv2d.hxx>
+#include <Geometry/Extrema/Extrema_POnCurv2d.hxx>
 
 #include <Precision.hxx>
 

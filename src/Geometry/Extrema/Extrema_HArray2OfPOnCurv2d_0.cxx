@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Extrema_HArray2OfPOnCurv2d.hxx>
+#include <Geometry/Extrema/Extrema_HArray2OfPOnCurv2d.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
-#include <Extrema_POnCurv2d.hxx>
-#include <Extrema_Array2OfPOnCurv2d.hxx>
+#include <Geometry/Extrema/Extrema_POnCurv2d.hxx>
+#include <Geometry/Extrema/Extrema_Array2OfPOnCurv2d.hxx>
 
  
 
@@ -31,11 +31,11 @@ IMPLEMENT_STANDARD_RTTI(Extrema_HArray2OfPOnCurv2d)
 
 
 #define ItemHArray2 Extrema_POnCurv2d
-#define ItemHArray2_hxx <Extrema_POnCurv2d.hxx>
+#define ItemHArray2_hxx <Geometry/Extrema/Extrema_POnCurv2d.hxx>
 #define TheArray2 Extrema_Array2OfPOnCurv2d
-#define TheArray2_hxx <Extrema_Array2OfPOnCurv2d.hxx>
+#define TheArray2_hxx <Geometry/Extrema/Extrema_Array2OfPOnCurv2d.hxx>
 #define TCollection_HArray2 Extrema_HArray2OfPOnCurv2d
-#define TCollection_HArray2_hxx <Extrema_HArray2OfPOnCurv2d.hxx>
+#define TCollection_HArray2_hxx <Geometry/Extrema/Extrema_HArray2OfPOnCurv2d.hxx>
 #define Handle_TCollection_HArray2 Handle_Extrema_HArray2OfPOnCurv2d
 #define TCollection_HArray2_Type_() Extrema_HArray2OfPOnCurv2d_Type_()
 #include <Foundation/TCollection/TCollection_HArray2.gxx>

@@ -68,7 +68,7 @@ IMPLEMENT_STANDARD_RTTI(BRepCheck_Edge)
 
 #include <ProjLib_ProjectedCurve.hxx>
 #include <GeomProjLib.hxx>
-#include <Extrema_LocateExtPC.hxx>
+#include <Geometry/Extrema/Extrema_LocateExtPC.hxx>
 
 #include <BRepCheck.hxx>
 #include <Geom2dAdaptor.hxx>

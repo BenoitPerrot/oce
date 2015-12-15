@@ -3,18 +3,18 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Extrema_Array2OfPOnCurv2d.hxx>
+#include <Geometry/Extrema/Extrema_Array2OfPOnCurv2d.hxx>
 
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
-#include <Extrema_POnCurv2d.hxx>
+#include <Geometry/Extrema/Extrema_POnCurv2d.hxx>
  
 
 #define Array2Item Extrema_POnCurv2d
-#define Array2Item_hxx <Extrema_POnCurv2d.hxx>
+#define Array2Item_hxx <Geometry/Extrema/Extrema_POnCurv2d.hxx>
 #define TCollection_Array2 Extrema_Array2OfPOnCurv2d
-#define TCollection_Array2_hxx <Extrema_Array2OfPOnCurv2d.hxx>
+#define TCollection_Array2_hxx <Geometry/Extrema/Extrema_Array2OfPOnCurv2d.hxx>
 #include <Foundation/TCollection/TCollection_Array2.gxx>
 

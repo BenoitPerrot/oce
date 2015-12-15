@@ -9,7 +9,7 @@
 #include <Foundation/Standard/Standard_TypeMismatch.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_Curve2d.hxx>
 #include <Geom2dInt_Geom2dCurveTool.hxx>
-#include <Extrema_POnCurv2d.hxx>
+#include <Geometry/Extrema/Extrema_POnCurv2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Geom2dInt_SeqPCOfPCLocFOfTheLocateExtPCOfTheProjPCurOfGInter.hxx>
@@ -21,7 +21,7 @@
 #define Tool Geom2dInt_Geom2dCurveTool
 #define Tool_hxx <Geom2dInt_Geom2dCurveTool.hxx>
 #define POnC Extrema_POnCurv2d
-#define POnC_hxx <Extrema_POnCurv2d.hxx>
+#define POnC_hxx <Geometry/Extrema/Extrema_POnCurv2d.hxx>
 #define Pnt gp_Pnt2d
 #define Pnt_hxx <Mathematics/Primitives/gp_Pnt2d.hxx>
 #define Vec gp_Vec2d
@@ -38,5 +38,5 @@
 #define Extrema_SequenceNodeOfSeqPC_Type_() Geom2dInt_SequenceNodeOfSeqPCOfPCLocFOfTheLocateExtPCOfTheProjPCurOfGInter_Type_()
 #define Extrema_FuncExtPC Geom2dInt_PCLocFOfTheLocateExtPCOfTheProjPCurOfGInter
 #define Extrema_FuncExtPC_hxx <Geom2dInt_PCLocFOfTheLocateExtPCOfTheProjPCurOfGInter.hxx>
-#include <Extrema_FuncExtPC.gxx>
+#include <Geometry/Extrema/Extrema_FuncExtPC.gxx>
 

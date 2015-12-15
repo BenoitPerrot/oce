@@ -60,7 +60,7 @@
 #include <GeomAdaptor_HCurve.hxx>
 
 
-#include <Extrema_GenLocateExtPS.hxx>
+#include <Geometry/Extrema/Extrema_GenLocateExtPS.hxx>
 #include <BRepAdaptor_Surface.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 #include <TopAbs.hxx>

@@ -9,7 +9,7 @@
 #include <Foundation/Standard/Standard_TypeMismatch.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <HLRBRep_CurveTool.hxx>
-#include <Extrema_POnCurv2d.hxx>
+#include <Geometry/Extrema/Extrema_POnCurv2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <HLRBRep_PCLocFOfTheLocateExtPCOfTheProjPCurOfCInter.hxx>
@@ -21,7 +21,7 @@
 #define Tool HLRBRep_CurveTool
 #define Tool_hxx <HLRBRep_CurveTool.hxx>
 #define POnC Extrema_POnCurv2d
-#define POnC_hxx <Extrema_POnCurv2d.hxx>
+#define POnC_hxx <Geometry/Extrema/Extrema_POnCurv2d.hxx>
 #define Pnt gp_Pnt2d
 #define Pnt_hxx <Mathematics/Primitives/gp_Pnt2d.hxx>
 #define Vec gp_Vec2d
@@ -34,5 +34,5 @@
 #define Extrema_SeqPCOfPCLocF_hxx <HLRBRep_SeqPCOfPCLocFOfTheLocateExtPCOfTheProjPCurOfCInter.hxx>
 #define Extrema_GenLocateExtPC HLRBRep_TheLocateExtPCOfTheProjPCurOfCInter
 #define Extrema_GenLocateExtPC_hxx <HLRBRep_TheLocateExtPCOfTheProjPCurOfCInter.hxx>
-#include <Extrema_GenLocateExtPC.gxx>
+#include <Geometry/Extrema/Extrema_GenLocateExtPC.gxx>
 

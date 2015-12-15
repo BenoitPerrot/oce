@@ -18,8 +18,8 @@
 #include <BRepExtrema_SeqOfSolution.hxx>
 #include <BRepExtrema_SolutionElem.hxx>
 #include <BRepExtrema_SupportType.hxx>
-#include <Extrema_ExtAlgo.hxx>
-#include <Extrema_ExtFlag.hxx>
+#include <Geometry/Extrema/Extrema_ExtAlgo.hxx>
+#include <Geometry/Extrema/Extrema_ExtFlag.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>

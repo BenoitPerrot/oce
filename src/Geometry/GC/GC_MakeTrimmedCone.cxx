@@ -24,7 +24,7 @@
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Extrema_ExtPElC.hxx>
+#include <Geometry/Extrema/Extrema_ExtPElC.hxx>
 
 //=========================================================================
 //   Creation of a cone by four points.                                +

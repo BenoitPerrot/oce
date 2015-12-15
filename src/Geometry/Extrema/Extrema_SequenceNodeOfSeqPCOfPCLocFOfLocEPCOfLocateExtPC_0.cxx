@@ -3,12 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Extrema_SequenceNodeOfSeqPCOfPCLocFOfLocEPCOfLocateExtPC.hxx>
+#include <Geometry/Extrema/Extrema_SequenceNodeOfSeqPCOfPCLocFOfLocEPCOfLocateExtPC.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <Extrema_POnCurv.hxx>
-#include <Extrema_SeqPCOfPCLocFOfLocEPCOfLocateExtPC.hxx>
+#include <Geometry/Extrema/Extrema_POnCurv.hxx>
+#include <Geometry/Extrema/Extrema_SeqPCOfPCLocFOfLocEPCOfLocateExtPC.hxx>
 
  
 
@@ -28,12 +28,12 @@ IMPLEMENT_STANDARD_RTTI(Extrema_SequenceNodeOfSeqPCOfPCLocFOfLocEPCOfLocateExtPC
 
 
 #define SeqItem Extrema_POnCurv
-#define SeqItem_hxx <Extrema_POnCurv.hxx>
+#define SeqItem_hxx <Geometry/Extrema/Extrema_POnCurv.hxx>
 #define TCollection_SequenceNode Extrema_SequenceNodeOfSeqPCOfPCLocFOfLocEPCOfLocateExtPC
-#define TCollection_SequenceNode_hxx <Extrema_SequenceNodeOfSeqPCOfPCLocFOfLocEPCOfLocateExtPC.hxx>
+#define TCollection_SequenceNode_hxx <Geometry/Extrema/Extrema_SequenceNodeOfSeqPCOfPCLocFOfLocEPCOfLocateExtPC.hxx>
 #define Handle_TCollection_SequenceNode Handle_Extrema_SequenceNodeOfSeqPCOfPCLocFOfLocEPCOfLocateExtPC
 #define TCollection_SequenceNode_Type_() Extrema_SequenceNodeOfSeqPCOfPCLocFOfLocEPCOfLocateExtPC_Type_()
 #define TCollection_Sequence Extrema_SeqPCOfPCLocFOfLocEPCOfLocateExtPC
-#define TCollection_Sequence_hxx <Extrema_SeqPCOfPCLocFOfLocEPCOfLocateExtPC.hxx>
+#define TCollection_Sequence_hxx <Geometry/Extrema/Extrema_SeqPCOfPCLocFOfLocEPCOfLocateExtPC.hxx>
 #include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

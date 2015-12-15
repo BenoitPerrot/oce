@@ -42,7 +42,7 @@
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
-#include <Extrema_ExtPC.hxx>
+#include <Geometry/Extrema/Extrema_ExtPC.hxx>
 #include <ShapeAnalysis.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <Geom_Line.hxx>
@@ -60,7 +60,7 @@
 #include <Geom2dInt_Geom2dCurveTool.hxx>
 #include <Geom2dAdaptor_Curve.hxx>
 #include <Geom_Circle.hxx>
-#include <Extrema_LocateExtPC.hxx>
+#include <Geometry/Extrema/Extrema_LocateExtPC.hxx>
 
 //=======================================================================
 //function : ProjectOnSegments

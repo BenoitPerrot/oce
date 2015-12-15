@@ -18,9 +18,9 @@
 #include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_Surface.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
-#include <Extrema_POnCurv.hxx>
-#include <Extrema_POnSurf.hxx>
-#include <Extrema_FuncExtCS.hxx>
+#include <Geometry/Extrema/Extrema_POnCurv.hxx>
+#include <Geometry/Extrema/Extrema_POnSurf.hxx>
+#include <Geometry/Extrema/Extrema_FuncExtCS.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Foundation/Standard/Standard_TypeMismatch.hxx>
 #include <Precision.hxx>

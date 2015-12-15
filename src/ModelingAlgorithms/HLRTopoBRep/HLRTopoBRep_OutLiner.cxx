@@ -44,7 +44,7 @@ IMPLEMENT_STANDARD_RTTI(HLRTopoBRep_OutLiner)
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <TopExp.hxx>
 #include <BRepAdaptor_Curve.hxx>
-#include <Extrema_ExtPC.hxx>
+#include <Geometry/Extrema/Extrema_ExtPC.hxx>
 
 //=======================================================================
 //function : OutLiner

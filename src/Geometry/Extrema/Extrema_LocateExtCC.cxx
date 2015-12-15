@@ -17,15 +17,15 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
-#include <Extrema_POnCurv.hxx>
-#include <Extrema_LocateExtCC.hxx>
+#include <Geometry/Extrema/Extrema_POnCurv.hxx>
+#include <Geometry/Extrema/Extrema_LocateExtCC.hxx>
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <Extrema_POnCurv.hxx>
+#include <Geometry/Extrema/Extrema_POnCurv.hxx>
 #include <Precision.hxx>
 
 #include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
-#include <Extrema_LocECC.hxx>
+#include <Geometry/Extrema/Extrema_LocECC.hxx>
 
 Extrema_LocateExtCC::Extrema_LocateExtCC (const Adaptor3d_Curve& C1,
                                           const Adaptor3d_Curve& C2,

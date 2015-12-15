@@ -17,7 +17,7 @@
 //  Modified by skv - Thu Sep 30 15:21:07 2004 OCC593
 
 
-#include <Extrema_HArray2OfPOnSurfParams.hxx>
+#include <Geometry/Extrema/Extrema_HArray2OfPOnSurfParams.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_HArray1OfSphere.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
@@ -25,9 +25,9 @@
 #include <Foundation/Standard/Standard_TypeMismatch.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_Surface.hxx>
-#include <Extrema_POnSurf.hxx>
-#include <Extrema_POnSurfParams.hxx>
-#include <Extrema_GenExtPS.hxx>
+#include <Geometry/Extrema/Extrema_POnSurf.hxx>
+#include <Geometry/Extrema/Extrema_POnSurfParams.hxx>
+#include <Geometry/Extrema/Extrema_GenExtPS.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfInteger.hxx>
@@ -38,8 +38,8 @@
 #include <Mathematics/Optimization/math_NewtonFunctionSetRoot.hxx>
 #include <GeomAbs_IsoType.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Sphere.hxx>
-#include <Extrema_HUBTreeOfSphere.hxx>
-#include <Extrema_ExtFlag.hxx>
+#include <Geometry/Extrema/Extrema_HUBTreeOfSphere.hxx>
+#include <Geometry/Extrema/Extrema_ExtFlag.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Array1OfSphere.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_HArray1OfSphere.hxx>
 #include <Precision.hxx>

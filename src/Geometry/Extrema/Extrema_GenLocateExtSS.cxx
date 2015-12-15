@@ -17,10 +17,10 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_Surface.hxx>
-#include <Extrema_POnSurf.hxx>
-#include <Extrema_GenLocateExtSS.hxx>
+#include <Geometry/Extrema/Extrema_POnSurf.hxx>
+#include <Geometry/Extrema/Extrema_GenLocateExtSS.hxx>
 
-#include <Extrema_FuncExtSS.hxx>
+#include <Geometry/Extrema/Extrema_FuncExtSS.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>
 #include <Mathematics/Optimization/math_FunctionSetRoot.hxx>
 #include <Mathematics/Optimization/math_NewtonFunctionSetRoot.hxx>

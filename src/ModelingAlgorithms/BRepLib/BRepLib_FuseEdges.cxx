@@ -84,7 +84,7 @@
 #include <Geom2d_BSplineCurve.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <GeomConvert_CompCurveToBSplineCurve.hxx>
-#include <Extrema_LocateExtPC.hxx>
+#include <Geometry/Extrema/Extrema_LocateExtPC.hxx>
 #include <GeomAdaptor_Curve.hxx>
 #include <GeomConvert.hxx>
 

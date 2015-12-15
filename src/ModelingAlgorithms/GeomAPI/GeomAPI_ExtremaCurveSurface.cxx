@@ -19,13 +19,13 @@
 #include <Geom_Curve.hxx>
 #include <Geom_Surface.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Extrema_ExtCS.hxx>
+#include <Geometry/Extrema/Extrema_ExtCS.hxx>
 #include <GeomAPI_ExtremaCurveSurface.hxx>
 
 #include <GeomAdaptor_Curve.hxx>
 #include <GeomAdaptor_Surface.hxx>
-#include <Extrema_POnCurv.hxx>
-#include <Extrema_POnSurf.hxx>
+#include <Geometry/Extrema/Extrema_POnCurv.hxx>
+#include <Geometry/Extrema/Extrema_POnSurf.hxx>
 
 #include <Precision.hxx>
 

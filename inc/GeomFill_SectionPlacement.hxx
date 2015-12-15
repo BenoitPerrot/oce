@@ -16,7 +16,7 @@
 #include <Handle_GeomFill_LocationLaw.hxx>
 #include <GeomAdaptor_Curve.hxx>
 #include <Handle_Geom_Curve.hxx>
-#include <Extrema_ExtPC.hxx>
+#include <Geometry/Extrema/Extrema_ExtPC.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Handle_Geom_Geometry.hxx>
 #include <Handle_Adaptor3d_HCurve.hxx>

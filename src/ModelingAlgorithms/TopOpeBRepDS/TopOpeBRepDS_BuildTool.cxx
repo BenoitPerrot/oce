@@ -83,9 +83,9 @@
 // includes especially needed by the static Project function
 #include <BRep_Tool.hxx>
 #include <GeomAdaptor_Curve.hxx>
-#include <Extrema_ExtPC.hxx>
+#include <Geometry/Extrema/Extrema_ExtPC.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Extrema_POnCurv.hxx>
+#include <Geometry/Extrema/Extrema_POnCurv.hxx>
 #include <Geom_Curve.hxx>
 #include <Geom_BSplineCurve.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>

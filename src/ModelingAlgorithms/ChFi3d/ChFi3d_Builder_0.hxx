@@ -57,8 +57,8 @@
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HCurveOnSurface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
-#include <Extrema_LocateExtCC.hxx>
-#include <Extrema_POnCurv.hxx>
+#include <Geometry/Extrema/Extrema_LocateExtCC.hxx>
+#include <Geometry/Extrema/Extrema_POnCurv.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>

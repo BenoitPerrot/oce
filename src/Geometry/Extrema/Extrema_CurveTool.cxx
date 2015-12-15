@@ -20,7 +20,7 @@
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Geom_BezierCurve.hxx>
 #include <Geom_BSplineCurve.hxx>
-#include <Extrema_CurveTool.hxx>
+#include <Geometry/Extrema/Extrema_CurveTool.hxx>
 
 //=======================================================================
 //function : IsPeriodic

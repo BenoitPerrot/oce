@@ -23,14 +23,14 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
-#include <Extrema_POnCurv.hxx>
+#include <Geometry/Extrema/Extrema_POnCurv.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Extrema_ExtElC.hxx>
-#include <Extrema_ECC.hxx>
-#include <Extrema_ExtCC.hxx>
+#include <Geometry/Extrema/Extrema_ExtElC.hxx>
+#include <Geometry/Extrema/Extrema_ECC.hxx>
+#include <Geometry/Extrema/Extrema_ExtCC.hxx>
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <Extrema_ExtElC.hxx>
+#include <Geometry/Extrema/Extrema_ExtElC.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <GeomAbs_CurveType.hxx>
 #include <Geom_Curve.hxx>
@@ -40,19 +40,19 @@
 #include <Geom_Line.hxx>
 #include <Geom_Parabola.hxx>
 #include <Geom_Hyperbola.hxx>
-#include <Extrema_POnCurv.hxx>
-#include <Extrema_SequenceOfPOnCurv.hxx>
+#include <Geometry/Extrema/Extrema_POnCurv.hxx>
+#include <Geometry/Extrema/Extrema_SequenceOfPOnCurv.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfTransient.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Precision.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <ElCLib.hxx>
-#include <Extrema_ExtPElC.hxx>
+#include <Geometry/Extrema/Extrema_ExtPElC.hxx>
 #include <Foundation/Standard/Standard_NullObject.hxx>
 
 #include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
-#include <Extrema_CurveTool.hxx>
+#include <Geometry/Extrema/Extrema_CurveTool.hxx>
 
 //=======================================================================
 //function : Extrema_ExtCC

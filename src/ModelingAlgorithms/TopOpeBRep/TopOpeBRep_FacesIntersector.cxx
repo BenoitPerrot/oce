@@ -115,9 +115,9 @@ static void TestWLinesToAnArc(IntPatch_SequenceOfLine&           slin,
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <TopExp.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
-#include <Extrema_ExtPS.hxx>
-#include <Extrema_ExtPC.hxx>
-#include <Extrema_POnSurf.hxx>
+#include <Geometry/Extrema/Extrema_ExtPS.hxx>
+#include <Geometry/Extrema/Extrema_ExtPC.hxx>
+#include <Geometry/Extrema/Extrema_POnSurf.hxx>
 #include <GeomAdaptor_Curve.hxx>
 static void MergeWLinesIfAllSegmentsAlongRestriction(IntPatch_SequenceOfLine&           theSlin,
 						     const Handle(Adaptor3d_HSurface)&  theSurface1,
