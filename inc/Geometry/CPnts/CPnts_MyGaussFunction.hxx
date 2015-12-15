@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <CPnts_RealFunction.hxx>
+#include <Geometry/CPnts/CPnts_RealFunction.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Mathematics/Optimization/math_Function.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
@@ -54,7 +54,7 @@ private:
 };
 
 
-#include <CPnts_MyGaussFunction.lxx>
+#include <Geometry/CPnts/CPnts_MyGaussFunction.lxx>
 
 
 

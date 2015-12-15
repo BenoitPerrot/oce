@@ -44,7 +44,7 @@
 #include <Geom2d_BSplineCurve.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>
-#include <CPnts_AbscissaPoint.hxx>
+#include <Geometry/CPnts/CPnts_AbscissaPoint.hxx>
 #include <Geometry/Approx/Approx_CurvlinFunc.hxx>
 
 #ifdef OCCT_DEBUG_CHRONO

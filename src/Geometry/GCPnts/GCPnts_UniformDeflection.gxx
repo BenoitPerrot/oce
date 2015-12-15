@@ -18,7 +18,7 @@
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <GCPnts_DeflectionType.hxx>
-#include <CPnts_UniformDeflection.hxx>
+#include <Geometry/CPnts/CPnts_UniformDeflection.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>

@@ -20,7 +20,7 @@
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <GeomAbs_CurveType.hxx>
-#include <CPnts_AbscissaPoint.hxx>
+#include <Geometry/CPnts/CPnts_AbscissaPoint.hxx>
 #include <GCPnts_AbscissaPoint.hxx>
 #include <Precision.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>

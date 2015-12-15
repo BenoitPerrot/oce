@@ -155,7 +155,7 @@ private:
 };
 
 
-#include <CPnts_UniformDeflection.lxx>
+#include <Geometry/CPnts/CPnts_UniformDeflection.lxx>
 
 
 

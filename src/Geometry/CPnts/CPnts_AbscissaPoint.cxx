@@ -27,7 +27,7 @@
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_Curve2d.hxx>
-#include <CPnts_AbscissaPoint.hxx>
+#include <Geometry/CPnts/CPnts_AbscissaPoint.hxx>
 
 #include <Mathematics/Optimization/math_GaussSingleIntegration.hxx>
 #include <Mathematics/Optimization/math_FunctionRoot.hxx>

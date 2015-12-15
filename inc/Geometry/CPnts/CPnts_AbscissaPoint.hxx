@@ -12,7 +12,7 @@
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <CPnts_MyRootFunction.hxx>
+#include <Geometry/CPnts/CPnts_MyRootFunction.hxx>
 class StdFail_NotDone;
 class Standard_ConstructionError;
 class Adaptor3d_Curve;
@@ -167,7 +167,7 @@ private:
 };
 
 
-#include <CPnts_AbscissaPoint.lxx>
+#include <Geometry/CPnts/CPnts_AbscissaPoint.lxx>
 
 
 

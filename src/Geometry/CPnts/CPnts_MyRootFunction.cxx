@@ -12,7 +12,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <CPnts_MyRootFunction.hxx>
+#include <Geometry/CPnts/CPnts_MyRootFunction.hxx>
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Mathematics/Optimization/math_GaussSingleIntegration.hxx>
