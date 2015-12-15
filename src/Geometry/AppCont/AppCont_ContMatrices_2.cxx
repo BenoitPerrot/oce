@@ -20,7 +20,7 @@
 #endif
 
 
-#include <AppCont_ContMatrices.hxx>
+#include <Geometry/AppCont/AppCont_ContMatrices.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
 #include <Foundation/Standard/Standard_DimensionError.hxx>
 

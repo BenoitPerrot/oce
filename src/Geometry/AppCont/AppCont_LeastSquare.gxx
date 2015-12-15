@@ -33,7 +33,7 @@
 #include <Mathematics/Collections/TColgp_Array1OfVec.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfVec2d.hxx>
 #include <AppParCurves_MultiPoint.hxx>
-#include <AppCont_ContMatrices.hxx>
+#include <Geometry/AppCont/AppCont_ContMatrices.hxx>
 #include <Mathematics/Polynomial/PLib.hxx>
 
 

@@ -20,7 +20,7 @@
 
 #include <GeomAbs_SurfaceType.hxx>
 #include <GeomAbs_CurveType.hxx>
-#include <AppCont_Function2d.hxx>
+#include <Geometry/AppCont/AppCont_Function2d.hxx>
 #include <Mathematics/Convert/Convert_CompBezierCurves2dToBSplineCurve2d.hxx>
 #include <ElSLib.hxx>
 #include <ElCLib.hxx>

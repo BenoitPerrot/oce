@@ -19,7 +19,7 @@
 #include <Geom_BSplineCurve.hxx>
 #include <ProjLib_ProjectOnSurface.hxx>
 
-#include <AppCont_Function.hxx>
+#include <Geometry/AppCont/AppCont_Function.hxx>
 #include <Approx_FitAndDivide.hxx>
 #include <AppParCurves_MultiCurve.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>

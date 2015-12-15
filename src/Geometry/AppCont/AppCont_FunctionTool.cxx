@@ -12,14 +12,14 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <AppCont_Function.hxx>
+#include <Geometry/AppCont/AppCont_Function.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfVec.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfVec2d.hxx>
-#include <AppCont_FunctionTool.hxx>
+#include <Geometry/AppCont/AppCont_FunctionTool.hxx>
 
-#include <AppCont_Function.hxx>
+#include <Geometry/AppCont/AppCont_Function.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfVec.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>

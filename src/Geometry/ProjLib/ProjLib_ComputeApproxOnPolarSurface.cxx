@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <ProjLib_ComputeApproxOnPolarSurface.hxx>
-#include <AppCont_Function2d.hxx>
+#include <Geometry/AppCont/AppCont_Function2d.hxx>
 #include <ElSLib.hxx>
 #include <ElCLib.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>

@@ -19,5 +19,5 @@
 #define LineTool_hxx <BRepFill_MultiLineTool.hxx>
 #define AppCont_LeastSquare BRepFill_MyLeastSquareOfComputeCLine
 #define AppCont_LeastSquare_hxx <BRepFill_MyLeastSquareOfComputeCLine.hxx>
-#include <AppCont_LeastSquare.gxx>
+#include <Geometry/AppCont/AppCont_LeastSquare.gxx>
 

@@ -90,7 +90,7 @@
 #include <Mathematics/Primitives/gp_Circ.hxx>
 #include <Mathematics/Primitives/gp_Sphere.hxx>
 
-#include <AppCont_Function.hxx>
+#include <Geometry/AppCont/AppCont_Function.hxx>
 #include <Approx_FitAndDivide.hxx>
 #include <AppParCurves_MultiCurve.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>

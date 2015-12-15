@@ -5,16 +5,16 @@
 
 #include <Approx_FitAndDivide.hxx>
 
-#include <AppCont_Function.hxx>
-#include <AppCont_FunctionTool.hxx>
+#include <Geometry/AppCont/AppCont_Function.hxx>
+#include <Geometry/AppCont/AppCont_FunctionTool.hxx>
 #include <Approx_MyLeastSquareOfFitAndDivide.hxx>
 #include <AppParCurves_MultiCurve.hxx>
  
 
 #define MultiLine AppCont_Function
-#define MultiLine_hxx <AppCont_Function.hxx>
+#define MultiLine_hxx <Geometry/AppCont/AppCont_Function.hxx>
 #define LineTool AppCont_FunctionTool
-#define LineTool_hxx <AppCont_FunctionTool.hxx>
+#define LineTool_hxx <Geometry/AppCont/AppCont_FunctionTool.hxx>
 #define Approx_MyLeastSquare Approx_MyLeastSquareOfFitAndDivide
 #define Approx_MyLeastSquare_hxx <Approx_MyLeastSquareOfFitAndDivide.hxx>
 #define Approx_ComputeCLine Approx_FitAndDivide

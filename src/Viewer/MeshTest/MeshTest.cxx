@@ -71,7 +71,7 @@
 #include <Mathematics/Primitives/gp_Pln.hxx>
 
 #include <Mathematics/Polynomial/PLib.hxx>
-#include <AppCont_ContMatrices.hxx>
+#include <Geometry/AppCont/AppCont_ContMatrices.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
 #include <Mathematics/Optimization/math.hxx>

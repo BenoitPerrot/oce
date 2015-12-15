@@ -14,7 +14,7 @@
 
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
-#include <AppCont_Function2d.hxx>
+#include <Geometry/AppCont/AppCont_Function2d.hxx>
 
 void AppCont_Function2d::Delete()
 {}
