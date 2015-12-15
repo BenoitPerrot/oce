@@ -14,16 +14,16 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <AdvApp2Var_ApproxAFunc2Var.hxx>
-#include <AdvApp2Var_EvaluatorFunc2Var.hxx>
-#include <AdvApp2Var_Criterion.hxx>
-#include <AdvApp2Var_Context.hxx>
-#include <AdvApp2Var_Patch.hxx>
-#include <AdvApp2Var_Network.hxx>
-#include <AdvApp2Var_Node.hxx>
-#include <AdvApp2Var_Iso.hxx>
-#include <AdvApp2Var_Strip.hxx>
-#include <AdvApp2Var_Framework.hxx>
+#include <Geometry/AdvApp2Var/AdvApp2Var_ApproxAFunc2Var.hxx>
+#include <Geometry/AdvApp2Var/AdvApp2Var_EvaluatorFunc2Var.hxx>
+#include <Geometry/AdvApp2Var/AdvApp2Var_Criterion.hxx>
+#include <Geometry/AdvApp2Var/AdvApp2Var_Context.hxx>
+#include <Geometry/AdvApp2Var/AdvApp2Var_Patch.hxx>
+#include <Geometry/AdvApp2Var/AdvApp2Var_Network.hxx>
+#include <Geometry/AdvApp2Var/AdvApp2Var_Node.hxx>
+#include <Geometry/AdvApp2Var/AdvApp2Var_Iso.hxx>
+#include <Geometry/AdvApp2Var/AdvApp2Var_Strip.hxx>
+#include <Geometry/AdvApp2Var/AdvApp2Var_Framework.hxx>
 #include <AdvApprox_Cutting.hxx>
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>

@@ -16,14 +16,14 @@
 
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
-#include <AdvApp2Var_Context.hxx>
-#include <AdvApp2Var_Node.hxx>
-#include <AdvApp2Var_Iso.hxx>
+#include <Geometry/AdvApp2Var/AdvApp2Var_Context.hxx>
+#include <Geometry/AdvApp2Var/AdvApp2Var_Node.hxx>
+#include <Geometry/AdvApp2Var/AdvApp2Var_Iso.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <AdvApp2Var_ApproxF2var.hxx>
+#include <Geometry/AdvApp2Var/AdvApp2Var_ApproxF2var.hxx>
 
 
 

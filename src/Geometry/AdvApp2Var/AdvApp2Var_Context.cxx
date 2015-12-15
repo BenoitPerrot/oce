@@ -16,9 +16,9 @@
 
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
-#include <AdvApp2Var_Context.hxx>
+#include <Geometry/AdvApp2Var/AdvApp2Var_Context.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <AdvApp2Var_ApproxF2var.hxx>
+#include <Geometry/AdvApp2Var/AdvApp2Var_ApproxF2var.hxx>
 
 // Calculaton of parameters
 static Standard_Boolean lesparam(const Standard_Integer iordre,

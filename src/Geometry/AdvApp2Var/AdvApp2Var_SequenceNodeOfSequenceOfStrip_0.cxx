@@ -3,12 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <AdvApp2Var_SequenceNodeOfSequenceOfStrip.hxx>
+#include <Geometry/AdvApp2Var/AdvApp2Var_SequenceNodeOfSequenceOfStrip.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <AdvApp2Var_Strip.hxx>
-#include <AdvApp2Var_SequenceOfStrip.hxx>
+#include <Geometry/AdvApp2Var/AdvApp2Var_Strip.hxx>
+#include <Geometry/AdvApp2Var/AdvApp2Var_SequenceOfStrip.hxx>
 
  
 
@@ -28,12 +28,12 @@ IMPLEMENT_STANDARD_RTTI(AdvApp2Var_SequenceNodeOfSequenceOfStrip)
 
 
 #define SeqItem AdvApp2Var_Strip
-#define SeqItem_hxx <AdvApp2Var_Strip.hxx>
+#define SeqItem_hxx <Geometry/AdvApp2Var/AdvApp2Var_Strip.hxx>
 #define TCollection_SequenceNode AdvApp2Var_SequenceNodeOfSequenceOfStrip
-#define TCollection_SequenceNode_hxx <AdvApp2Var_SequenceNodeOfSequenceOfStrip.hxx>
+#define TCollection_SequenceNode_hxx <Geometry/AdvApp2Var/AdvApp2Var_SequenceNodeOfSequenceOfStrip.hxx>
 #define Handle_TCollection_SequenceNode Handle_AdvApp2Var_SequenceNodeOfSequenceOfStrip
 #define TCollection_SequenceNode_Type_() AdvApp2Var_SequenceNodeOfSequenceOfStrip_Type_()
 #define TCollection_Sequence AdvApp2Var_SequenceOfStrip
-#define TCollection_Sequence_hxx <AdvApp2Var_SequenceOfStrip.hxx>
+#define TCollection_Sequence_hxx <Geometry/AdvApp2Var/AdvApp2Var_SequenceOfStrip.hxx>
 #include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

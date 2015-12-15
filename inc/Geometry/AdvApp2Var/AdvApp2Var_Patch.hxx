@@ -15,7 +15,7 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_TColStd_HArray1OfReal.hxx>
 #include <Handle_TColStd_HArray2OfReal.hxx>
-#include <AdvApp2Var_EvaluatorFunc2Var.hxx>
+#include <Geometry/AdvApp2Var/AdvApp2Var_EvaluatorFunc2Var.hxx>
 #include <Handle_TColgp_HArray2OfPnt.hxx>
 class TColStd_HArray1OfReal;
 class TColStd_HArray2OfReal;

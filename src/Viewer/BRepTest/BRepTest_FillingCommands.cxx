@@ -72,8 +72,8 @@
 #include <BRepLib_MakeFace.hxx>
 #include <TColGeom2d_HArray1OfCurve.hxx>
 
-#include <AdvApp2Var_ApproxAFunc2Var.hxx>
-#include <AdvApp2Var_Context.hxx>
+#include <Geometry/AdvApp2Var/AdvApp2Var_ApproxAFunc2Var.hxx>
+#include <Geometry/AdvApp2Var/AdvApp2Var_Context.hxx>
 #include <AdvApprox_PrefCutting.hxx>
 #include <AdvApprox_Cutting.hxx>
 #include <AdvApprox_DichoCutting.hxx>

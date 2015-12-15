@@ -3,21 +3,21 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <AdvApp2Var_SequenceOfNode.hxx>
+#include <Geometry/AdvApp2Var/AdvApp2Var_SequenceOfNode.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <AdvApp2Var_Node.hxx>
-#include <AdvApp2Var_SequenceNodeOfSequenceOfNode.hxx>
+#include <Geometry/AdvApp2Var/AdvApp2Var_Node.hxx>
+#include <Geometry/AdvApp2Var/AdvApp2Var_SequenceNodeOfSequenceOfNode.hxx>
  
 
 #define SeqItem AdvApp2Var_Node
-#define SeqItem_hxx <AdvApp2Var_Node.hxx>
+#define SeqItem_hxx <Geometry/AdvApp2Var/AdvApp2Var_Node.hxx>
 #define TCollection_SequenceNode AdvApp2Var_SequenceNodeOfSequenceOfNode
-#define TCollection_SequenceNode_hxx <AdvApp2Var_SequenceNodeOfSequenceOfNode.hxx>
+#define TCollection_SequenceNode_hxx <Geometry/AdvApp2Var/AdvApp2Var_SequenceNodeOfSequenceOfNode.hxx>
 #define Handle_TCollection_SequenceNode Handle_AdvApp2Var_SequenceNodeOfSequenceOfNode
 #define TCollection_SequenceNode_Type_() AdvApp2Var_SequenceNodeOfSequenceOfNode_Type_()
 #define TCollection_Sequence AdvApp2Var_SequenceOfNode
-#define TCollection_Sequence_hxx <AdvApp2Var_SequenceOfNode.hxx>
+#define TCollection_Sequence_hxx <Geometry/AdvApp2Var/AdvApp2Var_SequenceOfNode.hxx>
 #include <Foundation/TCollection/TCollection_Sequence.gxx>
 

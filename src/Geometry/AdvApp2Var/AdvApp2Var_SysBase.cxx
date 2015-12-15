@@ -16,9 +16,9 @@
 #include <math.h>
 #include <stdlib.h>
 #include <string.h>
-#include <AdvApp2Var_Data_f2c.hxx>
-#include <AdvApp2Var_SysBase.hxx>
-#include <AdvApp2Var_Data.hxx>
+#include <Geometry/AdvApp2Var/AdvApp2Var_Data_f2c.hxx>
+#include <Geometry/AdvApp2Var/AdvApp2Var_SysBase.hxx>
+#include <Geometry/AdvApp2Var/AdvApp2Var_Data.hxx>
 #include <Foundation/Standard/Standard.hxx>
 
 

@@ -18,7 +18,7 @@
 #include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
 #include <Mathematics/Primitives/gp_XY.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <AdvApp2Var_Node.hxx>
+#include <Geometry/AdvApp2Var/AdvApp2Var_Node.hxx>
 #include <Mathematics/Collections/TColgp_HArray2OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
 

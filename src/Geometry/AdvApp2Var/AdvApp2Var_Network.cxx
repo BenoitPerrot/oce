@@ -20,12 +20,12 @@
 
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <AdvApp2Var_SequenceOfPatch.hxx>
+#include <Geometry/AdvApp2Var/AdvApp2Var_SequenceOfPatch.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
-#include <AdvApp2Var_Patch.hxx>
-#include <AdvApp2Var_Network.hxx>
-#include <AdvApp2Var_Patch.hxx>
-#include <AdvApp2Var_SequenceOfPatch.hxx>
+#include <Geometry/AdvApp2Var/AdvApp2Var_Patch.hxx>
+#include <Geometry/AdvApp2Var/AdvApp2Var_Network.hxx>
+#include <Geometry/AdvApp2Var/AdvApp2Var_Patch.hxx>
+#include <Geometry/AdvApp2Var/AdvApp2Var_SequenceOfPatch.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 
 //==========================================================================================

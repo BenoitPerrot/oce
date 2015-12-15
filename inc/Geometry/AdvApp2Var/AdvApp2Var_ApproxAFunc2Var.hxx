@@ -16,12 +16,12 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <GeomAbs_IsoType.hxx>
 #include <GeomAbs_Shape.hxx>
-#include <AdvApp2Var_Context.hxx>
-#include <AdvApp2Var_Network.hxx>
-#include <AdvApp2Var_Framework.hxx>
+#include <Geometry/AdvApp2Var/AdvApp2Var_Context.hxx>
+#include <Geometry/AdvApp2Var/AdvApp2Var_Network.hxx>
+#include <Geometry/AdvApp2Var/AdvApp2Var_Framework.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_TColGeom_HArray1OfSurface.hxx>
-#include <AdvApp2Var_EvaluatorFunc2Var.hxx>
+#include <Geometry/AdvApp2Var/AdvApp2Var_EvaluatorFunc2Var.hxx>
 #include <Handle_Geom_BSplineSurface.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 class TColStd_HArray1OfReal;
@@ -235,7 +235,7 @@ private:
 };
 
 
-#include <AdvApp2Var_ApproxAFunc2Var.lxx>
+#include <Geometry/AdvApp2Var/AdvApp2Var_ApproxAFunc2Var.lxx>
 
 
 

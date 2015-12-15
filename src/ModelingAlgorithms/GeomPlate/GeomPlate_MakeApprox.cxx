@@ -16,7 +16,7 @@
 
 #include <GeomPlate_Surface.hxx>
 #include <Geom_BSplineSurface.hxx>
-#include <AdvApp2Var_Criterion.hxx>
+#include <Geometry/AdvApp2Var/AdvApp2Var_Criterion.hxx>
 #include <GeomPlate_MakeApprox.hxx>
 #include <GeomPlate_Surface.hxx>
 #include <GeomPlate_PlateG0Criterion.hxx>
@@ -36,8 +36,8 @@
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
 
-#include <AdvApp2Var_Criterion.hxx>
-#include <AdvApp2Var_ApproxAFunc2Var.hxx>
+#include <Geometry/AdvApp2Var/AdvApp2Var_Criterion.hxx>
+#include <Geometry/AdvApp2Var/AdvApp2Var_ApproxAFunc2Var.hxx>
 #include <AdvApprox_PrefCutting.hxx>
 #include <AdvApprox_Cutting.hxx>
 #include <AdvApprox_DichoCutting.hxx>

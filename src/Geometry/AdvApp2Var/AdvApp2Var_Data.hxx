@@ -15,7 +15,7 @@
 #define AdvApp2Var_Data_HeaderFile
 
 #include <Foundation/Standard/Standard_Macro.hxx>
-#include <AdvApp2Var_Data_f2c.hxx>
+#include <Geometry/AdvApp2Var/AdvApp2Var_Data_f2c.hxx>
 //
 struct mdnombr_1_ {
   doublereal pi, 

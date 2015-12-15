@@ -19,12 +19,12 @@
 //		G1135 : empty constructor
 
 
-#include <AdvApp2Var_Framework.hxx>
-#include <AdvApp2Var_Iso.hxx>
-#include <AdvApp2Var_Strip.hxx>
-#include <AdvApp2Var_SequenceOfStrip.hxx>
-#include <AdvApp2Var_Node.hxx>
-#include <AdvApp2Var_SequenceOfNode.hxx>
+#include <Geometry/AdvApp2Var/AdvApp2Var_Framework.hxx>
+#include <Geometry/AdvApp2Var/AdvApp2Var_Iso.hxx>
+#include <Geometry/AdvApp2Var/AdvApp2Var_Strip.hxx>
+#include <Geometry/AdvApp2Var/AdvApp2Var_SequenceOfStrip.hxx>
+#include <Geometry/AdvApp2Var/AdvApp2Var_Node.hxx>
+#include <Geometry/AdvApp2Var/AdvApp2Var_SequenceOfNode.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Mathematics/Primitives/gp_XY.hxx>
 

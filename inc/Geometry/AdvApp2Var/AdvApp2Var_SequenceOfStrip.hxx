@@ -101,13 +101,13 @@ private:
 };
 
 #define SeqItem AdvApp2Var_Strip
-#define SeqItem_hxx <AdvApp2Var_Strip.hxx>
+#define SeqItem_hxx <Geometry/AdvApp2Var/AdvApp2Var_Strip.hxx>
 #define TCollection_SequenceNode AdvApp2Var_SequenceNodeOfSequenceOfStrip
-#define TCollection_SequenceNode_hxx <AdvApp2Var_SequenceNodeOfSequenceOfStrip.hxx>
+#define TCollection_SequenceNode_hxx <Geometry/AdvApp2Var/AdvApp2Var_SequenceNodeOfSequenceOfStrip.hxx>
 #define Handle_TCollection_SequenceNode Handle_AdvApp2Var_SequenceNodeOfSequenceOfStrip
 #define TCollection_SequenceNode_Type_() AdvApp2Var_SequenceNodeOfSequenceOfStrip_Type_()
 #define TCollection_Sequence AdvApp2Var_SequenceOfStrip
-#define TCollection_Sequence_hxx <AdvApp2Var_SequenceOfStrip.hxx>
+#define TCollection_Sequence_hxx <Geometry/AdvApp2Var/AdvApp2Var_SequenceOfStrip.hxx>
 
 #include <Foundation/TCollection/TCollection_Sequence.lxx>
 

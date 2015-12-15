@@ -16,7 +16,7 @@
 #define AdvApp2Var_SysBase_HeaderFile
 
 #include <Foundation/Standard/Standard_Macro.hxx>
-#include <AdvApp2Var_Data_f2c.hxx>
+#include <Geometry/AdvApp2Var/AdvApp2Var_Data_f2c.hxx>
 #if _MSC_VER
 #include <stddef.h>
 #else

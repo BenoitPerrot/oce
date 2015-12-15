@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <AdvApp2Var_CriterionType.hxx>
-#include <AdvApp2Var_CriterionRepartition.hxx>
+#include <Geometry/AdvApp2Var/AdvApp2Var_CriterionType.hxx>
+#include <Geometry/AdvApp2Var/AdvApp2Var_CriterionRepartition.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class AdvApp2Var_Patch;
 class AdvApp2Var_Context;

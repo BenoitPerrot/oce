@@ -13,10 +13,10 @@
 
 // AdvApp2Var_MathBase.cxx
 #include <math.h>
-#include <AdvApp2Var_SysBase.hxx>
-#include <AdvApp2Var_Data_f2c.hxx>
-#include <AdvApp2Var_MathBase.hxx>
-#include <AdvApp2Var_Data.hxx>
+#include <Geometry/AdvApp2Var/AdvApp2Var_SysBase.hxx>
+#include <Geometry/AdvApp2Var/AdvApp2Var_Data_f2c.hxx>
+#include <Geometry/AdvApp2Var/AdvApp2Var_MathBase.hxx>
+#include <Geometry/AdvApp2Var/AdvApp2Var_Data.hxx>
 
 // statics 
 static

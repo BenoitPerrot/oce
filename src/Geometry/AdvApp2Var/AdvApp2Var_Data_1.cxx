@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <AdvApp2Var_Data.hxx>
+#include <Geometry/AdvApp2Var/AdvApp2Var_Data.hxx>
 
 //=======================================================================
 //function : Getmlgdrtl

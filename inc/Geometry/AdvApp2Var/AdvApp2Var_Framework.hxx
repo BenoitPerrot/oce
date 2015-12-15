@@ -10,8 +10,8 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <AdvApp2Var_SequenceOfNode.hxx>
-#include <AdvApp2Var_SequenceOfStrip.hxx>
+#include <Geometry/AdvApp2Var/AdvApp2Var_SequenceOfNode.hxx>
+#include <Geometry/AdvApp2Var/AdvApp2Var_SequenceOfStrip.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <GeomAbs_IsoType.hxx>
@@ -86,7 +86,7 @@ private:
 };
 
 
-#include <AdvApp2Var_Framework.lxx>
+#include <Geometry/AdvApp2Var/AdvApp2Var_Framework.lxx>
 
 
 
