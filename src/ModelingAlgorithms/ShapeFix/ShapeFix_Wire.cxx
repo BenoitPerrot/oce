@@ -127,7 +127,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Wire)
 #include <Geom_OffsetCurve.hxx>
 
 #include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
-#include <Adaptor3d_CurveOnSurface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>
 #include <Geom2dAdaptor_HCurve.hxx>
 #include <GeomAPI_ProjectPointOnCurve.hxx>
 

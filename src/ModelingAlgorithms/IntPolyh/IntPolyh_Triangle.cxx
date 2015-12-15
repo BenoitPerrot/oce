@@ -14,11 +14,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Adaptor3d_HSurface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <IntPolyh_StartPoint.hxx>
 #include <IntPolyh_Triangle.hxx>
-#include <Adaptor3d_HSurface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #include <IntPolyh_Point.hxx>
 #include <IntPolyh_Edge.hxx>
 #include <IntPolyh_Triangle.hxx>

@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Adaptor3d_HOffsetCurve.hxx>
 
-#include <Adaptor3d_OffsetCurve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_OffsetCurve.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 class Standard_OutOfRange;
 class Standard_NoSuchObject;
@@ -55,9 +55,9 @@ private:
 };
 
 #define TheCurve Adaptor3d_OffsetCurve
-#define TheCurve_hxx <Adaptor3d_OffsetCurve.hxx>
+#define TheCurve_hxx <Geometry/Adaptor3d/Adaptor3d_OffsetCurve.hxx>
 #define Adaptor2d_GenHCurve2d Adaptor3d_HOffsetCurve
-#define Adaptor2d_GenHCurve2d_hxx <Adaptor3d_HOffsetCurve.hxx>
+#define Adaptor2d_GenHCurve2d_hxx <Geometry/Adaptor3d/Adaptor3d_HOffsetCurve.hxx>
 #define Handle_Adaptor2d_GenHCurve2d Handle_Adaptor3d_HOffsetCurve
 #define Adaptor2d_GenHCurve2d_Type_() Adaptor3d_HOffsetCurve_Type_()
 

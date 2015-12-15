@@ -11,7 +11,7 @@
 #include <Handle_BRepAdaptor_HSurface.hxx>
 
 #include <BRepAdaptor_Surface.hxx>
-#include <Adaptor3d_HSurface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 class Standard_OutOfRange;
 class Standard_NoSuchObject;
 class Standard_DomainError;
@@ -61,7 +61,7 @@ private:
 #define Handle_Adaptor3d_GenHSurface Handle_BRepAdaptor_HSurface
 #define Adaptor3d_GenHSurface_Type_() BRepAdaptor_HSurface_Type_()
 
-#include <Adaptor3d_GenHSurface.lxx>
+#include <Geometry/Adaptor3d/Adaptor3d_GenHSurface.lxx>
 
 #undef TheSurface
 #undef TheSurface_hxx

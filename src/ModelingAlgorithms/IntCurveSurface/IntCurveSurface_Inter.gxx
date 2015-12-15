@@ -66,13 +66,13 @@
 #include <IntAna2d_Conic.hxx>
 #include <IntAna2d_AnaIntersection.hxx>
 #include <Mathematics/Primitives/gp_Hypr2d.hxx>
-#include <Adaptor3d_HCurve.hxx>
-#include <Adaptor3d_HSurface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 
 
 #include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
-#include <Adaptor3d_TopolTool.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_TopolTool.hxx>
 #include <ElCLib.hxx>
 //#define ICS_DEB
 static 

@@ -44,8 +44,8 @@
 #include <BRepAdaptor_Curve.hxx>  
 #include <BRepTest.hxx>
 #include <DBRep.hxx>
-#include <Adaptor3d_HCurveOnSurface.hxx>
-#include <Adaptor3d_CurveOnSurface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HCurveOnSurface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <BRep_Tool.hxx>
 
@@ -87,7 +87,7 @@
 #include <Mathematics/Collections/TColgp_SequenceOfXYZ.hxx>
 
 #include <BRepAdaptor_HCurve.hxx>
-#include <Adaptor3d_HIsoCurve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HIsoCurve.hxx>
 
 #include <Extrema_ExtPS.hxx>
 #include <Extrema_POnSurf.hxx>

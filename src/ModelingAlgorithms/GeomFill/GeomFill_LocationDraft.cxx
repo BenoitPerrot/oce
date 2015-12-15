@@ -15,8 +15,8 @@
 // commercial license or contractual agreement.
 
 #include <GeomFill_DraftTrihedron.hxx>
-#include <Adaptor3d_HSurface.hxx>
-#include <Adaptor3d_HCurve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt2d.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>

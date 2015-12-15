@@ -18,7 +18,7 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <GeomFill_TrihedronLaw.hxx>
-#include <Adaptor3d_HCurve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <GeomFill_Frenet.hxx>
@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_TYPE_END(GeomFill_Frenet)
 IMPLEMENT_DOWNCAST(GeomFill_Frenet,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(GeomFill_Frenet)
 #include <GeomAbs_CurveType.hxx>
-#include <Adaptor3d_HCurve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <Precision.hxx>
 #include <GeomLib.hxx>
 #include <GeomFill_SnglrFunc.hxx>

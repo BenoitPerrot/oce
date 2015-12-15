@@ -3,15 +3,15 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Adaptor3d_HSurfaceOfLinearExtrusion.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HSurfaceOfLinearExtrusion.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <Adaptor3d_SurfaceOfLinearExtrusion.hxx>
-#include <Adaptor3d_Surface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_SurfaceOfLinearExtrusion.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_Surface.hxx>
 
  
 
@@ -31,10 +31,10 @@ IMPLEMENT_STANDARD_RTTI(Adaptor3d_HSurfaceOfLinearExtrusion)
 
 
 #define TheSurface Adaptor3d_SurfaceOfLinearExtrusion
-#define TheSurface_hxx <Adaptor3d_SurfaceOfLinearExtrusion.hxx>
+#define TheSurface_hxx <Geometry/Adaptor3d/Adaptor3d_SurfaceOfLinearExtrusion.hxx>
 #define Adaptor3d_GenHSurface Adaptor3d_HSurfaceOfLinearExtrusion
-#define Adaptor3d_GenHSurface_hxx <Adaptor3d_HSurfaceOfLinearExtrusion.hxx>
+#define Adaptor3d_GenHSurface_hxx <Geometry/Adaptor3d/Adaptor3d_HSurfaceOfLinearExtrusion.hxx>
 #define Handle_Adaptor3d_GenHSurface Handle_Adaptor3d_HSurfaceOfLinearExtrusion
 #define Adaptor3d_GenHSurface_Type_() Adaptor3d_HSurfaceOfLinearExtrusion_Type_()
-#include <Adaptor3d_GenHSurface.gxx>
+#include <Geometry/Adaptor3d/Adaptor3d_GenHSurface.gxx>
 

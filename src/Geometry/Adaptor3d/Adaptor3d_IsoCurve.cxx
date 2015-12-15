@@ -11,12 +11,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Adaptor3d_HSurface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <Adaptor3d_HCurve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
@@ -26,10 +26,10 @@
 #include <Mathematics/Primitives/gp_Parab.hxx>
 #include <Geom_BezierCurve.hxx>
 #include <Geom_BSplineCurve.hxx>
-#include <Adaptor3d_IsoCurve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_IsoCurve.hxx>
 
-#include <Adaptor3d_HIsoCurve.hxx>
-#include <Adaptor3d_HSurfaceOfRevolution.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HIsoCurve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HSurfaceOfRevolution.hxx>
 #include <Geom_BezierSurface.hxx>
 #include <Geom_BSplineSurface.hxx>
 #include <GeomAbs_SurfaceType.hxx>

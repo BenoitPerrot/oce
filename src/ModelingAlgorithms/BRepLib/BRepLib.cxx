@@ -79,7 +79,7 @@
 #include <GCPnts_QuasiUniformDeflection.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <ElSLib.hxx>
-#include <Adaptor3d_CurveOnSurface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>
 #include <Extrema_LocateExtPC.hxx>
 #include <ProjLib_ProjectedCurve.hxx>
 #include <BRepClass3d_SolidClassifier.hxx>

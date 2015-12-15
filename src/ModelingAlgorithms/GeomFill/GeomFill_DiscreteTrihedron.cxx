@@ -19,7 +19,7 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <GeomFill_TrihedronLaw.hxx>
-#include <Adaptor3d_HCurve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <GeomFill_DiscreteTrihedron.hxx>
@@ -36,7 +36,7 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_DiscreteTrihedron)
 #include <GeomFill_DiscreteTrihedron.hxx>
 #include <GeomFill_Frenet.hxx>
 #include <GeomAbs_CurveType.hxx>
-#include <Adaptor3d_HCurve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
 #include <GeomFill_HSequenceOfAx2.hxx>

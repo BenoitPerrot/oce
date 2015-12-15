@@ -115,7 +115,7 @@
 
 #include <Geom2dAdaptor_HCurve.hxx>
 #include <GeomAdaptor_HSurface.hxx>
-#include <Adaptor3d_CurveOnSurface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>
 #include <GeomLib.hxx>
 #include <GeomFill_Generator.hxx>
 #include <Geom_Plane.hxx>

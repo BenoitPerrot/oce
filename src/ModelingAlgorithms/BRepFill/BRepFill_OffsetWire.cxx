@@ -56,8 +56,8 @@
 #include <BRepMAT2d_Explorer.hxx>
 #include <Geom2dAdaptor_Curve.hxx>
 #include <Geom2dAdaptor_HCurve.hxx>
-#include <Adaptor3d_OffsetCurve.hxx>
-#include <Adaptor3d_Curve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_OffsetCurve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
 #include <Geom_Surface.hxx>
 #include <Geom_Plane.hxx>
 #include <Geom2d_Curve.hxx>

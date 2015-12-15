@@ -17,12 +17,12 @@
 //  Modified by skv - Fri Aug 27 12:29:04 2004 OCC6503
 
 
-#include <Adaptor3d_Surface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_Surface.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BndLib_AddSurface.hxx>
 
 
-#include <Adaptor3d_HSurface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #include <GeomAbs_SurfaceType.hxx>
 #include <BndLib.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>

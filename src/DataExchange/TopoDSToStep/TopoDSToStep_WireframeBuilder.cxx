@@ -49,7 +49,7 @@
 #include <Geom_Ellipse.hxx>
 #include <Geom_Plane.hxx>
 
-#include <Adaptor3d_CurveOnSurface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>
 #include <BRepAdaptor_Curve.hxx>
 #include <BRep_Tool.hxx>
 #include <BRepTools.hxx>

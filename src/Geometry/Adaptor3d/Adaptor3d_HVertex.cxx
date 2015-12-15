@@ -13,7 +13,7 @@
 
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
-#include <Adaptor3d_HVertex.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HVertex.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Adaptor3d_HVertex)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

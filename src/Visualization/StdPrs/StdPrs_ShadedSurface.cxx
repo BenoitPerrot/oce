@@ -18,7 +18,7 @@
 //              for performance improvment
 
 #include <Prs3d_Presentation.hxx>
-#include <Adaptor3d_Surface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_Surface.hxx>
 #include <Prs3d_Drawer.hxx>
 #include <StdPrs_ShadedSurface.hxx>
 

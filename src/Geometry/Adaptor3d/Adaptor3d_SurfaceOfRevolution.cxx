@@ -14,13 +14,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Adaptor3d_HCurve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <Adaptor3d_HSurface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
@@ -32,9 +32,9 @@
 #include <Geom_BSplineSurface.hxx>
 #include <Mathematics/Primitives/gp_Ax3.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
-#include <Adaptor3d_SurfaceOfRevolution.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_SurfaceOfRevolution.hxx>
 
-#include <Adaptor3d_HSurfaceOfRevolution.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HSurfaceOfRevolution.hxx>
 #include <ElCLib.hxx>
 #include <Precision.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>

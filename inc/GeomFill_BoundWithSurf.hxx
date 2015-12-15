@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_GeomFill_BoundWithSurf.hxx>
 
-#include <Adaptor3d_CurveOnSurface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>
 #include <Handle_Law_Function.hxx>
 #include <GeomFill_Boundary.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

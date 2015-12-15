@@ -11,7 +11,7 @@
 #include <Handle_GeomAdaptor_GHCurve.hxx>
 
 #include <GeomAdaptor_Curve.hxx>
-#include <Adaptor3d_HCurve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 class Standard_OutOfRange;
 class Standard_NoSuchObject;
 class Standard_DomainError;
@@ -63,7 +63,7 @@ private:
 #define Handle_Adaptor3d_GenHCurve Handle_GeomAdaptor_GHCurve
 #define Adaptor3d_GenHCurve_Type_() GeomAdaptor_GHCurve_Type_()
 
-#include <Adaptor3d_GenHCurve.lxx>
+#include <Geometry/Adaptor3d/Adaptor3d_GenHCurve.lxx>
 
 #undef TheCurve
 #undef TheCurve_hxx

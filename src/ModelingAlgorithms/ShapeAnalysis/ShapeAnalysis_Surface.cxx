@@ -67,9 +67,9 @@ IMPLEMENT_STANDARD_RTTI(ShapeAnalysis_Surface)
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <ShapeAnalysis.hxx>
 
-#include <Adaptor3d_Curve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
 #include <GeomAdaptor_Curve.hxx>
-#include <Adaptor3d_IsoCurve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_IsoCurve.hxx>
 
 #include <GeomAbs_SurfaceForm.hxx>
 #include <BndLib_Add3dCurve.hxx>

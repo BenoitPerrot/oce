@@ -24,8 +24,8 @@
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Geom_BezierSurface.hxx>
 #include <Geom_BSplineSurface.hxx>
-#include <Adaptor3d_HSurface.hxx>
-#include <Adaptor3d_HCurve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 
 
 inline Standard_Real Adaptor3d_HSurfaceTool::FirstUParameter(const Handle(Adaptor3d_HSurface)& Surf)

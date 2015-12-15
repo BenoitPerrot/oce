@@ -3,28 +3,33 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#ifndef _Adaptor3d_IsoCurve_HeaderFile
-#define _Adaptor3d_IsoCurve_HeaderFile
+#ifndef _Adaptor3d_CurveOnSurface_HeaderFile
+#define _Adaptor3d_CurveOnSurface_HeaderFile
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_Adaptor3d_HSurface.hxx>
-#include <GeomAbs_IsoType.hxx>
-#include <Foundation/Standard/Standard_Real.hxx>
-#include <Adaptor3d_Curve.hxx>
+#include <Handle_Adaptor2d_HCurve2d.hxx>
+#include <GeomAbs_CurveType.hxx>
+#include <Mathematics/Primitives/gp_Circ.hxx>
+#include <Mathematics/Primitives/gp_Lin.hxx>
+#include <Handle_TColStd_HSequenceOfReal.hxx>
 #include <GeomAbs_Shape.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Adaptor3d_HCurve.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <GeomAbs_CurveType.hxx>
 #include <Handle_Geom_BezierCurve.hxx>
 #include <Handle_Geom_BSplineCurve.hxx>
 class Adaptor3d_HSurface;
+class Adaptor2d_HCurve2d;
+class TColStd_HSequenceOfReal;
 class Standard_NoSuchObject;
-class Standard_OutOfRange;
 class Standard_DomainError;
+class Standard_OutOfRange;
 class TColStd_Array1OfReal;
 class Adaptor3d_HCurve;
 class gp_Pnt;
@@ -36,55 +41,47 @@ class gp_Hypr;
 class gp_Parab;
 class Geom_BezierCurve;
 class Geom_BSplineCurve;
+class gp_Pnt2d;
+class gp_Vec2d;
 
 
-//! Defines an isoparametric curve on  a surface.  The
-//! type  of isoparametric curve  (U  or V) is defined
-//! with the   enumeration  IsoType from   GeomAbs  if
-//! NoneIso is given an error is raised.
-class Adaptor3d_IsoCurve  : public Adaptor3d_Curve
+//! An interface between the services provided by a curve
+//! lying on a surface from the package Geom and those
+//! required of the curve by algorithms which use it. The
+//! curve is defined as a 2D curve from the Geom2d
+//! package, in the parametric space of the surface.
+class Adaptor3d_CurveOnSurface  : public Adaptor3d_Curve
 {
 public:
 
   DEFINE_STANDARD_ALLOC
 
   
-  //! The iso is set to NoneIso.
-  Standard_EXPORT Adaptor3d_IsoCurve();
+  Standard_EXPORT Adaptor3d_CurveOnSurface();
   
-  //! The surface is loaded. The iso is set to NoneIso.
-  Standard_EXPORT Adaptor3d_IsoCurve(const Handle(Adaptor3d_HSurface)& S);
+  Standard_EXPORT Adaptor3d_CurveOnSurface(const Handle(Adaptor3d_HSurface)& S);
   
-  //! Creates  an  IsoCurve curve.   Iso  defines the
-  //! type (isoU or  isoU) Param defines the value of
-  //! the iso. The bounds  of  the iso are the bounds
-  //! of the surface.
-  Standard_EXPORT Adaptor3d_IsoCurve(const Handle(Adaptor3d_HSurface)& S, const GeomAbs_IsoType Iso, const Standard_Real Param);
+  //! Creates a CurveOnSurface from the 2d curve <C> and
+  //! the surface <S>.
+  Standard_EXPORT Adaptor3d_CurveOnSurface(const Handle(Adaptor2d_HCurve2d)& C, const Handle(Adaptor3d_HSurface)& S);
   
-  //! Create an IsoCurve curve.  Iso defines the type
-  //! (isoU or isov).  Param defines the value of the
-  //! iso. WFirst,WLast define the bounds of the iso.
-  Standard_EXPORT Adaptor3d_IsoCurve(const Handle(Adaptor3d_HSurface)& S, const GeomAbs_IsoType Iso, const Standard_Real Param, const Standard_Real WFirst, const Standard_Real WLast);
-  
-  //! Changes  the surface.  The  iso  is  reset  to
-  //! NoneIso.
+  //! Changes the surface.
   Standard_EXPORT   void Load (const Handle(Adaptor3d_HSurface)& S) ;
   
-  //! Changes the iso on the current surface.
-  Standard_EXPORT   void Load (const GeomAbs_IsoType Iso, const Standard_Real Param) ;
+  //! Changes the 2d curve.
+  Standard_EXPORT   void Load (const Handle(Adaptor2d_HCurve2d)& C) ;
   
-  //! Changes the iso on the current surface.
-  Standard_EXPORT   void Load (const GeomAbs_IsoType Iso, const Standard_Real Param, const Standard_Real WFirst, const Standard_Real WLast) ;
+  Standard_EXPORT  const  Handle(Adaptor2d_HCurve2d)& GetCurve()  const;
   
-     const  Handle(Adaptor3d_HSurface)& Surface()  const;
+  Standard_EXPORT  const  Handle(Adaptor3d_HSurface)& GetSurface()  const;
   
-      GeomAbs_IsoType Iso()  const;
+  Standard_EXPORT   Handle(Adaptor2d_HCurve2d)& ChangeCurve() ;
   
-      Standard_Real Parameter()  const;
+  Standard_EXPORT   Handle(Adaptor3d_HSurface)& ChangeSurface() ;
   
-      Standard_Real FirstParameter()  const;
+  Standard_EXPORT   Standard_Real FirstParameter()  const;
   
-      Standard_Real LastParameter()  const;
+  Standard_EXPORT   Standard_Real LastParameter()  const;
   
   Standard_EXPORT   GeomAbs_Shape Continuity()  const;
   
@@ -187,22 +184,45 @@ protected:
 
 private:
 
+  
+  Standard_EXPORT   void EvalKPart() ;
+  
+  //! Evaluates  myFirstSurf and myLastSurf
+  //! for trimming the curve on surface.
+  //! Following  methods  output left-bottom and right-top points
+  //! of located part on surface
+  //! for trimming the curve on surface.
+  Standard_EXPORT   void EvalFirstLastSurf() ;
+  
+  Standard_EXPORT   void LocatePart (const gp_Pnt2d& UV, const gp_Vec2d& DUV, const Handle(Adaptor3d_HSurface)& S, gp_Pnt2d& LeftBot, gp_Pnt2d& RightTop)  const;
+  
+  Standard_EXPORT   Standard_Boolean LocatePart_RevExt (const gp_Pnt2d& UV, const gp_Vec2d& DUV, const Handle(Adaptor3d_HSurface)& S, gp_Pnt2d& LeftBot, gp_Pnt2d& RightTop)  const;
+  
+  Standard_EXPORT   Standard_Boolean LocatePart_Offset (const gp_Pnt2d& UV, const gp_Vec2d& DUV, const Handle(Adaptor3d_HSurface)& S, gp_Pnt2d& LeftBot, gp_Pnt2d& RightTop)  const;
+  
+  //! Extracts the numbers of knots which equal
+  //! the point and checks derivative components
+  //! by  zero equivalence.
+  Standard_EXPORT   void FindBounds (const TColStd_Array1OfReal& Arr, const Standard_Real XYComp, const Standard_Real DUVComp, Standard_Integer& Bnd1, Standard_Integer& Bnd2, Standard_Boolean& DerIsNull)  const;
 
 
   Handle(Adaptor3d_HSurface) mySurface;
-  GeomAbs_IsoType myIso;
-  Standard_Real myFirst;
-  Standard_Real myLast;
-  Standard_Real myParameter;
+  Handle(Adaptor2d_HCurve2d) myCurve;
+  GeomAbs_CurveType myType;
+  gp_Circ myCirc;
+  gp_Lin myLin;
+  Handle(Adaptor3d_HSurface) myFirstSurf;
+  Handle(Adaptor3d_HSurface) myLastSurf;
+  Handle(TColStd_HSequenceOfReal) myIntervals;
+  GeomAbs_Shape myIntCont;
 
 
 };
 
 
-#include <Adaptor3d_IsoCurve.lxx>
 
 
 
 
 
-#endif // _Adaptor3d_IsoCurve_HeaderFile
+#endif // _Adaptor3d_CurveOnSurface_HeaderFile

@@ -16,7 +16,7 @@
 
 #include <GeomFill_TrihedronWithGuide.hxx>
 #include <GeomFill_SectionLaw.hxx>
-#include <Adaptor3d_HCurve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <Mathematics/Collections/TColgp_HArray2OfPnt2d.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
@@ -60,17 +60,17 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_LocationGuide)
 #include <Geom_BSplineCurve.hxx>
 #include <Geom_Curve.hxx>
 
-#include <Adaptor3d_SurfaceOfRevolution.hxx>
-#include <Adaptor3d_HSurface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_SurfaceOfRevolution.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 
 #include <IntCurveSurface_IntersectionPoint.hxx>
-#include <Adaptor3d_Surface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_Surface.hxx>
 #include <GeomAdaptor.hxx>
 #include <GeomAdaptor_HSurface.hxx>
 #include <GeomAdaptor_HCurve.hxx>
 
 
-#include <Adaptor3d_HCurve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <GeomFill_SectionLaw.hxx>
 #include <Geom_Curve.hxx>
 #include <Geom_Surface.hxx>

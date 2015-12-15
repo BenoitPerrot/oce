@@ -20,7 +20,7 @@
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Law_BSpline.hxx>
-#include <Adaptor3d_Curve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
 #include <Law.hxx>
 
 #include <Law_Interpolate.hxx>

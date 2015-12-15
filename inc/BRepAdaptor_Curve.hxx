@@ -14,7 +14,7 @@
 #include <GeomAdaptor_Curve.hxx>
 #include <Handle_Adaptor3d_HCurveOnSurface.hxx>
 #include <TopoDS_Edge.hxx>
-#include <Adaptor3d_Curve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <GeomAbs_Shape.hxx>

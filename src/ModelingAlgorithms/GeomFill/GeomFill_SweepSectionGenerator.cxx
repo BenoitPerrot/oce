@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Geom_BSplineCurve.hxx>
-#include <Adaptor3d_HCurve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Geom_Curve.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>

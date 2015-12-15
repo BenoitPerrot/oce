@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <BRepAdaptor_Surface.hxx>
-#include <Adaptor3d_Surface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_Surface.hxx>
 
  
 
@@ -36,5 +36,5 @@ IMPLEMENT_STANDARD_RTTI(BRepAdaptor_HSurface)
 #define Adaptor3d_GenHSurface_hxx <BRepAdaptor_HSurface.hxx>
 #define Handle_Adaptor3d_GenHSurface Handle_BRepAdaptor_HSurface
 #define Adaptor3d_GenHSurface_Type_() BRepAdaptor_HSurface_Type_()
-#include <Adaptor3d_GenHSurface.gxx>
+#include <Geometry/Adaptor3d/Adaptor3d_GenHSurface.gxx>
 

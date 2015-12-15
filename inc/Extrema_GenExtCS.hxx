@@ -14,9 +14,9 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Extrema_FuncExtCS.hxx>
-#include <Adaptor3d_SurfacePtr.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_SurfacePtr.hxx>
 #include <Handle_TColgp_HArray2OfPnt.hxx>
-#include <Adaptor3d_CurvePtr.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_CurvePtr.hxx>
 class TColgp_HArray2OfPnt;
 class StdFail_NotDone;
 class Standard_OutOfRange;

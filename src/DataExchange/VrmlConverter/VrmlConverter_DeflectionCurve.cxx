@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Adaptor3d_Curve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
 #include <VrmlConverter_Drawer.hxx>
 #include <VrmlConverter_DeflectionCurve.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>

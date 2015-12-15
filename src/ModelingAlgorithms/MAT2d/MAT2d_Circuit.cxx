@@ -64,7 +64,7 @@ IMPLEMENT_STANDARD_RTTI(MAT2d_Circuit)
 #include <MAT2d_DataMapOfBiIntSequenceOfInteger.hxx>
 #include <MAT2d_DataMapIteratorOfDataMapOfBiIntSequenceOfInteger.hxx>
 #include <Precision.hxx>
-#include <Adaptor3d_OffsetCurve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_OffsetCurve.hxx>
 #include <Geom2dInt_GInter.hxx>
 #include <Geom2dAdaptor_HCurve.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>

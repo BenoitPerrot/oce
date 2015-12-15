@@ -46,7 +46,7 @@
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 
 #include <GeomAdaptor_HCurve.hxx>
-#include <Adaptor3d_SurfaceOfLinearExtrusion.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_SurfaceOfLinearExtrusion.hxx>
 
 #include <BRepAdaptor_Curve.hxx>
 #include <BRep_TEdge.hxx>

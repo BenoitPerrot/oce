@@ -24,7 +24,7 @@
 #include <ChFiDS_HElSpine.hxx>
 #include <ChFiDS_Spine.hxx>
 #include <BRepAdaptor_HSurface.hxx>
-#include <Adaptor3d_TopolTool.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_TopolTool.hxx>
 #include <BRepAdaptor_HCurve2d.hxx>
 #include <ChFiDS_SequenceOfSurfData.hxx>
 #include <BRepBlend_Line.hxx>
@@ -60,8 +60,8 @@
 #include <Geom2dConvert.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 
-#include <Adaptor3d_CurveOnSurface.hxx>
-#include <Adaptor3d_HCurveOnSurface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HCurveOnSurface.hxx>
 #include <BRepLProp_CLProps.hxx>
 #include <GeomAdaptor_Curve.hxx>
 #include <GeomAdaptor_HCurve.hxx>

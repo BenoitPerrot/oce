@@ -18,7 +18,7 @@
 #include <ChFiDS_HElSpine.hxx>
 #include <ChFiDS_Spine.hxx>
 #include <BRepAdaptor_HSurface.hxx>
-#include <Adaptor3d_TopolTool.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_TopolTool.hxx>
 #include <BRepAdaptor_HCurve2d.hxx>
 #include <Geom_Surface.hxx>
 #include <TopoDS_Face.hxx>

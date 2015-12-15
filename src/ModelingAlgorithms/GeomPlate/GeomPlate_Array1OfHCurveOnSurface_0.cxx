@@ -9,11 +9,11 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <Adaptor3d_HCurveOnSurface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HCurveOnSurface.hxx>
  
 
 #define Array1Item Handle(Adaptor3d_HCurveOnSurface)
-#define Array1Item_hxx <Adaptor3d_HCurveOnSurface.hxx>
+#define Array1Item_hxx <Geometry/Adaptor3d/Adaptor3d_HCurveOnSurface.hxx>
 #define TCollection_Array1 GeomPlate_Array1OfHCurveOnSurface
 #define TCollection_Array1_hxx <GeomPlate_Array1OfHCurveOnSurface.hxx>
 #include <Foundation/TCollection/TCollection_Array1.gxx>

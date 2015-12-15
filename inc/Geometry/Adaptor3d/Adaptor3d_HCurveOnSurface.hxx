@@ -10,8 +10,8 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Adaptor3d_HCurveOnSurface.hxx>
 
-#include <Adaptor3d_CurveOnSurface.hxx>
-#include <Adaptor3d_HCurve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 class Standard_OutOfRange;
 class Standard_NoSuchObject;
 class Standard_DomainError;
@@ -57,13 +57,13 @@ private:
 };
 
 #define TheCurve Adaptor3d_CurveOnSurface
-#define TheCurve_hxx <Adaptor3d_CurveOnSurface.hxx>
+#define TheCurve_hxx <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>
 #define Adaptor3d_GenHCurve Adaptor3d_HCurveOnSurface
-#define Adaptor3d_GenHCurve_hxx <Adaptor3d_HCurveOnSurface.hxx>
+#define Adaptor3d_GenHCurve_hxx <Geometry/Adaptor3d/Adaptor3d_HCurveOnSurface.hxx>
 #define Handle_Adaptor3d_GenHCurve Handle_Adaptor3d_HCurveOnSurface
 #define Adaptor3d_GenHCurve_Type_() Adaptor3d_HCurveOnSurface_Type_()
 
-#include <Adaptor3d_GenHCurve.lxx>
+#include <Geometry/Adaptor3d/Adaptor3d_GenHCurve.lxx>
 
 #undef TheCurve
 #undef TheCurve_hxx

@@ -18,8 +18,8 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <Adaptor3d_HSurface.hxx>
-#include <Adaptor3d_TopolTool.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_TopolTool.hxx>
 #include <IntPatch_Point.hxx>
 #include <IntPatch_Line.hxx>
 #include <IntPatch_ImpImpIntersection.hxx>
@@ -44,7 +44,7 @@
 #include <Mathematics/Primitives/gp_Cone.hxx>
 #include <IntSurf.hxx>
 
-#include <Adaptor3d_HVertex.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HVertex.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #include <IntPatch_HInterTool.hxx>
 #include <IntPatch_ArcFunction.hxx>

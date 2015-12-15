@@ -5,7 +5,7 @@
 
 #include <LProp3d_CLProps.hxx>
 
-#include <Adaptor3d_HCurve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <LProp_BadContinuity.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
@@ -17,7 +17,7 @@
  
 
 #define Curve Handle(Adaptor3d_HCurve)
-#define Curve_hxx <Adaptor3d_HCurve.hxx>
+#define Curve_hxx <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #define Vec gp_Vec
 #define Vec_hxx <Mathematics/Primitives/gp_Vec.hxx>
 #define Pnt gp_Pnt

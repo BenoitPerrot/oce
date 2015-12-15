@@ -13,14 +13,14 @@
 
 #define No_Standard_OutOfRange
 
-#include <Adaptor3d_HSurface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <Adaptor3d_HCurve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
@@ -32,9 +32,9 @@
 #include <Geom_BSplineCurve.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
-#include <Adaptor3d_CurveOnSurface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>
 
-#include <Adaptor3d_HCurveOnSurface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HCurveOnSurface.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Mathematics/Primitives/gp_Ax22d.hxx>
@@ -59,7 +59,7 @@
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <ElCLib.hxx>
 #include <ElSLib.hxx>
-#include <Adaptor3d_InterFunc.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_InterFunc.hxx>
 #include <Mathematics/Optimization/math_FunctionRoots.hxx>
 #include <ElSLib.hxx>
 

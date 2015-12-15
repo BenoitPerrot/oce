@@ -10,8 +10,8 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Adaptor3d_CurvePtr.hxx>
-#include <Adaptor3d_SurfacePtr.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_CurvePtr.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_SurfacePtr.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>

@@ -19,8 +19,8 @@
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Adaptor3d_HSurface.hxx>
-#include <Adaptor3d_TopolTool.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_TopolTool.hxx>
 #include <Contap_Line.hxx>
 #include <Contap_SurfFunction.hxx>
 #include <Contap_Contour.hxx>
@@ -41,7 +41,7 @@
 #include <BndLib_AddSurface.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 
-#include <Adaptor3d_HSurfaceTool.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HSurfaceTool.hxx>
 
 #include <Contap_ContAna.hxx>
 #include <Contap_HContTool.hxx>

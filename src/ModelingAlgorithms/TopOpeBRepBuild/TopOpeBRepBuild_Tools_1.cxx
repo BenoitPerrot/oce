@@ -68,9 +68,9 @@
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 
-#include <Adaptor3d_HCurve.hxx>
-#include <Adaptor3d_CurveOnSurface.hxx>
-#include <Adaptor3d_HCurveOnSurface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HCurveOnSurface.hxx>
 
 #include <ProjLib_ProjectedCurve.hxx>
 #include <Extrema_LocateExtPC.hxx>

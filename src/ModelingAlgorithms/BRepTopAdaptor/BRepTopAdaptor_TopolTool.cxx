@@ -16,9 +16,9 @@
 
 #include <BRepAdaptor_HCurve2d.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <Adaptor3d_HSurface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
-#include <Adaptor3d_HVertex.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HVertex.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <BRepTopAdaptor_TopolTool.hxx>

@@ -16,7 +16,7 @@
 
 #include <TopoDS_Shape.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
-#include <Adaptor3d_HCurve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <TopoDS_Face.hxx>
 #include <IntCurvesFace_ShapeIntersector.hxx>

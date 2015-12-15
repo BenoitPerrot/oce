@@ -19,9 +19,9 @@
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <Adaptor3d_HSurface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #include <IntPatch_Polyhedron.hxx>
-#include <Adaptor3d_TopolTool.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_TopolTool.hxx>
 #include <IntSurf_ListOfPntOn2S.hxx>
 #include <IntPatch_Line.hxx>
 #include <IntPatch_PrmPrmIntersection_T3Bits.hxx>

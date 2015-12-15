@@ -28,7 +28,7 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <GeomAdaptor_Surface.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <Adaptor3d_HCurve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
@@ -41,7 +41,7 @@
 #include <GeomAdaptor_Curve.hxx>
 
 #include <GeomAdaptor_HCurve.hxx>
-#include <Adaptor3d_HCurve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>

@@ -11,7 +11,7 @@
 #include <Handle_BiTgte_HCurveOnEdge.hxx>
 
 #include <BiTgte_CurveOnEdge.hxx>
-#include <Adaptor3d_HCurve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 class Standard_OutOfRange;
 class Standard_NoSuchObject;
 class Standard_DomainError;
@@ -63,7 +63,7 @@ private:
 #define Handle_Adaptor3d_GenHCurve Handle_BiTgte_HCurveOnEdge
 #define Adaptor3d_GenHCurve_Type_() BiTgte_HCurveOnEdge_Type_()
 
-#include <Adaptor3d_GenHCurve.lxx>
+#include <Geometry/Adaptor3d/Adaptor3d_GenHCurve.lxx>
 
 #undef TheCurve
 #undef TheCurve_hxx

@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <BiTgte_CurveOnVertex.hxx>
-#include <Adaptor3d_Curve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
 
  
 
@@ -36,5 +36,5 @@ IMPLEMENT_STANDARD_RTTI(BiTgte_HCurveOnVertex)
 #define Adaptor3d_GenHCurve_hxx <BiTgte_HCurveOnVertex.hxx>
 #define Handle_Adaptor3d_GenHCurve Handle_BiTgte_HCurveOnVertex
 #define Adaptor3d_GenHCurve_Type_() BiTgte_HCurveOnVertex_Type_()
-#include <Adaptor3d_GenHCurve.gxx>
+#include <Geometry/Adaptor3d/Adaptor3d_GenHCurve.gxx>
 

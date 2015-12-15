@@ -21,7 +21,7 @@
 #include <BRepAdaptor_HSurface.hxx>
 #include <TopoDS_Face.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
-#include <Adaptor3d_HCurve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <IntCurveSurface_HInter.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
@@ -50,9 +50,9 @@
 
 
 
-#include <Adaptor3d_HSurfaceTool.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HSurfaceTool.hxx>
 #include <IntCurveSurface_TheHCurveTool.hxx>
-#include <Adaptor3d_HCurve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Intf_Tool.hxx>
 #include <IntCurveSurface_ThePolyhedronOfHInter.hxx>

@@ -64,8 +64,8 @@
 
 #include <BRepLib.hxx>
 #include <BRepAdaptor_Curve2d.hxx>
-#include <Adaptor3d_HSurface.hxx>
-#include <Adaptor3d_CurveOnSurface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>
 #include <Geom_BSplineSurface.hxx>
 #include <Geom_CylindricalSurface.hxx>
 #include <Geom_ConicalSurface.hxx>

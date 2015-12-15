@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Prs3d_Presentation.hxx>
-#include <Adaptor3d_HSurface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #include <Prs3d_Drawer.hxx>
 #include <StdPrs_WFDeflectionSurface.hxx>
 #include <Graphic3d_Group.hxx>
@@ -25,7 +25,7 @@
 #include <BndLib_AddSurface.hxx>
 #include <Precision.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Adaptor3d_IsoCurve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_IsoCurve.hxx>
 #include <StdPrs_DeflectionCurve.hxx>
 
 static void FindLimits(const Handle(Adaptor3d_HSurface)& surf ,

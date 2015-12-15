@@ -12,7 +12,7 @@
 
 #include <Handle_Adaptor3d_HSurface.hxx>
 #include <Handle_Adaptor2d_HCurve2d.hxx>
-#include <Adaptor3d_CurveOnSurface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>
 #include <Handle_Adaptor3d_HCurve.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>

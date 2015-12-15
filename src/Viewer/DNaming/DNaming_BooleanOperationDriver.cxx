@@ -62,7 +62,7 @@ IMPLEMENT_STANDARD_RTTI(DNaming_BooleanOperationDriver)
 #include <BRepCheck_Result.hxx>
 #include <BRepCheck_ListOfStatus.hxx>
 #include <BRepAdaptor_Surface.hxx>
-#include <Adaptor3d_HCurve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <GeomAbs_SurfaceType.hxx>
 
 static Standard_Boolean FixSameParameter(const TopoDS_Shape&    theShape,

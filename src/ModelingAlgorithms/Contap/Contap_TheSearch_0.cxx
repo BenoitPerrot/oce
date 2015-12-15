@@ -8,11 +8,11 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <Adaptor3d_HVertex.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HVertex.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #include <Contap_HCurve2dTool.hxx>
 #include <Contap_HContTool.hxx>
-#include <Adaptor3d_TopolTool.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_TopolTool.hxx>
 #include <Contap_ArcFunction.hxx>
 #include <Contap_ThePathPointOfTheSearch.hxx>
 #include <Contap_SequenceOfPathPointOfTheSearch.hxx>
@@ -23,7 +23,7 @@
  
 
 #define TheVertex Handle(Adaptor3d_HVertex)
-#define TheVertex_hxx <Adaptor3d_HVertex.hxx>
+#define TheVertex_hxx <Geometry/Adaptor3d/Adaptor3d_HVertex.hxx>
 #define TheArc Handle(Adaptor2d_HCurve2d)
 #define TheArc_hxx <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #define TheArcTool Contap_HCurve2dTool
@@ -32,7 +32,7 @@
 #define TheSOBTool_hxx <Contap_HContTool.hxx>
 #define Handle_TheTopolTool Handle_Adaptor3d_TopolTool
 #define TheTopolTool Adaptor3d_TopolTool
-#define TheTopolTool_hxx <Adaptor3d_TopolTool.hxx>
+#define TheTopolTool_hxx <Geometry/Adaptor3d/Adaptor3d_TopolTool.hxx>
 #define TheFunction Contap_ArcFunction
 #define TheFunction_hxx <Contap_ArcFunction.hxx>
 #define IntStart_ThePathPoint Contap_ThePathPointOfTheSearch

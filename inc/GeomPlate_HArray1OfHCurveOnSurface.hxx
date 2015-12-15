@@ -70,7 +70,7 @@ private:
 };
 
 #define ItemHArray1 Handle(Adaptor3d_HCurveOnSurface)
-#define ItemHArray1_hxx <Adaptor3d_HCurveOnSurface.hxx>
+#define ItemHArray1_hxx <Geometry/Adaptor3d/Adaptor3d_HCurveOnSurface.hxx>
 #define TheArray1 GeomPlate_Array1OfHCurveOnSurface
 #define TheArray1_hxx <GeomPlate_Array1OfHCurveOnSurface.hxx>
 #define TCollection_HArray1 GeomPlate_HArray1OfHCurveOnSurface

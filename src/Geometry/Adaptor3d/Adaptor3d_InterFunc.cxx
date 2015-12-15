@@ -16,7 +16,7 @@
 
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <Adaptor3d_InterFunc.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_InterFunc.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>

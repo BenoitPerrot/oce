@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
-#include <Adaptor3d_HSurface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <IntSurf_Quadric.hxx>

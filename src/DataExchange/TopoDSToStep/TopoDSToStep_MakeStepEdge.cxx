@@ -50,7 +50,7 @@
 #include <GeomToStep_MakeCurve.hxx>
 #include <GeomToStep_MakeLine.hxx>
 
-#include <Adaptor3d_CurveOnSurface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>
 
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>

@@ -15,7 +15,7 @@
 #include <TopoDS_Edge.hxx>
 #include <Geom_Curve.hxx>
 #include <BRepAdaptor_Curve.hxx>
-#include <Adaptor3d_HSurface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #include <GeomAbs_SurfaceType.hxx>
 #include <BRep_Tool.hxx>
 #include <Geom_Line.hxx>

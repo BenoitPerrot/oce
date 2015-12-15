@@ -27,8 +27,8 @@
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <IntPatch_Line.hxx>
-#include <Adaptor3d_HSurface.hxx>
-#include <Adaptor3d_TopolTool.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_TopolTool.hxx>
 #include <IntPatch_RstInt.hxx>
 
 #include <IntSurf.hxx>

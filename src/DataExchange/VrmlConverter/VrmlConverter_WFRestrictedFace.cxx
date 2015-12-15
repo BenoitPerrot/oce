@@ -17,7 +17,7 @@
 #include <Hatch_Hatcher.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <VrmlConverter_IsoAspect.hxx>
-#include <Adaptor3d_IsoCurve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_IsoCurve.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <BndLib_Add2dCurve.hxx>
 #include <Precision.hxx>

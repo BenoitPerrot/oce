@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <ChFiDS_ElSpine.hxx>
-#include <Adaptor3d_Curve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
 
  
 
@@ -36,5 +36,5 @@ IMPLEMENT_STANDARD_RTTI(ChFiDS_HElSpine)
 #define Adaptor3d_GenHCurve_hxx <ChFiDS_HElSpine.hxx>
 #define Handle_Adaptor3d_GenHCurve Handle_ChFiDS_HElSpine
 #define Adaptor3d_GenHCurve_Type_() ChFiDS_HElSpine_Type_()
-#include <Adaptor3d_GenHCurve.gxx>
+#include <Geometry/Adaptor3d/Adaptor3d_GenHCurve.gxx>
 

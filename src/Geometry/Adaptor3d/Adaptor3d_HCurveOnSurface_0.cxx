@@ -3,15 +3,15 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Adaptor3d_HCurveOnSurface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HCurveOnSurface.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <Adaptor3d_CurveOnSurface.hxx>
-#include <Adaptor3d_Curve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
 
  
 
@@ -31,10 +31,10 @@ IMPLEMENT_STANDARD_RTTI(Adaptor3d_HCurveOnSurface)
 
 
 #define TheCurve Adaptor3d_CurveOnSurface
-#define TheCurve_hxx <Adaptor3d_CurveOnSurface.hxx>
+#define TheCurve_hxx <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>
 #define Adaptor3d_GenHCurve Adaptor3d_HCurveOnSurface
-#define Adaptor3d_GenHCurve_hxx <Adaptor3d_HCurveOnSurface.hxx>
+#define Adaptor3d_GenHCurve_hxx <Geometry/Adaptor3d/Adaptor3d_HCurveOnSurface.hxx>
 #define Handle_Adaptor3d_GenHCurve Handle_Adaptor3d_HCurveOnSurface
 #define Adaptor3d_GenHCurve_Type_() Adaptor3d_HCurveOnSurface_Type_()
-#include <Adaptor3d_GenHCurve.gxx>
+#include <Geometry/Adaptor3d/Adaptor3d_GenHCurve.gxx>
 

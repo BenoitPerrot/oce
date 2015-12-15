@@ -6,15 +6,15 @@
 #include <BRepBlend_CSWalking.hxx>
 
 #include <BRepBlend_Line.hxx>
-#include <Adaptor3d_HSurface.hxx>
-#include <Adaptor3d_HCurve.hxx>
-#include <Adaptor3d_TopolTool.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_TopolTool.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <Adaptor3d_HVertex.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HVertex.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #include <BRepBlend_HCurve2dTool.hxx>
-#include <Adaptor3d_HSurfaceTool.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HSurfaceTool.hxx>
 #include <BRepBlend_HCurveTool.hxx>
 #include <BRepBlend_BlendTool.hxx>
 #include <BRepBlend_PointOnRst.hxx>
@@ -29,24 +29,24 @@
  
 
 #define TheVertex Handle(Adaptor3d_HVertex)
-#define TheVertex_hxx <Adaptor3d_HVertex.hxx>
+#define TheVertex_hxx <Geometry/Adaptor3d/Adaptor3d_HVertex.hxx>
 #define TheArc Handle(Adaptor2d_HCurve2d)
 #define TheArc_hxx <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #define TheSurface Handle(Adaptor3d_HSurface)
-#define TheSurface_hxx <Adaptor3d_HSurface.hxx>
+#define TheSurface_hxx <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #define TheCurve Handle(Adaptor3d_HCurve)
-#define TheCurve_hxx <Adaptor3d_HCurve.hxx>
+#define TheCurve_hxx <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #define TheVertexTool Standard_Integer
 #define TheVertexTool_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheArcTool BRepBlend_HCurve2dTool
 #define TheArcTool_hxx <BRepBlend_HCurve2dTool.hxx>
 #define TheSurfaceTool Adaptor3d_HSurfaceTool
-#define TheSurfaceTool_hxx <Adaptor3d_HSurfaceTool.hxx>
+#define TheSurfaceTool_hxx <Geometry/Adaptor3d/Adaptor3d_HSurfaceTool.hxx>
 #define TheCurveTool BRepBlend_HCurveTool
 #define TheCurveTool_hxx <BRepBlend_HCurveTool.hxx>
 #define Handle_TheTopolTool Handle_Adaptor3d_TopolTool
 #define TheTopolTool Adaptor3d_TopolTool
-#define TheTopolTool_hxx <Adaptor3d_TopolTool.hxx>
+#define TheTopolTool_hxx <Geometry/Adaptor3d/Adaptor3d_TopolTool.hxx>
 #define TheBlendTool BRepBlend_BlendTool
 #define TheBlendTool_hxx <BRepBlend_BlendTool.hxx>
 #define ThePointOnRst BRepBlend_PointOnRst

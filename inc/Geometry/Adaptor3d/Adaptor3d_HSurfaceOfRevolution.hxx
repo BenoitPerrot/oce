@@ -10,8 +10,8 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Adaptor3d_HSurfaceOfRevolution.hxx>
 
-#include <Adaptor3d_SurfaceOfRevolution.hxx>
-#include <Adaptor3d_HSurface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_SurfaceOfRevolution.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 class Standard_OutOfRange;
 class Standard_NoSuchObject;
 class Standard_DomainError;
@@ -55,13 +55,13 @@ private:
 };
 
 #define TheSurface Adaptor3d_SurfaceOfRevolution
-#define TheSurface_hxx <Adaptor3d_SurfaceOfRevolution.hxx>
+#define TheSurface_hxx <Geometry/Adaptor3d/Adaptor3d_SurfaceOfRevolution.hxx>
 #define Adaptor3d_GenHSurface Adaptor3d_HSurfaceOfRevolution
-#define Adaptor3d_GenHSurface_hxx <Adaptor3d_HSurfaceOfRevolution.hxx>
+#define Adaptor3d_GenHSurface_hxx <Geometry/Adaptor3d/Adaptor3d_HSurfaceOfRevolution.hxx>
 #define Handle_Adaptor3d_GenHSurface Handle_Adaptor3d_HSurfaceOfRevolution
 #define Adaptor3d_GenHSurface_Type_() Adaptor3d_HSurfaceOfRevolution_Type_()
 
-#include <Adaptor3d_GenHSurface.lxx>
+#include <Geometry/Adaptor3d/Adaptor3d_GenHSurface.lxx>
 
 #undef TheSurface
 #undef TheSurface_hxx

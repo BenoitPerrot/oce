@@ -20,7 +20,7 @@
 #include <IntTools_SequenceOfCurves.hxx>
 #include <IntTools_SequenceOfPntOn2Faces.hxx>
 #include <IntSurf_ListOfPntOn2S.hxx>
-#include <Adaptor3d_TopolTool.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_TopolTool.hxx>
 #include <IntTools_FaceFace.hxx>
 
 #include <Precision.hxx>
@@ -68,7 +68,7 @@
 #include <Extrema_POnCurv.hxx>
 #include <BndLib_AddSurface.hxx>
 
-#include <Adaptor3d_SurfacePtr.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_SurfacePtr.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_HLine2d.hxx>
 
 #include <GeomAbs_SurfaceType.hxx>

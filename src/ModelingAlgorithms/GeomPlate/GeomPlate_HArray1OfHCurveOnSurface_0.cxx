@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <Adaptor3d_HCurveOnSurface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HCurveOnSurface.hxx>
 #include <GeomPlate_Array1OfHCurveOnSurface.hxx>
 
  
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(GeomPlate_HArray1OfHCurveOnSurface)
 
 
 #define ItemHArray1 Handle(Adaptor3d_HCurveOnSurface)
-#define ItemHArray1_hxx <Adaptor3d_HCurveOnSurface.hxx>
+#define ItemHArray1_hxx <Geometry/Adaptor3d/Adaptor3d_HCurveOnSurface.hxx>
 #define TheArray1 GeomPlate_Array1OfHCurveOnSurface
 #define TheArray1_hxx <GeomPlate_Array1OfHCurveOnSurface.hxx>
 #define TCollection_HArray1 GeomPlate_HArray1OfHCurveOnSurface

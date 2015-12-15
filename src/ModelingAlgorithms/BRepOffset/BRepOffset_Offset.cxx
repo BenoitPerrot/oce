@@ -22,8 +22,8 @@
 #include <TopoDS_Shape.hxx>
 #include <BRepOffset_Offset.hxx>
 
-#include <Adaptor3d_HCurveOnSurface.hxx>
-#include <Adaptor3d_CurveOnSurface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HCurveOnSurface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>
 #include <BRepOffset.hxx>
 #include <BRepLib.hxx>
 #include <BRepLib_MakeFace.hxx>

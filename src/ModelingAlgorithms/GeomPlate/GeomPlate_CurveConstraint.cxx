@@ -19,8 +19,8 @@
 //              plus de reference a BRepAdaptor
 
 
-#include <Adaptor3d_HCurveOnSurface.hxx>
-#include <Adaptor3d_HCurve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HCurveOnSurface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <Geom2d_Curve.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #include <Law_Function.hxx>
@@ -40,7 +40,7 @@ IMPLEMENT_DOWNCAST(GeomPlate_CurveConstraint,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(GeomPlate_CurveConstraint)
 #include <GCPnts_AbscissaPoint.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
-#include <Adaptor3d_HSurface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #include <GeomAdaptor.hxx>
 #include <Precision.hxx>
 #include <GeomAdaptor_HSurface.hxx>

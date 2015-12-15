@@ -19,7 +19,7 @@
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Adaptor3d_Surface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_Surface.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
 #include <Extrema_POnSurf.hxx>
 #include <Extrema_FuncExtPS.hxx>

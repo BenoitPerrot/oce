@@ -16,7 +16,7 @@
 
 // jag 940616 #define Tolpetit 1.e-16
 
-#include <Adaptor3d_HSurface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #include <Foundation/StdFail/StdFail_UndefinedDerivative.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
@@ -27,7 +27,7 @@
 
 #include <Contap_SurfProps.hxx>
 #include <Contap_HContTool.hxx>
-#include <Adaptor3d_HSurfaceTool.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HSurfaceTool.hxx>
 
 Contap_SurfFunction::Contap_SurfFunction ():
   myMean(1.),

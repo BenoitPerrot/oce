@@ -28,10 +28,10 @@
 #include <ChFiDS_SurfData.hxx>
 #include <ChFiDS_HElSpine.hxx>
 #include <BRepAdaptor_HSurface.hxx>
-#include <Adaptor3d_TopolTool.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_TopolTool.hxx>
 #include <BRepAdaptor_HCurve2d.hxx>
 #include <BRepBlend_Line.hxx>
-#include <Adaptor3d_HSurface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #include <Blend_Function.hxx>
 #include <Blend_FuncInv.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
@@ -91,7 +91,7 @@
 #include <BRepAdaptor_HSurface.hxx>
 #include <BRepTopAdaptor_TopolTool.hxx>
 #include <BRepLProp_SLProps.hxx>
-#include <Adaptor3d_TopolTool.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_TopolTool.hxx>
 
 #include <TopAbs.hxx>
 #include <TopAbs_ShapeEnum.hxx>

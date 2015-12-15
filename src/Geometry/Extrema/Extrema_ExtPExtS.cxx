@@ -17,7 +17,7 @@
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <Adaptor3d_HCurve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <ElCLib.hxx>
 #include <Extrema_ExtPElC.hxx>
 #include <Extrema_ExtPExtS.hxx>
@@ -33,7 +33,7 @@
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Optimization/math_FunctionSetRoot.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>
-#include <Adaptor3d_HSurfaceOfLinearExtrusion.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HSurfaceOfLinearExtrusion.hxx>
 
 IMPLEMENT_STANDARD_HANDLE (Extrema_ExtPExtS, Standard_Transient)
 IMPLEMENT_STANDARD_RTTIEXT(Extrema_ExtPExtS, Standard_Transient)

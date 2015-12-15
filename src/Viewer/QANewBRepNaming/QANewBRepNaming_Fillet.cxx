@@ -25,7 +25,7 @@
 #include <QANewBRepNaming_Loader.hxx>
 
 #include <BRepAdaptor_Surface.hxx>
-#include <Adaptor3d_HCurve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <GeomAbs_SurfaceType.hxx>
 #include <GeomAbs_CurveType.hxx>
 #include <TopExp_Explorer.hxx>

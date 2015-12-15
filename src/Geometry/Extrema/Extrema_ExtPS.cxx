@@ -20,7 +20,7 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_TypeMismatch.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Adaptor3d_Surface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_Surface.hxx>
 #include <Extrema_POnSurf.hxx>
 #include <Extrema_ExtPS.hxx>
 #include <Extrema_GenExtPS.hxx>
@@ -28,8 +28,8 @@
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Precision.hxx>
 #include <GeomAbs_CurveType.hxx>
-#include <Adaptor3d_HSurfaceOfRevolution.hxx>
-#include <Adaptor3d_HSurfaceOfLinearExtrusion.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HSurfaceOfRevolution.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HSurfaceOfLinearExtrusion.hxx>
 #include <ElCLib.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>

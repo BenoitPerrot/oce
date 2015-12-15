@@ -33,8 +33,8 @@
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Precision.hxx>
 #include <ElCLib.hxx>
-#include <Adaptor3d_Curve.hxx>
-#include <Adaptor3d_HCurve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <GeomAdaptor_HCurve.hxx>
 #include <Geom_Line.hxx>
 #include <GeomConvert.hxx>

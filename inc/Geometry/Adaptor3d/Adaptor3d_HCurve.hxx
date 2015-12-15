@@ -141,7 +141,7 @@ private:
 };
 
 
-#include <Adaptor3d_HCurve.lxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HCurve.lxx>
 
 
 

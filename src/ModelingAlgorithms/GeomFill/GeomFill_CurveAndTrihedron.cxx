@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <GeomFill_TrihedronLaw.hxx>
-#include <Adaptor3d_HCurve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Mathematics/Primitives/gp_Mat.hxx>
 #include <GeomFill_LocationLaw.hxx>

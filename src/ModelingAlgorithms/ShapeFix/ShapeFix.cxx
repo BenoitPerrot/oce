@@ -44,7 +44,7 @@
 #include <Geom_Plane.hxx>
 #include <ShapeFix_Edge.hxx>
 #include <Geom2dAdaptor_HCurve.hxx>
-#include <Adaptor3d_CurveOnSurface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>
 #include <Geom_RectangularTrimmedSurface.hxx>
 #include <ShapeAnalysis_Surface.hxx>
 

@@ -12,7 +12,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Adaptor3d_OffsetCurve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_OffsetCurve.hxx>
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <Mathematics/Primitives/gp_Circ2d.hxx>
 #include <Mathematics/Primitives/gp_Elips2d.hxx>
@@ -36,7 +36,7 @@
 #include <Geom2d_BezierCurve.hxx>
 #include <Geom2d_BSplineCurve.hxx>
 
-#include <Adaptor3d_OffsetCurve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_OffsetCurve.hxx>
 
 GeomAbs_CurveType Geom2dGcc_CurveToolGeo::
 TheType(const Adaptor3d_OffsetCurve& ) {

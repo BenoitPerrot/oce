@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Adaptor3d_HCurve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <Mathematics/Collections/TColgp_HArray2OfPnt2d.hxx>
 #include <GeomFill_Frenet.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
@@ -41,7 +41,7 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_GuideTrihedronPlan)
 //#include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <ElCLib.hxx>
 
-#include <Adaptor3d_Curve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
 #include <GeomAdaptor_HCurve.hxx>
 #include <GeomAdaptor_HSurface.hxx>
 

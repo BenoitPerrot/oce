@@ -30,7 +30,7 @@ IMPLEMENT_DOWNCAST(ShapeAnalysis_TransferParametersProj,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ShapeAnalysis_TransferParametersProj)
 #include <Geom2dAdaptor_HCurve.hxx>
 #include <Geom2d_Curve.hxx>
-#include <Adaptor3d_CurveOnSurface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>
 #include <Geom_Surface.hxx>
 #include <GeomAdaptor_HSurface.hxx>
 #include <BRep_Tool.hxx>

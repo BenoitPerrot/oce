@@ -21,7 +21,7 @@
 //    msv 30.05.00 correct IsPlanar for a conic curve
 #include <Geom_Curve.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Adaptor3d_Curve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
 #include <Geom2d_Curve.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
@@ -41,7 +41,7 @@
 
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
-#include <Adaptor3d_Curve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
 #include <Extrema_ExtPC.hxx>
 #include <ShapeAnalysis.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>

@@ -93,7 +93,7 @@ private:
 };
 
 #define Array1Item Handle(Adaptor3d_HSurface)
-#define Array1Item_hxx <Adaptor3d_HSurface.hxx>
+#define Array1Item_hxx <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #define TCollection_Array1 Approx_Array1OfAdHSurface
 #define TCollection_Array1_hxx <Approx_Array1OfAdHSurface.hxx>
 

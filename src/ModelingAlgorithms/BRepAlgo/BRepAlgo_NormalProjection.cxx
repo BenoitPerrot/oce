@@ -20,7 +20,7 @@
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopTools_ListOfShape.hxx>
-#include <Adaptor3d_Curve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
 #include <BRepAlgo_NormalProjection.hxx>
 #include <ProjLib_CompProjectedCurve.hxx>
 #include <TopTools_HSequenceOfShape.hxx>

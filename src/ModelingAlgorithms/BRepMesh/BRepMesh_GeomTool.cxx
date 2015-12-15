@@ -19,7 +19,7 @@
 #include <TopAbs_Orientation.hxx>
 #include <CSLib.hxx>
 #include <Precision.hxx>
-#include <Adaptor3d_IsoCurve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_IsoCurve.hxx>
 #include <BRepAdaptor_Curve.hxx>
 #include <BRepAdaptor_HSurface.hxx>
 #include <Geom2d_Curve.hxx>

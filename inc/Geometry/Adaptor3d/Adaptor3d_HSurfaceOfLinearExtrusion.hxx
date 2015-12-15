@@ -10,8 +10,8 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Adaptor3d_HSurfaceOfLinearExtrusion.hxx>
 
-#include <Adaptor3d_SurfaceOfLinearExtrusion.hxx>
-#include <Adaptor3d_HSurface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_SurfaceOfLinearExtrusion.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 class Standard_OutOfRange;
 class Standard_NoSuchObject;
 class Standard_DomainError;
@@ -55,13 +55,13 @@ private:
 };
 
 #define TheSurface Adaptor3d_SurfaceOfLinearExtrusion
-#define TheSurface_hxx <Adaptor3d_SurfaceOfLinearExtrusion.hxx>
+#define TheSurface_hxx <Geometry/Adaptor3d/Adaptor3d_SurfaceOfLinearExtrusion.hxx>
 #define Adaptor3d_GenHSurface Adaptor3d_HSurfaceOfLinearExtrusion
-#define Adaptor3d_GenHSurface_hxx <Adaptor3d_HSurfaceOfLinearExtrusion.hxx>
+#define Adaptor3d_GenHSurface_hxx <Geometry/Adaptor3d/Adaptor3d_HSurfaceOfLinearExtrusion.hxx>
 #define Handle_Adaptor3d_GenHSurface Handle_Adaptor3d_HSurfaceOfLinearExtrusion
 #define Adaptor3d_GenHSurface_Type_() Adaptor3d_HSurfaceOfLinearExtrusion_Type_()
 
-#include <Adaptor3d_GenHSurface.lxx>
+#include <Geometry/Adaptor3d/Adaptor3d_GenHSurface.lxx>
 
 #undef TheSurface
 #undef TheSurface_hxx

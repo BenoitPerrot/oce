@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <BRep_CurveRepresentation.hxx>
-#include <Adaptor3d_HCurve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Shape.hxx>
 #include <BRepCheck_Edge.hxx>
@@ -63,8 +63,8 @@ IMPLEMENT_STANDARD_RTTI(BRepCheck_Edge)
 #include <GeomAdaptor_Curve.hxx>
 #include <GeomAdaptor_HCurve.hxx>
 #include <GeomAdaptor_HSurface.hxx>
-#include <Adaptor3d_CurveOnSurface.hxx>
-#include <Adaptor3d_HCurveOnSurface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HCurveOnSurface.hxx>
 
 #include <ProjLib_ProjectedCurve.hxx>
 #include <GeomProjLib.hxx>

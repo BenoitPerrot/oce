@@ -16,8 +16,8 @@
 
 #include <IntPatch_SequenceOfLine.hxx>
 #include <IntPatch_Line.hxx>
-#include <Adaptor3d_HSurface.hxx>
-#include <Adaptor3d_TopolTool.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_TopolTool.hxx>
 #include <IntPatch_LineConstructor.hxx>
 
 #include <IntPatch_GLine.hxx>

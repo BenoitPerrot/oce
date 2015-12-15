@@ -20,7 +20,7 @@
 #include <VrmlConverter_IsoAspect.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_Curve2d.hxx>
 #include <GCPnts_QuasiUniformDeflection.hxx>
-#include <Adaptor3d_IsoCurve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_IsoCurve.hxx>
 #include <VrmlConverter_DeflectionCurve.hxx>
 #include <StdPrs_ToolRFace.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>

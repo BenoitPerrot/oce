@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Law_Function.hxx>
-#include <Adaptor3d_CurveOnSurface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <GeomFill_BoundWithSurf.hxx>
@@ -31,7 +31,7 @@ IMPLEMENT_DOWNCAST(GeomFill_BoundWithSurf,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(GeomFill_BoundWithSurf)
 #include <Law.hxx>
 #include <Law_BSpFunc.hxx>
-#include <Adaptor3d_HSurface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>

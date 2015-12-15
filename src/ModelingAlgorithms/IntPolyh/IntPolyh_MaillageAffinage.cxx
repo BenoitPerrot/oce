@@ -26,7 +26,7 @@
 //  modified by ofv Thu Apr  8 14:58:13 2004 fip
 
 
-#include <Adaptor3d_HSurface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <IntPolyh_Point.hxx>

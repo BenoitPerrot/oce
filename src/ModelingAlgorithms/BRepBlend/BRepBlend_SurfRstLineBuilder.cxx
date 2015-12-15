@@ -17,15 +17,15 @@
 #include <stdio.h>
 
 #include <BRepBlend_Line.hxx>
-#include <Adaptor3d_HSurface.hxx>
-#include <Adaptor3d_TopolTool.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_TopolTool.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #include <Blend_SurfRstFunction.hxx>
 #include <Blend_FuncInv.hxx>
 #include <Blend_SurfPointFuncInv.hxx>
 #include <Blend_SurfCurvFuncInv.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <Adaptor3d_HVertex.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HVertex.hxx>
 #include <IntSurf_Transition.hxx>
 #include <BRepBlend_Extremity.hxx>
 #include <Blend_Point.hxx>

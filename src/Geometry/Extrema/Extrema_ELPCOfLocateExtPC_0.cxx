@@ -8,7 +8,7 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_TypeMismatch.hxx>
-#include <Adaptor3d_Curve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
 #include <Extrema_CurveTool.hxx>
 #include <Extrema_ExtPElC.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
@@ -20,7 +20,7 @@
  
 
 #define TheCurve Adaptor3d_Curve
-#define TheCurve_hxx <Adaptor3d_Curve.hxx>
+#define TheCurve_hxx <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
 #define TheCurveTool Extrema_CurveTool
 #define TheCurveTool_hxx <Extrema_CurveTool.hxx>
 #define TheExtPElC Extrema_ExtPElC

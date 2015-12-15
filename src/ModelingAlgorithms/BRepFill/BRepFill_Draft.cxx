@@ -45,7 +45,7 @@
 
 #include <GeomAdaptor_Surface.hxx>
 #include <BRepAdaptor_Surface.hxx>
-#include <Adaptor3d_HCurve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 
 #include <GeomLProp_SLProps.hxx>
 #include <Geom_Surface.hxx>
@@ -56,7 +56,7 @@
 #include <Geom_RectangularTrimmedSurface.hxx>
 
 #include <GeomAdaptor_HSurface.hxx>
-#include <Adaptor3d_Surface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_Surface.hxx>
 #include <BRepAdaptor_Curve.hxx>
 
 #include <GeomFill_LocationDraft.hxx>

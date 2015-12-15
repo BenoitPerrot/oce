@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <BRepAdaptor_CompCurve.hxx>
-#include <Adaptor3d_Curve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
 
  
 
@@ -36,5 +36,5 @@ IMPLEMENT_STANDARD_RTTI(BRepAdaptor_HCompCurve)
 #define Adaptor3d_GenHCurve_hxx <BRepAdaptor_HCompCurve.hxx>
 #define Handle_Adaptor3d_GenHCurve Handle_BRepAdaptor_HCompCurve
 #define Adaptor3d_GenHCurve_Type_() BRepAdaptor_HCompCurve_Type_()
-#include <Adaptor3d_GenHCurve.gxx>
+#include <Geometry/Adaptor3d/Adaptor3d_GenHCurve.gxx>
 

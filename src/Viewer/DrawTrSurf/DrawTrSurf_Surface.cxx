@@ -30,7 +30,7 @@ IMPLEMENT_DOWNCAST(DrawTrSurf_Surface,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(DrawTrSurf_Surface)
 #include <GeomTools_SurfaceSet.hxx>
 #include <GeomAdaptor_HSurface.hxx>
-#include <Adaptor3d_IsoCurve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_IsoCurve.hxx>
 #include <Precision.hxx>
 
 Standard_Real DrawTrSurf_SurfaceLimit = 400;

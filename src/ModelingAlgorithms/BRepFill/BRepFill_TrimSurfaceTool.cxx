@@ -27,7 +27,7 @@
 
 #include <Precision.hxx>
 
-#include <Adaptor3d_SurfaceOfRevolution.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_SurfaceOfRevolution.hxx>
 #include <AppParCurves_MultiCurve.hxx>
 #include <BRepFill_ComputeCLine.hxx>
 #include <BRepFill_MultiLine.hxx>

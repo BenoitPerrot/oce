@@ -12,7 +12,7 @@
 
 #include <TopoDS_Vertex.hxx>
 #include <Handle_BRepAdaptor_HCurve2d.hxx>
-#include <Adaptor3d_HVertex.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HVertex.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Adaptor2d_HCurve2d.hxx>
 #include <TopAbs_Orientation.hxx>

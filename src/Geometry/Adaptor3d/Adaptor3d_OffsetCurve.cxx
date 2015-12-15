@@ -26,9 +26,9 @@
 #include <Mathematics/Primitives/gp_Parab2d.hxx>
 #include <Geom2d_BezierCurve.hxx>
 #include <Geom2d_BSplineCurve.hxx>
-#include <Adaptor3d_OffsetCurve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_OffsetCurve.hxx>
 
-#include <Adaptor3d_HOffsetCurve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HOffsetCurve.hxx>
 #include <GeomAbs_SurfaceType.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>

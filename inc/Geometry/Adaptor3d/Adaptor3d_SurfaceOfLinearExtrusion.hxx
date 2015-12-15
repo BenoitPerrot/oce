@@ -12,7 +12,7 @@
 
 #include <Handle_Adaptor3d_HCurve.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
-#include <Adaptor3d_Surface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_Surface.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

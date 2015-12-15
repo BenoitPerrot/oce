@@ -48,8 +48,8 @@ IMPLEMENT_STANDARD_RTTI(ShapeCustom_SweptToElementary)
 #include <Geom_ConicalSurface.hxx>
 #include <Geom_Plane.hxx>
 
-#include <Adaptor3d_SurfaceOfRevolution.hxx>
-#include <Adaptor3d_SurfaceOfLinearExtrusion.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_SurfaceOfRevolution.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_SurfaceOfLinearExtrusion.hxx>
 #include <GeomAdaptor_HCurve.hxx>
 
 #include <Mathematics/Primitives/gp_Pln.hxx>

@@ -8,7 +8,7 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <Adaptor3d_HCurve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
@@ -18,7 +18,7 @@
  
 
 #define CurveGen Handle(Adaptor3d_HCurve)
-#define CurveGen_hxx <Adaptor3d_HCurve.hxx>
+#define CurveGen_hxx <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #define IntCurveSurface_HCurveTool IntCurveSurface_TheHCurveTool
 #define IntCurveSurface_HCurveTool_hxx <IntCurveSurface_TheHCurveTool.hxx>
 #include <IntCurveSurface_HCurveTool.gxx>

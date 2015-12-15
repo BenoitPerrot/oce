@@ -149,7 +149,7 @@ private:
 };
 
 
-#include <Adaptor3d_HSurfaceTool.lxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HSurfaceTool.lxx>
 
 
 

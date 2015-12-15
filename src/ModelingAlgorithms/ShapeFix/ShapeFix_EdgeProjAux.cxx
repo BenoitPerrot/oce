@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_EdgeProjAux)
 
 #include <ElCLib.hxx>
 
-#include <Adaptor3d_CurveOnSurface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>
 #include <Geom2dAdaptor_Curve.hxx>
 #include <Geom2dAdaptor_HCurve.hxx>
 #include <GeomAdaptor_Surface.hxx>

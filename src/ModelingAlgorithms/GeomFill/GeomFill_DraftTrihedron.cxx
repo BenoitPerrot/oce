@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_DraftTrihedron)
 
 #include <Precision.hxx>
 #include <GeomAbs_CurveType.hxx>
-#include <Adaptor3d_HCurve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 
 //=======================================================================
 //function : DDeriv

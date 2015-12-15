@@ -18,7 +18,7 @@
 #include <Geom_Curve.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geom_Geometry.hxx>
-#include <Adaptor3d_HCurve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Mathematics/Primitives/gp_Mat.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>

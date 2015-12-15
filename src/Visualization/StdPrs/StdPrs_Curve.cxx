@@ -19,7 +19,7 @@
 #define OCC64 
 
 #include <Prs3d_Presentation.hxx>
-#include <Adaptor3d_Curve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
 #include <Prs3d_Drawer.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <StdPrs_Curve.hxx>

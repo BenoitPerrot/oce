@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <Adaptor3d_HSurface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #include <Approx_Array1OfAdHSurface.hxx>
 
  
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(Approx_HArray1OfAdHSurface)
 
 
 #define ItemHArray1 Handle(Adaptor3d_HSurface)
-#define ItemHArray1_hxx <Adaptor3d_HSurface.hxx>
+#define ItemHArray1_hxx <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #define TheArray1 Approx_Array1OfAdHSurface
 #define TheArray1_hxx <Approx_Array1OfAdHSurface.hxx>
 #define TCollection_HArray1 Approx_HArray1OfAdHSurface

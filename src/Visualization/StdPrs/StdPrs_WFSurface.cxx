@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Prs3d_Presentation.hxx>
-#include <Adaptor3d_HSurface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #include <Prs3d_Drawer.hxx>
 #include <StdPrs_WFSurface.hxx>
 
@@ -27,7 +27,7 @@
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Precision.hxx>
 #include <BndLib_AddSurface.hxx>
-#include <Adaptor3d_IsoCurve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_IsoCurve.hxx>
 #include <StdPrs_Curve.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 

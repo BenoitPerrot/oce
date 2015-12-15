@@ -22,7 +22,7 @@
 #include <Foundation/StdFail/StdFail_InfiniteSolutions.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <Adaptor3d_Curve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
 #include <Extrema_POnCurv.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Extrema_ExtElC.hxx>
@@ -51,7 +51,7 @@
 #include <Extrema_ExtPElC.hxx>
 #include <Foundation/Standard/Standard_NullObject.hxx>
 
-#include <Adaptor3d_Curve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
 #include <Extrema_CurveTool.hxx>
 
 //=======================================================================

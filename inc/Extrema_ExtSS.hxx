@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Adaptor3d_SurfacePtr.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_SurfacePtr.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Extrema_ExtElSS.hxx>
 #include <Extrema_SequenceOfPOnSurf.hxx>

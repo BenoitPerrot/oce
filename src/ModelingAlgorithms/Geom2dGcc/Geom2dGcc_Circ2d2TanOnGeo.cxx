@@ -48,7 +48,7 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 
-#include <Adaptor3d_OffsetCurve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_OffsetCurve.hxx>
 #include <Geom2dAdaptor_HCurve.hxx>
 #include <Geom2dGcc_CurveToolGeo.hxx>
 #include <Geom2dInt_TheIntConicCurveOfGInter.hxx>

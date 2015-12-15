@@ -17,7 +17,7 @@
 #include <Extrema_HUBTreeOfSphere.hxx>
 #include <Handle_Bnd_HArray1OfSphere.hxx>
 #include <Extrema_FuncExtPS.hxx>
-#include <Adaptor3d_SurfacePtr.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_SurfacePtr.hxx>
 #include <Extrema_ExtFlag.hxx>
 #include <Extrema_ExtAlgo.hxx>
 #include <Handle_TColStd_HArray1OfReal.hxx>

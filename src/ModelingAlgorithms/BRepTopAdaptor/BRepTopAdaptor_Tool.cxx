@@ -15,13 +15,13 @@
 // commercial license or contractual agreement.
 
 #include <BRepTopAdaptor_TopolTool.hxx>
-#include <Adaptor3d_HSurface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #include <TopoDS_Face.hxx>
 #include <BRepTopAdaptor_Tool.hxx>
 
 #include <BRepTopAdaptor_TopolTool.hxx>
 #include <BRepAdaptor_HSurface.hxx>
-#include <Adaptor3d_HSurface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 
 
 BRepTopAdaptor_Tool::BRepTopAdaptor_Tool() { 

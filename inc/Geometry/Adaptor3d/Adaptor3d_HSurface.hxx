@@ -169,7 +169,7 @@ private:
 };
 
 
-#include <Adaptor3d_HSurface.lxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HSurface.lxx>
 
 
 

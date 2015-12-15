@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <GeomAdaptor_Surface.hxx>
-#include <Adaptor3d_Surface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_Surface.hxx>
 
  
 
@@ -36,5 +36,5 @@ IMPLEMENT_STANDARD_RTTI(GeomAdaptor_GHSurface)
 #define Adaptor3d_GenHSurface_hxx <GeomAdaptor_GHSurface.hxx>
 #define Handle_Adaptor3d_GenHSurface Handle_GeomAdaptor_GHSurface
 #define Adaptor3d_GenHSurface_Type_() GeomAdaptor_GHSurface_Type_()
-#include <Adaptor3d_GenHSurface.gxx>
+#include <Geometry/Adaptor3d/Adaptor3d_GenHSurface.gxx>
 

@@ -30,14 +30,14 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(GeomFill_Darboux)
 IMPLEMENT_DOWNCAST(GeomFill_Darboux,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(GeomFill_Darboux)
-#include <Adaptor3d_HCurve.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
-#include <Adaptor3d_CurveOnSurface.hxx>
-#include <Adaptor3d_HCurveOnSurface.hxx>
-#include <Adaptor3d_HSurface.hxx>
-#include <Adaptor3d_CurveOnSurfacePtr.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HCurveOnSurface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurfacePtr.hxx>
 #include <CSLib.hxx>
 #include <Mathematics/Collections/TColgp_Array2OfVec.hxx>
 #include <Geom_UndefinedValue.hxx>

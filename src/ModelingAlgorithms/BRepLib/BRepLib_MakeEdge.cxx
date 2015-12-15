@@ -44,7 +44,7 @@
 #include <GeomAdaptor_Curve.hxx>
 #include <Geom2dAdaptor_HCurve.hxx>
 #include <GeomAdaptor_HSurface.hxx>
-#include <Adaptor3d_CurveOnSurface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>
 #include <Extrema_ExtPC.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <ElCLib.hxx>

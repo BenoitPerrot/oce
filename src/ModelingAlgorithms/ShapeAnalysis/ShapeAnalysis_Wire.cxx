@@ -92,7 +92,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeAnalysis_Wire)
 
 //szvsh addition
 #include <Geom2dAdaptor_HCurve.hxx>
-#include <Adaptor3d_CurveOnSurface.hxx>
+#include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <ShapeAnalysis_Surface.hxx>
 #include <TopoDS_Wire.hxx>
