@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <AppDef_HArray1OfMultiPointConstraint.hxx>
+#include <Geometry/AppDef/AppDef_HArray1OfMultiPointConstraint.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <AppDef_MultiPointConstraint.hxx>
-#include <AppDef_Array1OfMultiPointConstraint.hxx>
+#include <Geometry/AppDef/AppDef_MultiPointConstraint.hxx>
+#include <Geometry/AppDef/AppDef_Array1OfMultiPointConstraint.hxx>
 
  
 
@@ -31,11 +31,11 @@ IMPLEMENT_STANDARD_RTTI(AppDef_HArray1OfMultiPointConstraint)
 
 
 #define ItemHArray1 AppDef_MultiPointConstraint
-#define ItemHArray1_hxx <AppDef_MultiPointConstraint.hxx>
+#define ItemHArray1_hxx <Geometry/AppDef/AppDef_MultiPointConstraint.hxx>
 #define TheArray1 AppDef_Array1OfMultiPointConstraint
-#define TheArray1_hxx <AppDef_Array1OfMultiPointConstraint.hxx>
+#define TheArray1_hxx <Geometry/AppDef/AppDef_Array1OfMultiPointConstraint.hxx>
 #define TCollection_HArray1 AppDef_HArray1OfMultiPointConstraint
-#define TCollection_HArray1_hxx <AppDef_HArray1OfMultiPointConstraint.hxx>
+#define TCollection_HArray1_hxx <Geometry/AppDef/AppDef_HArray1OfMultiPointConstraint.hxx>
 #define Handle_TCollection_HArray1 Handle_AppDef_HArray1OfMultiPointConstraint
 #define TCollection_HArray1_Type_() AppDef_HArray1OfMultiPointConstraint_Type_()
 #include <Foundation/TCollection/TCollection_HArray1.gxx>

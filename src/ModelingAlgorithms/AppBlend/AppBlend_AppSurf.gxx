@@ -12,12 +12,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <AppDef_MultiLine.hxx>
-#include <AppDef_MultiPointConstraint.hxx>
+#include <Geometry/AppDef/AppDef_MultiLine.hxx>
+#include <Geometry/AppDef/AppDef_MultiPointConstraint.hxx>
 #include <AppParCurves_MultiBSpCurve.hxx>
 #include <AppParCurves_MultiCurve.hxx>
-#include <AppDef_BSplineCompute.hxx>
-#include <AppDef_Compute.hxx>
+#include <Geometry/AppDef/AppDef_BSplineCompute.hxx>
+#include <Geometry/AppDef/AppDef_Compute.hxx>
 #include <AppParCurves_Constraint.hxx>
 #include <Approx_MCurvesToBSpCurve.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
@@ -33,7 +33,7 @@
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <AppParCurves_HArray1OfConstraintCouple.hxx>
-#include <AppDef_Variational.hxx>
+#include <Geometry/AppDef/AppDef_Variational.hxx>
 
 static   Standard_Boolean scal = 1;
 extern Standard_Boolean AppBlend_GetContextSplineApprox(); 

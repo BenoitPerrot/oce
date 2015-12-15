@@ -92,9 +92,9 @@ private:
 };
 
 #define Array1Item AppDef_MultiPointConstraint
-#define Array1Item_hxx <AppDef_MultiPointConstraint.hxx>
+#define Array1Item_hxx <Geometry/AppDef/AppDef_MultiPointConstraint.hxx>
 #define TCollection_Array1 AppDef_Array1OfMultiPointConstraint
-#define TCollection_Array1_hxx <AppDef_Array1OfMultiPointConstraint.hxx>
+#define TCollection_Array1_hxx <Geometry/AppDef/AppDef_Array1OfMultiPointConstraint.hxx>
 
 #include <Foundation/TCollection/TCollection_Array1.lxx>
 

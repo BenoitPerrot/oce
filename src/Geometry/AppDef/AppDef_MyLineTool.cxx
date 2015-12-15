@@ -14,13 +14,13 @@
 
 // AppDef_MyLineTool.cxx
 
-#include <AppDef_MultiLine.hxx>
+#include <Geometry/AppDef/AppDef_MultiLine.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfVec.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfVec2d.hxx>
-#include <AppDef_MyLineTool.hxx>
-#include <AppDef_MultiPointConstraint.hxx>
+#include <Geometry/AppDef/AppDef_MyLineTool.hxx>
+#include <Geometry/AppDef/AppDef_MultiPointConstraint.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>

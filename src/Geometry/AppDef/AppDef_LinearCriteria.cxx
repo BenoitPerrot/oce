@@ -19,12 +19,12 @@
 #include <FEmTool_Curve.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <AppDef_MultiLine.hxx>
+#include <Geometry/AppDef/AppDef_MultiLine.hxx>
 #include <FEmTool_HAssemblyTable.hxx>
 #include <Foundation/TColStd/TColStd_HArray2OfInteger.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <AppDef_LinearCriteria.hxx>
+#include <Geometry/AppDef/AppDef_LinearCriteria.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AppDef_LinearCriteria)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -50,7 +50,7 @@ IMPLEMENT_STANDARD_RTTI(AppDef_LinearCriteria)
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
 #include <Mathematics/Optimization/math_Gauss.hxx>
-#include <AppDef_MyLineTool.hxx>
+#include <Geometry/AppDef/AppDef_MyLineTool.hxx>
 
 static Standard_Integer order(const Handle(PLib_Base)& B)
 {

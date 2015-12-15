@@ -24,7 +24,7 @@
 #include <Mathematics/Collections/TColgp_Array1OfVec2d.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
-#include <AppDef_MultiPointConstraint.hxx>
+#include <Geometry/AppDef/AppDef_MultiPointConstraint.hxx>
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>

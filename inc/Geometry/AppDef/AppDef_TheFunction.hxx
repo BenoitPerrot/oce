@@ -3,46 +3,43 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#ifndef _AppDef_BSpParFunctionOfMyBSplGradientOfBSplineCompute_HeaderFile
-#define _AppDef_BSpParFunctionOfMyBSplGradientOfBSplineCompute_HeaderFile
+#ifndef _AppDef_TheFunction_HeaderFile
+#define _AppDef_TheFunction_HeaderFile
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <AppDef_MultiLine.hxx>
-#include <AppParCurves_MultiBSpCurve.hxx>
+#include <Geometry/AppDef/AppDef_MultiLine.hxx>
+#include <AppParCurves_MultiCurve.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
-#include <AppDef_BSpParLeastSquareOfMyBSplGradientOfBSplineCompute.hxx>
+#include <Geometry/AppDef/AppDef_TheLeastSquares.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>
 #include <Handle_AppParCurves_HArray1OfConstraintCouple.hxx>
 #include <Mathematics/Optimization/math_MultipleVarFunctionWithGradient.hxx>
-#include <Mathematics/Optimization/math_IntegerVector.hxx>
 #include <AppParCurves_Constraint.hxx>
 class TColStd_HArray1OfInteger;
 class AppParCurves_HArray1OfConstraintCouple;
 class AppDef_MultiLine;
 class AppDef_MyLineTool;
-class AppDef_BSpParLeastSquareOfMyBSplGradientOfBSplineCompute;
-class TColStd_Array1OfReal;
-class TColStd_Array1OfInteger;
-class AppParCurves_MultiBSpCurve;
-class math_Matrix;
+class AppDef_TheLeastSquares;
+class AppDef_TheResol;
+class AppParCurves_MultiCurve;
 
 
 
-class AppDef_BSpParFunctionOfMyBSplGradientOfBSplineCompute  : public math_MultipleVarFunctionWithGradient
+class AppDef_TheFunction  : public math_MultipleVarFunctionWithGradient
 {
 public:
 
   DEFINE_STANDARD_ALLOC
 
   
-  Standard_EXPORT AppDef_BSpParFunctionOfMyBSplGradientOfBSplineCompute(const AppDef_MultiLine& SSP, const Standard_Integer FirstPoint, const Standard_Integer LastPoint, const Handle(AppParCurves_HArray1OfConstraintCouple)& TheConstraints, const math_Vector& Parameters, const TColStd_Array1OfReal& Knots, const TColStd_Array1OfInteger& Mults, const Standard_Integer NbPol);
+  Standard_EXPORT AppDef_TheFunction(const AppDef_MultiLine& SSP, const Standard_Integer FirstPoint, const Standard_Integer LastPoint, const Handle(AppParCurves_HArray1OfConstraintCouple)& TheConstraints, const math_Vector& Parameters, const Standard_Integer Deg);
   
   Standard_EXPORT   Standard_Integer NbVariables()  const;
   
@@ -54,27 +51,17 @@ public:
   
   Standard_EXPORT  const  math_Vector& NewParameters()  const;
   
-  Standard_EXPORT   AppParCurves_MultiBSpCurve CurveValue() ;
+  Standard_EXPORT  const  AppParCurves_MultiCurve& CurveValue() ;
   
-  Standard_EXPORT   Standard_Real Error (const Standard_Integer IPoint, const Standard_Integer CurveIndex) ;
+  Standard_EXPORT   Standard_Real Error (const Standard_Integer IPoint, const Standard_Integer CurveIndex)  const;
   
   Standard_EXPORT   Standard_Real MaxError3d()  const;
   
   Standard_EXPORT   Standard_Real MaxError2d()  const;
   
-  Standard_EXPORT  const  math_Matrix& FunctionMatrix()  const;
-  
-  Standard_EXPORT  const  math_Matrix& DerivativeFunctionMatrix()  const;
-  
-  Standard_EXPORT  const  math_IntegerVector& Index()  const;
-  
   Standard_EXPORT   AppParCurves_Constraint FirstConstraint (const Handle(AppParCurves_HArray1OfConstraintCouple)& TheConstraints, const Standard_Integer FirstPoint)  const;
   
   Standard_EXPORT   AppParCurves_Constraint LastConstraint (const Handle(AppParCurves_HArray1OfConstraintCouple)& TheConstraints, const Standard_Integer LastPoint)  const;
-  
-  Standard_EXPORT   void SetFirstLambda (const Standard_Real l1) ;
-  
-  Standard_EXPORT   void SetLastLambda (const Standard_Real l2) ;
 
 
 
@@ -93,8 +80,8 @@ private:
 
   Standard_Boolean Done;
   AppDef_MultiLine MyMultiLine;
-  AppParCurves_MultiBSpCurve MyMultiBSpCurve;
-  Standard_Integer nbpoles;
+  AppParCurves_MultiCurve MyMultiCurve;
+  Standard_Integer Degre;
   math_Vector myParameters;
   Standard_Real FVal;
   math_Vector ValGrad_F;
@@ -104,7 +91,7 @@ private:
   math_Matrix PTLZ;
   math_Matrix A;
   math_Matrix DA;
-  AppDef_BSpParLeastSquareOfMyBSplGradientOfBSplineCompute MyLeastSquare;
+  AppDef_TheLeastSquares MyLeastSquare;
   Standard_Boolean Contraintes;
   Standard_Integer NbP;
   Standard_Integer NbCu;
@@ -116,8 +103,6 @@ private:
   Standard_Integer FirstP;
   Standard_Integer LastP;
   Handle(AppParCurves_HArray1OfConstraintCouple) myConstraints;
-  Standard_Real mylambda1;
-  Standard_Real mylambda2;
 
 
 };
@@ -128,4 +113,4 @@ private:
 
 
 
-#endif // _AppDef_BSpParFunctionOfMyBSplGradientOfBSplineCompute_HeaderFile
+#endif // _AppDef_TheFunction_HeaderFile

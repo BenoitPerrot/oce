@@ -3,27 +3,27 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <AppDef_BSpGradient_BFGSOfMyBSplGradientOfBSplineCompute.hxx>
+#include <Geometry/AppDef/AppDef_BSpGradient_BFGSOfMyBSplGradientOfBSplineCompute.hxx>
 
-#include <AppDef_MultiLine.hxx>
-#include <AppDef_MyLineTool.hxx>
-#include <AppDef_MyBSplGradientOfBSplineCompute.hxx>
-#include <AppDef_BSpParLeastSquareOfMyBSplGradientOfBSplineCompute.hxx>
-#include <AppDef_BSpParFunctionOfMyBSplGradientOfBSplineCompute.hxx>
+#include <Geometry/AppDef/AppDef_MultiLine.hxx>
+#include <Geometry/AppDef/AppDef_MyLineTool.hxx>
+#include <Geometry/AppDef/AppDef_MyBSplGradientOfBSplineCompute.hxx>
+#include <Geometry/AppDef/AppDef_BSpParLeastSquareOfMyBSplGradientOfBSplineCompute.hxx>
+#include <Geometry/AppDef/AppDef_BSpParFunctionOfMyBSplGradientOfBSplineCompute.hxx>
 #include <Mathematics/Optimization/math_MultipleVarFunctionWithGradient.hxx>
  
 
 #define MultiLine AppDef_MultiLine
-#define MultiLine_hxx <AppDef_MultiLine.hxx>
+#define MultiLine_hxx <Geometry/AppDef/AppDef_MultiLine.hxx>
 #define ToolLine AppDef_MyLineTool
-#define ToolLine_hxx <AppDef_MyLineTool.hxx>
+#define ToolLine_hxx <Geometry/AppDef/AppDef_MyLineTool.hxx>
 #define AppParCurves_BSpParLeastSquare AppDef_BSpParLeastSquareOfMyBSplGradientOfBSplineCompute
-#define AppParCurves_BSpParLeastSquare_hxx <AppDef_BSpParLeastSquareOfMyBSplGradientOfBSplineCompute.hxx>
+#define AppParCurves_BSpParLeastSquare_hxx <Geometry/AppDef/AppDef_BSpParLeastSquareOfMyBSplGradientOfBSplineCompute.hxx>
 #define AppParCurves_BSpParFunction AppDef_BSpParFunctionOfMyBSplGradientOfBSplineCompute
-#define AppParCurves_BSpParFunction_hxx <AppDef_BSpParFunctionOfMyBSplGradientOfBSplineCompute.hxx>
+#define AppParCurves_BSpParFunction_hxx <Geometry/AppDef/AppDef_BSpParFunctionOfMyBSplGradientOfBSplineCompute.hxx>
 #define AppParCurves_BSpGradient_BFGS AppDef_BSpGradient_BFGSOfMyBSplGradientOfBSplineCompute
-#define AppParCurves_BSpGradient_BFGS_hxx <AppDef_BSpGradient_BFGSOfMyBSplGradientOfBSplineCompute.hxx>
+#define AppParCurves_BSpGradient_BFGS_hxx <Geometry/AppDef/AppDef_BSpGradient_BFGSOfMyBSplGradientOfBSplineCompute.hxx>
 #define AppParCurves_BSpGradient AppDef_MyBSplGradientOfBSplineCompute
-#define AppParCurves_BSpGradient_hxx <AppDef_MyBSplGradientOfBSplineCompute.hxx>
+#define AppParCurves_BSpGradient_hxx <Geometry/AppDef/AppDef_MyBSplGradientOfBSplineCompute.hxx>
 #include <AppParCurves_BSpGradient_BFGS.gxx>
 

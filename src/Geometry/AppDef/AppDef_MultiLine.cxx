@@ -14,17 +14,17 @@
 
 // Lpa, le 3/12/91
 
-#include <AppDef_HArray1OfMultiPointConstraint.hxx>
+#include <Geometry/AppDef/AppDef_HArray1OfMultiPointConstraint.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/Standard/Standard_DimensionError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <AppDef_Array1OfMultiPointConstraint.hxx>
+#include <Geometry/AppDef/AppDef_Array1OfMultiPointConstraint.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
-#include <AppDef_MultiPointConstraint.hxx>
-#include <AppDef_MultiLine.hxx>
+#include <Geometry/AppDef/AppDef_MultiPointConstraint.hxx>
+#include <Geometry/AppDef/AppDef_MultiLine.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <AppDef_Array1OfMultiPointConstraint.hxx>
+#include <Geometry/AppDef/AppDef_Array1OfMultiPointConstraint.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 
 

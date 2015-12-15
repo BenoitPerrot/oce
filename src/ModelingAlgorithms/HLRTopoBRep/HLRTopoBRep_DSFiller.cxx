@@ -39,9 +39,9 @@
 #include <GeomProjLib.hxx>
 #include <Geom2d_Curve.hxx>
 #include <Geom2d_BSplineCurve.hxx>
-#include <AppDef_BSplineCompute.hxx>
-#include <AppDef_MultiLine.hxx>
-#include <AppDef_MultiPointConstraint.hxx>
+#include <Geometry/AppDef/AppDef_BSplineCompute.hxx>
+#include <Geometry/AppDef/AppDef_MultiLine.hxx>
+#include <Geometry/AppDef/AppDef_MultiPointConstraint.hxx>
 #include <AppParCurves_MultiBSpCurve.hxx>
 #include <HLRTopoBRep_FaceIsoLiner.hxx>
 #include <BRep_Tool.hxx>

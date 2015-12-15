@@ -3,26 +3,26 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <AppDef_ParFunctionOfTheGradient.hxx>
+#include <Geometry/AppDef/AppDef_ParFunctionOfTheGradient.hxx>
 
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <AppParCurves_HArray1OfConstraintCouple.hxx>
-#include <AppDef_MultiLine.hxx>
-#include <AppDef_MyLineTool.hxx>
-#include <AppDef_ParLeastSquareOfTheGradient.hxx>
-#include <AppDef_ResConstraintOfTheGradient.hxx>
+#include <Geometry/AppDef/AppDef_MultiLine.hxx>
+#include <Geometry/AppDef/AppDef_MyLineTool.hxx>
+#include <Geometry/AppDef/AppDef_ParLeastSquareOfTheGradient.hxx>
+#include <Geometry/AppDef/AppDef_ResConstraintOfTheGradient.hxx>
 #include <AppParCurves_MultiCurve.hxx>
  
 
 #define MultiLine AppDef_MultiLine
-#define MultiLine_hxx <AppDef_MultiLine.hxx>
+#define MultiLine_hxx <Geometry/AppDef/AppDef_MultiLine.hxx>
 #define ToolLine AppDef_MyLineTool
-#define ToolLine_hxx <AppDef_MyLineTool.hxx>
+#define ToolLine_hxx <Geometry/AppDef/AppDef_MyLineTool.hxx>
 #define Squares AppDef_ParLeastSquareOfTheGradient
-#define Squares_hxx <AppDef_ParLeastSquareOfTheGradient.hxx>
+#define Squares_hxx <Geometry/AppDef/AppDef_ParLeastSquareOfTheGradient.hxx>
 #define ResolCons AppDef_ResConstraintOfTheGradient
-#define ResolCons_hxx <AppDef_ResConstraintOfTheGradient.hxx>
+#define ResolCons_hxx <Geometry/AppDef/AppDef_ResConstraintOfTheGradient.hxx>
 #define AppParCurves_Function AppDef_ParFunctionOfTheGradient
-#define AppParCurves_Function_hxx <AppDef_ParFunctionOfTheGradient.hxx>
+#define AppParCurves_Function_hxx <Geometry/AppDef/AppDef_ParFunctionOfTheGradient.hxx>
 #include <AppParCurves_Function.gxx>
 

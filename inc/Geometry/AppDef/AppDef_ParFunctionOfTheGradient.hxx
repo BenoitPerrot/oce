@@ -11,13 +11,13 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <AppDef_MultiLine.hxx>
+#include <Geometry/AppDef/AppDef_MultiLine.hxx>
 #include <AppParCurves_MultiCurve.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
-#include <AppDef_ParLeastSquareOfTheGradient.hxx>
+#include <Geometry/AppDef/AppDef_ParLeastSquareOfTheGradient.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>
 #include <Handle_AppParCurves_HArray1OfConstraintCouple.hxx>
 #include <Mathematics/Optimization/math_MultipleVarFunctionWithGradient.hxx>

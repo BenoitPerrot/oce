@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <AppDef_TheLeastSquares.hxx>
+#include <Geometry/AppDef/AppDef_TheLeastSquares.hxx>
 
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_DimensionError.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <AppDef_MultiLine.hxx>
-#include <AppDef_MyLineTool.hxx>
+#include <Geometry/AppDef/AppDef_MultiLine.hxx>
+#include <Geometry/AppDef/AppDef_MyLineTool.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <AppParCurves_MultiCurve.hxx>
@@ -21,10 +21,10 @@
  
 
 #define MultiLine AppDef_MultiLine
-#define MultiLine_hxx <AppDef_MultiLine.hxx>
+#define MultiLine_hxx <Geometry/AppDef/AppDef_MultiLine.hxx>
 #define ToolLine AppDef_MyLineTool
-#define ToolLine_hxx <AppDef_MyLineTool.hxx>
+#define ToolLine_hxx <Geometry/AppDef/AppDef_MyLineTool.hxx>
 #define AppParCurves_LeastSquare AppDef_TheLeastSquares
-#define AppParCurves_LeastSquare_hxx <AppDef_TheLeastSquares.hxx>
+#define AppParCurves_LeastSquare_hxx <Geometry/AppDef/AppDef_TheLeastSquares.hxx>
 #include <AppParCurves_LeastSquare.gxx>
 

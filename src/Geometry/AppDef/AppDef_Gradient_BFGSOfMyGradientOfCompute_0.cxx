@@ -3,30 +3,30 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <AppDef_Gradient_BFGSOfMyGradientOfCompute.hxx>
+#include <Geometry/AppDef/AppDef_Gradient_BFGSOfMyGradientOfCompute.hxx>
 
-#include <AppDef_MultiLine.hxx>
-#include <AppDef_MyLineTool.hxx>
-#include <AppDef_MyGradientOfCompute.hxx>
-#include <AppDef_ParLeastSquareOfMyGradientOfCompute.hxx>
-#include <AppDef_ResConstraintOfMyGradientOfCompute.hxx>
-#include <AppDef_ParFunctionOfMyGradientOfCompute.hxx>
+#include <Geometry/AppDef/AppDef_MultiLine.hxx>
+#include <Geometry/AppDef/AppDef_MyLineTool.hxx>
+#include <Geometry/AppDef/AppDef_MyGradientOfCompute.hxx>
+#include <Geometry/AppDef/AppDef_ParLeastSquareOfMyGradientOfCompute.hxx>
+#include <Geometry/AppDef/AppDef_ResConstraintOfMyGradientOfCompute.hxx>
+#include <Geometry/AppDef/AppDef_ParFunctionOfMyGradientOfCompute.hxx>
 #include <Mathematics/Optimization/math_MultipleVarFunctionWithGradient.hxx>
  
 
 #define MultiLine AppDef_MultiLine
-#define MultiLine_hxx <AppDef_MultiLine.hxx>
+#define MultiLine_hxx <Geometry/AppDef/AppDef_MultiLine.hxx>
 #define ToolLine AppDef_MyLineTool
-#define ToolLine_hxx <AppDef_MyLineTool.hxx>
+#define ToolLine_hxx <Geometry/AppDef/AppDef_MyLineTool.hxx>
 #define AppParCurves_ParLeastSquare AppDef_ParLeastSquareOfMyGradientOfCompute
-#define AppParCurves_ParLeastSquare_hxx <AppDef_ParLeastSquareOfMyGradientOfCompute.hxx>
+#define AppParCurves_ParLeastSquare_hxx <Geometry/AppDef/AppDef_ParLeastSquareOfMyGradientOfCompute.hxx>
 #define AppParCurves_ResConstraint AppDef_ResConstraintOfMyGradientOfCompute
-#define AppParCurves_ResConstraint_hxx <AppDef_ResConstraintOfMyGradientOfCompute.hxx>
+#define AppParCurves_ResConstraint_hxx <Geometry/AppDef/AppDef_ResConstraintOfMyGradientOfCompute.hxx>
 #define AppParCurves_ParFunction AppDef_ParFunctionOfMyGradientOfCompute
-#define AppParCurves_ParFunction_hxx <AppDef_ParFunctionOfMyGradientOfCompute.hxx>
+#define AppParCurves_ParFunction_hxx <Geometry/AppDef/AppDef_ParFunctionOfMyGradientOfCompute.hxx>
 #define AppParCurves_Gradient_BFGS AppDef_Gradient_BFGSOfMyGradientOfCompute
-#define AppParCurves_Gradient_BFGS_hxx <AppDef_Gradient_BFGSOfMyGradientOfCompute.hxx>
+#define AppParCurves_Gradient_BFGS_hxx <Geometry/AppDef/AppDef_Gradient_BFGSOfMyGradientOfCompute.hxx>
 #define AppParCurves_Gradient AppDef_MyGradientOfCompute
-#define AppParCurves_Gradient_hxx <AppDef_MyGradientOfCompute.hxx>
+#define AppParCurves_Gradient_hxx <Geometry/AppDef/AppDef_MyGradientOfCompute.hxx>
 #include <AppParCurves_Gradient_BFGS.gxx>
 

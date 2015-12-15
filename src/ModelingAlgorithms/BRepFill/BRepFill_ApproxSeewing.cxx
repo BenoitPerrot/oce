@@ -21,9 +21,9 @@
 #include <BRepFill_ApproxSeewing.hxx>
 
 #include <AppParCurves_MultiCurve.hxx>
-#include <AppDef_Compute.hxx>
-#include <AppDef_MultiLine.hxx>
-#include <AppDef_MultiPointConstraint.hxx>
+#include <Geometry/AppDef/AppDef_Compute.hxx>
+#include <Geometry/AppDef/AppDef_MultiLine.hxx>
+#include <Geometry/AppDef/AppDef_MultiPointConstraint.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Mathematics/Polynomial/PLib.hxx>
 #include <Geom_BSplineCurve.hxx>

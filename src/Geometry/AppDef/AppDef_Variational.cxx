@@ -20,21 +20,21 @@
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <AppParCurves_HArray1OfConstraintCouple.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
-#include <AppDef_SmoothCriterion.hxx>
+#include <Geometry/AppDef/AppDef_SmoothCriterion.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_DimensionError.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Mathematics/Primitives/gp_VectorWithNullMagnitude.hxx>
-#include <AppDef_MultiLine.hxx>
+#include <Geometry/AppDef/AppDef_MultiLine.hxx>
 #include <AppParCurves_MultiBSpCurve.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
 #include <FEmTool_Curve.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <FEmTool_Assembly.hxx>
 #include <Mathematics/Polynomial/PLib_Base.hxx>
-#include <AppDef_Variational.hxx>
+#include <Geometry/AppDef/AppDef_Variational.hxx>
 
 #define No_Standard_RangeError
 #define No_Standard_OutOfRange
@@ -49,7 +49,7 @@
 #include <AppParCurves_Array1OfMultiPoint.hxx>
 #include <AppParCurves_MultiPoint.hxx>
 #include <AppParCurves_MultiBSpCurve.hxx>
-#include <AppDef_LinearCriteria.hxx>
+#include <Geometry/AppDef/AppDef_LinearCriteria.hxx>
 #include <Mathematics/Convert/Convert_CompPolynomialToPoles.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
@@ -68,7 +68,7 @@
 #include <Foundation/Standard/Standard_SStream.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Precision.hxx>
-#include <AppDef_MyLineTool.hxx>
+#include <Geometry/AppDef/AppDef_MyLineTool.hxx>
 
 #include <Foundation/SortTools/SortTools_StraightInsertionSortOfReal.hxx>
 #include <Foundation/SortTools/SortTools_ShellSortOfReal.hxx>

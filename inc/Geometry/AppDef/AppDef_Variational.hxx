@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <AppDef_MultiLine.hxx>
+#include <Geometry/AppDef/AppDef_MultiLine.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TColStd_HArray1OfReal.hxx>
 #include <Handle_AppParCurves_HArray1OfConstraintCouple.hxx>

@@ -25,9 +25,9 @@
 #include <GeomFill_Line.hxx>
 #include <GeomFill_AppSurf.hxx>
 #include <GeomAPI_PointsToBSpline.hxx>
-#include <AppDef_BSplineCompute.hxx>
-#include <AppDef_MultiLine.hxx>
-#include <AppDef_MultiPointConstraint.hxx>
+#include <Geometry/AppDef/AppDef_BSplineCompute.hxx>
+#include <Geometry/AppDef/AppDef_MultiLine.hxx>
+#include <Geometry/AppDef/AppDef_MultiPointConstraint.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Precision.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
@@ -35,7 +35,7 @@
 #include <Mathematics/Optimization/math_Vector.hxx>
 #include <AppParCurves_HArray1OfConstraintCouple.hxx>
 #include <AppParCurves_ConstraintCouple.hxx>
-#include <AppDef_Variational.hxx>
+#include <Geometry/AppDef/AppDef_Variational.hxx>
 
 
 //=======================================================================

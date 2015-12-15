@@ -3,21 +3,21 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#ifndef _AppDef_ParFunctionOfMyGradientOfCompute_HeaderFile
-#define _AppDef_ParFunctionOfMyGradientOfCompute_HeaderFile
+#ifndef _AppDef_ParFunctionOfMyGradientbisOfBSplineCompute_HeaderFile
+#define _AppDef_ParFunctionOfMyGradientbisOfBSplineCompute_HeaderFile
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <AppDef_MultiLine.hxx>
+#include <Geometry/AppDef/AppDef_MultiLine.hxx>
 #include <AppParCurves_MultiCurve.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
-#include <AppDef_ParLeastSquareOfMyGradientOfCompute.hxx>
+#include <Geometry/AppDef/AppDef_ParLeastSquareOfMyGradientbisOfBSplineCompute.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>
 #include <Handle_AppParCurves_HArray1OfConstraintCouple.hxx>
 #include <Mathematics/Optimization/math_MultipleVarFunctionWithGradient.hxx>
@@ -26,20 +26,20 @@ class TColStd_HArray1OfInteger;
 class AppParCurves_HArray1OfConstraintCouple;
 class AppDef_MultiLine;
 class AppDef_MyLineTool;
-class AppDef_ParLeastSquareOfMyGradientOfCompute;
-class AppDef_ResConstraintOfMyGradientOfCompute;
+class AppDef_ParLeastSquareOfMyGradientbisOfBSplineCompute;
+class AppDef_ResConstraintOfMyGradientbisOfBSplineCompute;
 class AppParCurves_MultiCurve;
 
 
 
-class AppDef_ParFunctionOfMyGradientOfCompute  : public math_MultipleVarFunctionWithGradient
+class AppDef_ParFunctionOfMyGradientbisOfBSplineCompute  : public math_MultipleVarFunctionWithGradient
 {
 public:
 
   DEFINE_STANDARD_ALLOC
 
   
-  Standard_EXPORT AppDef_ParFunctionOfMyGradientOfCompute(const AppDef_MultiLine& SSP, const Standard_Integer FirstPoint, const Standard_Integer LastPoint, const Handle(AppParCurves_HArray1OfConstraintCouple)& TheConstraints, const math_Vector& Parameters, const Standard_Integer Deg);
+  Standard_EXPORT AppDef_ParFunctionOfMyGradientbisOfBSplineCompute(const AppDef_MultiLine& SSP, const Standard_Integer FirstPoint, const Standard_Integer LastPoint, const Handle(AppParCurves_HArray1OfConstraintCouple)& TheConstraints, const math_Vector& Parameters, const Standard_Integer Deg);
   
   Standard_EXPORT   Standard_Integer NbVariables()  const;
   
@@ -91,7 +91,7 @@ private:
   math_Matrix PTLZ;
   math_Matrix A;
   math_Matrix DA;
-  AppDef_ParLeastSquareOfMyGradientOfCompute MyLeastSquare;
+  AppDef_ParLeastSquareOfMyGradientbisOfBSplineCompute MyLeastSquare;
   Standard_Boolean Contraintes;
   Standard_Integer NbP;
   Standard_Integer NbCu;
@@ -113,4 +113,4 @@ private:
 
 
 
-#endif // _AppDef_ParFunctionOfMyGradientOfCompute_HeaderFile
+#endif // _AppDef_ParFunctionOfMyGradientbisOfBSplineCompute_HeaderFile

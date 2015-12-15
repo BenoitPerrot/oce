@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_AppDef_HArray1OfMultiPointConstraint.hxx>
 
-#include <AppDef_Array1OfMultiPointConstraint.hxx>
+#include <Geometry/AppDef/AppDef_Array1OfMultiPointConstraint.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
@@ -69,11 +69,11 @@ private:
 };
 
 #define ItemHArray1 AppDef_MultiPointConstraint
-#define ItemHArray1_hxx <AppDef_MultiPointConstraint.hxx>
+#define ItemHArray1_hxx <Geometry/AppDef/AppDef_MultiPointConstraint.hxx>
 #define TheArray1 AppDef_Array1OfMultiPointConstraint
-#define TheArray1_hxx <AppDef_Array1OfMultiPointConstraint.hxx>
+#define TheArray1_hxx <Geometry/AppDef/AppDef_Array1OfMultiPointConstraint.hxx>
 #define TCollection_HArray1 AppDef_HArray1OfMultiPointConstraint
-#define TCollection_HArray1_hxx <AppDef_HArray1OfMultiPointConstraint.hxx>
+#define TCollection_HArray1_hxx <Geometry/AppDef/AppDef_HArray1OfMultiPointConstraint.hxx>
 #define Handle_TCollection_HArray1 Handle_AppDef_HArray1OfMultiPointConstraint
 #define TCollection_HArray1_Type_() AppDef_HArray1OfMultiPointConstraint_Type_()
 
