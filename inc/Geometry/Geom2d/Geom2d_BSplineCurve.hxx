@@ -19,7 +19,7 @@
 #include <Handle_TColStd_HArray1OfInteger.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Mutex.hxx>
-#include <Geom2d_BoundedCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_BoundedCurve.hxx>
 #include <Handle_Geom2d_Geometry.hxx>
 class TColgp_HArray1OfPnt2d;
 class TColStd_HArray1OfReal;

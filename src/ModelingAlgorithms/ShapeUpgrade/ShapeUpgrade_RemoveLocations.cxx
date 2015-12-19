@@ -37,7 +37,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_RemoveLocations)
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <TopoDS_Iterator.hxx>
 #include <TopTools_DataMapOfShapeShape.hxx>  
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom/Geom_Geometry.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 

@@ -22,7 +22,7 @@
 #include <Mathematics/Primitives/gp_Elips2d.hxx>
 #include <Mathematics/Primitives/gp_Hypr2d.hxx>
 #include <Mathematics/Primitives/gp_Parab2d.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <TopoDS_Edge.hxx>
 #include <BRepLib_MakeEdge2d.hxx>
 
@@ -31,12 +31,12 @@
 #include <BRep_Builder.hxx>
 #include <TopoDS.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
-#include <Geom2d_Line.hxx>
-#include <Geom2d_Circle.hxx>
-#include <Geom2d_Ellipse.hxx>
-#include <Geom2d_Parabola.hxx>
-#include <Geom2d_Hyperbola.hxx>
-#include <Geom2d_TrimmedCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_Line.hxx>
+#include <Geometry/Geom2d/Geom2d_Circle.hxx>
+#include <Geometry/Geom2d/Geom2d_Ellipse.hxx>
+#include <Geometry/Geom2d/Geom2d_Parabola.hxx>
+#include <Geometry/Geom2d/Geom2d_Hyperbola.hxx>
+#include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <Geom2dAdaptor_Curve.hxx>
 #include <Geometry/Extrema/Extrema_ExtPC2d.hxx>
 #include <Mathematics/Primitives/gp.hxx>

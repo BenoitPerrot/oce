@@ -45,7 +45,7 @@
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 
 #ifdef OCCT_DEBUG
 extern Standard_Boolean TopOpeBRepDS_GettraceGAP();

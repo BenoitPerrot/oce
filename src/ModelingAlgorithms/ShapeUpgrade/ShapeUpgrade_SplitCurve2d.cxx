@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <TColGeom2d_HArray1OfCurve.hxx>
 #include <ShapeUpgrade_SplitCurve2d.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -28,17 +28,17 @@ IMPLEMENT_STANDARD_TYPE_END(ShapeUpgrade_SplitCurve2d)
 IMPLEMENT_DOWNCAST(ShapeUpgrade_SplitCurve2d,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_SplitCurve2d)
 #include <ShapeUpgrade.hxx>
-#include <Geom2d_BSplineCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfReal.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
 #include <TColGeom2d_HArray1OfCurve.hxx>
-#include <Geom2d_TrimmedCurve.hxx>
-#include <Geom2d_OffsetCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_OffsetCurve.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <ShapeExtend.hxx>
 #include <Precision.hxx>
-#include <Geom2d_BezierCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_BezierCurve.hxx>
 #include <ShapeAnalysis_Curve.hxx>
 
 //=======================================================================

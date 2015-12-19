@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_ClosedFaceDivide)
 #include <ShapeExtend_WireData.hxx>
 #include <TopoDS_Edge.hxx>
 #include <ShapeAnalysis_Edge.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <ShapeAnalysis_Curve.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>

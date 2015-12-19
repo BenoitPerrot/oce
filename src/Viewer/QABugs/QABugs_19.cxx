@@ -29,7 +29,7 @@
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <Geometry/GCE2d/GCE2d_MakeSegment.hxx>
-#include <Geom2d_TrimmedCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <DrawTrSurf.hxx>
 
 #include <Precision.hxx>
@@ -517,11 +517,11 @@ static Standard_Integer OCC23683 (Draw_Interpretor& di, Standard_Integer argc,co
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <Mathematics/Primitives/gp_Ax22d.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
-#include <Geom2d_Circle.hxx>
-#include <Geom2d_TrimmedCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_Circle.hxx>
+#include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <BRepLib_MakeEdge.hxx>
 #include <BRepPrimAPI_MakeRevol.hxx>
-#include <Geom2d_OffsetCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_OffsetCurve.hxx>
 
 static int test_offset(Draw_Interpretor& di, Standard_Integer argc, const char** argv)
 {

@@ -29,7 +29,7 @@
 
 #include <Mathematics/Primitives/gp_Circ.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>
-#include <Geom2d_Line.hxx>
+#include <Geometry/Geom2d/Geom2d_Line.hxx>
 
 #include <BRepLib_MakeEdge.hxx>
 #include <BRepAdaptor_Curve.hxx>

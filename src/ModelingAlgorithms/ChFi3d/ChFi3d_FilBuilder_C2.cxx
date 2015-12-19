@@ -52,8 +52,8 @@
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Mathematics/Primitives/gp_Ax3.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
-#include <Geom2d_TrimmedCurve.hxx>
-#include <Geom2d_BSplineCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <Law_Linear.hxx>
 #include <BRepBlend_CSCircular.hxx>
 #include <BRepBlend_Line.hxx>

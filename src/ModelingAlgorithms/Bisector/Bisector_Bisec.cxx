@@ -14,18 +14,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Geom2d_TrimmedCurve.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
-#include <Geom2d_Point.hxx>
+#include <Geometry/Geom2d/Geom2d_Point.hxx>
 #include <Bisector_Bisec.hxx>
 #include <Bisector.hxx>
-#include <Geom2d_Circle.hxx>
-#include <Geom2d_Line.hxx>
-#include <Geom2d_Point.hxx>
-#include <Geom2d_CartesianPoint.hxx>
-#include <Geom2d_TrimmedCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_Circle.hxx>
+#include <Geometry/Geom2d/Geom2d_Line.hxx>
+#include <Geometry/Geom2d/Geom2d_Point.hxx>
+#include <Geometry/Geom2d/Geom2d_CartesianPoint.hxx>
+#include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>

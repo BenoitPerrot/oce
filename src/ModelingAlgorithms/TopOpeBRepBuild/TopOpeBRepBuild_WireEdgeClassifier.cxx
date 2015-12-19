@@ -31,7 +31,7 @@
 #include <TopoDS_Face.hxx>
 #include <TopExp_Explorer.hxx>
 #include <BRep_Tool.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <BRepClass_FaceClassifier.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>

@@ -34,8 +34,8 @@
 #include <ProjLib_Sphere.hxx>
 #include <ProjLib_Torus.hxx>
 #include <Precision.hxx>
-#include <Geom2d_BSplineCurve.hxx>
-#include <Geom2d_BezierCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_BezierCurve.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Mathematics/Primitives/gp_XY.hxx>
@@ -49,8 +49,8 @@
 #include <Foundation/TColStd/TColStd_HArray1OfBoolean.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <GeomAbs_IsoType.hxx>
-#include <Geom2d_Line.hxx>
-#include <Geom2d_TrimmedCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_Line.hxx>
+#include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <ElCLib.hxx>
 #include <GeomLib.hxx>
 

@@ -42,8 +42,8 @@
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
-#include <Geom2d_Circle.hxx>
-#include <Geom2d_Line.hxx>
+#include <Geometry/Geom2d/Geom2d_Circle.hxx>
+#include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Mathematics/Primitives/gp_Circ2d.hxx>

@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
-#include <Geom2d_BSplineCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
@@ -41,7 +41,7 @@
 #include <AdvApprox_PrefAndRec.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>
 #include <Precision.hxx>
-#include <Geom2d_BSplineCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>
 #include <Geometry/CPnts/CPnts_AbscissaPoint.hxx>

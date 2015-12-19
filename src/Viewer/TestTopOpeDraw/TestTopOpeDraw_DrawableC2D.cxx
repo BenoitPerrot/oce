@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Draw_Text2D.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Draw_Color.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Draw_Display.hxx>

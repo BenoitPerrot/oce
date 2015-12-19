@@ -51,7 +51,7 @@
 #include <ChFiDS_CommonPoint.hxx>
 #include <TopoDS_Face.hxx>
 #include <AppBlend_Approx.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <ChFi3d_Builder.hxx>
 #include <ChFi3d.hxx>
 #include <ChFi3d_Builder_0.hxx>
@@ -81,14 +81,14 @@
 #include <Geometry/Geom/Geom_Ellipse.hxx>
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <Geom2d_Line.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Line.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <Geometry/Geom/Geom_BezierSurface.hxx>
-#include <Geom2d_BSplineCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <Geom2dAdaptor_HCurve.hxx>
-#include <Geom2d_TrimmedCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <Geom2dInt_GInter.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <GeomAPI_ExtremaCurveCurve.hxx>

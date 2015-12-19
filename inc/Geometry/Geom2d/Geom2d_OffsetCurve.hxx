@@ -12,7 +12,7 @@
 
 #include <Handle_Geom2d_Curve.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

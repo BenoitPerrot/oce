@@ -14,13 +14,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Geom2d_TrimmedCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Mathematics/Primitives/gp_Hypr2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Geometry/GCE2d/GCE2d_MakeArcOfHyperbola.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <Geom2d_Hyperbola.hxx>
+#include <Geometry/Geom2d/Geom2d_Hyperbola.hxx>
 #include <ElCLib.hxx>
 
 GCE2d_MakeArcOfHyperbola::GCE2d_MakeArcOfHyperbola(const gp_Hypr2d&     Hypr ,

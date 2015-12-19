@@ -40,7 +40,7 @@
 
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 
 #include <TopExp.hxx>
 #include <TopExp_Explorer.hxx>

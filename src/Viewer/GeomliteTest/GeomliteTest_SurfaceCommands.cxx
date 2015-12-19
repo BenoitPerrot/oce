@@ -43,8 +43,8 @@
 #include <Geometry/Geom/Geom_BezierCurve.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 
-#include <Geom2d_TrimmedCurve.hxx>
-#include <Geom2d_OffsetCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_OffsetCurve.hxx>
 
 #include <GeomAdaptor_Surface.hxx>
 #include <GeomAdaptor_HSurface.hxx>

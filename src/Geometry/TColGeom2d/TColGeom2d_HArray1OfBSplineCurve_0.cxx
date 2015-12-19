@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <Geom2d_BSplineCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <TColGeom2d_Array1OfBSplineCurve.hxx>
 
  
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(TColGeom2d_HArray1OfBSplineCurve)
 
 
 #define ItemHArray1 Handle(Geom2d_BSplineCurve)
-#define ItemHArray1_hxx <Geom2d_BSplineCurve.hxx>
+#define ItemHArray1_hxx <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #define TheArray1 TColGeom2d_Array1OfBSplineCurve
 #define TheArray1_hxx <TColGeom2d_Array1OfBSplineCurve.hxx>
 #define TCollection_HArray1 TColGeom2d_HArray1OfBSplineCurve

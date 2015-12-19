@@ -18,7 +18,7 @@
 //:p0 abv 19.02.99: management of 'done' flag improved
 
 #include <StepGeom_Curve.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <StepToGeom_MakeCurve2d.hxx>
 #include <StepGeom_Curve.hxx>
 #include <StepGeom_TrimmedCurve.hxx>
@@ -29,8 +29,8 @@
 #include <StepGeom_Conic.hxx>
 #include <StepGeom_BoundedCurve.hxx>
 #include <StepToGeom_MakeBoundedCurve2d.hxx>
-#include <Geom2d_TrimmedCurve.hxx>
-#include <Geom2d_BSplineCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <Geom2dConvert.hxx>
 #include <StepGeom_CurveReplica.hxx>
 #include <StepGeom_CartesianTransformationOperator2d.hxx>

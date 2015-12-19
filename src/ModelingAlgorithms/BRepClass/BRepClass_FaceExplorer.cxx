@@ -23,7 +23,7 @@
 #include <BRepClass_Edge.hxx>
 #include <BRepClass_FaceExplorer.hxx>
 #include <Precision.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <TopoDS.hxx>
 #include <BRep_Tool.hxx>
 

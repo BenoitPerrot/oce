@@ -17,14 +17,14 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Geom2dGcc_QualifiedCurve.hxx>
-#include <Geom2d_Point.hxx>
+#include <Geometry/Geom2d/Geom2d_Point.hxx>
 #include <GccAna_Circ2d3Tan.hxx>
 #include <Mathematics/Primitives/gp_Circ2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Geom2dGcc_Circ2d3Tan.hxx>
 #include <Geom2dAdaptor_Curve.hxx>
-#include <Geom2d_Line.hxx>
-#include <Geom2d_Circle.hxx>
+#include <Geometry/Geom2d/Geom2d_Line.hxx>
+#include <Geometry/Geom2d/Geom2d_Circle.hxx>
 #include <Geom2dGcc_QCurve.hxx>
 #include <Geom2dGcc_Circ2d3TanIter.hxx>
 #include <GccEnt_QualifiedCirc.hxx>

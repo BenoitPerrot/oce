@@ -77,7 +77,7 @@
 #include <ChFiDS_CommonPoint.hxx>
 #include <TopoDS_Face.hxx>
 #include <AppBlend_Approx.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <ChFi3d_Builder.hxx>
 #include <ChFi3d_Builder_0.hxx>
 #include <ChFiDS_FaceInterference.hxx>
@@ -94,12 +94,12 @@
 #include <Geometry/Extrema/Extrema_POnCurv.hxx>
 #include <GeomLib.hxx>
 #include <Geometry/Extrema/Extrema_ExtPC.hxx>
-#include <Geom2d_BSplineCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <GeomAdaptor_HSurface.hxx>
-#include <Geom2d_Line.hxx>
+#include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <Geom2d_TrimmedCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <GeomInt_IntSS.hxx>
 #include <GeomLib.hxx>
 #include <GeomAdaptor.hxx>
@@ -114,7 +114,7 @@
 #include <Geom2dLProp_CLProps2d.hxx>
 #include <GeomPlate_CurveConstraint.hxx>
 #include <FairCurve_Batten.hxx>
-#include <Geom2d_BSplineCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>

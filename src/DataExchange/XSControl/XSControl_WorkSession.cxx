@@ -55,7 +55,7 @@ IMPLEMENT_STANDARD_RTTI(XSControl_WorkSession)
 
 // tpent
 #include <Interface_IntVal.hxx>
-#include <Geom2d_Point.hxx>
+#include <Geometry/Geom2d/Geom2d_Point.hxx>
 #include <Foundation/Dico/Dico_DictionaryOfTransient.hxx>
 #include <Foundation/Dico/Dico_IteratorOfDictionaryOfTransient.hxx>
 

@@ -16,7 +16,7 @@
 
 #include <TopOpeBRepDS_ListOfInterference.hxx>
 #include <TopOpeBRepDS_Interference.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <TopOpeBRepDS_CurveIterator.hxx>
 #include <TopOpeBRepDS_Interference.hxx>
 #include <TopOpeBRepDS_SurfaceCurveInterference.hxx>

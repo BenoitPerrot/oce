@@ -27,7 +27,7 @@
 #include <TopOpeBRepBuild_WireToFace.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <BRep_Builder.hxx>

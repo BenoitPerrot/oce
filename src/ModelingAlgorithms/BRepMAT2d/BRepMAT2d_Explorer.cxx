@@ -16,7 +16,7 @@
 
 #include <TopoDS_Face.hxx>
 #include <TopoDS_Wire.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TColGeom2d_SequenceOfCurve.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfBoolean.hxx>
@@ -28,7 +28,7 @@
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>  
-#include <Geom2d_TrimmedCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <GeomAPI.hxx>
 #include <BRep_Tool.hxx>
 #include <Mathematics/Primitives/gp.hxx>
@@ -38,7 +38,7 @@
 #include <TopoDS.hxx>
 
 #include <Precision.hxx>
-#include <Geom2d_BSplineCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <Geom2dConvert.hxx>
 #include <BRepLib_MakeFace.hxx>
 #include <TopExp.hxx>

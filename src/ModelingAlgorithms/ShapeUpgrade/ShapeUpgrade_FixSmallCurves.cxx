@@ -18,7 +18,7 @@
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Face.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <ShapeUpgrade_FixSmallCurves.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeUpgrade_FixSmallCurves)
@@ -38,7 +38,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_FixSmallCurves)
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Face.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <ShapeUpgrade_SplitCurve3d.hxx>
 #include <ShapeUpgrade_SplitCurve2d.hxx>
 

@@ -19,7 +19,7 @@
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Wire.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Foundation/TColStd/TColStd_ListOfReal.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>

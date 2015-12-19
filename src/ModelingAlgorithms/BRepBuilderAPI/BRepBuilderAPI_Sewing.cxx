@@ -57,7 +57,7 @@
 #include <TopTools_MapOfShape.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>
@@ -87,11 +87,11 @@ IMPLEMENT_STANDARD_RTTI(BRepBuilderAPI_Sewing)
 #include <Geometry/GCPnts/GCPnts_AbscissaPoint.hxx>
 #include <Geometry/GCPnts/GCPnts_UniformAbscissa.hxx>
 #include <Geometry/GCPnts/GCPnts_UniformDeflection.hxx>
-#include <Geom2d_BezierCurve.hxx>
-#include <Geom2d_BSplineCurve.hxx>
-#include <Geom2d_Curve.hxx>
-#include <Geom2d_Line.hxx>
-#include <Geom2d_TrimmedCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_BezierCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Line.hxx>
+#include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <Geom2dAdaptor_Curve.hxx>
 #include <Geom2dConvert.hxx>
 #include <Geometry/Geom/Geom_BezierCurve.hxx>

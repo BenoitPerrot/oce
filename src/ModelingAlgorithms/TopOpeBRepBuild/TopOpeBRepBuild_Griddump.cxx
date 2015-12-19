@@ -65,7 +65,7 @@
 #include <TopOpeBRepDS.hxx>
 #include <TopOpeBRepTool_ShapeExplorer.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <BRep_Tool.hxx>
 #include <TopoDS_Shell.hxx>
 #include <TopoDS_Wire.hxx>

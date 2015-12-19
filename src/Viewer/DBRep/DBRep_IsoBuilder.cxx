@@ -23,9 +23,9 @@
 #include <BRep_Tool.hxx>
 #include <Geom2dAdaptor_Curve.hxx>
 #include <Geom2dHatch_Intersector.hxx>
-#include <Geom2d_Curve.hxx>
-#include <Geom2d_Line.hxx>
-#include <Geom2d_TrimmedCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Line.hxx>
+#include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <HatchGen_Domain.hxx>
 #include <Precision.hxx>
 #include <TopAbs_ShapeEnum.hxx>

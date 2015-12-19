@@ -18,7 +18,7 @@
 
 
 #include <GeomliteTest.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Draw.hxx>
 #include <Draw_Interpretor.hxx>
 #include <DrawTrSurf.hxx>
@@ -28,8 +28,8 @@
 #include <Geom2dAPI_ExtremaCurveCurve.hxx>
 #include <Geom2dAPI_PointsToBSpline.hxx>
 #include <Geom2dAPI_InterCurveCurve.hxx>
-#include <Geom2d_Line.hxx>
-#include <Geom2d_TrimmedCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_Line.hxx>
+#include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Draw_Marker2D.hxx>
@@ -38,7 +38,7 @@
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <Precision.hxx>
-#include <Geom2d_Circle.hxx>
+#include <Geometry/Geom2d/Geom2d_Circle.hxx>
 #include <IntAna2d_AnaIntersection.hxx>
 #include <IntAna2d_IntPoint.hxx>
 

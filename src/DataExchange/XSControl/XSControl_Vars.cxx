@@ -14,7 +14,7 @@
 #include <Foundation/Dico/Dico_DictionaryOfTransient.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Geometry/Geom/Geom_Geometry.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_TYPE_END(XSControl_Vars)
 IMPLEMENT_DOWNCAST(XSControl_Vars,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XSControl_Vars)
 #include <Geometry/Geom/Geom_CartesianPoint.hxx>
-#include <Geom2d_CartesianPoint.hxx>
+#include <Geometry/Geom2d/Geom2d_CartesianPoint.hxx>
 #include <TopoDS_HShape.hxx>
 
 #include <Interface_Macros.hxx>

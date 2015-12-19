@@ -24,8 +24,8 @@
 #include <Geometry/Extrema/Extrema_ExtCC2d.hxx>
 #include <Geometry/Extrema/Extrema_ExtPC2d.hxx>
 #include <Geom2dAdaptor_Curve.hxx> 
-#include <Geom2d_Point.hxx> 
-#include <Geom2d_CartesianPoint.hxx> 
+#include <Geometry/Geom2d/Geom2d_Point.hxx> 
+#include <Geometry/Geom2d/Geom2d_CartesianPoint.hxx> 
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <TColGeom2d_SequenceOfGeometry.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>

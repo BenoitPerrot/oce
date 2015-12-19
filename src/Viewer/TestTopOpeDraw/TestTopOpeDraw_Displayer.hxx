@@ -23,7 +23,7 @@
 #include <TopAbs_Orientation.hxx>
 #include <Draw_Color.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <TopOpeBRepTool_define.hxx>

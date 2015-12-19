@@ -19,9 +19,9 @@
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Bisector_Bisec.hxx>
 #include <IntRes2d_Domain.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Bisector_BisecCC.hxx>
-#include <Geom2d_Line.hxx>
+#include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <Bisector_Inter.hxx>
 #include <IntRes2d_Intersection.hxx>
 #include <Bisector_Curve.hxx>
@@ -30,10 +30,10 @@
 #include <Bisector_BisecPC.hxx>
 #include <Bisector_FunctionInter.hxx>
 #include <Geom2dInt_GInter.hxx>
-#include <Geom2d_TrimmedCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <Geom2dAdaptor_Curve.hxx>
-#include <Geom2d_Curve.hxx>
-#include <Geom2d_Line.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <IntRes2d_Transition.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>
 #include <Precision.hxx>

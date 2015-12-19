@@ -23,7 +23,7 @@
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 
-#include <Geom2d_Line.hxx>
+#include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <GeomLProp_CLProps.hxx>

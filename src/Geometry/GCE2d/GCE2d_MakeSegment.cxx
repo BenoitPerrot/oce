@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Geom2d_TrimmedCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
@@ -22,7 +22,7 @@
 #include <Geometry/GCE2d/GCE2d_MakeSegment.hxx>
 #include <Geometry/GCE2d/GCE2d_MakeLine.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <Geom2d_Line.hxx>
+#include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <ElCLib.hxx>
 
 GCE2d_MakeSegment::GCE2d_MakeSegment(const gp_Pnt2d& P1 ,

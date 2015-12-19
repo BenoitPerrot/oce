@@ -24,17 +24,17 @@
 
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <Mathematics/Primitives/gp.hxx>
-#include <Geom2d_Line.hxx>
+#include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <GeomAbs_CurveType.hxx>
-#include <Geom2d_Circle.hxx>
-#include <Geom2d_Ellipse.hxx>
-#include <Geom2d_Parabola.hxx>
-#include <Geom2d_Hyperbola.hxx>
+#include <Geometry/Geom2d/Geom2d_Circle.hxx>
+#include <Geometry/Geom2d/Geom2d_Ellipse.hxx>
+#include <Geometry/Geom2d/Geom2d_Parabola.hxx>
+#include <Geometry/Geom2d/Geom2d_Hyperbola.hxx>
 #include <Geometry/Extrema/Extrema_POnCurv2d.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 
-#include <Geom2d_BezierCurve.hxx>
-#include <Geom2d_BSplineCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_BezierCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 
 #include <Geometry/Adaptor3d/Adaptor3d_OffsetCurve.hxx>
 

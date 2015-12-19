@@ -29,9 +29,9 @@
 #include <TopoDS_Vertex.hxx> 
 #include <TopTools_SequenceOfShape.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
-#include <Geom2d_Geometry.hxx>
-#include <Geom2d_Curve.hxx>
-#include <Geom2d_CartesianPoint.hxx>
+#include <Geometry/Geom2d/Geom2d_Geometry.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_CartesianPoint.hxx>
 #include <TColGeom2d_SequenceOfCurve.hxx>
 #include <MAT_Graph.hxx>
 #include <MAT_BasicElt.hxx>

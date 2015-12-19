@@ -147,8 +147,8 @@ static Standard_Integer OCC137_z (Draw_Interpretor& di, Standard_Integer argc, c
 #include <Geom2dGcc_QualifiedCurve.hxx>
 #include <Geom2dGcc_Circ2d2TanRad.hxx>
 #include <Mathematics/Primitives/gp_Elips2d.hxx>
-#include <Geom2d_Ellipse.hxx>
-#include <Geom2d_Circle.hxx>
+#include <Geometry/Geom2d/Geom2d_Ellipse.hxx>
+#include <Geometry/Geom2d/Geom2d_Circle.hxx>
 
 static Standard_Integer OCC24303(Draw_Interpretor& di, Standard_Integer n, const char** a)
 {

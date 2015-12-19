@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <ShapeUpgrade_FixSmallBezierCurves.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeUpgrade_FixSmallBezierCurves)
@@ -29,7 +29,7 @@ IMPLEMENT_DOWNCAST(ShapeUpgrade_FixSmallBezierCurves,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_FixSmallBezierCurves)
 #include <TopoDS_Edge.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <ShapeAnalysis_Edge.hxx>
 #include <TopExp.hxx>
@@ -44,7 +44,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_FixSmallBezierCurves)
 #include <BRep_Tool.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Shape.hxx>
-#include <Geom2d_TrimmedCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <GeomConvert_ApproxCurve.hxx>

@@ -68,7 +68,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_ComposeShell)
 
 #include <Geom2dInt_GInter.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <Geom2d_Line.hxx>
+#include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <Geom2dAdaptor_Curve.hxx>
 #include <GeomAdaptor_Surface.hxx>
 

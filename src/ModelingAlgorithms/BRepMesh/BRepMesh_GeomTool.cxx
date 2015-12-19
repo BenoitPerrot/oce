@@ -22,7 +22,7 @@
 #include <Geometry/Adaptor3d/Adaptor3d_IsoCurve.hxx>
 #include <BRepAdaptor_Curve.hxx>
 #include <BRepAdaptor_HSurface.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <BRep_Tool.hxx>
 
 //=======================================================================

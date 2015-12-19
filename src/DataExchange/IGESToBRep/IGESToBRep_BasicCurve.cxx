@@ -28,13 +28,13 @@
 #include <IGESToBRep_CurveAndSurface.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <IGESData_IGESEntity.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <IGESGeom_BSplineCurve.hxx>
 #include <IGESGeom_CircularArc.hxx>
 #include <IGESGeom_ConicArc.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <IGESGeom_CopiousData.hxx>
-#include <Geom2d_BSplineCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <IGESGeom_Line.hxx>
 #include <IGESGeom_SplineCurve.hxx>
 #include <Geometry/Geom/Geom_Transformation.hxx>
@@ -55,13 +55,13 @@
 #include <Geometry/Geom/Geom_Transformation.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 
-#include <Geom2d_BSplineCurve.hxx>
-#include <Geom2d_Circle.hxx>
-#include <Geom2d_Ellipse.hxx>
-#include <Geom2d_Hyperbola.hxx>
-#include <Geom2d_Line.hxx>
-#include <Geom2d_Parabola.hxx>
-#include <Geom2d_TrimmedCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_Circle.hxx>
+#include <Geometry/Geom2d/Geom2d_Ellipse.hxx>
+#include <Geometry/Geom2d/Geom2d_Hyperbola.hxx>
+#include <Geometry/Geom2d/Geom2d_Line.hxx>
+#include <Geometry/Geom2d/Geom2d_Parabola.hxx>
+#include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 
 #include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <Mathematics/Primitives/gp_Ax2d.hxx>

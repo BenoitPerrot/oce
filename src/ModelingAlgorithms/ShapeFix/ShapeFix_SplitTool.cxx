@@ -27,9 +27,9 @@
 #include <ShapeBuild_Edge.hxx>
 #include <ShapeExtend_WireData.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <Geom2d_Curve.hxx>
-#include <Geom2d_TrimmedCurve.hxx>
-#include <Geom2d_Line.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <BRep_Tool.hxx>
 #include <BRep_Builder.hxx>

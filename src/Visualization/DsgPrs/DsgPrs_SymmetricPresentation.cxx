@@ -56,7 +56,7 @@
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
-#include <Geom2d_Line.hxx>
+#include <Geometry/Geom2d/Geom2d_Line.hxx>
 
 #include <GeomAPI.hxx>
 

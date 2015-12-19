@@ -9,7 +9,7 @@
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <TColGeom2d_SequenceOfCurve.hxx>
 
  
@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_RTTI(TColGeom2d_HSequenceOfCurve)
 
 
 #define Item Handle(Geom2d_Curve)
-#define Item_hxx <Geom2d_Curve.hxx>
+#define Item_hxx <Geometry/Geom2d/Geom2d_Curve.hxx>
 #define TheSequence TColGeom2d_SequenceOfCurve
 #define TheSequence_hxx <TColGeom2d_SequenceOfCurve.hxx>
 #define TCollection_HSequence TColGeom2d_HSequenceOfCurve

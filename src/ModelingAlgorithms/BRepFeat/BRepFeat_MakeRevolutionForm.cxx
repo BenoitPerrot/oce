@@ -45,8 +45,8 @@
 
 #include <Geometry/Geom/Geom_Curve.hxx>
 
-#include <Geom2d_Curve.hxx>
-#include <Geom2d_Line.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Line.hxx>
 
 #include <Geometry/Geom/Geom_Line.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>
@@ -62,8 +62,8 @@
 
 #include <Geom2dAPI_InterCurveCurve.hxx>
 #include <Geom2dAPI_ExtremaCurveCurve.hxx>
-#include <Geom2d_Curve.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 
 
 #include <GeomAPI.hxx>

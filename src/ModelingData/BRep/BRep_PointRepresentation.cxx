@@ -17,7 +17,7 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <BRep_PointRepresentation.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

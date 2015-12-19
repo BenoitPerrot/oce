@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(ShapeExtend_WireData)
 IMPLEMENT_DOWNCAST(ShapeExtend_WireData,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ShapeExtend_WireData)
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <TopoDS_Iterator.hxx>

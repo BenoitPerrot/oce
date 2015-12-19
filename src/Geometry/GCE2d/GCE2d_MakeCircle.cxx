@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Geom2d_Circle.hxx>
+#include <Geometry/Geom2d/Geom2d_Circle.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Mathematics/Primitives/gp_Circ2d.hxx>
 #include <Mathematics/Primitives/gp_Ax2d.hxx>
@@ -22,7 +22,7 @@
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Geometry/GCE2d/GCE2d_MakeCircle.hxx>
 #include <Geometry/gce/gce_MakeCirc2d.hxx>
-#include <Geom2d_Circle.hxx>
+#include <Geometry/Geom2d/Geom2d_Circle.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 
 GCE2d_MakeCircle::GCE2d_MakeCircle(const gp_Circ2d& C)

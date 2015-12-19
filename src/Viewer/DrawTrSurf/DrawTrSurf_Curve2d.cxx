@@ -12,7 +12,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Draw_Color.hxx>
 #include <Draw_Display.hxx>
 #include <Draw_Drawable3D.hxx>
@@ -28,11 +28,11 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(DrawTrSurf_Curve2d)
 IMPLEMENT_DOWNCAST(DrawTrSurf_Curve2d,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(DrawTrSurf_Curve2d)
-#include <Geom2d_Curve.hxx>
-#include <Geom2d_OffsetCurve.hxx>
-#include <Geom2d_Line.hxx>
-#include <Geom2d_Parabola.hxx>
-#include <Geom2d_Hyperbola.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_OffsetCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_Line.hxx>
+#include <Geometry/Geom2d/Geom2d_Parabola.hxx>
+#include <Geometry/Geom2d/Geom2d_Hyperbola.hxx>
 #include <Geom2dAdaptor_Curve.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <GeomTools_Curve2dSet.hxx>

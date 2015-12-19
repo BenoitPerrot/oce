@@ -43,7 +43,7 @@
 #include <GeomFill_BoundWithSurf.hxx>
 #include <GeomFill_SimpleBound.hxx>
 #include <GeomFill_ConstrainedFilling.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>

@@ -19,7 +19,7 @@
 #include <TopoDS_Face.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Mathematics/Primitives/gp_Trsf2d.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <ShapeBuild_Edge.hxx>
@@ -44,18 +44,18 @@
 #include <ElCLib.hxx>
 #include <Precision.hxx>
 
-#include <Geom2d_TrimmedCurve.hxx>
-#include <Geom2d_Line.hxx>
-#include <Geom2d_BSplineCurve.hxx>
-#include <Geom2d_Conic.hxx>
+#include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_Line.hxx>
+#include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_Conic.hxx>
 #include <Geom2dConvert.hxx>
 #include <Geom2dConvert_ApproxCurve.hxx>
 #include <GeomAPI.hxx>
-#include <Geom2d_BezierCurve.hxx>
-#include <Geom2d_TrimmedCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_BezierCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <BRep_Curve3D.hxx>
 #include <BRep_CurveOnSurface.hxx>
-#include <Geom2d_OffsetCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_OffsetCurve.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Geometry/Geom/Geom_OffsetCurve.hxx>
 #include <TopTools_SequenceOfShape.hxx>

@@ -19,13 +19,13 @@
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <Geometry/Geom/Geom_Direction.hxx>
-#include <Geom2d_Direction.hxx>
+#include <Geometry/Geom2d/Geom2d_Direction.hxx>
 #include <GeomToStep_MakeDirection.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <Geometry/Geom/Geom_Direction.hxx>
-#include <Geom2d_Direction.hxx>
+#include <Geometry/Geom2d/Geom2d_Direction.hxx>
 #include <StepGeom_Direction.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>

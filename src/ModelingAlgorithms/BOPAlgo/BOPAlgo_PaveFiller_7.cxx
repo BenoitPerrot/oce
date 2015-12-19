@@ -47,7 +47,7 @@
 
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 
 #include <BOPCol_NCVector.hxx>
 #include <BOPCol_TBB.hxx>

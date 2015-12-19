@@ -30,7 +30,7 @@
 #include <GeomFill_SectionLaw.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <TColGeom_SequenceOfCurve.hxx>
 #include <GeomFill_Pipe.hxx>

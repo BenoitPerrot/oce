@@ -32,7 +32,7 @@
 #include <TopTools_DataMapOfShapeShape.hxx>
 #include <TopExp_Explorer.hxx>
 
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 
 #include <BRep_Builder.hxx>
 #include <BRep_Tool.hxx>

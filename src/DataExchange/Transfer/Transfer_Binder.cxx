@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(Transfer_Binder)
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Interface_IntVal.hxx>
-#include <Geom2d_CartesianPoint.hxx>
+#include <Geometry/Geom2d/Geom2d_CartesianPoint.hxx>
 
 
 //=======================================================================

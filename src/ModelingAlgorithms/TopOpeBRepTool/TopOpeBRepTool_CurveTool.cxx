@@ -16,7 +16,7 @@
 
 #include <TopOpeBRepTool_GeomTool.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <TopoDS_Shape.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
@@ -28,12 +28,12 @@
 #include <TopoDS.hxx>
 #include <TopoDS_Face.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
-#include <Geom2d_Line.hxx>
-#include <Geom2d_Circle.hxx>
-#include <Geom2d_Ellipse.hxx>
-#include <Geom2d_Parabola.hxx>
-#include <Geom2d_Hyperbola.hxx>
-#include <Geom2d_BSplineCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_Line.hxx>
+#include <Geometry/Geom2d/Geom2d_Circle.hxx>
+#include <Geometry/Geom2d/Geom2d_Ellipse.hxx>
+#include <Geometry/Geom2d/Geom2d_Parabola.hxx>
+#include <Geometry/Geom2d/Geom2d_Hyperbola.hxx>
+#include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <GeomLib_CheckBSplineCurve.hxx>
 #include <GeomLib_Check2dBSplineCurve.hxx>

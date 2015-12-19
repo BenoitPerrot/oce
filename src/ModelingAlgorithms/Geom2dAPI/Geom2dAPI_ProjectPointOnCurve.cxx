@@ -17,7 +17,7 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Extrema/Extrema_ExtPC2d.hxx>
 #include <Geom2dAPI_ProjectPointOnCurve.hxx>
 

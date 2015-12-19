@@ -75,9 +75,9 @@
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 
-#include <Geom2d_Curve.hxx>
-#include <Geom2d_BoundedCurve.hxx>
-#include <Geom2d_Line.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_BoundedCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_Line.hxx>
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>

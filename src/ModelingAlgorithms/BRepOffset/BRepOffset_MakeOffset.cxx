@@ -88,7 +88,7 @@
 #include <ElCLib.hxx>
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <Geometry/GCE2d/GCE2d_MakeLine.hxx>
-#include <Geom2d_Line.hxx>
+#include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <TopoDS_Iterator.hxx>
 #include <BRepLib_MakeFace.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>
@@ -104,7 +104,7 @@
 #include <TopoDS_Wire.hxx>
 #include <BRepTools_Substitution.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
-#include <Geom2d_TrimmedCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 
 #include <BRepTools_WireExplorer.hxx>
 #include <BRepLib_MakeEdge.hxx>

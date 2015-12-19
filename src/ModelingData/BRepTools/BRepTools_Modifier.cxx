@@ -42,7 +42,7 @@
 #include <BRepMesh_IncrementalMesh.hxx>
 #endif
 
-#include <Geom2d_Line.hxx>
+#include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <BRep_Builder.hxx>
 #include <BRep_Tool.hxx>
 #include <TopoDS.hxx>

@@ -16,7 +16,7 @@
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <GeomLProp_SLProps.hxx>
 #include <LocalAnalysis_SurfaceContinuity.hxx>
 #include <GeomLProp_SLProps.hxx>
@@ -26,7 +26,7 @@
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 
 
 /*********************************************************************************/

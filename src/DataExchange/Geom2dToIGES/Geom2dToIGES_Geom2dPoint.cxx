@@ -16,14 +16,14 @@
 
 #include <Geom2dToIGES_Geom2dEntity.hxx>
 #include <IGESGeom_Point.hxx>
-#include <Geom2d_Point.hxx>
-#include <Geom2d_CartesianPoint.hxx>
+#include <Geometry/Geom2d/Geom2d_Point.hxx>
+#include <Geometry/Geom2d/Geom2d_CartesianPoint.hxx>
 #include <Geom2dToIGES_Geom2dPoint.hxx>
 
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 
-#include <Geom2d_Point.hxx>
-#include <Geom2d_CartesianPoint.hxx>
+#include <Geometry/Geom2d/Geom2d_Point.hxx>
+#include <Geometry/Geom2d/Geom2d_CartesianPoint.hxx>
 
 #include <IGESGeom_Point.hxx>
 

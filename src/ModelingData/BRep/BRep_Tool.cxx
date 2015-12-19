@@ -24,7 +24,7 @@
 #include <TopoDS_Edge.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Mathematics/Polyhedral/Poly_Polygon3D.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Mathematics/Polyhedral/Poly_Polygon2D.hxx>
 #include <Mathematics/Polyhedral/Poly_PolygonOnTriangulation.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
@@ -57,7 +57,7 @@
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
 #include <Geometry/Geom/Geom_OffsetSurface.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
-#include <Geom2d_TrimmedCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <ProjLib_ProjectedCurve.hxx>
 #include <GeomProjLib.hxx>
 #include <Geom2dAdaptor.hxx>

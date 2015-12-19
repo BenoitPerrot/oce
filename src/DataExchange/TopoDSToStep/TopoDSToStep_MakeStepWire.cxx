@@ -34,8 +34,8 @@
 
 #include <BRep_Tool.hxx>
 
-#include <Geom2d_Curve.hxx>
-#include <Geom2d_Line.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Line.hxx>
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 

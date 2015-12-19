@@ -45,7 +45,7 @@
 #include <ShapeFix_Wire.hxx>
 #include <ShapeAnalysis_Edge.hxx>
 #include <ShapeAnalysis_WireOrder.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #ifdef OCCT_DEBUG
 #include <TopTools_MapOfShape.hxx>
 #endif

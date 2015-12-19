@@ -52,11 +52,11 @@
 
 
 #include <GeomLib.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_BoundedCurve.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
-#include <Geom2d_TrimmedCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>
@@ -80,7 +80,7 @@
 #include <TopoDS_Face.hxx>
 
 #include <Geom2dConvert_CompCurveToBSplineCurve.hxx>
-#include <Geom2d_BSplineCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 
 #ifdef OCCT_DEBUG

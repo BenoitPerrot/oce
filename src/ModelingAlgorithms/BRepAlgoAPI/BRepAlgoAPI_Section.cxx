@@ -27,7 +27,7 @@
 #include <BRepLib_MakeFace.hxx>
 #include <BRepLib_MakeShell.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
-#include <Geom2d_TrimmedCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 
 #include <TopExp.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>

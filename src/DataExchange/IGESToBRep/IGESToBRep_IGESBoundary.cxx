@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_TYPE_END(IGESToBRep_IGESBoundary)
 IMPLEMENT_DOWNCAST(IGESToBRep_IGESBoundary,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESToBRep_IGESBoundary)
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <GeomAdaptor_Curve.hxx>

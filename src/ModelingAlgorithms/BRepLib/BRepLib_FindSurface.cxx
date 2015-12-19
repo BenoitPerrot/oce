@@ -51,7 +51,7 @@
 #include <TopoDS.hxx>
 
 #include <GeomLib.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom/Geom_BezierCurve.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>

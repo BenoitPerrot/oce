@@ -23,7 +23,7 @@
 #include <IntTools_Range.hxx>
 #include <TopoDS_Shell.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <BOPTools_AlgoTools.hxx>
 //
@@ -45,7 +45,7 @@
 #include <GeomAdaptor_HCurve.hxx>
 #include <GeomAdaptor_HSurface.hxx>
 //
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geom2dInt_GInter.hxx>
 #include <Geom2dAdaptor_Curve.hxx>
 #include <Geom2dAdaptor_HCurve.hxx>
@@ -332,7 +332,7 @@ typedef BOPCol_TBBCnt
 #include <Mathematics/Optimization/math_GlobOptMin.hxx>
 #include <Mathematics/Optimization/math_MultipleVarFunctionWithHessian.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
-#include <Geom2d_TrimmedCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 
 class BOPTools_CheckCurveOnSurface : 
   public math_MultipleVarFunctionWithHessian

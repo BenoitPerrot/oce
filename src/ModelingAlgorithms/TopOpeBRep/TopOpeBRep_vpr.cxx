@@ -40,7 +40,7 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Precision.hxx>
 #include <TopoDS.hxx>
 #include <TopExp.hxx>

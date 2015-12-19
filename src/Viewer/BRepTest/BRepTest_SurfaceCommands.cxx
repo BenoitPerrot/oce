@@ -37,7 +37,7 @@
 #include <TopoDS.hxx>
 #include <TopoDS_Face.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
-#include <Geom2d_TrimmedCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <TopTools_SequenceOfShape.hxx>
 #include <Precision.hxx>

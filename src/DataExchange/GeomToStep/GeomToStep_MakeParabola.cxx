@@ -13,7 +13,7 @@
 
 #include <StepGeom_Parabola.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <Geom2d_Parabola.hxx>
+#include <Geometry/Geom2d/Geom2d_Parabola.hxx>
 #include <Geometry/Geom/Geom_Parabola.hxx>
 #include <GeomToStep_MakeParabola.hxx>
 

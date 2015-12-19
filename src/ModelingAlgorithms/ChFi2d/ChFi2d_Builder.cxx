@@ -70,10 +70,10 @@
 #include <Geometry/Geom/Geom_Surface.hxx>
 
 
-#include <Geom2d_TrimmedCurve.hxx>
-#include <Geom2d_Circle.hxx>
-#include <Geom2d_Curve.hxx>
-#include <Geom2d_Line.hxx>
+#include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_Circle.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Line.hxx>
 
 #include <Geom2dInt_GInter.hxx>
 #include <Geom2dGcc_Circ2d2TanRad.hxx>

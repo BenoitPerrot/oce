@@ -93,7 +93,7 @@ private:
 };
 
 #define Array1Item Handle(Geom2d_Curve)
-#define Array1Item_hxx <Geom2d_Curve.hxx>
+#define Array1Item_hxx <Geometry/Geom2d/Geom2d_Curve.hxx>
 #define TCollection_Array1 TColGeom2d_Array1OfCurve
 #define TCollection_Array1_hxx <TColGeom2d_Array1OfCurve.hxx>
 

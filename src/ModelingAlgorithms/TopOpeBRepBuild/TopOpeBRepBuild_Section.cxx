@@ -58,12 +58,12 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <TopExp.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <Geom2d_TrimmedCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <TopOpeBRepDS_EXPORT.hxx>
 #include <TopOpeBRepDS_connex.hxx>
 #include <TopOpeBRepDS_TKI.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <BRep_Tool.hxx>
 #include <BRep_Builder.hxx>

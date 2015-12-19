@@ -52,7 +52,7 @@
 #include <TopOpeBRepTool_ShapeExplorer.hxx>
 #include <BRep_Tool.hxx>
 #include <TopoDS.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <TopExp.hxx>
 #include <TopOpeBRepTool_ShapeTool.hxx>
@@ -61,9 +61,9 @@
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Geometry/Geom/Geom_CylindricalSurface.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
-#include <Geom2d_Curve.hxx>
-#include <Geom2d_TrimmedCurve.hxx>
-#include <Geom2d_Line.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>

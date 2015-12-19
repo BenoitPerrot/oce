@@ -41,8 +41,8 @@
 #include <LocalAnalysis_SurfaceContinuity.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <Geom2d_TrimmedCurve.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <DrawTrSurf.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <TopoDS.hxx>

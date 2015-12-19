@@ -48,7 +48,7 @@
 #include <ChFiDS_CommonPoint.hxx>
 #include <TopoDS_Face.hxx>
 #include <AppBlend_Approx.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <ChFi3d_Builder.hxx>
 #include <ChFi3d.hxx>
 #include <ChFi3d_Builder_0.hxx>
@@ -70,7 +70,7 @@
 #include <GeomLib.hxx>
 #include <Geometry/Extrema/Extrema_ExtPC.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom/Geom_BoundedCurve.hxx>
 
 #include <Geom2dAdaptor_HCurve.hxx>

@@ -17,7 +17,7 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Mathematics/Primitives/gp_VectorWithNullMagnitude.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
-#include <Geom2d_Vector.hxx>
+#include <Geometry/Geom2d/Geom2d_Vector.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Geom2d_Vector)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

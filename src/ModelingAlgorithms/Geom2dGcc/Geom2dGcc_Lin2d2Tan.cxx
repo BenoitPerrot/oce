@@ -26,7 +26,7 @@
 #include <Geom2dGcc_QCurve.hxx>
 #include <GccAna_Lin2d2Tan.hxx>
 #include <Geom2dGcc_Lin2d2TanIter.hxx>
-#include <Geom2d_Circle.hxx>
+#include <Geometry/Geom2d/Geom2d_Circle.hxx>
 #include <GccEnt_QualifiedCirc.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_NegativeValue.hxx>

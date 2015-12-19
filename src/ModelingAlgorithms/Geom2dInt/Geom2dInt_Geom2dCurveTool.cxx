@@ -21,10 +21,10 @@
 #include <Geom2dInt_Geom2dCurveTool.hxx>
 
 #include <GeomAbs_CurveType.hxx>
-#include <Geom2d_BezierCurve.hxx>
-#include <Geom2d_BSplineCurve.hxx>
-#include <Geom2d_BezierCurve.hxx>
-#include <Geom2d_BSplineCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_BezierCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_BezierCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 
 #include <Geometry/Adaptor2d/Adaptor2d_Curve2d.hxx>
 

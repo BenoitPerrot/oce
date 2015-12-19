@@ -26,7 +26,7 @@
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <BiTgte_DataMapOfShapeBox.hxx>
 #include <BRepOffset_Offset.hxx>
 #include <BRepOffset_Inter3d.hxx>
@@ -64,7 +64,7 @@
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <GeomAdaptor_Surface.hxx>
 #include <Geom2dAdaptor_Curve.hxx>
 #include <Geom2dAPI_ProjectPointOnCurve.hxx>

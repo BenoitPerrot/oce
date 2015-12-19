@@ -34,8 +34,8 @@
 #include <Mathematics/Collections/TColgp_HArray1OfPnt2d.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt2d.hxx>
 
-#include <Geom2d_BSplineCurve.hxx>
-#include <Geom2d_BezierCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_BezierCurve.hxx>
 #include <DrawTrSurf_BSplineCurve.hxx>
 #include <DrawTrSurf_BezierCurve.hxx>
 #include <DrawTrSurf_BSplineCurve2d.hxx>

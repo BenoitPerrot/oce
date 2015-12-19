@@ -62,7 +62,7 @@
 //#include <GeomAdaptor_Curve.hxx>
 //#include <GeomAdaptor_CurveOnSurface.hxx>
 
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 
 #include <TopoDS.hxx>
 #include <TopoDS_Edge.hxx>//#3 rln 16/02/98

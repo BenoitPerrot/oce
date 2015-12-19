@@ -34,7 +34,7 @@
 #include <BRep_Builder.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
-#include <Geom2d_TrimmedCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <Geometry/Extrema/Extrema_ExtPC.hxx>
 #include <GeomAdaptor_Curve.hxx>
 #include <BRepLProp.hxx>

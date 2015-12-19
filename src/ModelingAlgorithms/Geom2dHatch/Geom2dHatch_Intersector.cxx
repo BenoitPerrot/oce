@@ -19,7 +19,7 @@
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <Geom2dHatch_Intersector.hxx>
 #include <ElCLib.hxx>
-#include <Geom2d_Line.hxx>
+#include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <Precision.hxx>
 #include <Geom2dLProp_CLProps2d.hxx>
 

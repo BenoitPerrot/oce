@@ -18,8 +18,8 @@
 #include <HLRBRep_Curve.hxx>
 #include <HLRBRep.hxx>
 #include <BRepLib_MakeEdge2d.hxx>
-#include <Geom2d_BezierCurve.hxx>
-#include <Geom2d_BSplineCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_BezierCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>

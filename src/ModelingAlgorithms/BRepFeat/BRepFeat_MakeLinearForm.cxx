@@ -44,8 +44,8 @@
 
 #include <Geometry/Geom/Geom_Curve.hxx>
 
-#include <Geom2d_Curve.hxx>
-#include <Geom2d_Line.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Line.hxx>
 
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
@@ -55,8 +55,8 @@
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <GeomProjLib.hxx>
 
-#include <Geom2d_Curve.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 

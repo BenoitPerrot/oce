@@ -22,7 +22,7 @@
 
 #include <IGESGeom_SplineCurve.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
-#include <Geom2d_BSplineCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <IGESGeom_SplineSurface.hxx>
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <IGESConvGeom.hxx>

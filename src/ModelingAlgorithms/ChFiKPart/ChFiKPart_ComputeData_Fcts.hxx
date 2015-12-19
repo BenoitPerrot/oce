@@ -18,8 +18,8 @@
 #define _ChFiKPart_ComputeData_Fcts_HeaderFile
 
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <Geom2d_Curve.hxx>
-#include <Geom2d_BSplineCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <GeomAdaptor_Curve.hxx>

@@ -45,11 +45,11 @@ IMPLEMENT_STANDARD_RTTI(DrawDim_PlanarAngle)
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>
 #include <Geom2dAPI_InterCurveCurve.hxx>
-#include <Geom2d_Curve.hxx>
-#include <Geom2d_Line.hxx>
-#include <Geom2d_Circle.hxx>
-#include <Geom2d_CartesianPoint.hxx>
-#include <Geom2d_TrimmedCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Line.hxx>
+#include <Geometry/Geom2d/Geom2d_Circle.hxx>
+#include <Geometry/Geom2d/Geom2d_CartesianPoint.hxx>
+#include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <GeomAPI.hxx>    
 #include <Geom2dAPI_InterCurveCurve.hxx>
 #include <ElSLib.hxx>

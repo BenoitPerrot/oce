@@ -23,7 +23,7 @@
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <TopoDS_Face.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <FilletSurf_InternalBuilder.hxx>
 #include <FilletSurf_StatusDone.hxx>

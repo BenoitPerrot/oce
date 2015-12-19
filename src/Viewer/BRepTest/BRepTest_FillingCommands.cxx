@@ -94,7 +94,7 @@
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <BRepOffsetAPI_MakeFilling.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Geom2d_TrimmedCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <GeomConvert_ApproxSurface.hxx>
 
 

@@ -68,8 +68,8 @@
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <TColGeom2d_HArray1OfCurve.hxx>
 
-#include <Geom2d_BezierCurve.hxx>
-#include <Geom2d_TrimmedCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_BezierCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 
 #include <Mathematics/Collections/TColgp_SequenceOfXY.hxx>

@@ -38,7 +38,7 @@
 
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_XY.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <GProp_GProps.hxx>
 
 #include <ShapeAnalysis_Edge.hxx>

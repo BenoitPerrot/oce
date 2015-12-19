@@ -33,8 +33,8 @@ static TCollection_AsciiString PRODINS("dins ");
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <Geom2d_Curve.hxx>
-#include <Geom2d_Line.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <Precision.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <TopAbs.hxx>

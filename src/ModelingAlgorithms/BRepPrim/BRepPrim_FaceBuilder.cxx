@@ -24,7 +24,7 @@
 #include <BRepPrim_FaceBuilder.hxx>
 #include <Precision.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Geom2d_Line.hxx>
+#include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <TopoDS_Wire.hxx>
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>

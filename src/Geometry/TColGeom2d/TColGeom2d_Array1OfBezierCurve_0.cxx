@@ -9,11 +9,11 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <Geom2d_BezierCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_BezierCurve.hxx>
  
 
 #define Array1Item Handle(Geom2d_BezierCurve)
-#define Array1Item_hxx <Geom2d_BezierCurve.hxx>
+#define Array1Item_hxx <Geometry/Geom2d/Geom2d_BezierCurve.hxx>
 #define TCollection_Array1 TColGeom2d_Array1OfBezierCurve
 #define TCollection_Array1_hxx <TColGeom2d_Array1OfBezierCurve.hxx>
 #include <Foundation/TCollection/TCollection_Array1.gxx>

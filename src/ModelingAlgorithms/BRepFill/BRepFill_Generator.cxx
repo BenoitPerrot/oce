@@ -46,8 +46,8 @@
 #include <Geometry/Geom/Geom_CylindricalSurface.hxx>
 #include <Geometry/Geom/Geom_ConicalSurface.hxx>
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
-#include <Geom2d_Line.hxx>
-#include <Geom2d_BezierCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_Line.hxx>
+#include <Geometry/Geom2d/Geom2d_BezierCurve.hxx>
 #include <GeomFill_Generator.hxx>
 
 #include <TopTools_DataMapOfShapeShape.hxx>

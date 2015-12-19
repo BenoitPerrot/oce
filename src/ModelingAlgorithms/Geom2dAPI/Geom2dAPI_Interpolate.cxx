@@ -17,7 +17,7 @@
 // 8-Aug-95 : xab : interpolation uses BSplCLib::Interpolate
 
 #include <Mathematics/Collections/TColgp_HArray1OfPnt2d.hxx>
-#include <Geom2d_BSplineCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfVec2d.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfBoolean.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>

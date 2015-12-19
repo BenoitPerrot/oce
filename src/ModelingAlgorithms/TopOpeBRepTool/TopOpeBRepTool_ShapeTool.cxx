@@ -33,13 +33,13 @@
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Precision.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Face.hxx>
 #include <TopoDS.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
-#include <Geom2d_Line.hxx>
+#include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <BRepTools.hxx>
 #include <TopExp_Explorer.hxx>
 #include <BRepLProp_CLProps.hxx>

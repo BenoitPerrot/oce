@@ -21,8 +21,8 @@
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Mathematics/Primitives/gp_Trsf2d.hxx>
-#include <Geom2d_Geometry.hxx>
-#include <Geom2d_Line.hxx>
+#include <Geometry/Geom2d/Geom2d_Geometry.hxx>
+#include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Geom2d_Line)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -47,7 +47,7 @@
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <GeomProjLib.hxx>
 
 #include <Geom2dAPI_ProjectPointOnCurve.hxx>
@@ -84,12 +84,12 @@
 #include <GeomAdaptor_HCurve.hxx>
 #include <ProjLib_ProjectedCurve.hxx>
 #include <GeomAbs_CurveType.hxx>
-#include <Geom2d_Line.hxx>
-#include <Geom2d_Circle.hxx>
-#include <Geom2d_Ellipse.hxx>
-#include <Geom2d_Parabola.hxx>
-#include <Geom2d_Hyperbola.hxx>
-#include <Geom2d_TrimmedCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_Line.hxx>
+#include <Geometry/Geom2d/Geom2d_Circle.hxx>
+#include <Geometry/Geom2d/Geom2d_Ellipse.hxx>
+#include <Geometry/Geom2d/Geom2d_Parabola.hxx>
+#include <Geometry/Geom2d/Geom2d_Hyperbola.hxx>
+#include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <BRepTopAdaptor_FClass2d.hxx>
 #include <TopOpeBRepBuild_CorrectFace2d.hxx>
 #include <Precision.hxx>

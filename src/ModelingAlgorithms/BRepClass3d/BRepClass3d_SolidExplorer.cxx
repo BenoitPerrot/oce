@@ -40,7 +40,7 @@
 #include <TopoDS.hxx>
 #include <BRepAdaptor_Curve2d.hxx>
 #include <BRepTools.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <BRepAdaptor_Surface.hxx>

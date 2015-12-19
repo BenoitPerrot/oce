@@ -18,7 +18,7 @@
 #include <Mathematics/Primitives/gp_Trsf2d.hxx>
 #include <Bisector_PolyBis.hxx>
 #include <Bisector_PointOnBis.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <ElCLib.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 

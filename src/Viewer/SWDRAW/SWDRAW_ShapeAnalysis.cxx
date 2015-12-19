@@ -48,7 +48,7 @@
 #include <TopoDS_Iterator.hxx>
 #include <TopoDS_Edge.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <BRep_Tool.hxx>
 #include <TopExp.hxx>
 #include <GProp_GProps.hxx>

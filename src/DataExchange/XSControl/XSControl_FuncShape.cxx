@@ -56,7 +56,7 @@
 #include <TopExp_Explorer.hxx>
 
 #include <Geometry/Geom/Geom_Geometry.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 
 #include <IFSelect_CheckCounter.hxx>
 #include <ShapeExtend_Explorer.hxx>

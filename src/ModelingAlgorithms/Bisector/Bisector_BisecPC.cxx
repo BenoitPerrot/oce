@@ -14,11 +14,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <Geom2d_Geometry.hxx>
+#include <Geometry/Geom2d/Geom2d_Geometry.hxx>
 #include <Mathematics/Primitives/gp_Trsf2d.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
@@ -37,15 +37,15 @@ IMPLEMENT_DOWNCAST(Bisector_BisecPC,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Bisector_BisecPC)
 #include <Bisector.hxx>
 #include <Geom2dAdaptor_Curve.hxx>
-#include <Geom2d_Curve.hxx>
-#include <Geom2d_Line.hxx>
-#include <Geom2d_CartesianPoint.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Line.hxx>
+#include <Geometry/Geom2d/Geom2d_CartesianPoint.hxx>
 #include <Geom2dInt_GInter.hxx>
 #include <Geom2dGcc.hxx>
 #include <GccEnt_Position.hxx>
 #include <Geom2dGcc_Circ2d2TanRad.hxx>
 #include <Geom2dGcc_QualifiedCurve.hxx>
-#include <Geom2d_TrimmedCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <Geom2dAPI_ProjectPointOnCurve.hxx>
 #include <Geom2dLProp_CLProps2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>

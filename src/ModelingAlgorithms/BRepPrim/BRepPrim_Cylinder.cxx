@@ -25,7 +25,7 @@
 #include <Precision.hxx>
 #include <Geometry/Geom/Geom_CylindricalSurface.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
-#include <Geom2d_Line.hxx>
+#include <Geometry/Geom2d/Geom2d_Line.hxx>
 
 //=======================================================================
 //function : BRepPrim_Cylinder

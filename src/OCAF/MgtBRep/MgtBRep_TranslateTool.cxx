@@ -20,7 +20,7 @@
 #include <PTColStd_TransientPersistentMap.hxx>
 #include <PTColStd_PersistentTransientMap.hxx>
 #include <PGeom2d_Curve.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <PGeom_Surface.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <TopoDS_Shape.hxx>

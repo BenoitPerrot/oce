@@ -17,20 +17,20 @@
 #include <StepGeom_Curve.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <GeomToStep_MakeCurve.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <StepGeom_Curve.hxx>
 #include <GeomToStep_MakeCurve.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
-#include <Geom2d_Line.hxx>
+#include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <GeomToStep_MakeLine.hxx>
 #include <Geometry/Geom/Geom_Conic.hxx>
-#include <Geom2d_Conic.hxx>
+#include <Geometry/Geom2d/Geom2d_Conic.hxx>
 #include <GeomToStep_MakeConic.hxx>
 #include <Geometry/Geom/Geom_BoundedCurve.hxx>
-#include <Geom2d_BoundedCurve.hxx>
-#include <Geom2d_BSplineCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_BoundedCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <GeomToStep_MakeBoundedCurve.hxx>
 
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
@@ -38,9 +38,9 @@
 #include <Geometry/Geom/Geom_BezierCurve.hxx>
 
 #include <Geom2dConvert.hxx>
-#include <Geom2d_Circle.hxx>
+#include <Geometry/Geom2d/Geom2d_Circle.hxx>
 #include <Mathematics/Primitives/gp_Circ2d.hxx>
-#include <Geom2d_Ellipse.hxx>
+#include <Geometry/Geom2d/Geom2d_Ellipse.hxx>
 #include <Mathematics/Primitives/gp_Elips2d.hxx>
 
 //=============================================================================

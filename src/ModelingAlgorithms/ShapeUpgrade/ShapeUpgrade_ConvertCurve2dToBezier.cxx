@@ -29,13 +29,13 @@ IMPLEMENT_STANDARD_TYPE_END(ShapeUpgrade_ConvertCurve2dToBezier)
 IMPLEMENT_DOWNCAST(ShapeUpgrade_ConvertCurve2dToBezier,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_ConvertCurve2dToBezier)
 #include <Precision.hxx>
-#include <Geom2d_TrimmedCurve.hxx>
-#include <Geom2d_BezierCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_BezierCurve.hxx>
 #include <ShapeExtend.hxx>
-#include <Geom2d_Line.hxx>
+#include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
-#include <Geom2d_BSplineCurve.hxx>
-#include <Geom2d_Conic.hxx>
+#include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_Conic.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geom2dConvert_ApproxCurve.hxx>
 #include <Geom2dConvert.hxx>

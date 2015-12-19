@@ -18,7 +18,7 @@
 
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <TColGeom_HSequenceOfBoundedCurve.hxx>
-#include <Geom2d_BSplineCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <TColGeom2d_HSequenceOfBoundedCurve.hxx>
 #include <ShapeUpgrade.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>

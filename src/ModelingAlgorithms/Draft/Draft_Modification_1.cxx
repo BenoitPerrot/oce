@@ -28,7 +28,7 @@
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Draft_Modification.hxx>
 
 #include <BRep_Tool.hxx>
@@ -53,7 +53,7 @@
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
 
 
-#include <Geom2d_Line.hxx>
+#include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Geometry/Geom/Geom_SurfaceOfLinearExtrusion.hxx>
 #include <Geometry/Geom/Geom_CylindricalSurface.hxx>
@@ -108,16 +108,16 @@
 
 #include <GeomAPI_ProjectPointOnCurve.hxx>
 
-#include <Geom2d_TrimmedCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <Geom2dAPI_ProjectPointOnCurve.hxx>
-#include <Geom2d_BSplineCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <Geom2dConvert.hxx>
 #include <Geom2dAdaptor_HCurve.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>
 
 #include <GeomProjLib.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
-#include <Geom2d_BezierCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_BezierCurve.hxx>
 #include <Geom2dConvert_CompCurveToBSplineCurve.hxx>
 
 #include <Geometry/Adaptor3d/Adaptor3d_HCurveOnSurface.hxx>

@@ -61,7 +61,7 @@
 #include <GeomAbs_SurfaceType.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <TopOpeBRepDS.hxx>
 #include <TopOpeBRepDS_EXPORT.hxx>

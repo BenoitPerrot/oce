@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Face.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_TYPE_END(ShapeAnalysis_TransferParametersProj)
 IMPLEMENT_DOWNCAST(ShapeAnalysis_TransferParametersProj,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ShapeAnalysis_TransferParametersProj)
 #include <Geom2dAdaptor_HCurve.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <GeomAdaptor_HSurface.hxx>
@@ -49,9 +49,9 @@ IMPLEMENT_STANDARD_RTTI(ShapeAnalysis_TransferParametersProj)
 #include <BRep_Builder.hxx>
 #include <GeomAdaptor_Curve.hxx>
 #include <ShapeAnalysis.hxx>
-#include <Geom2d_TrimmedCurve.hxx>
-#include <Geom2d_OffsetCurve.hxx>
-#include <Geom2d_BSplineCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_OffsetCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <BRep_ListOfPointRepresentation.hxx>
 #include <BRep_TVertex.hxx>
 #include <BRep_ListIteratorOfListOfPointRepresentation.hxx>

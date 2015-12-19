@@ -18,7 +18,7 @@
 #include <ShapeExtend_WireData.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <TColGeom_SequenceOfCurve.hxx>
-#include <Geom2d_BSplineCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <TColGeom2d_SequenceOfCurve.hxx>
 #include <TColGeom_HSequenceOfBoundedCurve.hxx>
 #include <TColGeom2d_HSequenceOfBoundedCurve.hxx>

@@ -17,7 +17,7 @@
 #include <MAT_Graph.hxx>
 #include <BRepMAT2d_Explorer.hxx>
 #include <MAT_BasicElt.hxx>
-#include <Geom2d_Geometry.hxx>
+#include <Geometry/Geom2d/Geom2d_Geometry.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <MAT_Node.hxx>
 #include <Bisector_Bisec.hxx>
@@ -39,7 +39,7 @@
 # include <MAT_ListOfBisector.hxx>
 # include <MAT_DataMapOfIntegerBasicElt.hxx>
 # include <MAT_DataMapIteratorOfDataMapOfIntegerBasicElt.hxx>
-# include <Geom2d_Curve.hxx>
+# include <Geometry/Geom2d/Geom2d_Curve.hxx>
 # include <Mathematics/Primitives/gp_Pnt2d.hxx>
 # include <TColGeom2d_SequenceOfGeometry.hxx>
 # include <Precision.hxx>

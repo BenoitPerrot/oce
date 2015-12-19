@@ -55,8 +55,8 @@
 #include <Geometry/Geom/Geom_ToroidalSurface.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 
-#include <Geom2d_Curve.hxx>
-#include <Geom2d_Line.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Line.hxx>
 
 #include <GeomToIGES_GeomPoint.hxx>
 #include <GeomToIGES_GeomCurve.hxx>

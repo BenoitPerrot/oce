@@ -26,12 +26,12 @@
 #include <Foundation/Standard/Standard_NullValue.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
-#include <Geom2d_BSplineCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <FairCurve_Batten.hxx>
 
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Mathematics/Polynomial/PLib.hxx>
-#include <Geom2d_BSplineCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <FairCurve_BattenLaw.hxx>
 #include <FairCurve_EnergyOfBatten.hxx>
 #include <FairCurve_Newton.hxx>

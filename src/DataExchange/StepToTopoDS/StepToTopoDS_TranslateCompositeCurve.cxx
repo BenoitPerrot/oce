@@ -29,7 +29,7 @@
 #include <Precision.hxx>
 
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <StepGeom_Pcurve.hxx>
 #include <StepGeom_SurfaceCurve.hxx>
 #include <StepGeom_PcurveOrSurface.hxx>

@@ -28,7 +28,7 @@
 
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Mathematics/Polynomial/PLib.hxx>
-#include <Geom2d_BSplineCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <FairCurve_BattenLaw.hxx>
 #include <FairCurve_EnergyOfMVC.hxx>
 #include <FairCurve_Newton.hxx>

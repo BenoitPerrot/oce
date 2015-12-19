@@ -46,7 +46,7 @@ IMPLEMENT_STANDARD_RTTI(IntTools_Context)
 #include <GeomAdaptor_Curve.hxx>
 
 #include <Geom2dHatch_Intersector.hxx>
-#include <Geom2d_TrimmedCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 
 #include <TopAbs_State.hxx>
 #include <TopoDS.hxx>
@@ -60,7 +60,7 @@ IMPLEMENT_STANDARD_RTTI(IntTools_Context)
 // 
 #include <Geometry/Extrema/Extrema_LocateExtPC.hxx>
 
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Foundation/NCollection/NCollection_IncAllocator.hxx>
 #include <IntTools_SurfaceRangeLocalizeData.hxx>
 

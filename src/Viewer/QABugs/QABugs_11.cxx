@@ -61,9 +61,9 @@
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt2d.hxx>
 #include <Geom2dAPI_Interpolate.hxx>
-#include <Geom2d_BSplineCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <Geom2dConvert_BSplineCurveToBezierCurve.hxx>
-#include <Geom2d_BezierCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_BezierCurve.hxx>
 #include <BRep_Tool.hxx>
 #include <GeomProjLib.hxx>
 #include <Geom2dAPI_InterCurveCurve.hxx>

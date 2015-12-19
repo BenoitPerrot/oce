@@ -18,7 +18,7 @@
 //:p0 abv 19.02.99: management of 'done' flag improved
 
 #include <StepGeom_BoundedCurve.hxx>
-#include <Geom2d_BoundedCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_BoundedCurve.hxx>
 #include <StepToGeom_MakeBoundedCurve2d.hxx>
 #include <StepGeom_BSplineCurveWithKnotsAndRationalBSplineCurve.hxx>
 #include <StepGeom_BSplineCurveWithKnots.hxx>

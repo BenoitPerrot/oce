@@ -16,7 +16,7 @@
 
 #include <TopOpeBRepTool_PROJECT.hxx>
 
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <GeomAPI_ProjectPointOnCurve.hxx>

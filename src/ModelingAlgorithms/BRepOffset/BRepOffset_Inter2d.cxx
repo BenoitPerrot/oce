@@ -56,10 +56,10 @@
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <GeomConvert_CompCurveToBSplineCurve.hxx>
 #include <Precision.hxx>
-#include <Geom2d_TrimmedCurve.hxx>
-#include <Geom2d_BezierCurve.hxx>
-#include <Geom2d_BSplineCurve.hxx>
-#include <Geom2d_Line.hxx>
+#include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_BezierCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <Geom2dConvert_CompCurveToBSplineCurve.hxx>
 
 #include <BRepLib.hxx>

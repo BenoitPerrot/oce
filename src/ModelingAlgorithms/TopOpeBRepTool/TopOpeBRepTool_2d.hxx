@@ -16,7 +16,7 @@
 
 #ifndef _TopOpeBRepTool_2d_HeaderFile
 #define _TopOpeBRepTool_2d_HeaderFile
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <TopOpeBRepTool_define.hxx>
 
 Standard_EXPORT Standard_Integer FC2D_Prepare(const TopoDS_Shape& S1,const TopoDS_Shape& S2);

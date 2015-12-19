@@ -45,7 +45,7 @@ IMPLEMENT_STANDARD_RTTI(HLRBRep_Data)
 #include <Foundation/StdFail/StdFail_UndefinedDerivative.hxx>
 #include <Precision.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>
 #include <IntRes2d_IntersectionSegment.hxx>
 #include <IntCurveSurface_IntersectionPoint.hxx>

@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <TopoDS_Face.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>

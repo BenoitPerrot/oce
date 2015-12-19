@@ -49,11 +49,11 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Edge)
 #include <BRep_ListOfCurveRepresentation.hxx>
 #include <BRepLib.hxx>
 
-#include <Geom2d_Curve.hxx>
-#include <Geom2d_Line.hxx>
-#include <Geom2d_BSplineCurve.hxx>
-#include <Geom2d_TrimmedCurve.hxx>
-#include <Geom2d_BezierCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Line.hxx>
+#include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_BezierCurve.hxx>
 
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <GeomLib.hxx>
@@ -67,7 +67,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Edge)
 #include <ShapeExtend.hxx>
 #include <ShapeBuild_Edge.hxx>
 #include <ShapeFix_ShapeTolerance.hxx>
-#include <Geom2d_OffsetCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_OffsetCurve.hxx>
 #include <ShapeAnalysis_Curve.hxx>
 
 

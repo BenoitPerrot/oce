@@ -24,7 +24,7 @@
 #include <TopExp_Explorer.hxx>
 #include <BRep_Tool.hxx>
 #include <BRep_Builder.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <BRepAdaptor_Curve2d.hxx>
 #include <BRepAdaptor_HSurface.hxx>

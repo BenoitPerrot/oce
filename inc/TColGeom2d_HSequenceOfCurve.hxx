@@ -93,7 +93,7 @@ private:
 };
 
 #define Item Handle(Geom2d_Curve)
-#define Item_hxx <Geom2d_Curve.hxx>
+#define Item_hxx <Geometry/Geom2d/Geom2d_Curve.hxx>
 #define TheSequence TColGeom2d_SequenceOfCurve
 #define TheSequence_hxx <TColGeom2d_SequenceOfCurve.hxx>
 #define TCollection_HSequence TColGeom2d_HSequenceOfCurve

@@ -40,7 +40,7 @@
 #include <Mathematics/Polyhedral/Poly_PolygonOnTriangulation.hxx>
 
 #include <Precision.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <GeomAbs_SurfaceType.hxx>

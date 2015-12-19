@@ -70,7 +70,7 @@ private:
 };
 
 #define ItemHArray1 Handle(Geom2d_BezierCurve)
-#define ItemHArray1_hxx <Geom2d_BezierCurve.hxx>
+#define ItemHArray1_hxx <Geometry/Geom2d/Geom2d_BezierCurve.hxx>
 #define TheArray1 TColGeom2d_Array1OfBezierCurve
 #define TheArray1_hxx <TColGeom2d_Array1OfBezierCurve.hxx>
 #define TCollection_HArray1 TColGeom2d_HArray1OfBezierCurve

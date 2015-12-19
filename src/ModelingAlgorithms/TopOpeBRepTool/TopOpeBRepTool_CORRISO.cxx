@@ -34,7 +34,7 @@
 #include <TopExp_Explorer.hxx>
 #include <TopTools_Array1OfShape.hxx>
 #include <Geom2dAdaptor_Curve.hxx>
-#include <Geom2d_TrimmedCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <GeomAdaptor_Surface.hxx>
 #include <Geometry/BndLib/BndLib_Add2dCurve.hxx>
 #include <TopoDS.hxx>

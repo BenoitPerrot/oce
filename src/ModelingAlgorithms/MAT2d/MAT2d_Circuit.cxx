@@ -21,18 +21,18 @@
 #endif
 #ifdef OCCT_DEBUG
 #include <Geometry/GCE2d/GCE2d_MakeSegment.hxx>
-#include <Geom2d_Curve.hxx>
-#include <Geom2d_Parabola.hxx>
-#include <Geom2d_Hyperbola.hxx>
-#include <Geom2d_TrimmedCurve.hxx>
-#include <Geom2d_CartesianPoint.hxx>
-#include <Geom2d_Line.hxx>
-#include <Geom2d_Circle.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Parabola.hxx>
+#include <Geometry/Geom2d/Geom2d_Hyperbola.hxx>
+#include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_CartesianPoint.hxx>
+#include <Geometry/Geom2d/Geom2d_Line.hxx>
+#include <Geometry/Geom2d/Geom2d_Circle.hxx>
 #endif
 
 #include <MAT2d_SequenceOfSequenceOfGeometry.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfBoolean.hxx>
-#include <Geom2d_Geometry.hxx>
+#include <Geometry/Geom2d/Geom2d_Geometry.hxx>
 #include <MAT2d_Connexion.hxx>
 #include <TColGeom2d_SequenceOfGeometry.hxx>
 #include <MAT2d_BiInt.hxx>
@@ -49,9 +49,9 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(MAT2d_Circuit)
 IMPLEMENT_DOWNCAST(MAT2d_Circuit,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MAT2d_Circuit)
-#include <Geom2d_TrimmedCurve.hxx>
-#include <Geom2d_CartesianPoint.hxx>
-#include <Geom2d_Geometry.hxx>      
+#include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_CartesianPoint.hxx>
+#include <Geometry/Geom2d/Geom2d_Geometry.hxx>      
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>

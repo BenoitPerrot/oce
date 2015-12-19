@@ -25,11 +25,11 @@
 #include <TopExp.hxx>
 #include <IntRes2d_Domain.hxx>
 #include <Geom2dLProp_CLProps2d.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <ElCLib.hxx>
 #include <Precision.hxx>
 
-#include <Geom2d_Line.hxx>
+#include <Geometry/Geom2d/Geom2d_Line.hxx>
 
 #include <Geom2dInt_GInter.hxx>
 

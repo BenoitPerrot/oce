@@ -25,7 +25,7 @@
 
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
-#include <Geom2d_Line.hxx>
+#include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <GeomAdaptor_Surface.hxx>
 #include <TColGeom2d_Array1OfCurve.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>

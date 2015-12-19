@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <Geom2d_Point.hxx>
+#include <Geometry/Geom2d/Geom2d_Point.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Geom2d_Point)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

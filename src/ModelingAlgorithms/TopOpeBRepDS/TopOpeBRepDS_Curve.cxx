@@ -17,7 +17,7 @@
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <TopOpeBRepDS_Interference.hxx>
 #include <TopoDS_Shape.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <TopOpeBRepDS_Curve.hxx>
 #include <TopOpeBRepDS_SurfaceCurveInterference.hxx>
 #include <TopOpeBRepDS_Dumper.hxx>

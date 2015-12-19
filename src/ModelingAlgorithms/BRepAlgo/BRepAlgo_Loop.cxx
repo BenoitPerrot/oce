@@ -26,7 +26,7 @@
 #include <BRepAlgo_FaceRestrictor.hxx>
 #include <BRep_Tool.hxx>
 
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <TopExp.hxx>
 #include <TopTools_SequenceOfShape.hxx>

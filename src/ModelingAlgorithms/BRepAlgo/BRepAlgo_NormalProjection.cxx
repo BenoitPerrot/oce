@@ -39,7 +39,7 @@
 #include <BRepLib_MakeVertex.hxx>
 #include <BRepLib_MakeWire.hxx>
 #include <Geom2dAdaptor_HCurve.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <GeomAdaptor.hxx>
 #include <BRepLib_MakeEdge.hxx>
@@ -53,8 +53,8 @@
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
-#include <Geom2d_TrimmedCurve.hxx>
-#include <Geom2d_BSplineCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 
 #ifdef OCCT_DEBUG_CHRONO

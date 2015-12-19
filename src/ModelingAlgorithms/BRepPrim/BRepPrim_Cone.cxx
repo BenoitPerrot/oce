@@ -24,7 +24,7 @@
 #include <Precision.hxx>
 #include <Geometry/Geom/Geom_ConicalSurface.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
-#include <Geom2d_Line.hxx>
+#include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 
 //=======================================================================

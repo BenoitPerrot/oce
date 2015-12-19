@@ -17,8 +17,8 @@
 //  Modified by skv - Wed Aug 11 15:45:58 2004 OCC6272
 
 
-#include <Geom2d_BSplineCurve.hxx>
-#include <Geom2d_BezierCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_BezierCurve.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Mathematics/Primitives/gp_Lin2d.hxx>

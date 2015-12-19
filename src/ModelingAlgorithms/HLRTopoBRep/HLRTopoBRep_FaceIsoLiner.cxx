@@ -19,7 +19,7 @@
 #include <TopoDS_Vertex.hxx>
 #include <TopoDS_Edge.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Geom2d_Line.hxx>
+#include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <HLRTopoBRep_FaceIsoLiner.hxx>
 #include <TopAbs.hxx>
 #include <TopExp.hxx>
@@ -34,9 +34,9 @@
 #include <BRepTools.hxx>
 #include <BRep_Tool.hxx>
 #include <BRep_Builder.hxx>
-#include <Geom2d_Curve.hxx>
-#include <Geom2d_TrimmedCurve.hxx>
-#include <Geom2d_Line.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <Geom2dHatch_Hatcher.hxx>
 #include <Geom2dHatch_Intersector.hxx>
 #include <HatchGen_ErrorStatus.hxx>

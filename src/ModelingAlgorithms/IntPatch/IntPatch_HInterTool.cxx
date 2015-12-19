@@ -29,8 +29,8 @@
 
 #include <Geometry/Geom/Geom_BezierSurface.hxx>
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
-#include <Geom2d_BezierCurve.hxx>
-#include <Geom2d_BSplineCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_BezierCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 
 IntPatch_HInterTool::IntPatch_HInterTool() :
     uinf (0.), vinf (0.), usup (0.), vsup (0.)

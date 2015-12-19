@@ -7,12 +7,12 @@
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <Geom2d_Geometry.hxx>
+#include <Geometry/Geom2d/Geom2d_Geometry.hxx>
 #include <TColGeom2d_SequenceNodeOfSequenceOfGeometry.hxx>
  
 
 #define SeqItem Handle(Geom2d_Geometry)
-#define SeqItem_hxx <Geom2d_Geometry.hxx>
+#define SeqItem_hxx <Geometry/Geom2d/Geom2d_Geometry.hxx>
 #define TCollection_SequenceNode TColGeom2d_SequenceNodeOfSequenceOfGeometry
 #define TCollection_SequenceNode_hxx <TColGeom2d_SequenceNodeOfSequenceOfGeometry.hxx>
 #define Handle_TCollection_SequenceNode Handle_TColGeom2d_SequenceNodeOfSequenceOfGeometry

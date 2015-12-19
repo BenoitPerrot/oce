@@ -31,16 +31,16 @@
 #include <Geometry/Geom/Geom_Ellipse.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <GeomAPI.hxx>
 #include <Geom2dAdaptor_Curve.hxx>
 #include <Geom2dGcc_QualifiedCurve.hxx>
 #include <Geom2dGcc_Lin2d2Tan.hxx>
-#include <Geom2d_Line.hxx>
+#include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <BRepLib_MakeEdge.hxx>
 #include <TopoDS_Edge.hxx>
 #include <Precision.hxx>
-#include <Geom2d_Circle.hxx>
+#include <Geometry/Geom2d/Geom2d_Circle.hxx>
 #include <Geom2dGcc_QCurve.hxx>
 #include <GccEnt_QualifiedCirc.hxx>
 #include <Geom2dGcc_Lin2d2TanIter.hxx>
@@ -61,7 +61,7 @@
 #include <GeomAdaptor_Surface.hxx>
 #include <Geometry/Extrema/Extrema_ExtPS.hxx>
 #include <Geometry/Geom/Geom_CartesianPoint.hxx>
-#include <Geom2d_CartesianPoint.hxx>
+#include <Geometry/Geom2d/Geom2d_CartesianPoint.hxx>
 #include <Geom2dGcc_Circ2d3Tan.hxx>
 #include <Aspect_Window.hxx>
 

@@ -25,7 +25,7 @@ IMPLEMENT_STANDARD_TYPE_END(ShapeAnalysis_TransferParameters)
 IMPLEMENT_DOWNCAST(ShapeAnalysis_TransferParameters,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ShapeAnalysis_TransferParameters)
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <ShapeAnalysis_Edge.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <BRep_Tool.hxx>

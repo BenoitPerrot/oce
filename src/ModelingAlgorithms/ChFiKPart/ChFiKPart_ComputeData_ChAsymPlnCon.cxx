@@ -37,8 +37,8 @@
 #include <ElCLib.hxx>
 #include <ElSLib.hxx>
 
-#include <Geom2d_Line.hxx>
-#include <Geom2d_Circle.hxx>
+#include <Geometry/Geom2d/Geom2d_Line.hxx>
+#include <Geometry/Geom2d/Geom2d_Circle.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>
 #include <Geometry/Geom/Geom_ConicalSurface.hxx>
 #include <Geometry/Geom/Geom_CylindricalSurface.hxx>

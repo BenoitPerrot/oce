@@ -79,7 +79,7 @@
 //#include <GeomConvert.hxx>
 //#include <Geom2dConvert.hxx>
 
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 
 #include <GeomToIGES_GeomCurve.hxx>
 #include <GeomToIGES_GeomSurface.hxx>

@@ -34,9 +34,9 @@
 #include <Geom2dGcc_Lin2dTanObl.hxx>
 #include <Geom2dGcc.hxx>
 #include <Geom2dGcc_QualifiedCurve.hxx>
-#include <Geom2d_CartesianPoint.hxx>
-#include <Geom2d_Circle.hxx>
-#include <Geom2d_Line.hxx>
+#include <Geometry/Geom2d/Geom2d_CartesianPoint.hxx>
+#include <Geometry/Geom2d/Geom2d_Circle.hxx>
+#include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <Precision.hxx>
 #include <GeomAPI_Interpolate.hxx>
 #include <Draw_Marker3D.hxx>
@@ -45,7 +45,7 @@
 #include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt2d.hxx>
-#include <Geom2d_BSplineCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <DrawTrSurf_BSplineCurve.hxx>
 #include <DrawTrSurf_BSplineCurve2d.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>

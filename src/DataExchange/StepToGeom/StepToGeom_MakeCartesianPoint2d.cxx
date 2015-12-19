@@ -15,10 +15,10 @@
 // commercial license or contractual agreement.
 
 #include <StepGeom_CartesianPoint.hxx>
-#include <Geom2d_CartesianPoint.hxx>
+#include <Geometry/Geom2d/Geom2d_CartesianPoint.hxx>
 #include <StepToGeom_MakeCartesianPoint2d.hxx>
 #include <StepGeom_CartesianPoint.hxx>
-#include <Geom2d_CartesianPoint.hxx>
+#include <Geometry/Geom2d/Geom2d_CartesianPoint.hxx>
 
 //=============================================================================
 // Creation d' un CartesianPoint de Geom2d a partir d' un CartesianPoint de

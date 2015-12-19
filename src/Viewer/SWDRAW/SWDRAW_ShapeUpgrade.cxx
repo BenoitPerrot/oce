@@ -33,7 +33,7 @@
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <TColGeom_HArray1OfCurve.hxx>
 #include <TColGeom_HArray2OfSurface.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
@@ -59,8 +59,8 @@
 //#include <ShapeAnalysis_WireOrder.hxx>
 //#include <ShapeAnalysis_Wire.hxx>
 //#include <ShapeUpgrade_ShellSewing.hxx>
-#include <Geom2d_Curve.hxx>
-#include <Geom2d_OffsetCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_OffsetCurve.hxx>
 #include <Geometry/Geom/Geom_OffsetCurve.hxx>
 #include <ShapeUpgrade_SplitCurve3dContinuity.hxx>
 #include <TopoDS_Iterator.hxx>

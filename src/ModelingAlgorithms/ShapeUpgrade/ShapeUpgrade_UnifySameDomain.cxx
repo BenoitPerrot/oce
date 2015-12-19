@@ -61,7 +61,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_UnifySameDomain)
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <TopExp.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
-#include <Geom2d_TrimmedCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <GeomConvert.hxx>
 #include <Geom2dConvert.hxx>
 #include <GeomConvert_CompCurveToBSplineCurve.hxx>
@@ -78,7 +78,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_UnifySameDomain)
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 #include <ShapeAnalysis_WireOrder.hxx>
 #include <ShapeBuild_Edge.hxx>
-#include <Geom2d_Line.hxx>
+#include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <ShapeFix_Face.hxx>
 #include <TColGeom_HArray2OfSurface.hxx>
 #include <ShapeExtend_CompositeSurface.hxx>

@@ -65,7 +65,7 @@
 #include <TopoDS_Builder.hxx>
 #include <TopoDS_Compound.hxx>
 #include <Mathematics/Polyhedral/Poly_Polygon3D.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <BRepLib.hxx>
 #include <GeomLib.hxx>
 

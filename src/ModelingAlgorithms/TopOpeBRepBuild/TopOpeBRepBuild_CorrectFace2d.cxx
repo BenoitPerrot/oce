@@ -21,7 +21,7 @@
 #include <TopoDS_Shape.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <TopoDS_Wire.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <TopOpeBRepBuild_CorrectFace2d.hxx>
@@ -45,9 +45,9 @@
 #include <TopTools_SequenceOfShape.hxx>
 #include <TopTools_IndexedDataMapOfShapeShape.hxx>
 
-#include <Geom2d_TrimmedCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 
 #include <BRepTopAdaptor_FClass2d.hxx>
 #include <BRepAdaptor_Curve2d.hxx>

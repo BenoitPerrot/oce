@@ -29,7 +29,7 @@
 #include <BRep_Tool.hxx>
 #include <TopOpeBRepBuild_HBuilder.hxx>
 #include <TopOpeBRepDS_BuildTool.hxx>
-#include <Geom2d_TrimmedCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <TopOpeBRepBuild_Tools.hxx>
 
 static TopoDS_Shape MakeShape(const Handle(Geom_Surface)& );

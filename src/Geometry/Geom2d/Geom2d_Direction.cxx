@@ -16,10 +16,10 @@
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
-#include <Geom2d_Vector.hxx>
+#include <Geometry/Geom2d/Geom2d_Vector.hxx>
 #include <Mathematics/Primitives/gp_Trsf2d.hxx>
-#include <Geom2d_Geometry.hxx>
-#include <Geom2d_Direction.hxx>
+#include <Geometry/Geom2d/Geom2d_Geometry.hxx>
+#include <Geometry/Geom2d/Geom2d_Direction.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Geom2d_Direction)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

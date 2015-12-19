@@ -43,8 +43,8 @@
 #include <Precision.hxx>
 #include <TopExp_Explorer.hxx>
 #include <BRepExtrema_DistShapeShape.hxx>
-#include <Geom2d_Curve.hxx>
-#include <Geom2d_Line.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <Geometry/GCE2d/GCE2d_MakeLine.hxx>
 #include <BRepLib_MakeEdge.hxx>
 #include <BRepLib.hxx>

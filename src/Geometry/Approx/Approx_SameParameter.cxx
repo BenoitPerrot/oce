@@ -16,14 +16,14 @@
 
 //  Modified by skv - Wed Jun  2 11:49:59 2004 OCC5898
 
-#include <Geom2d_BSplineCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Geometry/Approx/Approx_SameParameter.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
@@ -46,7 +46,7 @@
 #ifdef DRAW
 #include <DrawTrSurf.hxx>
 #endif
-#include <Geom2d_BSplineCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <stdio.h>
 static Standard_Boolean Voir     = Standard_False;
 static Standard_Boolean AffichFw = Standard_False;

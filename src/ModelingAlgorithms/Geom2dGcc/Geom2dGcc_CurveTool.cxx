@@ -17,8 +17,8 @@
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Geom2dGcc_CurveTool.hxx>
 
-#include <Geom2d_Line.hxx>
-#include <Geom2d_BezierCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_Line.hxx>
+#include <Geometry/Geom2d/Geom2d_BezierCurve.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>

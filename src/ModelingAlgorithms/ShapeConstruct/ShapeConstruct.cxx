@@ -16,8 +16,8 @@
 
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <Geom2d_BSplineCurve.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <TopTools_HSequenceOfShape.hxx>
@@ -30,8 +30,8 @@
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <GeomConvert_ApproxCurve.hxx>
 #include <GeomConvert.hxx>
-#include <Geom2d_Conic.hxx>
-#include <Geom2d_TrimmedCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_Conic.hxx>
+#include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <Geom2dConvert_ApproxCurve.hxx>
 #include <Geom2dConvert.hxx>
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>

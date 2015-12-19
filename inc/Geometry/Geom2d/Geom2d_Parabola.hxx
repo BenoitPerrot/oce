@@ -11,7 +11,7 @@
 #include <Handle_Geom2d_Parabola.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Geom2d_Conic.hxx>
+#include <Geometry/Geom2d/Geom2d_Conic.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Geom2d_Geometry.hxx>

@@ -19,7 +19,7 @@
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Geometry/Geom/Geom_Vector.hxx>
-#include <Geom2d_Vector.hxx>
+#include <Geometry/Geom2d/Geom2d_Vector.hxx>
 #include <GeomToStep_MakeVector.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>

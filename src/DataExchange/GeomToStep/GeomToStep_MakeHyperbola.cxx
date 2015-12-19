@@ -13,7 +13,7 @@
 
 #include <StepGeom_Hyperbola.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <Geom2d_Hyperbola.hxx>
+#include <Geometry/Geom2d/Geom2d_Hyperbola.hxx>
 #include <Geometry/Geom/Geom_Hyperbola.hxx>
 #include <GeomToStep_MakeHyperbola.hxx>
 

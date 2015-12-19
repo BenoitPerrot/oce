@@ -15,7 +15,7 @@
 //    abv 09.04.99  S4136: add parameter preci (to eliminate BRepAPI::Precision)
 #include <TopoDS_Face.hxx>
 #include <TopoDS_Edge.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <ShapeFix_EdgeProjAux.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeFix_EdgeProjAux)
@@ -38,9 +38,9 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_EdgeProjAux)
 #include <GeomAdaptor_Surface.hxx>
 #include <GeomAdaptor_HSurface.hxx>
 
-#include <Geom2d_Curve.hxx>
-#include <Geom2d_BSplineCurve.hxx>
-#include <Geom2d_Line.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx> 
 #include <Geometry/Geom/Geom_SphericalSurface.hxx>

@@ -38,8 +38,8 @@
 #endif
 
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <Geom2d_Line.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Line.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 
 #include <TopoDS.hxx>
 #include <TopExp.hxx>

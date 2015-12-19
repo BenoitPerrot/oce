@@ -22,7 +22,7 @@
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
@@ -32,8 +32,8 @@
 
 #include <ElCLib.hxx>
 
-#include <Geom2d_BoundedCurve.hxx>
-#include <Geom2d_Line.hxx>
+#include <Geometry/Geom2d/Geom2d_BoundedCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <GeomAdaptor_Curve.hxx>
 
@@ -51,12 +51,12 @@
 #include <Geometry/Geom/Geom_OffsetCurve.hxx>
 #include <Geometry/Geom/Geom_BezierCurve.hxx>
 #include <ShapeExtend_ComplexCurve.hxx>
-#include <Geom2d_Conic.hxx>
-#include <Geom2d_TrimmedCurve.hxx>
-#include <Geom2d_BSplineCurve.hxx>
-#include <Geom2d_BezierCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_Conic.hxx>
+#include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_BezierCurve.hxx>
 
-#include <Geom2d_OffsetCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_OffsetCurve.hxx>
 #include <Geom2dInt_Geom2dCurveTool.hxx>
 #include <Geom2dAdaptor_Curve.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>

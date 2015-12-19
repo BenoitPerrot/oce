@@ -14,18 +14,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Bisector_Bisec.hxx>
-#include <Geom2d_Geometry.hxx>
+#include <Geometry/Geom2d/Geom2d_Geometry.hxx>
 #include <TopoDS_Edge.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <BRepFill_TrimEdgeTool.hxx>
 #include <BRep_Tool.hxx>
 #include <Bisector_BisecAna.hxx>
-#include <Geom2d_Curve.hxx>
-#include <Geom2d_TrimmedCurve.hxx>
-#include <Geom2d_CartesianPoint.hxx>
+#include <Geometry/Geom2d/Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_CartesianPoint.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <GeomProjLib.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>

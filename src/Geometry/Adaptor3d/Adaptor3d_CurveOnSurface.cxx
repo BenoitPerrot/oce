@@ -47,8 +47,8 @@
 #include <Geometry/Geom/Geom_SurfaceOfRevolution.hxx>
 #include <Geometry/Geom/Geom_SurfaceOfLinearExtrusion.hxx>
 #include <Geometry/Geom/Geom_OffsetSurface.hxx>
-#include <Geom2d_BezierCurve.hxx>
-#include <Geom2d_BSplineCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_BezierCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <Precision.hxx>
 #include <Foundation/Standard/Standard_Assert.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>

@@ -228,7 +228,7 @@ Standard_IMPORT Draw_Color DrawTrSurf_CurveColor(const Draw_Color col);
 Standard_IMPORT void DBRep_WriteColorOrientation ();
 Standard_IMPORT Draw_Color DBRep_ColorOrientation (const TopAbs_Orientation Or);
 
-#include <Geom2d_TrimmedCurve.hxx>
+#include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <DrawTrSurf.hxx>
 #include <TopExp.hxx>
 
