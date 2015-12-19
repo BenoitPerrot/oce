@@ -20,7 +20,7 @@
 #include <Mathematics/Primitives/gp_Ax2d.hxx>
 #include <Mathematics/Primitives/gp_Ax22d.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <GCE2d_MakeEllipse.hxx>
+#include <Geometry/GCE2d/GCE2d_MakeEllipse.hxx>
 #include <Geometry/gce/gce_MakeElips2d.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 

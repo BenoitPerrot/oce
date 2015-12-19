@@ -25,7 +25,7 @@
 #ifdef DRAW
 #include <Draw_Appli.hxx>
 #include <DrawTrSurf_Curve2d.hxx>
-#include <GCE2d_MakeSegment.hxx>
+#include <Geometry/GCE2d/GCE2d_MakeSegment.hxx>
 #include <DrawTrSurf.hxx>
 #endif
 

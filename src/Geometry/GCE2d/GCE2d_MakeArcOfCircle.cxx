@@ -19,7 +19,7 @@
 #include <Mathematics/Primitives/gp_Circ2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
-#include <GCE2d_MakeArcOfCircle.hxx>
+#include <Geometry/GCE2d/GCE2d_MakeArcOfCircle.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Geom2d_Circle.hxx>
 #include <Geometry/gce/gce_MakeCirc2d.hxx>

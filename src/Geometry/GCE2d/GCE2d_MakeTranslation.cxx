@@ -17,7 +17,7 @@
 #include <Geom2d_Transformation.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <GCE2d_MakeTranslation.hxx>
+#include <Geometry/GCE2d/GCE2d_MakeTranslation.hxx>
 
 //=========================================================================
 //   Creation d une translation 3d de Geom2d de vecteur de tanslation Vec.  +

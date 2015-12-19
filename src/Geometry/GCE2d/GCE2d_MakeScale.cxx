@@ -16,7 +16,7 @@
 
 #include <Geom2d_Transformation.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <GCE2d_MakeScale.hxx>
+#include <Geometry/GCE2d/GCE2d_MakeScale.hxx>
 
 //=========================================================================
 //   Creation d un homothetie de gp de centre Point et de rapport Scale.  +

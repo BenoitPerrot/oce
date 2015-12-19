@@ -20,7 +20,7 @@
 #include <Mathematics/Primitives/gp_Ax2d.hxx>
 #include <Mathematics/Primitives/gp_Ax22d.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <GCE2d_MakeCircle.hxx>
+#include <Geometry/GCE2d/GCE2d_MakeCircle.hxx>
 #include <Geometry/gce/gce_MakeCirc2d.hxx>
 #include <Geom2d_Circle.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>

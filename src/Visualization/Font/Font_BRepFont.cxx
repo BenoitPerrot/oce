@@ -17,7 +17,7 @@
 #include <BRep_Tool.hxx>
 #include <BRepLib_MakeWire.hxx>
 #include <BRepLib_MakeEdge.hxx>
-#include <GCE2d_MakeSegment.hxx>
+#include <Geometry/GCE2d/GCE2d_MakeSegment.hxx>
 #include <Geometry/GC/GC_MakeSegment.hxx>
 #include <Geom_BezierCurve.hxx>
 #include <Geom_BSplineCurve.hxx>

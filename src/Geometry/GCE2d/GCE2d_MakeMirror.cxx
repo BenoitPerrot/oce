@@ -19,7 +19,7 @@
 #include <Mathematics/Primitives/gp_Ax2d.hxx>
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
-#include <GCE2d_MakeMirror.hxx>
+#include <Geometry/GCE2d/GCE2d_MakeMirror.hxx>
 
 //=========================================================================
 //   Creation d une symetrie de Geom2d par rapport a un point.              +

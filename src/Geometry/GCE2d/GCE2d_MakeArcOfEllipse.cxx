@@ -18,7 +18,7 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Mathematics/Primitives/gp_Elips2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <GCE2d_MakeArcOfEllipse.hxx>
+#include <Geometry/GCE2d/GCE2d_MakeArcOfEllipse.hxx>
 #include <Geom2d_Ellipse.hxx>
 #include <ElCLib.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>

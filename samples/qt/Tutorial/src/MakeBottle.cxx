@@ -20,7 +20,7 @@
 #include <Geometry/GC/GC_MakeArcOfCircle.hxx>
 #include <Geometry/GC/GC_MakeSegment.hxx>
 
-#include <GCE2d_MakeSegment.hxx>
+#include <Geometry/GCE2d/GCE2d_MakeSegment.hxx>
 
 #include <Mathematics/Primitives/gp.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>

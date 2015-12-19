@@ -16,7 +16,7 @@
 
 #include <Geom2d_Transformation.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <GCE2d_MakeRotation.hxx>
+#include <Geometry/GCE2d/GCE2d_MakeRotation.hxx>
 
 //=========================================================================
 //   Creation d une rotation 3d de gp d angle Angle par rapport a une     +

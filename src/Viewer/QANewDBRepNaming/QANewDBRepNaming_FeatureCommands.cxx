@@ -66,7 +66,7 @@
 
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 
-#include <GCE2d_MakeLine.hxx>
+#include <Geometry/GCE2d/GCE2d_MakeLine.hxx>
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>

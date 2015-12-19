@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_Geom2d_TrimmedCurve.hxx>
-#include <GCE2d_Root.hxx>
+#include <Geometry/GCE2d/GCE2d_Root.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class Geom2d_TrimmedCurve;
 class StdFail_NotDone;

@@ -28,7 +28,7 @@
 
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
-#include <GCE2d_MakeSegment.hxx>
+#include <Geometry/GCE2d/GCE2d_MakeSegment.hxx>
 #include <Geom2d_TrimmedCurve.hxx>
 #include <DrawTrSurf.hxx>
 

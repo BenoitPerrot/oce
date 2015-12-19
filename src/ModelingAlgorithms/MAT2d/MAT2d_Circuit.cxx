@@ -20,7 +20,7 @@
 #include <Draw_Marker2D.hxx>
 #endif
 #ifdef OCCT_DEBUG
-#include <GCE2d_MakeSegment.hxx>
+#include <Geometry/GCE2d/GCE2d_MakeSegment.hxx>
 #include <Geom2d_Curve.hxx>
 #include <Geom2d_Parabola.hxx>
 #include <Geom2d_Hyperbola.hxx>

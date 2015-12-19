@@ -51,7 +51,7 @@ private:
 };
 
 
-#include <GCE2d_Root.lxx>
+#include <Geometry/GCE2d/GCE2d_Root.lxx>
 
 
 

@@ -87,7 +87,7 @@
 #include <ElSLib.hxx>
 #include <ElCLib.hxx>
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
-#include <GCE2d_MakeLine.hxx>
+#include <Geometry/GCE2d/GCE2d_MakeLine.hxx>
 #include <Geom2d_Line.hxx>
 #include <TopoDS_Iterator.hxx>
 #include <BRepLib_MakeFace.hxx>
