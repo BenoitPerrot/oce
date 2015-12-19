@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Wireframe)
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 
-//#include <Geom2dConvert_CompCurveToBSplineCurve.hxx>
+//#include <Geometry/Geom2dConvert/Geom2dConvert_CompCurveToBSplineCurve.hxx>
 #include <ShapeBuild_ReShape.hxx>
 #include <TopTools_DataMapOfShapeShape.hxx>
 #include <TopoDS_Compound.hxx>

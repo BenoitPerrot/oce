@@ -31,7 +31,7 @@
 #include <StepToGeom_MakeBoundedCurve2d.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
-#include <Geom2dConvert.hxx>
+#include <Geometry/Geom2dConvert/Geom2dConvert.hxx>
 #include <StepGeom_CurveReplica.hxx>
 #include <StepGeom_CartesianTransformationOperator2d.hxx>
 #include <StepToGeom_MakeTransformation2d.hxx>

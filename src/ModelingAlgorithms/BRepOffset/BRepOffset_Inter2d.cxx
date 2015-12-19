@@ -60,7 +60,7 @@
 #include <Geometry/Geom2d/Geom2d_BezierCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
-#include <Geom2dConvert_CompCurveToBSplineCurve.hxx>
+#include <Geometry/Geom2dConvert/Geom2dConvert_CompCurveToBSplineCurve.hxx>
 
 #include <BRepLib.hxx>
 #include <BRepAdaptor_Curve2d.hxx>

@@ -39,7 +39,7 @@
 
 #include <Precision.hxx>
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
-#include <Geom2dConvert.hxx>
+#include <Geometry/Geom2dConvert/Geom2dConvert.hxx>
 #include <BRepLib_MakeFace.hxx>
 #include <TopExp.hxx>
 #include <BRep_Builder.hxx>

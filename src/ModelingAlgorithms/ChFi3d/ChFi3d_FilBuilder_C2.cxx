@@ -57,7 +57,7 @@
 #include <Law_Linear.hxx>
 #include <BRepBlend_CSCircular.hxx>
 #include <BRepBlend_Line.hxx>
-#include <Geom2dConvert.hxx>
+#include <Geometry/Geom2dConvert/Geom2dConvert.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 
 #include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>

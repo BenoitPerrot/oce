@@ -54,7 +54,7 @@
 
 #include <GeomLib.hxx>
 #include <GeomConvert.hxx>
-#include <Geom2dConvert.hxx>
+#include <Geometry/Geom2dConvert/Geom2dConvert.hxx>
 
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <Geometry/Geom2d/Geom2d_Circle.hxx>
@@ -98,7 +98,7 @@
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <GeomConvert.hxx>
 #include <GeomConvert_ApproxCurve.hxx>
-#include <Geom2dConvert_ApproxCurve.hxx>
+#include <Geometry/Geom2dConvert/Geom2dConvert_ApproxCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 
 #include <GeomAdaptor_HCurve.hxx>

@@ -77,7 +77,7 @@
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 
 //#include <GeomConvert.hxx>
-//#include <Geom2dConvert.hxx>
+//#include <Geometry/Geom2dConvert/Geom2dConvert.hxx>
 
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 

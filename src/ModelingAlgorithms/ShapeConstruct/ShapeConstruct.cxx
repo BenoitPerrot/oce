@@ -32,8 +32,8 @@
 #include <GeomConvert.hxx>
 #include <Geometry/Geom2d/Geom2d_Conic.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
-#include <Geom2dConvert_ApproxCurve.hxx>
-#include <Geom2dConvert.hxx>
+#include <Geometry/Geom2dConvert/Geom2dConvert_ApproxCurve.hxx>
+#include <Geometry/Geom2dConvert/Geom2dConvert.hxx>
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
 #include <Geometry/Geom/Geom_SurfaceOfLinearExtrusion.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>

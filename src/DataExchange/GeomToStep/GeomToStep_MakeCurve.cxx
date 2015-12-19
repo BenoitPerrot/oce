@@ -37,7 +37,7 @@
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Geometry/Geom/Geom_BezierCurve.hxx>
 
-#include <Geom2dConvert.hxx>
+#include <Geometry/Geom2dConvert/Geom2dConvert.hxx>
 #include <Geometry/Geom2d/Geom2d_Circle.hxx>
 #include <Mathematics/Primitives/gp_Circ2d.hxx>
 #include <Geometry/Geom2d/Geom2d_Ellipse.hxx>

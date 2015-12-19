@@ -22,7 +22,7 @@
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <TColGeom2d_HArray1OfBSplineCurve.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
-#include <Geom2dConvert.hxx>
+#include <Geometry/Geom2dConvert/Geom2dConvert.hxx>
 
 #include <Mathematics/Convert/Convert_ConicToBSplineCurve.hxx>
 #include <Mathematics/Convert/Convert_CircleToBSplineCurve.hxx>
@@ -56,8 +56,8 @@
 #include <Geometry/Geom2d/Geom2d_BezierCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_Conic.hxx>
-#include <Geom2dConvert_CompCurveToBSplineCurve.hxx>            
-#include <Geom2dConvert_ApproxCurve.hxx>
+#include <Geometry/Geom2dConvert/Geom2dConvert_CompCurveToBSplineCurve.hxx>            
+#include <Geometry/Geom2dConvert/Geom2dConvert_ApproxCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_OffsetCurve.hxx>
 #include <GeomAbs_Shape.hxx>
 

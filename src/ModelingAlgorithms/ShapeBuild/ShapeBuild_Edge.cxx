@@ -48,8 +48,8 @@
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_Conic.hxx>
-#include <Geom2dConvert.hxx>
-#include <Geom2dConvert_ApproxCurve.hxx>
+#include <Geometry/Geom2dConvert/Geom2dConvert.hxx>
+#include <Geometry/Geom2dConvert/Geom2dConvert_ApproxCurve.hxx>
 #include <GeomAPI.hxx>
 #include <Geometry/Geom2d/Geom2d_BezierCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>

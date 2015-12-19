@@ -80,7 +80,7 @@
 #include <TopoDS_Face.hxx>
 #include <TopoDS_Wire.hxx>
 
-#include <Geom2dConvert_CompCurveToBSplineCurve.hxx>
+#include <Geometry/Geom2dConvert/Geom2dConvert_CompCurveToBSplineCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <GeomConvert_CompCurveToBSplineCurve.hxx>

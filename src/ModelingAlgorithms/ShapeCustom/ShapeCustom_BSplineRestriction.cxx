@@ -37,7 +37,7 @@ IMPLEMENT_DOWNCAST(ShapeCustom_BSplineRestriction,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ShapeCustom_BSplineRestriction)
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <GeomConvert_ApproxSurface.hxx>
-#include <Geom2dConvert_ApproxCurve.hxx>
+#include <Geometry/Geom2dConvert/Geom2dConvert_ApproxCurve.hxx>
 #include <GeomConvert_ApproxCurve.hxx>
 #include <BRepTools_Modifier.hxx>
 #include <BRep_Tool.hxx>
@@ -80,7 +80,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeCustom_BSplineRestriction)
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <Geometry/Geom2d/Geom2d_Conic.hxx>
-#include <Geom2dConvert.hxx>
+#include <Geometry/Geom2dConvert/Geom2dConvert.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
 #include <Geometry/Geom/Geom_Conic.hxx>
 #include <GeomConvert.hxx>

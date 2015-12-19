@@ -21,7 +21,7 @@
 #include <Geometry/Geom2d/Geom2d_BezierCurve.hxx>
 #include <TColGeom2d_Array1OfBezierCurve.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <Geom2dConvert_BSplineCurveToBezierCurve.hxx>
+#include <Geometry/Geom2dConvert/Geom2dConvert_BSplineCurveToBezierCurve.hxx>
 
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>

@@ -58,7 +58,7 @@
 #include <Geometry/Geom2d/Geom2d_Ellipse.hxx>
 #include <Geometry/Geom2d/Geom2d_Parabola.hxx>
 #include <Geometry/Geom2d/Geom2d_Hyperbola.hxx>
-//#include <Geom2dConvert_BSplineCurveKnotSplitting.hxx>
+//#include <Geometry/Geom2dConvert/Geom2dConvert_BSplineCurveKnotSplitting.hxx>
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>

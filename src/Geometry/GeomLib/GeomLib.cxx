@@ -146,7 +146,7 @@
 #include <Mathematics/Primitives/gp_Trsf2d.hxx>
 
 #include <ElCLib.hxx>
-#include <Geom2dConvert.hxx>
+#include <Geometry/Geom2dConvert/Geom2dConvert.hxx>
 #include <GeomConvert_CompCurveToBSplineCurve.hxx>
 #include <GeomConvert_ApproxSurface.hxx>
 
