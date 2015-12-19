@@ -28,7 +28,7 @@
 #include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
-#include <gce_MakeCirc.hxx>
+#include <Geometry/gce/gce_MakeCirc.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
 #include <Geometry/GC/GC_MakeArcOfCircle.hxx>
 #include <BRepLib_MakeEdge.hxx>

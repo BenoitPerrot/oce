@@ -20,7 +20,7 @@
 #include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geometry/GC/GC_MakeHyperbola.hxx>
-#include <gce_MakeHypr.hxx>
+#include <Geometry/gce/gce_MakeHypr.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 
 GC_MakeHyperbola::GC_MakeHyperbola(const gp_Hypr& H)

@@ -16,7 +16,7 @@
 
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Trsf2d.hxx>
-#include <gce_MakeScale2d.hxx>
+#include <Geometry/gce/gce_MakeScale2d.hxx>
 
 //=========================================================================
 //   Creation d un homothetie de gp de centre Point et de rapport Scale.  +

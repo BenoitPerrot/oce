@@ -89,7 +89,7 @@
 #include <Interface_Macros.hxx>
 #include <Interface_Static.hxx>
 
-#include <gce_MakeLin.hxx>
+#include <Geometry/gce/gce_MakeLin.hxx>
 
 #include <Mathematics/Primitives/gp.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>

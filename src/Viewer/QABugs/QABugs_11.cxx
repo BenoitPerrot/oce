@@ -1429,8 +1429,8 @@ static Standard_Integer OCC525(Draw_Interpretor& di, Standard_Integer /*argc*/, 
 }
 
 #include <BRepPrimAPI_MakeWedge.hxx>
-#include <gce_MakeRotation.hxx>
-#include <gce_MakeTranslation.hxx>
+#include <Geometry/gce/gce_MakeRotation.hxx>
+#include <Geometry/gce/gce_MakeTranslation.hxx>
 #include <BRepBuilderAPI_Transform.hxx>
 #include <BRepPrimAPI_MakeWedge.hxx>
 #include <BRepAlgoAPI_Fuse.hxx>

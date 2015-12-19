@@ -3,30 +3,31 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#ifndef _gce_MakeDir2d_HeaderFile
-#define _gce_MakeDir2d_HeaderFile
+#ifndef _gce_MakeDir_HeaderFile
+#define _gce_MakeDir_HeaderFile
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Mathematics/Primitives/gp_Dir2d.hxx>
-#include <gce_Root.hxx>
+#include <Mathematics/Primitives/gp_Dir.hxx>
+#include <Geometry/gce/gce_Root.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class StdFail_NotDone;
-class gp_Vec2d;
-class gp_XY;
-class gp_Pnt2d;
-class gp_Dir2d;
+class gp_Vec;
+class gp_XYZ;
+class gp_Pnt;
+class gp_Dir;
 
 
 //! This class implements the following algorithms used
-//! to create a Dir2d from gp.
-//! * Create a Dir2d with 2 points.
-//! * Create a Dir2d with a Vec2d.
-//! * Create a Dir2d with a XY from gp.
-//! * Create a Dir2d with a 2 Reals (Coordinates).
-class gce_MakeDir2d  : public gce_Root
+//! to create a Dir from gp.
+//! * Create a Dir parallel to another and passing
+//! through a point.
+//! * Create a Dir passing through 2 points.
+//! * Create a Dir from its axis (Ax1 from gp).
+//! * Create a Dir from a point and a direction.
+class gce_MakeDir  : public gce_Root
 {
 public:
 
@@ -35,21 +36,21 @@ public:
   
   //! Normalizes the vector V and creates a direction.
   //! Status is "NullVector" if V.Magnitude() <= Resolution.
-  Standard_EXPORT gce_MakeDir2d(const gp_Vec2d& V);
+  Standard_EXPORT gce_MakeDir(const gp_Vec& V);
   
   //! Creates a direction from a triplet of coordinates.
   //! Status is "NullVector" if Coord.Modulus() <=
   //! Resolution from gp.
-  Standard_EXPORT gce_MakeDir2d(const gp_XY& Coord);
+  Standard_EXPORT gce_MakeDir(const gp_XYZ& Coord);
   
   //! Creates a direction with its 3 cartesian coordinates.
-  //! Status is "NullVector" if Sqrt(Xv*Xv + Yv*Yv )
+  //! Status is "NullVector" if Sqrt(Xv*Xv + Yv*Yv + Zv*Zv)
   //! <= Resolution
-  Standard_EXPORT gce_MakeDir2d(const Standard_Real Xv, const Standard_Real Yv);
+  Standard_EXPORT gce_MakeDir(const Standard_Real Xv, const Standard_Real Yv, const Standard_Real Zv);
   
-  //! Make a Dir2d from gp <TheDir> passing through 2
+  //! Make a Dir from gp <TheDir> passing through 2
   //! Pnt <P1>,<P2>.
-  //! Status is "ConfusedPoints" if <P1> and <P2> are confused.
+  //! Status is "ConfusedPoints" if <p1> and <P2> are confused.
   //! Warning
   //! If an error occurs (that is, when IsDone returns
   //! false), the Status function returns:
@@ -58,15 +59,15 @@ public:
   //! than or equal to gp::Resolution():
   //! -   the magnitude of vector V,
   //! -   the modulus of Coord,
-  //! -   Sqrt(Xv*Xv + Yv*Yv).
-  Standard_EXPORT gce_MakeDir2d(const gp_Pnt2d& P1, const gp_Pnt2d& P2);
+  //! -   Sqrt(Xv*Xv + Yv*Yv + Zv*Zv).
+  Standard_EXPORT gce_MakeDir(const gp_Pnt& P1, const gp_Pnt& P2);
   
   //! Returns the constructed unit vector.
   //! Exceptions StdFail_NotDone if no unit vector is constructed.
-  Standard_EXPORT  const  gp_Dir2d& Value()  const;
+  Standard_EXPORT  const  gp_Dir& Value()  const;
   
-  Standard_EXPORT  const  gp_Dir2d& Operator()  const;
-Standard_EXPORT operator gp_Dir2d() const;
+  Standard_EXPORT  const  gp_Dir& Operator()  const;
+Standard_EXPORT operator gp_Dir() const;
 
 
 
@@ -81,7 +82,7 @@ private:
 
 
 
-  gp_Dir2d TheDir2d;
+  gp_Dir TheDir;
 
 
 };
@@ -92,4 +93,4 @@ private:
 
 
 
-#endif // _gce_MakeDir2d_HeaderFile
+#endif // _gce_MakeDir_HeaderFile

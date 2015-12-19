@@ -45,8 +45,8 @@
 #include <Geom_Line.hxx>
 #include <Geom_Plane.hxx>
 #include <GeomAPI_IntCS.hxx>
-#include <gce_MakeLin.hxx>
-#include <gce_MakePln.hxx>
+#include <Geometry/gce/gce_MakeLin.hxx>
+#include <Geometry/gce/gce_MakePln.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <IntAna_IntConicQuad.hxx>
@@ -1408,7 +1408,7 @@ static int VIdenticRelation(Draw_Interpretor& di, Standard_Integer argc, const c
 #include <BRepExtrema_ExtFF.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <BRepExtrema_DistShapeShape.hxx>
-#include <gce_MakePln.hxx>
+#include <Geometry/gce/gce_MakePln.hxx>
 #include <TopExp_Explorer.hxx>
 #include <BRepLib_MakeVertex.hxx>
 

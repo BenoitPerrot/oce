@@ -74,7 +74,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_ParallelRelation)
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>
 
-#include <gce_MakeLin.hxx>
+#include <Geometry/gce/gce_MakeLin.hxx>
 
 #include <Geom_Plane.hxx>
 #include <Geom_Line.hxx>

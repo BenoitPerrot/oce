@@ -18,7 +18,7 @@
 #include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Elips.hxx>
-#include <gce_MakeElips.hxx>
+#include <Geometry/gce/gce_MakeElips.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>

@@ -28,7 +28,7 @@
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Ax3.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
-#include <gce_MakeCirc.hxx>
+#include <Geometry/gce/gce_MakeCirc.hxx>
 #include <Geom2d_Curve.hxx>
 #include <Geom2d_Line.hxx>
 #include <Geom_Curve.hxx>

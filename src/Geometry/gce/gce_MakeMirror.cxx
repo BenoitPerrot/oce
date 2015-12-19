@@ -21,7 +21,7 @@
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
-#include <gce_MakeMirror.hxx>
+#include <Geometry/gce/gce_MakeMirror.hxx>
 #include <Mathematics/Primitives/gp_Ax3.hxx>
 
 //=========================================================================

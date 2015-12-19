@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <gce_ErrorType.hxx>
+#include <Geometry/gce/gce_ErrorType.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 
 

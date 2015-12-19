@@ -19,7 +19,7 @@
 #include <Mathematics/Primitives/gp_Ax2d.hxx>
 #include <Mathematics/Primitives/gp_Ax22d.hxx>
 #include <Mathematics/Primitives/gp_Hypr2d.hxx>
-#include <gce_MakeHypr2d.hxx>
+#include <Geometry/gce/gce_MakeHypr2d.hxx>
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 

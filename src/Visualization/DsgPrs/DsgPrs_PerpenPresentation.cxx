@@ -22,8 +22,8 @@
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <ElCLib.hxx>
-#include <gce_MakeLin.hxx>
-#include <gce_MakeDir.hxx>
+#include <Geometry/gce/gce_MakeLin.hxx>
+#include <Geometry/gce/gce_MakeDir.hxx>
 #include <Geom_CartesianPoint.hxx>
 #include <Graphic3d_Group.hxx>
 #include <Prs3d_Arrow.hxx>

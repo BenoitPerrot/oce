@@ -22,7 +22,7 @@
 
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>
-#include <gce_MakeLin.hxx>
+#include <Geometry/gce/gce_MakeLin.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
 

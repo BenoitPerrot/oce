@@ -21,7 +21,7 @@
 #include <Mathematics/Primitives/gp_Ax22d.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <GCE2d_MakeHyperbola.hxx>
-#include <gce_MakeHypr2d.hxx>
+#include <Geometry/gce/gce_MakeHypr2d.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 
 GCE2d_MakeHyperbola::GCE2d_MakeHyperbola(const gp_Hypr2d& H)

@@ -27,7 +27,7 @@
 #include <Graphic3d_ArrayOfPolylines.hxx>
 #include <Prs3d_Root.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
-#include <gce_MakeDir.hxx>
+#include <Geometry/gce/gce_MakeDir.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Precision.hxx>

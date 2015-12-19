@@ -20,8 +20,8 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Geometry/GC/GC_MakeArcOfCircle.hxx>
-#include <gce_MakeCirc.hxx>
-#include <gce_MakeLin.hxx>
+#include <Geometry/gce/gce_MakeCirc.hxx>
+#include <Geometry/gce/gce_MakeLin.hxx>
 #include <Geom_Circle.hxx>
 #include <Geometry/Extrema/Extrema_ExtElC.hxx>
 #include <Geometry/Extrema/Extrema_POnCurv.hxx>

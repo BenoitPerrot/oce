@@ -22,8 +22,8 @@
 #include <GCE2d_MakeArcOfCircle.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Geom2d_Circle.hxx>
-#include <gce_MakeCirc2d.hxx>
-#include <gce_MakeLin2d.hxx>
+#include <Geometry/gce/gce_MakeCirc2d.hxx>
+#include <Geometry/gce/gce_MakeLin2d.hxx>
 #include <ElCLib.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <IntAna2d_AnaIntersection.hxx>

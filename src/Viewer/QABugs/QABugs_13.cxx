@@ -388,7 +388,7 @@ static Standard_Integer OCC332bug (Draw_Interpretor& di, Standard_Integer argc, 
   return 0;
 }
 
-#include <gce_MakePln.hxx>
+#include <Geometry/gce/gce_MakePln.hxx>
 #include <TopExp.hxx>
 #include <BRepOffsetAPI_Sewing.hxx>
 #include <BRepAlgoAPI_Fuse.hxx>

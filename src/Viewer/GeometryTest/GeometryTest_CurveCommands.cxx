@@ -112,7 +112,7 @@
 #include <GCPnts_UniformDeflection.hxx>
 #include <GCPnts_TangentialDeflection.hxx>
 #include <GeomAPI_ExtremaCurveCurve.hxx>
-#include <gce_MakeLin.hxx>
+#include <Geometry/gce/gce_MakeLin.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>
 #include <GeomAdaptor_HSurface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_TopolTool.hxx>

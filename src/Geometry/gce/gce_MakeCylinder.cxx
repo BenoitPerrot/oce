@@ -20,7 +20,7 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
-#include <gce_MakeCylinder.hxx>
+#include <Geometry/gce/gce_MakeCylinder.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>

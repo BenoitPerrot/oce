@@ -21,7 +21,7 @@
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
-#include <gce_MakeCirc.hxx>
+#include <Geometry/gce/gce_MakeCirc.hxx>
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 
@@ -29,7 +29,7 @@
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
 
-#include <gce_MakeDir.hxx>
+#include <Geometry/gce/gce_MakeDir.hxx>
 
 #include <Geometry/Extrema/Extrema_POnCurv.hxx>
 #include <Geometry/Extrema/Extrema_ExtElC.hxx>

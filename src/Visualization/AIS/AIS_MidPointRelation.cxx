@@ -45,7 +45,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_MidPointRelation)
 #include <AIS.hxx>
 #include <AIS_Drawer.hxx>
 
-#include <gce_MakeLin.hxx>
+#include <Geometry/gce/gce_MakeLin.hxx>
 #include <ElCLib.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>

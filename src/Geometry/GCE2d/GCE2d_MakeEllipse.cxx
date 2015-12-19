@@ -21,7 +21,7 @@
 #include <Mathematics/Primitives/gp_Ax22d.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <GCE2d_MakeEllipse.hxx>
-#include <gce_MakeElips2d.hxx>
+#include <Geometry/gce/gce_MakeElips2d.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 
 GCE2d_MakeEllipse::GCE2d_MakeEllipse(const gp_Elips2d& E)

@@ -42,7 +42,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_SymmetricRelation)
 #include <AIS.hxx>
 #include <AIS_Drawer.hxx>
 
-#include <gce_MakeLin.hxx>
+#include <Geometry/gce/gce_MakeLin.hxx>
 #include <SelectMgr_EntityOwner.hxx>
 #include <Select3D_SensitiveSegment.hxx>
 #include <Select3D_SensitiveBox.hxx>

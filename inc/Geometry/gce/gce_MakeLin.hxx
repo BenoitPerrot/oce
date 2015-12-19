@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Mathematics/Primitives/gp_Lin.hxx>
-#include <gce_Root.hxx>
+#include <Geometry/gce/gce_Root.hxx>
 class StdFail_NotDone;
 class gp_Ax1;
 class gp_Pnt;

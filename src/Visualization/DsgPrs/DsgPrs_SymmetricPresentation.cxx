@@ -38,8 +38,8 @@
 
 #include <ElCLib.hxx>
 
-#include <gce_MakeLin.hxx>
-#include <gce_MakeDir.hxx>
+#include <Geometry/gce/gce_MakeLin.hxx>
+#include <Geometry/gce/gce_MakeDir.hxx>
 
 #include <Graphic3d_Group.hxx>
 #include <Graphic3d_ArrayOfSegments.hxx>

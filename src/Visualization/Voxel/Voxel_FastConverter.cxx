@@ -30,7 +30,7 @@
 #include <TopExp_Explorer.hxx>
 
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
-#include <gce_MakePln.hxx>
+#include <Geometry/gce/gce_MakePln.hxx>
 
 #include <ElSLib.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>

@@ -23,7 +23,7 @@
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <ElCLib.hxx>
-#include <gce_MakeLin.hxx>
+#include <Geometry/gce/gce_MakeLin.hxx>
 #include <Graphic3d_Group.hxx>
 #include <Graphic3d_ArrayOfSegments.hxx>
 #include <Prs3d_Arrow.hxx>

@@ -19,7 +19,7 @@
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
-#include <gce_MakeDir.hxx>
+#include <Geometry/gce/gce_MakeDir.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 

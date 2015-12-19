@@ -17,7 +17,7 @@
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Trsf2d.hxx>
-#include <gce_MakeTranslation2d.hxx>
+#include <Geometry/gce/gce_MakeTranslation2d.hxx>
 
 //=========================================================================
 //   Creation d une translation 2d de gp de vecteur de tanslation Vec.    +

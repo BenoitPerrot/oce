@@ -22,7 +22,7 @@
 #include <GeomAPI_IntCS.hxx>
 #include <Geom_Circle.hxx>
 #include <Geom_Plane.hxx>
-#include <gce_MakeDir.hxx>
+#include <Geometry/gce/gce_MakeDir.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 
 IMPLEMENT_STANDARD_HANDLE (AIS_DiameterDimension, AIS_Dimension)

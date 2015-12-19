@@ -51,7 +51,7 @@
 #include <GeomAPI_ProjectPointOnSurf.hxx>
 #include <GeomAPI_ProjectPointOnCurve.hxx>
 
-#include <gce_MakeLin.hxx>
+#include <Geometry/gce/gce_MakeLin.hxx>
 
 void DsgPrs::ComputeSymbol (const Handle(Prs3d_Presentation)& aPresentation,
 			    const Handle(Prs3d_DimensionAspect)& LA,

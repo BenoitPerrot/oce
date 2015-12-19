@@ -26,7 +26,7 @@
 #include <Geom_BezierCurve.hxx>
 #include <Geom_BSplineCurve.hxx>
 #include <BRep_Tool.hxx>
-#include <gce_MakeLin.hxx>
+#include <Geometry/gce/gce_MakeLin.hxx>
 
 #include <BRepLib_MakeWire.hxx>
 

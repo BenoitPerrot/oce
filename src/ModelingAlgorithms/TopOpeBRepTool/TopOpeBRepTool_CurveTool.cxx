@@ -53,12 +53,12 @@
 #include <GeomTools_Curve2dSet.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
-#include <gce_MakeLin.hxx>
+#include <Geometry/gce/gce_MakeLin.hxx>
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
-#include <gce_MakeLin2d.hxx>
+#include <Geometry/gce/gce_MakeLin2d.hxx>
 #include <BRepTools.hxx>
 #include <Precision.hxx>
-#include <gce_MakeCirc.hxx>
+#include <Geometry/gce/gce_MakeCirc.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 //#include <Geometry/Approx/Approx.hxx>
 #include <Geom_Surface.hxx>

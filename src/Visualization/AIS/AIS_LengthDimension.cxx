@@ -24,8 +24,8 @@
 #include <BRepTools.hxx>
 #include <ElCLib.hxx>
 #include <ElSLib.hxx>
-#include <gce_MakeDir.hxx>
-#include <gce_MakePln.hxx>
+#include <Geometry/gce/gce_MakeDir.hxx>
+#include <Geometry/gce/gce_MakePln.hxx>
 #include <GeomAPI_ExtremaCurveCurve.hxx>
 #include <GeomAPI_ExtremaCurveSurface.hxx>
 #include <GeomAPI_ExtremaSurfaceSurface.hxx>

@@ -19,7 +19,7 @@
 #include <Mathematics/Primitives/gp_Ax22d.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Elips2d.hxx>
-#include <gce_MakeElips2d.hxx>
+#include <Geometry/gce/gce_MakeElips2d.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>

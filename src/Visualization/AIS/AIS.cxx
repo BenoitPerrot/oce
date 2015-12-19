@@ -48,8 +48,8 @@
 #include <ElSLib.hxx>
 
 #include <GccEnt_QualifiedLin.hxx>
-#include <gce_MakeDir.hxx>
-#include <gce_MakeLin.hxx>
+#include <Geometry/gce/gce_MakeDir.hxx>
+#include <Geometry/gce/gce_MakeLin.hxx>
 #include <Geom2d_Circle.hxx>
 #include <GeomAPI_ExtremaCurveCurve.hxx>
 #include <GeomAPI_IntSS.hxx>

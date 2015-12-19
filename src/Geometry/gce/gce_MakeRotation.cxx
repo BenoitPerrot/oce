@@ -19,7 +19,7 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
-#include <gce_MakeRotation.hxx>
+#include <Geometry/gce/gce_MakeRotation.hxx>
 
 //=========================================================================
 //   Creation d une rotation 3d de gp d angle Angle par rapport a une     +

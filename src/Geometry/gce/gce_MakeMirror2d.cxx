@@ -19,7 +19,7 @@
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <Mathematics/Primitives/gp_Trsf2d.hxx>
-#include <gce_MakeMirror2d.hxx>
+#include <Geometry/gce/gce_MakeMirror2d.hxx>
 
 //=========================================================================
 //   Creation d une symetrie 2d de gp par rapport a un point.             +

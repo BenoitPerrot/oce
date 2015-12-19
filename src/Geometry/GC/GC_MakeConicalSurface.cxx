@@ -22,7 +22,7 @@
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Geometry/GC/GC_MakeConicalSurface.hxx>
-#include <gce_MakeCone.hxx>
+#include <Geometry/gce/gce_MakeCone.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>

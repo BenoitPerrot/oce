@@ -62,7 +62,7 @@
 #include <TopTools_SequenceOfShape.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
-#include <gce_MakeLin.hxx>
+#include <Geometry/gce/gce_MakeLin.hxx>
 
 #include <IntTools_Tools.hxx>
 #include <BOPAlgo_PaveFiller.hxx>

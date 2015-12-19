@@ -582,7 +582,7 @@ Standard_Boolean Adaptor3d_TopolTool::Identical
 #include <Geom_BSplineSurface.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>
-//#include <gce_MakeLin.hxx>
+//#include <Geometry/gce/gce_MakeLin.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>

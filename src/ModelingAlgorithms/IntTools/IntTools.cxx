@@ -29,14 +29,14 @@
 #include <IntTools_QuickSort.hxx>
 #include <IntTools_Root.hxx>
 
-#include <gce_MakeCirc.hxx>
+#include <Geometry/gce/gce_MakeCirc.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
 #include <BRepAdaptor_Curve.hxx>
 #include <IntTools_CArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_ListOfReal.hxx>
 #include <GCPnts_QuasiUniformDeflection.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfReal.hxx>
-#include <gce_ErrorType.hxx>
+#include <Geometry/gce/gce_ErrorType.hxx>
 
 //=======================================================================
 //function : IntTools::GetRadius

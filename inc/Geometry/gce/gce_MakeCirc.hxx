@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Mathematics/Primitives/gp_Circ.hxx>
-#include <gce_Root.hxx>
+#include <Geometry/gce/gce_Root.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class StdFail_NotDone;
 class gp_Ax2;

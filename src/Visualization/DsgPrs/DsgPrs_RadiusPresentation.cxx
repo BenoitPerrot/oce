@@ -44,8 +44,8 @@
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <DsgPrs.hxx>
 #include <Precision.hxx>
-#include <gce_MakeLin.hxx>
-#include <gce_MakeDir.hxx>
+#include <Geometry/gce/gce_MakeLin.hxx>
+#include <Geometry/gce/gce_MakeDir.hxx>
 
 
 static Standard_Boolean DsgPrs_InDomain(const Standard_Real fpar,

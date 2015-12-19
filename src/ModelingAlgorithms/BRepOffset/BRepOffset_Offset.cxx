@@ -81,7 +81,7 @@
 
 #include <TopTools_IndexedMapOfShape.hxx>
 #include <BRepLib_MakeWire.hxx>
-#include <gce_MakePln.hxx>
+#include <Geometry/gce/gce_MakePln.hxx>
 #include <ShapeFix_Shape.hxx>
 #include <GProp_GProps.hxx>
 #include <BRepGProp.hxx>

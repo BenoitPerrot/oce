@@ -19,7 +19,7 @@
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Parab.hxx>
-#include <gce_MakeParab.hxx>
+#include <Geometry/gce/gce_MakeParab.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 

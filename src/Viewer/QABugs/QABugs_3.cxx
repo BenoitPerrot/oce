@@ -359,7 +359,7 @@ static Standard_Integer BUC60574(Draw_Interpretor& di, Standard_Integer /*n*/, c
 #include <BRepAlgo_Fuse.hxx>
 
 #include <V3d_View.hxx>
-#include <gce_MakePln.hxx>
+#include <Geometry/gce/gce_MakePln.hxx>
 
 static Standard_Integer BUC60699(Draw_Interpretor& di, Standard_Integer /*n*/, const char ** a)
 {

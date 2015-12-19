@@ -16,7 +16,7 @@
 
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Trsf2d.hxx>
-#include <gce_MakeRotation2d.hxx>
+#include <Geometry/gce/gce_MakeRotation2d.hxx>
 
 //=========================================================================
 //   Creation d une rotation 2d de gp d angle Angle par rapport a un      +

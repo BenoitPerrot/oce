@@ -21,7 +21,7 @@
 #include <Mathematics/Primitives/gp_Ax2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <GCE2d_MakeParabola.hxx>
-#include <gce_MakeParab2d.hxx>
+#include <Geometry/gce/gce_MakeParab2d.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 
 GCE2d_MakeParabola::GCE2d_MakeParabola(const gp_Parab2d& Prb)

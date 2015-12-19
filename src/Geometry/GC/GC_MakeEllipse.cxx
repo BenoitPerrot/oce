@@ -20,7 +20,7 @@
 #include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geometry/GC/GC_MakeEllipse.hxx>
-#include <gce_MakeElips.hxx>
+#include <Geometry/gce/gce_MakeElips.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 
 GC_MakeEllipse::GC_MakeEllipse(const gp_Elips& E)

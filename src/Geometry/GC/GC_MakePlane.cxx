@@ -22,7 +22,7 @@
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <Geometry/GC/GC_MakePlane.hxx>
-#include <gce_MakePln.hxx>
+#include <Geometry/gce/gce_MakePln.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <Mathematics/Primitives/gp_Ax3.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>

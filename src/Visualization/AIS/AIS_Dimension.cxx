@@ -31,9 +31,9 @@
 #include <GeomAdaptor_Curve.hxx>
 #include <Geom_Circle.hxx>
 #include <Geom_TrimmedCurve.hxx>
-#include <gce_MakeDir.hxx>
-#include <gce_MakeLin.hxx>
-#include <gce_MakePln.hxx>
+#include <Geometry/gce/gce_MakeDir.hxx>
+#include <Geometry/gce/gce_MakeLin.hxx>
+#include <Geometry/gce/gce_MakePln.hxx>
 #include <Graphic3d_ArrayOfSegments.hxx>
 #include <Graphic3d_ArrayOfTriangles.hxx>
 #include <Graphic3d_AspectLine3d.hxx>

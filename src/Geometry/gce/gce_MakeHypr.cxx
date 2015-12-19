@@ -18,7 +18,7 @@
 #include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Hypr.hxx>
-#include <gce_MakeHypr.hxx>
+#include <Geometry/gce/gce_MakeHypr.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
 

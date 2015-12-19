@@ -20,7 +20,7 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
-#include <gce_MakeCone.hxx>
+#include <Geometry/gce/gce_MakeCone.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 

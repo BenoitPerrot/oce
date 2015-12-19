@@ -17,7 +17,7 @@
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
-#include <gce_MakeTranslation.hxx>
+#include <Geometry/gce/gce_MakeTranslation.hxx>
 
 //=========================================================================
 //   Creation d une translation 3d de gp de vecteur de tanslation Vec.    +

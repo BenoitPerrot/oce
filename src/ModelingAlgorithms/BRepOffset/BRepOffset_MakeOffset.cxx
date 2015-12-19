@@ -108,9 +108,9 @@
 
 #include <BRepTools_WireExplorer.hxx>
 #include <BRepLib_MakeEdge.hxx>
-#include <gce_MakeDir.hxx>
+#include <Geometry/gce/gce_MakeDir.hxx>
 #include <Geometry/GC/GC_MakeCylindricalSurface.hxx>
-#include <gce_MakeCone.hxx>
+#include <Geometry/gce/gce_MakeCone.hxx>
 #include <Geom_SurfaceOfLinearExtrusion.hxx>
 
 #include <Geom2dAdaptor_HCurve.hxx>

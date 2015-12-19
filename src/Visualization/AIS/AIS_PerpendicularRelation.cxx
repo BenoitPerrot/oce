@@ -66,7 +66,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_PerpendicularRelation)
 #include <TopoDS_Face.hxx>
 #include <TopoDS_Vertex.hxx>
 
-#include <gce_MakeDir.hxx>
+#include <Geometry/gce/gce_MakeDir.hxx>
 
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
