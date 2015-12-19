@@ -925,7 +925,7 @@ static int OCC10006(Draw_Interpretor& di, Standard_Integer argc, const char ** a
 }
 
 #include <Geom_RectangularTrimmedSurface.hxx>
-#include <GC_MakeTrimmedCone.hxx>
+#include <Geometry/GC/GC_MakeTrimmedCone.hxx>
 
 static Standard_Integer BUC60856(Draw_Interpretor& di, Standard_Integer /*argc*/, const char ** argv )
 {

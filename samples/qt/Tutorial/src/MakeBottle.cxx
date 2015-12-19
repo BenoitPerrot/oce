@@ -17,8 +17,8 @@
 #include <BRepPrimAPI_MakeCylinder.hxx>
 #include <BRepPrimAPI_MakePrism.hxx>
 
-#include <GC_MakeArcOfCircle.hxx>
-#include <GC_MakeSegment.hxx>
+#include <Geometry/GC/GC_MakeArcOfCircle.hxx>
+#include <Geometry/GC/GC_MakeSegment.hxx>
 
 #include <GCE2d_MakeSegment.hxx>
 

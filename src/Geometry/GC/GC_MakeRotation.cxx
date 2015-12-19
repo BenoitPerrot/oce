@@ -19,8 +19,8 @@
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
-#include <GC_MakeRotation.hxx>
-#include <GC_MakeRotation.hxx>
+#include <Geometry/GC/GC_MakeRotation.hxx>
+#include <Geometry/GC/GC_MakeRotation.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 
 //=========================================================================

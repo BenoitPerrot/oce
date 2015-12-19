@@ -21,7 +21,7 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
-#include <GC_MakeConicalSurface.hxx>
+#include <Geometry/GC/GC_MakeConicalSurface.hxx>
 #include <gce_MakeCone.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>

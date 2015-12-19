@@ -70,7 +70,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_UnifySameDomain)
 #include <BRepLib_MakeEdge.hxx>
 #include <Foundation/TColStd/TColStd_MapOfInteger.hxx>
 #include <BRepLib.hxx>
-#include <GC_MakeCircle.hxx>
+#include <Geometry/GC/GC_MakeCircle.hxx>
 #include <Geom_BezierCurve.hxx>
 #include <ShapeBuild_ReShape.hxx>
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>

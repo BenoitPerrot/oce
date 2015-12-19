@@ -39,7 +39,7 @@
 #include <Draw_Window.hxx>
 #include <DBRep.hxx>
 #include <ElSLib.hxx>
-#include <GC_MakePlane.hxx>
+#include <Geometry/GC/GC_MakePlane.hxx>
 #include <Geom_CartesianPoint.hxx>
 #include <Geom_Circle.hxx>
 #include <Geom_Line.hxx>
@@ -863,7 +863,7 @@ static int VDiameterDimBuilder(Draw_Interpretor& di, Standard_Integer argc, cons
 #include <AIS_ConcentricRelation.hxx>
 #include <Geom_Plane.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
-#include <GC_MakePlane.hxx>
+#include <Geometry/GC/GC_MakePlane.hxx>
 #include <BRepAdaptor_Curve.hxx>
 #include <TopExp_Explorer.hxx>
 
@@ -956,7 +956,7 @@ static int VConcentricBuilder(Draw_Interpretor& di, Standard_Integer argc, const
 //==============================================================================
 #include <AIS_EqualDistanceRelation.hxx>
 #include <BRepExtrema_ExtCC.hxx>
-#include <GC_MakePlane.hxx>
+#include <Geometry/GC/GC_MakePlane.hxx>
 
 
 static int VEqualDistRelation(Draw_Interpretor& di, Standard_Integer argc, const char** argv) 
@@ -1117,7 +1117,7 @@ static int VEqualDistRelation(Draw_Interpretor& di, Standard_Integer argc, const
 //Draw arg : vdiameterdim Name DiameterValue
 //==============================================================================
 #include <AIS_EqualRadiusRelation.hxx>
-#include <GC_MakePlane.hxx>
+#include <Geometry/GC/GC_MakePlane.hxx>
 #include <BRepAdaptor_Curve.hxx>
 
 
@@ -1195,7 +1195,7 @@ static int VEqualRadiusRelation(Draw_Interpretor& di, Standard_Integer argc, con
 //Draw arg : vdiameterdim Name DiameterValue
 //==============================================================================
 #include <AIS_FixRelation.hxx>
-#include <GC_MakePlane.hxx>
+#include <Geometry/GC/GC_MakePlane.hxx>
 #include <BRepAdaptor_Curve.hxx>
 
 static int VFixRelation(Draw_Interpretor& di, Standard_Integer argc, const char** argv) 
@@ -1899,7 +1899,7 @@ static int VOffsetDimBuilder(Draw_Interpretor& di, Standard_Integer argc, const 
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <BRepExtrema_ExtFF.hxx>
 #include <BRepExtrema_ExtCC.hxx>
-#include <GC_MakePlane.hxx>
+#include <Geometry/GC/GC_MakePlane.hxx>
 #include <BRepAdaptor_Curve.hxx>
 #include <TopExp_Explorer.hxx>
 
@@ -2054,7 +2054,7 @@ static int VParallelBuilder(Draw_Interpretor& di, Standard_Integer argc, const c
 //==============================================================================
 #include <AIS_PerpendicularRelation.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <GC_MakePlane.hxx>
+#include <Geometry/GC/GC_MakePlane.hxx>
 #include <BRepAdaptor_Curve.hxx>
 #include <TopExp_Explorer.hxx>
 

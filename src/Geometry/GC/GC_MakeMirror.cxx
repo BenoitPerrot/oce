@@ -21,8 +21,8 @@
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>
-#include <GC_MakeMirror.hxx>
-#include <GC_MakeMirror.hxx>
+#include <Geometry/GC/GC_MakeMirror.hxx>
+#include <Geometry/GC/GC_MakeMirror.hxx>
 #include <Mathematics/Primitives/gp_Ax3.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 

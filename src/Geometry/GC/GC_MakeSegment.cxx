@@ -18,8 +18,8 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
-#include <GC_MakeSegment.hxx>
-#include <GC_MakeLine.hxx>
+#include <Geometry/GC/GC_MakeSegment.hxx>
+#include <Geometry/GC/GC_MakeLine.hxx>
 #include <Geom_Line.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <ElCLib.hxx>

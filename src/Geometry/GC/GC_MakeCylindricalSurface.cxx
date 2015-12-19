@@ -21,7 +21,7 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
-#include <GC_MakeCylindricalSurface.hxx>
+#include <Geometry/GC/GC_MakeCylindricalSurface.hxx>
 #include <gce_MakeCylinder.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>

@@ -60,7 +60,7 @@
 #include <BRepGProp.hxx>
 #include <Geom_Circle.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
-#include <GC_MakeCircle.hxx>
+#include <Geometry/GC/GC_MakeCircle.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <GeomLib.hxx>
 #include <GeomAPI_Interpolate.hxx>

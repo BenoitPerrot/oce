@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(DrawDim_Radius)
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
 #include <BRepAdaptor_Surface.hxx>
-#include <GC_MakeCircle.hxx>
+#include <Geometry/GC/GC_MakeCircle.hxx>
 #include <TopoDS.hxx>
 #include <Geom_ToroidalSurface.hxx>
 #include <Geom_Curve.hxx>

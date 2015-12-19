@@ -28,7 +28,7 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geom_RectangularTrimmedSurface.hxx>
 #include <BRepLib_MakeFace.hxx>
-#include <GC_MakeTrimmedCone.hxx>
+#include <Geometry/GC/GC_MakeTrimmedCone.hxx>
 
 static Standard_Integer BUC60857 (Draw_Interpretor& di, Standard_Integer /*argc*/,const char ** argv)
 {

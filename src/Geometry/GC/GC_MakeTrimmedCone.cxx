@@ -17,8 +17,8 @@
 #include <Geom_RectangularTrimmedSurface.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <GC_MakeTrimmedCone.hxx>
-#include <GC_MakeConicalSurface.hxx>
+#include <Geometry/GC/GC_MakeTrimmedCone.hxx>
+#include <Geometry/GC/GC_MakeConicalSurface.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geom_ConicalSurface.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>

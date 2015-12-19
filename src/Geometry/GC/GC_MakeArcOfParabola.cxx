@@ -18,7 +18,7 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Mathematics/Primitives/gp_Parab.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <GC_MakeArcOfParabola.hxx>
+#include <Geometry/GC/GC_MakeArcOfParabola.hxx>
 #include <Geom_Parabola.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <ElCLib.hxx>

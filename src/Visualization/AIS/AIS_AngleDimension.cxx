@@ -25,7 +25,7 @@
 #include <BRep_Tool.hxx>
 #include <ElCLib.hxx>
 #include <GCPnts_UniformAbscissa.hxx>
-#include <GC_MakeArcOfCircle.hxx>
+#include <Geometry/GC/GC_MakeArcOfCircle.hxx>
 #include <gce_MakeLin2d.hxx>
 #include <gce_MakeLin.hxx>
 #include <gce_MakeCirc.hxx>

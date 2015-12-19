@@ -43,7 +43,7 @@
 
 #include <TopExp_Explorer.hxx>
 #include <BRepAdaptor_Curve.hxx>
-#include <GC_MakePlane.hxx>
+#include <Geometry/GC/GC_MakePlane.hxx>
 #include <AIS_PlaneTrihedron.hxx>
 #include <ViewerTest_DoubleMapOfInteractiveAndName.hxx>
 

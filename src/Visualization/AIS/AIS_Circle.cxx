@@ -48,7 +48,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_Circle)
 #include <Geom_Circle.hxx>
 #include <GeomAdaptor_Curve.hxx>
 #include <AIS_Drawer.hxx>
-#include <GC_MakeArcOfCircle.hxx>
+#include <Geometry/GC/GC_MakeArcOfCircle.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <AIS_GraphicTool.hxx>
 

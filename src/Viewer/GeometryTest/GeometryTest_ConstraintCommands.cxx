@@ -60,8 +60,8 @@
 #include <Geometry/AppDef/AppDef_MultiLine.hxx>
 #include <Geometry/AppParCurves/AppParCurves_HArray1OfConstraintCouple.hxx>
 #include <Geometry/AppParCurves/AppParCurves_ConstraintCouple.hxx>
-#include <GC_MakeSegment.hxx>
-#include <GC_MakeArcOfCircle.hxx>
+#include <Geometry/GC/GC_MakeSegment.hxx>
+#include <Geometry/GC/GC_MakeArcOfCircle.hxx>
 
 //#ifdef WNT
 #include <stdio.h>

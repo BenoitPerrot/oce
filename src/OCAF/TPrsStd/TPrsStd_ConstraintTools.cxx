@@ -86,7 +86,7 @@
 #include <Mathematics/Primitives/gp_Cylinder.hxx>
 #include <Mathematics/Primitives/gp_Cone.hxx>
 #include <Mathematics/Primitives/gp_Torus.hxx>
-#include <GC_MakePlane.hxx> 
+#include <Geometry/GC/GC_MakePlane.hxx> 
 
 #include <Precision.hxx>
 #include <IntAna_QuadQuadGeo.hxx>

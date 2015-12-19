@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_Geom_Hyperbola.hxx>
-#include <GC_Root.hxx>
+#include <Geometry/GC/GC_Root.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class Geom_Hyperbola;
 class StdFail_NotDone;

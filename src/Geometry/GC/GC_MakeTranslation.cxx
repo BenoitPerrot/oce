@@ -17,8 +17,8 @@
 #include <Geom_Transformation.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <GC_MakeTranslation.hxx>
-#include <GC_MakeTranslation.hxx>
+#include <Geometry/GC/GC_MakeTranslation.hxx>
+#include <Geometry/GC/GC_MakeTranslation.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 
 //=========================================================================

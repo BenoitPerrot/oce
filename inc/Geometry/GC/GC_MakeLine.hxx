@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_Geom_Line.hxx>
-#include <GC_Root.hxx>
+#include <Geometry/GC/GC_Root.hxx>
 class Geom_Line;
 class StdFail_NotDone;
 class gp_Ax1;

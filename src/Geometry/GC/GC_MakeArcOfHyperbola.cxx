@@ -18,7 +18,7 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Mathematics/Primitives/gp_Hypr.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <GC_MakeArcOfHyperbola.hxx>
+#include <Geometry/GC/GC_MakeArcOfHyperbola.hxx>
 #include <Geom_Hyperbola.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <ElCLib.hxx>

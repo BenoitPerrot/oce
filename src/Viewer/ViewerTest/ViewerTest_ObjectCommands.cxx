@@ -70,7 +70,7 @@
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <GC_MakePlane.hxx>
+#include <Geometry/GC/GC_MakePlane.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
 #include <AIS_Axis.hxx>
 #include <Geom_Axis2Placement.hxx>
@@ -104,7 +104,7 @@
 #include <BRepLib_MakeFace.hxx>
 #include <BRepLib_MakeWire.hxx>
 #include <Geom_Circle.hxx>
-#include <GC_MakeCircle.hxx>
+#include <Geometry/GC/GC_MakeCircle.hxx>
 #include <Prs3d_Presentation.hxx>
 #include <Select3D_SensitiveCircle.hxx>
 #include <SelectMgr_EntityOwner.hxx>

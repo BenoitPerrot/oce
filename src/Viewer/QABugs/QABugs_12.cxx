@@ -30,7 +30,7 @@
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <gce_MakeCirc.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
-#include <GC_MakeArcOfCircle.hxx>
+#include <Geometry/GC/GC_MakeArcOfCircle.hxx>
 #include <BRepLib_MakeEdge.hxx>
 #include <TopoDS_Edge.hxx>
 #include <BRepLib_MakeWire.hxx>

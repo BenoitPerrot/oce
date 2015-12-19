@@ -16,8 +16,8 @@
 
 #include <Geom_Transformation.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <GC_MakeScale.hxx>
-#include <GC_MakeScale.hxx>
+#include <Geometry/GC/GC_MakeScale.hxx>
+#include <Geometry/GC/GC_MakeScale.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 
 //=========================================================================

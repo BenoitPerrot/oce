@@ -49,7 +49,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_Line)
 #include <Geom_Line.hxx>
 #include <GeomAdaptor_Curve.hxx>
 #include <AIS_Drawer.hxx>
-#include <GC_MakeSegment.hxx>
+#include <Geometry/GC/GC_MakeSegment.hxx>
 #include <Geom_Line.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <AIS_GraphicTool.hxx>

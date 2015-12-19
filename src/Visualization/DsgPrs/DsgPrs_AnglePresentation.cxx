@@ -50,7 +50,7 @@
 #include <Geom_Circle.hxx>
 #include <Geom_Line.hxx>
 #include <GeomAPI_ExtremaCurveCurve.hxx>
-#include <GC_MakeCircle.hxx>
+#include <Geometry/GC/GC_MakeCircle.hxx>
 #include <gce_MakePln.hxx>
 
 #include <Foundation/UnitsAPI/UnitsAPI.hxx>

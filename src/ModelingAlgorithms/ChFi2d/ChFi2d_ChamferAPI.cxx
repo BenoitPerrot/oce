@@ -15,7 +15,7 @@
 
 #include <Precision.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <GC_MakeLine.hxx>
+#include <Geometry/GC/GC_MakeLine.hxx>
 #include <BRep_Tool.hxx>
 #include <BRepLib_MakeEdge.hxx>
 #include <TopoDS_Iterator.hxx>

@@ -20,7 +20,7 @@
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
-#include <GC_MakeLine.hxx>
+#include <Geometry/GC/GC_MakeLine.hxx>
 #include <gce_MakeLin.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 

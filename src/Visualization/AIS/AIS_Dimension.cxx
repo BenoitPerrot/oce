@@ -26,7 +26,7 @@
 #ifndef OCE_DISABLE_TKSERVICE_FONT
 #include <Font_BRepFont.hxx>
 #endif // OCE_DISABLE_TKSERVICE_FONT
-#include <GC_MakeCircle.hxx>
+#include <Geometry/GC/GC_MakeCircle.hxx>
 #include <Geom_Line.hxx>
 #include <GeomAdaptor_Curve.hxx>
 #include <Geom_Circle.hxx>

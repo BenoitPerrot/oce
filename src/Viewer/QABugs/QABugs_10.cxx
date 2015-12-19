@@ -274,7 +274,7 @@ static Standard_Integer OCC486(Draw_Interpretor& di, Standard_Integer argc, cons
   catch (Standard_Failure) {di << "OCC486 Exception \n" ;return 1;}
 }
 
-#include <GC_MakeArcOfCircle.hxx>
+#include <Geometry/GC/GC_MakeArcOfCircle.hxx>
 #include <BRepLib_MakeEdge.hxx>
 #include <BRepLib_MakeWire.hxx>
 #include <TopoDS_Wire.hxx>
@@ -1064,7 +1064,7 @@ int performBlend (TopoDS_Shape aShape, Standard_Real rad, TopoDS_Shape& bShape, 
   return 0;
 }
 
-#include <GC_MakeSegment.hxx>
+#include <Geometry/GC/GC_MakeSegment.hxx>
 //=======================================================================
 //  OCC828
 //=======================================================================

@@ -34,7 +34,7 @@
 #include <BRepCheck_Analyzer.hxx>
 #include <BRepGProp.hxx>
 #include <BRepOffsetAPI_MakePipeShell.hxx>
-#include <GC_MakeArcOfCircle.hxx>
+#include <Geometry/GC/GC_MakeArcOfCircle.hxx>
 #include <Geom_Curve.hxx>
 #include <Geom_Plane.hxx>
 #include <Law_Linear.hxx>

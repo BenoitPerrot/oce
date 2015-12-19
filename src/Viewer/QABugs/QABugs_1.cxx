@@ -64,7 +64,7 @@ static TColStd_MapOfInteger theactivatedmodes(8);
 #include <TopExp_Explorer.hxx>
 #include <TopoDS_Edge.hxx>
 #include <BRepAdaptor_Curve.hxx>
-#include <GC_MakePlane.hxx>
+#include <Geometry/GC/GC_MakePlane.hxx>
 
 static Standard_Integer OCC328bug (Draw_Interpretor& di, Standard_Integer argc, const char ** argv)
 {

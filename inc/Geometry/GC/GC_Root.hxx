@@ -52,7 +52,7 @@ private:
 };
 
 
-#include <GC_Root.lxx>
+#include <Geometry/GC/GC_Root.lxx>
 
 
 

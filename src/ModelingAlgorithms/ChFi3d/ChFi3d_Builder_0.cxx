@@ -76,7 +76,7 @@
 #include <GeomLib_Interpolate.hxx>
 #include <GeomAPI_ProjectPointOnSurf.hxx>
 #include <GeomAPI_ProjectPointOnCurve.hxx>
-#include <GC_MakeCircle.hxx>
+#include <Geometry/GC/GC_MakeCircle.hxx>
 #include <BRepAdaptor_Curve.hxx>
 #include <BRepAdaptor_HCurve.hxx>
 #include <BRepAdaptor_HCurve2d.hxx>

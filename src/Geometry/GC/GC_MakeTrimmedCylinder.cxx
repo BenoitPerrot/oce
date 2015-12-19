@@ -20,8 +20,8 @@
 #include <Mathematics/Primitives/gp_Circ.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <Mathematics/Primitives/gp_Cylinder.hxx>
-#include <GC_MakeTrimmedCylinder.hxx>
-#include <GC_MakeCylindricalSurface.hxx>
+#include <Geometry/GC/GC_MakeTrimmedCylinder.hxx>
+#include <Geometry/GC/GC_MakeCylindricalSurface.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 
