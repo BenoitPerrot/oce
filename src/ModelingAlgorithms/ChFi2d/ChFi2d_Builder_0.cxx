@@ -45,7 +45,7 @@
 #include <GeomAPI.hxx>
 #include <Geometry/GCPnts/GCPnts_AbscissaPoint.hxx>
 
-#include <Geom2dAdaptor_Curve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_Circle.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>

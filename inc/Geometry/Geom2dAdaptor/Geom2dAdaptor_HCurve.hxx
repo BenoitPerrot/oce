@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Geom2dAdaptor_HCurve.hxx>
 
-#include <Geom2dAdaptor_GHCurve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_GHCurve.hxx>
 #include <Handle_Geom2d_Curve.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class Standard_ConstructionError;

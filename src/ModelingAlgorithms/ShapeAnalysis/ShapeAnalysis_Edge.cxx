@@ -38,7 +38,7 @@
 #include <Geometry/GCPnts/GCPnts_AbscissaPoint.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>
-#include <Geom2dAdaptor_HCurve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_HCurve.hxx>
 #include <GeomAdaptor_Curve.hxx>
 #include <GeomAdaptor_HSurface.hxx>
 #include <BRepAdaptor_Curve.hxx>

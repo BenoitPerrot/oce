@@ -16,7 +16,7 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <IntRes2d_Domain.hxx>
 #include <TopoDS_Edge.hxx>
-#include <Geom2dAdaptor_Curve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Geom2dInt_GInter.hxx>
 #include <IntRes2d_SequenceOfIntersectionPoint.hxx>

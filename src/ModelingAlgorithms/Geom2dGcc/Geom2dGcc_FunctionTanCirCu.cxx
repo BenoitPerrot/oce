@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Mathematics/Primitives/gp_Circ2d.hxx>
-#include <Geom2dAdaptor_Curve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <Geom2dGcc_FunctionTanCirCu.hxx>
 
 #include <Mathematics/Primitives/gp_Vec2d.hxx>

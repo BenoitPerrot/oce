@@ -65,7 +65,7 @@
 #include <BRepMAT2d_Explorer.hxx>
 
 #include <GeomAPI.hxx>
-#include <Geom2dAdaptor_Curve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
@@ -79,7 +79,7 @@
 #include <Geometry/Geom2d/Geom2d_Geometry.hxx>
 #include <GeomProjLib.hxx>
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
-#include <Geom2dAdaptor_Curve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 
 #include <Geom2dAPI_ExtremaCurveCurve.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>

@@ -107,7 +107,7 @@
 #include <Geometry/Geom2d/Geom2d_BezierCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 
-#include <Geom2dAdaptor_Curve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <Geom2dInt_GInter.hxx>
 
 #include <GeomAdaptor_Surface.hxx>

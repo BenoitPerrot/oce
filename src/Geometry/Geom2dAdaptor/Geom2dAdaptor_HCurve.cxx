@@ -15,9 +15,9 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <Geom2dAdaptor_Curve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
-#include <Geom2dAdaptor_HCurve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_HCurve.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Geom2dAdaptor_HCurve)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

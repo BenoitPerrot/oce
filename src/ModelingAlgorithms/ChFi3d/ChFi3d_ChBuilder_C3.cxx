@@ -67,8 +67,8 @@
 #include <GeomAdaptor_HSurface.hxx>
 
 #include <BRepAdaptor_Surface.hxx>
-#include <Geom2dAdaptor_Curve.hxx>
-#include <Geom2dAdaptor_HCurve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_HCurve.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>
 #include <Geom2dInt_GInter.hxx>
 

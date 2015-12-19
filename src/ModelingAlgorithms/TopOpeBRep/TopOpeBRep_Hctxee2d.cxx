@@ -17,7 +17,7 @@
 #include <TopoDS_Edge.hxx>
 #include <BRepAdaptor_Surface.hxx>
 #include <TopoDS_Shape.hxx>
-#include <Geom2dAdaptor_Curve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <IntRes2d_Domain.hxx>
 #include <TopOpeBRep_Hctxee2d.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

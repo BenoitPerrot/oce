@@ -60,7 +60,7 @@
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <ProjLib_ProjectedCurve.hxx>
 #include <GeomProjLib.hxx>
-#include <Geom2dAdaptor.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor.hxx>
 #include <GeomAdaptor_HCurve.hxx>
 #include <GeomAdaptor_HSurface.hxx>
 #include <Precision.hxx>

@@ -21,7 +21,7 @@
 #include <Geom2dInt_GInter.hxx>
 #include <Geom2dAPI_InterCurveCurve.hxx>
 
-#include <Geom2dAdaptor_Curve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>
 #include <IntRes2d_IntersectionSegment.hxx>

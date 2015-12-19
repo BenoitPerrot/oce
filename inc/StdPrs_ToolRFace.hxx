@@ -12,7 +12,7 @@
 
 #include <TopoDS_Face.hxx>
 #include <TopExp_Explorer.hxx>
-#include <Geom2dAdaptor_Curve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <Handle_BRepAdaptor_HSurface.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_Curve2dPtr.hxx>

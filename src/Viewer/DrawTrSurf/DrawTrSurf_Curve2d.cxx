@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(DrawTrSurf_Curve2d)
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <Geometry/Geom2d/Geom2d_Parabola.hxx>
 #include <Geometry/Geom2d/Geom2d_Hyperbola.hxx>
-#include <Geom2dAdaptor_Curve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <GeomTools_Curve2dSet.hxx>
 #include <Geom2dLProp_CLProps2d.hxx>

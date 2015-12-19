@@ -32,7 +32,7 @@
 #include <BRepAdaptor_HCurve2d.hxx>
 #include <BRepFill_CurveConstraint.hxx>
 
-#include <Geom2dAdaptor_HCurve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_HCurve.hxx>
 #include <GeomAdaptor_HSurface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HCurveOnSurface.hxx>

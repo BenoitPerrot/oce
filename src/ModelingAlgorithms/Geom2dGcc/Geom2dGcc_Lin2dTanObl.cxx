@@ -22,7 +22,7 @@
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Geom2dGcc_Lin2dTanOblIter.hxx>
-#include <Geom2dAdaptor_Curve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <Geom2dGcc_Lin2dTanObl.hxx>
 #include <Geom2dGcc_QCurve.hxx>
 #include <GccAna_Lin2dTanObl.hxx>

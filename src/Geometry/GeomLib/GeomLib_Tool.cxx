@@ -76,7 +76,7 @@
 #include <Mathematics/Primitives/gp_Elips2d.hxx>
 #include <Mathematics/Primitives/gp_Parab2d.hxx>
 #include <Mathematics/Primitives/gp_Hypr2d.hxx>
-#include <Geom2dAdaptor_Curve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <ElCLib.hxx>
 #include <Geometry/Extrema/Extrema_ExtPC2d.hxx>
 

@@ -49,7 +49,7 @@
 #include <GeomAdaptor_Surface.hxx>
 #include <GeomAdaptor_HSurface.hxx>
 #include <GeomAdaptor_Curve.hxx>
-#include <Geom2dAdaptor_Curve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 
 #include <TColGeom_Array2OfBezierSurface.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>

@@ -28,7 +28,7 @@
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Geometry/Geom2d/Geom2d_BezierCurve.hxx>
-#include <Geom2dAdaptor_Curve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <Geom2dGcc_QualifiedCurve.hxx>
 #include <Geom2dGcc_Circ2d2TanRad.hxx>
 #include <Geometry/Geom2d/Geom2d_Circle.hxx>

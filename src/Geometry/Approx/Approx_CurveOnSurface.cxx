@@ -31,7 +31,7 @@
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <GeomAdaptor_HCurve.hxx>
-#include <Geom2dAdaptor_HCurve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_HCurve.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HCurveOnSurface.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>

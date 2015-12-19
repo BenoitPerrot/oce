@@ -68,7 +68,7 @@
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 #include <BRepLib.hxx>
 
-#include <Geom2dAdaptor_HCurve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_HCurve.hxx>
 #include <GeomAdaptor_HSurface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>
 

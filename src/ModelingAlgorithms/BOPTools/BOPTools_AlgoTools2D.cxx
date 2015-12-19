@@ -37,7 +37,7 @@
 #include <Geometry/Geom2d/Geom2d_Hyperbola.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 
-#include <Geom2dAdaptor.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor.hxx>
 
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>

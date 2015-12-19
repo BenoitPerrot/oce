@@ -19,7 +19,7 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geom2dHatch_Intersector.hxx>
 #include <Geom2dHatch_Element.hxx>
-#include <Geom2dAdaptor_Curve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <Geom2dHatch_Hatching.hxx>
 #include <HatchGen_PointOnHatching.hxx>
 #include <HatchGen_Domain.hxx>
@@ -36,7 +36,7 @@
 #include <TopAbs.hxx>
 #include <TopTrans_CurveTransition.hxx>
 
-#include <Geom2dAdaptor_Curve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <Geom2dHatch_Intersector.hxx>
 #include <Geom2dHatch_Classifier.hxx>
 

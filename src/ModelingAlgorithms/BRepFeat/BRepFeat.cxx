@@ -20,7 +20,7 @@
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <TopoDS_Face.hxx>
 #include <BRepTopAdaptor_FClass2d.hxx>
-#include <Geom2dAdaptor_Curve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <TopoDS_Solid.hxx>
 #include <BRepFeat.hxx>
 
@@ -47,7 +47,7 @@
 #include <Precision.hxx>
 #include <Geometry/GCPnts/GCPnts_QuasiUniformDeflection.hxx>
 #include <BRepTopAdaptor_FClass2d.hxx>
-#include <Geom2dAdaptor_Curve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <GeomProjLib.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <BRepTools.hxx>

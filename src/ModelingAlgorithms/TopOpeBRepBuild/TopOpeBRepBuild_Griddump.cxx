@@ -76,7 +76,7 @@
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <ElCLib.hxx>
 #include <ElSLib.hxx>
-#include <Geom2dAdaptor_Curve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <BRepAdaptor_Surface.hxx>
 #include <GeomAbs_CurveType.hxx>
 #include <GeomAbs_SurfaceType.hxx>

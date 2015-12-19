@@ -11,7 +11,7 @@
 #include <Handle_TopOpeBRep_Hctxee2d.hxx>
 
 #include <TopoDS_Edge.hxx>
-#include <Geom2dAdaptor_Curve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <IntRes2d_Domain.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

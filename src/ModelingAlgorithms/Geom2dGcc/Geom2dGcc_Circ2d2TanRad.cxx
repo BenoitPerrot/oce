@@ -25,7 +25,7 @@
 #include <Mathematics/Primitives/gp_Circ2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Geom2dGcc_Circ2d2TanRad.hxx>
-#include <Geom2dAdaptor_Curve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <GccAna_Circ2d2TanRad.hxx>
 #include <Geom2dGcc_Circ2d2TanRadGeo.hxx>
 #include <Geom2dGcc_QCurve.hxx>

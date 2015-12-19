@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Geom2dHatch_FClass2dOfClassifier.hxx>
-#include <Geom2dAdaptor_Curve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <IntRes2d_Position.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
@@ -76,7 +76,7 @@ private:
 #define TheFaceExplorer Geom2dHatch_Elements
 #define TheFaceExplorer_hxx <Geom2dHatch_Elements.hxx>
 #define TheEdge Geom2dAdaptor_Curve
-#define TheEdge_hxx <Geom2dAdaptor_Curve.hxx>
+#define TheEdge_hxx <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #define TheIntersection2d Geom2dHatch_Intersector
 #define TheIntersection2d_hxx <Geom2dHatch_Intersector.hxx>
 #define TopClass_FClass2d Geom2dHatch_FClass2dOfClassifier

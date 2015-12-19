@@ -18,7 +18,7 @@
 //=========================================================================
 
 #include <Geom2dGcc_QualifiedCurve.hxx>
-#include <Geom2dAdaptor_Curve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <Geom2dGcc.hxx>
 
 Geom2dGcc_QualifiedCurve

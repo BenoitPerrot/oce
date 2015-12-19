@@ -76,7 +76,7 @@
 #include <IntRes2d_IntersectionSegment.hxx>
 #include <GeomAPI_ProjectPointOnCurve.hxx>
 #include <GeomAdaptor_Surface.hxx>
-#include <Geom2dAdaptor_HCurve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_HCurve.hxx>
 #include <GeomAdaptor_HSurface.hxx>
 #include <GeomLib.hxx>
 #include <GeomProjLib.hxx>

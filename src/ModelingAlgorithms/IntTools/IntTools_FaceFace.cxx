@@ -104,7 +104,7 @@
 #include <GeomInt_WLApprox.hxx>
 #include <GeomProjLib.hxx>
 #include <GeomAPI_ProjectPointOnSurf.hxx>
-#include <Geom2dAdaptor_Curve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopExp_Explorer.hxx>

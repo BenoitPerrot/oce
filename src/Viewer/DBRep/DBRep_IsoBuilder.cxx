@@ -21,7 +21,7 @@
 #include <Precision.hxx>
 #include <BRepTools.hxx>
 #include <BRep_Tool.hxx>
-#include <Geom2dAdaptor_Curve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <Geom2dHatch_Intersector.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>

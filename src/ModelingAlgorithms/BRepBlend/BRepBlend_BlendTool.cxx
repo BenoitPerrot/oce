@@ -27,7 +27,7 @@
 #include <TopoDS_Edge.hxx>
 #include <BRep_Tool.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
-#include <Geom2dAdaptor_Curve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Geom2dInt_GInter.hxx>

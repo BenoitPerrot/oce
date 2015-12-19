@@ -72,9 +72,9 @@
 #include <GeomAdaptor_HCurve.hxx>
 #include <GeomAdaptor_Surface.hxx>
 #include <GeomAdaptor_HSurface.hxx>
-#include <Geom2dAdaptor_Curve.hxx>
-#include <Geom2dAdaptor_HCurve.hxx>
-#include <Geom2dAdaptor.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_HCurve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor.hxx>
 #include <Geom2dConvert.hxx>
 #include <Geometry/GCPnts/GCPnts_QuasiUniformDeflection.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>

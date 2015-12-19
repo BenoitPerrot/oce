@@ -22,7 +22,7 @@
 #include <Mathematics/Primitives/gp_Circ2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Geom2dGcc_Circ2d3Tan.hxx>
-#include <Geom2dAdaptor_Curve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <Geometry/Geom2d/Geom2d_Circle.hxx>
 #include <Geom2dGcc_QCurve.hxx>

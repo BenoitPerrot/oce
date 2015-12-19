@@ -31,7 +31,7 @@
 #include <GccEnt_QualifiedLin.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Circ2d.hxx>
-#include <Geom2dAdaptor_Curve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <Geom2dGcc_Circ2d2TanOnIter.hxx>
 
 #include <Mathematics/Primitives/gp_Dir2d.hxx>

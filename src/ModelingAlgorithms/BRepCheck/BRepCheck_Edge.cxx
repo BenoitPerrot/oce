@@ -59,7 +59,7 @@ IMPLEMENT_STANDARD_RTTI(BRepCheck_Edge)
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 
-#include <Geom2dAdaptor_HCurve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_HCurve.hxx>
 #include <GeomAdaptor_Curve.hxx>
 #include <GeomAdaptor_HCurve.hxx>
 #include <GeomAdaptor_HSurface.hxx>
@@ -71,7 +71,7 @@ IMPLEMENT_STANDARD_RTTI(BRepCheck_Edge)
 #include <Geometry/Extrema/Extrema_LocateExtPC.hxx>
 
 #include <BRepCheck.hxx>
-#include <Geom2dAdaptor.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor.hxx>
 #include <TopoDS.hxx>
 #include <TopAbs_ShapeEnum.hxx>
 #include <TopoDS_Face.hxx>

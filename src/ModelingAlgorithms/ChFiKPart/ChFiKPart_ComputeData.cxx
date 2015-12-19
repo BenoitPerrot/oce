@@ -55,7 +55,7 @@
 #include <GeomAbs_CurveType.hxx>
 #include <GeomAbs_SurfaceType.hxx>
 #include <GeomAdaptor_Curve.hxx>
-#include <Geom2dAdaptor_Curve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 //#include <BRepAdaptor_Curve2d.hxx>
 #include <BRepAdaptor_HSurface.hxx>
 #include <IntSurf_Transition.hxx>

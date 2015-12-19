@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Geom2dAdaptor_Curve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Geom2dGcc_FunctionTanCuPnt.hxx>
 

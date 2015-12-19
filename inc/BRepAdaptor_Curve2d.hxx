@@ -12,7 +12,7 @@
 
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Face.hxx>
-#include <Geom2dAdaptor_Curve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 class Standard_NullObject;
 class TopoDS_Edge;
 class TopoDS_Face;

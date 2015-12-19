@@ -17,7 +17,7 @@
 #include <BRepAdaptor_HSurface.hxx>
 #include <TopoDS_Shape.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <Geom2dAdaptor_Curve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <BRepAdaptor_Surface.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TopOpeBRep_SequenceOfPoint2d.hxx>

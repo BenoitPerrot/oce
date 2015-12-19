@@ -54,8 +54,8 @@
 #include <BRep_GCurve.hxx>
 #include <BRepTools_WireExplorer.hxx>
 #include <BRepMAT2d_Explorer.hxx>
-#include <Geom2dAdaptor_Curve.hxx>
-#include <Geom2dAdaptor_HCurve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_HCurve.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_OffsetCurve.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>

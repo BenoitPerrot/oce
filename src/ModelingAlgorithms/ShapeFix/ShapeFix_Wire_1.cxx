@@ -58,7 +58,7 @@
 #include <BRepTools.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Array1OfBox2d.hxx>
 #include <Geometry/BndLib/BndLib_Add2dCurve.hxx>
-#include <Geom2dAdaptor_Curve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <Geom2dConvert.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <ShapeBuild_ReShape.hxx>
@@ -75,7 +75,7 @@
 #include <IntRes2d_IntersectionSegment.hxx>
 #include <Geom2dAPI_ExtremaCurveCurve.hxx>
 #include <Geom2dAPI_ProjectPointOnCurve.hxx>
-#include <Geom2dAdaptor_HCurve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_HCurve.hxx>
 #include <Geometry/Approx/Approx_Curve2d.hxx>
 #include <Geom2dConvert.hxx>
 

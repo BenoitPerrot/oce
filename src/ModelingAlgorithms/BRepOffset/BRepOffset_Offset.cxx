@@ -48,8 +48,8 @@
 #include <GeomAdaptor_Surface.hxx>
 #include <GeomAdaptor_HCurve.hxx>
 #include <GeomAdaptor_Curve.hxx>
-#include <Geom2dAdaptor_HCurve.hxx>
-#include <Geom2dAdaptor_Curve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_HCurve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <GeomFill_Pipe.hxx>
 #include <GeomProjLib.hxx>
 #include <GeomConvert_ApproxSurface.hxx>

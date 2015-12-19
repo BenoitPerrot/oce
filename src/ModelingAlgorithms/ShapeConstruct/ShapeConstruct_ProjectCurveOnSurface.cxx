@@ -60,7 +60,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeConstruct_ProjectCurveOnSurface)
 #include <GeomAPI_PointsToBSpline.hxx>
 #include <Geom2dAPI_Interpolate.hxx>
 #include <GeomAPI_Interpolate.hxx>
-#include <Geom2dAdaptor.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>

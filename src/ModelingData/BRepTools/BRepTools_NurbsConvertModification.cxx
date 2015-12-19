@@ -48,11 +48,11 @@ IMPLEMENT_STANDARD_RTTI(BRepTools_NurbsConvertModification)
 #include <Geom2dConvert.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
-#include <Geom2dAdaptor_Curve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <GeomAdaptor_Curve.hxx>
 #include <GeomAdaptor_Surface.hxx>
-#include <Geom2dAdaptor_HCurve.hxx>
-#include <Geom2dAdaptor_HCurve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_HCurve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_HCurve.hxx>
 #include <GeomAdaptor_HCurve.hxx>
 #include <GeomAdaptor_HSurface.hxx>
 

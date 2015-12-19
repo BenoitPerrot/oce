@@ -113,7 +113,7 @@
 #include <Geometry/gce/gce_MakeCone.hxx>
 #include <Geometry/Geom/Geom_SurfaceOfLinearExtrusion.hxx>
 
-#include <Geom2dAdaptor_HCurve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_HCurve.hxx>
 #include <GeomAdaptor_HSurface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>
 #include <GeomLib.hxx>

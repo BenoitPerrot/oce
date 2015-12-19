@@ -64,7 +64,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeAnalysis_Wire)
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <GeomAdaptor_HSurface.hxx>
-#include <Geom2dAdaptor_Curve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <Geom2dInt_GInter.hxx>
 #include <IntRes2d_Domain.hxx>
 #include <IntRes2d_Transition.hxx>
@@ -91,7 +91,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeAnalysis_Wire)
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 
 //szvsh addition
-#include <Geom2dAdaptor_HCurve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_HCurve.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <ShapeAnalysis_Surface.hxx>

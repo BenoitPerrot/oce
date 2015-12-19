@@ -37,7 +37,7 @@
 #include <Geometry/Geom2d/Geom2d_Parabola.hxx>
 #include <Geometry/Geom2d/Geom2d_Hyperbola.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
-#include <Geom2dAdaptor_Curve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <Geometry/Extrema/Extrema_ExtPC2d.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <ElCLib.hxx>

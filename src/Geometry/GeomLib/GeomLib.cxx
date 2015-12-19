@@ -80,11 +80,11 @@
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>
-#include <Geom2dAdaptor_Curve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <GeomAdaptor_Surface.hxx>
 #include <GeomAdaptor_HSurface.hxx>
-#include <Geom2dAdaptor_HCurve.hxx>
-#include <Geom2dAdaptor_GHCurve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_HCurve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_GHCurve.hxx>
 
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>

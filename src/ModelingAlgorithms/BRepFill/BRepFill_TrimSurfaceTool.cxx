@@ -44,7 +44,7 @@
 #include <Mathematics/Primitives/gp_Cylinder.hxx>
 #include <Geom2dInt_GInter.hxx>
 #include <Geom2dAPI_ProjectPointOnCurve.hxx>
-#include <Geom2dAdaptor_Curve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <GeomAdaptor_Surface.hxx>

@@ -67,7 +67,7 @@
 #include <Geometry/Geom/Geom_Ellipse.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 
-#include <Geom2dAdaptor.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>

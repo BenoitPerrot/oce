@@ -58,7 +58,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Face)
 
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
-#include <Geom2dAdaptor_Curve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <GeomAdaptor_HSurface.hxx>
@@ -111,7 +111,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Face)
 #include <ShapeFix.hxx>
 #include <ShapeFix_DataMapOfShapeBox2d.hxx>
 #include <Geometry/BndLib/BndLib_Add2dCurve.hxx>
-#include <Geom2dAdaptor_Curve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <IntRes2d_Domain.hxx>
 #include <Geom2dInt_GInter.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>

@@ -181,7 +181,7 @@ private:
 };
 
 
-#include <Geom2dAdaptor_Curve.lxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.lxx>
 
 
 

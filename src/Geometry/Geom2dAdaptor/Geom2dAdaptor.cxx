@@ -16,7 +16,7 @@
 
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_Curve2d.hxx>
-#include <Geom2dAdaptor.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor.hxx>
 
 
 #include <Geometry/Geom2d/Geom2d_Line.hxx>

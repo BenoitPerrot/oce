@@ -103,7 +103,7 @@
 #include <GeomInt_IntSS.hxx>
 #include <GeomLib.hxx>
 #include <GeomAdaptor.hxx>
-#include <Geom2dAdaptor_HCurve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_HCurve.hxx>
 #include <GeomPlate_BuildPlateSurface.hxx>
 #include <GeomPlate_Surface.hxx>
 #include <GeomPlate_MakeApprox.hxx>

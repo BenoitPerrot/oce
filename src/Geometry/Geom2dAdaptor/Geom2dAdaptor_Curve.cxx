@@ -37,9 +37,9 @@
 #include <Mathematics/Primitives/gp_Parab2d.hxx>
 #include <Geometry/Geom2d/Geom2d_BezierCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
-#include <Geom2dAdaptor_Curve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_OffsetCurve.hxx>
-#include <Geom2dAdaptor_HCurve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_HCurve.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <GeomAbs_Shape.hxx>

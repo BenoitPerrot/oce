@@ -74,7 +74,7 @@
 // pour les intersection entre les courbes
 #include <Geom2dInt_GInter.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>
-#include <Geom2dAdaptor_Curve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <GeomAdaptor_Surface.hxx>
 
 // projection

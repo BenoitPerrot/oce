@@ -41,7 +41,7 @@ IMPLEMENT_STANDARD_RTTI(Bisector_BisecCC)
 #include <Bisector_Curve.hxx>
 #include <Bisector_FunctionH.hxx>
 #include <Bisector_PointOnBis.hxx>
-#include <Geom2dAdaptor_Curve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geom2dLProp_CLProps2d.hxx>
 #include <Geom2dGcc.hxx>

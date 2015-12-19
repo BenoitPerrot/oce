@@ -60,7 +60,7 @@
 #include <Geometry/Geom2d/Geom2d_Ellipse.hxx>
 #include <Geometry/Geom2d/Geom2d_CartesianPoint.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
-#include <Geom2dAdaptor_Curve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <Mathematics/Primitives/gp_Hypr2d.hxx>
 #include <Mathematics/Primitives/gp_Parab2d.hxx>

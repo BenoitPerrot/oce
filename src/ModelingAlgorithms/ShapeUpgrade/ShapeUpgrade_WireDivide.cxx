@@ -68,7 +68,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_WireDivide)
 #include <TopTools_SequenceOfShape.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <GeomAdaptor_HSurface.hxx>
-#include <Geom2dAdaptor_HCurve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_HCurve.hxx>
 #include <ShapeAnalysis_Curve.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>
 

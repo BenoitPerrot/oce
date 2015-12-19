@@ -45,7 +45,7 @@ IMPLEMENT_STANDARD_RTTI(Bisector_BisecAna)
 #include <Geometry/Geom2d/Geom2d_Parabola.hxx>
 #include <Geometry/Geom2d/Geom2d_Hyperbola.hxx>
 #include <Geometry/Geom2d/Geom2d_Ellipse.hxx>
-#include <Geom2dAdaptor_Curve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <GccInt_IType.hxx>
 #include <GccInt_BLine.hxx>

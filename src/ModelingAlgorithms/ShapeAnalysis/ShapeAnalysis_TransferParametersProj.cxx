@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(ShapeAnalysis_TransferParametersProj)
 IMPLEMENT_DOWNCAST(ShapeAnalysis_TransferParametersProj,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ShapeAnalysis_TransferParametersProj)
-#include <Geom2dAdaptor_HCurve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_HCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>

@@ -103,7 +103,7 @@
 
 #include <GeomAdaptor_HCurve.hxx>
 #include <GeomAdaptor_Curve.hxx>
-#include <Geom2dAdaptor_HCurve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_HCurve.hxx>
 #include <GeomAdaptor_HCurve.hxx>
 #include <Geometry/Approx/Approx_CurvilinearParameter.hxx>
 #include <Geometry/Approx/Approx_CurveOnSurface.hxx>

@@ -28,7 +28,7 @@
 #include <GccEnt_BadQualifier.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <GccEnt_QualifiedCirc.hxx>
-#include <Geom2dAdaptor_Curve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <GccEnt_QualifiedLin.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Circ2d.hxx>
@@ -49,7 +49,7 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 
 #include <Geometry/Adaptor3d/Adaptor3d_OffsetCurve.hxx>
-#include <Geom2dAdaptor_HCurve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_HCurve.hxx>
 #include <Geom2dGcc_CurveToolGeo.hxx>
 #include <Geom2dInt_TheIntConicCurveOfGInter.hxx>
 

@@ -41,7 +41,7 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_CurveConstraint)
 #include <BRepAdaptor_HSurface.hxx>
 #include <BRep_Tool.hxx>
 
-#include <Geom2dAdaptor_HCurve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_HCurve.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #include <ProjLib_ProjectedCurve.hxx>
 //---------------------------------------------------------

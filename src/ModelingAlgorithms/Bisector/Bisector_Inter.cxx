@@ -31,7 +31,7 @@
 #include <Bisector_FunctionInter.hxx>
 #include <Geom2dInt_GInter.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
-#include <Geom2dAdaptor_Curve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <IntRes2d_Transition.hxx>

@@ -36,7 +36,7 @@ IMPLEMENT_STANDARD_TYPE_END(Bisector_BisecPC)
 IMPLEMENT_DOWNCAST(Bisector_BisecPC,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Bisector_BisecPC)
 #include <Bisector.hxx>
-#include <Geom2dAdaptor_Curve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <Geometry/Geom2d/Geom2d_CartesianPoint.hxx>

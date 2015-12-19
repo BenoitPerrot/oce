@@ -66,7 +66,7 @@ IMPLEMENT_STANDARD_RTTI(MAT2d_Circuit)
 #include <Precision.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_OffsetCurve.hxx>
 #include <Geom2dInt_GInter.hxx>
-#include <Geom2dAdaptor_HCurve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_HCurve.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>
 
 #ifdef DRAW

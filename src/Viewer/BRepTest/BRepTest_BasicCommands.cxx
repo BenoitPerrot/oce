@@ -43,7 +43,7 @@
 #include <BRepTools_WireExplorer.hxx>
 
 #include <Geometry/GCPnts/GCPnts_QuasiUniformAbscissa.hxx>
-#include <Geom2dAdaptor_Curve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <GeomAdaptor_Curve.hxx>
 #include <ProjLib_ComputeApproxOnPolarSurface.hxx>
 #include <DrawTrSurf.hxx>

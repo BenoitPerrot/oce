@@ -88,7 +88,7 @@
 #include <GeomAdaptor_HCurve.hxx>
 #include <GeomAdaptor_HSurface.hxx>
 #include <GeomAdaptor.hxx>
-#include <Geom2dAdaptor_HCurve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_HCurve.hxx>
 
 #include <GeomAbs_SurfaceType.hxx>
 #include <GeomAbs_CurveType.hxx>
@@ -97,7 +97,7 @@
 #include <ProjLib_HCompProjectedCurve.hxx>
 #include <Geometry/Approx/Approx_CurveOnSurface.hxx>
 #include <Precision.hxx>
-#include <Geom2dAdaptor.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor.hxx>
 
 
 #include <Precision.hxx>

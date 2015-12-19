@@ -21,13 +21,13 @@
 #include <Geom2dHatch_Element.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
-#include <Geom2dAdaptor_Curve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <Geom2dHatch_Elements.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Geom2dHatch_Element.hxx>
 #include <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
-#include <Geom2dAdaptor_Curve.hxx>
+#include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 
 #include <TopAbs_Orientation.hxx>
 #include <Mathematics/Primitives/gp.hxx>
