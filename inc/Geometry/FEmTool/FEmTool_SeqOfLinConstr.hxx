@@ -101,13 +101,13 @@ private:
 };
 
 #define SeqItem FEmTool_ListOfVectors
-#define SeqItem_hxx <FEmTool_ListOfVectors.hxx>
+#define SeqItem_hxx <Geometry/FEmTool/FEmTool_ListOfVectors.hxx>
 #define TCollection_SequenceNode FEmTool_SequenceNodeOfSeqOfLinConstr
-#define TCollection_SequenceNode_hxx <FEmTool_SequenceNodeOfSeqOfLinConstr.hxx>
+#define TCollection_SequenceNode_hxx <Geometry/FEmTool/FEmTool_SequenceNodeOfSeqOfLinConstr.hxx>
 #define Handle_TCollection_SequenceNode Handle_FEmTool_SequenceNodeOfSeqOfLinConstr
 #define TCollection_SequenceNode_Type_() FEmTool_SequenceNodeOfSeqOfLinConstr_Type_()
 #define TCollection_Sequence FEmTool_SeqOfLinConstr
-#define TCollection_Sequence_hxx <FEmTool_SeqOfLinConstr.hxx>
+#define TCollection_Sequence_hxx <Geometry/FEmTool/FEmTool_SeqOfLinConstr.hxx>
 
 #include <Foundation/TCollection/TCollection_Sequence.lxx>
 

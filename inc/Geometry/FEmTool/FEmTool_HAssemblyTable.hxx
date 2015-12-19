@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_FEmTool_HAssemblyTable.hxx>
 
-#include <FEmTool_AssemblyTable.hxx>
+#include <Geometry/FEmTool/FEmTool_AssemblyTable.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
@@ -78,9 +78,9 @@ private:
 #define ItemHArray2 Handle(TColStd_HArray1OfInteger)
 #define ItemHArray2_hxx <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #define TheArray2 FEmTool_AssemblyTable
-#define TheArray2_hxx <FEmTool_AssemblyTable.hxx>
+#define TheArray2_hxx <Geometry/FEmTool/FEmTool_AssemblyTable.hxx>
 #define TCollection_HArray2 FEmTool_HAssemblyTable
-#define TCollection_HArray2_hxx <FEmTool_HAssemblyTable.hxx>
+#define TCollection_HArray2_hxx <Geometry/FEmTool/FEmTool_HAssemblyTable.hxx>
 #define Handle_TCollection_HArray2 Handle_FEmTool_HAssemblyTable
 #define TCollection_HArray2_Type_() FEmTool_HAssemblyTable_Type_()
 

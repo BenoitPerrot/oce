@@ -22,7 +22,7 @@
 #include <Foundation/Standard/Standard_DimensionError.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
-#include <FEmTool_Curve.hxx>
+#include <Geometry/FEmTool/FEmTool_Curve.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(FEmTool_Curve)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

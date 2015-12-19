@@ -16,7 +16,7 @@
 
 #include <Mathematics/Polynomial/PLib_Base.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <FEmTool_ElementsOfRefMatrix.hxx>
+#include <Geometry/FEmTool/FEmTool_ElementsOfRefMatrix.hxx>
 #include <Mathematics/Polynomial/PLib_Base.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 

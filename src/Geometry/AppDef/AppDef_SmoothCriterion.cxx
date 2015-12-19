@@ -17,8 +17,8 @@
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
-#include <FEmTool_Curve.hxx>
-#include <FEmTool_HAssemblyTable.hxx>
+#include <Geometry/FEmTool/FEmTool_Curve.hxx>
+#include <Geometry/FEmTool/FEmTool_HAssemblyTable.hxx>
 #include <Foundation/TColStd/TColStd_HArray2OfInteger.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>

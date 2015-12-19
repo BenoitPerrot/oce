@@ -15,12 +15,12 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
-#include <FEmTool_ElementaryCriterion.hxx>
-#include <FEmTool_Curve.hxx>
+#include <Geometry/FEmTool/FEmTool_ElementaryCriterion.hxx>
+#include <Geometry/FEmTool/FEmTool_Curve.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Geometry/AppDef/AppDef_MultiLine.hxx>
-#include <FEmTool_HAssemblyTable.hxx>
+#include <Geometry/FEmTool/FEmTool_HAssemblyTable.hxx>
 #include <Foundation/TColStd/TColStd_HArray2OfInteger.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
@@ -41,9 +41,9 @@ IMPLEMENT_STANDARD_RTTI(AppDef_LinearCriteria)
 #include <Mathematics/Polynomial/PLib_HermitJacobi.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
-#include <FEmTool_LinearTension.hxx>
-#include <FEmTool_LinearFlexion.hxx>
-#include <FEmTool_LinearJerk.hxx>
+#include <Geometry/FEmTool/FEmTool_LinearTension.hxx>
+#include <Geometry/FEmTool/FEmTool_LinearFlexion.hxx>
+#include <Geometry/FEmTool/FEmTool_LinearJerk.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>

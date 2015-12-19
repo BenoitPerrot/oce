@@ -30,9 +30,9 @@
 #include <Geometry/AppDef/AppDef_MultiLine.hxx>
 #include <Geometry/AppParCurves/AppParCurves_MultiBSpCurve.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
-#include <FEmTool_Curve.hxx>
+#include <Geometry/FEmTool/FEmTool_Curve.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <FEmTool_Assembly.hxx>
+#include <Geometry/FEmTool/FEmTool_Assembly.hxx>
 #include <Mathematics/Polynomial/PLib_Base.hxx>
 #include <Geometry/AppDef/AppDef_Variational.hxx>
 
@@ -76,15 +76,15 @@
 #include <Foundation/TColStd/TColStd_HArray2OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
-#include <FEmTool_Assembly.hxx>
-#include <FEmTool_AssemblyTable.hxx>
-#include <FEmTool_Curve.hxx>
+#include <Geometry/FEmTool/FEmTool_Assembly.hxx>
+#include <Geometry/FEmTool/FEmTool_AssemblyTable.hxx>
+#include <Geometry/FEmTool/FEmTool_Curve.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>
 #include <Mathematics/Polynomial/PLib_Base.hxx>
 #include <Mathematics/Polynomial/PLib_JacobiPolynomial.hxx>
 #include <Mathematics/Polynomial/PLib_HermitJacobi.hxx>
-#include <FEmTool_HAssemblyTable.hxx>
+#include <Geometry/FEmTool/FEmTool_HAssemblyTable.hxx>
 
 #if defined(WNT)
 # include <stdio.h>

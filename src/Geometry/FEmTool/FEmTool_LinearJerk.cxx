@@ -18,7 +18,7 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/TColStd/TColStd_HArray2OfInteger.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
-#include <FEmTool_LinearJerk.hxx>
+#include <Geometry/FEmTool/FEmTool_LinearJerk.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(FEmTool_LinearJerk)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_RTTI(FEmTool_LinearJerk)
 #include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
 #include <Mathematics/Polynomial/PLib_JacobiPolynomial.hxx>
 #include <Mathematics/Polynomial/PLib_HermitJacobi.hxx>
-#include <FEmTool_ElementsOfRefMatrix.hxx>
+#include <Geometry/FEmTool/FEmTool_ElementsOfRefMatrix.hxx>
 #include <Mathematics/Optimization/math_IntegerVector.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>
 #include <Mathematics/Optimization/math_GaussSetIntegration.hxx>

@@ -24,7 +24,7 @@
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
-#include <FEmTool_ProfileMatrix.hxx>
+#include <Geometry/FEmTool/FEmTool_ProfileMatrix.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(FEmTool_ProfileMatrix)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

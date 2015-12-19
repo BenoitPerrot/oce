@@ -3,16 +3,16 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#ifndef _FEmTool_LinearFlexion_HeaderFile
-#define _FEmTool_LinearFlexion_HeaderFile
+#ifndef _FEmTool_LinearTension_HeaderFile
+#define _FEmTool_LinearTension_HeaderFile
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_FEmTool_LinearFlexion.hxx>
+#include <Handle_FEmTool_LinearTension.hxx>
 
 #include <Mathematics/Optimization/math_Matrix.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <FEmTool_ElementaryCriterion.hxx>
+#include <Geometry/FEmTool/FEmTool_ElementaryCriterion.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <Handle_TColStd_HArray2OfInteger.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
@@ -23,14 +23,14 @@ class TColStd_HArray2OfInteger;
 class math_Matrix;
 
 
-//! Criterium of LinearFlexion To Hermit-Jacobi  elements
-class FEmTool_LinearFlexion : public FEmTool_ElementaryCriterion
+//! Criterium of LinearTension To Hermit-Jacobi  elements
+class FEmTool_LinearTension : public FEmTool_ElementaryCriterion
 {
 
 public:
 
   
-  Standard_EXPORT FEmTool_LinearFlexion(const Standard_Integer WorkDegree, const GeomAbs_Shape ConstraintOrder);
+  Standard_EXPORT FEmTool_LinearTension(const Standard_Integer WorkDegree, const GeomAbs_Shape ConstraintOrder);
   
   Standard_EXPORT virtual   Handle(TColStd_HArray2OfInteger) DependenceTable()  const;
   
@@ -43,7 +43,7 @@ public:
 
 
 
-  DEFINE_STANDARD_RTTI(FEmTool_LinearFlexion)
+  DEFINE_STANDARD_RTTI(FEmTool_LinearTension)
 
 protected:
 
@@ -65,4 +65,4 @@ private:
 
 
 
-#endif // _FEmTool_LinearFlexion_HeaderFile
+#endif // _FEmTool_LinearTension_HeaderFile

@@ -15,7 +15,7 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_FEmTool_ProfileMatrix.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>
-#include <FEmTool_SeqOfLinConstr.hxx>
+#include <Geometry/FEmTool/FEmTool_SeqOfLinConstr.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

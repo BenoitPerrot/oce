@@ -19,7 +19,7 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/TColStd/TColStd_HArray2OfInteger.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
-#include <FEmTool_ElementaryCriterion.hxx>
+#include <Geometry/FEmTool/FEmTool_ElementaryCriterion.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(FEmTool_ElementaryCriterion)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

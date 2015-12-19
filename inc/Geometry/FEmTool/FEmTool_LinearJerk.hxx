@@ -12,7 +12,7 @@
 
 #include <Mathematics/Optimization/math_Matrix.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <FEmTool_ElementaryCriterion.hxx>
+#include <Geometry/FEmTool/FEmTool_ElementaryCriterion.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <Handle_TColStd_HArray2OfInteger.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

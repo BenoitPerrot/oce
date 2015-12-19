@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <FEmTool_SparseMatrix.hxx>
+#include <Geometry/FEmTool/FEmTool_SparseMatrix.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(FEmTool_SparseMatrix)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
