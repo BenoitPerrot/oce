@@ -72,7 +72,7 @@
 #include <Geom2dAdaptor_HCurve.hxx>
 #include <Geometry/Approx/Approx_CurveOnSurface.hxx>
 #include <Geometry/Approx/Approx_SameParameter.hxx>
-#include <GCPnts_AbscissaPoint.hxx>
+#include <Geometry/GCPnts/GCPnts_AbscissaPoint.hxx>
 
 #include <BRep_Builder.hxx>
 #include <BRep_Tool.hxx>

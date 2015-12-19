@@ -19,7 +19,7 @@
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <VrmlConverter_IsoAspect.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_Curve2d.hxx>
-#include <GCPnts_QuasiUniformDeflection.hxx>
+#include <Geometry/GCPnts/GCPnts_QuasiUniformDeflection.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_IsoCurve.hxx>
 #include <VrmlConverter_DeflectionCurve.hxx>
 #include <StdPrs_ToolRFace.hxx>

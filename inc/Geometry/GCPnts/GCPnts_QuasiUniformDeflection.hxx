@@ -242,7 +242,7 @@ private:
 };
 
 
-#include <GCPnts_QuasiUniformDeflection.lxx>
+#include <Geometry/GCPnts/GCPnts_QuasiUniformDeflection.lxx>
 
 
 

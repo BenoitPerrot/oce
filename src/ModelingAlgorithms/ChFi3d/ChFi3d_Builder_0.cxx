@@ -108,7 +108,7 @@
 
 //#include <Mathematics/Optimization/math_FunctionSample.hxx>
 //#include <Mathematics/Optimization/math_FunctionAllRoots.hxx>
-#include <GCPnts_AbscissaPoint.hxx>
+#include <Geometry/GCPnts/GCPnts_AbscissaPoint.hxx>
 
 #include <IntCurveSurface_TheQuadCurvFuncOfTheQuadCurvExactHInter.hxx>
 #include <IntCurveSurface_HInter.hxx>

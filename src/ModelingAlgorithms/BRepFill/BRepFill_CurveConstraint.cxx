@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_TYPE_END(BRepFill_CurveConstraint)
 IMPLEMENT_DOWNCAST(BRepFill_CurveConstraint,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BRepFill_CurveConstraint)
 #include <GeomPlate_CurveConstraint.hxx>
-#include <GCPnts_AbscissaPoint.hxx>
+#include <Geometry/GCPnts/GCPnts_AbscissaPoint.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #include <ProjLib_ProjectOnPlane.hxx>

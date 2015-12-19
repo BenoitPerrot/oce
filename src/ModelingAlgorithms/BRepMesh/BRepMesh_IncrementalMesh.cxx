@@ -51,7 +51,7 @@
 #include <TopTools_HArray1OfShape.hxx>
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 
-#include <GCPnts_TangentialDeflection.hxx>
+#include <Geometry/GCPnts/GCPnts_TangentialDeflection.hxx>
 
 #ifdef HAVE_TBB
   // paralleling using Intel TBB

@@ -38,7 +38,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(GeomPlate_CurveConstraint)
 IMPLEMENT_DOWNCAST(GeomPlate_CurveConstraint,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(GeomPlate_CurveConstraint)
-#include <GCPnts_AbscissaPoint.hxx>
+#include <Geometry/GCPnts/GCPnts_AbscissaPoint.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #include <GeomAdaptor.hxx>

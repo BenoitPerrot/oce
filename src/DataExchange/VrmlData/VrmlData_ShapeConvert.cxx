@@ -37,7 +37,7 @@
 #include <TopoDS_Face.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Wire.hxx>
-#include <GCPnts_TangentialDeflection.hxx>
+#include <Geometry/GCPnts/GCPnts_TangentialDeflection.hxx>
 #include <BRepAdaptor_Curve.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>

@@ -81,7 +81,7 @@
 #include <BRepGProp.hxx>
 #include <GProp_GProps.hxx>
 #include <GProp_PrincipalProps.hxx>
-#include <GCPnts_AbscissaPoint.hxx>
+#include <Geometry/GCPnts/GCPnts_AbscissaPoint.hxx>
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <TopTools_DataMapOfShapeListOfShape.hxx>
 #include <TopTools_DataMapIteratorOfDataMapOfShapeListOfShape.hxx>

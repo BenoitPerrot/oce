@@ -16,7 +16,7 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <GCPnts_UniformAbscissa.hxx>
+#include <Geometry/GCPnts/GCPnts_UniformAbscissa.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_Curve2d.hxx>
 
@@ -39,7 +39,7 @@ GCPnts_UniformAbscissa::GCPnts_UniformAbscissa ()
 #define Handle_TheBezierCurve   Handle(Geom_BezierCurve)
 #define Handle_TheBSplineCurve  Handle(Geom_BSplineCurve)
 
-#include <GCPnts_UniformAbscissa.gxx>
+#include <Geometry/GCPnts/GCPnts_UniformAbscissa.gxx>
 
 #undef TheCurve
 #undef Handle_TheBezierCurve
@@ -52,7 +52,7 @@ GCPnts_UniformAbscissa::GCPnts_UniformAbscissa ()
 #define Handle_TheBezierCurve   Handle(Geom2d_BezierCurve)
 #define Handle_TheBSplineCurve  Handle(Geom2d_BSplineCurve)
 
-#include <GCPnts_UniformAbscissa.gxx>
+#include <Geometry/GCPnts/GCPnts_UniformAbscissa.gxx>
 
 
 

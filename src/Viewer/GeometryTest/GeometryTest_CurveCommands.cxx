@@ -108,9 +108,9 @@
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Geom_BSplineSurface.hxx>
 #include <Geom_BSplineCurve.hxx>
-#include <GCPnts_QuasiUniformDeflection.hxx>
-#include <GCPnts_UniformDeflection.hxx>
-#include <GCPnts_TangentialDeflection.hxx>
+#include <Geometry/GCPnts/GCPnts_QuasiUniformDeflection.hxx>
+#include <Geometry/GCPnts/GCPnts_UniformDeflection.hxx>
+#include <Geometry/GCPnts/GCPnts_TangentialDeflection.hxx>
 #include <GeomAPI_ExtremaCurveCurve.hxx>
 #include <Geometry/gce/gce_MakeLin.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>
@@ -126,8 +126,8 @@
 #include <AIS_Shape.hxx>
 #include <TopoDS_Edge.hxx>
 #include <GeomLProp_CLProps.hxx>
-#include <GCPnts_AbscissaPoint.hxx>
-#include <GCPnts_UniformAbscissa.hxx>
+#include <Geometry/GCPnts/GCPnts_AbscissaPoint.hxx>
+#include <Geometry/GCPnts/GCPnts_UniformAbscissa.hxx>
 #include <DBRep.hxx>
 
 #ifdef WNT

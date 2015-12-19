@@ -40,12 +40,12 @@
 #include <IGESToBRep_Reader.hxx>
 #include <TopExp_Explorer.hxx>
 #include <TopoDS.hxx>
-#include <GCPnts_UniformDeflection.hxx>
+#include <Geometry/GCPnts/GCPnts_UniformDeflection.hxx>
 #include <BRepAdaptor_Curve.hxx>
 #include <IGESToBRep.hxx>
 #include <V3d_Viewer.hxx>
 #include <BRepAdaptor_CompCurve.hxx>
-#include <GCPnts_AbscissaPoint.hxx>
+#include <Geometry/GCPnts/GCPnts_AbscissaPoint.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Overflow.hxx>
 #include <Foundation/Standard/Standard_Underflow.hxx>
@@ -285,7 +285,7 @@ static int BUC60610(Draw_Interpretor& di, Standard_Integer argc, const char ** a
 //OCC105
 #include <BRepTools_WireExplorer.hxx>
 #include <BRep_Tool.hxx>
-#include <GCPnts_UniformAbscissa.hxx>
+#include <Geometry/GCPnts/GCPnts_UniformAbscissa.hxx>
 #include <TopExp.hxx>
 
 //

@@ -56,7 +56,7 @@
 #include <Draw_Segment2D.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
-#include <GCPnts_UniformAbscissa.hxx>
+#include <Geometry/GCPnts/GCPnts_UniformAbscissa.hxx>
 #include <GeomAdaptor_Curve.hxx>
 #include <Geom_Curve.hxx>
 #include <Geometry/Extrema/Extrema_LocateExtPC.hxx>

@@ -92,7 +92,7 @@
 #include <Geom_Plane.hxx>
 #include <Geom_Conic.hxx>
 #include <Geom_TrimmedCurve.hxx>
-#include <GCPnts_QuasiUniformDeflection.hxx>
+#include <Geometry/GCPnts/GCPnts_QuasiUniformDeflection.hxx>
 
 #include <GeomLib.hxx>
 #include <GeomAPI.hxx>
@@ -132,7 +132,7 @@
 
 #include <Geom_SurfaceOfLinearExtrusion.hxx>
 #include <Geom_SurfaceOfRevolution.hxx>
-#include <GCPnts_AbscissaPoint.hxx>
+#include <Geometry/GCPnts/GCPnts_AbscissaPoint.hxx>
 
 //tma: for new boolean operation
 #include <TopTools_SequenceOfShape.hxx>
@@ -142,7 +142,7 @@
 #include <GeomConvert_ApproxCurve.hxx>
 #include <Geom2dConvert_ApproxCurve.hxx>
 #include <TopoDS_Compound.hxx>
-#include <GCPnts_UniformAbscissa.hxx>
+#include <Geometry/GCPnts/GCPnts_UniformAbscissa.hxx>
 #include <BRep_ListIteratorOfListOfCurveRepresentation.hxx>
 #include <BRep_CurveRepresentation.hxx>
 

@@ -12,14 +12,14 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-//#include <GCPnts_QuasiUniformAbscissa.ixx>
+//#include <Geometry/GCPnts/GCPnts_QuasiUniformAbscissa.ixx>
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <GCPnts_QuasiUniformAbscissa.hxx>
-#include <GCPnts_UniformAbscissa.hxx>
+#include <Geometry/GCPnts/GCPnts_QuasiUniformAbscissa.hxx>
+#include <Geometry/GCPnts/GCPnts_UniformAbscissa.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_Curve2d.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
@@ -53,7 +53,7 @@ GCPnts_QuasiUniformAbscissa::GCPnts_QuasiUniformAbscissa ()
 #define TheArray1OfPnt          TColgp_Array1OfPnt
 #define ThePnt                  gp_Pnt
 
-#include <GCPnts_QuasiUniformAbscissa.gxx>
+#include <Geometry/GCPnts/GCPnts_QuasiUniformAbscissa.gxx>
 
 #undef TheCurve
 #undef Handle_TheBezierCurve
@@ -70,7 +70,7 @@ GCPnts_QuasiUniformAbscissa::GCPnts_QuasiUniformAbscissa ()
 #define TheArray1OfPnt          TColgp_Array1OfPnt2d
 #define ThePnt                  gp_Pnt2d
 
-#include <GCPnts_QuasiUniformAbscissa.gxx>
+#include <Geometry/GCPnts/GCPnts_QuasiUniformAbscissa.gxx>
 
 
 

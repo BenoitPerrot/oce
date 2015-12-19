@@ -32,7 +32,7 @@
 #include <GeomLib.hxx>
 #include <Geom_Surface.hxx>
 #include <Geom_BSplineSurface.hxx>
-#include <GCPnts_TangentialDeflection.hxx>
+#include <Geometry/GCPnts/GCPnts_TangentialDeflection.hxx>
 
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>

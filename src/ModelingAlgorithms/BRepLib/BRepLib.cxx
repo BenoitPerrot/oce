@@ -76,7 +76,7 @@
 #include <Geom2dAdaptor_HCurve.hxx>
 #include <Geom2dAdaptor.hxx>
 #include <Geom2dConvert.hxx>
-#include <GCPnts_QuasiUniformDeflection.hxx>
+#include <Geometry/GCPnts/GCPnts_QuasiUniformDeflection.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <ElSLib.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>

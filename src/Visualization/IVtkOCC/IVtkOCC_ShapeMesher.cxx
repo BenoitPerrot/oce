@@ -23,8 +23,8 @@
 #include <BRepMesh_DiscretRoot.hxx>
 #include <BRepTools.hxx>
 #include <Hatch_Hatcher.hxx>
-#include <GCPnts_QuasiUniformDeflection.hxx>
-#include <GCPnts_TangentialDeflection.hxx>
+#include <Geometry/GCPnts/GCPnts_QuasiUniformDeflection.hxx>
+#include <Geometry/GCPnts/GCPnts_TangentialDeflection.hxx>
 #include <Geom2dAdaptor_Curve.hxx>
 #include <GeomAdaptor_Curve.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>

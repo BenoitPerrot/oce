@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(DrawTrSurf_Drawable)
 IMPLEMENT_DOWNCAST(DrawTrSurf_Drawable,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(DrawTrSurf_Drawable)
-#include <GCPnts_UniformDeflection.hxx>
+#include <Geometry/GCPnts/GCPnts_UniformDeflection.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>

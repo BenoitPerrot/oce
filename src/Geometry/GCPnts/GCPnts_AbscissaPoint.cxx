@@ -18,7 +18,7 @@
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_Curve2d.hxx>
-#include <GCPnts_AbscissaPoint.hxx>
+#include <Geometry/GCPnts/GCPnts_AbscissaPoint.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 
 //=======================================================================
@@ -37,7 +37,7 @@ GCPnts_AbscissaPoint::GCPnts_AbscissaPoint()
 #define Handle_TheBezierCurve   Handle(Geom_BezierCurve)
 #define Handle_TheBSplineCurve  Handle(Geom_BSplineCurve)
 
-#include <GCPnts_AbscissaPoint.gxx>
+#include <Geometry/GCPnts/GCPnts_AbscissaPoint.gxx>
 
 #undef TheCurve
 #undef Handle_TheBezierCurve
@@ -50,5 +50,5 @@ GCPnts_AbscissaPoint::GCPnts_AbscissaPoint()
 #define Handle_TheBezierCurve   Handle(Geom2d_BezierCurve)
 #define Handle_TheBSplineCurve  Handle(Geom2d_BSplineCurve)
 
-#include <GCPnts_AbscissaPoint.gxx>
+#include <Geometry/GCPnts/GCPnts_AbscissaPoint.gxx>
 

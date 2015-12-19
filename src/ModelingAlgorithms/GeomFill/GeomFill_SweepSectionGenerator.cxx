@@ -42,7 +42,7 @@
 #include <ElCLib.hxx>
 #include <GeomAdaptor.hxx>
 #include <GeomAdaptor_Curve.hxx>
-#include <GCPnts_QuasiUniformDeflection.hxx>
+#include <Geometry/GCPnts/GCPnts_QuasiUniformDeflection.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 
 #include <stdio.h>

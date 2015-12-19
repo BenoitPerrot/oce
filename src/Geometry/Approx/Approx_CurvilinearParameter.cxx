@@ -24,7 +24,7 @@
 #include <Geometry/Approx/Approx_CurvilinearParameter.hxx>
 
 #include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
-#include <GCPnts_AbscissaPoint.hxx>
+#include <Geometry/GCPnts/GCPnts_AbscissaPoint.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>

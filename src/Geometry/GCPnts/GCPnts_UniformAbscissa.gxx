@@ -16,12 +16,12 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <GCPnts_AbscissaType.hxx>
+#include <Geometry/GCPnts/GCPnts_AbscissaType.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <GeomAbs_CurveType.hxx>
 #include <Geometry/CPnts/CPnts_AbscissaPoint.hxx>
-#include <GCPnts_AbscissaPoint.hxx>
+#include <Geometry/GCPnts/GCPnts_AbscissaPoint.hxx>
 #include <Precision.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
 #include <Mathematics/Primitives/gp_Circ2d.hxx>

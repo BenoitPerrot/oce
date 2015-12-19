@@ -136,7 +136,7 @@ private:
 };
 
 
-#include <GCPnts_TangentialDeflection.lxx>
+#include <Geometry/GCPnts/GCPnts_TangentialDeflection.lxx>
 
 
 

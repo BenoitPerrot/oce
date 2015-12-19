@@ -144,7 +144,7 @@ private:
 };
 
 
-#include <GCPnts_UniformAbscissa.lxx>
+#include <Geometry/GCPnts/GCPnts_UniformAbscissa.lxx>
 
 
 

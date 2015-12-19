@@ -43,7 +43,7 @@
 
 #include <GeomAdaptor_Curve.hxx>
 #include <GeomAPI.hxx>
-#include <GCPnts_AbscissaPoint.hxx>
+#include <Geometry/GCPnts/GCPnts_AbscissaPoint.hxx>
 
 #include <Geom2dAdaptor_Curve.hxx>
 #include <Geom2d_TrimmedCurve.hxx>

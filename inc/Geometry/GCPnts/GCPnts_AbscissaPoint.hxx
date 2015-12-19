@@ -144,7 +144,7 @@ private:
 };
 
 
-#include <GCPnts_AbscissaPoint.lxx>
+#include <Geometry/GCPnts/GCPnts_AbscissaPoint.lxx>
 
 
 

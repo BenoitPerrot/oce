@@ -18,7 +18,7 @@
 
 // compute the type 
 // and the length ratio if GCPnts_LengthParametrized
-#include <GCPnts_AbscissaType.hxx>
+#include <Geometry/GCPnts/GCPnts_AbscissaType.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>

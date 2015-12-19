@@ -45,7 +45,7 @@
 #include <TopoDS_Shell.hxx>
 #include <TopoDS_Solid.hxx>
 #include <Precision.hxx>
-#include <GCPnts_QuasiUniformDeflection.hxx>
+#include <Geometry/GCPnts/GCPnts_QuasiUniformDeflection.hxx>
 #include <BRepTopAdaptor_FClass2d.hxx>
 #include <Geom2dAdaptor_Curve.hxx>
 #include <GeomProjLib.hxx>

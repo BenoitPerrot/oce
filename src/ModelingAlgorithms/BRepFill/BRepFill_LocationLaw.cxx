@@ -52,7 +52,7 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_LocationLaw)
 #include <Mathematics/Primitives/gp_Mat.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
-#include <GCPnts_AbscissaPoint.hxx>
+#include <Geometry/GCPnts/GCPnts_AbscissaPoint.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfVec2d.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>

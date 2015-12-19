@@ -84,9 +84,9 @@ IMPLEMENT_STANDARD_RTTI(BRepBuilderAPI_Sewing)
 #include <BRepTools_Quilt.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Geometry/Extrema/Extrema_ExtPC.hxx>
-#include <GCPnts_AbscissaPoint.hxx>
-#include <GCPnts_UniformAbscissa.hxx>
-#include <GCPnts_UniformDeflection.hxx>
+#include <Geometry/GCPnts/GCPnts_AbscissaPoint.hxx>
+#include <Geometry/GCPnts/GCPnts_UniformAbscissa.hxx>
+#include <Geometry/GCPnts/GCPnts_UniformDeflection.hxx>
 #include <Geom2d_BezierCurve.hxx>
 #include <Geom2d_BSplineCurve.hxx>
 #include <Geom2d_Curve.hxx>

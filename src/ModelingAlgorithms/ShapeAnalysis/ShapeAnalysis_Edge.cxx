@@ -35,7 +35,7 @@
 
 #include <Precision.hxx>
 
-#include <GCPnts_AbscissaPoint.hxx>
+#include <Geometry/GCPnts/GCPnts_AbscissaPoint.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>
 #include <Geom2dAdaptor_HCurve.hxx>

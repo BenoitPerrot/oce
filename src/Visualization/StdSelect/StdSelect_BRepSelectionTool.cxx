@@ -58,7 +58,7 @@
 #include <Select3D_TypeOfSensitivity.hxx>
 #include <Precision.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
-#include <GCPnts_TangentialDeflection.hxx>
+#include <Geometry/GCPnts/GCPnts_TangentialDeflection.hxx>
 #include <TopoDS_Wire.hxx>
 #include <Mathematics/Polyhedral/Poly_Array1OfTriangle.hxx>
 #include <Mathematics/Polyhedral/Poly_Polygon3D.hxx>

@@ -153,7 +153,7 @@ private:
 };
 
 
-#include <GCPnts_QuasiUniformAbscissa.lxx>
+#include <Geometry/GCPnts/GCPnts_QuasiUniformAbscissa.lxx>
 
 
 

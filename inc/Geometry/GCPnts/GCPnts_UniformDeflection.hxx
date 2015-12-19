@@ -191,7 +191,7 @@ private:
 };
 
 
-#include <GCPnts_UniformDeflection.lxx>
+#include <Geometry/GCPnts/GCPnts_UniformDeflection.lxx>
 
 
 

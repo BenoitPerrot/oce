@@ -60,7 +60,7 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_NSections)
 #include <GeomAdaptor_Surface.hxx>
 #include <Geom_TrimmedCurve.hxx>
 
-#include <GCPnts_AbscissaPoint.hxx>
+#include <Geometry/GCPnts/GCPnts_AbscissaPoint.hxx>
 #include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
 #include <TColGeom_Array1OfCurve.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>

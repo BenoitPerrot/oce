@@ -54,7 +54,7 @@
 
 #include <Geom_RectangularTrimmedSurface.hxx>
 
-#include <GCPnts_AbscissaPoint.hxx>
+#include <Geometry/GCPnts/GCPnts_AbscissaPoint.hxx>
 #include <Law_Interpol.hxx>
 
 #include <Plate_PinpointConstraint.hxx>

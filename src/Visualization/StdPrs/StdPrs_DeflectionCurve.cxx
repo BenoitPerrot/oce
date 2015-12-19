@@ -36,8 +36,8 @@
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Geometry/BndLib/BndLib_Add3dCurve.hxx>
 #include <Precision.hxx>
-#include <GCPnts_QuasiUniformDeflection.hxx>
-#include <GCPnts_TangentialDeflection.hxx>
+#include <Geometry/GCPnts/GCPnts_QuasiUniformDeflection.hxx>
+#include <Geometry/GCPnts/GCPnts_TangentialDeflection.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 

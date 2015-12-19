@@ -42,7 +42,7 @@
 #include <TopoDS.hxx>
 #include <BRepTools_WireExplorer.hxx>
 
-#include <GCPnts_QuasiUniformAbscissa.hxx>
+#include <Geometry/GCPnts/GCPnts_QuasiUniformAbscissa.hxx>
 #include <Geom2dAdaptor_Curve.hxx>
 #include <GeomAdaptor_Curve.hxx>
 #include <ProjLib_ComputeApproxOnPolarSurface.hxx>

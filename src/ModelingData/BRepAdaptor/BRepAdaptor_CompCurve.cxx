@@ -42,7 +42,7 @@
 #include <BRepTools_WireExplorer.hxx>
 #include <TopAbs_Orientation.hxx>
 
-#include <GCPnts_AbscissaPoint.hxx>
+#include <Geometry/GCPnts/GCPnts_AbscissaPoint.hxx>
 #include <ElCLib.hxx>
 #include <TopExp.hxx>
 

@@ -19,7 +19,7 @@
 #include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_Curve2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <GCPnts_UniformDeflection.hxx>
+#include <Geometry/GCPnts/GCPnts_UniformDeflection.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
@@ -70,7 +70,7 @@ GCPnts_UniformDeflection::GCPnts_UniformDeflection ()
 #define TheCurve                 Adaptor3d_Curve
 #define Handle_TheBezierCurve   Handle(Geom_BezierCurve)
 #define Handle_TheBSplineCurve  Handle(Geom_BSplineCurve)
-#include <GCPnts_UniformDeflection.gxx>
+#include <Geometry/GCPnts/GCPnts_UniformDeflection.gxx>
 #undef TheCurve
 #undef Handle_TheBezierCurve
 #undef Handle_TheBSplineCurve
@@ -80,7 +80,7 @@ GCPnts_UniformDeflection::GCPnts_UniformDeflection ()
 #define TheCurve                 Adaptor2d_Curve2d
 #define Handle_TheBezierCurve   Handle(Geom2d_BezierCurve)
 #define Handle_TheBSplineCurve  Handle(Geom2d_BSplineCurve)
-#include <GCPnts_UniformDeflection.gxx>
+#include <Geometry/GCPnts/GCPnts_UniformDeflection.gxx>
 #undef TheCurve
 #undef Handle_TheBezierCurve
 #undef Handle_TheBSplineCurve

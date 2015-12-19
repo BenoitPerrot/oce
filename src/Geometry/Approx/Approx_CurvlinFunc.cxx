@@ -37,7 +37,7 @@ IMPLEMENT_STANDARD_RTTI(Approx_CurvlinFunc)
 #include <Geometry/Adaptor3d/Adaptor3d_HCurveOnSurface.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <GeomLib.hxx>
-#include <GCPnts_AbscissaPoint.hxx>
+#include <Geometry/GCPnts/GCPnts_AbscissaPoint.hxx>
 #include <Precision.hxx>
 
 #ifdef OCCT_DEBUG_CHRONO

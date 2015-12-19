@@ -36,7 +36,7 @@ IMPLEMENT_DOWNCAST(GeomFill_CircularBlendFunc,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(GeomFill_CircularBlendFunc)
 #include <GeomFill.hxx>
 
-#include <GCPnts_QuasiUniformDeflection.hxx>
+#include <Geometry/GCPnts/GCPnts_QuasiUniformDeflection.hxx>
 #include <Precision.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 

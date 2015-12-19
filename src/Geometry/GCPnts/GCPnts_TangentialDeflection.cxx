@@ -19,7 +19,7 @@
 #include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_Curve2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <GCPnts_TangentialDeflection.hxx>
+#include <Geometry/GCPnts/GCPnts_TangentialDeflection.hxx>
 
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
@@ -119,7 +119,7 @@ Standard_Integer GCPnts_TangentialDeflection::AddPoint
 #define TheCurve Adaptor3d_Curve
 #define Handle_TheBezierCurve   Handle(Geom_BezierCurve)
 #define Handle_TheBSplineCurve  Handle(Geom_BSplineCurve)
-#include <GCPnts_TangentialDeflection.gxx>
+#include <Geometry/GCPnts/GCPnts_TangentialDeflection.gxx>
 #undef Handle_TheBezierCurve
 #undef Handle_TheBSplineCurve
 #undef TheCurve
@@ -131,7 +131,7 @@ Standard_Integer GCPnts_TangentialDeflection::AddPoint
 #define TheCurve Adaptor2d_Curve2d
 #define Handle_TheBezierCurve   Handle(Geom2d_BezierCurve)
 #define Handle_TheBSplineCurve  Handle(Geom2d_BSplineCurve)
-#include <GCPnts_TangentialDeflection.gxx>
+#include <Geometry/GCPnts/GCPnts_TangentialDeflection.gxx>
 #undef Handle_TheBezierCurve
 #undef Handle_TheBSplineCurve
 #undef TheCurve

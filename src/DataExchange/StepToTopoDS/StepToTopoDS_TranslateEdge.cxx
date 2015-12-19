@@ -64,7 +64,7 @@
 //#include <TransferBRep.hxx>
 
 #include <GeomAdaptor_Curve.hxx>
-#include <GCPnts_AbscissaPoint.hxx>
+#include <Geometry/GCPnts/GCPnts_AbscissaPoint.hxx>
 #include <Precision.hxx>
 
 #include <StepToGeom_MakeCurve2d.hxx>
