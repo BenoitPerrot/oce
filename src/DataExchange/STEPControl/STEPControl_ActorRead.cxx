@@ -112,7 +112,7 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_ActorRead)
 #include <Precision.hxx>
 #include <StepToGeom_MakeTransformation3d.hxx>
 #include <StepToGeom_MakeAxis2Placement.hxx>
-#include <Geom_Axis2Placement.hxx>
+#include <Geometry/Geom/Geom_Axis2Placement.hxx>
 #include <Mathematics/Primitives/gp_Ax3.hxx>
 #include <StepRepr_ShapeAspect.hxx>
 #include <XSAlgo.hxx>

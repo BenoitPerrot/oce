@@ -34,7 +34,7 @@
 #include <IntTools_Context.hxx>
 #include <IntTools_Range.hxx>
 
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geom2d_Curve.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 

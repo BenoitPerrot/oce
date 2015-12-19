@@ -24,7 +24,7 @@
 #include <TopoDS_Vertex.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Face.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <TopoDS_Wire.hxx>
@@ -42,18 +42,18 @@
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Mathematics/Primitives/gp_Trsf2d.hxx>
 
-#include <Geom_CartesianPoint.hxx>
-#include <Geom_ConicalSurface.hxx>
-#include <Geom_Curve.hxx>
-#include <Geom_CylindricalSurface.hxx>
-#include <Geom_Plane.hxx>
-#include <Geom_RectangularTrimmedSurface.hxx>
-#include <Geom_SphericalSurface.hxx>
-#include <Geom_Surface.hxx>
-#include <Geom_SurfaceOfLinearExtrusion.hxx>
-#include <Geom_SurfaceOfRevolution.hxx>
-#include <Geom_ToroidalSurface.hxx>
-#include <Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_CartesianPoint.hxx>
+#include <Geometry/Geom/Geom_ConicalSurface.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_CylindricalSurface.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
+#include <Geometry/Geom/Geom_SphericalSurface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_SurfaceOfLinearExtrusion.hxx>
+#include <Geometry/Geom/Geom_SurfaceOfRevolution.hxx>
+#include <Geometry/Geom/Geom_ToroidalSurface.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 
 #include <Geom2d_Curve.hxx>
 #include <Geom2d_Line.hxx>
@@ -88,7 +88,7 @@
 #include <TopExp_Explorer.hxx>
 #include <Interface_Static.hxx>
 #include <ShapeBuild_Edge.hxx>
-#include <Geom_OffsetSurface.hxx>
+#include <Geometry/Geom/Geom_OffsetSurface.hxx>
 #include <ShapeExtend_WireData.hxx>
 #include <ShapeFix_Wire.hxx>
 

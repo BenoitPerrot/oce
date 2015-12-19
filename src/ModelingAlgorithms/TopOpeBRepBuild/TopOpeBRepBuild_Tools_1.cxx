@@ -50,10 +50,10 @@
 #include <BRep_CurveRepresentation.hxx>
 #include <BRep_PointRepresentation.hxx>
 
-#include <Geom_Curve.hxx>
-#include <Geom_Surface.hxx>
-#include <Geom_Plane.hxx>
-#include <Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 
 #include <GeomAdaptor_Curve.hxx>
 #include <GeomAdaptor_HCurve.hxx>
@@ -62,7 +62,7 @@
 #include <Geom2d_Curve.hxx>
 
 #include <Geom2dAdaptor_HCurve.hxx>
-#include <Geom_RectangularTrimmedSurface.hxx>
+#include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
 #include <Geom2dAdaptor.hxx>
 #include <GeomProjLib.hxx>
 

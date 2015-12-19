@@ -25,7 +25,7 @@
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <BRepAdaptor_Surface.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <BRep_Tool.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>

@@ -20,7 +20,7 @@
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <TColGeom_SequenceOfCurve.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <LocOpe_Prism.hxx>
 
 
@@ -32,8 +32,8 @@
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <BRepTools_TrsfModification.hxx>
 #include <BRepTools_Modifier.hxx>
-#include <Geom_Line.hxx>
-#include <Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 
 #include <BRepLib_MakeVertex.hxx>
 #include <TopoDS_Edge.hxx>

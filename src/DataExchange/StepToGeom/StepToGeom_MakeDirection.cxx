@@ -17,7 +17,7 @@
 // sln 22.10.2001. CTS23496: Direction is not created if it has null magnitude (StepToGeom_MakeDirection(...) function)
 
 #include <StepGeom_Direction.hxx>
-#include <Geom_Direction.hxx>
+#include <Geometry/Geom/Geom_Direction.hxx>
 #include <StepToGeom_MakeDirection.hxx>
 #include <StepGeom_Direction.hxx>
 

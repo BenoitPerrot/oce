@@ -40,8 +40,8 @@
 #include <BRepGProp.hxx>
 #include <GProp_GProps.hxx>
 #include <GProp_PrincipalProps.hxx>
-#include <Geom_Surface.hxx>
-#include <Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
 #include <Precision.hxx>
 #include <TopAbs.hxx> 
 #include <TopExp.hxx>

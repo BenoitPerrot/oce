@@ -17,7 +17,7 @@
 //pmn 26/09/97 Add parameters of approximation in BuildCurve3d
 //  Modified by skv - Thu Jun  3 12:39:19 2004 OCC5898
 
-#include <Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Solid.hxx>
@@ -29,12 +29,12 @@
 #include <BRepAdaptor_HCurve2d.hxx>
 #include <BRep_Tool.hxx>
 #include <BRep_Builder.hxx>
-#include <Geom_Surface.hxx>
-#include <Geom_RectangularTrimmedSurface.hxx>
-#include <Geom_Plane.hxx>
-#include <Geom_Curve.hxx>
-#include <Geom_BSplineCurve.hxx>
-#include <Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Geom2d_Curve.hxx>
 #include <Geom2d_TrimmedCurve.hxx>
 #include <Geom2d_BSplineCurve.hxx>
@@ -86,7 +86,7 @@
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BRepBndLib.hxx>
 #include <Geometry/Approx/Approx_CurvilinearParameter.hxx>
-#include <Geom_BSplineSurface.hxx>
+#include <Geometry/Geom/Geom_BSplineSurface.hxx>
 
 
 // TODO - not thread-safe static variables

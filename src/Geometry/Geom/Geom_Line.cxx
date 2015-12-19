@@ -21,8 +21,8 @@
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
-#include <Geom_Geometry.hxx>
-#include <Geom_Line.hxx>
+#include <Geometry/Geom/Geom_Geometry.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Geom_Line)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

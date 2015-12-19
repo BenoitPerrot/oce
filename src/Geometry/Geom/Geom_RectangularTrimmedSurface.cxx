@@ -19,19 +19,19 @@
 
 
 
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <Geom_UndefinedDerivative.hxx>
-#include <Geom_UndefinedValue.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_UndefinedDerivative.hxx>
+#include <Geometry/Geom/Geom_UndefinedValue.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Mathematics/Primitives/gp_GTrsf2d.hxx>
-#include <Geom_Geometry.hxx>
-#include <Geom_RectangularTrimmedSurface.hxx>
+#include <Geometry/Geom/Geom_Geometry.hxx>
+#include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Geom_RectangularTrimmedSurface)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -49,19 +49,19 @@ IMPLEMENT_STANDARD_RTTI(Geom_RectangularTrimmedSurface)
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/Standard/Standard_RangeError.hxx>
 
-#include <Geom_TrimmedCurve.hxx>
-#include <Geom_Geometry.hxx>
-#include <Geom_Surface.hxx>
-#include <Geom_Plane.hxx>
-#include <Geom_CylindricalSurface.hxx>
-#include <Geom_ConicalSurface.hxx>
-#include <Geom_SphericalSurface.hxx>
-#include <Geom_ToroidalSurface.hxx>
-#include <Geom_BezierSurface.hxx>
-#include <Geom_BSplineSurface.hxx>
-#include <Geom_SurfaceOfRevolution.hxx>
-#include <Geom_SurfaceOfLinearExtrusion.hxx>
-#include <Geom_OffsetSurface.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_Geometry.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_CylindricalSurface.hxx>
+#include <Geometry/Geom/Geom_ConicalSurface.hxx>
+#include <Geometry/Geom/Geom_SphericalSurface.hxx>
+#include <Geometry/Geom/Geom_ToroidalSurface.hxx>
+#include <Geometry/Geom/Geom_BezierSurface.hxx>
+#include <Geometry/Geom/Geom_BSplineSurface.hxx>
+#include <Geometry/Geom/Geom_SurfaceOfRevolution.hxx>
+#include <Geometry/Geom/Geom_SurfaceOfLinearExtrusion.hxx>
+#include <Geometry/Geom/Geom_OffsetSurface.hxx>
 
 #include <Precision.hxx>
 #include <ElCLib.hxx>

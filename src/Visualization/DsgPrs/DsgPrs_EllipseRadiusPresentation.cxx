@@ -19,7 +19,7 @@
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Elips.hxx>
-#include <Geom_OffsetCurve.hxx>
+#include <Geometry/Geom/Geom_OffsetCurve.hxx>
 #include <DsgPrs_EllipseRadiusPresentation.hxx>
 
 #include <Mathematics/Primitives/gp_Lin.hxx>
@@ -47,11 +47,11 @@
 #include <DsgPrs.hxx>
 #include <Precision.hxx>
 
-#include <Geom_Ellipse.hxx>
-#include <Geom_Line.hxx>
-#include <Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_Ellipse.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <GeomAPI_ExtremaCurveCurve.hxx>
-#include <Geom_OffsetCurve.hxx>
+#include <Geometry/Geom/Geom_OffsetCurve.hxx>
 
 //=======================================================================
 //function : Add

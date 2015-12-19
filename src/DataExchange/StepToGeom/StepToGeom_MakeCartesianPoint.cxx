@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <StepGeom_CartesianPoint.hxx>
-#include <Geom_CartesianPoint.hxx>
+#include <Geometry/Geom/Geom_CartesianPoint.hxx>
 #include <StepToGeom_MakeCartesianPoint.hxx>
 #include <StepGeom_CartesianPoint.hxx>
 #include <UnitsMethods.hxx>

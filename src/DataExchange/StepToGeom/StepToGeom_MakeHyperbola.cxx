@@ -15,11 +15,11 @@
 // commercial license or contractual agreement.
 
 #include <StepGeom_Hyperbola.hxx>
-#include <Geom_Hyperbola.hxx>
+#include <Geometry/Geom/Geom_Hyperbola.hxx>
 #include <StepToGeom_MakeHyperbola.hxx>
 #include <StepGeom_Hyperbola.hxx>
 #include <StepGeom_Axis2Placement3d.hxx>
-#include <Geom_Axis2Placement.hxx>
+#include <Geometry/Geom/Geom_Axis2Placement.hxx>
 #include <StepToGeom_MakeAxis2Placement.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <UnitsMethods.hxx>

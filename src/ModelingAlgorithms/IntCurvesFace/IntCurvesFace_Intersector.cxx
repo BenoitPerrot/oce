@@ -39,7 +39,7 @@
 
 #include <IntCurveSurface_HInter.hxx>
 #include <BRepAdaptor_HSurface.hxx>
-#include <Geom_Line.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <BRepClass_FaceClassifier.hxx>
 

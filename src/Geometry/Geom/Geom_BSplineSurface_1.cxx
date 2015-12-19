@@ -36,7 +36,7 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_RangeError.hxx>
-#include <Geom_UndefinedDerivative.hxx>
+#include <Geometry/Geom/Geom_UndefinedDerivative.hxx>
 #include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
@@ -44,10 +44,10 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
-#include <Geom_Geometry.hxx>
-#include <Geom_BSplineSurface.hxx>
+#include <Geometry/Geom/Geom_Geometry.hxx>
+#include <Geometry/Geom/Geom_BSplineSurface.hxx>
 
 #include <Mathematics/Primitives/gp.hxx>
 #include <Mathematics/BetaSpline/BSplSLib.hxx>
@@ -55,9 +55,9 @@
 #include <Precision.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfXYZ.hxx>
 
-#include <Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
 
-#include <Geom_UndefinedDerivative.hxx>
+#include <Geometry/Geom/Geom_UndefinedDerivative.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>

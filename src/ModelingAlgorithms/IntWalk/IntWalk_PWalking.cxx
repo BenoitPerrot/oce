@@ -35,7 +35,7 @@
 #include <Precision.hxx>
 
 #include <Mathematics/Optimization/math_FunctionSetRoot.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>

@@ -30,9 +30,9 @@
 #include <TopoDS_Edge.hxx>
 #include <TopoDS.hxx>
 
-#include <Geom_RectangularTrimmedSurface.hxx>
-#include <Geom_Plane.hxx>
-#include <Geom_CylindricalSurface.hxx>
+#include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_CylindricalSurface.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Mathematics/Primitives/gp_Cylinder.hxx>

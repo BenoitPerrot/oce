@@ -22,10 +22,10 @@
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Mathematics/Primitives/gp_GTrsf2d.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <Geom_Geometry.hxx>
-#include <Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Geometry.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Geom_Plane)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -47,7 +47,7 @@ IMPLEMENT_STANDARD_RTTI(Geom_Plane)
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Mathematics/Primitives/gp_Trsf2d.hxx>
 #include <ElSLib.hxx>
-#include <Geom_Line.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
 #include <GeomAbs_UVSense.hxx>
 
 typedef Geom_Plane         Plane;

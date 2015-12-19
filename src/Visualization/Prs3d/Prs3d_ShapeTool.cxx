@@ -38,9 +38,9 @@
 #include <BRepAdaptor_Curve.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BRep_Tool.hxx>
-#include <Geom_Surface.hxx>
-#include <Geom_RectangularTrimmedSurface.hxx>
-#include <Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
 
 
 //=======================================================================

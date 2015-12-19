@@ -34,14 +34,14 @@
 #include <GeomAdaptor_Curve.hxx>
 #include <GeomAdaptor_Surface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_SurfaceOfRevolution.hxx>
-#include <Geom_SurfaceOfRevolution.hxx>
-#include <Geom_CylindricalSurface.hxx>
-#include <Geom_ConicalSurface.hxx>
-#include <Geom_SphericalSurface.hxx>
-#include <Geom_ToroidalSurface.hxx>
-#include <Geom_Plane.hxx>
-#include <Geom_Circle.hxx>
-#include <Geom_Line.hxx>
+#include <Geometry/Geom/Geom_SurfaceOfRevolution.hxx>
+#include <Geometry/Geom/Geom_CylindricalSurface.hxx>
+#include <Geometry/Geom/Geom_ConicalSurface.hxx>
+#include <Geometry/Geom/Geom_SphericalSurface.hxx>
+#include <Geometry/Geom/Geom_ToroidalSurface.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
 #include <Geom2d_Circle.hxx>
 #include <Geom2d_Line.hxx>
 #include <Mathematics/Primitives/gp.hxx>
@@ -64,7 +64,7 @@
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 
 #include <GeomAdaptor_HCurve.hxx>
-#include <Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 
 static Standard_Real ComputeTolerance(TopoDS_Edge& E,
 				      const TopoDS_Face& F,

@@ -17,12 +17,12 @@
 #include <StepGeom_Plane.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
-#include <Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
 #include <GeomToStep_MakePlane.hxx>
 #include <GeomToStep_MakePlane.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
-#include <Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
 #include <StepGeom_Plane.hxx>
 #include <StepGeom_Axis2Placement3d.hxx>
 #include <GeomToStep_MakeAxis2Placement3d.hxx>

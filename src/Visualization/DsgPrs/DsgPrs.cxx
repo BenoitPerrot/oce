@@ -17,8 +17,8 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
-#include <Geom_Surface.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
 #include <Mathematics/Primitives/gp_Elips.hxx>
@@ -45,8 +45,8 @@
 #include <ElCLib.hxx>
 
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <Geom_Line.hxx>
-#include <Geom_Circle.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx>
 #include <GeomAPI_ExtremaCurveCurve.hxx>
 #include <GeomAPI_ProjectPointOnSurf.hxx>
 #include <GeomAPI_ProjectPointOnCurve.hxx>

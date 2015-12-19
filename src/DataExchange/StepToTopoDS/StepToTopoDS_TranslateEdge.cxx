@@ -28,7 +28,7 @@
 #include <TopoDS_Vertex.hxx>
 #include <Geom2d_Curve.hxx>
 #include <StepGeom_Pcurve.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <TopoDS_Shape.hxx>
 #include <StepToTopoDS_TranslateEdge.hxx>
 
@@ -43,10 +43,10 @@
 #include <BRep_Tool.hxx>
 #include <BRepLib.hxx>
 #include <BRepLib_MakeEdge.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <GeomAbs_Shape.hxx>
 
-#include <Geom_Line.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
@@ -75,7 +75,7 @@
 #include <StepShape_VertexPoint.hxx>
 #include <StepGeom_CartesianPoint.hxx>
 #include <StepToGeom_MakeCartesianPoint.hxx>
-#include <Geom_CartesianPoint.hxx>
+#include <Geometry/Geom/Geom_CartesianPoint.hxx>
 
 // Used in I-DEAS-like STP processing (ssv; 15.11.2010)
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>

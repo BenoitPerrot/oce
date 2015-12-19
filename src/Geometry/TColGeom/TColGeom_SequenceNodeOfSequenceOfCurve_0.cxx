@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <TColGeom_SequenceOfCurve.hxx>
 
  
@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_RTTI(TColGeom_SequenceNodeOfSequenceOfCurve)
 
 
 #define SeqItem Handle(Geom_Curve)
-#define SeqItem_hxx <Geom_Curve.hxx>
+#define SeqItem_hxx <Geometry/Geom/Geom_Curve.hxx>
 #define TCollection_SequenceNode TColGeom_SequenceNodeOfSequenceOfCurve
 #define TCollection_SequenceNode_hxx <TColGeom_SequenceNodeOfSequenceOfCurve.hxx>
 #define Handle_TCollection_SequenceNode Handle_TColGeom_SequenceNodeOfSequenceOfCurve

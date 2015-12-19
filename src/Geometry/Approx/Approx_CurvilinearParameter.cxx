@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Geom2d_BSplineCurve.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
@@ -31,7 +31,7 @@
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <AdvApprox_ApproxAFunction.hxx>
-#include <Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>

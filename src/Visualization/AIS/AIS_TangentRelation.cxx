@@ -17,10 +17,10 @@
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 
 #include <TopoDS_Shape.hxx>
-#include <Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
 #include <Prs3d_Presentation.hxx>
 #include <Prs3d_Projector.hxx>
-#include <Geom_Transformation.hxx>
+#include <Geometry/Geom/Geom_Transformation.hxx>
 #include <SelectMgr_Selection.hxx>
 #include <AIS_TangentRelation.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -52,9 +52,9 @@ IMPLEMENT_STANDARD_RTTI(AIS_TangentRelation)
 #include <TopAbs_ShapeEnum.hxx>
 
 
-#include <Geom_Plane.hxx>
-#include <Geom_Line.hxx>
-#include <Geom_Circle.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx>
 
 #include <ElCLib.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
@@ -68,7 +68,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_TangentRelation)
 #include <AIS_Shape.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Precision.hxx>
-#include <Geom_Ellipse.hxx>
+#include <Geometry/Geom/Geom_Ellipse.hxx>
 #include <GeomAPI_ExtremaCurveCurve.hxx>
 
 //=======================================================================

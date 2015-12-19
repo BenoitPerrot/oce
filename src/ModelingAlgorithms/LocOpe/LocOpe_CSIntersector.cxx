@@ -29,7 +29,7 @@
 
 #include <IntCurvesFace_Intersector.hxx>
 #include <GeomAdaptor_HCurve.hxx>
-#include <Geom_Circle.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx>
 
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>

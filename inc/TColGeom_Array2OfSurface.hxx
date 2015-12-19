@@ -101,7 +101,7 @@ private:
 };
 
 #define Array2Item Handle(Geom_Surface)
-#define Array2Item_hxx <Geom_Surface.hxx>
+#define Array2Item_hxx <Geometry/Geom/Geom_Surface.hxx>
 #define TCollection_Array2 TColGeom_Array2OfSurface
 #define TCollection_Array2_hxx <TColGeom_Array2OfSurface.hxx>
 

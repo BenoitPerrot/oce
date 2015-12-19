@@ -22,7 +22,7 @@
 
 #include <stdio.h>
 
-#include <Geom_BSplineSurface.hxx>
+#include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <TColGeom_SequenceOfCurve.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
@@ -32,7 +32,7 @@
 #include <Mathematics/Collections/TColgp_Array1OfVec.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <GeomFill_NSections.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(GeomFill_NSections)
@@ -51,14 +51,14 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_NSections)
 #include <GeomConvert.hxx>
 #include <Mathematics/Convert/Convert_ParameterisationType.hxx>
 
-#include <Geom_Geometry.hxx>
-#include <Geom_Surface.hxx>
-#include <Geom_BSplineSurface.hxx>
-#include <Geom_BSplineCurve.hxx>
-#include <Geom_Circle.hxx>
+#include <Geometry/Geom/Geom_Geometry.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_BSplineSurface.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx>
 #include <GeomAdaptor_Curve.hxx>
 #include <GeomAdaptor_Surface.hxx>
-#include <Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 
 #include <Geometry/GCPnts/GCPnts_AbscissaPoint.hxx>
 #include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>

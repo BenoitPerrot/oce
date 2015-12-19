@@ -31,9 +31,9 @@
 #include <Geom2d_Line.hxx>
 #include <Geom2d_BezierCurve.hxx>
 #include <Geom2d_BSplineCurve.hxx>
-#include <Geom_Curve.hxx>
-#include <Geom_Plane.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <GeomAbs_CurveType.hxx>
 #include <GeomAbs_SurfaceType.hxx>
 #include <GeomAdaptor_Curve.hxx>
@@ -69,7 +69,7 @@
 #include <ChFiDS_Spine.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <TopTools_ListOfShape.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <ChFiDS_SurfData.hxx>
 #include <ChFiDS_HElSpine.hxx>
 #include <BRepAdaptor_HSurface.hxx>

@@ -17,8 +17,8 @@
 #ifndef _TopOpeBRepTool_defineG_HeaderFile
 #define _TopOpeBRepTool_defineG_HeaderFile
 
-#include <Geom_Curve.hxx>
-#include <Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Geom2d_Curve.hxx>
 #include <Geom2d_TrimmedCurve.hxx>
 

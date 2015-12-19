@@ -14,12 +14,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Mathematics/Primitives/gp_Elips.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geometry/GC/GC_MakeArcOfEllipse.hxx>
-#include <Geom_Ellipse.hxx>
+#include <Geometry/Geom/Geom_Ellipse.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <ElCLib.hxx>
 

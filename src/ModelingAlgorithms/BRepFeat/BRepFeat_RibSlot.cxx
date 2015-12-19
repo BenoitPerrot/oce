@@ -18,10 +18,10 @@
 #include <TopTools_ListOfShape.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <TopoDS_Edge.hxx>
-#include <Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <TopoDS_Face.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <LocOpe_Gluer.hxx>
 #include <TopOpeBRepBuild_HBuilder.hxx>
@@ -84,14 +84,14 @@
 #include <GeomLib.hxx>
 #include <GeomAdaptor_Curve.hxx>
 
-#include <Geom_Curve.hxx>
-#include <Geom_TrimmedCurve.hxx>
-#include <Geom_Line.hxx>
-#include <Geom_Circle.hxx>
-#include <Geom_Plane.hxx>
-#include <Geom_Ellipse.hxx>
-#include <Geom_Parabola.hxx>
-#include <Geom_Hyperbola.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Ellipse.hxx>
+#include <Geometry/Geom/Geom_Parabola.hxx>
+#include <Geometry/Geom/Geom_Hyperbola.hxx>
 
 #include <Geom2dAPI_InterCurveCurve.hxx>
 #include <GeomAPI.hxx>

@@ -37,8 +37,8 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_Edge3DLaw)
 
 #include <GeomFill_LocationLaw.hxx>
 #include <GeomFill_HArray1OfLocationLaw.hxx>
-#include <Geom_Curve.hxx>
-#include <Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <GeomAdaptor_HCurve.hxx>
 
 BRepFill_Edge3DLaw::BRepFill_Edge3DLaw(const TopoDS_Wire& Path,

@@ -14,8 +14,8 @@
 // commercial license or contractual agreement.
 
 #include <BRepMesh_EdgeTessellator.hxx>
-#include <Geom_Surface.hxx>
-#include <Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
 #include <Geom2d_Curve.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Face.hxx>

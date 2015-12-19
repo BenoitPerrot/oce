@@ -13,7 +13,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <GeomLProp_CLProps.hxx>
 #include <LocalAnalysis_CurveContinuity.hxx>
 #include <LocalAnalysis_StatusErrorType.hxx>

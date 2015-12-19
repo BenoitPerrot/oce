@@ -56,9 +56,9 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_CorrectedFrenet)
 #include <Law_BSpline.hxx>
 #include <GeomFill_SnglrFunc.hxx>
 //Patch
-#include <Geom_Plane.hxx>
-#include <Geom_BezierCurve.hxx>
-#include <Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_BezierCurve.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
 
 

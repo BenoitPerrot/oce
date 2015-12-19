@@ -5,7 +5,7 @@
 
 #include <GeomLProp_CLProps.hxx>
 
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <LProp_BadContinuity.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
@@ -17,7 +17,7 @@
  
 
 #define Curve Handle(Geom_Curve)
-#define Curve_hxx <Geom_Curve.hxx>
+#define Curve_hxx <Geometry/Geom/Geom_Curve.hxx>
 #define Vec gp_Vec
 #define Vec_hxx <Mathematics/Primitives/gp_Vec.hxx>
 #define Pnt gp_Pnt

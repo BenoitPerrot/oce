@@ -30,9 +30,9 @@
 //#include <ShapeUpgrade_SupportModification.hxx>
 #include <Draw_Interpretor.hxx>
 #include <DrawTrSurf.hxx>
-#include <Geom_Curve.hxx>
-#include <Geom_Plane.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <Geom2d_Curve.hxx>
 #include <TColGeom_HArray1OfCurve.hxx>
 #include <TColGeom_HArray2OfSurface.hxx>
@@ -61,12 +61,12 @@
 //#include <ShapeUpgrade_ShellSewing.hxx>
 #include <Geom2d_Curve.hxx>
 #include <Geom2d_OffsetCurve.hxx>
-#include <Geom_OffsetCurve.hxx>
+#include <Geometry/Geom/Geom_OffsetCurve.hxx>
 #include <ShapeUpgrade_SplitCurve3dContinuity.hxx>
 #include <TopoDS_Iterator.hxx>
 #include <BRep_Tool.hxx>
 #include <ShapeExtend_CompositeSurface.hxx>
-#include <Geom_RectangularTrimmedSurface.hxx>
+#include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
 #include <TColGeom_HArray2OfSurface.hxx>
 #include <ShapeFix_ComposeShell.hxx>
 #include <Precision.hxx>

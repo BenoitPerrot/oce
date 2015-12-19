@@ -29,7 +29,7 @@
 
 #include <NLPlate_ListIteratorOfStackOfPlate.hxx>
 
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <NLPlate_HGPPConstraint.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Mathematics/Primitives/gp_XY.hxx>

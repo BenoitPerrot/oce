@@ -24,8 +24,8 @@
 #include <BRep_Builder.hxx>
 #include <BRep_Tool.hxx>
 #include <BRepTools_ShapeSet.hxx>
-#include <Geom_Curve.hxx>
-#include <Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Edge.hxx>

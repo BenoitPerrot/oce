@@ -15,10 +15,10 @@
 // commercial license or contractual agreement.
 
 #include <TopoDS_Face.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <TopoDS_Edge.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geom2d_Curve.hxx>
@@ -36,18 +36,18 @@ IMPLEMENT_STANDARD_RTTI(BRepTools_NurbsConvertModification)
 
 #include <BRepTools.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Geom2d_TrimmedCurve.hxx>
-#include <Geom_RectangularTrimmedSurface.hxx>
-#include <Geom_BSplineSurface.hxx>
-#include <Geom_BSplineCurve.hxx>
-#include <Geom_BezierSurface.hxx>
-#include <Geom_BezierCurve.hxx>
+#include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
+#include <Geometry/Geom/Geom_BSplineSurface.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_BezierSurface.hxx>
+#include <Geometry/Geom/Geom_BezierCurve.hxx>
 #include <Geom2d_BSplineCurve.hxx>
 #include <GeomConvert.hxx>
 #include <Geom2dConvert.hxx>
-#include <Geom_Plane.hxx>
-#include <Geom_Line.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
 #include <Geom2dAdaptor_Curve.hxx>
 #include <GeomAdaptor_Curve.hxx>
 #include <GeomAdaptor_Surface.hxx>
@@ -71,9 +71,9 @@ IMPLEMENT_STANDARD_RTTI(BRepTools_NurbsConvertModification)
 #include <ProjLib_ComputeApproxOnPolarSurface.hxx>
 #include <ElSLib.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
-#include <Geom_Circle.hxx>
-#include <Geom_Ellipse.hxx>
-#include <Geom_CylindricalSurface.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx>
+#include <Geometry/Geom/Geom_Ellipse.hxx>
+#include <Geometry/Geom/Geom_CylindricalSurface.hxx>
 
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <BRep_TEdge.hxx>

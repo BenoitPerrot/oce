@@ -93,7 +93,7 @@ private:
 };
 
 #define Item Handle(Geom_BoundedCurve)
-#define Item_hxx <Geom_BoundedCurve.hxx>
+#define Item_hxx <Geometry/Geom/Geom_BoundedCurve.hxx>
 #define TheSequence TColGeom_SequenceOfBoundedCurve
 #define TheSequence_hxx <TColGeom_SequenceOfBoundedCurve.hxx>
 #define TCollection_HSequence TColGeom_HSequenceOfBoundedCurve

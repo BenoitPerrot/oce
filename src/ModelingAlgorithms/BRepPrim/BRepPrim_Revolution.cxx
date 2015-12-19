@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geom2d_Curve.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <TopoDS_Face.hxx>
@@ -23,7 +23,7 @@
 #include <BRepPrim_Revolution.hxx>
 
 #include <Precision.hxx>
-#include <Geom_SurfaceOfRevolution.hxx>
+#include <Geometry/Geom/Geom_SurfaceOfRevolution.hxx>
 
 //=======================================================================
 //function : BRepPrim_Revolution

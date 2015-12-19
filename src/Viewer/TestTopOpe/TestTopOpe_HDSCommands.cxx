@@ -32,11 +32,11 @@
 #include <TopOpeBRepDS_Check.hxx>
 #include <TopOpeBRepDS_Dumper.hxx>
 #include <TopOpeBRepDS.hxx>
-#include <Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <BRep_Tool.hxx>
 #include <TopoDS.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <GeomAdaptor_Curve.hxx>
 #include <GeomAbs_CurveType.hxx>
 #include <GeomAdaptor_Surface.hxx>

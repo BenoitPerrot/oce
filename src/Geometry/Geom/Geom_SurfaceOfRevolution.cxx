@@ -16,8 +16,8 @@
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/Standard/Standard_RangeError.hxx>
-#include <Geom_UndefinedDerivative.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_UndefinedDerivative.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
@@ -25,8 +25,8 @@
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Mathematics/Primitives/gp_GTrsf2d.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <Geom_Geometry.hxx>
-#include <Geom_SurfaceOfRevolution.hxx>
+#include <Geometry/Geom/Geom_Geometry.hxx>
+#include <Geometry/Geom/Geom_SurfaceOfRevolution.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Geom_SurfaceOfRevolution)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -41,7 +41,7 @@ IMPLEMENT_DOWNCAST(Geom_SurfaceOfRevolution,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Geom_SurfaceOfRevolution)
 #include <Mathematics/BetaSpline/BSplSLib.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
-#include <Geom_Circle.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <Mathematics/Primitives/gp_Ax2d.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
@@ -51,7 +51,7 @@ IMPLEMENT_STANDARD_RTTI(Geom_SurfaceOfRevolution)
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Foundation/Standard/Standard_RangeError.hxx>
-#include <Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Precision.hxx>
 #define  POLES    (poles->Array2())
 #define  WEIGHTS  (weights->Array2())

@@ -21,7 +21,7 @@
 #include <TopOpeBRepDS_CurveData.hxx>
 #include <TopOpeBRepDS_PointData.hxx>
 #include <TopOpeBRepDS_ShapeData.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <TopOpeBRepDS_SurfaceExplorer.hxx>
 #include <TopOpeBRepDS_CurveExplorer.hxx>
 #include <TopOpeBRepDS_PointExplorer.hxx>
@@ -43,7 +43,7 @@
 #include <TopOpeBRepDS_define.hxx>
 
 //modified by NIZNHY-PKV Tue Oct 30 09:21:39 2001 f
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 //modified by NIZNHY-PKV Tue Oct 30 09:21:44 2001 t
 
 #ifdef OCCT_DEBUG

@@ -3,14 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Geom_HSequenceOfBSplineSurface.hxx>
+#include <Geometry/Geom/Geom_HSequenceOfBSplineSurface.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <Geom_BSplineSurface.hxx>
-#include <Geom_SequenceOfBSplineSurface.hxx>
+#include <Geometry/Geom/Geom_BSplineSurface.hxx>
+#include <Geometry/Geom/Geom_SequenceOfBSplineSurface.hxx>
 
  
 
@@ -29,11 +29,11 @@ IMPLEMENT_STANDARD_RTTI(Geom_HSequenceOfBSplineSurface)
 
 
 #define Item Handle(Geom_BSplineSurface)
-#define Item_hxx <Geom_BSplineSurface.hxx>
+#define Item_hxx <Geometry/Geom/Geom_BSplineSurface.hxx>
 #define TheSequence Geom_SequenceOfBSplineSurface
-#define TheSequence_hxx <Geom_SequenceOfBSplineSurface.hxx>
+#define TheSequence_hxx <Geometry/Geom/Geom_SequenceOfBSplineSurface.hxx>
 #define TCollection_HSequence Geom_HSequenceOfBSplineSurface
-#define TCollection_HSequence_hxx <Geom_HSequenceOfBSplineSurface.hxx>
+#define TCollection_HSequence_hxx <Geometry/Geom/Geom_HSequenceOfBSplineSurface.hxx>
 #define Handle_TCollection_HSequence Handle_Geom_HSequenceOfBSplineSurface
 #define TCollection_HSequence_Type_() Geom_HSequenceOfBSplineSurface_Type_()
 #include <Foundation/TCollection/TCollection_HSequence.gxx>

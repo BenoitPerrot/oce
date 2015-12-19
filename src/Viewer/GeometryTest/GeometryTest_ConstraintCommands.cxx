@@ -43,7 +43,7 @@
 #include <Geom2dAPI_Interpolate.hxx>
 #include <Draw_Marker2D.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
-#include <Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt2d.hxx>
 #include <Geom2d_BSplineCurve.hxx>
 #include <DrawTrSurf_BSplineCurve.hxx>

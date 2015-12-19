@@ -16,10 +16,10 @@
 
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <TopoDS_Face.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <TopoDS_Edge.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geom2d_Curve.hxx>
@@ -35,8 +35,8 @@ IMPLEMENT_STANDARD_TYPE_END(BRepTools_TrsfModification)
 IMPLEMENT_DOWNCAST(BRepTools_TrsfModification,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BRepTools_TrsfModification)
 
-#include <Geom_Line.hxx>
-#include <Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Geom2d_TrimmedCurve.hxx>
 #include <BRep_Tool.hxx>
 #include <Mathematics/Primitives/gp_GTrsf2d.hxx>

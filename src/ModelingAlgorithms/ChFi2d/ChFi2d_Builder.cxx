@@ -63,11 +63,11 @@
 
 #include <GccEnt_Position.hxx>
 
-#include <Geom_Circle.hxx>
-#include <Geom_Curve.hxx>
-#include <Geom_Line.hxx>
-#include <Geom_Plane.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 
 
 #include <Geom2d_TrimmedCurve.hxx>

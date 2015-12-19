@@ -13,7 +13,7 @@
 
 //abv 06.01.99 fix of misprint
 //:p6 abv 26.02.99: make ConvertToPeriodic() return Null if nothing done
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <ShapeCustom_Surface.hxx>
 
 #include <Mathematics/Primitives/gp_Ax3.hxx>
@@ -29,14 +29,14 @@
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 
-#include <Geom_Curve.hxx>
-#include <Geom_Plane.hxx>
-#include <Geom_BSplineSurface.hxx>
-#include <Geom_BezierSurface.hxx>
-#include <Geom_SphericalSurface.hxx>
-#include <Geom_CylindricalSurface.hxx>
-#include <Geom_ConicalSurface.hxx>
-#include <Geom_ToroidalSurface.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_BSplineSurface.hxx>
+#include <Geometry/Geom/Geom_BezierSurface.hxx>
+#include <Geometry/Geom/Geom_SphericalSurface.hxx>
+#include <Geometry/Geom/Geom_CylindricalSurface.hxx>
+#include <Geometry/Geom/Geom_ConicalSurface.hxx>
+#include <Geometry/Geom/Geom_ToroidalSurface.hxx>
 #include <GeomAdaptor_HSurface.hxx>
 #include <GeomAdaptor_Surface.hxx>
 #include <GeomAbs_SurfaceType.hxx>

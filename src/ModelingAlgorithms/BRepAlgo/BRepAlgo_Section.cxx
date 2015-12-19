@@ -16,15 +16,15 @@
 
 #include <TopoDS_Shape.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <BRepAlgo_Section.hxx>
 #include <BRepLib_MakeShell.hxx>
 #include <BRepLib_MakeFace.hxx>
 #include <TopoDS.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 #include <TopOpeBRepDS_HDataStructure.hxx>
-#include <Geom_Plane.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <BRep_Builder.hxx>
 #include <BRep_Tool.hxx>
 #include <TopOpeBRepBuild_HBuilder.hxx>

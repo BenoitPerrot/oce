@@ -40,7 +40,7 @@ IMPLEMENT_STANDARD_RTTI(TDataXtd_Point)
 #include <TopAbs.hxx>
 #include <BRepLib_MakeVertex.hxx>
 
-#include <Geom_CartesianPoint.hxx>
+#include <Geometry/Geom/Geom_CartesianPoint.hxx>
 
 #include <BRep_Tool.hxx>
 

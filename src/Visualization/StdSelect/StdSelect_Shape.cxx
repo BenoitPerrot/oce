@@ -17,7 +17,7 @@
 #include <TopoDS_Shape.hxx>
 #include <Prs3d_Presentation.hxx>
 #include <Prs3d_Projector.hxx>
-#include <Geom_Transformation.hxx>
+#include <Geometry/Geom/Geom_Transformation.hxx>
 #include <StdSelect_Shape.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StdSelect_Shape)

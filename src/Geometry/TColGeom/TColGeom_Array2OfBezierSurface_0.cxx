@@ -9,11 +9,11 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
-#include <Geom_BezierSurface.hxx>
+#include <Geometry/Geom/Geom_BezierSurface.hxx>
  
 
 #define Array2Item Handle(Geom_BezierSurface)
-#define Array2Item_hxx <Geom_BezierSurface.hxx>
+#define Array2Item_hxx <Geometry/Geom/Geom_BezierSurface.hxx>
 #define TCollection_Array2 TColGeom_Array2OfBezierSurface
 #define TCollection_Array2_hxx <TColGeom_Array2OfBezierSurface.hxx>
 #include <Foundation/TCollection/TCollection_Array2.gxx>

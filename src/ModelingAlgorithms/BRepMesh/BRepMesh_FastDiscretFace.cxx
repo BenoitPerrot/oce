@@ -30,8 +30,8 @@
 #include <BRep_Tool.hxx>
 
 #include <GeomLib.hxx>
-#include <Geom_Surface.hxx>
-#include <Geom_BSplineSurface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <Geometry/GCPnts/GCPnts_TangentialDeflection.hxx>
 
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>

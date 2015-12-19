@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <GeomFill_Generator.hxx>
@@ -25,8 +25,8 @@
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 
-#include <Geom_BSplineCurve.hxx>
-#include <Geom_BSplineSurface.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_BSplineSurface.hxx>
 
 //=======================================================================
 //function : GeomFill_Generator

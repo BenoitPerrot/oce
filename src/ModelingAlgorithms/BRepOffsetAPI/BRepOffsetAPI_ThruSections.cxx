@@ -47,7 +47,7 @@
 #include <TopoDS_Wire.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <TopoDS_Shape.hxx>
-#include <Geom_BSplineSurface.hxx>
+#include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <TopTools_Array1OfShape.hxx>
 #include <BRepOffsetAPI_ThruSections.hxx>
 
@@ -60,11 +60,11 @@
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 
 #include <GeomAbs_Shape.hxx>
-#include <Geom_Curve.hxx>
-#include <Geom_BSplineSurface.hxx>
-#include <Geom_TrimmedCurve.hxx>
-#include <Geom_BezierCurve.hxx>
-#include <Geom_Conic.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_BSplineSurface.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_BezierCurve.hxx>
+#include <Geometry/Geom/Geom_Conic.hxx>
 #include <Geom2d_Line.hxx>
 #include <GeomFill_Line.hxx>
 #include <GeomFill_AppSurf.hxx>
@@ -72,7 +72,7 @@
 #include <GeomConvert_CompCurveToBSplineCurve.hxx>
 #include <GeomConvert.hxx>
 #include <GeomConvert_ApproxCurve.hxx>
-#include <Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 
 #include <TopAbs.hxx>

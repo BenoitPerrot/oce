@@ -27,7 +27,7 @@
 
 #include <Draft_Modification.hxx>
 #include <TopoDS.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 
 #include <TopTools_ListIteratorOfListOfShape.hxx>

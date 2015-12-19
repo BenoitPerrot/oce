@@ -26,7 +26,7 @@
 #include <ElCLib.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <Geom_UndefinedDerivative.hxx>
+#include <Geometry/Geom/Geom_UndefinedDerivative.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Precision.hxx>
@@ -38,8 +38,8 @@
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
-#include <Geom_BSplineCurve.hxx>
-#include <Geom_BezierCurve.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_BezierCurve.hxx>
 #include <Geom2d_BSplineCurve.hxx>
 #include <Geom2d_BezierCurve.hxx>
 

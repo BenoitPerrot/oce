@@ -48,13 +48,13 @@
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 
-#include <Geom_Surface.hxx>
-#include <Geom_SurfaceOfRevolution.hxx>
-#include <Geom_RectangularTrimmedSurface.hxx>
-#include <Geom_Plane.hxx>
-#include <Geom_Curve.hxx>
-#include <Geom_BezierCurve.hxx>
-#include <Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_SurfaceOfRevolution.hxx>
+#include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_BezierCurve.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Geom2d_Line.hxx>
 #include <Geom2d_Curve.hxx>
 #include <Geom2d_TrimmedCurve.hxx>

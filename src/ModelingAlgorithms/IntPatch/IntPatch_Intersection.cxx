@@ -185,16 +185,16 @@ void IntPatch_Intersection::Perform(const Handle(Adaptor3d_HSurface)&  S1,
 #include <GeomAdaptor_Curve.hxx>
 #include <GeomAdaptor_Surface.hxx>
 #include <GeomAdaptor_HSurface.hxx>
-#include <Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
 #include <ProjLib_ProjectOnPlane.hxx>
 #include <GeomProjLib.hxx>
 #include <ElCLib.hxx>
-#include <Geom_TrimmedCurve.hxx>
-#include <Geom_Surface.hxx>
-#include <Geom_SurfaceOfLinearExtrusion.hxx>
-#include <Geom_OffsetSurface.hxx>
-#include <Geom_SurfaceOfRevolution.hxx>
-#include <Geom_RectangularTrimmedSurface.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_SurfaceOfLinearExtrusion.hxx>
+#include <Geometry/Geom/Geom_OffsetSurface.hxx>
+#include <Geometry/Geom/Geom_SurfaceOfRevolution.hxx>
+#include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
 
 //===============================================================
 //function: FUN_GetMinMaxXYZPnt

@@ -36,7 +36,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_ConvertCurve2dToBezier)
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Geom2d_BSplineCurve.hxx>
 #include <Geom2d_Conic.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geom2dConvert_ApproxCurve.hxx>
 #include <Geom2dConvert.hxx>
 #include <Geom2dConvert_BSplineCurveToBezierCurve.hxx>

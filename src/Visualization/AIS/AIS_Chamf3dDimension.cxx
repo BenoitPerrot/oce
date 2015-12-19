@@ -24,7 +24,7 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Prs3d_Presentation.hxx>
 #include <Prs3d_Projector.hxx>
-#include <Geom_Transformation.hxx>
+#include <Geometry/Geom/Geom_Transformation.hxx>
 #include <SelectMgr_Selection.hxx>
 #include <AIS_Chamf3dDimension.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -63,7 +63,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_Chamf3dDimension)
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 
-#include <Geom_Line.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
 
 #include <ElCLib.hxx>
 

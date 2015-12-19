@@ -44,11 +44,11 @@
 #include <GeomFill_SimpleBound.hxx>
 #include <GeomFill_ConstrainedFilling.hxx>
 #include <Geom2d_Curve.hxx>
-#include <Geom_Curve.hxx>
-#include <Geom_TrimmedCurve.hxx>
-#include <Geom_Surface.hxx>
-#include <Geom_BezierCurve.hxx>
-#include <Geom_Circle.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_BezierCurve.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx>
 #include <GeomAdaptor_Curve.hxx>
 #include <GeomAdaptor_Surface.hxx>
 #include <GeomAdaptor_HSurface.hxx>

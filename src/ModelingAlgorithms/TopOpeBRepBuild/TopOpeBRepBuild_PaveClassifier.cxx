@@ -23,7 +23,7 @@
 #include <TopoDS_Vertex.hxx>
 #include <BRep_Tool.hxx>
 #include <ElCLib.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <Precision.hxx>
 #include <TopExp.hxx>
 

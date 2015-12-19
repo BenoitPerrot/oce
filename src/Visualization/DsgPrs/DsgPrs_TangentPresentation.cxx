@@ -28,7 +28,7 @@
 #include <Prs3d_DimensionAspect.hxx>
 #include <Graphic3d_AspectLine3d.hxx>
 #include <Prs3d_PointAspect.hxx>
-#include <Geom_CartesianPoint.hxx>
+#include <Geometry/Geom/Geom_CartesianPoint.hxx>
 #include <StdPrs_Point.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Prs3d_Arrow.hxx>

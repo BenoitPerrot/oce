@@ -19,10 +19,10 @@
 //    rln 02.06.99 removing #include <StepToGeom_CheckSurfaceClosure.hxx>
 
 #include <StepGeom_BoundedSurface.hxx>
-#include <Geom_BoundedSurface.hxx>
+#include <Geometry/Geom/Geom_BoundedSurface.hxx>
 #include <StepToGeom_MakeBoundedSurface.hxx>
 
-#include <Geom_BSplineSurface.hxx>
+#include <Geometry/Geom/Geom_BSplineSurface.hxx>
 
 //rln 02.06.99 #include <StepToGeom_CheckSurfaceClosure.hxx>
 

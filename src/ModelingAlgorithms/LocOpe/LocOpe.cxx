@@ -30,7 +30,7 @@
 #include <BRepAdaptor_HSurface.hxx>
 #include <BRepAdaptor_HCurve2d.hxx>
 #include <Geom2dInt_GInter.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 
 #include <TopTools_MapOfShape.hxx>
 

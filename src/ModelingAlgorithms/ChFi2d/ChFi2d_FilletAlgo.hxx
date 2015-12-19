@@ -20,7 +20,7 @@
 #include <TopoDS_Wire.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geom2d_Curve.hxx>
-#include <Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
 #include <Foundation/TColStd/TColStd_ListOfReal.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>

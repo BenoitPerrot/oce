@@ -17,7 +17,7 @@
 //:p0 abv 19.02.99: management of 'done' flag improved
 
 #include <StepGeom_ElementarySurface.hxx>
-#include <Geom_ElementarySurface.hxx>
+#include <Geometry/Geom/Geom_ElementarySurface.hxx>
 #include <StepToGeom_MakeElementarySurface.hxx>
 #include <StepGeom_ElementarySurface.hxx>
 #include <StepGeom_CylindricalSurface.hxx>

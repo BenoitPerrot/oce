@@ -20,48 +20,48 @@
 
 #include <GeomToIGES_GeomEntity.hxx>
 #include <IGESData_IGESEntity.hxx>
-#include <Geom_Surface.hxx>
-#include <Geom_BoundedSurface.hxx>
-#include <Geom_BSplineSurface.hxx>
-#include <Geom_BezierSurface.hxx>
-#include <Geom_RectangularTrimmedSurface.hxx>
-#include <Geom_ElementarySurface.hxx>
-#include <Geom_Plane.hxx>
-#include <Geom_CylindricalSurface.hxx>
-#include <Geom_ConicalSurface.hxx>
-#include <Geom_SphericalSurface.hxx>
-#include <Geom_ToroidalSurface.hxx>
-#include <Geom_SweptSurface.hxx>
-#include <Geom_SurfaceOfLinearExtrusion.hxx>
-#include <Geom_SurfaceOfRevolution.hxx>
-#include <Geom_OffsetSurface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_BoundedSurface.hxx>
+#include <Geometry/Geom/Geom_BSplineSurface.hxx>
+#include <Geometry/Geom/Geom_BezierSurface.hxx>
+#include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
+#include <Geometry/Geom/Geom_ElementarySurface.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_CylindricalSurface.hxx>
+#include <Geometry/Geom/Geom_ConicalSurface.hxx>
+#include <Geometry/Geom/Geom_SphericalSurface.hxx>
+#include <Geometry/Geom/Geom_ToroidalSurface.hxx>
+#include <Geometry/Geom/Geom_SweptSurface.hxx>
+#include <Geometry/Geom/Geom_SurfaceOfLinearExtrusion.hxx>
+#include <Geometry/Geom/Geom_SurfaceOfRevolution.hxx>
+#include <Geometry/Geom/Geom_OffsetSurface.hxx>
 #include <GeomToIGES_GeomSurface.hxx>
 #include <GeomToIGES_GeomCurve.hxx>
 #include <GeomToIGES_GeomPoint.hxx>
 #include <GeomToIGES_GeomVector.hxx>
 
-#include <Geom_BSplineSurface.hxx>
-#include <Geom_BezierSurface.hxx>
-#include <Geom_BoundedSurface.hxx>
-#include <Geom_CartesianPoint.hxx>
-#include <Geom_ConicalSurface.hxx>
-#include <Geom_Circle.hxx>
-#include <Geom_Curve.hxx>
-#include <Geom_CylindricalSurface.hxx>
-#include <Geom_Curve.hxx>
-#include <Geom_Direction.hxx>
-#include <Geom_Geometry.hxx>
-#include <Geom_Line.hxx>
-#include <Geom_OffsetSurface.hxx>
-#include <Geom_Plane.hxx>
-#include <Geom_Point.hxx>
-#include <Geom_RectangularTrimmedSurface.hxx>
-#include <Geom_SphericalSurface.hxx>
-#include <Geom_Surface.hxx>
-#include <Geom_SurfaceOfLinearExtrusion.hxx>
-#include <Geom_SurfaceOfRevolution.hxx>
-#include <Geom_SweptSurface.hxx>
-#include <Geom_ToroidalSurface.hxx>
+#include <Geometry/Geom/Geom_BSplineSurface.hxx>
+#include <Geometry/Geom/Geom_BezierSurface.hxx>
+#include <Geometry/Geom/Geom_BoundedSurface.hxx>
+#include <Geometry/Geom/Geom_CartesianPoint.hxx>
+#include <Geometry/Geom/Geom_ConicalSurface.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_CylindricalSurface.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Direction.hxx>
+#include <Geometry/Geom/Geom_Geometry.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
+#include <Geometry/Geom/Geom_OffsetSurface.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Point.hxx>
+#include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
+#include <Geometry/Geom/Geom_SphericalSurface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_SurfaceOfLinearExtrusion.hxx>
+#include <Geometry/Geom/Geom_SurfaceOfRevolution.hxx>
+#include <Geometry/Geom/Geom_SweptSurface.hxx>
+#include <Geometry/Geom/Geom_ToroidalSurface.hxx>
 
 #include <GeomConvert.hxx>
 
@@ -114,7 +114,7 @@
 #include <IGESSolid_ConicalSurface.hxx>
 #include <IGESSolid_SphericalSurface.hxx>
 #include <IGESSolid_ToroidalSurface.hxx>
-#include <Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 
 
 //=============================================================================

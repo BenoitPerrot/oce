@@ -47,18 +47,18 @@ IMPLEMENT_STANDARD_RTTI(TDataXtd_Geometry)
 #include <TopAbs.hxx>
 #include <BRep_Tool.hxx>
 
-#include <Geom_CartesianPoint.hxx>
+#include <Geometry/Geom/Geom_CartesianPoint.hxx>
 
-#include <Geom_TrimmedCurve.hxx>
-#include <Geom_Curve.hxx>
-#include <Geom_Line.hxx>
-#include <Geom_Ellipse.hxx>
-#include <Geom_Circle.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
+#include <Geometry/Geom/Geom_Ellipse.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 
-#include <Geom_RectangularTrimmedSurface.hxx>
-#include <Geom_Plane.hxx>
-#include <Geom_CylindricalSurface.hxx>
+#include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_CylindricalSurface.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
 
 

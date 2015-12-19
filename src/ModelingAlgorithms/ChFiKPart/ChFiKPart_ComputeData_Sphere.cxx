@@ -31,9 +31,9 @@
 #include <Geometry/gce/gce_MakeCirc.hxx>
 #include <Geom2d_Curve.hxx>
 #include <Geom2d_Line.hxx>
-#include <Geom_Curve.hxx>
-#include <Geom_Circle.hxx>
-#include <Geom_SphericalSurface.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx>
+#include <Geometry/Geom/Geom_SphericalSurface.hxx>
 #include <ElSLib.hxx>
 #include <GeomAdaptor_Curve.hxx>
 #include <GeomAdaptor_Surface.hxx>

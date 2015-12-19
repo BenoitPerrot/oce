@@ -25,7 +25,7 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <TopoDS_Face.hxx>
 #include <BRepIntCurveSurface_Inter.hxx>
-#include <Geom_Line.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
 #include <TopAbs_ShapeEnum.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Face.hxx>

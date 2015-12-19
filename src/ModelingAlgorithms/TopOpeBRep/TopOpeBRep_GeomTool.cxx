@@ -18,7 +18,7 @@
 #include <TopoDS_Shape.hxx>
 #include <TopOpeBRepDS_Curve.hxx>
 #include <Geom2d_Curve.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <TopOpeBRep_GeomTool.hxx>
 
 #include <BRep_Tool.hxx>

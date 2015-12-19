@@ -46,16 +46,16 @@ static BRepOffsetAPI_MakePipeShell* Sweep= 0;
 
 //#ifdef WNT
 #include <stdio.h>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <GeomAdaptor_HCurve.hxx>
 #include <GeomFill_Pipe.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <BRepLib_MakeFace.hxx>
 #include <BRep_Tool.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 //#endi#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <Geom_Circle.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>
 
 

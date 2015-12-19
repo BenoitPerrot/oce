@@ -17,7 +17,7 @@
 #include <Prs3d_Presentation.hxx>
 #include <Prs3d_Drawer.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
 #include <DsgPrs_EqualDistancePresentation.hxx>

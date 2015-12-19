@@ -24,7 +24,7 @@
 #include <ChFiDS_Spine.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <TopTools_ListOfShape.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <ChFiDS_SurfData.hxx>
 #include <ChFiDS_HElSpine.hxx>
 #include <BRepAdaptor_HSurface.hxx>
@@ -69,9 +69,9 @@
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <GeomLib.hxx>
 #include <Geometry/Extrema/Extrema_ExtPC.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geom2d_Curve.hxx>
-#include <Geom_BoundedCurve.hxx>
+#include <Geometry/Geom/Geom_BoundedCurve.hxx>
 
 #include <Geom2dAdaptor_HCurve.hxx>
 #include <GeomAbs_Shape.hxx>

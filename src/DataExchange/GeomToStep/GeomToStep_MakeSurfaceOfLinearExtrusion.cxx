@@ -16,12 +16,12 @@
 
 #include <StepGeom_SurfaceOfLinearExtrusion.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <Geom_SurfaceOfLinearExtrusion.hxx>
+#include <Geometry/Geom/Geom_SurfaceOfLinearExtrusion.hxx>
 #include <GeomToStep_MakeSurfaceOfLinearExtrusion.hxx>
 #include <GeomToStep_MakeVector.hxx>
 #include <GeomToStep_MakeCurve.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <Geom_SurfaceOfLinearExtrusion.hxx>
+#include <Geometry/Geom/Geom_SurfaceOfLinearExtrusion.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <StepGeom_SurfaceOfLinearExtrusion.hxx>
 #include <StepGeom_Curve.hxx>

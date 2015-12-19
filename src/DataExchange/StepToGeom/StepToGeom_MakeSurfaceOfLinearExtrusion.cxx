@@ -17,14 +17,14 @@
 // sln 23.10.2001. CTS23496: Surface is not created if extrusion axis have not been succesfully created (StepToGeom_MakeSurfaceOfLinearExtrusion(...) function)
 
 #include <StepGeom_SurfaceOfLinearExtrusion.hxx>
-#include <Geom_SurfaceOfLinearExtrusion.hxx>
+#include <Geometry/Geom/Geom_SurfaceOfLinearExtrusion.hxx>
 #include <StepToGeom_MakeSurfaceOfLinearExtrusion.hxx>
 #include <StepGeom_SurfaceOfLinearExtrusion.hxx>
-#include <Geom_SurfaceOfLinearExtrusion.hxx>
-#include <Geom_VectorWithMagnitude.hxx>
+#include <Geometry/Geom/Geom_SurfaceOfLinearExtrusion.hxx>
+#include <Geometry/Geom/Geom_VectorWithMagnitude.hxx>
 #include <StepToGeom_MakeVectorWithMagnitude.hxx>
-#include <Geom_Curve.hxx>
-#include <Geom_Line.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
 #include <StepToGeom_MakeCurve.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>

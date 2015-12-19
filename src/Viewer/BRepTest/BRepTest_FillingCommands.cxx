@@ -63,7 +63,7 @@
 #include <BRepFill_CurveConstraint.hxx>
 #include <GeomPlate_PointConstraint.hxx>
 #include <GeomAdaptor_HSurface.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 
 #include <TopoDS_Wire.hxx>
 #include <BRepLib_MakeEdge.hxx>
@@ -78,7 +78,7 @@
 #include <AdvApprox_Cutting.hxx>
 #include <AdvApprox_DichoCutting.hxx>
 
-#include <Geom_BSplineSurface.hxx>
+#include <Geometry/Geom/Geom_BSplineSurface.hxx>
 
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
@@ -91,7 +91,7 @@
 
 #include <Geometry/Extrema/Extrema_ExtPS.hxx>
 #include <Geometry/Extrema/Extrema_POnSurf.hxx>
-#include <Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
 #include <BRepOffsetAPI_MakeFilling.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Geom2d_TrimmedCurve.hxx>
@@ -104,7 +104,7 @@
 // pour mes tests
 #ifdef OCCT_DEBUG
 #include <Foundation/OSD/OSD_Chronometer.hxx>
-#include <Geom_Line.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
 #endif
 
 const Standard_Integer defDegree = 3;

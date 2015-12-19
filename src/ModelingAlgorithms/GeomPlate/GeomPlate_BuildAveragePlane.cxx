@@ -24,8 +24,8 @@
 
 
 #include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
-#include <Geom_Plane.hxx>
-#include <Geom_Line.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfVec.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
@@ -42,7 +42,7 @@
 #include <Mathematics/Primitives/gp_Ax3.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <ElSLib.hxx>
-#include <Geom_Line.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Mathematics/Primitives/gp_Lin2d.hxx>

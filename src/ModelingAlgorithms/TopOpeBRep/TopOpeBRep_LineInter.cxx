@@ -24,7 +24,7 @@
 #include <TopoDS_Face.hxx>
 #include <TopOpeBRep_VPointInter.hxx>
 #include <TopOpeBRep_WPointInter.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopOpeBRepDS_Transition.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
@@ -37,12 +37,12 @@
 #include <TopOpeBRep_FFTransitionTool.hxx>
 
 #include <IntPatch_IType.hxx>
-#include <Geom_Line.hxx>
-#include <Geom_Circle.hxx>
-#include <Geom_Ellipse.hxx>
-#include <Geom_Parabola.hxx>
-#include <Geom_Hyperbola.hxx>
-#include <Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx>
+#include <Geometry/Geom/Geom_Ellipse.hxx>
+#include <Geometry/Geom/Geom_Parabola.hxx>
+#include <Geometry/Geom/Geom_Hyperbola.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <IntPatch_ALineToWLine.hxx>
 #include <IntSurf_Quadric.hxx>
 #include <GeomAbs_SurfaceType.hxx> 

@@ -16,18 +16,18 @@
 #include <ShapeAlgo_ToolContainer.hxx>
 #include <ShapeAnalysis_Wire.hxx>
 #include <ShapeExtend_WireData.hxx>
-#include <Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <TColGeom_SequenceOfCurve.hxx>
 #include <Geom2d_BSplineCurve.hxx>
 #include <TColGeom2d_SequenceOfCurve.hxx>
 #include <TColGeom_HSequenceOfBoundedCurve.hxx>
 #include <TColGeom2d_HSequenceOfBoundedCurve.hxx>
 #include <TopoDS_Shape.hxx>
-#include <Geom_BSplineSurface.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_BSplineSurface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <TopoDS_Wire.hxx>
 #include <TopoDS_Face.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <ShapeAlgo_AlgoContainer.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeAlgo_AlgoContainer)

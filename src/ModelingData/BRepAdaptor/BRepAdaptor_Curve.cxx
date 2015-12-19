@@ -33,14 +33,14 @@
 #include <Mathematics/Primitives/gp_Elips.hxx>
 #include <Mathematics/Primitives/gp_Hypr.hxx>
 #include <Mathematics/Primitives/gp_Parab.hxx>
-#include <Geom_BezierCurve.hxx>
-#include <Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_BezierCurve.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <BRepAdaptor_Curve.hxx>
 
 #include <BRepAdaptor_HCurve.hxx>
 #include <BRep_Tool.hxx>
 #include <Geom2d_Curve.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <Geom2dAdaptor_HCurve.hxx>
 #include <GeomAdaptor_HSurface.hxx>
 

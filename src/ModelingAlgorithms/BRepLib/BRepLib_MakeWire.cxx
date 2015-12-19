@@ -31,7 +31,7 @@
 #include <TopoDS.hxx>
 #include <TopoDS_Iterator.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 
 

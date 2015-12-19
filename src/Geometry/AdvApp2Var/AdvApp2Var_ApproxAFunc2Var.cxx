@@ -40,7 +40,7 @@
 
 #include <Mathematics/Convert/Convert_GridPolynomialToPoles.hxx>
 
-#include <Geom_BezierSurface.hxx>
+#include <Geometry/Geom/Geom_BezierSurface.hxx>
 
 
 //=======================================================================

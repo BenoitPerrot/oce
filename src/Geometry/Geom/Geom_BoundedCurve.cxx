@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Geom_BoundedCurve.hxx>
+#include <Geometry/Geom/Geom_BoundedCurve.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Geom_BoundedCurve)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

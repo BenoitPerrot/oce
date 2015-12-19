@@ -18,7 +18,7 @@
 //:p0 abv 19.02.99: management of 'done' flag improved; trimmed_curve treated
 
 #include <StepGeom_BoundedCurve.hxx>
-#include <Geom_BoundedCurve.hxx>
+#include <Geometry/Geom/Geom_BoundedCurve.hxx>
 #include <StepToGeom_MakeBoundedCurve.hxx>
 
 #include <StepGeom_BSplineCurveWithKnotsAndRationalBSplineCurve.hxx>

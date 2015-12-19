@@ -29,15 +29,15 @@ IMPLEMENT_STANDARD_TYPE_END(DrawDim_Radius)
 IMPLEMENT_DOWNCAST(DrawDim_Radius,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(DrawDim_Radius)
 #include <BRepAdaptor_Surface.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
 #include <BRepAdaptor_Surface.hxx>
 #include <Geometry/GC/GC_MakeCircle.hxx>
 #include <TopoDS.hxx>
-#include <Geom_ToroidalSurface.hxx>
-#include <Geom_Curve.hxx>
-#include <Geom_Circle.hxx>
+#include <Geometry/Geom/Geom_ToroidalSurface.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx>
 
 //=======================================================================
 //function : DrawDim_Radius

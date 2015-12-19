@@ -14,10 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Geom_OffsetCurve.hxx>
+#include <Geometry/Geom/Geom_OffsetCurve.hxx>
 #include <TopoDS_Shape.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <AIS_EllipseRadiusDimension.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_EllipseRadiusDimension)
@@ -43,16 +43,16 @@ IMPLEMENT_STANDARD_RTTI(AIS_EllipseRadiusDimension)
 #include <BRepAdaptor_Surface.hxx>
 #include <BRepAdaptor_Curve.hxx>
 
-#include <Geom_Ellipse.hxx>
-#include <Geom_TrimmedCurve.hxx>
-#include <Geom_Plane.hxx>
-#include <Geom_Surface.hxx>
-#include <Geom_CylindricalSurface.hxx>
-#include <Geom_SurfaceOfRevolution.hxx>
-#include <Geom_CylindricalSurface.hxx>
-#include <Geom_SurfaceOfLinearExtrusion.hxx>
+#include <Geometry/Geom/Geom_Ellipse.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_CylindricalSurface.hxx>
+#include <Geometry/Geom/Geom_SurfaceOfRevolution.hxx>
+#include <Geometry/Geom/Geom_CylindricalSurface.hxx>
+#include <Geometry/Geom/Geom_SurfaceOfLinearExtrusion.hxx>
 #include <GeomAPI_ExtremaCurveCurve.hxx>
-#include <Geom_Line.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
 #include <GeomAPI.hxx>
 
 #include <Mathematics/Primitives/gp_Pln.hxx>

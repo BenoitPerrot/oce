@@ -9,11 +9,11 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
  
 
 #define Array1Item Handle(Geom_BSplineCurve)
-#define Array1Item_hxx <Geom_BSplineCurve.hxx>
+#define Array1Item_hxx <Geometry/Geom/Geom_BSplineCurve.hxx>
 #define TCollection_Array1 TColGeom_Array1OfBSplineCurve
 #define TCollection_Array1_hxx <TColGeom_Array1OfBSplineCurve.hxx>
 #include <Foundation/TCollection/TCollection_Array1.gxx>

@@ -15,9 +15,9 @@
 // commercial license or contractual agreement.
 
 #include <GeomFill_LocationLaw.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <Geom_Geometry.hxx>
+#include <Geometry/Geom/Geom_Geometry.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Mathematics/Primitives/gp_Mat.hxx>
@@ -25,7 +25,7 @@
 #include <GeomFill_SectionPlacement.hxx>
 
 #include <GeomLib.hxx>
-#include <Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
 #include <GeomLProp_CLProps.hxx>
 #include <GeomAbs_CurveType.hxx> 
 #include <GeomAdaptor_HSurface.hxx>
@@ -46,13 +46,13 @@
 #include <IntCurveSurface_HInter.hxx>
 #include <IntCurveSurface_IntersectionPoint.hxx>
 
-#include <Geom_BSplineCurve.hxx>
-#include <Geom_TrimmedCurve.hxx>
-#include <Geom_Line.hxx>
-#include <Geom_Conic.hxx>
-#include <Geom_BezierCurve.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
+#include <Geometry/Geom/Geom_Conic.hxx>
+#include <Geometry/Geom/Geom_BezierCurve.hxx>
 
-#include <Geom_CartesianPoint.hxx>
+#include <Geometry/Geom/Geom_CartesianPoint.hxx>
 
 
 //===============================================================

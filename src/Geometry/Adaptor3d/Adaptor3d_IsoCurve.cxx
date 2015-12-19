@@ -24,14 +24,14 @@
 #include <Mathematics/Primitives/gp_Elips.hxx>
 #include <Mathematics/Primitives/gp_Hypr.hxx>
 #include <Mathematics/Primitives/gp_Parab.hxx>
-#include <Geom_BezierCurve.hxx>
-#include <Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_BezierCurve.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_IsoCurve.hxx>
 
 #include <Geometry/Adaptor3d/Adaptor3d_HIsoCurve.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HSurfaceOfRevolution.hxx>
-#include <Geom_BezierSurface.hxx>
-#include <Geom_BSplineSurface.hxx>
+#include <Geometry/Geom/Geom_BezierSurface.hxx>
+#include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <GeomAbs_SurfaceType.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>

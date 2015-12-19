@@ -9,11 +9,11 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
  
 
 #define Array1Item Handle(Geom_Surface)
-#define Array1Item_hxx <Geom_Surface.hxx>
+#define Array1Item_hxx <Geometry/Geom/Geom_Surface.hxx>
 #define TCollection_Array1 TColGeom_Array1OfSurface
 #define TCollection_Array1_hxx <TColGeom_Array1OfSurface.hxx>
 #include <Foundation/TCollection/TCollection_Array1.gxx>

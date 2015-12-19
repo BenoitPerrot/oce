@@ -15,11 +15,11 @@
 // commercial license or contractual agreement.
 
 #include <StepGeom_Circle.hxx>
-#include <Geom_Circle.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx>
 #include <StepToGeom_MakeCircle.hxx>
 #include <StepGeom_Circle.hxx>
 #include <StepGeom_Axis2Placement3d.hxx>
-#include <Geom_Axis2Placement.hxx>
+#include <Geometry/Geom/Geom_Axis2Placement.hxx>
 #include <StepToGeom_MakeAxis2Placement.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <UnitsMethods.hxx>

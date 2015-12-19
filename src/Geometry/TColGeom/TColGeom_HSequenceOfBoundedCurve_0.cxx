@@ -9,7 +9,7 @@
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <Geom_BoundedCurve.hxx>
+#include <Geometry/Geom/Geom_BoundedCurve.hxx>
 #include <TColGeom_SequenceOfBoundedCurve.hxx>
 
  
@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_RTTI(TColGeom_HSequenceOfBoundedCurve)
 
 
 #define Item Handle(Geom_BoundedCurve)
-#define Item_hxx <Geom_BoundedCurve.hxx>
+#define Item_hxx <Geometry/Geom/Geom_BoundedCurve.hxx>
 #define TheSequence TColGeom_SequenceOfBoundedCurve
 #define TheSequence_hxx <TColGeom_SequenceOfBoundedCurve.hxx>
 #define TCollection_HSequence TColGeom_HSequenceOfBoundedCurve

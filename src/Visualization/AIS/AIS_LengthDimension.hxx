@@ -18,8 +18,8 @@
 #include <AIS_Dimension.hxx>
 #include <AIS_Drawer.hxx>
 #include <AIS_KindOfDimension.hxx>
-#include <Geom_Plane.hxx>
-#include <Geom_Transformation.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Transformation.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Prs3d_DimensionAspect.hxx>

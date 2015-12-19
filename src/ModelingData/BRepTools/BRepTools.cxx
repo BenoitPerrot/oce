@@ -38,8 +38,8 @@
 #include <TopoDS_Iterator.hxx>
 #include <Geometry/BndLib/BndLib_Add2dCurve.hxx>
 #include <Geom2dAdaptor_Curve.hxx>
-#include <Geom_Surface.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geom2d_Curve.hxx>
 #include <BRepTools_MapOfVertexPnt2d.hxx>
 #include <BRep_CurveRepresentation.hxx>
@@ -62,7 +62,7 @@
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
-#include <Geom_RectangularTrimmedSurface.hxx>
+#include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
 #include <Foundation/OSD/OSD_OpenFile.hxx>
 
 #include <errno.h>

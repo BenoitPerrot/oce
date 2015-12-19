@@ -20,8 +20,8 @@
 #include <BRepLib_MakeEdge.hxx>
 #include <ElCLib.hxx>
 #include <GeomAPI_IntCS.hxx>
-#include <Geom_Circle.hxx>
-#include <Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
 #include <Geometry/gce/gce_MakeDir.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 

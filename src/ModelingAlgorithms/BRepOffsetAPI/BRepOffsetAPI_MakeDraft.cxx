@@ -15,7 +15,7 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopoDS_Shape.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <TopoDS_Shell.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <BRepOffsetAPI_MakeDraft.hxx>

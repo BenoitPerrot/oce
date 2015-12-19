@@ -16,10 +16,10 @@
 
 #include <StepGeom_BSplineSurfaceWithKnots.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <Geom_BSplineSurface.hxx>
+#include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <GeomToStep_MakeBSplineSurfaceWithKnots.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <Geom_BSplineSurface.hxx>
+#include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <StepGeom_BSplineSurfaceWithKnots.hxx>
 #include <StepGeom_CartesianPoint.hxx>
 #include <GeomToStep_MakeCartesianPoint.hxx>

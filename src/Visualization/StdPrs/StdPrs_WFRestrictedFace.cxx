@@ -20,9 +20,9 @@
 #include <Geometry/BndLib/BndLib_Add2dCurve.hxx>
 #include <Precision.hxx>
 #include <GeomAdaptor_Curve.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <GeomAbs_SurfaceType.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <StdPrs_WFRestrictedFace.hxx>
 #include <StdPrs_ToolRFace.hxx>
 #include <StdPrs_Curve.hxx>

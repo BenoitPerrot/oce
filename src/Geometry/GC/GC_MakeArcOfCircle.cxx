@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
@@ -22,7 +22,7 @@
 #include <Geometry/GC/GC_MakeArcOfCircle.hxx>
 #include <Geometry/gce/gce_MakeCirc.hxx>
 #include <Geometry/gce/gce_MakeLin.hxx>
-#include <Geom_Circle.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx>
 #include <Geometry/Extrema/Extrema_ExtElC.hxx>
 #include <Geometry/Extrema/Extrema_POnCurv.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>

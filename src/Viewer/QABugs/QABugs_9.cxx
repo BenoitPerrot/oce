@@ -26,7 +26,7 @@
 
 #include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Geom_RectangularTrimmedSurface.hxx>
+#include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
 #include <BRepLib_MakeFace.hxx>
 #include <Geometry/GC/GC_MakeTrimmedCone.hxx>
 

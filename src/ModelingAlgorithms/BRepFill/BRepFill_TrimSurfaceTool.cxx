@@ -22,7 +22,7 @@
 #include <TopoDS_Edge.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <BRepFill_TrimSurfaceTool.hxx>
 
 #include <Precision.hxx>
@@ -49,10 +49,10 @@
 #include <Geom2d_TrimmedCurve.hxx>
 #include <GeomAdaptor_Surface.hxx>
 #include <GeomAdaptor_HCurve.hxx>
-#include <Geom_Plane.hxx>
-#include <Geom_SurfaceOfRevolution.hxx>
-#include <Geom_BSplineCurve.hxx>
-#include <Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_SurfaceOfRevolution.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <GeomProjLib.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>
 #include <IntRes2d_IntersectionSegment.hxx>

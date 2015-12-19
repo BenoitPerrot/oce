@@ -40,10 +40,10 @@
 
 #include <Geom2d_Line.hxx>
 #include <Geom2d_Circle.hxx>
-#include <Geom_Line.hxx>
-#include <Geom_Circle.hxx>
-#include <Geom_ToroidalSurface.hxx>
-#include <Geom_SphericalSurface.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx>
+#include <Geometry/Geom/Geom_ToroidalSurface.hxx>
+#include <Geometry/Geom/Geom_SphericalSurface.hxx>
 
 #include <IntAna_QuadQuadGeo.hxx>
 

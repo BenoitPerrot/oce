@@ -23,18 +23,18 @@
 //              Correction de la methode D1 (D0 inutile)
 
 
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <Geom_UndefinedDerivative.hxx>
-#include <Geom_UndefinedValue.hxx>
+#include <Geometry/Geom/Geom_UndefinedDerivative.hxx>
+#include <Geometry/Geom/Geom_UndefinedValue.hxx>
 #include <Plate_Plate.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Mathematics/Primitives/gp_GTrsf2d.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <Geom_Geometry.hxx>
+#include <Geometry/Geom/Geom_Geometry.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfXY.hxx>
 #include <GeomPlate_Surface.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

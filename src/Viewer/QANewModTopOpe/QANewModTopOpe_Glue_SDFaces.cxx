@@ -35,7 +35,7 @@
 #include <QANewModTopOpe_Tools.hxx>
 #include <BRep_Builder.hxx>
 #include <BRep_Tool.hxx>
-#include <Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <GeomProjLib.hxx>
 #include <Precision.hxx>
 #include <BRepAdaptor_Surface.hxx>

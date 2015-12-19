@@ -53,9 +53,9 @@
 #include <BRep_TEdge.hxx>
 #include <BRep_TVertex.hxx>
 
-#include <Geom_BoundedSurface.hxx>
-#include <Geom_Plane.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_BoundedSurface.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <GeomAdaptor_Surface.hxx>
 #include <GeomAdaptor_HSurface.hxx>
@@ -81,8 +81,8 @@
 #include <Precision.hxx>
 
 //  Provisoire, pour VertexLoop
-#include <Geom_SphericalSurface.hxx>
-#include <Geom_ToroidalSurface.hxx>
+#include <Geometry/Geom/Geom_SphericalSurface.hxx>
+#include <Geometry/Geom/Geom_ToroidalSurface.hxx>
 #include <StepGeom_OffsetSurface.hxx> //:d4
 #include <StepGeom_BSplineSurfaceForm.hxx>
 #include <StepGeom_BSplineSurface.hxx>

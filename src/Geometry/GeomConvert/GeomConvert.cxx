@@ -16,10 +16,10 @@
 // Passage sur C1 Aout 1992 et ajout transformation Bezier->BSpline + Debug
 // Modif JCV correction bug le 2/08/1993
 
-#include <Geom_BSplineCurve.hxx>
-#include <Geom_BSplineSurface.hxx>
-#include <Geom_Curve.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_BSplineSurface.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <TColGeom_Array1OfBSplineCurve.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <TColGeom_HArray1OfBSplineCurve.hxx>
@@ -49,18 +49,18 @@
 
 #include <Geom2d_BSplineCurve.hxx>
 
-#include <Geom_Curve.hxx>
-#include <Geom_Line.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
 #include <GeomLProp.hxx>
-#include <Geom_Circle.hxx>
-#include <Geom_Ellipse.hxx>
-#include <Geom_Hyperbola.hxx>
-#include <Geom_Parabola.hxx>
-#include <Geom_Geometry.hxx>
-#include <Geom_BSplineCurve.hxx>
-#include <Geom_BezierCurve.hxx>
-#include <Geom_TrimmedCurve.hxx>
-#include <Geom_Conic.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx>
+#include <Geometry/Geom/Geom_Ellipse.hxx>
+#include <Geometry/Geom/Geom_Hyperbola.hxx>
+#include <Geometry/Geom/Geom_Parabola.hxx>
+#include <Geometry/Geom/Geom_Geometry.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_BezierCurve.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_Conic.hxx>
 #include <GeomConvert_CompCurveToBSplineCurve.hxx>
 
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
@@ -80,7 +80,7 @@
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <Geom_OffsetCurve.hxx>
+#include <Geometry/Geom/Geom_OffsetCurve.hxx>
 #include <GeomConvert_ApproxCurve.hxx>
 
 #include <ElCLib.hxx>

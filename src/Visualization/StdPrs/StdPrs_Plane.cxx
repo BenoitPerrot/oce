@@ -31,7 +31,7 @@
 #include <Prs3d_LineAspect.hxx>
 #include <Prs3d_PlaneAspect.hxx>
 #include <Prs3d.hxx>
-#include <Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
 
 
 void StdPrs_Plane::Add (const Handle (Prs3d_Presentation)& aPresentation,

@@ -46,7 +46,7 @@
 #include <Mathematics/Collections/TColgp_Array1OfVec.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfVec2d.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
-#include <Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #ifdef DRAW
 #include <DrawTrSurf.hxx>
 #endif

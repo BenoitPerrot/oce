@@ -36,7 +36,7 @@
 #include <ShapeAnalysis_Surface.hxx>
 #include <TopoDS_Wire.hxx>
 #include <TopoDS_Face.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <ShapeAnalysis_WireOrder.hxx>
 #include <Geom2d_Curve.hxx>
@@ -61,7 +61,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeAnalysis_Wire)
 
 #include <Precision.hxx>
 
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geom2d_Curve.hxx>
 #include <GeomAdaptor_HSurface.hxx>
 #include <Geom2dAdaptor_Curve.hxx>
@@ -97,7 +97,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeAnalysis_Wire)
 #include <ShapeAnalysis_Surface.hxx>
 #include <TopoDS_Wire.hxx>
 #include <ShapeAnalysis.hxx>
-#include <Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <TopoDS_Iterator.hxx>
 #include <TopTools_DataMapOfShapeListOfShape.hxx>

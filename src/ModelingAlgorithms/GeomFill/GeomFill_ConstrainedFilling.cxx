@@ -22,7 +22,7 @@
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Mathematics/Collections/TColgp_HArray2OfPnt.hxx>
-#include <Geom_BSplineSurface.hxx>
+#include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <GeomFill_Boundary.hxx>
 #include <GeomFill_BoundWithSurf.hxx>
 #include <GeomFill_ConstrainedFilling.hxx>

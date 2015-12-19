@@ -64,8 +64,8 @@
 #include <IGESBasic_SingleParent.hxx>
 
 #include <Geom2d_Curve.hxx>
-#include <Geom_Curve.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 
 #include <Precision.hxx>
 

@@ -15,14 +15,14 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <BRepPrim_Revolution.hxx>
 #include <BRepPrimAPI_MakeRevolution.hxx>
 #include <BRepBuilderAPI.hxx>
 #include <GeomProjLib.hxx>
 #include <Geom2d_Curve.hxx>
-#include <Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
 
 //=======================================================================
 //function : Project

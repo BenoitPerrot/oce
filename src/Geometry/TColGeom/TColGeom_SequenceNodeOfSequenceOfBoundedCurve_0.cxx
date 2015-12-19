@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <Geom_BoundedCurve.hxx>
+#include <Geometry/Geom/Geom_BoundedCurve.hxx>
 #include <TColGeom_SequenceOfBoundedCurve.hxx>
 
  
@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_RTTI(TColGeom_SequenceNodeOfSequenceOfBoundedCurve)
 
 
 #define SeqItem Handle(Geom_BoundedCurve)
-#define SeqItem_hxx <Geom_BoundedCurve.hxx>
+#define SeqItem_hxx <Geometry/Geom/Geom_BoundedCurve.hxx>
 #define TCollection_SequenceNode TColGeom_SequenceNodeOfSequenceOfBoundedCurve
 #define TCollection_SequenceNode_hxx <TColGeom_SequenceNodeOfSequenceOfBoundedCurve.hxx>
 #define Handle_TCollection_SequenceNode Handle_TColGeom_SequenceNodeOfSequenceOfBoundedCurve

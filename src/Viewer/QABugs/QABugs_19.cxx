@@ -392,7 +392,7 @@ static Standard_Integer OCC23774(Draw_Interpretor& di, Standard_Integer n, const
 }
 
 #include <GeomConvert_ApproxSurface.hxx>
-#include <Geom_BSplineSurface.hxx>
+#include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <Draw.hxx>
 #include <Foundation/OSD/OSD_Thread.hxx>
 static void GeomConvertTest (Draw_Interpretor& di, Standard_Integer theTargetNbUPoles, Standard_CString theFileName)
@@ -493,7 +493,7 @@ static Standard_Integer OCC23952intersect (Draw_Interpretor& di, Standard_Intege
 	return 0;
 }
 
-#include <Geom_SurfaceOfRevolution.hxx> 
+#include <Geometry/Geom/Geom_SurfaceOfRevolution.hxx> 
 static Standard_Integer OCC23683 (Draw_Interpretor& di, Standard_Integer argc,const char ** argv)
 {
   if (argc < 2) {
@@ -516,7 +516,7 @@ static Standard_Integer OCC23683 (Draw_Interpretor& di, Standard_Integer argc,co
 
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <Mathematics/Primitives/gp_Ax22d.hxx>
-#include <Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
 #include <Geom2d_Circle.hxx>
 #include <Geom2d_TrimmedCurve.hxx>
 #include <BRepLib_MakeEdge.hxx>
@@ -571,8 +571,8 @@ static int test_offset(Draw_Interpretor& di, Standard_Integer argc, const char**
   return 0;
 }
 
-#include <Geom_Curve.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <Precision.hxx>
 #include <ShapeConstruct_ProjectCurveOnSurface.hxx>
 //=======================================================================
@@ -1186,7 +1186,7 @@ static Standard_Integer OCC11758 (Draw_Interpretor& di, Standard_Integer n, cons
   return 0;
 }
 
-#include <Geom_CylindricalSurface.hxx>
+#include <Geometry/Geom/Geom_CylindricalSurface.hxx>
 #include <IntTools_FaceFace.hxx>
 #include <IntTools_Curve.hxx>
 #include <IntTools_PntOn2Faces.hxx>
@@ -1381,7 +1381,7 @@ static Standard_Integer OCC24086 (Draw_Interpretor& di, Standard_Integer argc, c
 	return 0;
 }
 
-#include <Geom_Circle.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx>
 #include <GeomAdaptor_Curve.hxx>
 #include <Geometry/Extrema/Extrema_ExtPC.hxx>
 #include <Mathematics/Primitives/gp_Cylinder.hxx>
@@ -1579,7 +1579,7 @@ static Standard_Integer OCC24271 (Draw_Interpretor& di,
         ((val1) == Standard_True ? ": OK\n" : ": Error\n")
 
 #include <GeomInt_IntSS.hxx>
-#include <Geom_ConicalSurface.hxx>
+#include <Geometry/Geom/Geom_ConicalSurface.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 //=======================================================================
 //function : OCC23972

@@ -22,8 +22,8 @@
 #include <Mathematics/Primitives/gp.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Precision.hxx>
-#include <Geom_ConicalSurface.hxx>
-#include <Geom_Line.hxx>
+#include <Geometry/Geom/Geom_ConicalSurface.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
 #include <Geom2d_Line.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 

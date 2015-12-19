@@ -25,15 +25,15 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(ShapeUpgrade_SplitSurfaceAngle)
 IMPLEMENT_DOWNCAST(ShapeUpgrade_SplitSurfaceAngle,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_SplitSurfaceAngle)
-#include <Geom_SurfaceOfRevolution.hxx>
-#include <Geom_ConicalSurface.hxx>
-#include <Geom_ToroidalSurface.hxx>
-#include <Geom_CylindricalSurface.hxx>
-#include <Geom_SphericalSurface.hxx>
+#include <Geometry/Geom/Geom_SurfaceOfRevolution.hxx>
+#include <Geometry/Geom/Geom_ConicalSurface.hxx>
+#include <Geometry/Geom/Geom_ToroidalSurface.hxx>
+#include <Geometry/Geom/Geom_CylindricalSurface.hxx>
+#include <Geometry/Geom/Geom_SphericalSurface.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
 #include <ShapeExtend.hxx>
-#include <Geom_RectangularTrimmedSurface.hxx>
-#include <Geom_OffsetSurface.hxx>
+#include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
+#include <Geometry/Geom/Geom_OffsetSurface.hxx>
 #include <Precision.hxx>
 
 //=======================================================================

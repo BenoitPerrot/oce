@@ -29,8 +29,8 @@
 #include <GeomAPI_ExtremaCurveCurve.hxx>
 #include <GeomAPI_ExtremaCurveSurface.hxx>
 #include <GeomAPI_ExtremaSurfaceSurface.hxx>
-#include <Geom_Curve.hxx>
-#include <Geom_Line.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
 #include <TopExp.hxx>
 #include <TopExp_Explorer.hxx>
 

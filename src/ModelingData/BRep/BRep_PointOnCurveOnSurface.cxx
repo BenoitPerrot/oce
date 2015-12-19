@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Geom2d_Curve.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <BRep_PointOnCurveOnSurface.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

@@ -14,9 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
-#include <Geom_SweptSurface.hxx>
+#include <Geometry/Geom/Geom_SweptSurface.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Geom_SweptSurface)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

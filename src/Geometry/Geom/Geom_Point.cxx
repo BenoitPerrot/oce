@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Geom_Point.hxx>
+#include <Geometry/Geom/Geom_Point.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Geom_Point)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

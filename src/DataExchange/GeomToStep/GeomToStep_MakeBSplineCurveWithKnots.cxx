@@ -16,11 +16,11 @@
 
 #include <StepGeom_BSplineCurveWithKnots.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Geom2d_BSplineCurve.hxx>
 #include <GeomToStep_MakeBSplineCurveWithKnots.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <StepGeom_BSplineCurveWithKnots.hxx>
 #include <StepGeom_CartesianPoint.hxx>
 #include <GeomToStep_MakeCartesianPoint.hxx>

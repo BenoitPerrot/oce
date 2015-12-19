@@ -33,7 +33,7 @@
 #include <TopExp.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <Geom2d_Curve.hxx>
 #include <GeomAdaptor_Surface.hxx>
 #include <Geometry/Extrema/Extrema_ExtPS.hxx>

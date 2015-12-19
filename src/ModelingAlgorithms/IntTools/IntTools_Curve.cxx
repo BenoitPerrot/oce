@@ -11,11 +11,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geom2d_Curve.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <IntTools_Curve.hxx>
-#include <Geom_BoundedCurve.hxx>
+#include <Geometry/Geom/Geom_BoundedCurve.hxx>
 #include <GeomAdaptor_Curve.hxx>
 
 //=======================================================================

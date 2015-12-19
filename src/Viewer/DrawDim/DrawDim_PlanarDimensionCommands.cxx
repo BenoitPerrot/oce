@@ -31,8 +31,8 @@
 #include <TopoDS_Edge.hxx>
 #include <TopoDS.hxx>
 #include <TopExp.hxx>
-#include <Geom_Curve.hxx>
-#include <Geom_Circle.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx>
 #include <BRep_Builder.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>

@@ -14,8 +14,8 @@
 // commercial license or contractual agreement.
 
 #include <GeometryTest.hxx>
-#include <Geom_Curve.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <GeomAPI_ProjectPointOnSurf.hxx>
 
 #include <DBRep.hxx>

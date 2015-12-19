@@ -18,10 +18,10 @@
 // locations into account
 //szv 03.01.01 PositiveCones merged in
 #include <TopoDS_Face.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <TopoDS_Edge.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geom2d_Curve.hxx>
@@ -38,9 +38,9 @@ IMPLEMENT_DOWNCAST(ShapeCustom_DirectModification,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ShapeCustom_DirectModification)
 
 #include <Mathematics/Primitives/gp_Mat.hxx>
-#include <Geom_ConicalSurface.hxx>
-#include <Geom_ElementarySurface.hxx>
-#include <Geom_RectangularTrimmedSurface.hxx>
+#include <Geometry/Geom/Geom_ConicalSurface.hxx>
+#include <Geometry/Geom/Geom_ElementarySurface.hxx>
+#include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
 
 #include <Precision.hxx>
 #include <TopoDS.hxx>

@@ -20,7 +20,7 @@
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>
-#include <Geom_Conic.hxx>
+#include <Geometry/Geom/Geom_Conic.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Geom_Conic)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

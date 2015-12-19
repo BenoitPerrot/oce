@@ -93,7 +93,7 @@
 #include <Aspect_TypeOfLine.hxx>
 #include <Prs3d_LineAspect.hxx>
 #include <TDocStd_Owner.hxx>
-#include <Geom_Axis2Placement.hxx>
+#include <Geometry/Geom/Geom_Axis2Placement.hxx>
 #include <AIS_Trihedron.hxx>
 
 #define ZVIEW_SIZE 1000000.0

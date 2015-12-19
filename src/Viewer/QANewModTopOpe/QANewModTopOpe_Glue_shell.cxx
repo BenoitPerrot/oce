@@ -25,7 +25,7 @@
 #include <QANewModTopOpe_Glue.hxx>
 #include <Precision.hxx>
 #include <Geom2d_Curve.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <GeomAPI_ProjectPointOnSurf.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Iterator.hxx>

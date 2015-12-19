@@ -59,9 +59,9 @@
 #include <Precision.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 
-#include <Geom_TrimmedCurve.hxx>
-#include <Geom_OffsetCurve.hxx>
-#include <Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_OffsetCurve.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <BRepBuilderAPI_Transform.hxx>
 #include <BRepBuilderAPI_Copy.hxx>
 #include <TopTools_SequenceOfShape.hxx>

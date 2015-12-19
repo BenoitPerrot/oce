@@ -23,7 +23,7 @@
 #include <LocOpe_CurveShapeIntersector.hxx>
 
 #include <BRepIntCurveSurface_Inter.hxx>
-#include <Geom_Circle.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx>
 
 #include <LocOpe_PntFace.hxx>
 

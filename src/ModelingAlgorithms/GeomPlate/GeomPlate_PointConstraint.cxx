@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_RTTI(GeomPlate_PointConstraint)
 #include <Mathematics/Primitives/gp_Ax3.hxx>
 #include <GeomAPI_ProjectPointOnSurf.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
-#include <Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
 #include <Geometry/Extrema/Extrema_POnSurf.hxx>
 #include <Geometry/Extrema/Extrema_ExtPS.hxx>
 #include <GeomAdaptor_Surface.hxx>

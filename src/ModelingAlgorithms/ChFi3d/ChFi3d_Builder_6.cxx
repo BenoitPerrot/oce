@@ -32,7 +32,7 @@
 #include <ChFiDS_Spine.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <TopTools_ListOfShape.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <ChFiDS_SurfData.hxx>
 #include <ChFiDS_HElSpine.hxx>
 #include <BRepAdaptor_HSurface.hxx>
@@ -74,8 +74,8 @@
 #include <Geom2d_BSplineCurve.hxx>
 #include <Geom2d_Curve.hxx>
 #include <Geom2d_Line.hxx>
-#include <Geom_Curve.hxx>
-#include <Geom_BSplineSurface.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <GeomLib.hxx>
 
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>

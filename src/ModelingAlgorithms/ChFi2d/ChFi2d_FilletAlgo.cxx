@@ -28,7 +28,7 @@
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfReal.hxx>
 
 #include <Mathematics/Primitives/gp_Circ.hxx>
-#include <Geom_Circle.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx>
 #include <Geom2d_Line.hxx>
 
 #include <BRepLib_MakeEdge.hxx>

@@ -23,9 +23,9 @@
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Face.hxx>
 #include <TopoDS_Edge.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <TopTools_ListOfShape.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geom2d_Curve.hxx>
 #include <BiTgte_DataMapOfShapeBox.hxx>
 #include <BRepOffset_Offset.hxx>
@@ -60,10 +60,10 @@
 #include <ChFi3d.hxx>
 #include <GeomAbs_SurfaceType.hxx>
 #include <GeomAPI_ProjectPointOnCurve.hxx>
-#include <Geom_BSplineCurve.hxx>
-#include <Geom_TrimmedCurve.hxx>
-#include <Geom_Circle.hxx>
-#include <Geom_Line.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
 #include <Geom2d_Curve.hxx>
 #include <GeomAdaptor_Surface.hxx>
 #include <Geom2dAdaptor_Curve.hxx>

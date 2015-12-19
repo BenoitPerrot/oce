@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Geom_Transformation.hxx>
+#include <Geometry/Geom/Geom_Transformation.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geometry/GC/GC_MakeTranslation.hxx>

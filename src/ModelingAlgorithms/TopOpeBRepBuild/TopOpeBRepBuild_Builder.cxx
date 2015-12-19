@@ -61,7 +61,7 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Precision.hxx>
 #include <TopOpeBRepTool_ShapeExplorer.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geom2d_Curve.hxx>
 #include <BRep_Tool.hxx>
 #include <BRep_Builder.hxx>

@@ -44,8 +44,8 @@ GCPnts_QuasiUniformAbscissa::GCPnts_QuasiUniformAbscissa ()
 {
 } 
 
-#include <Geom_BezierCurve.hxx>
-#include <Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_BezierCurve.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
 
 #define TheCurve                 Adaptor3d_Curve
 #define Handle_TheBezierCurve   Handle(Geom_BezierCurve)

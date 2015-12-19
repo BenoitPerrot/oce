@@ -35,7 +35,7 @@
 #include <TopoDS_Edge.hxx>
 #include <BRepLib_MakeWire.hxx>
 #include <TopoDS_Wire.hxx>
-#include <Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <BRepOffsetAPI_ThruSections.hxx>
 //=======================================================================
 //  OCC895

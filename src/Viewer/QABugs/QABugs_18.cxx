@@ -39,7 +39,7 @@
 #include <TopoDS.hxx>
 #include <BRep_Tool.hxx>
 #include <TopExp.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/GCPnts/GCPnts_UniformAbscissa.hxx>
 #include <GeomAdaptor_Curve.hxx>
 #include <Foundation/Standard/Standard_Assert.hxx>

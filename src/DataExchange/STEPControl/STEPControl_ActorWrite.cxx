@@ -64,10 +64,10 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_ActorWrite)
 #include <TopoDS.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Solid.hxx>
-#include <Geom_Surface.hxx>
-#include <Geom_Plane.hxx>
-#include <Geom_Curve.hxx>
-#include <Geom_Line.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
 
 #include <StepShape_ShapeDefinitionRepresentation.hxx>
 #include <StepShape_FacetedBrepAndBrepWithVoids.hxx>

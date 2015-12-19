@@ -11,13 +11,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Geom_Surface.hxx>
-#include <Geom_HSequenceOfBSplineSurface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_HSequenceOfBSplineSurface.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfInteger.hxx>
-#include <Geom_BSplineSurface.hxx>
-#include <Geom_SequenceOfBSplineSurface.hxx>
-#include <Geom_OsculatingSurface.hxx>
-#include <Geom_BezierSurface.hxx>
+#include <Geometry/Geom/Geom_BSplineSurface.hxx>
+#include <Geometry/Geom/Geom_SequenceOfBSplineSurface.hxx>
+#include <Geometry/Geom/Geom_OsculatingSurface.hxx>
+#include <Geometry/Geom/Geom_BezierSurface.hxx>
 #include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_HArray2OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>

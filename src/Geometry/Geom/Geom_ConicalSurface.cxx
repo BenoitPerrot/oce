@@ -21,10 +21,10 @@
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Mathematics/Primitives/gp_GTrsf2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <Geom_Geometry.hxx>
-#include <Geom_ConicalSurface.hxx>
+#include <Geometry/Geom/Geom_Geometry.hxx>
+#include <Geometry/Geom/Geom_ConicalSurface.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Geom_ConicalSurface)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -50,8 +50,8 @@ IMPLEMENT_STANDARD_RTTI(Geom_ConicalSurface)
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <ElSLib.hxx>
 #include <GeomAbs_UVSense.hxx>
-#include <Geom_Line.hxx>
-#include <Geom_Circle.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx>
 
 typedef Geom_ConicalSurface         ConicalSurface;
 typedef Handle(Geom_ConicalSurface) Handle(ConicalSurface);

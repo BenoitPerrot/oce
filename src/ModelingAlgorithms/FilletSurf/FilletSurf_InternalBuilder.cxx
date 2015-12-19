@@ -20,11 +20,11 @@
 #include <BRepAdaptor_HSurface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_TopolTool.hxx>
 #include <BRepAdaptor_HCurve2d.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <TopoDS_Face.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geom2d_Curve.hxx>
-#include <Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <FilletSurf_InternalBuilder.hxx>
 #include <FilletSurf_StatusDone.hxx>
 #include <FilletSurf_ErrorTypeStatus.hxx>
@@ -62,11 +62,11 @@
 
 #include <TopOpeBRepDS_HDataStructure.hxx>
 
-#include <Geom_Surface.hxx>
-#include <Geom_Plane.hxx>
-#include <Geom_Curve.hxx>
-#include <Geom_TrimmedCurve.hxx>
-#include <Geom_Circle.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx>
 #include <GeomAdaptor_HCurve.hxx>
 
 #include <ElSLib.hxx>

@@ -22,9 +22,9 @@
 #include <TopoDS_Solid.hxx>
 #include <IntTools_Range.hxx>
 #include <TopoDS_Shell.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geom2d_Curve.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <BOPTools_AlgoTools.hxx>
 //
 #include <Mathematics/Primitives/gp_Pnt.hxx>
@@ -34,11 +34,11 @@
 #include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HCurveOnSurface.hxx>
 //
-#include <Geom_Curve.hxx>
-#include <Geom_Surface.hxx>
-#include <Geom_Plane.hxx>
-#include <Geom_TrimmedCurve.hxx>
-#include <Geom_RectangularTrimmedSurface.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
 //
 #include <GeomAdaptor_Surface.hxx>
 #include <GeomAdaptor_Curve.hxx>

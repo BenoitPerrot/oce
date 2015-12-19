@@ -20,7 +20,7 @@
 //sln 03.10.01. BUC61003. creation of  offset surface is corrected
 
 #include <StepGeom_Surface.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <StepToGeom_MakeSurface.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
@@ -35,7 +35,7 @@
 
 //:d4
 #include <StepGeom_OffsetSurface.hxx>
-#include <Geom_OffsetSurface.hxx>
+#include <Geometry/Geom/Geom_OffsetSurface.hxx>
 #include <StepGeom_SurfaceReplica.hxx>
 #include <StepGeom_CartesianTransformationOperator3d.hxx>
 #include <StepToGeom_MakeTransformation3d.hxx>

@@ -17,7 +17,7 @@
 #include <GeomAPI_ProjectPointOnSurf.hxx>
 #include <GeomAPI_ProjectPointOnCurve.hxx>
 #include <TopoDS_Edge.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <IntTools_SurfaceRangeLocalizeData.hxx>
 #include <BRepClass3d_SolidClassifier.hxx>
 #include <TopoDS_Solid.hxx>
@@ -39,8 +39,8 @@ IMPLEMENT_STANDARD_RTTI(IntTools_Context)
 
 #include <Precision.hxx>
 
-#include <Geom_Curve.hxx>
-#include <Geom_BoundedCurve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_BoundedCurve.hxx>
 #include <GeomAPI_ProjectPointOnCurve.hxx>
 #include <GeomAPI_ProjectPointOnSurf.hxx>
 #include <GeomAdaptor_Curve.hxx>

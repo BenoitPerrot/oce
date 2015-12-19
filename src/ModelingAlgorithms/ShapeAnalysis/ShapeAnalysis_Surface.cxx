@@ -26,9 +26,9 @@
 //#4  szv           S4163: optimizations
 //:r9 abv 09.04.99: id_turbine-C.stp #3865: check degenerated 2d point by recomputing to 3d instead of Resolution
 //:s5 abv 22.04.99  Adding debug printouts in catch {} blocks
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <GeomAdaptor_HSurface.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
@@ -45,16 +45,16 @@ IMPLEMENT_STANDARD_TYPE_END(ShapeAnalysis_Surface)
 IMPLEMENT_DOWNCAST(ShapeAnalysis_Surface,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ShapeAnalysis_Surface)
 
-#include <Geom_BoundedSurface.hxx>
-#include <Geom_BSplineSurface.hxx>
-#include <Geom_BezierSurface.hxx> //S4135
-#include <Geom_ConicalSurface.hxx>
-#include <Geom_OffsetSurface.hxx> //S4135
-#include <Geom_RectangularTrimmedSurface.hxx>
-#include <Geom_SphericalSurface.hxx>
-#include <Geom_SurfaceOfLinearExtrusion.hxx>
-#include <Geom_SurfaceOfRevolution.hxx>
-#include <Geom_ToroidalSurface.hxx>
+#include <Geometry/Geom/Geom_BoundedSurface.hxx>
+#include <Geometry/Geom/Geom_BSplineSurface.hxx>
+#include <Geometry/Geom/Geom_BezierSurface.hxx> //S4135
+#include <Geometry/Geom/Geom_ConicalSurface.hxx>
+#include <Geometry/Geom/Geom_OffsetSurface.hxx> //S4135
+#include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
+#include <Geometry/Geom/Geom_SphericalSurface.hxx>
+#include <Geometry/Geom/Geom_SurfaceOfLinearExtrusion.hxx>
+#include <Geometry/Geom/Geom_SurfaceOfRevolution.hxx>
+#include <Geometry/Geom/Geom_ToroidalSurface.hxx>
 
 #include <ElSLib.hxx>
 

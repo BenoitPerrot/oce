@@ -16,7 +16,7 @@
 #include <TopoDS_Face.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Geom2d_Curve.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <ProjLib_ProjectedCurve.hxx>
 #include <BOPTools_AlgoTools2D.hxx>
 
@@ -39,17 +39,17 @@
 
 #include <Geom2dAdaptor.hxx>
 
-#include <Geom_Curve.hxx>
-#include <Geom_TrimmedCurve.hxx>
-#include <Geom_Surface.hxx>
-#include <Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
 
 #include <GeomAdaptor_Surface.hxx>
 #include <GeomAdaptor_Curve.hxx>
 #include <GeomAdaptor_HCurve.hxx>
 #include <GeomAdaptor_HSurface.hxx>
-#include <Geom_Plane.hxx>
-#include <Geom_RectangularTrimmedSurface.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
 
 #include <GeomProjLib.hxx>
 

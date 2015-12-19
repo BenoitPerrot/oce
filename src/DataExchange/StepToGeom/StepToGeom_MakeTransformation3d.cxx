@@ -23,8 +23,8 @@
 #include <StepToGeom_MakeDirection.hxx>
 #include <StepGeom_CartesianPoint.hxx>
 #include <StepGeom_Direction.hxx>
-#include <Geom_CartesianPoint.hxx>
-#include <Geom_Direction.hxx>
+#include <Geometry/Geom/Geom_CartesianPoint.hxx>
+#include <Geometry/Geom/Geom_Direction.hxx>
 #include <Mathematics/Primitives/gp_Ax3.hxx>
 
 //=======================================================================

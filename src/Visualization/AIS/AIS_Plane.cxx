@@ -17,13 +17,13 @@
 #define GER61351		//GG_171199     Enable to set an object RGB color
 //						  instead a restricted object NameOfColor.
 
-#include <Geom_Plane.hxx>
-#include <Geom_Axis2Placement.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Axis2Placement.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <AIS_InteractiveContext.hxx>
 #include <Prs3d_Presentation.hxx>
 #include <Prs3d_Projector.hxx>
-#include <Geom_Transformation.hxx>
+#include <Geometry/Geom/Geom_Transformation.hxx>
 #include <SelectMgr_Selection.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <AIS_Plane.hxx>
@@ -57,7 +57,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_Plane)
 #include <StdPrs_Plane.hxx>
 #include <StdPrs_ShadedSurface.hxx>
 
-#include <Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
 #include <GeomAdaptor_Surface.hxx>
 
 #include <Aspect_TypeOfLine.hxx>

@@ -26,7 +26,7 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <GeomConvert.hxx>
 #include <GeomLProp.hxx>
-#include <Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Precision.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <TColGeom_Array1OfBSplineCurve.hxx>

@@ -24,7 +24,7 @@
 #include <ElCLib.hxx>
 #include <Geometry/gce/gce_MakeLin.hxx>
 #include <Geometry/gce/gce_MakeDir.hxx>
-#include <Geom_CartesianPoint.hxx>
+#include <Geometry/Geom/Geom_CartesianPoint.hxx>
 #include <Graphic3d_Group.hxx>
 #include <Prs3d_Arrow.hxx>
 #include <Prs3d_Text.hxx>

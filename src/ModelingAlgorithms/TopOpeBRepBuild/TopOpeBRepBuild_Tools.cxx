@@ -44,9 +44,9 @@
 #include <GeomAdaptor_Surface.hxx>
 #include <GeomAdaptor_Curve.hxx>
 
-#include <Geom_Curve.hxx>
-#include <Geom_TrimmedCurve.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <Geom2d_Curve.hxx>
 #include <GeomProjLib.hxx>
 

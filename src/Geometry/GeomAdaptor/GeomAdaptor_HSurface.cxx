@@ -16,7 +16,7 @@
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <GeomAdaptor_Surface.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <GeomAdaptor_HSurface.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(GeomAdaptor_HSurface)

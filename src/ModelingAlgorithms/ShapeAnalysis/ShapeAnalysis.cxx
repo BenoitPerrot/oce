@@ -52,8 +52,8 @@
 #include <BRep_Builder.hxx>
 
 #include <Precision.hxx>
-#include <Geom_Surface.hxx>
-#include <Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <ShapeAnalysis_Curve.hxx>
 

@@ -24,7 +24,7 @@
 #include <Prs3d_DimensionAspect.hxx>
 #include <Prs3d_TextAspect.hxx>
 #include <Prs3d_PointAspect.hxx>
-#include <Geom_CartesianPoint.hxx>
+#include <Geometry/Geom/Geom_CartesianPoint.hxx>
 #include <StdPrs_Point.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Prs3d_Text.hxx>

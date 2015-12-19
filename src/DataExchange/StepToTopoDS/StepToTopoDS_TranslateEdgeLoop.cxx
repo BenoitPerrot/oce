@@ -24,7 +24,7 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <StepShape_FaceBound.hxx>
 #include <TopoDS_Face.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <StepGeom_Surface.hxx>
 #include <StepToTopoDS_Tool.hxx>
 #include <StepToTopoDS_NMTool.hxx>
@@ -39,7 +39,7 @@
 #include <StepToGeom_MakeCurve2d.hxx>
 #include <StepToGeom_MakeCurve.hxx>
 
-#include <Geom_RectangularTrimmedSurface.hxx>
+#include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
 
 #include <StepShape_EdgeLoop.hxx>
 #include <StepShape_Edge.hxx>
@@ -71,9 +71,9 @@
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <TopAbs.hxx>
 
-#include <Geom_Surface.hxx>
-#include <Geom_Plane.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 
 #include <Geom2d_Curve.hxx>
 #include <Geom2d_BoundedCurve.hxx>

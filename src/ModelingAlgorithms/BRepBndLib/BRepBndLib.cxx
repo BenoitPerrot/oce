@@ -22,7 +22,7 @@
 #include <TopoDS.hxx>
 #include <Geometry/BndLib/BndLib_Add3dCurve.hxx>
 #include <Geometry/BndLib/BndLib_AddSurface.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <Mathematics/Polyhedral/Poly_PolygonOnTriangulation.hxx>
@@ -31,7 +31,7 @@
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <GeomAdaptor_Curve.hxx>
 #include <Geometry/BndLib/BndLib_Add3dCurve.hxx>
 

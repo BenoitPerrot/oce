@@ -37,7 +37,7 @@
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 
 #include <GeomAbs_JoinType.hxx>
-#include <Geom_Line.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
 
 #include <IntCurvesFace_Intersector.hxx>
 

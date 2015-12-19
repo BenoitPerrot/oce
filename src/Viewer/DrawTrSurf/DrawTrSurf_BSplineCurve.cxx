@@ -12,7 +12,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Draw_Color.hxx>
 #include <Draw_Display.hxx>
 #include <Draw_Drawable3D.hxx>
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_TYPE_END(DrawTrSurf_BSplineCurve)
 IMPLEMENT_DOWNCAST(DrawTrSurf_BSplineCurve,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(DrawTrSurf_BSplineCurve)
 #include <Draw_MarkerShape.hxx>
-#include <Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 
 

@@ -23,8 +23,8 @@
 #include <Geom2d_TrimmedCurve.hxx>
 #include <Geom2d_Curve.hxx>
 #include <Geom2d_Line.hxx>
-#include <Geom_Line.hxx>
-#include <Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <BRep_TEdge.hxx>
 #include <BRep_ListOfCurveRepresentation.hxx>
 #include <BRep_ListIteratorOfListOfCurveRepresentation.hxx>

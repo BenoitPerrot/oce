@@ -66,15 +66,15 @@
 #include <AIS_Shape.hxx>
 
 #include <AIS_InteractiveContext.hxx>
-#include <Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Geometry/GC/GC_MakePlane.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
 #include <AIS_Axis.hxx>
-#include <Geom_Axis2Placement.hxx>
-#include <Geom_Axis1Placement.hxx>
+#include <Geometry/Geom/Geom_Axis2Placement.hxx>
+#include <Geometry/Geom/Geom_Axis1Placement.hxx>
 #include <AIS_Trihedron.hxx>
 #include <AIS_Axis.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
@@ -103,7 +103,7 @@
 #include <BRepLib_MakeEdge.hxx>
 #include <BRepLib_MakeFace.hxx>
 #include <BRepLib_MakeWire.hxx>
-#include <Geom_Circle.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx>
 #include <Geometry/GC/GC_MakeCircle.hxx>
 #include <Prs3d_Presentation.hxx>
 #include <Select3D_SensitiveCircle.hxx>
@@ -526,7 +526,7 @@ static int VPlaneTrihedron (Draw_Interpretor& di, Standard_Integer argc, const c
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <TopExp.hxx>
-#include <Geom_Line.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
 
 static int VAxisBuilder(Draw_Interpretor& di, Standard_Integer argc, const char** argv)
 {
@@ -779,7 +779,7 @@ static int VAxisBuilder(Draw_Interpretor& di, Standard_Integer argc, const char*
 #include <TopoDS_Vertex.hxx>
 #include <TopExp.hxx>
 #include <AIS_Point.hxx>
-#include <Geom_CartesianPoint.hxx>
+#include <Geometry/Geom/Geom_CartesianPoint.hxx>
 
 static int VPointBuilder(Draw_Interpretor& di, Standard_Integer argc, const char** argv)
 {
@@ -1761,7 +1761,7 @@ static int VChangePlane (Draw_Interpretor& /*theDi*/, Standard_Integer theArgsNb
 //Draw arg : vline LineName  [AIS_PointName] [AIS_PointName]
 //                           [Xa] [Ya] [Za]   [Xb] [Yb] [Zb]
 //==============================================================================
-#include <Geom_CartesianPoint.hxx>
+#include <Geometry/Geom/Geom_CartesianPoint.hxx>
 #include <AIS_Line.hxx>
 
 

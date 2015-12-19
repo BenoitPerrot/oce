@@ -23,7 +23,7 @@
 #include <IntTools_Curve.hxx>
 #include <IntTools_SequenceOfCurves.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <IntTools_Range.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
@@ -56,18 +56,18 @@
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <GeomAdaptor_Surface.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <GeomAPI_ProjectPointOnSurf.hxx>
 #include <GeomAPI_ProjectPointOnCurve.hxx>
 #include <GeomAdaptor_Curve.hxx>
 #include <GeomAbs_CurveType.hxx>
-#include <Geom_Line.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
 #include <Geom2d_Curve.hxx>
-#include <Geom_BoundedCurve.hxx>
-#include <Geom_Geometry.hxx>
-#include <Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_BoundedCurve.hxx>
+#include <Geometry/Geom/Geom_Geometry.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Geom2d_TrimmedCurve.hxx>
 
 #include <IntTools_FClass2d.hxx>
@@ -528,7 +528,7 @@ static
   return aTolReached;
 }
 
-#include <Geom_Parabola.hxx>
+#include <Geometry/Geom/Geom_Parabola.hxx>
 #include <Mathematics/Primitives/gp_Parab.hxx>
 #include <Geometry/BndLib/BndLib_Add3dCurve.hxx>
 //=======================================================================

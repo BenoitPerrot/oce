@@ -73,17 +73,17 @@
 #include <Geom2d_Line.hxx>
 #include <Geom2d_Curve.hxx>
 
-#include <Geom_BezierCurve.hxx>
-#include <Geom_Curve.hxx>
-#include <Geom_ConicalSurface.hxx>
-#include <Geom_CylindricalSurface.hxx>
-#include <Geom_OffsetSurface.hxx>
-#include <Geom_Plane.hxx>
-#include <Geom_Surface.hxx>
-#include <Geom_SurfaceOfLinearExtrusion.hxx>
-#include <Geom_RectangularTrimmedSurface.hxx>
-#include <Geom_SphericalSurface.hxx>
-#include <Geom_ToroidalSurface.hxx>
+#include <Geometry/Geom/Geom_BezierCurve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_ConicalSurface.hxx>
+#include <Geometry/Geom/Geom_CylindricalSurface.hxx>
+#include <Geometry/Geom/Geom_OffsetSurface.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_SurfaceOfLinearExtrusion.hxx>
+#include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
+#include <Geometry/Geom/Geom_SphericalSurface.hxx>
+#include <Geometry/Geom/Geom_ToroidalSurface.hxx>
 
 #include <IGESData_IGESEntity.hxx>
 #include <IGESData_ToolLocation.hxx>
@@ -141,14 +141,14 @@
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
-#include <Geom_BSplineCurve.hxx>
-#include <Geom_Line.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
 #include <BRepTools.hxx>//#16
 #include <ShapeAnalysis.hxx>
 //S4054
 #include <ShapeExtend_WireData.hxx>
 #include <ShapeFix_Wire.hxx>
-#include <Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <GeomConvert.hxx>
 #include <GeomLib.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
@@ -161,11 +161,11 @@
 
 #include <BRepOffset_MakeOffset.hxx>
 #include <BRep_Tool.hxx>
-#include <Geom_BSplineSurface.hxx>
+#include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <ShapeAlgo.hxx>
 #include <ShapeAlgo_AlgoContainer.hxx>
 #include <BRepLib_MakeFace.hxx>
-#include <Geom_SurfaceOfRevolution.hxx>
+#include <Geometry/Geom/Geom_SurfaceOfRevolution.hxx>
 
 //=======================================================================
 //function : IGESToBRep_TopoSurface

@@ -20,11 +20,11 @@
 #include <ShapeUpgrade_UnifySameDomain.hxx>
 
 #include <Mathematics/Primitives/gp_Lin.hxx>
-#include <Geom_Curve.hxx>
-#include <Geom_TrimmedCurve.hxx>
-#include <Geom_Line.hxx>
-#include <Geom_BezierCurve.hxx>
-#include <Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
+#include <Geometry/Geom/Geom_BezierCurve.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <BRep_Tool.hxx>
 #include <Geometry/gce/gce_MakeLin.hxx>
 
@@ -58,7 +58,7 @@
 #include <Foundation/TColStd/TColStd_HArray1OfBoolean.hxx>
 #include <GProp_GProps.hxx>
 #include <BRepGProp.hxx>
-#include <Geom_Circle.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
 #include <Geometry/GC/GC_MakeCircle.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>

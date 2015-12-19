@@ -29,8 +29,8 @@
 #include <BRep_Builder.hxx>
 #include <ShapeAnalysis_Edge.hxx>
 #include <ShapeBuild_Edge.hxx>
-#include <Geom_Curve.hxx>
-#include <Geom_BezierCurve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_BezierCurve.hxx>
 #include <Precision.hxx>
 #include <Geom2d_Curve.hxx>
 #include <Geom2d_BezierCurve.hxx>

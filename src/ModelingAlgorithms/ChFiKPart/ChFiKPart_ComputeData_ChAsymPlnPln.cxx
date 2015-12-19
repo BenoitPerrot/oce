@@ -35,9 +35,9 @@
 #include <ElSLib.hxx>
 
 #include <Geom2d_Line.hxx>
-#include <Geom_Line.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
 
-#include <Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
 
 #include <IntAna_QuadQuadGeo.hxx>
 

@@ -18,11 +18,11 @@
 //              JCT : Add WithRatio,MinM
 
 
-#include <Geom_BSplineCurve.hxx>
-#include <Geom_BoundedCurve.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_BoundedCurve.hxx>
 #include <GeomConvert_CompCurveToBSplineCurve.hxx>
 
-#include <Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <GeomConvert.hxx>
 
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>

@@ -17,10 +17,10 @@
 #define GER61351		//GG_171199     Enable to set an object RGB color
 //						  instead a restricted object NameOfColor.
 
-#include <Geom_Point.hxx>
+#include <Geometry/Geom/Geom_Point.hxx>
 #include <Prs3d_Presentation.hxx>
 #include <Prs3d_Projector.hxx>
-#include <Geom_Transformation.hxx>
+#include <Geometry/Geom/Geom_Transformation.hxx>
 #include <SelectMgr_Selection.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <TopoDS_Vertex.hxx>
@@ -49,7 +49,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_Point)
 #include <SelectBasics_EntityOwner.hxx>
 #include <Select3D_SensitivePoint.hxx>
 #include <StdPrs_Point.hxx>
-#include <Geom_Point.hxx>
+#include <Geometry/Geom/Geom_Point.hxx>
 #include <BRepLib_MakeVertex.hxx>
 #include <AIS_Drawer.hxx>
 

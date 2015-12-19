@@ -23,7 +23,7 @@
 #include <Mathematics/Primitives/gp.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
 
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 
 #include <BRep_Tool.hxx>
 #include <BRepLib_MakeVertex.hxx>

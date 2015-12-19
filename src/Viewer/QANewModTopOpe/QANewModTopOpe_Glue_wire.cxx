@@ -25,7 +25,7 @@
 #include <QANewModTopOpe_Glue.hxx>
 #include <Precision.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <GeomProjLib.hxx>
 #include <GeomAPI_ProjectPointOnSurf.hxx>
 #include <GeomAPI_ProjectPointOnCurve.hxx>

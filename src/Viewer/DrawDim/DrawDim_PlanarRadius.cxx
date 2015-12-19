@@ -31,8 +31,8 @@ IMPLEMENT_STANDARD_TYPE_END(DrawDim_PlanarRadius)
 IMPLEMENT_DOWNCAST(DrawDim_PlanarRadius,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(DrawDim_PlanarRadius)
 #include <DrawDim.hxx>
-#include <Geom_Curve.hxx>
-#include <Geom_Circle.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
 #include <BRep_Tool.hxx>

@@ -43,8 +43,8 @@
 #include <TopExp_Explorer.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Circ2d.hxx>
-#include <Geom_Curve.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <Foundation/OSD/OSD_Chronometer.hxx>

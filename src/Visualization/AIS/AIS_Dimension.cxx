@@ -27,10 +27,10 @@
 #include <Font_BRepFont.hxx>
 #endif // OCE_DISABLE_TKSERVICE_FONT
 #include <Geometry/GC/GC_MakeCircle.hxx>
-#include <Geom_Line.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
 #include <GeomAdaptor_Curve.hxx>
-#include <Geom_Circle.hxx>
-#include <Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Geometry/gce/gce_MakeDir.hxx>
 #include <Geometry/gce/gce_MakeLin.hxx>
 #include <Geometry/gce/gce_MakePln.hxx>

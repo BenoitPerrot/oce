@@ -18,8 +18,8 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
-#include <Geom_Geometry.hxx>
-#include <Geom_Axis1Placement.hxx>
+#include <Geometry/Geom/Geom_Geometry.hxx>
+#include <Geometry/Geom/Geom_Axis1Placement.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Geom_Axis1Placement)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

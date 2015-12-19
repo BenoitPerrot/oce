@@ -34,7 +34,7 @@
 #include <StepShape_VertexPoint.hxx>
 #include <StepShape_Vertex.hxx>
 
-#include <Geom_CartesianPoint.hxx>
+#include <Geometry/Geom/Geom_CartesianPoint.hxx>
 #include <Precision.hxx>
 
 // For I-DEAS-like processing (ssv; 15.11.2010)

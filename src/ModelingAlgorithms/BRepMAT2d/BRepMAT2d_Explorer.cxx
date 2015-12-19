@@ -26,8 +26,8 @@
 #include <TopoDS_Wire.hxx>
 #include <BRepTools_WireExplorer.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
-#include <Geom_Curve.hxx>
-#include <Geom_TrimmedCurve.hxx>  
+#include <Geometry/Geom/Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>  
 #include <Geom2d_TrimmedCurve.hxx>
 #include <GeomAPI.hxx>
 #include <BRep_Tool.hxx>

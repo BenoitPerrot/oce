@@ -29,12 +29,12 @@
 #include <TopoDS_Edge.hxx>
 #include <BRepLib_MakeEdge.hxx>
 #include <AIS_Trihedron.hxx>
-#include <Geom_Axis2Placement.hxx>
+#include <Geometry/Geom/Geom_Axis2Placement.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>
-#include <Geom_Circle.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx>
 #include <AIS_Circle.hxx>
 #include <TopoDS.hxx>
-#include <Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <AIS_AngleDimension.hxx>
 
@@ -48,7 +48,7 @@
 #include <ViewerTest_DoubleMapOfInteractiveAndName.hxx>
 
 #include <BRep_Tool.hxx>
-#include <Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <GeomConvert_CompCurveToBSplineCurve.hxx>
 #include <BRepLib_MakeEdge.hxx>
 #include <Precision.hxx>

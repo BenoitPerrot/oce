@@ -25,20 +25,20 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(ShapeUpgrade_SplitSurfaceContinuity)
 IMPLEMENT_DOWNCAST(ShapeUpgrade_SplitSurfaceContinuity,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_SplitSurfaceContinuity)
-#include <Geom_BSplineSurface.hxx>
+#include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <Precision.hxx>
 #include <ShapeUpgrade.hxx>
 #include <TColGeom_HArray2OfSurface.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
-#include <Geom_SweptSurface.hxx>
+#include <Geometry/Geom/Geom_SweptSurface.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
-#include <Geom_SurfaceOfRevolution.hxx>
+#include <Geometry/Geom/Geom_SurfaceOfRevolution.hxx>
 #include <ShapeUpgrade_SplitCurve3dContinuity.hxx>
-#include <Geom_SurfaceOfLinearExtrusion.hxx>
+#include <Geometry/Geom/Geom_SurfaceOfLinearExtrusion.hxx>
 #include <TColGeom_HArray1OfCurve.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
-#include <Geom_RectangularTrimmedSurface.hxx>
-#include <Geom_OffsetSurface.hxx>
+#include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
+#include <Geometry/Geom/Geom_OffsetSurface.hxx>
 #include <ShapeExtend.hxx>
 //======================================================================
 //function : ShapeUpgrade_SplitSurface

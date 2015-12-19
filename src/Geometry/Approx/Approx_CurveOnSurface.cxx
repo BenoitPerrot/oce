@@ -16,7 +16,7 @@
 
 #include <Precision.hxx>
 #include <Geom2d_BSplineCurve.hxx>
-#include <Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>

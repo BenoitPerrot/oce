@@ -18,7 +18,7 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
-#include <Geom_Line.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
 #include <Geom2d_Line.hxx>
 #include <GeomToStep_MakeLine.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>

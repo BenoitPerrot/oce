@@ -41,9 +41,9 @@ IMPLEMENT_STANDARD_RTTI(TDataXtd_Axis)
 #include <BRep_Tool.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <BRepLib_MakeEdge.hxx>
-#include <Geom_Line.hxx>
-#include <Geom_Curve.hxx>
-#include <Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 
 #include <BRepAdaptor_Curve.hxx>
 #include <GeomAbs_CurveType.hxx>

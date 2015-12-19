@@ -31,9 +31,9 @@
 #include <Precision.hxx>
 #include <TopoDS.hxx>
 
-#include <Geom_Plane.hxx>
-#include <Geom_Line.hxx>
-#include <Geom_Circle.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx>
 
 #include <Geom2d_Line.hxx>
 #include <Geom2d_Circle.hxx>

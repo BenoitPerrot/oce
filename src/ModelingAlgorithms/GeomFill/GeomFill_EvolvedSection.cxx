@@ -16,14 +16,14 @@
 
 #include <stdio.h>
 
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <Law_Function.hxx>
-#include <Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfVec.hxx>
-#include <Geom_BSplineSurface.hxx>
+#include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <GeomFill_EvolvedSection.hxx>
@@ -41,9 +41,9 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_EvolvedSection)
 #include <GeomConvert.hxx>
 #include <Mathematics/Convert/Convert_ParameterisationType.hxx>
 
-#include <Geom_Geometry.hxx>
-#include <Geom_Surface.hxx>
-#include <Geom_BSplineSurface.hxx>
+#include <Geometry/Geom/Geom_Geometry.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <GeomAdaptor_Curve.hxx>
 
 #include <Geometry/GCPnts/GCPnts_AbscissaPoint.hxx>

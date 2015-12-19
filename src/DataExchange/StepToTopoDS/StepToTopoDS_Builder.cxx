@@ -61,10 +61,10 @@
 #include <StepToGeom_MakeCartesianPoint.hxx>
 #include <StepToGeom_MakeSurface.hxx>
 
-#include <Geom_Surface.hxx>
-#include <Geom_BoundedSurface.hxx>
-#include <Geom_Curve.hxx>
-#include <Geom_CartesianPoint.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_BoundedSurface.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_CartesianPoint.hxx>
 
 #include <BRepLib_MakeFace.hxx>
 #include <BRepLib_MakeEdge.hxx>
@@ -79,7 +79,7 @@
 #include <TopoDS_Compound.hxx>
 #include <TopExp_Explorer.hxx>
 
-#include <Geom_RectangularTrimmedSurface.hxx>
+#include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
 
 #include <ShapeFix_ShapeTolerance.hxx>
 #include <StepShape_ConnectedEdgeSet.hxx>

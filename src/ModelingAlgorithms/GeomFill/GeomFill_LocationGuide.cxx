@@ -28,7 +28,7 @@
 #include <Mathematics/Collections/TColgp_Array1OfVec2d.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt2d.hxx>
 #include <GeomFill_LocationGuide.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -56,9 +56,9 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_LocationGuide)
 #include <Mathematics/Optimization/math_FunctionSetRoot.hxx>
 #include <Precision.hxx>
 
-#include <Geom_SurfaceOfRevolution.hxx>
-#include <Geom_BSplineCurve.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_SurfaceOfRevolution.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 
 #include <Geometry/Adaptor3d/Adaptor3d_SurfaceOfRevolution.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
@@ -72,8 +72,8 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_LocationGuide)
 
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <GeomFill_SectionLaw.hxx>
-#include <Geom_Curve.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
@@ -81,7 +81,7 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_LocationGuide)
 #include <GeomFill_FunctionGuide.hxx>
 #include <GeomFill_UniformSection.hxx>
 #include <GeomFill_SectionPlacement.hxx>
-#include <Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <GeomLib.hxx>
 #include <ElCLib.hxx>
 

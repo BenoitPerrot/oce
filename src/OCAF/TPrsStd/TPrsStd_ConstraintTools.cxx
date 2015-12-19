@@ -21,7 +21,7 @@
 #include <AIS_InteractiveObject.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <TopoDS_Shape.hxx>
-#include <Geom_Geometry.hxx>
+#include <Geometry/Geom/Geom_Geometry.hxx>
 #include <TPrsStd_ConstraintTools.hxx>
 
 #include <stdio.h>
@@ -73,11 +73,11 @@
 #include <BRepAdaptor_Surface.hxx>
 
 #include <GeomAbs_SurfaceType.hxx>
-#include <Geom_Geometry.hxx>
-#include <Geom_Line.hxx>
-#include <Geom_Plane.hxx>
-#include <Geom_CartesianPoint.hxx>
-#include <Geom_Circle.hxx>
+#include <Geometry/Geom/Geom_Geometry.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_CartesianPoint.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>

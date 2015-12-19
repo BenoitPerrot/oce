@@ -180,7 +180,7 @@ static Standard_Integer OCC426 (Draw_Interpretor& di, Standard_Integer argc, con
   return 0;
 }
 
-#include <Geom_SurfaceOfRevolution.hxx>
+#include <Geometry/Geom/Geom_SurfaceOfRevolution.hxx>
 //=======================================================================
 //function : isPeriodic
 //purpose  :
@@ -279,7 +279,7 @@ static Standard_Integer OCC486(Draw_Interpretor& di, Standard_Integer argc, cons
 #include <BRepLib_MakeWire.hxx>
 #include <TopoDS_Wire.hxx>
 #include <BRepLib_MakeFace.hxx>
-#include <Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <BRepPrimAPI_MakePrism.hxx>
 #include <BRepOffsetAPI_DraftAngle.hxx>
@@ -736,7 +736,7 @@ static Standard_Integer OCC824 (Draw_Interpretor& di,Standard_Integer argc, cons
 
 #include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
 #include <GeomConvert.hxx>
-#include <Geom_BezierSurface.hxx>
+#include <Geometry/Geom/Geom_BezierSurface.hxx>
 #include <BRepPrimAPI_MakeHalfSpace.hxx>
 
 //=======================================================================

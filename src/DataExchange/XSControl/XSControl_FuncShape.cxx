@@ -55,7 +55,7 @@
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <TopExp_Explorer.hxx>
 
-#include <Geom_Geometry.hxx>
+#include <Geometry/Geom/Geom_Geometry.hxx>
 #include <Geom2d_Curve.hxx>
 
 #include <IFSelect_CheckCounter.hxx>

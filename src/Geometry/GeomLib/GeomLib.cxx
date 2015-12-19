@@ -43,23 +43,23 @@
 
 // Declarations:	
 
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <Geom2d_Curve.hxx>
 #include <Mathematics/Primitives/gp_GTrsf2d.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>
-#include <Geom_BoundedCurve.hxx>
+#include <Geometry/Geom/Geom_BoundedCurve.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <Geom_BoundedSurface.hxx>
+#include <Geometry/Geom/Geom_BoundedSurface.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
-#include <Geom_BSplineSurface.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_BSplineSurface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <GeomLib.hxx>
 
@@ -87,27 +87,27 @@
 #include <Geom2dAdaptor_GHCurve.hxx>
 
 #include <Geom2d_BSplineCurve.hxx>
-#include <Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Geom2d_BezierCurve.hxx>
-#include <Geom_BezierCurve.hxx>
-#include <Geom_RectangularTrimmedSurface.hxx>
-#include <Geom_Plane.hxx>
-#include <Geom_Line.hxx>
+#include <Geometry/Geom/Geom_BezierCurve.hxx>
+#include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
 #include <Geom2d_Line.hxx>
-#include <Geom_Circle.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx>
 #include <Geom2d_Circle.hxx>
-#include <Geom_Ellipse.hxx>
+#include <Geometry/Geom/Geom_Ellipse.hxx>
 #include <Geom2d_Ellipse.hxx>
-#include <Geom_Parabola.hxx>
+#include <Geometry/Geom/Geom_Parabola.hxx>
 #include <Geom2d_Parabola.hxx>
-#include <Geom_Hyperbola.hxx>
+#include <Geometry/Geom/Geom_Hyperbola.hxx>
 #include <Geom2d_Hyperbola.hxx>
-#include <Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Geom2d_TrimmedCurve.hxx>
-#include <Geom_OffsetCurve.hxx>
+#include <Geometry/Geom/Geom_OffsetCurve.hxx>
 #include <Geom2d_OffsetCurve.hxx>
-#include <Geom_BezierSurface.hxx>
-#include <Geom_BSplineSurface.hxx>
+#include <Geometry/Geom/Geom_BezierSurface.hxx>
+#include <Geometry/Geom/Geom_BSplineSurface.hxx>
 
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Mathematics/BetaSpline/BSplSLib.hxx>

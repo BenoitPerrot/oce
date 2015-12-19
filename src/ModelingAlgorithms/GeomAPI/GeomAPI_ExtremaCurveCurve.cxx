@@ -16,7 +16,7 @@
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geometry/Extrema/Extrema_ExtCC.hxx>
 #include <GeomAPI_ExtremaCurveCurve.hxx>

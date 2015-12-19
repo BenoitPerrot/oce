@@ -18,11 +18,11 @@
 //                      if any in all dimensions.
 
 #include <TopoDS_Shape.hxx>
-#include <Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Prs3d_Presentation.hxx>
 #include <Prs3d_Projector.hxx>
-#include <Geom_Transformation.hxx>
+#include <Geometry/Geom/Geom_Transformation.hxx>
 #include <SelectMgr_Selection.hxx>
 #include <AIS_ParallelRelation.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -76,9 +76,9 @@ IMPLEMENT_STANDARD_RTTI(AIS_ParallelRelation)
 
 #include <Geometry/gce/gce_MakeLin.hxx>
 
-#include <Geom_Plane.hxx>
-#include <Geom_Line.hxx>
-#include <Geom_Ellipse.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
+#include <Geometry/Geom/Geom_Ellipse.hxx>
 
 //=======================================================================
 //function : Constructor

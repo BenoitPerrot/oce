@@ -45,8 +45,8 @@
 #include <IGESToBRep_Actor.hxx>
 #include <IGESToBRep_Reader.hxx>
 
-#include <Geom_Curve.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 
 #include <Interface_Macros.hxx>
 #include <Foundation/Message/Message.hxx>

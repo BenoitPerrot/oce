@@ -58,12 +58,12 @@
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
 
 #include <GeomAbs_SurfaceType.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geom2d_Curve.hxx>
-#include <Geom_Surface.hxx>
-#include <Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
 #include <Geom2d_Line.hxx>
-#include <Geom_Line.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
 #include <GeomAdaptor_HSurface.hxx>
 
 #include <BRepAdaptor_Surface.hxx>
@@ -74,7 +74,7 @@
 
 #include <GeomInt_IntSS.hxx>
 #include <GeomAdaptor_HCurve.hxx>
-#include <Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <GeomAPI_ProjectPointOnSurf.hxx>
 #include <GeomAPI_ProjectPointOnCurve.hxx>
 

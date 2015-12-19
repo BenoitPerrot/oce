@@ -35,7 +35,7 @@
 
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geom2d_Curve.hxx>
 #include <TopOpeBRep_FFTransitionTool.hxx>
 #include <TopOpeBRep_PointGeomTool.hxx>

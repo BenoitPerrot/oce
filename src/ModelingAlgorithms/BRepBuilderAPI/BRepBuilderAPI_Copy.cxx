@@ -17,8 +17,8 @@
 #include <TopoDS_Shape.hxx>
 #include <BRepBuilderAPI_Copy.hxx>
 
-#include <Geom_Surface.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geom2d_Curve.hxx>
 #include <BRepTools_Modification.hxx>
 #include <BRep_Tool.hxx>

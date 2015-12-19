@@ -39,7 +39,7 @@ IMPLEMENT_STANDARD_RTTI(BRepTools_ReShape)
 #include <BRep_ListIteratorOfListOfCurveRepresentation.hxx>
 #include <BRep_TEdge.hxx>
 #include <BRep_GCurve.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <BRep_ListOfCurveRepresentation.hxx>
 #include <BRep_GCurve.hxx>

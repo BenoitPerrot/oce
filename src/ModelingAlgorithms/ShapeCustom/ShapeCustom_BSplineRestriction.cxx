@@ -17,10 +17,10 @@
 #include <ShapeAnalysis_Curve.hxx>
 #include <ShapeCustom_RestrictionParameters.hxx>
 #include <TopoDS_Face.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <TopoDS_Edge.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geom2d_Curve.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
@@ -35,30 +35,30 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(ShapeCustom_BSplineRestriction)
 IMPLEMENT_DOWNCAST(ShapeCustom_BSplineRestriction,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ShapeCustom_BSplineRestriction)
-#include <Geom_BSplineSurface.hxx>
+#include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <GeomConvert_ApproxSurface.hxx>
 #include <Geom2dConvert_ApproxCurve.hxx>
 #include <GeomConvert_ApproxCurve.hxx>
 #include <BRepTools_Modifier.hxx>
 #include <BRep_Tool.hxx>
-#include <Geom_TrimmedCurve.hxx>
-#include <Geom_OffsetCurve.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_OffsetCurve.hxx>
 #include <Geom2d_OffsetCurve.hxx>
 #include <Geom2d_TrimmedCurve.hxx>
-#include <Geom_SurfaceOfRevolution.hxx>
-#include <Geom_SurfaceOfLinearExtrusion.hxx>
-#include <Geom_RectangularTrimmedSurface.hxx>
-#include <Geom_OffsetSurface.hxx>
+#include <Geometry/Geom/Geom_SurfaceOfRevolution.hxx>
+#include <Geometry/Geom/Geom_SurfaceOfLinearExtrusion.hxx>
+#include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
+#include <Geometry/Geom/Geom_OffsetSurface.hxx>
 #include <BRep_Builder.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <TopoDS.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
-#include <Geom_BezierSurface.hxx>
-#include <Geom_BezierCurve.hxx>
+#include <Geometry/Geom/Geom_BezierSurface.hxx>
+#include <Geometry/Geom/Geom_BezierCurve.hxx>
 #include <Geom2d_BezierCurve.hxx>
 #include <Geom2d_BSplineCurve.hxx>
-#include <Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <BRep_TEdge.hxx>
 #include <BRep_ListIteratorOfListOfCurveRepresentation.hxx>
 #include <BRep_ListIteratorOfListOfCurveRepresentation.hxx>
@@ -77,17 +77,17 @@ IMPLEMENT_STANDARD_RTTI(ShapeCustom_BSplineRestriction)
 #include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <ShapeConstruct.hxx>
-#include <Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
 #include <Geom2d_Line.hxx>
 #include <Geom2d_Conic.hxx>
 #include <Geom2dConvert.hxx>
-#include <Geom_Line.hxx>
-#include <Geom_Conic.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
+#include <Geometry/Geom/Geom_Conic.hxx>
 #include <GeomConvert.hxx>
-#include <Geom_ConicalSurface.hxx>
-#include <Geom_SphericalSurface.hxx>
-#include <Geom_CylindricalSurface.hxx>
-#include <Geom_ToroidalSurface.hxx>
+#include <Geometry/Geom/Geom_ConicalSurface.hxx>
+#include <Geometry/Geom/Geom_SphericalSurface.hxx>
+#include <Geometry/Geom/Geom_CylindricalSurface.hxx>
+#include <Geometry/Geom/Geom_ToroidalSurface.hxx>
 #include <ShapeAnalysis.hxx>
 
 static GeomAbs_Shape IntegerToGeomAbsShape(const Standard_Integer i)

@@ -113,7 +113,7 @@
 #include <SelectMgr_SequenceOfOwner.hxx>
 #include <Foundation/OSD/OSD_Environment.hxx>
 
-#include <Geom_Transformation.hxx>
+#include <Geometry/Geom/Geom_Transformation.hxx>
 #include <AIS_Selection.hxx>
 #include <Aspect_Grid.hxx>
 #ifdef IMP120701

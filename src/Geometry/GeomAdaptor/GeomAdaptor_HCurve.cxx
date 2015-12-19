@@ -16,7 +16,7 @@
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <GeomAdaptor_Curve.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <GeomAdaptor_HCurve.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(GeomAdaptor_HCurve)

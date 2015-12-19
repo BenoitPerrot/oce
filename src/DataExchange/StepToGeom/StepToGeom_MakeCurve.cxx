@@ -20,11 +20,11 @@
 //:p0 abv 19.02.99: management of 'done' flag improved
 
 #include <StepGeom_Curve.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <StepToGeom_MakeCurve.hxx>
 
-#include <Geom_OffsetCurve.hxx>
-#include <Geom_Direction.hxx>
+#include <Geometry/Geom/Geom_OffsetCurve.hxx>
+#include <Geometry/Geom/Geom_Direction.hxx>
 
 #include <StepGeom_Curve.hxx>
 #include <StepGeom_TrimmedCurve.hxx>

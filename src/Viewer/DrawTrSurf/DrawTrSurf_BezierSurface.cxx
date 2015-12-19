@@ -12,7 +12,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Geom_BezierSurface.hxx>
+#include <Geometry/Geom/Geom_BezierSurface.hxx>
 #include <Draw_Color.hxx>
 #include <Draw_Display.hxx>
 #include <Draw_Drawable3D.hxx>
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_TYPE_END(DrawTrSurf_BezierSurface)
 IMPLEMENT_DOWNCAST(DrawTrSurf_BezierSurface,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(DrawTrSurf_BezierSurface)
 #include <DrawTrSurf_BezierCurve.hxx>
-#include <Geom_BezierSurface.hxx>
+#include <Geometry/Geom/Geom_BezierSurface.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>

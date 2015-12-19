@@ -34,7 +34,7 @@
 #include <TopExp_Explorer.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 
 #include <ElCLib.hxx>
 #include <BRepTools.hxx>

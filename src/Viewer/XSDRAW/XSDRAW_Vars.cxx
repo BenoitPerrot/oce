@@ -12,10 +12,10 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Geom_Geometry.hxx>
+#include <Geometry/Geom/Geom_Geometry.hxx>
 #include <Geom2d_Curve.hxx>
-#include <Geom_Curve.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <TopoDS_Shape.hxx>
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(XSDRAW_Vars)
 IMPLEMENT_DOWNCAST(XSDRAW_Vars,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XSDRAW_Vars)
-#include <Geom_Geometry.hxx>
+#include <Geometry/Geom/Geom_Geometry.hxx>
 #include <Geom2d_Curve.hxx>
 
 #include <DrawTrSurf.hxx>

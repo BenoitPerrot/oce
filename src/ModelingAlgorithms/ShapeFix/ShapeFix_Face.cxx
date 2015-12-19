@@ -31,7 +31,7 @@
 #include <ShapeAnalysis_Surface.hxx>
 #include <ShapeFix_Wire.hxx>
 #include <TopoDS_Face.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <ShapeExtend_BasicMsgRegistrator.hxx>
 #include <TopoDS_Wire.hxx>
 #include <TopTools_DataMapOfShapeListOfShape.hxx>
@@ -59,8 +59,8 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Face)
 #include <Geom2d_Curve.hxx>
 #include <Geom2d_Line.hxx>
 #include <Geom2dAdaptor_Curve.hxx>
-#include <Geom_Curve.hxx>
-#include <Geom_BSplineSurface.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <GeomAdaptor_HSurface.hxx>
 
 #include <TopoDS.hxx>
@@ -88,10 +88,10 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Face)
 #include <ShapeFix_Edge.hxx>
 #include <ShapeAnalysis_Edge.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
-#include <Geom_Circle.hxx>
-#include <Geom_SphericalSurface.hxx>
-#include <Geom_RectangularTrimmedSurface.hxx>
-#include <Geom_ConicalSurface.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx>
+#include <Geometry/Geom/Geom_SphericalSurface.hxx>
+#include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
+#include <Geometry/Geom/Geom_ConicalSurface.hxx>
 #include <ShapeAnalysis_Wire.hxx>
 #include <ShapeAnalysis_Surface.hxx>
 

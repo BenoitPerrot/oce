@@ -32,8 +32,8 @@
 #include <HLRAlgo_Projector.hxx>
 #include <HLRBRep_Curve.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
-#include <Geom_BSplineSurface.hxx>
-#include <Geom_BezierSurface.hxx>
+#include <Geometry/Geom/Geom_BSplineSurface.hxx>
+#include <Geometry/Geom/Geom_BezierSurface.hxx>
 
 //=======================================================================
 //function : HLRBRep_Surface

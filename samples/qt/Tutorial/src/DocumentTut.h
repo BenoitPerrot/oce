@@ -2,7 +2,7 @@
 #define DOCUMENTTUT_H
 
 #include "DocumentCommon.h"
-#include <Geom_BSplineSurface.hxx>
+#include <Geometry/Geom/Geom_BSplineSurface.hxx>
 
 class SurfConstruction;
 class ApplicationCommon;

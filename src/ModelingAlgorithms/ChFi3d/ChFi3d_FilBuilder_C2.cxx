@@ -51,7 +51,7 @@
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Mathematics/Primitives/gp_Ax3.hxx>
-#include <Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Geom2d_TrimmedCurve.hxx>
 #include <Geom2d_BSplineCurve.hxx>
 #include <Law_Linear.hxx>
@@ -113,7 +113,7 @@
 #include <DrawTrSurf.hxx>
 #endif
 #ifdef OCCT_DEBUG
-#include <Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 extern Standard_Boolean ChFi3d_GettraceDRAWSPINE();
 extern Standard_Boolean ChFi3d_GetcontextFORCEFILLING();
 #include <Foundation/OSD/OSD_Chronometer.hxx>

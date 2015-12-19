@@ -18,7 +18,7 @@
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Geom_AxisPlacement.hxx>
+#include <Geometry/Geom/Geom_AxisPlacement.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Geom_AxisPlacement)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -29,19 +29,19 @@ IMPLEMENT_STANDARD_TYPE_END(ShapeUpgrade_ConvertCurve3dToBezier)
 IMPLEMENT_DOWNCAST(ShapeUpgrade_ConvertCurve3dToBezier,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_ConvertCurve3dToBezier)
 #include <Precision.hxx>
-#include <Geom_TrimmedCurve.hxx>
-#include <Geom_BezierCurve.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_BezierCurve.hxx>
 #include <ShapeExtend.hxx>
-#include <Geom_Line.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
-#include <Geom_BSplineCurve.hxx>
-#include <Geom_Conic.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_Conic.hxx>
 #include <GeomConvert_ApproxCurve.hxx>
 #include <GeomConvert.hxx>
 #include <GeomConvert_BSplineCurveToBezierCurve.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <TColGeom_HArray1OfCurve.hxx>
-#include <Geom_Circle.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx>
 
 ShapeUpgrade_ConvertCurve3dToBezier::ShapeUpgrade_ConvertCurve3dToBezier()
 {

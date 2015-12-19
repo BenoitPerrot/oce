@@ -66,11 +66,11 @@
 
 #include <GeomAPI.hxx>
 #include <Geom2dAdaptor_Curve.hxx>
-#include <Geom_Surface.hxx>
-#include <Geom_Plane.hxx>
-#include <Geom_Curve.hxx>
-#include <Geom_Line.hxx>
-#include <Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Geom2d_CartesianPoint.hxx>
 #include <Geom2d_Curve.hxx>
 #include <Geom2d_Line.hxx>
@@ -78,7 +78,7 @@
 #include <Geom2d_TrimmedCurve.hxx>
 #include <Geom2d_Geometry.hxx>
 #include <GeomProjLib.hxx>
-#include <Geom_RectangularTrimmedSurface.hxx>
+#include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
 #include <Geom2dAdaptor_Curve.hxx>
 
 #include <Geom2dAPI_ExtremaCurveCurve.hxx>

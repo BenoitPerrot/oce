@@ -36,8 +36,8 @@
 #include <IGESGeom_OffsetCurve.hxx>
 #include <IGESGeom_CurveOnSurface.hxx>
 #include <IGESGeom_Boundary.hxx>
-#include <Geom_BSplineCurve.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geom2d_BSplineCurve.hxx>
 #include <Geom2d_Curve.hxx>
 #include <IGESToBRep_TopoCurve.hxx>
@@ -56,11 +56,11 @@
 #include <BRepLib_MakeFace.hxx>
 #include <BRepTools.hxx>
 
-#include <Geom_BSplineCurve.hxx>
-#include <Geom_Curve.hxx>
-#include <Geom_OffsetCurve.hxx>
-#include <Geom_Plane.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_OffsetCurve.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 
 #include <Geom2d_BSplineCurve.hxx>
 #include <Geom2d_Curve.hxx>
@@ -110,7 +110,7 @@
 #include <TopoDS_Iterator.hxx>
 
 #include <stdio.h>
-#include <Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 
 #include <TColGeom_HSequenceOfBoundedCurve.hxx>
 #include <TColGeom2d_HSequenceOfBoundedCurve.hxx>

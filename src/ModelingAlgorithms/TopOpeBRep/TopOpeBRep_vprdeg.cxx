@@ -37,7 +37,7 @@
 #include <TopOpeBRepDS_DRAW.hxx>
 #endif
 
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geom2d_Line.hxx>
 #include <Geom2d_Curve.hxx>
 

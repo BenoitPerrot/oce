@@ -32,11 +32,11 @@
 #include <Geometry/gce/gce_MakeCone.hxx>
 #include <Geometry/gce/gce_MakePln.hxx>
 #include <Geometry/gce/gce_MakeDir.hxx>
-#include <Geom_Circle.hxx>
-#include <Geom_TrimmedCurve.hxx>
-#include <Geom_ConicalSurface.hxx>
-#include <Geom_SurfaceOfRevolution.hxx>
-#include <Geom_OffsetSurface.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_ConicalSurface.hxx>
+#include <Geometry/Geom/Geom_SurfaceOfRevolution.hxx>
+#include <Geometry/Geom/Geom_OffsetSurface.hxx>
 #include <Graphic3d_ArrayOfSegments.hxx>
 #include <Graphic3d_Group.hxx>
 #include <Graphic3d_ArrayOfPolylines.hxx>

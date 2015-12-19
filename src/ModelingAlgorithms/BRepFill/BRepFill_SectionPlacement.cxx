@@ -31,11 +31,11 @@
 #include <BRepExtrema_DistShapeShape.hxx>
 #include <BRepExtrema_SupportType.hxx>
 
-#include <Geom_Curve.hxx>
-#include <Geom_CartesianPoint.hxx>
-#include <Geom_TrimmedCurve.hxx>
-#include <Geom_Line.hxx>
-#include <Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_CartesianPoint.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <GeomConvert_CompCurveToBSplineCurve.hxx>
 #include <GeomAdaptor_HCurve.hxx>
 #include <GeomFill_SectionPlacement.hxx>

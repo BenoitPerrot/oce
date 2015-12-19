@@ -22,9 +22,9 @@
 #include <TopoDS_Solid.hxx>
 #include <IntTools_Range.hxx>
 #include <TopoDS_Shell.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geom2d_Curve.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <BOPTools_AlgoTools.hxx>
 
 #include <Precision.hxx>
@@ -35,7 +35,7 @@
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <IntTools_Curve.hxx>
 #include <BRepLib_MakeEdge.hxx>
 #include <BRepAdaptor_Curve.hxx>

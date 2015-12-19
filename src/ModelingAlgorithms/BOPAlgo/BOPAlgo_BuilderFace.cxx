@@ -30,7 +30,7 @@
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 //
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 //
 #include <TopAbs.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>

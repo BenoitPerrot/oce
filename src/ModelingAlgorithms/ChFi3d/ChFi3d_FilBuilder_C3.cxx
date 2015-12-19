@@ -54,9 +54,9 @@
 
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 
-#include <Geom_Plane.hxx>
-#include <Geom_Circle.hxx>
-#include <Geom_BezierCurve.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx>
+#include <Geometry/Geom/Geom_BezierCurve.hxx>
 #include <Geom2d_BezierCurve.hxx>
 #include <Geom2d_Curve.hxx>
 #include <Geom2d_TrimmedCurve.hxx>
@@ -116,7 +116,7 @@
 #include <DrawTrSurf.hxx>
 #endif
 #ifdef OCCT_DEBUG
-#include <Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 extern Standard_Boolean ChFi3d_GettraceDRAWSPINE();
 extern Standard_Boolean ChFi3d_GetcontextSPINEBEZIER();
 extern Standard_Boolean ChFi3d_GetcontextSPINECIRCLE();

@@ -48,9 +48,9 @@
 
 #include <BRepLib_MakeEdge.hxx>
 
-#include <Geom_Line.hxx>
-#include <Geom_Curve.hxx>
-#include <Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 
 #include <BRepLib_MakeVertex.hxx>
 

@@ -32,8 +32,8 @@
 
 #include <BRepTools_TrsfModification.hxx>
 #include <BRepTools_Modifier.hxx>
-#include <Geom_Curve.hxx>
-#include <Geom_Circle.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx>
 
 
 #include <BRepLib_MakeVertex.hxx>

@@ -38,8 +38,8 @@
 #include <ElSLib.hxx>
 
 #include <Geom2d_Line.hxx>
-#include <Geom_Line.hxx>
-#include <Geom_CylindricalSurface.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
+#include <Geometry/Geom/Geom_CylindricalSurface.hxx>
 
 #include <IntAna_QuadQuadGeo.hxx>
 

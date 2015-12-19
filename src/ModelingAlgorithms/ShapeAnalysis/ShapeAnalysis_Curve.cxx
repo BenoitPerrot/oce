@@ -19,7 +19,7 @@
 //    abv 14.05.99 S4174: Adding method for exact computing of the boundary box 
 //    gka 21.06.99 S4208: adding method NextProject(Adaptor_Curve)
 //    msv 30.05.00 correct IsPlanar for a conic curve
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
 #include <Geom2d_Curve.hxx>
@@ -34,7 +34,7 @@
 
 #include <Geom2d_BoundedCurve.hxx>
 #include <Geom2d_Line.hxx>
-#include <Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <GeomAdaptor_Curve.hxx>
 
 #include <Precision.hxx>
@@ -45,11 +45,11 @@
 #include <Geometry/Extrema/Extrema_ExtPC.hxx>
 #include <ShapeAnalysis.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
-#include <Geom_Line.hxx>
-#include <Geom_Conic.hxx>
-#include <Geom_TrimmedCurve.hxx>
-#include <Geom_OffsetCurve.hxx>
-#include <Geom_BezierCurve.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
+#include <Geometry/Geom/Geom_Conic.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_OffsetCurve.hxx>
+#include <Geometry/Geom/Geom_BezierCurve.hxx>
 #include <ShapeExtend_ComplexCurve.hxx>
 #include <Geom2d_Conic.hxx>
 #include <Geom2d_TrimmedCurve.hxx>
@@ -59,7 +59,7 @@
 #include <Geom2d_OffsetCurve.hxx>
 #include <Geom2dInt_Geom2dCurveTool.hxx>
 #include <Geom2dAdaptor_Curve.hxx>
-#include <Geom_Circle.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx>
 #include <Geometry/Extrema/Extrema_LocateExtPC.hxx>
 
 //=======================================================================

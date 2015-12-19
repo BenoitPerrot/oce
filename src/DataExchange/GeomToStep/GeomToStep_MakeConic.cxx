@@ -16,16 +16,16 @@
 
 #include <StepGeom_Conic.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <Geom_Conic.hxx>
+#include <Geometry/Geom/Geom_Conic.hxx>
 #include <Geom2d_Conic.hxx>
 #include <GeomToStep_MakeConic.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <StepGeom_Conic.hxx>
 #include <GeomToStep_MakeConic.hxx>
-#include <Geom_Circle.hxx>
-#include <Geom_Ellipse.hxx>
-#include <Geom_Hyperbola.hxx>
-#include <Geom_Parabola.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx>
+#include <Geometry/Geom/Geom_Ellipse.hxx>
+#include <Geometry/Geom/Geom_Hyperbola.hxx>
+#include <Geometry/Geom/Geom_Parabola.hxx>
 #include <Geom2d_Circle.hxx>
 #include <Geom2d_Ellipse.hxx>
 #include <Geom2d_Hyperbola.hxx>

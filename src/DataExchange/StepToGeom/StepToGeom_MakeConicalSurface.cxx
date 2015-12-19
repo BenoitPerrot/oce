@@ -15,12 +15,12 @@
 // commercial license or contractual agreement.
 
 #include <StepGeom_ConicalSurface.hxx>
-#include <Geom_ConicalSurface.hxx>
+#include <Geometry/Geom/Geom_ConicalSurface.hxx>
 #include <StepToGeom_MakeConicalSurface.hxx>
-#include <Geom_ConicalSurface.hxx>
+#include <Geometry/Geom/Geom_ConicalSurface.hxx>
 #include <StepGeom_Axis2Placement3d.hxx>
 #include <StepToGeom_MakeAxis2Placement.hxx>
-#include <Geom_Axis2Placement.hxx>
+#include <Geometry/Geom/Geom_Axis2Placement.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <Precision.hxx>//#2(K3-3) rln
 #include <UnitsMethods.hxx>

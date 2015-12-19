@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Draw_Text3D.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <Draw_Color.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(TestTopOpeDraw_DrawableSUR)
 IMPLEMENT_DOWNCAST(TestTopOpeDraw_DrawableSUR,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TestTopOpeDraw_DrawableSUR)
-#include <Geom_RectangularTrimmedSurface.hxx>
+#include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
 #include <BRepAdaptor_Surface.hxx>
 #include <BRepTools.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>

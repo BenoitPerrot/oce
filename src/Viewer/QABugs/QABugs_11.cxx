@@ -26,7 +26,7 @@
 #include <AIS_Shape.hxx>
 #include <TopoDS_Shape.hxx>
 
-#include <Geom_Axis2Placement.hxx>
+#include <Geometry/Geom/Geom_Axis2Placement.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <AIS_Trihedron.hxx>
@@ -72,7 +72,7 @@
 #include <TDF_CopyLabel.hxx>
 #include <Foundation/NCollection/NCollection_Vector.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
-#include <Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <AIS_ListOfInteractive.hxx>
 #include <AIS_ListIteratorOfListOfInteractive.hxx>
@@ -591,7 +591,7 @@ Standard_Integer  OCC165(Draw_Interpretor& di ,
 
 #include<BRepPrimAPI_MakeHalfSpace.hxx>
 #include<Handle_Geom_CartesianPoint.hxx>
-#include<Geom_CartesianPoint.hxx>
+#include<Geometry/Geom/Geom_CartesianPoint.hxx>
 #include<AIS_Point.hxx>
 
 #include <BRepLib_MakeEdge.hxx>
@@ -4870,7 +4870,7 @@ static Standard_Integer OCC18612igesbrep (Draw_Interpretor& di, Standard_Integer
   return 0;
 }
 
-#include <Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
 static Standard_Integer OCC20766 (Draw_Interpretor& di, Standard_Integer argc, const char ** argv)
 {
   if (argc != 6)

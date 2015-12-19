@@ -37,7 +37,7 @@
 #include <Geom2d_Curve.hxx>
 #include <GeomAdaptor_Surface.hxx>
 #include <TopExp_Explorer.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 
 //=======================================================================
 // forward declarations of aux functions

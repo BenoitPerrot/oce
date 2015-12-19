@@ -32,9 +32,9 @@ IMPLEMENT_STANDARD_RTTI(TPrsStd_GeometryDriver)
 #include <TNaming_NamedShape.hxx>
 #include <TNaming_Tool.hxx>
 #include <TDataXtd_Geometry.hxx>
-#include <Geom_CartesianPoint.hxx>
-#include <Geom_Line.hxx>
-#include <Geom_Circle.hxx>
+#include <Geometry/Geom/Geom_CartesianPoint.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx>
 #include <AIS_Line.hxx>
 #include <AIS_Point.hxx>
 #include <AIS_Circle.hxx>

@@ -24,7 +24,7 @@
 #include <ChFiDS_Spine.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <TopTools_ListOfShape.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <ChFiDS_SurfData.hxx>
 #include <ChFiDS_HElSpine.hxx>
 #include <BRepAdaptor_HSurface.hxx>
@@ -68,9 +68,9 @@
 #include <Mathematics/Collections/TColgp_Array1OfVec.hxx>
 #include <ElCLib.hxx>
 
-#include <Geom_BSplineCurve.hxx>
-#include <Geom_Line.hxx>
-#include <Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
 #include <Geom2d_Curve.hxx>
 #include <GeomAPI_ProjectPointOnCurve.hxx>
 

@@ -16,14 +16,14 @@
 
 #include <StepGeom_BoundedSurface.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <Geom_BoundedSurface.hxx>
+#include <Geometry/Geom/Geom_BoundedSurface.hxx>
 #include <GeomToStep_MakeBoundedSurface.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <StepGeom_BoundedSurface.hxx>
 #include <GeomToStep_MakeBoundedSurface.hxx>
-#include <Geom_BSplineSurface.hxx>
-#include <Geom_RectangularTrimmedSurface.hxx>
-#include <Geom_BezierSurface.hxx>
+#include <Geometry/Geom/Geom_BSplineSurface.hxx>
+#include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
+#include <Geometry/Geom/Geom_BezierSurface.hxx>
 #include <GeomConvert.hxx>
 #include <GeomToStep_MakeBSplineSurfaceWithKnots.hxx>
 #include <GeomToStep_MakeBSplineSurfaceWithKnotsAndRationalBSplineSurface.hxx>

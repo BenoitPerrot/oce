@@ -14,9 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Geom_BezierSurface.hxx>
+#include <Geometry/Geom/Geom_BezierSurface.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <Geom_BezierCurve.hxx>
+#include <Geometry/Geom/Geom_BezierCurve.hxx>
 #include <GeomFill_BezierCurves.hxx>
 
 #include <GeomFill_Filling.hxx>
@@ -25,8 +25,8 @@
 #include <GeomFill_Curved.hxx>
 
 #include <Precision.hxx>
-#include <Geom_BezierCurve.hxx>
-#include <Geom_BezierSurface.hxx>
+#include <Geometry/Geom/Geom_BezierCurve.hxx>
+#include <Geometry/Geom/Geom_BezierSurface.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>

@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geom2d_Curve.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Face.hxx>
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeAnalysis_TransferParametersProj)
 #include <Geom2dAdaptor_HCurve.hxx>
 #include <Geom2d_Curve.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <GeomAdaptor_HSurface.hxx>
 #include <BRep_Tool.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>

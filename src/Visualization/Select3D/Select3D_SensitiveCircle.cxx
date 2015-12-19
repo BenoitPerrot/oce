@@ -16,7 +16,7 @@
 
 // Modified    Tue Apr 14 1998 by rob : fix Bug : Case of Null Radius Circle...
 
-#include <Geom_Circle.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <SelectBasics_EntityOwner.hxx>

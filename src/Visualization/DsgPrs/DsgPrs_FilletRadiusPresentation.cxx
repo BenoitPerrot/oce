@@ -19,7 +19,7 @@
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
-#include <Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <DsgPrs_FilletRadiusPresentation.hxx>
 
 #include <Mathematics/Primitives/gp_Lin.hxx>
@@ -48,8 +48,8 @@
 #include <DsgPrs.hxx>
 #include <Precision.hxx>
 
-#include <Geom_Circle.hxx>
-#include <Geom_Line.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
 #include <GeomAPI_ExtremaCurveCurve.hxx>
 
 //pop pour NT

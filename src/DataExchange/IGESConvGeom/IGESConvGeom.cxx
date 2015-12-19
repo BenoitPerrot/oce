@@ -21,10 +21,10 @@
 //%13 pdn 12.02.99: USA60293 avoid applying transformation twice
 
 #include <IGESGeom_SplineCurve.hxx>
-#include <Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Geom2d_BSplineCurve.hxx>
 #include <IGESGeom_SplineSurface.hxx>
-#include <Geom_BSplineSurface.hxx>
+#include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <IGESConvGeom.hxx>
 
 #include <IGESData_ToolLocation.hxx>

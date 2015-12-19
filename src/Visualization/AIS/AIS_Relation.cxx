@@ -22,15 +22,15 @@
 #include <AIS.hxx>
 #include <Graphic3d_Group.hxx>
 
-#include <Geom_Plane.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <TopoDS_Shape.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Prs3d_Presentation.hxx>
 #include <TopoDS_Edge.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <AIS_Relation.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -50,9 +50,9 @@ IMPLEMENT_STANDARD_RTTI(AIS_Relation)
 #include <AIS_GraphicTool.hxx>
 #include <BRepLib_MakeEdge.hxx>
 #include <BRep_Tool.hxx>
-#include <Geom_Circle.hxx>
-#include <Geom_Line.hxx>
-#include <Geom_CartesianPoint.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
+#include <Geometry/Geom/Geom_CartesianPoint.hxx>
 
 #include <Prs3d_LineAspect.hxx>
 #include <Prs3d_DimensionAspect.hxx>

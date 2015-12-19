@@ -19,7 +19,7 @@
 #include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <Mathematics/Primitives/gp_Ax3.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
-#include <Geom_Axis2Placement.hxx>
+#include <Geometry/Geom/Geom_Axis2Placement.hxx>
 #include <GeomToStep_MakeAxis2Placement3d.hxx>
 #include <StepGeom_Direction.hxx>
 #include <GeomToStep_MakeDirection.hxx>
@@ -28,7 +28,7 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <Mathematics/Primitives/gp_Ax3.hxx>
-#include <Geom_Axis2Placement.hxx>
+#include <Geometry/Geom/Geom_Axis2Placement.hxx>
 #include <StepGeom_Axis2Placement3d.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 

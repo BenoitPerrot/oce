@@ -17,7 +17,7 @@
 #include <StepGeom_Circle.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
-#include <Geom_Circle.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx>
 #include <Geom2d_Circle.hxx>
 #include <GeomToStep_MakeCircle.hxx>
 #include <GeomToStep_MakeAxis2Placement3d.hxx>
@@ -25,7 +25,7 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
 #include <Mathematics/Primitives/gp_Circ2d.hxx>
-#include <Geom_Circle.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx>
 #include <StepGeom_Circle.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <UnitsMethods.hxx>

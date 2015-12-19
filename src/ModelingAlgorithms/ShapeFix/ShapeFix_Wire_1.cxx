@@ -18,7 +18,7 @@
 
 #include <Precision.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geom2d_Curve.hxx>
 #include <Geom2d_Line.hxx>
 
@@ -42,14 +42,14 @@
 #include <ShapeAnalysis_Surface.hxx>
 #include <ShapeAnalysis.hxx>
 #include <GeomConvert_CompCurveToBSplineCurve.hxx>
-#include <Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <GeomAPI.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
-#include <Geom_BSplineCurve.hxx>
-#include <Geom_SphericalSurface.hxx> //S4135
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_SphericalSurface.hxx> //S4135
 #include <Geom2d_BSplineCurve.hxx>
 #include <GeomAdaptor_Curve.hxx>
 #include <GeomAdaptor_HSurface.hxx>
@@ -79,12 +79,12 @@
 #include <Geometry/Approx/Approx_Curve2d.hxx>
 #include <Geom2dConvert.hxx>
 
-#include <Geom_Line.hxx>
-#include <Geom_Circle.hxx>
-#include <Geom_Ellipse.hxx>
-#include <Geom_Parabola.hxx>
-#include <Geom_Hyperbola.hxx>
-#include <Geom_OffsetCurve.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx>
+#include <Geometry/Geom/Geom_Ellipse.hxx>
+#include <Geometry/Geom/Geom_Parabola.hxx>
+#include <Geometry/Geom/Geom_Hyperbola.hxx>
+#include <Geometry/Geom/Geom_OffsetCurve.hxx>
 #include <GeomAPI_ExtremaCurveCurve.hxx>
 #include <GeomAPI_ProjectPointOnCurve.hxx>
 #include <GeomAdaptor_HCurve.hxx>

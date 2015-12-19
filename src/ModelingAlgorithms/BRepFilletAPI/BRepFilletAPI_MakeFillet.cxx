@@ -25,7 +25,7 @@
 #include <TopOpeBRepBuild_HBuilder.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <ChFiDS_SecHArray1.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <BRepFilletAPI_MakeFillet.hxx>
 #include <TopExp_Explorer.hxx>
 #include <TopOpeBRepDS_HDataStructure.hxx>

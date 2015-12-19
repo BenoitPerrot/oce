@@ -20,13 +20,13 @@
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Mathematics/Polynomial/PLib.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <Geom_UndefinedDerivative.hxx>
+#include <Geometry/Geom/Geom_UndefinedDerivative.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Precision.hxx>
 #include <Geometry/Approx/Approx_FitAndDivide2d.hxx>
 #include <Mathematics/Optimization/math.hxx>
 #include <Geometry/AppParCurves/AppParCurves_MultiCurve.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <Geom2d_BSplineCurve.hxx>
 #include <Geom2d_BezierCurve.hxx>
 #include <Geom2d_Line.hxx>
@@ -35,11 +35,11 @@
 #include <Geom2d_Hyperbola.hxx>
 #include <Geom2d_Parabola.hxx>
 #include <Geom2d_TrimmedCurve.hxx>
-#include <Geom_BSplineSurface.hxx>
-#include <Geom_BezierSurface.hxx>
-#include <Geom_BSplineCurve.hxx>
-#include <Geom_BezierCurve.hxx>
-#include <Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_BSplineSurface.hxx>
+#include <Geometry/Geom/Geom_BezierSurface.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_BezierCurve.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/Collections/TColgp_Array2OfPnt2d.hxx>

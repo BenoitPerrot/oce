@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <TopOpeBRepDS_Interference.hxx>
 #include <TopoDS_Shape.hxx>
 #include <Geom2d_Curve.hxx>

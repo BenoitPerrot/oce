@@ -18,7 +18,7 @@
 
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Wire.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 
 //! A class making a chamfer between two linear edges.
 class ChFi2d_ChamferAPI

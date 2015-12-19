@@ -44,8 +44,8 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_LocationDraft)
 #include <GeomAdaptor_HCurve.hxx>
 #include <GeomAdaptor_HSurface.hxx>
 
-#include <Geom_Surface.hxx>
-#include <Geom_Line.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
 
 #include <GeomFill_TrihedronLaw.hxx>
 #include <GeomFill_FunctionDraft.hxx>

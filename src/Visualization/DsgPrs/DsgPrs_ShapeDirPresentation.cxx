@@ -24,8 +24,8 @@
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 
 #include <Geom2d_Line.hxx>
-#include <Geom_Curve.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <GeomLProp_CLProps.hxx>
 #include <GeomLProp_SLProps.hxx>
 

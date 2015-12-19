@@ -30,8 +30,8 @@
 #include <GeomAbs_IsoType.hxx>
 #include <GeomAbs_Shape.hxx>
 
-#include <Geom_BSplineSurface.hxx>
-#include <Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_BSplineSurface.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <GeomConvert.hxx>
 
 

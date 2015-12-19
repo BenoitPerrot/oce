@@ -35,15 +35,15 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_FixSmallFace)
 #include <TopExp.hxx>
 #include <BRep_Tool.hxx>
 
-#include <Geom_Curve.hxx>
-#include <Geom_Surface.hxx>
-#include <Geom_BSplineSurface.hxx>
-#include <Geom_BezierSurface.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_BSplineSurface.hxx>
+#include <Geometry/Geom/Geom_BezierSurface.hxx>
 
 #include <ShapeAnalysis_Curve.hxx>
 //#include <GeomLProp_SLProps.hxx>
 #include <GeomAdaptor_Surface.hxx>
-#include <Geom_ElementarySurface.hxx>
+#include <Geometry/Geom/Geom_ElementarySurface.hxx>
 //#include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
@@ -61,7 +61,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_FixSmallFace)
 #include <Precision.hxx>
 #include <TopoDS_Wire.hxx>
 #include <ShapeFix_Wire.hxx>
-#include <Geom_Line.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
 #include <TopExp.hxx>
 #include <ElCLib.hxx>
 #include <TopoDS_Builder.hxx>
@@ -72,7 +72,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_FixSmallFace)
 #include <GeomLib.hxx>
 #include <ShapeFix_Face.hxx>
 #include <ShapeFix_Wire.hxx>
-#include <Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <GeomAdaptor_Curve.hxx>
 #include <ShapeFix_Shape.hxx>
 #include <Precision.hxx>

@@ -14,13 +14,13 @@
 #include <StepGeom_Hyperbola.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geom2d_Hyperbola.hxx>
-#include <Geom_Hyperbola.hxx>
+#include <Geometry/Geom/Geom_Hyperbola.hxx>
 #include <GeomToStep_MakeHyperbola.hxx>
 
 #include <StepGeom_Hyperbola.hxx>
 #include <Mathematics/Primitives/gp_Hypr.hxx>
 #include <Mathematics/Primitives/gp_Hypr2d.hxx>
-#include <Geom_Hyperbola.hxx>
+#include <Geometry/Geom/Geom_Hyperbola.hxx>
 #include <GeomToStep_MakeAxis2Placement2d.hxx>
 #include <GeomToStep_MakeAxis2Placement3d.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>

@@ -32,7 +32,7 @@
 #include <Mathematics/Primitives/gp_Hypr2d.hxx>
 #include <Mathematics/Primitives/gp_Parab2d.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
-#include <Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <HLRBRep_Curve.hxx>
 #include <Mathematics/Primitives/gp.hxx>
@@ -44,8 +44,8 @@
 #include <HLRAlgo.hxx>
 #include <HLRAlgo_Projector.hxx>
 #include <HLRBRep_CLProps.hxx>
-#include <Geom_BSplineCurve.hxx>
-#include <Geom_BezierCurve.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_BezierCurve.hxx>
 
 //OCC155 // jfa 05.03.2002 // bad vectors projection
 

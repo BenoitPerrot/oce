@@ -16,9 +16,9 @@
 
 #include <TopoDS_Shape.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <TopoDS_Edge.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <TopoDS_Face.hxx>
 #include <BRepAdaptor_Surface.hxx>
 #include <BRepAdaptor_Curve.hxx>
@@ -29,12 +29,12 @@
 #include <TopoDS.hxx>
 #include <TopAbs.hxx>
 #include <ElCLib.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Precision.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <Geom2d_Curve.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Face.hxx>
 #include <TopoDS.hxx>
@@ -82,8 +82,8 @@ gp_Pnt TopOpeBRepTool_ShapeTool::Pnt(const TopoDS_Shape& S)
 }
 
 
-#include <Geom_OffsetCurve.hxx>
-#include <Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_OffsetCurve.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 
 //=======================================================================
 //function : BASISCURVE
@@ -107,10 +107,10 @@ Handle(Geom_Curve) TopOpeBRepTool_ShapeTool::BASISCURVE(const TopoDS_Edge& E)
   return BASISCURVE(C);
 }
 
-#include <Geom_OffsetSurface.hxx>
-#include <Geom_RectangularTrimmedSurface.hxx>
-#include <Geom_SurfaceOfRevolution.hxx>
-#include <Geom_SurfaceOfLinearExtrusion.hxx>
+#include <Geometry/Geom/Geom_OffsetSurface.hxx>
+#include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
+#include <Geometry/Geom/Geom_SurfaceOfRevolution.hxx>
+#include <Geometry/Geom/Geom_SurfaceOfLinearExtrusion.hxx>
 
 
 //=======================================================================

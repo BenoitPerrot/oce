@@ -16,14 +16,14 @@
 
 #include <StepGeom_BoundedCurve.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <Geom_BoundedCurve.hxx>
+#include <Geometry/Geom/Geom_BoundedCurve.hxx>
 #include <Geom2d_BoundedCurve.hxx>
 #include <GeomToStep_MakeBoundedCurve.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <StepGeom_BoundedCurve.hxx>
 #include <GeomToStep_MakeBoundedCurve.hxx>
-#include <Geom_BSplineCurve.hxx>
-#include <Geom_BezierCurve.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_BezierCurve.hxx>
 #include <Geom2d_BSplineCurve.hxx>
 #include <Geom2d_BezierCurve.hxx>
 #include <GeomConvert.hxx>

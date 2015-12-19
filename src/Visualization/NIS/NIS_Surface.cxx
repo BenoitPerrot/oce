@@ -21,7 +21,7 @@
 #include <BRep_PolygonOnTriangulation.hxx>
 #include <BRep_TEdge.hxx>
 #include <BRep_Tool.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <Foundation/NCollection/NCollection_Map.hxx>
 #include <Mathematics/Polyhedral/Poly_PolygonOnTriangulation.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>

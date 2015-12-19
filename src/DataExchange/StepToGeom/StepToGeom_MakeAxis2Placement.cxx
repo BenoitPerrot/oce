@@ -17,12 +17,12 @@
 // sln 22.10.2001. CTS23496: If problems with creation of direction occur default direction is used (StepToGeom_MakeAxis2Placement(...) function)
 
 #include <StepGeom_Axis2Placement3d.hxx>
-#include <Geom_Axis2Placement.hxx>
+#include <Geometry/Geom/Geom_Axis2Placement.hxx>
 #include <StepToGeom_MakeAxis2Placement.hxx>
 #include <StepToGeom_MakeCartesianPoint.hxx>
 #include <StepToGeom_MakeDirection.hxx>
-#include <Geom_CartesianPoint.hxx>
-#include <Geom_Direction.hxx>
+#include <Geometry/Geom/Geom_CartesianPoint.hxx>
+#include <Geometry/Geom/Geom_Direction.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>

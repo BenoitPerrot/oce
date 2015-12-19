@@ -18,14 +18,14 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
-#include <Geom_Vector.hxx>
+#include <Geometry/Geom/Geom_Vector.hxx>
 #include <Geom2d_Vector.hxx>
 #include <GeomToStep_MakeVector.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <Geom_Vector.hxx>
+#include <Geometry/Geom/Geom_Vector.hxx>
 #include <StepGeom_Vector.hxx>
 #include <GeomToStep_MakeDirection.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>

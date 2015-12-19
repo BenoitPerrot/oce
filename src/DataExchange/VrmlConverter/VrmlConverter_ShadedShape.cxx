@@ -37,7 +37,7 @@
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Mathematics/Optimization/math.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <CSLib_DerivativeStatus.hxx>
 #include <CSLib_NormalStatus.hxx>
 #include <CSLib.hxx>

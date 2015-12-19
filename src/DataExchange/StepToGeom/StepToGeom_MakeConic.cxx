@@ -17,7 +17,7 @@
 //:p0 abv 19.02.99: management of 'done' flag improved
 
 #include <StepGeom_Conic.hxx>
-#include <Geom_Conic.hxx>
+#include <Geometry/Geom/Geom_Conic.hxx>
 #include <StepToGeom_MakeConic.hxx>
 #include <StepGeom_Conic.hxx>
 #include <StepGeom_Circle.hxx>

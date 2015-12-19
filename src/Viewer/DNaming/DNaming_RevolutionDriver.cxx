@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(DNaming_RevolutionDriver)
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>
-#include <Geom_Line.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
 
 #include <BRep_Tool.hxx>
 #include <BRepGProp.hxx>

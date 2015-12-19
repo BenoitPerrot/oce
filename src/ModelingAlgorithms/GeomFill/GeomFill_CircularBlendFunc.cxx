@@ -45,7 +45,7 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_CircularBlendFunc)
 
 #if DRAW
 #include <GeomAdaptor_HCurve.hxx>
-#include <Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <DrawTrSurf.hxx>
 static Standard_Integer NbSections = 0;
 #endif

@@ -31,9 +31,9 @@
 #include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <Mathematics/Collections/TColgp_Array2OfVec.hxx>
 
-#include <Geom_TrimmedCurve.hxx>
-#include <Geom_BSplineCurve.hxx>
-#include <Geom_Circle.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx>
 #include <GeomConvert.hxx>
 #include <Precision.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>

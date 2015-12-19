@@ -18,7 +18,7 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Mathematics/Primitives/gp_VectorWithNullMagnitude.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <Geom_Vector.hxx>
+#include <Geometry/Geom/Geom_Vector.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Geom_Vector)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

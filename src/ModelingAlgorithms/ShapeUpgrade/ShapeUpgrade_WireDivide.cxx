@@ -26,7 +26,7 @@
 #include <ShapeUpgrade_FixSmallCurves.hxx>
 #include <TopoDS_Wire.hxx>
 #include <TopoDS_Face.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <TopoDS_Edge.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <ShapeUpgrade_WireDivide.hxx>
@@ -58,7 +58,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_WireDivide)
 #include <TColGeom_HArray1OfCurve.hxx>
 #include <TColGeom2d_HArray1OfCurve.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geom2d_Curve.hxx>
 #include <ShapeExtend.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>

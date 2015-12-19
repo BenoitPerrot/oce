@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <StepGeom_BSplineCurve.hxx>
-#include <Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <StepToGeom_MakeBSplineCurve.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <StepGeom_HArray1OfCartesianPoint.hxx>
@@ -28,7 +28,7 @@
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <StepGeom_CartesianPoint.hxx>
 #include <StepToGeom_MakeCartesianPoint.hxx>
-#include <Geom_CartesianPoint.hxx>
+#include <Geometry/Geom/Geom_CartesianPoint.hxx>
 
 //=============================================================================
 // Creation d' une BSplineCurve de Geom a partir d' une BSplineCurve de Step

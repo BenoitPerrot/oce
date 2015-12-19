@@ -29,8 +29,8 @@
 #include <TopoDS.hxx>
 #include <BRep_Tool.hxx>
 #include <Draw_Color.hxx>
-#include <Geom_Line.hxx>
-#include <Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Geom2d_Line.hxx>
 #include <Geom2d_TrimmedCurve.hxx>
 #include <BRep_Tool.hxx>

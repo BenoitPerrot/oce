@@ -24,16 +24,16 @@
 #ifdef OCC218
 #include <DsgPrs_XYZAxisPresentation.hxx>
 #include <AIS_Line.hxx>
-#include <Geom_Line.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
 #endif
 
-#include <Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
 #include <AIS_InteractiveObject.hxx>
 #include <AIS_Line.hxx>
 #include <AIS_Point.hxx>
 #include <Prs3d_Presentation.hxx>
 #include <Prs3d_Projector.hxx>
-#include <Geom_Transformation.hxx>
+#include <Geometry/Geom/Geom_Transformation.hxx>
 #include <SelectMgr_Selection.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
@@ -55,9 +55,9 @@ IMPLEMENT_STANDARD_RTTI(AIS_PlaneTrihedron)
 #include <SelectMgr_EntityOwner.hxx>
 #include <Select3D_SensitiveSegment.hxx>
 #include <Select3D_SensitivePoint.hxx>
-#include <Geom_Axis1Placement.hxx>
-#include <Geom_Axis2Placement.hxx>
-#include <Geom_CartesianPoint.hxx>
+#include <Geometry/Geom/Geom_Axis1Placement.hxx>
+#include <Geometry/Geom/Geom_Axis2Placement.hxx>
+#include <Geometry/Geom/Geom_CartesianPoint.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>

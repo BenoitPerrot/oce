@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <TColGeom_Array1OfSurface.hxx>
 
  
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(TColGeom_HArray1OfSurface)
 
 
 #define ItemHArray1 Handle(Geom_Surface)
-#define ItemHArray1_hxx <Geom_Surface.hxx>
+#define ItemHArray1_hxx <Geometry/Geom/Geom_Surface.hxx>
 #define TheArray1 TColGeom_Array1OfSurface
 #define TheArray1_hxx <TColGeom_Array1OfSurface.hxx>
 #define TCollection_HArray1 TColGeom_HArray1OfSurface

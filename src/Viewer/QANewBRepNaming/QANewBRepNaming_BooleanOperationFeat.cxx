@@ -33,7 +33,7 @@
 #include <Mathematics/Primitives/gp_Cylinder.hxx>
 #include <Mathematics/Primitives/gp_Cone.hxx>
 #include <GeomAbs_SurfaceType.hxx>
-#include <Geom_Ellipse.hxx>
+#include <Geometry/Geom/Geom_Ellipse.hxx>
 #include <TopExp_Explorer.hxx>
 #include <TopoDS_Iterator.hxx>
 #include <TopoDS_Vertex.hxx>

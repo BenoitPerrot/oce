@@ -30,7 +30,7 @@
 #include <BRep_Tool.hxx>
 #include <BRep_Builder.hxx>
 #include <TopoDS.hxx>
-#include <Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
 #include <Geom2d_Line.hxx>
 #include <Geom2d_Circle.hxx>
 #include <Geom2d_Ellipse.hxx>

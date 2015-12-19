@@ -18,7 +18,7 @@
 
 #define IMP120100	// GG Add SetTextColor() and SetArrowColor() methods
 
-#include <Geom_Axis2Placement.hxx>
+#include <Geometry/Geom/Geom_Axis2Placement.hxx>
 #include <AIS_InteractiveObject.hxx>
 #include <AIS_Axis.hxx>
 #include <AIS_Point.hxx>
@@ -26,7 +26,7 @@
 #include <AIS_InteractiveContext.hxx>
 #include <Prs3d_Presentation.hxx>
 #include <Prs3d_Projector.hxx>
-#include <Geom_Transformation.hxx>
+#include <Geometry/Geom/Geom_Transformation.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <SelectMgr_Selection.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
@@ -50,11 +50,11 @@ IMPLEMENT_STANDARD_RTTI(AIS_Trihedron)
 #include <Select3D_SensitiveSegment.hxx>
 #include <Select3D_SensitiveFace.hxx>
 #include <Select3D_SensitivePoint.hxx>
-#include <Geom_Axis2Placement.hxx>
-#include <Geom_Line.hxx>
-#include <Geom_Point.hxx>
-#include <Geom_Plane.hxx>
-#include <Geom_CartesianPoint.hxx>
+#include <Geometry/Geom/Geom_Axis2Placement.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
+#include <Geometry/Geom/Geom_Point.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_CartesianPoint.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>

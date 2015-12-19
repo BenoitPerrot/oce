@@ -15,11 +15,11 @@
 // commercial license or contractual agreement.
 
 #include <StepGeom_Plane.hxx>
-#include <Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
 #include <StepToGeom_MakePlane.hxx>
 #include <StepGeom_Axis2Placement3d.hxx>
 #include <StepToGeom_MakeAxis2Placement.hxx>
-#include <Geom_Axis2Placement.hxx>
+#include <Geometry/Geom/Geom_Axis2Placement.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>
 
 //=============================================================================

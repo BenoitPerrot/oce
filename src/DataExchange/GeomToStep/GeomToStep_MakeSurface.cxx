@@ -16,19 +16,19 @@
 
 #include <StepGeom_Surface.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <GeomToStep_MakeSurface.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <StepGeom_Surface.hxx>
 #include <GeomToStep_MakeSurface.hxx>
-#include <Geom_BoundedSurface.hxx>
+#include <Geometry/Geom/Geom_BoundedSurface.hxx>
 #include <GeomToStep_MakeBoundedSurface.hxx>
-#include <Geom_ElementarySurface.hxx>
+#include <Geometry/Geom/Geom_ElementarySurface.hxx>
 #include <GeomToStep_MakeElementarySurface.hxx>
-#include <Geom_SweptSurface.hxx>
+#include <Geometry/Geom/Geom_SweptSurface.hxx>
 #include <GeomToStep_MakeSweptSurface.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <Geom_OffsetSurface.hxx>
+#include <Geometry/Geom/Geom_OffsetSurface.hxx>
 #include <StepGeom_OffsetSurface.hxx>
 #include <StepData_Logical.hxx>
 #include <UnitsMethods.hxx>

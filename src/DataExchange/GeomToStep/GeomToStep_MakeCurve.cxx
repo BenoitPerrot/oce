@@ -16,26 +16,26 @@
 
 #include <StepGeom_Curve.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geom2d_Curve.hxx>
 #include <GeomToStep_MakeCurve.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <StepGeom_Curve.hxx>
 #include <GeomToStep_MakeCurve.hxx>
-#include <Geom_Line.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
 #include <Geom2d_Line.hxx>
 #include <GeomToStep_MakeLine.hxx>
-#include <Geom_Conic.hxx>
+#include <Geometry/Geom/Geom_Conic.hxx>
 #include <Geom2d_Conic.hxx>
 #include <GeomToStep_MakeConic.hxx>
-#include <Geom_BoundedCurve.hxx>
+#include <Geometry/Geom/Geom_BoundedCurve.hxx>
 #include <Geom2d_BoundedCurve.hxx>
 #include <Geom2d_BSplineCurve.hxx>
 #include <GeomToStep_MakeBoundedCurve.hxx>
 
-#include <Geom_TrimmedCurve.hxx>
-#include <Geom_BSplineCurve.hxx>
-#include <Geom_BezierCurve.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_BezierCurve.hxx>
 
 #include <Geom2dConvert.hxx>
 #include <Geom2d_Circle.hxx>

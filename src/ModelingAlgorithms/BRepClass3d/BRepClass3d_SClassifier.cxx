@@ -32,7 +32,7 @@
 // modified by NIZHNY-MKK  Mon Jun 21 15:13:40 2004
 #include <Precision.hxx>
 #include <ElCLib.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <BRep_Tool.hxx>
 #include <Mathematics/Optimization/math_RealRandom.hxx>
 #include <BRepTopAdaptor_FClass2d.hxx>

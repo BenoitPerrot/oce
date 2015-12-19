@@ -13,7 +13,7 @@
 #include <Handle_TColGeom_HArray2OfSurface.hxx>
 #include <Handle_TColStd_HArray1OfReal.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <ShapeExtend_Parametrisation.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Geom_Surface.hxx>

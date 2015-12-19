@@ -17,14 +17,14 @@
 
 #include <GeomToIGES_GeomEntity.hxx>
 #include <IGESGeom_Direction.hxx>
-#include <Geom_Vector.hxx>
-#include <Geom_VectorWithMagnitude.hxx>
-#include <Geom_Direction.hxx>
+#include <Geometry/Geom/Geom_Vector.hxx>
+#include <Geometry/Geom/Geom_VectorWithMagnitude.hxx>
+#include <Geometry/Geom/Geom_Direction.hxx>
 #include <GeomToIGES_GeomVector.hxx>
 
-#include <Geom_Vector.hxx>
-#include <Geom_VectorWithMagnitude.hxx>
-#include <Geom_Direction.hxx>
+#include <Geometry/Geom/Geom_Vector.hxx>
+#include <Geometry/Geom/Geom_VectorWithMagnitude.hxx>
+#include <Geometry/Geom/Geom_Direction.hxx>
 
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_GTrsf.hxx>

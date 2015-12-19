@@ -47,8 +47,8 @@ IMPLEMENT_STANDARD_RTTI(BRepTopAdaptor_TopolTool)
 #include <BRep_Tool.hxx>
 
 #include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
-#include <Geom_BezierSurface.hxx>
-#include <Geom_BSplineSurface.hxx>
+#include <Geometry/Geom/Geom_BezierSurface.hxx>
+#include <Geometry/Geom/Geom_BSplineSurface.hxx>
 
 static 
   void Analyse(const TColgp_Array2OfPnt& array2,

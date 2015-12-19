@@ -30,8 +30,8 @@
 #include <TopoDS_Face.hxx>
 #include <TopoDS.hxx>
 #include <BRep_Tool.hxx>
-#include <Geom_Surface.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <GeomAPI_ProjectPointOnCurve.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 

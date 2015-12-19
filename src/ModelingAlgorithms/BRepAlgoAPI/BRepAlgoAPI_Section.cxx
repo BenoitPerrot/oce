@@ -20,13 +20,13 @@
 #include <TopoDS_Shape.hxx>
 #include <BOPAlgo_PaveFiller.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <BRepAlgoAPI_Section.hxx>
 
 
 #include <BRepLib_MakeFace.hxx>
 #include <BRepLib_MakeShell.hxx>
-#include <Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
 #include <Geom2d_TrimmedCurve.hxx>
 
 #include <TopExp.hxx>

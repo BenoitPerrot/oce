@@ -25,9 +25,9 @@
 #include <TopoDS_Solid.hxx>
 #include <IntTools_Range.hxx>
 #include <TopoDS_Shell.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geom2d_Curve.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <BOPTools_AlgoTools.hxx>
 //
 #include <Precision.hxx>
@@ -42,10 +42,10 @@
 #include <Mathematics/Primitives/gp_Lin.hxx>
 //
 #include <Geom2d_Curve.hxx>
-#include <Geom_Surface.hxx>
-#include <Geom_Plane.hxx>
-#include <Geom_TrimmedCurve.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <GeomAPI_ProjectPointOnSurf.hxx>
 #include <Geom2dInt_Geom2dCurveTool.hxx>
 //

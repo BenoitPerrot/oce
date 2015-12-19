@@ -25,8 +25,8 @@
 #include <Precision.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Geom_Curve.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <GeomAPI_ProjectPointOnSurf.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Shape.hxx>
@@ -47,7 +47,7 @@
 #include <TopoDS_Vertex.hxx>
 #include <TopoDS_Iterator.hxx>
 #include <TopoDS_Edge.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geom2d_Curve.hxx>
 #include <BRep_Tool.hxx>
 #include <TopExp.hxx>

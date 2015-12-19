@@ -17,7 +17,7 @@
 //    gka 30.04.99 S4137: extended for all types of surfaces
 
 #include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <ShapeExtend_CompositeSurface.hxx>
 #include <ShapeUpgrade_SplitSurface.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -30,22 +30,22 @@ IMPLEMENT_STANDARD_TYPE_END(ShapeUpgrade_SplitSurface)
 IMPLEMENT_DOWNCAST(ShapeUpgrade_SplitSurface,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_SplitSurface)
 #include <ShapeUpgrade.hxx>
-#include <Geom_BSplineSurface.hxx>
-#include <Geom_RectangularTrimmedSurface.hxx>
+#include <Geometry/Geom/Geom_BSplineSurface.hxx>
+#include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
 #include <TColGeom_HArray2OfSurface.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
 #include <Precision.hxx>
-#include <Geom_SurfaceOfRevolution.hxx>
-#include <Geom_SurfaceOfLinearExtrusion.hxx>
-#include <Geom_RectangularTrimmedSurface.hxx>
-#include <Geom_OffsetSurface.hxx>
+#include <Geometry/Geom/Geom_SurfaceOfRevolution.hxx>
+#include <Geometry/Geom/Geom_SurfaceOfLinearExtrusion.hxx>
+#include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
+#include <Geometry/Geom/Geom_OffsetSurface.hxx>
 #include <ShapeUpgrade_SplitCurve3d.hxx>
 #include <TColGeom_HArray1OfCurve.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <ShapeExtend.hxx>
-#include <Geom_BezierSurface.hxx>
+#include <Geometry/Geom/Geom_BezierSurface.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 
 //=======================================================================

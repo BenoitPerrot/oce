@@ -40,7 +40,7 @@
 #include <BRepLib_MakeWire.hxx>
 #include <Geom2dAdaptor_HCurve.hxx>
 #include <Geom2d_Curve.hxx>
-#include <Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <GeomAdaptor.hxx>
 #include <BRepLib_MakeEdge.hxx>
 #include <BRepAlgo_BooleanOperations.hxx>

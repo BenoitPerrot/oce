@@ -14,7 +14,7 @@
 #ifndef _StdPrs_Point_H__
 #define _StdPrs_Point_H__
 
-#include <Geom_Point.hxx>
+#include <Geometry/Geom/Geom_Point.hxx>
 #include <Prs3d_Point.hxx>
 #include <Prs3d_Drawer.hxx>
 #include <Prs3d_Presentation.hxx>

@@ -78,8 +78,8 @@
 #include <Precision.hxx>
 
 #include <TopTools_SequenceOfShape.hxx>
-#include <Geom_OffsetSurface.hxx>
-#include <Geom_ConicalSurface.hxx>
+#include <Geometry/Geom/Geom_OffsetSurface.hxx>
+#include <Geometry/Geom/Geom_ConicalSurface.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>
 #include <BRep_TEdge.hxx>
 #include <BRepTools.hxx>
@@ -91,7 +91,7 @@
 #include <Geom2d_Line.hxx>
 #include <TopoDS_Iterator.hxx>
 #include <BRepLib_MakeFace.hxx>
-#include <Geom_Circle.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx>
 
 #include <BRep_PointRepresentation.hxx>
 #include <BRep_ListIteratorOfListOfPointRepresentation.hxx>
@@ -100,10 +100,10 @@
 #include <BRepAdaptor_Curve.hxx>
 #include <BRepAdaptor_Curve2d.hxx>
 #include <TopTools_DataMapIteratorOfDataMapOfShapeListOfShape.hxx>
-#include <Geom_SphericalSurface.hxx>
+#include <Geometry/Geom/Geom_SphericalSurface.hxx>
 #include <TopoDS_Wire.hxx>
 #include <BRepTools_Substitution.hxx>
-#include <Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Geom2d_TrimmedCurve.hxx>
 
 #include <BRepTools_WireExplorer.hxx>
@@ -111,14 +111,14 @@
 #include <Geometry/gce/gce_MakeDir.hxx>
 #include <Geometry/GC/GC_MakeCylindricalSurface.hxx>
 #include <Geometry/gce/gce_MakeCone.hxx>
-#include <Geom_SurfaceOfLinearExtrusion.hxx>
+#include <Geometry/Geom/Geom_SurfaceOfLinearExtrusion.hxx>
 
 #include <Geom2dAdaptor_HCurve.hxx>
 #include <GeomAdaptor_HSurface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>
 #include <GeomLib.hxx>
 #include <GeomFill_Generator.hxx>
-#include <Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
 #include <IntTools_FClass2d.hxx>
 #include <BRepLib_FindSurface.hxx>
 

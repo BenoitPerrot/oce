@@ -51,7 +51,7 @@
 #include <BOPDS_MapOfPaveBlock.hxx>
 #include <BOPDS_VectorOfPave.hxx>
 
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <BRep_Builder.hxx>
 #include <Precision.hxx>
 #include <IntTools_Tools.hxx>

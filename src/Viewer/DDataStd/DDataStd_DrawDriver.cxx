@@ -45,7 +45,7 @@ IMPLEMENT_STANDARD_RTTI(DDataStd_DrawDriver)
 #include <Draw_Drawable3D.hxx>
 #include <Draw_Marker3D.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Geom_CartesianPoint.hxx>
+#include <Geometry/Geom/Geom_CartesianPoint.hxx>
 #include <BRep_Builder.hxx>
 #include <TopoDS_Compound.hxx>
 #include <TDF_Tool.hxx>
@@ -53,7 +53,7 @@ IMPLEMENT_STANDARD_RTTI(DDataStd_DrawDriver)
 #include <TDataStd.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Mathematics/Primitives/gp_Ax3.hxx>
-#include <Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
 // attribut affichable
 #include <TNaming_NamedShape.hxx>
 #include <TDataStd.hxx>

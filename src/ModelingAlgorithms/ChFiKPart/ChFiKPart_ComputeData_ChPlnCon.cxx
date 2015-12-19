@@ -38,8 +38,8 @@
 
 #include <Geom2d_Line.hxx>
 #include <Geom2d_Circle.hxx>
-#include <Geom_Circle.hxx>
-#include <Geom_ConicalSurface.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx>
+#include <Geometry/Geom/Geom_ConicalSurface.hxx>
 
 #include <ChFiKPart_ComputeData_Fcts.hxx>
 

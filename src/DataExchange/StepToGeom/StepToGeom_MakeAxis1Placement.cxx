@@ -17,17 +17,17 @@
 // sln 22.10.2001. CTS23496: If problems with creation of axis's direction occur default direction is used (StepToGeom_MakeAxis1Placement(...) function)
 
 #include <StepGeom_Axis1Placement.hxx>
-#include <Geom_Axis1Placement.hxx>
+#include <Geometry/Geom/Geom_Axis1Placement.hxx>
 #include <StepToGeom_MakeAxis1Placement.hxx>
 #include <StepGeom_Direction.hxx>
 #include <StepGeom_CartesianPoint.hxx>
 #include <StepToGeom_MakeDirection.hxx>
 #include <StepToGeom_MakeCartesianPoint.hxx>
-#include <Geom_CartesianPoint.hxx>
-#include <Geom_Direction.hxx>
+#include <Geometry/Geom/Geom_CartesianPoint.hxx>
+#include <Geometry/Geom/Geom_Direction.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Geom_Axis1Placement.hxx>
+#include <Geometry/Geom/Geom_Axis1Placement.hxx>
 
 //=============================================================================
 // Creation d' un Ax1Placement de Geom a partir d' un axis1_placement de Step

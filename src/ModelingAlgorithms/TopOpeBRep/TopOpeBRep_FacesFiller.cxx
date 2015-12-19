@@ -40,10 +40,10 @@
 #include <Precision.hxx>
 #include <TopoDS.hxx>
 #include <BRep_Tool.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <GeomProjLib.hxx>
-#include <Geom_Circle.hxx>
-#include <Geom_Line.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <TopOpeBRepTool_EXPORT.hxx>

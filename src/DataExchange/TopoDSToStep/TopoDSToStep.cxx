@@ -29,7 +29,7 @@
 #include <TopoDS.hxx>
 #include <TopoDS_Face.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <BRep_Tool.hxx>
 #include <Transfer_SimpleBinderOfTransient.hxx>
 #include <TransferBRep_ShapeMapper.hxx>

@@ -31,15 +31,15 @@ IMPLEMENT_STANDARD_RTTI(MoniTool_CaseData)
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TopoDS_HShape.hxx>
-#include <Geom_CartesianPoint.hxx>
+#include <Geometry/Geom/Geom_CartesianPoint.hxx>
 #include <Geom2d_CartesianPoint.hxx>
 
 #include <TopAbs.hxx>
 //#include <GeomTools.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Geom2d_Curve.hxx>
-#include <Geom_Curve.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <Foundation/OSD/OSD_Timer.hxx>
 
 // definitions

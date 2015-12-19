@@ -15,12 +15,12 @@
 // commercial license or contractual agreement.
 
 #include <StepGeom_CylindricalSurface.hxx>
-#include <Geom_CylindricalSurface.hxx>
+#include <Geometry/Geom/Geom_CylindricalSurface.hxx>
 #include <StepToGeom_MakeCylindricalSurface.hxx>
-#include <Geom_CylindricalSurface.hxx>
+#include <Geometry/Geom/Geom_CylindricalSurface.hxx>
 #include <StepGeom_Axis2Placement3d.hxx>
 #include <StepToGeom_MakeAxis2Placement.hxx>
-#include <Geom_Axis2Placement.hxx>
+#include <Geometry/Geom/Geom_Axis2Placement.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <UnitsMethods.hxx>
 

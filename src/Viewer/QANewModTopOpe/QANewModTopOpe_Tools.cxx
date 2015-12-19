@@ -27,7 +27,7 @@
 #include <BRepTools.hxx>
 #include <BRep_Tool.hxx>
 #include <BRep_Builder.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <IntTools_Context.hxx>
 #include <TopExp_Explorer.hxx>
 #include <TopExp.hxx>

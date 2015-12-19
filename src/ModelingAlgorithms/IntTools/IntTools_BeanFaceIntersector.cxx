@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <IntTools_Context.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Face.hxx>
@@ -32,7 +32,7 @@
 #include <Geometry/Extrema/Extrema_POnCurv.hxx>
 #include <Geometry/Extrema/Extrema_POnSurf.hxx>
 #include <BRep_Tool.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
@@ -47,9 +47,9 @@
 #include <IntTools_MapIteratorOfMapOfCurveSample.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 
-#include <Geom_Curve.hxx>
-#include <Geom_Surface.hxx>
-#include <Geom_BSplineSurface.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <GeomAdaptor_Curve.hxx>
 #include <GeomAdaptor_Surface.hxx>
 #include <Geometry/Extrema/Extrema_ExtCS.hxx>

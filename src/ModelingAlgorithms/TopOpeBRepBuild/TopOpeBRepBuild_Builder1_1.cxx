@@ -81,7 +81,7 @@
 #include <TopOpeBRepDS_DataStructure.hxx>
 #include <BRep_Tool.hxx>
 #include <TopOpeBRepDS_ListOfShapeOn1State.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <Precision.hxx>
 #include <BRepAdaptor_Curve.hxx>
 #include <TopTools_DataMapOfShapeListOfInteger.hxx>

@@ -14,8 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Geom_Curve.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <Draw.hxx>
 #include <Draw_Interpretor.hxx>
 #include <DrawTrSurf.hxx>
@@ -28,8 +28,8 @@
 #include <GeomAPI_ExtremaSurfaceSurface.hxx>
 #include <GeomAPI_PointsToBSpline.hxx>
 #include <GeomAPI_PointsToBSplineSurface.hxx>
-#include <Geom_Line.hxx>
-#include <Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Draw_Segment3D.hxx>
 #include <Draw_Marker3D.hxx>
 #include <Draw_Color.hxx>

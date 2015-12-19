@@ -25,7 +25,7 @@
 #include <BRep_Tool.hxx>
 
 #include <Geom2d_Curve.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 
 #include <Precision.hxx>
 
@@ -37,15 +37,15 @@
 #include <TopoDS.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Face.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 
 //:i2
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
 #include <ShapeFix_Edge.hxx>
 #include <Geom2dAdaptor_HCurve.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>
-#include <Geom_RectangularTrimmedSurface.hxx>
+#include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
 #include <ShapeAnalysis_Surface.hxx>
 
 #include <ShapeFix_Edge.hxx>

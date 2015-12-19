@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <Geom_BezierCurve.hxx>
+#include <Geometry/Geom/Geom_BezierCurve.hxx>
 #include <TColGeom_Array1OfBezierCurve.hxx>
 
  
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(TColGeom_HArray1OfBezierCurve)
 
 
 #define ItemHArray1 Handle(Geom_BezierCurve)
-#define ItemHArray1_hxx <Geom_BezierCurve.hxx>
+#define ItemHArray1_hxx <Geometry/Geom/Geom_BezierCurve.hxx>
 #define TheArray1 TColGeom_Array1OfBezierCurve
 #define TheArray1_hxx <TColGeom_Array1OfBezierCurve.hxx>
 #define TCollection_HArray1 TColGeom_HArray1OfBezierCurve

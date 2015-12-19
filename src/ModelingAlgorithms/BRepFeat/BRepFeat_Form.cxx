@@ -17,7 +17,7 @@
 #include <TopTools_ListOfShape.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TColGeom_SequenceOfCurve.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <LocOpe_Gluer.hxx>
 #include <BRepAlgoAPI_BooleanOperation.hxx>
 #include <TopOpeBRepBuild_HBuilder.hxx>
@@ -43,10 +43,10 @@
 #include <Precision.hxx>
 
 #include <BRep_Tool.hxx>
-#include <Geom_RectangularTrimmedSurface.hxx>
-#include <Geom_Plane.hxx>
-#include <Geom_CylindricalSurface.hxx>
-#include <Geom_ConicalSurface.hxx>
+#include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_CylindricalSurface.hxx>
+#include <Geometry/Geom/Geom_ConicalSurface.hxx>
 
 #include <TopoDS_Solid.hxx>
 #include <TopoDS_Compound.hxx>

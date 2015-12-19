@@ -26,19 +26,19 @@
 //=======================================================================
 
 #include <IGESToBRep_CurveAndSurface.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <IGESData_IGESEntity.hxx>
-#include <Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
 #include <IGESSolid_PlaneSurface.hxx>
-#include <Geom_CylindricalSurface.hxx>
+#include <Geometry/Geom/Geom_CylindricalSurface.hxx>
 #include <IGESSolid_CylindricalSurface.hxx>
-#include <Geom_ConicalSurface.hxx>
+#include <Geometry/Geom/Geom_ConicalSurface.hxx>
 #include <IGESSolid_ConicalSurface.hxx>
-#include <Geom_SphericalSurface.hxx>
+#include <Geometry/Geom/Geom_SphericalSurface.hxx>
 #include <IGESSolid_SphericalSurface.hxx>
-#include <Geom_ToroidalSurface.hxx>
+#include <Geometry/Geom/Geom_ToroidalSurface.hxx>
 #include <IGESSolid_ToroidalSurface.hxx>
-#include <Geom_BSplineSurface.hxx>
+#include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <IGESGeom_SplineSurface.hxx>
 #include <IGESGeom_BSplineSurface.hxx>
 #include <IGESToBRep_BasicSurface.hxx>

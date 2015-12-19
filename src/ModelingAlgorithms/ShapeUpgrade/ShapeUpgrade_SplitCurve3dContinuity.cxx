@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <ShapeUpgrade_SplitCurve3dContinuity.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeUpgrade_SplitCurve3dContinuity)
@@ -29,13 +29,13 @@ IMPLEMENT_DOWNCAST(ShapeUpgrade_SplitCurve3dContinuity,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_SplitCurve3dContinuity)
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
-#include <Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Precision.hxx>
 #include <ShapeUpgrade.hxx>
-#include <Geom_TrimmedCurve.hxx>
-#include <Geom_TrimmedCurve.hxx>
-#include <Geom_OffsetCurve.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_OffsetCurve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
 #include <TColGeom_HArray1OfCurve.hxx>
 #include <ShapeExtend.hxx>

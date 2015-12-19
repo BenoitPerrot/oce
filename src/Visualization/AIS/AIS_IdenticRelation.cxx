@@ -17,15 +17,15 @@
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 
 #include <TopoDS_Shape.hxx>
-#include <Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
 #include <Prs3d_Presentation.hxx>
 #include <Prs3d_Projector.hxx>
-#include <Geom_Transformation.hxx>
+#include <Geometry/Geom/Geom_Transformation.hxx>
 #include <SelectMgr_Selection.hxx>
-#include <Geom_Line.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Geom_Circle.hxx>
-#include <Geom_Ellipse.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx>
+#include <Geometry/Geom/Geom_Ellipse.hxx>
 #include <TopoDS_Wire.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
@@ -54,10 +54,10 @@ IMPLEMENT_STANDARD_RTTI(AIS_IdenticRelation)
 
 #include <ElCLib.hxx>
 
-#include <Geom_Circle.hxx>
-#include <Geom_Line.hxx>
-#include <Geom_Plane.hxx>
-#include <Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 
 #include <Precision.hxx>
 
@@ -89,7 +89,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_IdenticRelation)
 #include <Mathematics/Primitives/gp_Vec.hxx>
 
 // jfa 15/10/2000
-#include <Geom_Ellipse.hxx>
+#include <Geometry/Geom/Geom_Ellipse.hxx>
 #include <GeomAPI_ProjectPointOnCurve.hxx>
 
 static Standard_Real Modulo2PI(const Standard_Real ANGLE)

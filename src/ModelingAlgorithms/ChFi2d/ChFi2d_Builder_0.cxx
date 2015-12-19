@@ -36,10 +36,10 @@
 #include <BRep_Tool.hxx>
 
 #include <ElCLib.hxx>
-#include <Geom_Curve.hxx>
-#include <Geom_Line.hxx>
-#include <Geom_Plane.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 
 #include <GeomAdaptor_Curve.hxx>
 #include <GeomAPI.hxx>

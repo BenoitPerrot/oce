@@ -27,9 +27,9 @@
 #include <AIS_Shape.hxx>
 #include <TopoDS_Shape.hxx>
 
-#include <Geom_Circle.hxx>
-#include <Geom_Ellipse.hxx>
-#include <Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx>
+#include <Geometry/Geom/Geom_Ellipse.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Geom2d_Curve.hxx>
 #include <GeomAPI.hxx>
@@ -52,7 +52,7 @@
 #include <Mathematics/Primitives/gp_Circ.hxx>
 #include <BRepOffsetAPI_MakePipeShell.hxx>
 #include <AIS_Trihedron.hxx>
-#include <Geom_Axis2Placement.hxx>
+#include <Geometry/Geom/Geom_Axis2Placement.hxx>
 #include <V3d_View.hxx>
 #include <BRepLib_MakeVertex.hxx>
 #include <AIS_LengthDimension.hxx>
@@ -60,7 +60,7 @@
 #include <BRepPrimAPI_MakeBox.hxx>
 #include <GeomAdaptor_Surface.hxx>
 #include <Geometry/Extrema/Extrema_ExtPS.hxx>
-#include <Geom_CartesianPoint.hxx>
+#include <Geometry/Geom/Geom_CartesianPoint.hxx>
 #include <Geom2d_CartesianPoint.hxx>
 #include <Geom2dGcc_Circ2d3Tan.hxx>
 #include <Aspect_Window.hxx>
@@ -936,7 +936,7 @@ static Standard_Integer BUILDEVOL(Draw_Interpretor& di,
 }
 
 #include <TColGeom_SequenceOfCurve.hxx>
-#include <Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <GeomFill_NSections.hxx>
 #include <BRepLib_MakeFace.hxx>
 //=======================================================================
@@ -1546,7 +1546,7 @@ static Standard_Integer OCCN2 (Draw_Interpretor& di, Standard_Integer argc, cons
 }
 
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
-#include <Geom_BezierCurve.hxx>
+#include <Geometry/Geom/Geom_BezierCurve.hxx>
 
 static Standard_Integer OCC2569 (Draw_Interpretor& di, Standard_Integer argc, const char ** argv)
 {

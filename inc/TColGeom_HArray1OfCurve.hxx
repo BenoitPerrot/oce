@@ -70,7 +70,7 @@ private:
 };
 
 #define ItemHArray1 Handle(Geom_Curve)
-#define ItemHArray1_hxx <Geom_Curve.hxx>
+#define ItemHArray1_hxx <Geometry/Geom/Geom_Curve.hxx>
 #define TheArray1 TColGeom_Array1OfCurve
 #define TheArray1_hxx <TColGeom_Array1OfCurve.hxx>
 #define TCollection_HArray1 TColGeom_HArray1OfCurve

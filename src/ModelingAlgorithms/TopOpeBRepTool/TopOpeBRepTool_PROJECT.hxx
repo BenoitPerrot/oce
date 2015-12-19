@@ -19,7 +19,7 @@
 
 #include <TopOpeBRepTool_define.hxx>
 
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <BRepAdaptor_Curve.hxx>

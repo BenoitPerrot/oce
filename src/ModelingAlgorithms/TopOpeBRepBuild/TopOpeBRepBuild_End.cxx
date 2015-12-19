@@ -50,7 +50,7 @@
 #include <TopOpeBRepDS_DataMapIteratorOfDataMapOfShapeListOfShapeOn1State.hxx>
 #include <TopTools_DataMapIteratorOfDataMapOfIntegerListOfShape.hxx>
 #include <TopOpeBRepDS_ListOfShapeOn1State.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geom2d_Curve.hxx>
 #include <TopOpeBRepTool_2d.hxx>
 #include <BRep_Tool.hxx>

@@ -28,10 +28,10 @@
 
 #include <Foundation/NCollection/NCollection_IncAllocator.hxx>
 
-#include <Geom_RectangularTrimmedSurface.hxx>
-#include <Geom_Plane.hxx>
-#include <Geom_Surface.hxx>
-#include <Geom_RectangularTrimmedSurface.hxx>
+#include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
 
 #include <TopoDS_Vertex.hxx>
 #include <TopoDS_Edge.hxx>
@@ -45,8 +45,8 @@
 #include <TopExp.hxx>
 #include <TopExp_Explorer.hxx>
 
-#include <Geom_Curve.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <Geom2d_Curve.hxx>
 
 #include <BOPCol_NCVector.hxx>

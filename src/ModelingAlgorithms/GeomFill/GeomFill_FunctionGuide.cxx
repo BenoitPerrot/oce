@@ -16,8 +16,8 @@
 
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <GeomFill_SectionLaw.hxx>
-#include <Geom_Curve.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
@@ -26,9 +26,9 @@
 
 #include <GeomFill_SectionLaw.hxx>
 
-#include <Geom_TrimmedCurve.hxx>
-#include <Geom_BSplineCurve.hxx>
-#include <Geom_SurfaceOfRevolution.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_SurfaceOfRevolution.hxx>
 
 #include <GeomAdaptor_HCurve.hxx>
 #include <GeomTools.hxx>

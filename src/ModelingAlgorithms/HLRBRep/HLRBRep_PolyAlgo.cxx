@@ -19,7 +19,7 @@
 
 #include <Foundation/Standard/Standard_Stream.hxx>
 #include <HLRAlgo_PolyAlgo.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <TopoDS_Shape.hxx>
 #include <HLRAlgo_Projector.hxx>
@@ -47,8 +47,8 @@ IMPLEMENT_STANDARD_RTTI(HLRBRep_PolyAlgo)
 #include <CSLib.hxx>
 #include <CSLib_DerivativeStatus.hxx>
 #include <CSLib_NormalStatus.hxx>
-#include <Geom_Surface.hxx>
-#include <Geom_RectangularTrimmedSurface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
 #include <HLRAlgo_ListIteratorOfListOfBPoint.hxx>
 #include <HLRAlgo_PolyShellData.hxx>
 #include <HLRAlgo_PolyData.hxx>

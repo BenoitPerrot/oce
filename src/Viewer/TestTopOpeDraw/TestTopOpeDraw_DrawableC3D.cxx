@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Draw_Text3D.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <Draw_Color.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Draw_Display.hxx>

@@ -18,7 +18,7 @@
 
 #include <BRep_Tool.hxx>
 #include <BRepTools.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <BRepClass_FaceClassifier.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <BRepAdaptor_Surface.hxx>

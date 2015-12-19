@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <TColGeom_Array1OfCurve.hxx>
 
  
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(TColGeom_HArray1OfCurve)
 
 
 #define ItemHArray1 Handle(Geom_Curve)
-#define ItemHArray1_hxx <Geom_Curve.hxx>
+#define ItemHArray1_hxx <Geometry/Geom/Geom_Curve.hxx>
 #define TheArray1 TColGeom_Array1OfCurve
 #define TheArray1_hxx <TColGeom_Array1OfCurve.hxx>
 #define TCollection_HArray1 TColGeom_HArray1OfCurve

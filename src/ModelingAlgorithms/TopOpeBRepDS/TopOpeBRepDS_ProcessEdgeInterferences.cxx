@@ -27,7 +27,7 @@
 #include <TopOpeBRepDS_ProcessInterferencesTool.hxx>
 #include <BRep_Tool.hxx>
 #include <Precision.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <BRep_Builder.hxx>
 #include <TopOpeBRepDS_define.hxx>
 #include <TopOpeBRepTool_EXPORT.hxx>

@@ -23,7 +23,7 @@
 #include <Mathematics/Collections/TColgp_Array1OfVec2d.hxx>
 #include <GeomFill_SectionGenerator.hxx>
 
-#include <Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
 
 
 

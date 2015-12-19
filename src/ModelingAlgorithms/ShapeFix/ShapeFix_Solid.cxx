@@ -57,7 +57,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Solid)
 #include <ShapeAnalysis.hxx>
 #include <TopoDS_Edge.hxx>
 #include <BRep_Tool.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <Precision.hxx>
 #include <TopAbs.hxx>
@@ -78,7 +78,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Solid)
 #include <TopTools_IndexedMapOfShape.hxx>
 
 #include <TopTools_DataMapOfShapeInteger.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <ShapeAnalysis_FreeBounds.hxx>
 
 //======================================================

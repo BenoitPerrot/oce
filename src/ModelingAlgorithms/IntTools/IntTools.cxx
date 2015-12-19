@@ -16,7 +16,7 @@
 #include <TopoDS_Edge.hxx>
 #include <IntTools_SequenceOfRoots.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <BRepAdaptor_Curve.hxx>
 #include <IntTools_CArray1OfReal.hxx>
 #include <IntTools.hxx>

@@ -46,7 +46,7 @@
 #include <TopTools_IndexedDataMapOfShapeShape.hxx>
 
 #include <Geom2d_TrimmedCurve.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <Geom2d_Curve.hxx>
 
 #include <BRepTopAdaptor_FClass2d.hxx>

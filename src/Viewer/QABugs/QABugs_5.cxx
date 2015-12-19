@@ -17,7 +17,7 @@
 
 #include <Draw_Interpretor.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <DrawTrSurf.hxx>
 #include <GeomAdaptor_HCurve.hxx>
 #include <TopoDS_Shape.hxx>

@@ -29,7 +29,7 @@
 #include <Geometry/Extrema/Extrema_ExtPS.hxx>
 #include <Geometry/Extrema/Extrema_GlobOptFuncCS.hxx>
 #include <Geometry/Extrema/Extrema_POnCurv.hxx>
-#include <Geom_Line.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
 #include <GeomAdaptor_Curve.hxx>
 #include <Mathematics/Optimization/math_FunctionSetRoot.hxx>
 #include <Mathematics/Optimization/math_PSO.hxx>

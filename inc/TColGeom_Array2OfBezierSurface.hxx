@@ -101,7 +101,7 @@ private:
 };
 
 #define Array2Item Handle(Geom_BezierSurface)
-#define Array2Item_hxx <Geom_BezierSurface.hxx>
+#define Array2Item_hxx <Geometry/Geom/Geom_BezierSurface.hxx>
 #define TCollection_Array2 TColGeom_Array2OfBezierSurface
 #define TCollection_Array2_hxx <TColGeom_Array2OfBezierSurface.hxx>
 

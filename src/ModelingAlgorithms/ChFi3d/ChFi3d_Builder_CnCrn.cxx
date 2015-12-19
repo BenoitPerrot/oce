@@ -53,7 +53,7 @@
 #include <ChFiDS_Spine.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <TopTools_ListOfShape.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <ChFiDS_SurfData.hxx>
 #include <ChFiDS_HElSpine.hxx>
 #include <BRepAdaptor_HSurface.hxx>
@@ -97,8 +97,8 @@
 #include <Geom2d_BSplineCurve.hxx>
 #include <GeomAdaptor_HSurface.hxx>
 #include <Geom2d_Line.hxx>
-#include <Geom_Line.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geom2d_TrimmedCurve.hxx>
 #include <GeomInt_IntSS.hxx>
 #include <GeomLib.hxx>
@@ -109,8 +109,8 @@
 #include <GeomPlate_MakeApprox.hxx>
 #include <GeomPlate_PlateG0Criterion.hxx>
 #include <GeomPlate_HArray1OfHCurveOnSurface.hxx>
-#include <Geom_Surface.hxx>
-#include <Geom_BezierCurve.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_BezierCurve.hxx>
 #include <Geom2dLProp_CLProps2d.hxx>
 #include <GeomPlate_CurveConstraint.hxx>
 #include <FairCurve_Batten.hxx>

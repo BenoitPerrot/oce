@@ -20,7 +20,7 @@
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Prs3d_Presentation.hxx>
 #include <Prs3d_Projector.hxx>
-#include <Geom_Transformation.hxx>
+#include <Geometry/Geom/Geom_Transformation.hxx>
 #include <SelectMgr_Selection.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <AIS_OffsetDimension.hxx>

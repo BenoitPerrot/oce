@@ -29,8 +29,8 @@
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <ElSLib.hxx>
 #include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
-#include <Geom_BSplineSurface.hxx>
-#include <Geom_BezierSurface.hxx>
+#include <Geometry/Geom/Geom_BSplineSurface.hxx>
+#include <Geometry/Geom/Geom_BezierSurface.hxx>
 
 #include <Precision.hxx>
 

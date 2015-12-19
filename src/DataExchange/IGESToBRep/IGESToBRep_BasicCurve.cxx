@@ -26,18 +26,18 @@
 
 
 #include <IGESToBRep_CurveAndSurface.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <IGESData_IGESEntity.hxx>
 #include <Geom2d_Curve.hxx>
 #include <IGESGeom_BSplineCurve.hxx>
 #include <IGESGeom_CircularArc.hxx>
 #include <IGESGeom_ConicArc.hxx>
-#include <Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <IGESGeom_CopiousData.hxx>
 #include <Geom2d_BSplineCurve.hxx>
 #include <IGESGeom_Line.hxx>
 #include <IGESGeom_SplineCurve.hxx>
-#include <Geom_Transformation.hxx>
+#include <Geometry/Geom/Geom_Transformation.hxx>
 #include <IGESGeom_TransformationMatrix.hxx>
 #include <IGESToBRep_BasicCurve.hxx>
 
@@ -46,14 +46,14 @@
 
 #include <ElCLib.hxx>
 
-#include <Geom_BSplineCurve.hxx>
-#include <Geom_Circle.hxx>
-#include <Geom_Ellipse.hxx>
-#include <Geom_Line.hxx>
-#include <Geom_Hyperbola.hxx>
-#include <Geom_Parabola.hxx>
-#include <Geom_Transformation.hxx>
-#include <Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx>
+#include <Geometry/Geom/Geom_Ellipse.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
+#include <Geometry/Geom/Geom_Hyperbola.hxx>
+#include <Geometry/Geom/Geom_Parabola.hxx>
+#include <Geometry/Geom/Geom_Transformation.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 
 #include <Geom2d_BSplineCurve.hxx>
 #include <Geom2d_Circle.hxx>

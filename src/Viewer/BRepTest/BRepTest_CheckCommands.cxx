@@ -39,8 +39,8 @@
 #include <Precision.hxx>
 #include <LocalAnalysis.hxx>
 #include <LocalAnalysis_SurfaceContinuity.hxx>
-#include <Geom_Surface.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geom2d_TrimmedCurve.hxx>
 #include <Geom2d_Curve.hxx>
 #include <DrawTrSurf.hxx>

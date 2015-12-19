@@ -16,11 +16,11 @@
 
 #include <StepGeom_ToroidalSurface.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <Geom_ToroidalSurface.hxx>
+#include <Geometry/Geom/Geom_ToroidalSurface.hxx>
 #include <GeomToStep_MakeToroidalSurface.hxx>
 #include <GeomToStep_MakeAxis2Placement3d.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <Geom_ToroidalSurface.hxx>
+#include <Geometry/Geom/Geom_ToroidalSurface.hxx>
 #include <StepGeom_ToroidalSurface.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <UnitsMethods.hxx>

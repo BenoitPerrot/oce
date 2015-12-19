@@ -27,7 +27,7 @@
 #include <BRep_Tool.hxx>
 
 #include <Geom2d_Curve.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <TopExp.hxx>
 #include <TopTools_SequenceOfShape.hxx>
 #include <TopTools_MapOfShape.hxx>

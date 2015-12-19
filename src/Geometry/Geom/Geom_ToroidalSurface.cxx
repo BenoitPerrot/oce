@@ -20,12 +20,12 @@
 #include <Mathematics/Primitives/gp_Ax3.hxx>
 #include <Mathematics/Primitives/gp_Torus.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
-#include <Geom_Geometry.hxx>
-#include <Geom_ToroidalSurface.hxx>
+#include <Geometry/Geom/Geom_Geometry.hxx>
+#include <Geometry/Geom/Geom_ToroidalSurface.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Geom_ToroidalSurface)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -40,7 +40,7 @@ IMPLEMENT_DOWNCAST(Geom_ToroidalSurface,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Geom_ToroidalSurface)
 
 #include <GeomAbs_UVSense.hxx>
-#include <Geom_Circle.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>

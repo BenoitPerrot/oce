@@ -36,7 +36,7 @@ IMPLEMENT_STANDARD_RTTI(DNaming_Line3DDriver)
 #include <BRepLib_MakeWire.hxx>
 #include <BRepLib_MakeEdge.hxx>
 #include <BRepAlgo.hxx>
-#include <Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <GeomAPI_Interpolate.hxx>
 #include <BRep_Tool.hxx>
 #include <BRep_Builder.hxx>

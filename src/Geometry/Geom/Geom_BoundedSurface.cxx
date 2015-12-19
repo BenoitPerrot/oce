@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Geom_BoundedSurface.hxx>
+#include <Geometry/Geom/Geom_BoundedSurface.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Geom_BoundedSurface)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

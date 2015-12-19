@@ -47,7 +47,7 @@ private:
 };
 
 #define SeqItem Handle(Geom_BoundedCurve)
-#define SeqItem_hxx <Geom_BoundedCurve.hxx>
+#define SeqItem_hxx <Geometry/Geom/Geom_BoundedCurve.hxx>
 #define TCollection_SequenceNode TColGeom_SequenceNodeOfSequenceOfBoundedCurve
 #define TCollection_SequenceNode_hxx <TColGeom_SequenceNodeOfSequenceOfBoundedCurve.hxx>
 #define Handle_TCollection_SequenceNode Handle_TColGeom_SequenceNodeOfSequenceOfBoundedCurve

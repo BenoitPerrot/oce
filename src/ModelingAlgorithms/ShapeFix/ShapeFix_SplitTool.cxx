@@ -26,7 +26,7 @@
 #include <ShapeFix_Edge.hxx>
 #include <ShapeBuild_Edge.hxx>
 #include <ShapeExtend_WireData.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geom2d_Curve.hxx>
 #include <Geom2d_TrimmedCurve.hxx>
 #include <Geom2d_Line.hxx>

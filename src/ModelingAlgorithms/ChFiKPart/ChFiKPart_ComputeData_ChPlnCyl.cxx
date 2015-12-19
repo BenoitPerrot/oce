@@ -38,12 +38,12 @@
 #include <ElCLib.hxx>
 #include <ElSLib.hxx>
 
-#include <Geom_ConicalSurface.hxx>
+#include <Geometry/Geom/Geom_ConicalSurface.hxx>
 #include <Geom2d_Line.hxx>
-#include <Geom_Line.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
 #include <Geom2d_Circle.hxx>
-#include <Geom_Circle.hxx>
-#include <Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
 #include <IntAna_QuadQuadGeo.hxx>
 
 #include <ChFiKPart_ComputeData_Fcts.hxx>
@@ -51,7 +51,7 @@
 
 //pour tester
 
-#include <Geom_CylindricalSurface.hxx>
+#include <Geometry/Geom/Geom_CylindricalSurface.hxx>
 
 
 //=======================================================================

@@ -21,7 +21,7 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <TopoDS_Shape.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <TopoDS_Shell.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
@@ -48,12 +48,12 @@
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 
 #include <GeomLProp_SLProps.hxx>
-#include <Geom_Surface.hxx>
-#include <Geom_Line.hxx>
-#include <Geom_TrimmedCurve.hxx>
-#include <Geom_Geometry.hxx>
-#include <Geom_Plane.hxx>
-#include <Geom_RectangularTrimmedSurface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_Geometry.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
 
 #include <GeomAdaptor_HSurface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_Surface.hxx>
@@ -93,7 +93,7 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 
 #ifdef DRAW
-#include <Geom_Circle.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <DBRep.hxx>
 #include <DrawTrSurf.hxx>

@@ -113,8 +113,8 @@ Standard_Integer GCPnts_TangentialDeflection::AddPoint
 }
 
 
-#include <Geom_BezierCurve.hxx>
-#include <Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_BezierCurve.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
 #define TheCurve Adaptor3d_Curve
 #define Handle_TheBezierCurve   Handle(Geom_BezierCurve)

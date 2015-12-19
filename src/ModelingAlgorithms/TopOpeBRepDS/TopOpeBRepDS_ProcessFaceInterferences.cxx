@@ -29,8 +29,8 @@
 #include <TopoDS_Solid.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Precision.hxx>
-#include <Geom_Curve.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <GeomAPI_ProjectPointOnSurf.hxx>
 #include <BRepTools.hxx>
 

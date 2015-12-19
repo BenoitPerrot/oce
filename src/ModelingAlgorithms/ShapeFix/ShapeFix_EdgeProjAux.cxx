@@ -41,9 +41,9 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_EdgeProjAux)
 #include <Geom2d_Curve.hxx>
 #include <Geom2d_BSplineCurve.hxx>
 #include <Geom2d_Line.hxx>
-#include <Geom_Curve.hxx>
-#include <Geom_Surface.hxx> 
-#include <Geom_SphericalSurface.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx> 
+#include <Geometry/Geom/Geom_SphericalSurface.hxx>
 
 #include <BRep_Tool.hxx>
 #include <Precision.hxx>

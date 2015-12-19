@@ -24,7 +24,7 @@
 #include <ShapeConstruct_ProjectCurveOnSurface.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Face.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <ShapeAnalysis_Surface.hxx>
 #include <ShapeFix_Edge.hxx>
@@ -55,7 +55,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Edge)
 #include <Geom2d_TrimmedCurve.hxx>
 #include <Geom2d_BezierCurve.hxx>
 
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <GeomLib.hxx>
 
 #include <Precision.hxx>

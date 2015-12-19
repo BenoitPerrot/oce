@@ -5,7 +5,7 @@
 
 #include <GeomLProp_SLProps.hxx>
 
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <LProp_BadContinuity.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
@@ -17,7 +17,7 @@
  
 
 #define Surface Handle(Geom_Surface)
-#define Surface_hxx <Geom_Surface.hxx>
+#define Surface_hxx <Geometry/Geom/Geom_Surface.hxx>
 #define Tool GeomLProp_SurfaceTool
 #define Tool_hxx <GeomLProp_SurfaceTool.hxx>
 #define LProp_SLProps GeomLProp_SLProps

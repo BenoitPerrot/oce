@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopoDS_Shape.hxx>
 #include <BRepBuilderAPI_FindPlane.hxx>
@@ -29,14 +29,14 @@
 #include <TopExp_Explorer.hxx>
 #include <BRep_Tool.hxx>
 
-#include <Geom_Line.hxx> 
-#include <Geom_Conic.hxx>
-#include <Geom_Circle.hxx> 
-#include <Geom_Ellipse.hxx> 
-#include <Geom_Parabola.hxx> 
-#include <Geom_Hyperbola.hxx> 
-#include <Geom_BezierCurve.hxx>
-#include <Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_Line.hxx> 
+#include <Geometry/Geom/Geom_Conic.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx> 
+#include <Geometry/Geom/Geom_Ellipse.hxx> 
+#include <Geometry/Geom/Geom_Parabola.hxx> 
+#include <Geometry/Geom/Geom_Hyperbola.hxx> 
+#include <Geometry/Geom/Geom_BezierCurve.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
 
 
 

@@ -17,10 +17,10 @@
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Geom_Vector.hxx>
+#include <Geometry/Geom/Geom_Vector.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
-#include <Geom_Geometry.hxx>
-#include <Geom_VectorWithMagnitude.hxx>
+#include <Geometry/Geom/Geom_Geometry.hxx>
+#include <Geometry/Geom/Geom_VectorWithMagnitude.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Geom_VectorWithMagnitude)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

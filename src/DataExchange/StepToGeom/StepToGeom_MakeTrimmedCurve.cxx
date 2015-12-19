@@ -21,11 +21,11 @@
 //    abv 09.02.99: S4136: eliminate using BRepAPI::Precision()
 
 #include <StepGeom_TrimmedCurve.hxx>
-#include <Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <StepToGeom_MakeTrimmedCurve.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Geom_CartesianPoint.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_CartesianPoint.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <StepGeom_CartesianPoint.hxx>
 #include <StepGeom_Line.hxx>
 #include <StepGeom_Vector.hxx>

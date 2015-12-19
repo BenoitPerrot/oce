@@ -16,12 +16,12 @@
 
 #include <StepGeom_ConicalSurface.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <Geom_ConicalSurface.hxx>
+#include <Geometry/Geom/Geom_ConicalSurface.hxx>
 #include <GeomToStep_MakeConicalSurface.hxx>
 #include <StepGeom_Axis2Placement3d.hxx>
 #include <GeomToStep_MakeAxis2Placement3d.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <Geom_ConicalSurface.hxx>
+#include <Geometry/Geom/Geom_ConicalSurface.hxx>
 #include <StepGeom_ConicalSurface.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 

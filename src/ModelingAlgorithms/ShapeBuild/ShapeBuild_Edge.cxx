@@ -17,11 +17,11 @@
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <TopoDS_Face.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Geom2d_Curve.hxx>
 #include <Mathematics/Primitives/gp_Trsf2d.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <ShapeBuild_Edge.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
@@ -56,8 +56,8 @@
 #include <BRep_Curve3D.hxx>
 #include <BRep_CurveOnSurface.hxx>
 #include <Geom2d_OffsetCurve.hxx>
-#include <Geom_TrimmedCurve.hxx>
-#include <Geom_OffsetCurve.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_OffsetCurve.hxx>
 #include <TopTools_SequenceOfShape.hxx>
 
 //=======================================================================

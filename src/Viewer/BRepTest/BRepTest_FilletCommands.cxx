@@ -45,7 +45,7 @@
 
 #include <FilletSurf_Builder.hxx>
 #include <ChFi3d_FilletShape.hxx>
-#include <Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <FilletSurf_StatusType.hxx>
 #include <FilletSurf_ErrorTypeStatus.hxx>

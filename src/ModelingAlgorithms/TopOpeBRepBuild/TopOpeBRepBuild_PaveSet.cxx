@@ -25,7 +25,7 @@
 #include <TopoDS_Vertex.hxx>
 #include <TopExp_Explorer.hxx>
 #include <Precision.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <BRep_Tool.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 

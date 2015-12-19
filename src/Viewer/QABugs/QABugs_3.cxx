@@ -20,7 +20,7 @@
 #include <TopoDS_Face.hxx>
 #include <TopoDS.hxx>
 #include <DBRep.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <BRep_Tool.hxx>
 #include <GeomInt_IntSS.hxx>
 #include <BRepLib_MakeEdge.hxx>
@@ -324,7 +324,7 @@ Standard_Integer ksection(Draw_Interpretor& di, Standard_Integer n, const char *
   return 0;
 }
 
-#include <Geom_Axis2Placement.hxx>
+#include <Geometry/Geom/Geom_Axis2Placement.hxx>
 #include <AIS_Trihedron.hxx>
 
 static Standard_Integer BUC60574(Draw_Interpretor& di, Standard_Integer /*n*/, const char ** a)
@@ -612,7 +612,7 @@ di <<"AnyToLS (3,mm) = " << UnitsAPI::AnyToLS(3.,"mm") << "\n"; // result was WR
 }
 
 #include <Mathematics/Primitives/gp_Circ.hxx>
-#include <Geom_Circle.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx>
 #include <GeomAPI.hxx>
 #include <Geom2d_CartesianPoint.hxx>
 #include <Geom2dGcc_QualifiedCurve.hxx>
@@ -674,13 +674,13 @@ static Standard_Integer BUC60792(Draw_Interpretor& di, Standard_Integer /*argc*/
 }
 
 #include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
-#include <Geom_BezierSurface.hxx>
+#include <Geometry/Geom/Geom_BezierSurface.hxx>
 #include <BRepLib_MakeFace.hxx>
 #include <BRepLib_MakeWire.hxx>
-#include <Geom_OffsetSurface.hxx>
+#include <Geometry/Geom/Geom_OffsetSurface.hxx>
 #include <BRepFilletAPI_MakeFillet2d.hxx>
 #include <GeomProjLib.hxx>
-#include <Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 
 static Standard_Integer BUC60811(Draw_Interpretor& di, Standard_Integer argc, const char ** argv )
 {
@@ -924,7 +924,7 @@ static int OCC10006(Draw_Interpretor& di, Standard_Integer argc, const char ** a
   return 0;
 }
 
-#include <Geom_RectangularTrimmedSurface.hxx>
+#include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
 #include <Geometry/GC/GC_MakeTrimmedCone.hxx>
 
 static Standard_Integer BUC60856(Draw_Interpretor& di, Standard_Integer /*argc*/, const char ** argv )

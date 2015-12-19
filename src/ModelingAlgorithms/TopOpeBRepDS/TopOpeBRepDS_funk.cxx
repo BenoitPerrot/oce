@@ -42,14 +42,14 @@
 #include <TopOpeBRepTool_SC.hxx>
 #include <TopOpeBRepTool_box.hxx>
 #include <TopOpeBRepTool_tol.hxx>
-#include <Geom_Curve.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <GeomAPI_ProjectPointOnSurf.hxx>
 #include <BRepTools.hxx>
 #include <GeomProjLib.hxx>
 #include <Geom2d_Curve.hxx>
 #include <ProjLib_ProjectedCurve.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <BRepAdaptor_Surface.hxx>
 #include <BRepAdaptor_Curve.hxx>
 #include <BRepAdaptor_HSurface.hxx>

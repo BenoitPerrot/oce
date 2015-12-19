@@ -7,12 +7,12 @@
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <TColGeom_SequenceNodeOfSequenceOfSurface.hxx>
  
 
 #define SeqItem Handle(Geom_Surface)
-#define SeqItem_hxx <Geom_Surface.hxx>
+#define SeqItem_hxx <Geometry/Geom/Geom_Surface.hxx>
 #define TCollection_SequenceNode TColGeom_SequenceNodeOfSequenceOfSurface
 #define TCollection_SequenceNode_hxx <TColGeom_SequenceNodeOfSequenceOfSurface.hxx>
 #define Handle_TCollection_SequenceNode Handle_TColGeom_SequenceNodeOfSequenceOfSurface

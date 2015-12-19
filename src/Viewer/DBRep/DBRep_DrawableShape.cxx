@@ -76,8 +76,8 @@ IMPLEMENT_STANDARD_RTTI(DBRep_DrawableShape)
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 
 #include <Precision.hxx>
-#include <Geom_BSplineSurface.hxx>
-#include <Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_BSplineSurface.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <GeomAdaptor_HSurface.hxx>
 #include <GeomAdaptor_Surface.hxx>

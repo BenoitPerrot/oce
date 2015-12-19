@@ -12,7 +12,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <TopoDS_Edge.hxx>
 #include <IntTools_Range.hxx>
 #include <IntTools_SequenceOfRanges.hxx>
@@ -31,10 +31,10 @@
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Geometry/BndLib/BndLib_Add3dCurve.hxx>
 
-#include <Geom_Circle.hxx>
-#include <Geom_Ellipse.hxx>
-#include <Geom_BezierCurve.hxx>
-#include <Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx>
+#include <Geometry/Geom/Geom_Ellipse.hxx>
+#include <Geometry/Geom/Geom_BezierCurve.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
 
 #include <GeomAPI_ProjectPointOnCurve.hxx>
 

@@ -18,7 +18,7 @@
 #include <DBRep.hxx>
 #include <Draw_Interpretor.hxx>
 #include <DrawTrSurf.hxx>
-#include <Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
 #include <Draw_Appli.hxx>
 #include <BRep_Builder.hxx>
 

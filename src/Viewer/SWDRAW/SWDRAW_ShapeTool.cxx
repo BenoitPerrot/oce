@@ -38,8 +38,8 @@
 #include <TopExp_Explorer.hxx>
 #include <TopExp.hxx>
 #include <BRep_Tool.hxx>
-#include <Geom_Curve.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>
@@ -56,7 +56,7 @@
 #include <BRepLib.hxx>
 
 // + fillface
-#include <Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <stdio.h>
 #include <Precision.hxx>
 #include <DrawTrSurf.hxx>

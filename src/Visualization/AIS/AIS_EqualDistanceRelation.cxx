@@ -17,10 +17,10 @@
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 
 #include <TopoDS_Shape.hxx>
-#include <Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
 #include <Prs3d_Presentation.hxx>
 #include <Prs3d_Projector.hxx>
-#include <Geom_Transformation.hxx>
+#include <Geometry/Geom/Geom_Transformation.hxx>
 #include <SelectMgr_Selection.hxx>
 #include <AIS_Drawer.hxx>
 #include <TopoDS_Edge.hxx>
@@ -61,8 +61,8 @@ IMPLEMENT_STANDARD_RTTI(AIS_EqualDistanceRelation)
 #include <GeomAPI_ProjectPointOnSurf.hxx>
 #include <Prs3d_DimensionAspect.hxx>
 #include <Prs3d_ArrowAspect.hxx>
-#include <Geom_Line.hxx>
-#include <Geom_Circle.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx>
 #include <AIS_Drawer.hxx>
 #include <ElCLib.hxx>
 //=======================================================================

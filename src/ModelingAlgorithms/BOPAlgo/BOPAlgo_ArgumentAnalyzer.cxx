@@ -22,7 +22,7 @@
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 
 #include <TopoDS_Iterator.hxx>
 #include <TopoDS.hxx>

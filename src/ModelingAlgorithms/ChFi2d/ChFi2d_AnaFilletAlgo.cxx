@@ -27,7 +27,7 @@
 #include <GeomAPI_ExtremaCurveCurve.hxx>
 #include <IntAna2d_AnaIntersection.hxx>
 #include <ShapeAnalysis_Wire.hxx>
-#include <Geom_Circle.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx>
 
 #include <BRepAdaptor_Curve.hxx>
 #include <BRep_Tool.hxx>

@@ -25,7 +25,7 @@
 #include <TransferBRep_ShapeBinder.hxx>
 
 #include <StepToGeom_MakeAxis2Placement.hxx>
-#include <Geom_Axis2Placement.hxx>
+#include <Geometry/Geom/Geom_Axis2Placement.hxx>
 #include <Mathematics/Primitives/gp_Ax3.hxx>
 #include <Mathematics/Primitives/gp_TrsfForm.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
@@ -34,8 +34,8 @@
 #include <StepRepr_Representation.hxx>
 
 //  + pour CartesianOperator3d
-#include <Geom_CartesianPoint.hxx>
-#include <Geom_Direction.hxx>
+#include <Geometry/Geom/Geom_CartesianPoint.hxx>
+#include <Geometry/Geom/Geom_Direction.hxx>
 #include <StepGeom_CartesianPoint.hxx>
 #include <StepGeom_Direction.hxx>
 #include <StepToGeom_MakeCartesianPoint.hxx>

@@ -70,7 +70,7 @@ private:
 };
 
 #define ItemHArray1 Handle(Geom_BSplineCurve)
-#define ItemHArray1_hxx <Geom_BSplineCurve.hxx>
+#define ItemHArray1_hxx <Geometry/Geom/Geom_BSplineCurve.hxx>
 #define TheArray1 TColGeom_Array1OfBSplineCurve
 #define TheArray1_hxx <TColGeom_Array1OfBSplineCurve.hxx>
 #define TCollection_HArray1 TColGeom_HArray1OfBSplineCurve

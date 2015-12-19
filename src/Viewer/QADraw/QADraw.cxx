@@ -175,7 +175,7 @@ Standard_EXPORT Handle(AIS_InteractiveContext)& TheAISContext();
 #include <ViewerTest_DoubleMapOfInteractiveAndName.hxx>
 #include <AIS_Trihedron.hxx>
 #include <AIS_Axis.hxx>
-#include <Geom_Line.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
 #include <AIS_Line.hxx>
 
 //==============================================================================

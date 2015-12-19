@@ -16,10 +16,10 @@
 
 //GER61351		//GG_171199     Enable to set an object RGB color instead a restricted object NameOfColor.
 
-#include <Geom_Circle.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx>
 #include <Prs3d_Presentation.hxx>
 #include <Prs3d_Projector.hxx>
-#include <Geom_Transformation.hxx>
+#include <Geometry/Geom/Geom_Transformation.hxx>
 #include <SelectMgr_Selection.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <AIS_Circle.hxx>
@@ -45,7 +45,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_Circle)
 #include <Select3D_SensitiveCircle.hxx>
 #include <StdPrs_DeflectionCurve.hxx>
 #include <TopoDS.hxx>
-#include <Geom_Circle.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx>
 #include <GeomAdaptor_Curve.hxx>
 #include <AIS_Drawer.hxx>
 #include <Geometry/GC/GC_MakeArcOfCircle.hxx>

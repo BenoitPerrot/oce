@@ -13,7 +13,7 @@
 // commercial license or contractual agreement.
 
 #include <TColGeom_HArray1OfSurface.hxx>
-#include <Geom_BSplineSurface.hxx>
+#include <Geometry/Geom/Geom_BSplineSurface.hxx>
 
 
 inline Standard_Boolean AdvApp2Var_ApproxAFunc2Var::IsDone() const 

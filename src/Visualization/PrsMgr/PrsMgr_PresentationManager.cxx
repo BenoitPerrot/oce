@@ -17,7 +17,7 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <PrsMgr_PresentableObject.hxx>
 #include <Prs3d_Presentation.hxx>
-#include <Geom_Transformation.hxx>
+#include <Geometry/Geom/Geom_Transformation.hxx>
 #include <Prs3d_ShadingAspect.hxx>
 #include <PrsMgr_Presentation.hxx>
 #include <PrsMgr_PresentationManager.hxx>

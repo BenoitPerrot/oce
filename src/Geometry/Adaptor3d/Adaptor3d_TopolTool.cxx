@@ -578,8 +578,8 @@ Standard_Boolean Adaptor3d_TopolTool::Identical
 //--  s a m p l e s
 //-- ============================================================ 
 #include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
-#include <Geom_BezierSurface.hxx>
-#include <Geom_BSplineSurface.hxx>
+#include <Geometry/Geom/Geom_BezierSurface.hxx>
+#include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>
 //#include <Geometry/gce/gce_MakeLin.hxx>

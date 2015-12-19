@@ -19,7 +19,7 @@
 #include <PrsMgr_PresentationManager.hxx>
 #include <Graphic3d_Structure.hxx>
 #include <Graphic3d_DataStructureManager.hxx>
-#include <Geom_Transformation.hxx>
+#include <Geometry/Geom/Geom_Transformation.hxx>
 #include <Prs3d_Presentation.hxx>
 #include <Prs3d_Projector.hxx>
 #include <PrsMgr_Presentations.hxx>
@@ -42,7 +42,7 @@ IMPLEMENT_STANDARD_RTTI(PrsMgr_PresentableObject)
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_MapOfInteger.hxx>
 #include <Graphic3d_TypeOfStructure.hxx>
-#include <Geom_Transformation.hxx>
+#include <Geometry/Geom/Geom_Transformation.hxx>
 
 //=======================================================================
 //function : PrsMgr_PresentableObject

@@ -14,36 +14,36 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Geom_BSplineCurve.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geom2d_BSplineCurve.hxx>
 #include <Geom2d_Curve.hxx>
-#include <Geom_BSplineSurface.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_BSplineSurface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <TopTools_HSequenceOfShape.hxx>
 #include <TopoDS_Face.hxx>
 #include <TopoDS_Edge.hxx>
 #include <ShapeConstruct.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
-#include <Geom_Conic.hxx>
-#include <Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_Conic.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <GeomConvert_ApproxCurve.hxx>
 #include <GeomConvert.hxx>
 #include <Geom2d_Conic.hxx>
 #include <Geom2d_TrimmedCurve.hxx>
 #include <Geom2dConvert_ApproxCurve.hxx>
 #include <Geom2dConvert.hxx>
-#include <Geom_RectangularTrimmedSurface.hxx>
-#include <Geom_SurfaceOfLinearExtrusion.hxx>
+#include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
+#include <Geometry/Geom/Geom_SurfaceOfLinearExtrusion.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <GeomConvert_ApproxSurface.hxx>
-#include <Geom_SurfaceOfRevolution.hxx>
-#include <Geom_OffsetCurve.hxx>
+#include <Geometry/Geom/Geom_SurfaceOfRevolution.hxx>
+#include <Geometry/Geom/Geom_OffsetCurve.hxx>
 #include <ShapeConstruct_Curve.hxx>
 #include <Precision.hxx>
 #include <GeomConvert_CompCurveToBSplineCurve.hxx>
@@ -54,7 +54,7 @@
 #include <ShapeAnalysis_Edge.hxx>
 #include <BRep_Builder.hxx>
 #include <BRep_Tool.hxx>
-#include <Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
 #include <TopAbs_Orientation.hxx>
 #include <TopoDS.hxx>
 

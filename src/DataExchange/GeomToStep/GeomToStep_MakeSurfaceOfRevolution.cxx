@@ -16,7 +16,7 @@
 
 #include <StepGeom_SurfaceOfRevolution.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <Geom_SurfaceOfRevolution.hxx>
+#include <Geometry/Geom/Geom_SurfaceOfRevolution.hxx>
 #include <GeomToStep_MakeSurfaceOfRevolution.hxx>
 #include <GeomToStep_MakeAxis1Placement.hxx>
 #include <GeomToStep_MakeCurve.hxx>
@@ -24,7 +24,7 @@
 #include <StepGeom_Curve.hxx>
 #include <StepGeom_Axis1Placement.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <Geom_SurfaceOfRevolution.hxx>
+#include <Geometry/Geom/Geom_SurfaceOfRevolution.hxx>
 #include <StepGeom_SurfaceOfRevolution.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 

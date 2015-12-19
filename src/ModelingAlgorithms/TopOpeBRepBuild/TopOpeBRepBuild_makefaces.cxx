@@ -59,8 +59,8 @@
 #include <BRepTools.hxx>
 #include <GeomAdaptor_Surface.hxx>
 #include <GeomAbs_SurfaceType.hxx>
-#include <Geom_Surface.hxx>
-#include <Geom_RectangularTrimmedSurface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
 #include <Geom2d_Curve.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <TopOpeBRepDS.hxx>

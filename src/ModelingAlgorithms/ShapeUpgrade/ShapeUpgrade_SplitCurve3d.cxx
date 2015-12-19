@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <TColGeom_HArray1OfCurve.hxx>
 #include <ShapeUpgrade_SplitCurve3d.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -27,19 +27,19 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(ShapeUpgrade_SplitCurve3d)
 IMPLEMENT_DOWNCAST(ShapeUpgrade_SplitCurve3d,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_SplitCurve3d)
-#include <Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Precision.hxx>
 #include <ShapeUpgrade.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfReal.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
 #include <TColGeom_HArray1OfCurve.hxx>
-#include <Geom_TrimmedCurve.hxx>
-#include <Geom_OffsetCurve.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_OffsetCurve.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <ShapeExtend.hxx>
 #include <Precision.hxx>
-#include <Geom_BezierCurve.hxx>
+#include <Geometry/Geom/Geom_BezierCurve.hxx>
 #include <ShapeAnalysis_Curve.hxx>
 
 //=======================================================================

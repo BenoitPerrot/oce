@@ -34,8 +34,8 @@
 #include <Geom2d_Curve.hxx>
 #include <BRepClass_FaceClassifier.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
-#include <Geom_Curve.hxx>
-#include <Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <BRep_Builder.hxx>

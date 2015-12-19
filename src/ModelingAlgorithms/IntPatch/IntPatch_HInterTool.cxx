@@ -27,8 +27,8 @@
 #include <GeomAbs_SurfaceType.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 
-#include <Geom_BezierSurface.hxx>
-#include <Geom_BSplineSurface.hxx>
+#include <Geometry/Geom/Geom_BezierSurface.hxx>
+#include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <Geom2d_BezierCurve.hxx>
 #include <Geom2d_BSplineCurve.hxx>
 

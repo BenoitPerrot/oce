@@ -32,13 +32,13 @@
 #include <BRepAdaptor_Curve2d.hxx>
 #include <Geometry/BndLib/BndLib_Add2dCurve.hxx>
 #include <BRepLProp_SLProps.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geom2dAdaptor_Curve.hxx>
 #include <Geom2d_Line.hxx>
 #include <Geom2d_Curve.hxx>
 #include <Geom2d_TrimmedCurve.hxx>
-#include <Geom_Line.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <GeomAPI_IntCS.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Solid.hxx>

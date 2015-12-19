@@ -20,7 +20,7 @@
 #include <StepGeom_CompositeCurve.hxx>
 #include <Transfer_TransientProcess.hxx>
 #include <StepGeom_Surface.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <TopoDS_Wire.hxx>
 #include <StepToTopoDS_TranslateCompositeCurve.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
@@ -28,7 +28,7 @@
 #include <Interface_Static.hxx>
 #include <Precision.hxx>
 
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geom2d_Curve.hxx>
 #include <StepGeom_Pcurve.hxx>
 #include <StepGeom_SurfaceCurve.hxx>

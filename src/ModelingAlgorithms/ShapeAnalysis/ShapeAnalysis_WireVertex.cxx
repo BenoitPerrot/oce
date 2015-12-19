@@ -21,7 +21,7 @@
 #include <ShapeAnalysis_WireVertex.hxx>
 
 #include <BRep_Tool.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 
 #include <Precision.hxx>
 

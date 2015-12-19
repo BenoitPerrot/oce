@@ -48,8 +48,8 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Wireframe)
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <ShapeAnalysis_Edge.hxx>
-#include <Geom_Curve.hxx>
-#include <Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <GeomConvert_CompCurveToBSplineCurve.hxx>
 #include <BRep_Tool.hxx>

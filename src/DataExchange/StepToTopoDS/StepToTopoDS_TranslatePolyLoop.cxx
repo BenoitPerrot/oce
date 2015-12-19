@@ -19,7 +19,7 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <StepShape_PolyLoop.hxx>
 #include <StepToTopoDS_Tool.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <TopoDS_Face.hxx>
 #include <TopoDS_Shape.hxx>
 #include <StepToTopoDS_TranslatePolyLoop.hxx>
@@ -40,9 +40,9 @@
 #include <TopoDS_Edge.hxx>
 
 #include <Geom2d_Line.hxx>
-#include <Geom_Line.hxx>
-#include <Geom_Plane.hxx>
-#include <Geom_CartesianPoint.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_CartesianPoint.hxx>
 
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 

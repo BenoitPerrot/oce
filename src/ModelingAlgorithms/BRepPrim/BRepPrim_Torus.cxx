@@ -25,8 +25,8 @@
 #include <Mathematics/Primitives/gp_Ax2d.hxx>
 #include <Precision.hxx>
 
-#include <Geom_ToroidalSurface.hxx>
-#include <Geom_Circle.hxx>
+#include <Geometry/Geom/Geom_ToroidalSurface.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx>
 #include <Geom2d_Circle.hxx>
 
 //=======================================================================

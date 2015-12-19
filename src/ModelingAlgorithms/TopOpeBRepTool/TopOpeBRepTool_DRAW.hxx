@@ -24,7 +24,7 @@
 #include <Draw_ColorKind.hxx>
 #include <Draw_MarkerShape.hxx>
 #include <TopOpeBRepTool_define.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geom2d_Curve.hxx>
 #include <TopOpeBRepTool_define.hxx>
 

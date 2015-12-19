@@ -25,7 +25,7 @@
 #include <GeomPlate_HSequenceOfCurveConstraint.hxx>
 #include <GeomPlate_HArray1OfSequenceOfReal.hxx>
 #include <GeomPlate_HSequenceOfPointConstraint.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <GeomPlate_Surface.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
@@ -52,7 +52,7 @@
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 
-#include <Geom_RectangularTrimmedSurface.hxx>
+#include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
 
 #include <Geometry/GCPnts/GCPnts_AbscissaPoint.hxx>
 #include <Law_Interpol.hxx>
@@ -92,7 +92,7 @@
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfVec.hxx>
 #include <Mathematics/Collections/TColgp_HArray2OfPnt.hxx>
-#include <Geom_BSplineSurface.hxx>
+#include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <GeomPlate_SequenceOfAij.hxx>
 #include <GeomPlate_MakeApprox.hxx>
 

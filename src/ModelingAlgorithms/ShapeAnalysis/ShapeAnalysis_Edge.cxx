@@ -18,9 +18,9 @@
 //:s4 abv 26.04.99: sim6049.igs 21677: copy of curve is necessary to get True SP
 //    abv 06.05.99: S4137: adding methods GetTangent2d()
 #include <TopoDS_Edge.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <TopoDS_Face.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Geom2d_Curve.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
@@ -55,7 +55,7 @@
 #include <ShapeExtend.hxx>
 #include <TopExp.hxx>
 #include <TopoDS_Vertex.hxx>
-#include <Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
 
 
 //=======================================================================

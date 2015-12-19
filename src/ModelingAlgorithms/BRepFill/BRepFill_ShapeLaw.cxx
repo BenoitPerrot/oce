@@ -41,10 +41,10 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_ShapeLaw)
 #include <TopoDS.hxx>
 #include <TopoDS_Vertex.hxx>
 
-#include <Geom_Curve.hxx>
-#include <Geom_Line.hxx>
-#include <Geom_TrimmedCurve.hxx>
-#include <Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <GeomFill_UniformSection.hxx>
 #include <GeomFill_EvolvedSection.hxx>
 #include <GeomFill_HArray1OfSectionLaw.hxx>

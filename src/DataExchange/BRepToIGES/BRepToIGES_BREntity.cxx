@@ -32,7 +32,7 @@
 
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 
-#include <Geom_Geometry.hxx>
+#include <Geometry/Geom/Geom_Geometry.hxx>
 
 #include <IGESData_IGESEntity.hxx>
 

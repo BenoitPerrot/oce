@@ -58,9 +58,9 @@
 #include <TopOpeBRepTool_ShapeTool.hxx>
 #include <TopOpeBRepDS_CurvePointInterference.hxx>
 #include <GeomAdaptor_Surface.hxx>
-#include <Geom_Surface.hxx>
-#include <Geom_CylindricalSurface.hxx>
-#include <Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_CylindricalSurface.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Geom2d_Curve.hxx>
 #include <Geom2d_TrimmedCurve.hxx>
 #include <Geom2d_Line.hxx>

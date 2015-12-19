@@ -40,10 +40,10 @@
 #include <DBRep.hxx>
 #include <ElSLib.hxx>
 #include <Geometry/GC/GC_MakePlane.hxx>
-#include <Geom_CartesianPoint.hxx>
-#include <Geom_Circle.hxx>
-#include <Geom_Line.hxx>
-#include <Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_CartesianPoint.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
 #include <GeomAPI_IntCS.hxx>
 #include <Geometry/gce/gce_MakeLin.hxx>
 #include <Geometry/gce/gce_MakePln.hxx>
@@ -861,7 +861,7 @@ static int VDiameterDimBuilder(Draw_Interpretor& di, Standard_Integer argc, cons
 //Draw arg : vconcentric Name
 //==============================================================================
 #include <AIS_ConcentricRelation.hxx>
-#include <Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Geometry/GC/GC_MakePlane.hxx>
 #include <BRepAdaptor_Curve.hxx>

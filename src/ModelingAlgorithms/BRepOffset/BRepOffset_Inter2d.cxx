@@ -51,9 +51,9 @@
 #include <BRep_CurveRepresentation.hxx>
 #include <BRep_GCurve.hxx>
 
-#include <Geom_Line.hxx>
-#include <Geom_Plane.hxx>
-#include <Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <GeomConvert_CompCurveToBSplineCurve.hxx>
 #include <Precision.hxx>
 #include <Geom2d_TrimmedCurve.hxx>
@@ -66,9 +66,9 @@
 #include <BRepAdaptor_Curve2d.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>
-#include <Geom_BSplineSurface.hxx>
-#include <Geom_CylindricalSurface.hxx>
-#include <Geom_ConicalSurface.hxx>
+#include <Geometry/Geom/Geom_BSplineSurface.hxx>
+#include <Geometry/Geom/Geom_CylindricalSurface.hxx>
+#include <Geometry/Geom/Geom_ConicalSurface.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #include <TColGeom2d_SequenceOfCurve.hxx>
 #include <Geom2dInt_GInter.hxx>

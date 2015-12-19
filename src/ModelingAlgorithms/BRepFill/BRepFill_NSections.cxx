@@ -17,7 +17,7 @@
 #include <stdio.h>
 
 #include <TopTools_HArray2OfShape.hxx>
-#include <Geom_BSplineSurface.hxx>
+#include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <TopTools_SequenceOfShape.hxx>
 #include <GeomFill_SequenceOfTrsf.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
@@ -50,11 +50,11 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_NSections)
 #include <TopoDS_Vertex.hxx>
 #include <TopoDS_Wire.hxx>
 
-#include <Geom_Curve.hxx>
-#include <Geom_Line.hxx>
-#include <Geom_TrimmedCurve.hxx>
-#include <Geom_BSplineCurve.hxx>
-#include <Geom_Conic.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_Conic.hxx>
 #include <GeomFill_UniformSection.hxx>
 #include <GeomFill_EvolvedSection.hxx>
 #include <GeomFill_HArray1OfSectionLaw.hxx>
@@ -66,13 +66,13 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_NSections)
 #include <GeomConvert.hxx>
 #include <GeomConvert_ApproxCurve.hxx>
 #include <GeomConvert_CompCurveToBSplineCurve.hxx>
-#include <Geom_BSplineSurface.hxx>
+#include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 
 #include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
-#include <Geom_BezierCurve.hxx>
+#include <Geometry/Geom/Geom_BezierCurve.hxx>
 #include <TopTools_Array1OfShape.hxx>
 
 #include <Precision.hxx>

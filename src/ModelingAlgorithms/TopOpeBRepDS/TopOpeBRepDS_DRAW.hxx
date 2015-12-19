@@ -25,7 +25,7 @@
 #include <Geom2d_Curve.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 
 Standard_EXPORT void FUN_draw (const TopoDS_Shape& s);

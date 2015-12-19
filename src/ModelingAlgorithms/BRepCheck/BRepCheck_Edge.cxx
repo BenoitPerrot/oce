@@ -53,10 +53,10 @@ IMPLEMENT_STANDARD_RTTI(BRepCheck_Edge)
 
 #include <TopExp_Explorer.hxx>
 
-#include <Geom_Surface.hxx>
-#include <Geom_RectangularTrimmedSurface.hxx>
-#include <Geom_Plane.hxx>
-#include <Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Geom2d_Curve.hxx>
 
 #include <Geom2dAdaptor_HCurve.hxx>

@@ -48,7 +48,7 @@
 #include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
 #include <GeomAPI_Interpolate.hxx>
 #include <Precision.hxx>
-#include <Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Foundation/OSD/OSD_Path.hxx>
 #include <ShapeBuild_ReShape.hxx>
 #include <ShapeExtend_WireData.hxx>

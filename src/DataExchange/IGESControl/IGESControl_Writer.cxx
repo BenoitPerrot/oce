@@ -26,8 +26,8 @@
 #include <IGESSelect_WorkLibrary.hxx>
 #include <BRepToIGES_BREntity.hxx>
 #include <BRepToIGESBRep_Entity.hxx>
-#include <Geom_Curve.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <GeomToIGES_GeomCurve.hxx>
 #include <GeomToIGES_GeomSurface.hxx>
 #include <IGESData_IGESWriter.hxx>

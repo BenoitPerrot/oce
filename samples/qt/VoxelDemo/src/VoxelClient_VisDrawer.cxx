@@ -17,7 +17,7 @@
 
 #include <ElSLib.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
-#include <Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
 #include <Geometry/gce/gce_MakePln.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Aspect_TypeOfLine.hxx>

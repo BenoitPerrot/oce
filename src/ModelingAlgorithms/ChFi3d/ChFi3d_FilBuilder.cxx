@@ -75,7 +75,7 @@
 
 
 #include <GeomAdaptor_HCurve.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>

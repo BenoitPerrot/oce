@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <TopoDS_Shell.hxx>
 #include <BRepLib_MakeShell.hxx>
 
@@ -23,8 +23,8 @@
 #include <Precision.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 
-#include <Geom_RectangularTrimmedSurface.hxx>
-#include <Geom_BSplineSurface.hxx>
+#include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
+#include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <Geom2d_Line.hxx>
 #include <GeomAdaptor_Surface.hxx>
 #include <TColGeom2d_Array1OfCurve.hxx>

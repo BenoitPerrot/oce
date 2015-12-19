@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <TopOpeBRepTool_GeomTool.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geom2d_Curve.hxx>
 #include <TopoDS_Shape.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
@@ -27,7 +27,7 @@
 #include <BRepApprox_ApproxLine.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Face.hxx>
-#include <Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Geom2d_Line.hxx>
 #include <Geom2d_Circle.hxx>
 #include <Geom2d_Ellipse.hxx>
@@ -61,9 +61,9 @@
 #include <Geometry/gce/gce_MakeCirc.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 //#include <Geometry/Approx/Approx.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
-#include <Geom_RectangularTrimmedSurface.hxx>
+#include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
 #include <BRep_Tool.hxx>
 
 #ifdef OCCT_DEBUG

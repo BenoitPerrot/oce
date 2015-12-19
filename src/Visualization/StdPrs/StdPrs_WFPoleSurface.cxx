@@ -24,8 +24,8 @@
 #include <Prs3d_IsoAspect.hxx>
 #include <Graphic3d_ArrayOfPolylines.hxx>
 
-#include <Geom_BezierSurface.hxx>
-#include <Geom_BSplineSurface.hxx>
+#include <Geometry/Geom/Geom_BezierSurface.hxx>
+#include <Geometry/Geom/Geom_BSplineSurface.hxx>
 
 static void AddPoles(const Handle (Prs3d_Presentation)& aPresentation,
                      const TColgp_Array2OfPnt&          A,

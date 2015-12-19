@@ -33,8 +33,8 @@
 #include <Foundation/TColStd/TColStd_HSequenceOfAsciiString.hxx>
 #include <Foundation/TColStd/TColStd_MapOfTransient.hxx>
 #include <Foundation/OSD/OSD_Timer.hxx>
-#include <Geom_Axis2Placement.hxx>
-#include <Geom_Axis1Placement.hxx>
+#include <Geometry/Geom/Geom_Axis2Placement.hxx>
+#include <Geometry/Geom/Geom_Axis1Placement.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <TopExp_Explorer.hxx>
 #include <BRepAdaptor_Curve.hxx>

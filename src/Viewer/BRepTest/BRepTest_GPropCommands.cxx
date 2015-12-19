@@ -28,9 +28,9 @@
 #include <Draw_Axis3D.hxx>
 #include <Precision.hxx>
 #include <Foundation/OSD/OSD_Chronometer.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <DrawTrSurf.hxx>
-#include <Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 
 #ifdef WNT

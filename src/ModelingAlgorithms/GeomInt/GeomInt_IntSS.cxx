@@ -17,8 +17,8 @@
 #include <GeomAdaptor_HSurface.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <Geom_Surface.hxx>
-#include <Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geom2d_Curve.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_TopolTool.hxx>
@@ -26,7 +26,7 @@
 
 #include <Geometry/Adaptor3d/Adaptor3d_TopolTool.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <GeomAdaptor_Surface.hxx>
 #include <GeomAdaptor_HSurface.hxx>
 

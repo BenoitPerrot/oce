@@ -40,10 +40,10 @@
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Geom2d_Curve.hxx>
 #include <Geom2d_Line.hxx>
-#include <Geom_Curve.hxx>
-#include <Geom_Circle.hxx>
-#include <Geom_Ellipse.hxx>
-#include <Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx>
+#include <Geometry/Geom/Geom_Ellipse.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
 #include <GeomAPI_ProjectPointOnCurve.hxx>
 #include <GeomAPI_ProjectPointOnSurf.hxx>
 #include <BRep_Tool.hxx>
@@ -75,8 +75,8 @@
 
 #ifdef OCCT_DEBUG
 #include <TopOpeBRep_FFDumper.hxx>
-#include <Geom_TrimmedCurve.hxx>
-#include <Geom_Line.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
 extern Standard_Boolean TopOpeBRepDS_GettraceDSF(); 
 extern Standard_Boolean TopOpeBRepDS_GettraceDSNC(); 
 extern Standard_Boolean TopOpeBRepDS_GettraceDEGEN();

@@ -47,7 +47,7 @@ private:
 };
 
 #define SeqItem Handle(Geom_Curve)
-#define SeqItem_hxx <Geom_Curve.hxx>
+#define SeqItem_hxx <Geometry/Geom/Geom_Curve.hxx>
 #define TCollection_SequenceNode TColGeom_SequenceNodeOfSequenceOfCurve
 #define TCollection_SequenceNode_hxx <TColGeom_SequenceNodeOfSequenceOfCurve.hxx>
 #define Handle_TCollection_SequenceNode Handle_TColGeom_SequenceNodeOfSequenceOfCurve

@@ -36,16 +36,16 @@
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <GeomAdaptor_Curve.hxx>
-#include <Geom_Circle.hxx>
-#include <Geom_Line.hxx>
-#include <Geom_Curve.hxx>
-#include <Geom_BezierCurve.hxx>
-#include <Geom_TrimmedCurve.hxx>
-#include <Geom_Surface.hxx>
-#include <Geom_Plane.hxx>
-#include <Geom_CylindricalSurface.hxx>
-#include <Geom_ConicalSurface.hxx>
-#include <Geom_RectangularTrimmedSurface.hxx>
+#include <Geometry/Geom/Geom_Circle.hxx>
+#include <Geometry/Geom/Geom_Line.hxx>
+#include <Geometry/Geom/Geom_Curve.hxx>
+#include <Geometry/Geom/Geom_BezierCurve.hxx>
+#include <Geometry/Geom/Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Geom_Surface.hxx>
+#include <Geometry/Geom/Geom_Plane.hxx>
+#include <Geometry/Geom/Geom_CylindricalSurface.hxx>
+#include <Geometry/Geom/Geom_ConicalSurface.hxx>
+#include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
 #include <Geom2d_Line.hxx>
 #include <Geom2d_BezierCurve.hxx>
 #include <GeomFill_Generator.hxx>
@@ -60,7 +60,7 @@
 
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx> 
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx> 
-#include <Geom_BSplineCurve.hxx> 
+#include <Geometry/Geom/Geom_BSplineCurve.hxx> 
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <GeomConvert.hxx>
 

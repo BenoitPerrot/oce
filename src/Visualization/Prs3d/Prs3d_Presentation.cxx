@@ -22,7 +22,7 @@
 #include <Graphic3d_DataStructureManager.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <Prs3d_ShadingAspect.hxx>
-#include <Geom_Transformation.hxx>
+#include <Geometry/Geom/Geom_Transformation.hxx>
 #include <Graphic3d_Group.hxx>
 #include <Prs3d_Presentation.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

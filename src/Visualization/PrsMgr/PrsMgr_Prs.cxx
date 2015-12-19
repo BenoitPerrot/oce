@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(PrsMgr_Prs)
 #include <PrsMgr_Presentation.hxx>
 #include <Precision.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
-#include <Geom_Transformation.hxx>
+#include <Geometry/Geom/Geom_Transformation.hxx>
 
 PrsMgr_Prs::PrsMgr_Prs (const Handle(Graphic3d_StructureManager)& theStructManager,
                         const PrsMgr_PresentationPointer&         thePrs,
