@@ -17,7 +17,7 @@
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <LProp3d_SurfaceTool.hxx>
+#include <Geometry/LProp3d/LProp3d_SurfaceTool.hxx>
 
 //=======================================================================
 //function : Value

@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <LProp3d_CLProps.hxx>
+#include <Geometry/LProp3d/LProp3d_CLProps.hxx>
 
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <Geometry/LProp/LProp_BadContinuity.hxx>
@@ -13,7 +13,7 @@
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
-#include <LProp3d_CurveTool.hxx>
+#include <Geometry/LProp3d/LProp3d_CurveTool.hxx>
  
 
 #define Curve Handle(Adaptor3d_HCurve)
@@ -25,8 +25,8 @@
 #define Dir gp_Dir
 #define Dir_hxx <Mathematics/Primitives/gp_Dir.hxx>
 #define Tool LProp3d_CurveTool
-#define Tool_hxx <LProp3d_CurveTool.hxx>
+#define Tool_hxx <Geometry/LProp3d/LProp3d_CurveTool.hxx>
 #define LProp_CLProps LProp3d_CLProps
-#define LProp_CLProps_hxx <LProp3d_CLProps.hxx>
+#define LProp_CLProps_hxx <Geometry/LProp3d/LProp3d_CLProps.hxx>
 #include <Geometry/LProp/LProp_CLProps.gxx>
 

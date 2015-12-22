@@ -17,7 +17,7 @@
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <LProp3d_CurveTool.hxx>
+#include <Geometry/LProp3d/LProp3d_CurveTool.hxx>
 
 //=======================================================================
 //function : Value
