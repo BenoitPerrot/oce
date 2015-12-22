@@ -51,7 +51,7 @@
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <BRep_Tool.hxx>
 #include <TopExp.hxx>
-#include <GProp_GProps.hxx>
+#include <Geometry/GProp/GProp_GProps.hxx>
 #include <BRepGProp.hxx>
 #include <BRepTopAdaptor_FClass2d.hxx>
 #include <ShapeAnalysis_ShapeContents.hxx>

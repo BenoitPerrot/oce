@@ -14,7 +14,7 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <GProp_ValueType.hxx>
+#include <Geometry/GProp/GProp_ValueType.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Mathematics/Optimization/math_Function.hxx>
 class BRepGProp_Face;

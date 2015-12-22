@@ -50,9 +50,9 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
-#include <GProp_PEquation.hxx>
-#include <GProp_PGProps.hxx>
-#include <GProp_PrincipalProps.hxx>
+#include <Geometry/GProp/GProp_PEquation.hxx>
+#include <Geometry/GProp/GProp_PGProps.hxx>
+#include <Geometry/GProp/GProp_PrincipalProps.hxx>
 #include <Geometry/Extrema/Extrema_ExtElC.hxx>
 #include <Geometry/Extrema/Extrema_POnCurv.hxx>
 

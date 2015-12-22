@@ -83,7 +83,7 @@
 #include <BRepLib_MakeWire.hxx>
 #include <Geometry/gce/gce_MakePln.hxx>
 #include <ShapeFix_Shape.hxx>
-#include <GProp_GProps.hxx>
+#include <Geometry/GProp/GProp_GProps.hxx>
 #include <BRepGProp.hxx>
 
 #ifdef OCCT_DEBUG

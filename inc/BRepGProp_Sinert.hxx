@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <GProp_GProps.hxx>
+#include <Geometry/GProp/GProp_GProps.hxx>
 class BRepGProp_Face;
 class gp_Pnt;
 class BRepGProp_Domain;

@@ -65,8 +65,8 @@
 
 #include <ElSLib.hxx>
 
-#include <GProp.hxx>
-#include <GProp_GProps.hxx>
+#include <Geometry/GProp/GProp.hxx>
+#include <Geometry/GProp/GProp_GProps.hxx>
 
 #include <GeomAbs_Shape.hxx>
 

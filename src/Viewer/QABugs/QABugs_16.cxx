@@ -24,7 +24,7 @@
 #include <AIS_Shape.hxx>
 #include <TopoDS_Shape.hxx>
 
-#include <GProp_GProps.hxx>
+#include <Geometry/GProp/GProp_GProps.hxx>
 #include <BRepGProp.hxx>
 #include <TopoDS_Edge.hxx>
 #include <BRepLib_MakeEdge.hxx>
@@ -53,7 +53,7 @@
 #include <BRepLib_MakeEdge.hxx>
 #include <Precision.hxx>
 
-#include <GProp_PrincipalProps.hxx>
+#include <Geometry/GProp/GProp_PrincipalProps.hxx>
 
 #include <Foundation/OSD/OSD_Path.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>

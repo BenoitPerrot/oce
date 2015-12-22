@@ -39,8 +39,8 @@
 #include <TopExp.hxx>
 #include <TopTools_Array1OfShape.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
-#include <GProp.hxx>
-#include <GProp_GProps.hxx>
+#include <Geometry/GProp/GProp.hxx>
+#include <Geometry/GProp/GProp_GProps.hxx>
 #include <BRepGProp.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Draw_ProgressIndicator.hxx>

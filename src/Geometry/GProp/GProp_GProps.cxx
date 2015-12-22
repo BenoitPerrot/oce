@@ -16,9 +16,9 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Mat.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
-#include <GProp_PrincipalProps.hxx>
-#include <GProp_GProps.hxx>
-#include <GProp.hxx>
+#include <Geometry/GProp/GProp_PrincipalProps.hxx>
+#include <Geometry/GProp/GProp_GProps.hxx>
+#include <Geometry/GProp/GProp.hxx>
 #include <Mathematics/Optimization/math_Jacobi.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <Mathematics/Primitives/gp.hxx>

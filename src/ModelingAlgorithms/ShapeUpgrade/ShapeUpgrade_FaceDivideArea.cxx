@@ -24,7 +24,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(ShapeUpgrade_FaceDivideArea)
 IMPLEMENT_DOWNCAST(ShapeUpgrade_FaceDivideArea,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_FaceDivideArea)
-#include <GProp_GProps.hxx>
+#include <Geometry/GProp/GProp_GProps.hxx>
 #include <BRepGProp.hxx>
 #include <Precision.hxx> 
 #include <ShapeUpgrade_SplitSurfaceArea.hxx> 

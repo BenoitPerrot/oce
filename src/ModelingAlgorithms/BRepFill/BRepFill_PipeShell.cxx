@@ -96,7 +96,7 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_PipeShell)
 #include <BRepBuilderAPI_Copy.hxx>
 #include <BRepBuilderAPI_Transform.hxx>
 
-#include <GProp_GProps.hxx>
+#include <Geometry/GProp/GProp_GProps.hxx>
 #include <BRepGProp.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
 #include <IntCurveSurface_HInter.hxx>

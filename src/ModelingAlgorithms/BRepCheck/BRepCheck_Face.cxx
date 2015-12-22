@@ -48,7 +48,7 @@ IMPLEMENT_STANDARD_RTTI(BRepCheck_Face)
 //#include <Geom2dInt_GInter.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <GProp_GProps.hxx>
+#include <Geometry/GProp/GProp_GProps.hxx>
 
 #include <IntRes2d_Domain.hxx>
 #include <Geom2dInt_GInter.hxx>

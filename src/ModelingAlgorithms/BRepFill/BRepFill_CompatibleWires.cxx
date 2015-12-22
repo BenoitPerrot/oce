@@ -38,8 +38,8 @@
 #include <BRepTools_WireExplorer.hxx>
 #include <BRepLProp.hxx>
 #include <BRepGProp.hxx>
-#include <GProp_GProps.hxx>
-#include <GProp_PrincipalProps.hxx>
+#include <Geometry/GProp/GProp_GProps.hxx>
+#include <Geometry/GProp/GProp_PrincipalProps.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Precision.hxx>

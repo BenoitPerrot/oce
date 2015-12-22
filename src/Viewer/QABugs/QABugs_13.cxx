@@ -45,7 +45,7 @@
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Wire.hxx>
 #include <TopExp_Explorer.hxx>
-#include <GProp_GProps.hxx>
+#include <Geometry/GProp/GProp_GProps.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <stdio.h>
 

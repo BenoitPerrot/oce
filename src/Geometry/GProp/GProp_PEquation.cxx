@@ -18,9 +18,9 @@
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <GProp_PEquation.hxx>
-#include <GProp_PrincipalProps.hxx>
-#include <GProp_PGProps.hxx>
+#include <Geometry/GProp/GProp_PEquation.hxx>
+#include <Geometry/GProp/GProp_PrincipalProps.hxx>
+#include <Geometry/GProp/GProp_PGProps.hxx>
 
 GProp_PEquation::GProp_PEquation(const TColgp_Array1OfPnt& Pnts, 
 				       const Standard_Real Tol) 

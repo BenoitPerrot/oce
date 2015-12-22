@@ -13,7 +13,7 @@
 #include <BRepGProp_Face.hxx>
 #include <BRepGProp_UFunction.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <GProp_ValueType.hxx>
+#include <Geometry/GProp/GProp_ValueType.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Mathematics/Optimization/math_Function.hxx>

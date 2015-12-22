@@ -2,7 +2,7 @@
 #include <BRep_Builder.hxx>
 #include <BRepTools.hxx>
 #include <BRepGProp.hxx>
-#include <GProp_GProps.hxx>
+#include <Geometry/GProp/GProp_GProps.hxx>
 #include <iostream>
 
 int main(int argc, char **argv){

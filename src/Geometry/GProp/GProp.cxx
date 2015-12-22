@@ -14,7 +14,7 @@
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Mat.hxx>
-#include <GProp.hxx>
+#include <Geometry/GProp/GProp.hxx>
 
 #include <Foundation/Standard/Standard_DimensionError.hxx>
 

@@ -30,7 +30,7 @@
 #include <GeomAbs_CurveType.hxx>
 #include <TopExp_Explorer.hxx>
 #include <TopoDS.hxx>
-#include <GProp_GProps.hxx>
+#include <Geometry/GProp/GProp_GProps.hxx>
 #include <BRepGProp.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>

@@ -666,7 +666,7 @@ static Standard_Integer OCC297 (Draw_Interpretor& di,Standard_Integer /*argc*/, 
   return 0;
 
 }
-#include<GProp_GProps.hxx>
+#include<Geometry/GProp/GProp_GProps.hxx>
 #include<BRepGProp.hxx>
 
 static Standard_Integer OCC305 (Draw_Interpretor& di,Standard_Integer argc, const char ** argv )

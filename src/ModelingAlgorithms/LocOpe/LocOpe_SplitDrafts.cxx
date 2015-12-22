@@ -72,7 +72,7 @@
 
 #include <GeomFill_Pipe.hxx>
 
-#include <GProp_GProps.hxx>
+#include <Geometry/GProp/GProp_GProps.hxx>
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 

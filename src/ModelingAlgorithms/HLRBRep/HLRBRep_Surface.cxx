@@ -26,7 +26,7 @@
 #include <HLRBRep_Surface.hxx>
 #include <HLRBRep_BSurfaceTool.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
-#include <GProp_PEquation.hxx>
+#include <Geometry/GProp/GProp_PEquation.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <BRepClass_FaceClassifier.hxx>
 #include <HLRAlgo_Projector.hxx>

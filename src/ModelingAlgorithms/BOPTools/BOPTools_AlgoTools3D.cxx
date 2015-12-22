@@ -72,7 +72,7 @@
 #include <TopExp.hxx>
 #include <TopExp_Explorer.hxx>
 
-#include <GProp_GProps.hxx>
+#include <Geometry/GProp/GProp_GProps.hxx>
 #include <BRepGProp.hxx>
 
 #include <BOPCol_IndexedMapOfShape.hxx>

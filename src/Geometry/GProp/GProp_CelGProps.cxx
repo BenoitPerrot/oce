@@ -15,8 +15,8 @@
 #include <Mathematics/Primitives/gp_Circ.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
-#include <GProp_CelGProps.hxx>
-#include <GProp.hxx>
+#include <Geometry/GProp/GProp_CelGProps.hxx>
+#include <Geometry/GProp/GProp.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp.hxx>

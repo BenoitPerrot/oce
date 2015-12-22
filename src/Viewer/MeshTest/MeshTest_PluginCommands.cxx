@@ -30,7 +30,7 @@
 #include <TopExp.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <GProp_GProps.hxx>
+#include <Geometry/GProp/GProp_GProps.hxx>
 #include <BRepGProp.hxx>
 #include <DrawTrSurf.hxx>
 #include <BRep_Tool.hxx>

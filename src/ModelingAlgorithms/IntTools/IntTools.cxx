@@ -20,7 +20,7 @@
 #include <BRepAdaptor_Curve.hxx>
 #include <IntTools_CArray1OfReal.hxx>
 #include <IntTools.hxx>
-#include <GProp_GProps.hxx>
+#include <Geometry/GProp/GProp_GProps.hxx>
 #include <BRepGProp.hxx>
 #include <BRep_Tool.hxx>
 #include <IntTools_Root.hxx>

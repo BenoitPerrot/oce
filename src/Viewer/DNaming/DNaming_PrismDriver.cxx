@@ -46,7 +46,7 @@ IMPLEMENT_STANDARD_RTTI(DNaming_PrismDriver)
 #include <TopoDS_Wire.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <TopExp_Explorer.hxx>
-#include <GProp_GProps.hxx>
+#include <Geometry/GProp/GProp_GProps.hxx>
 #include <Precision.hxx>
 #include <BRepCheck_Wire.hxx>
 #include <BRepPrimAPI_MakeCylinder.hxx>

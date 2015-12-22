@@ -26,7 +26,7 @@
 #include <Mathematics/Collections/TColgp_Array1OfDir.hxx>
 #include <BRep_Tool.hxx>
 #include <BRepGProp.hxx>
-#include <GProp_GProps.hxx>
+#include <Geometry/GProp/GProp_GProps.hxx>
 #include <BRepAdaptor_Surface.hxx>
 #include <BRep_Tool.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>

@@ -79,8 +79,8 @@
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 #include <BRepLProp.hxx>
 #include <BRepGProp.hxx>
-#include <GProp_GProps.hxx>
-#include <GProp_PrincipalProps.hxx>
+#include <Geometry/GProp/GProp_GProps.hxx>
+#include <Geometry/GProp/GProp_PrincipalProps.hxx>
 #include <Geometry/GCPnts/GCPnts_AbscissaPoint.hxx>
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <TopTools_DataMapOfShapeListOfShape.hxx>

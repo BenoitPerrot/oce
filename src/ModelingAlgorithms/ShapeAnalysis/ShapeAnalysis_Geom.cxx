@@ -19,8 +19,8 @@
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <ShapeAnalysis_Geom.hxx>
 
-#include <GProp_PGProps.hxx>
-#include <GProp_PrincipalProps.hxx>
+#include <Geometry/GProp/GProp_PGProps.hxx>
+#include <Geometry/GProp/GProp_PrincipalProps.hxx>
 
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_GTrsf.hxx>
