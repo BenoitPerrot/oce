@@ -64,7 +64,7 @@
 #include <IntRes2d_TypeTrans.hxx>
 #include <IntRes2d_Position.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>
-#include <IntAna_QuadQuadGeo.hxx>
+#include <Geometry/IntAna/IntAna_QuadQuadGeo.hxx>
 #include <Geom2dInt_GInter.hxx>
 #include <TopExp.hxx>
 //#include <BRepAdaptor_HCurve2d.hxx>

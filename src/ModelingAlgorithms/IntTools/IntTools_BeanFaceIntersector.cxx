@@ -61,7 +61,7 @@
 #include <IntCurveSurface_HInter.hxx>
 #include <IntCurveSurface_IntersectionPoint.hxx>
 #include <IntCurveSurface_IntersectionSegment.hxx>
-#include <IntAna_QuadQuadGeo.hxx>
+#include <Geometry/IntAna/IntAna_QuadQuadGeo.hxx>
 #include <BRepAdaptor_HCurve.hxx>
 #include <BRepAdaptor_HSurface.hxx>
 #include <Geometry/Extrema/Extrema_GenLocateExtPS.hxx>

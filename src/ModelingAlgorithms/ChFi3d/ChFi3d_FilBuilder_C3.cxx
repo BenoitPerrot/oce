@@ -62,7 +62,7 @@
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 
-#include <IntAna_QuadQuadGeo.hxx>
+#include <Geometry/IntAna/IntAna_QuadQuadGeo.hxx>
 #include <IntCurveSurface_IntersectionPoint.hxx>
 
 #include <TopoDS.hxx>

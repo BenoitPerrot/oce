@@ -89,7 +89,7 @@
 #include <Geometry/GC/GC_MakePlane.hxx> 
 
 #include <Precision.hxx>
-#include <IntAna_QuadQuadGeo.hxx>
+#include <Geometry/IntAna/IntAna_QuadQuadGeo.hxx>
 
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>

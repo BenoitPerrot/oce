@@ -44,7 +44,7 @@
 #include <Mathematics/Primitives/gp_Cone.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <IntAna_Curve.hxx>
+#include <Geometry/IntAna/IntAna_Curve.hxx>
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Mathematics/Optimization/math_DirectPolynomialRoots.hxx>

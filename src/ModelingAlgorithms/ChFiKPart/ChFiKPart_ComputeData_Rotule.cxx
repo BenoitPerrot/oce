@@ -45,7 +45,7 @@
 #include <Geometry/Geom/Geom_Circle.hxx>
 #include <Geometry/Geom/Geom_ToroidalSurface.hxx>
 
-#include <IntAna_QuadQuadGeo.hxx>
+#include <Geometry/IntAna/IntAna_QuadQuadGeo.hxx>
 
 //=======================================================================
 //function : MakeRotule

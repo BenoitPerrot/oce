@@ -24,7 +24,7 @@
 #include <Mathematics/Primitives/gp_Cylinder.hxx>
 #include <Mathematics/Primitives/gp_Cone.hxx>
 #include <Mathematics/Primitives/gp_Ax3.hxx>
-#include <IntAna_Quadric.hxx>
+#include <Geometry/IntAna/IntAna_Quadric.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 

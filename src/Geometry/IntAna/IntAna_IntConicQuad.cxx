@@ -28,20 +28,20 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
-#include <IntAna_Quadric.hxx>
+#include <Geometry/IntAna/IntAna_Quadric.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
 #include <Mathematics/Primitives/gp_Elips.hxx>
 #include <Mathematics/Primitives/gp_Parab.hxx>
 #include <Mathematics/Primitives/gp_Hypr.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <IntAna_IntConicQuad.hxx>
+#include <Geometry/IntAna/IntAna_IntConicQuad.hxx>
 
-#include <IntAna_QuadQuadGeo.hxx>
+#include <Geometry/IntAna/IntAna_QuadQuadGeo.hxx>
 
 #include <IntAna2d_AnaIntersection.hxx>
 #include <IntAna2d_IntPoint.hxx>
-#include <IntAna_ResultType.hxx>
+#include <Geometry/IntAna/IntAna_ResultType.hxx>
 
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Lin2d.hxx>

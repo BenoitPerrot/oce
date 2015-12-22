@@ -35,9 +35,9 @@
 #include <ElCLib.hxx>
 #include <ElSLib.hxx>
 #include <Mathematics/Primitives/gp.hxx>
-#include <IntAna_Quadric.hxx>
-#include <IntAna_QuadQuadGeo.hxx>
-#include <IntAna_IntQuadQuad.hxx>
+#include <Geometry/IntAna/IntAna_Quadric.hxx>
+#include <Geometry/IntAna/IntAna_QuadQuadGeo.hxx>
+#include <Geometry/IntAna/IntAna_IntQuadQuad.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Mathematics/Primitives/gp_Cylinder.hxx>
 #include <Mathematics/Primitives/gp_Sphere.hxx>

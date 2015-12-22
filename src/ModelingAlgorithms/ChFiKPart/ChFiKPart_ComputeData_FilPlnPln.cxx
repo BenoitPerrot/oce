@@ -41,7 +41,7 @@
 #include <Geometry/Geom/Geom_Line.hxx>
 #include <Geometry/Geom/Geom_CylindricalSurface.hxx>
 
-#include <IntAna_QuadQuadGeo.hxx>
+#include <Geometry/IntAna/IntAna_QuadQuadGeo.hxx>
 
 #include <ChFiKPart_ComputeData_Fcts.hxx>
 

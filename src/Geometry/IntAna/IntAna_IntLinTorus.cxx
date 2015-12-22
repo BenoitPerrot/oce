@@ -21,7 +21,7 @@
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Mathematics/Primitives/gp_Torus.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <IntAna_IntLinTorus.hxx>
+#include <Geometry/IntAna/IntAna_IntLinTorus.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Mathematics/Optimization/math_DirectPolynomialRoots.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>

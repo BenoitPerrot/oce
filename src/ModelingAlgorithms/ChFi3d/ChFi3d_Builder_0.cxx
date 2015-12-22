@@ -116,7 +116,7 @@
 #include <IntSurf_Quadric.hxx>
 #include <IntSurf_PntOn2S.hxx>
 #include <IntSurf_LineOn2S.hxx>
-#include <IntAna_QuadQuadGeo.hxx>
+#include <Geometry/IntAna/IntAna_QuadQuadGeo.hxx>
 #include <IntAna2d_AnaIntersection.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>
 #include <IntWalk_PWalking.hxx>

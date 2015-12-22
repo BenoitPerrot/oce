@@ -39,7 +39,7 @@
 
 #include <Geometry/Geom/Geom_Plane.hxx>
 
-#include <IntAna_QuadQuadGeo.hxx>
+#include <Geometry/IntAna/IntAna_QuadQuadGeo.hxx>
 
 #include <ChFiKPart_ComputeData_Fcts.hxx>
 

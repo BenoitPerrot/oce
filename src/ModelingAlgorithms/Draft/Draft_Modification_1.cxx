@@ -80,8 +80,8 @@
 #include <IntCurveSurface_HInter.hxx>
 #include <GeomInt_IntSS.hxx>
 #include <IntCurveSurface_IntersectionPoint.hxx>
-#include <IntAna_QuadQuadGeo.hxx>
-#include <IntAna_IntConicQuad.hxx>
+#include <Geometry/IntAna/IntAna_QuadQuadGeo.hxx>
+#include <Geometry/IntAna/IntAna_IntConicQuad.hxx>
 
 #include <Geometry/Extrema/Extrema_ExtPC.hxx>
 #include <BRepExtrema_ExtPC.hxx>

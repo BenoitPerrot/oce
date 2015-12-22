@@ -70,7 +70,7 @@ private:
 };
 
 
-#include <IntAna_Int3Pln.lxx>
+#include <Geometry/IntAna/IntAna_Int3Pln.lxx>
 
 
 

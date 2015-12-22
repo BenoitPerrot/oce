@@ -41,8 +41,8 @@
 #include <ElSLib.hxx>
 #include <ElCLib.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <IntAna_Quadric.hxx>
-#include <IntAna_IntConicQuad.hxx>
+#include <Geometry/IntAna/IntAna_Quadric.hxx>
+#include <Geometry/IntAna/IntAna_IntConicQuad.hxx>
 
 
 Extrema_ExtElCS::Extrema_ExtElCS() 

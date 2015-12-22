@@ -29,7 +29,7 @@
 #include <IntAna2d_Conic.hxx>
 #include <IntAna2d_IntPoint.hxx>
 #include <IntAna2d_AnaIntersection.hxx>
-#include <IntAna_IntConicQuad.hxx>
+#include <Geometry/IntAna/IntAna_IntConicQuad.hxx>
 #include <ElCLib.hxx>
 #include <Precision.hxx>
 

@@ -12,7 +12,7 @@
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <IntAna_ResultType.hxx>
+#include <Geometry/IntAna/IntAna_ResultType.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
@@ -268,7 +268,7 @@ private:
 };
 
 
-#include <IntAna_QuadQuadGeo.lxx>
+#include <Geometry/IntAna/IntAna_QuadQuadGeo.lxx>
 
 
 

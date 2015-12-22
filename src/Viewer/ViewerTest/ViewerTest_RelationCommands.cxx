@@ -49,8 +49,8 @@
 #include <Geometry/gce/gce_MakePln.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
-#include <IntAna_IntConicQuad.hxx>
-#include <IntAna_Quadric.hxx>
+#include <Geometry/IntAna/IntAna_IntConicQuad.hxx>
+#include <Geometry/IntAna/IntAna_Quadric.hxx>
 #include <Precision.hxx>
 #include <Select3D_Projector.hxx>
 #include <StdSelect.hxx>

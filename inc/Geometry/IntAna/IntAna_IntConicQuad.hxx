@@ -186,7 +186,7 @@ private:
 };
 
 
-#include <IntAna_IntConicQuad.lxx>
+#include <Geometry/IntAna/IntAna_IntConicQuad.lxx>
 
 
 

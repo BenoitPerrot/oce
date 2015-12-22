@@ -24,8 +24,8 @@
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 
-#include <IntAna_Quadric.hxx>
-#include <IntAna_IntConicQuad.hxx>
+#include <Geometry/IntAna/IntAna_Quadric.hxx>
+#include <Geometry/IntAna/IntAna_IntConicQuad.hxx>
 
 #include <Foundation/TColStd/TColStd_MapOfInteger.hxx>
 

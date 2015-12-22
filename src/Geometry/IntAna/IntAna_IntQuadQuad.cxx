@@ -32,11 +32,11 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Mathematics/Primitives/gp_Cylinder.hxx>
-#include <IntAna_Quadric.hxx>
+#include <Geometry/IntAna/IntAna_Quadric.hxx>
 #include <Mathematics/Primitives/gp_Cone.hxx>
-#include <IntAna_Curve.hxx>
+#include <Geometry/IntAna/IntAna_Curve.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <IntAna_IntQuadQuad.hxx>
+#include <Geometry/IntAna/IntAna_IntQuadQuad.hxx>
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>

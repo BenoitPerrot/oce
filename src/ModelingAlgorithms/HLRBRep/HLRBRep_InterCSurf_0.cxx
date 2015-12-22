@@ -22,7 +22,7 @@
 #include <Mathematics/Primitives/gp_Elips.hxx>
 #include <Mathematics/Primitives/gp_Parab.hxx>
 #include <Mathematics/Primitives/gp_Hypr.hxx>
-#include <IntAna_IntConicQuad.hxx>
+#include <Geometry/IntAna/IntAna_IntConicQuad.hxx>
 #include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>

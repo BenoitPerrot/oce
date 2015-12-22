@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IntAna_ListNodeOfListOfCurve.hxx>
 
-#include <IntAna_Curve.hxx>
+#include <Geometry/IntAna/IntAna_Curve.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class IntAna_Curve;
@@ -48,15 +48,15 @@ private:
 };
 
 #define Item IntAna_Curve
-#define Item_hxx <IntAna_Curve.hxx>
+#define Item_hxx <Geometry/IntAna/IntAna_Curve.hxx>
 #define TCollection_ListNode IntAna_ListNodeOfListOfCurve
-#define TCollection_ListNode_hxx <IntAna_ListNodeOfListOfCurve.hxx>
+#define TCollection_ListNode_hxx <Geometry/IntAna/IntAna_ListNodeOfListOfCurve.hxx>
 #define TCollection_ListIterator IntAna_ListIteratorOfListOfCurve
-#define TCollection_ListIterator_hxx <IntAna_ListIteratorOfListOfCurve.hxx>
+#define TCollection_ListIterator_hxx <Geometry/IntAna/IntAna_ListIteratorOfListOfCurve.hxx>
 #define Handle_TCollection_ListNode Handle_IntAna_ListNodeOfListOfCurve
 #define TCollection_ListNode_Type_() IntAna_ListNodeOfListOfCurve_Type_()
 #define TCollection_List IntAna_ListOfCurve
-#define TCollection_List_hxx <IntAna_ListOfCurve.hxx>
+#define TCollection_List_hxx <Geometry/IntAna/IntAna_ListOfCurve.hxx>
 
 #include <Foundation/TCollection/TCollection_ListNode.lxx>
 

@@ -14,8 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IntAna_ListOfCurve.hxx>
-#include <IntAna_ListIteratorOfListOfCurve.hxx>
+#include <Geometry/IntAna/IntAna_ListOfCurve.hxx>
+#include <Geometry/IntAna/IntAna_ListIteratorOfListOfCurve.hxx>
 #include <IntPatch_WLine.hxx>
 
 //

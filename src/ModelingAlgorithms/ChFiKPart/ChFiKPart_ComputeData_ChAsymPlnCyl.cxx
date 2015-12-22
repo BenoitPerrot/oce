@@ -44,7 +44,7 @@
 #include <Geometry/Geom2d/Geom2d_Circle.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
-#include <IntAna_QuadQuadGeo.hxx>
+#include <Geometry/IntAna/IntAna_QuadQuadGeo.hxx>
 
 #include <ChFiKPart_ComputeData_Fcts.hxx>
 

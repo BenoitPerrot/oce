@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <IntAna_Curve.hxx>
+#include <Geometry/IntAna/IntAna_Curve.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
@@ -145,7 +145,7 @@ private:
 };
 
 
-#include <IntAna_IntQuadQuad.lxx>
+#include <Geometry/IntAna/IntAna_IntQuadQuad.lxx>
 
 
 

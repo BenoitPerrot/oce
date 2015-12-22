@@ -16,7 +16,7 @@
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <IntAna_Curve.hxx>
+#include <Geometry/IntAna/IntAna_Curve.hxx>
 #include <IntPatch_Point.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>

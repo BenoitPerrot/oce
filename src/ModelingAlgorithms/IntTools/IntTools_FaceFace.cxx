@@ -46,7 +46,7 @@
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 
-#include <IntAna_QuadQuadGeo.hxx>
+#include <Geometry/IntAna/IntAna_QuadQuadGeo.hxx>
 
 #include <IntSurf_PntOn2S.hxx>
 #include <IntSurf_LineOn2S.hxx>

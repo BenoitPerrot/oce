@@ -45,7 +45,7 @@
 #include <Geometry/Geom/Geom_ToroidalSurface.hxx>
 #include <Geometry/Geom/Geom_SphericalSurface.hxx>
 
-#include <IntAna_QuadQuadGeo.hxx>
+#include <Geometry/IntAna/IntAna_QuadQuadGeo.hxx>
 
 #include <ChFiKPart_ComputeData_Fcts.hxx>
 

@@ -38,9 +38,9 @@
 #include <Mathematics/Primitives/gp_Elips.hxx>
 #include <Mathematics/Primitives/gp_Parab.hxx>
 #include <Mathematics/Primitives/gp_Hypr.hxx>
-#include <IntAna_QuadQuadGeo.hxx>
+#include <Geometry/IntAna/IntAna_QuadQuadGeo.hxx>
 
-#include <IntAna_IntConicQuad.hxx>
+#include <Geometry/IntAna/IntAna_IntConicQuad.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>

@@ -40,11 +40,11 @@ IMPLEMENT_STANDARD_RTTI(DrawDim_Angle)
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <TopoDS.hxx>
-#include <IntAna_QuadQuadGeo.hxx>
+#include <Geometry/IntAna/IntAna_QuadQuadGeo.hxx>
 #include <Precision.hxx>
 #include <TopExp_Explorer.hxx>
 #include <TopoDS_Vertex.hxx> 
-#include <IntAna_QuadQuadGeo.hxx>
+#include <Geometry/IntAna/IntAna_QuadQuadGeo.hxx>
 
 //=======================================================================
 //function : DrawDim_Angle

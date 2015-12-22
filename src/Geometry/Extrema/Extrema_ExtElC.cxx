@@ -33,7 +33,7 @@
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Precision.hxx>
 #include <Geometry/Extrema/Extrema_ExtPElC.hxx>
-#include <IntAna_QuadQuadGeo.hxx>
+#include <Geometry/IntAna/IntAna_QuadQuadGeo.hxx>
 #include <Geometry/Extrema/Extrema_ExtPElC.hxx>
 
 #include <Mathematics/Primitives/gp_Pln.hxx>

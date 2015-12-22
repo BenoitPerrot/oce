@@ -21,7 +21,7 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <IntAna_Int3Pln.hxx>
+#include <Geometry/IntAna/IntAna_Int3Pln.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Mathematics/Optimization/math_Gauss.hxx>

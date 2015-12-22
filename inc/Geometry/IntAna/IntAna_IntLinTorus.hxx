@@ -78,7 +78,7 @@ private:
 };
 
 
-#include <IntAna_IntLinTorus.lxx>
+#include <Geometry/IntAna/IntAna_IntLinTorus.lxx>
 
 
 
