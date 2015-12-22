@@ -25,7 +25,7 @@
 #include <BRepLib_MakeWire.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geometry/GeomConvert/GeomConvert.hxx>
-#include <GeomLProp.hxx>
+#include <Geometry/GeomLProp/GeomLProp.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Precision.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>

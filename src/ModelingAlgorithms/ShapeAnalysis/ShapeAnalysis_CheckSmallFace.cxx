@@ -41,7 +41,7 @@
 #include <Geometry/Geom/Geom_BezierSurface.hxx>
 
 #include <ShapeAnalysis_Curve.hxx>
-//#include <GeomLProp_SLProps.hxx>
+//#include <Geometry/GeomLProp/GeomLProp_SLProps.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
 #include <Geometry/Geom/Geom_ElementarySurface.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>

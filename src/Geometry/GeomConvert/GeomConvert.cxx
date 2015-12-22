@@ -51,7 +51,7 @@
 
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
-#include <GeomLProp.hxx>
+#include <Geometry/GeomLProp/GeomLProp.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>
 #include <Geometry/Geom/Geom_Ellipse.hxx>
 #include <Geometry/Geom/Geom_Hyperbola.hxx>

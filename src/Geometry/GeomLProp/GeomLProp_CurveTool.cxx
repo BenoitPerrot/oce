@@ -17,7 +17,7 @@
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <GeomLProp_CurveTool.hxx>
+#include <Geometry/GeomLProp/GeomLProp_CurveTool.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <GeomAbs_Shape.hxx>
 

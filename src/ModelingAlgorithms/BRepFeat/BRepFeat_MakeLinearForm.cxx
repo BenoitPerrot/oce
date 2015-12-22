@@ -115,7 +115,7 @@
 
 #include <Precision.hxx>
 
-#include <GeomLProp_CLProps.hxx>
+#include <Geometry/GeomLProp/GeomLProp_CLProps.hxx>
 
 #include <BRepBuilderAPI_Transform.hxx>
 #include <BRepLib_MakeWire.hxx>

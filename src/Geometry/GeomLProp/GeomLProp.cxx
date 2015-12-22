@@ -15,11 +15,11 @@
 // commercial license or contractual agreement.
 
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <GeomLProp.hxx>
+#include <Geometry/GeomLProp/GeomLProp.hxx>
 #include <Precision.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
-#include <GeomLProp_CLProps.hxx>
+#include <Geometry/GeomLProp/GeomLProp_CLProps.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <GeomAbs_Shape.hxx>

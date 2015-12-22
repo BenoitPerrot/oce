@@ -25,7 +25,7 @@
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #include <Law_Function.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <GeomLProp_SLProps.hxx>
+#include <Geometry/GeomLProp/GeomLProp_SLProps.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <GeomPlate_CurveConstraint.hxx>

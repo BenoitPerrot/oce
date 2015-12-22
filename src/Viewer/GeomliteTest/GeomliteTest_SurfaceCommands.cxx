@@ -71,7 +71,7 @@
 #include <Geometry/GeomConvert/GeomConvert_CompBezierSurfacesToBSplineSurface.hxx>
 #include <Geometry/Geom2dConvert/Geom2dConvert.hxx>
 #include <Geometry/Geom2dConvert/Geom2dConvert_BSplineCurveToBezierCurve.hxx>
-#include <GeomLProp_SLProps.hxx>
+#include <Geometry/GeomLProp/GeomLProp_SLProps.hxx>
 
 
 #include <DrawTrSurf_BezierSurface.hxx>

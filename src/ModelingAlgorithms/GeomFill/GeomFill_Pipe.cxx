@@ -72,7 +72,7 @@
 #include <GeomAbs_SurfaceType.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HCurve.hxx>
-#include <GeomLProp_CLProps.hxx>
+#include <Geometry/GeomLProp/GeomLProp_CLProps.hxx>
 
 #include <Geometry/Approx/Approx_SweepApproximation.hxx>
 

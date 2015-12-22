@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <GeomLProp_CLProps.hxx>
+#include <Geometry/GeomLProp/GeomLProp_CLProps.hxx>
 
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <LProp_BadContinuity.hxx>
@@ -13,7 +13,7 @@
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
-#include <GeomLProp_CurveTool.hxx>
+#include <Geometry/GeomLProp/GeomLProp_CurveTool.hxx>
  
 
 #define Curve Handle(Geom_Curve)
@@ -25,8 +25,8 @@
 #define Dir gp_Dir
 #define Dir_hxx <Mathematics/Primitives/gp_Dir.hxx>
 #define Tool GeomLProp_CurveTool
-#define Tool_hxx <GeomLProp_CurveTool.hxx>
+#define Tool_hxx <Geometry/GeomLProp/GeomLProp_CurveTool.hxx>
 #define LProp_CLProps GeomLProp_CLProps
-#define LProp_CLProps_hxx <GeomLProp_CLProps.hxx>
+#define LProp_CLProps_hxx <Geometry/GeomLProp/GeomLProp_CLProps.hxx>
 #include <LProp_CLProps.gxx>
 

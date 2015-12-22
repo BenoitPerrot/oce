@@ -85,7 +85,7 @@
 #include <Geometry/Approx/Approx_CurveOnSurface.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
-#include <GeomLProp_SLProps.hxx>
+#include <Geometry/GeomLProp/GeomLProp_SLProps.hxx>
 #include <Geometry/Geom2d/Geom2d_BezierCurve.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 

@@ -138,7 +138,7 @@
 #include <ElSLib.hxx>
 #include <CSLib.hxx>
 
-#include <GeomLProp_CLProps.hxx>
+#include <Geometry/GeomLProp/GeomLProp_CLProps.hxx>
 
 #ifdef OCCT_DEBUG
 extern Standard_Boolean BRepFeat_GettraceFEAT();

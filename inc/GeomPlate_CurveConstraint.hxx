@@ -17,7 +17,7 @@
 #include <Handle_Adaptor2d_HCurve2d.hxx>
 #include <Handle_Law_Function.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <GeomLProp_SLProps.hxx>
+#include <Geometry/GeomLProp/GeomLProp_SLProps.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class Adaptor3d_HCurveOnSurface;

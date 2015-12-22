@@ -59,7 +59,7 @@
 #include <Foundation/TColStd/TColStd_IndexedMapOfReal.hxx>
 #include <Foundation/NCollection/NCollection_Array1.hxx>
 #include <BRepLProp_CLProps.hxx>
-#include <GeomLProp_SLProps.hxx>
+#include <Geometry/GeomLProp/GeomLProp_SLProps.hxx>
 #include <Mathematics/Primitives/gp_Torus.hxx>
 #include <Mathematics/Primitives/gp_Cone.hxx>
 #include <Mathematics/Primitives/gp_Sphere.hxx>

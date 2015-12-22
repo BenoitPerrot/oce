@@ -153,7 +153,7 @@
 #include <Law_Function.hxx>
 #include <Law_Composite.hxx>
 #include <GeomAPI_PointsToBSpline.hxx>
-#include <GeomLProp_CLProps.hxx>
+#include <Geometry/GeomLProp/GeomLProp_CLProps.hxx>
 
 #include <ChFi3d_Builder_0.hxx>
 

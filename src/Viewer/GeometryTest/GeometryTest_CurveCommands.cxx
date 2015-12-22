@@ -36,7 +36,7 @@
 #include <GeomAPI_IntCS.hxx>
 #include <GeomAPI_IntSS.hxx>
 
-//#include <GeomLProp.hxx>
+//#include <Geometry/GeomLProp/GeomLProp.hxx>
 #include <GeomProjLib.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 
@@ -125,7 +125,7 @@
 #include <BRepLib_MakeEdge.hxx>
 #include <AIS_Shape.hxx>
 #include <TopoDS_Edge.hxx>
-#include <GeomLProp_CLProps.hxx>
+#include <Geometry/GeomLProp/GeomLProp_CLProps.hxx>
 #include <Geometry/GCPnts/GCPnts_AbscissaPoint.hxx>
 #include <Geometry/GCPnts/GCPnts_UniformAbscissa.hxx>
 #include <DBRep.hxx>

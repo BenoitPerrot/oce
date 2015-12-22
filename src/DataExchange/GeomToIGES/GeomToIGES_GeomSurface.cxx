@@ -65,7 +65,7 @@
 
 #include <Geometry/GeomConvert/GeomConvert.hxx>
 
-#include <GeomLProp_SLProps.hxx>
+#include <Geometry/GeomLProp/GeomLProp_SLProps.hxx>
 
 #include <IGESConvGeom_GeomBuilder.hxx>
 

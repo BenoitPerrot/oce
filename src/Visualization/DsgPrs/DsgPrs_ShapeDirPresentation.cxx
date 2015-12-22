@@ -26,8 +26,8 @@
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
-#include <GeomLProp_CLProps.hxx>
-#include <GeomLProp_SLProps.hxx>
+#include <Geometry/GeomLProp/GeomLProp_CLProps.hxx>
+#include <Geometry/GeomLProp/GeomLProp_SLProps.hxx>
 
 #include <TopoDS_Shape.hxx>
 #include <TopoDS.hxx>
