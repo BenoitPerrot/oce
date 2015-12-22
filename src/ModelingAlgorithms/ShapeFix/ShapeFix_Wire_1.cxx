@@ -41,7 +41,7 @@
 #include <ShapeAnalysis_Edge.hxx>
 #include <ShapeAnalysis_Surface.hxx>
 #include <ShapeAnalysis.hxx>
-#include <GeomConvert_CompCurveToBSplineCurve.hxx>
+#include <Geometry/GeomConvert/GeomConvert_CompCurveToBSplineCurve.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <GeomAPI.hxx>
@@ -89,7 +89,7 @@
 #include <GeomAPI_ProjectPointOnCurve.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HCurve.hxx>
 #include <Geometry/Approx/Approx_Curve3d.hxx>
-#include <GeomConvert.hxx>
+#include <Geometry/GeomConvert/GeomConvert.hxx>
 #include <TopoDS_Iterator.hxx>
 #include <ShapeFix_ShapeTolerance.hxx>
 #include <ShapeAnalysis_TransferParametersProj.hxx>

@@ -63,9 +63,9 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_NSections)
 #include <GeomFill_SectionGenerator.hxx>
 #include <GeomFill_Line.hxx>
 #include <GeomFill_AppSurf.hxx>
-#include <GeomConvert.hxx>
-#include <GeomConvert_ApproxCurve.hxx>
-#include <GeomConvert_CompCurveToBSplineCurve.hxx>
+#include <Geometry/GeomConvert/GeomConvert.hxx>
+#include <Geometry/GeomConvert/GeomConvert_ApproxCurve.hxx>
+#include <Geometry/GeomConvert/GeomConvert_CompCurveToBSplineCurve.hxx>
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 

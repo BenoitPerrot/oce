@@ -48,7 +48,7 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_NSections)
 #include <GeomFill_Line.hxx>
 #include <GeomFill_AppSurf.hxx>
 
-#include <GeomConvert.hxx>
+#include <Geometry/GeomConvert/GeomConvert.hxx>
 #include <Mathematics/Convert/Convert_ParameterisationType.hxx>
 
 #include <Geometry/Geom/Geom_Geometry.hxx>

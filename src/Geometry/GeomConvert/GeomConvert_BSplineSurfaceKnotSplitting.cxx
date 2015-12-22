@@ -21,7 +21,7 @@
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
-#include <GeomConvert_BSplineSurfaceKnotSplitting.hxx>
+#include <Geometry/GeomConvert/GeomConvert_BSplineSurfaceKnotSplitting.hxx>
 
 #include <Foundation/Standard/Standard_RangeError.hxx>
 

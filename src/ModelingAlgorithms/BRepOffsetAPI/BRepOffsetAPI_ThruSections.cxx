@@ -69,9 +69,9 @@
 #include <GeomFill_Line.hxx>
 #include <GeomFill_AppSurf.hxx>
 #include <GeomFill_SectionGenerator.hxx>
-#include <GeomConvert_CompCurveToBSplineCurve.hxx>
-#include <GeomConvert.hxx>
-#include <GeomConvert_ApproxCurve.hxx>
+#include <Geometry/GeomConvert/GeomConvert_CompCurveToBSplineCurve.hxx>
+#include <Geometry/GeomConvert/GeomConvert.hxx>
+#include <Geometry/GeomConvert/GeomConvert_ApproxCurve.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 

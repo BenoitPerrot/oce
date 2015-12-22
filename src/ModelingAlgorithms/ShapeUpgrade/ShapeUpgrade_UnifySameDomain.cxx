@@ -62,9 +62,9 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_UnifySameDomain)
 #include <TopExp.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
-#include <GeomConvert.hxx>
+#include <Geometry/GeomConvert/GeomConvert.hxx>
 #include <Geometry/Geom2dConvert/Geom2dConvert.hxx>
-#include <GeomConvert_CompCurveToBSplineCurve.hxx>
+#include <Geometry/GeomConvert/GeomConvert_CompCurveToBSplineCurve.hxx>
 #include <Geometry/Geom2dConvert/Geom2dConvert_CompCurveToBSplineCurve.hxx>
 #include <TColGeom2d_SequenceOfBoundedCurve.hxx>
 #include <BRepLib_MakeEdge.hxx>

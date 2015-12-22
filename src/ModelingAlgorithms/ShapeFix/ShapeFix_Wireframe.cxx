@@ -51,7 +51,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Wireframe)
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <GeomConvert_CompCurveToBSplineCurve.hxx>
+#include <Geometry/GeomConvert/GeomConvert_CompCurveToBSplineCurve.hxx>
 #include <BRep_Tool.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>

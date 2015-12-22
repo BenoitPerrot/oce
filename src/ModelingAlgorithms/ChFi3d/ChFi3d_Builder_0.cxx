@@ -71,8 +71,8 @@
 #include <FairCurve_Batten.hxx>
 #include <FairCurve_AnalysisCode.hxx>
 #include <Mathematics/Convert/Convert_ParameterisationType.hxx>
-#include <GeomConvert_CompCurveToBSplineCurve.hxx>
-#include <GeomConvert.hxx>
+#include <Geometry/GeomConvert/GeomConvert_CompCurveToBSplineCurve.hxx>
+#include <Geometry/GeomConvert/GeomConvert.hxx>
 #include <GeomLib_Interpolate.hxx>
 #include <GeomAPI_ProjectPointOnSurf.hxx>
 #include <GeomAPI_ProjectPointOnCurve.hxx>

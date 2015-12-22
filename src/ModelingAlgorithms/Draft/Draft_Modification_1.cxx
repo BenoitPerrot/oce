@@ -125,7 +125,7 @@
 #include <ProjLib_HCompProjectedCurve.hxx>
 #include <Geometry/Approx/Approx_CurveOnSurface.hxx>
 
-#include <GeomConvert_CompCurveToBSplineCurve.hxx>
+#include <Geometry/GeomConvert/GeomConvert_CompCurveToBSplineCurve.hxx>
 
 
 static Standard_Boolean Choose(const Draft_DataMapOfFaceFaceInfo&,

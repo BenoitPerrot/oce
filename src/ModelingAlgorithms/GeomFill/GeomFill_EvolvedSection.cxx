@@ -38,7 +38,7 @@ IMPLEMENT_STANDARD_TYPE_END(GeomFill_EvolvedSection)
 IMPLEMENT_DOWNCAST(GeomFill_EvolvedSection,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(GeomFill_EvolvedSection)
 
-#include <GeomConvert.hxx>
+#include <Geometry/GeomConvert/GeomConvert.hxx>
 #include <Mathematics/Convert/Convert_ParameterisationType.hxx>
 
 #include <Geometry/Geom/Geom_Geometry.hxx>

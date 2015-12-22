@@ -25,7 +25,7 @@
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <TColGeom_HArray1OfBSplineCurve.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
-#include <GeomConvert.hxx>
+#include <Geometry/GeomConvert/GeomConvert.hxx>
 
 
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
@@ -38,7 +38,7 @@
 #include <Mathematics/Convert/Convert_CylinderToBSplineSurface.hxx>
 #include <Mathematics/Convert/Convert_SphereToBSplineSurface.hxx>
 #include <Mathematics/Convert/Convert_TorusToBSplineSurface.hxx>
-#include <GeomConvert_ApproxSurface.hxx>
+#include <Geometry/GeomConvert/GeomConvert_ApproxSurface.hxx>
 
 #include <Geometry/Geom/Geom_OffsetSurface.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>

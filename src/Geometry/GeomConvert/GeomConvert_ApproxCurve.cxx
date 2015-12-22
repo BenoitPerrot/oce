@@ -18,7 +18,7 @@
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <GeomConvert_ApproxCurve.hxx>
+#include <Geometry/GeomConvert/GeomConvert_ApproxCurve.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HCurve.hxx>

@@ -64,7 +64,7 @@
 #include <GeomLib.hxx>
 
 #include <Precision.hxx>
-#include <GeomConvert.hxx>
+#include <Geometry/GeomConvert/GeomConvert.hxx>
 #include <Hermit.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <GeomLib_MakeCurvefromApprox.hxx>
@@ -147,8 +147,8 @@
 
 #include <ElCLib.hxx>
 #include <Geometry/Geom2dConvert/Geom2dConvert.hxx>
-#include <GeomConvert_CompCurveToBSplineCurve.hxx>
-#include <GeomConvert_ApproxSurface.hxx>
+#include <Geometry/GeomConvert/GeomConvert_CompCurveToBSplineCurve.hxx>
+#include <Geometry/GeomConvert/GeomConvert_ApproxSurface.hxx>
 
 #include <CSLib.hxx>
 #include <CSLib_NormalStatus.hxx>

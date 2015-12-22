@@ -95,7 +95,7 @@
 #include <BRepOffsetAPI_MakeFilling.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
-#include <GeomConvert_ApproxSurface.hxx>
+#include <Geometry/GeomConvert/GeomConvert_ApproxSurface.hxx>
 
 
 #include <stdio.h>

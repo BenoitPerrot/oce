@@ -24,7 +24,7 @@
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
 #include <Geometry/Geom/Geom_BezierSurface.hxx>
-#include <GeomConvert.hxx>
+#include <Geometry/GeomConvert/GeomConvert.hxx>
 #include <GeomToStep_MakeBSplineSurfaceWithKnots.hxx>
 #include <GeomToStep_MakeBSplineSurfaceWithKnotsAndRationalBSplineSurface.hxx>
 #include <GeomToStep_MakeRectangularTrimmedSurface.hxx>

@@ -24,7 +24,7 @@
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <TColGeom_HArray1OfBSplineCurve.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
-#include <GeomConvert.hxx>
+#include <Geometry/GeomConvert/GeomConvert.hxx>
 
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Mathematics/Convert/Convert_ConicToBSplineCurve.hxx>
@@ -61,7 +61,7 @@
 #include <Geometry/Geom/Geom_BezierCurve.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Geometry/Geom/Geom_Conic.hxx>
-#include <GeomConvert_CompCurveToBSplineCurve.hxx>
+#include <Geometry/GeomConvert/GeomConvert_CompCurveToBSplineCurve.hxx>
 
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
@@ -81,7 +81,7 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Geometry/Geom/Geom_OffsetCurve.hxx>
-#include <GeomConvert_ApproxCurve.hxx>
+#include <Geometry/GeomConvert/GeomConvert_ApproxCurve.hxx>
 
 #include <ElCLib.hxx>
 

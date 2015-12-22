@@ -77,7 +77,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Wire)
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>  
-#include <GeomConvert_CompCurveToBSplineCurve.hxx>
+#include <Geometry/GeomConvert/GeomConvert_CompCurveToBSplineCurve.hxx>
 #include <GeomAPI.hxx>
 
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>

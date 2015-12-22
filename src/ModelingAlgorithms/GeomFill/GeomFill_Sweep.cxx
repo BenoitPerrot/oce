@@ -74,7 +74,7 @@
 #include <Geometry/Approx/Approx_SweepApproximation.hxx>
 #include <AdvApprox_PrefAndRec.hxx>
 #include <AdvApprox_ApproxAFunction.hxx>
-#include <GeomConvert_ApproxSurface.hxx>
+#include <Geometry/GeomConvert/GeomConvert_ApproxSurface.hxx>
 
 #include <Precision.hxx>
 #include <ElCLib.hxx>

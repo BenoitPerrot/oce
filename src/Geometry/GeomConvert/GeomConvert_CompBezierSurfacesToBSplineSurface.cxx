@@ -22,7 +22,7 @@
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <TColGeom_Array2OfBezierSurface.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <GeomConvert_CompBezierSurfacesToBSplineSurface.hxx>
+#include <Geometry/GeomConvert/GeomConvert_CompBezierSurfacesToBSplineSurface.hxx>
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>

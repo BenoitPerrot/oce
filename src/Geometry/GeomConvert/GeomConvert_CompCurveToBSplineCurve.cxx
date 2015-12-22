@@ -20,10 +20,10 @@
 
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Geometry/Geom/Geom_BoundedCurve.hxx>
-#include <GeomConvert_CompCurveToBSplineCurve.hxx>
+#include <Geometry/GeomConvert/GeomConvert_CompCurveToBSplineCurve.hxx>
 
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
-#include <GeomConvert.hxx>
+#include <Geometry/GeomConvert/GeomConvert.hxx>
 
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>

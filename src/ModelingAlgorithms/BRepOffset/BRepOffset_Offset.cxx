@@ -52,7 +52,7 @@
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <GeomFill_Pipe.hxx>
 #include <GeomProjLib.hxx>
-#include <GeomConvert_ApproxSurface.hxx>
+#include <Geometry/GeomConvert/GeomConvert_ApproxSurface.hxx>
 #include <Precision.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <TopoDS.hxx>

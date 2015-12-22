@@ -32,7 +32,7 @@
 
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
-#include <GeomConvert.hxx>
+#include <Geometry/GeomConvert/GeomConvert.hxx>
 
 
 #include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>

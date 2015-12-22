@@ -36,9 +36,9 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_ConvertCurve3dToBezier)
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Geometry/Geom/Geom_Conic.hxx>
-#include <GeomConvert_ApproxCurve.hxx>
-#include <GeomConvert.hxx>
-#include <GeomConvert_BSplineCurveToBezierCurve.hxx>
+#include <Geometry/GeomConvert/GeomConvert_ApproxCurve.hxx>
+#include <Geometry/GeomConvert/GeomConvert.hxx>
+#include <Geometry/GeomConvert/GeomConvert_BSplineCurveToBezierCurve.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <TColGeom_HArray1OfCurve.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>

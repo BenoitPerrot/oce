@@ -37,7 +37,7 @@
 #include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>
-#include <GeomConvert.hxx>
+#include <Geometry/GeomConvert/GeomConvert.hxx>
 #include <Precision.hxx>
 #include <ElCLib.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor.hxx>

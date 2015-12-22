@@ -58,7 +58,7 @@
 #include <Precision.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 
-#include <GeomConvert.hxx>
+#include <Geometry/GeomConvert/GeomConvert.hxx>
 
 static TopAbs_Orientation Orientation(const TopoDS_Shape&,
 				      const TopoDS_Shape&);

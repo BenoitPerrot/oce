@@ -61,7 +61,7 @@
 #include <GeomLib.hxx>
 #include <GeomLib_IsPlanarSurface.hxx>
 #include <BRepLib_FindSurface.hxx>
-#include <GeomConvert_ApproxSurface.hxx>
+#include <Geometry/GeomConvert/GeomConvert_ApproxSurface.hxx>
 
 #include <BRepAdaptor_HCurve.hxx>
 #include <BRepAdaptor_HCurve2d.hxx>

@@ -53,7 +53,7 @@
 #include <Geometry/Geom/Geom_Line.hxx>
 #include <Geometry/Geom/Geom_Parabola.hxx>
 
-#include <GeomConvert.hxx>
+#include <Geometry/GeomConvert/GeomConvert.hxx>
 
 #include <Mathematics/Primitives/gp.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>
@@ -98,7 +98,7 @@
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
-#include <GeomConvert_ApproxCurve.hxx>
+#include <Geometry/GeomConvert/GeomConvert_ApproxCurve.hxx>
 
 #include <ShapeCustom_BSplineRestriction.hxx>
 

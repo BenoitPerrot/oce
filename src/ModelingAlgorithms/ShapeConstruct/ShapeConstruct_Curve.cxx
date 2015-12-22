@@ -41,7 +41,7 @@
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 
-#include <GeomConvert.hxx>
+#include <Geometry/GeomConvert/GeomConvert.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HCurve.hxx>
 #include <Geometry/Approx/Approx_Curve3d.hxx>
 

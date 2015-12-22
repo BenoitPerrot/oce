@@ -49,7 +49,7 @@
 
 #include <BRep_Tool.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
-#include <GeomConvert_CompCurveToBSplineCurve.hxx>
+#include <Geometry/GeomConvert/GeomConvert_CompCurveToBSplineCurve.hxx>
 #include <BRepLib_MakeEdge.hxx>
 #include <Precision.hxx>
 

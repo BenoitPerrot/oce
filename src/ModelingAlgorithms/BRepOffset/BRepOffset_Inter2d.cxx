@@ -54,7 +54,7 @@
 #include <Geometry/Geom/Geom_Line.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
-#include <GeomConvert_CompCurveToBSplineCurve.hxx>
+#include <Geometry/GeomConvert/GeomConvert_CompCurveToBSplineCurve.hxx>
 #include <Precision.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_BezierCurve.hxx>

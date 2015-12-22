@@ -391,7 +391,7 @@ static Standard_Integer OCC23774(Draw_Interpretor& di, Standard_Integer n, const
  return 0;
 }
 
-#include <GeomConvert_ApproxSurface.hxx>
+#include <Geometry/GeomConvert/GeomConvert_ApproxSurface.hxx>
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <Draw.hxx>
 #include <Foundation/OSD/OSD_Thread.hxx>

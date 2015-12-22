@@ -36,7 +36,7 @@
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
-#include <GeomConvert_CompCurveToBSplineCurve.hxx>
+#include <Geometry/GeomConvert/GeomConvert_CompCurveToBSplineCurve.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HCurve.hxx>
 #include <GeomFill_SectionPlacement.hxx>
 #include <GeomFill_LocationLaw.hxx>

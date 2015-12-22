@@ -37,7 +37,7 @@
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HCurve.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
-#include <GeomConvert.hxx>
+#include <Geometry/GeomConvert/GeomConvert.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>

@@ -24,7 +24,7 @@
 #include <BRepLib_MakeEdge.hxx>
 #include <BRepLib_MakeWire.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <GeomConvert.hxx>
+#include <Geometry/GeomConvert/GeomConvert.hxx>
 #include <GeomLProp.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Precision.hxx>
@@ -48,7 +48,7 @@
 #include <BRepLib.hxx>
 #include <TopoDS.hxx>
 #include <ShapeFix_Shape.hxx>
-#include <GeomConvert_CompCurveToBSplineCurve.hxx>
+#include <Geometry/GeomConvert/GeomConvert_CompCurveToBSplineCurve.hxx>
 
 //Temporary
 #//include <DrawTrSurf.hxx>

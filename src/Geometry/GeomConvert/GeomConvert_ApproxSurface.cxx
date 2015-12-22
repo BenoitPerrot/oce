@@ -15,7 +15,7 @@
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <GeomConvert_ApproxSurface.hxx>
+#include <Geometry/GeomConvert/GeomConvert_ApproxSurface.hxx>
 
 #include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
 #include <Precision.hxx>

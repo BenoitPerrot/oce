@@ -39,7 +39,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_ConvertSurfaceToBezierBasis)
 #include <TColGeom_HArray2OfSurface.hxx>
 #include <ShapeExtend.hxx>
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
-#include <GeomConvert_BSplineSurfaceToBezierSurface.hxx>
+#include <Geometry/GeomConvert/GeomConvert_BSplineSurfaceToBezierSurface.hxx>
 #include <TColGeom_Array2OfBezierSurface.hxx>
 #include <Geometry/Geom/Geom_SurfaceOfRevolution.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>

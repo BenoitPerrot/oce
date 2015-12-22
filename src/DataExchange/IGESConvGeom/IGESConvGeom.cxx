@@ -35,7 +35,7 @@
 
 #include <Mathematics/Primitives/gp_GTrsf.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
-#include <GeomConvert_CompCurveToBSplineCurve.hxx>
+#include <Geometry/GeomConvert/GeomConvert_CompCurveToBSplineCurve.hxx>
 #include <Mathematics/Polynomial/PLib.hxx>
 
 #include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>

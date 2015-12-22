@@ -48,7 +48,7 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_ShapeLaw)
 #include <GeomFill_UniformSection.hxx>
 #include <GeomFill_EvolvedSection.hxx>
 #include <GeomFill_HArray1OfSectionLaw.hxx>
-#include <GeomConvert_CompCurveToBSplineCurve.hxx>
+#include <Geometry/GeomConvert/GeomConvert_CompCurveToBSplineCurve.hxx>
 
 #include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>

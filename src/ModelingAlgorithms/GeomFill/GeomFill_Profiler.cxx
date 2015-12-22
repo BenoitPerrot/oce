@@ -21,12 +21,12 @@
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <GeomFill_Profiler.hxx>
-#include <GeomConvert.hxx>
+#include <Geometry/GeomConvert/GeomConvert.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Geometry/Geom/Geom_Conic.hxx>
-#include <GeomConvert_ApproxCurve.hxx>
+#include <Geometry/GeomConvert/GeomConvert_ApproxCurve.hxx>
 
 
 //=======================================================================

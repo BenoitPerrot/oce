@@ -63,7 +63,7 @@
 #include <Geometry/Geom/Geom_SweptSurface.hxx>
 #include <Geometry/Geom/Geom_ToroidalSurface.hxx>
 
-#include <GeomConvert.hxx>
+#include <Geometry/GeomConvert/GeomConvert.hxx>
 
 #include <GeomLProp_SLProps.hxx>
 

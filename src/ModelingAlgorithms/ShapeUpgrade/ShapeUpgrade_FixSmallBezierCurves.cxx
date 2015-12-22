@@ -47,9 +47,9 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_FixSmallBezierCurves)
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
-#include <GeomConvert_ApproxCurve.hxx>
+#include <Geometry/GeomConvert/GeomConvert_ApproxCurve.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
-#include <GeomConvert_ApproxCurve.hxx>
+#include <Geometry/GeomConvert/GeomConvert_ApproxCurve.hxx>
 #include <ShapeUpgrade_SplitCurve3d.hxx>
 #include <ShapeUpgrade_SplitCurve2d.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>

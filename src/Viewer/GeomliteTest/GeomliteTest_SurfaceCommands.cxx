@@ -65,10 +65,10 @@
 #include <ElCLib.hxx>
 #include <Precision.hxx>
 #include <Mathematics/Convert/Convert_CompBezierCurvesToBSplineCurve.hxx>
-#include <GeomConvert.hxx>
-#include <GeomConvert_BSplineCurveToBezierCurve.hxx>
-#include <GeomConvert_BSplineSurfaceToBezierSurface.hxx>
-#include <GeomConvert_CompBezierSurfacesToBSplineSurface.hxx>
+#include <Geometry/GeomConvert/GeomConvert.hxx>
+#include <Geometry/GeomConvert/GeomConvert_BSplineCurveToBezierCurve.hxx>
+#include <Geometry/GeomConvert/GeomConvert_BSplineSurfaceToBezierSurface.hxx>
+#include <Geometry/GeomConvert/GeomConvert_CompBezierSurfacesToBSplineSurface.hxx>
 #include <Geometry/Geom2dConvert/Geom2dConvert.hxx>
 #include <Geometry/Geom2dConvert/Geom2dConvert_BSplineCurveToBezierCurve.hxx>
 #include <GeomLProp_SLProps.hxx>
@@ -76,7 +76,7 @@
 
 #include <DrawTrSurf_BezierSurface.hxx>
 #include <DrawTrSurf_BSplineSurface.hxx>
-#include <GeomConvert_ApproxSurface.hxx>
+#include <Geometry/GeomConvert/GeomConvert_ApproxSurface.hxx>
 #include <GeomLib_Tool.hxx>
 #include <TopoDS_Shape.hxx>
 #include <DBRep.hxx>

@@ -28,8 +28,8 @@
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Geometry/Geom/Geom_Conic.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
-#include <GeomConvert_ApproxCurve.hxx>
-#include <GeomConvert.hxx>
+#include <Geometry/GeomConvert/GeomConvert_ApproxCurve.hxx>
+#include <Geometry/GeomConvert/GeomConvert.hxx>
 #include <Geometry/Geom2d/Geom2d_Conic.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <Geometry/Geom2dConvert/Geom2dConvert_ApproxCurve.hxx>
@@ -41,12 +41,12 @@
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
-#include <GeomConvert_ApproxSurface.hxx>
+#include <Geometry/GeomConvert/GeomConvert_ApproxSurface.hxx>
 #include <Geometry/Geom/Geom_SurfaceOfRevolution.hxx>
 #include <Geometry/Geom/Geom_OffsetCurve.hxx>
 #include <ShapeConstruct_Curve.hxx>
 #include <Precision.hxx>
-#include <GeomConvert_CompCurveToBSplineCurve.hxx>
+#include <Geometry/GeomConvert/GeomConvert_CompCurveToBSplineCurve.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <GeomAPI.hxx>

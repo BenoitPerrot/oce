@@ -83,10 +83,10 @@
 #include <Geometry/Geom2dConvert/Geom2dConvert_CompCurveToBSplineCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
-#include <GeomConvert_CompCurveToBSplineCurve.hxx>
+#include <Geometry/GeomConvert/GeomConvert_CompCurveToBSplineCurve.hxx>
 #include <Geometry/Extrema/Extrema_LocateExtPC.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
-#include <GeomConvert.hxx>
+#include <Geometry/GeomConvert/GeomConvert.hxx>
 
 //#ifdef OCCT_DEBUG
 //Standard_IMPORT Standard_Boolean TopOpeBRepBuild_GettraceFE();

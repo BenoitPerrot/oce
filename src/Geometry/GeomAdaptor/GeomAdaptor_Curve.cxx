@@ -58,7 +58,7 @@
 #include <Geometry/Geom/Geom_Ellipse.hxx>
 #include <Geometry/Geom/Geom_Parabola.hxx>
 #include <Geometry/Geom/Geom_Hyperbola.hxx>
-//#include <GeomConvert_BSplineCurveKnotSplitting.hxx>
+//#include <Geometry/GeomConvert/GeomConvert_BSplineCurveKnotSplitting.hxx>
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>

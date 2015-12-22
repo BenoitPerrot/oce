@@ -21,7 +21,7 @@
 #include <Geometry/Geom/Geom_BezierSurface.hxx>
 #include <TColGeom_Array2OfBezierSurface.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <GeomConvert_BSplineSurfaceToBezierSurface.hxx>
+#include <Geometry/GeomConvert/GeomConvert_BSplineSurfaceToBezierSurface.hxx>
 
 #include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>

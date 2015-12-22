@@ -76,7 +76,7 @@
 #include <Geometry/Geom/Geom_ToroidalSurface.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 
-//#include <GeomConvert.hxx>
+//#include <Geometry/GeomConvert/GeomConvert.hxx>
 //#include <Geometry/Geom2dConvert/Geom2dConvert.hxx>
 
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>

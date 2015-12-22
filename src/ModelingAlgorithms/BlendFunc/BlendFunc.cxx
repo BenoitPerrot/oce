@@ -34,7 +34,7 @@
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>
-#include <GeomConvert.hxx>
+#include <Geometry/GeomConvert/GeomConvert.hxx>
 #include <Precision.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <CSLib.hxx>

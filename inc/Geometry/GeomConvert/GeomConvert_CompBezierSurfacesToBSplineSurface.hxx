@@ -297,7 +297,7 @@ private:
 };
 
 
-#include <GeomConvert_CompBezierSurfacesToBSplineSurface.lxx>
+#include <Geometry/GeomConvert/GeomConvert_CompBezierSurfacesToBSplineSurface.lxx>
 
 
 

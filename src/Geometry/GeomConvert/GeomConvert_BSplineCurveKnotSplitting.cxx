@@ -20,7 +20,7 @@
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
-#include <GeomConvert_BSplineCurveKnotSplitting.hxx>
+#include <Geometry/GeomConvert/GeomConvert_BSplineCurveKnotSplitting.hxx>
 #include <Foundation/Standard/Standard_RangeError.hxx>
 
 #include <Mathematics/BetaSpline/BSplCLib.hxx>

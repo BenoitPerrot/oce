@@ -62,7 +62,7 @@
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx> 
 #include <Geometry/Geom/Geom_BSplineCurve.hxx> 
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <GeomConvert.hxx>
+#include <Geometry/GeomConvert/GeomConvert.hxx>
 
 #include <BRepTools_WireExplorer.hxx>
 #include <BRepTools.hxx>

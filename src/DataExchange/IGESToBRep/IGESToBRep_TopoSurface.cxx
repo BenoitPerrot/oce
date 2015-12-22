@@ -149,7 +149,7 @@
 #include <ShapeExtend_WireData.hxx>
 #include <ShapeFix_Wire.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
-#include <GeomConvert.hxx>
+#include <Geometry/GeomConvert/GeomConvert.hxx>
 #include <GeomLib.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 //S3767

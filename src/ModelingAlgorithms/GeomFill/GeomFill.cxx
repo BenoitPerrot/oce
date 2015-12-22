@@ -40,7 +40,7 @@
 #include <Mathematics/Primitives/gp_Ax3.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 
-#include <GeomConvert.hxx>
+#include <Geometry/GeomConvert/GeomConvert.hxx>
 #include <GeomFill_PolynomialConvertor.hxx>
 #include <GeomFill_QuasiAngularConvertor.hxx>
 #include <Precision.hxx>
