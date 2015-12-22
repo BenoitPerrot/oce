@@ -3,14 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TColGeom2d_HSequenceOfCurve.hxx>
+#include <Geometry/TColGeom2d/TColGeom2d_HSequenceOfCurve.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
-#include <TColGeom2d_SequenceOfCurve.hxx>
+#include <Geometry/TColGeom2d/TColGeom2d_SequenceOfCurve.hxx>
 
  
 
@@ -31,9 +31,9 @@ IMPLEMENT_STANDARD_RTTI(TColGeom2d_HSequenceOfCurve)
 #define Item Handle(Geom2d_Curve)
 #define Item_hxx <Geometry/Geom2d/Geom2d_Curve.hxx>
 #define TheSequence TColGeom2d_SequenceOfCurve
-#define TheSequence_hxx <TColGeom2d_SequenceOfCurve.hxx>
+#define TheSequence_hxx <Geometry/TColGeom2d/TColGeom2d_SequenceOfCurve.hxx>
 #define TCollection_HSequence TColGeom2d_HSequenceOfCurve
-#define TCollection_HSequence_hxx <TColGeom2d_HSequenceOfCurve.hxx>
+#define TCollection_HSequence_hxx <Geometry/TColGeom2d/TColGeom2d_HSequenceOfCurve.hxx>
 #define Handle_TCollection_HSequence Handle_TColGeom2d_HSequenceOfCurve
 #define TCollection_HSequence_Type_() TColGeom2d_HSequenceOfCurve_Type_()
 #include <Foundation/TCollection/TCollection_HSequence.gxx>

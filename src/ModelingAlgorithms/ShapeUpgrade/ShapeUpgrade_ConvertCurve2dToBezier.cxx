@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TColGeom2d_HSequenceOfCurve.hxx>
+#include <Geometry/TColGeom2d/TColGeom2d_HSequenceOfCurve.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
 #include <ShapeUpgrade_ConvertCurve2dToBezier.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -41,7 +41,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_ConvertCurve2dToBezier)
 #include <Geometry/Geom2dConvert/Geom2dConvert.hxx>
 #include <Geometry/Geom2dConvert/Geom2dConvert_BSplineCurveToBezierCurve.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <TColGeom2d_HArray1OfCurve.hxx>
+#include <Geometry/TColGeom2d/TColGeom2d_HArray1OfCurve.hxx>
 #include <Geometry/GeomTools/GeomTools.hxx>
 #include <ShapeCustom_Curve2d.hxx>
 

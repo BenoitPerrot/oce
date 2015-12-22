@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
-#include <TColGeom2d_HArray1OfCurve.hxx>
+#include <Geometry/TColGeom2d/TColGeom2d_HArray1OfCurve.hxx>
 #include <ShapeUpgrade_SplitCurve2d.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeUpgrade_SplitCurve2d)
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_SplitCurve2d)
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfReal.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
-#include <TColGeom2d_HArray1OfCurve.hxx>
+#include <Geometry/TColGeom2d/TColGeom2d_HArray1OfCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_OffsetCurve.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>

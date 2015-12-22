@@ -32,7 +32,7 @@ IMPLEMENT_DOWNCAST(ShapeUpgrade_FixSmallCurves,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_FixSmallCurves)
 //#include <Geometry/TColGeom/TColGeom_HArray1OfCurve.hxx>
 //#include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
-#//include <TColGeom2d_HArray1OfCurve.hxx>
+#//include <Geometry/TColGeom2d/TColGeom2d_HArray1OfCurve.hxx>
 //#include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
 #include <ShapeExtend.hxx>
 #include <TopoDS_Edge.hxx>

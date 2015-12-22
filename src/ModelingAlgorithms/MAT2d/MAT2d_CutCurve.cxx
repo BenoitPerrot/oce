@@ -22,7 +22,7 @@
 #include <Precision.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
-#include <TColGeom2d_SequenceOfCurve.hxx>
+#include <Geometry/TColGeom2d/TColGeom2d_SequenceOfCurve.hxx>
 
 //=======================================================================
 //function : MAT2d_CutCurve

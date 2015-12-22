@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TColGeom2d_HSequenceOfBoundedCurve.hxx>
 
-#include <TColGeom2d_SequenceOfBoundedCurve.hxx>
+#include <Geometry/TColGeom2d/TColGeom2d_SequenceOfBoundedCurve.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Geom2d_BoundedCurve.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
@@ -95,9 +95,9 @@ private:
 #define Item Handle(Geom2d_BoundedCurve)
 #define Item_hxx <Geometry/Geom2d/Geom2d_BoundedCurve.hxx>
 #define TheSequence TColGeom2d_SequenceOfBoundedCurve
-#define TheSequence_hxx <TColGeom2d_SequenceOfBoundedCurve.hxx>
+#define TheSequence_hxx <Geometry/TColGeom2d/TColGeom2d_SequenceOfBoundedCurve.hxx>
 #define TCollection_HSequence TColGeom2d_HSequenceOfBoundedCurve
-#define TCollection_HSequence_hxx <TColGeom2d_HSequenceOfBoundedCurve.hxx>
+#define TCollection_HSequence_hxx <Geometry/TColGeom2d/TColGeom2d_HSequenceOfBoundedCurve.hxx>
 #define Handle_TCollection_HSequence Handle_TColGeom2d_HSequenceOfBoundedCurve
 #define TCollection_HSequence_Type_() TColGeom2d_HSequenceOfBoundedCurve_Type_()
 

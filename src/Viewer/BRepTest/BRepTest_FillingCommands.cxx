@@ -70,7 +70,7 @@
 #include <BRepLib_MakeWire.hxx>
 #include <BRepBuilderAPI_WireError.hxx>
 #include <BRepLib_MakeFace.hxx>
-#include <TColGeom2d_HArray1OfCurve.hxx>
+#include <Geometry/TColGeom2d/TColGeom2d_HArray1OfCurve.hxx>
 
 #include <Geometry/AdvApp2Var/AdvApp2Var_ApproxAFunc2Var.hxx>
 #include <Geometry/AdvApp2Var/AdvApp2Var_Context.hxx>

@@ -18,11 +18,11 @@
 #include <TopoDS_Wire.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <TopoDS_Shape.hxx>
-#include <TColGeom2d_SequenceOfCurve.hxx>
+#include <Geometry/TColGeom2d/TColGeom2d_SequenceOfCurve.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfBoolean.hxx>
 #include <BRepMAT2d_Explorer.hxx>
 #include <MAT2d_SequenceOfSequenceOfCurve.hxx>
-#include <TColGeom2d_SequenceOfCurve.hxx>
+#include <Geometry/TColGeom2d/TColGeom2d_SequenceOfCurve.hxx>
 #include <TopoDS_Wire.hxx>
 #include <BRepTools_WireExplorer.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>

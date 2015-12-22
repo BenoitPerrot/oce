@@ -32,7 +32,7 @@
 #include <Geometry/Geom2d/Geom2d_Geometry.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_CartesianPoint.hxx>
-#include <TColGeom2d_SequenceOfCurve.hxx>
+#include <Geometry/TColGeom2d/TColGeom2d_SequenceOfCurve.hxx>
 #include <MAT_Graph.hxx>
 #include <MAT_BasicElt.hxx>
 #include <MAT_SequenceOfBasicElt.hxx>

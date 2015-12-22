@@ -3,14 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TColGeom2d_HSequenceOfBoundedCurve.hxx>
+#include <Geometry/TColGeom2d/TColGeom2d_HSequenceOfBoundedCurve.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Geometry/Geom2d/Geom2d_BoundedCurve.hxx>
-#include <TColGeom2d_SequenceOfBoundedCurve.hxx>
+#include <Geometry/TColGeom2d/TColGeom2d_SequenceOfBoundedCurve.hxx>
 
  
 
@@ -31,9 +31,9 @@ IMPLEMENT_STANDARD_RTTI(TColGeom2d_HSequenceOfBoundedCurve)
 #define Item Handle(Geom2d_BoundedCurve)
 #define Item_hxx <Geometry/Geom2d/Geom2d_BoundedCurve.hxx>
 #define TheSequence TColGeom2d_SequenceOfBoundedCurve
-#define TheSequence_hxx <TColGeom2d_SequenceOfBoundedCurve.hxx>
+#define TheSequence_hxx <Geometry/TColGeom2d/TColGeom2d_SequenceOfBoundedCurve.hxx>
 #define TCollection_HSequence TColGeom2d_HSequenceOfBoundedCurve
-#define TCollection_HSequence_hxx <TColGeom2d_HSequenceOfBoundedCurve.hxx>
+#define TCollection_HSequence_hxx <Geometry/TColGeom2d/TColGeom2d_HSequenceOfBoundedCurve.hxx>
 #define Handle_TCollection_HSequence Handle_TColGeom2d_HSequenceOfBoundedCurve
 #define TCollection_HSequence_Type_() TColGeom2d_HSequenceOfBoundedCurve_Type_()
 #include <Foundation/TCollection/TCollection_HSequence.gxx>

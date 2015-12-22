@@ -104,11 +104,11 @@ private:
 #define SeqItem Handle(Geom2d_Geometry)
 #define SeqItem_hxx <Geometry/Geom2d/Geom2d_Geometry.hxx>
 #define TCollection_SequenceNode TColGeom2d_SequenceNodeOfSequenceOfGeometry
-#define TCollection_SequenceNode_hxx <TColGeom2d_SequenceNodeOfSequenceOfGeometry.hxx>
+#define TCollection_SequenceNode_hxx <Geometry/TColGeom2d/TColGeom2d_SequenceNodeOfSequenceOfGeometry.hxx>
 #define Handle_TCollection_SequenceNode Handle_TColGeom2d_SequenceNodeOfSequenceOfGeometry
 #define TCollection_SequenceNode_Type_() TColGeom2d_SequenceNodeOfSequenceOfGeometry_Type_()
 #define TCollection_Sequence TColGeom2d_SequenceOfGeometry
-#define TCollection_Sequence_hxx <TColGeom2d_SequenceOfGeometry.hxx>
+#define TCollection_Sequence_hxx <Geometry/TColGeom2d/TColGeom2d_SequenceOfGeometry.hxx>
 
 #include <Foundation/TCollection/TCollection_Sequence.lxx>
 

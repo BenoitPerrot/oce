@@ -18,9 +18,9 @@
 
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
-#include <TColGeom2d_Array1OfBSplineCurve.hxx>
+#include <Geometry/TColGeom2d/TColGeom2d_Array1OfBSplineCurve.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <TColGeom2d_HArray1OfBSplineCurve.hxx>
+#include <Geometry/TColGeom2d/TColGeom2d_HArray1OfBSplineCurve.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Geometry/Geom2dConvert/Geom2dConvert.hxx>
 

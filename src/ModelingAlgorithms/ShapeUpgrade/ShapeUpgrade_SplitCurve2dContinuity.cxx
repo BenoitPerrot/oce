@@ -33,9 +33,9 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_SplitCurve2dContinuity)
 #include <ShapeUpgrade.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_OffsetCurve.hxx>
-#include <TColGeom2d_HArray1OfCurve.hxx>
+#include <Geometry/TColGeom2d/TColGeom2d_HArray1OfCurve.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
-#include <TColGeom2d_HArray1OfCurve.hxx>
+#include <Geometry/TColGeom2d/TColGeom2d_HArray1OfCurve.hxx>
 #include <ShapeExtend.hxx>
 
 

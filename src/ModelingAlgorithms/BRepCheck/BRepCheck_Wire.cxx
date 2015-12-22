@@ -51,7 +51,7 @@ IMPLEMENT_STANDARD_RTTI(BRepCheck_Wire)
 #include <TopExp_Explorer.hxx>
 #include <TopoDS_Iterator.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
-#include <TColGeom2d_Array1OfCurve.hxx>
+#include <Geometry/TColGeom2d/TColGeom2d_Array1OfCurve.hxx>
 #include <IntRes2d_Intersection.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>
 #include <IntRes2d_IntersectionSegment.hxx>

@@ -95,7 +95,7 @@ private:
 #define Array1Item Handle(Geom2d_BezierCurve)
 #define Array1Item_hxx <Geometry/Geom2d/Geom2d_BezierCurve.hxx>
 #define TCollection_Array1 TColGeom2d_Array1OfBezierCurve
-#define TCollection_Array1_hxx <TColGeom2d_Array1OfBezierCurve.hxx>
+#define TCollection_Array1_hxx <Geometry/TColGeom2d/TColGeom2d_Array1OfBezierCurve.hxx>
 
 #include <Foundation/TCollection/TCollection_Array1.lxx>
 

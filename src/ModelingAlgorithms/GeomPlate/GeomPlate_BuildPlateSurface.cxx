@@ -35,7 +35,7 @@
 #include <GeomPlate_PointConstraint.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfXY.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfXYZ.hxx>
-#include <TColGeom2d_HArray1OfCurve.hxx>
+#include <Geometry/TColGeom2d/TColGeom2d_HArray1OfCurve.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>

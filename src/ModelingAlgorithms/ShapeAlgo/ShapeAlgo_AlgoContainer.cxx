@@ -19,9 +19,9 @@
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Geometry/TColGeom/TColGeom_SequenceOfCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
-#include <TColGeom2d_SequenceOfCurve.hxx>
+#include <Geometry/TColGeom2d/TColGeom2d_SequenceOfCurve.hxx>
 #include <Geometry/TColGeom/TColGeom_HSequenceOfBoundedCurve.hxx>
-#include <TColGeom2d_HSequenceOfBoundedCurve.hxx>
+#include <Geometry/TColGeom2d/TColGeom2d_HSequenceOfBoundedCurve.hxx>
 #include <TopoDS_Shape.hxx>
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>

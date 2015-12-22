@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TColGeom2d_HArray1OfBSplineCurve.hxx>
+#include <Geometry/TColGeom2d/TColGeom2d_HArray1OfBSplineCurve.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -12,7 +12,7 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
-#include <TColGeom2d_Array1OfBSplineCurve.hxx>
+#include <Geometry/TColGeom2d/TColGeom2d_Array1OfBSplineCurve.hxx>
 
  
 
@@ -33,9 +33,9 @@ IMPLEMENT_STANDARD_RTTI(TColGeom2d_HArray1OfBSplineCurve)
 #define ItemHArray1 Handle(Geom2d_BSplineCurve)
 #define ItemHArray1_hxx <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #define TheArray1 TColGeom2d_Array1OfBSplineCurve
-#define TheArray1_hxx <TColGeom2d_Array1OfBSplineCurve.hxx>
+#define TheArray1_hxx <Geometry/TColGeom2d/TColGeom2d_Array1OfBSplineCurve.hxx>
 #define TCollection_HArray1 TColGeom2d_HArray1OfBSplineCurve
-#define TCollection_HArray1_hxx <TColGeom2d_HArray1OfBSplineCurve.hxx>
+#define TCollection_HArray1_hxx <Geometry/TColGeom2d/TColGeom2d_HArray1OfBSplineCurve.hxx>
 #define Handle_TCollection_HArray1 Handle_TColGeom2d_HArray1OfBSplineCurve
 #define TCollection_HArray1_Type_() TColGeom2d_HArray1OfBSplineCurve_Type_()
 #include <Foundation/TCollection/TCollection_HArray1.gxx>

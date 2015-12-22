@@ -70,7 +70,7 @@
 #include <Geometry/Geom/Geom_CylindricalSurface.hxx>
 #include <Geometry/Geom/Geom_ConicalSurface.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
-#include <TColGeom2d_SequenceOfCurve.hxx>
+#include <Geometry/TColGeom2d/TColGeom2d_SequenceOfCurve.hxx>
 #include <Geom2dInt_GInter.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>
 #include <IntRes2d_IntersectionSegment.hxx>

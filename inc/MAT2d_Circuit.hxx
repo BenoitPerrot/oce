@@ -11,7 +11,7 @@
 #include <Handle_MAT2d_Circuit.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <TColGeom2d_SequenceOfGeometry.hxx>
+#include <Geometry/TColGeom2d/TColGeom2d_SequenceOfGeometry.hxx>
 #include <MAT2d_DataMapOfIntegerConnexion.hxx>
 #include <MAT2d_DataMapOfBiIntSequenceOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>

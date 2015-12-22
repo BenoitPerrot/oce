@@ -48,7 +48,7 @@
 #include <Mathematics/Collections/TColgp_SequenceOfPnt2d.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <TColGeom2d_SequenceOfCurve.hxx>
+#include <Geometry/TColGeom2d/TColGeom2d_SequenceOfCurve.hxx>
 #include <TopTools_SequenceOfShape.hxx>
 #include <Precision.hxx>
 

@@ -27,7 +27,7 @@
 #include <Geometry/Geom2d/Geom2d_Point.hxx> 
 #include <Geometry/Geom2d/Geom2d_CartesianPoint.hxx> 
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
-#include <TColGeom2d_SequenceOfGeometry.hxx>
+#include <Geometry/TColGeom2d/TColGeom2d_SequenceOfGeometry.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 
 //============================================================================

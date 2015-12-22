@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Geometry/TColGeom/TColGeom_SequenceOfCurve.hxx>
-#include <TColGeom2d_SequenceOfCurve.hxx>
+#include <Geometry/TColGeom2d/TColGeom2d_SequenceOfCurve.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <IGESToBRep_CurveAndSurface.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

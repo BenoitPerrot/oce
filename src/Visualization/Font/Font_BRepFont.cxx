@@ -32,7 +32,7 @@
 #include <ShapeBuild_ReShape.hxx>
 #include <ShapeFix_Edge.hxx>
 #include <ShapeFix_Wire.hxx>
-#include <TColGeom2d_HSequenceOfBoundedCurve.hxx>
+#include <Geometry/TColGeom2d/TColGeom2d_HSequenceOfBoundedCurve.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <TopExp.hxx>

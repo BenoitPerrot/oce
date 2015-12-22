@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_MAT2d_SequenceNodeOfSequenceOfSequenceOfCurve.hxx>
 
-#include <TColGeom2d_SequenceOfCurve.hxx>
+#include <Geometry/TColGeom2d/TColGeom2d_SequenceOfCurve.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>
 #include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class TColGeom2d_SequenceOfCurve;
@@ -47,7 +47,7 @@ private:
 };
 
 #define SeqItem TColGeom2d_SequenceOfCurve
-#define SeqItem_hxx <TColGeom2d_SequenceOfCurve.hxx>
+#define SeqItem_hxx <Geometry/TColGeom2d/TColGeom2d_SequenceOfCurve.hxx>
 #define TCollection_SequenceNode MAT2d_SequenceNodeOfSequenceOfSequenceOfCurve
 #define TCollection_SequenceNode_hxx <MAT2d_SequenceNodeOfSequenceOfSequenceOfCurve.hxx>
 #define Handle_TCollection_SequenceNode Handle_MAT2d_SequenceNodeOfSequenceOfSequenceOfCurve

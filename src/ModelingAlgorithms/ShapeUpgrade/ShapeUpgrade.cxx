@@ -19,7 +19,7 @@
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Geometry/TColGeom/TColGeom_HSequenceOfBoundedCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
-#include <TColGeom2d_HSequenceOfBoundedCurve.hxx>
+#include <Geometry/TColGeom2d/TColGeom2d_HSequenceOfBoundedCurve.hxx>
 #include <ShapeUpgrade.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>

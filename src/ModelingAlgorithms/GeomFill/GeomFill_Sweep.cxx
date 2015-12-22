@@ -19,7 +19,7 @@
 #include <GeomFill_LocationLaw.hxx>
 #include <GeomFill_SectionLaw.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
-#include <TColGeom2d_HArray1OfCurve.hxx>
+#include <Geometry/TColGeom2d/TColGeom2d_HArray1OfCurve.hxx>
 #include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>

@@ -15,7 +15,7 @@
 #include <Handle_GeomAdaptor_HSurface.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Geometry/TColGeom/TColGeom_SequenceOfCurve.hxx>
-#include <TColGeom2d_SequenceOfCurve.hxx>
+#include <Geometry/TColGeom2d/TColGeom2d_SequenceOfCurve.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Geom_Surface.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

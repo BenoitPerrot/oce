@@ -34,7 +34,7 @@
 #include <Foundation/TColStd/TColStd_SequenceOfBoolean.hxx>
 #include <Geometry/Geom2d/Geom2d_Geometry.hxx>
 #include <MAT2d_Connexion.hxx>
-#include <TColGeom2d_SequenceOfGeometry.hxx>
+#include <Geometry/TColGeom2d/TColGeom2d_SequenceOfGeometry.hxx>
 #include <MAT2d_BiInt.hxx>
 #include <MAT2d_SequenceOfConnexion.hxx>
 #include <MAT2d_MiniPath.hxx>

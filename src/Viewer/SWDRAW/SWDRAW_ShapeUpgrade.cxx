@@ -48,7 +48,7 @@
 #include <TopoDS_Compound.hxx>
 #include <TopExp_Explorer.hxx>
 #include <Geometry/TColGeom/TColGeom_HArray2OfSurface.hxx>
-#include <TColGeom2d_HArray1OfCurve.hxx>
+#include <Geometry/TColGeom2d/TColGeom2d_HArray1OfCurve.hxx>
 #include <BRepBuilderAPI.hxx>
 #include <SWDRAW.hxx>
 #include <ShapeUpgrade_ShapeDivideArea.hxx>

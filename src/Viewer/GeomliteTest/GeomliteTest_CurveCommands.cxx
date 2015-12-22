@@ -88,7 +88,7 @@
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 
 #include <Geometry/TColGeom/TColGeom_HArray1OfBSplineCurve.hxx>
-#include <TColGeom2d_HArray1OfBSplineCurve.hxx>
+#include <Geometry/TColGeom2d/TColGeom2d_HArray1OfBSplineCurve.hxx>
 #include <Mathematics/Convert/Convert_CompPolynomialToPoles.hxx>
 #include <Geometry/CPnts/CPnts_AbscissaPoint.hxx>
 #include <Geometry/GCPnts/GCPnts_AbscissaPoint.hxx>

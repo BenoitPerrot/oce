@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TColGeom2d_HArray1OfBezierCurve.hxx>
 
-#include <TColGeom2d_Array1OfBezierCurve.hxx>
+#include <Geometry/TColGeom2d/TColGeom2d_Array1OfBezierCurve.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Geom2d_BezierCurve.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
@@ -72,9 +72,9 @@ private:
 #define ItemHArray1 Handle(Geom2d_BezierCurve)
 #define ItemHArray1_hxx <Geometry/Geom2d/Geom2d_BezierCurve.hxx>
 #define TheArray1 TColGeom2d_Array1OfBezierCurve
-#define TheArray1_hxx <TColGeom2d_Array1OfBezierCurve.hxx>
+#define TheArray1_hxx <Geometry/TColGeom2d/TColGeom2d_Array1OfBezierCurve.hxx>
 #define TCollection_HArray1 TColGeom2d_HArray1OfBezierCurve
-#define TCollection_HArray1_hxx <TColGeom2d_HArray1OfBezierCurve.hxx>
+#define TCollection_HArray1_hxx <Geometry/TColGeom2d/TColGeom2d_HArray1OfBezierCurve.hxx>
 #define Handle_TCollection_HArray1 Handle_TColGeom2d_HArray1OfBezierCurve
 #define TCollection_HArray1_Type_() TColGeom2d_HArray1OfBezierCurve_Type_()
 

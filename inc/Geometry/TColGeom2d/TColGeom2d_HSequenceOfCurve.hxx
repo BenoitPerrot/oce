@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TColGeom2d_HSequenceOfCurve.hxx>
 
-#include <TColGeom2d_SequenceOfCurve.hxx>
+#include <Geometry/TColGeom2d/TColGeom2d_SequenceOfCurve.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Geom2d_Curve.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
@@ -95,9 +95,9 @@ private:
 #define Item Handle(Geom2d_Curve)
 #define Item_hxx <Geometry/Geom2d/Geom2d_Curve.hxx>
 #define TheSequence TColGeom2d_SequenceOfCurve
-#define TheSequence_hxx <TColGeom2d_SequenceOfCurve.hxx>
+#define TheSequence_hxx <Geometry/TColGeom2d/TColGeom2d_SequenceOfCurve.hxx>
 #define TCollection_HSequence TColGeom2d_HSequenceOfCurve
-#define TCollection_HSequence_hxx <TColGeom2d_HSequenceOfCurve.hxx>
+#define TCollection_HSequence_hxx <Geometry/TColGeom2d/TColGeom2d_HSequenceOfCurve.hxx>
 #define Handle_TCollection_HSequence Handle_TColGeom2d_HSequenceOfCurve
 #define TCollection_HSequence_Type_() TColGeom2d_HSequenceOfCurve_Type_()
 
