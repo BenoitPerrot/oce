@@ -16,7 +16,7 @@
 #include <TopoDS_Wire.hxx>
 #include <TopoDS_Edge.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <TColGeom_SequenceOfCurve.hxx>
+#include <Geometry/TColGeom/TColGeom_SequenceOfCurve.hxx>
 #include <TopTools_DataMapOfShapeListOfShape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Geom_Curve.hxx>

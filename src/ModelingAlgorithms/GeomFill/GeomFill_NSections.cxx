@@ -24,7 +24,7 @@
 
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <TColGeom_SequenceOfCurve.hxx>
+#include <Geometry/TColGeom/TColGeom_SequenceOfCurve.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <GeomFill_SequenceOfTrsf.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
@@ -62,7 +62,7 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_NSections)
 
 #include <Geometry/GCPnts/GCPnts_AbscissaPoint.hxx>
 #include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
-#include <TColGeom_Array1OfCurve.hxx>
+#include <Geometry/TColGeom/TColGeom_Array1OfCurve.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>

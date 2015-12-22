@@ -3,21 +3,21 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TColGeom_SequenceOfCurve.hxx>
+#include <Geometry/TColGeom/TColGeom_SequenceOfCurve.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <TColGeom_SequenceNodeOfSequenceOfCurve.hxx>
+#include <Geometry/TColGeom/TColGeom_SequenceNodeOfSequenceOfCurve.hxx>
  
 
 #define SeqItem Handle(Geom_Curve)
 #define SeqItem_hxx <Geometry/Geom/Geom_Curve.hxx>
 #define TCollection_SequenceNode TColGeom_SequenceNodeOfSequenceOfCurve
-#define TCollection_SequenceNode_hxx <TColGeom_SequenceNodeOfSequenceOfCurve.hxx>
+#define TCollection_SequenceNode_hxx <Geometry/TColGeom/TColGeom_SequenceNodeOfSequenceOfCurve.hxx>
 #define Handle_TCollection_SequenceNode Handle_TColGeom_SequenceNodeOfSequenceOfCurve
 #define TCollection_SequenceNode_Type_() TColGeom_SequenceNodeOfSequenceOfCurve_Type_()
 #define TCollection_Sequence TColGeom_SequenceOfCurve
-#define TCollection_Sequence_hxx <TColGeom_SequenceOfCurve.hxx>
+#define TCollection_Sequence_hxx <Geometry/TColGeom/TColGeom_SequenceOfCurve.hxx>
 #include <Foundation/TCollection/TCollection_Sequence.gxx>
 

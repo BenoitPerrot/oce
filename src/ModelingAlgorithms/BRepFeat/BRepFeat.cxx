@@ -63,7 +63,7 @@
 #include <LocOpe_PntFace.hxx>
 #include <LocOpe_BuildShape.hxx> 
 
-#include <TColGeom_SequenceOfCurve.hxx>
+#include <Geometry/TColGeom/TColGeom_SequenceOfCurve.hxx>
 
 
 #include <LocOpe.hxx>

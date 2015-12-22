@@ -103,7 +103,7 @@ private:
 #define Array2Item Handle(Geom_Surface)
 #define Array2Item_hxx <Geometry/Geom/Geom_Surface.hxx>
 #define TCollection_Array2 TColGeom_Array2OfSurface
-#define TCollection_Array2_hxx <TColGeom_Array2OfSurface.hxx>
+#define TCollection_Array2_hxx <Geometry/TColGeom/TColGeom_Array2OfSurface.hxx>
 
 #include <Foundation/TCollection/TCollection_Array2.lxx>
 

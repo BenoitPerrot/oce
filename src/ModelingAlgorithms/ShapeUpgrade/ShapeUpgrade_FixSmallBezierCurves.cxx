@@ -36,7 +36,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_FixSmallBezierCurves)
 #include <BRep_Tool.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Geometry/Geom2dConvert/Geom2dConvert_ApproxCurve.hxx>
-#include <TColGeom_HArray1OfCurve.hxx>
+#include <Geometry/TColGeom/TColGeom_HArray1OfCurve.hxx>
 #include <ShapeExtend.hxx>
 #include <TColGeom2d_HArray1OfCurve.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>

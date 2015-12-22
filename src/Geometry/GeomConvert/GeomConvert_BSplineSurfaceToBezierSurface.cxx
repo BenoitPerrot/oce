@@ -19,7 +19,7 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Geometry/Geom/Geom_BezierSurface.hxx>
-#include <TColGeom_Array2OfBezierSurface.hxx>
+#include <Geometry/TColGeom/TColGeom_Array2OfBezierSurface.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Geometry/GeomConvert/GeomConvert_BSplineSurfaceToBezierSurface.hxx>
 

@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <TColGeom_SequenceOfCurve.hxx>
+#include <Geometry/TColGeom/TColGeom_SequenceOfCurve.hxx>
 #include <TColGeom2d_SequenceOfCurve.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <IGESToBRep_CurveAndSurface.hxx>

@@ -11,7 +11,7 @@
 #include <Handle_GeomFill_NSections.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <TColGeom_SequenceOfCurve.hxx>
+#include <Geometry/TColGeom/TColGeom_SequenceOfCurve.hxx>
 #include <GeomFill_SequenceOfTrsf.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <Handle_Geom_BSplineSurface.hxx>

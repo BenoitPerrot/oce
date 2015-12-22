@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TColGeom_HSequenceOfBoundedCurve.hxx>
 
-#include <TColGeom_SequenceOfBoundedCurve.hxx>
+#include <Geometry/TColGeom/TColGeom_SequenceOfBoundedCurve.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Geom_BoundedCurve.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
@@ -95,9 +95,9 @@ private:
 #define Item Handle(Geom_BoundedCurve)
 #define Item_hxx <Geometry/Geom/Geom_BoundedCurve.hxx>
 #define TheSequence TColGeom_SequenceOfBoundedCurve
-#define TheSequence_hxx <TColGeom_SequenceOfBoundedCurve.hxx>
+#define TheSequence_hxx <Geometry/TColGeom/TColGeom_SequenceOfBoundedCurve.hxx>
 #define TCollection_HSequence TColGeom_HSequenceOfBoundedCurve
-#define TCollection_HSequence_hxx <TColGeom_HSequenceOfBoundedCurve.hxx>
+#define TCollection_HSequence_hxx <Geometry/TColGeom/TColGeom_HSequenceOfBoundedCurve.hxx>
 #define Handle_TCollection_HSequence Handle_TColGeom_HSequenceOfBoundedCurve
 #define TCollection_HSequence_Type_() TColGeom_HSequenceOfBoundedCurve_Type_()
 

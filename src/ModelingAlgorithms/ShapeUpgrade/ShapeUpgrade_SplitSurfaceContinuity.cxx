@@ -28,14 +28,14 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_SplitSurfaceContinuity)
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <Precision.hxx>
 #include <ShapeUpgrade.hxx>
-#include <TColGeom_HArray2OfSurface.hxx>
+#include <Geometry/TColGeom/TColGeom_HArray2OfSurface.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Geometry/Geom/Geom_SweptSurface.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
 #include <Geometry/Geom/Geom_SurfaceOfRevolution.hxx>
 #include <ShapeUpgrade_SplitCurve3dContinuity.hxx>
 #include <Geometry/Geom/Geom_SurfaceOfLinearExtrusion.hxx>
-#include <TColGeom_HArray1OfCurve.hxx>
+#include <Geometry/TColGeom/TColGeom_HArray1OfCurve.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
 #include <Geometry/Geom/Geom_OffsetSurface.hxx>

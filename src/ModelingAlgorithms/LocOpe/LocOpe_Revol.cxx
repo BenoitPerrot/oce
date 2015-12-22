@@ -19,7 +19,7 @@
 #include <TopoDS_Shape.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <TopTools_ListOfShape.hxx>
-#include <TColGeom_SequenceOfCurve.hxx>
+#include <Geometry/TColGeom/TColGeom_SequenceOfCurve.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <LocOpe_Revol.hxx>
 

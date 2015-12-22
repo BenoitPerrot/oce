@@ -3,12 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TColGeom_SequenceNodeOfSequenceOfSurface.hxx>
+#include <Geometry/TColGeom/TColGeom_SequenceNodeOfSequenceOfSurface.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Geometry/Geom/Geom_Surface.hxx>
-#include <TColGeom_SequenceOfSurface.hxx>
+#include <Geometry/TColGeom/TColGeom_SequenceOfSurface.hxx>
 
  
 
@@ -30,10 +30,10 @@ IMPLEMENT_STANDARD_RTTI(TColGeom_SequenceNodeOfSequenceOfSurface)
 #define SeqItem Handle(Geom_Surface)
 #define SeqItem_hxx <Geometry/Geom/Geom_Surface.hxx>
 #define TCollection_SequenceNode TColGeom_SequenceNodeOfSequenceOfSurface
-#define TCollection_SequenceNode_hxx <TColGeom_SequenceNodeOfSequenceOfSurface.hxx>
+#define TCollection_SequenceNode_hxx <Geometry/TColGeom/TColGeom_SequenceNodeOfSequenceOfSurface.hxx>
 #define Handle_TCollection_SequenceNode Handle_TColGeom_SequenceNodeOfSequenceOfSurface
 #define TCollection_SequenceNode_Type_() TColGeom_SequenceNodeOfSequenceOfSurface_Type_()
 #define TCollection_Sequence TColGeom_SequenceOfSurface
-#define TCollection_Sequence_hxx <TColGeom_SequenceOfSurface.hxx>
+#define TCollection_Sequence_hxx <Geometry/TColGeom/TColGeom_SequenceOfSurface.hxx>
 #include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

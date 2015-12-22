@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TColGeom_HArray1OfBSplineCurve.hxx>
 
-#include <TColGeom_Array1OfBSplineCurve.hxx>
+#include <Geometry/TColGeom/TColGeom_Array1OfBSplineCurve.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Geom_BSplineCurve.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
@@ -72,9 +72,9 @@ private:
 #define ItemHArray1 Handle(Geom_BSplineCurve)
 #define ItemHArray1_hxx <Geometry/Geom/Geom_BSplineCurve.hxx>
 #define TheArray1 TColGeom_Array1OfBSplineCurve
-#define TheArray1_hxx <TColGeom_Array1OfBSplineCurve.hxx>
+#define TheArray1_hxx <Geometry/TColGeom/TColGeom_Array1OfBSplineCurve.hxx>
 #define TCollection_HArray1 TColGeom_HArray1OfBSplineCurve
-#define TCollection_HArray1_hxx <TColGeom_HArray1OfBSplineCurve.hxx>
+#define TCollection_HArray1_hxx <Geometry/TColGeom/TColGeom_HArray1OfBSplineCurve.hxx>
 #define Handle_TCollection_HArray1 Handle_TColGeom_HArray1OfBSplineCurve
 #define TCollection_HArray1_Type_() TColGeom_HArray1OfBSplineCurve_Type_()
 

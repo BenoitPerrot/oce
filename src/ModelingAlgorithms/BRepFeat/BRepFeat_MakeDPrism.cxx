@@ -19,14 +19,14 @@
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Face.hxx>
 #include <TopoDS_Edge.hxx>
-#include <TColGeom_SequenceOfCurve.hxx>
+#include <Geometry/TColGeom/TColGeom_SequenceOfCurve.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <BRepFeat_MakeDPrism.hxx>
 
 #include <BRepFeat.hxx>
 #include <LocOpe.hxx>
 #include <LocOpe_CSIntersector.hxx>
-#include <TColGeom_SequenceOfCurve.hxx>
+#include <Geometry/TColGeom/TColGeom_SequenceOfCurve.hxx>
 #include <LocOpe_DPrism.hxx>
 #include <LocOpe_SequenceOfLin.hxx>
 #include <LocOpe_PntFace.hxx>
@@ -45,7 +45,7 @@
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
-#include <TColGeom_SequenceOfCurve.hxx>
+#include <Geometry/TColGeom/TColGeom_SequenceOfCurve.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 
 #include <BRepBndLib.hxx>

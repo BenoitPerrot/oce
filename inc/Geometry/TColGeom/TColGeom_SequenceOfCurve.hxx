@@ -104,11 +104,11 @@ private:
 #define SeqItem Handle(Geom_Curve)
 #define SeqItem_hxx <Geometry/Geom/Geom_Curve.hxx>
 #define TCollection_SequenceNode TColGeom_SequenceNodeOfSequenceOfCurve
-#define TCollection_SequenceNode_hxx <TColGeom_SequenceNodeOfSequenceOfCurve.hxx>
+#define TCollection_SequenceNode_hxx <Geometry/TColGeom/TColGeom_SequenceNodeOfSequenceOfCurve.hxx>
 #define Handle_TCollection_SequenceNode Handle_TColGeom_SequenceNodeOfSequenceOfCurve
 #define TCollection_SequenceNode_Type_() TColGeom_SequenceNodeOfSequenceOfCurve_Type_()
 #define TCollection_Sequence TColGeom_SequenceOfCurve
-#define TCollection_Sequence_hxx <TColGeom_SequenceOfCurve.hxx>
+#define TCollection_Sequence_hxx <Geometry/TColGeom/TColGeom_SequenceOfCurve.hxx>
 
 #include <Foundation/TCollection/TCollection_Sequence.lxx>
 

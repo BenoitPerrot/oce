@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <TColGeom_HArray1OfCurve.hxx>
+#include <Geometry/TColGeom/TColGeom_HArray1OfCurve.hxx>
 #include <ShapeUpgrade_SplitCurve3d.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeUpgrade_SplitCurve3d)
@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_SplitCurve3d)
 #include <ShapeUpgrade.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfReal.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
-#include <TColGeom_HArray1OfCurve.hxx>
+#include <Geometry/TColGeom/TColGeom_HArray1OfCurve.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Geometry/Geom/Geom_OffsetCurve.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>

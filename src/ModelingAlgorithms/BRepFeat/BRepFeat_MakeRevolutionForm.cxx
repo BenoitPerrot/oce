@@ -71,7 +71,7 @@
 
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 
-#include <TColGeom_SequenceOfCurve.hxx>
+#include <Geometry/TColGeom/TColGeom_SequenceOfCurve.hxx>
 
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>
@@ -95,7 +95,7 @@
 
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 
-#include <TColGeom_Array1OfCurve.hxx>
+#include <Geometry/TColGeom/TColGeom_Array1OfCurve.hxx>
 
 #include <TopoDS.hxx>
 #include <TopoDS_Shape.hxx>

@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_SplitSurface)
 #include <ShapeUpgrade.hxx>
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
-#include <TColGeom_HArray2OfSurface.hxx>
+#include <Geometry/TColGeom/TColGeom_HArray2OfSurface.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
 #include <Precision.hxx>
 #include <Geometry/Geom/Geom_SurfaceOfRevolution.hxx>
@@ -40,7 +40,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_SplitSurface)
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
 #include <Geometry/Geom/Geom_OffsetSurface.hxx>
 #include <ShapeUpgrade_SplitCurve3d.hxx>
-#include <TColGeom_HArray1OfCurve.hxx>
+#include <Geometry/TColGeom/TColGeom_HArray1OfCurve.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>

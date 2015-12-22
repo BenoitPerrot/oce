@@ -34,8 +34,8 @@
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
-#include <TColGeom_HArray1OfCurve.hxx>
-#include <TColGeom_HArray2OfSurface.hxx>
+#include <Geometry/TColGeom/TColGeom_HArray1OfCurve.hxx>
+#include <Geometry/TColGeom/TColGeom_HArray2OfSurface.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
@@ -47,7 +47,7 @@
 #include <TopoDS_Wire.hxx>
 #include <TopoDS_Compound.hxx>
 #include <TopExp_Explorer.hxx>
-#include <TColGeom_HArray2OfSurface.hxx>
+#include <Geometry/TColGeom/TColGeom_HArray2OfSurface.hxx>
 #include <TColGeom2d_HArray1OfCurve.hxx>
 #include <BRepBuilderAPI.hxx>
 #include <SWDRAW.hxx>
@@ -67,7 +67,7 @@
 #include <BRep_Tool.hxx>
 #include <ShapeExtend_CompositeSurface.hxx>
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
-#include <TColGeom_HArray2OfSurface.hxx>
+#include <Geometry/TColGeom/TColGeom_HArray2OfSurface.hxx>
 #include <ShapeFix_ComposeShell.hxx>
 #include <Precision.hxx>
 #include <ShapeBuild_ReShape.hxx>

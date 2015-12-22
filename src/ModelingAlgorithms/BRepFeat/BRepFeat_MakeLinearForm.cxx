@@ -82,7 +82,7 @@
 
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 
-#include <TColGeom_Array1OfCurve.hxx>
+#include <Geometry/TColGeom/TColGeom_Array1OfCurve.hxx>
 
 #include <TopoDS.hxx>
 #include <TopoDS_Shape.hxx>

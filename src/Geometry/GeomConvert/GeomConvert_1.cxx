@@ -21,9 +21,9 @@
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
-#include <TColGeom_Array1OfBSplineCurve.hxx>
+#include <Geometry/TColGeom/TColGeom_Array1OfBSplineCurve.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <TColGeom_HArray1OfBSplineCurve.hxx>
+#include <Geometry/TColGeom/TColGeom_HArray1OfBSplineCurve.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Geometry/GeomConvert/GeomConvert.hxx>
 

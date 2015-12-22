@@ -100,7 +100,7 @@
 #include <Foundation/TColStd/TColStd_Array2OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
-#include <TColGeom_Array2OfSurface.hxx>
+#include <Geometry/TColGeom/TColGeom_Array2OfSurface.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>
 

@@ -59,7 +59,7 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_NSections)
 #include <GeomFill_EvolvedSection.hxx>
 #include <GeomFill_HArray1OfSectionLaw.hxx>
 #include <GeomFill_NSections.hxx>
-#include <TColGeom_SequenceOfCurve.hxx>
+#include <Geometry/TColGeom/TColGeom_SequenceOfCurve.hxx>
 #include <GeomFill_SectionGenerator.hxx>
 #include <GeomFill_Line.hxx>
 #include <GeomFill_AppSurf.hxx>

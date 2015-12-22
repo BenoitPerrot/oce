@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_SplitCurve)
 #include <Precision.hxx>
 #include <ShapeUpgrade.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfReal.hxx>
-#include <TColGeom_HArray1OfCurve.hxx>
+#include <Geometry/TColGeom/TColGeom_HArray1OfCurve.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
 #include <ShapeExtend.hxx>
 

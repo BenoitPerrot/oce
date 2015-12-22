@@ -29,8 +29,8 @@
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Precision.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <TColGeom_Array1OfBSplineCurve.hxx>
-#include <TColGeom_HArray1OfBSplineCurve.hxx>
+#include <Geometry/TColGeom/TColGeom_Array1OfBSplineCurve.hxx>
+#include <Geometry/TColGeom/TColGeom_HArray1OfBSplineCurve.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>
 #include <TopoDS_Edge.hxx>
@@ -38,7 +38,7 @@
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <TopExp.hxx>
 
-#include <TColGeom_SequenceOfCurve.hxx>
+#include <Geometry/TColGeom/TColGeom_SequenceOfCurve.hxx>
 #include <TopTools_SequenceOfShape.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfBoolean.hxx>

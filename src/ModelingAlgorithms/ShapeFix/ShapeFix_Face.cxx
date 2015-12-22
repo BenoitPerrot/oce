@@ -97,7 +97,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Face)
 
 #include <ShapeExtend_CompositeSurface.hxx>
 #include <ShapeFix_ComposeShell.hxx>
-#include <TColGeom_HArray2OfSurface.hxx>
+#include <Geometry/TColGeom/TColGeom_HArray2OfSurface.hxx>
 #include <ShapeBuild_Edge.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt2d.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>

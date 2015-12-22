@@ -14,7 +14,7 @@
 #include <TopoDS_Face.hxx>
 #include <TopTools_DataMapOfShapeListOfShape.hxx>
 #include <TopoDS_Wire.hxx>
-#include <TColGeom_SequenceOfCurve.hxx>
+#include <Geometry/TColGeom/TColGeom_SequenceOfCurve.hxx>
 #include <Handle_Geom_Curve.hxx>
 #include <BRepFeat_Form.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

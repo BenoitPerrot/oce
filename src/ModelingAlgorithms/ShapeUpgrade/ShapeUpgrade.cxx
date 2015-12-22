@@ -17,7 +17,7 @@
 //    abv 24.05.99 S4174: methods Debug() commented
 
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
-#include <TColGeom_HSequenceOfBoundedCurve.hxx>
+#include <Geometry/TColGeom/TColGeom_HSequenceOfBoundedCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <TColGeom2d_HSequenceOfBoundedCurve.hxx>
 #include <ShapeUpgrade.hxx>

@@ -20,7 +20,7 @@
 #include <TopoDS_Face.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <TopoDS_Edge.hxx>
-#include <TColGeom_SequenceOfCurve.hxx>
+#include <Geometry/TColGeom/TColGeom_SequenceOfCurve.hxx>
 #include <BRepFeat_MakeRevol.hxx>
 
 #include <BRepFeat.hxx>

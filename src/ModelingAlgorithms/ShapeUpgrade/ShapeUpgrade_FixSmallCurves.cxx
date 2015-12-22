@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(ShapeUpgrade_FixSmallCurves)
 IMPLEMENT_DOWNCAST(ShapeUpgrade_FixSmallCurves,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_FixSmallCurves)
-//#include <TColGeom_HArray1OfCurve.hxx>
+//#include <Geometry/TColGeom/TColGeom_HArray1OfCurve.hxx>
 //#include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
 #//include <TColGeom2d_HArray1OfCurve.hxx>
 //#include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>

@@ -14,7 +14,7 @@
 #include <TopTools_DataMapOfShapeListOfShape.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopTools_ListOfShape.hxx>
-#include <TColGeom_SequenceOfCurve.hxx>
+#include <Geometry/TColGeom/TColGeom_SequenceOfCurve.hxx>
 #include <Handle_Geom_Curve.hxx>
 class Standard_NoSuchObject;
 class Standard_DomainError;

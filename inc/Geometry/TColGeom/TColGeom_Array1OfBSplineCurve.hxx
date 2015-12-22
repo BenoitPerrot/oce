@@ -95,7 +95,7 @@ private:
 #define Array1Item Handle(Geom_BSplineCurve)
 #define Array1Item_hxx <Geometry/Geom/Geom_BSplineCurve.hxx>
 #define TCollection_Array1 TColGeom_Array1OfBSplineCurve
-#define TCollection_Array1_hxx <TColGeom_Array1OfBSplineCurve.hxx>
+#define TCollection_Array1_hxx <Geometry/TColGeom/TColGeom_Array1OfBSplineCurve.hxx>
 
 #include <Foundation/TCollection/TCollection_Array1.lxx>
 

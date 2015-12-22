@@ -96,7 +96,7 @@
 #include <Mathematics/Collections/TColgp_HArray2OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt2d.hxx>
 
-#include <TColGeom_SequenceOfCurve.hxx>
+#include <Geometry/TColGeom/TColGeom_SequenceOfCurve.hxx>
 
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>

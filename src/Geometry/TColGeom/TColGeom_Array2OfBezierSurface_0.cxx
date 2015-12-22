@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TColGeom_Array2OfBezierSurface.hxx>
+#include <Geometry/TColGeom/TColGeom_Array2OfBezierSurface.hxx>
 
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
@@ -15,6 +15,6 @@
 #define Array2Item Handle(Geom_BezierSurface)
 #define Array2Item_hxx <Geometry/Geom/Geom_BezierSurface.hxx>
 #define TCollection_Array2 TColGeom_Array2OfBezierSurface
-#define TCollection_Array2_hxx <TColGeom_Array2OfBezierSurface.hxx>
+#define TCollection_Array2_hxx <Geometry/TColGeom/TColGeom_Array2OfBezierSurface.hxx>
 #include <Foundation/TCollection/TCollection_Array2.gxx>
 

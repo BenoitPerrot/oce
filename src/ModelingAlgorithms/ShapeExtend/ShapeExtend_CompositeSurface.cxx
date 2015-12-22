@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TColGeom_HArray2OfSurface.hxx>
+#include <Geometry/TColGeom/TColGeom_HArray2OfSurface.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>

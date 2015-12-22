@@ -135,8 +135,8 @@
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <TColGeom2d_Array1OfCurve.hxx>
 #include <TColGeom2d_SequenceOfCurve.hxx>
-#include <TColGeom_Array1OfCurve.hxx>
-#include <TColGeom_SequenceOfCurve.hxx>
+#include <Geometry/TColGeom/TColGeom_Array1OfCurve.hxx>
+#include <Geometry/TColGeom/TColGeom_SequenceOfCurve.hxx>
 #include <TColGeom2d_HArray1OfCurve.hxx>
 #include <TopAbs_Orientation.hxx>
 #include <TopExp.hxx>

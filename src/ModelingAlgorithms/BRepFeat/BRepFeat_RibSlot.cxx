@@ -110,7 +110,7 @@
 
 #include <Precision.hxx>
 
-#include <TColGeom_SequenceOfCurve.hxx>
+#include <Geometry/TColGeom/TColGeom_SequenceOfCurve.hxx>
 #include <BRepFeat_Builder.hxx>
 
 

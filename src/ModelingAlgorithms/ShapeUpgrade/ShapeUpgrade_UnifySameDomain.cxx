@@ -50,12 +50,12 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_UnifySameDomain)
 #include <TopoDS.hxx>
 #include <ShapeAnalysis_Edge.hxx>
 #include <TopoDS_Edge.hxx>
-#include <TColGeom_SequenceOfSurface.hxx>
+#include <Geometry/TColGeom/TColGeom_SequenceOfSurface.hxx>
 #include <BRep_ListIteratorOfListOfCurveRepresentation.hxx>
 #include <BRep_TEdge.hxx>
 #include <BRep_CurveRepresentation.hxx>
-#include <TColGeom_Array1OfBSplineCurve.hxx>
-#include <TColGeom_HArray1OfBSplineCurve.hxx>
+#include <Geometry/TColGeom/TColGeom_Array1OfBSplineCurve.hxx>
+#include <Geometry/TColGeom/TColGeom_HArray1OfBSplineCurve.hxx>
 #include <TColGeom2d_Array1OfBSplineCurve.hxx>
 #include <TColGeom2d_HArray1OfBSplineCurve.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
@@ -80,7 +80,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_UnifySameDomain)
 #include <ShapeBuild_Edge.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <ShapeFix_Face.hxx>
-#include <TColGeom_HArray2OfSurface.hxx>
+#include <Geometry/TColGeom/TColGeom_HArray2OfSurface.hxx>
 #include <ShapeExtend_CompositeSurface.hxx>
 #include <ShapeFix_ComposeShell.hxx>
 #include <ShapeFix_SequenceOfWireSegment.hxx>

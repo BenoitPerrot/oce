@@ -20,7 +20,7 @@
 #include <TopoDS_Face.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <TopoDS_Edge.hxx>
-#include <TColGeom_SequenceOfCurve.hxx>
+#include <Geometry/TColGeom/TColGeom_SequenceOfCurve.hxx>
 #include <BRepFeat_MakePrism.hxx>
 
 #include <BRepFeat.hxx>
@@ -41,7 +41,7 @@
 #include <BRepLib_MakeFace.hxx>
 
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
-#include <TColGeom_SequenceOfCurve.hxx>
+#include <Geometry/TColGeom/TColGeom_SequenceOfCurve.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 
 #include <BRep_Tool.hxx>

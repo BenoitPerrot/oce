@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TColGeom_HArray2OfSurface.hxx>
+#include <Geometry/TColGeom/TColGeom_HArray2OfSurface.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -12,7 +12,7 @@
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
-#include <TColGeom_Array2OfSurface.hxx>
+#include <Geometry/TColGeom/TColGeom_Array2OfSurface.hxx>
 
  
 
@@ -33,9 +33,9 @@ IMPLEMENT_STANDARD_RTTI(TColGeom_HArray2OfSurface)
 #define ItemHArray2 Handle(Geom_Surface)
 #define ItemHArray2_hxx <Geometry/Geom/Geom_Surface.hxx>
 #define TheArray2 TColGeom_Array2OfSurface
-#define TheArray2_hxx <TColGeom_Array2OfSurface.hxx>
+#define TheArray2_hxx <Geometry/TColGeom/TColGeom_Array2OfSurface.hxx>
 #define TCollection_HArray2 TColGeom_HArray2OfSurface
-#define TCollection_HArray2_hxx <TColGeom_HArray2OfSurface.hxx>
+#define TCollection_HArray2_hxx <Geometry/TColGeom/TColGeom_HArray2OfSurface.hxx>
 #define Handle_TCollection_HArray2 Handle_TColGeom_HArray2OfSurface
 #define TCollection_HArray2_Type_() TColGeom_HArray2OfSurface_Type_()
 #include <Foundation/TCollection/TCollection_HArray2.gxx>

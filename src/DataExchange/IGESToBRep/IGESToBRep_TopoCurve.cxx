@@ -112,7 +112,7 @@
 #include <stdio.h>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 
-#include <TColGeom_HSequenceOfBoundedCurve.hxx>
+#include <Geometry/TColGeom/TColGeom_HSequenceOfBoundedCurve.hxx>
 #include <TColGeom2d_HSequenceOfBoundedCurve.hxx>
 //#include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <ShapeBuild_Edge.hxx>

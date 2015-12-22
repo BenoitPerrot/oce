@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TColGeom_Array1OfCurve.hxx>
+#include <Geometry/TColGeom/TColGeom_Array1OfCurve.hxx>
 
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
@@ -15,6 +15,6 @@
 #define Array1Item Handle(Geom_Curve)
 #define Array1Item_hxx <Geometry/Geom/Geom_Curve.hxx>
 #define TCollection_Array1 TColGeom_Array1OfCurve
-#define TCollection_Array1_hxx <TColGeom_Array1OfCurve.hxx>
+#define TCollection_Array1_hxx <Geometry/TColGeom/TColGeom_Array1OfCurve.hxx>
 #include <Foundation/TCollection/TCollection_Array1.gxx>
 

@@ -20,7 +20,7 @@
 #include <Foundation/Standard/Standard_DimensionError.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <TColGeom_Array2OfBezierSurface.hxx>
+#include <Geometry/TColGeom/TColGeom_Array2OfBezierSurface.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Geometry/GeomConvert/GeomConvert_CompBezierSurfacesToBSplineSurface.hxx>
 
@@ -34,7 +34,7 @@
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <TColGeom_Array2OfBezierSurface.hxx>
+#include <Geometry/TColGeom/TColGeom_Array2OfBezierSurface.hxx>
 #include <Precision.hxx>
 
 // ============================================================================

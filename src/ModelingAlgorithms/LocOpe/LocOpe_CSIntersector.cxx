@@ -19,7 +19,7 @@
 #include <TopoDS_Shape.hxx>
 #include <LocOpe_SequenceOfLin.hxx>
 #include <LocOpe_SequenceOfCirc.hxx>
-#include <TColGeom_SequenceOfCurve.hxx>
+#include <Geometry/TColGeom/TColGeom_SequenceOfCurve.hxx>
 #include <LocOpe_PntFace.hxx>
 #include <LocOpe_CSIntersector.hxx>
 

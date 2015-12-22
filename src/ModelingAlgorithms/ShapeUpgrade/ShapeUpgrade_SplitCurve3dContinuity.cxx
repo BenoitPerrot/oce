@@ -37,7 +37,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_SplitCurve3dContinuity)
 #include <Geometry/Geom/Geom_OffsetCurve.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
-#include <TColGeom_HArray1OfCurve.hxx>
+#include <Geometry/TColGeom/TColGeom_HArray1OfCurve.hxx>
 #include <ShapeExtend.hxx>
 
 //=======================================================================

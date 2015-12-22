@@ -13,7 +13,7 @@
 #include <TopoDS_Face.hxx>
 #include <TopTools_DataMapOfShapeListOfShape.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <TColGeom_SequenceOfCurve.hxx>
+#include <Geometry/TColGeom/TColGeom_SequenceOfCurve.hxx>
 #include <Handle_Geom_Curve.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <BRepFeat_StatusError.hxx>

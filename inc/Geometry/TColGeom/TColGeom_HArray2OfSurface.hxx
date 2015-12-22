@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TColGeom_HArray2OfSurface.hxx>
 
-#include <TColGeom_Array2OfSurface.hxx>
+#include <Geometry/TColGeom/TColGeom_Array2OfSurface.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Geom_Surface.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
@@ -78,9 +78,9 @@ private:
 #define ItemHArray2 Handle(Geom_Surface)
 #define ItemHArray2_hxx <Geometry/Geom/Geom_Surface.hxx>
 #define TheArray2 TColGeom_Array2OfSurface
-#define TheArray2_hxx <TColGeom_Array2OfSurface.hxx>
+#define TheArray2_hxx <Geometry/TColGeom/TColGeom_Array2OfSurface.hxx>
 #define TCollection_HArray2 TColGeom_HArray2OfSurface
-#define TCollection_HArray2_hxx <TColGeom_HArray2OfSurface.hxx>
+#define TCollection_HArray2_hxx <Geometry/TColGeom/TColGeom_HArray2OfSurface.hxx>
 #define Handle_TCollection_HArray2 Handle_TColGeom_HArray2OfSurface
 #define TCollection_HArray2_Type_() TColGeom_HArray2OfSurface_Type_()
 
