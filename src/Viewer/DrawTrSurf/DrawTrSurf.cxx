@@ -46,9 +46,9 @@
 #include <Draw_Appli.hxx>
 #include <Draw.hxx>
 
-#include <GeomTools_CurveSet.hxx>
-#include <GeomTools_Curve2dSet.hxx>
-#include <GeomTools_SurfaceSet.hxx>
+#include <Geometry/GeomTools/GeomTools_CurveSet.hxx>
+#include <Geometry/GeomTools/GeomTools_Curve2dSet.hxx>
+#include <Geometry/GeomTools/GeomTools_SurfaceSet.hxx>
 
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Mathematics/Primitives/gp_Ax2d.hxx>

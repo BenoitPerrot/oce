@@ -18,11 +18,11 @@
 #include <Foundation/Message/Message_ProgressIndicator.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
-#include <GeomTools_SurfaceSet.hxx>
-#include <GeomTools.hxx>
-#include <GeomTools_UndefinedTypeHandler.hxx>
+#include <Geometry/GeomTools/GeomTools_SurfaceSet.hxx>
+#include <Geometry/GeomTools/GeomTools.hxx>
+#include <Geometry/GeomTools/GeomTools_UndefinedTypeHandler.hxx>
 
-#include <GeomTools_CurveSet.hxx>
+#include <Geometry/GeomTools/GeomTools_CurveSet.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Geometry/Geom/Geom_CylindricalSurface.hxx>
 #include <Geometry/Geom/Geom_ConicalSurface.hxx>

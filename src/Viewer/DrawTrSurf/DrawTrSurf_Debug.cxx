@@ -15,10 +15,10 @@
 // commercial license or contractual agreement.
 
 #include <DrawTrSurf.hxx>
-#include <GeomTools.hxx>
-#include <GeomTools_SurfaceSet.hxx>
-#include <GeomTools_CurveSet.hxx>
-#include <GeomTools_Curve2dSet.hxx>
+#include <Geometry/GeomTools/GeomTools.hxx>
+#include <Geometry/GeomTools/GeomTools_SurfaceSet.hxx>
+#include <Geometry/GeomTools/GeomTools_CurveSet.hxx>
+#include <Geometry/GeomTools/GeomTools_Curve2dSet.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 

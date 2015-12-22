@@ -42,9 +42,9 @@ IMPLEMENT_STANDARD_RTTI(TopOpeBRep_Hctxee2d)
 #include <BRep_Tool.hxx>
 
 #ifdef OCCT_DEBUG
-#include <GeomTools_SurfaceSet.hxx>
-#include <GeomTools_CurveSet.hxx>
-#include <GeomTools_Curve2dSet.hxx>
+#include <Geometry/GeomTools/GeomTools_SurfaceSet.hxx>
+#include <Geometry/GeomTools/GeomTools_CurveSet.hxx>
+#include <Geometry/GeomTools/GeomTools_Curve2dSet.hxx>
 Standard_EXPORT Standard_Boolean TopOpeBRep_GettracePROEDG();
 #endif
 

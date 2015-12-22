@@ -17,13 +17,13 @@
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
-#include <GeomTools_UndefinedTypeHandler.hxx>
-#include <GeomTools.hxx>
+#include <Geometry/GeomTools/GeomTools_UndefinedTypeHandler.hxx>
+#include <Geometry/GeomTools/GeomTools.hxx>
 
-#include <GeomTools_SurfaceSet.hxx>
-#include <GeomTools_CurveSet.hxx>
-#include <GeomTools_Curve2dSet.hxx>
-#include <GeomTools_UndefinedTypeHandler.hxx>
+#include <Geometry/GeomTools/GeomTools_SurfaceSet.hxx>
+#include <Geometry/GeomTools/GeomTools_CurveSet.hxx>
+#include <Geometry/GeomTools/GeomTools_Curve2dSet.hxx>
+#include <Geometry/GeomTools/GeomTools_UndefinedTypeHandler.hxx>
 
 static Handle(GeomTools_UndefinedTypeHandler) theActiveHandler = new GeomTools_UndefinedTypeHandler;
 

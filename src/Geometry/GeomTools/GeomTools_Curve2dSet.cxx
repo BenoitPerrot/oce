@@ -18,9 +18,9 @@
 #include <Foundation/Message/Message_ProgressIndicator.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
-#include <GeomTools_Curve2dSet.hxx>
-#include <GeomTools.hxx>
-#include <GeomTools_UndefinedTypeHandler.hxx>
+#include <Geometry/GeomTools/GeomTools_Curve2dSet.hxx>
+#include <Geometry/GeomTools/GeomTools.hxx>
+#include <Geometry/GeomTools/GeomTools_UndefinedTypeHandler.hxx>
 
 #include <Geometry/Geom2d/Geom2d_Circle.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>

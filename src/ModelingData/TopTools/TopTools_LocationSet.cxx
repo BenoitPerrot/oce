@@ -22,7 +22,7 @@
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Foundation/Message/Message_ProgressSentry.hxx>
 
-#include <GeomTools.hxx>
+#include <Geometry/GeomTools/GeomTools.hxx>
 #include <Mathematics/Primitives/gp_Ax3.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Precision.hxx>

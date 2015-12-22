@@ -50,9 +50,9 @@
 #include <Foundation/OSD/OSD_Chronometer.hxx>
 #include <TopOpeBRepTool_CurveTool.hxx>
 #include <TopOpeBRepTool_ShapeTool.hxx>
-#include <GeomTools_CurveSet.hxx>
-#include <GeomTools_Curve2dSet.hxx>
-#include <GeomTools_SurfaceSet.hxx>
+#include <Geometry/GeomTools/GeomTools_CurveSet.hxx>
+#include <Geometry/GeomTools/GeomTools_Curve2dSet.hxx>
+#include <Geometry/GeomTools/GeomTools_SurfaceSet.hxx>
 #include <TopOpeBRepTool_2d.hxx>
 #include <TopOpeBRepTool_TOOL.hxx>
 #include <TopOpeBRepTool_EXPORT.hxx>

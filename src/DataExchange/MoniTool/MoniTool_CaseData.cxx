@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_RTTI(MoniTool_CaseData)
 #include <Geometry/Geom2d/Geom2d_CartesianPoint.hxx>
 
 #include <TopAbs.hxx>
-//#include <GeomTools.hxx>
+//#include <Geometry/GeomTools/GeomTools.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>

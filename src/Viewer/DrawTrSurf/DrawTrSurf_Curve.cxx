@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_TYPE_END(DrawTrSurf_Curve)
 IMPLEMENT_DOWNCAST(DrawTrSurf_Curve,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(DrawTrSurf_Curve)
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
-#include <GeomTools_CurveSet.hxx>
+#include <Geometry/GeomTools/GeomTools_CurveSet.hxx>
 #include <Geometry/GeomLProp/GeomLProp_CLProps.hxx>
 #include <Precision.hxx>
 #include <Mathematics/Primitives/gp.hxx>

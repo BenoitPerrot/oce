@@ -50,7 +50,7 @@
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <Foundation/OSD/OSD_Chronometer.hxx>
 
-#include <GeomTools_Curve2dSet.hxx>
+#include <Geometry/GeomTools/GeomTools_Curve2dSet.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Geometry/gce/gce_MakeLin.hxx>

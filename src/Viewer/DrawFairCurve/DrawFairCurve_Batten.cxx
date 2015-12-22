@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_RTTI(DrawFairCurve_Batten)
 
 #include <FairCurve_Batten.hxx>
 #include <FairCurve_AnalysisCode.hxx>
-#include <GeomTools_Curve2dSet.hxx>
+#include <Geometry/GeomTools/GeomTools_Curve2dSet.hxx>
 
 DrawFairCurve_Batten::DrawFairCurve_Batten(const Standard_Address TheBatten)
                      : DrawTrSurf_BSplineCurve2d( ((FairCurve_Batten*)TheBatten)->Curve()),

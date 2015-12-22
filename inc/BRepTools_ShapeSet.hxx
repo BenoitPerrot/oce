@@ -11,9 +11,9 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <BRep_Builder.hxx>
-#include <GeomTools_SurfaceSet.hxx>
-#include <GeomTools_CurveSet.hxx>
-#include <GeomTools_Curve2dSet.hxx>
+#include <Geometry/GeomTools/GeomTools_SurfaceSet.hxx>
+#include <Geometry/GeomTools/GeomTools_CurveSet.hxx>
+#include <Geometry/GeomTools/GeomTools_Curve2dSet.hxx>
 #include <Foundation/TColStd/TColStd_IndexedMapOfTransient.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <TopTools_ShapeSet.hxx>

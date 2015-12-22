@@ -31,7 +31,7 @@
 #include <Geometry/Geom/Geom_SurfaceOfRevolution.hxx>
 
 #include <Geometry/GeomAdaptor/GeomAdaptor_HCurve.hxx>
-#include <GeomTools.hxx>
+#include <Geometry/GeomTools/GeomTools.hxx>
 
 #include <Precision.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>

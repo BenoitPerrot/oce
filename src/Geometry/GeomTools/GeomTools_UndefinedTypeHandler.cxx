@@ -17,7 +17,7 @@
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
-#include <GeomTools_UndefinedTypeHandler.hxx>
+#include <Geometry/GeomTools/GeomTools_UndefinedTypeHandler.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(GeomTools_UndefinedTypeHandler)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -23,7 +23,7 @@
 #include <BRepTools_ShapeSet.hxx>
 
 #include <BRepTools.hxx>
-#include <GeomTools.hxx>
+#include <Geometry/GeomTools/GeomTools.hxx>
 #include <Mathematics/Polyhedral/Poly.hxx>
 #include <TopoDS.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>

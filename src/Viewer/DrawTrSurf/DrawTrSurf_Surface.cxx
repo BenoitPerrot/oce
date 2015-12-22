@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(DrawTrSurf_Surface)
 IMPLEMENT_DOWNCAST(DrawTrSurf_Surface,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(DrawTrSurf_Surface)
-#include <GeomTools_SurfaceSet.hxx>
+#include <Geometry/GeomTools/GeomTools_SurfaceSet.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_IsoCurve.hxx>
 #include <Precision.hxx>
