@@ -37,7 +37,7 @@
 #include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
 #include <Geometry/GCPnts/GCPnts_QuasiUniformDeflection.hxx>
 #include <Geometry/Extrema/Extrema_LocateExtPC.hxx>
-#include <AdvApprox_ApproxAFunction.hxx>
+#include <Geometry/AdvApprox/AdvApprox_ApproxAFunction.hxx>
 #include <Geometry/GeomLib/GeomLib_MakeCurvefromApprox.hxx>
 #include <Precision.hxx>
 #include <Geometry/Extrema/Extrema_ExtPC.hxx>

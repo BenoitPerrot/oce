@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <AdvApprox_Cutting.hxx>
+#include <Geometry/AdvApprox/AdvApprox_Cutting.hxx>
 
 void AdvApprox_Cutting::Delete()
 {}

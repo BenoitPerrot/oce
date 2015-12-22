@@ -23,7 +23,7 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
-#include <AdvApprox_PrefAndRec.hxx>
+#include <Geometry/AdvApprox/AdvApprox_PrefAndRec.hxx>
 
 class GeomConvert_ApproxSurface_Eval : public AdvApp2Var_EvaluatorFunc2Var
 {

@@ -26,7 +26,7 @@
 #include <Handle_TColgp_HArray1OfVec2d.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <GeomAbs_Shape.hxx>
-#include <AdvApprox_EvaluatorFunction.hxx>
+#include <Geometry/AdvApprox/AdvApprox_EvaluatorFunction.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 class Approx_SweepFunction;
 class TColgp_HArray2OfPnt;

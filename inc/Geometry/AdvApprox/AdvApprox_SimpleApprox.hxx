@@ -17,7 +17,7 @@
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <GeomAbs_Shape.hxx>
-#include <AdvApprox_EvaluatorFunction.hxx>
+#include <Geometry/AdvApprox/AdvApprox_EvaluatorFunction.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 class PLib_JacobiPolynomial;

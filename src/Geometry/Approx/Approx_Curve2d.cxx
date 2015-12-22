@@ -17,8 +17,8 @@
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #include <Geometry/Approx/Approx_Curve2d.hxx>
-#include <AdvApprox_PrefAndRec.hxx>
-#include <AdvApprox_ApproxAFunction.hxx>
+#include <Geometry/AdvApprox/AdvApprox_PrefAndRec.hxx>
+#include <Geometry/AdvApprox/AdvApprox_ApproxAFunction.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Precision.hxx>
 

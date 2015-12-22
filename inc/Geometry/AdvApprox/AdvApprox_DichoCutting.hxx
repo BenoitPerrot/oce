@@ -3,31 +3,28 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#ifndef _AdvApprox_PrefCutting_HeaderFile
-#define _AdvApprox_PrefCutting_HeaderFile
+#ifndef _AdvApprox_DichoCutting_HeaderFile
+#define _AdvApprox_DichoCutting_HeaderFile
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <AdvApprox_Cutting.hxx>
+#include <Geometry/AdvApprox/AdvApprox_Cutting.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-class TColStd_Array1OfReal;
 
 
 
-//! inherits class Cutting; contains a list of preferential points (di)i
-//! if Cutting is necessary in [a,b], we cut at the di nearest from (a+b)/2.
-class AdvApprox_PrefCutting  : public AdvApprox_Cutting
+//! if Cutting is necessary in [a,b], we cut at (a+b) / 2.
+class AdvApprox_DichoCutting  : public AdvApprox_Cutting
 {
 public:
 
   DEFINE_STANDARD_ALLOC
 
   
-  Standard_EXPORT AdvApprox_PrefCutting(const TColStd_Array1OfReal& CutPnts);
+  Standard_EXPORT AdvApprox_DichoCutting();
   
   Standard_EXPORT virtual   Standard_Boolean Value (const Standard_Real a, const Standard_Real b, Standard_Real& cuttingvalue)  const;
 
@@ -44,7 +41,6 @@ private:
 
 
 
-  TColStd_Array1OfReal myPntOfCutting;
 
 
 };
@@ -55,4 +51,4 @@ private:
 
 
 
-#endif // _AdvApprox_PrefCutting_HeaderFile
+#endif // _AdvApprox_DichoCutting_HeaderFile

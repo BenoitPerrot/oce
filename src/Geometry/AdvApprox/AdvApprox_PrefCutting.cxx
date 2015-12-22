@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <AdvApprox_PrefCutting.hxx>
+#include <Geometry/AdvApprox/AdvApprox_PrefCutting.hxx>
 #include <Precision.hxx>
 
 AdvApprox_PrefCutting::AdvApprox_PrefCutting(const TColStd_Array1OfReal& CutPnts):

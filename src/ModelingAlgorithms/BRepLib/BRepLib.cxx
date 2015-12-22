@@ -62,7 +62,7 @@
 #include <BRep_CurveRepresentation.hxx>
 #include <BRep_ListIteratorOfListOfCurveRepresentation.hxx>
 #include <BRep_TVertex.hxx>
-#include <AdvApprox_ApproxAFunction.hxx>
+#include <Geometry/AdvApprox/AdvApprox_ApproxAFunction.hxx>
 #include <Geometry/Approx/Approx_SameParameter.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>

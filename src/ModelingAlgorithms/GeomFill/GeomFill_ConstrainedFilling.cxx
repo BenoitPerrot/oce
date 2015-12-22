@@ -34,7 +34,7 @@
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Mathematics/Polynomial/PLib.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
-#include <AdvApprox_ApproxAFunction.hxx>
+#include <Geometry/AdvApprox/AdvApprox_ApproxAFunction.hxx>
 #include <Law.hxx>
 #include <Law_Linear.hxx>
 #include <Law_BSpline.hxx>

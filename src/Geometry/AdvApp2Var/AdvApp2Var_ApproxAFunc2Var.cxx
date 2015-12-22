@@ -24,7 +24,7 @@
 #include <Geometry/AdvApp2Var/AdvApp2Var_Iso.hxx>
 #include <Geometry/AdvApp2Var/AdvApp2Var_Strip.hxx>
 #include <Geometry/AdvApp2Var/AdvApp2Var_Framework.hxx>
-#include <AdvApprox_Cutting.hxx>
+#include <Geometry/AdvApprox/AdvApprox_Cutting.hxx>
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>

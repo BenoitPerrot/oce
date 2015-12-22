@@ -20,7 +20,7 @@
 #include <Handle_TColgp_HArray2OfPnt.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
-#include <AdvApprox_EvaluatorFunction.hxx>
+#include <Geometry/AdvApprox/AdvApprox_EvaluatorFunction.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 class TColStd_HArray1OfReal;
 class TColStd_HArray2OfReal;
@@ -163,7 +163,7 @@ private:
 };
 
 
-#include <AdvApprox_ApproxAFunction.lxx>
+#include <Geometry/AdvApprox/AdvApprox_ApproxAFunction.lxx>
 
 
 

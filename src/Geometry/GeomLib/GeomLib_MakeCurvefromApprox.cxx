@@ -16,7 +16,7 @@
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <AdvApprox_ApproxAFunction.hxx>
+#include <Geometry/AdvApprox/AdvApprox_ApproxAFunction.hxx>
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Geometry/GeomLib/GeomLib_MakeCurvefromApprox.hxx>

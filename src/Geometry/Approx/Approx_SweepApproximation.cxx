@@ -27,7 +27,7 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <AdvApprox_Cutting.hxx>
+#include <Geometry/AdvApprox/AdvApprox_Cutting.hxx>
 #include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
@@ -37,9 +37,9 @@
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 
-#include <AdvApprox_ApproxAFunction.hxx>
-#include <AdvApprox_DichoCutting.hxx>
-#include <AdvApprox_PrefAndRec.hxx>
+#include <Geometry/AdvApprox/AdvApprox_ApproxAFunction.hxx>
+#include <Geometry/AdvApprox/AdvApprox_DichoCutting.hxx>
+#include <Geometry/AdvApprox/AdvApprox_PrefAndRec.hxx>
 
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>

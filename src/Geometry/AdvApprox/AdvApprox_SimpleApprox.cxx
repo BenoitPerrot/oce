@@ -22,10 +22,10 @@
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <AdvApprox_SimpleApprox.hxx>
+#include <Geometry/AdvApprox/AdvApprox_SimpleApprox.hxx>
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <AdvApprox_EvaluatorFunction.hxx>
+#include <Geometry/AdvApprox/AdvApprox_EvaluatorFunction.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>

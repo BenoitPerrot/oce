@@ -27,7 +27,7 @@
 #include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
-#include <AdvApprox_ApproxAFunction.hxx>
+#include <Geometry/AdvApprox/AdvApprox_ApproxAFunction.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HCurve.hxx>
@@ -35,8 +35,8 @@
 #include <Geometry/Adaptor3d/Adaptor3d_HCurveOnSurface.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <AdvApprox_PrefAndRec.hxx>
-#include <AdvApprox_DichoCutting.hxx>
+#include <Geometry/AdvApprox/AdvApprox_PrefAndRec.hxx>
+#include <Geometry/AdvApprox/AdvApprox_DichoCutting.hxx>
 
 //=======================================================================
 //class : Approx_CurveOnSurface_Eval

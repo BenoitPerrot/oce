@@ -84,7 +84,7 @@ IMPLEMENT_STANDARD_RTTI(Geom_OffsetSurface)
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 
-#include <AdvApprox_ApproxAFunction.hxx>
+#include <Geometry/AdvApprox/AdvApprox_ApproxAFunction.hxx>
 #include <Mathematics/Collections/TColgp_HArray2OfPnt.hxx>
 #include <Mathematics/BetaSpline/BSplSLib.hxx>
 #include <Mathematics/Convert/Convert_GridPolynomialToPoles.hxx>

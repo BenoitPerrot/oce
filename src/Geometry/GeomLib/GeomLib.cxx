@@ -73,8 +73,8 @@
 #include <Geometry/GeomLib/GeomLib_PolyFunc.hxx>
 #include <Geometry/GeomLib/GeomLib_LogSample.hxx>
 
-#include <AdvApprox_ApproxAFunction.hxx>
-#include <AdvApprox_PrefAndRec.hxx>
+#include <Geometry/AdvApprox/AdvApprox_ApproxAFunction.hxx>
+#include <Geometry/AdvApprox/AdvApprox_PrefAndRec.hxx>
 
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>

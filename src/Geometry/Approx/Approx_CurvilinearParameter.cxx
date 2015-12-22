@@ -30,7 +30,7 @@
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <GeomAbs_Shape.hxx>
-#include <AdvApprox_ApproxAFunction.hxx>
+#include <Geometry/AdvApprox/AdvApprox_ApproxAFunction.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
@@ -38,7 +38,7 @@
 #include <Geometry/GeomAdaptor/GeomAdaptor_HCurve.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <AdvApprox_PrefAndRec.hxx>
+#include <Geometry/AdvApprox/AdvApprox_PrefAndRec.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>
 #include <Precision.hxx>
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>

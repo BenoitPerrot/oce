@@ -29,15 +29,15 @@
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <AdvApprox_Cutting.hxx>
+#include <Geometry/AdvApprox/AdvApprox_Cutting.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
-#include <AdvApprox_ApproxAFunction.hxx>
-#include <AdvApprox_EvaluatorFunction.hxx>
-#include <AdvApprox_DichoCutting.hxx>
-#include <AdvApprox_SimpleApprox.hxx>
+#include <Geometry/AdvApprox/AdvApprox_ApproxAFunction.hxx>
+#include <Geometry/AdvApprox/AdvApprox_EvaluatorFunction.hxx>
+#include <Geometry/AdvApprox/AdvApprox_DichoCutting.hxx>
+#include <Geometry/AdvApprox/AdvApprox_SimpleApprox.hxx>
 
 #include <Precision.hxx>
 #include <GeomAbs_Shape.hxx>

@@ -72,8 +72,8 @@
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 
 #include <Geometry/Approx/Approx_SweepApproximation.hxx>
-#include <AdvApprox_PrefAndRec.hxx>
-#include <AdvApprox_ApproxAFunction.hxx>
+#include <Geometry/AdvApprox/AdvApprox_PrefAndRec.hxx>
+#include <Geometry/AdvApprox/AdvApprox_ApproxAFunction.hxx>
 #include <Geometry/GeomConvert/GeomConvert_ApproxSurface.hxx>
 
 #include <Precision.hxx>

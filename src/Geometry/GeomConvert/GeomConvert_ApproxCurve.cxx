@@ -23,8 +23,8 @@
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HCurve.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
-#include <AdvApprox_PrefAndRec.hxx>
-#include <AdvApprox_ApproxAFunction.hxx>
+#include <Geometry/AdvApprox/AdvApprox_PrefAndRec.hxx>
+#include <Geometry/AdvApprox/AdvApprox_ApproxAFunction.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Precision.hxx>
 

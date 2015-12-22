@@ -38,9 +38,9 @@
 
 #include <Geometry/AdvApp2Var/AdvApp2Var_Criterion.hxx>
 #include <Geometry/AdvApp2Var/AdvApp2Var_ApproxAFunc2Var.hxx>
-#include <AdvApprox_PrefCutting.hxx>
-#include <AdvApprox_Cutting.hxx>
-#include <AdvApprox_DichoCutting.hxx>
+#include <Geometry/AdvApprox/AdvApprox_PrefCutting.hxx>
+#include <Geometry/AdvApprox/AdvApprox_Cutting.hxx>
+#include <Geometry/AdvApprox/AdvApprox_DichoCutting.hxx>
 
 #include <Plate_Plate.hxx>
 

@@ -12,7 +12,7 @@
 
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <AdvApprox_Cutting.hxx>
+#include <Geometry/AdvApprox/AdvApprox_Cutting.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_DomainError;
 class TColStd_Array1OfReal;
