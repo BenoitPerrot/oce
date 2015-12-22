@@ -19,7 +19,7 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <GeomLib_Interpolate.hxx>
+#include <Geometry/GeomLib/GeomLib_Interpolate.hxx>
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Mathematics/Polynomial/PLib.hxx>

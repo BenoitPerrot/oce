@@ -55,7 +55,7 @@
 #include <GeomAPI_IntSS.hxx>
 #include <GeomAPI_ProjectPointOnCurve.hxx>
 #include <GeomAPI_ProjectPointOnSurf.hxx>
-#include <GeomLib.hxx>
+#include <Geometry/GeomLib/GeomLib.hxx>
 #include <GeomProjLib.hxx>
 #include <GeomProjLib.hxx>
 #include <Geometry/Geom/Geom_CartesianPoint.hxx>

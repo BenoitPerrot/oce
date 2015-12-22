@@ -59,7 +59,7 @@ IMPLEMENT_STANDARD_RTTI(DNaming_TransformationDriver)
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
-#include <GeomLib_IsPlanarSurface.hxx>
+#include <Geometry/GeomLib/GeomLib_IsPlanarSurface.hxx>
 #include <Foundation/NCollection/NCollection_Handle.hxx>
 #include <ModelDefinitions.hxx>
 

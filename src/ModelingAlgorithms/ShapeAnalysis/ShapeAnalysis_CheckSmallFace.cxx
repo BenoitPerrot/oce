@@ -67,7 +67,7 @@
 #include <Mathematics/Polyhedral/Poly_Polygon3D.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <BRepLib.hxx>
-#include <GeomLib.hxx>
+#include <Geometry/GeomLib/GeomLib.hxx>
 
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>

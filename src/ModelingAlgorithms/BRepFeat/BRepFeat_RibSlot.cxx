@@ -81,7 +81,7 @@
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 
-#include <GeomLib.hxx>
+#include <Geometry/GeomLib/GeomLib.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 
 #include <Geometry/Geom/Geom_Curve.hxx>

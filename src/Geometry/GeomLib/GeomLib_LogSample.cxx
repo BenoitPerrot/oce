@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <GeomLib_LogSample.hxx>
+#include <Geometry/GeomLib/GeomLib_LogSample.hxx>
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 

@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(GeomFill_CurveAndTrihedron)
 IMPLEMENT_DOWNCAST(GeomFill_CurveAndTrihedron,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(GeomFill_CurveAndTrihedron)
-#include <GeomLib.hxx>
+#include <Geometry/GeomLib/GeomLib.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx> 
 #include <Precision.hxx>

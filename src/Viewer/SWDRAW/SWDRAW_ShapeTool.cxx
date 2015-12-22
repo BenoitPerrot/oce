@@ -60,7 +60,7 @@
 #include <stdio.h>
 #include <Precision.hxx>
 #include <DrawTrSurf.hxx>
-#include <GeomLib.hxx>
+#include <Geometry/GeomLib/GeomLib.hxx>
 
 
 static Standard_Integer XSHAPE_edge

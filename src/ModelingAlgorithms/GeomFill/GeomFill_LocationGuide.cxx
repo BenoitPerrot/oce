@@ -82,7 +82,7 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_LocationGuide)
 #include <GeomFill_UniformSection.hxx>
 #include <GeomFill_SectionPlacement.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
-#include <GeomLib.hxx>
+#include <Geometry/GeomLib/GeomLib.hxx>
 #include <ElCLib.hxx>
 
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>

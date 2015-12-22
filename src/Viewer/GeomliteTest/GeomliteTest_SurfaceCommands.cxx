@@ -77,7 +77,7 @@
 #include <DrawTrSurf_BezierSurface.hxx>
 #include <DrawTrSurf_BSplineSurface.hxx>
 #include <Geometry/GeomConvert/GeomConvert_ApproxSurface.hxx>
-#include <GeomLib_Tool.hxx>
+#include <Geometry/GeomLib/GeomLib_Tool.hxx>
 #include <TopoDS_Shape.hxx>
 #include <DBRep.hxx>
 

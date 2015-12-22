@@ -3,32 +3,32 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#ifndef _GeomLib_Check2dBSplineCurve_HeaderFile
-#define _GeomLib_Check2dBSplineCurve_HeaderFile
+#ifndef _GeomLib_CheckBSplineCurve_HeaderFile
+#define _GeomLib_CheckBSplineCurve_HeaderFile
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_Geom2d_BSplineCurve.hxx>
+#include <Handle_Geom_BSplineCurve.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Mathematics/Primitives/gp_Pnt2d.hxx>
-class Geom2d_BSplineCurve;
+#include <Mathematics/Primitives/gp_Pnt.hxx>
+class Geom_BSplineCurve;
 class StdFail_NotDone;
 class Standard_OutOfRange;
 
 
 //! Checks for the end  tangents : wether or not those
-//! are reversed
-class GeomLib_Check2dBSplineCurve 
+//! are reversed regarding the third or n-3rd control
+class GeomLib_CheckBSplineCurve 
 {
 public:
 
   DEFINE_STANDARD_ALLOC
 
   
-  Standard_EXPORT GeomLib_Check2dBSplineCurve(const Handle(Geom2d_BSplineCurve)& Curve, const Standard_Real Tolerance, const Standard_Real AngularTolerance);
+  Standard_EXPORT GeomLib_CheckBSplineCurve(const Handle(Geom_BSplineCurve)& Curve, const Standard_Real Tolerance, const Standard_Real AngularTolerance);
   
       Standard_Boolean IsDone()  const;
   
@@ -41,7 +41,7 @@ public:
   //!
   //! if Index3D not in the Range [1,Nb3dSpaces]
   //! if the Approx is not Done
-  Standard_EXPORT   Handle(Geom2d_BSplineCurve) FixedTangent (const Standard_Boolean FirstFlag, const Standard_Boolean LastFlag) ;
+  Standard_EXPORT   Handle(Geom_BSplineCurve) FixedTangent (const Standard_Boolean FirstFlag, const Standard_Boolean LastFlag) ;
 
 
 
@@ -56,23 +56,23 @@ private:
 
 
 
-  Handle(Geom2d_BSplineCurve) myCurve;
+  Handle(Geom_BSplineCurve) myCurve;
   Standard_Boolean myDone;
   Standard_Boolean myFixFirstTangent;
   Standard_Boolean myFixLastTangent;
   Standard_Real myAngularTolerance;
   Standard_Real myTolerance;
-  gp_Pnt2d myFirstPole;
-  gp_Pnt2d myLastPole;
+  gp_Pnt myFirstPole;
+  gp_Pnt myLastPole;
 
 
 };
 
 
-#include <GeomLib_Check2dBSplineCurve.lxx>
+#include <Geometry/GeomLib/GeomLib_CheckBSplineCurve.lxx>
 
 
 
 
 
-#endif // _GeomLib_Check2dBSplineCurve_HeaderFile
+#endif // _GeomLib_CheckBSplineCurve_HeaderFile

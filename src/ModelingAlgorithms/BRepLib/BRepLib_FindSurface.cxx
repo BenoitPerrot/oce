@@ -50,7 +50,7 @@
 #include <TopoDS_Wire.hxx>
 #include <TopoDS.hxx>
 
-#include <GeomLib.hxx>
+#include <Geometry/GeomLib/GeomLib.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom/Geom_BezierCurve.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>

@@ -94,7 +94,7 @@
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Geometry/GCPnts/GCPnts_QuasiUniformDeflection.hxx>
 
-#include <GeomLib.hxx>
+#include <Geometry/GeomLib/GeomLib.hxx>
 #include <GeomAPI.hxx>
 #include <GeomAPI_ProjectPointOnCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>

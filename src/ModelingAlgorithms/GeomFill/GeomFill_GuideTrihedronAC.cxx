@@ -48,7 +48,7 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_GuideTrihedronAC)
 #include <Geometry/GeomAdaptor/GeomAdaptor_HCurve.hxx>
 
 #include <GeomFill_Frenet.hxx>
-#include <GeomLib.hxx>
+#include <Geometry/GeomLib/GeomLib.hxx>
 
 
 //=======================================================================

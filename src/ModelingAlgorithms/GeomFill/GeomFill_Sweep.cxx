@@ -45,14 +45,14 @@
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_HArray2OfPnt.hxx>
-//#include <GeomLib_Array1OfMat.hxx>
+//#include <Geometry/GeomLib/GeomLib_Array1OfMat.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 
 #include <GeomAbs_CurveType.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
-#include <GeomLib.hxx>
+#include <Geometry/GeomLib/GeomLib.hxx>
 
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>

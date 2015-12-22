@@ -19,7 +19,7 @@
 #include <AdvApprox_ApproxAFunction.hxx>
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
-#include <GeomLib_MakeCurvefromApprox.hxx>
+#include <Geometry/GeomLib/GeomLib_MakeCurvefromApprox.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>

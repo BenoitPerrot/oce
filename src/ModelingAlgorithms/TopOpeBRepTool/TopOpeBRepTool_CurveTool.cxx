@@ -35,8 +35,8 @@
 #include <Geometry/Geom2d/Geom2d_Hyperbola.hxx>
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <GeomLib_CheckBSplineCurve.hxx>
-#include <GeomLib_Check2dBSplineCurve.hxx>
+#include <Geometry/GeomLib/GeomLib_CheckBSplineCurve.hxx>
+#include <Geometry/GeomLib/GeomLib_Check2dBSplineCurve.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <BRepAdaptor_Surface.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>

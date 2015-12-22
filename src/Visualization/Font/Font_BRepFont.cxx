@@ -27,7 +27,7 @@
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <GeomAPI.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
-#include <GeomLib.hxx>
+#include <Geometry/GeomLib/GeomLib.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <ShapeBuild_ReShape.hxx>
 #include <ShapeFix_Edge.hxx>

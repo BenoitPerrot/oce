@@ -18,7 +18,7 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <GeomLib_DenominatorMultiplier.hxx>
+#include <Geometry/GeomLib/GeomLib_DenominatorMultiplier.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>

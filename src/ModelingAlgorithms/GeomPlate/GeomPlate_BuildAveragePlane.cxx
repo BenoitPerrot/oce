@@ -47,7 +47,7 @@
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <ElCLib.hxx>
-#include <GeomLib.hxx>
+#include <Geometry/GeomLib/GeomLib.hxx>
 
 #include <GeomPlate_Aij.hxx>
 

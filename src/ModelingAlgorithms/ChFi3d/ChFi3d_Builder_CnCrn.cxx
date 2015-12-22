@@ -92,7 +92,7 @@
 #include <Geometry/Extrema/Extrema_ExtPC.hxx>
 #include <Geometry/Extrema/Extrema_ExtCC.hxx>
 #include <Geometry/Extrema/Extrema_POnCurv.hxx>
-#include <GeomLib.hxx>
+#include <Geometry/GeomLib/GeomLib.hxx>
 #include <Geometry/Extrema/Extrema_ExtPC.hxx>
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
@@ -101,7 +101,7 @@
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <GeomInt_IntSS.hxx>
-#include <GeomLib.hxx>
+#include <Geometry/GeomLib/GeomLib.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_HCurve.hxx>
 #include <GeomPlate_BuildPlateSurface.hxx>

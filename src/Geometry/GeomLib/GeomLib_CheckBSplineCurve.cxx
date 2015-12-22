@@ -17,7 +17,7 @@
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <GeomLib_CheckBSplineCurve.hxx>
+#include <Geometry/GeomLib/GeomLib_CheckBSplineCurve.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>

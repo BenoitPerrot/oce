@@ -83,7 +83,7 @@
 #include <Precision.hxx>
 #include <ElCLib.hxx>
 
-#include <GeomLib.hxx>
+#include <Geometry/GeomLib/GeomLib.hxx>
 
 #include <GeomFill_Darboux.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>

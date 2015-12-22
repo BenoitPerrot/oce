@@ -71,8 +71,8 @@
 #include <Geometry/Extrema/Extrema_ExtPS.hxx>
 #include <Geometry/GCPnts/GCPnts_QuasiUniformAbscissa.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
-//#include <GeomLib_IsIso.hxx>
-//#include <GeomLib_CheckSameParameter.hxx>
+//#include <Geometry/GeomLib/GeomLib_IsIso.hxx>
+//#include <Geometry/GeomLib/GeomLib_CheckSameParameter.hxx>
 
 #ifdef OCCT_DEBUG
 #ifdef DRAW

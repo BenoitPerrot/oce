@@ -52,7 +52,7 @@
 #include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
 
-#include <GeomLib.hxx>
+#include <Geometry/GeomLib/GeomLib.hxx>
 #include <Geometry/GeomConvert/GeomConvert.hxx>
 #include <Geometry/Geom2dConvert/Geom2dConvert.hxx>
 

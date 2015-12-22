@@ -29,7 +29,7 @@
 #include <BRep_TVertex.hxx>
 #include <BRep_Tool.hxx>
 
-#include <GeomLib.hxx>
+#include <Geometry/GeomLib/GeomLib.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <Geometry/GCPnts/GCPnts_TangentialDeflection.hxx>

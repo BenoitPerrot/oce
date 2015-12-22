@@ -98,8 +98,8 @@
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
-#include <GeomLib_CheckBSplineCurve.hxx>
-#include <GeomLib_Check2dBSplineCurve.hxx>
+#include <Geometry/GeomLib/GeomLib_CheckBSplineCurve.hxx>
+#include <Geometry/GeomLib/GeomLib_Check2dBSplineCurve.hxx>
 
 #include <GeomInt_WLApprox.hxx>
 #include <GeomProjLib.hxx>

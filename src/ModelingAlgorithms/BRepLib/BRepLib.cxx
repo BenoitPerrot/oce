@@ -38,7 +38,7 @@
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
-#include <GeomLib.hxx>
+#include <Geometry/GeomLib/GeomLib.hxx>
 #include <TopExp_Explorer.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Edge.hxx>

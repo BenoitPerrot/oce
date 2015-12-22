@@ -58,8 +58,8 @@
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
-#include <GeomLib.hxx>
-#include <GeomLib_IsPlanarSurface.hxx>
+#include <Geometry/GeomLib/GeomLib.hxx>
+#include <Geometry/GeomLib/GeomLib_IsPlanarSurface.hxx>
 #include <BRepLib_FindSurface.hxx>
 #include <Geometry/GeomConvert/GeomConvert_ApproxSurface.hxx>
 

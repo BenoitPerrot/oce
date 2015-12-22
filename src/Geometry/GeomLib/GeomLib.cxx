@@ -61,17 +61,17 @@
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <GeomLib.hxx>
+#include <Geometry/GeomLib/GeomLib.hxx>
 
 #include <Precision.hxx>
 #include <Geometry/GeomConvert/GeomConvert.hxx>
 #include <Hermit.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
-#include <GeomLib_MakeCurvefromApprox.hxx>
-#include <GeomLib_DenominatorMultiplier.hxx>
-#include <GeomLib_DenominatorMultiplierPtr.hxx>
-#include <GeomLib_PolyFunc.hxx>
-#include <GeomLib_LogSample.hxx>
+#include <Geometry/GeomLib/GeomLib_MakeCurvefromApprox.hxx>
+#include <Geometry/GeomLib/GeomLib_DenominatorMultiplier.hxx>
+#include <Geometry/GeomLib/GeomLib_DenominatorMultiplierPtr.hxx>
+#include <Geometry/GeomLib/GeomLib_PolyFunc.hxx>
+#include <Geometry/GeomLib/GeomLib_LogSample.hxx>
 
 #include <AdvApprox_ApproxAFunction.hxx>
 #include <AdvApprox_PrefAndRec.hxx>

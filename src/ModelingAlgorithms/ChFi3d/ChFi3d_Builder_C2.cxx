@@ -67,7 +67,7 @@
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
-#include <GeomLib.hxx>
+#include <Geometry/GeomLib/GeomLib.hxx>
 #include <Geometry/Extrema/Extrema_ExtPC.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>

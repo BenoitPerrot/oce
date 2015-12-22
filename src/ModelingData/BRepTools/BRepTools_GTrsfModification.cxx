@@ -51,7 +51,7 @@ IMPLEMENT_STANDARD_RTTI(BRepTools_GTrsfModification)
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 
 #include <Mathematics/Primitives/gp.hxx>
-#include <GeomLib.hxx>
+#include <Geometry/GeomLib/GeomLib.hxx>
 #include <TopAbs.hxx>
 
 //=======================================================================

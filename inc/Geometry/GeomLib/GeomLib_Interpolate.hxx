@@ -12,7 +12,7 @@
 
 #include <Handle_Geom_BSplineCurve.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <GeomLib_InterpolationErrors.hxx>
+#include <Geometry/GeomLib/GeomLib_InterpolationErrors.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Geom_BSplineCurve;
 class StdFail_NotDone;
@@ -69,7 +69,7 @@ private:
 };
 
 
-#include <GeomLib_Interpolate.lxx>
+#include <Geometry/GeomLib/GeomLib_Interpolate.lxx>
 
 
 

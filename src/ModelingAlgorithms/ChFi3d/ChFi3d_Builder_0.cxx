@@ -34,7 +34,7 @@
 #include <ElCLib.hxx>
 #include <ElSLib.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
-#include <GeomLib.hxx>
+#include <Geometry/GeomLib/GeomLib.hxx>
 
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
@@ -73,7 +73,7 @@
 #include <Mathematics/Convert/Convert_ParameterisationType.hxx>
 #include <Geometry/GeomConvert/GeomConvert_CompCurveToBSplineCurve.hxx>
 #include <Geometry/GeomConvert/GeomConvert.hxx>
-#include <GeomLib_Interpolate.hxx>
+#include <Geometry/GeomLib/GeomLib_Interpolate.hxx>
 #include <GeomAPI_ProjectPointOnSurf.hxx>
 #include <GeomAPI_ProjectPointOnCurve.hxx>
 #include <Geometry/GC/GC_MakeCircle.hxx>

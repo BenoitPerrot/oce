@@ -44,7 +44,7 @@ IMPLEMENT_DOWNCAST(GeomFill_SweepFunction,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(GeomFill_SweepFunction)
 
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
-#include <GeomLib.hxx>
+#include <Geometry/GeomLib/GeomLib.hxx>
 #include <Precision.hxx>
 
 

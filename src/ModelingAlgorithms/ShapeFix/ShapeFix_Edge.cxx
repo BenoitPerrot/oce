@@ -56,7 +56,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Edge)
 #include <Geometry/Geom2d/Geom2d_BezierCurve.hxx>
 
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <GeomLib.hxx>
+#include <Geometry/GeomLib/GeomLib.hxx>
 
 #include <Precision.hxx>
 #include <TopExp.hxx>

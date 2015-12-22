@@ -24,7 +24,7 @@
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <GeomFill_SectionPlacement.hxx>
 
-#include <GeomLib.hxx>
+#include <Geometry/GeomLib/GeomLib.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <GeomLProp_CLProps.hxx>
 #include <GeomAbs_CurveType.hxx> 

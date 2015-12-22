@@ -19,7 +19,7 @@
 #include <BRep_Tool.hxx>
 #include <BRepAdaptor_Surface.hxx>
 #include <GeomAbs_SurfaceType.hxx>
-#include <GeomLib.hxx>
+#include <Geometry/GeomLib/GeomLib.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Polyhedral/Poly_Connect.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>

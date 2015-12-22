@@ -52,7 +52,7 @@
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <ElCLib.hxx>
-#include <GeomLib.hxx>
+#include <Geometry/GeomLib/GeomLib.hxx>
 
 //=======================================================================
 //function : IsoIsDeg

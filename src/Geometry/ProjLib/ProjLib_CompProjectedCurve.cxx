@@ -40,7 +40,7 @@
 #include <Geometry/Extrema/Extrema_POnCurv.hxx>
 #include <ProjLib_PrjResolve.hxx>
 #include <GeomAbs_CurveType.hxx>
-#include <GeomLib.hxx>
+#include <Geometry/GeomLib/GeomLib.hxx>
 
 #define FuncTol 1.e-10
 

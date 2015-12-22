@@ -57,7 +57,7 @@
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 #include <Geometry/GCPnts/GCPnts_UniformAbscissa.hxx>
-#include <GeomLib.hxx>
+#include <Geometry/GeomLib/GeomLib.hxx>
 #include <BRepLib_MakeWire.hxx>
 #include <TopTools_SequenceOfShape.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>

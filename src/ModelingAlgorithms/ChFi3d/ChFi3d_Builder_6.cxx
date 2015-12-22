@@ -76,7 +76,7 @@
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
-#include <GeomLib.hxx>
+#include <Geometry/GeomLib/GeomLib.hxx>
 
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_TopolTool.hxx>

@@ -43,7 +43,7 @@ IMPLEMENT_STANDARD_RTTI(BRepTools_TrsfModification)
 #include <Mathematics/Primitives/gp_TrsfForm.hxx>
 
 #include <Mathematics/Primitives/gp.hxx>
-#include <GeomLib.hxx>
+#include <Geometry/GeomLib/GeomLib.hxx>
 #include <TopAbs.hxx>
 #include <TopExp.hxx>
 

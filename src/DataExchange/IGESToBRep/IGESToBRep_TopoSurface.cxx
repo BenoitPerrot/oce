@@ -150,7 +150,7 @@
 #include <ShapeFix_Wire.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Geometry/GeomConvert/GeomConvert.hxx>
-#include <GeomLib.hxx>
+#include <Geometry/GeomLib/GeomLib.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 //S3767
 #include <Foundation/Message/Message_Msg.hxx>

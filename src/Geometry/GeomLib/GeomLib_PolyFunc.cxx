@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomLib_PolyFunc.hxx>
+#include <Geometry/GeomLib/GeomLib_PolyFunc.hxx>
 #include <Mathematics/Polynomial/PLib.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>
 

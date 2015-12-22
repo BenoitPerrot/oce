@@ -99,7 +99,7 @@ private:
 };
 
 
-#include <GeomLib_MakeCurvefromApprox.lxx>
+#include <Geometry/GeomLib/GeomLib_MakeCurvefromApprox.lxx>
 
 
 

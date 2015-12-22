@@ -22,7 +22,7 @@
 #include <Draw_Display.hxx>
 
 #include <Precision.hxx>
-#include <GeomLib.hxx>
+#include <Geometry/GeomLib/GeomLib.hxx>
 
 #ifdef WNT
 #include <stdio.h>

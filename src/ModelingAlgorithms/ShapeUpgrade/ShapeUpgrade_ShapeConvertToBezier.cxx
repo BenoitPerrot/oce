@@ -35,7 +35,7 @@
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_BezierCurve.hxx>
 #include <BRep_Tool.hxx>
-#include <GeomLib.hxx>
+#include <Geometry/GeomLib/GeomLib.hxx>
 #include <TopoDS_Edge.hxx>
 #include <ShapeUpgrade_ConvertSurfaceToBezierBasis.hxx>
 #include <TopExp.hxx>

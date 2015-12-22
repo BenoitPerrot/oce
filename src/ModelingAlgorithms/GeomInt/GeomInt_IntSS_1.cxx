@@ -73,8 +73,8 @@
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 
-#include <GeomLib_CheckBSplineCurve.hxx>
-#include <GeomLib_Check2dBSplineCurve.hxx>
+#include <Geometry/GeomLib/GeomLib_CheckBSplineCurve.hxx>
+#include <Geometry/GeomLib/GeomLib_Check2dBSplineCurve.hxx>
 #include <GeomProjLib.hxx>
 #include <Geometry/Approx/Approx_CurveOnSurface.hxx>
 

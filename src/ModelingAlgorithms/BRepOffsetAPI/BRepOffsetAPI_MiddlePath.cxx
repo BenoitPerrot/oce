@@ -62,7 +62,7 @@
 #include <Mathematics/Primitives/gp_Circ.hxx>
 #include <Geometry/GC/GC_MakeCircle.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
-#include <GeomLib.hxx>
+#include <Geometry/GeomLib/GeomLib.hxx>
 #include <GeomAPI_Interpolate.hxx>
 
 static Standard_Boolean IsLinear(const TopoDS_Edge& anEdge,

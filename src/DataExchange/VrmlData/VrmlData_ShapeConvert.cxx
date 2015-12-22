@@ -42,7 +42,7 @@
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TShort/TShort_Array1OfShortReal.hxx>
-#include <GeomLib.hxx>
+#include <Geometry/GeomLib/GeomLib.hxx>
 #include <Foundation/TShort/TShort_HArray1OfShortReal.hxx>
 
 //=======================================================================

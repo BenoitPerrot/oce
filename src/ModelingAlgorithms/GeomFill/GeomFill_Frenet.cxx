@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_Frenet)
 #include <GeomAbs_CurveType.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <Precision.hxx>
-#include <GeomLib.hxx>
+#include <Geometry/GeomLib/GeomLib.hxx>
 #include <GeomFill_SnglrFunc.hxx>
 #include <Geometry/Extrema/Extrema_ExtPC.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfBoolean.hxx>

@@ -94,7 +94,7 @@ private:
 #define Array1Item gp_Mat
 #define Array1Item_hxx <Mathematics/Primitives/gp_Mat.hxx>
 #define TCollection_Array1 GeomLib_Array1OfMat
-#define TCollection_Array1_hxx <GeomLib_Array1OfMat.hxx>
+#define TCollection_Array1_hxx <Geometry/GeomLib/GeomLib_Array1OfMat.hxx>
 
 #include <Foundation/TCollection/TCollection_Array1.lxx>
 

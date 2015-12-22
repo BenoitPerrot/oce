@@ -77,7 +77,7 @@
 #include <BRepOffset_Tool.hxx>
 #include <GeomAPI_ExtremaCurveCurve.hxx>
 #include <GeomAPI_ProjectPointOnCurve.hxx>
-#include <GeomLib.hxx>
+#include <Geometry/GeomLib/GeomLib.hxx>
 
 #include <TopTools_IndexedMapOfShape.hxx>
 #include <BRepLib_MakeWire.hxx>

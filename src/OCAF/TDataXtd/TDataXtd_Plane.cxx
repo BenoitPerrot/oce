@@ -43,7 +43,7 @@ IMPLEMENT_STANDARD_RTTI(TDataXtd_Plane)
 #include <BRepLib_MakeFace.hxx>
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
-#include <GeomLib_IsPlanarSurface.hxx>
+#include <Geometry/GeomLib/GeomLib_IsPlanarSurface.hxx>
 
 #define OCC2932
 
