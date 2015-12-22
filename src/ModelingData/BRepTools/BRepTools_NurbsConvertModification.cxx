@@ -67,8 +67,8 @@ IMPLEMENT_STANDARD_RTTI(BRepTools_NurbsConvertModification)
 #include <TopoDS.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfTransient.hxx>
-#include <ProjLib_ComputeApprox.hxx>
-#include <ProjLib_ComputeApproxOnPolarSurface.hxx>
+#include <Geometry/ProjLib/ProjLib_ComputeApprox.hxx>
+#include <Geometry/ProjLib/ProjLib_ComputeApproxOnPolarSurface.hxx>
 #include <ElSLib.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>

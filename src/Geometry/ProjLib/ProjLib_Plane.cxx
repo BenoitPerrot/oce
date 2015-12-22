@@ -21,7 +21,7 @@
 #include <Mathematics/Primitives/gp_Elips.hxx>
 #include <Mathematics/Primitives/gp_Parab.hxx>
 #include <Mathematics/Primitives/gp_Hypr.hxx>
-#include <ProjLib_Plane.hxx>
+#include <Geometry/ProjLib/ProjLib_Plane.hxx>
 
 #include <Mathematics/Primitives/gp_Vec.hxx>
 

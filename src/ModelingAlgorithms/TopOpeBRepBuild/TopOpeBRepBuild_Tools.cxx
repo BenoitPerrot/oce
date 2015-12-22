@@ -82,7 +82,7 @@
 #include <BRep_Tool.hxx>
 #include <BRepAdaptor_HSurface.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HCurve.hxx>
-#include <ProjLib_ProjectedCurve.hxx>
+#include <Geometry/ProjLib/ProjLib_ProjectedCurve.hxx>
 #include <GeomAbs_CurveType.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <Geometry/Geom2d/Geom2d_Circle.hxx>

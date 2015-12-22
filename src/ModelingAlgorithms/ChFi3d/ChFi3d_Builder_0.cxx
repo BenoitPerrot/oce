@@ -139,7 +139,7 @@
 #include <TopOpeBRepDS_CurvePointInterference.hxx>
 #include <TopOpeBRepDS_ListOfInterference.hxx>
 #include <TopOpeBRepDS_InterferenceIterator.hxx>
-#include <ProjLib_ProjectedCurve.hxx>
+#include <Geometry/ProjLib/ProjLib_ProjectedCurve.hxx>
 
 #include <BRepBlend_PointOnRst.hxx>
 

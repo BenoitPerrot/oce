@@ -25,7 +25,7 @@
 #include <Mathematics/Primitives/gp_Elips.hxx>
 #include <Mathematics/Primitives/gp_Parab.hxx>
 #include <Mathematics/Primitives/gp_Hypr.hxx>
-#include <ProjLib_Sphere.hxx>
+#include <Geometry/ProjLib/ProjLib_Sphere.hxx>
 
 #include <ElCLib.hxx>
 #include <Precision.hxx>

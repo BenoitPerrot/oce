@@ -22,7 +22,7 @@
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <TopOpeBRepTool_CurveTool.hxx>
 
-#include <ProjLib_ProjectedCurve.hxx>
+#include <Geometry/ProjLib/ProjLib_ProjectedCurve.hxx>
 #include <BRepApprox_Approx.hxx>
 #include <BRepApprox_ApproxLine.hxx>
 #include <TopoDS.hxx>

@@ -20,8 +20,8 @@
 #include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_Surface.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <ProjLib_PrjResolve.hxx>
-#include <ProjLib_PrjFunc.hxx>
+#include <Geometry/ProjLib/ProjLib_PrjResolve.hxx>
+#include <Geometry/ProjLib/ProjLib_PrjFunc.hxx>
 #include <Mathematics/Optimization/math_FunctionSetRoot.hxx>
 #include <Mathematics/Optimization/math_NewtonFunctionSetRoot.hxx>
 

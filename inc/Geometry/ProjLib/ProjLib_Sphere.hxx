@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Mathematics/Primitives/gp_Sphere.hxx>
-#include <ProjLib_Projector.hxx>
+#include <Geometry/ProjLib/ProjLib_Projector.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class Standard_NoSuchObject;
 class gp_Sphere;

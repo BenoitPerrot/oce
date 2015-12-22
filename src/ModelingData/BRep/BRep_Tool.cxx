@@ -58,7 +58,7 @@
 #include <Geometry/Geom/Geom_OffsetSurface.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
-#include <ProjLib_ProjectedCurve.hxx>
+#include <Geometry/ProjLib/ProjLib_ProjectedCurve.hxx>
 #include <Geometry/GeomProjLib/GeomProjLib.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HCurve.hxx>

@@ -35,7 +35,7 @@
 #include <TopoDS.hxx>
 #include <TopoDS_Iterator.hxx>
 
-#include <ProjLib.hxx>
+#include <Geometry/ProjLib/ProjLib.hxx>
 #include <TopExp.hxx>
 #include <ElSLib.hxx>
 

@@ -13,7 +13,7 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Adaptor3d_HSurface.hxx>
 #include <Handle_Adaptor3d_HCurve.hxx>
-#include <ProjLib_Projector.hxx>
+#include <Geometry/ProjLib/ProjLib_Projector.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_Curve2d.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

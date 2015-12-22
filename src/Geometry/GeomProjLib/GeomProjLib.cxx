@@ -25,10 +25,10 @@
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Geometry/GeomProjLib/GeomProjLib.hxx>
 
-#include <ProjLib_ProjectedCurve.hxx>
-#include <ProjLib_CompProjectedCurve.hxx>
-#include <ProjLib_ProjectOnPlane.hxx>
-#include <ProjLib_ProjectOnSurface.hxx>
+#include <Geometry/ProjLib/ProjLib_ProjectedCurve.hxx>
+#include <Geometry/ProjLib/ProjLib_CompProjectedCurve.hxx>
+#include <Geometry/ProjLib/ProjLib_ProjectOnPlane.hxx>
+#include <Geometry/ProjLib/ProjLib_ProjectOnSurface.hxx>
 
 #include <Geometry/Approx/Approx_CurveOnSurface.hxx>
 

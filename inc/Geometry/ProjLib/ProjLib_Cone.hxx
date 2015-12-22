@@ -3,17 +3,17 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#ifndef _ProjLib_Cylinder_HeaderFile
-#define _ProjLib_Cylinder_HeaderFile
+#ifndef _ProjLib_Cone_HeaderFile
+#define _ProjLib_Cone_HeaderFile
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Mathematics/Primitives/gp_Cylinder.hxx>
-#include <ProjLib_Projector.hxx>
+#include <Mathematics/Primitives/gp_Cone.hxx>
+#include <Geometry/ProjLib/ProjLib_Projector.hxx>
 class Standard_NoSuchObject;
-class gp_Cylinder;
+class gp_Cone;
 class gp_Lin;
 class gp_Circ;
 class gp_Elips;
@@ -21,8 +21,8 @@ class gp_Parab;
 class gp_Hypr;
 
 
-//! Projects elementary curves on a cylinder.
-class ProjLib_Cylinder  : public ProjLib_Projector
+//! Projects elementary curves on a cone.
+class ProjLib_Cone  : public ProjLib_Projector
 {
 public:
 
@@ -30,21 +30,18 @@ public:
 
   
   //! Undefined projection.
-  Standard_EXPORT ProjLib_Cylinder();
+  Standard_EXPORT ProjLib_Cone();
   
-  //! Projection on the cylinder <Cyl>.
-  Standard_EXPORT ProjLib_Cylinder(const gp_Cylinder& Cyl);
+  //! Projection on the cone <Co>.
+  Standard_EXPORT ProjLib_Cone(const gp_Cone& Co);
   
-  //! Projection of the line <L> on the cylinder <Cyl>.
-  Standard_EXPORT ProjLib_Cylinder(const gp_Cylinder& Cyl, const gp_Lin& L);
+  //! Projection of the line <L> on the cone <Co>.
+  Standard_EXPORT ProjLib_Cone(const gp_Cone& Co, const gp_Lin& L);
   
-  //! Projection of the circle <C> on the cylinder <Cyl>.
-  Standard_EXPORT ProjLib_Cylinder(const gp_Cylinder& Cyl, const gp_Circ& C);
+  //! Projection of the circle <C> on the cone <Co>.
+  Standard_EXPORT ProjLib_Cone(const gp_Cone& Co, const gp_Circ& C);
   
-  //! Projection of the ellipse <E> on the cylinder <Cyl>.
-  Standard_EXPORT ProjLib_Cylinder(const gp_Cylinder& Cyl, const gp_Elips& E);
-  
-  Standard_EXPORT   void Init (const gp_Cylinder& Cyl) ;
+  Standard_EXPORT   void Init (const gp_Cone& Co) ;
   
   Standard_EXPORT virtual   void Project (const gp_Lin& L) ;
   
@@ -69,7 +66,7 @@ private:
 
 
 
-  gp_Cylinder myCylinder;
+  gp_Cone myCone;
 
 
 };
@@ -80,4 +77,4 @@ private:
 
 
 
-#endif // _ProjLib_Cylinder_HeaderFile
+#endif // _ProjLib_Cone_HeaderFile

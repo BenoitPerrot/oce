@@ -53,7 +53,7 @@
 //
 #include <Geometry/GeomProjLib/GeomProjLib.hxx>
 //
-#include <ProjLib_ProjectedCurve.hxx>
+#include <Geometry/ProjLib/ProjLib_ProjectedCurve.hxx>
 #include <Geometry/Extrema/Extrema_LocateExtPC.hxx>
 //
 #include <IntRes2d_Domain.hxx>

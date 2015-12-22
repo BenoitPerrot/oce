@@ -41,7 +41,7 @@
 #include <Graphic3d_Group.hxx>
 #include <Graphic3d_ArrayOfPolylines.hxx>
 #include <Geometry/IntAna2d/IntAna2d_AnaIntersection.hxx>
-#include <ProjLib.hxx>
+#include <Geometry/ProjLib/ProjLib.hxx>
 #include <Prs3d_Root.hxx>
 #include <Prs3d_ShadingAspect.hxx>
 #include <PrsMgr_PresentationManager3d.hxx>

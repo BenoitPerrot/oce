@@ -31,12 +31,12 @@
 #include <Mathematics/Primitives/gp_Cone.hxx>
 #include <Mathematics/Primitives/gp_Sphere.hxx>
 #include <Mathematics/Primitives/gp_Torus.hxx>
-#include <ProjLib.hxx>
-#include <ProjLib_Plane.hxx>
-#include <ProjLib_Cylinder.hxx>
-#include <ProjLib_Cone.hxx>
-#include <ProjLib_Sphere.hxx>
-#include <ProjLib_Torus.hxx>
+#include <Geometry/ProjLib/ProjLib.hxx>
+#include <Geometry/ProjLib/ProjLib_Plane.hxx>
+#include <Geometry/ProjLib/ProjLib_Cylinder.hxx>
+#include <Geometry/ProjLib/ProjLib_Cone.hxx>
+#include <Geometry/ProjLib/ProjLib_Sphere.hxx>
+#include <Geometry/ProjLib/ProjLib_Torus.hxx>
 
 #include <ElSLib.hxx>
 

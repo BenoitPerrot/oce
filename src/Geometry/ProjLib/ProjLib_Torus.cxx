@@ -21,7 +21,7 @@
 #include <Mathematics/Primitives/gp_Elips.hxx>
 #include <Mathematics/Primitives/gp_Parab.hxx>
 #include <Mathematics/Primitives/gp_Hypr.hxx>
-#include <ProjLib_Torus.hxx>
+#include <Geometry/ProjLib/ProjLib_Torus.hxx>
 
 #include <Precision.hxx>
 #include <Mathematics/Primitives/gp.hxx>

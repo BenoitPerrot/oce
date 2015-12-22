@@ -16,7 +16,7 @@
 
 // 09-Aug-95 : xab : changed the ProjLib_ProjectOnPlane in the case
 //                   of the line and the parameteriation is kept
-#include <ProjLib_ProjectOnPlane.hxx>
+#include <Geometry/ProjLib/ProjLib_ProjectOnPlane.hxx>
 #include <Geometry/AppCont/AppCont_Function.hxx>
 #include <Geometry/Approx/Approx_FitAndDivide.hxx>
 #include <Geometry/AppParCurves/AppParCurves_MultiCurve.hxx>

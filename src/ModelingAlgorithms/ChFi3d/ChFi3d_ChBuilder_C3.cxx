@@ -85,7 +85,7 @@
 #include <BRep_Tool.hxx>
 #include <BRepLib_MakeEdge.hxx>
 
-#include <ProjLib_ProjectedCurve.hxx>
+#include <Geometry/ProjLib/ProjLib_ProjectedCurve.hxx>
 
 #include <ElSLib.hxx>
 #include <ElCLib.hxx>

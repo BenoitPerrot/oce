@@ -3,14 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <ProjLib_HSequenceOfHSequenceOfPnt.hxx>
+#include <Geometry/ProjLib/ProjLib_HSequenceOfHSequenceOfPnt.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Mathematics/Collections/TColgp_HSequenceOfPnt.hxx>
-#include <ProjLib_SequenceOfHSequenceOfPnt.hxx>
+#include <Geometry/ProjLib/ProjLib_SequenceOfHSequenceOfPnt.hxx>
 
  
 
@@ -31,9 +31,9 @@ IMPLEMENT_STANDARD_RTTI(ProjLib_HSequenceOfHSequenceOfPnt)
 #define Item Handle(TColgp_HSequenceOfPnt)
 #define Item_hxx <Mathematics/Collections/TColgp_HSequenceOfPnt.hxx>
 #define TheSequence ProjLib_SequenceOfHSequenceOfPnt
-#define TheSequence_hxx <ProjLib_SequenceOfHSequenceOfPnt.hxx>
+#define TheSequence_hxx <Geometry/ProjLib/ProjLib_SequenceOfHSequenceOfPnt.hxx>
 #define TCollection_HSequence ProjLib_HSequenceOfHSequenceOfPnt
-#define TCollection_HSequence_hxx <ProjLib_HSequenceOfHSequenceOfPnt.hxx>
+#define TCollection_HSequence_hxx <Geometry/ProjLib/ProjLib_HSequenceOfHSequenceOfPnt.hxx>
 #define Handle_TCollection_HSequence Handle_ProjLib_HSequenceOfHSequenceOfPnt
 #define TCollection_HSequence_Type_() ProjLib_HSequenceOfHSequenceOfPnt_Type_()
 #include <Foundation/TCollection/TCollection_HSequence.gxx>

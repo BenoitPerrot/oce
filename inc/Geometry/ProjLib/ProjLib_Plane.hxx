@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Mathematics/Primitives/gp_Pln.hxx>
-#include <ProjLib_Projector.hxx>
+#include <Geometry/ProjLib/ProjLib_Projector.hxx>
 class Standard_NoSuchObject;
 class gp_Pln;
 class gp_Lin;

@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <ProjLib_ComputeApproxOnPolarSurface.hxx>
+#include <Geometry/ProjLib/ProjLib_ComputeApproxOnPolarSurface.hxx>
 #include <Geometry/AppCont/AppCont_Function2d.hxx>
 #include <ElSLib.hxx>
 #include <ElCLib.hxx>

@@ -16,7 +16,7 @@
 
 // modified by NIZHNY-OFV  Thu Jan 20 11:04:19 2005
 
-#include <ProjLib_ComputeApprox.hxx>
+#include <Geometry/ProjLib/ProjLib_ComputeApprox.hxx>
 
 #include <GeomAbs_SurfaceType.hxx>
 #include <GeomAbs_CurveType.hxx>

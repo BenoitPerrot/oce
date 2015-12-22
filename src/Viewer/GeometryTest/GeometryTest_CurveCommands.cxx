@@ -93,8 +93,8 @@
 #include <GeomAbs_SurfaceType.hxx>
 #include <GeomAbs_CurveType.hxx>
 
-#include <ProjLib_CompProjectedCurve.hxx>
-#include <ProjLib_HCompProjectedCurve.hxx>
+#include <Geometry/ProjLib/ProjLib_CompProjectedCurve.hxx>
+#include <Geometry/ProjLib/ProjLib_HCompProjectedCurve.hxx>
 #include <Geometry/Approx/Approx_CurveOnSurface.hxx>
 #include <Precision.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor.hxx>

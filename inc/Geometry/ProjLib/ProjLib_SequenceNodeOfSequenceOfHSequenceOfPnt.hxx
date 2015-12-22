@@ -49,11 +49,11 @@ private:
 #define SeqItem Handle(TColgp_HSequenceOfPnt)
 #define SeqItem_hxx <Mathematics/Collections/TColgp_HSequenceOfPnt.hxx>
 #define TCollection_SequenceNode ProjLib_SequenceNodeOfSequenceOfHSequenceOfPnt
-#define TCollection_SequenceNode_hxx <ProjLib_SequenceNodeOfSequenceOfHSequenceOfPnt.hxx>
+#define TCollection_SequenceNode_hxx <Geometry/ProjLib/ProjLib_SequenceNodeOfSequenceOfHSequenceOfPnt.hxx>
 #define Handle_TCollection_SequenceNode Handle_ProjLib_SequenceNodeOfSequenceOfHSequenceOfPnt
 #define TCollection_SequenceNode_Type_() ProjLib_SequenceNodeOfSequenceOfHSequenceOfPnt_Type_()
 #define TCollection_Sequence ProjLib_SequenceOfHSequenceOfPnt
-#define TCollection_Sequence_hxx <ProjLib_SequenceOfHSequenceOfPnt.hxx>
+#define TCollection_Sequence_hxx <Geometry/ProjLib/ProjLib_SequenceOfHSequenceOfPnt.hxx>
 
 #include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 

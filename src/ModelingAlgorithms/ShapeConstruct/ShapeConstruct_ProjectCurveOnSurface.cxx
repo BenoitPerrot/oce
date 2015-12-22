@@ -79,9 +79,9 @@ IMPLEMENT_STANDARD_RTTI(ShapeConstruct_ProjectCurveOnSurface)
 #include <ShapeAnalysis_Surface.hxx>
 #include <ShapeExtend.hxx>
 
-#include <ProjLib_ProjectedCurve.hxx>
-#include <ProjLib_CompProjectedCurve.hxx>
-#include <ProjLib_HCompProjectedCurve.hxx>
+#include <Geometry/ProjLib/ProjLib_ProjectedCurve.hxx>
+#include <Geometry/ProjLib/ProjLib_CompProjectedCurve.hxx>
+#include <Geometry/ProjLib/ProjLib_HCompProjectedCurve.hxx>
 #include <Geometry/Approx/Approx_CurveOnSurface.hxx>
 
 #define NCONTROL 23

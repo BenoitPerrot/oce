@@ -39,7 +39,7 @@
 #include <Mathematics/Primitives/gp_Ax3.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Precision.hxx>
-#include <ProjLib.hxx>
+#include <Geometry/ProjLib/ProjLib.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <HLRAlgo.hxx>
 #include <HLRAlgo_Projector.hxx>

@@ -17,7 +17,7 @@
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <ProjLib_PrjFunc.hxx>
+#include <Geometry/ProjLib/ProjLib_PrjFunc.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_Surface.hxx>

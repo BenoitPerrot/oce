@@ -186,7 +186,7 @@ void IntPatch_Intersection::Perform(const Handle(Adaptor3d_HSurface)&  S1,
 #include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
-#include <ProjLib_ProjectOnPlane.hxx>
+#include <Geometry/ProjLib/ProjLib_ProjectOnPlane.hxx>
 #include <Geometry/GeomProjLib/GeomProjLib.hxx>
 #include <ElCLib.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>

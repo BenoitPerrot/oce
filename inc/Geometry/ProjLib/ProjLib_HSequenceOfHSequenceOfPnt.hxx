@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ProjLib_HSequenceOfHSequenceOfPnt.hxx>
 
-#include <ProjLib_SequenceOfHSequenceOfPnt.hxx>
+#include <Geometry/ProjLib/ProjLib_SequenceOfHSequenceOfPnt.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_TColgp_HSequenceOfPnt.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
@@ -95,9 +95,9 @@ private:
 #define Item Handle(TColgp_HSequenceOfPnt)
 #define Item_hxx <Mathematics/Collections/TColgp_HSequenceOfPnt.hxx>
 #define TheSequence ProjLib_SequenceOfHSequenceOfPnt
-#define TheSequence_hxx <ProjLib_SequenceOfHSequenceOfPnt.hxx>
+#define TheSequence_hxx <Geometry/ProjLib/ProjLib_SequenceOfHSequenceOfPnt.hxx>
 #define TCollection_HSequence ProjLib_HSequenceOfHSequenceOfPnt
-#define TCollection_HSequence_hxx <ProjLib_HSequenceOfHSequenceOfPnt.hxx>
+#define TCollection_HSequence_hxx <Geometry/ProjLib/ProjLib_HSequenceOfHSequenceOfPnt.hxx>
 #define Handle_TCollection_HSequence Handle_ProjLib_HSequenceOfHSequenceOfPnt
 #define TCollection_HSequence_Type_() ProjLib_HSequenceOfHSequenceOfPnt_Type_()
 

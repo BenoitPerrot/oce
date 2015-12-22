@@ -20,7 +20,7 @@
 #include <TopOpeBRepTool_2d.hxx>
 #include <BRep_Tool.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <ProjLib_ProjectedCurve.hxx>
+#include <Geometry/ProjLib/ProjLib_ProjectedCurve.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <BRepAdaptor_Surface.hxx>
 #include <BRepAdaptor_Curve.hxx>

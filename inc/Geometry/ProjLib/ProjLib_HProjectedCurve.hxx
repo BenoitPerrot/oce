@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ProjLib_HProjectedCurve.hxx>
 
-#include <ProjLib_ProjectedCurve.hxx>
+#include <Geometry/ProjLib/ProjLib_ProjectedCurve.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 class Standard_OutOfRange;
 class Standard_NoSuchObject;
@@ -55,9 +55,9 @@ private:
 };
 
 #define TheCurve ProjLib_ProjectedCurve
-#define TheCurve_hxx <ProjLib_ProjectedCurve.hxx>
+#define TheCurve_hxx <Geometry/ProjLib/ProjLib_ProjectedCurve.hxx>
 #define Adaptor2d_GenHCurve2d ProjLib_HProjectedCurve
-#define Adaptor2d_GenHCurve2d_hxx <ProjLib_HProjectedCurve.hxx>
+#define Adaptor2d_GenHCurve2d_hxx <Geometry/ProjLib/ProjLib_HProjectedCurve.hxx>
 #define Handle_Adaptor2d_GenHCurve2d Handle_ProjLib_HProjectedCurve
 #define Adaptor2d_GenHCurve2d_Type_() ProjLib_HProjectedCurve_Type_()
 

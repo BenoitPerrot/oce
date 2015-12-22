@@ -17,7 +17,7 @@
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
-#include <ProjLib_ProjectOnSurface.hxx>
+#include <Geometry/ProjLib/ProjLib_ProjectOnSurface.hxx>
 
 #include <Geometry/AppCont/AppCont_Function.hxx>
 #include <Geometry/Approx/Approx_FitAndDivide.hxx>

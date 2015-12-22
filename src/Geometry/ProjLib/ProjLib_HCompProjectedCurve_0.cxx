@@ -3,14 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <ProjLib_HCompProjectedCurve.hxx>
+#include <Geometry/ProjLib/ProjLib_HCompProjectedCurve.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <ProjLib_CompProjectedCurve.hxx>
+#include <Geometry/ProjLib/ProjLib_CompProjectedCurve.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_Curve2d.hxx>
 
  
@@ -31,9 +31,9 @@ IMPLEMENT_STANDARD_RTTI(ProjLib_HCompProjectedCurve)
 
 
 #define TheCurve ProjLib_CompProjectedCurve
-#define TheCurve_hxx <ProjLib_CompProjectedCurve.hxx>
+#define TheCurve_hxx <Geometry/ProjLib/ProjLib_CompProjectedCurve.hxx>
 #define Adaptor2d_GenHCurve2d ProjLib_HCompProjectedCurve
-#define Adaptor2d_GenHCurve2d_hxx <ProjLib_HCompProjectedCurve.hxx>
+#define Adaptor2d_GenHCurve2d_hxx <Geometry/ProjLib/ProjLib_HCompProjectedCurve.hxx>
 #define Handle_Adaptor2d_GenHCurve2d Handle_ProjLib_HCompProjectedCurve
 #define Adaptor2d_GenHCurve2d_Type_() ProjLib_HCompProjectedCurve_Type_()
 #include <Geometry/Adaptor2d/Adaptor2d_GenHCurve2d.gxx>

@@ -45,7 +45,7 @@
 #include <Geometry/GCPnts/GCPnts_QuasiUniformAbscissa.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
-#include <ProjLib_ComputeApproxOnPolarSurface.hxx>
+#include <Geometry/ProjLib/ProjLib_ComputeApproxOnPolarSurface.hxx>
 #include <DrawTrSurf.hxx>
 
 

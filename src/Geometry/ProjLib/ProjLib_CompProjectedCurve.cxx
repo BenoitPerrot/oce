@@ -16,7 +16,7 @@
 
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
-#include <ProjLib_HSequenceOfHSequenceOfPnt.hxx>
+#include <Geometry/ProjLib/ProjLib_HSequenceOfHSequenceOfPnt.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfBoolean.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
@@ -27,8 +27,8 @@
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <ProjLib_CompProjectedCurve.hxx>
-#include <ProjLib_HCompProjectedCurve.hxx>
+#include <Geometry/ProjLib/ProjLib_CompProjectedCurve.hxx>
+#include <Geometry/ProjLib/ProjLib_HCompProjectedCurve.hxx>
 #include <Mathematics/Primitives/gp_XY.hxx>
 #include <Mathematics/Primitives/gp_Mat2d.hxx>
 #include <Geometry/Extrema/Extrema_ExtPS.hxx>
@@ -38,7 +38,7 @@
 #include <Geometry/Extrema/Extrema_GenLocateExtPS.hxx>
 #include <Geometry/Extrema/Extrema_POnSurf.hxx>
 #include <Geometry/Extrema/Extrema_POnCurv.hxx>
-#include <ProjLib_PrjResolve.hxx>
+#include <Geometry/ProjLib/ProjLib_PrjResolve.hxx>
 #include <GeomAbs_CurveType.hxx>
 #include <Geometry/GeomLib/GeomLib.hxx>
 

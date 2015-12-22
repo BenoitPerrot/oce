@@ -22,7 +22,7 @@
 #include <TopTools_ListOfShape.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
 #include <BRepAlgo_NormalProjection.hxx>
-#include <ProjLib_CompProjectedCurve.hxx>
+#include <Geometry/ProjLib/ProjLib_CompProjectedCurve.hxx>
 #include <TopTools_HSequenceOfShape.hxx>
 #include <TopExp_Explorer.hxx>
 #include <TopAbs.hxx>
@@ -30,7 +30,7 @@
 #include <BRepAdaptor_HCurve.hxx>
 #include <BRepAdaptor_Surface.hxx>
 #include <BRepAdaptor_HSurface.hxx>
-#include <ProjLib_HCompProjectedCurve.hxx>
+#include <Geometry/ProjLib/ProjLib_HCompProjectedCurve.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Shape.hxx>
 #include <Geometry/Approx/Approx_CurveOnSurface.hxx>

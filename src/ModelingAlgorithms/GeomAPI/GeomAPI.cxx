@@ -19,7 +19,7 @@
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <GeomAPI.hxx>
 
-#include <ProjLib_ProjectedCurve.hxx>
+#include <Geometry/ProjLib/ProjLib_ProjectedCurve.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>

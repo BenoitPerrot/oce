@@ -58,7 +58,7 @@
 
 
 
-#include <ProjLib_Plane.hxx>
+#include <Geometry/ProjLib/ProjLib_Plane.hxx>
 #include <Geometry/IntAna2d/IntAna2d_AnaIntersection.hxx>
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <Geometry/IntAna2d/IntAna2d_IntPoint.hxx>

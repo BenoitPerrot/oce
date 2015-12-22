@@ -17,7 +17,7 @@
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <ProjLib_ProjectedCurve.hxx>
+#include <Geometry/ProjLib/ProjLib_ProjectedCurve.hxx>
 #include <BOPTools_AlgoTools2D.hxx>
 
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
@@ -56,7 +56,7 @@
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <TopExp.hxx>
 
-#include <ProjLib_ProjectedCurve.hxx>
+#include <Geometry/ProjLib/ProjLib_ProjectedCurve.hxx>
 
 #include <BRep_Tool.hxx>
 #include <BRep_Builder.hxx>
