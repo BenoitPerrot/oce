@@ -30,8 +30,8 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <GccEnt_BadQualifier.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <IntAna2d_AnaIntersection.hxx>
-#include <IntAna2d_IntPoint.hxx>
+#include <Geometry/IntAna2d/IntAna2d_AnaIntersection.hxx>
+#include <Geometry/IntAna2d/IntAna2d_IntPoint.hxx>
 
 //=========================================================================
 //   The first calculated bissectrice is the interior bisectrice, the     +

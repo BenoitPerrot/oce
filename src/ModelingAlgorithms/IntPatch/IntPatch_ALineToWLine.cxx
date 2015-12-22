@@ -36,9 +36,9 @@
 #include <GeomAbs_SurfaceType.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
-#include <IntAna2d_AnaIntersection.hxx>
+#include <Geometry/IntAna2d/IntAna2d_AnaIntersection.hxx>
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
-#include <IntAna2d_IntPoint.hxx>
+#include <Geometry/IntAna2d/IntAna2d_IntPoint.hxx>
 #include <Mathematics/Primitives/gp_Cone.hxx>
 
 

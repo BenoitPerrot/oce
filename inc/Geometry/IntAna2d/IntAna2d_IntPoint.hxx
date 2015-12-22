@@ -91,7 +91,7 @@ private:
 };
 
 
-#include <IntAna2d_IntPoint.lxx>
+#include <Geometry/IntAna2d/IntAna2d_IntPoint.lxx>
 
 
 

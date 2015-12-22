@@ -27,12 +27,12 @@
 #include <ElCLib.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <Mathematics/Primitives/gp_Ax2d.hxx>
-#include <IntAna2d_AnaIntersection.hxx>
-#include <IntAna2d_IntPoint.hxx>
+#include <Geometry/IntAna2d/IntAna2d_AnaIntersection.hxx>
+#include <Geometry/IntAna2d/IntAna2d_IntPoint.hxx>
 #include <GccAna_CircLin2dBisec.hxx>
 #include <GccInt_IType.hxx>
 #include <GccInt_BCirc.hxx>
-#include <IntAna2d_Conic.hxx>
+#include <Geometry/IntAna2d/IntAna2d_Conic.hxx>
 #include <GccEnt_BadQualifier.hxx>
 
 //=========================================================================

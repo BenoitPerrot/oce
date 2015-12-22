@@ -53,8 +53,8 @@ IMPLEMENT_STANDARD_RTTI(AIS_PerpendicularRelation)
 #include <Geometry/Geom/Geom_Line.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
 
-#include <IntAna2d_AnaIntersection.hxx>
-#include <IntAna2d_IntPoint.hxx>
+#include <Geometry/IntAna2d/IntAna2d_AnaIntersection.hxx>
+#include <Geometry/IntAna2d/IntAna2d_IntPoint.hxx>
 
 #include <Precision.hxx>
 

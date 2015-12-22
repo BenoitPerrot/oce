@@ -16,7 +16,7 @@
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <IntAna2d_IntPoint.hxx>
+#include <Geometry/IntAna2d/IntAna2d_IntPoint.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IntAna2d_IntPoint)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

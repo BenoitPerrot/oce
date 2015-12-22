@@ -31,8 +31,8 @@
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Mathematics/Primitives/gp_Circ2d.hxx>
-#include <IntAna2d_AnaIntersection.hxx>
-#include <IntAna2d_IntPoint.hxx>
+#include <Geometry/IntAna2d/IntAna2d_AnaIntersection.hxx>
+#include <Geometry/IntAna2d/IntAna2d_IntPoint.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <GccEnt_BadQualifier.hxx>
 

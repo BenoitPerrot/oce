@@ -60,7 +60,7 @@
 
 #include <GeomAPI.hxx>
 
-#include <IntAna2d_AnaIntersection.hxx>
+#include <Geometry/IntAna2d/IntAna2d_AnaIntersection.hxx>
 
 
 //===================================================================

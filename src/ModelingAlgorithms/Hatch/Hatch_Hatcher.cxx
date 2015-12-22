@@ -20,8 +20,8 @@
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Hatch_Hatcher.hxx>
 #include <Hatch_Line.hxx>
-#include <IntAna2d_IntPoint.hxx>
-#include <IntAna2d_AnaIntersection.hxx>
+#include <Geometry/IntAna2d/IntAna2d_IntPoint.hxx>
+#include <Geometry/IntAna2d/IntAna2d_AnaIntersection.hxx>
 #include <Hatch_Parameter.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>

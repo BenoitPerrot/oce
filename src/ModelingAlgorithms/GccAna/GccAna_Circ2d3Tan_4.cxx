@@ -23,8 +23,8 @@
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Circ2d.hxx>
 #include <GccAna_Circ2d3Tan.hxx>
-#include <IntAna2d_AnaIntersection.hxx>
-#include <IntAna2d_IntPoint.hxx>
+#include <Geometry/IntAna2d/IntAna2d_AnaIntersection.hxx>
+#include <Geometry/IntAna2d/IntAna2d_IntPoint.hxx>
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <Mathematics/Primitives/gp_Circ2d.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
@@ -36,7 +36,7 @@
 #include <GccInt_BLine.hxx>
 #include <GccInt_BElips.hxx>
 #include <GccInt_BHyper.hxx>
-#include <IntAna2d_Conic.hxx>
+#include <Geometry/IntAna2d/IntAna2d_Conic.hxx>
 #include <GccEnt_BadQualifier.hxx>
 
 static Standard_Integer MaxSol = 20;

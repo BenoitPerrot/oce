@@ -20,7 +20,7 @@
 
 #include <Mathematics/Optimization/math_DirectPolynomialRoots.hxx>
 #include <Mathematics/Optimization/math_TrigonometricFunctionRoots.hxx>
-#include <IntAna2d_IntPoint.hxx>
+#include <Geometry/IntAna2d/IntAna2d_IntPoint.hxx>
 #include <Mathematics/Primitives/gp_Ax2d.hxx>
 
 class MyDirectPolynomialRoots { 

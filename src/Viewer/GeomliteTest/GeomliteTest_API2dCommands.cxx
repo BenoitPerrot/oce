@@ -39,8 +39,8 @@
 #include <GeomAbs_Shape.hxx>
 #include <Precision.hxx>
 #include <Geometry/Geom2d/Geom2d_Circle.hxx>
-#include <IntAna2d_AnaIntersection.hxx>
-#include <IntAna2d_IntPoint.hxx>
+#include <Geometry/IntAna2d/IntAna2d_AnaIntersection.hxx>
+#include <Geometry/IntAna2d/IntAna2d_IntPoint.hxx>
 
 #include <stdio.h>
 #ifdef WNT

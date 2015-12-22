@@ -24,8 +24,8 @@
 
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
-#include <IntAna2d_AnaIntersection.hxx>
-#include <IntAna2d_IntPoint.hxx>
+#include <Geometry/IntAna2d/IntAna2d_AnaIntersection.hxx>
+#include <Geometry/IntAna2d/IntAna2d_IntPoint.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <ElCLib.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
@@ -33,7 +33,7 @@
 #include <GccInt_IType.hxx>
 #include <GccInt_BCirc.hxx>
 #include <GccInt_BLine.hxx>
-#include <IntAna2d_Conic.hxx>
+#include <Geometry/IntAna2d/IntAna2d_Conic.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <GccEnt_BadQualifier.hxx>
 #include <GccAna_Circ2dBisec.hxx>

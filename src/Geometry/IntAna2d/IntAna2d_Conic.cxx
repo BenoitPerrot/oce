@@ -19,7 +19,7 @@
 #include <Mathematics/Primitives/gp_Elips2d.hxx>
 #include <Mathematics/Primitives/gp_XY.hxx>
 #include <Mathematics/Primitives/gp_Ax2d.hxx>
-#include <IntAna2d_Conic.hxx>
+#include <Geometry/IntAna2d/IntAna2d_Conic.hxx>
 
 
 IntAna2d_Conic::IntAna2d_Conic (const gp_Lin2d& L) {

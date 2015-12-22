@@ -34,7 +34,7 @@
 
 #include <ElSLib.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
-#include <IntAna2d_AnaIntersection.hxx>
+#include <Geometry/IntAna2d/IntAna2d_AnaIntersection.hxx>
 #include <BRepClass3d_SolidClassifier.hxx>
 #include <BRepMesh_IncrementalMesh.hxx>
 

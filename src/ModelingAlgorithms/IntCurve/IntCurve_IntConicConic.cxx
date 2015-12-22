@@ -33,9 +33,9 @@
 #include <Precision.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 
-#include <IntAna2d_AnaIntersection.hxx>
-#include <IntAna2d_IntPoint.hxx>
-#include <IntAna2d_Conic.hxx>
+#include <Geometry/IntAna2d/IntAna2d_AnaIntersection.hxx>
+#include <Geometry/IntAna2d/IntAna2d_IntPoint.hxx>
+#include <Geometry/IntAna2d/IntAna2d_Conic.hxx>
 #include <ElCLib.hxx>
 
 //=======================================================================

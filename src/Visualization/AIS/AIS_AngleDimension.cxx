@@ -40,7 +40,7 @@
 #include <Graphic3d_ArrayOfSegments.hxx>
 #include <Graphic3d_Group.hxx>
 #include <Graphic3d_ArrayOfPolylines.hxx>
-#include <IntAna2d_AnaIntersection.hxx>
+#include <Geometry/IntAna2d/IntAna2d_AnaIntersection.hxx>
 #include <ProjLib.hxx>
 #include <Prs3d_Root.hxx>
 #include <Prs3d_ShadingAspect.hxx>

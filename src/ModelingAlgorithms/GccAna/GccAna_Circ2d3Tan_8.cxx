@@ -22,8 +22,8 @@
 #include <GccAna_Circ2d3Tan.hxx>
 
 #include <ElCLib.hxx>
-#include <IntAna2d_AnaIntersection.hxx>
-#include <IntAna2d_IntPoint.hxx>
+#include <Geometry/IntAna2d/IntAna2d_AnaIntersection.hxx>
+#include <Geometry/IntAna2d/IntAna2d_IntPoint.hxx>
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <Mathematics/Primitives/gp_Circ2d.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
@@ -32,7 +32,7 @@
 #include <GccAna_Pnt2dBisec.hxx>
 #include <GccInt_Bisec.hxx>
 #include <GccInt_IType.hxx>
-#include <IntAna2d_Conic.hxx>
+#include <Geometry/IntAna2d/IntAna2d_Conic.hxx>
 #include <GccEnt_BadQualifier.hxx>
 #include <Precision.hxx>
 //=========================================================================

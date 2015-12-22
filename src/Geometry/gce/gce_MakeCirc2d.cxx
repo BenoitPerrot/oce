@@ -24,8 +24,8 @@
 #include <Mathematics/Primitives/gp.hxx>
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <ElCLib.hxx>
-#include <IntAna2d_AnaIntersection.hxx>
-#include <IntAna2d_IntPoint.hxx>
+#include <Geometry/IntAna2d/IntAna2d_AnaIntersection.hxx>
+#include <Geometry/IntAna2d/IntAna2d_IntPoint.hxx>
 
 //=========================================================================
 //   Creation d un cercle 2d de gp passant par trois points.              +

@@ -27,8 +27,8 @@
 #include <ElCLib.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <Mathematics/Primitives/gp_Ax2d.hxx>
-#include <IntAna2d_AnaIntersection.hxx>
-#include <IntAna2d_IntPoint.hxx>
+#include <Geometry/IntAna2d/IntAna2d_AnaIntersection.hxx>
+#include <Geometry/IntAna2d/IntAna2d_IntPoint.hxx>
 #include <GccAna_Lin2dBisec.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <GccEnt_BadQualifier.hxx>

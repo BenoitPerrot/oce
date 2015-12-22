@@ -15,7 +15,7 @@
 //============================================================================
 //======================================================= IntAna2d_Outils.cxx
 //============================================================================
-#include <IntAna2d_Outils.hxx>
+#include <Geometry/IntAna2d/IntAna2d_Outils.hxx>
 #include <Mathematics/Optimization/math_DirectPolynomialRoots.hxx>
 
 MyDirectPolynomialRoots::MyDirectPolynomialRoots(const Standard_Real A4,

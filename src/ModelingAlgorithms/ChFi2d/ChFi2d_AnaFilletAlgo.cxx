@@ -25,7 +25,7 @@
 #include <BRepLib_MakeFace.hxx>
 
 #include <GeomAPI_ExtremaCurveCurve.hxx>
-#include <IntAna2d_AnaIntersection.hxx>
+#include <Geometry/IntAna2d/IntAna2d_AnaIntersection.hxx>
 #include <ShapeAnalysis_Wire.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>
 

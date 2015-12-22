@@ -12,7 +12,7 @@
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <IntAna2d_IntPoint.hxx>
+#include <Geometry/IntAna2d/IntAna2d_IntPoint.hxx>
 class StdFail_NotDone;
 class Standard_OutOfRange;
 class gp_Lin2d;
@@ -143,7 +143,7 @@ private:
 };
 
 
-#include <IntAna2d_AnaIntersection.lxx>
+#include <Geometry/IntAna2d/IntAna2d_AnaIntersection.lxx>
 
 
 

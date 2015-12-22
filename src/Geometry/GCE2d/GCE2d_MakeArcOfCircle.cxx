@@ -26,7 +26,7 @@
 #include <Geometry/gce/gce_MakeLin2d.hxx>
 #include <ElCLib.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <IntAna2d_AnaIntersection.hxx>
+#include <Geometry/IntAna2d/IntAna2d_AnaIntersection.hxx>
 
 
 GCE2d_MakeArcOfCircle::GCE2d_MakeArcOfCircle(const gp_Pnt2d&        P1     ,

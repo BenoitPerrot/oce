@@ -26,9 +26,9 @@
 #include <Intf_Tool.hxx>
 #include <Mathematics/Primitives/gp_XY.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
-#include <IntAna2d_Conic.hxx>
-#include <IntAna2d_IntPoint.hxx>
-#include <IntAna2d_AnaIntersection.hxx>
+#include <Geometry/IntAna2d/IntAna2d_Conic.hxx>
+#include <Geometry/IntAna2d/IntAna2d_IntPoint.hxx>
+#include <Geometry/IntAna2d/IntAna2d_AnaIntersection.hxx>
 #include <Geometry/IntAna/IntAna_IntConicQuad.hxx>
 #include <ElCLib.hxx>
 #include <Precision.hxx>

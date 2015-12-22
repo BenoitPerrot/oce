@@ -56,7 +56,7 @@ IMPLEMENT_STANDARD_RTTI(DrawDim_PlanarAngle)
 #include <ElCLib.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
-#include <IntAna2d_AnaIntersection.hxx>
+#include <Geometry/IntAna2d/IntAna2d_AnaIntersection.hxx>
 #include <BRepAdaptor_Surface.hxx>
 #include <Precision.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>

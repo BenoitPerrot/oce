@@ -26,8 +26,8 @@
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Geom2dGcc_Lin2dTanOblIter.hxx>
 
-#include <IntAna2d_AnaIntersection.hxx>
-#include <IntAna2d_IntPoint.hxx>
+#include <Geometry/IntAna2d/IntAna2d_AnaIntersection.hxx>
+#include <Geometry/IntAna2d/IntAna2d_IntPoint.hxx>
 #include <Geom2dGcc_IsParallel.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <GccEnt_BadQualifier.hxx>

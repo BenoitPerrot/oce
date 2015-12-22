@@ -35,8 +35,8 @@
 #include <Mathematics/Primitives/gp_Circ2d.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <GccEnt_BadQualifier.hxx>
-#include <IntAna2d_AnaIntersection.hxx>
-#include <IntAna2d_IntPoint.hxx>
+#include <Geometry/IntAna2d/IntAna2d_AnaIntersection.hxx>
+#include <Geometry/IntAna2d/IntAna2d_IntPoint.hxx>
 
 //=========================================================================
 //   Straight line passing by point  : ThePoint and                       +

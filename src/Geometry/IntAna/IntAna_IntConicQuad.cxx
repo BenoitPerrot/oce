@@ -39,8 +39,8 @@
 
 #include <Geometry/IntAna/IntAna_QuadQuadGeo.hxx>
 
-#include <IntAna2d_AnaIntersection.hxx>
-#include <IntAna2d_IntPoint.hxx>
+#include <Geometry/IntAna2d/IntAna2d_AnaIntersection.hxx>
+#include <Geometry/IntAna2d/IntAna2d_IntPoint.hxx>
 #include <Geometry/IntAna/IntAna_ResultType.hxx>
 
 #include <Mathematics/Primitives/gp_Vec.hxx>
