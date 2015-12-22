@@ -26,7 +26,7 @@
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <GeomAdaptor_Surface.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
@@ -38,9 +38,9 @@
 #include <Mathematics/Primitives/gp_Parab.hxx>
 #include <Geometry/Geom/Geom_BezierCurve.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
-#include <GeomAdaptor_Curve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 
-#include <GeomAdaptor_HCurve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_HCurve.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <GeomAbs_Shape.hxx>

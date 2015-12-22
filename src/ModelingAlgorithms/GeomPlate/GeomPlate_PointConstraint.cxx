@@ -37,7 +37,7 @@ IMPLEMENT_STANDARD_RTTI(GeomPlate_PointConstraint)
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Geometry/Extrema/Extrema_POnSurf.hxx>
 #include <Geometry/Extrema/Extrema_ExtPS.hxx>
-#include <GeomAdaptor_Surface.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
 
 //---------------------------------------------------------
 //         Constructeurs avec un point 

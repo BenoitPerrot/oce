@@ -30,8 +30,8 @@
 #include <Geometry/Geom/Geom_BezierSurface.hxx>
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
 
-#include <GeomAdaptor_Surface.hxx>
-#include <GeomAdaptor_Curve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 
 #include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>

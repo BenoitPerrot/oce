@@ -20,8 +20,8 @@
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <GeomFill_Tensor.hxx>
 #include <GeomFill_FunctionDraft.hxx>
-#include <GeomAdaptor_HSurface.hxx>
-#include <GeomAdaptor_HCurve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_HCurve.hxx>
 //#include <Precision.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 

@@ -46,9 +46,9 @@
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_OffsetCurve.hxx>
 
-#include <GeomAdaptor_Surface.hxx>
-#include <GeomAdaptor_HSurface.hxx>
-#include <GeomAdaptor_Curve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 
 #include <TColGeom_Array2OfBezierSurface.hxx>

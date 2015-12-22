@@ -55,7 +55,7 @@
 #include <Geometry/Geom/Geom_Geometry.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 
-#include <GeomAdaptor_Surface.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
 
 #include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>

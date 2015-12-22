@@ -19,10 +19,10 @@
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <DrawTrSurf.hxx>
-#include <GeomAdaptor_HCurve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_HCurve.hxx>
 #include <TopoDS_Shape.hxx>
 #include <DBRep.hxx>
-#include <GeomAdaptor_HSurface.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
 #include <BRepAdaptor_CompCurve.hxx>
 #include <TopoDS.hxx>
 #include <BRepAdaptor_HCompCurve.hxx>

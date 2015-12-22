@@ -41,7 +41,7 @@
 #include <TopExp.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/GCPnts/GCPnts_UniformAbscissa.hxx>
-#include <GeomAdaptor_Curve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 #include <Foundation/Standard/Standard_Assert.hxx>
 
 #define DEFAULT_COLOR    Quantity_NOC_GOLDENROD

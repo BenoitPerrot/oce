@@ -36,11 +36,11 @@
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <GeomAbs_CurveType.hxx>
 #include <GeomAbs_SurfaceType.hxx>
-#include <GeomAdaptor_Curve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_HCurve.hxx>
 
-#include <GeomAdaptor_HSurface.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
 #include <BRepAdaptor_Curve2d.hxx>
 #include <BRepAdaptor_HCurve.hxx>
 #include <BRepAdaptor_HCurve2d.hxx>

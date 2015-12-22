@@ -66,7 +66,7 @@
 #include <Geometry/Adaptor3d/Adaptor3d_TopolTool.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HCurveOnSurface.hxx>
-#include <GeomAdaptor_HSurface.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
 
 #include <FairCurve_Batten.hxx>
 #include <FairCurve_AnalysisCode.hxx>
@@ -172,7 +172,7 @@ extern void ChFi3d_ResultChron(OSD_Chronometer & ch,Standard_Real& time);
 
 #include <stdio.h>
 
-#include <GeomAdaptor_HCurve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_HCurve.hxx>
 #include <BRepAdaptor_HSurface.hxx>
 
 //=======================================================================

@@ -34,7 +34,7 @@
 #include <Geometry/Geom/Geom_OffsetSurface.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Geometry/Geom/Geom_BezierCurve.hxx>
-#include <GeomAdaptor_Curve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 #include <GeomAbs_CurveType.hxx>
 
 #include <Geometry/Geom2d/Geom2d_Line.hxx>

@@ -41,8 +41,8 @@
 
 #include <BRep_Tool.hxx>
 
-#include <GeomAdaptor_Surface.hxx>
-#include <GeomAdaptor_Curve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
@@ -69,8 +69,8 @@
 
 
 #include <IntCurveSurface_HInter.hxx>
-#include <GeomAdaptor_HCurve.hxx>
-#include <GeomAdaptor_HSurface.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_HCurve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
 #include <IntCurveSurface_IntersectionPoint.hxx>
 
 static

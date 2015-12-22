@@ -51,7 +51,7 @@
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 
 #include <GeomAbs_CurveType.hxx>
-#include <GeomAdaptor_Curve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 #include <GeomLib.hxx>
 
 #include <Geometry/Geom2d/Geom2d_Line.hxx>

@@ -3,14 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <GeomAdaptor_GHCurve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_GHCurve.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <GeomAdaptor_Curve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
 
  
@@ -31,9 +31,9 @@ IMPLEMENT_STANDARD_RTTI(GeomAdaptor_GHCurve)
 
 
 #define TheCurve GeomAdaptor_Curve
-#define TheCurve_hxx <GeomAdaptor_Curve.hxx>
+#define TheCurve_hxx <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 #define Adaptor3d_GenHCurve GeomAdaptor_GHCurve
-#define Adaptor3d_GenHCurve_hxx <GeomAdaptor_GHCurve.hxx>
+#define Adaptor3d_GenHCurve_hxx <Geometry/GeomAdaptor/GeomAdaptor_GHCurve.hxx>
 #define Handle_Adaptor3d_GenHCurve Handle_GeomAdaptor_GHCurve
 #define Adaptor3d_GenHCurve_Type_() GeomAdaptor_GHCurve_Type_()
 #include <Geometry/Adaptor3d/Adaptor3d_GenHCurve.gxx>

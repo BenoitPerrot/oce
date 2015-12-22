@@ -57,7 +57,7 @@
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 #include <Geometry/GCPnts/GCPnts_UniformAbscissa.hxx>
-#include <GeomAdaptor_Curve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Extrema/Extrema_LocateExtPC.hxx>
 

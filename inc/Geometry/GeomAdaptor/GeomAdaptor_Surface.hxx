@@ -259,7 +259,7 @@ private:
 };
 
 
-#include <GeomAdaptor_Surface.lxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Surface.lxx>
 
 
 

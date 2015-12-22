@@ -42,7 +42,7 @@
 
 #include <ShapeAnalysis_Curve.hxx>
 //#include <GeomLProp_SLProps.hxx>
-#include <GeomAdaptor_Surface.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
 #include <Geometry/Geom/Geom_ElementarySurface.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
@@ -70,7 +70,7 @@
 #include <GeomLib.hxx>
 
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
-#include <GeomAdaptor_Curve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 #include <ShapeAnalysis_WireOrder.hxx>
 #include <ShapeExtend_WireData.hxx>
 #include <ShapeAnalysis_Wire.hxx>

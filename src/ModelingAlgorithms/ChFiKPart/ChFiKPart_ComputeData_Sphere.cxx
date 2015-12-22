@@ -35,8 +35,8 @@
 #include <Geometry/Geom/Geom_Circle.hxx>
 #include <Geometry/Geom/Geom_SphericalSurface.hxx>
 #include <ElSLib.hxx>
-#include <GeomAdaptor_Curve.hxx>
-#include <GeomAdaptor_Surface.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
 #include <ChFiKPart_ComputeData_Fcts.hxx>
 
 //=======================================================================

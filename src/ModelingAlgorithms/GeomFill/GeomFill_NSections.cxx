@@ -56,8 +56,8 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_NSections)
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>
-#include <GeomAdaptor_Curve.hxx>
-#include <GeomAdaptor_Surface.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 
 #include <Geometry/GCPnts/GCPnts_AbscissaPoint.hxx>

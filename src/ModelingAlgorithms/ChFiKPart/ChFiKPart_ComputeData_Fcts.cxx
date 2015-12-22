@@ -29,8 +29,8 @@
 
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 
-#include <GeomAdaptor_HCurve.hxx>
-#include <GeomAdaptor_HSurface.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_HCurve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
 
 
 

@@ -61,8 +61,8 @@
 #include <ProjLib_ProjectedCurve.hxx>
 #include <GeomProjLib.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor.hxx>
-#include <GeomAdaptor_HCurve.hxx>
-#include <GeomAdaptor_HSurface.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_HCurve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
 #include <Precision.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <Mathematics/Polyhedral/Poly_Polygon3D.hxx>

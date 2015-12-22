@@ -40,8 +40,8 @@
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BRepBndLib.hxx>
-#include <GeomAdaptor_Curve.hxx>
-#include <GeomAdaptor_Surface.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
 #include <Geometry/BndLib/BndLib_Add3dCurve.hxx>
 #include <Geometry/BndLib/BndLib_AddSurface.hxx>
 #include <XSAlgo.hxx>

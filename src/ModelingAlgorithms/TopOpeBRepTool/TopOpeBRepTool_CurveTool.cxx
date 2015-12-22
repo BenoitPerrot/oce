@@ -39,9 +39,9 @@
 #include <GeomLib_Check2dBSplineCurve.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <BRepAdaptor_Surface.hxx>
-#include <GeomAdaptor_Curve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 #include <BRepAdaptor_HSurface.hxx>
-#include <GeomAdaptor_HCurve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_HCurve.hxx>
 #include <GeomAbs_SurfaceType.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>

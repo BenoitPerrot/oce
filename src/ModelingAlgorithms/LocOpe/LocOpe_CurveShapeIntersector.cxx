@@ -30,7 +30,7 @@
 
 #include <Precision.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
-#include <GeomAdaptor_Curve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 
 static void Perform(BRepIntCurveSurface_Inter&,
 		    LocOpe_SequenceOfPntFace&);

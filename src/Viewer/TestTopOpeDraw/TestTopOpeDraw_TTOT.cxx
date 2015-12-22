@@ -15,8 +15,8 @@
 // commercial license or contractual agreement.
 
 #include <TestTopOpeDraw_TTOT.hxx>
-#include <GeomAdaptor_Curve.hxx>
-#include <GeomAdaptor_Surface.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
 #include <BRep_Tool.hxx>
 
 //=======================================================================

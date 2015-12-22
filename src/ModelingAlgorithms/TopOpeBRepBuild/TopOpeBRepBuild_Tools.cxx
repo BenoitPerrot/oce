@@ -41,8 +41,8 @@
 #include <BRepAdaptor_Surface.hxx>
 #include <BRepAdaptor_Curve.hxx>
 
-#include <GeomAdaptor_Surface.hxx>
-#include <GeomAdaptor_Curve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
@@ -81,7 +81,7 @@
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <BRep_Tool.hxx>
 #include <BRepAdaptor_HSurface.hxx>
-#include <GeomAdaptor_HCurve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_HCurve.hxx>
 #include <ProjLib_ProjectedCurve.hxx>
 #include <GeomAbs_CurveType.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>

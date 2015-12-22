@@ -22,7 +22,7 @@
 #include <TopoDS_Face.hxx>
 #include <Select3D_ListOfSensitive.hxx>
 #include <StdSelect_BRepSelectionTool.hxx>
-#include <GeomAdaptor_Curve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 #include <BRepAdaptor_Curve.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>
 #include <TopExp.hxx>

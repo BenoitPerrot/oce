@@ -42,7 +42,7 @@
 #include <TopAbs.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <GeomAbs_Shape.hxx>
-#include <GeomAdaptor_Curve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <BRepLib_MakeVertex.hxx>
 #include <BRepLib_MakeEdge.hxx>

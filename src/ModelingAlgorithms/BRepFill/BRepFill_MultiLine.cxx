@@ -47,9 +47,9 @@
 #include <TopExp_Explorer.hxx>
 #include <TopoDS.hxx>
 #include <ElCLib.hxx>
-#include <GeomAdaptor_Curve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 
-#include <GeomAdaptor_Surface.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
 #include <GeomAbs_SurfaceType.hxx>
 
 #ifdef DRAW

@@ -16,7 +16,7 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <IntTools_Curve.hxx>
 #include <Geometry/Geom/Geom_BoundedCurve.hxx>
-#include <GeomAdaptor_Curve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 
 //=======================================================================
 //function : IntTools_Curve::IntTools_Curve

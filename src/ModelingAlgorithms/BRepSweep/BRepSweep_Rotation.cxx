@@ -31,8 +31,8 @@
 #include <TopExp.hxx>
 #include <ElSLib.hxx>
 #include <ElCLib.hxx>
-#include <GeomAdaptor_Curve.hxx>
-#include <GeomAdaptor_Surface.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_SurfaceOfRevolution.hxx>
 #include <Geometry/Geom/Geom_SurfaceOfRevolution.hxx>
 #include <Geometry/Geom/Geom_CylindricalSurface.hxx>
@@ -63,7 +63,7 @@
 #include <Precision.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 
-#include <GeomAdaptor_HCurve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_HCurve.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 
 static Standard_Real ComputeTolerance(TopoDS_Edge& E,

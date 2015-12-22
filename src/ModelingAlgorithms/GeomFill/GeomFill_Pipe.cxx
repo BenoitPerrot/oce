@@ -70,8 +70,8 @@
 #include <Geometry/Geom/Geom_SurfaceOfLinearExtrusion.hxx>
 
 #include <GeomAbs_SurfaceType.hxx>
-#include <GeomAdaptor_Curve.hxx>
-#include <GeomAdaptor_HCurve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_HCurve.hxx>
 #include <GeomLProp_CLProps.hxx>
 
 #include <Geometry/Approx/Approx_SweepApproximation.hxx>
@@ -89,7 +89,7 @@
 #include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HCurveOnSurface.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_HCurve.hxx>
-#include <GeomAdaptor_HSurface.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <TColGeom_SequenceOfCurve.hxx>
 

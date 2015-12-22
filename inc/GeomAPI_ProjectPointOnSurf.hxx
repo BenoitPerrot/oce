@@ -13,7 +13,7 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Geometry/Extrema/Extrema_ExtPS.hxx>
-#include <GeomAdaptor_Surface.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
 #include <Handle_Geom_Surface.hxx>
 #include <Geometry/Extrema/Extrema_ExtAlgo.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

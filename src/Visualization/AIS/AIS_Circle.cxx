@@ -46,7 +46,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_Circle)
 #include <StdPrs_DeflectionCurve.hxx>
 #include <TopoDS.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>
-#include <GeomAdaptor_Curve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 #include <AIS_Drawer.hxx>
 #include <Geometry/GC/GC_MakeArcOfCircle.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>

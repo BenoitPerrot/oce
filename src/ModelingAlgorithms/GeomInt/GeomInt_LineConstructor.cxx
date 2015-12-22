@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Geometry/Adaptor3d/Adaptor3d_TopolTool.hxx>
-#include <GeomAdaptor_HSurface.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <IntPatch_Line.hxx>
@@ -36,7 +36,7 @@
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 
-#include <GeomAdaptor_HSurface.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <IntSurf_Quadric.hxx>
 #include <IntSurf_PntOn2S.hxx>

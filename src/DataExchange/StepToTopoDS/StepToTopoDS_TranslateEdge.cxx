@@ -63,7 +63,7 @@
 #include <Transfer_TransientProcess.hxx>
 //#include <TransferBRep.hxx>
 
-#include <GeomAdaptor_Curve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 #include <Geometry/GCPnts/GCPnts_AbscissaPoint.hxx>
 #include <Precision.hxx>
 

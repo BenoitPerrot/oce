@@ -57,7 +57,7 @@
 #include <BRepBlend_Walking.hxx>
 #include <BRepAdaptor_HSurface.hxx>
 #include <BRepAdaptor_Curve2d.hxx>
-#include <GeomAdaptor_HCurve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_HCurve.hxx>
 
 
 #include <Geometry/Extrema/Extrema_GenLocateExtPS.hxx>

@@ -44,7 +44,7 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_EvolvedSection)
 #include <Geometry/Geom/Geom_Geometry.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
-#include <GeomAdaptor_Curve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 
 #include <Geometry/GCPnts/GCPnts_AbscissaPoint.hxx>
 #include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>

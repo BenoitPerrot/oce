@@ -66,7 +66,7 @@
 #include <Foundation/Message/Message_Msg.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <Foundation/Message/Message_ProgressSentry.hxx>
-#include <GeomAdaptor_Surface.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
 
 //=======================================================================
 //function : IGESToBRep_CurveAndSurface

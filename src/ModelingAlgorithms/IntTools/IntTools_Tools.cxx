@@ -57,11 +57,11 @@
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <GeomAdaptor_Surface.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <GeomAPI_ProjectPointOnSurf.hxx>
 #include <GeomAPI_ProjectPointOnCurve.hxx>
-#include <GeomAdaptor_Curve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 #include <GeomAbs_CurveType.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>

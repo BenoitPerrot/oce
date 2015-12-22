@@ -35,7 +35,7 @@
 #include <Geometry/Geom2d/Geom2d_BoundedCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
-#include <GeomAdaptor_Curve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 
 #include <Precision.hxx>
 

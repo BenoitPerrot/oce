@@ -41,8 +41,8 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_Darboux)
 #include <CSLib.hxx>
 #include <Mathematics/Collections/TColgp_Array2OfVec.hxx>
 #include <Geometry/Geom/Geom_UndefinedValue.hxx>
-#include <GeomAdaptor_HSurface.hxx>
-#include <GeomAdaptor_Surface.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
 
 //=======================================================================
 //function : FDeriv

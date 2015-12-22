@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(DrawTrSurf_Curve)
 IMPLEMENT_DOWNCAST(DrawTrSurf_Curve,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(DrawTrSurf_Curve)
-#include <GeomAdaptor_Curve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 #include <GeomTools_CurveSet.hxx>
 #include <GeomLProp_CLProps.hxx>
 #include <Precision.hxx>

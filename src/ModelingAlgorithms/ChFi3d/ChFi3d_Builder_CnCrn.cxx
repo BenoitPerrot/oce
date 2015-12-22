@@ -95,14 +95,14 @@
 #include <GeomLib.hxx>
 #include <Geometry/Extrema/Extrema_ExtPC.hxx>
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
-#include <GeomAdaptor_HSurface.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <GeomInt_IntSS.hxx>
 #include <GeomLib.hxx>
-#include <GeomAdaptor.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_HCurve.hxx>
 #include <GeomPlate_BuildPlateSurface.hxx>
 #include <GeomPlate_Surface.hxx>

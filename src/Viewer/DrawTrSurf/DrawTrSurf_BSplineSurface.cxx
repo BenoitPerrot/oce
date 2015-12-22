@@ -32,8 +32,8 @@ IMPLEMENT_STANDARD_RTTI(DrawTrSurf_BSplineSurface)
 #include <DrawTrSurf_BSplineCurve.hxx>
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <Draw_MarkerShape.hxx>
-#include <GeomAdaptor_HSurface.hxx>
-#include <GeomAdaptor_Surface.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_IsoCurve.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 

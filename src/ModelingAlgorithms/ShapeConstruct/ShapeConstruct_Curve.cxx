@@ -42,7 +42,7 @@
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 
 #include <GeomConvert.hxx>
-#include <GeomAdaptor_HCurve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_HCurve.hxx>
 #include <Geometry/Approx/Approx_Curve3d.hxx>
 
 #include <Geometry/Geom2dConvert/Geom2dConvert.hxx>

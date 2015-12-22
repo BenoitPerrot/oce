@@ -3,14 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <GeomAdaptor_GHSurface.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_GHSurface.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <GeomAdaptor_Surface.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_Surface.hxx>
 
  
@@ -31,9 +31,9 @@ IMPLEMENT_STANDARD_RTTI(GeomAdaptor_GHSurface)
 
 
 #define TheSurface GeomAdaptor_Surface
-#define TheSurface_hxx <GeomAdaptor_Surface.hxx>
+#define TheSurface_hxx <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
 #define Adaptor3d_GenHSurface GeomAdaptor_GHSurface
-#define Adaptor3d_GenHSurface_hxx <GeomAdaptor_GHSurface.hxx>
+#define Adaptor3d_GenHSurface_hxx <Geometry/GeomAdaptor/GeomAdaptor_GHSurface.hxx>
 #define Handle_Adaptor3d_GenHSurface Handle_GeomAdaptor_GHSurface
 #define Adaptor3d_GenHSurface_Type_() GeomAdaptor_GHSurface_Type_()
 #include <Geometry/Adaptor3d/Adaptor3d_GenHSurface.gxx>

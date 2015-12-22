@@ -28,7 +28,7 @@
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <GeomLProp_CLProps.hxx>
 #include <GeomAbs_CurveType.hxx> 
-#include <GeomAdaptor_HSurface.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
 
 #include <Mathematics/Primitives/gp_Ax3.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>

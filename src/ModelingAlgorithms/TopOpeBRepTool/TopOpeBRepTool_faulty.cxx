@@ -19,7 +19,7 @@
 #include <TopOpeBRepTool_2d.hxx>
 #include <TopExp_Explorer.hxx>
 #include <BRep_Tool.hxx>
-#include <GeomAdaptor_Surface.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
 #include <TopTools_Array1OfShape.hxx>
 #include <TopoDS.hxx>
 #include <TopExp.hxx>

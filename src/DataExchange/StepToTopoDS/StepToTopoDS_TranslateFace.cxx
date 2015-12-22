@@ -57,10 +57,10 @@
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <GeomAbs_Shape.hxx>
-#include <GeomAdaptor_Surface.hxx>
-#include <GeomAdaptor_HSurface.hxx>
-//#include <GeomAdaptor_Curve.hxx>
-//#include <GeomAdaptor_CurveOnSurface.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
+//#include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
+//#include <Geometry/GeomAdaptor/GeomAdaptor_CurveOnSurface.hxx>
 
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 

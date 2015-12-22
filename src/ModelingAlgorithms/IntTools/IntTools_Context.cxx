@@ -43,7 +43,7 @@ IMPLEMENT_STANDARD_RTTI(IntTools_Context)
 #include <Geometry/Geom/Geom_BoundedCurve.hxx>
 #include <GeomAPI_ProjectPointOnCurve.hxx>
 #include <GeomAPI_ProjectPointOnSurf.hxx>
-#include <GeomAdaptor_Curve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 
 #include <Geom2dHatch_Intersector.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>

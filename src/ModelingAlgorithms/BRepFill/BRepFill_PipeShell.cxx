@@ -82,7 +82,7 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_PipeShell)
 #include <GeomFill_LocationGuide.hxx>
 
 //Specification Guide
-#include <GeomAdaptor_HCurve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_HCurve.hxx>
 
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
@@ -98,7 +98,7 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_PipeShell)
 
 #include <GProp_GProps.hxx>
 #include <BRepGProp.hxx>
-#include <GeomAdaptor_HSurface.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
 #include <IntCurveSurface_HInter.hxx>
 #include <IntCurveSurface_IntersectionPoint.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt2d.hxx>

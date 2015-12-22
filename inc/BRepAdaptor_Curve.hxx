@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Mathematics/Primitives/gp_Trsf.hxx>
-#include <GeomAdaptor_Curve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 #include <Handle_Adaptor3d_HCurveOnSurface.hxx>
 #include <TopoDS_Edge.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>

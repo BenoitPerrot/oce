@@ -47,7 +47,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_Line)
 #include <Select3D_SensitiveSegment.hxx>
 #include <StdPrs_Curve.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
-#include <GeomAdaptor_Curve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 #include <AIS_Drawer.hxx>
 #include <Geometry/GC/GC_MakeSegment.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>

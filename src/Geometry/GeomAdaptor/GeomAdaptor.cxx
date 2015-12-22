@@ -18,7 +18,7 @@
 #include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_Surface.hxx>
-#include <GeomAdaptor.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor.hxx>
 
 #include <Geometry/Geom/Geom_Line.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>

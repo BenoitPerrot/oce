@@ -47,7 +47,7 @@
 #include <ElCLib.hxx>
 #include <ElSLib.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
-#include <GeomAdaptor_Curve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 #include <GeomAPI_ProjectPointOnCurve.hxx>
 #include <GeomAPI_ProjectPointOnSurf.hxx>
 #include <Geom2dAPI_ProjectPointOnCurve.hxx>

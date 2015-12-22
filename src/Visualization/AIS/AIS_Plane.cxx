@@ -58,7 +58,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_Plane)
 #include <StdPrs_ShadedSurface.hxx>
 
 #include <Geometry/Geom/Geom_Plane.hxx>
-#include <GeomAdaptor_Surface.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
 
 #include <Aspect_TypeOfLine.hxx>
 #include <Graphic3d_AspectLine3d.hxx>

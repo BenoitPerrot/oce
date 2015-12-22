@@ -43,9 +43,9 @@
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <BRepClass_FaceClassifier.hxx>
 
-#include <GeomAdaptor_Curve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 
-#include <GeomAdaptor_HCurve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_HCurve.hxx>
 #include <BRepAdaptor_HSurface.hxx>
 
 

@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_GeomAdaptor_HCurve.hxx>
 
-#include <GeomAdaptor_GHCurve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_GHCurve.hxx>
 #include <Handle_Geom_Curve.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class Standard_ConstructionError;
@@ -54,7 +54,7 @@ private:
 };
 
 
-#include <GeomAdaptor_HCurve.lxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_HCurve.lxx>
 
 
 

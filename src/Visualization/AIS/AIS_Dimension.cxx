@@ -28,7 +28,7 @@
 #endif // OCE_DISABLE_TKSERVICE_FONT
 #include <Geometry/GC/GC_MakeCircle.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
-#include <GeomAdaptor_Curve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Geometry/gce/gce_MakeDir.hxx>

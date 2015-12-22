@@ -58,7 +58,7 @@
 #include <AIS_LengthDimension.hxx>
 #include <AIS_RadiusDimension.hxx>
 #include <BRepPrimAPI_MakeBox.hxx>
-#include <GeomAdaptor_Surface.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
 #include <Geometry/Extrema/Extrema_ExtPS.hxx>
 #include <Geometry/Geom/Geom_CartesianPoint.hxx>
 #include <Geometry/Geom2d/Geom2d_CartesianPoint.hxx>

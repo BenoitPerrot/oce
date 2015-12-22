@@ -42,7 +42,7 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_ACRLaw)
 #include <GeomFill_HArray1OfLocationLaw.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
-#include <GeomAdaptor_HCurve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_HCurve.hxx>
 #include <Geometry/Approx/Approx_CurvlinFunc.hxx>
 
 BRepFill_ACRLaw::BRepFill_ACRLaw(const TopoDS_Wire& Path,

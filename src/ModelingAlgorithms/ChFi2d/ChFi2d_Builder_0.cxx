@@ -41,7 +41,7 @@
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 
-#include <GeomAdaptor_Curve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 #include <GeomAPI.hxx>
 #include <Geometry/GCPnts/GCPnts_AbscissaPoint.hxx>
 

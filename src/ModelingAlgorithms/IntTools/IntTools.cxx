@@ -290,7 +290,7 @@
   }
 }
 
-#include <GeomAdaptor_Curve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <ElCLib.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>

@@ -17,7 +17,7 @@
 #include <TopOpeBRepTool.hxx>
 #include <TopOpeBRepTool_TOOL.hxx>
 #include <TopoDS_Face.hxx>
-#include <GeomAdaptor_Surface.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <TopoDS_Edge.hxx>
@@ -35,7 +35,7 @@
 #include <TopTools_Array1OfShape.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
-#include <GeomAdaptor_Surface.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
 #include <Geometry/BndLib/BndLib_Add2dCurve.hxx>
 #include <TopoDS.hxx>
 

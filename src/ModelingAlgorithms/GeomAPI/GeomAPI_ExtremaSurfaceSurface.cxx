@@ -22,7 +22,7 @@
 #include <GeomAPI_ExtremaSurfaceSurface.hxx>
 
 
-#include <GeomAdaptor_Surface.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
 #include <Geometry/Extrema/Extrema_POnSurf.hxx>
 
 #include <Precision.hxx>

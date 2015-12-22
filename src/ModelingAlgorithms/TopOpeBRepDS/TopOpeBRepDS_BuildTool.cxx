@@ -39,7 +39,7 @@
 #include <TopOpeBRepDS_SurfaceCurveInterference.hxx>
 #include <Precision.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
-#include <GeomAdaptor_Curve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
@@ -82,7 +82,7 @@
 #include <Geometry/Geom/Geom_OffsetCurve.hxx>
 // includes especially needed by the static Project function
 #include <BRep_Tool.hxx>
-#include <GeomAdaptor_Curve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 #include <Geometry/Extrema/Extrema_ExtPC.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geometry/Extrema/Extrema_POnCurv.hxx>

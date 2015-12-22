@@ -40,8 +40,8 @@
 #include <GeomConvert.hxx>
 #include <Precision.hxx>
 #include <ElCLib.hxx>
-#include <GeomAdaptor.hxx>
-#include <GeomAdaptor_Curve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 #include <Geometry/GCPnts/GCPnts_QuasiUniformDeflection.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 

@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_RTTI(IGESToBRep_IGESBoundary)
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
-#include <GeomAdaptor_Curve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 #include <Precision.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Wire.hxx>

@@ -220,7 +220,7 @@ private:
 };
 
 
-#include <GeomAdaptor_Curve.lxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Curve.lxx>
 
 
 

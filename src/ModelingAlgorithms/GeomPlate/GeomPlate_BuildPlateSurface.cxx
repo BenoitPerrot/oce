@@ -75,7 +75,7 @@
 #include <Geom2dInt_GInter.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
-#include <GeomAdaptor_Surface.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
 
 // projection
 #include <Geometry/Extrema/Extrema_ExtPS.hxx>
@@ -83,8 +83,8 @@
 #include <ProjLib_CompProjectedCurve.hxx>
 #include <ProjLib_HCompProjectedCurve.hxx>
 #include <Geometry/Approx/Approx_CurveOnSurface.hxx>
-#include <GeomAdaptor.hxx>
-#include <GeomAdaptor_HSurface.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
 #include <GeomLProp_SLProps.hxx>
 #include <Geometry/Geom2d/Geom2d_BezierCurve.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>

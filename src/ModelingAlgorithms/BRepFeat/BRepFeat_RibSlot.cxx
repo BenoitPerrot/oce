@@ -82,7 +82,7 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 
 #include <GeomLib.hxx>
-#include <GeomAdaptor_Curve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>

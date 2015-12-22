@@ -94,7 +94,7 @@ extern Standard_Boolean TopOpeBRepTool_GettraceC2D();
 //Standard_IMPORT void FUN_tool_ttranslate(const gp_Vec2d& tvector, const TopoDS_Face& fF, TopoDS_Edge& fyE);
 
 #include <TopOpeBRepTool_ShapeTool.hxx>
-#include <GeomAdaptor_Surface.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
 #include <GeomAbs_SurfaceType.hxx>
 //---------------------------------------------
 static Standard_Boolean FUN_periodicS(const TopoDS_Shape& F)

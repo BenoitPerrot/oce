@@ -21,7 +21,7 @@
 #include <Geometry/Extrema/Extrema_ExtPS.hxx>
 #include <GeomAPI_ProjectPointOnSurf.hxx>
 
-#include <GeomAdaptor_Surface.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
 
 #include <Precision.hxx>
 

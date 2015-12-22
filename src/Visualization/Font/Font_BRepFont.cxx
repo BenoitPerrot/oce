@@ -26,7 +26,7 @@
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <GeomAPI.hxx>
-#include <GeomAdaptor_HSurface.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
 #include <GeomLib.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <ShapeBuild_ReShape.hxx>

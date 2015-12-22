@@ -53,7 +53,7 @@
 #include <ShapeFix_Wire.hxx>
 #include <ShapeFix_Face.hxx>
 #include <TopoDS_Iterator.hxx>
-#include <GeomAdaptor_HSurface.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
 #include <TopTools_MapOfShape.hxx>
 #include <BRepLib.hxx>
 

@@ -42,7 +42,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_FixSmallFace)
 
 #include <ShapeAnalysis_Curve.hxx>
 //#include <GeomLProp_SLProps.hxx>
-#include <GeomAdaptor_Surface.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
 #include <Geometry/Geom/Geom_ElementarySurface.hxx>
 //#include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
@@ -73,7 +73,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_FixSmallFace)
 #include <ShapeFix_Face.hxx>
 #include <ShapeFix_Wire.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
-#include <GeomAdaptor_Curve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 #include <ShapeFix_Shape.hxx>
 #include <Precision.hxx>
 #include <TopExp_Explorer.hxx>

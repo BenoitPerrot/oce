@@ -610,7 +610,7 @@ static Standard_Integer OCC24008 (Draw_Interpretor& di, Standard_Integer argc, c
   return 0;
 }
 
-#include <GeomAdaptor_Surface.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
 #include <Draw.hxx>
 //=======================================================================
 //function : OCC23945
@@ -1382,7 +1382,7 @@ static Standard_Integer OCC24086 (Draw_Interpretor& di, Standard_Integer argc, c
 }
 
 #include <Geometry/Geom/Geom_Circle.hxx>
-#include <GeomAdaptor_Curve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 #include <Geometry/Extrema/Extrema_ExtPC.hxx>
 #include <Mathematics/Primitives/gp_Cylinder.hxx>
 #include <ElSLib.hxx>

@@ -30,7 +30,7 @@
 #include <Geometry/Extrema/Extrema_GlobOptFuncCS.hxx>
 #include <Geometry/Extrema/Extrema_POnCurv.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
-#include <GeomAdaptor_Curve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 #include <Mathematics/Optimization/math_FunctionSetRoot.hxx>
 #include <Mathematics/Optimization/math_PSO.hxx>
 #include <Mathematics/Optimization/math_PSOParticlesPool.hxx>

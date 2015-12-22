@@ -44,8 +44,8 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_GuideTrihedronAC)
 
 #include <Geometry/Approx/Approx_CurvlinFunc.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
-#include <GeomAdaptor.hxx>
-#include <GeomAdaptor_HCurve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_HCurve.hxx>
 
 #include <GeomFill_Frenet.hxx>
 #include <GeomLib.hxx>

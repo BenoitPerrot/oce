@@ -46,7 +46,7 @@
 #include <BRepTopAdaptor_FClass2d.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <BRepIntCurveSurface_Inter.hxx>
-#include <GeomAdaptor_Curve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfInteger.hxx>

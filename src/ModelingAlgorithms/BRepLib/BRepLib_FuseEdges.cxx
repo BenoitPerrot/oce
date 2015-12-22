@@ -85,7 +85,7 @@
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <GeomConvert_CompCurveToBSplineCurve.hxx>
 #include <Geometry/Extrema/Extrema_LocateExtPC.hxx>
-#include <GeomAdaptor_Curve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 #include <GeomConvert.hxx>
 
 //#ifdef OCCT_DEBUG

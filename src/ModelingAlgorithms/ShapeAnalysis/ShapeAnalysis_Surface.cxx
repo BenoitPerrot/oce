@@ -27,7 +27,7 @@
 //:r9 abv 09.04.99: id_turbine-C.stp #3865: check degenerated 2d point by recomputing to 3d instead of Resolution
 //:s5 abv 22.04.99  Adding debug printouts in catch {} blocks
 #include <Geometry/Geom/Geom_Surface.hxx>
-#include <GeomAdaptor_HSurface.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
@@ -68,7 +68,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeAnalysis_Surface)
 #include <ShapeAnalysis.hxx>
 
 #include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
-#include <GeomAdaptor_Curve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_IsoCurve.hxx>
 
 #include <GeomAbs_SurfaceForm.hxx>

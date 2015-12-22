@@ -21,7 +21,7 @@
 #include <Geometry/Extrema/Extrema_ExtCC.hxx>
 #include <GeomAPI_ExtremaCurveCurve.hxx>
 
-#include <GeomAdaptor_Curve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 //#include <Geometry/Extrema/Extrema_POnCurv.hxx>
 
 #include <Precision.hxx>

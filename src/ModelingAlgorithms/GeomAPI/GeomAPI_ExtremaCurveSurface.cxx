@@ -22,8 +22,8 @@
 #include <Geometry/Extrema/Extrema_ExtCS.hxx>
 #include <GeomAPI_ExtremaCurveSurface.hxx>
 
-#include <GeomAdaptor_Curve.hxx>
-#include <GeomAdaptor_Surface.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
 #include <Geometry/Extrema/Extrema_POnCurv.hxx>
 #include <Geometry/Extrema/Extrema_POnSurf.hxx>
 

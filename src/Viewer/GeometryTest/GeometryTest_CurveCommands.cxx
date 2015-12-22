@@ -85,9 +85,9 @@
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>
 
-#include <GeomAdaptor_HCurve.hxx>
-#include <GeomAdaptor_HSurface.hxx>
-#include <GeomAdaptor.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_HCurve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_HCurve.hxx>
 
 #include <GeomAbs_SurfaceType.hxx>
@@ -114,7 +114,7 @@
 #include <GeomAPI_ExtremaCurveCurve.hxx>
 #include <Geometry/gce/gce_MakeLin.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>
-#include <GeomAdaptor_HSurface.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_TopolTool.hxx>
 #include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>

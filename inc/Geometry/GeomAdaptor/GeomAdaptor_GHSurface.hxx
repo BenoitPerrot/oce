@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_GeomAdaptor_GHSurface.hxx>
 
-#include <GeomAdaptor_Surface.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 class Standard_OutOfRange;
 class Standard_NoSuchObject;
@@ -55,9 +55,9 @@ private:
 };
 
 #define TheSurface GeomAdaptor_Surface
-#define TheSurface_hxx <GeomAdaptor_Surface.hxx>
+#define TheSurface_hxx <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
 #define Adaptor3d_GenHSurface GeomAdaptor_GHSurface
-#define Adaptor3d_GenHSurface_hxx <GeomAdaptor_GHSurface.hxx>
+#define Adaptor3d_GenHSurface_hxx <Geometry/GeomAdaptor/GeomAdaptor_GHSurface.hxx>
 #define Handle_Adaptor3d_GenHSurface Handle_GeomAdaptor_GHSurface
 #define Adaptor3d_GenHSurface_Type_() GeomAdaptor_GHSurface_Type_()
 

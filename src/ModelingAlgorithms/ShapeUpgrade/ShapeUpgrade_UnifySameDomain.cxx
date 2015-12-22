@@ -41,7 +41,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_UnifySameDomain)
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
 #include <TopoDS_Face.hxx>
 #include <BRep_Tool.hxx>
-#include <GeomAdaptor_HSurface.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
 #include <BRepTopAdaptor_TopolTool.hxx>
 #include <IntPatch_ImpImpIntersection.hxx>
 #include <GeomLib_IsPlanarSurface.hxx>

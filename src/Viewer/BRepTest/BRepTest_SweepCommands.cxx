@@ -47,7 +47,7 @@ static BRepOffsetAPI_MakePipeShell* Sweep= 0;
 //#ifdef WNT
 #include <stdio.h>
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <GeomAdaptor_HCurve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_HCurve.hxx>
 #include <GeomFill_Pipe.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <BRepLib_MakeFace.hxx>

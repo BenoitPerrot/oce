@@ -76,7 +76,7 @@
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <GeomFill_Generator.hxx>
-#include <GeomAdaptor_Curve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 #include <BRepLProp.hxx>
 #include <BRepGProp.hxx>
 #include <GProp_GProps.hxx>

@@ -17,7 +17,7 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <GeomConvert_ApproxSurface.hxx>
 
-#include <GeomAdaptor_HSurface.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
 #include <Precision.hxx>
 #include <Geometry/AdvApp2Var/AdvApp2Var_ApproxAFunc2Var.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

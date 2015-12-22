@@ -61,7 +61,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Face)
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
-#include <GeomAdaptor_HSurface.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
 
 #include <TopoDS.hxx>
 #include <TopoDS_Edge.hxx>

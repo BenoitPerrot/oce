@@ -33,7 +33,7 @@
 #include <ElCLib.hxx>
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <GeomAdaptor_Curve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 
 //=======================================================================
 //function : Add

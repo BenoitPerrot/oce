@@ -30,7 +30,7 @@
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Geometry/Geom/Geom_SurfaceOfRevolution.hxx>
 
-#include <GeomAdaptor_HCurve.hxx>
+#include <Geometry/GeomAdaptor/GeomAdaptor_HCurve.hxx>
 #include <GeomTools.hxx>
 
 #include <Precision.hxx>
