@@ -61,7 +61,7 @@
 #include <Geometry/Geom2d/Geom2d_OffsetCurve.hxx>
 #include <GeomAbs_Shape.hxx>
 
-#include <Hermit.hxx>
+#include <Geometry/Hermit/Hermit.hxx>
 
 #include <Precision.hxx>
 

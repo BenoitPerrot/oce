@@ -72,7 +72,7 @@
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <TColGeom_Array1OfCurve.hxx>
 
-#include <Hermit.hxx>
+#include <Geometry/Hermit/Hermit.hxx>
 
 #include <Mathematics/Polynomial/PLib.hxx>
 

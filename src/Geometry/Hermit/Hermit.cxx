@@ -16,7 +16,7 @@
 
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
-#include <Hermit.hxx>
+#include <Geometry/Hermit/Hermit.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>

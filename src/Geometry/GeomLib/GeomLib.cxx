@@ -65,7 +65,7 @@
 
 #include <Precision.hxx>
 #include <Geometry/GeomConvert/GeomConvert.hxx>
-#include <Hermit.hxx>
+#include <Geometry/Hermit/Hermit.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Geometry/GeomLib/GeomLib_MakeCurvefromApprox.hxx>
 #include <Geometry/GeomLib/GeomLib_DenominatorMultiplier.hxx>
