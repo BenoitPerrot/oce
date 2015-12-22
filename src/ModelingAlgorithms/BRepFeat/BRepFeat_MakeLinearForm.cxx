@@ -53,7 +53,7 @@
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
 
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
-#include <GeomProjLib.hxx>
+#include <Geometry/GeomProjLib/GeomProjLib.hxx>
 
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>

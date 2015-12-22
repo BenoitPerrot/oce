@@ -37,7 +37,7 @@
 #include <GeomAPI_IntSS.hxx>
 
 //#include <Geometry/GeomLProp/GeomLProp.hxx>
-#include <GeomProjLib.hxx>
+#include <Geometry/GeomProjLib/GeomProjLib.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 
 #include <Mathematics/Primitives/gp.hxx>

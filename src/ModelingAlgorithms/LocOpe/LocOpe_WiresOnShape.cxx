@@ -55,7 +55,7 @@ IMPLEMENT_STANDARD_RTTI(LocOpe_WiresOnShape)
 #include <TopoDS.hxx>
 #include <TopExp.hxx>
 #include <BRepTools.hxx>
-#include <GeomProjLib.hxx>
+#include <Geometry/GeomProjLib/GeomProjLib.hxx>
 #include <LocOpe.hxx>
 #include <Precision.hxx>
 

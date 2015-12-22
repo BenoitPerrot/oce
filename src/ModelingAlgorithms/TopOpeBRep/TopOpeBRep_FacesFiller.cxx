@@ -41,7 +41,7 @@
 #include <TopoDS.hxx>
 #include <BRep_Tool.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
-#include <GeomProjLib.hxx>
+#include <Geometry/GeomProjLib/GeomProjLib.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>

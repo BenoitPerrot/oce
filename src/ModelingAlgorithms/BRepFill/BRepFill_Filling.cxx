@@ -58,7 +58,7 @@
 #include <TopoDS_Vertex.hxx>
 
 #include <Precision.hxx>
-#include <GeomProjLib.hxx>
+#include <Geometry/GeomProjLib/GeomProjLib.hxx>
 #include <BRepTools.hxx>
 #include <BRep_Builder.hxx>
 #include <BRepLib.hxx>

@@ -65,7 +65,7 @@
 #include <Geometry/Geom2dConvert/Geom2dConvert_BSplineCurveToBezierCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_BezierCurve.hxx>
 #include <BRep_Tool.hxx>
-#include <GeomProjLib.hxx>
+#include <Geometry/GeomProjLib/GeomProjLib.hxx>
 #include <Geom2dAPI_InterCurveCurve.hxx>
 #include <IntRes2d_IntersectionSegment.hxx>
 #include <TDataStd_RealArray.hxx>

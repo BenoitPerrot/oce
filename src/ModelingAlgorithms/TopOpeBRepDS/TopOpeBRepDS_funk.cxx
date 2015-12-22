@@ -46,7 +46,7 @@
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <GeomAPI_ProjectPointOnSurf.hxx>
 #include <BRepTools.hxx>
-#include <GeomProjLib.hxx>
+#include <Geometry/GeomProjLib/GeomProjLib.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <ProjLib_ProjectedCurve.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>

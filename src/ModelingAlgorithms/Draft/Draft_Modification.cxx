@@ -72,7 +72,7 @@ IMPLEMENT_STANDARD_RTTI(Draft_Modification)
 
 #include <TopoDS.hxx>
 #include <TopExp.hxx>
-#include <GeomProjLib.hxx>
+#include <Geometry/GeomProjLib/GeomProjLib.hxx>
 
 #include <Precision.hxx>
 

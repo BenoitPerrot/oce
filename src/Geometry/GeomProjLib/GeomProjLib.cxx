@@ -23,7 +23,7 @@
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
-#include <GeomProjLib.hxx>
+#include <Geometry/GeomProjLib/GeomProjLib.hxx>
 
 #include <ProjLib_ProjectedCurve.hxx>
 #include <ProjLib_CompProjectedCurve.hxx>

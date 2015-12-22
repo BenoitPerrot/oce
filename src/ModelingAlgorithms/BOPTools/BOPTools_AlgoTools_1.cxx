@@ -51,7 +51,7 @@
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_HCurve.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor.hxx>
 //
-#include <GeomProjLib.hxx>
+#include <Geometry/GeomProjLib/GeomProjLib.hxx>
 //
 #include <ProjLib_ProjectedCurve.hxx>
 #include <Geometry/Extrema/Extrema_LocateExtPC.hxx>

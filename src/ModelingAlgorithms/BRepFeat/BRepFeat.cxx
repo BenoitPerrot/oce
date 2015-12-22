@@ -48,7 +48,7 @@
 #include <Geometry/GCPnts/GCPnts_QuasiUniformDeflection.hxx>
 #include <BRepTopAdaptor_FClass2d.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
-#include <GeomProjLib.hxx>
+#include <Geometry/GeomProjLib/GeomProjLib.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <BRepTools.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>

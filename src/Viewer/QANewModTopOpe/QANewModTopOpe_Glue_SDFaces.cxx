@@ -36,7 +36,7 @@
 #include <BRep_Builder.hxx>
 #include <BRep_Tool.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
-#include <GeomProjLib.hxx>
+#include <Geometry/GeomProjLib/GeomProjLib.hxx>
 #include <Precision.hxx>
 #include <BRepAdaptor_Surface.hxx>
 

@@ -51,7 +51,7 @@
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
 
-#include <GeomProjLib.hxx>
+#include <Geometry/GeomProjLib/GeomProjLib.hxx>
 
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <TopExp.hxx>

@@ -99,7 +99,7 @@
 #include <Geometry/Geom/Geom_BoundedCurve.hxx>
 #include <Geometry/GeomLib/GeomLib.hxx>
 #include <GeomInt_IntSS.hxx>
-#include <GeomProjLib.hxx>
+#include <Geometry/GeomProjLib/GeomProjLib.hxx>
 
 #include <Geometry/Adaptor3d/Adaptor3d_HCurveOnSurface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>

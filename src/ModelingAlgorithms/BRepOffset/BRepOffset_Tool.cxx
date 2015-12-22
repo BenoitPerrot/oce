@@ -111,7 +111,7 @@
 #include <Geom2dInt_GInter.hxx>
 
 #include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
-#include <GeomProjLib.hxx>
+#include <Geometry/GeomProjLib/GeomProjLib.hxx>
 #include <GeomInt_IntSS.hxx>
 #include <ProjLib_ProjectedCurve.hxx>
 #include <ProjLib_HProjectedCurve.hxx>

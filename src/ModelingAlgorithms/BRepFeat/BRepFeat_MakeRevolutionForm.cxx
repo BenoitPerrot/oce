@@ -58,7 +58,7 @@
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
 
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
-#include <GeomProjLib.hxx>
+#include <Geometry/GeomProjLib/GeomProjLib.hxx>
 
 #include <Geom2dAPI_InterCurveCurve.hxx>
 #include <Geom2dAPI_ExtremaCurveCurve.hxx>

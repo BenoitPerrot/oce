@@ -63,7 +63,7 @@
 #include <TopoDS.hxx>
 #include <TopExp.hxx>
 #include <BRepTools.hxx>
-#include <GeomProjLib.hxx>
+#include <Geometry/GeomProjLib/GeomProjLib.hxx>
 #include <ElCLib.hxx>
 #include <Precision.hxx>
 

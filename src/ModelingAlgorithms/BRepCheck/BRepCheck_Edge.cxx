@@ -67,7 +67,7 @@ IMPLEMENT_STANDARD_RTTI(BRepCheck_Edge)
 #include <Geometry/Adaptor3d/Adaptor3d_HCurveOnSurface.hxx>
 
 #include <ProjLib_ProjectedCurve.hxx>
-#include <GeomProjLib.hxx>
+#include <Geometry/GeomProjLib/GeomProjLib.hxx>
 #include <Geometry/Extrema/Extrema_LocateExtPC.hxx>
 
 #include <BRepCheck.hxx>

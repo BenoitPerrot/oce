@@ -75,7 +75,7 @@
 
 #include <Geometry/GeomLib/GeomLib_CheckBSplineCurve.hxx>
 #include <Geometry/GeomLib/GeomLib_Check2dBSplineCurve.hxx>
-#include <GeomProjLib.hxx>
+#include <Geometry/GeomProjLib/GeomProjLib.hxx>
 #include <Geometry/Approx/Approx_CurveOnSurface.hxx>
 
 #include <ElSLib.hxx>

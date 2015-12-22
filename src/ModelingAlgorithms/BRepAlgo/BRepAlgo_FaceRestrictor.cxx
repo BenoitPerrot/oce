@@ -32,7 +32,7 @@
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <BRep_Builder.hxx>
 #include <BRep_Tool.hxx>
-#include <GeomProjLib.hxx>
+#include <Geometry/GeomProjLib/GeomProjLib.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 
 #include <Precision.hxx>

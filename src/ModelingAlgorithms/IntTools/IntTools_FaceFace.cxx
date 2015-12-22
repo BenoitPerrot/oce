@@ -102,7 +102,7 @@
 #include <Geometry/GeomLib/GeomLib_Check2dBSplineCurve.hxx>
 
 #include <GeomInt_WLApprox.hxx>
-#include <GeomProjLib.hxx>
+#include <Geometry/GeomProjLib/GeomProjLib.hxx>
 #include <GeomAPI_ProjectPointOnSurf.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <TopoDS.hxx>
