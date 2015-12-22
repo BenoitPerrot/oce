@@ -16,12 +16,12 @@
 
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <LProp_CurAndInf.hxx>
-#include <Geom2dLProp_NumericCurInf2d.hxx>
+#include <Geometry/Geom2dLProp/Geom2dLProp_NumericCurInf2d.hxx>
 
-#include <Geom2dLProp_FuncCurExt.hxx>
-#include <Geom2dLProp_FuncCurNul.hxx>
+#include <Geometry/Geom2dLProp/Geom2dLProp_FuncCurExt.hxx>
+#include <Geometry/Geom2dLProp/Geom2dLProp_FuncCurNul.hxx>
 
-#include <Geom2dLProp_Curve2dTool.hxx>
+#include <Geometry/Geom2dLProp/Geom2dLProp_Curve2dTool.hxx>
 #include <Mathematics/Optimization/math_FunctionRoots.hxx>
 #include <Mathematics/Optimization/math_BracketedRoot.hxx>
 #include <Precision.hxx>

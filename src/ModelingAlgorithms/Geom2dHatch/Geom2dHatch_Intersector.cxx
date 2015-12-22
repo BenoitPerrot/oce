@@ -21,7 +21,7 @@
 #include <ElCLib.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <Precision.hxx>
-#include <Geom2dLProp_CLProps2d.hxx>
+#include <Geometry/Geom2dLProp/Geom2dLProp_CLProps2d.hxx>
 
 
 //=======================================================================

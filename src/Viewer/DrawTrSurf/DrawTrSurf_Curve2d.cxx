@@ -36,7 +36,7 @@ IMPLEMENT_STANDARD_RTTI(DrawTrSurf_Curve2d)
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <GeomTools_Curve2dSet.hxx>
-#include <Geom2dLProp_CLProps2d.hxx>
+#include <Geometry/Geom2dLProp/Geom2dLProp_CLProps2d.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Precision.hxx>

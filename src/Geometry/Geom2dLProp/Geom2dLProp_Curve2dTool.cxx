@@ -17,7 +17,7 @@
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
-#include <Geom2dLProp_Curve2dTool.hxx>
+#include <Geometry/Geom2dLProp/Geom2dLProp_Curve2dTool.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <GeomAbs_Shape.hxx>
 

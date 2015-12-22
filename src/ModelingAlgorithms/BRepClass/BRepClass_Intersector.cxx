@@ -24,7 +24,7 @@
 #include <TopoDS_Vertex.hxx>
 #include <TopExp.hxx>
 #include <IntRes2d_Domain.hxx>
-#include <Geom2dLProp_CLProps2d.hxx>
+#include <Geometry/Geom2dLProp/Geom2dLProp_CLProps2d.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <ElCLib.hxx>
 #include <Precision.hxx>

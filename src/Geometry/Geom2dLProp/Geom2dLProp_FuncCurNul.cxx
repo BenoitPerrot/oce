@@ -15,10 +15,10 @@
 // commercial license or contractual agreement.
 
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
-#include <Geom2dLProp_FuncCurNul.hxx>
+#include <Geometry/Geom2dLProp/Geom2dLProp_FuncCurNul.hxx>
 
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <Geom2dLProp_Curve2dTool.hxx>
+#include <Geometry/Geom2dLProp/Geom2dLProp_Curve2dTool.hxx>
 
 #include <Mathematics/Primitives/gp.hxx>
 #include <Precision.hxx>

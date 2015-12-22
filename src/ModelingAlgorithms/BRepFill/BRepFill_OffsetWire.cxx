@@ -110,7 +110,7 @@
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <BRepTools_Substitution.hxx>
 #include <BRepLib_MakeVertex.hxx>
-#include <Geom2dLProp_CLProps2d.hxx>
+#include <Geometry/Geom2dLProp/Geom2dLProp_CLProps2d.hxx>
 #include <Geometry/Geom2dConvert/Geom2dConvert_CompCurveToBSplineCurve.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 

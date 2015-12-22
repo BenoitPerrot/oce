@@ -18,7 +18,7 @@
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <MAT2d_CutCurve.hxx>
-#include <Geom2dLProp_CurAndInf2d.hxx>
+#include <Geometry/Geom2dLProp/Geom2dLProp_CurAndInf2d.hxx>
 #include <Precision.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>

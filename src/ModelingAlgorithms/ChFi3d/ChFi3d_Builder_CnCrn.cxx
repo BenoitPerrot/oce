@@ -111,7 +111,7 @@
 #include <GeomPlate_HArray1OfHCurveOnSurface.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Geometry/Geom/Geom_BezierCurve.hxx>
-#include <Geom2dLProp_CLProps2d.hxx>
+#include <Geometry/Geom2dLProp/Geom2dLProp_CLProps2d.hxx>
 #include <GeomPlate_CurveConstraint.hxx>
 #include <FairCurve_Batten.hxx>
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
