@@ -16,7 +16,7 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
-#include <LProp_Status.hxx>
+#include <Geometry/LProp/LProp_Status.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Adaptor3d_HCurve;
 class LProp_BadContinuity;

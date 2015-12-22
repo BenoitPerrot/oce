@@ -16,7 +16,7 @@
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
-#include <LProp_Status.hxx>
+#include <Geometry/LProp/LProp_Status.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class LProp_BadContinuity;
 class Standard_DomainError;

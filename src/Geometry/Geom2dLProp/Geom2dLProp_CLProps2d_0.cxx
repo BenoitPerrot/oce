@@ -6,10 +6,10 @@
 #include <Geometry/Geom2dLProp/Geom2dLProp_CLProps2d.hxx>
 
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
-#include <LProp_BadContinuity.hxx>
+#include <Geometry/LProp/LProp_BadContinuity.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <LProp_NotDefined.hxx>
+#include <Geometry/LProp/LProp_NotDefined.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
@@ -28,5 +28,5 @@
 #define Tool_hxx <Geometry/Geom2dLProp/Geom2dLProp_Curve2dTool.hxx>
 #define LProp_CLProps Geom2dLProp_CLProps2d
 #define LProp_CLProps_hxx <Geometry/Geom2dLProp/Geom2dLProp_CLProps2d.hxx>
-#include <LProp_CLProps.gxx>
+#include <Geometry/LProp/LProp_CLProps.gxx>
 

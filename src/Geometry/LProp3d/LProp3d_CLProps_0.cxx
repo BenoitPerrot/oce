@@ -6,10 +6,10 @@
 #include <LProp3d_CLProps.hxx>
 
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
-#include <LProp_BadContinuity.hxx>
+#include <Geometry/LProp/LProp_BadContinuity.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <LProp_NotDefined.hxx>
+#include <Geometry/LProp/LProp_NotDefined.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
@@ -28,5 +28,5 @@
 #define Tool_hxx <LProp3d_CurveTool.hxx>
 #define LProp_CLProps LProp3d_CLProps
 #define LProp_CLProps_hxx <LProp3d_CLProps.hxx>
-#include <LProp_CLProps.gxx>
+#include <Geometry/LProp/LProp_CLProps.gxx>
 

@@ -18,7 +18,7 @@
 #include <Geometry/Geom2dLProp/Geom2dLProp_CurAndInf2d.hxx>
 #include <Geometry/Geom2dLProp/Geom2dLProp_NumericCurInf2d.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
-#include <LProp_AnalyticCurInf.hxx>
+#include <Geometry/LProp/LProp_AnalyticCurInf.hxx>
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <Mathematics/Primitives/gp_Circ2d.hxx>
 #include <Mathematics/Primitives/gp_Elips2d.hxx>

@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BaseSequence.hxx>
-#include <LProp_CIType.hxx>
+#include <Geometry/LProp/LProp_CIType.hxx>
 #include <Handle_LProp_SequenceNodeOfSequenceOfCIType.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;
@@ -101,13 +101,13 @@ private:
 };
 
 #define SeqItem LProp_CIType
-#define SeqItem_hxx <LProp_CIType.hxx>
+#define SeqItem_hxx <Geometry/LProp/LProp_CIType.hxx>
 #define TCollection_SequenceNode LProp_SequenceNodeOfSequenceOfCIType
-#define TCollection_SequenceNode_hxx <LProp_SequenceNodeOfSequenceOfCIType.hxx>
+#define TCollection_SequenceNode_hxx <Geometry/LProp/LProp_SequenceNodeOfSequenceOfCIType.hxx>
 #define Handle_TCollection_SequenceNode Handle_LProp_SequenceNodeOfSequenceOfCIType
 #define TCollection_SequenceNode_Type_() LProp_SequenceNodeOfSequenceOfCIType_Type_()
 #define TCollection_Sequence LProp_SequenceOfCIType
-#define TCollection_Sequence_hxx <LProp_SequenceOfCIType.hxx>
+#define TCollection_Sequence_hxx <Geometry/LProp/LProp_SequenceOfCIType.hxx>
 
 #include <Foundation/TCollection/TCollection_Sequence.lxx>
 

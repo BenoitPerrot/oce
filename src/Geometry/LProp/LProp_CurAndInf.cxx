@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <LProp_CurAndInf.hxx>
+#include <Geometry/LProp/LProp_CurAndInf.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <ElCLib.hxx>
 

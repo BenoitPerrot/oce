@@ -5,10 +5,10 @@
 
 #include <HLRBRep_CLProps.hxx>
 
-#include <LProp_BadContinuity.hxx>
+#include <Geometry/LProp/LProp_BadContinuity.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <LProp_NotDefined.hxx>
+#include <Geometry/LProp/LProp_NotDefined.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
@@ -27,5 +27,5 @@
 #define Tool_hxx <HLRBRep_CLPropsATool.hxx>
 #define LProp_CLProps HLRBRep_CLProps
 #define LProp_CLProps_hxx <HLRBRep_CLProps.hxx>
-#include <LProp_CLProps.gxx>
+#include <Geometry/LProp/LProp_CLProps.gxx>
 

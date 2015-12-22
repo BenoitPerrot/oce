@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
-#include <LProp_CurAndInf.hxx>
+#include <Geometry/LProp/LProp_CurAndInf.hxx>
 #include <Geometry/Geom2dLProp/Geom2dLProp_NumericCurInf2d.hxx>
 
 #include <Geometry/Geom2dLProp/Geom2dLProp_FuncCurExt.hxx>

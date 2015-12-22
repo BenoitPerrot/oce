@@ -11,11 +11,11 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
-#include <LProp_SequenceOfCIType.hxx>
+#include <Geometry/LProp/LProp_SequenceOfCIType.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <LProp_CIType.hxx>
+#include <Geometry/LProp/LProp_CIType.hxx>
 class Standard_OutOfRange;
 
 

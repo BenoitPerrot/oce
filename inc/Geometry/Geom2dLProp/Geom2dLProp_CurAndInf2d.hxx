@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <LProp_CurAndInf.hxx>
+#include <Geometry/LProp/LProp_CurAndInf.hxx>
 #include <Handle_Geom2d_Curve.hxx>
 class Geom2d_Curve;
 

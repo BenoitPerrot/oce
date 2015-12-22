@@ -6,10 +6,10 @@
 #include <Geometry/GeomLProp/GeomLProp_CLProps.hxx>
 
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <LProp_BadContinuity.hxx>
+#include <Geometry/LProp/LProp_BadContinuity.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <LProp_NotDefined.hxx>
+#include <Geometry/LProp/LProp_NotDefined.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
@@ -28,5 +28,5 @@
 #define Tool_hxx <Geometry/GeomLProp/GeomLProp_CurveTool.hxx>
 #define LProp_CLProps GeomLProp_CLProps
 #define LProp_CLProps_hxx <Geometry/GeomLProp/GeomLProp_CLProps.hxx>
-#include <LProp_CLProps.gxx>
+#include <Geometry/LProp/LProp_CLProps.gxx>
 
