@@ -29,7 +29,7 @@
 #include <Visualization/OpenGl/OpenGl_AspectText.hxx>
 #include <Visualization/OpenGl/OpenGl_AspectMarker.hxx>
 #include <Visualization/OpenGl/OpenGl_Texture.hxx>
-#include <Visual3d_TypeOfModel.hxx>
+#include <Visualization/Visual3d/Visual3d_TypeOfModel.hxx>
 
 class OpenGl_View;
 

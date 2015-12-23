@@ -45,8 +45,8 @@
 #include <Visualization/Graphic3d/Graphic3d_Structure.hxx>
 #include <Visualization/Graphic3d/Graphic3d_AspectLine3d.hxx>
 #include <Visualization/Graphic3d/Graphic3d_AspectText3d.hxx>
-#include <Visual3d_View.hxx>
-#include <Visual3d_ViewManager.hxx>
+#include <Visualization/Visual3d/Visual3d_View.hxx>
+#include <Visualization/Visual3d/Visual3d_ViewManager.hxx>
 
 Graphic3d_Vector V3d::GetProjAxis(const V3d_TypeOfOrientation Orientation) {
 Standard_Real Xpn=0,Ypn=0,Zpn=0 ;

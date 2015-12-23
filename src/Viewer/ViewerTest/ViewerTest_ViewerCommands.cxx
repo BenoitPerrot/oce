@@ -33,8 +33,8 @@
 #include <Viewer/ViewerTest/ViewerTest_EventManager.hxx>
 #include <Viewer/ViewerTest/ViewerTest_DoubleMapOfInteractiveAndName.hxx>
 #include <Viewer/ViewerTest/ViewerTest_DoubleMapIteratorOfDoubleMapOfInteractiveAndName.hxx>
-#include <Visual3d_View.hxx>
-#include <Visual3d_ViewManager.hxx>
+#include <Visualization/Visual3d/Visual3d_View.hxx>
+#include <Visualization/Visual3d/Visual3d_ViewManager.hxx>
 #include <Visualization/V3d/V3d_AmbientLight.hxx>
 #include <Visualization/V3d/V3d_DirectionalLight.hxx>
 #include <Visualization/V3d/V3d_LayerMgr.hxx>
@@ -60,7 +60,7 @@
 #include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Foundation/TColStd/TColStd_MapOfAsciiString.hxx>
-#include <Visual3d_LayerItem.hxx>
+#include <Visualization/Visual3d/Visual3d_LayerItem.hxx>
 #include <Visualization/Aspect/Aspect_TypeOfLine.hxx>
 #include <Visualization/Image/Image_Diff.hxx>
 #include <Visualization/Aspect/Aspect_DisplayConnection.hxx>
@@ -77,7 +77,7 @@
 #undef DrawText
 #endif
 
-#include <Visual3d_Layer.hxx>
+#include <Visualization/Visual3d/Visual3d_Layer.hxx>
 #include <cstdlib>
 
 #if defined(_WIN32)

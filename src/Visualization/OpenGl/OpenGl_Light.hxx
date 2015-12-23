@@ -17,7 +17,7 @@
 #define OpenGl_Light_Header
 
 #include <Visualization/Graphic3d/Graphic3d_CLight.hxx>
-#include <Visual3d_TypeOfLightSource.hxx>
+#include <Visualization/Visual3d/Visual3d_TypeOfLightSource.hxx>
 #include <Foundation/NCollection/NCollection_List.hxx>
 
 #define OpenGLMaxLights 8

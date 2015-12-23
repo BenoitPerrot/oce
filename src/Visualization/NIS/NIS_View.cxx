@@ -17,7 +17,7 @@
 #include <Visualization/NIS/NIS_InteractiveContext.hxx>
 #include <Visualization/NIS/NIS_InteractiveObject.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
-#include <Visual3d_View.hxx>
+#include <Visualization/Visual3d/Visual3d_View.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_B2f.hxx>
 #include <Foundation/TColStd/TColStd_MapIteratorOfPackedMapOfInteger.hxx>
 

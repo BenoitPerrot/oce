@@ -36,7 +36,7 @@ IMPLEMENT_STANDARD_RTTI(PrsMgr_Presentation)
 #include <Visualization/PrsMgr/PrsMgr_ModedPresentation.hxx>
 
 #include <Visualization/Graphic3d/Graphic3d_Structure.hxx>
-#include <Visual3d_View.hxx>
+#include <Visualization/Visual3d/Visual3d_View.hxx>
 #include <Precision.hxx>
 
 namespace

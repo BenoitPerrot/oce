@@ -10,9 +10,9 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Visual3d_View.hxx>
 
-#include <Visual3d_ViewManagerPtr.hxx>
+#include <Visualization/Visual3d/Visual3d_ViewManagerPtr.hxx>
 #include <Visualization/Graphic3d/Graphic3d_CView.hxx>
-#include <Visual3d_ContextView.hxx>
+#include <Visualization/Visual3d/Visual3d_ContextView.hxx>
 #include <Handle_Aspect_Window.hxx>
 #include <Visualization/Graphic3d/Graphic3d_SequenceOfStructure.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
@@ -30,7 +30,7 @@
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Visualization/Aspect/Aspect_FillMethod.hxx>
 #include <Visualization/Aspect/Aspect_GradientFillMethod.hxx>
-#include <Visual3d_TypeOfBackfacingModel.hxx>
+#include <Visualization/Visual3d/Visual3d_TypeOfBackfacingModel.hxx>
 #include <Visualization/Aspect/Aspect_RenderingContext.hxx>
 #include <Visualization/Aspect/Aspect_GraphicCallbackProc.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
@@ -39,7 +39,7 @@
 #include <Visualization/Aspect/Aspect_TypeOfTriedronPosition.hxx>
 #include <Visualization/Aspect/Aspect_TypeOfTriedronEcho.hxx>
 #include <Visualization/Font/Font_FontAspect.hxx>
-#include <Visual3d_TypeOfAnswer.hxx>
+#include <Visualization/Visual3d/Visual3d_TypeOfAnswer.hxx>
 #include <Handle_Graphic3d_Structure.hxx>
 #include <Visualization/Graphic3d/Graphic3d_ZLayerSettings.hxx>
 #include <Visualization/Aspect/Aspect_TypeOfHighlightMethod.hxx>

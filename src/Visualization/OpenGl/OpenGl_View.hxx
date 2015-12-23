@@ -35,8 +35,8 @@
 #include <Visualization/Graphic3d/Graphic3d_CGraduatedTrihedron.hxx>
 #include <Visualization/Graphic3d/Graphic3d_SequenceOfHClipPlane.hxx>
 #include <Visualization/Graphic3d/Graphic3d_ZLayerSettings.hxx>
-#include <Visual3d_TypeOfSurfaceDetail.hxx>
-#include <Visual3d_TypeOfModel.hxx>
+#include <Visualization/Visual3d/Visual3d_TypeOfSurfaceDetail.hxx>
+#include <Visualization/Visual3d/Visual3d_TypeOfModel.hxx>
 
 #include <Visualization/OpenGl/OpenGl_BVHTreeSelector.hxx>
 #include <Visualization/OpenGl/OpenGl_LayerList.hxx>

@@ -12,7 +12,7 @@
 
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Visual3d_TypeOfOrder.hxx>
+#include <Visualization/Visual3d/Visual3d_TypeOfOrder.hxx>
 class Visual3d_ContextPickDefinitionError;
 
 

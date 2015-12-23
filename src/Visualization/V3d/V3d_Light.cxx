@@ -32,7 +32,7 @@
  */
 
 #include <Visualization/V3d/V3d.hxx>
-#include <Visual3d_Light.hxx>
+#include <Visualization/Visual3d/Visual3d_Light.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Structure.hxx>
 #include <Visualization/V3d/V3d_BadValue.hxx>
 #include <Visualization/V3d/V3d_Light.hxx>

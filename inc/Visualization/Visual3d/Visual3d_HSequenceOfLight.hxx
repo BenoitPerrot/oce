@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Visual3d_HSequenceOfLight.hxx>
 
-#include <Visual3d_SequenceOfLight.hxx>
+#include <Visualization/Visual3d/Visual3d_SequenceOfLight.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Visual3d_Light.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
@@ -93,11 +93,11 @@ private:
 };
 
 #define Item Handle(Visual3d_Light)
-#define Item_hxx <Visual3d_Light.hxx>
+#define Item_hxx <Visualization/Visual3d/Visual3d_Light.hxx>
 #define TheSequence Visual3d_SequenceOfLight
-#define TheSequence_hxx <Visual3d_SequenceOfLight.hxx>
+#define TheSequence_hxx <Visualization/Visual3d/Visual3d_SequenceOfLight.hxx>
 #define TCollection_HSequence Visual3d_HSequenceOfLight
-#define TCollection_HSequence_hxx <Visual3d_HSequenceOfLight.hxx>
+#define TCollection_HSequence_hxx <Visualization/Visual3d/Visual3d_HSequenceOfLight.hxx>
 #define Handle_TCollection_HSequence Handle_Visual3d_HSequenceOfLight
 #define TCollection_HSequence_Type_() Visual3d_HSequenceOfLight_Type_()
 

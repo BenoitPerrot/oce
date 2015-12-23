@@ -10,14 +10,14 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Visual3d_ViewManager.hxx>
 
-#include <Visual3d_SequenceOfView.hxx>
+#include <Visualization/Visual3d/Visual3d_SequenceOfView.hxx>
 #include <Handle_Visual3d_Layer.hxx>
 #include <Visualization/Aspect/Aspect_GenId.hxx>
 #include <Handle_Graphic3d_GraphicDriver.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/TColStd/TColStd_MapOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
-#include <Visual3d_MapOfZLayerSettings.hxx>
+#include <Visualization/Visual3d/Visual3d_MapOfZLayerSettings.hxx>
 #include <Visualization/Graphic3d/Graphic3d_StructureManager.hxx>
 #include <Handle_Visual3d_HSequenceOfView.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

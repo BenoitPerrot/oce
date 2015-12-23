@@ -26,11 +26,11 @@ Novembre 1998 : CAL : Creation.
 
 // for the class
 #include <Visualization/Graphic3d/Graphic3d_GraphicDriver.hxx>
-#include <Visual3d_LayerDefinitionError.hxx>
-#include <Visual3d_ViewManager.hxx>
+#include <Visualization/Visual3d/Visual3d_LayerDefinitionError.hxx>
+#include <Visualization/Visual3d/Visual3d_ViewManager.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
-#include <Visual3d_LayerItem.hxx>
-#include <Visual3d_Layer.hxx>
+#include <Visualization/Visual3d/Visual3d_LayerItem.hxx>
+#include <Visualization/Visual3d/Visual3d_Layer.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Visual3d_Layer)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -42,7 +42,7 @@ IMPLEMENT_DOWNCAST(Visual3d_Layer,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Visual3d_Layer)
 
 #include <Visualization/Graphic3d/Graphic3d_TypeOfPrimitive.hxx>
-#include <Visual3d_ViewManager.hxx>
+#include <Visualization/Visual3d/Visual3d_ViewManager.hxx>
 
 //-Aliases
 #define MyViewManager ((Visual3d_ViewManager *) MyPtrViewManager)

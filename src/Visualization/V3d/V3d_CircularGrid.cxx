@@ -65,7 +65,7 @@ IMPLEMENT_STANDARD_RTTI(V3d_CircularGrid)
 #include <Visualization/Graphic3d/Graphic3d_ArrayOfSegments.hxx>
 #include <Visualization/Graphic3d/Graphic3d_ArrayOfPoints.hxx>
 #include <Visualization/Graphic3d/Graphic3d_ArrayOfPolylines.hxx>
-#include <Visual3d_ViewManager.hxx>
+#include <Visualization/Visual3d/Visual3d_ViewManager.hxx>
 #include <Visualization/V3d/V3d_Viewer.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 

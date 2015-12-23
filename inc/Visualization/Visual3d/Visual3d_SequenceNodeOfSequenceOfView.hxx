@@ -47,13 +47,13 @@ private:
 };
 
 #define SeqItem Handle(Visual3d_View)
-#define SeqItem_hxx <Visual3d_View.hxx>
+#define SeqItem_hxx <Visualization/Visual3d/Visual3d_View.hxx>
 #define TCollection_SequenceNode Visual3d_SequenceNodeOfSequenceOfView
-#define TCollection_SequenceNode_hxx <Visual3d_SequenceNodeOfSequenceOfView.hxx>
+#define TCollection_SequenceNode_hxx <Visualization/Visual3d/Visual3d_SequenceNodeOfSequenceOfView.hxx>
 #define Handle_TCollection_SequenceNode Handle_Visual3d_SequenceNodeOfSequenceOfView
 #define TCollection_SequenceNode_Type_() Visual3d_SequenceNodeOfSequenceOfView_Type_()
 #define TCollection_Sequence Visual3d_SequenceOfView
-#define TCollection_Sequence_hxx <Visual3d_SequenceOfView.hxx>
+#define TCollection_Sequence_hxx <Visualization/Visual3d/Visual3d_SequenceOfView.hxx>
 
 #include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 

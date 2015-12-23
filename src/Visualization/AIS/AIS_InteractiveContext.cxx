@@ -86,7 +86,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_InteractiveContext)
 #include <Visualization/AIS/AIS_GlobalStatus.hxx>
 #include <Visualization/AIS/AIS_MapIteratorOfMapOfInteractive.hxx>
 #include <Visualization/PrsMgr/PrsMgr_ModedPresentation.hxx>
-#include <Visual3d_ViewManager.hxx>
+#include <Visualization/Visual3d/Visual3d_ViewManager.hxx>
 #include <Visualization/Prs3d/Prs3d_ShadingAspect.hxx>
 #include <Visualization/AIS/AIS_Shape.hxx>
 #include <Visualization/Graphic3d/Graphic3d_AspectFillArea3d.hxx>

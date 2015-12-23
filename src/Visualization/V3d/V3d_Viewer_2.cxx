@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <Visualization/Graphic3d/Graphic3d_GraphicDriver.hxx>
-#include <Visual3d_ViewManager.hxx>
+#include <Visualization/Visual3d/Visual3d_ViewManager.hxx>
 #include <Visualization/V3d/V3d_Light.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Structure.hxx>
 #include <Visualization/V3d/V3d_RectangularGrid.hxx>
@@ -28,7 +28,7 @@
 #include <Visualization/Aspect/Aspect_GradientBackground.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <Visualization/V3d/V3d_Viewer.hxx>
-#include <Visual3d_Light.hxx>
+#include <Visualization/Visual3d/Visual3d_Light.hxx>
 #include <Visualization/V3d/V3d_DirectionalLight.hxx>
 #include <Visualization/V3d/V3d_PositionalLight.hxx>
 #include <Visualization/V3d/V3d_AmbientLight.hxx>

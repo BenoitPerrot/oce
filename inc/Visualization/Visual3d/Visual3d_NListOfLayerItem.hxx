@@ -17,7 +17,7 @@
 #define _Visual3d_NListOfLayerItem_HeaderFile
 
 #include <Foundation/NCollection/NCollection_List.hxx>
-#include <Visual3d_LayerItem.hxx>
+#include <Visualization/Visual3d/Visual3d_LayerItem.hxx>
 
 typedef NCollection_List<Handle(Visual3d_LayerItem)> Visual3d_NListOfLayerItem;
 

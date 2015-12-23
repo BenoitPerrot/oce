@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Visual3d_View.hxx>
+#include <Visualization/Visual3d/Visual3d_View.hxx>
 #include <Visualization/Aspect/Aspect_Window.hxx>
 #include <Visualization/Aspect/Aspect_Grid.hxx>
 #include <Visualization/V3d/V3d_LayerMgr.hxx>

@@ -20,7 +20,7 @@
 #include <Visualization/OpenGl/OpenGl_tgl_funcs.hxx>
 
 #include <Visualization/Image/Image_AlienPixMap.hxx>
-#include <Visual3d_Layer.hxx>
+#include <Visualization/Visual3d/Visual3d_Layer.hxx>
 
 #include <Foundation/NCollection/NCollection_Mat4.hxx>
 

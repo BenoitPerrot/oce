@@ -26,7 +26,7 @@
 #include <Visualization/Font/Font_FontMgr.hxx>
 #include <Foundation/OSD/OSD_Chronometer.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Visual3d_View.hxx>
+#include <Visualization/Visual3d/Visual3d_View.hxx>
 #include <Visualization/V3d/V3d_Viewer.hxx>
 #include <Visualization/V3d/V3d_View.hxx>
 #include <Visualization/V3d/V3d.hxx>
@@ -2409,7 +2409,7 @@ static int VCircleBuilder(Draw_Interpretor& /*di*/, Standard_Integer argc, const
 
 #include <Visualization/Font/Font_NameOfFont.hxx>
 
-#include <Visual3d_ViewManager.hxx>
+#include <Visualization/Visual3d/Visual3d_ViewManager.hxx>
 
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 

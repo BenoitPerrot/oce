@@ -17,7 +17,7 @@
 #include <Visualization/V3d/V3d_ViewerPointer.hxx>
 #include <Visualization/V3d/V3d_ListOfTransient.hxx>
 #include <Handle_Visual3d_View.hxx>
-#include <Visual3d_ContextView.hxx>
+#include <Visualization/Visual3d/Visual3d_ContextView.hxx>
 #include <Visualization/Aspect/Aspect_Background.hxx>
 #include <Visualization/Aspect/Aspect_GradientBackground.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Vector.hxx>

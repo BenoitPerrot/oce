@@ -15,7 +15,7 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Vertex.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Visual3d_TypeOfLightSource.hxx>
+#include <Visualization/Visual3d/Visual3d_TypeOfLightSource.hxx>
 class Visual3d_LightDefinitionError;
 class Visual3d_View;
 class Quantity_Color;

@@ -43,9 +43,9 @@ IMPLEMENT_STANDARD_RTTI(V3d_PositionLight)
 #include <Visualization/Graphic3d/Graphic3d_AspectLine3d.hxx>
 #include <Visualization/Graphic3d/Graphic3d_AspectText3d.hxx>
 #include <Visualization/V3d/V3d_SpotLight.hxx>
-#include <Visual3d_Light.hxx>
-#include <Visual3d_ViewManager.hxx>
-#include <Visual3d_ContextPick.hxx>
+#include <Visualization/Visual3d/Visual3d_Light.hxx>
+#include <Visualization/Visual3d/Visual3d_ViewManager.hxx>
+#include <Visualization/Visual3d/Visual3d_ContextPick.hxx>
 #include <Visualization/V3d/V3d_BadValue.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>

@@ -17,7 +17,7 @@
 ************************************************************************/
 
 // for the class
-#include <Visual3d_LayerItem.hxx>
+#include <Visualization/Visual3d/Visual3d_LayerItem.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Visual3d_LayerItem)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

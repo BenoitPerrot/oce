@@ -23,7 +23,7 @@
 #pragma comment( lib, "comdlg32.lib"  )
 #endif
 
-#include <Visual3d_View.hxx>
+#include <Visualization/Visual3d/Visual3d_View.hxx>
 #include <Visualization/Aspect/Aspect_Window.hxx>
 #include <Visualization/Aspect/Aspect_Grid.hxx>
 #include <Visualization/V3d/V3d_LayerMgr.hxx>

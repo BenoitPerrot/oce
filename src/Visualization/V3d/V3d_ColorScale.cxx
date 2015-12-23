@@ -31,9 +31,9 @@ IMPLEMENT_STANDARD_RTTI(V3d_ColorScale)
 #include <Visualization/V3d/V3d_View.hxx>
 #include <Visualization/V3d/V3d_LayerMgr.hxx>
 
-#include <Visual3d_View.hxx>
-#include <Visual3d_Layer.hxx>
-#include <Visual3d_ViewManager.hxx>
+#include <Visualization/Visual3d/Visual3d_View.hxx>
+#include <Visualization/Visual3d/Visual3d_Layer.hxx>
+#include <Visualization/Visual3d/Visual3d_ViewManager.hxx>
 
 #include <Visualization/Aspect/Aspect_Window.hxx>
 #include <Visualization/Aspect/Aspect_SequenceOfColor.hxx>

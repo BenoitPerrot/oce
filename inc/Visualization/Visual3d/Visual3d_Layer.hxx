@@ -13,7 +13,7 @@
 #include <Handle_Graphic3d_GraphicDriver.hxx>
 #include <Visualization/Aspect/Aspect_CLayer2d.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
-#include <Visual3d_NListOfLayerItem.hxx>
+#include <Visualization/Visual3d/Visual3d_NListOfLayerItem.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Visual3d_ViewManager.hxx>
 #include <Visualization/Aspect/Aspect_TypeOfLayer.hxx>

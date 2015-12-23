@@ -3,14 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Visual3d_HSequenceOfView.hxx>
+#include <Visualization/Visual3d/Visual3d_HSequenceOfView.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <Visual3d_View.hxx>
-#include <Visual3d_SequenceOfView.hxx>
+#include <Visualization/Visual3d/Visual3d_View.hxx>
+#include <Visualization/Visual3d/Visual3d_SequenceOfView.hxx>
 
  
 
@@ -29,11 +29,11 @@ IMPLEMENT_STANDARD_RTTI(Visual3d_HSequenceOfView)
 
 
 #define Item Handle(Visual3d_View)
-#define Item_hxx <Visual3d_View.hxx>
+#define Item_hxx <Visualization/Visual3d/Visual3d_View.hxx>
 #define TheSequence Visual3d_SequenceOfView
-#define TheSequence_hxx <Visual3d_SequenceOfView.hxx>
+#define TheSequence_hxx <Visualization/Visual3d/Visual3d_SequenceOfView.hxx>
 #define TCollection_HSequence Visual3d_HSequenceOfView
-#define TCollection_HSequence_hxx <Visual3d_HSequenceOfView.hxx>
+#define TCollection_HSequence_hxx <Visualization/Visual3d/Visual3d_HSequenceOfView.hxx>
 #define Handle_TCollection_HSequence Handle_Visual3d_HSequenceOfView
 #define TCollection_HSequence_Type_() Visual3d_HSequenceOfView_Type_()
 #include <Foundation/TCollection/TCollection_HSequence.gxx>

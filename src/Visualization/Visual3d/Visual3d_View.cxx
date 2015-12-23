@@ -21,13 +21,13 @@
 
 #include <Visualization/Aspect/Aspect_Window.hxx>
 #include <Visualization/Graphic3d/Graphic3d_GraphicDriver.hxx>
-#include <Visual3d_TransformError.hxx>
-#include <Visual3d_ViewDefinitionError.hxx>
-#include <Visual3d_ViewManager.hxx>
-#include <Visual3d_Layer.hxx>
+#include <Visualization/Visual3d/Visual3d_TransformError.hxx>
+#include <Visualization/Visual3d/Visual3d_ViewDefinitionError.hxx>
+#include <Visualization/Visual3d/Visual3d_ViewManager.hxx>
+#include <Visualization/Visual3d/Visual3d_Layer.hxx>
 #include <Visualization/Aspect/Aspect_Background.hxx>
 #include <Visualization/Aspect/Aspect_GradientBackground.hxx>
-#include <Visual3d_ContextView.hxx>
+#include <Visualization/Visual3d/Visual3d_ContextView.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
@@ -35,7 +35,7 @@
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Structure.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
-#include <Visual3d_View.hxx>
+#include <Visualization/Visual3d/Visual3d_View.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Visual3d_View)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -55,10 +55,10 @@ IMPLEMENT_STANDARD_RTTI(Visual3d_View)
 #include <Visualization/Graphic3d/Graphic3d_TextureEnv.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Vector.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Vertex.hxx>
-#include <Visual3d_DepthCueingDefinitionError.hxx>
-#include <Visual3d_Light.hxx>
-#include <Visual3d_HSequenceOfView.hxx>
-#include <Visual3d_ZClippingDefinitionError.hxx>
+#include <Visualization/Visual3d/Visual3d_DepthCueingDefinitionError.hxx>
+#include <Visualization/Visual3d/Visual3d_Light.hxx>
+#include <Visualization/Visual3d/Visual3d_HSequenceOfView.hxx>
+#include <Visualization/Visual3d/Visual3d_ZClippingDefinitionError.hxx>
 #include <Foundation/OSD/OSD.hxx>
 #include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
 

@@ -77,7 +77,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_LocalContext)
 #include <Visualization/AIS/AIS_Selection.hxx>
 #include <Visualization/V3d/V3d_Viewer.hxx>
 #include <Visualization/V3d/V3d_View.hxx>
-#include <Visual3d_View.hxx>
+#include <Visualization/Visual3d/Visual3d_View.hxx>
 
 #ifdef ALE70590
 #include <stdio.h>

@@ -17,7 +17,7 @@
 #include <QMdiSubWindow>
 #include <QStyleFactory>
 
-#include <Visual3d_View.hxx>
+#include <Visualization/Visual3d/Visual3d_View.hxx>
 #include <Visualization/Graphic3d/Graphic3d_ExportFormat.hxx>
 #include <Visualization/Graphic3d/Graphic3d_GraphicDriver.hxx>
 #include <Visualization/Graphic3d/Graphic3d_TextureEnv.hxx>

@@ -37,7 +37,7 @@
  * Includes
  */
 
-#include <Visual3d_View.hxx>
+#include <Visualization/Visual3d/Visual3d_View.hxx>
 #include <Visualization/Aspect/Aspect_Window.hxx>
 #include <Visualization/Aspect/Aspect_Grid.hxx>
 #include <Visualization/V3d/V3d_LayerMgr.hxx>
@@ -62,8 +62,8 @@
 #include <Mathematics/Primitives/gp_Ax3.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Visualization/V3d/V3d_View.hxx>
-#include <Visual3d_View.hxx>
-#include <Visual3d_Light.hxx>
+#include <Visualization/Visual3d/Visual3d_View.hxx>
+#include <Visualization/Visual3d/Visual3d_Light.hxx>
 #include <Visualization/V3d/V3d_Static.hxx>
 #include <Visualization/V3d/V3d.hxx>
 

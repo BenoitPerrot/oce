@@ -11,7 +11,7 @@
 #include <Handle_V3d_ColorScaleLayerItem.hxx>
 
 #include <Handle_V3d_ColorScale.hxx>
-#include <Visual3d_LayerItem.hxx>
+#include <Visualization/Visual3d/Visual3d_LayerItem.hxx>
 class V3d_ColorScale;
 
 

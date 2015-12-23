@@ -56,9 +56,9 @@ IMPLEMENT_STANDARD_RTTI(V3d_SpotLight)
 #include <Visualization/Graphic3d/Graphic3d_AspectMarker3d.hxx>
 #include <Visualization/Graphic3d/Graphic3d_AspectLine3d.hxx>
 #include <Visualization/Graphic3d/Graphic3d_AspectText3d.hxx>
-#include <Visual3d_Light.hxx>
-#include <Visual3d_ViewManager.hxx>
-#include <Visual3d_ContextPick.hxx>
+#include <Visualization/Visual3d/Visual3d_Light.hxx>
+#include <Visualization/Visual3d/Visual3d_ViewManager.hxx>
+#include <Visualization/Visual3d/Visual3d_ContextPick.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>

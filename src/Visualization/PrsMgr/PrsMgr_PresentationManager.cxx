@@ -39,8 +39,8 @@ IMPLEMENT_STANDARD_RTTI(PrsMgr_PresentationManager)
 #include <Visualization/PrsMgr/PrsMgr_ModedPresentation.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfTransient.hxx>
 #include <Visualization/V3d/V3d_View.hxx>
-#include <Visual3d_View.hxx>
-#include <Visual3d_Layer.hxx>
+#include <Visualization/Visual3d/Visual3d_View.hxx>
+#include <Visualization/Visual3d/Visual3d_Layer.hxx>
 
 // =======================================================================
 // function : PrsMgr_PresentationManager

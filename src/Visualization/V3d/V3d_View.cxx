@@ -112,12 +112,12 @@ To solve the problem (for lack of a better solution) I make 2 passes.
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_DivideByZero.hxx>
 
-#include <Visual3d_ViewManager.hxx>
-#include <Visual3d_Light.hxx>
-#include <Visual3d_Layer.hxx>
+#include <Visualization/Visual3d/Visual3d_ViewManager.hxx>
+#include <Visualization/Visual3d/Visual3d_Light.hxx>
+#include <Visualization/Visual3d/Visual3d_Layer.hxx>
 
 #include <Visualization/V3d/V3d.hxx>
-#include <Visual3d_View.hxx>
+#include <Visualization/Visual3d/Visual3d_View.hxx>
 #include <Visualization/Aspect/Aspect_Window.hxx>
 #include <Visualization/Aspect/Aspect_Grid.hxx>
 #include <Visualization/V3d/V3d_LayerMgr.hxx>

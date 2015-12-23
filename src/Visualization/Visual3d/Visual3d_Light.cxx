@@ -12,11 +12,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Visual3d_LightDefinitionError.hxx>
-#include <Visual3d_View.hxx>
+#include <Visualization/Visual3d/Visual3d_LightDefinitionError.hxx>
+#include <Visualization/Visual3d/Visual3d_View.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Vector.hxx>
-#include <Visual3d_Light.hxx>
+#include <Visualization/Visual3d/Visual3d_Light.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Visual3d_Light)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

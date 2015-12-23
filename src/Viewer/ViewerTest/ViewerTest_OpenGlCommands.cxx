@@ -43,7 +43,7 @@
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Visualization/V3d/V3d_View.hxx>
 #include <Visualization/V3d/V3d_Viewer.hxx>
-#include <Visual3d_View.hxx>
+#include <Visualization/Visual3d/Visual3d_View.hxx>
 #include <Viewer/ViewerTest/ViewerTest_DoubleMapOfInteractiveAndName.hxx>
 #include <Viewer/ViewerTest/ViewerTest_DoubleMapIteratorOfDoubleMapOfInteractiveAndName.hxx>
 

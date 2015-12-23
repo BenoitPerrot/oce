@@ -63,7 +63,7 @@ IMPLEMENT_STANDARD_RTTI(V3d_RectangularGrid)
 #include <Visualization/Graphic3d/Graphic3d_AspectMarker3d.hxx>
 #include <Visualization/Graphic3d/Graphic3d_AspectText3d.hxx>
 #include <Visualization/Graphic3d/Graphic3d_ArrayOfPoints.hxx>
-#include <Visual3d_ViewManager.hxx>
+#include <Visualization/Visual3d/Visual3d_ViewManager.hxx>
 #include <Visualization/V3d/V3d_Viewer.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <Visualization/Graphic3d/Graphic3d_ArrayOfSegments.hxx>
