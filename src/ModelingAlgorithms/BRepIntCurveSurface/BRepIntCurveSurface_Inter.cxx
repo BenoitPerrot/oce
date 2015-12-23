@@ -26,7 +26,7 @@
 #include <TopoDS_Face.hxx>
 #include <BRepIntCurveSurface_Inter.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
-#include <TopAbs_ShapeEnum.hxx>
+#include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Face.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>

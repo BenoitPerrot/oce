@@ -49,7 +49,7 @@
 #include <GeomAPI_ProjectPointOnSurf.hxx>
 #include <Geom2dInt_Geom2dCurveTool.hxx>
 //
-#include <TopAbs_Orientation.hxx>
+#include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 //
 #include <TopoDS_Compound.hxx>
 #include <TopoDS_CompSolid.hxx>

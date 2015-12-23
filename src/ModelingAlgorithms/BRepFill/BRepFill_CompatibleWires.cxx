@@ -43,7 +43,7 @@
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Precision.hxx>
-#include <TopAbs.hxx> 
+#include <ModelingData/TopAbs/TopAbs.hxx> 
 #include <TopExp.hxx>
 #include <TopExp_Explorer.hxx>
 #include <TopoDS.hxx>

@@ -14,9 +14,9 @@
 #include <TopoDS_Face.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <TopAbs_State.hxx>
+#include <ModelingData/TopAbs/TopAbs_State.hxx>
 #include <BRepClass3d_Intersector3d.hxx>
-#include <TopAbs_Orientation.hxx>
+#include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 class Standard_DomainError;
 class BRepClass3d_Intersector3d;
 class gp_Lin;

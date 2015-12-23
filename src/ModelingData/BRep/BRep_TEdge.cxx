@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(BRep_TEdge)
 IMPLEMENT_DOWNCAST(BRep_TEdge,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BRep_TEdge)
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 #include <ModelingData/BRep/BRep_CurveRepresentation.hxx>
 #include <ModelingData/BRep/BRep_ListOfCurveRepresentation.hxx>
 #include <ModelingData/BRep/BRep_ListIteratorOfListOfCurveRepresentation.hxx>

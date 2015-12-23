@@ -90,8 +90,8 @@
 #include <TopoDS_Face.hxx>
 #include <TopOpeBRepDS_DataStructure.hxx>
 #include <TopOpeBRepDS_ListOfInterference.hxx>
-#include <TopAbs.hxx>
-#include <TopAbs_Orientation.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 #include <TopExp.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 #include <TopOpeBRepDS_HDataStructure.hxx>

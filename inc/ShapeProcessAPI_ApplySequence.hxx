@@ -15,7 +15,7 @@
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <TopAbs_ShapeEnum.hxx>
+#include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 class ShapeProcess_ShapeContext;
 class TopoDS_Shape;
 class TopTools_DataMapOfShapeShape;

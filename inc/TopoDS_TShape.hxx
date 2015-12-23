@@ -14,7 +14,7 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <TopAbs_ShapeEnum.hxx>
+#include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 class Standard_ConstructionError;
 class TopoDS_Iterator;
 class TopoDS_Builder;

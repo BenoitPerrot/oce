@@ -21,7 +21,7 @@
 #include <Handle_Geom_Surface.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_TopTools_HSequenceOfShape.hxx>
-#include <TopAbs_Orientation.hxx>
+#include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 class Geom_BSplineCurve;
 class Geom_Curve;
 class Geom2d_BSplineCurve;

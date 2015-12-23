@@ -25,12 +25,12 @@
 #include <GeomAbs_SurfaceType.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <GeomAbs_CurveType.hxx>
-#include <TopAbs_Orientation.hxx>
+#include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 #include <HLRBRep_Intersector.hxx>
 #include <Handle_BRepTopAdaptor_TopolTool.hxx>
 #include <HLRAlgo_Interference.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <TopAbs_State.hxx>
+#include <ModelingData/TopAbs/TopAbs_State.hxx>
 class BRepTopAdaptor_TopolTool;
 class StdFail_UndefinedDerivative;
 class HLRBRep_Array1OfEData;

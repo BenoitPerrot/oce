@@ -16,7 +16,7 @@
 #include <BOPDS_VectorOfListOfPassKeyBoolean.hxx>
 #include <BOPDS_ListIteratorOfListOfPassKeyBoolean.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <TopAbs_ShapeEnum.hxx>
+#include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 class BOPDS_DS;
 
 

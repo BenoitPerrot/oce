@@ -16,7 +16,7 @@
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <TopAbs_Orientation.hxx>
+#include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 class Standard_DomainError;
 class Standard_TypeMismatch;
 class TopoDS_Vertex;

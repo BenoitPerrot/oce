@@ -23,7 +23,7 @@
 #include <TopTools_ListOfShape.hxx>
 #include <TopOpeBRep_ShapeIntersector.hxx>
 
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <TopOpeBRepTool_box.hxx>
 #include <TopOpeBRep_define.hxx>

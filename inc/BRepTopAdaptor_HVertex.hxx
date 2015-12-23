@@ -15,7 +15,7 @@
 #include <Geometry/Adaptor3d/Adaptor3d_HVertex.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Adaptor2d_HCurve2d.hxx>
-#include <TopAbs_Orientation.hxx>
+#include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Adaptor3d_HVertex.hxx>
 class BRepAdaptor_HCurve2d;

@@ -12,7 +12,7 @@
  
 
 #define Array2Item TopAbs_Orientation
-#define Array2Item_hxx <TopAbs_Orientation.hxx>
+#define Array2Item_hxx <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 #define TCollection_Array2 TopTrans_Array2OfOrientation
 #define TCollection_Array2_hxx <TopTrans_Array2OfOrientation.hxx>
 #include <Foundation/TCollection/TCollection_Array2.gxx>

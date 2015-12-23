@@ -22,7 +22,7 @@
 #include <Handle_Adaptor2d_HCurve2d.hxx>
 #include <Handle_Adaptor3d_HCurve.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <TopAbs_State.hxx>
+#include <ModelingData/TopAbs/TopAbs_State.hxx>
 #include <Blend_Status.hxx>
 class BRepBlend_Line;
 class Adaptor3d_HSurface;

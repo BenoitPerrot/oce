@@ -38,7 +38,7 @@
 #include <TopoDS.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopExp.hxx>
-#include <TopAbs_Orientation.hxx>
+#include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 #include <TopExp_Explorer.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt2d.hxx>
 

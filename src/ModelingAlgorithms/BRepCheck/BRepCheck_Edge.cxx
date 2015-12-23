@@ -73,7 +73,7 @@ IMPLEMENT_STANDARD_RTTI(BRepCheck_Edge)
 #include <BRepCheck.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor.hxx>
 #include <TopoDS.hxx>
-#include <TopAbs_ShapeEnum.hxx>
+#include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <TopoDS_Face.hxx>
 #include <Precision.hxx>
 

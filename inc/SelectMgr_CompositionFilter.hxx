@@ -14,7 +14,7 @@
 #include <SelectMgr_Filter.hxx>
 #include <Handle_SelectMgr_Filter.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <TopAbs_ShapeEnum.hxx>
+#include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 class SelectMgr_Filter;
 class SelectMgr_ListOfFilter;
 

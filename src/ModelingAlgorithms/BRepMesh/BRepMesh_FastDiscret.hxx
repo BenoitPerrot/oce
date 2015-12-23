@@ -27,7 +27,7 @@
 #include <Handle_BRepAdaptor_HSurface.hxx>
 #include <Handle_Geom2d_Curve.hxx>
 #include <BRepMesh_Delaun.hxx>
-#include <TopAbs_ShapeEnum.hxx>
+#include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <BRepMesh_Triangle.hxx>
 #include <BRepMesh_FaceAttribute.hxx>
 #include <BRepMesh.hxx>

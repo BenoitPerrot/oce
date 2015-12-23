@@ -54,7 +54,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_Chamf3dDimension)
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Edge.hxx>
 
-#include <TopAbs_Orientation.hxx>
+#include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BRepBndLib.hxx>

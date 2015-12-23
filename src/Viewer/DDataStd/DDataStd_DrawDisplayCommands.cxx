@@ -28,11 +28,11 @@
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Precision.hxx> 
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Face.hxx>
 #include <TopoDS_Vertex.hxx> 
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 #include <TDF_AttributeList.hxx>
 #include <TDF_ListIteratorOfAttributeList.hxx>
 #include <TNaming_Tool.hxx>

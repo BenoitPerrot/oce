@@ -17,7 +17,7 @@
 #include <Handle_Standard_Transient.hxx>
 #include <Handle_TColStd_HSequenceOfTransient.hxx>
 #include <Handle_Transfer_TransientProcess.hxx>
-#include <TopAbs_ShapeEnum.hxx>
+#include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 class XSControl_TransferReader;
 class Standard_Transient;
 class Interface_Graph;

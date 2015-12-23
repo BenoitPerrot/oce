@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_TYPE_END(TopoDS_TFace)
 IMPLEMENT_DOWNCAST(TopoDS_TFace,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TopoDS_TFace)
 
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 
 //=======================================================================
 //function : ShapeType

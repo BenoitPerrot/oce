@@ -12,7 +12,7 @@
 
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_ListIteratorOfListOfShape.hxx>
-#include <TopAbs_Orientation.hxx>
+#include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_NoMoreObject;

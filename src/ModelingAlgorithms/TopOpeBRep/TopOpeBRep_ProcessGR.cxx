@@ -50,7 +50,7 @@
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 //#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve2d.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 #include <TopExp.hxx>
 #include <TopoDS.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>

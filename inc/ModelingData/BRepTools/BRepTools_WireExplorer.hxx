@@ -17,7 +17,7 @@
 #include <TopTools_MapOfShape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <TopAbs_Orientation.hxx>
+#include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 class Standard_DomainError;
 class Standard_NoSuchObject;
 class Standard_NoMoreObject;

@@ -16,7 +16,7 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Geom2dHatch_Elements.hxx>
 #include <Geom2dHatch_Hatchings.hxx>
-#include <TopAbs_Orientation.hxx>
+#include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 #include <HatchGen_ErrorStatus.hxx>
 class Standard_NoSuchObject;
 class Standard_OutOfRange;

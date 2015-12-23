@@ -14,7 +14,7 @@
 #include <LocOpe_SequenceOfPntFace.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <TopAbs_Orientation.hxx>
+#include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 class StdFail_NotDone;
 class Standard_OutOfRange;
 class gp_Ax1;

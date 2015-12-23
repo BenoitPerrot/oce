@@ -52,7 +52,7 @@ IMPLEMENT_STANDARD_RTTI(BRepTools_GTrsfModification)
 
 #include <Mathematics/Primitives/gp.hxx>
 #include <Geometry/GeomLib/GeomLib.hxx>
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 
 //=======================================================================
 //function : BRepTools_GTrsfModification

@@ -75,7 +75,7 @@
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Solid.hxx>
 #include <TopoDS_Face.hxx>

@@ -83,7 +83,7 @@
 #include <TopExp.hxx>
 
 #include <BRepFeat.hxx>
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 
 #ifdef OCCT_DEBUG
 extern Standard_Boolean BRepFeat_GettraceFEAT();

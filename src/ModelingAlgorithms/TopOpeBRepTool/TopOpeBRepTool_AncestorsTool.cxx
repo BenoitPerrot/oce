@@ -18,7 +18,7 @@
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <TopOpeBRepTool_AncestorsTool.hxx>
 
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 #include <TopExp.hxx>
 
 //=======================================================================

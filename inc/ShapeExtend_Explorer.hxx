@@ -12,7 +12,7 @@
 
 #include <Handle_TopTools_HSequenceOfShape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <TopAbs_ShapeEnum.hxx>
+#include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 class Standard_TypeMismatch;
 class TopoDS_Shape;
 class TopTools_HSequenceOfShape;

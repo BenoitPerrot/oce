@@ -25,7 +25,7 @@
 #include <Handle_Geom_Curve.hxx>
 #include <Handle_Geom2d_Curve.hxx>
 #include <GeomAbs_Shape.hxx>
-#include <TopAbs_Orientation.hxx>
+#include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 class StdFail_NotDone;
 class Standard_NoSuchObject;
 class Standard_ConstructionError;

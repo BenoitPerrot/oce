@@ -22,7 +22,7 @@
 
 #include <TopoDS.hxx>
 #include <TopoDS_Shape.hxx>
-#include <TopAbs_State.hxx>
+#include <ModelingData/TopAbs/TopAbs_State.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 

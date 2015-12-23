@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_TYPE_END(DNaming_TransformationDriver)
 IMPLEMENT_DOWNCAST(DNaming_TransformationDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(DNaming_TransformationDriver)
 #include <Foundation/Standard/Standard_NullObject.hxx>
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Edge.hxx>

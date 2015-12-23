@@ -44,7 +44,7 @@
 #include <TopoDS_Solid.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
-#include <TopAbs_ShapeEnum.hxx>
+#include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 
 #include <TopoDS.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
@@ -53,7 +53,7 @@
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 #include <TopExp.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <TopoDS_Shape.hxx>
@@ -2643,7 +2643,7 @@ static int VDrawText (Draw_Interpretor& di, Standard_Integer argc, const char** 
 #include <BRepPrimAPI_MakeCylinder.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopExp_Explorer.hxx>
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 #include <StdSelect_ShapeTypeFilter.hxx>
 
 

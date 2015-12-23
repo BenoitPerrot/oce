@@ -25,7 +25,7 @@
 #include <TopoDS_Face.hxx>
 #include <HLRBRep_ShapeToHLR.hxx>
 
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 #include <TopExp.hxx>
 #include <TopExp_Explorer.hxx>
 #include <TopoDS.hxx>

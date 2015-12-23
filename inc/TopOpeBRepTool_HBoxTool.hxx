@@ -12,7 +12,7 @@
 
 #include <TopOpeBRepTool_IndexedDataMapOfShapeBox.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <TopAbs_ShapeEnum.hxx>
+#include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class TopoDS_Shape;

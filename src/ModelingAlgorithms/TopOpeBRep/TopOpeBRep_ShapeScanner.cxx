@@ -19,7 +19,7 @@
 #include <TopOpeBRepTool_BoxSort.hxx>
 #include <TopOpeBRep_ShapeScanner.hxx>
 #include <TopOpeBRepTool_define.hxx>
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 
 //=======================================================================
 //function : TopOpeBRep_ShapeScanner

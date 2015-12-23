@@ -16,7 +16,7 @@
 
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <TopTrans_CurveTransition.hxx>
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 
 #define GREATER 1
 #define SAME 0

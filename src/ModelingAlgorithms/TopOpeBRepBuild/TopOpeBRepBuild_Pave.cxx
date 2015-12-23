@@ -26,7 +26,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(TopOpeBRepBuild_Pave)
 IMPLEMENT_DOWNCAST(TopOpeBRepBuild_Pave,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TopOpeBRepBuild_Pave)
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 
 //=======================================================================
 //function : TopOpeBRepBuild_Pave

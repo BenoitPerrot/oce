@@ -65,7 +65,7 @@
 
 #include <TopExp.hxx>
 #include <TopExp_Explorer.hxx>
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 
 #include <TopOpeBRepBuild_Builder.hxx>

@@ -69,7 +69,7 @@
 
 #include <Precision.hxx>
 
-#include <TopAbs_ShapeEnum.hxx>
+#include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 
 #include <TopExp.hxx>
 

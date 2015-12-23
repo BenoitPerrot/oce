@@ -16,7 +16,7 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <TopTools_DataMapOfShapeShape.hxx>
 #include <BRepBuilderAPI_MakeShape.hxx>
-#include <TopAbs_State.hxx>
+#include <ModelingData/TopAbs/TopAbs_State.hxx>
 class TopOpeBRepBuild_HBuilder;
 class TopoDS_Shape;
 class TopTools_ListOfShape;

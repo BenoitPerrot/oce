@@ -21,7 +21,7 @@
 #include <Handle_Adaptor3d_TopolTool.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>
 #include <Handle_BRepAdaptor_HCurve2d.hxx>
-#include <TopAbs_Orientation.hxx>
+#include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 #include <Handle_Geom_Surface.hxx>
 #include <Handle_Geom_Curve.hxx>
 #include <Handle_Geom2d_Curve.hxx>

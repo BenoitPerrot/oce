@@ -66,7 +66,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_LocalContext)
 #include <AIS_ListIteratorOfListOfInteractive.hxx>
 #include <AIS_ListOfInteractive.hxx>
 #include <AIS_DataMapIteratorOfDataMapOfSelStat.hxx>
-#include <TopAbs_ShapeEnum.hxx>
+#include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <Graphic3d_Structure.hxx>
 #include <Prs3d_LineAspect.hxx>
 #include <Prs3d_PlaneAspect.hxx>

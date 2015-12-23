@@ -24,8 +24,8 @@
 #include <BRepClass3d.hxx>
 
 
-#include <TopAbs_State.hxx>
-#include <TopAbs_Orientation.hxx>
+#include <ModelingData/TopAbs/TopAbs_State.hxx>
+#include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 
 #include <TopoDS_Solid.hxx>
 #include <TopoDS_Shell.hxx>

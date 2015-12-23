@@ -16,7 +16,7 @@
 #include <Handle_Message_ProgressIndicator.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 #include <Foundation/Standard/Standard_IStream.hxx>
-#include <TopAbs_ShapeEnum.hxx>
+#include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 class Message_ProgressIndicator;
 class TopoDS_Shape;
 class TopTools_LocationSet;

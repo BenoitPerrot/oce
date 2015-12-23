@@ -16,7 +16,7 @@
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Compound.hxx>
 #include <QANewModTopOpe.hxx>
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 #include <TopoDS_Iterator.hxx>
 #include <BRepCheck_Analyzer.hxx>
 #include <TopoDS_Shape.hxx>

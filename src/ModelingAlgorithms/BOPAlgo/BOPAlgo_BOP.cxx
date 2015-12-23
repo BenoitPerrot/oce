@@ -16,7 +16,7 @@
 #include <BOPAlgo_PaveFiller.hxx>
 #include <BOPAlgo_BOP.hxx>
 
-#include <TopAbs_ShapeEnum.hxx>
+#include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 
 #include <TopoDS_Compound.hxx>
 #include <TopoDS_Iterator.hxx>

@@ -36,7 +36,7 @@ IMPLEMENT_STANDARD_RTTI(TDataXtd_Axis)
 #include <TDF_Label.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Edge.hxx>
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>

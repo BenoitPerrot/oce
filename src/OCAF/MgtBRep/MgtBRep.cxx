@@ -26,7 +26,7 @@
 #include <MgtBRep_TranslateTool1.hxx>
 
 #include <TopExp_Explorer.hxx>
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 #include <TopoDS.hxx>
 
 #include <Geometry/Geom/Geom_Surface.hxx>

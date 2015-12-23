@@ -49,7 +49,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_FixRelation)
 
 #include <AIS_Shape.hxx>
 
-#include <TopAbs_ShapeEnum.hxx>
+#include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 
 #include <SelectMgr_EntityOwner.hxx>
 #include <Select3D_SensitiveSegment.hxx>

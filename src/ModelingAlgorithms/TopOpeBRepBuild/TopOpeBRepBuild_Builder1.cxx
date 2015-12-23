@@ -30,12 +30,12 @@
 #include <TopTools_SequenceOfShape.hxx>
 #include <TopOpeBRepBuild_Builder1.hxx>
 #include <TopOpeBRepTool_ShapeExplorer.hxx>
-#include <TopAbs_Orientation.hxx>
+#include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 #include <TopoDS.hxx>
 #include <TopOpeBRepDS_HDataStructure.hxx>
 #include <TopOpeBRepDS_ShapeWithState.hxx>
 #include <TopOpeBRepBuild_WireEdgeSet.hxx>
-#include <TopAbs_ShapeEnum.hxx>
+#include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <TopExp.hxx>
 #include <TopOpeBRepTool_2d.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>

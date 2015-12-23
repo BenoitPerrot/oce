@@ -48,7 +48,7 @@ IMPLEMENT_STANDARD_RTTI(IntTools_Context)
 #include <Geom2dHatch_Intersector.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 
-#include <TopAbs_State.hxx>
+#include <ModelingData/TopAbs/TopAbs_State.hxx>
 #include <TopoDS.hxx>
 #include <TopExp_Explorer.hxx>
 

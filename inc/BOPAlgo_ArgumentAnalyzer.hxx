@@ -14,7 +14,7 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <BOPAlgo_Operation.hxx>
 #include <BOPAlgo_ListOfCheckResult.hxx>
-#include <TopAbs_ShapeEnum.hxx>
+#include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 class TopoDS_Shape;
 
 

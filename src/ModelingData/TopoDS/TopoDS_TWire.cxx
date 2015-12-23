@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_TYPE_END(TopoDS_TWire)
 IMPLEMENT_DOWNCAST(TopoDS_TWire,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TopoDS_TWire)
 
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 
 //=======================================================================
 //function : ShapeType

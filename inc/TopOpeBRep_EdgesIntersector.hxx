@@ -25,7 +25,7 @@
 #include <TopoDS_Vertex.hxx>
 #include <TopOpeBRep_SequenceOfPoint2d.hxx>
 #include <TopOpeBRep_P2Dstatus.hxx>
-#include <TopAbs_Orientation.hxx>
+#include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 #include <TopOpeBRepDS_Config.hxx>
 class BRepAdaptor_HSurface;
 class TopoDS_Shape;

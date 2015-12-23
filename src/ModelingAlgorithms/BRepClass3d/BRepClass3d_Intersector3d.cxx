@@ -22,7 +22,7 @@
 #include <IntCurveSurface_IntersectionPoint.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <TopoDS_Face.hxx>
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 
 #include <IntCurveSurface_HInter.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>

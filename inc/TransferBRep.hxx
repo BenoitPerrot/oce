@@ -16,7 +16,7 @@
 #include <Handle_TopTools_HSequenceOfShape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_TColStd_HSequenceOfTransient.hxx>
-#include <TopAbs_Orientation.hxx>
+#include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 #include <Handle_Transfer_FinderProcess.hxx>
 #include <Handle_TransferBRep_ShapeMapper.hxx>
 #include <Handle_TransferBRep_HSequenceOfTransferResultInfo.hxx>

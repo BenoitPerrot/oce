@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(BinMNaming_NamingDriver)
 IMPLEMENT_DOWNCAST(BinMNaming_NamingDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinMNaming_NamingDriver)
-#include <TopAbs_ShapeEnum.hxx>
+#include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <CDM_MessageDriver.hxx>

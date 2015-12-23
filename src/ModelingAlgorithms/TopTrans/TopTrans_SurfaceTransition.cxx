@@ -19,9 +19,9 @@
 #include <TopTrans_SurfaceTransition.hxx>
 
 #include <Mathematics/Primitives/gp_Dir.hxx>
-#include <TopAbs.hxx>
-#include <TopAbs_State.hxx>
-#include <TopAbs_Orientation.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs_State.hxx>
+#include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 #include <Precision.hxx>
 
 #define Msr Standard_Real

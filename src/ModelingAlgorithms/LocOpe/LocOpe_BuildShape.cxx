@@ -43,7 +43,7 @@
 
 
 #include <TopExp.hxx>
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 #include <TopoDS.hxx>
 #include <Precision.hxx>
 

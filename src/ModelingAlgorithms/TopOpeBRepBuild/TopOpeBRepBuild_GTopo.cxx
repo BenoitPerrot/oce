@@ -19,7 +19,7 @@
 
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <TopOpeBRepDS.hxx>
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 
 //=======================================================================
 //function : TopOpeBRepBuild_GTopo

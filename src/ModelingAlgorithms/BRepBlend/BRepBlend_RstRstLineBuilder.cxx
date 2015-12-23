@@ -29,7 +29,7 @@
 #include <Blend_Point.hxx>
 #include <BRepBlend_RstRstLineBuilder.hxx>
 #include <BRepBlend_BlendTool.hxx>
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 #include <IntSurf.hxx>
 #include <Mathematics/Optimization/math_FunctionSetRoot.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>

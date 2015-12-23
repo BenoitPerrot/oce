@@ -24,7 +24,7 @@
 #include <TDF_Label.hxx>
 
 #include <DBRep.hxx>
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 #include <TopoDS.hxx>
 
 

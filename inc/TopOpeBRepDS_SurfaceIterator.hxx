@@ -12,8 +12,8 @@
 
 #include <TopOpeBRepDS_InterferenceIterator.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <TopAbs_Orientation.hxx>
-#include <TopAbs_State.hxx>
+#include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
+#include <ModelingData/TopAbs/TopAbs_State.hxx>
 class TopOpeBRepDS_ListOfInterference;
 
 

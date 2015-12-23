@@ -19,7 +19,7 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TopOpeBRepDS_HDataStructure.hxx>
 #include <Handle_Geom2d_Curve.hxx>
-#include <TopAbs_Orientation.hxx>
+#include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 #include <Handle_Geom_Surface.hxx>
 class TopOpeBRepTool_GeomTool;
 class TopoDS_Shape;

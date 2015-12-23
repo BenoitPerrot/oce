@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TopoDS_Face.hxx>
-#include <TopAbs_Orientation.hxx>
+#include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 #include <TopOpeBRep_PFacesIntersector.hxx>
 #include <Handle_TopOpeBRepDS_HDataStructure.hxx>
 #include <TopOpeBRepDS_PDataStructure.hxx>
@@ -27,7 +27,7 @@
 #include <Handle_TopOpeBRep_FFDumper.hxx>
 #include <TopOpeBRepDS_Kind.hxx>
 #include <Handle_TopOpeBRepDS_Interference.hxx>
-#include <TopAbs_State.hxx>
+#include <ModelingData/TopAbs/TopAbs_State.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class TopOpeBRepDS_HDataStructure;
 class TopOpeBRep_FFDumper;

@@ -13,7 +13,7 @@
 #include <Handle_BRepTopAdaptor_TopolTool.hxx>
 #include <Handle_BRepAdaptor_HSurface.hxx>
 #include <TopOpeBRep_DataMapOfTopolTool.hxx>
-#include <TopAbs_State.hxx>
+#include <ModelingData/TopAbs/TopAbs_State.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class BRepTopAdaptor_TopolTool;
 class BRepAdaptor_HSurface;

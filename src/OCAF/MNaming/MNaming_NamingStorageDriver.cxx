@@ -44,7 +44,7 @@ IMPLEMENT_STANDARD_RTTI(MNaming_NamingStorageDriver)
 #include <TNaming_ListIteratorOfListOfNamedShape.hxx>
 #include <CDM_MessageDriver.hxx>
 #include <PNaming_HArray1OfNamedShape.hxx>
-#include <TopAbs_Orientation.hxx>
+#include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 
 //=======================================================================
 //function : ShapeEnumToInteger

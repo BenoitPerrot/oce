@@ -11,7 +11,7 @@
 #include <Handle_TopoDS_TFace.hxx>
 
 #include <TopoDS_TShape.hxx>
-#include <TopAbs_ShapeEnum.hxx>
+#include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <Handle_TopoDS_TShape.hxx>
 class TopoDS_TShape;
 

@@ -45,7 +45,7 @@
 #include <TopExp_Explorer.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Face.hxx>
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 #include <TopoDS_Iterator.hxx>
 #include <TDF_ChildIterator.hxx>
 #include <TDataStd_Name.hxx>

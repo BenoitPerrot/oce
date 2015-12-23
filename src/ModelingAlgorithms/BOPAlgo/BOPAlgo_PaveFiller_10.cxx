@@ -28,7 +28,7 @@
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 
-#include <TopAbs_State.hxx>
+#include <ModelingData/TopAbs/TopAbs_State.hxx>
 
 #include <TopoDS_Vertex.hxx>
 #include <TopoDS_Solid.hxx>

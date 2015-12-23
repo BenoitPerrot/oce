@@ -21,7 +21,7 @@
 #include <StdPrs_HLRPolyShape.hxx>
 
 #include <StdPrs_WFShape.hxx>
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 #include <TopExp_Explorer.hxx>
 #include <Graphic3d_Group.hxx>
 #include <Graphic3d_ArrayOfPolylines.hxx>

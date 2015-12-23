@@ -12,8 +12,8 @@
 
 #include <Sweep_NumShape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <TopAbs_ShapeEnum.hxx>
-#include <TopAbs_Orientation.hxx>
+#include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
+#include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_OutOfRange;
 class Sweep_NumShape;

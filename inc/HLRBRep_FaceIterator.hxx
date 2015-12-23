@@ -14,7 +14,7 @@
 #include <Handle_HLRAlgo_WiresBlock.hxx>
 #include <Handle_HLRAlgo_EdgesBlock.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <TopAbs_Orientation.hxx>
+#include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 class HLRAlgo_WiresBlock;
 class HLRAlgo_EdgesBlock;
 class HLRBRep_FaceData;

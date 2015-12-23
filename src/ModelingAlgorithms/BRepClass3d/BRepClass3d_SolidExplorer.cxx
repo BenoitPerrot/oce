@@ -45,7 +45,7 @@
 #include <GeomAbs_Shape.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <BRepClass_FacePassiveClassifier.hxx>
-#include <TopAbs_Orientation.hxx>
+#include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 #include <TopExp_Explorer.hxx>
 #include <BRepClass_Edge.hxx>
 
@@ -912,7 +912,7 @@ Standard_Boolean BRepClass3d_SolidExplorer::RejectFace(const gp_Lin& ) const
 }
 
 #ifdef OCCT_DEBUG
-#include <TopAbs_State.hxx>
+#include <ModelingData/TopAbs/TopAbs_State.hxx>
 #endif
 
 //=======================================================================

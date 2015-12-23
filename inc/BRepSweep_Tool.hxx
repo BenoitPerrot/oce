@@ -12,8 +12,8 @@
 
 #include <TopTools_IndexedMapOfShape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <TopAbs_ShapeEnum.hxx>
-#include <TopAbs_Orientation.hxx>
+#include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
+#include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 class Standard_OutOfRange;
 class TopoDS_Shape;
 

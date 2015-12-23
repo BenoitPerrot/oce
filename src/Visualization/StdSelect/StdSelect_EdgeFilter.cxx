@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_RTTI(StdSelect_EdgeFilter)
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopoDS.hxx>
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 #include <StdSelect_BRepOwner.hxx>
 /*#include <.hxx>
 #include <.hxx>

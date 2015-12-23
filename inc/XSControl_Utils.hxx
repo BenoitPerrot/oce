@@ -22,7 +22,7 @@
 #include <Handle_TColStd_HSequenceOfHAsciiString.hxx>
 #include <Handle_TColStd_HSequenceOfHExtendedString.hxx>
 #include <Handle_TopTools_HSequenceOfShape.hxx>
-#include <TopAbs_ShapeEnum.hxx>
+#include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <Handle_TColStd_HSequenceOfInteger.hxx>
 class Standard_TypeMismatch;
 class Standard_Transient;

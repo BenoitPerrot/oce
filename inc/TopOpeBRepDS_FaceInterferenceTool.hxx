@@ -12,7 +12,7 @@
 
 #include <TopOpeBRepDS_PDataStructure.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <TopAbs_Orientation.hxx>
+#include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <TopTrans_SurfaceTransition.hxx>
 #include <TopoDS_Shape.hxx>

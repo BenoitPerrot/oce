@@ -32,7 +32,7 @@
 //
 #include <Geometry/Geom/Geom_Surface.hxx>
 //
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 //
 #include <TopoDS_Iterator.hxx>

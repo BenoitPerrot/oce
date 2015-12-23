@@ -54,7 +54,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_ConnectedInteractive)
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <Precision.hxx>
 #include <AIS_Drawer.hxx>
-#include <TopAbs_ShapeEnum.hxx>
+#include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <StdPrs_WFDeflectionShape.hxx>
 #include <StdPrs_HLRPolyShape.hxx>

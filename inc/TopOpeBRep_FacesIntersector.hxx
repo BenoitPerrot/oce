@@ -22,7 +22,7 @@
 #include <Handle_BRepTopAdaptor_TopolTool.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>
 #include <TopoDS_Shape.hxx>
-#include <TopAbs_ShapeEnum.hxx>
+#include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 class TopOpeBRep_HArray1OfLineInter;
 class BRepAdaptor_HSurface;
 class BRepTopAdaptor_TopolTool;

@@ -15,7 +15,7 @@
 #include <Handle_TopOpeBRepBuild_HBuilder.hxx>
 #include <Handle_BRepAlgo_EdgeConnector.hxx>
 #include <TopoDS_Shape.hxx>
-#include <TopAbs_State.hxx>
+#include <ModelingData/TopAbs/TopAbs_State.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <TopoDS_Wire.hxx>

@@ -38,7 +38,7 @@ IMPLEMENT_STANDARD_RTTI(MNaming_NamingRetrievalDriver)
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TNaming_Naming.hxx>
 #include <TNaming_NameType.hxx>
-#include <TopAbs_ShapeEnum.hxx>
+#include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <CDM_MessageDriver.hxx>
 
 //=======================================================================

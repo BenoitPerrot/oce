@@ -15,7 +15,7 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <IntRes2d_Position.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <TopAbs_State.hxx>
+#include <ModelingData/TopAbs/TopAbs_State.hxx>
 class Standard_DomainError;
 class Geom2dHatch_Elements;
 class Geom2dAdaptor_Curve;

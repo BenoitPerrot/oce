@@ -26,7 +26,7 @@
 
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 #include <TopoDS_Compound.hxx>
 #include <TopoDS_Shape.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>

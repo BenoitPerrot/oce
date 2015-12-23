@@ -44,7 +44,7 @@
 #include <Handle_Standard_Transient.hxx>
 #include <AIS_ClearMode.hxx>
 #include <Handle_SelectMgr_Filter.hxx>
-#include <TopAbs_ShapeEnum.hxx>
+#include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_AIS_LocalContext.hxx>
 class SelectMgr_SelectionManager;

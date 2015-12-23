@@ -11,7 +11,7 @@
 #include <Handle_TopoDS_TEdge.hxx>
 
 #include <TopoDS_TShape.hxx>
-#include <TopAbs_ShapeEnum.hxx>
+#include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 
 
 //! A topological part  of a  curve  in 2D or 3D,  the

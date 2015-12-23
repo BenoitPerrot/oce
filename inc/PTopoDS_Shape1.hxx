@@ -12,7 +12,7 @@
 
 #include <Handle_PTopoDS_TShape1.hxx>
 #include <PTopLoc_Location.hxx>
-#include <TopAbs_Orientation.hxx>
+#include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 #include <Foundation/Standard/Standard_Storable.hxx>
 #include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 class PTopoDS_TShape1;

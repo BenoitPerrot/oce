@@ -82,8 +82,8 @@
 #include <TopoDS_Wire.hxx>
 #include <TopoDS_Shape.hxx>
 
-#include <TopAbs_ShapeEnum.hxx>
-#include <TopAbs_Orientation.hxx>
+#include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
+#include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 #include <TopExp.hxx>
 #include <TopExp_Explorer.hxx>
 #include <Interface_Static.hxx>

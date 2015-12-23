@@ -18,7 +18,7 @@
 #include <TopTools_DataMapOfShapeShape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>
-#include <TopAbs_ShapeEnum.hxx>
+#include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 class Standard_ConstructionError;
 class Standard_NullObject;
 class TopoDS_Shape;

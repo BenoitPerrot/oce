@@ -13,7 +13,7 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
-#include <TopAbs_Orientation.hxx>
+#include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 class Standard_RangeError;
 class Standard_OutOfRange;
 class Standard_OutOfMemory;
@@ -100,7 +100,7 @@ private:
 };
 
 #define Array2Item TopAbs_Orientation
-#define Array2Item_hxx <TopAbs_Orientation.hxx>
+#define Array2Item_hxx <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 #define TCollection_Array2 TopTrans_Array2OfOrientation
 #define TCollection_Array2_hxx <TopTrans_Array2OfOrientation.hxx>
 

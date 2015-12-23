@@ -5223,7 +5223,7 @@ Standard_Integer CR23403 (Draw_Interpretor& di, Standard_Integer argc, const cha
 }
 
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
-#include <TopAbs_ShapeEnum.hxx>
+#include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 Standard_Integer CR23234 (Draw_Interpretor& di, Standard_Integer argc, const char ** argv)
 {
   // Check the command arguments

@@ -13,7 +13,7 @@
 #include <Sweep_NumShape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <TopAbs_Orientation.hxx>
+#include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 class Standard_NoMoreObject;
 class Standard_NoSuchObject;
 class Sweep_NumShape;

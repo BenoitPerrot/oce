@@ -12,7 +12,7 @@
 
 #include <BOPCol_MapOfShape.hxx>
 #include <BOPCol_IndexedMapOfShape.hxx>
-#include <TopAbs_ShapeEnum.hxx>
+#include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <BOPCol_IndexedDataMapOfShapeListOfShape.hxx>
 class TopoDS_Shape;
 class BOPTools_ShapeSet;

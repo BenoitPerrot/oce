@@ -31,7 +31,7 @@
 
 #include <TopoDS.hxx>
 #include <TopExp_Explorer.hxx>
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <TopOpeBRepTool_GeomTool.hxx>
 #include <TopOpeBRepTool_ShapeTool.hxx>

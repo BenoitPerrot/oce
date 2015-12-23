@@ -12,7 +12,7 @@
 
 #include <QANewBRepNaming_TopNaming.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <TopAbs_ShapeEnum.hxx>
+#include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 class TDF_Label;
 class BRepAlgoAPI_BooleanOperation;
 class TopoDS_Shape;

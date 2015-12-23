@@ -41,8 +41,8 @@
 
 #include <IntCurvesFace_Intersector.hxx>
 
-#include <TopAbs.hxx>
-#include <TopAbs_Orientation.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 
 #include <TopoDS.hxx>
 #include <TopoDS_Shape.hxx>

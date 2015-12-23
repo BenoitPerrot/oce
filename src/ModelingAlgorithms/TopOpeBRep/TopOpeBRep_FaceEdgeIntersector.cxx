@@ -34,7 +34,7 @@
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 
 #ifdef OCCT_DEBUG
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 extern Standard_Boolean TopOpeBRep_GettraceFITOL();
 extern Standard_Boolean TopOpeBRep_GettraceSAVFF();
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>

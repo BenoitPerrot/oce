@@ -16,7 +16,7 @@
 #include <Handle_Standard_Type.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <TopAbs_ShapeEnum.hxx>
+#include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 class TopTools_HSequenceOfShape;
 class Standard_TypeMismatch;
 class Standard_OutOfRange;

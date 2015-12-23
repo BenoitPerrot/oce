@@ -16,7 +16,7 @@
 #include <Handle_V3d_View.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_MMgt_TShared.hxx>
-#include <TopAbs_ShapeEnum.hxx>
+#include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <Handle_TopTools_HArray1OfShape.hxx>
 #include <Handle_AIS_InteractiveObject.hxx>
 #include <AIS_KindOfInteractive.hxx>

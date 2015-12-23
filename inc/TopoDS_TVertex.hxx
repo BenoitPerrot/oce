@@ -11,7 +11,7 @@
 #include <Handle_TopoDS_TVertex.hxx>
 
 #include <TopoDS_TShape.hxx>
-#include <TopAbs_ShapeEnum.hxx>
+#include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 
 
 //! A  Vertex is a topological  point in  two or three

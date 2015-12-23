@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard.hxx>
 #include <Handle_PTopoDS_TShape.hxx>
 
-#include <TopAbs_ShapeEnum.hxx>
+#include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_PTopoDS_HArray1OfHShape.hxx>
 #include <Handle_PTopoDS_HShape.hxx>

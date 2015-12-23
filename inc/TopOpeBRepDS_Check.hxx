@@ -19,7 +19,7 @@
 #include <Foundation/Standard/Standard_OStream.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <TopOpeBRepDS_CheckStatus.hxx>
-#include <TopAbs_ShapeEnum.hxx>
+#include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 class TopOpeBRepDS_HDataStructure;
 class TopOpeBRepDS_ListOfInterference;
 class TopTools_ListOfShape;

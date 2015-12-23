@@ -13,7 +13,7 @@
 #include <TopoDS_Shape.hxx>
 #include <TopTools_DataMapOfShapeShape.hxx>
 #include <Handle_ShapeExtend_MsgRegistrator.hxx>
-#include <TopAbs_ShapeEnum.hxx>
+#include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <ShapeProcess_Context.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_ShapeBuild_ReShape.hxx>

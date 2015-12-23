@@ -22,9 +22,9 @@
 #include <TopOpeBRepDS.hxx>
 #include <TopOpeBRepDS_Transition.hxx>
 #include <TopoDS_Shape.hxx>
-#include <TopAbs.hxx>
-#include <TopAbs_State.hxx>
-#include <TopAbs_Orientation.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs_State.hxx>
+#include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 

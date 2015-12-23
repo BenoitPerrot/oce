@@ -46,7 +46,7 @@
 Standard_EXPORT Standard_Real GLOBAL_tolFF = 1.e-7;
 
 #ifdef OCCT_DEBUG
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 extern Standard_Boolean TopOpeBRep_GettraceFI();
 extern Standard_Boolean TopOpeBRep_GettraceFITOL();
 extern Standard_Boolean TopOpeBRep_GettraceSAVFF();

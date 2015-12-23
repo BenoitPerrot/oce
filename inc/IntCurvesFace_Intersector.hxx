@@ -22,7 +22,7 @@
 #include <Handle_Adaptor3d_HCurve.hxx>
 #include <GeomAbs_SurfaceType.hxx>
 #include <IntCurveSurface_TransitionOnCurve.hxx>
-#include <TopAbs_State.hxx>
+#include <ModelingData/TopAbs/TopAbs_State.hxx>
 class BRepTopAdaptor_TopolTool;
 class BRepAdaptor_HSurface;
 class TopoDS_Face;

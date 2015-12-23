@@ -28,7 +28,7 @@ IMPLEMENT_DOWNCAST(TopOpeBRep_Hctxff2d,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TopOpeBRep_Hctxff2d)
 #include <TopOpeBRep_define.hxx>
 #include <TopOpeBRepTool_ShapeTool.hxx>
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 #include <TopoDS.hxx>
 
 //=======================================================================

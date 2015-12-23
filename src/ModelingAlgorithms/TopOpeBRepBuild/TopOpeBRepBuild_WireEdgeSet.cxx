@@ -37,7 +37,7 @@ static TCollection_AsciiString PRODINS("dins ");
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <Precision.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>

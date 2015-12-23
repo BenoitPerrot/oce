@@ -20,7 +20,7 @@
 #ifdef OCCT_DEBUG
 
 #include <Foundation/Standard/Standard_Type.hxx>
-#include <TopAbs_State.hxx>
+#include <ModelingData/TopAbs/TopAbs_State.hxx>
 
 // -----------------------------------------------------------------------
 // TopOpeBRepTool_STATE : class of 4 booleans matching TopAbs_State values

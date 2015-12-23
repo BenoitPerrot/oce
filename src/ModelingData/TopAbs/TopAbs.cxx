@@ -16,7 +16,7 @@
 
 // Modified by model, Thu Jun 25 10:40:27 1992
 
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 
 
 //=======================================================================

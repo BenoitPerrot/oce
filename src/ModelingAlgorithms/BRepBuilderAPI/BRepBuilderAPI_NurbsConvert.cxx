@@ -17,7 +17,7 @@
 #include <TopoDS_Shape.hxx>
 #include <BRepBuilderAPI_NurbsConvert.hxx>
 #include <BRepLib.hxx>
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopTools_MapOfShape.hxx>

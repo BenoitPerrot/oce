@@ -13,7 +13,7 @@
 #include <TopTools_MapOfShape.hxx>
 #include <SelectMgr_Filter.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <TopAbs_ShapeEnum.hxx>
+#include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <Handle_SelectMgr_EntityOwner.hxx>
 class TopoDS_Shape;
 class SelectMgr_EntityOwner;

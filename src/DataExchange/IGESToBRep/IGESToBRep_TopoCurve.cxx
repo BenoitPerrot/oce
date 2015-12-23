@@ -98,7 +98,7 @@
 //#include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 //#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 
 #include <TopoDS.hxx>

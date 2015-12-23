@@ -14,7 +14,7 @@
 #include <TopOpeBRepBuild_ListIteratorOfListOfListOfLoop.hxx>
 #include <TopOpeBRepBuild_ListIteratorOfListOfLoop.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <TopAbs_State.hxx>
+#include <ModelingData/TopAbs/TopAbs_State.hxx>
 #include <Handle_TopOpeBRepBuild_Loop.hxx>
 #include <TopOpeBRepBuild_LoopEnum.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

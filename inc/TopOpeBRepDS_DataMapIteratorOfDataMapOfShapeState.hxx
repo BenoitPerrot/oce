@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
-#include <TopAbs_State.hxx>
+#include <ModelingData/TopAbs/TopAbs_State.hxx>
 #include <Handle_TopOpeBRepDS_DataMapNodeOfDataMapOfShapeState.hxx>
 class Standard_NoSuchObject;
 class TopoDS_Shape;

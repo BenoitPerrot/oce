@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(BRep_TFace)
 IMPLEMENT_DOWNCAST(BRep_TFace,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BRep_TFace)
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 
 //=======================================================================
 //function : BRep_TFace

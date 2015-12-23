@@ -110,7 +110,7 @@
 #include <TopTools_ListIteratorOfListOfShape.hxx> 
 #include <TopTools_DataMapOfShapeSequenceOfShape.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 
 #include <Mathematics/Primitives/gp.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>

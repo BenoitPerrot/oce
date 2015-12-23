@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(BRep_TVertex)
 IMPLEMENT_DOWNCAST(BRep_TVertex,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BRep_TVertex)
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 
 //=======================================================================
 //function : BRep_TVertex

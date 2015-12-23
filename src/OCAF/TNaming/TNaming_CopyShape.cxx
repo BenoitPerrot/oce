@@ -18,7 +18,7 @@
 #include <TNaming_TranslateTool.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <TNaming_CopyShape.hxx>
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Face.hxx>

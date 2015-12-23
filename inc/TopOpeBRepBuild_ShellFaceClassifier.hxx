@@ -18,7 +18,7 @@
 #include <TopTools_DataMapOfShapeShape.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopOpeBRepBuild_CompositeClassifier.hxx>
-#include <TopAbs_State.hxx>
+#include <ModelingData/TopAbs/TopAbs_State.hxx>
 class TopOpeBRepBuild_BlockBuilder;
 class TopoDS_Shape;
 

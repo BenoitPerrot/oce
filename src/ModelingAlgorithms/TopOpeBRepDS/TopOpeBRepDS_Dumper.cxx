@@ -39,7 +39,7 @@
 #include <TopOpeBRepDS_CurveExplorer.hxx>
 #include <TopOpeBRepDS_SurfaceExplorer.hxx>
 #include <TopOpeBRepDS.hxx>
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopOpeBRepTool_ShapeTool.hxx>

@@ -20,7 +20,7 @@
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
-#include <TopAbs_Orientation.hxx>
+#include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 #include <TopoDS.hxx>
 #include <TopExp_Explorer.hxx>
 #include <Mathematics/Polyhedral/Poly_PolygonOnTriangulation.hxx>

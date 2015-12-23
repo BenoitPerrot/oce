@@ -28,7 +28,7 @@
 #include <TopOpeBRepBuild_AreaBuilder.hxx>
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 
 #ifdef OCCT_DEBUG
 extern Standard_Boolean TopOpeBRepDS_GettraceSTRANGE();

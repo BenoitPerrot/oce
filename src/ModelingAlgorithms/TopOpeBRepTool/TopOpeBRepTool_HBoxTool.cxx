@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_TYPE_END(TopOpeBRepTool_HBoxTool)
 IMPLEMENT_DOWNCAST(TopOpeBRepTool_HBoxTool,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TopOpeBRepTool_HBoxTool)
 
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 #include <TopExp_Explorer.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <TopoDS.hxx>

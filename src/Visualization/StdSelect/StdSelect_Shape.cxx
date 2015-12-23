@@ -36,7 +36,7 @@ IMPLEMENT_STANDARD_RTTI(StdSelect_Shape)
 #include <Prs3d_PlaneAspect.hxx>
 #include <Prs3d_Drawer.hxx>
 #include <StdPrs_ShadedShape.hxx>
-#include <TopAbs_ShapeEnum.hxx>
+#include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 
 StdSelect_Shape::StdSelect_Shape(const TopoDS_Shape& sh):
        mysh(sh)

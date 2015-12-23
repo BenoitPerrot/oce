@@ -15,7 +15,7 @@
 #include <HLRBRep_Surface.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_ShortReal.hxx>
-#include <TopAbs_Orientation.hxx>
+#include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class HLRAlgo_WiresBlock;
 class TopoDS_Face;

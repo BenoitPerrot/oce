@@ -25,7 +25,7 @@
 #include <Handle_SelectMgr_Selection.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Graphic3d_NameOfMaterial.hxx>
-#include <TopAbs_ShapeEnum.hxx>
+#include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <Handle_AIS_Drawer.hxx>
 class TopoDS_Shape;
 class Prs3d_Presentation;

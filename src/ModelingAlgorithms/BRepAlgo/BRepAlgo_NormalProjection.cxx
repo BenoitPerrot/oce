@@ -25,7 +25,7 @@
 #include <Geometry/ProjLib/ProjLib_CompProjectedCurve.hxx>
 #include <TopTools_HSequenceOfShape.hxx>
 #include <TopExp_Explorer.hxx>
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HCurve.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>

@@ -21,7 +21,7 @@
 #include <TopTools_ListOfShape.hxx>
 #include <BOPAlgo_Builder.hxx>
 
-#include <TopAbs_ShapeEnum.hxx>
+#include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Iterator.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>

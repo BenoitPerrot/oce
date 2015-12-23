@@ -38,7 +38,7 @@ IMPLEMENT_STANDARD_RTTI(BinMNaming_NamedShapeDriver)
 #include <TopoDS_Shape.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <BinTools_ShapeSet.hxx>
-#include <TopAbs_Orientation.hxx>
+#include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 
 #define SHAPESET "SHAPE_SECTION"
 #define FORMAT_NUMBER 3

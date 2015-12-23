@@ -26,7 +26,7 @@ IMPLEMENT_STANDARD_TYPE_END(TopoDS_TEdge)
 IMPLEMENT_DOWNCAST(TopoDS_TEdge,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TopoDS_TEdge)
 
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 
 //=======================================================================
 //function : ShapeType

@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_TYPE_END(TopoDS_TCompound)
 IMPLEMENT_DOWNCAST(TopoDS_TCompound,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TopoDS_TCompound)
 
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 
 //=======================================================================
 //function : ShapeType

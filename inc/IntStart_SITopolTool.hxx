@@ -11,7 +11,7 @@
 #include <Handle_IntStart_SITopolTool.hxx>
 
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <TopAbs_State.hxx>
+#include <ModelingData/TopAbs/TopAbs_State.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class gp_Pnt2d;
 

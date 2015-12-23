@@ -47,7 +47,7 @@
 #include <TopoDS_Iterator.hxx>
 
 #include <BRepTopAdaptor_FClass2d.hxx>
-#include <TopAbs_State.hxx>
+#include <ModelingData/TopAbs/TopAbs_State.hxx>
 
 #include <ElCLib.hxx>
 #include <Precision.hxx>

@@ -20,7 +20,7 @@
 #include <Draw_Appli.hxx>
 #include <Draw.hxx>
 #include <Draw_Segment3D.hxx>
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Iterator.hxx>
 #include <TopoDS_Compound.hxx>

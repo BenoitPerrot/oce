@@ -17,7 +17,7 @@
 #include <Handle_TopOpeBRepTool_HBoxTool.hxx>
 #include <Handle_Bnd_HArray1OfBox.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>
-#include <TopAbs_ShapeEnum.hxx>
+#include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class TopOpeBRepTool_HBoxTool;
 class Bnd_HArray1OfBox;

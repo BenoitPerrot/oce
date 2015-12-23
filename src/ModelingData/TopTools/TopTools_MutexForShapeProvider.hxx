@@ -18,7 +18,7 @@
 
 #include <TopoDS_TShape.hxx>
 #include <Foundation/NCollection/NCollection_DataMap.hxx>
-#include <TopAbs_ShapeEnum.hxx>
+#include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 
 class Standard_Mutex;
 class TopoDS_Shape;

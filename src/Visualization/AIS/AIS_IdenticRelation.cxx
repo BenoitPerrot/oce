@@ -74,7 +74,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_IdenticRelation)
 
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 #include <TopExp.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Edge.hxx>

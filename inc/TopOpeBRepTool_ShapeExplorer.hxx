@@ -12,7 +12,7 @@
 
 #include <TopExp_Explorer.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <TopAbs_ShapeEnum.hxx>
+#include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 class TopoDS_Shape;

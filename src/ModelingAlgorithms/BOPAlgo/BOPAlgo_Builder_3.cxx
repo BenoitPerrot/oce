@@ -23,7 +23,7 @@
 #include <Foundation/NCollection/NCollection_UBTreeFiller.hxx>
 //
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <TopAbs_State.hxx>
+#include <ModelingData/TopAbs/TopAbs_State.hxx>
 //
 #include <TopoDS.hxx>
 #include <TopoDS_Iterator.hxx>

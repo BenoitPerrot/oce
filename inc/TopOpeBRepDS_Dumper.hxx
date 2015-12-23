@@ -19,7 +19,7 @@
 #include <Handle_Geom2d_BSplineCurve.hxx>
 #include <TopOpeBRepDS_Kind.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <TopAbs_ShapeEnum.hxx>
+#include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <Handle_TopOpeBRepDS_Interference.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 class TopOpeBRepDS_HDataStructure;

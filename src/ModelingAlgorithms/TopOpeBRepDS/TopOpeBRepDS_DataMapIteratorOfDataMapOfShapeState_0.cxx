@@ -15,7 +15,7 @@
 #define TheKey TopoDS_Shape
 #define TheKey_hxx <TopoDS_Shape.hxx>
 #define TheItem TopAbs_State
-#define TheItem_hxx <TopAbs_State.hxx>
+#define TheItem_hxx <ModelingData/TopAbs/TopAbs_State.hxx>
 #define Hasher TopTools_ShapeMapHasher
 #define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode TopOpeBRepDS_DataMapNodeOfDataMapOfShapeState

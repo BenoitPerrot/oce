@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TopoDS_Face.hxx>
-#include <TopAbs_Orientation.hxx>
+#include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 #include <BOPAlgo_BuilderArea.hxx>
 #include <BOPCol_BaseAllocator.hxx>
 class TopoDS_Face;

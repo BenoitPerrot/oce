@@ -12,7 +12,7 @@
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <TopoDS_Face.hxx>
-#include <TopAbs_Orientation.hxx>
+#include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class gp_Pnt;
 class TopoDS_Face;

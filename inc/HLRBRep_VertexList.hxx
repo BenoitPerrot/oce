@@ -13,7 +13,7 @@
 #include <HLRAlgo_ListIteratorOfInterferenceList.hxx>
 #include <HLRBRep_EdgeInterferenceTool.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <TopAbs_Orientation.hxx>
+#include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 class HLRBRep_EdgeInterferenceTool;
 class HLRAlgo_ListIteratorOfInterferenceList;
 class HLRAlgo_Intersection;

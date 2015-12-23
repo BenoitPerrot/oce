@@ -16,8 +16,8 @@
 #include <TopTrans_CurveTransition.hxx>
 #include <Geom2dHatch_Intersector.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <TopAbs_State.hxx>
-#include <TopAbs_Orientation.hxx>
+#include <ModelingData/TopAbs/TopAbs_State.hxx>
+#include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 class Standard_DomainError;
 class Geom2dAdaptor_Curve;
 class Geom2dHatch_Intersector;

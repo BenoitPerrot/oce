@@ -92,7 +92,7 @@
 #include <BRepLib_MakeWire.hxx>
 #include <BRepLib_MakeFace.hxx>
 
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Vertex.hxx>
@@ -127,7 +127,7 @@
 #include <Geometry/AppParCurves/AppParCurves_MultiBSpCurve.hxx>
 #include <Geometry/Approx/Approx_SameParameter.hxx>
 
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopExp.hxx>

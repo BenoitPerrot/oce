@@ -23,7 +23,7 @@
 #include <Precision.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 
-#include <TopAbs_State.hxx>
+#include <ModelingData/TopAbs/TopAbs_State.hxx>
 
 IntStart_SearchInside::IntStart_SearchInside (): done(Standard_False)
 {}

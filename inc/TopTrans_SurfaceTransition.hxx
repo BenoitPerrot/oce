@@ -15,8 +15,8 @@
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <TopTrans_Array2OfOrientation.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <TopAbs_Orientation.hxx>
-#include <TopAbs_State.hxx>
+#include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
+#include <ModelingData/TopAbs/TopAbs_State.hxx>
 class gp_Dir;
 
 

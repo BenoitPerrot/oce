@@ -26,7 +26,7 @@ IMPLEMENT_STANDARD_TYPE_END(TopoDS_TVertex)
 IMPLEMENT_DOWNCAST(TopoDS_TVertex,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TopoDS_TVertex)
 
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 
 //=======================================================================
 //function : ShapeType

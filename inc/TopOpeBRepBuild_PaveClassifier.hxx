@@ -13,10 +13,10 @@
 #include <TopoDS_Edge.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <TopAbs_Orientation.hxx>
+#include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <TopOpeBRepBuild_LoopClassifier.hxx>
-#include <TopAbs_State.hxx>
+#include <ModelingData/TopAbs/TopAbs_State.hxx>
 #include <Handle_TopOpeBRepBuild_Loop.hxx>
 class TopoDS_Shape;
 class TopOpeBRepBuild_Loop;

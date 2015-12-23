@@ -86,8 +86,8 @@
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
 #include <BRepTopAdaptor_TopolTool.hxx>
 
-#include <TopAbs.hxx>
-#include <TopAbs_Orientation.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 
 #include <ChFiDS_SurfData.hxx>
 #include <ChFiDS_CommonPoint.hxx>

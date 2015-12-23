@@ -12,7 +12,7 @@
 
 #include <TopOpeBRepTool_PSoClassif.hxx>
 #include <TopTools_IndexedDataMapOfShapeAddress.hxx>
-#include <TopAbs_State.hxx>
+#include <ModelingData/TopAbs/TopAbs_State.hxx>
 #include <TopoDS_Shell.hxx>
 #include <TopoDS_Solid.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>

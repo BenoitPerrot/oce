@@ -45,7 +45,7 @@ IMPLEMENT_STANDARD_RTTI(TopOpeBRepDS_HDataStructure)
 #include <TopTools_ListOfShape.hxx>
 #include <TopOpeBRepDS_SurfaceCurveInterference.hxx>
 #include <TopOpeBRepDS_Transition.hxx>
-#include <TopAbs_ShapeEnum.hxx>
+#include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <TopOpeBRepDS.hxx>
 #include <TopOpeBRepDS_Interference.hxx>
 #include <TopOpeBRepDS_ListOfInterference.hxx>

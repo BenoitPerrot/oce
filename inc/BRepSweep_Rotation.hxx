@@ -15,7 +15,7 @@
 #include <BRepSweep_Trsf.hxx>
 #include <Foundation/Quantity/Quantity_PlaneAngle.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <TopAbs_Orientation.hxx>
+#include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 class Standard_ConstructionError;
 class TopoDS_Shape;
 class Sweep_NumShape;

@@ -21,7 +21,7 @@
 #include <MeshTest.hxx>
 
 #include <MeshTest_DrawableMesh.hxx>
-#include <TopAbs_ShapeEnum.hxx>
+#include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Face.hxx>

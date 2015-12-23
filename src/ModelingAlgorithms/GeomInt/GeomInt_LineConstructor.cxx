@@ -30,7 +30,7 @@
 #include <IntPatch_WLine.hxx>
 #include <IntPatch_ALine.hxx>
 #include <IntSurf_Transition.hxx>
-#include <TopAbs_Orientation.hxx>
+#include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 
 #include <Precision.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>

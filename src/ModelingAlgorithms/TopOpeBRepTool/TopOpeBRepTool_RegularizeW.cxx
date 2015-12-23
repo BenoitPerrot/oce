@@ -22,7 +22,7 @@
 #include <TopOpeBRepTool_define.hxx>
 #include <TopExp_Explorer.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 #include <TopoDS.hxx>
 
 #ifdef DRAW

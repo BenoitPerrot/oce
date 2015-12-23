@@ -16,7 +16,7 @@
 
 #include <BRepMesh_GeomTool.hxx>
 
-#include <TopAbs_Orientation.hxx>
+#include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 #include <CSLib.hxx>
 #include <Precision.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_IsoCurve.hxx>

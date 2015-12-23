@@ -18,7 +18,7 @@
 #include <TopOpeBRep_FacesIntersector.hxx>
 #include <TopOpeBRep_EdgesIntersector.hxx>
 #include <TopOpeBRep_ShapeIntersector.hxx>
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 
 

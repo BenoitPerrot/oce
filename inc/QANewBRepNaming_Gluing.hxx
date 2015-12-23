@@ -14,7 +14,7 @@
 #include <TopoDS_Shape.hxx>
 #include <TDF_LabelMap.hxx>
 #include <QANewBRepNaming_TopNaming.hxx>
-#include <TopAbs_ShapeEnum.hxx>
+#include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_NullObject;
 class TDF_Label;

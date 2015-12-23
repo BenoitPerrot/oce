@@ -14,7 +14,7 @@
 #include <HLRAlgo_Intersection.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <TopAbs_Orientation.hxx>
+#include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class HLRBRep_Data;
 class HLRAlgo_Intersection;

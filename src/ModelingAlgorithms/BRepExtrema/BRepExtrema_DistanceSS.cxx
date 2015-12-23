@@ -29,7 +29,7 @@
 #include <BRepExtrema_SeqOfSolution.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx> 
-#include <TopAbs_ShapeEnum.hxx>
+#include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <TopoDS.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BRepExtrema_ExtPC.hxx>
@@ -39,7 +39,7 @@
 #include <BRepExtrema_ExtCF.hxx>
 #include <BRepExtrema_ExtFF.hxx>
 #include <BRepClass_FaceClassifier.hxx>
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>

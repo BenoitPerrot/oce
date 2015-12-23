@@ -15,7 +15,7 @@
 #include <TopTools_ListOfShape.hxx>
 #include <TNaming_ListOfMapOfShape.hxx>
 #include <TNaming_ListOfIndexedDataMapOfShapeListOfShape.hxx>
-#include <TopAbs_ShapeEnum.hxx>
+#include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <TNaming_Evolution.hxx>
 #include <Handle_TNaming_NamedShape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

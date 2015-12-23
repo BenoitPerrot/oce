@@ -19,8 +19,8 @@
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Adaptor2d_HCurve2d.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <TopAbs_State.hxx>
-#include <TopAbs_Orientation.hxx>
+#include <ModelingData/TopAbs/TopAbs_State.hxx>
+#include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 class Adaptor2d_HLine2d;
 class Adaptor3d_HVertex;

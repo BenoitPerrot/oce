@@ -23,8 +23,8 @@
 #include <Handle_Adaptor3d_TopolTool.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>
 #include <Handle_BRepAdaptor_HCurve2d.hxx>
-#include <TopAbs_Orientation.hxx>
-#include <TopAbs_State.hxx>
+#include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
+#include <ModelingData/TopAbs/TopAbs_State.hxx>
 #include <Handle_ChFiDS_Stripe.hxx>
 class Standard_ConstructionError;
 class Standard_DomainError;

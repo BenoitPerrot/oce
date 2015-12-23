@@ -69,7 +69,7 @@
 #include <TopExp.hxx>
 
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>

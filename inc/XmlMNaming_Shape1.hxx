@@ -12,7 +12,7 @@
 
 #include <XmlObjMgt_Element.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <TopAbs_Orientation.hxx>
+#include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 #include <Foundation/Standard/Standard_Storable.hxx>
 #include <XmlObjMgt_Document.hxx>
 #include <Foundation/Standard/Standard_PrimitiveTypes.hxx>

@@ -138,7 +138,7 @@
 #include <Geometry/TColGeom/TColGeom_Array1OfCurve.hxx>
 #include <Geometry/TColGeom/TColGeom_SequenceOfCurve.hxx>
 #include <Geometry/TColGeom2d/TColGeom2d_HArray1OfCurve.hxx>
-#include <TopAbs_Orientation.hxx>
+#include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 #include <TopExp.hxx>
 #include <TopExp_Explorer.hxx>    
 #include <TopOpeBRepDS_DataStructure.hxx>

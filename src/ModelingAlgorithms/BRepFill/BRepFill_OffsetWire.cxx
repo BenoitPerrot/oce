@@ -78,7 +78,7 @@
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx> 
-#include <TopAbs.hxx> 
+#include <ModelingData/TopAbs/TopAbs.hxx> 
 #include <TopExp.hxx>
 #include <TopExp_Explorer.hxx>
 #include <TopoDS.hxx>

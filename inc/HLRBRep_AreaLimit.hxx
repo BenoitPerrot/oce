@@ -12,7 +12,7 @@
 
 #include <HLRAlgo_Intersection.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <TopAbs_State.hxx>
+#include <ModelingData/TopAbs/TopAbs_State.hxx>
 #include <Handle_HLRBRep_AreaLimit.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class HLRAlgo_Intersection;

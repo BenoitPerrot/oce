@@ -32,13 +32,13 @@
 #include <Handle_Adaptor3d_TopolTool.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>
 #include <Handle_BRepAdaptor_HCurve2d.hxx>
-#include <TopAbs_Orientation.hxx>
+#include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 #include <Handle_BRepBlend_Line.hxx>
 #include <Handle_Adaptor3d_HSurface.hxx>
 #include <Handle_Adaptor2d_HCurve2d.hxx>
 #include <Handle_ChFiDS_Stripe.hxx>
 #include <Handle_BRepTopAdaptor_TopolTool.hxx>
-#include <TopAbs_State.hxx>
+#include <ModelingData/TopAbs/TopAbs_State.hxx>
 #include <Handle_Geom2d_Curve.hxx>
 class TopOpeBRepDS_HDataStructure;
 class TopOpeBRepBuild_HBuilder;

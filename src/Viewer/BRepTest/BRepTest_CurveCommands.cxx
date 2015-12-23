@@ -62,7 +62,7 @@
 #include <Mathematics/Primitives/gp.hxx>
 #include <Precision.hxx>
 #include <GeomAPI.hxx>
-#include <TopAbs_Orientation.hxx>
+#include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 #include <TopExp_Explorer.hxx>
 #include <TopOpeBRep_EdgesIntersector.hxx>
 #include <TopOpeBRep_Point2d.hxx>

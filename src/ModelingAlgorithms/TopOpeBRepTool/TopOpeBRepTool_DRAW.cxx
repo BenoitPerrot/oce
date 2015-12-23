@@ -24,7 +24,7 @@
 #include <Draw_Marker3D.hxx>
 #include <Draw_Segment3D.hxx>
 #include <ElCLib.hxx>
-#include <TopAbs_State.hxx>
+#include <ModelingData/TopAbs/TopAbs_State.hxx>
 #include <TopExp.hxx>
 #include <TopoDS.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>

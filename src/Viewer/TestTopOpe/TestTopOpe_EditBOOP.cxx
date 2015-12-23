@@ -22,7 +22,7 @@
 #include <TopOpeBRepDS_define.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <TopoDS.hxx>
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 
 void TestTopOpe_BOOP::SetTol(const TopOpeBRepDS_Kind K,const Standard_Integer index,const Standard_Real tol)

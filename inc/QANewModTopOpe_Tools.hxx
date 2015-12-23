@@ -14,7 +14,7 @@
 #include <BOPAlgo_PPaveFiller.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <BOPAlgo_PBuilder.hxx>
-#include <TopAbs_State.hxx>
+#include <ModelingData/TopAbs/TopAbs_State.hxx>
 class TopoDS_Shape;
 class TopTools_ListOfShape;
 class TopoDS_Edge;

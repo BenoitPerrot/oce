@@ -12,7 +12,7 @@
 
 #include <HLRAlgo_Intersection.hxx>
 #include <HLRAlgo_Coincidence.hxx>
-#include <TopAbs_Orientation.hxx>
+#include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 class HLRAlgo_Intersection;
 class HLRAlgo_Coincidence;
 

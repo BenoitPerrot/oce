@@ -41,7 +41,7 @@ IMPLEMENT_STANDARD_RTTI(MNaming_NamingRetrievalDriver_1)
 #include <TNaming_Naming.hxx>
 #include <TNaming_NameType.hxx>
 #include <TNaming_Iterator.hxx>
-#include <TopAbs_ShapeEnum.hxx>
+#include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <CDM_MessageDriver.hxx>
 
 //=======================================================================

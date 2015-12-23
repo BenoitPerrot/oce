@@ -107,7 +107,7 @@
 
 #include <Precision.hxx>
 
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 
 #include <TopoDS.hxx>
 #include <TopoDS_Edge.hxx>

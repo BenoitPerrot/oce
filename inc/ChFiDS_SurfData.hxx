@@ -17,7 +17,7 @@
 #include <Handle_MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <TopAbs_Orientation.hxx>
+#include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class MMgt_TShared;
 class ChFiDS_FaceInterference;

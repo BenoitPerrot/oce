@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TopoDS_Edge.hxx>
-#include <TopAbs_ShapeEnum.hxx>
+#include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <IntTools_Range.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <IntTools_SequenceOfRanges.hxx>

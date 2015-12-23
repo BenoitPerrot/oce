@@ -13,7 +13,7 @@
 
 #include <Handle_PTopoDS_TShape.hxx>
 #include <PTopLoc_Location.hxx>
-#include <TopAbs_Orientation.hxx>
+#include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 #include <ObjMgt_ExternShareable.hxx>
 class PTopoDS_TShape;
 class PTopLoc_Location;

@@ -15,7 +15,7 @@
 #include <TopoDS_Face.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <TopAbs_State.hxx>
+#include <ModelingData/TopAbs/TopAbs_State.hxx>
 class TopoDS_Edge;
 class TopoDS_Face;
 class gp_Pnt2d;

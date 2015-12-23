@@ -21,7 +21,7 @@
 #include <Blend_DecrochStatus.hxx>
 #include <Handle_Adaptor3d_HVertex.hxx>
 #include <Blend_Status.hxx>
-#include <TopAbs_State.hxx>
+#include <ModelingData/TopAbs/TopAbs_State.hxx>
 class BRepBlend_Line;
 class Adaptor3d_HSurface;
 class Adaptor3d_TopolTool;

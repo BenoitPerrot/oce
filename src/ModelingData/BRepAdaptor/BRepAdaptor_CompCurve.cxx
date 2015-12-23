@@ -40,7 +40,7 @@
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HCompCurve.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
-#include <TopAbs_Orientation.hxx>
+#include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 
 #include <Geometry/GCPnts/GCPnts_AbscissaPoint.hxx>
 #include <ElCLib.hxx>

@@ -21,7 +21,7 @@
 #include <TopOpeBRepBuild_define.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <BRepCheck_Analyzer.hxx>
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 
 #ifdef DRAW
 #include <DBRep.hxx>

@@ -18,7 +18,7 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_TNaming_NamedShape.hxx>
 #include <Handle_TDataStd_UAttribute.hxx>
-#include <TopAbs_ShapeEnum.hxx>
+#include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_TDF_Data.hxx>
 #include <Draw_Interpretor.hxx>

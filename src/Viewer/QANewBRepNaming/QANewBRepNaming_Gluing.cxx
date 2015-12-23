@@ -21,7 +21,7 @@
 #include <TopTools_DataMapOfShapeInteger.hxx>
 #include <QANewBRepNaming_Gluing.hxx>
 
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <TDF_Label.hxx>
 #include <TDF_TagSource.hxx>

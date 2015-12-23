@@ -29,7 +29,7 @@
 #include <AIS_InteractiveContext.hxx>
 #include <Handle_Select3D_Projector.hxx>
 #include <AIS_ClearMode.hxx>
-#include <TopAbs_ShapeEnum.hxx>
+#include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <AIS_StatusOfDetection.hxx>
 #include <Handle_V3d_View.hxx>
 #include <AIS_StatusOfPick.hxx>

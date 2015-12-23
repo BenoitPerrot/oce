@@ -40,7 +40,7 @@
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <TopExp_Explorer.hxx>
 #include <TopoDS.hxx>
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <DBRep.hxx>
 #include <Draw_Appli.hxx>

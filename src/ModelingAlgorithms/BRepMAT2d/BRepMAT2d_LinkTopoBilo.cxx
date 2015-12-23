@@ -21,7 +21,7 @@
 #include <MAT_BasicElt.hxx>
 #include <TopoDS_Wire.hxx>
 #include <BRepMAT2d_LinkTopoBilo.hxx>
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 #include <TopExp_Explorer.hxx>
 #include <TopExp.hxx>
 #include <TopoDS_Shape.hxx>

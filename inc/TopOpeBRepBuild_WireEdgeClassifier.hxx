@@ -16,7 +16,7 @@
 #include <BRepClass_FacePassiveClassifier.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopOpeBRepBuild_CompositeClassifier.hxx>
-#include <TopAbs_State.hxx>
+#include <ModelingData/TopAbs/TopAbs_State.hxx>
 #include <Handle_TopOpeBRepBuild_Loop.hxx>
 class TopoDS_Shape;
 class TopOpeBRepBuild_BlockBuilder;

@@ -26,9 +26,9 @@
 #include <TopOpeBRepBuild_Pave.hxx>
 #include <TopOpeBRepBuild_LoopEnum.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <TopAbs_ShapeEnum.hxx>
-#include <TopAbs_Orientation.hxx>
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
+#include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 
 #ifdef OCCT_DEBUG
 extern Standard_Boolean TopOpeBRepBuild_GettraceAREA();

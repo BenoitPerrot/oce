@@ -48,7 +48,7 @@
 //#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve2d.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 #include <TopExp.hxx>
 #include <Precision.hxx>
 

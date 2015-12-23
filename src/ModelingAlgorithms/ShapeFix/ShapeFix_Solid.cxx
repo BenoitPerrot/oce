@@ -60,7 +60,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Solid)
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <Precision.hxx>
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 #include <TopTools_DataMapIteratorOfDataMapOfShapeListOfShape.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
@@ -68,7 +68,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Solid)
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <TopoDS_CompSolid.hxx>
 #include <TopTools_DataMapIteratorOfDataMapOfShapeShape.hxx>
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>
 #include <TopTools_IndexedDataMapOfShapeShape.hxx>

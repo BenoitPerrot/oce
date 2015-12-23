@@ -21,7 +21,7 @@
 
 #include <TopExp_Explorer.hxx>
 #include <TopExp.hxx>
-#include <TopAbs_ShapeEnum.hxx>
+#include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <TopoDS.hxx>

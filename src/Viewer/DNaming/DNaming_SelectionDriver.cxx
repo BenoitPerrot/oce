@@ -25,7 +25,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(DNaming_SelectionDriver)
 IMPLEMENT_DOWNCAST(DNaming_SelectionDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(DNaming_SelectionDriver)
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TDF_Label.hxx>
 #include <TDF_LabelMap.hxx>

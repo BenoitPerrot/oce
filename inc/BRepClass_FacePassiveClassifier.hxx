@@ -16,8 +16,8 @@
 #include <TopTrans_CurveTransition.hxx>
 #include <BRepClass_Intersector.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <TopAbs_State.hxx>
-#include <TopAbs_Orientation.hxx>
+#include <ModelingData/TopAbs/TopAbs_State.hxx>
+#include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 class Standard_DomainError;
 class BRepClass_Edge;
 class BRepClass_Intersector;

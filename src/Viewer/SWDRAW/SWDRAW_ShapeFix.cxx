@@ -58,7 +58,7 @@
 #include <Foundation/TColStd/TColStd_DataMapOfAsciiStringInteger.hxx>
 #include <TopTools_MapOfShape.hxx>
 #include <TopTools_DataMapOfShapeListOfShape.hxx>
-#include <TopAbs_State.hxx>
+#include <ModelingData/TopAbs/TopAbs_State.hxx>
 
 #include <Draw_ProgressIndicator.hxx>
 #include <ShapeAnalysis_FreeBounds.hxx>

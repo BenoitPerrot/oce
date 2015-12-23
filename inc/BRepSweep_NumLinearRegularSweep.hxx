@@ -17,7 +17,7 @@
 #include <Sweep_NumShapeTool.hxx>
 #include <TopTools_Array2OfShape.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfBoolean.hxx>
-#include <TopAbs_Orientation.hxx>
+#include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_NoMoreObject;
 class Standard_NoSuchObject;

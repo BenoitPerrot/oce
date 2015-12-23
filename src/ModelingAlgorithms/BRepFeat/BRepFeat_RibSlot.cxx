@@ -35,7 +35,7 @@
 #include <LocOpe_CSIntersector.hxx>
 #include <LocOpe_PntFace.hxx>
 
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 
 #include <TopExp_Explorer.hxx>
 #include <TopExp.hxx>

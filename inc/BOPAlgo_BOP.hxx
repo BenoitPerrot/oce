@@ -17,7 +17,7 @@
 #include <BOPCol_MapOfShape.hxx>
 #include <BOPAlgo_Builder.hxx>
 #include <BOPCol_BaseAllocator.hxx>
-#include <TopAbs_ShapeEnum.hxx>
+#include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <BOPCol_IndexedDataMapOfShapeListOfShape.hxx>
 class TopoDS_Shape;

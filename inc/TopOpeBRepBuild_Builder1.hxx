@@ -19,7 +19,7 @@
 #include <TopTools_DataMapOfShapeListOfShape.hxx>
 #include <TopOpeBRepBuild_Builder.hxx>
 #include <Handle_TopOpeBRepDS_HDataStructure.hxx>
-#include <TopAbs_State.hxx>
+#include <ModelingData/TopAbs/TopAbs_State.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class TopOpeBRepBuild_HBuilder;

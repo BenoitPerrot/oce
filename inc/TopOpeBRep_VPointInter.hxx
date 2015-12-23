@@ -12,7 +12,7 @@
 
 #include <TopOpeBRep_PThePointOfIntersection.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <TopAbs_State.hxx>
+#include <ModelingData/TopAbs/TopAbs_State.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <TopoDS_Shape.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

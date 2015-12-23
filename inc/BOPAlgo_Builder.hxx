@@ -21,7 +21,7 @@
 #include <BOPAlgo_BuilderShape.hxx>
 #include <BOPCol_BaseAllocator.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <TopAbs_ShapeEnum.hxx>
+#include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 class IntTools_Context;
 class TopoDS_Shape;
 class BOPAlgo_PaveFiller;

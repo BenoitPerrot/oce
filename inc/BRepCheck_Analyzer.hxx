@@ -14,7 +14,7 @@
 #include <BRepCheck_DataMapOfShapeResult.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_BRepCheck_Result.hxx>
-#include <TopAbs_ShapeEnum.hxx>
+#include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 class Standard_NullObject;
 class Standard_NoSuchObject;
 class TopoDS_Shape;

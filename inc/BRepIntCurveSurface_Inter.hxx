@@ -15,7 +15,7 @@
 #include <IntCurveSurface_HInter.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_BRepTopAdaptor_TopolTool.hxx>
-#include <TopAbs_State.hxx>
+#include <ModelingData/TopAbs/TopAbs_State.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <TopTools_SequenceOfShape.hxx>
 #include <Handle_Bnd_HArray1OfBox.hxx>

@@ -19,7 +19,7 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Adaptor3d_HCurve.hxx>
 #include <IntCurveSurface_TransitionOnCurve.hxx>
-#include <TopAbs_State.hxx>
+#include <ModelingData/TopAbs/TopAbs_State.hxx>
 class TopoDS_Shape;
 class gp_Lin;
 class Adaptor3d_HCurve;

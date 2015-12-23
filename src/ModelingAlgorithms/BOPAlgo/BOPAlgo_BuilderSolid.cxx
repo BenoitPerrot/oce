@@ -34,7 +34,7 @@
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 //
-#include <TopAbs.hxx>
+#include <ModelingData/TopAbs/TopAbs.hxx>
 //
 #include <TopoDS_Iterator.hxx>
 #include <TopoDS_Face.hxx>

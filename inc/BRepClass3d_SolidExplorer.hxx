@@ -18,7 +18,7 @@
 #include <TopExp_Explorer.hxx>
 #include <BRepClass3d_MapOfInter.hxx>
 #include <Handle_BRepAdaptor_HSurface.hxx>
-#include <TopAbs_State.hxx>
+#include <ModelingData/TopAbs/TopAbs_State.hxx>
 class TopoDS_Shape;
 class gp_Pnt;
 class TopoDS_Face;
