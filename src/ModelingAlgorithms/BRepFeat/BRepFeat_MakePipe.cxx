@@ -42,7 +42,7 @@
 
 #include <LocOpe_Pipe.hxx>
 
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <TopExp_Explorer.hxx>
 #include <TopTools_MapOfShape.hxx>
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>

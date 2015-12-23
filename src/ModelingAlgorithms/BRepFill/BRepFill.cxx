@@ -53,13 +53,13 @@
 #include <BRepLib_MakeWire.hxx>
 #include <BRepExtrema_ExtPC.hxx>
 #include <BRepExtrema_DistShapeShape.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepTools_WireExplorer.hxx>
 
 #include <TopoDS_Face.hxx>
 #include <TopoDS_Wire.hxx>
 #include <TopoDS_Vertex.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <TopExp_Explorer.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
@@ -93,7 +93,7 @@
 #include <BRepAdaptor_Curve.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>
 
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <TopoDS.hxx>
 #include <TopExp.hxx>
 #include <Precision.hxx>

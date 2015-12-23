@@ -29,11 +29,11 @@
 #include <BRepClass3d_SolidClassifier.hxx>
 #include <BRepClass_FaceClassifier.hxx>
 
-#include <BRep_Tool.hxx>
-#include <BRep_CurveRepresentation.hxx>
-#include <BRep_ListIteratorOfListOfCurveRepresentation.hxx>
-#include <BRep_TEdge.hxx>
-#include <BRep_GCurve.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_CurveRepresentation.hxx>
+#include <ModelingData/BRep/BRep_ListIteratorOfListOfCurveRepresentation.hxx>
+#include <ModelingData/BRep/BRep_TEdge.hxx>
+#include <ModelingData/BRep/BRep_GCurve.hxx>
 
 #include <Draw.hxx>
 #include <DBRep.hxx>

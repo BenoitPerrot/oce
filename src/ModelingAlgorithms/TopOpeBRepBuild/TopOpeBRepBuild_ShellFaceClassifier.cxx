@@ -24,7 +24,7 @@
 #include <TopoDS_Face.hxx>
 #include <TopoDS_Shell.hxx>
 #include <TopExp_Explorer.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <BRepAdaptor_Surface.hxx>
 
@@ -191,7 +191,7 @@ Standard_Boolean TopOpeBRepBuild_ShellFaceClassifier::CompareElement(const TopoD
 
 #ifdef OCCT_DEBUG
 #include <BRepTools.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 static Standard_Integer STATIC_ishell = 0;
 #endif

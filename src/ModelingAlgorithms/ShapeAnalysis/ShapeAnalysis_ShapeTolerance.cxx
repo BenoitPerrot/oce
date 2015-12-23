@@ -17,7 +17,7 @@
 #include <TopTools_HSequenceOfShape.hxx>
 #include <ShapeAnalysis_ShapeTolerance.hxx>
 
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 
 #include <TopoDS.hxx>
 #include <TopoDS_Vertex.hxx>

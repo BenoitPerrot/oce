@@ -112,9 +112,9 @@
 #include <BRepLib_MakeEdge.hxx>
 #include <BRepAlgo_NormalProjection.hxx>
 #include <BRepExtrema_ExtCC.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepTools.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <IntCurveSurface_HInter.hxx>
 #include <IntCurveSurface_IntersectionPoint.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>

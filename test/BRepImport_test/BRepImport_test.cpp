@@ -1,6 +1,6 @@
 #include <TopoDS_Shape.hxx>
 #include <BRepTools.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <gtest/gtest.h>
 
 #include "BRepImport_test_config.h"

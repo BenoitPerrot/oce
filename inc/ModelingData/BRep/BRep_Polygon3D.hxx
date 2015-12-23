@@ -11,7 +11,7 @@
 #include <Handle_BRep_Polygon3D.hxx>
 
 #include <Handle_Poly_Polygon3D.hxx>
-#include <BRep_CurveRepresentation.hxx>
+#include <ModelingData/BRep/BRep_CurveRepresentation.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_BRep_CurveRepresentation.hxx>
 class Poly_Polygon3D;

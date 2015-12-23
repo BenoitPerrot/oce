@@ -19,7 +19,7 @@
 #include <TopOpeBRepDS_DataStructure.hxx>
 #include <ChFiDS_SurfData.hxx>
 #include <TopOpeBRepDS_Surface.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Wire.hxx>

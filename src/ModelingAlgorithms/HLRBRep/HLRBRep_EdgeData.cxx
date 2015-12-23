@@ -18,7 +18,7 @@
 #include <HLRAlgo_EdgeStatus.hxx>
 #include <HLRBRep_Curve.hxx>
 #include <HLRBRep_EdgeData.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 
 //=======================================================================
 //function : EdgeData

@@ -69,7 +69,7 @@
 
 #include <Precision.hxx>
 
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 
 #include <TopoDS.hxx>
 #include <TopoDS_Edge.hxx>
@@ -88,7 +88,7 @@
 //:21 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <Geometry/GeomLib/GeomLib.hxx>
 #include <IGESSolid_CylindricalSurface.hxx>
 #include <IGESSolid_ConicalSurface.hxx>

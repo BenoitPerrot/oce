@@ -42,7 +42,7 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Precision.hxx>
 
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Geometry/Geom/Geom_CylindricalSurface.hxx>

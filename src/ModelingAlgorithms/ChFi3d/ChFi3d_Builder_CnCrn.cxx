@@ -39,7 +39,7 @@
 #include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Geometry/BndLib/BndLib_Add2dCurve.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepTools.hxx>
 #include <BRepAlgo_NormalProjection.hxx>
 #include <BRepLib_MakeEdge.hxx>  

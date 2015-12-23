@@ -13,7 +13,7 @@
 #include <Handle_Geom2d_Curve.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <BRep_CurveOnSurface.hxx>
+#include <ModelingData/BRep/BRep_CurveOnSurface.hxx>
 #include <Handle_Geom_Surface.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_BRep_CurveRepresentation.hxx>
@@ -90,7 +90,7 @@ private:
 };
 
 
-#include <BRep_CurveOnClosedSurface.lxx>
+#include <ModelingData/BRep/BRep_CurveOnClosedSurface.lxx>
 
 
 

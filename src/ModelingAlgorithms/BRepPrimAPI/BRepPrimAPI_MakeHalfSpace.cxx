@@ -21,7 +21,7 @@
 #include <TopoDS_Solid.hxx>
 #include <BRepPrimAPI_MakeHalfSpace.hxx>
 
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <BRepLib_MakeVertex.hxx>
 #include <BRepExtrema_ExtPF.hxx>
 #include <BRepLProp_SLProps.hxx>
@@ -30,7 +30,7 @@
 #include <TopExp_Explorer.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Vertex.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 
 //=======================================================================
 //function : FindExtrema

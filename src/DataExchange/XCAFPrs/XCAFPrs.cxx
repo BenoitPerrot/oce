@@ -24,7 +24,7 @@
 #include <XCAFDoc_ColorTool.hxx>
 #include <TDF_LabelSequence.hxx>
 #include <TopoDS_Iterator.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Compound.hxx>
 #include <XCAFDoc_DocumentTool.hxx>

@@ -47,11 +47,11 @@
 #include <BRepLib_MakeWire.hxx>
 #include <BRepLib_MakeEdge.hxx>
 #include <BRepTools.hxx>
-#include <BRep_Builder.hxx>
-#include <BRep_Tool.hxx>
-#include <BRep_TEdge.hxx>
-#include <BRep_CurveRepresentation.hxx>
-#include <BRep_GCurve.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_TEdge.hxx>
+#include <ModelingData/BRep/BRep_CurveRepresentation.hxx>
+#include <ModelingData/BRep/BRep_GCurve.hxx>
 #include <BRepTools_WireExplorer.hxx>
 #include <BRepMAT2d_Explorer.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
@@ -102,7 +102,7 @@
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
 
-#include <BRep_TVertex.hxx>
+#include <ModelingData/BRep/BRep_TVertex.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>

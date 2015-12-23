@@ -82,7 +82,7 @@
 
 #include <TopOpeBRepDS_DataStructure.hxx>
 #include <BRepAdaptor_HSurface.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepLib_MakeEdge.hxx>
 
 #include <Geometry/ProjLib/ProjLib_ProjectedCurve.hxx>

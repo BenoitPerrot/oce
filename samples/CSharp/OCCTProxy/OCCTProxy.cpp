@@ -14,7 +14,7 @@
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Compound.hxx>
 //brep tools
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <BRepTools.hxx>
 #include <MgtBRep.hxx>
 #include <PTColStd_PersistentTransientMap.hxx>

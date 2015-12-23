@@ -46,8 +46,8 @@
 #include <MgtBRep_TriangleMode.hxx>
 
 #include <BRepTools.hxx>
-#include <BRep_Tool.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 
 #include <TopoDS.hxx>
 #include <TopoDS_Shape.hxx>

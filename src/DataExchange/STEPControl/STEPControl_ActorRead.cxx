@@ -94,7 +94,7 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_ActorRead)
 #include <StepRepr_Transformation.hxx>
 #include <StepRepr_ItemDefinedTransformation.hxx>
 
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <StepToTopoDS_Builder.hxx>
 #include <TopoDS_Compound.hxx>
 #include <TopoDS_Shape.hxx>

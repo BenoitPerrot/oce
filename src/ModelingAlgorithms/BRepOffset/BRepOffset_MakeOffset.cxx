@@ -47,9 +47,9 @@
 #include <BRepCheck_Vertex.hxx>
 #include <BRepLib.hxx>
 #include <BRepLib_MakeVertex.hxx>
-#include <BRep_Builder.hxx>
-#include <BRep_Tool.hxx>
-#include <BRep_TVertex.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_TVertex.hxx>
 #include <BRepTools_Quilt.hxx>
 #include <BRepClass3d_SolidClassifier.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
@@ -81,7 +81,7 @@
 #include <Geometry/Geom/Geom_OffsetSurface.hxx>
 #include <Geometry/Geom/Geom_ConicalSurface.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>
-#include <BRep_TEdge.hxx>
+#include <ModelingData/BRep/BRep_TEdge.hxx>
 #include <BRepTools.hxx>
 #include <Mathematics/Primitives/gp_Cone.hxx>
 #include <ElSLib.hxx>
@@ -93,8 +93,8 @@
 #include <BRepLib_MakeFace.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>
 
-#include <BRep_PointRepresentation.hxx>
-#include <BRep_ListIteratorOfListOfPointRepresentation.hxx>
+#include <ModelingData/BRep/BRep_PointRepresentation.hxx>
+#include <ModelingData/BRep/BRep_ListIteratorOfListOfPointRepresentation.hxx>
 #include <GeomAPI_ProjectPointOnCurve.hxx>
 
 #include <BRepAdaptor_Curve.hxx>

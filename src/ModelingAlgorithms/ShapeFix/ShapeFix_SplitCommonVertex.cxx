@@ -24,8 +24,8 @@ IMPLEMENT_STANDARD_TYPE_END(ShapeFix_SplitCommonVertex)
 IMPLEMENT_DOWNCAST(ShapeFix_SplitCommonVertex,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ShapeFix_SplitCommonVertex)
 
-#include <BRep_Tool.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <ShapeAnalysis_Edge.hxx>
 #include <ShapeBuild_ReShape.hxx>

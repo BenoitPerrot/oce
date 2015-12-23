@@ -47,8 +47,8 @@
 
 #include <TopoDS.hxx>
 
-#include <BRep_Tool.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 
 
 #include <Geometry/GeomLib/GeomLib.hxx>

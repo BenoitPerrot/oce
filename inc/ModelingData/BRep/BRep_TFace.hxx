@@ -101,7 +101,7 @@ private:
 };
 
 
-#include <BRep_TFace.lxx>
+#include <ModelingData/BRep/BRep_TFace.lxx>
 
 
 

@@ -38,8 +38,8 @@
 #include <TopoDS.hxx>
 #include <TopoDS_Iterator.hxx>
 #include <Precision.hxx>
-#include <BRep_Tool.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <Geom2dAPI_ProjectPointOnCurve.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>

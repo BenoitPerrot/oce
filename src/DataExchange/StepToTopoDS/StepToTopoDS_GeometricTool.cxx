@@ -41,9 +41,9 @@
 #include <StepRepr_DefinitionalRepresentation.hxx>
 #include <StepShape_OrientedEdge.hxx>
 //#include <BRepAPI.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepTools.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ElCLib.hxx>
 #include <ElSLib.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>

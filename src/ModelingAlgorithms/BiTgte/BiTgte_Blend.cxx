@@ -44,8 +44,8 @@
 #include <BRepTools.hxx>
 #include <BRepTools_Quilt.hxx>
 #include <BRepBuilderAPI_Sewing.hxx>
-#include <BRep_Tool.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <BRepLib_MakeEdge.hxx>
 #include <BRepOffset_DataMapOfShapeOffset.hxx>
 #include <BRepOffset_DataMapIteratorOfDataMapOfShapeOffset.hxx>

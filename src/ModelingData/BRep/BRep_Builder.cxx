@@ -29,19 +29,19 @@
 #include <Mathematics/Polyhedral/Poly_Polygon2D.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 
-#include <BRep_TEdge.hxx>
-#include <BRep_Curve3D.hxx>
-#include <BRep_GCurve.hxx>
-#include <BRep_CurveOnClosedSurface.hxx>
-#include <BRep_CurveOn2Surfaces.hxx>
-#include <BRep_ListIteratorOfListOfCurveRepresentation.hxx>
+#include <ModelingData/BRep/BRep_TEdge.hxx>
+#include <ModelingData/BRep/BRep_Curve3D.hxx>
+#include <ModelingData/BRep/BRep_GCurve.hxx>
+#include <ModelingData/BRep/BRep_CurveOnClosedSurface.hxx>
+#include <ModelingData/BRep/BRep_CurveOn2Surfaces.hxx>
+#include <ModelingData/BRep/BRep_ListIteratorOfListOfCurveRepresentation.hxx>
 
-#include <BRep_PointOnCurve.hxx>
-#include <BRep_PointOnCurveOnSurface.hxx>
-#include <BRep_PointOnSurface.hxx>
-#include <BRep_ListIteratorOfListOfPointRepresentation.hxx>
+#include <ModelingData/BRep/BRep_PointOnCurve.hxx>
+#include <ModelingData/BRep/BRep_PointOnCurveOnSurface.hxx>
+#include <ModelingData/BRep/BRep_PointOnSurface.hxx>
+#include <ModelingData/BRep/BRep_ListIteratorOfListOfPointRepresentation.hxx>
 
 #include <TopoDS.hxx>
 #include <TopoDS_Iterator.hxx>
@@ -49,11 +49,11 @@
 
 #include <Precision.hxx>
 
-#include <BRep_Polygon3D.hxx>
-#include <BRep_PolygonOnSurface.hxx>
-#include <BRep_PolygonOnClosedSurface.hxx>
-#include <BRep_PolygonOnTriangulation.hxx>
-#include <BRep_PolygonOnClosedTriangulation.hxx>
+#include <ModelingData/BRep/BRep_Polygon3D.hxx>
+#include <ModelingData/BRep/BRep_PolygonOnSurface.hxx>
+#include <ModelingData/BRep/BRep_PolygonOnClosedSurface.hxx>
+#include <ModelingData/BRep/BRep_PolygonOnTriangulation.hxx>
+#include <ModelingData/BRep/BRep_PolygonOnClosedTriangulation.hxx>
 
 #include <Foundation/Standard/Standard_NullObject.hxx>
 

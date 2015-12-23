@@ -18,7 +18,7 @@
 #include <TopExp_Explorer.hxx>
 #include <BRepAdaptor_Surface.hxx>
 #include <BRepAdaptor_Curve.hxx>
-#include <BRep_Tool.hxx> 
+#include <ModelingData/BRep/BRep_Tool.hxx> 
 #include <TopoDS.hxx>
 #include <Geometry/BndLib/BndLib_Add3dCurve.hxx>
 #include <Geometry/BndLib/BndLib_AddSurface.hxx>
@@ -27,7 +27,7 @@
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <Mathematics/Polyhedral/Poly_PolygonOnTriangulation.hxx>
 #include <Mathematics/Polyhedral/Poly_Polygon3D.hxx>
-#include <BRep_Polygon3D.hxx>
+#include <ModelingData/BRep/BRep_Polygon3D.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>

@@ -43,8 +43,8 @@
 #include <TopoDS_Wire.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 
-#include <BRep_Builder.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepAdaptor_Surface.hxx>
 #include <BRepAdaptor_Curve.hxx>
 #include <BRepAdaptor_Surface.hxx>

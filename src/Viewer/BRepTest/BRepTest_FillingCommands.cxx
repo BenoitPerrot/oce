@@ -47,10 +47,10 @@
 #include <Geometry/Adaptor3d/Adaptor3d_HCurveOnSurface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 
 #include <BRepLib.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <GeomPlate_BuildPlateSurface.hxx>
 #include <GeomPlate_BuildAveragePlane.hxx>
 #include <GeomPlate_Surface.hxx>

@@ -20,7 +20,7 @@
 #include <TopTools_ListOfShape.hxx>
 #include <BRepAlgo.hxx>
 #include <BRepTools_WireExplorer.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepLib_MakeEdge.hxx>
 #include <BRepLib_MakeWire.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>

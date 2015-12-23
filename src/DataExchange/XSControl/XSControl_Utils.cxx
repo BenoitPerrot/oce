@@ -47,7 +47,7 @@
 #include <TopExp_Explorer.hxx>
 #include <Transfer_SimpleBinderOfTransient.hxx>
 
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <BRepTools.hxx>
 
 

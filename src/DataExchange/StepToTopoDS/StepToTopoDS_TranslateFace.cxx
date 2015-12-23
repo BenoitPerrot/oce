@@ -50,8 +50,8 @@
 #include <StepShape_Edge.hxx>
 
 //#3 rln 16/02/98
-#include <BRep_TEdge.hxx>
-#include <BRep_TVertex.hxx>
+#include <ModelingData/BRep/BRep_TEdge.hxx>
+#include <ModelingData/BRep/BRep_TVertex.hxx>
 
 #include <Geometry/Geom/Geom_BoundedSurface.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
@@ -75,8 +75,8 @@
 #include <TopoDS_Wire.hxx>
 #include <BRepTools.hxx>
 #include <BRepLib_MakeFace.hxx>
-#include <BRep_Builder.hxx>//rln 28/01/98
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>//rln 28/01/98
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Transfer_TransientProcess.hxx>
 #include <Precision.hxx>
 

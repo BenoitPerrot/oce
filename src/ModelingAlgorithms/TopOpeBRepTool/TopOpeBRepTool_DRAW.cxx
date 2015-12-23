@@ -27,13 +27,13 @@
 #include <TopAbs_State.hxx>
 #include <TopExp.hxx>
 #include <TopoDS.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Draw_Color.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <TopExp_Explorer.hxx>
 #include <TopOpeBRepTool_DRAW.hxx>
 

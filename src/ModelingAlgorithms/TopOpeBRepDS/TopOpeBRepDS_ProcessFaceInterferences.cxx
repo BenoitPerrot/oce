@@ -23,7 +23,7 @@
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <BRepAdaptor_Curve.hxx>
 #include <BRepAdaptor_Surface.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepClass3d_SolidClassifier.hxx>
 #include <TopoDS_Shell.hxx>
 #include <TopoDS_Solid.hxx>

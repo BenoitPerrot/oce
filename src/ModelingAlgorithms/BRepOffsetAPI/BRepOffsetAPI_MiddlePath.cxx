@@ -25,7 +25,7 @@
 #include <Geometry/Geom/Geom_Line.hxx>
 #include <Geometry/Geom/Geom_BezierCurve.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Geometry/gce/gce_MakeLin.hxx>
 
 #include <BRepLib_MakeWire.hxx>
@@ -39,7 +39,7 @@
 #include <TopTools_SequenceOfShape.hxx>
 #include <BRepTools_WireExplorer.hxx>
 #include <TopoDS_Iterator.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <Precision.hxx>
 #include <TopExp_Explorer.hxx>
 #include <BRepExtrema_DistShapeShape.hxx>

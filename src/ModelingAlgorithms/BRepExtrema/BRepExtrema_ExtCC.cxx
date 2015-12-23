@@ -16,7 +16,7 @@
 
 #include <BRepExtrema_ExtCC.hxx>
 
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Geometry/Extrema/Extrema_POnCurv.hxx>
 #include <BRepAdaptor_Curve.hxx>
 #include <BRepAdaptor_HCurve.hxx>

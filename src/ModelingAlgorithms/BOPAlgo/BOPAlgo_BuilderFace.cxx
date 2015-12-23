@@ -42,8 +42,8 @@
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Vertex.hxx>
 //
-#include <BRep_Builder.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepTools.hxx>
 //
 #include <TopExp.hxx>

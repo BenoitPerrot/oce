@@ -64,7 +64,7 @@
 #include <STEPConstruct_ExternRefs.hxx>
 #include <Interface_Static.hxx>
 #include <TopoDS_Compound.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <Transfer_ActorOfFinderProcess.hxx>
 #include <STEPCAFControl_ActorWrite.hxx>
 #include <STEPConstruct_ValidationProps.hxx>

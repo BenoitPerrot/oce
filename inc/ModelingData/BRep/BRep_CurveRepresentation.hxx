@@ -159,7 +159,7 @@ private:
 };
 
 
-#include <BRep_CurveRepresentation.lxx>
+#include <ModelingData/BRep/BRep_CurveRepresentation.lxx>
 
 
 

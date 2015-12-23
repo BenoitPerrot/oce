@@ -34,7 +34,7 @@
 #include <TopTools_MapOfShape.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Face.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 
 #include <BOPAlgo_PaveFiller.hxx>
 #include <BOPAlgo_BOP.hxx>

@@ -18,7 +18,7 @@
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Face.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepAdaptor_Curve.hxx>
 #include <Precision.hxx>
 

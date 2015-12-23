@@ -64,7 +64,7 @@
 #include <Geometry/Geom/Geom_OffsetCurve.hxx>
 #include <ShapeUpgrade_SplitCurve3dContinuity.hxx>
 #include <TopoDS_Iterator.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ShapeExtend_CompositeSurface.hxx>
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
 #include <Geometry/TColGeom/TColGeom_HArray2OfSurface.hxx>

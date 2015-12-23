@@ -27,7 +27,7 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>  
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <TopExp.hxx>
 #include <TopExp_Explorer.hxx>
 #include <TopExp_Explorer.hxx> 

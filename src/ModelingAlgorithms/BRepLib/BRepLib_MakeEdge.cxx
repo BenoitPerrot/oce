@@ -31,8 +31,8 @@
 #include <TopoDS_Edge.hxx>
 #include <BRepLib_MakeEdge.hxx>
 #include <BRepLib.hxx>
-#include <BRep_Tool.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <TopoDS.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>

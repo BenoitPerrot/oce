@@ -61,8 +61,8 @@
 #include <TopExp_Explorer.hxx>
 #include <TopExp.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <BRep_Tool.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <BRepTools.hxx>
 #include <BRepClass3d.hxx>
 #include <BRepClass3d_SolidExplorer.hxx>

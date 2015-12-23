@@ -11,7 +11,7 @@
 #include <Handle_BRep_PolygonOnClosedTriangulation.hxx>
 
 #include <Handle_Poly_PolygonOnTriangulation.hxx>
-#include <BRep_PolygonOnTriangulation.hxx>
+#include <ModelingData/BRep/BRep_PolygonOnTriangulation.hxx>
 #include <Handle_Poly_Triangulation.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_BRep_CurveRepresentation.hxx>

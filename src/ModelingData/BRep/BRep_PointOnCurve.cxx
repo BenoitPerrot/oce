@@ -16,7 +16,7 @@
 
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
-#include <BRep_PointOnCurve.hxx>
+#include <ModelingData/BRep/BRep_PointOnCurve.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BRep_PointOnCurve)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

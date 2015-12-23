@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Solid)
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
 
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <BRepClass3d_SolidClassifier.hxx>
 #include <Precision.hxx>
 #include <TopoDS_Shape.hxx>
@@ -56,7 +56,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Solid)
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <ShapeAnalysis.hxx>
 #include <TopoDS_Edge.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <Precision.hxx>
@@ -65,11 +65,11 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Solid)
 #include <TopTools_DataMapIteratorOfDataMapOfShapeListOfShape.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 #include <TopoDS_Solid.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <TopoDS_CompSolid.hxx>
 #include <TopTools_DataMapIteratorOfDataMapOfShapeShape.hxx>
 #include <TopAbs.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>
 #include <TopTools_IndexedDataMapOfShapeShape.hxx>
 #include <Foundation/Message/Message_Msg.hxx>

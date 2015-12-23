@@ -51,12 +51,12 @@
 #include <TopOpeBRepBuild_SolidBuilder.hxx>
 #include <TopoDS.hxx>
 #include <TopOpeBRepDS_ListOfShapeOn1State.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <TopOpeBRepBuild_define.hxx>
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <TopExp.hxx>
 #include <TopTools_ListOfShape.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <BRepCheck_Wire.hxx>
 #include <BRepCheck.hxx>
 #include <TopoDS_Iterator.hxx>

@@ -47,7 +47,7 @@
 #include <Precision.hxx>
 #include <TopoDS.hxx>
 #include <TopExp.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepAdaptor_Curve.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 

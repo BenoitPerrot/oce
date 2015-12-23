@@ -42,8 +42,8 @@ IMPLEMENT_STANDARD_TYPE_END(BRepFill_PipeShell)
 IMPLEMENT_DOWNCAST(BRepFill_PipeShell,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BRepFill_PipeShell)
 
-#include <BRep_Builder.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <TopExp.hxx>
 #include <TopTools_SequenceOfShape.hxx>
 #include <TopoDS.hxx>

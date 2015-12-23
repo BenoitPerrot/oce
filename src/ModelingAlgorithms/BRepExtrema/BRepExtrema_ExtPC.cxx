@@ -16,7 +16,7 @@
 
 #include <BRepExtrema_ExtPC.hxx>
 
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 //#include <Foundation/StdFail/StdFail_NotDone.hxx>
 //#include <Foundation/Standard/Standard_Failure.hxx>
 #include <BRepAdaptor_Curve.hxx>

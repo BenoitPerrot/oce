@@ -41,7 +41,7 @@
 #include <XCAFDoc_ShapeMapTool.hxx>
 #include <IGESBasic_SubfigureDef.hxx>
 #include <TopoDS_Compound.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 
 //=======================================================================
 //function : IGESCAFControl_Reader

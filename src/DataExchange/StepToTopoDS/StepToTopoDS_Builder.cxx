@@ -70,7 +70,7 @@
 #include <BRepLib_MakeEdge.hxx>
 #include <BRepLib_MakeVertex.hxx>
 #include <BRepLib.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <Precision.hxx>
 #include <TopoDS_Shell.hxx>
 #include <TopoDS_Face.hxx>

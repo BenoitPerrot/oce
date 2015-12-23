@@ -32,7 +32,7 @@
 #include <TopoDS.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Iterator.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 
 #include <BRepLib_MakeFace.hxx>
 #include <StepGeom_BSplineSurface.hxx>

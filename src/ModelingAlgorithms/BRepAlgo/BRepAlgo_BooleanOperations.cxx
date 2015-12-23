@@ -23,8 +23,8 @@
 #include <TopOpeBRep_DSFiller.hxx>
 #include <TopOpeBRepDS_BuildTool.hxx>
 #include <TopOpeBRepTool_GeomTool.hxx>
-#include <BRep_Tool.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <BRepTools_Substitution.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Compound.hxx>

@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_TYPE_END(XmlMNaming_Shape1)
 #include <TopoDS_Vertex.hxx>
 #include <TopoDS.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 
 #include <stdio.h>
 

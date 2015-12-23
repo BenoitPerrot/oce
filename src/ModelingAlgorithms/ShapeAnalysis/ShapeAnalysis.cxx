@@ -31,7 +31,7 @@
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
 
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepAdaptor_Surface.hxx>
 #include <BRepTopAdaptor_FClass2d.hxx>
 #include <BRepGProp.hxx>
@@ -49,7 +49,7 @@
 #include <TopoDS.hxx>
 #include <TopoDS_Iterator.hxx>
 #include <TopExp_Explorer.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 
 #include <Precision.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>

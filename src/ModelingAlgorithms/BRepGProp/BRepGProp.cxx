@@ -23,7 +23,7 @@
 #include <BRepAdaptor_Curve.hxx>
 
 #include <TopTools.hxx>
-#include <BRep_Tool.hxx>  
+#include <ModelingData/BRep/BRep_Tool.hxx>  
 #include <TopTools_ListOfShape.hxx>
 #include <BRepCheck_Shell.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>

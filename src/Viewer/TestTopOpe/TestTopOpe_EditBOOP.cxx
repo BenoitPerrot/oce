@@ -20,7 +20,7 @@
 #include <TopOpeBRepDS_Curve.hxx>
 #include <TopOpeBRepDS_Point.hxx>
 #include <TopOpeBRepDS_define.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <TopoDS.hxx>
 #include <TopAbs.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>

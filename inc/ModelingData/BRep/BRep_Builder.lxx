@@ -16,9 +16,9 @@
 
 #include <TopoDS_Face.hxx>
 #include <TopoDS_Vertex.hxx>
-#include <BRep_TFace.hxx>
-#include <BRep_TVertex.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_TFace.hxx>
+#include <ModelingData/BRep/BRep_TVertex.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 
 
 //=======================================================================

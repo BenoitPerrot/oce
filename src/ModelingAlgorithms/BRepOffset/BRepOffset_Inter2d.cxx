@@ -28,8 +28,8 @@
 #include <BRepOffset_Offset.hxx>
 #include <BRepOffset_Tool.hxx>
 
-#include <BRep_Builder.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepLib_MakeVertex.hxx>
 #include <BRepAdaptor_Curve.hxx>
 #include <BRepAdaptor_Surface.hxx>
@@ -46,10 +46,10 @@
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 #include <TopTools_DataMapIteratorOfDataMapOfShapeListOfShape.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <BRep_TEdge.hxx>
-#include <BRep_ListIteratorOfListOfCurveRepresentation.hxx>
-#include <BRep_CurveRepresentation.hxx>
-#include <BRep_GCurve.hxx>
+#include <ModelingData/BRep/BRep_TEdge.hxx>
+#include <ModelingData/BRep/BRep_ListIteratorOfListOfCurveRepresentation.hxx>
+#include <ModelingData/BRep/BRep_CurveRepresentation.hxx>
+#include <ModelingData/BRep/BRep_GCurve.hxx>
 
 #include <Geometry/Geom/Geom_Line.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>

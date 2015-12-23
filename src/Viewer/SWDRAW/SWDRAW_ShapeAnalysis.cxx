@@ -33,7 +33,7 @@
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Face.hxx>
 #include <TopTools_HSequenceOfShape.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepBuilderAPI.hxx>
 #include <ShapeAnalysis.hxx>
 #include <ShapeAnalysis_ShapeTolerance.hxx>
@@ -49,7 +49,7 @@
 #include <TopoDS_Edge.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <TopExp.hxx>
 #include <Geometry/GProp/GProp_GProps.hxx>
 #include <BRepGProp.hxx>
@@ -58,7 +58,7 @@
 #include <BRepLib_MakeFace.hxx>
 
 #include <TopoDS_Compound.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <Foundation/TColStd/TColStd_MapOfInteger.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 

@@ -37,7 +37,7 @@
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 
 #include <BRepTools.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepAdaptor_Surface.hxx>
 #include <BRepAdaptor_Curve.hxx>
 
@@ -79,7 +79,7 @@
 #include <TopExp_Explorer.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepAdaptor_HSurface.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HCurve.hxx>
 #include <Geometry/ProjLib/ProjLib_ProjectedCurve.hxx>

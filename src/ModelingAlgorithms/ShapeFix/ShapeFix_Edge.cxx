@@ -41,12 +41,12 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Edge)
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
 
-#include <BRep_Builder.hxx>
-#include <BRep_GCurve.hxx>
-#include <BRep_TEdge.hxx>
-#include <BRep_Tool.hxx>
-#include <BRep_ListIteratorOfListOfCurveRepresentation.hxx>
-#include <BRep_ListOfCurveRepresentation.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_GCurve.hxx>
+#include <ModelingData/BRep/BRep_TEdge.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_ListIteratorOfListOfCurveRepresentation.hxx>
+#include <ModelingData/BRep/BRep_ListOfCurveRepresentation.hxx>
 #include <BRepLib.hxx>
 
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>

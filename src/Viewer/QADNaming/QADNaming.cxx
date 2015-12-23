@@ -41,7 +41,7 @@
 #include <TopExp_Explorer.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <TopoDS.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 
 //=======================================================================

@@ -32,7 +32,7 @@
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <TopoDS.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <TopAbs.hxx>
 #include <DrawTrSurf.hxx>
 #include <TopExp_Explorer.hxx>

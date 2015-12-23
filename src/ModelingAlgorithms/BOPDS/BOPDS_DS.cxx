@@ -34,7 +34,7 @@
 #include <TopoDS_Vertex.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Face.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 //
 #include <BRepBndLib.hxx>
 //
@@ -52,7 +52,7 @@
 #include <BOPDS_VectorOfPave.hxx>
 
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <Precision.hxx>
 #include <IntTools_Tools.hxx>
 #include <BOPTools_AlgoTools.hxx>

@@ -39,7 +39,7 @@
 
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 
 #include <TopoDS.hxx>
 #include <TopoDS_Vertex.hxx>

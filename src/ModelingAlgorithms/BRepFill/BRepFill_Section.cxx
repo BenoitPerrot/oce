@@ -20,7 +20,7 @@
 #include <BRepFill_Section.hxx>
 
 #include <TopoDS.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <TopoDS_Edge.hxx>
 
 

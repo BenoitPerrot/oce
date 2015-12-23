@@ -16,7 +16,7 @@
 
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
-#include <BRep_PointsOnSurface.hxx>
+#include <ModelingData/BRep/BRep_PointsOnSurface.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BRep_PointsOnSurface)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -44,7 +44,7 @@ IMPLEMENT_STANDARD_RTTI(BRepTopAdaptor_TopolTool)
 #include <Precision.hxx>
 
 #include <BRepTopAdaptor_FClass2d.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 
 #include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
 #include <Geometry/Geom/Geom_BezierSurface.hxx>

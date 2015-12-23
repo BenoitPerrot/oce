@@ -17,7 +17,7 @@
 #include <VrmlData_InBuffer.hxx>
 #include <VrmlData_UnknownNode.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
-#include <BRep_TFace.hxx>
+#include <ModelingData/BRep/BRep_TFace.hxx>
 #include <VrmlData_Coordinate.hxx>
 #include <VrmlData_Color.hxx>
 #include <VrmlData_Normal.hxx>

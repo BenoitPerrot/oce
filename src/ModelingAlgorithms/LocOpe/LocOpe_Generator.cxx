@@ -44,8 +44,8 @@
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Mathematics/Primitives/gp_Cylinder.hxx>
 
-#include <BRep_Builder.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepAlgo_Loop.hxx>
 
 #include <Geometry/Geom/Geom_Surface.hxx>

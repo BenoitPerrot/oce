@@ -39,7 +39,7 @@
 
 #include <IGESData_ToolLocation.hxx>
 
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 
 #include <BRepLib.hxx>
 

@@ -37,7 +37,7 @@
 #include <BRepTools_WireExplorer.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <TopoDS.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <TopExp.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/GCPnts/GCPnts_UniformAbscissa.hxx>

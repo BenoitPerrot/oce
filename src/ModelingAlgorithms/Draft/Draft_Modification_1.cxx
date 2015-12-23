@@ -31,8 +31,8 @@
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Draft_Modification.hxx>
 
-#include <BRep_Tool.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 
 #include <BRepLib_MakeFace.hxx>
 
@@ -46,8 +46,8 @@
 #include <Draft_FaceInfo.hxx>
 #include <Draft_EdgeInfo.hxx>
 #include <Draft_VertexInfo.hxx>
-#include <BRep_Tool.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>

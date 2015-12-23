@@ -19,7 +19,7 @@
 #include <TopoDS.hxx>
 #include <TopExp_Explorer.hxx>
 #include <Precision.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <TopOpeBRepTool_HBoxTool.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <TopOpeBRepTool_box.hxx>

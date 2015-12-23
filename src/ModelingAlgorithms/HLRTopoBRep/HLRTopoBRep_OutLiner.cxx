@@ -31,7 +31,7 @@ IMPLEMENT_DOWNCAST(HLRTopoBRep_OutLiner,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(HLRTopoBRep_OutLiner)
 #include <HLRTopoBRep_DSFiller.hxx>
 #include <Contap_Contour.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Wire.hxx>

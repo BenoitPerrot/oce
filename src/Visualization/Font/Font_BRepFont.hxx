@@ -16,7 +16,7 @@
 #define _Font_BRepFont_H__
 
 #include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <Font_FTFont.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_HCurve.hxx>
 #include <Geometry/Geom2dConvert/Geom2dConvert_CompCurveToBSplineCurve.hxx>

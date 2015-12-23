@@ -33,7 +33,7 @@
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Compound.hxx>
 
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 
 #include <LocOpe_BuildShape.hxx>
 #include <LocOpe.hxx>
@@ -44,7 +44,7 @@
 #include <BRepTools_TrsfModification.hxx>
 #include <BRepTools_Modifier.hxx>
 
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 
 #include <BRepLib_MakeEdge.hxx>
 

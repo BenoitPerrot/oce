@@ -18,7 +18,7 @@
 #include <TopoDS.hxx>
 #include <TopExp.hxx>
 #include <TopOpeBRepTool_2d.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/ProjLib/ProjLib_ProjectedCurve.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>

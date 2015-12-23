@@ -52,8 +52,8 @@
 #include <GeomAPI.hxx>
 #include <TopTools_HSequenceOfShape.hxx>
 #include <ShapeAnalysis_Edge.hxx>
-#include <BRep_Builder.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <TopAbs_Orientation.hxx>
 #include <TopoDS.hxx>

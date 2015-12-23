@@ -24,10 +24,10 @@
 #include <BRepAdaptor_Curve.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_IsoCurve.hxx>
 
-#include <BRep_ListIteratorOfListOfPointRepresentation.hxx>
-#include <BRep_PointRepresentation.hxx>
-#include <BRep_TVertex.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_ListIteratorOfListOfPointRepresentation.hxx>
+#include <ModelingData/BRep/BRep_PointRepresentation.hxx>
+#include <ModelingData/BRep/BRep_TVertex.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 
 #include <Geometry/GeomLib/GeomLib.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>

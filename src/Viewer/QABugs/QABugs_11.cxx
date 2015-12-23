@@ -64,7 +64,7 @@
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <Geometry/Geom2dConvert/Geom2dConvert_BSplineCurveToBezierCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_BezierCurve.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Geometry/GeomProjLib/GeomProjLib.hxx>
 #include <Geom2dAPI_InterCurveCurve.hxx>
 #include <IntRes2d_IntersectionSegment.hxx>
@@ -284,7 +284,7 @@ static int BUC60610(Draw_Interpretor& di, Standard_Integer argc, const char ** a
 
 //OCC105
 #include <BRepTools_WireExplorer.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Geometry/GCPnts/GCPnts_UniformAbscissa.hxx>
 #include <TopExp.hxx>
 

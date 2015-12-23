@@ -38,7 +38,7 @@
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <BRepFeat_SplitShape.hxx>
 #include <DBRep_DrawableShape.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 #include <BRepExtrema_DistShapeShape.hxx>
 #include <Draw.hxx>
@@ -59,7 +59,7 @@
 #include <ShapeAnalysis_Wire.hxx>
 #include <TopExp.hxx>
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ShapeAnalysis_Curve.hxx>
 #include <V3d_View.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>

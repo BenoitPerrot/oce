@@ -20,7 +20,7 @@
 #include <TestTopOpe.hxx>
 
 #include <TestTopOpe_BOOP.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <TopoDS.hxx>
 #include <TopExp_Explorer.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfBoolean.hxx>

@@ -100,7 +100,7 @@
 
 #include <TDataStd_TreeNode.hxx>
 #include <TNaming_NamedShape.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 
 #include <STEPCAFControl_DataMapOfShapePD.hxx>
 #include <STEPCAFControl_DataMapOfPDExternFile.hxx>

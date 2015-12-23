@@ -53,7 +53,7 @@
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Vertex.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Precision.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 

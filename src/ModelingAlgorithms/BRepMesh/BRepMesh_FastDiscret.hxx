@@ -32,7 +32,7 @@
 #include <BRepMesh_FaceAttribute.hxx>
 #include <BRepMesh.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepMesh_ShapeTool.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>

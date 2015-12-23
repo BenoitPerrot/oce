@@ -11,7 +11,7 @@
 #include <Handle_BRep_Curve3D.hxx>
 
 #include <Handle_Geom_Curve.hxx>
-#include <BRep_GCurve.hxx>
+#include <ModelingData/BRep/BRep_GCurve.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_BRep_CurveRepresentation.hxx>

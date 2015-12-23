@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_FaceDivideArea)
 #include <TopoDS.hxx>
 #include <ShapeExtend.hxx> 
 #include <ShapeBuild_ReShape.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 
 //=======================================================================
 //function : ShapeUpgrade_FaceDivideArea

@@ -52,7 +52,7 @@ IMPLEMENT_STANDARD_RTTI(IntTools_Context)
 #include <TopoDS.hxx>
 #include <TopExp_Explorer.hxx>
 
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepAdaptor_Surface.hxx>
 
 #include <IntTools_Tools.hxx>

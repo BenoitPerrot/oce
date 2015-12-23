@@ -20,7 +20,7 @@
 #include <DrawTrSurf.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Draw_Appli.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 
 #include <BRepAlgo_Fuse.hxx>
 #include <BRepAlgo_Common.hxx>

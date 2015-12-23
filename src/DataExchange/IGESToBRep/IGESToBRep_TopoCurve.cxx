@@ -49,8 +49,8 @@
 #include <IGESToBRep_TopoSurface.hxx>
 #include <IGESGeom_CircularArc.hxx>//added by rln 32/12/97
 
-#include <BRep_Builder.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 
 #include <BRepLib_MakeEdge.hxx>
 #include <BRepLib_MakeFace.hxx>

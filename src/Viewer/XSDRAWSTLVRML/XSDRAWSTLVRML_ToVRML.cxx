@@ -18,7 +18,7 @@
 #include <Foundation/Standard/Standard_Stream.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BRepBndLib.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepTools.hxx>
 #include <BRepMesh_DiscretFactory.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>

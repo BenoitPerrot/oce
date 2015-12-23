@@ -58,7 +58,7 @@ IMPLEMENT_STANDARD_RTTI(BRepTools_NurbsConvertModification)
 
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Geometry/Approx/Approx_SameParameter.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Geometry/Extrema/Extrema_LocateExtPC.hxx>
 #include <Foundation/OSD/OSD_Chronometer.hxx>
 #include <Mathematics/Primitives/gp_GTrsf2d.hxx>
@@ -76,9 +76,9 @@ IMPLEMENT_STANDARD_RTTI(BRepTools_NurbsConvertModification)
 #include <Geometry/Geom/Geom_CylindricalSurface.hxx>
 
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <BRep_TEdge.hxx>
-#include <BRep_GCurve.hxx>
-#include <BRep_ListIteratorOfListOfCurveRepresentation.hxx>
+#include <ModelingData/BRep/BRep_TEdge.hxx>
+#include <ModelingData/BRep/BRep_GCurve.hxx>
+#include <ModelingData/BRep/BRep_ListIteratorOfListOfCurveRepresentation.hxx>
 
 static void GeomLib_ChangeUBounds(Handle(Geom_BSplineSurface)& aSurface,
                   const Standard_Real newU1,

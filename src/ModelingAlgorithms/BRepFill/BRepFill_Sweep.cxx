@@ -74,13 +74,13 @@
 #include <Geometry/Approx/Approx_SameParameter.hxx>
 #include <Geometry/GCPnts/GCPnts_AbscissaPoint.hxx>
 
-#include <BRep_Builder.hxx>
-#include <BRep_Tool.hxx>
-#include <BRep_ListIteratorOfListOfCurveRepresentation.hxx>
-#include <BRep_TEdge.hxx>
-#include <BRep_TVertex.hxx>
-#include <BRep_CurveRepresentation.hxx>
-#include <BRep_GCurve.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_ListIteratorOfListOfCurveRepresentation.hxx>
+#include <ModelingData/BRep/BRep_TEdge.hxx>
+#include <ModelingData/BRep/BRep_TVertex.hxx>
+#include <ModelingData/BRep/BRep_CurveRepresentation.hxx>
+#include <ModelingData/BRep/BRep_GCurve.hxx>
 
 #include <BRepLib.hxx>
 #include <BRepLib_MakeEdge.hxx>

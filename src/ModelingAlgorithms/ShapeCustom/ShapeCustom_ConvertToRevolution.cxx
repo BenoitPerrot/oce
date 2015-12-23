@@ -31,15 +31,15 @@ IMPLEMENT_STANDARD_TYPE_END(ShapeCustom_ConvertToRevolution)
 IMPLEMENT_DOWNCAST(ShapeCustom_ConvertToRevolution,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ShapeCustom_ConvertToRevolution)
 #include <Geometry/Geom/Geom_ElementarySurface.hxx>
-#include <BRep_Builder.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepTools.hxx>
 #include <TopoDS.hxx>
 #include <Precision.hxx>
 
-#include <BRep_TEdge.hxx>
-#include <BRep_ListIteratorOfListOfCurveRepresentation.hxx>
-#include <BRep_GCurve.hxx>
+#include <ModelingData/BRep/BRep_TEdge.hxx>
+#include <ModelingData/BRep/BRep_ListIteratorOfListOfCurveRepresentation.hxx>
+#include <ModelingData/BRep/BRep_GCurve.hxx>
 #include <Geometry/Geom/Geom_SphericalSurface.hxx>
 #include <Geometry/Geom/Geom_ToroidalSurface.hxx>
 #include <Geometry/Geom/Geom_CylindricalSurface.hxx>

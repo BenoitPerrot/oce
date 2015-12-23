@@ -19,7 +19,7 @@
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
-#include <BRep_PointRepresentation.hxx>
+#include <ModelingData/BRep/BRep_PointRepresentation.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BRep_PointRepresentation)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

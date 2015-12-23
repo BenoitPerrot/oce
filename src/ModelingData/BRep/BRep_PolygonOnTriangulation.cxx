@@ -17,8 +17,8 @@
 #include <Mathematics/Polyhedral/Poly_PolygonOnTriangulation.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
-#include <BRep_CurveRepresentation.hxx>
-#include <BRep_PolygonOnTriangulation.hxx>
+#include <ModelingData/BRep/BRep_CurveRepresentation.hxx>
+#include <ModelingData/BRep/BRep_PolygonOnTriangulation.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BRep_PolygonOnTriangulation)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

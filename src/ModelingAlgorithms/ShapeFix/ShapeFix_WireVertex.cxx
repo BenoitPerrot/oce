@@ -23,7 +23,7 @@
 #include <TopoDS_Vertex.hxx>
 #include <TopTools_HArray1OfShape.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 
 #include <ShapeAnalysis_Edge.hxx>
 

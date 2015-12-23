@@ -29,7 +29,7 @@
 #include <TopoDS_Iterator.hxx>
 #include <TopExp.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 
 #include <TDF_Label.hxx>
 #include <TDataStd_Name.hxx>

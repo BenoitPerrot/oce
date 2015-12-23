@@ -33,8 +33,8 @@
 #include <BRepExtrema_DistShapeShape.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BRepBndLib.hxx>
-#include <BRep_Builder.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepTools_WireExplorer.hxx>
 #include <BRepLProp.hxx>
 #include <BRepGProp.hxx>

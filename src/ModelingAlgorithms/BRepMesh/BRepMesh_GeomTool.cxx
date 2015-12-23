@@ -23,7 +23,7 @@
 #include <BRepAdaptor_Curve.hxx>
 #include <BRepAdaptor_HSurface.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 
 //=======================================================================
 //function : Constructor

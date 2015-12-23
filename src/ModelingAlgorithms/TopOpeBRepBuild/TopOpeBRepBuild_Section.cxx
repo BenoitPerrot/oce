@@ -54,7 +54,7 @@
 #include <TopOpeBRepBuild_GTool.hxx>
 #include <TopoDS.hxx>
 #include <GeomAPI_ProjectPointOnCurve.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <TopExp.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
@@ -65,8 +65,8 @@
 #include <TopOpeBRepDS_TKI.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <BRep_Tool.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <TopOpeBRepTool_CurveTool.hxx>
 #include <TopOpeBRepTool_TOOL.hxx>
 #include <TopOpeBRepTool_2d.hxx>
@@ -187,7 +187,7 @@ static Standard_Boolean FUN_PinE(const gp_Pnt& P, const TopoDS_Edge& E)
   return PinE;
 }
 
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 //-----------------------------------------------------------------------
 static Standard_Boolean FUN_EstaEE(const TopoDS_Edge& E, const TopAbs_State sta, const TopoDS_Edge& EE)
 //-----------------------------------------------------------------------

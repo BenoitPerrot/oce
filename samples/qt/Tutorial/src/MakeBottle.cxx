@@ -1,4 +1,4 @@
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 
 #include <BRepAlgoAPI_Fuse.hxx>
 

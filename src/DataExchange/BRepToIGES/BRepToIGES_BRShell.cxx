@@ -25,7 +25,7 @@
 #include <BRepToIGES_BRShell.hxx>
 #include <BRepToIGES_BRWire.hxx>
 
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepTools.hxx>
 
 #include <Mathematics/Primitives/gp.hxx>

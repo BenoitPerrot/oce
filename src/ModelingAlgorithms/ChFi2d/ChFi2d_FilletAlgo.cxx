@@ -14,7 +14,7 @@
 #include <ChFi2d_FilletAlgo.hxx>
 
 #include <Geometry/GeomProjLib/GeomProjLib.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Precision.hxx>
 #include <ElSLib.hxx>
 #include <ElCLib.hxx>

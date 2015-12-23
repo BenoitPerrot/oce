@@ -12,7 +12,7 @@
 
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <BRep_ListOfCurveRepresentation.hxx>
+#include <ModelingData/BRep/BRep_ListOfCurveRepresentation.hxx>
 #include <TopoDS_TEdge.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_TopoDS_TShape.hxx>
@@ -91,7 +91,7 @@ private:
 };
 
 
-#include <BRep_TEdge.lxx>
+#include <ModelingData/BRep/BRep_TEdge.lxx>
 
 
 

@@ -47,7 +47,7 @@
 #include <BRepAdaptor_Curve.hxx>
 //#include <BRepAdaptor_Curve2d.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <TopAbs.hxx>
 #include <TopExp.hxx>
 #include <Precision.hxx>

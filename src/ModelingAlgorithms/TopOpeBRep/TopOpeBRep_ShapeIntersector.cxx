@@ -58,7 +58,7 @@ void seteefff(const Standard_Integer e1,const Standard_Integer e2, const Standar
 #include <BRepLib_MakeEdge.hxx>
 #include <BRepLib_MakeWire.hxx>
 #include <BRepLib_MakeFace.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <BRepAdaptor_Surface.hxx>
 static Standard_Integer OneShapeIsHalfSpace(const TopoDS_Shape& S1,const TopoDS_Shape& S2);
 static TopoDS_Solid GetNewSolid(const TopoDS_Shape& S, TopoDS_Face& F);

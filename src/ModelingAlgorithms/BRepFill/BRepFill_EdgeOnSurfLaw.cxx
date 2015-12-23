@@ -29,7 +29,7 @@ IMPLEMENT_DOWNCAST(BRepFill_EdgeOnSurfLaw,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BRepFill_EdgeOnSurfLaw)
 
 #include <BRepTools_WireExplorer.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopExp_Explorer.hxx>

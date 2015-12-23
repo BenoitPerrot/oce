@@ -35,7 +35,7 @@
 #include <TopOpeBRepDS_InterferenceTool.hxx>
 #include <TopOpeBRepTool_EXPORT.hxx>
 #include <TopOpeBRepDS.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <TopoDS.hxx>
 
 #include <TopOpeBRep_define.hxx>

@@ -14,7 +14,7 @@
 
 #include <TopOpeBRepDS_HDataStructure.hxx>
 #include <TopOpeBRepDS_EIR.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <TopExp.hxx>
 #include <TopOpeBRepDS_CurvePointInterference.hxx>
 #include <TopOpeBRepDS_Dumper.hxx>

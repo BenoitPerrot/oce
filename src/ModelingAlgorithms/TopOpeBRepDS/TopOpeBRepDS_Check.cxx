@@ -43,7 +43,7 @@ IMPLEMENT_STANDARD_RTTI(TopOpeBRepDS_Check)
 #include <TopTools_ListOfShape.hxx>
 #include <TopOpeBRepTool_ShapeTool.hxx>
 #include <Foundation/TColStd/TColStd_IndexedMapOfInteger.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Vertex.hxx>

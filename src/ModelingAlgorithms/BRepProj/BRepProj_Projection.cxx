@@ -30,7 +30,7 @@
 #include <BRepLib_MakeVertex.hxx>
 #include <BRepLib_MakeEdge.hxx>
 #include <BRepLib_MakeWire.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 
 #include <BRepSweep_Prism.hxx>
@@ -47,7 +47,7 @@
 #include <TopoDS_Shape.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ShapeAnalysis_FreeBounds.hxx>
 
 #include <Foundation/Standard/Standard_NullObject.hxx>

@@ -38,8 +38,8 @@ IMPLEMENT_STANDARD_RTTI(DNaming_Line3DDriver)
 #include <BRepAlgo.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <GeomAPI_Interpolate.hxx>
-#include <BRep_Tool.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <TopTools_HSequenceOfShape.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>

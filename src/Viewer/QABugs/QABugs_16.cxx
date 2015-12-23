@@ -47,7 +47,7 @@
 #include <AIS_PlaneTrihedron.hxx>
 #include <ViewerTest_DoubleMapOfInteractiveAndName.hxx>
 
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Geometry/GeomConvert/GeomConvert_CompCurveToBSplineCurve.hxx>
 #include <BRepLib_MakeEdge.hxx>

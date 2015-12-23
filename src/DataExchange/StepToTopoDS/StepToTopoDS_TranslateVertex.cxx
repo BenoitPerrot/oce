@@ -26,7 +26,7 @@
 #include <TopoDS.hxx>
 
 #include <TopoDS_Vertex.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 //#include <BRepAPI.hxx>
 
 #include <StepGeom_Point.hxx>

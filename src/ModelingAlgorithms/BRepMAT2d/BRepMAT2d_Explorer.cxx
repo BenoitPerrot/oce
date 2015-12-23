@@ -30,7 +30,7 @@
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>  
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <GeomAPI.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <TopExp_Explorer.hxx>
@@ -42,7 +42,7 @@
 #include <Geometry/Geom2dConvert/Geom2dConvert.hxx>
 #include <BRepLib_MakeFace.hxx>
 #include <TopExp.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <BRepLib.hxx>
 #include <TopTools_IndexedDataMapOfShapeShape.hxx>
 

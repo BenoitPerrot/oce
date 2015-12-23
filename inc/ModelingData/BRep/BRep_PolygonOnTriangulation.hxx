@@ -12,7 +12,7 @@
 
 #include <Handle_Poly_PolygonOnTriangulation.hxx>
 #include <Handle_Poly_Triangulation.hxx>
-#include <BRep_CurveRepresentation.hxx>
+#include <ModelingData/BRep/BRep_CurveRepresentation.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_BRep_CurveRepresentation.hxx>
 class Poly_PolygonOnTriangulation;

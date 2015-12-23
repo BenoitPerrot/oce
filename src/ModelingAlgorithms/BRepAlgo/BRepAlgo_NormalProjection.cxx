@@ -35,7 +35,7 @@
 #include <TopoDS_Shape.hxx>
 #include <Geometry/Approx/Approx_CurveOnSurface.hxx>
 #include <TopoDS.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <BRepLib_MakeVertex.hxx>
 #include <BRepLib_MakeWire.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_HCurve.hxx>

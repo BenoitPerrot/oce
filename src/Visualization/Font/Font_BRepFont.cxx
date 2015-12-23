@@ -14,7 +14,7 @@
 
 #include <Font_BRepFont.hxx>
 
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepLib_MakeWire.hxx>
 #include <BRepLib_MakeEdge.hxx>
 #include <Geometry/GCE2d/GCE2d_MakeSegment.hxx>

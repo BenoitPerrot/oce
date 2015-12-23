@@ -32,7 +32,7 @@ IMPLEMENT_DOWNCAST(BRepFill_SectionLaw,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BRepFill_SectionLaw)
 
 #include <BRepTools_WireExplorer.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepAdaptor_Curve.hxx>
 #include <BRepLProp.hxx>
 #include <TopExp.hxx>

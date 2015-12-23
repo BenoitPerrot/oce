@@ -18,7 +18,7 @@
 #include <TopoDS_Vertex.hxx>
 #include <BRepLib_MakeVertex.hxx>
 #include <BRepLib.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <TopoDS.hxx>
 
 //=======================================================================

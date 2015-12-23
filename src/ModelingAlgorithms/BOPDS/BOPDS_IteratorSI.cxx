@@ -21,7 +21,7 @@
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <TopoDS.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 
 #include <Foundation/NCollection/NCollection_UBTreeFiller.hxx>
 #include <Foundation/NCollection/NCollection_IncAllocator.hxx>

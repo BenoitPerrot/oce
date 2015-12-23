@@ -27,7 +27,7 @@
 #include <Draw_Segment3D.hxx>
 #include <DrawTrSurf_Point.hxx>
 #include <DrawTrSurf.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <TopoDS_Shell.hxx>
@@ -37,7 +37,7 @@
 #include <Mathematics/Primitives/gp.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <BRepBndLib.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Precision.hxx>
 
 #ifdef _WIN32

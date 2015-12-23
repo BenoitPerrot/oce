@@ -23,7 +23,7 @@
 
 #include <TopoDS.hxx>
 #include <Precision.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 
 #define M_FORWARD(st)  (st == TopAbs_FORWARD)
 #define M_UNKNOWN(st)  (st == TopAbs_UNKNOWN)

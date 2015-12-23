@@ -32,8 +32,8 @@ IMPLEMENT_DOWNCAST(LocOpe_WiresOnShape,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(LocOpe_WiresOnShape)
 
 #include <TopExp_Explorer.hxx>
-#include <BRep_Builder.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <TopTools_MapOfShape.hxx>
 #include <TopTools_DataMapIteratorOfDataMapOfShapeShape.hxx>
 #include <TopTools_ListOfShape.hxx>

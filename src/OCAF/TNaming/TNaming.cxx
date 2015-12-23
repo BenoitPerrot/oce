@@ -29,8 +29,8 @@
 #include <TDF_IDList.hxx>
 #include <TNaming.hxx>
 
-#include <BRep_Builder.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepBuilderAPI_Transform.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Shape.hxx>

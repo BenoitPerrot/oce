@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_RTTI(DrawDim_PlanarRadius)
 #include <Geometry/Geom/Geom_Circle.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Draw_Color.hxx>
 #include <ElCLib.hxx>

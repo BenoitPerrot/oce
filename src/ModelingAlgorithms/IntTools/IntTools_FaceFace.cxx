@@ -109,7 +109,7 @@
 #include <TopoDS_Edge.hxx>
 #include <TopExp_Explorer.hxx>
 
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepTools.hxx>
 #include <BRepAdaptor_Surface.hxx>
 

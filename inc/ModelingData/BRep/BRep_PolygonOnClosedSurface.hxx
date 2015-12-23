@@ -11,7 +11,7 @@
 #include <Handle_BRep_PolygonOnClosedSurface.hxx>
 
 #include <Handle_Poly_Polygon2D.hxx>
-#include <BRep_PolygonOnSurface.hxx>
+#include <ModelingData/BRep/BRep_PolygonOnSurface.hxx>
 #include <Handle_Geom_Surface.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_BRep_CurveRepresentation.hxx>

@@ -45,7 +45,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_EdgeProjAux)
 #include <Geometry/Geom/Geom_Surface.hxx> 
 #include <Geometry/Geom/Geom_SphericalSurface.hxx>
 
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Precision.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <TopExp.hxx>

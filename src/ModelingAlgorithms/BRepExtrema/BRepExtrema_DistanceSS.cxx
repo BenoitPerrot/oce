@@ -22,7 +22,7 @@
 #include <TopExp.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepExtrema_SupportType.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <BRepExtrema_SolutionElem.hxx>

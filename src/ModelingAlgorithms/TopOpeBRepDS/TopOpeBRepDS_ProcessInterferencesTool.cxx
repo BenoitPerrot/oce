@@ -23,7 +23,7 @@
 #include <BRepLProp_SLProps.hxx>
 #include <BRepAdaptor_Surface.hxx>
 //#include <BRepAdaptor_Curve2d.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>

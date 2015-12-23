@@ -30,7 +30,7 @@
 #include <TransferBRep.hxx>
 
 #include <TopoDS_Compound.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 
 TransferBRep_Reader::TransferBRep_Reader ()

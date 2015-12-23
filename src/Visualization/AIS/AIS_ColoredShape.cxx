@@ -16,7 +16,7 @@
 #include <AIS_ColoredShape.hxx>
 
 #include <AIS_InteractiveContext.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <BRepTools.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Graphic3d_AspectFillArea3d.hxx>

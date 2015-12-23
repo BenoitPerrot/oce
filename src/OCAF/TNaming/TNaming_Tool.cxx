@@ -32,7 +32,7 @@
 #include <TNaming_Iterator.hxx>
 #include <TNaming_RefShape.hxx>
 #include <TopoDS_Compound.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <TopTools_MapOfShape.hxx>
 #include <TopTools_MapIteratorOfMapOfShape.hxx>
 

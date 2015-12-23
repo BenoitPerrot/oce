@@ -44,7 +44,7 @@ IMPLEMENT_STANDARD_RTTI(BRepTools_GTrsfModification)
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Geometry/Geom/Geom_BezierCurve.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Mathematics/Primitives/gp_GTrsf2d.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Mathematics/Primitives/gp_TrsfForm.hxx>

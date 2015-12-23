@@ -15,7 +15,7 @@
 
 #include <TopoDS_Vertex.hxx>
 #include <StdPrs_ToolVertex.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 
 

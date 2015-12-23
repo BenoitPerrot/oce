@@ -262,7 +262,7 @@ private:
 };
 
 
-#include <BRep_Builder.lxx>
+#include <ModelingData/BRep/BRep_Builder.lxx>
 
 
 

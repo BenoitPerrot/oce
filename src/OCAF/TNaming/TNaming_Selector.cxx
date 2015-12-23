@@ -45,7 +45,7 @@
 #include <TopExp_Explorer.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TNaming_Tool.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <TopoDS.hxx>
 #include <TNaming_UsedShapes.hxx>
 void PrintEntry(const TDF_Label&       label, const Standard_Boolean allLevels)

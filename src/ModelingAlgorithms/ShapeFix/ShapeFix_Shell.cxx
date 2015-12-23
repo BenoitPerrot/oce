@@ -55,8 +55,8 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Shell)
 #include <TopTools_ListOfShape.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 
-#include <BRep_Builder.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 
 #include <ShapeAnalysis_Shell.hxx>
 #include <ShapeExtend.hxx>

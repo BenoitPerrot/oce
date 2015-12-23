@@ -25,7 +25,7 @@
 #include <TopOpeBRepDS_connex.hxx>
 #include <TopOpeBRepDS.hxx>
 #include <TopOpeBRepBuild_define.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <TopoDS.hxx>
 #include <TopExp.hxx>
 #include <Precision.hxx>

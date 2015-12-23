@@ -28,7 +28,7 @@
 #include <BRepToIGES_BRShell.hxx>
 #include <BRepToIGES_BRSolid.hxx>
 
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 

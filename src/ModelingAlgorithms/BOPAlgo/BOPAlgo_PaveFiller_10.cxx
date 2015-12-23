@@ -32,7 +32,7 @@
 
 #include <TopoDS_Vertex.hxx>
 #include <TopoDS_Solid.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepClass3d_SolidClassifier.hxx>
 
 #include <IntTools_Context.hxx>

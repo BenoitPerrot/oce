@@ -25,7 +25,7 @@
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <TopOpeBRepTool_ShapeTool.hxx>
 
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <TopoDS.hxx>
 #include <TopAbs.hxx>
 #include <ElCLib.hxx>

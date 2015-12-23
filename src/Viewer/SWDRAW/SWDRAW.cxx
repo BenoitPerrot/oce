@@ -30,7 +30,7 @@
 #include <ShapeProcess_OperLibrary.hxx>
 #include <BRepTools.hxx>
 #include <Draw_Window.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 
 //  for NSPApply -- CKY 12 JUL 2001

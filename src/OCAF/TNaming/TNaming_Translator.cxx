@@ -24,9 +24,9 @@
 #include <TopoDS_TShape.hxx>
 #include <BRepTools.hxx>
 #include <Mathematics/TopLoc/TopLoc_Datum3D.hxx>
-#include <BRep_TVertex.hxx>
-#include <BRep_TFace.hxx>
-#include <BRep_TEdge.hxx>
+#include <ModelingData/BRep/BRep_TVertex.hxx>
+#include <ModelingData/BRep/BRep_TFace.hxx>
+#include <ModelingData/BRep/BRep_TEdge.hxx>
 #include <TopoDS_TWire.hxx>
 #include <TopoDS_TShell.hxx>
 #include <TopoDS_TSolid.hxx>

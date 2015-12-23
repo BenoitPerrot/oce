@@ -44,8 +44,8 @@
 #include <Geometry/AppDef/AppDef_MultiPointConstraint.hxx>
 #include <Geometry/AppParCurves/AppParCurves_MultiBSpCurve.hxx>
 #include <HLRTopoBRep_FaceIsoLiner.hxx>
-#include <BRep_Tool.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <BRepAdaptor_Curve.hxx>
 #include <BRepAdaptor_Curve2d.hxx>
 #include <BRepAdaptor_HCurve2d.hxx>
@@ -58,9 +58,9 @@
 #include <Precision.hxx>
 #include <BRepApprox_ApproxLine.hxx>
 #include <BRepApprox_Approx.hxx>
-#include <BRep_TEdge.hxx>
-#include <BRep_ListIteratorOfListOfCurveRepresentation.hxx>
-#include <BRep_CurveRepresentation.hxx>
+#include <ModelingData/BRep/BRep_TEdge.hxx>
+#include <ModelingData/BRep/BRep_ListIteratorOfListOfCurveRepresentation.hxx>
+#include <ModelingData/BRep/BRep_CurveRepresentation.hxx>
 #include <BRepExtrema_ExtPC.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 

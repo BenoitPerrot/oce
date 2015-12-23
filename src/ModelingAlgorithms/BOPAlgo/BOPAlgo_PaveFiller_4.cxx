@@ -30,8 +30,8 @@
 //
 #include <TopoDS_Vertex.hxx>
 #include <TopoDS_Face.hxx>
-#include <BRep_Tool.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <BRepBndLib.hxx>
 //
 #include <BOPCol_MapOfInteger.hxx>

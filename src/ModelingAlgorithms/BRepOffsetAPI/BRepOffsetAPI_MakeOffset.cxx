@@ -21,8 +21,8 @@
 #include <TopoDS_Shape.hxx>
 #include <BRepOffsetAPI_MakeOffset.hxx>
 #include <BRepLib_MakeFace.hxx>
-#include <BRep_Builder.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepAlgo_FaceRestrictor.hxx>
 #include <Geometry/Extrema/Extrema_ExtPS.hxx>
 #include <BRepAdaptor_Surface.hxx>

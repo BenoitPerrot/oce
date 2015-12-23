@@ -21,7 +21,7 @@
 #include <TopOpeBRepDS_FaceInterferenceTool.hxx>
 
 #include <Geometry/Extrema/Extrema_ExtPS.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepAdaptor_Curve2d.hxx>
 #include <BRepAdaptor_Surface.hxx>
 #include <BRepLProp_SLProps.hxx>

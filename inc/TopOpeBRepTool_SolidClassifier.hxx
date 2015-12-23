@@ -15,7 +15,7 @@
 #include <TopAbs_State.hxx>
 #include <TopoDS_Shell.hxx>
 #include <TopoDS_Solid.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class TopoDS_Solid;
 class gp_Pnt;

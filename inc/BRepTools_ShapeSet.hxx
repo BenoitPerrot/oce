@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <Geometry/GeomTools/GeomTools_SurfaceSet.hxx>
 #include <Geometry/GeomTools/GeomTools_CurveSet.hxx>
 #include <Geometry/GeomTools/GeomTools_Curve2dSet.hxx>

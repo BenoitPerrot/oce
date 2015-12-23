@@ -44,7 +44,7 @@
 #include <Geometry/TColGeom/TColGeom_SequenceOfCurve.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 
 #include <BRepTools.hxx>
 

@@ -33,7 +33,7 @@
 #include <Precision.hxx>
 #include <ElCLib.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Mathematics/Optimization/math_RealRandom.hxx>
 #include <BRepTopAdaptor_FClass2d.hxx>
 

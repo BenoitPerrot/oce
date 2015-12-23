@@ -33,7 +33,7 @@
 #include <Geometry/GProp/GProp_GProps.hxx>
 #include <BRepGProp.hxx>
 #include <DrawTrSurf.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <TopoDS.hxx>
 #include <MeshTest_CheckTopology.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>

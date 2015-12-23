@@ -39,7 +39,7 @@
 #include <TopExp.hxx>
 #include <TopExp_Explorer.hxx>
 //
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <BRepTools.hxx>
 #include <BRepClass3d_SolidClassifier.hxx>
 #include <BRepBndLib.hxx>

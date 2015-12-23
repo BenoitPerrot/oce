@@ -19,7 +19,7 @@
 #include <TestTopOpeDraw_TTOT.hxx>
 #include <DBRep.hxx>
 #include <BRepTools.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Draw_Interpretor.hxx>
 #include <Draw_Appli.hxx>
 #include <TopOpeBRepTool_define.hxx>

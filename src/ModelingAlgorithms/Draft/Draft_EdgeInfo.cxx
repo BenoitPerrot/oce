@@ -22,7 +22,7 @@
 #include <Draft_EdgeInfo.hxx>
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 
 
 //=======================================================================

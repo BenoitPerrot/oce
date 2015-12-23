@@ -24,7 +24,7 @@
 #include <TopOpeBRepDS_ProcessInterferencesTool.hxx>
 #include <TopOpeBRepBuild_define.hxx>
 #include <TopOpeBRepDS_connex.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <TopoDS.hxx>
 #include <Precision.hxx>
 #include <BRepAdaptor_Surface.hxx>

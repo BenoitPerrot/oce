@@ -60,7 +60,7 @@ IMPLEMENT_STANDARD_RTTI(XCAFDoc_ShapeTool)
 #include <TopoDS_Iterator.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Compound.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <XCAFDoc_Location.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>

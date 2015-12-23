@@ -48,7 +48,7 @@
 #include <TopExp_Explorer.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Wire.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
 #include <BRepOffsetAPI_MakePipeShell.hxx>
 #include <AIS_Trihedron.hxx>

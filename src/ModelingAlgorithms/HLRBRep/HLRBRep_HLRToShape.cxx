@@ -22,7 +22,7 @@
 #include <TopoDS.hxx>
 #include <TopExp_Explorer.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <HLRBRep.hxx>
 #include <HLRBRep_Data.hxx>
 #include <HLRBRep_ShapeBounds.hxx>

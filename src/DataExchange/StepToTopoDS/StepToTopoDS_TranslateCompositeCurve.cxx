@@ -38,7 +38,7 @@
 #include <StepToTopoDS_TranslateEdge.hxx>
 
 #include <BRepLib_MakeEdge.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 
 #include <TopoDS.hxx>
 #include <TopoDS_Edge.hxx>

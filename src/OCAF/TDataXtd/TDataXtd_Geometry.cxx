@@ -45,7 +45,7 @@ IMPLEMENT_STANDARD_RTTI(TDataXtd_Geometry)
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Face.hxx>
 #include <TopAbs.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 
 #include <Geometry/Geom/Geom_CartesianPoint.hxx>
 

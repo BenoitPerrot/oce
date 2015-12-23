@@ -33,7 +33,7 @@
 #include <Precision.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_SeqOfBox.hxx>
 #include <BRepExtrema_UnCompatibleShape.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepClass3d_SolidClassifier.hxx>
 #include <Foundation/NCollection/NCollection_Comparator.hxx>
 #include <Foundation/NCollection/NCollection_QuickSort.hxx>

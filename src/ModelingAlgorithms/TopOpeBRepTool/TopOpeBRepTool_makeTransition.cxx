@@ -21,7 +21,7 @@
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <TopOpeBRepTool_makeTransition.hxx>
 #include <TopOpeBRepTool_define.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Precision.hxx>
 #include <BRepAdaptor_Curve.hxx>
 #include <BRepAdaptor_Surface.hxx>

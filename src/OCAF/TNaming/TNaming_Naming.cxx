@@ -69,7 +69,7 @@ IMPLEMENT_STANDARD_RTTI(TNaming_Naming)
 #include <TopTools_MapIteratorOfMapOfOrientedShape.hxx>
 #include <TopTools_HArray1OfShape.hxx>
 #include <BRepTools.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Wire.hxx>
 #include <TopoDS_Face.hxx>

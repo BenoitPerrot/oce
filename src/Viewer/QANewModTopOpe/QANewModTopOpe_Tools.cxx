@@ -25,8 +25,8 @@
 #include <TopoDS_Edge.hxx>
 
 #include <BRepTools.hxx>
-#include <BRep_Tool.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <IntTools_Context.hxx>
 #include <TopExp_Explorer.hxx>

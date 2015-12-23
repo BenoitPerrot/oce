@@ -23,7 +23,7 @@
 #include <BRepCheck_ListIteratorOfListOfStatus.hxx>
 #include <BRepCheck_Wire.hxx>
 
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 
 #include <TopoDS_Iterator.hxx>
 #include <TopoDS.hxx>

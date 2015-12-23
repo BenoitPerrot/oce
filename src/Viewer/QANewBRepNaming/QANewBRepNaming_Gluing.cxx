@@ -22,7 +22,7 @@
 #include <QANewBRepNaming_Gluing.hxx>
 
 #include <TopAbs.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <TDF_Label.hxx>
 #include <TDF_TagSource.hxx>
 #include <TNaming_Builder.hxx>
@@ -44,7 +44,7 @@
 #include <TDF_MapIteratorOfLabelMap.hxx>
 #include <TDF_Tool.hxx>
 #include <TopoDS_Vertex.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <TopoDS.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Foundation/TColStd/TColStd_MapOfInteger.hxx>

@@ -14,9 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRep_ListOfCurveRepresentation.hxx>
+#include <ModelingData/BRep/BRep_ListOfCurveRepresentation.hxx>
 #include <TopoDS_TShape.hxx>
-#include <BRep_TEdge.hxx>
+#include <ModelingData/BRep/BRep_TEdge.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BRep_TEdge)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -29,11 +29,11 @@ IMPLEMENT_STANDARD_TYPE_END(BRep_TEdge)
 IMPLEMENT_DOWNCAST(BRep_TEdge,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BRep_TEdge)
 #include <TopAbs.hxx>
-#include <BRep_CurveRepresentation.hxx>
-#include <BRep_ListOfCurveRepresentation.hxx>
-#include <BRep_ListIteratorOfListOfCurveRepresentation.hxx>
-#include <BRep_GCurve.hxx>
-#include <BRep_CurveOn2Surfaces.hxx>
+#include <ModelingData/BRep/BRep_CurveRepresentation.hxx>
+#include <ModelingData/BRep/BRep_ListOfCurveRepresentation.hxx>
+#include <ModelingData/BRep/BRep_ListIteratorOfListOfCurveRepresentation.hxx>
+#include <ModelingData/BRep/BRep_GCurve.hxx>
+#include <ModelingData/BRep/BRep_CurveOn2Surfaces.hxx>
 
 static const Standard_Integer ParameterMask       = 1;
 static const Standard_Integer RangeMask           = 2;

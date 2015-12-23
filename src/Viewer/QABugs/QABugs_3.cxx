@@ -21,7 +21,7 @@
 #include <TopoDS.hxx>
 #include <DBRep.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <GeomInt_IntSS.hxx>
 #include <BRepLib_MakeEdge.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
@@ -119,7 +119,7 @@ static int BUC60614(Draw_Interpretor& di, Standard_Integer argc, const char ** a
   return 0;
 }
 
-#include<BRep_Builder.hxx>
+#include<ModelingData/BRep/BRep_Builder.hxx>
 #include<BRepTools_ShapeSet.hxx>
 #include<BRepTools.hxx>
 #include<BRepAdaptor_HSurface.hxx>

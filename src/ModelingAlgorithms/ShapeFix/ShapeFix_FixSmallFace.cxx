@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_FixSmallFace)
 #include <TopoDS_Iterator.hxx>
 #include <TopExp_Explorer.hxx>
 #include <TopExp.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
@@ -54,7 +54,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_FixSmallFace)
 #include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
 
 #include <Mathematics/Collections/TColgp_SequenceOfXYZ.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ShapeBuild_ReShape.hxx>
 #include <BRepTools.hxx>
 #include <ShapeFix_Edge.hxx>

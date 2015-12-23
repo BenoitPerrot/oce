@@ -36,7 +36,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Wireframe)
 #include <ShapeBuild_ReShape.hxx>
 #include <TopTools_DataMapOfShapeShape.hxx>
 #include <TopoDS_Compound.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <TopoDS_Iterator.hxx>
 #include <ShapeFix_Wire.hxx>
 #include <TopoDS_Face.hxx>
@@ -52,7 +52,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Wireframe)
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geometry/GeomConvert/GeomConvert_CompCurveToBSplineCurve.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>

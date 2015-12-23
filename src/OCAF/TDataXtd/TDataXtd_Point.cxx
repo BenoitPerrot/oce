@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_RTTI(TDataXtd_Point)
 #include <TNaming_NamedShape.hxx>
 #include <TNaming_Tool.hxx>
 #include <TNaming_Builder.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <TopAbs.hxx>
@@ -42,7 +42,7 @@ IMPLEMENT_STANDARD_RTTI(TDataXtd_Point)
 
 #include <Geometry/Geom/Geom_CartesianPoint.hxx>
 
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 
 #define OCC2932
 

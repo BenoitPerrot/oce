@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <TopoDS_Shape.hxx>
 #include <Sweep_NumShape.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
@@ -22,7 +22,7 @@
 #include <Sweep_NumShapeIterator.hxx>
 #include <BRepSweep_Iterator.hxx>
 #include <BRepAdaptor_Curve.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepLProp.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <TopoDS.hxx>

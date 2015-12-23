@@ -46,7 +46,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_Shape)
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <BRepTools_ShapeSet.hxx>
 #include <BRepTools.hxx>
 #include <BRepBndLib.hxx>

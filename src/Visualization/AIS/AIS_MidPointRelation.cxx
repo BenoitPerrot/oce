@@ -67,7 +67,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_MidPointRelation)
 
 #include <TopoDS.hxx>
 #include <TopExp_Explorer.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepAdaptor_Surface.hxx>
 #include <BRepAdaptor_Curve.hxx>
 

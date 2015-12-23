@@ -18,7 +18,7 @@
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <TopoDS_TShape.hxx>
-#include <BRep_TFace.hxx>
+#include <ModelingData/BRep/BRep_TFace.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BRep_TFace)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

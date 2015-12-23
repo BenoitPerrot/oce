@@ -25,7 +25,7 @@
 
 #include <Geometry/Geom/Geom_Curve.hxx>
 
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepLib_MakeVertex.hxx>
 #include <BRepAdaptor_Curve.hxx>
 #include <Geometry/BndLib/BndLib_Add3dCurve.hxx>

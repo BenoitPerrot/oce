@@ -11,7 +11,7 @@
 #include <Handle_BRep_PointsOnSurface.hxx>
 
 #include <Handle_Geom_Surface.hxx>
-#include <BRep_PointRepresentation.hxx>
+#include <ModelingData/BRep/BRep_PointRepresentation.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class Geom_Surface;
 class TopLoc_Location;

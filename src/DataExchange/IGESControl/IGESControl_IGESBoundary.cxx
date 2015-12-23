@@ -48,8 +48,8 @@ IMPLEMENT_STANDARD_RTTI(IGESControl_IGESBoundary)
 #include <Precision.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Wire.hxx>
-#include <BRep_Builder.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ShapeBuild_Edge.hxx>
 #include <ShapeAnalysis_Wire.hxx>
 #include <ShapeAnalysis_ShapeTolerance.hxx>

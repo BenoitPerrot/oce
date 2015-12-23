@@ -48,12 +48,12 @@
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <GeomAPI_ProjectPointOnCurve.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 
 #include <BRepTools_Substitution.hxx>
 #include <LocOpe_SplitShape.hxx>
 
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 
 #include <TopoDS.hxx>
 #include <TopExp.hxx>

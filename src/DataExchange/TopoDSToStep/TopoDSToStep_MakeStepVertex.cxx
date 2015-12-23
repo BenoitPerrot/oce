@@ -23,7 +23,7 @@
 
 #include <GeomToStep_MakeCartesianPoint.hxx>
 
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 
 #include <StepGeom_CartesianPoint.hxx>
 #include <StepShape_VertexPoint.hxx>

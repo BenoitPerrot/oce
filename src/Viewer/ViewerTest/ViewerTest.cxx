@@ -186,11 +186,11 @@ void GetTypeAndSignfromString (const char* name,AIS_KindOfInteractive& TheType,S
 
 #include <TopoDS_Solid.hxx>
 #include <BRepTools.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <TopAbs_ShapeEnum.hxx>
 
 #include <TopoDS.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 
 
 #include <Draw_Window.hxx>

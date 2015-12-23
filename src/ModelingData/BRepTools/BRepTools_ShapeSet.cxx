@@ -18,7 +18,7 @@
 
 #include <Foundation/Standard/Standard_Stream.hxx>
 #include <Precision.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <TopoDS_Shape.hxx>
 #include <BRepTools_ShapeSet.hxx>
 
@@ -27,25 +27,25 @@
 #include <Mathematics/Polyhedral/Poly.hxx>
 #include <TopoDS.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
-#include <BRep_TFace.hxx>
-#include <BRep_TEdge.hxx>
-#include <BRep_TVertex.hxx>
-#include <BRep_Tool.hxx>
-#include <BRep_CurveRepresentation.hxx>
+#include <ModelingData/BRep/BRep_TFace.hxx>
+#include <ModelingData/BRep/BRep_TEdge.hxx>
+#include <ModelingData/BRep/BRep_TVertex.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_CurveRepresentation.hxx>
 #include <Mathematics/Polyhedral/Poly_Polygon3D.hxx>
-#include <BRep_Polygon3D.hxx>
-#include <BRep_PolygonOnSurface.hxx>
-#include <BRep_PolygonOnClosedSurface.hxx>
-#include <BRep_PolygonOnTriangulation.hxx>
-#include <BRep_PolygonOnClosedTriangulation.hxx>
-#include <BRep_CurveOnSurface.hxx>
-#include <BRep_CurveOnClosedSurface.hxx>
-#include <BRep_ListOfCurveRepresentation.hxx>
-#include <BRep_ListIteratorOfListOfCurveRepresentation.hxx>
-#include <BRep_PointOnCurve.hxx>
-#include <BRep_PointOnCurveOnSurface.hxx>
-#include <BRep_PointOnSurface.hxx>
-#include <BRep_ListIteratorOfListOfPointRepresentation.hxx>
+#include <ModelingData/BRep/BRep_Polygon3D.hxx>
+#include <ModelingData/BRep/BRep_PolygonOnSurface.hxx>
+#include <ModelingData/BRep/BRep_PolygonOnClosedSurface.hxx>
+#include <ModelingData/BRep/BRep_PolygonOnTriangulation.hxx>
+#include <ModelingData/BRep/BRep_PolygonOnClosedTriangulation.hxx>
+#include <ModelingData/BRep/BRep_CurveOnSurface.hxx>
+#include <ModelingData/BRep/BRep_CurveOnClosedSurface.hxx>
+#include <ModelingData/BRep/BRep_ListOfCurveRepresentation.hxx>
+#include <ModelingData/BRep/BRep_ListIteratorOfListOfCurveRepresentation.hxx>
+#include <ModelingData/BRep/BRep_PointOnCurve.hxx>
+#include <ModelingData/BRep/BRep_PointOnCurveOnSurface.hxx>
+#include <ModelingData/BRep/BRep_PointOnSurface.hxx>
+#include <ModelingData/BRep/BRep_ListIteratorOfListOfPointRepresentation.hxx>
 
 #include <TopoDS_Vertex.hxx>
 

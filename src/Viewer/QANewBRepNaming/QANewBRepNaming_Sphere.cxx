@@ -29,7 +29,7 @@
 #include <TopTools_IndexedMapOfShape.hxx>
 #include <TopExp.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <TNaming_NamedShape.hxx>
 
 #ifdef OCCT_DEBUG

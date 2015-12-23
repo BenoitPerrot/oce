@@ -20,7 +20,7 @@
 #include <Draw_Appli.hxx>
 #include <DrawTrSurf.hxx>
 #include <TopoDS_Solid.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <BRepBuilderAPI.hxx>
 #include <BRepPrimAPI_MakeBox.hxx>
 #include <BRepPrimAPI_MakeWedge.hxx>

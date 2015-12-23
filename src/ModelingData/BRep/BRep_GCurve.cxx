@@ -16,7 +16,7 @@
 
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <BRep_GCurve.hxx>
+#include <ModelingData/BRep/BRep_GCurve.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BRep_GCurve)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

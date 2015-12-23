@@ -33,7 +33,7 @@
 #include <TopOpeBRepDS_DataStructure.hxx>
 #include <TopOpeBRep_FacesFiller.hxx>
 
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <TopoDS.hxx>
 #include <TopExp.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>

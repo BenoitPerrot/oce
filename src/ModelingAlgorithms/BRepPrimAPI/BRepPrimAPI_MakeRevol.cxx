@@ -24,7 +24,7 @@
 #include <BRepPrimAPI_MakeRevol.hxx>
 #include <BRepLib.hxx>
 #include <TopExp_Explorer.hxx>
-#include <BRep_TEdge.hxx>
+#include <ModelingData/BRep/BRep_TEdge.hxx>
 
 // perform checks on the argument
 

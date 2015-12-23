@@ -60,7 +60,7 @@
 #include <TopOpeBRepTool_TOOL.hxx>
 #include <TopOpeBRepDS_TKI.hxx>
 #include <TopOpeBRepDS.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <TopoDS.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>

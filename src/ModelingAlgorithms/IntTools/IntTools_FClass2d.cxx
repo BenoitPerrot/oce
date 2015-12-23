@@ -27,7 +27,7 @@
 #include <Geom2dInt_Geom2dCurveTool.hxx>
 #include <GeomAbs_SurfaceType.hxx>
 
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepTools_WireExplorer.hxx>
 #include <BRepClass_FaceClassifier.hxx>
 #include <CSLib_Class2d.hxx>

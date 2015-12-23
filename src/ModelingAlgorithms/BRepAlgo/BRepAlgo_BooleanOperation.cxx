@@ -26,13 +26,13 @@
 #include <TopOpeBRepDS_BuildTool.hxx>
 #include <TopOpeBRepTool_OutCurveType.hxx>
 #include <TopOpeBRepTool_GeomTool.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <BRepLib.hxx>
 #include <TopoDS.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 #include <TopTools_MapOfShape.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepClass3d_SolidClassifier.hxx>
 
 //  sewing

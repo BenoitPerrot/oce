@@ -19,7 +19,7 @@
 #include <HLRBRep_Surface.hxx>
 #include <HLRBRep_FaceData.hxx>
 #include <HLRAlgo_EdgesBlock.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 
 //=======================================================================
 //function : FaceData

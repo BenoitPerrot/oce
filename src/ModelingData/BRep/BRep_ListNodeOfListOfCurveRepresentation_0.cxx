@@ -3,13 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <BRep_ListNodeOfListOfCurveRepresentation.hxx>
+#include <ModelingData/BRep/BRep_ListNodeOfListOfCurveRepresentation.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <BRep_CurveRepresentation.hxx>
-#include <BRep_ListOfCurveRepresentation.hxx>
-#include <BRep_ListIteratorOfListOfCurveRepresentation.hxx>
+#include <ModelingData/BRep/BRep_CurveRepresentation.hxx>
+#include <ModelingData/BRep/BRep_ListOfCurveRepresentation.hxx>
+#include <ModelingData/BRep/BRep_ListIteratorOfListOfCurveRepresentation.hxx>
 
  
 
@@ -29,14 +29,14 @@ IMPLEMENT_STANDARD_RTTI(BRep_ListNodeOfListOfCurveRepresentation)
 
 
 #define Item Handle(BRep_CurveRepresentation)
-#define Item_hxx <BRep_CurveRepresentation.hxx>
+#define Item_hxx <ModelingData/BRep/BRep_CurveRepresentation.hxx>
 #define TCollection_ListNode BRep_ListNodeOfListOfCurveRepresentation
-#define TCollection_ListNode_hxx <BRep_ListNodeOfListOfCurveRepresentation.hxx>
+#define TCollection_ListNode_hxx <ModelingData/BRep/BRep_ListNodeOfListOfCurveRepresentation.hxx>
 #define TCollection_ListIterator BRep_ListIteratorOfListOfCurveRepresentation
-#define TCollection_ListIterator_hxx <BRep_ListIteratorOfListOfCurveRepresentation.hxx>
+#define TCollection_ListIterator_hxx <ModelingData/BRep/BRep_ListIteratorOfListOfCurveRepresentation.hxx>
 #define Handle_TCollection_ListNode Handle_BRep_ListNodeOfListOfCurveRepresentation
 #define TCollection_ListNode_Type_() BRep_ListNodeOfListOfCurveRepresentation_Type_()
 #define TCollection_List BRep_ListOfCurveRepresentation
-#define TCollection_List_hxx <BRep_ListOfCurveRepresentation.hxx>
+#define TCollection_List_hxx <ModelingData/BRep/BRep_ListOfCurveRepresentation.hxx>
 #include <Foundation/TCollection/TCollection_ListNode.gxx>
 

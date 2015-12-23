@@ -34,7 +34,7 @@
 #include <TopoDS_Edge.hxx>
 
 #include <BRepTools_WireExplorer.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <TopTools_HSequenceOfShape.hxx>
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>

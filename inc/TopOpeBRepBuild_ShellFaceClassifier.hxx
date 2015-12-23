@@ -13,7 +13,7 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <TopoDS_Shell.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <TopOpeBRepTool_SolidClassifier.hxx>
 #include <TopTools_DataMapOfShapeShape.hxx>
 #include <TopoDS_Shape.hxx>

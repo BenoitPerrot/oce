@@ -21,7 +21,7 @@
 #include <BRepTools.hxx>
 #include <TopoDS_Face.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <BRepTools.hxx>

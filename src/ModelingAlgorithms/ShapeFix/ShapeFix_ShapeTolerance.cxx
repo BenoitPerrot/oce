@@ -16,10 +16,10 @@
 #include <TopoDS_Shape.hxx>
 #include <ShapeFix_ShapeTolerance.hxx>
 
-#include <BRep_Tool.hxx>
-#include <BRep_TVertex.hxx>
-#include <BRep_TEdge.hxx>
-#include <BRep_TFace.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_TVertex.hxx>
+#include <ModelingData/BRep/BRep_TEdge.hxx>
+#include <ModelingData/BRep/BRep_TFace.hxx>
 
 #include <TopoDS.hxx>
 #include <TopoDS_Vertex.hxx>

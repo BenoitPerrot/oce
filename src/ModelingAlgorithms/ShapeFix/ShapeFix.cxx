@@ -21,8 +21,8 @@
 //szv#9:S4244:19Aug99: Added method FixWireGaps
 //szv#10:S4244:23Aug99: Added method FixFaceGaps
 
-#include <BRep_Builder.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>

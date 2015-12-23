@@ -37,7 +37,7 @@
 #include <Geometry/BndLib/BndLib_Add2dCurve.hxx>
 #include <BRepFill_OffsetWire.hxx>
 #include <BRepAdaptor_Curve.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <BRepClass3d_SolidClassifier.hxx>
 #include <BRepLib.hxx>
 #include <BRepMAT2d_Explorer.hxx>
@@ -56,7 +56,7 @@
 #include <BRepTools_WireExplorer.hxx>
 #include <BRepTools_TrsfModification.hxx>
 #include <BRepTools_Modifier.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepAdaptor_Curve.hxx>
 #include <BRepLProp.hxx>
 

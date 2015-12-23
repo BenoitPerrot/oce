@@ -24,8 +24,8 @@
 #include <BRepAlgo_Loop.hxx>
 
 
-#include <BRep_Builder.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <TopExp.hxx>
 #include <TopExp_Explorer.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
@@ -35,7 +35,7 @@
 #include <TopoDS_Vertex.hxx>
 #include <TopTools_MapOfShape.hxx>
 #include <TopoDS_Iterator.hxx>
-#include <BRep_TVertex.hxx>
+#include <ModelingData/BRep/BRep_TVertex.hxx>
 
 #ifdef DRAW
 #include <DBRep.hxx>

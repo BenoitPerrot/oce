@@ -20,7 +20,7 @@
 #include <BRepExtrema_ExtFF.hxx>
 
 #include <BRepExtrema_ExtCF.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepTools.hxx>
 #include <BRepClass_FaceClassifier.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>

@@ -22,7 +22,7 @@
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <TopoDS_Edge.hxx>
 #include <Mathematics/Polyhedral/Poly_PolygonOnTriangulation.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 
 //! Auxilary class implementing functionality for checking consistency 
 //! of polygon on triangulation of the given edge.

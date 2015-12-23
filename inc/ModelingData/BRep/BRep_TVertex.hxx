@@ -12,7 +12,7 @@
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <BRep_ListOfPointRepresentation.hxx>
+#include <ModelingData/BRep/BRep_ListOfPointRepresentation.hxx>
 #include <TopoDS_TVertex.hxx>
 #include <Handle_TopoDS_TShape.hxx>
 class gp_Pnt;
@@ -72,7 +72,7 @@ private:
 };
 
 
-#include <BRep_TVertex.lxx>
+#include <ModelingData/BRep/BRep_TVertex.lxx>
 
 
 

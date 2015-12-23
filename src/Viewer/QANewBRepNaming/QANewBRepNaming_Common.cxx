@@ -24,7 +24,7 @@
 #include <TopoDS_Iterator.hxx>
 #include <TNaming_NamedShape.hxx>
 #include <TopoDS_Shell.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <TopTools_MapOfShape.hxx>
 //=======================================================================
 //function : QANewBRepNaming_Common

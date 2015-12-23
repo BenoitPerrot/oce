@@ -33,7 +33,7 @@
 #include <BiTgte_CurveOnVertex.hxx>
 
 #include <BiTgte_HCurveOnVertex.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 
 

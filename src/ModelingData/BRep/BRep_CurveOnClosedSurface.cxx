@@ -18,8 +18,8 @@
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <BRep_CurveRepresentation.hxx>
-#include <BRep_CurveOnClosedSurface.hxx>
+#include <ModelingData/BRep/BRep_CurveRepresentation.hxx>
+#include <ModelingData/BRep/BRep_CurveOnClosedSurface.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BRep_CurveOnClosedSurface)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -53,7 +53,7 @@
 
 #include <TopOpeBRepBuild_HBuilder.hxx>
 
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 
 #include <BRepAlgo.hxx>
 //modified by NIZNHY-PKV Fri Mar 22 16:48:13 2002 f

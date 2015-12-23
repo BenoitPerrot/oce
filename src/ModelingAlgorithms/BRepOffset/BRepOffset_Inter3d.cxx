@@ -32,8 +32,8 @@
 #include <BRepOffset_DataMapOfShapeOffset.hxx>
 #include <BRepOffset_Offset.hxx>
 #include <BRepAdaptor_Curve.hxx>
-#include <BRep_Builder.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepLib_MakeVertex.hxx>
 
 #include <TopExp.hxx>

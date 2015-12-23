@@ -31,9 +31,9 @@ IMPLEMENT_STANDARD_RTTI(BRepCheck_Face)
 #include <BRepCheck_ListOfStatus.hxx>
 #include <BRepCheck_ListIteratorOfListOfStatus.hxx>
 
-#include <BRep_TFace.hxx>
-#include <BRep_Builder.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_TFace.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 
 #include <TopExp.hxx>
 #include <TopExp_Explorer.hxx>

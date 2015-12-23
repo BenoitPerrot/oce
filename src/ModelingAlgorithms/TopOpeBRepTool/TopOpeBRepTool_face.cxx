@@ -20,9 +20,9 @@
 #include <TopOpeBRepTool_define.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <TopoDS.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Precision.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <TopoDS_Iterator.hxx>
 #include <BRepTopAdaptor_FClass2d.hxx>
 

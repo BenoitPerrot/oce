@@ -41,8 +41,8 @@ IMPLEMENT_STANDARD_TYPE_END(ShapeUpgrade_WireDivide)
 IMPLEMENT_DOWNCAST(ShapeUpgrade_WireDivide,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_WireDivide)
 #include <ShapeUpgrade.hxx>
-#include <BRep_Tool.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <BRepLib_MakeFace.hxx>
 #include <BRepLib_MakeWire.hxx>
 #include <TopoDS.hxx>

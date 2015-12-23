@@ -21,7 +21,7 @@
 #include <TopOpeBRepTool_TOOL.hxx>
 #include <TopOpeBRepTool_define.hxx>
 #include <TopExp_Explorer.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <TopAbs.hxx>
 #include <TopoDS.hxx>
 

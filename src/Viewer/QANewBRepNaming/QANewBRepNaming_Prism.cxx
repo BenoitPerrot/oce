@@ -32,7 +32,7 @@
 #include <TopExp.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <TopoDS.hxx>
 
 #ifdef OCCT_DEBUG

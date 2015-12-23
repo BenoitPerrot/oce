@@ -38,9 +38,9 @@ IMPLEMENT_STANDARD_RTTI(DNaming_TransformationDriver)
 #include <TopoDS_Iterator.hxx>
 #include <TopExp.hxx>
 #include <TopExp_Explorer.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <BRepBuilderAPI_Transform.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepBuilderAPI_MakeShape.hxx>
 #include <TopTools_MapOfShape.hxx>
 #include <TopTools_DataMapOfShapeShape.hxx>

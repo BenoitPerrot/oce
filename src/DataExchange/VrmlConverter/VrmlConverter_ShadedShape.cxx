@@ -24,7 +24,7 @@
 #include <Mathematics/Polyhedral/Poly_Triangle.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <BRepTools.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <TopExp_Explorer.hxx>

@@ -41,7 +41,7 @@ IMPLEMENT_STANDARD_TYPE_END(Draft_Modification)
 IMPLEMENT_DOWNCAST(Draft_Modification,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Draft_Modification)
 
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <TopExp_Explorer.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
@@ -76,7 +76,7 @@ IMPLEMENT_STANDARD_RTTI(Draft_Modification)
 
 #include <Precision.hxx>
 
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <BRepTools.hxx>
 
 //=======================================================================

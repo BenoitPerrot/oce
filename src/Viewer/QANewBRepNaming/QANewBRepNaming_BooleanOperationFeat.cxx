@@ -24,11 +24,11 @@
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <TopTools_Array1OfShape.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfDir.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepGProp.hxx>
 #include <Geometry/GProp/GProp_GProps.hxx>
 #include <BRepAdaptor_Surface.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <Mathematics/Primitives/gp_Cylinder.hxx>
 #include <Mathematics/Primitives/gp_Cone.hxx>

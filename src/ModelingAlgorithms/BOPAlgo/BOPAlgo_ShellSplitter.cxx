@@ -23,7 +23,7 @@
 #include <TopoDS_Shell.hxx>
 #include <TopoDS_Edge.hxx>
 
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <TopExp_Explorer.hxx>
 //
 #include <BOPCol_TBB.hxx>

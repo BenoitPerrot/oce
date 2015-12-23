@@ -33,8 +33,8 @@
 #include <TopTools_MapIteratorOfMapOfShape.hxx>
 #include <TopExp.hxx>
 #include <QANewModTopOpe_Tools.hxx>
-#include <BRep_Builder.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Geometry/GeomProjLib/GeomProjLib.hxx>
 #include <Precision.hxx>

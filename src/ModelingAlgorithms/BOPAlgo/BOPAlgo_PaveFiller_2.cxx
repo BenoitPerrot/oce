@@ -28,7 +28,7 @@
 
 #include <TopoDS_Vertex.hxx>
 #include <TopoDS_Edge.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 
 #include <BOPCol_NCVector.hxx>
 #include <BOPCol_TBB.hxx>
@@ -41,7 +41,7 @@
 #include <BOPDS_PassKey.hxx>
 #include <BOPDS_MapOfPassKey.hxx>
 #include <BRepBndLib.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 
 //=======================================================================
 //class    : BOPAlgo_VertexEdgeEdge

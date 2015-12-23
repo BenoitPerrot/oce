@@ -21,7 +21,7 @@
 #include <TopoDS_Compound.hxx>
 #include <ShapeFix_FreeBounds.hxx>
 
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 
 #include <TopoDS.hxx>
 #include <TopoDS_Vertex.hxx>

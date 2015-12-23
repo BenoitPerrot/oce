@@ -48,7 +48,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_SymmetricRelation)
 #include <Select3D_SensitiveBox.hxx>
 #include <Precision.hxx>
 #include <TopoDS.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepAdaptor_Surface.hxx>
 #include <BRepAdaptor_Curve.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>

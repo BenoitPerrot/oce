@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_RTTI(DNaming_RevolutionDriver)
 #include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
 
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepGProp.hxx>
 #include <BRepCheck_Shell.hxx>
 #include <BRepCheck_Analyzer.hxx>

@@ -22,7 +22,7 @@
 #include <TopoDS_Edge.hxx>
 #include <LocOpe_FindEdgesInFace.hxx>
 
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <TopExp_Explorer.hxx>
 #include <TopTools_MapOfShape.hxx>
 #include <BRepTopAdaptor_TopolTool.hxx>

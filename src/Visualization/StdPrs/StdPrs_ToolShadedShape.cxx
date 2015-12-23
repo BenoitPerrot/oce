@@ -16,7 +16,7 @@
 
 #include <StdPrs_ToolShadedShape.hxx>
 
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepAdaptor_Surface.hxx>
 #include <GeomAbs_SurfaceType.hxx>
 #include <Geometry/GeomLib/GeomLib.hxx>

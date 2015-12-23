@@ -52,7 +52,7 @@
 #include <TopExp_Explorer.hxx>
 #include <TopoDS_Face.hxx>
 #include <TopoDS.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepMesh_IncrementalMesh.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <Foundation/Standard/Standard_Stream.hxx>

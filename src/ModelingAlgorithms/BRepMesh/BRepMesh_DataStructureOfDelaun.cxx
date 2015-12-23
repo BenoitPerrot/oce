@@ -20,7 +20,7 @@
 #include <BRepLib_MakeVertex.hxx>
 
 #include <TopoDS_Compound.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <BRepTools.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 

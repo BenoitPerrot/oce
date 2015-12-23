@@ -11,7 +11,7 @@
 #include <Handle_BRep_PointOnCurveOnSurface.hxx>
 
 #include <Handle_Geom2d_Curve.hxx>
-#include <BRep_PointsOnSurface.hxx>
+#include <ModelingData/BRep/BRep_PointsOnSurface.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Geom_Surface.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

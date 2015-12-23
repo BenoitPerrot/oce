@@ -20,7 +20,7 @@
 
 #include <Draw_Interpretor.hxx>
 #include <Draw_Appli.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <DBRep.hxx> 
 #include <Draw.hxx>
 #include <DBRep.hxx> 
@@ -33,7 +33,7 @@
 #include <TopExp.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
 #include <TopTools_MapOfShape.hxx>

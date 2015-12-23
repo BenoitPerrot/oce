@@ -66,8 +66,8 @@
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <Foundation/NCollection/NCollection_IncAllocator.hxx>
 
-#include <BRep_ListIteratorOfListOfPointRepresentation.hxx>
-#include <BRep_PointRepresentation.hxx>
+#include <ModelingData/BRep/BRep_ListIteratorOfListOfPointRepresentation.hxx>
+#include <ModelingData/BRep/BRep_PointRepresentation.hxx>
 
 #include <vector>
 

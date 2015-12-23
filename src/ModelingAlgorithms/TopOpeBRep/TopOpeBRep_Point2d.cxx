@@ -29,7 +29,7 @@
 #include <TopOpeBRep_Point2d.hxx>
 #include <TopOpeBRep_define.hxx>
 #include <TopOpeBRepDS.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 
 //=======================================================================
 //function : TopOpeBRep_Point2d

@@ -88,7 +88,7 @@
 #include <BRepAdaptor_HCurve2d.hxx>
 #include <BRepTopAdaptor_TopolTool.hxx>
 #include <BRepTopAdaptor_HVertex.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 
 #include <Geometry/Approx/Approx_SweepFunction.hxx>
 #include <Blend_Point.hxx>

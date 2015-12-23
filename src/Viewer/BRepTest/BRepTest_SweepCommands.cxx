@@ -51,7 +51,7 @@ static BRepOffsetAPI_MakePipeShell* Sweep= 0;
 #include <GeomFill_Pipe.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <BRepLib_MakeFace.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 //#endi#include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>

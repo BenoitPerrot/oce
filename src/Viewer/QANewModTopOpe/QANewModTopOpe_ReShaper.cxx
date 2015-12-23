@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_RTTI(QANewModTopOpe_ReShaper)
 #include <TopTools_HSequenceOfShape.hxx>
 #include <TopoDS_Compound.hxx>
 #include <BRepBuilderAPI_Copy.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <TopoDS_Iterator.hxx>
 #include <TopoDS.hxx>
 

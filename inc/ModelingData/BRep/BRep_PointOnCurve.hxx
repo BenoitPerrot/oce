@@ -11,7 +11,7 @@
 #include <Handle_BRep_PointOnCurve.hxx>
 
 #include <Handle_Geom_Curve.hxx>
-#include <BRep_PointRepresentation.hxx>
+#include <ModelingData/BRep/BRep_PointRepresentation.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Geom_Curve;

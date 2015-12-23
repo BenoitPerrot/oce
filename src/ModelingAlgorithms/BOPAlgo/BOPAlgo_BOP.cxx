@@ -21,7 +21,7 @@
 #include <TopoDS_Compound.hxx>
 #include <TopoDS_Iterator.hxx>
 #include <TopoDS_Edge.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <TopExp_Explorer.hxx>
 
 #include <BOPCol_ListOfShape.hxx>
@@ -39,7 +39,7 @@
 
 #include <BOPAlgo_BuilderSolid.hxx>
 
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Foundation/NCollection/NCollection_IncAllocator.hxx>
 //
 #include <BOPTools_Set.hxx>

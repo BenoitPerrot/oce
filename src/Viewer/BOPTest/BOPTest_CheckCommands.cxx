@@ -27,7 +27,7 @@
 
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Compound.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <BRepBuilderAPI_Copy.hxx>
 
 #include <DBRep.hxx>

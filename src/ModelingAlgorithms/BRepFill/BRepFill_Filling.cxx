@@ -49,18 +49,18 @@
 #include <TopoDS_Wire.hxx>
 #include <BRepLib_MakeFace.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
-#include <BRep_ListIteratorOfListOfCurveRepresentation.hxx>
-#include <BRep_TEdge.hxx>
-#include <BRep_CurveRepresentation.hxx>
+#include <ModelingData/BRep/BRep_ListIteratorOfListOfCurveRepresentation.hxx>
+#include <ModelingData/BRep/BRep_TEdge.hxx>
+#include <ModelingData/BRep/BRep_CurveRepresentation.hxx>
 #include <TopExp.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <GeomAPI_ProjectPointOnSurf.hxx>
 #include <TopoDS_Vertex.hxx>
 
 #include <Precision.hxx>
 #include <Geometry/GeomProjLib/GeomProjLib.hxx>
 #include <BRepTools.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <BRepLib.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
@@ -74,7 +74,7 @@
 
 #include <Mathematics/Collections/TColgp_SequenceOfXY.hxx>
 #include <GeomPlate_PlateG0Criterion.hxx>
-#include <BRep_TVertex.hxx>
+#include <ModelingData/BRep/BRep_TVertex.hxx>
 
 static gp_Vec MakeFinVec( const TopoDS_Wire aWire, const TopoDS_Vertex aVertex )
 {

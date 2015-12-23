@@ -39,7 +39,7 @@
 
 #include <BRepLib_MakeWire.hxx>
 #include <BRepBuilderAPI_FindPlane.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 
 //=======================================================================
 //function : chfi2d

@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeProcess_ShapeContext)
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TopoDS_Iterator.hxx>
 #include <TopTools_DataMapIteratorOfDataMapOfShapeShape.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 
 #include <Foundation/Message/Message_Msg.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>

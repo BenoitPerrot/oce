@@ -27,7 +27,7 @@
 #include <Foundation/NCollection/NCollection_IncAllocator.hxx>
 
 #include <TopoDS_Compound.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 
 #include <BOPTools_AlgoTools.hxx>
 

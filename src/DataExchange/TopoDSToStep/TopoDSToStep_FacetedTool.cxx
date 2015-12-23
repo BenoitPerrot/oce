@@ -14,7 +14,7 @@
 #include <TopoDS_Shape.hxx>
 #include <TopoDSToStep_FacetedTool.hxx>
 
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 
 #include <TopExp_Explorer.hxx>
 #include <TopoDS.hxx>

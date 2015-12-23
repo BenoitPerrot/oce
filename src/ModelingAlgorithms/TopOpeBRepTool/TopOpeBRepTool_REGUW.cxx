@@ -16,7 +16,7 @@
 
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <TopoDS.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Precision.hxx>
 #include <TopExp_Explorer.hxx>
 #include <TopOpeBRepTool_C2DF.hxx>

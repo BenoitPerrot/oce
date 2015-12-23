@@ -27,7 +27,7 @@
 #include <Mathematics/Primitives/gp.hxx>
 
 #include <TopTools_ListOfShape.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <TopoDS.hxx>
 //=======================================================================
 //function : BRepBuilderAPI_GTransform

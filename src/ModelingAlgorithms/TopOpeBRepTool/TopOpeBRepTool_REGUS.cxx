@@ -22,7 +22,7 @@
 #include <TopOpeBRepTool_REGUS.hxx>
 #include <TopoDS_Shell.hxx>
 #include <TopoDS.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Precision.hxx>
 #include <TopExp_Explorer.hxx>
 #include <TopExp.hxx>

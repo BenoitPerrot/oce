@@ -11,7 +11,7 @@
 #include <Handle_BRep_GCurve.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <BRep_CurveRepresentation.hxx>
+#include <ModelingData/BRep/BRep_CurveRepresentation.hxx>
 class TopLoc_Location;
 class gp_Pnt;
 
@@ -66,7 +66,7 @@ private:
 };
 
 
-#include <BRep_GCurve.lxx>
+#include <ModelingData/BRep/BRep_GCurve.lxx>
 
 
 

@@ -31,7 +31,7 @@
 #include <BRepAdaptor_Curve2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Precision.hxx>
 
 #include <TopOpeBRepTool_GEOMETRY.hxx>

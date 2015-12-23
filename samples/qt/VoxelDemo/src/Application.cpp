@@ -28,7 +28,7 @@
 
 #include <BRepTools.hxx>
 #include <BRepBndLib.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <BRepPrimAPI_MakeBox.hxx>
 #include <BRepPrimAPI_MakeTorus.hxx>
 #include <BRepPrimAPI_MakeSphere.hxx>

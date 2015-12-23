@@ -62,7 +62,7 @@
 #include <Draw_PluginMacro.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TopoDS_Shape.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <BRepTools.hxx>
 #include <DBRep.hxx>
 #include <Foundation/NCollection/NCollection_DoubleMap.hxx>

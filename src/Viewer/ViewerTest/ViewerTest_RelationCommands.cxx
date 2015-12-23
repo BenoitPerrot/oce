@@ -30,8 +30,8 @@
 #include <AIS_Relation.hxx>
 #include <AIS_Shape.hxx>
 #include <BRepAdaptor_Curve.hxx>
-#include <BRep_Builder.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepTools.hxx>
 #include <Draw_Interpretor.hxx>
 #include <Draw.hxx>

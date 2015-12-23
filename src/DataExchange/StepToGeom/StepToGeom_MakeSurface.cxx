@@ -46,7 +46,7 @@
 #include <ShapeAlgo.hxx>
 #include <ShapeAlgo_AlgoContainer.hxx>
 #include <TopoDS.hxx>
-#include <BRep_Tool.hxx>  
+#include <ModelingData/BRep/BRep_Tool.hxx>  
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Precision.hxx>
 

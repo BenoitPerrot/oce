@@ -72,8 +72,8 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Face)
 #include <TopExp_Explorer.hxx>
 #include <TopTools_SequenceOfShape.hxx>
 
-#include <BRep_Tool.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <BRepTopAdaptor_FClass2d.hxx>
 #include <BRepTools.hxx>
 #include <BRepLib_MakeFace.hxx>

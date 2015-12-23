@@ -107,7 +107,7 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_ActorWrite)
 #include <Interface_Macros.hxx>
 #include <TopTools_HSequenceOfShape.hxx>
 
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <TopoDS_Iterator.hxx> //:d6
 #include <UnitsMethods.hxx>
 #include <STEPConstruct_AP203Context.hxx>
@@ -124,7 +124,7 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_ActorWrite)
 #include <StepShape_HArray1OfGeometricSetSelect.hxx>
 #include <StepShape_GeometricSetSelect.hxx>
 #include <TopoDS_Compound.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 
 // Non-manifold topology processing (ssv; 10.11.2010)
 #include <StepShape_NonManifoldSurfaceShapeRepresentation.hxx>

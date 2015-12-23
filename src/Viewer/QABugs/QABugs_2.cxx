@@ -30,7 +30,7 @@
 #include <TopoDS.hxx>
 #include <BRepBndLib.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepAlgoAPI_Section.hxx>
 #include <BRepAlgo_Section.hxx>
 #include <Precision.hxx>

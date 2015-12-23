@@ -34,7 +34,7 @@
 #include <Mathematics/Primitives/gp_Vec.hxx>
 
 #include <BRepLib.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <TopoDS_Iterator.hxx>
 #include <TopoDS.hxx>
 #include <BRepAdaptor_Curve.hxx>

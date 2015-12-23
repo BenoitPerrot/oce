@@ -49,7 +49,7 @@
 #include <TopOpeBRepBuild_Builder.hxx>
 
 #include <BRepTools.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 
 #include <TopExp.hxx>
 
@@ -79,7 +79,7 @@
 #include <TopOpeBRepDS_IndexedDataMapOfShapeWithState.hxx>
 #include <TopOpeBRepDS_ShapeWithState.hxx>
 #include <TopOpeBRepDS_DataStructure.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <TopOpeBRepDS_ListOfShapeOn1State.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Precision.hxx>

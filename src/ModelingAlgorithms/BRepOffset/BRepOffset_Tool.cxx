@@ -43,7 +43,7 @@
 
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Geometry/BndLib/BndLib_Add3dCurve.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepLib.hxx>
 #include <BRepLib_MakeEdge.hxx>
 #include <BRepLib_MakeVertex.hxx>
@@ -127,7 +127,7 @@
 #include <Precision.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 
-#include <BRep_TEdge.hxx>
+#include <ModelingData/BRep/BRep_TEdge.hxx>
 #include <Geometry/Extrema/Extrema_ExtPC2d.hxx>
 
 #include <Geometry/Geom/Geom_SurfaceOfLinearExtrusion.hxx>
@@ -143,8 +143,8 @@
 #include <Geometry/Geom2dConvert/Geom2dConvert_ApproxCurve.hxx>
 #include <TopoDS_Compound.hxx>
 #include <Geometry/GCPnts/GCPnts_UniformAbscissa.hxx>
-#include <BRep_ListIteratorOfListOfCurveRepresentation.hxx>
-#include <BRep_CurveRepresentation.hxx>
+#include <ModelingData/BRep/BRep_ListIteratorOfListOfCurveRepresentation.hxx>
+#include <ModelingData/BRep/BRep_CurveRepresentation.hxx>
 
 #include <BRepOffset_ListOfInterval.hxx>
 #include <BRepOffset_Interval.hxx>

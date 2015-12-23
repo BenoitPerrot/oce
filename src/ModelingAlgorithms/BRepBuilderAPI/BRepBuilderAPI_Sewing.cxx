@@ -78,8 +78,8 @@ IMPLEMENT_STANDARD_RTTI(BRepBuilderAPI_Sewing)
 #include <Mathematics/BoundingVolumes/Bnd_HArray1OfBox.hxx>
 #include <Geometry/BndLib/BndLib_Add2dCurve.hxx>
 #include <Geometry/BndLib/BndLib_Add3dCurve.hxx>
-#include <BRep_Builder.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepLib.hxx>
 #include <BRepTools_Quilt.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
@@ -146,9 +146,9 @@ IMPLEMENT_STANDARD_RTTI(BRepBuilderAPI_Sewing)
 #include <BRepTools.hxx>
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
 #include <Geometry/Geom/Geom_OffsetSurface.hxx>
-#include <BRep_PointOnCurve.hxx>
-#include <BRep_ListOfPointRepresentation.hxx>
-#include <BRep_TVertex.hxx>
+#include <ModelingData/BRep/BRep_PointOnCurve.hxx>
+#include <ModelingData/BRep/BRep_ListOfPointRepresentation.hxx>
+#include <ModelingData/BRep/BRep_TVertex.hxx>
 #include <Foundation/Message/Message_ProgressSentry.hxx>
 #include <BRepBuilderAPI_VertexInspector.hxx>
 #include <BRepBuilderAPI_CellFilter.hxx>

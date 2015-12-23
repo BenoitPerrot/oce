@@ -33,7 +33,7 @@
 #include <BRepFill_MultiLine.hxx>
 #include <BRepIntCurveSurface_Inter.hxx>
 #include <BRepFill_ApproxSeewing.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ElCLib.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Mathematics/Polynomial/PLib.hxx>

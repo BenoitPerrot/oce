@@ -17,8 +17,8 @@
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <BRep_CurveRepresentation.hxx>
-#include <BRep_Curve3D.hxx>
+#include <ModelingData/BRep/BRep_CurveRepresentation.hxx>
+#include <ModelingData/BRep/BRep_Curve3D.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BRep_Curve3D)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

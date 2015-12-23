@@ -54,7 +54,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_FixRelation)
 #include <SelectMgr_EntityOwner.hxx>
 #include <Select3D_SensitiveSegment.hxx>
 
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepAdaptor_Curve.hxx>
 
 #include <TopoDS.hxx>

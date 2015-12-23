@@ -17,10 +17,10 @@
 #include <NIS_SurfaceDrawer.hxx>
 #include <NIS_Triangulated.hxx>
 #include <BRepMesh_IncrementalMesh.hxx>
-#include <BRep_ListIteratorOfListOfCurveRepresentation.hxx>
-#include <BRep_PolygonOnTriangulation.hxx>
-#include <BRep_TEdge.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_ListIteratorOfListOfCurveRepresentation.hxx>
+#include <ModelingData/BRep/BRep_PolygonOnTriangulation.hxx>
+#include <ModelingData/BRep/BRep_TEdge.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Foundation/NCollection/NCollection_Map.hxx>
 #include <Mathematics/Polyhedral/Poly_PolygonOnTriangulation.hxx>

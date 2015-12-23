@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(DrawDim_Angle)
 #include <DrawDim.hxx>
 
 #include <BRepAdaptor_Surface.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ElCLib.hxx>
 #include <ElSLib.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>

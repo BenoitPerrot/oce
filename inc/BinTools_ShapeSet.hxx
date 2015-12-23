@@ -13,7 +13,7 @@
 #include <TopTools_IndexedMapOfShape.hxx>
 #include <BinTools_LocationSet.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <BinTools_SurfaceSet.hxx>
 #include <BinTools_CurveSet.hxx>
 #include <BinTools_Curve2dSet.hxx>

@@ -30,7 +30,7 @@
 #include <TopoDS_Wire.hxx>
 #include <TopoDS_Face.hxx>
 #include <TopExp_Explorer.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <BRepClass_FaceClassifier.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
@@ -38,7 +38,7 @@
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <TopOpeBRepTool_2d.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <TopExp.hxx>

@@ -96,7 +96,7 @@ private:
 };
 
 
-#include <BRep_PointRepresentation.lxx>
+#include <ModelingData/BRep/BRep_PointRepresentation.lxx>
 
 
 

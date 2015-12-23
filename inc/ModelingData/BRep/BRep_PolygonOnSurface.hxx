@@ -12,7 +12,7 @@
 
 #include <Handle_Poly_Polygon2D.hxx>
 #include <Handle_Geom_Surface.hxx>
-#include <BRep_CurveRepresentation.hxx>
+#include <ModelingData/BRep/BRep_CurveRepresentation.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_BRep_CurveRepresentation.hxx>
 class Poly_Polygon2D;

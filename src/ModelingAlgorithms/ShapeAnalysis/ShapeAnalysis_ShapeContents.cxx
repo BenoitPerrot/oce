@@ -25,7 +25,7 @@
 #include <TopTools_MapOfShape.hxx>
 #include <TopoDS_Solid.hxx>
 #include <TopoDS.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>

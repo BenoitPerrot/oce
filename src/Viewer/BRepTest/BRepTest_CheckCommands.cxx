@@ -53,14 +53,14 @@
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Face.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 
 #include <TopOpeBRepTool_PurgeInternalEdges.hxx>
 //#include <TopOpeBRepTool_FuseEdges.hxx>
 #include <BRepLib_FuseEdges.hxx>
 
 #include <TopTools_HSequenceOfShape.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <TopoDS_Compound.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 

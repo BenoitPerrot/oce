@@ -27,7 +27,7 @@
 #include <TopoDS.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <TopExp_Explorer.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 
 #include <Geometry/Geom/Geom_Line.hxx> 
 #include <Geometry/Geom/Geom_Conic.hxx>

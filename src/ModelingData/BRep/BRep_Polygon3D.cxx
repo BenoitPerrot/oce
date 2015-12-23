@@ -17,8 +17,8 @@
 #include <Mathematics/Polyhedral/Poly_Polygon3D.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
-#include <BRep_CurveRepresentation.hxx>
-#include <BRep_Polygon3D.hxx>
+#include <ModelingData/BRep/BRep_CurveRepresentation.hxx>
+#include <ModelingData/BRep/BRep_Polygon3D.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BRep_Polygon3D)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

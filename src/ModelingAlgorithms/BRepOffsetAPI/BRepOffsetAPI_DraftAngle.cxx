@@ -48,14 +48,14 @@
 #include <BRepOffsetAPI_SequenceOfSequenceOfReal.hxx>
 #include <BRepOffsetAPI_SequenceOfSequenceOfShape.hxx>
 #include <BRepTools_Substitution.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <TopExp.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepAdaptor_Curve.hxx>
 #include <BRepLib_MakeVertex.hxx>
-#include <BRep_TEdge.hxx>
-#include <BRep_ListIteratorOfListOfCurveRepresentation.hxx>
-#include <BRep_GCurve.hxx>
+#include <ModelingData/BRep/BRep_TEdge.hxx>
+#include <ModelingData/BRep/BRep_ListIteratorOfListOfCurveRepresentation.hxx>
+#include <ModelingData/BRep/BRep_GCurve.hxx>
 #include <TopoDS_Wire.hxx>
 #include <BRepAdaptor_Curve2d.hxx>
 

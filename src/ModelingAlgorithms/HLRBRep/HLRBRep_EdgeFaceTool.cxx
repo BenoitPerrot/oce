@@ -20,7 +20,7 @@
 #include <HLRBRep_Surface.hxx>
 #include <BRepExtrema_ExtPF.hxx>
 #include <BRepLib_MakeVertex.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepAdaptor_Curve2d.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <Mathematics/Primitives/gp.hxx>

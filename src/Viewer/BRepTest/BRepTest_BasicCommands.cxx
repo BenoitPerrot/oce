@@ -35,7 +35,7 @@
 #include <Mathematics/Primitives/gp_GTrsf.hxx>
 #include <BRepOffsetAPI_NormalProjection.hxx>
 #include <BRepLib.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <BRepBndLib.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <TopExp_Explorer.hxx>

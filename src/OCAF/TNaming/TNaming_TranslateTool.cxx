@@ -27,31 +27,31 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(TNaming_TranslateTool)
 IMPLEMENT_DOWNCAST(TNaming_TranslateTool,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TNaming_TranslateTool)
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <TopoDS.hxx>
-#include <BRep_TVertex.hxx>
-#include <BRep_ListIteratorOfListOfPointRepresentation.hxx>
-#include <BRep_ListOfPointRepresentation.hxx>
-#include <BRep_PointRepresentation.hxx>
-#include <BRep_PointOnCurve.hxx>
-#include <BRep_PointOnCurveOnSurface.hxx>
+#include <ModelingData/BRep/BRep_TVertex.hxx>
+#include <ModelingData/BRep/BRep_ListIteratorOfListOfPointRepresentation.hxx>
+#include <ModelingData/BRep/BRep_ListOfPointRepresentation.hxx>
+#include <ModelingData/BRep/BRep_PointRepresentation.hxx>
+#include <ModelingData/BRep/BRep_PointOnCurve.hxx>
+#include <ModelingData/BRep/BRep_PointOnCurveOnSurface.hxx>
 #include <TNaming_CopyShape.hxx>
-#include <BRep_TFace.hxx>
-#include <BRep_TEdge.hxx>
-#include <BRep_PointOnSurface.hxx>
-#include <BRep_ListIteratorOfListOfCurveRepresentation.hxx>
-#include <BRep_ListOfCurveRepresentation.hxx>
-#include <BRep_CurveRepresentation.hxx>
-#include <BRep_GCurve.hxx>
-#include <BRep_Curve3D.hxx>
-#include <BRep_CurveOnSurface.hxx>
-#include <BRep_CurveOnClosedSurface.hxx>
-#include <BRep_CurveOn2Surfaces.hxx>
-#include <BRep_Polygon3D.hxx>
-#include <BRep_PolygonOnClosedSurface.hxx>
-#include <BRep_PolygonOnSurface.hxx>
-#include <BRep_PolygonOnClosedTriangulation.hxx>
-#include <BRep_PolygonOnTriangulation.hxx>
+#include <ModelingData/BRep/BRep_TFace.hxx>
+#include <ModelingData/BRep/BRep_TEdge.hxx>
+#include <ModelingData/BRep/BRep_PointOnSurface.hxx>
+#include <ModelingData/BRep/BRep_ListIteratorOfListOfCurveRepresentation.hxx>
+#include <ModelingData/BRep/BRep_ListOfCurveRepresentation.hxx>
+#include <ModelingData/BRep/BRep_CurveRepresentation.hxx>
+#include <ModelingData/BRep/BRep_GCurve.hxx>
+#include <ModelingData/BRep/BRep_Curve3D.hxx>
+#include <ModelingData/BRep/BRep_CurveOnSurface.hxx>
+#include <ModelingData/BRep/BRep_CurveOnClosedSurface.hxx>
+#include <ModelingData/BRep/BRep_CurveOn2Surfaces.hxx>
+#include <ModelingData/BRep/BRep_Polygon3D.hxx>
+#include <ModelingData/BRep/BRep_PolygonOnClosedSurface.hxx>
+#include <ModelingData/BRep/BRep_PolygonOnSurface.hxx>
+#include <ModelingData/BRep/BRep_PolygonOnClosedTriangulation.hxx>
+#include <ModelingData/BRep/BRep_PolygonOnTriangulation.hxx>
 #include <Foundation/Standard/Standard_NullObject.hxx>
 
 

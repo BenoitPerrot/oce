@@ -26,9 +26,9 @@
 #include <BRepOffset_Interval.hxx>
 #include <BRepOffset_Tool.hxx>
 #include <BRepOffset_ListIteratorOfListOfInterval.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepTools.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 
 #include <BRepAdaptor_Curve.hxx>
 

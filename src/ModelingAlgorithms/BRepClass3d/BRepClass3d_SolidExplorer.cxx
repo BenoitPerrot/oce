@@ -60,7 +60,7 @@
 #include <Precision.hxx>
 //OCC454(apo)->
 #include <Geometry/Extrema/Extrema_ExtPS.hxx>
-#include <BRep_Tool.hxx> 
+#include <ModelingData/BRep/BRep_Tool.hxx> 
 #include <BRepClass_FaceClassifier.hxx>
 //<-OCC454(apo)
 #include <BRepTopAdaptor_FClass2d.hxx> 

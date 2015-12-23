@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(TDataXtd_Shape)
 #include <TDataStd.hxx>
 #include <TDataXtd.hxx>
 #include <TDF_Label.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <TopoDS_Solid.hxx>
 #include <TNaming_Builder.hxx>
 #include <TNaming_NamedShape.hxx>

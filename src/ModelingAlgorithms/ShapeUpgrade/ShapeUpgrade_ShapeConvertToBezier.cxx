@@ -26,7 +26,7 @@
 #include <TopExp_Explorer.hxx>
 #include <TopoDS_Face.hxx>
 #include <TopoDS.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ShapeAnalysis_Edge.hxx>
 #include <ShapeBuild_Edge.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
@@ -34,7 +34,7 @@
 #include <Precision.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_BezierCurve.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Geometry/GeomLib/GeomLib.hxx>
 #include <TopoDS_Edge.hxx>
 #include <ShapeUpgrade_ConvertSurfaceToBezierBasis.hxx>

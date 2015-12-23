@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeAnalysis_TransferParameters)
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <ShapeAnalysis_Edge.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <ShapeBuild_Edge.hxx>
 

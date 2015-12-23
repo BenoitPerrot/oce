@@ -54,7 +54,7 @@
 #include <TopoDS_Wire.hxx>
 #include <TopoDS.hxx>
 #include <TopExp.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <TopOpeBRepTool_ShapeExplorer.hxx>
 #include <TopOpeBRepTool_EXPORT.hxx>
 #include <TopOpeBRepDS_EXPORT.hxx>

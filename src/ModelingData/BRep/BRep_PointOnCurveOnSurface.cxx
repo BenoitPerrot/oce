@@ -17,7 +17,7 @@
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
-#include <BRep_PointOnCurveOnSurface.hxx>
+#include <ModelingData/BRep/BRep_PointOnCurveOnSurface.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BRep_PointOnCurveOnSurface)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -38,7 +38,7 @@
 
 #include <GeomAPI_ProjectPointOnCurve.hxx>
 
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepAdaptor_Curve.hxx>
 
 #include <IntTools_CommonPrt.hxx>

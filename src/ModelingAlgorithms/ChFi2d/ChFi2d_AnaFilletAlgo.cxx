@@ -30,7 +30,7 @@
 #include <Geometry/Geom/Geom_Circle.hxx>
 
 #include <BRepAdaptor_Curve.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 
 #include <TopoDS.hxx>
 #include <TopoDS_Iterator.hxx>

@@ -20,7 +20,7 @@
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <BRepSweep_Translation.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepTools.hxx>
 #include <BRepAdaptor_Surface.hxx>
 #include <TopoDS.hxx>
@@ -49,9 +49,9 @@
 #include <Geometry/Adaptor3d/Adaptor3d_SurfaceOfLinearExtrusion.hxx>
 
 #include <BRepAdaptor_Curve.hxx>
-#include <BRep_TEdge.hxx>
-#include <BRep_ListIteratorOfListOfCurveRepresentation.hxx>
-#include <BRep_CurveRepresentation.hxx>
+#include <ModelingData/BRep/BRep_TEdge.hxx>
+#include <ModelingData/BRep/BRep_ListIteratorOfListOfCurveRepresentation.hxx>
+#include <ModelingData/BRep/BRep_CurveRepresentation.hxx>
 #include <TopExp_Explorer.hxx>
 
 static void SetThePCurve(const BRep_Builder& B,

@@ -50,7 +50,7 @@
 
 #include <TopOpeBRepBuild_GTool.hxx>
 #include <TopOpeBRepTool_ShapeExplorer.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <TopoDS.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>

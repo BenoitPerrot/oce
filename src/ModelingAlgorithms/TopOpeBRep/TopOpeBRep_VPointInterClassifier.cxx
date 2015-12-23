@@ -28,7 +28,7 @@
 //modified by NIZHNY-MKK  Fri Jun 16 15:04:09 2000.BEGIN
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <GeomAPI_ProjectPointOnCurve.hxx>
 #include <TopoDS_Vertex.hxx>
 //modified by NIZHNY-MKK  Fri Jun 16 15:04:09 2000.END

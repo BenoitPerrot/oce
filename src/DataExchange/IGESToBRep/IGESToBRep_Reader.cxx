@@ -29,7 +29,7 @@
 #include <TopAbs.hxx>
 #include <TopoDS_Compound.hxx>
 #include <TopoDS_Shape.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <BRepLib.hxx>
 #include <BRepTools_Modifier.hxx>
 

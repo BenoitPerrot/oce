@@ -22,7 +22,7 @@
 #include <Voxel_FastConverter.hxx>
 
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepBndLib.hxx>
 
 #include <TopoDS.hxx>

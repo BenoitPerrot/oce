@@ -21,8 +21,8 @@
 #include <TestTopOpeDraw_DrawableC3D.hxx>
 #include <TestTopOpeDraw_DrawableMesure.hxx>
 #include <DrawTrSurf_Curve.hxx>
-#include <BRep_Builder.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepTools_ShapeSet.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>

@@ -25,7 +25,7 @@
 #include <VrmlConverter_WFRestrictedFace.hxx>
 #include <VrmlConverter_Curve.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfVec.hxx> 
-#include <BRep_Tool.hxx> 
+#include <ModelingData/BRep/BRep_Tool.hxx> 
 #include <VrmlConverter_PointAspect.hxx> 
 #include <Vrml_Separator.hxx>
 #include <Vrml_Coordinate3.hxx>

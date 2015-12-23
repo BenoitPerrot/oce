@@ -49,7 +49,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_Relation)
 #include <AIS_Drawer.hxx>
 #include <AIS_GraphicTool.hxx>
 #include <BRepLib_MakeEdge.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
 #include <Geometry/Geom/Geom_CartesianPoint.hxx>

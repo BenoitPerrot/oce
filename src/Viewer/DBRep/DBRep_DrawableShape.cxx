@@ -54,7 +54,7 @@ IMPLEMENT_STANDARD_RTTI(DBRep_DrawableShape)
 #include <TopExp.hxx>
 #include <TopExp_Explorer.hxx>
 
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 
 #include <BRepTools.hxx>
 

@@ -19,7 +19,7 @@
 #include <HLRBRep_PolyAlgo.hxx>
 #include <TopoDS_Shape.hxx>
 #include <HLRBRep_PolyHLRToShape.hxx>
-#include <BRep_Builder.hxx>
+#include <ModelingData/BRep/BRep_Builder.hxx>
 #include <BRepLib_MakeEdge2d.hxx>
 #include <TopoDS.hxx>
 #include <TopExp_Explorer.hxx>

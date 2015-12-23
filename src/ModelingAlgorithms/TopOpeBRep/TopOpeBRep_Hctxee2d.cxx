@@ -39,7 +39,7 @@ IMPLEMENT_STANDARD_RTTI(TopOpeBRep_Hctxee2d)
 #include <TopExp_Explorer.hxx>
 #include <TopAbs.hxx>
 #include <TopoDS.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 
 #ifdef OCCT_DEBUG
 #include <Geometry/GeomTools/GeomTools_SurfaceSet.hxx>

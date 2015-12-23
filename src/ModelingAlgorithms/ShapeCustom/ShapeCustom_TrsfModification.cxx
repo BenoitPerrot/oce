@@ -35,9 +35,9 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(ShapeCustom_TrsfModification)
 IMPLEMENT_DOWNCAST(ShapeCustom_TrsfModification,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ShapeCustom_TrsfModification)
-#include <BRep_TVertex.hxx>
-#include <BRep_TEdge.hxx>
-#include <BRep_TFace.hxx>
+#include <ModelingData/BRep/BRep_TVertex.hxx>
+#include <ModelingData/BRep/BRep_TEdge.hxx>
+#include <ModelingData/BRep/BRep_TFace.hxx>
 
 //=======================================================================
 //function : ShapeCustom_TrsfModification

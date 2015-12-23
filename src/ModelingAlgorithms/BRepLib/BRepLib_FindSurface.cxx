@@ -43,7 +43,7 @@
 #include <BRepAdaptor_Surface.hxx>
 #include <BRepLib_MakeFace.hxx>
 #include <BRepTools_WireExplorer.hxx>
-#include <BRep_Tool.hxx>
+#include <ModelingData/BRep/BRep_Tool.hxx>
 #include <TopExp.hxx>
 #include <TopExp_Explorer.hxx>
 #include <TopoDS_Vertex.hxx>
