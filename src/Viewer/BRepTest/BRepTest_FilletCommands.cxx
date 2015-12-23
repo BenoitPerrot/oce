@@ -23,7 +23,7 @@
 #include <BRepAlgo_BooleanOperation.hxx>
 #include <BRepAlgo_Fuse.hxx>
 #include <BRepAlgo_Cut.hxx>
-#include <BiTgte_Blend.hxx>
+#include <ModelingAlgorithms/BiTgte/BiTgte_Blend.hxx>
 #include <TopOpeBRepBuild_HBuilder.hxx>
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>

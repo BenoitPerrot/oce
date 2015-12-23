@@ -30,9 +30,9 @@
 #include <Mathematics/Primitives/gp_Parab.hxx>
 #include <Geometry/Geom/Geom_BezierCurve.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
-#include <BiTgte_CurveOnVertex.hxx>
+#include <ModelingAlgorithms/BiTgte/BiTgte_CurveOnVertex.hxx>
 
-#include <BiTgte_HCurveOnVertex.hxx>
+#include <ModelingAlgorithms/BiTgte/BiTgte_HCurveOnVertex.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 

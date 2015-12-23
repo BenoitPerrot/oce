@@ -25,7 +25,7 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>
 #include <Handle_Geom_Surface.hxx>
-#include <BiTgte_ContactType.hxx>
+#include <ModelingAlgorithms/BiTgte/BiTgte_ContactType.hxx>
 #include <Handle_Geom_Curve.hxx>
 #include <Handle_Geom2d_Curve.hxx>
 class BRepAlgo_AsDes;

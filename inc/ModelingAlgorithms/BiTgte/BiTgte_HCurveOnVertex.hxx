@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BiTgte_HCurveOnVertex.hxx>
 
-#include <BiTgte_CurveOnVertex.hxx>
+#include <ModelingAlgorithms/BiTgte/BiTgte_CurveOnVertex.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 class Standard_OutOfRange;
 class Standard_NoSuchObject;
@@ -57,9 +57,9 @@ private:
 };
 
 #define TheCurve BiTgte_CurveOnVertex
-#define TheCurve_hxx <BiTgte_CurveOnVertex.hxx>
+#define TheCurve_hxx <ModelingAlgorithms/BiTgte/BiTgte_CurveOnVertex.hxx>
 #define Adaptor3d_GenHCurve BiTgte_HCurveOnVertex
-#define Adaptor3d_GenHCurve_hxx <BiTgte_HCurveOnVertex.hxx>
+#define Adaptor3d_GenHCurve_hxx <ModelingAlgorithms/BiTgte/BiTgte_HCurveOnVertex.hxx>
 #define Handle_Adaptor3d_GenHCurve Handle_BiTgte_HCurveOnVertex
 #define Adaptor3d_GenHCurve_Type_() BiTgte_HCurveOnVertex_Type_()
 

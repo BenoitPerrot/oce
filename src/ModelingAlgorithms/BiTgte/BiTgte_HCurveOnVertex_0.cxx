@@ -3,14 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <BiTgte_HCurveOnVertex.hxx>
+#include <ModelingAlgorithms/BiTgte/BiTgte_HCurveOnVertex.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <BiTgte_CurveOnVertex.hxx>
+#include <ModelingAlgorithms/BiTgte/BiTgte_CurveOnVertex.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
 
  
@@ -31,9 +31,9 @@ IMPLEMENT_STANDARD_RTTI(BiTgte_HCurveOnVertex)
 
 
 #define TheCurve BiTgte_CurveOnVertex
-#define TheCurve_hxx <BiTgte_CurveOnVertex.hxx>
+#define TheCurve_hxx <ModelingAlgorithms/BiTgte/BiTgte_CurveOnVertex.hxx>
 #define Adaptor3d_GenHCurve BiTgte_HCurveOnVertex
-#define Adaptor3d_GenHCurve_hxx <BiTgte_HCurveOnVertex.hxx>
+#define Adaptor3d_GenHCurve_hxx <ModelingAlgorithms/BiTgte/BiTgte_HCurveOnVertex.hxx>
 #define Handle_Adaptor3d_GenHCurve Handle_BiTgte_HCurveOnVertex
 #define Adaptor3d_GenHCurve_Type_() BiTgte_HCurveOnVertex_Type_()
 #include <Geometry/Adaptor3d/Adaptor3d_GenHCurve.gxx>

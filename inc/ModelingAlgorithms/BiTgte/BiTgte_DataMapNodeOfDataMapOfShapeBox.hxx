@@ -60,13 +60,13 @@ private:
 #define Hasher TopTools_ShapeMapHasher
 #define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode BiTgte_DataMapNodeOfDataMapOfShapeBox
-#define TCollection_DataMapNode_hxx <BiTgte_DataMapNodeOfDataMapOfShapeBox.hxx>
+#define TCollection_DataMapNode_hxx <ModelingAlgorithms/BiTgte/BiTgte_DataMapNodeOfDataMapOfShapeBox.hxx>
 #define TCollection_DataMapIterator BiTgte_DataMapIteratorOfDataMapOfShapeBox
-#define TCollection_DataMapIterator_hxx <BiTgte_DataMapIteratorOfDataMapOfShapeBox.hxx>
+#define TCollection_DataMapIterator_hxx <ModelingAlgorithms/BiTgte/BiTgte_DataMapIteratorOfDataMapOfShapeBox.hxx>
 #define Handle_TCollection_DataMapNode Handle_BiTgte_DataMapNodeOfDataMapOfShapeBox
 #define TCollection_DataMapNode_Type_() BiTgte_DataMapNodeOfDataMapOfShapeBox_Type_()
 #define TCollection_DataMap BiTgte_DataMapOfShapeBox
-#define TCollection_DataMap_hxx <BiTgte_DataMapOfShapeBox.hxx>
+#define TCollection_DataMap_hxx <ModelingAlgorithms/BiTgte/BiTgte_DataMapOfShapeBox.hxx>
 
 #include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 

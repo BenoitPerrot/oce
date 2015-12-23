@@ -27,17 +27,17 @@
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
-#include <BiTgte_DataMapOfShapeBox.hxx>
+#include <ModelingAlgorithms/BiTgte/BiTgte_DataMapOfShapeBox.hxx>
 #include <BRepOffset_Offset.hxx>
 #include <BRepOffset_Inter3d.hxx>
-#include <BiTgte_Blend.hxx>
+#include <ModelingAlgorithms/BiTgte/BiTgte_Blend.hxx>
 
 // include - all hxx,
 //         - all small static functions.
 
 //======================== START STATIC FUNCTIONS ============
-#include <BiTgte_DataMapOfShapeBox.hxx>
-#include <BiTgte_CurveOnEdge.hxx>
+#include <ModelingAlgorithms/BiTgte/BiTgte_DataMapOfShapeBox.hxx>
+#include <ModelingAlgorithms/BiTgte/BiTgte_CurveOnEdge.hxx>
 
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BRepBndLib.hxx>

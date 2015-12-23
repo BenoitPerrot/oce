@@ -30,9 +30,9 @@
 #include <Mathematics/Primitives/gp_Parab.hxx>
 #include <Geometry/Geom/Geom_BezierCurve.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
-#include <BiTgte_CurveOnEdge.hxx>
+#include <ModelingAlgorithms/BiTgte/BiTgte_CurveOnEdge.hxx>
 
-#include <BiTgte_HCurveOnEdge.hxx>
+#include <ModelingAlgorithms/BiTgte/BiTgte_HCurveOnEdge.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <GeomAPI_ProjectPointOnCurve.hxx>
