@@ -16,7 +16,7 @@
 // 23.02.99 abv: method ShapeFix::FillFace() removed
 // 02.03.99 cky/rln: command edgeregul only accepts tolerance
 // 15.06.99 abv/pdn: command comptol added (from S4030)
-#include <SWDRAW_ShapeTool.hxx>
+#include <Viewer/SWDRAW/SWDRAW_ShapeTool.hxx>
 
 #include <Viewer/Draw/Draw.hxx>
 #include <Viewer/DBRep/DBRep.hxx>

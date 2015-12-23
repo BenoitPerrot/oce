@@ -27,7 +27,7 @@
 #include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <Viewer/Draw/Draw_PluginMacro.hxx>
 #include <Viewer/BOPTest/BOPTest.hxx>
-#include <SWDRAW.hxx>
+#include <Viewer/SWDRAW/SWDRAW.hxx>
 #ifdef _MSC_VER
 #pragma warning(4:4190)
 #endif

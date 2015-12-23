@@ -16,12 +16,12 @@
 
 // sln 19.11.2001. Bug 2: Correction of output of 'statshape' draw function.
 
-#include <SWDRAW_ShapeAnalysis.hxx>
+#include <Viewer/SWDRAW/SWDRAW_ShapeAnalysis.hxx>
 #include <stdio.h>
 #include <Viewer/Draw/Draw.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
 #include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
-#include <SWDRAW.hxx>
+#include <Viewer/SWDRAW/SWDRAW.hxx>
 #include <Precision.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>

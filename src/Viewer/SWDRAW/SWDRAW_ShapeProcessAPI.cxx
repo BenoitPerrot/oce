@@ -14,9 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <SWDRAW_ShapeProcessAPI.hxx>
+#include <Viewer/SWDRAW/SWDRAW_ShapeProcessAPI.hxx>
 
-#include <SWDRAW.hxx>
+#include <Viewer/SWDRAW/SWDRAW.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ShapeProcessAPI_ApplySequence.hxx>

@@ -14,11 +14,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <SWDRAW_ShapeCustom.hxx>
+#include <Viewer/SWDRAW/SWDRAW_ShapeCustom.hxx>
 
 #include <Viewer/Draw/Draw.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
-#include <SWDRAW.hxx>
+#include <Viewer/SWDRAW/SWDRAW.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingAlgorithms/ShapeCustom/ShapeCustom.hxx>
 #include <ModelingAlgorithms/ShapeCustom/ShapeCustom_BSplineRestriction.hxx>

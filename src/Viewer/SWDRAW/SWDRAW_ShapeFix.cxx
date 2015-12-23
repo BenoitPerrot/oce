@@ -14,12 +14,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <SWDRAW_ShapeFix.hxx>
+#include <Viewer/SWDRAW/SWDRAW_ShapeFix.hxx>
 
 #include <Viewer/Draw/Draw.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <SWDRAW.hxx>
+#include <Viewer/SWDRAW/SWDRAW.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>

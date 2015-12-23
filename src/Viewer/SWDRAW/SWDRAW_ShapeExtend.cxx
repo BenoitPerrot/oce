@@ -14,9 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <SWDRAW_ShapeExtend.hxx>
+#include <Viewer/SWDRAW/SWDRAW_ShapeExtend.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
-#include <SWDRAW.hxx>
+#include <Viewer/SWDRAW/SWDRAW.hxx>
 #include <ModelingData/TopTools/TopTools_HSequenceOfShape.hxx>
 #include <ModelingAlgorithms/ShapeExtend/ShapeExtend_Explorer.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>

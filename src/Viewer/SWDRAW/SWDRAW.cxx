@@ -11,19 +11,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <SWDRAW.hxx>
+#include <Viewer/SWDRAW/SWDRAW.hxx>
 
 #include <Viewer/Draw/Draw.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
 
-#include <SWDRAW_ShapeTool.hxx>
-#include <SWDRAW_ShapeAnalysis.hxx>
-#include <SWDRAW_ShapeCustom.hxx>
-#include <SWDRAW_ShapeExtend.hxx>
-#include <SWDRAW_ShapeFix.hxx>
-#include <SWDRAW_ShapeUpgrade.hxx>
-#include <SWDRAW_ShapeProcess.hxx>
-#include <SWDRAW_ShapeProcessAPI.hxx>
+#include <Viewer/SWDRAW/SWDRAW_ShapeTool.hxx>
+#include <Viewer/SWDRAW/SWDRAW_ShapeAnalysis.hxx>
+#include <Viewer/SWDRAW/SWDRAW_ShapeCustom.hxx>
+#include <Viewer/SWDRAW/SWDRAW_ShapeExtend.hxx>
+#include <Viewer/SWDRAW/SWDRAW_ShapeFix.hxx>
+#include <Viewer/SWDRAW/SWDRAW_ShapeUpgrade.hxx>
+#include <Viewer/SWDRAW/SWDRAW_ShapeProcess.hxx>
+#include <Viewer/SWDRAW/SWDRAW_ShapeProcessAPI.hxx>
 
 //#72 rln 09.03.99 Packaging of SWDRAW
 
