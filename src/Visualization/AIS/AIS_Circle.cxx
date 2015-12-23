@@ -43,7 +43,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_Circle)
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Visualization/SelectMgr/SelectMgr_EntityOwner.hxx>
 #include <Visualization/Select3D/Select3D_SensitiveCircle.hxx>
-#include <StdPrs_DeflectionCurve.hxx>
+#include <Visualization/StdPrs/StdPrs_DeflectionCurve.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>

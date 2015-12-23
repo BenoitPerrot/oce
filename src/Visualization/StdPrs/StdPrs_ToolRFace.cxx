@@ -13,7 +13,7 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
-#include <StdPrs_ToolRFace.hxx>
+#include <Visualization/StdPrs/StdPrs_ToolRFace.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>

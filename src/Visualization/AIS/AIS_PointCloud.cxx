@@ -29,7 +29,7 @@
 #include <Visualization/Select3D/Select3D_SensitiveBox.hxx>
 #include <Visualization/SelectMgr/SelectMgr_EntityOwner.hxx>
 #include <Visualization/SelectMgr/SelectMgr_Selection.hxx>
-#include <StdPrs_WFDeflectionRestrictedFace.hxx>
+#include <Visualization/StdPrs/StdPrs_WFDeflectionRestrictedFace.hxx>
 
 IMPLEMENT_STANDARD_HANDLE (AIS_PointCloud, AIS_InteractiveObject)
 IMPLEMENT_STANDARD_RTTIEXT(AIS_PointCloud, AIS_InteractiveObject)

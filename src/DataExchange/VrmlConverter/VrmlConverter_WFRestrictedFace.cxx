@@ -21,7 +21,7 @@
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Geometry/BndLib/BndLib_Add2dCurve.hxx>
 #include <Precision.hxx>
-#include <StdPrs_ToolRFace.hxx>
+#include <Visualization/StdPrs/StdPrs_ToolRFace.hxx>
 #include <VrmlConverter_Curve.hxx>
 #include <Vrml_Material.hxx>
 #include <Vrml_Separator.hxx>

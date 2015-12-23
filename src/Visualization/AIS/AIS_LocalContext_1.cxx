@@ -98,7 +98,7 @@
 #include <Visualization/Prs3d/Prs3d_Drawer.hxx>
 #include <Visualization/Prs3d/Prs3d_ShadingAspect.hxx>
 #include <Visualization/AIS/AIS_LocalStatus.hxx>
-#include <StdPrs_WFShape.hxx>
+#include <Visualization/StdPrs/StdPrs_WFShape.hxx>
 #include <Visualization/Graphic3d/Graphic3d_ArrayOfTriangles.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Group.hxx>
 #include <Visualization/Select3D/Select3D_SensitiveTriangulation.hxx>

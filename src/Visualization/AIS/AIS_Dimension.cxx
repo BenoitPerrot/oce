@@ -65,8 +65,8 @@
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
-#include <StdPrs_ShadedShape.hxx>
-#include <StdPrs_WFShape.hxx>
+#include <Visualization/StdPrs/StdPrs_ShadedShape.hxx>
+#include <Visualization/StdPrs/StdPrs_WFShape.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>

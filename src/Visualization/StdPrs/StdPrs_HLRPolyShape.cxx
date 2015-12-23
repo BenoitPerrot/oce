@@ -18,9 +18,9 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Visualization/Prs3d/Prs3d_Drawer.hxx>
 #include <Visualization/Prs3d/Prs3d_Projector.hxx>
-#include <StdPrs_HLRPolyShape.hxx>
+#include <Visualization/StdPrs/StdPrs_HLRPolyShape.hxx>
 
-#include <StdPrs_WFShape.hxx>
+#include <Visualization/StdPrs/StdPrs_WFShape.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Group.hxx>

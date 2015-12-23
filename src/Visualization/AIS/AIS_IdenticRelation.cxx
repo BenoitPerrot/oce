@@ -70,7 +70,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_IdenticRelation)
 
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfTransient.hxx>
 
-#include <StdPrs_WFDeflectionShape.hxx>
+#include <Visualization/StdPrs/StdPrs_WFDeflectionShape.hxx>
 
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 

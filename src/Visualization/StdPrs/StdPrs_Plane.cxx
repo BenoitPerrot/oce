@@ -17,7 +17,7 @@
 #include <Visualization/Prs3d/Prs3d_Presentation.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_Surface.hxx>
 #include <Visualization/Prs3d/Prs3d_Drawer.hxx>
-#include <StdPrs_Plane.hxx>
+#include <Visualization/StdPrs/StdPrs_Plane.hxx>
 #include <Visualization/Graphic3d/Graphic3d_ArrayOfSegments.hxx>
 #include <Visualization/Graphic3d/Graphic3d_ArrayOfPolylines.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Vertex.hxx>

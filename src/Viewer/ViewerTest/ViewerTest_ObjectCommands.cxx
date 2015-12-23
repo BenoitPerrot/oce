@@ -110,7 +110,7 @@
 #include <Visualization/SelectMgr/SelectMgr_EntityOwner.hxx>
 #include <Visualization/SelectMgr/SelectMgr_Selection.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <StdPrs_ShadedShape.hxx>
+#include <Visualization/StdPrs/StdPrs_ShadedShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 
 #include <Visualization/AIS/AIS_MultipleConnectedInteractive.hxx>
@@ -123,7 +123,7 @@
 #include <Visualization/Select3D/Select3D_SensitiveCurve.hxx>
 #include <Visualization/Select3D/Select3D_SensitivePoint.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
-#include <StdPrs_Curve.hxx>
+#include <Visualization/StdPrs/StdPrs_Curve.hxx>
 
 #include <ModelingAlgorithms/BRepExtrema/BRepExtrema_ExtPC.hxx>
 #include <ModelingAlgorithms/BRepExtrema/BRepExtrema_ExtPF.hxx>
@@ -2629,7 +2629,7 @@ static int VDrawText (Draw_Interpretor& di, Standard_Integer argc, const char** 
 #include <Foundation/TShort/TShort_HArray1OfShortReal.hxx>
 
 #include <Visualization/AIS/AIS_Triangulation.hxx>
-#include <StdPrs_ToolShadedShape.hxx>
+#include <Visualization/StdPrs/StdPrs_ToolShadedShape.hxx>
 #include <Mathematics/Polyhedral/Poly_Connect.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfDir.hxx>
 #include <Visualization/Graphic3d/Graphic3d_GraphicDriver.hxx>

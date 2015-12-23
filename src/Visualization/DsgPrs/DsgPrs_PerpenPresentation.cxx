@@ -38,7 +38,7 @@
 #include <Visualization/Graphic3d/Graphic3d_ArrayOfSegments.hxx>
 #include <Visualization/Graphic3d/Graphic3d_ArrayOfPolylines.hxx>
 
-#include <StdPrs_Point.hxx>
+#include <Visualization/StdPrs/StdPrs_Point.hxx>
 
 void DsgPrs_PerpenPresentation::Add (const Handle(Prs3d_Presentation)& aPresentation,
 				     const Handle(Prs3d_Drawer)& aDrawer,

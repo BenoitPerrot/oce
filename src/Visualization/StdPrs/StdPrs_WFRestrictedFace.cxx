@@ -23,9 +23,9 @@
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <GeomAbs_SurfaceType.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
-#include <StdPrs_WFRestrictedFace.hxx>
-#include <StdPrs_ToolRFace.hxx>
-#include <StdPrs_Curve.hxx>
+#include <Visualization/StdPrs/StdPrs_WFRestrictedFace.hxx>
+#include <Visualization/StdPrs/StdPrs_ToolRFace.hxx>
+#include <Visualization/StdPrs/StdPrs_Curve.hxx>
 #include <Visualization/Prs3d/Prs3d_NListOfSequenceOfPnt.hxx>
 
 //=========================================================================

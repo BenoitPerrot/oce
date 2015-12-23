@@ -17,7 +17,7 @@
 #include <Visualization/Prs3d/Prs3d_Presentation.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
 #include <Visualization/Prs3d/Prs3d_Drawer.hxx>
-#include <StdPrs_PoleCurve.hxx>
+#include <Visualization/StdPrs/StdPrs_PoleCurve.hxx>
 
 #include <Visualization/Graphic3d/Graphic3d_ArrayOfPolylines.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Group.hxx>

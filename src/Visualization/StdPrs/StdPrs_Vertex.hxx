@@ -17,7 +17,7 @@
 #include <Visualization/Prs3d/Prs3d_Point.hxx>
 #include <Visualization/Prs3d/Prs3d_Drawer.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
-#include <StdPrs_ToolVertex.hxx>
+#include <Visualization/StdPrs/StdPrs_ToolVertex.hxx>
 #include <Visualization/Prs3d/Prs3d_Presentation.hxx>
 
 typedef Prs3d_Point<TopoDS_Vertex, StdPrs_ToolVertex> StdPrs_Vertex;

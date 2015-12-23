@@ -71,11 +71,11 @@ IMPLEMENT_STANDARD_RTTI(AIS_Shape)
 #include <Visualization/Prs3d/Prs3d_Drawer.hxx>
 #include <Visualization/Prs3d/Prs3d_IsoAspect.hxx>
 
-#include <StdPrs_WFShape.hxx>
-#include <StdPrs_WFDeflectionShape.hxx>
-#include <StdPrs_ShadedShape.hxx>
-#include <StdPrs_HLRShape.hxx>
-#include <StdPrs_HLRPolyShape.hxx>
+#include <Visualization/StdPrs/StdPrs_WFShape.hxx>
+#include <Visualization/StdPrs/StdPrs_WFDeflectionShape.hxx>
+#include <Visualization/StdPrs/StdPrs_ShadedShape.hxx>
+#include <Visualization/StdPrs/StdPrs_HLRShape.hxx>
+#include <Visualization/StdPrs/StdPrs_HLRPolyShape.hxx>
 
 #include <Visualization/PrsMgr/PrsMgr_ModedPresentation.hxx>
 

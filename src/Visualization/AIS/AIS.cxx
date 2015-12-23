@@ -84,8 +84,8 @@
 #include <Precision.hxx>
 #include <Visualization/Prs3d/Prs3d_LineAspect.hxx>
 #include <Visualization/Prs3d/Prs3d_PointAspect.hxx>
-#include <StdPrs_Point.hxx>
-#include <StdPrs_WFDeflectionShape.hxx>
+#include <Visualization/StdPrs/StdPrs_Point.hxx>
+#include <Visualization/StdPrs/StdPrs_WFDeflectionShape.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>

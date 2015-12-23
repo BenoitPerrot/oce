@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
-#include <StdPrs_ToolVertex.hxx>
+#include <Visualization/StdPrs/StdPrs_ToolVertex.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 

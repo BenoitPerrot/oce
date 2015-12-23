@@ -36,7 +36,7 @@ IMPLEMENT_DOWNCAST(StdSelect_BRepOwner,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(StdSelect_BRepOwner)
 #include <Visualization/SelectBasics/SelectBasics_EntityOwner.hxx>
 
-#include <StdPrs_WFShape.hxx>
+#include <Visualization/StdPrs/StdPrs_WFShape.hxx>
 
 #include <Visualization/Graphic3d/Graphic3d_StructureManager.hxx>
 

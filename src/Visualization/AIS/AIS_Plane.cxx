@@ -54,8 +54,8 @@ IMPLEMENT_STANDARD_RTTI(AIS_Plane)
 #include <Visualization/Prs3d/Prs3d_PlaneAspect.hxx>
 #include <Visualization/Prs3d/Prs3d_DatumAspect.hxx>
 #include <Visualization/Prs3d/Prs3d_ShadingAspect.hxx>
-#include <StdPrs_Plane.hxx>
-#include <StdPrs_ShadedSurface.hxx>
+#include <Visualization/StdPrs/StdPrs_Plane.hxx>
+#include <Visualization/StdPrs/StdPrs_ShadedSurface.hxx>
 
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
@@ -73,7 +73,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_Plane)
 #include <Visualization/Select3D/Select3D_SensitiveTriangulation.hxx>
 #include <Visualization/SelectBasics/SelectBasics_EntityOwner.hxx>
 #include <Visualization/SelectMgr/SelectMgr_EntityOwner.hxx>
-#include <StdPrs_ShadedShape.hxx>
+#include <Visualization/StdPrs/StdPrs_ShadedShape.hxx>
 
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 

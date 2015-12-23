@@ -25,7 +25,7 @@
 #include <Visualization/Prs3d/Prs3d_TextAspect.hxx>
 #include <Visualization/Prs3d/Prs3d_PointAspect.hxx>
 #include <Geometry/Geom/Geom_CartesianPoint.hxx>
-#include <StdPrs_Point.hxx>
+#include <Visualization/StdPrs/StdPrs_Point.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Visualization/Prs3d/Prs3d_Text.hxx>
 #include <Visualization/Aspect/Aspect_TypeOfMarker.hxx>

@@ -16,7 +16,7 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Projector.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
-#include <StdPrs_HLRToolShape.hxx>
+#include <Visualization/StdPrs/StdPrs_HLRToolShape.hxx>
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Projector.hxx>
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_Algo.hxx>
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_Data.hxx>

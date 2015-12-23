@@ -18,9 +18,9 @@
 #include <Visualization/Prs3d/Prs3d_WFShape.hxx>
 #include <Visualization/Prs3d/Prs3d_Drawer.hxx>
 #include <Visualization/Prs3d/Prs3d_Root.hxx>
-#include <StdPrs_WFDeflectionRestrictedFace.hxx>
-#include <StdPrs_DeflectionCurve.hxx>
-#include <StdPrs_Vertex.hxx>
+#include <Visualization/StdPrs/StdPrs_WFDeflectionRestrictedFace.hxx>
+#include <Visualization/StdPrs/StdPrs_DeflectionCurve.hxx>
+#include <Visualization/StdPrs/StdPrs_Vertex.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopTools/TopTools_HSequenceOfShape.hxx>
 

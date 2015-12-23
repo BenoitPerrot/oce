@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Geometry/Geom/Geom_Point.hxx>
-#include <StdPrs_ToolPoint.hxx>
+#include <Visualization/StdPrs/StdPrs_ToolPoint.hxx>
 
 
 void StdPrs_ToolPoint::Coord (const Handle(Geom_Point)& aPoint,

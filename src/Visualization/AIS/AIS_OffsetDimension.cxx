@@ -56,7 +56,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_OffsetDimension)
 #include <Visualization/Select3D/Select3D_SensitiveBox.hxx>
 #include <Visualization/Select3D/Select3D_SensitiveSegment.hxx>
 #include <Visualization/SelectMgr/SelectMgr_EntityOwner.hxx>
-#include <StdPrs_WFDeflectionShape.hxx>
+#include <Visualization/StdPrs/StdPrs_WFDeflectionShape.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>

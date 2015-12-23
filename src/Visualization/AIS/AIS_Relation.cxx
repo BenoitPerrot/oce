@@ -59,8 +59,8 @@ IMPLEMENT_STANDARD_RTTI(AIS_Relation)
 #include <Visualization/Prs3d/Prs3d_PointAspect.hxx>
 #include <Visualization/Prs3d/Prs3d_TextAspect.hxx>
 
-#include <StdPrs_WFDeflectionShape.hxx>
-#include <StdPrs_Point.hxx>
+#include <Visualization/StdPrs/StdPrs_WFDeflectionShape.hxx>
+#include <Visualization/StdPrs/StdPrs_Point.hxx>
 
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>

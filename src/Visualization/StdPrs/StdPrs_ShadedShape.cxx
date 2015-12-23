@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StdPrs_ShadedShape.hxx>
+#include <Visualization/StdPrs/StdPrs_ShadedShape.hxx>
 
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
@@ -39,8 +39,8 @@
 #include <Mathematics/Polyhedral/Poly_Connect.hxx>
 #include <Mathematics/Polyhedral/Poly_PolygonOnTriangulation.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
-#include <StdPrs_ToolShadedShape.hxx>
-#include <StdPrs_WFShape.hxx>
+#include <Visualization/StdPrs/StdPrs_ToolShadedShape.hxx>
+#include <Visualization/StdPrs/StdPrs_WFShape.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>

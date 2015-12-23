@@ -29,7 +29,7 @@
 #include <Visualization/Graphic3d/Graphic3d_AspectLine3d.hxx>
 #include <Visualization/Prs3d/Prs3d_PointAspect.hxx>
 #include <Geometry/Geom/Geom_CartesianPoint.hxx>
-#include <StdPrs_Point.hxx>
+#include <Visualization/StdPrs/StdPrs_Point.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Visualization/Prs3d/Prs3d_Arrow.hxx>
 

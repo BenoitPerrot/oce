@@ -17,7 +17,7 @@
 #include <Visualization/Prs3d/Prs3d_Presentation.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #include <Visualization/Prs3d/Prs3d_Drawer.hxx>
-#include <StdPrs_WFDeflectionSurface.hxx>
+#include <Visualization/StdPrs/StdPrs_WFDeflectionSurface.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Group.hxx>
 #include <GeomAbs_IsoType.hxx>
 #include <Visualization/Prs3d/Prs3d_IsoAspect.hxx>
@@ -26,7 +26,7 @@
 #include <Precision.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_IsoCurve.hxx>
-#include <StdPrs_DeflectionCurve.hxx>
+#include <Visualization/StdPrs/StdPrs_DeflectionCurve.hxx>
 
 static void FindLimits(const Handle(Adaptor3d_HSurface)& surf ,
 		       const Standard_Real    aLimit,

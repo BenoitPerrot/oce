@@ -20,9 +20,9 @@
 #include <ModelingData/TopTools/TopTools_HSequenceOfShape.hxx>
 #include <Foundation/Quantity/Quantity_Length.hxx>
 #include <Visualization/Prs3d/Prs3d_WFShape.hxx>
-#include <StdPrs_WFRestrictedFace.hxx>
-#include <StdPrs_Curve.hxx>
-#include <StdPrs_Vertex.hxx>
+#include <Visualization/StdPrs/StdPrs_WFRestrictedFace.hxx>
+#include <Visualization/StdPrs/StdPrs_Curve.hxx>
+#include <Visualization/StdPrs/StdPrs_Vertex.hxx>
 
 class StdPrs_WFShape : public Prs3d_Root
 {

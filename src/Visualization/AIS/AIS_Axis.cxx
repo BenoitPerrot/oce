@@ -48,7 +48,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_Axis)
 #include <Visualization/SelectMgr/SelectMgr_EntityOwner.hxx>
 #include <Visualization/SelectBasics/SelectBasics_EntityOwner.hxx>
 #include <Visualization/Select3D/Select3D_SensitiveSegment.hxx>
-#include <StdPrs_Curve.hxx>
+#include <Visualization/StdPrs/StdPrs_Curve.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <Geometry/Geom/Geom_Axis1Placement.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>

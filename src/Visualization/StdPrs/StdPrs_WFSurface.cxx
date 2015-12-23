@@ -17,7 +17,7 @@
 #include <Visualization/Prs3d/Prs3d_Presentation.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #include <Visualization/Prs3d/Prs3d_Drawer.hxx>
-#include <StdPrs_WFSurface.hxx>
+#include <Visualization/StdPrs/StdPrs_WFSurface.hxx>
 
 
 #include <Visualization/Graphic3d/Graphic3d_Group.hxx>
@@ -28,7 +28,7 @@
 #include <Precision.hxx>
 #include <Geometry/BndLib/BndLib_AddSurface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_IsoCurve.hxx>
-#include <StdPrs_Curve.hxx>
+#include <Visualization/StdPrs/StdPrs_Curve.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 
 #include <Visualization/Prs3d/Prs3d_NListOfSequenceOfPnt.hxx>

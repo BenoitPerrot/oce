@@ -56,8 +56,8 @@ IMPLEMENT_STANDARD_RTTI(AIS_ConnectedInteractive)
 #include <Visualization/AIS/AIS_Drawer.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
-#include <StdPrs_WFDeflectionShape.hxx>
-#include <StdPrs_HLRPolyShape.hxx>
+#include <Visualization/StdPrs/StdPrs_WFDeflectionShape.hxx>
+#include <Visualization/StdPrs/StdPrs_HLRPolyShape.hxx>
 #include <Visualization/Prs3d/Prs3d_Drawer.hxx>
 
 #include <Visualization/AIS/AIS_Shape.hxx>

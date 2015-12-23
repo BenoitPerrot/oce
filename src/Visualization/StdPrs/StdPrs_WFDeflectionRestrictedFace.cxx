@@ -18,7 +18,7 @@
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
 #include <Visualization/Prs3d/Prs3d_Drawer.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <StdPrs_WFDeflectionRestrictedFace.hxx>
+#include <Visualization/StdPrs/StdPrs_WFDeflectionRestrictedFace.hxx>
 
 #include <ModelingAlgorithms/Hatch/Hatch_Hatcher.hxx>
 #include <Visualization/Graphic3d/Graphic3d_ArrayOfPolylines.hxx>
@@ -30,8 +30,8 @@
 #include <Geometry/Adaptor2d/Adaptor2d_Curve2d.hxx>
 #include <Geometry/GCPnts/GCPnts_QuasiUniformDeflection.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_IsoCurve.hxx>
-#include <StdPrs_DeflectionCurve.hxx>
-#include <StdPrs_ToolRFace.hxx>
+#include <Visualization/StdPrs/StdPrs_DeflectionCurve.hxx>
+#include <Visualization/StdPrs/StdPrs_ToolRFace.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Geometry/BndLib/BndLib_Add2dCurve.hxx>
 #include <Precision.hxx>

@@ -20,7 +20,7 @@
 #include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
 #include <Visualization/Prs3d/Prs3d_Drawer.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
-#include <StdPrs_DeflectionCurve.hxx>
+#include <Visualization/StdPrs/StdPrs_DeflectionCurve.hxx>
 
 #include <Visualization/Graphic3d/Graphic3d_ArrayOfSegments.hxx>
 #include <Visualization/Graphic3d/Graphic3d_ArrayOfPolylines.hxx>

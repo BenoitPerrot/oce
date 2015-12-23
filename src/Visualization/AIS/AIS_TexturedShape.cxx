@@ -32,10 +32,10 @@
 #include <Visualization/Prs3d/Prs3d_ShadingAspect.hxx>
 #include <Visualization/PrsMgr/PrsMgr_PresentationManager3d.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
-#include <StdPrs_ShadedShape.hxx>
-#include <StdPrs_ToolShadedShape.hxx>
-#include <StdPrs_WFDeflectionShape.hxx>
-#include <StdPrs_WFShape.hxx>
+#include <Visualization/StdPrs/StdPrs_ShadedShape.hxx>
+#include <Visualization/StdPrs/StdPrs_ToolShadedShape.hxx>
+#include <Visualization/StdPrs/StdPrs_WFDeflectionShape.hxx>
+#include <Visualization/StdPrs/StdPrs_WFShape.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
 IMPLEMENT_STANDARD_HANDLE (AIS_TexturedShape, AIS_Shape)

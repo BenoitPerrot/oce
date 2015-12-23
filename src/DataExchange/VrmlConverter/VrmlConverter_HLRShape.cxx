@@ -16,7 +16,7 @@
 #include <VrmlConverter_Projector.hxx>
 #include <VrmlConverter_HLRShape.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <StdPrs_HLRToolShape.hxx>
+#include <Visualization/StdPrs/StdPrs_HLRToolShape.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <ModelingAlgorithms/BRepBndLib/BRepBndLib.hxx>
 #include <VrmlConverter_DeflectionCurve.hxx>

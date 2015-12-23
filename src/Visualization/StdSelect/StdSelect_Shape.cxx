@@ -29,13 +29,13 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(StdSelect_Shape)
 IMPLEMENT_DOWNCAST(StdSelect_Shape,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(StdSelect_Shape)
-#include <StdPrs_WFShape.hxx>
+#include <Visualization/StdPrs/StdPrs_WFShape.hxx>
 #include <Visualization/Prs3d/Prs3d_LineAspect.hxx>
 #include <Visualization/Prs3d/Prs3d_PointAspect.hxx>
 #include <Visualization/Aspect/Aspect_TypeOfMarker.hxx>
 #include <Visualization/Prs3d/Prs3d_PlaneAspect.hxx>
 #include <Visualization/Prs3d/Prs3d_Drawer.hxx>
-#include <StdPrs_ShadedShape.hxx>
+#include <Visualization/StdPrs/StdPrs_ShadedShape.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 
 StdSelect_Shape::StdSelect_Shape(const TopoDS_Shape& sh):

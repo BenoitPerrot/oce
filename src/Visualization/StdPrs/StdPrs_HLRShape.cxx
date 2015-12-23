@@ -17,9 +17,9 @@
 #include <Visualization/Prs3d/Prs3d_LineAspect.hxx>
 #include <Visualization/Prs3d/Prs3d_Presentation.hxx>
 #include <Visualization/Prs3d/Prs3d_Projector.hxx>
-#include <StdPrs_HLRShape.hxx>
-#include <StdPrs_HLRToolShape.hxx>
-#include <StdPrs_DeflectionCurve.hxx>
+#include <Visualization/StdPrs/StdPrs_HLRShape.hxx>
+#include <Visualization/StdPrs/StdPrs_HLRToolShape.hxx>
+#include <Visualization/StdPrs/StdPrs_DeflectionCurve.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 

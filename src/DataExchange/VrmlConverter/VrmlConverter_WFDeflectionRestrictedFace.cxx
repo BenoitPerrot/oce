@@ -22,7 +22,7 @@
 #include <Geometry/GCPnts/GCPnts_QuasiUniformDeflection.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_IsoCurve.hxx>
 #include <VrmlConverter_DeflectionCurve.hxx>
-#include <StdPrs_ToolRFace.hxx>
+#include <Visualization/StdPrs/StdPrs_ToolRFace.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Geometry/BndLib/BndLib_Add2dCurve.hxx>
 #include <Precision.hxx>
