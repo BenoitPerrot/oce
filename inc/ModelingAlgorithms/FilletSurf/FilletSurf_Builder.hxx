@@ -10,15 +10,15 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <FilletSurf_InternalBuilder.hxx>
-#include <FilletSurf_StatusDone.hxx>
-#include <FilletSurf_ErrorTypeStatus.hxx>
+#include <ModelingAlgorithms/FilletSurf/FilletSurf_InternalBuilder.hxx>
+#include <ModelingAlgorithms/FilletSurf/FilletSurf_StatusDone.hxx>
+#include <ModelingAlgorithms/FilletSurf/FilletSurf_ErrorTypeStatus.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Geom_Surface.hxx>
 #include <Handle_Geom_Curve.hxx>
 #include <Handle_Geom2d_Curve.hxx>
-#include <FilletSurf_StatusType.hxx>
+#include <ModelingAlgorithms/FilletSurf/FilletSurf_StatusType.hxx>
 #include <Handle_Geom_TrimmedCurve.hxx>
 class StdFail_NotDone;
 class Standard_OutOfRange;

@@ -23,8 +23,8 @@
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
-#include <FilletSurf_Builder.hxx>
-#include <FilletSurf_InternalBuilder.hxx>
+#include <ModelingAlgorithms/FilletSurf/FilletSurf_Builder.hxx>
+#include <ModelingAlgorithms/FilletSurf/FilletSurf_InternalBuilder.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
@@ -32,7 +32,7 @@
 #include <ModelingAlgorithms/ChFi3d/ChFi3d_FilletShape.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <FilletSurf_ErrorTypeStatus.hxx>
+#include <ModelingAlgorithms/FilletSurf/FilletSurf_ErrorTypeStatus.hxx>
 
 //=======================================================================
 //function : FilletSurf_Builder

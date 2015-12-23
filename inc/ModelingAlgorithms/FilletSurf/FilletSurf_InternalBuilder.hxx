@@ -25,7 +25,7 @@
 #include <Handle_Geom_Surface.hxx>
 #include <Handle_Geom_Curve.hxx>
 #include <Handle_Geom2d_Curve.hxx>
-#include <FilletSurf_StatusType.hxx>
+#include <ModelingAlgorithms/FilletSurf/FilletSurf_StatusType.hxx>
 #include <Handle_Geom_TrimmedCurve.hxx>
 class TopoDS_Shape;
 class TopTools_ListOfShape;

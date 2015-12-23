@@ -36,12 +36,12 @@
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
-#include <FilletSurf_Builder.hxx>
+#include <ModelingAlgorithms/FilletSurf/FilletSurf_Builder.hxx>
 #include <ModelingAlgorithms/ChFi3d/ChFi3d_FilletShape.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-#include <FilletSurf_StatusType.hxx>
-#include <FilletSurf_ErrorTypeStatus.hxx>
+#include <ModelingAlgorithms/FilletSurf/FilletSurf_StatusType.hxx>
+#include <ModelingAlgorithms/FilletSurf/FilletSurf_ErrorTypeStatus.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <DrawTrSurf.hxx>
 #include <ModelingData/TopTools/TopTools_HArray1OfShape.hxx>

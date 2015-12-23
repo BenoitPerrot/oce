@@ -25,10 +25,10 @@
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
-#include <FilletSurf_InternalBuilder.hxx>
-#include <FilletSurf_StatusDone.hxx>
-#include <FilletSurf_ErrorTypeStatus.hxx>
-#include <FilletSurf_StatusType.hxx>
+#include <ModelingAlgorithms/FilletSurf/FilletSurf_InternalBuilder.hxx>
+#include <ModelingAlgorithms/FilletSurf/FilletSurf_StatusDone.hxx>
+#include <ModelingAlgorithms/FilletSurf/FilletSurf_ErrorTypeStatus.hxx>
+#include <ModelingAlgorithms/FilletSurf/FilletSurf_StatusType.hxx>
 
 #include <ModelingAlgorithms/ChFi3d/ChFi3d_FilBuilder.hxx>
 #include <ModelingAlgorithms/ChFi3d/ChFi3d_Builder_0.hxx>
