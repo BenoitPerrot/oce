@@ -144,10 +144,10 @@ Handle(atype) result = *((Handle(atype)*) &start)
 #include <DataExchange/StepBasic/StepBasic_DateRole.hxx>
 #include <DataExchange/StepBasic/StepBasic_DateTimeRole.hxx>
 // Removed from Rev2 to Rev4 : <StepVisual_DefinedSymbol.hxx>
-#include <StepRepr_DefinitionalRepresentation.hxx>
+#include <DataExchange/StepRepr/StepRepr_DefinitionalRepresentation.hxx>
 #include <DataExchange/StepGeom/StepGeom_DegeneratePcurve.hxx>
 #include <DataExchange/StepGeom/StepGeom_DegenerateToroidalSurface.hxx>
-#include <StepRepr_DescriptiveRepresentationItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_DescriptiveRepresentationItem.hxx>
 // Removed from Rev2 to Rev4 : <StepVisual_DimensionCurve.hxx>
 // Removed from Rev2 to Rev4 : <StepVisual_DimensionCurveTerminator.hxx>
 #include <DataExchange/StepBasic/StepBasic_DimensionalExponents.hxx>
@@ -189,15 +189,15 @@ Handle(atype) result = *((Handle(atype)*) &start)
 // Removed from Rev2 to Rev4 : <StepVisual_FillAreaStyleHatching.hxx>
 // Removed from Rev2 to Rev4 : <StepVisual_FillAreaStyleTileSymbolWithStyle.hxx>
 // Removed from Rev2 to Rev4 : <StepVisual_FillAreaStyleTiles.hxx>
-#include <StepRepr_FunctionallyDefinedTransformation.hxx>
+#include <DataExchange/StepRepr/StepRepr_FunctionallyDefinedTransformation.hxx>
 #include <StepShape_GeometricCurveSet.hxx>
 #include <DataExchange/StepGeom/StepGeom_GeometricRepresentationContext.hxx>
 #include <DataExchange/StepGeom/StepGeom_GeometricRepresentationItem.hxx>
 #include <StepShape_GeometricSet.hxx>
 #include <StepShape_GeometricallyBoundedSurfaceShapeRepresentation.hxx>
 #include <StepShape_GeometricallyBoundedWireframeShapeRepresentation.hxx>
-#include <StepRepr_GlobalUncertaintyAssignedContext.hxx>
-#include <StepRepr_GlobalUnitAssignedContext.hxx>
+#include <DataExchange/StepRepr/StepRepr_GlobalUncertaintyAssignedContext.hxx>
+#include <DataExchange/StepRepr/StepRepr_GlobalUnitAssignedContext.hxx>
 #include <DataExchange/StepBasic/StepBasic_Group.hxx>
 #include <DataExchange/StepBasic/StepBasic_GroupRelationship.hxx>
 #include <StepShape_HalfSpaceSolid.hxx>
@@ -211,7 +211,7 @@ Handle(atype) result = *((Handle(atype)*) &start)
 #include <StepShape_Loop.hxx>
 #include <StepShape_ManifoldSolidBrep.hxx>
 #include <StepShape_ManifoldSurfaceShapeRepresentation.hxx>
-#include <StepRepr_MappedItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_MappedItem.hxx>
 #include <DataExchange/StepBasic/StepBasic_MeasureWithUnit.hxx>
 #include <StepVisual_MechanicalDesignGeometricPresentationArea.hxx>
 #include <StepVisual_MechanicalDesignGeometricPresentationRepresentation.hxx>
@@ -233,7 +233,7 @@ Handle(atype) result = *((Handle(atype)*) &start)
 #include <DataExchange/StepGeom/StepGeom_OuterBoundaryCurve.hxx>
 #include <StepVisual_OverRidingStyledItem.hxx>
 #include <DataExchange/StepGeom/StepGeom_Parabola.hxx>
-#include <StepRepr_ParametricRepresentationContext.hxx>
+#include <DataExchange/StepRepr/StepRepr_ParametricRepresentationContext.hxx>
 #include <StepShape_Path.hxx>
 #include <DataExchange/StepGeom/StepGeom_Pcurve.hxx>
 #include <DataExchange/StepBasic/StepBasic_Person.hxx>
@@ -276,11 +276,11 @@ Handle(atype) result = *((Handle(atype)*) &start)
 #include <DataExchange/StepBasic/StepBasic_ProductDefinitionContext.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductDefinitionFormation.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductDefinitionFormationWithSpecifiedSource.hxx>
-#include <StepRepr_ProductDefinitionShape.hxx>
+#include <DataExchange/StepRepr/StepRepr_ProductDefinitionShape.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductRelatedProductCategory.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductType.hxx>
-#include <StepRepr_PropertyDefinition.hxx>
-#include <StepRepr_PropertyDefinitionRepresentation.hxx>
+#include <DataExchange/StepRepr/StepRepr_PropertyDefinition.hxx>
+#include <DataExchange/StepRepr/StepRepr_PropertyDefinitionRepresentation.hxx>
 #include <DataExchange/StepGeom/StepGeom_QuasiUniformCurve.hxx>
 #include <DataExchange/StepGeom/StepGeom_QuasiUniformSurface.hxx>
 #include <DataExchange/StepBasic/StepBasic_RatioMeasureWithUnit.hxx>
@@ -290,11 +290,11 @@ Handle(atype) result = *((Handle(atype)*) &start)
 #include <DataExchange/StepGeom/StepGeom_RectangularTrimmedSurface.hxx>
 #include <DataExchange/StepAP214/StepAP214_RepItemGroup.hxx>
 #include <DataExchange/StepGeom/StepGeom_ReparametrisedCompositeCurveSegment.hxx>
-#include <StepRepr_Representation.hxx>
-#include <StepRepr_RepresentationContext.hxx>
-#include <StepRepr_RepresentationItem.hxx>
-#include <StepRepr_RepresentationMap.hxx>
-#include <StepRepr_RepresentationRelationship.hxx>
+#include <DataExchange/StepRepr/StepRepr_Representation.hxx>
+#include <DataExchange/StepRepr/StepRepr_RepresentationContext.hxx>
+#include <DataExchange/StepRepr/StepRepr_RepresentationItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_RepresentationMap.hxx>
+#include <DataExchange/StepRepr/StepRepr_RepresentationRelationship.hxx>
 #include <StepShape_RevolvedAreaSolid.hxx>
 #include <StepShape_RightAngularWedge.hxx>
 #include <StepShape_RightCircularCone.hxx>
@@ -302,9 +302,9 @@ Handle(atype) result = *((Handle(atype)*) &start)
 #include <DataExchange/StepGeom/StepGeom_SeamCurve.hxx>
 #include <DataExchange/StepBasic/StepBasic_SecurityClassification.hxx>
 #include <DataExchange/StepBasic/StepBasic_SecurityClassificationLevel.hxx>
-#include <StepRepr_ShapeAspect.hxx>
-#include <StepRepr_ShapeAspectRelationship.hxx>
-#include <StepRepr_ShapeAspectTransition.hxx>
+#include <DataExchange/StepRepr/StepRepr_ShapeAspect.hxx>
+#include <DataExchange/StepRepr/StepRepr_ShapeAspectRelationship.hxx>
+#include <DataExchange/StepRepr/StepRepr_ShapeAspectTransition.hxx>
 #include <StepShape_ShapeDefinitionRepresentation.hxx>
 #include <StepShape_ShapeRepresentation.hxx>
 #include <StepShape_ShellBasedSurfaceModel.hxx>
@@ -404,7 +404,7 @@ Handle(atype) result = *((Handle(atype)*) &start)
 #include <DataExchange/StepGeom/StepGeom_CartesianTransformationOperator2d.hxx>
 #include <DataExchange/StepBasic/StepBasic_DerivedUnit.hxx>
 #include <DataExchange/StepBasic/StepBasic_DerivedUnitElement.hxx>
-#include <StepRepr_ItemDefinedTransformation.hxx>
+#include <DataExchange/StepRepr/StepRepr_ItemDefinedTransformation.hxx>
 #include <StepVisual_PresentedItemRepresentation.hxx>
 #include <StepVisual_PresentationLayerUsage.hxx>
 
@@ -425,20 +425,20 @@ Handle(atype) result = *((Handle(atype)*) &start)
 #include <DataExchange/StepBasic/StepBasic_PhysicallyModeledProductDefinition.hxx>
 
 
-#include <StepRepr_ProductDefinitionUsage.hxx>
-#include <StepRepr_MakeFromUsageOption.hxx>
-#include <StepRepr_AssemblyComponentUsage.hxx>
-#include <StepRepr_NextAssemblyUsageOccurrence.hxx>
-#include <StepRepr_PromissoryUsageOccurrence.hxx>
-#include <StepRepr_QuantifiedAssemblyComponentUsage.hxx>
-#include <StepRepr_SpecifiedHigherUsageOccurrence.hxx>
-#include <StepRepr_AssemblyComponentUsageSubstitute.hxx>
-#include <StepRepr_SuppliedPartRelationship.hxx>
-#include <StepRepr_ExternallyDefinedRepresentation.hxx>
-#include <StepRepr_ShapeRepresentationRelationship.hxx>
-#include <StepRepr_RepresentationRelationshipWithTransformation.hxx>
-#include <StepRepr_ShapeRepresentationRelationshipWithTransformation.hxx>
-#include <StepRepr_MaterialDesignation.hxx>
+#include <DataExchange/StepRepr/StepRepr_ProductDefinitionUsage.hxx>
+#include <DataExchange/StepRepr/StepRepr_MakeFromUsageOption.hxx>
+#include <DataExchange/StepRepr/StepRepr_AssemblyComponentUsage.hxx>
+#include <DataExchange/StepRepr/StepRepr_NextAssemblyUsageOccurrence.hxx>
+#include <DataExchange/StepRepr/StepRepr_PromissoryUsageOccurrence.hxx>
+#include <DataExchange/StepRepr/StepRepr_QuantifiedAssemblyComponentUsage.hxx>
+#include <DataExchange/StepRepr/StepRepr_SpecifiedHigherUsageOccurrence.hxx>
+#include <DataExchange/StepRepr/StepRepr_AssemblyComponentUsageSubstitute.hxx>
+#include <DataExchange/StepRepr/StepRepr_SuppliedPartRelationship.hxx>
+#include <DataExchange/StepRepr/StepRepr_ExternallyDefinedRepresentation.hxx>
+#include <DataExchange/StepRepr/StepRepr_ShapeRepresentationRelationship.hxx>
+#include <DataExchange/StepRepr/StepRepr_RepresentationRelationshipWithTransformation.hxx>
+#include <DataExchange/StepRepr/StepRepr_ShapeRepresentationRelationshipWithTransformation.hxx>
+#include <DataExchange/StepRepr/StepRepr_MaterialDesignation.hxx>
 
 #include <StepShape_ContextDependentShapeRepresentation.hxx>
 
@@ -853,7 +853,7 @@ Handle(atype) result = *((Handle(atype)*) &start)
 #include <DataExchange/RWStepShape/RWStepShape_RWSweptFaceSolid.hxx> 
 
 // Added by ABV 08.09.99 for CAX TRJ 2 (validation properties)
-#include <StepRepr_MeasureRepresentationItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_MeasureRepresentationItem.hxx>
 #include <DataExchange/RWStepRepr/RWStepRepr_RWMeasureRepresentationItem.hxx>
 #include <DataExchange/StepBasic/StepBasic_SiUnitAndAreaUnit.hxx>
 #include <DataExchange/StepBasic/StepBasic_SiUnitAndVolumeUnit.hxx>
@@ -881,12 +881,12 @@ Handle(atype) result = *((Handle(atype)*) &start)
 #include <DataExchange/StepBasic/StepBasic_CertificationType.hxx>
 #include <DataExchange/StepAP203/StepAP203_Change.hxx>
 #include <DataExchange/StepAP203/StepAP203_ChangeRequest.hxx>
-#include <StepRepr_ConfigurationDesign.hxx>
-#include <StepRepr_ConfigurationEffectivity.hxx>
+#include <DataExchange/StepRepr/StepRepr_ConfigurationDesign.hxx>
+#include <DataExchange/StepRepr/StepRepr_ConfigurationEffectivity.hxx>
 #include <DataExchange/StepBasic/StepBasic_Contract.hxx>
 #include <DataExchange/StepBasic/StepBasic_ContractAssignment.hxx>
 #include <DataExchange/StepBasic/StepBasic_ContractType.hxx>
-#include <StepRepr_ProductConcept.hxx>
+#include <DataExchange/StepRepr/StepRepr_ProductConcept.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductConceptContext.hxx>
 #include <DataExchange/StepAP203/StepAP203_StartRequest.hxx>
 #include <DataExchange/StepAP203/StepAP203_StartWork.hxx>
@@ -978,9 +978,9 @@ Handle(atype) result = *((Handle(atype)*) &start)
 
 
 // Added by CKY , 25 APR 2001 for Dimensional Tolerances (CAX-IF TRJ7)
-#include <StepRepr_CompositeShapeAspect.hxx>
-#include <StepRepr_DerivedShapeAspect.hxx>
-#include <StepRepr_Extension.hxx>
+#include <DataExchange/StepRepr/StepRepr_CompositeShapeAspect.hxx>
+#include <DataExchange/StepRepr/StepRepr_DerivedShapeAspect.hxx>
+#include <DataExchange/StepRepr/StepRepr_Extension.hxx>
 #include <StepShape_DirectedDimensionalLocation.hxx>
 #include <StepShape_LimitsAndFits.hxx>
 #include <StepShape_ToleranceValue.hxx>
@@ -990,9 +990,9 @@ Handle(atype) result = *((Handle(atype)*) &start)
 #include <StepShape_TypeQualifier.hxx>
 #include <StepShape_QualifiedRepresentationItem.hxx>
 #include <StepShape_MeasureRepresentationItemAndQualifiedRepresentationItem.hxx>
-#include <StepRepr_CompoundRepresentationItem.hxx>
-#include <StepRepr_ValueRange.hxx>
-#include <StepRepr_ShapeAspectDerivingRelationship.hxx>
+#include <DataExchange/StepRepr/StepRepr_CompoundRepresentationItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_ValueRange.hxx>
+#include <DataExchange/StepRepr/StepRepr_ShapeAspectDerivingRelationship.hxx>
 #include <DataExchange/RWStepShape/RWStepShape_RWLimitsAndFits.hxx>
 #include <DataExchange/RWStepShape/RWStepShape_RWToleranceValue.hxx>
 #include <DataExchange/RWStepShape/RWStepShape_RWMeasureQualification.hxx>
@@ -1098,18 +1098,18 @@ Handle(atype) result = *((Handle(atype)*) &start)
 #include <DataExchange/StepFEA/StepFEA_SymmetricTensor42d.hxx>
 #include <DataExchange/StepFEA/StepFEA_SymmetricTensor43d.hxx>
 #include <DataExchange/StepFEA/StepFEA_Volume3dElementRepresentation.hxx>
-#include <StepRepr_DataEnvironment.hxx>
-#include <StepRepr_MaterialPropertyRepresentation.hxx>
-#include <StepRepr_PropertyDefinitionRelationship.hxx>
+#include <DataExchange/StepRepr/StepRepr_DataEnvironment.hxx>
+#include <DataExchange/StepRepr/StepRepr_MaterialPropertyRepresentation.hxx>
+#include <DataExchange/StepRepr/StepRepr_PropertyDefinitionRelationship.hxx>
 #include <StepShape_PointRepresentation.hxx>
-#include <StepRepr_MaterialProperty.hxx>
+#include <DataExchange/StepRepr/StepRepr_MaterialProperty.hxx>
 #include <DataExchange/StepFEA/StepFEA_FeaModelDefinition.hxx>
 #include <DataExchange/StepFEA/StepFEA_FreedomAndCoefficient.hxx>
 #include <DataExchange/StepFEA/StepFEA_FreedomsList.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductDefinitionFormationRelationship.hxx>
 #include <DataExchange/StepFEA/StepFEA_NodeDefinition.hxx>
-#include <StepRepr_StructuralResponseProperty.hxx>
-#include <StepRepr_StructuralResponsePropertyDefinitionRepresentation.hxx>
+#include <DataExchange/StepRepr/StepRepr_StructuralResponseProperty.hxx>
+#include <DataExchange/StepRepr/StepRepr_StructuralResponsePropertyDefinitionRepresentation.hxx>
 
 #include <DataExchange/RWStepBasic/RWStepBasic_RWEulerAngles.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWMassUnit.hxx>
@@ -1233,10 +1233,10 @@ Handle(atype) result = *((Handle(atype)*) &start)
 #include <DataExchange/StepDimTol/StepDimTol_CommonDatum.hxx>
 #include <DataExchange/StepDimTol/StepDimTol_DatumTarget.hxx>
 #include <DataExchange/StepDimTol/StepDimTol_PlacedDatumTargetFeature.hxx>
-#include <StepRepr_ValueRange.hxx>
-#include <StepRepr_CompositeShapeAspect.hxx>
-#include <StepRepr_DerivedShapeAspect.hxx>
-#include <StepRepr_Extension.hxx>
+#include <DataExchange/StepRepr/StepRepr_ValueRange.hxx>
+#include <DataExchange/StepRepr/StepRepr_CompositeShapeAspect.hxx>
+#include <DataExchange/StepRepr/StepRepr_DerivedShapeAspect.hxx>
+#include <DataExchange/StepRepr/StepRepr_Extension.hxx>
 #include <DataExchange/RWStepRepr/RWStepRepr_RWCompositeShapeAspect.hxx>
 #include <DataExchange/RWStepRepr/RWStepRepr_RWDerivedShapeAspect.hxx>
 #include <DataExchange/RWStepRepr/RWStepRepr_RWExtension.hxx>
@@ -1267,7 +1267,7 @@ Handle(atype) result = *((Handle(atype)*) &start)
 #include <DataExchange/StepDimTol/StepDimTol_GeometricToleranceRelationship.hxx>
 #include <DataExchange/RWStepDimTol/RWStepDimTol_RWGeometricToleranceRelationship.hxx>
 
-#include <StepRepr_ReprItemAndLengthMeasureWithUnit.hxx>
+#include <DataExchange/StepRepr/StepRepr_ReprItemAndLengthMeasureWithUnit.hxx>
 #include <DataExchange/RWStepRepr/RWStepRepr_RWReprItemAndLengthMeasureWithUnit.hxx>
 #include <DataExchange/StepDimTol/StepDimTol_GeoTolAndGeoTolWthDatRefAndModGeoTolAndPosTol.hxx>
 #include <DataExchange/RWStepDimTol/RWStepDimTol_RWGeoTolAndGeoTolWthDatRefAndModGeoTolAndPosTol.hxx>

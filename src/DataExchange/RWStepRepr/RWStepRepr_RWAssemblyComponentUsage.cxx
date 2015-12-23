@@ -17,12 +17,12 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepRepr_AssemblyComponentUsage.hxx>
+#include <DataExchange/StepRepr/StepRepr_AssemblyComponentUsage.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepRepr/RWStepRepr_RWAssemblyComponentUsage.hxx>
 
-#include <StepRepr_ProductDefinitionShape.hxx>
+#include <DataExchange/StepRepr/StepRepr_ProductDefinitionShape.hxx>
 
 //=======================================================================
 //function : RWStepRepr_RWAssemblyComponentUsage

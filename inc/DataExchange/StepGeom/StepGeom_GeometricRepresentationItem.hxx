@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepGeom_GeometricRepresentationItem.hxx>
 
-#include <StepRepr_RepresentationItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_RepresentationItem.hxx>
 
 
 

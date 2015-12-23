@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepRepr_NextAssemblyUsageOccurrence.hxx>
+#include <DataExchange/StepRepr/StepRepr_NextAssemblyUsageOccurrence.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <STEPSelections_AssemblyComponent.hxx>
 #include <STEPSelections_AssemblyLink.hxx>

@@ -11,10 +11,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepRepr_HArray1OfRepresentationItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_HArray1OfRepresentationItem.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepRepr_RepresentationItem.hxx>
-#include <StepRepr_CompoundRepresentationItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_RepresentationItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_CompoundRepresentationItem.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepRepr_CompoundRepresentationItem)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

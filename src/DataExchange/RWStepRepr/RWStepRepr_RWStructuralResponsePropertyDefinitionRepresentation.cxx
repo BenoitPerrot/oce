@@ -17,7 +17,7 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepRepr_StructuralResponsePropertyDefinitionRepresentation.hxx>
+#include <DataExchange/StepRepr/StepRepr_StructuralResponsePropertyDefinitionRepresentation.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepRepr/RWStepRepr_RWStructuralResponsePropertyDefinitionRepresentation.hxx>

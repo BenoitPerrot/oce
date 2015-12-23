@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepShape_ConnectedFaceShapeRepresentation.hxx>
 
-#include <StepRepr_Representation.hxx>
+#include <DataExchange/StepRepr/StepRepr_Representation.hxx>
 
 
 //! Representation of STEP entity ConnectedFaceShapeRepresentation

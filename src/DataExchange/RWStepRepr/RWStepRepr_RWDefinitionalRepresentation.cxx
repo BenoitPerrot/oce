@@ -13,19 +13,19 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepRepr_DefinitionalRepresentation.hxx>
+#include <DataExchange/StepRepr/StepRepr_DefinitionalRepresentation.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepRepr/RWStepRepr_RWDefinitionalRepresentation.hxx>
-#include <StepRepr_HArray1OfRepresentationItem.hxx>
-#include <StepRepr_RepresentationItem.hxx>
-#include <StepRepr_RepresentationContext.hxx>
+#include <DataExchange/StepRepr/StepRepr_HArray1OfRepresentationItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_RepresentationItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_RepresentationContext.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepRepr_DefinitionalRepresentation.hxx>
+#include <DataExchange/StepRepr/StepRepr_DefinitionalRepresentation.hxx>
 
 
 RWStepRepr_RWDefinitionalRepresentation::RWStepRepr_RWDefinitionalRepresentation () {}

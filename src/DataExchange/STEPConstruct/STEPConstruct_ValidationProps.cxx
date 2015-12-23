@@ -17,13 +17,13 @@
 #include <DataExchange/StepBasic/StepBasic_ProductDefinition.hxx>
 #include <XSControl_WorkSession.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <StepRepr_RepresentationItem.hxx>
-#include <StepRepr_CharacterizedDefinition.hxx>
-#include <StepRepr_RepresentationContext.hxx>
+#include <DataExchange/StepRepr/StepRepr_RepresentationItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_CharacterizedDefinition.hxx>
+#include <DataExchange/StepRepr/StepRepr_RepresentationContext.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfTransient.hxx>
-#include <StepRepr_NextAssemblyUsageOccurrence.hxx>
-#include <StepRepr_PropertyDefinition.hxx>
+#include <DataExchange/StepRepr/StepRepr_NextAssemblyUsageOccurrence.hxx>
+#include <DataExchange/StepRepr/StepRepr_PropertyDefinition.hxx>
 #include <DataExchange/STEPConstruct/STEPConstruct_ValidationProps.hxx>
 #include <DataExchange/STEPConstruct/STEPConstruct_UnitContext.hxx>
 
@@ -50,12 +50,12 @@
 #include <DataExchange/StepGeom/StepGeom_GeometricRepresentationItem.hxx>
 #include <DataExchange/StepGeom/StepGeom_GeomRepContextAndGlobUnitAssCtxAndGlobUncertaintyAssCtx.hxx>
 #include <DataExchange/StepGeom/StepGeom_GeometricRepresentationContextAndGlobalUnitAssignedContext.hxx>
-#include <StepRepr_ShapeAspect.hxx>
-#include <StepRepr_CharacterizedDefinition.hxx>
-#include <StepRepr_PropertyDefinition.hxx>
-#include <StepRepr_HArray1OfRepresentationItem.hxx>
-#include <StepRepr_MeasureRepresentationItem.hxx>
-#include <StepRepr_GlobalUnitAssignedContext.hxx>
+#include <DataExchange/StepRepr/StepRepr_ShapeAspect.hxx>
+#include <DataExchange/StepRepr/StepRepr_CharacterizedDefinition.hxx>
+#include <DataExchange/StepRepr/StepRepr_PropertyDefinition.hxx>
+#include <DataExchange/StepRepr/StepRepr_HArray1OfRepresentationItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_MeasureRepresentationItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_GlobalUnitAssignedContext.hxx>
 #include <StepShape_ShapeRepresentation.hxx>
 #include <StepShape_ShapeDefinitionRepresentation.hxx>
 #include <DataExchange/StepBasic/StepBasic_MeasureValueMember.hxx>
@@ -67,7 +67,7 @@
 #include <DataExchange/StepBasic/StepBasic_Unit.hxx>
 #include <DataExchange/StepBasic/StepBasic_SiUnitAndAreaUnit.hxx>
 #include <StepShape_ContextDependentShapeRepresentation.hxx>
-#include <StepRepr_ShapeRepresentationRelationship.hxx>
+#include <DataExchange/StepRepr/StepRepr_ShapeRepresentationRelationship.hxx>
 #include <DataExchange/STEPConstruct/STEPConstruct.hxx>
 
 //=======================================================================

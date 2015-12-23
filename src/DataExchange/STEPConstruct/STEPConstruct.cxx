@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepRepr_RepresentationItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_RepresentationItem.hxx>
 #include <Transfer_FinderProcess.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
@@ -29,8 +29,8 @@
 
 #include <DataExchange/StepBasic/StepBasic_ProductDefinition.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductDefinitionRelationship.hxx>
-#include <StepRepr_PropertyDefinition.hxx>
-#include <StepRepr_ProductDefinitionShape.hxx>
+#include <DataExchange/StepRepr/StepRepr_PropertyDefinition.hxx>
+#include <DataExchange/StepRepr/StepRepr_ProductDefinitionShape.hxx>
 
 //=======================================================================
 //function : FindEntity

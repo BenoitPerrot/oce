@@ -16,7 +16,7 @@
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepRepr_HArray1OfMaterialPropertyRepresentation.hxx>
+#include <DataExchange/StepRepr/StepRepr_HArray1OfMaterialPropertyRepresentation.hxx>
 #include <DataExchange/StepElement/StepElement_ElementMaterial.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepElement_ElementMaterial)

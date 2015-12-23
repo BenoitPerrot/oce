@@ -18,7 +18,7 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepRepr_ConfigurationDesign.hxx>
+#include <DataExchange/StepRepr/StepRepr_ConfigurationDesign.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepRepr/RWStepRepr_RWConfigurationDesign.hxx>

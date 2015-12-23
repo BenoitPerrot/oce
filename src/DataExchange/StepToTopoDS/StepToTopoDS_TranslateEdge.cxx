@@ -68,7 +68,7 @@
 #include <Precision.hxx>
 
 #include <StepToGeom_MakeCurve2d.hxx>
-#include <StepRepr_DefinitionalRepresentation.hxx>
+#include <DataExchange/StepRepr/StepRepr_DefinitionalRepresentation.hxx>
 #include <UnitsMethods.hxx>
 
 //:d8

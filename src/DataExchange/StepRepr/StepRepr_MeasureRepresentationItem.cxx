@@ -18,7 +18,7 @@
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <DataExchange/StepBasic/StepBasic_MeasureValueMember.hxx>
 #include <DataExchange/StepBasic/StepBasic_Unit.hxx>
-#include <StepRepr_MeasureRepresentationItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_MeasureRepresentationItem.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepRepr_MeasureRepresentationItem)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

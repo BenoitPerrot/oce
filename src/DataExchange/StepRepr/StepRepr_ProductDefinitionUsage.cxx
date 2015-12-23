@@ -15,7 +15,7 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.1
 
-#include <StepRepr_ProductDefinitionUsage.hxx>
+#include <DataExchange/StepRepr/StepRepr_ProductDefinitionUsage.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepRepr_ProductDefinitionUsage)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -18,9 +18,9 @@
 //abv 30.02.00: ability to write file in units other than MM
 
 #include <DataExchange/StepGeom/StepGeom_GeomRepContextAndGlobUnitAssCtxAndGlobUncertaintyAssCtx.hxx>
-#include <StepRepr_GlobalUnitAssignedContext.hxx>
+#include <DataExchange/StepRepr/StepRepr_GlobalUnitAssignedContext.hxx>
 #include <DataExchange/StepBasic/StepBasic_NamedUnit.hxx>
-#include <StepRepr_GlobalUncertaintyAssignedContext.hxx>
+#include <DataExchange/StepRepr/StepRepr_GlobalUncertaintyAssignedContext.hxx>
 #include <DataExchange/StepBasic/StepBasic_SiUnit.hxx>
 #include <DataExchange/STEPConstruct/STEPConstruct_UnitContext.hxx>
 

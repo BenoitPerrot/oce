@@ -19,14 +19,14 @@
 #include <DataExchange/StepBasic/StepBasic_ProductDefinition.hxx>
 #include <STEPSelections_AssemblyComponent.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <StepRepr_NextAssemblyUsageOccurrence.hxx>
+#include <DataExchange/StepRepr/StepRepr_NextAssemblyUsageOccurrence.hxx>
 #include <STEPSelections_AssemblyExplorer.hxx>
 #include <DataExchange/Interface/Interface_Macros.hxx>
-#include <StepRepr_ProductDefinitionShape.hxx>
+#include <DataExchange/StepRepr/StepRepr_ProductDefinitionShape.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <StepShape_ContextDependentShapeRepresentation.hxx>
 #include <StepShape_ShapeRepresentation.hxx>
-#include <StepRepr_MappedItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_MappedItem.hxx>
 #include <STEPSelections_AssemblyLink.hxx>
 #include <STEPSelections_HSequenceOfAssemblyLink.hxx>
 #include <DataExchange/StepBasic/StepBasic_Product.hxx>

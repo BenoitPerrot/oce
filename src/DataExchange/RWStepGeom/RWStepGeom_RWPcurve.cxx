@@ -18,7 +18,7 @@
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepGeom/RWStepGeom_RWPcurve.hxx>
 #include <DataExchange/StepGeom/StepGeom_Surface.hxx>
-#include <StepRepr_DefinitionalRepresentation.hxx>
+#include <DataExchange/StepRepr/StepRepr_DefinitionalRepresentation.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>

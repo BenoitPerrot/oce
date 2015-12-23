@@ -11,7 +11,7 @@
 #include <Handle_StepGeom_GeometricRepresentationContext.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <StepRepr_RepresentationContext.hxx>
+#include <DataExchange/StepRepr/StepRepr_RepresentationContext.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 class TCollection_HAsciiString;
 

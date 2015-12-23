@@ -3,12 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepRepr_SequenceNodeOfSequenceOfRepresentationItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_SequenceNodeOfSequenceOfRepresentationItem.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <StepRepr_RepresentationItem.hxx>
-#include <StepRepr_SequenceOfRepresentationItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_RepresentationItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_SequenceOfRepresentationItem.hxx>
 
  
 
@@ -28,12 +28,12 @@ IMPLEMENT_STANDARD_RTTI(StepRepr_SequenceNodeOfSequenceOfRepresentationItem)
 
 
 #define SeqItem Handle(StepRepr_RepresentationItem)
-#define SeqItem_hxx <StepRepr_RepresentationItem.hxx>
+#define SeqItem_hxx <DataExchange/StepRepr/StepRepr_RepresentationItem.hxx>
 #define TCollection_SequenceNode StepRepr_SequenceNodeOfSequenceOfRepresentationItem
-#define TCollection_SequenceNode_hxx <StepRepr_SequenceNodeOfSequenceOfRepresentationItem.hxx>
+#define TCollection_SequenceNode_hxx <DataExchange/StepRepr/StepRepr_SequenceNodeOfSequenceOfRepresentationItem.hxx>
 #define Handle_TCollection_SequenceNode Handle_StepRepr_SequenceNodeOfSequenceOfRepresentationItem
 #define TCollection_SequenceNode_Type_() StepRepr_SequenceNodeOfSequenceOfRepresentationItem_Type_()
 #define TCollection_Sequence StepRepr_SequenceOfRepresentationItem
-#define TCollection_Sequence_hxx <StepRepr_SequenceOfRepresentationItem.hxx>
+#define TCollection_Sequence_hxx <DataExchange/StepRepr/StepRepr_SequenceOfRepresentationItem.hxx>
 #include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

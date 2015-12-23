@@ -12,9 +12,9 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepRepr_Representation.hxx>
-#include <StepRepr_Transformation.hxx>
-#include <StepRepr_RepresentationRelationshipWithTransformation.hxx>
+#include <DataExchange/StepRepr/StepRepr_Representation.hxx>
+#include <DataExchange/StepRepr/StepRepr_Transformation.hxx>
+#include <DataExchange/StepRepr/StepRepr_RepresentationRelationshipWithTransformation.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepRepr_RepresentationRelationshipWithTransformation)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

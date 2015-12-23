@@ -16,9 +16,9 @@
 #include <DataExchange/StepBasic/StepBasic_Product.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductDefinition.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductDefinitionFormation.hxx>
-#include <StepRepr_Representation.hxx>
+#include <DataExchange/StepRepr/StepRepr_Representation.hxx>
 #include <DataExchange/StepAP214/StepAP214_AutoDesignDocumentReference.hxx>
-#include <StepRepr_ExternallyDefinedRepresentation.hxx>
+#include <DataExchange/StepRepr/StepRepr_ExternallyDefinedRepresentation.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductDefinitionRelationship.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductDefinitionWithAssociatedDocuments.hxx>
 #include <DataExchange/StepAP214/StepAP214_AutoDesignDateAndPersonItem.hxx>

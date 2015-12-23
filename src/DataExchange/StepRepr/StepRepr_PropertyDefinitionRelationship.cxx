@@ -16,8 +16,8 @@
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepRepr_PropertyDefinition.hxx>
-#include <StepRepr_PropertyDefinitionRelationship.hxx>
+#include <DataExchange/StepRepr/StepRepr_PropertyDefinition.hxx>
+#include <DataExchange/StepRepr/StepRepr_PropertyDefinitionRelationship.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepRepr_PropertyDefinitionRelationship)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

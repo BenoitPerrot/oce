@@ -17,12 +17,12 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepRepr_DataEnvironment.hxx>
+#include <DataExchange/StepRepr/StepRepr_DataEnvironment.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepRepr/RWStepRepr_RWDataEnvironment.hxx>
-#include <StepRepr_HArray1OfPropertyDefinitionRepresentation.hxx>
-#include <StepRepr_PropertyDefinitionRepresentation.hxx>
+#include <DataExchange/StepRepr/StepRepr_HArray1OfPropertyDefinitionRepresentation.hxx>
+#include <DataExchange/StepRepr/StepRepr_PropertyDefinitionRepresentation.hxx>
 
 //=======================================================================
 //function : RWStepRepr_RWDataEnvironment

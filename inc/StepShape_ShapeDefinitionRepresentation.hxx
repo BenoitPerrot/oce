@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepShape_ShapeDefinitionRepresentation.hxx>
 
-#include <StepRepr_PropertyDefinitionRepresentation.hxx>
+#include <DataExchange/StepRepr/StepRepr_PropertyDefinitionRepresentation.hxx>
 
 
 //! Representation of STEP entity ShapeDefinitionRepresentation

@@ -19,7 +19,7 @@
 #include <DataExchange/RWStepShape/RWStepShape_RWDefinitionalRepresentationAndShapeRepresentation.hxx>
 #include <StepShape_DefinitionalRepresentationAndShapeRepresentation.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <StepRepr_HArray1OfRepresentationItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_HArray1OfRepresentationItem.hxx>
 
 RWStepShape_RWDefinitionalRepresentationAndShapeRepresentation::RWStepShape_RWDefinitionalRepresentationAndShapeRepresentation () {}
 

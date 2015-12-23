@@ -3,18 +3,18 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepRepr_Array1OfRepresentationItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_Array1OfRepresentationItem.hxx>
 
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <StepRepr_RepresentationItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_RepresentationItem.hxx>
  
 
 #define Array1Item Handle(StepRepr_RepresentationItem)
-#define Array1Item_hxx <StepRepr_RepresentationItem.hxx>
+#define Array1Item_hxx <DataExchange/StepRepr/StepRepr_RepresentationItem.hxx>
 #define TCollection_Array1 StepRepr_Array1OfRepresentationItem
-#define TCollection_Array1_hxx <StepRepr_Array1OfRepresentationItem.hxx>
+#define TCollection_Array1_hxx <DataExchange/StepRepr/StepRepr_Array1OfRepresentationItem.hxx>
 #include <Foundation/TCollection/TCollection_Array1.gxx>
 

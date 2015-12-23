@@ -17,11 +17,11 @@
 
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <DataExchange/StepBasic/StepBasic_GeneralProperty.hxx>
-#include <StepRepr_PropertyDefinition.hxx>
-#include <StepRepr_PropertyDefinitionRelationship.hxx>
-#include <StepRepr_ShapeAspect.hxx>
-#include <StepRepr_ShapeAspectRelationship.hxx>
-#include <StepRepr_RepresentedDefinition.hxx>
+#include <DataExchange/StepRepr/StepRepr_PropertyDefinition.hxx>
+#include <DataExchange/StepRepr/StepRepr_PropertyDefinitionRelationship.hxx>
+#include <DataExchange/StepRepr/StepRepr_ShapeAspect.hxx>
+#include <DataExchange/StepRepr/StepRepr_ShapeAspectRelationship.hxx>
+#include <DataExchange/StepRepr/StepRepr_RepresentedDefinition.hxx>
 
 //=======================================================================
 //function : StepRepr_RepresentedDefinition

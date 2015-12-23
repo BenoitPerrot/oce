@@ -21,8 +21,8 @@
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepElement/RWStepElement_RWElementMaterial.hxx>
-#include <StepRepr_HArray1OfMaterialPropertyRepresentation.hxx>
-#include <StepRepr_MaterialPropertyRepresentation.hxx>
+#include <DataExchange/StepRepr/StepRepr_HArray1OfMaterialPropertyRepresentation.hxx>
+#include <DataExchange/StepRepr/StepRepr_MaterialPropertyRepresentation.hxx>
 
 //=======================================================================
 //function : RWStepElement_RWElementMaterial

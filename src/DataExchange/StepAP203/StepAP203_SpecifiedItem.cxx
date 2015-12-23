@@ -18,7 +18,7 @@
 
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductDefinition.hxx>
-#include <StepRepr_ShapeAspect.hxx>
+#include <DataExchange/StepRepr/StepRepr_ShapeAspect.hxx>
 #include <DataExchange/StepAP203/StepAP203_SpecifiedItem.hxx>
 
 //=======================================================================

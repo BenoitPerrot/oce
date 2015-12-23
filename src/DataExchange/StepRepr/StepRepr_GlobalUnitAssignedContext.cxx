@@ -14,7 +14,7 @@
 #include <DataExchange/StepBasic/StepBasic_HArray1OfNamedUnit.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <DataExchange/StepBasic/StepBasic_NamedUnit.hxx>
-#include <StepRepr_GlobalUnitAssignedContext.hxx>
+#include <DataExchange/StepRepr/StepRepr_GlobalUnitAssignedContext.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepRepr_GlobalUnitAssignedContext)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -19,7 +19,7 @@
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductDefinition.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductDefinitionFormation.hxx>
-#include <StepRepr_ConfigurationDesignItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_ConfigurationDesignItem.hxx>
 
 //=======================================================================
 //function : StepRepr_ConfigurationDesignItem

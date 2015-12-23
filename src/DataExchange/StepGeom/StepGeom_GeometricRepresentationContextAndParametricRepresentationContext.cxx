@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <DataExchange/StepGeom/StepGeom_GeometricRepresentationContext.hxx>
-#include <StepRepr_ParametricRepresentationContext.hxx>
+#include <DataExchange/StepRepr/StepRepr_ParametricRepresentationContext.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <DataExchange/StepGeom/StepGeom_GeometricRepresentationContextAndParametricRepresentationContext.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_RTTI(StepGeom_GeometricRepresentationContextAndParametricRepr
 
 #include <DataExchange/StepGeom/StepGeom_GeometricRepresentationContext.hxx>
 
-#include <StepRepr_GlobalUnitAssignedContext.hxx>
+#include <DataExchange/StepRepr/StepRepr_GlobalUnitAssignedContext.hxx>
 
 
 StepGeom_GeometricRepresentationContextAndParametricRepresentationContext::StepGeom_GeometricRepresentationContextAndParametricRepresentationContext ()  {}

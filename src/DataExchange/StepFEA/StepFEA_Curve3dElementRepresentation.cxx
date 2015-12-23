@@ -20,8 +20,8 @@
 #include <DataExchange/StepFEA/StepFEA_Curve3dElementProperty.hxx>
 #include <DataExchange/StepElement/StepElement_ElementMaterial.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepRepr_HArray1OfRepresentationItem.hxx>
-#include <StepRepr_RepresentationContext.hxx>
+#include <DataExchange/StepRepr/StepRepr_HArray1OfRepresentationItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_RepresentationContext.hxx>
 #include <DataExchange/StepFEA/StepFEA_HArray1OfNodeRepresentation.hxx>
 #include <DataExchange/StepFEA/StepFEA_Curve3dElementRepresentation.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

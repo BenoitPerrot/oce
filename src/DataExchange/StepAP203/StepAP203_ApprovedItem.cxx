@@ -19,8 +19,8 @@
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductDefinitionFormation.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductDefinition.hxx>
-#include <StepRepr_ConfigurationEffectivity.hxx>
-#include <StepRepr_ConfigurationItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_ConfigurationEffectivity.hxx>
+#include <DataExchange/StepRepr/StepRepr_ConfigurationItem.hxx>
 #include <DataExchange/StepBasic/StepBasic_SecurityClassification.hxx>
 #include <DataExchange/StepAP203/StepAP203_ChangeRequest.hxx>
 #include <DataExchange/StepAP203/StepAP203_Change.hxx>

@@ -17,8 +17,8 @@
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfAsciiString.hxx>
-#include <StepRepr_HArray1OfRepresentationItem.hxx>
-#include <StepRepr_RepresentationContext.hxx>
+#include <DataExchange/StepRepr/StepRepr_HArray1OfRepresentationItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_RepresentationContext.hxx>
 #include <DataExchange/StepFEA/StepFEA_FeaModel.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepFEA_FeaModel)

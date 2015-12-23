@@ -28,10 +28,10 @@
 #include <DataExchange/STEPCAFControl/STEPCAFControl_DataMapOfPDExternFile.hxx>
 #include <XCAFDoc_DataMapOfShapeLabel.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
-#include <StepRepr_RepresentationItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_RepresentationItem.hxx>
 #include <Transfer_TransientProcess.hxx>
 #include <StepShape_ConnectedFaceSet.hxx>
-#include <StepRepr_NextAssemblyUsageOccurrence.hxx>
+#include <DataExchange/StepRepr/StepRepr_NextAssemblyUsageOccurrence.hxx>
 #include <DataExchange/STEPConstruct/STEPConstruct_Tool.hxx>
 #include <DataExchange/STEPCAFControl/STEPCAFControl_Reader.hxx>
 
@@ -55,12 +55,12 @@
 #include <StepShape_ContextDependentShapeRepresentation.hxx>
 #include <StepShape_ShapeDefinitionRepresentation.hxx>
 #include <StepShape_ShapeDefinitionRepresentation.hxx>
-#include <StepRepr_ProductDefinitionShape.hxx>
-#include <StepRepr_PropertyDefinition.hxx>
-#include <StepRepr_ShapeAspect.hxx>
-#include <StepRepr_MeasureRepresentationItem.hxx>
-#include <StepRepr_DescriptiveRepresentationItem.hxx>
-#include <StepRepr_SequenceOfRepresentationItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_ProductDefinitionShape.hxx>
+#include <DataExchange/StepRepr/StepRepr_PropertyDefinition.hxx>
+#include <DataExchange/StepRepr/StepRepr_ShapeAspect.hxx>
+#include <DataExchange/StepRepr/StepRepr_MeasureRepresentationItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_DescriptiveRepresentationItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_SequenceOfRepresentationItem.hxx>
 #include <StepVisual_StyledItem.hxx>
 #include <DataExchange/StepAP214/StepAP214_AppliedExternalIdentificationAssignment.hxx>
 
@@ -80,7 +80,7 @@
 #include <XCAFDoc_MaterialTool.hxx>
 #include <XCAFDoc_DataMapOfShapeLabel.hxx>
 #include <DataExchange/STEPConstruct/STEPConstruct_ValidationProps.hxx>
-#include <StepRepr_Representation.hxx>
+#include <DataExchange/StepRepr/StepRepr_Representation.hxx>
 #include <XCAFDoc_Area.hxx>
 #include <XCAFDoc_Volume.hxx>
 #include <XCAFDoc_Centroid.hxx>
@@ -89,7 +89,7 @@
 #include <StepVisual_LayeredItem.hxx>
 #include <XCAFDoc_LayerTool.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <StepRepr_ShapeRepresentationRelationship.hxx>
+#include <DataExchange/StepRepr/StepRepr_ShapeRepresentationRelationship.hxx>
 #include <DataExchange/STEPConstruct/STEPConstruct_Assembly.hxx>
 #include <OCAF/TDF/TDF_Tool.hxx>
 #include <StepVisual_Invisibility.hxx>
@@ -106,9 +106,9 @@
 #include <DataExchange/STEPCAFControl/STEPCAFControl_DataMapOfPDExternFile.hxx>
 #include <StepVisual_PresentationStyleByContext.hxx>
 #include <StepVisual_StyleContextSelect.hxx>
-#include <StepRepr_RepresentedDefinition.hxx>
-#include <StepRepr_CharacterizedDefinition.hxx>
-#include <StepRepr_SpecifiedHigherUsageOccurrence.hxx>
+#include <DataExchange/StepRepr/StepRepr_RepresentedDefinition.hxx>
+#include <DataExchange/StepRepr/StepRepr_CharacterizedDefinition.hxx>
+#include <DataExchange/StepRepr/StepRepr_SpecifiedHigherUsageOccurrence.hxx>
 #include <XCAFDoc_GraphNode.hxx>
 #include <DataExchange/STEPCAFControl/STEPCAFControl_Reader.hxx>
 
@@ -118,16 +118,16 @@
 #include <StepShape_EdgeCurve.hxx>
 #include <StepShape_DimensionalCharacteristicRepresentation.hxx>
 #include <StepShape_ShapeDimensionRepresentation.hxx>
-#include <StepRepr_ValueRange.hxx>
-#include <StepRepr_ReprItemAndLengthMeasureWithUnit.hxx>
+#include <DataExchange/StepRepr/StepRepr_ValueRange.hxx>
+#include <DataExchange/StepRepr/StepRepr_ReprItemAndLengthMeasureWithUnit.hxx>
 #include <DataExchange/StepBasic/StepBasic_MeasureWithUnit.hxx>
 #include <DataExchange/StepDimTol/StepDimTol_GeoTolAndGeoTolWthDatRefAndModGeoTolAndPosTol.hxx>
 #include <DataExchange/StepDimTol/StepDimTol_ModifiedGeometricTolerance.hxx>
 #include <DataExchange/StepDimTol/StepDimTol_GeometricToleranceWithDatumReference.hxx>
-//#include <StepRepr_CompoundItemDefinition.hxx>
-//#include <StepRepr_CompoundItemDefinitionMember.hxx>
+//#include <DataExchange/StepRepr/StepRepr_CompoundItemDefinition.hxx>
+//#include <DataExchange/StepRepr/StepRepr_CompoundItemDefinitionMember.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfTransient.hxx>
-#include <StepRepr_HArray1OfRepresentationItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_HArray1OfRepresentationItem.hxx>
 #include <Foundation/TColStd/TColStd_IndexedDataMapOfTransientTransient.hxx>
 //#include <DataExchange/StepBasic/StepBasic_ConversionBasedUnit.hxx>
 #include <DataExchange/StepBasic/StepBasic_Unit.hxx>
@@ -155,7 +155,7 @@
 #include <DataExchange/StepDimTol/StepDimTol_DatumReference.hxx>
 #include <DataExchange/StepDimTol/StepDimTol_Datum.hxx>
 #include <DataExchange/StepDimTol/StepDimTol_DatumFeature.hxx>
-#include <StepRepr_ShapeAspectRelationship.hxx>
+#include <DataExchange/StepRepr/StepRepr_ShapeAspectRelationship.hxx>
 
 #include <DataExchange/StepDimTol/StepDimTol_AngularityTolerance.hxx>
 #include <DataExchange/StepDimTol/StepDimTol_CircularRunoutTolerance.hxx>

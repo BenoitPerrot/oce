@@ -18,7 +18,7 @@
 #include <DataExchange/StepBasic/StepBasic_MeasureWithUnit.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductDefinition.hxx>
-#include <StepRepr_QuantifiedAssemblyComponentUsage.hxx>
+#include <DataExchange/StepRepr/StepRepr_QuantifiedAssemblyComponentUsage.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepRepr_QuantifiedAssemblyComponentUsage)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -21,7 +21,7 @@
 #include <StepVisual_StyleContextSelect.hxx>
 #include <StepVisual_HArray1OfPresentationStyleAssignment.hxx>
 #include <StepVisual_PresentationStyleAssignment.hxx>
-#include <StepRepr_RepresentationItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_RepresentationItem.hxx>
 #include <StepVisual_StyledItem.hxx>
 
 

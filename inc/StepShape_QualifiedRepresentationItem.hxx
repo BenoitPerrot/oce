@@ -11,7 +11,7 @@
 #include <Handle_StepShape_QualifiedRepresentationItem.hxx>
 
 #include <Handle_StepShape_HArray1OfValueQualifier.hxx>
-#include <StepRepr_RepresentationItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_RepresentationItem.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class StepShape_HArray1OfValueQualifier;

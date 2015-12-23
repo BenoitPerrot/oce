@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepDimTol_DatumFeature.hxx>
 
-#include <StepRepr_ShapeAspect.hxx>
+#include <DataExchange/StepRepr/StepRepr_ShapeAspect.hxx>
 
 
 //! Representation of STEP entity DatumFeature

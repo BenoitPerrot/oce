@@ -12,8 +12,8 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <StepRepr_Representation.hxx>
-#include <StepRepr_RepresentationItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_Representation.hxx>
+#include <DataExchange/StepRepr/StepRepr_RepresentationItem.hxx>
 #include <StepVisual_PresentationSet.hxx>
 #include <StepVisual_StyleContextSelect.hxx>
 #include <DataExchange/Interface/Interface_Macros.hxx>

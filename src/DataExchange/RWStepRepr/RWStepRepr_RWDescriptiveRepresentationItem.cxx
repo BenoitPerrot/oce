@@ -13,7 +13,7 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepRepr_DescriptiveRepresentationItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_DescriptiveRepresentationItem.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/RWStepRepr/RWStepRepr_RWDescriptiveRepresentationItem.hxx>
 

@@ -12,7 +12,7 @@
 
 #include <Handle_StepGeom_GeometricRepresentationContext.hxx>
 #include <Handle_StepRepr_ParametricRepresentationContext.hxx>
-#include <StepRepr_RepresentationContext.hxx>
+#include <DataExchange/StepRepr/StepRepr_RepresentationContext.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class StepGeom_GeometricRepresentationContext;

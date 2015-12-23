@@ -11,7 +11,7 @@
 #include <Handle_StepFEA_NodeRepresentation.hxx>
 
 #include <Handle_StepFEA_FeaModel.hxx>
-#include <StepRepr_Representation.hxx>
+#include <DataExchange/StepRepr/StepRepr_Representation.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Handle_StepRepr_HArray1OfRepresentationItem.hxx>
 #include <Handle_StepRepr_RepresentationContext.hxx>

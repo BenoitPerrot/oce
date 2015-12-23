@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepRepr_HArray1OfRepresentationItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_HArray1OfRepresentationItem.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <StepRepr_RepresentationItem.hxx>
-#include <StepRepr_Array1OfRepresentationItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_RepresentationItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_Array1OfRepresentationItem.hxx>
 
  
 
@@ -31,11 +31,11 @@ IMPLEMENT_STANDARD_RTTI(StepRepr_HArray1OfRepresentationItem)
 
 
 #define ItemHArray1 Handle(StepRepr_RepresentationItem)
-#define ItemHArray1_hxx <StepRepr_RepresentationItem.hxx>
+#define ItemHArray1_hxx <DataExchange/StepRepr/StepRepr_RepresentationItem.hxx>
 #define TheArray1 StepRepr_Array1OfRepresentationItem
-#define TheArray1_hxx <StepRepr_Array1OfRepresentationItem.hxx>
+#define TheArray1_hxx <DataExchange/StepRepr/StepRepr_Array1OfRepresentationItem.hxx>
 #define TCollection_HArray1 StepRepr_HArray1OfRepresentationItem
-#define TCollection_HArray1_hxx <StepRepr_HArray1OfRepresentationItem.hxx>
+#define TCollection_HArray1_hxx <DataExchange/StepRepr/StepRepr_HArray1OfRepresentationItem.hxx>
 #define Handle_TCollection_HArray1 Handle_StepRepr_HArray1OfRepresentationItem
 #define TCollection_HArray1_Type_() StepRepr_HArray1OfRepresentationItem_Type_()
 #include <Foundation/TCollection/TCollection_HArray1.gxx>

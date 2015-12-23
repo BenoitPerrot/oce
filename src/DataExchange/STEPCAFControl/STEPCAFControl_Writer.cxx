@@ -50,7 +50,7 @@
 #include <StepShape_ShapeDefinitionRepresentation.hxx>
 #include <TransferBRep_ShapeMapper.hxx>
 #include <TransferBRep.hxx>
-#include <StepRepr_PropertyDefinition.hxx>
+#include <DataExchange/StepRepr/StepRepr_PropertyDefinition.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductDefinition.hxx>
 #include <DataExchange/StepBasic/StepBasic_Product.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
@@ -72,7 +72,7 @@
 #include <XCAFDoc_Volume.hxx>
 #include <XCAFDoc_Centroid.hxx>
 #include <StepShape_ContextDependentShapeRepresentation.hxx>
-#include <StepRepr_ProductDefinitionShape.hxx>
+#include <DataExchange/StepRepr/StepRepr_ProductDefinitionShape.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductDefinitionRelationship.hxx>
 #include <XCAFDoc_GraphNode.hxx>
 #include <XCAFDoc_LayerTool.hxx>
@@ -95,9 +95,9 @@
 #include <DataExchange/StepAP214/StepAP214_Protocol.hxx>
 #include <Foundation/OSD/OSD_Path.hxx>
 #include <XSControl_WorkSession.hxx>
-#include <StepRepr_HArray1OfRepresentationItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_HArray1OfRepresentationItem.hxx>
 #include <DataExchange/MoniTool/MoniTool_DataMapIteratorOfDataMapOfShapeTransient.hxx>
-#include <StepRepr_Representation.hxx>
+#include <DataExchange/StepRepr/StepRepr_Representation.hxx>
 #include <StepVisual_MechanicalDesignGeometricPresentationRepresentation.hxx>
 #include <Foundation/Quantity/Quantity_TypeOfColor.hxx>
 #include <StepVisual_HArray1OfPresentationStyleAssignment.hxx>
@@ -108,9 +108,9 @@
 #include <OCAF/TDF/TDF_AttributeSequence.hxx>
 #include <Foundation/TColStd/TColStd_MapOfTransient.hxx>
 // #include <Foundation/TColStd/TColStd_IndexedDataMapOfTransientTransient.hxx>
-#include <StepRepr_NextAssemblyUsageOccurrence.hxx>
+#include <DataExchange/StepRepr/StepRepr_NextAssemblyUsageOccurrence.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <StepRepr_SpecifiedHigherUsageOccurrence.hxx>
+#include <DataExchange/StepRepr/StepRepr_SpecifiedHigherUsageOccurrence.hxx>
 
 // added by skl 15.01.2004 for D&GT writing
 #include <XCAFDoc_DimTolTool.hxx>
@@ -133,12 +133,12 @@
 #include <StepShape_DimensionalSize.hxx>
 #include <StepShape_ShapeDimensionRepresentation.hxx>
 #include <StepShape_DimensionalCharacteristicRepresentation.hxx>
-#include <StepRepr_ShapeAspect.hxx>
-#include <StepRepr_ShapeAspectRelationship.hxx>
-#include <StepRepr_ReprItemAndLengthMeasureWithUnit.hxx>
-//#include <StepRepr_CompoundItemDefinition.hxx>
-//#include <StepRepr_CompoundItemDefinitionMember.hxx>
-#include <StepRepr_ValueRange.hxx>
+#include <DataExchange/StepRepr/StepRepr_ShapeAspect.hxx>
+#include <DataExchange/StepRepr/StepRepr_ShapeAspectRelationship.hxx>
+#include <DataExchange/StepRepr/StepRepr_ReprItemAndLengthMeasureWithUnit.hxx>
+//#include <DataExchange/StepRepr/StepRepr_CompoundItemDefinition.hxx>
+//#include <DataExchange/StepRepr/StepRepr_CompoundItemDefinitionMember.hxx>
+#include <DataExchange/StepRepr/StepRepr_ValueRange.hxx>
 #include <DataExchange/StepData/StepData_Logical.hxx>
 #include <DataExchange/StepDimTol/StepDimTol_DatumFeature.hxx>
 #include <DataExchange/StepDimTol/StepDimTol_Datum.hxx>
@@ -169,12 +169,12 @@
 #include <XCAFDoc_MaterialTool.hxx>
 #include <XCAFDoc_Material.hxx>
 #include <OCAF/TDataStd/TDataStd_TreeNode.hxx>
-#include <StepRepr_DescriptiveRepresentationItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_DescriptiveRepresentationItem.hxx>
 #include <DataExchange/StepBasic/StepBasic_SiUnitAndMassUnit.hxx>
 #include <DataExchange/StepBasic/StepBasic_DerivedUnitElement.hxx>
 #include <DataExchange/StepBasic/StepBasic_HArray1OfDerivedUnitElement.hxx>
 #include <DataExchange/StepBasic/StepBasic_DerivedUnit.hxx>
-#include <StepRepr_MeasureRepresentationItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_MeasureRepresentationItem.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductDefinition.hxx>
 
 //=======================================================================

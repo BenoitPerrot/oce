@@ -12,8 +12,8 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepRepr_CharacterizedDefinition.hxx>
-#include <StepRepr_MaterialDesignation.hxx>
+#include <DataExchange/StepRepr/StepRepr_CharacterizedDefinition.hxx>
+#include <DataExchange/StepRepr/StepRepr_MaterialDesignation.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepRepr_MaterialDesignation)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -14,17 +14,17 @@
 //gka 05.03.99 S4134 upgrade from CD to DIS
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepRepr_ItemDefinedTransformation.hxx>
+#include <DataExchange/StepRepr/StepRepr_ItemDefinedTransformation.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepRepr/RWStepRepr_RWItemDefinedTransformation.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepRepr_RepresentationItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_RepresentationItem.hxx>
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepRepr_ItemDefinedTransformation.hxx>
+#include <DataExchange/StepRepr/StepRepr_ItemDefinedTransformation.hxx>
 
 
 RWStepRepr_RWItemDefinedTransformation::RWStepRepr_RWItemDefinedTransformation () {}

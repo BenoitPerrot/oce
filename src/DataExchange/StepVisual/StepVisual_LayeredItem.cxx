@@ -13,7 +13,7 @@
 
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <StepVisual_PresentationRepresentation.hxx>
-#include <StepRepr_RepresentationItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_RepresentationItem.hxx>
 #include <StepVisual_LayeredItem.hxx>
 #include <DataExchange/Interface/Interface_Macros.hxx>
 

@@ -25,7 +25,7 @@
 #include <DataExchange/StepBasic/StepBasic_Product.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductDefinitionFormation.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductDefinition.hxx>
-#include <StepRepr_ProductDefinitionShape.hxx>
+#include <DataExchange/StepRepr/StepRepr_ProductDefinitionShape.hxx>
 #include <DataExchange/STEPConstruct/STEPConstruct_Part.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <DataExchange/Interface/Interface_Static.hxx>
@@ -42,7 +42,7 @@
 #include <DataExchange/StepBasic/StepBasic_ApplicationContext.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductType.hxx>
 #include <DataExchange/StepBasic/StepBasic_HArray1OfProduct.hxx>
-#include <StepRepr_ProductDefinitionShape.hxx>
+#include <DataExchange/StepRepr/StepRepr_ProductDefinitionShape.hxx>
 #include <StepShape_ShapeRepresentation.hxx>
 #include <StepShape_ShapeDefinitionRepresentation.hxx>
 

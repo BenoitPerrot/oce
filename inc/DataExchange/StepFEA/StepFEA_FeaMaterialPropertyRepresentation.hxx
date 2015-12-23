@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepFEA_FeaMaterialPropertyRepresentation.hxx>
 
-#include <StepRepr_MaterialPropertyRepresentation.hxx>
+#include <DataExchange/StepRepr/StepRepr_MaterialPropertyRepresentation.hxx>
 
 
 //! Representation of STEP entity FeaMaterialPropertyRepresentation

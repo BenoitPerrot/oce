@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepShape_DefinitionalRepresentationAndShapeRepresentation.hxx>
 
-#include <StepRepr_DefinitionalRepresentation.hxx>
+#include <DataExchange/StepRepr/StepRepr_DefinitionalRepresentation.hxx>
 
 
 //! Implements complex type

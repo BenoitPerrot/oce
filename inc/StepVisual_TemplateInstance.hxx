@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepVisual_TemplateInstance.hxx>
 
-#include <StepRepr_MappedItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_MappedItem.hxx>
 
 
 

@@ -17,12 +17,12 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepRepr_StructuralResponseProperty.hxx>
+#include <DataExchange/StepRepr/StepRepr_StructuralResponseProperty.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepRepr/RWStepRepr_RWStructuralResponseProperty.hxx>
 
-//#include <StepRepr_RepresentedDefinition.hxx>
+//#include <DataExchange/StepRepr/StepRepr_RepresentedDefinition.hxx>
 
 //=======================================================================
 //function : RWStepRepr_RWStructuralResponseProperty

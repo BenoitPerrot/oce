@@ -21,7 +21,7 @@
 #include <DataExchange/StepAP203/StepAP203_StartWork.hxx>
 #include <DataExchange/StepAP203/StepAP203_ChangeRequest.hxx>
 #include <DataExchange/StepAP203/StepAP203_StartRequest.hxx>
-#include <StepRepr_ConfigurationItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_ConfigurationItem.hxx>
 #include <DataExchange/StepBasic/StepBasic_Product.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductDefinitionFormation.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductDefinition.hxx>

@@ -37,7 +37,7 @@
 #include <DataExchange/StepBasic/StepBasic_HArray1OfProductContext.hxx>
 #include <DataExchange/StepBasic/StepBasic_ApplicationContext.hxx>
 #include <DataExchange/StepBasic/StepBasic_ApplicationProtocolDefinition.hxx>
-#include <StepRepr_PropertyDefinition.hxx>
+#include <DataExchange/StepRepr/StepRepr_PropertyDefinition.hxx>
 
 #include <DataExchange/StepBasic/StepBasic_HArray1OfProduct.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductType.hxx> //:i3

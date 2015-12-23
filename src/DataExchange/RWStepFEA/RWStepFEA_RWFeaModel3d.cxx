@@ -21,8 +21,8 @@
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepFEA/RWStepFEA_RWFeaModel3d.hxx>
-#include <StepRepr_HArray1OfRepresentationItem.hxx>
-#include <StepRepr_RepresentationItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_HArray1OfRepresentationItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_RepresentationItem.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfAsciiString.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 

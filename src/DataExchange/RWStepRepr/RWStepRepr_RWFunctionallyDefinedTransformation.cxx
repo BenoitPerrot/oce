@@ -14,7 +14,7 @@
 //gka 05.03.99 S4134 upgrade from CD to DIS
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepRepr_FunctionallyDefinedTransformation.hxx>
+#include <DataExchange/StepRepr/StepRepr_FunctionallyDefinedTransformation.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/RWStepRepr/RWStepRepr_RWFunctionallyDefinedTransformation.hxx>
 

@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <StepRepr_RepresentationItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_RepresentationItem.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #include <StepToTopoDS_DataMapNodeOfDataMapOfRI.hxx>
@@ -15,7 +15,7 @@
  
 
 #define TheKey Handle(StepRepr_RepresentationItem)
-#define TheKey_hxx <StepRepr_RepresentationItem.hxx>
+#define TheKey_hxx <DataExchange/StepRepr/StepRepr_RepresentationItem.hxx>
 #define TheItem TopoDS_Shape
 #define TheItem_hxx <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #define Hasher TColStd_MapTransientHasher

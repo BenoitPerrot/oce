@@ -17,8 +17,8 @@
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepVisual/RWStepVisual_RWCameraUsage.hxx>
-#include <StepRepr_RepresentationItem.hxx>
-#include <StepRepr_Representation.hxx>
+#include <DataExchange/StepRepr/StepRepr_RepresentationItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_Representation.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>

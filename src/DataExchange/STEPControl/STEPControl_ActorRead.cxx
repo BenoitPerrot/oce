@@ -15,21 +15,21 @@
 //:n4 abv 11.02.99 S4132: recognition of GeometricSet (instead of GeometricCurveSet)
 //    gka 05.04.99 S4136: eliminate parameter lastpreci
 //gka,abv 14.04.99 S4136: maintain unit context, precision and maxtolerance values
-#include <StepRepr_Representation.hxx>
+#include <DataExchange/StepRepr/StepRepr_Representation.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Transfer_Binder.hxx>
 #include <Transfer_TransientProcess.hxx>
 #include <DataExchange/StepGeom/StepGeom_Axis2Placement3d.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
-#include <StepRepr_RepresentationRelationship.hxx>
+#include <DataExchange/StepRepr/StepRepr_RepresentationRelationship.hxx>
 #include <TransferBRep_ShapeBinder.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductDefinition.hxx>
-#include <StepRepr_NextAssemblyUsageOccurrence.hxx>
+#include <DataExchange/StepRepr/StepRepr_NextAssemblyUsageOccurrence.hxx>
 #include <StepShape_ShapeRepresentation.hxx>
 #include <StepShape_ContextDependentShapeRepresentation.hxx>
-#include <StepRepr_ShapeRepresentationRelationship.hxx>
+#include <DataExchange/StepRepr/StepRepr_ShapeRepresentationRelationship.hxx>
 #include <DataExchange/StepGeom/StepGeom_GeometricRepresentationItem.hxx>
-#include <StepRepr_MappedItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_MappedItem.hxx>
 #include <StepShape_FaceSurface.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shell.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
@@ -61,9 +61,9 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_ActorRead)
 #include <StepShape_GeometricSet.hxx>
 
 // MappedItem :
-#include <StepRepr_MappedItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_MappedItem.hxx>
 #include <DataExchange/StepGeom/StepGeom_Axis2Placement3d.hxx>
-#include <StepRepr_RepresentationMap.hxx>
+#include <DataExchange/StepRepr/StepRepr_RepresentationMap.hxx>
 #include <StepToTopoDS_MakeTransformed.hxx>
 
 // FaceSurface :
@@ -73,9 +73,9 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_ActorRead)
 #include <StepToTopoDS_TranslateFace.hxx>
 
 //  Unites :
-#include <StepRepr_RepresentationContext.hxx>
-#include <StepRepr_GlobalUnitAssignedContext.hxx>
-#include <StepRepr_GlobalUncertaintyAssignedContext.hxx>
+#include <DataExchange/StepRepr/StepRepr_RepresentationContext.hxx>
+#include <DataExchange/StepRepr/StepRepr_GlobalUnitAssignedContext.hxx>
+#include <DataExchange/StepRepr/StepRepr_GlobalUncertaintyAssignedContext.hxx>
 //#include <DataExchange/StepBasic/StepBasic_UncertaintyMeasureWithUnit.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductRelatedProductCategory.hxx>
 #include <DataExchange/StepGeom/StepGeom_GeometricRepresentationContextAndGlobalUnitAssignedContext.hxx>
@@ -89,10 +89,10 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_ActorRead)
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <TransferBRep.hxx>
 #include <StepShape_ContextDependentShapeRepresentation.hxx>
-#include <StepRepr_ShapeRepresentationRelationship.hxx>
-#include <StepRepr_ShapeRepresentationRelationshipWithTransformation.hxx>
-#include <StepRepr_Transformation.hxx>
-#include <StepRepr_ItemDefinedTransformation.hxx>
+#include <DataExchange/StepRepr/StepRepr_ShapeRepresentationRelationship.hxx>
+#include <DataExchange/StepRepr/StepRepr_ShapeRepresentationRelationshipWithTransformation.hxx>
+#include <DataExchange/StepRepr/StepRepr_Transformation.hxx>
+#include <DataExchange/StepRepr/StepRepr_ItemDefinedTransformation.hxx>
 
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <StepToTopoDS_Builder.hxx>
@@ -106,15 +106,15 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_ActorRead)
 #include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 
 #include <DataExchange/StepBasic/StepBasic_ProductDefinition.hxx>
-#include <StepRepr_ProductDefinitionShape.hxx>
-#include <StepRepr_NextAssemblyUsageOccurrence.hxx>
+#include <DataExchange/StepRepr/StepRepr_ProductDefinitionShape.hxx>
+#include <DataExchange/StepRepr/StepRepr_NextAssemblyUsageOccurrence.hxx>
 #include <DataExchange/STEPConstruct/STEPConstruct_Assembly.hxx>
 #include <Precision.hxx>
 #include <StepToGeom_MakeTransformation3d.hxx>
 #include <StepToGeom_MakeAxis2Placement.hxx>
 #include <Geometry/Geom/Geom_Axis2Placement.hxx>
 #include <Mathematics/Primitives/gp_Ax3.hxx>
-#include <StepRepr_ShapeAspect.hxx>
+#include <DataExchange/StepRepr/StepRepr_ShapeAspect.hxx>
 #include <XSAlgo.hxx>
 #include <XSAlgo_AlgoContainer.hxx>
 #include <StepShape_EdgeBasedWireframeModel.hxx>
@@ -130,7 +130,7 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_ActorRead)
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <Foundation/Message/Message_ProgressSentry.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
-#include <StepRepr_HSequenceOfRepresentationItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_HSequenceOfRepresentationItem.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductDefinition.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
@@ -140,7 +140,7 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_ActorRead)
 
 // For non-manifold topology processing (ssv; 12.11.2010)
 #include <StepShape_NonManifoldSurfaceShapeRepresentation.hxx>
-#include <StepRepr_HArray1OfRepresentationItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_HArray1OfRepresentationItem.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>

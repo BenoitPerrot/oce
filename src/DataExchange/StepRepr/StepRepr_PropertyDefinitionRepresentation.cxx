@@ -15,9 +15,9 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
-#include <StepRepr_Representation.hxx>
-#include <StepRepr_RepresentedDefinition.hxx>
-#include <StepRepr_PropertyDefinitionRepresentation.hxx>
+#include <DataExchange/StepRepr/StepRepr_Representation.hxx>
+#include <DataExchange/StepRepr/StepRepr_RepresentedDefinition.hxx>
+#include <DataExchange/StepRepr/StepRepr_PropertyDefinitionRepresentation.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepRepr_PropertyDefinitionRepresentation)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

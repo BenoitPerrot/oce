@@ -17,7 +17,7 @@
 
 #include <DataExchange/StepDimTol/StepDimTol_Datum.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepRepr_ProductDefinitionShape.hxx>
+#include <DataExchange/StepRepr/StepRepr_ProductDefinitionShape.hxx>
 #include <DataExchange/StepDimTol/StepDimTol_CommonDatum.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepDimTol_CommonDatum)

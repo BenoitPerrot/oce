@@ -18,7 +18,7 @@
 
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductDefinitionFormation.hxx>
-#include <StepRepr_AssemblyComponentUsage.hxx>
+#include <DataExchange/StepRepr/StepRepr_AssemblyComponentUsage.hxx>
 #include <DataExchange/StepAP203/StepAP203_ClassifiedItem.hxx>
 
 //=======================================================================

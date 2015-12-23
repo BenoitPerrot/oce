@@ -18,7 +18,7 @@
 #include <StepShape_ShapeRepresentation.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <DataExchange/StepGeom/StepGeom_Axis2Placement3d.hxx>
-#include <StepRepr_NextAssemblyUsageOccurrence.hxx>
+#include <DataExchange/StepRepr/StepRepr_NextAssemblyUsageOccurrence.hxx>
 #include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <StepShape_ContextDependentShapeRepresentation.hxx>
 #include <DataExchange/STEPConstruct/STEPConstruct_Assembly.hxx>
@@ -36,19 +36,19 @@
 #include <DataExchange/StepBasic/StepBasic_ApplicationContext.hxx>
 
 //  ContextDependentShapeRepresentation qui contient la Relationship
-#include <StepRepr_NextAssemblyUsageOccurrence.hxx>
-#include <StepRepr_ProductDefinitionShape.hxx>
-#include <StepRepr_CharacterizedDefinition.hxx>
+#include <DataExchange/StepRepr/StepRepr_NextAssemblyUsageOccurrence.hxx>
+#include <DataExchange/StepRepr/StepRepr_ProductDefinitionShape.hxx>
+#include <DataExchange/StepRepr/StepRepr_CharacterizedDefinition.hxx>
 #include <StepShape_ContextDependentShapeRepresentation.hxx>
 
 //  Relationship
-#include <StepRepr_ShapeRepresentationRelationshipWithTransformation.hxx>
-#include <StepRepr_HArray1OfRepresentationItem.hxx>
-#include <StepRepr_RepresentationContext.hxx>
+#include <DataExchange/StepRepr/StepRepr_ShapeRepresentationRelationshipWithTransformation.hxx>
+#include <DataExchange/StepRepr/StepRepr_HArray1OfRepresentationItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_RepresentationContext.hxx>
 #include <StepShape_ShapeRepresentation.hxx>
 
-#include <StepRepr_ItemDefinedTransformation.hxx>
-#include <StepRepr_Transformation.hxx>
+#include <DataExchange/StepRepr/StepRepr_ItemDefinedTransformation.hxx>
+#include <DataExchange/StepRepr/StepRepr_Transformation.hxx>
 
 //=======================================================================
 //function : STEPConstruct_Assembly

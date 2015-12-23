@@ -17,7 +17,7 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepRepr_ShapeAspectTransition.hxx>
+#include <DataExchange/StepRepr/StepRepr_ShapeAspectTransition.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepRepr/RWStepRepr_RWShapeAspectTransition.hxx>

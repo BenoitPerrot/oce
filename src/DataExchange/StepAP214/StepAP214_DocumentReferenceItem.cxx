@@ -13,14 +13,14 @@
 
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <DataExchange/StepBasic/StepBasic_Approval.hxx>
-#include <StepRepr_DescriptiveRepresentationItem.hxx>
-#include <StepRepr_MaterialDesignation.hxx>
+#include <DataExchange/StepRepr/StepRepr_DescriptiveRepresentationItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_MaterialDesignation.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductDefinition.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductDefinitionRelationship.hxx>
-#include <StepRepr_PropertyDefinition.hxx>
-#include <StepRepr_Representation.hxx>
-#include <StepRepr_ShapeAspect.hxx>
-#include <StepRepr_ShapeAspectRelationship.hxx>
+#include <DataExchange/StepRepr/StepRepr_PropertyDefinition.hxx>
+#include <DataExchange/StepRepr/StepRepr_Representation.hxx>
+#include <DataExchange/StepRepr/StepRepr_ShapeAspect.hxx>
+#include <DataExchange/StepRepr/StepRepr_ShapeAspectRelationship.hxx>
 #include <DataExchange/StepAP214/StepAP214_DocumentReferenceItem.hxx>
 #include <DataExchange/Interface/Interface_Macros.hxx>
 

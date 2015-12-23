@@ -15,7 +15,7 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.0
 
-#include <StepRepr_ShapeAspect.hxx>
+#include <DataExchange/StepRepr/StepRepr_ShapeAspect.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepShape_DimensionalLocationWithPath.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

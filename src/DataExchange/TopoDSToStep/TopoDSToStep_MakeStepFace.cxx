@@ -63,8 +63,8 @@
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
-#include <StepRepr_DefinitionalRepresentation.hxx>
-#include <StepRepr_HArray1OfRepresentationItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_DefinitionalRepresentation.hxx>
+#include <DataExchange/StepRepr/StepRepr_HArray1OfRepresentationItem.hxx>
 #include <DataExchange/StepGeom/StepGeom_GeometricRepresentationContextAndParametricRepresentationContext.hxx>
 #include <DataExchange/StepGeom/StepGeom_Surface.hxx>
 #include <DataExchange/StepGeom/StepGeom_SurfaceCurve.hxx>

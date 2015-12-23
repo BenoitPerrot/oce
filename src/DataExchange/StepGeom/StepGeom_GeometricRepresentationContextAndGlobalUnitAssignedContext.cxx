@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <DataExchange/StepGeom/StepGeom_GeometricRepresentationContext.hxx>
-#include <StepRepr_GlobalUnitAssignedContext.hxx>
+#include <DataExchange/StepRepr/StepRepr_GlobalUnitAssignedContext.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <DataExchange/StepBasic/StepBasic_HArray1OfNamedUnit.hxx>
 #include <DataExchange/StepBasic/StepBasic_NamedUnit.hxx>
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(StepGeom_GeometricRepresentationContextAndGlobalUnitAssi
 
 #include <DataExchange/StepGeom/StepGeom_GeometricRepresentationContext.hxx>
 
-#include <StepRepr_GlobalUnitAssignedContext.hxx>
+#include <DataExchange/StepRepr/StepRepr_GlobalUnitAssignedContext.hxx>
 
 
 StepGeom_GeometricRepresentationContextAndGlobalUnitAssignedContext::StepGeom_GeometricRepresentationContextAndGlobalUnitAssignedContext ()  {}

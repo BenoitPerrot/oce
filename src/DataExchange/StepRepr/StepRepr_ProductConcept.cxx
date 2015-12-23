@@ -18,7 +18,7 @@
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductConceptContext.hxx>
-#include <StepRepr_ProductConcept.hxx>
+#include <DataExchange/StepRepr/StepRepr_ProductConcept.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepRepr_ProductConcept)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

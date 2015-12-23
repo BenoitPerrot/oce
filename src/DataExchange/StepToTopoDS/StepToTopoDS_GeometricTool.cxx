@@ -38,7 +38,7 @@
 #include <DataExchange/StepGeom/StepGeom_Vector.hxx>
 #include <DataExchange/StepGeom/StepGeom_Direction.hxx>
 #include <DataExchange/StepGeom/StepGeom_SeamCurve.hxx>
-#include <StepRepr_DefinitionalRepresentation.hxx>
+#include <DataExchange/StepRepr/StepRepr_DefinitionalRepresentation.hxx>
 #include <StepShape_OrientedEdge.hxx>
 //#include <BRepAPI.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>

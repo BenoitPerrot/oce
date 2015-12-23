@@ -26,7 +26,7 @@
 #include <DataExchange/StepFEA/StepFEA_ElementRepresentation.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductDefinition.hxx>
 #include <DataExchange/StepData/StepData_StepModel.hxx>
-#include <StepRepr_ProductDefinitionShape.hxx>
+#include <DataExchange/StepRepr/StepRepr_ProductDefinitionShape.hxx>
 #include <DataExchange/StepAP209/StepAP209_Construct.hxx>
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
@@ -77,14 +77,14 @@
 #include <DataExchange/StepBasic/StepBasic_DesignContext.hxx>
 #include <DataExchange/StepBasic/StepBasic_ApplicationProtocolDefinition.hxx>
 
-#include <StepRepr_PropertyDefinitionRepresentation.hxx>
-#include <StepRepr_StructuralResponseProperty.hxx>
-#include <StepRepr_StructuralResponsePropertyDefinitionRepresentation.hxx>
-#include <StepRepr_RepresentationItem.hxx>
-#include <StepRepr_HArray1OfRepresentationItem.hxx>
-#include <StepRepr_ShapeRepresentationRelationship.hxx>
-#include <StepRepr_GlobalUncertaintyAssignedContext.hxx>
-#include <StepRepr_GlobalUnitAssignedContext.hxx>
+#include <DataExchange/StepRepr/StepRepr_PropertyDefinitionRepresentation.hxx>
+#include <DataExchange/StepRepr/StepRepr_StructuralResponseProperty.hxx>
+#include <DataExchange/StepRepr/StepRepr_StructuralResponsePropertyDefinitionRepresentation.hxx>
+#include <DataExchange/StepRepr/StepRepr_RepresentationItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_HArray1OfRepresentationItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_ShapeRepresentationRelationship.hxx>
+#include <DataExchange/StepRepr/StepRepr_GlobalUncertaintyAssignedContext.hxx>
+#include <DataExchange/StepRepr/StepRepr_GlobalUnitAssignedContext.hxx>
 
 #include <DataExchange/StepFEA/StepFEA_Curve3dElementRepresentation.hxx>
 #include <DataExchange/StepFEA/StepFEA_Surface3dElementRepresentation.hxx>

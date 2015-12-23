@@ -11,9 +11,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepRepr_RepresentationItem.hxx>
-#include <StepRepr_Representation.hxx>
-#include <StepRepr_RepresentationMap.hxx>
+#include <DataExchange/StepRepr/StepRepr_RepresentationItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_Representation.hxx>
+#include <DataExchange/StepRepr/StepRepr_RepresentationMap.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepRepr_RepresentationMap)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

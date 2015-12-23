@@ -76,16 +76,16 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_ActorWrite)
 #include <StepShape_ShellBasedSurfaceModel.hxx>
 #include <StepShape_ManifoldSolidBrep.hxx>
 #include <StepShape_BrepWithVoids.hxx>
-#include <StepRepr_HArray1OfRepresentationItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_HArray1OfRepresentationItem.hxx>
 #include <DataExchange/StepBasic/StepBasic_HArray1OfProduct.hxx>
-#include <StepRepr_GlobalUnitAssignedContext.hxx>
+#include <DataExchange/StepRepr/StepRepr_GlobalUnitAssignedContext.hxx>
 #include <StepShape_AdvancedBrepShapeRepresentation.hxx>
 #include <StepShape_FacetedBrepShapeRepresentation.hxx>
 #include <StepShape_TopologicalRepresentationItem.hxx>
 #include <StepShape_ManifoldSurfaceShapeRepresentation.hxx>
 #include <StepShape_GeometricallyBoundedWireframeShapeRepresentation.hxx>
 #include <DataExchange/StepBasic/StepBasic_ApplicationProtocolDefinition.hxx>
-#include <StepRepr_PropertyDefinition.hxx>
+#include <DataExchange/StepRepr/StepRepr_PropertyDefinition.hxx>
 
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
@@ -115,7 +115,7 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_ActorWrite)
 
 #include <XSAlgo.hxx>
 #include <XSAlgo_AlgoContainer.hxx>
-#include <StepRepr_ShapeRepresentationRelationship.hxx>
+#include <DataExchange/StepRepr/StepRepr_ShapeRepresentationRelationship.hxx>
 #include <Transfer_SequenceOfBinder.hxx>
 
 #include <TopoDSToStep_MakeStepVertex.hxx>

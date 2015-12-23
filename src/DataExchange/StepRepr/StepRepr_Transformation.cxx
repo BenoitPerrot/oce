@@ -12,9 +12,9 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <StepRepr_ItemDefinedTransformation.hxx>
-#include <StepRepr_FunctionallyDefinedTransformation.hxx>
-#include <StepRepr_Transformation.hxx>
+#include <DataExchange/StepRepr/StepRepr_ItemDefinedTransformation.hxx>
+#include <DataExchange/StepRepr/StepRepr_FunctionallyDefinedTransformation.hxx>
+#include <DataExchange/StepRepr/StepRepr_Transformation.hxx>
 #include <DataExchange/Interface/Interface_Macros.hxx>
 
 StepRepr_Transformation::StepRepr_Transformation () {  }

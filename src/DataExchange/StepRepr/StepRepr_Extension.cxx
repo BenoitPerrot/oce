@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepRepr_Extension.hxx>
+#include <DataExchange/StepRepr/StepRepr_Extension.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepRepr_Extension)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

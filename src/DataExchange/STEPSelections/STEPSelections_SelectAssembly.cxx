@@ -33,9 +33,9 @@ IMPLEMENT_DOWNCAST(STEPSelections_SelectAssembly,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(STEPSelections_SelectAssembly)
 #include <DataExchange/Interface/Interface_Macros.hxx>
 #include <StepShape_ContextDependentShapeRepresentation.hxx>
-#include <StepRepr_ProductDefinitionShape.hxx>
-#include <StepRepr_NextAssemblyUsageOccurrence.hxx>
-#include <StepRepr_MappedItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_ProductDefinitionShape.hxx>
+#include <DataExchange/StepRepr/StepRepr_NextAssemblyUsageOccurrence.hxx>
+#include <DataExchange/StepRepr/StepRepr_MappedItem.hxx>
 #include <StepShape_ShapeRepresentation.hxx>
 #include <StepShape_ShapeDefinitionRepresentation.hxx>
 

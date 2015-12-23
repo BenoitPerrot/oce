@@ -12,10 +12,10 @@
 // commercial license or contractual agreement.
 
 #include <DataExchange/StepBasic/StepBasic_LengthMeasureWithUnit.hxx>
-#include <StepRepr_MeasureRepresentationItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_MeasureRepresentationItem.hxx>
 #include <DataExchange/StepBasic/StepBasic_MeasureWithUnit.hxx>
-#include <StepRepr_RepresentationItem.hxx>
-#include <StepRepr_ReprItemAndLengthMeasureWithUnit.hxx>
+#include <DataExchange/StepRepr/StepRepr_RepresentationItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_ReprItemAndLengthMeasureWithUnit.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepRepr_ReprItemAndLengthMeasureWithUnit)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -14,18 +14,18 @@
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <DataExchange/StepBasic/StepBasic_Approval.hxx>
 #include <DataExchange/StepBasic/StepBasic_DocumentRelationship.hxx>
-#include <StepRepr_ExternallyDefinedRepresentation.hxx>
-#include <StepRepr_MappedItem.hxx>
-#include <StepRepr_MaterialDesignation.hxx>
+#include <DataExchange/StepRepr/StepRepr_ExternallyDefinedRepresentation.hxx>
+#include <DataExchange/StepRepr/StepRepr_MappedItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_MaterialDesignation.hxx>
 #include <StepVisual_PresentationArea.hxx>
 #include <StepVisual_PresentationView.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductCategory.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductDefinition.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductDefinitionRelationship.hxx>
-#include <StepRepr_PropertyDefinition.hxx>
-#include <StepRepr_Representation.hxx>
-#include <StepRepr_RepresentationRelationship.hxx>
-#include <StepRepr_ShapeAspect.hxx>
+#include <DataExchange/StepRepr/StepRepr_PropertyDefinition.hxx>
+#include <DataExchange/StepRepr/StepRepr_Representation.hxx>
+#include <DataExchange/StepRepr/StepRepr_RepresentationRelationship.hxx>
+#include <DataExchange/StepRepr/StepRepr_ShapeAspect.hxx>
 #include <DataExchange/StepAP214/StepAP214_AutoDesignReferencingItem.hxx>
 #include <DataExchange/Interface/Interface_Macros.hxx>
 

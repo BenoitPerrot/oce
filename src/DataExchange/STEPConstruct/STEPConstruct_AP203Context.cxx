@@ -30,7 +30,7 @@
 #include <DataExchange/StepBasic/StepBasic_ProductCategoryRelationship.hxx>
 #include <StepShape_ShapeDefinitionRepresentation.hxx>
 #include <DataExchange/STEPConstruct/STEPConstruct_Part.hxx>
-#include <StepRepr_NextAssemblyUsageOccurrence.hxx>
+#include <DataExchange/StepRepr/StepRepr_NextAssemblyUsageOccurrence.hxx>
 #include <DataExchange/STEPConstruct/STEPConstruct_AP203Context.hxx>
 
 #ifndef _WIN32

@@ -13,17 +13,17 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepRepr_MaterialDesignation.hxx>
+#include <DataExchange/StepRepr/StepRepr_MaterialDesignation.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepRepr/RWStepRepr_RWMaterialDesignation.hxx>
-#include <StepRepr_CharacterizedDefinition.hxx>
+#include <DataExchange/StepRepr/StepRepr_CharacterizedDefinition.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepRepr_MaterialDesignation.hxx>
+#include <DataExchange/StepRepr/StepRepr_MaterialDesignation.hxx>
 
 
 RWStepRepr_RWMaterialDesignation::RWStepRepr_RWMaterialDesignation () {}

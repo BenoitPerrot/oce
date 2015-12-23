@@ -16,11 +16,11 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepRepr_MeasureRepresentationItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_MeasureRepresentationItem.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepRepr/RWStepRepr_RWMeasureRepresentationItem.hxx>
-#include <StepRepr_MeasureRepresentationItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_MeasureRepresentationItem.hxx>
 #include <DataExchange/StepBasic/StepBasic_NamedUnit.hxx>
 #include <DataExchange/StepBasic/StepBasic_MeasureValueMember.hxx>
 #include <DataExchange/StepBasic/StepBasic_MeasureWithUnit.hxx>

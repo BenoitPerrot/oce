@@ -14,7 +14,7 @@
 #include <DataExchange/StepGeom/StepGeom_CartesianPoint.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <DataExchange/StepGeom/StepGeom_Surface.hxx>
-#include <StepRepr_DefinitionalRepresentation.hxx>
+#include <DataExchange/StepRepr/StepRepr_DefinitionalRepresentation.hxx>
 #include <DataExchange/StepGeom/StepGeom_EvaluatedDegeneratePcurve.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepGeom_EvaluatedDegeneratePcurve)

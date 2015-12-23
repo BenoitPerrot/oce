@@ -19,11 +19,11 @@
 #include <DataExchange/StepBasic/StepBasic_CharacterizedObject.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductDefinition.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductDefinitionRelationship.hxx>
-#include <StepRepr_ProductDefinitionShape.hxx>
-#include <StepRepr_ShapeAspect.hxx>
-#include <StepRepr_ShapeAspectRelationship.hxx>
+#include <DataExchange/StepRepr/StepRepr_ProductDefinitionShape.hxx>
+#include <DataExchange/StepRepr/StepRepr_ShapeAspect.hxx>
+#include <DataExchange/StepRepr/StepRepr_ShapeAspectRelationship.hxx>
 #include <DataExchange/StepBasic/StepBasic_DocumentFile.hxx>
-#include <StepRepr_CharacterizedDefinition.hxx>
+#include <DataExchange/StepRepr/StepRepr_CharacterizedDefinition.hxx>
 //=======================================================================
 //function : StepRepr_CharacterizedDefinition
 //purpose  : 

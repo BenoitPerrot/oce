@@ -18,9 +18,9 @@
 #include <StepShape_GeometricallyBoundedSurfaceShapeRepresentation.hxx>
 #include <StepShape_GeometricallyBoundedWireframeShapeRepresentation.hxx>
 #include <StepShape_ManifoldSurfaceShapeRepresentation.hxx>
-#include <StepRepr_Representation.hxx>
-#include <StepRepr_RepresentationItem.hxx>
-#include <StepRepr_ShapeAspect.hxx>
+#include <DataExchange/StepRepr/StepRepr_Representation.hxx>
+#include <DataExchange/StepRepr/StepRepr_RepresentationItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_ShapeAspect.hxx>
 #include <StepShape_ShapeRepresentation.hxx>
 #include <StepVisual_TemplateInstance.hxx>
 #include <DataExchange/StepAP214/StepAP214_AutoDesignGroupedItem.hxx>

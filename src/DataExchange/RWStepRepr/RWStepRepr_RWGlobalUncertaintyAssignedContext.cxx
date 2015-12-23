@@ -13,7 +13,7 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepRepr_GlobalUncertaintyAssignedContext.hxx>
+#include <DataExchange/StepRepr/StepRepr_GlobalUncertaintyAssignedContext.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepRepr/RWStepRepr_RWGlobalUncertaintyAssignedContext.hxx>
@@ -24,7 +24,7 @@
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepRepr_GlobalUncertaintyAssignedContext.hxx>
+#include <DataExchange/StepRepr/StepRepr_GlobalUncertaintyAssignedContext.hxx>
 
 
 RWStepRepr_RWGlobalUncertaintyAssignedContext::RWStepRepr_RWGlobalUncertaintyAssignedContext () {}

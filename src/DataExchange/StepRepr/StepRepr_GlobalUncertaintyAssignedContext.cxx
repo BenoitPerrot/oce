@@ -14,7 +14,7 @@
 #include <DataExchange/StepBasic/StepBasic_HArray1OfUncertaintyMeasureWithUnit.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <DataExchange/StepBasic/StepBasic_UncertaintyMeasureWithUnit.hxx>
-#include <StepRepr_GlobalUncertaintyAssignedContext.hxx>
+#include <DataExchange/StepRepr/StepRepr_GlobalUncertaintyAssignedContext.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepRepr_GlobalUncertaintyAssignedContext)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

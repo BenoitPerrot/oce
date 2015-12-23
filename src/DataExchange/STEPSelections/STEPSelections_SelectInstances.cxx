@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_RTTI(STEPSelections_SelectInstances)
 #include <StepShape_ShapeDefinitionRepresentation.hxx>
 #include <StepShape_ContextDependentShapeRepresentation.hxx>
 #include <StepShape_ShapeRepresentation.hxx>
-#include <StepRepr_RepresentationItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_RepresentationItem.hxx>
 #include <StepShape_FacetedBrep.hxx>
 #include <StepShape_BrepWithVoids.hxx>
 #include <StepShape_ManifoldSolidBrep.hxx>
@@ -43,9 +43,9 @@ IMPLEMENT_STANDARD_RTTI(STEPSelections_SelectInstances)
 #include <StepShape_FacetedBrepAndBrepWithVoids.hxx>
 #include <StepShape_GeometricSet.hxx>
 #include <StepShape_FaceSurface.hxx>
-#include <StepRepr_MappedItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_MappedItem.hxx>
 #include <DataExchange/STEPConstruct/STEPConstruct_Assembly.hxx>
-#include <StepRepr_ShapeRepresentationRelationship.hxx>
+#include <DataExchange/StepRepr/StepRepr_ShapeRepresentationRelationship.hxx>
 #include <Foundation/TColStd/TColStd_IndexedMapOfTransient.hxx>
 #include <DataExchange/Interface/Interface_HGraph.hxx>
 

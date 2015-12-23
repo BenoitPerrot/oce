@@ -12,7 +12,7 @@
 
 #include <Handle_StepVisual_HArray1OfPresentationStyleAssignment.hxx>
 #include <Handle_StepRepr_RepresentationItem.hxx>
-#include <StepRepr_RepresentationItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_RepresentationItem.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Handle_StepVisual_PresentationStyleAssignment.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

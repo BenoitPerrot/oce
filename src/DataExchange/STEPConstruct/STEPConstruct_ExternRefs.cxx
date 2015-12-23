@@ -40,12 +40,12 @@
 #include <DataExchange/StepBasic/StepBasic_ExternalSource.hxx>
 #include <DataExchange/StepBasic/StepBasic_ExternalSource.hxx>
 
-#include <StepRepr_CharacterizedDefinition.hxx>
-#include <StepRepr_PropertyDefinition.hxx>
-#include <StepRepr_RepresentationContext.hxx>
-#include <StepRepr_DescriptiveRepresentationItem.hxx>
-#include <StepRepr_HArray1OfRepresentationItem.hxx>
-#include <StepRepr_PropertyDefinitionRepresentation.hxx>
+#include <DataExchange/StepRepr/StepRepr_CharacterizedDefinition.hxx>
+#include <DataExchange/StepRepr/StepRepr_PropertyDefinition.hxx>
+#include <DataExchange/StepRepr/StepRepr_RepresentationContext.hxx>
+#include <DataExchange/StepRepr/StepRepr_DescriptiveRepresentationItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_HArray1OfRepresentationItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_PropertyDefinitionRepresentation.hxx>
 
 #include <StepShape_ShapeRepresentation.hxx>
 
@@ -54,7 +54,7 @@
 #include <DataExchange/StepAP214/StepAP214_ExternalIdentificationItem.hxx>
 #include <DataExchange/StepAP214/StepAP214_HArray1OfExternalIdentificationItem.hxx>
 #include <DataExchange/StepAP214/StepAP214_HArray1OfDocumentReferenceItem.hxx>
-#include <StepRepr_ProductDefinitionShape.hxx>
+#include <DataExchange/StepRepr/StepRepr_ProductDefinitionShape.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductDefinitionFormation.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductDefinitionContext.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductDefinitionWithAssociatedDocuments.hxx>
@@ -62,10 +62,10 @@
 #include <DataExchange/StepBasic/StepBasic_HArray1OfDocument.hxx>
 #include <DataExchange/StepBasic/StepBasic_HArray1OfProductContext.hxx>
 #include <DataExchange/StepBasic/StepBasic_ApplicationContext.hxx>
-#include <StepRepr_CharacterizedDefinition.hxx>
-#include <StepRepr_RepresentedDefinition.hxx>
+#include <DataExchange/StepRepr/StepRepr_CharacterizedDefinition.hxx>
+#include <DataExchange/StepRepr/StepRepr_RepresentedDefinition.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepRepr_NextAssemblyUsageOccurrence.hxx>
+#include <DataExchange/StepRepr/StepRepr_NextAssemblyUsageOccurrence.hxx>
 #include <DataExchange/StepAP203/StepAP203_CcDesignPersonAndOrganizationAssignment.hxx>
 #include <DataExchange/StepAP203/StepAP203_HArray1OfPersonOrganizationItem.hxx>
 #include <DataExchange/StepAP203/StepAP203_PersonOrganizationItem.hxx>

@@ -3,14 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepRepr_HSequenceOfMaterialPropertyRepresentation.hxx>
+#include <DataExchange/StepRepr/StepRepr_HSequenceOfMaterialPropertyRepresentation.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <StepRepr_MaterialPropertyRepresentation.hxx>
-#include <StepRepr_SequenceOfMaterialPropertyRepresentation.hxx>
+#include <DataExchange/StepRepr/StepRepr_MaterialPropertyRepresentation.hxx>
+#include <DataExchange/StepRepr/StepRepr_SequenceOfMaterialPropertyRepresentation.hxx>
 
  
 
@@ -29,11 +29,11 @@ IMPLEMENT_STANDARD_RTTI(StepRepr_HSequenceOfMaterialPropertyRepresentation)
 
 
 #define Item Handle(StepRepr_MaterialPropertyRepresentation)
-#define Item_hxx <StepRepr_MaterialPropertyRepresentation.hxx>
+#define Item_hxx <DataExchange/StepRepr/StepRepr_MaterialPropertyRepresentation.hxx>
 #define TheSequence StepRepr_SequenceOfMaterialPropertyRepresentation
-#define TheSequence_hxx <StepRepr_SequenceOfMaterialPropertyRepresentation.hxx>
+#define TheSequence_hxx <DataExchange/StepRepr/StepRepr_SequenceOfMaterialPropertyRepresentation.hxx>
 #define TCollection_HSequence StepRepr_HSequenceOfMaterialPropertyRepresentation
-#define TCollection_HSequence_hxx <StepRepr_HSequenceOfMaterialPropertyRepresentation.hxx>
+#define TCollection_HSequence_hxx <DataExchange/StepRepr/StepRepr_HSequenceOfMaterialPropertyRepresentation.hxx>
 #define Handle_TCollection_HSequence Handle_StepRepr_HSequenceOfMaterialPropertyRepresentation
 #define TCollection_HSequence_Type_() StepRepr_HSequenceOfMaterialPropertyRepresentation_Type_()
 #include <Foundation/TCollection/TCollection_HSequence.gxx>

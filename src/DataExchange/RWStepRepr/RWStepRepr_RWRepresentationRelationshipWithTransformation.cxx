@@ -13,18 +13,18 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepRepr_RepresentationRelationshipWithTransformation.hxx>
+#include <DataExchange/StepRepr/StepRepr_RepresentationRelationshipWithTransformation.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepRepr/RWStepRepr_RWRepresentationRelationshipWithTransformation.hxx>
-#include <StepRepr_Representation.hxx>
-#include <StepRepr_Transformation.hxx>
+#include <DataExchange/StepRepr/StepRepr_Representation.hxx>
+#include <DataExchange/StepRepr/StepRepr_Transformation.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepRepr_RepresentationRelationshipWithTransformation.hxx>
+#include <DataExchange/StepRepr/StepRepr_RepresentationRelationshipWithTransformation.hxx>
 
 
 RWStepRepr_RWRepresentationRelationshipWithTransformation::RWStepRepr_RWRepresentationRelationshipWithTransformation () {}

@@ -18,7 +18,7 @@
 #include <DataExchange/StepDimTol/StepDimTol_HArray1OfDatumReference.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <DataExchange/StepBasic/StepBasic_MeasureWithUnit.hxx>
-#include <StepRepr_ShapeAspect.hxx>
+#include <DataExchange/StepRepr/StepRepr_ShapeAspect.hxx>
 #include <DataExchange/StepDimTol/StepDimTol_GeometricToleranceWithDatumReference.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepDimTol_GeometricToleranceWithDatumReference)

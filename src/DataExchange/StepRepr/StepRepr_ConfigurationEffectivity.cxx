@@ -16,10 +16,10 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.0
 
-#include <StepRepr_ConfigurationDesign.hxx>
+#include <DataExchange/StepRepr/StepRepr_ConfigurationDesign.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductDefinitionRelationship.hxx>
-#include <StepRepr_ConfigurationEffectivity.hxx>
+#include <DataExchange/StepRepr/StepRepr_ConfigurationEffectivity.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepRepr_ConfigurationEffectivity)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

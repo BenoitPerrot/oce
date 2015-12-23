@@ -32,17 +32,17 @@
 #include <StepShape_Shell.hxx>
 #include <StepShape_OpenShell.hxx>
 #include <StepShape_FacetedBrepAndBrepWithVoids.hxx>
-#include <StepRepr_MappedItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_MappedItem.hxx>
 #include <StepShape_FaceSurface.hxx>
-#include <StepRepr_RepresentationRelationship.hxx>
-#include <StepRepr_ShapeRepresentationRelationship.hxx>
+#include <DataExchange/StepRepr/StepRepr_RepresentationRelationship.hxx>
+#include <DataExchange/StepRepr/StepRepr_ShapeRepresentationRelationship.hxx>
 #include <DataExchange/STEPConstruct/STEPConstruct_Assembly.hxx>
 #include <StepShape_ShapeRepresentation.hxx>
 #include <StepShape_GeometricCurveSet.hxx>
 #include <StepShape_GeometricSetSelect.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductRelatedProductCategory.hxx>
 #include <DataExchange/StepGeom/StepGeom_CompositeCurveSegment.hxx>
-#include <StepRepr_RepresentationMap.hxx>
+#include <DataExchange/StepRepr/StepRepr_RepresentationMap.hxx>
 
 STEPSelections_Counter::STEPSelections_Counter()
 {

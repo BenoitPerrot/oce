@@ -15,10 +15,10 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
-#include <StepRepr_DataEnvironment.hxx>
-#include <StepRepr_RepresentedDefinition.hxx>
-#include <StepRepr_Representation.hxx>
-#include <StepRepr_MaterialPropertyRepresentation.hxx>
+#include <DataExchange/StepRepr/StepRepr_DataEnvironment.hxx>
+#include <DataExchange/StepRepr/StepRepr_RepresentedDefinition.hxx>
+#include <DataExchange/StepRepr/StepRepr_Representation.hxx>
+#include <DataExchange/StepRepr/StepRepr_MaterialPropertyRepresentation.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepRepr_MaterialPropertyRepresentation)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

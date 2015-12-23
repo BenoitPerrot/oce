@@ -18,7 +18,7 @@
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <DataExchange/StepBasic/StepBasic_MeasureWithUnit.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductDefinition.hxx>
-#include <StepRepr_MakeFromUsageOption.hxx>
+#include <DataExchange/StepRepr/StepRepr_MakeFromUsageOption.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepRepr_MakeFromUsageOption)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

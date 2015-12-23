@@ -12,7 +12,7 @@
 
 #include <Handle_StepBasic_MeasureWithUnit.hxx>
 #include <Handle_StepShape_HArray1OfValueQualifier.hxx>
-#include <StepRepr_RepresentationItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_RepresentationItem.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Handle_StepBasic_MeasureValueMember.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

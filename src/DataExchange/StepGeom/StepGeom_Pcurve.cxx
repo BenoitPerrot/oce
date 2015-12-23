@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <DataExchange/StepGeom/StepGeom_Surface.hxx>
-#include <StepRepr_DefinitionalRepresentation.hxx>
+#include <DataExchange/StepRepr/StepRepr_DefinitionalRepresentation.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <DataExchange/StepGeom/StepGeom_Pcurve.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

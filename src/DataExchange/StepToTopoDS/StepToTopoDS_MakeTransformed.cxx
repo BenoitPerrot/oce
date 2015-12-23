@@ -18,7 +18,7 @@
 #include <DataExchange/StepGeom/StepGeom_CartesianTransformationOperator3d.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <StepRepr_MappedItem.hxx>
+#include <DataExchange/StepRepr/StepRepr_MappedItem.hxx>
 #include <Transfer_TransientProcess.hxx>
 #include <StepToTopoDS_MakeTransformed.hxx>
 #include <Transfer_Binder.hxx>
@@ -30,8 +30,8 @@
 #include <Mathematics/Primitives/gp_TrsfForm.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 
-#include <StepRepr_RepresentationMap.hxx>
-#include <StepRepr_Representation.hxx>
+#include <DataExchange/StepRepr/StepRepr_RepresentationMap.hxx>
+#include <DataExchange/StepRepr/StepRepr_Representation.hxx>
 
 //  + pour CartesianOperator3d
 #include <Geometry/Geom/Geom_CartesianPoint.hxx>

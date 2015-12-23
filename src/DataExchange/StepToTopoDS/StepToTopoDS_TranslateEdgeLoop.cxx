@@ -49,7 +49,7 @@
 #include <DataExchange/StepGeom/StepGeom_Pcurve.hxx>
 //#include <DataExchange/StepGeom/StepGeom_Polyline.hxx>
 #include <DataExchange/StepGeom/StepGeom_SurfaceCurve.hxx>
-#include <StepRepr_DefinitionalRepresentation.hxx>
+#include <DataExchange/StepRepr/StepRepr_DefinitionalRepresentation.hxx>
 #include <DataExchange/StepGeom/StepGeom_PcurveOrSurface.hxx>
 
 #include <ModelingData/BRep/BRep_Builder.hxx>

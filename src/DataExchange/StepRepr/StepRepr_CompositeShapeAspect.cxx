@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepRepr_CompositeShapeAspect.hxx>
+#include <DataExchange/StepRepr/StepRepr_CompositeShapeAspect.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepRepr_CompositeShapeAspect)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
