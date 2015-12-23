@@ -17,34 +17,34 @@
 
 #include <XmlMDF_ADriverTable.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
-#include <XmlMDataStd.hxx>
+#include <OCAF/XmlMDataStd/XmlMDataStd.hxx>
 
-#include <XmlMDataStd_DirectoryDriver.hxx>
-#include <XmlMDataStd_UAttributeDriver.hxx>
-#include <XmlMDataStd_IntegerArrayDriver.hxx>
-#include <XmlMDataStd_RealArrayDriver.hxx>
-#include <XmlMDataStd_ExtStringArrayDriver.hxx>
-#include <XmlMDataStd_NameDriver.hxx>
-#include <XmlMDataStd_CommentDriver.hxx>
-#include <XmlMDataStd_IntegerDriver.hxx>
-#include <XmlMDataStd_RealDriver.hxx>
-#include <XmlMDataStd_VariableDriver.hxx>
-#include <XmlMDataStd_ExpressionDriver.hxx>
-#include <XmlMDataStd_RelationDriver.hxx>
-#include <XmlMDataStd_NoteBookDriver.hxx>
-#include <XmlMDataStd_TreeNodeDriver.hxx>
-#include <XmlMDataStd_TickDriver.hxx>
-#include <XmlMDataStd_IntegerListDriver.hxx>
-#include <XmlMDataStd_RealListDriver.hxx>
-#include <XmlMDataStd_ExtStringListDriver.hxx>
-#include <XmlMDataStd_BooleanListDriver.hxx>
-#include <XmlMDataStd_ReferenceListDriver.hxx>
-#include <XmlMDataStd_BooleanArrayDriver.hxx>
-#include <XmlMDataStd_ReferenceArrayDriver.hxx>
-#include <XmlMDataStd_ByteArrayDriver.hxx>
-#include <XmlMDataStd_NamedDataDriver.hxx>
-#include <XmlMDataStd_AsciiStringDriver.hxx>
-#include <XmlMDataStd_IntPackedMapDriver.hxx>
+#include <OCAF/XmlMDataStd/XmlMDataStd_DirectoryDriver.hxx>
+#include <OCAF/XmlMDataStd/XmlMDataStd_UAttributeDriver.hxx>
+#include <OCAF/XmlMDataStd/XmlMDataStd_IntegerArrayDriver.hxx>
+#include <OCAF/XmlMDataStd/XmlMDataStd_RealArrayDriver.hxx>
+#include <OCAF/XmlMDataStd/XmlMDataStd_ExtStringArrayDriver.hxx>
+#include <OCAF/XmlMDataStd/XmlMDataStd_NameDriver.hxx>
+#include <OCAF/XmlMDataStd/XmlMDataStd_CommentDriver.hxx>
+#include <OCAF/XmlMDataStd/XmlMDataStd_IntegerDriver.hxx>
+#include <OCAF/XmlMDataStd/XmlMDataStd_RealDriver.hxx>
+#include <OCAF/XmlMDataStd/XmlMDataStd_VariableDriver.hxx>
+#include <OCAF/XmlMDataStd/XmlMDataStd_ExpressionDriver.hxx>
+#include <OCAF/XmlMDataStd/XmlMDataStd_RelationDriver.hxx>
+#include <OCAF/XmlMDataStd/XmlMDataStd_NoteBookDriver.hxx>
+#include <OCAF/XmlMDataStd/XmlMDataStd_TreeNodeDriver.hxx>
+#include <OCAF/XmlMDataStd/XmlMDataStd_TickDriver.hxx>
+#include <OCAF/XmlMDataStd/XmlMDataStd_IntegerListDriver.hxx>
+#include <OCAF/XmlMDataStd/XmlMDataStd_RealListDriver.hxx>
+#include <OCAF/XmlMDataStd/XmlMDataStd_ExtStringListDriver.hxx>
+#include <OCAF/XmlMDataStd/XmlMDataStd_BooleanListDriver.hxx>
+#include <OCAF/XmlMDataStd/XmlMDataStd_ReferenceListDriver.hxx>
+#include <OCAF/XmlMDataStd/XmlMDataStd_BooleanArrayDriver.hxx>
+#include <OCAF/XmlMDataStd/XmlMDataStd_ReferenceArrayDriver.hxx>
+#include <OCAF/XmlMDataStd/XmlMDataStd_ByteArrayDriver.hxx>
+#include <OCAF/XmlMDataStd/XmlMDataStd_NamedDataDriver.hxx>
+#include <OCAF/XmlMDataStd/XmlMDataStd_AsciiStringDriver.hxx>
+#include <OCAF/XmlMDataStd/XmlMDataStd_IntPackedMapDriver.hxx>
 
 static Standard_Integer myDocumentVersion = -1;
 //=======================================================================

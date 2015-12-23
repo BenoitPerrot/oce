@@ -24,7 +24,7 @@
 #include <OCAF/XmlLDrivers/XmlLDrivers_DocumentRetrievalDriver.hxx>
 #include <XmlMDF_ADriverTable.hxx>
 #include <XmlMDF.hxx>
-#include <XmlMDataStd.hxx>
+#include <OCAF/XmlMDataStd/XmlMDataStd.hxx>
 #include <XmlMDocStd.hxx>
 #include <XmlMFunction.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>

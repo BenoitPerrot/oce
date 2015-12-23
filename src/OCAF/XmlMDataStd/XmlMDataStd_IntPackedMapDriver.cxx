@@ -16,7 +16,7 @@
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
 #include <XmlObjMgt_Persistent.hxx>
-#include <XmlMDataStd_IntPackedMapDriver.hxx>
+#include <OCAF/XmlMDataStd/XmlMDataStd_IntPackedMapDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XmlMDataStd_IntPackedMapDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -38,7 +38,7 @@ IMPLEMENT_STANDARD_RTTI(XmlMDataStd_IntPackedMapDriver)
 #include <OCAF/TDF/TDF_Attribute.hxx>
 #include <OCAF/TDataStd/TDataStd_IntPackedMap.hxx>
 #include <Foundation/NCollection/NCollection_LocalArray.hxx>
-#include <XmlMDataStd.hxx>
+#include <OCAF/XmlMDataStd/XmlMDataStd.hxx>
 
 IMPLEMENT_DOMSTRING (IntPackedMapSize, "mapsize")
 IMPLEMENT_DOMSTRING (IsDeltaOn,        "delta")

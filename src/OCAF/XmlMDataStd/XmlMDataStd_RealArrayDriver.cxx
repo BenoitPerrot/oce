@@ -19,7 +19,7 @@
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
 #include <XmlObjMgt_Persistent.hxx>
-#include <XmlMDataStd_RealArrayDriver.hxx>
+#include <OCAF/XmlMDataStd/XmlMDataStd_RealArrayDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XmlMDataStd_RealArrayDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -32,7 +32,7 @@ IMPLEMENT_DOWNCAST(XmlMDataStd_RealArrayDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlMDataStd_RealArrayDriver)
 #include <OCAF/TDataStd/TDataStd_RealArray.hxx>
 #include <XmlObjMgt.hxx>
-#include <XmlMDataStd.hxx>
+#include <OCAF/XmlMDataStd/XmlMDataStd.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/NCollection/NCollection_LocalArray.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>

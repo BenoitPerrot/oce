@@ -16,7 +16,7 @@
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
 #include <XmlObjMgt_Persistent.hxx>
-#include <XmlMDataStd_ExtStringArrayDriver.hxx>
+#include <OCAF/XmlMDataStd/XmlMDataStd_ExtStringArrayDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XmlMDataStd_ExtStringArrayDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(XmlMDataStd_ExtStringArrayDriver)
 #include <OCAF/LDOM/LDOM_MemManager.hxx>
 #include <XmlObjMgt.hxx>
 #include <XmlObjMgt_Document.hxx>
-#include <XmlMDataStd.hxx>
+#include <OCAF/XmlMDataStd/XmlMDataStd.hxx>
 
 IMPLEMENT_DOMSTRING (FirstIndexString, "first")
 IMPLEMENT_DOMSTRING (LastIndexString, "last")

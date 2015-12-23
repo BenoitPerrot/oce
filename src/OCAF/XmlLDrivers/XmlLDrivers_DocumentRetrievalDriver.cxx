@@ -37,7 +37,7 @@ IMPLEMENT_STANDARD_RTTI(XmlLDrivers_DocumentRetrievalDriver)
 #include <XmlObjMgt_RRelocationTable.hxx>
 #include <XmlObjMgt_Document.hxx>
 #include <XmlObjMgt.hxx>
-#include <XmlMDataStd.hxx>
+#include <OCAF/XmlMDataStd/XmlMDataStd.hxx>
 #include <OCAF/LDOM/LDOM_LDOMImplementation.hxx>
 #include <OCAF/LDOM/LDOM_DocumentType.hxx>
 #include <LDOMParser.hxx>

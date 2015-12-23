@@ -23,7 +23,7 @@
 #include <OCAF/XmlDrivers/XmlDrivers_DocumentRetrievalDriver.hxx>
 #include <XmlMDF_ADriverTable.hxx>
 #include <XmlMDF.hxx>
-#include <XmlMDataStd.hxx>
+#include <OCAF/XmlMDataStd/XmlMDataStd.hxx>
 #include <XmlMDataXtd.hxx>
 #include <XmlMDocStd.hxx>
 #include <XmlMNaming.hxx>

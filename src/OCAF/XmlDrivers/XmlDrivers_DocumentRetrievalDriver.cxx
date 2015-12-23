@@ -30,7 +30,7 @@ IMPLEMENT_DOWNCAST(XmlDrivers_DocumentRetrievalDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlDrivers_DocumentRetrievalDriver)
 
 #include <OCAF/XmlDrivers/XmlDrivers.hxx>
-#include <XmlMDataStd.hxx>
+#include <OCAF/XmlMDataStd/XmlMDataStd.hxx>
 #include <XmlMNaming.hxx>
 #include <XmlObjMgt_Element.hxx>
 #include <XmlMNaming_NamedShapeDriver.hxx>
