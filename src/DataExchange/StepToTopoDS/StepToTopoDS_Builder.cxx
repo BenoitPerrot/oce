@@ -92,12 +92,12 @@
 #include <StepToTopoDS_TranslateFace.hxx>
 #include <StepShape_HArray1OfFace.hxx>
 
-#include <STEPControl_ActorRead.hxx>
+#include <DataExchange/STEPControl/STEPControl_ActorRead.hxx>
 
 #include <Foundation/Message/Message_ProgressSentry.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <Transfer_ActorOfTransientProcess.hxx>
-#include <STEPControl_ActorRead.hxx>
+#include <DataExchange/STEPControl/STEPControl_ActorRead.hxx>
 
 static void ResetPreci (const TopoDS_Shape& S, Standard_Real maxtol)
 {

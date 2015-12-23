@@ -13,11 +13,11 @@
 
 //:k8 abv 6 Jan 98: using parameter "step.group" for writing assemblies/shapes
 #include <Viewer/XSDRAWSTEP/XSDRAWSTEP.hxx>
-#include <STEPControl_Controller.hxx>
-#include <STEPControl_ActorWrite.hxx>
-#include <STEPControl_Reader.hxx>
-#include <STEPControl_Writer.hxx>
-#include <STEPControl_StepModelType.hxx>
+#include <DataExchange/STEPControl/STEPControl_Controller.hxx>
+#include <DataExchange/STEPControl/STEPControl_ActorWrite.hxx>
+#include <DataExchange/STEPControl/STEPControl_Reader.hxx>
+#include <DataExchange/STEPControl/STEPControl_Writer.hxx>
+#include <DataExchange/STEPControl/STEPControl_StepModelType.hxx>
 #include <Viewer/XSDRAW/XSDRAW.hxx>
 #include <StepSelect_Activator.hxx>
 

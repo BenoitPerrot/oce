@@ -35,7 +35,7 @@
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>
-#include <STEPControl_ActorRead.hxx>
+#include <DataExchange/STEPControl/STEPControl_ActorRead.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(STEPControl_ActorRead)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

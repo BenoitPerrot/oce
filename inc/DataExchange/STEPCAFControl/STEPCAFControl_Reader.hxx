@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <STEPControl_Reader.hxx>
+#include <DataExchange/STEPControl/STEPControl_Reader.hxx>
 #include <Handle_STEPCAFControl_DictionaryOfExternFile.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_XSControl_WorkSession.hxx>

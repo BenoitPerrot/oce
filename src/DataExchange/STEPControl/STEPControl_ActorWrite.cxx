@@ -24,7 +24,7 @@
 #include <ModelingData/TopTools/TopTools_HSequenceOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <StepShape_NonManifoldSurfaceShapeRepresentation.hxx>
-#include <STEPControl_ActorWrite.hxx>
+#include <DataExchange/STEPControl/STEPControl_ActorWrite.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(STEPControl_ActorWrite)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -36,7 +36,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(STEPControl_ActorWrite)
 IMPLEMENT_DOWNCAST(STEPControl_ActorWrite,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(STEPControl_ActorWrite)
-#include <STEPControl_StepModelType.hxx>
+#include <DataExchange/STEPControl/STEPControl_StepModelType.hxx>
 
 //  Transfer
 #include <Transfer_SimpleBinderOfTransient.hxx>

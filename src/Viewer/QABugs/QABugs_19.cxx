@@ -1770,7 +1770,7 @@ struct QABugs_NHandleClass
 };
 
 #include <XCAFDoc_ColorTool.hxx>
-#include <STEPControl_StepModelType.hxx>
+#include <DataExchange/STEPControl/STEPControl_StepModelType.hxx>
 #include <DataExchange/STEPCAFControl/STEPCAFControl_Writer.hxx>
 static Standard_Integer OCC23951 (Draw_Interpretor& di, Standard_Integer argc, const char ** argv)
 {

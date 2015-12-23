@@ -18,7 +18,7 @@
 #include <XSControl_WorkSession.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Transfer_FinderProcess.hxx>
-#include <STEPControl_Controller.hxx>
+#include <DataExchange/STEPControl/STEPControl_Controller.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(STEPControl_Controller)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -47,8 +47,8 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_Controller)
 #include <StepSelect_StepType.hxx>
 
 //  Pour NewModel et Write : definition de produit (temporaire ...)
-#include <STEPControl_ActorRead.hxx>
-#include <STEPControl_ActorWrite.hxx>
+#include <DataExchange/STEPControl/STEPControl_ActorRead.hxx>
+#include <DataExchange/STEPControl/STEPControl_ActorWrite.hxx>
 
 #include <STEPEdit.hxx>
 #include <STEPEdit_EditContext.hxx>

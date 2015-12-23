@@ -38,8 +38,8 @@
 #include <DataExchange/IFSelect/IFSelect_ReturnStatus.hxx>
 #include <DataExchange/Interface/Interface_Static.hxx>
 //step I/E
-#include <STEPControl_Reader.hxx>
-#include <STEPControl_Writer.hxx>
+#include <DataExchange/STEPControl/STEPControl_Reader.hxx>
+#include <DataExchange/STEPControl/STEPControl_Writer.hxx>
 //for stl export
 #include <StlAPI_Writer.hxx>
 //for vrml export

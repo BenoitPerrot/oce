@@ -26,11 +26,11 @@
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <DataExchange/STEPCAFControl/STEPCAFControl_ExternFile.hxx>
-#include <STEPControl_Writer.hxx>
+#include <DataExchange/STEPControl/STEPControl_Writer.hxx>
 #include <OCAF/TDF/TDF_LabelSequence.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <DataExchange/STEPCAFControl/STEPCAFControl_Writer.hxx>
-#include <STEPControl_StepModelType.hxx>
+#include <DataExchange/STEPControl/STEPControl_StepModelType.hxx>
 #include <XCAFDoc_ShapeTool.hxx>
 #include <OCAF/TDF/TDF_LabelSequence.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>

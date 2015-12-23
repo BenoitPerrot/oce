@@ -1,5 +1,5 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <STEPControl_Reader.hxx>
+#include <DataExchange/STEPControl/STEPControl_Reader.hxx>
 
 #include <gtest/gtest.h>
 

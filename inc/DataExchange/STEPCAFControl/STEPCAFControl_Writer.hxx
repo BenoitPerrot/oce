@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <STEPControl_Writer.hxx>
+#include <DataExchange/STEPControl/STEPControl_Writer.hxx>
 #include <Handle_STEPCAFControl_DictionaryOfExternFile.hxx>
 #include <DataExchange/STEPCAFControl/STEPCAFControl_DataMapOfLabelShape.hxx>
 #include <DataExchange/STEPCAFControl/STEPCAFControl_DataMapOfLabelExternFile.hxx>
@@ -20,7 +20,7 @@
 #include <DataExchange/IFSelect/IFSelect_ReturnStatus.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_TDocStd_Document.hxx>
-#include <STEPControl_StepModelType.hxx>
+#include <DataExchange/STEPControl/STEPControl_StepModelType.hxx>
 #include <Handle_STEPCAFControl_ExternFile.hxx>
 class STEPCAFControl_DictionaryOfExternFile;
 class XSControl_WorkSession;

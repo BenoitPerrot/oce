@@ -14,9 +14,9 @@
 #include <XSControl_WorkSession.hxx>
 #include <StepData_StepModel.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <STEPControl_Writer.hxx>
-#include <STEPControl_Controller.hxx>
-#include <STEPControl_ActorWrite.hxx>
+#include <DataExchange/STEPControl/STEPControl_Writer.hxx>
+#include <DataExchange/STEPControl/STEPControl_Controller.hxx>
+#include <DataExchange/STEPControl/STEPControl_ActorWrite.hxx>
 #include <XSControl_TransferWriter.hxx>
 #include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <DataExchange/Interface/Interface_Macros.hxx>

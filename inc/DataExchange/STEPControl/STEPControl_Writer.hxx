@@ -15,7 +15,7 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_StepData_StepModel.hxx>
 #include <DataExchange/IFSelect/IFSelect_ReturnStatus.hxx>
-#include <STEPControl_StepModelType.hxx>
+#include <DataExchange/STEPControl/STEPControl_StepModelType.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class XSControl_WorkSession;

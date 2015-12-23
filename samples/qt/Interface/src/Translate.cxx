@@ -33,9 +33,9 @@
 #include <DataExchange/IGESControl/IGESControl_Reader.hxx>
 #include <DataExchange/IGESControl/IGESControl_Writer.hxx>
 #include <DataExchange/IGESControl/IGESControl_Controller.hxx>
-#include <STEPControl_Reader.hxx>
-#include <STEPControl_Writer.hxx>
-#include <STEPControl_StepModelType.hxx>
+#include <DataExchange/STEPControl/STEPControl_Reader.hxx>
+#include <DataExchange/STEPControl/STEPControl_Writer.hxx>
+#include <DataExchange/STEPControl/STEPControl_StepModelType.hxx>
 #include <DataExchange/Interface/Interface_Static.hxx>
 //#include <DataExchange/Interface/Interface_TraceFile.hxx>
 

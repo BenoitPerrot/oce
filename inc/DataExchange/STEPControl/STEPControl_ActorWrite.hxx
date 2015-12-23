@@ -21,7 +21,7 @@
 #include <Handle_StepShape_ShapeDefinitionRepresentation.hxx>
 #include <Handle_StepGeom_Axis2Placement3d.hxx>
 #include <Handle_TopTools_HSequenceOfShape.hxx>
-#include <STEPControl_StepModelType.hxx>
+#include <DataExchange/STEPControl/STEPControl_StepModelType.hxx>
 #include <Handle_StepShape_NonManifoldSurfaceShapeRepresentation.hxx>
 class Transfer_Finder;
 class Transfer_Binder;

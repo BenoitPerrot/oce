@@ -12,7 +12,7 @@
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
-#include <STEPControl_ActorWrite.hxx>
+#include <DataExchange/STEPControl/STEPControl_ActorWrite.hxx>
 class TopoDS_Shape;
 
 

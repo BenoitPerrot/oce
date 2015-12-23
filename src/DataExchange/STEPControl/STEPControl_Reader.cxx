@@ -17,13 +17,13 @@
 #include <StepRepr_RepresentationContext.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfAsciiString.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <STEPControl_Reader.hxx>
-#include <STEPControl_Controller.hxx>
+#include <DataExchange/STEPControl/STEPControl_Reader.hxx>
+#include <DataExchange/STEPControl/STEPControl_Controller.hxx>
 #include <XSControl_Controller.hxx>
 #include <XSControl_TransferReader.hxx>
 #include <DataExchange/Interface/Interface_ShareFlags.hxx>
 
-#include <STEPControl_ActorRead.hxx>
+#include <DataExchange/STEPControl/STEPControl_ActorRead.hxx>
 
 #include <DataExchange/StepBasic/StepBasic_ProductDefinition.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>

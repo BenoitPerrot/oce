@@ -18,7 +18,7 @@
 #include <OCAF/TDocStd/TDocStd_Document.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <DataExchange/STEPCAFControl/STEPCAFControl_ExternFile.hxx>
-#include <STEPControl_Reader.hxx>
+#include <DataExchange/STEPControl/STEPControl_Reader.hxx>
 #include <OCAF/TDF/TDF_LabelSequence.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
