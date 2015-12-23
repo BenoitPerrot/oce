@@ -2214,7 +2214,7 @@ static TopoDS_Shape CreateTestShape (int& theShapeNb)
   return aComp;
 }
 
-#include <AppStd_Application.hxx>
+#include <OCAF/AppStd/AppStd_Application.hxx>
 #include <TDataStd_Integer.hxx>
 #include <TNaming_Builder.hxx>
 static Standard_Integer OCC24931 (Draw_Interpretor& di, Standard_Integer argc, const char** argv)

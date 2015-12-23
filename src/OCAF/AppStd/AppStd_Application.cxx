@@ -17,7 +17,7 @@
 
 #include <CDM_MessageDriver.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfExtendedString.hxx>
-#include <AppStd_Application.hxx>
+#include <OCAF/AppStd/AppStd_Application.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AppStd_Application)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

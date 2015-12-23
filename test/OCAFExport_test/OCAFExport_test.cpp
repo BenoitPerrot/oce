@@ -1,4 +1,4 @@
-#include <AppStd_Application.hxx>
+#include <OCAF/AppStd/AppStd_Application.hxx>
 #include <TDocStd_Document.hxx>
 #include <TDocStd_Application.hxx>
 #include <Foundation/OSD/OSD_File.hxx>

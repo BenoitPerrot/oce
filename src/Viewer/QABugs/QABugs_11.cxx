@@ -3266,7 +3266,7 @@ static Standard_Integer OCC15755 (Draw_Interpretor& di, Standard_Integer argc, c
 }
 
 // For OCC16782 testing
-#include <AppStd_Application.hxx>
+#include <OCAF/AppStd/AppStd_Application.hxx>
 #include <TDF_Tool.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 // Iterators
