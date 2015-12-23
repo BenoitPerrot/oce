@@ -14,8 +14,8 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <VrmlAPI.hxx>
-#include <VrmlAPI_Writer.hxx>
+#include <DataExchange/VrmlAPI/VrmlAPI.hxx>
+#include <DataExchange/VrmlAPI/VrmlAPI_Writer.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 
 void VrmlAPI::Write(const TopoDS_Shape& aShape, const Standard_CString aFileName)  {

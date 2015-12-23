@@ -40,7 +40,7 @@
 //#include <DataExchange/Interface/Interface_TraceFile.hxx>
 
 #include <DataExchange/StlAPI/StlAPI_Writer.hxx>
-#include <VrmlAPI_Writer.hxx>
+#include <DataExchange/VrmlAPI/VrmlAPI_Writer.hxx>
 
 #include <OCAF/MgtBRep/MgtBRep.hxx>
 #include <OCAF/MgtBRep/MgtBRep_TriangleMode.hxx>

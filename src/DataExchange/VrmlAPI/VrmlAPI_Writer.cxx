@@ -17,7 +17,7 @@
 #include <DataExchange/Vrml/Vrml_Material.hxx>
 #include <Foundation/Quantity/Quantity_HArray1OfColor.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <VrmlAPI_Writer.hxx>
+#include <DataExchange/VrmlAPI/VrmlAPI_Writer.hxx>
 #include <DataExchange/Vrml/Vrml_Material.hxx>
 #include <Foundation/Quantity/Quantity_HArray1OfColor.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>

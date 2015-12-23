@@ -16,12 +16,12 @@
 #include <Viewer/XSDRAWSTLVRML/XSDRAWSTLVRML.hxx>
 #include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <VrmlAPI.hxx>
+#include <DataExchange/VrmlAPI/VrmlAPI.hxx>
 #include <Foundation/OSD/OSD_Path.hxx>
 #include <DataExchange/StlAPI/StlAPI.hxx>
 #include <Viewer/XSDRAW/XSDRAW.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
-#include <VrmlAPI_Writer.hxx>
+#include <DataExchange/VrmlAPI/VrmlAPI_Writer.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Foundation/Quantity/Quantity_HArray1OfColor.hxx>
 #include <DataExchange/StlAPI/StlAPI_Writer.hxx>

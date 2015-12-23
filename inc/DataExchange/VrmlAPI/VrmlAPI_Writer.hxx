@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <VrmlAPI_RepresentationOfShape.hxx>
+#include <DataExchange/VrmlAPI/VrmlAPI_RepresentationOfShape.hxx>
 #include <Handle_VrmlConverter_Drawer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_VrmlConverter_Projector.hxx>

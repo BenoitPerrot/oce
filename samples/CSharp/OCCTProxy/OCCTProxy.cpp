@@ -36,7 +36,7 @@
 //for stl export
 #include <DataExchange/StlAPI/StlAPI_Writer.hxx>
 //for vrml export
-#include <VrmlAPI_Writer.hxx>
+#include <DataExchange/VrmlAPI/VrmlAPI_Writer.hxx>
 //wrapper of pure C++ classes to ref classes
 #include <Foundation/NCollection/NCollection_Haft.h>
 
