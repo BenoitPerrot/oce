@@ -21,7 +21,7 @@
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <BRepFill_TrimShellCorner.hxx>
 
-#include <BRepAlgoAPI_Section.hxx>
+#include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Section.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepLib_MakeEdge.hxx>

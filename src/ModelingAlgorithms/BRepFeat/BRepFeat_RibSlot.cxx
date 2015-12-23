@@ -25,7 +25,7 @@
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <LocOpe_Gluer.hxx>
 #include <TopOpeBRepBuild_HBuilder.hxx>
-#include <BRepAlgoAPI_BooleanOperation.hxx>
+#include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_BooleanOperation.hxx>
 #include <BRepFeat_RibSlot.hxx>
 #include <BRepFeat.hxx>
 
@@ -59,8 +59,8 @@
 //modified by NIZNHY-PKV Fri Mar 22 16:48:13 2002 f
 //#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Cut.hxx>
 //#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Fuse.hxx>
-#include <BRepAlgoAPI_Cut.hxx>
-#include <BRepAlgoAPI_Fuse.hxx>
+#include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Cut.hxx>
+#include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Fuse.hxx>
 //modified by NIZNHY-PKV Fri Mar 22 16:48:16 2002 t
 
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>

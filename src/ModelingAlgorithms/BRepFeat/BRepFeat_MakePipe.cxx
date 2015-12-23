@@ -29,8 +29,8 @@
 //modified by NIZNHY-PKV Thu Mar 21 17:54:27 2002 f
 //#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Fuse.hxx>
 //#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Cut.hxx> 
-#include <BRepAlgoAPI_Fuse.hxx>
-#include <BRepAlgoAPI_Cut.hxx> 
+#include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Fuse.hxx>
+#include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Cut.hxx> 
 //modified by NIZNHY-PKV Thu Mar 21 17:54:30 2002 t
 
 #include <Mathematics/Primitives/gp_Vec.hxx>

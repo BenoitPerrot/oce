@@ -23,8 +23,8 @@
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-#include <BRepAlgoAPI_Cut.hxx>
-#include <BRepAlgoAPI_Common.hxx>
+#include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Cut.hxx>
+#include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Common.hxx>
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>

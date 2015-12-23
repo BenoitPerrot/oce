@@ -15,7 +15,7 @@
 
 #include <TFunction_Logbook.hxx>
 #include <TDF_Label.hxx>
-#include <BRepAlgoAPI_BooleanOperation.hxx>
+#include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_BooleanOperation.hxx>
 #include <TFunction_Function.hxx>
 #include <DNaming_BooleanOperationDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -46,10 +46,10 @@ IMPLEMENT_STANDARD_RTTI(DNaming_BooleanOperationDriver)
 
 #include <DNaming.hxx>
 #include <TNaming_Builder.hxx>
-#include <BRepAlgoAPI_Fuse.hxx>
-#include <BRepAlgoAPI_Cut.hxx>
-#include <BRepAlgoAPI_Common.hxx>
-#include <BRepAlgoAPI_Section.hxx>
+#include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Fuse.hxx>
+#include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Cut.hxx>
+#include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Common.hxx>
+#include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Section.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>

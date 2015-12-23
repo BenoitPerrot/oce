@@ -86,7 +86,7 @@
 #include <IGESData_IGESEntity.hxx>
 #include <V3d_View.hxx>
 #include <BRepFeat_SplitShape.hxx>
-#include <BRepAlgoAPI_Section.hxx>
+#include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Section.hxx>
 
 #if ! defined(_WIN32)
 extern ViewerTest_DoubleMapOfInteractiveAndName& GetMapOfAIS();
@@ -586,7 +586,7 @@ Standard_Integer  OCC165(Draw_Interpretor& di ,
 // 	return TCL_OK;
 }
 
-#include<BRepAlgoAPI_Cut.hxx>
+#include<ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Cut.hxx>
 #include<ModelingAlgorithms/BRepAlgo/BRepAlgo_Cut.hxx>
 
 #include<BRepPrimAPI_MakeHalfSpace.hxx>
@@ -936,8 +936,8 @@ static Standard_Integer OCC310bug (Draw_Interpretor& di, Standard_Integer nb, co
   return 0;
 }
 
-#include <BRepAlgoAPI_Fuse.hxx>
-#include <BRepAlgoAPI_Common.hxx>
+#include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Fuse.hxx>
+#include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Common.hxx>
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Fuse.hxx>
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Common.hxx>
 
@@ -1433,8 +1433,8 @@ static Standard_Integer OCC525(Draw_Interpretor& di, Standard_Integer /*argc*/, 
 #include <Geometry/gce/gce_MakeTranslation.hxx>
 #include <BRepBuilderAPI_Transform.hxx>
 #include <BRepPrimAPI_MakeWedge.hxx>
-#include <BRepAlgoAPI_Fuse.hxx>
-#include <BRepAlgoAPI_Cut.hxx>
+#include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Fuse.hxx>
+#include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Cut.hxx>
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Fuse.hxx>
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Cut.hxx>
 //=======================================================================
@@ -2031,7 +2031,7 @@ static Standard_Integer OCC1034_AISSelectionMode (Draw_Interpretor& di,
   return 1;
 }
 
-#include<BRepAlgoAPI_Cut.hxx>
+#include<ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Cut.hxx>
 #include<ModelingAlgorithms/BRepAlgo/BRepAlgo_Cut.hxx>
 //=======================================================================
 //function :  OCC1487

@@ -26,7 +26,7 @@
 #include <TNaming_Builder.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
 #include <TDF_Label.hxx>
-#include <BRepAlgoAPI_BooleanOperation.hxx>
+#include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_BooleanOperation.hxx>
 #include <TDF_Data.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
@@ -65,7 +65,7 @@
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <TDF_Reference.hxx>
 #include <TDataStd_TreeNode.hxx>
-#include <BRepAlgoAPI_BooleanOperation.hxx>
+#include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_BooleanOperation.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>

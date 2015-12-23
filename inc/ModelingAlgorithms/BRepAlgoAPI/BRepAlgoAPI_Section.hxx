@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <BRepAlgoAPI_BooleanOperation.hxx>
+#include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_BooleanOperation.hxx>
 #include <Handle_Geom_Surface.hxx>
 class TopoDS_Shape;
 class BOPAlgo_PaveFiller;

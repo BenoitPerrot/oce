@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <TDF_Label.hxx>
-#include <BRepAlgoAPI_BooleanOperation.hxx>
+#include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_BooleanOperation.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <QANewBRepNaming_BooleanOperationFeat.hxx>
 #include <Foundation/Standard/Standard_NullObject.hxx>

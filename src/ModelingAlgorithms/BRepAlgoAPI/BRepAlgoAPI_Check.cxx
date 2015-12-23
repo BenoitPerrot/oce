@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <BRepAlgoAPI_Check.hxx>
+#include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Check.hxx>
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_ArgumentAnalyzer.hxx>
 #include <BRepCheck_Analyzer.hxx>
 

@@ -59,8 +59,8 @@
 //modified by NIZNHY-PKV Thu Mar 21 17:49:46 2002 f
 //#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Cut.hxx>
 //#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Fuse.hxx>
-#include <BRepAlgoAPI_Cut.hxx>
-#include <BRepAlgoAPI_Fuse.hxx>
+#include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Cut.hxx>
+#include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Fuse.hxx>
 //modified by NIZNHY-PKV Thu Mar 21 17:50:04 2002 t
 
 #include <BRepLib_MakeFace.hxx>

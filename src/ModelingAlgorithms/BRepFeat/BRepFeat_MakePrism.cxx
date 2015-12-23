@@ -63,8 +63,8 @@
 //modified by NIZNHY-PKV Thu Mar 21 18:14:23 2002 f
 //#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Cut.hxx>
 //#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Fuse.hxx>
-#include <BRepAlgoAPI_Cut.hxx>
-#include <BRepAlgoAPI_Fuse.hxx>
+#include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Cut.hxx>
+#include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Fuse.hxx>
 //modified by NIZNHY-PKV Thu Mar 21 18:14:26 2002 t
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>

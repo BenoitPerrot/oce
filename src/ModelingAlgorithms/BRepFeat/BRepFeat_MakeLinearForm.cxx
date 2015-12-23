@@ -100,8 +100,8 @@
 //modified by NIZNHY-PKV Fri Mar 22 16:51:33 2002 f
 //#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Section.hxx>
 //#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Common.hxx>
-#include <BRepAlgoAPI_Section.hxx>
-#include <BRepAlgoAPI_Common.hxx>
+#include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Section.hxx>
+#include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Common.hxx>
 //modified by NIZNHY-PKV Fri Mar 22 16:51:35 2002 t
 
 #include <BRepExtrema_ExtPC.hxx>

@@ -1,6 +1,6 @@
 #include <ModelingData/BRep/BRep_Tool.hxx>
 
-#include <BRepAlgoAPI_Fuse.hxx>
+#include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Fuse.hxx>
 
 #include <BRepLib_MakeEdge.hxx>
 #include <BRepLib_MakeFace.hxx>

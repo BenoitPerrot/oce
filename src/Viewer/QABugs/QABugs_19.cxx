@@ -2651,7 +2651,7 @@ static Standard_Integer OCC24925 (Draw_Interpretor& theDI,
 //function : OCC25043
 //purpose  :
 //=======================================================================
-#include <BRepAlgoAPI_Check.hxx>
+#include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Check.hxx>
 static Standard_Integer OCC25043 (Draw_Interpretor& theDI,
                                   Standard_Integer  theArgNb,
                                   const char**      theArgVec)
@@ -3003,11 +3003,11 @@ static Standard_Integer OCC25413 (Draw_Interpretor& di, Standard_Integer narg , 
 
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_PaveFiller.hxx>
 //
-#include <BRepAlgoAPI_BooleanOperation.hxx>
-#include <BRepAlgoAPI_Common.hxx>
-#include <BRepAlgoAPI_Fuse.hxx>
-#include <BRepAlgoAPI_Cut.hxx>
-#include <BRepAlgoAPI_Section.hxx>
+#include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_BooleanOperation.hxx>
+#include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Common.hxx>
+#include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Fuse.hxx>
+#include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Cut.hxx>
+#include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Section.hxx>
 //
 #include <ModelingAlgorithms/BOPTools/BOPTools.hxx>
 //

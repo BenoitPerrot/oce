@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <BRepAlgoAPI.hxx>
+#include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI.hxx>
 
 #include <stdio.h>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>

@@ -17,10 +17,10 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_PaveFiller.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-#include <BRepAlgoAPI_BooleanOperation.hxx>
+#include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_BooleanOperation.hxx>
 
-#include <BRepAlgoAPI.hxx>
-#include <BRepAlgoAPI_Check.hxx>
+#include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI.hxx>
+#include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Check.hxx>
 
 #include <BRepLib_FuseEdges.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>

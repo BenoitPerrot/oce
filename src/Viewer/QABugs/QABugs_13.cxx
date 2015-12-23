@@ -391,10 +391,10 @@ static Standard_Integer OCC332bug (Draw_Interpretor& di, Standard_Integer argc, 
 #include <Geometry/gce/gce_MakePln.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <BRepOffsetAPI_Sewing.hxx>
-#include <BRepAlgoAPI_Fuse.hxx>
+#include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Fuse.hxx>
 ///////#else
 ///////#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Fuse.hxx>
-///////#include <BRepAlgoAPI_Fuse.hxx>
+///////#include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Fuse.hxx>
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Fuse.hxx>
 
 //=======================================================================
@@ -799,13 +799,13 @@ static Standard_Integer OCC544 (Draw_Interpretor& di, Standard_Integer argc, con
 #include <ModelingData/TopTools/TopTools_Array1OfShape.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <BRepBuilderAPI_Copy.hxx>
-#include <BRepAlgoAPI_Cut.hxx>
-#include <BRepAlgoAPI_Common.hxx>
+#include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Cut.hxx>
+#include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Common.hxx>
 //////////#else
 //////////#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Cut.hxx>
 //////////#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Common.hxx>
-//////////#include <BRepAlgoAPI_Cut.hxx>
-//////////#include <BRepAlgoAPI_Common.hxx>
+//////////#include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Cut.hxx>
+//////////#include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Common.hxx>
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Cut.hxx>
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Common.hxx>
 #include <Precision.hxx>

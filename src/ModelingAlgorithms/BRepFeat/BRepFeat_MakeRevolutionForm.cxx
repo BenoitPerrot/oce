@@ -115,9 +115,9 @@
 //#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Cut.hxx>
 //#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Section.hxx>
 //#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Common.hxx>
-#include <BRepAlgoAPI_Cut.hxx>
-#include <BRepAlgoAPI_Section.hxx>
-#include <BRepAlgoAPI_Common.hxx>
+#include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Cut.hxx>
+#include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Section.hxx>
+#include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Common.hxx>
 //modified by NIZNHY-PKV Fri Mar 22 16:56:17 2002 t
 
 #include <BRepBuilderAPI_Transform.hxx>

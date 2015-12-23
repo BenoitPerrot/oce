@@ -19,7 +19,7 @@
 #include <Geometry/TColGeom/TColGeom_SequenceOfCurve.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <LocOpe_Gluer.hxx>
-#include <BRepAlgoAPI_BooleanOperation.hxx>
+#include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_BooleanOperation.hxx>
 #include <TopOpeBRepBuild_HBuilder.hxx>
 #include <BRepFeat_Form.hxx>
 
@@ -67,8 +67,8 @@
 //#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Cut.hxx>
 //#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Fuse.hxx>
 
-#include <BRepAlgoAPI_Cut.hxx>
-#include <BRepAlgoAPI_Fuse.hxx>
+#include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Cut.hxx>
+#include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Fuse.hxx>
 #include <BRepFeat_Builder.hxx>
 //modified by NIZNHY-PKV Thu Mar 21 17:30:29 2002 t
 
