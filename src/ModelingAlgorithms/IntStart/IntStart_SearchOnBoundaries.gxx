@@ -38,7 +38,7 @@
 //  Modified by skv - Tue Aug 31 12:13:51 2004 OCC569
 
 #include <Precision.hxx>
-#include <IntSurf_Quadric.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_Quadric.hxx>
 
 static void FindVertex (const TheArc&,
                         const Handle(TheTopolTool)&,

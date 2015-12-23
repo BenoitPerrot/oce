@@ -14,15 +14,15 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IntSurf_Quadric.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_Quadric.hxx>
 #include <ModelingAlgorithms/IntPatch/IntPatch_WLine.hxx>
 #include <ModelingAlgorithms/IntPatch/IntPatch_ALine.hxx>
 #include <ModelingAlgorithms/IntPatch/IntPatch_ALineToWLine.hxx>
 
-#include <IntSurf_LineOn2S.hxx>
-#include <IntSurf_PntOn2S.hxx>
-#include <IntSurf_TypeTrans.hxx>
-#include <IntSurf_Situation.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_LineOn2S.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_PntOn2S.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_TypeTrans.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_Situation.hxx>
 
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>

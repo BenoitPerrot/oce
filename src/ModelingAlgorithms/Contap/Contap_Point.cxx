@@ -18,7 +18,7 @@
 #include <Geometry/Adaptor3d/Adaptor3d_HVertex.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <IntSurf_Transition.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_Transition.hxx>
 #include <ModelingAlgorithms/Contap/Contap_Point.hxx>
 
 Contap_Point::Contap_Point ():

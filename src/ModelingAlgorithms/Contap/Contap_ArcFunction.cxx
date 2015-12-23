@@ -18,7 +18,7 @@
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <IntSurf_Quadric.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_Quadric.hxx>
 #include <ModelingAlgorithms/Contap/Contap_ArcFunction.hxx>
 
 #include <ModelingAlgorithms/Contap/Contap_HContTool.hxx>

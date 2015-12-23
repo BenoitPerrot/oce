@@ -11,7 +11,7 @@
 #include <Handle_BRepBlend_Line.hxx>
 
 #include <ModelingAlgorithms/Blend/Blend_SequenceOfPoint.hxx>
-#include <IntSurf_TypeTrans.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_TypeTrans.hxx>
 #include <ModelingAlgorithms/BRepBlend/BRepBlend_Extremity.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

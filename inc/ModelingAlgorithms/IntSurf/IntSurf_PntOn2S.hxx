@@ -84,7 +84,7 @@ private:
 };
 
 
-#include <IntSurf_PntOn2S.lxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_PntOn2S.lxx>
 
 
 

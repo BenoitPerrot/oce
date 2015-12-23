@@ -31,7 +31,7 @@
 #include <Geometry/Adaptor3d/Adaptor3d_TopolTool.hxx>
 #include <ModelingAlgorithms/IntPatch/IntPatch_RstInt.hxx>
 
-#include <IntSurf.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf.hxx>
 
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt2d.hxx>

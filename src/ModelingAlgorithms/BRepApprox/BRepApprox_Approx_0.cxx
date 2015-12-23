@@ -9,8 +9,8 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <ModelingAlgorithms/BRepApprox/BRepApprox_SurfaceTool.hxx>
-#include <IntSurf_Quadric.hxx>
-#include <IntSurf_QuadricTool.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_Quadric.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_QuadricTool.hxx>
 #include <ModelingAlgorithms/BRepApprox/BRepApprox_ApproxLine.hxx>
 #include <ModelingAlgorithms/BRepApprox/BRepApprox_ThePrmPrmSvSurfacesOfApprox.hxx>
 #include <ModelingAlgorithms/BRepApprox/BRepApprox_TheInt2SOfThePrmPrmSvSurfacesOfApprox.hxx>
@@ -31,9 +31,9 @@
 #define ThePSurfaceTool BRepApprox_SurfaceTool
 #define ThePSurfaceTool_hxx <ModelingAlgorithms/BRepApprox/BRepApprox_SurfaceTool.hxx>
 #define TheISurface IntSurf_Quadric
-#define TheISurface_hxx <IntSurf_Quadric.hxx>
+#define TheISurface_hxx <ModelingAlgorithms/IntSurf/IntSurf_Quadric.hxx>
 #define TheISurfaceTool IntSurf_QuadricTool
-#define TheISurfaceTool_hxx <IntSurf_QuadricTool.hxx>
+#define TheISurfaceTool_hxx <ModelingAlgorithms/IntSurf/IntSurf_QuadricTool.hxx>
 #define Handle_TheWLine Handle_BRepApprox_ApproxLine
 #define TheWLine BRepApprox_ApproxLine
 #define TheWLine_hxx <ModelingAlgorithms/BRepApprox/BRepApprox_ApproxLine.hxx>

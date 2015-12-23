@@ -19,7 +19,7 @@
 #include <ModelingAlgorithms/IntPatch/IntPatch_ThePathPointOfTheSOnBounds.hxx>
 #include <ModelingAlgorithms/IntPatch/IntPatch_TheSegmentOfTheSOnBounds.hxx>
 #include <ModelingAlgorithms/IntPatch/IntPatch_RLine.hxx>
-#include <IntSurf.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 

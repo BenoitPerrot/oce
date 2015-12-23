@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <IntSurf_TypeTrans.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_TypeTrans.hxx>
 #include <Handle_IntSurf_LineOn2S.hxx>
 #include <Handle_Contap_TheHSequenceOfPoint.hxx>
 #include <Handle_Adaptor2d_HCurve2d.hxx>

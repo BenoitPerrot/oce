@@ -16,7 +16,7 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <IntSurf_Transition.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_Transition.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 class Standard_DomainError;
 class IntPatch_Point;

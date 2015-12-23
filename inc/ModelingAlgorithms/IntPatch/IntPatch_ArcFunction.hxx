@@ -12,7 +12,7 @@
 
 #include <Handle_Adaptor2d_HCurve2d.hxx>
 #include <Handle_Adaptor3d_HSurface.hxx>
-#include <IntSurf_Quadric.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_Quadric.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <Mathematics/Optimization/math_FunctionWithDerivative.hxx>

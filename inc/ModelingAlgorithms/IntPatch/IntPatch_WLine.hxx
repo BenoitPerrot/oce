@@ -19,8 +19,8 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Adaptor2d_HCurve2d.hxx>
 #include <ModelingAlgorithms/IntPatch/IntPatch_Line.hxx>
-#include <IntSurf_TypeTrans.hxx>
-#include <IntSurf_Situation.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_TypeTrans.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_Situation.hxx>
 class IntSurf_LineOn2S;
 class Adaptor2d_HCurve2d;
 class Standard_OutOfRange;

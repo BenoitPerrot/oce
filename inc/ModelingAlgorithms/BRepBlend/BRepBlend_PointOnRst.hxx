@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_Adaptor2d_HCurve2d.hxx>
-#include <IntSurf_Transition.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_Transition.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class Adaptor2d_HCurve2d;
 class Standard_DomainError;

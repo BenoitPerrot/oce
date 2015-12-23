@@ -18,8 +18,8 @@
 #include <Mathematics/Collections/TColgp_HSequenceOfPnt.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
-#include <IntSurf_PntOn2S.hxx>
-#include <IntSurf_LineOn2S.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_PntOn2S.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_LineOn2S.hxx>
 
 #include <ModelingAlgorithms/Contap/Contap_Point.hxx>
 #include <ModelingAlgorithms/Contap/Contap_TheHSequenceOfPoint.hxx>

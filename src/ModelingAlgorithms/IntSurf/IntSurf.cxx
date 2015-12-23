@@ -14,14 +14,14 @@
 
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
-#include <IntSurf_Transition.hxx>
-#include <IntSurf.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_Transition.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf.hxx>
 
 #include <Precision.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <IntSurf_Transition.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_Transition.hxx>
 
 //--------------------------------------------------------------
 //-- IntSurf::MakeTransition(Vtgint,Vtgrst,Normale,Transline,Transarc);

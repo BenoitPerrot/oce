@@ -18,8 +18,8 @@
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <IntSurf_Transition.hxx>
-#include <IntSurf_PntOn2S.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_Transition.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_PntOn2S.hxx>
 #include <ModelingAlgorithms/IntPatch/IntPatch_Point.hxx>
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
@@ -123,9 +123,9 @@ void IntPatch_Point::ReverseTransition()
 }
 
 
-#include <IntSurf_Situation.hxx>
-#include <IntSurf_Transition.hxx>
-#include <IntSurf_TypeTrans.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_Situation.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_Transition.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_TypeTrans.hxx>
 
 static void DumpTransition(const IntSurf_Transition& T)
 {

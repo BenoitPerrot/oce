@@ -7,11 +7,11 @@
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <IntSurf_LineOn2S.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_LineOn2S.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <IntSurf_PathPoint.hxx>
-#include <IntSurf_PntOn2S.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_PathPoint.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_PntOn2S.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 
  
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(Contap_TheIWLineOfTheIWalking)
 
 
 #define TheStartPoint IntSurf_PathPoint
-#define TheStartPoint_hxx <IntSurf_PathPoint.hxx>
+#define TheStartPoint_hxx <ModelingAlgorithms/IntSurf/IntSurf_PathPoint.hxx>
 #define IntWalk_IWLine Contap_TheIWLineOfTheIWalking
 #define IntWalk_IWLine_hxx <ModelingAlgorithms/Contap/Contap_TheIWLineOfTheIWalking.hxx>
 #define Handle_IntWalk_IWLine Handle_Contap_TheIWLineOfTheIWalking

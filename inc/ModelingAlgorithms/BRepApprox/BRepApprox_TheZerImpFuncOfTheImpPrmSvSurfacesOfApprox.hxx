@@ -115,9 +115,9 @@ private:
 #define ThePSurfaceTool BRepApprox_SurfaceTool
 #define ThePSurfaceTool_hxx <ModelingAlgorithms/BRepApprox/BRepApprox_SurfaceTool.hxx>
 #define TheISurface IntSurf_Quadric
-#define TheISurface_hxx <IntSurf_Quadric.hxx>
+#define TheISurface_hxx <ModelingAlgorithms/IntSurf/IntSurf_Quadric.hxx>
 #define TheISurfaceTool IntSurf_QuadricTool
-#define TheISurfaceTool_hxx <IntSurf_QuadricTool.hxx>
+#define TheISurfaceTool_hxx <ModelingAlgorithms/IntSurf/IntSurf_QuadricTool.hxx>
 #define IntImp_ZerImpFunc BRepApprox_TheZerImpFuncOfTheImpPrmSvSurfacesOfApprox
 #define IntImp_ZerImpFunc_hxx <ModelingAlgorithms/BRepApprox/BRepApprox_TheZerImpFuncOfTheImpPrmSvSurfacesOfApprox.hxx>
 

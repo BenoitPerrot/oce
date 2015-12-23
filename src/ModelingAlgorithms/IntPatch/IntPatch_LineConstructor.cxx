@@ -30,8 +30,8 @@
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <IntSurf_Quadric.hxx>
-#include <IntSurf_PntOn2S.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_Quadric.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_PntOn2S.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <GeomAbs_SurfaceType.hxx>
 #include <ElCLib.hxx>

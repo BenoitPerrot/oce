@@ -12,7 +12,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IntSurf_Couple.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_Couple.hxx>
 
 IntWalk_IWLine::IntWalk_IWLine (const IntSurf_Allocator& theAllocator) :
   line (new IntSurf_LineOn2S (theAllocator)),

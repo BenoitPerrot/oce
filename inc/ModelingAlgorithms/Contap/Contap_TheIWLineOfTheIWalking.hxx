@@ -11,13 +11,13 @@
 #include <Handle_Contap_TheIWLineOfTheIWalking.hxx>
 
 #include <Handle_IntSurf_LineOn2S.hxx>
-#include <IntSurf_SequenceOfCouple.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_SequenceOfCouple.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <IntSurf_PathPoint.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_PathPoint.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <IntSurf_Allocator.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_Allocator.hxx>
 class IntSurf_LineOn2S;
 class Standard_OutOfRange;
 class Standard_DomainError;
@@ -120,7 +120,7 @@ private:
 };
 
 #define TheStartPoint IntSurf_PathPoint
-#define TheStartPoint_hxx <IntSurf_PathPoint.hxx>
+#define TheStartPoint_hxx <ModelingAlgorithms/IntSurf/IntSurf_PathPoint.hxx>
 #define IntWalk_IWLine Contap_TheIWLineOfTheIWalking
 #define IntWalk_IWLine_hxx <ModelingAlgorithms/Contap/Contap_TheIWLineOfTheIWalking.hxx>
 #define Handle_IntWalk_IWLine Handle_Contap_TheIWLineOfTheIWalking

@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IntSurf_SequenceNodeOfSequenceOfPathPoint.hxx>
 
-#include <IntSurf_PathPoint.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_PathPoint.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>
 #include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class IntSurf_PathPoint;
@@ -47,13 +47,13 @@ private:
 };
 
 #define SeqItem IntSurf_PathPoint
-#define SeqItem_hxx <IntSurf_PathPoint.hxx>
+#define SeqItem_hxx <ModelingAlgorithms/IntSurf/IntSurf_PathPoint.hxx>
 #define TCollection_SequenceNode IntSurf_SequenceNodeOfSequenceOfPathPoint
-#define TCollection_SequenceNode_hxx <IntSurf_SequenceNodeOfSequenceOfPathPoint.hxx>
+#define TCollection_SequenceNode_hxx <ModelingAlgorithms/IntSurf/IntSurf_SequenceNodeOfSequenceOfPathPoint.hxx>
 #define Handle_TCollection_SequenceNode Handle_IntSurf_SequenceNodeOfSequenceOfPathPoint
 #define TCollection_SequenceNode_Type_() IntSurf_SequenceNodeOfSequenceOfPathPoint_Type_()
 #define TCollection_Sequence IntSurf_SequenceOfPathPoint
-#define TCollection_Sequence_hxx <IntSurf_SequenceOfPathPoint.hxx>
+#define TCollection_Sequence_hxx <ModelingAlgorithms/IntSurf/IntSurf_SequenceOfPathPoint.hxx>
 
 #include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 

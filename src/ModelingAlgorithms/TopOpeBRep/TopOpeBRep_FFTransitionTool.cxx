@@ -18,9 +18,9 @@
 #include <TopOpeBRepDS_CurvePointInterference.hxx>
 #include <TopOpeBRepDS_SurfaceCurveInterference.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
-#include <IntSurf_Transition.hxx>
-#include <IntSurf_TypeTrans.hxx>
-#include <IntSurf_Situation.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_Transition.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_TypeTrans.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_Situation.hxx>
 #include <TopOpeBRepDS_Transition.hxx>
 #include <TopOpeBRep_VPointInter.hxx>
 #include <TopOpeBRep_LineInter.hxx>

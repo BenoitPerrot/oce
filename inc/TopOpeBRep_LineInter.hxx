@@ -24,8 +24,8 @@
 #include <TopOpeBRepDS_Transition.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <IntSurf_TypeTrans.hxx>
-#include <IntSurf_Situation.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_TypeTrans.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_Situation.hxx>
 #include <Handle_Geom_Curve.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 class IntPatch_Line;

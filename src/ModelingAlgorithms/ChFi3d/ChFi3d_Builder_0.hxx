@@ -37,8 +37,8 @@
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
-#include <IntSurf_LineOn2S.hxx>
-#include <IntSurf_TypeTrans.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_LineOn2S.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_TypeTrans.hxx>
 #include <ModelingAlgorithms/GeomFill/GeomFill_Boundary.hxx>
 #include <ModelingAlgorithms/GeomFill/GeomFill_BoundWithSurf.hxx>
 #include <ModelingAlgorithms/GeomFill/GeomFill_SimpleBound.hxx>

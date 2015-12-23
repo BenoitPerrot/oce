@@ -3,21 +3,21 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IntSurf_SequenceOfCouple.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_SequenceOfCouple.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <IntSurf_Couple.hxx>
-#include <IntSurf_SequenceNodeOfSequenceOfCouple.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_Couple.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_SequenceNodeOfSequenceOfCouple.hxx>
  
 
 #define SeqItem IntSurf_Couple
-#define SeqItem_hxx <IntSurf_Couple.hxx>
+#define SeqItem_hxx <ModelingAlgorithms/IntSurf/IntSurf_Couple.hxx>
 #define TCollection_SequenceNode IntSurf_SequenceNodeOfSequenceOfCouple
-#define TCollection_SequenceNode_hxx <IntSurf_SequenceNodeOfSequenceOfCouple.hxx>
+#define TCollection_SequenceNode_hxx <ModelingAlgorithms/IntSurf/IntSurf_SequenceNodeOfSequenceOfCouple.hxx>
 #define Handle_TCollection_SequenceNode Handle_IntSurf_SequenceNodeOfSequenceOfCouple
 #define TCollection_SequenceNode_Type_() IntSurf_SequenceNodeOfSequenceOfCouple_Type_()
 #define TCollection_Sequence IntSurf_SequenceOfCouple
-#define TCollection_Sequence_hxx <IntSurf_SequenceOfCouple.hxx>
+#define TCollection_Sequence_hxx <ModelingAlgorithms/IntSurf/IntSurf_SequenceOfCouple.hxx>
 #include <Foundation/TCollection/TCollection_Sequence.gxx>
 

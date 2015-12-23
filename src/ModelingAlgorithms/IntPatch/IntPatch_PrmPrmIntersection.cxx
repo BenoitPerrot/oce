@@ -22,10 +22,10 @@
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #include <ModelingAlgorithms/IntPatch/IntPatch_Polyhedron.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_TopolTool.hxx>
-#include <IntSurf_ListOfPntOn2S.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_ListOfPntOn2S.hxx>
 #include <ModelingAlgorithms/IntPatch/IntPatch_Line.hxx>
 #include <ModelingAlgorithms/IntPatch/IntPatch_PrmPrmIntersection_T3Bits.hxx>
-#include <IntSurf_LineOn2S.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_LineOn2S.hxx>
 #include <ModelingAlgorithms/IntPatch/IntPatch_PrmPrmIntersection.hxx>
 
 #include <ModelingAlgorithms/IntPatch/IntPatch_InterferencePolyhedron.hxx>
@@ -35,8 +35,8 @@
 
 #include <ModelingAlgorithms/IntPatch/IntPatch_Line.hxx>
 
-#include <IntSurf_PntOn2S.hxx>
-#include <IntSurf_LineOn2S.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_PntOn2S.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_LineOn2S.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <ModelingAlgorithms/Intf/Intf_PIType.hxx>
 #include <ModelingAlgorithms/Intf/Intf_SectionLine.hxx>
@@ -47,7 +47,7 @@
 #include <ModelingAlgorithms/IntPolyh/IntPolyh_Intersection.hxx>
 
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
-#include <IntSurf_ListIteratorOfListOfPntOn2S.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_ListIteratorOfListOfPntOn2S.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 
 static void SectionPointToParameters(const Intf_SectionPoint& Sp,

@@ -51,7 +51,7 @@ private:
 };
 
 
-#include <IntSurf_Couple.lxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_Couple.lxx>
 
 
 

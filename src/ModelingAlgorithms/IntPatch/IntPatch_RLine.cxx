@@ -15,11 +15,11 @@
 // commercial license or contractual agreement.
 
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
-#include <IntSurf_LineOn2S.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_LineOn2S.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <ModelingAlgorithms/IntPatch/IntPatch_Point.hxx>
-#include <IntSurf_PntOn2S.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_PntOn2S.hxx>
 #include <ModelingAlgorithms/IntPatch/IntPatch_RLine.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IntPatch_RLine)
@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_TYPE_END(IntPatch_RLine)
 IMPLEMENT_DOWNCAST(IntPatch_RLine,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IntPatch_RLine)
 
-#include <IntSurf_PntOn2S.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_PntOn2S.hxx>
 #include <Precision.hxx>
 
 IntPatch_RLine::IntPatch_RLine (const Standard_Boolean Tang,

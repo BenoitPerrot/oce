@@ -5,13 +5,13 @@
 
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_TheQuadCurvFuncOfTheQuadCurvExactInterCSurf.hxx>
 
-#include <IntSurf_Quadric.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_Quadric.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_LineTool.hxx>
  
 
 #define TheQuadric IntSurf_Quadric
-#define TheQuadric_hxx <IntSurf_Quadric.hxx>
+#define TheQuadric_hxx <ModelingAlgorithms/IntSurf/IntSurf_Quadric.hxx>
 #define TheCurve gp_Lin
 #define TheCurve_hxx <Mathematics/Primitives/gp_Lin.hxx>
 #define TheCurveTool HLRBRep_LineTool

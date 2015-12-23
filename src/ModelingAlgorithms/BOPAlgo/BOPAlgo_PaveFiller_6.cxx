@@ -23,7 +23,7 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <ModelingAlgorithms/BOPDS/BOPDS_Curve.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
-#include <IntSurf_ListOfPntOn2S.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_ListOfPntOn2S.hxx>
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_PaveFiller.hxx>
 //
 #include <Precision.hxx>
@@ -59,8 +59,8 @@
 #include <IntTools_PntOn2Faces.hxx>
 #include <IntTools_Tools.hxx>
 
-#include <IntSurf_ListOfPntOn2S.hxx>
-#include <IntSurf_PntOn2S.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_ListOfPntOn2S.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_PntOn2S.hxx>
 
 #include <ModelingAlgorithms/BOPTools/BOPTools_AlgoTools.hxx>
 #include <ModelingAlgorithms/BOPTools/BOPTools_AlgoTools3D.hxx>

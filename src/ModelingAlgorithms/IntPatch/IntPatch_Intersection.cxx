@@ -18,7 +18,7 @@
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_TopolTool.hxx>
-#include <IntSurf_ListOfPntOn2S.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_ListOfPntOn2S.hxx>
 #include <ModelingAlgorithms/IntPatch/IntPatch_Point.hxx>
 #include <ModelingAlgorithms/IntPatch/IntPatch_Line.hxx>
 #include <ModelingAlgorithms/IntPatch/IntPatch_SequenceOfLine.hxx>
@@ -32,7 +32,7 @@
 #include <ModelingAlgorithms/IntPatch/IntPatch_PrmPrmIntersection.hxx>
 #include <ModelingAlgorithms/IntPatch/IntPatch_ImpPrmIntersection.hxx>
 #include <ModelingAlgorithms/IntPatch/IntPatch_ImpImpIntersection.hxx>
-#include <IntSurf_Quadric.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_Quadric.hxx>
 
 #include <stdio.h>
 

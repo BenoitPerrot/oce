@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IntSurf_ListNodeOfListOfPntOn2S.hxx>
 
-#include <IntSurf_PntOn2S.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_PntOn2S.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class IntSurf_PntOn2S;
@@ -48,15 +48,15 @@ private:
 };
 
 #define Item IntSurf_PntOn2S
-#define Item_hxx <IntSurf_PntOn2S.hxx>
+#define Item_hxx <ModelingAlgorithms/IntSurf/IntSurf_PntOn2S.hxx>
 #define TCollection_ListNode IntSurf_ListNodeOfListOfPntOn2S
-#define TCollection_ListNode_hxx <IntSurf_ListNodeOfListOfPntOn2S.hxx>
+#define TCollection_ListNode_hxx <ModelingAlgorithms/IntSurf/IntSurf_ListNodeOfListOfPntOn2S.hxx>
 #define TCollection_ListIterator IntSurf_ListIteratorOfListOfPntOn2S
-#define TCollection_ListIterator_hxx <IntSurf_ListIteratorOfListOfPntOn2S.hxx>
+#define TCollection_ListIterator_hxx <ModelingAlgorithms/IntSurf/IntSurf_ListIteratorOfListOfPntOn2S.hxx>
 #define Handle_TCollection_ListNode Handle_IntSurf_ListNodeOfListOfPntOn2S
 #define TCollection_ListNode_Type_() IntSurf_ListNodeOfListOfPntOn2S_Type_()
 #define TCollection_List IntSurf_ListOfPntOn2S
-#define TCollection_List_hxx <IntSurf_ListOfPntOn2S.hxx>
+#define TCollection_List_hxx <ModelingAlgorithms/IntSurf/IntSurf_ListOfPntOn2S.hxx>
 
 #include <Foundation/TCollection/TCollection_ListNode.lxx>
 

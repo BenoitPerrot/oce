@@ -17,8 +17,8 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <ModelingAlgorithms/IntPatch/IntPatch_SequenceOfPoint.hxx>
 #include <ModelingAlgorithms/IntPatch/IntPatch_Line.hxx>
-#include <IntSurf_TypeTrans.hxx>
-#include <IntSurf_Situation.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_TypeTrans.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_Situation.hxx>
 class Adaptor2d_HCurve2d;
 class IntSurf_LineOn2S;
 class Standard_DomainError;

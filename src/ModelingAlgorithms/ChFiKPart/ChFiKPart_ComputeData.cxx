@@ -58,8 +58,8 @@
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 //#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve2d.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
-#include <IntSurf_Transition.hxx>
-#include <IntSurf_TypeTrans.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_Transition.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_TypeTrans.hxx>
 #include <ModelingAlgorithms/IntRes2d/IntRes2d_Transition.hxx>
 #include <ModelingAlgorithms/IntRes2d/IntRes2d_TypeTrans.hxx>
 #include <ModelingAlgorithms/IntRes2d/IntRes2d_Position.hxx>

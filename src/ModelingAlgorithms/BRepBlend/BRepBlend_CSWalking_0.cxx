@@ -21,7 +21,7 @@
 #include <ModelingAlgorithms/BRepBlend/BRepBlend_SequenceOfPointOnRst.hxx>
 #include <ModelingAlgorithms/BRepBlend/BRepBlend_Extremity.hxx>
 #include <ModelingAlgorithms/Blend/Blend_CSFunction.hxx>
-#include <IntSurf_Transition.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_Transition.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>

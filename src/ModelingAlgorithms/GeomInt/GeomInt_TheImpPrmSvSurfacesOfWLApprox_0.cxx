@@ -7,8 +7,8 @@
 
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HSurfaceTool.hxx>
-#include <IntSurf_Quadric.hxx>
-#include <IntSurf_QuadricTool.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_Quadric.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_QuadricTool.hxx>
 #include <ModelingAlgorithms/IntPatch/IntPatch_WLine.hxx>
 #include <ModelingAlgorithms/GeomInt/GeomInt_TheZerImpFuncOfTheImpPrmSvSurfacesOfWLApprox.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
@@ -21,9 +21,9 @@
 #define ThePSurfaceTool Adaptor3d_HSurfaceTool
 #define ThePSurfaceTool_hxx <Geometry/Adaptor3d/Adaptor3d_HSurfaceTool.hxx>
 #define TheISurface IntSurf_Quadric
-#define TheISurface_hxx <IntSurf_Quadric.hxx>
+#define TheISurface_hxx <ModelingAlgorithms/IntSurf/IntSurf_Quadric.hxx>
 #define TheISurfaceTool IntSurf_QuadricTool
-#define TheISurfaceTool_hxx <IntSurf_QuadricTool.hxx>
+#define TheISurfaceTool_hxx <ModelingAlgorithms/IntSurf/IntSurf_QuadricTool.hxx>
 #define Handle_TheLine Handle_IntPatch_WLine
 #define TheLine IntPatch_WLine
 #define TheLine_hxx <ModelingAlgorithms/IntPatch/IntPatch_WLine.hxx>

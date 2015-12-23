@@ -116,9 +116,9 @@ private:
 #define ThePSurfaceTool Adaptor3d_HSurfaceTool
 #define ThePSurfaceTool_hxx <Geometry/Adaptor3d/Adaptor3d_HSurfaceTool.hxx>
 #define TheISurface IntSurf_Quadric
-#define TheISurface_hxx <IntSurf_Quadric.hxx>
+#define TheISurface_hxx <ModelingAlgorithms/IntSurf/IntSurf_Quadric.hxx>
 #define TheISurfaceTool IntSurf_QuadricTool
-#define TheISurfaceTool_hxx <IntSurf_QuadricTool.hxx>
+#define TheISurfaceTool_hxx <ModelingAlgorithms/IntSurf/IntSurf_QuadricTool.hxx>
 #define IntImp_ZerImpFunc GeomInt_TheZerImpFuncOfTheImpPrmSvSurfacesOfWLApprox
 #define IntImp_ZerImpFunc_hxx <ModelingAlgorithms/GeomInt/GeomInt_TheZerImpFuncOfTheImpPrmSvSurfacesOfWLApprox.hxx>
 

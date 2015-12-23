@@ -30,9 +30,9 @@
 
 #include <Mathematics/Optimization/math_FunctionSetRoot.hxx>
 
-#include <IntSurf.hxx>
-#include <IntSurf_InteriorPoint.hxx>
-#include <IntSurf_SequenceOfPathPoint.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_InteriorPoint.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_SequenceOfPathPoint.hxx>
 
 #include <TopTrans_CurveTransition.hxx>
 

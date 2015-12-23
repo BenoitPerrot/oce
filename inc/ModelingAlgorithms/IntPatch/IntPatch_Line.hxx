@@ -12,8 +12,8 @@
 
 #include <ModelingAlgorithms/IntPatch/IntPatch_IType.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <IntSurf_TypeTrans.hxx>
-#include <IntSurf_Situation.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_TypeTrans.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_Situation.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class Standard_DomainError;
 class Standard_OutOfRange;

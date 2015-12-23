@@ -26,13 +26,13 @@
 #include <ModelingAlgorithms/Blend/Blend_SurfCurvFuncInv.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HVertex.hxx>
-#include <IntSurf_Transition.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_Transition.hxx>
 #include <ModelingAlgorithms/BRepBlend/BRepBlend_Extremity.hxx>
 #include <ModelingAlgorithms/Blend/Blend_Point.hxx>
 #include <ModelingAlgorithms/BRepBlend/BRepBlend_SurfRstLineBuilder.hxx>
 #include <ModelingAlgorithms/BRepBlend/BRepBlend_BlendTool.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
-#include <IntSurf.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf.hxx>
 #include <Mathematics/Optimization/math_FunctionSetRoot.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>

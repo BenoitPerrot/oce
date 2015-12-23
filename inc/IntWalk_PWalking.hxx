@@ -16,7 +16,7 @@
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <ModelingAlgorithms/IntImp/IntImp_ConstIsoparametric.hxx>
-#include <IntSurf_PntOn2S.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_PntOn2S.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <IntWalk_TheInt2S.hxx>
 #include <Handle_Adaptor3d_HSurface.hxx>

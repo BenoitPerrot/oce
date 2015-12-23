@@ -12,7 +12,7 @@
 #include <Geometry/Adaptor3d/Adaptor3d_TopolTool.hxx>
 #include <ModelingAlgorithms/Contap/Contap_HContTool.hxx>
 #include <ModelingAlgorithms/Contap/Contap_SurfFunction.hxx>
-#include <IntSurf_InteriorPoint.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_InteriorPoint.hxx>
  
 
 #define ThePSurface Handle(Adaptor3d_HSurface)

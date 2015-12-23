@@ -56,7 +56,7 @@ private:
 };
 
 
-#include <IntSurf_QuadricTool.lxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_QuadricTool.lxx>
 
 
 

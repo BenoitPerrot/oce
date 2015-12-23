@@ -19,7 +19,7 @@
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <Mathematics/Optimization/math_FunctionAllRoots.hxx>
 #include <Mathematics/Optimization/math_FunctionSample.hxx>
-#include <IntSurf_Quadric.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_Quadric.hxx>
 #include <GeomAbs_SurfaceType.hxx>
 
 

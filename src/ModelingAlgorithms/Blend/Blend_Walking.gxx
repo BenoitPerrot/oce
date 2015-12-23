@@ -17,7 +17,7 @@
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_Array2OfVec.hxx>
 
-#include <IntSurf.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #include <CSLib.hxx>
 #include <CSLib_NormalStatus.hxx>

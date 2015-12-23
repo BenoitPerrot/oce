@@ -18,7 +18,7 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
-#include <IntSurf_Transition.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_Transition.hxx>
 #include <ModelingAlgorithms/BRepBlend/BRepBlend_PointOnRst.hxx>
 #include <ModelingAlgorithms/BRepBlend/BRepBlend_Extremity.hxx>
 #include <ModelingAlgorithms/BRepBlend/BRepBlend_PointOnRst.hxx>

@@ -19,7 +19,7 @@
 #include <IntTools_SequenceOfCurves.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <IntTools_SequenceOfPntOn2Faces.hxx>
-#include <IntSurf_ListOfPntOn2S.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_ListOfPntOn2S.hxx>
 #include <Handle_IntTools_Context.hxx>
 #include <Handle_Adaptor3d_TopolTool.hxx>
 class GeomAdaptor_HSurface;

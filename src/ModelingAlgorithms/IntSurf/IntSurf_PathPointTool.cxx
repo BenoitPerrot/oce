@@ -14,7 +14,7 @@
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/StdFail/StdFail_UndefinedDerivative.hxx>
-#include <IntSurf_PathPoint.hxx>
-#include <IntSurf_PathPointTool.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_PathPoint.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_PathPointTool.hxx>
 
 

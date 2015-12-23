@@ -27,14 +27,14 @@
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <ModelingAlgorithms/IntPatch/IntPatch_SequenceOfLine.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
-#include <IntSurf_PntOn2S.hxx>
-#include <IntSurf_LineOn2S.hxx>
-#include <IntSurf.hxx>
-#include <IntSurf_InteriorPoint.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_PntOn2S.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_LineOn2S.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_InteriorPoint.hxx>
 
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
-#include <IntSurf_PathPoint.hxx>
-#include <IntSurf_SequenceOfPathPoint.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_PathPoint.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_SequenceOfPathPoint.hxx>
 #include <ModelingAlgorithms/IntPatch/IntPatch_TheIWalking.hxx>
 #include <ModelingAlgorithms/IntPatch/IntPatch_TheIWLineOfTheIWalking.hxx>
 #include <ModelingAlgorithms/IntPatch/IntPatch_ThePathPointOfTheSOnBounds.hxx>
@@ -58,8 +58,8 @@
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 
-#include <IntSurf_SequenceOfInteriorPoint.hxx>
-#include <IntSurf_QuadricTool.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_SequenceOfInteriorPoint.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_QuadricTool.hxx>
 #include <GeomAbs_SurfaceType.hxx>
 
 static Standard_Boolean DecomposeResult(const Handle(IntPatch_Line)&   Line,

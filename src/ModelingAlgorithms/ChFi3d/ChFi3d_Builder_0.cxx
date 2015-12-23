@@ -113,9 +113,9 @@
 #include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_TheQuadCurvFuncOfTheQuadCurvExactHInter.hxx>
 #include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_HInter.hxx>
 #include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_IntersectionPoint.hxx>
-#include <IntSurf_Quadric.hxx>
-#include <IntSurf_PntOn2S.hxx>
-#include <IntSurf_LineOn2S.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_Quadric.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_PntOn2S.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_LineOn2S.hxx>
 #include <Geometry/IntAna/IntAna_QuadQuadGeo.hxx>
 #include <Geometry/IntAna2d/IntAna2d_AnaIntersection.hxx>
 #include <ModelingAlgorithms/IntRes2d/IntRes2d_IntersectionPoint.hxx>

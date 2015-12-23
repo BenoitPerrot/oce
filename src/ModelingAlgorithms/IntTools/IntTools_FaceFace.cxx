@@ -19,7 +19,7 @@
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <IntTools_SequenceOfCurves.hxx>
 #include <IntTools_SequenceOfPntOn2Faces.hxx>
-#include <IntSurf_ListOfPntOn2S.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_ListOfPntOn2S.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_TopolTool.hxx>
 #include <IntTools_FaceFace.hxx>
 
@@ -48,10 +48,10 @@
 
 #include <Geometry/IntAna/IntAna_QuadQuadGeo.hxx>
 
-#include <IntSurf_PntOn2S.hxx>
-#include <IntSurf_LineOn2S.hxx>
-#include <IntSurf_PntOn2S.hxx>
-#include <IntSurf_ListOfPntOn2S.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_PntOn2S.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_LineOn2S.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_PntOn2S.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_ListOfPntOn2S.hxx>
 #include <ModelingAlgorithms/IntRes2d/IntRes2d_Domain.hxx>
 #include <Geometry/ProjLib/ProjLib_Plane.hxx>
 
@@ -120,7 +120,7 @@
 #include <IntTools_PntOnFace.hxx>
 #include <IntTools_PntOn2Faces.hxx>
 #include <IntTools_Context.hxx>
-#include <IntSurf_ListIteratorOfListOfPntOn2S.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_ListIteratorOfListOfPntOn2S.hxx>
 #include <ModelingAlgorithms/GeomInt/GeomInt.hxx>
 
 static

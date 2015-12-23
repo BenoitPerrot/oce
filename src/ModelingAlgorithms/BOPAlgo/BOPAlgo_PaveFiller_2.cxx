@@ -23,7 +23,7 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <ModelingAlgorithms/BOPDS/BOPDS_Curve.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
-#include <IntSurf_ListOfPntOn2S.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_ListOfPntOn2S.hxx>
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_PaveFiller.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>

@@ -8,8 +8,8 @@
 #include <Foundation/StdFail/StdFail_UndefinedDerivative.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HSurfaceTool.hxx>
-#include <IntSurf_Quadric.hxx>
-#include <IntSurf_QuadricTool.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_Quadric.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_QuadricTool.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
@@ -21,9 +21,9 @@
 #define ThePSurfaceTool Adaptor3d_HSurfaceTool
 #define ThePSurfaceTool_hxx <Geometry/Adaptor3d/Adaptor3d_HSurfaceTool.hxx>
 #define TheISurface IntSurf_Quadric
-#define TheISurface_hxx <IntSurf_Quadric.hxx>
+#define TheISurface_hxx <ModelingAlgorithms/IntSurf/IntSurf_Quadric.hxx>
 #define TheISurfaceTool IntSurf_QuadricTool
-#define TheISurfaceTool_hxx <IntSurf_QuadricTool.hxx>
+#define TheISurfaceTool_hxx <ModelingAlgorithms/IntSurf/IntSurf_QuadricTool.hxx>
 #define IntImp_ZerImpFunc GeomInt_TheZerImpFuncOfTheImpPrmSvSurfacesOfWLApprox
 #define IntImp_ZerImpFunc_hxx <ModelingAlgorithms/GeomInt/GeomInt_TheZerImpFuncOfTheImpPrmSvSurfacesOfWLApprox.hxx>
 #include <ModelingAlgorithms/IntImp/IntImp_ZerImpFunc.gxx>

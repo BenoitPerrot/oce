@@ -20,8 +20,8 @@
 #include <TopOpeBRepDS_EdgeVertexInterference.hxx>
 #include <TopOpeBRepDS_FaceEdgeInterference.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
-#include <IntSurf_TypeTrans.hxx>
-#include <IntSurf_Situation.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_TypeTrans.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_Situation.hxx>
 #include <TopOpeBRepDS_define.hxx>
 #include <TopOpeBRepDS_Interference.hxx>
 #include <TopOpeBRepDS_Transition.hxx>

@@ -79,9 +79,9 @@
 #include <ModelingAlgorithms/GeomFill/GeomFill_ConstrainedFilling.hxx>
 #include <ModelingAlgorithms/GeomFill/GeomFill_SimpleBound.hxx>
 
-#include <IntSurf_LineOn2S.hxx>
-#include <IntSurf_Transition.hxx>
-#include <IntSurf_TypeTrans.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_LineOn2S.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_Transition.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_TypeTrans.hxx>
 #include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_HInter.hxx>
 #include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_IntersectionPoint.hxx>
 

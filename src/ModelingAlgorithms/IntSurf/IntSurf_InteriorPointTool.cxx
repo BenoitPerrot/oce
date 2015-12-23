@@ -12,6 +12,6 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IntSurf_InteriorPoint.hxx>
-#include <IntSurf_InteriorPointTool.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_InteriorPoint.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_InteriorPointTool.hxx>
 

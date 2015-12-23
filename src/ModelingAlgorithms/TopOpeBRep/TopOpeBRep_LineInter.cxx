@@ -44,7 +44,7 @@
 #include <Geometry/Geom/Geom_Hyperbola.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <ModelingAlgorithms/IntPatch/IntPatch_ALineToWLine.hxx>
-#include <IntSurf_Quadric.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_Quadric.hxx>
 #include <GeomAbs_SurfaceType.hxx> 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 

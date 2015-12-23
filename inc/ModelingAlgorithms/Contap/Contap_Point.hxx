@@ -14,7 +14,7 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Adaptor2d_HCurve2d.hxx>
-#include <IntSurf_Transition.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_Transition.hxx>
 #include <Handle_Adaptor3d_HVertex.hxx>
 class Adaptor2d_HCurve2d;
 class Adaptor3d_HVertex;

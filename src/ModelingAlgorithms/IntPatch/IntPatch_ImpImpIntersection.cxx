@@ -30,7 +30,7 @@
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 
-#include <IntSurf_Quadric.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_Quadric.hxx>
 
 #include <ElCLib.hxx>
 #include <ElSLib.hxx>
@@ -42,7 +42,7 @@
 #include <Mathematics/Primitives/gp_Cylinder.hxx>
 #include <Mathematics/Primitives/gp_Sphere.hxx>
 #include <Mathematics/Primitives/gp_Cone.hxx>
-#include <IntSurf.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf.hxx>
 
 #include <Geometry/Adaptor3d/Adaptor3d_HVertex.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>

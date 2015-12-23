@@ -84,7 +84,7 @@ private:
 };
 
 
-#include <IntSurf_InteriorPoint.lxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_InteriorPoint.lxx>
 
 
 

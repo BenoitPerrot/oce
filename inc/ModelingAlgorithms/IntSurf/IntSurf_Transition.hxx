@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <IntSurf_TypeTrans.hxx>
-#include <IntSurf_Situation.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_TypeTrans.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_Situation.hxx>
 class Standard_DomainError;
 
 
@@ -97,7 +97,7 @@ private:
 };
 
 
-#include <IntSurf_Transition.lxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_Transition.lxx>
 
 
 

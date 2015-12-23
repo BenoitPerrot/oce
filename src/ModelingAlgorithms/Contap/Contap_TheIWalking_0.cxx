@@ -7,12 +7,12 @@
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <IntSurf_PathPoint.hxx>
-#include <IntSurf_PathPointTool.hxx>
-#include <IntSurf_SequenceOfPathPoint.hxx>
-#include <IntSurf_InteriorPoint.hxx>
-#include <IntSurf_InteriorPointTool.hxx>
-#include <IntSurf_SequenceOfInteriorPoint.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_PathPoint.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_PathPointTool.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_SequenceOfPathPoint.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_InteriorPoint.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_InteriorPointTool.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_SequenceOfInteriorPoint.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HSurfaceTool.hxx>
 #include <ModelingAlgorithms/Contap/Contap_SurfFunction.hxx>
@@ -20,21 +20,21 @@
 #include <ModelingAlgorithms/Contap/Contap_SequenceOfIWLineOfTheIWalking.hxx>
 #include <ModelingAlgorithms/Contap/Contap_SequenceNodeOfSequenceOfIWLineOfTheIWalking.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
-#include <IntSurf_PntOn2S.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_PntOn2S.hxx>
  
 
 #define ThePointOfPath IntSurf_PathPoint
-#define ThePointOfPath_hxx <IntSurf_PathPoint.hxx>
+#define ThePointOfPath_hxx <ModelingAlgorithms/IntSurf/IntSurf_PathPoint.hxx>
 #define ThePointOfPathTool IntSurf_PathPointTool
-#define ThePointOfPathTool_hxx <IntSurf_PathPointTool.hxx>
+#define ThePointOfPathTool_hxx <ModelingAlgorithms/IntSurf/IntSurf_PathPointTool.hxx>
 #define ThePOPIterator IntSurf_SequenceOfPathPoint
-#define ThePOPIterator_hxx <IntSurf_SequenceOfPathPoint.hxx>
+#define ThePOPIterator_hxx <ModelingAlgorithms/IntSurf/IntSurf_SequenceOfPathPoint.hxx>
 #define ThePointOfLoop IntSurf_InteriorPoint
-#define ThePointOfLoop_hxx <IntSurf_InteriorPoint.hxx>
+#define ThePointOfLoop_hxx <ModelingAlgorithms/IntSurf/IntSurf_InteriorPoint.hxx>
 #define ThePointOfLoopTool IntSurf_InteriorPointTool
-#define ThePointOfLoopTool_hxx <IntSurf_InteriorPointTool.hxx>
+#define ThePointOfLoopTool_hxx <ModelingAlgorithms/IntSurf/IntSurf_InteriorPointTool.hxx>
 #define ThePOLIterator IntSurf_SequenceOfInteriorPoint
-#define ThePOLIterator_hxx <IntSurf_SequenceOfInteriorPoint.hxx>
+#define ThePOLIterator_hxx <ModelingAlgorithms/IntSurf/IntSurf_SequenceOfInteriorPoint.hxx>
 #define ThePSurface Handle(Adaptor3d_HSurface)
 #define ThePSurface_hxx <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #define ThePSurfaceTool Adaptor3d_HSurfaceTool

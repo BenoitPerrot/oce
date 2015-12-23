@@ -23,7 +23,7 @@
 #include <ModelingAlgorithms/Blend/Blend_Function.hxx>
 #include <ModelingAlgorithms/Blend/Blend_FuncInv.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <IntSurf_Transition.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_Transition.hxx>
  
 
 #define TheVertex Handle(Adaptor3d_HVertex)

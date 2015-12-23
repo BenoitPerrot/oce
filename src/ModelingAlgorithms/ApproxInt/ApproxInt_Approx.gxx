@@ -16,10 +16,10 @@
 
 #include <Geometry/AppParCurves/AppParCurves_Constraint.hxx>
 #include <GeomAbs_SurfaceType.hxx>
-#include <IntSurf_Quadric.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_Quadric.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Mathematics/Primitives/gp_Trsf2d.hxx>
-#include <IntSurf_PntOn2S.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_PntOn2S.hxx>
 #include <Precision.hxx>
 
 const Standard_Integer LimRajout = 5;

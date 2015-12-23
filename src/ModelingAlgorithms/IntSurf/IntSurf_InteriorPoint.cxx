@@ -15,7 +15,7 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
-#include <IntSurf_InteriorPoint.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_InteriorPoint.hxx>
 
 
 IntSurf_InteriorPoint::IntSurf_InteriorPoint () {}

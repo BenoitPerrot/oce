@@ -29,7 +29,7 @@
 #include <ModelingAlgorithms/IntPatch/IntPatch_GLine.hxx>
 #include <ModelingAlgorithms/IntPatch/IntPatch_WLine.hxx>
 #include <ModelingAlgorithms/IntPatch/IntPatch_ALine.hxx>
-#include <IntSurf_Transition.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_Transition.hxx>
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 
 #include <Precision.hxx>
@@ -38,8 +38,8 @@
 
 #include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <IntSurf_Quadric.hxx>
-#include <IntSurf_PntOn2S.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_Quadric.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_PntOn2S.hxx>
 #include <ElCLib.hxx>
 #include <GeomAbs_SurfaceType.hxx>
 

@@ -116,7 +116,7 @@ private:
 };
 
 
-#include <IntSurf_Quadric.lxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_Quadric.lxx>
 
 
 

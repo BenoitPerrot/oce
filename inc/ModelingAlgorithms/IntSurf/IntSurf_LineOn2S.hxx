@@ -10,9 +10,9 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IntSurf_LineOn2S.hxx>
 
-#include <IntSurf_SequenceOfPntOn2S.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_SequenceOfPntOn2S.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <IntSurf_Allocator.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_Allocator.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
@@ -77,7 +77,7 @@ private:
 };
 
 
-#include <IntSurf_LineOn2S.lxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_LineOn2S.lxx>
 
 
 

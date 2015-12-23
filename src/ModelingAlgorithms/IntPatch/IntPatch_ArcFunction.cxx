@@ -16,7 +16,7 @@
 
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
-#include <IntSurf_Quadric.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_Quadric.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <ModelingAlgorithms/IntPatch/IntPatch_ArcFunction.hxx>
 

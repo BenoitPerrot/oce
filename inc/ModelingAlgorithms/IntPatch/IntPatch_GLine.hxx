@@ -16,8 +16,8 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <ModelingAlgorithms/IntPatch/IntPatch_SequenceOfPoint.hxx>
 #include <ModelingAlgorithms/IntPatch/IntPatch_Line.hxx>
-#include <IntSurf_TypeTrans.hxx>
-#include <IntSurf_Situation.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_TypeTrans.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_Situation.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
 #include <Mathematics/Primitives/gp_Elips.hxx>

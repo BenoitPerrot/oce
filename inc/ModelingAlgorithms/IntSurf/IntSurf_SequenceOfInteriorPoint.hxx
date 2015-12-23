@@ -101,13 +101,13 @@ private:
 };
 
 #define SeqItem IntSurf_InteriorPoint
-#define SeqItem_hxx <IntSurf_InteriorPoint.hxx>
+#define SeqItem_hxx <ModelingAlgorithms/IntSurf/IntSurf_InteriorPoint.hxx>
 #define TCollection_SequenceNode IntSurf_SequenceNodeOfSequenceOfInteriorPoint
-#define TCollection_SequenceNode_hxx <IntSurf_SequenceNodeOfSequenceOfInteriorPoint.hxx>
+#define TCollection_SequenceNode_hxx <ModelingAlgorithms/IntSurf/IntSurf_SequenceNodeOfSequenceOfInteriorPoint.hxx>
 #define Handle_TCollection_SequenceNode Handle_IntSurf_SequenceNodeOfSequenceOfInteriorPoint
 #define TCollection_SequenceNode_Type_() IntSurf_SequenceNodeOfSequenceOfInteriorPoint_Type_()
 #define TCollection_Sequence IntSurf_SequenceOfInteriorPoint
-#define TCollection_Sequence_hxx <IntSurf_SequenceOfInteriorPoint.hxx>
+#define TCollection_Sequence_hxx <ModelingAlgorithms/IntSurf/IntSurf_SequenceOfInteriorPoint.hxx>
 
 #include <Foundation/TCollection/TCollection_Sequence.lxx>
 

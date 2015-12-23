@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <IntSurf_SequenceOfInteriorPoint.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_SequenceOfInteriorPoint.hxx>
 #include <Handle_Adaptor3d_HSurface.hxx>
 #include <Handle_Adaptor3d_TopolTool.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

@@ -15,7 +15,7 @@
 #include <Mathematics/Optimization/math_FunctionSetRoot.hxx>
 #include <Mathematics/Optimization/math_Gauss.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
-#include <IntSurf.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #include <Precision.hxx>
 

@@ -12,9 +12,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IntSurf_Quadric.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_Quadric.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <IntSurf_QuadricTool.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_QuadricTool.hxx>
 
 #include <Mathematics/Primitives/gp_Sphere.hxx>
 #include <Mathematics/Primitives/gp_Cylinder.hxx>

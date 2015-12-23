@@ -6,12 +6,12 @@
 #include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_TheQuadCurvFuncOfTheQuadCurvExactHInter.hxx>
 
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
-#include <IntSurf_Quadric.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_Quadric.hxx>
 #include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_TheHCurveTool.hxx>
  
 
 #define TheQuadric IntSurf_Quadric
-#define TheQuadric_hxx <IntSurf_Quadric.hxx>
+#define TheQuadric_hxx <ModelingAlgorithms/IntSurf/IntSurf_Quadric.hxx>
 #define TheCurve Handle(Adaptor3d_HCurve)
 #define TheCurve_hxx <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #define TheCurveTool IntCurveSurface_TheHCurveTool

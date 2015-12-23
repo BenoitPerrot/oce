@@ -11,12 +11,12 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <IntSurf_SequenceOfPathPoint.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_SequenceOfPathPoint.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>
 #include <IntWalk_VectorOfWalkingData.hxx>
 #include <IntWalk_VectorOfInteger.hxx>
-#include <IntSurf_PntOn2S.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_PntOn2S.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
@@ -131,17 +131,17 @@ private:
 };
 
 #define ThePointOfPath IntSurf_PathPoint
-#define ThePointOfPath_hxx <IntSurf_PathPoint.hxx>
+#define ThePointOfPath_hxx <ModelingAlgorithms/IntSurf/IntSurf_PathPoint.hxx>
 #define ThePointOfPathTool IntSurf_PathPointTool
-#define ThePointOfPathTool_hxx <IntSurf_PathPointTool.hxx>
+#define ThePointOfPathTool_hxx <ModelingAlgorithms/IntSurf/IntSurf_PathPointTool.hxx>
 #define ThePOPIterator IntSurf_SequenceOfPathPoint
-#define ThePOPIterator_hxx <IntSurf_SequenceOfPathPoint.hxx>
+#define ThePOPIterator_hxx <ModelingAlgorithms/IntSurf/IntSurf_SequenceOfPathPoint.hxx>
 #define ThePointOfLoop IntSurf_InteriorPoint
-#define ThePointOfLoop_hxx <IntSurf_InteriorPoint.hxx>
+#define ThePointOfLoop_hxx <ModelingAlgorithms/IntSurf/IntSurf_InteriorPoint.hxx>
 #define ThePointOfLoopTool IntSurf_InteriorPointTool
-#define ThePointOfLoopTool_hxx <IntSurf_InteriorPointTool.hxx>
+#define ThePointOfLoopTool_hxx <ModelingAlgorithms/IntSurf/IntSurf_InteriorPointTool.hxx>
 #define ThePOLIterator IntSurf_SequenceOfInteriorPoint
-#define ThePOLIterator_hxx <IntSurf_SequenceOfInteriorPoint.hxx>
+#define ThePOLIterator_hxx <ModelingAlgorithms/IntSurf/IntSurf_SequenceOfInteriorPoint.hxx>
 #define ThePSurface Handle(Adaptor3d_HSurface)
 #define ThePSurface_hxx <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #define ThePSurfaceTool Adaptor3d_HSurfaceTool

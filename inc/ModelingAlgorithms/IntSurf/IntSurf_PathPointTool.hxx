@@ -89,7 +89,7 @@ private:
 };
 
 
-#include <IntSurf_PathPointTool.lxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_PathPointTool.lxx>
 
 
 

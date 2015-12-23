@@ -19,7 +19,7 @@
 #include <Mathematics/Primitives/gp_Torus.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <IntSurf_Quadric.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_Quadric.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 
 #include <ElCLib.hxx>
