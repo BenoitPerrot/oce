@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <XSControl_WorkSession.hxx>
+#include <DataExchange/XSControl/XSControl_WorkSession.hxx>
 #include <DataExchange/StepData/StepData_StepModel.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfAsciiString.hxx>
 #include <DataExchange/StepRepr/StepRepr_RepresentationContext.hxx>
@@ -19,8 +19,8 @@
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <DataExchange/STEPControl/STEPControl_Reader.hxx>
 #include <DataExchange/STEPControl/STEPControl_Controller.hxx>
-#include <XSControl_Controller.hxx>
-#include <XSControl_TransferReader.hxx>
+#include <DataExchange/XSControl/XSControl_Controller.hxx>
+#include <DataExchange/XSControl/XSControl_TransferReader.hxx>
 #include <DataExchange/Interface/Interface_ShareFlags.hxx>
 
 #include <DataExchange/STEPControl/STEPControl_ActorRead.hxx>
@@ -68,7 +68,7 @@
 #include <DataExchange/STEPConstruct/STEPConstruct_UnitContext.hxx>
 #include <DataExchange/StepBasic/StepBasic_SiUnitAndPlaneAngleUnit.hxx>
 #include <DataExchange/StepBasic/StepBasic_SiUnitAndSolidAngleUnit.hxx>
-#include <XSControl_WorkSession.hxx>
+#include <DataExchange/XSControl/XSControl_WorkSession.hxx>
 #include <DataExchange/StepData/StepData_StepModel.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfAsciiString.hxx>
 #include <DataExchange/StepRepr/StepRepr_RepresentationContext.hxx>

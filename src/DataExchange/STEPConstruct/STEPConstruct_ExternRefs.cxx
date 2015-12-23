@@ -18,7 +18,7 @@
 #include <DataExchange/StepBasic/StepBasic_ProductDefinitionContext.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductContext.hxx>
 #include <DataExchange/StepBasic/StepBasic_ApplicationProtocolDefinition.hxx>
-#include <XSControl_WorkSession.hxx>
+#include <DataExchange/XSControl/XSControl_WorkSession.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductDefinition.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <DataExchange/StepAP214/StepAP214_AppliedDocumentReference.hxx>

@@ -11,17 +11,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <XSControl_WorkSession.hxx>
+#include <DataExchange/XSControl/XSControl_WorkSession.hxx>
 #include <ModelingData/TopTools/TopTools_HSequenceOfShape.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <XSControl_FuncShape.hxx>
+#include <DataExchange/XSControl/XSControl_FuncShape.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
 
-#include <XSControl.hxx>
-#include <XSControl_Controller.hxx>
-#include <XSControl_WorkSession.hxx>
-#include <XSControl_Vars.hxx>
+#include <DataExchange/XSControl/XSControl.hxx>
+#include <DataExchange/XSControl/XSControl_Controller.hxx>
+#include <DataExchange/XSControl/XSControl_WorkSession.hxx>
+#include <DataExchange/XSControl/XSControl_Vars.hxx>
 #include <DataExchange/IFSelect/IFSelect_Act.hxx>
 #include <DataExchange/IFSelect/IFSelect_SessionPilot.hxx>
 #include <DataExchange/IFSelect/IFSelect_Functions.hxx>
@@ -39,9 +39,9 @@
 #include <DataExchange/TransferBRep/TransferBRep_ShapeListBinder.hxx>
 #include <DataExchange/Transfer/Transfer_SimpleBinderOfTransient.hxx>
 
-#include <XSControl_ConnectedShapes.hxx>
-#include <XSControl_TransferWriter.hxx>
-#include <XSControl_TransferReader.hxx>
+#include <DataExchange/XSControl/XSControl_ConnectedShapes.hxx>
+#include <DataExchange/XSControl/XSControl_TransferWriter.hxx>
+#include <DataExchange/XSControl/XSControl_TransferReader.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <DataExchange/Transfer/Transfer_ResultFromModel.hxx>
 

@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_STEPSelections_SelectForTransfer.hxx>
 
-#include <XSControl_SelectForTransfer.hxx>
+#include <DataExchange/XSControl/XSControl_SelectForTransfer.hxx>
 #include <Handle_XSControl_TransferReader.hxx>
 class XSControl_TransferReader;
 class Interface_EntityIterator;

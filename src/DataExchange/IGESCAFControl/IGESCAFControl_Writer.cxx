@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <XSControl_WorkSession.hxx>
+#include <DataExchange/XSControl/XSControl_WorkSession.hxx>
 #include <OCAF/TDocStd/TDocStd_Document.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <OCAF/TDF/TDF_LabelSequence.hxx>

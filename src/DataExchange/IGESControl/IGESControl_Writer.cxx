@@ -31,7 +31,7 @@
 #include <DataExchange/GeomToIGES/GeomToIGES_GeomCurve.hxx>
 #include <DataExchange/GeomToIGES/GeomToIGES_GeomSurface.hxx>
 #include <DataExchange/IGESData/IGESData_IGESWriter.hxx>
-#include <XSControl_TransferWriter.hxx>
+#include <DataExchange/XSControl/XSControl_TransferWriter.hxx>
 
 #include <DataExchange/Interface/Interface_Macros.hxx>
 #include <DataExchange/Interface/Interface_Static.hxx>

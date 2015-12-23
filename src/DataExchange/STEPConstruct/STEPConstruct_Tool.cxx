@@ -13,15 +13,15 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <XSControl_WorkSession.hxx>
+#include <DataExchange/XSControl/XSControl_WorkSession.hxx>
 #include <DataExchange/Transfer/Transfer_FinderProcess.hxx>
 #include <DataExchange/Transfer/Transfer_TransientProcess.hxx>
 #include <DataExchange/Interface/Interface_HGraph.hxx>
 #include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <DataExchange/Interface/Interface_Graph.hxx>
 #include <DataExchange/STEPConstruct/STEPConstruct_Tool.hxx>
-#include <XSControl_TransferReader.hxx>
-#include <XSControl_TransferWriter.hxx>
+#include <DataExchange/XSControl/XSControl_TransferReader.hxx>
+#include <DataExchange/XSControl/XSControl_TransferWriter.hxx>
 
 //=======================================================================
 //function : STEPConstruct_Tool

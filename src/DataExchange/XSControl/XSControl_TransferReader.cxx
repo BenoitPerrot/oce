@@ -13,7 +13,7 @@
 
 //:   abv 09.04.99: S4136: remove parameter lastpreci
 // szv#11:CASCADE30:01Feb00 BRepBuilderAPI::Precision(p) removed
-#include <XSControl_Controller.hxx>
+#include <DataExchange/XSControl/XSControl_Controller.hxx>
 #include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <DataExchange/Interface/Interface_HGraph.hxx>
 #include <Foundation/Dico/Dico_DictionaryOfTransient.hxx>
@@ -27,7 +27,7 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <DataExchange/Interface/Interface_CheckIterator.hxx>
 #include <DataExchange/Interface/Interface_Graph.hxx>
-#include <XSControl_TransferReader.hxx>
+#include <DataExchange/XSControl/XSControl_TransferReader.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XSControl_TransferReader)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -47,7 +47,7 @@ IMPLEMENT_STANDARD_RTTI(XSControl_TransferReader)
 #include <DataExchange/TransferBRep/TransferBRep_BinderOfShape.hxx>
 #include <DataExchange/TransferBRep/TransferBRep_ShapeBinder.hxx>
 #include <ModelingData/TopoDS/TopoDS_HShape.hxx>
-#include <XSControl_Utils.hxx>
+#include <DataExchange/XSControl/XSControl_Utils.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 
 //  Precision :

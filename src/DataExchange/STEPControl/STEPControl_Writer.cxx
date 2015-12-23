@@ -11,13 +11,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <XSControl_WorkSession.hxx>
+#include <DataExchange/XSControl/XSControl_WorkSession.hxx>
 #include <DataExchange/StepData/StepData_StepModel.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <DataExchange/STEPControl/STEPControl_Writer.hxx>
 #include <DataExchange/STEPControl/STEPControl_Controller.hxx>
 #include <DataExchange/STEPControl/STEPControl_ActorWrite.hxx>
-#include <XSControl_TransferWriter.hxx>
+#include <DataExchange/XSControl/XSControl_TransferWriter.hxx>
 #include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <DataExchange/Interface/Interface_Macros.hxx>
 #include <Foundation/Message/Message_ProgressIndicator.hxx>

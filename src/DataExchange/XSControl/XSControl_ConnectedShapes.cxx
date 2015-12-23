@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <XSControl_TransferReader.hxx>
+#include <DataExchange/XSControl/XSControl_TransferReader.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <DataExchange/Interface/Interface_Graph.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
@@ -19,7 +19,7 @@
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <DataExchange/Transfer/Transfer_TransientProcess.hxx>
-#include <XSControl_ConnectedShapes.hxx>
+#include <DataExchange/XSControl/XSControl_ConnectedShapes.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XSControl_ConnectedShapes)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

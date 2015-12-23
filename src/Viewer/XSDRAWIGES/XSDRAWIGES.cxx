@@ -67,11 +67,11 @@
 #include <DataExchange/Transfer/Transfer_TransientProcess.hxx>
 #include <DataExchange/Transfer/Transfer_TransferOutput.hxx>
 #include <DataExchange/Transfer/Transfer_FinderProcess.hxx>
-#include <XSControl_WorkSession.hxx>
+#include <DataExchange/XSControl/XSControl_WorkSession.hxx>
 
 // + tplosttrim
 #include <DataExchange/IFSelect/IFSelect_SessionPilot.hxx>
-#include <XSControl.hxx>
+#include <DataExchange/XSControl/XSControl.hxx>
 #include <DataExchange/Transfer/Transfer_IteratorOfProcessForTransient.hxx>
 #include <Foundation/TColStd/TColStd_MapOfTransient.hxx>
 #include <DataExchange/IFSelect/IFSelect_Functions.hxx>

@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <DataExchange/STEPCAFControl/STEPCAFControl_DictionaryOfExternFile.hxx>
-#include <XSControl_WorkSession.hxx>
+#include <DataExchange/XSControl/XSControl_WorkSession.hxx>
 #include <OCAF/TDocStd/TDocStd_Document.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <DataExchange/STEPCAFControl/STEPCAFControl_ExternFile.hxx>
@@ -46,7 +46,7 @@
 #include <DataExchange/TransferBRep/TransferBRep.hxx>
 #include <DataExchange/Transfer/Transfer_Binder.hxx>
 #include <DataExchange/Interface/Interface_InterfaceModel.hxx>
-#include <XSControl_TransferReader.hxx>
+#include <DataExchange/XSControl/XSControl_TransferReader.hxx>
 
 #include <DataExchange/StepBasic/StepBasic_Product.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductDefinition.hxx>

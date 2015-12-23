@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_XSDRAW_Vars.hxx>
 
-#include <XSControl_Vars.hxx>
+#include <DataExchange/XSControl/XSControl_Vars.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Handle_Geom_Geometry.hxx>

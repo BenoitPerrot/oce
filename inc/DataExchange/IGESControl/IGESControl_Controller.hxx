@@ -11,7 +11,7 @@
 #include <Handle_IGESControl_Controller.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <XSControl_Controller.hxx>
+#include <DataExchange/XSControl/XSControl_Controller.hxx>
 #include <Handle_Interface_InterfaceModel.hxx>
 #include <Handle_Transfer_ActorOfTransientProcess.hxx>
 #include <DataExchange/IFSelect/IFSelect_ReturnStatus.hxx>

@@ -15,7 +15,7 @@
 //    gka 05.04.99 S4136: parameters definitions changed
 #include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <DataExchange/Transfer/Transfer_ActorOfTransientProcess.hxx>
-#include <XSControl_WorkSession.hxx>
+#include <DataExchange/XSControl/XSControl_WorkSession.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <DataExchange/Transfer/Transfer_FinderProcess.hxx>
 #include <DataExchange/STEPControl/STEPControl_Controller.hxx>

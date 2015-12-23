@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <Viewer/XSDRAW/XSDRAW_Functions.hxx>
-#include <XSControl_FuncShape.hxx>
+#include <DataExchange/XSControl/XSControl_FuncShape.hxx>
 
 void  XSDRAW_Functions::Init ()
 {

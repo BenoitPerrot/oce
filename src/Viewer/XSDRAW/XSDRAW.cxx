@@ -12,14 +12,14 @@
 // commercial license or contractual agreement.
 
 #include <DataExchange/IFSelect/IFSelect_SessionPilot.hxx>
-#include <XSControl_WorkSession.hxx>
-#include <XSControl_Controller.hxx>
+#include <DataExchange/XSControl/XSControl_WorkSession.hxx>
+#include <DataExchange/XSControl/XSControl_Controller.hxx>
 #include <DataExchange/Interface/Interface_Protocol.hxx>
 #include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <DataExchange/Transfer/Transfer_TransientProcess.hxx>
 #include <DataExchange/Transfer/Transfer_FinderProcess.hxx>
-#include <XSControl_TransferReader.hxx>
+#include <DataExchange/XSControl/XSControl_TransferReader.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <ModelingData/TopTools/TopTools_HSequenceOfShape.hxx>
@@ -31,11 +31,11 @@
 #include <DataExchange/IFSelect/IFSelect_SessionPilot.hxx>
 //#include <Viewer/XSDRAW/XSDRAW_Shape.hxx>
 #include <Viewer/XSDRAW/XSDRAW_Vars.hxx>
-#include <XSControl_Functions.hxx>
-#include <XSControl_FuncShape.hxx>
+#include <DataExchange/XSControl/XSControl_Functions.hxx>
+#include <DataExchange/XSControl/XSControl_FuncShape.hxx>
 #include <Viewer/Draw/Draw_Appli.hxx>
-#include <XSControl.hxx>
-#include <XSControl_TransferWriter.hxx>
+#include <DataExchange/XSControl/XSControl.hxx>
+#include <DataExchange/XSControl/XSControl_TransferWriter.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <DataExchange/TransferBRep/TransferBRep.hxx>

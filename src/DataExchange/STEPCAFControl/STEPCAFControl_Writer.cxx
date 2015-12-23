@@ -21,7 +21,7 @@
 // Names and validation props are supported for top-level shapes only
 
 #include <DataExchange/STEPCAFControl/STEPCAFControl_DictionaryOfExternFile.hxx>
-#include <XSControl_WorkSession.hxx>
+#include <DataExchange/XSControl/XSControl_WorkSession.hxx>
 #include <OCAF/TDocStd/TDocStd_Document.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
@@ -45,7 +45,7 @@
 #include <DataExchange/XCAFDoc/XCAFDoc_ColorTool.hxx>
 #include <DataExchange/STEPConstruct/STEPConstruct.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
-#include <XSControl_TransferWriter.hxx>
+#include <DataExchange/XSControl/XSControl_TransferWriter.hxx>
 #include <OCAF/TDataStd/TDataStd_Name.hxx>
 #include <DataExchange/StepShape/StepShape_ShapeDefinitionRepresentation.hxx>
 #include <DataExchange/TransferBRep/TransferBRep_ShapeMapper.hxx>
@@ -94,7 +94,7 @@
 #include <DataExchange/StepData/StepData_StepModel.hxx>
 #include <DataExchange/StepAP214/StepAP214_Protocol.hxx>
 #include <Foundation/OSD/OSD_Path.hxx>
-#include <XSControl_WorkSession.hxx>
+#include <DataExchange/XSControl/XSControl_WorkSession.hxx>
 #include <DataExchange/StepRepr/StepRepr_HArray1OfRepresentationItem.hxx>
 #include <DataExchange/MoniTool/MoniTool_DataMapIteratorOfDataMapOfShapeTransient.hxx>
 #include <DataExchange/StepRepr/StepRepr_Representation.hxx>

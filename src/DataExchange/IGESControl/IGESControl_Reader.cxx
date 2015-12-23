@@ -13,12 +13,12 @@
 
 //gka 06.01.99 S3767
 //abv 10.04.99 S4136: eliminate using BRepAPI::Precision()
-#include <XSControl_WorkSession.hxx>
+#include <DataExchange/XSControl/XSControl_WorkSession.hxx>
 #include <DataExchange/IGESData/IGESData_IGESModel.hxx>
 #include <DataExchange/IGESControl/IGESControl_Reader.hxx>
 #include <DataExchange/IGESControl/IGESControl_Controller.hxx>
-#include <XSControl_Controller.hxx>
-#include <XSControl_TransferReader.hxx>
+#include <DataExchange/XSControl/XSControl_Controller.hxx>
+#include <DataExchange/XSControl/XSControl_TransferReader.hxx>
 #include <DataExchange/Interface/Interface_ShareFlags.hxx>
 
 #include <DataExchange/IFSelect/IFSelect_Functions.hxx>

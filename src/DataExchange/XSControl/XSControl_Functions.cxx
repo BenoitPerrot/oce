@@ -11,17 +11,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <XSControl_Functions.hxx>
+#include <DataExchange/XSControl/XSControl_Functions.hxx>
 
-#include <XSControl.hxx>
-#include <XSControl_Controller.hxx>
+#include <DataExchange/XSControl/XSControl.hxx>
+#include <DataExchange/XSControl/XSControl_Controller.hxx>
 #include <DataExchange/IFSelect/IFSelect_Profile.hxx>
 #include <DataExchange/IFSelect/IFSelect_Option.hxx>
 #include <DataExchange/MoniTool/MoniTool_TypedValue.hxx>
 #include <DataExchange/Interface/Interface_Static.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfAsciiString.hxx>
 
-#include <XSControl_WorkSession.hxx>
+#include <DataExchange/XSControl/XSControl_WorkSession.hxx>
 #include <DataExchange/IFSelect/IFSelect_Act.hxx>
 #include <DataExchange/IFSelect/IFSelect_SessionPilot.hxx>
 #include <DataExchange/IFSelect/IFSelect_Functions.hxx>
@@ -44,11 +44,11 @@
 //#include <DataExchange/TransferBRep/TransferBRep_ShapeMapper.hxx>
 //#include <DataExchange/TransferBRep/TransferBRep_OrientedShapeMapper.hxx>
 
-#include <XSControl_TransferWriter.hxx>
-#include <XSControl_TransferReader.hxx>
+#include <DataExchange/XSControl/XSControl_TransferWriter.hxx>
+#include <DataExchange/XSControl/XSControl_TransferReader.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <DataExchange/Transfer/Transfer_ResultFromModel.hxx>
-#include <XSControl_SelectForTransfer.hxx>
+#include <DataExchange/XSControl/XSControl_SelectForTransfer.hxx>
 
 #include <DataExchange/Interface/Interface_Macros.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>

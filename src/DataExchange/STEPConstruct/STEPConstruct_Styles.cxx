@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <XSControl_WorkSession.hxx>
+#include <DataExchange/XSControl/XSControl_WorkSession.hxx>
 #include <DataExchange/StepVisual/StepVisual_StyledItem.hxx>
 #include <DataExchange/StepRepr/StepRepr_RepresentationItem.hxx>
 #include <DataExchange/StepVisual/StepVisual_PresentationStyleAssignment.hxx>
@@ -34,8 +34,8 @@
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 
-#include <XSControl_TransferReader.hxx>
-#include <XSControl_TransferWriter.hxx>
+#include <DataExchange/XSControl/XSControl_TransferReader.hxx>
+#include <DataExchange/XSControl/XSControl_TransferWriter.hxx>
 #include <DataExchange/Interface/Interface_Graph.hxx>
 #include <DataExchange/Interface/Interface_Static.hxx>
 #include <DataExchange/Interface/Interface_InterfaceModel.hxx>

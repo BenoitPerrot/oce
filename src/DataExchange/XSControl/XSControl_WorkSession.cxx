@@ -13,11 +13,11 @@
 
 //:i1 pdn 03.04.99  BUC60301  
 
-#include <XSControl_Controller.hxx>
-#include <XSControl_TransferReader.hxx>
-#include <XSControl_TransferWriter.hxx>
+#include <DataExchange/XSControl/XSControl_Controller.hxx>
+#include <DataExchange/XSControl/XSControl_TransferReader.hxx>
+#include <DataExchange/XSControl/XSControl_TransferWriter.hxx>
 #include <Foundation/Dico/Dico_DictionaryOfTransient.hxx>
-#include <XSControl_Vars.hxx>
+#include <DataExchange/XSControl/XSControl_Vars.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <DataExchange/Transfer/Transfer_TransientProcess.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
@@ -25,7 +25,7 @@
 #include <DataExchange/Transfer/Transfer_FinderProcess.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <DataExchange/Interface/Interface_CheckIterator.hxx>
-#include <XSControl_WorkSession.hxx>
+#include <DataExchange/XSControl/XSControl_WorkSession.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XSControl_WorkSession)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

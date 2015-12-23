@@ -14,13 +14,13 @@
 // commercial license or contractual agreement.
 
 #include <OCAF/TDF/TDF_Label.hxx>
-#include <XSControl_WorkSession.hxx>
+#include <DataExchange/XSControl/XSControl_WorkSession.hxx>
 #include <OCAF/TDocStd/TDocStd_Document.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <DataExchange/IGESCAFControl/IGESCAFControl_Reader.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <DataExchange/XCAFDoc/XCAFDoc_ShapeTool.hxx>
-#include <XSControl_TransferReader.hxx>
+#include <DataExchange/XSControl/XSControl_TransferReader.hxx>
 #include <DataExchange/XCAFDoc/XCAFDoc_ColorTool.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <DataExchange/Transfer/Transfer_Binder.hxx>

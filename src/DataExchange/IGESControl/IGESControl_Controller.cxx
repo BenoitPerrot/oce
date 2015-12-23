@@ -18,7 +18,7 @@
 #include <DataExchange/Transfer/Transfer_ActorOfTransientProcess.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <DataExchange/Transfer/Transfer_FinderProcess.hxx>
-#include <XSControl_WorkSession.hxx>
+#include <DataExchange/XSControl/XSControl_WorkSession.hxx>
 #include <DataExchange/IGESControl/IGESControl_Controller.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESControl_Controller)
@@ -77,7 +77,7 @@ IMPLEMENT_STANDARD_RTTI(IGESControl_Controller)
 #include <DataExchange/IFSelect/IFSelect_SelectModelEntities.hxx>
 #include <DataExchange/IFSelect/IFSelect_SelectModelEntities.hxx>
 #include <DataExchange/IFSelect/IFSelect_SelectModelRoots.hxx>
-#include <XSControl_SelectForTransfer.hxx>
+#include <DataExchange/XSControl/XSControl_SelectForTransfer.hxx>
 
 //szv#4:S4163:12Mar99 never referenced
 //static const Standard_CString thelong  = "IGES";

@@ -39,8 +39,8 @@
 #include <DataExchange/StepShape/StepShape_ShapeRepresentation.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 
-#include <XSControl_Controller.hxx>
-#include <XSControl_WorkSession.hxx>
+#include <DataExchange/XSControl/XSControl_Controller.hxx>
+#include <DataExchange/XSControl/XSControl_WorkSession.hxx>
 #include <DataExchange/StepData/StepData_StepModel.hxx>
 
 #include <ModelingData/TopoDS/TopoDS.hxx>
@@ -59,7 +59,7 @@
 #include <DataExchange/Transfer/Transfer_TransientProcess.hxx>
 
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
-#include <XSControl_TransferWriter.hxx>
+#include <DataExchange/XSControl/XSControl_TransferWriter.hxx>
 #include <Foundation/Message/Message_ProgressSentry.hxx>
 
 

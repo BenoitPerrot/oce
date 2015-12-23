@@ -17,7 +17,7 @@
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 
 #include <DataExchange/Interface/Interface_Macros.hxx>
-#include <XSControl_WorkSession.hxx>
+#include <DataExchange/XSControl/XSControl_WorkSession.hxx>
 #include <DataExchange/IGESControl/IGESControl_Controller.hxx>
 #include <DataExchange/STEPControl/STEPControl_Controller.hxx>
 

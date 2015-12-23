@@ -4558,12 +4558,12 @@ static Standard_Integer OCC12584 (Draw_Interpretor& di, Standard_Integer argc, c
 #include <DataExchange/IGESControl/IGESControl_Controller.hxx>
 #include <Viewer/XSDRAW/XSDRAW.hxx>
 #include <Viewer/Draw/Draw_ProgressIndicator.hxx>
-#include <XSControl_WorkSession.hxx>
+#include <DataExchange/XSControl/XSControl_WorkSession.hxx>
 #include <DataExchange/Transfer/Transfer_TransientProcess.hxx>
 #include <Viewer/XSDRAW/XSDRAW_Commands.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <Foundation/Message/Message_ProgressSentry.hxx>
-#include <XSControl_TransferReader.hxx>
+#include <DataExchange/XSControl/XSControl_TransferReader.hxx>
 
 static Standard_Integer OCC18612igesbrep (Draw_Interpretor& di, Standard_Integer argc, const char ** argv) 
 {

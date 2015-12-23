@@ -24,7 +24,7 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopTools/TopTools_HSequenceOfShape.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfInteger.hxx>
-#include <XSControl_Utils.hxx>
+#include <DataExchange/XSControl/XSControl_Utils.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <Foundation/Message/Message.hxx>
 #include <DataExchange/Interface/Interface_Macros.hxx>

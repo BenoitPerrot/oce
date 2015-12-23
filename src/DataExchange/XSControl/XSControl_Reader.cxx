@@ -13,15 +13,15 @@
 
 // pdn 26.02.99 added initializing of compound in function OneShape
 //:   gka 14.04.99: S4136: apply scaling
-#include <XSControl_WorkSession.hxx>
+#include <DataExchange/XSControl/XSControl_WorkSession.hxx>
 #include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <XSControl_Reader.hxx>
-#include <XSControl_Controller.hxx>
-#include <XSControl_TransferReader.hxx>
+#include <DataExchange/XSControl/XSControl_Reader.hxx>
+#include <DataExchange/XSControl/XSControl_Controller.hxx>
+#include <DataExchange/XSControl/XSControl_TransferReader.hxx>
 #include <DataExchange/Interface/Interface_ShareFlags.hxx>
 #include <DataExchange/IFSelect/IFSelect_Functions.hxx>
 

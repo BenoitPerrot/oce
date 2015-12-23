@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_STEPControl_Controller.hxx>
 
-#include <XSControl_Controller.hxx>
+#include <DataExchange/XSControl/XSControl_Controller.hxx>
 #include <Handle_Interface_InterfaceModel.hxx>
 #include <Handle_Transfer_ActorOfTransientProcess.hxx>
 #include <Handle_XSControl_WorkSession.hxx>

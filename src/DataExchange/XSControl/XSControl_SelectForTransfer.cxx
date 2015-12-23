@@ -11,12 +11,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <XSControl_TransferReader.hxx>
+#include <DataExchange/XSControl/XSControl_TransferReader.hxx>
 #include <DataExchange/Transfer/Transfer_ActorOfTransientProcess.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <XSControl_SelectForTransfer.hxx>
+#include <DataExchange/XSControl/XSControl_SelectForTransfer.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XSControl_SelectForTransfer)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -28,7 +28,7 @@
 
 #include <DataExchange/STEPControl/STEPControl_Reader.hxx>
 #include <DataExchange/IGESControl/IGESControl_Reader.hxx>
-#include <XSControl_WorkSession.hxx>
+#include <DataExchange/XSControl/XSControl_WorkSession.hxx>
 
 #include <EGL/egl.h>
 

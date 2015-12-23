@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <DataExchange/StepBasic/StepBasic_ProductDefinition.hxx>
-#include <XSControl_WorkSession.hxx>
+#include <DataExchange/XSControl/XSControl_WorkSession.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <DataExchange/StepRepr/StepRepr_RepresentationItem.hxx>
 #include <DataExchange/StepRepr/StepRepr_CharacterizedDefinition.hxx>
@@ -38,8 +38,8 @@
 #include <DataExchange/TransferBRep/TransferBRep.hxx>
 #include <DataExchange/TransferBRep/TransferBRep_ShapeMapper.hxx>
 
-#include <XSControl_TransferWriter.hxx>
-#include <XSControl_TransferReader.hxx>
+#include <DataExchange/XSControl/XSControl_TransferWriter.hxx>
+#include <DataExchange/XSControl/XSControl_TransferReader.hxx>
 
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>

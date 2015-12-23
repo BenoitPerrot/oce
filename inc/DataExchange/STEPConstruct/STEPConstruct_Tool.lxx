@@ -18,7 +18,7 @@
 #include <DataExchange/Interface/Interface_HGraph.hxx>
 #include <DataExchange/Transfer/Transfer_TransientProcess.hxx>
 #include <DataExchange/Transfer/Transfer_FinderProcess.hxx>
-#include <XSControl_WorkSession.hxx>
+#include <DataExchange/XSControl/XSControl_WorkSession.hxx>
 
 //=======================================================================
 //function : WS

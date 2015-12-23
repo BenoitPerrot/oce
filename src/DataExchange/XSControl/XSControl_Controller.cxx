@@ -20,13 +20,13 @@
 #include <Foundation/TColStd/TColStd_HSequenceOfHAsciiString.hxx>
 #include <DataExchange/Interface/Interface_HArray1OfHAsciiString.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <XSControl_WorkSession.hxx>
+#include <DataExchange/XSControl/XSControl_WorkSession.hxx>
 #include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <DataExchange/Transfer/Transfer_FinderProcess.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <DataExchange/Interface/Interface_CheckIterator.hxx>
-#include <XSControl_Controller.hxx>
+#include <DataExchange/XSControl/XSControl_Controller.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XSControl_Controller)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -48,11 +48,11 @@ IMPLEMENT_STANDARD_RTTI(XSControl_Controller)
 #include <DataExchange/IFSelect/IFSelect_SelectSharing.hxx>
 #include <DataExchange/IFSelect/IFSelect_SelectShared.hxx>
 #include <DataExchange/IFSelect/IFSelect_GraphCounter.hxx>
-#include <XSControl_SelectForTransfer.hxx>
-#include <XSControl_ConnectedShapes.hxx>
-#include <XSControl_SignTransferStatus.hxx>
-#include <XSControl_TransferReader.hxx>
-#include <XSControl_WorkSession.hxx>
+#include <DataExchange/XSControl/XSControl_SelectForTransfer.hxx>
+#include <DataExchange/XSControl/XSControl_ConnectedShapes.hxx>
+#include <DataExchange/XSControl/XSControl_SignTransferStatus.hxx>
+#include <DataExchange/XSControl/XSControl_TransferReader.hxx>
+#include <DataExchange/XSControl/XSControl_WorkSession.hxx>
 
 #include <DataExchange/IFSelect/IFSelect_SignType.hxx>
 #include <DataExchange/IFSelect/IFSelect_SignCounter.hxx>
