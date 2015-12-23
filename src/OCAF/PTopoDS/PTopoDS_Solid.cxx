@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PTopoDS_Solid.hxx>
+#include <OCAF/PTopoDS/PTopoDS_Solid.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PTopoDS_Solid)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

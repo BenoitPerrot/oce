@@ -3,33 +3,33 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#ifndef _PTopoDS_Solid_HeaderFile
-#define _PTopoDS_Solid_HeaderFile
+#ifndef _PTopoDS_Shell_HeaderFile
+#define _PTopoDS_Shell_HeaderFile
 
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard.hxx>
-#include <Handle_PTopoDS_Solid.hxx>
+#include <Handle_PTopoDS_Shell.hxx>
 
-#include <PTopoDS_HShape.hxx>
+#include <OCAF/PTopoDS/PTopoDS_HShape.hxx>
 
 
-class PTopoDS_Solid : public PTopoDS_HShape
+class PTopoDS_Shell : public PTopoDS_HShape
 {
 
 public:
 
   
-  Standard_EXPORT PTopoDS_Solid();
+  Standard_EXPORT PTopoDS_Shell();
 
-PTopoDS_Solid(const Storage_stCONSTclCOM& a) : PTopoDS_HShape(a)
+PTopoDS_Shell(const Storage_stCONSTclCOM& a) : PTopoDS_HShape(a)
 {
   
 }
 
 
 
-  DEFINE_STANDARD_RTTI(PTopoDS_Solid)
+  DEFINE_STANDARD_RTTI(PTopoDS_Shell)
 
 protected:
 
@@ -49,4 +49,4 @@ private:
 
 
 
-#endif // _PTopoDS_Solid_HeaderFile
+#endif // _PTopoDS_Shell_HeaderFile

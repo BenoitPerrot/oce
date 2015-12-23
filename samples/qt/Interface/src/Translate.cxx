@@ -26,7 +26,7 @@
 #include <Foundation/Storage/Storage_Data.hxx>
 #include <Foundation/Storage/Storage_Root.hxx>
 #include <Foundation/Storage/Storage_HSeqOfRoot.hxx>
-#include <PTopoDS_HShape.hxx>
+#include <OCAF/PTopoDS/PTopoDS_HShape.hxx>
 #include <OCAF/PTColStd/PTColStd_PersistentTransientMap.hxx>
 #include <OCAF/PTColStd/PTColStd_TransientPersistentMap.hxx>
 

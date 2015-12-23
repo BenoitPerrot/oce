@@ -15,7 +15,7 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_PBRep_CurveRepresentation.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <PTopoDS_TEdge1.hxx>
+#include <OCAF/PTopoDS/PTopoDS_TEdge1.hxx>
 class PBRep_CurveRepresentation;
 
 

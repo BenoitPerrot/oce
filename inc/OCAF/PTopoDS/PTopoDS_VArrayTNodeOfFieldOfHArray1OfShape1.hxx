@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <PTopoDS_Shape1.hxx>
+#include <OCAF/PTopoDS/PTopoDS_Shape1.hxx>
 #include <Handle_PTopoDS_VArrayNodeOfFieldOfHArray1OfShape1.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 class PTopoDS_Shape1;
@@ -53,15 +53,15 @@ private:
 };
 
 #define Item PTopoDS_Shape1
-#define Item_hxx <PTopoDS_Shape1.hxx>
+#define Item_hxx <OCAF/PTopoDS/PTopoDS_Shape1.hxx>
 #define DBC_VArrayNode PTopoDS_VArrayNodeOfFieldOfHArray1OfShape1
-#define DBC_VArrayNode_hxx <PTopoDS_VArrayNodeOfFieldOfHArray1OfShape1.hxx>
+#define DBC_VArrayNode_hxx <OCAF/PTopoDS/PTopoDS_VArrayNodeOfFieldOfHArray1OfShape1.hxx>
 #define DBC_VArrayTNode PTopoDS_VArrayTNodeOfFieldOfHArray1OfShape1
-#define DBC_VArrayTNode_hxx <PTopoDS_VArrayTNodeOfFieldOfHArray1OfShape1.hxx>
+#define DBC_VArrayTNode_hxx <OCAF/PTopoDS/PTopoDS_VArrayTNodeOfFieldOfHArray1OfShape1.hxx>
 #define Handle_DBC_VArrayNode Handle_PTopoDS_VArrayNodeOfFieldOfHArray1OfShape1
 #define DBC_VArrayNode_Type_() PTopoDS_VArrayNodeOfFieldOfHArray1OfShape1_Type_()
 #define DBC_VArray PTopoDS_FieldOfHArray1OfShape1
-#define DBC_VArray_hxx <PTopoDS_FieldOfHArray1OfShape1.hxx>
+#define DBC_VArray_hxx <OCAF/PTopoDS/PTopoDS_FieldOfHArray1OfShape1.hxx>
 
 #include <OCAF/DBC/DBC_VArrayTNode.lxx>
 

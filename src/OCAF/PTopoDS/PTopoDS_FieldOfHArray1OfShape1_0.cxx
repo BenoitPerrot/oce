@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <PTopoDS_FieldOfHArray1OfShape1.hxx>
+#include <OCAF/PTopoDS/PTopoDS_FieldOfHArray1OfShape1.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -11,9 +11,9 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_NullObject.hxx>
-#include <PTopoDS_Shape1.hxx>
-#include <PTopoDS_VArrayNodeOfFieldOfHArray1OfShape1.hxx>
-#include <PTopoDS_VArrayTNodeOfFieldOfHArray1OfShape1.hxx>
+#include <OCAF/PTopoDS/PTopoDS_Shape1.hxx>
+#include <OCAF/PTopoDS/PTopoDS_VArrayNodeOfFieldOfHArray1OfShape1.hxx>
+#include <OCAF/PTopoDS/PTopoDS_VArrayTNodeOfFieldOfHArray1OfShape1.hxx>
 
 IMPLEMENT_STANDARD_TYPE(PTopoDS_FieldOfHArray1OfShape1)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -25,14 +25,14 @@ IMPLEMENT_STANDARD_TYPE_END(PTopoDS_FieldOfHArray1OfShape1)
  
 
 #define Item PTopoDS_Shape1
-#define Item_hxx <PTopoDS_Shape1.hxx>
+#define Item_hxx <OCAF/PTopoDS/PTopoDS_Shape1.hxx>
 #define DBC_VArrayNode PTopoDS_VArrayNodeOfFieldOfHArray1OfShape1
-#define DBC_VArrayNode_hxx <PTopoDS_VArrayNodeOfFieldOfHArray1OfShape1.hxx>
+#define DBC_VArrayNode_hxx <OCAF/PTopoDS/PTopoDS_VArrayNodeOfFieldOfHArray1OfShape1.hxx>
 #define DBC_VArrayTNode PTopoDS_VArrayTNodeOfFieldOfHArray1OfShape1
-#define DBC_VArrayTNode_hxx <PTopoDS_VArrayTNodeOfFieldOfHArray1OfShape1.hxx>
+#define DBC_VArrayTNode_hxx <OCAF/PTopoDS/PTopoDS_VArrayTNodeOfFieldOfHArray1OfShape1.hxx>
 #define Handle_DBC_VArrayNode Handle_PTopoDS_VArrayNodeOfFieldOfHArray1OfShape1
 #define DBC_VArrayNode_Type_() PTopoDS_VArrayNodeOfFieldOfHArray1OfShape1_Type_()
 #define DBC_VArray PTopoDS_FieldOfHArray1OfShape1
-#define DBC_VArray_hxx <PTopoDS_FieldOfHArray1OfShape1.hxx>
+#define DBC_VArray_hxx <OCAF/PTopoDS/PTopoDS_FieldOfHArray1OfShape1.hxx>
 #include <OCAF/DBC/DBC_VArray.gxx>
 

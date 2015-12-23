@@ -2,7 +2,7 @@
 #include <ShapeSchema_PTopoDS_Compound.hxx>
 #endif
 #ifndef _PTopoDS_Compound_HeaderFile
-#include <PTopoDS_Compound.hxx>
+#include <OCAF/PTopoDS/PTopoDS_Compound.hxx>
 #endif
 #ifndef _ShapeSchema_PCollection_HAsciiString_HeaderFile
 #include <ShapeSchema_PCollection_HAsciiString.hxx>

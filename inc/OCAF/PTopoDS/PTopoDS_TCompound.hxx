@@ -3,37 +3,37 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#ifndef _PTopoDS_TCompound1_HeaderFile
-#define _PTopoDS_TCompound1_HeaderFile
+#ifndef _PTopoDS_TCompound_HeaderFile
+#define _PTopoDS_TCompound_HeaderFile
 
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard.hxx>
-#include <Handle_PTopoDS_TCompound1.hxx>
+#include <Handle_PTopoDS_TCompound.hxx>
 
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
-#include <PTopoDS_TShape1.hxx>
+#include <OCAF/PTopoDS/PTopoDS_TShape.hxx>
 
 
-class PTopoDS_TCompound1 : public PTopoDS_TShape1
+class PTopoDS_TCompound : public PTopoDS_TShape
 {
 
 public:
 
   
-  //! the new TCompound1 is empty.
-  Standard_EXPORT PTopoDS_TCompound1();
+  //! the new TCompound is empty.
+  Standard_EXPORT PTopoDS_TCompound();
   
   Standard_EXPORT   TopAbs_ShapeEnum ShapeType()  const;
 
-PTopoDS_TCompound1(const Storage_stCONSTclCOM& a) : PTopoDS_TShape1(a)
+PTopoDS_TCompound(const Storage_stCONSTclCOM& a) : PTopoDS_TShape(a)
 {
   
 }
 
 
 
-  DEFINE_STANDARD_RTTI(PTopoDS_TCompound1)
+  DEFINE_STANDARD_RTTI(PTopoDS_TCompound)
 
 protected:
 
@@ -53,4 +53,4 @@ private:
 
 
 
-#endif // _PTopoDS_TCompound1_HeaderFile
+#endif // _PTopoDS_TCompound_HeaderFile

@@ -2,7 +2,7 @@
 #include <ShapeSchema_PTopoDS_Shape1.hxx>
 #endif
 #ifndef _PTopoDS_Shape1_HeaderFile
-#include <PTopoDS_Shape1.hxx>
+#include <OCAF/PTopoDS/PTopoDS_Shape1.hxx>
 #endif
 #ifndef _ShapeSchema_PTopoDS_TShape1_HeaderFile
 #include <ShapeSchema_PTopoDS_TShape1.hxx>

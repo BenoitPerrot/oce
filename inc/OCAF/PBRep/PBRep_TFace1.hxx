@@ -16,7 +16,7 @@
 #include <OCAF/PTopLoc/PTopLoc_Location.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <PTopoDS_TFace1.hxx>
+#include <OCAF/PTopoDS/PTopoDS_TFace1.hxx>
 class PGeom_Surface;
 class PPoly_Triangulation;
 class PTopLoc_Location;

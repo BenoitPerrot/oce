@@ -1964,7 +1964,7 @@ static Standard_Integer OCC24667 (Draw_Interpretor& di, Standard_Integer n, cons
 #include <IGESData_IGESEntity.hxx>
 #include <ModelingAlgorithms/BRepCheck/BRepCheck_Analyzer.hxx>
 #include <OCAF/PTColStd/PTColStd_TransientPersistentMap.hxx>
-#include <PTopoDS_HShape.hxx>
+#include <OCAF/PTopoDS/PTopoDS_HShape.hxx>
 #include <Foundation/Storage/Storage_Data.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <OCAF/MgtBRep/MgtBRep.hxx>

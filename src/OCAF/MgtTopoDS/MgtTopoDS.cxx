@@ -14,27 +14,27 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PTopoDS_HShape.hxx>
+#include <OCAF/PTopoDS/PTopoDS_HShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <OCAF/MgtTopoDS/MgtTopoDS_TranslateTool.hxx>
 #include <OCAF/PTColStd/PTColStd_TransientPersistentMap.hxx>
 #include <OCAF/PTColStd/PTColStd_PersistentTransientMap.hxx>
 #include <OCAF/MgtTopoDS/MgtTopoDS_TranslateTool1.hxx>
-#include <PTopoDS_Shape1.hxx>
+#include <OCAF/PTopoDS/PTopoDS_Shape1.hxx>
 #include <OCAF/MgtTopoDS/MgtTopoDS.hxx>
 #include <OCAF/MgtTopLoc/MgtTopLoc.hxx>
 
-#include <PTopoDS_HShape.hxx>
-#include <PTopoDS_TShape.hxx>
-#include <PTopoDS_Shape1.hxx>
-#include <PTopoDS_TShape1.hxx>
+#include <OCAF/PTopoDS/PTopoDS_HShape.hxx>
+#include <OCAF/PTopoDS/PTopoDS_TShape.hxx>
+#include <OCAF/PTopoDS/PTopoDS_Shape1.hxx>
+#include <OCAF/PTopoDS/PTopoDS_TShape1.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_TShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 
-#include <PTopoDS_HArray1OfHShape.hxx>
-#include <PTopoDS_HArray1OfShape1.hxx>
+#include <OCAF/PTopoDS/PTopoDS_HArray1OfHShape.hxx>
+#include <OCAF/PTopoDS/PTopoDS_HArray1OfShape1.hxx>
 
 #include <ModelingData/BRepTools/BRepTools.hxx>
 

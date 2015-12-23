@@ -3,36 +3,33 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#ifndef _PTopoDS_TWire1_HeaderFile
-#define _PTopoDS_TWire1_HeaderFile
+#ifndef _PTopoDS_Compound_HeaderFile
+#define _PTopoDS_Compound_HeaderFile
 
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard.hxx>
-#include <Handle_PTopoDS_TWire1.hxx>
+#include <Handle_PTopoDS_Compound.hxx>
 
-#include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
-#include <PTopoDS_TShape1.hxx>
+#include <OCAF/PTopoDS/PTopoDS_HShape.hxx>
 
 
-class PTopoDS_TWire1 : public PTopoDS_TShape1
+class PTopoDS_Compound : public PTopoDS_HShape
 {
 
 public:
 
   
-  Standard_EXPORT PTopoDS_TWire1();
-  
-  Standard_EXPORT   TopAbs_ShapeEnum ShapeType()  const;
+  Standard_EXPORT PTopoDS_Compound();
 
-PTopoDS_TWire1(const Storage_stCONSTclCOM& a) : PTopoDS_TShape1(a)
+PTopoDS_Compound(const Storage_stCONSTclCOM& a) : PTopoDS_HShape(a)
 {
   
 }
 
 
 
-  DEFINE_STANDARD_RTTI(PTopoDS_TWire1)
+  DEFINE_STANDARD_RTTI(PTopoDS_Compound)
 
 protected:
 
@@ -52,4 +49,4 @@ private:
 
 
 
-#endif // _PTopoDS_TWire1_HeaderFile
+#endif // _PTopoDS_Compound_HeaderFile

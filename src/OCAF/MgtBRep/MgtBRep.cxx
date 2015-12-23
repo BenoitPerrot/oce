@@ -14,10 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PTopoDS_HShape.hxx>
+#include <OCAF/PTopoDS/PTopoDS_HShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <OCAF/PTColStd/PTColStd_TransientPersistentMap.hxx>
-#include <PTopoDS_Shape1.hxx>
+#include <OCAF/PTopoDS/PTopoDS_Shape1.hxx>
 #include <OCAF/PTColStd/PTColStd_PersistentTransientMap.hxx>
 #include <OCAF/MgtBRep/MgtBRep.hxx>
 

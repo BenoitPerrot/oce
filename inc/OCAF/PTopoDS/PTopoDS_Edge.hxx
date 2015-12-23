@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard.hxx>
 #include <Handle_PTopoDS_Edge.hxx>
 
-#include <PTopoDS_HShape.hxx>
+#include <OCAF/PTopoDS/PTopoDS_HShape.hxx>
 
 
 class PTopoDS_Edge : public PTopoDS_HShape

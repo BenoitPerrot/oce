@@ -40,10 +40,10 @@ static Standard_GUID StandardRetrievalDriver ("ad696001-5b34-11d1-b5ba-00a0c9064
 //#include <TDF_ChildIterator.hxx>
 //#include <TNaming_NamedShape.hxx>
 //#include <OCAF/PNaming/PNaming_NamedShape.hxx>
-//#include <PTopoDS_Shape1.hxx>
+//#include <OCAF/PTopoDS/PTopoDS_Shape1.hxx>
 //#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-//#include <PTopoDS_TShape1.hxx>
-//#include <PTopoDS_HArray1OfShape1.hxx>
+//#include <OCAF/PTopoDS/PTopoDS_TShape1.hxx>
+//#include <OCAF/PTopoDS/PTopoDS_HArray1OfShape1.hxx>
 //#include <OCAF/PBRep/PBRep_TVertex1.hxx>
 //#include <OCAF/PBRep/PBRep_PointRepresentation.hxx>
 //#include <OCAF/PBRep/PBRep_TEdge1.hxx>

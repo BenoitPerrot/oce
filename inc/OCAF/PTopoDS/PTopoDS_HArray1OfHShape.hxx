@@ -13,7 +13,7 @@
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_PTopoDS_HShape.hxx>
-#include <PTopoDS_FieldOfHArray1OfHShape.hxx>
+#include <OCAF/PTopoDS/PTopoDS_FieldOfHArray1OfHShape.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Foundation/Standard/Standard_Persistent.hxx>
 #include <Handle_PTopoDS_VArrayNodeOfFieldOfHArray1OfHShape.hxx>
@@ -83,23 +83,23 @@ private:
 };
 
 #define Item Handle(PTopoDS_HShape)
-#define Item_hxx <PTopoDS_HShape.hxx>
+#define Item_hxx <OCAF/PTopoDS/PTopoDS_HShape.hxx>
 #define PCollection_FieldOfHArray1 PTopoDS_FieldOfHArray1OfHShape
-#define PCollection_FieldOfHArray1_hxx <PTopoDS_FieldOfHArray1OfHShape.hxx>
+#define PCollection_FieldOfHArray1_hxx <OCAF/PTopoDS/PTopoDS_FieldOfHArray1OfHShape.hxx>
 #define PCollection_VArrayNodeOfFieldOfHArray1 PTopoDS_VArrayNodeOfFieldOfHArray1OfHShape
-#define PCollection_VArrayNodeOfFieldOfHArray1_hxx <PTopoDS_VArrayNodeOfFieldOfHArray1OfHShape.hxx>
+#define PCollection_VArrayNodeOfFieldOfHArray1_hxx <OCAF/PTopoDS/PTopoDS_VArrayNodeOfFieldOfHArray1OfHShape.hxx>
 #define PCollection_VArrayTNodeOfFieldOfHArray1 PTopoDS_VArrayTNodeOfFieldOfHArray1OfHShape
-#define PCollection_VArrayTNodeOfFieldOfHArray1_hxx <PTopoDS_VArrayTNodeOfFieldOfHArray1OfHShape.hxx>
+#define PCollection_VArrayTNodeOfFieldOfHArray1_hxx <OCAF/PTopoDS/PTopoDS_VArrayTNodeOfFieldOfHArray1OfHShape.hxx>
 #define PCollection_VArrayNodeOfFieldOfHArray1 PTopoDS_VArrayNodeOfFieldOfHArray1OfHShape
-#define PCollection_VArrayNodeOfFieldOfHArray1_hxx <PTopoDS_VArrayNodeOfFieldOfHArray1OfHShape.hxx>
+#define PCollection_VArrayNodeOfFieldOfHArray1_hxx <OCAF/PTopoDS/PTopoDS_VArrayNodeOfFieldOfHArray1OfHShape.hxx>
 #define PCollection_VArrayTNodeOfFieldOfHArray1 PTopoDS_VArrayTNodeOfFieldOfHArray1OfHShape
-#define PCollection_VArrayTNodeOfFieldOfHArray1_hxx <PTopoDS_VArrayTNodeOfFieldOfHArray1OfHShape.hxx>
+#define PCollection_VArrayTNodeOfFieldOfHArray1_hxx <OCAF/PTopoDS/PTopoDS_VArrayTNodeOfFieldOfHArray1OfHShape.hxx>
 #define Handle_PCollection_VArrayNodeOfFieldOfHArray1 Handle_PTopoDS_VArrayNodeOfFieldOfHArray1OfHShape
 #define PCollection_VArrayNodeOfFieldOfHArray1_Type_() PTopoDS_VArrayNodeOfFieldOfHArray1OfHShape_Type_()
 #define Handle_PCollection_VArrayNodeOfFieldOfHArray1 Handle_PTopoDS_VArrayNodeOfFieldOfHArray1OfHShape
 #define PCollection_VArrayNodeOfFieldOfHArray1_Type_() PTopoDS_VArrayNodeOfFieldOfHArray1OfHShape_Type_()
 #define PCollection_HArray1 PTopoDS_HArray1OfHShape
-#define PCollection_HArray1_hxx <PTopoDS_HArray1OfHShape.hxx>
+#define PCollection_HArray1_hxx <OCAF/PTopoDS/PTopoDS_HArray1OfHShape.hxx>
 #define Handle_PCollection_HArray1 Handle_PTopoDS_HArray1OfHShape
 #define PCollection_HArray1_Type_() PTopoDS_HArray1OfHShape_Type_()
 

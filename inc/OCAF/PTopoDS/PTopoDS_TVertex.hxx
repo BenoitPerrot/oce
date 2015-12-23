@@ -3,33 +3,38 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#ifndef _PTopoDS_Face_HeaderFile
-#define _PTopoDS_Face_HeaderFile
+#ifndef _PTopoDS_TVertex_HeaderFile
+#define _PTopoDS_TVertex_HeaderFile
 
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard.hxx>
-#include <Handle_PTopoDS_Face.hxx>
+#include <Handle_PTopoDS_TVertex.hxx>
 
-#include <PTopoDS_HShape.hxx>
+#include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
+#include <OCAF/PTopoDS/PTopoDS_TShape.hxx>
 
 
-class PTopoDS_Face : public PTopoDS_HShape
+class PTopoDS_TVertex : public PTopoDS_TShape
 {
 
 public:
 
   
-  Standard_EXPORT PTopoDS_Face();
+  Standard_EXPORT   TopAbs_ShapeEnum ShapeType()  const;
 
-PTopoDS_Face(const Storage_stCONSTclCOM& a) : PTopoDS_HShape(a)
+PTopoDS_TVertex(const Storage_stCONSTclCOM& a) : PTopoDS_TShape(a)
+{
+  
+}
+PTopoDS_TVertex( )
 {
   
 }
 
 
 
-  DEFINE_STANDARD_RTTI(PTopoDS_Face)
+  DEFINE_STANDARD_RTTI(PTopoDS_TVertex)
 
 protected:
 
@@ -49,4 +54,4 @@ private:
 
 
 
-#endif // _PTopoDS_Face_HeaderFile
+#endif // _PTopoDS_TVertex_HeaderFile

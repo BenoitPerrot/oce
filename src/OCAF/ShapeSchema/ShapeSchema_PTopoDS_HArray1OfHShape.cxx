@@ -2,7 +2,7 @@
 #include <ShapeSchema_PTopoDS_HArray1OfHShape.hxx>
 #endif
 #ifndef _PTopoDS_HArray1OfHShape_HeaderFile
-#include <PTopoDS_HArray1OfHShape.hxx>
+#include <OCAF/PTopoDS/PTopoDS_HArray1OfHShape.hxx>
 #endif
 #ifndef _ShapeSchema_PTopoDS_FieldOfHArray1OfHShape_HeaderFile
 #include <ShapeSchema_PTopoDS_FieldOfHArray1OfHShape.hxx>

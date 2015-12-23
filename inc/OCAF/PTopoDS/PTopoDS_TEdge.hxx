@@ -3,33 +3,38 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#ifndef _PTopoDS_Compound_HeaderFile
-#define _PTopoDS_Compound_HeaderFile
+#ifndef _PTopoDS_TEdge_HeaderFile
+#define _PTopoDS_TEdge_HeaderFile
 
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard.hxx>
-#include <Handle_PTopoDS_Compound.hxx>
+#include <Handle_PTopoDS_TEdge.hxx>
 
-#include <PTopoDS_HShape.hxx>
+#include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
+#include <OCAF/PTopoDS/PTopoDS_TShape.hxx>
 
 
-class PTopoDS_Compound : public PTopoDS_HShape
+class PTopoDS_TEdge : public PTopoDS_TShape
 {
 
 public:
 
   
-  Standard_EXPORT PTopoDS_Compound();
+  Standard_EXPORT   TopAbs_ShapeEnum ShapeType()  const;
 
-PTopoDS_Compound(const Storage_stCONSTclCOM& a) : PTopoDS_HShape(a)
+PTopoDS_TEdge(const Storage_stCONSTclCOM& a) : PTopoDS_TShape(a)
+{
+  
+}
+PTopoDS_TEdge( )
 {
   
 }
 
 
 
-  DEFINE_STANDARD_RTTI(PTopoDS_Compound)
+  DEFINE_STANDARD_RTTI(PTopoDS_TEdge)
 
 protected:
 
@@ -49,4 +54,4 @@ private:
 
 
 
-#endif // _PTopoDS_Compound_HeaderFile
+#endif // _PTopoDS_TEdge_HeaderFile

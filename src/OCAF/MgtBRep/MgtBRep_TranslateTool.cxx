@@ -24,7 +24,7 @@
 #include <OCAF/PGeom/PGeom_Surface.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <PTopoDS_HShape.hxx>
+#include <OCAF/PTopoDS/PTopoDS_HShape.hxx>
 #include <OCAF/MgtBRep/MgtBRep_TranslateTool.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MgtBRep_TranslateTool)
@@ -64,11 +64,11 @@ IMPLEMENT_STANDARD_RTTI(MgtBRep_TranslateTool)
 #include <ModelingData/BRep/BRep_PointOnSurface.hxx>
 #include <ModelingData/BRep/BRep_ListIteratorOfListOfPointRepresentation.hxx>
 
-#include <PTopoDS_TWire.hxx>
-#include <PTopoDS_TShell.hxx>
-#include <PTopoDS_TSolid.hxx>
-#include <PTopoDS_TCompSolid.hxx>
-#include <PTopoDS_TCompound.hxx>
+#include <OCAF/PTopoDS/PTopoDS_TWire.hxx>
+#include <OCAF/PTopoDS/PTopoDS_TShell.hxx>
+#include <OCAF/PTopoDS/PTopoDS_TSolid.hxx>
+#include <OCAF/PTopoDS/PTopoDS_TCompSolid.hxx>
+#include <OCAF/PTopoDS/PTopoDS_TCompound.hxx>
 
 #include <OCAF/PBRep/PBRep_TVertex.hxx>
 #include <OCAF/PBRep/PBRep_TEdge.hxx>

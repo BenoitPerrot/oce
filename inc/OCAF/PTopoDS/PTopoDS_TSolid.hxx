@@ -3,38 +3,38 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#ifndef _PTopoDS_TSolid1_HeaderFile
-#define _PTopoDS_TSolid1_HeaderFile
+#ifndef _PTopoDS_TSolid_HeaderFile
+#define _PTopoDS_TSolid_HeaderFile
 
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard.hxx>
-#include <Handle_PTopoDS_TSolid1.hxx>
+#include <Handle_PTopoDS_TSolid.hxx>
 
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
-#include <PTopoDS_TShape1.hxx>
+#include <OCAF/PTopoDS/PTopoDS_TShape.hxx>
 
 
-class PTopoDS_TSolid1 : public PTopoDS_TShape1
+class PTopoDS_TSolid : public PTopoDS_TShape
 {
 
 public:
 
   
-  //! The new  TSolid1  has no  boundary  and covers  the
+  //! The new  TSolid  has no  boundary  and covers  the
   //! whole 3D space.
-  Standard_EXPORT PTopoDS_TSolid1();
+  Standard_EXPORT PTopoDS_TSolid();
   
   Standard_EXPORT   TopAbs_ShapeEnum ShapeType()  const;
 
-PTopoDS_TSolid1(const Storage_stCONSTclCOM& a) : PTopoDS_TShape1(a)
+PTopoDS_TSolid(const Storage_stCONSTclCOM& a) : PTopoDS_TShape(a)
 {
   
 }
 
 
 
-  DEFINE_STANDARD_RTTI(PTopoDS_TSolid1)
+  DEFINE_STANDARD_RTTI(PTopoDS_TSolid)
 
 protected:
 
@@ -54,4 +54,4 @@ private:
 
 
 
-#endif // _PTopoDS_TSolid1_HeaderFile
+#endif // _PTopoDS_TSolid_HeaderFile

@@ -16,7 +16,7 @@
 
 #include <Foundation/Standard/Standard_TypeMismatch.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <PTopoDS_HShape.hxx>
+#include <OCAF/PTopoDS/PTopoDS_HShape.hxx>
 #include <OCAF/PTColStd/PTColStd_TransientPersistentMap.hxx>
 #include <OCAF/PTColStd/PTColStd_PersistentTransientMap.hxx>
 #include <OCAF/MgtTopoDS/MgtTopoDS_TranslateTool.hxx>
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_TYPE_END(MgtTopoDS_TranslateTool)
 IMPLEMENT_DOWNCAST(MgtTopoDS_TranslateTool,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MgtTopoDS_TranslateTool)
 #include <ModelingData/TopoDS/TopoDS_TShape.hxx>
-#include <PTopoDS_TShape.hxx>
+#include <OCAF/PTopoDS/PTopoDS_TShape.hxx>
 
 
 //=======================================================================

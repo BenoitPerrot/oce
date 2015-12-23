@@ -2,7 +2,7 @@
 #include <ShapeSchema_PTopoDS_Vertex.hxx>
 #endif
 #ifndef _PTopoDS_Vertex_HeaderFile
-#include <PTopoDS_Vertex.hxx>
+#include <OCAF/PTopoDS/PTopoDS_Vertex.hxx>
 #endif
 #ifndef _ShapeSchema_PCollection_HAsciiString_HeaderFile
 #include <ShapeSchema_PCollection_HAsciiString.hxx>

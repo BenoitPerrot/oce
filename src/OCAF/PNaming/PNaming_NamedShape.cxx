@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PTopoDS_HArray1OfShape1.hxx>
+#include <OCAF/PTopoDS/PTopoDS_HArray1OfShape1.hxx>
 #include <OCAF/PNaming/PNaming_NamedShape.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PNaming_NamedShape)

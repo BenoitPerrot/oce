@@ -12,7 +12,7 @@
 #include <Handle_PTopoDS_VArrayNodeOfFieldOfHArray1OfShape1.hxx>
 
 #include <Foundation/Standard/Standard_Address.hxx>
-#include <PTopoDS_Shape1.hxx>
+#include <OCAF/PTopoDS/PTopoDS_Shape1.hxx>
 #include <OCAF/PStandard/PStandard_ArrayNode.hxx>
 class PTopoDS_Shape1;
 class PTopoDS_FieldOfHArray1OfShape1;

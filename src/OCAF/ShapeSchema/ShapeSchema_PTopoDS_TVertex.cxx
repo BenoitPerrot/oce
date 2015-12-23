@@ -2,7 +2,7 @@
 #include <ShapeSchema_PTopoDS_TVertex.hxx>
 #endif
 #ifndef _PTopoDS_TVertex_HeaderFile
-#include <PTopoDS_TVertex.hxx>
+#include <OCAF/PTopoDS/PTopoDS_TVertex.hxx>
 #endif
 #ifndef _ShapeSchema_PTopoDS_HArray1OfHShape_HeaderFile
 #include <ShapeSchema_PTopoDS_HArray1OfHShape.hxx>

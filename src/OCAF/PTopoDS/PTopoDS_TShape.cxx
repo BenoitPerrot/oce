@@ -14,9 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PTopoDS_HArray1OfHShape.hxx>
-#include <PTopoDS_HShape.hxx>
-#include <PTopoDS_TShape.hxx>
+#include <OCAF/PTopoDS/PTopoDS_HArray1OfHShape.hxx>
+#include <OCAF/PTopoDS/PTopoDS_HShape.hxx>
+#include <OCAF/PTopoDS/PTopoDS_TShape.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PTopoDS_TShape)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

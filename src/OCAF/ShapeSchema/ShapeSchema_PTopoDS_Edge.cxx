@@ -2,7 +2,7 @@
 #include <ShapeSchema_PTopoDS_Edge.hxx>
 #endif
 #ifndef _PTopoDS_Edge_HeaderFile
-#include <PTopoDS_Edge.hxx>
+#include <OCAF/PTopoDS/PTopoDS_Edge.hxx>
 #endif
 #ifndef _ShapeSchema_PCollection_HAsciiString_HeaderFile
 #include <ShapeSchema_PCollection_HAsciiString.hxx>

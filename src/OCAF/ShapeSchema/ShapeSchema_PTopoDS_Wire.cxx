@@ -2,7 +2,7 @@
 #include <ShapeSchema_PTopoDS_Wire.hxx>
 #endif
 #ifndef _PTopoDS_Wire_HeaderFile
-#include <PTopoDS_Wire.hxx>
+#include <OCAF/PTopoDS/PTopoDS_Wire.hxx>
 #endif
 #ifndef _ShapeSchema_PCollection_HAsciiString_HeaderFile
 #include <ShapeSchema_PCollection_HAsciiString.hxx>

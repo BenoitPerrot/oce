@@ -3,33 +3,33 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#ifndef _PTopoDS_Wire_HeaderFile
-#define _PTopoDS_Wire_HeaderFile
+#ifndef _PTopoDS_Solid_HeaderFile
+#define _PTopoDS_Solid_HeaderFile
 
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard.hxx>
-#include <Handle_PTopoDS_Wire.hxx>
+#include <Handle_PTopoDS_Solid.hxx>
 
-#include <PTopoDS_HShape.hxx>
+#include <OCAF/PTopoDS/PTopoDS_HShape.hxx>
 
 
-class PTopoDS_Wire : public PTopoDS_HShape
+class PTopoDS_Solid : public PTopoDS_HShape
 {
 
 public:
 
   
-  Standard_EXPORT PTopoDS_Wire();
+  Standard_EXPORT PTopoDS_Solid();
 
-PTopoDS_Wire(const Storage_stCONSTclCOM& a) : PTopoDS_HShape(a)
+PTopoDS_Solid(const Storage_stCONSTclCOM& a) : PTopoDS_HShape(a)
 {
   
 }
 
 
 
-  DEFINE_STANDARD_RTTI(PTopoDS_Wire)
+  DEFINE_STANDARD_RTTI(PTopoDS_Solid)
 
 protected:
 
@@ -49,4 +49,4 @@ private:
 
 
 
-#endif // _PTopoDS_Wire_HeaderFile
+#endif // _PTopoDS_Solid_HeaderFile
