@@ -10,8 +10,8 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <BRepMAT2d_DataMapOfShapeSequenceOfBasicElt.hxx>
-#include <BRepMAT2d_DataMapOfBasicEltShape.hxx>
+#include <ModelingAlgorithms/BRepMAT2d/BRepMAT2d_DataMapOfShapeSequenceOfBasicElt.hxx>
+#include <ModelingAlgorithms/BRepMAT2d/BRepMAT2d_DataMapOfBasicEltShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

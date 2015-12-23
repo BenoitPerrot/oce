@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <MAT_Graph.hxx>
-#include <BRepMAT2d_Explorer.hxx>
+#include <ModelingAlgorithms/BRepMAT2d/BRepMAT2d_Explorer.hxx>
 #include <MAT_BasicElt.hxx>
 #include <Geometry/Geom2d/Geom2d_Geometry.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
@@ -23,7 +23,7 @@
 #include <ModelingAlgorithms/Bisector/Bisector_Bisec.hxx>
 #include <MAT_Arc.hxx>
 #include <MAT_DataMapOfIntegerBasicElt.hxx>
-#include <BRepMAT2d_BisectingLocus.hxx>
+#include <ModelingAlgorithms/BRepMAT2d/BRepMAT2d_BisectingLocus.hxx>
 
 # include <MAT2d_Mat2d.hxx>
 # include <MAT2d_Tool2d.hxx>

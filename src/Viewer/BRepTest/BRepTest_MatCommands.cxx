@@ -40,9 +40,9 @@
 #include <ModelingAlgorithms/Bisector/Bisector_Curve.hxx>
 #include <Precision.hxx>
 
-#include <BRepMAT2d_Explorer.hxx>
-#include <BRepMAT2d_BisectingLocus.hxx>
-#include <BRepMAT2d_LinkTopoBilo.hxx>
+#include <ModelingAlgorithms/BRepMAT2d/BRepMAT2d_Explorer.hxx>
+#include <ModelingAlgorithms/BRepMAT2d/BRepMAT2d_BisectingLocus.hxx>
+#include <ModelingAlgorithms/BRepMAT2d/BRepMAT2d_LinkTopoBilo.hxx>
 
 #include <Mathematics/Primitives/gp_Parab2d.hxx>
 #include <Mathematics/Primitives/gp_Hypr2d.hxx>

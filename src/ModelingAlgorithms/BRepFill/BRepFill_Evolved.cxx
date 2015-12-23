@@ -22,8 +22,8 @@
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-#include <BRepMAT2d_BisectingLocus.hxx>
-#include <BRepMAT2d_LinkTopoBilo.hxx>
+#include <ModelingAlgorithms/BRepMAT2d/BRepMAT2d_BisectingLocus.hxx>
+#include <ModelingAlgorithms/BRepMAT2d/BRepMAT2d_LinkTopoBilo.hxx>
 #include <ModelingAlgorithms/BRepFill/BRepFill_DataMapOfShapeDataMapOfShapeListOfShape.hxx>
 #include <ModelingData/BRepTools/BRepTools_Quilt.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
@@ -40,7 +40,7 @@
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingAlgorithms/BRepClass3d/BRepClass3d_SolidClassifier.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib.hxx>
-#include <BRepMAT2d_Explorer.hxx>
+#include <ModelingAlgorithms/BRepMAT2d/BRepMAT2d_Explorer.hxx>
 #include <ModelingAlgorithms/BRepFill/BRepFill_Pipe.hxx>
 #include <ModelingAlgorithms/BRepFill/BRepFill_OffsetAncestors.hxx>
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo_FaceRestrictor.hxx>
@@ -60,9 +60,9 @@
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <ModelingData/BRepLProp/BRepLProp.hxx>
 
-#include <BRepMAT2d_LinkTopoBilo.hxx>
-#include <BRepMAT2d_BisectingLocus.hxx>
-#include <BRepMAT2d_Explorer.hxx>
+#include <ModelingAlgorithms/BRepMAT2d/BRepMAT2d_LinkTopoBilo.hxx>
+#include <ModelingAlgorithms/BRepMAT2d/BRepMAT2d_BisectingLocus.hxx>
+#include <ModelingAlgorithms/BRepMAT2d/BRepMAT2d_Explorer.hxx>
 
 #include <GeomAPI.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>

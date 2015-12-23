@@ -3,15 +3,15 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <BRepMAT2d_DataMapOfBasicEltShape.hxx>
+#include <ModelingAlgorithms/BRepMAT2d/BRepMAT2d_DataMapOfBasicEltShape.hxx>
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <MAT_BasicElt.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
-#include <BRepMAT2d_DataMapNodeOfDataMapOfBasicEltShape.hxx>
-#include <BRepMAT2d_DataMapIteratorOfDataMapOfBasicEltShape.hxx>
+#include <ModelingAlgorithms/BRepMAT2d/BRepMAT2d_DataMapNodeOfDataMapOfBasicEltShape.hxx>
+#include <ModelingAlgorithms/BRepMAT2d/BRepMAT2d_DataMapIteratorOfDataMapOfBasicEltShape.hxx>
  
 
 #define TheKey Handle(MAT_BasicElt)
@@ -21,12 +21,12 @@
 #define Hasher TColStd_MapTransientHasher
 #define Hasher_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define TCollection_DataMapNode BRepMAT2d_DataMapNodeOfDataMapOfBasicEltShape
-#define TCollection_DataMapNode_hxx <BRepMAT2d_DataMapNodeOfDataMapOfBasicEltShape.hxx>
+#define TCollection_DataMapNode_hxx <ModelingAlgorithms/BRepMAT2d/BRepMAT2d_DataMapNodeOfDataMapOfBasicEltShape.hxx>
 #define TCollection_DataMapIterator BRepMAT2d_DataMapIteratorOfDataMapOfBasicEltShape
-#define TCollection_DataMapIterator_hxx <BRepMAT2d_DataMapIteratorOfDataMapOfBasicEltShape.hxx>
+#define TCollection_DataMapIterator_hxx <ModelingAlgorithms/BRepMAT2d/BRepMAT2d_DataMapIteratorOfDataMapOfBasicEltShape.hxx>
 #define Handle_TCollection_DataMapNode Handle_BRepMAT2d_DataMapNodeOfDataMapOfBasicEltShape
 #define TCollection_DataMapNode_Type_() BRepMAT2d_DataMapNodeOfDataMapOfBasicEltShape_Type_()
 #define TCollection_DataMap BRepMAT2d_DataMapOfBasicEltShape
-#define TCollection_DataMap_hxx <BRepMAT2d_DataMapOfBasicEltShape.hxx>
+#define TCollection_DataMap_hxx <ModelingAlgorithms/BRepMAT2d/BRepMAT2d_DataMapOfBasicEltShape.hxx>
 #include <Foundation/TCollection/TCollection_DataMap.gxx>
 

@@ -15,12 +15,12 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <BRepMAT2d_Explorer.hxx>
-#include <BRepMAT2d_BisectingLocus.hxx>
+#include <ModelingAlgorithms/BRepMAT2d/BRepMAT2d_Explorer.hxx>
+#include <ModelingAlgorithms/BRepMAT2d/BRepMAT2d_BisectingLocus.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <MAT_BasicElt.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
-#include <BRepMAT2d_LinkTopoBilo.hxx>
+#include <ModelingAlgorithms/BRepMAT2d/BRepMAT2d_LinkTopoBilo.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
@@ -36,7 +36,7 @@
 #include <MAT_Graph.hxx>
 #include <MAT_BasicElt.hxx>
 #include <MAT_SequenceOfBasicElt.hxx>
-#include <BRepMAT2d_DataMapOfShapeSequenceOfBasicElt.hxx>
+#include <ModelingAlgorithms/BRepMAT2d/BRepMAT2d_DataMapOfShapeSequenceOfBasicElt.hxx>
 #include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
 #include <Foundation/TColStd/TColStd_DataMapIteratorOfDataMapOfIntegerInteger.hxx>
 #include <Foundation/TColStd/TColStd_DataMapOfIntegerInteger.hxx>

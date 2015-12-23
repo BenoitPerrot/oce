@@ -20,7 +20,7 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Geometry/TColGeom2d/TColGeom2d_SequenceOfCurve.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfBoolean.hxx>
-#include <BRepMAT2d_Explorer.hxx>
+#include <ModelingAlgorithms/BRepMAT2d/BRepMAT2d_Explorer.hxx>
 #include <MAT2d_SequenceOfSequenceOfCurve.hxx>
 #include <Geometry/TColGeom2d/TColGeom2d_SequenceOfCurve.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>

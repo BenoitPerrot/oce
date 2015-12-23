@@ -21,8 +21,8 @@
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
-#include <BRepMAT2d_BisectingLocus.hxx>
-#include <BRepMAT2d_LinkTopoBilo.hxx>
+#include <ModelingAlgorithms/BRepMAT2d/BRepMAT2d_BisectingLocus.hxx>
+#include <ModelingAlgorithms/BRepMAT2d/BRepMAT2d_LinkTopoBilo.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingAlgorithms/BRepFill/BRepFill_IndexedDataMapOfOrientedShapeListOfShape.hxx>
@@ -53,7 +53,7 @@
 #include <ModelingData/BRep/BRep_CurveRepresentation.hxx>
 #include <ModelingData/BRep/BRep_GCurve.hxx>
 #include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
-#include <BRepMAT2d_Explorer.hxx>
+#include <ModelingAlgorithms/BRepMAT2d/BRepMAT2d_Explorer.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_HCurve.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_OffsetCurve.hxx>
