@@ -74,7 +74,7 @@
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 
-#include <Law_BSpline.hxx>
+#include <ModelingAlgorithms/Law/Law_BSpline.hxx>
 
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>

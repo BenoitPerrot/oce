@@ -18,8 +18,8 @@
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <Law_Function.hxx>
-#include <Law_Constant.hxx>
+#include <ModelingAlgorithms/Law/Law_Function.hxx>
+#include <ModelingAlgorithms/Law/Law_Constant.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Law_Constant)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

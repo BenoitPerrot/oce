@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/TopTools/TopTools_HArray1OfShape.hxx>
-#include <Law_Function.hxx>
+#include <ModelingAlgorithms/Law/Law_Function.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <ModelingAlgorithms/GeomFill/GeomFill_SectionLaw.hxx>

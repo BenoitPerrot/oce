@@ -17,8 +17,8 @@
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <Mathematics/Primitives/gp_XY.hxx>
-#include <Law_Function.hxx>
-#include <Law_Composite.hxx>
+#include <ModelingAlgorithms/Law/Law_Function.hxx>
+#include <ModelingAlgorithms/Law/Law_Composite.hxx>
 #include <ModelingAlgorithms/ChFiDS/ChFiDS_HElSpine.hxx>
 #include <ModelingAlgorithms/ChFiDS/ChFiDS_FilSpine.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -38,10 +38,10 @@ IMPLEMENT_STANDARD_RTTI(ChFiDS_FilSpine)
 #include <Mathematics/Primitives/gp_XY.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <ElCLib.hxx>
-#include <Law_ListIteratorOfLaws.hxx>
-#include <Law_Constant.hxx>
-#include <Law_S.hxx>
-#include <Law_Interpol.hxx>
+#include <ModelingAlgorithms/Law/Law_ListIteratorOfLaws.hxx>
+#include <ModelingAlgorithms/Law/Law_Constant.hxx>
+#include <ModelingAlgorithms/Law/Law_S.hxx>
+#include <ModelingAlgorithms/Law/Law_Interpol.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 
 //=======================================================================

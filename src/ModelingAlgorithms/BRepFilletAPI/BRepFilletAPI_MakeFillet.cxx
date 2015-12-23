@@ -19,7 +19,7 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
-#include <Law_Function.hxx>
+#include <ModelingAlgorithms/Law/Law_Function.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <TopOpeBRepBuild_HBuilder.hxx>
@@ -32,9 +32,9 @@
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <ModelingAlgorithms/ChFiDS/ChFiDS_Spine.hxx>
 #include <ModelingAlgorithms/ChFiDS/ChFiDS_ErrorStatus.hxx>
-#include <Law_Linear.hxx>
-#include <Law_S.hxx>
-#include <Law_Interpol.hxx>
+#include <ModelingAlgorithms/Law/Law_Linear.hxx>
+#include <ModelingAlgorithms/Law/Law_S.hxx>
+#include <ModelingAlgorithms/Law/Law_Interpol.hxx>
 
 //=======================================================================
 //function : BRepFilletAPI_MakeFillet

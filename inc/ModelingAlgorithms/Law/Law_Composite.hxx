@@ -12,9 +12,9 @@
 
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Law_Function.hxx>
-#include <Law_Laws.hxx>
+#include <ModelingAlgorithms/Law/Law_Laws.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Law_Function.hxx>
+#include <ModelingAlgorithms/Law/Law_Function.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Law_Function;

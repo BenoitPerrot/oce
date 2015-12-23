@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
-#include <Law_Function.hxx>
+#include <ModelingAlgorithms/Law/Law_Function.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <ModelingAlgorithms/GeomFill/GeomFill_SimpleBound.hxx>
@@ -29,8 +29,8 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(GeomFill_SimpleBound)
 IMPLEMENT_DOWNCAST(GeomFill_SimpleBound,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(GeomFill_SimpleBound)
-#include <Law_BSpFunc.hxx>
-#include <Law.hxx>
+#include <ModelingAlgorithms/Law/Law_BSpFunc.hxx>
+#include <ModelingAlgorithms/Law/Law.hxx>
 
 //=======================================================================
 //function : GeomFill_SimpleBound

@@ -150,8 +150,8 @@
 #include <ModelingAlgorithms/ChFiDS/ChFiDS_FilSpine.hxx>
 #include <ModelingAlgorithms/ChFiDS/ChFiDS_SequenceOfSurfData.hxx>
 #include <ModelingAlgorithms/ChFiDS/ChFiDS_Regul.hxx>
-#include <Law_Function.hxx>
-#include <Law_Composite.hxx>
+#include <ModelingAlgorithms/Law/Law_Function.hxx>
+#include <ModelingAlgorithms/Law/Law_Composite.hxx>
 #include <ModelingAlgorithms/GeomAPI/GeomAPI_PointsToBSpline.hxx>
 #include <Geometry/GeomLProp/GeomLProp_CLProps.hxx>
 

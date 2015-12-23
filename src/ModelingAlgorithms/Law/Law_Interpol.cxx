@@ -15,7 +15,7 @@
 // pmn -> modified 17/01/1996 : utilisation de Curve() et SetCurve()
 
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
-#include <Law_Interpol.hxx>
+#include <ModelingAlgorithms/Law/Law_Interpol.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Law_Interpol)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(Law_Interpol)
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
-#include <Law_Interpolate.hxx>
+#include <ModelingAlgorithms/Law/Law_Interpolate.hxx>
 
 #ifdef OCCT_DEBUG
 #ifdef DRAW

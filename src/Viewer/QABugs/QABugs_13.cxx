@@ -37,7 +37,7 @@
 #include <Geometry/GC/GC_MakeArcOfCircle.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
-#include <Law_Linear.hxx>
+#include <ModelingAlgorithms/Law/Law_Linear.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shell.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>

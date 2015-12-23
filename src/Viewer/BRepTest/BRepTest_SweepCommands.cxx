@@ -36,7 +36,7 @@
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
 #include <Precision.hxx>
-#include <Law_Interpol.hxx>
+#include <ModelingAlgorithms/Law/Law_Interpol.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>

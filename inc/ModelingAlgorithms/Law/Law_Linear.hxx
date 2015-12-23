@@ -3,56 +3,58 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#ifndef _Law_BSpFunc_HeaderFile
-#define _Law_BSpFunc_HeaderFile
+#ifndef _Law_Linear_HeaderFile
+#define _Law_Linear_HeaderFile
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Law_BSpFunc.hxx>
+#include <Handle_Law_Linear.hxx>
 
-#include <Handle_Law_BSpline.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Law_Function.hxx>
+#include <ModelingAlgorithms/Law/Law_Function.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Law_Function.hxx>
-class Law_BSpline;
 class Standard_OutOfRange;
 class TColStd_Array1OfReal;
 class Law_Function;
 
 
-//! Law Function based on a BSpline curve 1d.  Package
-//! methods and classes are implemented in package Law
-//! to    construct  the  basis    curve with  several
-//! constraints.
-class Law_BSpFunc : public Law_Function
+//! Describes an linear evolution law.
+class Law_Linear : public Law_Function
 {
 
 public:
 
   
-  Standard_EXPORT Law_BSpFunc();
+  //! Constructs an empty linear evolution law.
+  Standard_EXPORT Law_Linear();
   
-  Standard_EXPORT Law_BSpFunc(const Handle(Law_BSpline)& C, const Standard_Real First, const Standard_Real Last);
+
+  //! Defines this linear evolution law by assigning both:
+  //! -   the bounds Pdeb and Pfin of the parameter, and
+  //! -   the values Valdeb and Valfin of the function at these
+  //! two parametric bounds.
+  Standard_EXPORT   void Set (const Standard_Real Pdeb, const Standard_Real Valdeb, const Standard_Real Pfin, const Standard_Real Valfin) ;
   
+  //! Returns GeomAbs_CN
   Standard_EXPORT   GeomAbs_Shape Continuity()  const;
   
-  //! Returns  the number  of  intervals for  continuity
-  //! <S>. May be one if Continuity(me) >= <S>
+  //! Returns  1
   Standard_EXPORT   Standard_Integer NbIntervals (const GeomAbs_Shape S)  const;
   
-  //! Stores in <T> the  parameters bounding the intervals
-  //! of continuity <S>.
-  //!
-  //! The array must provide  enough room to  accomodate
-  //! for the parameters. i.e. T.Length() > NbIntervals()
   Standard_EXPORT   void Intervals (TColStd_Array1OfReal& T, const GeomAbs_Shape S)  const;
   
+  //! Returns the value of this function at the point of parameter X.
   Standard_EXPORT   Standard_Real Value (const Standard_Real X) ;
   
+
+  //! Returns the value F and the first derivative D of this
+  //! function at the point of parameter X.
   Standard_EXPORT   void D1 (const Standard_Real X, Standard_Real& F, Standard_Real& D) ;
   
+  //! Returns the value, first and second derivatives
+  //! at parameter X.
   Standard_EXPORT   void D2 (const Standard_Real X, Standard_Real& F, Standard_Real& D, Standard_Real& D2) ;
   
   //! Returns a  law equivalent of  <me>  between
@@ -63,16 +65,13 @@ public:
   //! the Law is not Cn.
   Standard_EXPORT   Handle(Law_Function) Trim (const Standard_Real PFirst, const Standard_Real PLast, const Standard_Real Tol)  const;
   
+  //! Returns the parametric bounds of the function.
   Standard_EXPORT   void Bounds (Standard_Real& PFirst, Standard_Real& PLast) ;
-  
-  Standard_EXPORT   Handle(Law_BSpline) Curve()  const;
-  
-  Standard_EXPORT   void SetCurve (const Handle(Law_BSpline)& C) ;
 
 
 
 
-  DEFINE_STANDARD_RTTI(Law_BSpFunc)
+  DEFINE_STANDARD_RTTI(Law_Linear)
 
 protected:
 
@@ -82,9 +81,10 @@ protected:
 private: 
 
 
-  Handle(Law_BSpline) curv;
-  Standard_Real first;
-  Standard_Real last;
+  Standard_Real valdeb;
+  Standard_Real valfin;
+  Standard_Real pdeb;
+  Standard_Real pfin;
 
 
 };
@@ -95,4 +95,4 @@ private:
 
 
 
-#endif // _Law_BSpFunc_HeaderFile
+#endif // _Law_Linear_HeaderFile

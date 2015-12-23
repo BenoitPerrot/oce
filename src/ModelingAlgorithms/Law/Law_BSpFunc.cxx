@@ -16,11 +16,11 @@
 
 // pmn -> 17/01/1996 added : Continuity, (Nb)Intervals, D2, Trim
 
-#include <Law_BSpline.hxx>
+#include <ModelingAlgorithms/Law/Law_BSpline.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <Law_Function.hxx>
-#include <Law_BSpFunc.hxx>
+#include <ModelingAlgorithms/Law/Law_Function.hxx>
+#include <ModelingAlgorithms/Law/Law_BSpFunc.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Law_BSpFunc)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_RTTI(Law_BSpFunc)
 
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Precision.hxx>
-#include <Law_BSplineKnotSplitting.hxx>
+#include <ModelingAlgorithms/Law/Law_BSplineKnotSplitting.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 
 #define PosTol Precision::PConfusion()/2

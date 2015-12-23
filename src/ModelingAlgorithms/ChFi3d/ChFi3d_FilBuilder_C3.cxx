@@ -16,7 +16,7 @@
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
-#include <Law_Function.hxx>
+#include <ModelingAlgorithms/Law/Law_Function.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <Mathematics/Primitives/gp_XY.hxx>
 #include <ModelingAlgorithms/ChFiDS/ChFiDS_SecHArray1.hxx>
@@ -110,7 +110,7 @@
 #include <ModelingAlgorithms/BRepBlend/BRepBlend_ConstRadInv.hxx>
 #include <ModelingAlgorithms/BRepBlend/BRepBlend_EvolRad.hxx>
 #include <ModelingAlgorithms/BRepBlend/BRepBlend_EvolRadInv.hxx>
-#include <Law_S.hxx>
+#include <ModelingAlgorithms/Law/Law_S.hxx>
 
 #ifdef DRAW
 #include <DrawTrSurf.hxx>

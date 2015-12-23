@@ -16,7 +16,7 @@
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
-#include <Law_Function.hxx>
+#include <ModelingAlgorithms/Law/Law_Function.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <Mathematics/Primitives/gp_XY.hxx>
 #include <ModelingAlgorithms/ChFiDS/ChFiDS_SecHArray1.hxx>
@@ -54,7 +54,7 @@
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
-#include <Law_Linear.hxx>
+#include <ModelingAlgorithms/Law/Law_Linear.hxx>
 #include <ModelingAlgorithms/BRepBlend/BRepBlend_CSCircular.hxx>
 #include <ModelingAlgorithms/BRepBlend/BRepBlend_Line.hxx>
 #include <Geometry/Geom2dConvert/Geom2dConvert.hxx>

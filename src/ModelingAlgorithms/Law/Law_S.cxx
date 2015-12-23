@@ -14,7 +14,7 @@
 
 // pmn -> modified 17/01/1996 : utilisation de Curve() et SetCurve()
 
-#include <Law_S.hxx>
+#include <ModelingAlgorithms/Law/Law_S.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Law_S)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -28,7 +28,7 @@ IMPLEMENT_DOWNCAST(Law_S,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Law_S)
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
-#include <Law_BSpline.hxx>
+#include <ModelingAlgorithms/Law/Law_BSpline.hxx>
 
 Law_S::Law_S ()
 {}

@@ -11,7 +11,7 @@
 #include <Handle_ChFiDS_FilSpine.hxx>
 
 #include <Mathematics/Collections/TColgp_SequenceOfXY.hxx>
-#include <Law_Laws.hxx>
+#include <ModelingAlgorithms/Law/Law_Laws.hxx>
 #include <ModelingAlgorithms/ChFiDS/ChFiDS_Spine.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

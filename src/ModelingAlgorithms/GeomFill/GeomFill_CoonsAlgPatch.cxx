@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <ModelingAlgorithms/GeomFill/GeomFill_Boundary.hxx>
-#include <Law_Function.hxx>
+#include <ModelingAlgorithms/Law/Law_Function.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <ModelingAlgorithms/GeomFill/GeomFill_CoonsAlgPatch.hxx>
@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(GeomFill_CoonsAlgPatch)
 IMPLEMENT_DOWNCAST(GeomFill_CoonsAlgPatch,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(GeomFill_CoonsAlgPatch)
-#include <Law_Linear.hxx>
+#include <ModelingAlgorithms/Law/Law_Linear.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 
 //=======================================================================

@@ -14,16 +14,16 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Law_BSpFunc.hxx>
-#include <Law_Linear.hxx>
+#include <ModelingAlgorithms/Law/Law_BSpFunc.hxx>
+#include <ModelingAlgorithms/Law/Law_Linear.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
-#include <Law_BSpline.hxx>
+#include <ModelingAlgorithms/Law/Law_BSpline.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
-#include <Law.hxx>
+#include <ModelingAlgorithms/Law/Law.hxx>
 
-#include <Law_Interpolate.hxx>
+#include <ModelingAlgorithms/Law/Law_Interpolate.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>

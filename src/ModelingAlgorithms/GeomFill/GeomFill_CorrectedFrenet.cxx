@@ -17,7 +17,7 @@
 #include <stdio.h>
 
 #include <ModelingAlgorithms/GeomFill/GeomFill_Frenet.hxx>
-#include <Law_Function.hxx>
+#include <ModelingAlgorithms/Law/Law_Function.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfVec.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
@@ -44,16 +44,16 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_CorrectedFrenet)
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Precision.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
-#include <Law_Interpolate.hxx>
+#include <ModelingAlgorithms/Law/Law_Interpolate.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Geometry/BndLib/BndLib_Add3dCurve.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Geometry/GeomLib/GeomLib.hxx>
-#include <Law_Composite.hxx>
-#include <Law_Constant.hxx>
-#include <Law_BSpFunc.hxx>
-#include <Law_BSpline.hxx>
+#include <ModelingAlgorithms/Law/Law_Composite.hxx>
+#include <ModelingAlgorithms/Law/Law_Constant.hxx>
+#include <ModelingAlgorithms/Law/Law_BSpFunc.hxx>
+#include <ModelingAlgorithms/Law/Law_BSpline.hxx>
 #include <ModelingAlgorithms/GeomFill/GeomFill_SnglrFunc.hxx>
 //Patch
 #include <Geometry/Geom/Geom_Plane.hxx>

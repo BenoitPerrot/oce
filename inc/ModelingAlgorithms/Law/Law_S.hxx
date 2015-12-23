@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Law_S.hxx>
 
-#include <Law_BSpFunc.hxx>
+#include <ModelingAlgorithms/Law/Law_BSpFunc.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 
 

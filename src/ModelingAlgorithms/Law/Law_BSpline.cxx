@@ -30,7 +30,7 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
-#include <Law_BSpline.hxx>
+#include <ModelingAlgorithms/Law/Law_BSpline.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Law_BSpline)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

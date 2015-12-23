@@ -836,7 +836,7 @@ static Standard_Integer OCC570 (Draw_Interpretor& di, Standard_Integer argc,cons
   return 0;
 }
 
-#include <Law_Interpol.hxx>
+#include <ModelingAlgorithms/Law/Law_Interpol.hxx>
 
 static Standard_Real t3d = 1.e-4;
 static Standard_Real t2d = 1.e-5;

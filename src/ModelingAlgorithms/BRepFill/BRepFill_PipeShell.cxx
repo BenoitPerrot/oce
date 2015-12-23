@@ -16,7 +16,7 @@
 
 #include <stdio.h>
 
-#include <Law_Function.hxx>
+#include <ModelingAlgorithms/Law/Law_Function.hxx>
 #include <ModelingAlgorithms/BRepFill/BRepFill_LocationLaw.hxx>
 #include <ModelingAlgorithms/BRepFill/BRepFill_SectionLaw.hxx>
 #include <ModelingData/TopTools/TopTools_HArray2OfShape.hxx>
@@ -102,7 +102,7 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_PipeShell)
 #include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_HInter.hxx>
 #include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_IntersectionPoint.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt2d.hxx>
-#include <Law_Interpol.hxx>
+#include <ModelingAlgorithms/Law/Law_Interpol.hxx>
 
 #ifdef DRAW
 #include <Draw.hxx>

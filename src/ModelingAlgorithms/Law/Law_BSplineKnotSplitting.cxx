@@ -17,17 +17,17 @@
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/Standard/Standard_DimensionError.hxx>
 #include <Foundation/Standard/Standard_RangeError.hxx>
-#include <Law_BSpline.hxx>
+#include <ModelingAlgorithms/Law/Law_BSpline.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
-#include <Law_BSplineKnotSplitting.hxx>
+#include <ModelingAlgorithms/Law/Law_BSplineKnotSplitting.hxx>
 
 
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/Standard/Standard_DimensionError.hxx>
 #include <Foundation/Standard/Standard_RangeError.hxx>
-#include <Law_BSpline.hxx>
+#include <ModelingAlgorithms/Law/Law_BSpline.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
-#include <Law_BSplineKnotSplitting.hxx>
+#include <ModelingAlgorithms/Law/Law_BSplineKnotSplitting.hxx>
 #include <Foundation/Standard/Standard_RangeError.hxx>
 
 #include <Mathematics/BetaSpline/BSplCLib.hxx>

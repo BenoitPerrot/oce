@@ -35,9 +35,9 @@
 #include <Mathematics/Polynomial/PLib.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Geometry/AdvApprox/AdvApprox_ApproxAFunction.hxx>
-#include <Law.hxx>
-#include <Law_Linear.hxx>
-#include <Law_BSpline.hxx>
+#include <ModelingAlgorithms/Law/Law.hxx>
+#include <ModelingAlgorithms/Law/Law_Linear.hxx>
+#include <ModelingAlgorithms/Law/Law_BSpline.hxx>
 #include <ModelingAlgorithms/GeomFill/GeomFill_DegeneratedBound.hxx>
 #include <ModelingAlgorithms/GeomFill/GeomFill_TgtOnCoons.hxx>
 

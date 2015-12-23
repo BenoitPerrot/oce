@@ -19,7 +19,7 @@
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
-#include <Law_Function.hxx>
+#include <ModelingAlgorithms/Law/Law_Function.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <Mathematics/Primitives/gp_XY.hxx>
 #include <ModelingAlgorithms/ChFiDS/ChFiDS_SecHArray1.hxx>
@@ -37,7 +37,7 @@
 #include <ModelingAlgorithms/ChFi3d/ChFi3d_Builder_0.hxx>
 #include <ModelingAlgorithms/ChFi3d/ChFi3d_SearchSing.hxx>
 
-#include <Law_Composite.hxx>
+#include <ModelingAlgorithms/Law/Law_Composite.hxx>
 #include <ModelingAlgorithms/Blend/Blend_Point.hxx>
 #include <ModelingAlgorithms/BRepBlend/BRepBlend_Walking.hxx>
 #include <ModelingAlgorithms/BRepBlend/BRepBlend_Line.hxx>

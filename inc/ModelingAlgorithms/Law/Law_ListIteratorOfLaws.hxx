@@ -62,15 +62,15 @@ private:
 };
 
 #define Item Handle(Law_Function)
-#define Item_hxx <Law_Function.hxx>
+#define Item_hxx <ModelingAlgorithms/Law/Law_Function.hxx>
 #define TCollection_ListNode Law_ListNodeOfLaws
-#define TCollection_ListNode_hxx <Law_ListNodeOfLaws.hxx>
+#define TCollection_ListNode_hxx <ModelingAlgorithms/Law/Law_ListNodeOfLaws.hxx>
 #define TCollection_ListIterator Law_ListIteratorOfLaws
-#define TCollection_ListIterator_hxx <Law_ListIteratorOfLaws.hxx>
+#define TCollection_ListIterator_hxx <ModelingAlgorithms/Law/Law_ListIteratorOfLaws.hxx>
 #define Handle_TCollection_ListNode Handle_Law_ListNodeOfLaws
 #define TCollection_ListNode_Type_() Law_ListNodeOfLaws_Type_()
 #define TCollection_List Law_Laws
-#define TCollection_List_hxx <Law_Laws.hxx>
+#define TCollection_List_hxx <ModelingAlgorithms/Law/Law_Laws.hxx>
 
 #include <Foundation/TCollection/TCollection_ListIterator.lxx>
 
