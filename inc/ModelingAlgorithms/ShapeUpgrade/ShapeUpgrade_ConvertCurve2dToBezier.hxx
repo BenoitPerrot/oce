@@ -12,7 +12,7 @@
 
 #include <Handle_TColGeom2d_HSequenceOfCurve.hxx>
 #include <Handle_TColStd_HSequenceOfReal.hxx>
-#include <ShapeUpgrade_SplitCurve2d.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_SplitCurve2d.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class TColGeom2d_HSequenceOfCurve;
 class TColStd_HSequenceOfReal;

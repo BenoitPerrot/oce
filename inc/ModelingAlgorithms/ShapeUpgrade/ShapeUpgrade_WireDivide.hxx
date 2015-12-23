@@ -18,7 +18,7 @@
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_ShapeUpgrade_FixSmallCurves.hxx>
-#include <ShapeUpgrade_Tool.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_Tool.hxx>
 #include <Handle_Geom_Surface.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingAlgorithms/ShapeExtend/ShapeExtend_Status.hxx>

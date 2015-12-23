@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <ShapeUpgrade_SplitSurfaceContinuity.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_SplitSurfaceContinuity.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeUpgrade_SplitSurfaceContinuity)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -27,13 +27,13 @@ IMPLEMENT_DOWNCAST(ShapeUpgrade_SplitSurfaceContinuity,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_SplitSurfaceContinuity)
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <Precision.hxx>
-#include <ShapeUpgrade.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade.hxx>
 #include <Geometry/TColGeom/TColGeom_HArray2OfSurface.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Geometry/Geom/Geom_SweptSurface.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
 #include <Geometry/Geom/Geom_SurfaceOfRevolution.hxx>
-#include <ShapeUpgrade_SplitCurve3dContinuity.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_SplitCurve3dContinuity.hxx>
 #include <Geometry/Geom/Geom_SurfaceOfLinearExtrusion.hxx>
 #include <Geometry/TColGeom/TColGeom_HArray1OfCurve.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>

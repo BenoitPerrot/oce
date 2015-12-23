@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
-#include <ShapeUpgrade_ClosedFaceDivide.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_ClosedFaceDivide.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeUpgrade_ClosedFaceDivide)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -40,7 +40,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_ClosedFaceDivide)
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <ShapeUpgrade_SplitSurface.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_SplitSurface.hxx>
 #include <ModelingAlgorithms/ShapeExtend/ShapeExtend_CompositeSurface.hxx>
 #include <ModelingAlgorithms/ShapeFix/ShapeFix_ComposeShell.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>

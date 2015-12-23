@@ -16,7 +16,7 @@
 
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/TColGeom2d/TColGeom2d_HArray1OfCurve.hxx>
-#include <ShapeUpgrade_SplitCurve2d.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_SplitCurve2d.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeUpgrade_SplitCurve2d)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(ShapeUpgrade_SplitCurve2d)
 IMPLEMENT_DOWNCAST(ShapeUpgrade_SplitCurve2d,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_SplitCurve2d)
-#include <ShapeUpgrade.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade.hxx>
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfReal.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>

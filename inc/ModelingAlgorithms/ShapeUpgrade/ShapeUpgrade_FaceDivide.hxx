@@ -16,7 +16,7 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <ShapeUpgrade_Tool.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_Tool.hxx>
 #include <ModelingAlgorithms/ShapeExtend/ShapeExtend_Status.hxx>
 class ShapeUpgrade_SplitSurface;
 class ShapeUpgrade_WireDivide;

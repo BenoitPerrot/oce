@@ -11,7 +11,7 @@
 #include <Handle_ShapeUpgrade_SplitSurfaceAngle.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <ShapeUpgrade_SplitSurface.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_SplitSurface.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 
 

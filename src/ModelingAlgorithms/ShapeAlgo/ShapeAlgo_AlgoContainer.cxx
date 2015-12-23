@@ -68,8 +68,8 @@ IMPLEMENT_STANDARD_RTTI(ShapeAlgo_AlgoContainer)
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Edge.hxx>
 #include <ModelingAlgorithms/ShapeFix/ShapeFix.hxx>
 #include <ModelingAlgorithms/ShapeFix/ShapeFix_Edge.hxx>
-#include <ShapeUpgrade.hxx>
-#include <ShapeUpgrade_ShapeDivideContinuity.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_ShapeDivideContinuity.hxx>
 #include <ModelingAlgorithms/ShapeExtend/ShapeExtend_WireData.hxx>
 #include <ModelingAlgorithms/ShapeExtend/ShapeExtend_WireData.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>

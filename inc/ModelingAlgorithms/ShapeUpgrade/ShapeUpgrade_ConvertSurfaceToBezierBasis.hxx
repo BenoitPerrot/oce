@@ -12,7 +12,7 @@
 
 #include <Handle_ShapeExtend_CompositeSurface.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <ShapeUpgrade_SplitSurface.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_SplitSurface.hxx>
 class ShapeExtend_CompositeSurface;
 
 
@@ -89,7 +89,7 @@ private:
 };
 
 
-#include <ShapeUpgrade_ConvertSurfaceToBezierBasis.lxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_ConvertSurfaceToBezierBasis.lxx>
 
 
 

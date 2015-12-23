@@ -13,7 +13,7 @@
 #include <GeomAbs_Shape.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <ShapeUpgrade_SplitSurface.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_SplitSurface.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 
 

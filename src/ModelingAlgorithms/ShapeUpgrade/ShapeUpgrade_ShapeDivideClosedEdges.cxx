@@ -14,10 +14,10 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <ShapeUpgrade_ShapeDivideClosedEdges.hxx>
-#include <ShapeUpgrade_ClosedEdgeDivide.hxx>
-#include <ShapeUpgrade_WireDivide.hxx>
-#include <ShapeUpgrade_FaceDivide.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_ShapeDivideClosedEdges.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_ClosedEdgeDivide.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_WireDivide.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_FaceDivide.hxx>
 
 //=======================================================================
 //function : ShapeUpgrade_ShapeDivideClosedEdges

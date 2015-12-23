@@ -19,17 +19,17 @@
 //    abv 14.07.99 dealing with edges without 3d curve
 //    svv 10.01.00 porting on DEC
 
-#include <ShapeUpgrade_SplitCurve3d.hxx>
-#include <ShapeUpgrade_SplitCurve2d.hxx>
-#include <ShapeUpgrade_EdgeDivide.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_SplitCurve3d.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_SplitCurve2d.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_EdgeDivide.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_TransferParameters.hxx>
-#include <ShapeUpgrade_FixSmallCurves.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_FixSmallCurves.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
-#include <ShapeUpgrade_WireDivide.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_WireDivide.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeUpgrade_WireDivide)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -40,7 +40,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(ShapeUpgrade_WireDivide)
 IMPLEMENT_DOWNCAST(ShapeUpgrade_WireDivide,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_WireDivide)
-#include <ShapeUpgrade.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeFace.hxx>
@@ -64,7 +64,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_WireDivide)
 #include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>
 #include <ModelingAlgorithms/ShapeBuild/ShapeBuild_ReShape.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_TransferParametersProj.hxx>
-#include <ShapeUpgrade_FixSmallCurves.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_FixSmallCurves.hxx>
 #include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>

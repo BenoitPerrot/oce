@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <ShapeUpgrade_SplitCurve3dContinuity.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_SplitCurve3dContinuity.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeUpgrade_SplitCurve3dContinuity)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_SplitCurve3dContinuity)
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Precision.hxx>
-#include <ShapeUpgrade.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Geometry/Geom/Geom_OffsetCurve.hxx>

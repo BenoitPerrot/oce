@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ShapeUpgrade_ClosedEdgeDivide.hxx>
 
-#include <ShapeUpgrade_EdgeDivide.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_EdgeDivide.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class TopoDS_Edge;
 

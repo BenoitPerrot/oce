@@ -17,7 +17,7 @@
 //    gka 30.04.99 S4137: re-worked
 
 #include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
-#include <ShapeUpgrade_SplitCurve.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_SplitCurve.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeUpgrade_SplitCurve)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -29,7 +29,7 @@ IMPLEMENT_DOWNCAST(ShapeUpgrade_SplitCurve,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_SplitCurve)
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Precision.hxx>
-#include <ShapeUpgrade.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfReal.hxx>
 #include <Geometry/TColGeom/TColGeom_HArray1OfCurve.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>

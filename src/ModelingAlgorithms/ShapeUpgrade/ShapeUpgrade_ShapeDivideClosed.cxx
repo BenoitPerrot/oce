@@ -15,8 +15,8 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <ShapeUpgrade_ShapeDivideClosed.hxx>
-#include <ShapeUpgrade_ClosedFaceDivide.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_ShapeDivideClosed.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_ClosedFaceDivide.hxx>
 
 //=======================================================================
 //function : ShapeUpgrade_ShapeDivideClosed

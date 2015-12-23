@@ -12,9 +12,9 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <ShapeUpgrade_FaceDivide.hxx>
-#include <ShapeUpgrade_ShapeDivideArea.hxx>
-#include <ShapeUpgrade_FaceDivideArea.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_FaceDivide.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_ShapeDivideArea.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_FaceDivideArea.hxx>
 #include <Precision.hxx>
 
 //=======================================================================

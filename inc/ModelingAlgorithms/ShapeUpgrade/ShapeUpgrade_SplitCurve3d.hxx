@@ -12,7 +12,7 @@
 
 #include <Handle_Geom_Curve.hxx>
 #include <Handle_TColGeom_HArray1OfCurve.hxx>
-#include <ShapeUpgrade_SplitCurve.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_SplitCurve.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Geom_Curve;

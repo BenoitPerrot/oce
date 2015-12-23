@@ -15,7 +15,7 @@
 
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
-#include <ShapeUpgrade_FixSmallBezierCurves.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_FixSmallBezierCurves.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeUpgrade_FixSmallBezierCurves)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -50,8 +50,8 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_FixSmallBezierCurves)
 #include <Geometry/GeomConvert/GeomConvert_ApproxCurve.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Geometry/GeomConvert/GeomConvert_ApproxCurve.hxx>
-#include <ShapeUpgrade_SplitCurve3d.hxx>
-#include <ShapeUpgrade_SplitCurve2d.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_SplitCurve3d.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_SplitCurve2d.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>

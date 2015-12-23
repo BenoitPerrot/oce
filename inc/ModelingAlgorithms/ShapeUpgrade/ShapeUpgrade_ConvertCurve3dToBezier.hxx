@@ -13,7 +13,7 @@
 #include <Handle_TColGeom_HSequenceOfCurve.hxx>
 #include <Handle_TColStd_HSequenceOfReal.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <ShapeUpgrade_SplitCurve3d.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_SplitCurve3d.hxx>
 class TColGeom_HSequenceOfCurve;
 class TColStd_HSequenceOfReal;
 
@@ -85,7 +85,7 @@ private:
 };
 
 
-#include <ShapeUpgrade_ConvertCurve3dToBezier.lxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_ConvertCurve3dToBezier.lxx>
 
 
 

@@ -11,7 +11,7 @@
 #include <Handle_ShapeUpgrade_SplitSurfaceArea.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <ShapeUpgrade_SplitSurface.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_SplitSurface.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 
 
@@ -50,7 +50,7 @@ private:
 };
 
 
-#include <ShapeUpgrade_SplitSurfaceArea.lxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_SplitSurfaceArea.lxx>
 
 
 

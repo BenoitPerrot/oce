@@ -17,7 +17,7 @@
 //   svv  10.01.00 porting on DEC
 
 #include <ModelingAlgorithms/ShapeExtend/ShapeExtend_CompositeSurface.hxx>
-#include <ShapeUpgrade_ConvertSurfaceToBezierBasis.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_ConvertSurfaceToBezierBasis.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeUpgrade_ConvertSurfaceToBezierBasis)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -46,7 +46,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_ConvertSurfaceToBezierBasis)
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Geometry/TColGeom/TColGeom_HArray1OfCurve.hxx>
 #include <Geometry/Geom/Geom_OffsetCurve.hxx>
-#include <ShapeUpgrade_ConvertCurve3dToBezier.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_ConvertCurve3dToBezier.hxx>
 #include <Geometry/Geom/Geom_SurfaceOfLinearExtrusion.hxx>
 #include <Geometry/Geom/Geom_BezierCurve.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>

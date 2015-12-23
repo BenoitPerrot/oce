@@ -81,7 +81,7 @@ private:
 };
 
 
-#include <ShapeUpgrade_Tool.lxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_Tool.lxx>
 
 
 

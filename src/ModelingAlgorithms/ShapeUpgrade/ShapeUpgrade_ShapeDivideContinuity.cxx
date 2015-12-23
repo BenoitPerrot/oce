@@ -15,15 +15,15 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <ShapeUpgrade_FaceDivide.hxx>
-#include <ShapeUpgrade_ShapeDivideContinuity.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_FaceDivide.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_ShapeDivideContinuity.hxx>
 
 #include <Precision.hxx>
-#include <ShapeUpgrade_SplitCurve2dContinuity.hxx>
-#include <ShapeUpgrade_SplitCurve3dContinuity.hxx>
-#include <ShapeUpgrade_SplitSurfaceContinuity.hxx>
-#include <ShapeUpgrade_WireDivide.hxx>
-#include <ShapeUpgrade_FaceDivide.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_SplitCurve2dContinuity.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_SplitCurve3dContinuity.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_SplitSurfaceContinuity.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_WireDivide.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_FaceDivide.hxx>
 
 //=======================================================================
 //function : ShapeUpgrade_ShapeDivideContinuity

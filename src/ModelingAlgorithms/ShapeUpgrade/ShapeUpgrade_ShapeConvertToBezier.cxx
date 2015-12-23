@@ -18,11 +18,11 @@
 
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <ShapeUpgrade_FaceDivide.hxx>
-#include <ShapeUpgrade_ShapeConvertToBezier.hxx>
-#include <ShapeUpgrade_WireDivide.hxx>
-#include <ShapeUpgrade_ConvertCurve3dToBezier.hxx>
-#include <ShapeUpgrade_ConvertCurve2dToBezier.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_FaceDivide.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_ShapeConvertToBezier.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_WireDivide.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_ConvertCurve3dToBezier.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_ConvertCurve2dToBezier.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
@@ -37,7 +37,7 @@
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Geometry/GeomLib/GeomLib.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
-#include <ShapeUpgrade_ConvertSurfaceToBezierBasis.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_ConvertSurfaceToBezierBasis.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
@@ -45,9 +45,9 @@
 #include <ModelingAlgorithms/ShapeFix/ShapeFix_Wire.hxx>
 #include <ModelingAlgorithms/ShapeExtend/ShapeExtend_WireData.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
-#include <ShapeUpgrade_FixSmallBezierCurves.hxx>
-#include <ShapeUpgrade_FixSmallBezierCurves.hxx>
-#include <ShapeUpgrade_FixSmallBezierCurves.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_FixSmallBezierCurves.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_FixSmallBezierCurves.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_FixSmallBezierCurves.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 
 //=======================================================================

@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
-#include <ShapeUpgrade_ClosedEdgeDivide.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_ClosedEdgeDivide.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeUpgrade_ClosedEdgeDivide)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -32,8 +32,8 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_ClosedEdgeDivide)
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
-#include <ShapeUpgrade_SplitCurve3d.hxx>
-#include <ShapeUpgrade_SplitCurve2d.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_SplitCurve3d.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_SplitCurve2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>

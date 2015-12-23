@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ShapeUpgrade_FixSmallBezierCurves.hxx>
 
-#include <ShapeUpgrade_FixSmallCurves.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_FixSmallCurves.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Geom_Curve.hxx>
 #include <Handle_Geom2d_Curve.hxx>

@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <ShapeUpgrade_RemoveLocations.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_RemoveLocations.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeUpgrade_RemoveLocations)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -48,7 +48,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_RemoveLocations)
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfTransient.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <Foundation/TColStd/TColStd_ListOfTransient.hxx>
-//#include <ShapeUpgrade_DataMapOfShapeListOfTransient.hxx>
+//#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_DataMapOfShapeListOfTransient.hxx>
 #include <ModelingAlgorithms/ShapeBuild/ShapeBuild_Edge.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
 

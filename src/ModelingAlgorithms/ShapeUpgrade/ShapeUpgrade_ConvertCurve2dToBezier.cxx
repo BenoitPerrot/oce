@@ -16,7 +16,7 @@
 
 #include <Geometry/TColGeom2d/TColGeom2d_HSequenceOfCurve.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
-#include <ShapeUpgrade_ConvertCurve2dToBezier.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_ConvertCurve2dToBezier.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeUpgrade_ConvertCurve2dToBezier)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

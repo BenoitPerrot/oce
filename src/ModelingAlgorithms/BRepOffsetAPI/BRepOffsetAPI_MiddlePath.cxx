@@ -17,7 +17,7 @@
 #include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_MiddlePath.hxx>
 #include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_MiddlePath.hxx>
 
-#include <ShapeUpgrade_UnifySameDomain.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_UnifySameDomain.hxx>
 
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>

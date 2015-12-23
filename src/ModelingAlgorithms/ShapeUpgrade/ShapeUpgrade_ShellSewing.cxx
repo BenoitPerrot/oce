@@ -14,7 +14,7 @@
 //szv#4 S4163
 #include <ModelingAlgorithms/ShapeBuild/ShapeBuild_ReShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <ShapeUpgrade_ShellSewing.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_ShellSewing.hxx>
 
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shell.hxx>

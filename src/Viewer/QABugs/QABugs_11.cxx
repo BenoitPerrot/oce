@@ -1224,7 +1224,7 @@ static Standard_Integer OCC377 (Draw_Interpretor& di, Standard_Integer argc, con
   return 0;
 }
 
-#include <ShapeUpgrade_ShapeDivideAngle.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_ShapeDivideAngle.hxx>
 #include <ModelingAlgorithms/ShapeBuild/ShapeBuild_ReShape.hxx>
 
 //=======================================================================

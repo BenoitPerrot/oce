@@ -12,7 +12,7 @@
 
 #include <GeomAbs_Shape.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <ShapeUpgrade_ShapeDivide.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_ShapeDivide.hxx>
 #include <Handle_ShapeUpgrade_FaceDivide.hxx>
 class TopoDS_Shape;
 class ShapeUpgrade_FaceDivide;

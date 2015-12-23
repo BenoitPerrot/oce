@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <ModelingAlgorithms/ShapeBuild/ShapeBuild_ReShape.hxx>
-#include <ShapeUpgrade_Tool.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_Tool.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeUpgrade_Tool)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

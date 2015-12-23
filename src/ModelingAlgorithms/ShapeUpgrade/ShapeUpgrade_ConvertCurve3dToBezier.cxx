@@ -16,7 +16,7 @@
 
 #include <Geometry/TColGeom/TColGeom_HSequenceOfCurve.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
-#include <ShapeUpgrade_ConvertCurve3dToBezier.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_ConvertCurve3dToBezier.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeUpgrade_ConvertCurve3dToBezier)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

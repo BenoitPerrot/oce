@@ -13,7 +13,7 @@
 #include <GeomAbs_Shape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <ShapeUpgrade_SplitCurve2d.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_SplitCurve2d.hxx>
 
 
 //! Corrects/splits a 2d curve with a continuity criterion.

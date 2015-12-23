@@ -15,7 +15,7 @@
 
 #include <ModelingAlgorithms/ShapeBuild/ShapeBuild_ReShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <ShapeUpgrade_UnifySameDomain.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_UnifySameDomain.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeUpgrade_UnifySameDomain)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -25,7 +25,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(ShapeUpgrade_UnifySameDomain)
 IMPLEMENT_DOWNCAST(ShapeUpgrade_UnifySameDomain,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_UnifySameDomain)
-#include <ShapeUpgrade_UnifySameDomain.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_UnifySameDomain.hxx>
 #include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
@@ -87,7 +87,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_UnifySameDomain)
 #include <ModelingAlgorithms/ShapeFix/ShapeFix_WireSegment.hxx>
 #include <ModelingAlgorithms/ShapeFix/ShapeFix_Edge.hxx>
 #include <ModelingAlgorithms/ShapeFix/ShapeFix_Shell.hxx>
-#include <ShapeUpgrade_RemoveLocations.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_RemoveLocations.hxx>
 
 
 //=======================================================================

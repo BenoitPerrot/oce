@@ -13,7 +13,7 @@
 #include <GeomAbs_Shape.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <ShapeUpgrade_SplitCurve3d.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_SplitCurve3d.hxx>
 #include <Handle_Geom_Curve.hxx>
 class Geom_Curve;
 

@@ -15,9 +15,9 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <ShapeUpgrade_ShapeDivideAngle.hxx>
-#include <ShapeUpgrade_SplitSurfaceAngle.hxx>
-#include <ShapeUpgrade_FaceDivide.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_ShapeDivideAngle.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_SplitSurfaceAngle.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_FaceDivide.hxx>
 
 //=======================================================================
 //function : ShapeUpgrade_ShapeDivideAngle

@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <ShapeUpgrade_ShapeDivide.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_ShapeDivide.hxx>
 #include <Handle_ShapeUpgrade_FaceDivide.hxx>
 class TopoDS_Shape;
 class ShapeUpgrade_FaceDivide;
@@ -55,7 +55,7 @@ private:
 };
 
 
-#include <ShapeUpgrade_ShapeDivideArea.lxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_ShapeDivideArea.lxx>
 
 
 

@@ -45,11 +45,11 @@
 
 #include <ModelingAlgorithms/ShapeExtend/ShapeExtend.hxx>
 #include <ModelingAlgorithms/ShapeBuild/ShapeBuild_ReShape.hxx>
-#include <ShapeUpgrade_ShapeDivideAngle.hxx>
-#include <ShapeUpgrade_ShapeConvertToBezier.hxx>
-#include <ShapeUpgrade_ShapeDivideContinuity.hxx>
-#include <ShapeUpgrade_ShapeDivideClosed.hxx>
-#include <ShapeUpgrade_ShapeDivideClosedEdges.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_ShapeDivideAngle.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_ShapeConvertToBezier.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_ShapeDivideContinuity.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_ShapeDivideClosed.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_ShapeDivideClosedEdges.hxx>
 
 #include <ModelingAlgorithms/ShapeFix/ShapeFix_ShapeTolerance.hxx>
 #include <ModelingAlgorithms/ShapeFix/ShapeFix_Shape.hxx>

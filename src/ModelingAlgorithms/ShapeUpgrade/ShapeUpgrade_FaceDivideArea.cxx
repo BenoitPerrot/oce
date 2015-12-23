@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
-#include <ShapeUpgrade_FaceDivideArea.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_FaceDivideArea.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeUpgrade_FaceDivideArea)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_FaceDivideArea)
 #include <Geometry/GProp/GProp_GProps.hxx>
 #include <ModelingAlgorithms/BRepGProp/BRepGProp.hxx>
 #include <Precision.hxx> 
-#include <ShapeUpgrade_SplitSurfaceArea.hxx> 
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_SplitSurfaceArea.hxx> 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>  
 #include <ModelingData/TopoDS/TopoDS.hxx>

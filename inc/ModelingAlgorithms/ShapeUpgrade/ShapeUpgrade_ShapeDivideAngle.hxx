@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <ShapeUpgrade_ShapeDivide.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_ShapeDivide.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class TopoDS_Shape;
 

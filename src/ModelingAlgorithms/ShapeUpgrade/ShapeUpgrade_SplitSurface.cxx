@@ -19,7 +19,7 @@
 #include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <ModelingAlgorithms/ShapeExtend/ShapeExtend_CompositeSurface.hxx>
-#include <ShapeUpgrade_SplitSurface.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_SplitSurface.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeUpgrade_SplitSurface)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(ShapeUpgrade_SplitSurface)
 IMPLEMENT_DOWNCAST(ShapeUpgrade_SplitSurface,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_SplitSurface)
-#include <ShapeUpgrade.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade.hxx>
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
 #include <Geometry/TColGeom/TColGeom_HArray2OfSurface.hxx>
@@ -39,7 +39,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_SplitSurface)
 #include <Geometry/Geom/Geom_SurfaceOfLinearExtrusion.hxx>
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
 #include <Geometry/Geom/Geom_OffsetSurface.hxx>
-#include <ShapeUpgrade_SplitCurve3d.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_SplitCurve3d.hxx>
 #include <Geometry/TColGeom/TColGeom_HArray1OfCurve.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>

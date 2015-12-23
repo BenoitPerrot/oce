@@ -15,7 +15,7 @@
 #include <Handle_TColStd_HSequenceOfReal.hxx>
 #include <Handle_ShapeUpgrade_SplitCurve3d.hxx>
 #include <Handle_ShapeUpgrade_SplitCurve2d.hxx>
-#include <ShapeUpgrade_Tool.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_Tool.hxx>
 class TColStd_HSequenceOfReal;
 class ShapeUpgrade_SplitCurve3d;
 class ShapeUpgrade_SplitCurve2d;
@@ -85,7 +85,7 @@ private:
 };
 
 
-#include <ShapeUpgrade_EdgeDivide.lxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_EdgeDivide.lxx>
 
 
 

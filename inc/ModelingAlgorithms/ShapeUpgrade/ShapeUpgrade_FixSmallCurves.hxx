@@ -15,7 +15,7 @@
 #include <Handle_ShapeUpgrade_SplitCurve2d.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
-#include <ShapeUpgrade_Tool.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_Tool.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Geom_Curve.hxx>
 #include <Handle_Geom2d_Curve.hxx>

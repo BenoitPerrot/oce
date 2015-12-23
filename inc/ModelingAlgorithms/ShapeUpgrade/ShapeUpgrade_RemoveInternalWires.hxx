@@ -17,7 +17,7 @@
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <ShapeUpgrade_Tool.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_Tool.hxx>
 #include <ModelingAlgorithms/ShapeExtend/ShapeExtend_Status.hxx>
 class TopoDS_Shape;
 class TopTools_SequenceOfShape;
@@ -108,7 +108,7 @@ private:
 };
 
 
-#include <ShapeUpgrade_RemoveInternalWires.lxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_RemoveInternalWires.lxx>
 
 
 

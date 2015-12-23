@@ -70,7 +70,7 @@ private:
 };
 
 
-#include <ShapeUpgrade_RemoveLocations.lxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_RemoveLocations.lxx>
 
 
 

@@ -23,11 +23,11 @@
 
 #include <Viewer/Draw/Draw.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
-#include <ShapeUpgrade.hxx>
-#include <ShapeUpgrade_SplitCurve3dContinuity.hxx>
-#include <ShapeUpgrade_SplitCurve2dContinuity.hxx>
-#include <ShapeUpgrade_SplitSurfaceContinuity.hxx>
-//#include <ShapeUpgrade_SupportModification.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_SplitCurve3dContinuity.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_SplitCurve2dContinuity.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_SplitSurfaceContinuity.hxx>
+//#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_SupportModification.hxx>
 #include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
@@ -51,18 +51,18 @@
 #include <Geometry/TColGeom2d/TColGeom2d_HArray1OfCurve.hxx>
 #include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI.hxx>
 #include <Viewer/SWDRAW/SWDRAW.hxx>
-#include <ShapeUpgrade_ShapeDivideArea.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_ShapeDivideArea.hxx>
 
 #include <stdio.h> 
 //#include <ModelingAlgorithms/ShapeExtend/ShapeExtend_WireData.hxx>
 //#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Shell.hxx>
 //#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_WireOrder.hxx>
 //#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Wire.hxx>
-//#include <ShapeUpgrade_ShellSewing.hxx>
+//#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_ShellSewing.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_OffsetCurve.hxx>
 #include <Geometry/Geom/Geom_OffsetCurve.hxx>
-#include <ShapeUpgrade_SplitCurve3dContinuity.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_SplitCurve3dContinuity.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingAlgorithms/ShapeExtend/ShapeExtend_CompositeSurface.hxx>
@@ -73,14 +73,14 @@
 #include <ModelingAlgorithms/ShapeBuild/ShapeBuild_ReShape.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ModelingAlgorithms/ShapeFix/ShapeFix.hxx>
-#include <ShapeUpgrade_ShapeDivideContinuity.hxx>
-#include <ShapeUpgrade_ShapeDivideAngle.hxx>
-#include <ShapeUpgrade_ShapeConvertToBezier.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_ShapeDivideContinuity.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_ShapeDivideAngle.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_ShapeConvertToBezier.hxx>
 #include <ModelingAlgorithms/ShapeCustom/ShapeCustom.hxx>
-#include <ShapeUpgrade_ShapeDivideClosed.hxx>
-#include <ShapeUpgrade_RemoveInternalWires.hxx>
-#include <ShapeUpgrade_RemoveLocations.hxx>
-#include <ShapeUpgrade_UnifySameDomain.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_ShapeDivideClosed.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_RemoveInternalWires.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_RemoveLocations.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_UnifySameDomain.hxx>
 #include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_Transform.hxx>
 
 // the plane (equation z=0) shared by PlaneDividedFaceContinuity and PlaneGridShell

@@ -11,7 +11,7 @@
 #include <Handle_ShapeUpgrade_ClosedFaceDivide.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <ShapeUpgrade_FaceDivide.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_FaceDivide.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class TopoDS_Face;
 
