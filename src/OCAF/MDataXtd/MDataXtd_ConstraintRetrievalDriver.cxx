@@ -16,7 +16,7 @@
 #include <TDF_Attribute.hxx>
 #include <PDF_Attribute.hxx>
 #include <MDF_RRelocationTable.hxx>
-#include <MDataXtd_ConstraintRetrievalDriver.hxx>
+#include <OCAF/MDataXtd/MDataXtd_ConstraintRetrievalDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MDataXtd_ConstraintRetrievalDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(MDataXtd_ConstraintRetrievalDriver)
 IMPLEMENT_DOWNCAST(MDataXtd_ConstraintRetrievalDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDataXtd_ConstraintRetrievalDriver)
-#include <MDataXtd.hxx>
+#include <OCAF/MDataXtd/MDataXtd.hxx>
 #include <PDataXtd_Constraint.hxx>
 #include <TDataXtd_Constraint.hxx>
 #include <TDataXtd_ConstraintEnum.hxx>

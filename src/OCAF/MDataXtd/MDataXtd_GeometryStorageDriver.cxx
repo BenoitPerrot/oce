@@ -19,7 +19,7 @@
 #include <PDF_Attribute.hxx>
 #include <TDF_Attribute.hxx>
 #include <MDF_SRelocationTable.hxx>
-#include <MDataXtd_GeometryStorageDriver.hxx>
+#include <OCAF/MDataXtd/MDataXtd_GeometryStorageDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MDataXtd_GeometryStorageDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_TYPE_END(MDataXtd_GeometryStorageDriver)
 IMPLEMENT_DOWNCAST(MDataXtd_GeometryStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDataXtd_GeometryStorageDriver)
 #include <TDataXtd_GeometryEnum.hxx>
-#include <MDataXtd.hxx>
+#include <OCAF/MDataXtd/MDataXtd.hxx>
 #include <TDataXtd_Geometry.hxx>
 #include <PDataXtd_Geometry.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>

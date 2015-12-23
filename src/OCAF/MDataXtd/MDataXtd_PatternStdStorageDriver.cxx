@@ -19,7 +19,7 @@
 #include <PDF_Attribute.hxx>
 #include <TDF_Attribute.hxx>
 #include <MDF_SRelocationTable.hxx>
-#include <MDataXtd_PatternStdStorageDriver.hxx>
+#include <OCAF/MDataXtd/MDataXtd_PatternStdStorageDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MDataXtd_PatternStdStorageDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

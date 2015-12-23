@@ -16,7 +16,7 @@
 #include <TDF_Attribute.hxx>
 #include <PDF_Attribute.hxx>
 #include <MDF_RRelocationTable.hxx>
-#include <MDataXtd_PlaneRetrievalDriver.hxx>
+#include <OCAF/MDataXtd/MDataXtd_PlaneRetrievalDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MDataXtd_PlaneRetrievalDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

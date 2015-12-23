@@ -16,7 +16,7 @@
 #include <PDF_Attribute.hxx>
 #include <TDF_Attribute.hxx>
 #include <MDF_SRelocationTable.hxx>
-#include <MDataXtd_ConstraintStorageDriver.hxx>
+#include <OCAF/MDataXtd/MDataXtd_ConstraintStorageDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MDataXtd_ConstraintStorageDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -36,7 +36,7 @@ IMPLEMENT_STANDARD_RTTI(MDataXtd_ConstraintStorageDriver)
 #include <TDataXtd_ConstraintEnum.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <MDataXtd.hxx>
+#include <OCAF/MDataXtd/MDataXtd.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 
 

@@ -16,7 +16,7 @@
 #include <PDF_Attribute.hxx>
 #include <TDF_Attribute.hxx>
 #include <MDF_SRelocationTable.hxx>
-#include <MDataXtd_PointStorageDriver.hxx>
+#include <OCAF/MDataXtd/MDataXtd_PointStorageDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MDataXtd_PointStorageDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

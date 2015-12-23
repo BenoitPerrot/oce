@@ -19,7 +19,7 @@
 #include <TDF_Attribute.hxx>
 #include <PDF_Attribute.hxx>
 #include <MDF_RRelocationTable.hxx>
-#include <MDataXtd_GeometryRetrievalDriver.hxx>
+#include <OCAF/MDataXtd/MDataXtd_GeometryRetrievalDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MDataXtd_GeometryRetrievalDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(MDataXtd_GeometryRetrievalDriver)
 #include <TDataXtd_GeometryEnum.hxx>
 #include <TDataXtd_Geometry.hxx>
 #include <PDataXtd_Geometry.hxx>
-#include <MDataXtd.hxx>
+#include <OCAF/MDataXtd/MDataXtd.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 
 
