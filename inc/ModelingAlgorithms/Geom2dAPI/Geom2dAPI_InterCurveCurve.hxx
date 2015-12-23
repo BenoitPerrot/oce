@@ -147,7 +147,7 @@ private:
 };
 
 
-#include <Geom2dAPI_InterCurveCurve.lxx>
+#include <ModelingAlgorithms/Geom2dAPI/Geom2dAPI_InterCurveCurve.lxx>
 
 
 

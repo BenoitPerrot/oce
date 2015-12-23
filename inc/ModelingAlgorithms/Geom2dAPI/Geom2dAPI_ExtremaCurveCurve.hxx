@@ -140,7 +140,7 @@ private:
 };
 
 
-#include <Geom2dAPI_ExtremaCurveCurve.lxx>
+#include <ModelingAlgorithms/Geom2dAPI/Geom2dAPI_ExtremaCurveCurve.lxx>
 
 
 

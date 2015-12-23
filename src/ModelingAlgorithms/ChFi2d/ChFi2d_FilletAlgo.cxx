@@ -19,9 +19,9 @@
 #include <ElSLib.hxx>
 #include <ElCLib.hxx>
 
-#include <Geom2dAPI_ProjectPointOnCurve.hxx>
+#include <ModelingAlgorithms/Geom2dAPI/Geom2dAPI_ProjectPointOnCurve.hxx>
 #include <GeomAPI_ProjectPointOnCurve.hxx>
-#include <Geom2dAPI_InterCurveCurve.hxx>
+#include <ModelingAlgorithms/Geom2dAPI/Geom2dAPI_InterCurveCurve.hxx>
 
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>

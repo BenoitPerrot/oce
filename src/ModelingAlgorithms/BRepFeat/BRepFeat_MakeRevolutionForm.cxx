@@ -60,8 +60,8 @@
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Geometry/GeomProjLib/GeomProjLib.hxx>
 
-#include <Geom2dAPI_InterCurveCurve.hxx>
-#include <Geom2dAPI_ExtremaCurveCurve.hxx>
+#include <ModelingAlgorithms/Geom2dAPI/Geom2dAPI_InterCurveCurve.hxx>
+#include <ModelingAlgorithms/Geom2dAPI/Geom2dAPI_ExtremaCurveCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 

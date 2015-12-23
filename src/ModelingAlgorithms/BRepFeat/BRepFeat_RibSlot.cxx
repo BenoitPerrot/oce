@@ -93,7 +93,7 @@
 #include <Geometry/Geom/Geom_Parabola.hxx>
 #include <Geometry/Geom/Geom_Hyperbola.hxx>
 
-#include <Geom2dAPI_InterCurveCurve.hxx>
+#include <ModelingAlgorithms/Geom2dAPI/Geom2dAPI_InterCurveCurve.hxx>
 #include <GeomAPI.hxx>
 #include <GeomAPI_ProjectPointOnCurve.hxx>
 

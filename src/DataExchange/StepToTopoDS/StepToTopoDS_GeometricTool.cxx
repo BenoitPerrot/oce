@@ -50,13 +50,13 @@
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 #include <GeomAPI_ProjectPointOnCurve.hxx>
 #include <GeomAPI_ProjectPointOnSurf.hxx>
-#include <Geom2dAPI_ProjectPointOnCurve.hxx>
+#include <ModelingAlgorithms/Geom2dAPI/Geom2dAPI_ProjectPointOnCurve.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <GeomAbs_CurveType.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
-#include <Geom2dAPI_ProjectPointOnCurve.hxx>
-#include <Geom2dAPI_InterCurveCurve.hxx>
+#include <ModelingAlgorithms/Geom2dAPI/Geom2dAPI_ProjectPointOnCurve.hxx>
+#include <ModelingAlgorithms/Geom2dAPI/Geom2dAPI_InterCurveCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <Geometry/Geom/Geom_BoundedCurve.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>

@@ -138,7 +138,7 @@ private:
 };
 
 
-#include <Geom2dAPI_ProjectPointOnCurve.lxx>
+#include <ModelingAlgorithms/Geom2dAPI/Geom2dAPI_ProjectPointOnCurve.lxx>
 
 
 

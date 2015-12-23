@@ -81,7 +81,7 @@
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 
-#include <Geom2dAPI_ExtremaCurveCurve.hxx>
+#include <ModelingAlgorithms/Geom2dAPI/Geom2dAPI_ExtremaCurveCurve.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>
 #include <Geom2dInt_GInter.hxx>
 

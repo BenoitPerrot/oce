@@ -2350,7 +2350,7 @@ static Standard_Integer OCC24834 (Draw_Interpretor& di, Standard_Integer n, cons
 }
 
 
-#include <Geom2dAPI_InterCurveCurve.hxx>
+#include <ModelingAlgorithms/Geom2dAPI/Geom2dAPI_InterCurveCurve.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>
 //=======================================================================
 //function : OCC24889

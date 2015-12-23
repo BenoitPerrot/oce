@@ -19,7 +19,7 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <Geom2dAPI_PointsToBSpline.hxx>
+#include <ModelingAlgorithms/Geom2dAPI/Geom2dAPI_PointsToBSpline.hxx>
 
 #include <Geometry/AppDef/AppDef_BSplineCompute.hxx>
 #include <Geometry/AppDef/AppDef_MultiLine.hxx>

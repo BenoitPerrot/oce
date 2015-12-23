@@ -179,7 +179,7 @@ void IntPatch_Intersection::Perform(const Handle(Adaptor3d_HSurface)&  S1,
 #include <Geometry/Extrema/Extrema_ExtPS.hxx>
 #include <Geometry/Extrema/Extrema_POnSurf.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
-#include <Geom2dAPI_InterCurveCurve.hxx>
+#include <ModelingAlgorithms/Geom2dAPI/Geom2dAPI_InterCurveCurve.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HCurve.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>

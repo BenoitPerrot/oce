@@ -19,7 +19,7 @@
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Extrema/Extrema_ExtPC2d.hxx>
-#include <Geom2dAPI_ProjectPointOnCurve.hxx>
+#include <ModelingAlgorithms/Geom2dAPI/Geom2dAPI_ProjectPointOnCurve.hxx>
 
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 

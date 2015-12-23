@@ -45,7 +45,7 @@
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <Geometry/Geom2d/Geom2d_Circle.hxx>
-#include <Geom2dAPI_Interpolate.hxx>
+#include <ModelingAlgorithms/Geom2dAPI/Geom2dAPI_Interpolate.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>

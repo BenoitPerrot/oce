@@ -39,7 +39,7 @@ IMPLEMENT_STANDARD_RTTI(LocOpe_WiresOnShape)
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 
-#include <Geom2dAPI_ProjectPointOnCurve.hxx>
+#include <ModelingAlgorithms/Geom2dAPI/Geom2dAPI_ProjectPointOnCurve.hxx>
 #include <GeomAPI_ProjectPointOnCurve.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>

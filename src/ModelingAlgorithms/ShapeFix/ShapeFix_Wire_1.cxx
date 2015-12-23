@@ -73,8 +73,8 @@
 #include <Geom2dInt_GInter.hxx>
 #include <IntRes2d_Domain.hxx>
 #include <IntRes2d_IntersectionSegment.hxx>
-#include <Geom2dAPI_ExtremaCurveCurve.hxx>
-#include <Geom2dAPI_ProjectPointOnCurve.hxx>
+#include <ModelingAlgorithms/Geom2dAPI/Geom2dAPI_ExtremaCurveCurve.hxx>
+#include <ModelingAlgorithms/Geom2dAPI/Geom2dAPI_ProjectPointOnCurve.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_HCurve.hxx>
 #include <Geometry/Approx/Approx_Curve2d.hxx>
 #include <Geometry/Geom2dConvert/Geom2dConvert.hxx>

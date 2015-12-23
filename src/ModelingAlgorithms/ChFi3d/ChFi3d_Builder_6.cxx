@@ -113,7 +113,7 @@
 
 #include <IntRes2d_IntersectionPoint.hxx>
 #include <Geom2dInt_GInter.hxx>
-#include <Geom2dAPI_ProjectPointOnCurve.hxx>
+#include <ModelingAlgorithms/Geom2dAPI/Geom2dAPI_ProjectPointOnCurve.hxx>
 
 #include <ModelingAlgorithms/ChFiDS/ChFiDS_SurfData.hxx>
 #include <ModelingAlgorithms/ChFiDS/ChFiDS_FaceInterference.hxx>

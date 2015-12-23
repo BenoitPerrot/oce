@@ -40,7 +40,7 @@
 #include <Precision.hxx>
 #include <GeomAPI_Interpolate.hxx>
 #include <Draw_Marker3D.hxx>
-#include <Geom2dAPI_Interpolate.hxx>
+#include <ModelingAlgorithms/Geom2dAPI/Geom2dAPI_Interpolate.hxx>
 #include <Draw_Marker2D.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>

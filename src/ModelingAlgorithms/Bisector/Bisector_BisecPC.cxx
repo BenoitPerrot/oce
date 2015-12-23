@@ -46,7 +46,7 @@ IMPLEMENT_STANDARD_RTTI(Bisector_BisecPC)
 #include <Geom2dGcc_Circ2d2TanRad.hxx>
 #include <Geom2dGcc_QualifiedCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
-#include <Geom2dAPI_ProjectPointOnCurve.hxx>
+#include <ModelingAlgorithms/Geom2dAPI/Geom2dAPI_ProjectPointOnCurve.hxx>
 #include <Geometry/Geom2dLProp/Geom2dLProp_CLProps2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>

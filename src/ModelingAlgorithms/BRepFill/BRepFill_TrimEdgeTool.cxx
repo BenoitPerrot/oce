@@ -29,7 +29,7 @@
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/GeomProjLib/GeomProjLib.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
-#include <Geom2dAPI_ProjectPointOnCurve.hxx>
+#include <ModelingAlgorithms/Geom2dAPI/Geom2dAPI_ProjectPointOnCurve.hxx>
 #include <Geom2dInt_GInter.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>

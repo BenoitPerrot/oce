@@ -25,7 +25,7 @@
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfVec2d.hxx>
-#include <Geom2dAPI_Interpolate.hxx>
+#include <ModelingAlgorithms/Geom2dAPI/Geom2dAPI_Interpolate.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Mathematics/Polynomial/PLib.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>

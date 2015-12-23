@@ -24,10 +24,10 @@
 #include <DrawTrSurf.hxx>
 #include <Draw_Appli.hxx>
 #include <DrawTrSurf_Curve2d.hxx>
-#include <Geom2dAPI_ProjectPointOnCurve.hxx>
-#include <Geom2dAPI_ExtremaCurveCurve.hxx>
-#include <Geom2dAPI_PointsToBSpline.hxx>
-#include <Geom2dAPI_InterCurveCurve.hxx>
+#include <ModelingAlgorithms/Geom2dAPI/Geom2dAPI_ProjectPointOnCurve.hxx>
+#include <ModelingAlgorithms/Geom2dAPI/Geom2dAPI_ExtremaCurveCurve.hxx>
+#include <ModelingAlgorithms/Geom2dAPI/Geom2dAPI_PointsToBSpline.hxx>
+#include <ModelingAlgorithms/Geom2dAPI/Geom2dAPI_InterCurveCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>

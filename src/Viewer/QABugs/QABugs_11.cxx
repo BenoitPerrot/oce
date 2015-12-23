@@ -60,13 +60,13 @@
 #include <IFSelect_ReturnStatus.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt2d.hxx>
-#include <Geom2dAPI_Interpolate.hxx>
+#include <ModelingAlgorithms/Geom2dAPI/Geom2dAPI_Interpolate.hxx>
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <Geometry/Geom2dConvert/Geom2dConvert_BSplineCurveToBezierCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_BezierCurve.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Geometry/GeomProjLib/GeomProjLib.hxx>
-#include <Geom2dAPI_InterCurveCurve.hxx>
+#include <ModelingAlgorithms/Geom2dAPI/Geom2dAPI_InterCurveCurve.hxx>
 #include <IntRes2d_IntersectionSegment.hxx>
 #include <TDataStd_RealArray.hxx>
 #include <TDF_CopyLabel.hxx>
