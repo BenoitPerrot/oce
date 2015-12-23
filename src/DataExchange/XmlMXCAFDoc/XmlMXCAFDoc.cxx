@@ -15,24 +15,24 @@
 
 #include <OCAF/XmlMDF/XmlMDF_ADriverTable.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
-#include <XmlMXCAFDoc.hxx>
+#include <DataExchange/XmlMXCAFDoc/XmlMXCAFDoc.hxx>
 
-#include <XmlMXCAFDoc_AreaDriver.hxx>
-#include <XmlMXCAFDoc_CentroidDriver.hxx>
-#include <XmlMXCAFDoc_ColorDriver.hxx>
-#include <XmlMXCAFDoc_GraphNodeDriver.hxx>
-#include <XmlMXCAFDoc_LocationDriver.hxx>
-#include <XmlMXCAFDoc_VolumeDriver.hxx>
-#include <XmlMXCAFDoc_DatumDriver.hxx>
-#include <XmlMXCAFDoc_DimTolDriver.hxx>
-#include <XmlMXCAFDoc_MaterialDriver.hxx>
+#include <DataExchange/XmlMXCAFDoc/XmlMXCAFDoc_AreaDriver.hxx>
+#include <DataExchange/XmlMXCAFDoc/XmlMXCAFDoc_CentroidDriver.hxx>
+#include <DataExchange/XmlMXCAFDoc/XmlMXCAFDoc_ColorDriver.hxx>
+#include <DataExchange/XmlMXCAFDoc/XmlMXCAFDoc_GraphNodeDriver.hxx>
+#include <DataExchange/XmlMXCAFDoc/XmlMXCAFDoc_LocationDriver.hxx>
+#include <DataExchange/XmlMXCAFDoc/XmlMXCAFDoc_VolumeDriver.hxx>
+#include <DataExchange/XmlMXCAFDoc/XmlMXCAFDoc_DatumDriver.hxx>
+#include <DataExchange/XmlMXCAFDoc/XmlMXCAFDoc_DimTolDriver.hxx>
+#include <DataExchange/XmlMXCAFDoc/XmlMXCAFDoc_MaterialDriver.hxx>
 
-#include <XmlMXCAFDoc_ColorToolDriver.hxx>
-#include <XmlMXCAFDoc_DocumentToolDriver.hxx>
-#include <XmlMXCAFDoc_LayerToolDriver.hxx>
-#include <XmlMXCAFDoc_ShapeToolDriver.hxx>
-#include <XmlMXCAFDoc_DimTolToolDriver.hxx>
-#include <XmlMXCAFDoc_MaterialToolDriver.hxx>
+#include <DataExchange/XmlMXCAFDoc/XmlMXCAFDoc_ColorToolDriver.hxx>
+#include <DataExchange/XmlMXCAFDoc/XmlMXCAFDoc_DocumentToolDriver.hxx>
+#include <DataExchange/XmlMXCAFDoc/XmlMXCAFDoc_LayerToolDriver.hxx>
+#include <DataExchange/XmlMXCAFDoc/XmlMXCAFDoc_ShapeToolDriver.hxx>
+#include <DataExchange/XmlMXCAFDoc/XmlMXCAFDoc_DimTolToolDriver.hxx>
+#include <DataExchange/XmlMXCAFDoc/XmlMXCAFDoc_MaterialToolDriver.hxx>
 
 #include <OCAF/XmlMNaming/XmlMNaming_NamedShapeDriver.hxx>
 #include <OCAF/TNaming/TNaming_NamedShape.hxx>

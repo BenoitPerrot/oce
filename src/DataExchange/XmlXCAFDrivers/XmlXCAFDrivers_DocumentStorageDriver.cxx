@@ -31,7 +31,7 @@ IMPLEMENT_DOWNCAST(XmlXCAFDrivers_DocumentStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlXCAFDrivers_DocumentStorageDriver)
 
 #include <OCAF/XmlDrivers/XmlDrivers.hxx>
-#include <XmlMXCAFDoc.hxx>
+#include <DataExchange/XmlMXCAFDoc/XmlMXCAFDoc.hxx>
 
 //=======================================================================
 //function : XmlXCAFDrivers_DocumentStorageDriver

@@ -16,7 +16,7 @@
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
 #include <OCAF/XmlObjMgt/XmlObjMgt_Persistent.hxx>
-#include <XmlMXCAFDoc_DatumDriver.hxx>
+#include <DataExchange/XmlMXCAFDoc/XmlMXCAFDoc_DatumDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XmlMXCAFDoc_DatumDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -66,7 +66,7 @@ private:
 };
 
 
-#include <XmlMXCAFDoc_LocationDriver.lxx>
+#include <DataExchange/XmlMXCAFDoc/XmlMXCAFDoc_LocationDriver.lxx>
 
 
 

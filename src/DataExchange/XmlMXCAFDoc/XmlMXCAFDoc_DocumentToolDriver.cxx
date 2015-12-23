@@ -16,7 +16,7 @@
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
 #include <OCAF/XmlObjMgt/XmlObjMgt_Persistent.hxx>
-#include <XmlMXCAFDoc_DocumentToolDriver.hxx>
+#include <DataExchange/XmlMXCAFDoc/XmlMXCAFDoc_DocumentToolDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XmlMXCAFDoc_DocumentToolDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
