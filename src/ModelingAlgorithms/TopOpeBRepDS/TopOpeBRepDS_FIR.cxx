@@ -14,26 +14,26 @@
 
 // Robert Boehne 30 May 2000 : Dec Osf
 
-#include <TopOpeBRepDS_HDataStructure.hxx>
-#include <TopOpeBRepDS_DataMapOfShapeListOfShapeOn1State.hxx>
-#include <TopOpeBRepDS_FIR.hxx>
-#include <TopOpeBRepDS_define.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_HDataStructure.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_DataMapOfShapeListOfShapeOn1State.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_FIR.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_define.hxx>
 #include <TopOpeBRepTool_EXPORT.hxx>
 #include <TopOpeBRepTool_SC.hxx>
 
-#include <TopOpeBRepDS_ProcessInterferencesTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_ProcessInterferencesTool.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
-#include <TopOpeBRepDS_FaceInterferenceTool.hxx>
-#include <TopOpeBRepDS_CurvePointInterference.hxx>
-#include <TopOpeBRepDS_ShapeShapeInterference.hxx>
-#include <TopOpeBRepDS_ShapeData.hxx>
-#include <TopOpeBRepDS_MapOfShapeData.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_FaceInterferenceTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_CurvePointInterference.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_ShapeShapeInterference.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_ShapeData.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_MapOfShapeData.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <TopOpeBRepDS_ListOfShapeOn1State.hxx>
-#include <TopOpeBRepDS_DataMapOfShapeListOfShapeOn1State.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_ListOfShapeOn1State.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_DataMapOfShapeListOfShapeOn1State.hxx>
 
 #define MDSke TopOpeBRepDS_EDGE
 #define MDSkf TopOpeBRepDS_FACE

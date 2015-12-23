@@ -3,14 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TopOpeBRepDS_DataMapIteratorOfShapeSurface.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_DataMapIteratorOfShapeSurface.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
-#include <TopOpeBRepDS_ShapeSurface.hxx>
-#include <TopOpeBRepDS_DataMapNodeOfShapeSurface.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_ShapeSurface.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_DataMapNodeOfShapeSurface.hxx>
  
 
 #define TheKey TopoDS_Shape
@@ -20,12 +20,12 @@
 #define Hasher TopTools_ShapeMapHasher
 #define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode TopOpeBRepDS_DataMapNodeOfShapeSurface
-#define TCollection_DataMapNode_hxx <TopOpeBRepDS_DataMapNodeOfShapeSurface.hxx>
+#define TCollection_DataMapNode_hxx <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_DataMapNodeOfShapeSurface.hxx>
 #define TCollection_DataMapIterator TopOpeBRepDS_DataMapIteratorOfShapeSurface
-#define TCollection_DataMapIterator_hxx <TopOpeBRepDS_DataMapIteratorOfShapeSurface.hxx>
+#define TCollection_DataMapIterator_hxx <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_DataMapIteratorOfShapeSurface.hxx>
 #define Handle_TCollection_DataMapNode Handle_TopOpeBRepDS_DataMapNodeOfShapeSurface
 #define TCollection_DataMapNode_Type_() TopOpeBRepDS_DataMapNodeOfShapeSurface_Type_()
 #define TCollection_DataMap TopOpeBRepDS_ShapeSurface
-#define TCollection_DataMap_hxx <TopOpeBRepDS_ShapeSurface.hxx>
+#define TCollection_DataMap_hxx <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_ShapeSurface.hxx>
 #include <Foundation/TCollection/TCollection_DataMapIterator.gxx>
 

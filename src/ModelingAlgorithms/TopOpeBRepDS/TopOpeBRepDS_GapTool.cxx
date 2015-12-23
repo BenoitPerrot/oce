@@ -14,12 +14,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopOpeBRepDS_HDataStructure.hxx>
-#include <TopOpeBRepDS_ListOfInterference.hxx>
-#include <TopOpeBRepDS_Interference.hxx>
-#include <TopOpeBRepDS_Curve.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_HDataStructure.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_ListOfInterference.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Interference.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Curve.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TopOpeBRepDS_GapTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_GapTool.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TopOpeBRepDS_GapTool)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -29,9 +29,9 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(TopOpeBRepDS_GapTool)
 IMPLEMENT_DOWNCAST(TopOpeBRepDS_GapTool,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TopOpeBRepDS_GapTool)
-#include <TopOpeBRepDS_ListIteratorOfListOfInterference.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_ListIteratorOfListOfInterference.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <TopOpeBRepDS_CurvePointInterference.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_CurvePointInterference.hxx>
 
 #ifdef OCCT_DEBUG
 extern Standard_Boolean TopOpeBRepDS_GettraceGAP();

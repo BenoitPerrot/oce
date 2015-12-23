@@ -15,18 +15,18 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TopOpeBRepDS_DataStructure.hxx>
-#include <TopOpeBRepDS_Surface.hxx>
-#include <TopOpeBRepDS_CurveIterator.hxx>
-#include <TopOpeBRepDS_Curve.hxx>
-#include <TopOpeBRepDS_PointIterator.hxx>
-#include <TopOpeBRepDS_Point.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_DataStructure.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Surface.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_CurveIterator.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Curve.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_PointIterator.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Point.hxx>
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
-#include <TopOpeBRepDS_SurfaceIterator.hxx>
-#include <TopOpeBRepDS_ListOfInterference.hxx>
-#include <TopOpeBRepDS_ListIteratorOfListOfInterference.hxx>
-#include <TopOpeBRepDS_Interference.hxx>
-#include <TopOpeBRepDS_HDataStructure.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_SurfaceIterator.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_ListOfInterference.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_ListIteratorOfListOfInterference.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Interference.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_HDataStructure.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TopOpeBRepDS_HDataStructure)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -37,26 +37,26 @@ IMPLEMENT_STANDARD_TYPE_END(TopOpeBRepDS_HDataStructure)
 IMPLEMENT_DOWNCAST(TopOpeBRepDS_HDataStructure,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TopOpeBRepDS_HDataStructure)
 
-#include <TopOpeBRepDS_EdgeInterferenceTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_EdgeInterferenceTool.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-#include <TopOpeBRepDS_SurfaceCurveInterference.hxx>
-#include <TopOpeBRepDS_Transition.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_SurfaceCurveInterference.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Transition.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
-#include <TopOpeBRepDS.hxx>
-#include <TopOpeBRepDS_Interference.hxx>
-#include <TopOpeBRepDS_ListOfInterference.hxx>
-#include <TopOpeBRepDS_ListIteratorOfListOfInterference.hxx>
-#include <TopOpeBRepDS_Check.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Interference.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_ListOfInterference.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_ListIteratorOfListOfInterference.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Check.hxx>
 #include <TopOpeBRepTool_ShapeExplorer.hxx>
-#include <TopOpeBRepDS_Filter.hxx>
-#include <TopOpeBRepDS_Reducer.hxx>
-#include <TopOpeBRepDS_Dumper.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Filter.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Reducer.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Dumper.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
-#include <TopOpeBRepDS_define.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_define.hxx>
 
 #ifdef OCCT_DEBUG
 extern Standard_Boolean TopOpeBRepDS_GettraceISTO();

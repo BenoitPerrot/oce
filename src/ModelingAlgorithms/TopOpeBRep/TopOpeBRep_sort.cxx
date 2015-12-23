@@ -14,8 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopOpeBRepDS_TKI.hxx>
-#include <TopOpeBRepDS_HDataStructure.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_TKI.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_HDataStructure.hxx>
 #include <stdlib.h>
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_define.hxx>
 

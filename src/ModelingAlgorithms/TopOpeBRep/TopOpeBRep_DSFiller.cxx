@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TopOpeBRepDS_HDataStructure.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_HDataStructure.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_ShapeIntersector.hxx>
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_ShapeIntersector2d.hxx>
@@ -28,12 +28,12 @@
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
-#include <TopOpeBRepDS_GapFiller.hxx>
-#include <TopOpeBRepDS_Filter.hxx>
-#include <TopOpeBRepDS_Reducer.hxx>
-#include <TopOpeBRepDS_connex.hxx>
-#include <TopOpeBRepDS_samdom.hxx>
-#include <TopOpeBRepDS_EXPORT.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_GapFiller.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Filter.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Reducer.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_connex.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_samdom.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_EXPORT.hxx>
 #include <TopOpeBRepTool_2d.hxx>
 #include <TopOpeBRepTool_box.hxx>
 #include <TopOpeBRepTool_SC.hxx>
@@ -42,8 +42,8 @@
 
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_define.hxx>
 
-#include <TopOpeBRepDS_IndexedDataMapOfShapeWithState.hxx>
-#include <TopOpeBRepDS_ShapeWithState.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_IndexedDataMapOfShapeWithState.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_ShapeWithState.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 
 extern void BREP_sortonparameter(const Handle(TopOpeBRepDS_HDataStructure)& HDS);

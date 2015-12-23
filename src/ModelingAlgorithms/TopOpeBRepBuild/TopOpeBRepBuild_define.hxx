@@ -17,7 +17,7 @@
 #ifndef _TopOpeBRepBuild_define_HeaderFile
 #define _TopOpeBRepBuild_define_HeaderFile
 
-#include <TopOpeBRepDS_define.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_define.hxx>
 
 #include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_PWireEdgeSet.hxx>
 #include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_WireEdgeSet.hxx>

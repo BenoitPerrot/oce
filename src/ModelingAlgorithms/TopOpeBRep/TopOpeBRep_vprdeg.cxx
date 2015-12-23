@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopOpeBRepDS_HDataStructure.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_HDataStructure.hxx>
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_FFDumper.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_FacesIntersector.hxx>
@@ -24,17 +24,17 @@
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_VPointInterClassifier.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_VPointInterIterator.hxx>
-#include <TopOpeBRepDS_Transition.hxx>
-#include <TopOpeBRepDS_Interference.hxx>
-#include <TopOpeBRepDS_ListIteratorOfListOfInterference.hxx>
-#include <TopOpeBRepDS_Point.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Transition.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Interference.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_ListIteratorOfListOfInterference.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Point.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <TopOpeBRepDS_DataStructure.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_DataStructure.hxx>
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_FacesFiller.hxx>
 
 #ifdef DRAW
-#include <TopOpeBRepDS_DRAW.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_DRAW.hxx>
 #endif
 
 #include <Geometry/Geom/Geom_Curve.hxx>
@@ -52,7 +52,7 @@
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <Precision.hxx>
 
-#include <TopOpeBRepDS_EXPORT.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_EXPORT.hxx>
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep.hxx>
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_define.hxx>
 #include <TopOpeBRepTool_ShapeTool.hxx>

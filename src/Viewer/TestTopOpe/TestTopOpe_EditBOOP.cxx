@@ -15,11 +15,11 @@
 // commercial license or contractual agreement.
 
 #include <Viewer/TestTopOpe/TestTopOpe_BOOP.hxx>
-#include <TopOpeBRepDS.hxx>
-#include <TopOpeBRepDS_Surface.hxx>
-#include <TopOpeBRepDS_Curve.hxx>
-#include <TopOpeBRepDS_Point.hxx>
-#include <TopOpeBRepDS_define.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Surface.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Curve.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Point.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_define.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>

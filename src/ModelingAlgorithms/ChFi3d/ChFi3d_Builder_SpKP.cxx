@@ -54,12 +54,12 @@
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 
-#include <TopOpeBRepDS_Curve.hxx>
-#include <TopOpeBRepDS_Surface.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Curve.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Surface.hxx>
 
 #include <ModelingAlgorithms/ChFiKPart/ChFiKPart_RstMap.hxx>
 
-#include <TopOpeBRepDS_HDataStructure.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_HDataStructure.hxx>
 #include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_HBuilder.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>

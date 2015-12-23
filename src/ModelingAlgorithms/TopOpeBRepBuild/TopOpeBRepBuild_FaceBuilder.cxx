@@ -29,7 +29,7 @@
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
-#include <TopOpeBRepDS_BuildTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_BuildTool.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 //#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve2d.hxx>
@@ -63,7 +63,7 @@
 #ifdef OCCT_DEBUG
 extern Standard_Boolean TopOpeBRepBuild_GettracePURGE();
 extern Standard_Boolean TopOpeBRepDS_GettraceSTRANGE();
-#include <TopOpeBRepDS_DSX.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_DSX.hxx>
 void debifb() {}
 #endif
 

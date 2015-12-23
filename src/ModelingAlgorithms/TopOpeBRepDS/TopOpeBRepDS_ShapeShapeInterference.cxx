@@ -15,9 +15,9 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TopOpeBRepDS.hxx>
-#include <TopOpeBRepDS_Transition.hxx>
-#include <TopOpeBRepDS_ShapeShapeInterference.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Transition.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_ShapeShapeInterference.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TopOpeBRepDS_ShapeShapeInterference)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

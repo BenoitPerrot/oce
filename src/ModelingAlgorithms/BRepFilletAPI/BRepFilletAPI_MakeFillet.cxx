@@ -28,7 +28,7 @@
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <ModelingAlgorithms/BRepFilletAPI/BRepFilletAPI_MakeFillet.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
-#include <TopOpeBRepDS_HDataStructure.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_HDataStructure.hxx>
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <ModelingAlgorithms/ChFiDS/ChFiDS_Spine.hxx>
 #include <ModelingAlgorithms/ChFiDS/ChFiDS_ErrorStatus.hxx>

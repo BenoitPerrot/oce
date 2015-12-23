@@ -21,7 +21,7 @@
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_WPointInter.hxx>
 #include <Handle_TopOpeBRep_HArray1OfVPointInter.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
-#include <TopOpeBRepDS_Transition.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Transition.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <ModelingAlgorithms/IntSurf/IntSurf_TypeTrans.hxx>

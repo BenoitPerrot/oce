@@ -16,18 +16,18 @@
 
 #include <TopOpeBRepTool_GeomTool.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TopOpeBRepDS_Point.hxx>
-#include <TopOpeBRepDS_Curve.hxx>
-#include <TopOpeBRepDS_DataStructure.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Point.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Curve.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_DataStructure.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <TopOpeBRepDS_Surface.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Surface.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
-#include <TopOpeBRepDS_HDataStructure.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_HDataStructure.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
-#include <TopOpeBRepDS_BuildTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_BuildTool.hxx>
 
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
@@ -36,7 +36,7 @@
 #include <TopOpeBRepTool_GeomTool.hxx>
 #include <TopOpeBRepTool_ShapeTool.hxx>
 #include <TopOpeBRepTool_OutCurveType.hxx>
-#include <TopOpeBRepDS_SurfaceCurveInterference.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_SurfaceCurveInterference.hxx>
 #include <Precision.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
@@ -58,7 +58,7 @@
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <TopOpeBRepDS_Dumper.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Dumper.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <Geometry/Geom2d/Geom2d_Conic.hxx>
 #include <Geometry/Geom2d/Geom2d_Circle.hxx>
@@ -117,7 +117,7 @@ static void DUMPCURVES(const Handle(Geom_Curve)& C3D,const TopOpeBRepDS_Curve& C
 #endif
 
 #ifdef DRAW
-#include <TopOpeBRepDS_DRAW.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_DRAW.hxx>
 #endif
 
 //-----------------------------------------------------------------------

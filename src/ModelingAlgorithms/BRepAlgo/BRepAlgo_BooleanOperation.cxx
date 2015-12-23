@@ -22,8 +22,8 @@
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo_BooleanOperation.hxx>
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_DSFiller.hxx>
-#include <TopOpeBRepDS_HDataStructure.hxx>
-#include <TopOpeBRepDS_BuildTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_HDataStructure.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_BuildTool.hxx>
 #include <TopOpeBRepTool_OutCurveType.hxx>
 #include <TopOpeBRepTool_GeomTool.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
@@ -42,7 +42,7 @@
 #include <ModelingAlgorithms/BRepCheck/BRepCheck_Edge.hxx>
 #include <ModelingAlgorithms/BRepCheck/BRepCheck_Shell.hxx>
 
-#include <TopOpeBRepDS_DSX.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_DSX.hxx>
 
 #include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_Tools.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>

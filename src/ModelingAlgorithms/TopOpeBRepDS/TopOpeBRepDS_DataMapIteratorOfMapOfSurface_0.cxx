@@ -3,28 +3,28 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TopOpeBRepDS_DataMapIteratorOfMapOfSurface.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_DataMapIteratorOfMapOfSurface.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <TopOpeBRepDS_SurfaceData.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_SurfaceData.hxx>
 #include <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
-#include <TopOpeBRepDS_MapOfSurface.hxx>
-#include <TopOpeBRepDS_DataMapNodeOfMapOfSurface.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_MapOfSurface.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_DataMapNodeOfMapOfSurface.hxx>
  
 
 #define TheKey Standard_Integer
 #define TheKey_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheItem TopOpeBRepDS_SurfaceData
-#define TheItem_hxx <TopOpeBRepDS_SurfaceData.hxx>
+#define TheItem_hxx <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_SurfaceData.hxx>
 #define Hasher TColStd_MapIntegerHasher
 #define Hasher_hxx <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #define TCollection_DataMapNode TopOpeBRepDS_DataMapNodeOfMapOfSurface
-#define TCollection_DataMapNode_hxx <TopOpeBRepDS_DataMapNodeOfMapOfSurface.hxx>
+#define TCollection_DataMapNode_hxx <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_DataMapNodeOfMapOfSurface.hxx>
 #define TCollection_DataMapIterator TopOpeBRepDS_DataMapIteratorOfMapOfSurface
-#define TCollection_DataMapIterator_hxx <TopOpeBRepDS_DataMapIteratorOfMapOfSurface.hxx>
+#define TCollection_DataMapIterator_hxx <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_DataMapIteratorOfMapOfSurface.hxx>
 #define Handle_TCollection_DataMapNode Handle_TopOpeBRepDS_DataMapNodeOfMapOfSurface
 #define TCollection_DataMapNode_Type_() TopOpeBRepDS_DataMapNodeOfMapOfSurface_Type_()
 #define TCollection_DataMap TopOpeBRepDS_MapOfSurface
-#define TCollection_DataMap_hxx <TopOpeBRepDS_MapOfSurface.hxx>
+#define TCollection_DataMap_hxx <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_MapOfSurface.hxx>
 #include <Foundation/TCollection/TCollection_DataMapIterator.gxx>
 

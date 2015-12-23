@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #ifdef OCCT_DEBUG
-#include <TopOpeBRepDS_traceDSX.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_traceDSX.hxx>
 
 //////////////////////////////////////////////////////////////
 

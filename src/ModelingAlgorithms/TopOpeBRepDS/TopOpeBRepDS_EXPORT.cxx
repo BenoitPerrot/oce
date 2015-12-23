@@ -38,20 +38,20 @@
 #include <TopOpeBRepTool_makeTransition.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 
-#include <TopOpeBRepDS_InterferenceTool.hxx>
-#include <TopOpeBRepDS_BuildTool.hxx>
-#include <TopOpeBRepDS_PointIterator.hxx>
-#include <TopOpeBRepDS_BuildTool.hxx>
-#include <TopOpeBRepDS_EXPORT.hxx>
-#include <TopOpeBRepDS_connex.hxx>
-#include <TopOpeBRepDS_TKI.hxx>
-#include <TopOpeBRepDS_ProcessInterferencesTool.hxx>
-#include <TopOpeBRepDS_DataMapOfShapeListOfShapeOn1State.hxx>
-#include <TopOpeBRepDS_TOOL.hxx>
-#include <TopOpeBRepDS_define.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_InterferenceTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_BuildTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_PointIterator.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_BuildTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_EXPORT.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_connex.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_TKI.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_ProcessInterferencesTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_DataMapOfShapeListOfShapeOn1State.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_TOOL.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_define.hxx>
 
 #ifdef OCCT_DEBUG
-#include <TopOpeBRepDS_reDEB.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_reDEB.hxx>
 extern Standard_Boolean TopOpeBRepDS_GettraceSPSX(const Standard_Integer);
 Standard_EXPORT void debse1(const Standard_Integer i) {cout<<"+ debse1 se"<<i<<endl;}
 Standard_EXPORT void debse2(const Standard_Integer i) {cout<<"+ debse2 se"<<i<<endl;}

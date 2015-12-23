@@ -18,7 +18,7 @@
 #define _TestTopOpeDraw_TTOT_HeaderFile
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TopOpeBRepDS.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <GeomAbs_CurveType.hxx>

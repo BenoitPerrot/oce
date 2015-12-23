@@ -14,11 +14,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopOpeBRepDS_IndexedDataMapOfShapeWithState.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_IndexedDataMapOfShapeWithState.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
-#include <TopOpeBRepDS_DataMapOfShapeState.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_DataMapOfShapeState.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 #include <TopOpeBRepTool_ShapeClassifier.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
@@ -66,11 +66,11 @@
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 
-#include <TopOpeBRepDS_DataStructure.hxx>
-#include <TopOpeBRepDS_IndexedDataMapOfShapeWithState.hxx>
-#include <TopOpeBRepDS_ShapeWithState.hxx>
-#include <TopOpeBRepDS_DataMapOfShapeState.hxx>
-#include <TopOpeBRepDS_DataMapIteratorOfDataMapOfShapeState.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_DataStructure.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_IndexedDataMapOfShapeWithState.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_ShapeWithState.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_DataMapOfShapeState.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_DataMapIteratorOfDataMapOfShapeState.hxx>
 
 #include <TopOpeBRepTool_CurveTool.hxx>
 #include <TopOpeBRepTool_TOOL.hxx>

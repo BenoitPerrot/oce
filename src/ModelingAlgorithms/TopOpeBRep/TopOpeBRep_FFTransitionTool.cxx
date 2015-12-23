@@ -14,14 +14,14 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopOpeBRepDS_SolidSurfaceInterference.hxx>
-#include <TopOpeBRepDS_CurvePointInterference.hxx>
-#include <TopOpeBRepDS_SurfaceCurveInterference.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_SolidSurfaceInterference.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_CurvePointInterference.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_SurfaceCurveInterference.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <ModelingAlgorithms/IntSurf/IntSurf_Transition.hxx>
 #include <ModelingAlgorithms/IntSurf/IntSurf_TypeTrans.hxx>
 #include <ModelingAlgorithms/IntSurf/IntSurf_Situation.hxx>
-#include <TopOpeBRepDS_Transition.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Transition.hxx>
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_VPointInter.hxx>
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_LineInter.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>

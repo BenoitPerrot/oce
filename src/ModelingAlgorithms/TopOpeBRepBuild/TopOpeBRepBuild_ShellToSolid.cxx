@@ -22,7 +22,7 @@
 #include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_SolidBuilder.hxx>
 #include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_Builder.hxx>
 
-#include <TopOpeBRepDS_BuildTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_BuildTool.hxx>
 
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 

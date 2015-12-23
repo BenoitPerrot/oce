@@ -3,29 +3,29 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TopOpeBRepDS_DataMapIteratorOfDataMapOfInterferenceListOfInterference.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_DataMapIteratorOfDataMapOfInterferenceListOfInterference.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <TopOpeBRepDS_Interference.hxx>
-#include <TopOpeBRepDS_ListOfInterference.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Interference.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_ListOfInterference.hxx>
 #include <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
-#include <TopOpeBRepDS_DataMapOfInterferenceListOfInterference.hxx>
-#include <TopOpeBRepDS_DataMapNodeOfDataMapOfInterferenceListOfInterference.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_DataMapOfInterferenceListOfInterference.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_DataMapNodeOfDataMapOfInterferenceListOfInterference.hxx>
  
 
 #define TheKey Handle(TopOpeBRepDS_Interference)
-#define TheKey_hxx <TopOpeBRepDS_Interference.hxx>
+#define TheKey_hxx <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Interference.hxx>
 #define TheItem TopOpeBRepDS_ListOfInterference
-#define TheItem_hxx <TopOpeBRepDS_ListOfInterference.hxx>
+#define TheItem_hxx <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_ListOfInterference.hxx>
 #define Hasher TColStd_MapTransientHasher
 #define Hasher_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define TCollection_DataMapNode TopOpeBRepDS_DataMapNodeOfDataMapOfInterferenceListOfInterference
-#define TCollection_DataMapNode_hxx <TopOpeBRepDS_DataMapNodeOfDataMapOfInterferenceListOfInterference.hxx>
+#define TCollection_DataMapNode_hxx <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_DataMapNodeOfDataMapOfInterferenceListOfInterference.hxx>
 #define TCollection_DataMapIterator TopOpeBRepDS_DataMapIteratorOfDataMapOfInterferenceListOfInterference
-#define TCollection_DataMapIterator_hxx <TopOpeBRepDS_DataMapIteratorOfDataMapOfInterferenceListOfInterference.hxx>
+#define TCollection_DataMapIterator_hxx <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_DataMapIteratorOfDataMapOfInterferenceListOfInterference.hxx>
 #define Handle_TCollection_DataMapNode Handle_TopOpeBRepDS_DataMapNodeOfDataMapOfInterferenceListOfInterference
 #define TCollection_DataMapNode_Type_() TopOpeBRepDS_DataMapNodeOfDataMapOfInterferenceListOfInterference_Type_()
 #define TCollection_DataMap TopOpeBRepDS_DataMapOfInterferenceListOfInterference
-#define TCollection_DataMap_hxx <TopOpeBRepDS_DataMapOfInterferenceListOfInterference.hxx>
+#define TCollection_DataMap_hxx <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_DataMapOfInterferenceListOfInterference.hxx>
 #include <Foundation/TCollection/TCollection_DataMapIterator.gxx>
 

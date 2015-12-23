@@ -16,12 +16,12 @@
 
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
-#include <TopOpeBRepDS_CurveExplorer.hxx>
-#include <TopOpeBRepDS_IndexedDataMapOfVertexPoint.hxx>
-#include <TopOpeBRepDS_CurveExplorer.hxx>
-#include <TopOpeBRepDS_Curve.hxx>
-#include <TopOpeBRepDS_Point.hxx>
-#include <TopOpeBRepDS.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_CurveExplorer.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_IndexedDataMapOfVertexPoint.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_CurveExplorer.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Curve.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Point.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS.hxx>
 
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_define.hxx>
 

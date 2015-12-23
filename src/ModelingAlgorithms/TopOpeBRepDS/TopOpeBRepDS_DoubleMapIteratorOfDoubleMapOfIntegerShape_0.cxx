@@ -3,14 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TopOpeBRepDS_DoubleMapIteratorOfDoubleMapOfIntegerShape.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_DoubleMapIteratorOfDoubleMapOfIntegerShape.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #include <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
-#include <TopOpeBRepDS_DoubleMapOfIntegerShape.hxx>
-#include <TopOpeBRepDS_DoubleMapNodeOfDoubleMapOfIntegerShape.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_DoubleMapOfIntegerShape.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_DoubleMapNodeOfDoubleMapOfIntegerShape.hxx>
  
 
 #define TheKey1 Standard_Integer
@@ -22,12 +22,12 @@
 #define Hasher2 TopTools_ShapeMapHasher
 #define Hasher2_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DoubleMapNode TopOpeBRepDS_DoubleMapNodeOfDoubleMapOfIntegerShape
-#define TCollection_DoubleMapNode_hxx <TopOpeBRepDS_DoubleMapNodeOfDoubleMapOfIntegerShape.hxx>
+#define TCollection_DoubleMapNode_hxx <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_DoubleMapNodeOfDoubleMapOfIntegerShape.hxx>
 #define TCollection_DoubleMapIterator TopOpeBRepDS_DoubleMapIteratorOfDoubleMapOfIntegerShape
-#define TCollection_DoubleMapIterator_hxx <TopOpeBRepDS_DoubleMapIteratorOfDoubleMapOfIntegerShape.hxx>
+#define TCollection_DoubleMapIterator_hxx <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_DoubleMapIteratorOfDoubleMapOfIntegerShape.hxx>
 #define Handle_TCollection_DoubleMapNode Handle_TopOpeBRepDS_DoubleMapNodeOfDoubleMapOfIntegerShape
 #define TCollection_DoubleMapNode_Type_() TopOpeBRepDS_DoubleMapNodeOfDoubleMapOfIntegerShape_Type_()
 #define TCollection_DoubleMap TopOpeBRepDS_DoubleMapOfIntegerShape
-#define TCollection_DoubleMap_hxx <TopOpeBRepDS_DoubleMapOfIntegerShape.hxx>
+#define TCollection_DoubleMap_hxx <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_DoubleMapOfIntegerShape.hxx>
 #include <Foundation/TCollection/TCollection_DoubleMapIterator.gxx>
 

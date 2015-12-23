@@ -14,8 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopOpeBRepDS_Transition.hxx>
-#include <TopOpeBRepDS_EdgeVertexInterference.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Transition.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_EdgeVertexInterference.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TopOpeBRepDS_EdgeVertexInterference)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(TopOpeBRepDS_EdgeVertexInterference)
 IMPLEMENT_DOWNCAST(TopOpeBRepDS_EdgeVertexInterference,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TopOpeBRepDS_EdgeVertexInterference)
-#include <TopOpeBRepDS_Kind.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Kind.hxx>
 
 //=======================================================================
 //function : TopOpeBRepDS_EdgeVertexInterference

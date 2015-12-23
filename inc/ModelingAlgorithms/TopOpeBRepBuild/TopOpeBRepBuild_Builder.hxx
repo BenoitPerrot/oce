@@ -13,11 +13,11 @@
 #include <ModelingData/TopAbs/TopAbs_State.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Handle_TopOpeBRepDS_HDataStructure.hxx>
-#include <TopOpeBRepDS_BuildTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_BuildTool.hxx>
 #include <Handle_TopTools_HArray1OfShape.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfIntegerListOfShape.hxx>
 #include <Handle_TopTools_HArray1OfListOfShape.hxx>
-#include <TopOpeBRepDS_DataMapOfShapeListOfShapeOn1State.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_DataMapOfShapeListOfShapeOn1State.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeListOfShape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
@@ -33,7 +33,7 @@
 #include <ModelingData/TopTools/TopTools_IndexedMapOfOrientedShape.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
-#include <TopOpeBRepDS_Config.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Config.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 class TopOpeBRepDS_HDataStructure;

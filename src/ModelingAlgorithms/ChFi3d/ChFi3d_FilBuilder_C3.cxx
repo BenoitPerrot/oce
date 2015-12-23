@@ -99,10 +99,10 @@
 #include <ModelingAlgorithms/ChFiDS/ChFiDS_ListIteratorOfListOfStripe.hxx>
 #include <ModelingAlgorithms/ChFiDS/ChFiDS_Regul.hxx>
 
-#include <TopOpeBRepDS_HDataStructure.hxx>
-#include <TopOpeBRepDS_DataStructure.hxx>
-#include <TopOpeBRepDS_Curve.hxx>
-#include <TopOpeBRepDS_Surface.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_HDataStructure.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_DataStructure.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Curve.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Surface.hxx>
 
 #include <ModelingAlgorithms/ChFiKPart/ChFiKPart_ComputeData.hxx>
 #include <ModelingAlgorithms/BRepBlend/BRepBlend_Line.hxx>

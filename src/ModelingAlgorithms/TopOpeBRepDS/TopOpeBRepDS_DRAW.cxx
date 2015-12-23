@@ -16,7 +16,7 @@
 
 #ifdef DRAW
 #include <TopOpeBRepTool_DRAW.hxx>
-#include <TopOpeBRepDS_DRAW.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_DRAW.hxx>
 
 #include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 #include <Viewer/DBRep/DBRep.hxx>

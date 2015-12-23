@@ -15,7 +15,7 @@
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeInteger.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <TopOpeBRepDS_Kind.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Kind.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class TopOpeBRep_LineInter;
 class TopOpeBRep_VPointInter;

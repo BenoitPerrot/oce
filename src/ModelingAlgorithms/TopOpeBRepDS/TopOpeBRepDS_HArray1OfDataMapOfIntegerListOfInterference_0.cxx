@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TopOpeBRepDS_HArray1OfDataMapOfIntegerListOfInterference.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_HArray1OfDataMapOfIntegerListOfInterference.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <TopOpeBRepDS_DataMapOfIntegerListOfInterference.hxx>
-#include <TopOpeBRepDS_Array1OfDataMapOfIntegerListOfInterference.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_DataMapOfIntegerListOfInterference.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Array1OfDataMapOfIntegerListOfInterference.hxx>
 
  
 
@@ -31,11 +31,11 @@ IMPLEMENT_STANDARD_RTTI(TopOpeBRepDS_HArray1OfDataMapOfIntegerListOfInterference
 
 
 #define ItemHArray1 TopOpeBRepDS_DataMapOfIntegerListOfInterference
-#define ItemHArray1_hxx <TopOpeBRepDS_DataMapOfIntegerListOfInterference.hxx>
+#define ItemHArray1_hxx <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_DataMapOfIntegerListOfInterference.hxx>
 #define TheArray1 TopOpeBRepDS_Array1OfDataMapOfIntegerListOfInterference
-#define TheArray1_hxx <TopOpeBRepDS_Array1OfDataMapOfIntegerListOfInterference.hxx>
+#define TheArray1_hxx <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Array1OfDataMapOfIntegerListOfInterference.hxx>
 #define TCollection_HArray1 TopOpeBRepDS_HArray1OfDataMapOfIntegerListOfInterference
-#define TCollection_HArray1_hxx <TopOpeBRepDS_HArray1OfDataMapOfIntegerListOfInterference.hxx>
+#define TCollection_HArray1_hxx <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_HArray1OfDataMapOfIntegerListOfInterference.hxx>
 #define Handle_TCollection_HArray1 Handle_TopOpeBRepDS_HArray1OfDataMapOfIntegerListOfInterference
 #define TCollection_HArray1_Type_() TopOpeBRepDS_HArray1OfDataMapOfIntegerListOfInterference_Type_()
 #include <Foundation/TCollection/TCollection_HArray1.gxx>

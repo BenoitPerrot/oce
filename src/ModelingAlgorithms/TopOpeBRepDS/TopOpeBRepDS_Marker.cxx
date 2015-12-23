@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TColStd/TColStd_HArray1OfBoolean.hxx>
-#include <TopOpeBRepDS_Marker.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Marker.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TopOpeBRepDS_Marker)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -25,7 +25,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(TopOpeBRepDS_Marker)
 IMPLEMENT_DOWNCAST(TopOpeBRepDS_Marker,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TopOpeBRepDS_Marker)
-#include <TopOpeBRepDS_define.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_define.hxx>
 //#include <ModelingData/TopExp/TopExp.hxx>
 //#include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 

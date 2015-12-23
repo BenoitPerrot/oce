@@ -8,7 +8,7 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TopOpeBRepDS_Interference.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Interference.hxx>
 #include <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo_DataMapNodeOfDataMapOfShapeInterference.hxx>
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo_DataMapIteratorOfDataMapOfShapeInterference.hxx>
@@ -17,7 +17,7 @@
 #define TheKey TopoDS_Shape
 #define TheKey_hxx <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #define TheItem Handle(TopOpeBRepDS_Interference)
-#define TheItem_hxx <TopOpeBRepDS_Interference.hxx>
+#define TheItem_hxx <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Interference.hxx>
 #define Hasher TopTools_ShapeMapHasher
 #define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode BRepAlgo_DataMapNodeOfDataMapOfShapeInterference

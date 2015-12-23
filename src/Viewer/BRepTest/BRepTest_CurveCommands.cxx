@@ -66,7 +66,7 @@
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_EdgesIntersector.hxx>
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_Point2d.hxx>
-#include <TopOpeBRepDS_Transition.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Transition.hxx>
 
 #include <stdio.h>
 #ifdef WNT

@@ -17,7 +17,7 @@
 #ifndef _TopOpeBRepDS_samdom_HeaderFile
 #define _TopOpeBRepDS_samdom_HeaderFile
 
-#include <TopOpeBRepDS_define.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_define.hxx>
 
 Standard_EXPORT void FDSSDM_prepare(const Handle(TopOpeBRepDS_HDataStructure)&);
 Standard_EXPORT void FDSSDM_makes1s2(const TopoDS_Shape& S,TopTools_ListOfShape& L1,TopTools_ListOfShape& L2);

@@ -15,15 +15,15 @@
 // commercial license or contractual agreement.
 
 #include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_HBuilder.hxx>
-#include <TopOpeBRepDS_HDataStructure.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_HDataStructure.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Viewer/TestTopOpe/TestTopOpe.hxx>
 #include <Viewer/TestTopOpeTools/TestTopOpeTools.hxx>
 #include <Viewer/TestTopOpeDraw/TestTopOpeDraw.hxx>
 #include <Viewer/TestTopOpe/TestTopOpe_HDSDisplayer.hxx>
 #include <Viewer/TestTopOpe/TestTopOpe_BOOP.hxx>
-#include <TopOpeBRepDS_DSX.hxx>
-#include <TopOpeBRepDS_Dumper.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_DSX.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Dumper.hxx>
 #include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <Viewer/Draw/Draw_PluginMacro.hxx>
 #include <Viewer/BOPTest/BOPTest.hxx>

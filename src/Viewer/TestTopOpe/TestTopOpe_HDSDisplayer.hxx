@@ -17,7 +17,7 @@
 #ifndef _TestTopOpe_HDSDisplayer_HeaderFile
 #define _TestTopOpe_HDSDisplayer_HeaderFile
 
-#include <TopOpeBRepDS_define.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_define.hxx>
 
 class TestTopOpe_HDSDisplayer {
 

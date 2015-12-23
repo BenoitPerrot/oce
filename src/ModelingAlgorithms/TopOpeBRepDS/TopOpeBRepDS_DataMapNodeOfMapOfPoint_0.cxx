@@ -3,14 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TopOpeBRepDS_DataMapNodeOfMapOfPoint.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_DataMapNodeOfMapOfPoint.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <TopOpeBRepDS_PointData.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_PointData.hxx>
 #include <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
-#include <TopOpeBRepDS_MapOfPoint.hxx>
-#include <TopOpeBRepDS_DataMapIteratorOfMapOfPoint.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_MapOfPoint.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_DataMapIteratorOfMapOfPoint.hxx>
 
  
 
@@ -32,16 +32,16 @@ IMPLEMENT_STANDARD_RTTI(TopOpeBRepDS_DataMapNodeOfMapOfPoint)
 #define TheKey Standard_Integer
 #define TheKey_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheItem TopOpeBRepDS_PointData
-#define TheItem_hxx <TopOpeBRepDS_PointData.hxx>
+#define TheItem_hxx <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_PointData.hxx>
 #define Hasher TColStd_MapIntegerHasher
 #define Hasher_hxx <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #define TCollection_DataMapNode TopOpeBRepDS_DataMapNodeOfMapOfPoint
-#define TCollection_DataMapNode_hxx <TopOpeBRepDS_DataMapNodeOfMapOfPoint.hxx>
+#define TCollection_DataMapNode_hxx <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_DataMapNodeOfMapOfPoint.hxx>
 #define TCollection_DataMapIterator TopOpeBRepDS_DataMapIteratorOfMapOfPoint
-#define TCollection_DataMapIterator_hxx <TopOpeBRepDS_DataMapIteratorOfMapOfPoint.hxx>
+#define TCollection_DataMapIterator_hxx <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_DataMapIteratorOfMapOfPoint.hxx>
 #define Handle_TCollection_DataMapNode Handle_TopOpeBRepDS_DataMapNodeOfMapOfPoint
 #define TCollection_DataMapNode_Type_() TopOpeBRepDS_DataMapNodeOfMapOfPoint_Type_()
 #define TCollection_DataMap TopOpeBRepDS_MapOfPoint
-#define TCollection_DataMap_hxx <TopOpeBRepDS_MapOfPoint.hxx>
+#define TCollection_DataMap_hxx <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_MapOfPoint.hxx>
 #include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

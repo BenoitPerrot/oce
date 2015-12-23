@@ -12,27 +12,27 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopOpeBRepDS_HDataStructure.hxx>
-#include <TopOpeBRepDS_EIR.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_HDataStructure.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_EIR.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
-#include <TopOpeBRepDS_CurvePointInterference.hxx>
-#include <TopOpeBRepDS_Dumper.hxx>
-#include <TopOpeBRepDS_Edge3dInterferenceTool.hxx>
-#include <TopOpeBRepDS_EdgeInterferenceTool.hxx>
-#include <TopOpeBRepDS_EdgeVertexInterference.hxx>
-#include <TopOpeBRepDS_Interference.hxx>
-#include <TopOpeBRepDS_TKI.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_CurvePointInterference.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Dumper.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Edge3dInterferenceTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_EdgeInterferenceTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_EdgeVertexInterference.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Interference.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_TKI.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
-#include <TopOpeBRepDS_ProcessInterferencesTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_ProcessInterferencesTool.hxx>
 #include <TopOpeBRepTool_EXPORT.hxx>
-#include <TopOpeBRepDS_EXPORT.hxx>
-#include <TopOpeBRepDS_define.hxx>
-#include <TopOpeBRepDS_repvg.hxx>
-#include <TopOpeBRepDS_connex.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_EXPORT.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_define.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_repvg.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_connex.hxx>
 #include <TopOpeBRepTool_TOOL.hxx>
 #ifdef OCCT_DEBUG
-#include <TopOpeBRepDS_reDEB.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_reDEB.hxx>
 Standard_EXPORT void debredpnc(const Standard_Integer ie){cout<<"+++ debredpnc e"<<ie<<endl;}
 extern Standard_Boolean TopOpeBRepDS_GetcontextNOPNC();
 #endif

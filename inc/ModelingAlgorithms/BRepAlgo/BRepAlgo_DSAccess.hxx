@@ -24,7 +24,7 @@
 #include <Foundation/TColStd/TColStd_PackedMapOfInteger.hxx>
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo_CheckStatus.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <TopOpeBRepDS_Kind.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Kind.hxx>
 class TopOpeBRepDS_HDataStructure;
 class TopOpeBRepBuild_HBuilder;
 class BRepAlgo_EdgeConnector;

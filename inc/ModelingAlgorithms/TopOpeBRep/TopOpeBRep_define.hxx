@@ -17,7 +17,7 @@
 #ifndef _TopOpeBRep_define_HeaderFile
 #define _TopOpeBRep_define_HeaderFile
 
-#include <TopOpeBRepDS_define.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_define.hxx>
 
 #define MTPvpic TopOpeBRep_VPointInterClassifier
 #define MTPvpii TopOpeBRep_VPointInterIterator

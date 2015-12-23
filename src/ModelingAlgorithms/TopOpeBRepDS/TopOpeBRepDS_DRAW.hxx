@@ -18,7 +18,7 @@
 #define _TopOpeBRepDS_DRAW_HeaderFile
 
 #ifdef DRAW
-#include <TopOpeBRepDS_define.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_define.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
 #include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>

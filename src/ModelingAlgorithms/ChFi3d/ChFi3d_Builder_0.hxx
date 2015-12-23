@@ -17,11 +17,11 @@
 #ifndef ChFi3d_Builder_0_HeaderFile
 #define ChFi3d_Builder_0_HeaderFile
 
-#include <TopOpeBRepDS_SurfaceCurveInterference.hxx>
-#include <TopOpeBRepDS_CurvePointInterference.hxx>
-#include <TopOpeBRepDS_DataStructure.hxx>
-#include <TopOpeBRepDS_Curve.hxx>
-#include <TopOpeBRepDS_Surface.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_SurfaceCurveInterference.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_CurvePointInterference.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_DataStructure.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Curve.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Surface.hxx>
 #include <ModelingAlgorithms/BRepBlend/BRepBlend_Extremity.hxx>
 #include <ModelingAlgorithms/ChFiDS/ChFiDS_Stripe.hxx>
 #include <ModelingAlgorithms/ChFiDS/ChFiDS_SurfData.hxx>

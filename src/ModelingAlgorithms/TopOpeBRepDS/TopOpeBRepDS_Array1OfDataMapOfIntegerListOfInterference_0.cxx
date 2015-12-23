@@ -3,18 +3,18 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TopOpeBRepDS_Array1OfDataMapOfIntegerListOfInterference.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Array1OfDataMapOfIntegerListOfInterference.hxx>
 
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <TopOpeBRepDS_DataMapOfIntegerListOfInterference.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_DataMapOfIntegerListOfInterference.hxx>
  
 
 #define Array1Item TopOpeBRepDS_DataMapOfIntegerListOfInterference
-#define Array1Item_hxx <TopOpeBRepDS_DataMapOfIntegerListOfInterference.hxx>
+#define Array1Item_hxx <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_DataMapOfIntegerListOfInterference.hxx>
 #define TCollection_Array1 TopOpeBRepDS_Array1OfDataMapOfIntegerListOfInterference
-#define TCollection_Array1_hxx <TopOpeBRepDS_Array1OfDataMapOfIntegerListOfInterference.hxx>
+#define TCollection_Array1_hxx <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Array1OfDataMapOfIntegerListOfInterference.hxx>
 #include <Foundation/TCollection/TCollection_Array1.gxx>
 

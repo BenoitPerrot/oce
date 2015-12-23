@@ -18,7 +18,7 @@
 #define _TopOpeBRepDS_reDEB_HeaderFile
 
 #ifdef OCCT_DEBUG
-#include <TopOpeBRepDS_define.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_define.hxx>
 Standard_EXPORT Standard_Boolean TopOpeBRepDS_GettracePEI();
 Standard_EXPORT Standard_Boolean TopOpeBRepDS_GettracePI();
 Standard_EXPORT Standard_Boolean TopOpeBRepDS_GettraceSPSX(const Standard_Integer);

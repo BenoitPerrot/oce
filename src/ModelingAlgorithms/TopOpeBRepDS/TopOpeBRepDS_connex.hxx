@@ -17,7 +17,7 @@
 #ifndef _TopOpeBRepDS_connex_HeaderFile
 #define _TopOpeBRepDS_connex_HeaderFile
 
-#include <TopOpeBRepDS_define.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_define.hxx>
 
 Standard_EXPORT const TopTools_ListOfShape& FDSCNX_EdgeConnexityShapeIndex(const TopoDS_Shape& E,const Handle(TopOpeBRepDS_HDataStructure)& HDS,const Standard_Integer SI);
 Standard_EXPORT const TopTools_ListOfShape& FDSCNX_EdgeConnexitySameShape(const TopoDS_Shape& E,const Handle(TopOpeBRepDS_HDataStructure)& HDS);

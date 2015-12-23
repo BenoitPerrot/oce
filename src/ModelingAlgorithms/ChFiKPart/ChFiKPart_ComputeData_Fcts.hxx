@@ -24,7 +24,7 @@
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
-#include <TopOpeBRepDS_DataStructure.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_DataStructure.hxx>
 
 Standard_Real  ChFiKPart_InPeriod(const Standard_Real U, 
 				  const Standard_Real UFirst, 

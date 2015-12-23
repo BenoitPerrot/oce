@@ -14,11 +14,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopOpeBRepDS_samdom.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_samdom.hxx>
 
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
-#include <TopOpeBRepDS_define.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_define.hxx>
 
 static TopTools_IndexedDataMapOfShapeListOfShape *Gps1 = NULL; 
 static TopTools_IndexedDataMapOfShapeListOfShape *Gps2 = NULL; 

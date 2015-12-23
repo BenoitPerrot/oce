@@ -17,8 +17,8 @@
 #ifndef _TopOpeBRepDS_EXPORT_HeaderFile
 #define _TopOpeBRepDS_EXPORT_HeaderFile
 
-#include <TopOpeBRepDS_define.hxx>
-#include <TopOpeBRepDS_DataMapOfShapeListOfShapeOn1State.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_define.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_DataMapOfShapeListOfShapeOn1State.hxx>
 // TopOpeBRepDS_redu.cxx
 Standard_EXPORT void FUN_scanloi(const TopOpeBRepDS_ListOfInterference& lII, 
 				 TopOpeBRepDS_ListOfInterference& lFOR, Standard_Integer& FOR,

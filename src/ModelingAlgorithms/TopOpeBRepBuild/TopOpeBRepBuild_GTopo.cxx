@@ -18,7 +18,7 @@
 #include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_GTopo.hxx>
 
 #include <Foundation/Standard/Standard_ProgramError.hxx>
-#include <TopOpeBRepDS.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
 
 //=======================================================================

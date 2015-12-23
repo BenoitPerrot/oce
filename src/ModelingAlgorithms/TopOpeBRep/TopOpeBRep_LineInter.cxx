@@ -26,7 +26,7 @@
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_WPointInter.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TopOpeBRepDS_Transition.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Transition.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_Bipoint.hxx>
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_LineInter.hxx>

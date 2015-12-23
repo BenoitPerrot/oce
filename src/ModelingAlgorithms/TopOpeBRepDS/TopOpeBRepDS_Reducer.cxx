@@ -12,12 +12,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopOpeBRepDS_HDataStructure.hxx>
-#include <TopOpeBRepDS_DataMapOfShapeListOfShapeOn1State.hxx>
-#include <TopOpeBRepDS_Reducer.hxx>
-#include <TopOpeBRepDS_EIR.hxx>
-#include <TopOpeBRepDS_FIR.hxx>
-#include <TopOpeBRepDS_EXPORT.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_HDataStructure.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_DataMapOfShapeListOfShapeOn1State.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Reducer.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_EIR.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_FIR.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_EXPORT.hxx>
 
 //=======================================================================
 //function : TopOpeBRepDS_Reducer

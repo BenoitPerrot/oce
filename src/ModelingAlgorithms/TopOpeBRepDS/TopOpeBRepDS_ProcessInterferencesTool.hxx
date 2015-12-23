@@ -17,8 +17,8 @@
 #ifndef _TopOpeBRepDS_ProcessInterferencesTool_HeaderFile
 #define _TopOpeBRepDS_ProcessInterferencesTool_HeaderFile
 
-#include <TopOpeBRepDS_define.hxx>
-#include <TopOpeBRepDS_EXPORT.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_define.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_EXPORT.hxx>
 Standard_EXPORT Handle(TopOpeBRepDS_Interference) MakeCPVInterference
 (const TopOpeBRepDS_Transition& T, // transition
  const Standard_Integer S, // curve/edge index

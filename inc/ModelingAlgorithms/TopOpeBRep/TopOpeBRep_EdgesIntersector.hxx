@@ -26,7 +26,7 @@
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_SequenceOfPoint2d.hxx>
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_P2Dstatus.hxx>
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
-#include <TopOpeBRepDS_Config.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Config.hxx>
 class BRepAdaptor_HSurface;
 class TopoDS_Shape;
 class Bnd_Box;
