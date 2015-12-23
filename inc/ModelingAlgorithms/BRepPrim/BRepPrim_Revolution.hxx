@@ -12,7 +12,7 @@
 
 #include <Handle_Geom_Curve.hxx>
 #include <Handle_Geom2d_Curve.hxx>
-#include <BRepPrim_OneAxis.hxx>
+#include <ModelingAlgorithms/BRepPrim/BRepPrim_OneAxis.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class Geom_Curve;
 class Geom2d_Curve;

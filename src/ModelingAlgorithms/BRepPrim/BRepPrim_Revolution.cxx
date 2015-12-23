@@ -20,7 +20,7 @@
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <BRepPrim_Revolution.hxx>
+#include <ModelingAlgorithms/BRepPrim/BRepPrim_Revolution.hxx>
 
 #include <Precision.hxx>
 #include <Geometry/Geom/Geom_SurfaceOfRevolution.hxx>

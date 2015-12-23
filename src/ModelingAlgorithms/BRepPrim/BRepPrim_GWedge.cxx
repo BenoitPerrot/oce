@@ -16,7 +16,7 @@
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <BRepPrim_Builder.hxx>
+#include <ModelingAlgorithms/BRepPrim/BRepPrim_Builder.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shell.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
@@ -26,7 +26,7 @@
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <BRepPrim_GWedge.hxx>
+#include <ModelingAlgorithms/BRepPrim/BRepPrim_GWedge.hxx>
 
 #include <Precision.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
@@ -40,8 +40,8 @@
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
-#include <BRepPrim_Builder.hxx>
-#include <BRepPrim_Direction.hxx>
+#include <ModelingAlgorithms/BRepPrim/BRepPrim_Builder.hxx>
+#include <ModelingAlgorithms/BRepPrim/BRepPrim_Direction.hxx>
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>

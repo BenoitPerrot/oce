@@ -20,7 +20,7 @@
 #include <ModelingData/TopoDS/TopoDS_Solid.hxx>
 #include <BRepPrimAPI_MakeOneAxis.hxx>
 #include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI.hxx>
-#include <BRepPrim_OneAxis.hxx>
+#include <ModelingAlgorithms/BRepPrim/BRepPrim_OneAxis.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 
 //=======================================================================

@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <BRepPrim_Builder.hxx>
+#include <ModelingAlgorithms/BRepPrim/BRepPrim_Builder.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shell.hxx>

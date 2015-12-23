@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <BRepPrim_Torus.hxx>
+#include <ModelingAlgorithms/BRepPrim/BRepPrim_Torus.hxx>
 #include <BRepPrimAPI_MakeOneAxis.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>

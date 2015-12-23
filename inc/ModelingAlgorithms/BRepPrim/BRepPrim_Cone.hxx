@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <BRepPrim_Revolution.hxx>
+#include <ModelingAlgorithms/BRepPrim/BRepPrim_Revolution.hxx>
 class Standard_DomainError;
 class gp_Ax2;
 class gp_Pnt;

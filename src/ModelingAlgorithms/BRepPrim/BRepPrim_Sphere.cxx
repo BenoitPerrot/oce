@@ -18,7 +18,7 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
-#include <BRepPrim_Sphere.hxx>
+#include <ModelingAlgorithms/BRepPrim/BRepPrim_Sphere.hxx>
 
 #include <Mathematics/Primitives/gp.hxx>
 #include <Mathematics/Primitives/gp_Ax2d.hxx>

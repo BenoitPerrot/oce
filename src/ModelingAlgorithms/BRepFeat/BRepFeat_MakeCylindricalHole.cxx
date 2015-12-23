@@ -27,7 +27,7 @@
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <BRepPrim_Cylinder.hxx>
+#include <ModelingAlgorithms/BRepPrim/BRepPrim_Cylinder.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Solid.hxx>

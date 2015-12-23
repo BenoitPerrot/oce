@@ -16,7 +16,7 @@
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>
-#include <BRepPrim_Cone.hxx>
+#include <ModelingAlgorithms/BRepPrim/BRepPrim_Cone.hxx>
 #include <BRepPrimAPI_MakeCone.hxx>
 #include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI.hxx>
 

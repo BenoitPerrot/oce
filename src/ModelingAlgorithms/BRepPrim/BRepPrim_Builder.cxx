@@ -26,7 +26,7 @@
 #include <Mathematics/Primitives/gp_Circ2d.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <BRepPrim_Builder.hxx>
+#include <ModelingAlgorithms/BRepPrim/BRepPrim_Builder.hxx>
 
 #include <Precision.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>

@@ -25,10 +25,10 @@
 #include <VrmlData_Sphere.hxx>
 #include <VrmlData_UnknownNode.hxx>
 #include <BRepPrimAPI_MakeBox.hxx>
-#include <BRepPrim_Cone.hxx>
-#include <BRepPrim_Cylinder.hxx>
-#include <BRepPrim_Sphere.hxx>
-#include <BRepPrim_Builder.hxx>
+#include <ModelingAlgorithms/BRepPrim/BRepPrim_Cone.hxx>
+#include <ModelingAlgorithms/BRepPrim/BRepPrim_Cylinder.hxx>
+#include <ModelingAlgorithms/BRepPrim/BRepPrim_Sphere.hxx>
+#include <ModelingAlgorithms/BRepPrim/BRepPrim_Builder.hxx>
 #include <Foundation/NCollection/NCollection_Vector.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 

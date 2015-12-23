@@ -19,14 +19,14 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>
-#include <BRepPrim_Wedge.hxx>
+#include <ModelingAlgorithms/BRepPrim/BRepPrim_Wedge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shell.hxx>
 #include <ModelingData/TopoDS/TopoDS_Solid.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <BRepPrimAPI_MakeBox.hxx>
 #include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
-#include <BRepPrim_Direction.hxx>
+#include <ModelingAlgorithms/BRepPrim/BRepPrim_Direction.hxx>
 
 
 inline gp_Pnt pmin(const gp_Pnt& p, 

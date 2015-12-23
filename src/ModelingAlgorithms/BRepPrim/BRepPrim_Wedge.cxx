@@ -16,7 +16,7 @@
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>
-#include <BRepPrim_Wedge.hxx>
+#include <ModelingAlgorithms/BRepPrim/BRepPrim_Wedge.hxx>
 
 
 

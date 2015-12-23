@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <BRepPrim_GWedge.hxx>
+#include <ModelingAlgorithms/BRepPrim/BRepPrim_GWedge.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class Standard_DomainError;
 class gp_Ax2;

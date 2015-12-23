@@ -21,7 +21,7 @@
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
-#include <BRepPrim_FaceBuilder.hxx>
+#include <ModelingAlgorithms/BRepPrim/BRepPrim_FaceBuilder.hxx>
 #include <Precision.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>

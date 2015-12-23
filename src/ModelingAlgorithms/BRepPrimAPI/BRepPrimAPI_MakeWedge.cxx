@@ -17,7 +17,7 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>
-#include <BRepPrim_Wedge.hxx>
+#include <ModelingAlgorithms/BRepPrim/BRepPrim_Wedge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shell.hxx>
 #include <ModelingData/TopoDS/TopoDS_Solid.hxx>
 #include <BRepPrimAPI_MakeWedge.hxx>

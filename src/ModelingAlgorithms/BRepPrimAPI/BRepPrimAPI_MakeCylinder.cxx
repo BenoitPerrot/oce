@@ -16,7 +16,7 @@
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>
-#include <BRepPrim_Cylinder.hxx>
+#include <ModelingAlgorithms/BRepPrim/BRepPrim_Cylinder.hxx>
 #include <BRepPrimAPI_MakeCylinder.hxx>
 #include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI.hxx>
 

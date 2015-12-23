@@ -145,7 +145,7 @@ private:
 };
 
 
-#include <BRepPrim_Builder.lxx>
+#include <ModelingAlgorithms/BRepPrim/BRepPrim_Builder.lxx>
 
 
 
